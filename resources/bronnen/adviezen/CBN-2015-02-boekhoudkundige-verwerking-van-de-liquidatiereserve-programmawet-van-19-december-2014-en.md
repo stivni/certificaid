@@ -12,32 +12,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:42Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: tabelrij op regels 189–190 is gesplitst over twee regels — '| aan | 130X | Wettelijke reserve – artikel 184quater WIB 92\\n (31/12/N) | | 40 |' — de cel breekt midden in de tekst, wat de pipe-tabel syntactisch ongeldig maakt. Overige inhoud en tabellen volledig correct."
+    rationale: "E2: tabelrij op regels 196–197 is gesplitst over twee regels — '| | 130X | Wettelijke reserve – artikel 184quater WIB 92\\n (31/12/N) | | 40 |' — de cel breekt midden in de tekst, wat de pipe-tabel syntactisch ongeldig maakt. Inhoud en overige tabellen volledig correct."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 15
-      max_section_chars: 9286
-      file_size_chars: 13763
+      file_size_chars: 13785
       flags: []
+      heading_count: 15
+      max_section_chars: 9308
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "E2: tabelrij op regels 189–190 is gesplitst over twee regels — '| aan | 130X | Wettelijke reserve – artikel 184quater WIB 92\\n (31/12/N) | | 40 |' — de cel breekt midden in de tekst, wat de pipe-tabel syntactisch ongeldig maakt. Overige inhoud en tabellen volledig correct."
+      run_at: '2026-05-11T15:23:42Z'
+      rationale: "E2: tabelrij op regels 196–197 is gesplitst over twee regels — '| | 130X | Wettelijke reserve – artikel 184quater WIB 92\\n (31/12/N) | | 40 |' — de cel breekt midden in de tekst, wat de pipe-tabel syntactisch ongeldig maakt. Inhoud en overige tabellen volledig correct."
       concrete_problemen:
-        - regel: 189
+        - regel: 196
           categorie: E2
           type: other
-          voorbeeld: '| aan | 130X | Wettelijke reserve – artikel 184quater WIB 92\n (31/12/N) | | 40 | — cel over twee regels'
+          voorbeeld: '| | 130X | Wettelijke reserve – artikel 184quater WIB 92\n (31/12/N) | | 40 | — cel over twee regels'
 themas:
   - afzonderlijke aanslag
   - belastingen
@@ -189,6 +189,7 @@ Het bedrag van de liquidatiereserve bedraagt: 2.000 - 570 - 130 = 1.300.
 | aan | 130X | Wettelijke reserve – artikel 184quater WIB 92
  (31/12/N) | | 40 |
 | | 133X | Beschikbare reserves – artikel 184quater WIB 92 (31/12/N) | 1.260 | |
+|---|---|---|---|---|
 
 ## Boeking van het overgedragen verlies uit het voorgaande boekjaar
 

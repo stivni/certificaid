@@ -3,42 +3,44 @@ bron: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
 datum: 2014-04-23
 nummer: CBN-advies 2014/5
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
-      sha256: 2c47eb840e00d394a7b0d827c1f25e2935694f1535011a5c01bb48914d8dad4f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
+    sha256: 2c47eb840e00d394a7b0d827c1f25e2935694f1535011a5c01bb48914d8dad4f
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 2
-      max_section_chars: 3305
       file_size_chars: 3838
       flags: []
+      heading_count: 2
+      max_section_chars: 3305
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct, tekst leest als mens-geschreven markdown. Kort en inhoudelijk volledig advies.
+      rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct, tekst
+        leest als mens-geschreven markdown. Kort en inhoudelijk volledig advies.
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct, tekst leest als mens-geschreven markdown. Kort en inhoudelijk volledig advies.
+    rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct, tekst leest
+      als mens-geschreven markdown. Kort en inhoudelijk volledig advies.
     status: trusted
 themas:
-  - afsluiting
-  - afsluitingsdatum
-  - balansdatum
-  - boekjaar
+- afsluiting
+- afsluitingsdatum
+- balansdatum
+- boekjaar
 ---
 
 # CBN-advies 2014/5 - Afsluitingsdatum van het boekjaar

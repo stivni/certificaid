@@ -2,50 +2,55 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
 datum: 2014-05-14
 gerelateerde_adviezen:
-  - datum: '2014-03-12'
-    titel: De boekhoudkundige verwerking van ontvangen overheidssteun in de vorm van een terugvorderbaar voorschot
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-ontvangen-overheidssteun-in-de-vorm-van-een
-  - datum: '2011-05-04'
-    titel: Overheidssubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
+- datum: '2014-03-12'
+  titel: De boekhoudkundige verwerking van ontvangen overheidssteun in de vorm van
+    een terugvorderbaar voorschot
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-ontvangen-overheidssteun-in-de-vorm-van-een
+- datum: '2011-05-04'
+  titel: Overheidssubsidies
+  url: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
 nummer: CBN-advies 2014/7
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
-      sha256: 129dce5ffd8bae1274c5c90703f3a21c45b14d1e92c28e39261279fbedb589d9
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
+    sha256: 129dce5ffd8bae1274c5c90703f3a21c45b14d1e92c28e39261279fbedb589d9
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 2
-      max_section_chars: 4325
       file_size_chars: 7753
       flags: []
+      heading_count: 2
+      max_section_chars: 4325
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd, tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met correcte verwijzingen naar andere CBN-adviezen.
+      rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd,
+        tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met
+        correcte verwijzingen naar andere CBN-adviezen.
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd, tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met correcte verwijzingen naar andere CBN-adviezen.
+    rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd,
+      tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met correcte
+      verwijzingen naar andere CBN-adviezen.
     status: trusted
 themas:
-  - overheidssteun
-  - eventuele rechten
-  - subsidies
-  - overheidssubsidies
+- overheidssteun
+- eventuele rechten
+- subsidies
+- overheidssubsidies
 ---
 
 # CBN-advies 2014/7 – De boekhoudkundige verwerking van subsidies waarvan de toekenning niet gegarandeerd is (eventuele rechten)

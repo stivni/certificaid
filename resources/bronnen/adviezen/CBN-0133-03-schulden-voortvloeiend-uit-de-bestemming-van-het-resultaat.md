@@ -19,27 +19,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie ETL-artefacten: (1) D4 op L75: '*Belastingen *' heeft een spatie vóór de sluitende asterisk (trailing space in italic span). (2) A6 op L75: 'bruto- bedrag' is een hyphen-spatie word-split. (3) A4 op L89: U+00AC (¬) als koppelteken in 'bruto¬schulden' — PDF-extractie-artefact. Alle drie zijn ETL-fixeerbaar."
+    rationale: "Drie ETL-artefacten: D4 op L75: '*Belastingen *' heeft een spatie vóór de sluitende asterisk (trailing space in italic span). A6 op L75: 'bruto- bedrag' is een hyphen-spatie word-split. A4 op L89: U+00AC (¬) als koppelteken in 'bruto¬schulden' — PDF-extractie-artefact. Bevestiging van eerder layer2-verdict."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 4040
       file_size_chars: 4040
       flags: []
+      heading_count: 0
+      max_section_chars: 4040
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "Drie ETL-artefacten: (1) D4 op L75: '*Belastingen *' heeft een spatie vóór de sluitende asterisk (trailing space in italic span). (2) A6 op L75: 'bruto- bedrag' is een hyphen-spatie word-split. (3) A4 op L89: U+00AC (¬) als koppelteken in 'bruto¬schulden' — PDF-extractie-artefact. Alle drie zijn ETL-fixeerbaar."
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: "Drie ETL-artefacten: D4 op L75: '*Belastingen *' heeft een spatie vóór de sluitende asterisk (trailing space in italic span). A6 op L75: 'bruto- bedrag' is een hyphen-spatie word-split. A4 op L89: U+00AC (¬) als koppelteken in 'bruto¬schulden' — PDF-extractie-artefact. Bevestiging van eerder layer2-verdict."
       concrete_problemen:
         - regel: 75
           categorie: D4

@@ -3,43 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/jaarrekeningrechtelijke-analyse-van-de-
 datum: 2021-10-12
 nummer: CBN-advies 2021/14
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv
-      sha256: ce291b71d6d5e3716d3c3fadf7736b5975e0e1eb86e9958eeefb190e5b556f84
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv
+    sha256: ce291b71d6d5e3716d3c3fadf7736b5975e0e1eb86e9958eeefb190e5b556f84
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
+      file_size_chars: 39635
+      flags: []
       heading_count: 16
       max_section_chars: 21051
-      file_size_chars: 39608
-      flags: []
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 17 headings, 65 voetnoten, twee concrete balanstabellen als Markdown-tabellen. De langste sectie (24.478 chars) valt net boven de drempel maar bevat de volledige kern. RAG-ready.'
+      rationale: '[Laag-2-R2 2026-05-08] 17 headings, 65 voetnoten, twee concrete
+        balanstabellen als Markdown-tabellen. De langste sectie (24.478 chars) valt
+        net boven de drempel maar bevat de volledige kern. RAG-ready.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - alarmbelprocedure
-  - nettoactief
-  - gecorrigeerd nettoactief
-  - uitkeerbare winst
-  - continuïteit
+- alarmbelprocedure
+- nettoactief
+- gecorrigeerd nettoactief
+- uitkeerbare winst
+- continuïteit
 ---
 
 # CBN-advies 2021/14 – Jaarrekeningrechtelijke analyse van de alarmbelprocedure onder het WVV
@@ -129,6 +131,7 @@ Bij de redactie van een tussentijdse staat van NV[^38]
  B, stelt het bestuursorgaan vast dat de balans van deze naamloze vennootschap, als gevolg van de geleden verliezen, er als volgt uitziet: 
 
 | Activa | | Passiva | 
+|---|---|---|
 | III. Materiële vaste activa | | 25.000 | | I. Inbreng | | | 
 | V. Vorderingen op meer dan een jaar | | 15.000 | | A. Kapitaal | | | 
 | VI. Voorraden en bestellingen in uitvoering | | 30.000 | | 1. Geplaatst kapitaal | | 70.000 | 
@@ -152,6 +155,7 @@ Om te achterhalen of de alarmbelprocedure aangevat moet worden, dient het bestuu
 Bij de redactie van een tussentijdse staat van NV C, stelt het bestuursorgaan vast dat de balans van deze naamloze vennootschap, als gevolg van de geleden verliezen, er als volgt uitziet:
 
 | Activa | | Passiva | 
+|---|---|---|
 | I. Oprichtingskosten | | 10.000 | | I. Inbreng | | | 
 | III. Materiële vaste activa | | 25.000 | | A. Kapitaal | | | 
 | V. Vorderingen op meer dan een jaar | | 15.000 | | 1. Geplaatst kapitaal | | 80.000 | 
@@ -180,7 +184,7 @@ Indien de algemene vergadering niet overeenkomstig de overeenstemmende bepalinge
 
 Het belang van de correcte toepassing van de alarmbelprocedure door het bestuursorgaan mag dan ook niet worden onderschat.
 
-### Frequentie en stukken 
+### Frequentie en stukken
 
 Het WVV bepaalt niet uitdrukkelijk op grond van welke stukken en wanneer het overschrijden van de drempels moet worden vastgesteld[^42].
 

@@ -25,40 +25,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:13Z'
+    confirmed_at: '2026-05-11T15:26:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: regel 96 bevat een aaneengesloten TOC-restant ('-- Horizontale consolidatie -- Verticale consolidatie voorafgaand aan de horizontale consolidatie Belangen van derden Bezit van eigen aandelen') zonder opmaak, direct na een geïndenteerde TOC-sectie (regels 70–95). B1/B2: regels 165, 174, 181 gebruiken ### als heading voor 'a (natuurlijke persoon) bezit 25 %' — aandeelhoudersverdeling als sectie-heading is een extractie-artefact; dit is gewone lijstcontent. Inhoud verder compleet."
+    rationale: "B5/B2: regels 139 en 148 bevatten '### a (natuurlijke persoon) bezit 25 %' en '### a (natuurlijke persoon) bezit 5 %' als ###-headings — dit zijn aandeelhouderspercentages in een opsomming die onterecht als structuur-heading zijn gemarkeerd door de extractor. De overige aandeelhouders (b, c, d, e) op dezelfde regels staan als plain text met inspringen — inconsistente behandeling van dezelfde lijst. C3: de inspringende regels (5 spaties voor b/c/d/e) zijn pseudo-kolom-uitlijning."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 29
-      max_section_chars: 18592
-      file_size_chars: 51884
+      file_size_chars: 50801
       flags: []
+      heading_count: 29
+      max_section_chars: 18706
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:13Z'
-      rationale: "A3: regel 96 bevat een aaneengesloten TOC-restant ('-- Horizontale consolidatie -- Verticale consolidatie voorafgaand aan de horizontale consolidatie Belangen van derden Bezit van eigen aandelen') zonder opmaak, direct na een geïndenteerde TOC-sectie (regels 70–95). B1/B2: regels 165, 174, 181 gebruiken ### als heading voor 'a (natuurlijke persoon) bezit 25 %' — aandeelhoudersverdeling als sectie-heading is een extractie-artefact; dit is gewone lijstcontent. Inhoud verder compleet."
+      run_at: '2026-05-11T15:26:40Z'
+      rationale: "B5/B2: regels 139 en 148 bevatten '### a (natuurlijke persoon) bezit 25 %' en '### a (natuurlijke persoon) bezit 5 %' als ###-headings — dit zijn aandeelhouderspercentages in een opsomming die onterecht als structuur-heading zijn gemarkeerd door de extractor. De overige aandeelhouders (b, c, d, e) op dezelfde regels staan als plain text met inspringen — inconsistente behandeling van dezelfde lijst. C3: de inspringende regels (5 spaties voor b/c/d/e) zijn pseudo-kolom-uitlijning."
       concrete_problemen:
-        - regel: 96
-          categorie: A3
+        - regel: 139
+          categorie: B2
           type: other
-          voorbeeld: -- Horizontale consolidatie -- Verticale consolidatie voorafgaand aan de horizontale consolidatie Belangen van derden Bezit van eigen aandelen
-        - regel: 165
-          categorie: B1
+          voorbeeld: '### a (natuurlijke persoon) bezit 25 % [lijst-item als ###-heading; b/c/d als plain-text met inspringen]'
+        - regel: 148
+          categorie: B2
           type: other
-          voorbeeld: '### a (natuurlijke persoon) bezit 25 % (aandeelhoudersverdeling als heading, geen sectie-titel)'
-        - regel: 174
-          categorie: B1
-          type: other
-          voorbeeld: '### a (natuurlijke persoon) bezit 5 % (idem)'
+          voorbeeld: '### a (natuurlijke persoon) bezit 5 % [zelfde patroon voor vennootschap Y]'
+        - regel: 141
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '     b (natuurlijke persoon) bezit 24 % [5 spaties inspringen als pseudo-kolom]'
 themas:
   - consolidatie
   - horizontale groep
@@ -78,34 +78,6 @@ themas:
 ---
 
 # CBN-advies 2022/09 – Consolidatie bij de horizontale groep (consortium)
-
-1. Inleiding 
-2. Definitie 
-  1. Horizontale groep 
-  2. Wettelijke vermoedens van centrale leiding 
-  3. Moment waarop de aanwezigheid van de centrale leiding moet worden vastgesteld 
-  4. Belang voor de opstelling van de statutaire jaarrekening 
-  5. Voorbeelden 
-
-3. Consolidatieverplichting en vrijstelling van consolidatie 
-  1. Consolidatieverplichting – Consoliderende vennootschap 
-  2. Consolidatiekring 
-  3. Beoordeling groottecriteria ingeval van een consortium 
-  4. Vrijstelling van subconsolidatie door een moedervennootschap die opgenomen is in de consolidatiekring bij een consortium 
-  5. Wie moet de geconsolideerde jaarrekening neerleggen? 
-  6. Vennootschappen A en B vormen een consortium en sluiten hun boekjaar niet af op dezelfde datum 
-  7. De commissaris bij een consortium 
-  8. In welke munt en volgens welke wetgeving moet de geconsolideerde jaarrekening worden opgesteld? 
-
-4. Consolidatiemethode
-
-  1. Horizontale consolidatie 
-  2. Verticale consolidatie voorafgaand aan de horizontale consolidatie 
-
-5. Belangen van derden 
-6. Bezit van eigen aandelen 
-
--- Horizontale consolidatie -- Verticale consolidatie voorafgaand aan de horizontale consolidatie Belangen van derden Bezit van eigen aandelen 
 
 ## Inleiding
 
@@ -164,17 +136,17 @@ Op basis van de huidige wettelijke bepalingen zal vennootschap Y zowel worden op
 
 Vennootschap X en vennootschap Y staan onder centrale leiding. Vennootschap X heeft een deelneming van 40 % in vennootschap Y.
 Indien vennootschap Y niet kwalificeert als een dochtervennootschap van vennootschap X en vennootschap X en vennootschap Y geen dochtervennootschappen zijn van een gemeenschappelijke moedervennootschap, vormen vennootschap X en vennootschap Y een consortium.
-### Voorbeeld 4 
+### Voorbeeld 4
 
 Vennootschap X en vennootschap Y zijn zustervennootschappen. Beiden zijn een dochtervennootschap van eenzelfde buitenlandse vennootschap die overeenkomstig de aldaar geldende boekhoudwetgeving geen geconsolideerde jaarrekening moet opmaken. De bestuursorganen van X en Y zijn uit dezelfde personen samengesteld. De definitie van artikel 1:19, § 1 WVV impliceert dat in dergelijk geval de vennootschappen X en Y geen consortium vormen. De vennootschappen X en Y zijn immers allebei een dochtervennootschap van eenzelfde vennootschap.
-### Voorbeeld 5 
+### Voorbeeld 5
 
 De stemrechten verbonden aan de aandelen[^20] van de vennootschap X worden voor 35 % aangehouden door de natuurlijke persoon a, voor 30 % door natuurlijke persoon b, terwijl de andere stemrechten verbonden aan de aandelen wijd verspreid zijn. De stemrechten verbonden aan de aandelen van de vennootschap Y worden voor 25 % aangehouden door de natuurlijke persoon a, voor 27 % door de natuurlijke persoon b, terwijl de andere stemrechten verbonden aan de aandelen wijd verspreid zijn.
 De meerderheid van de stemrechten verbonden aan de aandelen van X en de meerderheid van de stemrechten verbonden aan de aandelen van Y zijn in het bezit van dezelfde personen (a en b). Bijgevolg geldt een weerlegbaar vermoeden dat de vennootschappen X en Y onder centrale leiding staan.
-### Voorbeeld 6 
+### Voorbeeld 6
 
 De stemrechten verbonden aan de aandelen van vennootschap X zijn verdeeld als volgt:
-### a (natuurlijke persoon) bezit 25 % 
+### a (natuurlijke persoon) bezit 25 %
 
      b (natuurlijke persoon) bezit 24 % 
 
@@ -183,7 +155,7 @@ De stemrechten verbonden aan de aandelen van vennootschap X zijn verdeeld als vo
      d (natuurlijke persoon) bezit 24 % 
 
 De stemrechten verbonden aan de aandelen van vennootschap Y zijn verdeeld als volgt:
-### a (natuurlijke persoon) bezit 5 % 
+### a (natuurlijke persoon) bezit 5 %
 
      b (natuurlijke persoon) bezit 49 % 
 
@@ -192,7 +164,7 @@ De stemrechten verbonden aan de aandelen van vennootschap Y zijn verdeeld als vo
      e (natuurlijke persoon) bezit 44 % 
 
 Zowel bij de vennootschap X als bij de vennootschap Y geldt dat b en c samen de meerderheid van de stemrechten verbonden aan de aandelen bezitten. Bijgevolg geldt een weerlegbaar vermoeden dat de vennootschappen X en Y onder centrale leiding staan.
-### Voorbeeld 7 
+### Voorbeeld 7
 
 Private stichting P is juridisch en economisch[^21] eigenaar van 90 % van de stemrechten verbonden aan de aandelen van vennootschap X en 85 % van de stemrechten verbonden aan de aandelen van vennootschap Y. Bijgevolg geldt een weerlegbaar vermoeden dat de vennootschappen X en Y onder centrale leiding staan omdat de meerderheid van de stemrechten verbonden aan de aandelen of andere effecten van de vennootschappen X en Y worden gehouden door eenzelfde persoon, zijnde de private stichting. Vennootschappen X en Y vormen aldus een consortium.
 De consolidatieverplichting rust gezamenlijk bij de vennootschappen die het consortium vormen (hier dus de vennootschappen X en Y) omdat ze onder centrale leiding staan. Zij staan gezamenlijk in voor de opstelling en de openbaarmaking van de geconsolideerde jaarrekening en het jaarverslag over de geconsolideerde jaarrekening en vormen de consolidatiekring. De private stichting die de centrale leiding uitoefent is niet consolidatieplichtig omdat de consolidatieplicht enkel geldt voor vennootschappen met rechtspersoonlijkheid (artikel 3:22 WVV staat onder Titel 1. Jaarrekeningen van vennootschappen met rechtspersoonlijkheid) en die private stichting bijgevolg nooit een moedervennootschap kan zijn.
@@ -221,7 +193,7 @@ Artikel 3:97 KB WVV stelt dat een dochteronderneming in bepaalde omstandigheden 
 
 De Commissie is van mening dat een samenlezing van artikelen 3:97, 3:98 en 3:105 KB WVV niet toelaat om een vennootschap die het consortium vormt, buiten de consolidatie te laten. De uitzondering vermeld in artikelen 3:97 en 3:98 KB WVV geldt uitsluitend voor de dochterondernemingen van de consoliderende vennootschappen doch niet voor de consoliderende vennootschappen zelf. Volgens de Commissie kan bijgevolg het argument niet worden ingeroepen dat een lid van het consortium buiten de consolidatie wordt gehouden om redenen dat dit lid slechts van een te verwaarlozen betekenis zou zijn.
 
-### Beoordeling groottecriteria ingeval van een consortium 
+### Beoordeling groottecriteria ingeval van een consortium
 
 Wanneer de vennootschap behoort tot een groep van beperkte omvang, geldt een vrijstelling van consolidatieplicht[^36]. Voor de berekeningswijze van de grootte van een groep, verwijst de Commissie naar CBN-advies 2022/03 - *Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen*. 
 
@@ -253,7 +225,7 @@ Uit een samenlezing van de artikelen 3:22 en 3:24 WVV en artikel 3:109, eerste l
 - indien het uiterst moeilijk zou blijken om de actief- en passiefbestanddelen, rechten en verplichtingen van de leden van het consortium[^42], dan wel de opbrengsten en kosten uit de door de (horizontaal) geconsolideerde resultatenrekening bestreken periode[^43] in de geconsolideerde jaarrekening van het consortium op te nemen op de afsluitingsdata van de leden van het consortium of zulks het opstellen van de (horizontaal) geconsolideerde jaarrekening van het consortium uitermate zou vertragen; 
 - mits tussen de balansdatum van de (horizontaal) geconsolideerde jaarrekening van het consortium en de balansdata van de jaarrekeningen van de in de (horizontaal) geconsolideerde jaarrekening opgenomen vennootschappen een periode van maximaal drie maanden ligt. 
 
-### De commissaris bij een consortium 
+### De commissaris bij een consortium
 
 De geconsolideerde jaarrekening van een consortium wordt gecontroleerd door de commissaris van tenminste één van de vennootschappen van het consortium of door één of meer bedrijfsrevisoren die of door een geregistreerd auditkantoor dat daartoe met onderlinge toestemming zijn aangesteld.[^44] 
 
@@ -267,7 +239,7 @@ Wanneer de geconsolideerde jaarrekening is opgesteld volgens de wetgeving van ee
 
 Om te kunnen genieten van voormelde vrijstelling moeten de geconsolideerde jaarrekening en het jaarverslag zijn opgesteld overeenkomstig de Boekhoudrichtlijn 2013/34/EU dan wel op een gelijkwaardige wijze als de jaarrekeningen en jaarverslagen die zijn opgesteld in overeenstemming met deze richtlijn.[^48] 
 
-## Consolidatiemethode[^49] 
+## Consolidatiemethode[^49]
 
 De vennootschappen die het consortium vormen worden in de geconsolideerde jaarrekening opgenomen volgens de methode van de integrale consolidatie. Dit volgt uit een samenlezing van artikel 3:24, tweede lid WVV en artikel 3:124, eerste lid, 1° KB WVV. 
 
@@ -299,12 +271,13 @@ Ten slotte vindt tussen de leden van het consortium een horizontale consolidatie
 - alle posten van de balansen en de resultatenrekeningen worden horizontaal opgeteld; 
 - de participaties aangehouden in elkaar worden weggewerkt. 
 
-### Horizontale consolidatie 
+### Horizontale consolidatie
 
 ### Voorbeeld 8
 
 Hierna volgen de vereenvoudigde balansen van de vennootschappen X en Y en een geconsolideerde balans van het consortium dat door beiden gevormd wordt. Er wordt verondersteld dat X een kapitaalloze vennootschap is en Y een kapitaalhoudende vennootschap. Zowel vennootschap X als vennootschap Y houden zelf géén deelnemingen aan. Bij wijze van voorbeeld worden de schulden geacht schulden te zijn tegenover derden. Er wordt verondersteld dat er vóór de verwerving geen resultaat van het boekjaar was.
 | Balans vennootschap X | 
+|---|
 | Immateriële vaste activa | | 350 | | Inbreng | | | 
 | | | | | Beschikbaar | | 100 | 
 | | | | | Onbeschikbaar | | 0 | 
@@ -313,6 +286,7 @@ Hierna volgen de vereenvoudigde balansen van de vennootschappen X en Y en een ge
 | | | 870 | | | | 870 | 
 
 | Balans vennootschap Y | 
+|---|
 | Materiële vaste activa | | 1.150 | | Inbreng | | | 
 | | | | | Kapitaal | | 1.000 | 
 | | | | | Buiten kapitaal: Uitgiftepremie[^58] | | 150 | 
@@ -323,6 +297,7 @@ Hierna volgen de vereenvoudigde balansen van de vennootschappen X en Y en een ge
 *Stap 3* 
 
 | Balans consortium X + Y na horizontale consolidatie | 
+|---|
 | Immateriële vaste activa | | 350 | | Inbreng | | | 
 | | | | | Kapitaal | | 1.000 | 
 | | | | | Buiten kapitaal: Uitgiftepremie | | 150 | 
@@ -333,7 +308,7 @@ Hierna volgen de vereenvoudigde balansen van de vennootschappen X en Y en een ge
 | Geldbeleggingen | | 50 | | | | | 
 | | | 2.070 | | | | 2.070 | 
 
-### Verticale consolidatie voorafgaand aan de horizontale consolidatie 
+### Verticale consolidatie voorafgaand aan de horizontale consolidatie
 
 Mogelijks bezitten de vennootschappen die het consortium vormen zelf dochterondernemingen. In voorkomend geval zullen deze dochterondernemingen moeten worden opgenomen in de geconsolideerde jaarrekening volgens de geëigende (verticale) consolidatietechniek. 
 
@@ -341,6 +316,7 @@ Mogelijks bezitten de vennootschappen die het consortium vormen zelf dochteronde
 
 Vennootschap X bezit 100 % van de stemrechten verbonden aan de aandelen van vennootschap X1. Deze aandelen werden verworven met een aanschaffingswaarde van 200. De vennootschappen X en Y staan onder de centrale leiding van bijvoorbeeld drie natuurlijke personen waarbij geen tegenbewijs wordt geleverd. In de voorstelling hierna zal de vennootschap X eerst een verticale consolidatie uitvoeren volgens de integrale consolidatiemethode. Vervolgens zal een horizontale consolidatie plaatsvinden van de geconsolideerde rekeningen (X + X1) met de rekeningen van de vennootschap Y. Er wordt verondersteld dat vennootschappen X, X1 en Y kapitaalhoudende vennootschappen zijn.
 | Balans vennootschap X | 
+|---|
 | Immateriële vaste activa | | 350 | | Inbreng | | | 
 | | | | | Kapitaal | | 100 | 
 | Financiële vaste activa | | 200 | | Reserves | | 300 | 
@@ -348,6 +324,7 @@ Vennootschap X bezit 100 % van de stemrechten verbonden aan de aandelen van venn
 | | | 630 | | | | 630 | 
 
 | Balans vennootschap X1 | 
+|---|
 | Immateriële vaste activa | | 50 | | Inbreng | | | 
 | | | | | Kapitaal | | 250 | 
 | Materiële vaste activa | | 500 | | Reserves | | 200 | 
@@ -355,6 +332,7 @@ Vennootschap X bezit 100 % van de stemrechten verbonden aan de aandelen van venn
 | | | 560 | | | | 560 | 
 
 | Balans vennootschap Y | 
+|---|
 | Materiële vaste activa | | 1.150 | | Inbreng | | | 
 | | | | | Kapitaal | | 1.000 | 
 | | | | | Buiten kapitaal: Uitgiftepremie | | 150 | 
@@ -365,6 +343,7 @@ Vennootschap X bezit 100 % van de stemrechten verbonden aan de aandelen van venn
 *Stap 2[^59]*  
 
 | Balans vennootschappen (X + X1) na verticale consolidatie | 
+|---|
 | Immateriële vaste activa | | 400 | | Inbreng | | | 
 | | | | | Kapitaal | | 100 | 
 | Materiëlevaste activa | | 500 | | Reserves | | 300 | 
@@ -375,6 +354,7 @@ Vennootschap X bezit 100 % van de stemrechten verbonden aan de aandelen van venn
 *Stap 3* 
 
 | Balans consortium (X + X1) + Y na horizontale consolidatie | 
+|---|
 | Immateriële vaste activa | | 400 | | Inbreng | | | 
 | | | | | Kapitaal | | 1.100 | 
 | | | | | Buiten kapitaal: Uitgiftepremie | | 150 | 
@@ -383,7 +363,7 @@ Vennootschap X bezit 100 % van de stemrechten verbonden aan de aandelen van venn
 | Geldbeleggingen | | 120 | | Schulden | | 390 | 
 | | | 2.190 | | | | 2.190 | 
 
-## Belangen van derden 
+## Belangen van derden
 
 Wanneer er sprake is van een centrale leiding maakt het niet uit hoeveel het deelnemingspercentage van derden in de consoliderende ondernemingen bedraagt. De geconsolideerde jaarrekening van het consortium bestaat uit een optelsom van het geheel van ondernemingen die het consortium vormen. De loutere optelling van de rekeningen van de ondernemingen die het consortium vormen, is net de essentie van een horizontale consolidatie. Ofwel is er eenheid van leiding, ofwel is er geen eenheid van leiding.[^61] 
 
@@ -393,6 +373,7 @@ In een geconsolideerde jaarrekening van een zuiver consortium komen noch belange
 
 Vennootschap X bezit 80 % van de stemrechten verbonden aan de aandelen van vennootschap X1. Deze aandelen werden verworven met een aanschaffingswaarde van 200. De vennootschappen X en Y staan onder de centrale leiding van bijvoorbeeld drie natuurlijke personen waarbij geen tegenbewijs wordt geleverd. In een eerste stap zal X een verticale consolidatie uitvoeren volgens de integrale consolidatiemethode. In een tweede stap zal een horizontale consolidatie plaatsvinden van de verticaal geconsolideerde rekeningen (X + X1) met de rekeningen van de vennootschap Y. Er wordt verondersteld dat vennootschappen X, X1 en Y kapitaalhoudende vennootschappen zijn.
 | Balans vennootschap X | 
+|---|
 | Immateriële vaste activa | | 350 | | Inbreng | | | 
 | | | | | Kapitaal | | 100 | 
 | Financiële vaste activa | | 200 | | Reserves | | 300 | 
@@ -400,6 +381,7 @@ Vennootschap X bezit 80 % van de stemrechten verbonden aan de aandelen van venno
 | | | 630 | | | | 630 | 
 
 | Balans vennootschap X1 | 
+|---|
 | Immateriële vaste activa | | 50 | | Inbreng | | | 
 | | | | | Kapitaal | | 250 | 
 | Materiële vaste activa | | 500 | | Reserves | | 200 | 
@@ -407,6 +389,7 @@ Vennootschap X bezit 80 % van de stemrechten verbonden aan de aandelen van venno
 | | | 560 | | | | 560 | 
 
 | Balans vennootschap Y | 
+|---|
 | Materiële vaste activa | | 1.150 | | Inbreng | | | 
 | | | | | Kapitaal | | 1.000 | 
 | Financiële vaste activa | | 20 | | Buiten kapitaal: Uitgiftepremie | | 150 | 
@@ -416,6 +399,7 @@ Vennootschap X bezit 80 % van de stemrechten verbonden aan de aandelen van venno
 *Stap 2[^62]*  
 
 | Balans vennootschap (X + X1) na verticale consolidatie | 
+|---|
 | Immateriële vaste activa | | 400 | | Inbreng | | | 
 | | | | | Kapitaal | | 100 | 
 | Materiële vaste activa | | 500 | | Reserves | | 300 | 
@@ -427,6 +411,7 @@ Vennootschap X bezit 80 % van de stemrechten verbonden aan de aandelen van venno
 *Stap 3* 
 
 | Balans consortium (X + X1) + Y na horizontale consolidatie | 
+|---|
 | Immateriële vaste activa | | 400 | | Inbreng | | | 
 | | | | | Kapitaal | | 1.100 | 
 | | | | | Buiten kapitaal: Uitgiftepremie | | 150 | 
@@ -441,6 +426,7 @@ Er moet in het bijzonder aandacht worden besteed aan het geval waarin twee leden
 In het geval van gezamenlijke controle zal X1 worden beschouwd als een gemeenschappelijke dochtervennootschap van X en Y. X1 zal aldus verticaal evenredig worden geconsolideerd door X en Y (artikel 3:140 KB WVV). De horizontale consolidatie die in tweede instantie wordt uitgevoerd, zal logischerwijs leiden tot de consolidatie van het geheel van X1 in de jaarrekening van het consortium.
 
 | Balans vennootschap X | 
+|---|
 | Immateriële vaste activa | | 350 | | Inbreng | | | 
 | | | | | Kapitaal | | 100 | 
 | Financiële vaste activa (deelneming X1) | | 200 | | Reserves | | 300 | 
@@ -448,6 +434,7 @@ In het geval van gezamenlijke controle zal X1 worden beschouwd als een gemeensch
 | | | 630 | | | | 630 | 
 
 | Balans vennootschap Y | 
+|---|
 | Materiële vaste activa | | 1.150 | | Inbreng | | | 
 | | | | | Kapitaal | | 1.000 | 
 | Financiële vaste activa (deelneming X1) | | 20 | | Buiten kapitaal: Uitgiftepremie | | 150 | 
@@ -455,6 +442,7 @@ In het geval van gezamenlijke controle zal X1 worden beschouwd als een gemeensch
 | | | 1.200 | | | | 1.200 | 
 
 | Balans vennootschap X1 | 
+|---|
 | Immateriële vaste activa | | 50 | | Inbreng | | | 
 | | | | | Kapitaal | | 250 | 
 | Materiële vaste activa | | 500 | | Reserves | | 200 | 
@@ -462,6 +450,7 @@ In het geval van gezamenlijke controle zal X1 worden beschouwd als een gemeensch
 | | | 560 | | | | 560 | 
 
 | Geconsolideerde balans vennootschap X – X1 | 
+|---|
 | Immateriële vaste activa | | 390[^65] | | Inbreng | | | 
 | | | | | Kapitaal | | 100 | 
 | | | | | Reserves | | 300 | 
@@ -470,6 +459,7 @@ In het geval van gezamenlijke controle zal X1 worden beschouwd als een gemeensch
 | | | 878 | | | | 878 | 
 
 | Geconsolideerde balans vennootschap Y – X1 | 
+|---|
 | Immateriële vaste activa | | 10[^70] | | Inbreng | | | 
 | | | | | Kapitaal | | 1.000 | 
 | | | | | Buiten kapitaal : Uitgiftepremie | | 150 | 
@@ -478,6 +468,7 @@ In het geval van gezamenlijke controle zal X1 worden beschouwd als een gemeensch
 | | | 1.292 | | | | 1.292 | 
 
 | Balans consortium ((X – X1) + (Y + X1)) na horizontale consolidatie | 
+|---|
 | Immateriële vaste activa | | 400 | | Inbreng | | | 
 | | | | | Kapitaal | | 1.000 | 
 | | | | | Buiten kapitaal : Uitgiftepremie | | 150 | 
@@ -486,7 +477,7 @@ In het geval van gezamenlijke controle zal X1 worden beschouwd als een gemeensch
 | Geldbeleggingen | | 120 | | Schulden | | 390 | 
 | | | 2.170 | | | | 2.170 | 
 
-## Bezit van eigen aandelen 
+## Bezit van eigen aandelen
 
 Overeenkomstig artikel 1:20, 1, c) WVV worden vennootschappen waarmee een consortium wordt gevormd, aangemerkt als verbonden ondernemingen. Bijgevolg wordt de deelneming die wordt aangehouden door een lid van het consortium in een ander lid van het consortium, in de enkelvoudige jaarrekening opgenomen onder de financiële vaste activa. 
 
@@ -496,12 +487,14 @@ Artikel 3:133, eerste lid KB WVV bepaalt dat de eigen aandelen van de consolider
 Voorbeeld 11 waarbij een lid van het consortium een deelneming heeft in het kapitaal van een ander lid van het consortium
 De vennootschappen X en Y vormen een consortium. Vennootschap X heeft een deelneming van 10 % in het kapitaal van vennootschap Y. Deze aandelen werden verworven met een aanschaffingswaarde van 200. De balansen van de kapitaalvennootschappen X en Y zien er uit als volgt:
 | Balans vennootschap X | 
+|---|
 | Financiële vaste activa | | 200 | | Inbreng | | | 
 | Liquide middelen | | 1.000 | | Kapitaal | | 400 | 
 | | | | | Schulden | | 800 | 
 | | | 1.200 | | | | 1.200 | 
 
 | Balans vennootschap Y | 
+|---|
 | Liquide middelen | | 2.500 | | Inbreng | | | 
 | | | | | Kapitaal | | 650 | 
 | | | | | Schulden | | 1.850 | 
@@ -509,6 +502,7 @@ De vennootschappen X en Y vormen een consortium. Vennootschap X heeft een deelne
 
 De geconsolideerde balans ziet eruit als volgt:
 | Balans consortium X + Y na horizontale consolidatie | 
+|---|
 | Geldbeleggingen | | | | Inbreng | | | 
 | Eigen aandelen | | 200 | | Kapitaal | | 1.050 | 
 | Liquide middelen | | 3.500 | | Schulden | | 2.650 | 
@@ -517,6 +511,7 @@ De geconsolideerde balans ziet eruit als volgt:
 Voorbeeld 12 waarbij de aandelen van één van de vennootschappen die deel uitmaken van het consortium worden aangehouden door een dochteronderneming van één van de andere leden van het consortium
 Vennootschap X heeft een 75 %-dochteronderneming X1. De aanschaffingswaarde van deze aandelen bedraagt 450. Vennootschap X1 bezit op haar beurt 8 % van vennootschap Y. Vennootschap X1 heeft deze deelneming verworven voor een aanschaffingswaarde van 200. Aangezien vennootschap X en Y een consortium vormen, zal vennootschap X in eerste instantie overgaan tot een verticale consolidatie (stap 2). Om het voorbeeld eenvoudig te houden[^76], wordt er van uit gegaan dat het eigen vermogen van vennootschap X1 overeenstemt met het eigen vermogen van X1 op datum van verwerving van de aandelen.
 | Balans vennootschap X | 
+|---|
 | Financiële vaste activa | | 450 | | Inbreng | | | 
 | Liquide middelen | | 950 | | Kapitaal | | 500 | 
 | | | | | Schulden | | 900 | 
@@ -524,12 +519,14 @@ Vennootschap X heeft een 75 %-dochteronderneming X1. De aanschaffingswaarde van 
 
 In eerste instantie zal een geconsolideerde balans worden opgesteld van X+X1.
 | Balans vennootschap X1 | 
+|---|
 | Financiële vaste activa | | 200 | | Inbreng | | | 
 | Liquide middelen | | 700 | | Kapitaal | | 400 | 
 | | | | | Schulden | | 500 | 
 | | | 900 | | | | 900 | 
 
 | Balans vennootschap Y | 
+|---|
 | Liquide middelen | | 2.500 | | Inbreng | | | 
 | | | | | Kapitaal | | 650 | 
 | | | | | Schulden | | 1.850 | 
@@ -537,6 +534,7 @@ In eerste instantie zal een geconsolideerde balans worden opgesteld van X+X1.
 
 In eerste instantie zal een geconsolideerde balans worden opgesteld van X+X1.
 | Balans vennootschap (X + X1) na verticale consolidatie | 
+|---|
 | Consolidatieverschil[^77] | | 150 | | Inbreng | | | 
 | Financiële vaste activa | | 200 | | Kapitaal | | 500 | 
 | Liquide middelen | | 1.650 | | Belangen van derden[^78] | | 100 | 
@@ -545,6 +543,7 @@ In eerste instantie zal een geconsolideerde balans worden opgesteld van X+X1.
 
 De geconsolideerde balans van het consortium ziet eruit als volgt:
 | Balans consortium (X + X1) + Y na horizontale consolidatie | 
+|---|
 | Consolidatieverschil | | 150 | | Inbreng | | | 
 | Geldbeleggingen | | | | | | | 
 | Eigen aandelen | | 200 | | Kapitaal | | 1.150 | 
@@ -553,6 +552,7 @@ De geconsolideerde balans van het consortium ziet eruit als volgt:
 | | | 4.500 | | | | 4.500 | 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 11 augustus 2021 ter publieke consultatie werd gepubliceerd op de website van de CBN.
+
 [^2]: Onder ‘controle’ over een vennootschap moet worden verstaan de bevoegdheid in rechte of in feite om een beslissende invloed uit te oefenen op de aanstelling van de meerderheid van bestuurders of zaakvoerders of op de oriëntatie van het beleid (artikel 1:14, § 1 WVV). In artikel 1:14, § 2 WVV wordt een opsomming gegeven van de gevallen waarin onweerlegbaar wordt vermoed dat er sprake is van controle (deze controle wordt aldus aangemerkt als een controle in rechte); in artikel 1:14, § 3, eerste lid WVV wordt vermeld dat er ook sprake kan zijn van controle los van de gevallen zoals bedoeld in § 2. In voorkomend geval wordt de controle aangemerkt als controle in feite en geldt hiervoor een weerlegbaar vermoeden.
 
 [^3]: Onder ‘moedervennootschap’ wordt verstaan de vennootschap die een controlebevoegdheid uitoefent over een andere vennootschap (artikel 1:15, 1° WVV).

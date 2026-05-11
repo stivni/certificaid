@@ -25,29 +25,29 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: rejected
-    confirmed_at: '2026-05-11T13:23:03Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D2: het bestand bevat uitsluitend één verwijzingszin naar advies 139/1 en heeft geen zelfstandige inhoud (149 chars totaal). Als standalone RAG-chunk onbruikbaar: ontbreekt context en levert geen zelfstandige informatie op. Vorig verdict correct.'
+    rationale: 'D2: het bestand bevat uitsluitend één verwijzingszin naar advies 139/1 en heeft geen zelfstandige inhoud (149 chars body). Als standalone RAG-chunk volledig onbruikbaar: levert geen zelfstandige informatie op en kan niet zonder de referentiebron worden geïnterpreteerd.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 149
       file_size_chars: 149
       flags: []
+      heading_count: 0
+      max_section_chars: 149
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: rejected
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:03Z'
-      rationale: 'D2: het bestand bevat uitsluitend één verwijzingszin naar advies 139/1 en heeft geen zelfstandige inhoud (149 chars totaal). Als standalone RAG-chunk onbruikbaar: ontbreekt context en levert geen zelfstandige informatie op. Vorig verdict correct.'
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: 'D2: het bestand bevat uitsluitend één verwijzingszin naar advies 139/1 en heeft geen zelfstandige inhoud (149 chars body). Als standalone RAG-chunk volledig onbruikbaar: levert geen zelfstandige informatie op en kan niet zonder de referentiebron worden geïnterpreteerd.'
       concrete_problemen:
-        - regel: 64
+        - regel: 60
           categorie: D2
           type: abrupt-cutoff
           voorbeeld: Voor aandelen met warrant zijn de beginselen verwoord in voornoemd advies 139/1 volledig van toepassing.

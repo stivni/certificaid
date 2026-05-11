@@ -25,40 +25,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:30Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:16:01Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A4: consistente aanwezigheid van Unicode HYPHEN (U+2010) in plaats van ASCII-hyphen in de heading (r69: 'aan‐ of verkoop') en in de body (r73: 'verkoopscompromis ‐ of', r80: 'trouwens niet aan bod gekomen ‐ kwestie'). Scraper-fix heeft dit specifieke artefact niet verholpen: de CBN-website gebruikt typografische koppeltekens die nog steeds als U+2010 worden overgenomen. Inhoud volledig correct, voetnoot [^1] goed geformateerd."
+    rationale: 'Vorige verdict markeerde A4 (U+2010 HYPHEN) in heading en body. Geen van de scraper-fixes adresseert A4, maar U+2010 in CBN-HTML is een bron-karakter (typografisch koppelteken in de originele tekst) — geen ETL-introductie. Per source-uitzondering: dit geldt niet als grond voor needs-rework. Inhoud volledig correct, voetnoot [^1] goed geformatteerd, geen andere artefacten aangetroffen.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 1876
       file_size_chars: 1876
       flags: []
+      heading_count: 0
+      max_section_chars: 1876
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:01Z'
-      rationale: "A4: consistente aanwezigheid van Unicode HYPHEN (U+2010) in plaats van ASCII-hyphen in de heading (r69: 'aan‐ of verkoop') en in de body (r73: 'verkoopscompromis ‐ of', r80: 'trouwens niet aan bod gekomen ‐ kwestie'). Scraper-fix heeft dit specifieke artefact niet verholpen: de CBN-website gebruikt typografische koppeltekens die nog steeds als U+2010 worden overgenomen. Inhoud volledig correct, voetnoot [^1] goed geformateerd."
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: 'Vorige verdict markeerde A4 (U+2010 HYPHEN) in heading en body. Geen van de scraper-fixes adresseert A4, maar U+2010 in CBN-HTML is een bron-karakter (typografisch koppelteken in de originele tekst) — geen ETL-introductie. Per source-uitzondering: dit geldt niet als grond voor needs-rework. Inhoud volledig correct, voetnoot [^1] goed geformatteerd, geen andere artefacten aangetroffen.'
       concrete_problemen:
         - regel: 69
-          categorie: A4
-          type: other
-          voorbeeld: de aan‐ of verkoop van een onroerend goed
+          categorie: (source)
+          type: source-typo
+          voorbeeld: aan‐ of verkoop — U+2010 typografisch koppelteken uit bron-HTML
         - regel: 73
-          categorie: A4
-          type: other
-          voorbeeld: verkoopscompromis ‐ of, algemeen genomen, de akte
+          categorie: (source)
+          type: source-typo
+          voorbeeld: verkoopscompromis ‐ of — U+2010 uit bron-HTML
         - regel: 80
-          categorie: A4
-          type: other
-          voorbeeld: de ‐ trouwens niet aan bod gekomen ‐ kwestie
+          categorie: (source)
+          type: source-typo
+          voorbeeld: de ‐ trouwens niet aan bod gekomen ‐ kwestie — U+2010 uit bron-HTML
 themas:
   - materiële vaste activa
   - onroerend goed

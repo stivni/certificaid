@@ -16,37 +16,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
 nummer: CBN-advies 172/1
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor
       sha256: 42b0c8c639ffa81815c1cc11b8bc16a03fccc7ef9e5a15c07e5c4f9f64fcadcb
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T15:15:31Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
+    status: needs-rework
+    confirmed_at: '2026-05-11T15:19:35Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Meerdere ETL-artefacten: r.77-79 duplicate openingszin (identieke zin twee keer na de H1); r.466-471 gebroken tabelstructuur in Voorbeeld 2 (balanstotaal '**11.550.000**' staat op een losstaande regel buiten de tabelmarkering); r.614-616 'Handelsschulden[^68]' staat op een zelfstandige regel die een tabelcel onderbreekt; r.638 '*Opmerking*en' (woordsamentrekking door defecte italic-sluiting). Hoofdstructuur met 59 headings en drie voorbeelden is verder intact."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 59
-      max_section_chars: 20000
-      file_size_chars: 56589
+      file_size_chars: 55283
       flags: []
+      heading_count: 59
+      max_section_chars: 17912
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Het advies bevat 59 headings en 108 voetnoten met uitgebreide kwantitatieve voorbeeldtabellen (3 scenario''s x 3 periodes). Balansen en resultatenrekening-tabellen correct als Markdown pipe-tabellen. Inhoud van alle balansen en journaalposten is retrievable.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T15:19:35Z'
+      rationale: "Meerdere ETL-artefacten: r.77-79 duplicate openingszin (identieke zin twee keer na de H1); r.466-471 gebroken tabelstructuur in Voorbeeld 2 (balanstotaal '**11.550.000**' staat op een losstaande regel buiten de tabelmarkering); r.614-616 'Handelsschulden[^68]' staat op een zelfstandige regel die een tabelcel onderbreekt; r.638 '*Opmerking*en' (woordsamentrekking door defecte italic-sluiting). Hoofdstructuur met 59 headings en drie voorbeelden is verder intact."
+      concrete_problemen:
+        - regel: 77
+          categorie: A3
+          type: other
+          voorbeeld: de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1 € (twee keer)
+        - regel: 466
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: '| | \n\n**11.550.000**\n\n  | | | | **11.550.000** |'
+        - regel: 614
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: Handelsschulden[^68] \n\n  | | 600.000 |
+        - regel: 638
+          categorie: D4
+          type: other
+          voorbeeld: '*Opmerking*en'
 themas:
   - bijkantoor
   - buitenlands bijkantoor
@@ -69,44 +85,8 @@ themas:
 
 # CBN-advies 172/1 - Opneming van de rekeningen van een buitenlands bijkantoor
 
-1. Inleiding 
-2. Opneming van de verrichtingen van het bijkantoor in de boekhouding van de zetel 
-3. Omrekening van de rekeningen van het bijkantoor in euro bij hun opneming in de boekhouding van de zetel 
-4. Interne weglatingen 
-  1. Weglating van wederzijdse vorderingen en schulden 
-  2. Weglating van de resultaten uit interne verrichtingen 
-
-5. Praktische voorbeelden 
-  1. VOORBEELD 1 : Dekking van de monetaire rekeningen 
-    1. De waarde van het £ bedraagt, aan het einde van de eerste periode, 1,1 € 
-      1. Balans bijkantoor in £ (periode x) 
-      2. Resultatenrekening bijkantoor in £ (periode x) 
-      3. Balans van de zetel voor de opneming in € (periode x) 
-      4. Balans van de zetel na opneming in € (periode x) 
-      5. Geïntegreerde resultatenrekening in € (x) 
-
-    2. De plaatselijke munt verliest aan waarde ten opzichte van de munt van de zetel;
 de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1 € 
-      1. Invloed van de waardedaling van het £ op de geïntegreerde rekeningen in € tijdens x 
-      2. De stromen van het bijkantoor in £ voor de periode x+1 
-      3. Balans van de zetel na opneming in € (periode x+1) 
-      4. Geïntegreerde resultatenrekening in € (periode x+1) 
 
-    3. De plaatselijke munt stijgt, in waarde ten opzichte van die van de zetel; de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1,2 € 
-      1. Invloed van de waardestijging van het £ op de geïntegreerde rekeningen in € tijdens x 
-      2. De stromen van het bijkantoor in £ voor de periode (x+1) 
-      3. Balans van de zetel na opneming in € (periode x+1) 
-      4. Geïntegreerde resultatenrekening in € (periode x+1) 
-
-  2. VOORBEELD 2 : Geen dekking 
-    1. De waarde van het £ bedraagt, aan het einde van de eerste periode, 1,1 € 
-      1. Balans bijkantoor in £ (periode x) 
-      2. Resultatenrekening bijkantoor in £ (periode x) 
-      3. Balans van de zetel voor de opneming in € (periode x) 
-      4. Balans van de zetel na opneming in € (periode x) 
-      5. Geïntegreerde resultatenrekening in € (periode x) 
-
-    2. De plaatselijke munt verliest aan waarde ten opzichte van de munt van de zetel;
 de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1 €
 
 ## Inleiding
@@ -190,11 +170,11 @@ Aangezien bepaalde omrekeningsverschillen ten slotte, volgens de logica van de m
 
 Om een getrouw beeld te geven van het bedrijf van het economisch complex dat de zetel met zijn bijkantoren vormt, mag bij de opneming van de stromen uit de verrichtingen van die bijkantoren, enkel rekening worden gehouden met de actiefbestanddelen op en de passiefbestanddelen ten aanzien van derden, alsook met de resultaten uit de verrichtingen met die derden. 
 
-### Weglating van wederzijdse vorderingen en schulden 
+### Weglating van wederzijdse vorderingen en schulden
 
 De vorderingen en de schulden tussen de zetel (relatierekening met betrekking tot de te boeken verrichtingen) en zijn bijkantoren en tussen de bijkantoren onderling, moeten worden weggelaten. 
 
-### Weglating van de resultaten uit interne verrichtingen 
+### Weglating van de resultaten uit interne verrichtingen
 
 Uit de resultatenrekening worden weggelaten : 
 
@@ -231,6 +211,7 @@ De op te nemen boekhoudkundige stromen zijn de volgende:
 ##### Balans bijkantoor in £ (periode x)
 
 | **Activa** | | **Passiva** | 
+|---|---|---|
 | Vaste activa | | 6.000.000 | | Verbindingsrekening | | 6.950.000 | 
 | Afschrijvingen | | (50.000) | | Financiële schulden[^8] | | 2.000.000 | 
 | Voorraden | | 1.000.000 | | Handelsschulden | | 1.000.000 | 
@@ -240,6 +221,7 @@ De op te nemen boekhoudkundige stromen zijn de volgende:
 ##### Resultatenrekening bijkantoor in £ (periode x)
 
 | Omzet | | 10.000.000 | 
+|---|---|---|
 | Aankoop handelsgoederen | | (7.500.000) | 
 | Voorraadwijzigingen | | 1.000.000 | 
 | Diensten & diverse goederen | | (1.500.000) | 
@@ -250,6 +232,7 @@ De op te nemen boekhoudkundige stromen zijn de volgende:
 ##### Balans van de zetel voor de opneming in € (periode x)
 
 | **Activa** | | **Passiva** | 
+|---|---|---|
 | Verbindingsrekening[^9] | | 7.645.000 | | Kapitaal | | 7.720.000 | 
 | Bank | | 75.000 | | | | | 
 | | | **7.720.000**  | | | | **7.720.000** | 
@@ -257,6 +240,7 @@ De op te nemen boekhoudkundige stromen zijn de volgende:
 ##### Balans van de zetel na opneming in € (periode x)
 
 | **Activa** | | **Passiva** | 
+|---|---|---|
 | Vaste activa[^10] | | 6.600.000 | | Kapitaal | | 7.720.000 | 
 | Afschrijvingen[^11] | | (55.000) | | Resultaten | | - | 
 | Voorraden[^12] | | 1.100.000 | | Financiële schulden[^13] | | 2.200.000 | 
@@ -267,6 +251,7 @@ De op te nemen boekhoudkundige stromen zijn de volgende:
 ##### Geïntegreerde resultatenrekening in € (x)
 
 | | | **£**  | | ** €** | 
+|---|---|---|---|---|
 | Omzet | | 10.000.000 | | 11.000.000 | 
 | Aankoop handelsgoederen | | (7.500.000) | | (8.250.000) | 
 | Voorraadwijzigingen | | 1.000.000 | | 1.100.000 | 
@@ -281,6 +266,7 @@ de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1 €
 ##### Invloed van de waardedaling van het £ op de geïntegreerde rekeningen in € tijdens x
 
 | | | **Debet** | | **Credit** | 
+|---|---|---|---|---|
 | Omrekeningsverschillen op handelsvordering[^17] | | 355.000 | | | 
 | Handelsschulden | | 100.000 | | | 
 | Financiële schulden | | 200.000 | | | 
@@ -295,9 +281,10 @@ de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1 €
 
 De waardedaling van het £ resulteert niet in een omrekeningsverschil voor zover de financiële schulden in £ monetaire activa in dezelfde munt perfect dekken. De negatieve en positieve omrekeningsverschillen compenseren elkaar.
 
-##### De stromen van het bijkantoor in £ voor de periode x+1 
+##### De stromen van het bijkantoor in £ voor de periode x+1
 
 | | | **Debet** | | **Credit** | 
+|---|---|---|---|---|
 | Handelsschulden | | 500.000 | | | 
 | Handelsvorderingen | | 150.000 | | | 
 | Verbindingsrekening | | 550.000 | | | 
@@ -316,6 +303,7 @@ De waardedaling van het £ resulteert niet in een omrekeningsverschil voor zover
 ##### Balans van de zetel na opneming in € (periode x+1)
 
 | **Activa** | | **Passiva** | 
+|---|---|---|
 | Vast activa[^21] | | 6.600.000 | | Kapitaal | | 7.720.000 | 
 | Afschrijvingen[^22] | | (110.000) | | Overgedragen resultaat | | (55.000) | 
 | Voorraden[^23] | | 550.000 | | Financiële schulden[^24] | | 2.750.000 | 
@@ -330,6 +318,7 @@ Het resultaat van de zetel wordt echter beïnvloed door de toepassing van de his
 ##### Geïntegreerde resultatenrekening in € (periode x+1)
 
 | | | £ | | € | 
+|---|---|---|---|---|
 | Omzet | | 10.000.000 | | 10.000.000 | 
 | Aankoop handelsgoederen | | (6.000.000) | | (6.000.000) | 
 | Voorraadwijzigingen | | (500.000) | | (500.000) | 
@@ -343,6 +332,7 @@ Het resultaat van de zetel wordt echter beïnvloed door de toepassing van de his
 Terwijl het resultaat van het bijkantoor nul bedraagt, kan het verlies van de schade op het niveau van de zetel als volgt worden uitgesplitst:
 
 | Afschrijvingen op basis van de historische koersen van de vaste activa[^28] | | (5.000) | 
+|---|---|---|
 | Onttrekkingen aan de voorraden gewaardeerd met behulp van de LIFO-methode aan de hand van de historische koersen[^29] | | (50.000) | 
 | | | **(55.000)** | 
 
@@ -356,9 +346,10 @@ De gevolgen van de waardedaling van het £ op de rekeningen van de zetel worden 
 
 #### De plaatselijke munt stijgt, in waarde ten opzichte van die van de zetel; de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1,2 €
 
-##### Invloed van de waardestijging van het £ op de geïntegreerde rekeningen in € tijdens x 
+##### Invloed van de waardestijging van het £ op de geïntegreerde rekeningen in € tijdens x
 
 | | | **Debet** | | **Credit** | 
+|---|---|---|---|---|
 | Omrekeningsverschillen op handelsvorderingen[^30] | | | | 355.000 | 
 | Handelsschulden | | | | 100.000 | 
 | Financiële schulden | | | | 200.000 | 
@@ -373,9 +364,10 @@ De gevolgen van de waardedaling van het £ op de rekeningen van de zetel worden 
 
 De waardestijging van het £ resulteert niet in een omrekeningsverschil voor zover de financiële schulden in £, monetaire activa in dezelfde munt perfect dekken. De negatieve en positieve omrekeningsverschillen compenseren elkaar.
 
-##### De stromen van het bijkantoor in £ voor de periode (x+1) 
+##### De stromen van het bijkantoor in £ voor de periode (x+1)
 
 | | | **Debet** | | **Credit** | 
+|---|---|---|---|---|
 | Handelsschulden | | 500.000 | | | 
 | Handelsvorderingen | | 150.000 | | | 
 | Verbindingsrekening | | 550.000 | | | 
@@ -394,6 +386,7 @@ De waardestijging van het £ resulteert niet in een omrekeningsverschil voor zov
 ##### Balans van de zetel na opneming in € (periode x+1)
 
 | **Activa** | | **Passiva** | 
+|---|---|---|
 | Vaste activa[^34] | | 6.600.000 | | Kapitaal | | 7.720.000 | 
 | Afschrijving [^35] | | (110.000) | | Overgedragen resultaat | | 55.000 | 
 | Voorraden[^36] | | 550.000 | | Financiële schulden[^37] | | 3.000.000 | 
@@ -408,6 +401,7 @@ Het resultaat van de zetel wordt echter beïnvloed door de toepassing van de his
 ##### Geïntegreerde resultatenrekening in € (periode x+1)
 
 | | | £ | | € | 
+|---|---|---|---|---|
 | Omzet | | 10.000.000 | | 12.000.000 | 
 | Aankoop handelsgoederen | | (6.000.000) | | (7.200.000) | 
 | Voorraadwijzigingen | | (500.000) | | (550.000) | 
@@ -421,6 +415,7 @@ Het resultaat van de zetel wordt echter beïnvloed door de toepassing van de his
 Terwijl het resultaat van het bijkantoor nul bedraagt, kan de winst van de periode op het niveau van de zetel als volgt worden uitgesplitst:
 
 | Afschrijvingen, op basis van de historische koersen, van de vaste activa [^41] | | 5.000 | 
+|---|---|---|
 | Onttrekkingen aan de voorraden waarvan de waarde wordt bepaald met behulp van de LIFO-methode en die worden gewaardeerd aan de hand van de historische koersen[^42] | | 50.000 | 
 | | | **55.000** | 
 
@@ -445,15 +440,17 @@ De op te nemen boekhoudkundige stromen zijn de volgende:
 ##### Balans bijkantoor in £ (periode x)
 
 | **Activa** | | **Passiva** | 
+|---|---|---|
 | Vaste activa | | 6.000.000 | | Verbindingsrekening | | 8.950.000 | 
 | Afschrijvingen | | (50.000) | | Overgedragen resultaten | | - | 
 | Voorraden | | 1.000.000 | | Handelsschulden | | 10.000.000 | 
 | Handelsvorderingen | | 3.550.000 | | Andere schulden | | 550.000 | 
 | | | **10.500.000** | | | | **10.500.000** | 
 
-##### Resultatenrekening bijkantoor in £ (periode x) 
+##### Resultatenrekening bijkantoor in £ (periode x)
 
 | Omzet | | 10.000.000 | 
+|---|---|---|
 | Aankoop handelsgoederen | | (7.500.000) | 
 | Voorraadwijzigingen | | 1.000.000 | 
 | Diensten & diverse goederen | | (1.500.000) | 
@@ -461,9 +458,10 @@ De op te nemen boekhoudkundige stromen zijn de volgende:
 | Afschrijvingen | | (50.000) | 
 | | | **0** | 
 
-##### Balans van de zetel voor de opneming in € (periode x) 
+##### Balans van de zetel voor de opneming in € (periode x)
 
 | **Activa** | | **Passiva** | 
+|---|---|---|
 | Verbindingsrekening[^43] | | 9.845.000 | | Kapitaal | | 7.720.000 | 
 | | | | | Financiële schulden | | 2.125.000 | 
 | | | **9.845.000** | | | | **9.845.000** | 
@@ -471,6 +469,7 @@ De op te nemen boekhoudkundige stromen zijn de volgende:
 ##### Balans van de zetel na opneming in € (periode x)
 
 | **Activa** | | **Passiva** | 
+|---|---|---|
 | Vaste activa[^44] | | 6.600.000 | | Kapitaal | | 7.720.000 | 
 | Afschrijvingen[^45] | | (55.000) | | Financiële schulden | | 2.125.000 | 
 | Voorraden[^46] | | 1.100.000 | | Handelsschulden[^47] | | 1.100.000 | 
@@ -480,10 +479,12 @@ De op te nemen boekhoudkundige stromen zijn de volgende:
 **11.550.000**
 
   | | | | **11.550.000** | 
+|---|---|---|---|
 
-##### Geïntegreerde resultatenrekening in € (periode x) 
+##### Geïntegreerde resultatenrekening in € (periode x)
 
 | | | £ | | € | 
+|---|---|---|---|---|
 | Omzet | | 10.000.000 | | 11.000.000 | 
 | Aankoop handelsgoederen | | (7.500.000) | | (8.250.000) | 
 | Voorraadwijzigingen | | 1.000.000 | | 1.100.000 | 
@@ -498,6 +499,7 @@ de waarde van het £ bedraagt, aan het einde van de periode (x+1), 1 €
 ##### Invloed van de waardedaling van het £ op de geïntegreerde rekeningen in € tijdens x
 
 | | | **Debet** | | **Credit** | 
+|---|---|---|---|---|
 | Omrekeningsverschillen op handels- vorderingen[^50] | | 355.000 | | | 
 | Handelsschulden | | 100.000 | | | 
 | Andere schulden | | 55.000 | | | 
@@ -511,6 +513,7 @@ Voor zover de monetaire rekeningen rekeningen van het bijkantoor niet zijn gedek
 ##### De stromen van het bijkantoor in £ voor de periode x+1
 
 | | | **Debet** | | **Credit** | 
+|---|---|---|---|---|
 | Handelsschulden | | 500.000 | | | 
 | Handelsvorderingen | | 150.000 | | | 
 | Verbindingsrekening | | 50.000 | | | 
@@ -528,6 +531,7 @@ Voor zover de monetaire rekeningen rekeningen van het bijkantoor niet zijn gedek
 ##### Balans van de zetel na opneming in € (periode x+1)
 
 | **Activa** | | **Passiva** | 
+|---|---|---|
 | Vaste activa[^53] | | 6.600.000 | | Kapitaal | | 7.720.000 | 
 | Afschrijvingen[^54] | | (110.000) | | Overgedragen resultaat | | (255.000) | 
 | Voorraden[^55] | | 550.000 | | Financiële schulden | | 2.075.000 | 
@@ -542,6 +546,7 @@ Het resultaat van de zetel wordt echter beïnvloed door de toepassing van de his
 ##### Geïntegreerde resultatenrekening in € (periode x+1)
 
 | | | £ | | € | 
+|---|---|---|---|---|
 | Omzet | | 10.000.000 | | 10.000.000 | 
 | Aankoop handelsgoederen | | (6.000.000) | | (6.000.000) | 
 | Voorraadwijzigingen | | (500.000) | | (550.000) | 
@@ -556,6 +561,7 @@ Het resultaat van de zetel wordt echter beïnvloed door de toepassing van de his
 Terwijl het resultaat van het bijkantoor nul bedraagt, kan het verlies van de periode op het niveau van de zetel als volgt worden uitgesplitst:
 
 | * Afschrijvingen op basis van de historische koersen, van de vaste activa[^59] | | (5.000) | 
+|---|---|---|
 | * Onttrekkingen aan de voorraden gewaardeerd met behulp van de LIFO-methode aan de hand van de historische koersen[^60] | | (50.0000) | 
 | * Omrekeningsverschillen op de monetaire rekeningen | | (200.000) | 
 | | | **(255.000)** | 
@@ -573,6 +579,7 @@ De gevolgen van de waardedaling van het £ op de rekeningen van de zetel worden 
 ##### Invloed van de waardestijging van het £ op de geïntegreerde rekeningen in € tijdens x
 
 | | | **Debet** | | **Credit** | 
+|---|---|---|---|---|
 | Omrekeningsverschil. op handelsvordering beperkt[^61] | | | | 155.000 | 
 | Handelsschulden | | | | 100.000 | 
 | Andere schulden | | | | 55.000 | 
@@ -591,6 +598,7 @@ De verrekening van de positieve en negatieve omrekeningsverschillen levert een b
 ##### De stromen van het bijkantoor in £ voor de periode x+1
 
 | | | **Debet** | | **Credit** | 
+|---|---|---|---|---|
 | Handelsschulden | | 500.000 | | | 
 | Handelsvorderingen | | 150.000 | | | 
 | Verbindingsrekening | | 50.000 | | | 
@@ -605,9 +613,10 @@ De verrekening van de positieve en negatieve omrekeningsverschillen levert een b
 | Toevoegingen aan afschrijvingen | | 50.000 | | | 
 | | | **10.700.000** | | **10.700.000** | 
 
-##### Balans van de zetel na opneming in € (periode x+1) 
+##### Balans van de zetel na opneming in € (periode x+1)
 
 | **Activa** | | **Passiva** | 
+|---|---|---|
 | Vaste activa[^64] | | 6.600.000 | | Kapitaal | | 7.720.000 | 
 | Afschrijving [^65] | | (110.000) | | Overgedragen resultaat | | 55.000 | 
 | Voorraden[^66] | | 550.000 | | Financiële schulden | | 2.065.000 | 
@@ -616,6 +625,7 @@ De verrekening van de positieve en negatieve omrekeningsverschillen levert een b
 Handelsschulden[^68] 
 
   | | 600.000 | 
+|---|---|
 | | | | | Andere schulden[^69] | | 840.000 | 
 | | | | | Overlopende rekeningen | | 200.000 | 
 | | | **11.480.000** | | | | **11.480.000** | 
@@ -624,9 +634,10 @@ Handelsschulden[^68]
 
 Het resultaat van de zetel wordt echter beïnvloed door de toepassing van de historische koersen op de afschrijvingen en op de onttrekkingen aan de voorraden
 
-##### Geïntegreerde resultatenrekening in € (periode x+1) 
+##### Geïntegreerde resultatenrekening in € (periode x+1)
 
 | | | £ | | € | 
+|---|---|---|---|---|
 | Omzet | | 10.000.000 | | 12.000.000 | 
 | Aankoop handelsgoederen | | (6.000.000) | | (7.200.000) | 
 | Voorraadwijzigingen | | (500.000) | | (550.000) | 
@@ -640,6 +651,7 @@ Het resultaat van de zetel wordt echter beïnvloed door de toepassing van de his
 Terwijl het resultaat van het bijkantoor nul bedraagt, kan het verlies van de periode op het niveau van de zetel, alsvolgt worden uitgesplitst:
 
 | * Afschrijvingen op basis van de historische koersen, van de vaste activa[^70] | | 5.000 | 
+|---|---|---|
 | * Onttrekkingen aan de voorraden waarvan de waarde wordt bepaald met behulp van de LIFO-methode en die worden gewaardeerd aan de hand van de historische koersen[^71] | | 50.000 | 
 | | | **55.000** | 
 
@@ -655,13 +667,14 @@ De gevolgen van de waardestijging van het £ op de rekeningen van de zetel worde
 
 Aangezien het merendeel van de financiële stromen verbonden aan de werkzaamheden van het bijkantoor in £ luiden, oordeelt de vennootschap dat alle - zowel monetaire als niet-monetaire - activa van het bijkantoor in die munt moeten worden gefinancierd.
 
-#### **De waarde van het £ bedraagt, aan het einde van de eerste periode, 1,1 €**
+#### De waarde van het £ bedraagt, aan het einde van de eerste periode, 1,1 €
 
 De op te nemen boekhoudkundige stromen zijn de volgende:
 
 ##### Balans bijkantoor in £ (periode x)
 
 | **Activa** | | **Passiva** | 
+|---|---|---|
 | Vaste activa | | 6.000.000 | | Verbindingsrekening | | 8.950.000 | 
 | Afschrijvingen | | (50.000) | | Handelsschulden | | 1.000.000 | 
 | Voorraden | | 1.000.000 | | Andere schulden | | 550.000 | 
@@ -671,6 +684,7 @@ De op te nemen boekhoudkundige stromen zijn de volgende:
 ##### Resultatenrekening bijkantoor in £ (periode x)
 
 | Omzet | | 10.000.000 | 
+|---|---|---|
 | Aankoop handelsgoederen | | (7.500.000) | 
 | Voorraadwijzigingen | | 1.000.000 | 
 | Diensten & diverse goederen | | (1.500.000) | 
@@ -678,16 +692,18 @@ De op te nemen boekhoudkundige stromen zijn de volgende:
 | Afschrijvingen | | (50.000) | 
 | | | **0** | 
 
-##### Balans van de zetel voor de opneming in € (periode x) 
+##### Balans van de zetel voor de opneming in € (periode x)
 
 | **Activa** | | **Passiva** | 
+|---|---|---|
 | Verbindingsrekening[^72] | | 9.845.000 | | Kapitaal | | 7.720.000 | 
 | Bank | | 7.720.000 | | Financiële schulden[^73] | | 9.845.000 | 
 | | | **17.565.000** | | | | **17.565.000** | 
 
-##### Balans van de zetel na opneming in € (periode x) 
+##### Balans van de zetel na opneming in € (periode x)
 
 | **Activa** | | **Passiva** | 
+|---|---|---|
 | Vaste activa[^74] | | 6.600.000 | | Kapitaal | | 7.720.000 | 
 | Afschrijvingen[^75] | | (55.000) | | Overgedragen resultaat | | - | 
 | Voorraden[^76] | | 1.100.000 | | Financiële schulden[^77] | | 9.845.000 | 
@@ -695,9 +711,10 @@ De op te nemen boekhoudkundige stromen zijn de volgende:
 | Geldbeleggingen | | 7.720.000 | | Andere schulden[^80] | | 605.000 | 
 | | | **19.270.000** | | | | **19.270.000** | 
 
-##### Geïntegreerde resultatenrekening in € (periode x) 
+##### Geïntegreerde resultatenrekening in € (periode x)
 
 | | | £ | | € | 
+|---|---|---|---|---|
 | Omzet | | 10.000.000 | | 11.000.000 | 
 | Aankoop handelsgoederen | | (7.500.000) | | (8.250.000) | 
 | Voorraadwijzigingen | | 1.000.000 | | 1.100.000 | 
@@ -711,6 +728,7 @@ De op te nemen boekhoudkundige stromen zijn de volgende:
 ##### Invloed van de waardedaling van het £ op de geïntegreerde rekeningen in € tijdens x
 
 | | | **Debet** | | **Credit** | 
+|---|---|---|---|---|
 | Credit Omrekeningsverschillen op vaste activa[^81] | | 600.000 | | | 
 | Omrekeningsverschillen op voorraden (1.000.000 £ x (60-50))[^82] | | 100.000 | | | 
 | Omrekeningsverschillen op handelsvorderingen[^83] | | 355.000 | | | 
@@ -734,6 +752,7 @@ De waardedaling van het £ heeft geen enkele invloed op de resultatenrekening va
 ##### De stromen van het bijkantoor in £ voor de periode x+1
 
 | | | **Debet** | | **Credit** | 
+|---|---|---|---|---|
 | Handelsschulden | | 500.000 | | | 
 | Handelsvorderingen | | 150.000 | | | 
 | Verbindingsrekening | | 50.000 | | | 
@@ -751,6 +770,7 @@ De waardedaling van het £ heeft geen enkele invloed op de resultatenrekening va
 ##### Balans van de zetel na opneming in € (periode x+1)
 
 | **Activa** | | **Passiva** | 
+|---|---|---|
 | Vaste activa[^88] | | 6.000.000 | | Kapitaal | | 7.720.000 | 
 | Afschrijvingen [^89] | | (100.000) | | Overgedragen resultaat | | - | 
 | Voorraden[^90] | | 500.000 | | Financiële schulden[^91] | | 8.900.000 | 
@@ -765,6 +785,7 @@ Het resultaat van de zetel wordt echter beïnvloed door de toepassing van de his
 ##### Geïntegreerde resultatenrekening in € (periode x+1)
 
 | | | £ | | € | 
+|---|---|---|---|---|
 | Omzet | | 10.000.000 | | 10.000.000 | 
 | Aankoop handelsgoederen | | (6.000.000) | | (6.000.000) | 
 | Voorraadwijzigingen | | (500.000) | | (500.000) | 
@@ -782,6 +803,7 @@ De zetel heeft geen positie genomen in £ en bijgevolg is de invloed van de waar
 ##### Invloed van de waardestijging van het £ op de geïntegreerde rekeningen in € tijdens periode x
 
 | | | **Debet** | | **Credit** | 
+|---|---|---|---|---|
 | Omrekeningsverschillen op vaste activa[^95] | | | | 600.000 | 
 | Omrekeningsverschillen op voorraden[^96] | | | | 100.000 | 
 | Omrekeningsverschillen op handelsvorderingen[^97] | | | | 355.000 | 
@@ -805,6 +827,7 @@ De waardestijging van het £ heeft geen enkele invloed op de resultatenrekening 
 ##### De stromen van het bijkantoor in € voor de periode x+1
 
 | | | **Debet** | | **Credit** | 
+|---|---|---|---|---|
 | Handelsschulden | | 500.000 | | | 
 | Handelsvorderingen | | 150.000 | | | 
 | Verbindingsrekening | | 50.000 | | | 
@@ -819,9 +842,10 @@ De waardestijging van het £ heeft geen enkele invloed op de resultatenrekening 
 | Toevoegingen aan afschrijvingen | | 50.000 | | | 
 | | | **10.700.000** | | **10.700.000** | 
 
-##### Balans van de zetel na opneming in € (periode x+1) 
+##### Balans van de zetel na opneming in € (periode x+1)
 
 | **Activa** | | **Passiva** | 
+|---|---|---|
 | Vaste activa[^102] | | 7.200.000 | | Kapitaal | | 7.720.000 | 
 | Afschrijvingen[^103] | | (120.000) | | Overgedragen resultaat | | - | 
 | Voorraden[^104] | | 600.000 | | Financiële schulden[^105] | | 10.680.000 | 
@@ -832,6 +856,7 @@ De waardestijging van het £ heeft geen enkele invloed op de resultatenrekening 
 ##### Geïntegreerde resultatenrekening in € (periode x+1)
 
 | | | £ | | € | 
+|---|---|---|---|---|
 | Omzet | | 10.000.000 | | 12.000.000 | 
 | Aankoop handelsgoederen | | (6.000.000) | | (7.200.000) | 
 | Voorraadwijzigingen | | (500.000) | | (600.000) | 

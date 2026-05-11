@@ -16,27 +16,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Regels 63–67: plain-text inhoudsopgave direct na H1 (A3) — twee genummerde hoofdpunten met subnummers die de documentstructuur nabootsen maar geen headings zijn. De overige inhoud (vijf headings op ##/### niveau, voetnoten 1–15 volledig gedefinieerd en gerefereerd, geen tabellen) is structureel correct. Geen andere artefacten gevonden.'
+    rationale: 'A3 bevestigd: r63-67 plain-text inhoudsopgave direct na H1 — twee genummerde hoofdpunten met subnummers die de documentstructuur nabootsen maar geen headings zijn. Overige inhoud (vijf headings op ##/### niveau, voetnoten 1-15 volledig, geen tabellen) is structureel correct. Geen andere artefacten.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 12211
+      flags: []
       heading_count: 5
       max_section_chars: 11034
-      file_size_chars: 12476
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: 'Regels 63–67: plain-text inhoudsopgave direct na H1 (A3) — twee genummerde hoofdpunten met subnummers die de documentstructuur nabootsen maar geen headings zijn. De overige inhoud (vijf headings op ##/### niveau, voetnoten 1–15 volledig gedefinieerd en gerefereerd, geen tabellen) is structureel correct. Geen andere artefacten gevonden.'
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: 'A3 bevestigd: r63-67 plain-text inhoudsopgave direct na H1 — twee genummerde hoofdpunten met subnummers die de documentstructuur nabootsen maar geen headings zijn. Overige inhoud (vijf headings op ##/### niveau, voetnoten 1-15 volledig, geen tabellen) is structureel correct. Geen andere artefacten.'
       concrete_problemen:
         - regel: 63
           categorie: A3
@@ -63,12 +63,6 @@ themas:
 ---
 
 # CBN-advies 2010/20 - Gebruik van uniforme boekhoudsoftware door internationale ondernemingen
-
-1. Belgische dochterondernemingen en bijkantoren of centra van werkzaamheden van buitenlandse ondernemingen 
-  1. De Belgische boekhoudwet 
-  2. De minimumindeling van het algemeen rekeningenstelsel (MAR) 
-
-2. Buitenlandse bijkantoren van Belgische ondernemingen 
 
 ## Inleiding
 

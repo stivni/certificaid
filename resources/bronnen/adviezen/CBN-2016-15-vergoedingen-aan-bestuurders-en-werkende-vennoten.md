@@ -12,40 +12,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Regels 132–134: de tabelcel met rekeningomschrijving 618 loopt over drie inspringende regels (multi-line celinhoud buiten pipe-syntax), wat markdown-tabelrendering breekt (E2). Regel 79: `6201 *Directiepersoneel *worden` — spatie vóór de afsluitende asterisk in inline italic (D4). Regel 83: zelfde patroon `61 *Diensten en diverse goederen[^7]* .` — spatie voor afsluitende italic. Dit zijn vaste ETL-bugs in de account-name italic.'
+    rationale: 'E2: regels 140–142 bevatten een multi-line tabelcel met tab-inspringing voor rekeningomschrijving 618 — breekt pipe-tabel-rendering. D4: regel 91 `goederen[^7]* .` heeft een spatie vóór de afsluitende `*` in inline italic. D4: regel 99 `*Directiepersoneel*` is correct, maar eerder op regel 87 staat de lange rekeningomschrijving als plain-text paragraaf buiten heading-context — structureel verwacht als B5.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 11
-      max_section_chars: 8234
-      file_size_chars: 17632
+      file_size_chars: 17653
       flags: []
+      heading_count: 11
+      max_section_chars: 8256
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: 'Regels 132–134: de tabelcel met rekeningomschrijving 618 loopt over drie inspringende regels (multi-line celinhoud buiten pipe-syntax), wat markdown-tabelrendering breekt (E2). Regel 79: `6201 *Directiepersoneel *worden` — spatie vóór de afsluitende asterisk in inline italic (D4). Regel 83: zelfde patroon `61 *Diensten en diverse goederen[^7]* .` — spatie voor afsluitende italic. Dit zijn vaste ETL-bugs in de account-name italic.'
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'E2: regels 140–142 bevatten een multi-line tabelcel met tab-inspringing voor rekeningomschrijving 618 — breekt pipe-tabel-rendering. D4: regel 91 `goederen[^7]* .` heeft een spatie vóór de afsluitende `*` in inline italic. D4: regel 99 `*Directiepersoneel*` is correct, maar eerder op regel 87 staat de lange rekeningomschrijving als plain-text paragraaf buiten heading-context — structureel verwacht als B5.'
       concrete_problemen:
-        - regel: 79
-          categorie: D4
-          type: other
-          voorbeeld: 6201 *Directiepersoneel *worden de bezoldigingen... (spatie voor *)
-        - regel: 83
-          categorie: D4
-          type: other
-          voorbeeld: rekening 61 *Diensten en diverse goederen[^7]* . (spatie voor *)
-        - regel: 132
+        - regel: 140
           categorie: E2
           type: other
           voorbeeld: '| | 618 | Bezoldigingen, premies voor buitenwettelijke \n\t\t\t\tverzekeringen... (multi-line cel)'
+        - regel: 91
+          categorie: D4
+          type: other
+          voorbeeld: goederen[^7]* . (spatie voor afsluitende asterisk in italic)
+        - regel: 86
+          categorie: B5
+          type: other
+          voorbeeld: '618 Bezoldigingen, premies... die niet worden toegekend... (rekening-label als plain text zonder ## prefix)'
 themas:
   - arbeidsovereenkomst
   - bestuurder
@@ -59,7 +59,7 @@ themas:
 
 # CBN-advies 2016/15 – Vergoedingen aan bestuurders en werkende vennoten
 
-## Algemeen 
+## Algemeen
 
 In onderhavig advies wordt de boekhoudkundige verwerking behandeld van de vergoedingen ontvangen door een bestuurder, zaakvoerder of werkend vennoot. 
 
@@ -129,6 +129,7 @@ Bij de resultaatsbestemming wordt aan ieder van de bestuurders nog een tantième
 			verzekeringen, ouderdoms- en overlevingspensioenen 
 			van bestuurders, zaakvoerders en werkende vennoten | 6.000 | |
 | | 411 | Terug te vorderen BTW | 420 | |
+|---|---|---|---|---|
 | aan | 453 | Ingehouden voorheffingen | | 1.032 |
 | | 455 | Bezoldigingen | 5.388 | |
 

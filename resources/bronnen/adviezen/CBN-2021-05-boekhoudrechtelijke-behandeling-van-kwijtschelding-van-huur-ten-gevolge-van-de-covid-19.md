@@ -25,32 +25,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:26:39Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: Regel 78 bevat '*Huuropbrengsten *of rekening 70 *Omzet[^2] *' waarbij een spatie staat vóór het sluit-asterisk van beide italic spans — duidelijk extractie-artefact waarbij een footnote-marker de italic-span doorkruist en een spatie injecteert. Het is een geïsoleerd probleem; de rest van het document is inhoudelijk volledig en correct gestructureerd."
+    rationale: "D4: Regel 88 bevat 'rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *' waarbij spaties staan vóór de sluit-asterisken van beide italic spans — voetnootmarker doorkruist de italic-span en injecteert een spatie. Geïsoleerd probleem; rest van het document is inhoudelijk volledig en correct gestructureerd met 7 headings."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 7
-      max_section_chars: 2238
       file_size_chars: 10492
       flags: []
+      heading_count: 7
+      max_section_chars: 2238
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "D4: Regel 78 bevat '*Huuropbrengsten *of rekening 70 *Omzet[^2] *' waarbij een spatie staat vóór het sluit-asterisk van beide italic spans — duidelijk extractie-artefact waarbij een footnote-marker de italic-span doorkruist en een spatie injecteert. Het is een geïsoleerd probleem; de rest van het document is inhoudelijk volledig en correct gestructureerd."
+      run_at: '2026-05-11T15:26:39Z'
+      rationale: "D4: Regel 88 bevat 'rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *' waarbij spaties staan vóór de sluit-asterisken van beide italic spans — voetnootmarker doorkruist de italic-span en injecteert een spatie. Geïsoleerd probleem; rest van het document is inhoudelijk volledig en correct gestructureerd met 7 headings."
       concrete_problemen:
-        - regel: 78
+        - regel: 88
           categorie: D4
           type: other
-          voorbeeld: rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *wordt gecrediteerd — spatie voor sluit-asterisk
+          voorbeeld: rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] * wordt gecrediteerd
 themas:
   - Huur
   - COVID-19

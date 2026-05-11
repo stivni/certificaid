@@ -12,45 +12,37 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:33Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: regels 69-86 bevatten een volledige genummerde inhoudsopgave direct na H1 die niet werd verwijderd. A2: regels 80 en 86 bevatten ', 15' als losse paginanummer-resten (dotted-leader artefact zonder de dots zelf). B6: regel 82-85 bevat TOC-subfragmenten met '--' als separator. D4: regel 188 bevat '*inlichtingen *' met spatie vóór sluitende asterisk."
+    rationale: "A2: regels 79-80 bevatten twee losstaande ', 15' fragmenten direct na de frontmatter — paginanummer-resten zonder context (dotted-leader artefact). D4: regel 183 bevat 'met *inlichtingen *betreffende' met spatie vóór sluitende asterisk. Inhoud verder volledig met 14 headings."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
+      file_size_chars: 26370
+      flags: []
       heading_count: 14
       max_section_chars: 11917
-      file_size_chars: 27048
-      flags: []
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:33Z'
-      rationale: "A3: regels 69-86 bevatten een volledige genummerde inhoudsopgave direct na H1 die niet werd verwijderd. A2: regels 80 en 86 bevatten ', 15' als losse paginanummer-resten (dotted-leader artefact zonder de dots zelf). B6: regel 82-85 bevat TOC-subfragmenten met '--' als separator. D4: regel 188 bevat '*inlichtingen *' met spatie vóór sluitende asterisk."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "A2: regels 79-80 bevatten twee losstaande ', 15' fragmenten direct na de frontmatter — paginanummer-resten zonder context (dotted-leader artefact). D4: regel 183 bevat 'met *inlichtingen *betreffende' met spatie vóór sluitende asterisk. Inhoud verder volledig met 14 headings."
       concrete_problemen:
-        - regel: 69
-          categorie: A3
-          type: other
-          voorbeeld: "1. Hypothese en vraag \n2. Wetgevend en reglementair kader \n  1. Vermelding van rechten..."
+        - regel: 79
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: ', 15'
         - regel: 80
           categorie: A2
           type: dotted-leader
           voorbeeld: ', 15'
-        - regel: 82
-          categorie: B6
-          type: other
-          voorbeeld: '  2. Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0'
-        - regel: 86
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: ', 15'
-        - regel: 188
+        - regel: 183
           categorie: D4
           type: other
           voorbeeld: met *inlichtingen *betreffende belangrijke hangende geschillen
@@ -66,22 +58,7 @@ themas:
 
 # CBN-advies 2017/07 - Niet in de balans opgenomen rechten en verplichtingen
 
-1. Hypothese en vraag 
-2. Wetgevend en reglementair kader 
-  1. Vermelding van rechten en verplichtingen in de toelichting 
-  2. Rekeningen van de klasse 0 
-
-3. Beschouwingen 
-  1. Vermelding van rechten en verplichtingen in de toelichting 
-    1. Materialiteitsbeginsel (materiality principle) 
-    2. Niet-limitativiteit van de bestaande lijsten 
-    3. Subsidiariteit 
-    4. Vermelding van bepaalde wijzigingen van het KB W.Venn. door het KB van 18 december 2015 
 , 15
-
-  2. Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0 
-    1. Boeking door de onderneming van door een derde gewaarborgde verplichtingen 
-    2. Welk bedrag moet er worden geboekt? 
 
 , 15
 
@@ -125,7 +102,7 @@ Na de omschrijving van de rechten en verplichtingen die moeten worden opgenomen 
 
 In artikel 97 is een beknopte omschrijving opgenomen van de hierna opgesomde rekeningen 00 tot 07:
 
-### 00. Zekerheden door derden gesteld voor rekening van de vennootschap 
+### 00. Zekerheden door derden gesteld voor rekening van de vennootschap
 
  01. Persoonlijke zekerheden gesteld voor rekening van derden 
 
@@ -179,7 +156,7 @@ Ten slotte is de Commissie van oordeel dat de duur van de rechten en verplichtin
 
 Enkel de rechten en verplichtingen die nog niet zijn opgenomen in de balans moeten worden vermeld in de toelichting.[^13] 
 
-#### Vermelding van bepaalde wijzigingen van het KB W.Venn. door het KB van 18 december 2015 [^14] , [^15] 
+#### Vermelding van bepaalde wijzigingen van het KB W.Venn. door het KB van 18 december 2015 [^14] , [^15]
 
 De artikelen 91 en 94 van het KB W.Venn. starten met een verwijzing naar het materialiteitsbeginsel dat hierna wordt omschreven als het beslissende criterium om te beoordelen of rechten en verplichtingen effectief worden opgenomen in de toelichting.
 

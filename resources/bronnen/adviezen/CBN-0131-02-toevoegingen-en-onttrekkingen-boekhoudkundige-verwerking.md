@@ -25,27 +25,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: heading-hiërarchie springt van H1 direct naar H4 ('#### Over de stijving...' op L72, '#### Over onttrekkingen...' op L78) zonder tussenliggende H2/H3 — onnatuurlijk voor mens-geschreven markdown. Additioneel: L68 heeft 'een speciale rubriek* Overboeking...' zonder spatie voor de openende '*', wat italic-parsing kan breken (D4-adjacent). B2 is het primaire ETL-bug."
+    rationale: "B2: heading-hiërarchie springt van H1 direct naar H4 ('#### Over de stijving...' op L72, '#### Over onttrekkingen...' op L78) zonder tussenliggende H2/H3 — onnatuurlijk voor mens-geschreven markdown. Aanvullend: L68 heeft 'een speciale rubriek* Overboeking...' zonder spatie voor de openende asterisk, wat italic-parsing kan breken (D4-adjacent). Bevestiging van eerder layer2-verdict."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
+      file_size_chars: 4059
+      flags: []
       heading_count: 2
       max_section_chars: 2629
-      file_size_chars: 4060
-      flags: []
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "B2: heading-hiërarchie springt van H1 direct naar H4 ('#### Over de stijving...' op L72, '#### Over onttrekkingen...' op L78) zonder tussenliggende H2/H3 — onnatuurlijk voor mens-geschreven markdown. Additioneel: L68 heeft 'een speciale rubriek* Overboeking...' zonder spatie voor de openende '*', wat italic-parsing kan breken (D4-adjacent). B2 is het primaire ETL-bug."
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: "B2: heading-hiërarchie springt van H1 direct naar H4 ('#### Over de stijving...' op L72, '#### Over onttrekkingen...' op L78) zonder tussenliggende H2/H3 — onnatuurlijk voor mens-geschreven markdown. Aanvullend: L68 heeft 'een speciale rubriek* Overboeking...' zonder spatie voor de openende asterisk, wat italic-parsing kan breken (D4-adjacent). Bevestiging van eerder layer2-verdict."
       concrete_problemen:
         - regel: 72
           categorie: B2
@@ -73,13 +73,13 @@ Het schema van de resultatenrekening bevat, onder de rubriek *Winst (verlies) va
 
 In dit verband rezen twee vragen : 
 
-#### Over de stijving van de belastingvrije reserves 
+## Over de stijving van de belastingvrije reserves
 
 Moeten de belastingvrije reserves worden gestijfd via deze rubriek van de resultatenrekening of mag dit ook via de resultaatverwerking, met de rubriek C.2. van het schema «Toevoeging aan de reserves», inzonderheid wanneer in fiscaal opzicht geen bezwaar bestaat tegen de stijving van deze reserves via de resultaatverwerking ? 
 
 De Commissie is van oordeel dat met de invoering van deze rubriek door het besluit van 12 september 1983 en op grond van haar omschrijving, bedoeld wordt dat elke overboeking naar de belastingvrije reserves via deze rubriek moet gebeuren. 
 
-#### Over onttrekkingen aan de belastingvrije reserves
+## Over onttrekkingen aan de belastingvrije reserves
 
 Een onttrekking aan de belastingvrije reserves kan bedoeld zijn om deze reserves een andere bestemming te geven, bij voorbeeld dekking van een verlies of uitkering van een dividend aan de vennoten; zij kan ook ingegeven zijn door strikt fiscale overwegingen : belastingvrijdom verzaken door de belastingvrije reserves om te vormen tot een reserve waarvoor de normale fiscale regeling geldt. Onttrekking kan ook voortvloeien uit een gehele of gedeeltelijke toevoeging van de belastingvrije reserves aan het kapitaal. 
 

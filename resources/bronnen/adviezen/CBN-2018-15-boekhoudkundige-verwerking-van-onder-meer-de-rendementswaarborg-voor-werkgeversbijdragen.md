@@ -25,44 +25,44 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bevestiging van bestaand verdict. D4: malformed italic op regels 146, 148, 217 en 235 — spatie voor sluitende asterisk (`*inrichter *`, `*pensioeninstelling *`, `***Samenvattend ***`). Regel 235 combineert bold en italic met `*alle *risico's **`. Patroon consistent met ETL-batch."
+    rationale: "Bevestiging van bestaand verdict. D4: malformed italic op regels 153 (`*inrichter *`), 155 (`*pensioeninstelling *`), 224 (`***Samenvattend ***`) en 242 (`**Geen externalisering van* alle *risico's **`) — spatie vóór sluitende asterisk, inconsistent gemengd bold/italic. Scraper-fix heeft dit patroon niet opgelost."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 11
-      max_section_chars: 5025
       file_size_chars: 23596
       flags: []
+      heading_count: 11
+      max_section_chars: 5025
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "Bevestiging van bestaand verdict. D4: malformed italic op regels 146, 148, 217 en 235 — spatie voor sluitende asterisk (`*inrichter *`, `*pensioeninstelling *`, `***Samenvattend ***`). Regel 235 combineert bold en italic met `*alle *risico's **`. Patroon consistent met ETL-batch."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "Bevestiging van bestaand verdict. D4: malformed italic op regels 153 (`*inrichter *`), 155 (`*pensioeninstelling *`), 224 (`***Samenvattend ***`) en 242 (`**Geen externalisering van* alle *risico's **`) — spatie vóór sluitende asterisk, inconsistent gemengd bold/italic. Scraper-fix heeft dit patroon niet opgelost."
       concrete_problemen:
-        - regel: 146
+        - regel: 153
           categorie: D4
           type: other
           voorbeeld: de pensioentoezegging die door de *inrichter *wordt gegeven
-        - regel: 148
+        - regel: 155
           categorie: D4
           type: other
           voorbeeld: Opdat de *pensioeninstelling *ook effectief in staat zou zijn
-        - regel: 217
+        - regel: 224
           categorie: D4
           type: other
           voorbeeld: '***Samenvattend ***kan dus besloten worden'
-        - regel: 235
+        - regel: 242
           categorie: D4
           type: other
-          voorbeeld: "**Geen externalisering van *alle *risico's **"
+          voorbeeld: "**Geen externalisering van* alle *risico's **"
 themas:
   - voorziening
   - pensioentoezegging

@@ -2,48 +2,49 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/forfaitaire-waardeverminderingen-op-vorderingen
 datum: 1980-06-01
 gerelateerde_adviezen:
-  - datum: '2025-05-14'
-    titel: Forfaitaire waardeverminderingen op vorderingen (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/forfaitaire-waardeverminderingen-op-vorderingen-update-ontwerp
+- datum: '2025-05-14'
+  titel: Forfaitaire waardeverminderingen op vorderingen (update) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/forfaitaire-waardeverminderingen-op-vorderingen-update-ontwerp
 nummer: CBN-advies 127/1
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/forfaitaire-waardeverminderingen-op-vorderingen
-      sha256: cf202d171ac30f57131b3eaaf81898e5e380cb175b4d5da59f5b7bb43bfe2539
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/forfaitaire-waardeverminderingen-op-vorderingen
+    sha256: cf202d171ac30f57131b3eaaf81898e5e380cb175b4d5da59f5b7bb43bfe2539
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 5333
       file_size_chars: 5333
       flags: []
+      heading_count: 0
+      max_section_chars: 5333
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met helder onderscheid grote individuele vs. kleine statistische vorderingen, concrete toepassingsvoorwaarden en boekingsregels.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met helder onderscheid grote individuele
+        vs. kleine statistische vorderingen, concrete toepassingsvoorwaarden en boekingsregels.'
       run_at: '2026-05-08T19:02:30Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - forfaitaire waardeverminderingen op vorderingen
-  - individuele waardering
-  - vordering
-  - Waardevermindering
-  - waardevermindering op vorderingen
+- forfaitaire waardeverminderingen op vorderingen
+- individuele waardering
+- vordering
+- Waardevermindering
+- waardevermindering op vorderingen
 ---
 
 # CBN-advies 127/1 - Forfaitaire waardeverminderingen op vorderingen

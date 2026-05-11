@@ -2,62 +2,71 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
 datum: 2018-03-21
 gerelateerde_adviezen:
-  - datum: '2024-05-22'
-    titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
-  - datum: '2019-03-05'
-    titel: Voorzieningen
-    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-  - datum: '2018-05-30'
-    titel: Interpretatie van code 99084 in de toelichting 5.14 van de geconsolideerde jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
-  - datum: '2018-05-30'
-    titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+- datum: '2024-05-22'
+  titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
+- datum: '2019-03-05'
+  titel: Voorzieningen
+  url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+- datum: '2018-05-30'
+  titel: Interpretatie van code 99084 in de toelichting 5.14 van de geconsolideerde
+    jaarrekening
+  url: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
+- datum: '2018-05-30'
+  titel: Tax shelter voor podiumkunsten
+  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
 nummer: CBN-advies 2018/01
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-      sha256: 1b7cc8df2f34d523e05e807e2be7905931917b5a0aaa761884bb042b96fcb6e6
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+    sha256: 1b7cc8df2f34d523e05e807e2be7905931917b5a0aaa761884bb042b96fcb6e6
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:30:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: '14 headings correct gestructureerd met drie niveaus (##, ###, ####). Volledige inhoud in drie hoofddelen (overzicht, boekhoudkundige verwerking, fiscale documentatie). Italic-markeringen voor accountingsrekeningen correct gesloten. Alle 34 voetnoten aanwezig en correct gedefinieerd. Geen PDF-artefacten aangetroffen.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 14
-      max_section_chars: 10608
       file_size_chars: 16319
       flags: []
+      heading_count: 14
+      max_section_chars: 10608
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:33Z'
-      rationale: '14 headings correct gestructureerd met drie niveaus (##, ###, ####). Volledige inhoud in drie hoofddelen (overzicht, boekhoudkundige verwerking, fiscale documentatie). Italic-markeringen voor accountingsrekeningen correct gesloten. Alle 34 voetnoten aanwezig en correct gedefinieerd. Geen PDF-artefacten aangetroffen.'
       concrete_problemen: []
+      rationale: '14 headings correct gestructureerd met drie niveaus (##, ###, ####).
+        Volledige inhoud in drie hoofddelen (overzicht, boekhoudkundige verwerking,
+        fiscale documentatie). Italic-markeringen voor accountingsrekeningen correct
+        gesloten. Alle 34 voetnoten aanwezig en correct gedefinieerd. Geen PDF-artefacten
+        aangetroffen.'
+      run_at: '2026-05-11T13:30:33Z'
+      status: trusted
+    rationale: '14 headings correct gestructureerd met drie niveaus (##, ###, ####).
+      Volledige inhoud in drie hoofddelen (overzicht, boekhoudkundige verwerking,
+      fiscale documentatie). Italic-markeringen voor accountingsrekeningen correct
+      gesloten. Alle 34 voetnoten aanwezig en correct gedefinieerd. Geen PDF-artefacten
+      aangetroffen.'
+    status: trusted
 themas:
-  - belasting
-  - aftrek innovatie-inkomsten
-  - innovatieaftrek
-  - innovatie aftrek
-  - vrijgestelde inkomsten
-  - innovatie-inkomsten
-  - vennootschapsbelasting
-  - immateriële vaste activa
-  - belastingvrije reserves
-  - beschikbare reserves
+- belasting
+- aftrek innovatie-inkomsten
+- innovatieaftrek
+- innovatie aftrek
+- vrijgestelde inkomsten
+- innovatie-inkomsten
+- vennootschapsbelasting
+- immateriële vaste activa
+- belastingvrije reserves
+- beschikbare reserves
 ---
 
 # CBN-advies 2018/01 – Aftrek voor innovatie-inkomsten

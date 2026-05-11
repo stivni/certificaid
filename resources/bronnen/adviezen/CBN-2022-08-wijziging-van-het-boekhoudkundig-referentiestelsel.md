@@ -2,59 +2,69 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
 datum: 2022-07-20
 gerelateerde_adviezen:
-  - datum: '2022-04-27'
-    titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
-  - datum: '2022-04-01'
-    titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
-  - datum: '2020-04-30'
-    titel: Verenigingen en stichtingen – Vereenvoudigde boekhouding - Waarderingsregels
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-vereenvoudigde-boekhouding-waarderingsregels
-  - datum: '2019-04-12'
-    titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+- datum: '2022-04-27'
+  titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
+  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
+- datum: '2022-04-01'
+  titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
+  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
+- datum: '2020-04-30'
+  titel: Verenigingen en stichtingen – Vereenvoudigde boekhouding - Waarderingsregels
+  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-vereenvoudigde-boekhouding-waarderingsregels
+- datum: '2019-04-12'
+  titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
 nummer: CBN-advies 2022/08
 provenance:
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
-      sha256: 4581799d96586ed35899b164c302b080832536eee5338dc6eacc1cad5abaa33e
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
+    sha256: 4581799d96586ed35899b164c302b080832536eee5338dc6eacc1cad5abaa33e
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen artefacten gevonden in alle categorieën A–G. Headings correct hiërarchisch (## Inleiding, ## Boekhoudkundige beginselen, ### Voorbeeld 1, ## Standpunt, ### Continuïteitsbeginsel, ### Aanpassing, ### Uitzondering, ### Voorbeeld 2, ## Boekhoudkundige verwerking). Voetnoten 1–32 volledig aanwezig en gekoppeld. Twee voorbeelden helder uitgewerkt. Een buitenstaander zou dit voor mens-geschreven houden.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
+      file_size_chars: 22678
+      flags: []
       heading_count: 9
       max_section_chars: 9624
-      file_size_chars: 22680
-      flags: []
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: 'Geen artefacten gevonden in alle categorieën A–G. Headings correct hiërarchisch (## Inleiding, ## Boekhoudkundige beginselen, ### Voorbeeld 1, ## Standpunt, ### Continuïteitsbeginsel, ### Aanpassing, ### Uitzondering, ### Voorbeeld 2, ## Boekhoudkundige verwerking). Voetnoten 1–32 volledig aanwezig en gekoppeld. Twee voorbeelden helder uitgewerkt. Een buitenstaander zou dit voor mens-geschreven houden.'
       concrete_problemen: []
+      rationale: 'Geen artefacten gevonden in alle categorieën A–G. Headings correct
+        hiërarchisch (## Inleiding, ## Boekhoudkundige beginselen, ### Voorbeeld 1,
+        ## Standpunt, ### Continuïteitsbeginsel, ### Aanpassing, ### Uitzondering,
+        ### Voorbeeld 2, ## Boekhoudkundige verwerking). Voetnoten 1–32 volledig aanwezig
+        en gekoppeld. Twee voorbeelden helder uitgewerkt. Een buitenstaander zou dit
+        voor mens-geschreven houden.'
+      run_at: '2026-05-11T13:34:12Z'
+      status: trusted
+    rationale: 'Geen artefacten gevonden in alle categorieën A–G. Headings correct
+      hiërarchisch (## Inleiding, ## Boekhoudkundige beginselen, ### Voorbeeld 1,
+      ## Standpunt, ### Continuïteitsbeginsel, ### Aanpassing, ### Uitzondering, ###
+      Voorbeeld 2, ## Boekhoudkundige verwerking). Voetnoten 1–32 volledig aanwezig
+      en gekoppeld. Twee voorbeelden helder uitgewerkt. Een buitenstaander zou dit
+      voor mens-geschreven houden.'
+    status: trusted
 themas:
-  - waarderingsregels
-  - continuïteitsbeginsel
-  - continuïteit
-  - openingsbalans
-  - materiële vaste activa
-  - herwaarderingsmeerwaarde
-  - boekhoudkundig referentiestelsel
+- waarderingsregels
+- continuïteitsbeginsel
+- continuïteit
+- openingsbalans
+- materiële vaste activa
+- herwaarderingsmeerwaarde
+- boekhoudkundig referentiestelsel
 ---
 
 # CBN-advies 2022/08 – Wijziging van het boekhoudkundig referentiestelsel
@@ -82,7 +92,7 @@ Indien, bij het begin van het eerste boekjaar waarop voor een vennootschap, VZW,
 
 De aldus vastgestelde aanschaffingswaarde maakt, in voorkomend geval, het voorwerp uit van afschrijvingen en waardeverminderingen. Bovendien moeten de herwaarderingsmeerwaarden die geboekt werden vóór het eerste boekjaar waarop voor een vennootschap, VZW, IVZW of stichting de bepalingen van boek 3, titel 1 KB WVV van toepassing zijn, de kapitaalsubsidies die bekomen werden vóór datzelfde boekjaar alsook de door een vennootschap ontvangen uitgiftepremies in de jaarrekening slechts opgenomen worden voor zover ze nog als zodanig in de boekhouding van de vennootschap, VZW, IVZW of stichting voorkwamen op het einde van het voorafgaande boekjaar.[^10] 
 
-### *Voorbeeld 1*
+### Voorbeeld 1
 
 De omzet (exclusief de belasting over de toegevoegde waarde) van een vennootschap onder firma (VOF) overschrijdt gedurende het voorgaande boekjaar (20X0) 500.000 euro. De VOF moet voortaan een dubbele boekhouding voeren (voorheen voerde zij een vereenvoudigde boekhouding).[^11]
  Onder de activa van de vennootschap werd een oude machine opgenomen waarvan de aanschaffingswaarde niet kan worden wedersamengesteld. De waarde van de machine zoals opgenomen in de openingsbalans bij aanvang van het boekjaar 20X1 moet gelijk zijn aan de waarde waartegen de machine, vóór afschrijvingen en waardeverminderingen, werd opgenomen in de inventaris zoals opgemaakt aan het einde van het voorgaande boekjaar (20X0). De aldus vastgestelde aanschaffingswaarde maakt vervolgens het voorwerp uit van afschrijvingen.

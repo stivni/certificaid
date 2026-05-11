@@ -12,33 +12,33 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: zin op r.85-87 breekt na 'mogen dus niet' met een lege regel, vervolgt op de volgende regel met 'langer, voor het overeenstemmende bedrag...' — duidelijke PDF-regelbreuk midden in een alinea. F1: frontmatter-thema 'erfpa' (r.49) is een afgekapt label, vermoedelijk 'erfpacht' of een aanverwant concept — extractie-artefact in de thema-scraping. Overige inhoud volledig en correct."
+    rationale: "Bevestiging van vorige QA (ronde 1). A6: zin op r.95-97 breekt na 'mogen dus niet' met een lege regel voor 'langer, voor het overeenstemmende bedrag...' — duidelijke PDF-regelbreuk midden in alinea. Thema 'erfpa' (r.59) in frontmatter is een afgekapt scraping-artefact. Overige inhoud volledig."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 3
-      max_section_chars: 3425
       file_size_chars: 7820
       flags: []
+      heading_count: 3
+      max_section_chars: 3425
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "A6: zin op r.85-87 breekt na 'mogen dus niet' met een lege regel, vervolgt op de volgende regel met 'langer, voor het overeenstemmende bedrag...' — duidelijke PDF-regelbreuk midden in een alinea. F1: frontmatter-thema 'erfpa' (r.49) is een afgekapt label, vermoedelijk 'erfpacht' of een aanverwant concept — extractie-artefact in de thema-scraping. Overige inhoud volledig en correct."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "Bevestiging van vorige QA (ronde 1). A6: zin op r.95-97 breekt na 'mogen dus niet' met een lege regel voor 'langer, voor het overeenstemmende bedrag...' — duidelijke PDF-regelbreuk midden in alinea. Thema 'erfpa' (r.59) in frontmatter is een afgekapt scraping-artefact. Overige inhoud volledig."
       concrete_problemen:
-        - regel: 85
+        - regel: 95
           categorie: A6
           type: other
-          voorbeeld: "...mogen dus niet \n\nlanger, voor het overeenstemmende bedrag, voorkomen in de balans..."
-        - regel: 49
+          voorbeeld: "Die schulden en vorderingen mogen dus niet \n\nlanger, voor het overeenstemmende bedrag..."
+        - regel: 59
           categorie: F1
           type: other
           voorbeeld: '- erfpa (afgekapt thema-label in frontmatter)'

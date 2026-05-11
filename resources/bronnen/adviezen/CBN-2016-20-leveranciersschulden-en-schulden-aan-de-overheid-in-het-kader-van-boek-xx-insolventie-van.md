@@ -16,33 +16,29 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: regel 57 bevat een spurious line-break na '[^2]' midden in de zin — 'van het Wetboek van economisch recht[^2]\\n kan worden besloten' met kleine letter na de regelovergang. Verder bevat regel 59 'vorderingen[^3]*  is duidelijk' waarbij twee spaties en het patroon rond de voetnootreferentie wijzen op een extractie-artefact in de inline italic-opmaak. Inhoud compleet."
+    rationale: "D4: regel 67 bevat 'vorderingen[^3]*  is duidelijk' — stray asterisk direct na de voetnootreferentie met dubbele spatie, gebroken italic-markering (ETL-artefact). Inhoud compleet, 2 headings, tekst verder leesbaar."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 2
-      max_section_chars: 2669
       file_size_chars: 3806
       flags: []
+      heading_count: 2
+      max_section_chars: 2669
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "A6: regel 57 bevat een spurious line-break na '[^2]' midden in de zin — 'van het Wetboek van economisch recht[^2]\\n kan worden besloten' met kleine letter na de regelovergang. Verder bevat regel 59 'vorderingen[^3]*  is duidelijk' waarbij twee spaties en het patroon rond de voetnootreferentie wijzen op een extractie-artefact in de inline italic-opmaak. Inhoud compleet."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "D4: regel 67 bevat 'vorderingen[^3]*  is duidelijk' — stray asterisk direct na de voetnootreferentie met dubbele spatie, gebroken italic-markering (ETL-artefact). Inhoud compleet, 2 headings, tekst verder leesbaar."
       concrete_problemen:
-        - regel: 57
-          categorie: A6
-          type: other
-          voorbeeld: "van het Wetboek van economisch recht[^2]\n kan worden besloten"
-        - regel: 59
+        - regel: 67
           categorie: D4
           type: other
           voorbeeld: vorderingen[^3]*  is duidelijk omtrent de classificatie

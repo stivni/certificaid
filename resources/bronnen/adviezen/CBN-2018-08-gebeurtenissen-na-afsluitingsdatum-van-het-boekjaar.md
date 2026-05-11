@@ -22,40 +22,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:11Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'C2/A6: de genummerde opsomming (punten 1–8) op regels 96–133 is niet als markdown genummerde lijst opgemaakt — elk item staat als `1. ` gevolgd door een blanco regel en dan de tekst met tab-inspringing. Dit is geen standaard markdown-lijstopmaak en een mens zou `1.`, `2.`, ... schrijven als aaneengesloten lijst. Ook regels 155-165 bevatten `| ` / `| ` voorbeeld-blok, zelfde patroon als CBN-2018-07. Inhoud inhoudelijk compleet.'
+    rationale: 'A6/C2: de genummerde opsomming (punten 1-8) op regels 119-156 is niet als markdown-lijst opgemaakt — elk item staat als een getal gevolgd door een lege regel en dan de tekst met tab-inspringing, wat geen standaard markdown-lijst is. E2: voorbeeld-blok op regels 178-188 bevat het `| \n\n*Voorbeeld*\n\n  |` patroon — scraper-artefact, zelfde als CBN-2018-07.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 4
-      max_section_chars: 8553
       file_size_chars: 21547
       flags: []
+      heading_count: 4
+      max_section_chars: 8553
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:11Z'
-      rationale: 'C2/A6: de genummerde opsomming (punten 1–8) op regels 96–133 is niet als markdown genummerde lijst opgemaakt — elk item staat als `1. ` gevolgd door een blanco regel en dan de tekst met tab-inspringing. Dit is geen standaard markdown-lijstopmaak en een mens zou `1.`, `2.`, ... schrijven als aaneengesloten lijst. Ook regels 155-165 bevatten `| ` / `| ` voorbeeld-blok, zelfde patroon als CBN-2018-07. Inhoud inhoudelijk compleet.'
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'A6/C2: de genummerde opsomming (punten 1-8) op regels 119-156 is niet als markdown-lijst opgemaakt — elk item staat als een getal gevolgd door een lege regel en dan de tekst met tab-inspringing, wat geen standaard markdown-lijst is. E2: voorbeeld-blok op regels 178-188 bevat het `| \n\n*Voorbeeld*\n\n  |` patroon — scraper-artefact, zelfde als CBN-2018-07.'
       concrete_problemen:
-        - regel: 96
-          categorie: C2
+        - regel: 119
+          categorie: A6
           type: other
-          voorbeeld: 1. \n\nHet bepalen, ten gevolge van een gebeurtenis...
-        - regel: 109
+          voorbeeld: 1. \n\nHet bepalen, ten gevolge van een gebeurtenis na afsluitingsdatum...
+        - regel: 132
           categorie: C2
           type: other
           voorbeeld: 2. \n\nDe minnelijke schikking voor een geschil...
-        - regel: 155
+        - regel: 178
           categorie: E2
           type: pseudo-table
-          voorbeeld: '| \n\n*Voorbeeld*\n\n  | '
+          voorbeeld: '| \n\n*Voorbeeld*\n\n  |'
 themas:
   - balansdatum
   - afsluitdatum

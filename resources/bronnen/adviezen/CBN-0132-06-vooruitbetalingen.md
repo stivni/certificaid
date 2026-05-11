@@ -12,41 +12,41 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: boekingstabellen zijn structureel inconsistent opgebouwd. In het ene patroon staat 'aan' als aparte cel in kolom 1 ('| aan | 440 Leveranciers |'), in het andere patroon staat 'aan' samengevoegd met de rekeningnaam in kolom 2 ('| | aan 55 Kredietinstellingen |' en '| | aan 440 Leveranciers |'). Dit wisselt door het gehele bestand (L75, L82, L90, L100, L108-110). Debet/Credit-kolommen zijn structureel leeg, maar dat is acceptabel voor een illustratief advies zonder bedragen."
+    rationale: "E2: boekingstabellen zijn structureel inconsistent. In het ene patroon staat 'aan' als aparte cel in kolom 1 ('| aan | 440 Leveranciers |'), in het andere is 'aan' samengevoegd met de rekeningnaam in kolom 2 ('| | aan 55 Kredietinstellingen |'). Dit wisselt door het gehele bestand (L83, L90, L98, L108, L116, L118). Bevestiging van eerder layer2-verdict."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 3514
       file_size_chars: 3514
       flags: []
+      heading_count: 0
+      max_section_chars: 3514
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "E2: boekingstabellen zijn structureel inconsistent opgebouwd. In het ene patroon staat 'aan' als aparte cel in kolom 1 ('| aan | 440 Leveranciers |'), in het andere patroon staat 'aan' samengevoegd met de rekeningnaam in kolom 2 ('| | aan 55 Kredietinstellingen |' en '| | aan 440 Leveranciers |'). Dit wisselt door het gehele bestand (L75, L82, L90, L100, L108-110). Debet/Credit-kolommen zijn structureel leeg, maar dat is acceptabel voor een illustratief advies zonder bedragen."
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: "E2: boekingstabellen zijn structureel inconsistent. In het ene patroon staat 'aan' als aparte cel in kolom 1 ('| aan | 440 Leveranciers |'), in het andere is 'aan' samengevoegd met de rekeningnaam in kolom 2 ('| | aan 55 Kredietinstellingen |'). Dit wisselt door het gehele bestand (L83, L90, L98, L108, L116, L118). Bevestiging van eerder layer2-verdict."
       concrete_problemen:
-        - regel: 75
+        - regel: 83
           categorie: E2
           type: other
           voorbeeld: "| aan | 440 Leveranciers | | | | — 'aan' in cel 1"
-        - regel: 82
+        - regel: 90
           categorie: E2
           type: other
           voorbeeld: "| | aan 55 Kredietinstellingen | | | | — 'aan' samengevoegd in cel 2"
-        - regel: 108
+        - regel: 116
           categorie: E2
           type: other
           voorbeeld: '| | aan 440 Leveranciers | | | | — inconsistent patroon (cel 2)'
-        - regel: 110
+        - regel: 118
           categorie: E2
           type: other
           voorbeeld: '| | aan 36 Vooruitbetalingen op voorraadinkopen | | | | — inconsistent patroon'

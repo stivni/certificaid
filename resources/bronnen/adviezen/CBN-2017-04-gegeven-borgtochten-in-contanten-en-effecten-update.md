@@ -12,40 +12,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:33Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6/G3: regel 59 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment na H1. D4: regel 71 bevat 'De rekeningen 750* Opbrengsten uit financiële vaste activa*' waarbij '750*' direct aansluit op het getal zonder spatie — broken italic openingsmarkering. Verder in regel 71: 'rekening 418 *Borgtochten betaald in contanten* corresponderen' — hier is het italic correct, maar eerder in de zin staat '750*' fout. Klein advies, inhoud volledig."
+    rationale: "A6/G3: regel 71 bevat ', bijgewerkt op 10 september 2025[^2]' als losstaand fragment direct na H1 — bijwerkingsartefact. D4: regel 83 bevat 'De rekeningen 750* Opbrengsten uit financiële vaste activa*' waarbij de asterisk direct aan het getal kleeft zonder spatie — broken italic openingsmarkering. Klein advies, inhoud verder volledig."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 2
-      max_section_chars: 1989
       file_size_chars: 2566
       flags: []
+      heading_count: 2
+      max_section_chars: 1989
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:33Z'
-      rationale: "A6/G3: regel 59 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment na H1. D4: regel 71 bevat 'De rekeningen 750* Opbrengsten uit financiële vaste activa*' waarbij '750*' direct aansluit op het getal zonder spatie — broken italic openingsmarkering. Verder in regel 71: 'rekening 418 *Borgtochten betaald in contanten* corresponderen' — hier is het italic correct, maar eerder in de zin staat '750*' fout. Klein advies, inhoud volledig."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "A6/G3: regel 71 bevat ', bijgewerkt op 10 september 2025[^2]' als losstaand fragment direct na H1 — bijwerkingsartefact. D4: regel 83 bevat 'De rekeningen 750* Opbrengsten uit financiële vaste activa*' waarbij de asterisk direct aan het getal kleeft zonder spatie — broken italic openingsmarkering. Klein advies, inhoud verder volledig."
       concrete_problemen:
-        - regel: 59
+        - regel: 71
           categorie: A6
           type: other
           voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
-        - regel: 71
+        - regel: 83
           categorie: D4
           type: other
-          voorbeeld: De rekeningen 750* Opbrengsten uit financiële vaste activa* en 751 *Opbrengsten
-        - regel: 71
-          categorie: D4
-          type: other
-          voorbeeld: 418 *Borgtochten betaald in contanten* corresponderen respectievelijk met de rekeningen 288 *Borgtochten betaald in contanten *en
+          voorbeeld: De rekeningen 750* Opbrengsten uit financiële vaste activa* en 751
 themas:
   - borgtochten
   - borgtochten in contanten

@@ -12,36 +12,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:33Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6/E2: regels 144-145 bevatten een spurious line-break midden in een tabelcel ('Regularisering van\\n\\t\\t\\t\\tbelastingen en terugneming...') wat de tabel breekt. D4: regel 65 heeft 'CBN-advies 2016/16 - *Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit' waarbij na de dubbele punt een tweede italicmarkering opent, wat een ETL-artefact is (dubbelspatie-grenzen door PDF-conversie)."
+    rationale: "A6/E2: regels 148-149 bevatten een spurious line-break midden in een tabelcel ('Regularisering van\\n\\t\\t\\t\\tbelastingen en terugneming van fiscale voorzieningen') met tab-inspringing op de vervolgregels — ETL-artefact dat de tabel breekt. D4: regel 69 heeft '*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit' waarbij na de dubbele punt een tweede afzonderlijke italic-span opent — dubbelspatie-grens door PDF-conversie."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 13
-      max_section_chars: 5213
       file_size_chars: 12892
       flags: []
+      heading_count: 13
+      max_section_chars: 5213
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:33Z'
-      rationale: "A6/E2: regels 144-145 bevatten een spurious line-break midden in een tabelcel ('Regularisering van\\n\\t\\t\\t\\tbelastingen en terugneming...') wat de tabel breekt. D4: regel 65 heeft 'CBN-advies 2016/16 - *Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit' waarbij na de dubbele punt een tweede italicmarkering opent, wat een ETL-artefact is (dubbelspatie-grenzen door PDF-conversie)."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "A6/E2: regels 148-149 bevatten een spurious line-break midden in een tabelcel ('Regularisering van\\n\\t\\t\\t\\tbelastingen en terugneming van fiscale voorzieningen') met tab-inspringing op de vervolgregels — ETL-artefact dat de tabel breekt. D4: regel 69 heeft '*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit' waarbij na de dubbele punt een tweede afzonderlijke italic-span opent — dubbelspatie-grens door PDF-conversie."
       concrete_problemen:
-        - regel: 144
+        - regel: 148
           categorie: A6
           type: other
-          voorbeeld: "| aan | 67/77 | Belastingen op het resultaat/Regularisering van\n\t\t\t\tbelastingen... (regelbreuk in tabelcel)"
-        - regel: 65
+          voorbeeld: "| aan | 67/77 | Belastingen op het resultaat/Regularisering van\n\t\t\t\tbelastingen..."
+        - regel: 69
           categorie: D4
           type: other
-          voorbeeld: '*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit (dubbele asterisk-grens)'
+          voorbeeld: '*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit'
 themas:
   - belastingkrediet
   - belasting

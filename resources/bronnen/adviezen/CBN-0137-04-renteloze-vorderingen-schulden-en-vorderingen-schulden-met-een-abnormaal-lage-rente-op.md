@@ -16,52 +16,44 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere ernstige problemen: (1) D2 op L86-95: headings '### Renteloze vordering, éénmalig terugbetaalbaar na n jaar' en gerelateerde sub-headings hebben geen body met formules — PDF-afbeeldingen niet geëxtraheerd, kritische wiskundige content ontbreekt. (2) E2 op L128-139: boekingstabellen hebben lege Debet/Credit-cellen — bedragen ontbreken. (3) A6 op L114-116: spurious paragraph-break midden in een zin ('als\n\nzodanig geboekt'). (4) D2/B2 op L161-177: voorbeeld-sectie heeft losstaande berekeningen zonder bijbehorende tabellen; heading-hiërarchie #### → ### is ook een sprong."
+    rationale: "B5 (regel 79): derde subsectietitel 'Renteloze vordering of vordering met een abnormaal lage rente, terugbetaalbaar anders dan op vaste termijn...' staat als plain tekst terwijl de andere twee subsecties wél als ### headings zijn gemarkeerd. D2 (regels 147-165): berekenings- en evolutietabellen in het voorbeeldgedeelte zijn volledig weggevallen — enkel voetnootreferenties (1), (2), (3) en één rekenlijn blijven over; de eigenlijke tabelinhoud ontbreekt. C3 (regel 141): terugbetalingsschema '20 000 op 31 december 1986 30 000 op 31 december 1987 50 000 op 31 december 1988' staat als één pseudo-tabelregel."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 12
-      max_section_chars: 7707
-      file_size_chars: 8375
+      file_size_chars: 8363
       flags: []
+      heading_count: 12
+      max_section_chars: 8004
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "Meerdere ernstige problemen: (1) D2 op L86-95: headings '### Renteloze vordering, éénmalig terugbetaalbaar na n jaar' en gerelateerde sub-headings hebben geen body met formules — PDF-afbeeldingen niet geëxtraheerd, kritische wiskundige content ontbreekt. (2) E2 op L128-139: boekingstabellen hebben lege Debet/Credit-cellen — bedragen ontbreken. (3) A6 op L114-116: spurious paragraph-break midden in een zin ('als\n\nzodanig geboekt'). (4) D2/B2 op L161-177: voorbeeld-sectie heeft losstaande berekeningen zonder bijbehorende tabellen; heading-hiërarchie #### → ### is ook een sprong."
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: "B5 (regel 79): derde subsectietitel 'Renteloze vordering of vordering met een abnormaal lage rente, terugbetaalbaar anders dan op vaste termijn...' staat als plain tekst terwijl de andere twee subsecties wél als ### headings zijn gemarkeerd. D2 (regels 147-165): berekenings- en evolutietabellen in het voorbeeldgedeelte zijn volledig weggevallen — enkel voetnootreferenties (1), (2), (3) en één rekenlijn blijven over; de eigenlijke tabelinhoud ontbreekt. C3 (regel 141): terugbetalingsschema '20 000 op 31 december 1986 30 000 op 31 december 1987 50 000 op 31 december 1988' staat als één pseudo-tabelregel."
       concrete_problemen:
-        - regel: 86
+        - regel: 79
+          categorie: B5
+          type: other
+          voorbeeld: Renteloze vordering of vordering met een abnormaal lage rente, terugbetaalbaar anders dan op vaste termijn...
+        - regel: 147
           categorie: D2
           type: missing-section
-          voorbeeld: '### Renteloze vordering, éénmalig terugbetaalbaar na n jaar — geen formule in body'
-        - regel: 91
-          categorie: D2
-          type: missing-section
-          voorbeeld: '### Vordering terugbetaalbaar via vaste annuïteiten — geen formule in body'
-        - regel: 114
-          categorie: A6
-          type: other
-          voorbeeld: "...en als\n\nzodanig geboekt. (spurious paragraph-break mid-zin)"
-        - regel: 128
-          categorie: E2
-          type: other
-          voorbeeld: '| | 493 | Over te dragen opbrengsten | | | — lege Debet/Credit-cellen'
+          voorbeeld: '### Actuele waarde van de kasstromen — sectie heeft geen tabelinhoud, alleen (1) Art. 25bis en één berekening'
         - regel: 161
           categorie: D2
           type: missing-section
-          voorbeeld: '#### Vaststelling van de actuele waarde... — bijbehorende tabel ontbreekt'
-        - regel: 163
-          categorie: B2
-          type: other
-          voorbeeld: '#### Vaststelling... → ### Actuele waarde... (H4→H3 hierarchie-sprong)'
+          voorbeeld: '#### Evolutie van de actuele waarde en van het disconto — tabel volledig weggevallen, alleen (1) en (2) restanten'
+        - regel: 141
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: 20 000 op 31 december 1986 30 000 op 31 december 1987 50 000 op 31 december 1988.
 themas:
   - Vorderingen met een abnormaal lage rente
   - disconto
@@ -81,7 +73,7 @@ Artikel 27*bis*, § 4, stelt dat deze bepaling op overeenkomstige wijze van toep
 
 Aan de Commissie werden verschillende vragen gesteld in verband met de berekeningswijze van het disconto en de betrokken boekingen.
 
-## Berekening van het disconto 
+## Berekening van het disconto
 
 Voor de berekening van het disconto moet de methode van het disconto bij samengestelde interest worden gebruikt. 
 
@@ -91,12 +83,12 @@ Het op de overlopende rekening te boeken disconto (E) is gelijk aan het verschil
 
 In dit advies wordt enkel ingegaan op de boekhoudtechnische implicaties terzake. Het is dus geenszins bedoeld als een overzicht van de mogelijk toepasselijke technieken van financiële algebra op zeer uiteenlopende concrete situaties. Evenwel zullen de vaakst voorkomende gevallen hierna worden toegelicht. 
 
-### Renteloze vordering, éénmalig terugbetaalbaar na n jaar 
+### Renteloze vordering, éénmalig terugbetaalbaar na n jaar
 
 Vordering met een abnormaal lage rente (i'), éénmalig terugbetaalbaar na n jaar.
 De actuele waarde is hier gelijk aan het totaal van de geactualiseerde waarde van de vordering op de vervaldag en de actuele waarde van een annuïteit overeenstemmend met de rentevergoeding :
 
-### Vordering terugbetaalbaar via vaste annuïteiten 
+### Vordering terugbetaalbaar via vaste annuïteiten
 
 De actuele waarde van de vordering is gelijk aan de geactualiseerde waarde van de annuïteiten, ongeacht de vordering renteloos of tegen een abnormaal lage rente is aangegaan.
 
@@ -109,9 +101,9 @@ De waarde per maand, van deze fractie, voor een interestvoet gaande van 6 tot en
 
 Wanneer het een vordering op meer dan één jaar betreft wordt het disconto berekend op het geheel van de verschuldigde stortingen en niet enkel op deze die na één jaar vervallen. De stortingen die tijdens het jaar vervallen op een vordering op meer dan één jaar zijn dus begrepen in de berekening van de actuele waarde van de vordering en het disconto.
 
-## Boekhoudkundige verwerking 
+## Boekhoudkundige verwerking
 
-### Boeking van het disconto 
+### Boeking van het disconto
 
 Artikel 27*bis*, § 2 van het koninklijk besluit van 8 oktober 1976 bepaalt dat het disconto in de overlopende rekeningen van het passief (rekening 493) wordt geboekt wanneer het om een vordering gaat. Betreft het een schuld, dan wordt het disconto geboekt in de overlopende rekeningen van het actief (rekening 490). 
 
@@ -123,7 +115,7 @@ Ingeval het ontbreken van een interestvergoeding op een vordering het gevolg is 
 
 zodanig geboekt. Indien een onderneming in het kader van een gerechtelijk akkoord het voordeel van een renteloze schuld bekomt, vertegenwoordigt het disconto een uitzonderlijk resultaat (764 tot 769 Andere uitzonderlijke opbrengsten). 
 
-### Het disconto wordt pro rata temporis in resultaat genomen 
+### Het disconto wordt pro rata temporis in resultaat genomen
 
 De toepassing van de actuariële methode voor de berekening van het disconto impliceert dat de toekomstige inresultaatneming volgens dezelfde methode plaatsvindt. Zij veronderstelt aldus een heractualisering van de toekomstige kasstromen op elke balansdatum. Deze heractualisering dient te geschieden tegen de oorspronkelijke actualisatievoet en niet tegen de marktrente op balansdatum. 
 
@@ -146,7 +138,7 @@ De boekingen zijn :
 | | 650 | Kosten van schulden | | |
 | aan | 490 | Over te dragen kosten | | |
 
-## De actualisatievoet 
+## De actualisatievoet
 
 Het koninklijk besluit van 8 oktober 1976 bepaalt dat het disconto wordt berekend op basis van de voor dergelijke vorderingen geldende marktrente op het ogenblik waarop de vordering is opgenomen in het vermogen van de onderneming. 
 
@@ -166,9 +158,9 @@ Een vordering van 100 000 BEF, verkregen op 30 september 1985 tegen een interest
 
 De interest wordt jaarlijks op 31 december geïnd, te beginnen vanaf 1986. De marktrente bedraagt 9 %.
 
-#### Vaststelling van de actuele waarde en van het disconto 
+### Vaststelling van de actuele waarde en van het disconto
 
-### Actuele waarde van de kasstromen 
+### Actuele waarde van de kasstromen
 
 *- Op 31 december 1985*
 
@@ -178,17 +170,17 @@ De interest wordt jaarlijks op 31 december geïnd, te beginnen vanaf 1986. De ma
 
 88.823 x 0,9789 = 86.931 
 
-### Disconto op 30 september 1985 
+### Disconto op 30 september 1985
 
 100 000 (nominale waarde) - 86 931 (actuele waarde) = 13 069 
 
-#### Evolutie van de actuele waarde en van het disconto
+### Evolutie van de actuele waarde en van het disconto
 
 (1) (32.400 x 0,9174) + (51.500 x 0,8416)
 
 (2) (51.500 x 0,9174)
 
-#### Boekingen 
+### Boekingen
 
  (1) 3 750 (interest) + 4 243 (vermindering van het disconto). 
 

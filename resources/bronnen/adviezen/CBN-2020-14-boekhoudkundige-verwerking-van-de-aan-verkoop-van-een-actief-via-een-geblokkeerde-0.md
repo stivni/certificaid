@@ -3,46 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-v
 datum: 2020-12-11
 nummer: CBN-advies 2020/14
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
-      sha256: ed74afcdef9799397ca53683b6c66f0d3608f5b8b3457b0d7e4d25674a0fab43
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
+    sha256: ed74afcdef9799397ca53683b6c66f0d3608f5b8b3457b0d7e4d25674a0fab43
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 4
-      max_section_chars: 15873
       file_size_chars: 23042
       flags: []
+      heading_count: 4
+      max_section_chars: 15873
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen significante artefacten. Drie situaties (koper-rekening, verkoper-rekening, notaris-rekening) helder als ### headings. Alle boekingstabellen in markdown pipe-syntax. Lege Debet/Credit cellen in de ordererekenings-tabellen zijn intentioneel (bedragen zijn situatie-afhankelijk). Voetnoten 1-34 aanwezig. Inhoud compleet.'
+      rationale: 'Geen significante artefacten. Drie situaties (koper-rekening, verkoper-rekening,
+        notaris-rekening) helder als ### headings. Alle boekingstabellen in markdown
+        pipe-syntax. Lege Debet/Credit cellen in de ordererekenings-tabellen zijn
+        intentioneel (bedragen zijn situatie-afhankelijk). Voetnoten 1-34 aanwezig.
+        Inhoud compleet.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Geen significante artefacten. Drie situaties (koper-rekening, verkoper-rekening, notaris-rekening) helder als ### headings. Alle boekingstabellen in markdown pipe-syntax. Lege Debet/Credit cellen in de ordererekenings-tabellen zijn intentioneel (bedragen zijn situatie-afhankelijk). Voetnoten 1-34 aanwezig. Inhoud compleet.'
+    rationale: 'Geen significante artefacten. Drie situaties (koper-rekening, verkoper-rekening,
+      notaris-rekening) helder als ### headings. Alle boekingstabellen in markdown
+      pipe-syntax. Lege Debet/Credit cellen in de ordererekenings-tabellen zijn intentioneel
+      (bedragen zijn situatie-afhankelijk). Voetnoten 1-34 aanwezig. Inhoud compleet.'
     status: trusted
 themas:
-  - geblokkeerde rekening
-  - geblokkeerde bankrekening
-  - opschortende voorwaarde
-  - ontbindende voorwaarde
-  - waarborg
-  - niet in de balans opgenomen rechten en verplichtingen
-  - escrow
-  - inbeslagname
+- geblokkeerde rekening
+- geblokkeerde bankrekening
+- opschortende voorwaarde
+- ontbindende voorwaarde
+- waarborg
+- niet in de balans opgenomen rechten en verplichtingen
+- escrow
+- inbeslagname
 ---
 
 # CBN-advies 2020/14 – Boekhoudkundige verwerking van de aan-/verkoop van een actief via een geblokkeerde rekening

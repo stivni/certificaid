@@ -2,69 +2,83 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
 datum: 2019-11-06
 gerelateerde_adviezen:
-  - datum: '2025-07-14'
-    titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening – begroting (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting-update
-  - datum: '2025-07-16'
-    titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-0
-  - datum: '2024-09-19'
-    titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
-  - datum: '2024-09-19'
-    titel: Gevolgen verhoging groottecriteria voor vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
+- datum: '2025-07-14'
+  titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening
+    – begroting (update) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting-update
+- datum: '2025-07-16'
+  titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25
+    van het Wetboek van vennootschappen en verenigingen (update) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-0
+- datum: '2024-09-19'
+  titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
+  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
+- datum: '2024-09-19'
+  titel: Gevolgen verhoging groottecriteria voor vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
 nummer: CBN-advies 2019/12
 provenance:
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
-      sha256: 52bbb3f0bad6eab43de279dab9b10784e68d1b580b429143c7d60413ab061c56
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
+    sha256: 52bbb3f0bad6eab43de279dab9b10784e68d1b580b429143c7d60413ab061c56
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:34:12Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Geen TOC-artefact: het advies start direct met `## Algemeen` zonder plain-text TOC-blok. Heading-hiërarchie correct en gelaagd. Inhoud volledig (groottecriteria, omzet, neerlegging, begroting). Enige cosmetische kanttekening: `**Criteria**`, `**Bij de griffie**` en `**Bij de Nationale Bank van België**` zijn bold-paragraafkoppen in plaats van headings (grensgevallen B4), maar dit is acceptabel voor een mens-geschreven stijl bij korte overgangen. Geen andere artefacten.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
+      file_size_chars: 23871
+      flags: []
       heading_count: 23
       max_section_chars: 13188
-      file_size_chars: 23875
-      flags: []
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: 'Geen TOC-artefact: het advies start direct met `## Algemeen` zonder plain-text TOC-blok. Heading-hiërarchie correct en gelaagd. Inhoud volledig (groottecriteria, omzet, neerlegging, begroting). Enige cosmetische kanttekening: `**Criteria**`, `**Bij de griffie**` en `**Bij de Nationale Bank van België**` zijn bold-paragraafkoppen in plaats van headings (grensgevallen B4), maar dit is acceptabel voor een mens-geschreven stijl bij korte overgangen. Geen andere artefacten.'
       concrete_problemen: []
+      rationale: 'Geen TOC-artefact: het advies start direct met `## Algemeen` zonder
+        plain-text TOC-blok. Heading-hiërarchie correct en gelaagd. Inhoud volledig
+        (groottecriteria, omzet, neerlegging, begroting). Enige cosmetische kanttekening:
+        `**Criteria**`, `**Bij de griffie**` en `**Bij de Nationale Bank van België**`
+        zijn bold-paragraafkoppen in plaats van headings (grensgevallen B4), maar
+        dit is acceptabel voor een mens-geschreven stijl bij korte overgangen. Geen
+        andere artefacten.'
+      run_at: '2026-05-11T13:34:12Z'
+      status: trusted
+    rationale: 'Geen TOC-artefact: het advies start direct met `## Algemeen` zonder
+      plain-text TOC-blok. Heading-hiërarchie correct en gelaagd. Inhoud volledig
+      (groottecriteria, omzet, neerlegging, begroting). Enige cosmetische kanttekening:
+      `**Criteria**`, `**Bij de griffie**` en `**Bij de Nationale Bank van België**`
+      zijn bold-paragraafkoppen in plaats van headings (grensgevallen B4), maar dit
+      is acceptabel voor een mens-geschreven stijl bij korte overgangen. Geen andere
+      artefacten.'
+    status: trusted
 themas:
-  - groottecriteria
-  - verenigingen en stichtingen
-  - begroting
-  - schema van de jaarrekening
-  - jaarrekening
-  - microschema
-  - vereenvoudigde boekhouding
-  - dubbele boekhouding
-  - omzet
-  - consistentiebeginsel
-  - vorm van de jaarrekening
-  - neerlegging van de jaarrekening
-  - publicatie van de jaarrekening
-  - griffie
-  - jokeradvies
-  - vereniging
-  - stichting
+- groottecriteria
+- verenigingen en stichtingen
+- begroting
+- schema van de jaarrekening
+- jaarrekening
+- microschema
+- vereenvoudigde boekhouding
+- dubbele boekhouding
+- omzet
+- consistentiebeginsel
+- vorm van de jaarrekening
+- neerlegging van de jaarrekening
+- publicatie van de jaarrekening
+- griffie
+- jokeradvies
+- vereniging
+- stichting
 ---
 
 # CBN-advies 2019/12 – Groottecriteria verenigingen en stichtingen - schema van de jaarrekening - begroting
@@ -128,7 +142,7 @@ De M.A.R.[^14] voorziet binnen de rubriek 70 *Omzet* de volgende onderverdeling:
 
 708 *Toegekende kortingen, ristorno’s en rabatten (-)*
 
-### *Voorbeeld*
+### Voorbeeld
 
 De resultatenrekening bevat de volgende gegevens:
 - omzet: 3.300.000 euro;
@@ -148,7 +162,7 @@ Wat de bedrijfsopbrengsten, met uitzondering van de niet-recurrente bedrijfsopbr
 
 Wat de financiële opbrengsten, met uitzondering van de niet-recurrente financiële opbrengsten, betreft, worden voor de afwijkende regeling hieronder tevens de “Diverse financiële opbrengsten” begrepen en bestaan zij onder meer uit de meerwaarden verwezenlijkt bij de realisatie van vorderingen, andere dan handelsvorderingen, van geldbeleggingen en van liquide middelen, de als opbrengst geboekte kapitaal- en interestsubsidies, de wisselresultaten en de resultaten uit de omrekening van vreemde valuta tenzij deze specifiek verbonden zijn met een andere post van de resultatenrekening, in welk geval ze onder die post mogen worden opgenomen, en alle opbrengsten van financiële aard, die geen verband houden met welbepaalde activa.
 
-### *Voorbeeld*
+### Voorbeeld
 
 Uit de resultatenrekening blijken de volgende cijfers:
 - omzet: 300.000 euro;

@@ -25,36 +25,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: Regels 75–110 bevatten de volledige inhoudsopgave als ingesprongen plain-text lijst vóór ## Inleiding op regel 112. A6: Regel 109–110 breekt '(geldbeleggingen\\n)' over twee regels midden in een heading-label — extractie-artefact waarbij een haakje-sluiting op een aparte regel staat."
+    rationale: 'A7: Regel 67 bevat een weesregel `) bestemd om duurzaam bij te dragen aan de activiteit van de VZW` direct vóór `## Inleiding` — fragment van een sectie-titel dat bij extractie los is gekomen. B2: Heading-hiërarchie-sprong op regels 196-200: `#### Niet-geregistreerde schenking` → `##### Waardering...` → `### Voorbeeld 5` — `###` staat hoger dan `####` wat een terugsprong van 2 niveaus is zonder tussenliggende heading.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 50
-      max_section_chars: 13375
-      file_size_chars: 34849
+      file_size_chars: 33295
       flags: []
+      heading_count: 50
+      max_section_chars: 13781
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "A3: Regels 75–110 bevatten de volledige inhoudsopgave als ingesprongen plain-text lijst vóór ## Inleiding op regel 112. A6: Regel 109–110 breekt '(geldbeleggingen\\n)' over twee regels midden in een heading-label — extractie-artefact waarbij een haakje-sluiting op een aparte regel staat."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'A7: Regel 67 bevat een weesregel `) bestemd om duurzaam bij te dragen aan de activiteit van de VZW` direct vóór `## Inleiding` — fragment van een sectie-titel dat bij extractie los is gekomen. B2: Heading-hiërarchie-sprong op regels 196-200: `#### Niet-geregistreerde schenking` → `##### Waardering...` → `### Voorbeeld 5` — `###` staat hoger dan `####` wat een terugsprong van 2 niveaus is zonder tussenliggende heading.'
       concrete_problemen:
-        - regel: 75
-          categorie: A3
+        - regel: 67
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: ) bestemd om duurzaam bij te dragen aan de activiteit van de VZW
+        - regel: 200
+          categorie: B2
           type: other
-          voorbeeld: '1. Inleiding \n  1. Schenkingen en legaten: nieuwe waarderingsregel \n  2. Subsidies...'
-        - regel: 109
-          categorie: A6
-          type: other
-          voorbeeld: 3. Schenking van aandelen (geldbeleggingen\n) bestemd om duurzaam bij te dragen...
+          voorbeeld: '### Voorbeeld 5 (na #### Niet-geregistreerde schenking en ##### Waardering)'
 themas:
   - schenking
   - legaat
@@ -68,41 +68,6 @@ themas:
 
 # CBN-advies 2020/10 – Schenkingen en legaten voor VZW’s, IVZW’s en stichtingen die een dubbele boekhouding voeren
 
-1. Inleiding 
-  1. Schenkingen en legaten: nieuwe waarderingsregel 
-  2. Subsidies 
-
-2. Boekhoudkundige verwerking van schenkingen en legaten 
-  1. Legaten 
-    1. Legaten bestemd om duurzaam bij te dragen tot de activiteit van de VZW 
-      1. Waardering tegen aanschaffingswaarde 
-      2. Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde 
-
-    2. Legaten die niet bestemd zijn om duurzaam bij te dragen tot de activiteit van de VZW 
-      1. Waardering tegen aanschaffingswaarde 
-      2. Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde 
-
-  2. Schenkingen 
-    1. Schenking van een roerend goed bestemd om duurzaam bij te dragen tot de activiteit van de VZW 
-      1. Niet-geregistreerde schenking
-
-        1. Waardering tegen aanschaffingswaarde 
-        2. Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde 
-
-      2. Geregistreerde schenking 
-        1. Waardering tegen aanschaffingswaarde 
-        2. Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde 
-
-    2. Schenking van een roerend goed niet bestemd om duurzaam bij te dragen tot de activiteit van de VZW 
-      1. Niet-geregistreerde schenking 
-        1. Waardering tegen aanschaffingswaarde 
-        2. Waardering tegen marktwaarde 
-
-      2. Geregistreerde schenking 
-        1. Waardering tegen aanschaffingswaarde 
-        2. Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde 
-
-    3. Schenking van aandelen (geldbeleggingen
 ) bestemd om duurzaam bij te dragen aan de activiteit van de VZW
 
 ## Inleiding
@@ -150,9 +115,9 @@ Hierna illustreert de Commissie de boekhoudkundige verwerking aan de hand van ee
 
 #### Legaten bestemd om duurzaam bij te dragen tot de activiteit van de VZW
 
-##### Waardering tegen aanschaffingswaarde 
+##### Waardering tegen aanschaffingswaarde
 
-### *Voorbeeld 1[^21]* 
+### Voorbeeld 1[^21]
 
 Een VZW werd door een natuurlijke persoon zonder erfgenaam aangeduid als algemene legataris. Deze persoon komt te overlijden. De overledene laat als enige nalatenschap een huis na met een marktwaarde van 455.000 euro. De VZW handelt de 31.850 euro aan successierechten af[^22]. De bedoeling van de overledene was om met dit legaat de fondsen van de VZW permanent te vergroten.
 
@@ -172,9 +137,9 @@ Artikel 3:14, eerste lid KB WVV definieert de aanschaffingsprijs als volgt: “*
 
 De door de VZW betaalde successierechten worden overeenkomstig artikel 3:14, eerste lid, KB WVV beschouwd als de aanschaffingsprijs.
 
-##### Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde 
+#### Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde
 
-### *Voorbeeld 2[^23]* 
+### Voorbeeld 2[^23]
 
 We hernemen de gegevens van het eerste voorbeeld. Het bestuursorgaan van de VZW beslist om het gebouw tegen marktwaarde[^24] in de boekhouding op te nemen. Het huis werd nagelaten met als doel de fondsen van de vereniging of stichting permanent te vergroten.
 
@@ -194,9 +159,9 @@ Overeenkomstig artikel 3:160, tweede lid, KB WVV kan de VZW het nagelaten huis o
 
 #### Legaten die niet bestemd zijn om duurzaam bij te dragen tot de activiteit van de VZW
 
-##### Waardering tegen aanschaffingswaarde
+#### Waardering tegen aanschaffingswaarde
 
-### *Voorbeeld 3*
+### Voorbeeld 3
 
 We hernemen de gegevens van het eerste voorbeeld, met als enige verschil dat het nagelaten huis hier niet bestemd is om duurzaam bij te dragen tot de activiteit van de VZW.
 
@@ -210,9 +175,9 @@ We hernemen de gegevens van het eerste voorbeeld, met als enige verschil dat het
 | | 489 | Andere diverse schulden | 31.850 | |
 | aan | 550 | Kredietinstellingen: rekeningen-courant | | 31.850 |
 
-##### Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde
+#### Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde
 
-### *Voorbeeld 4*
+### Voorbeeld 4
 
 We hernemen de gegevens van het eerste voorbeeld, met als enige verschil dat het nagelaten huis hier niet bestemd is om duurzaam bij te dragen tot de activiteit van de VZW. Het bestuursorgaan van de VZW beslist het gebouw te boeken tegen marktwaarde.
 
@@ -228,23 +193,23 @@ We hernemen de gegevens van het eerste voorbeeld, met als enige verschil dat het
 | | 489 | Andere diverse schulden | 31.850 | |
 | aan | 550 | Kredietinstellingen: rekeningen-courant | | 31.850 |
 
-### Schenkingen 
+### Schenkingen
 
-#### Schenking van een roerend goed bestemd om duurzaam bij te dragen tot de activiteit van de VZW 
+#### Schenking van een roerend goed bestemd om duurzaam bij te dragen tot de activiteit van de VZW
 
-##### Niet-geregistreerde schenking[^26] 
+#### Niet-geregistreerde schenking[^26]
 
-###### Waardering tegen aanschaffingswaarde 
+##### Waardering tegen aanschaffingswaarde
 
-### *Voorbeeld 5*
+### Voorbeeld 5
 
 Een autohandel schenkt een auto aan een VZW die zich ontfermt over personen met een beperkte mobiliteit. De schenking is bestemd om duurzaam bij te dragen tot de activiteit van de VZW. De auto heeft een marktwaarde van 24.500 euro. De aanschaffingswaarde van de auto is gelijk aan 0 euro.[^27] 
 
 De wijze waarop de schenking wordt gewaardeerd, wordt vermeld onder de waarderingsregels[^28] in de toelichting. Indien de VZW de schenking evenwel wenst op te nemen in haar rekeningen, dan kan dit door de schenking te waarderen tegen werkelijke waarde, marktwaarde of gebruikswaarde.
 
-###### Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde 
+#### Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde
 
-### *Voorbeeld 6*
+### Voorbeeld 6
 
 We hernemen de gegevens van het vijfde voorbeeld. De VZW[^29] beslist om de auto in de jaarrekening tegen marktwaarde te waarderen. 
 
@@ -253,11 +218,11 @@ We hernemen de gegevens van het vijfde voorbeeld. De VZW[^29] beslist om de auto
 | | 2408 | Meubilair en rollend materieel: geboekte meerwaarden | 24.500 | |
 | aan | 10 | Fondsen van de vereniging | | 24.500 |
 
-##### Geregistreerde schenking
+#### Geregistreerde schenking
 
-###### Waardering tegen aanschaffingswaarde 
+#### Waardering tegen aanschaffingswaarde
 
-### *Voorbeeld 7*
+### Voorbeeld 7
 
 We hernemen dezelfde gegevens van het vijfde voorbeeld, met als enige verschil dat de VZW deze keer de schenking van het roerend goed wel laat registreren. Wat betekent dat de betrokken schenking zal geregistreerd worden en bijgevolg registratiebelasting zal verschuldigd zijn. De VZW past het principe toe zoals bepaald in artikel 3:160 KB WVV, namelijk de waardering tegen aanschaffingswaarde. De schenkingsrechten bedragen 1.715 euro[^30]. 
 
@@ -271,9 +236,9 @@ We hernemen dezelfde gegevens van het vijfde voorbeeld, met als enige verschil d
 | | 489 | Andere diverse schulden | 1.715 | |
 | aan | 550 | Kredietinstellingen: rekeningen-courant | | 1.715 |
 
-###### Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde 
+#### Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde
 
-### *Voorbeeld 8*
+### Voorbeeld 8
 
 We hernemen de gegevens van het zevende voorbeeld. De VZW kiest ervoor te waarderen tegen marktwaarde. De wagen werd geschonken om duurzaam bij te dragen tot de activiteit van de VZW.
 
@@ -289,21 +254,21 @@ We hernemen de gegevens van het zevende voorbeeld. De VZW kiest ervoor te waarde
 | | 489 | Andere diverse schulden | 1.715 | |
 | aan | 550 | Kredietinstellingen: rekeningen-courant | | 1.715 |
 
-#### Schenking van een roerend goed niet bestemd om duurzaam bij te dragen tot de activiteit van de VZW 
+#### Schenking van een roerend goed niet bestemd om duurzaam bij te dragen tot de activiteit van de VZW
 
-##### Niet-geregistreerde schenking
+#### Niet-geregistreerde schenking
 
-###### Waardering tegen aanschaffingswaarde 
+#### Waardering tegen aanschaffingswaarde
 
-### *Voorbeeld 9*
+### Voorbeeld 9
 
 Een VZW ontvangt in de loop van boekjaar X een schenking van twee wagens die elk 24.350 euro waard zijn. De schenking heeft niet tot doel duurzaam bij te dragen tot de activiteit van de vereniging. De aanschaffingswaarde bedraagt 0 euro[^31]. Deze aanschaffingswaarde zal niet worden geboekt op de balans van de VZW. 
 
 De wijze waarop de schenking wordt gewaardeerd, wordt vermeld onder de waarderingsregels[^32] in de toelichting. Indien de VZW de schenking wenst op te nemen in haar rekeningen, dan kan dit door de schenking te waarderen tegen werkelijke waarde, marktwaarde of gebruikswaarde. 
 
-###### Waardering tegen marktwaarde 
+#### Waardering tegen marktwaarde
 
-### *Voorbeeld 10*
+### Voorbeeld 10
 
 We hernemen de gegevens van het negende voorbeeld. Aan een VZW worden in de loop van boekjaar X twee wagens geschonken. Overeenkomstig artikel 3:160, tweede lid KB WVV kiest de VZW ervoor te waarderen tegen marktwaarde. Elke wagen heeft een marktwaarde van 24.350 euro. 
 
@@ -333,7 +298,7 @@ of
 | | 550 | Kredietinstellingen: rekeningen-courant | 50.000 | |
 | aan | 764 | Andere niet-recurrente bedrijfsopbrengsten | | 50.000 |
 
-### *Voorbeeld 11*
+### Voorbeeld 11
 
 We hernemen de gegevens van het negende voorbeeld. Zodra de VZW de wagens krijgt, verkoopt ze die voor 50.000 euro. 
 
@@ -342,11 +307,11 @@ We hernemen de gegevens van het negende voorbeeld. Zodra de VZW de wagens krijgt
 | | 550 | Kredietinstellingen: rekening-courant | 50.000 | |
 | aan | 764 | Andere niet-recurrente bedrijfsopbrengsten | | 50.000 |
 
-##### Geregistreerde schenking 
+#### Geregistreerde schenking
 
-###### Waardering tegen aanschaffingswaarde 
+#### Waardering tegen aanschaffingswaarde
 
-### *Voorbeeld 12*
+### Voorbeeld 12
 
 We hernemen de gegevens van het negende voorbeeld, maar deze keer laat de VZW de schenking registreren. De VZW betaalt 3.409 euro aan schenkingsrechten[^33]. 
 
@@ -360,9 +325,9 @@ We hernemen de gegevens van het negende voorbeeld, maar deze keer laat de VZW de
 | | 489 | Andere diverse schulden | 3.409 | |
 | aan | 550 | Kredietinstellingen: rekeningen-courant | | 3.409 |
 
-###### Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde 
+#### Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde
 
-### *Voorbeeld 13*
+### Voorbeeld 13
 
 De VZW heeft een schenking van twee wagens ontvangen die elk 24.350 euro waard zijn. De VZW heeft de schenking laten registreren en heeft 3.409 euro aan schenkingsrechten betaald. Overeenkomstig artikel 3:160 KB WVV kiest de VZW ervoor te waarderen tegen marktwaarde. 
 
@@ -385,19 +350,19 @@ De VZW heeft een schenking van twee wagens ontvangen die elk 24.350 euro waard z
 
 Het is niet verplicht de schenking van een roerend goed te laten registreren[^35]. Er kan dus onderscheid gemaakt worden tussen het geval waarin de schenking geregistreerd wordt en het geval waarin ze niet geregistreerd wordt.
 
-##### Niet-geregistreerde schenking
+#### Niet-geregistreerde schenking
 
-###### Waardering tegen aanschaffingswaarde 
+#### Waardering tegen aanschaffingswaarde
 
-### *Voorbeeld 14* 
+### Voorbeeld 14
 
 Een VZW ontvangt een schenking van aandelen in een aantal ondernemingen (geldbeleggingen) ter waarde van 30.000 euro (marktwaarde) met als doel duurzaam bij te dragen tot de activiteiten van de VZW. De aanschaffingswaarde is ten gevolge van de schenking 0 euro.
 
 De wijze waarop de schenking wordt gewaardeerd, wordt vermeld onder de waarderingsregels[^36] in de toelichting. Indien de VZW de schenking wenst op te nemen in haar rekeningen, vindt de Commissie het overigens gepast om de schenking te waarderen tegen werkelijke waarde, marktwaarde of gebruikswaarde. 
 
-###### Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde 
+#### Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde
 
-### *Voorbeeld 15* 
+### Voorbeeld 15
 
 We hernemen de gegevens van voorbeeld 14. De VZW beslist om de aandelen (geldbeleggingen) te waarderen tegen marktwaarde. Deze bedraagt 30.000 euro.
 
@@ -406,11 +371,11 @@ We hernemen de gegevens van voorbeeld 14. De VZW beslist om de aandelen (geldbel
 | | 518 | Aandelen – Verschil tussen aanschaffingswaarde en marktprijs | 30.000 | |
 | aan | 10 | Fondsen van de vereniging | | 30.000 |
 
-##### Geregistreerde schenking 
+#### Geregistreerde schenking
 
-###### Waardering tegen aanschaffingswaarde 
+#### Waardering tegen aanschaffingswaarde
 
-### *Voorbeeld 16*
+### Voorbeeld 16
 
 We hernemen de gegevens van voorbeeld 14. De VZW betaalt 2.100 euro aan schenkingsrechten[^37].
 
@@ -424,9 +389,9 @@ We hernemen de gegevens van voorbeeld 14. De VZW betaalt 2.100 euro aan schenkin
 | | 489 | Andere diverse schulden | 2.100 | |
 | aan | 550 | Kredietinstellingen: rekening-courant | | 2.100 |
 
-###### Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde 
+#### Waardering tegen werkelijke waarde, marktwaarde of gebruikswaarde
 
-### *Voorbeeld 17*
+### Voorbeeld 17
 
 We hernemen de gegevens van voorbeeld 14. De VZW betaalt 2.100 euro aan schenkingsrechten[^38]. 
 

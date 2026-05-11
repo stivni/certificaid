@@ -3,40 +3,44 @@ bron: https://www.cbn-cnc.be/nl/adviezen/kosten-afgewenteld-op-of-gedragen-door-
 datum: 1977-08-01
 nummer: CBN-advies 105/2
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/kosten-afgewenteld-op-of-gedragen-door-derden
-      sha256: 94b95deabd02e2a98891ef640906d58df0f6dc7e05a95bb64af51c647c39e53d
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/kosten-afgewenteld-op-of-gedragen-door-derden
+    sha256: 94b95deabd02e2a98891ef640906d58df0f6dc7e05a95bb64af51c647c39e53d
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 1858
       file_size_chars: 1858
       flags: []
+      heading_count: 0
+      max_section_chars: 1858
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Geen artefacten. Bestand bevat één coherente alinea-advies (1 858 chars) zonder headings — logisch voor een kort CBN-advies uit 1977. Frontmatter klopt, geen unicode-issues, geen HTML-entities.
+      rationale: Geen artefacten. Bestand bevat één coherente alinea-advies (1 858
+        chars) zonder headings — logisch voor een kort CBN-advies uit 1977. Frontmatter
+        klopt, geen unicode-issues, geen HTML-entities.
       run_at: '2026-05-11T11:57:45Z'
       status: trusted
-    rationale: Geen artefacten. Bestand bevat één coherente alinea-advies (1 858 chars) zonder headings — logisch voor een kort CBN-advies uit 1977. Frontmatter klopt, geen unicode-issues, geen HTML-entities.
+    rationale: Geen artefacten. Bestand bevat één coherente alinea-advies (1 858 chars)
+      zonder headings — logisch voor een kort CBN-advies uit 1977. Frontmatter klopt,
+      geen unicode-issues, geen HTML-entities.
     status: trusted
 themas:
-  - kosten afgewenteld op derden
-  - kosten gedragen door derden
+- kosten afgewenteld op derden
+- kosten gedragen door derden
 ---
 
 # CBN-advies 105/2 - Kosten afgewenteld op of gedragen door derden

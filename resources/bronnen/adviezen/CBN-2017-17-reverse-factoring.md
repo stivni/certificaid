@@ -12,36 +12,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:33Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 65 bevat 'De boekhoudkundige verwerking van factoringovereenkomsten[^2]*  behandelt' — de italic sluit met spatie voor het asterisk, wat een ETL-artefact is. Regel 73 bevat '*Financiële schulden – Overige leningen moet worden gereclasseerd.*' waarbij de italic-markering een te lang tekstblok omvat inclusief prose-tekst wat onnatuurlijk is voor mens-geschreven markdown."
+    rationale: "D4: regel 75 bevat 'factoringovereenkomsten[^2]*  behandelt' — dubbele spatie voor het sluitende asterisk is een ETL-artefact. Regel 83 bevat '*Financiële schulden – Overige leningen moet worden gereclasseerd.*' waarbij de italic-markering de volledige proza-zin omvat inclusief punt — een mens zou enkel de rekeningnaam cursiveren, niet de omringende zin."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 2
-      max_section_chars: 3510
       file_size_chars: 4590
       flags: []
+      heading_count: 2
+      max_section_chars: 3510
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:33Z'
-      rationale: "D4: regel 65 bevat 'De boekhoudkundige verwerking van factoringovereenkomsten[^2]*  behandelt' — de italic sluit met spatie voor het asterisk, wat een ETL-artefact is. Regel 73 bevat '*Financiële schulden – Overige leningen moet worden gereclasseerd.*' waarbij de italic-markering een te lang tekstblok omvat inclusief prose-tekst wat onnatuurlijk is voor mens-geschreven markdown."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "D4: regel 75 bevat 'factoringovereenkomsten[^2]*  behandelt' — dubbele spatie voor het sluitende asterisk is een ETL-artefact. Regel 83 bevat '*Financiële schulden – Overige leningen moet worden gereclasseerd.*' waarbij de italic-markering de volledige proza-zin omvat inclusief punt — een mens zou enkel de rekeningnaam cursiveren, niet de omringende zin."
       concrete_problemen:
-        - regel: 65
+        - regel: 75
           categorie: D4
           type: other
-          voorbeeld: factoringovereenkomsten[^2]*  behandelt (spatie voor sluitende asterisk)
-        - regel: 73
+          voorbeeld: factoringovereenkomsten[^2]*  behandelt
+        - regel: 83
           categorie: D4
           type: other
-          voorbeeld: '*Financiële schulden – Overige leningen moet worden gereclasseerd.* (italic omvat te lange span)'
+          voorbeeld: '*Financiële schulden – Overige leningen moet worden gereclasseerd.*'
 themas:
   - factor
   - factoring

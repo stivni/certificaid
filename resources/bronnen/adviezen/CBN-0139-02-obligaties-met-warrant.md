@@ -25,29 +25,29 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:03Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F1: HTML-entity '&#039;' in frontmatter (gerelateerde_adviezen titel 'CPC&#039;s') is een niet-gedecodeeerd scraper-artefact. D4-probleem uit vorig verdict (*Bull. CBN *) is niet zichtbaar in huidige versie — de italic ziet er correct uit ('*Bull. CBN* nr. 13'). Eén resterend artefact in frontmatter vereist ETL-fix."
+    rationale: "F1 (regel 11): HTML-entity '&#039;' in frontmatter-veld gerelateerde_adviezen titel ('CPC&#039;s') is een niet-gedecodeerd scraper-artefact. Body is inhoudelijk volledig en correct geformatteerd zonder verdere artefacten."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 3657
       file_size_chars: 3657
       flags: []
+      heading_count: 0
+      max_section_chars: 3657
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:03Z'
-      rationale: "F1: HTML-entity '&#039;' in frontmatter (gerelateerde_adviezen titel 'CPC&#039;s') is een niet-gedecodeeerd scraper-artefact. D4-probleem uit vorig verdict (*Bull. CBN *) is niet zichtbaar in huidige versie — de italic ziet er correct uit ('*Bull. CBN* nr. 13'). Eén resterend artefact in frontmatter vereist ETL-fix."
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: "F1 (regel 11): HTML-entity '&#039;' in frontmatter-veld gerelateerde_adviezen titel ('CPC&#039;s') is een niet-gedecodeerd scraper-artefact. Body is inhoudelijk volledig en correct geformatteerd zonder verdere artefacten."
       concrete_problemen:
-        - regel: 9
+        - regel: 11
           categorie: F1
           type: other
           voorbeeld: 'titel: Passende boekhoudkundige verwerking van de tegenwaarde van participatiecertificaten CPC&#039;s'

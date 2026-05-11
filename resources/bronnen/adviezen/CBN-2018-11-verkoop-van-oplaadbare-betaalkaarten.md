@@ -12,48 +12,48 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bevestiging van bestaand verdict. A3: TOC-fragment op regels 67-72 staat als plain text boven de inhoud (niet verwijderd door scraper), inclusief geconcateneerde regel 'vereniging of stichtingOndernemingen…'. D4: malformed italic op regels 78, 84, 86 met spatie voor sluitende asterisk (*term *)."
+    rationale: "A3: regels 76-78 bevatten TOC-resten als plain text bovenin de body ('vereniging of stichting\\n\\n vereniging of stichtingOndernemingen en niet-kleine...') inclusief een aaneengeplakte regel waarbij twee TOC-items zijn samengevoegd zonder scheidingsteken. D4: regels 84, 90 en 92 bevatten italic-markers met spatie voor het sluitende asterisk (*term *). E2: drie voorbeeld-blokken zijn verpakt in `| \\n\\n*Voorbeeld*\\n\\n  |` constructies (regels 98, 123, 123-136)."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
+      file_size_chars: 8012
+      flags: []
       heading_count: 6
       max_section_chars: 4094
-      file_size_chars: 8098
-      flags: []
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "Bevestiging van bestaand verdict. A3: TOC-fragment op regels 67-72 staat als plain text boven de inhoud (niet verwijderd door scraper), inclusief geconcateneerde regel 'vereniging of stichtingOndernemingen…'. D4: malformed italic op regels 78, 84, 86 met spatie voor sluitende asterisk (*term *)."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "A3: regels 76-78 bevatten TOC-resten als plain text bovenin de body ('vereniging of stichting\\n\\n vereniging of stichtingOndernemingen en niet-kleine...') inclusief een aaneengeplakte regel waarbij twee TOC-items zijn samengevoegd zonder scheidingsteken. D4: regels 84, 90 en 92 bevatten italic-markers met spatie voor het sluitende asterisk (*term *). E2: drie voorbeeld-blokken zijn verpakt in `| \\n\\n*Voorbeeld*\\n\\n  |` constructies (regels 98, 123, 123-136)."
       concrete_problemen:
-        - regel: 67
+        - regel: 76
           categorie: A3
           type: other
-          voorbeeld: 1. Algemeen \n2. Kleine\n vereniging of stichting \n3. Ondernemingen...
-        - regel: 72
+          voorbeeld: vereniging of stichting
+        - regel: 78
           categorie: A3
           type: other
           voorbeeld: vereniging of stichtingOndernemingen en niet-kleine verenigingen en stichtingen
-        - regel: 78
-          categorie: D4
-          type: other
-          voorbeeld: '*vouchers voor enkelvoudig gebruik[^2] *'
         - regel: 84
           categorie: D4
           type: other
-          voorbeeld: '*Genormaliseerd minimaal schema van de Staat van de ontvangsten en uitgaven[^5] *'
-        - regel: 86
+          voorbeeld: '*vouchers voor enkelvoudig gebruik[^2] *'
+        - regel: 90
           categorie: D4
           type: other
-          voorbeeld: '*Andere schulden *in het* Genormaliseerd minimaal schema van de staat van het vermogen*'
+          voorbeeld: '*Genormaliseerd minimaal schema van de Staat van de ontvangsten en uitgaven[^5] *'
+        - regel: 98
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: '| \n\n*Voorbeeld*\n\n  |'
 themas:
   - betaalkaart
   - oplaadbare betaalkaart
@@ -64,12 +64,9 @@ themas:
 
 # CBN-advies 2018/11 – Verkoop van (oplaadbare) betaalkaarten
 
-1. Algemeen 
-2. Kleine
- vereniging of stichting 
-3. Ondernemingen en niet-kleine verenigingen en stichtingen 
+vereniging of stichting 
 
- vereniging of stichtingOndernemingen en niet-kleine verenigingen en stichtingen 
+ vereniging of stichtingOndernemingen en niet-kleine verenigingen en stichtingen
 
 ## Algemeen
 

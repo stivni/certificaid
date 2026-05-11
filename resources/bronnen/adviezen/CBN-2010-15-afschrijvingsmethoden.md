@@ -12,37 +12,37 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: r61-75 bevat een plain-text genummerde inhoudsopgave in de body (patroon identiek aan 2010/16) — TOC-fragment niet verwijderd bij extractie, terwijl de eigenlijke inhoud als ## en ### headings verder staat. D4: r186 '*Voorbeeld ' heeft een trailing spatie na de opening asterisk (malformed italic opener). R202 'en wordt het* pro rata* van het gebruik' — asterisk direct na 'het' zonder spatie, gecombineerd met een italic-marker, is een malformed-patroon. Overige inhoud en structuur zijn goed."
+    rationale: "A3 bevestigd: r61-75 plain-text genummerde inhoudsopgave direct na H1, terwijl inhoud als ##/### headings verder staat. D4 bevestigd: r197 '*Voorbeeld ' heeft trailing spatie na opening asterisk (malformed italic opener); r213 'het* pro rata*' heeft asterisk direct na 'het' zonder scheidende spatie. Overige inhoud (13 headings, voetnoten 1-34 volledig, voorbeelden compleet) correct."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 23556
+      flags: []
       heading_count: 13
       max_section_chars: 6418
-      file_size_chars: 23989
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "A3: r61-75 bevat een plain-text genummerde inhoudsopgave in de body (patroon identiek aan 2010/16) — TOC-fragment niet verwijderd bij extractie, terwijl de eigenlijke inhoud als ## en ### headings verder staat. D4: r186 '*Voorbeeld ' heeft een trailing spatie na de opening asterisk (malformed italic opener). R202 'en wordt het* pro rata* van het gebruik' — asterisk direct na 'het' zonder spatie, gecombineerd met een italic-marker, is een malformed-patroon. Overige inhoud en structuur zijn goed."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "A3 bevestigd: r61-75 plain-text genummerde inhoudsopgave direct na H1, terwijl inhoud als ##/### headings verder staat. D4 bevestigd: r197 '*Voorbeeld ' heeft trailing spatie na opening asterisk (malformed italic opener); r213 'het* pro rata*' heeft asterisk direct na 'het' zonder scheidende spatie. Overige inhoud (13 headings, voetnoten 1-34 volledig, voorbeelden compleet) correct."
       concrete_problemen:
         - regel: 61
           categorie: A3
           type: other
           voorbeeld: "1. Waarderingsregels \n  1. Algemeen \n  2. Oprichtingskosten \n...\n4. Afschrijvingsmethoden (plain-text TOC in body)"
-        - regel: 186
+        - regel: 197
           categorie: D4
           type: other
           voorbeeld: '*Voorbeeld  (trailing spatie na opening asterisk, malformed italic opener)'
-        - regel: 202
+        - regel: 213
           categorie: D4
           type: other
           voorbeeld: en wordt het* pro rata* van het gebruik
@@ -69,21 +69,6 @@ themas:
 ---
 
 # CBN-advies 2010/15 - Afschrijvingsmethoden Advies van 6 oktober 2010
-
-1. Waarderingsregels 
-  1. Algemeen 
-  2. Oprichtingskosten 
-  3. Immateriële en materiële vaste activa met beperkte gebruiksduur 
-  4. Geherwaardeerde activa 
-
-2. Af te schrijven waarde 
-3. Afschrijvingsperiode 
-4. Afschrijvingsmethoden
-
-  1. Lineaire afschrijvingsmethoden 
-  2. Boekhoudkundige degressieve afschrijvingsmethoden 
-  3. Progressieve afschrijvingsmethoden 
-  4. Versnelde (fiscaal aanvaarde) afschrijvingsmethoden 
 
 ## Inleiding
 
@@ -177,7 +162,7 @@ Deze economische levensduur kan uitgedrukt worden in tijdseenheden, verbruikseen
 - het zuiver kwantitatief gebruik: de prestatievoorraad van het actief wordt in kwantitatief meetbare eenheden weergegeven. 
 - een combinatie van de tijd en het gebruik: enerzijds wordt de levensduur uitgedrukt in tijdseenheden, anderzijds in verbruikseenheden[^23]. 
 
-## Afschrijvingsmethoden[^24] 
+## Afschrijvingsmethoden[^24]
 
 Het KB W.Venn. beperkt zich tot het terrein van de algemene beginselen[^25]. Het bevat geen eigenlijke regels met betrekking tot het ritme van de jaarlijkse afschrijvingen. 
 

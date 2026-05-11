@@ -22,44 +22,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3/A9: H1-titel (r70) bevat 'bedrijfstak1' — het superscript-cijfer '1' is niet geparsed als [^1] en kleeft aan het woord vast. Direct op r72 staat 'of van een algemeenheid van goederen' nogmaals als losstaande plain-text regel — een titelfragment dat bij extractie losraakte (duplicate titelfragment). B2: subkoppen op r92 '#### Principe' en r99 '#### Enkele bijzonderheden' gebruiken H4 direct onder H2 (sprong H2→H4 zonder H3). Inhoud en voorbeelden zijn volledig."
+    rationale: "A9/B3: H1-titel (r84) bevat 'bedrijfstak1' — superscript-voetnootnummer niet geparsed als [^1] en kleeft aan het woord. R86 bevat 'of van een algemeenheid van goederen' als losstaande plain-text regel — een titelfragment dat bij extractie losraakte (duplicate fragmentregel). B2: subkoppen ### Principe (r106) en ### Enkele bijzonderheden (r113) zijn H3 direct onder H2 wat correct is, maar eerder gerapporteerde #### sprong is niet aanwezig in deze versie (scraper-fix gedeeltelijk verholpen)."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 4
-      max_section_chars: 12126
-      file_size_chars: 15642
+      file_size_chars: 15701
       flags: []
+      heading_count: 4
+      max_section_chars: 12993
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "B3/A9: H1-titel (r70) bevat 'bedrijfstak1' — het superscript-cijfer '1' is niet geparsed als [^1] en kleeft aan het woord vast. Direct op r72 staat 'of van een algemeenheid van goederen' nogmaals als losstaande plain-text regel — een titelfragment dat bij extractie losraakte (duplicate titelfragment). B2: subkoppen op r92 '#### Principe' en r99 '#### Enkele bijzonderheden' gebruiken H4 direct onder H2 (sprong H2→H4 zonder H3). Inhoud en voorbeelden zijn volledig."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "A9/B3: H1-titel (r84) bevat 'bedrijfstak1' — superscript-voetnootnummer niet geparsed als [^1] en kleeft aan het woord. R86 bevat 'of van een algemeenheid van goederen' als losstaande plain-text regel — een titelfragment dat bij extractie losraakte (duplicate fragmentregel). B2: subkoppen ### Principe (r106) en ### Enkele bijzonderheden (r113) zijn H3 direct onder H2 wat correct is, maar eerder gerapporteerde #### sprong is niet aanwezig in deze versie (scraper-fix gedeeltelijk verholpen)."
       concrete_problemen:
-        - regel: 70
+        - regel: 84
           categorie: A9
           type: other
-          voorbeeld: CBN-advies 2009/15 - De boekhoudkundige verwerking van de inbreng van een bedrijfstak1 of van
-        - regel: 72
+          voorbeeld: bedrijfstak1 of van een algemeenheid van goederen
+        - regel: 86
           categorie: B3
           type: other
           voorbeeld: of van een algemeenheid van goederen
-        - regel: 92
-          categorie: B2
-          type: other
-          voorbeeld: '#### Principe  (H4 direct onder H2, zonder tussenniveau H3)'
-        - regel: 99
-          categorie: B2
-          type: other
-          voorbeeld: '#### Enkele bijzonderheden  (H4 direct onder H2)'
 themas:
   - continuïteitsbeginsel
   - fiscale aspecten
@@ -89,14 +81,14 @@ Voor een vlotte en verstaanbare lezing in relatie tot de fiscaliteit werd dit ad
 
 ## Boekhoudkundige verwerking
 
-#### Principe
+### Principe
 
 Het continuïteitsprincipe bij de boekhoudkundige verwerking van de inbreng van een bedrijfstak of van een algemeenheid van goederen houdt in dat:
 
 - de ingebrachte activa, passiva, rechten en verplichtingen in de boekhouding van de inbrenggenietende vennootschap moeten worden opgenomen tegen de waarde waarvoor zij op het tijdstip van de inbreng in de boekhouding van de inbrengende vennootschap (t.t.z. in de rekeningen op basis waarvan de inbreng gebeurt) voorkwamen (artikel 81 KB/W.Venn.); 
 - in de boekhouding van de inbrengende vennootschap de als vergoeding voor de inbreng ontvangen aandelen in de verkrijgende vennootschap, moeten worden opgenomen tegen de nettowaarde van de ingebrachte bestanddelen (artikel 41, §1, tweede lid, *in fine* KB/W.Venn.). 
 
-#### Enkele bijzonderheden
+### Enkele bijzonderheden
 
 Enkele in de praktijk veelvuldig voorkomende bijzonderheden bij inbrengen verdienen een bijzondere aandacht. 
 
@@ -111,6 +103,7 @@ Hoe in zulk geval moet worden gehandeld, wordt geïllustreerd aan de hand van vo
 Vennootschap A brengt haar algemeenheid van goederen in, in een bestaande vennootschap B. Er wordt uitgegaan van de hypothese dat de verrichting belastingneutraal verloopt.
 
 | A | 
+|---|
 | Activa | | 9.000 | | Kapitaal | | 3.000 | 
 | Activum 1 | | 1.000 | | Herwaarderingsmeerwaarden | | 1.000 | 
 | | | | | Beschikbare reserves | | 4.000 | 
@@ -120,6 +113,7 @@ Vennootschap A brengt haar algemeenheid van goederen in, in een bestaande vennoo
 Activum 1 was volledig afgeschreven en werd met 1.000 geherwaardeerd (er wordt uitgegaan van de hypothese dat deze 1.000 nog niet werd belast).
 
 | B | 
+|---|
 | Activa | | 3.000 | | Kapitaal | | 3.000 | 
 | | | 3.000 | | | | 3.000 | 
 
@@ -155,6 +149,7 @@ en bij B:
 Na de inbreng zien A en B er dan als volgt uit :
 
 | A[^2] | 
+|---|
 | Participatie B | | 8.000 | | Kapitaal | | 3.000 | 
 | | | | | Belastingvrije reserves | | 1.000 | 
 | | | | | Beschikbare reserves | | 4.000 | 
@@ -162,6 +157,7 @@ Na de inbreng zien A en B er dan als volgt uit :
 | | | 8.000 | | | | 8.000 | 
 
 | B[^3] | 
+|---|
 | Activa (3.000 + 9.000) | | 12.000 | | Kapitaal (3.000 + 7.000) | | 10.000 | 
 | Activum 1 (0 + 1.000) | | 1.000 | | Herwaarderingsmeerwaarde (0 + 1.000) | | 1.000 | 
 | | | | | Schulden (0 + 2.000) | | 2.000 | 
@@ -191,12 +187,14 @@ en bij B:
 Na de inbreng zien A en B er dan als volgt uit:
 
 | A[^4] | 
+|---|
 | Participatie B | | 8.000 | | Kapitaal | | 3.000 | 
 | | | | | Herwaarderingsmeerwaarde | | 1.000 | 
 | | | | | Beschikbare reserves | | 4.000 | 
 | | | 8.000 | | | | 8.000 | 
 
 | B[^5] | 
+|---|
 | Activa (3.000 + 9.000) | | 12.000 | | Kapitaal (3.000 + 8.000) | | 11.000 | 
 | Activum 1 (0 + 1.000) | | 1.000 | | Schulden (0 + 2.000) | | 2.000 | 
 | | | 13.000 | | | | 13.000 | 
@@ -223,6 +221,7 @@ Onderstel dat vennootschap A voorheen een gespreid te belasten meerwaarde van 1.
 Teneinde te voldoen aan de fiscale onaantastbaarheidsvoorwaarde werd de gerealiseerde meerwaarde overgeboekt ten belope van 660 onder de post belastingvrije reserves en voor 340 onder de post uitgestelde belastingen.
 
 | A | 
+|---|
 | Activa | | 9.000 | | Kapitaal | | 4.000 | 
 | Activum 1 | | 1.000 | | Belastingvrije reserves | | 660 | 
 | | | | | Beschikbare reserves | | 5.000 | 
@@ -232,6 +231,7 @@ Teneinde te voldoen aan de fiscale onaantastbaarheidsvoorwaarde werd de gerealis
 Vennootschap A brengt haar algemeenheid van goederen in, in een bestaande vennootschap B. Er wordt uitgegaan van de hypothese dat de verrichting belastingneutraal verloopt
 
 | B (vóór inbreng) | 
+|---|
 | Activa | | 3.000 | | Kapitaal | | 3.000 | 
 | | | 3.000 | | | | 3.000 | 
 
@@ -259,6 +259,7 @@ en bij B:
 Na de inbreng zien A en B er dan als volgt uit:
 
 | A[^6] | 
+|---|
 | Participatie B | | 9.660 | | Kapitaal | | 4.000 | 
 | | | | | Beschikbare reserves | | 5.000 | 
 | | | | | Overgedragen resultaat | | 660 | 
@@ -266,6 +267,7 @@ Na de inbreng zien A en B er dan als volgt uit:
 | | | 9.660 | | | | 9.660 | 
 
 | B[^7] | 
+|---|
 | Activa (3.000 + 9 .000) | | 12.000 | | Kapitaal (3.000 + 9.000) | | 12.000 | 
 | Activum 1 (0 + 1.000) | | 1.000 | | Belastingvrije reserves (0 + 660) | | 660 | 
 | | | | | Uitgestelde belastingen (0 + 340) | | 340 | 

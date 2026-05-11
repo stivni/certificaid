@@ -2,51 +2,58 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/rekening-130-wettelijke-reserve
 datum: 2018-04-18
 gerelateerde_adviezen:
-  - datum: '2020-12-09'
-    titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap
-    url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
-  - datum: '2020-01-27'
-    titel: 'Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België: nieuwe modellen van de jaarrekening'
-    url: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
-  - datum: '2019-11-13'
-    titel: Van een kapitaalhoudende BVBA naar een kapitaalloze BV
-    url: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
+- datum: '2020-12-09'
+  titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze
+    vennootschap
+  url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
+- datum: '2020-01-27'
+  titel: 'Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België:
+    nieuwe modellen van de jaarrekening'
+  url: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
+- datum: '2019-11-13'
+  titel: Van een kapitaalhoudende BVBA naar een kapitaalloze BV
+  url: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
 nummer: CBN-advies 2018/05
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/rekening-130-wettelijke-reserve
-      sha256: c8b2728d90556558c16d9f39b6121f16ab151d0d0a9bb9262e99fc90de4a8f59
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/rekening-130-wettelijke-reserve
+    sha256: c8b2728d90556558c16d9f39b6121f16ab151d0d0a9bb9262e99fc90de4a8f59
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:34:11Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Volledig schone extractie. Zes headings correct genest, twee pipe-tabellen correct opgebouwd, alle voetnoten [^1]–[^12] aanwezig met definitie. Geen PDF-artefacten, geen onzichtbare unicode, geen spurious line-breaks. Inhoud compact en compleet.
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 6
-      max_section_chars: 1705
       file_size_chars: 5976
       flags: []
+      heading_count: 6
+      max_section_chars: 1705
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:11Z'
-      rationale: Volledig schone extractie. Zes headings correct genest, twee pipe-tabellen correct opgebouwd, alle voetnoten [^1]–[^12] aanwezig met definitie. Geen PDF-artefacten, geen onzichtbare unicode, geen spurious line-breaks. Inhoud compact en compleet.
       concrete_problemen: []
+      rationale: Volledig schone extractie. Zes headings correct genest, twee pipe-tabellen
+        correct opgebouwd, alle voetnoten [^1]–[^12] aanwezig met definitie. Geen
+        PDF-artefacten, geen onzichtbare unicode, geen spurious line-breaks. Inhoud
+        compact en compleet.
+      run_at: '2026-05-11T13:34:11Z'
+      status: trusted
+    rationale: Volledig schone extractie. Zes headings correct genest, twee pipe-tabellen
+      correct opgebouwd, alle voetnoten [^1]–[^12] aanwezig met definitie. Geen PDF-artefacten,
+      geen onzichtbare unicode, geen spurious line-breaks. Inhoud compact en compleet.
+    status: trusted
 themas:
-  - wettelijke reserve
-  - reservefonds
+- wettelijke reserve
+- reservefonds
 ---
 
 # CBN-advies 2018/05 – Rekening 130 Wettelijke reserve

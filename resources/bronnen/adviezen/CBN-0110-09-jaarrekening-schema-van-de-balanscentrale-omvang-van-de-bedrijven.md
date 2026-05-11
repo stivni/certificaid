@@ -3,44 +3,46 @@ bron: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-schema-van-de-balanscentra
 datum: 1989-09-01
 nummer: CBN-advies 110/9
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-schema-van-de-balanscentrale-omvang-van-de-bedrijven
-      sha256: c8fd688b587bbb38aadcd62f198584a390974665316dacb04cd02b303c0aa7e5
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-schema-van-de-balanscentrale-omvang-van-de-bedrijven
+    sha256: c8fd688b587bbb38aadcd62f198584a390974665316dacb04cd02b303c0aa7e5
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 4929
       file_size_chars: 4929
       flags: []
+      heading_count: 0
+      max_section_chars: 4929
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale:
-      run_at:
+      rationale: null
+      run_at: null
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
     status: trusted
 themas:
-  - balanscentrale
-  - omvang van de bedrijven
-  - openbaarmaking
-  - publicatie
-  - schema van de jaarrekening
-  - standaardformulier
+- balanscentrale
+- omvang van de bedrijven
+- openbaarmaking
+- publicatie
+- schema van de jaarrekening
+- standaardformulier
 ---
 
 # CBN-advies 110/9 - Jaarrekening - Schema van de Balanscentrale - Omvang van de bedrijven1

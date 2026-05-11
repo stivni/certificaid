@@ -2,52 +2,60 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
 datum: 2017-04-19
 gerelateerde_adviezen:
-  - datum: '2022-12-21'
-    titel: 'Omzetting van een vennootschap: gevolgen voor de jaarrekening'
-    url: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
-  - datum: '2018-05-09'
-    titel: Gebeurtenissen na afsluitingsdatum van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
+- datum: '2022-12-21'
+  titel: 'Omzetting van een vennootschap: gevolgen voor de jaarrekening'
+  url: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
+- datum: '2018-05-09'
+  titel: Gebeurtenissen na afsluitingsdatum van het boekjaar
+  url: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
 nummer: CBN-advies 2017/10
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
-      sha256: 8127dbd2686b09042a052daebefc4c2f3d9dbf73237678837d7436bd6e1c7fb4
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata
+    sha256: 8127dbd2686b09042a052daebefc4c2f3d9dbf73237678837d7436bd6e1c7fb4
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:30:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Drie heldere ## headings, volledige en doorlopende tekst, alle 13 voetnoten correct gedefinieerd. Geen PDF-extractie-artefacten aangetroffen: geen form-feeds, geen spurious line-breaks, geen broken italic, geen pseudo-tabellen. De legende-symbolen (<< < >) op regels 109-113 zijn authentieke CBN-notatie, geen glyph-artefact.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 3
-      max_section_chars: 7249
       file_size_chars: 10734
       flags: []
+      heading_count: 3
+      max_section_chars: 7249
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:33Z'
-      rationale: 'Drie heldere ## headings, volledige en doorlopende tekst, alle 13 voetnoten correct gedefinieerd. Geen PDF-extractie-artefacten aangetroffen: geen form-feeds, geen spurious line-breaks, geen broken italic, geen pseudo-tabellen. De legende-symbolen (<< < >) op regels 109-113 zijn authentieke CBN-notatie, geen glyph-artefact.'
       concrete_problemen: []
+      rationale: 'Drie heldere ## headings, volledige en doorlopende tekst, alle 13
+        voetnoten correct gedefinieerd. Geen PDF-extractie-artefacten aangetroffen:
+        geen form-feeds, geen spurious line-breaks, geen broken italic, geen pseudo-tabellen.
+        De legende-symbolen (<< < >) op regels 109-113 zijn authentieke CBN-notatie,
+        geen glyph-artefact.'
+      run_at: '2026-05-11T13:30:33Z'
+      status: trusted
+    rationale: 'Drie heldere ## headings, volledige en doorlopende tekst, alle 13
+      voetnoten correct gedefinieerd. Geen PDF-extractie-artefacten aangetroffen:
+      geen form-feeds, geen spurious line-breaks, geen broken italic, geen pseudo-tabellen.
+      De legende-symbolen (<< < >) op regels 109-113 zijn authentieke CBN-notatie,
+      geen glyph-artefact.'
+    status: trusted
 themas:
-  - afsluitdatum
-  - artikel 15 W.Venn.
-  - consolidatiekring
-  - criteria
-  - groottecriteria
-  - verbonden onderneming
+- afsluitdatum
+- artikel 15 W.Venn.
+- consolidatiekring
+- criteria
+- groottecriteria
+- verbonden onderneming
 ---
 
 # CBN-advies 2017/10 – Groottecriteria artikel 15 W.Venn. – Verbonden vennootschappen – Verschillende afsluitingsdata - Wijziging van consolidatiekring

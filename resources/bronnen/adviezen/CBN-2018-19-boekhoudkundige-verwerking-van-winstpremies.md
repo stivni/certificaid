@@ -3,43 +3,47 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-winstpre
 datum: 2018-11-21
 nummer: CBN-advies 2018/19
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-winstpremies
-      sha256: df789a212fd45d70f3849a8764f83decf6c1094752cfabf25775b7be0c8cc7b3
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-winstpremies
+    sha256: df789a212fd45d70f3849a8764f83decf6c1094752cfabf25775b7be0c8cc7b3
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 3
-      max_section_chars: 3422
       file_size_chars: 6468
       flags: []
+      heading_count: 3
+      max_section_chars: 3422
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Geen artefacten gevonden. Tekst is vloeiend, headings correct, voetnoten volledig aanwezig en verankerd. De enige boekhoudkundige tabel is correct in markdown pipe-syntax. Inhoud compleet en niet afgesneden.
+      rationale: Geen artefacten gevonden. Tekst is vloeiend, headings correct, voetnoten
+        volledig aanwezig en verankerd. De enige boekhoudkundige tabel is correct
+        in markdown pipe-syntax. Inhoud compleet en niet afgesneden.
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: Geen artefacten gevonden. Tekst is vloeiend, headings correct, voetnoten volledig aanwezig en verankerd. De enige boekhoudkundige tabel is correct in markdown pipe-syntax. Inhoud compleet en niet afgesneden.
+    rationale: Geen artefacten gevonden. Tekst is vloeiend, headings correct, voetnoten
+      volledig aanwezig en verankerd. De enige boekhoudkundige tabel is correct in
+      markdown pipe-syntax. Inhoud compleet en niet afgesneden.
     status: trusted
 themas:
-  - winstpremie
-  - winst van het boekjaar
-  - identieke winstpremie
-  - gecategoriseerde winstpremie
-  - resultaatverwerking
+- winstpremie
+- winst van het boekjaar
+- identieke winstpremie
+- gecategoriseerde winstpremie
+- resultaatverwerking
 ---
 
 # CBN-advies 2018/19 – Boekhoudkundige verwerking van winstpremies

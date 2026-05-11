@@ -2,63 +2,68 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
 datum: 2010-12-08
 gerelateerde_adviezen:
-  - datum: '2024-01-17'
-    titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
-  - datum: '2022-09-23'
-    titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
-  - datum: '2022-09-19'
-    titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-  - datum: '2022-07-20'
-    titel: Wijziging van het boekhoudkundig referentiestelsel
-    url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
+- datum: '2024-01-17'
+  titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap
+    erkend als sociale onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
+- datum: '2022-09-23'
+  titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
+- datum: '2022-09-19'
+  titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+- datum: '2022-07-20'
+  titel: Wijziging van het boekhoudkundig referentiestelsel
+  url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
 nummer: CBN-advies 2011/2
 provenance:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
-      sha256: 778baa7300874c205e3ad65417b3d6738770463aebdffd38c29c48ba4dfce218
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
+    sha256: 778baa7300874c205e3ad65417b3d6738770463aebdffd38c29c48ba4dfce218
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:09:18Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 7332
+      flags: []
       heading_count: 3
       max_section_chars: 4186
-      file_size_chars: 7333
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Drie ## headings correct. Voetnoten 1–7 volledig. Geen inhoudsopgave als plain text, geen extractie-artefacten. Inhoud beknopt maar compleet voor dit advies.'
+      rationale: 'Drie ## headings correct. Voetnoten 1–7 volledig. Geen inhoudsopgave
+        als plain text, geen extractie-artefacten. Inhoud beknopt maar compleet voor
+        dit advies.'
       run_at: '2026-05-11T12:09:18Z'
       status: trusted
-    rationale: 'Drie ## headings correct. Voetnoten 1–7 volledig. Geen inhoudsopgave als plain text, geen extractie-artefacten. Inhoud beknopt maar compleet voor dit advies.'
+    rationale: 'Drie ## headings correct. Voetnoten 1–7 volledig. Geen inhoudsopgave
+      als plain text, geen extractie-artefacten. Inhoud beknopt maar compleet voor
+      dit advies.'
     status: trusted
 themas:
-  - continuïteit
-  - concordantietabel
-  - continuïteitsgedachte
-  - eerste boekjaar
-  - vergelijkende cijfers
-  - zetelverplaatsing
+- continuïteit
+- concordantietabel
+- continuïteitsgedachte
+- eerste boekjaar
+- vergelijkende cijfers
+- zetelverplaatsing
 ---
 
 # CBN-advies 2011/2 - Zetelverplaatsing naar België van een vennootschap opgericht naar buitenlands recht: gevolgen voor het voeren van de boekhouding en het opstellen van de jaarrekening
 
-## Inleiding 
+## Inleiding
 
 Wanneer een onderneming, opgericht naar buitenlands recht, in de loop van het boekjaar haar voornaamste vestiging verplaatst naar België, rijzen bepaalde vragen met betrekking tot het voeren van de boekhouding en het opstellen van de jaarrekening. 
 

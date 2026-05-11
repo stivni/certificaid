@@ -2,57 +2,61 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
 datum: 2013-09-04
 gerelateerde_adviezen:
-  - datum: '2015-12-09'
-    titel: Boekhoudkundige verwerking van geactiveerde intercalaire interesten
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-geactiveerde-intercalaire-interesten
-  - datum: '1988-06-22'
-    titel: Interesten op vorderingen
-    url: https://www.cbn-cnc.be/nl/adviezen/interesten-op-vorderingen
+- datum: '2015-12-09'
+  titel: Boekhoudkundige verwerking van geactiveerde intercalaire interesten
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-geactiveerde-intercalaire-interesten
+- datum: '1988-06-22'
+  titel: Interesten op vorderingen
+  url: https://www.cbn-cnc.be/nl/adviezen/interesten-op-vorderingen
 nummer: CBN-advies 2013/12
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
-      sha256: a886b9442607f70a17719fb9c9671b2b78efcc1f34b64094e15769e9297b45af
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
+    sha256: a886b9442607f70a17719fb9c9671b2b78efcc1f34b64094e15769e9297b45af
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 13030
+      flags: []
       heading_count: 4
       max_section_chars: 6161
-      file_size_chars: 13031
-      flags: []
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 8 headings met correcte hiërarchie (H1, H2, H3). Footnotes [^1]–[^18] aanwezig en gedefinieerd. Voetnoot [^4] is inhoudelijk zeer lang maar dit is de letterlijke tekst van art. 73 KB W.Venn. — geen artefact. Geen extractiesporen.
+      rationale: 8 headings met correcte hiërarchie (H1, H2, H3). Footnotes [^1]–[^18]
+        aanwezig en gedefinieerd. Voetnoot [^4] is inhoudelijk zeer lang maar dit
+        is de letterlijke tekst van art. 73 KB W.Venn. — geen artefact. Geen extractiesporen.
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: 8 headings met correcte hiërarchie (H1, H2, H3). Footnotes [^1]–[^18] aanwezig en gedefinieerd. Voetnoot [^4] is inhoudelijk zeer lang maar dit is de letterlijke tekst van art. 73 KB W.Venn. — geen artefact. Geen extractiesporen.
+    rationale: 8 headings met correcte hiërarchie (H1, H2, H3). Footnotes [^1]–[^18]
+      aanwezig en gedefinieerd. Voetnoot [^4] is inhoudelijk zeer lang maar dit is
+      de letterlijke tekst van art. 73 KB W.Venn. — geen artefact. Geen extractiesporen.
     status: trusted
 themas:
-  - interesten
-  - opbrengsterkenning
-  - realisatiebeginsel
-  - royalties
-  - tantièmes
-  - voorzichtigheidsbeginsel
+- interesten
+- opbrengsterkenning
+- realisatiebeginsel
+- royalties
+- tantièmes
+- voorzichtigheidsbeginsel
 ---
 
 # CBN-advies 2013/12 - Erkenning van de opbrengsten en kosten die overeenstemmen met interesten en royalty's, evenals de toewijzing van de resultaten in de vorm van dividenden en tantièmes en de opbrengsten die overeenstemmen met dividenden en tantièmes
 
-## Onderwerp van het advies 
+## Onderwerp van het advies
 
 In het artikel 31, § 1 van de Vierde Europese Richtlijn betreffende de jaarrekening van bepaalde vennootschapsvormen[^2] wordt het volgende bepaald: “c) het voorzichtigheidsbeginsel moet steeds in acht worden genomen en in het bijzonder geldt het volgende: aa) winsten mogen slechts worden opgenomen voor zover zij op de balansdatum gerealiseerd zijn” en “d) lasten en baten betreffende het boekjaar waarop de jaarrekening betrekking heeft, moeten in aanmerking worden genomen, ongeacht het tijdstip van betaling van deze lasten of ontvangst van deze baten”.
 

@@ -2,53 +2,54 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/voorraden-waarvan-de-verkoopprijs-door-de-overheid-gewaarborgd-is
 datum: 1984-10-01
 gerelateerde_adviezen:
-  - datum: '2016-09-28'
-    titel: Actualisatie van uitgestelde belastingen (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
-  - datum: '1997-02-01'
-    titel: Beginselen van een regelmatige boekhouding
-    url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
-  - datum: '1988-12-01'
-    titel: Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving -Informatieverstrekking
-    url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving
+- datum: '2016-09-28'
+  titel: Actualisatie van uitgestelde belastingen (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
+- datum: '1997-02-01'
+  titel: Beginselen van een regelmatige boekhouding
+  url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
+- datum: '1988-12-01'
+  titel: Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving -Informatieverstrekking
+  url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving
 nummer: CBN-advies 132/2
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/voorraden-waarvan-de-verkoopprijs-door-de-overheid-gewaarborgd-is
-      sha256: 9abeb79da0068961ca28bf0795d10a8e20c0c730f1083866252fcd39d2a20461
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/voorraden-waarvan-de-verkoopprijs-door-de-overheid-gewaarborgd-is
+    sha256: 9abeb79da0068961ca28bf0795d10a8e20c0c730f1083866252fcd39d2a20461
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 5015
       file_size_chars: 5015
       flags: []
+      heading_count: 0
+      max_section_chars: 5015
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met drie genummerde argumenten (realisatiebeginsel, waarderingsmethode, getrouwe-beeldbeginsel) en praktische uitweg via toelichting.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met drie genummerde argumenten (realisatiebeginsel,
+        waarderingsmethode, getrouwe-beeldbeginsel) en praktische uitweg via toelichting.'
       run_at: '2026-05-08T19:02:30Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - getrouw beeld
-  - gewaarborgde verkoopprijs
-  - vervaardigingsprijs
-  - voorraden
+- getrouw beeld
+- gewaarborgde verkoopprijs
+- vervaardigingsprijs
+- voorraden
 ---
 
 # CBN-advies 132/2 - Voorraden waarvan de verkoopprijs door de Overheid gewaarborgd is

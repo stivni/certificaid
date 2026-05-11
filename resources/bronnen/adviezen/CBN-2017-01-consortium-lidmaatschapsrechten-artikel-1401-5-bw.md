@@ -2,56 +2,57 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/consortium-lidmaatschapsrechten-artikel-1401-5-bw
 datum: 2017-01-11
 gerelateerde_adviezen:
-  - datum: '2022-07-27'
-    titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
-  - datum: '2017-03-15'
-    titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
-  - datum: '2017-05-31'
-    titel: Definiëring van EBIT / EBITDA na omzetting van de accountingrichtlijn 2013/34/EU
-    url: https://www.cbn-cnc.be/nl/adviezen/definiering-van-ebit-ebitda-na-omzetting-van-de-accountingrichtlijn-201334eu
-  - datum: '2008-10-29'
-    titel: Advies horizontale consolidatie in combinatie met administratiekantoren
-    url: https://www.cbn-cnc.be/nl/adviezen/advies-horizontale-consolidatie-in-combinatie-met-administratiekantoren
+- datum: '2022-07-27'
+  titel: Consolidatie bij de horizontale groep (consortium)
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+- datum: '2017-03-15'
+  titel: Consolidatie bij de horizontale groep (consortium)
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
+- datum: '2017-05-31'
+  titel: Definiëring van EBIT / EBITDA na omzetting van de accountingrichtlijn 2013/34/EU
+  url: https://www.cbn-cnc.be/nl/adviezen/definiering-van-ebit-ebitda-na-omzetting-van-de-accountingrichtlijn-201334eu
+- datum: '2008-10-29'
+  titel: Advies horizontale consolidatie in combinatie met administratiekantoren
+  url: https://www.cbn-cnc.be/nl/adviezen/advies-horizontale-consolidatie-in-combinatie-met-administratiekantoren
 nummer: CBN-advies 2017/01
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/consortium-lidmaatschapsrechten-artikel-1401-5-bw
-      sha256: a397d849f1c680cf59cfed817d6bf75ce39e81aa1702c35163a101dc88e6452c
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/consortium-lidmaatschapsrechten-artikel-1401-5-bw
+    sha256: a397d849f1c680cf59cfed817d6bf75ce39e81aa1702c35163a101dc88e6452c
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 2
-      max_section_chars: 3502
       file_size_chars: 6422
       flags: []
+      heading_count: 2
+      max_section_chars: 3502
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig modern advies (2017) met onweerlegbaar/weerlegbaar vermoeden en concreet cijfervoorbeeld.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig modern advies (2017) met onweerlegbaar/weerlegbaar
+        vermoeden en concreet cijfervoorbeeld.'
       run_at: '2026-05-08T19:02:29Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - centrale leiding
-  - consortium
-  - horizontale groep
-  - lidmaatschapsrechten
+- centrale leiding
+- consortium
+- horizontale groep
+- lidmaatschapsrechten
 ---
 
 # CBN-advies 2017/01 – Consortium: lidmaatschapsrechten (artikel 1401, 5 BW)

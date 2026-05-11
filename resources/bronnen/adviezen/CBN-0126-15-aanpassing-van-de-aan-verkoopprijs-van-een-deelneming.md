@@ -3,46 +3,50 @@ bron: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-de-aan-verkoopprijs-van-
 datum: 1999-02-01
 nummer: CBN-advies 126/15
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-de-aan-verkoopprijs-van-een-deelneming
-      sha256: 812b1c5dd56fc17d2942ea2c3243013b902c0c191b47d235de9dac192a0d54ff
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-de-aan-verkoopprijs-van-een-deelneming
+    sha256: 812b1c5dd56fc17d2942ea2c3243013b902c0c191b47d235de9dac192a0d54ff
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 1952
       file_size_chars: 1952
       flags: []
+      heading_count: 0
+      max_section_chars: 1952
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Kort, enkelvoudig advies (1952 tekens) zonder headings. Geen extractie-artefacten, geen HTML-entities, geen ongewone unicode. Inhoud volledig en conclusie duidelijk afgesloten. Layer1 pass bevestigd.
+      rationale: Kort, enkelvoudig advies (1952 tekens) zonder headings. Geen extractie-artefacten,
+        geen HTML-entities, geen ongewone unicode. Inhoud volledig en conclusie duidelijk
+        afgesloten. Layer1 pass bevestigd.
       run_at: '2026-05-11T11:57:45Z'
       status: trusted
-    rationale: Kort, enkelvoudig advies (1952 tekens) zonder headings. Geen extractie-artefacten, geen HTML-entities, geen ongewone unicode. Inhoud volledig en conclusie duidelijk afgesloten. Layer1 pass bevestigd.
+    rationale: Kort, enkelvoudig advies (1952 tekens) zonder headings. Geen extractie-artefacten,
+      geen HTML-entities, geen ongewone unicode. Inhoud volledig en conclusie duidelijk
+      afgesloten. Layer1 pass bevestigd.
     status: trusted
 themas:
-  - aankoopprijs van een deelneming
-  - aanpassing aankoopprijs van een deelneming
-  - aanpassing verkoopprijs van en deelneming
-  - deelneming
-  - financiële vaste activa
-  - prijsherziening
-  - verkoopprijs van een deelneming
-  - waarborg
+- aankoopprijs van een deelneming
+- aanpassing aankoopprijs van een deelneming
+- aanpassing verkoopprijs van en deelneming
+- deelneming
+- financiële vaste activa
+- prijsherziening
+- verkoopprijs van een deelneming
+- waarborg
 ---
 
 # CBN-advies 126/15 - Aanpassing van de (aan-) verkoopprijs van een deelneming

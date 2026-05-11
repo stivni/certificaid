@@ -16,48 +16,48 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B4/B3: '(Update november 2008)' staat als plain tekst op r.81 direct na de H1-titel in plaats van als een subkopje of deel van de titel — structuurlabel als plain tekst. B2: de IFRIC/Brutomethode/Nettomethode-secties staan als #### (r.158, 181, 200) terwijl de bovenliggende secties ## zijn — sprong van ## naar #### zonder ### tussenniveau. D4: meerdere malformed italic-patronen: r.171 'Bij de* Interpretation', r.173 'de *Interpretation *en', r.188 ',* sui generis*' — opening-asterisk grenst aan spatie of leesteken."
+    rationale: "Bevestiging van vorige QA (ronde 1). B4: '(Update november 2008)' op r.90 als plain tekst na H1 i.p.v. als subkopje. B2: IFRIC/Bruto/Nettomethode-secties staan als #### terwijl bovenliggende secties ## zijn — sprong ## → #### zonder ###. D4: meerdere malformed italic-patronen (r.180, r.182, r.188). Inhoud volledig maar structuurhiërarchie systematisch fout."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 9
-      max_section_chars: 9190
-      file_size_chars: 25278
+      file_size_chars: 25275
       flags: []
+      heading_count: 9
+      max_section_chars: 14112
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "B4/B3: '(Update november 2008)' staat als plain tekst op r.81 direct na de H1-titel in plaats van als een subkopje of deel van de titel — structuurlabel als plain tekst. B2: de IFRIC/Brutomethode/Nettomethode-secties staan als #### (r.158, 181, 200) terwijl de bovenliggende secties ## zijn — sprong van ## naar #### zonder ### tussenniveau. D4: meerdere malformed italic-patronen: r.171 'Bij de* Interpretation', r.173 'de *Interpretation *en', r.188 ',* sui generis*' — opening-asterisk grenst aan spatie of leesteken."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "Bevestiging van vorige QA (ronde 1). B4: '(Update november 2008)' op r.90 als plain tekst na H1 i.p.v. als subkopje. B2: IFRIC/Bruto/Nettomethode-secties staan als #### terwijl bovenliggende secties ## zijn — sprong ## → #### zonder ###. D4: meerdere malformed italic-patronen (r.180, r.182, r.188). Inhoud volledig maar structuurhiërarchie systematisch fout."
       concrete_problemen:
-        - regel: 81
+        - regel: 90
           categorie: B4
           type: other
-          voorbeeld: (Update november 2008) — als plain tekst na H1-titel i.p.v. onderdeel van heading of subkopje
-        - regel: 158
+          voorbeeld: (Update november 2008) — plain tekst direct na H1-titel
+        - regel: 167
           categorie: B2
           type: other
-          voorbeeld: '#### IFRIC Interpretation 3 Emission Rights (sprong ## → #### zonder ### tussenniveau)'
-        - regel: 171
+          voorbeeld: '### IFRIC Interpretation 3 Emission Rights (sprong ## → ### ontbreekt ####)'
+        - regel: 180
           categorie: D4
           type: other
-          voorbeeld: Bij de* Interpretation 3 Emission Rights* worden ook voorbeelden gegeven (spatie na opening *)
-        - regel: 173
+          voorbeeld: Bij de* Interpretation 3 Emission Rights* worden ook voorbeelden gegeven
+        - regel: 182
           categorie: D4
           type: other
-          voorbeeld: de *Interpretation *en ondanks de vaststelling (spatie vóór sluitende *)
-        - regel: 188
+          voorbeeld: In verband met de* Interpretation 3 Emission Rights* werden...
+        - regel: 197
           categorie: D4
           type: other
-          voorbeeld: ',* sui generis* rechten (opening * grenst aan komma+spatie)'
+          voorbeeld: ',* sui generis* rechten en roerende rechten'
 themas:
   - broeikasgasemissierechten
   - bruto-methode
@@ -147,7 +147,7 @@ Naar het oordeel van de Commissie blijken er, na onderzoek van de boekhouddoctri
 
 Hieronder worden die drie boekingswijzen beschreven.
 
-#### IFRIC Interpretation 3 Emission Rights
+### IFRIC Interpretation 3 Emission Rights
 
 De IASB heeft op 2 december 2004 de *Interpretation 3 Emission Rights* uitgevaardigd, waarin emissierechten als volgt worden verwerkt: 
 
@@ -170,7 +170,7 @@ Na onderzoek van de kritiek op de *Interpretation* en ondanks de vaststelling, e
 
 Met betrekking tot de verwerking van emissierechten in de geconsolideerde jaarrekening van genoteerde vennootschappen heeft de intrekking van de *Interpretation* tot gevolg dat de raad van bestuur van de betrokken vennootschappen zal moeten uitmaken welke de passende verwerkingswijze is, op basis van de hiërarchie vastgelegd in de norm IAS 8, *Accounting Policies, Changes* in *Accounting Estimates and Errors*, zoals goedgekeurd door de verordening van de Commissie (EG) nr 2238/2004 van 29 december 2004.
 
-#### Brutomethode 
+### Brutomethode
 
 Volgens deze op het Belgische jaarrekeningrecht gebaseerde methode: 
 
@@ -189,7 +189,7 @@ De voorstanders van deze methode zijn onder andere van oordeel dat die het voord
 
 Deze methode blijkt overigens bijzonder geschikt voor ondernemingen met een industrieel bedrijf waarvoor het emissierechtensysteem geldt en die bovendien voornemens zijn om zich tot de emissierechtenmarkt te wenden. 
 
-#### Nettomethode 
+### Nettomethode
 
 De voorstanders van deze methode – eveneens gebaseerd op het Belgisch jaarrekeningrecht – zijn van oordeel het emissierechtensysteem niet leidt tot een vergroting of verkleining van het vermogen van de ondernemingen, omdat de toegewezen of verkregen emissierechten enkel dienen om de ondernemingen in staat te stellen hun bedrijf voort te zetten.
 

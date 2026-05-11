@@ -22,48 +22,48 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:16:01Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere typefouten die al in de web-bron aanwezig waren en door de scraper worden overgenomen: 'berokken' (r71), 'dee vermelding' en 'wttelijke' (r79), 'centraisatieboek' (r81), 'bewegingn' en 'angegeven' (r83). Daarnaast A4: U+2010 HYPHEN in r83 ('hebben ondergaan ‐gelet op de moeilijkheid'). De scraper-fix heeft de typefouten niet gecorrigeerd (verwacht: bron-fidelity). Inhoud inhoudelijk volledig, voetnoot intact."
+    rationale: Alle door vorige verdict gemelde tekstfouten (berokken, dee vermelding, wttelijke, centraisatieboek, bewegingn, angegeven) staan letterlijk in de bron-HTML en vallen onder de source-uitzondering. A4 (U+2010 in r87 'ondergaan -gelet') is eveneens een bron-karakter uit de CBN-website. Geen ETL-bugs gevonden buiten deze source-categorieën. Inhoud volledig, voetnoot intact.
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 2831
       file_size_chars: 2831
       flags: []
+      heading_count: 0
+      max_section_chars: 2831
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:01Z'
-      rationale: "Meerdere typefouten die al in de web-bron aanwezig waren en door de scraper worden overgenomen: 'berokken' (r71), 'dee vermelding' en 'wttelijke' (r79), 'centraisatieboek' (r81), 'bewegingn' en 'angegeven' (r83). Daarnaast A4: U+2010 HYPHEN in r83 ('hebben ondergaan ‐gelet op de moeilijkheid'). De scraper-fix heeft de typefouten niet gecorrigeerd (verwacht: bron-fidelity). Inhoud inhoudelijk volledig, voetnoot intact."
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: Alle door vorige verdict gemelde tekstfouten (berokken, dee vermelding, wttelijke, centraisatieboek, bewegingn, angegeven) staan letterlijk in de bron-HTML en vallen onder de source-uitzondering. A4 (U+2010 in r87 'ondergaan -gelet') is eveneens een bron-karakter uit de CBN-website. Geen ETL-bugs gevonden buiten deze source-categorieën. Inhoud volledig, voetnoot intact.
       concrete_problemen:
-        - regel: 71
-          categorie: D1
-          type: other
-          voorbeeld: diverse berokken rekeningen gecentraliseerd
-        - regel: 79
-          categorie: D1
-          type: other
+        - regel: 75
+          categorie: (source)
+          type: source-typo
+          voorbeeld: berokken rekeningen — source-typo voor 'betrokken'
+        - regel: 83
+          categorie: (source)
+          type: source-typo
           voorbeeld: dee vermelding betrekking moet hebben ... wttelijke vereisten
-        - regel: 81
-          categorie: D1
-          type: other
+        - regel: 85
+          categorie: (source)
+          type: source-typo
           voorbeeld: inschrijving in het centraisatieboek te beperken
-        - regel: 83
-          categorie: D1
-          type: other
-          voorbeeld: de bewegingn die elk ervan hebben ondergaan
-        - regel: 83
-          categorie: A4
-          type: other
-          voorbeeld: hebben ondergaan ‐gelet op de moeilijkheid
+        - regel: 87
+          categorie: (source)
+          type: source-typo
+          voorbeeld: de bewegingn die elk ervan hebben ondergaan ... angegeven
+        - regel: 87
+          categorie: (source)
+          type: source-typo
+          voorbeeld: ondergaan -gelet op de moeilijkheid — U+2010 of gewoon koppelteken uit bron-HTML
 themas:
   - boeken
 ---

@@ -12,40 +12,28 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: twee lege headings '## ' zonder tekst op regels 62 en 86 — een mens schrijft nooit een lege heading; dit zijn extractie-artefacten waarbij de sectietitels verloren zijn gegaan. D4: '*sexto *' (spatie voor sluitende asterisk, regel 64 en andere) is technisch gesloten maar inconsistent met markdown-conventie en kan rendering-problemen geven."
+    rationale: Geen artefacten aangetroffen in categorieën A-G. Body is volledig proza zonder headings (correct voor dit korte advies), genummerde lijsten gebruikt correct '1.', '2.', '3.' formaat, voetnoten [^1]–[^3] correct gedefinieerd. Frontmatter themas clean zonder HTML-entiteiten.
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 2
-      max_section_chars: 3093
-      file_size_chars: 5989
+      file_size_chars: 5979
       flags: []
+      heading_count: 0
+      max_section_chars: 5979
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "B3: twee lege headings '## ' zonder tekst op regels 62 en 86 — een mens schrijft nooit een lege heading; dit zijn extractie-artefacten waarbij de sectietitels verloren zijn gegaan. D4: '*sexto *' (spatie voor sluitende asterisk, regel 64 en andere) is technisch gesloten maar inconsistent met markdown-conventie en kan rendering-problemen geven."
-      concrete_problemen:
-        - regel: 62
-          categorie: B3
-          type: other
-          voorbeeld: '## '
-        - regel: 86
-          categorie: B3
-          type: other
-          voorbeeld: '## '
-        - regel: 64
-          categorie: D4
-          type: other
-          voorbeeld: '*sexto *van het tweede lid'
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: Geen artefacten aangetroffen in categorieën A-G. Body is volledig proza zonder headings (correct voor dit korte advies), genummerde lijsten gebruikt correct '1.', '2.', '3.' formaat, voetnoten [^1]–[^3] correct gedefinieerd. Frontmatter themas clean zonder HTML-entiteiten.
+      concrete_problemen: []
 themas:
   - achterstallig
   - bijkantoor
@@ -58,8 +46,6 @@ themas:
 ---
 
 # CBN-advies 110/2 - Stukken die tegelijk met de jaarrekening dienen neergelegd te worden (artikel 80 W. Venn.)
-
-## 
 
 Het nieuw artikel 80 van de gecoördineerde wetten op de handelsvennootschappen, ingelast door de wet van 24 maart 1978, bepaalt in het *sexto* van het tweede lid dat tegelijk met de jaarrekening een stuk wordt neergelegd met de volgende gegevens tenzij, die reeds afzonderlijk in de jaarrekening worden vermeld:
 
@@ -82,8 +68,6 @@ Uit wat voorafgaat, moet onder meer afgeleid worden dat voor ondernemingen waarv
 In dit geval kunnen deze schulden niet als achterstallig beschouwd worden daar hun datum van opeisbaarheid bij het afsluiten van het boekjaar niet verstreken is. 
 
 Eenzelfde redenering dient gevolgd te worden voor wat betreft de betaling van de bedrijfsvoorheffing die de ondernemingen afhouden ten laste van hun werknemers. Men moet nagaan, gelet op de termijn bedoeld in artikel 303, lid 2 van het wetboek der inkomstenbelastingen, of de fiscale schuld als achterstallig moet worden beschouwd. Zoniet bestaat er geen aanleiding om ze als dusdanig te vermelden. Het spreekt nochtans vanzelf dat deze schulden op het passief moeten voorkomen onder de geschikte rubriek. 
-
-## 
 
 Het gewijzigde artikel 198 bepaalt dat de artikelen betreffende de openbaarmaking van de akten en van de jaarrekening alsook artikel 81 toepasselijk zijn op de vreemde vennootschappen die een filialen of welk ander kantoor in België stichten. 
 

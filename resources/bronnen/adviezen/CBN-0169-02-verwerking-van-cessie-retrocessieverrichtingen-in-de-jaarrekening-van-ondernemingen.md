@@ -12,33 +12,33 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:35Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A9: twee OCR-tikfouten in ## headings: 'Oordpronkelijke' (r.145) en 'Ooorspronkelijke' (r.208) — beide zijn corrupte versies van 'Oorspronkelijke', duidelijke extractie-artefacten. De rest van het document is inhoudelijk volledig en structureel correct."
+    rationale: "A9: twee ETL-tikfouten in ## headings die na scraper-fixes nog steeds aanwezig zijn: r.151 '## (Oordpronkelijke) cedent van het aandeel' (corruptie van 'Oorspronkelijke') en r.214 '## (Ooorspronkelijke) cessionaris van het aandeel' (extra 'o'). Beide zijn duidelijke extractie-artefacten. Rest van het document inhoudelijk volledig en structureel correct."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
+      file_size_chars: 29738
+      flags: []
       heading_count: 19
       max_section_chars: 18084
-      file_size_chars: 29739
-      flags: []
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "A9: twee OCR-tikfouten in ## headings: 'Oordpronkelijke' (r.145) en 'Ooorspronkelijke' (r.208) — beide zijn corrupte versies van 'Oorspronkelijke', duidelijke extractie-artefacten. De rest van het document is inhoudelijk volledig en structureel correct."
+      run_at: '2026-05-11T15:19:35Z'
+      rationale: "A9: twee ETL-tikfouten in ## headings die na scraper-fixes nog steeds aanwezig zijn: r.151 '## (Oordpronkelijke) cedent van het aandeel' (corruptie van 'Oorspronkelijke') en r.214 '## (Ooorspronkelijke) cessionaris van het aandeel' (extra 'o'). Beide zijn duidelijke extractie-artefacten. Rest van het document inhoudelijk volledig en structureel correct."
       concrete_problemen:
-        - regel: 145
+        - regel: 151
           categorie: A9
           type: ocr-confusion
           voorbeeld: '## (Oordpronkelijke) cedent van het aandeel'
-        - regel: 208
+        - regel: 214
           categorie: A9
           type: ocr-confusion
           voorbeeld: '## (Ooorspronkelijke) cessionaris van het aandeel'
@@ -100,7 +100,7 @@ Het verschil tussen de retrocessie- en de cessieprijs wordt als interest beschou
 
 Bij deze eerste benadering die het beginsel huldigt van de fiduciaire overdracht, stelt de toerekening van de door de overgedragen activa verwezenlijkte opbrengsten in beginsel geen probleem. Die opbrengsten (coupons, dividenden, huurgelden, termijnbetalingen, enz.) komen toe aan de oorspronkelijke cedent in zijn hoedanigheid van eigenaar. Zij worden normaliter geïnd door de fiduciaire bezitter van de betrokken activa of door zijn lasthebber, maar in naam en voor rekening van de oorspronkelijke cedent. Indien met betrekking tot het fiduciair ontvangen effect, de oorspronkelijke cessionaris een cessie, retrocessie of lening aangaat tegenover een derde, moet, wat hem betreft en vooraleer de verrichting plaatsheeft, naast de lening in contanten en de overeenstemmende vordering ook de verwerving van de eigendom van het betrokken effect worden geboekt, met als tegenboeking een effectenschuld ten belope van hetzelfde bedrag. Over het algemeen zal daaruit een baissepositie voortvloeien met een koersrisico tot gevolg, dat in resultaat moet worden genomen in geval van potentieel verlies en overgedragen in geval van potentiële winst. Indien een coupon vervalt tijdens de duur van de verrichting, zal een vergoeding voor ontbrekende coupon verschuldigd zijn. Voor de boekhoudkundige verwerking van die aspecten, wordt verwezen naar het advies nr.169/1 hierboven inzake leningen en ontleningen van effecten. 
 
-### Tweede benadering 
+### Tweede benadering
 
 In de tweede benadering wordt de nadruk gelegd op de dubbele effectieve overdracht in volle eigendom van de betrokken activa, enerzijds bij de cessie, anderzijds bij de retrocessie. Maar, aangezien de retrocessie van bij de aanvang nauw is verbonden met de cessie, moet ervan worden uitgegaan dat beide verrichtingen, in termen van resultaat, één enkele verrichting vormen. 
 

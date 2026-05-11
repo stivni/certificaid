@@ -2,62 +2,67 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
 datum: 2024-05-22
 gerelateerde_adviezen:
-  - datum: '2019-03-05'
-    titel: Voorzieningen
-    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-  - datum: '2018-05-30'
-    titel: Interpretatie van code 99084 in de toelichting 5.14 van de geconsolideerde jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
-  - datum: '2018-05-30'
-    titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-  - datum: '2018-03-21'
-    titel: Belastingkrediet voor kosten van onderzoek en ontwikkeling
-    url: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
+- datum: '2019-03-05'
+  titel: Voorzieningen
+  url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+- datum: '2018-05-30'
+  titel: Interpretatie van code 99084 in de toelichting 5.14 van de geconsolideerde
+    jaarrekening
+  url: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
+- datum: '2018-05-30'
+  titel: Tax shelter voor podiumkunsten
+  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+- datum: '2018-03-21'
+  titel: Belastingkrediet voor kosten van onderzoek en ontwikkeling
+  url: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2024/05
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
-      sha256: 9afefe28e589eba3c3c1648830286c681e6ca2d7bbfe05a4ea56534a34d83b51
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten
+    sha256: 9afefe28e589eba3c3c1648830286c681e6ca2d7bbfe05a4ea56534a34d83b51
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:24:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:19Z'
-      heading_count: 4
-      max_section_chars: 3232
       file_size_chars: 5485
       flags: []
+      heading_count: 4
+      max_section_chars: 3232
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Zeer kort advies (~5500 chars, 4 headings). Geen extractie-artefacten. Inhoud volledig voor het onderwerp (toepassingsgebied, grondslag, boekhoudkundige verwerking). Voetnoten [^1]–[^8] volledig. Geen tabellen, geen TOC.
+      rationale: Zeer kort advies (~5500 chars, 4 headings). Geen extractie-artefacten.
+        Inhoud volledig voor het onderwerp (toepassingsgebied, grondslag, boekhoudkundige
+        verwerking). Voetnoten [^1]–[^8] volledig. Geen tabellen, geen TOC.
       run_at: '2026-05-11T12:24:34Z'
       status: trusted
-    rationale: Zeer kort advies (~5500 chars, 4 headings). Geen extractie-artefacten. Inhoud volledig voor het onderwerp (toepassingsgebied, grondslag, boekhoudkundige verwerking). Voetnoten [^1]–[^8] volledig. Geen tabellen, geen TOC.
+    rationale: Zeer kort advies (~5500 chars, 4 headings). Geen extractie-artefacten.
+      Inhoud volledig voor het onderwerp (toepassingsgebied, grondslag, boekhoudkundige
+      verwerking). Voetnoten [^1]–[^8] volledig. Geen tabellen, geen TOC.
     status: trusted
 themas:
-  - belasting
-  - successierechten
-  - vermogensbelasting
-  - vereniging
-  - vzw
-  - stichting
-  - private stichting
-  - patrimoniumtaks
-  - bezittingen
-  - bedrijfsbelastingen
+- belasting
+- successierechten
+- vermogensbelasting
+- vereniging
+- vzw
+- stichting
+- private stichting
+- patrimoniumtaks
+- bezittingen
+- bedrijfsbelastingen
 ---
 
 # CBN-advies 2024/05 – Boekhoudkundige verwerking van de taks tot vergoeding der successierechten

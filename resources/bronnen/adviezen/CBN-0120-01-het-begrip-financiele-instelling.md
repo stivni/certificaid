@@ -2,49 +2,56 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
 datum: 1980-01-01
 gerelateerde_adviezen:
-  - datum: '1980-01-01'
-    titel: In aanmerking te nemen termijn - Contractuele termijn of nog te lopen termijn
-    url: https://www.cbn-cnc.be/nl/adviezen/in-aanmerking-te-nemen-termijn-contractuele-termijn-of-nog-te-lopen-termijn
+- datum: '1980-01-01'
+  titel: In aanmerking te nemen termijn - Contractuele termijn of nog te lopen termijn
+  url: https://www.cbn-cnc.be/nl/adviezen/in-aanmerking-te-nemen-termijn-contractuele-termijn-of-nog-te-lopen-termijn
 nummer: CBN-advies 120/1
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
-      sha256: 09569e50a30a303b5f3b13e0c117da75f86383378989d1d5c821ee201bdbf17c
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
+    sha256: 09569e50a30a303b5f3b13e0c117da75f86383378989d1d5c821ee201bdbf17c
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Vorige L2 flagde D4 broken italic op regel 59 ('*Thesauriebeleggingen *en'), maar de werkelijke body toont '*Thesauriebeleggingen*' correct gesloten op alle vier plaatsen (regels 56, 62). Geen spatie voor sluitende asterisk aangetroffen. Body kort (2614 chars), vijf alinea's, twee voetnoten correct. Geen artefacten.
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 2614
       file_size_chars: 2614
       flags: []
+      heading_count: 0
+      max_section_chars: 2614
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: Vorige L2 flagde D4 broken italic op regel 59 ('*Thesauriebeleggingen *en'), maar de werkelijke body toont '*Thesauriebeleggingen*' correct gesloten op alle vier plaatsen (regels 56, 62). Geen spatie voor sluitende asterisk aangetroffen. Body kort (2614 chars), vijf alinea's, twee voetnoten correct. Geen artefacten.
       concrete_problemen: []
+      rationale: Vorige L2 flagde D4 broken italic op regel 59 ('*Thesauriebeleggingen
+        *en'), maar de werkelijke body toont '*Thesauriebeleggingen*' correct gesloten
+        op alle vier plaatsen (regels 56, 62). Geen spatie voor sluitende asterisk
+        aangetroffen. Body kort (2614 chars), vijf alinea's, twee voetnoten correct.
+        Geen artefacten.
+      run_at: '2026-05-11T13:16:02Z'
+      status: trusted
+    rationale: Vorige L2 flagde D4 broken italic op regel 59 ('*Thesauriebeleggingen
+      *en'), maar de werkelijke body toont '*Thesauriebeleggingen*' correct gesloten
+      op alle vier plaatsen (regels 56, 62). Geen spatie voor sluitende asterisk aangetroffen.
+      Body kort (2614 chars), vijf alinea's, twee voetnoten correct. Geen artefacten.
+    status: trusted
 themas:
-  - beschikbare waarden
-  - financiële instelling
-  - liquide middelen
-  - thesauriebelegging
-  - transacties met dochterondernemingen
-  - verbonden onderneming
+- beschikbare waarden
+- financiële instelling
+- liquide middelen
+- thesauriebelegging
+- transacties met dochterondernemingen
+- verbonden onderneming
 ---
 
 # CBN-advies 120/1 - Het begrip "financiële instelling"

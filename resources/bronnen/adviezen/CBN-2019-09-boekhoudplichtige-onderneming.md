@@ -19,32 +19,28 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'A3: TOC op regels 55-71 staat als plain-text geneste nummerlijst in de body vóór `## Algemeen` — klassiek TOC-artefact. Verder is de inhoud volledig, de heading-hiërarchie correct, en zijn er geen andere extractie-artefacten aangetroffen.'
+    rationale: 'Ronde-1-verdict (needs-rework voor A3 TOC op regels 55-71) is na re-scrape niet langer van toepassing: het huidige bestand begint direct met `## Algemeen` op regel 67 zonder enige TOC-blok ervoor. Heading-hiërarchie (H1 → H2 → H3) is correct en consistent. Geen extractie-artefacten aangetroffen in categorieën A-G. Inhoud volledig: definities, verduidelijkingen, overgangsbepalingen, voorbeelden en 22 voetnoten.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
+      file_size_chars: 23378
+      flags: []
       heading_count: 14
       max_section_chars: 7295
-      file_size_chars: 23919
-      flags: []
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: 'A3: TOC op regels 55-71 staat als plain-text geneste nummerlijst in de body vóór `## Algemeen` — klassiek TOC-artefact. Verder is de inhoud volledig, de heading-hiërarchie correct, en zijn er geen andere extractie-artefacten aangetroffen.'
-      concrete_problemen:
-        - regel: 55
-          categorie: A3
-          type: other
-          voorbeeld: "1. Algemeen \n2. Wettelijke definities \n  1. Onderneming – algemene definitie \n  2. Boekhoudplichtige onderneming"
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'Ronde-1-verdict (needs-rework voor A3 TOC op regels 55-71) is na re-scrape niet langer van toepassing: het huidige bestand begint direct met `## Algemeen` op regel 67 zonder enige TOC-blok ervoor. Heading-hiërarchie (H1 → H2 → H3) is correct en consistent. Geen extractie-artefacten aangetroffen in categorieën A-G. Inhoud volledig: definities, verduidelijkingen, overgangsbepalingen, voorbeelden en 22 voetnoten.'
+      concrete_problemen: []
 themas:
   - boekhoudplichtige onderneming
   - vrij beroep
@@ -55,23 +51,6 @@ themas:
 ---
 
 # CBN-advies 2019/09 – Boekhoudplichtige onderneming
-
-1. Algemeen 
-2. Wettelijke definities 
-  1. Onderneming – algemene definitie 
-  2. Boekhoudplichtige onderneming 
-
-3. Verduidelijking van het begrip boekhoudplichtige onderneming 
-  1. Natuurlijke persoon die zelfstandig een beroepsactiviteit uitoefent 
-  2. Rechtspersonen naar Belgisch recht 
-  3. Organisaties zonder rechtspersoonlijkheid 
-  4. Bijkantoren 
-
-4. Inwerkingtreding – overgangsbepalingen
-
-  1. Nieuwe onderneming 
-  2. Bestaande onderneming – voorheen niet onderworpen 
-  3. Bestaande onderneming – voorheen onderworpen 
 
 ## Algemeen
 
@@ -180,16 +159,16 @@ Wat betreft de organisaties zonder rechtspersoonlijkheid wordt een onderscheid g
 
 De maten van een organisatie zonder rechtspersoonlijkheid kunnen[^19] zelf ook een boekhoudplichtige onderneming zijn. De boekhoudkundige verwerking van de verrichtingen van een organisatie zonder rechtspersoonlijkheid zal het voorwerp uitmaken van een afzonderlijk advies.
 
-### Bijkantoren 
+### Bijkantoren
 
 Een onderneming opgericht naar buitenlands recht met één of meer bijkantoren in België, wordt aangemerkt als een boekhoudplichtige onderneming met dien verstande dat de boekhoudkundige verplichtingen van het WER alleen van toepassing zijn op hun in België gevestigde bijkantoren. Hun gezamenlijke bijkantoren in België worden als één boekhoudplichtige onderneming aangemerkt.
 
-## Inwerkingtreding – overgangsbepalingen[^20] 
+## Inwerkingtreding – overgangsbepalingen[^20]
 
 De Wet van 15 april 2018 houdende hervorming van het ondernemingsrecht introduceert een definitie van het begrip boekhoudplichtige onderneming. Deze nieuwe definitie geldt vanaf 1 november 2018.[^21]
  De herdefiniëring van het algemene ondernemingsbegrip en de introductie van het nieuwe begrip boekhoudplichtige onderneming, heeft een belangrijke verruiming tot gevolg van de personen, lichamen en organisaties die onderworpen zijn aan de boekhoudverplichtingen vermeld in het WER. Hoewel de meeste personen, lichamen en organisaties die onder de verruimde definitie van een boekhoudplichtige onderneming vallen en voorheen niet onderworpen waren aan de boekhoudverplichtingen vermeld in het WER, reeds op één of andere wijze hun verrichtingen registreerden of moesten registreren (met name hoofdzakelijk ter naleving van diverse fiscale regelgeving), heeft de wetgever voorzien in een ruime overgangsbepaling om de voorheen toegepaste boekhoudkundige registratiemethode te aligneren met de boekhoudkundige verplichtingen opgenomen in het WER en de bijhorende uitvoeringsbesluiten. Het tijdstip vanaf wanneer een boekhoudplichtige onderneming onderworpen wordt aan de boekhoudkundige verplichtingen bepaald in Boek III, Titel 3, Hoofstuk 2 van het WER, wordt hieronder verduidelijkt.
 
-### Nieuwe onderneming 
+### Nieuwe onderneming
 
 Een boekhoudplichtige onderneming die start op 1 november 2018 of op een latere datum is vanaf haar aanvang onderworpen aan de boekhoudkundige verplichtingen vermeld in het WER.[^22] 
 

@@ -2,57 +2,66 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/individualisering-van-de-aanschaffingsprijs
 datum: 1988-12-01
 gerelateerde_adviezen:
-  - datum: '2025-06-06'
-    titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
-    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp
-  - datum: '2017-02-01'
-    titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
-    url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
-  - datum: '2012-10-10'
-    titel: De boekhoudkundige verwerking van immateriële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-  - datum: '2002-05-01'
-    titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende titel of om niet
-    url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
+- datum: '2025-06-06'
+  titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
+  url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp
+- datum: '2017-02-01'
+  titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
+  url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw
+- datum: '2012-10-10'
+  titel: De boekhoudkundige verwerking van immateriële vaste activa
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+- datum: '2002-05-01'
+  titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende
+    titel of om niet
+  url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
 nummer: CBN-advies 126/6
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/individualisering-van-de-aanschaffingsprijs
-      sha256: 6e700565eb112f2c86e015c9db3299cb25a551c4e7743f73c7274ecbba23ba17
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/individualisering-van-de-aanschaffingsprijs
+    sha256: 6e700565eb112f2c86e015c9db3299cb25a551c4e7743f73c7274ecbba23ba17
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Vorige Laag-2-ronde flagde B3 (duplicate heading op L58+60), maar bij her-lezing staat de enkelvoudige H1-heading correct op L62 in de body. De verwarring ontstond doordat de thema-entries in de frontmatter lijken op een titelherhaling, maar dat zijn metadata-velden. Geen duplicaat in de body. Inhoud volledig afgesloten met complete redenering.
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 3053
       file_size_chars: 3053
       flags: []
+      heading_count: 0
+      max_section_chars: 3053
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: Vorige Laag-2-ronde flagde B3 (duplicate heading op L58+60), maar bij her-lezing staat de enkelvoudige H1-heading correct op L62 in de body. De verwarring ontstond doordat de thema-entries in de frontmatter lijken op een titelherhaling, maar dat zijn metadata-velden. Geen duplicaat in de body. Inhoud volledig afgesloten met complete redenering.
       concrete_problemen: []
+      rationale: Vorige Laag-2-ronde flagde B3 (duplicate heading op L58+60), maar
+        bij her-lezing staat de enkelvoudige H1-heading correct op L62 in de body.
+        De verwarring ontstond doordat de thema-entries in de frontmatter lijken op
+        een titelherhaling, maar dat zijn metadata-velden. Geen duplicaat in de body.
+        Inhoud volledig afgesloten met complete redenering.
+      run_at: '2026-05-11T13:16:02Z'
+      status: trusted
+    rationale: Vorige Laag-2-ronde flagde B3 (duplicate heading op L58+60), maar bij
+      her-lezing staat de enkelvoudige H1-heading correct op L62 in de body. De verwarring
+      ontstond doordat de thema-entries in de frontmatter lijken op een titelherhaling,
+      maar dat zijn metadata-velden. Geen duplicaat in de body. Inhoud volledig afgesloten
+      met complete redenering.
+    status: trusted
 themas:
-  - aanschaffingsprijs
-  - individualisering van de aanschaffingsprijs
-  - voorraden
-  - waardering
-  - waardering van voorraden
+- aanschaffingsprijs
+- individualisering van de aanschaffingsprijs
+- voorraden
+- waardering
+- waardering van voorraden
 ---
 
 # CBN advies 126-6 - Individualisering van de aanschaffingsprijs

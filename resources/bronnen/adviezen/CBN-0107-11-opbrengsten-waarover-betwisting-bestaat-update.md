@@ -12,33 +12,29 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie problemen: (1) B3/heading: regel 61 bevat een [^1]-marker direct in de H1-heading zelf ('# Advies van september 1989, bijgewerkt op 10 september 2025[^1]') — een mens typt nooit een footnote-referentie in een # heading. (2) G2/frontmatter: HTML-entity '&#039;' in themas op regel 53. (3) De H1-heading vermijdt het adviesnummer CBN-advies 107/11 volledig, wat de identificeerbaarheid schaadt. De eerder gerapporteerde 'duplicate headings op regels 49 en 51' zijn onjuist — dat waren frontmatter-regels; de body heeft slechts één heading."
+    rationale: "G2: HTML-entity '&#039;' aanwezig in frontmatter themas op regel 41 ('voorzieningen voor risico&#039;s en kosten') — ETL-artefact. Body is verder volledig en goed leesbaar, voetnoot [^1] correct gedefinieerd."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 3518
-      file_size_chars: 3518
+      file_size_chars: 3517
       flags: []
+      heading_count: 0
+      max_section_chars: 3517
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "Drie problemen: (1) B3/heading: regel 61 bevat een [^1]-marker direct in de H1-heading zelf ('# Advies van september 1989, bijgewerkt op 10 september 2025[^1]') — een mens typt nooit een footnote-referentie in een # heading. (2) G2/frontmatter: HTML-entity '&#039;' in themas op regel 53. (3) De H1-heading vermijdt het adviesnummer CBN-advies 107/11 volledig, wat de identificeerbaarheid schaadt. De eerder gerapporteerde 'duplicate headings op regels 49 en 51' zijn onjuist — dat waren frontmatter-regels; de body heeft slechts één heading."
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: "G2: HTML-entity '&#039;' aanwezig in frontmatter themas op regel 41 ('voorzieningen voor risico&#039;s en kosten') — ETL-artefact. Body is verder volledig en goed leesbaar, voetnoot [^1] correct gedefinieerd."
       concrete_problemen:
-        - regel: 61
-          categorie: B3
-          type: other
-          voorbeeld: '# Advies van september 1989, bijgewerkt op 10 september 2025[^1]'
-        - regel: 53
+        - regel: 41
           categorie: G2
           type: other
           voorbeeld: voorzieningen voor risico&#039;s en kosten
@@ -54,7 +50,7 @@ themas:
   - waarschijnlijkheid
 ---
 
-# Advies van september 1989, bijgewerkt op 10 september 2025[^1] 
+# Advies van september 1989, bijgewerkt op 10 september 2025[^1]
 
 Krachtens het eerste lid van artikel 3:11 van het koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) moet rekening worden gehouden ”met alle voorzienbare risico's, mogelijke verliezen en ontwaardingen, ontstaan tijdens het boekjaar waarop de jaarrekening betrekking heeft of tijdens voorgaande boekjaren, zelfs indien deze risico's, verliezen of ontwaardingen slechts gekend zijn tussen de balansdatum en het ogenblik waarop de jaarrekening door het bestuursorgaan van de vennootschap, VZW, IVZW of stichting wordt opgesteld”. Het tweede lid van art. 3:11 KB WVV zegt voorts dat rekening moet worden gehouden met de kosten en de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd, behalve indien de effectieve inning van deze opbrengsten onzeker is. 
 

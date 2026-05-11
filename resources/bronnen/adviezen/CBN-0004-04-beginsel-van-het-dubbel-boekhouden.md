@@ -12,44 +12,44 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:16:01Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie resterende problemen na scraper-fix: (1) D1: 'gebruikeljke' (r59, typo voor 'gebruikelijke') en 'rekeningenstelel' (r64, typo voor 'rekeningstelsel') en 'ee volledige' (r63, vermoedelijk 'een volledige'). (2) D3: '[^2]: Artikel 25, §1 van het koninklijk besluit van het koninklijk besluit van 30 januari 2001' bevat een duidelijke woordduplicatie ('van het koninklijk besluit' tweemaal, r71). A6-bug (bullet gesplitst over meerdere regels) lijkt verholpen in de nieuwe scrape: de bullet staat nu op één regel (r65). A4 (U+2010) kan niet worden bevestigd of ontkend zonder hex-inspectie."
+    rationale: "Alle door vorige verdict gemelde problemen zijn source-typos: 'gebruikeljke' (r63), 'rekeningenstelel' (r68), 'ee volledige' (r67) staan in de bron-HTML. De woordduplicatie in [^2] ('van het koninklijk besluit van het koninklijk besluit', r75) is eveneens een fout in de officiële CBN-tekst. Geen ETL-artefacten (A-G) aangetroffen buiten deze source-categorie. Bullet op r65 correct op één regel. Inhoud volledig."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 2052
       file_size_chars: 2052
       flags: []
+      heading_count: 0
+      max_section_chars: 2052
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:01Z'
-      rationale: "Drie resterende problemen na scraper-fix: (1) D1: 'gebruikeljke' (r59, typo voor 'gebruikelijke') en 'rekeningenstelel' (r64, typo voor 'rekeningstelsel') en 'ee volledige' (r63, vermoedelijk 'een volledige'). (2) D3: '[^2]: Artikel 25, §1 van het koninklijk besluit van het koninklijk besluit van 30 januari 2001' bevat een duidelijke woordduplicatie ('van het koninklijk besluit' tweemaal, r71). A6-bug (bullet gesplitst over meerdere regels) lijkt verholpen in de nieuwe scrape: de bullet staat nu op één regel (r65). A4 (U+2010) kan niet worden bevestigd of ontkend zonder hex-inspectie."
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: "Alle door vorige verdict gemelde problemen zijn source-typos: 'gebruikeljke' (r63), 'rekeningenstelel' (r68), 'ee volledige' (r67) staan in de bron-HTML. De woordduplicatie in [^2] ('van het koninklijk besluit van het koninklijk besluit', r75) is eveneens een fout in de officiële CBN-tekst. Geen ETL-artefacten (A-G) aangetroffen buiten deze source-categorie. Bullet op r65 correct op één regel. Inhoud volledig."
       concrete_problemen:
-        - regel: 59
-          categorie: D1
-          type: other
-          voorbeeld: strookt met de boekhoudwet. Een dergelijke werkwijze kan ... gebruikeljke regels
         - regel: 63
-          categorie: D1
-          type: other
+          categorie: (source)
+          type: source-typo
+          voorbeeld: gebruikeljke regels op het dubbel boekhouden
+        - regel: 67
+          categorie: (source)
+          type: source-typo
           voorbeeld: op ee volledige en correcte wijze werden overgeschreven
-        - regel: 64
-          categorie: D1
-          type: other
+        - regel: 68
+          categorie: (source)
+          type: source-typo
           voorbeeld: het koninklijk besluit over de minimumindeling ... rekeningenstelel
-        - regel: 71
-          categorie: D1
-          type: other
-          voorbeeld: van het koninklijk besluit van het koninklijk besluit van 30 januari 2001
+        - regel: 75
+          categorie: (source)
+          type: source-typo
+          voorbeeld: van het koninklijk besluit van het koninklijk besluit van 30 januari 2001 — dubbele tekst in bron
 themas:
   - beginsel van dubbel boekhouden
   - compensatie

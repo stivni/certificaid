@@ -3,59 +3,61 @@ bron: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-boekhoudrecht
 datum: 1997-01-01
 nummer: CBN-advies 173/1
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-boekhoudrechtelijke-aspecten
-      sha256: c54803fef2d4b5cf579399080be7b80ab1c66071b61078183734c59958df0cbd
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-boekhoudrechtelijke-aspecten
+    sha256: c54803fef2d4b5cf579399080be7b80ab1c66071b61078183734c59958df0cbd
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 17
-      max_section_chars: 18026
-      file_size_chars: 46335
+      file_size_chars: 46319
       flags: []
+      heading_count: 17
+      max_section_chars: 18022
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 22 headings met vierniveaux hiërarchie, volledig coherent advies. Lange sectie is inherent aan dense juridisch-technische inhoud. Één scraping-artefact in H2-tekst maar inhoud volledig.'
+      rationale: '[Laag-2-R2 2026-05-08] 22 headings met vierniveaux hiërarchie, volledig
+        coherent advies. Lange sectie is inherent aan dense juridisch-technische inhoud.
+        Één scraping-artefact in H2-tekst maar inhoud volledig.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - conversie in euro
-  - eigen vermogen
-  - euro
-  - gerealiseerd wisselresultaat
-  - kosten verbonden aan overschakeling op de euro
-  - lening
-  - leningen in deviezen
-  - monetaire posten
-  - niet monetaire activa
-  - niet-monetaire posten
-  - omrekeningskoers
-  - omrekeningsverschil
-  - openbaarmaking
-  - opstelling van de jaarrekening
-  - opstelling van de jaarrekening in euro
-  - overschakeling op de euro
-  - publicatie
-  - termijnwisselverrichting
-  - voorziening
-  - wisselrisico
-  - wisselverschil
+- conversie in euro
+- eigen vermogen
+- euro
+- gerealiseerd wisselresultaat
+- kosten verbonden aan overschakeling op de euro
+- lening
+- leningen in deviezen
+- monetaire posten
+- niet monetaire activa
+- niet-monetaire posten
+- omrekeningskoers
+- omrekeningsverschil
+- openbaarmaking
+- opstelling van de jaarrekening
+- opstelling van de jaarrekening in euro
+- overschakeling op de euro
+- publicatie
+- termijnwisselverrichting
+- voorziening
+- wisselrisico
+- wisselverschil
 ---
 
 # CBN-advies 173/1 - Overschakeling op de euro: boekhoudrechtelijke aspecten
@@ -75,7 +77,7 @@ themas:
 
 Dit advies gaat ervan uit dat de Euro op 1 januari 1999 wordt ingevoerd en dat België tot de Europese Monetaire Unie toetreedt op dezelfde datum.
 
-## **Boekhoudrechtelijke aspecten**
+## Boekhoudrechtelijke aspecten
 
 Voor industriële en commerciële ondernemingen[^1] hebben de voornoemde beginselen voor de periode tussen 1 januari 1999 en 31 december 2001 (fase II B) een aantal gevolgen op boekhoudrechtelijk vlak, zoals hieronder uiteengezet.
 
@@ -160,13 +162,13 @@ Het is evenwel niet uitgesloten dat het verschil groter is voor langlopende mone
 
 Die verschillen en hun verwerking in de jaarrekening doen een aantal vragen rijzen.
 
-##### *Op welke datum moeten dergelijke verschillen worden geboekt ?*
+##### Op welke datum moeten dergelijke verschillen worden geboekt ?
 
 Moeten zij worden geboekt op 1 januari 1999 of op 31 december 1998 ? 
 
 Na grondig onderzoek is het Europees Contactcomité tot de conclusie gekomen dat de wisselkoers zoals die door de Europese autoriteiten zal zijn vastgesteld tegen uiterlijk 31 december 1998, moet gelden als «slotkoers» op 31 december 1998; bijgevolg moeten alle monetaire posten in de boekhouding eind 1998 (of in de boekhouding van het eind 1998 lopende boekjaar) op basis van die koers worden gewaardeerd, ongeacht het boekjaar vanaf wanneer de jaarrekening in Euro wordt opgesteld.
 
-##### *Vormen die verschillen een resultaat of zijn zij rechtstreeks aan het eigen vermogen toe te rekenen ?*
+##### Vormen die verschillen een resultaat of zijn zij rechtstreeks aan het eigen vermogen toe te rekenen ?
 
 Voorstanders van een rechtstreekse toerekening aan het eigen vermogen wijzen op het uitzonderlijke karakter van de invoering van de Euro alsook op het feit dat het hier niet gaat om een transactie van de onderneming maar om een van overheidswege doorgevoerde wijziging van de rekenmunt.
 
@@ -176,7 +178,7 @@ Ten eerste, omdat die oplossing de enige is die strookt met de beginselen van he
 
 Aangezien de koers van de Euro trouwens zal worden vastgesteld op het peil van de Ecu op een welbepaalde datum of tijdens een welbepaalde periode, kan men onmogelijk stellen dat het niet zozeer gaat om een wisselresultaat, maar om een wijziging van het rekeninstrument.
 
-##### *Op welk tijdstip en op welke wijze moeten die wisselverschillen in resultaat worden genomen ?*
+##### Op welk tijdstip en op welke wijze moeten die wisselverschillen in resultaat worden genomen ?
 
 Om op die vraag te kunnen antwoorden moet men het tijdstip kennen waarop dit resultaat geacht wordt te zijn «gerealiseerd».
 
@@ -196,7 +198,7 @@ Deze tweede benadering is degelijk onderbouwd en duidelijk, zodat de Commissie h
 
 Op grond van wat voorafgaat is zij - onder voorbehoud van wat gezegd wordt sub punt d. en e. hierna - geen voorstander van een techniek die zou neerkomen op een uitstel van de inresultaatneming van het saldo van de positieve verschillen, die dan in de overlopende rekeningen zouden worden geboekt en in winst genomen, hetzij op het tijdstip waarop de monetaire posten waarop de bruto omrekeningsverschillen betrekking hebben, zelf zouden worden gerealiseerd doordat zij vervallen of worden overgedragen, hetzij via een techniek van forfaitaire spreiding over een bepaald aantal jaren.
 
-##### *Leningen in deviezen voor de financiering van niet-monetaire activa waarvan de waarde afhangt van de koers van die munt*
+##### Leningen in deviezen voor de financiering van niet-monetaire activa waarvan de waarde afhangt van de koers van die munt
 
 Een bijkomende vraag gaat over het specifieke geval waarin niet-monetaire activa gelegen in of verbonden met een Europees land dat lid wordt van de Muntunie (materiële, immateriële of financiële vaste activa), gefinancierd werden met leningen in de munt van dat land.
 
@@ -210,7 +212,7 @@ Wanneer een onderneming op die manier tewerk gaat, zou dat op het tijdstip van d
 
 Ook in dat geval is het (positieve of negatieve) wisselverschil met betrekking tot de schuld niet te wijten aan de invoering van de Euro maar aan de daaraan voorafgaande koersevolutie van de munt van de lening. De overschakeling op de Euro wijzigt dus ten gronde niets aan de toestand. De wijziging situeert zich op het niveau van de waarderingen. In de huidige situatie heeft het probleem te maken met de wijze waarop een vreemde munt wordt gewaardeerd. Na de overschakeling op de Euro hoeft de koers voor de omrekening van een schuld in vreemde munt hoegenaamd niet meer te worden gewaardeerd, omdat die schuld in Euro zal luiden, de rekenmunt waarin de onderneming haar jaarrekening opstelt. Hieruit volgt dat het beginsel van overeenstemming tussen opbrengsten en kosten (matching principle) dat ten grondslag lag aan het voornoemde advies van de Commissie, voortaan niet meer van toepassing is op wisselverschillen. Met het oog op de noodzakelijke continuïteit in het bedrijfsbeleid kan het in voorkomend geval niettemin verantwoord zijn, op grond van het matching principle, het wisselverschil bij de overschakeling op de Euro, toe te rekenen aan de waarde van het met de betrokken lening gefinancierde actiefbestanddeel.
 
-##### *Langlopende leningen, vorderingen en beleggingen in vreemde munt waarbij een renteverschil t.o.v. de overeenstemmende passiva en activa in Belgische franken wordt gecombineerd met een wisselriscio.*
+##### Langlopende leningen, vorderingen en beleggingen in vreemde munt waarbij een renteverschil t.o.v. de overeenstemmende passiva en activa in Belgische franken wordt gecombineerd met een wisselriscio.
 
 In haar bovenvermeld advies over «Deviezenverrichtingen en verwerking van tegoeden en verplichtingen in deviezen» heeft de Commissie het geval behandeld waarin een onderneming zou lenen in een «sterke» munt tegen een lagere rentevoet dan de rentevoet voor overeenstemmende leningen in Belgische frank, waarbij zij het risico draagt van een opwaardering van de munt van de lening (niet gedekte lening)[^2].
 
@@ -226,7 +228,7 @@ Indien het land in de munt waarvan de lening is aangegaan of de belegging verric
 
 In dat geval kan het verantwoord zijn het wisselverschil bij de invoering van de Euro, voor het beloop van de waarde van het voor de resterende looptijd te lopen renteverschil - berekend op de datum waarop de lening werd aangegaan - in het verlengde van voornoemd advies - uit te stellen en prorata temporis in resultaat te nemen in de loop van die periode, om aldus de weerslag van de gelopen intresten op de resultatenrekening te corrigeren.
 
-##### *Niet-monetaire activa van bedrijfszetels in een ander land van de Muntunie.*
+##### Niet-monetaire activa van bedrijfszetels in een ander land van de Muntunie.
 
 In haar advies 172/1 over de opneming van de rekeningen van een buitenlands bijkantoor[^3] in de boekhouding van de zetel, pleitte de Commissie voor een opneming van verrichtingsstromen, veeleer dan van slotsaldi, omdat in de boekhouding in de eerste plaats verrichtingen en mutaties moeten worden ingeschreven, geen saldi die voortvloeien uit een verrichtingenpakket.
 

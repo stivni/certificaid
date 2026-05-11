@@ -2,55 +2,67 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
 datum: 2016-09-07
 gerelateerde_adviezen:
-  - datum: '2019-04-12'
-    titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-  - datum: '2015-09-30'
-    titel: Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
-  - datum: '2012-10-10'
-    titel: Bestellingen in uitvoering
-    url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
-  - datum: '2011-07-20'
-    titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
+- datum: '2019-04-12'
+  titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+- datum: '2015-09-30'
+  titel: Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd
+    voor verkoop
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
+- datum: '2012-10-10'
+  titel: Bestellingen in uitvoering
+  url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
+- datum: '2011-07-20'
+  titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van
+    grote en zeer grote verenigingen en stichtingen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
 nummer: CBN-advies 2016/14
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
-      sha256: b7f3b132d8a0aa0c0e8a09c62f4e9ae308e6357e47ff23fcb87d2ceba75cb368
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
+    sha256: b7f3b132d8a0aa0c0e8a09c62f4e9ae308e6357e47ff23fcb87d2ceba75cb368
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
+      file_size_chars: 8885
+      flags: []
       heading_count: 6
       max_section_chars: 2780
-      file_size_chars: 8889
-      flags: []
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Schoon bestand. Zes headings correct genest (inclusief italic-geneste subheadings *Algemeen* en *Toepassingsvoorwaarden*). Genummerde randnummers (1–14) zijn als lopende tekst opgenomen, wat de stijl van het CBN-bronadvies weerspiegelt — dit is een bewuste opmaakkeuze, geen artefact. Voetnoten [^1]–[^15] volledig gedefinieerd. Geen tabellen in dit advies (correct, want geen boekingsvoorbeelden). Inhoud compleet.
+      rationale: Schoon bestand. Zes headings correct genest (inclusief italic-geneste
+        subheadings *Algemeen* en *Toepassingsvoorwaarden*). Genummerde randnummers
+        (1–14) zijn als lopende tekst opgenomen, wat de stijl van het CBN-bronadvies
+        weerspiegelt — dit is een bewuste opmaakkeuze, geen artefact. Voetnoten [^1]–[^15]
+        volledig gedefinieerd. Geen tabellen in dit advies (correct, want geen boekingsvoorbeelden).
+        Inhoud compleet.
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: Schoon bestand. Zes headings correct genest (inclusief italic-geneste subheadings *Algemeen* en *Toepassingsvoorwaarden*). Genummerde randnummers (1–14) zijn als lopende tekst opgenomen, wat de stijl van het CBN-bronadvies weerspiegelt — dit is een bewuste opmaakkeuze, geen artefact. Voetnoten [^1]–[^15] volledig gedefinieerd. Geen tabellen in dit advies (correct, want geen boekingsvoorbeelden). Inhoud compleet.
+    rationale: Schoon bestand. Zes headings correct genest (inclusief italic-geneste
+      subheadings *Algemeen* en *Toepassingsvoorwaarden*). Genummerde randnummers
+      (1–14) zijn als lopende tekst opgenomen, wat de stijl van het CBN-bronadvies
+      weerspiegelt — dit is een bewuste opmaakkeuze, geen artefact. Voetnoten [^1]–[^15]
+      volledig gedefinieerd. Geen tabellen in dit advies (correct, want geen boekingsvoorbeelden).
+      Inhoud compleet.
     status: trusted
 themas:
-  - bestellingen in uitvoering
-  - compensatie
-  - ontvangen vooruitbetalingen op bestellingen
+- bestellingen in uitvoering
+- compensatie
+- ontvangen vooruitbetalingen op bestellingen
 ---
 
 # CBN-advies 2016/14 – Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015
@@ -70,7 +82,7 @@ themas:
 
 ## Regeling voor boekjaren die aanvangen na 31 december 2015
 
-### *Algemeen*
+### Algemeen
 
 5. Het koninklijk besluit van 18 december 2015 beoogt om vanaf nu aan alle vennootschappen, ongeacht hun activiteitssector, de mogelijkheid te bieden om een dergelijke compensatie te verrichten.[^7] 
 
@@ -78,7 +90,7 @@ themas:
 
 7. Aangezien de bepalingen van het koninklijk besluit van 18 december 2015 toepassing vinden op de boekjaren die beginnen op of na 1 januari 2016, kan de voorstellingswijze van artikel 71, tweede lid KB W.Venn. slechts voor het eerst toegepast worden met betrekking tot de balansvoorstelling in de jaarrekeningen die betrekking hebben op boekjaren die beginnen op of na 1 januari 2016.[^9] 
 
-### *Toepassingsvoorwaarden*
+### Toepassingsvoorwaarden
 
 8. Van de bij artikel 71, 2de lid KB W.Venn. toegestane compensatie kan worden gebruik gemaakt, op voorwaarde dat het bestellingen in uitvoering betreft zoals wordt gedefinieerd door art. 95, § 1, VI. B. KB W.Venn.: 
 

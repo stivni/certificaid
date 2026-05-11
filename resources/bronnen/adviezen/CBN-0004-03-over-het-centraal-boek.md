@@ -2,58 +2,64 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
 datum: 1981-04-01
 gerelateerde_adviezen:
-  - datum: '2011-10-05'
-    titel: Bewaring van de boeken en verantwoordingsstukken
-    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken
-  - datum: '2010-09-24'
-    titel: Bewaring van boeken en verantwoordingsstukken
-    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
-  - datum: '1977-08-01'
-    titel: Vermeldingen in het centralisatieboek
-    url: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
+- datum: '2011-10-05'
+  titel: Bewaring van de boeken en verantwoordingsstukken
+  url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken
+- datum: '2010-09-24'
+  titel: Bewaring van boeken en verantwoordingsstukken
+  url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
+- datum: '1977-08-01'
+  titel: Vermeldingen in het centralisatieboek
+  url: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
 nummer: CBN-advies 4/3
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
-      sha256: c64abd6195b7a76fb1fdc7ef22baf5c9d72a8d45088cae8d7bbe79d1f6bffced
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
+    sha256: c64abd6195b7a76fb1fdc7ef22baf5c9d72a8d45088cae8d7bbe79d1f6bffced
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T11:51:19Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 1
-      max_section_chars: 2603
       file_size_chars: 2603
       flags: []
+      heading_count: 1
+      max_section_chars: 2603
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-        - categorie: D1
-          regel: 55
-          type: other
-          voorbeeld: en het verichten van een samenvattende boeking
-        - categorie: D1
-          regel: 57
-          type: other
-          voorbeeld: de onuitwisbaarheid van de boekingen niet reed wordt gewaarborgd
-      rationale: Geen U+2010-dashes, geen HTML-entities, geen duplicate headings. Kleine typefouten ('verichten' r55, 'reed' r57) zijn aanwezig in de brontekst en niet ETL-geïnduceerd; ze zijn consistent met de historische taal van het advies (1981). Inhoud volledig, geen afgekapte zinnen, geen structuurproblemen.
+      - categorie: D1
+        regel: 55
+        type: other
+        voorbeeld: en het verichten van een samenvattende boeking
+      - categorie: D1
+        regel: 57
+        type: other
+        voorbeeld: de onuitwisbaarheid van de boekingen niet reed wordt gewaarborgd
+      rationale: Geen U+2010-dashes, geen HTML-entities, geen duplicate headings.
+        Kleine typefouten ('verichten' r55, 'reed' r57) zijn aanwezig in de brontekst
+        en niet ETL-geïnduceerd; ze zijn consistent met de historische taal van het
+        advies (1981). Inhoud volledig, geen afgekapte zinnen, geen structuurproblemen.
       run_at: '2026-05-11T11:51:19Z'
       status: trusted
-    rationale: Geen U+2010-dashes, geen HTML-entities, geen duplicate headings. Kleine typefouten ('verichten' r55, 'reed' r57) zijn aanwezig in de brontekst en niet ETL-geïnduceerd; ze zijn consistent met de historische taal van het advies (1981). Inhoud volledig, geen afgekapte zinnen, geen structuurproblemen.
+    rationale: Geen U+2010-dashes, geen HTML-entities, geen duplicate headings. Kleine
+      typefouten ('verichten' r55, 'reed' r57) zijn aanwezig in de brontekst en niet
+      ETL-geïnduceerd; ze zijn consistent met de historische taal van het advies (1981).
+      Inhoud volledig, geen afgekapte zinnen, geen structuurproblemen.
     status: trusted
 themas:
-  - boeken
+- boeken
 ---
 
 # CBN-advies 4-3 - Over het centraal boek

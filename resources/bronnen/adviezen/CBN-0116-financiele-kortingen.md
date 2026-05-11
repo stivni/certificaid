@@ -2,44 +2,49 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/financiele-kortingen
 datum: 1979-05-01
 gerelateerde_adviezen:
-  - datum: '2022-08-29'
-    titel: Boekhoudkundige verwerking van interesten en andere bedragen verschuldigd wegens betalingsachterstand
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens
+- datum: '2022-08-29'
+  titel: Boekhoudkundige verwerking van interesten en andere bedragen verschuldigd
+    wegens betalingsachterstand
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens
 nummer: CBN-advies 116
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/financiele-kortingen
-      sha256: a267635240227b1356f102bc544cb9ce1610a55c29d3aa9413dd786800b7e24a
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/financiele-kortingen
+    sha256: a267635240227b1356f102bc544cb9ce1610a55c29d3aa9413dd786800b7e24a
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 2759
       file_size_chars: 2759
       flags: []
+      heading_count: 0
+      max_section_chars: 2759
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Advies van 2759 chars, vier inhoudelijke alinea's. Geen detecteerbare extractie-artefacten. Geen headings vereist (lopende tekst). Geen italic-markers, geen broken bullets, geen unicode-anomalieën. Inhoud volledig.
+      rationale: Advies van 2759 chars, vier inhoudelijke alinea's. Geen detecteerbare
+        extractie-artefacten. Geen headings vereist (lopende tekst). Geen italic-markers,
+        geen broken bullets, geen unicode-anomalieën. Inhoud volledig.
       run_at: '2026-05-11T11:57:45Z'
       status: trusted
-    rationale: Advies van 2759 chars, vier inhoudelijke alinea's. Geen detecteerbare extractie-artefacten. Geen headings vereist (lopende tekst). Geen italic-markers, geen broken bullets, geen unicode-anomalieën. Inhoud volledig.
+    rationale: Advies van 2759 chars, vier inhoudelijke alinea's. Geen detecteerbare
+      extractie-artefacten. Geen headings vereist (lopende tekst). Geen italic-markers,
+      geen broken bullets, geen unicode-anomalieën. Inhoud volledig.
     status: trusted
 themas:
-  - financiële korting
+- financiële korting
 ---
 
 # CBN-advies 116 - Financiële kortingen

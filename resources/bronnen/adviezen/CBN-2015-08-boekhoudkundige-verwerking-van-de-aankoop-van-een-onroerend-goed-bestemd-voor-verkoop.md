@@ -25,36 +25,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:42Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: de H1-titel is nu enkel '# Advies 30 september 2015' (regel 72) zonder het CBN-advies-nummer — de eerdere duplicate heading '# CBN-advies 2015/8...' is verdwenen (scraper-fix) maar de overblijvende H1 identificeert het document niet door zijn officiële CBN-nummer. B2: regel 114-116 heeft '## Voorbeeldboekingen' direct gevolgd door '## Boeking van...' waarbij de tweede ## conceptueel een subsectie is van de eerste (heading-hiërarchie niet consequent). Inhoud volledig."
+    rationale: "B3: de H1-titel is enkel '# Advies 30 september 2015' zonder het CBN-advies-nummer — het officiële nummer (2015/8) ontbreekt in de body. B2: regels 126–128 hebben '## Voorbeeldboekingen' direct gevolgd door '## Boeking van de aankoop...' waarbij de tweede ## conceptueel een subsectie is van de eerste (inconsistente heading-hiërarchie). Inhoud volledig."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
+      file_size_chars: 12533
+      flags: []
       heading_count: 7
       max_section_chars: 5928
-      file_size_chars: 12534
-      flags: []
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "B3: de H1-titel is nu enkel '# Advies 30 september 2015' (regel 72) zonder het CBN-advies-nummer — de eerdere duplicate heading '# CBN-advies 2015/8...' is verdwenen (scraper-fix) maar de overblijvende H1 identificeert het document niet door zijn officiële CBN-nummer. B2: regel 114-116 heeft '## Voorbeeldboekingen' direct gevolgd door '## Boeking van...' waarbij de tweede ## conceptueel een subsectie is van de eerste (heading-hiërarchie niet consequent). Inhoud volledig."
+      run_at: '2026-05-11T15:23:42Z'
+      rationale: "B3: de H1-titel is enkel '# Advies 30 september 2015' zonder het CBN-advies-nummer — het officiële nummer (2015/8) ontbreekt in de body. B2: regels 126–128 hebben '## Voorbeeldboekingen' direct gevolgd door '## Boeking van de aankoop...' waarbij de tweede ## conceptueel een subsectie is van de eerste (inconsistente heading-hiërarchie). Inhoud volledig."
       concrete_problemen:
-        - regel: 72
+        - regel: 84
           categorie: B3
           type: other
-          voorbeeld: '# Advies 30 september 2015 — H1 zonder CBN-advies-nummer (nummer enkel in frontmatter)'
-        - regel: 114
+          voorbeeld: '# Advies 30 september 2015 — H1 zonder CBN-advies-nummer (2015/8 ontbreekt in body)'
+        - regel: 126
           categorie: B2
           type: other
-          voorbeeld: '## Voorbeeldboekingen gevolgd direct door ## Boeking van de aankoop... (conceptuele subsectie als zelfde niveau)'
+          voorbeeld: '## Voorbeeldboekingen gevolgd direct door ## Boeking van de aankoop... (subsectie als zelfde ##-niveau)'
 themas:
   - bestellingen in uitvoering
   - bouwprojecten
@@ -107,7 +107,7 @@ De aldus bepaalde aanschaffingswaarde wordt vergeleken met de marktwaarde. Indie
 Elk bestanddeel van het vermogen wordt afzonderlijk gewaardeerd.[^15]
  Aangezien twee onroerende goederen nooit identieke technische of juridische kenmerken hebben, kan volgens de Commissie uitsluitend de methode van de individualisering worden toegepast en kan geen andere van de in artikel 43 KB W.Venn. vermelde waarderingsmethode worden toegepast. Een waardering van onroerende goederen bestemd voor verkoop op basis van de methode van de gewogen gemiddelde prijzen, volgens de methode “Fifo” (eerst in – eerst uit) of volgens de methode “Lifo” (laatst in – eerst uit) is aldus niet mogelijk voor onroerende goederen bestemd voor verkoop. Het gebruik van de methode van de individualisering verhindert niet dat voor de bepaling van de individuele aanschaffingswaarde van een actiefbestanddeel een methode wordt gehanteerd waarbij een gepaste verdeelsleutel wordt toegepast op een kost die op meerdere individuele bestanddelen betrekking heeft (bijvoorbeeld de kosten van een architect voor een project van 5 identieke woningen in een verkaveling kan in de aanschaffingswaarde van een individuele woning worden opgenomen ten belope van één vijfde van de totale ereloonnota). 
 
-## Voorbeeldboekingen[^16] 
+## Voorbeeldboekingen[^16]
 
 ## Boeking van de aankoop van het voor verkoop bestemd onroerend goed en de bijkomende kosten
 

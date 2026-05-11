@@ -12,27 +12,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 54 bevat '*Solidariteitsfonds *' en '*Financieringsfonds *' met spatie vóór de sluitende asterisk — malformed italic, klassiek ETL-patroon. Overige inhoud volledig en coherent; geen andere artefacten aangetroffen."
+    rationale: "D4: regel 54 bevat '*Solidariteitsfonds *' en '*Financieringsfonds *' met een spatie vóór de sluitende asterisk — malformed italic, klassiek ETL-conversie-artefact. Overige inhoud volledig en coherent; geen andere artefacten aangetroffen."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 0
-      max_section_chars: 1300
       file_size_chars: 1300
       flags: []
+      heading_count: 0
+      max_section_chars: 1300
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "D4: regel 54 bevat '*Solidariteitsfonds *' en '*Financieringsfonds *' met spatie vóór de sluitende asterisk — malformed italic, klassiek ETL-patroon. Overige inhoud volledig en coherent; geen andere artefacten aangetroffen."
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: "D4: regel 54 bevat '*Solidariteitsfonds *' en '*Financieringsfonds *' met een spatie vóór de sluitende asterisk — malformed italic, klassiek ETL-conversie-artefact. Overige inhoud volledig en coherent; geen andere artefacten aangetroffen."
       concrete_problemen:
         - regel: 54
           categorie: D4

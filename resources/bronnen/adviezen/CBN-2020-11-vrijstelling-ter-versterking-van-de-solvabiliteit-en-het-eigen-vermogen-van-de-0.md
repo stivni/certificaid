@@ -25,37 +25,41 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: Systematisch malformed italic op regels 90–91: '*enerzijds*' en '*anderzijds*' hebben een spatie vóór het sluit-asterisk, en '*flat'*' combineert een smart-quote binnen een italic span. B5: Regel 109–110 bevat een sectie-omschrijving ('In het boekjaar volgend op datgene...') als plain-text paragraaf zonder heading-prefix terwijl het inhoudelijk een gelijkwaardig subsectieniveau is aan de ### heading op regel 97."
+    rationale: "D4: Systematisch malformed italic op regels 102-103: `*enerzijds*` en `*anderzijds *` (spatie vóór sluit-asterisk), en `'*flat'*'` (smart-quote binnen italic span). B5: Regel 121-122 bevat `In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd` als plain-text paragraaf zonder heading-prefix, gevolgd door een directe herhaling van dezelfde zin als inleiding op de volgende paragraaf — structuurniveau ontbreekt."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
+      file_size_chars: 15122
+      flags: []
       heading_count: 6
       max_section_chars: 5775
-      file_size_chars: 15126
-      flags: []
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "D4: Systematisch malformed italic op regels 90–91: '*enerzijds*' en '*anderzijds*' hebben een spatie vóór het sluit-asterisk, en '*flat'*' combineert een smart-quote binnen een italic span. B5: Regel 109–110 bevat een sectie-omschrijving ('In het boekjaar volgend op datgene...') als plain-text paragraaf zonder heading-prefix terwijl het inhoudelijk een gelijkwaardig subsectieniveau is aan de ### heading op regel 97."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "D4: Systematisch malformed italic op regels 102-103: `*enerzijds*` en `*anderzijds *` (spatie vóór sluit-asterisk), en `'*flat'*'` (smart-quote binnen italic span). B5: Regel 121-122 bevat `In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd` als plain-text paragraaf zonder heading-prefix, gevolgd door een directe herhaling van dezelfde zin als inleiding op de volgende paragraaf — structuurniveau ontbreekt."
       concrete_problemen:
-        - regel: 90
+        - regel: 102
           categorie: D4
           type: other
-          voorbeeld: "Indien *enerzijds* het tarief... (sluit-* correct) maar ook: '*flat'*' (smart-quote binnen italic)"
-        - regel: 91
+          voorbeeld: Indien *enerzijds* het tarief...
+        - regel: 103
           categorie: D4
           type: other
-          voorbeeld: Indien *anderzijds *het effectief gerealiseerde verlies — spatie voor sluit-asterisk
-        - regel: 109
+          voorbeeld: Indien *anderzijds *het effectief gerealiseerde verlies
+        - regel: 103
+          categorie: D4
+          type: other
+          voorbeeld: onderworpen is aan het '*flat'* tarief
+        - regel: 121
           categorie: B5
           type: other
           voorbeeld: In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd
@@ -105,7 +109,7 @@ Het ingenomen standpunt impliceert dat jaarrekeningen over het boekjaar voorafga
 In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd
 In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd zal dan de uiteindelijk verschuldigde vennootschapsbelasting dienen geboekt te worden waarbij de bespaarde belasting zal geboekt worden al dan niet samen met de kost van de hoger uiteengezette tariefsprong en de eventueel verschuldigde afzonderlijke aanslag[^13].
 
-### *Voorbeeld 1*
+### Voorbeeld 1
 
 Een kleine vennootschap met een boekjaar gelijk aan het kalenderjaar, belast aan het gemene tarief[^14], vrijgesteld van het verrichten van voorafbetalingen[^15] en met voor boekjaar 2019 een belastbare grondslag van 2 mln. EUR, raamt voor het boekjaar 2020 een verlies van 1,2 mln. EUR en brengt dit bedrag ook in mindering van de belastbare gereserveerde winst van aanslagjaar 2020. Het effectief gerealiseerde verlies in boekjaar 2020, aanslagjaar 2021 bedraagt 1 mln. EUR.
 
@@ -135,7 +139,7 @@ Boekjaar 2020
 | aan | 4500 | Geraamde Belgische winstbelastingen | | 111.676,64 |
 | | 7711 | Regularisering geraamde Belgische winstbelastingen | 243.283,36 | |
 
-### *Voorbeeld 2*
+### Voorbeeld 2
 
 Een kleine vennootschap met een boekjaar gelijk aan het kalenderjaar, belast aan het gemene tarief[^20], vrijgesteld van het verrichten van voorafbetalingen[^21] en met voor boekjaar 2019 een belastbare grondslag van 2 mln. EUR, raamt voor het boekjaar 2020 een verlies van 0,8 mln. EUR en brengt dit bedrag ook in mindering van de belastbare gereserveerde winst van aanslagjaar 2020. Het effectief gerealiseerde verlies in boekjaar 2020, aanslagjaar 2021 bedraagt 1 mln. EUR.
 

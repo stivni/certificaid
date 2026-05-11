@@ -16,37 +16,37 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: `de *groepsbijdrage*regeling` op regel 64 — ontbrekende spatie tussen italic close en aangrenzend woord. B2: sub-headings `## Bij de eindejaarsverrichtingen` (regels 124, 131, 140, 144) staan op `##`-niveau terwijl hun ouder-heading `### In hoofde van vennootschap B` op `###`-niveau staat — hiërarchie-sprong omhoog. Inhoud en tabellen zijn verder volledig correct.'
+    rationale: 'Bevestiging van bestaand verdict. D4: regel 76 heeft `*groepsbijdrage*regeling` — ontbrekende spatie tussen italic-close en aangrenzend woord. B2: `## Bij de eindejaarsverrichtingen op 31/12/N` (regels 136, 152) en `## Bij het sluiten van de groepsbijdrage-overeenkomst` (regels 143, 156) staan op `##`-niveau terwijl hun ouder-heading `### In hoofde van vennootschap B/A` op `###`-niveau staat — hiërarchie-sprong omhoog.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 12
-      max_section_chars: 4497
       file_size_chars: 13873
       flags: []
+      heading_count: 12
+      max_section_chars: 4497
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: 'D4: `de *groepsbijdrage*regeling` op regel 64 — ontbrekende spatie tussen italic close en aangrenzend woord. B2: sub-headings `## Bij de eindejaarsverrichtingen` (regels 124, 131, 140, 144) staan op `##`-niveau terwijl hun ouder-heading `### In hoofde van vennootschap B` op `###`-niveau staat — hiërarchie-sprong omhoog. Inhoud en tabellen zijn verder volledig correct.'
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'Bevestiging van bestaand verdict. D4: regel 76 heeft `*groepsbijdrage*regeling` — ontbrekende spatie tussen italic-close en aangrenzend woord. B2: `## Bij de eindejaarsverrichtingen op 31/12/N` (regels 136, 152) en `## Bij het sluiten van de groepsbijdrage-overeenkomst` (regels 143, 156) staan op `##`-niveau terwijl hun ouder-heading `### In hoofde van vennootschap B/A` op `###`-niveau staat — hiërarchie-sprong omhoog.'
       concrete_problemen:
-        - regel: 64
+        - regel: 76
           categorie: D4
           type: other
           voorbeeld: de *groepsbijdrage*regeling[^2] in de statutaire jaarrekening
-        - regel: 124
+        - regel: 136
           categorie: B2
           type: other
-          voorbeeld: '## Bij de eindejaarsverrichtingen op 31/12/N (ouder: ### In hoofde van vennootschap B)'
-        - regel: 131
+          voorbeeld: '## Bij de eindejaarsverrichtingen op 31/12/N (kind van ### In hoofde van vennootschap B)'
+        - regel: 143
           categorie: B2
           type: other
           voorbeeld: '## Bij het sluiten van de groepsbijdrage-overeenkomst (in boekjaar N+1)'

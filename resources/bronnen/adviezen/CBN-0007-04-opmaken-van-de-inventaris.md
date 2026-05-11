@@ -2,55 +2,56 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/opmaken-van-de-inventaris
 datum: 1981-12-01
 gerelateerde_adviezen:
-  - datum: '2010-07-14'
-    titel: Duur van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
-  - datum: '1997-02-01'
-    titel: Beginselen van een regelmatige boekhouding
-    url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
-  - datum: '1996-11-01'
-    titel: Boeking en waardering van voorraden
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
-  - datum: '1977-12-01'
-    titel: Duur van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
+- datum: '2010-07-14'
+  titel: Duur van het boekjaar
+  url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
+- datum: '1997-02-01'
+  titel: Beginselen van een regelmatige boekhouding
+  url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
+- datum: '1996-11-01'
+  titel: Boeking en waardering van voorraden
+  url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
+- datum: '1977-12-01'
+  titel: Duur van het boekjaar
+  url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
 nummer: CBN-advies 7/4
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/opmaken-van-de-inventaris
-      sha256: d6557b9b2f689f105306b8478a04372b0df6df19ebe1e71eddae39f4e8720efc
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/opmaken-van-de-inventaris
+    sha256: d6557b9b2f689f105306b8478a04372b0df6df19ebe1e71eddae39f4e8720efc
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 6603
       file_size_chars: 6603
       flags: []
+      heading_count: 0
+      max_section_chars: 6603
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met drie categorieën ondernemingen, timing fysieke opname vs. balansdatum helder behandeld.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met drie categorieën ondernemingen,
+        timing fysieke opname vs. balansdatum helder behandeld.'
       run_at: '2026-05-08T19:02:29Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - inventaris
-  - jaarafsluiting
-  - opmaak van de inventaris
+- inventaris
+- jaarafsluiting
+- opmaak van de inventaris
 ---
 
 # CBN-advies 7-4 - Opmaken van de inventaris

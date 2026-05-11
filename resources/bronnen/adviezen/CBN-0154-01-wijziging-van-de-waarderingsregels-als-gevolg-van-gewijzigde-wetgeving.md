@@ -12,27 +12,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: regel 52 bevat de volledige paginatitel als plain-text alinea ('CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking') direct na de H1-heading op regel 50 — een duplicate page-title-heading artefact. Layer1 heading_count=0 voor subheadings; de volledige inhoud zit in één niet-gesegmenteerd blok, wat retrieval benadeelt maar geen artefact is."
+    rationale: "B3: regel 52 bevat de volledige paginatitel 'CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking' als plain-text-alinea direct na de identieke H1-heading op r.50 — een duplicate page-title artefact. Inhoud verder volledig; drie voetnoten correct verbonden."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 0
-      max_section_chars: 4639
       file_size_chars: 4639
       flags: []
+      heading_count: 0
+      max_section_chars: 4639
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "B3: regel 52 bevat de volledige paginatitel als plain-text alinea ('CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking') direct na de H1-heading op regel 50 — een duplicate page-title-heading artefact. Layer1 heading_count=0 voor subheadings; de volledige inhoud zit in één niet-gesegmenteerd blok, wat retrieval benadeelt maar geen artefact is."
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: "B3: regel 52 bevat de volledige paginatitel 'CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking' als plain-text-alinea direct na de identieke H1-heading op r.50 — een duplicate page-title artefact. Inhoud verder volledig; drie voetnoten correct verbonden."
       concrete_problemen:
         - regel: 52
           categorie: B3

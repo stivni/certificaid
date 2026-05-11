@@ -22,44 +22,44 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B1/A9: H1-titel (r70) heeft 'instrumenten1' — superscript-voetnootnummer niet geparsed als [^1], plus ontbrekende spatie in '2010/12 -De' (koppelteken zonder spatiëring). B2/D4: alle ### subkoppen gebruiken '### ***tekst***' of '### ***tekst** *' (bold-italic wrapper binnenin heading) — dit is een PDF-artefact van dikgedrukte koppen; r74 heeft trailing spatie voor de closing *** ('** *') wat een malformed marker is. Inhoud is volledig en inhoudelijk goed."
+    rationale: "A9: H1-titel (r92) heeft 'instrumenten1' — superscript-voetnootnummer niet geparsed als [^1], plus ontbrekende spatie in '2010/12 -De' (koppelteken zonder spatiëring). D4: r96 bevat '*Het ontbreken van een conceptueel kader...*' als italic-blok direct na ## Inleiding heading zonder newline-separator (ETL-artefact: de cursieve sectietitel staat als plain-text italic in de body). Alle ### subkoppen gebruiken '*tekst*' italic wrapper (r113, r121, r135, r146) — dit is consistente PDF-artefact-styling die een mens nooit zo zou schrijven."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 17383
+      flags: []
       heading_count: 6
       max_section_chars: 8987
-      file_size_chars: 17405
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "B1/A9: H1-titel (r70) heeft 'instrumenten1' — superscript-voetnootnummer niet geparsed als [^1], plus ontbrekende spatie in '2010/12 -De' (koppelteken zonder spatiëring). B2/D4: alle ### subkoppen gebruiken '### ***tekst***' of '### ***tekst** *' (bold-italic wrapper binnenin heading) — dit is een PDF-artefact van dikgedrukte koppen; r74 heeft trailing spatie voor de closing *** ('** *') wat een malformed marker is. Inhoud is volledig en inhoudelijk goed."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "A9: H1-titel (r92) heeft 'instrumenten1' — superscript-voetnootnummer niet geparsed als [^1], plus ontbrekende spatie in '2010/12 -De' (koppelteken zonder spatiëring). D4: r96 bevat '*Het ontbreken van een conceptueel kader...*' als italic-blok direct na ## Inleiding heading zonder newline-separator (ETL-artefact: de cursieve sectietitel staat als plain-text italic in de body). Alle ### subkoppen gebruiken '*tekst*' italic wrapper (r113, r121, r135, r146) — dit is consistente PDF-artefact-styling die een mens nooit zo zou schrijven."
       concrete_problemen:
-        - regel: 70
+        - regel: 92
           categorie: A9
           type: other
           voorbeeld: CBN-advies 2010/12 -De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten1
-        - regel: 74
+        - regel: 96
           categorie: D4
           type: other
-          voorbeeld: '***Het ontbreken van een conceptueel kader inzake de boekhoudkundige verwerking van afgeleide financiële instrumenten** *'
-        - regel: 91
+          voorbeeld: '*Het ontbreken van een conceptueel kader inzake de boekhoudkundige verwerking van afgeleide financiële instrumenten*'
+        - regel: 113
           categorie: B2
           type: other
-          voorbeeld: '### ***Doelstelling van het advies***  (bold-italic wrapper in heading is PDF-artefact)'
-        - regel: 113
+          voorbeeld: '### *Doelstelling van het advies* (italic wrapper in heading is PDF-artefact)'
+        - regel: 135
           categorie: D4
           type: other
-          voorbeeld: '***Voorrang van het boekhoudkundig realisatiebeginsel op het overeenstemmingsprincipe** *'
+          voorbeeld: '*Voorrang van het boekhoudkundig realisatiebeginsel op het overeenstemmingsprincipe*'
 themas:
   - afgeleide financiële instrumenten
   - boekhoudprincipes
@@ -75,7 +75,7 @@ themas:
 
 ## Inleiding
 
-***Het ontbreken van een conceptueel kader inzake de boekhoudkundige verwerking van afgeleide financiële instrumenten** *
+*Het ontbreken van een conceptueel kader inzake de boekhoudkundige verwerking van afgeleide financiële instrumenten*
 Het dynamisch karakter van de internationale financiële markten heeft tot gevolg dat vandaag de dag niet enkel gebruik wordt gemaakt van de klassieke primaire financiële instrumenten zoals aandelen en obligaties, maar ook van verschillende soorten afgeleide financiële instrumenten, zoals gestandaardiseerde en niet-gestandaardiseerde termijncontracten (futures), opties en swaps. 
 
 De tijd dat deze producten enkel door professionals werden gebruikt, ligt ver achter ons. Hun toepassing heeft zich geleidelijk aan verspreid over de hele economische sector om zo beter te kunnen inspelen op de meest uiteenlopende dekkings- of investeringsbehoeften. Tegelijkertijd dient er gewezen te worden op de vaststelling dat het Belgische boekhoudrecht, met uitzondering van de referentiesystemen van toepassing op de financiële sector (bankwezen/verzekeringen), zich niet heeft aangepast aan deze evoluties.
@@ -92,7 +92,7 @@ Het Belgische boekhoudrecht voorziet echter geen hiërarchische rangschikking va
 
 Bijgevolg heeft de Commissie beslist, teneinde de situatie te verduidelijken, om rond dit thema een werkgroep op te richten onder het voorzitterschap van de heer Bruno Colmant, lid van de Commissie, en samengesteld uit deskundigen uit het bankwezen, revisoren en deskundigen op vlak van financieel en fiscaal recht.
 
-### ***Doelstelling van het advies***
+### *Doelstelling van het advies*
 
 Dit advies heeft tot doel om, door verwijzing naar bepaalde voorafgaande adviezen, de meest relevante boekhoudprincipes te ordenen, waaruit dan de boekhoudkundige verwerking van afgeleide financiële instrumenten kan worden afgeleid, zonder afbreuk te doen aan de fiscale verwerking die specifiek van toepassing kan zijn op deze financiële instrumenten.[^8] 
 
@@ -100,7 +100,7 @@ De Commissie is van plan om dit advies later aan te vullen met concrete voorbeel
 
 Het spreekt voor zich dat vroegere adviezen met betrekking tot de boekhoudkundige verwerking van bepaalde afgeleide financiële instrumenten in een later stadium aangepast zullen worden aan de algemene principes opgenomen in dit advies.
 
-### ***Toepassingsgebied***
+### *Toepassingsgebied*
 
 Het Belgisch boekhoudrecht voorziet niet in een conceptuele definitie van afgeleide financiële instrumenten. Artikel 97, C K.B. W.Venn. bepaalt hoogstens dat de grondstoffencontracten die ieder van de contractsluitende partijen het recht geven tot afwikkeling in contanten of enig ander financieel instrument, als afgeleide financiële instrumenten worden beschouwd, behalve wanneer (a) de contracten gesloten werden en duurzaam dienen voor de verwachte inkoop-, verkoop-, of gebruiksbehoeften van de vennootschap, (b) zij bij de totstandkoming voor dat doeleinde werden bestemd, en 
 
@@ -114,7 +114,7 @@ Vallen echter niet binnen het toepassingsveld van dit advies: de instrumenten ui
 
 ## Hiërarchische rangschikking van de waarderingsprincipes
 
-***Voorrang van het boekhoudkundig realisatiebeginsel op het overeenstemmingsprincipe** *
+*Voorrang van het boekhoudkundig realisatiebeginsel op het overeenstemmingsprincipe*
 De gelijktijdige toepassing van het voorzichtigheidsbeginsel (historische kostprijs en realisatie) en het overeenstemmingsprincipe kan voor zekere spanningen zorgen, voornamelijk indien de toepassing van deze beginselen de boeking van een opbrengst betreft. 
 
 In feite gaat de toepassing van het realisatiebeginsel in tegen een simultane en ongedifferentieerde vergelijking van kosten en opbrengsten gegenereerd door een afgeleid financieel instrument, vanaf het ogenblik dat de boeking van de opbrengsten vereist dat deze zeker zijn, ook al volstaat het dat de kosten slechts waarschijnlijk zijn.
@@ -125,7 +125,7 @@ Naar de mening van de Commissie is de toepassing van het overeenstemmingsprincip
 
 In de zoektocht naar een boekhoudkundige verwerking die toepasbaar is op afgeleide financiële instrumenten zal, bijgevolg, de toepassing van het boekhoudkundig realisatiebeginsel algemeen genomen primeren op de toepassing van het boekhoudkundig principe van overeenstemming. 
 
-### ***Het bijzonder geval van effectieve dekking (of gesloten positie)***
+### *Het bijzonder geval van effectieve dekking (of gesloten positie)*
 
 De Commissie is van mening dat de aard van de dekkingsverrichting, die de neutralisatie beoogt van de prijsschommelingen en/of de financiële stromen van het gedekte financiële instrument, een afwijkende boekhoudkundige verwerking rechtvaardigt voor het effectieve gedeelte van deze dekking.
 

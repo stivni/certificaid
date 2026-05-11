@@ -12,27 +12,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: r72-79 bevat een plain-text genummerde inhoudsopgave in de body (zelfde patroon als 2010/15) die niet verwijderd werd. D4: r96 'post I.D. *Lidgeld, schenkingen, legaten en subsidies[^6]* ;' — de voetnootmarkering [^6] staat binnen het italic-blok waardoor de closing asterisk na de puntkomma komt, wat als malformed kan renderen. R119 '(1)** oorzaak:**' — bold-marker staat ná de haakjes in plaats van eromheen, wat een gebroken bold-opmaakartefact is. Inhoud en 8 voorbeelden zijn overigens volledig."
+    rationale: "A3 bevestigd: r72-79 plain-text genummerde inhoudsopgave in body (zelfde patroon als 2010/15). D4 bevestigd: r119 '(1)** oorzaak:**' heeft bold-marker ná de haakjes i.p.v. eromheen (gebroken bold-opmaakartefact). R96 '*Lidgeld, schenkingen, legaten en subsidies[^6]*' heeft voetnootmarkering binnen het italic-blok waardoor closing asterisk na de puntkomma staat. Inhoud en 8 voorbeelden met pipe-tabellen overigens volledig."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 14
-      max_section_chars: 11054
-      file_size_chars: 27530
+      file_size_chars: 27033
       flags: []
+      heading_count: 14
+      max_section_chars: 10558
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "A3: r72-79 bevat een plain-text genummerde inhoudsopgave in de body (zelfde patroon als 2010/15) die niet verwijderd werd. D4: r96 'post I.D. *Lidgeld, schenkingen, legaten en subsidies[^6]* ;' — de voetnootmarkering [^6] staat binnen het italic-blok waardoor de closing asterisk na de puntkomma komt, wat als malformed kan renderen. R119 '(1)** oorzaak:**' — bold-marker staat ná de haakjes in plaats van eromheen, wat een gebroken bold-opmaakartefact is. Inhoud en 8 voorbeelden zijn overigens volledig."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "A3 bevestigd: r72-79 plain-text genummerde inhoudsopgave in body (zelfde patroon als 2010/15). D4 bevestigd: r119 '(1)** oorzaak:**' heeft bold-marker ná de haakjes i.p.v. eromheen (gebroken bold-opmaakartefact). R96 '*Lidgeld, schenkingen, legaten en subsidies[^6]*' heeft voetnootmarkering binnen het italic-blok waardoor closing asterisk na de puntkomma staat. Inhoud en 8 voorbeelden met pipe-tabellen overigens volledig."
       concrete_problemen:
         - regel: 72
           categorie: A3
@@ -64,15 +64,6 @@ themas:
 ---
 
 # CBN-advies 2010/16 - Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
-
-1. Basisbeginselen 
-2. Soorten subsidies 
-  1. Subsidies, schenkingen en legaten in contanten bestemd voor de duurzame ondersteuning van de activiteit van de vereniging of stichting 
-  2. Subsidies in contanten verkregen voor investeringen in vaste activa 
-  3. Subsidies, schenkingen en legaten in contanten met het oog op de ondersteuning van de lopende verrichtingen van de vereniging of stichting 
-  4. Interestsubsidies 
-
-3. Te verschaffen informatie in de toelichting van de jaarrekening 
 
 ## Inleiding
 
@@ -167,7 +158,7 @@ Een vereniging actief in de jeugdzorg wenst een nieuwe onthaalmogelijkheid te on
 | | 416 | Diverse vorderingen : te ontvangen subsidies | 500.000 | |
 | aan | 1011 | Permanente financiering ontvangen in contanten | | 500.000 |
 
-### Subsidies in contanten verkregen voor investeringen in vaste activa 
+### Subsidies in contanten verkregen voor investeringen in vaste activa
 
 Artikel 19, § 2, 3° van het KB van 19 december 2003 voorziet in een aanpassing van de omschrijving van de post *Kapitaalsubsidies* zoals opgenomen in artikel 95, § 2 KB W.Venn. Het aangepast artikel 95 KB W.Venn., zoals van toepassing op verenigingen en stichtingen, luidt als volgt: 
 

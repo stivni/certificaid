@@ -25,44 +25,28 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: De vier voorbeeldsecties ('### *Voorbeeld 1*' t/m '### *Voorbeeld 4*') staan op ### niveau terwijl ze zijn genest binnen een ##### of #### sectie — de hiërarchie springt van ##### terug naar ###. Een mens zou deze als ###### of als vetgedrukte alinea markeren. Verder is de body inhoudelijk volledig met correcte frontmatter en voetnoten."
+    rationale: Geen extractie-artefacten of structuurproblemen aangetroffen. Heading-hiërarchie (H1 → H2 → H3 → H4 → H5) correct en consistent. Vier concrete voorbeelden aanwezig. Sectie voor VZW's/IVZW's/stichtingen volledig. Geen TOC-resten, geen OCR-verwarring, geen pseudo-tabellen, geen afgekapte zinnen. Voetnoten 1-22 intact.
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 15
-      max_section_chars: 8590
-      file_size_chars: 15685
+      file_size_chars: 15670
       flags: []
+      heading_count: 15
+      max_section_chars: 6986
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "B2: De vier voorbeeldsecties ('### *Voorbeeld 1*' t/m '### *Voorbeeld 4*') staan op ### niveau terwijl ze zijn genest binnen een ##### of #### sectie — de hiërarchie springt van ##### terug naar ###. Een mens zou deze als ###### of als vetgedrukte alinea markeren. Verder is de body inhoudelijk volledig met correcte frontmatter en voetnoten."
-      concrete_problemen:
-        - regel: 108
-          categorie: B2
-          type: other
-          voorbeeld: '### *Voorbeeld 1* (genest binnen ##### sectie — hiërarchiesprong van ##### naar ###)'
-        - regel: 118
-          categorie: B2
-          type: other
-          voorbeeld: '### *Voorbeeld 2* (idem)'
-        - regel: 129
-          categorie: B2
-          type: other
-          voorbeeld: '### *Voorbeeld 3* (idem)'
-        - regel: 137
-          categorie: B2
-          type: other
-          voorbeeld: '### *Voorbeeld 4* (idem)'
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: Geen extractie-artefacten of structuurproblemen aangetroffen. Heading-hiërarchie (H1 → H2 → H3 → H4 → H5) correct en consistent. Vier concrete voorbeelden aanwezig. Sectie voor VZW's/IVZW's/stichtingen volledig. Geen TOC-resten, geen OCR-verwarring, geen pseudo-tabellen, geen afgekapte zinnen. Voetnoten 1-22 intact.
+      concrete_problemen: []
 themas:
   - jaarrekening
   - gegevens bestuurder
@@ -93,7 +77,7 @@ Deze definitie kan verder verduidelijkt worden. Na de vaststelling van de jaarre
 
 In onderhavig advies maakt de Commissie een onderscheid tussen de verschillende periodes waarbinnen de samenstelling van het bestuursorgaan kan worden gewijzigd. De Commissie behandelt deze kwestie op dezelfde manier voor de commissaris. 
 
-### Gegevens van de leden van het bestuursorgaan 
+### Gegevens van de leden van het bestuursorgaan
 
 De Commissie is van oordeel dat de bestuursvorm (klassiek (monistisch)[^8] of duaal[^9]) bepaalt welke bestuurders van vennootschappen in de jaarrekening moeten worden vermeld.
 
@@ -105,17 +89,17 @@ Volgens de definitie van ‘bestuurders in functie’, moeten de bestuurders die
 
 Sedert een aantal jaren is het een courante praktijk geworden om de gegevens van ontslagnemende bestuurders op te nemen in de jaarrekening (met vermelding van de aanvangs- en einddatum van hun mandaat), ook al droegen zij niet bij aan de vaststelling van de jaarrekening. Deze praktijk vergemakkelijkt het bepalen van hun aansprakelijkheid voor de fouten begaan in de uitoefening van hun opdracht. Maar dit is geen wettelijke verplichting[^10].
 
-### *Voorbeeld 1* 
+### Voorbeeld 1
 
 De heer A is bestuurder van een vennootschap. Deze bestuurder heeft tijdens boekjaar dat samenvalt met het kalenderjaar 2020 ontslag genomen (op 20 december 2020). Het boekjaar wordt afgesloten op 31 december 2020. Op het moment van de vaststelling van de jaarrekening (25 januari 2021) is deze bestuurder niet meer in functie en moet hij daarom niet worden vermeld aangezien hij niet de auteur is van de jaarrekening van de vennootschap. 
 
-##### Wijziging van de samenstelling van het bestuursorgaan tussen de datum van afsluiting van het boekjaar en vóór de datum van de vaststelling van de jaarrekening
+#### Wijziging van de samenstelling van het bestuursorgaan tussen de datum van afsluiting van het boekjaar en vóór de datum van de vaststelling van de jaarrekening
 
 Een bestuurder die benoemd is tussen de afsluiting van het boekjaar en vóór de datum van de vaststelling van de jaarrekening, moet worden vermeld in de jaarrekening. Deze is immers bestuurder[^11] op de datum waarop de jaarrekening wordt vastgesteld en ter goedkeuring wordt voorgelegd aan de algemene vergadering.
 
 De Commissie is van oordeel dat de bestuurders die in functie zijn op het moment van de vaststelling van de jaarrekening moeten worden opgenomen in de jaarrekening.
 
-### *Voorbeeld 2* 
+### Voorbeeld 2
 
 Mevrouw X werd op 5 januari 2020 benoemd tot bestuurder. Het boekjaar werd afgesloten op 31 december 2019. De jaarrekening werd door het bestuursorgaan vastgesteld op 25 januari 2020. Mevrouw X dient vermeld te worden in de jaarrekening aangezien ze in functie was op het moment van de vaststelling van de jaarrekening.
 
@@ -126,15 +110,15 @@ Na de vaststelling van de jaarrekening overleden bestuurders die evenwel nog in 
 
 Overleden bestuurders of bestuurders die reeds ontslag namen vóór de vaststelling van de jaarrekening (en die dus niet hebben deelgenomen aan de goedkeuring van de jaarrekening) moeten echter niet in de jaarrekening worden vermeld. Zij zijn immers niet degene die de jaarrekening van de vennootschap hebben opgemaakt en zijn bijgevolg ook niet aansprakelijk voor de jaarrekening die aan de algemene vergadering ter goedkeuring werd voorgelegd.
 
-### *Voorbeeld 3* 
+### Voorbeeld 3
 
 De heer Y nam op 12 april 2020 ontslag als bestuurder. De jaarrekening werd vastgesteld op 20 mei 2020. De heer Y moet niet in de jaarrekening worden vermeld aangezien hij niet heeft bijgedragen aan de vaststelling van de jaarrekening. 
 
-##### Wijziging van de samenstelling van het bestuursorgaan na de vaststelling van de jaarrekening
+#### Wijziging van de samenstelling van het bestuursorgaan na de vaststelling van de jaarrekening
 
 De bestuurders die door de algemene vergadering nieuw aangesteld zijn na de vaststelling van de jaarrekening, moeten niet worden vermeld in de jaarrekening[^13].
 
-### *Voorbeeld 4* 
+### Voorbeeld 4
 
 Mevrouw Z werd op 2 juni 2020 als bestuurder aangesteld. De jaarrekening werd vastgesteld op 20 mei 2020. Mevrouw Z moet bijgevolg niet worden vermeld in de jaarrekening. 
 

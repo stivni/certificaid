@@ -2,49 +2,55 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
 datum: 1988-06-01
 gerelateerde_adviezen:
-  - datum: '1977-08-01'
-    titel: Omzet - Tussenpersonen
-    url: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
+- datum: '1977-08-01'
+  titel: Omzet - Tussenpersonen
+  url: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
 nummer: CBN-advies 103/2
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
-      sha256: 0fcedc7f243f950032bc4e7d023cbbc343cbbdbd46b67fc118a0782b048bf7c0
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
+    sha256: 0fcedc7f243f950032bc4e7d023cbbc343cbbdbd46b67fc118a0782b048bf7c0
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bugs B3 (duplicate heading) en D4 (gebroken italic '*Bulletin *') zijn beide opgelost: body bevat één heading op regel 58 en '*Bulletin*' is correct gesloten op regel 60. Inhoud is volledig met voetnoten en antwoord van de Minister. Ziet eruit als mens-geschreven."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 3952
       file_size_chars: 3952
       flags: []
+      heading_count: 0
+      max_section_chars: 3952
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "Bugs B3 (duplicate heading) en D4 (gebroken italic '*Bulletin *') zijn beide opgelost: body bevat één heading op regel 58 en '*Bulletin*' is correct gesloten op regel 60. Inhoud is volledig met voetnoten en antwoord van de Minister. Ziet eruit als mens-geschreven."
       concrete_problemen: []
+      rationale: 'Bugs B3 (duplicate heading) en D4 (gebroken italic ''*Bulletin *'')
+        zijn beide opgelost: body bevat één heading op regel 58 en ''*Bulletin*''
+        is correct gesloten op regel 60. Inhoud is volledig met voetnoten en antwoord
+        van de Minister. Ziet eruit als mens-geschreven.'
+      run_at: '2026-05-11T13:16:02Z'
+      status: trusted
+    rationale: 'Bugs B3 (duplicate heading) en D4 (gebroken italic ''*Bulletin *'')
+      zijn beide opgelost: body bevat één heading op regel 58 en ''*Bulletin*'' is
+      correct gesloten op regel 60. Inhoud is volledig met voetnoten en antwoord van
+      de Minister. Ziet eruit als mens-geschreven.'
+    status: trusted
 themas:
-  - commissionair
-  - expediteur
-  - makelaar
-  - omzet
-  - mandataris
-  - tussenpersoon
+- commissionair
+- expediteur
+- makelaar
+- omzet
+- mandataris
+- tussenpersoon
 ---
 
 # CBN advies 103/2 - Omzet van expediteurs

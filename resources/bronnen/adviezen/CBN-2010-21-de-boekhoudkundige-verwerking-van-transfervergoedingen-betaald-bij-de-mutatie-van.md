@@ -2,65 +2,60 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-transfervergoedingen-betaald-bij-de-mutatie-van
 datum: 2010-11-10
 gerelateerde_adviezen:
-  - datum: '2025-07-14'
-    titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
-  - datum: '2018-05-30'
-    titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-  - datum: '2018-03-21'
-    titel: Aftrek voor innovatie-inkomsten
-    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-  - datum: '2016-12-14'
-    titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
-    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
+- datum: '2025-07-14'
+  titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
+- datum: '2018-05-30'
+  titel: Tax shelter voor podiumkunsten
+  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+- datum: '2018-03-21'
+  titel: Aftrek voor innovatie-inkomsten
+  url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+- datum: '2016-12-14'
+  titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling
+    - verduidelijking'
+  url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2010/21
 provenance:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-transfervergoedingen-betaald-bij-de-mutatie-van
-      sha256: d5c4088c75aa9d7cfeaf1bb264a52c517c6968c3cdceecdaaf4bd8e7de8e9a69
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-transfervergoedingen-betaald-bij-de-mutatie-van
+    sha256: d5c4088c75aa9d7cfeaf1bb264a52c517c6968c3cdceecdaaf4bd8e7de8e9a69
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 6
-      max_section_chars: 7743
-      file_size_chars: 18658
+      file_size_chars: 18259
       flags: []
+      heading_count: 6
+      max_section_chars: 7344
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale:
-      run_at:
+      rationale: null
+      run_at: null
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
     status: trusted
 themas:
-  - immateriële vaste activa
-  - transfervergoeding
+- immateriële vaste activa
+- transfervergoeding
 ---
 
 # CBN-advies 2010/21 - De boekhoudkundige verwerking van transfervergoedingen betaald bij de mutatie van voetbalspelers (niet-amateurs en profspelers)
-
-CBN-advies 2010/21 - De boekhoudkundige verwerking van transfervergoedingen betaald bij de mutatie van voetbalspelers (niet-amateurs en profspelers) 
-
-1. Belgische wetgeving 
-2. De internationale financiële rapporteringsstandaarden IFRS/IAS 
-3. Boekhoudkundige verwerking van de betaalde transfervergoedingen 
-  1. Transfers met een definitief karakter 
-  2. Transfers met een tijdelijke karakter 
 
 ## Inleiding
 

@@ -12,28 +12,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-11T13:23:03Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: '5 headings correct aanwezig (##, ###). Structuur volledig: Autonoom uitgegeven warrants → kosteloos + onder bezwarende titel, Uitgegeven warrants verbonden aan aandelen, Converteerbare obligaties. Inhoud compleet. Geen ETL-artefacten zichtbaar.'
+    rationale: "A4 (regel 64): heading '### Kosteloos uitgegeven warrants' heeft drie U+200B zero-width spaces als trailing whitespace — onzichtbaar unicode-artefact uit de HTML-scraper. Verder is de inhoud volledig en de heading-structuur (##, ###) correct."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
+      file_size_chars: 4281
+      flags: []
       heading_count: 5
       max_section_chars: 2085
-      file_size_chars: 4283
-      flags: []
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
+      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:03Z'
-      rationale: '5 headings correct aanwezig (##, ###). Structuur volledig: Autonoom uitgegeven warrants → kosteloos + onder bezwarende titel, Uitgegeven warrants verbonden aan aandelen, Converteerbare obligaties. Inhoud compleet. Geen ETL-artefacten zichtbaar.'
-      concrete_problemen: []
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: "A4 (regel 64): heading '### Kosteloos uitgegeven warrants' heeft drie U+200B zero-width spaces als trailing whitespace — onzichtbaar unicode-artefact uit de HTML-scraper. Verder is de inhoud volledig en de heading-structuur (##, ###) correct."
+      concrete_problemen:
+        - regel: 64
+          categorie: A4
+          type: other
+          voorbeeld: '### Kosteloos uitgegeven warrants \u200b\u200b\u200b'
 themas:
   - converteerbare obligatie
   - inschrijvingsrecht
@@ -49,7 +53,7 @@ themas:
   - uitgiftepremie
 ---
 
-# CBN advies 139-7 - Verwerking van uitgegeven inschrijvingsrechten in de jaarrekening 
+# CBN advies 139-7 - Verwerking van uitgegeven inschrijvingsrechten in de jaarrekening
 
 De adviezen 139/1, 139/4, 139/5 en 139/6 van de Commissie handelden over de wijze waarop converteerbare obligaties of obligaties met voorkeurrecht alsook autonome warrants (inschrijvingsrechten), moeten worden verwerkt in de jaarrekening van de onderneming die ze heeft verworven en die ze in bezit heeft.
 
@@ -65,7 +69,7 @@ Die vermeldingen in de toelichting staan los van de eigenlijke kenmerken van een
 
 Zolang de kosteloos uitgegeven warrants niet zijn uitgeoefend, hebben zij geen enkele invloed op het vermogen van de uitgevende vennootschap. De uitgifte van dergelijke warrants wordt bijgevolg noch in de balans, noch in de resultatenrekening uitgedrukt.
 
-### Onder bezwarende titel uitgegeven warrants 
+### Onder bezwarende titel uitgegeven warrants
 
 Het bedrag dat de vennootschap ontvangt als prijs voor de door haar uitgegeven warrants, kan door haar worden gelijkgesteld met een uitgiftepremie die door de inschrijvers op nieuwe aandelen wordt gestort, met als enige voorbehoud dat, bij uitgifte van warrants, het ontvangen bedrag definitief door de vennootschap is verworven, zelfs indien de warranthouders hun inschrijvingsrecht later niet uitoefenen. De voor de uitgifte van warrants ontvangen bedragen zullen bijgevolg in de eigen vermogenspost "Uitgiftepremies" worden geboekt en daar behouden blijven, ongeacht of de inschrijvingsrechten later worden uitgeoefend of niet.
 

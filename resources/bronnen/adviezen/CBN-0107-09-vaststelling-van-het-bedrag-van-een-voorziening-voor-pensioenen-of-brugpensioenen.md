@@ -2,59 +2,65 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/vaststelling-van-het-bedrag-van-een-voorziening-voor-pensioenen-of-brugpensioenen
 datum: 1988-12-01
 gerelateerde_adviezen:
-  - datum: '2019-03-05'
-    titel: Voorzieningen
-    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-  - datum: '1993-02-01'
-    titel: Voorzieningen voor geïndexeerde pensioenen en brugpensioenen
-    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
-  - datum: '1986-07-19'
-    titel: Verplichtingen voortvloeiend uit brugpensioen
-    url: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen-0
-  - datum: '1980-01-01'
-    titel: Verplichtingen voortvloeiend uit brugpensioen
-    url: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen
+- datum: '2019-03-05'
+  titel: Voorzieningen
+  url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+- datum: '1993-02-01'
+  titel: Voorzieningen voor geïndexeerde pensioenen en brugpensioenen
+  url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
+- datum: '1986-07-19'
+  titel: Verplichtingen voortvloeiend uit brugpensioen
+  url: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen-0
+- datum: '1980-01-01'
+  titel: Verplichtingen voortvloeiend uit brugpensioen
+  url: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen
 nummer: CBN-advies 107/9
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vaststelling-van-het-bedrag-van-een-voorziening-voor-pensioenen-of-brugpensioenen
-      sha256: 026465f0ae0b5f1a6459175ff87cf60dcfb40d52954cccd1acadd0d1b91ffc21
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vaststelling-van-het-bedrag-van-een-voorziening-voor-pensioenen-of-brugpensioenen
+    sha256: 026465f0ae0b5f1a6459175ff87cf60dcfb40d52954cccd1acadd0d1b91ffc21
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Prior layer2 verdict (needs-rework, D4) is onjuist: '1987[^1] tot wijziging van het jaarrekeningbesluit...' staat volledig inline op regel 70 — geen gebroken newline. Voetnoot [^1] heeft definitie op regel 76. Body is volledig, geen artefacten aangetroffen."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 2215
       file_size_chars: 2215
       flags: []
+      heading_count: 0
+      max_section_chars: 2215
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "Prior layer2 verdict (needs-rework, D4) is onjuist: '1987[^1] tot wijziging van het jaarrekeningbesluit...' staat volledig inline op regel 70 — geen gebroken newline. Voetnoot [^1] heeft definitie op regel 76. Body is volledig, geen artefacten aangetroffen."
       concrete_problemen: []
+      rationale: 'Prior layer2 verdict (needs-rework, D4) is onjuist: ''1987[^1] tot
+        wijziging van het jaarrekeningbesluit...'' staat volledig inline op regel
+        70 — geen gebroken newline. Voetnoot [^1] heeft definitie op regel 76. Body
+        is volledig, geen artefacten aangetroffen.'
+      run_at: '2026-05-11T13:16:02Z'
+      status: trusted
+    rationale: 'Prior layer2 verdict (needs-rework, D4) is onjuist: ''1987[^1] tot
+      wijziging van het jaarrekeningbesluit...'' staat volledig inline op regel 70
+      — geen gebroken newline. Voetnoot [^1] heeft definitie op regel 76. Body is
+      volledig, geen artefacten aangetroffen.'
+    status: trusted
 themas:
-  - brugpensioen
-  - pensioen
-  - pensioenvoorzieningen
-  - verplichting voortvloeiend uit brugpensioen
-  - voorziening
-  - voorzieningen voor brugpensioen
-  - voorzieningen voor pensioenen
+- brugpensioen
+- pensioen
+- pensioenvoorzieningen
+- verplichting voortvloeiend uit brugpensioen
+- voorziening
+- voorzieningen voor brugpensioen
+- voorzieningen voor pensioenen
 ---
 
 # CBN-advies 107/9 - Vaststelling van het bedrag van een voorziening voor pensioenen of brugpensioenen

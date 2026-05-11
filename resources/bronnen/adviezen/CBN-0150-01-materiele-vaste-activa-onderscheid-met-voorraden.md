@@ -25,27 +25,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-11T13:23:03Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Vorige D4-issue (*Voorraadwijziging * met spatie vóór asterisk) is gefixeerd — body toont nu correct *Voorraadwijziging* (bv. 6096) zonder trailing space. Vier inhoudelijke secties volledig aanwezig, voetnoot [^1] correct gelinkt.
+    rationale: 'Geen ETL-artefacten aangetroffen. Vier thema-secties (reserve-onderdelen, ontginningsgronden, toonzaalmateriaal, dieren) elk als ### heading correct gemarkeerd. Prose leesbaar en volledig. Voetnoot [^1] correct inline verbonden. Geen tabellen, lijsten of TOC-elementen die problemen veroorzaken.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
+      file_size_chars: 7470
+      flags: []
       heading_count: 4
       max_section_chars: 1913
-      file_size_chars: 7474
-      flags: []
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:03Z'
-      rationale: Vorige D4-issue (*Voorraadwijziging * met spatie vóór asterisk) is gefixeerd — body toont nu correct *Voorraadwijziging* (bv. 6096) zonder trailing space. Vier inhoudelijke secties volledig aanwezig, voetnoot [^1] correct gelinkt.
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: 'Geen ETL-artefacten aangetroffen. Vier thema-secties (reserve-onderdelen, ontginningsgronden, toonzaalmateriaal, dieren) elk als ### heading correct gemarkeerd. Prose leesbaar en volledig. Voetnoot [^1] correct inline verbonden. Geen tabellen, lijsten of TOC-elementen die problemen veroorzaken.'
       concrete_problemen: []
 themas:
   - diensten en diverse goederen
@@ -71,7 +71,7 @@ Het onderscheid heeft tevens een uitgesproken fiscaal belang voor de toepassing 
 
 Uitgangspunt is artikel 15, 1 van de vierde EEG-richtlijn, dat bepaalt dat vermogensbestanddelen op grond van hun bestemming worden ingedeeld bij de vaste activa of bij de vlottende activa; bij de vaste activa worden die vermogensbestanddelen ingedeeld die bestemd zijn om duurzaam voor de bedrijfsuitoefening te worden gebruikt. 
 
-### Reserve-onderdelen voor machines 
+## Reserve-onderdelen voor machines
 
 Bedoeld worden reserve-onderdelen die betrekking hebben op installaties, machines en uitrusting en op materiële vaste activa in het algemeen. 
 
@@ -87,7 +87,7 @@ Worden dergelijke onderdelen na de ingebruikname van de installatie gekocht, dan
 
 Legt de onderneming een voorraad van zulke onderdelen aan dan mogen deze ook boekhoudrechtelijk als een *Voorraad* worden beschouwd en geboekt, bij voorkeur onder afzonderlijke balans- en resultatenrekeningen. Hun aanschaffing verloopt derhalve via rekening 60 (bv. 606) en hun opname in voorraad via rekening 609 *Voorraadwijziging* (bv. 6096). Bij gebruik van het onderdeel wordt de kostprijs ervan via de rekening *Voorraadwijziging* ten laste genomen, zonder evenredige aanpassing van de boekwaarde van de installatie waarvan het onderdeel werd vervangen. 
 
-### Ontginningsgronden 
+## Ontginningsgronden
 
 De ontginningsgronden waarvan de onderneming eigenaar is doch waarop zij een ontginningsrecht heeft verkregen na betaling van een vergoeding, worden geboekt onder de materiële vaste activa.
 
@@ -101,7 +101,7 @@ De Commissie is dan ook de mening toegedaan dat ontginningsgronden als materiël
 
 Een lineaire afschrijving over een bepaalde periode - a fortiori een degressieve afschrijving over dezelfde periode - is bedrijfseconomisch ten aanzien van ontginningsgronden niet verantwoord. De logica vraagt dat de afschrijvingen worden berekend op basis van de effectief ontgonnen hoeveelheid grondstof.
 
-### Toonzaalmateriaal 
+## Toonzaalmateriaal
 
 Dient toonzaalmateriaal te worden opgenomen in de boekhouding en de jaarrekening onder de materiële vaste activa of behoort het tot de voorraad? 
 
@@ -113,7 +113,7 @@ Niettemin is de Commissie van oordeel dat een kwalificatie als vast actief toela
 
 De feitelijke beoordeling zal in dit geval doorslaggevend zijn. 
 
-### Dieren 
+## Dieren
 
 Op basis van hogervermeld beginsel dient ook een onderscheid te worden gemaakt tussen dieren die gehouden worden hoofdzakelijk omwille van de door hun voortgebrachte producten (melk, eieren, enz.) en dieren die hoofdzakelijk gehouden worden om in een bepaald ontwikkelingsstadium te worden verkocht. 
 

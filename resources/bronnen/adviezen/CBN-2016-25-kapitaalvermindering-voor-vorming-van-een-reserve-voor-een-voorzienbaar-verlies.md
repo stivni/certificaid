@@ -12,36 +12,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: regels 53-64 bevatten een volledige genummerde inhoudsopgave direct na de H1-titel, vóór de eerste echte ## Inleiding — klassiek HTML-TOC extractie-artefact dat niet werd verwijderd. B6: regel 64 bevat '------ Opvolging van de reserve voor voorzienbaar verlies' als een horizontale lijn met tekst — geen valide markdown-separator. Inhoud na de TOC is structureel correct (9 headings, tabellen in pipe-syntax)."
+    rationale: "D4: regel 78 bevat 'Reserve voor voorzienbaar verlies[^5]*  om na te gaan' met dubbele spatie na de sluitende asterisk — broken italic-patroon consistent met andere adviezen uit dezelfde pipeline. Geen TOC-artefact of B6-separator zichtbaar in de body; 9 headings correct hiërarchisch aanwezig. Het D4-patroon is een ETL-bug."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 9
-      max_section_chars: 3537
-      file_size_chars: 9131
+      file_size_chars: 8516
       flags: []
+      heading_count: 9
+      max_section_chars: 3182
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "A3: regels 53-64 bevatten een volledige genummerde inhoudsopgave direct na de H1-titel, vóór de eerste echte ## Inleiding — klassiek HTML-TOC extractie-artefact dat niet werd verwijderd. B6: regel 64 bevat '------ Opvolging van de reserve voor voorzienbaar verlies' als een horizontale lijn met tekst — geen valide markdown-separator. Inhoud na de TOC is structureel correct (9 headings, tabellen in pipe-syntax)."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "D4: regel 78 bevat 'Reserve voor voorzienbaar verlies[^5]*  om na te gaan' met dubbele spatie na de sluitende asterisk — broken italic-patroon consistent met andere adviezen uit dezelfde pipeline. Geen TOC-artefact of B6-separator zichtbaar in de body; 9 headings correct hiërarchisch aanwezig. Het D4-patroon is een ETL-bug."
       concrete_problemen:
-        - regel: 53
-          categorie: A3
+        - regel: 78
+          categorie: D4
           type: other
-          voorbeeld: "1. Inleiding \n2. Analyse \n  1. Wettelijk en reglementair kader ..."
-        - regel: 64
-          categorie: B6
-          type: other
-          voorbeeld: '------ Opvolging van de reserve voor voorzienbaar verlies'
+          voorbeeld: '*Reserve voor voorzienbaar verlies[^5]*  om na te gaan of de wettelijke voorwaarden'
 themas:
   - voorzienbaar verlies
   - kapitaalvermindering
@@ -49,19 +45,6 @@ themas:
 ---
 
 # CBN-advies 2016/25 – Kapitaalvermindering voor vorming van een reserve voor een voorzienbaar verlies
-
-1. Inleiding 
-2. Analyse 
-  1. Wettelijk en reglementair kader 
-  2. Boekhoudkundige principes 
-    1. Kapitaalvermindering door aanzuivering van het overgedragen verlies: principes 
-    2. Toepassing in geval van vorming en aanwending van een reserve voor het voorzienbaar verlies van het boekjaar 
-      1. Bepaling van het waarschijnlijke verlies van het boekjaar 
-      2. Beperking tot 10 % van het geplaatst kapitaal na kapitaalvermindering (binnen de grenzen van het minimumkapitaal)
-
-      3. Opvolging van de reserve voor voorzienbaar verlies 
-
------- Opvolging van de reserve voor voorzienbaar verlies 
 
 ## Inleiding
 
@@ -102,7 +85,7 @@ Zoals vermeld in de inleiding van onderhavig advies dient rekening te worden geh
 
 Eerst en vooral moet het voorzienbaar verlies dat de vennootschap wil dekken, worden bepaald. Hiervoor dienen in principe een voldoende gedetailleerde tussentijdse en te verwachten boekhoudkundige toestand te worden opgesteld.
 
-##### Beperking tot 10 % van het geplaatst kapitaal na kapitaalvermindering (binnen de grenzen van het minimumkapitaal)[^8] 
+##### Beperking tot 10 % van het geplaatst kapitaal na kapitaalvermindering (binnen de grenzen van het minimumkapitaal)[^8]
 
 De reserve moet ook, in voorkomend geval, worden beperkt tot 10 % van het geplaatst kapitaal *na kapitaalvermindering*.
 

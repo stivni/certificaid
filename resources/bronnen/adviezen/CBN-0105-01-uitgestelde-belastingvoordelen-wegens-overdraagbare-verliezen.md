@@ -25,36 +25,28 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bug A6 (spurious line-break na FAS 109[^5]) is opgelost: regel 125 toont de volledige zin aaneengesloten. Maar B2 blijft: de twee subkoppen '## **De Belgische regelgeving**' (regel 109) en '## **Buitenlandse regelgeving**' (regel 117) bevatten nog steeds onnodig **bold**-markup binnen de heading — een mens schrijft '## De Belgische regelgeving'."
+    rationale: 'De B2-bug (bold-markup in headings ## **De Belgische regelgeving** en ## **Buitenlandse regelgeving**) die Ronde 1 rapporteerde is opgelost door de scraper-fixes: regels 105 en 113 tonen nu clean headings zonder **bold**. Geen andere artefacten aangetroffen in categorieën A-G. Voetnoten [^1]–[^5] volledig gedefinieerd, inhoud compleet.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
+      file_size_chars: 11208
+      flags: []
       heading_count: 3
       max_section_chars: 5928
-      file_size_chars: 11216
-      flags: []
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "Bug A6 (spurious line-break na FAS 109[^5]) is opgelost: regel 125 toont de volledige zin aaneengesloten. Maar B2 blijft: de twee subkoppen '## **De Belgische regelgeving**' (regel 109) en '## **Buitenlandse regelgeving**' (regel 117) bevatten nog steeds onnodig **bold**-markup binnen de heading — een mens schrijft '## De Belgische regelgeving'."
-      concrete_problemen:
-        - regel: 109
-          categorie: B2
-          type: other
-          voorbeeld: '## **De Belgische regelgeving** — bold-markup onnodig binnen heading'
-        - regel: 117
-          categorie: B2
-          type: other
-          voorbeeld: '## **Buitenlandse regelgeving** — idem'
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: 'De B2-bug (bold-markup in headings ## **De Belgische regelgeving** en ## **Buitenlandse regelgeving**) die Ronde 1 rapporteerde is opgelost door de scraper-fixes: regels 105 en 113 tonen nu clean headings zonder **bold**. Geen andere artefacten aangetroffen in categorieën A-G. Voetnoten [^1]–[^5] volledig gedefinieerd, inhoud compleet.'
+      concrete_problemen: []
 themas:
   - toelichting
   - uitgestelde belastingvoordelen
@@ -102,7 +94,7 @@ Wat het activeren van een uitgesteld belastingvoordeel wegens een overdraagbaarb
 
 Het Contactcomité heeft verder de toepassing van het voorzichtigheidsbeginsel benadrukt zoals gedefinieerd in de vierde Richtlijn. Dit beginsel leidt ertoe dat uitgestelde belastingvorderingen enkel kunnen geactiveerd worden in de jaarrekening, als er geen redelijke twijfel bestaat over de toekomstige fiscale winst. Het criterium "geen redelijke twijfel" valt in het Europese kader strikter op te vatten dan het in IAS 12 gehanteerde waarschijnlijkheidscriterium. 
 
-## **De Belgische regelgeving**
+## De Belgische regelgeving
 
 Het verslag aan de Koning bij het consolidatiebesluit van 6 maart 1990 bevat volgende intentieverklaring: "... Het begrip belastinglatentie, de mate waarin daarmee rekening moet worden gehouden en de wijze waarop de belastinglatenties in de financiële staten moeten verwerkt worden, geven aanleiding tot doctrinale controverses. Daarom beperkt het besluit er zich toe in de huidige stand van zaken de tekst van de richtlijn terzake over te nemen. Het komt de Commissie voor Boekhoudkundige Normen toe om in het kader van de haar toegewezen taak terzake de beginselen van een regelmatige boekhouding progressief te ontwikkelen gelet o.m. op hetgeen in het buitenland tot stand zal komen...". 
 
@@ -110,7 +102,7 @@ Het consolidatiebesluit beperkt er zich dan ook toe in de artikelen 40 en 69 de 
 
 Voor het Belgische consolidatiebesluit kunnen dan ook dezelfde conclusies gelden als voor de zevende richtlijn: enerzijds bestaat er geen uitdrukkelijk geformuleerd verbod op het activeren van een uitgesteld belastingvoordeel wegens overdraagbare verliezen; anderzijds mag besloten worden dat toepassing mag worden gemaakt van IAS 12 mits naleving van het Europeesrechtelijke voorzichtigheidsbeginsel. 
 
-## **Buitenlandse regelgeving**
+## Buitenlandse regelgeving
 
 Zowel een belangrijk aantal Europese Lid-Staten als de Verenigde Staten behandelen in hun regelgeving de problematiek van de uitgestelde belastingen exhaustief met inbegrip van de vraag of een uitgesteld belastingvoordeel wegens overdraagbare verliezen kan opgenomen worden. 
 

@@ -3,41 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
 datum: 2018-11-23
 nummer: CBN-advies 2018/20
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
-      sha256: 568d1613dc26b400815af270a80f04670188bb30393feef47a163c9c9d37c243
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
+    sha256: 568d1613dc26b400815af270a80f04670188bb30393feef47a163c9c9d37c243
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 4
-      max_section_chars: 2848
       file_size_chars: 7717
       flags: []
+      heading_count: 4
+      max_section_chars: 2848
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, vier ## headings correct aanwezig, alle 12 voetnoten volledig en verankerd. Geen tabellen. Inhoud compleet.'
+      rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar,
+        vier ## headings correct aanwezig, alle 12 voetnoten volledig en verankerd.
+        Geen tabellen. Inhoud compleet.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, vier ## headings correct aanwezig, alle 12 voetnoten volledig en verankerd. Geen tabellen. Inhoud compleet.'
+    rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar,
+      vier ## headings correct aanwezig, alle 12 voetnoten volledig en verankerd.
+      Geen tabellen. Inhoud compleet.'
     status: trusted
 themas:
-  - niet-compensatie
-  - compensatie
-  - schuldvergelijking
+- niet-compensatie
+- compensatie
+- schuldvergelijking
 ---
 
 # CBN-advies 2018/20 – Boekhoudkundig niet-compensatiebeginsel

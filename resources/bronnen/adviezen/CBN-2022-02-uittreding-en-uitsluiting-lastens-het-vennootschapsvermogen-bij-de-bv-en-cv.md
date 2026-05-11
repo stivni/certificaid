@@ -16,27 +16,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:26:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: de inhoudsopgave staat als genummerde lijst in de body (regels 61-74) vóór de inhoudelijke secties. Op regel 75 volgt een aaneengesloten TOC-restant '-- Vrijwillige uittreding (artikel 6:120 WVV)-- Uittreding van rechtswege...' met '--'-scheiders — dit is een duplicaat TOC-fragment dat niet werd verwijderd. Tabellen (regels 218-233) zijn correct opgemaakt. Alle 31 voetnoten aanwezig."
+    rationale: "A3: de inhoudsopgave staat als genummerde lijst in de body (regels 61-74) vóór de inhoudelijke secties. Op regel 75 volgt een aaneengesloten TOC-restant '-- Vrijwillige uittreding (artikel 6:120 WVV)-- Uittreding van rechtswege...' met '--'-scheiders — dit is een duplicaat TOC-fragment dat niet werd verwijderd. Tabellen correct, alle 31 voetnoten aanwezig. (Herbevestiging van eerdere beoordeling.)"
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
+      file_size_chars: 21477
+      flags: []
       heading_count: 8
       max_section_chars: 8652
-      file_size_chars: 22391
-      flags: []
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "A3: de inhoudsopgave staat als genummerde lijst in de body (regels 61-74) vóór de inhoudelijke secties. Op regel 75 volgt een aaneengesloten TOC-restant '-- Vrijwillige uittreding (artikel 6:120 WVV)-- Uittreding van rechtswege...' met '--'-scheiders — dit is een duplicaat TOC-fragment dat niet werd verwijderd. Tabellen (regels 218-233) zijn correct opgemaakt. Alle 31 voetnoten aanwezig."
+      run_at: '2026-05-11T15:26:40Z'
+      rationale: "A3: de inhoudsopgave staat als genummerde lijst in de body (regels 61-74) vóór de inhoudelijke secties. Op regel 75 volgt een aaneengesloten TOC-restant '-- Vrijwillige uittreding (artikel 6:120 WVV)-- Uittreding van rechtswege...' met '--'-scheiders — dit is een duplicaat TOC-fragment dat niet werd verwijderd. Tabellen correct, alle 31 voetnoten aanwezig. (Herbevestiging van eerdere beoordeling.)"
       concrete_problemen:
         - regel: 61
           categorie: A3
@@ -57,22 +57,6 @@ themas:
 ---
 
 # CBN-advies 2022/02 – Uittreding en uitsluiting lastens het vennootschapsvermogen bij de BV en CV - Scheidingsaandeel
-
-1. Inleiding 
-2. Uittreding en uitsluiting lastens het vennootschapsvermogen bij de BV 
-  1. Vrijwillige uittreding (artikel 5:154 WVV) 
-  2. Uittreding van rechtswege of wegens het verlies van de statutair vereiste hoedanigheid (artikel 5:156 WVV) 
-  3. Uitsluiting (artikel 5:155 WVV) 
-
-3. Uittreding en uitsluiting lastens het vennootschapsvermogen bij de CV
-
-  1. Vrijwillige uittreding (artikel 6:120 WVV) 
-  2. Uittreding van rechtswege of wegens het verlies van de statutair vereiste hoedanigheid (artikel 6:121 en 6:122 WVV) 
-  3. Uitsluiting (artikel 6:123 WVV) 
-
-4. Boekhoudkundige verwerking in hoofde van de uitkerende vennootschap 
-
--- Vrijwillige uittreding (artikel 6:120 WVV)-- Uittreding van rechtswege of wegens het verlies van de statutair vereiste hoedanigheid (artikel 6:121 en 6:122 WVV)-- Uitsluiting (artikel 6:123 WVV)Boekhoudkundige verwerking in hoofde van de uitkerende vennootschap 
 
 ## Inleiding
 
@@ -145,7 +129,7 @@ Het bestuursorgaan deelt binnen de vijftien dagen het gemotiveerd besluit van de
 De uitsluitingen en de daaruit voortvloeiende statutenwijziging, ingevolge de wijziging van het aantal aandelen, worden, vóór het einde van het boekjaar waarin wordt uitgetreden, vastgesteld bij een authentieke akte verleden op verzoek van het bestuursorgaan.[^17]
  De Commissie merkt op dat dit een statutenwijziging betreft waarvoor de tussenkomst van de algemene vergadering niet is vereist. De gebruikelijke neerleggings- en publiciteitsverplichting (publicatie in het *Belgisch Staatsblad*)[^18] bij statutenwijzigingen zijn onverminderd van toepassing. 
 
-## Uittreding en uitsluiting lastens het vennootschapsvermogen bij de CV[^19] 
+## Uittreding en uitsluiting lastens het vennootschapsvermogen bij de CV[^19]
 
 De uittredings- en uitsluitingsmogelijkheid lastens het vennootschapsvermogen is bij de CV van dwingend recht. Niettegenstaande andersluidende statutaire bepalingen hebben de aandeelhouders het recht uit de CV te treden ten laste van het vermogen van de CV. Daarnaast kan de CV niettegenstaande andersluidende bepalingen steeds een aandeelhouder om wettige redenen uitsluiten. Zoals hierna toegelicht kunnen, behoudens de modaliteiten die van dwingend recht zijn, bepaalde modaliteiten statutair afwijkend worden geregeld en geldt de in het WVV vermelde regeling slechts bij het ontbreken van andersluidende statutaire bepalingen (default-regeling).
 

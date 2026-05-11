@@ -19,44 +19,44 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Vier problemen: (1) A8: r.133 bevat een Franse zin 'A la conclusion de cette opération au premier avril 1998' als plain-text in een NL-body — kolom-bleed uit tweetalige bron. (2) C3: de resultatenrekening-samenvatting op r.176-182 is geen geldige pipe-tabel maar een defect fragment met inline tabs/newlines. (3) D1: voetnoot [^4] op r.194 eindigt abrupt na 'conform voetnoot' — inhoud weggesneden; r.196 bevat [^5] die de echte vervolgtekst van [^4] lijkt te bevatten (hernummering-bug). (4) F1: thema 'termijnaanko' in frontmatter (r.68) is afgekapt."
+    rationale: "E2: de twee RESULTATENREKENING-tabellen op r.162-170 zijn ernstig verminkt — de tabelcellen zijn niet in pipe-syntax maar als losstaande regels met wisselende witruimte, waardoor de samenvatting onleesbaar is. D3/G3: voetnoot 4 eindigt mid-zin op r.182 ('conform voetnoot') en voetnoot 5 op r.184 begint met 'van advies 173/1 over...' — de splitsing is een extractie-artefact waarbij de voetnootreferentie en -tekst zijn opgeknipt over twee afzonderlijke voetnoten."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
+      file_size_chars: 11738
+      flags: []
       heading_count: 3
       max_section_chars: 7318
-      file_size_chars: 11729
-      flags: []
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "Vier problemen: (1) A8: r.133 bevat een Franse zin 'A la conclusion de cette opération au premier avril 1998' als plain-text in een NL-body — kolom-bleed uit tweetalige bron. (2) C3: de resultatenrekening-samenvatting op r.176-182 is geen geldige pipe-tabel maar een defect fragment met inline tabs/newlines. (3) D1: voetnoot [^4] op r.194 eindigt abrupt na 'conform voetnoot' — inhoud weggesneden; r.196 bevat [^5] die de echte vervolgtekst van [^4] lijkt te bevatten (hernummering-bug). (4) F1: thema 'termijnaanko' in frontmatter (r.68) is afgekapt."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "E2: de twee RESULTATENREKENING-tabellen op r.162-170 zijn ernstig verminkt — de tabelcellen zijn niet in pipe-syntax maar als losstaande regels met wisselende witruimte, waardoor de samenvatting onleesbaar is. D3/G3: voetnoot 4 eindigt mid-zin op r.182 ('conform voetnoot') en voetnoot 5 op r.184 begint met 'van advies 173/1 over...' — de splitsing is een extractie-artefact waarbij de voetnootreferentie en -tekst zijn opgeknipt over twee afzonderlijke voetnoten."
       concrete_problemen:
-        - regel: 133
-          categorie: A8
-          type: column-bleed
-          voorbeeld: A la conclusion de cette opération au premier avril 1998
-        - regel: 176
-          categorie: C3
+        - regel: 162
+          categorie: E2
           type: pseudo-table
-          voorbeeld: "| **RESULTATENREKENING OP 31/12/1998**  | \n| 60.000 | | 47.872,3\n\t\t\t15.000 |"
-        - regel: 194
-          categorie: D1
+          voorbeeld: "| **RESULTATENREKENING OP 31/12/1998**  | \n|---|\n| 60.000 | | 47.872,3 "
+        - regel: 166
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: "\t\t\t\t15.000 | "
+        - regel: 182
+          categorie: D3
           type: abrupt-cutoff
-          voorbeeld: '[^4]: In dit verband wenst de Commissie, conform voetnoot'
-        - regel: 68
-          categorie: F1
+          voorbeeld: In dit verband wenst de Commissie, conform voetnoot
+        - regel: 184
+          categorie: D3
           type: other
-          voorbeeld: '- termijnaanko'
+          voorbeeld: van advies 173/1 over de boekhoudrechtelijke aspecten van de overschakeling...
 themas:
   - bilaterale wisselkoersen
   - contantrentevoet
@@ -128,7 +128,7 @@ Overeenkomstig de toelichting in dit advies 173/5 moeten de volgende boekingen w
 - enerzijds, de herwaardering van de te leveren en te ontvangen deviezen tegen de omrekeningskoers in euro, en 
 - anderzijds, het gelopen deel van het report/deport als vastgesteld op 31 december 1998. 
 
-#### Bij de afsluiting van de verrichting op 1 april 1998 
+## Bij de afsluiting van de verrichting op 1 april 1998
 
 A la conclusion de cette opération au premier avril 1998 
 
@@ -142,7 +142,7 @@ A la conclusion de cette opération au premier avril 1998
 | | 656 | Diverse financiële kosten | 60.000 | |
 | aan | 48(5) | Diverse schulden (report) | | 60.000 |
 
-#### Bij de opstelling van de jaarrekening die moet worden afgesloten op 31 december 1998 
+## Bij de opstelling van de jaarrekening die moet worden afgesloten op 31 december 1998
 
 Op balansdatum van het boekjaar, met andere woorden op 31 december 1998, moet rekening worden gehouden met de impact van de invoering van de euro, namelijk de aanpassing van het aantal - met toepassing van de termijnwisselcontracten - te ontvangen en te leveren deviezen op basis van de contantslotkoers die, bij overschakeling op de euro, zal overeenstemmen met de bilaterale wisselkoers (namelijk 1 DEM = 20,478723 BEF). 
 
@@ -165,7 +165,7 @@ Daarnaast moet het prorata van het deport (namelijk het niet-gelopen renteversch
 | | 48(5) | Diverse schulden (report) | 15.000 | |
 | aan | 656 | Diverse financiële kosten | | 15.000 |
 
-#### Bij de afwikkeling van de verrichting (31 maart 1999) 
+## Bij de afwikkeling van de verrichting (31 maart 1999)
 
 Bij het verstrijken van het contract worden de verworven deviezen in Belgische frank (monetaire uitdrukking van de euro) omgerekend tegen de enige mogelijke koers namelijk de definitieve omrekeningskoers DEM-BEF : 20,478723. 
 
@@ -174,11 +174,13 @@ De invloed van de voornoemde termijnwisselverrichting op de door de betrokken on
 Dit komt neer op een totaalresultaat (met inbegrip van de samenstellende delen «wissel» en «rente») van (12.127,7) dat in resultaat moet worden genomen : 
 
 | **RESULTATENREKENING OP 31/12/1998**  | 
+|---|
 | 60.000 | | 47.872,3 
 
 			15.000 | 
 
 | **RESULTATENREKENING OP 31/12/1999** | 
+|---|
 | 15.000 | | | 
 
 • in 1998 voor een bedrag van 2 872,3 

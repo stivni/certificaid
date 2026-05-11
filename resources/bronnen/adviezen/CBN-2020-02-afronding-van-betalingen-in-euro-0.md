@@ -25,37 +25,29 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'A3: TOC op regels 58-67 staat als plain-text geneste nummerlijst in de body, met TOC-artefact `-- Tweede methode` op regel 67. D4: `rekening 700* Verkopen` op regel 118 — spatie ontbreekt na openende asterisk bij italic. Inhoud volledig en logisch gestructureerd.'
+    rationale: 'D4: Regel 128 bevat twee keer een malformed italic: `rekening 700* Verkopen en dienstprestaties*` (spatie ontbreekt na opening-asterisk) — een patroon dat twee keer voorkomt op dezelfde regel. Het document is verder inhoudelijk volledig en correct gestructureerd; heading-hiërarchie, opsommingen en de journaalpost-tabel zijn in orde.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
+      file_size_chars: 11763
+      flags: []
       heading_count: 10
       max_section_chars: 5095
-      file_size_chars: 12003
-      flags: []
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: 'A3: TOC op regels 58-67 staat als plain-text geneste nummerlijst in de body, met TOC-artefact `-- Tweede methode` op regel 67. D4: `rekening 700* Verkopen` op regel 118 — spatie ontbreekt na openende asterisk bij italic. Inhoud volledig en logisch gestructureerd.'
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'D4: Regel 128 bevat twee keer een malformed italic: `rekening 700* Verkopen en dienstprestaties*` (spatie ontbreekt na opening-asterisk) — een patroon dat twee keer voorkomt op dezelfde regel. Het document is verder inhoudelijk volledig en correct gestructureerd; heading-hiërarchie, opsommingen en de journaalpost-tabel zijn in orde.'
       concrete_problemen:
-        - regel: 58
-          categorie: A3
-          type: other
-          voorbeeld: "1. Inleiding \n  1. Afronding van het te betalen bedrag tot 30 november 2019..."
-        - regel: 67
-          categorie: A3
-          type: other
-          voorbeeld: -- Tweede methode
-        - regel: 118
+        - regel: 128
           categorie: D4
           type: other
           voorbeeld: rekening 700* Verkopen en dienstprestaties*
@@ -66,17 +58,6 @@ themas:
 ---
 
 # CBN-advies 2020/02 – Afronding van betalingen in euro
-
-1. Inleiding 
-  1. Afronding van het te betalen bedrag tot 30 november 2019 
-  2. Afronding van het te betalen bedrag vanaf 1 december 2019 
-
-2. Boekhoudkundige verwerking 
-  1. Eerste methode
-
-  2. Tweede methode
-
--- Tweede methode
 
 ## Inleiding
 
@@ -90,18 +71,18 @@ De wet van 2 mei 2019, die op 1 december 2019 in werking trad, bepaalt dat de vo
 
 Het bedrag dat wordt afgerond is altijd het te betalen totaalbedrag en niet de samenstellende bestanddelen van dit bedrag[^12].
 
-### Afronding van het te betalen bedrag tot 30 november 2019 
+### Afronding van het te betalen bedrag tot 30 november 2019
 
 Ingevolge de inwerkingtreding op 8 januari 2016 van de wet van 18 december 2015, kan elk bedrag worden afgerond, ongeacht het betaalmiddel dat werd gebruikt. De afronding gebeurt op het te betalen totaalbedrag.
 
-### *Voorbeeld 1*
+### Voorbeeld 1
 
 Een klant koopt vier artikelen. Deze artikelen kosten respectievelijk 3,98 euro, 2,98 euro, 3,98 euro en 10,98 euro. Het totaalbedrag bedraagt 21,92 euro. Indien de onderneming de afrondingsregeling toepast, zal het totaalbedrag van de aankoop 21,90 euro bedragen, ongeacht het betaalmiddel.
 ### Afronding van het te betalen bedrag vanaf 1 december 2019
 
 Vanaf 1 december 2019 is elke onderneming verplicht de afrondingsregeling toe te passen op betalingen in speciën.
 
-### *Voorbeeld 2*: Betaling in speciën 
+### *Voorbeeld 2*: Betaling in speciën
 
 Een klant koopt vier artikelen en betaalt in speciën. Deze artikelen kosten respectievelijk 4,27 euro, 3,06 euro, 10,56 euro en 2,67 euro. Het totaalbedrag bedraagt 20,56 euro. De onderneming moet het bedrag verplicht afronden. Het totaalbedrag na afronding bedraagt 20,55 euro.
 Indien de klant opteert voor een andere betaling dan in speciën, kiest de onderneming zelf of ze de afrondingsregeling wel of niet toepast.
@@ -118,14 +99,14 @@ Een onderneming zal in de praktijk te maken krijgen met kleine verschillen tusse
 
 De Commissie is van mening dat het totale verschil tussen het totaalbedrag van de te betalen prijs en de som van de prijzen van de individuele prestaties, slechts een marginaal bedrag is ten opzichte van de totale omzet. Bovendien zal, gelet op het symmetrisch karakter van de afronding, een compensatie plaatsvinden tussen de positieve en de negatieve afrondingsverschillen. Volgens de Commissie zijn er twee methoden om de boekhouding te voeren: de ene is toepasbaar op ondernemingen die een vereenvoudigde boekhouding voeren, de andere op ondernemingen die een dubbele boekhouding voeren.
 
-### Eerste methode[^16] 
+### Eerste methode[^16]
 
 Het bedrag dat de onderneming die een vereenvoudigde boekhouding voert, inschrijft in het verkoopdagboek is het bedrag dat de consument heeft betaald. De samenstellende bestanddelen die zijn vermeld op het uitgereikte document worden niet verder uitgesplitst in het verkoopdagboek. Indien er een afronding heeft plaatsgevonden zoals hiervoor wordt beschreven, zal de onderneming dit afrondingsverschil niet afzonderlijk boeken.
 
 ### *Voorbeeld 4*: Betaling in speciën
 
 Een klant koopt twee artikelen. Het eerste artikel kost 10,04[^17] euro. De prijs van het tweede artikel bedraagt 12,03[^18] euro. Het te betalen bedrag na afronding bedraagt 22,05 euro. De onderneming schrijft in het verkoopdagboek een opbrengst in van 22,05 euro.
-### Tweede methode[^19] 
+### Tweede methode[^19]
 
 Voor de ondernemingen die een dubbele boekhouding voeren, splitst het boekhoudregistratiesysteem de verschillende bestanddelen die zijn vermeld op het uitgereikte document. Het eventuele verschil tussen de som van de samenstellende bestanddelen en het totaalbedrag dat het gevolg is van het afrondingsverschil wordt geboekt op rekening 700 *Verkopen en dienstprestaties*. Indien dit afrondingsverschil negatief is, wordt dit verschil geboekt op het debet van rekening 700* Verkopen en dienstprestaties*. Indien dit verschil echter positief is, wordt het verschil geboekt op het credit van rekening 700* Verkopen en dienstprestaties*.
 

@@ -25,40 +25,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: regel 86 bevat een grote duplicate TOC-blob als aaneengesloten plain-text ('-- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase---- Tweede faseBoekhoudkundige verwerking...') — extractie-artefact waarbij de geneste TOC dubbel in de body is terechtgekomen. B5: regels 148-149 en 165-166 tonen sectie-titels als plain-text zonder heading-prefix ('Boekhoudkundige kwalificatie van de rechten verbonden aan...' en 'Te verrichten boekingen tijdens de verschillende fasen...')."
+    rationale: "B5: regels 147 en 164 tonen sectie-titels ('Boekhoudkundige kwalificatie van de rechten verbonden aan de productie en de exploitatie van het audiovisueel werk' en 'Te verrichten boekingen tijdens de verschillende fasen van het vrijstellingsmechanisme van de tax shelter') als plain-text zonder heading-prefix — terwijl dit duidelijk sectie-koppen zijn op hetzelfde niveau als de ## secties erboven. E2: regels 198-199 tonen een broken tabelrij waarbij de omschrijving over twee regels loopt met tab-uitlijning ('| | 51 | Aandelen (rechten op de opbrengsten van het \\n\\t\\t\\taudiovisueel werk [X] ) | 60 |'). Zelfde patroon op regels 220-223."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 19
-      max_section_chars: 15315
-      file_size_chars: 30947
+      file_size_chars: 28752
       flags: []
+      heading_count: 19
+      max_section_chars: 15314
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "A3: regel 86 bevat een grote duplicate TOC-blob als aaneengesloten plain-text ('-- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase---- Tweede faseBoekhoudkundige verwerking...') — extractie-artefact waarbij de geneste TOC dubbel in de body is terechtgekomen. B5: regels 148-149 en 165-166 tonen sectie-titels als plain-text zonder heading-prefix ('Boekhoudkundige kwalificatie van de rechten verbonden aan...' en 'Te verrichten boekingen tijdens de verschillende fasen...')."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "B5: regels 147 en 164 tonen sectie-titels ('Boekhoudkundige kwalificatie van de rechten verbonden aan de productie en de exploitatie van het audiovisueel werk' en 'Te verrichten boekingen tijdens de verschillende fasen van het vrijstellingsmechanisme van de tax shelter') als plain-text zonder heading-prefix — terwijl dit duidelijk sectie-koppen zijn op hetzelfde niveau als de ## secties erboven. E2: regels 198-199 tonen een broken tabelrij waarbij de omschrijving over twee regels loopt met tab-uitlijning ('| | 51 | Aandelen (rechten op de opbrengsten van het \\n\\t\\t\\taudiovisueel werk [X] ) | 60 |'). Zelfde patroon op regels 220-223."
       concrete_problemen:
-        - regel: 86
-          categorie: A3
-          type: other
-          voorbeeld: -- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase---- Tweede faseBoekhoudkundige verwerking...
-        - regel: 148
+        - regel: 147
           categorie: B5
           type: other
           voorbeeld: Boekhoudkundige kwalificatie van de rechten verbonden aan de productie en de exploitatie van het audiovisueel werk
-        - regel: 165
+        - regel: 164
           categorie: B5
           type: other
           voorbeeld: Te verrichten boekingen tijdens de verschillende fasen van het vrijstellingsmechanisme van de tax shelter
+        - regel: 198
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: "| | 51 | Aandelen (rechten op de opbrengsten van het \n\t\t\taudiovisueel werk [X] ) | 60 | |"
 themas:
   - tax shelter
   - belastingvrije reserves
@@ -66,32 +66,6 @@ themas:
 ---
 
 # CBN-advies 2012/7 - De boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder Advies van 17 april 2012
-
-1. Inleiding 
-2. Het tax shelter-mechanisme
-
-  1. Toepassingsvoorwaarden 
-  2. Fiscaal voordeel 
-  3. Procedure 
-    1. Eerste fase 
-    2. Tweede fase 
-
-3. Boekhoudkundige verwerking in hoofde van de investeerder 
-  1. Boekhoudkundige kwalificatie van de rechten verbonden aan de productie en de exploitatie van het audiovisueel werk 
-  2. Te verrichten boekingen tijdens de verschillende fasen van het vrijstellingsmechanisme van de tax shelter 
-    1. Bij de ondertekening van de raamovereenkomst 
-      1. Leningen verleend aan de productievennootschap van de audiovisuele werken 
-      2. Rechten op de verworven opbrengsten van het in aanmerking komend werk 
-      3. Verkoopoptie van de rechten op de opbrengsten 
-
-    2. Tijdelijke en voorwaardelijke vrijstelling van de winst 
-    3. Verwerking van het gedeelte van de opbrengsten en interesten die toekomen aan de investerende vennootschap 
-    4. Zolang de investeerder zijn recht op de opbrengsten bezit 
-    5. Op het moment van de optielichting 
-    6. Op het moment van de aflossing van de schuldvordering 
-    7. Op het moment van de definitieve vrijstelling of van het verlies van de vrijstelling 
-
--- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase---- Tweede faseBoekhoudkundige verwerking in hoofde van de investeerder-- Boekhoudkundige kwalificatie van de rechten verbonden aan de productie en de exploitatie van het audiovisueel werk-- Te verrichten boekingen tijdens de verschillende fasen van het vrijstellingsmechanisme van de tax shelter---- Bij de ondertekening van de raamovereenkomst------ Leningen verleend aan de productievennootschap van de audiovisuele werken------ Rechten op de verworven opbrengsten van het in aanmerking komend werk------ Verkoopoptie van de rechten op de opbrengsten---- Tijdelijke en voorwaardelijke vrijstelling van de winst ---- Verwerking van het gedeelte van de opbrengsten en interesten die toekomen aan de investerende vennootschap---- Zolang de investeerder zijn recht op de opbrengsten bezit---- Op het moment van de optielichting---- Op het moment van de aflossing van de schuldvordering---- Op het moment van de definitieve vrijstelling of van het verlies van de vrijstelling 
 
 ## Inleiding
 
@@ -101,7 +75,7 @@ In dit advies wordt de boekhoudkundige verwerkingswijze behandeld die volgens de
 
 Voor alle duidelijkheid worden in dit advies eerst de voornaamste beginselen van het tax shelter-mechanisme hernomen. 
 
-## Het tax shelter-mechanisme[^3] 
+## Het tax shelter-mechanisme[^3]
 
 ### Toepassingsvoorwaarden
 
@@ -207,6 +181,7 @@ Op het moment van de ondertekening van de raamovereenkomst zal de volgende boeki
 | | 51 | Aandelen (rechten op de opbrengsten van het 
 			audiovisueel werk [X] ) | 60 | |
 | aan | 48 | Diverse schulden | | 60 |
+|---|---|---|---|---|
 
 Op het moment van de overmaking van de aankoopprijs van de rechten, gebeurt de volgende boeking: 
 
@@ -230,7 +205,7 @@ Indien de (her)verkoopprijs van de rechten in het kader van de optie 15 bedraagt
 | aan | 09 | Houder van de verkoopoptie van de rechten 
 			op de opbrengsten van het audiovisueel werk [X] | | 15 |
 
-#### Tijdelijke en voorwaardelijke vrijstelling van de winst 
+#### Tijdelijke en voorwaardelijke vrijstelling van de winst
 
 Van zodra de investerende vennootschap zich door de ondertekening van de raamovereenkomst onherroepelijk verbindt jegens de productievennootschap van audiovisuele werken om de overeengekomen investering over te maken, kan zij genieten van een vrijstelling van de vennootschapsbelasting ten belope van 150 % van het geïnvesteerde bedrag, zelfs indien zij de investering nog niet heeft overgemaakt. Deze vrijstelling wordt echter onderworpen aan de hierboven opgesomde beperkingen (randnummer 4), met name dat de vrijgestelde winst niet hoger mag zijn dan de helft van de belastbare gereserveerde winst van de investerende vennootschap van het betreffende boekjaar die werd vastgesteld vooraleer de vrijgestelde tax shelter-reserve werd aangelegd en dat het vrijgestelde bedrag niet hoger mag zijn dan 750.000 € per boekjaar, zijnde 150 % van een vastgelegd bedrag van 500.000 €. 
 

@@ -2,63 +2,66 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/verbeteringswerken-aan-gehuurde-gebouwen
 datum: 2016-06-15
 gerelateerde_adviezen:
-  - datum: '2015-07-08'
-    titel: 'Zakelijke rechten op onroerende goederen: vruchtgebruik - opstalrecht - erfpachtrecht - erfdienstbaarheid'
-    url: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht
-  - datum: '1980-01-01'
-    titel: Terugneming van afschrijvingen en waardeverminderingen
-    url: https://www.cbn-cnc.be/nl/adviezen/terugneming-van-afschrijvingen-en-waardeverminderingen
-  - datum: '1978-12-01'
-    titel: Afschrijving van vaste activa waarvan de reële waarde de boekhoudkundige waarde overtreft
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-vaste-activa-waarvan-de-reele-waarde-de-boekhoudkundige-waarde-overtreft
-  - datum: '1989-07-01'
-    titel: Aansluitingskosten en installatiekosten waarbij derden de eigendom van de installatie verwerven of behouden
-    url: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
+- datum: '2015-07-08'
+  titel: 'Zakelijke rechten op onroerende goederen: vruchtgebruik - opstalrecht -
+    erfpachtrecht - erfdienstbaarheid'
+  url: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht
+- datum: '1980-01-01'
+  titel: Terugneming van afschrijvingen en waardeverminderingen
+  url: https://www.cbn-cnc.be/nl/adviezen/terugneming-van-afschrijvingen-en-waardeverminderingen
+- datum: '1978-12-01'
+  titel: Afschrijving van vaste activa waarvan de reële waarde de boekhoudkundige
+    waarde overtreft
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-vaste-activa-waarvan-de-reele-waarde-de-boekhoudkundige-waarde-overtreft
+- datum: '1989-07-01'
+  titel: Aansluitingskosten en installatiekosten waarbij derden de eigendom van de
+    installatie verwerven of behouden
+  url: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
 nummer: CBN-advies 2016/6
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verbeteringswerken-aan-gehuurde-gebouwen
-      sha256: 8ac351fe3e7cb8c9b7afb7aaeafaf9938044284f6ac2fab960ce1bc0246797ab
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/verbeteringswerken-aan-gehuurde-gebouwen
+    sha256: 8ac351fe3e7cb8c9b7afb7aaeafaf9938044284f6ac2fab960ce1bc0246797ab
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T21:31:12Z'
     confirmed_by: human
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
+      file_size_chars: 6792
+      flags: []
       heading_count: 6
       max_section_chars: 2920
-      file_size_chars: 6854
-      flags: []
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale:
-      run_at:
+      rationale: null
+      run_at: null
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
     status: trusted
 themas:
-  - gebouw
-  - gehuurde gebouwen
-  - onroerend goed
-  - uitbreidingswerken
-  - verbeteringswerken
-  - voorziening
+- gebouw
+- gehuurde gebouwen
+- onroerend goed
+- uitbreidingswerken
+- verbeteringswerken
+- voorziening
 ---
 
 # CBN-advies 2016/6 - Verbeteringswerken aan gehuurde gebouwen
-
-CBN-advies 2016/6 - Verbeteringswerken aan gehuurde gebouwen
 
 ## Inleiding
 

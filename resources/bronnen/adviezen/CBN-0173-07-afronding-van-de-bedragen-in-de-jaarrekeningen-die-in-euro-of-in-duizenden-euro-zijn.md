@@ -25,32 +25,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F1: frontmatter bevat thema 'opslag van afvalstoffen' (r.59) dat inhoudelijk niets met dit advies over afronding in euro te maken heeft — vermoedelijk een scraping-artefact waarbij een thema van een ander advies is ingeslopen. De body zelf is inhoudelijk correct en volledig; geen structuur- of extractie-artefacten in de tekst."
+    rationale: "Bevestiging van vorige QA (ronde 1). F1: frontmatter-thema 'opslag van afvalstoffen' (r.69) is een scraping-artefact — inhoudelijk totaal vreemd aan dit advies over afronding in euro. De body zelf is schoon en volledig; geen structuur- of extractie-artefacten in de tekst."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 0
-      max_section_chars: 2636
       file_size_chars: 2636
       flags: []
+      heading_count: 0
+      max_section_chars: 2636
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "F1: frontmatter bevat thema 'opslag van afvalstoffen' (r.59) dat inhoudelijk niets met dit advies over afronding in euro te maken heeft — vermoedelijk een scraping-artefact waarbij een thema van een ander advies is ingeslopen. De body zelf is inhoudelijk correct en volledig; geen structuur- of extractie-artefacten in de tekst."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "Bevestiging van vorige QA (ronde 1). F1: frontmatter-thema 'opslag van afvalstoffen' (r.69) is een scraping-artefact — inhoudelijk totaal vreemd aan dit advies over afronding in euro. De body zelf is schoon en volledig; geen structuur- of extractie-artefacten in de tekst."
       concrete_problemen:
-        - regel: 59
+        - regel: 69
           categorie: F1
           type: naam-mismatch
-          voorbeeld: '- opslag van afvalstoffen (thema hoort niet bij dit advies over afronding van jaarrekeningen in euro)'
+          voorbeeld: '- opslag van afvalstoffen (thema staat in frontmatter, hoort niet bij dit advies)'
 themas:
   - afronding
   - euro

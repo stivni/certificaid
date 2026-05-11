@@ -2,56 +2,64 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boek-waarin-de-jaarrekening-en-de-inventarisstukken-worden-opgenomen-opname-van-de
 datum: 1981-04-01
 gerelateerde_adviezen:
-  - datum: '2010-07-14'
-    titel: Duur van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
-  - datum: '1997-02-01'
-    titel: Beginselen van een regelmatige boekhouding
-    url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
-  - datum: '1996-11-01'
-    titel: Boeking en waardering van voorraden
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
-  - datum: '1977-12-01'
-    titel: Duur van het boekjaar
-    url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
+- datum: '2010-07-14'
+  titel: Duur van het boekjaar
+  url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar
+- datum: '1997-02-01'
+  titel: Beginselen van een regelmatige boekhouding
+  url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
+- datum: '1996-11-01'
+  titel: Boeking en waardering van voorraden
+  url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
+- datum: '1977-12-01'
+  titel: Duur van het boekjaar
+  url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
 nummer: CBN-advies 7/3
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boek-waarin-de-jaarrekening-en-de-inventarisstukken-worden-opgenomen-opname-van-de
-      sha256: e35b96d4655ff00b9a460b23d13f3fbe2ab7b00ce92adcb097759721ca36af50
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boek-waarin-de-jaarrekening-en-de-inventarisstukken-worden-opgenomen-opname-van-de
+    sha256: e35b96d4655ff00b9a460b23d13f3fbe2ab7b00ce92adcb097759721ca36af50
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:16:01Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel staat slechts eenmaal (r61). Geen andere artefacten gevonden: geen form-feeds, geen spurious line-breaks, geen TOC-residu, geen unicode-problemen, geen afgekapte zinnen. Voetnoten [^1] en [^2] correct aanwezig en gelinkt. Inhoud volledig (5 alinea's, beide vragen beantwoord)."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 2738
       file_size_chars: 2738
       flags: []
+      heading_count: 0
+      max_section_chars: 2738
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:01Z'
-      rationale: "B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel staat slechts eenmaal (r61). Geen andere artefacten gevonden: geen form-feeds, geen spurious line-breaks, geen TOC-residu, geen unicode-problemen, geen afgekapte zinnen. Voetnoten [^1] en [^2] correct aanwezig en gelinkt. Inhoud volledig (5 alinea's, beide vragen beantwoord)."
       concrete_problemen: []
+      rationale: 'B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de
+        H1-titel staat slechts eenmaal (r61). Geen andere artefacten gevonden: geen
+        form-feeds, geen spurious line-breaks, geen TOC-residu, geen unicode-problemen,
+        geen afgekapte zinnen. Voetnoten [^1] en [^2] correct aanwezig en gelinkt.
+        Inhoud volledig (5 alinea''s, beide vragen beantwoord).'
+      run_at: '2026-05-11T13:16:01Z'
+      status: trusted
+    rationale: 'B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel
+      staat slechts eenmaal (r61). Geen andere artefacten gevonden: geen form-feeds,
+      geen spurious line-breaks, geen TOC-residu, geen unicode-problemen, geen afgekapte
+      zinnen. Voetnoten [^1] en [^2] correct aanwezig en gelinkt. Inhoud volledig
+      (5 alinea''s, beide vragen beantwoord).'
+    status: trusted
 themas:
-  - inventaris
-  - jaarrekening
-  - opname waarderingsregels
-  - waarderingsregels
+- inventaris
+- jaarrekening
+- opname waarderingsregels
+- waarderingsregels
 ---
 
 # CBN advies 7-3 - Boek waarin de jaarrekening en de inventarisstukken worden opgenomen - Opname van de waarderingsregels

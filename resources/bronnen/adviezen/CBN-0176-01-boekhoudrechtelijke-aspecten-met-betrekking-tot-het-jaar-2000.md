@@ -3,46 +3,51 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-aspecten-met-betrek
 datum: 1999-02-01
 nummer: CBN-advies 176/1
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-aspecten-met-betrekking-tot-het-jaar-2000
-      sha256: 1b5d482fa1c89c87bcf7de36433ca0a9d3d2620f3c17f6156617a13f91dc898a
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-aspecten-met-betrekking-tot-het-jaar-2000
+    sha256: 1b5d482fa1c89c87bcf7de36433ca0a9d3d2620f3c17f6156617a13f91dc898a
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:09:17Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 2
-      max_section_chars: 10829
       file_size_chars: 17143
       flags: []
+      heading_count: 2
+      max_section_chars: 10829
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Laag-1 pass, geen flags. Twee ## headings met volledige titels, 11 voetnoten correct aangelegd, opsommingen via ''-'' consistent, sub-bullets via ''-'' correct genest. Groot document maar inhoud compleet en lopend. Geen PDF-artefacten.'
+      rationale: 'Laag-1 pass, geen flags. Twee ## headings met volledige titels,
+        11 voetnoten correct aangelegd, opsommingen via ''-'' consistent, sub-bullets
+        via ''-'' correct genest. Groot document maar inhoud compleet en lopend. Geen
+        PDF-artefacten.'
       run_at: '2026-05-11T12:09:17Z'
       status: trusted
-    rationale: 'Laag-1 pass, geen flags. Twee ## headings met volledige titels, 11 voetnoten correct aangelegd, opsommingen via ''-'' consistent, sub-bullets via ''-'' correct genest. Groot document maar inhoud compleet en lopend. Geen PDF-artefacten.'
+    rationale: 'Laag-1 pass, geen flags. Twee ## headings met volledige titels, 11
+      voetnoten correct aangelegd, opsommingen via ''-'' consistent, sub-bullets via
+      ''-'' correct genest. Groot document maar inhoud compleet en lopend. Geen PDF-artefacten.'
     status: trusted
 themas:
-  - informaticasysteem
-  - jaar 2000 problematiek
-  - kosten in verband met de overgang naar het jaar 2000
-  - kosten software
-  - millenniumovergang
-  - overgang naar het jaar 2000
-  - software
-  - voorziening
+- informaticasysteem
+- jaar 2000 problematiek
+- kosten in verband met de overgang naar het jaar 2000
+- kosten software
+- millenniumovergang
+- overgang naar het jaar 2000
+- software
+- voorziening
 ---
 
 # CBN-advies 176/1 - Boekhoudrechtelijke aspecten met betrekking tot het jaar 2000

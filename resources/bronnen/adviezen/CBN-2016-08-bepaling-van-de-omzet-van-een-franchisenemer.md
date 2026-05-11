@@ -12,40 +12,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Regels 61–65: de definitie van 'omzet' staat in een multi-line italic-blok: `* Onder omzet...` opent italic en sluit met `*` op regel 65, maar de bullet-items op regels 79–83 gebruiken ook `*` als bullet-marker terwijl ze in een aparte italic-context staan, wat markdown-rendering breekt (D4). Het italicblok op regels 61–65 is inhoudelijk correct maar sluit op een wijze die markdown-parsers inconsistent interpreteren. Overige inhoud compleet."
+    rationale: 'D4: regels 77–81 bevatten een multi-line italic-blok (`* Onder omzet...` opent op regel 77 en sluit op regel 81 met `*`) dat lege regels overspant — in vrijwel alle markdown-parsers breekt een `*...*` span bij een lege regel, waardoor de rendering onvoorspelbaar wordt. Regels 95–98 gebruiken `- *tekst*` als italic-bullet, wat correct is, maar door de voorafgaande multiline-italic context conflicteert dit. Overige inhoud inhoudelijk volledig.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 2
-      max_section_chars: 8072
       file_size_chars: 8277
       flags: []
+      heading_count: 2
+      max_section_chars: 8072
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "Regels 61–65: de definitie van 'omzet' staat in een multi-line italic-blok: `* Onder omzet...` opent italic en sluit met `*` op regel 65, maar de bullet-items op regels 79–83 gebruiken ook `*` als bullet-marker terwijl ze in een aparte italic-context staan, wat markdown-rendering breekt (D4). Het italicblok op regels 61–65 is inhoudelijk correct maar sluit op een wijze die markdown-parsers inconsistent interpreteren. Overige inhoud compleet."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'D4: regels 77–81 bevatten een multi-line italic-blok (`* Onder omzet...` opent op regel 77 en sluit op regel 81 met `*`) dat lege regels overspant — in vrijwel alle markdown-parsers breekt een `*...*` span bij een lege regel, waardoor de rendering onvoorspelbaar wordt. Regels 95–98 gebruiken `- *tekst*` als italic-bullet, wat correct is, maar door de voorafgaande multiline-italic context conflicteert dit. Overige inhoud inhoudelijk volledig.'
       concrete_problemen:
-        - regel: 61
+        - regel: 77
           categorie: D4
           type: other
-          voorbeeld: '* Onder omzet wordt verstaan... (multi-line italic opent hier)'
-        - regel: 65
+          voorbeeld: '* Onder omzet wordt verstaan... (opent multiline italic over lege regels heen)'
+        - regel: 81
           categorie: D4
           type: other
-          voorbeeld: '...voor hun bedrijf.* (italic sluit, maar bullet-items ertussen gebruiken ook *)'
-        - regel: 79
-          categorie: D4
-          type: other
-          voorbeeld: '- *een gemeenschappelijk uithangbord;* (italic bullet in apart blok, verwarring met vorig block)'
+          voorbeeld: '...voor hun bedrijf.* (sluit multiline italic na lege regels)'
 themas:
   - franchiseovereenkomst
   - franchising

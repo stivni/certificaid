@@ -12,32 +12,28 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: regel 56 bevat een duplicate TOC-blob als plain-text run-on string ('CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting...BesluitGevolgen van de vrijstelling') — exact dezelfde inhoud als de genummerde lijst op regels 52-55, een classic extractie-duplicatie. Verder is het document schoon: correcte headings, voetnoten, geen overige artefacten."
+    rationale: "Vorig verdict (needs-rework A3) was fout: regel 89 is een echte ## heading 'CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting...' — een afzonderlijk advies dat als sectie in de body staat, niet een duplicate TOC-blob. Document is volledig schoon: 6 correcte headings, alle voetnoten [^1]–[^12] aanwezig en gedefinieerd, geen form-feeds, geen onzichtbare unicode, geen column-bleed."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 10974
+      flags: []
       heading_count: 6
       max_section_chars: 3284
-      file_size_chars: 11957
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "A3: regel 56 bevat een duplicate TOC-blob als plain-text run-on string ('CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting...BesluitGevolgen van de vrijstelling') — exact dezelfde inhoud als de genummerde lijst op regels 52-55, een classic extractie-duplicatie. Verder is het document schoon: correcte headings, voetnoten, geen overige artefacten."
-      concrete_problemen:
-        - regel: 56
-          categorie: A3
-          type: other
-          voorbeeld: ' CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting van transacties van enige betekenis...BesluitGevolgen van de vrijstelling '
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "Vorig verdict (needs-rework A3) was fout: regel 89 is een echte ## heading 'CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting...' — een afzonderlijk advies dat als sectie in de body staat, niet een duplicate TOC-blob. Document is volledig schoon: 6 correcte headings, alle voetnoten [^1]–[^12] aanwezig en gedefinieerd, geen form-feeds, geen onzichtbare unicode, geen column-bleed."
+      concrete_problemen: []
 themas:
   - te verwaarlozen betekenis
   - vrijstelling
@@ -45,15 +41,6 @@ themas:
 ---
 
 # CBN-advies 2012/10 - Te verwaarlozen betekenis
-
-1. Artikel 107 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna: KB W.Venn.) 
-2. Verslag namens de Commissie belast met de problemen inzake handels- en economisch recht betreffende het wetsontwerp tot wijziging van het Wetboek van Vennootschappen betreffende bepaalde informatieverplichtingen van middelgrote ondernemingen en de verplichting een geconsolideerde jaarrekening op te stellen
-
-3. CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting van transacties van enige betekenis met verbonden partijen buiten normale marktvoorwaarden, zoals bepaald in het koninklijk besluit van 10 augustus 2009 
-4. Besluit 
-5. Gevolgen van de vrijstelling 
-
- CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting van transacties van enige betekenis met verbonden partijen buiten normale marktvoorwaarden, zoals bepaald in het koninklijk besluit van 10 augustus 2009BesluitGevolgen van de vrijstelling 
 
 ## Inleiding
 
@@ -80,7 +67,7 @@ Wat de afbakening van de consolidatiekring betreft, voorziet artikel 107, 1° va
 
 De wet van 22 maart 2012 wijzigt hierdoor weinig aan de bestaande toepassing in het Belgisch recht. Het begrip “van te verwaarlozen betekenis” is niet nieuw en wordt reeds jaren gebruikt in het Belgisch jaarrekeningenrecht. De geconsolideerde jaarrekening van een moedervennootschap met alleen maar dochterondernemingen van te verwaarlozen betekenis, bevatte ook vóór de wet van 22 maart 2012 geen informatie betreffende dergelijke dochterondernemingen. De moedervennootschap motiveerde dit als dusdanig in de toelichting van haar geconsolideerde jaarrekening[^8]. Het is steeds de verantwoordelijkheid van het bestuursorgaan van de moedervennootschap om het begrip “van te verwaarlozen betekenis” een concrete invulling te geven. 
 
-## Verslag namens de Commissie belast met de problemen inzake handels- en economisch recht betreffende het wetsontwerp tot wijziging van het Wetboek van Vennootschappen betreffende bepaalde informatieverplichtingen van middelgrote ondernemingen en de verplichting een geconsolideerde jaarrekening op te stellen[^9] 
+## Verslag namens de Commissie belast met de problemen inzake handels- en economisch recht betreffende het wetsontwerp tot wijziging van het Wetboek van Vennootschappen betreffende bepaalde informatieverplichtingen van middelgrote ondernemingen en de verplichting een geconsolideerde jaarrekening op te stellen[^9]
 
 Tijdens de voorbereidende werkzaamheden van de wet van 22 maart 2012 heeft de minister van Economie verklaard dat de regering ervoor opteert om het begrip “van te verwaarlozen betekenis” niet haarscherp af te lijnen maar hiervoor een open begrip te gebruiken. Dit laat toe dit begrip evolutief in te vullen en hierdoor wordt tevens vermeden dat de wet telkens aan een nieuwe realiteit moet worden aangepast. Hij verwijst vervolgens naar de Commissie voor Boekhoudkundige Normen voor de verdere omschrijving van het begrip.
 
@@ -96,7 +83,7 @@ De Commissie is dan ook van oordeel dat een moedervennootschap slechts gebruik k
 
 Deze regel valt, zoals tevens gesteld door de bevoegde minister tijdens de parlementaire voorbereidingen, niet te herleiden tot het bepalen van een percentage van bijvoorbeeld het geconsolideerde balanstotaal of de geconsolideerde omzet. De regel moet integendeel mede kwalitatief beoordeeld worden.
 
-## Gevolgen van de vrijstelling 
+## Gevolgen van de vrijstelling
 
 De Commissie wil evenwel niet nalaten te wijzen op een direct gevolg van de vrijstelling van consolidatieplicht in de hoger aangehaalde omstandigheden. Geassocieerde ondernemingen[^11] worden in de geconsolideerde jaarrekening opgenomen conform de vermogensmutatiemethode. Wanneer op een deelneming de vermogensmutatiemethode wordt toegepast, wordt zij in de geconsolideerde balans opgenomen voor het bedrag dat overeenkomt met het deel van het eigen vermogen van de betrokken vennootschap, inclusief het resultaat over het boekjaar, dat deze deelneming belichaamt[^12]. Bij vrijstelling van opstelling van de geconsolideerde jaarrekening worden deze participaties in de enkelvoudige jaarrekening opgenomen aan aanschaffingswaarde, wat mogelijks een verlies aan informatie betekent.
 

@@ -3,47 +3,53 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrecht
 datum: 2019-09-30
 nummer: CBN-advies 2019/10
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
-      sha256: 7d925eef4c564534b49c0be59c27ce430bea5653fea0641887cda8ac5c889f72
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
+    sha256: 7d925eef4c564534b49c0be59c27ce430bea5653fea0641887cda8ac5c889f72
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 7
-      max_section_chars: 6504
       file_size_chars: 19094
       flags: []
+      heading_count: 7
+      max_section_chars: 6504
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen extractie-artefacten. Geen TOC-fragment in de body, geen broken italics, geen orphan-ankers. Zeven headings correct gelaagd. Voetnoten [^1]–[^29] volledig en correct. Inhoud compleet (aanvangsmoment, boekjaar, dubbel vs. vereenvoudigd, publicatieverplichting). Laag-1: pass, geen flags.'
+      rationale: 'Geen extractie-artefacten. Geen TOC-fragment in de body, geen broken
+        italics, geen orphan-ankers. Zeven headings correct gelaagd. Voetnoten [^1]–[^29]
+        volledig en correct. Inhoud compleet (aanvangsmoment, boekjaar, dubbel vs.
+        vereenvoudigd, publicatieverplichting). Laag-1: pass, geen flags.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Geen extractie-artefacten. Geen TOC-fragment in de body, geen broken italics, geen orphan-ankers. Zeven headings correct gelaagd. Voetnoten [^1]–[^29] volledig en correct. Inhoud compleet (aanvangsmoment, boekjaar, dubbel vs. vereenvoudigd, publicatieverplichting). Laag-1: pass, geen flags.'
+    rationale: 'Geen extractie-artefacten. Geen TOC-fragment in de body, geen broken
+      italics, geen orphan-ankers. Zeven headings correct gelaagd. Voetnoten [^1]–[^29]
+      volledig en correct. Inhoud compleet (aanvangsmoment, boekjaar, dubbel vs. vereenvoudigd,
+      publicatieverplichting). Laag-1: pass, geen flags.'
     status: trusted
 themas:
-  - boekhoudkundige verplichting
-  - vrij beroep
-  - boekhoudplichtige onderneming
-  - dubbele boekhouding
-  - vereenvoudigde boekhouding
-  - omzetcijfer
-  - publicatie
-  - openbaarmaking
-  - jaarrekening
+- boekhoudkundige verplichting
+- vrij beroep
+- boekhoudplichtige onderneming
+- dubbele boekhouding
+- vereenvoudigde boekhouding
+- omzetcijfer
+- publicatie
+- openbaarmaking
+- jaarrekening
 ---
 
 # CBN-advies 2019/10 – De boekhoudkundige en jaarrekeningrechtelijke verplichtingen van een beoefenaar van een vrij beroep

@@ -12,40 +12,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:33Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: twee heading-achtige regels zonder ## prefix: regel 105 ('Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt') en regel 137 ('Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd') — beiden staan als plain-text in de body terwijl ze in de inhoudstafel als sectiehoofd vermeld staan. A3: de genummerde inhoudstafel op regels 47-66 staat als body-tekst vóór de eerste ## heading, maar is ook al inhoud van de TOC — dubbele presentatie van structuur."
+    rationale: "B5: twee sectiehoofdingen staan als plain-text in de body zonder ## prefix: regel 111 ('Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt') en regel 143 ('Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd') — beiden zijn secties in de inhoudstafel maar missen de heading-markering. B3: regel 72 herhaalt 'vermeldingen in de jaarrekening' als orphan-zin direct na de # heading."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 15
-      max_section_chars: 11951
-      file_size_chars: 21300
+      file_size_chars: 20462
       flags: []
+      heading_count: 15
+      max_section_chars: 11113
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:33Z'
-      rationale: "B5: twee heading-achtige regels zonder ## prefix: regel 105 ('Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt') en regel 137 ('Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd') — beiden staan als plain-text in de body terwijl ze in de inhoudstafel als sectiehoofd vermeld staan. A3: de genummerde inhoudstafel op regels 47-66 staat als body-tekst vóór de eerste ## heading, maar is ook al inhoud van de TOC — dubbele presentatie van structuur."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "B5: twee sectiehoofdingen staan als plain-text in de body zonder ## prefix: regel 111 ('Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt') en regel 143 ('Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd') — beiden zijn secties in de inhoudstafel maar missen de heading-markering. B3: regel 72 herhaalt 'vermeldingen in de jaarrekening' als orphan-zin direct na de # heading."
       concrete_problemen:
-        - regel: 105
+        - regel: 111
           categorie: B5
           type: other
           voorbeeld: Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt
-        - regel: 137
+        - regel: 143
           categorie: B5
           type: other
           voorbeeld: Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd
-        - regel: 47
-          categorie: A3
+        - regel: 72
+          categorie: B3
           type: other
-          voorbeeld: "1. Inleiding \n2. Onbeperkte aansprakelijkheid: overzicht \n... (inhoudsopgave als plain-text body)"
+          voorbeeld: vermeldingen in de jaarrekening
 themas:
   - onbeperkt aansprakelijk vennoot
   - toelichting
@@ -55,27 +55,6 @@ themas:
 # CBN-advies 2017/16 – Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening
 
 vermeldingen in de jaarrekening
-
-1. Inleiding 
-2. Onbeperkte aansprakelijkheid: overzicht 
-3. Neerleggingsplicht: relevante bepalingen 
-4. Overzicht van de te verstrekken gegevens 
-  1. Lijst van ondernemingen waarvoor onbeperkte aansprakelijkheid geldt 
-  2. Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt 
-  3. Uitsluitingen waarbij de opname van de jaarrekening niet van toepassing is 
-    1. Algemeen 
-    2. Openbaarmaking van de jaarrekening van de onderneming met onbeperkte aansprakelijkheid 
-    3. Jaarrekening opgenomen in consolidatie 
-
-  4. Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd 
-    1. Algemene principes 
-    2. Belgische ondernemingen
-
-      1. Inventaris 
-      2. Waarderingsregels 
-
-    3. Buitenlandse ondernemingen 
-    4. Voorbeeld 
 
 ## Inleiding
 
@@ -159,7 +138,7 @@ Deze principes indachtig, is de Commissie van mening dat:
 - desgevallend, bijkomend, een passende voorziening moet worden geboekt in de jaarrekening van de onbeperkt aansprakelijke vennoot (i.e. wanneer een schuld waarschijnlijk is geworden of zelfs zeker, maar zonder dat het bedrag al gekend is), waarbij een inschatting wordt gemaakt van de uiteindelijke kost in hoofde van de onbeperkt (hoofdelijk) aansprakelijke vennoot; 
 - een schuld moet worden geboekt wanneer deze zeker en vaststaand is geworden. 
 
-#### Belgische ondernemingen[^18] 
+#### Belgische ondernemingen[^18]
 
 ##### Inventaris
 

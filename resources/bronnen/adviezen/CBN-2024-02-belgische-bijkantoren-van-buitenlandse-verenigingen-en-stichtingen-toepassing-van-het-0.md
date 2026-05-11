@@ -25,32 +25,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:13Z'
+    confirmed_at: '2026-05-11T15:26:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: de inhoudsopgave verschijnt tweemaal — eenmaal als geïndenteerde lijst (regels 83–132) en eenmaal als aaneengesloten platte tekst zonder opmaak op regels 134–135 ('-- Verplichtingen eigen aan buitenlandse verenigingen en stichtingen...'). Dit is een duidelijk TOC-duplicaat. Inhoud verder inhoudelijk volledig en uitgebreid; voetnoten [^1]–[^77] volledig."
+    rationale: "A3: op regel 95 staat 'Sluiting van het bijkantoor' als plain-text-alinea onmiddellijk na de H1-titel en vóór ## Inleiding — dit is een TOC-fragment of navigatie-relic dat niet in de body-inhoud thuishoort (de werkelijke sectie 'Sluiting van het bijkantoor' staat pas op regel 352). Laag-2 ronde 1 identificeerde al een TOC-duplicaat (regels 134-135); bij herlezing is dit A3-artefact nog steeds aanwezig. Overige inhoud volledig; 77 voetnoten correct."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 39
-      max_section_chars: 20184
-      file_size_chars: 50429
+      file_size_chars: 47375
       flags: []
+      heading_count: 39
+      max_section_chars: 20183
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:13Z'
-      rationale: "A3: de inhoudsopgave verschijnt tweemaal — eenmaal als geïndenteerde lijst (regels 83–132) en eenmaal als aaneengesloten platte tekst zonder opmaak op regels 134–135 ('-- Verplichtingen eigen aan buitenlandse verenigingen en stichtingen...'). Dit is een duidelijk TOC-duplicaat. Inhoud verder inhoudelijk volledig en uitgebreid; voetnoten [^1]–[^77] volledig."
+      run_at: '2026-05-11T15:26:40Z'
+      rationale: "A3: op regel 95 staat 'Sluiting van het bijkantoor' als plain-text-alinea onmiddellijk na de H1-titel en vóór ## Inleiding — dit is een TOC-fragment of navigatie-relic dat niet in de body-inhoud thuishoort (de werkelijke sectie 'Sluiting van het bijkantoor' staat pas op regel 352). Laag-2 ronde 1 identificeerde al een TOC-duplicaat (regels 134-135); bij herlezing is dit A3-artefact nog steeds aanwezig. Overige inhoud volledig; 77 voetnoten correct."
       concrete_problemen:
-        - regel: 134
+        - regel: 95
           categorie: A3
           type: other
-          voorbeeld: -- Verplichtingen eigen aan buitenlandse verenigingen en stichtingenHet begrip 'bijkantoor'Publicatieverplichtingen van buitenlandse verenigingen en stichtingen-- Voorafgaand...
+          voorbeeld: 'Sluiting van het bijkantoor (losse tekstregel tussen H1-titel en ## Inleiding, TOC-relic)'
+        - regel: 138
+          categorie: A6
+          type: other
+          voorbeeld: '## Publicatieverplichtingen van buitenlandse verenigingen en stichtingen (heading zonder lege regel na voorgaande paragraaf)'
 themas:
   - bijkantoor
   - publicatie
@@ -80,59 +84,7 @@ themas:
 
 # CBN-advies 2024/02 – Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen
 
-1. Inleiding 
-2. Toepassing van het Belgisch boekhoudrecht op bijkantoren van buitenlandse verenigingen en stichtingen 
-  1. Het principe: dubbele boekhouding 
-  2. Vereenvoudigde boekhouding
-
-  3. Verplichtingen eigen aan buitenlandse verenigingen en stichtingen 
-
-3. Het begrip ‘bijkantoor’ 
-4. Publicatieverplichtingen van buitenlandse verenigingen en stichtingen 
-  1. Voorafgaand aan de opening van het Belgisch bijkantoor 
-  2. Jaarlijkse neerlegging van de jaarrekening 
-  3. Geen neerleggingsverplichting in het land van herkomst 
-
-5. Boekhoudplan van het bijkantoor 
-6. Interne jaarrekening van het bijkantoor 
-  1. Vorm en inhoud van de interne jaarrekening van het bijkantoor 
-  2. Waarderingsregels gebruikt bij de opstelling van de interne jaarrekening 
-    1. Bestemming van activa en passiva aan het bijkantoor 
-    2. Waarderingscriteria van de aan het bijkantoor bestemde activa en passiva 
-
-7. Functionele valuta van het bijkantoor 
-  1. De norm: de euro 
-  2. De uitzondering: een andere munt dan de euro
-
-    1. Bepaling van de functionele valuta van het bijkantoor 
-    2. Aanvraag tot afwijking 
-      1. Bevoegde minister 
-      2. Motivering van de aanvraag 
-      3. Termijn voor het indienen van de aanvraag 
-
-    3. Gevolgen van de afwijking 
-      1. Omrekening van de elementen van de balans en de resultatenrekening 
-      2. Geldigheidsduur van de afwijking 
-      3. Vermelding van de afwijking in de toelichting 
-      4. Verlenging van de afwijking 
-      5. Verandering van functionele valuta in de door de afwijking bestreken periode 
-      6. Impact van de afwijking op de belastingaangifte van het bijkantoor 
-
-8. Verhouding tussen het moederbedrijf en het bijkantoor 
-  1. Gebruik van de relatierekening of rekening-courant door een Belgisch bijkantoor 
-  2. Resultaatbestemming van het bijkantoor 
-
-9. Jaarverslag, controleverslag en sociale balans 
-  1. Ontbreken van een jaarverslag specifiek van het bijkantoor 
-  2. Ontbreken van een verslag van de commissaris specifiek van het bijkantoor 
-  3. Verplichting tot opmaken en neerleggen van een sociale balans specifiek van het bijkantoor 
-
-10. Bewaarplicht voor boeken, rekeningen en verantwoordingsstukken eigen aan de activiteiten van het bijkantoor
-
-11. Sluiting van het bijkantoor 
-
--- Verplichtingen eigen aan buitenlandse verenigingen en stichtingenHet begrip ‘bijkantoor’Publicatieverplichtingen van buitenlandse verenigingen en stichtingen-- Voorafgaand aan de opening van het Belgisch bijkantoor-- Jaarlijkse neerlegging van de jaarrekening-- Geen neerleggingsverplichting in het land van herkomstBoekhoudplan van het bijkantoorInterne jaarrekening van het bijkantoor-- Vorm en inhoud van de interne jaarrekening van het bijkantoor-- Waarderingsregels gebruikt bij de opstelling van de interne jaarrekening---- Bestemming van activa en passiva aan het bijkantoor---- Waarderingscriteria van de aan het bijkantoor bestemde activa en passivaFunctionele valuta van het bijkantoor-- De norm: de euro-- De uitzondering: een andere munt dan de euro
-Sluiting van het bijkantoor 
+Sluiting van het bijkantoor
 
 ## Inleiding
 
@@ -151,7 +103,7 @@ Voor buitenlandse verenigingen en stichtingen is het Belgisch boekhoudrecht alle
 
 De bijkantoren (en centra van werkzaamheden) moeten een afzonderlijke boekhouding[^6] voeren op basis van een boekhoudplan dat is aangepast aan hun activiteiten en overeenstemt met de minimumindeling van het algemeen rekeningenstelsel (hierna: MAR)[^7]. Daarnaast moeten ze ook een inventaris[^8] en een jaarrekening[^9] opmaken. Ze moeten hierbij de bepalingen van het Wetboek van economisch recht (hierna: WER)[^10] en zijn uitvoeringsbesluit[^11] naleven, alsook de bepalingen van het Wetboek van vennootschappen en verenigingen (hierna: WVV) en van zijn uitvoeringsbesluit (hierna: KB WVV)[^12]. De bijkantoren moeten hun jaarrekening evenwel niet openbaar maken.
 
-### Vereenvoudigde boekhouding[^13] 
+### Vereenvoudigde boekhouding[^13]
 
 Belgische bijkantoren van buitenlandse verenigingen en stichtingen die niet meer dan één van de criteria vermeld in artikelen 3:47, § 2 en 3:51, § 2 WVV[^14] overschrijden, behoeven geen boekhouding te voeren volgens de voorschriften van artikelen III.83 en III.84 WER [dubbele boekhouding] wanneer de verrichtingen die betrekking hebben mutaties in contant geld of op rekeningen zonder uitstel, getrouw en volledig en naar tijdsorde ingeschreven worden in een ongesplitst dagboek[^15].
 
@@ -252,7 +204,7 @@ Artikel 3:5 KB WVV bepaalt immers het volgende: “in de jaarrekening worden de 
 
 Geen enkele wettelijke of reglementaire bepaling verbiedt het Belgische bijkantoor echter om zijn dagelijkse boekhouding te voeren in een vreemde munt zolang de boekhoudkundige synthesestaten opgemaakt worden in euro.[^48] 
 
-### De uitzondering: een andere munt dan de euro[^49] 
+### De uitzondering: een andere munt dan de euro[^49]
 
 Indien de personen belast met het beheer van het Belgische bijkantoor menen dat de functionele valuta van het bijkantoor een andere munt is dan de euro, kunnen zij een aanvraag tot afwijking indienen bij de minister bevoegd voor Justitie of bij zijn afgevaardigde zodat het bijkantoor de toelating zou hebben de boekhouding te voeren en de jaarrekening op te maken in deze andere munt.[^50] 
 
@@ -268,7 +220,7 @@ Het gaat bijvoorbeeld om een Belgisch bijkantoor dat effectief de hoofdzaak van 
 
 #### Aanvraag tot afwijking
 
-##### Bevoegde minister 
+##### Bevoegde minister
 
 De aanvraag tot afwijking moet worden ingediend bij de minister bevoegd voor Justitie of zijn afgevaardigde.[^53] 
 
@@ -280,7 +232,7 @@ De personen belast met het beheer van het bijkantoor dienen in de aanvraag tot a
 
 Bij de aanvraag tot afwijking dient een kopie van de interne jaarrekening van het laatst afgesloten boekjaar van het bijkantoor te worden gevoegd, behalve wanneer de aanvraag het eerste boekjaar van het bijkantoor betreft. 
 
-##### Termijn voor het indienen van de aanvraag 
+##### Termijn voor het indienen van de aanvraag
 
 De aanvraag tot afwijking dient te worden ingediend vóór afsluiting van het boekjaar waarvoor de afwijking wordt gevraagd. Als de aanvraag te laat wordt ingediend, zal de Commissie de minister bevoegd voor Justitie of zijn afgevaardigde adviseren deze te verwerpen. 
 
@@ -296,19 +248,19 @@ De Commissie staat toe dat de omzetting gebeurt op datum van de openingsbalans e
 
 De verrichtingen van het lopende boekjaar die reeds uitgevoerd werden in de nieuwe functionele valuta nog voor het verkrijgen van de afwijking, moeten niet omgerekend worden; ze worden geboekt op hun oorspronkelijke waarde. Verrichtingen die uitgevoerd zijn in euro gedurende het boekjaar moeten daarentegen omgerekend worden volgens de toepasselijke regels voor deviezenverrichtingen.[^59] 
 
-##### Geldigheidsduur van de afwijking 
+##### Geldigheidsduur van de afwijking
 
 Elke afwijking voor het voeren van de boekhouding en het opstellen van de jaarrekening in een andere munt dan de euro, zal slechts voor drie opeenvolgende boekjaren toegekend worden. 
 
 Indien de aanvraag het eerste boekjaar van het bijkantoor betreft, zal de afwijking bij wijze van uitzondering slechts geldig zijn voor dat enkele boekjaar. 
 
-##### Vermelding van de afwijking in de toelichting 
+##### Vermelding van de afwijking in de toelichting
 
 Wanneer het bijkantoor geniet van een afwijking, moet zij deze vermelden bij de waarderingsregels in de toelichting bij de interne jaarrekening.[^60] 
 
 De Commissie is van oordeel dat deze vermelding ook een bevestiging moet bevatten van de personen belast met het beheer van het bijkantoor dat de redenen waarom de afwijking werd verleend onverkort van toepassing zijn op de jaarrekening in kwestie.[^61] 
 
-##### Verlenging van de afwijking 
+##### Verlenging van de afwijking
 
 Het bijkantoor dat een verlenging van de toegekende afwijking wenst te verkrijgen, dient een aanvraag in te dienen voor afsluitdatum van het boekjaar waarvoor de verlening wordt aangevraagd. 
 
@@ -376,7 +328,7 @@ De buitenlandse vereniging (stichting) met een Belgisch bijkantoor dient een soc
 
 De buitenlandse vereniging (of stichting) dient de sociale balans van haar Belgische bijkantoor neer te leggen samen met en volgens dezelfde modaliteiten als haar jaarrekening.[^72] 
 
-## Bewaarplicht voor boeken, rekeningen en verantwoordingsstukken eigen aan de activiteiten van het bijkantoor[^73] 
+## Bewaarplicht voor boeken, rekeningen en verantwoordingsstukken eigen aan de activiteiten van het bijkantoor[^73]
 
 De buitenlandse vereniging of stichting dient de boeken, rekeningen en verantwoordingsstukken betreffende haar Belgische bijkantoren in België te bewaren.[^74]
  Als deze documenten niet fysiek aanwezig zijn in België, moeten zij er wel toegankelijk zijn en bewaard worden hetzij in origineel, hetzij in afschrift, overeenkomstig art. III.86, vierde lid, III.87, § 2, tweede lid en III.88, tweede lid WER en art. 8 KB WER.

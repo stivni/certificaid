@@ -12,48 +12,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A2: regels 68-69 bevatten een genummerde TOC-lijst ('1. Definitie treasury vennootschappen...' / '2. Bepaling van de functionele valuta...') direct na de H1-titel — dit is een TOC-fragment dat als body-tekst staat terwijl de inhoud daarna als #### headings wordt herhaald. B4: twee #### headings in all-caps (r.74, r.94) zonder enig bovenliggend ## niveau. B2: heading-hiërarchie springt van H1 naar #### zonder ## of ### tussenniveau."
+    rationale: "A2: r82-83 bevat een genummerde TOC-lijst ('1. Definitie treasury vennootschappen...' / '2. Bepaling van de functionele valuta...') direct na de H1-titel als plain-text body — dit is een TOC-fragment dat niet verwijderd werd. B2: heading-hiërarchie springt direct van H1 naar ## (geen sprong aanwezig) — de twee ## headings op r88 en r108 zijn correct, maar de eerder gerapporteerde #### headings zijn in deze versie niet aanwezig (scraper-fix verholpen). Echter de TOC op r82-83 is nog steeds aanwezig als ETL-artefact."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 2
-      max_section_chars: 4440
       file_size_chars: 7309
       flags: []
+      heading_count: 2
+      max_section_chars: 4440
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "A2: regels 68-69 bevatten een genummerde TOC-lijst ('1. Definitie treasury vennootschappen...' / '2. Bepaling van de functionele valuta...') direct na de H1-titel — dit is een TOC-fragment dat als body-tekst staat terwijl de inhoud daarna als #### headings wordt herhaald. B4: twee #### headings in all-caps (r.74, r.94) zonder enig bovenliggend ## niveau. B2: heading-hiërarchie springt van H1 naar #### zonder ## of ### tussenniveau."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "A2: r82-83 bevat een genummerde TOC-lijst ('1. Definitie treasury vennootschappen...' / '2. Bepaling van de functionele valuta...') direct na de H1-titel als plain-text body — dit is een TOC-fragment dat niet verwijderd werd. B2: heading-hiërarchie springt direct van H1 naar ## (geen sprong aanwezig) — de twee ## headings op r88 en r108 zijn correct, maar de eerder gerapporteerde #### headings zijn in deze versie niet aanwezig (scraper-fix verholpen). Echter de TOC op r82-83 is nog steeds aanwezig als ETL-artefact."
       concrete_problemen:
-        - regel: 68
+        - regel: 82
           categorie: A2
           type: dotted-leader
-          voorbeeld: 1. Definitie treasury vennootschappen of financieringsvennootschappen (TOC-residu als body-tekst)
-        - regel: 69
+          voorbeeld: 1. Definitie treasury vennootschappen of financieringsvennootschappen
+        - regel: 83
           categorie: A2
           type: dotted-leader
-          voorbeeld: 2. Bepaling van de functionele valuta bij financieringsvennootschappen (TOC-residu)
-        - regel: 74
-          categorie: B4
-          type: other
-          voorbeeld: '#### Definitie treasury vennootschappen of financieringsvennootschappen (#### zonder ## bovenliggend)'
-        - regel: 94
-          categorie: B4
-          type: other
-          voorbeeld: '#### Bepaling van de functionele valuta bij financieringsvennootschappen (#### zonder ##)'
-        - regel: 74
-          categorie: B2
-          type: other
-          voorbeeld: 'H1 → #### zonder ## of ### tussenniveau (hiërarchiesprong)'
+          voorbeeld: 2. Bepaling van de functionele valuta bij financieringsvennootschappen
 themas:
   - financieringsvennootschappen
   - functionele munt
@@ -71,7 +59,7 @@ themas:
 De Commissie heeft op vraag van de Minister van Economie onderzocht in welke mate advies CBN-advies 117/3 - Voeren van de boekhouding en opstellen van de jaarrekening in een andere munt dan de euro[^1]
 – dient toegepast te worden in hoofde van financieringsvennootschappen.
 
-#### Definitie treasury vennootschappen of financieringsvennootschappen
+## Definitie treasury vennootschappen of financieringsvennootschappen
 
 Binnen de krijtlijnen van dit advies wordt een financieringsvennootschap omschreven als zijnde een vennootschap naar Belgisch recht [of een vaste inrichting van een buitenlandse vennootschap] die als taak heeft om binnen een al dan niet multinationale groep financieringsactiviteiten te organiseren voor de leden van de groep.
 
@@ -91,7 +79,7 @@ De balans van dergelijke entiteiten wordt gekenmerkt - zowel op actief als passi
 
 Dergelijke entiteit zal vaak aan cash-pooling doen wat inhoudt dat de overtollige middelen die in sommige groepsvennootschappen aanwezig zijn aan de financieringsvennootschap worden overgemaakt die deze dan toewijst aan andere groepsleden die financiering nodig hebben. Het zal ook deze vennootschap zijn die indekkingoperaties opzet om de groep te behoeden voor interest- en wisselkoersrisico’s. In voorkomend geval zal de financieringsvennootschap zich inlaten met de organisatie van de beleggingen van de groep.
 
-#### Bepaling van de functionele valuta bij financieringsvennootschappen
+## Bepaling van de functionele valuta bij financieringsvennootschappen
 
 Het eerder verschenen CBN-advies 117/3 is onverwijld van toepassing bij de vaststelling van de functionele valuta, ook van financieringsvennootschappen. Doch, omwille van de specifieke karakteristieken van financieringsvennootschappen werd, zoals reeds gesteld, door de Minister van Economie aan de Commissie gevraagd het bestaand advies 117/3 aan te vullen.
 

@@ -25,48 +25,48 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:35Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere problemen: D4 op r.437 en r.444 ('** 20.09.91**' / '** 01.10.91**' met spatie na openings-**); A9 op r.475 ('Aanschaffigswaarde' = ontbrekende 't') en r.499 ('op terminijn' = dubbele 'i'); E2/multi-line tabellen in de resultaatschema's (r.261-328) hebben celinhoudsplitsing over meerdere regels wat standaard markdown-rendering breekt. Inhoud omvangrijk maar qua structuur herkenbaar."
+    rationale: "Meerdere ETL-artefacten bevestigd na re-QA: D4 op r.435 en r.442 ('** 20.09.91**' / '** 01.10.91**' met spatie na openings-**); A9 op r.474 ('Aanschaffigswaarde', ontbrekende 't') en r.498 ('op terminijn', dubbele 'i'); E2 op r.252-254 en r.515 (multi-line tabelcellen die kolommen splitsen over meerdere regels, standaard markdown-rendering breekt). Structuur en inhoud omvangrijk maar herkenbaar."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 14
-      max_section_chars: 17419
-      file_size_chars: 41626
+      file_size_chars: 41254
       flags: []
+      heading_count: 14
+      max_section_chars: 11224
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "Meerdere problemen: D4 op r.437 en r.444 ('** 20.09.91**' / '** 01.10.91**' met spatie na openings-**); A9 op r.475 ('Aanschaffigswaarde' = ontbrekende 't') en r.499 ('op terminijn' = dubbele 'i'); E2/multi-line tabellen in de resultaatschema's (r.261-328) hebben celinhoudsplitsing over meerdere regels wat standaard markdown-rendering breekt. Inhoud omvangrijk maar qua structuur herkenbaar."
+      run_at: '2026-05-11T15:19:35Z'
+      rationale: "Meerdere ETL-artefacten bevestigd na re-QA: D4 op r.435 en r.442 ('** 20.09.91**' / '** 01.10.91**' met spatie na openings-**); A9 op r.474 ('Aanschaffigswaarde', ontbrekende 't') en r.498 ('op terminijn', dubbele 'i'); E2 op r.252-254 en r.515 (multi-line tabelcellen die kolommen splitsen over meerdere regels, standaard markdown-rendering breekt). Structuur en inhoud omvangrijk maar herkenbaar."
       concrete_problemen:
-        - regel: 437
+        - regel: 435
           categorie: D4
           type: other
           voorbeeld: '** 20.09.91**'
-        - regel: 444
+        - regel: 442
           categorie: D4
           type: other
           voorbeeld: '** 01.10.91**'
-        - regel: 475
+        - regel: 474
           categorie: A9
           type: ocr-confusion
-          voorbeeld: Aandelen - Aanschaffigswaarde
-        - regel: 499
+          voorbeeld: 510... | Aandelen - Aanschaffigswaarde | 12.600
+        - regel: 498
           categorie: A9
           type: ocr-confusion
-          voorbeeld: op terminijn verkochte effecten
-        - regel: 261
+          voorbeeld: op terminijn verkochte effecten | 100 |
+        - regel: 252
           categorie: E2
           type: pseudo-table
-          voorbeeld: "| Noteringsdata | | Koers van de optie \n | | Koers van het aandeel..."
+          voorbeeld: '| Noteringsdata | | Koers van de optie \n | | Koers van het aandeel...'
 themas:
   - aandelen
   - aandelenopties
@@ -83,19 +83,6 @@ themas:
 ---
 
 # Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen (Err., Bull. CBN, nr. 30, februari 1993, p. 8)
-
-1. Deel I : Reeksen van verrichtingen op eenzelfde onderliggend aandeel 
-  1. Als dekking bestemde verrichtingen 
-    1. Eliminatie voor de toekomst van elk risico en elk voordeel verbonden aan de latere koersevolutie 
-    2. Dekkingsverrichtingen met opties die de onderneming beschermen tegen de ongunstig weerslag van een koersschommeling maar waarbij zij het voordeel van een gunstige koersevolutie geheel of ten dele behoudt 
-      1. Opties ter dekking van vaste rechten en verplichtingen (contant of op termijn 
-      2. Opties ter dekking van geschreven opties 
-
-  2. Reeksen van situaties en verrichtingen in tegengestelde zin op een zelfde onderliggend actief, buiten de dekkingsverrichtingen waarvan sprake sub 1 
-
-2. Gevolgen wanneer er geen georganiseerde en liquide markt bestaat 
-3. In de toelichting te vermelden gegevens over optiecontracten 
-4. Deel IV: Samenvatting 
 
 ## Inleiding
 
@@ -146,7 +133,7 @@ bestemde verrichtingen moet een onderscheid worden gemaakt tussen deze die :
 
 	geheel of gedeeltelijk de voordelen van een gunstige koersevolutie behoudt. 
 
-#### Eliminatie voor de toekomst van elk risico en elk voordeel verbonden aan de latere koersevolutie 
+#### Eliminatie voor de toekomst van elk risico en elk voordeel verbonden aan de latere koersevolutie
 
 In dergelijke gedekte situaties : 
 
@@ -169,12 +156,14 @@ In dergelijk geval van volkomen dekking :
 5 juli 1992 : een onderneming 
 
 | bezit | | 95 effecten E | | verworven tegen | | 2.500 F | 
+|---|---|---|---|---|---|---|
 | verkoopt op termijn | | 100 effecten E | | | | 4.610 F | 
 | koopt contant | | 5 effecten E | | | | 4.580 F | 
 
 Op die datum is haar resultaat definitief gerealiseerd ten belope van : 
 
 | 100 x 4.610 = | | 461.000 F | 
+|---|---|---|
 | 95 x 2.500 = | | - 237.500 F | 
 | 5 x 4.580 = | | - 22.900 F | 
 | | | 200.600 F | 
@@ -193,7 +182,7 @@ In een en ander geval sluit de verrichtingen met een verschil tussen de prijs va
 
 In deze gevallen moeten de gecombineerde resultaten van verbonden verrichtingen als zodanig in de rekeningen worden uitgedrukt zodra de dekking volkomen is. 
 
-#### Dekkingsverrichtingen met opties die de onderneming beschermen tegen de ongunstig weerslag van een koersschommeling maar waarbij zij het voordeel van een gunstige koersevolutie geheel of ten dele behoudt 
+#### Dekkingsverrichtingen met opties die de onderneming beschermen tegen de ongunstig weerslag van een koersschommeling maar waarbij zij het voordeel van een gunstige koersevolutie geheel of ten dele behoudt
 
 ##### Opties ter dekking van vaste rechten en verplichtingen (contant of op termijn
 
@@ -253,6 +242,7 @@ Nadien evolueren de koers van het Y-aandeel, de koers van de optie en bijgevolg 
 | Noteringsdata | | Koers van de optie 
  | | Koers van het aandeel | | Intrinsieke waarde 
  | | Tijdswaarde | 
+|---|---|
 | 01/10/1991 | | 5,3 | | 126,4 | | 0 | | 5,3 | 
 | 10/10/1991 | | 6,7 | | 128,8 | | 0 | | 6,7 | 
 | 20/10/1991 | | 5,3 | | 126,9 | | 0 | | 5,3 | 
@@ -273,6 +263,7 @@ Nadien evolueren de koers van het Y-aandeel, de koers van de optie en bijgevolg 
 Afhankelijk van de periode ziet het resultaat er als volgt uit: 
 
 | | | | | ** OPTIE ** | | | | | | | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | **Potentiële resultaten** | | **Termijn-verkoop** | | **Intrinsieke waarde** | | **Tijds-waarde** | | **Totaal** | | **Totaal-resultaat** | 
 | - Van 20.09.91 
 
@@ -292,6 +283,7 @@ Afhankelijk van de periode ziet het resultaat er als volgt uit:
 
 			- 360 | | | | | | | | | 
 | 100 x (0 - 0) | | | | | | | | | | - 160 | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | | | | | | | | | + 200 | | | 
 | 100 x (7,5 - 5,3) | | | | | | + 200 | | | | | 
 | - Van 01.11.91 
@@ -304,6 +296,7 @@ Afhankelijk van de periode ziet het resultaat er als volgt uit:
 			- 850 | | | | | | | | 
  | 
 | 100 x (8,5 - 0) | | | | +850 | | | | | | - 390 | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | | | | | | | | | + 460 | | | 
 | 100 x (3,4 - 7,3) | | | | | | - 390 | | | | | 
 | - Van 31.12.91 
@@ -315,10 +308,12 @@ Afhankelijk van de periode ziet het resultaat er als volgt uit:
 
 			- 1.200 | | | | | | | | | 
 | 100 x (20,5 - 8,5) | | | | + 1.200 | | | | | | - 340 | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | | | | | | | | | + 860 | | | 
 | 100 x (0 - 3,4) | | | | | | - 340 | | | | | 
 
 | **Samengevoegde werkelijke****** **resultaten** | | | | | | | | | | | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | Vóór de dekkingsverrichting | | + 160 | | - | | - | | - | | + 160 | 
 | Sedert de dekkingsverrichting | | - 2.410 | | + 2.050 | | - 530 | | + 1.520 | | - 890 | 
 | | | - 2.250 | | + 2.050 | | - 530 | | + 1.520 | | - 730 | 
@@ -412,6 +407,7 @@ Afwikkeling van de termijn verkoop
 Les opérations sont, au départ, les mêmes que dans l'exemple 1, mais l'évolution des cours est inverse.
 
 | **Noteringsdata** | | **Koers van de optie** | | **Koers van het aandeel** | | **Intrinsieke waarde** | | **Tijdswaarde**  | 
+|---|---|---|---|---|---|---|---|---|
 | 01/10/1991 | | 5,3 | | 133 | | 3 | | 2,3 | 
 | 01/11/1991 | | 3,9 | | 132 | | 2 | | 1,9 | 
 | 01/12/1991 | | 1,3 | | 130 | | - | | 1,3 | 
@@ -447,6 +443,7 @@ In dit tweede voorbeeld zien de boekingen[^12] er schematisch als volgt uit :
 | | 651... | Waardeverminderingen op vlottende activa
 			(intrinsieke waarde) | 300 | |
 | | (tijdswaarde) | 150 | | |
+|---|---|---|---|---|
 | aan | 51..9 | Waardevermindering op gekochte opties | | 450 |
 
 **31.12.91**
@@ -498,6 +495,7 @@ In dit tweede voorbeeld zien de boekingen[^12] er schematisch als volgt uit :
 Op 1 december 1991 koopt een onderneming een put-optie om de verkoopprijs van een effect X met boekwaarde 120 en opgenomen onder de geldbeleggingen, te waarborgen. Optieprijs : 14; vervalmaand : januari 1992; vereffening op de derde vrijdag van de vervalmaand, d.i. op 20 januari 1992; uitoefenprijs per effect : 140
 
 | **Noteringsdata** | | **Koers van de optie** | | **Koers van het aandeel** | | **Intrinsieke waarde** | | **Tijdswaarde** | 
+|---|---|---|---|---|---|---|---|---|
 | 01/12/1991 | | 14 | | 126,4 | | 13,6 | | 0,4 | 
 | 31/12/1991 | | 30 | | 115 | | 25 | | 5 | 
 | 20/01/1991 | | 30 | | 110 | | 30 | | 0 | 
@@ -505,6 +503,7 @@ Op 1 december 1991 koopt een onderneming een put-optie om de verkoopprijs van ee
 Afhankelijk van de periode ziet het resultaat er als volgt uit 
 
 | | | | | ** ** | | ** Optie ** | | ** ** | | | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | **Potentiële resultaten** | | **Effecten in de portefeuille** | | **Intrinsieke waarde** | | **Tijdswaarde** | | **Totaal** | | **Totaalresultaat uit de verrichting** | 
 | - Op 01.12.91 | | | | | | | | | | | 
 | (126,4 - 120) | | + 6,4 | | | | | | | | + 6,4 | 
@@ -516,10 +515,12 @@ Afhankelijk van de periode ziet het resultaat er als volgt uit
 
 			tot 20.01.92 | | | | | | | | | | | 
 | (- 115 + 110) | | - 5 | | | | | | | | - 5 | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | (- 25 + 30) | | | | + 5 | | | | 0 | | | 
 | (- 5 + 0) | | | | | | - 5 | | | | | 
 
 | **Samengevoegde werkelijke resultaten** | | | | | | | | | | | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | Vóór de dekkingsverrichting | | + 6,4 | | - | | - | | - | | + 6,4 | 
 | Sedert de dekkingsverrichting | | - 16,4 | | + 16,4 | | - 0,4 | | + 16 | | - 0,4 | 
 | | | - 10 | | + 16,4 | | - 0,4 | | + 16 | | + 6 | 
@@ -551,7 +552,7 @@ Schematisch zien de boekingen er als volgt uit:
 | | 752... | Meerwaarden op de realisatie van vlottende activa | 6 | |
 | | 51... | Gekochte opties | 14 | |
 
-##### Opties ter dekking van geschreven opties 
+### Opties ter dekking van geschreven opties
 
 In deze context hoort ook de nodige aandacht te gaan naar de verrichtingen die zowel de risico's van een prijsschommeling alsook de voordelen van een gunstige koersevolutie, tot bepaalde bedragen[^13] beperken, zonder ze evenwel op het heffen.
 

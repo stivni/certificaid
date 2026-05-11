@@ -2,88 +2,75 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden
 datum: 2011-07-06
 gerelateerde_adviezen:
-  - datum: '2024-01-17'
-    titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
-  - datum: '2021-08-20'
-    titel: 'Herwaarderingsmeerwaarden bij vennootschappen: gevolgen van de wijzigingen aangebracht door het WVV en KB WVV'
-    url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door
-  - datum: '2016-09-07'
-    titel: 'Herwaarderingsmeerwaarden: gevolgen van de wijzigingen aan artikel 57 KB W.Venn. door het koninklijk besluit van 18 december 2015'
-    url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-gevolgen-van-de-wijzigingen-aan-artikel-57-kb-wvenn-door-het
-  - datum: '2009-03-11'
-    titel: De rentabiliteitsvoorwaarde bij herwaarderingsmeerwaarden
-    url: https://www.cbn-cnc.be/nl/adviezen/de-rentabiliteitsvoorwaarde-bij-herwaarderingsmeerwaarden
+- datum: '2024-01-17'
+  titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap
+    erkend als sociale onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
+- datum: '2021-08-20'
+  titel: 'Herwaarderingsmeerwaarden bij vennootschappen: gevolgen van de wijzigingen
+    aangebracht door het WVV en KB WVV'
+  url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door
+- datum: '2016-09-07'
+  titel: 'Herwaarderingsmeerwaarden: gevolgen van de wijzigingen aan artikel 57 KB
+    W.Venn. door het koninklijk besluit van 18 december 2015'
+  url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-gevolgen-van-de-wijzigingen-aan-artikel-57-kb-wvenn-door-het
+- datum: '2009-03-11'
+  titel: De rentabiliteitsvoorwaarde bij herwaarderingsmeerwaarden
+  url: https://www.cbn-cnc.be/nl/adviezen/de-rentabiliteitsvoorwaarde-bij-herwaarderingsmeerwaarden
 nummer: CBN-advies 2011/14
 provenance:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden
-      sha256: e23beb51f09bf7badebca573fe28d0c78b67196e7d54283c81a3e6579e66b094
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden
+    sha256: e23beb51f09bf7badebca573fe28d0c78b67196e7d54283c81a3e6579e66b094
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 51506
+      flags: []
       heading_count: 24
       max_section_chars: 16404
-      file_size_chars: 52327
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 22 headings en behandelt uitgebreid herwaarderingsmeerwaarden en terugneming van waardeverminderingen. Inhoudelijk volledig.'
+      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 22 headings en behandelt
+        uitgebreid herwaarderingsmeerwaarden en terugneming van waardeverminderingen.
+        Inhoudelijk volledig.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - aanzuivering van verlies
-  - actiefgebonden rentabiliteitsvoorwaarde
-  - afschrijving van geherwaardeerde activa
-  - correcties op herwaarderingen
-  - financiële vaste activa
-  - herwaardering
-  - herwaarderingsmeerwaarde
-  - kapitaal
-  - materiële vaste activa
-  - omzetting herwaarderingsmeerwaarde in kapitaal
-  - realisatie van geherwaardeerde activa
-  - reële waarde
-  - rentabiliteitsvoorwaarde
-  - terugname afschrijvingen
-  - terugneming van waardeverminderingen
+- aanzuivering van verlies
+- actiefgebonden rentabiliteitsvoorwaarde
+- afschrijving van geherwaardeerde activa
+- correcties op herwaarderingen
+- financiële vaste activa
+- herwaardering
+- herwaarderingsmeerwaarde
+- kapitaal
+- materiële vaste activa
+- omzetting herwaarderingsmeerwaarde in kapitaal
+- realisatie van geherwaardeerde activa
+- reële waarde
+- rentabiliteitsvoorwaarde
+- terugname afschrijvingen
+- terugneming van waardeverminderingen
 ---
 
 # CBN-advies 2011/14 - Herwaarderingsmeerwaarden
-
-1. Herwaarderingen overeenkomstig artikel 57 KB W.Venn. 
-  1. Voorwaarden 
-    1. Vaststaand en duurzaam karakter 
-    2. Rentabiliteitsvoorwaarden 
-      1. Actiefgebonden rentabiliteitsvoorwaarde 
-      2. Bijkomende rentabiliteitsvoorwaarde voor activa noodzakelijk voor de voortzetting van het bedrijf 
-
-    3. Geherwaardeerde waarde gelimiteerd tot de marktwaarde 
-
-  2. Onderscheid tussen terugname afschrijvingen en herwaarderingen 
-  3. Omzetting van herwaarderingsmeerwaarden in kapitaal 
-  4. Aanwending van herwaarderingsmeerwaarden ter aanzuivering van verliezen 
-  5. Afschrijving van geherwaardeerde activa 
-  6. Correctie van herwaarderingsmeerwaarden 
-  7. Realisatie van geherwaardeerde activa 
-
-2. Terugneming van waardeverminderingen overeenkomstig artikel 100 KB W.Venn. 
 
 ## Inleiding
 
@@ -205,7 +192,7 @@ Indien de activa noodzakelijk zijn voor de voortzetting van het bedrijf van de v
 
 Het begrip algemene rentabiliteit gaat in wezen uit van de verhouding tussen het resultaat en het geïnvesteerde vermogen waarmede dit resultaat is behaald. Een voldoende rentabiliteit betekent dat het verschil tussen opbrengsten en kosten voldoende is in vergelijking met het geïnvesteerde vermogen, dat men terugvindt op de balans[^13]. Daarbij kan gewerkt worden met de rentabiliteit van het totaal van de activa of bedrijfsactiva of met de rentabiliteit van het eigen vermogen. Door de herwaardering zal het totaal van de activa en het eigen vermogen stijgen, waardoor de rentabiliteit in de regel zal dalen.
 
-### *Rentabiliteit van het totaal van de activa: voorbeeldmethoden*
+### Rentabiliteit van het totaal van de activa: voorbeeldmethoden
 
 Een methode om het rendement van het totaal van de activa te berekenen is het bruto- of nettoresultaat, verkregen vóór de aanrekening van de belastingen en de financiële kosten, te vergelijken met het balanstotaal. Op die manier krijgt men zicht op de economische rentabiliteit van de onderneming zonder beïnvloeding door de financieringswijze of het belastingtarief. 
 
@@ -221,7 +208,7 @@ Nettoresultaat van het boekjaar vóór belasting + kosten van schulden
 
          Totaal van de activa
 
-### *Rentabiliteit van het eigen vermogen: voorbeeldmethoden*
+### Rentabiliteit van het eigen vermogen: voorbeeldmethoden
 
 De nettorentabiliteit van het eigen vermogen wordt verkregen na aftrek van alle kosten van het boekjaar en wordt berekend na belastingen, maar voor resultaatverwerking:
 
@@ -247,7 +234,7 @@ Het is in de praktijk perfect mogelijk dat de actiefgebonden rentabiliteitsvoorw
 
 De Commissie wenst er ook op te wijzen dat de marktwaarde van het geherwaardeerde actief nooit mag overschreden worden bij het boeken van een herwaarderingsmeerwaarde op het betrokken actief.
 
-### ***Onderscheid tussen terugname afschrijvingen en herwaarderingen***
+### *Onderscheid tussen terugname afschrijvingen en herwaarderingen*
 
 Overeenkomstig artikel 45 KB W.Venn. hebben afschrijvingen tot doel de aanschaffingsprijs van immateriële of materiële vaste activa met beperkte gebruiksduur te spreiden over hun waarschijnlijke nuttigheids- of gebruiksduur. Nu kan het gebeuren dat door externe omstandigheden (bijvoorbeeld de verlenging van een oorspronkelijk voor een beperkte duur toegekende exploitatievergunning) de nuttigheids- of gebruiksduur van een materieel vast actief aanzienlijk wordt gewijzigd met als gevolg dat een reeds volledig afgeschreven vast actief een nieuwe economische waarde verwerft. 
 
@@ -259,7 +246,7 @@ Artikel 64, § 1, derde lid KB W.Venn. bepaalt dat afschrijvingen op materiële 
 
 De terugneming van afschrijvingen moet geschieden via de resultatenrekening door de boeking van een uitzonderlijke opbrengst. De afschrijving van het materieel vast actief zal via een normaal ritme worden hervat met spreiding van de nieuwe waarde over de resterende gebruiksduur van het betrokken actief. 
 
-### ***Omzetting van herwaarderingsmeerwaarden in kapitaal***
+### *Omzetting van herwaarderingsmeerwaarden in kapitaal*
 
 Krachtens artikel 57, § 3 KB W.Venn. mogen de meerwaarden die werden geboekt op bepaalde vaste activa in kapitaal worden omgezet. Ook de Vierde Richtlijn voorziet dat de “herwaarderingsreserve te allen tijde geheel of gedeeltelijk in kapitaal kan worden omgezet”[^15]. 
 
@@ -298,7 +285,7 @@ Een vennootschap bezit een gebouw met een boekwaarde van 200.000 euro dat in aan
 | | 121 | Herwaarderingsmeerwaarden op materiële vaste activa | 1.699,5 | |
 | aan | 133 | Beschikbare reserve | | 1.699,5 |
 
-### *** Aanwending van herwaarderingsmeerwaarden ter aanzuivering van verliezen***
+### * Aanwending van herwaarderingsmeerwaarden ter aanzuivering van verliezen*
 
 Zoals hierboven vermeld, moeten de geboekte meerwaarden krachtens artikel 57, § 3 KB W.Venn. rechtstreeks worden toegerekend aan de passiefpost *III.* *Herwaarderingsmeerwaarden*. 
 
@@ -306,7 +293,7 @@ Deze bepaling wijst erop dat een herwaarderingsmeerwaarde in de zin van hogergen
 
 Naar het oordeel van de Commissie is het derhalve principieel uitgesloten dat de bedragen geboekt onder de post *Herwaarderingsmeerwaarden* direct of indirect zouden worden aangewend om bijvoorbeeld geleden verliezen geheel of gedeeltelijk aan te zuiveren.
 
-### *** Afschrijving van geherwaardeerde activa***
+### * Afschrijving van geherwaardeerde activa*
 
 Indien de herwaardering betrekking heeft op materiële vaste activa met een beperkte gebruiksduur, dan wordt op basis van de geherwaardeerde waarde afgeschreven overeenkomstig een afschrijvingsplan dat ertoe strekt de toerekening van de geherwaardeerde waarde te spreiden over de vermoedelijke residuele gebruiksduur van de betrokken activa[^20]. 
 
@@ -366,7 +353,7 @@ Inventarisverrichtingen (31.12.N+10):
 
 Ingeval de herwaarderingsmeerwaarde werd omgezet in kapitaal, kan de herwaarderingsmeerwaarde uiteraard niet meer overgeboekt worden naar een reserverekening, tenzij voor het deel dat niet geïncorporeerd werd in het kapitaal (zie punt C hierboven). 
 
-### ***Correctie van herwaarderingsmeerwaarden***
+### *Correctie van herwaarderingsmeerwaarden*
 
 De onderneming dient jaarlijks op inventarisdatum na te gaan of de herwaarderingsmeerwaarde nog bestaat. Indien door het optreden van nieuwe feiten de voorheen uitgedrukte meerwaarde niet meer (volledig) bestaat, dan moet de nog niet afgeschreven, overtollige meerwaarde worden afgeboekt door een eenvoudig terugdraaien van de verrichting via een tegengestelde boeking[^27]. De correctie kan niet gebeuren door een uitzonderlijke afschrijving op de meerwaarde te boeken.
 
@@ -408,7 +395,7 @@ Een vennootschap bezit een gebouw met een boekwaarde van 200.000 euro dat in aan
 
 Omwille van het voorgaande onderstreept de Commissie nogmaals dat grote voorzichtigheid geboden is bij het omzetten van een herwaarderingsmeerwaarde in kapitaal. 
 
-### ***Realisatie van geherwaardeerde activa***
+### *Realisatie van geherwaardeerde activa*
 
 Bij de realisatie van de geherwaardeerde activa, dienen alle rekeningen met betrekking tot de voorheen uitgedrukte, niet-gerealiseerde meerwaarde tegengeboekt te worden, zodanig dat het actief aan zijn oorspronkelijke boekwaarde gewaardeerd wordt in de balans .
 

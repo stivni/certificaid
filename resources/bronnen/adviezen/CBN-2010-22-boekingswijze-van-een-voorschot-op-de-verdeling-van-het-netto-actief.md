@@ -2,60 +2,63 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief
 datum: 2010-11-10
 gerelateerde_adviezen:
-  - datum: '2022-09-19'
-    titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-  - datum: '2022-02-15'
-    titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
-    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-  - datum: '2012-09-05'
-    titel: Overdracht van eigen vermogen in het kader van een fusie, splitsing of partiële splitsing in boekhoudkundige continuïteit en fiscale continuïteit en artikel 78, § 8 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/overdracht-van-eigen-vermogen-in-het-kader-van-een-fusie-splitsing-of-partiele-splitsing
-  - datum: '1999-02-01'
-    titel: Boekingswijze van een voorschot op de verdeling van het netto-actief
-    url: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief-0
+- datum: '2022-09-19'
+  titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+- datum: '2022-02-15'
+  titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
+  url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+- datum: '2012-09-05'
+  titel: Overdracht van eigen vermogen in het kader van een fusie, splitsing of partiële
+    splitsing in boekhoudkundige continuïteit en fiscale continuïteit en artikel 78,
+    § 8 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/overdracht-van-eigen-vermogen-in-het-kader-van-een-fusie-splitsing-of-partiele-splitsing
+- datum: '1999-02-01'
+  titel: Boekingswijze van een voorschot op de verdeling van het netto-actief
+  url: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief-0
 nummer: CBN-advies 2010/22
 provenance:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief
-      sha256: b59b54845c2a0b7910cce87be833636aa9c434111c769732d139ef1c7e26707f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief
+    sha256: b59b54845c2a0b7910cce87be833636aa9c434111c769732d139ef1c7e26707f
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 0
-      max_section_chars: 6562
-      file_size_chars: 6562
+      file_size_chars: 6606
       flags: []
+      heading_count: 0
+      max_section_chars: 6606
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee benaderingen, gemotiveerde keuze voor benadering 2, behandeling vanuit twee perspectieven.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee benaderingen, gemotiveerde
+        keuze voor benadering 2, behandeling vanuit twee perspectieven.'
       run_at: '2026-05-08T19:02:29Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - eigen vermogen
-  - nettoactief
-  - sluiting vereffening
-  - uitkering aan vennoten
-  - vereffenaar
-  - vereffening
-  - voorschot
-  - voorschot aan de vennoten op de verdeling van het netto-actief
+- eigen vermogen
+- nettoactief
+- sluiting vereffening
+- uitkering aan vennoten
+- vereffenaar
+- vereffening
+- voorschot
+- voorschot aan de vennoten op de verdeling van het netto-actief
 ---
 
 # CBN-advies 2010/22 - Boekingswijze van een voorschot op de verdeling van het netto-actief
@@ -97,6 +100,7 @@ In het kader van die benadering worden de verschillende verrichtingen als volgt 
 | aan | [453 Ingehouden voorheffingen
 ] | | | |
 | | 550 | Kredietinstellingen: rekening-courant | | |
+|---|---|---|---|---|
 
 - na afloop van de vereffening: 
 
@@ -120,6 +124,7 @@ Indien het risico dat de vereffenaar het voorschot nog zou terugvorderen quasi n
 | | [6700 Verschuldigde of gestorte belastingen en voorheffingen
 ] | | | |
 | aan | 28 | Financiële vaste activa | | |
+|---|---|---|---|---|
 | | of | 51 Aandelen | | |
 | | [ | 76 Uitzonderlijke opbrengsten] | | |
 

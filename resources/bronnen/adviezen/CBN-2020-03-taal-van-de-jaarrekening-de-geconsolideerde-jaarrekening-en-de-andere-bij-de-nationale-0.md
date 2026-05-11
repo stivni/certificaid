@@ -2,54 +2,57 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/taal-van-de-jaarrekening-de-geconsolideerde-jaarrekening-en-de-andere-bij-de-nationale-0
 datum: 2020-03-05
 gerelateerde_adviezen:
-  - datum: '2018-05-09'
-    titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” - publicatieplicht'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-toepassing-van-het
-  - datum: '2017-05-31'
-    titel: 'Bijkantoor: openbaarmakingsverplichtingen – Taal'
-    url: https://www.cbn-cnc.be/nl/adviezen/bijkantoor-openbaarmakingsverplichtingen-taal
-  - datum: '2010-11-10'
-    titel: Gebruik van uniforme boekhoudsoftware door internationale ondernemingen
-    url: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
+- datum: '2018-05-09'
+  titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: toepassing
+    van het Belgisch boekhoudrecht - begrip “bijkantoor” - publicatieplicht'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-toepassing-van-het
+- datum: '2017-05-31'
+  titel: 'Bijkantoor: openbaarmakingsverplichtingen – Taal'
+  url: https://www.cbn-cnc.be/nl/adviezen/bijkantoor-openbaarmakingsverplichtingen-taal
+- datum: '2010-11-10'
+  titel: Gebruik van uniforme boekhoudsoftware door internationale ondernemingen
+  url: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
 nummer: CBN-advies 2020/03
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/taal-van-de-jaarrekening-de-geconsolideerde-jaarrekening-en-de-andere-bij-de-nationale-0
-      sha256: 6a1bc36d859edab5d4cde1f198077495dfee7bc82f34a155bea499b7094c95bb
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/taal-van-de-jaarrekening-de-geconsolideerde-jaarrekening-en-de-andere-bij-de-nationale-0
+    sha256: 6a1bc36d859edab5d4cde1f198077495dfee7bc82f34a155bea499b7094c95bb
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 3
-      max_section_chars: 2618
       file_size_chars: 4681
       flags: []
+      heading_count: 3
+      max_section_chars: 2618
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Kort advies, volledig schoon. Drie secties correct als ## headings, 10 voetnoten aanwezig en gedefinieerd, geen extractie-artefacten. Inhoud compleet.'
+      rationale: 'Kort advies, volledig schoon. Drie secties correct als ## headings,
+        10 voetnoten aanwezig en gedefinieerd, geen extractie-artefacten. Inhoud compleet.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Kort advies, volledig schoon. Drie secties correct als ## headings, 10 voetnoten aanwezig en gedefinieerd, geen extractie-artefacten. Inhoud compleet.'
+    rationale: 'Kort advies, volledig schoon. Drie secties correct als ## headings,
+      10 voetnoten aanwezig en gedefinieerd, geen extractie-artefacten. Inhoud compleet.'
     status: trusted
 themas:
-  - taal
-  - openbaarmaking
-  - publicatie
-  - neerlegging van de jaarrekening
-  - vertaling
+- taal
+- openbaarmaking
+- publicatie
+- neerlegging van de jaarrekening
+- vertaling
 ---
 
 # CBN-advies 2020/03 – Taal van de jaarrekening, de geconsolideerde jaarrekening en de andere bij de Nationale Bank van België neer te leggen stukken

@@ -12,33 +12,33 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Regels 61 en 73: 'Voorbeeld'-labels zijn opgemaakt als ***Voorbeeld*** (bold+italic gecombineerd via triple asterisk) in plaats van een heading of consistente inline-stijl (D4/stijlinconsistentie tov overige adviezen die ## of plain 'Voorbeeld' gebruiken). Voetnoot [^1] is gedefinieerd (redactionele noot over publieke consultatie) maar heeft geen body-referentie — dit is acceptabel als redactionele annotatie maar het ontbreken van een [^1]-callout in de body is onconventioneel. Verder is het advies correct en volledig."
+    rationale: "D4 bevestigd: r73 en r85 'Voorbeeld'-labels opgemaakt als ***Voorbeeld*** (triple asterisk = bold+italic gecombineerd) — ETL-artefact, inconsistent met standaard heading of plain label in andere adviezen. Voetnoot [^1] is gedefinieerd (redactionele noot over publieke consultatie) maar heeft geen body-callout; dit is een randgeval dat acceptabel kan zijn als redactionele annotatie maar is onconventioneel. Verder correct en volledig."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 2040
+      flags: []
       heading_count: 2
       max_section_chars: 1351
-      file_size_chars: 2041
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "Regels 61 en 73: 'Voorbeeld'-labels zijn opgemaakt als ***Voorbeeld*** (bold+italic gecombineerd via triple asterisk) in plaats van een heading of consistente inline-stijl (D4/stijlinconsistentie tov overige adviezen die ## of plain 'Voorbeeld' gebruiken). Voetnoot [^1] is gedefinieerd (redactionele noot over publieke consultatie) maar heeft geen body-referentie — dit is acceptabel als redactionele annotatie maar het ontbreken van een [^1]-callout in de body is onconventioneel. Verder is het advies correct en volledig."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "D4 bevestigd: r73 en r85 'Voorbeeld'-labels opgemaakt als ***Voorbeeld*** (triple asterisk = bold+italic gecombineerd) — ETL-artefact, inconsistent met standaard heading of plain label in andere adviezen. Voetnoot [^1] is gedefinieerd (redactionele noot over publieke consultatie) maar heeft geen body-callout; dit is een randgeval dat acceptabel kan zijn als redactionele annotatie maar is onconventioneel. Verder correct en volledig."
       concrete_problemen:
-        - regel: 61
+        - regel: 73
           categorie: D4
           type: other
           voorbeeld: '***Voorbeeld***'
-        - regel: 73
+        - regel: 85
           categorie: D4
           type: other
           voorbeeld: '***Voorbeeld***'
@@ -64,7 +64,7 @@ Een onderneming levert handelsgoederen ter waarde van 500 euro[^2] gratis aan ha
 
 De Commissie spreekt zich niet uit over de BTW-implicaties van de levering van goederen om niet.
 
-## Ontvangst van handelsgoederen om niet 
+## Ontvangst van handelsgoederen om niet
 
 De Commissie stelt vast dat er in de praktijk aan de ontvangst van handelsgoederen om niet meestal een aankoopverplichting is verbonden.
 

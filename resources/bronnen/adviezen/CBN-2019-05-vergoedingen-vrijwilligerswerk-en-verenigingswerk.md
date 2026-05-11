@@ -3,44 +3,48 @@ bron: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-vrijwilligerswerk-en-veren
 datum: 2019-06-14
 nummer: CBN-advies 2019/05
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-vrijwilligerswerk-en-verenigingswerk
-      sha256: af5055b9bac4417d6f7c9ae95333d8d0fa0334ed88b6a5f79771e2b511c029be
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-vrijwilligerswerk-en-verenigingswerk
+    sha256: af5055b9bac4417d6f7c9ae95333d8d0fa0334ed88b6a5f79771e2b511c029be
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 4
-      max_section_chars: 2506
       file_size_chars: 5320
       flags: []
+      heading_count: 4
+      max_section_chars: 2506
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Kort advies, volledig schoon. Vier headings correct (H1 > H2). Geen artefacten, geen broken italics, geen TOC-fragmenten, geen open-brackets. Voetnoten [^1]–[^8] aanwezig en gesloten. Inhoud volledig.
+      rationale: Kort advies, volledig schoon. Vier headings correct (H1 > H2). Geen
+        artefacten, geen broken italics, geen TOC-fragmenten, geen open-brackets.
+        Voetnoten [^1]–[^8] aanwezig en gesloten. Inhoud volledig.
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: Kort advies, volledig schoon. Vier headings correct (H1 > H2). Geen artefacten, geen broken italics, geen TOC-fragmenten, geen open-brackets. Voetnoten [^1]–[^8] aanwezig en gesloten. Inhoud volledig.
+    rationale: Kort advies, volledig schoon. Vier headings correct (H1 > H2). Geen
+      artefacten, geen broken italics, geen TOC-fragmenten, geen open-brackets. Voetnoten
+      [^1]–[^8] aanwezig en gesloten. Inhoud volledig.
     status: trusted
 themas:
-  - vrijwilligersvergoeding
-  - vrijwilliger
-  - verenigingswerk
-  - vrijwilligerswerk
-  - bezoldiging
-  - vergoeding aan bestuurders
+- vrijwilligersvergoeding
+- vrijwilliger
+- verenigingswerk
+- vrijwilligerswerk
+- bezoldiging
+- vergoeding aan bestuurders
 ---
 
 # CBN-advies 2019/05 – Vergoedingen vrijwilligerswerk en verenigingswerk

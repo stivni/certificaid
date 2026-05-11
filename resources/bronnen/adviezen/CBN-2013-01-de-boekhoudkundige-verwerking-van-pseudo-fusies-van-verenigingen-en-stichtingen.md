@@ -2,58 +2,65 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-pseudo-fusies-van-verenigingen-en-stichtingen
 datum: 2013-01-09
 gerelateerde_adviezen:
-  - datum: '2024-01-17'
-    titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
-  - datum: '2022-09-23'
-    titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
-  - datum: '2022-09-19'
-    titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-  - datum: '2022-07-20'
-    titel: Wijziging van het boekhoudkundig referentiestelsel
-    url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
+- datum: '2024-01-17'
+  titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap
+    erkend als sociale onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
+- datum: '2022-09-23'
+  titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
+- datum: '2022-09-19'
+  titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+- datum: '2022-07-20'
+  titel: Wijziging van het boekhoudkundig referentiestelsel
+  url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
 nummer: CBN-advies 2013/1
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-pseudo-fusies-van-verenigingen-en-stichtingen
-      sha256: 5aa8dcdf4c97a2bdf548c669cc8917246b4e429e13c3f83c28dd849a769fe9a6
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-pseudo-fusies-van-verenigingen-en-stichtingen
+    sha256: 5aa8dcdf4c97a2bdf548c669cc8917246b4e429e13c3f83c28dd849a769fe9a6
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 39797
+      flags: []
       heading_count: 11
       max_section_chars: 12635
-      file_size_chars: 39605
-      flags: []
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Geen significante artefacten gevonden. De heading-hiërarchie is correct en consistent over een lang en complex advies. Alle wetsartikelen zijn volledig geciteerd. Pipe-tabellen voor balansoverzichten zijn correct opgemaakt. Voetnoten compleet.
+      rationale: Geen significante artefacten gevonden. De heading-hiërarchie is correct
+        en consistent over een lang en complex advies. Alle wetsartikelen zijn volledig
+        geciteerd. Pipe-tabellen voor balansoverzichten zijn correct opgemaakt. Voetnoten
+        compleet.
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: Geen significante artefacten gevonden. De heading-hiërarchie is correct en consistent over een lang en complex advies. Alle wetsartikelen zijn volledig geciteerd. Pipe-tabellen voor balansoverzichten zijn correct opgemaakt. Voetnoten compleet.
+    rationale: Geen significante artefacten gevonden. De heading-hiërarchie is correct
+      en consistent over een lang en complex advies. Alle wetsartikelen zijn volledig
+      geciteerd. Pipe-tabellen voor balansoverzichten zijn correct opgemaakt. Voetnoten
+      compleet.
     status: trusted
 themas:
-  - continuïteit
-  - dividenden
-  - pseudofusie
-  - reorganisatie
-  - stichting
-  - vereniging
+- continuïteit
+- dividenden
+- pseudofusie
+- reorganisatie
+- stichting
+- vereniging
 ---
 
 # CBN-advies 2013/1 - De boekhoudkundige verwerking van (pseudo-)fusies van verenigingen en stichtingen
@@ -221,6 +228,7 @@ In de hiernavolgende voorbeelden voeren zowel de overdragende (“overgenomen”
 Voorbeeld 1 – Basisvoorbeeld
 
 | Overdragende ("overgenomen") vereniging | 
+|---|
 | Vaste activa | | 6.000[^21] | | Beginvermogen | | 5.000 | 
 | Vlottende activa | | 4.000 | | Bestemde fondsen | | 3.500 | 
 | | | | | Overgedragen verlies | | -2.500 | 
@@ -229,6 +237,7 @@ Voorbeeld 1 – Basisvoorbeeld
 | | | 10.000 | | | | 10.000 | 
 
 | Verwervende ("overnemende") vereniging | 
+|---|
 | Vaste activa | | 5.500[^22] | | Beginvermogen | | 8.000 | 
 | Vlottende activa | | 9.500 | | Bestemde fondsen | | 5.000 | 
 | | | | | Schulden | | 2.000 | 
@@ -237,10 +246,12 @@ Voorbeeld 1 – Basisvoorbeeld
 Na de pseudo-fusie ziet de balans van de verwervende (“overnemende”) vereniging er als volgt uit:
 
 | Verwervende ("overnemende") vereniging | 
+|---|
 | Vaste activa | | 11.500 | | Beginvermogen | | 13.000 | 
 | (6.000 [^23]
 + 5.500[^24]) | | | | Bestemde fondsen | | 8.500 | 
 | Vlottende activa | | 13.500 | | Overgedragen verlies | | -2.500 | 
+|---|---|---|---|---|---|---|
 | | | | | Voorzieningen | | 1.000 | 
 | | | | | Schulden | | 5.000 | 
 | | | 25.000 | | | | 25.000 | 
@@ -248,6 +259,7 @@ Na de pseudo-fusie ziet de balans van de verwervende (“overnemende”) verenig
 Voorbeeld 2 – Samenvoeging overgedragen verlies en overgedragen winst (zie supra, nr. 13)
 
 | Overdragende (“overgenomen”) vereniging | 
+|---|
 | Vaste activa | | 6.000[^25] | | Beginvermogen | | 5.000 | 
 | Vlottende activa | | 4.000 | | Bestemde fondsen | | 3.500 | 
 | | | | | Overgedragen verlies | | -2.500 | 
@@ -256,6 +268,7 @@ Voorbeeld 2 – Samenvoeging overgedragen verlies en overgedragen winst (zie sup
 | | | 10.000 | | | | 10.000 | 
 
 | Verwervende ("overnemende") vereniging | 
+|---|
 | Vaste activa | | 5.500[^26] | | Beginvermogen | | 8.000 | 
 | Vlottende activa | | 9.500 | | Bestemde fondsen | | 2.000 | 
 | | | | | Overgedragen winst | | 3.000 | 
@@ -265,10 +278,12 @@ Voorbeeld 2 – Samenvoeging overgedragen verlies en overgedragen winst (zie sup
 Na de pseudo-fusie ziet de balans van de verwervende (“overnemende”) vereniging er als volgt uit:
 
 | Verwervende ("overnemende") vereniging | 
+|---|
 | Vaste activa | | 11.500 | | Beginvermogen | | 13.000 | 
 | (6.000[^27]
  + 5.500[^28]) | | | | Bestemde fondsen | | 5.500 | 
 | Vlottende activa | | 13.500 | | Overgedragen winst | | 500 | 
+|---|---|---|---|---|---|---|
 | | | | | Voorzieningen | | 1.000 | 
 | | | | | Schulden | | 5.000 | 
 | | | 25.000 | | | | 25.000 | 
@@ -276,6 +291,7 @@ Na de pseudo-fusie ziet de balans van de verwervende (“overnemende”) verenig
 Voorbeeld 3 – Negatief beginvermogen wordt na de pseudo-fusie positief (zie supra, nr. 14)
 
 | Overdragende (“overgenomen”) vereniging | 
+|---|
 | Vaste activa | | 3.500[^29] | | Beginvermogen | | -2.000 | 
 | Vlottende activa | | 4.000 | | Bestemde fondsen | | 3.500 | 
 | | | | | Overgedragen winst | | 2.000 | 
@@ -284,6 +300,7 @@ Voorbeeld 3 – Negatief beginvermogen wordt na de pseudo-fusie positief (zie su
 | | | 7.500 | | | | 7.500 | 
 
 | Verwervende ("overnemende") vereniging | 
+|---|
 | Vaste activa | | 5.500[^30] | | Beginvermogen | | 8.000 | 
 | Vlottende activa | | 9.500 | | Bestemde fondsen | | 2.000 | 
 | | | | | Overgedragen winst | | 3.000 | 
@@ -293,10 +310,12 @@ Voorbeeld 3 – Negatief beginvermogen wordt na de pseudo-fusie positief (zie su
 Na de pseudo-fusie ziet de balans van de verwervende (“overnemende”) vereniging er als volgt uit:
 
 | Verwervende ("overnemende") vereniging | 
+|---|
 | Vaste activa | | 9.000 | | Beginvermogen | | 6.000 | 
 | (3.500[^31]
  + 5.500[^32]) | | | | Bestemde fondsen | | 5.500 | 
 | Vlottende activa | | 13.500 | | Overgedragen winst | | 5.000 | 
+|---|---|---|---|---|---|---|
 | | | | | Voorzieningen | | 1.000 | 
 | | | | | Schulden | | 5.000 | 
 | | | 22.500 | | | | 22.500 | 
@@ -304,6 +323,7 @@ Na de pseudo-fusie ziet de balans van de verwervende (“overnemende”) verenig
 Voorbeeld 4 – Negatief beginvermogen blijft na de pseudo-fusie negatief (zie supra, nr. 14)
 
 | Overdragende (“overgenomen”) vereniging | 
+|---|
 | Vaste activa | | 3.500[^33] | | Beginvermogen | | -2.000 | 
 | Vlottende activa | | 4.000 | | Bestemde fondsen | | 3.500 | 
 | | | | | Overgedragen winst | | 2.000 | 
@@ -312,6 +332,7 @@ Voorbeeld 4 – Negatief beginvermogen blijft na de pseudo-fusie negatief (zie s
 | | | 7.500 | | | | 7.500 | 
 
 | Verwervende ("overnemende") vereniging | 
+|---|
 | Vaste activa | | 5.500[^34] | | Beginvermogen | | 1.000 | 
 | Vlottende activa | | 9.500 | | Bestemde fondsen | | 9.000 | 
 | | | | | Overgedragen winst | | 3.000 | 
@@ -321,10 +342,12 @@ Voorbeeld 4 – Negatief beginvermogen blijft na de pseudo-fusie negatief (zie s
 Na de pseudo-fusie ziet de balans van de verwervende (“overnemende”) vereniging er als volgt uit:
 
 | Verwervende ("overnemende") vereniging | 
+|---|
 | Vaste activa | | 9.000 | | Beginvermogen | | -1.000 | 
 | (3.500[^35]
  + 5.500[^36]) | | | | Bestemde fondsen | | 12.500 | 
 | Vlottende activa | | 13.500 | | Overgedragen winst | | 5.000 | 
+|---|---|---|---|---|---|---|
 | | | | | Voorzieningen | | 1.000 | 
 | | | | | Schulden | | 5.000 | 
 | | | 22.500 | | | | 22.500 | 

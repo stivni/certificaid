@@ -16,27 +16,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Korte maar volledige proza-tekst (6967 chars, één sectie). Geen headings nodig voor dit formaat — het advies is één aaneengesloten redenering. Geen A- of B-categorie-artefacten gevonden: geen spurious line-breaks, geen onzichtbare unicode, geen OCR-fouten, geen afgekapte zinnen. Inhoud sluit logisch af met de conclusie over artikel 43 KB W.Venn.'
+    rationale: Geen ETL-artefacten aangetroffen. Één sectie (6968 chars) zonder subheadings — passend voor dit compacte advies. Titelvorm 'CBN advies 132-1' (ruimte, koppelteken, kleine letter) is hoe de CBN-website dit weergeeft en dus een source-eigenaardigheid, geen ETL-bug. Lopende tekst coherent zonder spurious line-breaks of column-bleed.
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 6967
-      file_size_chars: 6967
+      file_size_chars: 6968
       flags: []
+      heading_count: 1
+      max_section_chars: 6968
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: 'Korte maar volledige proza-tekst (6967 chars, één sectie). Geen headings nodig voor dit formaat — het advies is één aaneengesloten redenering. Geen A- of B-categorie-artefacten gevonden: geen spurious line-breaks, geen onzichtbare unicode, geen OCR-fouten, geen afgekapte zinnen. Inhoud sluit logisch af met de conclusie over artikel 43 KB W.Venn.'
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: Geen ETL-artefacten aangetroffen. Één sectie (6968 chars) zonder subheadings — passend voor dit compacte advies. Titelvorm 'CBN advies 132-1' (ruimte, koppelteken, kleine letter) is hoe de CBN-website dit weergeeft en dus een source-eigenaardigheid, geen ETL-bug. Lopende tekst coherent zonder spurious line-breaks of column-bleed.
       concrete_problemen: []
 themas:
   - fifo-methode
@@ -49,7 +49,7 @@ themas:
 
 # CBN advies 132-1 - LIFO-methode
 
-# Advies van december 1981, bijgewerkt op 6 oktober 2010
+## Advies van december 1981, bijgewerkt op 6 oktober 2010
 
 Overeenkomstig artikel 43, eerste lid van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna: KB W.Venn.) wordt de aanschaffingswaarde van activa met identieke technische of juridische kenmerken bepaald hetzij door individualisering van de prijs van elk bestanddeel, hetzij volgens de methode van gewogen gemiddelde prijzen, hetzij volgens de Fifo- of de Lifo-methode.
 

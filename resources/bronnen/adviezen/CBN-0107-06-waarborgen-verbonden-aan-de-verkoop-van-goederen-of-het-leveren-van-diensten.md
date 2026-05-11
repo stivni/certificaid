@@ -2,54 +2,61 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/waarborgen-verbonden-aan-de-verkoop-van-goederen-of-het-leveren-van-diensten
 datum: 1984-10-01
 gerelateerde_adviezen:
-  - datum: '2021-07-05'
-    titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
-  - datum: '2019-04-12'
-    titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-  - datum: '2019-03-05'
-    titel: Voorzieningen
-    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-  - datum: '2018-11-14'
-    titel: Toekenning van gratis aandelen (Restricted Stock Units) als bonus
-    url: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
+- datum: '2021-07-05'
+  titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt
+    ten gevolge van de gezondheidscrisis
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
+- datum: '2019-04-12'
+  titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+- datum: '2019-03-05'
+  titel: Voorzieningen
+  url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+- datum: '2018-11-14'
+  titel: Toekenning van gratis aandelen (Restricted Stock Units) als bonus
+  url: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
 nummer: CBN-advies 107/6
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/waarborgen-verbonden-aan-de-verkoop-van-goederen-of-het-leveren-van-diensten
-      sha256: 3c6bb203772ae565a7e0c086eb61a89cc3ea4da79869e94f964196ab3800db4f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/waarborgen-verbonden-aan-de-verkoop-van-goederen-of-het-leveren-van-diensten
+    sha256: 3c6bb203772ae565a7e0c086eb61a89cc3ea4da79869e94f964196ab3800db4f
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 3060
       file_size_chars: 3060
       flags: []
+      heading_count: 0
+      max_section_chars: 3060
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Laag-1 pass (3060 chars). Geen extractie-artefacten: prose vloeit door zonder gebroken regels, geen HTML-entities, geen unicode-problemen. Italic correct op *Voorzieningen* en *Besteding van voorzieningen* (regel 69). Inhoud volledig en goed gestructureerd als lopende tekst.'
+      rationale: 'Laag-1 pass (3060 chars). Geen extractie-artefacten: prose vloeit
+        door zonder gebroken regels, geen HTML-entities, geen unicode-problemen. Italic
+        correct op *Voorzieningen* en *Besteding van voorzieningen* (regel 69). Inhoud
+        volledig en goed gestructureerd als lopende tekst.'
       run_at: '2026-05-11T11:57:45Z'
       status: trusted
-    rationale: 'Laag-1 pass (3060 chars). Geen extractie-artefacten: prose vloeit door zonder gebroken regels, geen HTML-entities, geen unicode-problemen. Italic correct op *Voorzieningen* en *Besteding van voorzieningen* (regel 69). Inhoud volledig en goed gestructureerd als lopende tekst.'
+    rationale: 'Laag-1 pass (3060 chars). Geen extractie-artefacten: prose vloeit
+      door zonder gebroken regels, geen HTML-entities, geen unicode-problemen. Italic
+      correct op *Voorzieningen* en *Besteding van voorzieningen* (regel 69). Inhoud
+      volledig en goed gestructureerd als lopende tekst.'
     status: trusted
 themas:
-  - voorziening
-  - waarborg
+- voorziening
+- waarborg
 ---
 
 # CBN-advies 107/6 - Waarborgen verbonden aan de verkoop van goederen of het leveren van diensten

@@ -12,48 +12,44 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere extractie-artefacten: A6 op r.160-162 (zin breekt na 'overgangsperiode of een gedeelte' met lege regel, vervolgt met 'ervan ook de mogelijkheid'); tabel op r.105 heeft een losstaande '|' als headerrij zonder kolommen (E2); r.126 heeft een ###### H6-heading — extreme hiërarchiediepte (B2); r.148 bevat HTML-restant 'TD>' in een tabelcel (A4/other); r.158 bevat een onlosse datarij zonder kolomkopstructuur; r.273 eindigt met onafgesloten '***' (D4)."
+    rationale: "Meerdere extractie-artefacten: (1) r.152 bevat 'Handelsdebiteuren/ TD>' — een HTML-tag-fragment dat is doorgelekt (G2/ETL). (2) r.109 toont een losstaande '|' als tabelrij vóór de heading van de balans — pseudo-tabel constructie (E2). (3) r.164-166 toont A6-regelbreuk: 'gedurende of een gedeelte\n\nervan ook de mogelijkheid'. (4) r.130: heading `## A. Afsluiting...` en `## B. (Her)opening...` zijn sectieletters binnen een opsomming die als ##-headings zijn gezet — te zwaar niveau voor onderdelen van een enkel voorbeeld (B2)."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 6
-      max_section_chars: 7434
-      file_size_chars: 16241
+      file_size_chars: 16261
       flags: []
+      heading_count: 6
+      max_section_chars: 7454
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "Meerdere extractie-artefacten: A6 op r.160-162 (zin breekt na 'overgangsperiode of een gedeelte' met lege regel, vervolgt met 'ervan ook de mogelijkheid'); tabel op r.105 heeft een losstaande '|' als headerrij zonder kolommen (E2); r.126 heeft een ###### H6-heading — extreme hiërarchiediepte (B2); r.148 bevat HTML-restant 'TD>' in een tabelcel (A4/other); r.158 bevat een onlosse datarij zonder kolomkopstructuur; r.273 eindigt met onafgesloten '***' (D4)."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "Meerdere extractie-artefacten: (1) r.152 bevat 'Handelsdebiteuren/ TD>' — een HTML-tag-fragment dat is doorgelekt (G2/ETL). (2) r.109 toont een losstaande '|' als tabelrij vóór de heading van de balans — pseudo-tabel constructie (E2). (3) r.164-166 toont A6-regelbreuk: 'gedurende of een gedeelte\n\nervan ook de mogelijkheid'. (4) r.130: heading `## A. Afsluiting...` en `## B. (Her)opening...` zijn sectieletters binnen een opsomming die als ##-headings zijn gezet — te zwaar niveau voor onderdelen van een enkel voorbeeld (B2)."
       concrete_problemen:
-        - regel: 105
+        - regel: 152
+          categorie: G2
+          type: other
+          voorbeeld: '| | 400 | Handelsdebiteuren/ TD> | 10,61 | |'
+        - regel: 109
           categorie: E2
-          type: other
-          voorbeeld: "| \\n\\n## Balans in BEF op 30/4/99 — losstaande | als 'headerrij' zonder kolommen"
-        - regel: 126
-          categorie: B2
-          type: other
-          voorbeeld: '###### Overschakeling van de boekhouding op de euro op 1/5/99 (H6 — extreme dieptesprong)'
-        - regel: 148
-          categorie: A4
-          type: other
-          voorbeeld: '| | Handelsdebiteuren/ TD> | 10,61 | | (HTML-tag TD> in tabelcel)'
-        - regel: 160
+          type: pseudo-table
+          voorbeeld: "| \n\n## Balans in BEF op 30/4/99"
+        - regel: 164
           categorie: A6
           type: other
-          voorbeeld: Ondernemingen naar Belgisch recht hebben tijdens de gehele duur van de overgangsperiode of een gedeelte \n\nervan ook de mogelijkheid...
-        - regel: 273
-          categorie: D4
+          voorbeeld: "Ondernemingen naar Belgisch recht hebben tijdens de gehele duur van de overgangsperiode of een gedeelte \n\nervan ook de mogelijkheid..."
+        - regel: 132
+          categorie: B2
           type: other
-          voorbeeld: '***Boekingen tijdens het eerste jaar (t) (onafgesloten triple-asterisk aan einde van bestand)'
+          voorbeeld: '## A. Afsluiting van de boekhouding in BEF (## voor subonderdeel van voorbeeld)'
 themas:
   - verwerking van afrondingsverschillen
   - afronding
@@ -73,15 +69,17 @@ Het leek de Commissie daarom aangebracht om, in de vorm van een samenvatting, de
 
 - Allereerst moet worden gewezen op het feit dat de regels inzake omrekening in euro of in Belgische frank van te betalen of te boeken geldbedragen die in Belgische frank of in euro zijn uitgedrukt, verplichtend geregeld zijn in, enerzijds de artikelen 4 en 5 van de Verordening van de Raad van Europa van 17 juni 1997 over de vaststelling van sommige bepalingen betreffende de invoering van de euro en, anderzijds, de artikelen 3, 4 en 6 van de wet van 30 oktober 1998 betreffende de euro. 
 
-Artikel 3 van de wet betreffende de euro bepaalt dat "de te betalen of te boeken geldbedragen die in Belgische frank zijn uitgedrukt en in euro worden omgerekend, bij omrekening in euro worden afgerond op de tweede decimaal, overeenkomstig de artikelen 4 en 5 van de verordening van de Europese Raad van 17 juni 1997 over enkele bepalingen betreffende de invoering van de euro"[^1].
-Artikel 4 van dezelfde wet bepaalt dat "elk te betalen of te boeken geldbedrag dat in euro is uitgedrukt en moet worden omgerekend in Belgische frank, wordt omgerekend overeenkomstig artikel 4 van de bovenbedoelde Europese verordening en, na omrekening, wordt afgerond op de frank naar boven of naar beneden, naargelang het bedrag na de komma hoger of gelijk is aan vijftig centiemen, enerzijds, of lager dan vijftig centiemen, anderzijds".
+## Artikel 3 van de wet betreffende de euro bepaalt dat "de te betalen of te boeken geldbedragen die in Belgische frank zijn uitgedrukt en in euro worden omgerekend, bij omrekening in euro worden afgerond op de tweede decimaal, overeenkomstig de artikelen 4 en 5 van de verordening van de Europese Raad van 17 juni 1997 over enkele bepalingen betreffende de invoering van de euro"[^1]. 
+
+## Artikel 4 van dezelfde wet bepaalt dat "elk te betalen of te boeken geldbedrag dat in euro is uitgedrukt en moet worden omgerekend in Belgische frank, wordt omgerekend overeenkomstig artikel 4 van de bovenbedoelde Europese verordening en, na omrekening, wordt afgerond op de frank naar boven of naar beneden, naargelang het bedrag na de komma hoger of gelijk is aan vijftig centiemen, enerzijds, of lager dan vijftig centiemen, anderzijds".
+
 Artikel 6 van dezelfde wet bepaalt dat "het vastgestelde verschil van één cent tussen het oorspronkelijke bedrag van een in euro uitgedrukte vordering en het resultaat van de opeenvolgende omrekening van die vordering in frank en, nadien, in euro, geen weerslag heeft op het bevrijdende karakter van de betaling of de nauwkeurigheid van de boeking van de oorspronkelijke vordering op rekening, wanneer dat verschil voortvloeit uit de normale toepassing van de in de artikelen 4 en 5 van de bovenbedoelde verordening omschreven voorschriften voor omrekening en afronding. Dat verschil geeft geen aanleiding tot vergoeding". 
 
-Die verschillende voorschriften maakten trouwens al in november 1997 het voorwerp uit van een publicatie van het Commissariaat-generaal voor de euro met als titel: "Aanbevelingen betreffende omrekeningen en afrondingen".
+## Die verschillende voorschriften maakten trouwens al in november 1997 het voorwerp uit van een publicatie van het Commissariaat-generaal voor de euro met als titel: "Aanbevelingen betreffende omrekeningen en afrondingen".
+
 - In dat kader is de Commissie van oordeel dat een onderscheid moet worden gemaakt tussen, enerzijds, de problematiek van de overschakeling van de boekhouding van de Belgische frank op de euro en, anderzijds, de verwerking van de afrondingsverschillen bij conversie die zich voordoen tijdens de overgangsperiode, (gaande van 1 januari 1999 tot uiterlijk 31 december 2001) omwille van het feit dat een onderneming verrichtingen zou afsluiten of doorvoeren in een andere monetaire uitdrukking dan BEF of EUR waarin zij haar boekhouding voert. 
 
-#### I.v.m. de verwerking van afrondingsverschillen bij conversie ingevolge de overschakeling van de boekhouding op de euro
-
+I.v.m. de verwerking van afrondingsverschillen bij conversie ingevolge de overschakeling van de boekhouding op de euro
 Overeenkomstig het Europese recht moeten alle boekhoudkundig te verwerken verrichtingen voortvloeiend uit van derden te ontvangen of aan derden te betalen bedragen aan de officiële koers worden omgerekend, zij het van BEF naar euro of van euro naar BEF, en dit zonder enige verdere aanpassing. 
 
 Dit impliceert dat een omrekeningsafronding die zich zou voordoen niet ten laste mag worden gelegd van, bijvoorbeeld, het bedrag van de vordering op de tegenpartij of op het bedrag van de geboekte schuld ten opzichte van de tegenpartij, maar wel door boeking in de rubrieken 65 of 75 van de resultatenrekening (rubriek bestemd om, overeenkomstig voorgenoemd advies 173/2, alle verschillen op te nemen, ongeacht of ze positief dan wel negatief zijn)[^2].
@@ -98,6 +96,7 @@ Stel dat een onderneming (bij de overschakeling van haar boekhouding op de euro)
 Op basis van de officiële omrekeningskoers (BEF/EUR) van 40,3399, ziet de overschakeling van de MAR-rekening 400 "Handelsdebiteuren" er als volgt uit:
 
 | | | **BEF** | | **EUR** | 
+|---|---|---|---|---|
 | Klant A | | 1.205 | | 29,87 | 
 | Klant B | | 1.300 | | 32,23 | 
 | Klant C | | 500 | | 12,39 | 
@@ -127,14 +126,14 @@ Vennootschap A besluit haar boekhouding op 1 mei 1999 op de euro over te schakel
 ## Balans in BEF op 30/4/99
 
  | | **Tegenwaarde in EUR, afgerond op de 2de decimaal** | 
+|---|---|
 | 100 | | Kapitaal | | | | 150 | | | | 3,72 | 
 | 2210 | | Gebouwen | | 1207 | | | | 29,92 | | | 
 | 22109 | | Afschrijvingen op gebouwen | | | | 302 | | | | 7,49 | 
 | 400 | | Handelsdebiteuren | | 428 | | | | 10,61 | | | 
 | 55 | | Kredietinstellingen | | 56 | | | | 1,39 | | | 
 | | | | | | | | | | | | 
-| 440 | | Leveranciers | | | | 1052 | | | | 26,08 | 
-| 451 | | Te betalen BTW 
+| 440 | | Leveranciers | | | | 1052 | | | | 26,08 | 451 | | Te betalen BTW |
  | | | | 221 | | | | 5,48 | 
 | | | | | | | | | | | | 
 | 61 | | Diensten & diverse goederen | | 1132 | | | | 28,06 | | | 
@@ -143,9 +142,9 @@ Vennootschap A besluit haar boekhouding op 1 mei 1999 op de euro over te schakel
 | 70 | | Omzet | | | | 1146 | | | | 28,41 | 
 | | | | | *2871* | | *2871* | | *71,17* | | *71,18* | 
 
-###### Overschakeling van de boekhouding op de euro op 1/5/99 
+### Overschakeling van de boekhouding op de euro op 1/5/99
 
-### *A. Afsluiting van de boekhouding in BEF* 
+## A. Afsluiting van de boekhouding in BEF
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -160,7 +159,7 @@ Vennootschap A besluit haar boekhouding op 1 mei 1999 op de euro over te schakel
 | | 61 | Diensten en diverse goederen | 1132 | |
 | | 6302 | Afschrijvingen op materiële vaste activa | 48 | |
 
-### *B. (Her)opening van de boekhouding in EUR* 
+## B. (Her)opening van de boekhouding in EUR
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -185,8 +184,7 @@ Maakt een vennootschap dergelijke keuze, dan zou de opstelling van de verschille
 
 In dit verband moet worden onderstreept dat dit probleem te onderscheiden is van de afronding van de jaarrekening in euro of duizenden euro (waarvan de modaliteiten vermeld zijn in 173/7 gepubliceerd in hetzelfde Bulletin).
 
-#### I.v.m. de verwerking van afrondingsverschillen bij conversie van afzonderlijke verrichtingen afgesloten in een andere monetaire uitdrukking (BEF/andere munt die deel uitmaakt van de euro of EUR) dan de monetaire uitdrukking (EUR ou BEF) waarin de boekhouding wordt gevoerd.
-
+I.v.m. de verwerking van afrondingsverschillen bij conversie van afzonderlijke verrichtingen afgesloten in een andere monetaire uitdrukking (BEF/andere munt die deel uitmaakt van de euro of EUR) dan de monetaire uitdrukking (EUR ou BEF) waarin de boekhouding wordt gevoerd.
 De boekhoudkundige verwerking van dergelijke verschillen werd reeds uitgewerkt in voornoemd advies 173/2. Aanvullend bij dit advies, wenst de Commissie volgende regels duidelijk te stellen:
 
 - overeenkomstig artikel 6 van de wet van 30 oktober 1998 betreffende de euro heeft "het vastgestelde verschil van een cent tussen het oorspronkelijke bedrag van een in euro uitgedrukte vordering en het resultaat van de opeenvolgende omrekening van die vordering in frank en, nadien, in euro, (...) geen weerslag op het bevrijdende karakter van de betaling of de nauwkeurigheid van de boeking van de oorspronkelijke vordering op rekening, wanneer dat verschil voortvloeit uit de normale toepassing van de in de artikelen 4 en 5 van de bovenbedoelde verordening omschreven voorschriften voor omrekening en afronding. Dat verschil geeft geen aanleiding tot vergoeding". Het wordt overgebracht naar rekening 65/75; 

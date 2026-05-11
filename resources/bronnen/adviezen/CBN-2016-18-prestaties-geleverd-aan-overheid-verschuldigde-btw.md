@@ -3,40 +3,42 @@ bron: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-versch
 datum: 2016-09-07
 nummer: CBN-advies 2016/18
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-verschuldigde-btw
-      sha256: 715bff8867faddd422570e50039bcd071efc96661e150312323d2b3917573b70
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-verschuldigde-btw
+    sha256: 715bff8867faddd422570e50039bcd071efc96661e150312323d2b3917573b70
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 2
-      max_section_chars: 2894
       file_size_chars: 3951
       flags: []
+      heading_count: 2
+      max_section_chars: 2894
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Kort, helder advies zonder artefacten. Twee ##-headings, acht voetnoten allemaal correct. Geen structuur- of opmaakproblemen.'
+      rationale: 'Kort, helder advies zonder artefacten. Twee ##-headings, acht voetnoten
+        allemaal correct. Geen structuur- of opmaakproblemen.'
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: 'Kort, helder advies zonder artefacten. Twee ##-headings, acht voetnoten allemaal correct. Geen structuur- of opmaakproblemen.'
+    rationale: 'Kort, helder advies zonder artefacten. Twee ##-headings, acht voetnoten
+      allemaal correct. Geen structuur- of opmaakproblemen.'
     status: trusted
 themas:
-  - prestaties geleverd aan de overheid
-  - btw
+- prestaties geleverd aan de overheid
+- btw
 ---
 
 # CBN-advies 2016/18 – Prestaties geleverd aan overheid – verschuldigde btw

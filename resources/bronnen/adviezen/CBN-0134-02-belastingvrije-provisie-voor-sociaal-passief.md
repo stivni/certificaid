@@ -16,32 +16,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "G2-variant: HTML-entiteit '&#039;' in frontmatter themas-veld op L55 ('voorzieningen voor risico&#039;s en kosten') — scraper heeft de HTML-entiteit niet gedecodeerd naar het correcte apostrof-teken. Body is schoon: correct apostrof-gebruik in 'voorzieningen voor risico's en lasten'. Eén artefact, maar in de machine-leesbare metadata en dus ETL-fixeerbaar."
+    rationale: HTML-entiteit '&#039;' in frontmatter themas-veld op L55 ('voorzieningen voor risico&#039;s en kosten') — scraper heeft de HTML-entiteit niet gedecodeerd naar het correcte apostrof-teken. Body is schoon. Eén artefact maar in machine-leesbare metadata en dus ETL-fixeerbaar. Bevestiging van eerder layer2-verdict.
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 2126
       file_size_chars: 2126
       flags: []
+      heading_count: 0
+      max_section_chars: 2126
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "G2-variant: HTML-entiteit '&#039;' in frontmatter themas-veld op L55 ('voorzieningen voor risico&#039;s en kosten') — scraper heeft de HTML-entiteit niet gedecodeerd naar het correcte apostrof-teken. Body is schoon: correct apostrof-gebruik in 'voorzieningen voor risico's en lasten'. Eén artefact, maar in de machine-leesbare metadata en dus ETL-fixeerbaar."
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: HTML-entiteit '&#039;' in frontmatter themas-veld op L55 ('voorzieningen voor risico&#039;s en kosten') — scraper heeft de HTML-entiteit niet gedecodeerd naar het correcte apostrof-teken. Body is schoon. Eén artefact maar in machine-leesbare metadata en dus ETL-fixeerbaar. Bevestiging van eerder layer2-verdict.
       concrete_problemen:
         - regel: 55
           categorie: G2
           type: other
-          voorbeeld: '  - voorzieningen voor risico&#039;s en kosten (HTML-entiteit in frontmatter)'
+          voorbeeld: voorzieningen voor risico&#039;s en kosten (HTML-entiteit niet gedecodeerd)
 themas:
   - afdanking van personeel
   - belastingen

@@ -16,30 +16,30 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F1/G2: frontmatter regel 6 bevat ongedecodeëerd HTML-entity '&quot;' in gerelateerde_adviezen titel ('Het begrip &quot;financiële instelling&quot;'). Body zelf is schoon — italic '*Thesauriebeleggingen*' correct gesloten, geen andere artefacten. De HTML-entity maakt metadata onbetrouwbaar voor downstream verwerking."
+    rationale: "F1: frontmatter-regel 6 bevat ongedecodeëerd HTML-entity '&quot;' in gerelateerde_adviezen titel ('Het begrip &quot;financiële instelling&quot;') — ETL-bug, niet een source-typo. Body (1 paragraaf) is inhoudelijk schoon en compleet."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 1126
       file_size_chars: 1126
       flags: []
+      heading_count: 0
+      max_section_chars: 1126
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "F1/G2: frontmatter regel 6 bevat ongedecodeëerd HTML-entity '&quot;' in gerelateerde_adviezen titel ('Het begrip &quot;financiële instelling&quot;'). Body zelf is schoon — italic '*Thesauriebeleggingen*' correct gesloten, geen andere artefacten. De HTML-entity maakt metadata onbetrouwbaar voor downstream verwerking."
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: "F1: frontmatter-regel 6 bevat ongedecodeëerd HTML-entity '&quot;' in gerelateerde_adviezen titel ('Het begrip &quot;financiële instelling&quot;') — ETL-bug, niet een source-typo. Body (1 paragraaf) is inhoudelijk schoon en compleet."
       concrete_problemen:
         - regel: 6
-          categorie: G2
+          categorie: F1
           type: other
           voorbeeld: 'titel: Het begrip &quot;financiële instelling&quot;'
 themas:

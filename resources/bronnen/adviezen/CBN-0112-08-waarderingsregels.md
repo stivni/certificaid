@@ -25,36 +25,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Twee problemen: (1) A6: spurious paragrafbreuk midden in een zin op regels 73-75 — 'om op een bondige wijze de uitwerking van het degressieve systeem toe te lichten, om duidelijk het [lege regel] onderscheid te laten blijken' is één zin gesplitst over een blanco regel; een mens schrijft dit nooit zo. (2) E2: de tabel op regels 79-85 heeft geen header-separator rij (|---|...|) na de header; dit is geen geldige markdown-tabel."
+    rationale: "A6: spurious line-break midden in een zin op regel 65-67: 'om duidelijk het' eindigt een blok, daarna lege regel, dan 'onderscheid te laten blijken' — typisch PDF-kolom-extractie-artefact. E2: de tabel (regels 71-78) bevat lege tussencellen (| | |) als visuele spacers uit het bronformaat, niet als valide markdown-tabelkolommen."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 1877
-      file_size_chars: 1877
+      file_size_chars: 1899
       flags: []
+      heading_count: 0
+      max_section_chars: 1899
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "Twee problemen: (1) A6: spurious paragrafbreuk midden in een zin op regels 73-75 — 'om op een bondige wijze de uitwerking van het degressieve systeem toe te lichten, om duidelijk het [lege regel] onderscheid te laten blijken' is één zin gesplitst over een blanco regel; een mens schrijft dit nooit zo. (2) E2: de tabel op regels 79-85 heeft geen header-separator rij (|---|...|) na de header; dit is geen geldige markdown-tabel."
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: "A6: spurious line-break midden in een zin op regel 65-67: 'om duidelijk het' eindigt een blok, daarna lege regel, dan 'onderscheid te laten blijken' — typisch PDF-kolom-extractie-artefact. E2: de tabel (regels 71-78) bevat lege tussencellen (| | |) als visuele spacers uit het bronformaat, niet als valide markdown-tabelkolommen."
       concrete_problemen:
-        - regel: 73
+        - regel: 65
           categorie: A6
           type: other
-          voorbeeld: '...uitwerking van het degressieve systeem toe te lichten, om duidelijk het [blanco regel] onderscheid...'
-        - regel: 79
+          voorbeeld: om duidelijk het [LEGE REGEL] onderscheid te laten blijken
+        - regel: 71
           categorie: E2
-          type: other
-          voorbeeld: '| | | **Lineair afschrijvingspercentage...** | (geen |---|---| separator rij)'
+          type: pseudo-table
+          voorbeeld: '| | | **Lineair afschrijvingspercentage...** | | **Aanvankelijk...** |'
 themas:
   - afschrijvingen
   - degressieve afschrijving
@@ -77,6 +77,7 @@ onderscheid te laten blijken met andere afschrijvingsvormen.
 Om elke verkeerde interpretatie over het degressieve afschrijvingspercentage te vermijden, raadt de Commissie aan, bij toepassing van een degressief afschrijvingsplan, in de toelichting te vermelden:
 
 | | | **Lineair afschrijvingspercentage op aanschaffingswaarde** | | **Aanvankelijk toegepast verhoogd afschrijvingspercentage op netto-boekwaarde** | 
+|---|---|---|---|---|
 | Immateriële vaste activa | | ...% | | ...% | 
 | Gebouwen | | ...% | | ...% | 
 | Installaties, machines en uitrusting | | ...% | | ...% | 

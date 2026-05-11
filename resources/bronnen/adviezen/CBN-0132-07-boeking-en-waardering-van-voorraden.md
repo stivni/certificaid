@@ -16,37 +16,61 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
 nummer: CBN-advies 132/7
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
       sha256: d73c47ba8ea46d281b831bb8deee7fd1176686795ce91e18dd9c1f2040ddf8d9
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T15:15:31Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-08T19:02:27Z'
-    confirmed_by: subagent-laag2-ronde2
+    status: needs-rework
+    confirmed_at: '2026-05-11T15:15:33Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Meerdere ETL-artefacten over het lange bestand: A9 op L144 ('Commussue' ipv 'Commissie' — OCR-letterverwarring). E2: talrijke tabellen met incomplete structuur — enkelvoudige rij met enkel de debetrekening als tabelheader zonder 'aan'-rij in de tabel (L269-274, L536-538, L639-645). C3-adjacent: breukformules met underscore-lijn als ASCII-art (L374-385). D4: L279 'Vooraadwijzgingen' (typisch OCR-slordigheid, missing letters)."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 47
-      max_section_chars: 15618
-      file_size_chars: 75478
+      file_size_chars: 75512
       flags: []
+      heading_count: 47
+      max_section_chars: 15616
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 48 headings voor uitgebreid advies over voorraadboeking en -waardering. Heading-structuur per methode intact.'
-      run_at: '2026-05-08T19:02:27Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: "Meerdere ETL-artefacten over het lange bestand: A9 op L144 ('Commussue' ipv 'Commissie' — OCR-letterverwarring). E2: talrijke tabellen met incomplete structuur — enkelvoudige rij met enkel de debetrekening als tabelheader zonder 'aan'-rij in de tabel (L269-274, L536-538, L639-645). C3-adjacent: breukformules met underscore-lijn als ASCII-art (L374-385). D4: L279 'Vooraadwijzgingen' (typisch OCR-slordigheid, missing letters)."
+      concrete_problemen:
+        - regel: 144
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: Naar het oordeel van de Commussue moeten aan deze post...
+        - regel: 269
+          categorie: E2
+          type: other
+          voorbeeld: "| 34 Handelsgoederen | (enkelvoudige tabelrij, 'aan 6094'-regel buiten tabel)"
+        - regel: 279
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: 6094 Vooraadwijzgingen van handelsgoederen (missing letters)
+        - regel: 374
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: ________________________________________________________________________________________________ (ASCII-art scheidingslijn voor breukformule)
+        - regel: 536
+          categorie: E2
+          type: other
+          voorbeeld: "| 34 Voorraden | (enkelvoudige rij, 'aan 6094'-regel staat buiten de tabel)"
+        - regel: 639
+          categorie: E2
+          type: other
+          voorbeeld: "| 330 Gereed product - aanschaffingswaarde | gevolgd door lege rij en stray 'aan 713...' buiten tabel"
 themas:
   - aanschaffingswaarde
   - aanschaffingsprijs
@@ -99,7 +123,7 @@ Het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Ve
 	II.E. Waardeverminderingen op voorraden, op bestellingen in uitvoering (...); 
 3. als bestanddelen waarop specifieke waarderingsregels van toepassing zijn. 
 
-### Begrip "voorraad" 
+### Begrip "voorraad"
 
 Zowel in de algemene optiek van het voornoemde besluit als in de bedrijfseconomische realiteit maken voorraden deel uit van de bedrijfscyclus, waar zij:
 
@@ -180,7 +204,7 @@ Tot slot worden ook de geproduceerde vaste activa (interne werkzaamheden die als
 
 Niettemin vertegenwoordigen de voorraden meer dan «niet volledig verbruikte kosten» of «opbrengsten die nog niet zijn of kunnen worden gerealiseerd»; het zijn immers belangrijke vermogensbestanddelen van de onderneming, waarop zij een concreet en specifiek risico loopt (ontaarding, verlies, veroudering, prijsdaling) maar waarmee zij ook en tegelijkertijd haar voordeel kan doen in geval van prijsstijgingen. Wanneer de inventaris wordt opgemaakt en de jaarrekening dienovereenkomstig aangepast, moet dus niet enkel rekening worden gehouden met de aan de voorraden verbonden fysieke risico's, maar ook met de waardeveranderingen die zij kunnen ondergaan.
 
-## Basisbeginselen van de boekhoudwetgeving inzake voorraden 
+## Basisbeginselen van de boekhoudwetgeving inzake voorraden
 
 In de algemene visie van het KB W.Venn. over de voorraden, net zoals in het koninklijk besluit van 12 september 1983 tot bepaling van de minimumindeling van een algemeen rekeningenstelsel, zijn de bedrijfskosten met betrekking tot de voorraden, de algebraïsche som van : 
 
@@ -206,7 +230,7 @@ Volgens de Commissie is er geen afdoende reden om af te stappen van de benaderin
 
 ### Algemeen boekingsschema
 
-#### Relaties met derden 
+#### Relaties met derden
 
 Relaties met derden (aankopen, verkopen, te betalen of terug te vorderen btw, ontvangen of toegekende ristorno's en kortingen) worden dagelijks geregistreerd in de dagboeken en naar de rekeningen overgebracht conform het volgende algemene schema : 
 
@@ -219,7 +243,7 @@ Relaties met derden (aankopen, verkopen, te betalen of terug te vorderen btw, on
 
 De totale aankopen en verkopen van het boekjaar worden, na aftrek van de ristorno's en kortingen, als dusdanig als bedrijfsresultaten opgenomen. 
 
-#### Voorraden en voorraadwijzigingen 
+#### Voorraden en voorraadwijzigingen
 
 De waarde van de voorraden schommelt voortdurend op basis van:
 
@@ -250,7 +274,7 @@ Daarbij wordt het volgende schema gebruikt :
 
 De voorraadwijzigingen ten gevolge van een inbreng in natura of van een inbreng of overdracht naar aanleiding van een fusie of (partiële) splitsing, dienen uiteraard niet via de resultatenrekening te verlopen[^15].
 
-#### Gebruik van de rekeningen "voorraadwijzigingen" 
+#### Gebruik van de rekeningen "voorraadwijzigingen"
 
 Qua voorstelling en, in voorkomend geval, openbaarmaking van de jaarrekening bevatten het schema in artikel 89 KB W.Venn. slechts de twee voornoemde posten voor voorraadwijzigingen. Een administratieve en boekhoudkundige controle van het verloop van de voorraden die er enkel in zou bestaan eens per jaar bij het inventariseren, de waarde van de eindvoorraad te toetsen aan de waarde van de oorspronkelijke voorraad, volstaat uiteraard enkel in uitzonderlijke gevallen -ondernemingen met een eenvoudige structuur of relatief kleine ondernemingen - om te voldoen aan het fundamentele vereiste van artikel 2 van de wet van 17 juli 1975. Op grond van dat artikel moet een onderneming immers een voor de aard en de omvang van haar bedrijf passende boekhouding voeren. Voor de bedrijfsleiding is het saldo van de rekening voorraadwijzigingen in se niet relevant, omdat daarin naar hun aard heterogene factoren zijn verwerkt (inkomende voorraden, uitgaande voorraden tegen andere prijzen dan die van de inkomende voorraden gezien de toevoeging van gemaakte kosten, inventarisoverschotten en -tekorten, schommelingen van de marktprijs, veroudering, ...). 
 
@@ -267,6 +291,7 @@ Niet-industriële ondernemingen gebruiken daarvoor het volgende schema :
 - *Inkomende voorraden en toevoeging van bijkomende kosten :*  
 
 | 34 Handelsgoederen | 
+|---|
 | | | aan 6094 Vooraadwijzigingen van handelsgoederen | 
 
 - 
@@ -325,9 +350,9 @@ b) In de analytische boekhouding wordt een permanente inventaris bijgehouden; di
 
 Welke methode ook wordt toegepast voor de boekhoudkundige controle op het verloop van de voorraden, er moet steeds een verband bestaan tussen de algemene boekhouding, de administratieve follow-up van de voorraden en de inventaris, wil een boekhouding verifieerbaar zijn. 
 
-### Waarderingsbeginselen 
+### Waarderingsbeginselen
 
-#### Overzicht van de belangrijkste regels 
+#### Overzicht van de belangrijkste regels
 
 Krachtens artikel 69 §1 KB W.Venn. worden de grond- en hulpstoffen, het gereed product, de handelsgoederen en de voor verkoop bestemde goederen gewaardeerd tegen aanschaffingswaarde of tegen de marktwaarde op balansdatum als die lager is. Een waardering tegen lagere marktwaarde mag niet meer behouden blijven, indien later de marktwaarde hoger komt te liggen dan de voor de waardering van de voorraden gehanteerde lagere marktwaarde. 
 
@@ -337,7 +362,7 @@ Krachtens artikel 70, tweede lid KB W.Venn. worden ten aanzien van voorraden in 
 
 Actiefbestanddelen worden in principe afzonderlijk gewaardeerd (art. 31 KB W.Venn.). Voor actiefbestanddelen met volkomen identieke technische of juridische kenmerken, dus goederen die de facto onderling verwisselbaar zijn, mogen echter globale afschrijvingen of waardeverminderingen geacteerd worden (art. 47 KB W.Venn.).
 
-#### Aanschaffingswaarde van inkomende voorraden 
+#### Aanschaffingswaarde van inkomende voorraden
 
 Het beginsel dat voorraden tegen aanschaffingswaarde in de balans worden opgenomen impliceert in de regel dat alle kosten die worden gemaakt om de voorraden in hun huidige staat te brengen op de plaats waar ze zich bevinden, moeten worden opgenomen in de waarde waartegen die voorraden in de balans voorkomen[^16]. Andere kosten dan die om de voorraden in hun huidige staat te brengen op de plaats waar ze zich bevinden, mogen niet in de aanschaffingswaarde worden opgenomen; zij moeten ten laste worden gebracht van de periode waarin zij werden gemaakt. 
 
@@ -349,7 +374,7 @@ Voor voorraden waarvan de verwerving gepaard ging met een deviezenverrichting, i
 
 De aanschaffingswaarde van deze voorraden wordt - in principe - niet beïnvloed door het latere koersverloop van de munt waarin de aankoopschuld is uitgedrukt, noch door de werkelijke koers waartegen de schuld op de vervaldag wordt aangezuiverd. Het is inderdaad zo dat het koersverloop van de valuta waarin de aankoopschuld is uitgedrukt, na boeking van de verrichting, volledig los staat van de bepaling van de aanschaffingswaarde van deze niet-monetaire vaste activa[^17].
 
-#### Waarde van uitgaande voorraden 
+#### Waarde van uitgaande voorraden
 
 Uitgaande voorraden worden, via rekening 609 of 71, van de voorraden afgeboekt tegen de reële of vermoedelijke aanschaffingswaarde van de bestanddelen die de voorraad hebben verlaten. 
 
@@ -405,15 +430,15 @@ Naast de klassieke benadering van de Lifo-methode zijn er ook nog de zogenaamde 
 
 Hoewel het Belgische boekhoudrecht de Lifo-methode heeft aanvaard, want toegestaan door de Vierde Richtlijn[^20], moet worden opgemerkt dat zij conform IAS/IFRS niet langer aanvaard wordt.
 
-#### Beginsel van de afzonderlijke waardering 
+#### Beginsel van de afzonderlijke waardering
 
 OVereenkomstig artikel 31 KB W.Venn. wordt elk bestanddeel van het vermogen afzonderlijk gewaardeerd.
 
 Zie ook advies 126/6 Individualisering van de aanschaffingsprijs[^21].
 
-#### Inventarisopneming en -waardering 
+#### Inventarisopneming en -waardering
 
-##### Algemeen 
+##### Algemeen
 
 Krachtens artikel 9 van de wet van 17 juli 1975 "verricht elke onderneming, omzichtig en te goeder trouw, ten minste eens per jaar de nodige opnemingen, verificaties, onderzoekingen en waarderingen om op een door haar gekozen datum de inventaris op te maken van al haar bezittingen [...]. Deze inventaris wordt ingericht overeenkomstig het rekeningenstelsel van de onderneming [...]." 
 
@@ -423,20 +448,20 @@ Wat de voorraden betreft, zal de inventaris bestaan uit :
 - een kwaliteitscontrole van de voorraden om eventuele fysieke veranderingen of economische veroudering van de betrokken goederen (onverkoopbare voorraden of voorraden met trage omloopsnelheid) op te sporen; 
 - een vergelijking tussen de aanschaffingsprijs van de voorraden en hun markt- of realisatiewaarde. 
 
-##### Kwantitatieve inventaris 
+##### Kwantitatieve inventaris
 
 Indien tijdens het boekjaar de voorraadwijzigingen als gevolg van input en output niet in de algemene boekhouding van de onderneming worden geregistreerd[^22], dan worden de kwantitatieve voorraadbewegingen aan het einde van het boekjaar in de algemene boekhouding uitgedrukt als een totaalbedrag, namelijk het saldo van de inkomende en uitgaande voorraden, inventarisoverschotten en -tekorten. Op die hoeveelheid wordt dan één van beide voornoemde methodes toegepast om de waarde van de voorraad te bepalen tegen aanschaffingswaarde. 
 
 Indien de algemene boekhouding voor het verloop van de inkomende en de uitgaande voorraden steunt op een permanent bijgehouden kwantitatieve inventaris, waarin die voorraden tegen aanschaffingsprijs worden geprijsd op basis van de voornoemde methodes, zal de fysieke inventaris enkel moeten worden gecorrigeerd voor de verschillen tussen de boekhoudkundige en de effectieve voorraden. Voor elk inventarisoverschot of -tekort moet de reden worden gezocht. Een overschot of een tekort kan immers wijzen op een fout of een verkeerde boeking of toerekening die moet worden rechtgezet. Blijven er na dit nazicht nog inventaristekorten over, dan worden die als uitgaande voorraad beschouwd; bij inventarisoverschotten wordt de uitgaande voorraad dan geacht in volume minder groot te zijn. 
 
-##### Kwalitatieve inventaris 
+##### Kwalitatieve inventaris
 
 Kwalitatieve ontwaarding ingevolge hetzij fysieke wijzigingen, hetzij economische veroudering (voorraden met trage omloopsnelheid), uit zich meestal in een daling van de realisatiewaarde. De hieronder vermelde gevallen van kwalitatieve ontwaarding ingevolge een daling van de marktprijs, horen daar evenwel niet bij. Zo bijvoorbeeld, voorraden reserve-onderdelen voor machines of voertuigen die niet langer door de onderneming worden geproduceerd of verkocht, modeartikelen, voorraden met trage omloopsnelheid ...[^23]
  Daarom moeten hierop vaak waardecorrecties worden toegepast die onvermijdelijk forfaitair zijn, bij gebrek aan duidelijke criteria voor de raming van de vermoedelijke prijs waartegen de volledige partij kan worden gerealiseerd. 
 
 De wijze waarop die kortingen worden berekend, moet beantwoorden aan de beginselen van voorzichtigheid, oprechtheid en goede trouw, alsook aan de criteria die door het bestuursorgaan zijn vastgesteld op basis van de concrete omstandigheden. 
 
-##### Verschil tussen de aanschaffingsprijs en de markt- of realisatieprijs 
+##### Verschil tussen de aanschaffingsprijs en de markt- of realisatieprijs
 
 - Krachtens artikel 69 § 1, eerste lid KB W.Venn. worden "de grond- en hulpstoffen, het gereed product, de handelsgoederen [...] gewaardeerd tegen aanschaffingswaarde of tegen de marktprijs op balansdatum als die lager is". 
 - "Ten aanzien van de goederen in bewerking [...] worden waardeverminderingen toegepast, indien hun vervaardigingsprijs, vermeerderd met het geraamde bedrag van de nog te maken kosten, [...] hoger is dan de netto-verkoopprijs op de datum van de jaarafsluiting" [... ] (art. 70, eerste lid KB W.Venn.). 
@@ -494,15 +519,15 @@ Artikel 45 KB W.Venn. bepaalt dat waardeverminderingen bedoeld zijn om rekening 
 
 ## Toepassingen
 
-### Handelsgoederen 
+### Handelsgoederen
 
-#### Begrip 
+#### Begrip
 
 Onder "handelsgoederen" worden de materiële goederen verstaan die door de onderneming zijn ingekocht om zonder bewerking of na een lichte bewerking te worden verkocht[^27]. 
 
 Niet-recupereerbare verpakkingen (wegwerpverpakkingen) bedoeld voor verkoop of waarvan de waarde is opgenomen in de prijs van de inhoud, mogen, naar gelang van hun bestemming, bij de handelsgoederen, bij de grondstoffen, of bij de hulpstoffen worden opgenomen. 
 
-#### Aanschaffingswaarde 
+#### Aanschaffingswaarde
 
 De aanschaffingswaarde bij opneming in de voorraad kan worden gedefinieerd als een prijs «afgeleverd» waarin alles is opgenomen wat het gekochte goed heeft gekost tot het door de onderneming in de voorraad is opgenomen. De aanschaffingswaarde wordt verkregen door optelling van de volgende bestanddelen : 
 
@@ -524,7 +549,7 @@ Interne kosten voor marktonderzoek, het plaatsen van bestellingen bij leverancie
 
 Hetzelfde geldt voor de kosten voor de bewaring in de opslagplaats, als die bewaring de waarde van het betrokken goed mee bepaalt (bijvoorbeeld bij wijn). 
 
-#### Boeking van aankopen 
+#### Boeking van aankopen
 
 De aankoopprijs in hoofdsom (bedoeld sub 1° hierboven), de niet-recupereerbare belastingen (bedoeld sub 2° hierboven) en, in voorkomend geval, de bijkomende kosten (bedoeld sub 3° hierboven), die zijn gefactureerd door de leverancier van de handelsgoederen, worden bij aankoop in de rekening "Aankopen" (604 van het algemeen rekeningenstelsel) geboekt als een kost van het boekjaar. 
 
@@ -533,21 +558,22 @@ De bijkomende kosten bedoeld sub 3° hierboven, betaald aan derden buiten de lev
 De toerekening van al die kosten (aanschaffingsprijs in hoofdsom, niet-recupereerbare belastingen, aan derden betaalde bijkomende kosten, interne kosten bedoeld sub 4° hierboven) aan de aanschaffingsprijs van de voorraden, gebeurt als volgt : 
 
 | 34 Voorraden | 
+|---|
 | | | aan 6094 Voorraadwijzigingen van handelsgoederen | 
 
-#### Marktwaarde 
+#### Marktwaarde
 
 Voor handelsgoederen bestemd voor verkoop, is de marktprijs die in aanmerking moet worden genomen, in beginsel de verkoopprijs "bij vertrek uit de onderneming", op balansdatum, die wordt verkregen onder normale en gebruikelijke verkoopvoorwaarden, rekening houdend met de kortingen, ristorno's en rabatten die gewoonlijk door de onderneming worden gegeven, na aftrek van een bedrag dat overeenstemt met de normale rechtstreekse verkoopkosten (die de marktprijs normaliter moet dekken en die niet in de aanschaffingsprijs zijn inbegrepen).
 
 Indien de onderneming niet beschikt over betrouwbare prijslijsten om de marktprijs aan het einde van het boekjaar te bepalen, kan zij zich daarvoor baseren op haar verkopen over een periode die aansluit bij de balansdatum, gesteld dat het gaat om grote en gevarieerde hoeveelheden handelsgoederen die voldoende representatief zijn voor de verschillende soorten producten die zij op balansdatum in voorraad heeft. 
 
-#### Waardering van de aanschaffingsprijs van voorraden handelsgoederen op grond van de verkoopprijs 
+#### Waardering van de aanschaffingsprijs van voorraden handelsgoederen op grond van de verkoopprijs
 
 Zie advies 126/7 "Waardering van de aanschaffingsprjs van de voorraden op grond van de verkoopprijs"[^29].
 
 ### Grond- en hulpstoffen
 
-#### Begrippen 
+#### Begrippen
 
 1. *Grondstoffen* : onder *Grondstoffen* worden alle voorwerpen en substanties verstaan die de onderneming heeft gekocht om ze te verwerken in fabrikaten of halffabrikaten. 
 2. *Hulpstoffen* : onder *Hulpstoffen* worden alle voorwerpen, stoffen of hulpstoffen verstaan die de onderneming koopt om ze, onmiddellijk of zo snel mogelijk, te verbruiken bij de productie of de bedrijfsuitoefening. 
@@ -561,21 +587,21 @@ Cf. III, A, 2 van dit advies.
 
 Cf. III, A, 3 van dit advies. 
 
-#### Marktwaarde 
+#### Marktwaarde
 
 Zodra de grond- en hulpstoffen zijn gekocht en opgeslagen voor de productie van gerede producten of de uitvoering van bestellingen, loopt de onderneming een risico op haar latere productiekosten. De in aanmerking te nemen marktprijs is dan - in beginsel - de marktprijs bij aankoop, met andere woorden, de marktprijs die voortvloeit uit de aanschaffingsprijs in hoofdsom die wordt verkregen onder normale en gebruikelijke aankoopvoorwaarden (rekening houdend met de gebruikelijke kortingen), verhoogd met de geraamde bijkomende kosten bij aankoop die normaliter in de aanschaffingsprijs zijn verwerkt. 
 
 Als er echter ernstige aanwijzingen bestaan dat de verkoopprijs van het gereed product niet sterk zal worden beïnvloed door de daling van de aankoopprijs van de grond- en hulpstoffen, staat het de onderneming vrij als marktprijs niet de aankoopprijs te nemen maar de fractie grond- en hulpstoffen in de verkoopprijs van het gereed product bij vertrek uit de onderneming, met een neerwaartse correctie ten belope van de verkoopkosten. Deze methode moet echter met grote omzichtigheid worden gehanteerd. 
 
-### Gereed product (voorraadproductie) 
+### Gereed product (voorraadproductie)
 
-#### Begrip 
+#### Begrip
 
 Onder "gereed product" worden alle fabricaten van de onderneming verstaan die voor verkoop zijn bestemd en zich in verkoopbare staat bevinden, met inbegrip van verkoopbare halffabricaten. 
 
 Onder "verkoopbare halffabricaten" worden alle fabricaten van de onderneming verstaan, die tot een zeker stadium zijn afgewerkt en hetzij later nog kunnen worden omgevormd, hetzij als zodanig kunnen worden verkocht. 
 
-#### Vervaardigingsprijs 
+#### Vervaardigingsprijs
 
 **2.1** Krachtens artikel 22 van het koninklijk besluit van 8 oktober 1976 omvat de vervaardigingsprijs van producten, "naast de aanschaffingsprijs van de grondstoffen, verbruiksgoederen en hulpstoffen, ook de productiekosten die rechtstreeks aan het individuele product of de productengroep toerekenbaar zijn evenals het evenredige deel van de productiekosten die slechts onrechtstreeks aan het individuele product of de productengroep toerekenbaar zijn, voor zover deze kosten op de normale productieperiode betrekking hebben". Er wordt dus uitgegaan van de volledige vervaardigingsprijs (full cost) met inbegrip van alles wat het gereed product heeft gekost tot op het ogenblik waarop het in de voorraad wordt opgenomen. Die vervaardigingsprijs wordt verkregen door optelling van de volgende bestanddelen :
 
@@ -620,7 +646,7 @@ De Commissie geeft dan ook de raad deze mogelijkheid niet te gebruiken, precies 
 
 Ook moet worden opgemerkt dat de IAS/IFRS-normen de "direct-costing" methode niet aanvaarden[^32].
 
-#### Standaardvervaardigingsprijs 
+#### Standaardvervaardigingsprijs
 
 Een onderneming mag haar fabricaten en goederen in bewerking waarderen volgens een systeem van standaardkosten of tegen een andere vooraf berekende vervaardigingsprijs, als die berekening zo goed mogelijk aansluit bij de normale effectieve vervaardigingsprijs om het betrokken goed in zijn actuele staat te brengen op de plaats waar het zich bevindt. 
 
@@ -630,26 +656,27 @@ Dit impliceert :
 - dat de standaardkosten relevant zijn voor de huidige positie van de onderneming; 
 - dat, wanneer er een aanzienlijk verschil is tussen de standaardvervaardigingsprijs en de conform de punten 1 en 2 berekende vervaardigingsprijs, dat verschil moet resulteren in een aanpassing van de waarde van de voorraden, tenzij het voortvloeit uit abnormale omstandigheden (verspilling, onvoldoende gebruik van de installaties, ...). 
 
-#### Boeking van de voorraadwijzigingen bij voorraadopname 
+#### Boeking van de voorraadwijzigingen bij voorraadopname
 
 Alle bestanddelen van de vervaardigingsprijs van het gereed product worden als volgt aan de voorraden toegerekend : 
 
 | 330 Gereed product - aanschaffingswaarde | 
+|---|
 | | | 
 
 aan 713 Wijzigingen in de voorraad gereed product 
 
   | 
 
-#### Begrip marktprijs 
+#### Begrip marktprijs
 
 De marktprijs is noodzakelijkerwijze de marktprijs bij verkoop, «bij het verlaten van de onderneming» onder normale en gebruikelijke verkoopvoorwaarden, rekening houdend met de gewoonlijk door de onderneming toegestane kortingen, ristorno's en rabatten, na aftrek van een bedrag dat overeenstemt met de normale rechtstreekse verkoopkosten.
 
-#### Voorzieningen voor risico's en kosten 
+#### Voorzieningen voor risico's en kosten
 
 De kosten met betrekking tot het fabrikaat, maar die pas na levering -eventueel - moeten worden gemaakt (gebruiksservice - waarborg op de werking - waarborg voor verborgen gebreken - burgerlijke aansprakelijkheid), komen niet in aanmerking voor de bepaling van de marktprijs, in de zin van een aftrek. In voorkomend geval moeten daarvoor voorzieningen voor risico's en kosten worden gevormd. 
 
-#### Composietproducten 
+#### Composietproducten
 
 "Composietproducten" heeft men, wanneer één productieproces tegelijkertijd resulteert in de productie van verschillende producten of subproducten, waarvan de respectieve vervaardigingsprijs dan ook niet afzonderlijk kan worden bepaald (bijvoorbeeld : raffinage van olieproducten).
 
@@ -664,13 +691,13 @@ Een methode die in de praktijk vaak wordt gebruikt, bestaat erin de totale verva
 - de afvalstoffen waarvan de verwerking of de vernietiging, door de onderneming of door een derde, aanzienlijke kosten met zich brengt. Dit geval komt aan bod in advies nr. 171 *Boekhoudkundige verwerking van afvalstoffen[^33]* ; en 
 - de afvalstoffen waarvan de waarde nihil of verwaarloosbaar is. 
 
-### Goederen in bewerking (voorraadproductie) 
+### Goederen in bewerking (voorraadproductie)
 
-#### Begrip 
+#### Begrip
 
 Onder "goederen in bewerking" worden alle fabricaten van de onderneming verstaan die het stadium van gereed product nog niet hebben bereikt. Zij omvatten eveneens de niet-verkoopbare tussenproducten. 
 
-#### Vervaardigingsprijs 
+#### Vervaardigingsprijs
 
 Cf. III, C, 2 en 3 van dit advies. 
 
@@ -678,7 +705,7 @@ Cf. III, C, 2 en 3 van dit advies.
 
 Cf. III, C, 4 van dit advies. 
 
-#### Marktwaarde 
+#### Marktwaarde
 
 De marktprijs die in aanmerking moet worden genomen, is de marktprijs bij de verkoop van het gereed product (*cf*. III, C, 5), na aftrek van het geraamde bedrag van de nog te maken kosten voor de afwerking van de producten (art. 70, eerste lid KB W.Venn.). Onder nettoverkoopprijs verstaat men de marktprijs min de kosten van verkoop en commercialisatie. 
 
@@ -688,7 +715,7 @@ Moet er een onderscheid worden gemaakt al naar gelang het negatieve verschil tus
 
 Op basis van de algemene beginselen en de basisbenadering in het koninklijk besluit van 30 januari 2001 moet een waardevermindering worden geboekt op het verlies op de goederen in bewerking en/of een voorziening worden gevormd om het geraamde verlies op de nog te verrichten werkzaamheden te dekken. Op grond van de bepalingen van artikel 70, eerste lid KB W.Venn. kan dat negatieve verschil worden opgevangen door de vorming van een voorziening, zonder onderscheid te maken tussen het deel van de reeds vervaardigde productie en het deel van de nog te vervaardigen productie. 
 
-#### Voorzieningen voor risico's en kosten 
+#### Voorzieningen voor risico's en kosten
 
 Cf. III, C, 6 van dit advies. 
 
@@ -777,6 +804,7 @@ Deze gegevens kunnen voorgesteld worden zoals in volgend schema :
 
 			waardering** | | **Grond- en hulpstoffen** | | **Goederen in bewaring** | | **Gereed product** | | **Handels-goederen** | 
 | Individuele waardering | | Ja/Neen | | Ja/Neen | | Ja/Neen | | Ja/Neen | 
+|---|---|---|---|---|---|---|---|---|
 | Gewogen gemiddelde | | Ja/Neen | | Ja/Neen | | Ja/Neen | | Ja/Neen | 
 | Fifo | | Ja/Neen | | Ja/Neen | | Ja/Neen | | Ja/Neen | 
 | Lifo | | Ja/Neen | | Ja/Neen | | Ja/Neen | | Ja/Neen | 
@@ -786,6 +814,7 @@ Deze gegevens kunnen voorgesteld worden zoals in volgend schema :
 2) Verschil tussen boekwaarde en marktwaarde op balansdatum (zo relevant)
 
 | *Waarde* | | *Bedrag* | 
+|---|---|---|
 | Grond- en hulpstoffen | | | 
 | Goederen in bewerking | | | 
 | Gereed product | | | 

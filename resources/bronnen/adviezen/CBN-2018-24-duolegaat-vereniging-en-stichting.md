@@ -12,40 +12,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'A3: TOC op regels 64-74 staat als plain-text nummerlijst in de body; regel 74 bevat een aaneengesloten TOC-concatenatie (`vereniging of stichting-- Duolegaat in geld-- Duolegaat in natura...`) die niet werd opgeschoond. D4: `*duolegaat *` (spatie vóór sluitende asterisk) op regels 80, 82, 87, 95, 97, 101, 103, 105, 119, 128, 154 — stelselmatig fout italic-sluiting.'
+    rationale: 'Bevestiging van bestaand verdict. A3: regel 70 bevat `vereniging of stichting` als losstaande plain-text regel direct na de frontmatter — TOC-residu dat niet door de scraper-fix is verwijderd. D4: stelselmatig malformed italic voor `*duolegaat *` (spatie vóór sluitende asterisk) op minstens regels 74, 78, 82, 83, 87, 91, 93, 97, 101, 103, 115–120, 124, 150.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
+      file_size_chars: 14263
+      flags: []
       heading_count: 7
       max_section_chars: 4775
-      file_size_chars: 14726
-      flags: []
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: 'A3: TOC op regels 64-74 staat als plain-text nummerlijst in de body; regel 74 bevat een aaneengesloten TOC-concatenatie (`vereniging of stichting-- Duolegaat in geld-- Duolegaat in natura...`) die niet werd opgeschoond. D4: `*duolegaat *` (spatie vóór sluitende asterisk) op regels 80, 82, 87, 95, 97, 101, 103, 105, 119, 128, 154 — stelselmatig fout italic-sluiting.'
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'Bevestiging van bestaand verdict. A3: regel 70 bevat `vereniging of stichting` als losstaande plain-text regel direct na de frontmatter — TOC-residu dat niet door de scraper-fix is verwijderd. D4: stelselmatig malformed italic voor `*duolegaat *` (spatie vóór sluitende asterisk) op minstens regels 74, 78, 82, 83, 87, 91, 93, 97, 101, 103, 115–120, 124, 150.'
       concrete_problemen:
-        - regel: 74
+        - regel: 70
           categorie: A3
           type: other
-          voorbeeld: vereniging of stichting-- Duolegaat in geld-- Duolegaat in naturaBoekhoudkundige verwerking...
-        - regel: 80
+          voorbeeld: vereniging of stichting
+        - regel: 78
           categorie: D4
           type: other
-          voorbeeld: 'Het *duolegaat* is een bepaling... (correct) vs regel 82: Bij het *klassieke duolegaat *wordt'
-        - regel: 87
+          voorbeeld: Bij het *klassieke duolegaat *wordt de nalatenschap volledig toebedeeld
+        - regel: 83
           categorie: D4
           type: other
-          voorbeeld: Bij een* omgekeerd duolegaat* wordt — spatie voor openende asterisk
+          voorbeeld: Bij een* omgekeerd duolegaat* wordt het begunstigde verre familielid
 themas:
   - duolegaat
   - nalatenschap
@@ -57,17 +57,7 @@ themas:
 
 # CBN-advies 2018/24 – Duolegaat – Vereniging en stichting
 
-1. Algemeen 
-2. Boekhoudkundige verwerking in hoofde van een kleine
- vereniging of stichting 
-  1. Duolegaat in geld 
-  2. Duolegaat in natura 
-
-3. Boekhoudkundige verwerking in hoofde van een grote of zeer grote vereniging of stichting 
-  1. Duolegaat in geld 
-  2. Duolegaat in natura 
-
- vereniging of stichting-- Duolegaat in geld-- Duolegaat in naturaBoekhoudkundige verwerking in hoofde van een grote of zeer grote vereniging of stichting-- Duolegaat in geld-- Duolegaat in natura 
+vereniging of stichting
 
 ## Algemeen
 

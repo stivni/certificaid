@@ -25,36 +25,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:01Z'
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: de twee pipe-tabellen (regels 74-80) hebben inconsistente kolomaantallen — de moeder-rijen hebben 3 kolommen terwijl de sub-rijen 5 kolommen hebben (extra leidende `| |` cellen), wat elke markdown-parser breekt. D3: voetnoten [^2] en [^3] (regels 90-92) zijn inhoudelijk bijna identiek; enkel 'cfr.' vs 'cf.' verschil en een klein woordje — typisch scrape-duplicaat. Beide bugs niet opgelost door de scraper-fixes."
+    rationale: "E2: twee markdown-tabellen (r66-74) hebben een malformed structuur — subrekeningen (014, 015, 022, 023) staan in rijen met extra lege kolommen ('| | | 014 | | Debiteuren... |') die niet overeenstemmen met de header (3 kolommen: 01/blank/omschrijving). Dit is een pseudo-tabel artefact: een mens zou ofwel een geneste lijst gebruiken ofwel een consistente tabel met passende headers. De ETL heeft de originele hiërarchische rekeningstructuur niet correct vertaald naar markdown."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 3525
-      file_size_chars: 3525
+      file_size_chars: 3553
       flags: []
+      heading_count: 0
+      max_section_chars: 3553
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:01Z'
-      rationale: "E2: de twee pipe-tabellen (regels 74-80) hebben inconsistente kolomaantallen — de moeder-rijen hebben 3 kolommen terwijl de sub-rijen 5 kolommen hebben (extra leidende `| |` cellen), wat elke markdown-parser breekt. D3: voetnoten [^2] en [^3] (regels 90-92) zijn inhoudelijk bijna identiek; enkel 'cfr.' vs 'cf.' verschil en een klein woordje — typisch scrape-duplicaat. Beide bugs niet opgelost door de scraper-fixes."
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: "E2: twee markdown-tabellen (r66-74) hebben een malformed structuur — subrekeningen (014, 015, 022, 023) staan in rijen met extra lege kolommen ('| | | 014 | | Debiteuren... |') die niet overeenstemmen met de header (3 kolommen: 01/blank/omschrijving). Dit is een pseudo-tabel artefact: een mens zou ofwel een geneste lijst gebruiken ofwel een consistente tabel met passende headers. De ETL heeft de originele hiërarchische rekeningstructuur niet correct vertaald naar markdown."
       concrete_problemen:
-        - regel: 74
+        - regel: 66
           categorie: E2
           type: pseudo-table
-          voorbeeld: '| 01 | | Waarborgen gesteld voor rekening van derden | vs sub-rijen met 5 kolommen'
-        - regel: 90
-          categorie: D3
-          type: other
-          voorbeeld: "[^2] en [^3] bijna identieke tekst — 'cfr. a contrario' vs 'cf. a contrario'"
+          voorbeeld: '| 01 | | Waarborgen gesteld voor rekening van derden | — 3-koloms header'
+        - regel: 68
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: '| | | 014 | | Debiteuren wegens zakelijke zekerheden | — 5 kolommen ipv 3, mismatcht header'
 themas:
   - niet in de balans opgenomen rechten en verplichtingen
   - rekeningenstelsel
@@ -72,10 +72,12 @@ themas:
 Indien een onderneming haar eigen bezittingen bezwaart met een zakelijke zekerheid voor rekening van een derde dan wordt dit in het minimum genormaliseerd rekeningstelsel uitgedrukt in een dubbel stel rekeningen:
 
 | 01 | | Waarborgen gesteld voor rekening van derden | 
+|---|---|---|
 | | | 014 | | Debiteuren wegens zakelijke zekerheden | 
 | | | 015 | | Crediteuren wegens zakelijke zekerheden | 
 
 | 02 | | Zakelijke waarborgen gesteld op eigen tegoeden | 
+|---|---|---|
 | | | 022 | | Crediteuren van derden, houders van zakelijke waarborgen[^1] | 
 | | | 023 | | Zakelijke waarborgen gesteld voor rekening van derden[^2] | 
 

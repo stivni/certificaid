@@ -12,44 +12,44 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: regel 85 bevat een grote aaneengesloten TOC-blob ('---- Boekhoudkundige verwerking-- Back-to-back IRS-- De IRS als indekkingsverrichting...') als plain-text body-regel — gedupliceerde TOC door extractie in de body terechtgekomen. A9: regels 499 en 508 tonen 'ndekkings-IRS' (leading 'I' weggevallen). B5: regel 359 heeft 'De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet' als plain-text alinea zonder heading-prefix."
+    rationale: "A9: regels 490 en 499 tonen 'ndekkings-IRS' (leading 'I' weggevallen) — OCR-verwarring consistent op twee plaatsen. B5: regel 350 heeft 'De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet' als plain-text alinea zonder heading-prefix terwijl dit een sectie-titel is (er staat wel een ### Principes eronder op regel 352, maar de sectie-opener zelf mist een ###-prefix). Evenzo regel 395: 'De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen' is plain-text zonder heading-prefix."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 36098
+      flags: []
       heading_count: 16
       max_section_chars: 9482
-      file_size_chars: 37342
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "A3: regel 85 bevat een grote aaneengesloten TOC-blob ('---- Boekhoudkundige verwerking-- Back-to-back IRS-- De IRS als indekkingsverrichting...') als plain-text body-regel — gedupliceerde TOC door extractie in de body terechtgekomen. A9: regels 499 en 508 tonen 'ndekkings-IRS' (leading 'I' weggevallen). B5: regel 359 heeft 'De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet' als plain-text alinea zonder heading-prefix."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "A9: regels 490 en 499 tonen 'ndekkings-IRS' (leading 'I' weggevallen) — OCR-verwarring consistent op twee plaatsen. B5: regel 350 heeft 'De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet' als plain-text alinea zonder heading-prefix terwijl dit een sectie-titel is (er staat wel een ### Principes eronder op regel 352, maar de sectie-opener zelf mist een ###-prefix). Evenzo regel 395: 'De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen' is plain-text zonder heading-prefix."
       concrete_problemen:
-        - regel: 85
-          categorie: A3
-          type: other
-          voorbeeld: '---- Boekhoudkundige verwerking-- Back-to-back IRS-- De IRS als indekkingsverrichting...'
+        - regel: 490
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: '| | ndekkings-IRS (notioneel van 10.000.000 €, netto balanswaarde van -7.500 €) |'
         - regel: 499
           categorie: A9
           type: ocr-confusion
-          voorbeeld: '| | ndekkings-IRS (notioneel van 10.000.000 €, netto balanswaarde van -7.500 €) | -50.000 | | |'
-        - regel: 508
-          categorie: A9
-          type: ocr-confusion
           voorbeeld: '| | ndekkings-IRS (notioneel van 10.000.000 €) | -42.500 | | |'
-        - regel: 359
+        - regel: 350
           categorie: B5
           type: other
           voorbeeld: De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet
+        - regel: 395
+          categorie: B5
+          type: other
+          voorbeeld: De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen
 themas:
   - cash flow hedge
   - fair value hedge
@@ -61,32 +61,6 @@ themas:
 ---
 
 # CBN-advies 2011/18 – De boekhoudkundige verwerking van de renteswap (Interest Rate Swap)
-
-1. Inleiding 
-2. Boekhoudkundige verwerking 
-3. Praktische gevallen 
-  1. De IRS als speculatieve verrichting 
-    1. Principes 
-    2. Voorbeeld
-
-    3. Boekhoudkundige verwerking 
-
-  2. Back-to-back IRS 
-  3. De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet 
-    1. Principes 
-    2. Bijzondere gevallen 
-
-  4. De IRS als indekkingsverrichting van een ontlening met vaste rentevoet 
-  5. De IRS als indekkingsverrichting van een toekomstige schuld 
-  6. De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen 
-    1. Principes 
-    2. Bijzondere gevallen 
-
-  7. De IRS met een opleg (Upfront payment) 
-
-4. Toelichting bij de jaarrekening 
-
----- Boekhoudkundige verwerking-- Back-to-back IRS-- De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet---- Principes---- Bijzondere gevallen-- De IRS als indekkingsverrichting van een ontlening met vaste rentevoet-- De IRS als indekkingsverrichting van een toekomstige schuld-- De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen---- Principes---- Bijzondere gevallen-- De IRS met een opleg (Upfront payment)Toelichting bij de jaarrekening 
 
 ## Inleiding
 
@@ -163,7 +137,7 @@ De Commissie heeft deze vraag reeds behandeld. Conform het CBN-advies 2010/12 en
 
 Ten slotte dient de onderneming in haar waarderingsregels te bepalen op welke manier zij zal overgaan tot de boekhoudkundige verwerking van het resultaat en van het interestprorata op renteswaps[^9].
 
-#### Voorbeeld[^10] 
+#### Voorbeeld[^10]
 
 Een onderneming verwacht een stijging van de rentevoet en wenst hieruit voordeel te halen door op 31 maart 2010, een IRS af te sluiten met een notioneel bedrag van 5.000.000 EUR met een looptijd van 5 jaar, en waarop de onderneming een vaste interest betaalt van 3% in ruil voor een variabele interest (Euribor) op 6 maanden + 1%. 
 
@@ -468,7 +442,7 @@ De IRS zal bijgevolg voortaan verwerkt worden als een geïsoleerde transactie me
 
 Het kan zijn dat een swap wordt afgesloten volgens andere voorwaarden dan deze die primeren op de markt. In dit geval is het gebruikelijk dat de ene partij aan de andere een “compensatie” betaalt. De inresultaatname van dit bedrag dient normaliter gespreid te worden over de levensduur van de swap. De verwerkingen voorzien in de voormelde gevallen blijven overigens van toepassing. 
 
-## Toelichting bij de jaarrekening 
+## Toelichting bij de jaarrekening
 
 De toelichting moet (onder de *Buiten de balans opgenomen rechten en verplichtingen*) een juist beeld geven van de lopende IRS-contracten, voor zover deze betrekking hebben op significante bedragen. Hiertoe zal de onderneming het notioneel bedrag van de contracten vermelden, waarbij ze bij voorkeur een onderscheid zal maken naargelang hun aanwending (speculatieve IRS, indekkings-IRS, …).
 

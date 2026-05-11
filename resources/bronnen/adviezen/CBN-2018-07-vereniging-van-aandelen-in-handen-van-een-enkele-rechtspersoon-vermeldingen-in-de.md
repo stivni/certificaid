@@ -12,36 +12,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:11Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'B3/E2: voorbeeld-blokken op regels 61-67 en 155-165 zijn verpakt in `| ` … `| ` constructies die er uitzien als losse tabel-cellen zonder header of separator — een scraper-artefact waarbij visuele call-out-boxes als tabel-fragmenten zijn gerenderd. Een mens zou een blockquote (`>`) of gewone alinea schrijven. Verdere inhoud en heading-structuur volledig correct.'
+    rationale: 'E2: twee voorbeeld-blokken (regels 77-83 en 98-119) zijn verpakt in `| \n\n*Voorbeeld*\n\n  |` constructies — losse tabelcellen zonder header of separator, een scraper-artefact waarbij call-out boxes als tabel-fragmenten zijn gerenderd. Een mens zou een blockquote (>) of gewone alinea schrijven. Verdere inhoud en heading-structuur correct.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 4
-      max_section_chars: 2618
       file_size_chars: 7549
       flags: []
+      heading_count: 4
+      max_section_chars: 2618
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:11Z'
-      rationale: 'B3/E2: voorbeeld-blokken op regels 61-67 en 155-165 zijn verpakt in `| ` … `| ` constructies die er uitzien als losse tabel-cellen zonder header of separator — een scraper-artefact waarbij visuele call-out-boxes als tabel-fragmenten zijn gerenderd. Een mens zou een blockquote (`>`) of gewone alinea schrijven. Verdere inhoud en heading-structuur volledig correct.'
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'E2: twee voorbeeld-blokken (regels 77-83 en 98-119) zijn verpakt in `| \n\n*Voorbeeld*\n\n  |` constructies — losse tabelcellen zonder header of separator, een scraper-artefact waarbij call-out boxes als tabel-fragmenten zijn gerenderd. Een mens zou een blockquote (>) of gewone alinea schrijven. Verdere inhoud en heading-structuur correct.'
       concrete_problemen:
-        - regel: 61
+        - regel: 77
           categorie: E2
           type: pseudo-table
-          voorbeeld: '| \n\n*Voorbeeld*\n\n  | '
-        - regel: 155
+          voorbeeld: '| \n\n*Voorbeeld*\n\n  |'
+        - regel: 98
           categorie: E2
           type: pseudo-table
-          voorbeeld: '| \n\n*Voorbeeld*\n\n  | '
+          voorbeeld: '| \n\n*Voorbeeld*\n\n  |'
 themas:
   - vereniging van aandelen in één hand
   - eenhoofdigheid

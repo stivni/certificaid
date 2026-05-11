@@ -25,36 +25,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: regel 110 bevat een duplicate TOC als één lange aaneengesloten plain-text blob met '---- ' als separator — scraper-fix A3 heeft dit niet opgelost, het artefact staat nog steeds in de body. D3/G3: regel 253 heeft '[^13][^14][^15][^16]' als vier aaneengeplakte footnote-markers zonder tussenliggende tekst, terwijl de bijbehorende voetnootdefinities wél aanwezig zijn onderaan (regels 376–383)."
+    rationale: "D3/G3: regel 231 bevat '[^13][^14][^15][^16]' als vier aaneengeplakte voetnootmarkers zonder tussenliggende tekst — de bijbehorende voetnootdefinities staan pas op regels 354–362. Dit is een ETL-artefact waarbij de voetnootmarkers los van hun context in de body terechtkwamen. De vorige A3-flag (regel 110 als TOC-blob) was fout: regel 110-111 is gewone body-tekst van de eerste body-paragraaf van '#### Aanschaffingsprijs'."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 26
-      max_section_chars: 18890
-      file_size_chars: 32463
+      file_size_chars: 30261
       flags: []
+      heading_count: 26
+      max_section_chars: 18886
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "A3: regel 110 bevat een duplicate TOC als één lange aaneengesloten plain-text blob met '---- ' als separator — scraper-fix A3 heeft dit niet opgelost, het artefact staat nog steeds in de body. D3/G3: regel 253 heeft '[^13][^14][^15][^16]' als vier aaneengeplakte footnote-markers zonder tussenliggende tekst, terwijl de bijbehorende voetnootdefinities wél aanwezig zijn onderaan (regels 376–383)."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "D3/G3: regel 231 bevat '[^13][^14][^15][^16]' als vier aaneengeplakte voetnootmarkers zonder tussenliggende tekst — de bijbehorende voetnootdefinities staan pas op regels 354–362. Dit is een ETL-artefact waarbij de voetnootmarkers los van hun context in de body terechtkwamen. De vorige A3-flag (regel 110 als TOC-blob) was fout: regel 110-111 is gewone body-tekst van de eerste body-paragraaf van '#### Aanschaffingsprijs'."
       concrete_problemen:
-        - regel: 110
-          categorie: A3
+        - regel: 231
+          categorie: D3
           type: other
-          voorbeeld: '---- Aanschaffingsprijs---- Vervaardigingsprijs---- Inbrengwaarde-- Afschrijvingen en waardeverminderingen...'
-        - regel: 253
-          categorie: G3
-          type: other
-          voorbeeld: ' [^13][^14][^15][^16]'
+          voorbeeld: '[^13][^14][^15][^16]'
 themas:
   - aanschaffingsprijs
   - aanschaffingswaarde
@@ -76,39 +72,6 @@ themas:
 
 # CBN-advies 2012/13 – De boekhoudkundige verwerking van immateriële vaste activa
 
-1. Activering en waardering van immateriële vaste activa 
-  1. Aanschaffingswaarde: aanschaffings- en vervaardigingsprijs en inbrengwaarde
-
-    1. Aanschaffingsprijs 
-    2. Vervaardigingsprijs 
-    3. Inbrengwaarde 
-
-  2. Afschrijvingen en waardeverminderingen 
-    1. Inleiding: immateriële vaste activa met beperkte en met onbeperkte levensduur 
-    2. Immateriële vaste activa met beperkte levensduur 
-      1. Algemeen 
-      2. Bijzonder toepassingsgeval: afschrijvingen op immateriële vaste activa die zijn verworven voor een prijs die een variabel gedeelte omvat dat afhankelijk is van de toekomstige winst van de koper 
-
-    3. Immateriële vaste activa met een onbeperkte levensduur 
-
-  3. Herwaarderingen 
-
-2. Kosten van onderzoek en ontwikkeling 
-  1. Inleiding en begrippen 
-  2. Boekhoudkundige verwerking 
-    1. Activering van kosten van onderzoek en ontwikkeling 
-    2. Afschrijving van kosten van onderzoek en ontwikkeling 
-
-  3. Subsidiëring 
-  4. Vermelding van de kosten van onderzoek en ontwikkeling in het jaarverslag 
-
-3. De concessies, octrooien, licenties, know-how, merken en andere gelijkaardige rechten 
-4. Goodwill 
-  1. Inleiding en begrippen 
-  2. Afschrijvingen op goodwill 
-
----- Aanschaffingsprijs---- Vervaardigingsprijs---- Inbrengwaarde-- Afschrijvingen en waardeverminderingen---- Inleiding: immateriële vaste activa met beperkte en met onbeperkte levensduur---- Immateriële vaste activa met beperkte levensduur------ Algemeen------ Bijzonder toepassingsgeval: afschrijvingen op immateriële vaste activa die zijn verworven voor een prijs die een variabel gedeelte omvat dat afhankelijk is van de toekomstige winst van de koper---- Immateriële vaste activa met een onbeperkte levensduur-- HerwaarderingenKosten van onderzoek en ontwikkeling-- Inleiding en begrippen-- Boekhoudkundige verwerking---- Activering van kosten van onderzoek en ontwikkeling---- Afschrijving van kosten van onderzoek en ontwikkeling-- Subsidiëring-- Vermelding van de kosten van onderzoek en ontwikkeling in het jaarverslag De concessies, octrooien, licenties, know-how, merken en andere gelijkaardige rechtenGoodwill-- Inleiding en begrippen -- Afschrijvingen op goodwill 
-
 ## Inleiding
 
 Zowel in het volledige, als in het verkorte schema van de jaarrekening wordt op het actief van de balans een post II. Immateriële vaste activa voorzien.
@@ -126,7 +89,7 @@ In dit advies wordt de boekhoudkundige verwerking van de immateriële vaste acti
 
 ## Activering en waardering van immateriële vaste activa
 
-### Aanschaffingswaarde: aanschaffings- en vervaardigingsprijs en inbrengwaarde[^3] 
+### Aanschaffingswaarde: aanschaffings- en vervaardigingsprijs en inbrengwaarde[^3]
 
 #### Aanschaffingsprijs
 
@@ -172,7 +135,7 @@ Het boekhoudrecht bepaalt op geen enkele wijze welke immateriële vaste activa e
 
 #### Immateriële vaste activa met beperkte levensduur
 
-##### **Algemeen**
+##### Algemeen
 
 Artikel 61, § 1, lid 1 KB W.Venn. bepaalt dat voor immateriële vaste activa met een beperkte gebruiksduur wordt overgegaan tot afschrijvingen volgens een overeenkomstig artikel 28, § 1 KB W.Venn. opgesteld afschrijvingsplan. Noch de wet, noch het KB W.Venn. legt voor de immateriële vaste activa verplichte afschrijvingstermijnen op. Overeenkomstig artikel 45, § 1 KB W.Venn. wordt het afschrijvingsplan bijgevolg zo opgesteld dat de aanschaffingskosten van de immateriële vaste activa worden gespreid over hun waarschijnlijke nuttigheids- of gebruiksduur. Wanneer deze activa evenwel een juridische grondslag hebben die in de tijd beperkt is (bv. octrooien, concessies) dan kan, voor het berekenen van de afschrijvingen, de economische levensduur van dit actief in geen geval de juridische levensduur van het actief overstijgen.
 
@@ -190,7 +153,7 @@ De aanvullende of uitzonderlijke afschrijvingen die niet langer verantwoord blij
 
 Voor een uitvoerige bespreking van de verschillende afschrijvingsmethoden kan verwezen worden naar het CBN-advies 2010/15[^7].
 
-##### **Bijzonder toepassingsgeval: afschrijvingen op immateriële vaste activa die zijn verworven voor een prijs die een variabel gedeelte omvat dat afhankelijk is van de toekomstige winst van de koper**
+##### Bijzonder toepassingsgeval: afschrijvingen op immateriële vaste activa die zijn verworven voor een prijs die een variabel gedeelte omvat dat afhankelijk is van de toekomstige winst van de koper
 
 Immateriële vaste activa worden vaak verworven voor een prijs die een variabel gedeelte omvat dat wordt bepaald door een toekomstige en onzekere gebeurtenis (bv. een bepaald percentage van de door de koper gemaakt bedrijfswinst van het boekjaar). Hierbij rijst de vraag hoe de betaling van dit variabel gedeelte van de prijs moeten worden verwerkt, en of deze variabele gedeelten van de prijs al dan niet geactiveerd moeten worden. 
 
@@ -262,7 +225,7 @@ Een onderneming maakt tijdens het boekjaar 20X0 voor 91.200 euro aan kosten van 
 | | 453 | Ingehouden voorheffingen | 21.000 | |
 | | 454 | Rijksdienst voor Sociale Zekerheid | 27.000 | |
 
-### Einde boekjaar 20X0 
+### Einde boekjaar 20X0
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -276,7 +239,7 @@ Een onderneming maakt tijdens het boekjaar 20X0 voor 91.200 euro aan kosten van 
 
 In jaar 20X1 zet de onderneming haar onderzoek en ontwikkeling voort en wordt voor 160.000 euro aan kosten van onderzoek en ontwikkeling gespendeerd: voor 30.000 euro leveringen aan de onderneming, voor 105.000 euro personeelskosten en voor 25.000 euro aan diensten en diverse goederen. De onderneming beslist opnieuw om deze kosten van onderzoek en ontwikkeling af te schrijven over een periode van 5 jaar[^17].
 
-### Op het ogenblik van het onderzoek en ontwikkeling jaar 20X1 
+### Op het ogenblik van het onderzoek en ontwikkeling jaar 20X1
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -311,7 +274,7 @@ Een afschrijving over meer dan vijf jaar moet in de toelichting worden verantwoo
 
 Voor wat de boekhoudkundige verwerking van de subsidiëring van kosten en ontwikkeling door de overheid betreft verwijst de Commissie naar haar advies 2011/13 inzake overheidssubsidies, en meer in het bijzonder naar hoofdstuk V van het advies.
 
-### Vermelding van de kosten van onderzoek en ontwikkeling in het jaarverslag 
+### Vermelding van de kosten van onderzoek en ontwikkeling in het jaarverslag
 
 Overeenkomstig artikel 95 van het W.Venn. moeten de bestuurders jaarlijks een verslag opstellen waarin zij rekenschap geven van hun beleid. Artikel 96 W.Venn. bepaalt dat het jaarverslag een getrouw overzicht bevat van de ontwikkeling en de resultaten van de vennootschap; alsmede een beschrijving van de voornaamste risico’s en onzekerheden waarmee de onderneming wordt geconfronteerd. De wet vermeldt hierbij uitdrukkelijk onder artikel 96, § 1, 4° W.Venn. dat het jaarverslag informatie moet bevatten omtrent de werkzaamheden van de onderneming op het gebied van onderzoek en ontwikkeling. 
 
@@ -337,7 +300,7 @@ Wanneer voornoemde activa tenslotte ten titel van inbreng aan het actief van de 
 
 ## Goodwill
 
-### Inleiding en begrippen 
+### Inleiding en begrippen
 
 Artikel 95, § 1, II, lid 4 KB W.Venn. bepaalt dat onder goodwill moet worden verstaan, de prijs die wordt betaald voor de verwerving van een onderneming of van een bedrijfsafdeling voor zover die hoger is dan de netto-waarde van de actief minus passiefbestanddelen van de verworven onderneming of branche. 
 

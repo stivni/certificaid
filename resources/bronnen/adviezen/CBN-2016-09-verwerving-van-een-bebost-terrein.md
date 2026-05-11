@@ -3,42 +3,48 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bebost-terrein
 datum: 2016-06-15
 nummer: CBN-advies 2016/9
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bebost-terrein
-      sha256: 5b16ac8f98d0ccf87b4a2e899560fbb7dc951a0c4c35c87aeaadf4e72e6d9702
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bebost-terrein
+    sha256: 5b16ac8f98d0ccf87b4a2e899560fbb7dc951a0c4c35c87aeaadf4e72e6d9702
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 3
-      max_section_chars: 1429
       file_size_chars: 3330
       flags: []
+      heading_count: 3
+      max_section_chars: 1429
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Klein en schoon bestand (3340 tekens). Drie headings correct, twee voorbeeldboekingstabellen in pipe-syntax, voetnoten [^1]–[^3] volledig gedefinieerd. Geen artefacten aangetroffen in geen enkele categorie. Inhoud compleet: beide scenario''s (vervreemding / geen vervreemding) behandeld.'
+      rationale: 'Klein en schoon bestand (3340 tekens). Drie headings correct, twee
+        voorbeeldboekingstabellen in pipe-syntax, voetnoten [^1]–[^3] volledig gedefinieerd.
+        Geen artefacten aangetroffen in geen enkele categorie. Inhoud compleet: beide
+        scenario''s (vervreemding / geen vervreemding) behandeld.'
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: 'Klein en schoon bestand (3340 tekens). Drie headings correct, twee voorbeeldboekingstabellen in pipe-syntax, voetnoten [^1]–[^3] volledig gedefinieerd. Geen artefacten aangetroffen in geen enkele categorie. Inhoud compleet: beide scenario''s (vervreemding / geen vervreemding) behandeld.'
+    rationale: 'Klein en schoon bestand (3340 tekens). Drie headings correct, twee
+      voorbeeldboekingstabellen in pipe-syntax, voetnoten [^1]–[^3] volledig gedefinieerd.
+      Geen artefacten aangetroffen in geen enkele categorie. Inhoud compleet: beide
+      scenario''s (vervreemding / geen vervreemding) behandeld.'
     status: trusted
 themas:
-  - bebost terrein
-  - goederen in bewerking
-  - terrein
-  - voorraad
+- bebost terrein
+- goederen in bewerking
+- terrein
+- voorraad
 ---
 
 # CBN-advies 2016/9 – Verwerving van een bebost terrein

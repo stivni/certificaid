@@ -2,61 +2,70 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
 datum: 2024-03-13
 gerelateerde_adviezen:
-  - datum: '2019-03-12'
-    titel: Dividenduitkering en kapitaalvermindering in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-  - datum: '1995-03-01'
-    titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves
-    url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
+- datum: '2019-03-12'
+  titel: Dividenduitkering en kapitaalvermindering in natura
+  url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+- datum: '1995-03-01'
+  titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een
+    uitgiftepremie of van een uitkering van reserves
+  url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
 nummer: CBN-advies 2024/04
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-      sha256: 935540be7b4d90a785af3089c2bcb940028d9e8241a35b78a265829bdb2743e9
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+    sha256: 935540be7b4d90a785af3089c2bcb940028d9e8241a35b78a265829bdb2743e9
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:24:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 5
-      max_section_chars: 8881
       file_size_chars: 16557
       flags: []
+      heading_count: 5
+      max_section_chars: 8881
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig. Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen TOC-residu, geen malformed bold/italic.'
+      rationale: 'Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden
+        met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig.
+        Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische
+        vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen
+        TOC-residu, geen malformed bold/italic.'
       run_at: '2026-05-11T12:24:34Z'
       status: trusted
-    rationale: 'Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig. Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen TOC-residu, geen malformed bold/italic.'
+    rationale: 'Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden
+      met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig.
+      Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische
+      vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen
+      TOC-residu, geen malformed bold/italic.'
     status: trusted
 themas:
-  - terugbetaling van kapitaal
-  - kapitaalvermindering
-  - kapitaal
-  - vreemde valuta
-  - vreemde munt
-  - deviezen
-  - aandeelhouder
-  - wisselkoers
-  - historische wisselkoers
-  - niet-monetaire activa
-  - deelneming
-  - aandelen
-  - werkelijke wisselkoers
-  - actuele wisselkoers
-  - wisselresultaat
+- terugbetaling van kapitaal
+- kapitaalvermindering
+- kapitaal
+- vreemde valuta
+- vreemde munt
+- deviezen
+- aandeelhouder
+- wisselkoers
+- historische wisselkoers
+- niet-monetaire activa
+- deelneming
+- aandelen
+- werkelijke wisselkoers
+- actuele wisselkoers
+- wisselresultaat
 ---
 
 # CBN-advies 2024/04 – Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders

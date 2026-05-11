@@ -19,36 +19,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: r148 bevat 'rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *van de vennootschap' — de closing asterisk van het tweede italic-blok staat na een spatie (patroon '*tekst *'), wat een malformed italic-marker is. Tevens r146 'rekening 740* Bedrijfssubsidies...' — asterisk direct na accountnummer zonder opening asterisk. Beide zijn ETL-spatie-artefacten. Verder is het advies inhoudelijk volledig en structureel correct."
+    rationale: "D4: r157 bevat 'rekening 740* Bedrijfssubsidies en compenserende bedragen' — asterisk direct na het rekeningnummer zonder opening-asterisk (malformed italic-marker). R159 bevat '150 *Kapitaalsubsidie *van de vennootschap' — closing-asterisk staat na een spatie (patroon '*tekst *'), wat een malformed italic-marker is. Beide zijn ETL-spatieartefacten van de CBN-scraper."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 5
-      max_section_chars: 9839
       file_size_chars: 15365
       flags: []
+      heading_count: 5
+      max_section_chars: 9839
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "D4: r148 bevat 'rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *van de vennootschap' — de closing asterisk van het tweede italic-blok staat na een spatie (patroon '*tekst *'), wat een malformed italic-marker is. Tevens r146 'rekening 740* Bedrijfssubsidies...' — asterisk direct na accountnummer zonder opening asterisk. Beide zijn ETL-spatie-artefacten. Verder is het advies inhoudelijk volledig en structureel correct."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "D4: r157 bevat 'rekening 740* Bedrijfssubsidies en compenserende bedragen' — asterisk direct na het rekeningnummer zonder opening-asterisk (malformed italic-marker). R159 bevat '150 *Kapitaalsubsidie *van de vennootschap' — closing-asterisk staat na een spatie (patroon '*tekst *'), wat een malformed italic-marker is. Beide zijn ETL-spatieartefacten van de CBN-scraper."
       concrete_problemen:
-        - regel: 148
+        - regel: 157
           categorie: D4
           type: other
-          voorbeeld: rekening 150 *Kapitaalsubsidie *van de vennootschap
-        - regel: 146
+          voorbeeld: rekening 740* Bedrijfssubsidies en compenserende bedragen
+        - regel: 159
           categorie: D4
           type: other
-          voorbeeld: rekening 740* Bedrijfssubsidies en compenserende bedragen*
+          voorbeeld: 150 *Kapitaalsubsidie *van de vennootschap
 themas:
   - bedrijfssubsidie
   - compensatie

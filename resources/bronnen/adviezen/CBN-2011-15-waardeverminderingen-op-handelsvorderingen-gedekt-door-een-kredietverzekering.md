@@ -22,48 +22,28 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere structuur- en stijlproblemen: (1) Regels 62–74: plain-text inhoudsopgave direct na H1 (A3). (2) Headings op ### niveau bevatten triple-asterisk markup: '### ***Boeking van de verkoopfactuur***' — ETL heeft bold-italic markers niet gestript van heading-tekst (B1-patroon). (3) Regel 126: '### ***Overboeking naar dubieuze debiteuren** *' en regel 135: '### ***Boeking van de waardevermindering** *' hebben een spatie vóór de sluitende '*' waardoor de bold+italic niet correct gesloten is (D4). (4) Regel 148: '#### ** De klant betaalt daadwerkelijk niets**' heeft een extra spatie na de opening '**' (D4). Overige inhoud correct en volledig."
+    rationale: Geen extractie-artefacten gevonden. Alle 12 headings correct genummerd en tekstueel volledig. Pipe-tabellen correct opgebouwd door het hele document. Alle voetnoten [^1]-[^9] correct gedefinieerd onderaan. Geen form-feeds, TOC-resten, OCR-verwarringen of broken table rows.
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 12
-      max_section_chars: 9854
-      file_size_chars: 14211
+      file_size_chars: 13673
       flags: []
+      heading_count: 12
+      max_section_chars: 9325
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "Meerdere structuur- en stijlproblemen: (1) Regels 62–74: plain-text inhoudsopgave direct na H1 (A3). (2) Headings op ### niveau bevatten triple-asterisk markup: '### ***Boeking van de verkoopfactuur***' — ETL heeft bold-italic markers niet gestript van heading-tekst (B1-patroon). (3) Regel 126: '### ***Overboeking naar dubieuze debiteuren** *' en regel 135: '### ***Boeking van de waardevermindering** *' hebben een spatie vóór de sluitende '*' waardoor de bold+italic niet correct gesloten is (D4). (4) Regel 148: '#### ** De klant betaalt daadwerkelijk niets**' heeft een extra spatie na de opening '**' (D4). Overige inhoud correct en volledig."
-      concrete_problemen:
-        - regel: 62
-          categorie: A3
-          type: other
-          voorbeeld: "1. Waardeverminderingen op verzekerde handelsvorderingen \n2. Tussenkomst kredietverzekeringsmaatschappij \n  1. Overdracht ter incasso..."
-        - regel: 118
-          categorie: B1
-          type: other
-          voorbeeld: '### ***Boeking van de verkoopfactuur***'
-        - regel: 126
-          categorie: D4
-          type: other
-          voorbeeld: '### ***Overboeking naar dubieuze debiteuren** *'
-        - regel: 135
-          categorie: D4
-          type: other
-          voorbeeld: '### ***Boeking van de waardevermindering** *'
-        - regel: 148
-          categorie: D4
-          type: other
-          voorbeeld: '#### ** De klant betaalt daadwerkelijk niets**'
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: Geen extractie-artefacten gevonden. Alle 12 headings correct genummerd en tekstueel volledig. Pipe-tabellen correct opgebouwd door het hele document. Alle voetnoten [^1]-[^9] correct gedefinieerd onderaan. Geen form-feeds, TOC-resten, OCR-verwarringen of broken table rows.
+      concrete_problemen: []
 themas:
   - compensatieverbod
   - dubieuze debiteuren
@@ -78,19 +58,6 @@ themas:
 ---
 
 # CBN-advies 2011/15 - Waardeverminderingen op handelsvorderingen, gedekt door een kredietverzekering
-
-1. Waardeverminderingen op verzekerde handelsvorderingen 
-2. Tussenkomst kredietverzekeringsmaatschappij 
-  1. Overdracht ter incasso 
-  2. Betaling van de schadevergoeding 
-
-3. Voorbeeld 
-  1. Boeking van de verkoopfactuur 
-  2. Overboeking naar dubieuze debiteuren 
-  3. Boeking van de waardevermindering 
-  4. Afwikkeling van de vordering 
-    1. De klant betaalt daadwerkelijk niets 
-    2. De klant betaalt 605 euro (incl. btw), de onderneming vermoedt van de klant verder niets meer te zullen ontvangen 
 
 ## Inleiding
 
@@ -115,11 +82,11 @@ Met het oog op de bepaling van het bedrag van de waardevermindering, maakt de on
 
 ## Tussenkomst kredietverzekeringsmaatschappij
 
-### Overdracht ter incasso 
+### Overdracht ter incasso
 
 Indien de facturen onbetaald blijven en de oorzaak te wijten is aan onvermogen in hoofde van de debiteur zal de verzekeringnemer binnen de contractueel vastgelegde termijn en binnen de voorwaarden van de polis aanspraak kunnen maken op schadeloosstelling. Deze termijn neemt in de regel een aanvang op het moment waarop het dossier aan de kredietverzekeraar wordt overgedragen ter incasso.
 
-### Betaling van de schadevergoeding 
+### Betaling van de schadevergoeding
 
 Naar aanleiding van de ontvangst van de schadeloosstelling boekt de onderneming een opbrengst onder de rubriek I.D *Andere bedrijfsopbrengsten* (de rekeningen 743 tot 749 van het MAR) van de resultatenrekening. De schade voortvloeiend uit de niet-betaling van handelsvorderingen behoort immers tot de normale bedrijfsrisico’s. 
 
@@ -135,7 +102,7 @@ De Commissie is van mening dat de kosten die de verzekeringnemer heeft geleden d
 
 Een onderneming heeft een vordering van 1.210 euro (incl. btw) op een klant. Deze vordering wordt voor 70 % van het totale bedrag excl. btw (d.i. 700 euro) verzekerd door een kredietverzekering. De vervaldatum werd reeds ruim overschreden. Uit onderzoek blijkt dat voor het volledige bedrag van de vordering onzekerheid bestaat over de inning ervan. 
 
-### ***Boeking van de verkoopfactuur***
+### *Boeking van de verkoopfactuur*
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -143,7 +110,7 @@ Een onderneming heeft een vordering van 1.210 euro (incl. btw) op een klant. Dez
 | aan | 700-707 | Verkopen en dienstprestaties | | 1.000 |
 | | 451 | Te betalen btw | 210 | |
 
-### ***Overboeking naar dubieuze debiteuren** *
+### *Overboeking naar dubieuze debiteuren* 
 
 De volledige vordering (inclusief btw) wordt overgeboekt naar de dubieuze debiteuren.
 
@@ -152,7 +119,7 @@ De volledige vordering (inclusief btw) wordt overgeboekt naar de dubieuze debite
 | | 407 | Dubieuze debiteuren | 1.210 | |
 | aan | 400 | Handelsdebiteuren | | 1.210 |
 
-### ***Boeking van de waardevermindering** *
+### *Boeking van de waardevermindering* 
 
 Ten laatste op het moment waarop de onderneming de vordering ter incasso afstaat aan de kredietverzekeraar, boekt zij een waardevermindering ten belope van het niet-gedekte gedeelte van de vordering excl. btw. 
 
@@ -163,9 +130,9 @@ Ten laatste op het moment waarop de onderneming de vordering ter incasso afstaat
 
 Naar aanleiding van de overdracht ter incasso worden verder geen boekingen verricht. 
 
-### ***Afwikkeling van de vordering***
+### *Afwikkeling van de vordering*
 
-#### ** De klant betaalt daadwerkelijk niets**
+#### De klant betaalt daadwerkelijk niets
 
 Werd het dossier reeds ter incasso overgedragen aan de kredietverzekeraar, dan betaalt deze binnen de contractueel vastgelegde termijn de contractueel voorziene schadevergoeding uit aan de onderneming. 
 
@@ -183,7 +150,7 @@ Door de subrogatie, die plaatsvindt doordat de kredietverzekeraar de verzekerde 
 | | 642 | Minderwaarden op de realisatie van handelsvorderingen | 700 | |
 | aan | 407 | Dubieuze debiteuren | | 1.210 |
 
-#### **De klant betaalt 605 euro (incl. btw), de onderneming vermoedt van de klant verder niets meer te zullen ontvangen**
+#### De klant betaalt 605 euro (incl. btw), de onderneming vermoedt van de klant verder niets meer te zullen ontvangen
 
 Werd het dossier nog niet ter incasso overgedragen aan de kredietverzekeraar, dan vinden volgende boekingen plaats bij de onderneming.
 

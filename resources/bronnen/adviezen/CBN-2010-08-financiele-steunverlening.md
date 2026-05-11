@@ -3,45 +3,51 @@ bron: https://www.cbn-cnc.be/nl/adviezen/financiele-steunverlening
 datum: 2010-06-16
 nummer: CBN-advies 2010/8
 provenance:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/financiele-steunverlening
-      sha256: 98c92f3867505770312107fa899f81320ce9a695177f32151e75e09f3caa7d6a
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/financiele-steunverlening
+    sha256: 98c92f3867505770312107fa899f81320ce9a695177f32151e75e09f3caa7d6a
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:09:17Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 2
-      max_section_chars: 6074
       file_size_chars: 8524
       flags: []
+      heading_count: 2
+      max_section_chars: 6074
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen extractie-artefacten. Twee ## secties correct opgemaakt, journaalpost-tabellen in pipe-syntax aanwezig en compleet, voetnoten [^1]–[^10] volledig gedefinieerd. Inhoud sluit logisch af. Geen invisible unicode, geen HTML-entities, geen broken tables.'
+      rationale: 'Geen extractie-artefacten. Twee ## secties correct opgemaakt, journaalpost-tabellen
+        in pipe-syntax aanwezig en compleet, voetnoten [^1]–[^10] volledig gedefinieerd.
+        Inhoud sluit logisch af. Geen invisible unicode, geen HTML-entities, geen
+        broken tables.'
       run_at: '2026-05-11T12:09:17Z'
       status: trusted
-    rationale: 'Geen extractie-artefacten. Twee ## secties correct opgemaakt, journaalpost-tabellen in pipe-syntax aanwezig en compleet, voetnoten [^1]–[^10] volledig gedefinieerd. Inhoud sluit logisch af. Geen invisible unicode, geen HTML-entities, geen broken tables.'
+    rationale: 'Geen extractie-artefacten. Twee ## secties correct opgemaakt, journaalpost-tabellen
+      in pipe-syntax aanwezig en compleet, voetnoten [^1]–[^10] volledig gedefinieerd.
+      Inhoud sluit logisch af. Geen invisible unicode, geen HTML-entities, geen broken
+      tables.'
     status: trusted
 themas:
-  - financiële bijstand
-  - financiële steunverlening
-  - herwaarderingsmeerwaarde
-  - lening
-  - onbeschikbare reserve
-  - uitkeerbare winst
-  - zekerheid
+- financiële bijstand
+- financiële steunverlening
+- herwaarderingsmeerwaarde
+- lening
+- onbeschikbare reserve
+- uitkeerbare winst
+- zekerheid
 ---
 
 # CBN-advies 2010/8 - Financiële steunverlening Advies van 16 juni 2010

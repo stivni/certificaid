@@ -3,56 +3,68 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aanko
 datum: 2011-03-16
 nummer: CBN-advies 2011/6
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-goud-en-kunstwerken
-      sha256: b8b176840e084369b96e16c7b04d86f0f271224a1ca2cfcb9c5d12df2a10a879
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-goud-en-kunstwerken
+    sha256: b8b176840e084369b96e16c7b04d86f0f271224a1ca2cfcb9c5d12df2a10a879
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:23:04Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Geen plain-text TOC, geen form-feeds, geen OCR-artefacten, geen broken tabellen. Headingstructuur (H1 > ## > ### > ####) is consistent en zonder hiërarchiesprongen. Nummering '### 1. Voorraden' en '### 2. Geldbeleggingen' herhaalt zich in de sectie Kunstwerken — dit spiegelt de documentstructuur van het origineel en is geen extractie-artefact. Alle 20 voetnoten correct gedefinieerd en gerefereerd vanuit de body. Inhoud volledig (Goud + Kunstwerken beide behandeld, met vlottende activa en vaste activa sub-secties)."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 12623
+      flags: []
       heading_count: 11
       max_section_chars: 4218
-      file_size_chars: 12624
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "Geen plain-text TOC, geen form-feeds, geen OCR-artefacten, geen broken tabellen. Headingstructuur (H1 > ## > ### > ####) is consistent en zonder hiërarchiesprongen. Nummering '### 1. Voorraden' en '### 2. Geldbeleggingen' herhaalt zich in de sectie Kunstwerken — dit spiegelt de documentstructuur van het origineel en is geen extractie-artefact. Alle 20 voetnoten correct gedefinieerd en gerefereerd vanuit de body. Inhoud volledig (Goud + Kunstwerken beide behandeld, met vlottende activa en vaste activa sub-secties)."
       concrete_problemen: []
+      rationale: 'Geen plain-text TOC, geen form-feeds, geen OCR-artefacten, geen
+        broken tabellen. Headingstructuur (H1 > ## > ### > ####) is consistent en
+        zonder hiërarchiesprongen. Nummering ''### 1. Voorraden'' en ''### 2. Geldbeleggingen''
+        herhaalt zich in de sectie Kunstwerken — dit spiegelt de documentstructuur
+        van het origineel en is geen extractie-artefact. Alle 20 voetnoten correct
+        gedefinieerd en gerefereerd vanuit de body. Inhoud volledig (Goud + Kunstwerken
+        beide behandeld, met vlottende activa en vaste activa sub-secties).'
+      run_at: '2026-05-11T13:23:04Z'
+      status: trusted
+    rationale: 'Geen plain-text TOC, geen form-feeds, geen OCR-artefacten, geen broken
+      tabellen. Headingstructuur (H1 > ## > ### > ####) is consistent en zonder hiërarchiesprongen.
+      Nummering ''### 1. Voorraden'' en ''### 2. Geldbeleggingen'' herhaalt zich in
+      de sectie Kunstwerken — dit spiegelt de documentstructuur van het origineel
+      en is geen extractie-artefact. Alle 20 voetnoten correct gedefinieerd en gerefereerd
+      vanuit de body. Inhoud volledig (Goud + Kunstwerken beide behandeld, met vlottende
+      activa en vaste activa sub-secties).'
+    status: trusted
 themas:
-  - aankoop van goud
-  - aankoop van kunstwerken
-  - beleggingsgoederen
-  - geldbeleggingen
-  - goud
-  - goudbeleggingen
-  - goudreserve
-  - herwaardering
-  - kwaliteitsrekening
-  - liquide markt
-  - permanente minimumvoorraad
-  - rentabiliteitsvoorwaarde
-  - schilderij
-  - vaste activa
-  - vlottende activa
-  - voorraden
-  - waardering van voorraden
-  - Waardevermindering
+- aankoop van goud
+- aankoop van kunstwerken
+- beleggingsgoederen
+- geldbeleggingen
+- goud
+- goudbeleggingen
+- goudreserve
+- herwaardering
+- kwaliteitsrekening
+- liquide markt
+- permanente minimumvoorraad
+- rentabiliteitsvoorwaarde
+- schilderij
+- vaste activa
+- vlottende activa
+- voorraden
+- waardering van voorraden
+- Waardevermindering
 ---
 
 # CBN-advies 2011/6 - Boekhoudkundige verwerking van de aankoop van goud en kunstwerken
@@ -111,7 +123,7 @@ Dit advies behandelt uitsluitend de aankoop van materiële kunstvoorwerpen. Efem
 
 ### Opname onder de vlottende activa
 
-### 1. Voorraden 
+### 1. Voorraden
 
 Schilderijen en andere kunstvoorwerpen die door kunsthandelaars worden aangekocht, maken in principe deel uit van hun voorraad handelsgoederen. Voorraden omvatten namelijk goederen die het voorwerp uitmaken van de bedrijfsactiviteiten van de onderneming. Onder handelsgoederen worden de materiële goederen verstaan die door de onderneming zijn ingekocht om zonder bewerking of na slechts een lichte bewerking te worden verkocht.
 Ook wanneer een kunstwerk in afwachting van de definitieve verkoop wordt verhuurd, blijft het geboekt onder voorraden.

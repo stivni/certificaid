@@ -16,40 +16,28 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:19:35Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4+B2: regel 65 heeft '#### *Aanschaffingswaarde* ' (trailing spatie vóór sluitende asterisk in heading-label); regel 106 heeft '*Aankopen van grondstoffen of handelsgoederen *' met spatie vóór sluitende asterisk. B2: heading-hiërarchie springt van ## (r.63/87) direct naar #### (r.65/69/83) zonder tussenliggend ###. Inhoud en voetnoot correct."
+    rationale: 'Schoon document: ## / ### heading-hiërarchie correct (eigendom → aanschaffingswaarde / afschrijving / herwaardering → concessie), voetnoot aanwezig en correct, geen form-feeds, geen OCR-fouten, geen duplicate content. Inhoud volledig en goed leesbaar.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 8
-      max_section_chars: 3169
-      file_size_chars: 5840
+      file_size_chars: 5831
       flags: []
+      heading_count: 8
+      max_section_chars: 3166
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "D4+B2: regel 65 heeft '#### *Aanschaffingswaarde* ' (trailing spatie vóór sluitende asterisk in heading-label); regel 106 heeft '*Aankopen van grondstoffen of handelsgoederen *' met spatie vóór sluitende asterisk. B2: heading-hiërarchie springt van ## (r.63/87) direct naar #### (r.65/69/83) zonder tussenliggend ###. Inhoud en voetnoot correct."
-      concrete_problemen:
-        - regel: 65
-          categorie: D4
-          type: other
-          voorbeeld: '#### *Aanschaffingswaarde* '
-        - regel: 65
-          categorie: B2
-          type: other
-          voorbeeld: '## Verwerving in eigendom (r.63) → #### *Aanschaffingswaarde* (r.65): overgeslagen ###'
-        - regel: 106
-          categorie: D4
-          type: other
-          voorbeeld: '*Aankopen van grondstoffen of handelsgoederen *'
+      run_at: '2026-05-11T15:19:35Z'
+      rationale: 'Schoon document: ## / ### heading-hiërarchie correct (eigendom → aanschaffingswaarde / afschrijving / herwaardering → concessie), voetnoot aanwezig en correct, geen form-feeds, geen OCR-fouten, geen duplicate content. Inhoud volledig en goed leesbaar.'
+      concrete_problemen: []
 themas:
   - concessie
   - materiële vaste activa
@@ -62,11 +50,11 @@ Meestal wordt een natuurlijke rijkdom in eigendom verworven of in concessie ontv
 
 ## Verwerving in eigendom van het terrein met de natuurlijke rijkdom
 
-#### *Aanschaffingswaarde* 
+### Aanschaffingswaarde
 
 Rekening houdend met het meestal duurzame karakter van de ontginning moet de verwerving van het terrein met de natuurlijke rijkdom niet worden beschouwd als de aanschaffing van een voorraad grondstoffen of goederen, maar als de aanschaffing van een materieel vast actief[^1]. De aanschaffingswaarde omvat behalve de prijs voor de verwerving van het terrein, ook de kosten om het effectief bedrijfsklaar te maken.
 
-#### Afschrijving 
+### Afschrijving
 
 1. De natuurlijke rijkdom 
 
@@ -80,7 +68,7 @@ Rekening houdend met het meestal duurzame karakter van de ontginning moet de ver
 
 	Investeringen, bijvoorbeeld voor het stutwerk in mijnen of voor liften om het erts naar de oppervlakte te brengen, en de aanschaffingskost van de natuurlijke rijkdom moeten afzonderlijk worden geboekt. Dergelijke werken en uitrustingen worden afgeschreven op dezelfde wijze als het actief - de natuurlijke rijkdom - waarop zij betrekking hebben, als zij tijdens de hele ontginningsperiode dienstig zijn. Zij moeten daarentegen sneller worden afgeschreven wanneer hun levensduur korter is dan die van de natuurlijke rijkdom. 
 
-#### Herwaardering 
+### Herwaardering
 
 Wanneer de waarde van de natuurlijke rijkdom, vastgesteld op grond van zijn nut voor de onderneming, op vaste en duurzame wijze uitstijgt boven zijn boekwaarde en inzonderheid wanneer de ertslaag rijker is dan verwacht, mag de onderneming herwaarderen overeenkomstig artikel 34 van het Koninklijk Besluit van 8 oktober 1976. 
 
@@ -88,7 +76,7 @@ Wanneer de waarde van de natuurlijke rijkdom, vastgesteld op grond van zijn nut 
 
 Vaak gebeurt de ontginning van natuurlijke rijkdommen op contractuele basis, waarbij een partij tegen een bepaalde prijs of vergoeding het recht verwerft om stoffen op te delven. 
 
-### Bij de aanvang betaalde prijs om de concessie te verwerven 
+### Bij de aanvang betaalde prijs om de concessie te verwerven
 
 Voornoemde beginselen zijn van toepassing. 
 
@@ -97,7 +85,7 @@ Evenwel moet :
 1. het ontginningsrecht bij de immateriële vaste activa worden geboekt; 
 2. in het afschrijvingsplan rekening worden gehouden met de duur van de concessie. 
 
-### Periodieke vergoeding 
+### Periodieke vergoeding
 
 Wanneer het contract, als tegenprestatie voor de verleende concessie, bepaalt dat periodiek een vergoeding is verschuldigd, dan wordt deze in de - hoofdzakelijk fiscale - rechtspraak, naar gelang van het geval, aangemerkt als huurprijs of als aankoop-/verkoopprijs van grondstoffen. Het verschil in standpunten van de rechters ten gronde die zich hebben moeten uitspreken over de kwalificatie van dergelijke vergoedingen, bewijst hoe uiteenlopend de feitelijke toestanden zijn en hoezeer de noodzaak zich opdringt om dergelijke vergoeding te kwalificeren op grond van de bepalingen van het contract, wat een analyse van de opzet ervan impliceert. 
 
@@ -107,7 +95,7 @@ Naargelang de verrichting neerkomt op een huurovereenkomst dan wel op een overee
 
 In een en ander geval moet in de toename van de grondstoffenvoorraad rekening worden gehouden met de kost van deze toename. 
 
-### Contractuele, stedebouwkundige en andere verplichtingen 
+### Contractuele, stedebouwkundige en andere verplichtingen
 
 Aan overeenkomsten voor de ontginning van natuurlijke rijkdommen zijn meestal diverse verplichtingen gekoppeld, o.a. van stedebouwkundige aard (het terrein in zijn oorspronkelijke staat herstellen ...) die de exploitant moet nakomen aan het einde van de concessie. 
 

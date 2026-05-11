@@ -3,39 +3,41 @@ bron: https://www.cbn-cnc.be/nl/adviezen/adviesbevoegdheid
 datum: 1993-02-01
 nummer: CBN-advies 14/1
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/adviesbevoegdheid
-      sha256: 72834f4392f7bc816901069023a454a7bcced93b915604902aa3d4f94cd378dc
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/adviesbevoegdheid
+    sha256: 72834f4392f7bc816901069023a454a7bcced93b915604902aa3d4f94cd378dc
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 8187
       file_size_chars: 8187
       flags: []
+      heading_count: 0
+      max_section_chars: 8187
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig en coherent advies over juridische aard en reikwijdte CBN-adviezen. Wettelijke grondslag, niet-bindend karakter, grens bij geschillen/fiscale vragen helder uitgewerkt.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig en coherent advies over juridische
+        aard en reikwijdte CBN-adviezen. Wettelijke grondslag, niet-bindend karakter,
+        grens bij geschillen/fiscale vragen helder uitgewerkt.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - adviesbevoegdheid van de CBN
+- adviesbevoegdheid van de CBN
 ---
 
 # CBN-advies 14/1 – Adviesbevoegdheid

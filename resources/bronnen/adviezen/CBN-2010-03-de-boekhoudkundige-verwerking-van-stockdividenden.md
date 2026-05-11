@@ -16,40 +16,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: r63-65 bevat een plain-text genummerde inhoudsopgave ('1. Stockdividenden versus bonusaandelen / 2. Vorderingsrecht... / 3. Boekhoudkundige verwerking') direct in de body, terwijl de eigenlijke inhoud als ## headings verder staat (r73, r88, r94) — een TOC-fragment dat niet verwijderd werd bij extractie. G3: voetnootankers [^10] en [^12] komen los voor in de tekst als verweesde ankertekens zonder omringende zin (r90-gebied en r118-gebied) — inline footnote-content die bij extractie losraakte. De overige footenootteksten zijn correct gedefinieerd."
+    rationale: "A3: r82-84 bevat een plain-text genummerde inhoudsopgave ('1. Stockdividenden versus bonusaandelen / 2. Vorderingsrecht... / 3. Boekhoudkundige verwerking') als body-tekst terwijl de eigenlijke inhoud als ## headings op r84, r99 en r105 volgt — TOC-fragment niet verwijderd. G3: voetnootankers [^10] en [^12] komen voor als verwees ankertekens: [^10] is gedefinieerd op r179 (voetnoot met inhoud) maar het anker staat op r120 in een losse zin — dit is correct. Echter [^12] anker is aanwezig in r159 als tabelcel-context — dit lijkt correct. Hercheck: de vorige beoordeling meldde verweesde ankers op r90 en r118, maar in de huidige versie (na scraper-fix) staan deze in normale zinscontext. TOC-artefact op r82-84 is nog aanwezig."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
+      file_size_chars: 7989
+      flags: []
       heading_count: 3
       max_section_chars: 4673
-      file_size_chars: 8113
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "A3: r63-65 bevat een plain-text genummerde inhoudsopgave ('1. Stockdividenden versus bonusaandelen / 2. Vorderingsrecht... / 3. Boekhoudkundige verwerking') direct in de body, terwijl de eigenlijke inhoud als ## headings verder staat (r73, r88, r94) — een TOC-fragment dat niet verwijderd werd bij extractie. G3: voetnootankers [^10] en [^12] komen los voor in de tekst als verweesde ankertekens zonder omringende zin (r90-gebied en r118-gebied) — inline footnote-content die bij extractie losraakte. De overige footenootteksten zijn correct gedefinieerd."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "A3: r82-84 bevat een plain-text genummerde inhoudsopgave ('1. Stockdividenden versus bonusaandelen / 2. Vorderingsrecht... / 3. Boekhoudkundige verwerking') als body-tekst terwijl de eigenlijke inhoud als ## headings op r84, r99 en r105 volgt — TOC-fragment niet verwijderd. G3: voetnootankers [^10] en [^12] komen voor als verwees ankertekens: [^10] is gedefinieerd op r179 (voetnoot met inhoud) maar het anker staat op r120 in een losse zin — dit is correct. Echter [^12] anker is aanwezig in r159 als tabelcel-context — dit lijkt correct. Hercheck: de vorige beoordeling meldde verweesde ankers op r90 en r118, maar in de huidige versie (na scraper-fix) staan deze in normale zinscontext. TOC-artefact op r82-84 is nog aanwezig."
       concrete_problemen:
-        - regel: 63
+        - regel: 82
           categorie: A3
           type: other
-          voorbeeld: "1. Stockdividenden versus bonusaandelen \n2. Vorderingsrecht in hoofde van de aandeelhouder \n3. Boekhoudkundige verwerking"
-        - regel: 90
-          categorie: G3
+          voorbeeld: 1. Stockdividenden versus bonusaandelen
+        - regel: 83
+          categorie: A3
           type: other
-          voorbeeld: '[^10]  (verweest voetnootanker als losse positie vóór tabel, zonder context-zin)'
-        - regel: 118
-          categorie: G3
+          voorbeeld: 2. Vorderingsrecht in hoofde van de aandeelhouder
+        - regel: 84
+          categorie: A3
           type: other
-          voorbeeld: '[^12]  (verweest voetnootanker als losse positie vóór tabel, zonder context-zin)'
+          voorbeeld: 3. Boekhoudkundige verwerking
 themas:
   - bonusaandelen
   - dividenden
@@ -59,10 +59,6 @@ themas:
 ---
 
 # CBN-advies 2010/3 -De boekhoudkundige verwerking van stockdividenden Advies van 25 maart 2010
-
-1. Stockdividenden versus bonusaandelen 
-2. Vorderingsrecht in hoofde van de aandeelhouder 
-3. Boekhoudkundige verwerking 
 
 Aan de Commissie werd de vraag gesteld hoe een stockdividend dient verwerkt te worden in de boekhouding van de vennootschap[^1].
 

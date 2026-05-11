@@ -2,56 +2,63 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
 datum: 2017-05-31
 gerelateerde_adviezen:
-  - datum: '2016-07-06'
-    titel: Boekhoudkundige verwerking van de cross currency swap
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
-  - datum: '2013-11-27'
-    titel: Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten
-    url: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
-  - datum: '2010-09-08'
-    titel: De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten
-    url: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
+- datum: '2016-07-06'
+  titel: Boekhoudkundige verwerking van de cross currency swap
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
+- datum: '2013-11-27'
+  titel: Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van
+    de waarde in het economisch verkeer voor de financiële instrumenten
+  url: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
+- datum: '2010-09-08'
+  titel: De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten
+  url: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
 nummer: CBN-advies 2017/11
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-      sha256: 2ad85c57300b2181be4df3dd43682f08b3281cf16b9618661d08f8f6fccef178
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+    sha256: 2ad85c57300b2181be4df3dd43682f08b3281cf16b9618661d08f8f6fccef178
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:30:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Vier ## headings, alle inhoud compleet, voetnoten [^1]-[^12] correct gedefinieerd. Lijn 93 start met '11.' als randnummer-verwijzing — dit is authentieke CBN-stijl voor randnummers, geen extractie-bug. Geen form-feeds, geen broken italic, geen column-bleed aangetroffen."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 4
-      max_section_chars: 4758
       file_size_chars: 8361
       flags: []
+      heading_count: 4
+      max_section_chars: 4758
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:33Z'
-      rationale: "Vier ## headings, alle inhoud compleet, voetnoten [^1]-[^12] correct gedefinieerd. Lijn 93 start met '11.' als randnummer-verwijzing — dit is authentieke CBN-stijl voor randnummers, geen extractie-bug. Geen form-feeds, geen broken italic, geen column-bleed aangetroffen."
       concrete_problemen: []
+      rationale: 'Vier ## headings, alle inhoud compleet, voetnoten [^1]-[^12] correct
+        gedefinieerd. Lijn 93 start met ''11.'' als randnummer-verwijzing — dit is
+        authentieke CBN-stijl voor randnummers, geen extractie-bug. Geen form-feeds,
+        geen broken italic, geen column-bleed aangetroffen.'
+      run_at: '2026-05-11T13:30:33Z'
+      status: trusted
+    rationale: 'Vier ## headings, alle inhoud compleet, voetnoten [^1]-[^12] correct
+      gedefinieerd. Lijn 93 start met ''11.'' als randnummer-verwijzing — dit is authentieke
+      CBN-stijl voor randnummers, geen extractie-bug. Geen form-feeds, geen broken
+      italic, geen column-bleed aangetroffen.'
+    status: trusted
 themas:
-  - afgeleide financiële instrumenten
-  - financiële instrumenten
-  - financiële vaste activa
-  - reële waarde
-  - richtlijn 2013/34/EU
-  - toelichting
-  - waarde in het economisch verkeer
+- afgeleide financiële instrumenten
+- financiële instrumenten
+- financiële vaste activa
+- reële waarde
+- richtlijn 2013/34/EU
+- toelichting
+- waarde in het economisch verkeer
 ---
 
 # CBN-advies 2017/11 – Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening

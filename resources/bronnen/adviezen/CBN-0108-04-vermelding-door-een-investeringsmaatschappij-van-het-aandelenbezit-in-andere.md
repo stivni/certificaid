@@ -2,55 +2,65 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/vermelding-door-een-investeringsmaatschappij-van-het-aandelenbezit-in-andere
 datum: 1986-01-01
 gerelateerde_adviezen:
-  - datum: '2024-02-08'
-    titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-  - datum: '2022-11-08'
-    titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-  - datum: '2019-05-14'
-    titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen (ONTWERP)
-    url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
-  - datum: '2019-03-26'
-    titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
-    url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
+- datum: '2024-02-08'
+  titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing
+    van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen
+    boekhoudkundige verplichtingen'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+- datum: '2022-11-08'
+  titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige
+    verplichtingen (update)'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+- datum: '2019-05-14'
+  titel: Adviesbeleid van de Commissie voor Boekhoudkundige Normen ten aanzien van
+    vragen tot afwijking voor Belgische bijkantoren van buitenlandse vennootschappen
+    (ONTWERP)
+  url: https://www.cbn-cnc.be/nl/adviezen/adviesbeleid-van-de-commissie-voor-boekhoudkundige-normen-ten-aanzien-van-vragen-tot
+- datum: '2019-03-26'
+  titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen
+    boekhoudkundige verplichtingen'
+  url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
 nummer: CBN-advies 108/4
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vermelding-door-een-investeringsmaatschappij-van-het-aandelenbezit-in-andere
-      sha256: e8e26aebdfa259af3f84e339148d5413ad6999b4ac2064923e9c9bd4cdf25c74
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vermelding-door-een-investeringsmaatschappij-van-het-aandelenbezit-in-andere
+    sha256: e8e26aebdfa259af3f84e339148d5413ad6999b4ac2064923e9c9bd4cdf25c74
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 2008
       file_size_chars: 2008
       flags: []
+      heading_count: 0
+      max_section_chars: 2008
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Kort advies (2010 tekens) zonder interne headings — structureel correct voor dit type enkelvoudige vraag-antwoord advies. Voetnoten [^1], [^2], [^3] aanwezig en goed gedefineerd. Bullets op regels 64-65 correct. Geen artefacten.
+      rationale: Kort advies (2010 tekens) zonder interne headings — structureel correct
+        voor dit type enkelvoudige vraag-antwoord advies. Voetnoten [^1], [^2], [^3]
+        aanwezig en goed gedefineerd. Bullets op regels 64-65 correct. Geen artefacten.
       run_at: '2026-05-11T11:57:45Z'
       status: trusted
-    rationale: Kort advies (2010 tekens) zonder interne headings — structureel correct voor dit type enkelvoudige vraag-antwoord advies. Voetnoten [^1], [^2], [^3] aanwezig en goed gedefineerd. Bullets op regels 64-65 correct. Geen artefacten.
+    rationale: Kort advies (2010 tekens) zonder interne headings — structureel correct
+      voor dit type enkelvoudige vraag-antwoord advies. Voetnoten [^1], [^2], [^3]
+      aanwezig en goed gedefineerd. Bullets op regels 64-65 correct. Geen artefacten.
     status: trusted
 themas:
-  - afwijking
-  - investeringsmaatschappij
-  - tijdelijk minderheidsbelang
+- afwijking
+- investeringsmaatschappij
+- tijdelijk minderheidsbelang
 ---
 
 # CBN-advies 108/4 - Vermelding door een investeringsmaatschappij van het aandelenbezit in andere vennootschappen

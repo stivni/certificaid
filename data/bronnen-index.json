@@ -2255,10 +2255,10 @@
       "titel": "CBN-advies 3/1",
       "korte_naam": "CBN-advies 3/1",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-0003-02-niet-in-de-balans-opgenomen-rechten-en-verplichtingen-0.md",
@@ -2291,10 +2291,10 @@
       "titel": "CBN-advies 4/1",
       "korte_naam": "CBN-advies 4/1",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-0004-02-de-inschrijvingin-de-boeken-begrip.md",
@@ -2327,10 +2327,10 @@
       "titel": "CBN-advies 4/4",
       "korte_naam": "CBN-advies 4/4",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-0007-02-interne-en-externe-jaarrekening-begrippen.md",
@@ -2375,10 +2375,10 @@
       "titel": "CBN-advies 12/1",
       "korte_naam": "CBN-advies 12/1",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-0012-02-toepassingsgebied-van-de-uitvoeringsbesluiten-boekjaar-waarop-de-criteria-van-toepassing.md",
@@ -2387,10 +2387,10 @@
       "titel": "CBN-advies 12/2",
       "korte_naam": "CBN-advies 12/2",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-0012-03-toepassingsgebied-van-de-uitvoeringsbesluiten-gemiddeld-aantal-jaarlijks-tewerkgestelde.md",
@@ -2675,10 +2675,10 @@
       "titel": "CBN-advies C105/1",
       "korte_naam": "CBN-advies C105/1",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-0105-02-kosten-afgewenteld-op-of-gedragen-door-derden.md",
@@ -2999,10 +2999,10 @@
       "titel": "CBN-advies 110/2",
       "korte_naam": "CBN-advies 110/2",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-0110-03-openbaarmaking-van-de-jaarrekening-van-vennootschappen-die-niet-aan-het-kb-van-8-oktober.md",
@@ -3299,10 +3299,10 @@
       "titel": "CBN-advies 120/4",
       "korte_naam": "CBN-advies 120/4",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-0120-05-coordinatiecentrum-financiele-instelling.md",
@@ -3599,10 +3599,10 @@
       "titel": "CBN-advies 128/5",
       "korte_naam": "CBN-advies 128/5",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-0128-07-andere-taksen-en-lasten-ten-laste-van-derden.md",
@@ -3731,10 +3731,10 @@
       "titel": "CBN-advies 132/7",
       "korte_naam": "CBN-advies 132/7",
       "tags": [],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-laag2-ronde2",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "CBN-0133-02-uitkering-van-een-dividend-aan-een-verbonden-onderneming.md",
@@ -3887,10 +3887,10 @@
       "titel": "CBN-advies 137/9",
       "korte_naam": "CBN-advies 137/9",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-0137-vordering-wegens-levering-van-goederen-en-diensten-omgevormd-tot-renteloze-leningen-op.md",
@@ -3899,10 +3899,10 @@
       "titel": "CBN-advies 137/8",
       "korte_naam": "CBN-advies 137/8",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-0137-vorderingen-en-schulden-waarvan-de-rente-uitsluitend-bestaat-uit-het-verschil-tussen-de.md",
@@ -3971,10 +3971,10 @@
       "titel": "CBN-advies 139/5",
       "korte_naam": "CBN-advies 139/5",
       "tags": [],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "CBN-0139-06-aandelen-met-warrant-0.md",
@@ -3995,10 +3995,10 @@
       "titel": "CBN-advies 139/7",
       "korte_naam": "CBN-advies 139/7",
       "tags": [],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "CBN-0139-08-uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of.md",
@@ -4367,10 +4367,10 @@
       "titel": "CBN-advies 158/1",
       "korte_naam": "CBN-advies 158/1",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-0159-01-schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente.md",
@@ -4415,10 +4415,10 @@
       "titel": "CBN-advies 161/1",
       "korte_naam": "CBN-advies 161/1",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-0162-01-boekhoudkundige-verwerking-van-het-vruchtgebruik-van-aandelen-dat-onder-bezwarende-titel.md",
@@ -4523,10 +4523,10 @@
       "titel": "CBN-advies 170/1",
       "korte_naam": "CBN-advies 170/1",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-0171-boekhoudkundige-verwerking-van-afvalstoffen.md",
@@ -4547,10 +4547,10 @@
       "titel": "CBN-advies 172/1",
       "korte_naam": "CBN-advies 172/1",
       "tags": [],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-laag2-ronde2",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "CBN-0173-01-overschakeling-op-de-euro-boekhoudrechtelijke-aspecten.md",
@@ -4919,10 +4919,10 @@
       "titel": "CBN-advies 2010/4",
       "korte_naam": "CBN-advies 2010/4",
       "tags": [],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-laag2-ronde2",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "CBN-2010-08-financiele-steunverlening.md",
@@ -5219,10 +5219,10 @@
       "titel": "CBN-advies 2011/15",
       "korte_naam": "CBN-advies 2011/15",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2011-17-boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer.md",
@@ -5435,10 +5435,10 @@
       "titel": "CBN-advies 2012/10",
       "korte_naam": "CBN-advies 2012/10",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2012-12-vrijstelling-van-subconsolidatie.md",
@@ -5819,10 +5819,10 @@
       "titel": "CBN-advies 2015/5",
       "korte_naam": "CBN-advies 2015/5",
       "tags": [],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-laag2-ronde2",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "CBN-2015-06-boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92.md",
@@ -5939,10 +5939,10 @@
       "titel": "CBN-advies 2016/7",
       "korte_naam": "CBN-advies 2016/7",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2016-08-bepaling-van-de-omzet-van-een-franchisenemer.md",
@@ -6515,10 +6515,10 @@
       "titel": "CBN-advies 2018/17",
       "korte_naam": "CBN-advies 2018/17",
       "tags": [],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-laag2-ronde2",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het.md",
@@ -6587,10 +6587,10 @@
       "titel": "CBN-advies 2018/23",
       "korte_naam": "CBN-advies 2018/23",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2018-24-duolegaat-vereniging-en-stichting.md",
@@ -6683,10 +6683,10 @@
       "titel": "CBN-advies 2019/07",
       "korte_naam": "CBN-advies 2019/07",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2019-08-boekhoudkundige-verwerking-van-crowdfunding-0.md",
@@ -6707,10 +6707,10 @@
       "titel": "CBN-advies 2019/09",
       "korte_naam": "CBN-advies 2019/09",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2019-10-de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0.md",
@@ -6875,10 +6875,10 @@
       "titel": "CBN-advies 2020/09",
       "korte_naam": "CBN-advies 2020/09",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2020-10-schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren.md",
@@ -7031,10 +7031,10 @@
       "titel": "CBN-advies 2021/08",
       "korte_naam": "CBN-advies 2021/08",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2021-09-rekening-26-overige-materiele-vaste-activa.md",
@@ -7055,10 +7055,10 @@
       "titel": "CBN-advies 2021/10",
       "korte_naam": "CBN-advies 2021/10",
       "tags": [],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-laag2-ronde2",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "CBN-2021-11-boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge.md",
@@ -7115,10 +7115,10 @@
       "titel": "CBN-advies 2021/15",
       "korte_naam": "CBN-advies 2021/15",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2021-16-waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel.md",
@@ -7151,10 +7151,10 @@
       "titel": "CBN-advies 2025/01",
       "korte_naam": "CBN-advies 2025/01",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-2022-01-fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief.md",
@@ -7283,10 +7283,10 @@
       "titel": "CBN-advies 2022/11",
       "korte_naam": "CBN-advies 2022/11",
       "tags": [],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-laag2-ronde2",
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "CBN-2022-12-boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen.md",

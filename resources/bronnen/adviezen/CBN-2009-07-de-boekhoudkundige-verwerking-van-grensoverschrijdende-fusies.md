@@ -25,48 +25,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'B4: twee ## headings in all-caps (INLEIDING r.74, BOEKHOUDKUNDIGE VERWERKING r.90) — mens schrijft dit als ## Inleiding. E1/E2: tientallen balans-tabellen (r.101-106, 112-117, 129-141, enz.) missen de verplichte |---|---| scheidingsrij na de header-rij — technisch ongeldige markdown-tabellen die door renderers niet als tabel worden herkend. Veertien voetnoten correct; inhoud volledig.'
+    rationale: "E2/A6: tabel op r305-311 heeft een gebroken rij — de cel met '9.500' (passief-totaal van vennootschap B na fusie) staat als losse tekstregel op r308 buiten de tabel-pipes, gevolgd door een gedeeltelijke piprij op r310. Dit is een ETL tabel-rendering-bug waarbij een cel mid-row brak. Overige 14 tabellen, 14 voetnoten en 2 ## headings zijn correct."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 2
-      max_section_chars: 19589
-      file_size_chars: 23498
+      file_size_chars: 23726
       flags: []
+      heading_count: 2
+      max_section_chars: 19817
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: 'B4: twee ## headings in all-caps (INLEIDING r.74, BOEKHOUDKUNDIGE VERWERKING r.90) — mens schrijft dit als ## Inleiding. E1/E2: tientallen balans-tabellen (r.101-106, 112-117, 129-141, enz.) missen de verplichte |---|---| scheidingsrij na de header-rij — technisch ongeldige markdown-tabellen die door renderers niet als tabel worden herkend. Veertien voetnoten correct; inhoud volledig.'
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "E2/A6: tabel op r305-311 heeft een gebroken rij — de cel met '9.500' (passief-totaal van vennootschap B na fusie) staat als losse tekstregel op r308 buiten de tabel-pipes, gevolgd door een gedeeltelijke piprij op r310. Dit is een ETL tabel-rendering-bug waarbij een cel mid-row brak. Overige 14 tabellen, 14 voetnoten en 2 ## headings zijn correct."
       concrete_problemen:
-        - regel: 74
-          categorie: B4
+        - regel: 306
+          categorie: E2
           type: other
-          voorbeeld: '## INLEIDING (all-caps H2)'
-        - regel: 90
-          categorie: B4
+          voorbeeld: '| | | 9.500 | | | | 9.500 | → cel 9.500 breekt naar losse tekstlijn op r308'
+        - regel: 308
+          categorie: A6
           type: other
-          voorbeeld: '## BOEKHOUDKUNDIGE VERWERKING (all-caps H2)'
-        - regel: 101
-          categorie: E1
-          type: other
-          voorbeeld: '| A (Belgische overgenomen vennootschap) | \n| Vaste activa | | 5.500 | — geen |---|---| scheidingsrij na header'
-        - regel: 129
-          categorie: E1
-          type: other
-          voorbeeld: '| A (Belgische overgenomen vennootschap) | \n| Vaste activa | | 5.500 | — tweede tabel zonder |---|---| separator'
-        - regel: 160
-          categorie: E1
-          type: other
-          voorbeeld: '| A (Belgische overgenomen vennootschap) | \n| Vaste activa | | 5.500 | — derde tabel zonder separator'
+          voorbeeld: '9.500'
 themas:
   - belastingvrije reserves
   - dotatie van een belgische inrichting
@@ -107,6 +95,7 @@ Naar aanleiding van de fusie ontstaat normalerwijze een Belgische inrichting van
 Voorbeeld 1
 
 | A (Belgische overgenomen vennootschap) | 
+|---|
 | Vaste activa | | 5.500 | | Kapitaal | | 3.000 | 
 | Vlottende activa | | 9.500 | | Reserves | | 7.000 | 
 | | | | | Voorzieningen | | 1.000 | 
@@ -118,6 +107,7 @@ De Belgische vennootschap A, zonder buitenlandse inrichting, wordt overgenomen d
 De balans van de Belgische inrichting van de overnemende vennootschap B zal er na de fusie als volgt uitzien:
 
 | Belgische inrichting van B (na de fusie) | 
+|---|
 | Vaste activa | | 5.500 | | Dotatie | | 3.000 | 
 | Vlottende activa | | 9.500 | | Reserves | | 7.000 | 
 | | | | | Voorzieningen | | 1.000 | 
@@ -135,6 +125,7 @@ Zoals in de laatste zin van artikel 78, §6 KB W.Venn. wordt bepaald, dient in v
 Voorbeeld 2
 
 | A (Belgische overgenomen vennootschap) | 
+|---|
 | Vaste activa | | 5.500 | | Kapitaal | | 3.000 | 
 | Vlottende activa | | 9.500 | | Beschikbare reserves | | 7.000 | 
 | | | | | Voorzieningen | | 1.000 | 
@@ -142,6 +133,7 @@ Voorbeeld 2
 | | | 15.000 | | | | 15.000 | 
 
 | Belgische inrichting van B (vóór de fusie) | 
+|---|
 | Materiële vaste activa | | 200 | | Dotatie | | 2.500 | 
 | Financiële vaste activa[^3] | | 10.800 | | Beschikbare reserves | | 3.500 | 
 | (Participatie A 90%) | | | | Schulden | | 5.000 | 
@@ -153,8 +145,10 @@ Bij de fusie zal – met toepassing van artikel 78, §7, a), KB W.Venn. – in h
 Na de fusie zal de balans van de Belgische inrichting van de overnemende vennootschap B er als volgt uitzien:
 
 | Belgische inrichting van B (na de fusie) | 
+|---|
 | Goodwill | | 1.800 | | Dotatie (2.500 + 3.000 x 10%[^5]) | | 2.800 | 
 | Vaste activa (200 + 5.500) | | 5.700 | | Beschikbare reserves (3.500 + 7.000 x 10%) | | 4.200 | 
+|---|---|---|---|---|---|---|
 | Vlottende activa | | 9.500 | | Voorzieningen | | 1.000 | 
 | | | | | Schulden (4.000 + 5.000) | | 9.000 | 
 | | | 17.000 | | | | 17.000 | 
@@ -166,6 +160,7 @@ In de hypothese dat de 7.000 reserves van A vóór de fusie zouden bestaan uit b
 Voorbeeld 3
 
 | A (Belgische overgenomen vennootschap) | 
+|---|
 | Vaste activa | | 5.500 | | Kapitaal | | 3.000 | 
 | Vlottende activa | | 9.500 | | Beschikbare Reserves | | 7.000 | 
 | | | | | Voorzieningen | | 1.000 | 
@@ -177,6 +172,7 @@ De Belgische vennootschap A, zonder buitenlandse inrichting, wordt overgenomen d
 Tengevolge van de fusie ontstaat in principe een Belgische inrichting van de overnemende vennootschap B. De balans van deze Belgische inrichting van B na de fusie zal er als volgt uitzien:
 
 | Belgische inrichting van B (na de fusie) | 
+|---|
 | Vaste activa | | 5.500 | | Dotatie[^6] | | 3.000 | 
 | Vlottende activa | | 9.500 | | Beschikbare reserves6 | | 7.000 | 
 | | | | | Voorzieningen | | 1.000 | 
@@ -189,6 +185,7 @@ Overname van een vennootschap gevestigd in een andere EU-lidstaat door een Belgi
 Voorbeeld 4
 
 | A (Belgische overnemende vennootschap) | 
+|---|
 | Vaste activa | | 3.200 | | Kapitaal | | 2.000 | 
 | Vlottende activa | | 6.800 | | Belastingvrije reserves | | 1.500 | 
 | | | | | Beschikbare reserves | | 4.500 | 
@@ -197,6 +194,7 @@ Voorbeeld 4
 | | | 10.000 | | | | 10.000 | 
 
 | B (overgenomen vennootschap) | 
+|---|
 | Vaste activa | | 5.500 | | Kapitaal | | 3.000 | 
 | Vlottende activa | | 9.500 | | Reserves7 | | 7.000 | 
 | | | | | Voorzieningen | | 1.000 | 
@@ -206,10 +204,12 @@ Voorbeeld 4
 Na de fusie door overneming van B door A, ziet de balans van A er als volgt uit
 
 | A (na de fusie) | 
+|---|
 | Vaste activa (3.200 + 5.500) | | 8.700 | | Kapitaal (2.000 + 3.000) | | 5.000 | 
 | Vlottende activa (6.800 + 9.500) | | 16.300 | | Belastingvrije reserves (1.500 + 07) | | 1.500 | 
 | | | | | Beschikbare reserves (4.500 + 7.000[^7]) | | 11.500 | 
 | | | | | Voorzieningen (900 + 1.000) | | 1.900 | 
+|---|---|---|---|---|---|---|
 | | | | | Schulden (1.100 + 4.000) | | 5.100 | 
 | | | 25.000 | | | | 25.000 | 
 
@@ -220,6 +220,7 @@ In toepassing van artikel 78, §6 KB W.Venn. worden ten name van de overnemende 
 Voorbeeld 5
 
 | A (Belgische overnemende vennootschap) | 
+|---|
 | Materiële vaste activa | | 230 | | Kapitaal | | 2.000 | 
 | Financiële vaste activa (B-aandelen 90%)[^8] | | 2.970 | | Belastingvrije reserves | | 1.500 | 
 | Vlottende activa | | 6.800 | | Beschikbare reserves | | 4.500 | 
@@ -228,6 +229,7 @@ Voorbeeld 5
 | | | 10.000 | | | | 10.000 | 
 
 | B (overgenomen vennootschap) | 
+|---|
 | Vaste activa | | 5.500 | | Kapitaal | | 3.000 | 
 | Vlottende activa | | 9.500 | | Reserves | | 7.000 | 
 | | | | | Voorzieningen | | 1.000 | 
@@ -237,6 +239,7 @@ Voorbeeld 5
 Na de fusie door overneming van B door A zal de balans van A er als volgt uitzien:
 
 | A (na de fusie) | 
+|---|
 | Vaste activa (230 + 5.500) | | 5.730 | | Kapitaal (2.000 + 3.000 x 10%) | | 2.300 | 
 | Vlottende activa (6.800 + 9.500) | | 16.300 | | Belastingvrije reserves (1.500 + 0) | | 1.500 | 
 | | | | | Beschikbare reserves (4.500 + 7.000 x 10%) | | 5.200 | 
@@ -256,6 +259,7 @@ Deze situatie is een combinatie van de gevallen behandeld onder de punten 2.2. e
 Voorbeeld 6
 
 | A (Belgische overnemende vennootschap) | 
+|---|
 | Materiële vaste activa | | 230 | | Kapitaal | | 2.000 | 
 | Financiële vaste activa (B-aandelen 90%) | | 2.970 | | Belastingvrije reserves | | 1.500 | 
 | Vlottende activa | | 6.800 | | Beschikbare reserves | | 4.500 | 
@@ -264,6 +268,7 @@ Voorbeeld 6
 | | | 10.000 | | | | 10.000 | 
 
 | B (overgenomen vennootschap) | 
+|---|
 | Vaste activa | | 5.500 | | Kapitaal | | 3.000 | 
 | Vlottende activa | | 9.500 | | Reserves | | 7.000 | 
 | | | | | Voorzieningen | | 1.000 | 
@@ -271,6 +276,7 @@ Voorbeeld 6
 | | | 15.000 | | | | 15.000 | 
 
 | Belgische inrichting van B (vóór de fusie) | 
+|---|
 | Vaste activa | | 1.300 | | Dotatie | | 2.600 | 
 | Vlottende activa | | 7.200 | | Belastingvrije reserves | | 1.650 | 
 | | | | | Beschikbare reserves | | 1.850 | 
@@ -287,10 +293,12 @@ De vermindering van de reserves van de overgenomen buitenlandse vennootschap mag
 Na de fusie zal de balans van A er als volgt uitzien:
 
 | A (na de fusie) | 
+|---|
 | Vaste activa (230 + 5.500) | | 5.730 | | Kapitaal (2.000 + 3.000 x 10%) | | 2.300 | 
 | Vlottende activa (6.800 + 9.500) | | 16.300 | | Belastingvrije reserves (1.500 + 1.650 x 10%[^10]
  + **535[^11]** ) | | 2.200 | 
 | | | | | Beschikbare reserves 4.500 + (7.000 – 1.650) x 10% - **535**12 | | 4.500 | 
+|---|---|---|---|---|---|---|
 | | | | | Overgedragen winst[^12] | | 6.030 | 
 | | | | | Voorzieningen (900 + 1.000) | | 1.900 | 
 | | | | | Schulden (1.100 + 4.000) | | 5.100 | 
@@ -308,9 +316,11 @@ Naar analogie van het gestelde in het CBN advies 2009/6 (zie voorbeeld 6) is de 
 De openingsbalans na de fusie is dan als volgt :
 
 | A (na de fusie) | 
+|---|
 | Vaste activa (230 + 5.500) | | 5.730 | | Kapitaal (2.000 + 3.000 x 10%) | | 2.300 | 
 | Vlottende activa (6.800 + 9.500) | | 16.300 | | Belastingvrije reserves (1.500 + 1.650 x 10%[^13]) | | 1.665 | 
 | | | | | Beschikbare reserves 4.500 + (7.000 – 1.650) x 10% | | 5.035 | 
+|---|---|---|---|---|---|---|
 | | | | | Overgedragen winst[^14] | | 6.030 | 
 | | | | | Voorzieningen (900 + 1.000) | | 1.900 | 
 | | | | | Schulden (1.100 + 4.000) | | 5.100 | 

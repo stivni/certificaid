@@ -19,32 +19,28 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:19:35Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4/B: de H1-heading op r.53 bevat bold-markers rond de volledige titel ('# **CBN advies 170-1 - ...**') — een mens schrijft geen **bold** binnen een # heading. Tevens '170-1' met koppelteken in plaats van '170/1' met slash zoals de rest van de adviezen. Inhoud is volledig voor dit korte advies en voetnoten zijn correct."
+    rationale: 'Kort, schoon advies: één H1, geen subheadings nodig (geen structuurniveaus in de brontekst), twee voetnoten correct gekoppeld ([^1] en [^2] met definitie), inhoud volledig (gerechtelijk akkoord vs ontoereikend actief bij sluiting vereffening). Geen artefacten aangetroffen.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 0
-      max_section_chars: 1888
-      file_size_chars: 1888
+      file_size_chars: 1884
       flags: []
+      heading_count: 0
+      max_section_chars: 1884
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "D4/B: de H1-heading op r.53 bevat bold-markers rond de volledige titel ('# **CBN advies 170-1 - ...**') — een mens schrijft geen **bold** binnen een # heading. Tevens '170-1' met koppelteken in plaats van '170/1' met slash zoals de rest van de adviezen. Inhoud is volledig voor dit korte advies en voetnoten zijn correct."
-      concrete_problemen:
-        - regel: 53
-          categorie: D4
-          type: other
-          voorbeeld: '# **CBN advies 170-1 - Boekhoudkundige verwerking van niet-betaalde schulden...**'
+      run_at: '2026-05-11T15:19:35Z'
+      rationale: 'Kort, schoon advies: één H1, geen subheadings nodig (geen structuurniveaus in de brontekst), twee voetnoten correct gekoppeld ([^1] en [^2] met definitie), inhoud volledig (gerechtelijk akkoord vs ontoereikend actief bij sluiting vereffening). Geen artefacten aangetroffen.'
+      concrete_problemen: []
 themas:
   - gerechtelijk akkoord
   - niet-betaalde schulden wegens ontoereikend actief bij sluiten vereffening
@@ -54,7 +50,7 @@ themas:
   - vordering
 ---
 
-# **CBN advies 170-1 - Boekhoudkundige verwerking van niet-betaalde schulden wegens ontoereikend actief bij het sluiten van de vereffening**
+# CBN advies 170-1 - Boekhoudkundige verwerking van niet-betaalde schulden wegens ontoereikend actief bij het sluiten van de vereffening
 
 In haar advies 143/1[^1] onderzocht de Commissie de invloed van een gerechtelijk akkoord op de schulden en de vorderingen. 
 

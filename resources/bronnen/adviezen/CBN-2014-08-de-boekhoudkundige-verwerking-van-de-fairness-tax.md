@@ -3,41 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-fa
 datum: 2014-06-04
 nummer: CBN-advies 2014/8
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-fairness-tax
-      sha256: 4dd27d4fa4bc9402e7a50cff9c9c41fab286f3fb37017d8c266c1607d2543f49
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-fairness-tax
+    sha256: 4dd27d4fa4bc9402e7a50cff9c9c41fab286f3fb37017d8c266c1607d2543f49
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 2
-      max_section_chars: 1141
       file_size_chars: 2392
       flags: []
+      heading_count: 2
+      max_section_chars: 1141
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Kort advies (2393 chars, 2 headings), geen extractie-artefacten aangetroffen. Voetnoten [^1]–[^6] volledig gedefinieerd en correct geankerd. Markdown ziet er mens-geschreven uit.
+      rationale: Kort advies (2393 chars, 2 headings), geen extractie-artefacten aangetroffen.
+        Voetnoten [^1]–[^6] volledig gedefinieerd en correct geankerd. Markdown ziet
+        er mens-geschreven uit.
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: Kort advies (2393 chars, 2 headings), geen extractie-artefacten aangetroffen. Voetnoten [^1]–[^6] volledig gedefinieerd en correct geankerd. Markdown ziet er mens-geschreven uit.
+    rationale: Kort advies (2393 chars, 2 headings), geen extractie-artefacten aangetroffen.
+      Voetnoten [^1]–[^6] volledig gedefinieerd en correct geankerd. Markdown ziet
+      er mens-geschreven uit.
     status: trusted
 themas:
-  - fairness tax
-  - vennootschapsbelasting
-  - eindejaarsverrichting
+- fairness tax
+- vennootschapsbelasting
+- eindejaarsverrichting
 ---
 
 # CBN-advies 2014/8 – De boekhoudkundige verwerking van de Fairness Tax

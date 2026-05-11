@@ -19,40 +19,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E1/E2: Voorbeeld 4 (regels 151-292) heeft een volledig kapotte tabel waarbij elke cel als losstaande tekstregel is weergegeven met lege pipe-rijen ertussen — volledig onleesbaar als markdown-tabel. B5: regel 132-133 toont de sectiontitel 'Afschrijven van vaste activa met beperkte levensduur...' als plain-text zonder heading-prefix. B2: de document-H1 op regel 58 bevat enkel de datum ('# Advies 6 juni 2012, bijgewerkt op 10 september 2025') zonder CBN-adviesnummer — afwijkend van alle andere adviezen."
+    rationale: "E1/E2: de afschrijvingstabel voor Voorbeeld 4 (regels 147-316) is volledig uiteengevallen in tientallen aparte eencellige pipe-tabellen met multi-line tekst en tab-ingesprongen content — de complexe multi-kolom tabel is door ETL in fragmenten gesplitst. B5: regel 128 toont 'Afschrijven van vaste activa met beperkte levensduur...' als plain-text alinea zonder heading-prefix (sectie-titel). Regel 318 toont 'Overeenstemming tussen de boekhoudkundige verwerking...' eveneens als plain-text sectie-titel zonder heading-prefix."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 7
-      max_section_chars: 16010
-      file_size_chars: 20060
+      file_size_chars: 20623
       flags: []
+      heading_count: 7
+      max_section_chars: 16578
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "E1/E2: Voorbeeld 4 (regels 151-292) heeft een volledig kapotte tabel waarbij elke cel als losstaande tekstregel is weergegeven met lege pipe-rijen ertussen — volledig onleesbaar als markdown-tabel. B5: regel 132-133 toont de sectiontitel 'Afschrijven van vaste activa met beperkte levensduur...' als plain-text zonder heading-prefix. B2: de document-H1 op regel 58 bevat enkel de datum ('# Advies 6 juni 2012, bijgewerkt op 10 september 2025') zonder CBN-adviesnummer — afwijkend van alle andere adviezen."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "E1/E2: de afschrijvingstabel voor Voorbeeld 4 (regels 147-316) is volledig uiteengevallen in tientallen aparte eencellige pipe-tabellen met multi-line tekst en tab-ingesprongen content — de complexe multi-kolom tabel is door ETL in fragmenten gesplitst. B5: regel 128 toont 'Afschrijven van vaste activa met beperkte levensduur...' als plain-text alinea zonder heading-prefix (sectie-titel). Regel 318 toont 'Overeenstemming tussen de boekhoudkundige verwerking...' eveneens als plain-text sectie-titel zonder heading-prefix."
       concrete_problemen:
-        - regel: 151
+        - regel: 147
           categorie: E1
           type: pseudo-table
-          voorbeeld: "| | | \n\nVaste betaalde prijs: 300\n\n  | | \n\nVariabele \n\nprijs jaar \n\n20X1: 27"
-        - regel: 132
+          voorbeeld: "| | | \n|---|---|\n\nVaste betaalde prijs: 300\n\n  | | \n|---|"
+        - regel: 128
           categorie: B5
           type: other
-          voorbeeld: Afschrijven van vaste activa met beperkte levensduur die zijn verworven voor een prijs die (deels) bestaat uit een variabele gedeelte...
-        - regel: 58
-          categorie: B2
+          voorbeeld: Afschrijven van vaste activa met beperkte levensduur die zijn verworven voor een prijs die (deels) bestaat uit een variabele gedeelte
+        - regel: 318
+          categorie: B5
           type: other
-          voorbeeld: '# Advies 6 juni 2012, bijgewerkt op 10 september 2025[^1]'
+          voorbeeld: Overeenstemming tussen de boekhoudkundige verwerking van goederen verworven tegen betaling van een lijfrente en de activatie van de variabele prijs
 themas:
   - variabele prijs
   - financiële vaste activa
@@ -61,7 +61,7 @@ themas:
 
 # Advies 6 juni 2012, bijgewerkt op 10 september 2025[^1]
 
-## **Inleiding**
+## Inleiding
 
 In dit advies behandelt de Commissie voor boekhoudkundige normen de boekhoudkundige verwerking van de verwerving van een vast actief voor een prijs die een variabel gedeelte omvat dat afhankelijk is van een toekomstige en onzekere gebeurtenis[^2]. 
 
@@ -69,7 +69,7 @@ Wanneer een onderneming vaste activa verwerft waarvoor een prijs wordt betaald d
 
 In de CBN-adviezen 126/9[^3] en 126/10[^4] heeft de Commissie reeds enkele principes met betrekking tot de bovengenoemde problematiek uiteengezet. In onderhavig advies, dat de adviezen 126/9 en 126/10 opheft en vervangt, worden deze principes overgenomen en verder gepreciseerd.
 
-## Draagwijdte van het advies 
+## Draagwijdte van het advies
 
 Verrichtingen waarbij vaste activa worden verworven voor een prijs die minstens voor een deel een variabele prijs omvat die afhankelijk is van een toekomstige en onzekere gebeurtenis, hebben naar mening van de Commissie vrijwel nooit betrekking op materiële vaste activa, al kan niet worden uitgesloten dat ook voor deze categorie van vaste activa in variabele prijsafspraken wordt voorzien.
 
@@ -153,10 +153,12 @@ In dit voorbeeld vertonen de te betalen variabele gedeelten van de prijs een dui
 De geboekte afschrijvingen van de concessie zullen in dit voorbeeld als volgt evolueren:
 
 | | | 
+|---|---|
 
 Vaste betaalde prijs: 300
 
   | | 
+|---|
 
 Variabele 
 
@@ -165,6 +167,7 @@ Variabele
 			20X1: 27
 
   | | 
+|---|
 
  Variabele 
 
@@ -173,6 +176,7 @@ Variabele
 			20X2: 32
 
   | | 
+|---|
 
 Variabele 
 
@@ -181,6 +185,7 @@ Variabele
 			20X3: 14
 
   | | 
+|---|
 
 Variabele 
 
@@ -189,6 +194,7 @@ Variabele
 			20X4: 36
 
   | | 
+|---|
 
 Jaarlijkse 
 
@@ -200,91 +206,111 @@ Jaarlijkse
 Jaar 20X0 
 
   | | 
+|---|
 
 30[^7] 
 
   | | | | | | | | | | **30** | 
+|---|---|---|---|---|---|---|---|---|---|
 | 
 
 Jaar 20X1 
 
   | | 
+|---|
 
 30
 
   | | 3[^8] | | | | | | | | **33** | 
+|---|---|---|---|---|---|---|---|---|---|
 | 
 
 Jaar 20X2
 
   | | 
+|---|
 
 30
 
   | | 3 | | 4[^9] | | | | | | **37** | 
+|---|---|---|---|---|---|---|---|---|---|
 | 
 
 Jaar 20X3 
 
   | | 
+|---|
 
 30
 
   | | 3 | | 4 | | 2[^10] | | | | **39** | 
+|---|---|---|---|---|---|---|---|---|---|
 | 
 
 Jaar 20X4
 
   | | 
+|---|
 
 30
 
   | | 3 | | 4 | | 2 | | 6[^11] | | **45** | 
+|---|---|---|---|---|---|---|---|---|---|
 | 
 
 Jaar 20X5
 
   | | 
+|---|
 
 30
 
   | | 3 | | 4 | | 2 | | 6 | | **45** | 
+|---|---|---|---|---|---|---|---|---|---|
 | 
 
 Jaar 20X6
 
   | | 
+|---|
 
 30
 
   | | 3 | | 4 | | 2 | | 6 | | **45** | 
+|---|---|---|---|---|---|---|---|---|---|
 | 
 
 Jaar 20X7 
 
   | | 
+|---|
 
 30
 
   | | 3 | | 4 | | 2 | | 6 | | **45** | 
+|---|---|---|---|---|---|---|---|---|---|
 | 
 
 Jaar 20X8
 
   | | 
+|---|
 
 30
 
   | | 3 | | 4 | | 2 | | 6 | | **45** | 
+|---|---|---|---|---|---|---|---|---|---|
 | 
 
 Jaar 20X9 
 
   | | 
+|---|
 
 30
 
   | | 3 | | 4 | | 2 | | 6 | | **45** | 
+|---|---|---|---|---|---|---|---|---|---|
 | 
 
 **Totaal van de 
@@ -292,8 +318,10 @@ Jaar 20X9
 			afschrijvingen**
 
   | | 
+|---|
 
   | | | | | | | | | | **409** | 
+|---|---|---|---|---|---|---|---|---|---|
 
 Overeenstemming tussen de boekhoudkundige verwerking van goederen verworven tegen betaling van een lijfrente en de activatie van de variabele prijs betaald naar aanleiding van de verwerving van een vast actief
 Aan de Commissie werd gevraagd of de activering van de variabele gedeelten van de prijs die worden betaald naar aanleiding van de verwerving van een vast actief en die een investeringskarakter vertonen, wel strookt met de boekhoudkundige verwerking van goederen die worden verworven tegen betaling van een lijfrente, zoals voorgeschreven door artikel 3:18 KB WVV. 

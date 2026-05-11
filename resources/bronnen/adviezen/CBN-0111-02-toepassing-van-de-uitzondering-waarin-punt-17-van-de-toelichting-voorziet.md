@@ -2,50 +2,53 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-de-uitzondering-waarin-punt-17-van-de-toelichting-voorziet
 datum: 1980-01-01
 gerelateerde_adviezen:
-  - datum: '1977-08-01'
-    titel: Aanrekening van vergoedingen, van beheerders of leden van het personeel toegekend door vennootschappen behorende tot dezelfde groep
-    url: https://www.cbn-cnc.be/nl/adviezen/aanrekening-van-vergoedingen-van-beheerders-of-leden-van-het-personeel-toegekend-door-0
+- datum: '1977-08-01'
+  titel: Aanrekening van vergoedingen, van beheerders of leden van het personeel toegekend
+    door vennootschappen behorende tot dezelfde groep
+  url: https://www.cbn-cnc.be/nl/adviezen/aanrekening-van-vergoedingen-van-beheerders-of-leden-van-het-personeel-toegekend-door-0
 nummer: CBN-advies 111/2
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-de-uitzondering-waarin-punt-17-van-de-toelichting-voorziet
-      sha256: 71eaf53729d83c363ff2809e9a6bd995830cabd9cfe41d520f0bedb1874f892f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-de-uitzondering-waarin-punt-17-van-de-toelichting-voorziet
+    sha256: 71eaf53729d83c363ff2809e9a6bd995830cabd9cfe41d520f0bedb1874f892f
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 3328
       file_size_chars: 3328
       flags: []
+      heading_count: 0
+      max_section_chars: 3328
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale:
-      run_at:
+      rationale: null
+      run_at: null
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
     status: trusted
 themas:
-  - beheerder
-  - bestuurder
-  - bezoldiging
-  - bezoldigingen aan bestuurders en commissarissen
-  - commissaris
-  - toelichting
-  - zaakvoerder
+- beheerder
+- bestuurder
+- bezoldiging
+- bezoldigingen aan bestuurders en commissarissen
+- commissaris
+- toelichting
+- zaakvoerder
 ---
 
 # CBN-advies 111/2 - Toepassing van de uitzondering waarin punt 17 van de toelichting voorziet

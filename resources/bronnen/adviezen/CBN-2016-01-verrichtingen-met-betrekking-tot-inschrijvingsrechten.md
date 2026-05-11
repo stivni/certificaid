@@ -25,36 +25,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:42Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: de tabel op regels 140–150 is structureel gebroken — de header mist een separator-rij (geen |---|---|), en de cellen op regels 143–147 bevatten geneste bullet-items ('- waarmee de boekwaarde...', '- dat bij de aanschaffingswaarde...') in plaats van cel-inhoud, waardoor de pipe-tabel syntactisch ongeldig is. Inhoud en overige tabellen volledig correct."
+    rationale: 'E2: de tabel op regels 152–164 is structureel gebroken — rij 154 is leeg (geen cel-inhoud), en regels 156–158 bevatten bullet-items buiten pipe-syntax als cel-inhoud, waardoor de pipe-tabel syntactisch ongeldig is. Eerste tabel (regels 144–148) is correct. Overige inhoud volledig.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 6
-      max_section_chars: 3941
-      file_size_chars: 12489
+      file_size_chars: 12535
       flags: []
+      heading_count: 6
+      max_section_chars: 3987
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "E2: de tabel op regels 140–150 is structureel gebroken — de header mist een separator-rij (geen |---|---|), en de cellen op regels 143–147 bevatten geneste bullet-items ('- waarmee de boekwaarde...', '- dat bij de aanschaffingswaarde...') in plaats van cel-inhoud, waardoor de pipe-tabel syntactisch ongeldig is. Inhoud en overige tabellen volledig correct."
+      run_at: '2026-05-11T15:23:42Z'
+      rationale: 'E2: de tabel op regels 152–164 is structureel gebroken — rij 154 is leeg (geen cel-inhoud), en regels 156–158 bevatten bullet-items buiten pipe-syntax als cel-inhoud, waardoor de pipe-tabel syntactisch ongeldig is. Eerste tabel (regels 144–148) is correct. Overige inhoud volledig.'
       concrete_problemen:
-        - regel: 140
+        - regel: 154
           categorie: E2
           type: other
-          voorbeeld: '| **Boekwaarde van het oud effect** | | **Bedrag** | — geen separator-rij na header'
-        - regel: 143
+          voorbeeld: '| \n (lege rij direct na header zonder separator-logica)'
+        - regel: 156
           categorie: E2
           type: other
-          voorbeeld: '- waarmee de boekwaarde van het oud effect moet worden verminderd — bullet in tabelcel'
+          voorbeeld: '- waarmee de boekwaarde van het oud effect moet worden verminderd (bullet buiten tabelcel)'
 themas:
   - aandelen
   - effecten
@@ -131,6 +131,7 @@ Bij uitoefening[^4] van een recht ontstaat er geen resultaat dat als zodanig mag
 De hierboven beschreven beginselen kunnen als volgt worden geïllustreerd:
 
 | Boekwaarde van het oude effect | | | | XX EUR | 
+|---|---|---|---|---|
 | Verkoopprijs van het recht | | | | 7,50 EUR | 
 | Waarde van het recht bij uitoefening | | | | 7,50 EUR | 
 | Beurskoers van het effect ex-recht | | | | 95 EUR | 
@@ -138,6 +139,7 @@ De hierboven beschreven beginselen kunnen als volgt worden geïllustreerd:
 Naar gelang de boekwaarde van het oude effect 30, 40 of 110 EUR bedraagt[^5], gebeurt de verrekening als volgt:
 
 | **Boekwaarde van het oud effect** | | **Bedrag** | 
+|---|---|---|
 | 
 
 - waarmee de boekwaarde van het oud effect moet worden verminderd
@@ -145,6 +147,7 @@ Naar gelang de boekwaarde van het oude effect 30, 40 of 110 EUR bedraagt[^5], ge
 - dat bij de aanschaffingswaarde van het nieuwe effect moet worden toegevoegd
 
   | | dat als resultaat moet worden geboekt bij verkoop van het recht: gerealiseerde meer- of minderwaarde | 
+|---|---|
 | 30 EUR | | 30 x [7,5 / (95 + 7,5)] = 2,20 EUR | | 7,5 - 2,20 = 5,30 EUR | 
 | 40 EUR | | 40 x [7,5 / (95 + 7,5)] = 2,93 | | 7,5 - 2,93 = 4,75 EUR | 
 | 110 EUR | | 110 x [7,5 / (95 + 7,5)] = 8,05 | | 7,5 - 8,05 = -0,55 EUR | 

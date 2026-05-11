@@ -25,37 +25,37 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:42Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 161 '...(artikel 184*quater *WIB 92)[^21] **' heeft spatie vóór sluit-asterisk (malformed italic). Regel 70: H1-titel eindigt op literal '1' — het voetnootcijfer werd niet als [^1] geparsed. D3: regel 260 '[^23]' is een losstaande voetnoot-definitie zonder bijhorende body-tekst die ernaar verwijst (of verwijst naar inhoud buiten dit bestand)."
+    rationale: "D4: regel 174 '(artikel 184*quater *WIB 92)' heeft spatie vóór sluit-asterisk (malformed italic). Regel 83: H1-titel eindigt op literal '1' — voetnootcijfer niet als [^1] geparsed. D3: regel 272 '[^23]' is een losstaande voetnoot-definitie waarvan de body-referentie ontbreekt in de tekst."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 6
-      max_section_chars: 10344
       file_size_chars: 18731
       flags: []
+      heading_count: 6
+      max_section_chars: 10344
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "D4: regel 161 '...(artikel 184*quater *WIB 92)[^21] **' heeft spatie vóór sluit-asterisk (malformed italic). Regel 70: H1-titel eindigt op literal '1' — het voetnootcijfer werd niet als [^1] geparsed. D3: regel 260 '[^23]' is een losstaande voetnoot-definitie zonder bijhorende body-tekst die ernaar verwijst (of verwijst naar inhoud buiten dit bestand)."
+      run_at: '2026-05-11T15:23:42Z'
+      rationale: "D4: regel 174 '(artikel 184*quater *WIB 92)' heeft spatie vóór sluit-asterisk (malformed italic). Regel 83: H1-titel eindigt op literal '1' — voetnootcijfer niet als [^1] geparsed. D3: regel 272 '[^23]' is een losstaande voetnoot-definitie waarvan de body-referentie ontbreekt in de tekst."
       concrete_problemen:
-        - regel: 70
+        - regel: 83
           categorie: D4
           type: other
           voorbeeld: "...bijzondere aanslag op deze liquidatiereserve1 — literal '1' i.p.v. [^1]"
-        - regel: 161
+        - regel: 174
           categorie: D4
           type: other
-          voorbeeld: (artikel 184*quater *WIB 92)[^21] — spatie voor sluit-asterisk
-        - regel: 260
+          voorbeeld: (artikel 184*quater *WIB 92)[^21] — spatie vóór sluit-asterisk
+        - regel: 272
           categorie: D3
           type: other
           voorbeeld: '[^23]: Onderhavig voorbeeld gaat uit... — voetnoot zonder zichtbare body-referentie [^23]'

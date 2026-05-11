@@ -2,55 +2,58 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
 datum: 2012-03-21
 gerelateerde_adviezen:
-  - datum: '2025-07-14'
-    titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
-  - datum: '2018-05-30'
-    titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-  - datum: '2018-03-21'
-    titel: Aftrek voor innovatie-inkomsten
-    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-  - datum: '2016-12-14'
-    titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
-    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
+- datum: '2025-07-14'
+  titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
+- datum: '2018-05-30'
+  titel: Tax shelter voor podiumkunsten
+  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+- datum: '2018-03-21'
+  titel: Aftrek voor innovatie-inkomsten
+  url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+- datum: '2016-12-14'
+  titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling
+    - verduidelijking'
+  url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2012/6
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
-      sha256: 12abeb2f8f991f826eab0cc96d473615b3719e6dfe4011df92eb462d6c90fd2c
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+    sha256: 12abeb2f8f991f826eab0cc96d473615b3719e6dfe4011df92eb462d6c90fd2c
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T21:19:09Z'
     confirmed_by: human
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 6
-      max_section_chars: 12302
       file_size_chars: 34163
       flags: []
+      heading_count: 6
+      max_section_chars: 12302
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale:
-      run_at:
+      rationale: null
+      run_at: null
       status: not_run
-    rationale: 'Heading-structuur hersteld: 10 genummerde ### subsecties via promote_implicit_headings (bold numbered titles). max_section_size warn benign: langste ## sectie 28K, maar H3 chunks elk ~2-3K. 19 journaalposten correct.'
+    rationale: 'Heading-structuur hersteld: 10 genummerde ### subsecties via promote_implicit_headings
+      (bold numbered titles). max_section_size warn benign: langste ## sectie 28K,
+      maar H3 chunks elk ~2-3K. 19 journaalposten correct.'
     status: trusted
 themas:
-  - immateriële vaste activa
-  - niet in de balans opgenomen rechten en verplichtingen
-  - tax shelter
+- immateriële vaste activa
+- niet in de balans opgenomen rechten en verplichtingen
+- tax shelter
 ---
 
 # CBN-advies 2012/6 – De boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap

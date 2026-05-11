@@ -2,66 +2,74 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
 datum: 2019-10-28
 gerelateerde_adviezen:
-  - datum: '2020-04-30'
-    titel: Verenigingen en stichtingen – Vereenvoudigde boekhouding - Waarderingsregels
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-vereenvoudigde-boekhouding-waarderingsregels
-  - datum: '2019-11-06'
-    titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening - begroting
-    url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
-  - datum: '2019-09-30'
-    titel: De boekhoudkundige en jaarrekeningrechtelijke verplichtingen van een beoefenaar van een vrij beroep
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
-  - datum: '2009-02-11'
-    titel: Model van ongesplitst dagboek zoals bedoeld in artikel 2 van het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde VZW’s, stichtingen en IVZW’s
-    url: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
+- datum: '2020-04-30'
+  titel: Verenigingen en stichtingen – Vereenvoudigde boekhouding - Waarderingsregels
+  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-vereenvoudigde-boekhouding-waarderingsregels
+- datum: '2019-11-06'
+  titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening
+    - begroting
+  url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
+- datum: '2019-09-30'
+  titel: De boekhoudkundige en jaarrekeningrechtelijke verplichtingen van een beoefenaar
+    van een vrij beroep
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
+- datum: '2009-02-11'
+  titel: Model van ongesplitst dagboek zoals bedoeld in artikel 2 van het koninklijk
+    besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde
+    VZW’s, stichtingen en IVZW’s
+  url: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
 nummer: CBN-advies 2019/11
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
-      sha256: 3c04ef6d99ed0ab7b0f356366bbe3e31bd0434fcdcddeef4b7e86c115df5f0cc
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
+    sha256: 3c04ef6d99ed0ab7b0f356366bbe3e31bd0434fcdcddeef4b7e86c115df5f0cc
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 14
-      max_section_chars: 9540
-      file_size_chars: 13811
+      file_size_chars: 13799
       flags: []
+      heading_count: 14
+      max_section_chars: 9529
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen zichtbare extractie-artefacten. Heading-hiërarchie correct (# → ## → ### → ####), alle voetnoten gedefinieerd en aanwezig, inhoud compleet van inleiding tot publicatieverplichting. Laag-1 pass bevestigd.'
+      rationale: 'Geen zichtbare extractie-artefacten. Heading-hiërarchie correct
+        (# → ## → ### → ####), alle voetnoten gedefinieerd en aanwezig, inhoud compleet
+        van inleiding tot publicatieverplichting. Laag-1 pass bevestigd.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Geen zichtbare extractie-artefacten. Heading-hiërarchie correct (# → ## → ### → ####), alle voetnoten gedefinieerd en aanwezig, inhoud compleet van inleiding tot publicatieverplichting. Laag-1 pass bevestigd.'
+    rationale: 'Geen zichtbare extractie-artefacten. Heading-hiërarchie correct (#
+      → ## → ### → ####), alle voetnoten gedefinieerd en aanwezig, inhoud compleet
+      van inleiding tot publicatieverplichting. Laag-1 pass bevestigd.'
     status: trusted
 themas:
-  - vereenvoudigde boekhouding
-  - omzet
-  - natuurlijke persoon
-  - maatschap
-  - vennootschap onder firma
-  - commanditaire vennootschap
-  - groottecriteria
-  - boekhoudplichtige onderneming
-  - vorm van de jaarrekening
-  - neerlegging van de jaarrekening
-  - publicatie van de jaarrekening
-  - VOF
-  - CommV
-  - niet-recurrente ontvangsten
+- vereenvoudigde boekhouding
+- omzet
+- natuurlijke persoon
+- maatschap
+- vennootschap onder firma
+- commanditaire vennootschap
+- groottecriteria
+- boekhoudplichtige onderneming
+- vorm van de jaarrekening
+- neerlegging van de jaarrekening
+- publicatie van de jaarrekening
+- VOF
+- CommV
+- niet-recurrente ontvangsten
 ---
 
 # CBN-advies 2019/11 – De vereenvoudigde boekhouding van een natuurlijke persoon, maatschap, vennootschap onder firma en commanditaire vennootschap: groottecriteria – omzetdefinitie
@@ -79,7 +87,7 @@ Voorafgaand merkt de Commissie op dat:
 - een meer gedetailleerd advies met betrekking tot de boekhouding en de jaarrekening van een maatschap in voorbereiding is; 
 - de praktische wijze waarop een vereenvoudigde boekhouding moet worden gehouden, toegelicht wordt in het CBN-advies 174/1 – *Beginselen van een regelmatige boekhouding*.[^2] 
 
-## Beoogde personen - rechtsvorm 
+## Beoogde personen - rechtsvorm
 
 De mogelijkheid tot het voeren van een vereenvoudigde boekhouding is uitsluitend voorbehouden voor de boekhoudplichtige ondernemingen in één van de volgende rechtsvormen: 
 
@@ -111,25 +119,25 @@ Voor ondernemingen die een boekhouding voeren volgens de gebruikelijke regels va
 
 Voor de ondernemingen die een vereenvoudigde boekhouding voeren, moet op grond van artikel I.1, eerste lid, 16° WER[^7] onder *omzet* worden verstaan het bedrag van de *andere dan niet-recurrente ontvangsten*, exclusief btw. In dat geval wordt met ontvangsten bedoeld alle ontvangsten ongeacht of deze een opbrengst uitmaken in de zin van een boekhouding gevoerd volgens de regels van het dubbel boekhouden. 
 
-### *Voorbeeld 1* 
+### Voorbeeld 1
 
 Zo betekent de verkoop van een machine die duurzaam wordt gebruikt voor de bedrijfsuitoefening voor een bedrag van 100 een *ontvangst* van 100 ongeacht de boekwaarde die deze machine zou hebben gehad indien een boekhouding zou zijn gevoerd volgens de regels van het dubbel boekhouden. In een boekhouding die gevoerd wordt volgens de regels van het dubbel boekhouden wordt slechts het verschil tussen de boekwaarde en de verkoopprijs in de resultatenrekening als opbrengst geboekt. Als evenwel de verkoop van zo’n machine niet recurrent is, wat veelal het geval zal zijn, moet deze niet meegeteld worden in de berekening van het bedoelde criterium. Met recurrent wordt bedoeld dat het gaat om courant voorkomende ontvangsten voor de betrokken entiteit die dus niet uitzonderlijk zijn.
 
-### *Voorbeeld 2* 
+### Voorbeeld 2
 
 Een vennootschap onder firma koopt en verkoopt regelmatig individuele aandelen via euronext. De verkoop van een aandeel voor een bedrag van 100 betekent aldus een *ontvangst* van 100 ongeacht de boekwaarde die dit aandeel zou hebben gehad indien een boekhouding zou zijn gevoerd volgens de regels van het dubbel boekhouden. In een boekhouding die gevoerd wordt volgens de regels van het dubbel boekhouden wordt slechts het verschil tussen de boekwaarde en de verkoopprijs in de resultatenrekening als opbrengst geboekt.
 
-### *Voorbeeld 3* 
+### Voorbeeld 3
 
 Het vermogen van een maatschap bestaat uit een aandelenparticipatie en een bankrekening, de maatschap heeft geen schulden. De maatschap houdt deze aandelenparticipatie, die bestaat uit 9 procent van de aandelen van een naamloze vennootschap, reeds vele jaren ongewijzigd aan en ontvangt hieruit een jaarlijks dividend van 130.000 euro. Tijdens het boekjaar wordt opnieuw een dividend ontvangen van 130.000 euro, wordt een superdividend ontvangen van 400.000 euro en wordt vervolgens 1 procent van de aandelenparticipatie verkocht voor een bedrag van 300.000 euro. De bankrekening genereert tijdens het boekjaar een interest van 300 euro. Het bedrag van de *andere dan niet-recurrente ontvangsten* bedraagt in dit geval 130.300[^8] euro.
 
-### Prorata wanneer het boekjaar korter of langer is dan 12 maanden 
+### Prorata wanneer het boekjaar korter of langer is dan 12 maanden
 
 Indien het boekjaar van een vereenvoudigde boekhouding een duur heeft van minder of meer dan twaalf maanden, dan wordt een berekening prorata gedaan in functie van het aantal maanden dat het boekjaar loopt.[^9] 
 
 De berekening van het aantal maanden dat een boekjaar bestrijkt wanneer het boekjaar langer of korter is dan twaalf maanden, wordt volgens de Commissie berekend in functie van het aantal effectief verstreken maanden[^10].
 
-### Eerste boekjaar 
+### Eerste boekjaar
 
 De boekhoudplichtige onderneming mag tijdens het eerste boekjaar dat zij boekhoudplichtig wordt een vereenvoudigde boekhouding voeren indien uit vooruitzichten te goeder trouw blijkt dat het grensbedrag van 500.000[^11] euro tijdens dit eerste boekjaar niet zal worden overschreden.[^12] 
 

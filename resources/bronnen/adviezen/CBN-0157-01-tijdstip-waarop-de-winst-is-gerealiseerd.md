@@ -25,30 +25,30 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:35Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3/A3: regel 66 herhaalt de volledige H1-titel als plain-text alinea direct onder de heading ('CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd '), inclusief trailing spatie — duplicate-page-title patroon afkomstig van HTML-scraping. Inhoud verder volledig en correct."
+    rationale: "A3/B3: regel 74 herhaalt de volledige H1-titel als plain-text alinea direct onder de heading ('CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd '), inclusief trailing spatie — duplicate page-title patroon afkomstig van HTML-scraping. Dit artefact is na de scraper-fixes nog steeds aanwezig in het bestand. Inhoud overigens volledig en correct."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 0
-      max_section_chars: 1603
       file_size_chars: 1603
       flags: []
+      heading_count: 0
+      max_section_chars: 1603
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "B3/A3: regel 66 herhaalt de volledige H1-titel als plain-text alinea direct onder de heading ('CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd '), inclusief trailing spatie — duplicate-page-title patroon afkomstig van HTML-scraping. Inhoud verder volledig en correct."
+      run_at: '2026-05-11T15:19:35Z'
+      rationale: "A3/B3: regel 74 herhaalt de volledige H1-titel als plain-text alinea direct onder de heading ('CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd '), inclusief trailing spatie — duplicate page-title patroon afkomstig van HTML-scraping. Dit artefact is na de scraper-fixes nog steeds aanwezig in het bestand. Inhoud overigens volledig en correct."
       concrete_problemen:
-        - regel: 66
-          categorie: B3
+        - regel: 74
+          categorie: A3
           type: other
           voorbeeld: 'CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd '
 themas:

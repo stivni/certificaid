@@ -25,48 +25,48 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Regels 59–65: de drie titels zijn gemarkeerd als `# **COMMISSIE...` en `# **CBN-advies...` zonder sluitende `**`, en `## **Inleiding****` bevat overtollige asterisken — malformed bold/italic (D4). Regel 72: lege heading `## ` zonder tekst (B3). Inhoud zelf is correct en voetnoten [^1] en [^2] zijn aanwezig.'
+    rationale: 'D4: regel 63 opent een bold-marker `# **COMMISSIE...` zonder sluiting; regel 65 `## **CBN-advies 2016/2...` idem; regel 69 `## Inleiding**` heeft een sluitende `**` zonder opening — stray bold-markers verspreid over de headings. B3: regel 75 is een lege heading `## ` zonder tekst. Regel 77: `**Analyse****` heeft dubbele sluitende `**` (malformed). Tabellen en inhoud verder correct.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 2
-      max_section_chars: 2264
-      file_size_chars: 3169
+      file_size_chars: 3163
       flags: []
+      heading_count: 4
+      max_section_chars: 2264
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: 'Regels 59–65: de drie titels zijn gemarkeerd als `# **COMMISSIE...` en `# **CBN-advies...` zonder sluitende `**`, en `## **Inleiding****` bevat overtollige asterisken — malformed bold/italic (D4). Regel 72: lege heading `## ` zonder tekst (B3). Inhoud zelf is correct en voetnoten [^1] en [^2] zijn aanwezig.'
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'D4: regel 63 opent een bold-marker `# **COMMISSIE...` zonder sluiting; regel 65 `## **CBN-advies 2016/2...` idem; regel 69 `## Inleiding**` heeft een sluitende `**` zonder opening — stray bold-markers verspreid over de headings. B3: regel 75 is een lege heading `## ` zonder tekst. Regel 77: `**Analyse****` heeft dubbele sluitende `**` (malformed). Tabellen en inhoud verder correct.'
       concrete_problemen:
-        - regel: 59
-          categorie: D4
-          type: other
-          voorbeeld: '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN (geen sluitende **)'
-        - regel: 61
-          categorie: D4
-          type: other
-          voorbeeld: '# **CBN-advies 2016/2 – Boekhoudkundige verwerking... (geen sluitende **)'
         - regel: 63
           categorie: D4
           type: other
-          voorbeeld: '# **Advies van 9 maart 2016** (sluit wel, maar titelbold in heading is onnatuurlijk)'
+          voorbeeld: '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN (openende ** zonder sluiting)'
         - regel: 65
           categorie: D4
           type: other
-          voorbeeld: '## **Inleiding**** (dubbele afsluitende asterisken)'
-        - regel: 72
+          voorbeeld: '## **CBN-advies 2016/2 – Boekhoudkundige verwerking... (openende ** zonder sluiting)'
+        - regel: 69
+          categorie: D4
+          type: other
+          voorbeeld: '## Inleiding** (sluitende ** zonder opening)'
+        - regel: 75
           categorie: B3
           type: other
           voorbeeld: '## (lege heading zonder tekst)'
+        - regel: 77
+          categorie: D4
+          type: other
+          voorbeeld: '**Analyse**** (dubbele sluitende ** — malformed bold)'
 themas:
   - materiële vaste activa
   - overige materiële vaste activa
@@ -78,11 +78,11 @@ themas:
 
 # **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
-# **CBN-advies 2016/2 – Boekhoudkundige verwerking van ontvangen subsidies voor de aankoop van activa die worden ter beschikking gesteld
+## **CBN-advies 2016/2 – Boekhoudkundige verwerking van ontvangen subsidies voor de aankoop van activa die worden ter beschikking gesteld
 
-# **Advies van 9 maart 2016**
+## Advies van 9 maart 2016
 
-## **Inleiding****
+## Inleiding**
 
 Aan de Commissie werd de vraag gesteld hoe een VZW (VZW ABC) materiële vaste activa boekhoudkundig dient te verwerken die ter beschikking worden gesteld aan een andere VZW (VZW XYZ). Deze materiële vaste activa worden fysiek overgedragen door VZW ABC aan VZW XYZ; op het einde van de economische levensduur worden deze materiële vaste activa terug overgedragen door VZW XYZ aan VZW ABC. Gedurende de terbeschikkingstelling kan VZW ABC deze materiële vaste activa niet vervreemden.
 

@@ -2,54 +2,58 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
 datum: 1995-03-01
 gerelateerde_adviezen:
-  - datum: '2020-12-11'
-    titel: Boekhoudkundige verwerking van de aan-/verkoop van een actief via een geblokkeerde rekening
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
-  - datum: '2011-05-04'
-    titel: Overheidssubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
-  - datum: '2009-02-11'
-    titel: Boekhoudkundige verwerking van kapitaalsubsidies waarvan de toekenning en/of de uitbetaling over verschillende jaren wordt gespreid
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling
+- datum: '2020-12-11'
+  titel: Boekhoudkundige verwerking van de aan-/verkoop van een actief via een geblokkeerde
+    rekening
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
+- datum: '2011-05-04'
+  titel: Overheidssubsidies
+  url: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
+- datum: '2009-02-11'
+  titel: Boekhoudkundige verwerking van kapitaalsubsidies waarvan de toekenning en/of
+    de uitbetaling over verschillende jaren wordt gespreid
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling
 nummer: CBN-advies 148/6
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
-      sha256: d68168fcce935fdf12f1c2d2d983924d931f38803033ef5f116f97b8f5d624fe
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
+    sha256: d68168fcce935fdf12f1c2d2d983924d931f38803033ef5f116f97b8f5d624fe
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 0
-      max_section_chars: 6118
       file_size_chars: 6118
       flags: []
+      heading_count: 0
+      max_section_chars: 6118
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Drie exhaustieve scenario''s met duidelijke rechtsgevolgen, concrete wetsverwijzingen, praktijkgeval met overheidsgoedkeuring. Volledig coherent als één chunk.'
+      rationale: '[Laag-2-R2 2026-05-08] Drie exhaustieve scenario''s met duidelijke
+        rechtsgevolgen, concrete wetsverwijzingen, praktijkgeval met overheidsgoedkeuring.
+        Volledig coherent als één chunk.'
       run_at: '2026-05-08T19:02:30Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - opschortende voorwaarde
-  - toerekening van kosten en opbrengsten
-  - verrichting onder opschortende voorwaarde
-  - voorwaardelijke verbintenis
-  - voorziening
+- opschortende voorwaarde
+- toerekening van kosten en opbrengsten
+- verrichting onder opschortende voorwaarde
+- voorwaardelijke verbintenis
+- voorziening
 ---
 
 # CBN-advies 148/6 - Boekhoudkundige verwerking van verrichtingen afgesloten onder opschortende voorwaarde

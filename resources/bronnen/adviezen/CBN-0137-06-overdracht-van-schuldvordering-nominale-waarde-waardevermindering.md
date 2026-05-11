@@ -25,36 +25,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Twee problemen: (1) D4/andere op L98: heading '### Op de vervandag' bevat typefout 'vervandag' i.p.v. 'vervaldag' — consistent met OCR- of scraper-artefact. (2) E2 op L107: tabelcel bevat '6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |' — het cijfer '1' (voetnootlabel) is in de cel gelekt en de koppelteken voor 'terugneming' mist een spatie."
+    rationale: "E2/G3 (regel 107): voetnootlabel '1' is in de tabelcel gelekt — '6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |' — dit is een ETL-artefact. De heading '### Op de vervandag' (regel 98) bevat 'vervandag' i.p.v. 'vervaldag'; dit is vermoedelijk een source-typo op de CBN-website en telt op zichzelf niet als needs-rework-grond, maar het ingelekte voetnoomlabel is een duidelijke ETL-bug."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
+      file_size_chars: 3515
+      flags: []
       heading_count: 2
       max_section_chars: 1418
-      file_size_chars: 3516
-      flags: []
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "Twee problemen: (1) D4/andere op L98: heading '### Op de vervandag' bevat typefout 'vervandag' i.p.v. 'vervaldag' — consistent met OCR- of scraper-artefact. (2) E2 op L107: tabelcel bevat '6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |' — het cijfer '1' (voetnootlabel) is in de cel gelekt en de koppelteken voor 'terugneming' mist een spatie."
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: "E2/G3 (regel 107): voetnootlabel '1' is in de tabelcel gelekt — '6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |' — dit is een ETL-artefact. De heading '### Op de vervandag' (regel 98) bevat 'vervandag' i.p.v. 'vervaldag'; dit is vermoedelijk een source-typo op de CBN-website en telt op zichzelf niet als needs-rework-grond, maar het ingelekte voetnoomlabel is een duidelijke ETL-bug."
       concrete_problemen:
-        - regel: 98
-          categorie: D4
-          type: other
-          voorbeeld: "### Op de vervandag (typefout: 'vervandag' i.p.v. 'vervaldag')"
         - regel: 107
           categorie: E2
           type: other
-          voorbeeld: '| 6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |'
+          voorbeeld: 6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |
+        - regel: 98
+          categorie: (source)
+          type: source-typo
+          voorbeeld: "### Op de vervandag  (vermoedelijk 'vervaldag' in bron)"
 themas:
   - Waardevermindering
   - waardevermindering op vorderingen
@@ -73,7 +73,7 @@ Onderneming Y draagt aan onderneming X een vordering op Z over. Nominaal bedraag
 
 Naar het oordeel van de Commissie leidt de toepassing van artikel 27*bis*, § 1 voor X in casu tot de volgende boekhoudkundige verwerking.
 
-### Bij de aankoop van de vordering 
+## Bij de aankoop van de vordering
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -87,7 +87,8 @@ De sub 2909 geboekte "waardevermindering" stemt overeen met het bedrag waarvoor 
 
 Deze "waardevermindering" werd niet ten laste genomen door de resultatenrekening van X, maar tesamen met de betrokken vordering van Y "verworven". 
 
-Ingeval van de verbetering van de solvabiliteit van Z : de vordering word op 60 geschat.
+## Ingeval van de verbetering van de solvabiliteit van Z : de vordering word op 60 geschat.
+
 (toepassing van artikel 19, zesde lid K.B. van 8 oktober 1976) 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -95,7 +96,7 @@ Ingeval van de verbetering van de solvabiliteit van Z : de vordering word op 60 
 | | 2909 | Handelsvorderingen op meer dan 1 jaar - geboekte waardeverminderingen | 20 | |
 | aan | 6331 | Handelsvorderingen op meer dan 1 jaar - terugneming van waardeverminderingen | | 20 |
 
-### Op de vervandag
+## Op de vervandag
 
 (Z betaalt uiteindelijk 70) 
 

@@ -2,57 +2,60 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
 datum: 2002-05-02
 gerelateerde_adviezen:
-  - datum: '2019-03-29'
-    titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait'
-    url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
-  - datum: '2000-05-01'
-    titel: Boekhoudkundige verwerking van de mini BEL-20
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
+- datum: '2019-03-29'
+  titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait
+    en het strategisch forfait'
+  url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
+- datum: '2000-05-01'
+  titel: Boekhoudkundige verwerking van de mini BEL-20
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
 nummer: CBN-advies 178/1
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
-      sha256: 04afdcb126a2343ef1d3e80d715762bcc4ec8a9373b222253ea9020277927ee1
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
+    sha256: 04afdcb126a2343ef1d3e80d715762bcc4ec8a9373b222253ea9020277927ee1
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 8
-      max_section_chars: 17584
-      file_size_chars: 35751
+      file_size_chars: 35746
       flags: []
+      heading_count: 8
+      max_section_chars: 17583
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 10 headings, volledige inhoudelijke kern aanwezig: vijf verwerkingspunten volledig, IAS 39-verwijzingen, vier toepassingssituaties. Voetnootnummer in titeltekst is cosmetisch.'
+      rationale: '[Laag-2-R2 2026-05-08] 10 headings, volledige inhoudelijke kern
+        aanwezig: vijf verwerkingspunten volledig, IAS 39-verwijzingen, vier toepassingssituaties.
+        Voetnootnummer in titeltekst is cosmetisch.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - vorderingsrecht
-  - certificaathouder
-  - certificaten
-  - certificatie van aandelen
-  - certificatieovereenkomst
-  - controle
-  - deelneming
-  - emittent
-  - financiële vaste activa
-  - geldbeleggingen
-  - inkomsten uit gecertificeerde effecten
+- vorderingsrecht
+- certificaathouder
+- certificaten
+- certificatie van aandelen
+- certificatieovereenkomst
+- controle
+- deelneming
+- emittent
+- financiële vaste activa
+- geldbeleggingen
+- inkomsten uit gecertificeerde effecten
 ---
 
 # CBN-advies 178/1 - Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen1
@@ -108,7 +111,7 @@ De Commissie is derhalve van oordeel dat voor het vaststellen van een passende b
 
 ## Boekhoudkundige verwerking
 
-### De gevolgen van de certificatie voor de toewijzing van de controlebevoegdheid 
+### De gevolgen van de certificatie voor de toewijzing van de controlebevoegdheid
 
 Leidt de certificatie van aandelen tot een verschuiving van de controlebevoegdheid? Behoudt de emittent van de certificaten (die het stemrecht heeft) de controle over de onderneming waarvan de aandelen worden gecertificeerd ? 
 
@@ -160,13 +163,13 @@ Wat financiële instrumenten betreft, wordt in IAS 39 gepreciseerd : "An enterpr
 
 Om de gevolgen te kunnen bepalen die de certificatie heeft voor de realisatie van gecertificeerde aandelen, is de Commissie van oordeel dat een onderscheid moet worden gemaakt tussen de situatie waarin een aandeelhouder zijn aandelen inbrengt in een certificatievehikel en in ruil daarvoor certificaten ontvangt (de emittent wordt eigenaar van de aandelen), en de situatie waarin een aandeelhouder zelf certificaten uitgeeft ter vertegenwoordiging van aandelen waarvan hij voorheen al eigenaar was en deze certificaten overdraagt aan derden (de emittent blijft eigenaar van de aandelen). 
 
-#### De aandeelhouder ontvangt certificaten in ruil voor de aandelen die hij bezit (de emittent verwerft de eigendom van de aandelen) 
+#### De aandeelhouder ontvangt certificaten in ruil voor de aandelen die hij bezit (de emittent verwerft de eigendom van de aandelen)
 
 In principe behoudt de oorspronkelijke aandeelhouder, als hij certificaten ontvangt in ruil voor de aandelen waarover hij voorheen beschikte, alle economische voordelen die met de aandelen samenhangen en draagt hij ook de grootste risico's (koersval, dividenden...). Het certificaat vertegenwoordigt immers alle economische rechten die met de aandelen zijn verbonden. Bovendien blijft zijn situatie op termijn ongewijzigd aangezien hij als houder van de certificaten op elk tijdstip kan vragen om de certificaten om te ruilen tegen de aandelen. De Commissie is daarom van oordeel dat de verrichting waarbij een aandeelhouder aandelen inbrengt in een certificatievehikel en daarvoor in ruil certificaten ontvangt, niet de realisatie van de gecertificeerde aandelen tot gevolg heeft en derhalve ook niet leidt tot het uitdrukken van een gerealiseerd resultaat (gerealiseerde meer- of minderwaarde). 
 
 Het is evenwel denkbaar dat de oorspronkelijke aandeelhouder overgaat tot certificatie om de certificaten te schenken, verkopen of in te brengen of om de in ruil ontvangen certificaten (die economische rechten vertegenwoordigen) te verdelen onder derden (bijvoorbeeld zijn kinderen), terwijl hijzelf de controle behoudt of overdraagt aan een door hem aangeduide persoon. In een dergelijk geval leidt de overdracht van de certificaten wel degelijk tot hun realisatie, en in voorkomend geval, tot het uitdrukken van een resultaat. In deze hypothese is het echter niet de certificatie zelf die de realisatie van de economische rechten verbonden met de aandelen tot gevolg heeft, maar wel de overdracht van de certificaten aan derden. 
 
-#### De aandeelhouder geeft certificaten uit ter vertegenwoordiging van de aandelen waarover hij reeds beschikt (de emittent behoudt de eigendom van de aandelen) 
+#### De aandeelhouder geeft certificaten uit ter vertegenwoordiging van de aandelen waarover hij reeds beschikt (de emittent behoudt de eigendom van de aandelen)
 
 Als de oorspronkelijke aandeelhouder certificaten uitgeeft ter vertegenwoordiging van aandelen waarvan hij voorheen al eigenaar was, en hij deze aan derden overdraagt (door ze te verkopen, om te ruilen, in te brengen of te schenken, enz.), rijst ook hier de vraag of de betrokken aandelen, eventueel gedeeltelijk, gerealiseerd worden. 
 
@@ -193,7 +196,7 @@ Anderzijds is de waardering van de gecertificeerde aandelen (wat neerkomt op een
 
 Gelet daarop verkiest de Commissie de integrale realisatie van de gecertificeerde aandelen als de emittent van de certificaten definitief afstand doet van alle met de aandelen verbonden economische voordelen en risico's. 
 
-### De boekhoudkundige verwerking van de aandelen en van de certificaten 
+### De boekhoudkundige verwerking van de aandelen en van de certificaten
 
 De vraag rijst onder welke balanspost (of eventueel buiten-balanspost) de gecertificeerde aandelen en de certificaten moeten worden geboekt. Ook hier moet rekening worden gehouden met de concrete toestand die ontstaat als gevolg van de certificatieovereenkomst. 
 
@@ -224,7 +227,7 @@ Als echter, zoals in de wet van 15 juli 1998 wordt toegestaan, de partijen ander
 
 Tegelijk met het boeken van een schuld door de emittent, moet de houder van de certificaten een vordering boeken zodra hij kennis heeft van de schuld van de emittent en van het bedrag ervan.
 
-### De gevolgen van de certificatie voor de geconsolideerde jaarrekening 
+### De gevolgen van de certificatie voor de geconsolideerde jaarrekening
 
 De certificatie van effecten kan gevolgen sorteren voor de geconsolideerde jaarrekening. Enerzijds doordat de certificatie niet noodzakelijkerwijs neutraal is ten aanzien van de toewijzing van de controlebevoegdheid en derhalve kan leiden tot wijzigingen in de consolidatiekring[^25]. Anderzijds kan de certificatie in bepaalde gevallen leiden tot realisatie van de aandelen (zie supra, punt B, wat gevolgen heeft voor het bepalen van het aandeel in het netto vermogen van de dochteronderneming dat toekomt aan de groep (belangenpercentage).
 

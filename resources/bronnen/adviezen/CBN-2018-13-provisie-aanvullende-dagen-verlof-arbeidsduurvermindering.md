@@ -12,33 +12,33 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Bevestiging van bestaand verdict. D4: malformed italic op regels 74 en 76 — `die* in vast dienstverband[^4] *` en `rekening 444 *Te ontvangen facturen. *` met spatie voor sluitende asterisk. Patroon consistent met andere 2018-adviezen uit dezelfde ETL-batch.'
+    rationale: 'Bevestiging van bestaand verdict. D4: malformed italic op regels 80 en 82 — `die* in vast dienstverband[^4] *` en `rekening 444 *Te ontvangen facturen. *` met spatie vóór sluitende asterisk. Patroon stelselmatig consistent met ETL-batch; scraper-fix heeft dit niet opgelost. Inhoud en structuur zijn verder correct en volledig.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 2
-      max_section_chars: 2519
       file_size_chars: 5162
       flags: []
+      heading_count: 2
+      max_section_chars: 2519
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: 'Bevestiging van bestaand verdict. D4: malformed italic op regels 74 en 76 — `die* in vast dienstverband[^4] *` en `rekening 444 *Te ontvangen facturen. *` met spatie voor sluitende asterisk. Patroon consistent met andere 2018-adviezen uit dezelfde ETL-batch.'
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'Bevestiging van bestaand verdict. D4: malformed italic op regels 80 en 82 — `die* in vast dienstverband[^4] *` en `rekening 444 *Te ontvangen facturen. *` met spatie vóór sluitende asterisk. Patroon stelselmatig consistent met ETL-batch; scraper-fix heeft dit niet opgelost. Inhoud en structuur zijn verder correct en volledig.'
       concrete_problemen:
-        - regel: 74
+        - regel: 80
           categorie: D4
           type: other
           voorbeeld: Voor werknemers die* in vast dienstverband[^4] * werken
-        - regel: 76
+        - regel: 82
           categorie: D4
           type: other
           voorbeeld: rekening 444 *Te ontvangen facturen. *

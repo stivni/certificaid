@@ -2,54 +2,60 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
 datum: 2010-09-24
 gerelateerde_adviezen:
-  - datum: '2016-09-28'
-    titel: Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding
-    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
-  - datum: '1981-04-10'
-    titel: Bewaring van de verantwoordingsstukken
-    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-verantwoordingsstukken
+- datum: '2016-09-28'
+  titel: Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding
+  url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
+- datum: '1981-04-10'
+  titel: Bewaring van de verantwoordingsstukken
+  url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-verantwoordingsstukken
 nummer: CBN-advies 2010/14
 provenance:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
-      sha256: cc3dc16756036705ba3ff4dc69f8573d60aeb6ad8fa0314939d527bac08266d0
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
+    sha256: cc3dc16756036705ba3ff4dc69f8573d60aeb6ad8fa0314939d527bac08266d0
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:09:17Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 7
-      max_section_chars: 5184
       file_size_chars: 10529
       flags: []
+      heading_count: 7
+      max_section_chars: 5184
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks. Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk juist, geen artefact.'
+      rationale: 'Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct
+        hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks.
+        Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk
+        juist, geen artefact.'
       run_at: '2026-05-11T12:09:17Z'
       status: trusted
-    rationale: 'Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks. Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk juist, geen artefact.'
+    rationale: 'Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct
+      hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks.
+      Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk
+      juist, geen artefact.'
     status: trusted
 themas:
-  - bewaring
-  - bewaring van verantwoordingsstukken
-  - boeken
-  - computersysteem
-  - elektronische boekhouding
-  - elektronische facturering
-  - plaats van bewaring
-  - verantwoordingsstuk
+- bewaring
+- bewaring van verantwoordingsstukken
+- boeken
+- computersysteem
+- elektronische boekhouding
+- elektronische facturering
+- plaats van bewaring
+- verantwoordingsstuk
 ---
 
 # CBN-advies 2010/14 - Bewaring van boeken en verantwoordingsstukken

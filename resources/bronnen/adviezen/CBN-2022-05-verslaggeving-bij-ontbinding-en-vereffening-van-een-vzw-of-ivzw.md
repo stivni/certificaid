@@ -25,27 +25,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:26:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: TOC-fragment in body: regels 101–119 bevatten een geïndenteerde inhoudsopgave die direct na de hoofdtitel staat (geen heading-marker), en regel 120 bevat een aaneengesloten TOC-restant ('-- Sluiting vereffening na vrijwillige ontbinding-- Sluiting...') zonder opmaak. D2: regel 225 verwijst naar een schema ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was vermoedelijk een afbeelding in het origineel. Inhoud verder compleet; 68 voetnoten correct."
+    rationale: "A3: TOC-fragment in body (regels 101-119) en aaneengesloten TOC-restant op regel 120. D2: regel 225 verwijst naar een schema ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was een afbeelding in het origineel. (Herbevestiging van eerdere beoordeling.)"
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
+      file_size_chars: 33400
+      flags: []
       heading_count: 14
       max_section_chars: 19924
-      file_size_chars: 34465
-      flags: []
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "A3: TOC-fragment in body: regels 101–119 bevatten een geïndenteerde inhoudsopgave die direct na de hoofdtitel staat (geen heading-marker), en regel 120 bevat een aaneengesloten TOC-restant ('-- Sluiting vereffening na vrijwillige ontbinding-- Sluiting...') zonder opmaak. D2: regel 225 verwijst naar een schema ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was vermoedelijk een afbeelding in het origineel. Inhoud verder compleet; 68 voetnoten correct."
+      run_at: '2026-05-11T15:26:40Z'
+      rationale: "A3: TOC-fragment in body (regels 101-119) en aaneengesloten TOC-restant op regel 120. D2: regel 225 verwijst naar een schema ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was een afbeelding in het origineel. (Herbevestiging van eerdere beoordeling.)"
       concrete_problemen:
         - regel: 101
           categorie: A3
@@ -94,27 +94,6 @@ themas:
 
 # CBN-advies 2022/05 - Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
 
-1. Ontbinding 
-  1. Vrijwillige ontbinding 
-  2. Ontbinding van rechtswege 
-  3. Gerechtelijke ontbinding 
-
-2. Vereffening 
-  1. Vereffening na vrijwillige ontbinding 
-  2. Vereffening na ontbinding van rechtswege 
-  3. Vereffening na gerechtelijke ontbinding 
-
-3. Sluiting van de vereffening
-
-  1. Sluiting vereffening na vrijwillige ontbinding 
-  2. Sluiting vereffening na ontbinding van rechtswege 
-  3. Sluiting vereffening na gerechtelijke ontbinding 
-
-4. Voorbeeld 
-5. Afwijkend standpunt van de heer Michel De Wolf, lid van de Commissie op voordracht van de Minister van Middenstand, gekozen op dubbele lijsten voorgesteld door de representatieve organisaties van de Middenstand 
-
--- Sluiting vereffening na vrijwillige ontbinding-- Sluiting vereffening na ontbinding van rechtswege-- Sluiting vereffening na gerechtelijke ontbindingVoorbeeldAfwijkend standpunt van de heer Michel De Wolf, lid van de Commissie op voordracht van de Minister van Middenstand, gekozen op dubbele lijsten voorgesteld door de representatieve organisaties van de Middenstand 
-
 Aan de Commissie werd de vraag gesteld welke verslaggevingsverplichtingen moeten worden nageleefd bij de ontbinding, gedurende de vereffening en bij de sluiting van de vereffening van VZW’s en IVZW’s onder het Wetboek van Vennootschappen en Verenigingen[^2] (hierna: het WVV). In dit advies wordt bijgevolg de ontbinding van VZW’s en IVZW’s behandeld die gevolgd wordt door een daadwerkelijke vereffeningsperiode. De ontbinding en vereffening van VZW’s en IVZW’s in één akte maakt het voorwerp uit van een afzonderlijk advies van de Commissie[^3].
 
 ## Ontbinding
@@ -155,7 +134,7 @@ Deze ontbindingsvorm impliceert aldus dat de ontbinding van de VZW of IVZW reeds
 
 Ook de ontbinding van rechtswege heeft de afsluiting van het boekjaar tot gevolg[^22], wat in concreto betekent dat het bestuursorgaan, in voorkomend geval, gehouden zal zijn om een jaarrekening op te stellen voor het boekjaar dat met de datum van de ontbinding van rechtswege van de VZW of IVZW eindigt. Deze jaarrekening wordt, net zoals bij de vrijwillige ontbinding[^23], ter goedkeuring aan de algemene vergadering van de VZW of aan het door de statuten aangewezen orgaan van de IVZW voorgelegd om vervolgens openbaar te worden gemaakt. Het is door toedoen van het bestuursorgaan van de VZW of IVZW dat de openbaarmakingsverplichtingen, zoals opgenomen in art. 3:47 WVV, in acht moeten worden genomen[^24].
 
-### Gerechtelijke ontbinding 
+### Gerechtelijke ontbinding
 
 Een VZW of IVZW kan, overeenkomstig het WVV[^25], op verzoek van een lid, van een belanghebbende derde of van het openbaar ministerie door de rechtbank gerechtelijk worden ontbonden indien[^26]:
 
@@ -195,7 +174,7 @@ Ingeval de rechtbank wel een vereffenaar aanstelt, bepaalt de rechtbank de bevoe
 
 Voor de regels van de vereffening na gerechtelijke ontbinding verwijst de Commissie naar hetgeen *supra*, bij punt I.C en II.A, wordt vermeld, inzonderheid art. 2:125-2:126 WVV.
 
-## Sluiting van de vereffening[^49] 
+## Sluiting van de vereffening[^49]
 
 ### Sluiting vereffening na vrijwillige ontbinding
 

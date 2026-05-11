@@ -12,49 +12,49 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere structuur- en stijlproblemen: (1) Regels 62–88: uitgebreide plain-text inhoudsopgave direct na H1 (A3). (2) Headings bevatten extra bold/bold-italic markup binnenin: '## **Toepassingsgebied**', '### ***Tijdstip waarop de subsidie moet geboekt worden***', '### ***Interestsubidies***' — ETL heeft bold-markers niet gestript van heading-tekst (B1-patroon). (3) Regel 343: '### ***Begrip en voorstelling in de jaarrekening** *' — extra spatie vóór sluitende '*' maakt de bold+italic open (D4). (4) Regel 369: '-Inventarisboeking' — ontbrekende spatie na koppelteken maakt dit geen geldige bullet maar een samengekleefde label. (5) Regel 306: '### ***Interestsubidies***' — schrijffout in heading ('Interestsubidies' i.p.v. 'Interestsubsidies')."
+    rationale: "Meerdere ETL-problemen: A3 r62-88 uitgebreide plain-text TOC; B1 r138/r172/r191/r322/r420/r434 headings bevatten italic-markup binnenin (bv. '### *Tijdstip waarop de subsidie moet geboekt worden*', '### *Interestsubidies*'); D4 r199 'post* Kapitaalsubsidies*' — italic-marker midden in woord 'post'; A6 r385 '-Inventarisboeking' ontbrekende spatie na koppelteken (geen geldige bullet). Schrijffout 'Interestsubidies' op r322 is source-typo (wordt als zodanig gemarkeerd). Ondanks omvangrijke correcte inhoud zijn de ETL-structuurproblemen substantieel."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 25
-      max_section_chars: 13822
-      file_size_chars: 41804
+      file_size_chars: 40793
       flags: []
+      heading_count: 25
+      max_section_chars: 13810
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "Meerdere structuur- en stijlproblemen: (1) Regels 62–88: uitgebreide plain-text inhoudsopgave direct na H1 (A3). (2) Headings bevatten extra bold/bold-italic markup binnenin: '## **Toepassingsgebied**', '### ***Tijdstip waarop de subsidie moet geboekt worden***', '### ***Interestsubidies***' — ETL heeft bold-markers niet gestript van heading-tekst (B1-patroon). (3) Regel 343: '### ***Begrip en voorstelling in de jaarrekening** *' — extra spatie vóór sluitende '*' maakt de bold+italic open (D4). (4) Regel 369: '-Inventarisboeking' — ontbrekende spatie na koppelteken maakt dit geen geldige bullet maar een samengekleefde label. (5) Regel 306: '### ***Interestsubidies***' — schrijffout in heading ('Interestsubidies' i.p.v. 'Interestsubsidies')."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "Meerdere ETL-problemen: A3 r62-88 uitgebreide plain-text TOC; B1 r138/r172/r191/r322/r420/r434 headings bevatten italic-markup binnenin (bv. '### *Tijdstip waarop de subsidie moet geboekt worden*', '### *Interestsubidies*'); D4 r199 'post* Kapitaalsubsidies*' — italic-marker midden in woord 'post'; A6 r385 '-Inventarisboeking' ontbrekende spatie na koppelteken (geen geldige bullet). Schrijffout 'Interestsubidies' op r322 is source-typo (wordt als zodanig gemarkeerd). Ondanks omvangrijke correcte inhoud zijn de ETL-structuurproblemen substantieel."
       concrete_problemen:
         - regel: 62
           categorie: A3
           type: other
           voorbeeld: "1. Toepassingsgebied \n2. Algemeen \n  1. Tijdstip waarop de subsidie moet geboekt worden..."
-        - regel: 99
+        - regel: 138
           categorie: B1
           type: other
-          voorbeeld: '## **Toepassingsgebied**'
-        - regel: 122
+          voorbeeld: '### *Tijdstip waarop de subsidie moet geboekt worden*'
+        - regel: 322
           categorie: B1
           type: other
-          voorbeeld: '### ***Tijdstip waarop de subsidie moet geboekt worden***'
-        - regel: 343
+          voorbeeld: '### *Interestsubidies*'
+        - regel: 322
+          categorie: (source)
+          type: source-typo
+          voorbeeld: "Interestsubidies (source-typo: 'Interestsubidies' i.p.v. 'Interestsubsidies')"
+        - regel: 199
           categorie: D4
           type: other
-          voorbeeld: '### ***Begrip en voorstelling in de jaarrekening** *'
-        - regel: 306
-          categorie: B1
-          type: other
-          voorbeeld: '### ***Interestsubidies***'
-        - regel: 369
+          voorbeeld: post* Kapitaalsubsidies* opgenomen onder
+        - regel: 385
           categorie: A6
           type: other
           voorbeeld: -Inventarisboeking
@@ -83,33 +83,6 @@ themas:
 
 # CBN-advies 2011/13 – Overheidssubsidies
 
-1. Toepassingsgebied 
-2. Algemeen 
-  1. Tijdstip waarop de subsidie moet geboekt worden 
-  2. Subsidies in natura 
-
-3. Investeringssubsidies 
-  1. Kapitaalsubsidies 
-    1. Begrip en voorstelling in de jaarrekening (artikel 95 KB W.Venn.) 
-    2. Toerekening van de subsidie aan de resultatenrekening 
-    3. Terugbetaling 
-    4. Particulariteiten 
-
-  2. Interestsubidies 
-    1. Begrip en voorstelling in de jaarrekening 
-    2. Boekhoudkundige verwerking 
-
-4. Exploitatiesubsidies 
-  1. Begrip en voorstelling in de jaarrekening 
-  2. Boekhoudkundige verwerking 
-  3. Toepassingen 
-    1. Gedeeltelijke vrijstelling betaling bedrijfsvoorheffing 
-    2. Particulariteit: overheidssubsidies ter financiering van het bedrijfskapitaal 
-
-5. Subsidies voor kosten van onderzoek en ontwikkeling 
-  1. Toekenning subsidies voor kosten van onderzoek en ontwikkeling 
-  2. Terugbetaling subsidies voor kosten van onderzoek en ontwikkeling 
-
 ## Inleiding
 
 Subsidiëring door de overheid kan uit verschillende reglementeringen voortspruiten en uiteenlopende doelstellingen nastreven. Overheden kunnen, onder vooraf vastgestelde voorwaarden, subsidies verstrekken die aanzetten tot investeren of rechtstreeks het exploitatieresultaat beïnvloeden.
@@ -120,7 +93,7 @@ Onder de term “subsidie” verstaat de Commissie, in het kader van dit advies,
 
 De door de overheid aan een vennootschap toegekende sommen, goederen of diensten kunnen de vorm aannemen van een kapitaalsubsidie, een interestsubsidie of een exploitatiesubsidie.
 
-## **Toepassingsgebied**
+## Toepassingsgebied
 
 Het begrip overheidssubsidies verwijst naar steun door een overheid aan een onderneming indien de onderneming aan bepaalde voorwaarden voldoet.
 
@@ -141,9 +114,9 @@ Zich deels baserend op de rechtspraak van de Raad van State en het Hof van Cassa
 
 Het begrip “overheid” slaat tevens op de internationale en supranationale publiekrechtelijke instellingen, indien deze, *mutatis mutandis*, aan dezelfde vereisten voldoen om als openbare instelling te kwalificeren.
 
-## **Algemeen** 
+## Algemeen
 
-### ***Tijdstip waarop de subsidie moet geboekt worden***
+### *Tijdstip waarop de subsidie moet geboekt worden*
 
 Een subsidie moet niet op datum van de effectieve uitbetaling ervan worden ingeschreven, doch wel op het ogenblik waarop het recht van de onderneming op deze subsidie komt vast te staan en de subsidie redelijkerwijze gewaardeerd kan worden. 
 
@@ -177,7 +150,7 @@ Indien de opschortende voorwaarde met zekerheid niet vervuld is voor het einde v
 
 De Commissie wenst eraan te herinneren dat de beoordeling van het al dan niet onzeker karakter van de vervulling van de voorwaarde, in eerste instantie tot de bevoegdheid van het bestuursorgaan behoort. Een antwoord *in abstracto* kan niet gegeven worden[^9].
 
-### ***Subsidies in natura***
+### *Subsidies in natura*
 
 De subsidies die verkregen worden onder de vorm van goederen, dienen gewaardeerd te worden tegen "werkelijke waarde", zijnde het bedrag waarvoor een actief kan worden verhandeld of een verplichting kan worden afgewikkeld tussen ter zake goed geïnformeerde, onafhankelijke partijen die uit vrije wil een transactie afsluiten. 
 
@@ -185,7 +158,7 @@ De subsidies die verkregen worden onder de vorm van diensten, dienen in beginsel
 
 De subsidies in natura kunnen de vorm aannemen van een investeringssubsidie of een exploitatiesubsidie. De subsidies die worden verkregen onder de vorm van vaste activa, dienen evenwel als kapitaalsubsidies geboekt te worden[^11].
 
-## **Investeringssubsidies**
+## Investeringssubsidies
 
 Investeringssubsidies zijn overheidssubsidies met als voornaamste voorwaarde dat een entiteit die hiervoor in aanmerking komt vaste activa moet kopen, bouwen of anderszins verwerven[^12].
 
@@ -196,9 +169,9 @@ Naargelang van de financieringswijze van de investering komt de overheid tussen:
 
 Het bedrag van de geboekte kapitaal- en interestsubsidies door de overheid toegekend en aangerekend op het resultaat van het boekjaar, dient in de toelichting vermeld te worden.
 
-### ***Kapitaalsubsidies***
+### *Kapitaalsubsidies*
 
-#### **Begrip en voorstelling in de jaarrekening (artikel 95 KB W.Venn.)**
+#### Begrip en voorstelling in de jaarrekening (artikel 95 KB W.Venn.)
 
 Het KB W.Venn. definieert het begrip kapitaalsubsidie niet. Artikel 95 KB W.Venn. bepaalt enkel dat de passiefpost VI. *Kapitaalsubsidies* de kapitaalsubsidies omvat die van overheidswege[^13] werden verkregen voor investeringen in vaste activa, na aftrek van de uitgestelde belastingen op deze subsidies. Deze uitgestelde belastingen worden, voor zover van toepassing[^14], opgenomen in de passiefpost VII.B. *Uitgestelde belastingen*.
 
@@ -212,7 +185,7 @@ De eventuele uitgestelde belastingen op deze kapitaalsubsidies worden oorspronke
 
 De uitgestelde belastingen op de *kapitaalsubsidies* worden eveneens geleidelijk afgeboekt, gelijkmatig met de *kapitaalsubsidies* waarop ze betrekking hebben. Dit gebeurt via overboeking naar de post *Onttrekkingen aan de uitgestelde belastingen van de resultatenrekening*[^17]. 
 
-#### **Toerekening van de subsidie aan de resultatenrekening**
+#### Toerekening van de subsidie aan de resultatenrekening
 
 *Afschrijfbare activa*
 
@@ -258,7 +231,7 @@ Boeking bij toerekening van de subsidie aan de resultatenrekening:
 | aan | 753 | Kapitaal- en interestsubsidies | | |
 | | [780 | Onttrekkingen aan de uitgestelde belastingen] | | |
 
-#### **Terugbetaling**
+#### Terugbetaling
 
 Indien de onderneming (een deel van) de kapitaalsubsidie dient terug te betalen (bijvoorbeeld omdat de voorwaarden niet langer worden nageleefd), zal dit in de boekhouding tot uitdrukking moeten worden gebracht.
 
@@ -315,7 +288,7 @@ Boeking op het ogenblik van de terugbetaling van de helft van de kapitaalsubsidi
 | | 489 | Andere diverse schulden | 2.500 | |
 | aan | 55 | Kredietinstellingen | | 2.500 |
 
-#### **Particulariteiten**
+#### Particulariteiten
 
 *Fusies en (partiële) splitsingen*
 
@@ -327,9 +300,9 @@ Een vennootschap die een algemeenheid van goederen of een bedrijfstak inbrengt, 
 Artikel 81 KB W.Venn. bepaalt dat bij inbreng van een bedrijfsafdeling of een algemeenheid van goederen zoals gedefinieerd in de artikelen 678 en 679 van het Wetboek van Vennootschappen, de ingebrachte activa, passiva, rechten en verplichtingen in de boekhouding worden opgenomen van de vennootschap waarin de inbreng gebeurt, tegen de waarde waarvoor zij op het tijdstip van de inbreng in de boekhouding van de inbrengende vennootschap voorkwamen.
 Indien een gesubsidieerd actief deel uitmaakt van een inbreng van een bedrijfsafdeling of van een algemeenheid van goederen, dient de kapitaalsubsidie bijgevolg uitgeboekt te worden bij de inbrengende vennootschap en voor hetzelfde bedrag terug te worden aangelegd bij de vennootschap waarin de inbreng gebeurt[^27].
 Deze kapitaalsubsidie dient in resultaat genomen te worden bij de verkrijgende vennootschap pro rata de afschrijvingen van het gesubsidieerde actief.
-### ***Interestsubidies***
+### *Interestsubidies*
 
-#### **Begrip en voorstelling in de jaarrekening**
+#### Begrip en voorstelling in de jaarrekening
 
 De overheid kan, in het kader van haar politiek ter bevordering van de investeringen, tussenkomen in de lasten van financiering van de investering. Zij betaalt derhalve een deel van de interestlast terug aan de onderneming.
 
@@ -337,7 +310,7 @@ In toepassing van het beginsel van niet-compensatie mogen interestsubsidies niet
 
 Als een interestsubsidie ineens wordt uitbetaald, maar betrekking heeft op een over meerdere jaren gespreide investering, dan moet de interestsubsidie – gelet op het ‘matching principe’ en het beginsel van het getrouw beeld – gespreid in resultaat worden genomen parallel met de intresten waarop ze betrekking heeft.
 
-#### **Boekhoudkundige verwerking**
+#### Boekhoudkundige verwerking
 
 - Boeking op het ogenblik dat het recht op de interestsubsidie komt vast te staan: 
 
@@ -362,9 +335,9 @@ Indien de geboekte interestsubsidie gedeeltelijk betrekking heeft op volgende bo
 | | 753 | Kapitaal- en interestsubsidies | | |
 | aan | 493 | Over te dragen opbrengsten | | |
 
-## **Exploitatiesubsidies**
+## Exploitatiesubsidies
 
-### ***Begrip en voorstelling in de jaarrekening** *
+### *Begrip en voorstelling in de jaarrekening* 
 
 Exploitatiesubsidies zijn subsidies die niet afhankelijk zijn van een investering in vaste activa. Het betreft bedragen die door de overheid aan een entiteit worden toegekend om bepaalde exploitatiekosten te compenseren of te dekken. Artikel 95 KB W.Venn. bepaalt dat de kapitaalsubsidies die niet afhankelijk zijn van een investering in vaste activa worden geboekt als bedrijfsopbrengsten of financiële opbrengsten in de resultatenrekening. 
 
@@ -374,7 +347,7 @@ Indien de effectieve toekenning van de exploitatiesubsidie niet samenvalt met de
 
 Het totaal bedrag van de subsidies (andere dan investeringssubsidies) dient in de toelichting vermeld te worden.
 
-### ***Boekhoudkundige verwerking***
+### *Boekhoudkundige verwerking*
 
 - Boeking op het ogenblik dat het recht op de exploitatiesubsidie komt vast te staan: 
 
@@ -411,7 +384,7 @@ Overheidssubsidies die worden toegekend ter ondersteuning van bedrijven die als 
 
 Naar het oordeel van de Commissie vertoont zo’n subsidie het kenmerk van een financiële opbrengst. Het is immers de bedoeling van de subsidiërende overheid om via een financiële tegemoetkoming bij te dragen tot de financiering van de voorraden en vorderingen (i.e. van het bedrijfskapitaal) van de onderneming. Een boeking onder de rubriek IV.C. *Andere financiële opbrengsten* is derhalve aangewezen met een uitdrukkelijke vermelding in de toelichting (*cf.* Staat XIII, A van het volledig schema).
 
-## **Subsidies voor kosten van onderzoek en ontwikkeling**
+## Subsidies voor kosten van onderzoek en ontwikkeling
 
 Overeenkomstig artikel 95 KB W.Venn. kunnen als kosten van onderzoek en ontwikkeling onder de immateriële vaste activa worden geboekt de kosten van onderzoek, vervaardiging en ontwikkeling van prototypes en van producten, uitvindingen en knowhow, die nuttig zijn voor de ontwikkeling van de toekomstige activiteiten van de onderneming. 
 
@@ -425,7 +398,7 @@ Wanneer voor alle of sommige van deze kosten de in het besluit bepaalde voorwaar
 
 Anderzijds worden de in het kader van dit onderzoek verworven materiële vaste activa (gebouwen, laboratoria, materiaal, enz.) volgens de normale regels rechtstreeks op de desbetreffende actiefpost van de materiële vaste activa geboekt en wordt hun kostprijs geleidelijk ten laste genomen via afschrijvingen. 
 
-### ***Toekenning subsidies voor kosten van onderzoek en ontwikkeling***
+### *Toekenning subsidies voor kosten van onderzoek en ontwikkeling*
 
 Vaak worden de kosten voor onderzoek en ontwikkeling gesubsidieerd door de overheid[^31]. De voorwaarden voor het toekennen van deze subsidies kunnen verschillen en hangen af van het wettelijk kader waarbinnen de subsidie werd toegekend en van diverse bijzondere bepalingen. Bij het tot uiting brengen van deze subsidies in de boekhouding zal derhalve rekening moeten worden gehouden met de aard van de subsidie en met de toekenningsvoorwaarden. 
 
@@ -439,7 +412,7 @@ De wijze waarop de kosten van onderzoek en ontwikkeling worden geactiveerd (name
 
 De toerekening van de kapitaalsubsidie aan de resultatenrekening moet bovendien gelijkmatig geschieden met de tenlasteneming van de kosten van onderzoek en ontwikkeling. 
 
-### ***Terugbetaling subsidies voor kosten van onderzoek en ontwikkeling***
+### *Terugbetaling subsidies voor kosten van onderzoek en ontwikkeling*
 
 Soms moet een subsidie geheel of gedeeltelijk of zelfs ten belope van het dubbel van het ontvangen bedrag worden terugbetaald zodra de kosten van onderzoek en ontwikkeling hebben geleid tot de realisatie van een bepaalde omzet of winst. 
 

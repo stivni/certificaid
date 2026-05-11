@@ -3,50 +3,54 @@ bron: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-
 datum: 2019-11-13
 nummer: CBN-advies 2019/14
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
-      sha256: 317be01978f6d7661cb8f62f4084a59221307bf02a12f6e9eea3814bb9fe71ad
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
+    sha256: 317be01978f6d7661cb8f62f4084a59221307bf02a12f6e9eea3814bb9fe71ad
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 13
-      max_section_chars: 5783
-      file_size_chars: 13851
+      file_size_chars: 13844
       flags: []
+      heading_count: 12
+      max_section_chars: 5783
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Geen extractie-artefacten. Heading-hiërarchie correct, rekeningschema correct als ingesprongen blok, journaalboekingen als pipe-tabellen goed weergegeven. Inhoud compleet van inleiding tot opt-in en statutenaanpassing.
+      rationale: Geen extractie-artefacten. Heading-hiërarchie correct, rekeningschema
+        correct als ingesprongen blok, journaalboekingen als pipe-tabellen goed weergegeven.
+        Inhoud compleet van inleiding tot opt-in en statutenaanpassing.
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: Geen extractie-artefacten. Heading-hiërarchie correct, rekeningschema correct als ingesprongen blok, journaalboekingen als pipe-tabellen goed weergegeven. Inhoud compleet van inleiding tot opt-in en statutenaanpassing.
+    rationale: Geen extractie-artefacten. Heading-hiërarchie correct, rekeningschema
+      correct als ingesprongen blok, journaalboekingen als pipe-tabellen goed weergegeven.
+      Inhoud compleet van inleiding tot opt-in en statutenaanpassing.
     status: trusted
 themas:
-  - besloten vennootschap
-  - kapitaal
-  - inbreng
-  - inbreng buiten kapitaal
-  - beschikbare inbreng buiten kapitaal
-  - onbeschikbare inbreng buiten kapitaal
-  - statutair onbeschikbare eigen vermogensrekening
-  - externe inbreng
-  - interne inbreng
-  - omvorming kapitaal
-  - wettelijke reserve
-  - opt-in
+- besloten vennootschap
+- kapitaal
+- inbreng
+- inbreng buiten kapitaal
+- beschikbare inbreng buiten kapitaal
+- onbeschikbare inbreng buiten kapitaal
+- statutair onbeschikbare eigen vermogensrekening
+- externe inbreng
+- interne inbreng
+- omvorming kapitaal
+- wettelijke reserve
+- opt-in
 ---
 
 # CBN-advies 2019/14 – Van een kapitaalhoudende BVBA naar een kapitaalloze BV
@@ -118,8 +122,6 @@ Ingevolge de omvorming vinden aldus de volgende boekingen plaats:
 | | 130 | Wettelijke reserves | XXX | |
 | aan | 1311 | Statutair onbeschikbare reserves | | XXX |
 
-### 
-
 ### Opvraging niet-gestorte inbreng
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -138,7 +140,7 @@ Ingevolge de omvorming vinden aldus de volgende boekingen plaats:
 
 Een BVBA kan zich evenwel vrijwillig vroeger onderwerpen aan de bepalingen van het WVV vóór 1 januari 2020. Die beslissing vereist een statutenwijziging. In dat geval wordt het WVV op haar van toepassing vanaf de dag van de bekendmaking van deze statutenwijziging.[^18] 
 
-### Aanpassing van de statuten 
+### Aanpassing van de statuten
 
 De formele aanpassing van de statuten[^19] van een BVBA die een BV wordt, vindt plaats op een datum die bepaald wordt in functie van de toestand waarin de vennootschap zich bevindt:
 

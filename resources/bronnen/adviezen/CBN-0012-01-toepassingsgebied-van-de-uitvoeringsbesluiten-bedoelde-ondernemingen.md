@@ -16,32 +16,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:16:01Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D1: spelfout 'oger' (r61, moet 'hoger' zijn) staat nog steeds in de body — dit is een bron-fout die bij de scraper-fix niet is gecorrigeerd. A6-bug (zin gesplitst na footnote-referentie) lijkt verholpen: de zin 'In zijn antwoord op een parlementaire vraag[^1] over de al dan niet cumulatieve aard...' staat nu op één regel (r63). A4-status kan niet zonder hex-inspectie worden bevestigd. De 'verouderd'-notitie (r59) bevat de bulletin-verwijzing als aparte paragraaf; dit is een lichte structuuronduidelijkheid maar geen blocker."
+    rationale: "Enige door vorige verdict gemelde issue: 'oger is dan 25 miljoen frank' (r53, moet 'hoger' zijn) — source-typo letterlijk in bron-HTML. A6-bug (zin gesplitst) is verholpen. Inhoud volledig, voetnoot correct. Geen ETL-bugs aangetroffen."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 1709
       file_size_chars: 1709
       flags: []
+      heading_count: 0
+      max_section_chars: 1709
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:01Z'
-      rationale: "D1: spelfout 'oger' (r61, moet 'hoger' zijn) staat nog steeds in de body — dit is een bron-fout die bij de scraper-fix niet is gecorrigeerd. A6-bug (zin gesplitst na footnote-referentie) lijkt verholpen: de zin 'In zijn antwoord op een parlementaire vraag[^1] over de al dan niet cumulatieve aard...' staat nu op één regel (r63). A4-status kan niet zonder hex-inspectie worden bevestigd. De 'verouderd'-notitie (r59) bevat de bulletin-verwijzing als aparte paragraaf; dit is een lichte structuuronduidelijkheid maar geen blocker."
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: "Enige door vorige verdict gemelde issue: 'oger is dan 25 miljoen frank' (r53, moet 'hoger' zijn) — source-typo letterlijk in bron-HTML. A6-bug (zin gesplitst) is verholpen. Inhoud volledig, voetnoot correct. Geen ETL-bugs aangetroffen."
       concrete_problemen:
-        - regel: 61
-          categorie: D1
-          type: other
-          voorbeeld: het totaal van hun balans bij het einde van het boekjaar niet oger is dan 25 miljoen frank
+        - regel: 53
+          categorie: (source)
+          type: source-typo
+          voorbeeld: niet oger is dan 25 miljoen frank — source-typo voor 'hoger'
 themas:
   - uitvoerend beslag
 ---

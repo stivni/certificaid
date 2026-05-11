@@ -25,28 +25,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-11T13:23:03Z'
+    status: needs-rework
+    confirmed_at: '2026-05-11T15:19:35Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Geen headings (heading_count: 0) is correct voor dit proza-advies — het bevat geen subsecties. Inhoud volledig: drie methoden voor waarderingsopsplitsing uitgebreid behandeld. Geen zichtbare ETL-artefacten. 'snel volg' (regel 79) lijkt een werkwoord zonder -t — waarschijnlijk een brontekst-fout, geen extractie-artefact."
+    rationale: "B5/B2: regel 81 bevat '## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / ...]' — een rekenformule is als ## heading gemarkeerd terwijl een mens dit als vetgedrukte inline-tekst of code-blok zou schrijven; geen sectietitel. Verder geen andere extractie-artefacten: inhoud volledig, één H1, tekst leesbaar."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 6404
       file_size_chars: 6404
       flags: []
+      heading_count: 0
+      max_section_chars: 6404
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
+      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:03Z'
-      rationale: "Geen headings (heading_count: 0) is correct voor dit proza-advies — het bevat geen subsecties. Inhoud volledig: drie methoden voor waarderingsopsplitsing uitgebreid behandeld. Geen zichtbare ETL-artefacten. 'snel volg' (regel 79) lijkt een werkwoord zonder -t — waarschijnlijk een brontekst-fout, geen extractie-artefact."
-      concrete_problemen: []
+      run_at: '2026-05-11T15:19:35Z'
+      rationale: "B5/B2: regel 81 bevat '## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / ...]' — een rekenformule is als ## heading gemarkeerd terwijl een mens dit als vetgedrukte inline-tekst of code-blok zou schrijven; geen sectietitel. Verder geen andere extractie-artefacten: inhoud volledig, één H1, tekst leesbaar."
+      concrete_problemen:
+        - regel: 81
+          categorie: B5
+          type: other
+          voorbeeld: '## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / (koers...'
 themas:
   - financiële vaste activa
   - inschrijvingsrecht
@@ -75,7 +79,8 @@ Volgens een tweede methode wordt de fractie bepaald van de aanschaffingswaarde d
 
 De boekwaarde van de warrant zal volgens de volgende formule worden berekend: 
 
-aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / (koers van de obligatie ex-warrant + koers van de warrant)]
+## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / (koers van de obligatie ex-warrant + koers van de warrant)]
+
 Deze benadering, waarin wordt verondersteld dat beide effecten zijn genoteerd, kan worden gevolgd voor zover de afzondering van de warrant en de afzonderlijke notering van de twee effecten snel volg op de uitgifteperiode van de obligatie met warrant. In dat geval kan zij als extern uitgangspunt (de koers) dienen voor de volgende methode. 
 
 In een derde methode wordt ernaar gestreefd de aanschaffingswaarde van de vordering en van de warrant van bij het begin te bepalen. Bij het vaststellen van de uitgiftevoorwaarden is er immers een duidelijk onderling verband tussen de nominale rentevoet van de obligatie en de voorwaarden voor de uitoefening van de warrants. Bij voordelige uitoefeningsvoorwaarden voor de houder van de warrant, kan voor de obligaties een lagere rentevoet worden vastgesteld dan de marktrente voor gewone obligaties met dezelfde kenmerken. 

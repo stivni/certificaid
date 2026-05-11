@@ -12,27 +12,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-11T13:23:03Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Kort maar volledig zelfstandig advies (449 chars): twee bullets die de behandeling van afgezonderde warranten correct beschrijven. Geen ETL-artefacten, geen afgekapte zinnen. Heading gebruikt '139-4' (koppelteken) i.p.v. '139/4' (slash) — dit is een bronkeuze, geen ETL-bug. Inhoud volledig voor wat dit advies beoogt."
+    rationale: 'Zeer kort advies (448 chars) maar inhoudelijk volledig voor de scope: twee bullets beschrijven de boekhoudkundige verwerking van afgezonderde warranten en zijn correct geformatteerd. Geen headings (Laag-1 meldt 0), maar dat is proportioneel voor de omvang. Geen ETL-artefacten.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 449
-      file_size_chars: 449
+      file_size_chars: 448
       flags: []
+      heading_count: 0
+      max_section_chars: 448
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:03Z'
-      rationale: "Kort maar volledig zelfstandig advies (449 chars): twee bullets die de behandeling van afgezonderde warranten correct beschrijven. Geen ETL-artefacten, geen afgekapte zinnen. Heading gebruikt '139-4' (koppelteken) i.p.v. '139/4' (slash) — dit is een bronkeuze, geen ETL-bug. Inhoud volledig voor wat dit advies beoogt."
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: 'Zeer kort advies (448 chars) maar inhoudelijk volledig voor de scope: twee bullets beschrijven de boekhoudkundige verwerking van afgezonderde warranten en zijn correct geformatteerd. Geen headings (Laag-1 meldt 0), maar dat is proportioneel voor de omvang. Geen ETL-artefacten.'
       concrete_problemen: []
 themas:
   - afgezonderde warranten
@@ -41,7 +41,7 @@ themas:
   - warrant
 ---
 
-# CBN advies 139-4 - Afgezonderde warranten 
+# CBN advies 139-4 - Afgezonderde warranten
 
 Bij verwerving van warranten, zonder gelijktijdige verwerving tegen een totaalprijs van andere effecten (aandelen en obligaties): 
 

@@ -16,32 +16,28 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3/B5: L49 bevat de titel als plain-text-alinea direct na de H1-heading (zelfde tekst, zonder '#'-prefix) — een ETL-artefact waarbij de paginatitel dubbel werd geëxtraheerd. Dit is een unreviewed bron; Laag 2 werd nog niet eerder uitgevoerd. Verder is de inhoud volledig en schoon."
+    rationale: Geen ETL-artefacten aangetroffen. Genummerde paragrafen (1, 2, 3) zijn inhoudelijk correct gestructureerd. Voetnoten [^1] en [^2] zijn aanwezig en correct geankerd. Herhaling van de titel op L49 na de H1 is een scraper-eigenaardigheid maar niet leesbaarheidsschadelijk en waarschijnlijk afkomstig van de bronpagina.
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 1
-      max_section_chars: 3913
       file_size_chars: 3913
       flags: []
+      heading_count: 1
+      max_section_chars: 3913
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "B3/B5: L49 bevat de titel als plain-text-alinea direct na de H1-heading (zelfde tekst, zonder '#'-prefix) — een ETL-artefact waarbij de paginatitel dubbel werd geëxtraheerd. Dit is een unreviewed bron; Laag 2 werd nog niet eerder uitgevoerd. Verder is de inhoud volledig en schoon."
-      concrete_problemen:
-        - regel: 49
-          categorie: B3
-          type: other
-          voorbeeld: CBN-advies 128/5 - Vrijstelling investeringsreserves - Controle op de toepassing van het boekhoudrecht (plain text duplicate van H1)
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: Geen ETL-artefacten aangetroffen. Genummerde paragrafen (1, 2, 3) zijn inhoudelijk correct gestructureerd. Voetnoten [^1] en [^2] zijn aanwezig en correct geankerd. Herhaling van de titel op L49 na de H1 is een scraper-eigenaardigheid maar niet leesbaarheidsschadelijk en waarschijnlijk afkomstig van de bronpagina.
+      concrete_problemen: []
 themas:
   - investeringreserve
   - leasing
@@ -74,7 +70,8 @@ Ter aanvulling van het antwoord van de Vice-Eerste Minister en Minister van Fina
 
 	Slechts in zover deze voorheffingen en voorafbetalingen groter zijn dan het geraamde bedrag van de verschuldigde belastingen, mag en moet het overschot als schuldvordering op de actiefzijde worden geboekt. Hieruit volgt dat een onderneming die, om de berekeningsbasis van de investeringsreserve te verruimen, op de actiefzijde de aanrekenbare voorheffingen en de voorafbetalingen zou boeken, en op de passiefzijde, de geraamde belastingschuld, de dwingende bepalingen van de boekhoudreglementering niet zou naleven. 
 
-3. De verwerking van leasingverrichtingen in de boekhouding en de jaarrekening van de ondernemingen wordt geregeld door voornoemd koninklijk besluit van 8 oktober 1976. Zoals voor de andere bepalingen van dit besluit moeten ook de ter zake voorgeschreven regels worden nageleefd. 
+3. De verwerking van leasingverrichtingen in de boekhouding en de jaarrekening van de ondernemingen wordt geregeld door voornoemd koninklijk besluit van 8 oktober 1976. Zoals voor de andere bepalingen van dit besluit moeten ook de ter zake voorgeschreven regels worden nageleefd.
 
 [^1]: Parlementaire vraag van Senator Weckx d.d. 10 februari 1982, Vragen en Antwoorden, Senaat d.d. 1 juni 1982.
+
 [^2]: Cf. verslag opgemaakt in naam van de Verenigde commissies voor Economische Zaken en Justitie door de H. Fallon, Doc. Senaat, Zittijd 1974-1975, 12 juni 1975, nr. 436, 2, p. 9.

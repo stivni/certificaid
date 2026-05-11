@@ -25,45 +25,45 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Bevestiging van bestaand verdict + aanvullend B5-probleem: regel 138 bevat `Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen` als plain-text-alinea zonder heading-prefix, terwijl het duidelijk een subsectie-kop betreft (vergelijk directe buren #### Rekening 6710... enz.). D4: stelselmatige malformed italic door het hele document bij rekeningnamen (spatie voor sluitende asterisk).'
+    rationale: 'Bevestiging van bestaand verdict. B5: regel 157 bevat `Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen` als plain-text alinea zonder heading-prefix, terwijl omliggende subrekeningen elk een `####`-heading hebben. D4: stelselmatige malformed italic bij rekeningnamen (spatie vóór sluitende asterisk) op minstens regels 121, 135, 155, 164, 190 en 261.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 42
-      max_section_chars: 21167
       file_size_chars: 45124
       flags: []
+      heading_count: 42
+      max_section_chars: 21167
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: 'Bevestiging van bestaand verdict + aanvullend B5-probleem: regel 138 bevat `Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen` als plain-text-alinea zonder heading-prefix, terwijl het duidelijk een subsectie-kop betreft (vergelijk directe buren #### Rekening 6710... enz.). D4: stelselmatige malformed italic door het hele document bij rekeningnamen (spatie voor sluitende asterisk).'
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'Bevestiging van bestaand verdict. B5: regel 157 bevat `Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen` als plain-text alinea zonder heading-prefix, terwijl omliggende subrekeningen elk een `####`-heading hebben. D4: stelselmatige malformed italic bij rekeningnamen (spatie vóór sluitende asterisk) op minstens regels 121, 135, 155, 164, 190 en 261.'
       concrete_problemen:
-        - regel: 138
+        - regel: 157
           categorie: B5
           type: other
           voorbeeld: Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen
-        - regel: 97
+        - regel: 121
           categorie: D4
           type: other
-          voorbeeld: rekening 450 *Geraamd bedrag der belastingschulden*... rekening 6702 *Geraamde belastingen *wordt
-        - regel: 129
+          voorbeeld: rekening 640* Bedrijfsbelastingen*. Als tweede voorbeeld
+        - regel: 135
           categorie: D4
           type: other
-          voorbeeld: een verantwoorde waardering van deze *vordering *vereist
+          voorbeeld: daartoe gecreëerd een rekening 6703* Gevormde fiscale voorziening*
         - regel: 155
           categorie: D4
           type: other
           voorbeeld: rekening 640 *Bedrijfsbelastingen *wanneer ze negatief is
-        - regel: 243
+        - regel: 261
           categorie: D4
           type: other
           voorbeeld: fictief karakter van de *vordering *op de overheid

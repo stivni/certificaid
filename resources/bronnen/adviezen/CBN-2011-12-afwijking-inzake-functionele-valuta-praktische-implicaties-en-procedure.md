@@ -25,27 +25,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Regels 70–72: plain-text inhoudsopgave direct na H1 (A3) — drie genummerde punten die de drie ## secties van het advies nabootsen maar geen headings zijn. Verder is het advies structureel correct: vier headings op ## niveau, voetnoten 1–9 volledig gedefinieerd en gerefereerd, geen tabellen, geen OCR-artefacten.'
+    rationale: 'A3 bevestigd: r70-72 plain-text inhoudsopgave direct na H1 — drie genummerde punten die de drie ## secties nabootsen maar geen headings zijn. Verder structureel correct: vier headings op ## niveau, voetnoten 1-9 volledig gedefinieerd en gerefereerd, geen tabellen, geen OCR-artefacten.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 8490
+      flags: []
       heading_count: 4
       max_section_chars: 3161
-      file_size_chars: 8819
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: 'Regels 70–72: plain-text inhoudsopgave direct na H1 (A3) — drie genummerde punten die de drie ## secties van het advies nabootsen maar geen headings zijn. Verder is het advies structureel correct: vier headings op ## niveau, voetnoten 1–9 volledig gedefinieerd en gerefereerd, geen tabellen, geen OCR-artefacten.'
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: 'A3 bevestigd: r70-72 plain-text inhoudsopgave direct na H1 — drie genummerde punten die de drie ## secties nabootsen maar geen headings zijn. Verder structureel correct: vier headings op ## niveau, voetnoten 1-9 volledig gedefinieerd en gerefereerd, geen tabellen, geen OCR-artefacten.'
       concrete_problemen:
         - regel: 70
           categorie: A3
@@ -70,10 +70,6 @@ themas:
 ---
 
 # CBN-advies 2011/12 - Afwijking inzake functionele valuta: praktische implicaties en procedure
-
-1. Omrekening van activa, passiva, kosten en opbrengsten naar aanleiding van het verkrijgen van de afwijking inzake functionele valuta tijdens het boekjaar 
-2. Afwijkingsaanvragen ingediend door vennootschappen die nog geen jaarrekening neergelegd hebben 
-3. Aanvragen tot verlenging van de afwijking inzake functionele valuta 
 
 ## Inleiding
 

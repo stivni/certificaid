@@ -16,36 +16,28 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3-variant: twee H1-headings bovenaan het bestand (L61 en L63). De eerste is de titels ('# CBN advies 137/9 - Actualisering...'), de tweede is een datumregel ('# Advies van februari 1993, bijgewerkt op 10 september 2025[^1]') die als H1 gerenderd is — een structuurartefact; een bijwerkingsdatum hoort plain text of een subtitle te zijn, niet een tweede H1. Inhoud verder volledig en correct afgerond."
+    rationale: 'Kort advies (1759 chars, 1 heading) zonder ETL-artefacten. Inhoud volledig: de vraag, het antwoord van de Commissie en de wettelijke onderbouwing zijn aanwezig. Voetnoot correct geformatteerd als [^1]. Geen A-G-categorie problemen aangetroffen.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 1759
       file_size_chars: 1759
       flags: []
+      heading_count: 1
+      max_section_chars: 1759
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "B3-variant: twee H1-headings bovenaan het bestand (L61 en L63). De eerste is de titels ('# CBN advies 137/9 - Actualisering...'), de tweede is een datumregel ('# Advies van februari 1993, bijgewerkt op 10 september 2025[^1]') die als H1 gerenderd is — een structuurartefact; een bijwerkingsdatum hoort plain text of een subtitle te zijn, niet een tweede H1. Inhoud verder volledig en correct afgerond."
-      concrete_problemen:
-        - regel: 61
-          categorie: B3
-          type: other
-          voorbeeld: '# CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)'
-        - regel: 63
-          categorie: B3
-          type: other
-          voorbeeld: '# Advies van februari 1993, bijgewerkt op 10 september 2025[^1] (datumregel als H1)'
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: 'Kort advies (1759 chars, 1 heading) zonder ETL-artefacten. Inhoud volledig: de vraag, het antwoord van de Commissie en de wettelijke onderbouwing zijn aanwezig. Voetnoot correct geformatteerd als [^1]. Geen A-G-categorie problemen aangetroffen.'
+      concrete_problemen: []
 themas:
   - Vorderingen met een abnormaal lage rente
   - waardering
@@ -60,7 +52,7 @@ themas:
 
 # CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)
 
-# Advies van februari 1993, bijgewerkt op 10 september 2025[^1] 
+## Advies van februari 1993, bijgewerkt op 10 september 2025[^1]
 
 Aan de Commissie werd gevraagd of ondernemingen op grond van de boekhoudwetgeving hun vorderingen en schulden op korte termijn mogen waarderen tegen hun actuele waarde, dus na actualisering. 
 

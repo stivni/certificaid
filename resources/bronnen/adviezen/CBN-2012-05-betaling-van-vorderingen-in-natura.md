@@ -2,76 +2,67 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/betaling-van-vorderingen-in-natura
 datum: 2012-02-15
 gerelateerde_adviezen:
-  - datum: '2025-06-10'
-    titel: Klassering van de vorderingen bij faillissement van de schuldenaar (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar-update-ontwerp
-  - datum: '2021-12-06'
-    titel: Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
-    url: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
-  - datum: '2016-07-06'
-    titel: 'Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn. door het koninklijk besluit van 18 december 2015'
-    url: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
-  - datum: '2011-10-05'
-    titel: De boekhoudkundige verwerking van factoringovereenkomsten
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
+- datum: '2025-06-10'
+  titel: Klassering van de vorderingen bij faillissement van de schuldenaar (update)
+    [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/klassering-van-de-vorderingen-bij-faillissement-van-de-schuldenaar-update-ontwerp
+- datum: '2021-12-06'
+  titel: Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
+  url: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
+- datum: '2016-07-06'
+  titel: 'Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn.
+    door het koninklijk besluit van 18 december 2015'
+  url: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
+- datum: '2011-10-05'
+  titel: De boekhoudkundige verwerking van factoringovereenkomsten
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
 nummer: CBN-advies 2012/5
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/betaling-van-vorderingen-in-natura
-      sha256: b6becb28377bf7a9825c8260f33f2666068c9283a33ae494dc8007ab3e099751
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/betaling-van-vorderingen-in-natura
+    sha256: b6becb28377bf7a9825c8260f33f2666068c9283a33ae494dc8007ab3e099751
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 5
-      max_section_chars: 3539
-      file_size_chars: 6753
+      file_size_chars: 5981
       flags: []
+      heading_count: 4
+      max_section_chars: 3539
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale:
-      run_at:
+      rationale: null
+      run_at: null
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
     status: trusted
 themas:
-  - vordering
-  - inbetalinggeving
+- vordering
+- inbetalinggeving
 ---
 
 # CBN-advies 2012/5 – Betaling van vorderingen in natura
 
-CBN-advies 2012/5 – Betaling van vorderingen in natura 
-
-1. Inbetalinggeving door levering van een goed 
-  1. Het in betaling gegeven goed is een materieel vast actief 
-  2. Het in betaling gegeven goed is een vlottend actief 
-
-2. Inbetalinggeving door levering van een dienst 
-
-### 
 Inleiding
 
 De Commissie wenst in dit advies de betaling van een vordering in natura te behandelen. De betaling kan omschreven worden als de rechtshandeling waardoor de schuldenaar zijn verbintenis uitvoert. Een bijzondere vorm van betaling is de zogenaamde *inbetalinggeving*: de schuldenaar kan er bijvoorbeeld voor opteren om een goed te leveren of een dienst te verstrekken ter betaling[^1].
 
 Er is slechts sprake van inbetalinggeving indien er aan een aantal voorwaarden cumulatief wordt voldaan[^2]:
-
-1. de prestatie of de zaak die geleverd wordt bij wijze van betaling moet vooreerst verschillen van de oorspronkelijk verschuldigde zaak of prestatie; 
-2. de levering van de zaak of de prestatie moet bovendien gebeuren met het oog op betaling, m.a.w. met de bedoeling een bestaande verbintenis uit te voeren. Ze moet met andere woorden gebeuren met de bedoeling de schuldenaar te bevrijden; 
-3. de inbetalinggeving betreft een overeenkomst en veronderstelt dus wederzijdse toestemming. 
 
 Binnen de rechtsleer bestaat er geen duidelijkheid omtrent het feit of de inbetalinggeving al dan niet schuldvernieuwing tot gevolg heeft, dan wel een overeenkomst is over de wijze van betalen. Voor de verdere boekhoudkundige uitwerking van de inbetalinggeving zal dit onderscheid volgens de Commissie weinig gevolgen hebben.
 

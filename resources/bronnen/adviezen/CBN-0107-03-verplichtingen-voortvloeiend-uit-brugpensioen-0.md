@@ -2,57 +2,61 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen-0
 datum: 1986-07-19
 gerelateerde_adviezen:
-  - datum: '2019-03-05'
-    titel: Voorzieningen
-    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-  - datum: '1993-02-01'
-    titel: Voorzieningen voor geïndexeerde pensioenen en brugpensioenen
-    url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
-  - datum: '1988-12-01'
-    titel: Vaststelling van het bedrag van een voorziening voor pensioenen of brugpensioenen
-    url: https://www.cbn-cnc.be/nl/adviezen/vaststelling-van-het-bedrag-van-een-voorziening-voor-pensioenen-of-brugpensioenen
-  - datum: '1980-01-01'
-    titel: Verplichtingen voortvloeiend uit brugpensioen
-    url: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen
+- datum: '2019-03-05'
+  titel: Voorzieningen
+  url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+- datum: '1993-02-01'
+  titel: Voorzieningen voor geïndexeerde pensioenen en brugpensioenen
+  url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
+- datum: '1988-12-01'
+  titel: Vaststelling van het bedrag van een voorziening voor pensioenen of brugpensioenen
+  url: https://www.cbn-cnc.be/nl/adviezen/vaststelling-van-het-bedrag-van-een-voorziening-voor-pensioenen-of-brugpensioenen
+- datum: '1980-01-01'
+  titel: Verplichtingen voortvloeiend uit brugpensioen
+  url: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen
 nummer: CBN-advies 107/3 bis
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen-0
-      sha256: 373f4f7f7f5ae4191a73a94e8827c04332b5eea7cf27a57ed171e2b06fe76725
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen-0
+    sha256: 373f4f7f7f5ae4191a73a94e8827c04332b5eea7cf27a57ed171e2b06fe76725
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bug D4 (voetnootmarker [^1] op eigen regel met leading spatie) is opgelost: body regel 64 toont 'In een vorig advies[^1] onderstreepte de Commissie dat...' correct inline. Inhoud volledig. Geen andere artefacten."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 1930
       file_size_chars: 1930
       flags: []
+      heading_count: 0
+      max_section_chars: 1930
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "Bug D4 (voetnootmarker [^1] op eigen regel met leading spatie) is opgelost: body regel 64 toont 'In een vorig advies[^1] onderstreepte de Commissie dat...' correct inline. Inhoud volledig. Geen andere artefacten."
       concrete_problemen: []
+      rationale: 'Bug D4 (voetnootmarker [^1] op eigen regel met leading spatie) is
+        opgelost: body regel 64 toont ''In een vorig advies[^1] onderstreepte de Commissie
+        dat...'' correct inline. Inhoud volledig. Geen andere artefacten.'
+      run_at: '2026-05-11T13:16:02Z'
+      status: trusted
+    rationale: 'Bug D4 (voetnootmarker [^1] op eigen regel met leading spatie) is
+      opgelost: body regel 64 toont ''In een vorig advies[^1] onderstreepte de Commissie
+      dat...'' correct inline. Inhoud volledig. Geen andere artefacten.'
+    status: trusted
 themas:
-  - brugpensioen
-  - conventioneel brugpensioen
-  - verplichting voortvloeiend uit brugpensioen
-  - voorziening
-  - voorzieningen voor brugpensioen
+- brugpensioen
+- conventioneel brugpensioen
+- verplichting voortvloeiend uit brugpensioen
+- voorziening
+- voorzieningen voor brugpensioen
 ---
 
 # CBN-advies 107/3bis - Verplichtingen voortvloeiend uit brugpensioen

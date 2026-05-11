@@ -2,64 +2,59 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-toegekende-voordelen-bij-het-afsluiten-van-een
 datum: 2012-01-11
 gerelateerde_adviezen:
-  - datum: '2021-06-23'
-    titel: Rekening 26 Overige materiële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
-  - datum: '2021-04-06'
-    titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van de COVID-19-pandemie
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
-  - datum: '2015-06-24'
-    titel: Leasing
-    url: https://www.cbn-cnc.be/nl/adviezen/leasing
-  - datum: '1986-07-01'
-    titel: Bouwwerken op andermans grond
-    url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
+- datum: '2021-06-23'
+  titel: Rekening 26 Overige materiële vaste activa
+  url: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
+- datum: '2021-04-06'
+  titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van
+    de COVID-19-pandemie
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
+- datum: '2015-06-24'
+  titel: Leasing
+  url: https://www.cbn-cnc.be/nl/adviezen/leasing
+- datum: '1986-07-01'
+  titel: Bouwwerken op andermans grond
+  url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
 nummer: CBN-advies 2012/2
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-toegekende-voordelen-bij-het-afsluiten-van-een
-      sha256: 8f3bec9b11104de4d4cb27cc100283f8a19ad102e8e8e7e0e9d28be37fdd5830
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-toegekende-voordelen-bij-het-afsluiten-van-een
+    sha256: 8f3bec9b11104de4d4cb27cc100283f8a19ad102e8e8e7e0e9d28be37fdd5830
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 9
-      max_section_chars: 2377
-      file_size_chars: 6369
+      file_size_chars: 6130
       flags: []
+      heading_count: 8
+      max_section_chars: 2371
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale:
-      run_at:
+      rationale: null
+      run_at: null
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
     status: trusted
 themas:
-  - Huur
+- Huur
 ---
 
 # CBN-advies 2012/2 – De boekhoudkundige verwerking van toegekende voordelen bij het afsluiten van een huurovereenkomst
-
-CBN-advies 2012/2 – De boekhoudkundige verwerking van toegekende voordelen bij het afsluiten van een huurovereenkomst 
-
-1. Waarderingregels 
-  1. Algemeen 
-  2. Boekhoudkundige verwerking 
-    1. De verhuurder 
-    2. De huurder 
 
 ## Inleiding
 
@@ -81,7 +76,7 @@ De voordelen aan de huurder worden verondersteld integraal deel uit te maken van
 
 De verhuurder zal de totale kost verbonden aan de voordelen gedurende de huurperiode lineair (tenzij een andere systematische basis representatief is voor het tijdspatroon volgens hetwelk het voordeel van het gehuurde actief afneemt) in resultaat opnemen als een vermindering van de huuropbrengsten. De Commissie is de mening toegedaan dat, gezien de huuropbrengsten en de toegekende voordelen hun oorsprong vinden in dezelfde contractuele overeenkomst, deze tevens vanuit een boekhoudkundig standpunt samen moeten verwerkt worden.
 
-### *Voorbeeld*
+### Voorbeeld
 
 Bij het afsluiten van een huurovereenkomst biedt de verhuurder aan de huurder bij wijze van compensatie voor de gemaakte kosten gedurende de verhuis gratuïteiten aan. Dit voordeel houdt in dat de huurder gedurende de eerste twee maanden geen huur dient te betalen. De huurperiode bedraagt 3 jaren. Als gevolg van dit voordeel realiseert de huurder een besparing van 36.000 €.
 Het voordeel zal als volgt boekhoudkundig worden verwerkt.
@@ -107,7 +102,7 @@ De huurder zal de opbrengst verbonden aan de voordelen gedurende de huurperiode 
 
 Andere kosten die werden gemaakt als gevolg van het aangaan van de huurovereenkomst (bijvoorbeeld opzegvergoedingen, verhuiskosten of aanpassingen aan het vastgoed) en die betrekking hebben op het boekjaar of op voorgaande boekjaren zullen in overeenstemming met artikel 33 van het KB W.Venn gedurende het boekjaar in de resultatenrekening worden verwerkt.
 
-### *Voorbeeld*
+### Voorbeeld
 
 Bij het afsluiten van een huurovereenkomst biedt de verhuurder aan de huurder, bij wijze van compensatie voor de gemaakte kosten gedurende de verhuis, gratuïteiten aan. Dit voordeel houdt in dat de huurder gedurende de eerste twee maanden geen huur dient te betalen. De huurperiode bedraagt 3 jaren. Als gevolg van dit voordeel realiseert de huurder een besparing van 36.000 €.
 Het voordeel zal als volgt boekhoudkundig worden verwerkt.
@@ -127,4 +122,3 @@ Gedurende de daaropvolgende maanden zal de huurder maandelijks de volgende boeki
 | aan | 550 | Kredietinstelling: rekening-courant | | 18.000 |
 
 Indien de overeenkomst vroegtijdig zou worden ontbonden, wordt het saldo van de overlopende rekening onmiddellijk als opbrengst van de periode erkend.
-###

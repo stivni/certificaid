@@ -12,27 +12,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Regels 55–64: plain-text inhoudsopgave direct na H1 (A3) — drie genummerde hoofdpunten met subnummers die de documenthiërarchie nabootsen maar geen headings zijn. De overige inhoud (13 headings op ##/### niveau, zes voorbeelden met pipe-tabellen, voetnoot 1 correct gedefinieerd en gerefereerd) is structureel correct en volledig leesbaar.'
+    rationale: 'A3 bevestigd: r55-64 plain-text inhoudsopgave direct na H1 — drie genummerde hoofdpunten met subnummers die de documenthiërarchie nabootsen maar geen headings zijn. Overige inhoud (13 headings op ##/### niveau, 6 voorbeelden met pipe-tabellen, voetnoot 1 correct gerefereerd) is structureel correct en volledig.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 6894
+      flags: []
       heading_count: 13
       max_section_chars: 3838
-      file_size_chars: 7105
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: 'Regels 55–64: plain-text inhoudsopgave direct na H1 (A3) — drie genummerde hoofdpunten met subnummers die de documenthiërarchie nabootsen maar geen headings zijn. De overige inhoud (13 headings op ##/### niveau, zes voorbeelden met pipe-tabellen, voetnoot 1 correct gedefinieerd en gerefereerd) is structureel correct en volledig leesbaar.'
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: 'A3 bevestigd: r55-64 plain-text inhoudsopgave direct na H1 — drie genummerde hoofdpunten met subnummers die de documenthiërarchie nabootsen maar geen headings zijn. Overige inhoud (13 headings op ##/### niveau, 6 voorbeelden met pipe-tabellen, voetnoot 1 correct gerefereerd) is structureel correct en volledig.'
       concrete_problemen:
         - regel: 55
           categorie: A3
@@ -52,23 +52,13 @@ themas:
 
 # CBN-advies 2010/18 - Subsidies en schenkingen vanuit het oogpunt van de verstrekkende vereniging of stichting
 
-1. Subsidies 
-  1. Subsidies in contanten 
-  2. Subsidies in natura 
-
-2. Schenkingen zonder terugnemingsrecht 
-  1. Schenkingen in contanten 
-  2. Schenkingen in natura 
-
-3. Schenkingen met terugnemingsrecht 
-
 Verenigingen en stichtingen verkrijgen dikwijls geldmiddelen en goederen om niet met het oog op het realiseren van bepaalde vormen van dienstverlening of het uitvoeren van bepaalde programma’s. Dergelijke subsidies en schenkingen worden vaak toegekend door andere verenigingen en stichtingen[^1]. 
 
 Dit advies behandelt de boekhoudkundige verwerking van subsidies en schenkingen in hoofde van de toekennende vereniging of stichting. 
 
 De Commissie spreekt zich niet uit over de mogelijke verschuldigdheid van btw die uit deze subsidies of schenkingen kan voortvloeien.
 
-## Subsidies 
+## Subsidies
 
 ### Subsidies in contanten
 

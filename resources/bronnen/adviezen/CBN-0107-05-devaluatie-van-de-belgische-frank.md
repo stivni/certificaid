@@ -3,40 +3,48 @@ bron: https://www.cbn-cnc.be/nl/adviezen/devaluatie-van-de-belgische-frank
 datum: 1983-04-01
 nummer: CBN-advies 107/5
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/devaluatie-van-de-belgische-frank
-      sha256: e970a3e2c22eadc34e305d927322d901fcaa773d3ca74a0b17e7cd45ca052914
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/devaluatie-van-de-belgische-frank
+    sha256: e970a3e2c22eadc34e305d927322d901fcaa773d3ca74a0b17e7cd45ca052914
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Prior layer2 verdict (needs-rework, D4) is onjuist: de [^1]-marker op regel 54 staat inline in de zin ('artikel 77 W. Venn.[^1] waardoor...') op dezelfde regel — geen gebroken newline in de body. De voetnoot heeft een correcte definitie op regel 56. Body is volledig, geen headings verwacht voor een korte advies-nota, geen andere artefacten aangetroffen."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 2088
       file_size_chars: 2088
       flags: []
+      heading_count: 0
+      max_section_chars: 2088
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "Prior layer2 verdict (needs-rework, D4) is onjuist: de [^1]-marker op regel 54 staat inline in de zin ('artikel 77 W. Venn.[^1] waardoor...') op dezelfde regel — geen gebroken newline in de body. De voetnoot heeft een correcte definitie op regel 56. Body is volledig, geen headings verwacht voor een korte advies-nota, geen andere artefacten aangetroffen."
       concrete_problemen: []
+      rationale: 'Prior layer2 verdict (needs-rework, D4) is onjuist: de [^1]-marker
+        op regel 54 staat inline in de zin (''artikel 77 W. Venn.[^1] waardoor...'')
+        op dezelfde regel — geen gebroken newline in de body. De voetnoot heeft een
+        correcte definitie op regel 56. Body is volledig, geen headings verwacht voor
+        een korte advies-nota, geen andere artefacten aangetroffen.'
+      run_at: '2026-05-11T13:16:02Z'
+      status: trusted
+    rationale: 'Prior layer2 verdict (needs-rework, D4) is onjuist: de [^1]-marker
+      op regel 54 staat inline in de zin (''artikel 77 W. Venn.[^1] waardoor...'')
+      op dezelfde regel — geen gebroken newline in de body. De voetnoot heeft een
+      correcte definitie op regel 56. Body is volledig, geen headings verwacht voor
+      een korte advies-nota, geen andere artefacten aangetroffen.'
+    status: trusted
 themas:
-  - devaluatie van de Belgische frank
-  - voorziening
+- devaluatie van de Belgische frank
+- voorziening
 ---
 
 # CBN-advies 107/5 - Devaluatie van de Belgische frank

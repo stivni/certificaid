@@ -12,44 +12,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'E1/E2: De drie grote HTML-tabellen (eigen vermogen boekhoudkundig vs fiscaal) zijn geëxtraheerd als sterk gefragmenteerde pipe-tabellen waarbij elke cel op een aparte lege rij staat (regels 159-403, 420-668, 756-919) — volledig onleesbaar als markdown. A3: TOC-artefact `-- Voorbeeld` op regel 74.'
+    rationale: "E1/E2: De twee grote tabellen met de eigen-vermogenssamenstelling (regels 130-431 en 448-782) zijn niet als markdown-pipe-tabellen geëxtraheerd maar als een reeks gefragmenteerde enkelvoudige `| tekst |\n|---|` cellen — duidelijk PDF-tabel extractie-bug. Elke cel staat op een aparte regel met lege regels ertussen zodat de tabelstructuur volledig verloren gaat. Hetzelfde patroon herhaalt zich voor het derde voorbeeld (regels 845-1044). Tekst en boeking-tabellen zijn correct."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 9
-      max_section_chars: 11083
-      file_size_chars: 24013
+      file_size_chars: 24508
       flags: []
+      heading_count: 9
+      max_section_chars: 11333
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: 'E1/E2: De drie grote HTML-tabellen (eigen vermogen boekhoudkundig vs fiscaal) zijn geëxtraheerd als sterk gefragmenteerde pipe-tabellen waarbij elke cel op een aparte lege rij staat (regels 159-403, 420-668, 756-919) — volledig onleesbaar als markdown. A3: TOC-artefact `-- Voorbeeld` op regel 74.'
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "E1/E2: De twee grote tabellen met de eigen-vermogenssamenstelling (regels 130-431 en 448-782) zijn niet als markdown-pipe-tabellen geëxtraheerd maar als een reeks gefragmenteerde enkelvoudige `| tekst |\n|---|` cellen — duidelijk PDF-tabel extractie-bug. Elke cel staat op een aparte regel met lege regels ertussen zodat de tabelstructuur volledig verloren gaat. Hetzelfde patroon herhaalt zich voor het derde voorbeeld (regels 845-1044). Tekst en boeking-tabellen zijn correct."
       concrete_problemen:
-        - regel: 74
-          categorie: A3
-          type: other
-          voorbeeld: -- Voorbeeld
-        - regel: 159
+        - regel: 130
           categorie: E1
           type: pseudo-table
-          voorbeeld: "| \n\n  | | \n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak\n\n  | |"
-        - regel: 420
+          voorbeeld: "| \n\n  | | \n|---|\n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak"
+        - regel: 448
           categorie: E1
           type: pseudo-table
-          voorbeeld: 'Dividenduitkering 2019-tabel: ~248 fragmentrijen voor 5 kolommen'
-        - regel: 756
+          voorbeeld: "| \n\n  | | \n|---|\n\nBegin-toestand\n\n  | | \n|---|"
+        - regel: 845
           categorie: E1
           type: pseudo-table
-          voorbeeld: 'Vrijwillige toepassing-tabel: ~163 fragmentrijen voor 6 kolommen'
+          voorbeeld: "| \n\n  | | \n|---|\n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak"
 themas:
   - terugbetaling inbreng
   - kapitaalvermindering
@@ -58,20 +54,6 @@ themas:
 ---
 
 # CBN-advies 2019/13 - Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering
-
-1. Inleiding 
-2. Nieuwe regels inzake kapitaalvermindering 
-  1. Artikel 18, lid 2 tot 6, WIB 92 
-  2. Voorbeeld 
-    1. Vermindering van het kapitaal met 400 tijdens boekjaar 2018 
-    2. Dividenduitkering van 700 in 2019 
-
-3. Vrijwillige toepassing van de bepalingen van artikel 18, lid 2 tot 6 (artikel 18, lid 7 WIB 92) 
-  1. Toepassing van de beslissing tot aanrekening van de vennootschap
-
-  2. Voorbeeld 
-
--- Voorbeeld 
 
 ## Inleiding
 
@@ -159,10 +141,12 @@ Het gevolg hiervan is een verhoudingsgewijze aanrekening van 255 (400 * 63,6 %) 
 | 
 
   | | 
+|---|
 
 Samenstelling van het eigen vermogen op boekhoudkundig vlak
 
   | | 
+|---|
 
 Samenstelling van het eigen vermogen op fiscaal vlak
 
@@ -170,22 +154,28 @@ Samenstelling van het eigen vermogen op fiscaal vlak
 | 
 
   | | 
+|---|
 
 Begin-toestand
 
   | | 
+|---|
 
   | | 
+|---|
 
 Eind-toestand
 
   | | 
+|---|
 
 Begin-toestand
 
   | | 
+|---|
 
   | | 
+|---|
 
 Eind-toestand
 
@@ -193,8 +183,10 @@ Eind-toestand
 | 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Fiscaal gestort kapitaal
 
@@ -204,26 +196,32 @@ Fiscaal gestort kapitaal
 Kapitaal
 
   | | 
+|---|
 
 1.000
 
   | | 
+|---|
 
 -400
 
   | | 
+|---|
 
 600
 
   | | 
+|---|
 
 1.000
 
   | | 
+|---|
 
 -255
 
   | | 
+|---|
 
 745
 
@@ -233,22 +231,28 @@ Kapitaal
 Uitgiftepremies
 
   | | 
+|---|
 
 400
 
   | | 
+|---|
 
   | | 
+|---|
 
 400
 
   | | 
+|---|
 
 400
 
   | | 
+|---|
 
   | | 
+|---|
 
 400
 
@@ -256,8 +260,10 @@ Uitgiftepremies
 | 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Belaste reserves
 
@@ -267,22 +273,28 @@ Belaste reserves
 Wettelijke reserve
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
   | | 
+|---|
 
 50
 
@@ -292,22 +304,28 @@ Wettelijke reserve
 Beschikbare reserves
 
   | | 
+|---|
 
 800
 
   | | 
+|---|
 
   | | 
+|---|
 
 800
 
   | | 
+|---|
 
 800
 
   | | 
+|---|
 
   | | 
+|---|
 
 800
 
@@ -317,24 +335,30 @@ Beschikbare reserves
 Negatieve reserves
 
   | | 
+|---|
 
 -
 
   | | 
+|---|
 
   | | 
+|---|
 
 -
 
   | | 
+|---|
 
 0
 
   | | 
+|---|
 
 -145
 
   | | 
+|---|
 
 -145
 
@@ -342,8 +366,10 @@ Negatieve reserves
 | 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Vrijgestelde reserves
 
@@ -353,22 +379,28 @@ Vrijgestelde reserves
 Belastingvrije reserves
 
   | | 
+|---|
 
 150
 
   | | 
+|---|
 
   | | 
+|---|
 
 150
 
   | | 
+|---|
 
 150
 
   | | 
+|---|
 
   | | 
+|---|
 
 150
 
@@ -378,26 +410,32 @@ Belastingvrije reserves
 Totaal
 
   | | 
+|---|
 
 2.400
 
   | | 
+|---|
 
 -400
 
   | | 
+|---|
 
 2.000
 
   | | 
+|---|
 
 2.400
 
   | | 
+|---|
 
 -400
 
   | | 
+|---|
 
 2.000
 
@@ -421,10 +459,12 @@ De ‘fiscaal’ beschikbare reserves* (655, namelijk 800 van beschikbare reserv
 | 
 
   | | 
+|---|
 
 Samenstelling van het eigen vermogen op boekhoudkundig vlak
 
   | | 
+|---|
 
 Samenstelling van het eigen vermogen op fiscaal vlak
 
@@ -432,22 +472,28 @@ Samenstelling van het eigen vermogen op fiscaal vlak
 | 
 
   | | 
+|---|
 
 Begin-toestand
 
   | | 
+|---|
 
   | | 
+|---|
 
 Eind-toestand
 
   | | 
+|---|
 
 Begin-toestand
 
   | | 
+|---|
 
   | | 
+|---|
 
 Eind-toestand
 
@@ -455,8 +501,10 @@ Eind-toestand
 | 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Fiscaal gestort kapitaal
 
@@ -466,24 +514,30 @@ Fiscaal gestort kapitaal
 Kapitaal
 
   | | 
+|---|
 
 600
 
   | | 
+|---|
 
   | | 
+|---|
 
 600
 
   | | 
+|---|
 
 745
 
   | | 
+|---|
 
 -45
 
   | | 
+|---|
 
 700
 
@@ -493,22 +547,28 @@ Kapitaal
 Uitgiftepremies
 
   | | 
+|---|
 
 400
 
   | | 
+|---|
 
   | | 
+|---|
 
 400
 
   | | 
+|---|
 
 400
 
   | | 
+|---|
 
   | | 
+|---|
 
 400
 
@@ -516,8 +576,10 @@ Uitgiftepremies
 | 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Belaste reserves
 
@@ -527,22 +589,28 @@ Belaste reserves
 Wettelijke reserve
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
   | | 
+|---|
 
 50
 
@@ -552,26 +620,32 @@ Wettelijke reserve
 Beschikbare reserves
 
   | | 
+|---|
 
 800
 
   | | 
+|---|
 
 -700
 
   | | 
+|---|
 
 100
 
   | | 
+|---|
 
 800
 
   | | 
+|---|
 
 -700
 
   | | 
+|---|
 
 100
 
@@ -581,24 +655,30 @@ Beschikbare reserves
 Negatieve reserves
 
   | | 
+|---|
 
 -
 
   | | 
+|---|
 
   | | 
+|---|
 
 -
 
   | | 
+|---|
 
 -145
 
   | | 
+|---|
 
 +45
 
   | | 
+|---|
 
 -100
 
@@ -606,8 +686,10 @@ Negatieve reserves
 | 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Vrijgestelde reserves
 
@@ -617,22 +699,28 @@ Vrijgestelde reserves
 Belastingvrije reserves
 
   | | 
+|---|
 
 150
 
   | | 
+|---|
 
   | | 
+|---|
 
 150
 
   | | 
+|---|
 
 150
 
   | | 
+|---|
 
   | | 
+|---|
 
 150
 
@@ -642,26 +730,32 @@ Belastingvrije reserves
 Totaal
 
   | | 
+|---|
 
 2.000
 
   | | 
+|---|
 
 -700
 
   | | 
+|---|
 
 1.300
 
   | | 
+|---|
 
 2.000
 
   | | 
+|---|
 
 -700
 
   | | 
+|---|
 
 1.300
 
@@ -672,20 +766,26 @@ Totaal
 Verhoging van de begintoestand van de reserves[^10] 
 
   | | 
+|---|
 
   | | 
+|---|
 
   | | 
+|---|
 
   | | 
+|---|
 
 45
 
   | | 
+|---|
 
 -45
 
   | | 
+|---|
 
 0
 
@@ -719,7 +819,7 @@ De boekingen worden als volgt verricht:
 
 ## Vrijwillige toepassing van de bepalingen van artikel 18, lid 2 tot 6 (artikel 18, lid 7 WIB 92)
 
-### Toepassing van de beslissing tot aanrekening van de vennootschap[^12] 
+### Toepassing van de beslissing tot aanrekening van de vennootschap[^12]
 
 De wetgever heeft voorzien in de mogelijkheid van een ꞌvrijwilligeꞌ toepassing van de maatregelen bedoeld in art. 18, tweede tot zesde lid WIB 92, voor zover dat (zie art. 18, zevende lid WIB 92):
 
@@ -756,10 +856,12 @@ Bijgevolg zal het bedrag van het dividend ten belope van 800 als dusdanig aanvaa
 | 
 
   | | 
+|---|
 
 Samenstelling van het eigen vermogen op boekhoudkundig vlak
 
   | | 
+|---|
 
 Samenstelling van het eigen vermogen op fiscaal vlak
 
@@ -767,22 +869,28 @@ Samenstelling van het eigen vermogen op fiscaal vlak
 | 
 
   | | 
+|---|
 
 Begin-toestand
 
   | | 
+|---|
 
   | | 
+|---|
 
 Eind-toestand
 
   | | 
+|---|
 
 Begin-toestand
 
   | | 
+|---|
 
   | | 
+|---|
 
 Eind-toestand
 
@@ -790,8 +898,10 @@ Eind-toestand
 | 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Fiscaal gestort kapitaal
 
@@ -801,26 +911,32 @@ Fiscaal gestort kapitaal
 Kapitaal
 
   | | 
+|---|
 
 5.000
 
   | | 
+|---|
 
 -200
 
   | | 
+|---|
 
 4.800
 
   | | 
+|---|
 
 5.000
 
   | | 
+|---|
 
 -200
 
   | | 
+|---|
 
 4.800
 
@@ -828,8 +944,10 @@ Kapitaal
 | 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Belaste reserves
 
@@ -839,22 +957,28 @@ Belaste reserves
 Wettelijke reserve
 
   | | 
+|---|
 
 500
 
   | | 
+|---|
 
   | | 
+|---|
 
 500
 
   | | 
+|---|
 
 500
 
   | | 
+|---|
 
   | | 
+|---|
 
 500
 
@@ -864,26 +988,32 @@ Wettelijke reserve
 Beschikbare reserves
 
   | | 
+|---|
 
 20.000
 
   | | 
+|---|
 
 -800
 
   | | 
+|---|
 
 19.200
 
   | | 
+|---|
 
 20.000
 
   | | 
+|---|
 
 -800
 
   | | 
+|---|
 
 19.200
 
@@ -893,26 +1023,32 @@ Beschikbare reserves
 Totaal
 
   | | 
+|---|
 
 25.500
 
   | | 
+|---|
 
 -1.000
 
   | | 
+|---|
 
 24.500
 
   | | 
+|---|
 
 25.500
 
   | | 
+|---|
 
 -1.000
 
   | | 
+|---|
 
 24.500
 

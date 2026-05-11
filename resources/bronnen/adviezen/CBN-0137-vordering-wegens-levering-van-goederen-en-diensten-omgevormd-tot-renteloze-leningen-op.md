@@ -25,32 +25,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:23:03Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'B2: twee H1-headings bovenaan (regel 70 = tittel, regel 72 = datum/update-lijn), waar de tweede eerder H2 of plain tekst zou moeten zijn. Vorige verdict (B3 duplicate) was onjuist: het zijn twee verschillende inhoudelijke regels, geen echte duplicaten. Inhoud verder volledig en clean, beide voetnoten correct gedefinieerd.'
+    rationale: Inhoudelijk volledig advies zonder ETL-artefacten. Heading 'Advies van december 1998' terwijl de frontmatter datum '1988-12-23' toont — dit is een inconsistentie die ook in de bron-HTML aanwezig zal zijn (source-typo) en telt niet als needs-rework. Beide voetnoten correct als [^1] en [^2] geformatteerd. Geen A-G problemen.
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 3977
       file_size_chars: 3977
       flags: []
+      heading_count: 1
+      max_section_chars: 3977
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:03Z'
-      rationale: 'B2: twee H1-headings bovenaan (regel 70 = tittel, regel 72 = datum/update-lijn), waar de tweede eerder H2 of plain tekst zou moeten zijn. Vorige verdict (B3 duplicate) was onjuist: het zijn twee verschillende inhoudelijke regels, geen echte duplicaten. Inhoud verder volledig en clean, beide voetnoten correct gedefinieerd.'
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: Inhoudelijk volledig advies zonder ETL-artefacten. Heading 'Advies van december 1998' terwijl de frontmatter datum '1988-12-23' toont — dit is een inconsistentie die ook in de bron-HTML aanwezig zal zijn (source-typo) en telt niet als needs-rework. Beide voetnoten correct als [^1] en [^2] geformatteerd. Geen A-G problemen.
       concrete_problemen:
-        - regel: 72
-          categorie: B2
-          type: other
-          voorbeeld: '# Advies van december 1998, bijgewerkt op 10 september 2025[^1]'
+        - regel: 64
+          categorie: (source)
+          type: source-typo
+          voorbeeld: '## Advies van december 1998 — frontmatter zegt datum: 1988-12-23'
 themas:
   - Waardevermindering
   - waardevermindering op vorderingen
@@ -65,7 +65,7 @@ themas:
 
 # CBN advies 137/8 - Vordering wegens levering van goederen en diensten omgevormd tot renteloze leningen op meer dan 1 jaar (update)
 
-# Advies van december 1998, bijgewerkt op 10 september 2025[^1] 
+## Advies van december 1998, bijgewerkt op 10 september 2025[^1]
 
 Aan de Commissie werd de vraag gesteld of artikel 3:45, § 2, lid 1, c) van het koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) dat tot de actualisering van langlopende renteloze vorderingen verplicht, moet worden toegepast op een vordering wegens levering van goederen en diensten (i.e. wegens een verrichting die geleid heeft tot de boeking van een resultaat), die echter bij wijze van tegemoetkoming aan de schuldenaar die in financiële moeilijkheden verkeert, wordt omgevormd tot een renteloze vordering, terugbetaalbaar over verschillende jaren. 
 

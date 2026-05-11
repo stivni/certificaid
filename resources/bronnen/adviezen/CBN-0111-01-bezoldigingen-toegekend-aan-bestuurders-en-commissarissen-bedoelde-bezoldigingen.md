@@ -2,57 +2,63 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen
 datum: 1978-07-01
 gerelateerde_adviezen:
-  - datum: '2020-08-05'
-    titel: Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris
-    url: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
-  - datum: '2019-09-26'
-    titel: Boekhoudplichtige onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
-  - datum: '2016-09-07'
-    titel: Vergoedingen aan bestuurders en werkende vennoten
-    url: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
-  - datum: '1995-03-01'
-    titel: Loonmatiging (bezoldigingen van bestuurders)
-    url: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
+- datum: '2020-08-05'
+  titel: Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris
+  url: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
+- datum: '2019-09-26'
+  titel: Boekhoudplichtige onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
+- datum: '2016-09-07'
+  titel: Vergoedingen aan bestuurders en werkende vennoten
+  url: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
+- datum: '1995-03-01'
+  titel: Loonmatiging (bezoldigingen van bestuurders)
+  url: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
 nummer: CBN-advies 111/1
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen
-      sha256: 1fd5a084f02de977a3750e07d9e78909d8790a4c3597cea96439159545d07cc2
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen
+    sha256: 1fd5a084f02de977a3750e07d9e78909d8790a4c3597cea96439159545d07cc2
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 1401
       file_size_chars: 1401
       flags: []
+      heading_count: 0
+      max_section_chars: 1401
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Zeer kort advies (1401 tekens) zonder interne headings — past bij enkelvoudige interpretatie-vraag. Geen artefacten. De afkorting 'mec. nr. 4659' op regel 64 is een authentieke verwijzing uit het originele advies, geen extractie-bug. Frontmatter volledig.
+      rationale: Zeer kort advies (1401 tekens) zonder interne headings — past bij
+        enkelvoudige interpretatie-vraag. Geen artefacten. De afkorting 'mec. nr.
+        4659' op regel 64 is een authentieke verwijzing uit het originele advies,
+        geen extractie-bug. Frontmatter volledig.
       run_at: '2026-05-11T11:57:45Z'
       status: trusted
-    rationale: Zeer kort advies (1401 tekens) zonder interne headings — past bij enkelvoudige interpretatie-vraag. Geen artefacten. De afkorting 'mec. nr. 4659' op regel 64 is een authentieke verwijzing uit het originele advies, geen extractie-bug. Frontmatter volledig.
+    rationale: Zeer kort advies (1401 tekens) zonder interne headings — past bij enkelvoudige
+      interpretatie-vraag. Geen artefacten. De afkorting 'mec. nr. 4659' op regel
+      64 is een authentieke verwijzing uit het originele advies, geen extractie-bug.
+      Frontmatter volledig.
     status: trusted
 themas:
-  - bestuurder
-  - bezoldiging
-  - bezoldigingen aan bestuurders en commissarissen
-  - commissaris
-  - zaakvoerder
+- bestuurder
+- bezoldiging
+- bezoldigingen aan bestuurders en commissarissen
+- commissaris
+- zaakvoerder
 ---
 
 # CBN-advies 111/1 - Bezoldigingen toegekend aan bestuurders en commissarissen -Bedoelde bezoldigingen

@@ -2,59 +2,61 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december
 datum: 1984-01-01
 gerelateerde_adviezen:
-  - datum: '2025-04-25'
-    titel: Afschrijvingsmethoden (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden-update-ontwerp
-  - datum: '2017-12-13'
-    titel: Afschrijving van materiële vaste activa in aanbouw en vooruitbetalingen - Inresultaatname van kapitaalsubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname
-  - datum: '2012-10-10'
-    titel: De boekhoudkundige verwerking van immateriële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-  - datum: '2010-10-06'
-    titel: Afschrijvingsmethoden
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
+- datum: '2025-04-25'
+  titel: Afschrijvingsmethoden (update) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden-update-ontwerp
+- datum: '2017-12-13'
+  titel: Afschrijving van materiële vaste activa in aanbouw en vooruitbetalingen -
+    Inresultaatname van kapitaalsubsidies
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname
+- datum: '2012-10-10'
+  titel: De boekhoudkundige verwerking van immateriële vaste activa
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+- datum: '2010-10-06'
+  titel: Afschrijvingsmethoden
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
 nummer: CBN-advies 113/5
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december
-      sha256: 1cf5aff861f5346d111cb0f8bcb4bed221f788d17e89713f24e56a69581dac4a
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december
+    sha256: 1cf5aff861f5346d111cb0f8bcb4bed221f788d17e89713f24e56a69581dac4a
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 1
-      max_section_chars: 7304
       file_size_chars: 7304
       flags: []
+      heading_count: 1
+      max_section_chars: 7304
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee hoofdvragen en drie subcases voor afboeking. Inhaalafschrijvingen afzonderlijk.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee hoofdvragen en drie subcases
+        voor afboeking. Inhaalafschrijvingen afzonderlijk.'
       run_at: '2026-05-08T19:02:29Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - afschrijvingen
-  - gebruiksduur
-  - herwaardering
-  - herwaarderingsmeerwaarde
-  - immateriële vaste activa
-  - materiële vaste activa
-  - vaste activa
+- afschrijvingen
+- gebruiksduur
+- herwaardering
+- herwaarderingsmeerwaarde
+- immateriële vaste activa
+- materiële vaste activa
+- vaste activa
 ---
 
 # CBN-advies 113/5 - Herwaardering van vaste activa vóór het begin van het boekjaar dat aanvangt na 31 december 1983

@@ -12,44 +12,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:35Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie structuurproblemen: (1) B2: heading-hiërarchie springt van # (r.72) direct naar #### en ##### zonder tussenliggend ## of ### — geen enkel ##/### heading in de volledige body. (2) C3: r.90-92 zijn 4-spaties ingesprongen waardoor ze als code-blok renderen in markdown. (3) A9: 'AAankopen' (r.110) in tabellabel. (4) A6: zin breekt over alinea-grens op r.214-216 ('kan worden \n\ngeopteerd')."
+    rationale: "A9: regel 89 bevat 'AAankopen van diensten' (dubbele 'A' — OCR-duplicatie). A6/D1: regels 191-193 splitsen de slotzin 'zal enkel voor de tweede benadering kunnen' met 'geopteerd.' op een nieuwe alinea, wat een afgebroken alinea-patroon is. Overige tabellen inhoudelijk correct met lege Debet/Credit-kolommen (intentioneel)."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 9
-      max_section_chars: 4182
-      file_size_chars: 12052
+      file_size_chars: 12033
       flags: []
+      heading_count: 8
+      max_section_chars: 6368
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "Drie structuurproblemen: (1) B2: heading-hiërarchie springt van # (r.72) direct naar #### en ##### zonder tussenliggend ## of ### — geen enkel ##/### heading in de volledige body. (2) C3: r.90-92 zijn 4-spaties ingesprongen waardoor ze als code-blok renderen in markdown. (3) A9: 'AAankopen' (r.110) in tabellabel. (4) A6: zin breekt over alinea-grens op r.214-216 ('kan worden \n\ngeopteerd')."
+      run_at: '2026-05-11T15:19:35Z'
+      rationale: "A9: regel 89 bevat 'AAankopen van diensten' (dubbele 'A' — OCR-duplicatie). A6/D1: regels 191-193 splitsen de slotzin 'zal enkel voor de tweede benadering kunnen' met 'geopteerd.' op een nieuwe alinea, wat een afgebroken alinea-patroon is. Overige tabellen inhoudelijk correct met lege Debet/Credit-kolommen (intentioneel)."
       concrete_problemen:
-        - regel: 80
-          categorie: B2
-          type: other
-          voorbeeld: '# CBN advies 171 (r.72) → #### Ondernemingen die afvalstoffen (r.80): overgeslagen ##/###'
-        - regel: 90
-          categorie: C3
-          type: pseudo-table
-          voorbeeld: '    Voor die onderneming vormt de kost voor de afvalverwerking...'
-        - regel: 110
+        - regel: 89
           categorie: A9
           type: ocr-confusion
           voorbeeld: '| | 602 | AAankopen van diensten of | | |'
-        - regel: 214
+        - regel: 191
           categorie: A6
           type: other
-          voorbeeld: "...zal enkel voor de tweede benadering kunnen worden\n\ngeopteerd."
+          voorbeeld: '...zal enkel voor de tweede benadering kunnen \n\ngeopteerd.'
 themas:
   - afvaldienstenonderneming
   - afvalstoffen
@@ -65,7 +57,7 @@ themas:
   - voorraden
 ---
 
-# CBN advies 171 - Boekhoudkundige verwerking van afvalstoffen 
+# CBN advies 171 - Boekhoudkundige verwerking van afvalstoffen
 
 Aan de Commissie werd gevraagd hoe de produktie, de ophaling, de vernietiging, de verwerking of de recyclage van afvalstoffen alsook de exploitatie van stortplaatsen in de jaarrekening van ondernemingen moeten worden verwerkt. De ondernemingen, zoals trouwens ook de overheid, worden immers met steeds grotere afvalverwerkingsproblemen geconfronteerd. De Commissie heeft derhalve beslist daaraan een algemeen advies te wijden. 
 
@@ -73,24 +65,22 @@ Dit advies slaat echter niet op de waardering van de voorzieningen die de ondern
 
 Dit advies zal achtereenvolgens aandacht besteden aan de ondernemingen die afvalstoffen "produceren", de ondernemingen die diensten verstrekken op het vlak van de ophaling of de verwerking van afvalstoffen en, ten slotte, de ondernemingen waarvan de exploitatie een terrein aantast of vervuilt. 
 
-#### Ondernemingen die afvalstoffen "produceren" 
+## Ondernemingen die afvalstoffen "produceren"
 
-##### De onderneming verwerkt haar afvalstoffen niet zelf, maar belast een derde met de ophaling ervan 
-
+De onderneming verwerkt haar afvalstoffen niet zelf, maar belast een derde met de ophaling ervan
 Voor die onderneming is de ophaling van haar afvalstoffen door een derde een dienst die haar wordt verleend, waarvan de kost als bedrijfskost onder *Diensten en diverse goederen* (rekening 61) moet worden geboekt.
 
 Voor de afvalstoffen die, aan het einde van de boekhoudperiode, nog niet zouden zijn opgehaald, zal een voorziening moeten worden gevormd om de ophalingskosten te dekken. 
 
-##### De onderneming verwerkt zelf haar afvalstoffen 
+### De onderneming verwerkt zelf haar afvalstoffen
 
     Voor die onderneming vormt de kost voor de afvalverwerking een bedrijfskost die wordt geboekt in de verschillende rekeningen van kosten naar hun aard. 
 
    Voor de afvalstoffen die, aan het einde van de boekhoudperiode, nog niet zouden zijn verwerkt, zal een voorziening moeten worden gevormd om de verwerkingskosten te dekken. 
 
-#### Afvaldienstenondernemingen
+## Afvaldienstenondernemingen
 
-##### De onderneming zorgt voor de ophaling van de afvalstoffen alsook voor de onmiddellijke storting of afvoer "als zodanig", d.i. zonder opslag of verwerking
-
+De onderneming zorgt voor de ophaling van de afvalstoffen alsook voor de onmiddellijke storting of afvoer "als zodanig", d.i. zonder opslag of verwerking
 De facturatie van de afvalophaling zal als volgt worden geboekt :
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -109,8 +99,7 @@ De facturatie ten laste van diezelfde onderneming in verband met de overdracht o
 | aan | 440 | Leveranciers | | |
 | | 451 | Te betalen btw | | |
 
-##### De onderneming zorgt voor de ophaling en de opslag van de afvalstoffen in afwachting van hun latere overdracht aan een derde die ze zal verwerken 
-
+De onderneming zorgt voor de ophaling en de opslag van de afvalstoffen in afwachting van hun latere overdracht aan een derde die ze zal verwerken
 De verrichtingen met derden worden op dezelfde manier geboekt als in de onder A hierboven vermelde gevallen. 
 
 De verworven maar nog niet afgevoerde afvalstoffen vormen geen voorraden als bedoeld in de boekhoudreglementering waar de voorraden (grondstoffen of goederen) kosten vormen waarvan de inresultaatneming via de rekening van de voorraadwijziging is; uitgesteld tot het boekjaar waarin de voorraden worden verbruikt, maar zij worden ingecalculeerd in materiële roerende goederen bestemd om als zodanig te worden doorverkocht, om te worden omgevormd of gebruikt in het productieproces, en die dienovereenkomstig op de balans onder de activa worden geboekt. De voorraden van goederen in bewerking en van afgewerkte produkten vertegenwoordigen op hun beurt kosten die worden ingecalculeerd in goederen in bewerking of goederen die kunnen worden verkocht. De ophaling, de opslag of de verwerking van afvalstoffen vormt daarentegen een opbrengst die de onderneming effectief ontvangt. In de veronderstelling echter dat de economische cyclus niet is voltooid - en dat is het geval met verworven afvalstoffen die nog niet zijn afgevoerd door de onderneming[^1]
@@ -121,7 +110,7 @@ De verworven maar nog niet afgevoerde afvalstoffen vormen geen voorraden als bed
 | | 70 | Verkopen en dienstprestaties | | |
 | aan | 493 | Over te dragen opbrengsten | | |
 
-### wanneer de "voorraad" toeneemt, en 
+### wanneer de "voorraad" toeneemt, en
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -129,8 +118,7 @@ De verworven maar nog niet afgevoerde afvalstoffen vormen geen voorraden als bed
 | aan | 70 | Verkopen en dienstprestaties | | |
 
 wanneer de "voorraad" afneemt.
-##### De onderneming verwerft de afvalstoffen om ze (a) te vernietigen, (b) in haar eigen produktieproces te gebruiken of (c) te recycleren 
-
+De onderneming verwerft de afvalstoffen om ze (a) te vernietigen, (b) in haar eigen produktieproces te gebruiken of (c) te recycleren
 Zoals in beide voornoemde gevallen, zal de facturatie van de ophaling en de ontvangst van de afvalstoffen als volgt worden geboekt : 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -195,7 +183,7 @@ of
 
 Wanneer er verschillen zijn tussen de facturatieprijs voor de ophaling of de verwerving van afvalstoffen, zal, wat de wijzigingen in de "voorraden" afvalstoffen betreft, bij de correctieboekingen met betrekking tot het omzetcijfer rekening moeten worden gehouden met een welbepaalde volgorde van de uitgaande voorraden. Naar analogie van de regels voor uitgaande voorraden in de echte zin van het woord, zal de onderneming moeten kiezen tussen een van de methodes bedoeld in artikel 33 van het koninklijk besluit van 8 oktober 1976, namelijk : individualisering van de prijs van elk bestanddeel, gewogen gemiddelde, eerst in -eerst uit of laatst in - eerst uit. 
 
-##### Ondernemingen waarvan de exploitatie een terrein aantast of vervuilt 
+### Ondernemingen waarvan de exploitatie een terrein aantast of vervuilt
 
 De onderneming waarvan de exploitatie een terrein aantast of vervuilt (exploitatie van een stortplaats, steengroeve, kerncentrale, booreiland) zal over het algemeen later worden geconfronteerd met kosten die, enerzijds, betrekking hebben op de milieubescherming (aangelegenheid van algemeen belang) en, anderzijds, op de sanering van het terrein (aangelegenheid van particulier belang). 
 

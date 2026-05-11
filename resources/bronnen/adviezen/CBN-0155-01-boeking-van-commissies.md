@@ -2,51 +2,53 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
 datum: 1988-12-01
 gerelateerde_adviezen:
-  - datum: '1983-04-10'
-    titel: Kosten die worden gemaakt bij de vervreemding van activa
-    url: https://www.cbn-cnc.be/nl/adviezen/kosten-die-worden-gemaakt-bij-de-vervreemding-van-activa
-  - datum: '1980-06-01'
-    titel: 'Aanschaffingsprijs : bijkomende kosten'
-    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
+- datum: '1983-04-10'
+  titel: Kosten die worden gemaakt bij de vervreemding van activa
+  url: https://www.cbn-cnc.be/nl/adviezen/kosten-die-worden-gemaakt-bij-de-vervreemding-van-activa
+- datum: '1980-06-01'
+  titel: 'Aanschaffingsprijs : bijkomende kosten'
+  url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
 nummer: CBN-advies 155/1
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
-      sha256: 654bd67fdf4ae4a4c57fba3875e9607622fd3f1736b9b2940da78902fc238dbc
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
+    sha256: 654bd67fdf4ae4a4c57fba3875e9607622fd3f1736b9b2940da78902fc238dbc
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 0
-      max_section_chars: 2147
       file_size_chars: 2147
       flags: []
+      heading_count: 0
+      max_section_chars: 2147
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale:
-      run_at:
+      rationale: null
+      run_at: null
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
     status: trusted
 themas:
-  - bijkomende kost
-  - commissies
-  - diensten en diverse goederen
-  - financiële vaste activa
-  - geldbeleggingen
+- bijkomende kost
+- commissies
+- diensten en diverse goederen
+- financiële vaste activa
+- geldbeleggingen
 ---
 
 # CBN-advies 155/1 - Boeking van commissies

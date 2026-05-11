@@ -2,58 +2,62 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
 datum: 2002-05-10
 gerelateerde_adviezen:
-  - datum: '2021-05-12'
-    titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-  - datum: '1991-03-01'
-    titel: Realisatiebeginsel (behalve bij fusie)
-    url: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
+- datum: '2021-05-12'
+  titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke
+    reorganisatie op de schulden en vorderingen (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+- datum: '1991-03-01'
+  titel: Realisatiebeginsel (behalve bij fusie)
+  url: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
 nummer: CBN-advies 126/18
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
-      sha256: 23e1efd01eadba87708da24edf79b754185f1d53522d69efec6051aef29e037b
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
+    sha256: 23e1efd01eadba87708da24edf79b754185f1d53522d69efec6051aef29e037b
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T21:19:09Z'
     confirmed_by: human
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 4
-      max_section_chars: 12818
-      file_size_chars: 31016
+      file_size_chars: 31022
       flags: []
+      heading_count: 4
+      max_section_chars: 12824
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale:
-      run_at:
+      rationale: null
+      run_at: null
       status: not_run
-    rationale: 'Heading-structuur hersteld: 3 ongenummerde ## sectietitels via context-aware bold-only promotie. Laag 1 geeft PASS. Inhoud volledig (inbreng in natura, werkelijke waarde, 4 hypothesen).'
+    rationale: 'Heading-structuur hersteld: 3 ongenummerde ## sectietitels via context-aware
+      bold-only promotie. Laag 1 geeft PASS. Inhoud volledig (inbreng in natura, werkelijke
+      waarde, 4 hypothesen).'
     status: trusted
 themas:
-  - conventionele waarde
-  - inbreng
-  - inbreng in natura
-  - inbrengwaarde
-  - kapitaalvermindering
-  - uitgiftepremie
-  - werkelijke waarde
+- conventionele waarde
+- inbreng
+- inbreng in natura
+- inbrengwaarde
+- kapitaalvermindering
+- uitgiftepremie
+- werkelijke waarde
 ---
 
 # CBN-advies 126/18 - Aanschaffingswaarde bij inbreng in natura1
 
 | Samenvatting | 
+|---|
 | Dit advies handelt over de bepaling van de aanschaffingswaarde bij inbreng in natura, zowel de waardering van de aanschaffingswaarde van de ingebrachte vermogensbestanddelen in hoofde van de inbreng ontvangende vennootschap, als de waardering van de aanschaffingswaarde van de ter vergoeding van de inbreng ontvangen aandelen in hoofde van de inbrengende vennootschap. 
 
 			Naar het oordeel van de Commissie dienen beide waarderingen principieel met elkaar overeen te stemmen. 

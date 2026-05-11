@@ -2,50 +2,58 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-inbound-verschil-in-waarderingsregels-ten-opzichte-van-het
 datum: 2018-04-18
 gerelateerde_adviezen:
-  - datum: '2020-12-16'
-    titel: 'Zetelverplaatsing naar België: model van staat van activa en passiva bij immigrerende vennootschappen'
-    url: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-model-van-staat-van-activa-en-passiva-bij-immigrerende
-  - datum: '2010-12-08'
-    titel: 'Zetelverplaatsing naar België van een vennootschap opgericht naar buitenlands recht: gevolgen voor het voeren van de boekhouding en het opstellen van de jaarrekening'
-    url: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
+- datum: '2020-12-16'
+  titel: 'Zetelverplaatsing naar België: model van staat van activa en passiva bij
+    immigrerende vennootschappen'
+  url: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-model-van-staat-van-activa-en-passiva-bij-immigrerende
+- datum: '2010-12-08'
+  titel: 'Zetelverplaatsing naar België van een vennootschap opgericht naar buitenlands
+    recht: gevolgen voor het voeren van de boekhouding en het opstellen van de jaarrekening'
+  url: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
 nummer: CBN-advies 2018/03
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-inbound-verschil-in-waarderingsregels-ten-opzichte-van-het
-      sha256: 5cd6c2076ef528eaec67cf364366f3046355af5cc49943164d886f6599fa0018
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-inbound-verschil-in-waarderingsregels-ten-opzichte-van-het
+    sha256: 5cd6c2076ef528eaec67cf364366f3046355af5cc49943164d886f6599fa0018
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 5
-      max_section_chars: 16859
       file_size_chars: 21730
       flags: []
+      heading_count: 5
+      max_section_chars: 16859
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen zichtbare ETL-artefacten. Heading-hiërarchie correct (##, ###), voetnoten [^1] t/m [^24] volledig gedefinieerd en gerefereerd, inhoud compleet (inleiding, juridische continuïteit, boekhoudkundige continuïteit, uitzondering, voorbeeld). Geen TOC-residu, geen malformed italic, geen gebroken zinnen.'
+      rationale: 'Geen zichtbare ETL-artefacten. Heading-hiërarchie correct (##, ###),
+        voetnoten [^1] t/m [^24] volledig gedefinieerd en gerefereerd, inhoud compleet
+        (inleiding, juridische continuïteit, boekhoudkundige continuïteit, uitzondering,
+        voorbeeld). Geen TOC-residu, geen malformed italic, geen gebroken zinnen.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Geen zichtbare ETL-artefacten. Heading-hiërarchie correct (##, ###), voetnoten [^1] t/m [^24] volledig gedefinieerd en gerefereerd, inhoud compleet (inleiding, juridische continuïteit, boekhoudkundige continuïteit, uitzondering, voorbeeld). Geen TOC-residu, geen malformed italic, geen gebroken zinnen.'
+    rationale: 'Geen zichtbare ETL-artefacten. Heading-hiërarchie correct (##, ###),
+      voetnoten [^1] t/m [^24] volledig gedefinieerd en gerefereerd, inhoud compleet
+      (inleiding, juridische continuïteit, boekhoudkundige continuïteit, uitzondering,
+      voorbeeld). Geen TOC-residu, geen malformed italic, geen gebroken zinnen.'
     status: trusted
 themas:
-  - zetelverplaatsing
-  - waarderingsregels
-  - boekhoudkundige continuïteit
-  - juridische continuiteit
+- zetelverplaatsing
+- waarderingsregels
+- boekhoudkundige continuïteit
+- juridische continuiteit
 ---
 
 # CBN-advies 2018/03 – Zetelverplaatsing naar België (inbound) – Verschil in waarderingsregels ten opzichte van het boekhoudkundig referentiestelsel van de Staat van herkomst

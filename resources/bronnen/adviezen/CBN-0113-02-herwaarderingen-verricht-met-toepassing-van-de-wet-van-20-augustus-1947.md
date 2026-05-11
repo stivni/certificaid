@@ -2,55 +2,60 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
 datum: 1979-05-01
 gerelateerde_adviezen:
-  - datum: '2016-09-28'
-    titel: Actualisatie van uitgestelde belastingen (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
-  - datum: '2013-10-23'
-    titel: De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt en bij kapitaalsubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-0
-  - datum: '2013-10-23'
-    titel: De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde belastingregeling geldt en bij kapitaalsubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden
-  - datum: '1992-02-01'
-    titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt. Kapitaalsubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
+- datum: '2016-09-28'
+  titel: Actualisatie van uitgestelde belastingen (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
+- datum: '2013-10-23'
+  titel: De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde
+    meerwaarden waarvoor de uitgestelde-belastingregeling geldt en bij kapitaalsubsidies
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-0
+- datum: '2013-10-23'
+  titel: De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde
+    meerwaarden waarvoor de uitgestelde belastingregeling geldt en bij kapitaalsubsidies
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden
+- datum: '1992-02-01'
+  titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt.
+    Kapitaalsubsidies
+  url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
 nummer: CBN-advies 113/2
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
-      sha256: b926b44b89a5bd144b86ff6e7bf5966d956a51c30621cb87e84db438af66d14f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
+    sha256: b926b44b89a5bd144b86ff6e7bf5966d956a51c30621cb87e84db438af66d14f
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 2781
       file_size_chars: 2781
       flags: []
+      heading_count: 0
+      max_section_chars: 2781
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale:
-      run_at:
+      rationale: null
+      run_at: null
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
     status: trusted
 themas:
-  - gerealiseerde meerwaarde
-  - herwaardering
-  - niet-gerealiseerde meerwaarde
+- gerealiseerde meerwaarde
+- herwaardering
+- niet-gerealiseerde meerwaarde
 ---
 
 # CBN-advies 113/2 - Herwaarderingen verricht met toepassing van de Wet van 20 augustus 1947

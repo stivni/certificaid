@@ -12,40 +12,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: regels 117, 123 en 129 tonen drie ## headings ('## Terreinen en gebouwen', '## Meubilair en rollend materieel', '## Financiële vaste activa') die inhoudelijk subsecties zijn van het Voorbeeld en op ### of #### niveau hadden moeten staan — heading-niveaus zijn onjuist. E1: de balanstabel op regels 111-115 is niet in markdown pipe-syntax maar in space-aligned tekst (pseudo-tabel). D4: regel 101 eindigt op '2/7.\" *' met trailing asterisk-spatie."
+    rationale: "B2: regels 142, 148 en 154 tonen '## Terreinen en gebouwen', '## Meubilair en rollend materieel' en '## Financiële vaste activa' als ## headings die inhoudelijk subsecties zijn van een genummerd Voorbeeld — ze hadden ### of #### niveau moeten hebben. E1: de balanstabel op regels 135-140 is niet in markdown pipe-syntax maar in space-aligned tekst (pseudo-tabel met | als kolom-afbakening maar zonder standaard header-separator rij). D4: regel 125 eindigt op '2/7.\" *' met trailing asterisk-spatie die de italic-sluiting ongeldig maakt."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 12678
+      flags: []
       heading_count: 6
       max_section_chars: 4883
-      file_size_chars: 12672
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "B2: regels 117, 123 en 129 tonen drie ## headings ('## Terreinen en gebouwen', '## Meubilair en rollend materieel', '## Financiële vaste activa') die inhoudelijk subsecties zijn van het Voorbeeld en op ### of #### niveau hadden moeten staan — heading-niveaus zijn onjuist. E1: de balanstabel op regels 111-115 is niet in markdown pipe-syntax maar in space-aligned tekst (pseudo-tabel). D4: regel 101 eindigt op '2/7.\" *' met trailing asterisk-spatie."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "B2: regels 142, 148 en 154 tonen '## Terreinen en gebouwen', '## Meubilair en rollend materieel' en '## Financiële vaste activa' als ## headings die inhoudelijk subsecties zijn van een genummerd Voorbeeld — ze hadden ### of #### niveau moeten hebben. E1: de balanstabel op regels 135-140 is niet in markdown pipe-syntax maar in space-aligned tekst (pseudo-tabel met | als kolom-afbakening maar zonder standaard header-separator rij). D4: regel 125 eindigt op '2/7.\" *' met trailing asterisk-spatie die de italic-sluiting ongeldig maakt."
       concrete_problemen:
-        - regel: 111
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: "| Balans vennootschap A (aandeel in de maatschap : 4/7) | \n| Terreinen en gebouwen | | 228.571,43 | | | | | "
-        - regel: 117
+        - regel: 142
           categorie: B2
           type: other
           voorbeeld: '## Terreinen en gebouwen'
-        - regel: 101
+        - regel: 135
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: "| Balans vennootschap A (aandeel in de maatschap : 4/7) | \n| Terreinen en gebouwen | | 228.571,43 | | | | | "
+        - regel: 125
           categorie: D4
           type: other
-          voorbeeld: '"Het aandeel van vennootschap C in de maatschap bedraagt 2/7." *'
+          voorbeeld: Het aandeel van vennootschap C in de maatschap bedraagt 2/7." *
 themas:
   - burgerlijke maatschap
   - inbreng
@@ -121,6 +121,7 @@ De totale activa van de burgerlijke maatschap bedragen dan 700.000 euro :
 Na de inbreng in de burgerlijke maatschap zullen volgende bedragen op de balans van vennootschap A voorkomen. 
 
 | Balans vennootschap A (aandeel in de maatschap : 4/7) | 
+|---|
 | Terreinen en gebouwen | | 228.571,43 | | | | | 
 | Meubilair en rollend materieel | | 57.142,86 | | Herwaarderingsmeerwaarde[^13] | | 57.142,86 | 
 | | | | | Gerealiseerde meerwaarde | | 42.857,14 | 

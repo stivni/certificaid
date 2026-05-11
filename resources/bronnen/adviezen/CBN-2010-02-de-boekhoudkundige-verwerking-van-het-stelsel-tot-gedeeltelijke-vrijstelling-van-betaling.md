@@ -12,36 +12,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: r74 bevat 'hoewel* \"de bedoelde instellingen...' — asterisk direct vóór aanhalingsteken met spatie na de asterisk, wat een malformed italic-marker is (opening-asterisk-patroon '* \"'). R68 bevat 'rekening 150 *Kapitaalsubsidie* van de vennootschap' — hier ziet de italic er correct uit, maar dit is hetzelfde ETL-patroon als in 2009/13 en verdient verificatie. Klein bestand met slechts 3 inhoudssecties, maar de artefacten zijn reëel."
+    rationale: "D4: r85 bevat 'hoewel* \"de bedoelde instellingen...' — asterisk direct vóór aanhalingsteken gevolgd door spatie, wat een malformed italic-marker is (patroon '* \"' na een woord). R79 bevat '151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of van rekening 150 *Kapitaalsubsidie* van de vennootschap' — het italic-blok voor 'Kapitaalsubsidie' sluit correct, maar dit is hetzelfde ETL-patroon als 2009/13 en verdient ETL-fix."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
+      file_size_chars: 4770
+      flags: []
       heading_count: 3
       max_section_chars: 1483
-      file_size_chars: 4774
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "D4: r74 bevat 'hoewel* \"de bedoelde instellingen...' — asterisk direct vóór aanhalingsteken met spatie na de asterisk, wat een malformed italic-marker is (opening-asterisk-patroon '* \"'). R68 bevat 'rekening 150 *Kapitaalsubsidie* van de vennootschap' — hier ziet de italic er correct uit, maar dit is hetzelfde ETL-patroon als in 2009/13 en verdient verificatie. Klein bestand met slechts 3 inhoudssecties, maar de artefacten zijn reëel."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "D4: r85 bevat 'hoewel* \"de bedoelde instellingen...' — asterisk direct vóór aanhalingsteken gevolgd door spatie, wat een malformed italic-marker is (patroon '* \"' na een woord). R79 bevat '151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of van rekening 150 *Kapitaalsubsidie* van de vennootschap' — het italic-blok voor 'Kapitaalsubsidie' sluit correct, maar dit is hetzelfde ETL-patroon als 2009/13 en verdient ETL-fix."
       concrete_problemen:
-        - regel: 74
+        - regel: 85
           categorie: D4
           type: other
-          voorbeeld: hoewel* "de bedoelde instellingen de vrijheid behouden om te beoordelen
-        - regel: 68
-          categorie: D4
-          type: other
-          voorbeeld: rekening 150 *Kapitaalsubsidie *van de vennootschap (trailing space voor closing *)
+          voorbeeld: hoewel* "de bedoelde instellingen de vrijheid behouden
 themas:
   - bedrijfsvoorheffing
   - compensatie
@@ -57,7 +53,7 @@ themas:
 
 Bedrijfsvoorheffing – compensatie – exploitatiesubsidie – subsidie – vzw – werkingssubsidie
 
-## **Inleiding**
+## Inleiding
 
 Een recent advies van de Commissie handelde over de boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 WIB 92[^1]. 
 

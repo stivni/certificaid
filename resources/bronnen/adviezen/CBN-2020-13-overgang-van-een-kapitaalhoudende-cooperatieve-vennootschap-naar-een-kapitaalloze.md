@@ -12,48 +12,44 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: Systematisch patroon van malformed italic doorheen het hele document — sluit-asterisk wordt regelmatig voorafgegaan door een spatie of er valt een letter buiten de italic span (bv. 'rekening 110 *Beschikbare inbreng buiten kapitaa*l' op regel 129 waarbij 'l' buiten de span valt). B4/B5: Regels 81, 84, 111, 137 bevatten subsectie-titels ('CVBA die beantwoordt aan de definitie...', 'CVBA die niet beantwoordt...') als plain-text paragrafen zonder heading-prefix."
+    rationale: 'D4: Systematisch patroon van malformed italic doorheen het document — sluit-asterisk regelmatig voorafgegaan door een spatie (regels 93, 77, 101) of een letter valt buiten de italic span (regel 153: `rekening 110 *Beschikbare inbreng buiten kapitaa*l`). B5: Regels 105, 108, 135, 161 bevatten subsectie-titels (`CVBA die beantwoordt aan de definitie...`, `CVBA die niet beantwoordt...`) als plain-text paragrafen zonder heading-prefix, terwijl `#### Algemene regel` op regel 136 wél een heading heeft — inconsistente structuur.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 11
-      max_section_chars: 12992
-      file_size_chars: 24321
+      file_size_chars: 24319
       flags: []
+      heading_count: 11
+      max_section_chars: 12991
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "D4: Systematisch patroon van malformed italic doorheen het hele document — sluit-asterisk wordt regelmatig voorafgegaan door een spatie of er valt een letter buiten de italic span (bv. 'rekening 110 *Beschikbare inbreng buiten kapitaa*l' op regel 129 waarbij 'l' buiten de span valt). B4/B5: Regels 81, 84, 111, 137 bevatten subsectie-titels ('CVBA die beantwoordt aan de definitie...', 'CVBA die niet beantwoordt...') als plain-text paragrafen zonder heading-prefix."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'D4: Systematisch patroon van malformed italic doorheen het document — sluit-asterisk regelmatig voorafgegaan door een spatie (regels 93, 77, 101) of een letter valt buiten de italic span (regel 153: `rekening 110 *Beschikbare inbreng buiten kapitaa*l`). B5: Regels 105, 108, 135, 161 bevatten subsectie-titels (`CVBA die beantwoordt aan de definitie...`, `CVBA die niet beantwoordt...`) als plain-text paragrafen zonder heading-prefix, terwijl `#### Algemene regel` op regel 136 wél een heading heeft — inconsistente structuur.'
       concrete_problemen:
-        - regel: 69
+        - regel: 93
           categorie: D4
           type: other
-          voorbeeld: Ingevolge de* wet van 23 maart 2019* *tot invoering... — spatie na opening-asterisk
-        - regel: 77
+          voorbeeld: Ingevolge de* wet van 23 maart 2019* *tot invoering...
+        - regel: 153
           categorie: D4
           type: other
-          voorbeeld: '*tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen[^3] * — spatie voor sluit-*'
-        - regel: 129
-          categorie: D4
-          type: other
-          voorbeeld: rekening 110 *Beschikbare inbreng buiten kapitaa*l — 'l' valt buiten italic span
-        - regel: 81
+          voorbeeld: rekening 110 *Beschikbare inbreng buiten kapitaa*l
+        - regel: 105
           categorie: B5
           type: other
-          voorbeeld: CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV (plain text, geen heading)
-        - regel: 84
+          voorbeeld: CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV
+        - regel: 108
           categorie: B5
           type: other
-          voorbeeld: CVBA die niet beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV (plain text)
+          voorbeeld: CVBA die niet beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV
 themas:
   - CVBA
   - coöperatieve vennootschap
@@ -117,7 +113,7 @@ Een CVOA die zich op 1 januari 2024 nog niet vrijwillig heeft omgezet, wordt op 
 Zoals reeds toegelicht door de Commissie in het CBN-advies 2019/14 - *Van een kapitaalhoudende BVBA naar een kapitaalloze BV*, wordt voor de kapitaalloze vennootschappen de rekening 11* Inbreng buiten kapitaal *van de minimum indeling van een rekeningenstelsel (MAR) gebruikt voor de ontvangen of toegekende inbrengen waarbij een onderscheid wordt gemaakt naargelang deze inbreng al dan niet beschikbaar is.
 
 CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV
-#### Algemene regel 
+#### Algemene regel
 
 Een op 1 mei 2019 bestaande CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV, is wat betreft haar kapitaalbestanddelen onderworpen aan de bepalingen van het WVV vanaf 1 januari 2020, of, bij een eerdere “opt in”[^20], vanaf de bekendmaking van de statutenwijziging. Voor een dergelijke CVBA die haar boekjaar afsluit per kalenderjaar en geen voorafgaand gebruik maakte van een opt-in, is de laatste jaarrekening waarin sprake is van een kapitaal de jaarrekening met afsluitingsdatum 31 december 2019. 
 
@@ -158,7 +154,7 @@ De Commissie merkt op dat de wetgever niet heeft voorzien in expliciete bepaling
 
 Het niet-gestorte gedeelte van het kapitaal wordt eveneens op overeenkomstige wijze geboekt. Op het ogenblik dat nadien deze bedragen worden opgevraagd, wordt voormelde vermogensrekening “niet-opgevraagde inbrengen” gecrediteerd en wordt een vordering op de aandeelhouder geboekt. Dit heeft dan tot gevolg dat ook deze bedragen geboekt staan op dezelfde beschikbare of onbeschikbare eigen vermogensrekening.
 
-## Inbreng of verhoging van de inbreng in een vanaf 1 mei 2019 opgerichte CV of in een vennootschap overgegaan of omgezet in een in het WVV gedefinieerde CV 
+## Inbreng of verhoging van de inbreng in een vanaf 1 mei 2019 opgerichte CV of in een vennootschap overgegaan of omgezet in een in het WVV gedefinieerde CV
 
 Een CV opgericht na 1 mei 2019 en een CVBA overgegaan in een CV heeft geen kapitaal maar een inbreng. De rubriek I. *Inbreng* bevat het ingebrachte vermogen, dat bestaat uit de bedongen waarde van alle door de aandeelhouders toegezegde inbrengen in geld of in natura[^23], voor zover niet terug uitgekeerd. 
 

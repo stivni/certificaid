@@ -3,43 +3,45 @@ bron: https://www.cbn-cnc.be/nl/adviezen/beding-van-eigendomsvoorbehoud-uitdrukk
 datum: 1985-09-01
 nummer: CBN-advies 106/4
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/beding-van-eigendomsvoorbehoud-uitdrukkelijk-ontbindend-beding-boekhoudkundige-verwerking
-      sha256: 451809518250a07e8fb49ee7552ca201a1ae2beff859e8089ca71cf7fed80052
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/beding-van-eigendomsvoorbehoud-uitdrukkelijk-ontbindend-beding-boekhoudkundige-verwerking
+    sha256: 451809518250a07e8fb49ee7552ca201a1ae2beff859e8089ca71cf7fed80052
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T21:31:10Z'
     confirmed_by: human
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
+      file_size_chars: 9003
+      flags: []
       heading_count: 2
       max_section_chars: 4170
-      file_size_chars: 9005
-      flags: []
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale:
-      run_at:
+      rationale: null
+      run_at: null
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
     status: trusted
 themas:
-  - uitdrukkelijk ontbindend beding
-  - zekerheden
-  - beding van eigendomsvoorbehoud
-  - eigendomsvoorbehoud
-  - materiële vaste activa
+- uitdrukkelijk ontbindend beding
+- zekerheden
+- beding van eigendomsvoorbehoud
+- eigendomsvoorbehoud
+- materiële vaste activa
 ---
 
 # CBN-advies 106/4 - Beding van eigendomsvoorbehoud - Uitdrukkelijk ontbindend beding. Boekhoudkundige verwerking
@@ -60,7 +62,7 @@ Anderzijds hebben derde schuldeisers van de verkoper er geen belang bij dat de j
 
 De Commissie heeft er zich niet toe beperkt na te gaan welke gevolgen de wettelijke bekrachtiging van de tegenwerpelijkheid van deze bedingen zou hebben op de vermelding daarvan in de jaarrekening. Zij vond het gepast om ook dieper in te gaan op de manier waarop verrichtingen waaraan dergelijke bepalingen zijn verbonden, in de jaarrekening moeten worden uitgedrukt. 
 
-#### BIJ EEN VERKOOPOVEREENKOMST MET EEN UITDRUKKELIJK ONTBINDEND BEDING 
+## BIJ EEN VERKOOPOVEREENKOMST MET EEN UITDRUKKELIJK ONTBINDEND BEDING
 
 Naar zij kon vaststellen, bestaat er geen discussie noch controverse over de invloed van een uitdrukkelijk ontbindend beding op de boekhoudkundige verwerking van de verkoopsverrichting waarop dit beding betrekking heeft. 
 
@@ -70,7 +72,7 @@ Wordt de verkoper niet betaald en roept hij het ontbindend beding in, dan wordt,
 
 De uitdrukking van deze verkoop en de ontbinding ervan, in de boekhouding en de jaarrekening van beide partijen, is een weerspiegeling van de burgerrechtelijke afwikkeling van de twee opeenvolgende, zij het tegenovergestelde fasen. Dit schept geen enkel probleem, tenzij bij overlapping van boekjaren. 
 
-#### BIJ EEN VERKOOPOVEREENKOMST ONDER EIGENDOMSVOORBEHOUD 
+## BIJ EEN VERKOOPOVEREENKOMST ONDER EIGENDOMSVOORBEHOUD
 
 Voor een verkoop onder eigendomsvoorbehoud zijn de zaken op het eerste gezicht niet zo duidelijk. Hoort bij de boekhoudkundige verwerking van deze verrichting het aspect «verkoop» de bovenhand te krijgen of veeleer het niet overdragen van de eigendom ? In de eerste veronderstelling boekt de verkoper de prijs als vordering aan actiefzijde van de balans, niet het goed dat is verkocht. Hierdoor wordt het resultaat uit de verkoop geboekt op het ogenblik van de levering of de facturatie, dus niet op een later tijdstip, wanneer de prijs integraal is betaald. De koper daarentegen boekt de toevoeging van het goed aan zijn patrimonium als tegenwaarde van de verschuldigde prijs. Het eigendomsvoorbehoud wordt door de koper bij de verplichtingen geboekt, zoals een zekerheid. 
 

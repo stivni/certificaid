@@ -12,41 +12,37 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4/B3: regel 65 toont '### * Algemene kenmerken*' met asterisken rondom de heading-tekst — malformed italic-markup binnen een heading. B5: regel 120 toont '** 2. Kantonnement**' als bold plain-text pseudo-heading in plaats van een ### heading. E2: regels 143-145 en 151-153 tonen gebroken tabelrijen waarbij rekeningnummers en -namen over meerdere regels buiten de tabelcellen lopen (tabs gebrukt als uitlijning)."
+    rationale: "B5: regel 139 toont '** 2. Kantonnement**' als bold plain-text pseudo-heading in plaats van een ### heading — structureel inconsistent met de andere subsecties die wel ### headings gebruiken. E2: regels 162-164 en 170-172 tonen gebroken tabelrijen waarbij rekeningnummers en -namen over meerdere regels buiten de tabelcellen lopen met tab-uitlijning ('700-707\\n\\t\\t\\t(of 499 | Verkopen en dienstprestaties\\n\\t\\t\\tVerkopen materiële vaste activa)')."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 9
-      max_section_chars: 7110
-      file_size_chars: 16482
+      file_size_chars: 16330
       flags: []
+      heading_count: 9
+      max_section_chars: 7132
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "D4/B3: regel 65 toont '### * Algemene kenmerken*' met asterisken rondom de heading-tekst — malformed italic-markup binnen een heading. B5: regel 120 toont '** 2. Kantonnement**' als bold plain-text pseudo-heading in plaats van een ### heading. E2: regels 143-145 en 151-153 tonen gebroken tabelrijen waarbij rekeningnummers en -namen over meerdere regels buiten de tabelcellen lopen (tabs gebrukt als uitlijning)."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "B5: regel 139 toont '** 2. Kantonnement**' als bold plain-text pseudo-heading in plaats van een ### heading — structureel inconsistent met de andere subsecties die wel ### headings gebruiken. E2: regels 162-164 en 170-172 tonen gebroken tabelrijen waarbij rekeningnummers en -namen over meerdere regels buiten de tabelcellen lopen met tab-uitlijning ('700-707\\n\\t\\t\\t(of 499 | Verkopen en dienstprestaties\\n\\t\\t\\tVerkopen materiële vaste activa)')."
       concrete_problemen:
-        - regel: 65
-          categorie: D4
-          type: other
-          voorbeeld: '### * Algemene kenmerken*'
-        - regel: 120
+        - regel: 139
           categorie: B5
           type: other
           voorbeeld: '** 2. Kantonnement**'
-        - regel: 143
+        - regel: 162
           categorie: E2
           type: pseudo-table
           voorbeeld: "| | 700-707\n\t\t\t(of 499 | Verkopen en dienstprestaties \n\t\t\tVerkopen materiële vaste activa) | 4.750,00 | |"
-        - regel: 151
+        - regel: 170
           categorie: E2
           type: pseudo-table
           voorbeeld: "| | 700 – 707\n\t\t\t(of 499 | Verkopen en dienstprestaties \n\t\t\tVerkopen materiële vaste activa) | 4.750,00 | |"
@@ -59,15 +55,6 @@ themas:
 
 # CBN-advies 2012/4 - De boekhoudkundige verwerking van de inbeslagname in hoofde van de beslagen schuldenaar Advies van 11 januari 2012
 
-1. Bewarend beslag 
-  1. Algemene kenmerken 
-  2. Boekhoudkundige analyse 
-
-2. Uitvoerend beslag 
-  1. Algemene kenmerken 
-  2. Boekhoudkundige analyse 
-  3. Voorbeeld 
-
 ## Inleiding
 
 Luidens de artikelen 7 en 8 van de Hypotheekwet is de schuldenaar gehouden zijn verbintenissen na te komen, *onder verband van* al zijn goederen, hetzij roerende, hetzij onroerende, zowel tegenwoordige als toekomstige, waarbij de goederen van deze laatste strekken tot gemeenschappelijke waarborg voor zijn schuldeisers.[^1] 
@@ -78,7 +65,7 @@ De Commissie voor Boekhoudkundige Normen behandelt in dit advies de boekhoudkund
 
 ## Bewarend beslag
 
-### * Algemene kenmerken*
+### Algemene kenmerken
 
  Het bewarend beslag wordt geregeld door het artikel 1413 e.v. van het Gerechtelijk Wetboek en heeft tot doel het geheel of een deel van de goederen van een onderneming onbeschikbaar[^5] te maken, teneinde deze goederen te vrijwaren van enige ontvreemding ervan door de onderneming.[^6] 
 
@@ -121,7 +108,7 @@ Wanneer met inachtneming van de procedureregels van de gedwongen openbare verkoo
 
 ### Boekhoudkundige analyse
 
-### 1. Uitvoerend beslag 
+### 1. Uitvoerend beslag
 
 Zolang de toewijzing in het kader van de openbare verkoop niet heeft plaatsgevonden, zal er volgens de Commissie op boekhoudkundig vlak geen realisatie van de in beslag genomen goederen plaatsvinden. Het uitvoerend beslag kan evenwel, in de fase voorafgaand aan de verkoop, een aanzienlijke invloed hebben op de vermogenstoestand van de onderneming. 
 
@@ -168,6 +155,7 @@ Bij de bepaling van het resultaat:
 			(of 499 | Verkopen en dienstprestaties 
 			Verkopen materiële vaste activa) | 4.750,00 | |
 | | 2419 | Geboekte afschrijvingen op meubilair en rollend materieel | 3.200,00 | |
+|---|---|---|---|---|
 | | 663 | Minderwaarden op de realisatie van vaste activa | 50,00 | |
 | aan | 2410 | Meubilair en rollend materieel | | 8.000,00 |
 

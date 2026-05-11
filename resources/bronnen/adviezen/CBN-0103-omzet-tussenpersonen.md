@@ -2,51 +2,57 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
 datum: 1977-08-01
 gerelateerde_adviezen:
-  - datum: '1988-06-01'
-    titel: Omzet van expediteurs
-    url: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
+- datum: '1988-06-01'
+  titel: Omzet van expediteurs
+  url: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
 nummer: CBN-advies 103
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
-      sha256: 9fe8f8368372e19e030cfb6ebe21f487d98bd122381c58765b829588ca177520
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
+    sha256: 9fe8f8368372e19e030cfb6ebe21f487d98bd122381c58765b829588ca177520
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bug B3 (duplicate heading) is opgelost: body bevat één heading '# CBN advies 103 - Omzet - Tussenpersonen'. Inhoud is volledig (uitgebreide analyse van makelaar/mandataris/commissionair). Geen artefacten, geen unicode-issues, geen broken markup. Ziet eruit als mens-geschreven."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 4390
       file_size_chars: 4390
       flags: []
+      heading_count: 0
+      max_section_chars: 4390
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "Bug B3 (duplicate heading) is opgelost: body bevat één heading '# CBN advies 103 - Omzet - Tussenpersonen'. Inhoud is volledig (uitgebreide analyse van makelaar/mandataris/commissionair). Geen artefacten, geen unicode-issues, geen broken markup. Ziet eruit als mens-geschreven."
       concrete_problemen: []
+      rationale: 'Bug B3 (duplicate heading) is opgelost: body bevat één heading ''#
+        CBN advies 103 - Omzet - Tussenpersonen''. Inhoud is volledig (uitgebreide
+        analyse van makelaar/mandataris/commissionair). Geen artefacten, geen unicode-issues,
+        geen broken markup. Ziet eruit als mens-geschreven.'
+      run_at: '2026-05-11T13:16:02Z'
+      status: trusted
+    rationale: 'Bug B3 (duplicate heading) is opgelost: body bevat één heading ''#
+      CBN advies 103 - Omzet - Tussenpersonen''. Inhoud is volledig (uitgebreide analyse
+      van makelaar/mandataris/commissionair). Geen artefacten, geen unicode-issues,
+      geen broken markup. Ziet eruit als mens-geschreven.'
+    status: trusted
 themas:
-  - commissionair
-  - expediteur
-  - lijnagent
-  - makelaar
-  - mandataris
-  - omzet
-  - reder
-  - tussenpersoon
+- commissionair
+- expediteur
+- lijnagent
+- makelaar
+- mandataris
+- omzet
+- reder
+- tussenpersoon
 ---
 
 # CBN advies 103 - Omzet - Tussenpersonen

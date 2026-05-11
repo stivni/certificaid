@@ -25,37 +25,37 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'A3: Twee TOC-artefacten: geneste nummerlijst op regels 79-89, en aaneengesloten TOC-concatenatie op regel 91 (`Inwerkingtreding WVV en KB WVVDe te gebruiken modellen...-- Aanpassing...`). D2: Op regels 114, 116, 120 en 191-193 staan italic plaatshouders voor figuren (`*Volledig, verkort en micromodel van de jaarrekening: samenstelling...*`) zonder de eigenlijke figuur of tabel — figuurinhoud verdwenen bij extractie.'
+    rationale: "A7: Regels 94-96 bevatten twee weesregels (`van de jaarrekening`) vóór `## Inleiding` — fragmenten van de ondertitel die bij extractie los kwamen. D2: Regels 118, 120, 124 en 197 bevatten italic plaatshouders voor figuren (`*Volledig, verkort en micromodel van de jaarrekening...*`) zonder de eigenlijke figuur of tabel — grafische inhoud is verdwenen bij extractie. De kern van het advies (schema's eigen vermogen) is daardoor niet leesbaar."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 10
-      max_section_chars: 10887
-      file_size_chars: 23769
+      file_size_chars: 22973
       flags: []
+      heading_count: 10
+      max_section_chars: 10092
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: 'A3: Twee TOC-artefacten: geneste nummerlijst op regels 79-89, en aaneengesloten TOC-concatenatie op regel 91 (`Inwerkingtreding WVV en KB WVVDe te gebruiken modellen...-- Aanpassing...`). D2: Op regels 114, 116, 120 en 191-193 staan italic plaatshouders voor figuren (`*Volledig, verkort en micromodel van de jaarrekening: samenstelling...*`) zonder de eigenlijke figuur of tabel — figuurinhoud verdwenen bij extractie.'
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "A7: Regels 94-96 bevatten twee weesregels (`van de jaarrekening`) vóór `## Inleiding` — fragmenten van de ondertitel die bij extractie los kwamen. D2: Regels 118, 120, 124 en 197 bevatten italic plaatshouders voor figuren (`*Volledig, verkort en micromodel van de jaarrekening...*`) zonder de eigenlijke figuur of tabel — grafische inhoud is verdwenen bij extractie. De kern van het advies (schema's eigen vermogen) is daardoor niet leesbaar."
       concrete_problemen:
-        - regel: 91
-          categorie: A3
-          type: other
-          voorbeeld: Inwerkingtreding WVV en KB WVVDe te gebruiken modellen van de jaarrekening-- Aanpassing...
-        - regel: 114
+        - regel: 94
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "van de jaarrekening \n\n van de jaarrekening"
+        - regel: 118
           categorie: D2
           type: missing-section
           voorbeeld: '*Volledig, verkort en micromodel van de jaarrekening: samenstelling van het eigen vermogen van kapitaalvennootschappen[^15]*'
-        - regel: 193
+        - regel: 197
           categorie: D2
           type: missing-section
           voorbeeld: "'Nieuw' model van de jaarrekening voor kapitaalloze vennootschappen*"
@@ -75,21 +75,9 @@ themas:
 
 # CBN-advies 2020/01 – Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België: nieuwe modellen van de jaarrekening
 
-1. Inleiding 
-2. Schema van de enkelvoudige jaarrekening voor vennootschappen met rechtspersoonlijkheid 
-3. Schema van de jaarrekening voor VZW’s IVZW’s en stichtingen
+van de jaarrekening 
 
-4. Inwerkingtreding WVV en KB WVV 
-5. De te gebruiken modellen van de jaarrekening 
-  1. Aanpassing aan de modellen van de jaarrekening door de Nationale Bank van België 
-    1. Aangepaste modellen voor vennootschappen 
-    2. Aangepaste modellen voor VZW’s, IVZW’s en stichtingen 
-
-  2. Gebruik van de ‘oude’ XBRL-modellen
- van de jaarrekening 
-
-Inwerkingtreding WVV en KB WVVDe te gebruiken modellen van de jaarrekening-- Aanpassing aan de modellen van de jaarrekening door de Nationale Bank van België---- Aangepaste modellen voor vennootschappen---- Aangepaste modellen voor VZW’s, IVZW’s en stichtingen-- Gebruik van de ‘oude’ XBRL-modellen
- van de jaarrekening 
+ van de jaarrekening
 
 ## Inleiding
 
@@ -123,7 +111,7 @@ Volledig, verkort en micromodel van de jaarrekening: samenstelling van het eigen
 
 De vennootschappen die hun jaarrekening moeten opmaken overeenkomstig de schema’s uit het KB WVV volgen voor de neerlegging van hun jaarrekening een model van jaarrekening dat door de Nationale Bank van België wordt opgesteld na advies van de Commissie en dat op haar website ter beschikking wordt gesteld.[^18] 
 
-## Schema van de jaarrekening voor VZW’s IVZW’s en stichtingen[^19] 
+## Schema van de jaarrekening voor VZW’s IVZW’s en stichtingen[^19]
 
 Het bestuursorgaan maakt elk jaar een inventaris op volgens de waarderingsmaatstaven bepaald door de Koning.[^20]
  Het bestuursorgaan maakt ieder jaar een jaarrekening op in de vorm en met de inhoud bepaald door de Koning.[^21]
@@ -170,7 +158,7 @@ Het KB WVV heeft naar aanleiding hiervan in artikel 9:10 een aantal wijzigingen 
 
 Zo wordt de rekening 11 *Uitgiftepremies* vervangen door de volgende rekeningen:
 
-### 11 Inbreng buiten kapitaal 
+### 11 Inbreng buiten kapitaal
 
    110 Beschikbare inbreng buiten kapitaal 
 

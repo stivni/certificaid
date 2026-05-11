@@ -25,44 +25,44 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: meerdere journaalboekingstabellen (regels 135–136, 142–144, 148–150, 154–157) missen de `|---|` header-separator rij — ze worden niet als markdown-tabellen herkend. D4: regel 81 bevat 'I*I.A.' waarbij de `*` een italic-markup opent die niet gesloten wordt en tegelijk de referentie naar 'paragraaf II.A.' vermangelt. B5: regel 85 'Verhoging van belang in een geassocieerde onderneming...' is een sectie-titel als plain text zonder heading-prefix."
+    rationale: "D4: regel 99 bevat 'I*I.A.' waarbij de asterisk een italic-marker opent die niet correct sluit en de referentie naar 'paragraaf II.A.' vermangelt. B5: regel 103 'Verhoging van belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft' is een sectie-titel als plain text zonder heading-prefix. E2: de tabellen op regels 153–155 en 161–164 missen een correcte header-separator rij of hebben onjuiste kolomaantallen."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 2
-      max_section_chars: 15042
-      file_size_chars: 15973
+      file_size_chars: 16103
       flags: []
+      heading_count: 2
+      max_section_chars: 15172
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "E2: meerdere journaalboekingstabellen (regels 135–136, 142–144, 148–150, 154–157) missen de `|---|` header-separator rij — ze worden niet als markdown-tabellen herkend. D4: regel 81 bevat 'I*I.A.' waarbij de `*` een italic-markup opent die niet gesloten wordt en tegelijk de referentie naar 'paragraaf II.A.' vermangelt. B5: regel 85 'Verhoging van belang in een geassocieerde onderneming...' is een sectie-titel als plain text zonder heading-prefix."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "D4: regel 99 bevat 'I*I.A.' waarbij de asterisk een italic-marker opent die niet correct sluit en de referentie naar 'paragraaf II.A.' vermangelt. B5: regel 103 'Verhoging van belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft' is een sectie-titel als plain text zonder heading-prefix. E2: de tabellen op regels 153–155 en 161–164 missen een correcte header-separator rij of hebben onjuiste kolomaantallen."
       concrete_problemen:
-        - regel: 81
+        - regel: 99
           categorie: D4
           type: other
           voorbeeld: paragraaf I*I.A. Verhoging van belang in een geassocieerde onderneming*
-        - regel: 85
+        - regel: 103
           categorie: B5
           type: other
           voorbeeld: Verhoging van belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft
-        - regel: 135
+        - regel: 153
           categorie: E2
           type: other
-          voorbeeld: '| Overgedragen winst – lopend boekjaar *[Balans]* | | 16 | | |  (geen |---| separator)'
-        - regel: 142
+          voorbeeld: '| Overgedragen winst – lopend boekjaar *[Balans]* | | 16 | | | '
+        - regel: 161
           categorie: E2
           type: other
-          voorbeeld: '| Investering 2 | | 100 |  (geen header + geen |---| rij)'
+          voorbeeld: '| Investering 2 | | 100 |  (geen header + geen |---| separator rij)'
 themas:
   - consolidatie
   - stapsgewijze verwerving
@@ -137,6 +137,7 @@ Deze verwerving wordt als volgt verwerkt in de geconsolideerde jaarrekening:
 | aan | Geboekte afschrijvingen op consolidatieverschillen [Balans] | | | 16 |
 
 | Overgedragen winst – lopend boekjaar *[Balans]* | | 16 | | | 
+|---|---|---|---|---|
 | aan | | Over te dragen winst *[Resultatenrekening]* | | | | 1 | 
 
 In 20X2, één jaar na de initiële verwerving, verhoogt de onderneming ABC haar belang in de geassocieerde onderneming DEF met 10 %. Ze betaalt hiervoor 100 daar waar de netto-activa op het ogenblik van deze bijkomende verwerving 800 bedragen.
@@ -144,18 +145,21 @@ In 20X2, één jaar na de initiële verwerving, verhoogt de onderneming ABC haar
 Dit impliceert dat op de tweede acquisitiedatum in de geconsolideerde jaarrekening volgend positief consolidatieverschil dient te worden erkend:
 
 | Investering 2 | | 100 | 
+|---|---|---|
 | Aandeel in netto-activa | | 80 (800 x 10 %) | 
 | Positief consolidatieverschil | | 20 | 
 
 Deze bijkomende verwerving wordt als volgt verwerkt in de geconsolideerde jaarrekening:
 
 | Vennootschappen waarop vermogensmutatiemethode is toegepast *[Balans]* | | 80 | | | 
+|---|---|---|---|---|
 | Positieve consolidatieverschillen *[Balans]* | | 20 | | | 
 | aan | | Deelnemingen in ondernemingen waarmee een deelnemingsverhouding bestaat *[Balans]* | | | | 100 | 
 
 Daarnaast wordt het positieve consolidatieverschil over 5 jaar afgeschreven:
 
 | Afschrijvingen op positieve consolidatieverschillen *[Resultatenrekening]* | | 4 | | | 
+|---|---|---|---|---|
 | aan | | Geboekte afschrijvingen op consolidatieverschillen *[Balans]* | | | | 4 | 
 | Overgedragen winst – lopend boekjaar *[Balans]* | | 4 | | | 
 | aan | | Over te dragen winst *[Resultatenrekening]* | | | | 4 | 
@@ -165,6 +169,7 @@ Het positieve consolidatieverschil, dat werd erkend n.a.v. de initiële verwervi
 Samengevat kan worden gesteld dat op het einde van het boekjaar 20X2 de geconsolideerde jaarrekening van ABC met betrekking tot haar belang in geassocieerde onderneming DEF, als volgt kan worden weergegeven:
 
 | | | | | Investering | | Investering | | ∑ | 
+|---|---|---|---|---|---|---|---|---|
 | | | | | 1 | | 2 | | | 
 | Positieve consolidatieverschillen - Aanschaffingswaarde [*Balans*] | | | | 80 | | 20 | | 100 | 
 | | | | | | | | | | 
@@ -193,6 +198,7 @@ De Commissie is de mening toegedaan dat het mogelijk moet zijn om, in het kader 
 De onderneming TTT[^16] verwerft op 1 januari 20X1 een belang van 30 % in de onderneming UUU voor 5.000. De balans van onderneming UUU is op acquisitiedatum als volgt:
 
 | Balans UUU op 1 januari 2011 | 
+|---|
 | Gebouwen | | 4.000 | | Kapitaal | | 6.000 | 
 | Vorderingen | | 3.000 | | Reserves | | 3.000 | 
 | Liquide middelen | | 2.000 | | | | | 
@@ -211,6 +217,7 @@ Voor de boekhoudkundige verwerking in de geconsolideerde balans van onderneming 
 Het resultaat van het boekjaar, afgesloten op 31 december 20X1, ten belope van 5.000 werd integraal aan de reserves toegevoegd, hetgeen leidt tot volgende balans per 31 december 20X1:
 
 | Balans UUU op 31 december 2011 | 
+|---|
 | Gebouwen | | 4.000 | | Kapitaal | | 6.000 | 
 | Vorderingen | | 3.000 | | Reserves | | 8.000 | 
 | Liquide middelen | | 7.000 | | | | | 

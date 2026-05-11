@@ -2,54 +2,58 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-groenestroom-en-warmtekrachtcertificaten
 datum: 2009-12-16
 gerelateerde_adviezen:
-  - datum: '2002-05-02'
-    titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen(1)
-    url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
-  - datum: '2008-10-29'
-    titel: Advies horizontale consolidatie in combinatie met administratiekantoren
-    url: https://www.cbn-cnc.be/nl/adviezen/advies-horizontale-consolidatie-in-combinatie-met-administratiekantoren
+- datum: '2002-05-02'
+  titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie
+    van aandelen van handelsvennootschappen(1)
+  url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
+- datum: '2008-10-29'
+  titel: Advies horizontale consolidatie in combinatie met administratiekantoren
+  url: https://www.cbn-cnc.be/nl/adviezen/advies-horizontale-consolidatie-in-combinatie-met-administratiekantoren
 nummer: CBN-advies 2009/14
 provenance:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-groenestroom-en-warmtekrachtcertificaten
-      sha256: 85136cbdeddd74f045516293aabbc109e971c34503da8aee4b443e3d933d8c60
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-groenestroom-en-warmtekrachtcertificaten
+    sha256: 85136cbdeddd74f045516293aabbc109e971c34503da8aee4b443e3d933d8c60
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T21:19:09Z'
     confirmed_by: human
     layer1:
-      status: warn
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 18
-      max_section_chars: 30136
       file_size_chars: 71732
       flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ####-niveau: 30136 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
+      - detail: 'langste sectie op ####-niveau: 30136 chars (>24000); chunker splitst
+          auto op alinea-grenzen via split_long_chunk'
+        name: max_section_size
+        samples: []
+        status: warn
+      heading_count: 18
+      max_section_chars: 30136
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: warn
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale:
-      run_at:
+      rationale: null
+      run_at: null
       status: not_run
-    rationale: 'Heading-structuur hersteld: <p class=''indented''> → ### headings. 18 headings op H3/H4-niveau over 71K chars. max_section_size warn is benign (meting op ## niveau, chunking op H4 niveau aanbevolen). Inhoud volledig.'
+    rationale: 'Heading-structuur hersteld: <p class=''indented''> → ### headings.
+      18 headings op H3/H4-niveau over 71K chars. max_section_size warn is benign
+      (meting op ## niveau, chunking op H4 niveau aanbevolen). Inhoud volledig.'
     status: trusted
 themas:
-  - certificaten
-  - groenestroomcertificaten
-  - immateriële vaste activa
-  - warmtekrachtcertificaten
+- certificaten
+- groenestroomcertificaten
+- immateriële vaste activa
+- warmtekrachtcertificaten
 ---
 
 # CBN-advies 2009/14 - Boekhoudkundige verwerking van groenestroom- en warmtekrachtcertificaten
@@ -58,13 +62,13 @@ themas:
 
 Aan de Commissie werd om advies gevraagd omtrent de boekhoudkundige behandeling van groenestroom- en warmtekrachtcertificaten. Vooraleer te kunnen overgaan tot de boekhoudkundige analyse, is een studie van het wettelijk kader en het systeem van groenestroom- en warmtekrachtcertificaten noodzakelijk.
 
-#### EUROPESE WETGEVING
+## EUROPESE WETGEVING
 
 In het kader van de Kyoto-doelstellingen is de bevordering van elektriciteitsopwekking uit hernieuwbare energiebronnen[^1] een van de prioritaire maatregelen. Het Europees Parlement en de Raad heeft via de Richtlijn 2001/77/EG[^2] betreffende de bevordering van elektriciteitsopwekking uit hernieuwbare energiebronnen op de interne elektriciteitsmarkt en de Richtlijn 2004/8/EG[^3] inzake de bevordering van warmtekrachtkoppeling op basis van de vraag naar nuttige warmte binnen de interne energiemarkt, getracht de productie van *groene elektriciteit* te stimuleren.
 
 Bovendien dienden, in navolging van de Richtlijn 2003/54/EG[^4], de Europese landen hun elektriciteitsmarkt vrij te maken tegen uiterlijk 1 juli 2007[^5]. Alle lidstaten kregen de mogelijkheid een eigen liberaliseringkalender op te stellen.
 
-#### BELGISCHE WETGEVING
+## BELGISCHE WETGEVING
 
 In België zijn de bevoegdheden betreffende de elektriciteitsmarkt verdeeld tussen de federale overheid en de gewesten. De federale overheid is bevoegd voor de tarieven van elektriciteit, het hoogspanningsnet (d.i. het transmissienet) met een spanning van meer dan 70kV (kilovolt), de productie van elektriciteit en kernenergie alsook voor alles wat zich in de Noordzee binnen de Belgische Exclusieve Economische Zone[^6] afspeelt.
 
@@ -78,7 +82,7 @@ Zowel op federaal[^10] als op gewestelijk vlak is in een systeem van groenstroom
 
 ### Het Vlaams Gewest
 
-#### Vrijmaking van de elektriciteitsmarkt
+## Vrijmaking van de elektriciteitsmarkt
 
 Vóór de vrijmaking van de elektriciteitsmarkt hadden elektriciteitsafnemers geen keuze bij het bepalen van de elektriciteitsleverancier. Gezinnen en bedrijven konden enkel aansluiten bij de elektriciteitsintercommunale van hun gemeente. Die intercommunale stond in voor de zogenaamde *distributie van elektriciteit*: ze zorgde zowel voor de verkoop van elektriciteit als voor de infrastructuur (het aanleggen van leidingen, het onderhouden ervan en het aansluiten op het net van nieuwe afnemers).
 
@@ -91,7 +95,7 @@ Na de vrijmaking van de elektriciteitsmarkt werd de distributie van elektricitei
 - *De verkoop van elektriciteit*: de levering van energie. Dit gebeurt door de energieleveranciers, die met elkaar concurreren. Vooraleer de leveranciers elektriciteit kunnen leveren in Vlaanderen moeten ze een leveringsvergunning krijgen van de VREG. Die vergunning wordt enkel toegekend indien ze kunnen bewijzen dat ze technisch voldoende georganiseerd zijn en financieel voldoende draagkrachtig zijn om elektriciteit te verhandelen[^24]. Deze vergunning kan ook weer worden ingetrokken indien de leverancier zich niet aan de reglementen houdt of de energiewetgeving overtreedt. 
 - *Het distrubutienetbeheer*: het uitbaten, onderhouden en ontwikkelen van het distributienet blijft in de vrijgemaakte elektriciteitsmarkt in handen van de distributienetbeheerders. Dit zijn de elektriciteitsintercommunales. Het beheer van het distributienet blijft een monopolieactiviteit omdat het bestaande net zo efficiënt mogelijk moet worden gebruikt. Op deze manier wordt ook vermeden dat verschillende elektriciteitsnetten naast elkaar zouden worden aangelegd. 
 
-#### Het systeem van groenestroomcertificaten
+## Het systeem van groenestroomcertificaten
 
 *a) Toekenning van groenestroomcertificaten* 
 
@@ -135,7 +139,7 @@ Groenestroomcertificaten zijn vrij verhandelbaar[^44]. De producent heeft de keu
 
 Binnen de vijf werkdagen na verkoop deelt de verkoper aan de VREG de gegevens mee met betrekking tot de verhandelde groenestroomcertificaten: de nieuwe eigenaar, de verkoopprijs en de datum van verkoop. De VREG publiceert maandelijks de gemiddelde prijs van de groenestroomcertificaten en biedt op een algemeen toegankelijke manier de mogelijkheid om het aanbod en de vraag van de groenestroomcertificaten bekend te maken[^45].
 
-#### Het systeem van warmtekrachtcertificaten
+## Het systeem van warmtekrachtcertificaten
 
 Een producent kan ook elektriciteit opwekken uit warmtekoppelingsinstallaties. Daarbij wordt niet alleen elektriciteit geproduceerd, maar wordt ook de vrijgekomen warmte gebruikt.
 
@@ -143,7 +147,7 @@ In het Vlaams Gewest bestaat een afzonderlijk certificatensysteem[^46] ter onder
 
 ### Het Waals Gewest
 
-#### Vrijmaking van de energiemarkt
+## Vrijmaking van de energiemarkt
 
 Het decreet van 12 april 2001[^50] betreffende de organisatie van de gewestelijke elektriciteitsmarkt regelt de aanwijziging van de netbeheerders[^51], hun rechten en verplichtingen alsook de toegang[^52] tot de netten[^53]. Het decreet voorziet mede daartoe in de oprichting van een reguleringscommissie, de Commission wallonne de Régulation pour l’Energie, hierna CWaPE genoemd, een autonoom orgaan met een adviesopdracht aan de overheid enerzijds en een algemene opdracht van toezicht en controle op de werking van de gewestelijke elektriciteitsmarkt anderzijds[^54].
 
@@ -151,7 +155,7 @@ De Waalse regering stelt, na advies van de CWaPE, één beheerder aan voor het p
 
 In het Waalse Gewest kunnen vanaf 1 januari 2007 alle afnemers[^60] vrij een elektriciteitsleveringsovereenkomst afsluiten met een leverancier[^61] naar hun keuze[^62].
 
-#### Het systeem van groene certificaten
+## Het systeem van groene certificaten
 
 *a) Label van garantie van oorsprong[^63]* 
 
@@ -189,13 +193,13 @@ De netbeheerder is verplicht de overtollige productie van de op zijn net aangesl
 
 De producent van groene elektriciteit kan een deel of het geheel van de groene certificaten die hem zijn toegekend rechtstreeks aan de netbeheerder overmaken[^83]. De duur van deze verplichting tot aankoop van groene certificaten wordt door CWaPE bepaald[^84].
 
-#### Het systeem van warmtekrachtcertificaten
+## Het systeem van warmtekrachtcertificaten
 
 In het Waalse Gewest komen kwalitatieve wermtekrachtkoppelingsinstallaties in aanmerking voor de toekenning van eerder besproken groene certificaten.
 
 ### Het Brussels Hoofdstedelijk Gewest
 
-#### Vrijmaking van de energiemarkt
+## Vrijmaking van de energiemarkt
 
 De ordonnantie van 19 juli 2001[^85] betreffende de organisatie van de elektriciteitsmarkt in het Brussels Hoofdstedelijk Gewest regelt het beheer van het gewestelijk transmissienet[^86], van het distributienet[^87] alsook de toegang tot beide netten[^88].
 
@@ -211,7 +215,7 @@ De in aanmerking komende afnemers en de toegang tot het distributienet worden vo
 
 De leveranciers komen in aanmerking voor de hoeveelheid elektriciteit verbruikt door hun eindafnemers. De leveranciers beschikken over en leveringsvergunning om aan deze afnemers elektriciteit te leveren voor een verbruikslocatie in het Brussels Hoofdstedelijk Gewest.
 
-#### Het systeem van groenestroomcertificaten
+## Het systeem van groenestroomcertificaten
 
 De liberalisering laat afnemers toe een leverancier te kiezen die een aanzienlijk deel groene energie aanbiedt. De ontwikkeling van een mechanisme van groenestroomcertificaten was een belangrijke stap in deze richting. Meteen werden hierdoor de producenten aangespoord om over te stappen naar de opwekking van groene elektriciteit en warmtekrachtkoppeling[^100].
 
@@ -249,7 +253,7 @@ BRUGEL maakt, op basis van de voorgelegde labels van garantie van oorsprong, op 
 
 Slaagt een producent[^116] uit het Brussels Hoofdstedelijk Gewest er niet volledig in zijn geproduceerde energie te verkopen, dan zijn de leveranciers die instaan voor de levering aan de afnemers verplicht tot aankoop van deze elektriciteitsoverschotten, en dit tegen de marktprijs en binnen de grenzen van de behoeften van hun afnemers. Bovenop die behoeften wordt de verplichting overgedragen op de andere leveranciers[^117].
 
-#### Het systeem van warmtekrachtcertificaten
+## Het systeem van warmtekrachtcertificaten
 
 In het Brussels Hoofdstedelijk Gewest komen kwalitatieve warmtekrachtkoppelingsinstallaties in aanmerking voor de toekenning van groenestroomcertificaten. 
 
@@ -263,7 +267,7 @@ Aangezien de Noordzee onder de federale bevoegdheid valt (cfr. supra), werd voor
 
 Alhoewel er grote gelijkenissen zijn met advies 179/1 *Boekhoudkundige verwerking van broeikasgasemissierechten[^121]* , wijst de Commissie evenwel op een aantal belangrijke verschillen tussen de groenestroom- en warmtekrachtcertificaten en de broeikasgasemissierechten. Het belangrijkste verschil is dat de partijen die certificaatgerechtigd zijn (de producenten), niet (altijd) dezelfde zijn als degenen die de certificaten moet indienen om aan de quotumverplichting te voldoen (de certificaatplichtingen, zijnde de leveranciers). Dit is wel het geval voor broeikasgasemissierechten, waar de rollen van certificaatgerechtigde en quotumplichtige partij altijd samenvallen. Toch hebben beide systemen gemeenschappelijk dat de certificaten en broeikasgasemissierechten kunnen verhandeld worden als onderdeel van het proces gericht op het inleveren van een voldoende aantal certificaten/broeikasgasemissierechten.
 
-#### Boekhoudkundige verwerking bij de producent
+## Boekhoudkundige verwerking bij de producent
 
 De toekenning van de groenestroomcertificaten[^122] betreft een soort van tegemoetkoming van de overheid voor de aanzienlijke investering verricht door de producent ter productie van energie uit hernieuwbare energiebronnen[^123].
 
@@ -309,7 +313,7 @@ De verkoopprijs van de certificaten op de markt kan eventueel hoger zijn dan dez
 | | 741 | Meerwaarden op de courante realisatie van vaste activa | ... | |
 | | 451 | Te betalen btw | ... | |
 
-#### Boekhoudkundige verwerking bij de leverancier
+## Boekhoudkundige verwerking bij de leverancier
 
 Energieleveranciers zijn verplicht om jaarlijks een aantal certificaten voor te leggen aan de gewestelijke regulator. Het aantal in te leveren certificaten is afhankelijk van het marktaandeel van de leverancier tijdens het jaar voorafgaand aan het jaar waarop de leverancier de certificaten moet overmaken aan de regulator. 
 

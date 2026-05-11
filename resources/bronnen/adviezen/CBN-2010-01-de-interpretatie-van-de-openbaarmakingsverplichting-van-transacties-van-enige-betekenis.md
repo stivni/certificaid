@@ -3,58 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakings
 datum: 2010-01-13
 nummer: CBN-advies 2010/1
 provenance:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis
-      sha256: f8cb0768ae41a60178408e84719465b10aa085621e8b1f65eda22c87b97a02e3
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis
+    sha256: f8cb0768ae41a60178408e84719465b10aa085621e8b1f65eda22c87b97a02e3
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
+      file_size_chars: 13743
+      flags: []
       heading_count: 7
       max_section_chars: 9089
-      file_size_chars: 14145
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale:
-      run_at:
+      rationale: null
+      run_at: null
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
     status: trusted
 themas:
-  - buiten normale marktvoorwaarden
-  - corporate governance
-  - materialiteitsbeginsel
-  - transactie buiten normale marktvoorwaarden
-  - transactie met verbonden partijen
-  - transactie van enige betekenis
+- buiten normale marktvoorwaarden
+- corporate governance
+- materialiteitsbeginsel
+- transactie buiten normale marktvoorwaarden
+- transactie met verbonden partijen
+- transactie van enige betekenis
 ---
 
 # CBN-advies 2010/1 - De interpretatie van de openbaarmakingsverplichting van transacties van enige betekenis met verbonden partijen buiten normale marktvoorwaarden, zoals bepaald in het koninklijk besluit van 10 augustus 2009
-
-CBN-advies 2010/1 - De interpretatie van de openbaarmakingsverplichting van transacties van enige betekenis met verbonden partijen buiten normale marktvoorwaarden, zoals bepaald in het koninklijk besluit van 10 augustus 2009 
-
-1. Situering 
-2. Toepassingsgebied 
-  1. Eerste categorie 
-  2. Tweede categorie 
-
-3. Materialiteitsbeginsel 
-4. Transacties buiten normale marktvoorwaarden 
-5. Besluit 
 
 Via het Koninklijk besluit van 10 augustus 2009 (*B.S*., 24.08.2009) is in intern Belgisch algemeen jaarrekeningenrecht voorzien in de omzetting van artikelen 1, 6) en 2, 1) van Richtlijn 2006/46/EG van het Europees Parlement en de Raad van 14 juni 2006 tot wijziging van de Richtlijnen 78/660/EEG van de Raad betreffende de jaarrekening van bepaalde vennootschapsvormen, 83/349/EEG van de Raad betreffende de geconsolideerde jaarrekening, 86/635/EEG van de Raad betreffende de jaarrekening en de geconsolideerde jaarrekening van banken en andere financiële instellingen en 91/674/EEG van de Raad betreffende de jaarrekening en de geconsolideerde jaarrekening van verzekeringsondernemingen (Publicatieblad van de Europese Unie, L 224/1, 16.08.2006).
 
@@ -70,7 +61,7 @@ Aan de Commissie werd de vraag gesteld welke transacties precies moeten vermeld 
 
 ## Toepassingsgebied
 
-### *Eerste categorie*
+### Eerste categorie
 
 Enerzijds worden volgende categorieën van vennootschappen verplicht om informatie betreffende van enige betekenis zijnde transacties tussen verbonden partijen buiten normale marktvoorwaarden op te nemen in hun toelichting: genoteerde vennootschappen[^1], vennootschappen waarvan de effecten zijn toegelaten op een MTF (Multilateral Trading Facility) zoals bedoeld in artikel 2, 4° van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten, en vennootschappen die meer dan één van de criteria bedoeld in artikel 16, § 1, eerste lid, W.Venn. overschrijden. 
 
@@ -83,7 +74,7 @@ Veronderstel bijvoorbeeld dat de moedervennootschap A 99 procent van de aandelen
 
 Hetzelfde geldt indien bijvoorbeeld de moedervennootschap A 100 procent van de aandelen bezit van dochteronderneming X en 40 procent van onderneming Y. X bezit de overige 60 procent van Y. Ook in dit geval moeten de transacties van enige betekenis die buiten normale marktvoorwaarden plaatsvinden tussen A, X en Y dus niet opgenomen te worden in de nieuwe staat van de toelichting.
 
-### *Tweede categorie*
+### Tweede categorie
 
 *Naamloze* vennootschappen die niet tot de eerder vermelde drie categorieën van ondernemingen behoren kunnen zich beperken tot het vermelden van enkel de van enig betekenis zijnde transacties, buiten normale marktvoorwaarden, die direct of indirect zijn aangegaan tussen de vennootschap en haar voornaamste aandeelhouders en de vennootschap en de leden van de leidinggevende, de toezichthoudende of de bestuursorganen.
 

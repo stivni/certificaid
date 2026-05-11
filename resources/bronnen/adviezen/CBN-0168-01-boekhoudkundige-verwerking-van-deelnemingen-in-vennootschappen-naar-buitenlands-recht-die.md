@@ -2,58 +2,60 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-deelnemingen-in-vennootschappen-naar-buitenlands-recht-die
 datum: 1993-12-01
 gerelateerde_adviezen:
-  - datum: '2011-03-16'
-    titel: De boekhoudkundige verwerking van grensoverschrijdende partiële splitsingen
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-partiele-splitsingen
-  - datum: '2011-04-16'
-    titel: De boekhoudkundige verwerking van grensoverschrijdende splitsingen
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-splitsingen
-  - datum: '2010-11-10'
-    titel: Gebruik van uniforme boekhoudsoftware door internationale ondernemingen
-    url: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
-  - datum: '2009-01-14'
-    titel: 'In België gevestigde vennootschappen naar buitenlands recht: toepassingsgebied van artikelen 81, 82, 83 en 107 van het Wetboek van vennootschappen'
-    url: https://www.cbn-cnc.be/nl/adviezen/in-belgie-gevestigde-vennootschappen-naar-buitenlands-recht-toepassingsgebied-van
+- datum: '2011-03-16'
+  titel: De boekhoudkundige verwerking van grensoverschrijdende partiële splitsingen
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-partiele-splitsingen
+- datum: '2011-04-16'
+  titel: De boekhoudkundige verwerking van grensoverschrijdende splitsingen
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-splitsingen
+- datum: '2010-11-10'
+  titel: Gebruik van uniforme boekhoudsoftware door internationale ondernemingen
+  url: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
+- datum: '2009-01-14'
+  titel: 'In België gevestigde vennootschappen naar buitenlands recht: toepassingsgebied
+    van artikelen 81, 82, 83 en 107 van het Wetboek van vennootschappen'
+  url: https://www.cbn-cnc.be/nl/adviezen/in-belgie-gevestigde-vennootschappen-naar-buitenlands-recht-toepassingsgebied-van
 nummer: CBN-advies 168/1
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-deelnemingen-in-vennootschappen-naar-buitenlands-recht-die
-      sha256: b15256ab098a8ffcf72db2a8ad79b3482d76c881e632b23b80c58a4d1a219ca3
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-deelnemingen-in-vennootschappen-naar-buitenlands-recht-die
+    sha256: b15256ab098a8ffcf72db2a8ad79b3482d76c881e632b23b80c58a4d1a219ca3
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 0
-      max_section_chars: 9137
       file_size_chars: 9137
       flags: []
+      heading_count: 0
+      max_section_chars: 9137
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Inhoudelijk compleet, vijf kenmerken duidelijk opgesomd, conclusie expliciet. Past perfect als één RAG-chunk.'
+      rationale: '[Laag-2-R2 2026-05-08] Inhoudelijk compleet, vijf kenmerken duidelijk
+        opgesomd, conclusie expliciet. Past perfect als één RAG-chunk.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - buitenlandse onderneming
-  - buitenlandse vennootschap
-  - deelneming
-  - financiële vaste activa
-  - schulden
-  - vennootschap naar buitenlands recht
+- buitenlandse onderneming
+- buitenlandse vennootschap
+- deelneming
+- financiële vaste activa
+- schulden
+- vennootschap naar buitenlands recht
 ---
 
 # CBN-advies 168/1 - Boekhoudkundige verwerking van deelnemingen in vennootschappen naar buitenlands recht, die niet alle kenmerken van de rechtspersoonlijkheid hebben

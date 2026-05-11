@@ -19,38 +19,38 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D1: bestand eindigt abrupt mid-zin op regel 55 met 'Toepassing daarvan zou de vervaardigingsprijs trouwens' — de conclusie van de Commissie ontbreekt volledig. Laag-1 meldt geen flags maar de content-truncatie is een ernstig inhoudelijk probleem dat RAG-resultaten corrumpeert."
+    rationale: "D1: bestand eindigt abrupt mid-zin op regel 55 ('zou de vervaardigingsprijs trouwens') zonder afronding — duidelijke afkapfout in de extractie. Geen voetnoten, geen slotconclusie. Body is inhoudelijk onvolledig."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 1112
-      file_size_chars: 1112
+      file_size_chars: 1111
       flags: []
+      heading_count: 0
+      max_section_chars: 1111
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "D1: bestand eindigt abrupt mid-zin op regel 55 met 'Toepassing daarvan zou de vervaardigingsprijs trouwens' — de conclusie van de Commissie ontbreekt volledig. Laag-1 meldt geen flags maar de content-truncatie is een ernstig inhoudelijk probleem dat RAG-resultaten corrumpeert."
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: "D1: bestand eindigt abrupt mid-zin op regel 55 ('zou de vervaardigingsprijs trouwens') zonder afronding — duidelijke afkapfout in de extractie. Geen voetnoten, geen slotconclusie. Body is inhoudelijk onvolledig."
       concrete_problemen:
         - regel: 55
           categorie: D1
           type: abrupt-cutoff
-          voorbeeld: Toepassing daarvan zou de vervaardigingsprijs trouwens
+          voorbeeld: De methode moet ... zou de vervaardigingsprijs trouwens
 themas:
   - financiële kosten
   - vervaardigingsprijs
 ---
 
-# CBN advies 126-5 - Vervaardigingsprijs 
+# CBN advies 126-5 - Vervaardigingsprijs
 
 Aan de Commissie werd gevraagd of de financiële kosten die mogen worden opgenomen in de vervaardigingsprijs van voorraden en bestellingen in uitvoering, waarvan de produktie meer dan één jaar bestrijkt, alle daaraan verbonden financiële kosten omvatten of enkel de financiële kosten die betrekking hebben op de schulden op meer dan één jaar. 
 

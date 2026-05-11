@@ -25,52 +25,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: vier lege ##### headings op r.148, 154, 195, 201 — structuurlabels zonder tekst, een mens schrijft nooit een kopje zonder titel. A4: U+00AC (¬) op r.114 en r.128 als pseudo-koppelteken (bv. 'IPU¬emittenten', '(50 jaar) ¬niet als') — geen standaard markdown-teken, PDF-artefact. Beide types zijn ETL-fixeerbaar."
+    rationale: "D4: r.130 'hetzij bij de* Geldbeleggingen*, hetzij bij de* Financiële vaste activa*' — opening asterisk grenst aan 'de' zonder spatie-na-asterisk (malformed italic). R.154 'het risico [^10]\\n-in de jaarrekening' toont een voetnootreferentie midden in een zin gevolgd door een koppelteken aan het begin van de volgende regel — mogelijk inline-voetnoot-artefact (G3). Overige heading-hiërarchie (##/###/####) en 11 voetnoten zijn correct."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 16
-      max_section_chars: 9933
-      file_size_chars: 19992
+      file_size_chars: 19958
       flags: []
+      heading_count: 12
+      max_section_chars: 6860
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "B3: vier lege ##### headings op r.148, 154, 195, 201 — structuurlabels zonder tekst, een mens schrijft nooit een kopje zonder titel. A4: U+00AC (¬) op r.114 en r.128 als pseudo-koppelteken (bv. 'IPU¬emittenten', '(50 jaar) ¬niet als') — geen standaard markdown-teken, PDF-artefact. Beide types zijn ETL-fixeerbaar."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "D4: r.130 'hetzij bij de* Geldbeleggingen*, hetzij bij de* Financiële vaste activa*' — opening asterisk grenst aan 'de' zonder spatie-na-asterisk (malformed italic). R.154 'het risico [^10]\\n-in de jaarrekening' toont een voetnootreferentie midden in een zin gevolgd door een koppelteken aan het begin van de volgende regel — mogelijk inline-voetnoot-artefact (G3). Overige heading-hiërarchie (##/###/####) en 11 voetnoten zijn correct."
       concrete_problemen:
-        - regel: 148
-          categorie: B3
+        - regel: 130
+          categorie: D4
           type: other
-          voorbeeld: "##### (lege heading zonder tekst na 'Sluiten van de positie')"
+          voorbeeld: hetzij bij de* Geldbeleggingen*, hetzij bij de* Financiële vaste activa*
         - regel: 154
-          categorie: B3
+          categorie: G3
           type: other
-          voorbeeld: '##### (tweede lege heading zonder tekst)'
-        - regel: 195
-          categorie: B3
-          type: other
-          voorbeeld: '##### (derde lege heading zonder tekst)'
-        - regel: 201
-          categorie: B3
-          type: other
-          voorbeeld: '##### (vierde lege heading zonder tekst)'
-        - regel: 114
-          categorie: A4
-          type: other
-          voorbeeld: IPU¬emittenten de aandelenkorf (U+00AC als pseudo-koppelteken)
-        - regel: 128
-          categorie: A4
-          type: other
-          voorbeeld: (50 jaar) ¬niet als "financiële vaste activa" (U+00AC voor woordgrens)
+          voorbeeld: "het risico [^10]\n-in de jaarrekening in een afzonderlijke post"
 themas:
   - dividenduitkering
   - geldbeleggingen
@@ -141,17 +125,13 @@ Om de gebruikelijke waardedaling van de index te compenseren die optreedt ten ge
 
 Op boekhoudrechtelijk vlak dient de storting van deze vergoeding in de rekeningen van de koper als een financiële opbrengst te worden geboekt bij de *Opbrengsten uit vlottende activa* (rekening 751 van het algemeen rekeningenstelsel).
 
-#### Sluiten van de positie 
+#### Sluiten van de positie
 
 Zoals hoger reeds vermeld, kan de fysieke levering van de aandelen die de onderliggende index samenstellen beschouwd worden als een louter juridisch-theoretische mogelijkheid daar zij wordt uitgesloten in de contractuele specificaties van de tot nu toe verhandelde IPU’s. Niettemin wil de Commissie in een advies met algemene draagwijdte de mogelijkheid van een fysieke levering van de aandelen niet uitsluiten. 
-
-##### 
 
 In de meeste gevallen zal het sluiten van de positie aanleiding geven tot een vereffening in contanten via de betaling door de emittent van de waarde van de IPU. Het verschil tussen de aanschaffingswaarde van de IPU en de waarde bij de uitoefening ervan dient in resultaat te worden genomen in een daartoe passende post van de financiële resultaten zoals "65.../75... Opties op indexen". 
 
 Eventueel vroeger geboekte waardeverminderingen dienen bij het sluiten van de positie ofwel te worden tegengeboekt ofwel te worden teruggenomen in de mate waarin de uitoefenprijs zich situeert tussen de aanschaffingswaarde en de netto-boekwaarde. 
-
-##### 
 
 Indien de IPU zou worden uitgeoefend door levering aan de houder van de aandelen uit de korf die de index vertegenwoordigen, dient de aanschaffingswaarde van de geleverde aandelen bepaald te worden op basis van hun koersen bij het sluiten van de positie. De verkregen aandelen worden in de passende actiefpost geboekt (hetzij bij de *Geldbeleggingen*, hetzij bij de* Financiële vaste activa*). Het verschil tussen de beurswaarde van de verkregen aandelen en de aanschaffingswaarde van de IPU wordt op dezelfde wijze en in dezelfde post in resultaat genomen als bij de vereffening in contanten.
 
@@ -164,7 +144,7 @@ Als tegenprestatie verbindt hij zich ertoe :
 - conform de wens van de IPU-houder, ofwel hem het ontvangen bedrag terug te betalen, aangepast in functie van de evolutie van de waarde van de onderliggende index, ofwel hem de aandelen te overhandigen die deel uitmaken van de onderliggende index (louter juridisch-theoretische mogelijkheid , zie hoger) ; 
 - aan de IPU-houder het proportionele aandeel te storten van de betaalbaar gestelde dividenden van de aandelen die deel uitmaken van de onderliggende index. 
 
-#### Verwerking van de door de emittent van de IPU onderschreven verbintenis, het door hem geïnde bedrag en de waardering van het risico[^8] 
+#### Verwerking van de door de emittent van de IPU onderschreven verbintenis, het door hem geïnde bedrag en de waardering van het risico[^8]
 
 De verbintenis om - op verzoek van de IPU-houder - de waarde van de index te leveren, zou kunnen worden erkend bij de niet in de balans opgenomen verplichtingen door een boeking van het type : 
 
@@ -192,13 +172,9 @@ Bijgevolg moet de toekenning van die bedragen worden geboekt bij de "Kosten van 
 
 De wijze waarop het als tegenprestatie voor de uitgifte van de IPU ontvangen bedrag wordt gewaardeerd op elke afsluitingsdatum, zal worden bepaald in functie van het antwoord op de vraag of de emittent al of niet vanuit een gedekte positie handelt. 
 
-##### 
-
 De emittent handelt vanuit een gedekte positie. Daartoe kan hij o.m., ten belope van de door hem uitgegeven IPU’s, de korf van de aandelen die de BEL 20 samenstellen kopen, eenzelfde aantal IPU’s kopen, of een daarmee overeenstemmende call-optie op de BEL 20 kopen. 
 
 In deze hypothese evolueren de respectieve waarden van de uitgegeven IPU’s en de dekkingsactiva in tegengestelde zin en hebben zij - netto - geen invloed op het vermogen van de emittent. Zoals in vorige adviezen is de Commissie van oordeel dat het in dergelijke hypothese niet verantwoord zou zijn om latente verliezen en latente winsten assymetrisch te verwerken aangezien het indekkingsbeleid precies tot doel heeft latente verliezen of winsten te neutraliseren. In die omstandigheden is het aangewezen om de (tegengestelde) evoluties niet te erkennen en worden de respectieve aanschaffingswaarden van de diverse betrokken verrichtingen in de balans behouden zolang de dekking volkomen blijft. 
-
-##### 
 
 De emittent handelt vanuit een ongedekte positie. In dit geval heeft de toepassing van de door de boekhoudregelgeving gehuldigde algemene principes, en meer bepaald het voorzichtigheidsbeginsel, tot gevolg dat : 
 

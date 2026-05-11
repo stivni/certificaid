@@ -3,52 +3,58 @@ bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioe
 datum: 1993-02-01
 nummer: CBN-advies 107/13
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
-      sha256: 07c6349b2dff4577463d3bc6f20e24e63b681e1f854709296f100561a7a5fc1c
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-geindexeerde-pensioenen-en-brugpensioenen
+    sha256: 07c6349b2dff4577463d3bc6f20e24e63b681e1f854709296f100561a7a5fc1c
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 2777
       file_size_chars: 2777
       flags: []
+      heading_count: 0
+      max_section_chars: 2777
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Laag-1 pass (2777 chars). Geen extractie-artefacten: prose vloeit correct, geen gebroken footnote-regels, geen HTML-entities, geen unicode-problemen. Italic correct op *bis*. Footnote op regel 68 heeft omvangrijke inhoud (3 internationale normen) maar is correct opgemaakt. Inhoud inhoudelijk compleet.'
+      rationale: 'Laag-1 pass (2777 chars). Geen extractie-artefacten: prose vloeit
+        correct, geen gebroken footnote-regels, geen HTML-entities, geen unicode-problemen.
+        Italic correct op *bis*. Footnote op regel 68 heeft omvangrijke inhoud (3
+        internationale normen) maar is correct opgemaakt. Inhoud inhoudelijk compleet.'
       run_at: '2026-05-11T11:57:45Z'
       status: trusted
-    rationale: 'Laag-1 pass (2777 chars). Geen extractie-artefacten: prose vloeit correct, geen gebroken footnote-regels, geen HTML-entities, geen unicode-problemen. Italic correct op *bis*. Footnote op regel 68 heeft omvangrijke inhoud (3 internationale normen) maar is correct opgemaakt. Inhoud inhoudelijk compleet.'
+    rationale: 'Laag-1 pass (2777 chars). Geen extractie-artefacten: prose vloeit
+      correct, geen gebroken footnote-regels, geen HTML-entities, geen unicode-problemen.
+      Italic correct op *bis*. Footnote op regel 68 heeft omvangrijke inhoud (3 internationale
+      normen) maar is correct opgemaakt. Inhoud inhoudelijk compleet.'
     status: trusted
 themas:
-  - actuele waarde
-  - brugpensioen
-  - geactualiseerde waarde
-  - geïndexeerde pensioenen en brugpensioenen
-  - pensioen
-  - pensioenvoorzieningen
-  - verplichting inzake rust- of overlevingspensioenen
-  - verplichting voortvloeiend uit brugpensioen
-  - voorziening
-  - voorzieningen voor brugpensioen
-  - voorzieningen voor geïndexeerde pensioenen en brugpensioenen
-  - voorzieningen voor pensioenen
-  - waardering
-  - waardering tegen actuele waarde
+- actuele waarde
+- brugpensioen
+- geactualiseerde waarde
+- geïndexeerde pensioenen en brugpensioenen
+- pensioen
+- pensioenvoorzieningen
+- verplichting inzake rust- of overlevingspensioenen
+- verplichting voortvloeiend uit brugpensioen
+- voorziening
+- voorzieningen voor brugpensioen
+- voorzieningen voor geïndexeerde pensioenen en brugpensioenen
+- voorzieningen voor pensioenen
+- waardering
+- waardering tegen actuele waarde
 ---
 
 # CBN-advies 107/13 - Voorzieningen voor geïndexeerde pensioenen en brugpensioenen

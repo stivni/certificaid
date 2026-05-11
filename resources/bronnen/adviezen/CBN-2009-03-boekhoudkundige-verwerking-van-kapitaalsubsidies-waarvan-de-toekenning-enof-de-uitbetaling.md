@@ -16,57 +16,49 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B4: vier #### headings in all-caps (INLEIDING r.84, OVERZICHT r.92, BEOORDELING r.103, VOORBEELDEN r.150) die mens als ## of ### zou schrijven. E2: drie tabellen zijn volledig afwezig — enkel 'Tabel 1' (r.188), 'Tabel 2' (r.194), 'Tabel 3' (r.267) als plain text placeholders zonder tabelinhoud; dit is significante content-loss. D4: r.172 '***a) Voorbeeld 1 ...**' heeft opening *** en sluitende ** — ongematcht (triple vs double). D4: r.154 '*Kapitaalsubsidies *' heeft spatie voor sluitende asterisk."
+    rationale: "Bevestiging van vorige QA (ronde 1). B4: vier #### headings in all-caps (INLEIDING, OVERZICHT, BEOORDELING, VOORBEELDEN) i.p.v. ##. E2: drie tabellen volledig afwezig — enkel 'Tabel 1' (r.205), 'Tabel 2' (r.211), 'Tabel 3' (r.284) als plain-text placeholders; dit is significante inhoudsverlies. D4: r.189 '***a) Voorbeeld 1...**' heeft ongematcht triple/double asterisk; r.203 '*Kapitaalsubsidies *' heeft spatie voor sluitende asterisk."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
+      file_size_chars: 19651
+      flags: []
       heading_count: 12
       max_section_chars: 11793
-      file_size_chars: 19652
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "B4: vier #### headings in all-caps (INLEIDING r.84, OVERZICHT r.92, BEOORDELING r.103, VOORBEELDEN r.150) die mens als ## of ### zou schrijven. E2: drie tabellen zijn volledig afwezig — enkel 'Tabel 1' (r.188), 'Tabel 2' (r.194), 'Tabel 3' (r.267) als plain text placeholders zonder tabelinhoud; dit is significante content-loss. D4: r.172 '***a) Voorbeeld 1 ...**' heeft opening *** en sluitende ** — ongematcht (triple vs double). D4: r.154 '*Kapitaalsubsidies *' heeft spatie voor sluitende asterisk."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "Bevestiging van vorige QA (ronde 1). B4: vier #### headings in all-caps (INLEIDING, OVERZICHT, BEOORDELING, VOORBEELDEN) i.p.v. ##. E2: drie tabellen volledig afwezig — enkel 'Tabel 1' (r.205), 'Tabel 2' (r.211), 'Tabel 3' (r.284) als plain-text placeholders; dit is significante inhoudsverlies. D4: r.189 '***a) Voorbeeld 1...**' heeft ongematcht triple/double asterisk; r.203 '*Kapitaalsubsidies *' heeft spatie voor sluitende asterisk."
       concrete_problemen:
-        - regel: 84
+        - regel: 101
           categorie: B4
           type: other
-          voorbeeld: '#### INLEIDING (all-caps #### i.p.v. ## Inleiding)'
-        - regel: 92
-          categorie: B4
-          type: other
-          voorbeeld: '#### OVERZICHT VAN DE ALGEMENE BEGINSELEN (all-caps ####)'
-        - regel: 103
-          categorie: B4
-          type: other
-          voorbeeld: '#### BEOORDELING VAN HET VASTSTAAND KARAKTER VAN HET RECHT OP EEN SUBSIDIE (all-caps ####)'
-        - regel: 150
-          categorie: B4
-          type: other
-          voorbeeld: '#### VOORBEELDEN (all-caps ####)'
-        - regel: 188
+          voorbeeld: '## INLEIDING (all-caps ## i.p.v. ## Inleiding)'
+        - regel: 205
           categorie: E2
           type: other
-          voorbeeld: Tabel 1 (placeholder — numerieke inresultaatnemingstabel volledig afwezig)
-        - regel: 194
+          voorbeeld: Tabel 1 (placeholder zonder tabelinhoud — numerieke inresultaatnemingstabel)
+        - regel: 211
           categorie: E2
           type: other
-          voorbeeld: Tabel 2 (placeholder — aflossingsplan tabel volledig afwezig)
-        - regel: 267
+          voorbeeld: Tabel 2 (placeholder zonder tabelinhoud — aflossingsplan)
+        - regel: 284
           categorie: E2
           type: other
-          voorbeeld: Tabel 3 (placeholder — inresultaatneming voorbeeld 2 tabel volledig afwezig)
-        - regel: 154
+          voorbeeld: Tabel 3 (placeholder zonder tabelinhoud — inresultaatneming voorbeeld 2)
+        - regel: 189
+          categorie: D4
+          type: other
+          voorbeeld: '***a) Voorbeeld 1 : Subsidie verkregen...** * (ongematcht *** vs **)'
+        - regel: 203
           categorie: D4
           type: other
           voorbeeld: '*Kapitaalsubsidies * en a rato van 25% (spatie voor sluitende *)'
@@ -81,7 +73,7 @@ themas:
 
 # CBN-advies 2009/3 - Boekhoudkundige verwerking van kapitaalsubsidies waarvan de toekenning en/of de uitbetaling over verschillende jaren wordt gespreid
 
-#### INLEIDING
+## INLEIDING
 
 Sinds kort bestaan er nieuwe subsidiëringsvormen ter compensatie van de budgettaire beperkingen van de overheid die het niet langer mogelijk maakten om onder meer infrastructuren voor zorg- en dienstverlening in het kader van persoonsgebonden aangelegenheden via klassieke kapitaalsubsidies te financieren. Hierdoor kunnen de uitbetaling en zelfs de toekenning van de subsidies over verschillende jaren worden gespreid, op basis van een principieel akkoord dat eventueel en naar gelang van het geval, kan leiden tot een vaste en definitieve dan wel een voorwaardelijke verbintenis van de overheid. De Commissie ontving verschillende vragen om advies in verband met de boekhoudkundige verwerking van dit soort subsidies, in casu de alternatieve investeringssubsidies van het Vlaams Infrastructuurfonds voor Persoonsgebonden Aangelegenheden (hierna VIPA). 
 
@@ -89,7 +81,7 @@ Het leek de Commissie nuttig om de draagwijdte van haar individuele of algemene 
 
 Dit advies – met algemene draagwijdte – is niet alleen bestemd voor handelsvennootschappen, maar ook voor verenigingen zonder winstoogmerk waarop de wet van 17 juli 1975 van toepassing is, onverminderd de eventueel toepasselijke bijzondere regels.
 
-#### OVERZICHT VAN DE ALGEMENE BEGINSELEN
+## OVERZICHT VAN DE ALGEMENE BEGINSELEN
 
 In de huidige stand van de wetgeving gelden, overeenkomstig artikel 95, § 2, van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen[^1], hierna KB W.Venn., voor de boekhoudkundige verwerking van kapitaalsubsidies de volgende regels: 
 
@@ -100,17 +92,17 @@ De subsidies worden geboekt op de datum waarop zij komen vast te staan. De vraag
 
 Wanneer subsidies komen vast te staan nadat reeds met de afschrijving van de gesubsidieerde investeringen is aangevangen, moet de resultatenrekening van het boekjaar waarin de subsidie definitief verworven blijkt, van de subsidies het gedeelte vermelden dat overeenstemt met de reeds verrichte afschrijvingen[^3].
 
-#### BEOORDELING VAN HET VASTSTAAND KARAKTER VAN HET RECHT OP EEN SUBSIDIE
+## BEOORDELING VAN HET VASTSTAAND KARAKTER VAN HET RECHT OP EEN SUBSIDIE
 
 Zoals eerder gezegd, is de vraag op welk ogenblik het recht op het bekomen van de subsidie komt vast te staan, een feitelijke aangelegenheid die voor ieder geval afzonderlijk moet worden beoordeeld[^4]. Die beoordeling behoort in eerste instantie tot de bevoegdheid van het bestuursorgaan[^5].
 
 Pas na onderzoek van de aard van de verbintenis van de subsidiërende overheid zal men kunnen uitmaken of het recht op een subsidie al dan niet vaststaat. Aan het ontstaan van het recht op een subsidie kunnen immers bepaalde voorwaarden gekoppeld zijn die bepalend zijn voor de mate waarin dit recht effectief gestalte krijgt. Voor de realisatie- en doeltreffendheidsgraad van dergelijke rechten hanteert de rechtsleer in de regel een schaal met vijf specifieke stadia[^6], waarvan wij er drie nader onderzoeken. 
 
-##### Vaste en onvoorwaardelijke verbintenis 
+### Vaste en onvoorwaardelijke verbintenis
 
 In dit geval kan geen enkele zekere of onzekere externe gebeurtenis een invloed hebben op het ontstaan van het recht op een subsidie. De subsidie moet worden geboekt zodra de subsidiërende overheid haar verbintenis onvoorwaardelijk en ten belope van het desbetreffende bedrag bevestigt. Ook al geldt daarvoor eventueel een opschortende termijn waarin de eisbaarheid wordt uitgesteld en in schijven opgesplitst, dit vorderingsrecht is ontstaan en staat vast. Deze hypothese stelt geen probleem en de boekhoudkundige verwerking verloopt zoals in voorbeeld 1. 
 
-##### Vaste verbintenis onder opschortende voorwaarde
+### Vaste verbintenis onder opschortende voorwaarde
 
 Zoals bekend is een opschortende voorwaarde een toekomstige en onzekere gebeurtenis waarvan de uitvoering van een verbintenis afhangt. Zodra de opschortende voorwaarde vervuld is, kan de verbintenis worden uitgevoerd en wordt zij een zuivere verplichting. Die uitwerking geldt retroactief tot op de datum waarop de verplichting had dienen te worden uitgevoerd mocht zij niet bezwaard zijn geweest met een opschortende voorwaarde.
 
@@ -141,13 +133,13 @@ Met andere woorden, wanneer het recht op uitbetaling van de subsidie nog afhangt
 
 In dat geval zal de rechthebbende bijgevolg moeten vaststellen dat de verrichting nog steeds voorwaardelijk is. Hetzelfde geldt, bij voorbeeld, wanneer de te ontvangen subsidie nog het fiat moet krijgen van een voogdijoverheid met een discretionaire bevoegdheid. 
 
-##### Eventuele rechten
+### Eventuele rechten
 
 Een eventueel schuldvorderingsrecht is het recht waarvan de afloop afhangt van een intrinsieke toekomstige en onzekere gebeurtenis die bepalend is voor een essentieel aspect of bestanddeel van het recht zelf. 
 
 Een belangrijke vaststelling is dat eventuele rechten geen retroactieve werking hebben, in tegenstelling tot voorwaardelijke rechten. Naar het oordeel van de Commissie mag er geen eventuele vordering met betrekking tot een te ontvangen subsidie worden geboekt. Bijgevolg dient in casu de boekhoudkundige verwerking uit voorbeeld 2 te worden gevolgd.
 
-#### VOORBEELDEN
+## VOORBEELDEN
 
 Hieronder behandelen wij – op basis van identieke cijfergegevens – het geval van een subsidie die is verkregen om de aanschaffing te financieren van materiële vaste activa, met gespreide uitbetaling over 20 jaar, en het geval van een stroom van over 20 opeenvolgende jaren te verkrijgen subsidies, zoals bij alternatieve VIPA-subsidiëring[^9]. 
 

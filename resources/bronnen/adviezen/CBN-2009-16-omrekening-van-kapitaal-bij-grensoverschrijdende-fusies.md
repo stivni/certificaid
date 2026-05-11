@@ -2,54 +2,62 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/omrekening-van-kapitaal-bij-grensoverschrijdende-fusies
 datum: 2009-12-16
 gerelateerde_adviezen:
-  - datum: '2022-09-23'
-    titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
-  - datum: '2022-02-15'
-    titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
-    url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-  - datum: '2021-11-22'
-    titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-  - datum: '2021-07-02'
-    titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+- datum: '2022-09-23'
+  titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen
+- datum: '2022-02-15'
+  titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
+  url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+- datum: '2021-11-22'
+  titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
+  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+- datum: '2021-07-02'
+  titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
 nummer: CBN-advies 2009/16
 provenance:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/omrekening-van-kapitaal-bij-grensoverschrijdende-fusies
-      sha256: 83dc21653a6c045697a3cc20ede1abb140dfde829e847e94ef0aef58d448ddef
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/omrekening-van-kapitaal-bij-grensoverschrijdende-fusies
+    sha256: 83dc21653a6c045697a3cc20ede1abb140dfde829e847e94ef0aef58d448ddef
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:09:17Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 5
-      max_section_chars: 4266
       file_size_chars: 10643
       flags: []
+      heading_count: 5
+      max_section_chars: 4266
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen substantiële extractie-artefacten. Vijf secties correct als ## headings opgemaakt, voetnoten [^1]–[^18] volledig gedefinieerd, inhoud compleet. De CAPS-headings (INLEIDING, TE VOLGEN PROCEDURE, etc.) zijn de stijl van dit advies en consistent. Geen invisible unicode, geen broken tables, geen afgekapte zinnen.'
+      rationale: 'Geen substantiële extractie-artefacten. Vijf secties correct als
+        ## headings opgemaakt, voetnoten [^1]–[^18] volledig gedefinieerd, inhoud
+        compleet. De CAPS-headings (INLEIDING, TE VOLGEN PROCEDURE, etc.) zijn de
+        stijl van dit advies en consistent. Geen invisible unicode, geen broken tables,
+        geen afgekapte zinnen.'
       run_at: '2026-05-11T12:09:17Z'
       status: trusted
-    rationale: 'Geen substantiële extractie-artefacten. Vijf secties correct als ## headings opgemaakt, voetnoten [^1]–[^18] volledig gedefinieerd, inhoud compleet. De CAPS-headings (INLEIDING, TE VOLGEN PROCEDURE, etc.) zijn de stijl van dit advies en consistent. Geen invisible unicode, geen broken tables, geen afgekapte zinnen.'
+    rationale: 'Geen substantiële extractie-artefacten. Vijf secties correct als ##
+      headings opgemaakt, voetnoten [^1]–[^18] volledig gedefinieerd, inhoud compleet.
+      De CAPS-headings (INLEIDING, TE VOLGEN PROCEDURE, etc.) zijn de stijl van dit
+      advies en consistent. Geen invisible unicode, geen broken tables, geen afgekapte
+      zinnen.'
     status: trusted
 themas:
-  - fusie
-  - grensoverschrijdende fusie
+- fusie
+- grensoverschrijdende fusie
 ---
 
 # CBN-advies 2009/16 Omrekening van kapitaal bij grensoverschrijdende fusies

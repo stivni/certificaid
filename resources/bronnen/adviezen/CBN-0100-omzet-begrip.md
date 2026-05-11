@@ -2,46 +2,55 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/omzet-begrip
 datum: 1977-08-01
 gerelateerde_adviezen:
-  - datum: '1991-03-01'
-    titel: Verwerking in de geconsolideerde jaarrekening van de vermogensbestanddelen en de resultaten op de datum waarop de geconsolideerde jaarrekening wordt afgesloten
-    url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-geconsolideerde-jaarrekening-van-de-vermogensbestanddelen-en-de
+- datum: '1991-03-01'
+  titel: Verwerking in de geconsolideerde jaarrekening van de vermogensbestanddelen
+    en de resultaten op de datum waarop de geconsolideerde jaarrekening wordt afgesloten
+  url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-geconsolideerde-jaarrekening-van-de-vermogensbestanddelen-en-de
 nummer: CBN-advies 100
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-begrip
-      sha256: 0651a46284667473bcb25099b0a2a168d21a95975e629ef2f6a6dbe5efa8c061
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/omzet-begrip
+    sha256: 0651a46284667473bcb25099b0a2a168d21a95975e629ef2f6a6dbe5efa8c061
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:16:01Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel 'CBN advies 100 - Omzet – Begrip' staat slechts eenmaal (r51). Geen andere artefacten gevonden. Inhoud volledig: definitie omzetcijfer correct geciteerd, voetnoot [^1] aanwezig en correct gelinkt. Em-dash in de titel (Omzet – Begrip) is typografisch correct voor de CBN-huisstijl."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 819
       file_size_chars: 819
       flags: []
+      heading_count: 0
+      max_section_chars: 819
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:01Z'
-      rationale: "B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel 'CBN advies 100 - Omzet – Begrip' staat slechts eenmaal (r51). Geen andere artefacten gevonden. Inhoud volledig: definitie omzetcijfer correct geciteerd, voetnoot [^1] aanwezig en correct gelinkt. Em-dash in de titel (Omzet – Begrip) is typografisch correct voor de CBN-huisstijl."
       concrete_problemen: []
+      rationale: 'B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de
+        H1-titel ''CBN advies 100 - Omzet – Begrip'' staat slechts eenmaal (r51).
+        Geen andere artefacten gevonden. Inhoud volledig: definitie omzetcijfer correct
+        geciteerd, voetnoot [^1] aanwezig en correct gelinkt. Em-dash in de titel
+        (Omzet – Begrip) is typografisch correct voor de CBN-huisstijl.'
+      run_at: '2026-05-11T13:16:01Z'
+      status: trusted
+    rationale: 'B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel
+      ''CBN advies 100 - Omzet – Begrip'' staat slechts eenmaal (r51). Geen andere
+      artefacten gevonden. Inhoud volledig: definitie omzetcijfer correct geciteerd,
+      voetnoot [^1] aanwezig en correct gelinkt. Em-dash in de titel (Omzet – Begrip)
+      is typografisch correct voor de CBN-huisstijl.'
+    status: trusted
 themas:
-  - verwerking van vermogensbestanddelen
-  - voordelen bovenop het loon
-  - omzet
+- verwerking van vermogensbestanddelen
+- voordelen bovenop het loon
+- omzet
 ---
 
 # CBN advies 100 - Omzet – Begrip

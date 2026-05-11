@@ -25,27 +25,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:26:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E1: de voorbeeldtabellen op regels 246-263 (omzet/balanstotaal per vennootschap + berekeningstabellen) zijn pseudo-pipe-tabellen zonder markdown header+separator-rij. B1: op regel 117 staat '708 *Toegekende kortingen, ristorno's en rabatten (-)' als plain tekst zonder heading-prefix terwijl regel 115 '### 700 tot 707 *Verkopen en dienstprestaties*' wél een heading is — inconsistente behandeling van dezelfde structuurlaag. Inhoud is verder volledig (31 headings, 25 voetnoten, consistentiebeginsel uitvoerig behandeld)."
+    rationale: "E1: de voorbeeldtabellen op regels 246-263 (omzet/balanstotaal per vennootschap + berekeningstabellen) zijn pseudo-pipe-tabellen zonder markdown header+separator-rij. B1: op regel 117 staat '708 *Toegekende kortingen, ristorno's en rabatten (-)' als plain tekst zonder heading-prefix terwijl regel 115 '### 700 tot 707 *Verkopen en dienstprestaties*' wél een heading is — inconsistente behandeling van dezelfde structuurlaag. (Herbevestiging van eerdere beoordeling.)"
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 31
-      max_section_chars: 15625
-      file_size_chars: 31313
+      file_size_chars: 31336
       flags: []
+      heading_count: 31
+      max_section_chars: 15614
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "E1: de voorbeeldtabellen op regels 246-263 (omzet/balanstotaal per vennootschap + berekeningstabellen) zijn pseudo-pipe-tabellen zonder markdown header+separator-rij. B1: op regel 117 staat '708 *Toegekende kortingen, ristorno's en rabatten (-)' als plain tekst zonder heading-prefix terwijl regel 115 '### 700 tot 707 *Verkopen en dienstprestaties*' wél een heading is — inconsistente behandeling van dezelfde structuurlaag. Inhoud is verder volledig (31 headings, 25 voetnoten, consistentiebeginsel uitvoerig behandeld)."
+      run_at: '2026-05-11T15:26:40Z'
+      rationale: "E1: de voorbeeldtabellen op regels 246-263 (omzet/balanstotaal per vennootschap + berekeningstabellen) zijn pseudo-pipe-tabellen zonder markdown header+separator-rij. B1: op regel 117 staat '708 *Toegekende kortingen, ristorno's en rabatten (-)' als plain tekst zonder heading-prefix terwijl regel 115 '### 700 tot 707 *Verkopen en dienstprestaties*' wél een heading is — inconsistente behandeling van dezelfde structuurlaag. (Herbevestiging van eerdere beoordeling.)"
       concrete_problemen:
         - regel: 117
           categorie: B1
@@ -124,11 +124,11 @@ Artikel 3:90, I.A. van het koninklijk besluit van 29 april 2019 ter uitvoering v
 
 De minimumindeling van het algemeen rekeningenstelsel (hierna: MAR) voorziet binnen rubriek 70 *Omzet* de volgende onderverdeling:
 
-### 700 tot 707 *Verkopen en dienstprestaties* 
+### 700 tot 707 *Verkopen en dienstprestaties*
 
 708 *Toegekende kortingen, ristorno’s en rabatten (-)*
 
-### *Voorbeeld*
+### Voorbeeld
 
 De resultatenrekening bevat de volgende gegevens:
 - jaaromzet excl. btw: 3.300.000 euro; 
@@ -145,7 +145,7 @@ Naast de ‘klassieke’ omzet (70), wordt met bedrijfsopbrengsten, met uitzonde
 
 De financiële opbrengsten (75), met uitzondering van de niet-recurrente financiële opbrengsten, omvatten onder meer de *Andere financiële opbrengsten*. Deze bestaan uit de meerwaarden verwezenlijkt bij de realisatie van vorderingen, andere dan handelsvorderingen, van geldbeleggingen en van liquide middelen, de als opbrengst geboekte kapitaal- en interestsubsidies, de wisselresultaten en de resultaten uit de omrekening van vreemde valuta tenzij deze specifiek verbonden zijn met een andere post van de resultatenrekening; in dit laatste geval mogen ze onder die post worden opgenomen, en alle opbrengsten van financiële aard die geen verband houden met welbepaalde activa.[^7] 
 
-### Voorbeeld 
+### Voorbeeld
 
 Uit de resultatenrekening blijken de volgende cijfers:
 - jaaromzet excl. btw: 300.000 euro; 
@@ -198,7 +198,7 @@ Bijgevolg kan een consortium worden samengesteld uit meerdere microvennootschapp
 
 Daar een microvennootschap een subcategorie is van een kleine vennootschap, kan een vennootschap enkel als microvennootschap worden beschouwd indien zij de criteria van artikel 1:24, § 1 WVV niet overschrijdt. In principe wordt er aan deze voorwaarde voldaan aangezien de grensbedragen van artikel 1:24, § 1 WVV hoger zijn dan die opgenomen in artikel 1:25, § 1 WVV. Aangezien er sprake is van een consortium, moet de beoordeling van de grensbedragen van artikel 1:24 § 1 WVV echter plaatsvinden op geconsolideerde of geaggregeerde basis, namelijk door rekening te houden met de gegevens van alle vennootschappen die deel uitmaken van het consortium in toepassing van artikel 1:24, §§ 6 en 7 WVV. In bepaalde gevallen kan het dus voorkomen dat indien het aantal microvennootschappen binnen het consortium zodanig is gestegen dat de criteria van artikel 1:24 WVV op geconsolideerde of geaggregeerde basis eveneens worden overschreden, deze vennootschappen niet meer als ‘klein’ kunnen worden beschouwd. Zo zal kwalificatie als microvennootschap eveneens worden uitgesloten, zelfs indien de vennootschappen die het consortium uitmaken, op individuele basis de grensbedragen van artikel 1:25 WVV niet overschrijden.
 
-### *Voorbeeld 1* 
+### Voorbeeld 1
 
 Vennootschap X heeft geen dochtervennootschappen en maakt deel uit van een consortium.
 De criteria van artikel 1:24, § 1 WVV worden op geconsolideerde of geaggregeerde basis niet overschreden:
@@ -206,14 +206,14 @@ De criteria van artikel 1:24, § 1 WVV worden op geconsolideerde of geaggregeerd
 X voldoet aan de criteria zoals bepaald in artikel 1:25 WVV:
 -> X kan niet worden gelijkgesteld met een moedervennootschap voor de toepassing van artikel 1:25 WVV;
 -> X is een microvennootschap.
-### *Voorbeeld 2*
+### Voorbeeld 2
 
 Vennootschap X heeft geen dochtervennootschappen en maakt deel uit van een consortium.
 De criteria van artikel 1:24, § 1 WVV worden op geconsolideerde of geaggregeerde basis overschreden:
 -> de vennootschappen die het consortium vormen (inclusief X), zijn geen kleine vennootschappen;
    -> X is geen microvennootschap ook al voldoet zij op enkelvoudige basis aan de criteria zoals bepaald in artikel 1:25 WVV.
 
-### *Voorbeeld 3*
+### Voorbeeld 3
 
 Vennootschap X bezit dochtervennootschappen en maakt deel uit van een consortium.
 De criteria van artikel 1:24, § 1 WVV worden op geconsolideerde of geaggregeerde basis overschreden.
@@ -236,7 +236,7 @@ De beoordeling op basis van de cijfers van de volledige groep geldt niet alleen 
 
 Om het personeelsbestand te berekenen, wordt het gemiddeld aantal werknemers per vennootschap van alle verbonden vennootschappen berekend volgens de onder *titel III. Personeelsbestand* van onderhavig advies opgenomen methode. 
 
-#### Vereenvoudigde methode: berekening van het balanstotaal en de omzet van alle verbonden vennootschappen op geaggregeerde basis (+ 20 %) 
+#### Vereenvoudigde methode: berekening van het balanstotaal en de omzet van alle verbonden vennootschappen op geaggregeerde basis (+ 20 %)
 
 Een beoordeling van de grensbedragen van de omzet en het balanstotaal op geconsolideerde basis vergt bijkomende administratieve lasten wanneer een vennootschap op grond van het WVV niet verplicht is om een geconsolideerde jaarrekening op te maken[^19]. Een vennootschap die behoort tot een groep van beperkte omvang[^20] wordt immers vrijgesteld van de verplichting om een geconsolideerde jaarrekening op te stellen.[^21]
  Om te vermijden dat uitsluitend voor de beoordeling van de groottecriteria van een vennootschap een consolidatieoefening moet plaatsvinden, kan een moedervennootschap er volgens een tweede methode voor opteren om voor de beoordeling van de groottecriteria, louter de totalen van de omzet en de balanstotalen van al de verbonden vennootschappen op te tellen. In dit laatste geval worden de grensbedragen betreffende het balanstotaal en de netto-omzet zoals opgenomen in artikel 1:24, § 1 WVV vermeerderd met twintig procent[^22]
@@ -256,6 +256,7 @@ Een individuele moedervennootschap binnen een groep heeft steeds de vrije keuze 
 Vennootschap A is de moedervennootschap van B, die niet als moedervennootschap kan worden beschouwd aangezien zij geen controle uitoefent op een andere vennootschap. Van de omzet van vennootschap B wordt 300.000 euro gefactureerd aan vennootschap A. De balanstotalen van vennootschappen A en B omvatten een bedrag van 400.000 euro dat door de verrekeningen en weglatingen bedoeld in de artikelen 3:127 tot 3:134 KB WVV niet wordt opgenomen in de geconsolideerde balans van vennootschap A. 
 
 | Vennootschap A | | Vennootschap B | 
+|---|---|---|
 | Omzet excl. btw | | 1.000.000 | | Omzet excl. btw | | 8.500.000 | 
 | Balanstotaal | | 3.000.000 | | Balanstotaal | | 2.000.000 | 
 | Aantal werknemers | | 10 | | Aantal werknemers | | 24 | 
@@ -263,6 +264,7 @@ Vennootschap A is de moedervennootschap van B, die niet als moedervennootschap k
 *Beoordeling van de groottecriteria op geconsolideerde basis*
 
 | Omzet excl. btw: | | 1.000.000 + 8.500.000 - 300.000 = 9.200.000 > 9.000.000 | 
+|---|---|---|
 | Balanstotaal: | | 3.000.000 + 2.000.000 - 400.000 = 4.600.000 > 4.500.000 | 
 | Aantal werknemers: | | 10 + 24 = 34 < 50 | 
 
@@ -270,6 +272,7 @@ Besluit: op geconsolideerde basis wordt meer dan één van de criteria overschre
 *Beoordeling van de groottecriteria volgens de vereenvoudigde methode*
 
 | Omzet excl. btw: | | 1.000.000 + 8.500.000 = 9.500.000 < 10.800.000 | 
+|---|---|---|
 | Balanstotaal: | | 3.000.000 + 2.000.000 = 5.000.000 < 5.400.000 | 
 | Aantal werknemers: | | 10 + 24 = 34 < 50 | 
 
@@ -282,9 +285,9 @@ Voor verbonden vennootschappen, net zoals dit het geval is voor niet-verbonden v
 
 Dit beginsel kan worden verduidelijkt aan de hand van een voorbeeld. Wanneer de balansdata van de verbonden vennootschappen van elkaar verschillen, vindt de beoordeling van de groottecriteria plaats op basis van de laatst opgemaakte jaarrekeningen van de verbonden vennootschappen. Met de *laatst opgemaakte jaarrekening* kan uitsluitend worden bedoeld de *jaarrekening met betrekking tot het laatst afgesloten boekjaar* wat eenvoudig wil zeggen het laatste boekjaar waarvan de eindeboekjaardatum voorbij is. 
 
-### *Voorbeeld*
+### Voorbeeld
 
-### TOPCO: Afsluitingsdatum boekjaar 31/03 
+### TOPCO: Afsluitingsdatum boekjaar 31/03
 
 MIDCO: Dochtervennootschap van TOPCO; afsluitingsdatum boekjaar 31/12 
 
@@ -306,7 +309,7 @@ De beoordeling van de grootte van MIDCO op 31/12/N vindt plaats op basis van:
 1. de geconsolideerde cijfers van TOPCO op **31/12/N**[^25] (consolidatie TOPCO, MIDCO, SUBCO1, SUBCO2 en SUBCO3, rekening houdend met de gegevens op 31/12/N voor elke vennootschap); of 
 2. de geaggregeerde cijfers (+20%-methode) van TOPCO 31/03/N; MIDCO 31/12/N; SUBCO1 31/12/N; SUBCO2 30/11/N; SUBCO3 31/01/N. 
 
-#### Omzet van een tijdens het boekjaar overgenomen (of overgedragen) vennootschap 
+#### Omzet van een tijdens het boekjaar overgenomen (of overgedragen) vennootschap
 
 Wanneer de verbondenheid pas in de loop van het boekjaar is tot stand gekomen, moet meteen de volledige omzet van dat boekjaar in aanmerking worden genomen voor de beoordeling op geconsolideerde of geaggregeerde basis van de in artikel 1:24, § 1 WVV vermelde criteria. In het tegenovergestelde geval dient er per direct niet langer rekening gehouden te worden met de vennootschap die niet meer verbonden is.
 
@@ -320,7 +323,7 @@ Het consistentiebeginsel werd ingevoerd om te vermijden dat kleine ondernemingen
 
 In onderstaande voorbeelden wordt er van uitgegaan dat de betrokken vennootschap op balansdatum van boekjaar N-1 niet meer dan één van de grensbedragen van artikel 1:24, § 1 WVV heeft overschreden. Deze vaststelling wordt door het bestuursorgaan gemaakt in boekjaar N. Er wordt eveneens van uitgegaan dat de betrokken vennootschap reeds een kleine vennootschap was in boekjaar N-1. De jaarrekening van boekjaar N-1 werden aldus opgemaakt volgens het verkort schema.
 
-### *Legende* 
+### Legende
 
    > Meer dan één van de criteria wordt op de balansdatum overschreden 
 

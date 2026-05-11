@@ -22,32 +22,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Regel 143: ` [^18][^19][^20][^21]` staat als alleenstaande lege alinea direct vóór de aflooptabel — losgeraakte voetnootcluster (G3) waarvan de ankerzin op regel 141 staat (`**Boeking bij afloop op 31/03/2016 (tarief roerende voorheffing bedraagt 27[^17] procent)**`). De voetnootverwijzingen [^18]–[^21] horen in of bij de tabelregel, niet als losse alinea. De eerder gerapporteerde problemen op regels 101, 111, 121, 131 zijn na de re-scrape opgelost en zijn nu correcte headings.'
+    rationale: 'G3: regel 146 bevat ` [^18][^19][^20][^21]` als alleenstaande alinea tussen de boldtitel op regel 144 en de tabel op regel 148 — losgeraakte voetnootcluster die in de ankerzin op regel 144 hoort. Mineure D4: regel 120 gebruikt `**Boeking op 31/03/2013...**` als bold-paragraaf terwijl de equivalente boekingen op regels 105, 112, 128, 136 wél `##`-headings zijn — structuurinconsistentie.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 9
-      max_section_chars: 4378
       file_size_chars: 9842
       flags: []
+      heading_count: 9
+      max_section_chars: 4378
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: 'Regel 143: ` [^18][^19][^20][^21]` staat als alleenstaande lege alinea direct vóór de aflooptabel — losgeraakte voetnootcluster (G3) waarvan de ankerzin op regel 141 staat (`**Boeking bij afloop op 31/03/2016 (tarief roerende voorheffing bedraagt 27[^17] procent)**`). De voetnootverwijzingen [^18]–[^21] horen in of bij de tabelregel, niet als losse alinea. De eerder gerapporteerde problemen op regels 101, 111, 121, 131 zijn na de re-scrape opgelost en zijn nu correcte headings.'
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'G3: regel 146 bevat ` [^18][^19][^20][^21]` als alleenstaande alinea tussen de boldtitel op regel 144 en de tabel op regel 148 — losgeraakte voetnootcluster die in de ankerzin op regel 144 hoort. Mineure D4: regel 120 gebruikt `**Boeking op 31/03/2013...**` als bold-paragraaf terwijl de equivalente boekingen op regels 105, 112, 128, 136 wél `##`-headings zijn — structuurinconsistentie.'
       concrete_problemen:
-        - regel: 143
+        - regel: 146
           categorie: G3
           type: other
-          voorbeeld: ' [^18][^19][^20][^21] (losstaande voetnootcluster zonder ankerzin)'
+          voorbeeld: ' [^18][^19][^20][^21] (losstaande voetnootcluster als eigen alinea)'
+        - regel: 120
+          categorie: B4
+          type: other
+          voorbeeld: '**Boeking op 31/03/2013 (tarief roerende voorheffing bedraagt 25[^10] procent)** (bold ipv ## heading)'
 themas:
   - roerende voorheffing
   - toerekening van kosten en opbrengsten

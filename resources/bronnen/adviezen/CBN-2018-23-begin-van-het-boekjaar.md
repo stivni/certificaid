@@ -25,36 +25,28 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'A3: TOC-blok op regels 83-94 staat als plain-text nummerlijst in de body (geen heading-prefix), gevolgd door een dubbele afgebroken TOC-regel op regel 94 (`-- Inbreng van algemeenheid en inbreng van bedrijfstak tijdens de oprichting van een nieuwe vennootschap`). Structuur en inhoud zijn verder volledig correct; alle tabellen intact en voetnoten [^23]/[^24] hebben correcte definities.'
+    rationale: Na re-scrape met scraper-fixes is het TOC-artefact (A3) dat in de vorige ronde aanwezig was verdwenen. De body begint direct met de titel-heading gevolgd door de inhoudssecties zonder enig plain-text TOC-blok. Structuur correct, tabellen in pipe-format, voetnoten [^1]–[^40] volledig aanwezig. Geen nieuwe ETL-artefacten gevonden in categorieën A–G.
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 7
-      max_section_chars: 13207
-      file_size_chars: 28430
+      file_size_chars: 27737
       flags: []
+      heading_count: 7
+      max_section_chars: 12515
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: 'A3: TOC-blok op regels 83-94 staat als plain-text nummerlijst in de body (geen heading-prefix), gevolgd door een dubbele afgebroken TOC-regel op regel 94 (`-- Inbreng van algemeenheid en inbreng van bedrijfstak tijdens de oprichting van een nieuwe vennootschap`). Structuur en inhoud zijn verder volledig correct; alle tabellen intact en voetnoten [^23]/[^24] hebben correcte definities.'
-      concrete_problemen:
-        - regel: 83
-          categorie: A3
-          type: other
-          voorbeeld: "1. Inleiding \n2. Het principe: het boekjaar start op de datum..."
-        - regel: 94
-          categorie: A3
-          type: other
-          voorbeeld: -- Inbreng van algemeenheid en inbreng van bedrijfstak tijdens de oprichting van een nieuwe vennootschap
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: Na re-scrape met scraper-fixes is het TOC-artefact (A3) dat in de vorige ronde aanwezig was verdwenen. De body begint direct met de titel-heading gevolgd door de inhoudssecties zonder enig plain-text TOC-blok. Structuur correct, tabellen in pipe-format, voetnoten [^1]–[^40] volledig aanwezig. Geen nieuwe ETL-artefacten gevonden in categorieën A–G.
+      concrete_problemen: []
 themas:
   - boekjaar
   - begin van het boekjaar
@@ -71,19 +63,6 @@ themas:
 ---
 
 # CBN-advies 2018/23 - Begin van het boekjaar
-
-1. Inleiding 
-2. Het principe: het boekjaar start op de datum waarop de vennootschap rechtspersoonlijkheid verwerft 
-3. Impact van de overname van de verbintenissen aangegaan namens een vennootschap in oprichting 
-  1. In hoofde van de promotor 
-  2. In hoofde van de nieuwe vennootschap 
-
-4. Uitzondering: de boekhoudkundige retroactiviteit van bepaalde herstructurerings-verrichtingen van vennootschappen 
-  1. Fusie en splitsing door oprichting van nieuwe vennootschap(pen)
-
-  2. Inbreng van algemeenheid en inbreng van bedrijfstak tijdens de oprichting van een nieuwe vennootschap
-
--- Inbreng van algemeenheid en inbreng van bedrijfstak tijdens de oprichting van een nieuwe vennootschap
 
 ## Inleiding
 
@@ -258,7 +237,7 @@ Afschrijving van het onroerend goed tijdens acht maanden
 
 ## Uitzondering: de boekhoudkundige retroactiviteit van bepaalde herstructurerings-verrichtingen van vennootschappen
 
-### Fusie en splitsing door oprichting van nieuwe vennootschap(pen)[^25] 
+### Fusie en splitsing door oprichting van nieuwe vennootschap(pen)[^25]
 
 De fusie door oprichting van een nieuwe vennootschap en de splitsing door oprichting van nieuwe vennootschappen zijn respectievelijk voltrokken zodra de nieuwe vennootschap is opgericht[^26] en zodra de nieuwe vennootschappen zijn opgericht[^27].
 

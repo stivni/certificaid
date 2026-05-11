@@ -3,44 +3,46 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aande
 datum: 2012-01-11
 nummer: CBN-advies 2012/3
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenoptieplannen
-      sha256: 399b266a78e82a58dfe86c10f0f704477290e4f602384e593dc0e14cd1f56a5f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenoptieplannen
+    sha256: 399b266a78e82a58dfe86c10f0f704477290e4f602384e593dc0e14cd1f56a5f
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 12
-      max_section_chars: 10646
-      file_size_chars: 24032
+      file_size_chars: 24031
       flags: []
+      heading_count: 12
+      max_section_chars: 10645
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale:
-      run_at:
+      rationale: null
+      run_at: null
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
     status: trusted
 themas:
-  - aandelenoptieplannen
-  - aandelenopties
-  - call-optie
-  - put-optie
-  - voorziening
-  - voorzieningen voor andere risico’s en kosten
+- aandelenoptieplannen
+- aandelenopties
+- call-optie
+- put-optie
+- voorziening
+- voorzieningen voor andere risico’s en kosten
 ---
 
 # CBN-advies 2012/3 – De boekhoudkundige verwerking van aandelenoptieplannen
@@ -77,7 +79,7 @@ Aandelenopties, toegekend in het kader van de Optiewet worden doorgaans ten kost
 
 De voornaamste karakteristieken van deze toegekende aandelenopties zijn vanuit een economisch standpunt de volgende:
 
-### a. De erkenning als kost[^8] 
+### a. De erkenning als kost[^8]
 
 De Commissie is van oordeel dat ondernemingen, dewelke gebruik maken van aandelenopties, inherent worden blootgesteld aan het toekomstige prijsverschil dat ontstaat tussen de uitoefenprijs van de optie en de beurskoers (voor genoteerde aandelen op een gereglementeerde of een niet-gereglementeerde markt) of reële waarde (voor niet-genoteerde aandelen) van het onderliggend aandeel op het ogenblik van de uitoefening van de optie. Daarnaast meent de Commissie te kunnen stellen dat dit toekomstig prijsverschil reeds in het jaar van de toekenning van de opties zal aanleiding geven tot een boekhoudkundige registratie. 
 

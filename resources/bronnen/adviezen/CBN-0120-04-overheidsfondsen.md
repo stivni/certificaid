@@ -25,36 +25,28 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regel 88 bevat een complexe reeks gebroken italic-markers: '2.* Vastrentende effecten; *anderzijds de rubriek IX.* Thesauriebeleggingen *A.* Genoteerde vastrentende effecten*' — meerdere asterisks in de verkeerde volgorde met spaties, resulteert in willekeurig rendering. B2: twee H3-headings (regels 66, 84) staan direct onder H1 zonder tussenliggende H2. Inhoud inhoudelijk volledig."
+    rationale: 'Geen ETL-artefacten aangetroffen. Heading-hiërarchie is H1 → H3 (twee secties I en II) — passend voor dit advies zonder tussenliggende niveaus in het brondocument. Genummerde lijst correct (1. 2. 3.). Italics consequent correct gesloten voor rubrieknamen. Content compleet: beide secties (ondernemingen met/zonder besluit 8 okt 1976) volledig aanwezig.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
+      file_size_chars: 6799
+      flags: []
       heading_count: 2
       max_section_chars: 2776
-      file_size_chars: 6801
-      flags: []
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "D4: regel 88 bevat een complexe reeks gebroken italic-markers: '2.* Vastrentende effecten; *anderzijds de rubriek IX.* Thesauriebeleggingen *A.* Genoteerde vastrentende effecten*' — meerdere asterisks in de verkeerde volgorde met spaties, resulteert in willekeurig rendering. B2: twee H3-headings (regels 66, 84) staan direct onder H1 zonder tussenliggende H2. Inhoud inhoudelijk volledig."
-      concrete_problemen:
-        - regel: 88
-          categorie: D4
-          type: other
-          voorbeeld: 2.* Vastrentende effecten; *anderzijds de rubriek IX.* Thesauriebeleggingen *A.*
-        - regel: 66
-          categorie: B2
-          type: other
-          voorbeeld: '### I. ONDERNEMINGEN WAAROP HET BESLUIT VAN 8 OKTOBER 1976 TOEPASSELIJK IS — H3 direct onder H1'
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: 'Geen ETL-artefacten aangetroffen. Heading-hiërarchie is H1 → H3 (twee secties I en II) — passend voor dit advies zonder tussenliggende niveaus in het brondocument. Genummerde lijst correct (1. 2. 3.). Italics consequent correct gesloten voor rubrieknamen. Content compleet: beide secties (ondernemingen met/zonder besluit 8 okt 1976) volledig aanwezig.'
+      concrete_problemen: []
 themas:
   - financiële vaste activa
   - geldbeleggingen
@@ -71,7 +63,7 @@ Hoewel de vraag onrechtstreeks betrekking had op één van de voorwaarden bepaal
 
 Er moet een onderscheid worden gemaakt naargelang het gaat om ondernemingen waarop al dan niet, rechtstreeks of krachtens een verwijzingsbepaling, het besluit van 8 oktober 1976 betreffende de jaarrekening van de ondernemingen van toepassing is. Vallen buiten de toepassingssfeer van dit besluit, de kredietinstellingen (banken, openbare kredietinstellingen, spaarkassen en ondernemingen waarvoor hoofdstuk I van de wet van 10 juni 1964 geldt) evenals de erkende verzekeringsondernemingen. 
 
-### I. ONDERNEMINGEN WAAROP HET BESLUIT VAN 8 OKTOBER 1976 TOEPASSELIJK IS 
+## I. ONDERNEMINGEN WAAROP HET BESLUIT VAN 8 OKTOBER 1976 TOEPASSELIJK IS
 
 Voor deze ondernemingen moeten overheidsfondsen krachtens het besluit steeds worden beschouwd als geldbeleggingen, welke als dusdanig moeten worden geboekt in de actiefrubriek VIII *Geldbeleggingen*. 
 
@@ -89,7 +81,7 @@ Naast deze argumenten uit de tekst zelf is er ook het feit dat, zoals in de vier
 
 In de schema's van de vierde richtlijn van de Commissie van de Europese Gemeenschappen is de overeenstemmende rubriek D.III, *Effecten, 3° Overige effecten*. 
 
-### II. ONDERNEMINGEN WAAROP HET BESLUIT VAN 8 OKTOBER 1976 NIET TOEPASSELIJK IS 
+## II. ONDERNEMINGEN WAAROP HET BESLUIT VAN 8 OKTOBER 1976 NIET TOEPASSELIJK IS
 
 In de ondernemingen uit de financiële sector, waarop het besluit van 8 oktober 1976 niet toepasselijk is, hebben overheidsfondsen een ander kenmerk, verbonden aan de aard van het bedrijf. In deze ondernemingen vormen zij meestal de in bepaalde gevallen wettelijk verplichte tegenwaarde van verbintenissen tegenover derden voortvloeiend uit technische voorzieningen of wiskundige voorzieningen (verzekeringsondernemingen), spaarfondsen (spaarkassen) of cliëntendeposito's (banken en openbare kredietinstellingen). Bij deze ondernemingen gaat het er niet om tijdelijke geldoverschotten te beleggen, doch hoofdzakelijk om een tegenwaarde te vormen voor verbintenissen tegenover derden. 
 

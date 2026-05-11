@@ -25,44 +25,52 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:13Z'
+    confirmed_at: '2026-05-11T15:26:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A7: op meerdere plaatsen (regels 383–388, 463–471, 572–578) staat tabelcel-inhoud voor 'Eigen vermogen' afgebroken over meerdere afzonderlijke regels buiten de pipe-syntax — kolom-extractie-artefact. C3: regel 630 bevat een pseudo-tabelregel als plain text ('   7.500 Inbreng / Kapitaal 7.500'). D4: regel 675 heeft malformed bold-inline ('20 % **+ 400**') met onnodige inspringing. Voetnoten compleet, inhoud omvangrijk maar volledig."
+    rationale: "E1/A7: meerdere balans-tabellen hebben een eigen-vermogen-waarde op een losse regel buiten de tabelrij (bv. regels 386-394, 473-481, 593-598) — het getal staat als zelfstandige tekstregel na de cel-header in plaats van in dezelfde tabelrij. B5: 'Voorbeeld 3' (regel 449) en 'Voorbeeld 5' (regel 640) zijn als plain-text-alinea's zonder ### heading-prefix, terwijl Voorbeeld 1, 2 en 4 wél als ### heading zijn opgemaakt. B4/B5: 'Aanwezigheid van gespreid te belasten meerwaarden alsook van een andere soort vrijgestelde reserves' (regel 448) en 'Eén van de verkrijgende vennootschappen is aandeelhouder van de gesplitste vennootschap' (regel 639) staan als plain text in plaats van als sectie-headings."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 23
-      max_section_chars: 11964
-      file_size_chars: 68247
+      file_size_chars: 68695
       flags: []
+      heading_count: 23
+      max_section_chars: 12152
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:13Z'
-      rationale: "A7: op meerdere plaatsen (regels 383–388, 463–471, 572–578) staat tabelcel-inhoud voor 'Eigen vermogen' afgebroken over meerdere afzonderlijke regels buiten de pipe-syntax — kolom-extractie-artefact. C3: regel 630 bevat een pseudo-tabelregel als plain text ('   7.500 Inbreng / Kapitaal 7.500'). D4: regel 675 heeft malformed bold-inline ('20 % **+ 400**') met onnodige inspringing. Voetnoten compleet, inhoud omvangrijk maar volledig."
+      run_at: '2026-05-11T15:26:40Z'
+      rationale: "E1/A7: meerdere balans-tabellen hebben een eigen-vermogen-waarde op een losse regel buiten de tabelrij (bv. regels 386-394, 473-481, 593-598) — het getal staat als zelfstandige tekstregel na de cel-header in plaats van in dezelfde tabelrij. B5: 'Voorbeeld 3' (regel 449) en 'Voorbeeld 5' (regel 640) zijn als plain-text-alinea's zonder ### heading-prefix, terwijl Voorbeeld 1, 2 en 4 wél als ### heading zijn opgemaakt. B4/B5: 'Aanwezigheid van gespreid te belasten meerwaarden alsook van een andere soort vrijgestelde reserves' (regel 448) en 'Eén van de verkrijgende vennootschappen is aandeelhouder van de gesplitste vennootschap' (regel 639) staan als plain text in plaats van als sectie-headings."
       concrete_problemen:
-        - regel: 383
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: '| C |\n| Activum 1 | | 2.000 | | *Eigen vermogen* | |\n\n5.500\n\n  |'
-        - regel: 463
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: '| C |\n| Activum 1 | | 2.000 | | *Eigen vermogen* | |\n\n8.500\n\n  |'
-        - regel: 630
-          categorie: C3
+        - regel: 386
+          categorie: E1
           type: pseudo-table
-          voorbeeld: '   7.500 Inbreng / Kapitaal 7.500'
-        - regel: 675
-          categorie: D4
+          voorbeeld: "| C |\n|---|\n| Activum 1 | | 2.000 | | *Eigen vermogen* | | \n\n5.500\n\n  |"
+        - regel: 473
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: "| C |\n|---|\n| Activum 1 | | 2.000 | | *Eigen vermogen* | | \n\n8.500\n\n  |"
+        - regel: 593
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: "| C |\n|---|\n| Activa | | 12.000 | | *Eigen vermogen* | | \n\n9.000\n\n  |"
+        - regel: 449
+          categorie: B5
           type: other
-          voorbeeld: 20 % **+ 400**) | | 560 |
+          voorbeeld: 'Voorbeeld 3 – Aanwezigheid van gespreid te belasten meerwaarden alsook van een andere soort... (plain text, geen ### heading)'
+        - regel: 640
+          categorie: B5
+          type: other
+          voorbeeld: 'Voorbeeld 5 – Één van de verkrijgende vennootschappen is aandeelhouder van de gesplitste vennootschap (plain text, geen ### heading)'
+        - regel: 112
+          categorie: B5
+          type: other
+          voorbeeld: '### 70 = inbreng van aandeelhouders (getal als heading-label i.p.v. onderdeel van voorbeeldtekst)'
 themas:
   - splitsing
   - herstructurering
@@ -119,10 +127,10 @@ De verkrijgende vennootschappen worden geacht de rechtspersoonlijkheid van de ge
 
 Wanneer één van de verkrijgende vennootschappen een kapitaalhoudende vennootschap is, mag het bedrag van de eventuele opleg in geld niet meer bedragen dan één tiende van de nominale waarde of, bij gebrek hieraan, van de fractiewaarde van de toegekende aandelen[^6]. De Memorie van toelichting van de *wet tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen* wijst er op dat de fractiewaarde van elk aandeel van een vennootschap bekomen wordt door het kapitaal van de vennootschap te delen door het aantal bestaande aandelen[^7]. Bij verwijzing naar de definitie van de rubriek ‘Kapitaal’ zoals bepaald in artikel 3:89, § 2, I, 1° van het *koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen* (hierna: KB WVV), stemt de teller van de breuk overeen met “het bedrag van het kapitaal, bestaande uit het deel van het kapitaal dat werd gevormd door (a) de inbreng vanwege de aandeelhouders in het kapitaal; (b) in voorkomend geval de omzetting van uitgiftepremies; en (c) in voorkomend geval de omzetting van geboekte herwaarderingsmeerwaarden of van reserves; indien niet terugbetaald of verminderd via een kapitaalvermindering”.
 
-### *Voorbeeld*
+### Voorbeeld
 
 Vennootschap A is een NV met een eigen vermogen dat als volgt wordt samengesteld:
-### 70 = inbreng van aandeelhouders 
+### 70 = inbreng van aandeelhouders
 
 10 = in kapitaal opgenomen herwaarderingsmeerwaarden 
 
@@ -148,10 +156,10 @@ De uitsluiting van de moeilijk te waarderen inbreng in nijverheid uit de breuk, 
 
 Deze berekeningsmethode heeft tot doel de gelijkwaardigheid met het begrip ‘fractiewaarde’ te verzekeren.[^10] 
 
-### *Voorbeeld*
+### Voorbeeld
 
 Vennootschap B is een BV met een eigen vermogen dat als volgt wordt samengesteld:
-### 40 = inbrengen door aandeelhouders in geld 
+### 40 = inbrengen door aandeelhouders in geld
 
 10 = inbrengen in natura 
 
@@ -300,15 +308,16 @@ In onderstaande voorbeelden wordt er, tenzij anders bepaald, vanuit gegaan dat:
 - de beschikbare reserves overeenstemmen met de belaste reserves; 
 - de aandelen die worden gehouden in de gesplitste vennootschap, geruild worden tegen aandelen van de verkrijgende vennootschappen in verhouding met de deelneming die de aandelen vertegenwoordigen in de gesplitste vennootschap (zie voorbeeld 2 (titel B) en 5 (titel E)). 
 
-### Herwaarderingsmeerwaarden 
+### Herwaarderingsmeerwaarden
 
-### *Voorbeeld 1 – Herwaarderingsmeerwaarden*
+### Voorbeeld 1 – Herwaarderingsmeerwaarden
 
 Vennootschap A wordt gesplitst in twee op te richten vennootschappen B en C. 
 
 Nadat activum 1 volledig was afgeschreven, werd het voor een bedrag gelijk aan 1.000 geherwaardeerd. 
 
 | A | 
+|---|
 | Activum 1 | | 1.000 | | Inbreng / Kapitaal | | 3.000 | 
 | Andere activa | | 14.000 | | Herwaarderingsmeerwaarde | | 1.000 | 
 | | | | | Beschikbare reserves | | 7.000 | 
@@ -320,11 +329,13 @@ Vennootschap B verkrijgt 5.500 activa (exclusief activum 1) en 1.500 schulden; v
 Op basis van bovenstaande gegevens, en de samenstelling van de eigen vermogens van B en C buiten beschouwing latend, zien de vermogens van deze vennootschappen er na de splitsing als volgt uit:
 
 | B | 
+|---|
 | Activa | | 5.500 | | *Eigen vermogen* | | 4.000 | 
 | | | | | Schulden | | 1.500 | 
 | | | 5.500 | | | | 5.500 | 
 
 | C | 
+|---|
 | Activum 1 | | 1.000 | | *Eigen vermogen* | | 7.000 | 
 | Andere activa | | 8.500 | | Schulden | | 2.500 | 
 | | | 9.500 | | | | 9.500 | 
@@ -336,6 +347,7 @@ De fiscale nettowaarde van A bedraagt 10.000 waarvan 4.000 wordt overgedragen aa
 De fiscale eigen vermogens van B en C zijn dus als volgt samengesteld:
 
 | | | B | | C | 
+|---|---|---|---|---|
 | Fiscaal gestort kapitaal | | 1.200 | | 1.800 | 
 | Belaste reserves | | 2.800 | | 4.200 | 
 | | | 4.000 | | 6.000 | 
@@ -347,12 +359,14 @@ Het boekhoudkundig eigen vermogen van B (4.000) en C (7.000) kan dus zo worden �
 Na afloop van de splitsing zullen de vermogens van B en C er als volgt uitzien:
 
 | B | 
+|---|
 | Activa | | 5.500 | | Inbreng / Kapitaal | | 1.200 | 
 | | | | | Beschikbare reserves | | 2.800 | 
 | | | | | Schulden | | 1.500 | 
 | | | 5.500 | | | | 5.500 | 
 
 | C | 
+|---|
 | Activum 1 | | 1.000 | | Inbreng / Kapitaal | | 1.800 | 
 | Andere activa | | 8.500 | | Herwaarderingsmeerwaarde | | 1.000 | 
 | | | | | Beschikbare reserves | | 4.200 | 
@@ -361,13 +375,14 @@ Na afloop van de splitsing zullen de vermogens van B en C er als volgt uitzien:
 
 ### Gespreid te belasten meerwaarden of kapitaalsubsidies
 
-### *Voorbeeld 2 – Aanwezigheid van gespreid te belasten meerwaarden[^39]* 
+### Voorbeeld 2 – Aanwezigheid van gespreid te belasten meerwaarden[^39]
 
 Vennootschap A wordt gesplitst in twee op te richten vennootschappen B en C.
 
 Nadat een actiefbestanddeel volledig was afgeschreven, werd het verkocht voor 2.000. A besloot de meerwaarde gespreid te laten belasten en heeft de verkoopprijs wederbelegd in activum 1. Daar het tarief van de vennootschapsbelasting 25 % bedraagt, wordt er een bedrag van 500 geboekt onder de rubriek *Uitgestelde belastingen*. De belastingvrije reserves van A zijn uitsluitend samengesteld uit het gedeelte van de meerwaarde dat overblijft na boeking van de uitgestelde belastingen en bedragen 1.500.
 
 | A | 
+|---|
 | Activa | | 12.000 | | Inbreng / Kapitaal | | 3.000 | 
 | Activum 1 | | 2.000 | | Belastingvrije reserves | | 1.500 | 
 | | | | | Beschikbare reserves | | 5.000 | 
@@ -382,17 +397,20 @@ De werkelijke waarde van A op het ogenblik van de splitsing bedraagt 20.000 en d
 Op basis van bovenstaande gegevens, en de samenstelling van de eigen vermogens van B en C buiten beschouwing latend, zien de vermogens van deze vennootschappen er na de splitsing als volgt uit:
 
 | B | 
+|---|
 | Activa | | 5.500 | | *Eigen vermogen* | | 4.000 | 
 | | | | | Schulden | | 1.500 | 
 | | | 5.500 | | | | 5.500 | 
 
 | C | 
+|---|
 | Activum 1 | | 2.000 | | *Eigen vermogen* | | 
 
 5.500
 
   | 
 | Andere activa | | 6.500 | | Uitgestelde belastingen | | 500 | 
+|---|---|---|---|---|---|---|
 | | | | | Schulden | | 2.500 | 
 | | | 8.500 | | | | 8.500 | 
 
@@ -403,6 +421,7 @@ De fiscale nettowaarde van A bedraagt 10.000 waarvan 4.000 aan B wordt overgedra
 Aangezien er geen andere vrijgestelde reserves bestaan dan de gespreid te belasten meerwaarden, worden deze reserves naar verhouding verdeeld onder de verkrijgende vennootschappen[^40]. De fiscale eigen vermogens van B en C zijn dus als volgt samengesteld:
 
 | | | B | | C | 
+|---|---|---|---|---|
 | Fiscaal gestort kapitaal | | 1.200 | | 1.800 | 
 | Vrijgestelde reserves | | 800 | | 1.200 | 
 | Belaste reserves | | 2.000 | | 3.000 | 
@@ -415,6 +434,7 @@ Bij C moet het bedrag van 500 zoals opgenomen onder de post “uitgestelde belas
 Na de splitsing zullen B en C er als volgt uitzien:
 
 | B | 
+|---|
 | Activa | | 5.500 | | Inbreng / Kapitaal | | 1.200 | 
 | | | | | Belastingvrije reserves | | 800 | 
 | | | | | Beschikbare reserves | | 2.000 | 
@@ -422,6 +442,7 @@ Na de splitsing zullen B en C er als volgt uitzien:
 | | | 5.500 | | | | 5.500 | 
 
 | C | 
+|---|
 | Activa | | 6.500 | | Inbreng / Kapitaal | | 1.800 | 
 | Activum 1 | | 2.000 | | Belastingvrije reserves | | 700 | 
 | | | | | Beschikbare reserves | | 3.000 | 
@@ -450,6 +471,7 @@ Voorbeeld 3 – Aanwezigheid van gespreid te belasten meerwaarden alsook van een
 Vennootschap A wordt gesplitst in twee op te richten vennootschappen B en C. Nadat een actiefbestanddeel volledig was afgeschreven, werd het verkocht voor 2.000. A besloot de meerwaarde gespreid te laten belasten en heeft de verkoopprijs wederbelegd in activum 1. Daar het tarief van de vennootschapsbelasting 25 % bedraagt, wordt er een bedrag van 500 geboekt onder de rubriek *Uitgestelde belastingen*. De belastingvrije reserves van A zijn enerzijds samengesteld uit het gedeelte van de meerwaarde dat overblijft na boeking van de uitgestelde belastingen en dat 1.500 bedraagt, en anderzijds uit een bedrag van 2.000 dat overeenstemt met afschrijvingen boven de aanschaffings- of beleggingswaarde.[^45] 
 
 | A | 
+|---|
 | Activa | | 14.000 | | Inbreng / Kapitaal | | 3.000 | 
 | Activum 1 | | 2.000 | | Belastingvrije reserves | | 3.500 | 
 | | | | | Beschikbare reserves | | 5.000 | 
@@ -462,17 +484,20 @@ Vennootschap B verkrijgt 4.000 activa (exclusief activum 1) en 1.000 schulden; v
 Op basis van bovenstaande gegevens, en de samenstelling van de eigen vermogens van B en C buiten beschouwing latend, zien de vermogens van deze vennootschappen er na de splitsing als volgt uit:
 
 | B | 
+|---|
 | Activa | | 4.000 | | *Eigen vermogen* | | 3.000 | 
 | | | | | Schulden | | 1.000 | 
 | | | 4.000 | | | | 4.000 | 
 
 | C | 
+|---|
 | Activum 1 | | 2.000 | | *Eigen vermogen* | | 
 
 8.500
 
   | 
 | Andere activa | | 10.000 | | Uitgestelde belastingen | | 500 | 
+|---|---|---|---|---|---|---|
 | | | | | Schulden | | 3.000 | 
 | | | 12.000 | | | | 12.000 | 
 
@@ -483,6 +508,7 @@ De fiscale nettowaarde van A bedraagt 12.000 waarvan 3.000 aan B wordt overgedra
 Het fiscaal eigen vermogen van B en C is dus als volgt samengesteld:
 
 | | | B | | C | 
+|---|---|---|---|---|
 | Fiscaal gestort kapitaal | | 750 | | 2.250 | 
 | Vrijgestelde reserves | | 1.000 | | 3.000 | 
 | Belaste reserves | | 1.250 | | 3.750 | 
@@ -495,6 +521,7 @@ Bij C moet het bedrag van 500 zoals opgenomen onder de post “uitgestelde belas
 Na de splitsing zullen B en C er als volgt uitzien:
 
 | B | 
+|---|
 | Activa | | 4.000 | | Inbreng / Kapitaal | | 750 | 
 | | | | | Belastingvrije reserves | | 1.000 | 
 | | | | | Beschikbare reserves | | 1.250 | 
@@ -502,6 +529,7 @@ Na de splitsing zullen B en C er als volgt uitzien:
 | | | 4.000 | | | | 4.000 | 
 
 | C | 
+|---|
 | Activum 1 | | 2.000 | | Inbreng / Kapitaal | | 2.250 | 
 | Andere activa | | 10.000 | | Belastingvrije reserves | | 2.500 | 
 | | | | | Beschikbare reserves | | 3.750 | 
@@ -514,6 +542,7 @@ Om de bestanddelen van het eigen vermogen vast te stellen, moet er rekening geho
 Vanuit boekhoudkundig oogpunt wordt het volgende verkregen:
 
 | B | 
+|---|
 | Activa | | 4.000 | | Inbreng / Kapitaal | | 750 | 
 | | | | | Belastingvrije reserves art. 47 | | 0 | 
 | | | | | Andere belastingvrije reserves | | 1.000 | 
@@ -522,6 +551,7 @@ Vanuit boekhoudkundig oogpunt wordt het volgende verkregen:
 | | | 4.000 | | | | 4.000 | 
 
 | C | 
+|---|
 | Activum 1 | | 2.000 | | Inbreng / Kapitaal | | 2.250 | 
 | Andere activa | | 10.000 | | Belastingvrije reserves art. 47 | | 1.500 | 
 | | | | | Andere belastingvrije reserves | | 1.000 | 
@@ -535,6 +565,7 @@ Indien de in artikel 47 WIB 92 beoogde reserves niet waren herbelegd of indien d
 Vanuit boekhoudkundig oogpunt zou het volgende zijn verkregen: 
 
 | B | 
+|---|
 | Activa | | 4.000 | | Inbreng / Kapitaal | | 750 | 
 | | | | | Belastingvrije reserves art. 47 | | 500 | 
 | | | | | Andere belastingvrije reserves | | 500 | 
@@ -543,6 +574,7 @@ Vanuit boekhoudkundig oogpunt zou het volgende zijn verkregen:
 | | | 4.000 | | | | 4.000 | 
 
 | C | 
+|---|
 | Activum 1 | | 2.000 | | Inbreng / Kapitaal | | 2.250 | 
 | Andere activa | | 10.000 | | Belastingvrije reserves art. 47 | | 1.000 | 
 | | | | | Andere belastingvrije reserves | | 1.500 | 
@@ -553,13 +585,14 @@ Vanuit boekhoudkundig oogpunt zou het volgende zijn verkregen:
 
 ### Liquidatiereserves
 
-### *Voorbeeld 4 – Liquidatiereserves*
+### Voorbeeld 4 – Liquidatiereserves
 
 Vennootschap A wordt gesplitst in twee op te richten vennootschappen B en C.
 
 Vennootschap A heeft op basis van artikel 184*quater* WIB 92 in 2015 liquidatiereserves aangelegd ter waarde van 3.750 en in 2019 ter waarde van 1.250. De belastingvrije reserves zijn samengesteld uit fiscaal vrijgestelde reserves die worden verdeeld in verhouding met de fiscale nettowaarde van de inbreng aan elk van de verkrijgende vennootschappen. De balans van A vóór de splitsing wordt hieronder weergegeven: 
 
 | A | 
+|---|
 | Activa | | 16.000 | | Inbreng / Kapitaal | | 4.000 | 
 | | | | | Belastingvrije reserves | | 3.000 | 
 | | | | | Beschikbare reserves (art. 184quater WIB 92) | | 5.000 | 
@@ -571,17 +604,20 @@ Vennootschap B verkrijgt 4.000 activa en 1.000 schulden; vennootschap C verkrijg
 Op basis van bovenstaande gegevens, en de samenstelling van de eigen vermogens van B en C buiten beschouwing latend, zien de vermogens van deze vennootschappen er na de splitsing als volgt uit:
 
 | B | 
+|---|
 | Activa | | 4.000 | | *Eigen vermogen* | | 3.000 | 
 | | | | | Schulden | | 1.000 | 
 | | | 4.000 | | | | 4.000 | 
 
 | C | 
+|---|
 | Activa | | 12.000 | | *Eigen vermogen* | | 
 
 9.000
 
   | 
 | | | | | Schulden | | 3.000 | 
+|---|---|---|---|---|---|---|
 | | | 12.000 | | | | 12.000 | 
 
 Om de bestanddelen van het eigen vermogen te bepalen, wordt er rekening gehouden met de overdracht van het fiscaal eigen vermogen van A aan de verkrijgende vennootschappen B en C.
@@ -591,6 +627,7 @@ De fiscale nettowaarde van A bedraagt 12.000, waarvan 3.000 wordt overgedragen a
 De verdeling van het fiscaal eigen vermogen vindt aldus plaats in de verhouding ¼ - ¾ tussen B en C. Dit geeft het volgende:
 
 | | | B | | C | 
+|---|---|---|---|---|
 | Fiscaal gestort kapitaal | | 1.000 | | 3.000 | 
 | Vrijgestelde reserves | | 750 | | 2.250 | 
 | Belaste reserves | | 1.250 | | 3.750 | 
@@ -605,6 +642,7 @@ Het eigen vermogen van B en C kan bijgevolg worden aangevuld teneinde een perfec
 Naar aanleiding van de splitsing wordt het boekhoudkundig eigen vermogen als volgt weergegeven:
 
 | B | 
+|---|
 | Activa | | 4.000 | | Inbreng / Kapitaal | | 1.000 | 
 | | | | | Belastingvrije reserves | | 750 | 
 | | | | | Beschikbare reserves (art. 184quater WIB 92) | | 1.250 | 
@@ -612,6 +650,7 @@ Naar aanleiding van de splitsing wordt het boekhoudkundig eigen vermogen als vol
 | | | 4.000 | | | | 4.000 | 
 
 | C | 
+|---|
 | Activa | | 12.000 | | Inbreng / Kapitaal | | 3.000 | 
 | | | | | Belastingvrije reserves | | 2.250 | 
 | | | | | Beschikbare reserves (art. 184quater WIB 92) | | 3.750 | 
@@ -619,10 +658,11 @@ Naar aanleiding van de splitsing wordt het boekhoudkundig eigen vermogen als vol
 | | | 12.000 | | | | 12.000 | 
 
 Eén van de verkrijgende vennootschappen is aandeelhouder van de gesplitste vennootschap
-*Voorbeeld 5 – Één van de verkrijgende vennootschappen is aandeelhouder van de gesplitste vennootschap*
+Voorbeeld 5 – Één van de verkrijgende vennootschappen is aandeelhouder van de gesplitste vennootschap
 Onderstaande vennootschap A wordt gesplitst waarbij een deel van haar vermogen wordt overgedragen aan een bestaande vennootschap B welke 80 % van de aandelen van A bezit. De rest van het vermogen van A wordt overgedragen aan een nieuw op te richten vennootschap C. De belastingvrije reserves stemmen overeen met de vrijgestelde reserves die proportioneel worden overdragen overeenkomstig nr. 211/55, b), tweede streepje Com.IB 92 (*supra* randnummer 20).
 
 | A | 
+|---|
 | Activa | | 14.000 | | Inbreng / Kapitaal | | 3.000 | 
 | | | | | Belastingvrije reserves | | 2.000 | 
 | | | | | Beschikbare reserves | | 5.000 | 
@@ -634,6 +674,7 @@ De verkrijgende aandeelhouder-vennootschap B heeft een 80 %-deelneming in A verw
    7.500 Inbreng / Kapitaal 7.500 
 
 | B | 
+|---|
 | Deelneming A (80 %) | | 7.500 | | Inbreng / Kapitaal | | 7.500 | 
 
 B verkrijgt 5.500 activa en 1.500 schulden en vennootschap C verkrijgt 8.500 activa en 2.500 schulden.
@@ -643,11 +684,13 @@ De werkelijke waarde van A bedraagt 20.000 en de werkelijke waarde van het aan B
 De aan B en C overgedragen vermogens zien er dan, de samenstelling van de eigen vermogens ervan buiten beschouwing latend, als volgt uit:
 
 | Aan B overgedragen vermogen | 
+|---|
 | Activa | | 5.500 | | *Eigen vermogen* | | 4.000 | 
 | | | | | Schulden | | 1.500 | 
 | | | 5.500 | | | | 5.500 | 
 
 | Aan C overgedragen vermogen | 
+|---|
 | Activa | | 8.500 | | *Eigen vermogen* | | 6.000 | 
 | | | | | Schulden | | 2.500 | 
 | | | 8.500 | | | | 8.500 | 
@@ -659,6 +702,7 @@ De fiscale nettowaarde van A bedraagt 10.000 waarvan 4.000 aan B wordt overgedra
 Boekhoudkundig ziet het aan vennootschap C overgedragen vermogen er dan als volgt uit:
 
 | Aan C overgedragen vermogen | 
+|---|
 | Activa | | 8.500 | | Inbreng / Kapitaal | | 1.800 | 
 | | | | | Belastingvrije reserves | | 1.200 | 
 | | | | | Beschikbare reserves | | 3.000 | 
@@ -674,11 +718,13 @@ De vermindering van de reserves mag dan ook bij voorrang worden toegekend aan de
 De balans van B zal er na de splitsing als volgt uitzien:
 
 | B | 
+|---|
 | Activa (ex-A) | | 5.500 | | Inbreng / Kapitaal (7.500 + 1.200 x 20 %) | | 7.740 | 
 | Deelneming C | | 4.125 | | Belastingvrije reserves (800 x 
 
 			20 % **+ 400**) | | 560 | 
 | | | | | Beschikbare reserves (2.000 x 20 %** - 400**) | | 0 | 
+|---|---|---|---|---|---|---|
 | | | | | Overgedragen resultaat | | <175> | 
 | | | | | Schulden | | 1.500 | 
 | | | 9.625 | | | | 9.625 | 
@@ -702,11 +748,13 @@ Dat zou in het voorbeeld de volgende boeking geven:
 Naar analogie met voorbeeld zeven van CBN-advies 2021/10 – *Boekhoudkundige verwerking van fusies tussen vennootschappen*, is de Commissie ook van mening dat de wedersamenstelling van de belastingvrije reserves bij B ook volledig lastens het resultaat mag gebeuren. De openingsbalans na de splitsing wordt als volgt weergegeven:
 
 | B | 
+|---|
 | Activa (ex-A) | | 5.500 | | Inbreng / Kapitaal (7.500 + 1.200 x 20 %) | | 7.740 | 
 | Deelneming C | | 4.125 | | Belastingvrije reserves (800 x 
 
 			20 %) | | 160 | 
 | | | | | Beschikbare reserves (2.000 x 20 % ) | | 400 | 
+|---|---|---|---|---|---|---|
 | | | | | Overgedragen resultaat | | <175> | 
 | | | | | Schulden | | 1.500 | 
 | | | 9.625 | | | | 9.625 | 
@@ -736,6 +784,7 @@ Bijgevolg stemt in hoofde van B de boekwaarde van de deelneming in A (7.500) voo
 Vennootschap A is een naamloze vennootschap (de balans van A volgt hieronder). Deze vennootschap overweegt om haar vermogen, zowel de activa als de passiva, in het kader van een splitsing over te dragen aan de nieuw op te richten naamloze vennootschap B en aan een op te richten besloten vennootschap C. 
 
 | A | 
+|---|
 | Activa | | 400 | | Kapitaal | | 63 | 
 | | | | | Beschikbare reserves | | 337 | 
 | | | 400 | | | | 400 | 
@@ -743,6 +792,7 @@ Vennootschap A is een naamloze vennootschap (de balans van A volgt hieronder). D
 Indien de fiscale nettowaarde van A wordt overgedragen aan B ten belope van 30 % en aan C ten belope van 70 %, wordt het fiscaal eigen vermogen van A als volgt verdeeld onder de verkrijgende vennootschappen: 
 
 | | | B | | C | 
+|---|---|---|---|---|
 | Fiscaal gestort kapitaal | | 18,9 = 30 % x 63 | | 44,1 = 70 % x 63 | 
 | Belaste reserves | | 101,1 = 30 % x 337 | | 235,9 = 70 % x 337 | 
 | | | 120 | | 280 | 
@@ -754,11 +804,13 @@ In dergelijke situatie is het mogelijk om de overdracht van het boekhoudkundig e
 De Commissie is van oordeel dat het eveneens mogelijk zou moeten zijn om af te wijken van de boekhoudkundige verdeling die zou voortvloeien uit de toepassing van het fiscaal recht. Dit zou vermijden dat er een kapitaalverhoging plaatsvindt. Aangezien vennootschap C bij oprichting de vorm van een besloten vennootschap (BV) aanneemt, is zij, wat betreft de inbreng, niet onderworpen aan de vereisten inzake minimumkapitaal waaraan naamloze vennootschappen wel zijn onderworpen. Bijgevolg heeft A het recht om slechts 1[^49] van haar kapitaal over te dragen aan C, hetgeen toelaat het kapitaal boven het wettelijk minimum te houden in hoofde van vennootschap B. Het bedrag van de aan C overgedragen beschikbare reserves wordt vastgelegd op zodanige wijze dat de activa en passiva van de balans van beide vennootschappen op basis van de eerder vastgelegde verdeling van het vermogen van A (d.i. 30 % voor B en 70 % voor C), in evenwicht wordt gebracht. De balansen van B en C worden naar aanleiding van de splitsing als volgt weergegeven:
 
 | Aan B (NV) overgedragen vermogen | 
+|---|
 | Activa | | 120 | | Kapitaal | | 62 | 
 | | | | | Beschikbare reserves | | 58 | 
 | | | 120 | | | | 120 | 
 
 | Aan C (NV) overgedragen vermogen | 
+|---|
 | Activa | | 280 | | Inbreng | | 1 | 
 | | | | | Beschikbare reserves | | 279 | 
 | | | 280 | | | | 280 | 

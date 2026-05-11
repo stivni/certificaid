@@ -10,37 +10,45 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro
 nummer: CBN-advies 2010/4
 provenance:
-  generated_at: '2026-05-11T13:15:11Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/omrekeningsverschillen-ontstaan-bij-omrekening-van-het-kapitaal-naar-aanleiding-van-het
       sha256: 11a931f8df073fd3e894e1f3203b0b4bda80b7d8ed85d68db8f1b8524f54b970
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T15:15:31Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-08T19:02:29Z'
-    confirmed_by: subagent-laag2-ronde2
+    status: needs-rework
+    confirmed_at: '2026-05-11T15:19:36Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "E2/A6: tabel op r91-99 (balans EUR vs USD) heeft een gebroken rij — r94 bevat '| *Kapitaal* | | *1.000* | | *1.500' zonder sluitende pipe, gevolgd door r95-96 als insprong '\\n\\n\\t\\t\\t\\t-300* |' wat een ETL tabel-rendering-bug is waarbij een cel met newline-inhoud niet correct geparsed werd. B2: heading_count = 0 per Laag 1 — het gehele advies staat als één blok tekst zonder enige ## subheading, maar dit kan overeenstemmen met het originele document dat ook geen expliciete subsecties heeft (kort advies van ~1 pagina). Gezien de tabelbreuk is needs-rework gerechtvaardigd."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 0
-      max_section_chars: 7441
-      file_size_chars: 7441
+      file_size_chars: 7531
       flags: []
+      heading_count: 0
+      max_section_chars: 7531
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee situaties, motivering voor toerekening aan rekening 100, numeriek voorbeeld met balans.'
-      run_at: '2026-05-08T19:02:29Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "E2/A6: tabel op r91-99 (balans EUR vs USD) heeft een gebroken rij — r94 bevat '| *Kapitaal* | | *1.000* | | *1.500' zonder sluitende pipe, gevolgd door r95-96 als insprong '\\n\\n\\t\\t\\t\\t-300* |' wat een ETL tabel-rendering-bug is waarbij een cel met newline-inhoud niet correct geparsed werd. B2: heading_count = 0 per Laag 1 — het gehele advies staat als één blok tekst zonder enige ## subheading, maar dit kan overeenstemmen met het originele document dat ook geen expliciete subsecties heeft (kort advies van ~1 pagina). Gezien de tabelbreuk is needs-rework gerechtvaardigd."
+      concrete_problemen:
+        - regel: 94
+          categorie: E2
+          type: other
+          voorbeeld: '| *Kapitaal* | | *1.000* | | *1.500 → cel breekt naar volgende regels zonder sluitende pipe'
+        - regel: 95
+          categorie: A6
+          type: other
+          voorbeeld: "\n\n\t\t\t\t-300* |"
 themas:
   - functionele munt
   - functionele valuta
@@ -73,6 +81,7 @@ Een voorbeeld ter verduidelijking:
 De bestuurders van een Belgische onderneming zijn van oordeel dat de functionele valuta van de vennootschap de USD is. De vraag om haar boekhouding te voeren en haar jaarrekening op te stellen in USD vanaf 1 januari 20N1 wordt ingediend. 
 
 | Activa | | Balans in EUR | | Passiva | 
+|---|---|---|---|---|
 | Vaste activa | | 1.020 | | Kapitaal | | 1.000 | 
 | Vlottende activa | | 180 | | Schulden | | 200 | 
 | | | **1.200** | | | | **1.200** | 
@@ -86,11 +95,13 @@ Inmiddels verkrijgt de onderneming de toelating om vanaf het boekjaar dat start 
 Het negatief omrekeningsverschil van 300 wordt aan de rubriek *Kapitaal* toegerekend. Bij voorkeur wordt daartoe een afzonderlijke subrekening binnen de rekening 100 *Geplaatst kapitaal* gecreëerd. 
 
 | Activa | | Balans | | Passiva | 
+|---|---|---|---|---|
 | | | EUR | | USD | | | | EUR | | USD | 
 | Vaste activa | | 1.020 | | 1.224 | | *Kapitaal* | | *1.000* | | *1.500 
 
 			-300* | 
 | Vlottende activa | | 180 | | 216 | | Schulden | | 200 | | 240 | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | | | **1.200** | | **1.440** | | | | **1.200** | | **1.440** | 
 
 Uiteraard worden ook positieve omrekeningsverschillen op dezelfde wijze verwerkt.

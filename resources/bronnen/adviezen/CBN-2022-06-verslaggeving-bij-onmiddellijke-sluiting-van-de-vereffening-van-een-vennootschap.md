@@ -25,29 +25,29 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:26:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D2: regel 144 verwijst naar een schematisch tijdlijn-overzicht ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was een afbeelding in het originele advies. Geen TOC-fragment in body. Inhoud verder compleet; 55 voetnoten correct opgemaakt."
+    rationale: "D2: regel 152 verwijst naar een schematisch tijdlijn-overzicht ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was een afbeelding in het originele advies. Geen TOC-fragment in body. Inhoud verder compleet. (Herbevestiging van eerdere beoordeling.)"
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 7
-      max_section_chars: 17540
       file_size_chars: 23689
       flags: []
+      heading_count: 7
+      max_section_chars: 17540
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "D2: regel 144 verwijst naar een schematisch tijdlijn-overzicht ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was een afbeelding in het originele advies. Geen TOC-fragment in body. Inhoud verder compleet; 55 voetnoten correct opgemaakt."
+      run_at: '2026-05-11T15:26:40Z'
+      rationale: "D2: regel 152 verwijst naar een schematisch tijdlijn-overzicht ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was een afbeelding in het originele advies. Geen TOC-fragment in body. Inhoud verder compleet. (Herbevestiging van eerdere beoordeling.)"
       concrete_problemen:
-        - regel: 144
+        - regel: 152
           categorie: D2
           type: missing-section
           voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [tijdlijn-schema ontbreekt]'

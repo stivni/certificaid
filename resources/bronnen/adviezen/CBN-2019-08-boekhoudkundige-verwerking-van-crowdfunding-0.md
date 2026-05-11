@@ -12,40 +12,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'A3: TOC-concatenatie op regels 70-71 (`-- Donatie ---- Donatie zonder tegenprestatie...`) staat als aaneengesloten string in de body. E2: tabelcel `Rekening-couran` op regel 523 is afgekapt (ontbrekende `t`). B2: `## In hoofde van de begunstigde (artiest)` op regel 432 staat op `##`-niveau terwijl de sectie genest is onder `#### Profit-sharing` — hiërarchie-sprong.'
+    rationale: 'B2: `## In hoofde van de begunstigde (artiest)` op regel 419 staat op ##-niveau terwijl alle omliggende subsecties van Voorbeeld 2 (2019–2022) plain-text zijn — hiërarchie-sprong. E2: tabelcel `Rekening-couran` op regel 510 is afgekapt (ontbrekende `t`). A5: spatie ontbreekt na em-dash in H1-titel (regel 71: `2019/08 –Boekhoudkundige`). Inhoud inhoudelijk compleet en tabellen grotendeels correct.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 19
-      max_section_chars: 19466
-      file_size_chars: 31074
+      file_size_chars: 30428
       flags: []
+      heading_count: 19
+      max_section_chars: 19981
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: 'A3: TOC-concatenatie op regels 70-71 (`-- Donatie ---- Donatie zonder tegenprestatie...`) staat als aaneengesloten string in de body. E2: tabelcel `Rekening-couran` op regel 523 is afgekapt (ontbrekende `t`). B2: `## In hoofde van de begunstigde (artiest)` op regel 432 staat op `##`-niveau terwijl de sectie genest is onder `#### Profit-sharing` — hiërarchie-sprong.'
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'B2: `## In hoofde van de begunstigde (artiest)` op regel 419 staat op ##-niveau terwijl alle omliggende subsecties van Voorbeeld 2 (2019–2022) plain-text zijn — hiërarchie-sprong. E2: tabelcel `Rekening-couran` op regel 510 is afgekapt (ontbrekende `t`). A5: spatie ontbreekt na em-dash in H1-titel (regel 71: `2019/08 –Boekhoudkundige`). Inhoud inhoudelijk compleet en tabellen grotendeels correct.'
       concrete_problemen:
-        - regel: 70
-          categorie: A3
+        - regel: 71
+          categorie: A5
           type: other
-          voorbeeld: -- Donatie ---- Donatie zonder tegenprestatie – Donation-based crowdfunding...
-        - regel: 523
-          categorie: E2
-          type: other
-          voorbeeld: '| | 5500 | Kredietinstellingen – Rekening-couran | 7.000 | |'
-        - regel: 432
+          voorbeeld: '# CBN-advies 2019/08 –Boekhoudkundige verwerking van crowdfunding'
+        - regel: 419
           categorie: B2
           type: other
-          voorbeeld: '## In hoofde van de begunstigde (artiest) (onder #### Profit-sharing sectie)'
+          voorbeeld: '## In hoofde van de begunstigde (artiest)'
+        - regel: 510
+          categorie: E2
+          type: abrupt-cutoff
+          voorbeeld: '| | 5500 | Kredietinstellingen – Rekening-couran | 7.000 | |'
 themas:
   - crowdfunding
   - publieksfinanciering
@@ -59,25 +59,6 @@ themas:
 ---
 
 # CBN-advies 2019/08 –Boekhoudkundige verwerking van crowdfunding
-
-1. Inleiding 
-2. De verschillende types crowdfunding en de boekhoudkundige verwerking ervan
-
-  1. Donatie 
-    1. Donatie zonder tegenprestatie – Donation-based crowdfunding 
-    2. Donatie met tegenprestatie – Reward-based/Pre-sales crowdfunding 
-
-  2. Financiële lening – Lending-based crowdfunding 
-  3. Financiële belegging 
-    1. Invoice trading 
-    2. Profit-sharing-based crowdfunding / Royalty crowdfunding 
-    3. Investment crowdfunding (Equity-based / Security-based crowdfunding) 
-      1. Uitgifte van aandelen a pari 
-      2. Uitgifte van aandelen boven pari
-
-      3. Uitgifte van obligaties 
-
-    4. Participatory notes 
 
 ## Inleiding
 
@@ -95,9 +76,9 @@ Indien het streefdoel van de financiering niet wordt bereikt (dit is het minimum
 
 Bovendien is de onderneming het platform in dat geval geen commissie (gelijk aan een percentage van het geïnvesteerde bedrag) verschuldigd. In regel is deze commissie slechts verschuldigd indien het minimumbedrag van de financiering bereikt wordt.
 
-## De verschillende types crowdfunding en de boekhoudkundige verwerking ervan[^9] 
+## De verschillende types crowdfunding en de boekhoudkundige verwerking ervan[^9]
 
-### Donatie 
+### Donatie
 
 Historisch gezien vertegenwoordigt donatie de eerste vorm van crowdfunding. Het kan gaan om een zuivere gift, zonder tegenprestatie. De meest voorkomende vorm is echter de donatie met een niet-financiële tegenprestatie. 
 
@@ -448,7 +429,7 @@ In hoofde van de investeerder
 | | 6301 | Afschrijvingen op immateriële vaste activa | 2.000 | |
 | aan | 2109 | Immateriële vaste activa – Geboekte afschrijvingen | | 2.000 |
 
-#### Investment crowdfunding (Equity-based / Security-based crowdfunding)
+### Investment crowdfunding (Equity-based / Security-based crowdfunding)
 
 Hiermee worden de verrichtingen bedoeld waarbij het publiek investeert in een onderneming in ruil voor aandelen[^19], winstbewijzen of obligaties. Dit model is vrijwel uitsluitend van toepassing op bedrijfsfinanciering, naar aanleiding van de oprichting van een onderneming of een latere kapitaalverhoging.
 
@@ -458,7 +439,7 @@ De aldus ingezamelde gelden dienen in de jaarrekening als kapitaal (met of zonde
 
 Het onderstaande voorbeeld betreft een kapitaalvennootschap. In het geval van een kapitaalloze vennootschap moeten de rekeningen 110 en 111 Beschikbare/onbeschikbare inbreng buiten kapitaal worden gebruikt in plaats van rekening 100 Geplaatst kapitaal.
 
-##### Uitgifte van aandelen a pari
+#### Uitgifte van aandelen a pari
 
 *Volstorting* 
 In hoofde van de begunstigde
@@ -492,7 +473,7 @@ In hoofde van de investeerder
 | aan | 511 | Aandelen – Niet-opgevraagde bedragen | | 4.000 |
 | | 5500 | Kredietinstellingen – Rekening-courant | 6.000 | |
 
-##### Uitgifte van aandelen boven pari[^21] 
+#### Uitgifte van aandelen boven pari[^21]
 
 *Volstorting* 
 In hoofde van de begunstigde
@@ -528,7 +509,7 @@ In hoofde van de investeerder
 | aan | 511 | Aandelen – Niet-opgevraagde kapitalen | | 4.000 |
 | | 5500 | Kredietinstellingen – Rekening-courant | 7.000 | |
 
-##### Uitgifte van obligaties
+#### Uitgifte van obligaties
 
 In hoofde van de begunstigde
 
@@ -544,7 +525,7 @@ In hoofde van de investeerder
 | | 52 | Vastrentende effecten | 10.000 | |
 | aan | 5500 | Kredietinstellingen – Rekening-courant | | 10.000 |
 
-#### Participatory notes
+### Participatory notes
 
 Met dit type financiering investeert het publiek in een onderneming door middel van kapitaal[^22] (in ruil voor aandelen) of door op onrechtstreekse wijze op obligaties in te schrijven, via een crowdfundingplatform. Het platform biedt een dienst aan waarbij investeerders in contact worden gebracht met ondernemingen die op zoek zijn naar middelen.
 

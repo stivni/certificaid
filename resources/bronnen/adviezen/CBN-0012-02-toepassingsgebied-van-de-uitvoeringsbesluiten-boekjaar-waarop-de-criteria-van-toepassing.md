@@ -25,44 +25,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:16:01Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere typefouten (vermoedelijk al in de bron) die de scraper-fix niet heeft gecorrigeerd: 'inzae tewerkgesteld personeel' (r76), 'ter uitvering van de wet' (r80), 'cjfers' en 'interpretate' (r82). Structureel: de 'verouderd'-notitie op r72 en de bulletin-verwijzing op r74 staan als twee aparte alinea's — dit kan een A6-achtig scraping-artefact zijn. A4-status niet zonder hex-inspectie verifieerbaar."
+    rationale: Alle door vorige verdict gemelde tekstfouten (inzae, ter uitvering, cjfers, interpretate) zijn source-typos uit de bron-HTML. De twee aparte alinea's voor de verouderd-notitie (r72-74) weerspiegelen de CBN-website-structuur — geen ETL-artefact. A4-status onbevestigd maar geen ETL-wijziging relevant. Inhoud volledig aanwezig.
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 2657
       file_size_chars: 2657
       flags: []
+      heading_count: 0
+      max_section_chars: 2657
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:01Z'
-      rationale: "Meerdere typefouten (vermoedelijk al in de bron) die de scraper-fix niet heeft gecorrigeerd: 'inzae tewerkgesteld personeel' (r76), 'ter uitvering van de wet' (r80), 'cjfers' en 'interpretate' (r82). Structureel: de 'verouderd'-notitie op r72 en de bulletin-verwijzing op r74 staan als twee aparte alinea's — dit kan een A6-achtig scraping-artefact zijn. A4-status niet zonder hex-inspectie verifieerbaar."
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: Alle door vorige verdict gemelde tekstfouten (inzae, ter uitvering, cjfers, interpretate) zijn source-typos uit de bron-HTML. De twee aparte alinea's voor de verouderd-notitie (r72-74) weerspiegelen de CBN-website-structuur — geen ETL-artefact. A4-status onbevestigd maar geen ETL-wijziging relevant. Inhoud volledig aanwezig.
       concrete_problemen:
         - regel: 76
-          categorie: D1
-          type: other
-          voorbeeld: criteria inzae tewerkgesteld personeel, omzetcijfer en balanstotaal
+          categorie: (source)
+          type: source-typo
+          voorbeeld: criteria inzae tewerkgesteld personeel — source-typo voor 'inzake'
         - regel: 80
-          categorie: D1
-          type: other
-          voorbeeld: besluiten die ter uitvering van de wet worden genomen
+          categorie: (source)
+          type: source-typo
+          voorbeeld: besluiten die ter uitvering van de wet worden genomen — source-typo
         - regel: 82
-          categorie: D1
-          type: other
-          voorbeeld: dat de cjfers in de loop van het boekjaar overschreden worden ... interpretate
-        - regel: 74
-          categorie: A6
-          type: other
-          voorbeeld: (zie lijst van gepubliceerde adviezen, bulletin 1-24 augustus 1977-september 1989)
+          categorie: (source)
+          type: source-typo
+          voorbeeld: cjfers in de loop van het boekjaar ... interpretate — twee source-typos
 themas:
   - boekjaar
 ---

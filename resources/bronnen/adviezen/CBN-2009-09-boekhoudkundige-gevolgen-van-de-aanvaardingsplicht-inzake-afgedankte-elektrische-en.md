@@ -3,116 +3,55 @@ bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-gevolgen-van-de-aanvaar
 datum: 2009-03-11
 nummer: CBN-advies 2009/9
 provenance:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en
-      sha256: 21e9fb5214140e5447af42694896cb77b881beec36b81428df1d6534429f19cf
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en
+    sha256: 21e9fb5214140e5447af42694896cb77b881beec36b81428df1d6534429f19cf
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
+      file_size_chars: 107943
+      flags: []
       heading_count: 48
       max_section_chars: 18279
-      file_size_chars: 112190
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale:
-      run_at:
+      rationale: null
+      run_at: null
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
     status: trusted
 themas:
-  - aanvaardingsplicht
-  - afgedankte elektrische en elektronische apparatuur
-  - distributieonderneming
-  - elektrische en elektronische apparatuur
-  - milieubeleidsovereenkomst
-  - navordering
-  - producent
-  - recupelbijdrage
-  - sectorbeheersorganisme
-  - voorziening
+- aanvaardingsplicht
+- afgedankte elektrische en elektronische apparatuur
+- distributieonderneming
+- elektrische en elektronische apparatuur
+- milieubeleidsovereenkomst
+- navordering
+- producent
+- recupelbijdrage
+- sectorbeheersorganisme
+- voorziening
 ---
 
 # CBN-advies 2009/9 - Boekhoudkundige gevolgen van de aanvaardingsplicht inzake afgedankte elektrische en elektronische apparaten
 
-CBN-advies 2009/9 - Boekhoudkundige gevolgen van de aanvaardingsplicht inzake afgedankte elektrische en elektronische apparaten 
-
-1. OVERZICHT RELEVANTE WETGEVING 
-  1. De Europese richtlijn 
-  2. De Belgische regionale wetgeving 
-    1. Het Vlaamse Gewest 
-    2. Het Waalse Gewest 
-    3. Het Brussels Hoofdstedelijk Gewest 
-
-  3. De ‘milieubeleidsovereenkomsten’ in het Vlaamse Gewest en de ‘milieuovereenkomsten’ in het Waalse en Brussels Hoofdstedelijk Gewest 
-    1. Wetgeving 
-    2. Doelstellingen 
-    3. Beheersorganisme(n) 
-
-2. HET VERVULLEN VAN DE AANVAARDINGSPLICHT DOOR INVOERDERS/PRODUCENTEN VAN AFGEDANKTE ELEKTRISCHE EN ELEKTRONISCHE APPARATUUR (AEEA): ANALYSE SYSTEEM 
-  1. Collectief of individueel 
-  2. Recupelbijdrage 
-    1. Bepaling bedrag van de Recupelbijdrage in het Vlaamse Gewest 
-    2. Bepaling bedrag van de Recupelbijdrage in het Waalse Gewest 
-    3. Bepaling bedrag van de Recupelbijdrage in het Brussels Hoofdstedelijk Gewest 
-
-  3. Vermelding van de Recupelbijdrage bij het op de markt brengen van huishoudelijke en professionele EEA
-
-    1. Het Vlaamse Gewest 
-    2. Het Waalse Gewest 
-    3. Het Brussels Hoofdstedelijk Gewest 
-
-  4. Onderscheid tussen 2 types Recupelbijdragen 
-    1. De all-in bijdrage (voor huishoudelijke EEA) 
-    2. De administratieve bijdrage (voor niet-huishoudelijke EEA) 
-
-  5. Aangifte 
-  6. Facturatie op basis van de aangifte 
-  7. Mogelijkheid tot navordering 
-  8. Controle 
-    1. Het Vlaamse Gewest 
-    2. Het Waalse Gewest 
-    3. Het Brussels Hoofdstedelijk Gewest 
-
-3. BOEKHOUDKUNDIGE GEVOLGEN VAN DE AANVAARDINGSPLICHT 
-  1. Inleiding 
-  2. Relevante wetgeving 
-    1. K.B. 30 januari 2001 (Uitvoeringsbesluit W.Venn., hierna K.B. W.Venn.
-genoemd) 
-    2. Relevante adviezen Commissie voor Boekhoudkundige Normen 
-    3. IFRS/IAS 
-    4. Interpretatieve mededeling van de Europese Commissie, 98/C 16/04
-
-    5. Relevante rechtspraak 
-
-  3. Boekhoudkundige verwerking bij de producent/invoerder 
-    1. Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van huishoudelijke EEA. 
-    2. Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van professionele EEA op de markt gebracht uiterlijk op 13 augustus 2005 
-    3. Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van professionele EEA op de markt gebracht na 13 augustus 2005 
-
-  4. Boekhoudkundige verwerking bij de sectorbeheersorganismen 
-    1. Boekhoudkundige gevolgen voor de sectorbeheersorganismen voor huishoudelijke AEEA 
-    2. Boekhoudkundige gevolgen voor de sectorbeheersorganismen voor professionele AEEA op de markt gebracht uiterlijk op en na 13 augustus 2005 
-
-  5. Boekhoudkundige verwerking in hoofde van de distributieondernemingen 
-
----- Het Vlaamse Gewest---- Het Waalse Gewest---- Het Brussels Hoofdstedelijk Gewest-- Onderscheid tussen 2 types Recupelbijdragen---- De all-in bijdrage (voor huishoudelijke EEA)---- De administratieve bijdrage (voor niet-huishoudelijke EEA)-- Aangifte-- Facturatie op basis van de aangifte-- Mogelijkheid tot navordering-- Controle---- Het Vlaamse Gewest---- Het Waalse Gewest---- Het Brussels Hoofdstedelijk GewestBOEKHOUDKUNDIGE GEVOLGEN VAN DE AANVAARDINGSPLICHT-- Inleiding-- Relevante wetgeving---- K.B. 30 januari 2001 (Uitvoeringsbesluit W.Venn., hierna K.B. W.Venn.
-genoemd)---- Relevante adviezen Commissie voor Boekhoudkundige Normen---- IFRS/IAS---- Interpretatieve mededeling van de Europese Commissie, 98/C 16/04
----- Relevante rechtspraak-- Boekhoudkundige verwerking bij de producent/invoerder---- Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van huishoudelijke EEA. ---- Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van professionele EEA op de markt gebracht uiterlijk op 13 augustus 2005---- Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van professionele EEA op de markt gebracht na 13 augustus 2005-- Boekhoudkundige verwerking bij de sectorbeheersorganismen---- Boekhoudkundige gevolgen voor de sectorbeheersorganismen voor huishoudelijke AEEA---- Boekhoudkundige gevolgen voor de sectorbeheersorganismen voor professionele AEEA op de markt gebracht uiterlijk op en na 13 augustus 2005-- Boekhoudkundige verwerking in hoofde van de distributieondernemingen
+genoemd)
 
 ## OVERZICHT RELEVANTE WETGEVING
 
@@ -144,6 +83,7 @@ De WEEE Richtlijn maakt het onderscheid tussen:
 Samenvattend wordt in volgende tabel weergegeven wie de kosten verbonden met de verwerking van AEEA van particuliere huishoudens en AEEA van andere gebruikers dan particuliere huishoudens draagt.
 
 | | | **AEEA van particuliere huishoudens** | | **AEEA van andere dan particuliere huishoudens** | 
+|---|---|---|---|---|
 | Op de markt gebracht uiterlijk op 13.08.2005 | | De verantwoordelijkheid voor de financiering van de kosten voor het beheer van AEEA berust bij een of meer systemen waaraan alle producenten die op de markt aanwezig zijn op het tijdstip waarop de betrokken kosten ontstaan, naar evenredigheid bijdragen, bijvoorbeeld naar evenredigheid van hun marktaandeel voor de betrokken apparatuur (art. 8, WEEE Richtlijn). | | Indien de AEEA worden vervangen door nieuwe gelijkwaardige producten of door nieuwe producten met dezelfde functie worden de kosten gedragen door de producenten van deze producten (art. 9, WEEE Richtlijn). 
 
 			Worden de AEEA niet vervangen, dan worden de kosten gedragen door de gebruikers[^6] (art. 9, 1, WEEE Richtlijn). 
@@ -225,8 +165,10 @@ De verantwoordelijkheid voor de financiering van de kosten voor het beheer[^26] 
 Voor wat de professionele AEEA betreft kan hetzelfde onderscheid worden gemaakt zoals in de WEEE Richtlijn (historical waste versus new waste).
 
 | | | **Professionele AEEA** | 
+|---|---|---|
 | Op de markt gebracht uiterlijk op 13.08.2005 | | Voor de historische voorraad die wordt vervangen door nieuwe, gelijkaardige producten met dezelfde functie worden de kosten gedragen door de producenten van die nieuwe professionele EEA op het moment dat ze worden geleverd. Voor andere historische voorraad worden de kosten gedragen door de andere gebruikers dan particuliere huishoudens[^28] (art. 3.5.1*bis*, § 1, 2°, b), Vlarea II). | 
 | Op de markt gebracht na 13.08.2005 | | Elke producent is verantwoordelijk voor de financiering van de inzameling en de verwerking van de professionele AEEA (art. 3.5.1*bis,* § 1, 2°, a), Vlarea II). | 
+|---|---|---|
 
 #### Het Waalse Gewest
 
@@ -299,6 +241,7 @@ De omzetting van de Europese richtlijn inzake de financiering van AEEA is terug 
 Samenvattend wordt in volgende tabel weergegeven wie de kosten verbonden met de verwerking van huishoudelijke en professionele AEEA draagt (tabel opgesteld op basis van het Ordonnantie van de Brusselse Hoofdstedelijke Raad van 7 maart 1991 en het Uitvoeringsbesluit 18 juli 2002). 
 
 | | | **Huishoudelijke EEA** | | **Professionele AEEA** | 
+|---|---|---|---|---|
 | Op de markt gebracht uiterlijk op 13.08.2005 | | Het beheer berust bij één of meer systemen waaraan alle producenten die op de markt aanwezig zijn op het tijdstip waarop de betrokken kosten ontstaat, naar evenredigheid van hun marktaandeel voor de betrokken apparatuur bijdragen (art. 35, Besluit 18 juli 2002). | | De beheerskosten worden verzekerd: 
 
 - door de producent/invoerder of derde wanneer de AEEA door een gelijkwaardig product of een product met dezelfde functies vervangen wordt[^47]; 
@@ -306,6 +249,7 @@ Samenvattend wordt in volgende tabel weergegeven wie de kosten verbonden met de 
 
  | 
 | Op de markt gebracht na 13.08.2005 | | De producent is verantwoordelijk voor de financiering van de inzameling vanaf de containerparken, de verdelers of de kleinhandelaars en voor de financiering van de verwerking van het afval van zijn eigen producten. Hij kan voor de organisatie van de financiering kiezen tussen collectieve en individuele regelingen (art. 35, Besluit 18 juli 2002). | | De producent is verantwoordelijk voor de beheerskosten (art. 35*ter*, Besluit 18 juli 2002). | 
+|---|---|---|---|---|
 
 Producenten, invoerders of derden die in hun naam handelen en andere gebruikers dan particuliere huishoudens kunnen andere financieringsregelingen overeenkomen.
 
@@ -606,7 +550,7 @@ Onder “gebeurtenissen na de verslagperiode” worden begrepen: zowel gunstige 
 
 De entiteit zal, om de informatie weer te geven die zij na de balansdatum verkrijgt omtrent de omstandigheden die bestonden aan het eind van de verslagperiode, de toelichting met betrekking tot deze omstandigheden moeten actualiseren (IAS 10,19).
 
-#### Interpretatieve mededeling van de Europese Commissie, 98/C 16/04[^74] 
+### Interpretatieve mededeling van de Europese Commissie, 98/C 16/04[^74]
 
 In een interpretatieve mededeling over de bepaalde artikelen van de Vierde en de Zevende Europese Richtlijn, verduidelijkte de Europese Commissie in verband met voorzieningen voor risico’s en kosten het volgende :
 
@@ -622,7 +566,7 @@ In een interpretatieve mededeling over de bepaalde artikelen van de Vierde en de
 
 2. *het bestuur van de onderneming zich ertoe verbonden heeft milieuschade te voorkomen, te beperken of ongedaan te maken. Van een dergelijke verbintenis is bijvoorbeeld sprake als, op basis van verklaringen over zijn beleid of voorgenomen handelswijze, de praktijk in de bedrijfstak of verwachtingen bij het publiek, het bestuur van de onderneming weinig ruimte heeft om af te zien van maatregelen, of wanneer het bestuur heeft besloten milieuschade te voorkomen, te beperken of ongedaan te maken en dit besluit intern, aan een ander orgaan van de onderneming, of extern bekend heeft gemaakt.”* 
 
-#### Relevante rechtspraak
+### Relevante rechtspraak
 
 ## Arrest van het Hof van 14 september 1999 (vijfde kamer) inzake C-275/97: DE + ES Bauunternehmung GmbH tegen Finanzamt Bergheim[^76]
 
@@ -657,8 +601,7 @@ Wat de boekhoudkundige verwerking betreft kan het onderscheid worden gemaakt tus
 
 Onderstaande tekst behandelt de mogelijke boekhoudkundige gevolgen in elk van de geschetste situaties.
 
-#### Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van huishoudelijke EEA. 
-
+Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van huishoudelijke EEA.
 Strikt genomen is de regeling de volgende. De kosten van terugname en verwerking van huishoudelijke EEA op de markt gebracht vóór 1 juli 2001 worden door de producenten/invoerders gezamenlijk gedragen. De verantwoordelijkheid voor de financiering van deze kosten ligt dus bij de producenten/invoerders die op de markt aanwezig zijn op het tijdstip waarop de betrokken kosten ontstaan (m.a.w. op moment dat de consument het huishoudelijk AEEA inlevert). De producent/invoerder dient dan ook naar evenredigheid van zijn marktaandeel voor de betrokken apparatuur bij te dragen. De kosten van terugname en verwerking van na 1 juli 2001 op de markt gebrachte, huishoudelijke EEA worden door de producent/invoerder van het betrokken geproduceerde, ingevoerde apparaat zelf gedragen.
 
 Zoals eerder vermeld is het praktisch moeilijk haalbaar de afgedankte huishoudelijke EEA te gaan scheiden afhankelijk of het apparaat vóór of na 1 juli 2001 werd op de markt gebracht.
@@ -746,8 +689,7 @@ Boeking van de besteding van de voorziening:
 
 Vindt de navordering plaats na de vaststelling van de jaarrekening door de raad van bestuur maar vóór de goedkeuring ervan door de algemene vergadering, dan had, voor zover de raad van bestuur dit had ingecalculeerd bij de vaststelling van de jaarrekening, hiervoor reeds een voorziening moeten worden aangelegd.
 
-#### Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van professionele EEA op de markt gebracht uiterlijk op 13 augustus 2005
-
+Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van professionele EEA op de markt gebracht uiterlijk op 13 augustus 2005
 Uit de Vlaamse regionale wetgeving blijkt dat voor wat betreft de professionele AEEA op de markt gebracht uiterlijk op 13 augustus 2005, in principe de eindgebruiker instaat voor de kosten van de terugname en verwerking. In deze situatie zal de producent/invoerder bijgevolg niet verantwoordelijk zijn voor de ontmanteling en verwerking van deze AEEA, tenzij dit anders was overeengekomen met de eindgebruiker.
 
 Indien het apparaat evenwel wordt vervangen door een nieuw gelijkaardig product met dezelfde functie, zullen de kosten in principe niet worden gedragen door de eindgebruiker, maar door de producent van die nieuwe professionele EEA op moment dat het apparaat wordt geleverd. Ook in dit geval kan, tijdens de onderhandelingen die hebben geleid tot de verkoop van de professionele EEA, met de eindgebruiker zijn overeengekomen dat deze laatste de kosten van terugname en ontmanteling zal dragen.
@@ -782,8 +724,7 @@ Boeking van de besteding van de voorziening:
 | | 163-165 | Voorzieningen voor overige risico’s en kosten | ... | |
 | aan | 6371 | Voorzieningen voor andere risico’s en kosten: besteding en terugneming (-) | | ... |
 
-#### Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van professionele EEA op de markt gebracht na 13 augustus 2005
-
+Boekhoudkundige gevolgen van de aanvaardingsplicht bij de producent/invoerder van professionele EEA op de markt gebracht na 13 augustus 2005
 Voor professionele EEA op de markt gebracht na 13 augustus 2005 geldt de producentenverantwoordelijkheid. Zoals eerder uiteengezet worden de kosten van terugname en verwerking van AEEA van niet huishoudelijke oorsprong gezien de producentenverantwoordelijkheid bijgevolg volledig gedragen door de producenten/invoerders[^85], tenzij de koper zich formeel akkoord heeft verklaard met de financiering van deze verplichting[^86]. Op grond van art. 50, K.B. W.Venn. en het eerder verschenen advies 107/7 van de Commissie van Boekhoudkundige Normen zal in hiervoor een voorziening worden gevormd.
 
 Boeking van de betaling van de administratieve bijdrage bij het op de markt brengen van professionele EEA door de producent/invoerder:
@@ -829,8 +770,7 @@ Wat de boekhoudkundige verwerking betreft kan het onderscheid worden gemaakt tus
 
 Onderstaande tekst behandelt de mogelijke boekhoudkundige gevolgen in elk van de geschetste situaties.
 
-#### Boekhoudkundige gevolgen voor de sectorbeheersorganismen voor huishoudelijke AEEA
-
+Boekhoudkundige gevolgen voor de sectorbeheersorganismen voor huishoudelijke AEEA
 De sectorbeheersorganismen staan in het collectieve systeem in voor de terugname en verwerking van AEEA van huishoudelijke aard. Zij rekenen daartoe all-in bijdragen aan aan de producent/invoerder bij het op de markt brengen van nieuwe huishoudelijke EEA. Op die manier worden de lasten met betrekking tot de terugname en verwerking van AEEA verdeeld over de producenten/invoerders a rato hun marktaandeel[^87].
 
 Bij ontvangst worden de all-in Recupelbijdragen in opbrengst genomen.
@@ -871,8 +811,7 @@ Boeking van de navordering door het sectorbeheersorganisme:
 | | 404 | Te innen opbrengsten | ... | |
 | aan | 700 | Verkopen en dienstprestaties | | ... |
 
-#### Boekhoudkundige gevolgen voor de sectorbeheersorganismen voor professionele AEEA op de markt gebracht uiterlijk op en na 13 augustus 2005
-
+Boekhoudkundige gevolgen voor de sectorbeheersorganismen voor professionele AEEA op de markt gebracht uiterlijk op en na 13 augustus 2005
 De lasten van terugname en milieuvriendelijke verwerking van professionele AEEA worden niet gedragen door de sectorbeheersorganismen. Het beheersorganisme staat in voor het in contact brengen van de producent/invoerder met de meest geschikte operator die de recyclage voor zijn rekening kan nemen. De producent/invoerder betaalt hiervoor (evenals voor diverse rapporteringsverplichtingen waaraan in het kader van de aanvaardingsplicht moet zijn voldaan en die het beheersorganisme voor zijn rekening neemt), een administratieve bijdrage aan het sectorbeheersorganisme.
 
 Boeking van de facturatie van de administratieve bijdragen aan de producent/invoerder:

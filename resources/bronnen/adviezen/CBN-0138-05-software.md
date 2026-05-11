@@ -22,45 +22,45 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:03Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A7: heading op regel 92 bevat dubbel woord 'de activering de activering' — typisch copy-extractie-artefact. B5: regel 94 is een sectietitel ('Bij derden aangekochte... toepassingssoftware') zonder heading-prefix, terwijl A.1 en A.2 wél als subheadings zijn gemarkeerd. A6/D4: regel 151 bevat twee afzonderlijke bullets samengetrokken op één regel; regel 153 heeft malformed italic '*testing *en' (spatie voor sluitende asterisk). Regel 161 heeft broken italic 'rekening 72* Geactiveerde interne productie*'."
+    rationale: "A7 (regel 112): heading '## Type-gevallen voor de activering de activering en rubricering van software-uitgaven' heeft dubbele frase 'de activering de activering' — extractie-artefact. B5 (regel 114): 'Bij derden aangekochte, of via gebruiksrecht (tegen éénmalige vergoeding) verkregen toepassingssoftware' staat als plain tekst terwijl A.1 en A.2 wél als ### headings zijn opgemaakt. A6/D4 (regel 171): twee bullet-items samengevoegd op één regel. D4 (regels 173, 181): gebroken italics ('*testing *en' en 'rekening 72* Geactiveerde interne productie*')."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
+      file_size_chars: 12718
+      flags: []
       heading_count: 11
       max_section_chars: 4536
-      file_size_chars: 12721
-      flags: []
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:03Z'
-      rationale: "A7: heading op regel 92 bevat dubbel woord 'de activering de activering' — typisch copy-extractie-artefact. B5: regel 94 is een sectietitel ('Bij derden aangekochte... toepassingssoftware') zonder heading-prefix, terwijl A.1 en A.2 wél als subheadings zijn gemarkeerd. A6/D4: regel 151 bevat twee afzonderlijke bullets samengetrokken op één regel; regel 153 heeft malformed italic '*testing *en' (spatie voor sluitende asterisk). Regel 161 heeft broken italic 'rekening 72* Geactiveerde interne productie*'."
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: "A7 (regel 112): heading '## Type-gevallen voor de activering de activering en rubricering van software-uitgaven' heeft dubbele frase 'de activering de activering' — extractie-artefact. B5 (regel 114): 'Bij derden aangekochte, of via gebruiksrecht (tegen éénmalige vergoeding) verkregen toepassingssoftware' staat als plain tekst terwijl A.1 en A.2 wél als ### headings zijn opgemaakt. A6/D4 (regel 171): twee bullet-items samengevoegd op één regel. D4 (regels 173, 181): gebroken italics ('*testing *en' en 'rekening 72* Geactiveerde interne productie*')."
       concrete_problemen:
-        - regel: 92
+        - regel: 112
           categorie: A7
           type: scrambled-words
           voorbeeld: '## Type-gevallen voor de activering de activering en rubricering van software-uitgaven'
-        - regel: 94
+        - regel: 114
           categorie: B5
           type: other
           voorbeeld: Bij derden aangekochte, of via gebruiksrecht (tegen éénmalige vergoeding) verkregen toepassingssoftware
-        - regel: 151
+        - regel: 171
           categorie: A6
           type: other
           voorbeeld: (*coding*); - het onderhoud van het programma en de opleiding van de gebruiker (*maintenance*).
-        - regel: 153
+        - regel: 173
           categorie: D4
           type: other
           voorbeeld: '*testing *en - in bepaalde gevallen - van* maintenance *'
-        - regel: 161
+        - regel: 181
           categorie: D4
           type: other
           voorbeeld: via het credit van rekening 72* Geactiveerde interne productie*
@@ -122,7 +122,7 @@ Gaat het om standaardsoftware, dan zal in de meeste gevallen de softwareleveranc
 
 De geactiveerde kosten worden, overeenkomstig hun nuttigheids- of gebruiksduur, via afschrijvingen ten laste genomen.
 
-### b) *Specifieke software* 
+### b) *Specifieke software*
 
 In dit geval wordt de software ontwikkeld "op maat" van de onderneming. Meestal zal de softwareleverancier zijn auteursrecht op de maatprogrammatuur dan overdragen en verkrijgt de afnemer een intellectueel recht. 
 
@@ -132,7 +132,7 @@ De verwerking in de jaarrekening gebeurt dan zoals hierboven sub a).
 
 Wanneer de onderneming die de software levert, uitsluitend of in belangrijke mate op de verkrijgende onderneming is afgestemd of ermee verbonden is, is de Commissie van oordeel dat voor het bepalen van de aanschaffingsprijs ook toepassing moet worden gemaakt van de bijzondere voorzorg die vervat ligt in artikel 60, eerste lid van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna: KB W.Venn.)[^4]. 
 
-### A.2 Toepassingssoftware bestemd voor commercialisatie 
+### A.2 Toepassingssoftware bestemd voor commercialisatie
 
 Het gebeurt dat software bij derden wordt aangeschaft om, al dan niet na het doorvoeren van wijzigingen of aanpassingen, verder te worden gecommercialiseerd. 
 
@@ -142,7 +142,7 @@ Verkrijgt de onderneming echter het aanpassingsrecht van de software en dus het 
 
 Wordt de verkregen software vermenigvuldigd, dan worden de nog niet verkochte reproducties opgenomen bij de voorraad *Gereed product*. 
 
-### Door de onderneming zelf ontwikkelde toepassingssoftware 
+### Door de onderneming zelf ontwikkelde toepassingssoftware
 
 B.1 Toepassingssoftware voor intern gebruik (in beginsel uitsluitend specifieke software)
 Gaat het om intern ontwikkelde software, dan moet bijzondere aandacht worden besteed aan artikel 60 eerste lid KB W.Venn. waarin gesteld wordt dat : "Andere dan van derden verworven immateriële vaste activa worden slechts tegen vervaardigingsprijs op het actief geboekt voor zover die niet hoger is dan een voorzichtige raming van de gebruikswaarde of van het toekomstig rendement voor de onderneming van deze vaste activa."

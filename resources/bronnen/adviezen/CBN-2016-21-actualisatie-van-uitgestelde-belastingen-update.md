@@ -12,36 +12,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6/G3: regel 64 bevat ', bijgewerkt op 10 september 2025[^2]' als losstaande alinea direct na de H1-titel — zelfde bijwerkingsartefact als andere update-adviezen. Tevens A6 op regel 75: 'renteloze schulden op meer dan één[^3]\\n jaar niet in aanmerking' — spurious line-break na footnote-ref midden in zin. heading_count=0 is inhoudelijk verdedigbaar voor dit korte één-vraag-één-antwoord-advies, maar de twee artefacten zijn duidelijke ETL-bugs."
+    rationale: "G3/A6: regel 70 bevat ', bijgewerkt op 10 september 2025[^2]' als losstaand fragment direct na H1-titel — bijwerkingsartefact van de CBN-scraper. Inhoud verder als één aaneengesloten blok zonder headings (heading_count=0), wat voor dit korte één-vraag-advies acceptabel is. Artefact op regel 70 is een duidelijke ETL-bug."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 0
-      max_section_chars: 4563
       file_size_chars: 4563
       flags: []
+      heading_count: 0
+      max_section_chars: 4563
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "A6/G3: regel 64 bevat ', bijgewerkt op 10 september 2025[^2]' als losstaande alinea direct na de H1-titel — zelfde bijwerkingsartefact als andere update-adviezen. Tevens A6 op regel 75: 'renteloze schulden op meer dan één[^3]\\n jaar niet in aanmerking' — spurious line-break na footnote-ref midden in zin. heading_count=0 is inhoudelijk verdedigbaar voor dit korte één-vraag-één-antwoord-advies, maar de twee artefacten zijn duidelijke ETL-bugs."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "G3/A6: regel 70 bevat ', bijgewerkt op 10 september 2025[^2]' als losstaand fragment direct na H1-titel — bijwerkingsartefact van de CBN-scraper. Inhoud verder als één aaneengesloten blok zonder headings (heading_count=0), wat voor dit korte één-vraag-advies acceptabel is. Artefact op regel 70 is een duidelijke ETL-bug."
       concrete_problemen:
-        - regel: 64
+        - regel: 70
           categorie: A6
           type: other
           voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
-        - regel: 75
-          categorie: A6
-          type: other
-          voorbeeld: "renteloze schulden op meer dan één[^3]\n jaar niet in aanmerking"
 themas:
   - actualisatie
   - gerealiseerde meerwaarde

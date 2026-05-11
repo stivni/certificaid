@@ -2,54 +2,62 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
 datum: 2022-12-21
 gerelateerde_adviezen:
-  - datum: '2021-11-22'
-    titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+- datum: '2021-11-22'
+  titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
+  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
 nummer: CBN-advies 2022/16
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
-      sha256: 3340dd01809e7f96942593815b28e17a7f8370d39f3a02cd4a3e2dd3acd9025b
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
+    sha256: 3340dd01809e7f96942593815b28e17a7f8370d39f3a02cd4a3e2dd3acd9025b
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:24:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 5
-      max_section_chars: 3142
       file_size_chars: 7630
       flags: []
+      heading_count: 5
+      max_section_chars: 3142
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Kort advies (7 headings, ~7600 chars). Geen zichtbare extractie-artefacten: geen TOC-duplicaten, geen gebroken tabelcellen, geen malformed bold/italic, geen floating footnotes. Voetnoten [^1]–[^13] volledig gedefinieerd. Drie concrete voorbeelden correct als ### subsecties. Inhoud compleet voor het onderwerp (omzetting VOF→BV, BV→CommV, NV→BV).'
+      rationale: 'Kort advies (7 headings, ~7600 chars). Geen zichtbare extractie-artefacten:
+        geen TOC-duplicaten, geen gebroken tabelcellen, geen malformed bold/italic,
+        geen floating footnotes. Voetnoten [^1]–[^13] volledig gedefinieerd. Drie
+        concrete voorbeelden correct als ### subsecties. Inhoud compleet voor het
+        onderwerp (omzetting VOF→BV, BV→CommV, NV→BV).'
       run_at: '2026-05-11T12:24:34Z'
       status: trusted
-    rationale: 'Kort advies (7 headings, ~7600 chars). Geen zichtbare extractie-artefacten: geen TOC-duplicaten, geen gebroken tabelcellen, geen malformed bold/italic, geen floating footnotes. Voetnoten [^1]–[^13] volledig gedefinieerd. Drie concrete voorbeelden correct als ### subsecties. Inhoud compleet voor het onderwerp (omzetting VOF→BV, BV→CommV, NV→BV).'
+    rationale: 'Kort advies (7 headings, ~7600 chars). Geen zichtbare extractie-artefacten:
+      geen TOC-duplicaten, geen gebroken tabelcellen, geen malformed bold/italic,
+      geen floating footnotes. Voetnoten [^1]–[^13] volledig gedefinieerd. Drie concrete
+      voorbeelden correct als ### subsecties. Inhoud compleet voor het onderwerp (omzetting
+      VOF→BV, BV→CommV, NV→BV).'
     status: trusted
 themas:
-  - omzetting vennootschap
-  - omzetting
-  - nieuwe rechtsvorm
-  - wijziging rechtsvorm
-  - afsluitdatum
-  - neerleggingsplicht
-  - neerleggingsverplichting
-  - publicatieplicht
-  - publicatieverplichting
-  - openbaarmakingsplicht
-  - openbaarmakingsverplichting
+- omzetting vennootschap
+- omzetting
+- nieuwe rechtsvorm
+- wijziging rechtsvorm
+- afsluitdatum
+- neerleggingsplicht
+- neerleggingsverplichting
+- publicatieplicht
+- publicatieverplichting
+- openbaarmakingsplicht
+- openbaarmakingsverplichting
 ---
 
 # CBN-advies 2022/16 – Omzetting van een vennootschap: gevolgen voor de jaarrekening

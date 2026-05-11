@@ -2,50 +2,56 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-de-schulden-ten-opzichte-van-het-personeel-bij-sluiting-van-de
 datum: 1981-12-01
 gerelateerde_adviezen:
-  - datum: '1983-04-10'
-    titel: Belastingvrije provisie voor sociaal passief
-    url: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
+- datum: '1983-04-10'
+  titel: Belastingvrije provisie voor sociaal passief
+  url: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
 nummer: CBN-advies 107/4
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-de-schulden-ten-opzichte-van-het-personeel-bij-sluiting-van-de
-      sha256: e258e3db6ceff9c40c90837abe3e5625e75d3bb14531c00e4b9d62da736f8c4c
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-de-schulden-ten-opzichte-van-het-personeel-bij-sluiting-van-de
+    sha256: e258e3db6ceff9c40c90837abe3e5625e75d3bb14531c00e4b9d62da736f8c4c
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 2641
       file_size_chars: 2641
       flags: []
+      heading_count: 0
+      max_section_chars: 2641
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Laag-1 pass (2641 chars). Geen aantoonbare extractie-artefacten: geen gebroken footnote-regels, geen HTML-entities, geen unicode-problemen. Prose vloeit logisch en zinnen zijn correct afgerond. Inhoud compleet met going-concern-thema goed behandeld.'
+      rationale: 'Laag-1 pass (2641 chars). Geen aantoonbare extractie-artefacten:
+        geen gebroken footnote-regels, geen HTML-entities, geen unicode-problemen.
+        Prose vloeit logisch en zinnen zijn correct afgerond. Inhoud compleet met
+        going-concern-thema goed behandeld.'
       run_at: '2026-05-11T11:57:45Z'
       status: trusted
-    rationale: 'Laag-1 pass (2641 chars). Geen aantoonbare extractie-artefacten: geen gebroken footnote-regels, geen HTML-entities, geen unicode-problemen. Prose vloeit logisch en zinnen zijn correct afgerond. Inhoud compleet met going-concern-thema goed behandeld.'
+    rationale: 'Laag-1 pass (2641 chars). Geen aantoonbare extractie-artefacten: geen
+      gebroken footnote-regels, geen HTML-entities, geen unicode-problemen. Prose
+      vloeit logisch en zinnen zijn correct afgerond. Inhoud compleet met going-concern-thema
+      goed behandeld.'
     status: trusted
 themas:
-  - afdanking van personeel
-  - going concern beginsel
-  - personeel
-  - sluiting
-  - stopzetting van de werkzaamheden
-  - voorziening
-  - Voorzieningen voor schulden ten opzichte van personeel bij sluiting van de onderneming
+- afdanking van personeel
+- going concern beginsel
+- personeel
+- sluiting
+- stopzetting van de werkzaamheden
+- voorziening
+- Voorzieningen voor schulden ten opzichte van personeel bij sluiting van de onderneming
 ---
 
 # CBN-advies 107/4 - Voorzieningen voor de schulden ten opzichte van het personeel bij sluiting van de onderneming

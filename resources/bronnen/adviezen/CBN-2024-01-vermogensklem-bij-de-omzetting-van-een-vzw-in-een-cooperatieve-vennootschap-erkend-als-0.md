@@ -2,61 +2,72 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
 datum: 2024-01-17
 gerelateerde_adviezen:
-  - datum: '2021-05-07'
-    titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als
+- datum: '2021-05-07'
+  titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap
+    erkend als sociale onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als
 nummer: CBN-advies 2024/01
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
-      sha256: 5575df12a9bbe6f93803184ffd4066df548821de9ef02f078e4c552989ee70d5
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0
+    sha256: 5575df12a9bbe6f93803184ffd4066df548821de9ef02f078e4c552989ee70d5
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:24:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 6
-      max_section_chars: 15034
-      file_size_chars: 22981
+      file_size_chars: 23022
       flags: []
+      heading_count: 6
+      max_section_chars: 15064
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Geen zichtbare extractie-artefacten. Balansvoorbeelden in pipe-tabellen zijn correct opgemaakt met meerregelige cellen als subrekeningen (bv. '1319.0 Overige...' en '1319.1 Latente...' als afzonderlijke rijen), wat inhoudelijk correct is en niet het 'gebroken cel'-patroon van 2022/13. Voetnoten [^1]–[^27] volledig. Drie situaties (materiële vaste activa, geldbeleggingen, onbeschikbare reserve) volledig uitgewerkt.
+      rationale: Geen zichtbare extractie-artefacten. Balansvoorbeelden in pipe-tabellen
+        zijn correct opgemaakt met meerregelige cellen als subrekeningen (bv. '1319.0
+        Overige...' en '1319.1 Latente...' als afzonderlijke rijen), wat inhoudelijk
+        correct is en niet het 'gebroken cel'-patroon van 2022/13. Voetnoten [^1]–[^27]
+        volledig. Drie situaties (materiële vaste activa, geldbeleggingen, onbeschikbare
+        reserve) volledig uitgewerkt.
       run_at: '2026-05-11T12:24:34Z'
       status: trusted
-    rationale: Geen zichtbare extractie-artefacten. Balansvoorbeelden in pipe-tabellen zijn correct opgemaakt met meerregelige cellen als subrekeningen (bv. '1319.0 Overige...' en '1319.1 Latente...' als afzonderlijke rijen), wat inhoudelijk correct is en niet het 'gebroken cel'-patroon van 2022/13. Voetnoten [^1]–[^27] volledig. Drie situaties (materiële vaste activa, geldbeleggingen, onbeschikbare reserve) volledig uitgewerkt.
+    rationale: Geen zichtbare extractie-artefacten. Balansvoorbeelden in pipe-tabellen
+      zijn correct opgemaakt met meerregelige cellen als subrekeningen (bv. '1319.0
+      Overige...' en '1319.1 Latente...' als afzonderlijke rijen), wat inhoudelijk
+      correct is en niet het 'gebroken cel'-patroon van 2022/13. Voetnoten [^1]–[^27]
+      volledig. Drie situaties (materiële vaste activa, geldbeleggingen, onbeschikbare
+      reserve) volledig uitgewerkt.
     status: trusted
 themas:
-  - vermogensklem
-  - vereniging
-  - vzw
-  - coöperatieve vennootschap
-  - coöperatieve vennootschap erkend als sociale onderneming
-  - sociale onderneming
-  - staat van activa en passiva
-  - nettoactief
-  - onbeschikbare reserve
-  - werkelijke waarde
-  - continuïteit
-  - juridische continuiteit
-  - latente meerwaarde
-  - herwaarderingsmeerwaarde
-  - uitkering
-  - aanzuiveren van verliezen
-  - aanzuivering van verlies
-  - omzetting
+- vermogensklem
+- vereniging
+- vzw
+- coöperatieve vennootschap
+- coöperatieve vennootschap erkend als sociale onderneming
+- sociale onderneming
+- staat van activa en passiva
+- nettoactief
+- onbeschikbare reserve
+- werkelijke waarde
+- continuïteit
+- juridische continuiteit
+- latente meerwaarde
+- herwaarderingsmeerwaarde
+- uitkering
+- aanzuiveren van verliezen
+- aanzuivering van verlies
+- omzetting
 ---
 
 # CBN-advies 2024/01 – Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
@@ -95,11 +106,12 @@ De Commissie vestigt er tevens de aandacht op dat alle activa dienen gewaardeerd
 
 ## Voorbeelden
 
-### Materiële vaste activa 
+### Materiële vaste activa
 
 Een gebouw is reeds tien jaar in het bezit van een VZW[^16] op het ogenblik van de omzetting van deze VZW in een erkende CVSO. De aanschaffingswaarde van dit gebouw in hoofde van de VZW bedraagt 990.000 euro. De VZW heeft tot aan de omzetting 300.000 euro afschrijvingen geboekt op dit gebouw. De (netto) boekwaarde van het gebouw bedraagt aldus bij de omzetting 690.000 euro. De werkelijke waarde van het gebouw bedraagt op dat moment 1.200.000 euro. Naast dit gebouw bezit de VZW liquide middelen op een bankrekening voor een bedrag van 100.000 euro. De VZW is eveneens handelsschulden verschuldigd ter waarde van 200.000 euro. In het voorbeeld wordt er eenvoudigheidshalve van uitgegaan dat de VZW haar vermogen volledig zelf heeft opgebouwd zonder een beginvermogen.
 
 | Balans vóór omzetting[^17] | 
+|---|
 | 2210.0 Gebouwen: aanschaffingswaarde | | 990.000 | | 14 Overgedragen resultaat | | 590.000 | 
 | 2210.9 Gebouwen: geboekte afschrijvingen | | (300.000) | | 44 Handelsschulden | | 200.000 | 
 | 5500 Kredietinstellingen: rekening-courant | | 100.000 | | | | | 
@@ -108,6 +120,7 @@ Een gebouw is reeds tien jaar in het bezit van een VZW[^16] op het ogenblik van 
 Op het ogenblik van de omzetting is het gebouw 510.000 euro meer waard dan de uitgedrukte boekwaarde. Dit bedrag van 510.000 euro wordt op een afzonderlijke subrekening van het betreffende actief tot uitdrukking gebracht. Naar aanleiding van de omzetting van de VZW in een erkende CVSO wordt in toepassing van artikel 14:42 WVV een bedrag van 1.100.000[^18] euro op een onbeschikbare reserverekening geboekt.[^19] 
 
 | Balans na omzetting | 
+|---|
 | 2210.0 Gebouwen: aanschaffingswaarde | | 990.000 | | 1319 Overige onbeschikbare reserves | | 1.100.000 | 
 | 2210.8 Gebouwen: latente meerwaarden | | 510.000 | | *1319.0 Overige onbeschikbare reserves* | | *590.000* | 
 | 2210.9 Gebouwen: geboekte afschrijvingen | | (300.000) | | *1319.1 Latente meerwaarden in onbeschikbare reserves* | | *510.000* | 
@@ -121,6 +134,7 @@ De geherwaardeerde nettowaarde van deze vaste activa wordt vervolgens jaarlijks 
 Veronderstel dat de VZW (bovenop haar liquide middelen van 100.000 euro en de handelsschulden van 200.000 euro) twee geldbeleggingen bezit. De aanschaffingswaarde ervan bedraagt respectievelijk 600.000 euro (geldbelegging 1) en 250.000 euro (geldbelegging 2). Geldbelegging 1 maakte in de laatste jaarrekening het voorwerp uit van een waardevermindering van 100.000 euro, waardoor deze geldbelegging een netto-boekwaarde had van 500.000 euro.
 
 | Balans vóór omzetting[^20] | 
+|---|
 | 510x.0 Geldbeleggingen: aanschaffingswaarde | | 850.000 | | 14 Overgedragen resultaat | | 650.000 | 
 | 519x Geldbeleggingen: geboekte waardeverminderingen | | (100.000) | | 44 Handelsschulden | | 200.000 | 
 | 5500 Kredietinstellingen: rekening-courant | | 100.000 | | | | | 
@@ -130,6 +144,7 @@ Veronderstel dat de VZW (bovenop haar liquide middelen van 100.000 euro en de ha
 Op het ogenblik van de omzetting van de VZW in een erkende CVSO bedraagt de werkelijke waarde van de geldbeleggingen respectievelijk 550.000 euro (geldbelegging 1) en 400.000 euro (geldbelegging 2). Daar de waardevermindering op geldbelegging 1 slechts verantwoord wordt ten bedrage van 50.000 euro, zal de overige 50.000 euro het voorwerp uitmaken van een terugneming van waardeverminderingen. Aangezien de werkelijke waarde van geldbelegging 2 de aanschaffingswaarde ervan overstijgt, wordt het verschil tussen deze twee bedragen (d.i. 150.000 euro) geboekt als latente meerwaarde. Een bedrag van 850.000[^21] wordt geboekt op een rekening van de onbeschikbare reserves in toepassing van artikel 14:42 WVV. In die zin voegt artikel 14.42, tweede lid WVV een suppletieve waarderingsregel toe aan het KB WVV vermits artikel 3:35 KB WVV de herwaardering van Geldbeleggingen niet toelaat. Dit geldt mutatis mutandis eveneens voor andere activa waarvoor volgens de gemene regel geen herwaardering mogelijk is.
 
 | Balans na omzetting | 
+|---|
 | 510x.0 Geldbeleggingen: aanschaffingswaarde | | 850.000 | | 1319 Overige onbeschikbare reserves | | 850.000 | 
 | 510x.8 Geldbeleggingen: latente meerwaarden | | 150.000 | | *1319.0 Overige onbeschikbare reserves* | | *700.000* | 
 | 519x Geldbeleggingen: waardeverminderingen | | (50.000) | | *1319.1 Latente meerwaarden in onbeschikbare reserves* | | *150.000* | 
@@ -148,6 +163,7 @@ Een VZW wordt in boekjaar N omgezet in een CV erkend als SO. Het nettoactief dat
 Een aantal jaar later (aan het einde van boekjaar N+X) beslist deze CV erkend als SO tot ontbinding (en invereffeningstelling). Op dat moment heeft deze CV erkend als SO een overgedragen verlies van -40. Het geheel van haar activa werd gerealiseerd, er blijven slechts liquide middelen (60) over op het actief van de balans. De vereffening wordt gesloten in N+(X+1).
 
 | Balans van de CV erkend als SO vóór vereffening | 
+|---|
 | 55 Kredietinstellingen | | 60 | | 1319 Overige onbeschikbare reserves | | 100 | 
 | | | | | 14 Overgedragen verlies | | (40) | 
 | | | 60 | | | | 60 | 
@@ -159,6 +175,7 @@ Het bedrag waaraan een bestemming moet worden gegeven betreft het bedrag van 60 
 Dit zou anders zijn wanneer de CV erkend als SO daarnaast ook een eigen inbreng zou hebben van 50. 
 
 | Balans van de CV erkend als SO vóór vereffening | 
+|---|
 | 55 Kredietinstellingen | | 110 | | 11 Inbreng | | 50 | 
 | | | | | 1311 Andere onbeschikbare reserves | | 100 | 
 | | | | | 14 Overgedragen verlies | | (40) | 
@@ -173,6 +190,7 @@ Derde situatie
 Loopt het overgedragen verlies op tot 70, dan ziet de balans van de CV erkend als SO er als volgt uit.
 
 | Balans van de CV erkend als SO vóór vereffening | 
+|---|
 | 55 Kredietinstellingen | | 80 | | 11 Inbreng | | 50 | 
 | | | | | 1311 Andere onbeschikbare reserves | | 100 | 
 | | | | | 14 Overgedragen verlies | | (70) | 

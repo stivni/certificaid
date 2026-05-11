@@ -2,54 +2,56 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
 datum: 2016-10-26
 gerelateerde_adviezen:
-  - datum: '1988-01-21'
-    titel: Werkende vennoten
-    url: https://www.cbn-cnc.be/nl/adviezen/werkende-vennoten
-  - datum: '1988-12-01'
-    titel: Boeking van commissies
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
-  - datum: '1986-01-01'
-    titel: Materiële vaste activa - Onderscheid met voorraden
-    url: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
-  - datum: '1991-03-01'
-    titel: Rechten tot vertoning van films
-    url: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
+- datum: '1988-01-21'
+  titel: Werkende vennoten
+  url: https://www.cbn-cnc.be/nl/adviezen/werkende-vennoten
+- datum: '1988-12-01'
+  titel: Boeking van commissies
+  url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
+- datum: '1986-01-01'
+  titel: Materiële vaste activa - Onderscheid met voorraden
+  url: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
+- datum: '1991-03-01'
+  titel: Rechten tot vertoning van films
+  url: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
 nummer: CBN-advies 2016/26
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
-      sha256: 8c35c5e1d99a47d6f1ece5d1ac3706232fa829b1aa58e1e2eb74712bdf2d5f93
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
+    sha256: 8c35c5e1d99a47d6f1ece5d1ac3706232fa829b1aa58e1e2eb74712bdf2d5f93
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 2
-      max_section_chars: 3159
       file_size_chars: 4728
       flags: []
+      heading_count: 2
+      max_section_chars: 3159
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Kort, schoon advies zonder zichtbare artefacten. Twee ##-headings correct; vijf voetnoten volledig gedefinieerd; geen broken opmaak of extractiesporen.'
+      rationale: 'Kort, schoon advies zonder zichtbare artefacten. Twee ##-headings
+        correct; vijf voetnoten volledig gedefinieerd; geen broken opmaak of extractiesporen.'
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: 'Kort, schoon advies zonder zichtbare artefacten. Twee ##-headings correct; vijf voetnoten volledig gedefinieerd; geen broken opmaak of extractiesporen.'
+    rationale: 'Kort, schoon advies zonder zichtbare artefacten. Twee ##-headings
+      correct; vijf voetnoten volledig gedefinieerd; geen broken opmaak of extractiesporen.'
     status: trusted
 themas:
-  - diensten en diverse goederen
-  - kilometerheffing
+- diensten en diverse goederen
+- kilometerheffing
 ---
 
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN

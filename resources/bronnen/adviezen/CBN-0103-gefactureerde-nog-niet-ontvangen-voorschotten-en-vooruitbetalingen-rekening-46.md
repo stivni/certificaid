@@ -12,32 +12,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:01Z'
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: de markdown-tabel (regels 58-61) heeft een lege eerste kolom ('| |') op elke rij zonder overeenkomende header-label — een on-naturlijke structuur die een mens nooit zo zou typen. Resterend bug, niet opgelost door de scraper-fixes."
+    rationale: "E2: de markdown-tabel op r58-61 heeft een lege eerste kolom ('| |') op elke rij zonder corresponderende header-label — een inconsistente tabelstructuur die een mens nooit zo zou typen. De header heeft 5 kolommen maar de eerste is leeg; de sub-rijen (460, 461) herhalen dat lege veld. ETL heeft de originele rekeningnummering niet correct in pipe-markdown vertaald."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 1220
       file_size_chars: 1220
       flags: []
+      heading_count: 0
+      max_section_chars: 1220
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:01Z'
-      rationale: "E2: de markdown-tabel (regels 58-61) heeft een lege eerste kolom ('| |') op elke rij zonder overeenkomende header-label — een on-naturlijke structuur die een mens nooit zo zou typen. Resterend bug, niet opgelost door de scraper-fixes."
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: "E2: de markdown-tabel op r58-61 heeft een lege eerste kolom ('| |') op elke rij zonder corresponderende header-label — een inconsistente tabelstructuur die een mens nooit zo zou typen. De header heeft 5 kolommen maar de eerste is leeg; de sub-rijen (460, 461) herhalen dat lege veld. ETL heeft de originele rekeningnummering niet correct in pipe-markdown vertaald."
       concrete_problemen:
         - regel: 58
           categorie: E2
           type: pseudo-table
-          voorbeeld: '| | Rekening | Omschrijving | Debet | Credit | — lege eerste kolom zonder header'
+          voorbeeld: '| | Rekening | Omschrijving | Debet | Credit | — lege eerste kolom zonder header-label'
+        - regel: 60
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: '| | 460 | Te ontvangen | | | — lege eerste kolom herhaald op elke datarij'
 themas:
   - gefactureerde voorschotten en vooruitbetalingen
   - nog niet ontvangen voorschotten en vooruitbetalingen

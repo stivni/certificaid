@@ -25,40 +25,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: tabel op regels 217-222 heeft rij-labels die buiten de tabelcellen lopen ('6620', 'en kosten', 'met terugnemingsrecht' elk op aparte regels als losse tabelrijen); zelfde patroon op regels 238-243 ('168', 'met terugnemingsrecht', '6621', 'risico's en kosten (-)' buiten cellen). Alle voetnoten [^1]-[^12] zijn correct gedefinieerd onderaan — het vorige verdict over 'orphaned markers' was onjuist, de markers zijn correct gekoppeld. De tabelstructuurproblemen blijven."
+    rationale: "E2: tabel op regels 241-246 heeft rij-labels die buiten de tabelcellen lopen ('6620', 'en kosten', 'met terugnemingsrecht' elk als losse tabelrijen). Zelfde patroon op regels 262-267 ('168', 'met terugnemingsrecht', '6621', 'risico's en kosten (-)' buiten cellen). E2: regels 293-294 en 301-302 tonen 'Aanschaffingswaarde' als een losse tabelrij onder de eigenlijke rekening-rij in plaats van in dezelfde cel. Alle voetnoten [^1]-[^12] correct gedefinieerd."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 7
-      max_section_chars: 5056
       file_size_chars: 18931
       flags: []
+      heading_count: 7
+      max_section_chars: 5056
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "E2: tabel op regels 217-222 heeft rij-labels die buiten de tabelcellen lopen ('6620', 'en kosten', 'met terugnemingsrecht' elk op aparte regels als losse tabelrijen); zelfde patroon op regels 238-243 ('168', 'met terugnemingsrecht', '6621', 'risico's en kosten (-)' buiten cellen). Alle voetnoten [^1]-[^12] zijn correct gedefinieerd onderaan — het vorige verdict over 'orphaned markers' was onjuist, de markers zijn correct gekoppeld. De tabelstructuurproblemen blijven."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "E2: tabel op regels 241-246 heeft rij-labels die buiten de tabelcellen lopen ('6620', 'en kosten', 'met terugnemingsrecht' elk als losse tabelrijen). Zelfde patroon op regels 262-267 ('168', 'met terugnemingsrecht', '6621', 'risico's en kosten (-)' buiten cellen). E2: regels 293-294 en 301-302 tonen 'Aanschaffingswaarde' als een losse tabelrij onder de eigenlijke rekening-rij in plaats van in dezelfde cel. Alle voetnoten [^1]-[^12] correct gedefinieerd."
       concrete_problemen:
-        - regel: 217
+        - regel: 243
           categorie: E2
           type: pseudo-table
           voorbeeld: "| | 6620 | Voorzieningen voor uitzonderlijke risico's | | |\n| | en kosten | 100.000 | | |"
-        - regel: 238
+        - regel: 264
           categorie: E2
           type: pseudo-table
           voorbeeld: "| | 168 | Voorzieningen voor schenkingen en legaten | | |\n| | met terugnemingsrecht | 100.000 | | |"
-        - regel: 290
+        - regel: 293
           categorie: E2
           type: pseudo-table
-          voorbeeld: "| | 7170 | Wijziging in de bestellingen in uitvoering: | 130.000 | |\n| | Aanschaffingswaarde | | | |\n| aan | 370 | Bestellingen in uitvoering: | | |\n| | aanschaffingswaarde | 130.000 | | |"
+          voorbeeld: "| aan | 7170 | Wijziging in de bestellingen in uitvoering: | | 70.000 |\n| | Aanschaffingswaarde | | | |"
 themas:
   - bestellingen in uitvoering
   - completed contract method

@@ -25,32 +25,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6/G3: regel 66 bevat ', bijgewerkt op 10 september 2025 [^2]' als losstaande alinea direct na de H1-titel — de bijwerkingsannotatie belandde als inline tekst in de body in plaats van in de frontmatter. Verdere inhoud is volledig en correct: 4 headings, voetnoten intact, logische alinea's."
+    rationale: 'G3/A6: regel 73 `, bijgewerkt op 10 september 2025 [^2]` staat als alleenstaande body-alinea direct na de H1-titel — bijwerkingsannotatie die in de frontmatter (bijv. `bijgewerkt` veld) thuishoort maar door de scraper als body-tekst is ingevoegd. Verdere inhoud volledig correct: 4 headings, voetnoten [^1]–[^7] aanwezig, geen andere artefacten.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 4
-      max_section_chars: 2104
       file_size_chars: 5053
       flags: []
+      heading_count: 4
+      max_section_chars: 2104
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "A6/G3: regel 66 bevat ', bijgewerkt op 10 september 2025 [^2]' als losstaande alinea direct na de H1-titel — de bijwerkingsannotatie belandde als inline tekst in de body in plaats van in de frontmatter. Verdere inhoud is volledig en correct: 4 headings, voetnoten intact, logische alinea's."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'G3/A6: regel 73 `, bijgewerkt op 10 september 2025 [^2]` staat als alleenstaande body-alinea direct na de H1-titel — bijwerkingsannotatie die in de frontmatter (bijv. `bijgewerkt` veld) thuishoort maar door de scraper als body-tekst is ingevoegd. Verdere inhoud volledig correct: 4 headings, voetnoten [^1]–[^7] aanwezig, geen andere artefacten.'
       concrete_problemen:
-        - regel: 66
-          categorie: A6
+        - regel: 73
+          categorie: G3
           type: other
-          voorbeeld: ', bijgewerkt op 10 september 2025 [^2]'
+          voorbeeld: ', bijgewerkt op 10 september 2025 [^2] (bijwerkingsannotatie als body-tekst i.p.v. frontmatter)'
 themas:
   - consolidatie
   - subconsolidatie

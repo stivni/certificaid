@@ -25,33 +25,33 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Regel 73: 'artikel 107, 4° KB W.Venn.' staat als geïsoleerde plain-text regel direct na H1 en vóór de eerste ## heading (B5) — een zweefzin die noch heading noch inleiding-alinea is. Regel 104: 'Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd' staat als plain-text sectietitel direct vóór een alinea, zonder ##/### prefix (B5) — dit had een ### heading moeten zijn conform de structuur van het advies. Overige inhoud correct en volledig."
+    rationale: "B5 bevestigd: r90 'artikel 107, 4° KB W.Venn.' staat als geïsoleerde plain-text regel direct na H1 en vóór de eerste ## heading — zweefzin die noch heading noch inleiding-alinea is (extractie-artefact van ondertitel). R121 'Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd' staat als plain-text sectietitel direct vóór een alinea zonder ###-prefix — had een ### heading moeten zijn conform de structuur van de overige secties. Overige inhoud correct."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 4
-      max_section_chars: 3637
       file_size_chars: 5734
       flags: []
+      heading_count: 4
+      max_section_chars: 3637
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "Regel 73: 'artikel 107, 4° KB W.Venn.' staat als geïsoleerde plain-text regel direct na H1 en vóór de eerste ## heading (B5) — een zweefzin die noch heading noch inleiding-alinea is. Regel 104: 'Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd' staat als plain-text sectietitel direct vóór een alinea, zonder ##/### prefix (B5) — dit had een ### heading moeten zijn conform de structuur van het advies. Overige inhoud correct en volledig."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "B5 bevestigd: r90 'artikel 107, 4° KB W.Venn.' staat als geïsoleerde plain-text regel direct na H1 en vóór de eerste ## heading — zweefzin die noch heading noch inleiding-alinea is (extractie-artefact van ondertitel). R121 'Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd' staat als plain-text sectietitel direct vóór een alinea zonder ###-prefix — had een ### heading moeten zijn conform de structuur van de overige secties. Overige inhoud correct."
       concrete_problemen:
-        - regel: 73
+        - regel: 90
           categorie: B5
           type: other
           voorbeeld: artikel 107, 4° KB W.Venn.
-        - regel: 104
+        - regel: 121
           categorie: B5
           type: other
           voorbeeld: Aandelen die krachtens een beslissing van de vennootschap bestemd zijn om binnen het jaar te worden vervreemd

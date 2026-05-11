@@ -19,33 +19,33 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3/B3: regel 59 bevat 'de Waalse regering gecreëerde opleidingscheques' als losstaande plain-text regel direct na de H1-titel — dit is een extractie-artefact van een gedupliceerd titelfragment dat niet verwijderd werd. E2: tabelrij op regel 89 ('| | of 623 Andere personeelskosten | | | |') heeft een extra trailing pipe en een 'of 623...' notatie die de tabel malformed maakt."
+    rationale: "A3/B3: regel 70 bevat 'de Waalse regering gecreëerde opleidingscheques' als losstaande plain-text regel direct na de H1-titel — een gedupliceerd titelfragment dat niet werd opgeschoond. E2: de tabelrij op regel 100 ('| | of 623 Andere personeelskosten | | | |') heeft een extra trailing pipe waardoor de rij meer cellen heeft dan de header-rij, en maakt de tabel malformed."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 2
-      max_section_chars: 2907
       file_size_chars: 3779
       flags: []
+      heading_count: 2
+      max_section_chars: 2907
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "A3/B3: regel 59 bevat 'de Waalse regering gecreëerde opleidingscheques' als losstaande plain-text regel direct na de H1-titel — dit is een extractie-artefact van een gedupliceerd titelfragment dat niet verwijderd werd. E2: tabelrij op regel 89 ('| | of 623 Andere personeelskosten | | | |') heeft een extra trailing pipe en een 'of 623...' notatie die de tabel malformed maakt."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "A3/B3: regel 70 bevat 'de Waalse regering gecreëerde opleidingscheques' als losstaande plain-text regel direct na de H1-titel — een gedupliceerd titelfragment dat niet werd opgeschoond. E2: de tabelrij op regel 100 ('| | of 623 Andere personeelskosten | | | |') heeft een extra trailing pipe waardoor de rij meer cellen heeft dan de header-rij, en maakt de tabel malformed."
       concrete_problemen:
-        - regel: 59
+        - regel: 70
           categorie: A3
           type: other
           voorbeeld: de Waalse regering gecreëerde opleidingscheques
-        - regel: 89
+        - regel: 100
           categorie: E2
           type: other
           voorbeeld: '| | of 623 Andere personeelskosten | | | |'

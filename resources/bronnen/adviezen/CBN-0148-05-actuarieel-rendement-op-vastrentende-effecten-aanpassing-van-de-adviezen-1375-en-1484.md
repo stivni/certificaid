@@ -16,33 +16,33 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:03Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: regel 249 bevat een orphaned tabelrij '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |' waarbij de 'aan'-cel is samengevoegd met rekening + omschrijving; regel 260 bevat een losstaande cijferrij '| | 124.553 | | | |' buiten tabelcontext. D4 bold-space-issue (10 instanties) is gefixeerd."
+    rationale: "E2: regel 245 bevat '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |' waarbij 'aan' is samengesmolten met de rekening- en omschrijvingscel in één tabelcel, waardoor de rij niet meer uitlijnt met de header. Regel 256 bevat '| | 124.553 | | | |' — een losse cijferrij buiten tabelcontext die als afzonderlijke tabelrij is geboekt."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
+      file_size_chars: 9362
+      flags: []
       heading_count: 7
       max_section_chars: 4403
-      file_size_chars: 9364
-      flags: []
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:03Z'
-      rationale: "E2: regel 249 bevat een orphaned tabelrij '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |' waarbij de 'aan'-cel is samengevoegd met rekening + omschrijving; regel 260 bevat een losstaande cijferrij '| | 124.553 | | | |' buiten tabelcontext. D4 bold-space-issue (10 instanties) is gefixeerd."
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: "E2: regel 245 bevat '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |' waarbij 'aan' is samengesmolten met de rekening- en omschrijvingscel in één tabelcel, waardoor de rij niet meer uitlijnt met de header. Regel 256 bevat '| | 124.553 | | | |' — een losse cijferrij buiten tabelcontext die als afzonderlijke tabelrij is geboekt."
       concrete_problemen:
-        - regel: 249
+        - regel: 245
           categorie: E2
           type: other
           voorbeeld: '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |'
-        - regel: 260
+        - regel: 256
           categorie: E2
           type: other
           voorbeeld: '| | 124.553 | | | |'
@@ -68,7 +68,7 @@ De roerende voorheffing bedraagt 10 %.
 
 De gekapitaliseerde rente bedraagt pro rato : na
 
-### 1 jaar : 80 000 
+## 1 jaar : 80 000
 
 2 jaar : 166 400 
 
@@ -80,7 +80,7 @@ De gekapitaliseerde rente bedraagt pro rato : na
 
 Na drie jaar wordt de kapitalisatiebon overgedragen voor de prijs (kosten niet inbegrepen) van 1 205 000. 
 
-### BOEKINGEN BIJ DE EMITTENT 
+## BOEKINGEN BIJ DE EMITTENT
 
 **Bij uitgifte** 
 
@@ -137,7 +137,7 @@ Na drie jaar wordt de kapitalisatiebon overgedragen voor de prijs (kosten niet i
 | aan | 453 | Ingehouden voorheffingen | | 46.933 |
 | | 55 | Kredietinstellingen | 1.422.395 | |
 
-### Boeking bij de oorspronkelijke inschrijver
+## Boeking bij de oorspronkelijke inschrijver
 
 **Bij de inschrijving**
 
@@ -178,7 +178,7 @@ Na drie jaar wordt de kapitalisatiebon overgedragen voor de prijs (kosten niet i
 | | 652 | Minderwaarden op de realisatie van vlottende activa | 28.741 | |
 | aan | 52 | Vastrentende effecten | | 2.233.741 |
 
-### Boekingen bij de koper
+## Boekingen bij de koper
 
 **Bij de verwerving** 
 

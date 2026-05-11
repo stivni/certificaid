@@ -2,53 +2,55 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
 datum: 1991-03-01
 gerelateerde_adviezen:
-  - datum: '2021-05-12'
-    titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-  - datum: '2002-05-10'
-    titel: Aanschaffingswaarde bij inbreng in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
+- datum: '2021-05-12'
+  titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke
+    reorganisatie op de schulden en vorderingen (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+- datum: '2002-05-10'
+  titel: Aanschaffingswaarde bij inbreng in natura
+  url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
 nummer: CBN-advies 157/2
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
-      sha256: 0dad0668e893106bf5c90402abce3c09d65d07fca22325b2ccf1b0c140dacae1
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
+    sha256: 0dad0668e893106bf5c90402abce3c09d65d07fca22325b2ccf1b0c140dacae1
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:30Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 0
-      max_section_chars: 5481
       file_size_chars: 5481
       flags: []
+      heading_count: 0
+      max_section_chars: 5481
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met drie juridische/economische argumenten pro realisatie en genuanceerde behandeling gelieerde vennootschappen.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met drie juridische/economische
+        argumenten pro realisatie en genuanceerde behandeling gelieerde vennootschappen.'
       run_at: '2026-05-08T19:02:30Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - conventionele waarde
-  - financiële vaste activa
-  - inbreng
-  - realisatie
-  - realisatiebeginsel
-  - winstrealisatie
-  - aandelen
+- conventionele waarde
+- financiële vaste activa
+- inbreng
+- realisatie
+- realisatiebeginsel
+- winstrealisatie
+- aandelen
 ---
 
 # CBN-advies 157/2 - Realisatiebeginsel (behalve bij fusie)

@@ -19,37 +19,37 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:33Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: regel 51 bevat 'bij opmaak jaarrekening volgens nieuw model' als losstaande alinea direct na H1 — duplicaat van de ondertitel, extractie-artefact. A6: regel 57-58 bevat '[^3]\\n Daarnaast' en regel 64-65 bevat '[^5]\\n Dit leidt ertoe' — spurious line-breaks na footnote-refs midden in zinnen. Korte maar inhoudelijk complete tekst."
+    rationale: "B3: regel 73 bevat 'bij opmaak jaarrekening volgens nieuw model' als losstaande alinea direct na H1 — duplicaat van de ondertitel, extractie-artefact. A6: regels 79-80 en 86-87 bevatten spurious line-breaks na voetnootreferenties ('plaatsvindt.[^3]\\n Daarnaast' en '[^5]\\n Dit leidt ertoe') midden in zinnen. Klein advies, inhoud compleet."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 2
-      max_section_chars: 2047
       file_size_chars: 4127
       flags: []
+      heading_count: 2
+      max_section_chars: 2047
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:33Z'
-      rationale: "B3: regel 51 bevat 'bij opmaak jaarrekening volgens nieuw model' als losstaande alinea direct na H1 — duplicaat van de ondertitel, extractie-artefact. A6: regel 57-58 bevat '[^3]\\n Daarnaast' en regel 64-65 bevat '[^5]\\n Dit leidt ertoe' — spurious line-breaks na footnote-refs midden in zinnen. Korte maar inhoudelijk complete tekst."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "B3: regel 73 bevat 'bij opmaak jaarrekening volgens nieuw model' als losstaande alinea direct na H1 — duplicaat van de ondertitel, extractie-artefact. A6: regels 79-80 en 86-87 bevatten spurious line-breaks na voetnootreferenties ('plaatsvindt.[^3]\\n Daarnaast' en '[^5]\\n Dit leidt ertoe') midden in zinnen. Klein advies, inhoud compleet."
       concrete_problemen:
-        - regel: 51
+        - regel: 73
           categorie: B3
           type: other
           voorbeeld: bij opmaak jaarrekening volgens nieuw model
-        - regel: 57
+        - regel: 79
           categorie: A6
           type: other
           voorbeeld: "wijziging plaatsvindt.[^3]\n Daarnaast wordt er voor het volledige"
-        - regel: 64
+        - regel: 86
           categorie: A6
           type: other
           voorbeeld: "die aanvatten op of na 1 januari 2016.[^5]\n Dit leidt ertoe"

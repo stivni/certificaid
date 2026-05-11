@@ -25,27 +25,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:26:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: de inhoudsopgave staat als genummerde lijst in de body (regels 94-110) vóór de inhoudelijke secties — TOC-fragment dat niet werd verwijderd. D2: op regel 210 wordt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aangekondigd maar het schema ontbreekt (was waarschijnlijk een tijdslijn-afbeelding in het origineel). Inhoud conceptueel volledig, 13 headings correct, alle 75 voetnoten aanwezig."
+    rationale: "A3: de inhoudsopgave staat als genummerde lijst in de body (regels 94-110) vóór de inhoudelijke secties — TOC-fragment niet verwijderd. D2: op regel 210 wordt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aangekondigd maar het schema (tijdslijn-afbeelding) ontbreekt. (Herbevestiging van eerdere beoordeling.)"
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
+      file_size_chars: 30206
+      flags: []
       heading_count: 13
       max_section_chars: 16267
-      file_size_chars: 30681
-      flags: []
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "A3: de inhoudsopgave staat als genummerde lijst in de body (regels 94-110) vóór de inhoudelijke secties — TOC-fragment dat niet werd verwijderd. D2: op regel 210 wordt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aangekondigd maar het schema ontbreekt (was waarschijnlijk een tijdslijn-afbeelding in het origineel). Inhoud conceptueel volledig, 13 headings correct, alle 75 voetnoten aanwezig."
+      run_at: '2026-05-11T15:26:40Z'
+      rationale: "A3: de inhoudsopgave staat als genummerde lijst in de body (regels 94-110) vóór de inhoudelijke secties — TOC-fragment niet verwijderd. D2: op regel 210 wordt 'Schematisch kunnen de volgende termijnen worden onderscheiden:' aangekondigd maar het schema (tijdslijn-afbeelding) ontbreekt. (Herbevestiging van eerdere beoordeling.)"
       concrete_problemen:
         - regel: 94
           categorie: A3
@@ -91,23 +91,6 @@ themas:
 
 # CBN-advies 2022/04 - Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
 
-1. Ontbinding 
-  1. Vrijwillige ontbinding 
-  2. Ontbinding van rechtswege 
-  3. Gerechtelijke ontbinding 
-
-2. Vereffening 
-  1. Vereffening na vrijwillige ontbinding 
-  2. Vereffening na ontbinding van rechtswege 
-  3. Vereffening na gerechtelijke ontbinding 
-
-3. Sluiting van de vereffening 
-  1. Sluiting vereffening na vrijwillige ontbinding 
-  2. Sluiting vereffening na ontbinding van rechtswege 
-  3. Sluiting vereffening na gerechtelijke ontbinding 
-
-4. Voorbeeld 
-
 Aan de Commissie werd de vraag gesteld welke verslaggevingsverplichtingen moeten worden nageleefd bij de ontbinding, gedurende de vereffening en bij de sluiting van de vereffening van BV, CV, NV, SE en SCE onder het Wetboek van vennootschappen en verenigingen[^2] (hierna: het WVV). In dit advies wordt bijgevolg de ontbinding van een vennootschap behandeld die gevolgd wordt door een daadwerkelijke vereffeningsperiode. De ontbinding en vereffening van een vennootschap in één akte maakt het voorwerp uit van een afzonderlijk advies van de Commissie.[^3]
 
 ## Ontbinding
@@ -148,7 +131,7 @@ Deze ontbindingsvorm impliceert aldus dat de ontbinding van de vennootschap reed
 
 Ook de ontbinding van rechtswege heeft de afsluiting van het boekjaar tot gevolg[^24], wat *in concreto* betekent dat er in hoofde van de vennootschap een jaarrekening moet worden opgesteld voor het boekjaar dat met de datum van de ontbinding van de vennootschap eindigt. De Commissie raadt het bestuursorgaan[^25] aan om voor desbetreffend boekjaar een jaarrekening op te stellen met het oog op het verkrijgen van een kwijting door de algemene vergadering. 
 
-### Gerechtelijke ontbinding 
+### Gerechtelijke ontbinding
 
 Onder het WVV[^26] kan de vennootschap door de ondernemingsrechtbank gerechtelijk worden ontbonden[^27] bij de aanwezigheid van wettige redenen[^28]; indien blijkt dat de vennootschap haar verplichting om een jaarrekening neer te leggen[^29] overeenkomstig artikelen 3:10 en 3:12 WVV niet is nagekomen[^30]; ingeval van de situaties opgesomd in artikel 2:74, § 2 WVV[^31] of, specifiek voor de naamloze vennootschappen, op verzoek van iedere belanghebbende of het openbaar ministerie, wanneer het nettoactief gedaald is tot beneden 61.500 euro[^32].
 

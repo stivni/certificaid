@@ -25,40 +25,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Bevestiging van bestaand verdict. E1/E2: alle tabellen (regels 90–1360) zijn volledig verminkt — elke cel staat op een aparte regel met lege regels ertussen (patroon `| \n\nInhoud\n\n  | `). Dit is een fundamenteel extractie-artefact dat de volledige tweede helft van het document beslaat en de tabellen onleesbaar maakt voor een RAG-parser.'
+    rationale: 'E1/E2: de uitgebreide vergelijkingstabellen en rekenkundige voorbeeldtabellen (regels 79-1600) zijn volledig gedecomposeerd in losse `| waarde |` celfragmenten waarbij elke cel in een afzonderlijk `| \n\n[tekst]\n\n  |` blokje staat — de originele multi-kolom tabelstructuur (jaren X t/m X+4 als kolommen) is onleesbaar. Dit is een ernstig structureel ETL-artefact dat het volledige tweede deel van het document onbruikbaar maakt voor RAG. Regel 79-94 bevat wel een gedeeltelijk correcte vergelijkingstabel (Zevende Richtlijn vs 2013/34/EU) maar ook die heeft spurious line-breaks in cellen (regels 82-93).'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 5
-      max_section_chars: 6637
-      file_size_chars: 13643
+      file_size_chars: 15505
       flags: []
+      heading_count: 5
+      max_section_chars: 6687
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: 'Bevestiging van bestaand verdict. E1/E2: alle tabellen (regels 90–1360) zijn volledig verminkt — elke cel staat op een aparte regel met lege regels ertussen (patroon `| \n\nInhoud\n\n  | `). Dit is een fundamenteel extractie-artefact dat de volledige tweede helft van het document beslaat en de tabellen onleesbaar maakt voor een RAG-parser.'
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'E1/E2: de uitgebreide vergelijkingstabellen en rekenkundige voorbeeldtabellen (regels 79-1600) zijn volledig gedecomposeerd in losse `| waarde |` celfragmenten waarbij elke cel in een afzonderlijk `| \n\n[tekst]\n\n  |` blokje staat — de originele multi-kolom tabelstructuur (jaren X t/m X+4 als kolommen) is onleesbaar. Dit is een ernstig structureel ETL-artefact dat het volledige tweede deel van het document onbruikbaar maakt voor RAG. Regel 79-94 bevat wel een gedeeltelijk correcte vergelijkingstabel (Zevende Richtlijn vs 2013/34/EU) maar ook die heeft spurious line-breaks in cellen (regels 82-93).'
       concrete_problemen:
-        - regel: 90
+        - regel: 118
           categorie: E1
           type: pseudo-table
-          voorbeeld: '| Zevende Richtlijn | | Richtlijn 2013/34/EU | \n| Balans | \n| Art. 29 \n\n\t\t\t\t§ 4 |'
-        - regel: 128
+          voorbeeld: '| \n\nBoekhoudkundige afschrijving in 5 jaar\n\n  |'
+        - regel: 123
           categorie: E1
           type: pseudo-table
-          voorbeeld: '| \n\nBoekhoudkundige afschrijving in 5 jaar\n\n  | \n| \n\nJaren\n\n  | | \n\nX\n\n  |'
-        - regel: 231
-          categorie: E2
+          voorbeeld: '| \n\nJaren\n\n  | | \n|---|\n\nX\n\n  | | \n|---|\n\nX+1\n\n  |'
+        - regel: 82
+          categorie: A6
           type: other
-          voorbeeld: '| | | | | | | | | | | |  (lege separator-rijen verspreid door tabellen)'
+          voorbeeld: '| Art. 29 \n\n\t\t\t\t§ 4 | | In de geconsolideerde balans...'
 themas:
   - belasting
   - uitgestelde belastingen
@@ -88,6 +88,7 @@ Hoewel richtlijn 2013/34/EU de verplichting voorzien in artikel 34 § 11 van de 
 In punt 4 wordt een tabel opgenomen met een vergelijking tussen de twee richtlijnen en hun respectieve vereisten.
 
 | Zevende Richtlijn | | Richtlijn 2013/34/EU | 
+|---|---|---|
 | Balans | 
 | Art. 29 
 
@@ -96,10 +97,12 @@ In punt 4 wordt een tabel opgenomen met een vergelijking tussen de twee richtlij
 
 			§ 5 | | Wanneer uitsluitend voor de toepassing van de belastingwetgeving buitengewone waardecorrecties zijn uitgevoerd met betrekking tot in de consolidatie opgenomen activa, worden deze activa pas geconsolideerd nadat deze correcties ongedaan zijn gemaakt[^4]. | | Art. 24, § 14 | | Indien uitsluitend voor de toepassing van de belastingwetgeving waardecorrecties zijn uitgevoerd met betrekking tot in de geconsolideerde financiële overzichten opgenomen activa, worden deze activa pas in de geconsolideerde financiële overzichten opgenomen nadat deze correcties ongedaan werden gemaakt[^5]. | 
 | Toelichting | 
+|---|
 | Art. 34 
 
 			§ 11 | | De toelichting moet het verschil vermelden tussen de aan de geconsolideerde winst- en verliesrekening van het boekjaar en de vorige boekjaren toegerekende belastingen en de met betrekking tot deze boekjaren betaalde of opgelegde belastingen, voor zover dit verschil van wezenlijk belang is met het oog op in de toekomst te betalen belastingen. Dit bedrag kan ook gecumuleerd op de geconsolideerde balans worden opgenomen in een afzonderlijke post die dienovereenkomstig wordt omschreven. | | Art. 17, § 1, punt f | | Middelgrote en grote ondernemingen en organisaties van openbaar belang vermelden in de toelichting bij de financiële overzichten, indien in de balans een voorziening voor uitgestelde belastingen is opgenomen, het saldo van de uitgestelde belastingen aan het einde van het boekjaar en de verschuivingen in dit saldo in de loop van het boekjaar.. | 
 | | | | | Art. 28 § 1 | | In de toelichting bij de geconsolideerde financiële overzichten [wordt] de in artikelen 16, 17 en 18 [van deze richtlijn] verlangde informatie vermeld. | 
+|---|---|---|---|---|---|---|
 
 ## Inhoud van de toelichting bij de geconsolideerde jaarrekening betreffende de resultaten van het boekjaar en het vorige boekjaar zoals voorzien in artikel 165 KB W.Venn.
 
@@ -133,22 +136,27 @@ Boekhoudkundige afschrijving in 5 jaar
 Jaren
 
   | | 
+|---|
 
 X
 
   | | 
+|---|
 
 X+1
 
   | | 
+|---|
 
 X+2
 
   | | 
+|---|
 
 X+3
 
   | | 
+|---|
 
 X+4
 
@@ -158,22 +166,27 @@ X+4
 (Rest)waarde
 
   | | 
+|---|
 
 100
 
   | | 
+|---|
 
 80
 
   | | 
+|---|
 
 60
 
   | | 
+|---|
 
 40
 
   | | 
+|---|
 
 20
 
@@ -183,22 +196,27 @@ X+4
 Afschrijving
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 20
 
@@ -208,27 +226,33 @@ Afschrijving
 Balans
 
   | | 
+|---|
 
 80
 
   | | 
+|---|
 
 60
 
   | | 
+|---|
 
 40
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 0
 
   | 
 | | | | | | | | | | | | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | 
 
 Boekhoudkundig resultaat
@@ -239,22 +263,27 @@ Boekhoudkundig resultaat
 Jaren
 
   | | 
+|---|
 
 X
 
   | | 
+|---|
 
 X+1
 
   | | 
+|---|
 
 X+2
 
   | | 
+|---|
 
 X+3
 
   | | 
+|---|
 
 X+4
 
@@ -264,22 +293,27 @@ X+4
 Opbrengsten
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
 50
 
@@ -289,22 +323,27 @@ Opbrengsten
 Kosten (afschrijving)
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 20
 
@@ -314,22 +353,27 @@ Kosten (afschrijving)
 Inkomsten voor belastingen
 
   | | 
+|---|
 
 30
 
   | | 
+|---|
 
 30
 
   | | 
+|---|
 
 30
 
   | | 
+|---|
 
 30
 
   | | 
+|---|
 
 30
 
@@ -339,27 +383,33 @@ Inkomsten voor belastingen
 Belastingen (25%)
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 7,5
 
   | 
 | | | | | | | | | | | | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | 
 
 Belastingafschrijving in 4 jaar
@@ -370,22 +420,27 @@ Belastingafschrijving in 4 jaar
 Jaren
 
   | | 
+|---|
 
 X
 
   | | 
+|---|
 
 X+1
 
   | | 
+|---|
 
 X+2
 
   | | 
+|---|
 
 X+3
 
   | | 
+|---|
 
 X+4
 
@@ -395,22 +450,27 @@ X+4
 (Rest)waarde
 
   | | 
+|---|
 
 100
 
   | | 
+|---|
 
 60
 
   | | 
+|---|
 
 36
 
   | | 
+|---|
 
 16
 
   | | 
+|---|
 
 0
 
@@ -420,22 +480,27 @@ X+4
 Afschrijving
 
   | | 
+|---|
 
 40
 
   | | 
+|---|
 
 24
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 16
 
   | | 
+|---|
 
 0
 
@@ -445,27 +510,33 @@ Afschrijving
 Balans
 
   | | 
+|---|
 
 60
 
   | | 
+|---|
 
 36
 
   | | 
+|---|
 
 16
 
   | | 
+|---|
 
 0
 
   | | 
+|---|
 
 0
 
   | 
 | | | | | | | | | | | | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | 
 
 Fiscaal resultaat
@@ -476,22 +547,27 @@ Fiscaal resultaat
 Jaren
 
   | | 
+|---|
 
 X
 
   | | 
+|---|
 
 X+1
 
   | | 
+|---|
 
 X+2
 
   | | 
+|---|
 
 X+3
 
   | | 
+|---|
 
 X+4
 
@@ -501,22 +577,27 @@ X+4
 Opbrengsten
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
 50
 
@@ -526,22 +607,27 @@ Opbrengsten
 Kosten (afschrijving)
 
   | | 
+|---|
 
 40
 
   | | 
+|---|
 
 24
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 16
 
   | | 
+|---|
 
 0
 
@@ -551,22 +637,27 @@ Kosten (afschrijving)
 Resultaat voor belastingen
 
   | | 
+|---|
 
 10
 
   | | 
+|---|
 
 26
 
   | | 
+|---|
 
 30
 
   | | 
+|---|
 
 34
 
   | | 
+|---|
 
 50
 
@@ -576,27 +667,33 @@ Resultaat voor belastingen
 Belastingen (25%)
 
   | | 
+|---|
 
 2,5
 
   | | 
+|---|
 
 6,5
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 8,5
 
   | | 
+|---|
 
 12,5
 
   | 
 | | | | | | | | | | | | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | 
 
 Actieve belastinglatenties
@@ -607,22 +704,27 @@ Actieve belastinglatenties
 Jaren
 
   | | 
+|---|
 
 X
 
   | | 
+|---|
 
 X+1
 
   | | 
+|---|
 
 X+2
 
   | | 
+|---|
 
 X+3
 
   | | 
+|---|
 
 X+4
 
@@ -632,22 +734,27 @@ X+4
 A[^9] 
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 7,5
 
@@ -657,22 +764,27 @@ A[^9]
 B[^10] 
 
   | | 
+|---|
 
 2,5
 
   | | 
+|---|
 
 6,5
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 8,5
 
   | | 
+|---|
 
 12,5
 
@@ -682,22 +794,27 @@ B[^10]
 A-B
 
   | | 
+|---|
 
 5
 
   | | 
+|---|
 
 1
 
   | | 
+|---|
 
 0
 
   | | 
+|---|
 
 -1
 
   | | 
+|---|
 
 -5
 
@@ -705,14 +822,19 @@ A-B
 | 
 
   | | 
+|---|
 
   | | 
+|---|
 
   | | 
+|---|
 
   | | 
+|---|
 
   | | 
+|---|
 
   | 
 | 
@@ -720,22 +842,27 @@ A-B
 Code 99084
 
   | | 
+|---|
 
 5
 
   | | 
+|---|
 
 6
 
   | | 
+|---|
 
 6
 
   | | 
+|---|
 
 5
 
   | | 
+|---|
 
 0
 
@@ -755,22 +882,27 @@ Boekhoudkundige afschrijving in 4 jaar
 Jaren
 
   | | 
+|---|
 
 X
 
   | | 
+|---|
 
 X+1
 
   | | 
+|---|
 
 X+2
 
   | | 
+|---|
 
 X+3
 
   | | 
+|---|
 
 X+4
 
@@ -780,22 +912,27 @@ X+4
 (Rest)waarde
 
   | | 
+|---|
 
 100
 
   | | 
+|---|
 
 60
 
   | | 
+|---|
 
 36
 
   | | 
+|---|
 
 16
 
   | | 
+|---|
 
 0
 
@@ -805,22 +942,27 @@ X+4
 Afschrijving
 
   | | 
+|---|
 
 40
 
   | | 
+|---|
 
 24
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 16
 
   | | 
+|---|
 
 0
 
@@ -830,27 +972,33 @@ Afschrijving
 Balans
 
   | | 
+|---|
 
 60
 
   | | 
+|---|
 
 36
 
   | | 
+|---|
 
 16
 
   | | 
+|---|
 
 0
 
   | | 
+|---|
 
 0
 
   | 
 | | | | | | | | | | | | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | 
 
 Boekhoudkundig resultaat
@@ -861,22 +1009,27 @@ Boekhoudkundig resultaat
 Jaren
 
   | | 
+|---|
 
 X
 
   | | 
+|---|
 
 X+1
 
   | | 
+|---|
 
 X+2
 
   | | 
+|---|
 
 X+3
 
   | | 
+|---|
 
 X+4
 
@@ -886,22 +1039,27 @@ X+4
 Opbrengsten
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
 50
 
@@ -911,22 +1069,27 @@ Opbrengsten
 Kosten (afschrijving)
 
   | | 
+|---|
 
 40
 
   | | 
+|---|
 
 24
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 16
 
   | | 
+|---|
 
 0
 
@@ -936,22 +1099,27 @@ Kosten (afschrijving)
 Resultaat voor belastingen
 
   | | 
+|---|
 
 10
 
   | | 
+|---|
 
 26
 
   | | 
+|---|
 
 30
 
   | | 
+|---|
 
 34
 
   | | 
+|---|
 
 50
 
@@ -961,27 +1129,33 @@ Resultaat voor belastingen
 Belastingen (25%)
 
   | | 
+|---|
 
 2,5
 
   | | 
+|---|
 
 6,5
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 8,5
 
   | | 
+|---|
 
 12,5
 
   | 
 | | | | | | | | | | | | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | 
 
 Belastingafschrijving in 5 jaar
@@ -992,22 +1166,27 @@ Belastingafschrijving in 5 jaar
 Jaren
 
   | | 
+|---|
 
 X
 
   | | 
+|---|
 
 X+1
 
   | | 
+|---|
 
 X+2
 
   | | 
+|---|
 
 X+3
 
   | | 
+|---|
 
 X+4
 
@@ -1017,22 +1196,27 @@ X+4
 (Rest)waarde
 
   | | 
+|---|
 
 100
 
   | | 
+|---|
 
 80
 
   | | 
+|---|
 
 60
 
   | | 
+|---|
 
 40
 
   | | 
+|---|
 
 20
 
@@ -1042,22 +1226,27 @@ X+4
 Afschrijving
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 20
 
@@ -1067,27 +1256,33 @@ Afschrijving
 Balans
 
   | | 
+|---|
 
 80
 
   | | 
+|---|
 
 60
 
   | | 
+|---|
 
 40
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 0
 
   | 
 | | | | | | | | | | | | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | 
 
 Fiscaal resultaat
@@ -1098,22 +1293,27 @@ Fiscaal resultaat
 Jaren
 
   | | 
+|---|
 
 X
 
   | | 
+|---|
 
 X+1
 
   | | 
+|---|
 
 X+2
 
   | | 
+|---|
 
 X+3
 
   | | 
+|---|
 
 X+4
 
@@ -1123,22 +1323,27 @@ X+4
 Opbrengsten
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
 50
 
   | | 
+|---|
 
 50
 
@@ -1148,22 +1353,27 @@ Opbrengsten
 Kosten (afschrijving)
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 20
 
@@ -1173,22 +1383,27 @@ Kosten (afschrijving)
 Resultaat voor belastingen
 
   | | 
+|---|
 
 30
 
   | | 
+|---|
 
 30
 
   | | 
+|---|
 
 30
 
   | | 
+|---|
 
 30
 
   | | 
+|---|
 
 30
 
@@ -1198,27 +1413,33 @@ Resultaat voor belastingen
 Belastingen (25%)
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 7,5
 
   | 
 | | | | | | | | | | | | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | 
 
 Passieve belastinglatenties
@@ -1229,22 +1450,27 @@ Passieve belastinglatenties
 Jaren
 
   | | 
+|---|
 
 X
 
   | | 
+|---|
 
 X+1
 
   | | 
+|---|
 
 X+2
 
   | | 
+|---|
 
 X+3
 
   | | 
+|---|
 
 X+4
 
@@ -1254,22 +1480,27 @@ X+4
 A
 
   | | 
+|---|
 
 2,5
 
   | | 
+|---|
 
 6,5
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 8,5
 
   | | 
+|---|
 
 12,5
 
@@ -1279,43 +1510,53 @@ A
 B
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 7,5
 
   | | 
+|---|
 
 7,5
 
   | 
 | | | 
+|---|---|
 
 -5
 
   | | 
+|---|
 
 -1
 
   | | 
+|---|
 
 0
 
   | | 
+|---|
 
 1
 
   | | 
+|---|
 
 5
 
@@ -1323,14 +1564,19 @@ B
 | 
 
   | | 
+|---|
 
   | | 
+|---|
 
   | | 
+|---|
 
   | | 
+|---|
 
   | | 
+|---|
 
   | 
 | 
@@ -1338,22 +1584,27 @@ B
  Code 99084
 
   | | 
+|---|
 
 -5 
 
   | | 
+|---|
 
 -6
 
   | | 
+|---|
 
 -6
 
   | | 
+|---|
 
 -5
 
   | | 
+|---|
 
 0
 

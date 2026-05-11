@@ -16,29 +16,29 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Voetnoot [^4] is gedefinieerd (regel 150: redactionele noot over voorgestelde naamswijziging van rekening 790) maar heeft geen overeenkomstige referentie in de body — de [^4]-callout die in de originele PDF bij de boekingtabel stond (vermoedelijk bij de eerste 'Boeking'-sectie) is verloren gegaan bij de extractie (D3-patroon: definitie zonder body-referentie, of body-referentie zonder definitie). Verdere inhoud correct: drie ## headings, drie voorbeelden met correcte pipe-tabellen, voetnoten 1–3 en 5–10 correct gerefereerd."
+    rationale: 'D3 bevestigd: voetnoot [^4] is gedefinieerd op r163 (redactionele noot over voorgestelde naamswijziging rekening 790) maar heeft geen overeenkomstige [^4]-callout in de body — de referentie die in de originele bron bij de eerste Boeking-sectie stond is verloren gegaan bij de extractie. Overige voetnoten (1-3, 5-10) correct gerefereerd. Drie voorbeelden met pipe-tabellen correct. Boeking-template r77-80 heeft lege bedragen (geen getallen), wat de originele document-opzet weerspiegelt.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 3
-      max_section_chars: 2826
       file_size_chars: 8712
       flags: []
+      heading_count: 3
+      max_section_chars: 2826
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "Voetnoot [^4] is gedefinieerd (regel 150: redactionele noot over voorgestelde naamswijziging van rekening 790) maar heeft geen overeenkomstige referentie in de body — de [^4]-callout die in de originele PDF bij de boekingtabel stond (vermoedelijk bij de eerste 'Boeking'-sectie) is verloren gegaan bij de extractie (D3-patroon: definitie zonder body-referentie, of body-referentie zonder definitie). Verdere inhoud correct: drie ## headings, drie voorbeelden met correcte pipe-tabellen, voetnoten 1–3 en 5–10 correct gerefereerd."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: 'D3 bevestigd: voetnoot [^4] is gedefinieerd op r163 (redactionele noot over voorgestelde naamswijziging rekening 790) maar heeft geen overeenkomstige [^4]-callout in de body — de referentie die in de originele bron bij de eerste Boeking-sectie stond is verloren gegaan bij de extractie. Overige voetnoten (1-3, 5-10) correct gerefereerd. Drie voorbeelden met pipe-tabellen correct. Boeking-template r77-80 heeft lege bedragen (geen getallen), wat de originele document-opzet weerspiegelt.'
       concrete_problemen:
-        - regel: 150
+        - regel: 163
           categorie: D3
           type: other
           voorbeeld: '[^4]: De Commissie zal voorstellen om de benaming van rekening 790 aan te passen...'

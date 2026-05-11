@@ -16,37 +16,37 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: regels 77 en 82 tonen subsectie-titels als plain-text alinea-openers zonder heading-prefix ('De onderneming behoudt het overschot van emissierechten...' en 'De onderneming heeft de intentie om het overschot van emissierechten te verkopen...') — deze hadden ### headings moeten zijn conform de TOC op regels 54-56. D1: voetnoot [^5] op regel 124 eindigt abrupt mid-woord: 'hetgeen een onverantwoorde schending zou zijn van het bestendigheidsbeginse' (ontbreekt 'l')."
+    rationale: "B5: regels 98 en 103 tonen subsectie-titels ('De onderneming behoudt het overschot van emissierechten en heeft dus niet de intentie...' en 'De onderneming heeft de intentie om het overschot van emissierechten te verkopen...') als plain-text alinea-openers zonder heading-prefix — conform de genummerde TOC op regels 1-2 hadden dit ### headings moeten zijn. D1: voetnoot [^5] op regel 145 eindigt abrupt mid-woord: 'hetgeen een onverantwoorde schending zou zijn van het bestendigheidsbeginse' (ontbreekt 'l') — mogelijk bron-afkapfout maar ook mogelijk ETL-truncatie."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 7509
+      flags: []
       heading_count: 3
       max_section_chars: 4108
-      file_size_chars: 7902
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "B5: regels 77 en 82 tonen subsectie-titels als plain-text alinea-openers zonder heading-prefix ('De onderneming behoudt het overschot van emissierechten...' en 'De onderneming heeft de intentie om het overschot van emissierechten te verkopen...') — deze hadden ### headings moeten zijn conform de TOC op regels 54-56. D1: voetnoot [^5] op regel 124 eindigt abrupt mid-woord: 'hetgeen een onverantwoorde schending zou zijn van het bestendigheidsbeginse' (ontbreekt 'l')."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "B5: regels 98 en 103 tonen subsectie-titels ('De onderneming behoudt het overschot van emissierechten en heeft dus niet de intentie...' en 'De onderneming heeft de intentie om het overschot van emissierechten te verkopen...') als plain-text alinea-openers zonder heading-prefix — conform de genummerde TOC op regels 1-2 hadden dit ### headings moeten zijn. D1: voetnoot [^5] op regel 145 eindigt abrupt mid-woord: 'hetgeen een onverantwoorde schending zou zijn van het bestendigheidsbeginse' (ontbreekt 'l') — mogelijk bron-afkapfout maar ook mogelijk ETL-truncatie."
       concrete_problemen:
-        - regel: 77
+        - regel: 98
           categorie: B5
           type: other
           voorbeeld: De onderneming behoudt het overschot van emissierechten en heeft dus niet de intentie om deze emissierechten te verkopen op een actieve markt
-        - regel: 82
+        - regel: 103
           categorie: B5
           type: other
           voorbeeld: De onderneming heeft de intentie om het overschot van emissierechten te verkopen op een actieve markt
-        - regel: 124
+        - regel: 145
           categorie: D1
           type: abrupt-cutoff
           voorbeeld: hetgeen een onverantwoorde schending zou zijn van het bestendigheidsbeginse
@@ -60,11 +60,6 @@ themas:
 ---
 
 # CBN-advies 2012/1 - Boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten door een onderneming die de nettomethode toepast
-
-1. Toepassingsgebied 
-2. Boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten bij toepassing van de nettomethode 
-  1. De onderneming behoudt het overschot van emissierechten en heeft dus niet de intentie om deze emissierechten te verkopen op een actieve markt 
-  2. De onderneming heeft de intentie om het overschot van emissierechten te verkopen op een actieve markt 
 
 ## Inleiding
 

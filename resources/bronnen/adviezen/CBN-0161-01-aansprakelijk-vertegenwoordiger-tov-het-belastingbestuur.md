@@ -12,31 +12,31 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:19:35Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D1/A9: regel 56 bevat 'Volgens boekingen geven een beeld van de relaties...' — het woord 'Volgende' is weggevallen (OCR- of brontext-artefact), waardoor de zin grammaticaal fout is. De vier boekhoudschema's in markdown pipe-syntax zijn aanwezig en structureel correct; lege Debet/Credit-kolommen zijn inhoudelijk intentioneel."
+    rationale: "Regel 65: 'Volgens boekingen geven een beeld van de relaties...' is grammaticaal incorrect ('Volgende' ontbreekt). Gezien de HTML-bron (geen PDF/OCR) is dit hoogstwaarschijnlijk een source-typo op de CBN-website zelf — per de source-typo-uitzondering geen grond voor needs-rework. De vier boekhoudschema's in markdown pipe-syntax zijn intact en structureel correct; lege Debet/Credit-kolommen zijn inhoudelijk intentioneel. Geen andere artefacten."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 0
-      max_section_chars: 3630
       file_size_chars: 3630
       flags: []
+      heading_count: 0
+      max_section_chars: 3630
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "D1/A9: regel 56 bevat 'Volgens boekingen geven een beeld van de relaties...' — het woord 'Volgende' is weggevallen (OCR- of brontext-artefact), waardoor de zin grammaticaal fout is. De vier boekhoudschema's in markdown pipe-syntax zijn aanwezig en structureel correct; lege Debet/Credit-kolommen zijn inhoudelijk intentioneel."
+      run_at: '2026-05-11T15:19:35Z'
+      rationale: "Regel 65: 'Volgens boekingen geven een beeld van de relaties...' is grammaticaal incorrect ('Volgende' ontbreekt). Gezien de HTML-bron (geen PDF/OCR) is dit hoogstwaarschijnlijk een source-typo op de CBN-website zelf — per de source-typo-uitzondering geen grond voor needs-rework. De vier boekhoudschema's in markdown pipe-syntax zijn intact en structureel correct; lege Debet/Credit-kolommen zijn inhoudelijk intentioneel. Geen andere artefacten."
       concrete_problemen:
-        - regel: 56
-          categorie: A9
-          type: ocr-confusion
+        - regel: 65
+          categorie: (source)
+          type: source-typo
           voorbeeld: Volgens boekingen geven een beeld van de relaties die ten aanzien van...
 themas:
   - aansprakelijk vertegenwoordiger

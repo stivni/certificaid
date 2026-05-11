@@ -2,58 +2,67 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-in-belgische-frank-munt-waarin-de-jaarrekening-moet-worden-opgesteld
 datum: 1979-05-01
 gerelateerde_adviezen:
-  - datum: '1980-06-01'
-    titel: Munt waarin de boekhouding moet worden gevoerd en de jaarrekening opgesteld De commissie heeft reeds uiteengezet waarom de vennotschappen naar Belgisch recht hun jaarrekening verplicht in Belgische franken moeten opstellen en openbaar maken. (1) Nu is
-    url: https://www.cbn-cnc.be/nl/adviezen/munt-waarin-de-boekhouding-moet-worden-gevoerd-en-de-jaarrekening-opgesteld-de-commissie
-  - datum: '1978-07-01'
-    titel: 'Ondernemingen naar buitenlands recht : bijkantoren en centra van werkzaamheden in België – Begrip'
-    url: https://www.cbn-cnc.be/nl/adviezen/ondernemingen-naar-buitenlands-recht-bijkantoren-en-centra-van-werkzaamheden-in-belgie
-  - datum: '1977-08-01'
-    titel: Ondernemingen naar buitenlands recht - Houden en bewaren in België van de boeken, rekeningen en verantwoordingsstukken
-    url: https://www.cbn-cnc.be/nl/adviezen/ondernemingen-naar-buitenlands-recht-houden-en-bewaren-in-belgie-van-de-boeken-rekeningen
+- datum: '1980-06-01'
+  titel: Munt waarin de boekhouding moet worden gevoerd en de jaarrekening opgesteld
+    De commissie heeft reeds uiteengezet waarom de vennotschappen naar Belgisch recht
+    hun jaarrekening verplicht in Belgische franken moeten opstellen en openbaar maken.
+    (1) Nu is
+  url: https://www.cbn-cnc.be/nl/adviezen/munt-waarin-de-boekhouding-moet-worden-gevoerd-en-de-jaarrekening-opgesteld-de-commissie
+- datum: '1978-07-01'
+  titel: 'Ondernemingen naar buitenlands recht : bijkantoren en centra van werkzaamheden
+    in België – Begrip'
+  url: https://www.cbn-cnc.be/nl/adviezen/ondernemingen-naar-buitenlands-recht-bijkantoren-en-centra-van-werkzaamheden-in-belgie
+- datum: '1977-08-01'
+  titel: Ondernemingen naar buitenlands recht - Houden en bewaren in België van de
+    boeken, rekeningen en verantwoordingsstukken
+  url: https://www.cbn-cnc.be/nl/adviezen/ondernemingen-naar-buitenlands-recht-houden-en-bewaren-in-belgie-van-de-boeken-rekeningen
 nummer: CBN-advies 117/1
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-in-belgische-frank-munt-waarin-de-jaarrekening-moet-worden-opgesteld
-      sha256: 4fd81b1b5b0fd47b6c758e4a9b3e866e192e9e6bf623fb6cce79b559445cbdfa
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-in-belgische-frank-munt-waarin-de-jaarrekening-moet-worden-opgesteld
+    sha256: 4fd81b1b5b0fd47b6c758e4a9b3e866e192e9e6bf623fb6cce79b559445cbdfa
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 3068
       file_size_chars: 3068
       flags: []
+      heading_count: 0
+      max_section_chars: 3068
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Advies van 3068 chars, drie alinea's + drie voetnoten. Geen extractie-artefacten. Voetnoten [^1]–[^3] correct gekoppeld. Geen italic-problemen, geen broken bullets, geen unicode-anomalieën. Inhoud volledig en coherent.
+      rationale: Advies van 3068 chars, drie alinea's + drie voetnoten. Geen extractie-artefacten.
+        Voetnoten [^1]–[^3] correct gekoppeld. Geen italic-problemen, geen broken
+        bullets, geen unicode-anomalieën. Inhoud volledig en coherent.
       run_at: '2026-05-11T11:57:45Z'
       status: trusted
-    rationale: Advies van 3068 chars, drie alinea's + drie voetnoten. Geen extractie-artefacten. Voetnoten [^1]–[^3] correct gekoppeld. Geen italic-problemen, geen broken bullets, geen unicode-anomalieën. Inhoud volledig en coherent.
+    rationale: Advies van 3068 chars, drie alinea's + drie voetnoten. Geen extractie-artefacten.
+      Voetnoten [^1]–[^3] correct gekoppeld. Geen italic-problemen, geen broken bullets,
+      geen unicode-anomalieën. Inhoud volledig en coherent.
     status: trusted
 themas:
-  - bedrijfszetel
-  - buitenlandse onderneming
-  - buitenlandse vennootschap
-  - jaarrekening
-  - munt waarin de jaarrekening wordt opgesteld
-  - opstelling van de jaarrekening
-  - opstelling van de jaarrekening in vreemde munt
-  - succursaal
-  - vreemde munt
+- bedrijfszetel
+- buitenlandse onderneming
+- buitenlandse vennootschap
+- jaarrekening
+- munt waarin de jaarrekening wordt opgesteld
+- opstelling van de jaarrekening
+- opstelling van de jaarrekening in vreemde munt
+- succursaal
+- vreemde munt
 ---
 
 # CBN-advies 117/1 - Jaarrekening in Belgische frank - Munt waarin de jaarrekening moet worden opgesteld

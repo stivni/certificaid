@@ -2,53 +2,60 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib
 datum: 1995-03-01
 gerelateerde_adviezen:
-  - datum: '1992-02-01'
-    titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt. Kapitaalsubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
-  - datum: '1984-01-13'
-    titel: Invloed van een gerechtelijk akkoord op de schulden en vorderingen
-    url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-een-gerechtelijk-akkoord-op-de-schulden-en-vorderingen
+- datum: '1992-02-01'
+  titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt.
+    Kapitaalsubsidies
+  url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
+- datum: '1984-01-13'
+  titel: Invloed van een gerechtelijk akkoord op de schulden en vorderingen
+  url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-een-gerechtelijk-akkoord-op-de-schulden-en-vorderingen
 nummer: CBN-advies 147/3
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib
-      sha256: 5c683304c9ae4d4540e3f0d3a9c2cae209300d4062a50cc9d1a4c655f924ebc4
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib
+    sha256: 5c683304c9ae4d4540e3f0d3a9c2cae209300d4062a50cc9d1a4c655f924ebc4
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:23:03Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: D4-probleem uit vorig verdict ('*Uitgestelde belastingen *' met trailing space) is niet aanwezig in het huidige bestand — italic correct gesloten na scraper-fix. Inhoud volledig met 5 genummerde boekingsstappen en 3 correct gedefinieerde voetnoten. Geen andere ETL-artefacten zichtbaar.
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 0
-      max_section_chars: 4560
       file_size_chars: 4560
       flags: []
+      heading_count: 0
+      max_section_chars: 4560
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:03Z'
-      rationale: D4-probleem uit vorig verdict ('*Uitgestelde belastingen *' met trailing space) is niet aanwezig in het huidige bestand — italic correct gesloten na scraper-fix. Inhoud volledig met 5 genummerde boekingsstappen en 3 correct gedefinieerde voetnoten. Geen andere ETL-artefacten zichtbaar.
       concrete_problemen: []
+      rationale: D4-probleem uit vorig verdict ('*Uitgestelde belastingen *' met trailing
+        space) is niet aanwezig in het huidige bestand — italic correct gesloten na
+        scraper-fix. Inhoud volledig met 5 genummerde boekingsstappen en 3 correct
+        gedefinieerde voetnoten. Geen andere ETL-artefacten zichtbaar.
+      run_at: '2026-05-11T13:23:03Z'
+      status: trusted
+    rationale: D4-probleem uit vorig verdict ('*Uitgestelde belastingen *' met trailing
+      space) is niet aanwezig in het huidige bestand — italic correct gesloten na
+      scraper-fix. Inhoud volledig met 5 genummerde boekingsstappen en 3 correct gedefinieerde
+      voetnoten. Geen andere ETL-artefacten zichtbaar.
+    status: trusted
 themas:
-  - gespreide taxatie
-  - meerwaarde
-  - meerwaarde op overheidseffecten
-  - Onaantastbaarheidsvoorwaarde
-  - uitgestelde belastingen
-  - vastrentende effecten
-  - belastingvrije reserves
+- gespreide taxatie
+- meerwaarde
+- meerwaarde op overheidseffecten
+- Onaantastbaarheidsvoorwaarde
+- uitgestelde belastingen
+- vastrentende effecten
+- belastingvrije reserves
 ---
 
 # CBN-advies 147/3 - Meerwaarden op overheidseffecten bedoeld door artikel 513 van het (nieuwe) WIB

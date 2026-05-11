@@ -12,37 +12,37 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:26:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: op L49 staat '*Wet van 19 november 2020 … [^2]*  ' met spatie vóór de afsluitende asterisk doordat een voetnootanker binnen de italic-span staat — extractie-artefact. Zelfde patroon op L80 ('*  een bedrag is opgenomen') en L81 ('*Bezoldigingen en rechtstreekse sociale voordelen*' met afsluitende spatie). Op L148: 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' — leading asterisk zonder prefix-spatie maar met spatie na 'rekening'. Inhoud volledig, alle tabellen correct, 24 voetnoten aanwezig."
+    rationale: "D4: Drie italic-spans met spatie-artefacten door voetnootankers: L74 '*Wet van 19 november 2020 … [^2]*  ' (spatie vóór sluitende asterisk), L101 '*  een bedrag is opgenomen' (spatie na opening-asterisk), L148 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' (leading asterisk zonder prefix-spatie). Consistent extractie-artefact in heel het advies."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 6
-      max_section_chars: 6995
       file_size_chars: 17538
       flags: []
+      heading_count: 6
+      max_section_chars: 6995
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "D4: op L49 staat '*Wet van 19 november 2020 … [^2]*  ' met spatie vóór de afsluitende asterisk doordat een voetnootanker binnen de italic-span staat — extractie-artefact. Zelfde patroon op L80 ('*  een bedrag is opgenomen') en L81 ('*Bezoldigingen en rechtstreekse sociale voordelen*' met afsluitende spatie). Op L148: 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' — leading asterisk zonder prefix-spatie maar met spatie na 'rekening'. Inhoud volledig, alle tabellen correct, 24 voetnoten aanwezig."
+      run_at: '2026-05-11T15:26:40Z'
+      rationale: "D4: Drie italic-spans met spatie-artefacten door voetnootankers: L74 '*Wet van 19 november 2020 … [^2]*  ' (spatie vóór sluitende asterisk), L101 '*  een bedrag is opgenomen' (spatie na opening-asterisk), L148 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' (leading asterisk zonder prefix-spatie). Consistent extractie-artefact in heel het advies."
       concrete_problemen:
-        - regel: 49
+        - regel: 74
           categorie: D4
           type: other
           voorbeeld: '*Wet van 19 november 2020 houdende de invoering van een wederopbouwreserve voor vennootschappen[^2]*  '
-        - regel: 80
+        - regel: 101
           categorie: D4
           type: other
           voorbeeld: '*  een bedrag is opgenomen onder een drempel van 85 procent'
-        - regel: 148
+        - regel: 170
           categorie: D4
           type: other
           voorbeeld: rekening* 1109 Andere beschikbare inbreng buiten kapitaal*

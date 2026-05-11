@@ -2,62 +2,68 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
 datum: 2018-11-19
 gerelateerde_adviezen:
-  - datum: '2019-04-12'
-    titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+- datum: '2019-04-12'
+  titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
 nummer: CBN-advies 2018/18
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
-      sha256: 3877990133cefd4d161a28e09205d68d5a29ea2fc5360215133d617bafa6550f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
+    sha256: 3877990133cefd4d161a28e09205d68d5a29ea2fc5360215133d617bafa6550f
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 13
-      max_section_chars: 9155
       file_size_chars: 24682
       flags: []
+      heading_count: 13
+      max_section_chars: 9155
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, headings correct hiërarchisch (##, ###, **bold-subsections** als gestijlde subsecties — acceptabel voor dit adviestype), voetnoten volledig en goed verankerd. Geen tabelstructuren aanwezig. Inhoud volledig inclusief voorbeeld.'
+      rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar,
+        headings correct hiërarchisch (##, ###, **bold-subsections** als gestijlde
+        subsecties — acceptabel voor dit adviestype), voetnoten volledig en goed verankerd.
+        Geen tabelstructuren aanwezig. Inhoud volledig inclusief voorbeeld.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, headings correct hiërarchisch (##, ###, **bold-subsections** als gestijlde subsecties — acceptabel voor dit adviestype), voetnoten volledig en goed verankerd. Geen tabelstructuren aanwezig. Inhoud volledig inclusief voorbeeld.'
+    rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar,
+      headings correct hiërarchisch (##, ###, **bold-subsections** als gestijlde subsecties
+      — acceptabel voor dit adviestype), voetnoten volledig en goed verankerd. Geen
+      tabelstructuren aanwezig. Inhoud volledig inclusief voorbeeld.'
     status: trusted
 themas:
-  - going concern
-  - stopzetting
-  - gedeeltelijke stopzetting
-  - continuïteit
-  - staat van discontinuïteit
-  - discontinuiteit
-  - gedeeltelijke discontinuïteit
-  - beslissing tot invereffeningstelling
-  - vrijwillige ontbinding
-  - ontbinding
-  - invereffeningstelling
-  - voortzetting
-  - minnelijk akkoord
-  - gerechtelijke reorganisatie
-  - WCO
-  - bedrijfscontinuïteit
-  - gebeurtenis na balansdatum
-  - verslaggeving
-  - rapporteringsverplichting
+- going concern
+- stopzetting
+- gedeeltelijke stopzetting
+- continuïteit
+- staat van discontinuïteit
+- discontinuiteit
+- gedeeltelijke discontinuïteit
+- beslissing tot invereffeningstelling
+- vrijwillige ontbinding
+- ontbinding
+- invereffeningstelling
+- voortzetting
+- minnelijk akkoord
+- gerechtelijke reorganisatie
+- WCO
+- bedrijfscontinuïteit
+- gebeurtenis na balansdatum
+- verslaggeving
+- rapporteringsverplichting
 ---
 
 # CBN-advies 2018/18 – Going concern - Waarderingsregels bij de stopzetting of gedeeltelijke stopzetting van het bedrijf van een onderneming

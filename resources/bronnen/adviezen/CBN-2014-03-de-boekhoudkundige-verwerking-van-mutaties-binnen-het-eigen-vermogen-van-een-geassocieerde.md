@@ -19,32 +19,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:42Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Regel 61: ', bijgewerkt op 25 juni 2025[^2]' staat als losstaande body-tekstregel direct na de H1-titel — dit is een update-vermelding die door de scraper niet in de frontmatter is verwerkt en als plain-text fragment in de body terechtkwam (B5/A6). Verder is het advies inhoudelijk volledig met uitgewerkte geconsolideerde-balansvoorbeelden."
+    rationale: "A6/B5: regel 60 bevat ', bijgewerkt op 25 juni 2025[^2]' als losstaand fragment direct na de H1-titel — dit is een scrape-artefact waarbij de bijwerkingsdatum als separate tekstregel terechtkwam in de body in plaats van geïntegreerd in de heading of verwijderd. Inhoud anderszins volledig met correcte tabellen en voetnoten."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 2
-      max_section_chars: 7436
-      file_size_chars: 9595
+      file_size_chars: 9651
       flags: []
+      heading_count: 2
+      max_section_chars: 7492
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "Regel 61: ', bijgewerkt op 25 juni 2025[^2]' staat als losstaande body-tekstregel direct na de H1-titel — dit is een update-vermelding die door de scraper niet in de frontmatter is verwerkt en als plain-text fragment in de body terechtkwam (B5/A6). Verder is het advies inhoudelijk volledig met uitgewerkte geconsolideerde-balansvoorbeelden."
+      run_at: '2026-05-11T15:23:42Z'
+      rationale: "A6/B5: regel 60 bevat ', bijgewerkt op 25 juni 2025[^2]' als losstaand fragment direct na de H1-titel — dit is een scrape-artefact waarbij de bijwerkingsdatum als separate tekstregel terechtkwam in de body in plaats van geïntegreerd in de heading of verwijderd. Inhoud anderszins volledig met correcte tabellen en voetnoten."
       concrete_problemen:
-        - regel: 61
-          categorie: B5
+        - regel: 60
+          categorie: A6
           type: other
-          voorbeeld: ', bijgewerkt op 25 juni 2025[^2] — losstaande tekstregel direct na H1'
+          voorbeeld: ', bijgewerkt op 25 juni 2025[^2] — losstaand fragment na H1-heading'
 themas:
   - geassocieerde onderneming
   - mutaties binnen het eigen vermogen
@@ -79,6 +79,7 @@ In het onderstaande voorbeeld gaan we ervan uit dat onderneming A nog andere par
 De balans van de enkelvoudige jaarrekening van onderneming A per 1 december 20X3:
 
 | Onderneming A | 
+|---|
 | Terreinen | | 660 | | Kapitaal | | 1.500 | 
 | Installaties | | 3.300 | | Reserves | | 300 | 
 | Financiële vaste activa | | 2.000 | | Resultaat | | 2.800 | 
@@ -89,6 +90,7 @@ De balans van de enkelvoudige jaarrekening van onderneming A per 1 december 20X3
 De balans van de enkelvoudige jaarrekening van onderneming B per 1 december 20X3:
 
 | Onderneming B | 
+|---|
 | Gebouwen | | 500 | | Kapitaal | | 250 | 
 | Liquide middelen | | 700 | | Reserves | | 800 | 
 | | | | | Financiële schulden | | 150 | 
@@ -97,6 +99,7 @@ De balans van de enkelvoudige jaarrekening van onderneming B per 1 december 20X3
 Op 1 december 20X3 verwerft onderneming A een belang van 20 % in onderneming B voor een bedrag van 500. Het consolidatieverschil wordt als volgt berekend:
 
 | Eigen vermogen onderneming B | | 1.050 | 
+|---|---|---|
 | Aandeel in eigen vermogen onderneming: 20 % x 1.050 | | 210 | 
 | Aankoopprijs | | 500 | 
 | Positief consolidatieverschil: 500 - 210 | | 290 | 
@@ -104,6 +107,7 @@ Op 1 december 20X3 verwerft onderneming A een belang van 20 % in onderneming B v
 Veronderstel dat onderneming A op 1 december 20X3 een tussentijdse geconsolideerde balans zou opmaken, waarin enkel de geassocieerde ondernemingen volgens de vermogensmutatiemethode worden opgenomen, dan zou deze als volgt voorgesteld worden:
 
 | Onderneming A – Geconsolideerde balans | 
+|---|
 | Positieve consolidatieverschillen | | 290 | | Kapitaal | | 1.500 | 
 | Terreinen | | 660 | | Geconsolideerde reserves | | 3.100 | 
 | Installaties | | 3.300 | | | | Reserves onderneming A | | 300 | 
@@ -116,6 +120,7 @@ Veronderstel dat onderneming A op 1 december 20X3 een tussentijdse geconsolideer
 Tijdens de periode 1 december 20X3 tot 31 december 20X3 heeft de onderneming B een winst van 400 gerealiseerd waardoor de enkelvoudige balans per 31 december 20X3 als volgt kan worden voorgesteld:
 
 | Onderneming B | 
+|---|
 | Gebouwen | | 800 | | Kapitaal | | 250 | 
 | Liquide middelen | | 800 | | Reserves | | 800 | 
 | | | | | Resultaat periode 1/12 – 31/12 | | 400 | 
@@ -125,6 +130,7 @@ Tijdens de periode 1 december 20X3 tot 31 december 20X3 heeft de onderneming B e
 De geconsolideerde balans van onderneming A per 31 december 20X3 wordt als volgt gepresenteerd:
 
 | Onderneming A – Geconsolideerde balans | 
+|---|
 | Positieve consolidatieverschillen | | 232 | | Kapitaal | | 1.500 | 
 | Terreinen | | 660 | | Geconsolideerde reserves | | 2.592 | 
 | Installaties | | 2.970 | | | | Reserves onderneming A | | 300 | 
@@ -140,6 +146,7 @@ Het positieve consolidatieverschil wordt afgeschreven over 5 jaar, dit resulteer
 Per 1 januari 20X6, ofwel 31 december 20X5, werden de positieve consolidatieverschillen en installaties verder afgeschreven. Daarnaast werden de resultaten van de geassocieerde onderneming B tevens toegevoegd ten belope van 20 % aan de geconsolideerde reserves. Dit geeft volgende geconsolideerde balans per 1 januari 20X6 (31 december 20X5):
 
 | Onderneming A – Geconsolideerde balans | 
+|---|
 | Positieve consolidatieverschillen | | 116 | | Kapitaal | | 1.500 | 
 | Terreinen | | 660 | | Geconsolideerde reserves | | 1.116 | 
 | Installaties | | 2.310 | | | | Reserves onderneming A | | 300 | 
@@ -161,6 +168,7 @@ Artikel 3:143 KB WVV spreekt zich evenwel niet uit hoe de in de geassocieerde on
 Dit heeft tot gevolg dat de geconsolideerde balans van onderneming A per 31 december 20X6 als volgt kan worden voorgesteld:
 
 | Onderneming A – Geconsolideerde balans | 
+|---|
 | Positieve consolidatieverschillen | | 58 | | Kapitaal | | 1.500 | 
 | Terreinen | | 660 | | Geconsolideerde reserves | | 1.178 | 
 | Installaties | | 1.980 | | | | Reserves onderneming A | | 300 | 

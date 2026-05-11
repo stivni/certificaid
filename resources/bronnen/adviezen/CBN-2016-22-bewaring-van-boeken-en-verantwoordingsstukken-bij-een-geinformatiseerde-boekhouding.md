@@ -12,52 +12,44 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: regel 80 bevat 'bij een geïnformatiseerde boekhouding' als losstaande alinea direct na de H1-titel — duplicaat van de ondertitel, extractie-artefact. D4: systematisch patroon van broken italics met spatie vóór sluitende asterisk op minstens 5 plaatsen (regels 141, 143, 173, 175, 195) — bv. 'de* onveranderlijkheid *en de* toegankelijkheid *'. Structuur (14 headings, ####-hiërarchie) is overigens uitstekend."
+    rationale: "B3: regel 93 bevat 'bij een geïnformatiseerde boekhouding' als losstaande alinea direct na H1 — duplicaat van de ondertitel, extractie-artefact. D4: systematisch patroon van broken italics met spatie vóór sluitende asterisk op meerdere plaatsen (regels 154, 186, 188) — bv. 'de* onveranderlijkheid *en de* toegankelijkheid *'. Structuur met 14 headings is overigens uitstekend."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 14
-      max_section_chars: 12657
       file_size_chars: 24471
       flags: []
+      heading_count: 14
+      max_section_chars: 12657
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "B3: regel 80 bevat 'bij een geïnformatiseerde boekhouding' als losstaande alinea direct na de H1-titel — duplicaat van de ondertitel, extractie-artefact. D4: systematisch patroon van broken italics met spatie vóór sluitende asterisk op minstens 5 plaatsen (regels 141, 143, 173, 175, 195) — bv. 'de* onveranderlijkheid *en de* toegankelijkheid *'. Structuur (14 headings, ####-hiërarchie) is overigens uitstekend."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "B3: regel 93 bevat 'bij een geïnformatiseerde boekhouding' als losstaande alinea direct na H1 — duplicaat van de ondertitel, extractie-artefact. D4: systematisch patroon van broken italics met spatie vóór sluitende asterisk op meerdere plaatsen (regels 154, 186, 188) — bv. 'de* onveranderlijkheid *en de* toegankelijkheid *'. Structuur met 14 headings is overigens uitstekend."
       concrete_problemen:
-        - regel: 80
+        - regel: 93
           categorie: B3
           type: other
           voorbeeld: bij een geïnformatiseerde boekhouding
-        - regel: 141
+        - regel: 154
           categorie: D4
           type: other
           voorbeeld: de* onveranderlijkheid *en de* toegankelijkheid *te waarborgen
-        - regel: 143
-          categorie: D4
-          type: other
-          voorbeeld: 'De *onveranderlijkheid* en *toegankelijkheid* — maar elders: de *onveranderlijkheid *van'
-        - regel: 173
+        - regel: 186
           categorie: D4
           type: other
           voorbeeld: verplichting tot bewaring* in origineel *en met inachtneming van de *onveranderlijkheid *
-        - regel: 175
+        - regel: 188
           categorie: D4
           type: other
           voorbeeld: '*drager *beoogd die de *onveranderlijkheid *en de *toegankelijkheid *'
-        - regel: 195
-          categorie: D4
-          type: other
-          voorbeeld: de *leesbaarheid *en het *origineel karakter ervan*[^17]
 themas:
   - archivering
   - bewaring

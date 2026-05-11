@@ -3,68 +3,55 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-facto
 datum: 2011-10-05
 nummer: CBN-advies 2011/23
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
-      sha256: f9f408af8346f92956d05b367918d33f55a545bfdd5e0bf4d868809655a2cb28
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
+    sha256: f9f408af8346f92956d05b367918d33f55a545bfdd5e0bf4d868809655a2cb28
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 11
-      max_section_chars: 13236
-      file_size_chars: 32362
+      file_size_chars: 31642
       flags: []
+      heading_count: 11
+      max_section_chars: 12516
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 14 headings voor 6 factoringvarianten, inhoudelijk volledig. Sectiegrootte inherent aan groot aantal verwerkingsvarianten. Journaalpostentabellen correct als Markdown-tabellen.'
+      rationale: '[Laag-2-R2 2026-05-08] 14 headings voor 6 factoringvarianten, inhoudelijk
+        volledig. Sectiegrootte inherent aan groot aantal verwerkingsvarianten. Journaalpostentabellen
+        correct als Markdown-tabellen.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - cessie van schuldvordering
-  - discontokosten op vorderingen
-  - dubieuze debiteuren
-  - factoring
-  - financiering
-  - handelsvorderingen
-  - insolventiedekking
-  - niet in de balans opgenomen rechten en verplichtingen
-  - overdracht van schuldvordering
-  - schulden in rekening-courant
-  - vordering
-  - Waardevermindering
+- cessie van schuldvordering
+- discontokosten op vorderingen
+- dubieuze debiteuren
+- factoring
+- financiering
+- handelsvorderingen
+- insolventiedekking
+- niet in de balans opgenomen rechten en verplichtingen
+- overdracht van schuldvordering
+- schulden in rekening-courant
+- vordering
+- Waardevermindering
 ---
 
 # CBN-advies 2011/23 - De boekhoudkundige verwerking van factoringovereenkomsten
-
-1. Juridische context: overdracht van schuldvordering 
-2. De boekhoudkundige verwerking van factoring in hoofde van de leverancier 
-  1. Afgifte van de schuldvorderingen aan de factor 
-  2. Vergoeding van de factor 
-  3. Factoringovereenkomst zonder insolventiedekking en zonder financiering (service factoring) 
-  4. Factoringovereenkomst met insolventiedekking, zonder financiering (maturity factoring) 
-  5. Factoringovereenkomst met financiering, zonder insolventiedekking 
-    1. Voorkeursbenadering 
-    2. Alternatieve benadering 
-
-  6. Factoringovereenkomst met financiering en insolventiedekking (old line factorin g) 
-    1. Voorkeursbenadering 
-    2. Alternatieve benadering 
-    3. Undisclosed factoring 
 
 ## Inleiding
 
@@ -106,7 +93,7 @@ De Commissie is van oordeel dat de boekhoudkundige verwerking het bestaan van de
 
 ## De boekhoudkundige verwerking van factoring in hoofde van de leverancier
 
-### Afgifte van de schuldvorderingen aan de factor 
+### Afgifte van de schuldvorderingen aan de factor
 
 De overdracht van de handelsvorderingen aan de factor wordt in de boekhouding als volgt opgenomen. 
 

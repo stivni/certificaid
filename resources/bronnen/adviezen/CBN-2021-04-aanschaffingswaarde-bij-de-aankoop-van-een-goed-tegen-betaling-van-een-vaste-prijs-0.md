@@ -25,27 +25,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:26:39Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D3: Zes orphan footnote-markers ([^6], [^7], [^8], [^9], [^10], [^11]) staan als losstaande regels tussen de boekingstabellen (regels 116, 123, 132, 139, 153, 160) — anchor-verwijzingen naar tabel-contextuele noten op een eigen lege regel zonder bijbehorende inline tekst. A6: Regel 117 breekt de zin 'De financiële component[^4]\\n van de verrichting...' over twee regels doordat het footnote-anker de regelbreuk veroorzaakt."
+    rationale: "D3: Zes orphan footnote-markers ([^6] t/m [^11]) staan als losstaande regels tussen de boekingstabellen (regels 116, 123, 132, 139, 153, 160) — anchor-verwijzingen naar tabel-contextuele voetnoten op een eigen lege regel zonder bijbehorende inline tekst, consistent extractie-artefact. A6: Regel 129 breekt de zin 'De financiële component[^4] van de verrichting...' over twee regels doordat het voetnootanker een regelbreuk injecteert."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
+      file_size_chars: 11955
+      flags: []
       heading_count: 7
       max_section_chars: 4853
-      file_size_chars: 11956
-      flags: []
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "D3: Zes orphan footnote-markers ([^6], [^7], [^8], [^9], [^10], [^11]) staan als losstaande regels tussen de boekingstabellen (regels 116, 123, 132, 139, 153, 160) — anchor-verwijzingen naar tabel-contextuele noten op een eigen lege regel zonder bijbehorende inline tekst. A6: Regel 117 breekt de zin 'De financiële component[^4]\\n van de verrichting...' over twee regels doordat het footnote-anker de regelbreuk veroorzaakt."
+      run_at: '2026-05-11T15:26:39Z'
+      rationale: "D3: Zes orphan footnote-markers ([^6] t/m [^11]) staan als losstaande regels tussen de boekingstabellen (regels 116, 123, 132, 139, 153, 160) — anchor-verwijzingen naar tabel-contextuele voetnoten op een eigen lege regel zonder bijbehorende inline tekst, consistent extractie-artefact. A6: Regel 129 breekt de zin 'De financiële component[^4] van de verrichting...' over twee regels doordat het voetnootanker een regelbreuk injecteert."
       concrete_problemen:
         - regel: 116
           categorie: D3
@@ -71,10 +71,10 @@ provenance:
           categorie: D3
           type: other
           voorbeeld: '[^11] (idem)'
-        - regel: 117
+        - regel: 129
           categorie: A6
           type: other
-          voorbeeld: De financiële component[^4]\n van de verrichting wordt gespreid...
+          voorbeeld: "De financiële component[^4]\n van de verrichting wordt gespreid..."
 themas:
   - aanschaffingswaarde
   - abnormaal lage rente
@@ -186,7 +186,7 @@ De Commissie benadrukt dat de bepalingen van artikelen 3:45, § 2 & 3:55 KB WVV 
 
 Een voorbeeld hiervan is de aankoop van een goed in december 2019 waarvan de factuur ten laatste op 30 april 2020 moet worden betaald. Door de COVID-19-epidemie aanvaardt de verkoper op 20 april 2020 een betalingsuitstel van twee jaar. De schuld op ten hoogste één jaar wordt hier omgezet in een schuld op meer dan één jaar. De aanschaffingswaarde van het goed wordt hierdoor niet aangepast.
 
-## Arrest van het Hof van Justitie van de Europese Unie van 23 april 2020 
+## Arrest van het Hof van Justitie van de Europese Unie van 23 april 2020
 
 Het Hof van Justitie van de Europese Unie heeft in haar arrest van 23 april 2020 in de zaak C-640/18 Wagram Invest NV/Belgische Staat bevestigd dat de wettelijke bepaling in het Belgisch jaarrekeningenrecht die stelt dat de aankoop van een financieel vast actief waarbij de prijs over een langere periode wordt betaald zonder dat rente verschuldigd is, in omstandigheden die gelijken op een lening, geboekt moet worden op de actiefzijde van de balans tegen de aanschaffingswaarde rekening houdend met de aftrek van een disconto. 
 

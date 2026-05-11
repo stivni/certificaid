@@ -3,45 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/passende-boekhoudkundige-verwerking-van
 datum: 1991-03-01
 nummer: CBN-advies 164
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/passende-boekhoudkundige-verwerking-van-de-tegenwaarde-van-participatiecertificaten-cpcs
-      sha256: 3535a812b2e54ae3dcb7d33c0395e4b30f14b153cb808580927da92a12fae800
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/passende-boekhoudkundige-verwerking-van-de-tegenwaarde-van-participatiecertificaten-cpcs
+    sha256: 3535a812b2e54ae3dcb7d33c0395e4b30f14b153cb808580927da92a12fae800
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:04:42Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 0
-      max_section_chars: 2275
       file_size_chars: 2275
       flags: []
+      heading_count: 0
+      max_section_chars: 2275
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen ETL-artefacten. Proza correct, italics (*Niet-converteerbare achtergestelde leningen*) correct gesloten. Inhoud volledig: CPC-kenmerken, eigen-vermogensclassificatie en omzettingsregel aanwezig.'
+      rationale: 'Geen ETL-artefacten. Proza correct, italics (*Niet-converteerbare
+        achtergestelde leningen*) correct gesloten. Inhoud volledig: CPC-kenmerken,
+        eigen-vermogensclassificatie en omzettingsregel aanwezig.'
       run_at: '2026-05-11T12:04:42Z'
       status: trusted
-    rationale: 'Geen ETL-artefacten. Proza correct, italics (*Niet-converteerbare achtergestelde leningen*) correct gesloten. Inhoud volledig: CPC-kenmerken, eigen-vermogensclassificatie en omzettingsregel aanwezig.'
+    rationale: 'Geen ETL-artefacten. Proza correct, italics (*Niet-converteerbare
+      achtergestelde leningen*) correct gesloten. Inhoud volledig: CPC-kenmerken,
+      eigen-vermogensclassificatie en omzettingsregel aanwezig.'
     status: trusted
 themas:
-  - achtergestelde obligatie
-  - cpc
-  - eigen vermogen
-  - niet-converteerbare achtergestelde leningen
-  - participatiecertificaat
-  - obligaties
-  - winstbewijs
+- achtergestelde obligatie
+- cpc
+- eigen vermogen
+- niet-converteerbare achtergestelde leningen
+- participatiecertificaat
+- obligaties
+- winstbewijs
 ---
 
 # CBN-advies 164 - Passende boekhoudkundige verwerking van de tegenwaarde van participatiecertificaten CPC's

@@ -2,55 +2,58 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
 datum: 2016-07-06
 gerelateerde_adviezen:
-  - datum: '2021-07-02'
-    titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
-  - datum: '2009-04-01'
-    titel: De boekhoudkundige verwerking van fusies
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-fusies
-  - datum: '1988-12-01'
-    titel: Schulden op meer dan één jaar waarvoor geen of slechts een abnormaal lage rente verschuldigd is - Fiscale impact
-    url: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
-  - datum: '1992-02-01'
-    titel: Inresultaatneming van het actuariële rendement van vastrentende effecten
-    url: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten
+- datum: '2021-07-02'
+  titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+- datum: '2009-04-01'
+  titel: De boekhoudkundige verwerking van fusies
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-fusies
+- datum: '1988-12-01'
+  titel: Schulden op meer dan één jaar waarvoor geen of slechts een abnormaal lage
+    rente verschuldigd is - Fiscale impact
+  url: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
+- datum: '1992-02-01'
+  titel: Inresultaatneming van het actuariële rendement van vastrentende effecten
+  url: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten
 nummer: CBN-advies 2016/10
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
-      sha256: 28e49e5f323d3aa862bc98ab17efabc5f617e203cf6e0e8f2ca40e57e6e62e9e
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
+    sha256: 28e49e5f323d3aa862bc98ab17efabc5f617e203cf6e0e8f2ca40e57e6e62e9e
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T21:31:12Z'
     confirmed_by: human
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 0
-      max_section_chars: 4628
       file_size_chars: 4628
       flags: []
+      heading_count: 0
+      max_section_chars: 4628
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale:
-      run_at:
+      rationale: null
+      run_at: null
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
     status: trusted
 themas:
-  - nominale waarde
-  - schulden
-  - vordering
+- nominale waarde
+- schulden
+- vordering
 ---
 
 # CBN-advies 2016/10 – Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn. door het koninklijk besluit van 18 december 2015

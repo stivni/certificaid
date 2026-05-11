@@ -2,49 +2,51 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/begrip-omzet-doorrekening-van-belastingen-en-accijnzen
 datum: 2013-05-08
 gerelateerde_adviezen:
-  - datum: '1994-06-01'
-    titel: De boekhoudkundige verwerking van fusies
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-fusies-0
-  - datum: '1984-10-01'
-    titel: Overeenkomsten waarin gespreide of opeenvolgende prestaties worden voorzien
-    url: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
+- datum: '1994-06-01'
+  titel: De boekhoudkundige verwerking van fusies
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-fusies-0
+- datum: '1984-10-01'
+  titel: Overeenkomsten waarin gespreide of opeenvolgende prestaties worden voorzien
+  url: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
 nummer: CBN-advies 2013/11
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/begrip-omzet-doorrekening-van-belastingen-en-accijnzen
-      sha256: abd494a3aeb8a5a9898b68118ce3c2e69b9aa2ed976034badbc563d23c00c926
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/begrip-omzet-doorrekening-van-belastingen-en-accijnzen
+    sha256: abd494a3aeb8a5a9898b68118ce3c2e69b9aa2ed976034badbc563d23c00c926
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 4015
+      flags: []
       heading_count: 3
       max_section_chars: 2495
-      file_size_chars: 4016
-      flags: []
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 3 duidelijke H2-secties, alle footnotes correct gemarkeerd en gedefinieerd ([^1]–[^3]). Geen extractie-artefacten. Tekst leest als mens-geschreven markdown.
+      rationale: 3 duidelijke H2-secties, alle footnotes correct gemarkeerd en gedefinieerd
+        ([^1]–[^3]). Geen extractie-artefacten. Tekst leest als mens-geschreven markdown.
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: 3 duidelijke H2-secties, alle footnotes correct gemarkeerd en gedefinieerd ([^1]–[^3]). Geen extractie-artefacten. Tekst leest als mens-geschreven markdown.
+    rationale: 3 duidelijke H2-secties, alle footnotes correct gemarkeerd en gedefinieerd
+      ([^1]–[^3]). Geen extractie-artefacten. Tekst leest als mens-geschreven markdown.
     status: trusted
 themas:
-  - accijns
-  - afvalstoffenheffing
-  - omzet
+- accijns
+- afvalstoffenheffing
+- omzet
 ---
 
 # CBN-advies 2013/11 - Begrip “omzet”: doorrekening van belastingen en accijnzen
@@ -61,7 +63,7 @@ De Commissie is van oordeel dat onder de “rechtstreeks met de omzet verbonden 
 
 Een voorbeeld van een belasting die “rechtstreeks met de omzet is verbonden” in de zin van artikel 96, A.I. KB W.Venn. is een lokale belasting op vertoningen en vermakelijkheden waarbij de belasting wordt berekend op de bruto-ontvangsten van deze vertoningen of vermakelijkheden voor de organiserende vennootschap[^2]. 
 
-## Toepassingen 
+## Toepassingen
 
 Aan de Commissie werd in het verleden de vraag gesteld of de accijns op bepaalde producten moet worden beschouwd als een “rechtstreeks met de omzet verbonden belasting” in de zin van artikel 96, I.A. KB W.Venn. De Commissie meent dat de accijns op bepaalde producten (minerale oliën, tabak, alcoholische dranken, suiker, enz.) niet rechtstreeks met de omzet is verbonden en bijgevolg niet van het bedrag van de omzet kan worden afgetrokken, noch in de voorstelling van de jaarrekeningen, noch voor het bepalen van het toepassingsveld van de hierboven vermelde bepalingen van de wet op de boekhouding en van het KB W.Venn. 
 

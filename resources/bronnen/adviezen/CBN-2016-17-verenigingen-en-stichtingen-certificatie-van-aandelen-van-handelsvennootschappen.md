@@ -25,44 +25,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Regel 82: `Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen` staat als plain-text-regel zonder `##` of `###` prefix — dit is een structuurlabel dat een heading had moeten zijn (B5). Regels 83 en 84: `post* Andere ontvangsten*` en `post* Andere uitgaven*` bevatten een spatie vóór de openende asterisk, wat malformed italic geeft (D4). Regel 90: spurious line-break na voetnootref `mits[^13]\n de aanpassingen` midden in een zin (A6)."
+    rationale: 'B5: regel 115 `Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen` staat als plain-text-regel zonder `##` of `###` prefix — structuurlabel dat een heading hoort te zijn. D4: regel 116 `post* Andere uitgaven*` bevat spatie vóór openende `*` waardoor italic malformed is. De A6 op regel 123 (spurious line-break) lijkt opgelost na re-scrape.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 4
-      max_section_chars: 4526
       file_size_chars: 9787
       flags: []
+      heading_count: 4
+      max_section_chars: 4526
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "Regel 82: `Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen` staat als plain-text-regel zonder `##` of `###` prefix — dit is een structuurlabel dat een heading had moeten zijn (B5). Regels 83 en 84: `post* Andere ontvangsten*` en `post* Andere uitgaven*` bevatten een spatie vóór de openende asterisk, wat malformed italic geeft (D4). Regel 90: spurious line-break na voetnootref `mits[^13]\n de aanpassingen` midden in een zin (A6)."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'B5: regel 115 `Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen` staat als plain-text-regel zonder `##` of `###` prefix — structuurlabel dat een heading hoort te zijn. D4: regel 116 `post* Andere uitgaven*` bevat spatie vóór openende `*` waardoor italic malformed is. De A6 op regel 123 (spurious line-break) lijkt opgelost na re-scrape.'
       concrete_problemen:
-        - regel: 82
+        - regel: 115
           categorie: B5
           type: other
-          voorbeeld: 'Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen (geen ## prefix)'
-        - regel: 83
+          voorbeeld: 'Boekhoudkundige verwerking van de opbrengsten en inkomsten... (plain text zonder ## prefix)'
+        - regel: 116
           categorie: D4
           type: other
-          voorbeeld: ingeschreven onder de post* Andere ontvangsten*. (spatie voor openende *)
-        - regel: 84
-          categorie: D4
-          type: other
-          voorbeeld: ingeschreven onder de post* Andere uitgaven*. (spatie voor openende *)
-        - regel: 90
-          categorie: A6
-          type: other
-          voorbeeld: mits[^13]\n de aanpassingen waarin voorzien is... (regelbreuk midden zin)
+          voorbeeld: post* Andere uitgaven*. (spatie voor openende asterisk — malformed italic)
 themas:
   - aandelen
   - certificatie

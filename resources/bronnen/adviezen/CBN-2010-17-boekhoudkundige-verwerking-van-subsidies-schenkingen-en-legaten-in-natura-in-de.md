@@ -25,33 +25,33 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Regels 81–87: plain-text inhoudsopgave direct na H1 (A3) — genummerde lijst met inspringing die de documentstructuur nabootst maar geen headings zijn. Regels 292–294: tabelrij gebroken over twee regels met tabs in de pipe-structuur (E2): de omschrijving 'Gebouwen die volle eigendom zijn van de vereniging - Geboekte afschrijvingen' staat verspreid over twee regels terwijl de pipe-delimiters de rijstructuur doorbreken. Overige inhoud (10 genummerde voorbeelden, voetnoten 1–20 volledig gedefinieerd en gerefereerd) is correct."
+    rationale: "A3 bevestigd: r81-87 plain-text inhoudsopgave direct na H1 (genummerde lijst met inspringing). E2 bevestigd: r300-301 tabelrij gebroken over twee regels met tabs — '22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -\\n\\t\\t\\t\\tGeboekte afschrijvingen | 1.515,15 |' doorbreekt de pipe-delimiters. Overige 10 voorbeelden en voetnoten 1-20 correct."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 20534
+      flags: []
       heading_count: 12
       max_section_chars: 3433
-      file_size_chars: 20943
-      flags: []
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "Regels 81–87: plain-text inhoudsopgave direct na H1 (A3) — genummerde lijst met inspringing die de documentstructuur nabootst maar geen headings zijn. Regels 292–294: tabelrij gebroken over twee regels met tabs in de pipe-structuur (E2): de omschrijving 'Gebouwen die volle eigendom zijn van de vereniging - Geboekte afschrijvingen' staat verspreid over twee regels terwijl de pipe-delimiters de rijstructuur doorbreken. Overige inhoud (10 genummerde voorbeelden, voetnoten 1–20 volledig gedefinieerd en gerefereerd) is correct."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "A3 bevestigd: r81-87 plain-text inhoudsopgave direct na H1 (genummerde lijst met inspringing). E2 bevestigd: r300-301 tabelrij gebroken over twee regels met tabs — '22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -\\n\\t\\t\\t\\tGeboekte afschrijvingen | 1.515,15 |' doorbreekt de pipe-delimiters. Overige 10 voorbeelden en voetnoten 1-20 correct."
       concrete_problemen:
         - regel: 81
           categorie: A3
           type: other
           voorbeeld: "1. Goederen \n  1. Subsidies, schenkingen en legaten bestemd om duurzaam bij te dragen..."
-        - regel: 292
+        - regel: 300
           categorie: E2
           type: other
           voorbeeld: "| | 22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -\n\t\t\t\tGeboekte afschrijvingen | 1.515,15 |"
@@ -74,13 +74,6 @@ themas:
 
 # CBN-advies 2010/17 - Boekhoudkundige verwerking van subsidies, schenkingen en legaten in natura in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
 
-1. Goederen 
-  1. Subsidies, schenkingen en legaten bestemd om duurzaam bij te dragen tot de activiteit van de vereniging of stichting 
-  2. Subsidies in natura bestaande uit het schenken van een vast actief of het ter beschikking stellen van vaste activa 
-  3. Subsidies, schenkingen en legaten in natura bestemd voor de eenvoudige, dagelijkse ondersteuning van de werking van de vereniging 
-
-2. Diensten 
-
 ## Inleiding
 
 Verenigingen en stichtingen verwerven dikwijls subsidies, schenkingen en legaten met het oog op het realiseren van bepaalde vormen van dienstverlening of het uitvoeren van bepaalde programma’s. Deze subsidies, schenkingen en legaten kunnen zowel in geld, als in natura verleend worden.
@@ -93,7 +86,7 @@ Het komt in het bijzonder toe aan het bestuursorgaan om de regels vast te leggen
 
 In dit advies wordt de boekhoudkundige verwerking, en in het bijzonder de waardering, van de verschillende soorten subsidies, schenkingen en legaten in natura toegelicht bij grote en zeer grote verenigingen en stichtingen. Daarbij wordt een onderscheid gemaakt tussen verworven goederen enerzijds en verworven diensten anderzijds. Tevens worden een aantal voorbeelden gegeven.
 
-## Goederen 
+## Goederen
 
 De goederen die aan de vereniging worden geschonken of nagelaten en die ze voor haar activiteit bestemt, worden op het ogenblik van hun verkrijging geboekt en gewaardeerd tegen hun marktwaarde of, bij ontstentenis, tegen hun gebruikswaarde[^2]. 
 

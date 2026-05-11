@@ -25,36 +25,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2/B3: de H1 op regel 64 is 'Technische nota bij' — dit is een afgekapte heading (het volledige advies-onderwerp ontbreekt). Bovendien: dit bestand bevat enkel de technische nota (IFRS/IAS-context), terwijl de advies-H1 van het hoofd-advies 2013/14 ontbreekt. Twee opeenvolgende H1-headings zouden vermeden moeten worden; de tweede had een H2 moeten zijn."
+    rationale: "B1/D1: de H1-titel op regel 59 luidt enkel '# Technische nota bij' zonder verdere specificatie — een afgekapte titel die niet aangeeft bij welk advies de nota hoort. Een mens zou '# Technische nota bij CBN-advies 2013/14' schrijven. Dit is een ETL-artefact waarbij de volledigere titeltekst niet werd overgenomen."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 20154
+      flags: []
       heading_count: 14
       max_section_chars: 5282
-      file_size_chars: 20167
-      flags: []
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "B2/B3: de H1 op regel 64 is 'Technische nota bij' — dit is een afgekapte heading (het volledige advies-onderwerp ontbreekt). Bovendien: dit bestand bevat enkel de technische nota (IFRS/IAS-context), terwijl de advies-H1 van het hoofd-advies 2013/14 ontbreekt. Twee opeenvolgende H1-headings zouden vermeden moeten worden; de tweede had een H2 moeten zijn."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "B1/D1: de H1-titel op regel 59 luidt enkel '# Technische nota bij' zonder verdere specificatie — een afgekapte titel die niet aangeeft bij welk advies de nota hoort. Een mens zou '# Technische nota bij CBN-advies 2013/14' schrijven. Dit is een ETL-artefact waarbij de volledigere titeltekst niet werd overgenomen."
       concrete_problemen:
-        - regel: 64
-          categorie: B2
-          type: other
-          voorbeeld: '# Technische nota bij  (afgekapte H1, volledig advies-onderwerp ontbreekt)'
-        - regel: 64
-          categorie: B3
-          type: other
-          voorbeeld: 'Twee H1-headings in document: vorige run detecteerde dit als dubbele H1 — nog steeds aanwezig'
+        - regel: 59
+          categorie: B1
+          type: abrupt-cutoff
+          voorbeeld: '# Technische nota bij'
 themas:
   - gerealiseerde meerwaarde
   - kapitaalsubsidie
@@ -108,7 +104,7 @@ De Standaard vereist dat er voor alle belastbare tijdelijke verschillen een uitg
 
 Voor alle verrekenbare tijdelijke verschillen moet een uitgestelde belastingvordering worden opgenomen, in zoverre het waarschijnlijk is dat er fiscale winst beschikbaar zal zijn waarmee het verrekenbare tijdelijke verschil kan worden verrekend, tenzij de uitgestelde belastingvordering voortvloeit uit de eerste opname van een vordering of verplichting in een transactie die geen bedrijfscombinatie is, en op het moment van de transactie geen invloed heeft op de boekhoudkundige winst of de fiscale winst (het fiscaal verlies).
 
-#### *De initial recognition exception* 
+#### De initial recognition exception
 
 *Ontstaan bij eerste opname van een actief- of passiefbestanddeel of goodwill*
 
@@ -132,7 +128,7 @@ De *initial recognition exception* heeft enkel en alleen betrekking op de tijdel
 
 Wanneer de verandering van het tijdelijk verschil voortvloeit uit een verandering van de fiscale boekwaarde ten gevolge van een wetswijziging, dan zal de verwerking van deze verandering afhangen van het feit of er reeds uitgestelde belastingen werden opgenomen voor het betreffende actief of de verplichting. Indien er reeds uitgestelde belastingen werden opgenomen, dan zal een verandering van de fiscale boekwaarde leiden tot een overeenkomstige verandering van de uitgestelde belastingvordering of –verplichting met bijhorende wijzigingen verwerkt in de winst- of verliesrekening. Indien er voorheen geen uitgestelde belastingen werden opgenomen omwille van de *initial recognition exception*, dan dient men een uitgestelde belastingvordering (-verplichting) op te nemen voor het verrekenbare ( belastbare) tijdelijke verschil. 
 
-#### *Beperking bij de opname van uitgestelde belastingvorderingen*
+#### Beperking bij de opname van uitgestelde belastingvorderingen
 
 Er bestaat een essentieel verschil tussen de erkenning van uitgestelde belastingverplichtingen en uitgestelde belastingvorderingen.
 
@@ -153,7 +149,7 @@ De vereiste dat er rekening moet worden gehouden met toekomstige fiscale opportu
 
 De Standaard neemt expliciet op dat fiscale opportuniteiten naar acties verwijzen die de onderneming effectief gaat ondernemen. Fiscale opportuniteiten die theoretisch mogelijk, doch niet praktisch haalbaar zijn, kunnen niet in rekening worden gebracht. 
 
-#### *Niet-gecompenseerde fiscale verliezen en ongebruikte fiscaal verrekenbare tegoeden*
+#### Niet-gecompenseerde fiscale verliezen en ongebruikte fiscaal verrekenbare tegoeden
 
 Een uitgestelde belastingvordering moet worden opgenomen voor de voorwaartse compensatie van niet-gecompenseerde fiscale verliezen en ongebruikte fiscaal verrekenbare tegoeden in zoverre het waarschijnlijk is dat er toekomstige fiscale winst beschikbaar zal zijn waarmee de niet-gecompenseerde fiscale verliezen en ongebruikte fiscaal verrekenbare tegoeden kunnen worden verrekend.
 
@@ -171,7 +167,7 @@ d) of planning van de fiscale winst mogelijk is zodat de entiteit fiscale winst 
 
 In zoverre het niet waarschijnlijk is dat er fiscale winst beschikbaar zal zijn waarmee de niet-gecompenseerde fiscale verliezen of ongebruikte fiscaal verrekenbare tegoeden kunnen worden verrekend, wordt de uitgestelde belastingvordering niet opgenomen.
 
-#### *Herschatting van uitgestelde belastingvorderingen*
+#### Herschatting van uitgestelde belastingvorderingen
 
 De onderneming dient de opgenomen en niet-opgenomen uitgestelde belastingvorderingen te herschatten op het einde van iedere verslagperiode. Voor wat betreft de eerder opgenomen vorderingen dient de boekwaarde van een belastingvordering te worden verminderd indien het niet langer waarschijnlijk is dat er voldoende fiscale winst beschikbaar zal zijn om de vordering te verrekenen. Deze verminderingen dienen teruggenomen te worden op het ogenblik dat het opnieuw waarschijnlijk is dat toekomstige fiscale winst beschikbaar zal zijn. 
 
@@ -185,7 +181,7 @@ Indien verschillende belastingtarieven van toepassing zijn op verschillende nive
 
 IAS 12 voorziet geen actualisatie van uitgestelde belastingen omdat de Standaard het praktisch onmogelijk acht om de afwikkeling van tijdelijke verschillen aan exacte tijdvakken te relateren. Daarnaast worden uitgestelde belastingen zelf reeds berekend op tijdelijke verschillen tussen activa en passiva die reeds zelf onderhevig zijn aan tijdswaarde-aspecten, waardoor een verdiscontering van de uitgestelde belastingeffecten impliciet volgt uit de verdiscontering van het onderliggende.
 
-## **Presentatie**
+## Presentatie
 
 Belastingvorderingen en –verplichtingen dienen apart van de andere activa en verplichtingen te worden weergegeven. Uitgestelde belastingen dienen eveneens afzonderlijk van de huidige belastingen te worden voorgesteld. Als een entiteit in haar balans vlottende/vaste activa en langlopende/kortlopende verplichtingen als afzonderlijke classificaties presenteert, dient zij de uitgestelde belastingen op dezelfde wijze te weer te geven. 
 

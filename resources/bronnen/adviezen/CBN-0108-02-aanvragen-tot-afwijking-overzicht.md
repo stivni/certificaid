@@ -12,27 +12,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'B2: heading-hiërarchie springt direct van # (regel 63) naar #### (regels 69, 91, 126) zonder tussenliggende ## en ### niveaus. Een mens-geschreven markdown gebruikt #### nooit als eerste sub-niveau na #. Inhoud is verder volledig en goed leesbaar.'
+    rationale: 'B2: heading-hiërarchie springt direct van # (regel 63) naar #### (regels 69, 91, 126) zonder tussenliggende ## en ### niveaus. Een mensgeschreven markdown gebruikt #### nooit als eerste sub-niveau na #. Drie secties worden hierdoor structureel fout weergegeven. Inhoud verder volledig.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 3
-      max_section_chars: 6783
       file_size_chars: 12815
       flags: []
+      heading_count: 3
+      max_section_chars: 6783
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: 'B2: heading-hiërarchie springt direct van # (regel 63) naar #### (regels 69, 91, 126) zonder tussenliggende ## en ### niveaus. Een mens-geschreven markdown gebruikt #### nooit als eerste sub-niveau na #. Inhoud is verder volledig en goed leesbaar.'
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: 'B2: heading-hiërarchie springt direct van # (regel 63) naar #### (regels 69, 91, 126) zonder tussenliggende ## en ### niveaus. Een mensgeschreven markdown gebruikt #### nooit als eerste sub-niveau na #. Drie secties worden hierdoor structureel fout weergegeven. Inhoud verder volledig.'
       concrete_problemen:
         - regel: 69
           categorie: B2
@@ -66,7 +66,7 @@ Voor het eerste boekjaar waarop het koninklijk besluit van 8 oktober 1976 van to
 
 De aanvragen tot afwijking kunnen als volgt worden onderverdeeld :
 
-#### AANVRAGEN TOT AFWIJKING DIE EEN AANPASSING BEOGEN VAN HET SCHEMA GEHECHT AAN HET K.B. VAN 8 OKTOBER 1976
+## AANVRAGEN TOT AFWIJKING DIE EEN AANPASSING BEOGEN VAN HET SCHEMA GEHECHT AAN HET K.B. VAN 8 OKTOBER 1976
 
 In deze eerste groep worden de afwijkingen vermeld die er niet toe strekken minder informatie te verschaffen dan door het koninklijk besluit van oktober 1976 wordt opgelegd, doch wel de jaarrekening voor te stellen onder een vorm die beter aangepast is aan de aard of aan de eigen kenmerken van de economische activiteit die de onderneming uitoefent.
 
@@ -88,7 +88,7 @@ Een bepaald aantal ondernemingen heeft de toelating gekregen om in hun resultate
 
 Twee ondernemingen, ten slotte, hebben gevraagd om in hun resultatenrekening, en dit onder een aparte rubriek, slechts hun aandeel in de netto-resultaten van een vereniging in deelneming op te nemen, maar waarbij in de toelichting bij hun jaarrekening de exploitatieresultaten van de in vereniging gevoerde activiteiten zouden aangeduid worden.
 
-#### EIGENLIJKE AFWIJKINGEN VAN HET K.B. VAN 8 OKTOBER 1976
+## EIGENLIJKE AFWIJKINGEN VAN HET K.B. VAN 8 OKTOBER 1976
 
 Volgens de bewoordingen van het Verslag aan de Koning dat het besluit van 8 oktober 1976 voorafgaat, kan een afwijking bekomen worden «zo het publiceren van inlichtingen, voorgeschreven door het besluit, een vaststaande schade aan de onderneming of aan derden zou kunnen veroorzaken. Dit zou onder meer het geval zijn voor het publiceren van het omzetcijfer van een onderneming die slechts één enkel homogeen produkt vervaardigt en die in concurrentie staat met ondernemingen met een gediversifieerde productie».
 
@@ -123,7 +123,7 @@ Aan 24 steenkoolmijnen in vereffening, ten slotte, - ondernemingen waarvan de ve
 
 Een zeker aantal aanvragen werd als niet-ontvankelijk beschouwd daar ze betrekking hadden op het principe zelf van de opstelling van een jaarrekening of op de toepassing van de schema's gevoegd bij het koninklijk besluit van 8 oktober 1976.
 
-#### PROCEDURE
+## PROCEDURE
 
 Wat de procedure betreft, wil de Commissie twee opmerkingen formuleren : een eerste met betrekking tot de motivering van de aanvragen, een tweede met betrekking tot de termijn van indiening van deze aanvragen.
 

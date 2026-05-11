@@ -2,83 +2,54 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/correctie-van-de-jaarrekening-0
 datum: 2020-04-06
 gerelateerde_adviezen:
-  - datum: '2014-04-23'
-    titel: Correctie van de jaarrekening
-    url: https://www.cbn-cnc.be/nl/adviezen/correctie-van-de-jaarrekening
+- datum: '2014-04-23'
+  titel: Correctie van de jaarrekening
+  url: https://www.cbn-cnc.be/nl/adviezen/correctie-van-de-jaarrekening
 nummer: CBN-advies 2020/12
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/correctie-van-de-jaarrekening-0
-      sha256: bd532c81178e67e06992b6e31e5ae2bf7e33611997008b2a1c78e9483cdf994d
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/correctie-van-de-jaarrekening-0
+    sha256: bd532c81178e67e06992b6e31e5ae2bf7e33611997008b2a1c78e9483cdf994d
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
+      file_size_chars: 46784
+      flags: []
       heading_count: 19
       max_section_chars: 23324
-      file_size_chars: 49106
-      flags: []
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 19 headings en behandelt volledig de correctie van jaarrekeningen na invoering van het WVV. TOC-dump op regel 65-68 is cosmetisch.'
+      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 19 headings en behandelt
+        volledig de correctie van jaarrekeningen na invoering van het WVV. TOC-dump
+        op regel 65-68 is cosmetisch.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - aanpassing
-  - correctie
-  - fout
-  - jaarrekening
-  - verbetering
-  - verantwoordingsstukken
+- aanpassing
+- correctie
+- fout
+- jaarrekening
+- verbetering
+- verantwoordingsstukken
 ---
 
 # CBN-advies 2020/12 - Correctie van de jaarrekening
-
-1. Inleiding 
-2. Bepalingen van het WVV 
-  1. Opmaak, goedkeuring en neerlegging van de jaarrekening 
-    1. Vennootschappen 
-    2. VZW’s & IVZW’s
-
-    3. Stichtingen
-
-  2. Aanpassing van de bedragen van het voorafgaande boekjaar
-
-3. Correctie van de jaarrekening 
-  1. De twee correctievormen 
-    1. De “vrijwillige” correctie (artikel 3:19, § 1, eerste lid WVV (vennootschappen); 3:49, § 1 eerste lid WVV (VZW’s & IVZW’s); en 3:53, eerste lid WVV (stichtingen)) 
-    2. De “verplichte” correctie (artikel 3:19, § 1, tweede lid WVV (vennootschappen); 3:49, § 1, tweede lid WVV (VZW’s & IVZW’s); en 3:53 tweede lid WVV (stichtingen)) 
-
-  2. Bestuursbeslissingen 
-  3. Te goeder trouw verworven rechten 
-  4. Impact van een correctie van de statutaire jaarrekening van een vennootschap die tot een groep behoort op de geconsolideerde jaarrekening van deze groep
-
-4. Procedure en boekhoudkundige verwerking van de correctie 
-  1. In hoofde van vennootschappen, VZW’s en IVZW’s 
-    1. Principe: de correctie wordt ter goedkeuring voorgelegd aan de vennoten verenigd in vergadering (vennootschappen) of algemene vergadering (vennootschappen, VZW’s en IVZW’s) 
-    2. Uitzondering: correctie uitgevoerd door het bestuursorgaan 
-
-  2. In hoofde van stichtingen 
-
----- Stichtingen
- -- Aanpassing van de bedragen van het voorafgaande boekjaar
-Correctie van de jaarrekening-- De twee correctievormen---- De “vrijwillige” correctie (artikel 3:19, § 1, eerste lid WVV (vennootschappen); 3:49, § 1 eerste lid WVV (VZW’s & IVZW’s); en 3:53, eerste lid WVV (stichtingen))---- De “verplichte” correctie (artikel 3:19, § 1, tweede lid WVV (vennootschappen); 3:49, § 1, tweede lid WVV (VZW’s & IVZW’s); en 3:53 tweede lid WVV (stichtingen))-- Bestuursbeslissingen-- Te goeder trouw verworven rechten-- Impact van een correctie van de statutaire jaarrekening van een vennootschap die tot een groep behoort op de geconsolideerde jaarrekening van deze groep
-Procedure en boekhoudkundige verwerking van de correctie-- In hoofde van vennootschappen, VZW’s en IVZW’s---- Principe: de correctie wordt ter goedkeuring voorgelegd aan de vennoten verenigd in vergadering (vennootschappen) of algemene vergadering (vennootschappen, VZW’s en IVZW’s)---- Uitzondering: correctie uitgevoerd door het bestuursorgaan-- In hoofde van stichtingen 
 
 ## Inleiding
 
@@ -115,7 +86,7 @@ In voorkomend geval beperkt de tweede termijn van artikel 3:10, tweede lid WVV (
 
 Indien de jaarrekening niet binnen deze termijn van zeven maanden werd goedgekeurd door de algemene vergadering, dient het bestuursorgaan deze toch te publiceren met inachtneming van artikel 3:3, § 1, tweede lid KB WVV. De neerlegging van de daarna definitief door de algemene vergadering goedgekeurde jaarrekening vormt dan een verbeterde neerlegging[^14].
 
-#### VZW’s & IVZW’s[^15] 
+#### VZW’s & IVZW’s[^15]
 
 Artikel 3:47, § 1 WVV bepaalt dat het bestuursorgaan van een VZW of IVZW elk jaar een inventaris opmaakt volgens de door de Koning bepaalde waarderingsmaatstaven. Voormeld bestuursorgaan stelt eveneens ieder jaar de jaarrekening op waarvan de vorm en inhoud bepaald zijn door de Koning. Deze jaarrekening omvat de balans, de resultatenrekening en de toelichting en vormt een geheel[^16].
 
@@ -128,7 +99,7 @@ Wat betreft de neerlegging van de jaarrekening bepaalt artikel 3:47, § 7, eerst
 VZW’s en IVZW’s die op balansdatum van het laatst afgesloten boekjaar meer dan één van de in artikel 3:47, § 2[^18]
  WVV bepaalde criteria overschrijden, leggen de jaarrekening dus neer bij de Nationale Bank van België en dit binnen de dertig dagen na goedkeuring ervan. VZW’s of IVZW’s die daarentegen niet meer dan één van de in artikel 3:47, § 2 WVV bepaalde criteria overschrijden, leggen de jaarrekening binnen de dertig dagen neer bij de griffie van de ondernemingsrechtbank van de zetel van de VZW of IVZW[^19].
 
-#### Stichtingen[^20] 
+#### Stichtingen[^20]
 
 Artikel 3:51, § 1 WVV bepaalt dat het bestuursorgaan van stichtingen elk jaar een inventaris opmaakt volgens de door de Koning bepaalde waarderingsmaatstaven. Voormeld bestuursorgaan stelt binnen de zes maanden na de afsluitingsdatum van het boekjaar de jaarrekening op waarvan de vorm en inhoud bepaald zijn door de Koning. Deze jaarrekening omvat de balans, de resultatenrekening en de toelichting en vormt een geheel[^21].
 
@@ -138,14 +109,14 @@ Wat betreft de neerlegging van de jaarrekening bepaalt artikel 3:51, § 7, eerst
 
 Bijgevolg leggen stichtingen die op de balansdatum van het laatst afgesloten boekjaar meer dan één van de in artikel 3:51, § 2, WVV[^22] criteria overschrijden de jaarrekening neer bij de Nationale Bank van België en dit binnen de dertig dagen na goedkeuring ervan. Stichtingen die daarentegen niet meer dan één van de in artikel 3:51, § 2 WVV bepaalde criteria overschrijden, leggen de jaarrekening neer binnen de dertig dagen neer bij de griffie van de ondernemingsrechtbank van de zetel van de stichting[^23].
 
-### Aanpassing van de bedragen van het voorafgaande boekjaar[^24] 
+### Aanpassing van de bedragen van het voorafgaande boekjaar[^24]
 
 Artikel 3:59 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) bepaalt dat bij elke rubriek en onderrubriek van de balans en van de resultatenrekening het bedrag van de overeenkomstige post van het voorafgaande boekjaar wordt vermeld. Dit artikel is van toepassing voor zowel de vennootschappen als voor de VZW’s, IVZW’s en stichtingen.
 
 Wanneer de bedragen van het boekjaar niet vergelijkbaar zijn met die van het voorafgaande boekjaar, dan mogen de bedragen van het voorafgaande boekjaar worden aangepast met het oog op hun vergelijkbaarheid.[^25]
  Deze aanpassing van de bedragen van het voorafgaande boekjaar vergt geen bijkomende boekingen en vormt een uitzondering op het beginsel dat de beginbalans van een boekjaar moet overeenstemmen met de eindbalans van het voorafgaande boekjaar[^26]. Het ontbreken van vergelijkbaarheid en de aanpassing van de bedragen moet vermeld en naar behoren verklaard worden in de toelichting bij de waarderingsregels, behalve wanneer de aanpassingen onbelangrijk zijn[^27]. Worden de bedragen van het voorafgaande boekjaar niet aangepast, dan moet de toelichting de nodige gegevens bevatten om een vergelijking mogelijk te maken[^28]. De Commissie is evenwel van oordeel dat, met het oog op het verschaffen van meer betekenisvolle informatie aan de lezer, het hoogst aangewezen is de vergelijkende cijfers van het voorgaande boekjaar aan te passen, gezien het beginsel dat de jaarrekening een getrouw beeld moet geven van het vermogen, de financiële positie en het resultaat van de vennootschap, VZW, IVZW of stichting[^29]. 
 
-### *Voorbeeld*
+### Voorbeeld
 
 Een vennootschap, gevestigd in een land dat geen lidstaat is van de EU, beslist haar zetel te verplaatsen naar België. In het land van oorsprong past de vennootschap waarderingsregels toe die niet overeenstemmen met de Belgische waarderingsregels. Als de toestand bij de aanvang en de toestand bij de afsluiting van het boekjaar waarin de zetelverplaatsing plaatsvond hierdoor moeilijk vergelijkbaar zijn, moet hiervan melding worden gemaakt in de toelichting bij de jaarrekening.[^30]
 Bovendien kunnen bepaalde waarderingsverschillen tussen het buitenlands en het Belgisch boekhoudkundig referentiestelsel het nodig maken om de openingsbalans aan te passen. De bedoeling is dan om deze balansen in overeenstemming te brengen met de balansen zoals die eruit zouden hebben gezien indien de Belgische boekhoudregels van meet af aan waren toegepast[^31].

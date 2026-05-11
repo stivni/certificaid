@@ -2,54 +2,60 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/vakantiegeld
 datum: 1985-04-01
 gerelateerde_adviezen:
-  - datum: '2016-07-06'
-    titel: 'Verenigingen en Stichtingen: roerende voorheffing'
-    url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing
-  - datum: '1995-03-01'
-    titel: Boekhoudkundige verwerking van verrichtingen afgesloten onder opschortende voorwaarde
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
-  - datum: '1990-06-01'
-    titel: Boeking van de prorata van gelopen interest op obligaties en kasbons
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
-  - datum: '1993-12-01'
-    titel: Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen 137/5 en 148/4
-    url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
+- datum: '2016-07-06'
+  titel: 'Verenigingen en Stichtingen: roerende voorheffing'
+  url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing
+- datum: '1995-03-01'
+  titel: Boekhoudkundige verwerking van verrichtingen afgesloten onder opschortende
+    voorwaarde
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
+- datum: '1990-06-01'
+  titel: Boeking van de prorata van gelopen interest op obligaties en kasbons
+  url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
+- datum: '1993-12-01'
+  titel: Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen
+    137/5 en 148/4
+  url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
 nummer: CBN-advies 148/2
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vakantiegeld
-      sha256: 741d030d6b6ba24bf9ad15b73181dc19b7d0f11020739f2638d999710c7bc4a6
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vakantiegeld
+    sha256: 741d030d6b6ba24bf9ad15b73181dc19b7d0f11020739f2638d999710c7bc4a6
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:23:03Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Vorige D4-issue (*littera *d) met spatie vóór sluitende asterisk) is gefixeerd — body toont nu correct *littera* d). Inhoud volledig (4 paragrafen, geen voetnoten), geen artefacten van andere categorieën aangetroffen.
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 0
-      max_section_chars: 2224
       file_size_chars: 2224
       flags: []
+      heading_count: 0
+      max_section_chars: 2224
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:03Z'
-      rationale: Vorige D4-issue (*littera *d) met spatie vóór sluitende asterisk) is gefixeerd — body toont nu correct *littera* d). Inhoud volledig (4 paragrafen, geen voetnoten), geen artefacten van andere categorieën aangetroffen.
       concrete_problemen: []
+      rationale: Vorige D4-issue (*littera *d) met spatie vóór sluitende asterisk)
+        is gefixeerd — body toont nu correct *littera* d). Inhoud volledig (4 paragrafen,
+        geen voetnoten), geen artefacten van andere categorieën aangetroffen.
+      run_at: '2026-05-11T13:23:03Z'
+      status: trusted
+    rationale: Vorige D4-issue (*littera *d) met spatie vóór sluitende asterisk) is
+      gefixeerd — body toont nu correct *littera* d). Inhoud volledig (4 paragrafen,
+      geen voetnoten), geen artefacten van andere categorieën aangetroffen.
+    status: trusted
 themas:
-  - toerekening van kosten en opbrengsten
-  - vakentiegeld
+- toerekening van kosten en opbrengsten
+- vakentiegeld
 ---
 
 # CBN-advies 148/2 - Vakantiegeld

@@ -2,47 +2,53 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-mbt-het-sociaal-passief-ingevolge-het-eenheidsstatuut
 datum: 2018-11-28
 gerelateerde_adviezen:
-  - datum: '1983-04-10'
-    titel: Belastingvrije provisie voor sociaal passief
-    url: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
+- datum: '1983-04-10'
+  titel: Belastingvrije provisie voor sociaal passief
+  url: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
 nummer: CBN-advies 2018/21
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-mbt-het-sociaal-passief-ingevolge-het-eenheidsstatuut
-      sha256: c71ec7d9c8f537088d54151d46dea7a11d4210e362c8b7e4ea7ea4a8398c69dc
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-mbt-het-sociaal-passief-ingevolge-het-eenheidsstatuut
+    sha256: c71ec7d9c8f537088d54151d46dea7a11d4210e362c8b7e4ea7ea4a8398c69dc
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 3
-      max_section_chars: 4073
       file_size_chars: 6589
       flags: []
+      heading_count: 3
+      max_section_chars: 4073
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen artefacten gevonden. Tekst vloeiend, drie ## headings correct, alle 14 voetnoten volledig verankerd. Geen tabellen. De cursief-opmaak van artikelnummers (67*quater*) is correcte markdown-weergave van de wettelijke schrijfwijze. Inhoud volledig.'
+      rationale: 'Geen artefacten gevonden. Tekst vloeiend, drie ## headings correct,
+        alle 14 voetnoten volledig verankerd. Geen tabellen. De cursief-opmaak van
+        artikelnummers (67*quater*) is correcte markdown-weergave van de wettelijke
+        schrijfwijze. Inhoud volledig.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Geen artefacten gevonden. Tekst vloeiend, drie ## headings correct, alle 14 voetnoten volledig verankerd. Geen tabellen. De cursief-opmaak van artikelnummers (67*quater*) is correcte markdown-weergave van de wettelijke schrijfwijze. Inhoud volledig.'
+    rationale: 'Geen artefacten gevonden. Tekst vloeiend, drie ## headings correct,
+      alle 14 voetnoten volledig verankerd. Geen tabellen. De cursief-opmaak van artikelnummers
+      (67*quater*) is correcte markdown-weergave van de wettelijke schrijfwijze. Inhoud
+      volledig.'
     status: trusted
 themas:
-  - sociaal passief
-  - eenheidsstatuut
-  - fiscale vrijstelling
-  - belastinglatentie
+- sociaal passief
+- eenheidsstatuut
+- fiscale vrijstelling
+- belastinglatentie
 ---
 
 # CBN-advies 2018/21 – Vrijstelling m.b.t. het sociaal passief ingevolge het eenheidsstatuut

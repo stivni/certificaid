@@ -2,57 +2,60 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten
 datum: 1992-02-01
 gerelateerde_adviezen:
-  - datum: '2012-04-17'
-    titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
-  - datum: '2011-03-16'
-    titel: Boekhoudkundige verwerking van de aankoop van goud en kunstwerken
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-goud-en-kunstwerken
-  - datum: '2011-02-25'
-    titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van artikel 107, 4° KB W.Venn.'
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
-  - datum: '2002-05-02'
-    titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen(1)
-    url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
+- datum: '2012-04-17'
+  titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+- datum: '2011-03-16'
+  titel: Boekhoudkundige verwerking van de aankoop van goud en kunstwerken
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-goud-en-kunstwerken
+- datum: '2011-02-25'
+  titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van artikel 107,
+    4° KB W.Venn.'
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
+- datum: '2002-05-02'
+  titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie
+    van aandelen van handelsvennootschappen(1)
+  url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
 nummer: CBN-advies 147/2
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten
-      sha256: 2e9506824a3996edad8e35e1dcd93461be85a37fdff2645c3dd3d3617d6b67c8
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten
+    sha256: 2e9506824a3996edad8e35e1dcd93461be85a37fdff2645c3dd3d3617d6b67c8
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 0
-      max_section_chars: 7742
-      file_size_chars: 7742
+      file_size_chars: 7910
       flags: []
+      heading_count: 0
+      max_section_chars: 7910
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee concrete rekenvoorbeelden (staatsfonds code 227 en 224) met actuariële tabellen.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee concrete rekenvoorbeelden
+        (staatsfonds code 227 en 224) met actuariële tabellen.'
       run_at: '2026-05-08T19:02:29Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - geldbeleggingen
-  - nominale waarde
-  - vastrentende effecten
-  - actuarieel rendement op vastrentende effecten
-  - actuariële rendement
+- geldbeleggingen
+- nominale waarde
+- vastrentende effecten
+- actuarieel rendement op vastrentende effecten
+- actuariële rendement
 ---
 
 # CBN-advies 147/2 - Inresultaatneming van het actuariële rendement van vastrentende effecten
@@ -93,6 +96,7 @@ Nominaal = 100.000, - BEF
 Aankoopkoers = 95.34 en GEEN aankoopkosten worden verondersteld 
 
 | **Datum** | | **Aanschaffingswaarde** | | **Actuariële waarde(*)** | | **Actuariële opwaardering** | | **Cumul actuariële opwaardering** | | **Resultatenrekening vóór beurs-correcties** | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | | | **(1)** | | **(2)** | | **(3)** | | **(4)** | | **(5)** | 
 | 20.09.91 | | 95.340 | | 95.340 | | - | | - | | 95.340 | 
 | | | | | | | | | | | i 2.111 | 
@@ -109,6 +113,7 @@ Aankoopkoers = 95.34 en GEEN aankoopkosten worden verondersteld
 | | | | | | | | | | | 7.030 | 
 
 | **Beurskoers** | | **Beurskoers-correcties (**)** | | **Boekwaarde nà correcties** | | **Totaal resultaten** | | **Ter vergelijking: Resultaten bij behoud v/d oorspronkelijke aanschaffingswaarde (**)** | 
+|---|---|---|---|---|---|---|---|---|
 | **(6)** | | **(7)** | | **(8)** | | **(9)** | | **(10)** | 
 | 95.340 | | - | | - | | - | | | 
 | 96.000 | | - | | 95.660 | | 3.431 | | i 2.111 | 
@@ -137,6 +142,7 @@ Aankoopkoers = 103.96 en GEEN aankoopkosten worden verondersteld
 Reëel rendement bij aankoop = 9,44% 
 
 | **Datum** | | **Aanschaffingswaarde** | | **Actuariële waarde (*)** | | **Actuariële afwaardering** | | **Cumul actuariële afwaardering** | | **Resultatenrekening vóórbeurscorrecties** | 
+|---|---|---|---|---|---|---|---|---|---|---|
 | | | **(1)** | | **(2)** | | **(3)** | | **(4)** | | **(5)** | 
 | 20.09.91 | | 103.960 | | 103.960 | | | | | | i 3.125 | 
 | 31.12.91 | | 103.960 | | 103.570 | | -390 | | -390 | | -390 | 
@@ -152,6 +158,7 @@ Reëel rendement bij aankoop = 9,44%
 | | | | | | | | | | | 2.771 | 
 
 | **Beurskoers** | | **Beurskoerscorrecties (**)** | | **Boekwaarde nà correcties** | | **Totaal resultaten** | | **Ter vergelijking: Resultaten bij behoud v/d oorspronkelijke aanschaffingswaarde (**)** | 
+|---|---|---|---|---|---|---|---|---|
 | **(6)** | | **(7)** | | **(8)** | | **(9)** | | **(10)** | 
 | 103.960 | | - | | 103.960 | | - | | | 
 | | | | | | | | | i 3.125 | 

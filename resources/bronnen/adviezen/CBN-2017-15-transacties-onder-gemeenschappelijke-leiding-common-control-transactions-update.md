@@ -12,36 +12,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:33Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E1/E2: de drie balans-tabellen op regels 63-67, 71-73 en 77-83 missen de verplichte markdown-tabel-separator-rij (|---|---|). Ze zijn enkel als pipe-separated rijen geschreven zonder headeronderstreep, waardoor ze niet renderen als markdown-tabellen. Bijkomend: regel 51 bevat ', bijgewerkt op 10 september 2025[^2]' als losse regel direct na de #-titel — een orphan-zin die geen heading-inhoud is maar ook niet als alinea herkend wordt."
+    rationale: "B3: regel 70 bevat ', bijgewerkt op 10 september 2025[^2]' als orphan-zin direct na de # heading — geen alinea-break, geen heading, losse tekst die een mens nooit zo zou schrijven. E1/E2: de drie balans-tabellen (regels 82-87, 91-94, 98-104) hebben weliswaar een |---| separator na de headerrij, maar de structuur is malformed — meerdere data-kolommen zijn aaneengeregen in één pipe-rij zonder correcte kolom-uitlijning, waardoor de tabel niet als multi-kolom tabel rendert."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
+      file_size_chars: 8767
+      flags: []
       heading_count: 3
       max_section_chars: 4117
-      file_size_chars: 8749
-      flags: []
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:33Z'
-      rationale: "E1/E2: de drie balans-tabellen op regels 63-67, 71-73 en 77-83 missen de verplichte markdown-tabel-separator-rij (|---|---|). Ze zijn enkel als pipe-separated rijen geschreven zonder headeronderstreep, waardoor ze niet renderen als markdown-tabellen. Bijkomend: regel 51 bevat ', bijgewerkt op 10 september 2025[^2]' als losse regel direct na de #-titel — een orphan-zin die geen heading-inhoud is maar ook niet als alinea herkend wordt."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "B3: regel 70 bevat ', bijgewerkt op 10 september 2025[^2]' als orphan-zin direct na de # heading — geen alinea-break, geen heading, losse tekst die een mens nooit zo zou schrijven. E1/E2: de drie balans-tabellen (regels 82-87, 91-94, 98-104) hebben weliswaar een |---| separator na de headerrij, maar de structuur is malformed — meerdere data-kolommen zijn aaneengeregen in één pipe-rij zonder correcte kolom-uitlijning, waardoor de tabel niet als multi-kolom tabel rendert."
       concrete_problemen:
-        - regel: 63
-          categorie: E1
-          type: other
-          voorbeeld: "| 31 december 20X0 | \n| Positief consolidatieverschil | | 100 | (geen |---|---| separator)"
-        - regel: 51
+        - regel: 70
           categorie: B3
           type: other
-          voorbeeld: ', bijgewerkt op 10 september 2025[^2] (orphan-zin na # heading)'
+          voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
+        - regel: 84
+          categorie: E1
+          type: other
+          voorbeeld: '| Positief consolidatieverschil | | 100 | | Eigen vermogen | | 80 |'
 themas:
   - bedrijfscombinatie
   - common control transactie
@@ -69,6 +69,7 @@ Een bedrijfscombinatie, of *business combination*, is een transactie of andere g
 De verkorte geconsolideerde balans van Holdco I per 31 december 20X0, in miljoenen EUR is als volgt:
 
 | 31 december 20X0 | 
+|---|
 | Positief consolidatieverschil | | 100 | | Eigen vermogen | | 80 | 
 | Materiële vaste activa | | 60 | | Vreemd vermogen | | 200 | 
 | Vorderingen | | 120 | | | | | 
@@ -77,12 +78,14 @@ De verkorte geconsolideerde balans van Holdco I per 31 december 20X0, in miljoen
 Per 1 januari 20X1 verwerft Holdco II de controle over Holdco I voor een bedrag van 600 miljoen EUR. De enkelvoudige balans van Holdco II kan per 1 januari 20X1 als volgt voorgesteld worden:
 
 | 1 januari 20X1 | 
+|---|
 | Belang in Holdco I | | 600 | | Eigen vermogen | | 600 | 
 | | | 600 | | | | 600 | 
 
 De geconsolideerde balans van Holdco II kan als volgt voorgesteld worden per 1 januari 20X1:
 
 | 1 januari 20X1 | 
+|---|
 | Positief consolidatieverschil II | | 520 | | Eigen vermogen | | 600 | 
 | Positief consolidatieverschil I | | 100 | | Vreemd vermogen | | 200 | 
 | Materiële vaste activa | | 60 | | | | | 

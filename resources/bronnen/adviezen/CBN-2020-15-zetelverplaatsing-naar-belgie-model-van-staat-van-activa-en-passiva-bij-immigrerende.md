@@ -19,32 +19,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:26:39Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: Regel 62 bevat '### De Koning kan het model van de staat van activa en passiva vaststellen.' als een ### heading, maar dit is de afsluitende zin van het geciteerde artikel 14:30 WVV — ze hoort tot de blockquote-inhoud, niet als heading. De ETL heeft de ### prefix ten onrechte op deze wetszin geplakt. Verder is het document uitzonderlijk kort (3 headings) en inhoudelijk volledig."
+    rationale: "B5: Regel 78 bevat '### De Koning kan het model van de staat van activa en passiva vaststellen.' als ### heading, maar dit is de afsluitende zin van het geciteerde artikel 14:30 WVV binnen een blockquote — ETL heeft de ### prefix ten onrechte op deze wetszin geplakt. Overige inhoud (2 echte headings, 2 voetnoten) is volledig en correct."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 3
-      max_section_chars: 2157
       file_size_chars: 3922
       flags: []
+      heading_count: 3
+      max_section_chars: 2157
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "B5: Regel 62 bevat '### De Koning kan het model van de staat van activa en passiva vaststellen.' als een ### heading, maar dit is de afsluitende zin van het geciteerde artikel 14:30 WVV — ze hoort tot de blockquote-inhoud, niet als heading. De ETL heeft de ### prefix ten onrechte op deze wetszin geplakt. Verder is het document uitzonderlijk kort (3 headings) en inhoudelijk volledig."
+      run_at: '2026-05-11T15:26:39Z'
+      rationale: "B5: Regel 78 bevat '### De Koning kan het model van de staat van activa en passiva vaststellen.' als ### heading, maar dit is de afsluitende zin van het geciteerde artikel 14:30 WVV binnen een blockquote — ETL heeft de ### prefix ten onrechte op deze wetszin geplakt. Overige inhoud (2 echte headings, 2 voetnoten) is volledig en correct."
       concrete_problemen:
-        - regel: 62
+        - regel: 78
           categorie: B5
           type: other
-          voorbeeld: '### De Koning kan het model van de staat van activa en passiva vaststellen." (zin uit geciteerd artikel, geen echte sectie-heading)'
+          voorbeeld: '### De Koning kan het model van de staat van activa en passiva vaststellen."'
 themas:
   - zetelverplaatsing
   - staat van activa en passiva

@@ -504,10 +504,16 @@ _BODY_NOISE_LINE_PATTERNS = [
     re.compile(r'^[ \t]*#\s+Avis\s+CNC\s.*$', re.IGNORECASE),
     re.compile(r'^[ \t]*#[ \t]*[\xa0\s]*$'),
     # TOC-blob met `--`-separators: `-- Item -- Item -- Item ...` of
-    # `1. Item -- 2. Item -- 3. Item ...` — geconcateneerde TOC die de
-    # scraper uit de dropdown-navigatie haalt.
-    re.compile(r'^\s*-{2,}\s+\S.*?\s+-{2,}\s+\S.*?\s+-{2,}\s+\S'),
-    re.compile(r'^\s*\S.*?\s+-{2,}\s+\S.*?\s+-{2,}\s+\S.*?\s+-{2,}\s+\S'),
+    # `1. Item -- 2. Item -- 3. Item ...`. Geen whitespace-vereiste
+    # tussen item-einde en volgende `--` (dekt zowel `Item -- Item`
+    # als `Item-- Item` varianten).
+    re.compile(r'^\s*-{2,}\s+\S.+?-{2,}\s+\S.+?-{2,}\s+\S'),
+    # Hetzelfde patroon maar beginnend met content i.p.v. `--`:
+    # `Item-- Item-- Item ...` of `Item -- Item -- Item ...`.
+    re.compile(r'^\s*\S.+?-{2,}\s+\S.+?-{2,}\s+\S.+?-{2,}\s+\S'),
+    # TOC-fragment dat met `. ----` of `, ----` begint (continuation
+    # van vorige TOC-regel met dotted-leader-restant).
+    re.compile(r'^\s*[\.\,]\s*-{2,}\s+\S'),
 ]
 
 
@@ -546,6 +552,35 @@ def _strip_toc_block(md: str) -> str:
     rest = md[head_pos:]
 
     head_lines = head_section.split('\n')
+
+    # Strategie: tel alle TOC-numbered-lines in de head-sectie. Als er ≥3
+    # van zijn (sterke indicatie dat de hele head een TOC is), strip ALLE
+    # numbered-lines + de blank-regels eromheen, ook als er niet-TOC-tekst
+    # tussen zit (bv. een gedupliceerde titel-fragment of `CBN-advies XX/Y`-
+    # repeat). Dit voorkomt dat een enkele niet-TOC-regel het break uit de
+    # walking-loop triggert en TOC-items niet meer gestript worden.
+    num_count = sum(1 for ln in head_lines if _TOC_NUMBERED_LINE.match(ln))
+    if num_count >= 3:
+        kept = []
+        for ln in head_lines:
+            if _TOC_NUMBERED_LINE.match(ln):
+                continue
+            # Strip ook: "CBN-advies X/Y The Title"-style repeat-lines
+            # (titel-fragmenten die de scraper soms duplicate boven de body)
+            # en losse `---- Item`-regels (TOC-continuation met 4+ dashes).
+            stripped = ln.strip()
+            if (stripped.startswith(('CBN-advies', 'Avis CNC'))
+                    and not stripped.startswith('# ')):
+                continue
+            # `---- text` als enkele regel — TOC-continuation
+            if re.match(r'^-{2,}\s+\S', stripped):
+                continue
+            kept.append(ln)
+        head_section = '\n'.join(kept).rstrip() + '\n\n'
+        return head_section + rest
+
+    # Oude fallback voor kleinere TOCs: walk backwards en strip de
+    # contigue numbered/blank-block direct vóór de eerste `##`.
     drop_count = 0
     for j in range(len(head_lines) - 1, -1, -1):
         line = head_lines[j]
@@ -637,6 +672,166 @@ def _promote_implicit_headings(md: str) -> str:
         if not replaced:
             out_lines.append(line)
     return '\n'.join(out_lines)
+
+
+def _normalize_tables(md: str) -> str:
+    """Repareer markdown-tabel-issues (E1/E2).
+
+    - Inject `|---|---|` separator-rij na de header-rij als die ontbreekt.
+    - Multi-line cellen: join cel-inhoud die over meerdere regels loopt
+      (zonder pipe op de volgende regel) terug op één regel.
+
+    Voorbeeld input:
+        | Header A | Header B |
+        | A1 | B1 |
+        | A2 | B2 |
+    Output:
+        | Header A | Header B |
+        |---|---|
+        | A1 | B1 |
+        | A2 | B2 |
+    """
+    lines = md.split('\n')
+    out: list[str] = []
+    i = 0
+
+    def is_table_row(line: str) -> bool:
+        s = line.strip()
+        return s.startswith('|') and s.endswith('|') and s.count('|') >= 2
+
+    def is_separator(line: str) -> bool:
+        s = line.strip()
+        if not (s.startswith('|') and s.endswith('|')):
+            return False
+        # Tussen pipes moet alleen dashes/spaties/colons staan.
+        cells = s.strip('|').split('|')
+        return all(re.fullmatch(r'\s*:?-+:?\s*', c) for c in cells)
+
+    def col_count(line: str) -> int:
+        # Aantal kolommen = aantal pipes - 1 in de stripped row
+        s = line.strip().strip('|')
+        return s.count('|') + 1
+
+    while i < len(lines):
+        line = lines[i]
+        if is_table_row(line):
+            # Verzamel alle opeenvolgende tabel-rijen
+            table_start = i
+            # Eerst: join multi-line cell-content. Een tabel-rij eindigt
+            # op `|`; als de volgende regel NIET met `|` begint maar wel
+            # tekst bevat, en de regel daarna een tabel-rij is, dan was
+            # die niet-pipe-regel waarschijnlijk een vervolg van een
+            # cel-inhoud die over een newline brak.
+            rows = []
+            while i < len(lines):
+                if is_table_row(lines[i]):
+                    rows.append(lines[i])
+                    i += 1
+                elif (lines[i].strip()
+                      and i + 1 < len(lines)
+                      and is_table_row(lines[i + 1])
+                      and rows):
+                    # Multi-line cel: append aan laatste rij vóór sluit-`|`.
+                    cont = lines[i].strip()
+                    # Strip laatste `|`, voeg continuation toe, voeg `|` terug.
+                    last = rows[-1].rstrip()
+                    if last.endswith('|'):
+                        rows[-1] = last[:-1].rstrip() + ' ' + cont + ' |'
+                    else:
+                        rows[-1] = last + ' ' + cont
+                    i += 1
+                else:
+                    break
+
+            # Check separator: tweede rij moet separator zijn.
+            if len(rows) >= 2 and not is_separator(rows[1]):
+                cols = col_count(rows[0])
+                sep = '|' + '|'.join(['---'] * cols) + '|'
+                rows.insert(1, sep)
+            elif len(rows) == 1:
+                # Single-row table: voeg dummy separator toe.
+                cols = col_count(rows[0])
+                sep = '|' + '|'.join(['---'] * cols) + '|'
+                rows.append(sep)
+
+            out.extend(rows)
+        else:
+            out.append(line)
+            i += 1
+    return '\n'.join(out)
+
+
+def _normalize_heading_hierarchy(md: str) -> str:
+    """Normaliseer heading-hiërarchie (B2/B3 fixes).
+
+    - Demote: een heading mag niet meer dan 1 niveau hoger zijn dan de vorige
+      (`#` → `####` zonder `##`/`###` ertussen wordt `#` → `##`).
+    - Strip lege headings: `## `, `## *`, `## **` zonder tekst.
+    - Strip bold/italic-markering ROND een heading-tekst (`## **Title**` → `## Title`).
+      Niet als bold/italic enkel een DEEL van de heading is (`## Een **deel** bold`).
+    - Extra H1's na de eerste worden gedemoteerd naar H2: een mens-geschreven
+      document heeft slechts één H1 aan het begin.
+
+    De CBN-orchestrator (cbn_advies.py) prepend een `# Title` H1 AAN de body
+    NA deze normalisatie. Daarom initialiseren we met een impliciete H1
+    (last_level = 1): elke ## of dieper heading wordt gemeten t.o.v. de
+    impliciete title-H1. `### Sub` direct na de body-start wordt dan
+    `## Sub` (demoted), wat klopt met de feitelijke hiërarchie.
+    """
+    lines = md.split('\n')
+    out = []
+    last_level = 1  # Impliciete H1 vanuit orchestrator
+    seen_h1 = False
+    # Original-level → mapped-level cache. Siblings (zelfde original-level)
+    # krijgen zo consistent dezelfde mapped-level, ook bij multi-step
+    # niveau-skips.
+    level_map: dict[int, int] = {}
+    for ln in lines:
+        m = re.match(r'^(#{1,6})\s+(.+?)\s*$', ln)
+        if not m:
+            out.append(ln)
+            continue
+        level = len(m.group(1))
+        text = m.group(2).strip()
+
+        # Strip bold/italic-markering die de hele heading-tekst omhult.
+        m2 = re.match(r'^\*\*(.+?)\*\*\s*$', text)
+        if m2:
+            text = m2.group(1).strip()
+        else:
+            m2 = re.match(r'^\*(.+?)\*\s*$', text)
+            if m2:
+                text = m2.group(1).strip()
+
+        # Lege heading? Skip.
+        if not text or text in ('**', '*', '#'):
+            continue
+
+        # H1-deduplicate: alleen de eerste H1 behouden, latere H1's → H2.
+        if level == 1:
+            if seen_h1:
+                level = 2
+            else:
+                seen_h1 = True
+
+        # Hierarchy-demote met level-map. Eerste keer dat we level X zien:
+        # demote naar min(X, last_level+1). Vervolg-occurrences: hergebruik
+        # de eerdere mapping zodat siblings op zelfde niveau blijven.
+        if level in level_map:
+            mapped = level_map[level]
+            # Edge-case: als de eerdere mapping te diep is t.o.v. huidige
+            # context (bv. na een `##`-reset), gebruik dan de nieuwe min.
+            if mapped > last_level + 1:
+                mapped = last_level + 1
+                level_map[level] = mapped
+        else:
+            mapped = min(level, last_level + 1)
+            level_map[level] = mapped
+        level = mapped
+
+        out.append('#' * level + ' ' + text)
+        last_level = level
+    return '\n'.join(out)
 
 
 def _cleanup_markdown(md: str) -> str:
@@ -811,6 +1006,8 @@ def parse_html(html: str) -> dict:
     raw_md = _strip_body_noise(raw_md)
     body = _strip_toc_block(raw_md)
     body = _promote_implicit_headings(body)
+    body = _normalize_heading_hierarchy(body)
+    body = _normalize_tables(body)
     body = _append_footnotes(body, parser.footnote_defs, parser.footnote_refs)
     body = _cleanup_markdown(body)
 

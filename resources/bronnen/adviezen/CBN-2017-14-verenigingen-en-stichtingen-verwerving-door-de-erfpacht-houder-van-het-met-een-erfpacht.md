@@ -25,36 +25,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:33Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: tabel op regels 167-172 heeft een gebroken rij — cel 'Terreinen die volle eigendom' op regel 169 loopt door naar regel 170 (' zijn van de vereniging | 100 | |') via een spurious line-break midden in de tabelcel; dit breekt de markdown-tabel en verhindert correct renderen. D4: regel 123 bevat '*getrapte[^8]*  overdracht' met een extra spatie voor het sluitende asterisk. De overige tabellen en de inhoud zijn verder compleet."
+    rationale: "E2: tabelcel op regel 181 bevat een spurious line-break midden in de celinhoud ('Terreinen die volle eigendom\\n zijn van de vereniging'), waardoor de markdown-tabel niet correct rendert. D4: regel 135 bevat '*getrapte[^8]*  overdracht' met een dubbele spatie voor het sluitende asterisk — ETL-artefact. Overige tabellen en inhoud zijn volledig intact."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 14
-      max_section_chars: 12022
-      file_size_chars: 19369
+      file_size_chars: 19391
       flags: []
+      heading_count: 14
+      max_section_chars: 12044
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:33Z'
-      rationale: "E2: tabel op regels 167-172 heeft een gebroken rij — cel 'Terreinen die volle eigendom' op regel 169 loopt door naar regel 170 (' zijn van de vereniging | 100 | |') via een spurious line-break midden in de tabelcel; dit breekt de markdown-tabel en verhindert correct renderen. D4: regel 123 bevat '*getrapte[^8]*  overdracht' met een extra spatie voor het sluitende asterisk. De overige tabellen en de inhoud zijn verder compleet."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "E2: tabelcel op regel 181 bevat een spurious line-break midden in de celinhoud ('Terreinen die volle eigendom\\n zijn van de vereniging'), waardoor de markdown-tabel niet correct rendert. D4: regel 135 bevat '*getrapte[^8]*  overdracht' met een dubbele spatie voor het sluitende asterisk — ETL-artefact. Overige tabellen en inhoud zijn volledig intact."
       concrete_problemen:
-        - regel: 169
+        - regel: 181
           categorie: E2
           type: other
-          voorbeeld: "| | 2201 | Terreinen die volle eigendom\n zijn van de vereniging | 100 | |"
-        - regel: 123
+          voorbeeld: "| 2201 | Terreinen die volle eigendom\n zijn van de vereniging | 100 | |"
+        - regel: 135
           categorie: D4
           type: other
-          voorbeeld: '*getrapte[^8]*  overdracht van de volle eigendom (extra spatie voor sluiting)'
+          voorbeeld: '*getrapte[^8]*  overdracht van de volle eigendom'
 themas:
   - erfpacht
   - onroerende goederen
@@ -165,6 +165,7 @@ Een vzw heeft destijds een erfpacht op een terrein verworven tegen een symbolisc
 | | 2201 | Terreinen die volle eigendom
  zijn van de vereniging | 100 | |
 | aan | 5500 | Kredietinstellingen: rekening-courant | | 5 |
+|---|---|---|---|---|
 | | 1012 | Permanente financiering ontvangen in natura | 95 | |
 
 De rekening 1012 is een subrekening van de rekening 10 *Fondsen van de vereniging* en wordt als volgt omschreven in artikel 19, § 2 van het KB van 19 december 2003:

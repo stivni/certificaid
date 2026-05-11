@@ -3,45 +3,47 @@ bron: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
 datum: 2021-03-09
 nummer: CBN-advies 2021/02
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
-      sha256: 0db24257c2c89ef51c46bc7347b9aee620d224f716aaa7e1f506923e22527b31
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
+    sha256: 0db24257c2c89ef51c46bc7347b9aee620d224f716aaa7e1f506923e22527b31
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
+      file_size_chars: 45470
+      flags: []
       heading_count: 18
       max_section_chars: 21672
-      file_size_chars: 45473
-      flags: []
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 16 headings, 81 voetnoten. De grote sectie (35.032 chars) bevat rijke voetnotenstructuur die de bestandsgrootte verklaart. Journaalposten voor tussentijds dividend als schone Markdown-tabellen.'
+      rationale: '[Laag-2-R2 2026-05-08] 16 headings, 81 voetnoten. De grote sectie
+        (35.032 chars) bevat rijke voetnotenstructuur die de bestandsgrootte verklaart.
+        Journaalposten voor tussentijds dividend als schone Markdown-tabellen.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - winstverdeling
-  - uitkeerbare winst
-  - tussentijdse dividenden
-  - interimdividend
-  - staat van activa en passiva
-  - nettoactief
-  - nettoactieftest
+- winstverdeling
+- uitkeerbare winst
+- tussentijdse dividenden
+- interimdividend
+- staat van activa en passiva
+- nettoactief
+- nettoactieftest
 ---
 
 # CBN-advies 2021/02 – Winstverdeling binnen de NV
@@ -128,7 +130,7 @@ o andere onbeschikbare reserves, te weten:
 o kapitaalsubsidies.
 ### = MAXIMUM UITKEERBAAR BEDRAG
 
-### Toepassingsgebied 
+### Toepassingsgebied
 
 De regel van art. 7:212 WVV inzake de nettoactieftest geldt voor alle uitkeringen[^18] zonder onderscheid tussen dividenden, tantièmes of andere gelijkgestelde verrichtingen, zoals de inkoop van eigen aandelen[^19]; het verlenen van financiële steunverlening[^20] of in kader van een statutaire “aflossing” van het kapitaal[^21]. Daarnaast dient de nettoactieftest ook toegepast te worden bij de uitkeringen aan anderen dan aandeelhouders of bestuurders, wat m.n. het geval kan zijn bij de conventionele, dan wel statutaire, toekenning van winstdeelnemingen of -premies aan het personeel van de vennootschap[^22]. Van belang hierbij is dat de (variabele) verloning van het personeel niet onderhevig is aan de nettoactieftest. Dit is echter wel het geval bij de eigenlijke winstdeelnemingen[^23], waarvan de toekenning niet alleen in functie staat van de behaalde winsten, maar ook van de winstbestemmingspolitiek van de vennootschap[^24].
 
@@ -230,7 +232,7 @@ Inzake de vraag of bij de berekening van het uitkeerbaar bedrag van het interimd
 
 Het voorgaande impliceert dat naast de geëigende berekening ingebed in art. 7:213 WVV[^54] ook de uitkeerbare winst conform art. 7:212 WVV becijferd moet worden. Dit heeft concreet tot gevolg dat indien de uitkeerbare ruimte conform art. 7:212 WVV kleiner is dan de grenzen van het interimdividend op basis van art. 7:213 WVV, enkel[^55] het kleinere bedrag berekend conform art. 7:212 WVV voor uitkering in aanmerking kan komen.
 
-#### Tussentijdse staat van activa en passiva 
+#### Tussentijdse staat van activa en passiva
 
 Het bedrag van een interimdividend dient door het bestuursorgaan te worden vastgesteld op basis van de tussentijdse cijfers over het vermogen van de vennootschap[^56]. Zo moet uit deze cijfers blijken dat de voor uitkering vatbare sommen toereikend zijn om een interimdividend effectief uit te keren. Bovenstaande gegevens moeten worden afgeleid uit een verplicht op te stellen tussentijdse staat van activa en passiva van de vennootschap die ten hoogste twee maanden[^57] vóór de beslissing tot uitkering moet zijn opgesteld. Hiermee moet worden aangenomen dat de afsluitdatum van deze staat niet meer dan twee maanden vóór de beslissing tot een uitkering van een interimdividend mag liggen[^58].
 
@@ -246,7 +248,7 @@ De tussentijdse staat dient, voorafgaand aan de uitkering, te worden beoordeeld 
 
 Voor de vennootschappen die geen commissaris hebben aangesteld[^69] is er in geen enkele wettelijke controle voorzien: de uitkering van een interimdividend kan bij dergelijke vennootschappen derhalve zonder bijkomende controle geschieden[^70]. Niets belet het bestuursorgaan om – voorzichtigheidshalve en op vrijwillige basis – de tussentijdse staat te laten nazien door een bedrijfsrevisor of een gecertifieerde accountant[^71]. Dit betreft echter geen wettelijke verplichting.
 
-#### Excedent 
+#### Excedent
 
 Indien het bedrag van het interimdividend hoger ligt dan het door de algemene vergadering achteraf vastgestelde jaardividend, wordt het meerdere beschouwd als een voorschot op het volgende dividend[^72]. Dit impliceert dat de algemene vergadering het uitgekeerde interimdividend door het bestuursorgaan niet (volledig) volgt. Dit kan bv. het geval zijn indien de jaarlijkse winst uiteindelijk lager ligt dan de winst die uit de tussentijdse staat bleek waardoor de algemene vergadering de uitkering van het interimdividend niet (volledig) bevestigt[^73]. 
 

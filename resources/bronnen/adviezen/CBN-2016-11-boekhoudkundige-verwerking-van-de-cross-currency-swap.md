@@ -22,40 +22,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Regel 93: de volledige inhoudstafel staat aaneengeregen op één lange regel als `---- Fixed-to-fixed cross currency swap---- Fixed-to-floating...` — klassiek TOC-duplicaat (A3) dat de body vervuilt. Regel 296 bevat `| aan | 657 | Diverse financiële kosten) |` met een overtollige `)` in de tabelcel. Regel 343: `*Op vervaldag 31 december 2015* ` heeft een trailing spatie voor de impliciete regelafsluit — minor D4. Inhoud verder volledig.'
+    rationale: 'E2: regels 255–256 bevatten een multi-line tabelcel met tab-inspringing (`| aan | 756 | Diverse financiële opbrengsten\n\t\t\t\t(Cross currency swap – vlottend) |`) wat pipe-tabel-rendering breekt. Regel 291: `| aan | 657 | Diverse financiële kosten) |` bevat een overtollige `)` in de cel. De eerder gerapporteerde A3 (TOC-duplicaat op regel 93) is niet meer aanwezig in de huidige versie na re-scrape.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
+      file_size_chars: 23519
+      flags: []
       heading_count: 11
       max_section_chars: 10031
-      file_size_chars: 24694
-      flags: []
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: 'Regel 93: de volledige inhoudstafel staat aaneengeregen op één lange regel als `---- Fixed-to-fixed cross currency swap---- Fixed-to-floating...` — klassiek TOC-duplicaat (A3) dat de body vervuilt. Regel 296 bevat `| aan | 657 | Diverse financiële kosten) |` met een overtollige `)` in de tabelcel. Regel 343: `*Op vervaldag 31 december 2015* ` heeft een trailing spatie voor de impliciete regelafsluit — minor D4. Inhoud verder volledig.'
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'E2: regels 255–256 bevatten een multi-line tabelcel met tab-inspringing (`| aan | 756 | Diverse financiële opbrengsten\n\t\t\t\t(Cross currency swap – vlottend) |`) wat pipe-tabel-rendering breekt. Regel 291: `| aan | 657 | Diverse financiële kosten) |` bevat een overtollige `)` in de cel. De eerder gerapporteerde A3 (TOC-duplicaat op regel 93) is niet meer aanwezig in de huidige versie na re-scrape.'
       concrete_problemen:
-        - regel: 93
-          categorie: A3
-          type: other
-          voorbeeld: '---- Fixed-to-fixed cross currency swap---- Fixed-to-floating cross currency swap---- De floating...'
-        - regel: 296
+        - regel: 255
           categorie: E2
           type: other
-          voorbeeld: '| aan | 657 | Diverse financiële kosten) | | 4.375 | (overtollige sluithaak in cel)'
-        - regel: 343
-          categorie: D4
+          voorbeeld: '| aan | 756 | Diverse financiële opbrengsten\n\t(Cross currency swap...) | (multi-line cel)'
+        - regel: 291
+          categorie: E2
           type: other
-          voorbeeld: '*Op vervaldag 31 december 2015* (trailing spatie voor regelafsluit)'
+          voorbeeld: '| aan | 657 | Diverse financiële kosten) | | 4.375 | (overtollige ) in cel)'
 themas:
   - afgeleide financiële instrumenten
   - cross currency swap
@@ -72,25 +68,6 @@ themas:
 ---
 
 # CBN-advies 2016/11 - Boekhoudkundige verwerking van de cross currency swap
-
-1. Inleiding 
-  1. Situering van de cross currency swap 
-  2. Types van cross currency swaps
-
-    1. Fixed-to-fixed cross currency swap 
-    2. Fixed-to-floating cross currency swap 
-    3. De floating-to-floating cross currency swap 
-
-2. Uitgewerkt voorbeeld 
-3. Boekhoudkundige behandeling van de cross currency swap 
-  1. Cross currency swap voor specifieke indekkingsverrichting van monetaire activa en passiva 
-  2. Cross currency swap voor niet-specifieke indekkingsverrichting van monetaire activa en passiva 
-    1. Voorbeeld 
-    2. Boekhoudkundige verwerking 
-
-  3. Cross currency swap voor indekkingsverrichting van toekomstige verrichtingen 
-
----- Fixed-to-fixed cross currency swap---- Fixed-to-floating cross currency swap---- De floating-to-floating cross currency swapUitgewerkt voorbeeldBoekhoudkundige behandeling van de cross currency swap-- Cross currency swap voor specifieke indekkingsverrichting van monetaire activa en passiva-- Cross currency swap voor niet-specifieke indekkingsverrichting van monetaire activa en passiva---- Voorbeeld---- Boekhoudkundige verwerking-- Cross currency swap voor indekkingsverrichting van toekomstige verrichtingen 
 
 ## Inleiding
 
@@ -111,7 +88,7 @@ De cross currency swap heeft dan ook enkele gelijkenissen met de renteswap, maar
 
 Conceptueel kan dus worden gesteld dat een cross currency swap niets anders is dan twee parallelle leningen.
 
-### Types van cross currency swaps[^6] 
+### Types van cross currency swaps[^6]
 
 #### *Fixed-to-fixed* cross currency swap
 

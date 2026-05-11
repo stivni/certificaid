@@ -16,36 +16,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:42Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: malformed italic-markers blijven aanwezig. Regel 100: '489X O*ntvangen voorschotten op kapitaal*' — asterisk plakt aan de 'O' (opening italic na gewone letter zonder spatie). Regel 135: '*Boeking bij de betaalbaarstelling[^8] *' — spatie vóór sluit-asterisk. Inhoud en tabellen volledig, geen andere artefacten."
+    rationale: "D4: twee malformed italic-markers bevestigd. Regel 104: '489X O*ntvangen voorschotten op kapitaal*' — asterisk kleeft direct aan de 'O' (opening italic zonder spatie na gewone letter). Regel 140: '*Boeking bij de betaalbaarstelling[^8] *' — spatie vóór sluit-asterisk. Inhoud en tabellen volledig, geen andere artefacten."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 12
-      max_section_chars: 8747
-      file_size_chars: 16903
+      file_size_chars: 16925
       flags: []
+      heading_count: 12
+      max_section_chars: 8769
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "D4: malformed italic-markers blijven aanwezig. Regel 100: '489X O*ntvangen voorschotten op kapitaal*' — asterisk plakt aan de 'O' (opening italic na gewone letter zonder spatie). Regel 135: '*Boeking bij de betaalbaarstelling[^8] *' — spatie vóór sluit-asterisk. Inhoud en tabellen volledig, geen andere artefacten."
+      run_at: '2026-05-11T15:23:42Z'
+      rationale: "D4: twee malformed italic-markers bevestigd. Regel 104: '489X O*ntvangen voorschotten op kapitaal*' — asterisk kleeft direct aan de 'O' (opening italic zonder spatie na gewone letter). Regel 140: '*Boeking bij de betaalbaarstelling[^8] *' — spatie vóór sluit-asterisk. Inhoud en tabellen volledig, geen andere artefacten."
       concrete_problemen:
-        - regel: 100
+        - regel: 104
           categorie: D4
           type: other
           voorbeeld: 489X O*ntvangen voorschotten op kapitaal* — asterisk kleeft aan 'O'
-        - regel: 135
+        - regel: 140
           categorie: D4
           type: other
-          voorbeeld: '*Boeking bij de betaalbaarstelling[^8] * — spatie voor sluit-asterisk'
+          voorbeeld: '*Boeking bij de betaalbaarstelling[^8] * — spatie vóór sluit-asterisk'
 themas:
   - belaste reserves
   - belastingen op het resultaat
@@ -114,6 +114,7 @@ Hierna volgen een aantal voorbeelden waarbij wordt uitgegaan van verschillende g
 | | 132
 /133/14 | Belastingvrije reserves/Beschikbare reserves/Overgedragen winst | | |
 | aan | 790/792 | Overgedragen winst/Onttrekking aan de reserves | | |
+|---|---|---|---|---|
 
 ### Eerste voorbeeld
 

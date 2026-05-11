@@ -19,27 +19,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Korte proza-tekst (2109 chars, vier paragrafen, heading_count 0). Geen headings nodig voor dit korte advies. Geen artefacten gevonden: geen spurious line-breaks, geen onzichtbare unicode, geen OCR-fouten, geen afgekapte zinnen. Inhoud volledig: vraagstelling, verwijzing artikel 450 Faillissementswet, CBN-conclusie over klassering en aanvullende opmerking over toelichting.'
+    rationale: Geen ETL-artefacten aangetroffen. Kleine compacte tekst (2108 chars) zonder subheadings — passend voor dit korte advies. Titelvorm 'CBN advies 137-1' (ruimte, koppelteken) is consistent met de CBN-website-stijl. Lopende tekst coherent, geen spurious line-breaks of column-bleed.
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 2109
-      file_size_chars: 2109
+      file_size_chars: 2108
       flags: []
+      heading_count: 0
+      max_section_chars: 2108
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: 'Korte proza-tekst (2109 chars, vier paragrafen, heading_count 0). Geen headings nodig voor dit korte advies. Geen artefacten gevonden: geen spurious line-breaks, geen onzichtbare unicode, geen OCR-fouten, geen afgekapte zinnen. Inhoud volledig: vraagstelling, verwijzing artikel 450 Faillissementswet, CBN-conclusie over klassering en aanvullende opmerking over toelichting.'
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: Geen ETL-artefacten aangetroffen. Kleine compacte tekst (2108 chars) zonder subheadings — passend voor dit korte advies. Titelvorm 'CBN advies 137-1' (ruimte, koppelteken) is consistent met de CBN-website-stijl. Lopende tekst coherent, geen spurious line-breaks of column-bleed.
       concrete_problemen: []
 themas:
   - faillissement
@@ -52,7 +52,7 @@ themas:
   - waardevermindering op vorderingen
 ---
 
-# CBN advies 137-1 - Klassering van de vorderingen bij faillissement van de schuldenaar 
+# CBN advies 137-1 - Klassering van de vorderingen bij faillissement van de schuldenaar
 
 Overeenkomstig de definities in de bijlage bij het besluit van 8 oktober 1976 geldt als criterium voor de rangschikking van een vordering onder de vorderingen op meer dan één jaar of de vorderingen op ten hoogste één jaar in de eerste plaats de termijn die in de overeenkomst werd voorzien. 
 

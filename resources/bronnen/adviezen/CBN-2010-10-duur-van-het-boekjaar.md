@@ -25,36 +25,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: heading_count = 0 per Laag 1 — het gehele advies staat als één doorlopend tekstblok onder de H1-titel zonder enige ## subheading, terwijl de inhoud meerdere logisch onderscheiden kwesties behandelt (definitie boekjaar, verlenging, verkorting, timing van besluit, aantal wijzigingen). A4: de tekst bevat U+2010 (Unicode HYPHEN, niet ASCII-koppelteken) in 'niet‐naleving', een typisch webscraping-artefact van de CBN-website."
+    rationale: "B2: heading_count = 0 per Laag 1 — het gehele advies staat als één doorlopend tekstblok onder de H1-titel zonder enige ## subheading, terwijl de inhoud meerdere logisch onderscheiden kwesties behandelt (definitie boekjaar, uitzonderlijkheid, verlenging/verkorting, timing, aantal wijzigingen). A4: r86 bevat 'niet‐naleving' met U+2010 (Unicode HYPHEN, niet ASCII-koppelteken), typisch scraping-artefact van de CBN-website."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 0
-      max_section_chars: 4201
       file_size_chars: 4201
       flags: []
+      heading_count: 0
+      max_section_chars: 4201
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "B2: heading_count = 0 per Laag 1 — het gehele advies staat als één doorlopend tekstblok onder de H1-titel zonder enige ## subheading, terwijl de inhoud meerdere logisch onderscheiden kwesties behandelt (definitie boekjaar, verlenging, verkorting, timing van besluit, aantal wijzigingen). A4: de tekst bevat U+2010 (Unicode HYPHEN, niet ASCII-koppelteken) in 'niet‐naleving', een typisch webscraping-artefact van de CBN-website."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "B2: heading_count = 0 per Laag 1 — het gehele advies staat als één doorlopend tekstblok onder de H1-titel zonder enige ## subheading, terwijl de inhoud meerdere logisch onderscheiden kwesties behandelt (definitie boekjaar, uitzonderlijkheid, verlenging/verkorting, timing, aantal wijzigingen). A4: r86 bevat 'niet‐naleving' met U+2010 (Unicode HYPHEN, niet ASCII-koppelteken), typisch scraping-artefact van de CBN-website."
       concrete_problemen:
-        - regel: 68
+        - regel: 80
           categorie: B2
           type: other
-          voorbeeld: 'Volledig document als één blok tekst, geen enkele ## subsectie aanwezig (heading_count=0)'
-        - regel: 74
+          voorbeeld: 'Volledig advies als één tekstblok zonder ## subheadings (heading_count=0)'
+        - regel: 86
           categorie: A4
           type: other
-          voorbeeld: niet‐naleving (U+2010 HYPHEN ipv ASCII-koppelteken U+002D)
+          voorbeeld: niet‐naleving (U+2010 Unicode HYPHEN i.p.v. ASCII-koppelteken U+002D)
 themas:
   - duur van het boekjaar
   - inventaris

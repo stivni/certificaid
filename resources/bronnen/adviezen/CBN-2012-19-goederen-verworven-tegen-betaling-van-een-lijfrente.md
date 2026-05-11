@@ -25,78 +25,51 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3: een genummerde plain-text TOC staat op regels 80–95 vóór de body zonder markdown-structuur. B5: 'Inleiding' op regel 96 en 'Tweede methode' op regel 262 zijn plain-text structuurlabels zonder ##-prefix. C3: actuariële formule op regels 180–182 gebruikt spatie-uitlijning als pseudo-tabel. E2: de toelichting-tabel op regels 253–260 heeft een gebroken celrij waarbij '472.685,12' na tab-insprong op een aparte regel staat."
+    rationale: "B5: 'Inleiding' op regel 91 staat als plain-text regel zonder ##-prefix (de eigenlijke ## heading 'Vaststelling van het initiële kapitaal' staat pas op regel 105). C3: actuariële formule op regels 172–174 gebruikt spatie-uitlijning ('an/i = 1- (1 + i)-n \\n\\n       i') als pseudo-kolom. E2: de toelichting-tabel op regels 246–254 heeft een gebroken celrij waarbij '472.685,12' na tab-insprong op een aparte regel staat, buiten de pipe-tabel structuur."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 18
-      max_section_chars: 13218
-      file_size_chars: 23547
+      file_size_chars: 22547
       flags: []
+      heading_count: 17
+      max_section_chars: 12204
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "A3: een genummerde plain-text TOC staat op regels 80–95 vóór de body zonder markdown-structuur. B5: 'Inleiding' op regel 96 en 'Tweede methode' op regel 262 zijn plain-text structuurlabels zonder ##-prefix. C3: actuariële formule op regels 180–182 gebruikt spatie-uitlijning als pseudo-tabel. E2: de toelichting-tabel op regels 253–260 heeft een gebroken celrij waarbij '472.685,12' na tab-insprong op een aparte regel staat."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "B5: 'Inleiding' op regel 91 staat als plain-text regel zonder ##-prefix (de eigenlijke ## heading 'Vaststelling van het initiële kapitaal' staat pas op regel 105). C3: actuariële formule op regels 172–174 gebruikt spatie-uitlijning ('an/i = 1- (1 + i)-n \\n\\n       i') als pseudo-kolom. E2: de toelichting-tabel op regels 246–254 heeft een gebroken celrij waarbij '472.685,12' na tab-insprong op een aparte regel staat, buiten de pipe-tabel structuur."
       concrete_problemen:
-        - regel: 80
-          categorie: A3
-          type: other
-          voorbeeld: 1. Vaststelling van het initiële kapitaal...\n2. Aanpassing van de voorziening...
-        - regel: 96
+        - regel: 91
           categorie: B5
           type: other
           voorbeeld: 'Inleiding '
-        - regel: 180
+        - regel: 172
           categorie: C3
           type: pseudo-table
-          voorbeeld: an/i = 1- (1 + i)-n \n\n       i
-        - regel: 256
+          voorbeeld: "an/i = 1- (1 + i)-n \n\n       i"
+        - regel: 249
           categorie: E2
           type: other
-          voorbeeld: '| | lijfrentebetaling van de voorziening afgenomen bedrag | - 14.888,08\n\n\t\t\t 472.685,12 | | |'
-        - regel: 262
-          categorie: B5
-          type: other
-          voorbeeld: Tweede methode
+          voorbeeld: "| lijfrentebetaling van de voorziening afgenomen bedrag | - 14.888,08\n\n\t\t\t 472.685,12 | | |"
 themas:
   - lijfrente
 ---
 
 # CBN-advies 2012/19 - Goederen verworven tegen betaling van een lijfrente
 
-1. Vaststelling van het initiële kapitaal en bepaling van de rentevoet 
-2. Aanpassing van de voorziening 
-3. Boekhoudkundige verwerking in hoofde van de onderneming die een goed verwerft tegen betaling van een lijfrente 
-  1. Gegevens 
-  2. Het sluiten van een overeenkomst voor de aankoop van een goed op lijfrente 
-  3. Terugkerende boekingen 
-    1. Afschrijvingen op het goed 
-    2. Lijfrentebetaling en aanpassing van de voorziening 
-      1. Aspecten van de berekening van de aanpassing van de voorziening 
-      2. Boekingen 
-
-  4. Afloop van de lijfrenteovereenkomst 
-  5. Specifieke gevallen 
-    1. Lijfrente gevestigd op twee hoofden 
-    2. Tijdelijke lijfrente 
-
 Inleiding 
 
 Artikel 40 van het koninklijk besluit tot uitvoering van het Wetboek van Vennootschappen[^1] (hierna : KB W.Venn.) luidt als volgt : 
 
 “Wat de goederen betreft die worden verkregen tegen betaling van een lijfrente : 
-
-1. wordt onder aanschaffingswaarde verstaan het kapitaal dat op het ogenblik van de aanschaffing nodig is om de rente te betalen, in voorkomend geval verhoogd met het bedrag dat bij de aanschaffing werd betaald en met de kosten; 
-2. wordt een voorziening gevormd ten belope van het bedrag van het hiervoorgenoemde kapitaal; deze voorziening wordt jaarlijks aangepast.". 
 
 Artikel 40 KB W.Venn. duidt enerzijds aan hoe het betrokken goed op de actiefzijde moet worden gewaardeerd en anderzijds hoe de verplichting tot betaling van de lijfrente op de passiefzijde moet worden opgenomen en gewaardeerd. Bij het begin wordt voor de waardering zowel aan de actiefzijde als aan de passiefzijde uitgegaan van het kapitaalbedrag dat noodzakelijk is om de lijfrente te betalen, in voorkomend geval verhoogd met het bedrag dat bij de verwerving werd betaald en met de kosten. Hogervermeld kapitaalbedrag wordt berekend door actualisering van de vermoedelijke toekomstige lijfrentebetalingen tegen een bepaalde rentevoet, rekening houdend met de gemiddelde levensverwachting van de persoon op wiens hoofd de lijfrente is gevestigd op het ogenblik waarop de overeenkomst wordt gesloten. Eventueel kan de raad van bestuur gebruik maken van een door haar geschikt bevonden conversietabel. 
 
@@ -106,7 +79,7 @@ Over de precieze toepassing van artikel 40 KB W.Venn. werden aan de Commissie re
 
 Doordat de nadruk ligt op de lijfrenteverbintenis is de bepaling van het besluit ook toepasbaar op lijfrenteovereenkomsten die een andere oorzaak hebben dan de in dit advies behandelde verkoop van een onroerend goed.
 
-## Vaststelling van het initiële kapitaal en bepaling van de rentevoet 
+## Vaststelling van het initiële kapitaal en bepaling van de rentevoet
 
 Krachtens artikel 40 KB W.Venn. wordt, voor wat betreft goederen verkregen tegen betaling van een lijfrente, onder aanschaffingswaarde verstaan: het kapitaal dat nodig is om de lijfrente te betalen. Dit is in overeenstemming met het beginsel dat goederen tegen aanschaffingswaarde worden geboekt. Het kapitaal dat nodig is om de lijfrente te betalen, kan worden berekend op basis van de conversietabel die door het bestuursorgaan geschikt geacht wordt, en die in voorkomend geval rekening houdt met individuele elementen. Hierdoor kan het kapitaal verschillen in hoofde van de koper en de verkoper. 
 
@@ -137,7 +110,7 @@ Enerzijds wordt het initiële kapitaal dat nodig is om de rente te betalen, vast
 
 Anderzijds is het zo dat de gemiddelde levensverwachting van de rechthebbende vermindert wanneer hij ouder wordt, zij het verhoudingsgewijze minder snel. Volgens de meest recente sterftetafels gepubliceerd op de website van de FOD Economie (België 1997-2010) evolueert de gemiddelde levensverwachting als volgt : 
 
-### op 60 jaar : 20,83 jaar 
+### op 60 jaar : 20,83 jaar
 
 op 65 jaar : 17,03 jaar 
 
@@ -159,7 +132,7 @@ Aan de hand van een voorbeeld worden bovenstaande principes geïllustreerd.[^5]
 
 Een onderneming koopt in het jaar N op lijfrente een gebouw, waarin zij op duurzame wijze haar bedrijfsactiviteiten gaat onderbrengen. Daarbij gelden volgende voorwaarden[^6]: 
 
-### o Afschrijfbaar gedeelte onroerend goed: 80 % 
+### o Afschrijfbaar gedeelte onroerend goed: 80 %
 
 o Afschrijving: lineair op 20 jaar 
 
@@ -182,6 +155,7 @@ waarbij *n* staat voor de duur van de rente en *i* voor de rentevoet.
 In bovenstaand voorbeeld bedraagt het kapitaal 36.000 euro X a20/4,33 = 36.000 euro X = 487.573,20 euro.
 
 | Jaar | | Leeftijd | | Levensverwachting[^7] | | Rentevoet | | Kapitaalbedrag | 
+|---|---|---|---|---|---|---|---|---|
 | N | | 60 | | 20,83 | | 4,33% | | 487.573,20 | 
 | N+1 | | 61 | | 20,05 | | 4,33% | | 476.014,85 | 
 
@@ -219,7 +193,7 @@ De lijfrentebetaling gebeurt in de vorm van een periodieke uitgave ten gunste va
 
 Wat de lijfrentebetaling en de aanpassing van de voorziening betreft, komen in de praktijk twee boekhoudkundige verwerkingswijzen voor. De Commissie is evenwel van mening dat voor nieuw afgesloten lijfrentecontracten enkel de eerste methode aanvaardbaar is. 
 
-### Eerste methode 
+### Eerste methode
 
 De Commissie beveelt aan dat een duidelijk onderscheid wordt gemaakt tussen de diverse betrokken bestanddelen van de lijfrentebetaling en dat de voorziening wordt behandeld als zijnde een rentedragende schuld, waarvan het bedrag jaarlijks wordt aangepast om rekening te houden met de relatieve verlenging van de gemiddelde levensverwachting van de rechthebbende. Hierbij worden de interest op het geprovisioneerde bedrag alsook de jaarlijkse aanpassing van de voorziening op basis van de conversietabellen bij de financiële kosten geboekt. Dit geeft aanleiding tot de volgende boekingen in het jaar N+1. 
 
@@ -253,6 +227,7 @@ De toevoeging aan de voorziening ten belope van 3.329,73 euro wordt als volgt ve
 
 			 472.685,12 | | |
 | | kapitaal nodig op het einde van de periode | 476.014,85 | | |
+|---|---|---|---|---|
 | | = vereiste aanpassing van de voorziening | 3.329,73 | | |
 
 Tweede methode
@@ -276,15 +251,13 @@ Voor lopende lijfrentecontracten kunnen ondernemingen evenwel als volgt blijven 
 
 De aanpassing van de voorziening ten belope van 11.558,35 euro om rekening te houden met de relatieve verlenging van de gemiddelde levensverwachting van de rechthebbende, wordt als volgt verantwoord:
 
-### 
-
 - Nodige kapitaal bij het begin van periode N: 487.573,20 
 
 - Nodige kapitaal bij het begin van periode N+1: 476.014,85 
 
 Er zijn echter twee bezwaren, waardoor de Commissie van mening is dat deze methode niet langer aan te bevelen is voor wat betreft nieuw afgesloten lijfrentecontracten. Enerzijds wordt de lijfrentebetaling voorgesteld als een kost, terwijl zij economisch gezien ten dele bestaat uit een schuldaflossing. Anderzijds wordt bij de kosten geen onderscheid gemaakt tussen de diverse betrokken bestanddelen. In het verleden achtte de Commissie deze methode dan ook slechts raadzaam in minder belangrijke gevallen, waar deze nadelen geen afbreuk dreigden te doen aan het getrouw beeld van de resultaatstructuur. 
 
-### Afloop van de lijfrenteovereenkomst 
+### Afloop van de lijfrenteovereenkomst
 
 Na afloop van de lijfrenteovereenkomst wordt de gevormde voorziening overbodig en het saldo ervan als resultaat geboekt. De weerslag van een lijfrente-overeenkomst, verbonden aan de werkelijke levensduur van een rentebegunstigde wordt bij afloop van de lijfrenteovereenkomst onder de uitzonderlijke opbrengsten geboekt. In het systeem waarin artikel 40 KB W.Venn. voorziet, zal de voorziening namelijk nooit ontoereikend zijn of opgebruikt zijn.
 

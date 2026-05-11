@@ -16,36 +16,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:33Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: regels 75-77 bevatten een spurious line-break midden in een zin — 'is een rekening waarbij bij de  \\n\\ntenaamstelling wordt aangegeven' met twee spaties aan het einde van regel 75 en een extra lege regel voor de zinszet verder loopt. B5: regel 74 ('Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen') staat als plain-text in de body terwijl het qua positie en structuur een sectie-heading had moeten zijn."
+    rationale: "B5: regel 92 bevat 'Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen' als plain-text in de body zonder ## prefix — het is een sectie-heading die als aaneengeplakte tekst met de volgende zin staat. A6: regel 93 eindigt op twee spaties gevolgd door een lege regel midden in een zin ('is een rekening waarbij bij de  \\n\\ntenaamstelling...') — spurious line-break."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 3
-      max_section_chars: 18601
       file_size_chars: 20255
       flags: []
+      heading_count: 3
+      max_section_chars: 18601
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:33Z'
-      rationale: "A6: regels 75-77 bevatten een spurious line-break midden in een zin — 'is een rekening waarbij bij de  \\n\\ntenaamstelling wordt aangegeven' met twee spaties aan het einde van regel 75 en een extra lege regel voor de zinszet verder loopt. B5: regel 74 ('Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen') staat als plain-text in de body terwijl het qua positie en structuur een sectie-heading had moeten zijn."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "B5: regel 92 bevat 'Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen' als plain-text in de body zonder ## prefix — het is een sectie-heading die als aaneengeplakte tekst met de volgende zin staat. A6: regel 93 eindigt op twee spaties gevolgd door een lege regel midden in een zin ('is een rekening waarbij bij de  \\n\\ntenaamstelling...') — spurious line-break."
       concrete_problemen:
-        - regel: 75
-          categorie: A6
-          type: other
-          voorbeeld: is een rekening waarbij bij de  \n\ntenaamstelling wordt aangegeven (spurious break mid-sentence)
-        - regel: 74
+        - regel: 92
           categorie: B5
           type: other
-          voorbeeld: 'Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders... (heading zonder ## prefix)'
+          voorbeeld: Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen
+        - regel: 93
+          categorie: A6
+          type: other
+          voorbeeld: is een rekening waarbij bij de  \n\ntenaamstelling wordt aangegeven
 themas:
   - derdenrekening
   - advocaat

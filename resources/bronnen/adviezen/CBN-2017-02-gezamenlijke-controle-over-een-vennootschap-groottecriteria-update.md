@@ -22,44 +22,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:33Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: meerdere spurious line-breaks na voetnootreferenties midden in zinnen (regels 78, 82-83, 87-88, 109-111, 144-146) — structureel PDF-extractiepatroon. A6/G3: regel 74 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment na H1. B2: 'Geval 2' op regel 129 en 164 staat als ## heading terwijl het een sub-geval is van een Voorbeeld (zou ### moeten zijn)."
+    rationale: "A6: structureel patroon van spurious line-breaks na voetnootreferenties midden in zinnen, verspreid door de tekst (regels 91, 95-96, 100-101, 123-125, 158-160). A6/G3: regel 87 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment na H1. B2: 'Geval 2' op regels 143 en 178 staat als ## heading terwijl het een sub-element is van een Voorbeeld-sectie (zou ### moeten zijn)."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
+      file_size_chars: 16240
+      flags: []
       heading_count: 4
       max_section_chars: 5356
-      file_size_chars: 16210
-      flags: []
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:33Z'
-      rationale: "A6: meerdere spurious line-breaks na voetnootreferenties midden in zinnen (regels 78, 82-83, 87-88, 109-111, 144-146) — structureel PDF-extractiepatroon. A6/G3: regel 74 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment na H1. B2: 'Geval 2' op regel 129 en 164 staat als ## heading terwijl het een sub-geval is van een Voorbeeld (zou ### moeten zijn)."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "A6: structureel patroon van spurious line-breaks na voetnootreferenties midden in zinnen, verspreid door de tekst (regels 91, 95-96, 100-101, 123-125, 158-160). A6/G3: regel 87 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment na H1. B2: 'Geval 2' op regels 143 en 178 staat als ## heading terwijl het een sub-element is van een Voorbeeld-sectie (zou ### moeten zijn)."
       concrete_problemen:
-        - regel: 74
+        - regel: 87
           categorie: A6
           type: other
           voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
-        - regel: 78
-          categorie: A6
-          type: other
-          voorbeeld: "de berekening van de groottecriteria[^3]\n wanneer sprake is van een gezamenlijke controle"
-        - regel: 82
+        - regel: 95
           categorie: A6
           type: other
           voorbeeld: "geldt een wettelijk en onweerlegbaar vermoeden[^5]\n Bijgevolg zijn"
-        - regel: 129
+        - regel: 143
           categorie: B2
           type: other
-          voorbeeld: '## Geval 2: De vennootschap A en de vennootschap B hebben geen overeenkomst...'
+          voorbeeld: '## Geval 2: De vennootschap A en de vennootschap B hebben geen overeenkomst'
 themas:
   - controle
   - gemeenschappelijke dochtervennootschap
@@ -96,6 +92,7 @@ Het bestaan van een aandeelhoudersovereenkomst tussen een meerderheid van de aan
 Vennootschap A is eigenaar van 50 procent van de aandelen van vennootschap X; vennootschap B is eigenaar van de overige 50 procent. De vennootschap X werd destijds door de vennootschappen A en B opgericht met een volstort startkapitaal van 600.000 euro (300.000 euro door iedere vennootschap; deze 300.000 euro is tevens de huidige boekwaarde van de participatie bij beide vennootschappen). Vennootschap X heeft een eigen vermogen van 1.900.000 euro, namelijk een kapitaal van 600.000 euro en 1.300.000 euro reserves. De vennootschappen A, B en X bezitten geen andere deelnemingen. De netto-omzet, het balanstotaal en het aantal werknemers van deze drie vennootschappen zijn als volgt: 
 
 | | | Vennootschap A | | Vennootschap B | | Vennootschap X | 
+|---|---|---|---|---|---|---|
 | Netto-omzet | | 7.000.000 | | 3.800.000 | | 20.000.000 | 
 | Balanstotaal | | 2.000.000 | | 1.300.000 | | 18.000.000 | 
 | Aantal werknemers | | 20 | | 7 | | 110 | 

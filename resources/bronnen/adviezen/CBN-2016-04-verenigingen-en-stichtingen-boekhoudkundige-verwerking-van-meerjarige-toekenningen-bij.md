@@ -25,40 +25,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Regel 64: `# **Advies van 13 april 2016**[^1]** **` heeft overtollige bold-markers na de voetnootverwijzing (D4 — `** **` is een malformed italic/bold afsluitmarker). Regels 52–53 en 94: spurious line-breaks midden in een zin (A6) — de zin `verbintenis.[^6]` wordt gevolgd door een nieuwe regel die met `Op die manier` begint met een kleine letter. Verder structureel correct.'
+    rationale: 'D4: regel 69 `## Advies van 13 april 2016**[^1]** ` bevat stray `**` die de footnote-referentie omhult als bold-marker zonder dat de heading zelf is opgemaakt als bold — de `**` is een ETL-artefact rond de voetnootref. Inhoud en structuur verder volledig correct: 5 headings correct genest, voetnoten [^1]–[^8] aanwezig, geen OCR-fouten, geen pagina-artefacten.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 3
-      max_section_chars: 3489
-      file_size_chars: 7917
+      file_size_chars: 7907
       flags: []
+      heading_count: 5
+      max_section_chars: 3489
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: 'Regel 64: `# **Advies van 13 april 2016**[^1]** **` heeft overtollige bold-markers na de voetnootverwijzing (D4 — `** **` is een malformed italic/bold afsluitmarker). Regels 52–53 en 94: spurious line-breaks midden in een zin (A6) — de zin `verbintenis.[^6]` wordt gevolgd door een nieuwe regel die met `Op die manier` begint met een kleine letter. Verder structureel correct.'
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'D4: regel 69 `## Advies van 13 april 2016**[^1]** ` bevat stray `**` die de footnote-referentie omhult als bold-marker zonder dat de heading zelf is opgemaakt als bold — de `**` is een ETL-artefact rond de voetnootref. Inhoud en structuur verder volledig correct: 5 headings correct genest, voetnoten [^1]–[^8] aanwezig, geen OCR-fouten, geen pagina-artefacten.'
       concrete_problemen:
-        - regel: 64
+        - regel: 69
           categorie: D4
           type: other
-          voorbeeld: '# **Advies van 13 april 2016**[^1]** ** (overbodige ** ** na voetnootref)'
-        - regel: 53
-          categorie: A6
-          type: other
-          voorbeeld: verbintenis.[^6]\n Op die manier zal een toekenning... (regelbreuk midden zin)
-        - regel: 94
-          categorie: A6
-          type: other
-          voorbeeld: schuld ook als zodanig worden geboekt.[^8]\n Op die manier zal... (regelbreuk)
+          voorbeeld: '## Advies van 13 april 2016**[^1]** (stray ** rond voetnootref in heading)'
 themas:
   - legaat
   - meerjarige toekenningen
@@ -69,11 +61,11 @@ themas:
   - vzw
 ---
 
-# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN**
+# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
-# **CBN-advies 2016/4 - Verenigingen en stichtingen: boekhoudkundige verwerking van meerjarige toekenningen bij grote en zeer grote verenigingen en stichtingen**
+## CBN-advies 2016/4 - Verenigingen en stichtingen: boekhoudkundige verwerking van meerjarige toekenningen bij grote en zeer grote verenigingen en stichtingen
 
-# **Advies van 13 april 2016**[^1]** **
+## Advies van 13 april 2016**[^1]** 
 
 ## Inleiding
 

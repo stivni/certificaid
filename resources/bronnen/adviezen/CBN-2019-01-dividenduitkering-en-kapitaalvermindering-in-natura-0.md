@@ -2,77 +2,64 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
 datum: 2019-03-12
 gerelateerde_adviezen:
-  - datum: '2019-11-21'
-    titel: Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering
-    url: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
+- datum: '2019-11-21'
+  titel: Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering
+  url: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
 nummer: CBN-advies 2019/01
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-      sha256: 2a27321595711abf20073bd1a09dce17d12ae08358e12ff0a6bf1872bd2a8f58
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+    sha256: 2a27321595711abf20073bd1a09dce17d12ae08358e12ff0a6bf1872bd2a8f58
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T21:31:12Z'
     confirmed_by: human
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 19
-      max_section_chars: 11666
-      file_size_chars: 25125
+      file_size_chars: 24741
       flags: []
+      heading_count: 19
+      max_section_chars: 11282
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale:
-      run_at:
+      rationale: null
+      run_at: null
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
     status: trusted
 themas:
-  - dividend
-  - uitkering
-  - dividenduitkering
-  - geldbelegging
-  - financiële vaste activa
-  - aandelen
-  - voorschot op verdeling netto-actief
-  - kapitaalvermindering
-  - in natura
-  - uitkering in natura
-  - toekenning in natura
-  - terugbetaling van kapitaal
-  - verdeling eigen vermogen
-  - inbetalinggeving
-  - uitbreng
-  - aanschaffingswaarde
+- dividend
+- uitkering
+- dividenduitkering
+- geldbelegging
+- financiële vaste activa
+- aandelen
+- voorschot op verdeling netto-actief
+- kapitaalvermindering
+- in natura
+- uitkering in natura
+- toekenning in natura
+- terugbetaling van kapitaal
+- verdeling eigen vermogen
+- inbetalinggeving
+- uitbreng
+- aanschaffingswaarde
 ---
 
 # CBN-advies 2019/01 – Dividenduitkering en kapitaalvermindering in natura
-
-CBN-advies 2019/01 – Dividenduitkering en kapitaalvermindering in natura 
-
-1. Algemeen 
-2. Inbetalinggeving versus uitkering in natura 
-3. Dividenduitkering in natura 
-4. Kapitaalvermindering in natura 
-5. Uitkeringen of toekenningen in natura van een ontbonden vennootschap 
-6. Voorbeelden
-
-  1. Voorbeeld 1 
-  2. Voorbeeld 2 
-  3. Voorbeeld 3 
-  4. Voorbeeld 4 
-  5. Voorbeeld 5 
 
 ## Algemeen
 
@@ -135,7 +122,7 @@ Indien de toebedeling van het goed in natura plaatsvindt bij de sluiting van de 
 
 In hoofde van de onderneming-aandeelhouder is de aanschaffingswaarde van het ontvangen goed de waarde die wordt vastgesteld op het moment van de toekenning van het goed. In principe[^15] wordt de ontvangen uitkering afgeboekt van de boekwaarde van de aandelen. Ingeval dit bedrag de boekwaarde van de aandelen overschrijdt, dan moet dat bedrag ten belope van deze overschrijding in resultaat worden genomen. 
 
-## Voorbeelden[^16] 
+## Voorbeelden[^16]
 
 ### Voorbeeld 1
 

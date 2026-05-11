@@ -2,61 +2,73 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-van-een-actiefbestanddeel-verkregen-in-ruil-voor-een-tegenprestatie
 datum: 2019-12-23
 gerelateerde_adviezen:
-  - datum: '1998-03-01'
-    titel: Boekhoudkundige verwerking van een ruilverrichting en een aanbod tot inschrijving door inbreng in natura
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-ruilverrichting-en-een-aanbod-tot-inschrijving-door
+- datum: '1998-03-01'
+  titel: Boekhoudkundige verwerking van een ruilverrichting en een aanbod tot inschrijving
+    door inbreng in natura
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-ruilverrichting-en-een-aanbod-tot-inschrijving-door
 nummer: CBN-advies 2019/15
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-van-een-actiefbestanddeel-verkregen-in-ruil-voor-een-tegenprestatie
-      sha256: bbb6a8771bd8588544978cda660da6cb388db0d391bb158485cfd5c5e2079459
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-van-een-actiefbestanddeel-verkregen-in-ruil-voor-een-tegenprestatie
+    sha256: bbb6a8771bd8588544978cda660da6cb388db0d391bb158485cfd5c5e2079459
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
+      file_size_chars: 11435
+      flags: []
       heading_count: 4
       max_section_chars: 5375
-      file_size_chars: 11437
-      flags: []
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-        - categorie: D4
-          regel: 128
-          type: other
-          voorbeeld: '*Vennootschap A *'
-        - categorie: D4
-          regel: 130
-          type: other
-          voorbeeld: '*Op de datum waarop de voornaamste prestatie van de dienst wordt uitgevoerd[^11] *'
-        - categorie: D3
-          regel: 132
-          type: other
-          voorbeeld: ' [^12]'
-      rationale: 'Inhoud volledig en correct gestructureerd. Twee minor D4-issues: ''*Vennootschap A *'' (regel 128) en ''*Op de datum waarop de voornaamste prestatie...[^11] *'' (regel 130) hebben een spatie vóór de sluitende ''*'', wat duidt op een trailing-space extractie-artefact. Dit raakt leesbaarheid niet maar is on-natuurlijk voor mens-geschreven markdown. Voorts een lege footnote-referentie '' [^12]'' (regel 132) die als lege alinea verschijnt.'
+      - categorie: D4
+        regel: 128
+        type: other
+        voorbeeld: '*Vennootschap A *'
+      - categorie: D4
+        regel: 130
+        type: other
+        voorbeeld: '*Op de datum waarop de voornaamste prestatie van de dienst wordt
+          uitgevoerd[^11] *'
+      - categorie: D3
+        regel: 132
+        type: other
+        voorbeeld: ' [^12]'
+      rationale: 'Inhoud volledig en correct gestructureerd. Twee minor D4-issues:
+        ''*Vennootschap A *'' (regel 128) en ''*Op de datum waarop de voornaamste
+        prestatie...[^11] *'' (regel 130) hebben een spatie vóór de sluitende ''*'',
+        wat duidt op een trailing-space extractie-artefact. Dit raakt leesbaarheid
+        niet maar is on-natuurlijk voor mens-geschreven markdown. Voorts een lege
+        footnote-referentie '' [^12]'' (regel 132) die als lege alinea verschijnt.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Inhoud volledig en correct gestructureerd. Twee minor D4-issues: ''*Vennootschap A *'' (regel 128) en ''*Op de datum waarop de voornaamste prestatie...[^11] *'' (regel 130) hebben een spatie vóór de sluitende ''*'', wat duidt op een trailing-space extractie-artefact. Dit raakt leesbaarheid niet maar is on-natuurlijk voor mens-geschreven markdown. Voorts een lege footnote-referentie '' [^12]'' (regel 132) die als lege alinea verschijnt.'
+    rationale: 'Inhoud volledig en correct gestructureerd. Twee minor D4-issues: ''*Vennootschap
+      A *'' (regel 128) en ''*Op de datum waarop de voornaamste prestatie...[^11]
+      *'' (regel 130) hebben een spatie vóór de sluitende ''*'', wat duidt op een
+      trailing-space extractie-artefact. Dit raakt leesbaarheid niet maar is on-natuurlijk
+      voor mens-geschreven markdown. Voorts een lege footnote-referentie '' [^12]''
+      (regel 132) die als lege alinea verschijnt.'
     status: trusted
 themas:
-  - ruil
-  - tegenprestatie anders dan in geld
-  - opleg in geld
-  - aanschaffingswaarde actiefbestanddeel
-  - verlenen van een dienst
-  - marktwaarde
+- ruil
+- tegenprestatie anders dan in geld
+- opleg in geld
+- aanschaffingswaarde actiefbestanddeel
+- verlenen van een dienst
+- marktwaarde
 ---
 
 # CBN-advies 2019/15 – Aanschaffingswaarde van een actiefbestanddeel verkregen in ruil voor een tegenprestatie anders dan in geld
@@ -73,7 +85,7 @@ Onderhavig advies vervangt het CBN-advies 2013/7 - *De boekhoudkundige verwerkin
 
 ## Boekhoudkundige verwerking
 
-### Ruil met als tegenprestatie de afgifte van een actiefbestanddeel 
+### Ruil met als tegenprestatie de afgifte van een actiefbestanddeel
 
 De verwerving van een actiefbestanddeel met als tegenprestatie de afgifte van een actiefbestanddeel is een ruilverrichting die een dubbele vervreemding van actiefbestanddelen met zich meebrengt. Het geruilde actiefbestanddeel verlaat de actiefpost waarin het was geboekt op de datum waarop de voornaamste risico’s worden overgedragen aan de medecontractant[^5]. De meer- of minderwaarde die bij deze vervreemding wordt gerealiseerd, wordt eveneens op deze datum in resultaat genomen. 
 
@@ -120,7 +132,7 @@ De vennootschappen A en B leveren de actiefbestanddelen op 15 oktober 20XX en dr
 | aan | 2320 | Installaties, machines en uitrusting: aanschaffingswaarde Z | | 60.000 |
 | | 763 | Meerwaarden op de realisatie van vaste activa | 5.000 | |
 
-### Ruil met als tegenprestatie het verlenen van een dienst 
+### Ruil met als tegenprestatie het verlenen van een dienst
 
 Artikel 3:14 KB WVV regelt eveneens de boekhoudkundige verwerking van de verwerving van een actiefbestanddeel met als tegenprestatie een dienst. 
 

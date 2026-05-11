@@ -2,60 +2,61 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-disposals
 datum: 2013-02-20
 gerelateerde_adviezen:
-  - datum: '2022-09-09'
-    titel: Vermogensmutatiemethode
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
-  - datum: '2022-07-27'
-    titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
-  - datum: '2017-09-13'
-    titel: Transacties onder gemeenschappelijke leiding (Common control transactions) (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
-  - datum: '2017-03-15'
-    titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
+- datum: '2022-09-09'
+  titel: Vermogensmutatiemethode
+  url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+- datum: '2022-07-27'
+  titel: Consolidatie bij de horizontale groep (consortium)
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+- datum: '2017-09-13'
+  titel: Transacties onder gemeenschappelijke leiding (Common control transactions)
+    (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
+- datum: '2017-03-15'
+  titel: Consolidatie bij de horizontale groep (consortium)
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
 nummer: CBN-advies 2013/4
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-disposals
-      sha256: 83db802d1f6c90ddba9a3a688e9306ab5885d26588cccedbe433728b7d68ce91
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-disposals
+    sha256: 83db802d1f6c90ddba9a3a688e9306ab5885d26588cccedbe433728b7d68ce91
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T21:31:11Z'
     confirmed_by: human
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 2
-      max_section_chars: 11292
-      file_size_chars: 12314
+      file_size_chars: 12304
       flags: []
+      heading_count: 2
+      max_section_chars: 11352
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent:
+      agent: null
       concrete_problemen: []
-      rationale:
-      run_at:
+      rationale: null
+      run_at: null
       status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
+    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel)
+      correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1
+      pass (of benign max_section warn).'
     status: trusted
 themas:
-  - consolidatie
-  - stapsgewijze vervreemding
-  - step disposals
+- consolidatie
+- stapsgewijze vervreemding
+- step disposals
 ---
 
 # CBN-advies 2013/4 – De boekhoudkundige verwerking van step disposals
-
-CBN-advies 2013/4 – De boekhoudkundige verwerking van step disposals
 
 ## Inleiding
 
@@ -75,12 +76,14 @@ Indien een belang in een integraal geconsolideerde dochteronderneming wordt afge
 Een moederonderneming, AAA verwerft een 80 %-belang in een dochteronderneming BBB. Ze betaalt hiervoor 200. Per 31 december 20N0 zijn de respectievelijke balansen van AAA en BBB als volgt: 
 
 | AAA – 31.12.20N0 | 
+|---|
 | Terreinen | | 200 | | Kapitaal | | 500 | 
 | Deelneming | | 200 | | | | | 
 | Liquide middelen | | 100 | | | | | 
 | | | 500 | | | | 500 | 
 
 | BBB – 31.12.20N0 | 
+|---|
 | Terreinen | | 100 | | Kapitaal | | 150 | 
 | Liquide middelen | | 50 | | | | | 
 | | | 150 | | | | 150 | 
@@ -88,6 +91,7 @@ Een moederonderneming, AAA verwerft een 80 %-belang in een dochteronderneming BB
 De geconsolideerde balans per 31 december 20N0 is als volgt: 
 
 | Geconsolideerde balans AAA – 31.12.20N0 | 
+|---|
 | Goodwill | | 64 | | Kapitaal | | 500 | 
 | Terreinen | | 300 | | Reserves | | -16 | 
 | Liquide middelen | | 150 | | Belangen van derden | | 30 | 
@@ -108,12 +112,14 @@ Daarnaast dient er tevens een belang van derden te worden uitgedrukt ten belope 
 Voor het boekjaar afgesloten op 31 december 20N1 zijn de enkelvoudige balansen van AAA en BBB als volgt: 
 
 | AAA – 31.12.20N1 | 
+|---|
 | Terreinen | | 200 | | Kapitaal | | 500 | 
 | Deelneming | | 200 | | Reserves | | 400 | 
 | Liquide middelen | | 500 | | | | | 
 | | | 900 | | | | 900 | 
 
 | BBB – 31.12.20N1 | 
+|---|
 | Terreinen | | 100 | | Kapitaal | | 150 | 
 | Liquide middelen | | 100 | | Reserves | | 50 | 
 | | | 200 | | | | 200 | 
@@ -121,6 +127,7 @@ Voor het boekjaar afgesloten op 31 december 20N1 zijn de enkelvoudige balansen v
 De geconsolideerde balans van AAA kan als volgt worden weergegeven: 
 
 | Geconsolideerde balans AAA – 31.12.20N1 | 
+|---|
 | Goodwill | | 48 | | Kapitaal | | 500 | 
 | Terreinen | | 300 | | Reserves | | 408 | 
 | Liquide middelen | | 600 | | Belangen van derden | | 40 | 
@@ -134,6 +141,7 @@ De aangroei van de belangen van derden kan worden verklaard door de toewijzing v
 Op 1 januari 20N2 verkoopt de onderneming AAA 20 % van haar belang in onderneming BBB voor 250. Als gevolg van deze gedeeltelijke realisatie wordt er in de statutaire jaarrekening van AAA een meerwaarde erkend van 200[^2]. De statutaire balans van AAA per 1 januari 20N2 kan dan ook als volgt worden voorgesteld: 
 
 | AAA – 01.01.20N2 | 
+|---|
 | Terreinen | | 200 | | Kapitaal | | 500 | 
 | Deelneming | | 150 | | Reserves | | 400 | 
 | Liquide middelen | | 750 | | Belangen van derden | | 200 | 
@@ -143,6 +151,7 @@ Op 1 januari 20N2 verkoopt de onderneming AAA 20 % van haar belang in ondernemin
 Mocht de moederonderneming per 1 januari 20N2 (na de gedeeltelijke vervreemding) een geconsolideerde balans dienen op te stellen, dan kan deze balans als volgt worden voorgesteld: 
 
 | Geconsolideerde balans AAA – 01.01.20N2 | 
+|---|
 | Goodwill | | 36 | | Kapitaal | | 500 | 
 | Terreinen | | 300 | | Reserves | | 606 | 
 | Liquide middelen | | 850 | | Belangen van derden | | 80 | 
@@ -197,6 +206,7 @@ De wijziging van consolidatiemethode (van integrale methode naar vermogensmutati
 Op 1 januari 20N2 verkoopt de onderneming AAA 60 % van haar belang in onderneming BBB voor 250. Als gevolg van deze gedeeltelijke realisatie wordt er in de statutaire jaarrekening van AAA een meerwaarde erkend van 100[^5]. De statutaire balans van AAA per 1 januari 20N2 kan dan ook als volgt worden voorgesteld: 
 
 | AAA – 01.01.20N2 | 
+|---|
 | Terreinen | | 200 | | Kapitaal | | 500 | 
 | Deelneming | | 50 | | Reserves | | 400 | 
 | Liquide middelen | | 750 | | Meerwaarde | | 100 | 
@@ -207,6 +217,7 @@ De Commissie illustreert enkel de step disposal van één entiteit, vanuit een v
 Mocht de moederonderneming per 1 januari 20N2 (na de gedeeltelijke vervreemding) een geconsolideerde balans dienen op te stellen, dan kan deze balans als volgt voorgesteld worden: 
 
 | Geconsolideerde balans AAA – 01.01.20N2 | 
+|---|
 | Goodwill | | 10 | | Kapitaal | | 500 | 
 | Terreinen | | 200 | | Reserves | | 500 | 
 | Deelneming volgens VMM | | 40 | | | | | 

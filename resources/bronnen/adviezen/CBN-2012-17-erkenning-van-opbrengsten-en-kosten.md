@@ -2,47 +2,56 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-opbrengsten-en-kosten
 datum: 2012-11-07
 gerelateerde_adviezen:
-  - datum: '2021-04-06'
-    titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van de COVID-19-pandemie
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
-  - datum: '2013-09-04'
-    titel: Erkenning van de opbrengsten en kosten die overeenstemmen met interesten en royalty&#039;s, evenals de toewijzing van de resultaten in de vorm van dividenden en tantièmes en de opbrengsten die overeenstemmen met dividenden en tantièmes
-    url: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
+- datum: '2021-04-06'
+  titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van
+    de COVID-19-pandemie
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
+- datum: '2013-09-04'
+  titel: Erkenning van de opbrengsten en kosten die overeenstemmen met interesten
+    en royalty&#039;s, evenals de toewijzing van de resultaten in de vorm van dividenden
+    en tantièmes en de opbrengsten die overeenstemmen met dividenden en tantièmes
+  url: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
 nummer: CBN-advies 2012/17
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-opbrengsten-en-kosten
-      sha256: 7aa254cb895d2315323f4ef39d185018e68c7c55911c7f208030a21eb4bd0fed
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-opbrengsten-en-kosten
+    sha256: 7aa254cb895d2315323f4ef39d185018e68c7c55911c7f208030a21eb4bd0fed
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:16:33Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 15746
+      flags: []
       heading_count: 7
       max_section_chars: 6346
-      file_size_chars: 15747
-      flags: []
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen artefacten gevonden. Heading-hiërarchie klopt (H1 → H2 → H3), alle 9 voetnoten correct gelinkt met [^N]-syntax, proza vloeit als mens-geschreven tekst. Inhoud compleet: onderwerp, analyse met twee subsecties, voorbeelden voor goederen en diensten.'
+      rationale: 'Geen artefacten gevonden. Heading-hiërarchie klopt (H1 → H2 → H3),
+        alle 9 voetnoten correct gelinkt met [^N]-syntax, proza vloeit als mens-geschreven
+        tekst. Inhoud compleet: onderwerp, analyse met twee subsecties, voorbeelden
+        voor goederen en diensten.'
       run_at: '2026-05-11T12:16:33Z'
       status: trusted
-    rationale: 'Geen artefacten gevonden. Heading-hiërarchie klopt (H1 → H2 → H3), alle 9 voetnoten correct gelinkt met [^N]-syntax, proza vloeit als mens-geschreven tekst. Inhoud compleet: onderwerp, analyse met twee subsecties, voorbeelden voor goederen en diensten.'
+    rationale: 'Geen artefacten gevonden. Heading-hiërarchie klopt (H1 → H2 → H3),
+      alle 9 voetnoten correct gelinkt met [^N]-syntax, proza vloeit als mens-geschreven
+      tekst. Inhoud compleet: onderwerp, analyse met twee subsecties, voorbeelden
+      voor goederen en diensten.'
     status: trusted
 themas:
-  - opbrengsterkenning
+- opbrengsterkenning
 ---
 
 # CBN-advies 2012/17 - Erkenning van opbrengsten en kosten
@@ -61,7 +70,7 @@ In dit advies worden enkel de opbrengsten en kosten behandeld die voortvloeien u
 
 ## Analyse
 
-### Gerealiseerde winsten en lasten en baten betreffende het boekjaar 
+### Gerealiseerde winsten en lasten en baten betreffende het boekjaar
 
 Het begrip “gerealiseerde winsten” volgt uit het algemene voorzichtigheidsbeginsel (zie voornoemde art. 31, § 1, c, aa, Vierde richtlijn en art. 32, KB W.Venn.). Bijgevolg dient de boeking van een opbrengst steeds in het kader te passen van een voorzichtigheidslogica[^2].
 

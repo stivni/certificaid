@@ -12,27 +12,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A5: de H1-heading op regel 51 gebruikt U+2013 EN-DASH (–) als scheidingsteken ('CBN-advies 107/12 – Pensioenvoorzieningen') in plaats van een gewone ASCII-hyphen zoals alle andere adviezen. Inconsistentie in heading-formaat kan heading-matching en retrieval beïnvloeden. Verder zijn geen artefacten aangetroffen."
+    rationale: "A5: H1-heading op regel 51 gebruikt U+2013 EN-DASH ('–') als scheidingsteken ('# CBN-advies 107/12 – Pensioenvoorzieningen') terwijl het gehele corpus ASCII-hyphen '-' gebruikt. Dit is een inconsistente separator die heading-matching en retrieval bemoeilijkt. Verdere inhoud volledig en clean."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 2196
       file_size_chars: 2196
       flags: []
+      heading_count: 0
+      max_section_chars: 2196
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "A5: de H1-heading op regel 51 gebruikt U+2013 EN-DASH (–) als scheidingsteken ('CBN-advies 107/12 – Pensioenvoorzieningen') in plaats van een gewone ASCII-hyphen zoals alle andere adviezen. Inconsistentie in heading-formaat kan heading-matching en retrieval beïnvloeden. Verder zijn geen artefacten aangetroffen."
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: "A5: H1-heading op regel 51 gebruikt U+2013 EN-DASH ('–') als scheidingsteken ('# CBN-advies 107/12 – Pensioenvoorzieningen') terwijl het gehele corpus ASCII-hyphen '-' gebruikt. Dit is een inconsistente separator die heading-matching en retrieval bemoeilijkt. Verdere inhoud volledig en clean."
       concrete_problemen:
         - regel: 51
           categorie: A5

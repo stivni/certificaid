@@ -2,56 +2,65 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/progressieve-afschrijvingsmethode
 datum: 1981-04-01
 gerelateerde_adviezen:
-  - datum: '2025-04-25'
-    titel: Afschrijvingsmethoden (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden-update-ontwerp
-  - datum: '2017-12-13'
-    titel: Afschrijving van materiële vaste activa in aanbouw en vooruitbetalingen - Inresultaatname van kapitaalsubsidies
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname
-  - datum: '2012-10-10'
-    titel: De boekhoudkundige verwerking van immateriële vaste activa
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-  - datum: '2010-10-06'
-    titel: Afschrijvingsmethoden
-    url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
+- datum: '2025-04-25'
+  titel: Afschrijvingsmethoden (update) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden-update-ontwerp
+- datum: '2017-12-13'
+  titel: Afschrijving van materiële vaste activa in aanbouw en vooruitbetalingen -
+    Inresultaatname van kapitaalsubsidies
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname
+- datum: '2012-10-10'
+  titel: De boekhoudkundige verwerking van immateriële vaste activa
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+- datum: '2010-10-06'
+  titel: Afschrijvingsmethoden
+  url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
 nummer: CBN-advies 112/5
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/progressieve-afschrijvingsmethode
-      sha256: e755a65edaf94c50284ba2ae6d610d7d90eac6f75714c7e81936b93780882a67
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/progressieve-afschrijvingsmethode
+    sha256: e755a65edaf94c50284ba2ae6d610d7d90eac6f75714c7e81936b93780882a67
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:16:02Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Prior layer2 verdict (needs-rework, B3 duplicate headings op L57 en L59) is onjuist: die regelnummers vallen in de frontmatter. De body heeft slechts één H1-heading op regel 65. De heading-tekst 'CBN advies 112/5' mist een koppelteken na 'CBN' vergeleken met de conventie, maar dit is cosmetisch. Geen ETL-artefacten in de body aangetroffen."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 4476
       file_size_chars: 4476
       flags: []
+      heading_count: 0
+      max_section_chars: 4476
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "Prior layer2 verdict (needs-rework, B3 duplicate headings op L57 en L59) is onjuist: die regelnummers vallen in de frontmatter. De body heeft slechts één H1-heading op regel 65. De heading-tekst 'CBN advies 112/5' mist een koppelteken na 'CBN' vergeleken met de conventie, maar dit is cosmetisch. Geen ETL-artefacten in de body aangetroffen."
       concrete_problemen: []
+      rationale: 'Prior layer2 verdict (needs-rework, B3 duplicate headings op L57
+        en L59) is onjuist: die regelnummers vallen in de frontmatter. De body heeft
+        slechts één H1-heading op regel 65. De heading-tekst ''CBN advies 112/5''
+        mist een koppelteken na ''CBN'' vergeleken met de conventie, maar dit is cosmetisch.
+        Geen ETL-artefacten in de body aangetroffen.'
+      run_at: '2026-05-11T13:16:02Z'
+      status: trusted
+    rationale: 'Prior layer2 verdict (needs-rework, B3 duplicate headings op L57 en
+      L59) is onjuist: die regelnummers vallen in de frontmatter. De body heeft slechts
+      één H1-heading op regel 65. De heading-tekst ''CBN advies 112/5'' mist een koppelteken
+      na ''CBN'' vergeleken met de conventie, maar dit is cosmetisch. Geen ETL-artefacten
+      in de body aangetroffen.'
+    status: trusted
 themas:
-  - afschrijvingen
-  - afschrijvingsplan
-  - gebruiksduur
-  - progressieve afschrijvingsmethode
+- afschrijvingen
+- afschrijvingsplan
+- gebruiksduur
+- progressieve afschrijvingsmethode
 ---
 
 # CBN advies 112/5 - Progressieve afschrijvingsmethode

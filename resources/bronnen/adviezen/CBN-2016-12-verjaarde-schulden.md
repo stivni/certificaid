@@ -3,40 +3,50 @@ bron: https://www.cbn-cnc.be/nl/adviezen/verjaarde-schulden
 datum: 2016-06-15
 nummer: CBN-advies 2016/12
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verjaarde-schulden
-      sha256: c2692b2e27047b708c2eb1052e23363aad897dee552d1671cfbc1976a2fd5291
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/verjaarde-schulden
+    sha256: c2692b2e27047b708c2eb1052e23363aad897dee552d1671cfbc1976a2fd5291
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Volledig schone markdown: 5 headings correct hiërarchisch (##/###), geen lege of dubbele headings, geen bold/italic-artefacten, geen TOC-residu, geen spurious line-breaks. Voetnoten [^1]–[^15] volledig aanwezig en correct gedefinieerd. Inhoud compleet: inleiding, burgerrechtelijke bepalingen, twee scenario's (afstand vs. geen afstand) en twee Cassatie-arresten. Een buitenstaander zou dit voor handgeschreven markdown kunnen aanzien."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 5
-      max_section_chars: 5398
       file_size_chars: 8181
       flags: []
+      heading_count: 5
+      max_section_chars: 5398
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "Volledig schone markdown: 5 headings correct hiërarchisch (##/###), geen lege of dubbele headings, geen bold/italic-artefacten, geen TOC-residu, geen spurious line-breaks. Voetnoten [^1]–[^15] volledig aanwezig en correct gedefinieerd. Inhoud compleet: inleiding, burgerrechtelijke bepalingen, twee scenario's (afstand vs. geen afstand) en twee Cassatie-arresten. Een buitenstaander zou dit voor handgeschreven markdown kunnen aanzien."
       concrete_problemen: []
+      rationale: 'Volledig schone markdown: 5 headings correct hiërarchisch (##/###),
+        geen lege of dubbele headings, geen bold/italic-artefacten, geen TOC-residu,
+        geen spurious line-breaks. Voetnoten [^1]–[^15] volledig aanwezig en correct
+        gedefinieerd. Inhoud compleet: inleiding, burgerrechtelijke bepalingen, twee
+        scenario''s (afstand vs. geen afstand) en twee Cassatie-arresten. Een buitenstaander
+        zou dit voor handgeschreven markdown kunnen aanzien.'
+      run_at: '2026-05-11T13:30:32Z'
+      status: trusted
+    rationale: 'Volledig schone markdown: 5 headings correct hiërarchisch (##/###),
+      geen lege of dubbele headings, geen bold/italic-artefacten, geen TOC-residu,
+      geen spurious line-breaks. Voetnoten [^1]–[^15] volledig aanwezig en correct
+      gedefinieerd. Inhoud compleet: inleiding, burgerrechtelijke bepalingen, twee
+      scenario''s (afstand vs. geen afstand) en twee Cassatie-arresten. Een buitenstaander
+      zou dit voor handgeschreven markdown kunnen aanzien.'
+    status: trusted
 themas:
-  - verjaarde schulden
-  - verjaring
+- verjaarde schulden
+- verjaring
 ---
 
 # CBN-advies 2016/12 - Verjaarde schulden

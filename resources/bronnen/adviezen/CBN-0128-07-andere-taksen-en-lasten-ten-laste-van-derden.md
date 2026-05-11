@@ -2,55 +2,61 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/andere-taksen-en-lasten-ten-laste-van-derden
 datum: 1989-09-01
 gerelateerde_adviezen:
-  - datum: '2021-12-22'
-    titel: Boekhoudkundige verwerking van de vergoeding voor de groepsbijdrage in hoofde van de overdragende vennootschap bij gebrek aan Belgische belastingen op het resultaat op rekening 4500 (addendum bij advies 2019/06)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
-  - datum: '2019-07-02'
-    titel: Groepsbijdrage
-    url: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
-  - datum: '2018-05-30'
-    titel: Belastingen
-    url: https://www.cbn-cnc.be/nl/adviezen/belastingen
-  - datum: '2017-04-19'
-    titel: Boekhoudkundige verwerking van moratoriuminterest
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-moratoriuminterest
+- datum: '2021-12-22'
+  titel: Boekhoudkundige verwerking van de vergoeding voor de groepsbijdrage in hoofde
+    van de overdragende vennootschap bij gebrek aan Belgische belastingen op het resultaat
+    op rekening 4500 (addendum bij advies 2019/06)
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
+- datum: '2019-07-02'
+  titel: Groepsbijdrage
+  url: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
+- datum: '2018-05-30'
+  titel: Belastingen
+  url: https://www.cbn-cnc.be/nl/adviezen/belastingen
+- datum: '2017-04-19'
+  titel: Boekhoudkundige verwerking van moratoriuminterest
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-moratoriuminterest
 nummer: CBN-advies 128/7
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/andere-taksen-en-lasten-ten-laste-van-derden
-      sha256: f01b963ce79ddbfb61b8a31a27816d2b169d32f78647adb627f05c94b276fac8
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/andere-taksen-en-lasten-ten-laste-van-derden
+    sha256: f01b963ce79ddbfb61b8a31a27816d2b169d32f78647adb627f05c94b276fac8
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:04:41Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 946
       file_size_chars: 946
       flags: []
+      heading_count: 0
+      max_section_chars: 946
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Kort advies (947 chars), één aaneensluitende alinea zonder structuurelementen. Geen detecteerbare artefacten: geen unicode-anomalieën, geen broken markdown, geen heading-issues. Inhoud sluit aan bij titel. Laag 1 pass zonder flags.'
+      rationale: 'Kort advies (947 chars), één aaneensluitende alinea zonder structuurelementen.
+        Geen detecteerbare artefacten: geen unicode-anomalieën, geen broken markdown,
+        geen heading-issues. Inhoud sluit aan bij titel. Laag 1 pass zonder flags.'
       run_at: '2026-05-11T12:04:41Z'
       status: trusted
-    rationale: 'Kort advies (947 chars), één aaneensluitende alinea zonder structuurelementen. Geen detecteerbare artefacten: geen unicode-anomalieën, geen broken markdown, geen heading-issues. Inhoud sluit aan bij titel. Laag 1 pass zonder flags.'
+    rationale: 'Kort advies (947 chars), één aaneensluitende alinea zonder structuurelementen.
+      Geen detecteerbare artefacten: geen unicode-anomalieën, geen broken markdown,
+      geen heading-issues. Inhoud sluit aan bij titel. Laag 1 pass zonder flags.'
     status: trusted
 themas:
-  - belastingen
-  - belastingen ten laste van derden
-  - taksen en belastingen van derden
+- belastingen
+- belastingen ten laste van derden
+- taksen en belastingen van derden
 ---
 
 # CBN-advies 128/7 - Andere taksen en lasten ten laste van derden

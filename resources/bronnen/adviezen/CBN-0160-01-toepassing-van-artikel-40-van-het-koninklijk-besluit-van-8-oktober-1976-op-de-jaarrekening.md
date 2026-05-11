@@ -3,53 +3,54 @@ bron: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-artikel-40-van-het-konin
 datum: 1990-06-01
 nummer: CBN-advies 160/1
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-artikel-40-van-het-koninklijk-besluit-van-8-oktober-1976-op-de-jaarrekening
-      sha256: fb1a7021e967635895c9d63ac483f514e73f7b784a0799efbf1c74354591140d
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-artikel-40-van-het-koninklijk-besluit-van-8-oktober-1976-op-de-jaarrekening
+    sha256: fb1a7021e967635895c9d63ac483f514e73f7b784a0799efbf1c74354591140d
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:29Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 0
-      max_section_chars: 6300
       file_size_chars: 6300
       flags: []
+      heading_count: 0
+      max_section_chars: 6300
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met historische ontwikkeling art. 40 en praktische conclusie.'
+      rationale: '[Laag-2-R2 2026-05-08] Volledig met historische ontwikkeling art.
+        40 en praktische conclusie.'
       run_at: '2026-05-08T19:02:29Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - aanvullende afschrijving
-  - afschrijvingen
-  - discontinuiteit
-  - invereffeningstelling
-  - oprichtingskosten
-  - ondernemingen in vereffening
-  - realisatie
-  - realisatiewaarde
-  - toestand van contunuïteit
-  - toestand van discontinuïteit
-  - voorziening
-  - waardering
-  - waardering tegen realisatiewaarde
-  - waarderingsregels
-  - Waardevermindering
+- aanvullende afschrijving
+- afschrijvingen
+- discontinuiteit
+- invereffeningstelling
+- oprichtingskosten
+- ondernemingen in vereffening
+- realisatie
+- realisatiewaarde
+- toestand van contunuïteit
+- toestand van discontinuïteit
+- voorziening
+- waardering
+- waardering tegen realisatiewaarde
+- waarderingsregels
+- Waardevermindering
 ---
 
 # CBN-advies 160/1 - Toepassing van artikel 40 van het Koninklijk Besluit van 8 oktober 1976 op de jaarrekening van de ondernemingen

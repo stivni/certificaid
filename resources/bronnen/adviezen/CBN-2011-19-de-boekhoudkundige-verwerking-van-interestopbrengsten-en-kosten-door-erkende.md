@@ -12,33 +12,33 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: regels 60 en 62 tonen geciteerde wetsartikelen in italic met trailing spatie voor closing asterisk: '*\"Een Belgische of buitenlandse onderneming:* ' en '*waarvan de werkzaamheden bestaan in het uitgeven van betaalinstrumenten in de vorm van elektronisch geld.\"* ' — het patroon met spatie voor de sluitende `*` maakt de italic-markup ongeldig in de meeste markdown-parsers. Kort document, verder schoon."
+    rationale: "D4: regels 71 en 74 tonen geciteerde wetsartikelen in italic met trailing spatie vóór de sluitende asterisk ('*\"Een Belgische of buitenlandse onderneming:* ' op regel 71 en '...elektronisch geld.\"* ' op regel 74) — het spatie-voor-sluitende-asterisk patroon maakt de italic-markup ongeldig in de meeste markdown-parsers. Kort document (5053 chars), verder volledig schoon."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 2
-      max_section_chars: 2386
       file_size_chars: 5053
       flags: []
+      heading_count: 2
+      max_section_chars: 2386
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "D4: regels 60 en 62 tonen geciteerde wetsartikelen in italic met trailing spatie voor closing asterisk: '*\"Een Belgische of buitenlandse onderneming:* ' en '*waarvan de werkzaamheden bestaan in het uitgeven van betaalinstrumenten in de vorm van elektronisch geld.\"* ' — het patroon met spatie voor de sluitende `*` maakt de italic-markup ongeldig in de meeste markdown-parsers. Kort document, verder schoon."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "D4: regels 71 en 74 tonen geciteerde wetsartikelen in italic met trailing spatie vóór de sluitende asterisk ('*\"Een Belgische of buitenlandse onderneming:* ' op regel 71 en '...elektronisch geld.\"* ' op regel 74) — het spatie-voor-sluitende-asterisk patroon maakt de italic-markup ongeldig in de meeste markdown-parsers. Kort document (5053 chars), verder volledig schoon."
       concrete_problemen:
-        - regel: 60
+        - regel: 71
           categorie: D4
           type: other
           voorbeeld: '*"Een Belgische of buitenlandse onderneming:* '
-        - regel: 62
+        - regel: 74
           categorie: D4
           type: other
           voorbeeld: '*waarvan de werkzaamheden bestaan in het uitgeven van betaalinstrumenten in de vorm van elektronisch geld."* '

@@ -16,40 +16,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:01Z'
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie bugs blijven aanwezig in de body. G3/A4: spurious '] ' midden in de geciteerde passage op regel 111 ('te ] verantwoorden»') — een bracket-artefact dat de zin verminkt. D3: voetnoot [^14] op regel 204 bevat de volledige tekst tweemaal aaneengesloten zonder separator. A4/A6: inconsistente koppeltekens 'niet- monetaire' (met spatie na koppelteken) op regels 153 en 208 naast correct 'niet-monetaire' elders — typisch extractie-artefact. De U+00AC (¬) in de vorige verdict zat uitsluitend in frontmatter YAML, niet in de body."
+    rationale: "Drie ETL-bugs blijven aanwezig na scraper-fixes: (1) G3/spurious bracket: r111 bevat '] verantwoorden' met losstaand ] midden in geciteerde passage ('te ] verantwoorden»') — verminkt de geciteerde tekst. (2) D3: voetnoot [^14] op r204 bevat dezelfde zin tweemaal aaneengesloten zonder separator. (3) A6/A4: 'niet- monetaire' met spatie na koppelteken op r149, r153 en r208 naast correct 'niet-monetaire' elders — inconsistentie typisch voor extractie-artefact."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 6
-      max_section_chars: 15757
-      file_size_chars: 26661
+      file_size_chars: 26659
       flags: []
+      heading_count: 6
+      max_section_chars: 15755
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:01Z'
-      rationale: "Drie bugs blijven aanwezig in de body. G3/A4: spurious '] ' midden in de geciteerde passage op regel 111 ('te ] verantwoorden»') — een bracket-artefact dat de zin verminkt. D3: voetnoot [^14] op regel 204 bevat de volledige tekst tweemaal aaneengesloten zonder separator. A4/A6: inconsistente koppeltekens 'niet- monetaire' (met spatie na koppelteken) op regels 153 en 208 naast correct 'niet-monetaire' elders — typisch extractie-artefact. De U+00AC (¬) in de vorige verdict zat uitsluitend in frontmatter YAML, niet in de body."
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: "Drie ETL-bugs blijven aanwezig na scraper-fixes: (1) G3/spurious bracket: r111 bevat '] verantwoorden' met losstaand ] midden in geciteerde passage ('te ] verantwoorden»') — verminkt de geciteerde tekst. (2) D3: voetnoot [^14] op r204 bevat dezelfde zin tweemaal aaneengesloten zonder separator. (3) A6/A4: 'niet- monetaire' met spatie na koppelteken op r149, r153 en r208 naast correct 'niet-monetaire' elders — inconsistentie typisch voor extractie-artefact."
       concrete_problemen:
         - regel: 111
           categorie: G3
           type: other
-          voorbeeld: te ] verantwoorden»[^8] — spurious bracket in geciteerde passage
+          voorbeeld: te ] verantwoorden»[^8] — spurious ] bracket midden in geciteerde passage
         - regel: 204
           categorie: D3
           type: other
-          voorbeeld: '[^14]: ...advies 152/1 Voor een definitie...advies 152/1 (volledige tekst tweemaal)'
-        - regel: 153
-          categorie: A4
+          voorbeeld: "[^14]: Voor een definitie van monetaire en niet-monetaire posten, zie pagina's 5 en 12 van advies 152/1 Voor een definitie... — tekst tweemaal"
+        - regel: 149
+          categorie: A6
           type: other
-          voorbeeld: niet- monetaire posten — spatie na koppelteken (ook regel 208)
+          voorbeeld: niet- monetaire bestanddelen — spatie na koppelteken (ook r153, r208)
 themas:
   - slotkoers
   - slotkoersmethode
@@ -142,9 +142,9 @@ Qua voorstelling van die (voortaan vaststaande) omrekeningsverschillen in het ge
 Boekhoudkundige verwerking van het omrekeningsverschil bij de overdracht of de (gedeeltelijke) vermindering van (het) de deelneming(spercentage) in het kapitaal van de dochter .
 Omrekeningsverschillen (die ontstaan bij de toepassing van de slotkoersmethode en die in het eigen vermogen worden vastgelegd) zijn één van de elementen die het resultaat bepalen bij gehele of gedeeltelijke overdracht van de deelneming in het kapitaal van de tot dan toe geconsolideerde dochter. Met andere woorden, indien de overdrachtsprijs in theorie zou overeenstemmen met de waarde van het in euro geconverteerde eigen vermogen zoals uitgedrukt in de boekhouding van de betrokken dochter, dan zou het geconsolideerde resultaat van de overdracht overeenstemmen met de omrekeningsverschillen op het eigen vermogen van die dochter[^12]. Dit komt trouwens ook terug in paragraaf 14 van FAS 52 : «Upon sale or upon complete or substantially complete liquidation of an investment in a foreign entity, the amount attributable to that entity and accumulated in the translation adjustment component of equity shall be removed from the separate component of equity and shall be reported as part of the gain or loss on sale or liquidation of the investment for the period during which the sale or liquidation occurs.»
 
-## Toepassing van de "monetaire/niet-monetaire methode"[^13] 
+## Toepassing van de "monetaire/niet-monetaire methode"[^13]
 
-### Voorafgaande overwegingen 
+### Voorafgaande overwegingen
 
 Deze methode maakt traditioneel een onderscheid tussen monetaire en niet-monetaire elementen[^14] om de (verschillende) manieren te definiëren waarop ze worden opgenomen in de om te rekenen balans. Monetaire bestanddelen worden immers omgerekend tegen de geldende koers bij de afsluiting van de geconsolideerde jaarrekening, terwijl niet- monetaire bestanddelen worden omgerekend tegen hun historische koers. 
 

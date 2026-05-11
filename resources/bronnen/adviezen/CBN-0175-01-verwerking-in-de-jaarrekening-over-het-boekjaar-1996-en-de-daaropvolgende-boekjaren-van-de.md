@@ -25,40 +25,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "C1: opsomming op r.90 gebruikt '•' bullet-glyph i.p.v. markdown '-' (PDF-glyph). A6/C-structuur: bullets op r.93, 97, 100, 103 beginnen met '- \\n\\n' waarbij de bullet-inhoud op een volgende regel staat na een lege regel — dit is een A6-regelbreuk in lijstcontext die de bullets ontkoppelt van hun inhoud. Zes voetnoten correct opgemaakt; inhoud volledig."
+    rationale: "Bevestiging van vorige QA (ronde 1). C1: '•' bullet-glyph op r.114 en r.129 in plaats van markdown '-'. A6: bullets op r.117, 122, 125, 128 beginnen met '- \\n\\n' waarbij de bulletinhoud na een lege regel staat — regelbreuk in lijstcontext die bullets ontkoppelt van hun inhoud. Overige structuur en voetnoten correct."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
+      file_size_chars: 18053
+      flags: []
       heading_count: 7
       max_section_chars: 9239
-      file_size_chars: 18054
-      flags: []
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "C1: opsomming op r.90 gebruikt '•' bullet-glyph i.p.v. markdown '-' (PDF-glyph). A6/C-structuur: bullets op r.93, 97, 100, 103 beginnen met '- \\n\\n' waarbij de bullet-inhoud op een volgende regel staat na een lege regel — dit is een A6-regelbreuk in lijstcontext die de bullets ontkoppelt van hun inhoud. Zes voetnoten correct opgemaakt; inhoud volledig."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "Bevestiging van vorige QA (ronde 1). C1: '•' bullet-glyph op r.114 en r.129 in plaats van markdown '-'. A6: bullets op r.117, 122, 125, 128 beginnen met '- \\n\\n' waarbij de bulletinhoud na een lege regel staat — regelbreuk in lijstcontext die bullets ontkoppelt van hun inhoud. Overige structuur en voetnoten correct."
       concrete_problemen:
-        - regel: 90
+        - regel: 114
           categorie: C1
           type: bullet-glyph
-          voorbeeld: • In het PBEG van 6 augustus 1996 staat een mededeling van de Commissie...
-        - regel: 93
+          voorbeeld: • In het PBEG van 6 augustus 1996 staat een mededeling...
+        - regel: 117
           categorie: A6
           type: other
-          voorbeeld: '- \n\nde Belgische Staat is de voornoemde verplichtingen... (bulletinhoud na lege regel)'
-        - regel: 97
-          categorie: A6
-          type: other
-          voorbeeld: '- \n\nlos van deze aspecten «houdt het uitsluitend toekennen...» (bulletinhoud na lege regel)'
+          voorbeeld: "- \n\nde Belgische Staat is de voornoemde verplichtingen..."
+        - regel: 129
+          categorie: C1
+          type: bullet-glyph
+          voorbeeld: • In haar beschikking van 4 december 1996...
 themas:
   - toelichting
   - voorziening
@@ -128,7 +128,7 @@ Voorts stelt de Regering in dit perscommuniqué nog dat de verplichting om de Ma
 
 ## Boekhoudkundige verwerking
 
-### Voor de ondernemingen die de «Maribel bis en ter»-steun kregen 
+### Voor de ondernemingen die de «Maribel bis en ter»-steun kregen
 
 Om uit te maken hoe deze ondernemingen die hulp aan het eind van het boekjaar 1996 en de daaropvolgende boekjaren best verwerken in hun boekhouding, moet eerst de beslissing van de Belgische Regering omtrent het beheer van de «Maribel bis en ter»-steun van nabij worden onderzocht. Indien de beslissing van de Commissie rechtstreekse werking heeft en uitvoerbaar is tegenover de Belgische staat (mits naleving van een termijn die wordt aangegeven in de beslissing van de Commissie), rijst als eerste vraag in verband met de boekhoudkundige verwerking, welke mogelijkheden de Belgische Regering aanvankelijk had tegenover de beslissing van 4 december 1996 van de Europese Commissie. 
 

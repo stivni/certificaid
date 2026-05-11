@@ -25,33 +25,33 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:26:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D2: regel 144 verwijst naar een schematisch tijdlijn-overzicht ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was een afbeelding in het origineel. Bijkomend: regel 113 bevat 'gecertificeerd, accountant' met een spurious komma (A5-adjacent typefout door extractie). Inhoud verder compleet; 51 voetnoten correct."
+    rationale: "D2: regel 158 verwijst naar een schematisch tijdlijn-overzicht dat niet volgt. Bijkomend: regel 127 bevat 'gecertificeerd, accountant' met een spurious komma — ETL-interpunctie-artefact. Inhoud verder compleet. (Herbevestiging van eerdere beoordeling.)"
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 7
-      max_section_chars: 16201
       file_size_chars: 22206
       flags: []
+      heading_count: 7
+      max_section_chars: 16201
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "D2: regel 144 verwijst naar een schematisch tijdlijn-overzicht ('Schematisch kunnen de volgende termijnen worden onderscheiden:') dat niet volgt — was een afbeelding in het origineel. Bijkomend: regel 113 bevat 'gecertificeerd, accountant' met een spurious komma (A5-adjacent typefout door extractie). Inhoud verder compleet; 51 voetnoten correct."
+      run_at: '2026-05-11T15:26:40Z'
+      rationale: "D2: regel 158 verwijst naar een schematisch tijdlijn-overzicht dat niet volgt. Bijkomend: regel 127 bevat 'gecertificeerd, accountant' met een spurious komma — ETL-interpunctie-artefact. Inhoud verder compleet. (Herbevestiging van eerdere beoordeling.)"
       concrete_problemen:
-        - regel: 144
+        - regel: 158
           categorie: D2
           type: missing-section
           voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [tijdlijn-schema ontbreekt]'
-        - regel: 113
+        - regel: 127
           categorie: A5
           type: other
           voorbeeld: gecertificeerd, accountant bevestigt dit schriftelijk akkoord (spurious komma na 'gecertificeerd')

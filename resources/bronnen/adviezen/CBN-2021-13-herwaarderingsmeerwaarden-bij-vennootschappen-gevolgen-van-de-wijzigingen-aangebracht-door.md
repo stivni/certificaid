@@ -25,33 +25,33 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:26:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: op regel 114 staat '### 1° verhoogd met het bedrag van de omgezette herwaarderingsmeerwaarde' — een genummerd lijstelement ('1°') is als ### heading opgemaakt i.p.v. als list item, wat een hiërarchiesprong veroorzaakt (H3 zonder voorafgaande logische sectionering). D4: op regel 148 staat 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' met een spatie na 'rekening' vóór de italic-opener. Verder zijn inhoud, voetnoten (28 aanwezig) en alle overige headings (12) correct."
+    rationale: "B2: Regel 136 bevat '### 1° verhoogd met het bedrag van de omgezette herwaarderingsmeerwaarde, en' — een genummerd lijstelement ('1°') is als ### heading opgemaakt in plaats van als list item, hiërarchiesprong veroorzakend (H3 zonder logische sectionering). D4: Regel 170 bevat 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' met spatie na 'rekening' vóór de italic-opener. Verder 12 headings correct, 28 voetnoten aanwezig."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
+      file_size_chars: 21893
+      flags: []
       heading_count: 12
       max_section_chars: 7266
-      file_size_chars: 21904
-      flags: []
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "B2: op regel 114 staat '### 1° verhoogd met het bedrag van de omgezette herwaarderingsmeerwaarde' — een genummerd lijstelement ('1°') is als ### heading opgemaakt i.p.v. als list item, wat een hiërarchiesprong veroorzaakt (H3 zonder voorafgaande logische sectionering). D4: op regel 148 staat 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' met een spatie na 'rekening' vóór de italic-opener. Verder zijn inhoud, voetnoten (28 aanwezig) en alle overige headings (12) correct."
+      run_at: '2026-05-11T15:26:40Z'
+      rationale: "B2: Regel 136 bevat '### 1° verhoogd met het bedrag van de omgezette herwaarderingsmeerwaarde, en' — een genummerd lijstelement ('1°') is als ### heading opgemaakt in plaats van als list item, hiërarchiesprong veroorzakend (H3 zonder logische sectionering). D4: Regel 170 bevat 'rekening* 1109 Andere beschikbare inbreng buiten kapitaal*' met spatie na 'rekening' vóór de italic-opener. Verder 12 headings correct, 28 voetnoten aanwezig."
       concrete_problemen:
-        - regel: 114
+        - regel: 136
           categorie: B2
           type: other
           voorbeeld: '### 1° verhoogd met het bedrag van de omgezette herwaarderingsmeerwaarde, en'
-        - regel: 148
+        - regel: 170
           categorie: D4
           type: other
           voorbeeld: rekening* 1109 Andere beschikbare inbreng buiten kapitaal*
@@ -87,13 +87,13 @@ De geherwaardeerde waarde die voor deze vaste activa in aanmerking wordt genomen
 1° worden overgebracht naar een reserve tot het beloop van de op de meerwaarde geboekte afschrijvingen;
 2° bij latere vastgestelde minderwaarde worden afgeboekt tot het beloop van het nog niet afgeschreven gedeelte van de meerwaarde.
 Een herwaarderingsmeerwaarde mag nooit rechtstreeks of onrechtstreeks aangewend worden om overgedragen verliezen geheel of gedeeltelijk aan te zuiveren voor het nog niet afgeschreven gedeelte van de herwaarderingsmeerwaarde.”
-## Boekhoudkundige verwerking van herwaarderingsmeerwaarden 
+## Boekhoudkundige verwerking van herwaarderingsmeerwaarden
 
 De wetgever stelt de kapitaalvennootschappen in staat een herwaarderingsmeerwaarde om te zetten in kapitaal. Voor kapitaalloze vennootschappen bestaat er echter geen expliciete bepaling hieromtrent. Dit betekent evenwel niet dat de kapitaalloze vennootschappen niet in staat zijn een herwaarderingsmeerwaarde om te zetten in inbreng.
 
 De wetgever heeft in dit verband eveneens enkele verduidelijkingen aangebracht aan de wettelijke bepalingen inzake uitkeringen[^9]. De Commissie zal ook deze kwestie toelichten voor de kapitaalhoudende en kapitaalloze vennootschappen. 
 
-### Kapitaalhoudende vennootschappen 
+### Kapitaalhoudende vennootschappen
 
 #### Omzetting in kapitaal van een herwaarderingsmeerwaarde en kapitaalvermindering (artikel 3:76 KB WVV en artikel 7:208 WVV)
 
@@ -124,17 +124,17 @@ Wanneer een herwaarderingsmeerwaarde in het kapitaal is omgezet mag het kapitaal
 2° in voorkomend geval, verminderd met het bedrag van de inmiddels gerealiseerde meerwaarde ingevolge overdracht van het betrokken actiefbestanddeel”.
 Het kapitaal mag dus niet worden verminderd tot een bedrag kleiner dan: het minimumkapitaal[^17] vermeerderd met het bedrag van de in kapitaal omgezette herwaarderingsmeerwaarde en, in voorkomend geval, verminderd met het bedrag van de gerealiseerde meerwaarde die werd behaald als gevolg van de realisatie van het betrokken actiefbestanddeel. Dit impliceert ook dat de techniek om eerst een herwaarderingsmeerwaarde te incorporeren in het kapitaal om deze meteen daarna middels een kapitaalvermindering te gebruiken om verliezen aan te zuiveren nu ook vanuit het WVV zelf niet meer mogelijk is.
 
-### *Voorbeeld 1* 
+### Voorbeeld 1
 
 Het kapitaal van een naamloze vennootschap bedraagt 115.000 euro. In de loop van boekjaar N beslist deze NV om één van haar gebouwen[^18] te herwaarderen voor een bedrag van 45.000 euro[^19]. De vennootschap zet deze meerwaarde om in kapitaal.
 Door deze omzetting bedraagt het kapitaal van de vennootschap 148.750[^20] euro. Veronderstel een overdragen verlies van 100.000 euro.
 In de loop van jaar N+2 wil de vennootschap overgaan tot een kapitaalvermindering om de verliezen aan te zuiveren. Hiervoor wenst zij haar kapitaal te verminderen met 60.000 euro. Krachtens artikel 7:208 WVV mag de naamloze vennootschap (meer bepaald: de algemene vergadering) dergelijke verrichting niet uitvoeren[^21].
 Indien de naamloze vennootschap de vermindering zou doorvoeren, zou het kapitaal 88.750[^22] euro bedragen. Het verminderde kapitaal is in dat geval kleiner dan het bedrag van het minimumkapitaal (61.500) vermeerderd met de in kapitaal omgezette herwaarderingsmeerwaarde (33.750), namelijk 95.250 euro.
-### *Voorbeeld 2* 
+### Voorbeeld 2
 
 We hernemen de gegevens van het eerste voorbeeld. De naamloze vennootschap verkoopt in N+1 het gebouw waarop een herwaarderingsmeerwaarde werd geboekt. De gerealiseerde meerwaarde ten opzichte van de boekwaarde vóór (of zonder rekening te houden met) de geboekte herwaarderingsmeerwaarde bedraagt 20.000 euro.
 In de loop van jaar N+2 wil de vennootschap een kapitaalvermindering van 60.000 euro doorvoeren om haar verliezen aan te zuiveren. Het kapitaal mag na de kapitaalvermindering niet minder bedragen dan 75.250 euro[^23]. Krachtens artikel 7:208 WVV mag de vennootschap deze kapitaalvermindering[^24] doorvoeren.
-#### Uitkeerbare winst 
+#### Uitkeerbare winst
 
 De wetgever heeft het begrip “uitkeerbare winst” licht gewijzigd.[^25]
  Artikel 7:212 WVV voegt het volgende toe aan de vroegere definitie van uitkeerbare winst[^26]: “[...] *Voor de toepassing van deze bepaling wordt het niet afgeschreven gedeelte van de herwaarderingsmeerwaarden gelijkgesteld met een krachtens de wet als onbeschikbaar gestelde reserve*”. 
@@ -143,7 +143,7 @@ Bijgevolg is het in geen geval mogelijk deze gelijkstelling te omzeilen via een 
 
 Het uitkeringsverbod dat dus vroeger was opgenomen in artikel 57, § 3, derde lid KB W.Venn. is dus voortaan ook in het WVV ingeschreven.
 
-### Kapitaalloze vennootschappen 
+### Kapitaalloze vennootschappen
 
 #### Mogelijkheid om herwaarderingsmeerwaarden in inbreng om te zetten
 
@@ -167,7 +167,7 @@ Mede op grond van artikel 5:142 WVV blijft deze herwaarderingsmeerwaarde behoude
 
 Uit het beschikbaar maken van het eerder niet-afgeschreven gedeelte van de in de inbreng omgezette herwaarderingsmeerwaarden zou foutief kunnen worden geconcludeerd dat dit gerealiseerde winst uitmaakt. 
 
-#### Uitkering van het vermogen 
+#### Uitkering van het vermogen
 
 De wetgever heeft de wettelijke bepalingen herzien inzake de uitkering van het vermogen bij kapitaalloze vennootschappen. Wanneer de vennootschap wil overgaan tot uitkering dienen twee tests te worden uitgevoerd: de uitkerings- en liquiditeitstest. De Commissie werkt momenteel aan een ontwerpadvies waarin dit onderwerp wordt behandeld. 
 

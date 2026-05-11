@@ -16,40 +16,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:42Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A3+B3: TOC-fragmenten in de body op regels 62–69: '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN' (typo + extra H1), genummerde inhoudsopgave-resten ('1. Periode tot...', '2. Periode na...'), en een samengestelde foutlijn 'Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten' zonder witruimte — typische scrape-artefacten die in de body terechtkwamen."
+    rationale: "A3+B3: TOC-fragmenten en scrape-artefacten in de body. Regel 72: '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN' is een extra H1 met typofout (COMMISIE). Regel 74: 'Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten' — twee sectietitels samengevoegd zonder witruimte, typisch scrape-artefact. Inhoud anderszins volledig."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
+      file_size_chars: 10866
+      flags: []
       heading_count: 4
       max_section_chars: 3897
-      file_size_chars: 11022
-      flags: []
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "A3+B3: TOC-fragmenten in de body op regels 62–69: '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN' (typo + extra H1), genummerde inhoudsopgave-resten ('1. Periode tot...', '2. Periode na...'), en een samengestelde foutlijn 'Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten' zonder witruimte — typische scrape-artefacten die in de body terechtkwamen."
+      run_at: '2026-05-11T15:23:42Z'
+      rationale: "A3+B3: TOC-fragmenten en scrape-artefacten in de body. Regel 72: '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN' is een extra H1 met typofout (COMMISIE). Regel 74: 'Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten' — twee sectietitels samengevoegd zonder witruimte, typisch scrape-artefact. Inhoud anderszins volledig."
       concrete_problemen:
-        - regel: 62
+        - regel: 72
           categorie: B3
           type: other
-          voorbeeld: '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN — extra H1 + typo (COMMISIE)'
-        - regel: 64
+          voorbeeld: "# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN — extra H1 met typofout (bron-artefact: 'COMMISIE' vs 'COMMISSIE')"
+        - regel: 74
           categorie: A3
           type: other
-          voorbeeld: 1. Periode tot de datum van boekhoudkundige retroactiviteit — TOC-fragment in body
-        - regel: 69
-          categorie: A3
-          type: other
-          voorbeeld: Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten — samengevoegde TOC-rest
+          voorbeeld: Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten — samengevoegde sectietitels zonder spatie
 themas:
   - Inbreng van een algemeenheid
   - openbaarmaking
@@ -60,11 +56,6 @@ themas:
 ---
 
 # COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN
-
-1. Periode tot de datum van boekhoudkundige retroactiviteit
-
-2. Periode na de datum van boekhoudkundige retroactiviteit 
-3. Openbaarmakingsformaliteiten 
 
 Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten 
 
@@ -83,7 +74,7 @@ In het Wetboek van vennootschappen wordt de “inbreng van een algemeenheid” o
 Bij een pseudo-fusie tussen verenigingen wordt de algemeenheid overgedragen om niet. De inbrengende vereniging ontvangt m.a.w. geen enkele vergoeding.[^5]
  De vereniging die in het kader van de pseudo-fusie haar volledige vermogen heeft overgedragen, heeft bijgevolg geen middelen meer om haar maatschappelijk doel te verwezenlijken; de algemene vergadering[^6] van de inbrengende vereniging kan zich uitspreken over de ontbinding van deze vereniging.
 
-## Periode tot de datum van boekhoudkundige retroactiviteit[^7] 
+## Periode tot de datum van boekhoudkundige retroactiviteit[^7]
 
 Ook al bestaat hiertoe geen wettelijke verplichting, omwille van het belang van continuïteit van informatie beveelt de Commissie aan dat de inbrengende vereniging desgevallend[^8] een jaarrekening opstelt en openbaar maakt voor de periode tussen de afsluitingsdatum van het laatste boekjaar waarvan de jaarrekening werd goedgekeurd en de datum vanaf dewelke de verrichtingen boekhoudkundig worden beschouwd als zijnde verricht voor rekening van de verkrijgende vereniging.
 

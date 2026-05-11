@@ -12,44 +12,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'B4: drie ### headings in all-caps (INLEIDING r.62, SCHRAPPING VAN HET WOORD r.68, HET ONGESPLITSTE DAGBOEK r.82) — mens schrijft dit als ## met normale kapitalisatie. B2: heading-hiërarchie springt van H1 direct naar ### zonder enig ## tussenniveau. Inhoud verder volledig en correct; geen andere artefacten.'
+    rationale: "D4: r.61 toont 'tot* \"de registratie van de verrichtingen...' — sluitende asterisk van italic staat direct vóór een spatie ('beperkt is tot* \"de registratie'), wat een malformed italic-patroon is. Overige structuur (drie ##-headings, twee voetnoten) is correct. Inhoud volledig. Één D4-artefact is reden voor needs-rework conform vuistregel."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 3
-      max_section_chars: 3333
       file_size_chars: 6250
       flags: []
+      heading_count: 3
+      max_section_chars: 3333
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: 'B4: drie ### headings in all-caps (INLEIDING r.62, SCHRAPPING VAN HET WOORD r.68, HET ONGESPLITSTE DAGBOEK r.82) — mens schrijft dit als ## met normale kapitalisatie. B2: heading-hiërarchie springt van H1 direct naar ### zonder enig ## tussenniveau. Inhoud verder volledig en correct; geen andere artefacten.'
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "D4: r.61 toont 'tot* \"de registratie van de verrichtingen...' — sluitende asterisk van italic staat direct vóór een spatie ('beperkt is tot* \"de registratie'), wat een malformed italic-patroon is. Overige structuur (drie ##-headings, twee voetnoten) is correct. Inhoud volledig. Één D4-artefact is reden voor needs-rework conform vuistregel."
       concrete_problemen:
-        - regel: 62
-          categorie: B4
+        - regel: 61
+          categorie: D4
           type: other
-          voorbeeld: '### INLEIDING (all-caps ### zonder bovenliggend ## niveau)'
-        - regel: 68
-          categorie: B4
-          type: other
-          voorbeeld: '### SCHRAPPING VAN HET WOORD « MINIMAAL » IN ARTIKEL 2 EN BIJLAGE A VAN HET BESLUIT (all-caps ###)'
-        - regel: 82
-          categorie: B4
-          type: other
-          voorbeeld: '### HET ONGESPLITSTE DAGBOEK HOUDEN DOOR MIDDEL VAN GEINFORMATISEERDE SYSTEMEN (all-caps ###)'
-        - regel: 62
-          categorie: B2
-          type: other
-          voorbeeld: 'H1 → ### zonder tussenniveau ## (heading-hiërarchie springt)'
+          voorbeeld: beperkt is tot* "de registratie van de verrichtingen met betrekking tot de mutaties
 themas:
   - centraal boek
   - ongesplitst dagboek
@@ -59,13 +47,13 @@ themas:
 
 # CBN-advies 2009/4 - Model van ongesplitst dagboek zoals bedoeld in artikel 2 van het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde VZW’s, stichtingen en IVZW’s
 
-### INLEIDING
+## INLEIDING
 
 Met het koninklijk besluit van 15 september 2006 tot wijziging van het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde verenigingen zonder winstoogmerk, stichtingen en internationale verenigingen zonder winstoogmerk, werd in artikel 2 en in bijlage A het woord “minimaal” geschrapt. Tevens werd artikel 3 van het besluit in die zin gewijzigd, dat het ongesplitste dagboek mag worden gehouden door middel van geïnformatiseerde systemen, op voorwaarde dat de voor het bewaren gebruikte drager de onveranderlijkheid en de toegankelijkheid van de gegevens die erin geregistreerd zijn, gedurende 10 jaar verzekert. Terloops wordt erop gewezen dat het woord “minimaal” niet is geschrapt in de artikelen 12[^1] en 13[^2], noch in de bijlagen B en C van het besluit.
 
 De vragen die hieromtrent werden gesteld, kwamen erop neer te weten of, enerzijds, de schrapping van het woord "minimaal" in artikel 2 en bijlage A, en de handhaving daarvan in artikel 12 en 13 en bijlage B en C, geen tegenstrijdigheid vormen, en anderzijds, of een ongesplitst dagboek met behulp van een Excel-spreadsheet mag worden gehouden. 
 
-### SCHRAPPING VAN HET WOORD « MINIMAAL » IN ARTIKEL 2 EN BIJLAGE A VAN HET BESLUIT
+## SCHRAPPING VAN HET WOORD « MINIMAAL » IN ARTIKEL 2 EN BIJLAGE A VAN HET BESLUIT
 
 Ingevolge de wijzigingen die met het voornoemde koninklijk besluit van 15 september 2006 zijn aangebracht, worden "*de verrichtingen die betrekking hebben op mutaties in contant geld of op rekeningen […] zonder vertraging, getrouw en volledig en naar tijdsorde ingeschreven in een ongesplitst dagboek volgens het model uit bijlage A bij dit besluit*" (artikel 2 van het koninklijk besluit van 26 juni 2003), waarbij dit model niet langer “minimaal” wordt genoemd. 
 
@@ -79,7 +67,7 @@ Wat de handhaving betreft van het woord "minimaal" in artikel 12 en 13 alsook in
 
 Naar het oordeel van de Commissie vormen de weglating van het woord "minimaal" in artikel 2 (en bijlage A) van het besluit van 26 juni 2003 en het behoud daarvan in artikel 12 en 13 (alsook in bijlage B en C) geen tegenstrijdigheid.
 
-### HET ONGESPLITSTE DAGBOEK HOUDEN DOOR MIDDEL VAN GEINFORMATISEERDE SYSTEMEN
+## HET ONGESPLITSTE DAGBOEK HOUDEN DOOR MIDDEL VAN GEINFORMATISEERDE SYSTEMEN
 
 Met het koninklijk besluit van 15 september 2006 tot wijziging van het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde verenigingen zonder winstoogmerk, stichtingen en internationale verenigingen zonder winstoogmerk werd artikel 3 van het besluit in die zin gewijzigd, dat het ongesplitste dagboek mag worden gehouden door middel van geïnformatiseerde systemen, op voorwaarde dat de voor het bewaren gebruikte drager de onveranderlijkheid en de toegankelijkheid van de gegevens die erin geregistreerd zijn, gedurende 10 jaar verzekert. 
 

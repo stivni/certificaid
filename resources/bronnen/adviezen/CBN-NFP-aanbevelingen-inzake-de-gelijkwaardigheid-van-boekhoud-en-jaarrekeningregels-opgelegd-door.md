@@ -12,44 +12,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:13Z'
+    confirmed_at: '2026-05-11T15:26:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B4: sectie A (Inleiding) is niet als heading opgemaakt — `**A. INLEIDING**` op regel 59 is bold tekst, terwijl secties B, C en D wél `##`-headings zijn (regels 100, 117, 132). Dit is een inconsistente heading-hiërarchie die een mens nooit zo zou schrijven. B3/B2: regel 57 bevat een tweede `#`-heading (`# Januari 2007`) onmiddellijk na de hoofd-H1 op regel 55 — een lege sectie-heading zonder inhoud. C2/A6: de genummerde criteria 1-9 in sectie D (regels 138-165) staan elk als een geïsoleerd getal op een eigen regel, gevolgd door de tekst op de volgende regel (`1.\n\nEen patrimoniale boekhouding...`), in plaats van als `1. tekst` op één regel — dit is een PDF-extractie-artefact."
+    rationale: "B4: sectie A (Inleiding) is opgemaakt als `**A. INLEIDING**` bold-tekst op regel 101 in plaats van als ## heading, terwijl secties B, C en D wél als ## heading zijn opgemaakt — inconsistente heading-structuur die een mens nooit zo zou schrijven. B3: regel 99 bevat een tweede # H1-heading '## Januari 2007' onmiddellijk na de hoofd-H1 op regel 97, zonder sectie-inhoud — een lege sectionering. A6/C2: de genummerde criteria 1-9 in sectie D (regels 180-206) staan elk als een geïsoleerd getal op een eigen regel gevolgd door de tekst op de volgende alinea (`1.\n\nEen patrimoniale boekhouding...`), in plaats van als `1. tekst` op één regel — PDF-extractie-artefact."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:19Z'
-      heading_count: 3
-      max_section_chars: 9352
-      file_size_chars: 23500
+      file_size_chars: 23501
       flags: []
+      heading_count: 4
+      max_section_chars: 9127
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:13Z'
-      rationale: "B4: sectie A (Inleiding) is niet als heading opgemaakt — `**A. INLEIDING**` op regel 59 is bold tekst, terwijl secties B, C en D wél `##`-headings zijn (regels 100, 117, 132). Dit is een inconsistente heading-hiërarchie die een mens nooit zo zou schrijven. B3/B2: regel 57 bevat een tweede `#`-heading (`# Januari 2007`) onmiddellijk na de hoofd-H1 op regel 55 — een lege sectie-heading zonder inhoud. C2/A6: de genummerde criteria 1-9 in sectie D (regels 138-165) staan elk als een geïsoleerd getal op een eigen regel, gevolgd door de tekst op de volgende regel (`1.\n\nEen patrimoniale boekhouding...`), in plaats van als `1. tekst` op één regel — dit is een PDF-extractie-artefact."
+      run_at: '2026-05-11T15:26:40Z'
+      rationale: "B4: sectie A (Inleiding) is opgemaakt als `**A. INLEIDING**` bold-tekst op regel 101 in plaats van als ## heading, terwijl secties B, C en D wél als ## heading zijn opgemaakt — inconsistente heading-structuur die een mens nooit zo zou schrijven. B3: regel 99 bevat een tweede # H1-heading '## Januari 2007' onmiddellijk na de hoofd-H1 op regel 97, zonder sectie-inhoud — een lege sectionering. A6/C2: de genummerde criteria 1-9 in sectie D (regels 180-206) staan elk als een geïsoleerd getal op een eigen regel gevolgd door de tekst op de volgende alinea (`1.\n\nEen patrimoniale boekhouding...`), in plaats van als `1. tekst` op één regel — PDF-extractie-artefact."
       concrete_problemen:
-        - regel: 57
+        - regel: 99
           categorie: B3
           type: other
-          voorbeeld: '# Januari 2007 (tweede H1 zonder sectie-inhoud, onmiddellijk na de hoofd-H1)'
-        - regel: 59
+          voorbeeld: '## Januari 2007 (tweede H1/H2 onmiddellijk na hoofd-H1, lege sectie-heading)'
+        - regel: 101
           categorie: B4
           type: other
-          voorbeeld: '**A. INLEIDING** (bold tekst als sectie-label i.p.v. ## heading, inconsistent met B/C/D)'
-        - regel: 138
+          voorbeeld: '**A. INLEIDING** (bold tekst als sectie-label i.p.v. ## heading, inconsistent met ## B, ## C, ## D)'
+        - regel: 180
           categorie: A6
           type: other
-          voorbeeld: 1. \n\nEen patrimoniale boekhouding voeren... (getal op eigen regel, tekst op volgende)
-        - regel: 141
-          categorie: A6
-          type: other
-          voorbeeld: 2. \n\nHet verbod op compensatie... (zelfde patroon, criteria 1-9 allemaal zo)
+          voorbeeld: "1. \n\nEen patrimoniale boekhouding voeren... (getal op eigen regel, tekst op volgende alinea — criteria 1-9 allemaal zo)"
 themas:
   - gelijkwaardigheid
   - zeer grote verenigingen en stichtingen
@@ -70,7 +66,7 @@ themas:
 
 # Aanbevelingen inzake de gelijkwaardigheid van boekhoud- en jaarrekeningregels opgelegd door sectorale regelgevingen met de gemeenrechtelijke boekhoud- en jaarrekeningregels voor vzw’s, ivzw’s en stichtingen
 
-# Januari 2007
+## Januari 2007
 
 **A. INLEIDING**
 

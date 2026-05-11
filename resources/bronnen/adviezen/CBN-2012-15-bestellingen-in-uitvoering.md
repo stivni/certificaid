@@ -25,36 +25,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: de vergelijkingstabel percentage-of-completion vs completed-contract op regels 152–170 heeft multi-line celinhoud met lege regels ertussen — dit is geen geldige markdown-pipe-tabel. E2: de tabel op regels 470–473 heeft beide boekingsregels als debet (rekening 370 én rekening 7170 beiden in debet-kolom) zonder 'aan'-prefix op de credit-zijde — inhoudelijk fout en structureel incorrect."
+    rationale: "E2: de vergelijkingstabel 'percentage of completion vs completed contract' op regels 164–186 heeft multi-line celinhoud met lege regels ertussen — dit is geen geldige markdown-pipe-tabel en zal niet correct renderen. E2: de journaalboekingstabel op regels 489–492 heeft twee debet-regels zonder 'aan'-prefix op de credit-zijde (rekening 370 én 7170 beiden als debet-rij in dezelfde tabel zonder tegenboekingsstructuur)."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 28
-      max_section_chars: 7063
-      file_size_chars: 41075
+      file_size_chars: 41221
       flags: []
+      heading_count: 28
+      max_section_chars: 7135
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "E2: de vergelijkingstabel percentage-of-completion vs completed-contract op regels 152–170 heeft multi-line celinhoud met lege regels ertussen — dit is geen geldige markdown-pipe-tabel. E2: de tabel op regels 470–473 heeft beide boekingsregels als debet (rekening 370 én rekening 7170 beiden in debet-kolom) zonder 'aan'-prefix op de credit-zijde — inhoudelijk fout en structureel incorrect."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "E2: de vergelijkingstabel 'percentage of completion vs completed contract' op regels 164–186 heeft multi-line celinhoud met lege regels ertussen — dit is geen geldige markdown-pipe-tabel en zal niet correct renderen. E2: de journaalboekingstabel op regels 489–492 heeft twee debet-regels zonder 'aan'-prefix op de credit-zijde (rekening 370 én 7170 beiden als debet-rij in dezelfde tabel zonder tegenboekingsstructuur)."
       concrete_problemen:
-        - regel: 152
+        - regel: 164
           categorie: E2
           type: pseudo-table
-          voorbeeld: '| | | *Percentage of completion methode* | | *Completed contract methode* |\n| Zekerheid van het erkende resultaat | |'
-        - regel: 470
+          voorbeeld: '| | | *Percentage of completion methode* | | *Completed contract methode* |'
+        - regel: 489
           categorie: E2
           type: other
-          voorbeeld: '| | 370 | Bestellingen in uitvoering – Aanschaffingswaarde | 40.000 | |\n| | 7170 | Wijzigingen... | 40.000 | |'
+          voorbeeld: "| | 370 | Bestellingen in uitvoering – Aanschaffingswaarde | 40.000 | |\n| | 7170 | Wijzigingen... | 40.000 | |"
 themas:
   - bestellingen in uitvoering
   - completed contract method
@@ -66,7 +66,7 @@ themas:
 
 # CBN-advies 2012/15 – Bestellingen in uitvoering
 
-## Inleiding 
+## Inleiding
 
 Voorraden komen doorgaans tegemoet aan het beginsel “make then sell”. Bij bestellingen in uitvoering (rekening 37) is er echter veeleer sprake van een “sell then make” uitgangspunt, wat doorgaans inhoudt dat de bestelling eerst wordt geformaliseerd door de ondertekening van een contract en dat de werken of diensten pas nadien worden aangevat.
 
@@ -129,7 +129,7 @@ De vervaardigingprijs omvat daarentegen nooit[^4]:
 - de kosten voor onderzoek en ontwikkeling, algemene administratie, commercialisering en verkoop; 
 - de kosten ingevolge gebrekkig werk, fouten en andere verliezen, wanneer die kosten geen verband houden met de normale bedrijfsvoorwaarden. 
 
-#### Waarderingsaspecten n.a.v. de toepassing van “direct costing” 
+#### Waarderingsaspecten n.a.v. de toepassing van “direct costing”
 
 Een onderneming kan er tevens voor opteren om naast “full costing” de zogenaamde “direct costing” als uitgangspunt te nemen voor de waardering van de bestellingen in uitvoering. Dit impliceert dat enkel de rechtstreekse kosten worden toegerekend aan de kostprijs. Het overzicht van de rechtstreekse kosten wordt verstrekt in randnummer 6.
 
@@ -148,6 +148,7 @@ De meest elementaire waarderingsregel bij projectgebonden activiteiten, is de ke
 Het onderscheid tussen beide methoden wordt hieronder schematisch weergegeven[^7]:
 
 | | | *Percentage of completion methode* | | *Completed contract methode* | 
+|---|---|---|---|---|
 | Zekerheid van het erkende resultaat | | 
 
 De geanticipeerde winst in de boekjaren voorafgaand aan de oplevering berust enigszins op schattingen.
@@ -155,6 +156,7 @@ De geanticipeerde winst in de boekjaren voorafgaand aan de oplevering berust eni
 Er ontstaat dus een risico om voorbarig winst op te nemen op onafgewerkte producten, die later fictief kan blijken te zijn[^8]. 
 
   | | 
+|---|
 
 Het resultaat is zeker en juist gezien de eindtoestand in ogenschouw wordt genomen.
 
@@ -162,10 +164,12 @@ Er hoeven geen belangrijke schattingen te worden gemaakt.
 
   | 
 | Verloop van het resultaat | | Continue winststroom. | | Discontinu, afhankelijk van het tijdstip van realisatie. | 
+|---|---|---|---|---|
 | Jaarrekening | | Weerspiegeling van de bedrijfseconomische realiteit. 
 
 			De winst valt in de periode waarin de productie-activiteit heeft plaatsgevonden en de kosten zijn gemaakt. | | Generatie van verdoken reserves die pas op het einde van de bestelling (bij de realisatie) tot uitdrukking komen. | 
 | Boekhoudprincipe ten grondslag | | Overwicht van het matching principe | | Overwicht van het voorzichtigheids- en realisatieprincipe | 
+|---|---|---|---|---|
 
 De “completed contract” methode houdt in dat enkel de kosten die werden gedragen bij de uitvoering van de bestelling worden geactiveerd. Dit heeft als gevolg dat de winst pas bij het beëindigen van de werkzaamheden wordt gerealiseerd. In tegenstelling hiermee wordt bij de “percentage of completion” methode de winstmarge in het resultaat opgenomen naarmate de werkzaamheden vorderen. 
 
@@ -242,6 +246,7 @@ Veronderstel nu dat de klant, na de levering van de eerste 15 schepen, nog 5 bij
 De NV ABC sluit een overeenkomst af met de NV XYZ voor de bouw van enkele treinstellen in jaar N. De vermoedelijke oplevering zal plaatsvinden in het jaar N+2. De verkoopprijs bedraagt 8.000.000 EUR. De stijging van de cumulatieve kosten bij voltooiing in het jaar N en N+1 is gerelateerd aan de prijsschommeling van enkele grondstoffen die contractueel niet kunnen worden doorgefactureerd aan de klant.
 
 | | | ** Jaar N** | | **Jaar N+1** | | **Jaar N+2** | 
+|---|---|---|---|---|---|---|
 | **Cumulatieve kosten (A)** | | 3.000.000 | | 4.200.000 | | 5.400.000 | 
 | **Geraamde cumulatieve kosten bij voltooiing (B)** | | 4.500.000 | | 5.200.000 | | 5.400.000 | 
 | **Voortschrijdingsgraad (A/B)**  | | 66,67 % | | 81 % | | 100 % | 
@@ -250,7 +255,7 @@ De NV ABC sluit een overeenkomst af met de NV XYZ voor de bouw van enkele treins
 | **Toerekening** | | 2.333.333 | | | | 338.462 | 
 | **Terugname** | | | | 71.795 | | | 
 
-### *Boekhoudkundige verwerking per 31 december N*
+### Boekhoudkundige verwerking per 31 december N
 
 Tijdens het boekjaar werden de kosten (voor een bedrag van 3.000.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen.
 
@@ -268,7 +273,7 @@ Indien de onderneming ABC ervoor opteert om de “percentage of completion” me
 | | 371 | Bestellingen in uitvoering – Toegerekende winst | 2.333.333 | |
 | aan | 7171 | Wijzigingen in de bestellingen in uitvoering – Toegerekende winst | | 2.333.333 |
 
-### *Boekhoudkundige verwerking per 31 december N+1*
+### Boekhoudkundige verwerking per 31 december N+1
 
 Tijdens het boekjaar werden de kosten (voor een bedrag van 1.200.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen.
 
@@ -288,7 +293,7 @@ Indien de onderneming ABC ervoor opteert om de “percentage of completion” me
 | | 7171 | Wijzigingen in de bestellingen in uitvoering – Toegerekende winst | 71.795 | |
 | aan | 371 | Bestellingen in uitvoering – Toegerekende winst | | 71.795 |
 
-### * Boekhoudkundige verwerking per 31 december N+2*
+### Boekhoudkundige verwerking per 31 december N+2
 
 Tijdens het boekjaar werden de kosten (voor een bedrag van 1.200.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen.
 
@@ -335,7 +340,7 @@ Een onderneming kent op balansdatum de volgende situatie met betrekking tot een 
 | | Contractuele prijs | 100.000 EUR | | |
 | | Verlies | 30.000 EUR | | |
 
-### *Boekhoudkundige verwerking per 31 december N*
+### Boekhoudkundige verwerking per 31 december N
 
 Tijdens het boekjaar werden de kosten (voor een bedrag van 90.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen.
 
@@ -355,7 +360,7 @@ Daar de contractuele prijs 100.000 EUR bedraagt ten opzichte van een cumulatieve
 
 Voorgaande boeking zou zowel bij toepassing van de “percentage of completion” methode als bij toepassing van de “completed contract” methode moeten worden doorgevoerd. 
 
-### *Boekhoudkundige verwerking per 31 december N+ 1*
+### Boekhoudkundige verwerking per 31 december N+ 1
 
 Tijdens het boekjaar werden de kosten (voor een bedrag van 40.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen.
 
@@ -384,6 +389,7 @@ Daarnaast zal ook de waardevermindering van het jaar N worden teruggenomen:
 Dit heeft tot gevolg dat er per 31 december N+1 het volgende resultaat wordt erkend: 
 
 | Omzet | | 100.000 | 
+|---|---|---|
 | Uitboeking aanschaffingswaarde | | - 90.000 | 
 | Terugname waardeverminderingen | | 30.000 | 
 | Kosten van het boekjaar N+1 | | 40.000 | 
@@ -397,7 +403,7 @@ Een onderneming ontvangt van een klant in het jaar N een bestelling om een machi
 
 De onderneming past de “completed contract” methode toe. De cumulatieve kost voor de constructie van de machine bedraagt in het jaar N 80.000 EUR en in het jaar N+1 100.000 EUR. De onderneming zal bij oplevering derhalve een winst van 120.000 EUR realiseren (300.000 EUR – 180.000 EUR).
 
-### *Boekhoudkundige verwerking per 31 december N*
+### Boekhoudkundige verwerking per 31 december N
 
 Het ontvangen voorschot wordt als volgt geboekt:
 
@@ -445,6 +451,7 @@ Vervolgens dient de aanschaffingswaarde van de bestellingen in uitvoering te wor
 Uiteindelijk kan het resultaat uit de overeenkomst als volgt worden samengesteld in het jaar N+1:
 
 | Omzet (voorschot- en slotfactuur) | | 300.000 | 
+|---|---|---|
 | Kosten boekjaar N+1 | | -100.000 | 
 | Uitboeken aanschaffingswaarde | | -80.000 | 
 | Resultaat | | 120.000 | 
@@ -482,13 +489,14 @@ Bij de toepassing van de “completed contract” methode worden deze kosten als
 
 In het jaar N+1 zal er opnieuw een raming plaatsvinden van de nog te maken kosten tot oplevering. Hierdoor zal het bedrag van de vervaardigingprijs van de bestellingen in uitvoering toenemen, en zal het bedrag van de voorziening worden teruggenomen ten opzichte van een stijging van de waardeverminderingen op de bestelling in uitvoering.
 
-### Zero profit margin techniek[^13] 
+### Zero profit margin techniek[^13]
 
 De NV GYZ heeft een contract afgesloten met BVBA TTT voor een bouwproject op een kunstmatig eiland. Gezien een dergelijk project nog nooit door de NV GYZ werd uitgevoerd werd er gestipuleerd in de overeenkomst dat de winstmarge op het contract minimaal 400.000 EUR zal bedragen, hetgeen gegarandeerd werd door de afnemer. 
 
 Gezien de aard van de activiteiten kan de voortschrijdingsgraad niet betrouwbaar worden ingeschat daar de NV GYZ geen historiek heeft voor dergelijke bouwprojecten. Derhalve zal er, door toepassing van de zero profit margin techniek in het jaar N en N+1 geen winst worden toegerekend daar de cumulatieve kost bij voltooiing onbekend is op dat ogenblik. 
 
 | | | **Jaar N**  | | **Jaar N+1**  | | **Jaar N+2** | | **Jaar n+3** | 
+|---|---|---|---|---|---|---|---|---|
 | **Cumulatieve kosten (A)** | | 3.000.000 | | 4.200.000 | | 8.000.000 | | 10.000.000 | 
 | **Cumulatieve kosten bij voltooiing (B)** | | Onbekend | | Onbekend | | 10.000.000 | | 10.000.000 | 
 | **Voortschrijdingsgraad** | | Onbekend | | Onbekend | | 80 % | | 100 % | 
@@ -506,7 +514,7 @@ Tijdens het boekjaar werden de kosten (voor een bedrag van 3.000.000 EUR) ten la
 | | 370 | Bestellingen in uitvoering – Aanschaffingswaarde | 3.000.000 | |
 | aan | 7170 | Wijzigingen in de bestellingen in uitvoering – Aanschaffingswaarde | | 3.000.000 |
 
-### *Boekhoudkundige verwerking per 31 december N+1*
+### Boekhoudkundige verwerking per 31 december N+1
 
 Tijdens het boekjaar werden de kosten (voor een bedrag van 1.200.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen. Per 31 december N+1 wordt geen marge met betrekking tot dit contract erkend.
 
@@ -515,7 +523,7 @@ Tijdens het boekjaar werden de kosten (voor een bedrag van 1.200.000 EUR) ten la
 | | 370 | Bestellingen in uitvoering – Aanschaffingswaarde | 1.200.000 | |
 | aan | 7170 | Wijzigingen in de bestellingen in uitvoering – Aanschaffingswaarde | | 1.200.000 |
 
-### *Boekhoudkundige verwerking per 31 december N+2*
+### Boekhoudkundige verwerking per 31 december N+2
 
 Tijdens het boekjaar werden de kosten (voor een bedrag van 3.800.000 EUR) ten laste van de resultatenrekening gelegd via de respectievelijke 60-, 61-, 62-, 63- of 64-rekeningen.
 
@@ -531,7 +539,7 @@ Tijdens het boekjaar werden de kosten (voor een bedrag van 3.800.000 EUR) ten la
 | | 371 | Bestellingen in uitvoering – Toegerekende winst | 1.600.000 | |
 | aan | 7171 | Wijzigingen in de bestellingen in uitvoering – Toegerekende winst | | 1.600.000 |
 
-### *Boekhoudkundige verwerking per 31 december N+3*
+### Boekhoudkundige verwerking per 31 december N+3
 
 Voor de boekhoudkundige verwerking in het jaar N+3 kan verwezen worden naar het voorbeeld opgenomen onder randnummer 26. 
 

@@ -12,32 +12,28 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'A3: De TOC op regels 53-99 staat als uitgebreide geneste plain-text nummerlijst in de body vóór de eerste `## Inleiding` heading — een klassiek TOC-artefact. Inhoud, tabellen en voetnoten zijn verder volledig en correct opgemaakt; 36 headings correct hiërarchisch gelaagd.'
+    rationale: 'Na re-scrape met scraper-fixes is het TOC-artefact (A3, regels 53–99 in de vorige versie) verdwenen. De body begint direct met `## Inleiding` na de frontmatter. Geen TOC-blok zichtbaar. Structuur volledig correct: 36 headings correct hiërarchisch gelaagd (#, ##, ###, ####), alle boekingstabellen in pipe-syntax, voetnoten [^1]–[^17] correct gedefinieerd. Geen artefacten uit categorieën A–G gevonden.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 36
-      max_section_chars: 6546
-      file_size_chars: 22115
+      file_size_chars: 20424
       flags: []
+      heading_count: 36
+      max_section_chars: 4858
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: 'A3: De TOC op regels 53-99 staat als uitgebreide geneste plain-text nummerlijst in de body vóór de eerste `## Inleiding` heading — een klassiek TOC-artefact. Inhoud, tabellen en voetnoten zijn verder volledig en correct opgemaakt; 36 headings correct hiërarchisch gelaagd.'
-      concrete_problemen:
-        - regel: 53
-          categorie: A3
-          type: other
-          voorbeeld: "1. Inleiding \n2. Boekhoudkundige verwerking in hoofde van de uitgevende vennootschap \n  1. Obligatielening..."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: 'Na re-scrape met scraper-fixes is het TOC-artefact (A3, regels 53–99 in de vorige versie) verdwenen. De body begint direct met `## Inleiding` na de frontmatter. Geen TOC-blok zichtbaar. Structuur volledig correct: 36 headings correct hiërarchisch gelaagd (#, ##, ###, ####), alle boekingstabellen in pipe-syntax, voetnoten [^1]–[^17] correct gedefinieerd. Geen artefacten uit categorieën A–G gevonden.'
+      concrete_problemen: []
 themas:
   - obligatielening
   - obligaties
@@ -54,53 +50,6 @@ themas:
 
 # CBN-advies 2019/07 – Boekhoudkundige verwerking van de uitgifte van een obligatielening
 
-1. Inleiding 
-2. Boekhoudkundige verwerking in hoofde van de uitgevende vennootschap 
-  1. Obligatielening
-
-  2. Kosten bij uitgifte van leningen 
-  3. Agio en disagio 
-    1. Lening zonder verschil tussen de uitgifteprijs en terugbetalingswaarde 
-    2. Uitgifte onder pari en terugbetaling tegen pari-waarde 
-    3. Uitgifte tegen pari-waarde en terugbetaling boven pari 
-    4. Uitgifte onder pari en terugbetaling boven pari 
-
-3. Voorbeeld 
-  1. Boekhoudkundige verwerking in 2019 
-    1. Uitgifte van de obligatielening per 1 april 2019 
-    2. Regularisering einde boekjaar 2019 
-
-  2. Boekhoudkundige verwerking in 2020 
-    1. Begin van het boekjaar 2020 (tegenboeking)
-
-    2. Vervaldag van de rente (1 april 2020)
-
-    3. Regularisering einde boekjaar 2020 
-
-  3. Boekhoudkundige verwerking in 2021 
-    1. Begin van het boekjaar 2021 (tegenboeking) 
-    2. Vervaldag van de rente (1 april 2021) 
-    3. Regularisering einde boekjaar 2021 
-
-  4. Boekhoudkundige verwerking in 2022 
-    1. Begin van het boekjaar 2022 (tegenboeking) 
-    2. Vervaldag van de rente (1 april 2022) 
-    3. Regularisering einde boekjaar 2022 
-
-  5. Boekhoudkundige verwerking in 2023 
-    1. Begin van het boekjaar 2023 (tegenboeking) 
-    2. Vervaldag van de rente (1 april 2023) 
-    3. Regularisering einde boekjaar 2023 
-
-  6. Boekhoudkundige verwerking in 2024 
-    1. Begin van het boekjaar 2024 (tegenboeking) 
-    2. Vervaldatum van de rente (1 april 2024) 
-    3. Regularisering einde boekjaar 2024 (waaronder herclassificatie van de schuld) 
-
-  7. Boekhoudkundige verwerking in 2025 
-    1. Begin van het boekjaar 2025 (tegenboeking) 
-    2. Vervaldag van de lening en terugbetaling van de obligaties (1 april 2025) 
-
 ## Inleiding
 
 De Commissie werd gevraagd om advies te geven betreffende de interpretatie van de wettelijke bepalingen verbonden aan de boekhoudkundige verwerking van kosten, premies en verliezen bij de uitgifte van een obligatielening.
@@ -111,7 +60,7 @@ Een obligatie is het equivalent van een lening toegekend door een investeerder a
 
 ## Boekhoudkundige verwerking in hoofde van de uitgevende vennootschap
 
-### Obligatielening[^3] 
+### Obligatielening[^3]
 
 Obligatieleningen moeten tegen hun uitgiftewaarde (of uitgifteprijs) worden gewaardeerd (artikel 3:51 KB WVV).
 
@@ -148,6 +97,7 @@ Dit betekent dat voor contracten die afgesloten zijn na 31 december 1991, de uit
 Het behoort het bestuursorgaan toe de uitgiftevoorwaarden voor een obligatielening te bepalen. De leningen kunnen als volgt worden uitgegeven:
 
 | | | Uitgifte onder pari | | Uitgifte tegen pari-waarde | | Uitgifte boven pari | 
+|---|---|---|---|---|---|---|
 | Terugbetaling onder pari | | | | Negatieve terugbetalingspremie | | Negatieve dubbele premie | 
 | Terugbetaling tegen pari-waarde | | Uitgiftepremie | | Lening zonder premie | | Negatieve uitgiftepremie | 
 | Terugbetaling boven pari | | Dubbele premie | | Terugbetalingspremie | | | 
@@ -162,7 +112,7 @@ Het bedrag (of uitgifteprijs) dat gestort is door de inschrijver is kleiner dan 
 
 *Voorbeeld*: uitgifte tegen 97,50 %. Voor een nominale waarde van 10.000.000 EUR, moeten de inschrijvers slechts 9.750.000 EUR betalen. Zo ontstaat er een* uitgiftepremie *van 2,50 %.
 
-#### Uitgifte tegen pari-waarde en terugbetaling boven pari 
+#### Uitgifte tegen pari-waarde en terugbetaling boven pari
 
 De terugbetalingswaarde (op de vervaldag) van de a pari uitgegeven obligatie ligt hoger dan de nominale waarde.
 
@@ -229,14 +179,14 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 
 ### Boekhoudkundige verwerking in 2020
 
-#### Begin van het boekjaar 2020 (tegenboeking)[^13] 
+#### Begin van het boekjaar 2020 (tegenboeking)[^13]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 492 | Toe te rekenen kosten | 107.812,50 | |
 | aan | 6500 | Rente, commissies en kosten verbonden aan schulden | | 107.812,50 |
 
-#### Vervaldag van de rente (1 april 2020)[^14] 
+#### Vervaldag van de rente (1 april 2020)[^14]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

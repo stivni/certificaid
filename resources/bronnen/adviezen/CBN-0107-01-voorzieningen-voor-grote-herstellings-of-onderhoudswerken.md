@@ -3,43 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-grote-herstellings-o
 datum: 1977-08-01
 nummer: CBN-advies 107/1
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-grote-herstellings-of-onderhoudswerken
-      sha256: 69ce4d9ffa509f8b14692db444383872c9441ce2977831e235bb825fd7b3d51d
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-grote-herstellings-of-onderhoudswerken
+    sha256: 69ce4d9ffa509f8b14692db444383872c9441ce2977831e235bb825fd7b3d51d
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T11:57:45Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 700
       file_size_chars: 700
       flags: []
+      heading_count: 0
+      max_section_chars: 700
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Extreem korte bron (700 chars, 2 alinea''s, geen headings buiten de paginatitel). Laag-1 pass. Geen detecteerbare extractie-artefacten: geen HTML-entities, geen gebroken zinnen na footnote-markers, geen unicode-artefacten. De inhoud is volledig en afgerond — dit advies is inhoudelijk kort van aard.'
+      rationale: 'Extreem korte bron (700 chars, 2 alinea''s, geen headings buiten
+        de paginatitel). Laag-1 pass. Geen detecteerbare extractie-artefacten: geen
+        HTML-entities, geen gebroken zinnen na footnote-markers, geen unicode-artefacten.
+        De inhoud is volledig en afgerond — dit advies is inhoudelijk kort van aard.'
       run_at: '2026-05-11T11:57:45Z'
       status: trusted
-    rationale: 'Extreem korte bron (700 chars, 2 alinea''s, geen headings buiten de paginatitel). Laag-1 pass. Geen detecteerbare extractie-artefacten: geen HTML-entities, geen gebroken zinnen na footnote-markers, geen unicode-artefacten. De inhoud is volledig en afgerond — dit advies is inhoudelijk kort van aard.'
+    rationale: 'Extreem korte bron (700 chars, 2 alinea''s, geen headings buiten de
+      paginatitel). Laag-1 pass. Geen detecteerbare extractie-artefacten: geen HTML-entities,
+      geen gebroken zinnen na footnote-markers, geen unicode-artefacten. De inhoud
+      is volledig en afgerond — dit advies is inhoudelijk kort van aard.'
     status: trusted
 themas:
-  - grote herstellings- en onderhoudswerken
-  - herstellings- en onderhoudswerken
-  - kosten grote herstellings- of onderhoudswerken
-  - voorziening
-  - voorzieningen voor grote herstellings- of onderhoudswerken
+- grote herstellings- en onderhoudswerken
+- herstellings- en onderhoudswerken
+- kosten grote herstellings- of onderhoudswerken
+- voorziening
+- voorzieningen voor grote herstellings- of onderhoudswerken
 ---
 
 # CBN-advies 107/1 - Voorzieningen voor grote herstellings- of onderhoudswerken

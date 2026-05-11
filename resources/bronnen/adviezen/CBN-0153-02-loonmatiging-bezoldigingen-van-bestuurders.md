@@ -2,61 +2,67 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
 datum: 1995-03-01
 gerelateerde_adviezen:
-  - datum: '2020-08-05'
-    titel: Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris
-    url: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
-  - datum: '2019-09-26'
-    titel: Boekhoudplichtige onderneming
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
-  - datum: '2016-09-07'
-    titel: Vergoedingen aan bestuurders en werkende vennoten
-    url: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
-  - datum: '1978-07-01'
-    titel: Bezoldigingen toegekend aan bestuurders en commissarissen -Bedoelde bezoldigingen
-    url: https://www.cbn-cnc.be/nl/adviezen/bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen
+- datum: '2020-08-05'
+  titel: Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris
+  url: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
+- datum: '2019-09-26'
+  titel: Boekhoudplichtige onderneming
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
+- datum: '2016-09-07'
+  titel: Vergoedingen aan bestuurders en werkende vennoten
+  url: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
+- datum: '1978-07-01'
+  titel: Bezoldigingen toegekend aan bestuurders en commissarissen -Bedoelde bezoldigingen
+  url: https://www.cbn-cnc.be/nl/adviezen/bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen
 nummer: CBN-advies 153/2
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
-      sha256: 5775518672073eb4ccad2ec0a44dd277bc67b055566971951312d79692a3d4e5
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
+    sha256: 5775518672073eb4ccad2ec0a44dd277bc67b055566971951312d79692a3d4e5
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:04:41Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 0
-      max_section_chars: 3942
       file_size_chars: 3942
       flags: []
+      heading_count: 0
+      max_section_chars: 3942
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Bron volledig gelezen (3943 tekens, heading_count: 0, Laag-1 pass). Drie journaalboekingstabellen correct als pipe-tables. Drie voetnoten correct gedefinieerd. Geen artefacten in categorieën A-G. Inhoud volledig: juridische context + voorkeur-boekingswijze + boekingen voor alle scenario''s aanwezig.'
+      rationale: 'Bron volledig gelezen (3943 tekens, heading_count: 0, Laag-1 pass).
+        Drie journaalboekingstabellen correct als pipe-tables. Drie voetnoten correct
+        gedefinieerd. Geen artefacten in categorieën A-G. Inhoud volledig: juridische
+        context + voorkeur-boekingswijze + boekingen voor alle scenario''s aanwezig.'
       run_at: '2026-05-11T12:04:41Z'
       status: trusted
-    rationale: 'Bron volledig gelezen (3943 tekens, heading_count: 0, Laag-1 pass). Drie journaalboekingstabellen correct als pipe-tables. Drie voetnoten correct gedefinieerd. Geen artefacten in categorieën A-G. Inhoud volledig: juridische context + voorkeur-boekingswijze + boekingen voor alle scenario''s aanwezig.'
+    rationale: 'Bron volledig gelezen (3943 tekens, heading_count: 0, Laag-1 pass).
+      Drie journaalboekingstabellen correct als pipe-tables. Drie voetnoten correct
+      gedefinieerd. Geen artefacten in categorieën A-G. Inhoud volledig: juridische
+      context + voorkeur-boekingswijze + boekingen voor alle scenario''s aanwezig.'
     status: trusted
 themas:
-  - bestuurder
-  - voorziening
-  - bezoldiging
-  - bezoldiging van bestuurders
-  - bezoldigingen aan bestuurders en commissarissen
-  - loonmatiging
-  - participatiefonds
-  - personeel
-  - provisie
+- bestuurder
+- voorziening
+- bezoldiging
+- bezoldiging van bestuurders
+- bezoldigingen aan bestuurders en commissarissen
+- loonmatiging
+- participatiefonds
+- personeel
+- provisie
 ---
 
 # CBN-advies 153/2 - Loonmatiging (bezoldigingen van bestuurders)

@@ -12,56 +12,48 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: heading-hiërarchie inconsistent — document opent met ### Beginselen (H3) zonder voorafgaand H2, en ## Voorbeelden (H2) bevat direct #### Specifieke dekkingsverrichtingen (H4) zonder H3 ertussen. A4 op L162: U+00AC (¬) als koppelteken in 'in-resultaat¬neming'. A6: meerdere hyphen-spatie word-splits ('in-resultaat- neming' op L97 en L109, 'prijs- risico' op L113, 'niet- samenvallen' op L172, 'niet- gerealiseerde' op L125)."
+    rationale: "B2: heading-hiërarchie springt van H1 direct naar H3 ('### Beginselen') zonder tussenliggende H2 — de sectie 'Niet gedekte verrichtingen op termijn' (L64) is H3 in plaats van H2. Aanvullend A6: meerdere hyphen-spatie word-splits door het bestand: 'in-resultaat- neming' (L82), 'prijs- risico' (L97), 'niet- gerealiseerde' (L109) — PDF-regelbreuk-artefact."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 8
-      max_section_chars: 4052
-      file_size_chars: 12188
+      file_size_chars: 12180
       flags: []
+      heading_count: 8
+      max_section_chars: 4963
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "B2: heading-hiërarchie inconsistent — document opent met ### Beginselen (H3) zonder voorafgaand H2, en ## Voorbeelden (H2) bevat direct #### Specifieke dekkingsverrichtingen (H4) zonder H3 ertussen. A4 op L162: U+00AC (¬) als koppelteken in 'in-resultaat¬neming'. A6: meerdere hyphen-spatie word-splits ('in-resultaat- neming' op L97 en L109, 'prijs- risico' op L113, 'niet- samenvallen' op L172, 'niet- gerealiseerde' op L125)."
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: "B2: heading-hiërarchie springt van H1 direct naar H3 ('### Beginselen') zonder tussenliggende H2 — de sectie 'Niet gedekte verrichtingen op termijn' (L64) is H3 in plaats van H2. Aanvullend A6: meerdere hyphen-spatie word-splits door het bestand: 'in-resultaat- neming' (L82), 'prijs- risico' (L97), 'niet- gerealiseerde' (L109) — PDF-regelbreuk-artefact."
       concrete_problemen:
-        - regel: 68
+        - regel: 52
           categorie: B2
           type: other
-          voorbeeld: '### Beginselen (H3 direct na H1, geen H2 ertussen)'
-        - regel: 115
-          categorie: B2
+          voorbeeld: '### Beginselen (H1 → H3 zonder H2)'
+        - regel: 82
+          categorie: A6
           type: other
-          voorbeeld: '## Voorbeelden → #### Specifieke dekkingsverrichtingen (H2→H4, geen H3)'
+          voorbeeld: niet voor in-resultaat- neming vatbaar is
+        - regel: 93
+          categorie: A6
+          type: other
+          voorbeeld: niet voor in-resultaat- neming vatbaar is
         - regel: 97
           categorie: A6
           type: other
-          voorbeeld: '...niet voor in-resultaat- neming vatbaar is.'
-        - regel: 113
+          voorbeeld: het hieraan verbonden prijs- risico gedekt
+        - regel: 109
           categorie: A6
           type: other
-          voorbeeld: '...het hieraan verbonden prijs- risico gedekt...'
-        - regel: 125
-          categorie: A6
-          type: other
-          voorbeeld: '...zowel een niet-gerealiseerd verlies... als een niet- gerealiseerde winst...'
-        - regel: 162
-          categorie: A4
-          type: other
-          voorbeeld: in-resultaat¬neming (U+00AC als koppelteken)
-        - regel: 172
-          categorie: A6
-          type: other
-          voorbeeld: '...wegens het niet- samenvallen van de vervaldagen (mismatching).'
+          voorbeeld: een niet- gerealiseerde winst (niet in resultaat te nemen)
 themas:
   - gedekte verrichting
   - handelsgoederen
@@ -77,7 +69,7 @@ themas:
 
 # CBN-advies 132/4 - Termijnovereenkomsten op handelsgoederen
 
-### Beginselen 
+## Beginselen
 
 1. Handelsgoederen in voorraad worden krachtens artikel 27, § 1 van het koninklijk besluit van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen, gewaardeerd tegen aanschaffingswaarde of tegen de marktwaarde op balansdatum als die lager is. 
 
@@ -89,9 +81,9 @@ Artikel 19, 5de lid van dit besluit bepaalt : «Voorzieningen moeten, onder meer
 2. ... 
 3. de verlies- of kostenrisico's die voortvloeien uit ... termijnposities of -overeenkomsten op goederen». 
 
-### Niet gedekte verrichtingen op termijn 
+## Niet gedekte verrichtingen op termijn
 
-#### Aankoopverrichtingen 
+### Aankoopverrichtingen
 
 Ten aanzien van het prijsrisico, maakt het voor een onderneming geen verschil uit of zij goederen op termijn heeft gekocht dan wel in voorraad heeft. Inderdaad, wanneer een onderneming goederen op termijn heeft gekocht en daarna de marktwaarde daalt, dan is het potentieel verlies op deze verrichting hetzelfde als indien deze goederen in voorraad waren. 
 
@@ -108,7 +100,7 @@ Hieruit volgen twee conclusies :
 
 Indien op balansdatum de marktprijs hoger is dan de in de termijnaankoopovereenkomst bedongen prijs, is er een latente winst die echter niet gerealiseerd is en die derhalve niet voor in-resultaat- neming vatbaar is. 
 
-#### Verkoopverrichtingen 
+### Verkoopverrichtingen
 
 Wanneer een onderneming goederen op termijn heeft verkocht die zij niet in voorraad heeft noch op termijn heeft gekocht, dan heeft zij een baissepositie. Dit betekent dat zij een daling van de prijzen verwacht en goederen heeft verkocht met de hoop om op een later tijdstip de te leveren goederen goedkoper te kunnen aankopen. 
 
@@ -120,7 +112,7 @@ Zoals hierboven gezegd is in casu de algemene regeling inzake voorzieningen van 
 
 Indien op balansdatum de marktprijs lager is dan de in de termijnverkoopovereenkomst bedongen prijs, is er een latente winst die echter niet gerealiseerd is en die derhalve niet voor in-resultaat- neming vatbaar is. 
 
-### Gedekte verrichtingen 
+## Gedekte verrichtingen
 
 Als op een bepaald ogenblik een onderneming goederen in voorraad heeft dan wel op termijn heeft gekocht en tegelijkertijd soortgelijke goederen contant dan wel op termijn verkoopt, dan is het hieraan verbonden prijs- risico gedekt ten belope van het kleinste van de twee betrokken hoeveelheden. 
 
@@ -138,7 +130,7 @@ Zouden deze voorraden, aankopen op termijn en verkopen op termijn afzonderlijk w
 
 Hierbij moet een onderscheid worden gemaakt tussen de gevallen waarin de onderneming specifieke dekkingsverrichtingen uitvoert en de gevallen waarin de onderneming een groot aantal verrichtingen afsluit en waar de positie niet per verrichting maar in haar geheel wordt beheerd. 
 
-#### Specifieke dekkingsverrichtingen 
+### Specifieke dekkingsverrichtingen
 
 Bij specifieke dekking hoort de rechtstreekse bedrijfseconomische binding tussen de twee verrichtingen ook in de boekhouding te worden weergegeven. 
 
@@ -148,7 +140,7 @@ In het hierboven sub b) aangehaalde geval is de voorraad te waarderen tegen de i
 
 In het sub c) aangehaalde geval is het prijsrisico met betrekking tot de op termijn gekochte grondstoffen gedekt door de prijs die voor deze grondstoffen is bedongen in de ontvangen bestelling. Er is derhalve geen reden om bij het opmaken van de inventaris en de jaarrekening, rekening te houden met de latere evolutie van de marktprijs van deze op termijn gekochte grondstoffen. 
 
-#### Verrichtingen in groter aantal en beheer van de positie 
+### Verrichtingen in groter aantal en beheer van de positie
 
 Wanneer een onderneming talrijke verrichtingen op termijn afsluit, worden de goederenposities over het algemeen als geheel beheerd veeleer dan via een specifieke dekking per verrichting. Hier spitst het toezicht zich dan toe op de totale positie die voortvloeit uit de (algebraïsche) samenvoeging van verrichtingen in groter aantal. 
 

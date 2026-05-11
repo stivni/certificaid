@@ -2,50 +2,56 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken
 datum: 2011-10-05
 gerelateerde_adviezen:
-  - datum: '2016-09-28'
-    titel: Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding
-    url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
-  - datum: '1997-02-01'
-    titel: Beginselen van een regelmatige boekhouding
-    url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
+- datum: '2016-09-28'
+  titel: Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding
+  url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
+- datum: '1997-02-01'
+  titel: Beginselen van een regelmatige boekhouding
+  url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
 nummer: CBN-advies 2011/21
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken
-      sha256: 65f95b8699d7f9352f77c42c264b757409453a813a287d7b1a18f2499ed561c2
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken
+    sha256: 65f95b8699d7f9352f77c42c264b757409453a813a287d7b1a18f2499ed561c2
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:09:18Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 0
-      max_section_chars: 2211
       file_size_chars: 2211
       flags: []
+      heading_count: 0
+      max_section_chars: 2211
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Laag 1: pass, heading_count 0 — correct want het is een korte procedurenota die na de H1-titel enkel doorlopende proza bevat zonder tussenkoppen (inhoud rechtvaardigt dit). Één voetnoot [^1] correct gedefinieerd en gerefereerd. Geen extractie-artefacten. Inhoud compleet en afgerond.'
+      rationale: 'Laag 1: pass, heading_count 0 — correct want het is een korte procedurenota
+        die na de H1-titel enkel doorlopende proza bevat zonder tussenkoppen (inhoud
+        rechtvaardigt dit). Één voetnoot [^1] correct gedefinieerd en gerefereerd.
+        Geen extractie-artefacten. Inhoud compleet en afgerond.'
       run_at: '2026-05-11T12:09:18Z'
       status: trusted
-    rationale: 'Laag 1: pass, heading_count 0 — correct want het is een korte procedurenota die na de H1-titel enkel doorlopende proza bevat zonder tussenkoppen (inhoud rechtvaardigt dit). Één voetnoot [^1] correct gedefinieerd en gerefereerd. Geen extractie-artefacten. Inhoud compleet en afgerond.'
+    rationale: 'Laag 1: pass, heading_count 0 — correct want het is een korte procedurenota
+      die na de H1-titel enkel doorlopende proza bevat zonder tussenkoppen (inhoud
+      rechtvaardigt dit). Één voetnoot [^1] correct gedefinieerd en gerefereerd. Geen
+      extractie-artefacten. Inhoud compleet en afgerond.'
     status: trusted
 themas:
-  - bewaringstermijn
-  - boeken
-  - verantwoordingsstukken
-  - vereffening
+- bewaringstermijn
+- boeken
+- verantwoordingsstukken
+- vereffening
 ---
 
 # CBN-advies 2011/21 - Bewaring van de boeken en verantwoordingsstukken

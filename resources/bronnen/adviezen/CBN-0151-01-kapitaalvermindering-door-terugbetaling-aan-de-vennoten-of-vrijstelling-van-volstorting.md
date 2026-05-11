@@ -25,27 +25,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: alle journaalboekingstabellen hebben lege debet- en creditkolommen (regels 79-80, 92-93, 97-99) — de cijfers ontbreken volledig, wat niet de opzet van het brondocument is. Bovendien staat op regel 99 '| aan | | 101 | | Niet-opgevraagd kapitaal |' met een extra lege cel, wat een structuurverschuiving veroorzaakt ten opzichte van de header."
+    rationale: "E2: alle drie boekingstabellen (regels 77-80, 90-93, 96-99) hebben volledig lege debet- en creditkolommen — de cijferbedragen ontbreken, wat duidelijk niet de opzet is van het advies. Bovendien staat regel 99 '| aan | | 101 | | Niet-opgevraagd kapitaal |' met een extra lege cel waardoor de kolommen verschuiven ten opzichte van de header."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 1
-      max_section_chars: 3764
       file_size_chars: 3764
       flags: []
+      heading_count: 1
+      max_section_chars: 3764
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "E2: alle journaalboekingstabellen hebben lege debet- en creditkolommen (regels 79-80, 92-93, 97-99) — de cijfers ontbreken volledig, wat niet de opzet van het brondocument is. Bovendien staat op regel 99 '| aan | | 101 | | Niet-opgevraagd kapitaal |' met een extra lege cel, wat een structuurverschuiving veroorzaakt ten opzichte van de header."
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: "E2: alle drie boekingstabellen (regels 77-80, 90-93, 96-99) hebben volledig lege debet- en creditkolommen — de cijferbedragen ontbreken, wat duidelijk niet de opzet is van het advies. Bovendien staat regel 99 '| aan | | 101 | | Niet-opgevraagd kapitaal |' met een extra lege cel waardoor de kolommen verschuiven ten opzichte van de header."
       concrete_problemen:
         - regel: 79
           categorie: E2
@@ -85,14 +85,15 @@ De vennootschap moet derhalve haar vordering op haar aandeelhouders in haar acti
 
 In dit geval worden bijgevolg onderstaande boekingen verricht : 
 
-### Kapitaalvermindering
+## Kapitaalvermindering
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 100 | Geplaatst kapitaal | | |
 | aan | 48 | Diverse schulden | | |
 
-Voorlopig behoud van de vordering op de aandeelhouders:
+## Voorlopig behoud van de vordering op de aandeelhouders:
+
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 410 | Diverse vorderingen | | |

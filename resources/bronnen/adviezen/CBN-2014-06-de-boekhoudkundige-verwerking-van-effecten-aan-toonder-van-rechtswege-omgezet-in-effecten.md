@@ -12,30 +12,30 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:42Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Regel 52: 'op 1 januari 2014' staat als losstaande tekstregel direct na de H1-titel — dit is een fragment van de volledige originele titel die door de scraper werd gesplitst (A6/B5). Hoort in de H1-heading of verwijderd te worden. Inhoud verder volledig."
+    rationale: "A6/B5: regel 58 bevat 'op 1 januari 2014' als losstaande tekstregel direct na de H1-titel — fragment van de volledige originele titel die door de scraper werd gesplitst. Hoort geïntegreerd te zijn in de H1-heading. Inhoud verder volledig en helder."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 5
-      max_section_chars: 3101
       file_size_chars: 7553
       flags: []
+      heading_count: 5
+      max_section_chars: 3101
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "Regel 52: 'op 1 januari 2014' staat als losstaande tekstregel direct na de H1-titel — dit is een fragment van de volledige originele titel die door de scraper werd gesplitst (A6/B5). Hoort in de H1-heading of verwijderd te worden. Inhoud verder volledig."
+      run_at: '2026-05-11T15:23:42Z'
+      rationale: "A6/B5: regel 58 bevat 'op 1 januari 2014' als losstaande tekstregel direct na de H1-titel — fragment van de volledige originele titel die door de scraper werd gesplitst. Hoort geïntegreerd te zijn in de H1-heading. Inhoud verder volledig en helder."
       concrete_problemen:
-        - regel: 52
-          categorie: B5
+        - regel: 58
+          categorie: A6
           type: other
           voorbeeld: op 1 januari 2014 — losstaand fragment na H1-heading
 themas:

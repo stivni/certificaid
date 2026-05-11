@@ -2,50 +2,52 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/kosten-die-worden-gemaakt-bij-de-vervreemding-van-activa
 datum: 1983-04-10
 gerelateerde_adviezen:
-  - datum: '1988-12-01'
-    titel: Boeking van commissies
-    url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
-  - datum: '1980-06-01'
-    titel: 'Aanschaffingsprijs : bijkomende kosten'
-    url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
+- datum: '1988-12-01'
+  titel: Boeking van commissies
+  url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-commissies
+- datum: '1980-06-01'
+  titel: 'Aanschaffingsprijs : bijkomende kosten'
+  url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
 nummer: CBN-advies 135/1
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/kosten-die-worden-gemaakt-bij-de-vervreemding-van-activa
-      sha256: b5cada4573c21bf3796e8b0e3d996d6bf619d4af92184ada684335af4e28511f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/kosten-die-worden-gemaakt-bij-de-vervreemding-van-activa
+    sha256: b5cada4573c21bf3796e8b0e3d996d6bf619d4af92184ada684335af4e28511f
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:04:41Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 1476
       file_size_chars: 1476
       flags: []
+      heading_count: 0
+      max_section_chars: 1476
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Kort advies (1476 tekens), geen structuurproblemen, geen artefacten. Inhoud volledig.
+      rationale: Kort advies (1476 tekens), geen structuurproblemen, geen artefacten.
+        Inhoud volledig.
       run_at: '2026-05-11T12:04:41Z'
       status: trusted
-    rationale: Kort advies (1476 tekens), geen structuurproblemen, geen artefacten. Inhoud volledig.
+    rationale: Kort advies (1476 tekens), geen structuurproblemen, geen artefacten.
+      Inhoud volledig.
     status: trusted
 themas:
-  - bijkomende kost
-  - compensatie
-  - kosten bij vervreemding van activa
-  - vervreemding
+- bijkomende kost
+- compensatie
+- kosten bij vervreemding van activa
+- vervreemding
 ---
 
 # CBN-advies 135/1 - Kosten die worden gemaakt bij de vervreemding van activa

@@ -2,53 +2,59 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/het-gebruik-van-de-rekening-15-kapitaalsubsidies-door-grote-en-zeer-grote-verenigingen-en
 datum: 2013-02-20
 gerelateerde_adviezen:
-  - datum: '2022-09-19'
-    titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
-  - datum: '2021-07-02'
-    titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
-  - datum: '2020-09-17'
-    titel: Schenkingen en legaten voor VZW’s, IVZW’s en stichtingen die een dubbele boekhouding voeren
-    url: https://www.cbn-cnc.be/nl/adviezen/schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren
-  - datum: '2019-03-29'
-    titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait'
-    url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
+- datum: '2022-09-19'
+  titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
+- datum: '2021-07-02'
+  titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+- datum: '2020-09-17'
+  titel: Schenkingen en legaten voor VZW’s, IVZW’s en stichtingen die een dubbele
+    boekhouding voeren
+  url: https://www.cbn-cnc.be/nl/adviezen/schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren
+- datum: '2019-03-29'
+  titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait
+    en het strategisch forfait'
+  url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
 nummer: CBN-advies 2013/2
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/het-gebruik-van-de-rekening-15-kapitaalsubsidies-door-grote-en-zeer-grote-verenigingen-en
-      sha256: fc1c5e4c4def5750d73db528721f40d665cb8d84abd956ac123dcc6b75452629
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/het-gebruik-van-de-rekening-15-kapitaalsubsidies-door-grote-en-zeer-grote-verenigingen-en
+    sha256: fc1c5e4c4def5750d73db528721f40d665cb8d84abd956ac123dcc6b75452629
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 2
-      max_section_chars: 4029
       file_size_chars: 6859
       flags: []
+      heading_count: 2
+      max_section_chars: 4029
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Geen artefacten gevonden. Kort advies (6860 chars) met twee correcte H2-kopjes. Voetnoten correct. Drie beschrijvende voorbeelden als lopende tekst, geen tabellen nodig. Inhoud compleet.
+      rationale: Geen artefacten gevonden. Kort advies (6860 chars) met twee correcte
+        H2-kopjes. Voetnoten correct. Drie beschrijvende voorbeelden als lopende tekst,
+        geen tabellen nodig. Inhoud compleet.
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: Geen artefacten gevonden. Kort advies (6860 chars) met twee correcte H2-kopjes. Voetnoten correct. Drie beschrijvende voorbeelden als lopende tekst, geen tabellen nodig. Inhoud compleet.
+    rationale: Geen artefacten gevonden. Kort advies (6860 chars) met twee correcte
+      H2-kopjes. Voetnoten correct. Drie beschrijvende voorbeelden als lopende tekst,
+      geen tabellen nodig. Inhoud compleet.
     status: trusted
 themas:
-  - kapitaalsubsidie
+- kapitaalsubsidie
 ---
 
 # CBN-advies 2013/2 – Het gebruik van de rekening 15 Kapitaalsubsidies door grote en zeer grote verenigingen en stichtingen

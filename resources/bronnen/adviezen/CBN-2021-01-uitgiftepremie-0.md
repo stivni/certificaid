@@ -25,44 +25,44 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:26:39Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D4: Regel 82 bevat ':* I.B. Inbreng - Onbeschikbaar*.' waarbij een spatie staat tussen de opening-asterisk en 'I.B.' — de italic sluit niet correct. B5: Regels 142 en 148 bevatten subsectietitels 'b) Indien...' en 'c) Bij een latere...' als plain-text vóór tabellen zonder heading-prefix, terwijl 'a)' op regel 135 wél een ### heading heeft — inconsistent patroon. F1: De H1-titel luidt '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' in plaats van de verwachte '# CBN-advies 2021/01 – Uitgiftepremie' — ontbreekt advies-identificatie in de body-titel."
+    rationale: "F1: H1-titel luidt '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' i.p.v. de verwachte '# CBN-advies 2021/01 – Uitgiftepremie' — advies-identificatie ontbreekt in body-titel. D4: Regel 117 bevat ':* I.B. Inbreng - Onbeschikbaar*.' met spatie na opening-asterisk (italic niet correct geopend). B5: Regels 178 en 184 bevatten subsectietitels 'b) Indien...' en 'c) Bij een latere...' als plain-text vóór tabellen zonder heading-prefix, terwijl 'a)' op regel 171 wél een ### heading heeft."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 10
-      max_section_chars: 8218
-      file_size_chars: 16100
+      file_size_chars: 16099
       flags: []
+      heading_count: 10
+      max_section_chars: 8217
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "D4: Regel 82 bevat ':* I.B. Inbreng - Onbeschikbaar*.' waarbij een spatie staat tussen de opening-asterisk en 'I.B.' — de italic sluit niet correct. B5: Regels 142 en 148 bevatten subsectietitels 'b) Indien...' en 'c) Bij een latere...' als plain-text vóór tabellen zonder heading-prefix, terwijl 'a)' op regel 135 wél een ### heading heeft — inconsistent patroon. F1: De H1-titel luidt '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' in plaats van de verwachte '# CBN-advies 2021/01 – Uitgiftepremie' — ontbreekt advies-identificatie in de body-titel."
+      run_at: '2026-05-11T15:26:39Z'
+      rationale: "F1: H1-titel luidt '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' i.p.v. de verwachte '# CBN-advies 2021/01 – Uitgiftepremie' — advies-identificatie ontbreekt in body-titel. D4: Regel 117 bevat ':* I.B. Inbreng - Onbeschikbaar*.' met spatie na opening-asterisk (italic niet correct geopend). B5: Regels 178 en 184 bevatten subsectietitels 'b) Indien...' en 'c) Bij een latere...' als plain-text vóór tabellen zonder heading-prefix, terwijl 'a)' op regel 171 wél een ### heading heeft."
       concrete_problemen:
-        - regel: 82
-          categorie: D4
-          type: other
-          voorbeeld: '- bij de andere dan de NV, SE, SCE:* I.B. Inbreng - Onbeschikbaar*. — spatie na opening-asterisk'
-        - regel: 142
-          categorie: B5
-          type: other
-          voorbeeld: 'b) Indien de statuten niets vermelden... (plain text, geen heading — terwijl a) op regel 135 wel ### heeft)'
-        - regel: 148
-          categorie: B5
-          type: other
-          voorbeeld: c) Bij een latere statutenwijziging... (idem — plain text)
-        - regel: 58
+        - regel: 94
           categorie: F1
           type: other
           voorbeeld: '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN (geen advies-nummer of titel in H1)'
+        - regel: 117
+          categorie: D4
+          type: other
+          voorbeeld: '- bij de andere dan de NV, SE, SCE:* I.B. Inbreng - Onbeschikbaar*.'
+        - regel: 178
+          categorie: B5
+          type: other
+          voorbeeld: 'b) Indien de statuten niets vermelden... (plain text, geen heading — terwijl a) op r. 171 wel ### heeft)'
+        - regel: 184
+          categorie: B5
+          type: other
+          voorbeeld: c) Bij een latere statutenwijziging... (idem — plain text)
 themas:
   - uitgiftepremie
   - beschikbare inbreng
@@ -122,7 +122,7 @@ Indien de uitgiftepremies daarentegen onbeschikbaar worden gesteld, kunnen deze 
 
 Wanneer de algemene vergadering middels een statutenwijziging de voorheen onbeschikbaar gestelde uitgiftepremies beschikbaar stelt, vindt een rechtstreekse[^10] overboeking plaats van de rekening 1110 *Uitgiftepremie* naar de rekening 1100 *Uitgiftepremie*. 
 
-### De uitgiftepremie bij een BV of een CV 
+### De uitgiftepremie bij een BV of een CV
 
 #### Nieuwe BV en CV vanaf 1 mei 2019
 

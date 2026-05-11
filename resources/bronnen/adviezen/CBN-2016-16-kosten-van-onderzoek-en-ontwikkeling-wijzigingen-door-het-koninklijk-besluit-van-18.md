@@ -2,56 +2,67 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18
 datum: 2016-09-07
 gerelateerde_adviezen:
-  - datum: '2025-07-14'
-    titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
-  - datum: '2018-05-30'
-    titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-  - datum: '2018-03-21'
-    titel: Aftrek voor innovatie-inkomsten
-    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-  - datum: '2016-12-14'
-    titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
-    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
+- datum: '2025-07-14'
+  titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
+- datum: '2018-05-30'
+  titel: Tax shelter voor podiumkunsten
+  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+- datum: '2018-03-21'
+  titel: Aftrek voor innovatie-inkomsten
+  url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+- datum: '2016-12-14'
+  titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling
+    - verduidelijking'
+  url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2016/16
 provenance:
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18
-      sha256: c009b0557cab54eeb87dd8a0583fc25602cfbfeecfbfd754605bcced159abb57
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18
+    sha256: c009b0557cab54eeb87dd8a0583fc25602cfbfeecfbfd754605bcced159abb57
+    version: null
+  stale: false
+  stale_reason: null
   tooling:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
-  stale: false
-  stale_reason:
+    prompt_version: null
   trust:
-    status: trusted
     confirmed_at: '2026-05-11T13:30:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Volledig schone markdown: 10 headings correct genest (##/###/####), lijsten consistent met `-` bullets en `(a)/(b)` labels, geen lege of dubbele headings, geen bold/italic-artefacten, geen TOC-residu. Voetnoten [^1]–[^12] volledig aanwezig. Inhoud compleet: inleiding, activeringsvoorwaarden, onderscheid onderzoek/ontwikkeling, toelichting en overgangsbepalingen. Een buitenstaander zou dit voor handgeschreven markdown kunnen aanzien.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 10
-      max_section_chars: 10103
       file_size_chars: 17046
       flags: []
+      heading_count: 10
+      max_section_chars: 10103
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: 'Volledig schone markdown: 10 headings correct genest (##/###/####), lijsten consistent met `-` bullets en `(a)/(b)` labels, geen lege of dubbele headings, geen bold/italic-artefacten, geen TOC-residu. Voetnoten [^1]–[^12] volledig aanwezig. Inhoud compleet: inleiding, activeringsvoorwaarden, onderscheid onderzoek/ontwikkeling, toelichting en overgangsbepalingen. Een buitenstaander zou dit voor handgeschreven markdown kunnen aanzien.'
       concrete_problemen: []
+      rationale: 'Volledig schone markdown: 10 headings correct genest (##/###/####),
+        lijsten consistent met `-` bullets en `(a)/(b)` labels, geen lege of dubbele
+        headings, geen bold/italic-artefacten, geen TOC-residu. Voetnoten [^1]–[^12]
+        volledig aanwezig. Inhoud compleet: inleiding, activeringsvoorwaarden, onderscheid
+        onderzoek/ontwikkeling, toelichting en overgangsbepalingen. Een buitenstaander
+        zou dit voor handgeschreven markdown kunnen aanzien.'
+      run_at: '2026-05-11T13:30:32Z'
+      status: trusted
+    rationale: 'Volledig schone markdown: 10 headings correct genest (##/###/####),
+      lijsten consistent met `-` bullets en `(a)/(b)` labels, geen lege of dubbele
+      headings, geen bold/italic-artefacten, geen TOC-residu. Voetnoten [^1]–[^12]
+      volledig aanwezig. Inhoud compleet: inleiding, activeringsvoorwaarden, onderscheid
+      onderzoek/ontwikkeling, toelichting en overgangsbepalingen. Een buitenstaander
+      zou dit voor handgeschreven markdown kunnen aanzien.'
+    status: trusted
 themas:
-  - immateriële vaste activa
-  - kosten van onderzoek en ontwikkeling
-  - onderzoekskost
-  - ontwikkelingskost
+- immateriële vaste activa
+- kosten van onderzoek en ontwikkeling
+- onderzoekskost
+- ontwikkelingskost
 ---
 
 # CBN-advies 2016/16 – Kosten van onderzoek en ontwikkeling: wijzigingen door het koninklijk besluit van 18 december 2015

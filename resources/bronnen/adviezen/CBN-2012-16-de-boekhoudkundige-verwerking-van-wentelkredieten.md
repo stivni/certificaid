@@ -3,41 +3,47 @@ bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-wente
 datum: 2012-11-07
 nummer: CBN-advies 2012/16
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-wentelkredieten
-      sha256: 7013e5464299052fde76798683ffe4624bacba1c24fde624e8e7cc98f671ea1d
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-wentelkredieten
+    sha256: 7013e5464299052fde76798683ffe4624bacba1c24fde624e8e7cc98f671ea1d
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:09:18Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 2
-      max_section_chars: 3798
       file_size_chars: 6850
       flags: []
+      heading_count: 2
+      max_section_chars: 3798
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen merkbare extractie-artefacten. Eenvoudige maar correcte structuur met twee ## headings. Inhoud volledig: definitie wentelkrediet, voorbeeld, revolving krediet en boekhoudkundige verwerking. Voetnoten aanwezig. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien.'
+      rationale: 'Geen merkbare extractie-artefacten. Eenvoudige maar correcte structuur
+        met twee ## headings. Inhoud volledig: definitie wentelkrediet, voorbeeld,
+        revolving krediet en boekhoudkundige verwerking. Voetnoten aanwezig. Een buitenstaander
+        zou de markdown voor mens-geschreven kunnen aanzien.'
       run_at: '2026-05-11T12:09:18Z'
       status: trusted
-    rationale: 'Geen merkbare extractie-artefacten. Eenvoudige maar correcte structuur met twee ## headings. Inhoud volledig: definitie wentelkrediet, voorbeeld, revolving krediet en boekhoudkundige verwerking. Voetnoten aanwezig. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien.'
+    rationale: 'Geen merkbare extractie-artefacten. Eenvoudige maar correcte structuur
+      met twee ## headings. Inhoud volledig: definitie wentelkrediet, voorbeeld, revolving
+      krediet en boekhoudkundige verwerking. Voetnoten aanwezig. Een buitenstaander
+      zou de markdown voor mens-geschreven kunnen aanzien.'
     status: trusted
 themas:
-  - wentelkredieten
-  - revolving krediet
-  - roll-over krediet
+- wentelkredieten
+- revolving krediet
+- roll-over krediet
 ---
 
 # CBN-advies 2012/16 – De boekhoudkundige verwerking van wentelkredieten

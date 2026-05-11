@@ -25,27 +25,27 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: Heading-hiërarchie springt van H1 (regel 76) direct naar H4 (regels 94, 99, 128) — H2 en H3 ontbreken volledig. A6: regels 97 en 118 beginnen met een leading space (' Bij de opstelling...' en ' Tenzij de transacties...') — spurious line-break artefacten. Italics op regels 84 en 86 zijn nu correct gesloten na scraper-fix."
+    rationale: "B2: heading-hiërarchie springt van H1 (regel 76) direct naar H4 (regels 94, 99, 128) — H2 en H3 ontbreken volledig. A6: regels 97 en 118 beginnen met een leading space (' Bij de opstelling...' en ' Tenzij de transacties...') — spurious line-break artefacten, typisch PDF-extractie. Voetnoten en italics zijn correct gesloten na scraper-fix."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 3
-      max_section_chars: 3970
       file_size_chars: 11466
       flags: []
+      heading_count: 3
+      max_section_chars: 3970
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "B2: Heading-hiërarchie springt van H1 (regel 76) direct naar H4 (regels 94, 99, 128) — H2 en H3 ontbreken volledig. A6: regels 97 en 118 beginnen met een leading space (' Bij de opstelling...' en ' Tenzij de transacties...') — spurious line-break artefacten. Italics op regels 84 en 86 zijn nu correct gesloten na scraper-fix."
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: "B2: heading-hiërarchie springt van H1 (regel 76) direct naar H4 (regels 94, 99, 128) — H2 en H3 ontbreken volledig. A6: regels 97 en 118 beginnen met een leading space (' Bij de opstelling...' en ' Tenzij de transacties...') — spurious line-break artefacten, typisch PDF-extractie. Voetnoten en italics zijn correct gesloten na scraper-fix."
       concrete_problemen:
         - regel: 94
           categorie: B2
@@ -91,12 +91,12 @@ Daarnaast bepaalt art. 22 K.B. W.Venn. dat in de jaarrekening de bedragen in eur
 
 In navolging van de op 04.07.2008 door Minister Van Quickenborne gegeven sectorale toestemming voor het voeren van de boekhouding en het opstellen van de jaarrekening in USD voor individuele "diamantvennootschappen" (wiens activiteit bestaat in de handel in ruwe en geslepen diamant) die aan bepaalde inhoudelijke en formele voorwaarden voldoen, heeft de Commissie een advies geschreven om de voorwaarden van deze aanvragen te kaderen.
 
-#### Definitie van de functionele valuta
+## Definitie van de functionele valuta
 
 De boekhouding van een vennootschap alsook de jaarrekening dienen opgesteld te worden in de functionele valuta. De functionele valuta is de valuta in de voornaamste economische omgeving waarin de entiteit actief is.[^5]
  Bij de opstelling van de jaarrekening bepaalt iedere entiteit de functionele valuta. De functionele valuta van een entiteit weerspiegelt de voor haar relevante onderliggende transacties, gebeurtenissen en omstandigheden.[^6] 
 
-#### Bepaling van de functionele valuta
+## Bepaling van de functionele valuta
 
 De bepaling van de functionele valuta moet gebeuren op basis van volgende factoren.[^7] 
 
@@ -125,7 +125,7 @@ Het komt het bestuursorgaan van de vennootschap toe bij het aanvragen van een af
 
 Een en ander impliceert dat het leeuwendeel van de activa, de schulden en de opbrengsten moeten afgewikkeld worden in de betrokken vreemde valuta.[^13] 
 
-#### Bijkomende voorwaarden
+## Bijkomende voorwaarden
 
 De toelating voor het voeren van de boekhouding en het opstellen van de jaarrekening in een andere munt dan de euro, is aan een aantal bijkomende voorwaarden gekoppeld waar het bestuursorgaan van de vennootschap nauwlettend moet op toezien.
 

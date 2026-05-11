@@ -25,48 +25,44 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:13Z'
+    confirmed_at: '2026-05-11T15:26:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'E1: alle drie tabellen (regels 122-125, 179-182, 217-221) missen de verplichte `|---|---|` separator-rij na de headerrij — niet gecorrigeerd door de scraper-fix. Regel 217 heeft bovendien tientallen lege ghost-kolommen (alternerende `| |` zonder inhoud), wat de tabel onleesbaar maakt. D3: voetnoten [^1], [^19], [^20] en [^21] staan in de voetnoetenblok (regels 233, 204-208) maar hebben géén corresponderend anker in de body-tekst — waarschijnlijk verdwenen bij de re-scrape. De eerder genoteerde D4-problemen (malformed bold) zijn wél gecorrigeerd in de huidige versie.'
+    rationale: 'E1: tabellen op regels 143-147, 201-205 en 240-245 missen de verplichte separator-rij (|---|) na de header-rij; de tabel op regel 240 heeft bovendien tientallen lege ghost-kolommen (afwisselende lege `| |` cellen). D3: voetnoot [^1] staat in het voetnoetenblok (regel 257) maar heeft geen corresponderend anker in de bodytekst. Overige inhoud volledig; voorbeelden structureel aanwezig als ### headings.'
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:19Z'
-      heading_count: 8
-      max_section_chars: 4799
-      file_size_chars: 16428
+      file_size_chars: 16629
       flags: []
+      heading_count: 8
+      max_section_chars: 4941
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:13Z'
-      rationale: 'E1: alle drie tabellen (regels 122-125, 179-182, 217-221) missen de verplichte `|---|---|` separator-rij na de headerrij — niet gecorrigeerd door de scraper-fix. Regel 217 heeft bovendien tientallen lege ghost-kolommen (alternerende `| |` zonder inhoud), wat de tabel onleesbaar maakt. D3: voetnoten [^1], [^19], [^20] en [^21] staan in de voetnoetenblok (regels 233, 204-208) maar hebben géén corresponderend anker in de body-tekst — waarschijnlijk verdwenen bij de re-scrape. De eerder genoteerde D4-problemen (malformed bold) zijn wél gecorrigeerd in de huidige versie.'
+      run_at: '2026-05-11T15:26:40Z'
+      rationale: 'E1: tabellen op regels 143-147, 201-205 en 240-245 missen de verplichte separator-rij (|---|) na de header-rij; de tabel op regel 240 heeft bovendien tientallen lege ghost-kolommen (afwisselende lege `| |` cellen). D3: voetnoot [^1] staat in het voetnoetenblok (regel 257) maar heeft geen corresponderend anker in de bodytekst. Overige inhoud volledig; voorbeelden structureel aanwezig als ### headings.'
       concrete_problemen:
-        - regel: 122
+        - regel: 143
           categorie: E1
           type: pseudo-table
-          voorbeeld: '| | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | (geen separator-rij, ghost-kolommen)'
-        - regel: 179
+          voorbeeld: '| | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | (geen separator-rij na header)'
+        - regel: 201
           categorie: E1
           type: pseudo-table
-          voorbeeld: '| | | 30/06/2024 | | 30/06/2025 | | 30/06/2026 | (geen separator-rij, ghost-kolommen)'
-        - regel: 217
+          voorbeeld: '| | | 30/06/2024 | | 30/06/2025 | | 30/06/2026 | (geen separator-rij na header)'
+        - regel: 240
           categorie: E1
           type: pseudo-table
-          voorbeeld: '| **Einde 31.12** | | | | **31.12.2021** | | | | | | **31.12.2022** | ... (30+ cellen, geen separator)'
-        - regel: 233
+          voorbeeld: '| **Einde 31.12** | | | | **31.12.2021** | | | | | | **31.12.2022** | ... (30+ cellen, geen separator, ghost-kolommen)'
+        - regel: 257
           categorie: D3
           type: other
-          voorbeeld: '[^1]: Onderhavig advies is tot stand gekomen nadat... (geen [^1] anker in body)'
-        - regel: 204
-          categorie: D3
-          type: other
-          voorbeeld: '[^19], [^20], [^21] in voetnoetenblok maar geen anker in body (verloren bij re-scrape)'
+          voorbeeld: '[^1]: Onderhavig advies is tot stand gekomen... (geen [^1] anker in bodytekst)'
 themas:
   - groottecriteria
   - verenigingen en stichtingen
@@ -120,6 +116,7 @@ Ook de verhoogde drempelwaarden in art. 3:47, § 2 WVV en art. 3:51, § 2 WVV zi
 Een VZW voert een boekhouding per kalenderjaar. Voor de boekjaren 2021, 2022 en 2023 werd de VZW aangemerkt als een kleine vereniging. De vereniging heeft de volgende kencijfers[^14]:
 
 | | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | 
+|---|---|---|---|---|---|---|
 | Jaargemiddelde personeelsbestand | | 12 | | 11 | | 8 | 
 | Omzet | | 750.000 | | 600.000 | | 400.000 | 
 | Balanstotaal | | 400.000 | | 475.000 | | 425.000 | 
@@ -177,6 +174,7 @@ Aangezien bij de toetsing aan deze drempelwaarden geen consistentiebeginsel staa
 Een VZW hanteert gebroken boekjaren waarbij het boekjaar eindigt op 30 juni. Voor de boekjaren die werden aangevat in 2022 en 2023 werd de VZW aangemerkt als een “grote” VZW. De VZW heeft de volgende kencijfers[^16]:
 
 | | | 30/06/2024 | | 30/06/2025 | | 30/06/2026 | 
+|---|---|---|---|---|---|---|
 | Jaargemiddelde personeelsbestand | | 45 | | 55 | | 60 | 
 | Omzet | | 10.000.000 | | 11.000.000 | | 12.000.000 | 
 | Balanstotaal | | 7.500.000 | | 8.000.000 | | 8.500.000 | 
@@ -209,12 +207,13 @@ Op balansdatum 30 juni 2026 heeft de VZW alle criteria overschreden:
 
 Op balansdatum 30 juni 2026 werd opnieuw meer dan één van de criteria overschreden. Bijgevolg wordt de VZW terug een “grote” VZW voor het boekjaar dat aanvangt op 1 juli 2026. 
 
-### Voorbeeld 4: impact van de verhoging van de criteria op langere termijn 
+### Voorbeeld 4: impact van de verhoging van de criteria op langere termijn
 
 22. Veronderstel een stichting met een einde boekjaardatum van 31 december. De cijfers in het rood geven aan wanneer de criteria[^17] werden overschreden.[^18]
  Om de grootte van de stichting te bepalen in boekjaren die aanvatten na 31 december 2023 moet men de verhoogde drempelwaarden gebruiken. 
 
 | **Einde 31.12** | | | | **31.12.2021** | | | | | | **31.12.2022** | | | | **31.12.2023** | | | | | | **31.12.2024** | | | | | | **31.12.2025** | | | | | | **31.12.2026** | | | 
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Personeel | | 60 | | 60 | | 60 | | 60 | | 60 | | 60 | 
 | Omzet | | 10 | | 10 | | 10 | | 11 | | 12 | | 12 | 
 | Balanstotaal | | 4,8 | | 4,8 | | 4,8 | | 5,2 | | 5,2 | | 5,2 | 

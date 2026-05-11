@@ -19,40 +19,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:11Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: tabel Voorbeeld 3 (r300-304) is gebroken — de celwaarde '9.500' staat op een eigen lege regel gevolgd door een verweesde pipe-rij, wat een extractie-artefact is waarbij een getal uit de tabelcel losraakte. B5: r108 'In hoofde van A en B wordt dan als volgt gehandeld' en r155 'In hoofde van aandeelhouder D wordt als volgt gehandeld' zijn functionele tussenkopjes zonder heading-markup (plain text). Overige 4 voorbeelden en voetnoten zijn volledig en correct."
+    rationale: "E2/A6: tabel op r299-311 (balans B na partiële splitsing in Voorbeeld 3) heeft een gebroken rij — de cel '9.500' staat op r308 als losse tekstregel buiten de tabel-pipes, gevolgd door een gedeeltelijke piprij op r310. Zelfde ETL tabel-rendering-bug als in 2009/7. Overige tabellen, 6 headings en 14 voetnoten zijn correct."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 6
-      max_section_chars: 8510
-      file_size_chars: 26776
+      file_size_chars: 26932
       flags: []
+      heading_count: 6
+      max_section_chars: 8558
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "E2: tabel Voorbeeld 3 (r300-304) is gebroken — de celwaarde '9.500' staat op een eigen lege regel gevolgd door een verweesde pipe-rij, wat een extractie-artefact is waarbij een getal uit de tabelcel losraakte. B5: r108 'In hoofde van A en B wordt dan als volgt gehandeld' en r155 'In hoofde van aandeelhouder D wordt als volgt gehandeld' zijn functionele tussenkopjes zonder heading-markup (plain text). Overige 4 voorbeelden en voetnoten zijn volledig en correct."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "E2/A6: tabel op r299-311 (balans B na partiële splitsing in Voorbeeld 3) heeft een gebroken rij — de cel '9.500' staat op r308 als losse tekstregel buiten de tabel-pipes, gevolgd door een gedeeltelijke piprij op r310. Zelfde ETL tabel-rendering-bug als in 2009/7. Overige tabellen, 6 headings en 14 voetnoten zijn correct."
       concrete_problemen:
-        - regel: 300
+        - regel: 306
           categorie: E2
           type: other
-          voorbeeld: "| | | \n\n9.500\n\n  | | | | 9.500 |"
-        - regel: 108
-          categorie: B5
+          voorbeeld: "| | | \\n9.500\\n  | | | | 9.500 | → tabelrij gebroken, cel '9.500' staat op losse regel r308"
+        - regel: 308
+          categorie: A6
           type: other
-          voorbeeld: In hoofde van A en B wordt dan als volgt gehandeld
-        - regel: 155
-          categorie: B5
-          type: other
-          voorbeeld: In hoofde van aandeelhouder D wordt als volgt gehandeld
+          voorbeeld: '9.500'
 themas:
   - partiële splitsing
 ---
@@ -95,6 +91,7 @@ De algemene principes die hierboven werden beschreven, kunnen worden geïllustre
 Veronderstel dat onderstaande vennootschap A (belastingneutraal) partieel wordt gesplitst waarbij 8.500 activa en 2.500 schulden aan een nieuw op te richten vennootschap B worden overgedragen; A behoudt 5.500 activa en 1.500 schulden.
 
 | A | 
+|---|
 | Activa | | 14.000 | | Kapitaal[^6] | | 3.000 | 
 | | | | | Belastingvrije reserves[^7] | | 2.000 | 
 | | | | | Beschikbare reserves | | 5.000 | 
@@ -110,11 +107,13 @@ In hoofde van A en B wordt dan als volgt gehandeld
 Op basis van bovenstaande gegevens en de samenstelling van de eigen vermogens van A (na afsplitsing) en B buiten beschouwing latend, zien A en B er na de partiële splitsing als volgt uit:
 
 | A (na afsplitsing) | 
+|---|
 | Activa | | 5.500 | | Eigen vermogen | | 4.000 | 
 | | | | | Schulden | | 1.500 | 
 | | | 5.500 | | | | 5.500 | 
 
 | B | 
+|---|
 | Activa | | 8.500 | | Eigen vermogen | | 6.000 | 
 | | | | | Schulden | | 2.500 | 
 | | | 8.500 | | | | 8.500 | 
@@ -139,6 +138,7 @@ De boekhoudkundige eigen vermogens van A (na afsplitsing) (4.000) en B (6.000) k
 Na de partiële splitsing zullen A en B er dan als volgt uitzien:
 
 | A (na afsplitsing) | 
+|---|
 | Activa | | 5.500 | | Kapitaal | | 1.200 | 
 | | | | | Belastingvrije res. | | 800 | 
 | | | | | Beschikbare res. | | 2.000 | 
@@ -146,6 +146,7 @@ Na de partiële splitsing zullen A en B er dan als volgt uitzien:
 | | | 5.500 | | | | 5.500 | 
 
 | B | 
+|---|
 | Activa | | 8.500 | | Kapitaal | | 1.800 | 
 | | | | | Belastingvrije res. | | 1.200 | 
 | | | | | Beschikbare res. | | 3.000 | 
@@ -174,6 +175,7 @@ In hoofde van D bedraagt de boekwaarde van de participatie A na de partiële spl
 Veronderstel dat onderstaande vennootschap A (belastingneutraal) partieel wordt gesplitst waarbij een gedeelte van haar vermogen wordt overgedragen aan een nieuw op te richten vennootschap B.
 
 | A | 
+|---|
 | Activa | | 12.000 | | Kapitaal[^8] | | 3.000 | 
 | Activum 1 | | 2.000 | | Belastingvrije reserves | | 1.320 | 
 | | | | | Beschikbare reserves | | 5.000 | 
@@ -188,11 +190,13 @@ De naar aanleiding van de partiële splitsing op te richten vennootschap B verkr
 Vermits de gespreid te belasten meerwaarde vanuit fiscaal oogpunt volledig zal worden belast in hoofde van de vennootschap waar het wederbeleggingsactief zich bevindt (of welke de wederbeleggingsverplichting op zich heeft genomen), worden de uitgestelde belastingen in casu opgenomen in de balans van vennootschap B. Op basis van bovenstaande gegevens, en de samenstelling van de eigen vermogens van A (na afsplitsing) en B buiten beschouwing latend, zien A en B er na de partiële splitsing als volgt uit :
 
 | A (na afsplitsing) | 
+|---|
 | Activa | | 5.500 | | Eigen vermogen | | 4.000 | 
 | | | | | Schulden | | 1.500 | 
 | | | 5.500 | | | | 5.500 | 
 
 | B | 
+|---|
 | Activa | | 6.500 | | Eigen vermogen | | 5.320 | 
 | Activum 1 | | 2.000 | | Uitgestelde belast. | | 680 | 
 | | | | | Schulden | | 2.500 | 
@@ -220,6 +224,7 @@ Bij B bevinden de fiscaal vrijgestelde reserves zich reeds voor een bedrag gelij
 Na de partiële splitsing zullen A en B er dan als volgt uitzien:
 
 | A (na afsplitsing) | 
+|---|
 | Activa | | 5.500 | | Kapitaal | | 1.200 | 
 | | | | | Belastingvrije res. | | 800 | 
 | | | | | Beschikbare res. | | 2.000 | 
@@ -227,6 +232,7 @@ Na de partiële splitsing zullen A en B er dan als volgt uitzien:
 | | | 5.500 | | | | 5.500 | 
 
 | B | 
+|---|
 | Activa | | 6.500 | | Kapitaal | | 1.800 | 
 | Activum 1 | | 2.000 | | Belastingvrije res. | | 520 | 
 | | | | | Beschikbare res. | | 3.000 | 
@@ -239,6 +245,7 @@ Na de partiële splitsing zullen A en B er dan als volgt uitzien:
 Veronderstel dat onderstaande vennootschap A (belastingneutraal) partieel wordt gesplitst waarbij een gedeelte van haar vermogen wordt overgedragen aan een nieuw op te richten vennootschap B.
 
 | A | 
+|---|
 | Activa | | 14.000 | | Kapitaal[^10] | | 3.000 | 
 | Activum 1 | | 1.000 | | Herwaarderingsmeerwaarde | | 1.000 | 
 | | | | | Belastingvrije reserves[^11] | | 2.000 | 
@@ -253,11 +260,13 @@ De naar aanleiding van de partiële splitsing op te richten vennootschap B verkr
 Op basis van bovenstaande gegevens, en de samenstelling van de eigen vermogens van A (na afsplitsing) en B buiten beschouwing latend, zien A en B er na de partiële splitsing als volgt uit:
 
 | A (na afsplitsing) | 
+|---|
 | Activa | | 5.500 | | Eigen vermogen | | 4.000 | 
 | | | | | Schulden | | 1.500 | 
 | | | 5.500 | | | | 5.500 | 
 
 | B | 
+|---|
 | Activa | | 8.500 | | Eigen vermogen | | 7.000 | 
 | Activum 1 | | 1.000 | | Schulden | | 2.500 | 
 | | | 9.500 | | | | 9.500 | 
@@ -285,6 +294,7 @@ De boekhoudkundige eigen vermogens van A (na afsplitsing) (4.000) en B (7.000) k
 Na de partiële splitsing zullen A en B er dan als volgt uitzien:
 
 | A (na afsplitsing) | 
+|---|
 | Activa | | 5.500 | | Kapitaal | | 1.200 | 
 | | | | | Belastingvrije res. | | 800 | 
 | | | | | Beschikbare res. | | 2.000 | 
@@ -292,6 +302,7 @@ Na de partiële splitsing zullen A en B er dan als volgt uitzien:
 | | | 5.500 | | | | 5.500 | 
 
 | B | 
+|---|
 | Activa | | 8.500 | | Kapitaal | | 1.800 | 
 | Activum 1 | | 1.000 | | Herwaarderingsmw. | | 1.000 | 
 | | | | | Belastingvrije res. | | 1.200 | 
@@ -302,12 +313,14 @@ Na de partiële splitsing zullen A en B er dan als volgt uitzien:
 9.500
 
   | | | | 9.500 | 
+|---|---|---|---|
 
 ## Voorbeeld 4 – Partiële splitsing waarbij de verkrijgende vennootschap aandeelhouder is van de partieel te splitsen vennootschap
 
 Onderstaande vennootschap A wordt (belastingneutraal) partieel gesplitst, waarbij het afgesplitst vermogen wordt overgedragen aan een bestaande vennootschap B, welke 80% van de aandelen van A bezit.
 
 | A | 
+|---|
 | Activa | | 14.000 | | Kapitaal[^12] | | 3.000 | 
 | | | | | Belastingvrije reserves[^13] | | 2.000 | 
 | | | | | Beschikbare reserves | | 5.000 | 
@@ -317,6 +330,7 @@ Onderstaande vennootschap A wordt (belastingneutraal) partieel gesplitst, waarbi
 De verkrijgende aandeelhouder-vennootschap B heeft 80% van de aandelen A aangeschaft voor 7.500 en ziet er uit als volgt:
 
 | B | 
+|---|
 | Participatie A (80%) | | 7.500 | | Kapitaal | | 7.500 | 
 
 Naar aanleiding van de belastingneutrale partiële splitsing van A verkrijgt vennootschap B 8.500 activa en 2.500 schulden en behoudt vennootschap A 5.500 activa en 1.500 schulden.
@@ -326,11 +340,13 @@ De reële waarde van A (vóór afsplitsing) bedraagt 20.000 en de reële waarde 
 Het aan B overgedragen vermogen en A (na afsplitsing) zien er dan, de samenstelling van de eigen vermogens buiten beschouwing latend, als volgt uit:
 
 | A (na afsplitsing) | 
+|---|
 | Activa | | 5.500 | | Eigen vermogen | | 4.000 | 
 | | | | | Schulden | | 1.500 | 
 | | | 5.500 | | | | 5.500 | 
 
 | Aan B overgedragen vermogen | 
+|---|
 | Activa | | 8.500 | | Eigen vermogen | | 6.000 | 
 | | | | | Schulden | | 2.500 | 
 | | | 8.500 | | | | 8.500 | 
@@ -342,6 +358,7 @@ Dit is analoog met wat in voorbeeld 1 werd uiteengezet.
 Het aan B overgedragen vermogen en vennootschap A (na afsplitsing) zien er dan ook als volgt uit:
 
 | A (na afsplitsing) | 
+|---|
 | Activa | | 5.500 | | Kapitaal | | 1.200 | 
 | | | | | Belastingvrije res. | | 800 | 
 | | | | | Beschikbare res. | | 2.000 | 
@@ -349,6 +366,7 @@ Het aan B overgedragen vermogen en vennootschap A (na afsplitsing) zien er dan o
 | | | 5.500 | | | | 5.500 | 
 
 | Aan B overgedragen vermogen | 
+|---|
 | Activa | | 8.500 | | Kapitaal | | 1.800 | 
 | | | | | Belastingvrije res. | | 1.200 | 
 | | | | | Beschikbare res. | | 3.000 | 
@@ -370,6 +388,7 @@ De vermindering van de reserves mag dan ook bij voorrang worden toegekend aan de
 Rekening houdend met al het bovenstaande, zal de balans van B na de splitsing er als volgt uitzien:
 
 | B | 
+|---|
 | Activa (ex A) | | 8.500 | | Kapitaal (7.500 + 1.800 x 20%) | | 7.860 | 
 | Participatie A | | 3.375 | | Belastingvrije reserves ( 1.200 x 20% + 600) | | 840 | 
 | | | | | Beschikbare reserves (3.000 x 20% - 600) | | 0 | 
@@ -387,6 +406,7 @@ Aangezien in dit voorbeeld de andere dan de belastingvrije reserves ontoereikend
 Naar analogie van het gestelde in het CBN-advies 2009/6 (zie voorbeeld 6) is de Commissie om redenen van praktische aard ook hier van mening dat de volledige wedersamenstelling van de belastingvrije reserves bij B ook lastens het resultaat mag gebeuren zonder artikel 78, § 6, *in fine*, K.B. W.Venn. toe te passen. De openingsbalans na de partiële splitsing is dan als volgt :
 
 | B | 
+|---|
 | Activa (ex A) | | 8.500 | | Kapitaal (7.500 + 1.800 x 20%) | | 7.860 | 
 | Participatie A | | 3.375 | | Belastingvrije reserves ( 1.200 x 20%) | | 240 | 
 | | | | | Beschikbare reserves (3.000 x 20%) | | 600 | 

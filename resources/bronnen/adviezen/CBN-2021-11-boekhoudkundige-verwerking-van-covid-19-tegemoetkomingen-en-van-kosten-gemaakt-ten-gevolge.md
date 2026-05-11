@@ -25,29 +25,29 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:26:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: tabelrij op L84 heeft '(of 764 tot 768' als extra eerste kolom-cel waardoor de tabel asymmetrisch is — alternatieve boeking correct geboekt als aparte rij maar zonder geldige markdown-tabelstructuur. Overige tabellen (L105-108, L117-129) zijn wél correct opgemaakt met header+separator. Inhoud volledig, 6 headings correct, alle 17 voetnootdefinities aanwezig."
+    rationale: "E2: Regel 98 bevat een asymmetrische tabelrij '| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |' waarbij '(of 764 tot 768' als extra eerste kolom-cel staat — alternatieve boeking correct weergegeven maar zonder geldige markdown-tabelstructuur. Overige tabellen correct. Inhoud volledig, 6 headings correct, alle 17 voetnootdefinities aanwezig."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 6
-      max_section_chars: 8633
-      file_size_chars: 12678
+      file_size_chars: 12670
       flags: []
+      heading_count: 6
+      max_section_chars: 8632
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "E2: tabelrij op L84 heeft '(of 764 tot 768' als extra eerste kolom-cel waardoor de tabel asymmetrisch is — alternatieve boeking correct geboekt als aparte rij maar zonder geldige markdown-tabelstructuur. Overige tabellen (L105-108, L117-129) zijn wél correct opgemaakt met header+separator. Inhoud volledig, 6 headings correct, alle 17 voetnootdefinities aanwezig."
+      run_at: '2026-05-11T15:26:40Z'
+      rationale: "E2: Regel 98 bevat een asymmetrische tabelrij '| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |' waarbij '(of 764 tot 768' als extra eerste kolom-cel staat — alternatieve boeking correct weergegeven maar zonder geldige markdown-tabelstructuur. Overige tabellen correct. Inhoud volledig, 6 headings correct, alle 17 voetnootdefinities aanwezig."
       concrete_problemen:
-        - regel: 86
+        - regel: 98
           categorie: E2
           type: other
           voorbeeld: '| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |'
@@ -76,7 +76,7 @@ In dit advies behandelt de Commissie voor boekhoudkundige normen de boekhoudkund
 
 De in het kader van COVID-19 ontvangen vergoedingen worden opgenomen onder de *Diverse bedrijfsopbrengsten* (rekening 743-749) of onder de *Andere niet-recurrente bedrijfsopbrengsten* (rekening 764-768).[^4] 
 
-### *Voorbeeld 1*
+### Voorbeeld 1
 
 Een onderneming krijgt van een deelstaat (Vlaams, Brussels of Waals Gewest) een COVID-19-vergoeding van 2.000 euro toegewezen. De verrichting wordt op moment van kennisgeving in de boekhouding van de onderneming als volgt geboekt:
 | | Rekening | Omschrijving | Debet | Credit |
@@ -85,7 +85,7 @@ Een onderneming krijgt van een deelstaat (Vlaams, Brussels of Waals Gewest) een 
 | aan | 743 tot 749 | Diverse bedrijfsopbrengsten | | 2.000 |
 | | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |
 
-## Boekhoudkundige verwerking van kosten gemaakt ten gevolge van de gezondheidscrisis 
+## Boekhoudkundige verwerking van kosten gemaakt ten gevolge van de gezondheidscrisis
 
 Om de hygiënematregelen te respecteren en de verspreiding van het coronavirus in te dijken, hebben ondernemingen materiaal aangekocht zoals mondmaskers, alcoholgel, plexiglas, enz.
 
@@ -99,7 +99,7 @@ Bepaalde ondernemingen hebben aanzienlijke investeringen verricht om zich aan te
 
 Het bestuursorgaan zal voor de installatie van deze activa vervolgens een afschrijvingsplan opstellen om de aanschaffingskost van dit vast actief te spreiden over de waarschijnlijke nuttigheids- of gebruiksduur[^7].
 
-### *Voorbeeld 2[^8]*  
+### Voorbeeld 2[^8]
 
 Een onderneming installeert een camera in haar vergaderzalen om de vergaderingen met klanten en medewerkers vanop afstand te kunnen houden en zo de hygiëne- en veiligheidsmaatregelen te respecteren. Deze investeringen worden gedaan vanuit duurzaamheidsoogpunt. De installatie[^9] kost 6.250 euro en wordt als volgt geboekt:
 | | Rekening | Omschrijving | Debet | Credit |
@@ -138,7 +138,7 @@ De verplichte tijdelijke stopzetting van de activiteiten heeft voor bepaalde ond
 
 Voorts wijst de Commissie erop dat kosten gemaakt in het kader van herstructurering onder de activa mogen worden opgenomen wanneer het gaat om welbepaalde kosten die verband houden met een ingrijpende wijziging in de structuur of de organisatie van een onderneming en die kosten ertoe strekken een gunstige en duurzame invloed te hebben op de rentabiliteit van de onderneming.[^16] 
 
-## Gevolgen voor indekkingsverrichtingen naar aanleiding van het wegvallen van onderliggende transacties die in vreemde valuta dienden te worden voldaan 
+## Gevolgen voor indekkingsverrichtingen naar aanleiding van het wegvallen van onderliggende transacties die in vreemde valuta dienden te worden voldaan
 
 Tevens werd aan de Commissie de vraag gesteld naar de boekhoudkundige gevolgen wanneer, naar aanleiding van de huidige gezondheidscrisis, een onderliggende (reële) transactie niet plaatsvindt, waardoor de indekkingsverrichting een speculatieve verrichting wordt (wegens het wegvallen van de onderliggende (reële) verplichting tot betaling in vreemde valuta).
 

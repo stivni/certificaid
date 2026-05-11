@@ -2,58 +2,65 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
 datum: 2019-03-29
 gerelateerde_adviezen:
-  - datum: '2021-07-05'
-    titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
+- datum: '2021-07-05'
+  titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt
+    ten gevolge van de gezondheidscrisis
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
 nummer: CBN-advies 2019/03
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
-      sha256: 970674ee10043a7a4946bf7e3ecbcbef1a3dab0418e711b3b90a218b20bd3f97
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
+    sha256: 970674ee10043a7a4946bf7e3ecbcbef1a3dab0418e711b3b90a218b20bd3f97
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 4
-      max_section_chars: 6942
       file_size_chars: 12130
       flags: []
+      heading_count: 4
+      max_section_chars: 6942
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen extractie-artefacten gevonden. Italics correct gesloten (*instandhoudingsforfait*, *strategisch forfait*, *herconditioneringswerken*). Headings hiërarchisch correct (H1 > H2 > H3). Voetnoten [^1]–[^11] volledig. Inhoud compleet (beschrijving subsidies, boekhoudkundige verwerking). Laag-1: pass, geen flags.'
+      rationale: 'Geen extractie-artefacten gevonden. Italics correct gesloten (*instandhoudingsforfait*,
+        *strategisch forfait*, *herconditioneringswerken*). Headings hiërarchisch
+        correct (H1 > H2 > H3). Voetnoten [^1]–[^11] volledig. Inhoud compleet (beschrijving
+        subsidies, boekhoudkundige verwerking). Laag-1: pass, geen flags.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Geen extractie-artefacten gevonden. Italics correct gesloten (*instandhoudingsforfait*, *strategisch forfait*, *herconditioneringswerken*). Headings hiërarchisch correct (H1 > H2 > H3). Voetnoten [^1]–[^11] volledig. Inhoud compleet (beschrijving subsidies, boekhoudkundige verwerking). Laag-1: pass, geen flags.'
+    rationale: 'Geen extractie-artefacten gevonden. Italics correct gesloten (*instandhoudingsforfait*,
+      *strategisch forfait*, *herconditioneringswerken*). Headings hiërarchisch correct
+      (H1 > H2 > H3). Voetnoten [^1]–[^11] volledig. Inhoud compleet (beschrijving
+      subsidies, boekhoudkundige verwerking). Laag-1: pass, geen flags.'
     status: trusted
 themas:
-  - bedrijfsopbrengsten
-  - exploitatiesubsidie
-  - instandhoudingsforfait
-  - investeringssubsidie
-  - kapitaalsubsidie
-  - overheidssubsidies
-  - strategisch forfait
-  - subsidies
-  - verzorgingsinrichting
-  - verzorgingsinstelling
-  - vipa
-  - vorderingsrecht
-  - ziekenhuis
-  - ziekenhuisfinanciering
-  - ziekenhuisinfrastructuur
+- bedrijfsopbrengsten
+- exploitatiesubsidie
+- instandhoudingsforfait
+- investeringssubsidie
+- kapitaalsubsidie
+- overheidssubsidies
+- strategisch forfait
+- subsidies
+- verzorgingsinrichting
+- verzorgingsinstelling
+- vipa
+- vorderingsrecht
+- ziekenhuis
+- ziekenhuisfinanciering
+- ziekenhuisinfrastructuur
 ---
 
 # CBN-advies 2019/03 – Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait

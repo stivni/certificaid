@@ -7,37 +7,53 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
 nummer: CBN-advies 2018/17
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
       sha256: 84aa2320b4231304ec94ca9ec3cb7b1c27ff343e76901d581e87eb837894b6b8
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T15:15:32Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
+    status: needs-rework
+    confirmed_at: '2026-05-11T15:23:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Nieuw verdict (was unreviewed). E1/E2: de samenvattende tabellen in bijlagen 1 en 2 (regels 289–1099) zijn gefragmenteerd als single-cell blokken met `| \n\n  | | \n|---|` — zelfde extractor-bug als CBN-2018-16/22. B5: regel 95–96 bevat `De zakelijke zekerheden bedoeld in KB W.Venn.` als plain-text subsectie-label zonder heading-prefix; regel 230 idem (`De staat over de betrekkingen met verbonden...`). B3: `## Onherroepelijk beloofd of gesteld` op regels 298, 486, 669, 829, 987 staat als `##`-heading midden in gefragmenteerde tabelinhoud — logisch onjuiste heading-positie."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 28
-      max_section_chars: 19101
-      file_size_chars: 52436
+      file_size_chars: 53077
       flags: []
+      heading_count: 26
+      max_section_chars: 19185
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 17 headings en is volledig aanwezig. De langste sectie omvat de uitgebreide samenvattende tabellen in de bijlagen. Journaalpost-voorbeeld correct als Markdown-tabel.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "Nieuw verdict (was unreviewed). E1/E2: de samenvattende tabellen in bijlagen 1 en 2 (regels 289–1099) zijn gefragmenteerd als single-cell blokken met `| \n\n  | | \n|---|` — zelfde extractor-bug als CBN-2018-16/22. B5: regel 95–96 bevat `De zakelijke zekerheden bedoeld in KB W.Venn.` als plain-text subsectie-label zonder heading-prefix; regel 230 idem (`De staat over de betrekkingen met verbonden...`). B3: `## Onherroepelijk beloofd of gesteld` op regels 298, 486, 669, 829, 987 staat als `##`-heading midden in gefragmenteerde tabelinhoud — logisch onjuiste heading-positie."
+      concrete_problemen:
+        - regel: 95
+          categorie: B5
+          type: other
+          voorbeeld: De zakelijke zekerheden bedoeld in KB W.Venn.
+        - regel: 230
+          categorie: B5
+          type: other
+          voorbeeld: De staat over de betrekkingen met verbonden, geassocieerde ondernemingen...
+        - regel: 291
+          categorie: E1
+          type: other
+          voorbeeld: "| \n\n**Soort zekerheid**\n\n  | | \n|---|\n\n## Onherroepelijk beloofd of gesteld"
+        - regel: 298
+          categorie: B3
+          type: other
+          voorbeeld: '## Onherroepelijk beloofd of gesteld (midden in tabelinhoud)'
 themas:
   - zakelijk recht
   - niet in de balans opgenomen rechten en verplichtingen
@@ -198,7 +214,7 @@ Indien de vennootschap dit relevant acht, mag ze in het vrij gedeelte van de toe
 
 De hierboven gemaakte opmerking in randnr. 26 aangaande de onherroepelijk beloofde zekerheden geldt *mutatis mutandis* voor het pandrecht op andere activa.
 
-##### Wat het eigendomsvoorbehoud betreft, de boekwaarde van de activa 
+##### Wat het eigendomsvoorbehoud betreft, de boekwaarde van de activa
 
 Wanneer het eigendomsvoorbehoud gelijkgesteld wordt met een zakelijke zekerheid, moet de vennootschap er de boekwaarde van de activa in opnemen die het voorwerp uitmaken van het eigendomsvoorbehoud.[^64]
  Deze waarde wordt in de door de Balanscentrale opgestelde modellen opgenomen onder dezelfde lijn als degene betreffende het “*pandrecht op andere activa*”.
@@ -289,14 +305,17 @@ Bijlagen:
 **Soort zekerheid**
 
   | | 
+|---|
 
 ## Onherroepelijk beloofd of gesteld
 
   | | 
+|---|
 
 **Staat**
 
   | | 
+|---|
 
 **Boeking**
 
@@ -304,20 +323,25 @@ Bijlagen:
 | 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Gewaarborgde schulden
 
   | | 
+|---|
 
 Niet in de balans opgenomen rechten en verplichtingen
 
   | | 
+|---|
 
 Staat over de betrekkingen met verbonden, geassocieerde ondernemingen en ondernemingen waarmee een deelnemingsverhouding bestaat
 
   | | 
+|---|
 
   | 
 | 
@@ -325,26 +349,32 @@ Staat over de betrekkingen met verbonden, geassocieerde ondernemingen en onderne
 Hypotheek
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
   | | 
+|---|
 
 Bedrag van de schuld of van het gedeelte van de schuld dat gewaarborgd is
 
   | | 
+|---|
 
 Boekwaarde van de bezwaarde activa en het bedrag waarvoor de volmachthebber krachtens het mandaat inschrijving mag nemen
 
   | | 
+|---|
 
 Bedrag waarvoor de volmachthebber krachtens het mandaat inschrijving mag nemen 
 
   | | 
+|---|
 
 Bedrag van de gewaarborgde schulden voor deze drie types van ondernemingen
 
   | | 
+|---|
 
 Rekening 02 Zakelijke zekerheden gesteld[^85] op eigen activa
 
@@ -354,10 +384,12 @@ Rekening 02 Zakelijke zekerheden gesteld[^85] op eigen activa
 Gesteld
 
   | | 
+|---|
 
 Boekwaarde van de bezwaarde activa en bedrag van de inschrijving
 
   | | 
+|---|
 
 Bedrag van de inschrijving
 
@@ -367,10 +399,12 @@ Bedrag van de inschrijving
 Pandrecht op een handelszaak
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
   | | 
+|---|
 
 Bedrag waarvoor de volmachthebber krachtens het mandaat tot inschrijving mag overgaan
 
@@ -380,6 +414,7 @@ Bedrag waarvoor de volmachthebber krachtens het mandaat tot inschrijving mag ove
 Gesteld
 
   | | 
+|---|
 
 Maximumbedrag waarvoor de schuld is gewaarborgd en waarvoor registratie plaatsvindt
 
@@ -389,10 +424,12 @@ Maximumbedrag waarvoor de schuld is gewaarborgd en waarvoor registratie plaatsvi
 Pandrecht op nog te verwerven activa
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
   | | 
+|---|
 
 Bedrag van de betrokken activa
 
@@ -407,10 +444,12 @@ Gesteld
 Pandrecht op andere activa
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
   | | 
+|---|
 
 Boekwaarde van de bezwaarde activa
 
@@ -425,8 +464,10 @@ Gesteld
 Eigendomsvoorbehoud[^86] 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Boekwaarde van de betrokken activa
 
@@ -436,14 +477,14 @@ Boekwaarde van de betrokken activa
 Voorrecht van de verkoper[^87] 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Boekwaarde van het verkochte goed
 
   | 
-
-### 
 
 ### 1.2. *Verkort schema*
 
@@ -452,14 +493,17 @@ Boekwaarde van het verkochte goed
 **Soort zekerheid**
 
   | | 
+|---|
 
 ## Onherroepelijk beloofd of gesteld
 
   | | 
+|---|
 
 **Staat**
 
   | | 
+|---|
 
 **Boeking**
 
@@ -467,20 +511,25 @@ Boekwaarde van het verkochte goed
 | 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Gewaarborgde schulden
 
   | | 
+|---|
 
 Niet in de balans opgenomen rechten en verplichtingen
 
   | | 
+|---|
 
 Staat over de betrekkingen met verbonden ondernemingen, geassocieerde ondernemingen, bestuurders, zaakvoerders en commissarissen[^88] 
 
   | | 
+|---|
 
   | 
 | 
@@ -488,22 +537,27 @@ Staat over de betrekkingen met verbonden ondernemingen, geassocieerde ondernemin
 Hypotheek
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
   | | 
+|---|
 
 Bedrag van de schuld of van het gedeelte van de schuld dat gewaarborgd is
 
   | | 
+|---|
 
 Boekwaarde van de bezwaarde activa en bedrag waarvoor de volmachthebber krachtens het mandaat inschrijving mag nemen
 
   | | 
+|---|
 
 Bedrag waarvoor de volmachthebber krachtens het mandaat inschrijving mag nemen
 
   | | 
+|---|
 
 Rekening 02 Zakelijke zekerheden gesteld[^89] op eigen activa
 
@@ -513,10 +567,12 @@ Rekening 02 Zakelijke zekerheden gesteld[^89] op eigen activa
 Gesteld
 
   | | 
+|---|
 
 Boekwaarde van de bezwaarde activa en bedrag van de inschrijving
 
   | | 
+|---|
 
 Bedrag van de inschrijving
 
@@ -526,10 +582,12 @@ Bedrag van de inschrijving
 Pandrecht op een handelszaak
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
   | | 
+|---|
 
 Bedrag waarvoor de volmachthebber krachtens het mandaat tot inschrijving mag overgaan
 
@@ -539,6 +597,7 @@ Bedrag waarvoor de volmachthebber krachtens het mandaat tot inschrijving mag ove
 Gesteld
 
   | | 
+|---|
 
 Maximumbedrag waarvoor de schuld is gewaarborgd en waarvoor registratie plaatsvindt
 
@@ -548,10 +607,12 @@ Maximumbedrag waarvoor de schuld is gewaarborgd en waarvoor registratie plaatsvi
 Pandrecht op nog te verwerven activa
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
   | | 
+|---|
 
 Bedrag van de betrokken activa
 
@@ -566,10 +627,12 @@ Gesteld
 Pandrecht op andere activa
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
   | | 
+|---|
 
 Boekwaarde van de bezwaarde activa
 
@@ -584,8 +647,10 @@ Gesteld
 Eigendomsvoorbehoud[^90] 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Boekwaarde van de betrokken activa
 
@@ -595,14 +660,14 @@ Boekwaarde van de betrokken activa
 Voorrecht van de verkoper[^91] 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Boekwaarde van het verkochte goed
 
   | 
-
-### 
 
 ### 1.3. *Microschema*
 
@@ -611,14 +676,17 @@ Boekwaarde van het verkochte goed
 **Soort zekerheid**
 
   | | 
+|---|
 
 ## Onherroepelijk beloofd of gesteld
 
   | | 
+|---|
 
 **Staat**
 
   | | 
+|---|
 
 **Boeking**
 
@@ -626,12 +694,15 @@ Boekwaarde van het verkochte goed
 | 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Niet in de balans opgenomen rechten en verplichtingen
 
   | | 
+|---|
 
   | 
 | 
@@ -639,14 +710,17 @@ Niet in de balans opgenomen rechten en verplichtingen
 Hypotheek
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
   | | 
+|---|
 
 Boekwaarde van de bezwaarde activa en bedrag waarvoor de volmachthebber krachtens het mandaat inschrijving mag nemen
 
   | | 
+|---|
 
 Rekening 02 Zakelijke zekerheden gesteld[^92] op eigen activa
 
@@ -656,6 +730,7 @@ Rekening 02 Zakelijke zekerheden gesteld[^92] op eigen activa
 Gesteld
 
   | | 
+|---|
 
 Boekwaarde van de bezwaarde activa en bedrag van de inschrijving
 
@@ -665,10 +740,12 @@ Boekwaarde van de bezwaarde activa en bedrag van de inschrijving
 Pandrecht op een handelszaak
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
   | | 
+|---|
 
 Bedrag waarvoor de volmachthebber krachtens het mandaat tot inschrijving mag overgaan
 
@@ -678,6 +755,7 @@ Bedrag waarvoor de volmachthebber krachtens het mandaat tot inschrijving mag ove
 Gesteld
 
   | | 
+|---|
 
 Maximumbedrag waarvoor de schuld is gewaarborgd en waarvoor registratie plaatsvindt
 
@@ -687,10 +765,12 @@ Maximumbedrag waarvoor de schuld is gewaarborgd en waarvoor registratie plaatsvi
 Pandrecht op nog te verwerven activa
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
   | | 
+|---|
 
 Bedrag van de betrokken activa
 
@@ -705,10 +785,12 @@ Gesteld
 Pandrecht op andere activa
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
   | | 
+|---|
 
 Boekwaarde van de bezwaarde activa
 
@@ -723,8 +805,10 @@ Gesteld
 Eigendomsvoorbehoud[^93] 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Boekwaarde van de betrokken activa
 
@@ -734,8 +818,10 @@ Boekwaarde van de betrokken activa
 Voorrecht van de verkoper[^94] 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Boekwaarde van het verkochte goed
 
@@ -750,14 +836,17 @@ Boekwaarde van het verkochte goed
 **Soort zekerheid**
 
   | | 
+|---|
 
 ## Onherroepelijk beloofd of gesteld
 
   | | 
+|---|
 
 **Staat**
 
   | | 
+|---|
 
 **Boeking**
 
@@ -765,12 +854,15 @@ Boekwaarde van het verkochte goed
 | 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Staat over de betrekkingen met verbonden, geassocieerde ondernemingen en ondernemingen waarmee een deelnemingsverhouding bestaat
 
   | | 
+|---|
 
   | 
 | 
@@ -778,14 +870,17 @@ Staat over de betrekkingen met verbonden, geassocieerde ondernemingen en onderne
 Hypotheek
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
   | | 
+|---|
 
 Bedrag waarvoor de volmachthebber krachtens het mandaat inschrijving mag nemen
 
   | | 
+|---|
 
 Rekening 00 Zekerheden door derden gesteld voor rekening van de vennootschap
 
@@ -795,6 +890,7 @@ Rekening 00 Zekerheden door derden gesteld voor rekening van de vennootschap
 Gesteld
 
   | | 
+|---|
 
 Bedrag van de inschrijving
 
@@ -804,10 +900,12 @@ Bedrag van de inschrijving
 Pandrecht op een handelszaak
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
   | | 
+|---|
 
 Bedrag waarvoor de volmachthebber krachtens het mandaat tot inschrijving mag overgaan
 
@@ -817,6 +915,7 @@ Bedrag waarvoor de volmachthebber krachtens het mandaat tot inschrijving mag ove
 Gesteld
 
   | | 
+|---|
 
 Maximumbedrag waarvoor de schuld is gewaarborgd en waarvoor registratie plaatsvindt
 
@@ -826,10 +925,12 @@ Maximumbedrag waarvoor de schuld is gewaarborgd en waarvoor registratie plaatsvi
 Pandrecht op nog te verwerven activa
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
   | | 
+|---|
 
 Bedrag van de betrokken activa
 
@@ -844,10 +945,12 @@ Gesteld
 Pandrecht op andere activa
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
   | | 
+|---|
 
 Boekwaarde van de bezwaarde activa
 
@@ -862,8 +965,10 @@ Gesteld
 Eigendomsvoorbehoud[^95] 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Boekwaarde van de betrokken activa
 
@@ -873,8 +978,10 @@ Boekwaarde van de betrokken activa
 Voorrecht van de verkoper[^96] 
 
   | | 
+|---|
 
   | | 
+|---|
 
 Boekwaarde van het verkochte goed
 
@@ -887,14 +994,17 @@ Boekwaarde van het verkochte goed
 **Soort zekerheid**
 
   | | 
+|---|
 
 ## Onherroepelijk beloofd of gesteld
 
   | | 
+|---|
 
 **Staat**
 
   | | 
+|---|
 
 **Boeking**
 
@@ -902,12 +1012,15 @@ Boekwaarde van het verkochte goed
 | 
 
   | | 
+|---|
 
   | | 
+|---|
 
 /
 
   | | 
+|---|
 
   | 
 | 
@@ -915,14 +1028,17 @@ Boekwaarde van het verkochte goed
 Hypotheek
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
   | | 
+|---|
 
 /
 
   | | 
+|---|
 
 Rekening 00 Zekerheden door derden gesteld voor rekening van de vennootschap
 
@@ -937,6 +1053,7 @@ Gesteld
 Pandrecht op een handelszaak
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
@@ -951,6 +1068,7 @@ Gesteld
 Pandrecht op nog te verwerven activa
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
@@ -965,6 +1083,7 @@ Gesteld
 Pandrecht op andere activa
 
   | | 
+|---|
 
 Onherroepelijk beloofd
 
@@ -979,6 +1098,7 @@ Gesteld
 Eigendomsvoorbehoud[^97] 
 
   | | 
+|---|
 
   | 
 | 
@@ -986,6 +1106,7 @@ Eigendomsvoorbehoud[^97]
 Voorrecht van de verkoper[^98] 
 
   | | 
+|---|
 
   | 
 

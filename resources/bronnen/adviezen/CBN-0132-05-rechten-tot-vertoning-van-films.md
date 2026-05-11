@@ -25,36 +25,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6 op L75: voetnootmarker [^1] breekt de zin midden in ('...te worden gebruikt[^1] en derhalve niet...') — de footnote-anker in de body is niet problematisch op zichzelf maar gecombineerd met een leading-space line-break is het een scraper-artefact. D4 op L89: 'onder* Diensten en diverse goederen*' — de openende asterisk staat zonder spatie na 'onder', wat de italic-span slecht formatteert. Voetnoten [^1] en [^2] zijn wel aanwezig onderaan (L91-93), dus D3 is niet van toepassing."
+    rationale: "A6 op L75: voetnootmarker [^1] gecombineerd met een leading-space line-break breekt de zin midden in ('...te worden gebruikt[^1] en derhalve niet...'). D4 op L89: 'onder* Diensten en diverse goederen*' — openende asterisk staat zonder spatie na 'onder', wat de italic-span slecht formatteert. Bevestiging van eerder layer2-verdict."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 3015
       file_size_chars: 3015
       flags: []
+      heading_count: 0
+      max_section_chars: 3015
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "A6 op L75: voetnootmarker [^1] breekt de zin midden in ('...te worden gebruikt[^1] en derhalve niet...') — de footnote-anker in de body is niet problematisch op zichzelf maar gecombineerd met een leading-space line-break is het een scraper-artefact. D4 op L89: 'onder* Diensten en diverse goederen*' — de openende asterisk staat zonder spatie na 'onder', wat de italic-span slecht formatteert. Voetnoten [^1] en [^2] zijn wel aanwezig onderaan (L91-93), dus D3 is niet van toepassing."
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: "A6 op L75: voetnootmarker [^1] gecombineerd met een leading-space line-break breekt de zin midden in ('...te worden gebruikt[^1] en derhalve niet...'). D4 op L89: 'onder* Diensten en diverse goederen*' — openende asterisk staat zonder spatie na 'onder', wat de italic-span slecht formatteert. Bevestiging van eerder layer2-verdict."
       concrete_problemen:
         - regel: 75
           categorie: A6
           type: other
-          voorbeeld: "...te worden gebruikt[^1]\n en derhalve niet als een vast actief..."
-        - regel: 83
-          categorie: A6
-          type: other
-          voorbeeld: "...de daaruit voortvloeiende opbrengsten[^2]\n ten gunste van een volgend boekjaar..."
+          voorbeeld: '...te worden gebruikt[^1] en derhalve niet als een vast actief...'
         - regel: 89
           categorie: D4
           type: other

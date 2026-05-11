@@ -3,76 +3,72 @@ bron: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhoud
 datum: 1997-02-01
 nummer: CBN-advies 174/1
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
-      sha256: 4fade65a6b590868452849f5358c6c9ece26bd561e1f8c5da4a0667868a29404
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
+    sha256: 4fade65a6b590868452849f5358c6c9ece26bd561e1f8c5da4a0667868a29404
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
+      file_size_chars: 64356
+      flags: []
       heading_count: 24
       max_section_chars: 14287
-      file_size_chars: 64980
-      flags: []
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 26 headings en 55 voetnoten; alle negen inhoudelijke secties zijn volledig aanwezig. De langste sectie (~52.732 tekens) is inherent groot door het uitgebreide normatieve karakter van dit advies (1997, fundamenteel boekhoudrechtelijk document). Geen tabelcorruptie.'
+      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 26 headings en 55 voetnoten;
+        alle negen inhoudelijke secties zijn volledig aanwezig. De langste sectie
+        (~52.732 tekens) is inherent groot door het uitgebreide normatieve karakter
+        van dit advies (1997, fundamenteel boekhoudrechtelijk document). Geen tabelcorruptie.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - beginselen van een regelmatige boekhouding
-  - bewaring van dagboeken en boeken
-  - bewaringstermijn
-  - bewijskracht
-  - dagboek voor de diverse verrichtingen
-  - Dagboek voor de inkoop- en invoerverrichtingen en de ontvangen diensten
-  - dagboek voor de verkoop- en uitvoerverrichtingen en de geleverde diensten
-  - dagboeken
-  - getrouw beeld
-  - hulpdagboeken
-  - inventaris
-  - inventarisplicht
-  - jaarrekening
-  - naar tijdsorde
-  - onveranderlijkheid van de boekingen
-  - regelmatige boekhouding
-  - regels die voor elke bedrijfsboekhouding gelden
-  - regels voor een vereenvoudigde boekhouding
-  - regels voor een volledige boekhouding
-  - rekeningenstelsel
-  - samenvattende boeking
-  - verantwoordingsstuk
-  - vereenvoudigde boekhouding
-  - volledige boekhouding
-  - volledige boekhouding
-  - volledigheidsbeginsel
-  - zonder uitstel
+- beginselen van een regelmatige boekhouding
+- bewaring van dagboeken en boeken
+- bewaringstermijn
+- bewijskracht
+- dagboek voor de diverse verrichtingen
+- Dagboek voor de inkoop- en invoerverrichtingen en de ontvangen diensten
+- dagboek voor de verkoop- en uitvoerverrichtingen en de geleverde diensten
+- dagboeken
+- getrouw beeld
+- hulpdagboeken
+- inventaris
+- inventarisplicht
+- jaarrekening
+- naar tijdsorde
+- onveranderlijkheid van de boekingen
+- regelmatige boekhouding
+- regels die voor elke bedrijfsboekhouding gelden
+- regels voor een vereenvoudigde boekhouding
+- regels voor een volledige boekhouding
+- rekeningenstelsel
+- samenvattende boeking
+- verantwoordingsstuk
+- vereenvoudigde boekhouding
+- volledige boekhouding
+- volledige boekhouding
+- volledigheidsbeginsel
+- zonder uitstel
 ---
 
 # CBN-advies 174/1 - Beginselen van een regelmatige boekhouding
 
-1. Zoals de titel zelf van de wet van 17 juli 1975 luidt, heeft zij betrekking op de boekhouding van de ondernemingen, enerzijds, en op hun jaarrekening, anderzijds. Inleiding 
-2. Regels uit de wet van 17 juli 1975 en haar uitvoeringsbesluiten, in verband met het voeren van een boekhouding 
-  1. Regels die voor elke bedrijfsboekhouding gelden 
-  2. Aanvullende regels voor een volledige boekhouding gevoerd overeenkomstig de artikelen 3 en 4 van de wet 
-  3. Aanvullende regels voor een vereenvoudigde boekhouding gevoerd overeenkomstig artikel 5 van de wet 
-
-3. Beginselen van een regelmatige boekhouding
 Inleiding
 
 ## Zoals de titel zelf van de wet van 17 juli 1975 luidt, heeft zij betrekking op de boekhouding van de ondernemingen, enerzijds, en op hun jaarrekening, anderzijds. Inleiding
@@ -116,7 +112,7 @@ Daarbij leek het aangewezen een onderscheid te maken tussen, enerzijds, de algem
 
 De regels uit de wet van 17 juli 1975 omtrent het voeren van een boekhouding, kunnen als volgt worden samengevat : 
 
-### Regels die voor elke bedrijfsboekhouding gelden 
+### Regels die voor elke bedrijfsboekhouding gelden
 
 Elke onderneming voert een voor de aard en de omvang van haar bedrijf passende boekhouding[^2] ,[^3].
 
@@ -251,7 +247,7 @@ Voor verrichtingen en bestanddelen die niet uitdrukkelijk en specifiek zijn verm
 
 Ten aanzien van een bepaalde periode moet het volledigheidsprincipe gerelateerd worden met het tijdstip waarop de verrichting in de boekhouding moet worden opgenomen en met de correcte toerekening aan de passende boekhoudperiode[^34]. 
 
-### Verantwoordingsstukken 
+### Verantwoordingsstukken
 
 «Elke boeking geschiedt aan de hand van een gedagtekend verantwoordingsstuk, waarnaar zij moet verwijzen»[^35].
 
@@ -275,7 +271,7 @@ Het is overigens gebruikelijk dat op stukken van derden de inkomdatum wordt verm
 
 Traditioneel worden de verantwoordingsstukken op papieren drager opgesteld en in origineel of in afschrift bewaard[^36]. Thans worden verantwoordingsstukken die van derden uitgaan dan wel intern zijn opgemaakt, hoe langer hoe meer opgemaakt op gecomputeriseerde drager. De vragen met betrekking tot de verantwoordingsstukken opgemaakt of ontvangen op dergelijke drager, zullen later onderzocht worden. 
 
-### Boeking van verrichtingen 
+### Boeking van verrichtingen
 
 Zoals hierboven gezegd eist de wet dat de verrichtingen worden ingeschreven : 
 
@@ -285,7 +281,7 @@ Zoals hierboven gezegd eist de wet dat de verrichtingen worden ingeschreven :
 - in een dagboek; 
 - en op volledige wijze. 
 
-#### Zonder uitstel 
+#### Zonder uitstel
 
 Met de uitdrukking «zonder uitstel» was het, zoals uit de voorbereiding van de wet blijkt, niet de bedoeling van de wetgever om een welbepaalde termijn op te leggen voor de boeking van de verrichting. Wel heeft hij willen onderstrepen dat het voor een boekhouding, wil zij als regelmatig kunnen worden beschouwd, belangrijk is de verrichtingen snel na hun afsluiting te boeken of nadat de onderneming kennis heeft gekregen van het betrokken boekhoudfeit. 
 
@@ -298,7 +294,7 @@ In dit verband moet worden onderstreept dat :
 - dezelfde periodiciteit worden geboekt; 
 - hoe recenter en actueler de gegevens in de boekhouding, hoe beter die haar essentiële rol als beheersinstrument kan spelen. 
 
-#### Getrouw 
+#### Getrouw
 
 De toepassing van dit beginsel impliceert dat de inschrijving in de boekhouding op getrouwe wijze de substantie van de verrichting weergeeft. Dit veronderstelt : 
 
@@ -316,7 +312,7 @@ De juistheid van een boeking in haar verschillende bestanddelen en qua boekhoudk
 
 Een dergelijke controleprocedure verhoogt de duidelijkheid van de boekhouding. Die duidelijkheid heeft immers geen baat bij talrijke correcties a posteriori van materiële fouten of verkeerde toerekeningen. 
 
-#### Naar tijdsorde 
+#### Naar tijdsorde
 
 Het begrip «naar tijdsorde» is niet perfect duidelijk en in de parlementaire voorbereiding van de wet vindt men geen aanzet voor een interpretatie. 
 
@@ -334,7 +330,7 @@ Ten slotte is het voor een onderneming van belang dat zij voor haar verschillend
 
 In elk geval is het belangrijk dat elke verrichting wordt geboekt in de boekhoudperiode waarop zij betrekking heeft. Daardoor kan het nodig zijn om, vooral aan het einde van het boekjaar, bijkomende boekhoudperiodes te openen waarin de boekingen worden ondergebracht die weliswaar aan het betrokken boekjaar zijn verbonden, maar na balansdatum worden ingeschreven. Zo bijvoorbeeld de boekingen om de rekeningen in overeenstemming te brengen met de inventarisgegevens, de boekingen met betrekking tot de bestemming van het resultaat of zelfs de boekingen om beslissingen uit te drukken van de algemene vergadering die zouden afwijken van wat het bestuursorgaan zou hebben voorgesteld. Het beginsel dat de boekingen moeten worden verbonden aan de boekhoudperiode, geldt evenwel slechts tot de definitieve afsluiting van die boekhoudperiode. Na deze definitieve afsluiting mogen verrichtingen die alsnog op deze periode betrekking hebben, hier niet meer aan verbonden worden en moeten zij worden ingeschreven in de loop van de oudste, nog niet definitief afgesloten periode. 
 
-#### In een dagboek 
+#### In een dagboek
 
 Elke boeking geschiedt in een dagboek. Voor de ondernemingen die een volledige boekhouding voeren in de zin van de artikelen 3 en 4 van de wet, is dit dagboek : 
 
@@ -348,7 +344,7 @@ In boekhoudingen volgens het vereenvoudigd model als bedoeld in artikel 5, gesch
 
 In elk dagboek moeten de boekingen worden geïdentificeerd met een volgnummer, in voorkomend geval voor elke boekhoudperiode of elk boekjaar, in een doorlopende reeks. 
 
-#### Inhoud van de boekingen 
+#### Inhoud van de boekingen
 
 Op basis van wat voorafgaat bevat elke boeking over het algemeen de volgende bestanddelen : 
 
@@ -367,7 +363,7 @@ b) in boekhoudingen gevoerd overeenkomstig artikel 5 :
 
 Indien de onderneming btw-plichtig is, moet de boeking daarenboven de vermeldingen bevatten die opgelegd zijn door het Wetboek op de belasting over de toegevoegde waarde en door de uitvoeringsbesluiten van dat Wetboek. 
 
-### Inschrijving in de rekeningen 
+### Inschrijving in de rekeningen
 
 Alle gegevens ingeschreven in de dagboeken worden methodisch overgedragen naar de rekeningen[^42]. Deze verplichting geldt niet voor de ondernemingen bedoeld in artikel 5. 
 
@@ -377,7 +373,7 @@ De overdracht van verrichtingen naar de rekeningen is bedoeld om die te klassere
 
 Voor het houden van de rekeningen geldt geen enkel vormvereiste. De wet bepaalt geen termijn voor de inschrijving van verrichtingen in de rekeningen. Dit valt onder de beheersvereisten van de onderneming. Momenteel geschiedt in de meeste gevallen de inschrijving tegelijkertijd in het dagboek en in de rekeningen. 
 
-### Het rekeningenstelsel 
+### Het rekeningenstelsel
 
 De rekeningen die in de boekhouding worden geopend, moeten in het rekeningenstelsel van de onderneming voorkomen. 
 
@@ -391,7 +387,7 @@ Dit impliceert dat het rekeningenstelsel van de onderneming op het passende besl
 
 In dit verband wordt gewezen op het belang van een precieze en duidelijke hoofding van de rekeningen die in het rekeningenstelsel van de onderneming worden geopend. Aan elke soort verrichting die een onderneming in haar boekhouding wenst te onderscheiden, naast de bestaande categorieën in het algemeen rekeningenstelsel, moet één, maar dan ook slechts één rekening beantwoorden. De hoofding daarvan moet de inhoud precies dekken. Rekeningen met een vage hoofding, zoals «te regulariseren diversen» of «toe te rekenen bedragen» zijn te vermijden. Als er wachtrekeningen nodig zijn, dan moeten zowel hun inhoud als hun hoofding zo duidelijk mogelijk zijn en moeten de daarin opgenomen boekingen zo snel mogelijk een definitieve bestemming krijgen. 
 
-### De inventaris 
+### De inventaris
 
 De wet bepaalt dat «elke onderneming, omzichtig en te goeder trouw, ten minste eens per jaar de nodige opnemingen, verificaties, onderzoekingen en waarderingen verricht om op een door haar gekozen datum de inventaris op te maken van al haar bezittingen, vorderingen, schulden en verplichtingen van welke aard ook, die betrekking hebben op haar bedrijf, en van de eigen middelen daaraan verstrekt.» Dit voorschrift staat ook in artikel 77 van de vennootschapswet dat bepaalt dat «de bestuurders elk jaar een inventaris opmaken, alsmede de jaarrekening» en dat «deze stukken worden opgemaakt overeenkomstig de wet van 17 juli 1975 op de boekhouding en de jaarrekening van de ondernemingen en de besluiten ter uitvoering ervan (...)». 
 
@@ -414,7 +410,7 @@ Krachtens artikel 7, eerste lid van de wet moet de inventaris worden ingericht o
 
 Er weze aan herinnerd dat, krachtens artikel 15 van het besluit van 8 oktober 1976, de waarderingsregels bepaald door het bestuursorgaan van de onderneming moeten worden vastgelegd in het inventarisboek ter staving van de verrichte waarderingen en samengevat in de toelichting bij de jaarrekening. 
 
-### De jaarrekening 
+### De jaarrekening
 
 Elke onderneming, dus ook die bedoeld in artikel 5 van de wet, moet een jaarrekening opstellen. 
 
@@ -426,9 +422,9 @@ De jaarrekening en de inventarisstukken waarop zij steunt, worden overgeschreven
 
 Aangezien de inventarisgegevens de verantwoordingsstukken vormen voor de vermogensbestanddelen die zijn omschreven in de verschillende balansposten en de rekeningen rechten en verplichtingen, is het logisch, zoals de wet voorschrijft, dat de inventaris - althans in ondernemingen die een volledige boekhouding voeren - wordt ingericht overeenkomstig het rekeningenstelsel van de onderneming. Over de duur van het boekjaar wordt verwezen naar advies 7/1[^49]. 
 
-### Onveranderlijkheid van de boekingen 
+### Onveranderlijkheid van de boekingen
 
-#### Boekhoudrechtelijke invalshoek 
+#### Boekhoudrechtelijke invalshoek
 
 Traditioneel hecht het handelsrecht in ons land net als in bepaalde andere West-Europese landen, veel belang aan de onveranderlijkheid van de boekingen. Krachtens artikel 8, § 2 van de wet «worden de boeken op zodanige wijze gehouden dat de materiële continuïteit ervan, evenals de regelmatigheid en de onveranderlijkheid van de boekingen zijn verzekerd».
 
@@ -450,7 +446,7 @@ Die formaliteiten gelden verplicht voor het ongesplitste dagboek, de drie dagboe
 
 Die formaliteiten hebben in de huidige stand van de teksten tot gevolg dat het ongesplitste dagboek, het centraal boek, de drie dagboeken als bedoeld in artikel 5 en het inventaris- en jaarrekeningboek, op papier moeten worden gehouden. De hulpdagboeken mogen daarentegen op elke passende drager worden gehouden (registers, losse bladen, magneetbanden, computerschijven of diskettes, ...). Indien de betrokken drager evenwel de onuitwisbaarheid van de gegevens daarop niet garandeert, moeten die ook in een rechtstreeks leesbaar document worden vastgelegd[^53]. 
 
-#### Draagwijdte van het beginsel van de onveranderlijkheid van de boekingen 
+#### Draagwijdte van het beginsel van de onveranderlijkheid van de boekingen
 
 In de boekhoudwet neemt het beginsel van de onveranderlijkheid van de boekingen een centrale plaats in, zoals blijkt uit de technische procédés die de naleving ervan moeten waarborgen. 
 
@@ -493,7 +489,7 @@ De Commissie is evenwel van mening dat het, alvorens in die richting voorstellen
 
 Vanzelfsprekend blijven, in afwachting van een eventuele wijziging, de bestaande wettelijke en reglementaire bepalingen onverkort van toepassing. 
 
-### Bewaring van dagboeken en boeken 
+### Bewaring van dagboeken en boeken
 
 Zoals gezegd moeten krachtens de wet de boeken worden bewaard gedurende tien jaar, te rekenen van de 1ste januari van het jaar dat op de afsluiting volgt[^54]. Dezelfde bewaringstermijn geldt voor de desbetreffende verantwoordingsstukken. Voor stukken die niet strekken tot bewijs jegens derden, is die termijn evenwel beperkt tot drie jaar. 
 

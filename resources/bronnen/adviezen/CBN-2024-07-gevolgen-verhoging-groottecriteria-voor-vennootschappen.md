@@ -25,33 +25,33 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:13Z'
+    confirmed_at: '2026-05-11T15:26:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'B5: Voorbeeld 3 (regel 176) en Voorbeeld 4 (regel 196) staan als plain-text-alinea zonder ### heading-prefix, terwijl Voorbeeld 1 (regel 107), Voorbeeld 2 (regel 139) en Voorbeeld 5 (regel 216) wel als ### heading zijn opgemaakt. Inconsistente heading-behandeling van voorbeelden is een extractie-artefact. Inhoud verder volledig; 36 voetnoten correct.'
+    rationale: "B5: Voorbeeld 3 (regel 200) en Voorbeeld 4 (regel 221) staan als plain-text-alinea's zonder ### heading-prefix, terwijl Voorbeeld 1 (regel 129), Voorbeeld 2 (regel 162) en Voorbeeld 5 (regel 242) wél als ### heading zijn opgemaakt — inconsistente heading-behandeling is een extractie-artefact. Inhoud verder volledig; 36 voetnoten correct."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:19Z'
+      file_size_chars: 25989
+      flags: []
       heading_count: 7
       max_section_chars: 9443
-      file_size_chars: 25645
-      flags: []
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:13Z'
-      rationale: 'B5: Voorbeeld 3 (regel 176) en Voorbeeld 4 (regel 196) staan als plain-text-alinea zonder ### heading-prefix, terwijl Voorbeeld 1 (regel 107), Voorbeeld 2 (regel 139) en Voorbeeld 5 (regel 216) wel als ### heading zijn opgemaakt. Inconsistente heading-behandeling van voorbeelden is een extractie-artefact. Inhoud verder volledig; 36 voetnoten correct.'
+      run_at: '2026-05-11T15:26:40Z'
+      rationale: "B5: Voorbeeld 3 (regel 200) en Voorbeeld 4 (regel 221) staan als plain-text-alinea's zonder ### heading-prefix, terwijl Voorbeeld 1 (regel 129), Voorbeeld 2 (regel 162) en Voorbeeld 5 (regel 242) wél als ### heading zijn opgemaakt — inconsistente heading-behandeling is een extractie-artefact. Inhoud verder volledig; 36 voetnoten correct."
       concrete_problemen:
-        - regel: 176
+        - regel: 200
           categorie: B5
           type: other
           voorbeeld: 'Voorbeeld 3: impact van de verhoging van de criteria op langere termijn waarbij het boekjaar gelijk loopt met het kalenderjaar (plain text, geen ### heading)'
-        - regel: 196
+        - regel: 221
           categorie: B5
           type: other
           voorbeeld: 'Voorbeeld 4: impact van de verhoging van de criteria op langere termijn waarbij het boekjaar niet gelijk loopt met het kalenderjaar (plain text, geen ### heading)'
@@ -117,6 +117,7 @@ In de hierna uitgewerkte voorbeelden[^19] wordt er van uitgegaan dat de betrokke
 Een vennootschap voert een boekhouding per kalenderjaar. Voor de boekjaren 2021, 2022 en 2023 werd de vennootschap aangemerkt als een “grote” vennootschap. De vennootschap heeft de volgende kencijfers[^20]:
 
 | | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | 
+|---|---|---|---|---|---|---|
 | Jaargemiddelde personeelsbestand | | 60 | | 60 | | 60 | 
 | Omzet[^21] | | 10.000.000 | | 11.000.000 | | 12.000.000 | 
 | Balanstotaal | | 4.800.000 | | 5.000.000 | | 5.200.000 | 
@@ -149,6 +150,7 @@ Door de uitgestelde werking blijft de vennootschap ook in boekjaar 2026 klein, a
 Een vennootschap hanteert gebroken boekjaren waarbij het boekjaar eindigt op 31 maart. Voor de boekjaren die werden aangevat op 1 april 2022 en 1 april 2023 werd de vennootschap aangemerkt als een kleine vennootschap. De vennootschap heeft de volgende kencijfers[^23]:
 
 | | | 31/03/2024 | | 31/03/2025 | | 31/03/2026 | 
+|---|---|---|---|---|---|---|
 | Jaargemiddelde personeelsbestand | | 60 | | 60 | | 60 | 
 | Omzet | | 11.350.000 | | 11.000.000 | | 11.450.000 | 
 | Balanstotaal | | 5.500.000 | | 5.650.000 | | 5.800.000 | 
@@ -186,6 +188,7 @@ Veronderstel een vennootschap met een einde boekjaardatum van 31 december. De ci
  Om de grootte van de vennootschap te bepalen in boekjaren die aanvatten na 31 december 2023 moet men de verhoogde drempelwaarden gebruiken. 
 
 | **Einde 31.12** | | | | **31.12.2021** | | | | | | **31.12.2022** | | | | **31.12.2023** | | | | | | **31.12.2024** | | | | | | **31.12.2025** | | | | | | **31.12.2026** | | | 
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Personeel | | 60 | | 60 | | 60 | | 60 | | 60 | | 60 | 
 | Omzet | | 10 | | 10 | | 10 | | 11 | | 12 | | 12 | 
 | Balanstotaal | | 4,8 | | 4,8 | | 4,8 | | 5,2 | | 5,2 | | 5,2 | 
@@ -206,6 +209,7 @@ Veronderstel een vennootschap met een einde boekjaardatum van 31 maart. De cijfe
  Om de grootte van de vennootschap te bepalen in boekjaren die aanvatten na 31 december 2023 moet men de verhoogde drempelwaarden gebruiken.
 
 | **Einde 31.03** | | | | **31.03.2021** | | | | | | **31.03.2022** | | | | **31.03.2023** | | | | | | **31.03.2024** | | | | | | **31.03.2025** | | | | | | **31.03.2026** | | | 
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Personeel | | 60 | | 60 | | 60 | | 60 | | 60 | | 60 | 
 | Omzet | | 10 | | 10 | | 10 | | 11 | | 12 | | 12 | 
 | Balanstotaal | | 4,8 | | 4,8 | | 4,8 | | 5,2 | | 5,2 | | 5,2 | 

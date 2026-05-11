@@ -12,40 +12,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:19:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: heading-hiërarchie springt op regels 71 en 78 van ## naar #### zonder tussenliggend ### niveau (## Inleiding → #### Procedure → #### Boekhoudkundige verwerking) — een mens zou dit niet zo schrijven. D4: regel 88 toont '*Voorbeeld* ' met trailing spatie na closing asterisk — potentieel renderen als malformed italic afhankelijk van parser."
+    rationale: "E2: regel 133 toont '| | of 623 Andere personeelskosten | | | |' als losse tabelrij — dit is een inline alternatieve rekening die als aparte tabelrij is gerenderd in plaats van in dezelfde cel als rekening 61. ETL-artefact waarbij een parenthetische opmerking in de source (zoals '(of 623)') als een extra tabelrij is geëxtraheerd."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:16Z'
-      heading_count: 6
-      max_section_chars: 8499
-      file_size_chars: 10393
+      file_size_chars: 10392
       flags: []
+      heading_count: 6
+      max_section_chars: 4621
+      run_at: '2026-05-11T15:05:50Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "B2: heading-hiërarchie springt op regels 71 en 78 van ## naar #### zonder tussenliggend ### niveau (## Inleiding → #### Procedure → #### Boekhoudkundige verwerking) — een mens zou dit niet zo schrijven. D4: regel 88 toont '*Voorbeeld* ' met trailing spatie na closing asterisk — potentieel renderen als malformed italic afhankelijk van parser."
+      run_at: '2026-05-11T15:19:36Z'
+      rationale: "E2: regel 133 toont '| | of 623 Andere personeelskosten | | | |' als losse tabelrij — dit is een inline alternatieve rekening die als aparte tabelrij is gerenderd in plaats van in dezelfde cel als rekening 61. ETL-artefact waarbij een parenthetische opmerking in de source (zoals '(of 623)') als een extra tabelrij is geëxtraheerd."
       concrete_problemen:
-        - regel: 71
-          categorie: B2
-          type: other
-          voorbeeld: '#### Procedure'
-        - regel: 78
-          categorie: B2
-          type: other
-          voorbeeld: '#### Boekhoudkundige verwerking'
-        - regel: 88
-          categorie: D4
-          type: other
-          voorbeeld: '*Voorbeeld* '
+        - regel: 133
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: "| | 61 | Diensten en diverse goederen | 160 | |\n| | of 623 Andere personeelskosten | | | |"
 themas:
   - kmo-portefeuille
   - ondernemerschapsportefeuille
@@ -68,14 +60,14 @@ Door middel van deze steunmaatregel kunnen kmo’s aanspraak maken op subsidies 
 
 Zowel de aanvraag als de verwerking, de toekenning en het beheer van de subsidie gebeuren via de elektronische ondernemerschapsportefeuille of kmo-portefeuille. 
 
-#### Procedure
+### Procedure
 
 Na het afsluiten van een overeenkomst met een erkende dienstverlener of na de inschrijving bij een erkende dienstverlener, dient de onderneming via de webapplicatie een subsidieaanvraag in.[^8]
  Bij een eerste subsidieaanvraag wordt via deze webapplicatie een ondernemerschapsportefeuille op naam van de onderneming aangemaakt.[^9] 
 
 Als de onderneming voldoet aan de voorwaarden vermeld in het decreet van 31 januari 2003, het Besluit van de Vlaamse Regering van 19 december 2008 en de uitvoeringsbesluiten, wordt de subsidie toegekend aan de onderneming door de toekenning van een projectbedrag in de ondernemerschapsportefeuille op naam van de onderneming, waarvan, naargelang het steunpercentage, respectievelijk 50 % of 75 % wordt betaald door het Vlaamse Gewest en 50 % of 25 % door de onderneming. [^10] 
 
-#### Boekhoudkundige verwerking
+### Boekhoudkundige verwerking
 
 Naar het oordeel van de Commissie voor Boekhoudkundige Normen dient de subsidieverlening in het kader van de kmo-portefeuille als volgt verwerkt te worden in de boekhouding van de onderneming. 
 

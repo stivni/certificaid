@@ -25,40 +25,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:26:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E1/E2: alle balansen en verdelingstabellen zijn pseudo-pipe-tabellen zonder markdown header+separator-rij (regels 86-91, 99-106, 139-145, 152-155, 159-165, 175-185, 191-194) — één naamrij of datakoprij gevolgd door datarijen, geen '|---|' scheiding. De tabellen zijn niet parseerbaar als geldige markdown. Inhoud en footnotes (17) zijn correct."
+    rationale: Inhoud volledig en structureel correct. 6 headings, alle tabellen in pipe-syntax, voetnoten [^1]-[^17] aanwezig. Op regel 179 staat 'Overdragen resultaat' (ontbreekt 'd' achteraan) — dit is een source-typo in de originele CBN-tekst, geen ETL-bug. Geen verdere artefacten.
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 6
-      max_section_chars: 4674
-      file_size_chars: 15659
+      file_size_chars: 15801
       flags: []
+      heading_count: 6
+      max_section_chars: 4798
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "E1/E2: alle balansen en verdelingstabellen zijn pseudo-pipe-tabellen zonder markdown header+separator-rij (regels 86-91, 99-106, 139-145, 152-155, 159-165, 175-185, 191-194) — één naamrij of datakoprij gevolgd door datarijen, geen '|---|' scheiding. De tabellen zijn niet parseerbaar als geldige markdown. Inhoud en footnotes (17) zijn correct."
+      run_at: '2026-05-11T15:26:40Z'
+      rationale: Inhoud volledig en structureel correct. 6 headings, alle tabellen in pipe-syntax, voetnoten [^1]-[^17] aanwezig. Op regel 179 staat 'Overdragen resultaat' (ontbreekt 'd' achteraan) — dit is een source-typo in de originele CBN-tekst, geen ETL-bug. Geen verdere artefacten.
       concrete_problemen:
-        - regel: 86
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: "| Vennootschap A (te splitsen vennootschap) | \n| Activum 1 | | 130 | | Kapitaal/Inbreng | | 60 |"
-        - regel: 139
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: '| | | Eigen vermogen van vennootschap A | | Aan vennootschap B fiscaal overgedragen eigen vermogen |'
-        - regel: 191
-          categorie: E2
-          type: pseudo-table
-          voorbeeld: '| Totaal eigen vermogen na fiscale verdeling | | 220 | | 100 | | 120 |'
+        - regel: 179
+          categorie: (source)
+          type: source-typo
+          voorbeeld: '| Overdragen resultaat | | -30 |'
 themas:
   - splitsing
 ---
@@ -84,6 +76,7 @@ Onderhavig advies wordt als volgt ingedeeld:
 De balans van de te splitsen vennootschap A wordt vóór de splitsing als volgt opgemaakt[^3]: 
 
 | Vennootschap A (te splitsen vennootschap) | 
+|---|
 | Activum 1 | | 130 | | Kapitaal/Inbreng | | 60 | 
 | Activum 2 | | 150 | | Beschikbare reserves | | 40 | 
 | | | | | HWMW activum 2 | | 120 | 
@@ -97,10 +90,12 @@ De fiscale nettowaarde van vennootschap A, die gesplitst wordt in twee nieuwe ve
 Indien activum 1 aan vennootschap B en het geherwaardeerd activum 2 samen met de schulden aan vennootschap C worden toegekend, worden de balansen van de verkrijgende vennootschappen na de splitsing (maar vóór verdeling van het eigen vermogen) als volgt opgemaakt: 
 
 | Vennootschap B | 
+|---|
 | Activum 1 | | 130 | | *Eigen vermogen* | | *130* | 
 | Totaal | | 130 | | | | 130 | 
 
 | Vennootschap C | 
+|---|
 | Activum 2 | | 150 | | *Eigen vermogen* | | *90* | 
 | | | | | Schulden | | 60 | 
 | Totaal | | 150 | | | | 150 | 
@@ -137,6 +132,7 @@ Volgens de Commissie zou het evenwel niet mogelijk mogen zijn om gebruik te make
 Volgens de Commissie zou de verdeling van het eigen vermogen van vennootschap A, in toepassing van artikel 3:56, § 4 KB WVV, als volgt moeten verlopen:
 
 | | | Eigen vermogen van vennootschap A | | Aan vennootschap B fiscaal overgedragen eigen vermogen | | Aan vennootschap C fiscaal overgedragen eigen vermogen[^15] | 
+|---|---|---|---|---|---|---|
 | Kapitaal/inbreng | | 60 | | 60 (1) | | 0 (1) | 
 | Onbeschikbare reserves | | 0 | | 0 (1) | | 0 (1) | 
 | Beschikbare reserves | | 40 | | 40 (1) | | 0 (1) | 
@@ -150,6 +146,7 @@ Volgens de Commissie zou de verdeling van het eigen vermogen van vennootschap A,
 Op basis van het hierboven opgenomen schema kan er via het aan vennootschap B toegekende boekhoudkundig eigen vermogen geen gelijkheid worden gevonden tussen actief en passief. Er bestaat immers een verschil tussen het boekhoudkundig eigen vermogen dat voortkomt uit de fiscale verdeling zoals bedoeld in artikel 213 WIB 92 en het aan de verkrijgende vennootschappen overgedragen boekhoudkundig nettoactief. 
 
 | | | Eigen vermogen van vennootschap B | | Eigen vermogen van vennootschap C | 
+|---|---|---|---|---|
 | Boekhoudkundig eigen vermogen na fiscale verdeling | | 100 | | 120 | 
 | Verwacht boekhoudkundig eigen vermogen (zie *supra*, randnummer 5) | | 130 | | 90 | 
 | Verschil | | + 30 | | - 30 | 
@@ -157,6 +154,7 @@ Op basis van het hierboven opgenomen schema kan er via het aan vennootschap B to
 Deze ongelijkheid wordt boekhoudkundig gecorrigeerd via de onbeschikbare reserves bij vennootschap B en via het overgedragen resultaat bij vennootschap C. De verdeling van het boekhoudkundig eigen vermogen na correctie wordt hieronder opgenomen:
 
 | | | Eigen vermogen van vennootschap A | | Aan vennootschap B fiscaal overgedragen eigen vermogen | | Aan vennootschap C fiscaal overgedragen eigen vermogen | 
+|---|---|---|---|---|---|---|
 | Kapitaal/inbreng | | 60 | | 60 | | 0 | 
 | Onbeschikbare reserves | | | | 30 (1) | | 0 | 
 | Beschikbare reserves | | 40 | | 40 | | 0 | 
@@ -173,12 +171,14 @@ De som van de boekwaarde van de eigenvermogensbestanddelen die aan elk van de ve
 Na de splitsing worden de balansen van de verkrijgende vennootschappen als volgt weergegeven:
 
 | Vennootschap B | 
+|---|
 | Activum 1 | | 130 | | Kapitaal | | 60 | 
 | | | | | Beschikbare reserves | | 40 | 
 | | | | | Onbeschikbare reserves | | 30 | 
 | Totaal | | 130 | | | | 130 | 
 
 | Vennootschap C | 
+|---|
 | Activum 2 | | 150 | | Overdragen resultaat | | -30 | 
 | | | | | Herwaarderingsmeerwaarde | | 120 | 
 | | | | | Schulden | | 60 | 
@@ -189,6 +189,7 @@ Overeenkomstig het standpunt ingenomen in CBN-advies 2022/01, geeft het verschil
 In hoofde van vennootschap C bedraagt het overgedragen fiscaal eigen vermogen in kader I.A van de fiscale aangifte -30 (overgedragen resultaat) en 30 (belaste reserve), hetgeen in totaal neerkomt op een nettobedrag van 0 dat overeenstemt met de waarde van het fiscaal eigen vermogen dat op basis van artikel 213 WIB 92 aan vennootschap C werd toegekend.[^16] 
 
 | | | Eigen vermogen van vennootschap A | | Aan vennootschap B fiscaal overgedragen eigen vermogen | | Aan vennootschap C fiscaal overgedragen eigen vermogen | 
+|---|---|---|---|---|---|---|
 | Totaal eigen vermogen na fiscale verdeling | | 220 | | 100 | | 120 | 
 | Totaal boekhoudkundig eigen vermogen | | 220 | | 130 | | 90 | 
 | Verschil | | | | - 30 | | - 30 | 

@@ -2,49 +2,56 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-goedkeuring-en-neerlegging-van-de-jaarrekening-vzws-0
 datum: 2020-07-16
 gerelateerde_adviezen:
-  - datum: '2020-07-22'
-    titel: Mogelijkheid tot uitstel van de gewone algemene vergadering en van de neerlegging van de jaarrekening (vennootschappen)
-    url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
+- datum: '2020-07-22'
+  titel: Mogelijkheid tot uitstel van de gewone algemene vergadering en van de neerlegging
+    van de jaarrekening (vennootschappen)
+  url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
 nummer: CBN-advies 2020/07
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-goedkeuring-en-neerlegging-van-de-jaarrekening-vzws-0
-      sha256: 85bbe53d42be82044bc266c72e572b9bd5fa70312a9353605961126a807aacb4
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-goedkeuring-en-neerlegging-van-de-jaarrekening-vzws-0
+    sha256: 85bbe53d42be82044bc266c72e572b9bd5fa70312a9353605961126a807aacb4
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 8
-      max_section_chars: 7992
       file_size_chars: 12866
       flags: []
+      heading_count: 8
+      max_section_chars: 7992
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Geen PDF-artefacten zichtbaar. Heading-hiërarchie correct (# → ## → ###). Alle voetnoten [^2]-[^24] hebben een corresponderende definitie onderaan; [^1] staat als consultatie-noot enkel onderaan (CBN-conventie, geen bug). Inhoud volledig: inleiding, (I)VZW-sectie, stichtingen-sectie, voorbeelden.'
+      rationale: 'Geen PDF-artefacten zichtbaar. Heading-hiërarchie correct (# → ##
+        → ###). Alle voetnoten [^2]-[^24] hebben een corresponderende definitie onderaan;
+        [^1] staat als consultatie-noot enkel onderaan (CBN-conventie, geen bug).
+        Inhoud volledig: inleiding, (I)VZW-sectie, stichtingen-sectie, voorbeelden.'
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: 'Geen PDF-artefacten zichtbaar. Heading-hiërarchie correct (# → ## → ###). Alle voetnoten [^2]-[^24] hebben een corresponderende definitie onderaan; [^1] staat als consultatie-noot enkel onderaan (CBN-conventie, geen bug). Inhoud volledig: inleiding, (I)VZW-sectie, stichtingen-sectie, voorbeelden.'
+    rationale: 'Geen PDF-artefacten zichtbaar. Heading-hiërarchie correct (# → ##
+      → ###). Alle voetnoten [^2]-[^24] hebben een corresponderende definitie onderaan;
+      [^1] staat als consultatie-noot enkel onderaan (CBN-conventie, geen bug). Inhoud
+      volledig: inleiding, (I)VZW-sectie, stichtingen-sectie, voorbeelden.'
     status: trusted
 themas:
-  - uitstel algemene vergadering
-  - goedkeuring van de jaarrekening
-  - neerlegging van de jaarrekening
-  - opstelling van de jaarrekening
-  - verenigingen en stichtingen
-  - COVID-19
+- uitstel algemene vergadering
+- goedkeuring van de jaarrekening
+- neerlegging van de jaarrekening
+- opstelling van de jaarrekening
+- verenigingen en stichtingen
+- COVID-19
 ---
 
 # CBN-advies 2020/07 – Mogelijkheid tot uitstel van de goedkeuring en neerlegging van de jaarrekening (VZW’s, IVZW’s en stichtingen)

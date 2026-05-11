@@ -25,40 +25,40 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A9: regel 85 bevat 'Belgiëë' (dubbeld ë) — extractie-artefact voor 'België'. A6: regel 97 bevat 'der halve' (gesplitst woord) voor 'derhalve'. Bovendien regel 89: 'ingschakeld' (ontbrekende 'e') — derde extractiefout niet gesignaleerd door vorige L2. Drie bevestigde artefacten; inhoud verder volledig."
+    rationale: "A9: regel 89 bevat 'Belgiëë' (dubbele ë) voor 'België' en regel 93 bevat 'ingschakeld' (ontbrekende 'e') voor 'ingeschakeld' — OCR-extractie-artefacten. A6: regel 101 bevat 'der halve' (gesplitst woord) voor 'derhalve' — spurious word-split. Drie bevestigde artefacten; inhoud verder volledig."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 0
-      max_section_chars: 4790
       file_size_chars: 4790
       flags: []
+      heading_count: 0
+      max_section_chars: 4790
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "A9: regel 85 bevat 'Belgiëë' (dubbeld ë) — extractie-artefact voor 'België'. A6: regel 97 bevat 'der halve' (gesplitst woord) voor 'derhalve'. Bovendien regel 89: 'ingschakeld' (ontbrekende 'e') — derde extractiefout niet gesignaleerd door vorige L2. Drie bevestigde artefacten; inhoud verder volledig."
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: "A9: regel 89 bevat 'Belgiëë' (dubbele ë) voor 'België' en regel 93 bevat 'ingschakeld' (ontbrekende 'e') voor 'ingeschakeld' — OCR-extractie-artefacten. A6: regel 101 bevat 'der halve' (gesplitst woord) voor 'derhalve' — spurious word-split. Drie bevestigde artefacten; inhoud verder volledig."
       concrete_problemen:
-        - regel: 85
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: succursalen in Belgiëë van ondernemingen
-        - regel: 97
-          categorie: A6
-          type: other
-          voorbeeld: dienen zij der halve te worden omgezet
         - regel: 89
           categorie: A9
           type: ocr-confusion
-          voorbeeld: volledig ingschakeld zijn in het economische
+          voorbeeld: jaarrekening van succursalen in Belgiëë van ondernemingen
+        - regel: 93
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: volledig ingschakeld zijn in het economische en sociale bestel
+        - regel: 101
+          categorie: A6
+          type: other
+          voorbeeld: dienen zij der halve te worden omgezet
 themas:
   - afwijking
   - bedrijfszetel

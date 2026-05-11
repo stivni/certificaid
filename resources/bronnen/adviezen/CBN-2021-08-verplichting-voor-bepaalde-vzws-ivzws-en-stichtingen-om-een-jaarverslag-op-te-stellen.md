@@ -25,40 +25,32 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    status: trusted
+    confirmed_at: '2026-05-11T15:26:40Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E1/E2: alle vier tabellen (regels 117-120, 134-137, 161-164, 177-180) zijn pseudo-pipe-tabellen zonder markdown header+separator-rij — elke tabel heeft enkel één naamrij gevolgd door datarijen zonder '|---|' scheidingslijn. D4: op regel 102 en 126 staat '* Bijlagen bij het Belgisch Staatsblad*' met een spatie vóór de afsluitende asterisk (italic-marker niet correct afgesloten). Inhoud is volledig: 14 headings correct, alle 22 voetnootdefinities aanwezig, 5 voorbeelden intact."
+    rationale: "Geen ETL-artefacten aangetroffen. Vijf voorbeelden met tabellen correct in markdown pipe-syntax. Heading-hiërarchie correct (## > ### > #### > #####). Twee kleine spaties-voor-italic-openers op regels 114 en 132 ('in de* Bijlagen*') zijn waarschijnlijk source-typos (consistent op CBN-website), geen reden voor needs-rework. Inhoud volledig: toepassingsgebied, voorbeelden 1-5, vrijwillige opstelling — alle 22 voetnoten aanwezig."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:18Z'
-      heading_count: 14
-      max_section_chars: 8223
-      file_size_chars: 16874
+      file_size_chars: 16943
       flags: []
+      heading_count: 14
+      max_section_chars: 8262
+      run_at: '2026-05-11T15:05:54Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: "E1/E2: alle vier tabellen (regels 117-120, 134-137, 161-164, 177-180) zijn pseudo-pipe-tabellen zonder markdown header+separator-rij — elke tabel heeft enkel één naamrij gevolgd door datarijen zonder '|---|' scheidingslijn. D4: op regel 102 en 126 staat '* Bijlagen bij het Belgisch Staatsblad*' met een spatie vóór de afsluitende asterisk (italic-marker niet correct afgesloten). Inhoud is volledig: 14 headings correct, alle 22 voetnootdefinities aanwezig, 5 voorbeelden intact."
+      run_at: '2026-05-11T15:26:40Z'
+      rationale: "Geen ETL-artefacten aangetroffen. Vijf voorbeelden met tabellen correct in markdown pipe-syntax. Heading-hiërarchie correct (## > ### > #### > #####). Twee kleine spaties-voor-italic-openers op regels 114 en 132 ('in de* Bijlagen*') zijn waarschijnlijk source-typos (consistent op CBN-website), geen reden voor needs-rework. Inhoud volledig: toepassingsgebied, voorbeelden 1-5, vrijwillige opstelling — alle 22 voetnoten aanwezig."
       concrete_problemen:
-        - regel: 117
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: '| Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/12/2017 | | 31/12/2018 |'
-        - regel: 102
-          categorie: D4
-          type: other
-          voorbeeld: '* Bijlagen bij het Belgisch Staatsblad*'
-        - regel: 126
-          categorie: D4
-          type: other
-          voorbeeld: '* Bijlagen bij het Belgisch Staatsblad*'
+        - regel: 114
+          categorie: (source)
+          type: source-typo
+          voorbeeld: in de* Bijlagen bij het Belgisch Staatsblad* — spatie voor italic-opener (ook op r.132)
 themas:
   - jaarverslag
   - opstelling jaarverslag
@@ -77,9 +69,9 @@ Sinds de inwerkingtreding van het Wetboek van vennootschappen en verenigingen (h
 
 Voor wat betreft het jaarverslag, verwijst de Commissie naar de artikelen 3:48 (VZW’s & IVZW’s) en 3:52 (stichtingen) WVV. De Commissie wenst het belang te benadrukken van deze twee dwingende bepalingen waarvan de VZW’s, IVZW’s en stichtingen niet kunnen afwijken. Worden de bepalingen niet correct toegepast, kan het bestuursorgaan aansprakelijk worden gesteld. Alle in deze twee artikelen opgenomen informatie moet verplicht in het jaarverslag kunnen worden teruggevonden[^3].
 
-## Verplichting om een jaarverslag op te stellen 
+## Verplichting om een jaarverslag op te stellen
 
-### Toepassingsgebied ratione personae 
+### Toepassingsgebied ratione personae
 
 De verplichting om een jaarverslag op te stellen, heeft betrekking op de andere dan de kleine VZW’s. IVZW’s of stichtingen. De verplichting geldt dus voor VZW’s, IVZW’s of stichtingen die op balansdatum van het laatst afgesloten boekjaar meer dan één van de volgende criteria overschrijden[^4]: 
 
@@ -94,7 +86,7 @@ Het al dan niet overschrijden van meer dan één van de hierboven vermelde crite
 Het WVV is in werking getreden op 1 mei 2019. Bestaande VZW’s, IVZW’s en stichtingen kunnen echter overgangsbepalingen toepassen.[^6]
  Er moet dan ook een onderscheid worden gemaakt naargelang de VZW, IVZW of stichting vóór of vanaf 1 mei 2019 werd opgericht.
 
-#### VZW’s, IVZW’s en stichtingen opgericht vanaf 1 mei 2019 
+#### VZW’s, IVZW’s en stichtingen opgericht vanaf 1 mei 2019
 
 Het WVV is op 1 mei 2019 in werking getreden voor de VZW’s, IVZW’s en stichtingen die zijn opgericht vanaf 1 mei 2019. 
 
@@ -104,18 +96,18 @@ Voor VZW's, IVZW’s en stichtingen die met hun bedrijf starten, worden voor de 
 
 De duur van het boekjaar van een VZW, IVZW of stichting die is opgericht vanaf 1 mei 2019, kan bovendien uitzonderlijk meer of minder dan 12 maanden zijn. In dit geval moet het criterium van de omzet, exclusief de belasting over de toegevoegde waarde, beoordeeld worden in functie van de lengte van het boekjaar om te bepalen of de VZW, IVZW of stichting al dan niet een jaarverslag moet opstellen[^9].
 
-### *Voorbeeld 1*
+### Voorbeeld 1
 
 Een VZW wordt opgericht op 1 juni 2019 met een boekjaar gelijk aan het kalenderjaar. Op het ogenblik waarop de jaarrekening wordt vastgesteld, moet deze VZW een jaarverslag opstellen in geval zij op basis van de cijfers op balansdatum van haar eerste boekjaar (31 december 2019) een andere dan een kleine VZW is[^10].
-#### VZW’s, IVZW’s en stichtingen die reeds bestonden vóór 1 mei 2019 
+#### VZW’s, IVZW’s en stichtingen die reeds bestonden vóór 1 mei 2019
 
-##### « Opt-in » 
+##### « Opt-in »
 
  Krachtens artikel 39, § 1, eerste lid van de wet van 23 maart 2019[^11], trad het WVV voor bestaande VZW’s, IVZW’s en stichtingen in principe in werking vanaf 1 januari 2020. Er werd evenwel de mogelijkheid geboden om de bepalingen van het WVV voortijdig toe te passen (“opt-in”), mits een statutenwijziging. Het WVV werd dan van toepassing vanaf de dag van de bekendmaking van deze statutenwijziging in de *Bijlagen bij het Belgisch Staatsblad*.
 
 Indien een andere dan een kleine VZW, IVZW of stichting tot een “*opt-in*” heeft besloten, dan maakt het bestuursorgaan overeenkomstig artikel 3:48 (VZW’s en IVZW’s) of artikel 3:52 (stichtingen) WVV een jaarverslag op dat gelijktijdig met de jaarrekening wordt neergelegd bij de Nationale Bank van België. De toetsing van de groottecriteria vindt, rekening houdend met het consistentiebeginsel, plaats op balansdatum van het laatst afgesloten boekjaar. 
 
-### *Voorbeeld 2* 
+### Voorbeeld 2
 
 Een VZW[^12] die op 6 januari 2006 werd opgericht met een boekjaar gelijk aan het kalenderjaar, beslist op 1 juni 2019 de bepalingen van het WVV voortijdig toe te passen.
 Naar aanleiding van die “*opt-in*” zijn de bepalingen van het WVV van toepassing vanaf de dag van de bekendmaking van de statutenwijziging in de* Bijlagen bij het Belgisch Staatsblad*. Op balansdatum van het laatst afgesloten boekjaar (31 december 2019) zag de VZW er als volgt uit:
@@ -127,12 +119,13 @@ Naar aanleiding van die “*opt-in*” zijn de bepalingen van het WVV van toepas
 
 Bovendien moeten de cijfers van de twee voorgaande boekjaren (2017 en 2018) in rekening worden genomen om te bepalen of de VZW verplicht is een jaarverslag op te stellen. De gevolgen van de overschrijding hebben immers pas uitwerking vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk meer dan één van de criteria voor de tweede keer op rij werden overschreden of niet werden overschreden[^13]. De cijfers waren op afsluitdatum van de boekjaren 2017 en 2018 de volgende:
 | Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/12/2017 | | 31/12/2018 | 
+|---|---|---|---|---|
 | Personeelsbestand | | 54 | | 55 | 
 | Jaaromzet | | 5.600.000 | | 5.500.000 | 
 | Balans | | 1.850.000 | | 1.850.000 | 
 
 Aangezien de VZW een kleine VZW is overeenkomstig artikel 1:28, § 1 WVV, moet het bestuursorgaan geen jaarverslag opstellen en gelijktijdig neerleggen met de jaarrekening over het boekjaar 2019.
-### *Voorbeeld 3* 
+### Voorbeeld 3
 
 Een VZW[^14] die op 1 september 2005 is opgericht, beslist op 5 mei 2019 tot een “*opt-in*”. Deze VZW voert een boekhouding anders dan per kalenderjaar, namelijk van 1 september N tot 31 augustus N+1.
 Naar aanleiding van die “*opt-in*” zijn de bepalingen van het WVV van toepassing vanaf de dag van de bekendmaking van de statutenwijziging in de* Bijlagen bij het Belgisch Staatsblad*. Op balansdatum van het laatst afgesloten boekjaar[^15], zijnde op 31 augustus 2019, zag de VZW er als volgt uit:
@@ -144,12 +137,13 @@ Naar aanleiding van die “*opt-in*” zijn de bepalingen van het WVV van toepas
 
 Bovendien moeten de cijfers van de twee voorgaande boekjaren (2017 en 2018) in rekening worden genomen om te bepalen of de VZW verplicht is een jaarverslag op te stellen. De gevolgen van de overschrijding hebben immers pas uitwerking vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk meer dan één van de criteria voor de tweede keer op rij werden overschreden of niet werden overschreden[^16]. De cijfers waren op afsluitdatum van boekjaren 2017 en 2018 de volgende:
 | Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/08/2017 | | 31/08/2018 | 
+|---|---|---|---|---|
 | Personeelsbestand | | 49 | | 50 | 
 | Jaaromzet | | 11.000.000 | | 5.500.000 | 
 | Balans | | 5.250.000 | | 5.000.000 | 
 
 Aangezien de VZW een andere dan een kleine VZW is, zal het bestuursorgaan gelijktijdig met de jaarrekening over het boekjaar dat start op 1 september 2018 en eindigt op 31 augustus 2019 een jaarverslag opstellen en neerleggen.
-##### VZW’s, IVZW’s en stichtingen die reeds bestonden vóór 1 mei 2019 en die niet hebben besloten tot een “opt-in”
+#### VZW’s, IVZW’s en stichtingen die reeds bestonden vóór 1 mei 2019 en die niet hebben besloten tot een “opt-in”
 
 Het WVV is van toepassing vanaf 1 januari 2020 voor de VZW’s, IVZW’s en stichtingen die reeds bestonden vóór 1 mei 2019 en die hebben besloten het WVV niet voortijdig toe te passen. Vanaf 1 januari 2020 zijn de dwingende bepalingen van het WVV van toepassing en worden statutaire bepalingen die in strijd zijn met de dwingende bepalingen vanaf die dag voor niet geschreven gehouden.[^17]
  De aanvullende bepalingen worden slechts van toepassing in zoverre zij niet door statutaire clausules worden uitgesloten.[^18] 
@@ -158,7 +152,7 @@ Aangezien artikelen 3:47, § 7, tweede lid; 3:48; 3:51, § 7, tweede lid en 3:52
 
 Om te bepalen of de VZW, IVZW of stichting al dan niet een jaarverslag moet opstellen, dient het bestuursorgaan bij vaststelling van de jaarrekening[^19] te bepalen of de VZW, IVZW of stichting op balansdatum van het laatst afgesloten boekjaar meer dan één van de in artikelen 1:28, § 1 (VZW’s en IVZW’s) en 1:30, § 1 (stichtingen) WVV bepaalde criteria overschreed.
 
-### *Voorbeeld 4*
+### Voorbeeld 4
 
 Een VZW[^20] die op 10 januari 2010 is opgericht met een boekjaar dat samenvalt met het kalenderjaar, kiest er voor het WVV niet voortijdig toe te passen. De dwingende bepalingen van het WVV zijn aldus vanaf 1 januari 2020 op haar van toepassing.
 Vanaf 1 januari 2020 moet er door het bestuursorgaan een jaarverslag worden opgesteld indien het een andere dan een kleine VZW betreft zoals bepaald in artikel 1:28, § 1 WVV. Bij vaststelling van de jaarrekening moet het bestuursorgaan een jaarverslag opstellen indien de VZW op balansdatum van het laatst afgesloten boekjaar (31 december 2019) meer dan één van de in artikel 1:28, § 1 WVV bepaalde criteria overschreed.
@@ -171,12 +165,13 @@ De VZW zag er op balansdatum van het laatst afgesloten boekjaar als volgt uit:
 
 Bovendien moeten de cijfers van de twee voorgaande boekjaren (2017 en 2018) in rekening worden genomen om te bepalen of de VZW verplicht is een jaarverslag op te stellen. De gevolgen van de overschrijding hebben immers pas uitwerking vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk meer dan één van de criteria voor de tweede keer op rij werden overschreden of niet werden overschreden[^21]. De cijfers waren op afsluitdatum van boekjaren 2017 en 2018 de volgende:
 | Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/12/2017 | | 31/12/2018 | 
+|---|---|---|---|---|
 | Personeelsbestand | | 45 | | 45 | 
 | Jaaromzet | | 8.500.000 | | 8.300.000 | 
 | Balans | | 3.750.000 | | 3.200.000 | 
 
 Het feit dat er op balansdatum van het laatst afgesloten boekjaar (2019) meer dan één van de criteria werden overschreden, blijft zonder gevolgen. Dit zal echter wel gevolgen hebben indien deze toestand zich twee opeenvolgende boekjaren voordoet. Aangezien de VZW een kleine VZW is, moet zij geen jaarverslag opstellen.
-### *Voorbeeld 5* 
+### Voorbeeld 5
 
 We hernemen de gegevens van voorbeeld 4. Hier zag de VZW er op balansdatum van het laatst afgesloten boekjaar (31/12/2019) echter als volgt uit:
 - jaargemiddelde van het aantal werknemers: 55; 
@@ -187,6 +182,7 @@ We hernemen de gegevens van voorbeeld 4. Hier zag de VZW er op balansdatum van h
 
 Bovendien moeten de cijfers van de twee voorgaande boekjaren (2017 en 2018) in rekening worden genomen om te bepalen of de VZW verplicht is een jaarverslag op te stellen. De gevolgen van de overschrijding hebben immers pas uitwerking vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk meer dan één van de criteria voor de tweede keer op rij werden overschreden of niet werden overschreden[^22]. De cijfers waren op afsluitdatum van boekjaren 2017 en 2018 de volgende:
 | Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/12/2017 | | 31/12/2018 | 
+|---|---|---|---|---|
 | Personeelsbestand | | 55 | | 55 | 
 | Jaaromzet | | 9.500.000 | | 9.500.000 | 
 | Balans | | 5.250.000 | | 5.000.000 | 

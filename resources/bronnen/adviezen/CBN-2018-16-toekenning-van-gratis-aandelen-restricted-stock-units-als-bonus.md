@@ -12,36 +12,44 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:34:12Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Bevestiging van bestaand verdict. F1: HTML-entity `&#039;` ongedecodeerd in frontmatter-thema (regel 50). E1/E2: methode B voorbeeld-tabel (regels 304–392) gebruikt cel-per-regel patroon. Methode A voorbeeld-tabellen (regels 227–293) zijn correct als pipe-tabellen — inconsistentie wijst op partieel extractieprobleem.'
+    rationale: "Nieuw verdict (was unreviewed). E1/E2: de RSU-voorbeeldtabellen op regels 95–232 (methode A) en 319–420 (methode B) zijn niet gerenderd als pipe-tabellen maar als gefragmenteerde aaneengekoppelde single-cell blokken (`|` + lege regels + `|---|` + losse celinhoud op afzonderlijke regels). Dit is een stelselmatig tabelextractie-artefact. B5: regels 71–72 en 86–87 bevatten methode-koppen als plain-text alinea's (`Erkenning van de kost op basis van…`) die headings hadden moeten zijn."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 4
-      max_section_chars: 7597
-      file_size_chars: 20176
+      file_size_chars: 20386
       flags: []
+      heading_count: 4
+      max_section_chars: 7681
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:34:12Z'
-      rationale: 'Bevestiging van bestaand verdict. F1: HTML-entity `&#039;` ongedecodeerd in frontmatter-thema (regel 50). E1/E2: methode B voorbeeld-tabel (regels 304–392) gebruikt cel-per-regel patroon. Methode A voorbeeld-tabellen (regels 227–293) zijn correct als pipe-tabellen — inconsistentie wijst op partieel extractieprobleem.'
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "Nieuw verdict (was unreviewed). E1/E2: de RSU-voorbeeldtabellen op regels 95–232 (methode A) en 319–420 (methode B) zijn niet gerenderd als pipe-tabellen maar als gefragmenteerde aaneengekoppelde single-cell blokken (`|` + lege regels + `|---|` + losse celinhoud op afzonderlijke regels). Dit is een stelselmatig tabelextractie-artefact. B5: regels 71–72 en 86–87 bevatten methode-koppen als plain-text alinea's (`Erkenning van de kost op basis van…`) die headings hadden moeten zijn."
       concrete_problemen:
-        - regel: 50
-          categorie: F1
-          type: other
-          voorbeeld: voorziening voor risico&#039;s en kosten
-        - regel: 304
+        - regel: 95
           categorie: E1
-          type: pseudo-table
-          voorbeeld: '| \n\n  | | \n\nBeurskoers\n\n  | | \n\nVerwachte retentiegraad\n\n  |'
+          type: other
+          voorbeeld: "| \n\n  | | \n|---|\n\nBeurskoers\n\n  | | \n|---|\n\nVerwachte beurskoers..."
+        - regel: 319
+          categorie: E1
+          type: other
+          voorbeeld: "| \n\n  | | \n|---|\n\nBeurskoers\n\n  | | \n|---|\n\nVerwachte retentiegraad"
+        - regel: 71
+          categorie: B5
+          type: other
+          voorbeeld: Erkenning van de kost op basis van de verwachte beurskoers of verwachte reële waarde...
+        - regel: 86
+          categorie: B5
+          type: other
+          voorbeeld: Erkenning van de kost op basis van de effectieve beurskoers of reële waarde per balansdatum
 themas:
   - restricted stock unit
   - RSU
@@ -102,14 +110,17 @@ De verwachte beurskoers van het onderliggende aandeel op 1 maart 20x6 en de verw
 | 
 
   | | 
+|---|
 
 Beurskoers
 
   | | 
+|---|
 
 Verwachte beurskoers op 1 maart 20x6
 
   | | 
+|---|
 
 Verwachte retentiegraad
 
@@ -119,14 +130,17 @@ Verwachte retentiegraad
 31 december 20X1
 
   | | 
+|---|
 
 14
 
   | | 
+|---|
 
 18
 
   | | 
+|---|
 
 70%
 
@@ -136,14 +150,17 @@ Verwachte retentiegraad
 31 december 20X2
 
   | | 
+|---|
 
 17
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 75%
 
@@ -153,14 +170,17 @@ Verwachte retentiegraad
 31 december 20X3
 
   | | 
+|---|
 
 18
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 80%
 
@@ -170,14 +190,17 @@ Verwachte retentiegraad
 31 december 20X4
 
   | | 
+|---|
 
 16
 
   | | 
+|---|
 
 19
 
   | | 
+|---|
 
 70%
 
@@ -187,14 +210,17 @@ Verwachte retentiegraad
 31 december 20X5
 
   | | 
+|---|
 
 17
 
   | | 
+|---|
 
 18
 
   | | 
+|---|
 
 90%
 
@@ -204,14 +230,17 @@ Verwachte retentiegraad
 1 maart 20X6
 
   | | 
+|---|
 
 20
 
   | | 
+|---|
 
 -
 
   | | 
+|---|
 
 -
 
@@ -304,10 +333,12 @@ De beurskoers van het onderliggende aandeel en de verwachte retentiegraad worden
 | 
 
   | | 
+|---|
 
 Beurskoers
 
   | | 
+|---|
 
 Verwachte retentiegraad
 
@@ -317,10 +348,12 @@ Verwachte retentiegraad
 31 december 20X1
 
   | | 
+|---|
 
 14 EUR
 
   | | 
+|---|
 
 70%
 
@@ -330,10 +363,12 @@ Verwachte retentiegraad
 31 december 20X2
 
   | | 
+|---|
 
 17 EUR
 
   | | 
+|---|
 
 75%
 
@@ -343,10 +378,12 @@ Verwachte retentiegraad
 31 december 20X3
 
   | | 
+|---|
 
 18 EUR
 
   | | 
+|---|
 
 80%
 
@@ -356,10 +393,12 @@ Verwachte retentiegraad
 31 december 20X4
 
   | | 
+|---|
 
 16 EUR
 
   | | 
+|---|
 
 70%
 
@@ -369,10 +408,12 @@ Verwachte retentiegraad
 31 december 20X5
 
   | | 
+|---|
 
 17 EUR
 
   | | 
+|---|
 
 90%
 
@@ -382,10 +423,12 @@ Verwachte retentiegraad
 1 maart 20X6
 
   | | 
+|---|
 
 18 EUR
 
   | | 
+|---|
 
 -
 

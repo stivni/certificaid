@@ -16,37 +16,37 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
 nummer: CBN-advies 173/2
 provenance:
-  generated_at: '2026-05-11T13:15:10Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
       sha256: 28016f3fc0c35028cd22dc3bc24fc507ebec22791830fdca82512e66e7639507
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T15:15:31Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 0
-      max_section_chars: 2040
-      file_size_chars: 2040
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Klein advies (2041 chars, heading_count: 0) zonder subhoofdingen — dat is conform de bron. Inhoud compleet: context, voorbeeldtabel, aanbeveling en beide voetnoten aanwezig. Geen zichtbare extractie-artefacten. De tabel op r.72-78 is in markdown pipe-syntax. Buitenstaander zou dit als mens-geschreven beschouwen.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: trusted
-    rationale: 'Klein advies (2041 chars, heading_count: 0) zonder subhoofdingen — dat is conform de bron. Inhoud compleet: context, voorbeeldtabel, aanbeveling en beide voetnoten aanwezig. Geen zichtbare extractie-artefacten. De tabel op r.72-78 is in markdown pipe-syntax. Buitenstaander zou dit als mens-geschreven beschouwen.'
     status: trusted
+    confirmed_at: '2026-05-11T15:19:35Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Kort advies (2054 tekens, geen headings want één doorlopende teksteenheid). Eén correcte pipe-tabel, twee voetnoten correct opgemaakt. Geen PDF-artefacten, geen structuurproblemen, geen OCR-issues. Inhoud volledig en consistent met de titel.
+    layer1:
+      file_size_chars: 2054
+      flags: []
+      heading_count: 0
+      max_section_chars: 2054
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
+    layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T15:19:35Z'
+      rationale: Kort advies (2054 tekens, geen headings want één doorlopende teksteenheid). Eén correcte pipe-tabel, twee voetnoten correct opgemaakt. Geen PDF-artefacten, geen structuurproblemen, geen OCR-issues. Inhoud volledig en consistent met de titel.
+      concrete_problemen: []
 themas:
   - afronding
   - afrondingen bij conversie
@@ -69,6 +69,7 @@ Dergelijke verschillen zullen onder meer te wijten zijn aan het feit dat het tot
 Bijvoorbeeld (uitgaande van een omrekeningskoers EUR/BEF van 40,2171) : 
 
 | **BEF** | | **EUR**  | 
+|---|---|---|
 | 1.250 | | 31,08 | 
 | 1.300 | | 32,32 | 
 | 500 | | 12,43 | 

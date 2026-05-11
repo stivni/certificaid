@@ -2,51 +2,67 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/waardering-van-voorraden-gezamenlijke-aankoop-en-doorverkoop-per-stuk
 datum: 2016-05-04
 gerelateerde_adviezen:
-  - datum: '1989-09-01'
-    titel: Waardering van de aanschaffingsprijs van de voorraden op grond van de verkoopprijs
-    url: https://www.cbn-cnc.be/nl/adviezen/waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs
+- datum: '1989-09-01'
+  titel: Waardering van de aanschaffingsprijs van de voorraden op grond van de verkoopprijs
+  url: https://www.cbn-cnc.be/nl/adviezen/waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs
 nummer: CBN-advies 2016/5
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-voorraden-gezamenlijke-aankoop-en-doorverkoop-per-stuk
-      sha256: e3615402540f4ab313f289d0f842228b7e8e816f54c662f9fd08dc0a74bd34b0
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-voorraden-gezamenlijke-aankoop-en-doorverkoop-per-stuk
+    sha256: e3615402540f4ab313f289d0f842228b7e8e816f54c662f9fd08dc0a74bd34b0
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 3
-      max_section_chars: 7245
       file_size_chars: 10065
       flags: []
+      heading_count: 3
+      max_section_chars: 7245
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-        - categorie: A6
-          regel: 82
-          type: other
-          voorbeeld: om de aanschaffingswaarde van een voorraad te bepalen waarbij van de detailverkoopprijs van deze voorraden, de marge wordt afgetrokken waarmee de aanschaffingsprijs werd verhoogd om de verkoopprijs vast te stellen.
-      rationale: 'Geen extractie-artefacten aangetroffen. Tekst is doorlopend en vlot leesbaar, headings correct genummerd (3 stuks), voetnoten [^1]–[^12] volledig gedefinieerd en gesloten. Enige kleine onregelmatigheid op regel 82–84: zin loopt door over twee regels met een harde regelbreuk middenin (''om de aanschaffingswaarde van een voorraad te bepalen waarbij van de detailverkoopprijs van deze voorraden, de marge wordt afgetrokken… / grond van de verkoopprijs''), maar dit stamt vermoedelijk uit de bronparagraaf en is niet ernstig genoeg om needs-rework te rechtvaardigen. Alle inhoudelijke secties aanwezig.'
+      - categorie: A6
+        regel: 82
+        type: other
+        voorbeeld: om de aanschaffingswaarde van een voorraad te bepalen waarbij van
+          de detailverkoopprijs van deze voorraden, de marge wordt afgetrokken waarmee
+          de aanschaffingsprijs werd verhoogd om de verkoopprijs vast te stellen.
+      rationale: 'Geen extractie-artefacten aangetroffen. Tekst is doorlopend en vlot
+        leesbaar, headings correct genummerd (3 stuks), voetnoten [^1]–[^12] volledig
+        gedefinieerd en gesloten. Enige kleine onregelmatigheid op regel 82–84: zin
+        loopt door over twee regels met een harde regelbreuk middenin (''om de aanschaffingswaarde
+        van een voorraad te bepalen waarbij van de detailverkoopprijs van deze voorraden,
+        de marge wordt afgetrokken… / grond van de verkoopprijs''), maar dit stamt
+        vermoedelijk uit de bronparagraaf en is niet ernstig genoeg om needs-rework
+        te rechtvaardigen. Alle inhoudelijke secties aanwezig.'
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: 'Geen extractie-artefacten aangetroffen. Tekst is doorlopend en vlot leesbaar, headings correct genummerd (3 stuks), voetnoten [^1]–[^12] volledig gedefinieerd en gesloten. Enige kleine onregelmatigheid op regel 82–84: zin loopt door over twee regels met een harde regelbreuk middenin (''om de aanschaffingswaarde van een voorraad te bepalen waarbij van de detailverkoopprijs van deze voorraden, de marge wordt afgetrokken… / grond van de verkoopprijs''), maar dit stamt vermoedelijk uit de bronparagraaf en is niet ernstig genoeg om needs-rework te rechtvaardigen. Alle inhoudelijke secties aanwezig.'
+    rationale: 'Geen extractie-artefacten aangetroffen. Tekst is doorlopend en vlot
+      leesbaar, headings correct genummerd (3 stuks), voetnoten [^1]–[^12] volledig
+      gedefinieerd en gesloten. Enige kleine onregelmatigheid op regel 82–84: zin
+      loopt door over twee regels met een harde regelbreuk middenin (''om de aanschaffingswaarde
+      van een voorraad te bepalen waarbij van de detailverkoopprijs van deze voorraden,
+      de marge wordt afgetrokken… / grond van de verkoopprijs''), maar dit stamt vermoedelijk
+      uit de bronparagraaf en is niet ernstig genoeg om needs-rework te rechtvaardigen.
+      Alle inhoudelijke secties aanwezig.'
     status: trusted
 themas:
-  - aftrekmethode
-  - handelsgoederen
-  - individuele waardering
-  - voorraad
+- aftrekmethode
+- handelsgoederen
+- individuele waardering
+- voorraad
 ---
 
 # CBN-advies 2016/5 - Waardering van voorraden: gezamenlijke aankoop en doorverkoop per stuk

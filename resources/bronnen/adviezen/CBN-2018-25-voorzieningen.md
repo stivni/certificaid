@@ -2,124 +2,89 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
 datum: 2019-03-05
 gerelateerde_adviezen:
-  - datum: '2021-07-05'
-    titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
-  - datum: '2019-04-12'
-    titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-  - datum: '2018-11-14'
-    titel: Toekenning van gratis aandelen (Restricted Stock Units) als bonus
-    url: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
-  - datum: '2018-06-20'
-    titel: Boekhoudkundige verwerking van onder meer de rendementswaarborg voor werkgeversbijdragen in het kader van een aanvullende pensioentoezegging
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen
+- datum: '2021-07-05'
+  titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt
+    ten gevolge van de gezondheidscrisis
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
+- datum: '2019-04-12'
+  titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
+  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+- datum: '2018-11-14'
+  titel: Toekenning van gratis aandelen (Restricted Stock Units) als bonus
+  url: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
+- datum: '2018-06-20'
+  titel: Boekhoudkundige verwerking van onder meer de rendementswaarborg voor werkgeversbijdragen
+    in het kader van een aanvullende pensioentoezegging
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen
 nummer: CBN-advies 2018/25
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:32Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-      sha256: fae8917bafe5586d4249c28f83de7d7832fe70ecfb8ef4148a3b0d3d54ce2689
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+    sha256: fae8917bafe5586d4249c28f83de7d7832fe70ecfb8ef4148a3b0d3d54ce2689
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:27Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 36
-      max_section_chars: 16400
-      file_size_chars: 82352
+      file_size_chars: 80263
       flags: []
+      heading_count: 38
+      max_section_chars: 16400
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 33 headings, 12 praktische toepassingen elk met eigen subheading. Inhoud volledig coherent.'
+      rationale: '[Laag-2-R2 2026-05-08] 33 headings, 12 praktische toepassingen elk
+        met eigen subheading. Inhoud volledig coherent.'
       run_at: '2026-05-08T19:02:27Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - voorziening
-  - waarschijnlijke kost
-  - reserve
-  - risico en kost
-  - risico en verlies
-  - overeenstemming
-  - overeenstemmingsprincipe
-  - matching principe
-  - toerekeningsbeginsel
-  - waardecorrectie
-  - schuld
-  - herstellings- en onderhoudswerken
-  - prijsschommelingen voorraden en bestellingen in uitvoering
-  - werkloosheid met bedrijfstoeslag
-  - SWT
-  - pensioen
-  - brugpensioen
-  - sluiting van de onderneming
-  - waarborg
-  - herstel onroerend goed
-  - opleiding
-  - belasting
-  - lijfrente
-  - milieu
-  - aleatoire waardering
+- voorziening
+- waarschijnlijke kost
+- reserve
+- risico en kost
+- risico en verlies
+- overeenstemming
+- overeenstemmingsprincipe
+- matching principe
+- toerekeningsbeginsel
+- waardecorrectie
+- schuld
+- herstellings- en onderhoudswerken
+- prijsschommelingen voorraden en bestellingen in uitvoering
+- werkloosheid met bedrijfstoeslag
+- SWT
+- pensioen
+- brugpensioen
+- sluiting van de onderneming
+- waarborg
+- herstel onroerend goed
+- opleiding
+- belasting
+- lijfrente
+- milieu
+- aleatoire waardering
 ---
 
-# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN**
+# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
-# **CBN-advies 2018/25 – Voorzieningen**
+## CBN-advies 2018/25 – Voorzieningen
 
-# **Advies van 12 september 2018[^1]** 
+## Advies van 12 september 2018[^1]
 
-1. Inleiding 
-2. Juridische basis 
-3. Voorziening voor risico’s en kosten: begripsomschrijving en algemene beginselen 
-  1. Scherpe omschrijving van de waarschijnlijke kosten: voorziening versus reserve 
-  2. Het risico of de kost moet waarschijnlijk of zeker zijn op balansdatum 
-    1. Waarschijnlijk of zeker 
-    2. Op balansdatum 
-      1. Ontstaan ten laatste op balansdatum – gekend na balansdatum 
-      2. Ontstaan na balansdatum 
-      3. Aanwezig op balansdatum, verdwenen tussen balansdatum en opstellen jaarrekening 
-
-  3. Overeenstemmingsbeginsel: de kosten waarvoor de voorziening wordt gevormd moeten toerekenbaar zijn aan het boekjaar 
-  4. Het bedrag staat niet vast: voorziening versus schuld 
-
-4. Waardecorrectie van een actiefbestanddeel 
-5. Waardering en opbouw van de voorziening 
-  1. Stelselmatige vorming – onafhankelijk van het resultaat van het boekjaar – rekening houdend met het overeenstemmingsbeginsel 
-  2. Bedrag 
-  3. Risico’s en verliezen waarvan de waardering aleatoir is 
-  4. Voorbeelden 
-
-6. Besteding en terugneming 
-7. Praktische toepassingen 
-  1. Voorzieningen voor grote herstellings- en onderhoudswerken 
-  2. Voorzieningen voor prijsschommelingen van de voorraden en bestellingen in uitvoering 
-  3. Verplichtingen voortvloeiend uit een extra-wettelijke pensioentoezegging 
-  4. Verplichtingen voortvloeiend uit het stelsel van werkloosheid met bedrijfstoeslag afgekort tot SWT, voorheen brugpensioen 
-  5. Voorzieningen voor de schulden ten opzichte van het personeel bij sluiting van de onderneming 
-  6. Waarborgen verbonden aan de verkoop van goederen of het leveren van diensten 
-  7. Herstel van een onroerend goed in de oorspronkelijke toestand 
-  8. Verplichtingen die voortvloeien uit een tijdens het boekjaar verkregen verkavelingsvergunning 
-  9. Opleidingskosten 
-  10. Voorzieningen voor belastingen 
-  11. Voorzieningen voor lijfrente 
-  12. Voorzieningen voor milieuverplichtingen
-
-8. Afwijkend standpunt van de heer Michel De Wolf, lid van de Commissie op voordracht van het Instituut van de Bedrijfsrevisoren 
-
-Afwijkend standpunt van de heer Michel De Wolf, lid van de Commissie op voordracht van het Instituut van de Bedrijfsrevisoren 
+Afwijkend standpunt van de heer Michel De Wolf, lid van de Commissie op voordracht van het Instituut van de Bedrijfsrevisoren
 
 ## Inleiding
 
@@ -524,7 +489,7 @@ Zolang echter het bevoegde orgaan geen beslissing heeft genomen tot sluiting van
 
 In geval van sluiting van de onderneming of van een bedrijfsonderdeel of vestiging van de onderneming moeten de waarderingsregels worden aangepast vermits niet meer wordt uitgegaan van één der fundamentele beginselen die aan de waardering in de jaarrekening ten grondslag liggen, met name het vermoeden dat de onderneming haar werkzaamheden zal voortzetten (beginsel van *going-concern*).[^50] 
 
-### Waarborgen verbonden aan de verkoop van goederen of het leveren van diensten 
+### Waarborgen verbonden aan de verkoop van goederen of het leveren van diensten
 
 Meestal worden bij de verkoop van goederen of het leveren van diensten, op grond van hetzij gemeenrechtelijke regels of bijzondere contractuele bepalingen, waarborgen verleend zoals waarborgen tegen verborgen gebreken, conformiteitswaarborgen, waarborgen voor *stukken en arbeidsloon*, enz. De verkoper of dienstverlener waarborgt hierdoor binnen zekere grenzen en gedurende een welbepaalde tijd dat het verkochte voorwerp of de geleverde dienst overeenstemt hetzij met de contractuele bepalingen, hetzij met de rechtmatige verwachtingen van de koper met betrekking tot de verkregen zaak of dienst. 
 
@@ -592,7 +557,7 @@ Wat betreft de boekhoudkundige verwerking van de voorzieningen voor belastingen 
 
 Zie advies 2012/19 Goederen verworven tegen betaling van een lijfrente.
 
-### Voorzieningen voor milieuverplichtingen[^59] 
+### Voorzieningen voor milieuverplichtingen[^59]
 
 De niet-limitatieve opsomming van de aan te leggen voorzieningen bevat sedert kort[^60] ook de expliciete verplichting om een voorziening aan te leggen voor de kosten van een milieuverplichting. Met de invoering van deze verplichting, die geïnspireerd is op de Aanbeveling van de Europese Commissie 2001/453/EG, L 156/33 van 30 mei 2001 betreffende de verantwoording, waardering en vermelding van milieuaangelegenheden in de jaarrekeningen en jaarverslagen van ondernemingen kreeg een belangrijk onderdeel van Maatschappelijk Verantwoord Ondernemen (MVO) een expliciete plaats binnen de jaarrekening. 
 

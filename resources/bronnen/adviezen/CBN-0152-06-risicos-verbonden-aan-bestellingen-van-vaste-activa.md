@@ -25,36 +25,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:04Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F1/G1: HTML-entiteit '&#039;' (apostrof) in themas-veld op regel 60 ('risico&#039;s verbonden aan bestellingen van vaste activa') én in gerelateerde_adviezen-veld — YAML-parsecorrectheid geschaad. Body zelf is volledig en schoon."
+    rationale: "F1: HTML-entiteit &#039; (apostrof) niet gedecodeerd door de scraper, zowel in gerelateerde_adviezen-veld (r.9) als in themas-veld (r.60): 'risico&#039;s verbonden aan bestellingen van vaste activa'. YAML-parsecorrectheid geschaad. Body zelf volledig en schoon."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 0
-      max_section_chars: 2433
       file_size_chars: 2433
       flags: []
+      heading_count: 0
+      max_section_chars: 2433
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:04Z'
-      rationale: "F1/G1: HTML-entiteit '&#039;' (apostrof) in themas-veld op regel 60 ('risico&#039;s verbonden aan bestellingen van vaste activa') én in gerelateerde_adviezen-veld — YAML-parsecorrectheid geschaad. Body zelf is volledig en schoon."
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: "F1: HTML-entiteit &#039; (apostrof) niet gedecodeerd door de scraper, zowel in gerelateerde_adviezen-veld (r.9) als in themas-veld (r.60): 'risico&#039;s verbonden aan bestellingen van vaste activa'. YAML-parsecorrectheid geschaad. Body zelf volledig en schoon."
       concrete_problemen:
+        - regel: 9
+          categorie: F1
+          type: other
+          voorbeeld: 'titel: Risico&#039;s verbonden aan bestellingen van vaste activa'
         - regel: 60
           categorie: F1
           type: other
           voorbeeld: '- risico&#039;s verbonden aan bestellingen van vaste activa'
-        - regel: 9
-          categorie: F1
-          type: other
-          voorbeeld: 'titel: Risico&#039;s verbonden aan bestellingen van vaste activa (in gerelateerde_adviezen)'
 themas:
   - deviezen
   - risico&#039;s verbonden aan bestellingen van vaste activa

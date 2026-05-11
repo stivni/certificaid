@@ -12,44 +12,44 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:30:32Z'
+    confirmed_at: '2026-05-11T15:23:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6: meerdere spurious line-breaks na footnote-referenties midden in zinnen: regel 58-59 ('*niet-recurrent*[^3]\\n Dit geldt'), 59 ('resultatenrekening.[^9]\\n Ook het schema'), 62-63 ('[^11]\\n De Commissie'), 63 ('*i.e.*[^11]\\n De Commissie meent'). Dit is een structureel PDF-extractiepatroon. Tabel is correct in pipe-syntax; inhoud compleet."
+    rationale: "A6: meerdere spurious line-breaks na voetnootreferenties midden in zinnen — regels 84-85 ('*mutatis mutandis*[^9]\\n Ook het schema') en 87-88 ('[^11]\\n De Commissie meent') zijn kenmerkend voor dit structureel ETL-patroon. Tabel correct in pipe-syntax; inhoud compleet."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
+      file_size_chars: 11118
+      flags: []
       heading_count: 3
       max_section_chars: 4922
-      file_size_chars: 11112
-      flags: []
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:30:32Z'
-      rationale: "A6: meerdere spurious line-breaks na footnote-referenties midden in zinnen: regel 58-59 ('*niet-recurrent*[^3]\\n Dit geldt'), 59 ('resultatenrekening.[^9]\\n Ook het schema'), 62-63 ('[^11]\\n De Commissie'), 63 ('*i.e.*[^11]\\n De Commissie meent'). Dit is een structureel PDF-extractiepatroon. Tabel is correct in pipe-syntax; inhoud compleet."
+      run_at: '2026-05-11T15:23:43Z'
+      rationale: "A6: meerdere spurious line-breaks na voetnootreferenties midden in zinnen — regels 84-85 ('*mutatis mutandis*[^9]\\n Ook het schema') en 87-88 ('[^11]\\n De Commissie meent') zijn kenmerkend voor dit structureel ETL-patroon. Tabel correct in pipe-syntax; inhoud compleet."
       concrete_problemen:
-        - regel: 58
+        - regel: 84
           categorie: A6
           type: other
-          voorbeeld: "uitzonderlijk* en *niet-recurrent*.[^3]\n Dit geldt *mutatis mutandis*"
-        - regel: 59
+          voorbeeld: Dit geldt *mutatis mutandis* voor het microschema van de resultatenrekening.[^9]
+        - regel: 85
           categorie: A6
           type: other
-          voorbeeld: "schema van de resultatenrekening.[^9]\n Ook het schema van de resultatenrekening"
-        - regel: 62
+          voorbeeld: ' Ook het schema van de resultatenrekening van de geconsolideerde jaarrekening'
+        - regel: 87
           categorie: A6
           type: other
-          voorbeeld: "resultatenrekening zijn opgenomen.[^11]\n De Commissie meent"
-        - regel: 63
+          voorbeeld: zijn opgenomen onder de niet-recurrente bedrijfs- of financiële resultaten.[^15]
+        - regel: 88
           categorie: A6
           type: other
-          voorbeeld: "*i.e.*[^11]\n De Commissie meent"
+          voorbeeld: ' De Commissie wijst erop dat een uitzonderlijk hoge omzet'
 themas:
   - niet-recurrente kosten
   - niet-recurrente opbrengsten
@@ -85,6 +85,7 @@ Herstructureringskosten kunnen van verschillende aard zijn: uitzonderlijke afsch
 ***Overzicht MAR-rekeningen “Niet-recurrente resultaten”***
 
 | **Niet-recurrente bedrijfsopbrengsten** | 
+|---|
 | *7600* | | *Terugneming van afschrijvingen op immateriële vaste activa* | 
 | *7601* | | *Terugneming van afschrijvingen op materiële vaste activa* | 
 | *7620* | | *Terugneming van voorzieningen voor niet-recurrente bedrijfsrisico’s en kosten* | 

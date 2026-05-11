@@ -12,36 +12,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B7: H1-titel op L57 eindigt op '...ten laste van de verkoper1' — het cijfer '1' is een losgeraakt voetnootmarker die in de heading is terechtgekomen. B2: heading-hiërarchie springt van H1 (L57) direct naar H4 (L70: '#### DE BETALING...') zonder H2/H3 ertussen. Beide issues zijn reëel en bevestigd ten opzichte van de vorige Laag-2-ronde."
+    rationale: "B2: heading-hiërarchie springt van H1 (titel) direct naar H4 (regel 58) en H5 (regel 60), H2 en H3 ontbreken volledig. B3: titel op regel 45 bevat 'verkoper1' — voetnootcijfer '1' is samengesmolten met de titel-tekst (ETL-bug, geen markdown superscript). Tabellen zijn correct als pipe-tables. Body inhoudelijk compleet."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
+      file_size_chars: 7872
+      flags: []
       heading_count: 6
       max_section_chars: 2587
-      file_size_chars: 7877
-      flags: []
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "B7: H1-titel op L57 eindigt op '...ten laste van de verkoper1' — het cijfer '1' is een losgeraakt voetnootmarker die in de heading is terechtgekomen. B2: heading-hiërarchie springt van H1 (L57) direct naar H4 (L70: '#### DE BETALING...') zonder H2/H3 ertussen. Beide issues zijn reëel en bevestigd ten opzichte van de vorige Laag-2-ronde."
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: "B2: heading-hiërarchie springt van H1 (titel) direct naar H4 (regel 58) en H5 (regel 60), H2 en H3 ontbreken volledig. B3: titel op regel 45 bevat 'verkoper1' — voetnootcijfer '1' is samengesmolten met de titel-tekst (ETL-bug, geen markdown superscript). Tabellen zijn correct als pipe-tables. Body inhoudelijk compleet."
       concrete_problemen:
-        - regel: 57
-          categorie: B7
+        - regel: 45
+          categorie: B3
           type: other
-          voorbeeld: '# CBN-advies 126/12 - ...kost van werken ten laste van de verkoper1'
-        - regel: 70
+          voorbeeld: '# CBN-advies 126/12 - Boeking van ... de kost van werken ten laste van de verkoper1'
+        - regel: 58
           categorie: B2
           type: other
-          voorbeeld: '#### DE BETALING VAN EEN UITZETTINGSVERGOEDING DOOR DE EIGENAAR (H1 → H4, geen H2/H3)'
+          voorbeeld: '#### DE BETALING VAN EEN UITZETTINGSVERGOEDING — H4 direct onder H1, H2/H3 ontbreken'
 themas:
   - kost van werken ten laste van de verkoper
   - materiële vaste activa
@@ -63,10 +63,9 @@ In de veronderstelling dat de te verwachten financiële opbrengst de economische
 
 Na onderzoek van alle mogelijke gevallen die in deze problematiek kunnen kaderen, stelt de Commissie evenwel een specifieke boekhoudkundige verwerking voor naargelang het gaat om :
 
-#### DE BETALING VAN EEN UITZETTINGSVERGOEDING DOOR DE EIGENAAR 
+## DE BETALING VAN EEN UITZETTINGSVERGOEDING DOOR DE EIGENAAR
 
-##### die hem in staat stelt het goed tegen gunstigere voorwaarden te verhuren. In dit geval gaat zijn eigendom hem meer opbrengen wanneer hij het huurcontract verbreekt. Hier zijn twee boekingsmethoden mogelijk : 
-
+die hem in staat stelt het goed tegen gunstigere voorwaarden te verhuren. In dit geval gaat zijn eigendom hem meer opbrengen wanneer hij het huurcontract verbreekt. Hier zijn twee boekingsmethoden mogelijk :
 1. ofwel gaat men ervan uit dat de betaalde uitzettingsvergoeding wordt toegevoegd aan de aanschaffingswaarde van het gebouw. De vergoeding wordt dan ten laste genomen via de afschrijvingen die over de vermoedelijke resterende levensduur van het gebouw worden gespreid, op dezelfde wijze als de andere bestanddelen van zijn aanschaffingswaarde. Het nadeel van deze methode is evenwel dat de tenlasteneming van deze vergoeding wordt losgekoppeld van de termijn van het nieuwe, voor de eigenaar voordeliger huurcontract. 
 2. ofwel gaat men er, op grond van het beginsel van de overeenstemming tussen opbrengsten en kosten, van uit dat de tenlasteneming van het bedrag van de uitzettingsvergoeding wordt verrekend met de stijging van de opbrengsten ingevolge het nieuwe huurcontract. In dit geval moet de vergoeding ten laste worden genomen als bedrijfskost voor het aantal boekjaren van de basistermijn van het nieuwe huurcontract en op passende wijze gespreid over deze boekjaren. De betaling van de uitzettingsvergoeding zal dan als volgt worden geboekt : 
 
@@ -82,14 +81,12 @@ en de gespreide tenlasteneming als volgt :
 | | 64 | Andere bedrijfskosten | | |
 | aan | 490 | Over te dragen kosten | | |
 
-##### die hem in staat stelt het gebouw zelf te betrekken en er het bedrijf van de uitgezette huurder of een soortgelijk bedrijf uit te oefenen. In dit geval staat tegenover die vergoeding een stijging van de waarde van het vermogen van de eigenaar omdat hij aldus een concurrent uitschakelt, met bovendien de zekerheid dat hij -althans ten dele - de cliënteel (handelsfonds) van die concurrent kan overnemen. Hier moet de uitzettingsvergoeding dus bij de immateriële vaste activa worden geboekt[^2]. 
-
-#### DE TENLASTENEMING VAN BEPAALDE WERKEN DOOR DE VERKOPER[^3] 
+die hem in staat stelt het gebouw zelf te betrekken en er het bedrijf van de uitgezette huurder of een soortgelijk bedrijf uit te oefenen. In dit geval staat tegenover die vergoeding een stijging van de waarde van het vermogen van de eigenaar omdat hij aldus een concurrent uitschakelt, met bovendien de zekerheid dat hij -althans ten dele - de cliënteel (handelsfonds) van die concurrent kan overnemen. Hier moet de uitzettingsvergoeding dus bij de immateriële vaste activa worden geboekt[^2].
+## DE TENLASTENEMING VAN BEPAALDE WERKEN DOOR DE VERKOPER[^3]
 
 Voor de analyse van dit bijzonder geval moet het volgende onderscheid worden gemaakt:
 
-##### De werken werden door de eigenaar uitgevoerd voor de opstelling van de verkoopakte 
-
+De werken werden door de eigenaar uitgevoerd voor de opstelling van de verkoopakte
 De boeking moet als volgt worden verricht (voor een gebouw met een netto-boekwaarde van 1 000 000 dat wordt verkocht voor 2 000 000 en waaraan de eigenaar voor 150 000 werken liet uitvoeren) : 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -102,8 +99,7 @@ De boeking moet als volgt worden verricht (voor een gebouw met een netto-boekwaa
 | aan | 221 | Gebouwen | | 1.150.000 |
 | | 763 | Meerwaarden op realisatie van vaste activa | 850.000 | |
 
-##### De verkoopakte vermeldt dat werken zullen worden uitgevoerd ten laste ven de verkoper 
-
+De verkoopakte vermeldt dat werken zullen worden uitgevoerd ten laste ven de verkoper
 In dit geval moet een voorziening worden gevormd[^6] en de boeking moet als volgt worden verricht (op basis van de gegevens uit het voorbeeld *sub* a)) : 
 
 | | Rekening | Omschrijving | Debet | Credit |

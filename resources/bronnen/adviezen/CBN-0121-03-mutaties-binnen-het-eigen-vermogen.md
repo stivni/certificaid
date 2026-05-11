@@ -25,37 +25,37 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6/D1: regel 150 begint een nieuwe zin met 'de doctrine' (lowercase na punt, zelfde regel); regel 152 heeft '. enerzijds' (lowercase na punt — losstaande zin begint zonder hoofdletter). Regel 168: 'in de resultaat verwerking' — samengesteld woord gesplitst (moet 'resultaatverwerking' zijn). B4/bold-naar-heading was opgelost door scraper-fix. A4 NOT SIGN (¬) niet meer aangetroffen in body."
+    rationale: "A6: regel 138 bevat 'de doctrine is verdeeld' (lowercase 'd' na punt, nieuwe zin zonder hoofdletter op zelfde regel); regel 140 heeft '. enerzijds kan' (lowercase 'e' na punt). A6: regel 156 'in de resultaat verwerking' — samengesteld woord 'resultaatverwerking' gesplitst. Heading-hiërarchie (H1→H2→H3) is correct na scraper-fix."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:14Z'
-      heading_count: 11
-      max_section_chars: 6114
-      file_size_chars: 13628
+      file_size_chars: 13622
       flags: []
+      heading_count: 11
+      max_section_chars: 6113
+      run_at: '2026-05-11T15:05:48Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "A6/D1: regel 150 begint een nieuwe zin met 'de doctrine' (lowercase na punt, zelfde regel); regel 152 heeft '. enerzijds' (lowercase na punt — losstaande zin begint zonder hoofdletter). Regel 168: 'in de resultaat verwerking' — samengesteld woord gesplitst (moet 'resultaatverwerking' zijn). B4/bold-naar-heading was opgelost door scraper-fix. A4 NOT SIGN (¬) niet meer aangetroffen in body."
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: "A6: regel 138 bevat 'de doctrine is verdeeld' (lowercase 'd' na punt, nieuwe zin zonder hoofdletter op zelfde regel); regel 140 heeft '. enerzijds kan' (lowercase 'e' na punt). A6: regel 156 'in de resultaat verwerking' — samengesteld woord 'resultaatverwerking' gesplitst. Heading-hiërarchie (H1→H2→H3) is correct na scraper-fix."
       concrete_problemen:
-        - regel: 150
+        - regel: 138
           categorie: A6
           type: other
-          voorbeeld: meer. de doctrine is verdeeld — lowercase 'd' na punt, nieuwe zin zonder hoofdletter
-        - regel: 152
+          voorbeeld: meer. de doctrine is verdeeld — lowercase 'd' na punt op zelfde regel
+        - regel: 140
           categorie: A6
           type: other
           voorbeeld: dient te gebeuren. enerzijds kan — lowercase 'e' na punt
-        - regel: 168
+        - regel: 156
           categorie: A6
           type: other
           voorbeeld: in de resultaat verwerking slechts — samengesteld woord gesplitst
@@ -97,7 +97,7 @@ Concreet gezien gaat het hier over de toevoeging van reserves en overgedragen wi
 
 Het leek de Commissie wenselijk in een advies de problemen verbonden aan die verrichtingen eerst op bevattelijke wijze uiteen te zetten en vervolgens een synthetisch overzicht te geven van de boekhoudkundige verwerking van de belangrijkste verrichtingen met betrekking tot het eigen vermogen.
 
-## TOEVOEGING VAN RESERVES OF VAN OVERGEDRAGEN WINST AAN HET KAPITAAL EN KAPITAALVERMINDERING TOT AANZUIVERING OVERGEDRAGEN VERLIES 
+## TOEVOEGING VAN RESERVES OF VAN OVERGEDRAGEN WINST AAN HET KAPITAAL EN KAPITAALVERMINDERING TOT AANZUIVERING OVERGEDRAGEN VERLIES
 
 In verband met de toevoeging van reserves of overgedragen winst aan het kapitaal en met de kapitaalvermindering tot aanzuivering van overgedragen verliezen, rijst de vraag of die verrichtingen rechtstreeks van één eigen-vermogenspost naar een andere moeten worden overgeboekt (waarbij de post *Kapitaal*, naar gelang van het geval, rechtstreeks wordt verhoogd of verminderd en tegengeboekt in een andere eigen-vermogenspost) dan wel of de toevoeging of de onttrekking van het kapitaal dient te gebeuren via de rekeningen 69 en 79 van het rekeningenstelsel die overeenstemmen met de betreffende rubrieken van de resultaatverwerking. 
 
@@ -113,7 +113,7 @@ Diezelfde redenering kan echter niet worden gevolgd voor onttrekkingen aan de re
 
 Toevoegingen aan die posten moeten weliswaar enkel via de rekeningen verlopen voor zover de betrokken bedragen uit te verwerken resultaten voortkomen. 
 
-## EIGEN AANDELEN 
+## EIGEN AANDELEN
 
 Wanneer de vennootschap haar eigen aandelen verkrijgt, moet, krachtens artikel 52*bis*, § 2 van de vennootschapswet, een onbeschikbare reserve worden gevormd, gelijk aan de waarde waarvoor de verkregen aandelen in de inventaris zijn ingeschreven. 
 
@@ -125,7 +125,7 @@ De verkrijging is slechts toegestaan voor zover het bedrag uitgetrokken voor die
 
 In de doctrine bestaan verschillende opvattingen over de boekhoudkundige verwerking van de verkrijging, de vervreemding en de vernietiging van eigen aandelen. 
 
-### Verkrijging 
+### Verkrijging
 
 Volgens sommige auteurs moet, bij verkrijging van eigen aandelen, een onbeschikbare reserve worden gevormd via de resultaatverwerking in de mate waarin de eigen aandelen slechts met voor uitkering vatbare bedragen beschikbaar vermogen kunnen worden verkregen. De Commissie is echter van oordeel dat er geen reden is om af te wijken van de voornoemde beginselen, krachtens dewelke de vorming van de onbeschikbare reserve voor eigen aandelen slechts dient te gebeuren via de resultaatverwerking wanneer het overgedragen resultaat of het resultaat van het boekjaar daartoe wordt aangewend. 
 
@@ -133,17 +133,17 @@ Bij vorming van de onbeschikbare reserve uit beschikbare reserves, blijft het to
 
 Wordt een waardevermindering geboekt op de verkregen eigen aandelen, dan wordt de onbeschikbare reserve met een zelfde bedrag rechtstreeks overgebracht naar een beschikbare reserve. Artikel 52bis, § 2 van de Vennootschapswet bepaalt immers dat een onbeschikbare reserve wordt gevormd, gelijk aan de waarde waarvoor de verkregen aandelen in de inventaris zijn ingeschreven. 
 
-### Vervreemding 
+### Vervreemding
 
 Bij vervreemding van de eigen aandelen heeft de onbeschikbare reserve geen bestaansreden meer. de doctrine is verdeeld over de vraag hoe de onbeschikbare reserve moet worden toegewezen aan de vermogensbestanddelen waaruit zij werd gevormd. De éne stelt dat deze toewijziging moet verlopen via de resultaatverwerking, de andere stelt dat dit rechtstreeks kan. 
 
 De Commissie is van oordeel dat de opheffing van de onbeschikbare reserve en de toewijzing ervan aan de vermogensbestanddelen rechtstreeks dient te gebeuren. enerzijds kan de toewijzing aan de beschikbare reserves verlopen in overeenstemming met de hoger uiteengezette beginselen. Anderzijds is er geen reden om een toewijzing aan het overgedragen resultaat te laten gebeuren via de resultaatverwerking omdat er hier geen verband is met het overgedragen resultaat van het vorige boekjaar. 
 
-### Vernietiging 
+### Vernietiging
 
 Worden de eigen aandelen vernietigd, dan is er naar het oordeel van de Commissie geen reden om enig resultaat tot uitdrukking te brengen. De aanwending van de onbeschikbare reserve wordt rechtstreeks tot uitdrukking gebracht door deze reserve te annuleren ten opzichte van de netto-boekwaarde van de vernietigde eigen aandelen. 
 
-## BIJZONDERE GEVALLEN 
+## BIJZONDERE GEVALLEN
 
 Er moet in dit verband worden herinnerd aan twee specifieke gevallen waarin bijzondere aandacht wordt besteed in het besluit van 8 oktober 1976. 
 

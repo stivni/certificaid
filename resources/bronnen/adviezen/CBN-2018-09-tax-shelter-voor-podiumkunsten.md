@@ -2,61 +2,69 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
 datum: 2018-05-30
 gerelateerde_adviezen:
-  - datum: '2015-09-09'
-    titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap (raamovereenkomsten getekend vanaf 1 januari 2015)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
-  - datum: '2015-05-13'
-    titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)
-    url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
-  - datum: '2012-04-17'
-    titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
-  - datum: '2012-03-21'
-    titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+- datum: '2015-09-09'
+  titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap
+    (raamovereenkomsten getekend vanaf 1 januari 2015)
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+- datum: '2015-05-13'
+  titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder
+    (raamovereenkomsten gesloten vanaf 1 januari 2015)
+  url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+- datum: '2012-04-17'
+  titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+- datum: '2012-03-21'
+  titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
 nummer: CBN-advies 2018/09
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-      sha256: 107a8e48d1e0b3908d231bf190f771cb4ca5e58dc8a2ad683c52910874450f8b
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+    sha256: 107a8e48d1e0b3908d231bf190f771cb4ca5e58dc8a2ad683c52910874450f8b
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:21:40Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 3
-      max_section_chars: 3340
       file_size_chars: 4913
       flags: []
+      heading_count: 3
+      max_section_chars: 3340
+      run_at: '2026-05-11T15:05:53Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: Geen ETL-artefacten gevonden. Kort advies (3 headings, heading_count klopt) met correcte structuur, complete voetnoten [^1] t/m [^8], en inhoud volledig (inleiding + verwerking investeerder + verwerking producent). Geen malformed italic, geen TOC-residu, geen gebroken zinnen.
+      rationale: Geen ETL-artefacten gevonden. Kort advies (3 headings, heading_count
+        klopt) met correcte structuur, complete voetnoten [^1] t/m [^8], en inhoud
+        volledig (inleiding + verwerking investeerder + verwerking producent). Geen
+        malformed italic, geen TOC-residu, geen gebroken zinnen.
       run_at: '2026-05-11T12:21:40Z'
       status: trusted
-    rationale: Geen ETL-artefacten gevonden. Kort advies (3 headings, heading_count klopt) met correcte structuur, complete voetnoten [^1] t/m [^8], en inhoud volledig (inleiding + verwerking investeerder + verwerking producent). Geen malformed italic, geen TOC-residu, geen gebroken zinnen.
+    rationale: Geen ETL-artefacten gevonden. Kort advies (3 headings, heading_count
+      klopt) met correcte structuur, complete voetnoten [^1] t/m [^8], en inhoud volledig
+      (inleiding + verwerking investeerder + verwerking producent). Geen malformed
+      italic, geen TOC-residu, geen gebroken zinnen.
     status: trusted
 themas:
-  - tax shelter
-  - belasting
-  - belastingvoordeel
-  - belastingbesparing
-  - belastingvrije reserves
-  - reserves
-  - immateriële vaste activa
-  - kapitaalsubsidie
-  - uitgestelde belasting
+- tax shelter
+- belasting
+- belastingvoordeel
+- belastingbesparing
+- belastingvrije reserves
+- reserves
+- immateriële vaste activa
+- kapitaalsubsidie
+- uitgestelde belasting
 ---
 
 # CBN-advies 2018/09 – Tax shelter voor podiumkunsten

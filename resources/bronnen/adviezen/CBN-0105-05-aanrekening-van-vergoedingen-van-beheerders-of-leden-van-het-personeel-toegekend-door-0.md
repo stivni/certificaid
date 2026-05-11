@@ -12,36 +12,36 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:16:02Z'
+    confirmed_at: '2026-05-11T15:15:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F1: het 'nummer'-veld in frontmatter is 'CBN-advies 105-5' (koppelteken) terwijl de body-heading 'CBN-advies 105/5' schrijft (schuine streep) — inconsistentie niet opgelost door de scraper-fixes. F3: bestandsnaam eindigt op '-door-0.md' wat een afgekapte slug suggereert."
+    rationale: "F1: frontmatter-veld nummer is 'CBN-advies 105-5' (koppelteken) terwijl de body-heading op regel 52 'CBN-advies 105/5' schrijft (schuine streep) — onopgeloste inconsistentie na scraper-fixes. F3: bestandsnaam eindigt op '-door-0.md', afgekapte URL-slug die de bron verkeerd identificeert."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:13Z'
-      heading_count: 0
-      max_section_chars: 1623
       file_size_chars: 1623
       flags: []
+      heading_count: 0
+      max_section_chars: 1623
+      run_at: '2026-05-11T15:05:47Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:16:02Z'
-      rationale: "F1: het 'nummer'-veld in frontmatter is 'CBN-advies 105-5' (koppelteken) terwijl de body-heading 'CBN-advies 105/5' schrijft (schuine streep) — inconsistentie niet opgelost door de scraper-fixes. F3: bestandsnaam eindigt op '-door-0.md' wat een afgekapte slug suggereert."
+      run_at: '2026-05-11T15:15:32Z'
+      rationale: "F1: frontmatter-veld nummer is 'CBN-advies 105-5' (koppelteken) terwijl de body-heading op regel 52 'CBN-advies 105/5' schrijft (schuine streep) — onopgeloste inconsistentie na scraper-fixes. F3: bestandsnaam eindigt op '-door-0.md', afgekapte URL-slug die de bron verkeerd identificeert."
       concrete_problemen:
         - regel: 4
           categorie: F1
           type: naam-mismatch
-          voorbeeld: 'nummer: CBN-advies 105-5 (frontmatter) vs # CBN-advies 105/5 (body regel 48)'
+          voorbeeld: 'nummer: CBN-advies 105-5 (frontmatter) vs # CBN-advies 105/5 (body regel 52)'
         - regel: 1
           categorie: F3
           type: naam-mismatch
-          voorbeeld: bestandsnaam eindigt op '-door-0.md' — afgekapte slug
+          voorbeeld: 'bestandsnaam: CBN-0105-05-...-door-0.md — afgekapte slug'
 themas:
   - vennootschap behorende tot dezelfde groep
   - aanrekening van vergoedingen door vennootschappen behorende tot dezelfde groep

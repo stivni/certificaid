@@ -2,83 +2,63 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
 datum: 2015-09-09
 gerelateerde_adviezen:
-  - datum: '2025-07-14'
-    titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
-    url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
-  - datum: '2018-05-30'
-    titel: Tax shelter voor podiumkunsten
-    url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-  - datum: '2018-03-21'
-    titel: Aftrek voor innovatie-inkomsten
-    url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-  - datum: '2016-12-14'
-    titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
-    url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
+- datum: '2025-07-14'
+  titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]
+  url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa-update-ontwerp
+- datum: '2018-05-30'
+  titel: Tax shelter voor podiumkunsten
+  url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+- datum: '2018-03-21'
+  titel: Aftrek voor innovatie-inkomsten
+  url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+- datum: '2016-12-14'
+  titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling
+    - verduidelijking'
+  url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2015/7
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
-      sha256: 7e2eccfbb2400c51b122e8869b2d760e5e08df92b45a714e9c4b43696a59b852
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+    sha256: 7e2eccfbb2400c51b122e8869b2d760e5e08df92b45a714e9c4b43696a59b852
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-08T19:02:28Z'
     confirmed_by: subagent-laag2-ronde2
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 16
-      max_section_chars: 11442
-      file_size_chars: 33391
+      file_size_chars: 32001
       flags: []
+      heading_count: 16
+      max_section_chars: 10052
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-laag2-ronde2
       concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 17 headings, alle verwerkingsstappen correct als ### of #### headings. Inhoudsopgave-artefact is cosmetisch. RAG-bruikbaar.'
+      rationale: '[Laag-2-R2 2026-05-08] 17 headings, alle verwerkingsstappen correct
+        als ### of #### headings. Inhoudsopgave-artefact is cosmetisch. RAG-bruikbaar.'
       run_at: '2026-05-08T19:02:28Z'
       status: trusted
     rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
     status: trusted
 themas:
-  - immateriële vaste activa
-  - kapitaalsubsidie
-  - productievennootschap
-  - tax shelter
+- immateriële vaste activa
+- kapitaalsubsidie
+- productievennootschap
+- tax shelter
 ---
 
 # CBN-advies 2015/7 - Boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap (raamovereenkomsten getekend vanaf 1 januari 2015)
 
-1. Inleiding 
-2. Kort overzicht van het tax shelter-stelsel 
-3. Boekhoudkundige verwerking 
-  1. Productie van het audiovisueel werk 
-    1. Verwerving van de auteursrechten 
-    2. Uitgaven voor de productie van het werk 
-    3. Storting door de producent van de 'vergoeding voor de prefinanciering' 
-
-  2. Ondertekening van de raamovereenkomst 
-    1. De producent neemt alle productiekosten
- op in de aanschaffingswaarde 
-    2. De producent neemt uitsluitend de rechtstreekse productiekosten op in de aanschaffingswaarde 
-
-  3. Storting door de investeerder van het overeengekomen bedrag 
-  4. Waarborg tot voltooiing en tot aflevering van het tax shelter-attest 
-  5. Voltooiing van het werk 
-    1. Afschrijving van het werk 
-    2. Exploitatiekosten 
-    3. Opbrengsten uit de exploitatie van het werk 
-
-  6. Geen tax shelter-attest binnen de termijn of attest van een lagere fiscale waarde dan de geschatte waarde 
-
- op in de aanschaffingswaarde---- De producent neemt uitsluitend de rechtstreekse productiekosten op in de aanschaffingswaarde-- Storting door de investeerder van het overeengekomen bedrag-- Waarborg tot voltooiing en tot aflevering van het tax shelter-attest-- Voltooiing van het werk---- Afschrijving van het werk---- Exploitatiekosten---- Opbrengsten uit de exploitatie van het werk-- Geen tax shelter-attest binnen de termijn of attest van een lagere fiscale waarde dan de geschatte waarde 
+op in de aanschaffingswaarde
 
 ## Inleiding
 

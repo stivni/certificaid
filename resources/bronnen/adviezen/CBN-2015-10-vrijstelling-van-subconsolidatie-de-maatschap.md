@@ -2,57 +2,62 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie-de-maatschap
 datum: 2015-12-09
 gerelateerde_adviezen:
-  - datum: '2022-09-09'
-    titel: Vermogensmutatiemethode
-    url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
-  - datum: '2022-07-27'
-    titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
-  - datum: '2017-09-13'
-    titel: Transacties onder gemeenschappelijke leiding (Common control transactions) (update)
-    url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
-  - datum: '2017-03-15'
-    titel: Consolidatie bij de horizontale groep (consortium)
-    url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
+- datum: '2022-09-09'
+  titel: Vermogensmutatiemethode
+  url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode
+- datum: '2022-07-27'
+  titel: Consolidatie bij de horizontale groep (consortium)
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+- datum: '2017-09-13'
+  titel: Transacties onder gemeenschappelijke leiding (Common control transactions)
+    (update)
+  url: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
+- datum: '2017-03-15'
+  titel: Consolidatie bij de horizontale groep (consortium)
+  url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
 nummer: CBN-advies 2015/10
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie-de-maatschap
-      sha256: cb9f51c63451b2711f97245630b93d5484b43839204be737f3c7ede4239b3f9f
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie-de-maatschap
+    sha256: cb9f51c63451b2711f97245630b93d5484b43839204be737f3c7ede4239b3f9f
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 4
-      max_section_chars: 1552
       file_size_chars: 3746
       flags: []
+      heading_count: 4
+      max_section_chars: 1552
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen: []
-      rationale: 'Compact advies (3751 chars, 4 headings), geen extractie-artefacten aangetroffen. Voetnoten [^1]–[^7] volledig gedefinieerd. Heading-hiërarchie correct (# → ## zonder sprongen). Tekst leest als mens-geschreven markdown.'
+      rationale: 'Compact advies (3751 chars, 4 headings), geen extractie-artefacten
+        aangetroffen. Voetnoten [^1]–[^7] volledig gedefinieerd. Heading-hiërarchie
+        correct (# → ## zonder sprongen). Tekst leest als mens-geschreven markdown.'
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: 'Compact advies (3751 chars, 4 headings), geen extractie-artefacten aangetroffen. Voetnoten [^1]–[^7] volledig gedefinieerd. Heading-hiërarchie correct (# → ## zonder sprongen). Tekst leest als mens-geschreven markdown.'
+    rationale: 'Compact advies (3751 chars, 4 headings), geen extractie-artefacten
+      aangetroffen. Voetnoten [^1]–[^7] volledig gedefinieerd. Heading-hiërarchie
+      correct (# → ## zonder sprongen). Tekst leest als mens-geschreven markdown.'
     status: trusted
 themas:
-  - consolidatie
-  - consortium
-  - consolidatieplicht
-  - maatschap
-  - subconsolidatie
+- consolidatie
+- consortium
+- consolidatieplicht
+- maatschap
+- subconsolidatie
 ---
 
 # CBN-advies 2015/10 – Vrijstelling van subconsolidatie: de maatschap

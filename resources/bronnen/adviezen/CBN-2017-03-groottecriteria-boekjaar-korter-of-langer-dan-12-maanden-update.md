@@ -2,61 +2,68 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
 datum: 2017-02-01
 gerelateerde_adviezen:
-  - datum: '2024-09-19'
-    titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
-  - datum: '2024-09-19'
-    titel: Gevolgen verhoging groottecriteria voor vennootschappen
-    url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
-  - datum: '2022-04-27'
-    titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
-  - datum: '2022-04-01'
-    titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
-    url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
+- datum: '2024-09-19'
+  titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
+  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
+- datum: '2024-09-19'
+  titel: Gevolgen verhoging groottecriteria voor vennootschappen
+  url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
+- datum: '2022-04-27'
+  titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
+  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
+- datum: '2022-04-01'
+  titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
+  url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
 nummer: CBN-advies 2017/03
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
+  generated_at: '2026-05-11T15:15:31Z'
   inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
-      sha256: 7246b24275436240f8e58897b25965ca4740deb95dfb50770445841f85806bff
-      version:
+  - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
+    sha256: 7246b24275436240f8e58897b25965ca4740deb95dfb50770445841f85806bff
+    version: null
   stale: false
-  stale_reason:
+  stale_reason: null
   tooling:
-    model:
+    model: null
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
-    prompt_version:
+    prompt_version: null
   trust:
     confirmed_at: '2026-05-11T12:16:34Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 3
-      max_section_chars: 863
       file_size_chars: 2603
       flags: []
+      heading_count: 3
+      max_section_chars: 863
+      run_at: '2026-05-11T15:05:52Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-        - categorie: A6
-          regel: 60
-          type: other
-          voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
-      rationale: Kort advies (2.605 chars), drie headings, geen artefacten. Regel 60 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment direct na H1 — cosmetisch probleem gedeeld met andere update-adviezen, maar raakt de leesbaarheid en RAG-indexering minimaal. Inhoud volledig, voetnoten correct, geen PDF-sporen.
+      - categorie: A6
+        regel: 60
+        type: other
+        voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
+      rationale: Kort advies (2.605 chars), drie headings, geen artefacten. Regel
+        60 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment direct na
+        H1 — cosmetisch probleem gedeeld met andere update-adviezen, maar raakt de
+        leesbaarheid en RAG-indexering minimaal. Inhoud volledig, voetnoten correct,
+        geen PDF-sporen.
       run_at: '2026-05-11T12:16:34Z'
       status: trusted
-    rationale: Kort advies (2.605 chars), drie headings, geen artefacten. Regel 60 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment direct na H1 — cosmetisch probleem gedeeld met andere update-adviezen, maar raakt de leesbaarheid en RAG-indexering minimaal. Inhoud volledig, voetnoten correct, geen PDF-sporen.
+    rationale: Kort advies (2.605 chars), drie headings, geen artefacten. Regel 60
+      bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment direct na H1
+      — cosmetisch probleem gedeeld met andere update-adviezen, maar raakt de leesbaarheid
+      en RAG-indexering minimaal. Inhoud volledig, voetnoten correct, geen PDF-sporen.
     status: trusted
 themas:
-  - boekjaar
-  - criteria
-  - groottecriteria
-  - verlenging van het boekjaar
-  - verkorting van het boekjaar
+- boekjaar
+- criteria
+- groottecriteria
+- verlenging van het boekjaar
+- verkorting van het boekjaar
 ---
 
 # CBN-advies 2017/03 – Groottecriteria – Boekjaar korter of langer dan 12 maanden (update)

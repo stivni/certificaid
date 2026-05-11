@@ -16,41 +16,41 @@ provenance:
     pipeline_version: 3b788cd
     model:
     prompt_version:
-  generated_at: '2026-05-11T13:15:10Z'
+  generated_at: '2026-05-11T15:15:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-11T13:23:03Z'
+    confirmed_at: '2026-05-11T15:15:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "E2: regel 242 bevat een extra pipe ('| aan | | 52 | Vastrentende effecten | 1.000.000 |') waardoor de tabelstructuur afwijkt van de header. A9: regel 288 '| | 55 | Kreditinstellingen | 1.351.975 | |' — 'Kreditinstellingen' i.p.v. 'Kredietinstellingen' zoals consequent elders. D3: voetnootdefinities [^3] en [^4] aanwezig op regels 300-302 maar hebben geen overeenkomstige inline-referenties in de body (omgekeerd weesje). B1: heading '### 31.12.1987 : 80 000' op regel 197 is alleen een datum en getal, geen omschrijvende heading-tekst."
+    rationale: "E2: regel 234 bevat '| aan | | 52 | Vastrentende effecten | 1.000.000 |' waarbij 'aan' een extra cel creëert en de tabelstructuur verbreekt. A9: regel 280 '| | 55 | Kreditinstellingen |' — 'Kreditinstellingen' i.p.v. 'Kredietinstellingen' zoals consequent elders in het document. D3: voetnootdefinities [^3] en [^4] aanwezig (regels 292-294) maar geen overeenkomstige inline-referenties in de body. B1: heading '### 31.12.1987 : 80 000' (r.189) bevat alleen datum+getal, geen omschrijvende tekst."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:15Z'
-      heading_count: 4
-      max_section_chars: 6728
-      file_size_chars: 11430
+      file_size_chars: 11425
       flags: []
+      heading_count: 4
+      max_section_chars: 7390
+      run_at: '2026-05-11T15:05:49Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T13:23:03Z'
-      rationale: "E2: regel 242 bevat een extra pipe ('| aan | | 52 | Vastrentende effecten | 1.000.000 |') waardoor de tabelstructuur afwijkt van de header. A9: regel 288 '| | 55 | Kreditinstellingen | 1.351.975 | |' — 'Kreditinstellingen' i.p.v. 'Kredietinstellingen' zoals consequent elders. D3: voetnootdefinities [^3] en [^4] aanwezig op regels 300-302 maar hebben geen overeenkomstige inline-referenties in de body (omgekeerd weesje). B1: heading '### 31.12.1987 : 80 000' op regel 197 is alleen een datum en getal, geen omschrijvende heading-tekst."
+      run_at: '2026-05-11T15:15:33Z'
+      rationale: "E2: regel 234 bevat '| aan | | 52 | Vastrentende effecten | 1.000.000 |' waarbij 'aan' een extra cel creëert en de tabelstructuur verbreekt. A9: regel 280 '| | 55 | Kreditinstellingen |' — 'Kreditinstellingen' i.p.v. 'Kredietinstellingen' zoals consequent elders in het document. D3: voetnootdefinities [^3] en [^4] aanwezig (regels 292-294) maar geen overeenkomstige inline-referenties in de body. B1: heading '### 31.12.1987 : 80 000' (r.189) bevat alleen datum+getal, geen omschrijvende tekst."
       concrete_problemen:
-        - regel: 242
+        - regel: 234
           categorie: E2
           type: other
           voorbeeld: '| aan | | 52 | Vastrentende effecten | 1.000.000 |'
-        - regel: 288
+        - regel: 280
           categorie: A9
           type: ocr-confusion
           voorbeeld: '| | 55 | Kreditinstellingen | 1.351.975 | |'
-        - regel: 300
+        - regel: 292
           categorie: D3
           type: other
           voorbeeld: '[^3]: Roerende voorheffing van 25 %. (geen inline-referentie in body)'
-        - regel: 197
+        - regel: 189
           categorie: B1
           type: other
           voorbeeld: '### 31.12.1987 : 80 000'
@@ -70,13 +70,13 @@ themas:
   - zero-bond
 ---
 
-# CBN advies 148-4 - Boeking van de prorata van gelopen interest op obligaties en kasbons 
+# CBN advies 148-4 - Boeking van de prorata van gelopen interest op obligaties en kasbons
 
 Krachtens de boekhoudwetgeving moeten de kosten en opbrengsten steeds worden toegerekend aan het boekjaar waarop zij betrekking hebben. Artikel 19, vierde lid van het koninklijk besluit van 8 oktober 1976 bepaalt immers dat "er rekening moet worden gehouden met de kosten en de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd, ...". 
 
 Dit beginsel krijgt in het algemeen rekeningenstelsel gestalte met volgende overlopende rekeningen : 
 
-### 490 Over te dragen kosten 
+## 490 Over te dragen kosten
 
 491 Verkregen opbrengsten 
 
@@ -186,7 +186,7 @@ Hypothese : Een kapitalisatiebon wordt uitgegeven en er wordt aanvankelijk op in
 
 Op grond hiervan wordt de prorata van de gekapitaliseerde rente op :
 
-### 31.12.1987 : 80 000 
+## 31.12.1987 : 80 000
 
 31.12.1988 : 166 400 
 
@@ -198,7 +198,7 @@ Op grond hiervan wordt de prorata van de gekapitaliseerde rente op :
 
 De kapitalisatiebon wordt op 31 december 1989 aan een andere vennootschap overgedragen voor een totaalprijs van 1 205 000 F. 
 
-### BOEKINGEN BIJ DE OORSPRONKELIJKE INSCHRIJVER
+## BOEKINGEN BIJ DE OORSPRONKELIJKE INSCHRIJVER
 
 1. Bij de verwerving 
 
@@ -235,7 +235,7 @@ De kapitalisatiebon wordt op 31 december 1989 aan een andere vennootschap overge
 | | 491 | Verkregen opbrengsten | 259.700 | |
 | | 752 | Meerwaarden op de realisatie van vlottende activa | 10.225 | |
 
-### BOEKINGEN BIJ DE KOPER 
+## BOEKINGEN BIJ DE KOPER
 
 1. Bij de verwerving :
 

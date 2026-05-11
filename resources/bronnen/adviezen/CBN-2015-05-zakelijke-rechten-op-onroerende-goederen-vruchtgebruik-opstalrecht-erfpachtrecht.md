@@ -3,37 +3,49 @@ bron: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goedere
 datum: 2015-07-08
 nummer: CBN-advies 2015/5
 provenance:
-  generated_at: '2026-05-11T13:15:12Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht
       sha256: e42d98ea9631d91fa32198a5fc40f1dba0e70b80b63a615042de95c134542e01
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 3b788cd
+    model:
     prompt_version:
+  generated_at: '2026-05-11T15:15:31Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-08T19:02:27Z'
-    confirmed_by: subagent-laag2-ronde2
+    status: needs-rework
+    confirmed_at: '2026-05-11T15:23:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: tabelrij op regels 232–233 is gesplitst — '| | 2230 | Overige zakelijke rechten op onroerende goederen: |' gevolgd door '| | aanschaffingswaarde | 100.800 | | |' — cel over twee regels. A10/onregelmatige witruimte: regel 66 bevat meerdere tabs vóór de tekst als gevolg van HTML-tabel-extractie. Structuurbox (regels 52–68) met lone '|'-regels is een HTML-table scrape-artefact. Inhoud (42 secties) verder volledig."
     layer1:
-      status: pass
-      run_id: 20260511-131513
-      run_at: '2026-05-11T13:15:17Z'
-      heading_count: 42
-      max_section_chars: 23704
-      file_size_chars: 81363
+      file_size_chars: 77997
       flags: []
+      heading_count: 42
+      max_section_chars: 20342
+      run_at: '2026-05-11T15:05:51Z'
+      run_id: 20260511-150547
+      status: pass
     layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 42 headings voor 4 zakelijke rechten elk met verwerving, looptijd en beëindiging. Alle scenario''s volledig uitgewerkt met voorbeeldboekingen als Markdown-tabellen.'
-      run_at: '2026-05-08T19:02:27Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T15:23:42Z'
+      rationale: "E2: tabelrij op regels 232–233 is gesplitst — '| | 2230 | Overige zakelijke rechten op onroerende goederen: |' gevolgd door '| | aanschaffingswaarde | 100.800 | | |' — cel over twee regels. A10/onregelmatige witruimte: regel 66 bevat meerdere tabs vóór de tekst als gevolg van HTML-tabel-extractie. Structuurbox (regels 52–68) met lone '|'-regels is een HTML-table scrape-artefact. Inhoud (42 secties) verder volledig."
+      concrete_problemen:
+        - regel: 52
+          categorie: G2
+          type: other
+          voorbeeld: '| \n\n## Samenvatting — lone pipe als openingsregel van summary-box (HTML-tabel artefact)'
+        - regel: 66
+          categorie: A10
+          type: other
+          voorbeeld: \t\t\t\tDe Commissie onderstreept... — meerdere tabs vóór tekst (HTML-tabel extractie-artefact)
+        - regel: 232
+          categorie: E2
+          type: other
+          voorbeeld: '| | 2230 | Overige zakelijke rechten op onroerende goederen: |\n| | aanschaffingswaarde | 100.800 | — tabelcel over twee regels'
 themas:
   - blote eigendom
   - bouwwerken op andermans eigendom
@@ -64,60 +76,9 @@ De vestiging van een zakelijk recht op een onroerend goed is in boekhoudkundig o
 
 			De Commissie onderstreept dat de boekhoudkundige verwerking rekening moet houden met de verhoudingen tussen de partijen die voortvloeien uit de door hen gesloten overeenkomsten. In het advies worden uitsluitend marktconforme verrichtingen behandeld. 
 
-  | 
+  |
 
-1. Algemeen 
-2. Boekhoudkundige bepalingen betreffende de zakelijke rechten op onroerende goederen 
-3. Vruchtgebruik en blote eigendom 
-  1. Definitie en kenmerken 
-  2. Boekhoudkundige verwerking 
-    1. Verwerving vruchtgebruik: vergoeding volledig vooruitbetaald 
-    2. Verwerving vruchtgebruik: uitsluitend periodieke vergoedingen 
-    3. Verwerving vruchtgebruik: combinatie van vooruitbetalingen en periodieke vergoedingen 
-    4. Vruchtgebruiker: verbeterings- of uitbreidingswerken 
-    5. Volle eigenaar: overdracht blote eigendom 
-    6. Verwerving blote eigendom 
-      1. Vruchtgebruiker betaalt geen vergoedingen 
-      2. Vruchtgebruiker betaalt uitsluitend periodieke vergoedingen 
-
-    7. Volle eigenaar: vestiging vruchtgebruik 
-      1. Vergoeding volledig vooruitbetaald 
-      2. Uitsluitend periodieke vergoedingen 
-
-    8. Vruchtgebruiker: vermenging door de verwerving van de blote eigendom 
-    9. Overdracht en einde van het vruchtgebruik vóór het verstrijken van de initieel voorziene duur 
-
-4. Opstalrecht 
-  1. Definitie en kenmerken 
-    1. Opstalrecht en onzelfstandig opstalrecht 
-    2. Bouwwerken op andermans grond zonder zelfstandig opstalrecht 
-    3. Kostenleer: verrijking zonder oorzaak 
-
-  2. Boekhoudkundige verwerking 
-    1. Verwerving van een opstalrecht onder bezwarende titel 
-    2. Oprichting van bouwwerken op andermans grond 
-      1. De duur van het opstalrecht of onzelfstandig opstalrecht is voldoende lang om de uitgaven economisch volledig af te schrijven 
-      2. De duur van het opstalrecht of onzelfstandig opstalrecht is onvoldoende lang om de uitgaven economisch volledig af te schrijven – (ernstige) vergoedingsregeling 
-      3. De duur van het opstalrecht of onzelfstandig opstalrecht is onvoldoende lang om de uitgaven economisch volledig af te schrijven - geen (of een onvoldoende) vergoedingsregeling 
-      4. De opstalhouder moet de gebouwen, werken of beplantingen verwijderen en de grond in zijn oorspronkelijke staat herstellen 
-      5. De overeenkomst bepaalt niet op welk tijdstip de natrekking uitwerking heeft 
-      6. Onderneming-bouwheer heeft geen zakelijk recht
-
-    3. Boekingen bij de grondeigenaar bij de beëindiging van het opstalrecht 
-      1. Opstalrecht op een onbebouwd terrein 
-      2. Opstalrecht: gebouwen, werken of beplantingen aanwezig bij aanvang van de overeenkomst die niet werden vergoed door de opstalhouder 
-      3. Opstalrecht: gebouwen, werken of beplantingen aanwezig bij aanvang van de overeenkomst en vergoed door opstalhouder 
-      4. Einde van het onzelfstandig opstalrecht 
-
-    4. Boekingen door de houder van het recht bij de beëindiging van het opstalrecht of het onzelfstandig opstalrecht 
-
-5. Erfpachtrecht 
-6. Erfdienstbaarheid 
-7. Bijzonderheden 
-
- ---- Boekingen bij de grondeigenaar bij de beëindiging van het opstalrecht------ Opstalrecht op een onbebouwd terrein ------ Opstalrecht: gebouwen, werken of beplantingen aanwezig bij aanvang van de overeenkomst die niet werden vergoed door de opstalhouder------ Opstalrecht: gebouwen, werken of beplantingen aanwezig bij aanvang van de overeenkomst en vergoed door opstalhouder------ Einde van het onzelfstandig opstalrecht---- Boekingen door de houder van het recht bij de beëindiging van het opstalrecht of het onzelfstandig opstalrechtErfpachtrechtErfdienstbaarheidBijzonderheden 
-
-## Algemeen 
+## Algemeen
 
 In onderhavig advies wordt de boekhoudkundige verwerking behandeld van het recht van vruchtgebruik, blote eigendom, het opstalrecht, het erfpachtrecht en erfdienstbaarheden op onroerende goederen. Onderhavig advies vervangt de CBN-adviezen 162/2 - Verwerking van verrichtingen voor de verwerving of de verkoop van een recht op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar (de grondeigenaar) en 150/3 - Bouwwerken op andermans grond. De voornaamste verschillen tussen onderhavig advies en voormelde adviezen zijn de volgende: 
 
@@ -233,7 +194,7 @@ Indien de onderneming voor de verwerving van het vruchtgebruik een gedeelte van 
 
 De Commissie is van mening dat het bestuursorgaan verantwoordelijk is voor de opstelling van een passend afschrijvingsplan voor de vooruitbetaalde vergoedingen. Het bestaan en het bedrag van het zakelijk recht wordt opgenomen in de orderekeningen en wordt vermeld in de toelichting.[^13] 
 
-#### Vruchtgebruiker: verbeterings- of uitbreidingswerken 
+#### Vruchtgebruiker: verbeterings- of uitbreidingswerken
 
 Wanneer een vruchtgebruiker uitbreidings- of verbeteringswerken heeft aangebracht, worden deze werken in principe geboekt op de rekening 26 *Andere materiële vaste activa[^14]*  en volgens een passend afschrijvingsplan afgeschreven.
 
@@ -247,7 +208,7 @@ De vennootschap is de vruchtgebruiker van een onroerend goed en heeft in het jaa
 
 In het geval de vruchtgebruiker uitbreidings- of verbeteringswerken heeft uitgevoerd waarvoor hij van de blote eigenaar geen vergoeding krijgt bij afloop van het vruchtgebruik, zijn deze werken in principe volledig ten laste genomen volgens een passend afschrijvingsplan en moeten deze werken bij afloop van het zakelijk recht nog enkel worden uitgeboekt. 
 
-#### Volle eigenaar: overdracht blote eigendom 
+#### Volle eigenaar: overdracht blote eigendom
 
 Wanneer een onderneming de blote eigendom overdraagt van een onroerend goed dat zij in volle eigendom bezit, wordt haar in de tijd onbeperkte eigendomsrecht omgezet in een tijdelijk recht van vruchtgebruik. Deze omzetting komt in feite neer op een minstens gedeeltelijke realisatie van de eigendom aangezien de onderneming na afloop van het vruchtgebruik geen enkel recht meer zal kunnen doen gelden op het onroerend goed. 
 
@@ -292,7 +253,7 @@ De onderneming verkoopt de blote eigendom van een onroerend goed en behoudt zich
 | | 6302 | Afschrijvingen op materiële vaste activa | 5.040 | |
 | aan | 2239 | Overige zakelijke rechten op onroerende goederen: geboekte afschrijvingen | | 5.040 |
 
-#### Verwerving blote eigendom 
+#### Verwerving blote eigendom
 
 Het KB W.Venn. verwijst in de omschrijving van de jaarrekeningposten niet uitdrukkelijk naar de blote eigendom. Uit de indeling van de posten van het balansschema en hun omschrijving blijkt echter duidelijk dat de blote eigendom van een goed in de post *III.E. Overige materiële vaste activa* moet worden opgenomen die, in tegenstelling tot de posten *Terreinen en gebouwen, Installaties, machines en uitrusting, Meubilair en rollend materieel en Leasing en soortgelijke rechten*, de materiële vaste activa groepeert die de onderneming niet rechtstreeks voor bedrijfsdoeleinden aanwendt. 
 
@@ -343,7 +304,7 @@ Bij de verwerving van de blote eigendom werd de aanschaffingswaarde van de blote
 
 Nadat het vruchtgebruik afloopt, zal de aanschaffingswaarde van het goed met een beperkte gebruiksduur[^25] worden afgeschreven over de nog resterende gebruiksduur van het betrokken goed. Dit is de resterende termijn tussen de normale gebruiksduur van het betrokken goed en de duur van het vruchtgebruik. 
 
-##### Vruchtgebruiker betaalt uitsluitend periodieke vergoedingen 
+##### Vruchtgebruiker betaalt uitsluitend periodieke vergoedingen
 
 Een onderneming verwerft de blote eigendom van een onroerend goed. De vruchtgebruiker is uitsluitend periodieke vergoedingen verschuldigd aan de blote eigenaar.
 
@@ -593,13 +554,13 @@ Een gebouw moet worden beschouwd als een investering van de onderneming, houder 
 
 Bijgevolg zal de opstalhouder het gebouw boeken op de rekening 221 *Gebouwen*. Vervolgens zal de onderneming de aanschaffingswaarde van de bouwwerken ten laste nemen via over de betrokken periode gespreide afschrijvingen. 
 
-##### De duur van het opstalrecht of onzelfstandig opstalrecht is onvoldoende lang om de uitgaven economisch volledig af te schrijven – (ernstige) vergoedingsregeling 
+##### De duur van het opstalrecht of onzelfstandig opstalrecht is onvoldoende lang om de uitgaven economisch volledig af te schrijven – (ernstige) vergoedingsregeling
 
 In artikel 6 van de Opstalwet[^48] wordt bepaald dat de grondeigenaar bij het eindigen van het opstalrecht een vergoeding verschuldigd is ten bedrage van de waarde van de door de opstalhouder opgerichte gebouwen, werken of beplantingen. Deze waarde is de werkelijke waarde van de gebouwen, werken of beplantingen op het moment dat het recht verstrijkt. Bijgevolg kan worden aangenomen dat de gewone afschrijvingen over de economische levensduur van het onroerend goed zullen volstaan en dat dus niet over een kortere termijn moet worden afgeschreven om te voldoen aan de vereisten van het getrouwe beeld van de jaarrekening.
 
 Bij een onzelfstandig opstalrecht zal in de regel de houder van dit recht geen vergoeding kunnen eisen van de opstalgever bij afloop van het opstalrecht. Uiteraard kunnen de partijen wel overeenkomen om een vergoeding te betalen bij de beëindiging van het onzelfstandig opstalrecht. Indien een ernstige vergoedingsregeling werd overeengekomen, kan eveneens worden aangenomen dat om te voldoen aan de vereisten van het getrouwe beeld van de jaarrekening, het volstaat om het goed af te schrijven over zijn economische levensduur en dat het goed niet moet worden afgeschreven over de eventueel kortere looptijd van het onzelfstandig opstalrecht. 
 
-##### De duur van het opstalrecht of onzelfstandig opstalrecht is onvoldoende lang om de uitgaven economisch volledig af te schrijven - geen (of een onvoldoende) vergoedingsregeling 
+##### De duur van het opstalrecht of onzelfstandig opstalrecht is onvoldoende lang om de uitgaven economisch volledig af te schrijven - geen (of een onvoldoende) vergoedingsregeling
 
 In onderhavig advies wordt het geval waarin de periode te kort is om de aanschaffingswaarde economisch volledig af te schrijven en waarbij tevens geen of een te lage vergoedingsregeling werd afgesproken tussen de opstalgever en de opstalhouder, niet behandeld.[^49] 
 
@@ -623,7 +584,7 @@ Wanneer de onderneming-bouwheer geen enkel zakelijk recht kan doen gelden op de 
 
 In dit deel wordt eerst het vaakst voorkomende geval behandeld, namelijk het opstalrecht op een onbebouwd terrein. Het is echter mogelijk dat er bij de vestiging van het opstalrecht al gebouwen, werken of beplantingen op het terrein stonden. In dat geval moet een onderscheid worden gemaakt tussen het geval waarin de bestaande gebouwen, werken of beplantingen worden vergoed en het geval waarin deze gebouwen, werken of beplantingen niet worden vergoed.
 
-##### Opstalrecht op een onbebouwd terrein 
+##### Opstalrecht op een onbebouwd terrein
 
 De grondeigenaar (opstalgever) verleent aan de opstalhouder een opstalrecht over een terrein zonder dat er gebouwen, werken of beplantingen aanwezig zijn op het moment van de vestiging van het opstalrecht. Tussen de vestiging van het opstalrecht en het verstrijken van de opstalovereenkomst is de grond niet van eigenaar veranderd. 
 
