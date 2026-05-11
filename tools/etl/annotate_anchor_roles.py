@@ -72,7 +72,9 @@ class BronResolver:
             (re.compile(r"\bWIB\s*92\b|wetboek.{0,5}inkomstenbelastingen", re.I), ["WIB92"]),
             (re.compile(r"\bKB\s*WIB|koninklijk.?besluit.{0,30}WIB", re.I), ["KB-WIB92"]),
             # Btw-Wetboek + KB + MB als compilatie-pointer (PO 2.4.I)
-            (re.compile(r"btw\s*-\s*wetboek\s*-\s*KB\s*-\s*MB", re.I), ["WBTW", "WBTW-KB-compilatie", "WBTW-MB-compilatie"]),
+            # NB: WBTW-KB-compilatie.md is legacy verwijderd (2026-05-11);
+            # de individuele KB/MB-splits zijn de canonical bronnen.
+            (re.compile(r"btw\s*-\s*wetboek\s*-\s*KB\s*-\s*MB", re.I), ["WBTW"]),
             (re.compile(r"\bWBTW\b|btw.?wetboek|wetboek.{0,5}btw", re.I), ["WBTW"]),
             (re.compile(r"\bWDRT\b|wetboek.{0,5}diverse.{0,5}rechten", re.I), ["WDRT"]),
             (re.compile(r"wetboek.{0,5}invordering|\bWIB.?inv\b", re.I), ["Wetboek-Invordering"]),

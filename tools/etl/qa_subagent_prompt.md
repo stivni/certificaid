@@ -217,6 +217,29 @@ G3. **Inline footnote-content** waar de voetnoot in de PDF onderaan de
 **Vuistregel**: bij twijfel → `needs-rework`, NOOIT `trusted`. Een fout
 positief schaadt RAG-precisie meer dan een fout negatief.
 
+## Belangrijke uitzondering — source-document fouten
+
+**Typefouten en fouten die letterlijk in het bron-document (HTML, PDF)
+voorkomen zijn GEEN reden voor `needs-rework`.** Voorbeelden:
+
+- Typo "vervandag" op de CBN-website → de scraper neemt dat correct over;
+  het zit in de officiële bron-tekst.
+- Spelfout "Belgiëë" in een ITAA-norm-PDF → fout in originele PDF.
+- Verkeerde datum of referentie in oorspronkelijke wettekst.
+- Inconsistente nummering in de gepubliceerde norm.
+
+Als je een fout vermoedt die in de bron zelf zit (i.e. een mens die de
+PDF/HTML zou openen zou diezelfde fout zien), markeer dat in
+`concrete_problemen` met `type: source-typo` en `categorie: "(source)"`,
+maar **dat alleen telt niet als grond voor `needs-rework`**. Status
+blijft `trusted` tenzij er ÓÓK ETL-artefacten (categorieën A-G) zijn.
+
+ETL-bug vs source-fout onderscheiden:
+- Letterlijke woordfouten, verkeerde datums, foute nummering → source
+- Scrambled volgorde, kolom-bleed, OCR-confusion (l↔I), HTML-entities,
+  ontbrekende headings die er WEL hadden moeten zijn op basis van
+  document-structuur → ETL
+
 # Output-formaat
 
 Geef per bron exact dit JSON-object:

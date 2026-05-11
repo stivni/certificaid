@@ -8,12 +8,12 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 130 | 55 | — | 71 | 4 | — |
+| Wetteksten | 129 | 55 | — | 70 | 4 | — |
 | Normen | 19 | 8 | — | 9 | 2 | — |
 | Adviezen | 436 | 243 | — | 192 | 1 | — |
-| **Totaal** | **585** | 306 | — | 272 | 7 | — |
+| **Totaal** | **584** | 306 | — | 271 | 7 | — |
 
-## Wetteksten (130)
+## Wetteksten (129)
 
 | Bestand | Trust | L1 | L2 | Confirmed-by | Titel |
 |---|---|---|---|---|---|
@@ -21,14 +21,14 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `VCF.md` | ❌ rejected | warn | rejected | subagent-sonnet-4-6 | Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF) |
 | `WBTW-KB22jun2020-e-notariaat.md` | ❌ rejected | pass | rejected | subagent-sonnet-4-6 | K.B. 22 juni 2020 tot uitvoering van art. 93ter WBTW, art. 412bis en 433–435 WIB92 en a… |
 | `WER-Boek-VIII-normalisatie.md` | ❌ rejected | warn | rejected | subagent-sonnet-4-6 | WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen) |
-| `belastinggids-aclvb-2025.md` | ⚠️ needs-rework | not_run | needs-rework | subagent-sonnet-4-6 | Belastinggids 2025 — ACLVB |
+| `belastinggids-aclvb-2025.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Belastinggids 2025 — ACLVB |
 | `BTW-richtlijn-2006-112.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belast… |
 | `Decr-Waals-Directe-Belastingen.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de … |
-| `fiscaal-memento-2025.md` | ⚠️ needs-rework | not_run | needs-rework | subagent-sonnet-4-6 | Fiscaal Memento 2025 — FOD Financiën (editie 12/2024, bijgewerkt 31.12.2024) |
-| `MAR-vzw.md` | ⚠️ needs-rework | not_run | needs-rework | subagent-sonnet-4-6 | Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW) |
+| `fiscaal-memento-2025.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Fiscaal Memento 2025 — FOD Financiën (editie 12/2024, bijgewerkt 31.12.2024) |
+| `MAR-vzw.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW) |
 | `MIGB-Brussel.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofds… |
 | `MIGB-Wallonie.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest |
-| `Oud-BW.md` | ⚠️ needs-rework | not_run | needs-rework | subagent-sonnet-4-6 | Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019) |
+| `Oud-BW.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019) |
 | `Registratierechten-Brussel.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Registratie-, Hypotheek- en Griffierechten — Brussels Hoofdstedelijk Gewest |
 | `Registratierechten-federaal.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Registratie-, Hypotheek- en Griffierechten — federaal |
 | `Registratierechten-Waals.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Registratie-, Hypotheek- en Griffierechten — Waals Gewest |
@@ -36,10 +36,9 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `Strafwetboek2024-boek1.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 1 |
 | `Successierechten-Brussel.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Successierechten — Brussels Hoofdstedelijk Gewest |
 | `Successierechten-Waals.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wetboek der Successierechten — Waals Gewest |
-| `toelichting-PB-2025-deel1-VG.md` | ⚠️ needs-rework | not_run | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de personenbelasting — Aanslagjaar 2025 (inkomsten 2024)… |
-| `toelichting-PB-2025-deel2.md` | ⚠️ needs-rework | not_run | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de personenbelasting — Aanslagjaar 2025 (inkomsten 2024)… |
-| `toelichting-VenB-2025.md` | ⚠️ needs-rework | not_run | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de vennootschapsbelasting — Aanslagjaar 2025 |
-| `WBTW-KB-compilatie.md` | ⚠️ needs-rework | not_run | needs-rework | subagent-sonnet-4-6 | Koninklijke besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet,… |
+| `toelichting-PB-2025-deel1-VG.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de personenbelasting — Aanslagjaar 2025 (inkomsten 2024)… |
+| `toelichting-PB-2025-deel2.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de personenbelasting — Aanslagjaar 2025 (inkomsten 2024)… |
+| `toelichting-VenB-2025.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de vennootschapsbelasting — Aanslagjaar 2025 |
 | `WBTW-KB01okt2013-certificatie-gks.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | K.B. 1 oktober 2013 met betrekking tot de toepassingsmodaliteiten ten aanzien van de ce… |
 | `WBTW-KB04apr2014-verificatie-vervoermiddelen.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | K.B. van 4 april 2014, betreffende de verificatie van het regelmatig aanwezig zijn van … |
 | `WBTW-KB07jun2007-uitvoering-84quinquies.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | K.B. van 7 juni 2007, tot uitvoering van de artikelen 84quinquies tot 84decies van het … |
@@ -91,10 +90,10 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `Wet-arbeidsovereenkomsten-1978.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Wet 3 juli 1978 betreffende de arbeidsovereenkomsten |
 | `Wet-betalingsachterstand-2002.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelst… |
 | `Wet-verzekeringen-2014.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | Wet 4 april 2014 betreffende de verzekeringen |
-| `X-oeso-model-verdrag.md` | ⚠️ needs-rework | not_run | needs-rework | subagent-sonnet-4-6 | OECD Model Tax Convention on Income and on Capital (as it read on 21 November 2017) |
-| `aangifte-PB-2025-bezoldigingen.md` | ✅ trusted | not_run | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-bezoldigingen |
-| `aangifte-PB-2025-stopzetting.md` | ✅ trusted | not_run | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-stopzetting |
-| `Antiwitwaswet-2017.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van … |
+| `X-oeso-model-verdrag.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | OECD Model Tax Convention on Income and on Capital (as it read on 21 November 2017) |
+| `aangifte-PB-2025-bezoldigingen.md` | ✅ trusted | fail | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-bezoldigingen |
+| `aangifte-PB-2025-stopzetting.md` | ✅ trusted | fail | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-stopzetting |
+| `Antiwitwaswet-2017.md` | ✅ trusted | warn | trusted | subagent-sonnet-4-6 | Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van … |
 | `AVG-wet-2018.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot… |
 | `Brusselse-Codex-Fiscale-Procedure.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Ordonnantie 6 maart 2019 betreffende de Brusselse Codex Fiscale Procedure |
 | `BTW-dertiende-richtlijn-1986.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de G… |
@@ -122,7 +121,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `MIGB-Vlaanderen.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams Gewest |
 | `Strafwetboek-1867.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Strafwetboek 8 juni 1867 (Oud Strafwetboek) |
 | `Strafwetboek2024-boek2.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 2 |
-| `Successierechten-federaal.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wetboek der Successierechten — federaal |
+| `Successierechten-federaal.md` | ✅ trusted | warn | trusted | subagent-sonnet-4-6 | Wetboek der Successierechten — federaal |
 | `Verdrag-WABB.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Verdrag inzake wederzijdse administratieve bijstand in fiscale aangelegenheden (WABB/CM… |
 | `WBTW-KB-GKS.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | K.B. 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een ge… |
 | `WBTW-KB1-voldoening.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | K.B. nr. 1, 29 december 1992, met betrekking tot de regeling voor de voldoening van de … |
@@ -145,7 +144,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `Wet-ITAA-2019.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Acco… |
 | `Wet-voorafgaande-beslissingen-2002.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wet 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelasti… |
 | `Wetboek-Invordering.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvo… |
-| `WIB92.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | WIB92 |
+| `WIB92.md` | ✅ trusted | warn | trusted | subagent-sonnet-4-6 | WIB92 |
 | `WVV.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | Wetboek van vennootschappen en verenigingen 23/03/2019 |
 
 ## Normen (19)

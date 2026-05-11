@@ -1,5 +1,5 @@
 {
-  "n_bronnen": 585,
+  "n_bronnen": 584,
   "bronnen": [
     {
       "bestand": "AVG-wet-2018.md",
@@ -28,7 +28,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": "warn",
       "layer2_status": "trusted"
     },
     {
@@ -440,7 +440,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "not_run",
+      "layer1_status": "pass",
       "layer2_status": "needs-rework"
     },
     {
@@ -502,7 +502,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "not_run",
+      "layer1_status": "warn",
       "layer2_status": "needs-rework"
     },
     {
@@ -651,7 +651,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": "warn",
       "layer2_status": "trusted"
     },
     {
@@ -700,21 +700,6 @@
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
       "layer2_status": "trusted"
-    },
-    {
-      "bestand": "WBTW-KB-compilatie.md",
-      "bron_rol": "wettekst",
-      "stem": "WBTW-KB-compilatie",
-      "titel": "Koninklijke besluiten inzake belasting over de toegevoegde waarde (compilatie Fisconet, bijgewerkt t.e.m. 06.03.2020)",
-      "korte_naam": "WBTW KB compilatie",
-      "tags": [
-        "VI.B",
-        "2.4"
-      ],
-      "trust_status": "needs-rework",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "not_run",
-      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB01okt2013-certificatie-gks.md",
@@ -1720,7 +1705,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": "warn",
       "layer2_status": "trusted"
     },
     {
@@ -1855,7 +1840,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "not_run",
+      "layer1_status": "pass",
       "layer2_status": "needs-rework"
     },
     {
@@ -1870,7 +1855,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "not_run",
+      "layer1_status": "fail",
       "layer2_status": "trusted"
     },
     {
@@ -1885,7 +1870,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "not_run",
+      "layer1_status": "fail",
       "layer2_status": "trusted"
     },
     {
@@ -1901,7 +1886,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "not_run",
+      "layer1_status": "warn",
       "layer2_status": "needs-rework"
     },
     {
@@ -1922,7 +1907,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "not_run",
+      "layer1_status": "warn",
       "layer2_status": "needs-rework"
     },
     {
@@ -1937,7 +1922,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "not_run",
+      "layer1_status": "warn",
       "layer2_status": "needs-rework"
     },
     {
@@ -1952,7 +1937,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "not_run",
+      "layer1_status": "warn",
       "layer2_status": "needs-rework"
     },
     {
@@ -1966,7 +1951,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "not_run",
+      "layer1_status": "warn",
       "layer2_status": "needs-rework"
     },
     {
