@@ -25,10 +25,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B1: H1-titel (r58) bevat '2010/12 -De toepassing...' zonder spatie na de koppelstreep en eindigt op 'instrumenten1' (superscript voetnootnummer niet geparsed als [^1]). B2: H3-subkoppen gebruiken '### ***tekst***' — triple-asterisk bold-italic binnen een heading is ongebruikelijk en een extractie-artefact van de PDF (dikgedrukte koppen in PDF). De heading '### ***Voorrang... ***' op r106 heeft ook een spatie voor de closing *** (malformed). Verder is de inhoud volledig en inhoudelijk goed."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -38,11 +38,23 @@ provenance:
       file_size_chars: 17420
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: "B1: H1-titel (r58) bevat '2010/12 -De toepassing...' zonder spatie na de koppelstreep en eindigt op 'instrumenten1' (superscript voetnootnummer niet geparsed als [^1]). B2: H3-subkoppen gebruiken '### ***tekst***' — triple-asterisk bold-italic binnen een heading is ongebruikelijk en een extractie-artefact van de PDF (dikgedrukte koppen in PDF). De heading '### ***Voorrang... ***' op r106 heeft ook een spatie voor de closing *** (malformed). Verder is de inhoud volledig en inhoudelijk goed."
+      concrete_problemen:
+        - regel: 58
+          categorie: B1
+          type: other
+          voorbeeld: '# CBN-advies 2010/12 -De toepassing...instrumenten1 Advies van 8 september 2010'
+        - regel: 62
+          categorie: B2
+          type: other
+          voorbeeld: '### ***Het ontbreken van een conceptueel kader...***'
+        - regel: 106
+          categorie: D4
+          type: other
+          voorbeeld: '### ***Voorrang van het boekhoudkundig realisatiebeginsel op het overeenstemmingsprincipe ***'
 gerelateerde_adviezen:
   - titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
     url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in

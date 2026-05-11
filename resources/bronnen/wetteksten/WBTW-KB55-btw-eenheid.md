@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Body heeft ## Art. 1-9 correct — layer2-notitie '0 ##-headings' was ook hier onjuist. Twee technische artefacten: (1) regel 186 en 191 bevatten '§ 1en § 2' zonder spatie (samenplakking door PDF-extractie, A5/D); (2) regels 227 en 233 schrijven 'BTW eenheid' zonder koppelteken, inconsistent met 'BTW-eenheid' overal elders (A5). Bijwerkingstabel (regels 282-284) als plain-text kolom-alignment (C3). Inhoud volledig en de wettekst is de meest complexe van de batch met correcte §-structuur."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,26 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '16k chars zonder ##-headings; Artikel-markers plain text. Body intact tot bijwerkingen.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "Body heeft ## Art. 1-9 correct — layer2-notitie '0 ##-headings' was ook hier onjuist. Twee technische artefacten: (1) regel 186 en 191 bevatten '§ 1en § 2' zonder spatie (samenplakking door PDF-extractie, A5/D); (2) regels 227 en 233 schrijven 'BTW eenheid' zonder koppelteken, inconsistent met 'BTW-eenheid' overal elders (A5). Bijwerkingstabel (regels 282-284) als plain-text kolom-alignment (C3). Inhoud volledig en de wettekst is de meest complexe van de batch met correcte §-structuur."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: '0 ##-headings bij 16143 chars'
+        - regel: 186
+          categorie: A5
+          type: other
+          voorbeeld: § 1en § 2, eerste lid, bedoeld controlekantoor vaststelt
+        - regel: 191
+          categorie: A5
+          type: other
+          voorbeeld: Als het hoofd van het in § 1en § 2, eerste lid bedoeld controlekantoor
+        - regel: 227
+          categorie: A5
+          type: other
+          voorbeeld: Er is van rechtswege uittreding van een lid uit de BTW eenheid
+        - regel: 282
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: Bijwerking       t.e.m. B.S. van                       Te vervangen pagina's
 ---
 
 # K.B. nr. 55 van 9 maart 2007, met betrekking tot de regeling voor belastingplichtingen die een BTW-eenheid vormen

@@ -22,10 +22,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: Malformed italic op regels 77 en 79: `*enerzijds *` en `*anderzijds *` hebben een spatie vóór het sluit-asterisk — geen mens typt dit zo. Ook `*flat'*` (regel 78) combineert een smart-quote binnen een italic span. Verder zijn er orphaned footnote-referenties op eigen regels (bijv. regel 111 `[^16]`, regel 131 `[^18][^19]`) die syntactisch correct zijn maar door de scraper los van hun anker zijn gezet."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -35,11 +35,27 @@ provenance:
       file_size_chars: 15185
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: "D4: Malformed italic op regels 77 en 79: `*enerzijds *` en `*anderzijds *` hebben een spatie vóór het sluit-asterisk — geen mens typt dit zo. Ook `*flat'*` (regel 78) combineert een smart-quote binnen een italic span. Verder zijn er orphaned footnote-referenties op eigen regels (bijv. regel 111 `[^16]`, regel 131 `[^18][^19]`) die syntactisch correct zijn maar door de scraper los van hun anker zijn gezet."
+      concrete_problemen:
+        - regel: 77
+          categorie: D4
+          type: other
+          voorbeeld: Indien *enerzijds *het tarief van de vennootschapsbelasting...
+        - regel: 79
+          categorie: D4
+          type: other
+          voorbeeld: Indien *anderzijds *het effectief gerealiseerde verlies...
+        - regel: 78
+          categorie: D4
+          type: other
+          voorbeeld: belast aan het '*flat'* tarief
+        - regel: 111
+          categorie: D3
+          type: other
+          voorbeeld: ' [^16] (orphaned voetnoot-referentie op eigen regel na sectie-label)'
 gerelateerde_adviezen:
   - titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve

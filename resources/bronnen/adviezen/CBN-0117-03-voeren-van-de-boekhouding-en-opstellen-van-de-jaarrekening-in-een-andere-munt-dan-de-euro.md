@@ -28,10 +28,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Drie problemen: (1) B2: Heading-hiërarchie springt van H1 (regel 64) direct naar H4 (regels 82, 87, 116) — H2 en H3 ontbreken volledig. (2) D4: Regel 72 heeft '*enerzijds *' met spatie voor sluitende asterisk — technisch gebrekkige italic-opmaak. (3) A6: Regel 85 begint met een spatie (' Bij de opstelling...') — spurious line-break binnen een alinea die begint direct na een vorige zin op regel 84."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -41,11 +41,23 @@ provenance:
       file_size_chars: 11466
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: "Drie problemen: (1) B2: Heading-hiërarchie springt van H1 (regel 64) direct naar H4 (regels 82, 87, 116) — H2 en H3 ontbreken volledig. (2) D4: Regel 72 heeft '*enerzijds *' met spatie voor sluitende asterisk — technisch gebrekkige italic-opmaak. (3) A6: Regel 85 begint met een spatie (' Bij de opstelling...') — spurious line-break binnen een alinea die begint direct na een vorige zin op regel 84."
+      concrete_problemen:
+        - regel: 82
+          categorie: B2
+          type: other
+          voorbeeld: '#### Definitie van de functionele valuta — H4 direct onder H1, H2/H3 ontbreken'
+        - regel: 72
+          categorie: D4
+          type: other
+          voorbeeld: '*enerzijds *volgens — spatie voor sluitende asterisk, gebrekkige italic'
+        - regel: 85
+          categorie: A6
+          type: other
+          voorbeeld: "' Bij de opstelling van de jaarrekening...' — zin begint met spatie, spurious line-break"
 gerelateerde_adviezen:
   - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0

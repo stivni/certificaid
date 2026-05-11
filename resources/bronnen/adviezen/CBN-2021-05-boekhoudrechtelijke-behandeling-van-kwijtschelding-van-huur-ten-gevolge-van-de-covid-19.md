@@ -26,10 +26,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: malformed italic op L74 — '*Huuropbrengsten *of rekening 70 *Omzet[^2] *' heeft een spatie vóór de afsluitende asterisk waardoor de italic niet correct sluit; dit patroon duidt op een extractieartefact waarbij een footnote-marker de italic-span doorkruist. Geen andere structurele problemen; inhoud is volledig en alle zeven headings zijn correct."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -39,11 +39,15 @@ provenance:
       file_size_chars: 10492
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: "D4: malformed italic op L74 — '*Huuropbrengsten *of rekening 70 *Omzet[^2] *' heeft een spatie vóór de afsluitende asterisk waardoor de italic niet correct sluit; dit patroon duidt op een extractieartefact waarbij een footnote-marker de italic-span doorkruist. Geen andere structurele problemen; inhoud is volledig en alle zeven headings zijn correct."
+      concrete_problemen:
+        - regel: 74
+          categorie: D4
+          type: other
+          voorbeeld: rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *wordt gecrediteerd
 gerelateerde_adviezen:
   - titel: Rekening 26 Overige materiële vaste activa
     url: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B7: de TOC-heading '## Art. 2' op regel 103–105 heeft een interne spatie-kolom-artefact in zijn body-tag die op de heading-regel staat ('met ingang   van' met extra spaties). C3: bijlage-tabel Bijw. 01/02/03/04 als spatie-uitgelijnde pseudotabel. De artefacten zijn echter beperkt; inhoud is volledig (Art. 1–9 + bijlagen)."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,22 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '12k chars met 0 ##-headings; Artikel-markers staan als plain text. Body intact, maar per-Artikel-chunking ontbreekt.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:28Z'
+      rationale: "B7: de TOC-heading '## Art. 2' op regel 103–105 heeft een interne spatie-kolom-artefact in zijn body-tag die op de heading-regel staat ('met ingang   van' met extra spaties). C3: bijlage-tabel Bijw. 01/02/03/04 als spatie-uitgelijnde pseudotabel. De artefacten zijn echter beperkt; inhoud is volledig (Art. 1–9 + bijlagen)."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: '0 ##-headings bij 11923 chars; Artikel 1..n staan als plain text'
+        - regel: 104
+          categorie: A8
+          type: column-bleed
+          voorbeeld: (De tekst van KB nr. 23, artikel 2, § 3, 1°, werd gewijzigd met                           ingang   van
+        - regel: 200
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: Bijw. 01 / 01.01.2012   - Volledige uitgave
+        - regel: 203
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: Bijw. 02 / 08.05.2013   - pg. 1                              - Bijw. 02 - pg. 1
 ---
 
 # K.B. nr. 23 van 9 december 2009, met betrekking tot de jaarlijkse lijst van de BTW-belastingplichtige afnemers

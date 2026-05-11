@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:57Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Ernstige A8 kolom-bleed doorheen het hele corpus: elke artikeltekst bevat NL-tekst en FR-tekst naast elkaar op dezelfde regel (twee-kolom PDF-layout). Dit maakt elke chunk onleesbaar voor RAG — de zinnen zijn doorheen elkaar: 'De aanbieding ter registratie van ... La présentation à l'enregistrement des ...'. Laag-1 meldt 3 bevestigde kolom-bleed samples, maar de eigenlijke omvang is structureel (elk artikel, niet incidenteel). B4: plain-text structuurlabels ontbreken `#`-prefix. Alle overige structuurproblemen zijn identiek aan Brussel/Waals."
     layer1:
       status: warn
       run_id: 20260509-212552
@@ -44,12 +44,26 @@ provenance:
             - 'regel 676: Het registratierecht op de openbare verkopingen van lichamelijke                      Le roerende goederen is een federa'
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: Federale variant heeft naast max_section_size ook 3 kolom-bleed-patronen buiten tabellen. Risico op vermenging van tariefkolommen of footers in body.
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:57Z'
+      rationale: "Ernstige A8 kolom-bleed doorheen het hele corpus: elke artikeltekst bevat NL-tekst en FR-tekst naast elkaar op dezelfde regel (twee-kolom PDF-layout). Dit maakt elke chunk onleesbaar voor RAG — de zinnen zijn doorheen elkaar: 'De aanbieding ter registratie van ... La présentation à l'enregistrement des ...'. Laag-1 meldt 3 bevestigde kolom-bleed samples, maar de eigenlijke omvang is structureel (elk artikel, niet incidenteel). B4: plain-text structuurlabels ontbreken `#`-prefix. Alle overige structuurproblemen zijn identiek aan Brussel/Waals."
       concrete_problemen:
-        - 3 kolom-bleed-patronen buiten tabellen
-        - max_section_size 74658 chars
+        - regel: 63
+          categorie: A8
+          type: column-bleed
+          voorbeeld: EN GRIFFIERECHTEN                                                      D'HYPOTHEQUE ET DE GREFFE
+        - regel: 79
+          categorie: A8
+          type: column-bleed
+          voorbeeld: Registratie is een formaliteit bestaande in het afschrijven, ontleden of        L'enregistrement est une formalité qui consiste dans la copie,
+        - regel: 132
+          categorie: A8
+          type: column-bleed
+          voorbeeld: Wordt, voor de toepassing van dit wetboek, met een aan een                        Po schorsende voorwaarde...
+        - regel: 75
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: (TOC-regels met paginanummers aanwezig in body, zelfde patroon als Brussel/Waals)
 chunk:
   level: 6
   type: Art.

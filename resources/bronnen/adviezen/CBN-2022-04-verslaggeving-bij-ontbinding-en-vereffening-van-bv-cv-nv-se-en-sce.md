@@ -48,10 +48,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:24:33Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: de inhoudsopgave van het advies staat als genummerde lijst in de body (regels 86-101) vóór de inhoudelijke secties. D2: op regel 225 wordt verwezen naar 'Schematisch kunnen de volgende termijnen worden onderscheiden:' maar het schema ontbreekt (was waarschijnlijk een afbeelding in het origineel). 75 footnotes correct. Inhoud overigens volledig."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -61,11 +61,19 @@ provenance:
       file_size_chars: 30703
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:24:33Z'
+      rationale: "A3: de inhoudsopgave van het advies staat als genummerde lijst in de body (regels 86-101) vóór de inhoudelijke secties. D2: op regel 225 wordt verwezen naar 'Schematisch kunnen de volgende termijnen worden onderscheiden:' maar het schema ontbreekt (was waarschijnlijk een afbeelding in het origineel). 75 footnotes correct. Inhoud overigens volledig."
+      concrete_problemen:
+        - regel: 86
+          categorie: A3
+          type: other
+          voorbeeld: "1. Ontbinding \n  1. Vrijwillige ontbinding \n  2. Ontbinding van rechtswege  (TOC-fragment in body)"
+        - regel: 225
+          categorie: D2
+          type: missing-section
+          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [schema/afbeelding ontbreekt]'
 gerelateerde_adviezen:
   - titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren
     url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding

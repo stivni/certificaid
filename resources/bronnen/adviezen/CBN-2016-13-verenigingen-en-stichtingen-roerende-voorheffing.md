@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Regels 101, 111, 121, 131 bevatten telkens een alleenstaande regel met meerdere voetnootverwijzingen aaneengesloten (' [^11][^12]', ' [^13][^14]', ' [^15][^16]', ' [^18][^19][^20][^21]') als losse alinea zonder zin — dit is het inline-footnote-artefact (G3) waarbij de PDF-voetnootmarkeringen zijn losgeraakt van hun ankerzin. Elke boekingregel in het voorbeeld heeft zijn voetnoten op een aparte lege regel boven de tabel gezet. Inhoud en tabellen zijn verder correct.
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,27 @@ provenance:
       file_size_chars: 9913
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: Regels 101, 111, 121, 131 bevatten telkens een alleenstaande regel met meerdere voetnootverwijzingen aaneengesloten (' [^11][^12]', ' [^13][^14]', ' [^15][^16]', ' [^18][^19][^20][^21]') als losse alinea zonder zin — dit is het inline-footnote-artefact (G3) waarbij de PDF-voetnootmarkeringen zijn losgeraakt van hun ankerzin. Elke boekingregel in het voorbeeld heeft zijn voetnoten op een aparte lege regel boven de tabel gezet. Inhoud en tabellen zijn verder correct.
+      concrete_problemen:
+        - regel: 101
+          categorie: G3
+          type: other
+          voorbeeld: ' [^11][^12]'
+        - regel: 111
+          categorie: G3
+          type: other
+          voorbeeld: ' [^13][^14]'
+        - regel: 121
+          categorie: G3
+          type: other
+          voorbeeld: ' [^15][^16]'
+        - regel: 131
+          categorie: G3
+          type: other
+          voorbeeld: ' [^18][^19][^20][^21]'
 gerelateerde_adviezen:
   - titel: De boekhoudkundige verwerking met betrekking tot de toepassing van de overgangsregeling zoals vermeld in artikel 537 WIB 92
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling

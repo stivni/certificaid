@@ -26,10 +26,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Geen extractie-artefacten. Geen TOC-fragment in de body, geen broken italics, geen orphan-ankers. Zeven headings correct gelaagd. Voetnoten [^1]–[^29] volledig en correct. Inhoud compleet (aanvangsmoment, boekjaar, dubbel vs. vereenvoudigd, publicatieverplichting). Laag-1: pass, geen flags.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -39,10 +39,10 @@ provenance:
       file_size_chars: 19096
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: 'Geen extractie-artefacten. Geen TOC-fragment in de body, geen broken italics, geen orphan-ankers. Zeven headings correct gelaagd. Voetnoten [^1]–[^29] volledig en correct. Inhoud compleet (aanvangsmoment, boekjaar, dubbel vs. vereenvoudigd, publicatieverplichting). Laag-1: pass, geen flags.'
       concrete_problemen: []
 ---
 

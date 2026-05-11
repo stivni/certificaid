@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: op r141 staat 'rekening 150 *Kapitaalsubsidie *van de vennootschap' — spatie voor de closing asterisk geeft een malformed italic-marker (patroon: 'tekst *'); dit is een bekende ETL-spatie-artefact. Zelfde patroon op r61 'rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *van de vennootschap'. Verder is de inhoud compleet en goed gestructureerd."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,19 @@ provenance:
       file_size_chars: 15370
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: "D4: op r141 staat 'rekening 150 *Kapitaalsubsidie *van de vennootschap' — spatie voor de closing asterisk geeft een malformed italic-marker (patroon: 'tekst *'); dit is een bekende ETL-spatie-artefact. Zelfde patroon op r61 'rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *van de vennootschap'. Verder is de inhoud compleet en goed gestructureerd."
+      concrete_problemen:
+        - regel: 141
+          categorie: D4
+          type: other
+          voorbeeld: rekening 150 *Kapitaalsubsidie *van de vennootschap
+        - regel: 61
+          categorie: D4
+          type: other
+          voorbeeld: rekening 151 *Kapitaalsubsidies ontvangen in contanten* van de vereniging of 150 *Kapitaalsubsidie *
 gerelateerde_adviezen:
   - titel: De boekhoudkundige verwerking van de door de Waalse regering gecreëerde opleidingscheques
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques

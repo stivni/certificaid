@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:44Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'E2: de markdown-tabel heeft een lege eerste kolom (extra leidende `| |` op elke rij) die geen overeenkomende header-label heeft — een ongebruikelijke structuur die een mens zo niet zou typen. Verder is de inhoud inhoudelijk volledig en schoon: geen artefacten, geen duplicate headings, geen unicode-issues.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,15 @@ provenance:
       file_size_chars: 1220
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:44Z'
+      rationale: 'E2: de markdown-tabel heeft een lege eerste kolom (extra leidende `| |` op elke rij) die geen overeenkomende header-label heeft — een ongebruikelijke structuur die een mens zo niet zou typen. Verder is de inhoud inhoudelijk volledig en schoon: geen artefacten, geen duplicate headings, geen unicode-issues.'
+      concrete_problemen:
+        - regel: 54
+          categorie: E2
+          type: other
+          voorbeeld: '| | Rekening | Omschrijving | Debet | Credit | — lege eerste kolom in header én alle rijen'
 ---
 
 # CBN-advies R103 - Gefactureerde, nog niet ontvangen voorschotten en vooruitbetalingen - Rekening 46

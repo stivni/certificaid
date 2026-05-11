@@ -25,10 +25,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: meerdere journaalboekingstabellen (regels 125–126, 132–134, 138–140, 144–147) missen de `|---|` header-separator rij — ze worden niet als markdown-tabellen herkend. D4: regel 69 bevat `I*I.A.` — de `*` is onderdeel van een italic-markup die niet gesloten wordt en tegelijk een structuurverwijd naar 'paragraaf II.A.' verminkt."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -38,11 +38,23 @@ provenance:
       file_size_chars: 15986
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "E2: meerdere journaalboekingstabellen (regels 125–126, 132–134, 138–140, 144–147) missen de `|---|` header-separator rij — ze worden niet als markdown-tabellen herkend. D4: regel 69 bevat `I*I.A.` — de `*` is onderdeel van een italic-markup die niet gesloten wordt en tegelijk een structuurverwijd naar 'paragraaf II.A.' verminkt."
+      concrete_problemen:
+        - regel: 125
+          categorie: E2
+          type: other
+          voorbeeld: '| Overgedragen winst – lopend boekjaar *[Balans]* | | 16 | | | (geen |---|)'
+        - regel: 132
+          categorie: E2
+          type: other
+          voorbeeld: '| Investering 2 | | 100 | (geen header + geen |---| rij)'
+        - regel: 69
+          categorie: D4
+          type: other
+          voorbeeld: paragraaf I*I.A. Verhoging van belang...
 gerelateerde_adviezen:
   - titel: Vermogensmutatiemethode
     url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode

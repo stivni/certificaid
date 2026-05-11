@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:57Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Zelfde TOC-dotted-leaders probleem als Brussel (74 regels, A2/B7). Bovendien: A1-artefact op r.143 — een alleenstaande 'I' (vermoedelijk een paginanummer of TOC-letter uit de PDF-extractie). B4: plain-text all-caps structuurlabels in het corps (TIJDELIJKE BEPALINGEN r.7145, OVERGANGSBEPALINGEN r.7357, BIJBEPALINGEN r.7471, INWERKINGTREDING r.7497). De tarieftabel rond r.2130 bevat kolom-bleed waarbij NL en FR kolomtitels op afzonderlijke regels staan ('Van / De', 'tot inbegrepen a / à … inclus') maar geen echte interleaving van zinnen — dit is grensgevaal maar acceptabel als PDF-tabelextractie."
     layer1:
       status: warn
       run_id: 20260509-212552
@@ -44,12 +44,34 @@ provenance:
             - '................................................................................'
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: Zelfde TOC-stippen-issue als Brussel (74 regels) en zelfde max-section >58k chars. Vermoedelijk gedeeld ETL-pad.
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:57Z'
+      rationale: "Zelfde TOC-dotted-leaders probleem als Brussel (74 regels, A2/B7). Bovendien: A1-artefact op r.143 — een alleenstaande 'I' (vermoedelijk een paginanummer of TOC-letter uit de PDF-extractie). B4: plain-text all-caps structuurlabels in het corps (TIJDELIJKE BEPALINGEN r.7145, OVERGANGSBEPALINGEN r.7357, BIJBEPALINGEN r.7471, INWERKINGTREDING r.7497). De tarieftabel rond r.2130 bevat kolom-bleed waarbij NL en FR kolomtitels op afzonderlijke regels staan ('Van / De', 'tot inbegrepen a / à … inclus') maar geen echte interleaving van zinnen — dit is grensgevaal maar acceptabel als PDF-tabelextractie."
       concrete_problemen:
-        - 74 TOC-stippen-regels
-        - max_section_size 58101 chars
+        - regel: 75
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: '## TITEL I - REGISTRATIERECHT................ 6'
+        - regel: 143
+          categorie: A1
+          type: form-feed
+          voorbeeld: I
+        - regel: 7145
+          categorie: B4
+          type: other
+          voorbeeld: TIJDELIJKE BEPALINGEN
+        - regel: 7357
+          categorie: B4
+          type: other
+          voorbeeld: OVERGANGSBEPALINGEN
+        - regel: 7471
+          categorie: B4
+          type: other
+          voorbeeld: BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL GELIJKGESTELDE TAKSEN
+        - regel: 7497
+          categorie: B4
+          type: other
+          voorbeeld: INWERKINGTREDING
 chunk:
   level: 6
   type: Art.

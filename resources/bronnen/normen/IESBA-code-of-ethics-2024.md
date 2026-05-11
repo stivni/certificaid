@@ -33,10 +33,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Het bestand is inhoudelijk volledig (alle Parts 1-6 + Independence Standards aanwezig, 68 ## headings, correcte Rxx.x / xx.x Ax nummering). Vier afzonderlijke artefacten vereisen rework: (A1) vier stray 'Page'-markers als losse regels op lijnen 1742, 4717, 8578, 17822 (kop/voetregelpaar uit PDF); (A2) grote dot-leader TOC-blokken als plain-text midden in de body op het overganspunt van elke Part (regels 1716-1739, 4719-4741, 8580-8644 en ca. 17823-17845); (A6) paragraafnummer met extra spatie '120. 15 A1' op regel 1530. Buiten die geïsoleerde artefacten leest de body vloeiend en zijn headings correct."
     layer1:
       status: warn
       run_id: 20260511-085756
@@ -50,11 +50,35 @@ provenance:
           detail: 'langste sectie op ##-niveau: 86893 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:58Z'
+      rationale: "Het bestand is inhoudelijk volledig (alle Parts 1-6 + Independence Standards aanwezig, 68 ## headings, correcte Rxx.x / xx.x Ax nummering). Vier afzonderlijke artefacten vereisen rework: (A1) vier stray 'Page'-markers als losse regels op lijnen 1742, 4717, 8578, 17822 (kop/voetregelpaar uit PDF); (A2) grote dot-leader TOC-blokken als plain-text midden in de body op het overganspunt van elke Part (regels 1716-1739, 4719-4741, 8580-8644 en ca. 17823-17845); (A6) paragraafnummer met extra spatie '120. 15 A1' op regel 1530. Buiten die geïsoleerde artefacten leest de body vloeiend en zijn headings correct."
+      concrete_problemen:
+        - regel: 1742
+          categorie: A1
+          type: form-feed
+          voorbeeld: "Losse regel 'Page' tussen TOC-blok en ## Section 200"
+        - regel: 4717
+          categorie: A1
+          type: form-feed
+          voorbeeld: "Losse regel 'Page' tussen TOC-blok Part 3 en ## Section 300"
+        - regel: 8578
+          categorie: A1
+          type: form-feed
+          voorbeeld: "Losse regel 'Page' tussen TOC-blok Part 4 en ## Section 400"
+        - regel: 17822
+          categorie: A1
+          type: form-feed
+          voorbeeld: Losse regel 'Page' tussen TOC-blok Part 6 en volgende sectie
+        - regel: 1716
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: Section 200 Applying the Conceptual Framework – Professional Accountants in Business..................................................................
+        - regel: 1530
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: "'120. 15 A1' — extra spatie in paragraafnummer (moet '120.15 A1' zijn)"
 ---
 
 

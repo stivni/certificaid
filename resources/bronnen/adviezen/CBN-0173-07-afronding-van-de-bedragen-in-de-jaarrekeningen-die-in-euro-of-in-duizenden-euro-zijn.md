@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "F1: frontmatter bevat thema 'opslag van afvalstoffen' (r.9) dat inhoudelijk niets met dit advies over afronding van jaarrekeningen in euro te maken heeft — vermoedelijk een scraping-artefact waarbij een thema van een ander advies is ingeslopen. De body zelf is inhoudelijk correct en volledig."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -37,11 +37,15 @@ provenance:
       file_size_chars: 2636
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: "F1: frontmatter bevat thema 'opslag van afvalstoffen' (r.9) dat inhoudelijk niets met dit advies over afronding van jaarrekeningen in euro te maken heeft — vermoedelijk een scraping-artefact waarbij een thema van een ander advies is ingeslopen. De body zelf is inhoudelijk correct en volledig."
+      concrete_problemen:
+        - regel: 9
+          categorie: F1
+          type: naam-mismatch
+          voorbeeld: '- opslag van afvalstoffen (thema hoort niet bij dit advies over afronding in euro)'
 gerelateerde_adviezen:
   - titel: Afronding van betalingen in euro
     url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro-0

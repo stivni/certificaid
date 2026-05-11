@@ -18,10 +18,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:16:33Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Geen artefacten gevonden. Heading-hiërarchie klopt (H1 → H2 → H3), alle 9 voetnoten correct gelinkt met [^N]-syntax, proza vloeit als mens-geschreven tekst. Inhoud compleet: onderwerp, analyse met twee subsecties, voorbeelden voor goederen en diensten.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -31,10 +31,10 @@ provenance:
       file_size_chars: 15748
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:33Z'
+      rationale: 'Geen artefacten gevonden. Heading-hiërarchie klopt (H1 → H2 → H3), alle 9 voetnoten correct gelinkt met [^N]-syntax, proza vloeit als mens-geschreven tekst. Inhoud compleet: onderwerp, analyse met twee subsecties, voorbeelden voor goederen en diensten.'
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van de COVID-19-pandemie

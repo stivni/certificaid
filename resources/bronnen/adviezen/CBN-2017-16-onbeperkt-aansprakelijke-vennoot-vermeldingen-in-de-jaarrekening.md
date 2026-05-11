@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: een volledige TOC (regels 47-68) staat in de body na de H1-titel, inclusief een aaneengesloten artefactregel op regel 68 met `------ Inventaris------ Waarderingsregels----` — duidelijk TOC-residu verdubbeld door extractie. Regel 45 herhaalt de subtitel 'vermeldingen in de jaarrekening' als losse plain-text regel na de H1. Inhoud en heading-structuur zijn verder intact."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,23 @@ provenance:
       file_size_chars: 21394
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: "A3: een volledige TOC (regels 47-68) staat in de body na de H1-titel, inclusief een aaneengesloten artefactregel op regel 68 met `------ Inventaris------ Waarderingsregels----` — duidelijk TOC-residu verdubbeld door extractie. Regel 45 herhaalt de subtitel 'vermeldingen in de jaarrekening' als losse plain-text regel na de H1. Inhoud en heading-structuur zijn verder intact."
+      concrete_problemen:
+        - regel: 45
+          categorie: A3
+          type: other
+          voorbeeld: vermeldingen in de jaarrekening
+        - regel: 47
+          categorie: A3
+          type: other
+          voorbeeld: '1. Inleiding \n2. Onbeperkte aansprakelijkheid: overzicht \n3. Neerleggingsplicht...'
+        - regel: 68
+          categorie: A3
+          type: dotted-leader
+          voorbeeld: '------ Inventaris------ Waarderingsregels---- Buitenlandse ondernemingen---- Voorbeeld'
 ---
 
 # CBN-advies 2017/16 – Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening

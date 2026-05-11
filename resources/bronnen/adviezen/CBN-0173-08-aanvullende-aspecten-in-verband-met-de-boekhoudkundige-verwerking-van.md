@@ -25,10 +25,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Drie problemen: (1) G1/HTML-rest: r.152 bevat '/ TD>' als ruw HTML-fragment midden in een tabelcel ('Handelsdebiteuren/ TD>'). (2) A9/tikfout: r.156 'afrondingsverchil' (ontbrekende 's'). (3) B2: heading-hiërarchie springt van # naar #### (r.66) en dan naar ###### (r.130) zonder tussenliggende ##/###-niveaus. (4) C3: de balans-tabel op r.109-128 heeft onregelmatige kolommen met inline spacing die niet als valide markdown-tabel is opgebouwd. (5) A6: r.164 heeft een losstaande regel '\\n\\nervan ook de mogelijkheid...' die een alinea-breuk toont."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -38,11 +38,35 @@ provenance:
       file_size_chars: 16243
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: "Drie problemen: (1) G1/HTML-rest: r.152 bevat '/ TD>' als ruw HTML-fragment midden in een tabelcel ('Handelsdebiteuren/ TD>'). (2) A9/tikfout: r.156 'afrondingsverchil' (ontbrekende 's'). (3) B2: heading-hiërarchie springt van # naar #### (r.66) en dan naar ###### (r.130) zonder tussenliggende ##/###-niveaus. (4) C3: de balans-tabel op r.109-128 heeft onregelmatige kolommen met inline spacing die niet als valide markdown-tabel is opgebouwd. (5) A6: r.164 heeft een losstaande regel '\\n\\nervan ook de mogelijkheid...' die een alinea-breuk toont."
+      concrete_problemen:
+        - regel: 66
+          categorie: B2
+          type: other
+          voorbeeld: '# direct naar #### zonder ## en ### tussenniveaus'
+        - regel: 109
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '| 100 | | Kapitaal | | | | 150 | (ongelijke kolomindeling, geen markdown-tabel)'
+        - regel: 130
+          categorie: B2
+          type: other
+          voorbeeld: '###### Overschakeling van de boekhouding op de euro op 1/5/99 (6 hashes)'
+        - regel: 152
+          categorie: G1
+          type: url-plaintext
+          voorbeeld: '| | 400 | Handelsdebiteuren/ TD> | 10,61 | | (HTML-fragment)'
+        - regel: 156
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: '| | 65 | afrondingsverchil | 0,01 | |'
+        - regel: 162
+          categorie: E2
+          type: other
+          voorbeeld: '| | 71,18 | 71,18 | | | (nummers als cellen in lege tabelrij)'
 ---
 
 # CBN-advies 173/8 - Aanvullende aspecten in verband met de boekhoudkundige verwerking van afrondingsverschillen bij conversie

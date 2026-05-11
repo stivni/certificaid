@@ -27,10 +27,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Twee duidelijke extractie-artefacten in de body: (1) regel 77 bevat 'Belgiëë' (dubbel ë) — OCR/extractie-artefact voor 'België'; (2) regel 89 bevat 'der halve' (gesplitst woord) — extractiefout voor het woord 'derhalve'. Beide zijn inhoudelijk-storende artefacten die ETL kan corrigeren."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -40,11 +40,19 @@ provenance:
       file_size_chars: 4790
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: "Twee duidelijke extractie-artefacten in de body: (1) regel 77 bevat 'Belgiëë' (dubbel ë) — OCR/extractie-artefact voor 'België'; (2) regel 89 bevat 'der halve' (gesplitst woord) — extractiefout voor het woord 'derhalve'. Beide zijn inhoudelijk-storende artefacten die ETL kan corrigeren."
+      concrete_problemen:
+        - regel: 77
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: succursalen in Belgiëë van ondernemingen — dubbel ë, hoort 'België' te zijn
+        - regel: 89
+          categorie: A6
+          type: other
+          voorbeeld: dienen zij der halve te worden omgezet — 'derhalve' gesplitst door extractie
 gerelateerde_adviezen:
   - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0

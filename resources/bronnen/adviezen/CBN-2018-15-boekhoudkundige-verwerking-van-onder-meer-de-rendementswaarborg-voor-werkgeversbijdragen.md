@@ -27,10 +27,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: malformed italic op regels 131, 133 en 202 ('de *inrichter *wordt gegeven', '*pensioeninstelling *ook effectief', '***Samenvattend ***'). Regel 220 heeft '*alle *risico's **' met spatie voor asterisk binnen bold+italic constructie. Dit patroon is consistent met de andere 2018-adviezen uit dezelfde ETL-batch. Inhoud en structuur zijn verder volledig."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -40,11 +40,27 @@ provenance:
       file_size_chars: 23610
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: "D4: malformed italic op regels 131, 133 en 202 ('de *inrichter *wordt gegeven', '*pensioeninstelling *ook effectief', '***Samenvattend ***'). Regel 220 heeft '*alle *risico's **' met spatie voor asterisk binnen bold+italic constructie. Dit patroon is consistent met de andere 2018-adviezen uit dezelfde ETL-batch. Inhoud en structuur zijn verder volledig."
+      concrete_problemen:
+        - regel: 131
+          categorie: D4
+          type: other
+          voorbeeld: de pensioentoezegging die door de *inrichter *wordt gegeven
+        - regel: 133
+          categorie: D4
+          type: other
+          voorbeeld: Opdat de *pensioeninstelling *ook effectief in staat zou zijn
+        - regel: 202
+          categorie: D4
+          type: other
+          voorbeeld: '***Samenvattend ***kan dus besloten worden'
+        - regel: 220
+          categorie: D4
+          type: other
+          voorbeeld: "**Geen externalisering van *alle *risico's **"
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Het bestand bevat ~180 regels Fisconet-compilatie-introductie (volledige MB-lijst met datumkolom rechts van de tekst, A8) vóór de eigenlijke MB nr. 1-inhoud begint. Dit is een A3-patroon: TOC/metapagina verspreid door de body. De drie werkelijke artikelen (Art. 1–3) staan wél correct als ## headings aan het einde, maar de omvangrijke voorblad-tekst is niet thuishoort in deze individuele MB-MD.'
     layer1:
       status: warn
       run_id: 20260509-212552
@@ -44,19 +44,26 @@ provenance:
             - 'regel 162: *   Ministerieel besluit, van 29 april 2024, betreffende de technische                    Bijw. 01/03.06.2024'
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '0 ##-headings; chunk.level=2 niet realiseerbaar. Eerste ~85% van het bestand is meta-pagina van Fisconet (lijst MB-wijzigingen, tabel met datum-kolom-bleed); pas op het einde staan Art. 1 t/m 3.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: 'Het bestand bevat ~180 regels Fisconet-compilatie-introductie (volledige MB-lijst met datumkolom rechts van de tekst, A8) vóór de eigenlijke MB nr. 1-inhoud begint. Dit is een A3-patroon: TOC/metapagina verspreid door de body. De drie werkelijke artikelen (Art. 1–3) staan wél correct als ## headings aan het einde, maar de omvangrijke voorblad-tekst is niet thuishoort in deze individuele MB-MD.'
       concrete_problemen:
-        - regel: 54
+        - regel: 97
+          categorie: A8
           type: column-bleed
-          voorbeeld: Ministerieel besluit nr. 6 ... Bijw. 01/01.01.2012 (datum-kolom)
-        - regel: 170
+          voorbeeld: '*   Ministerieel besluit nr. 1, van 2 september 1980 ...                    Bijw. 02/09.12.2013'
+        - regel: 116
+          categorie: A8
           type: column-bleed
-          voorbeeld: Ministerieel besluit ... 29 april 2024 ... Bijw. 01/03.06.2024
-        - regel: 0
-          type: missing-section
-          voorbeeld: 'geen ##-Art. headings'
+          voorbeeld: '*   Ministerieel besluit nr. 6, van 4 maart 1993 ...                        Bijw. 01/01.01.2012'
+        - regel: 93
+          categorie: A3
+          type: other
+          voorbeeld: FOD Financiën (AA BEO)   www.fisconetplus.be   Btw Ministeriële besluiten – 01.04.2023
+        - regel: 95
+          categorie: A3
+          type: other
+          voorbeeld: Lijst van de ministeriële besluiten (compilatie-TOC van 20+ MBs midden in de body)
 ---
 
 # M.B. nr. 1 van 2 september 1980, met betrekking tot de aftrekregeling voor de toepassing van de belasting over de toegevoegde waarde

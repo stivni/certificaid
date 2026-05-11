@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B1/B2: artikel 81, 82, 83 verschijnen als headings '## Art. 81', '## Art. 82', '## Art. 83' — de nummering loopt niet in volgorde na Art. 7 en is vermoedelijk een extractie-artefact (artikelnummers met ingebedde slash: Art. 8/1, 8/2, 8/3 werden samengevoegd). A6: op regel 687/694 staat sterk uitgerekte spatie-uitlijning binnen de wijzigingsnotitie van Art. 15 en 16 ('De tekst van KB        nr.   4,   artikel   15,   is   van   toepassing    met   ingang     van    01.01.1971') — typisch PDF-tab-extractieartefact. C1: bullets in bijlage gebruiken '*' (markdown-conform) maar zijn niet consequent — sommige genummerde subitems ontbreken markdown-li-niveau. Inhoud is volledig aanwezig en de 18 ##-headings op Art.-niveau zijn een sterke basis."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,30 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '48k chars met 0 ##-headings; body intact maar per-Artikel-chunking ontbreekt volledig. Degraded retrieval voor groot bestand.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "B1/B2: artikel 81, 82, 83 verschijnen als headings '## Art. 81', '## Art. 82', '## Art. 83' — de nummering loopt niet in volgorde na Art. 7 en is vermoedelijk een extractie-artefact (artikelnummers met ingebedde slash: Art. 8/1, 8/2, 8/3 werden samengevoegd). A6: op regel 687/694 staat sterk uitgerekte spatie-uitlijning binnen de wijzigingsnotitie van Art. 15 en 16 ('De tekst van KB        nr.   4,   artikel   15,   is   van   toepassing    met   ingang     van    01.01.1971') — typisch PDF-tab-extractieartefact. C1: bullets in bijlage gebruiken '*' (markdown-conform) maar zijn niet consequent — sommige genummerde subitems ontbreken markdown-li-niveau. Inhoud is volledig aanwezig en de 18 ##-headings op Art.-niveau zijn een sterke basis."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: '0 ##-headings bij 47986 chars'
+        - regel: 227
+          categorie: B1
+          type: other
+          voorbeeld: '## Art. 81 — verwacht was ## Art. 8/1 (slash-artikel samengevoegd in headingnummer)'
+        - regel: 456
+          categorie: B1
+          type: other
+          voorbeeld: '## Art. 82 — verwacht was ## Art. 8/2'
+        - regel: 483
+          categorie: B1
+          type: other
+          voorbeeld: '## Art. 83 — verwacht was ## Art. 8/3'
+        - regel: 687
+          categorie: A6
+          type: other
+          voorbeeld: De tekst van KB        nr.   4,   artikel   15,   is   van   toepassing    met   ingang     van    01.01.1971
+        - regel: 694
+          categorie: A6
+          type: other
+          voorbeeld: De tekst van KB        nr.   4,   artikel   16,   is   van   toepassing    met   ingang     van    01.01.1971
 ---
 
 # K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde

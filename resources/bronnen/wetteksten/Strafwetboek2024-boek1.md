@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:57Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B5/B3: het ingebedde Boek I begint op r.72 met '### Hoofdstuk 1. Strafwet Artikel 1. Legaliteitsbeginsel' — het hoofdstuk-label en de artikel-titel zijn op één regel samengevoegd zonder eigen `#####` Art.-heading voor Art. 1 van het Strafwetboek zelf. B4: 'Titel' (r.53) staat als plain-text label voor de wetstitel. B1: het laatste artikel is `##### Art. 38.Deze` (geen spatie voor 'Deze', artikel-nummer en eerste woord van de tekst aaneengeplakt op de heading-regel). Laag-1 geeft 'pass' — de structuurbug is subtiel maar impacteert chunking van Art. 1 van het nieuwe Strafwetboek."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,12 +38,22 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: Het buitenste 'Wet tot invoering' is gestructureerd, maar het ingebedde Boek I van het nieuwe Strafwetboek staat als platte inline tekst ('### Hoofdstuk 1. Strafwet Artikel 1. Legaliteitsbeginsel') — geen aparte Art.-headings voor het kerncorpus. RAG zal de kernbepalingen niet correct chunken.
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:57Z'
+      rationale: "B5/B3: het ingebedde Boek I begint op r.72 met '### Hoofdstuk 1. Strafwet Artikel 1. Legaliteitsbeginsel' — het hoofdstuk-label en de artikel-titel zijn op één regel samengevoegd zonder eigen `#####` Art.-heading voor Art. 1 van het Strafwetboek zelf. B4: 'Titel' (r.53) staat als plain-text label voor de wetstitel. B1: het laatste artikel is `##### Art. 38.Deze` (geen spatie voor 'Deze', artikel-nummer en eerste woord van de tekst aaneengeplakt op de heading-regel). Laag-1 geeft 'pass' — de structuurbug is subtiel maar impacteert chunking van Art. 1 van het nieuwe Strafwetboek."
       concrete_problemen:
-        - inner Strafwetboek-tekst niet opgesplitst in Art.-headings
-        - Hoofdstuk- en Artikel-titel staan op één regel
+        - regel: 53
+          categorie: B4
+          type: other
+          voorbeeld: Titel
+        - regel: 72
+          categorie: B5
+          type: other
+          voorbeeld: '### Hoofdstuk 1. Strafwet Artikel 1. Legaliteitsbeginsel'
+        - regel: 1061
+          categorie: B1
+          type: other
+          voorbeeld: '##### Art. 38.Deze'
 ---
 
 # Strafwetboek 2024 — Boek 1

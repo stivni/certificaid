@@ -47,10 +47,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:24:33Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: TOC-fragment in body op regels 85-104, met op regel 104 een aaneengesloten restant '-- Sluiting vereffening na vrijwillige ontbinding-- Sluiting...' D2: verwijzing naar ontbrekend schema op regel 221. D3: footnote [^52] in de body bevat slechts het woord 'gecertificeerd' — de voetnoot is gesplitst over twee noten ([^51]/[^52]) door een extractie-fout."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -60,11 +60,27 @@ provenance:
       file_size_chars: 34478
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:24:33Z'
+      rationale: "A3: TOC-fragment in body op regels 85-104, met op regel 104 een aaneengesloten restant '-- Sluiting vereffening na vrijwillige ontbinding-- Sluiting...' D2: verwijzing naar ontbrekend schema op regel 221. D3: footnote [^52] in de body bevat slechts het woord 'gecertificeerd' — de voetnoot is gesplitst over twee noten ([^51]/[^52]) door een extractie-fout."
+      concrete_problemen:
+        - regel: 85
+          categorie: A3
+          type: other
+          voorbeeld: "1. Ontbinding \n  1. Vrijwillige ontbinding ...  (TOC-fragment vóór body-inhoud)"
+        - regel: 104
+          categorie: A3
+          type: other
+          voorbeeld: -- Sluiting vereffening na vrijwillige ontbinding-- Sluiting vereffening na ontbinding van rechtswege--...
+        - regel: 199
+          categorie: D3
+          type: other
+          voorbeeld: "gecertificeerd[^52]\n accountant.  ([^52] bevat enkel 'gecertificeerd', split over twee footnotes)"
+        - regel: 221
+          categorie: D2
+          type: missing-section
+          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [schema ontbreekt]'
 gerelateerde_adviezen:
   - titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren
     url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding

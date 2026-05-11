@@ -26,10 +26,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Regels 51–60: plain-text inhoudsopgave in de body (A3). De overige inhoud (dertien headings, zes voorbeelden, voetnoot 1) is structureel correct en leesbaar. Geen andere artefacten gevonden.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -39,11 +39,15 @@ provenance:
       file_size_chars: 7105
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:18Z'
+      rationale: 'Regels 51–60: plain-text inhoudsopgave in de body (A3). De overige inhoud (dertien headings, zes voorbeelden, voetnoot 1) is structureel correct en leesbaar. Geen andere artefacten gevonden.'
+      concrete_problemen:
+        - regel: 51
+          categorie: A3
+          type: other
+          voorbeeld: 1. Subsidies \n  1. Subsidies in contanten \n  2. Subsidies in natura ...
 ---
 
 # CBN-advies 2010/18 - Subsidies en schenkingen vanuit het oogpunt van de verstrekkende vereniging of stichting

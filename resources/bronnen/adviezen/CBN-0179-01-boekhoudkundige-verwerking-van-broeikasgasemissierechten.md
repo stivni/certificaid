@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B3: twee opeenvolgende # H1-headings (regels 51 en 53) — de titel staat dubbel, plus '(Update november 2008)' als plain tekst op regel 55. D4: meerdere malformed italic-patronen (categorie '*term *' of ',* term*'), bv. regel 149 'Bij de* Interpretation' en regel 169 ',* sui generis*' — opening-asterisk grenst aan een spatie of leesteken in plaats van aan de tekst. H4-headings (IFRIC, Brutomethode, Nettomethode) staan als #### terwijl de bovenliggende secties ## zijn — sprong van ## naar #### zonder ### tussenniveau (B2)."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -37,11 +37,39 @@ provenance:
       file_size_chars: 25353
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: "B3: twee opeenvolgende # H1-headings (regels 51 en 53) — de titel staat dubbel, plus '(Update november 2008)' als plain tekst op regel 55. D4: meerdere malformed italic-patronen (categorie '*term *' of ',* term*'), bv. regel 149 'Bij de* Interpretation' en regel 169 ',* sui generis*' — opening-asterisk grenst aan een spatie of leesteken in plaats van aan de tekst. H4-headings (IFRIC, Brutomethode, Nettomethode) staan als #### terwijl de bovenliggende secties ## zijn — sprong van ## naar #### zonder ### tussenniveau (B2)."
+      concrete_problemen:
+        - regel: 51
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN-advies 179/1 van 26 november 2008 (Update november 2008) — dubbele H1'
+        - regel: 53
+          categorie: B3
+          type: other
+          voorbeeld: '# Boekhoudkundige verwerking van broeikasgasemissierechten — tweede H1'
+        - regel: 55
+          categorie: B4
+          type: other
+          voorbeeld: (Update november 2008) als plain tekst regel na H1
+        - regel: 135
+          categorie: B2
+          type: other
+          voorbeeld: '#### IFRIC Interpretation 3 Emission Rights (sprong ## → ####)'
+        - regel: 149
+          categorie: D4
+          type: other
+          voorbeeld: Bij de* Interpretation 3 Emission Rights* worden ook voorbeelden gegeven.
+        - regel: 155
+          categorie: D4
+          type: other
+          voorbeeld: de *Interpretation *en ondanks de vaststelling (trailing spatie voor sluitende *)
+        - regel: 169
+          categorie: D4
+          type: other
+          voorbeeld: ',* sui generis* rechten (opening * grenst aan komma+spatie)'
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten door een onderneming die de nettomethode toepast
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een

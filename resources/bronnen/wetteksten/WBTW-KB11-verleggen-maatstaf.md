@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Artikelen hebben wel ## Art.-headings (Art. 1 t/m Art. 5), dus de eerder genoteerde layer2-rationale 'geen headings' klopt niet met de huidige body. Echter: (1) B4: 'Bijlage A' en 'Bijlage B' zijn plain-text regels zonder heading-prefix; (2) C3: Bijlage A bevat een pseudo-tabel met spatie-alignment ('Bijwerking   t.e.m. B.S.   Te vervangen pagina's'); (3) A6: indentatiesprongen van 7 spaties voor artikeltekst duiden op PDF-extractie die niet is genormaliseerd. Inhoud is volledig."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,11 +38,26 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Idem Fisconet-patroon: 'Artikel 1' t/m 'Artikel 5' als platte tekst, geen ## Art.-headings. Inhoud volledig maar niet chunkbaar."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:58Z'
+      rationale: "Artikelen hebben wel ## Art.-headings (Art. 1 t/m Art. 5), dus de eerder genoteerde layer2-rationale 'geen headings' klopt niet met de huidige body. Echter: (1) B4: 'Bijlage A' en 'Bijlage B' zijn plain-text regels zonder heading-prefix; (2) C3: Bijlage A bevat een pseudo-tabel met spatie-alignment ('Bijwerking   t.e.m. B.S.   Te vervangen pagina's'); (3) A6: indentatiesprongen van 7 spaties voor artikeltekst duiden op PDF-extractie die niet is genormaliseerd. Inhoud is volledig."
       concrete_problemen:
-        - geen markdown-headings
+        - regel: 95
+          categorie: B4
+          type: other
+          voorbeeld: Bijlage A\nKB nr. 11 - Lijst van de bijwerkingen
+        - regel: 98
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: "       Bijwerking         t.e.m. B.S. van                        Te vervangen pagina's"
+        - regel: 60
+          categorie: A6
+          type: other
+          voorbeeld: '       (De tekst van KB nr. 11, artikel 1, werd gewijzigd met ingang van 16.05.2014 (Art.'
+        - regel: 104
+          categorie: G2
+          type: other
+          voorbeeld: '*    *   *     *   *'
 ---
 
 # K.B. nr. 11 van 29 december 1992, met betrekking tot de toepassing van de belasting over de toegevoegde waarde

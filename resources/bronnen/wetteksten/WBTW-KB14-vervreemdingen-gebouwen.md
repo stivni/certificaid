@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Artikelen hebben ## Art.-headings (Art. 1 t/m Art. 7). Problemen: (1) A1: twee pagina-footer-regels mid-body ('Onroerende zakelijke rechten  www.fisconetplus.be  pg. 1' op regel 106 en 'pg. 2' op regel 160) — klassiek PDF-paginascheiding-artefact; (2) B4: 'Bijlage A' zonder heading-prefix; (3) C3: Bijlage A heeft pseudo-tabel; (4) A6: 7-spaties-inspringing in de wijzigings-annotaties. Inhoud inhoudelijk compleet."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,11 +38,30 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: Heading_count=0; artikelen als platte tekst. Zelfde patroon.
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:58Z'
+      rationale: "Artikelen hebben ## Art.-headings (Art. 1 t/m Art. 7). Problemen: (1) A1: twee pagina-footer-regels mid-body ('Onroerende zakelijke rechten  www.fisconetplus.be  pg. 1' op regel 106 en 'pg. 2' op regel 160) — klassiek PDF-paginascheiding-artefact; (2) B4: 'Bijlage A' zonder heading-prefix; (3) C3: Bijlage A heeft pseudo-tabel; (4) A6: 7-spaties-inspringing in de wijzigings-annotaties. Inhoud inhoudelijk compleet."
       concrete_problemen:
-        - geen markdown-headings
+        - regel: 106
+          categorie: A1
+          type: form-feed
+          voorbeeld: Onroerende zakelijke rechten                   www.fisconetplus.be                                      pg. 1
+        - regel: 160
+          categorie: A1
+          type: form-feed
+          voorbeeld: Onroerende zakelijke rechten                   www.fisconetplus.be                                        pg. 2
+        - regel: 162
+          categorie: B4
+          type: other
+          voorbeeld: Bijlage A
+        - regel: 164
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: "     Bijwerking                                         Te vervangen pagina's"
+        - regel: 148
+          categorie: A6
+          type: other
+          voorbeeld: '       (De tekst van KB        nr.   14,   artikel    6,    werd     ingevoegd   met   ingang   van   01.01.1971'
 ---
 
 # K.B. nr. 14 van 3 juni 1970, met betrekking tot de vervreemdingen van gebouwen, gedeelten van gebouwen en het bijhorende terrein

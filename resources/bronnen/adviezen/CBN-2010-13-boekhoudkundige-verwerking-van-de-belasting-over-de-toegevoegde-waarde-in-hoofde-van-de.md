@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: regel 132 bevat een losstaande voetnootreferentie '[^14]' op een lege regel tussen twee alinea's — dit is een inline-fragment dat in de PDF als voetnootanker aan een tabel was gekoppeld maar nu zweeft als zinloze regel. Hetzelfde patroon op regels 141 en 150. Verder is de inhoud compleet en structureel goed."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -37,11 +37,23 @@ provenance:
       file_size_chars: 10171
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: "D4: regel 132 bevat een losstaande voetnootreferentie '[^14]' op een lege regel tussen twee alinea's — dit is een inline-fragment dat in de PDF als voetnootanker aan een tabel was gekoppeld maar nu zweeft als zinloze regel. Hetzelfde patroon op regels 141 en 150. Verder is de inhoud compleet en structureel goed."
+      concrete_problemen:
+        - regel: 132
+          categorie: G3
+          type: other
+          voorbeeld: ' [^14]'
+        - regel: 141
+          categorie: G3
+          type: other
+          voorbeeld: ' [^15]'
+        - regel: 150
+          categorie: G3
+          type: other
+          voorbeeld: ' [^16][^17]'
 gerelateerde_adviezen:
   - titel: 'Invoer: douanerechten en verlegging van de heffing van de btw'
     url: https://www.cbn-cnc.be/nl/adviezen/invoer-douanerechten-en-verlegging-van-de-heffing-van-de-btw

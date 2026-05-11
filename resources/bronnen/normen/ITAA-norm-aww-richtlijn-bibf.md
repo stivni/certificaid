@@ -35,10 +35,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Laag 1 pass (16 headings, max_section 8493), maar meerdere PDF-artefacten aanwezig. Drie kritieke problemen: (1) Regel 153-154: TOC-fragment '## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar' gevolgd door 'Nakoming    van       de         waakzaamheidsverplichtingen...' met extreme whitespace — kolom-bleed als ## heading vóór sectie 1 begint. (2) Regel 156: '## Bijlage I. Variabelen...' ook als TOC-fragment-heading vóór sectie 1. (3) Regel 425: '## 3. Algemene    risicobeoordeling beroepsbeoefenaar' — scrambled heading (meerdere spaties, ontbrekende woorden 'op te maken door de'). (4) Regel 344: extra whitespace in zin '...noch als       AMLCO.' (kolom-spreading). Overige 13 secties (1, 2, 4-10 + bijlagen II-IV) zijn correct als ## headings aanwezig en inhoudelijk compleet."
     layer1:
       status: pass
       run_id: 20260511-085756
@@ -49,22 +49,34 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "BIBF-variant heeft scrambled heading op sectie 3 ('## 3. Algemene    risicobeoordeling beroepsbeoefenaar' — meerdere spaties, ontbrekend 'op te maken door de'). Daarnaast staan 2 TOC-fragmenten als ## promoted (L128 en L131) vóór sectie 1 begint — duplicate headings die de chunker in de war brengen."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:58Z'
+      rationale: "Laag 1 pass (16 headings, max_section 8493), maar meerdere PDF-artefacten aanwezig. Drie kritieke problemen: (1) Regel 153-154: TOC-fragment '## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar' gevolgd door 'Nakoming    van       de         waakzaamheidsverplichtingen...' met extreme whitespace — kolom-bleed als ## heading vóór sectie 1 begint. (2) Regel 156: '## Bijlage I. Variabelen...' ook als TOC-fragment-heading vóór sectie 1. (3) Regel 425: '## 3. Algemene    risicobeoordeling beroepsbeoefenaar' — scrambled heading (meerdere spaties, ontbrekende woorden 'op te maken door de'). (4) Regel 344: extra whitespace in zin '...noch als       AMLCO.' (kolom-spreading). Overige 13 secties (1, 2, 4-10 + bijlagen II-IV) zijn correct als ## headings aanwezig en inhoudelijk compleet."
       concrete_problemen:
-        - regel: 400
+        - regel: 153
+          categorie: A7
           type: scrambled-words
-          voorbeeld: "'## 3. Algemene    risicobeoordeling beroepsbeoefenaar' (multi-space + ontbrekend 'op te maken door de')"
-        - regel: 128
+          voorbeeld: "'## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar' als TOC-duplicate heading vóór ## 1"
+        - regel: 154
+          categorie: A8
+          type: column-bleed
+          voorbeeld: "'Nakoming    van       de         waakzaamheidsverplichtingen                              door           derde' — extreme kolom-spreading"
+        - regel: 156
+          categorie: A3
           type: other
-          voorbeeld: TOC-fragment '## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar' staat ALS HEADING tussen preambule en sectie 1 (duplicate met L400)
-        - regel: 131
-          type: other
-          voorbeeld: TOC-fragment '## Bijlage I. Variabelen ten minste in overweging te nemen in de integrale' staat ALS HEADING vóór sectie 1 begint
-        - regel: 129
+          voorbeeld: "'## Bijlage I. Variabelen ten minste in overweging te nemen in de integrale' als TOC-fragment heading vóór sectie 1"
+        - regel: 425
+          categorie: A7
           type: scrambled-words
-          voorbeeld: "'Nakoming    van       de         waakzaamheidsverplichtingen                              door           derde' — kolom-spreiding"
+          voorbeeld: "'## 3. Algemene    risicobeoordeling beroepsbeoefenaar' — ontbrekend 'op te maken door de' + multi-spatie"
+        - regel: 344
+          categorie: A8
+          type: column-bleed
+          voorbeeld: "'...noch als       AMLCO.' — kolom-spreading in punt 2.3"
+        - regel: 502
+          categorie: A8
+          type: column-bleed
+          voorbeeld: "'1° aan de door deze uitgeoefende               beroepsactiviteiten   van    de' — kolom-spreading in 4.1"
 ---
 Richtlijn van het Beroepsinstituut van erkende Boekhouders en Fiscalisten
      van 31 maart 2020 inzake de toepassing van de wet van 18 september

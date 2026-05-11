@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Geen artefacten. Vijf logische ## headings, Latijnse termen correct gecursiveerd. Alle voetnoten [^1]-[^19] aanwezig en correct. Inhoud volledig (goedkeuring, neerlegging, laattijdige neerlegging, voorbeeld).'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -37,10 +37,10 @@ provenance:
       file_size_chars: 11315
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: 'Geen artefacten. Vijf logische ## headings, Latijnse termen correct gecursiveerd. Alle voetnoten [^1]-[^19] aanwezig en correct. Inhoud volledig (goedkeuring, neerlegging, laattijdige neerlegging, voorbeeld).'
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Mogelijkheid tot uitstel van de goedkeuring en neerlegging van de jaarrekening (VZW’s, IVZW’s en stichtingen)

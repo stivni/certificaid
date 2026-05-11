@@ -32,10 +32,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:24:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: de inhoudsopgave verschijnt tweemaal — eenmaal als genummerde lijst (regels 70–96) en eenmaal als aaneengesloten platte tekst op regel 96 ('-- Horizontale consolidatie -- Verticale consolidatie...'). Dit is een klassiek TOC-duplicaat-artefact. D4: op regels 162, 166, 172–176 staan malformed bold-spans met spatie vóór de sluitende `**` (bv. `**onweerlegbaar **`, `**Voorbeeld 3 **`, `**Voorbeeld 4 **`). C3: opsommingen in Voorbeeld 6 (regels 186–203) zijn als ingesprongen plain-text weergegeven met spaces (pseudo-tabel), geen markdown-list. Verder inhoud compleet en voetnoten correct gekoppeld."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -45,11 +45,27 @@ provenance:
       file_size_chars: 51995
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:24:34Z'
+      rationale: "A3: de inhoudsopgave verschijnt tweemaal — eenmaal als genummerde lijst (regels 70–96) en eenmaal als aaneengesloten platte tekst op regel 96 ('-- Horizontale consolidatie -- Verticale consolidatie...'). Dit is een klassiek TOC-duplicaat-artefact. D4: op regels 162, 166, 172–176 staan malformed bold-spans met spatie vóór de sluitende `**` (bv. `**onweerlegbaar **`, `**Voorbeeld 3 **`, `**Voorbeeld 4 **`). C3: opsommingen in Voorbeeld 6 (regels 186–203) zijn als ingesprongen plain-text weergegeven met spaces (pseudo-tabel), geen markdown-list. Verder inhoud compleet en voetnoten correct gekoppeld."
+      concrete_problemen:
+        - regel: 96
+          categorie: A3
+          type: other
+          voorbeeld: -- Horizontale consolidatie -- Verticale consolidatie voorafgaand aan de horizontale consolidatie Belangen van derden Bezit van eigen aandelen
+        - regel: 162
+          categorie: D4
+          type: other
+          voorbeeld: '**onweerlegbaar **vermoeden van centrale leiding'
+        - regel: 166
+          categorie: D4
+          type: other
+          voorbeeld: '**Voorbeeld 3 **(vennootschappen houden een deelneming aan in elkaar)'
+        - regel: 186
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: "     a (natuurlijke persoon) bezit 25 %\n     b (natuurlijke persoon) bezit 24 %"
 gerelateerde_adviezen:
   - titel: Vermogensmutatiemethode
     url: https://www.cbn-cnc.be/nl/adviezen/vermogensmutatiemethode

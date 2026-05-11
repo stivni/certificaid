@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Art. 1–5 staan correct als ## headings. Op regel 99 staat een A8 kolom-bleed-artefact: 'adviseur-generaal ad                  interim   van    het regionaal' met grote witruimte-blokken die wijzen op twee-kolom PDF-extractie. De eerdere layer2-notitie '0 ##-headings' was incorrect, maar het kolom-bleed-probleem rechtvaardigt toch needs-rework."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,14 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '0 ##-headings; chunk.level=2 mismatch. Inhoud leesbaar.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "Art. 1–5 staan correct als ## headings. Op regel 99 staat een A8 kolom-bleed-artefact: 'adviseur-generaal ad                  interim   van    het regionaal' met grote witruimte-blokken die wijzen op twee-kolom PDF-extractie. De eerdere layer2-notitie '0 ##-headings' was incorrect, maar het kolom-bleed-probleem rechtvaardigt toch needs-rework."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: Artikel 1-5 zonder heading-prefix
+        - regel: 99
+          categorie: A8
+          type: column-bleed
+          voorbeeld: De heer Dequeker, Dominique H.M., adviseur-generaal ad                  interim   van    het regionaal
 ---
 
 # M.B. van 16 juli 2019, tot aanduiding van de ambtenaren die in de functie van adviseur-generaal zitting hebben in de beroepscommissie zoals bedoeld in artikel 66, § 2 van het wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen

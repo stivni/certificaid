@@ -31,10 +31,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B2: heading-hiërarchie springt van H1 (regel 58) direct naar H4 (regel 66) zonder H2 of H3 ertussen — een extractie-artefact. C1: vijf regels starten met bullet-glyph • (U+2022) in plaats van markdown - (regels 113, 121, 126, 128, 139). A6: inline voetnootmarkers veroorzaken spurious line-breaks waarbij de zin op de volgende regel verdergaat (bv. regels 60-61, 87-88). Inhoud is volledig met alle vier subsecties aanwezig.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -44,11 +44,27 @@ provenance:
       file_size_chars: 22059
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: 'B2: heading-hiërarchie springt van H1 (regel 58) direct naar H4 (regel 66) zonder H2 of H3 ertussen — een extractie-artefact. C1: vijf regels starten met bullet-glyph • (U+2022) in plaats van markdown - (regels 113, 121, 126, 128, 139). A6: inline voetnootmarkers veroorzaken spurious line-breaks waarbij de zin op de volgende regel verdergaat (bv. regels 60-61, 87-88). Inhoud is volledig met alle vier subsecties aanwezig.'
+      concrete_problemen:
+        - regel: 66
+          categorie: B2
+          type: other
+          voorbeeld: '#### Uitgifte van obligaties met het recht tot inschrijving op aandelen'
+        - regel: 113
+          categorie: C1
+          type: bullet-glyph
+          voorbeeld: • Als dit bedrag wordt vergeleken met de geactualiseerde waarde...
+        - regel: 60
+          categorie: A6
+          type: other
+          voorbeeld: In haar advies 139/7[^1]\n heeft de Commissie onderzocht hoe warrants...
+        - regel: 103
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: 1.000.000 = 747.258\n\n   (1,06)5
 gerelateerde_adviezen:
   - titel: Verwerking van uitgegeven inschrijvingsrechten in de jaarrekening
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening

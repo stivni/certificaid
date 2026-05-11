@@ -25,10 +25,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Zeer korte bron (1170 tekens) zonder subkoppen (heading_count: 0, conform Laag-1). Inhoud volledig in één alinea, geen artefacten detecteerbaar in categorieën A-G. Taal vloeiend, geen afgekapte zinnen, geen HTML-entiteiten, geen malformed opmaak.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -38,10 +38,10 @@ provenance:
       file_size_chars: 1170
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: 'Zeer korte bron (1170 tekens) zonder subkoppen (heading_count: 0, conform Laag-1). Inhoud volledig in één alinea, geen artefacten detecteerbaar in categorieën A-G. Taal vloeiend, geen afgekapte zinnen, geen HTML-entiteiten, geen malformed opmaak.'
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Aansluitingskosten en installatiekosten waarbij derden de eigendom van de installatie verwerven of behouden (update) [ONTWERP]

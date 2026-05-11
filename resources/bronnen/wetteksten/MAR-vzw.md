@@ -1,34 +1,64 @@
 ---
-tags: ['1.1', '1.2']
-itaa-lex-sectie: ''
-wet: Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW)
-status: beschikbaar
 bijgewerkt: '2023'
 bron: sbb.be / CBN-CNC
 chunk:
   level: 2
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: ''
 provenance:
+  inputs:
+    - id: sbb.be / CBN-CNC
+      sha256:
+      version:
+  tooling:
+    pipeline: manual-import
+    pipeline_version: skel-2026-05-11
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T11:42:59Z'
+  stale: false
+  stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:43:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A7/C3: Het bestand is een rekeningplan-lijst waarbij de kolom-layout van het PDF totaal verloren is gegaan. Rekeningnummers (3- en 4-cijferig) staan als losse regels, gevolgd door de rekeningnaam op een volgende regel, soms met sub-nummers (bv. '2800' op één regel, 'Aanschaffingswaarde' op de volgende). Dit is geen markdown-conventie maar een directe PDF-column-extractie. A1: Paginanummer-resten staan als body-regels door het bestand ('1 | Minimum Algemeen Rekeningstelsel...', '2 | ...', enz. op 12 plaatsen). B4: Secties 1 t/m 7 (Klassen) staan als plain-text paragrafen ('1.', '2.', enz.) zonder ## of ### heading. Laag-1 was 'not_run'."
     layer1:
-      status: not_run
-      run_id:
-      run_at:
-      heading_count:
-      max_section_chars:
       file_size_chars:
       flags: []
-    layer2:
-      status: not_run
-      agent:
+      heading_count:
+      max_section_chars:
       run_at:
-      rationale:
-      concrete_problemen: []
+      run_id:
+      status: not_run
+    layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:43:15Z'
+      rationale: "A7/C3: Het bestand is een rekeningplan-lijst waarbij de kolom-layout van het PDF totaal verloren is gegaan. Rekeningnummers (3- en 4-cijferig) staan als losse regels, gevolgd door de rekeningnaam op een volgende regel, soms met sub-nummers (bv. '2800' op één regel, 'Aanschaffingswaarde' op de volgende). Dit is geen markdown-conventie maar een directe PDF-column-extractie. A1: Paginanummer-resten staan als body-regels door het bestand ('1 | Minimum Algemeen Rekeningstelsel...', '2 | ...', enz. op 12 plaatsen). B4: Secties 1 t/m 7 (Klassen) staan als plain-text paragrafen ('1.', '2.', enz.) zonder ## of ### heading. Laag-1 was 'not_run'."
+      concrete_problemen:
+        - regel: 80
+          categorie: A1
+          type: form-feed
+          voorbeeld: "1\n\n1 | Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen"
+        - regel: 38
+          categorie: B4
+          type: other
+          voorbeeld: "1.\n\nEigen vermogen, voorzieningen voor risico's en kosten... — plain text klasse-sectie zonder heading"
+        - regel: 73
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "1730\nSchulden op rekening\n\n...174\n175\n\n176\n178\n179 — rekeningnummers en namen door elkaar"
+        - regel: 64
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: 164-16Voorzieningen voor overige risico's — afgekapte rekeningcode (164-16x, punt ontbreekt)
+status: beschikbaar
+tags:
+  - '1.1'
+  - '1.2'
+wet: Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW)
 ---
 
 # MAR — Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen

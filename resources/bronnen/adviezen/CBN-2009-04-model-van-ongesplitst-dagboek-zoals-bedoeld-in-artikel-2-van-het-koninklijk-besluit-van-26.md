@@ -21,10 +21,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B4: drie ### headings in all-caps (INLEIDING, SCHRAPPING VAN HET WOORD «MINIMAAL» ..., HET ONGESPLITSTE DAGBOEK HOUDEN ...) — mens schrijft dit als ## met normale kapitalisatie. Verder is de heading-hiërarchie inconsistent: de twee inhoudelijke secties staan als ### terwijl er geen ## bovenliggend niveau is (B2). Inhoud verder volledig en geen andere artefacten.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -34,11 +34,27 @@ provenance:
       file_size_chars: 6251
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: 'B4: drie ### headings in all-caps (INLEIDING, SCHRAPPING VAN HET WOORD «MINIMAAL» ..., HET ONGESPLITSTE DAGBOEK HOUDEN ...) — mens schrijft dit als ## met normale kapitalisatie. Verder is de heading-hiërarchie inconsistent: de twee inhoudelijke secties staan als ### terwijl er geen ## bovenliggend niveau is (B2). Inhoud verder volledig en geen andere artefacten.'
+      concrete_problemen:
+        - regel: 46
+          categorie: B4
+          type: other
+          voorbeeld: '### INLEIDING (all-caps ### zonder bovenliggend ## niveau)'
+        - regel: 53
+          categorie: B4
+          type: other
+          voorbeeld: '### SCHRAPPING VAN HET WOORD « MINIMAAL » IN ARTIKEL 2 EN BIJLAGE A VAN HET BESLUIT'
+        - regel: 67
+          categorie: B4
+          type: other
+          voorbeeld: '### HET ONGESPLITSTE DAGBOEK HOUDEN DOOR MIDDEL VAN GEINFORMATISEERDE SYSTEMEN'
+        - regel: 46
+          categorie: B2
+          type: other
+          voorbeeld: 'H1 -> ### zonder tussenniveau ## (heading-hiërarchie springt)'
 ---
 
 # CBN-advies 2009/4 - Model van ongesplitst dagboek zoals bedoeld in artikel 2 van het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde VZW’s, stichtingen en IVZW’s

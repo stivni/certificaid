@@ -34,10 +34,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Laag-1 warn: 23 TOC-stippelregels. Twee systematische extractie-defecten: (1) page-footers 'Goedgekeurd HREB (02-03-2026)- ter goedkeuring van de minister voorgelegd X/47' zijn herhaaldelijk als ## headings gepromoveerd (15+ keer), wat de heading-hiërarchie ernstig vervuilt; (2) column-header 'VEREISTEN TOEPASSINGSMODALITEITEN' eveneens herhaaldelijk als ## heading (16x). Daarnaast worden body-paragrafen zoals '## 11. Alvorens deze opdracht...' en '## 19. Om te kunnen overgaan...' als heading gepromoveerd terwijl ze mid-sentence afkappen. De echte sectiestructuur (I, I.1, I.2, II, III, IV, IV.1, IV.2) is grotendeels aanwezig maar doorkruist door de spurious headings."
     layer1:
       status: warn
       run_id: 20260511-085756
@@ -55,22 +55,34 @@ provenance:
             - '................................................................................'
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Page-footers worden systematisch als ## heading gepromoveerd: 15+ keer '## Goedgekeurd HREB (02-03-2026)- ter goedkeuring van de minister voorgelegd X/47'. Daarnaast 16 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als heading (column-header bleed). Body-paragrafen worden ook als heading gepromoveerd (L281 '## 11. Alvorens deze opdracht...', L349 '## 19. Om te kunnen overgaan...'). De echte sectiestructuur (Toepassingsgebied, Definities, I, II, III...) is grotendeels aanwezig maar verzwolgen door spurious headings."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:58Z'
+      rationale: "Laag-1 warn: 23 TOC-stippelregels. Twee systematische extractie-defecten: (1) page-footers 'Goedgekeurd HREB (02-03-2026)- ter goedkeuring van de minister voorgelegd X/47' zijn herhaaldelijk als ## headings gepromoveerd (15+ keer), wat de heading-hiërarchie ernstig vervuilt; (2) column-header 'VEREISTEN TOEPASSINGSMODALITEITEN' eveneens herhaaldelijk als ## heading (16x). Daarnaast worden body-paragrafen zoals '## 11. Alvorens deze opdracht...' en '## 19. Om te kunnen overgaan...' als heading gepromoveerd terwijl ze mid-sentence afkappen. De echte sectiestructuur (I, I.1, I.2, II, III, IV, IV.1, IV.2) is grotendeels aanwezig maar doorkruist door de spurious headings."
       concrete_problemen:
         - regel: 82
-          type: other
-          voorbeeld: "Page-footer '## Goedgekeurd HREB (02-03-2026)- ter goedkeuring van de minister voorgelegd 1/47' als ## heading (15+ herhalingen)"
+          categorie: A1
+          type: form-feed
+          voorbeeld: "'## Goedgekeurd HREB (02-03-2026)- ter goedkeuring van de minister voorgelegd 1/47' — page-footer als ## heading (15+ herhalingen)"
         - regel: 144
+          categorie: A8
           type: column-bleed
-          voorbeeld: "'## VEREISTEN TOEPASSINGSMODALITEITEN' herhaald als heading (16x)"
+          voorbeeld: "'## VEREISTEN TOEPASSINGSMODALITEITEN' als heading (16x herhaald in document)"
         - regel: 281
+          categorie: B1
           type: abrupt-cutoff
-          voorbeeld: "'## 11. Alvorens deze opdracht te aanvaarden en in het kader van de' — paragraaf gepromoveerd tot heading, kapt af mid-sentence"
+          voorbeeld: "'## 11. Alvorens deze opdracht te aanvaarden en in het kader van de' — paragraaf als heading, kapt af mid-zin"
         - regel: 349
+          categorie: B1
           type: abrupt-cutoff
           voorbeeld: "'## 19. Om te kunnen overgaan tot het verzoeken om inlichtingen en om zijn' — idem"
+        - regel: 199
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: "'Toepassingsgebied ..............................................................................................................................  4'"
+        - regel: 79
+          categorie: B5
+          type: other
+          voorbeeld: "'## Norm inzake de opdracht van de \\nberoepsbeoefenaar bij de ontbinding en\\n\\nvereffening van vennootschappen' — norm-titel als ## met spurious line-breaks"
 ---
 
 Ontwerp

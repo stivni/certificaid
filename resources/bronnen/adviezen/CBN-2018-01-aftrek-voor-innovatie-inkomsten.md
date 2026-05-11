@@ -27,10 +27,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'D4: recurrent patroon van malformed italic met spatie voor sluitende asterisk op minstens drie plaatsen: regel 67 (`*aftrek voor innovatie-inkomsten[^2] *`), regel 70 (`*gecorrigeerde netto-inkomsten[^4] *`) en regel 101 (`*De boekhoudkundige verwerking van immateriële vaste activa *`). Het patroon is structureel en dus ETL-gerelateerd.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -40,11 +40,23 @@ provenance:
       file_size_chars: 16308
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: 'D4: recurrent patroon van malformed italic met spatie voor sluitende asterisk op minstens drie plaatsen: regel 67 (`*aftrek voor innovatie-inkomsten[^2] *`), regel 70 (`*gecorrigeerde netto-inkomsten[^4] *`) en regel 101 (`*De boekhoudkundige verwerking van immateriële vaste activa *`). Het patroon is structureel en dus ETL-gerelateerd.'
+      concrete_problemen:
+        - regel: 67
+          categorie: D4
+          type: other
+          voorbeeld: de *aftrek voor innovatie-inkomsten[^2] * in de vennootschapsbelasting
+        - regel: 70
+          categorie: D4
+          type: other
+          voorbeeld: 85 procent van de *gecorrigeerde netto-inkomsten[^4] *uit bepaalde
+        - regel: 101
+          categorie: D4
+          type: other
+          voorbeeld: '*De boekhoudkundige verwerking van immateriële vaste activa *en het'
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten

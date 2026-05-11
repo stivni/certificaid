@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:35Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B1/B2: heading_count = 0 — het volledige advies heeft geen enkele ## heading. Inhoud staat als één ongestructureerde blok, wat RAG-chunking ernstig bemoeilijkt. A4: Regel 76 bevat U+2010 (non-breaking hyphen) in '2015/9 ‐ Boekhoudkundige' — onzichtbaar unicode-artefact. D4: Regel 66 bevat '*rente *op vreemd vermogen' met spatie voor sluitende asterisk."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,23 @@ provenance:
       file_size_chars: 3156
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:35Z'
+      rationale: "B1/B2: heading_count = 0 — het volledige advies heeft geen enkele ## heading. Inhoud staat als één ongestructureerde blok, wat RAG-chunking ernstig bemoeilijkt. A4: Regel 76 bevat U+2010 (non-breaking hyphen) in '2015/9 ‐ Boekhoudkundige' — onzichtbaar unicode-artefact. D4: Regel 66 bevat '*rente *op vreemd vermogen' met spatie voor sluitende asterisk."
+      concrete_problemen:
+        - regel: 56
+          categorie: B1
+          type: other
+          voorbeeld: 'Volledig advies zonder ## headings (heading_count=0); inhoud als één blok'
+        - regel: 66
+          categorie: D4
+          type: other
+          voorbeeld: '"*rente *op vreemd vermogen"[^5] beoogd'
+        - regel: 76
+          categorie: A4
+          type: other
+          voorbeeld: CBN-advies 2015/9 ‐ Boekhoudkundige verwerking (U+2010 non-breaking hyphen)
 gerelateerde_adviezen:
   - titel: Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste prijs, verschuldigd over een periode van meer dan één jaar
     url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0

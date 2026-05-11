@@ -21,10 +21,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Kwalitatief sterk bestand. Tien headings correct genest over drie niveaus. Voetnoten [^1]–[^12] volledig gedefinieerd. Geen tabellen (correct voor dit type advies). Tekst doorlopend en coherent. Geen extractie-artefacten, TOC-residu, form-feed of malformed italic aangetroffen. Inhoud volledig: algemene principes, kosten van onderzoek, kosten van ontwikkeling en overgangsbepaling alle aanwezig.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -34,10 +34,10 @@ provenance:
       file_size_chars: 17042
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: 'Kwalitatief sterk bestand. Tien headings correct genest over drie niveaus. Voetnoten [^1]–[^12] volledig gedefinieerd. Geen tabellen (correct voor dit type advies). Tekst doorlopend en coherent. Geen extractie-artefacten, TOC-residu, form-feed of malformed italic aangetroffen. Inhoud volledig: algemene principes, kosten van onderzoek, kosten van ontwikkeling en overgangsbepaling alle aanwezig.'
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: De boekhoudkundige verwerking van immateriële vaste activa (update) [ONTWERP]

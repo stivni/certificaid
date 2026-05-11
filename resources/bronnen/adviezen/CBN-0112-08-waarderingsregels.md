@@ -21,10 +21,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Twee problemen. A6/D1: de alinea op regels 65-67 bevat een spurious paragraafbreuk midden in de zin ('om duidelijk het [lege regel] onderscheid te laten blijken') — een mens zou dit nooit zo typen. E2: de tabel op regels 71-77 mist een header-separator rij (|---|---| na de header); zonder separator is dit geen valide markdown-tabel."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -34,11 +34,19 @@ provenance:
       file_size_chars: 1876
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: "Twee problemen. A6/D1: de alinea op regels 65-67 bevat een spurious paragraafbreuk midden in de zin ('om duidelijk het [lege regel] onderscheid te laten blijken') — een mens zou dit nooit zo typen. E2: de tabel op regels 71-77 mist een header-separator rij (|---|---| na de header); zonder separator is dit geen valide markdown-tabel."
+      concrete_problemen:
+        - regel: 65
+          categorie: A6
+          type: other
+          voorbeeld: om duidelijk het \n\nonderscheid te laten blijken
+        - regel: 71
+          categorie: E2
+          type: other
+          voorbeeld: '| | | **Lineair afschrijvingspercentage...** | — geen |---|---| rij'
 gerelateerde_adviezen:
   - titel: Afschrijvingsmethoden (update) [ONTWERP]
     url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden-update-ontwerp

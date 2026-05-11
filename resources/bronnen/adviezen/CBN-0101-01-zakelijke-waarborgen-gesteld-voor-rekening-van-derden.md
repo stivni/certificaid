@@ -26,10 +26,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: de twee pipe-tabellen (regels 66-68 en 70-72) hebben inconsistente kolomaantallen — de 'moeder'-rijen hebben 3 kolommen (4 pipes) terwijl de 'kind'-rijen 5 kolommen hebben (6 pipes). Dit rendert als gebroken tabel in elke markdown-parser. D3: voetnoot [^2] en [^3] zijn inhoudelijk bijna identiek (duplicaat tekst, alleen kleine stijlverschillen), wat wijst op een scraping-artefact waarbij dezelfde noot tweemaal werd gevangen."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -39,11 +39,19 @@ provenance:
       file_size_chars: 3525
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:19Z'
+      rationale: "E2: de twee pipe-tabellen (regels 66-68 en 70-72) hebben inconsistente kolomaantallen — de 'moeder'-rijen hebben 3 kolommen (4 pipes) terwijl de 'kind'-rijen 5 kolommen hebben (6 pipes). Dit rendert als gebroken tabel in elke markdown-parser. D3: voetnoot [^2] en [^3] zijn inhoudelijk bijna identiek (duplicaat tekst, alleen kleine stijlverschillen), wat wijst op een scraping-artefact waarbij dezelfde noot tweemaal werd gevangen."
+      concrete_problemen:
+        - regel: 66
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: '| 01 | | Waarborgen gesteld voor rekening van derden | (3 cols vs 5 cols sub-rijen)'
+        - regel: 82
+          categorie: D3
+          type: other
+          voorbeeld: "[^2] en [^3] identieke tekst, enkel 'cfr.' vs 'cf.' verschil — duplicate scrape"
 gerelateerde_adviezen:
   - titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
     url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1

@@ -1,35 +1,65 @@
 ---
-tags: [X, '2.8']
-itaa-lex-sectie: X
-wet: OECD Model Tax Convention on Income and on Capital (as it read on 21 November 2017)
-status: beschikbaar
 bijgewerkt: 21.11.2017
 bron: OECD (2019), Model Tax Convention on Income and on Capital 2017 (Full Version), OECD Publishing — Art. 1–32, artikeltekst only
-taal: EN
 chunk:
   level: 2
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: X
 provenance:
+  inputs:
+    - id: OECD (2019), Model Tax Convention on Income and on Capital 2017 (Full Version), OECD Publishing — Art. 1–32, artikeltekst only
+      sha256:
+      version:
+  tooling:
+    pipeline: manual-import
+    pipeline_version: skel-2026-05-11
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T11:42:59Z'
+  stale: false
+  stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "33 HISTORY-blokken zijn volledig in de body opgenomen: de historische annotaties van het OESO-modelverdrag staan na elk artikel als plain text, inclusief letterlijke wetsteksten van eerdere versies (bv. regels 124-128, 183-189, 234-261). Dit is geen redactionele keuze maar extractie-artefact: een mens zou deze historische noten scheiden of weglaten. Daarnaast springt Art. 14 (Independent Personal Services) volledig ontbrekend, terwijl Arts. 13 en 15 wel aanwezig zijn — de bron-URL claimt 'Art. 1–32'; Art. 14 is in 2000 bewust verwijderd uit het OESO-model maar dat is niet gedocumenteerd in de MD. Verder: paragraafnummers staan als losse regels ('1.\n', '2.\n') zonder bijbehorende tekst op dezelfde regel (A6), wat spurious line-breaks zijn van de PDF-extractie."
     layer1:
-      status: not_run
-      run_id:
-      run_at:
-      heading_count:
-      max_section_chars:
       file_size_chars:
       flags: []
-    layer2:
-      status: not_run
-      agent:
+      heading_count:
+      max_section_chars:
       run_at:
-      rationale:
-      concrete_problemen: []
+      run_id:
+      status: not_run
+    layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:19Z'
+      rationale: "33 HISTORY-blokken zijn volledig in de body opgenomen: de historische annotaties van het OESO-modelverdrag staan na elk artikel als plain text, inclusief letterlijke wetsteksten van eerdere versies (bv. regels 124-128, 183-189, 234-261). Dit is geen redactionele keuze maar extractie-artefact: een mens zou deze historische noten scheiden of weglaten. Daarnaast springt Art. 14 (Independent Personal Services) volledig ontbrekend, terwijl Arts. 13 en 15 wel aanwezig zijn — de bron-URL claimt 'Art. 1–32'; Art. 14 is in 2000 bewust verwijderd uit het OESO-model maar dat is niet gedocumenteerd in de MD. Verder: paragraafnummers staan als losse regels ('1.\n', '2.\n') zonder bijbehorende tekst op dezelfde regel (A6), wat spurious line-breaks zijn van de PDF-extractie."
+      concrete_problemen:
+        - regel: 75
+          categorie: G3
+          type: other
+          voorbeeld: HISTORY (plain text blok na elk artikel, bevat eerdere wetsteksten)
+        - regel: 124
+          categorie: G3
+          type: other
+          voorbeeld: 'Paragraph 1: Amended when the 1977 Model Convention was adopted by the OECD Council on 11 April 1977, by substituting the words...'
+        - regel: 81
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: "1.\nThis Convention shall apply to persons..."
+        - regel: 726
+          categorie: D2
+          type: missing-section
+          voorbeeld: Art. 14 ontbreekt tussen Art. 13 (Capital Gains, r. 694) en Art. 15 (Income From Employment, r. 726)
+status: beschikbaar
+taal: EN
+tags:
+  - X
+  - '2.8'
+wet: OECD Model Tax Convention on Income and on Capital (as it read on 21 November 2017)
 ---
 
 # OECD Model Tax Convention on Income and on Capital (2017)
@@ -1433,4 +1463,3 @@ HISTORY
 Article 32 corresponds to Article 31 as it read before 21 November 2017. On that date,
 a) in (State A) : .......................
 b) in (State B) : .......................”
-

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Twee concrete extractie-fouten: (1) A4/OCR: regel 317 bevat een typografische ligature 'ﬁ' in 'geïdentiﬁceerd' (U+FB01) — OCR-artefact dat zoekindexering en tokenisatie verstoort. (2) A6: regel 324 toont 'inartikel 2, § 1.' zonder spatie (woorden samengesmolten bij regelombreuk in PDF). De 9 ##-headings (Art. 1-9) zijn correct; bijlage netjes."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,18 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '20k chars zonder ##-headings; Artikel-markers plain text. Body intact (Artikel 1..n + bijwerkingen). Degraded chunking.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "Twee concrete extractie-fouten: (1) A4/OCR: regel 317 bevat een typografische ligature 'ﬁ' in 'geïdentiﬁceerd' (U+FB01) — OCR-artefact dat zoekindexering en tokenisatie verstoort. (2) A6: regel 324 toont 'inartikel 2, § 1.' zonder spatie (woorden samengesmolten bij regelombreuk in PDF). De 9 ##-headings (Art. 1-9) zijn correct; bijlage netjes."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: '0 ##-headings bij 20495 chars'
+        - regel: 317
+          categorie: A4
+          type: ocr-confusion
+          voorbeeld: geïdentiﬁceerd (ligature ﬁ i.p.v. fi)
+        - regel: 324
+          categorie: A6
+          type: other
+          voorbeeld: inartikel 2, § 1. (samengesmolten 'in artikel')
 ---
 
 # K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen

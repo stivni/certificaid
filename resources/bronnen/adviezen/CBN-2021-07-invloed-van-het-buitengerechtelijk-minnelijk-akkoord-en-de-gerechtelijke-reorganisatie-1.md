@@ -35,10 +35,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'D3: zeven orphan footnote-markers als losstaande regels tussen boekingstabellen (L101, L288, L295, L368, L375, L440, L449) — dezelfde extractie-artefact als in CBN-2021-04, waarbij anchor-verwijzingen naar tabel-contextuele noten op een eigen lege regel staan. A6: footnote-anker op L72 splitst een zin over twee regels. De rest van het advies is inhoudelijk compleet en correct met 29 headings en alle 47 voetnootdefinities aanwezig.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -48,11 +48,43 @@ provenance:
       file_size_chars: 40222
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: 'D3: zeven orphan footnote-markers als losstaande regels tussen boekingstabellen (L101, L288, L295, L368, L375, L440, L449) — dezelfde extractie-artefact als in CBN-2021-04, waarbij anchor-verwijzingen naar tabel-contextuele noten op een eigen lege regel staan. A6: footnote-anker op L72 splitst een zin over twee regels. De rest van het advies is inhoudelijk compleet en correct met 29 headings en alle 47 voetnootdefinities aanwezig.'
+      concrete_problemen:
+        - regel: 101
+          categorie: D3
+          type: other
+          voorbeeld: ' [^13]'
+        - regel: 288
+          categorie: D3
+          type: other
+          voorbeeld: '[^39]'
+        - regel: 295
+          categorie: D3
+          type: other
+          voorbeeld: '[^40]'
+        - regel: 368
+          categorie: D3
+          type: other
+          voorbeeld: '[^42]'
+        - regel: 375
+          categorie: D3
+          type: other
+          voorbeeld: '[^43]'
+        - regel: 440
+          categorie: D3
+          type: other
+          voorbeeld: '[^46]'
+        - regel: 449
+          categorie: D3
+          type: other
+          voorbeeld: ' [^47]'
+        - regel: 72
+          categorie: A6
+          type: other
+          voorbeeld: wet van 11 augustus 2017 heeft Boek XX … toegevoegd[^2]\n samenhangender te maken…
 gerelateerde_adviezen:
   - titel: Going concern - Waarderingsregels bij de stopzetting of gedeeltelijke stopzetting van het bedrijf van een onderneming
     url: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het

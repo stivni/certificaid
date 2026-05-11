@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: regel 52 bevat een duplicate TOC als aaneengesloten plain-text-blob ('CBN-advies 2010/1 De interpretatie...BesluitGevolgen van de vrijstelling') — exact dezelfde inhoud als de genummerde lijst hierboven (regels 47-49). Dit is een extractie-artefact waarbij de TOC dubbel is opgenomen."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,15 @@ provenance:
       file_size_chars: 11962
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:18Z'
+      rationale: "A3: regel 52 bevat een duplicate TOC als aaneengesloten plain-text-blob ('CBN-advies 2010/1 De interpretatie...BesluitGevolgen van de vrijstelling') — exact dezelfde inhoud als de genummerde lijst hierboven (regels 47-49). Dit is een extractie-artefact waarbij de TOC dubbel is opgenomen."
+      concrete_problemen:
+        - regel: 52
+          categorie: A3
+          type: other
+          voorbeeld: ' CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting...BesluitGevolgen van de vrijstelling '
 ---
 
 # CBN-advies 2012/10 - Te verwaarlozen betekenis

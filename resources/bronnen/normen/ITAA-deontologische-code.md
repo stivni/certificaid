@@ -34,10 +34,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: rejected
+    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Expliciete placeholder: het bestand bevat bewust geen inhoud en waarschuwt dat het NIET mag worden gevuld met een zelf-geconstrueerde samenvatting. Body bestaat uit instructies voor het ophalen van het echte document (drie zoekstrategieën + vervolgstappen). Laag 1 bevestigt: file_size = 1149 chars, heading_count = 3 (de instructie-headings). Niet geschikt voor RAG totdat de echte norm beschikbaar is.'
     layer1:
       status: warn
       run_id: 20260511-085756
@@ -51,11 +51,15 @@ provenance:
           detail: provenance.inputs is leeg
           samples: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: rejected
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:58Z'
+      rationale: 'Expliciete placeholder: het bestand bevat bewust geen inhoud en waarschuwt dat het NIET mag worden gevuld met een zelf-geconstrueerde samenvatting. Body bestaat uit instructies voor het ophalen van het echte document (drie zoekstrategieën + vervolgstappen). Laag 1 bevestigt: file_size = 1149 chars, heading_count = 3 (de instructie-headings). Niet geschikt voor RAG totdat de echte norm beschikbaar is.'
+      concrete_problemen:
+        - regel: 61
+          categorie: D2
+          type: missing-section
+          voorbeeld: "'⚠️ Placeholder — inhoud ontbreekt. Dit bestand mag NIET worden gevuld met een zelf geconstrueerde samenvatting.'"
 ---
 
 ⚠️ **Placeholder — inhoud ontbreekt. Dit bestand mag NIET worden gevuld met een zelf geconstrueerde samenvatting.**

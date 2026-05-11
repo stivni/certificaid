@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Systematisch PDF-kolom-alignment-artefact (C3): de wijzigingsmarkers in Art. 2, 3 en 4 tonen excessieve interne witruimte als pseudo-uitlijning (bv. 'KB nr.   35,   artikel    2,   is   van   toepassing   met   ingang    van    01.01.2000'). Zelfde patroon als KB3. Inhoud volledig voor dit 4-artikel KB; layer2-suggestie van abrupt-cutoff is onterecht — Art. 1-4 aanwezig."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,16 +38,22 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Klein (3.6k); body lijkt mager — eindigt met 'Wijzigt met ingang van 05.12.2019: art. 1 (inleidende zin, gewijzigd)'. Geen ##-structuur. Onduidelijk of alle Artikelen aanwezig zijn."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "Systematisch PDF-kolom-alignment-artefact (C3): de wijzigingsmarkers in Art. 2, 3 en 4 tonen excessieve interne witruimte als pseudo-uitlijning (bv. 'KB nr.   35,   artikel    2,   is   van   toepassing   met   ingang    van    01.01.2000'). Zelfde patroon als KB3. Inhoud volledig voor dit 4-artikel KB; layer2-suggestie van abrupt-cutoff is onterecht — Art. 1-4 aanwezig."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: '0 ##-headings bij 3613 chars'
-        - regel: 0
-          type: abrupt-cutoff
-          voorbeeld: Mogelijk niet-volledige extractie van Artikelen
+        - regel: 90
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: (De tekst van KB        nr.   35,   artikel    2,   is   van   toepassing   met   ingang    van    01.01.2000
+        - regel: 98
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: (De tekst van KB        nr.   35,   artikel    3,   is   van   toepassing   met   ingang    van    01.01.2000
+        - regel: 103
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: (De tekst van KB        nr.   35,   artikel    4,   is   van   toepassing   met   ingang    van    01.01.2000
 ---
 
 # K.B. nr. 35 van 28 december 1999, tot invoering van een forfaitaire maatstaf van heffing van de belasting over de toegevoegde waarde op de winstmarge van reisbureaus

@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'D4: regels 55–58 tonen het bekende `*term *`-patroon (spatie voor closing asterisk): `*"Een Belgische of buitenlandse onderneming: *` en `*waarvan de werkzaamheden... of * ` — malformed italic die een mens nooit zo zou typen. Het gaat om het geciteerde wetsartikel dat in italics staat maar door de spaties-voor-closing-asterisk misrendered kan worden door markdown-parsers.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -32,11 +32,19 @@ provenance:
       file_size_chars: 5056
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:18Z'
+      rationale: 'D4: regels 55–58 tonen het bekende `*term *`-patroon (spatie voor closing asterisk): `*"Een Belgische of buitenlandse onderneming: *` en `*waarvan de werkzaamheden... of * ` — malformed italic die een mens nooit zo zou typen. Het gaat om het geciteerde wetsartikel dat in italics staat maar door de spaties-voor-closing-asterisk misrendered kan worden door markdown-parsers.'
+      concrete_problemen:
+        - regel: 55
+          categorie: D4
+          type: other
+          voorbeeld: '*"Een Belgische of buitenlandse onderneming: *'
+        - regel: 57
+          categorie: D4
+          type: other
+          voorbeeld: '*waarvan de werkzaamheden bestaan in het van het publiek... of * '
 ---
 
 # CBN-advies 2011/19 – De boekhoudkundige verwerking van interestopbrengsten en –kosten door erkende kredietmaatschappijen in Vlaanderen

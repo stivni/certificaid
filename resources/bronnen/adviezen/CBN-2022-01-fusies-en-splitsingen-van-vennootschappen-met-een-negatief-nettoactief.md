@@ -30,10 +30,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:24:33Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "E1/E2: alle balansen zijn pseudo-pipe-tabellen zonder markdown header+separator-rij. B2: heading-hiërarchie springt op regel 118 van ### naar ## (Voorbeeld 1 staat als ## terwijl het valt binnen de ### Toepassing op fusies subsectie). D2: op regel 88-90 wordt verwezen naar 'bovenstaande formule' en 'volgende formule' maar de eigenlijke wiskundige formule ontbreekt — de PDF-afbeelding werd niet geëxtraheerd."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -43,11 +43,23 @@ provenance:
       file_size_chars: 24736
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:24:33Z'
+      rationale: "E1/E2: alle balansen zijn pseudo-pipe-tabellen zonder markdown header+separator-rij. B2: heading-hiërarchie springt op regel 118 van ### naar ## (Voorbeeld 1 staat als ## terwijl het valt binnen de ### Toepassing op fusies subsectie). D2: op regel 88-90 wordt verwezen naar 'bovenstaande formule' en 'volgende formule' maar de eigenlijke wiskundige formule ontbreekt — de PDF-afbeelding werd niet geëxtraheerd."
+      concrete_problemen:
+        - regel: 87
+          categorie: D2
+          type: missing-section
+          voorbeeld: 'wordt deze verhouding via volgende formule berekend: [formule ontbreekt]'
+        - regel: 118
+          categorie: B2
+          type: other
+          voorbeeld: "### Toepassing op fusies \n\n## Voorbeeld 1  (## na ### is hiërarchiefout)"
+        - regel: 122
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: "| Balans A | \n| Activa | | 2.000 | | Kapitaal | | 1.000 |  (geen separator-rij)"
 gerelateerde_adviezen:
   - titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
     url: https://www.cbn-cnc.be/nl/adviezen/vermogensklem-bij-de-omzetting-van-een-vzw-in-een-cooperatieve-vennootschap-erkend-als-0

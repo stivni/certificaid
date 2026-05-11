@@ -21,10 +21,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Twee problemen: (1) G2: HTML-entity `&#039;` in frontmatter themas-veld (regel 8: 'voorzieningen voor risico&#039;s en kosten') in plaats van een apostrof. (2) D4-artefact op regel 54: 'deviezen[^1]\\n zijn de hypotheses...' — footnote-marker gevolgd door newline + spatie, identiek patroon als in 107/3bis en 107/5. Beide zijn ETL-fixbaar."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -34,11 +34,19 @@ provenance:
       file_size_chars: 2995
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: "Twee problemen: (1) G2: HTML-entity `&#039;` in frontmatter themas-veld (regel 8: 'voorzieningen voor risico&#039;s en kosten') in plaats van een apostrof. (2) D4-artefact op regel 54: 'deviezen[^1]\\n zijn de hypotheses...' — footnote-marker gevolgd door newline + spatie, identiek patroon als in 107/3bis en 107/5. Beide zijn ETL-fixbaar."
+      concrete_problemen:
+        - regel: 8
+          categorie: G2
+          type: other
+          voorbeeld: '- voorzieningen voor risico&#039;s en kosten'
+        - regel: 54
+          categorie: D4
+          type: other
+          voorbeeld: "verplichtingen in deviezen[^1]\n zijn de hypotheses..."
 ---
 
 # CBN-advies 107/8 - Boekhoudkundige verwerking van de voorzieningen voor risico's en kosten

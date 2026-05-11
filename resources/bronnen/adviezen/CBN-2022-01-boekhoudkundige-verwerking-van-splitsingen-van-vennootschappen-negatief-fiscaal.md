@@ -18,10 +18,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:24:33Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'E1/E2: alle balansen zijn als pseudo-pipe-tabellen zonder correcte markdown header+separator-rij — elke tabelrij heeft enkel data-cellen zonder scheidingslijn. De tabellen zijn niet parseerbaar als echte markdown-tabellen. Verder is de inhoud compleet en zijn de footnotes correct.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -31,11 +31,23 @@ provenance:
       file_size_chars: 15665
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:24:33Z'
+      rationale: 'E1/E2: alle balansen zijn als pseudo-pipe-tabellen zonder correcte markdown header+separator-rij — elke tabelrij heeft enkel data-cellen zonder scheidingslijn. De tabellen zijn niet parseerbaar als echte markdown-tabellen. Verder is de inhoud compleet en zijn de footnotes correct.'
+      concrete_problemen:
+        - regel: 74
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: "| Vennootschap A (te splitsen vennootschap) | \n| Activum 1 | | 130 | | Kapitaal/Inbreng | | 60 |"
+        - regel: 88
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: "| Vennootschap B | \n| Activum 1 | | 130 | | *Eigen vermogen* | | *130* |"
+        - regel: 129
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: '| | | Eigen vermogen van vennootschap A | | Aan vennootschap B fiscaal... zonder separator-rij'
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen

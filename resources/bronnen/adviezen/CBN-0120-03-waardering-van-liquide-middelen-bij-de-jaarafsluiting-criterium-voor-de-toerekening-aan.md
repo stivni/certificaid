@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'G-categorie: frontmatter regel 54 bevat een ongedecodeërd HTML-entity (&quot;) in het titel-veld van gerelateerde_adviezen. Body is verder inhoudelijk volledig en vrij van extractie-artefacten, maar de HTML-entity maakt de metadata onbetrouwbaar voor downstream verwerking. Laag-1 pass is terecht: geen structurele flags.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,15 @@ provenance:
       file_size_chars: 2839
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: 'G-categorie: frontmatter regel 54 bevat een ongedecodeërd HTML-entity (&quot;) in het titel-veld van gerelateerde_adviezen. Body is verder inhoudelijk volledig en vrij van extractie-artefacten, maar de HTML-entity maakt de metadata onbetrouwbaar voor downstream verwerking. Laag-1 pass is terecht: geen structurele flags.'
+      concrete_problemen:
+        - regel: 54
+          categorie: G2
+          type: other
+          voorbeeld: '  - titel: Het begrip &quot;financiële instelling&quot;'
 gerelateerde_adviezen:
   - titel: Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
     url: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel

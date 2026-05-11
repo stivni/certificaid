@@ -22,10 +22,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A2/B7: op r51-53 staat een genummerde lijst '1. Stockdividenden versus bonusaandelen / 2. Vorderingsrecht... / 3. Boekhoudkundige verwerking' als plain text in de body — dit is een TOC-fragment dat niet verwijderd werd bij extractie, terwijl de echte inhoud als ## headings verder volgt. G3: r90 en r118 bevatten verweesde voetnootankers ' [^10]' en ' [^12]' als losse regels midden in de tekst (zonder context-zin), vermoedelijk inline footnote-content die bij PDF-extractie los raakte."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -35,11 +35,23 @@ provenance:
       file_size_chars: 8129
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: "A2/B7: op r51-53 staat een genummerde lijst '1. Stockdividenden versus bonusaandelen / 2. Vorderingsrecht... / 3. Boekhoudkundige verwerking' als plain text in de body — dit is een TOC-fragment dat niet verwijderd werd bij extractie, terwijl de echte inhoud als ## headings verder volgt. G3: r90 en r118 bevatten verweesde voetnootankers ' [^10]' en ' [^12]' als losse regels midden in de tekst (zonder context-zin), vermoedelijk inline footnote-content die bij PDF-extractie los raakte."
+      concrete_problemen:
+        - regel: 51
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: 1. Stockdividenden versus bonusaandelen \n2. Vorderingsrecht in hoofde van de aandeelhouder
+        - regel: 90
+          categorie: G3
+          type: other
+          voorbeeld: ' [^10]  (verweest voetnootanker als losse regel vóór tabel)'
+        - regel: 118
+          categorie: G3
+          type: other
+          voorbeeld: ' [^12]  (verweest voetnootanker als losse regel vóór tabel)'
 gerelateerde_adviezen:
   - titel: Boeking van bonusaandelen
     url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-bonusaandelen

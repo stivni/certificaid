@@ -26,10 +26,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Geen ETL-artefacten gevonden. Kort advies (3 headings, heading_count klopt) met correcte structuur, complete voetnoten [^1] t/m [^8], en inhoud volledig (inleiding + verwerking investeerder + verwerking producent). Geen malformed italic, geen TOC-residu, geen gebroken zinnen.
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -39,10 +39,10 @@ provenance:
       file_size_chars: 4915
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: Geen ETL-artefacten gevonden. Kort advies (3 headings, heading_count klopt) met correcte structuur, complete voetnoten [^1] t/m [^8], en inhoud volledig (inleiding + verwerking investeerder + verwerking producent). Geen malformed italic, geen TOC-residu, geen gebroken zinnen.
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap (raamovereenkomsten getekend vanaf 1 januari 2015)

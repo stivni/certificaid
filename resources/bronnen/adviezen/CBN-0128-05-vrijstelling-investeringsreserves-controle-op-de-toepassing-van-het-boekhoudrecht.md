@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A6 op L55-56: de footnote [^1] midden in een zin breekt de lopende tekst over twee regels, waarbij L56 begint met een leading space — een klassiek scraping-artefact. A6 op L58: 'niet- naleving' (hyphen gevolgd door spatie) is een word-split-artefact. Verder is de inhoud volledig en de structuur correct."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,19 @@ provenance:
       file_size_chars: 3916
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: "A6 op L55-56: de footnote [^1] midden in een zin breekt de lopende tekst over twee regels, waarbij L56 begint met een leading space — een klassiek scraping-artefact. A6 op L58: 'niet- naleving' (hyphen gevolgd door spatie) is een word-split-artefact. Verder is de inhoud volledig en de structuur correct."
+      concrete_problemen:
+        - regel: 55
+          categorie: A6
+          type: other
+          voorbeeld: Graag vernam ik van de geachte Minister[^1]\n of zijn administratie...
+        - regel: 58
+          categorie: A6
+          type: other
+          voorbeeld: '...alsmede de niet- naleving van de voorschriften...'
 gerelateerde_adviezen:
   - titel: Overboeking van winsten naar de belastingvrije reserves - Verwerking in de jaarrekening van de investeringsreserve
     url: https://www.cbn-cnc.be/nl/adviezen/overboeking-van-winsten-naar-de-belastingvrije-reserves-verwerking-in-de-jaarrekening-van

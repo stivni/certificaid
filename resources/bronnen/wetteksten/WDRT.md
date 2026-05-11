@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B3/D2: Art. 17 (regel 64) en Art. 20 (regel 81) zijn lege ##### Art.-headings zonder enige body — de artikeltekst ontbreekt volledig, niet als '[opgeheven]' gemarkeerd. Dit is geen opgeheven bepaling (de wetsbron vermeldt geen opheffing op die nummers); de extractie heeft de body gemist. Max-sectie van 55659 tekens op #####-niveau (Laag-1 warn) bevestigt ongelijke structuur. Verdere opmaak is degelijk."
     layer1:
       status: warn
       run_id: 20260509-212552
@@ -37,16 +37,22 @@ provenance:
           samples: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: 'Hoge heading-count (377) maar visuele inspectie toont lege ##### Art.-headers gevolgd door volgende heading zonder body (bv. Art. 17. → Titel V). Aandacht voor mogelijk ontbrekende body-tekst per artikel.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:18Z'
+      rationale: "B3/D2: Art. 17 (regel 64) en Art. 20 (regel 81) zijn lege ##### Art.-headings zonder enige body — de artikeltekst ontbreekt volledig, niet als '[opgeheven]' gemarkeerd. Dit is geen opgeheven bepaling (de wetsbron vermeldt geen opheffing op die nummers); de extractie heeft de body gemist. Max-sectie van 55659 tekens op #####-niveau (Laag-1 warn) bevestigt ongelijke structuur. Verdere opmaak is degelijk."
       concrete_problemen:
-        - regel: 71
+        - regel: 64
+          categorie: D2
           type: missing-section
-          voorbeeld: '##### Art. 17. (geen body, direct gevolgd door ### Titel V.)'
-        - regel: 0
+          voorbeeld: '##### Art. 17. (lege body; direct gevolgd door ### Titel V.)'
+        - regel: 81
+          categorie: D2
+          type: missing-section
+          voorbeeld: '##### Art. 20. (lege body; direct gevolgd door ### Titel VI.)'
+        - regel: 35
+          categorie: B3
           type: other
-          voorbeeld: 'max_section_size 55659 op #####-niveau wijst op pockets met grote ongesplitste tekst'
+          voorbeeld: 'max_section_size 55659 chars op #####-niveau — ongelijke chunking, één sectie domineert'
 chunk:
   level: 5
   type: Art.

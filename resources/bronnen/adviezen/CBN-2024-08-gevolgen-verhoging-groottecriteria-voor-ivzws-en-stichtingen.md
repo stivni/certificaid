@@ -29,10 +29,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:24:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'D4: op regels 77, 79 en 83 staan malformed bold-markers `**getal **euro` met een spatie vóór de sluitende `**` — een mens schrijft nooit `**11.250.000 **euro`. E1: alle tabellen (regels 101-104, 158-161, 195-199) missen de `|---|---|` separator na de headerrij en bevatten alternerende lege ghost-kolommen, identiek aan het patroon in CBN-2024-07. Bovendien staat op regel 193 een stray randnummer `22.` als prefix vóór een alinea (PDF-nummering-artefact).'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -42,11 +42,31 @@ provenance:
       file_size_chars: 16426
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:24:34Z'
+      rationale: 'D4: op regels 77, 79 en 83 staan malformed bold-markers `**getal **euro` met een spatie vóór de sluitende `**` — een mens schrijft nooit `**11.250.000 **euro`. E1: alle tabellen (regels 101-104, 158-161, 195-199) missen de `|---|---|` separator na de headerrij en bevatten alternerende lege ghost-kolommen, identiek aan het patroon in CBN-2024-07. Bovendien staat op regel 193 een stray randnummer `22.` als prefix vóór een alinea (PDF-nummering-artefact).'
+      concrete_problemen:
+        - regel: 77
+          categorie: D4
+          type: other
+          voorbeeld: verhoogd van 9.000.000 euro naar **11.250.000 **euro en het bedrag van het balanstotaal
+        - regel: 79
+          categorie: D4
+          type: other
+          voorbeeld: verhoogd van 700.000 euro naar **900.000 **euro en het bedrag van het balanstotaal
+        - regel: 83
+          categorie: D4
+          type: other
+          voorbeeld: wordt verhoogd van 334.500 euro naar **391.000 **euro, en de bedragen van de schulden
+        - regel: 101
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: '| | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | (geen separator-rij, ghost-kolommen)'
+        - regel: 193
+          categorie: A7
+          type: other
+          voorbeeld: 22. Veronderstel een stichting met een einde boekjaardatum van 31 december.
 gerelateerde_adviezen:
   - titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening – begroting (update) [ONTWERP]
     url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting-update

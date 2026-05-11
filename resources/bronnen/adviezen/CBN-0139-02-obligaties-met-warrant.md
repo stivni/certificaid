@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "G1/F1: HTML-entity &#039; in frontmatter (regel 45: 'CPC&#039;s') — dit is een scraper-artefact dat niet gedecodeeerd werd. D4: *Bull. CBN * op regel 62 heeft spatie voor sluitende * (malformed italic). Tabel op regels 84-88 is correct pipe-syntax. Inhoud volledig."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,19 @@ provenance:
       file_size_chars: 3657
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: "G1/F1: HTML-entity &#039; in frontmatter (regel 45: 'CPC&#039;s') — dit is een scraper-artefact dat niet gedecodeeerd werd. D4: *Bull. CBN * op regel 62 heeft spatie voor sluitende * (malformed italic). Tabel op regels 84-88 is correct pipe-syntax. Inhoud volledig."
+      concrete_problemen:
+        - regel: 45
+          categorie: G1
+          type: other
+          voorbeeld: '- titel: Passende boekhoudkundige verwerking van de tegenwaarde van participatiecertificaten CPC&#039;s'
+        - regel: 62
+          categorie: D4
+          type: other
+          voorbeeld: '...naar advies 139/1 gepubliceerd in *Bull. CBN *nr. 13 van januari 1984 (pp. 14-18).'
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van de uitgifte van een obligatielening
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening

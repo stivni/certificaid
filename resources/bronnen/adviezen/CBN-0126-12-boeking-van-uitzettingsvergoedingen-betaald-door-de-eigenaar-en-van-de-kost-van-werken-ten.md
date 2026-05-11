@@ -22,10 +22,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B7: de H1-title op regel 45 eindigt op '...ten laste van de verkoper1' — het cijfer '1' is een losgekoppeld voetnootmarker die in de heading terecht is gekomen. B2: heading-hiërarchie springt van # (niveau 1) naar #### (niveau 4) zonder ## of ### ertussen. G3: inline-footnote-markers '[^4][^5]' en '[^7]' staan als losstaande blokregel vóór de tabel (regels 87 en 103) in plaats van in de tekst."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -35,11 +35,23 @@ provenance:
       file_size_chars: 7895
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: "B7: de H1-title op regel 45 eindigt op '...ten laste van de verkoper1' — het cijfer '1' is een losgekoppeld voetnootmarker die in de heading terecht is gekomen. B2: heading-hiërarchie springt van # (niveau 1) naar #### (niveau 4) zonder ## of ### ertussen. G3: inline-footnote-markers '[^4][^5]' en '[^7]' staan als losstaande blokregel vóór de tabel (regels 87 en 103) in plaats van in de tekst."
+      concrete_problemen:
+        - regel: 45
+          categorie: B7
+          type: other
+          voorbeeld: '# ...kost van werken ten laste van de verkoper1'
+        - regel: 58
+          categorie: B2
+          type: other
+          voorbeeld: '# (niveau 1) -> #### DE BETALING... (niveau 4), geen ## of ### ertussen'
+        - regel: 87
+          categorie: G3
+          type: other
+          voorbeeld: ' [^4][^5] (losstaande footnote-markers als paragraaf vóór tabel)'
 ---
 
 # CBN-advies 126/12 - Boeking van uitzettingsvergoedingen betaald door de eigenaar en van de kost van werken ten laste van de verkoper1

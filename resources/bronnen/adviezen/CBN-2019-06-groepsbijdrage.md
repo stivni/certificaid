@@ -21,10 +21,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'D3: Losstaande `[^17]` op regel 112 en `[^18]` op regel 134 staan als verweesd anker direct boven de tabel, zonder voorgaande tekst — identiek patroon als in batch-23. A6: `groepsbijdrage*`regeling` op regel 52 (ontbrekende spatie tussen italic close en volgende woord) is een mild opmaakartefact. Inhoud en structuur zijn verder volledig correct.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -34,11 +34,23 @@ provenance:
       file_size_chars: 13898
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: 'D3: Losstaande `[^17]` op regel 112 en `[^18]` op regel 134 staan als verweesd anker direct boven de tabel, zonder voorgaande tekst — identiek patroon als in batch-23. A6: `groepsbijdrage*`regeling` op regel 52 (ontbrekende spatie tussen italic close en volgende woord) is een mild opmaakartefact. Inhoud en structuur zijn verder volledig correct.'
+      concrete_problemen:
+        - regel: 112
+          categorie: D3
+          type: other
+          voorbeeld: ' [^17]'
+        - regel: 134
+          categorie: D3
+          type: other
+          voorbeeld: ' [^18]'
+        - regel: 52
+          categorie: D4
+          type: other
+          voorbeeld: de *groepsbijdrage*regeling[^2] in de statutaire jaarrekening
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van de vergoeding voor de groepsbijdrage in hoofde van de overdragende vennootschap bij gebrek aan Belgische belastingen op het resultaat op rekening 4500 (addendum bij advies 2019/06)
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de

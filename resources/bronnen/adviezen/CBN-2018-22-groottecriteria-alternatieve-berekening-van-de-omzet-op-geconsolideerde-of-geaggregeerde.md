@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "E1/E2: Alle tabellen zijn gebroken — elke cel staat op een aparte regel met lege `| ` rijen ertussen, zodat geen enkele tabel als geldige markdown pipe-tabel rendert. D4: `*niet *` (spatie vóór sluitende `*`) op regels 83 en 89 — malformed italic. A6: Voetnootreferenties staan op een lege regel ná de zin waartoe ze behoren (bv. `[^3]\n basis`, `[^7]\n de vennootschap`), wat line-break-artefacten zijn."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -37,11 +37,27 @@ provenance:
       file_size_chars: 18676
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: "E1/E2: Alle tabellen zijn gebroken — elke cel staat op een aparte regel met lege `| ` rijen ertussen, zodat geen enkele tabel als geldige markdown pipe-tabel rendert. D4: `*niet *` (spatie vóór sluitende `*`) op regels 83 en 89 — malformed italic. A6: Voetnootreferenties staan op een lege regel ná de zin waartoe ze behoren (bv. `[^3]\n basis`, `[^7]\n de vennootschap`), wat line-break-artefacten zijn."
+      concrete_problemen:
+        - regel: 97
+          categorie: E1
+          type: other
+          voorbeeld: '| \n\n  | | \n\n**Rekening 70[^9] **\n\n  | | \n\n**Rekening 74[^10] **'
+        - regel: 83
+          categorie: D4
+          type: other
+          voorbeeld: opbrengsten die *niet *beantwoorden aan de omschrijving
+        - regel: 89
+          categorie: D4
+          type: other
+          voorbeeld: opbrengsten die *niet *aan de omschrijving beantwoorden
+        - regel: 74
+          categorie: A6
+          type: other
+          voorbeeld: hetzij op geconsolideerde[^3]\n basis, hetzij op geaggregeerde[^4]\n basis
 gerelateerde_adviezen:
   - titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen

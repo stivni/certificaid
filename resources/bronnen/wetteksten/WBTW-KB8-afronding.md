@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "C3: regels 104-106 tonen de bijwerkingslijst als pseudo-tabel met spatie-alignment ('Bijwerking       t.e.m. B.S. van                       Te vervangen pagina's'). Dit is een PDF-extractieartefact. Alle 4 artikelen zijn aanwezig als ## headings en de inhoud is volledig en leesbaar. Geen andere artefacten gevonden."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,18 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: 'Tekst is integraal aanwezig maar geen enkel ##- of dieper heading; chunk.level=2 mismatch. Bestand is klein (3KB), bevat KB-tekst + lijst-van-bijwerkingen-blok.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "C3: regels 104-106 tonen de bijwerkingslijst als pseudo-tabel met spatie-alignment ('Bijwerking       t.e.m. B.S. van                       Te vervangen pagina's'). Dit is een PDF-extractieartefact. Alle 4 artikelen zijn aanwezig als ## headings en de inhoud is volledig en leesbaar. Geen andere artefacten gevonden."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: '0 ##-headings; chunk.level=2 niet realiseerbaar'
+        - regel: 104
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: "       Bijwerking       t.e.m. B.S. van                       Te vervangen pagina's"
+        - regel: 106
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: Bijw. 01 / 01.01.2012     30.12.2011      Volledige uitgave
 ---
 
 # K.B. nr. 8 van 12 maart 1970, tot vaststelling van de wijze van afronding van de verschuldigde, de aftrekbare of de voor teruggaaf vatbare belasting over de toegevoegde waarde

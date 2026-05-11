@@ -21,10 +21,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Klein advies (2041 chars, heading_count: 0) zonder subhoofdingen — dat is conform de bron. Inhoud compleet: context, voorbeeldtabel, aanbeveling en beide voetnoten aanwezig. Geen zichtbare extractie-artefacten. De tabel op r.72-78 is in markdown pipe-syntax. Buitenstaander zou dit als mens-geschreven beschouwen.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -34,10 +34,10 @@ provenance:
       file_size_chars: 2041
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: 'Klein advies (2041 chars, heading_count: 0) zonder subhoofdingen — dat is conform de bron. Inhoud compleet: context, voorbeeldtabel, aanbeveling en beide voetnoten aanwezig. Geen zichtbare extractie-artefacten. De tabel op r.72-78 is in markdown pipe-syntax. Buitenstaander zou dit als mens-geschreven beschouwen.'
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Afronding van betalingen in euro

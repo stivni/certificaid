@@ -26,10 +26,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Twee problemen: (1) B3: duplicate `#`-level headings op regels 49 en 51 — een tweede `# Advies van september 1989...` direct na de paginatitel, met bovendien een `[^1]`-marker in de heading zelf (geen mens typt een footnote-referentie in een # heading). (2) A5: U+2212 MINUS SIGN (−, U+2212) in de titel-heading op regel 49 in plaats van een gewone hyphen of en-dash — inconsistent met alle andere adviezen in de batch. (3) G2: HTML-entity `&#039;` in frontmatter op regel 8.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -39,11 +39,23 @@ provenance:
       file_size_chars: 3590
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: 'Twee problemen: (1) B3: duplicate `#`-level headings op regels 49 en 51 — een tweede `# Advies van september 1989...` direct na de paginatitel, met bovendien een `[^1]`-marker in de heading zelf (geen mens typt een footnote-referentie in een # heading). (2) A5: U+2212 MINUS SIGN (−, U+2212) in de titel-heading op regel 49 in plaats van een gewone hyphen of en-dash — inconsistent met alle andere adviezen in de batch. (3) G2: HTML-entity `&#039;` in frontmatter op regel 8.'
+      concrete_problemen:
+        - regel: 49
+          categorie: A5
+          type: other
+          voorbeeld: '# CBN-advies 107/11 − Opbrengsten... (U+2212 MINUS SIGN, niet hyphen)'
+        - regel: 51
+          categorie: B3
+          type: other
+          voorbeeld: '# Advies van september 1989, bijgewerkt op 10 september 2025[^1]'
+        - regel: 8
+          categorie: G2
+          type: other
+          voorbeeld: '- voorzieningen voor risico&#039;s en kosten'
 ---
 
 # CBN-advies 107/11 − Opbrengsten waarover betwisting bestaat (update)

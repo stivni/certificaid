@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Geen substantiële extractie-artefacten. Vijf secties correct als ## headings opgemaakt, voetnoten [^1]–[^18] volledig gedefinieerd, inhoud compleet. De CAPS-headings (INLEIDING, TE VOLGEN PROCEDURE, etc.) zijn de stijl van dit advies en consistent. Geen invisible unicode, geen broken tables, geen afgekapte zinnen.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -32,10 +32,10 @@ provenance:
       file_size_chars: 10645
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: 'Geen substantiële extractie-artefacten. Vijf secties correct als ## headings opgemaakt, voetnoten [^1]–[^18] volledig gedefinieerd, inhoud compleet. De CAPS-headings (INLEIDING, TE VOLGEN PROCEDURE, etc.) zijn de stijl van dit advies en consistent. Geen invisible unicode, geen broken tables, geen afgekapte zinnen.'
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen

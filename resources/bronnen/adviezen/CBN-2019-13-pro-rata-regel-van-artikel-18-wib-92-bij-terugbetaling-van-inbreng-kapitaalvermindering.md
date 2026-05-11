@@ -21,10 +21,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "E1/E2: De HTML-tabellen zijn geëxtraheerd als sterk gefragmenteerde markdown-pipe-tabellen waarbij elke cel op een aparte lege rij staat (bijv. regels 143-388 en 405-651). Dit maakt de tabel onleesbaar als markdown — een mens zou de tabel in één blok schrijven. Daarnaast bevat de TOC (regels 46-58) een artefact-regel '-- Voorbeeld' die niet werd opgeschoond (A3)."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -34,11 +34,27 @@ provenance:
       file_size_chars: 24027
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: "E1/E2: De HTML-tabellen zijn geëxtraheerd als sterk gefragmenteerde markdown-pipe-tabellen waarbij elke cel op een aparte lege rij staat (bijv. regels 143-388 en 405-651). Dit maakt de tabel onleesbaar als markdown — een mens zou de tabel in één blok schrijven. Daarnaast bevat de TOC (regels 46-58) een artefact-regel '-- Voorbeeld' die niet werd opgeschoond (A3)."
+      concrete_problemen:
+        - regel: 58
+          categorie: A3
+          type: other
+          voorbeeld: -- Voorbeeld
+        - regel: 143
+          categorie: E1
+          type: other
+          voorbeeld: '| \n\n  | | \n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak\n\n  | | \n\nSamenstelling...'
+        - regel: 405
+          categorie: E1
+          type: other
+          voorbeeld: 'Tabel dividenduitkering 2019: cellen elk op aparte lege rij, onleesbare pipe-structuur'
+        - regel: 741
+          categorie: E1
+          type: other
+          voorbeeld: 'Tabel vrijwillige toepassing: zelfde patroon, ~160 gefragmenteerde rijen voor 5 datakolommen'
 ---
 
 # CBN-advies 2019/13 - Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering

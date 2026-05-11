@@ -33,10 +33,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Vier problemen: (1) A8/kolom-bleed: op r.119 staat een Franse zin 'A la conclusion de cette opération au premier avril 1998' als plain-text regel, vermoedelijk een fragment uit de tweetalige bron dat niet is weggefilterd. (2) C3: de resultatenrekening-samenvatting op r.162-168 is geen geldige markdown-tabel maar een defecte pipe-reeks met inline tabs (r.165 toont ingesprongen '15.000 |'). (3) D4: voetnoot [^4] definitie op r.180 eindigt abrupt met 'conform voetnoot' zonder verdere tekst — de inhoud is weggesneden. (4) Frontmatter-thema 'termijnaanko' is afgekapt (r.12)."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -46,11 +46,27 @@ provenance:
       file_size_chars: 11730
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: "Vier problemen: (1) A8/kolom-bleed: op r.119 staat een Franse zin 'A la conclusion de cette opération au premier avril 1998' als plain-text regel, vermoedelijk een fragment uit de tweetalige bron dat niet is weggefilterd. (2) C3: de resultatenrekening-samenvatting op r.162-168 is geen geldige markdown-tabel maar een defecte pipe-reeks met inline tabs (r.165 toont ingesprongen '15.000 |'). (3) D4: voetnoot [^4] definitie op r.180 eindigt abrupt met 'conform voetnoot' zonder verdere tekst — de inhoud is weggesneden. (4) Frontmatter-thema 'termijnaanko' is afgekapt (r.12)."
+      concrete_problemen:
+        - regel: 12
+          categorie: F1
+          type: other
+          voorbeeld: '- termijnaanko (afgekapt thema-label in frontmatter)'
+        - regel: 119
+          categorie: A8
+          type: column-bleed
+          voorbeeld: A la conclusion de cette opération au premier avril 1998
+        - regel: 162
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '| 60.000 | | 47.872,3\n\t\t\t15.000 |'
+        - regel: 180
+          categorie: D1
+          type: abrupt-cutoff
+          voorbeeld: '[^4]: ...de Commissie, conform voetnoot (definitie onvolledig)'
 gerelateerde_adviezen:
   - titel: 'Vervroegde vaststelling van de bilaterale wisselkoersen in mei 1998 : gevolgen voor het advies nr. 173/1 : «Overschakeling op de euro : boekhoudrechtelijke aspecten»'
     url: https://www.cbn-cnc.be/nl/adviezen/vervroegde-vaststelling-van-de-bilaterale-wisselkoersen-in-mei-1998-gevolgen-voor-het

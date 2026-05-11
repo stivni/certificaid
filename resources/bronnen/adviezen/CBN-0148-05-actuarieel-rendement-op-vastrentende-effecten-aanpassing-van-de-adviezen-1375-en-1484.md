@@ -22,10 +22,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: talrijke bold-labels met spatie vóór sluitende ** ('**Bij uitgifte **', '**Bij de terugbetaling **', etc. — 10 instanties). E2: regel 237 bevat een malformed tabelrij '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |' waar de 'aan'-cel is samengevoegd met rekening+omschrijving. E2: regel 248 bevat orphaned '| | 124.553 | | | |' als standalone cijfer-rij buiten tabelcontext."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -35,11 +35,23 @@ provenance:
       file_size_chars: 9366
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: "D4: talrijke bold-labels met spatie vóór sluitende ** ('**Bij uitgifte **', '**Bij de terugbetaling **', etc. — 10 instanties). E2: regel 237 bevat een malformed tabelrij '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |' waar de 'aan'-cel is samengevoegd met rekening+omschrijving. E2: regel 248 bevat orphaned '| | 124.553 | | | |' als standalone cijfer-rij buiten tabelcontext."
+      concrete_problemen:
+        - regel: 77
+          categorie: D4
+          type: other
+          voorbeeld: '**Bij uitgifte ** (spatie vóór sluitende **, patroon herhaald op r.124,175,194,202,210,221,229,239,250)'
+        - regel: 237
+          categorie: E2
+          type: other
+          voorbeeld: '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |'
+        - regel: 248
+          categorie: E2
+          type: other
+          voorbeeld: '| | 124.553 | | | | (orphaned cijfer-rij buiten tabelverband)'
 gerelateerde_adviezen:
   - titel: Inresultaatneming van het actuariële rendement van vastrentende effecten
     url: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B3+D4: regels 62–66 bevatten drie duplicate #-level headings ('# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN**', '# **CBN-advies 2016/4...** ' en '# **Advies van 13 april 2016**[^1] ****') — de derde heading heeft een ongesloten bold-marker met vier asterisken ('****'). Dit is hetzelfde scrape-patroon als CBN-2016-02. D4: de sluiter '****' op regel 66 is malformed."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -37,11 +37,23 @@ provenance:
       file_size_chars: 8074
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "B3+D4: regels 62–66 bevatten drie duplicate #-level headings ('# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN**', '# **CBN-advies 2016/4...** ' en '# **Advies van 13 april 2016**[^1] ****') — de derde heading heeft een ongesloten bold-marker met vier asterisken ('****'). Dit is hetzelfde scrape-patroon als CBN-2016-02. D4: de sluiter '****' op regel 66 is malformed."
+      concrete_problemen:
+        - regel: 62
+          categorie: B3
+          type: other
+          voorbeeld: '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN**'
+        - regel: 64
+          categorie: B3
+          type: other
+          voorbeeld: '# **CBN-advies 2016/4 - Verenigingen en stichtingen...'
+        - regel: 66
+          categorie: D4
+          type: other
+          voorbeeld: '# **Advies van 13 april 2016**[^1] ****'
 gerelateerde_adviezen:
   - titel: Schenkingen en legaten voor VZW’s, IVZW’s en stichtingen die een dubbele boekhouding voeren
     url: https://www.cbn-cnc.be/nl/adviezen/schenkingen-en-legaten-voor-vzws-ivzws-en-stichtingen-die-een-dubbele-boekhouding-voeren

@@ -31,10 +31,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Regel 56–64: plain-text genummerde inhoudsopgave in de body (A3-patroon, net als 2010/15). Regel 83: malformed italic met spatie vóór sluit-asterisk: 'Lidgeld, schenkingen, legaten en subsidies[^6] *' (D4). Regel 84: zelfde patroon 'Kapitaalsubsidies* in artikel'. Regel 106: bold/italic gecombineerd mislopen: '(1)** oorzaak:**' — de bold-marker staat ná de haakjes in plaats van eromheen. Inhoud en tabellen overigens volledig."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -44,11 +44,27 @@ provenance:
       file_size_chars: 27543
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: "Regel 56–64: plain-text genummerde inhoudsopgave in de body (A3-patroon, net als 2010/15). Regel 83: malformed italic met spatie vóór sluit-asterisk: 'Lidgeld, schenkingen, legaten en subsidies[^6] *' (D4). Regel 84: zelfde patroon 'Kapitaalsubsidies* in artikel'. Regel 106: bold/italic gecombineerd mislopen: '(1)** oorzaak:**' — de bold-marker staat ná de haakjes in plaats van eromheen. Inhoud en tabellen overigens volledig."
+      concrete_problemen:
+        - regel: 56
+          categorie: A3
+          type: other
+          voorbeeld: 1. Basisbeginselen \n2. Soorten subsidies \n  1. Subsidies, ...
+        - regel: 83
+          categorie: D4
+          type: other
+          voorbeeld: Lidgeld, schenkingen, legaten en subsidies[^6] *;
+        - regel: 84
+          categorie: D4
+          type: other
+          voorbeeld: de post VI. *Kapitaalsubsidies* in artikel 19, § 2, 3°
+        - regel: 106
+          categorie: D4
+          type: other
+          voorbeeld: (1)** oorzaak:** het gaat om de reden
 ---
 
 # CBN-advies 2010/16 - Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B5: de heading-markers '## Art. N' zijn aanwezig maar de tekst direct na de heading-regel bevat 7-8 spaties inspringing ('       (De tekst van KB nr. 22...') wat een pseudo-tabel/inspring-artefact is uit de PDF. C3: de bijlagetabellen (Bijlage A, Bijwerking-kolommen) zijn als spatie-uitgelijnde pseudotabel opgenomen — niet als echte markdown. Overigens is de inhoud volledig: Art. 1–14 + twee bijlagen intact."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,22 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '26.8k chars met 0 ##-headings; Artikel-markers staan als plain text. Body inhoudelijk OK (intact, tot bijwerkingen). Degraded chunking zonder per-Artikel-secties.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:28Z'
+      rationale: "B5: de heading-markers '## Art. N' zijn aanwezig maar de tekst direct na de heading-regel bevat 7-8 spaties inspringing ('       (De tekst van KB nr. 22...') wat een pseudo-tabel/inspring-artefact is uit de PDF. C3: de bijlagetabellen (Bijlage A, Bijwerking-kolommen) zijn als spatie-uitgelijnde pseudotabel opgenomen — niet als echte markdown. Overigens is de inhoud volledig: Art. 1–14 + twee bijlagen intact."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: 0 headings (## of dieper) bij 26797 chars
+        - regel: 62
+          categorie: A6
+          type: other
+          voorbeeld: '       (De tekst van KB nr. 22, artikel 1 is van toepassing met ingang van 01.01.1971'
+        - regel: 392
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: Bijw. 01 / 01.01.2012   - Volledige uitgave
+        - regel: 396
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: Bijw. 02 / 08.05.2013   - pg. 1 t.e.m. 3                    - Bijw. 02 - pg. 1 t.e.m. 3
 ---
 
 # K.B. nr. 22 van 15 september 1970, met betrekking tot de biezondere regeling voor landbouwondernemers inzake belasting over de toegevoegde waarde

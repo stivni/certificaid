@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:57Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: de body opent met 3× herhaalde WETBOEK DER SUCCESSIERECHTEN-titel (r.65-75) gevolgd door een TOC-blok met 24 dotted-lines (A2). B3: vijf hoofdstukken zijn gedupliceerd (HOOFDSTUK III, IX, XI, XII, XV), wat wijst op een gedeeltelijke TOC-herhaling midden in het corps. D-onzeker: dubbele Art. 17-blokken op r.342 en r.354 voor verschillende inwerkingtredingsdata ('TOEKOMSTIG RECHT' vs 'van toepassing vanaf 01.08.2022') zijn inhoudelijk correct maar zonder discriminator-heading voor RAG verwarrend. G2: decoratieve asterisk-separatoren op r.131-132 (`*` en `*`) zijn PDF-glyphs."
     layer1:
       status: warn
       run_id: 20260509-212552
@@ -44,14 +44,30 @@ provenance:
             - '................................................................................'
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: Driedubbele 'WETBOEK DER SUCCESSIERECHTEN'-titel aan het begin (kop herhaald 3x). TOC-blokken in body met dotted-lines (24 regels). 76 '(…)'-placeholders (waarschijnlijk opgeheven artikels) maar dat herhaalt zich problematisch dicht bij Art. 16/17 met dubbele Art. 17-blokken voor verschillende inwerkingtredingsdata — verwarrend voor RAG zonder duidelijke versie-tag.
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:57Z'
+      rationale: "A3: de body opent met 3× herhaalde WETBOEK DER SUCCESSIERECHTEN-titel (r.65-75) gevolgd door een TOC-blok met 24 dotted-lines (A2). B3: vijf hoofdstukken zijn gedupliceerd (HOOFDSTUK III, IX, XI, XII, XV), wat wijst op een gedeeltelijke TOC-herhaling midden in het corps. D-onzeker: dubbele Art. 17-blokken op r.342 en r.354 voor verschillende inwerkingtredingsdata ('TOEKOMSTIG RECHT' vs 'van toepassing vanaf 01.08.2022') zijn inhoudelijk correct maar zonder discriminator-heading voor RAG verwarrend. G2: decoratieve asterisk-separatoren op r.131-132 (`*` en `*`) zijn PDF-glyphs."
       concrete_problemen:
-        - 3x herhaalde titel aan begin
-        - 24 TOC-stippen-regels in body
-        - max_section_size 57698 chars
-        - dubbele Art. 17-blokken voor verschillende ingangsdata zonder discriminator-heading
+        - regel: 65
+          categorie: A3
+          type: other
+          voorbeeld: WETBOEK DER SUCCESSIERECHTEN (3× herhaald op r.65, 69, 73)
+        - regel: 82
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: '### HOOFDSTUK XI - Aan derden... ....................................................... 69'
+        - regel: 131
+          categorie: G2
+          type: other
+          voorbeeld: "*                              *\n*"
+        - regel: 342
+          categorie: B3
+          type: other
+          voorbeeld: '##### Art. 17 (r.342) en ##### Art. 17 (r.354) — zelfde artikel-nummer, twee versies zonder discriminator'
+        - regel: 1977
+          categorie: A3
+          type: other
+          voorbeeld: '### HOOFDSTUK XI - Aan derden... (duplicaat van r.1955)'
 chunk:
   level: 5
   type: Art.

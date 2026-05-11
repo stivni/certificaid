@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B5: Tal van ##### Art.-headings fuseren de eerste zin van de body op dezelfde regel als de heading, bv. regel 67 '##### Art. 1.Deze wet regelt...', regel 220 '##### Art. 17.De werknemer is verplicht...', regel 232 '##### Art. 18.Ingeval de werknemer...'. Dit is een stelselmatig extractie-artefact: de heading-anchor sluit body-tekst in, waardoor RAG-chunk-grenzen corrupt worden. Minimaal 10 artikelen getroffen (Art. 1, 2bis, 3bis, 3ter, 11bis, 11ter, 12, 14, 17, 18, 38, 39, 52, 54, ...); patroon is systematisch, niet incidenteel."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,16 +38,26 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Heading + body op dezelfde regel: '##### Art. 54.§ 1. In geval van arbeidsongeschiktheid ...' — heading wordt vervuild met de eerste alinea. Dit komt veelvuldig voor (zie ook Art. 138). Maakt heading-targets onbruikbaar voor RAG-anchoring."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:18Z'
+      rationale: "B5: Tal van ##### Art.-headings fuseren de eerste zin van de body op dezelfde regel als de heading, bv. regel 67 '##### Art. 1.Deze wet regelt...', regel 220 '##### Art. 17.De werknemer is verplicht...', regel 232 '##### Art. 18.Ingeval de werknemer...'. Dit is een stelselmatig extractie-artefact: de heading-anchor sluit body-tekst in, waardoor RAG-chunk-grenzen corrupt worden. Minimaal 10 artikelen getroffen (Art. 1, 2bis, 3bis, 3ter, 11bis, 11ter, 12, 14, 17, 18, 38, 39, 52, 54, ...); patroon is systematisch, niet incidenteel."
       concrete_problemen:
-        - regel: -1
+        - regel: 67
+          categorie: B5
+          type: other
+          voorbeeld: '##### Art. 1.Deze wet regelt de arbeidsovereenkomsten voor werklieden...'
+        - regel: 220
+          categorie: B5
+          type: other
+          voorbeeld: '##### Art. 17.De werknemer is verplicht : 1° zijn werk zorgvuldig...'
+        - regel: 833
+          categorie: B5
           type: other
           voorbeeld: '##### Art. 54.§ 1. In geval van arbeidsongeschiktheid wegens een arbeidsongeval...'
-        - regel: -1
+        - regel: 164
+          categorie: B5
           type: other
-          voorbeeld: '##### Art. 138.[1 De inbreuken op de bepalingen van [2 de artikelen ...'
+          voorbeeld: '##### Art. 11bis.<W 1981-06-23/04, art. 1, 003> De arbeidsovereenkomst gesloten...'
 ---
 
 # Wet arbeidsovereenkomsten 1978

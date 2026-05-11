@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B3: de H1-titel wordt dubbel herhaald op regels 53 en 55 (twee opeenvolgende identieke `# CBN advies 2012/18 ...` regels). D4: heading-labels op regels 264 en 274 bevatten malformed italic (`###### * Uitoefening van een call-optie*` resp. `###### * Uitoefening van een put-optie *`) — spatie na/voor de `*` maakt de italic syntactisch incorrect.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,23 @@ provenance:
       file_size_chars: 39181
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: 'B3: de H1-titel wordt dubbel herhaald op regels 53 en 55 (twee opeenvolgende identieke `# CBN advies 2012/18 ...` regels). D4: heading-labels op regels 264 en 274 bevatten malformed italic (`###### * Uitoefening van een call-optie*` resp. `###### * Uitoefening van een put-optie *`) — spatie na/voor de `*` maakt de italic syntactisch incorrect.'
+      concrete_problemen:
+        - regel: 53
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 2012/18 – De boekhoudkundige verwerking van aandelenopties (als zodanig) [dubbel op r53 en r55]'
+        - regel: 264
+          categorie: D4
+          type: other
+          voorbeeld: '###### * Uitoefening van een call-optie*'
+        - regel: 274
+          categorie: D4
+          type: other
+          voorbeeld: '###### * Uitoefening van een put-optie *'
 gerelateerde_adviezen:
   - titel: De boekhoudkundige verwerking van aandelenoptieplannen
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenoptieplannen

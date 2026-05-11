@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:24:33Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B5: 'Voorbeeld 2' op regel 148 staat als plaintext-label zonder ##/###-heading-prefix, terwijl 'Voorbeeld 1' op regel 87 wél als ## heading staat. Inconsistente heading-behandeling van de twee voorbeelden. Inhoud verder compleet, 32 footnotes correct, geen andere artefacten."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -37,11 +37,15 @@ provenance:
       file_size_chars: 22690
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:24:33Z'
+      rationale: "B5: 'Voorbeeld 2' op regel 148 staat als plaintext-label zonder ##/###-heading-prefix, terwijl 'Voorbeeld 1' op regel 87 wél als ## heading staat. Inconsistente heading-behandeling van de twee voorbeelden. Inhoud verder compleet, 32 footnotes correct, geen andere artefacten."
+      concrete_problemen:
+        - regel: 148
+          categorie: B5
+          type: other
+          voorbeeld: "Voorbeeld 2\n\nNeem bijvoorbeeld het geval van een deelneming...  (geen ##/### prefix, terwijl Voorbeeld 1 wel ## heeft)"
 gerelateerde_adviezen:
   - titel: Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
     url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw

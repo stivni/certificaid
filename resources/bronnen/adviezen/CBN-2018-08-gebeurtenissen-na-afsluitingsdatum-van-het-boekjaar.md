@@ -25,10 +25,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Zelfde patroon als 2018/07: de twee voorbeeld-blokken op regels 96-103 en 160-170 worden omsloten door losse pipe-tekens (`|  ` en `  |`) als mislukte callout-rendering (B3/artefact). Bovendien staan de genummerde voorbeelden 1-8 (regels 96-138) als gebroken paragrafen met lege regels en inspring (A6/A10) — een mens zou deze als gewone genummerde lijst schrijven.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -38,11 +38,23 @@ provenance:
       file_size_chars: 21575
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: 'Zelfde patroon als 2018/07: de twee voorbeeld-blokken op regels 96-103 en 160-170 worden omsloten door losse pipe-tekens (`|  ` en `  |`) als mislukte callout-rendering (B3/artefact). Bovendien staan de genummerde voorbeelden 1-8 (regels 96-138) als gebroken paragrafen met lege regels en inspring (A6/A10) — een mens zou deze als gewone genummerde lijst schrijven.'
+      concrete_problemen:
+        - regel: 96
+          categorie: B3
+          type: other
+          voorbeeld: 1.  \n\nHet bepalen, ten gevolge van een gebeurtenis...
+        - regel: 160
+          categorie: B3
+          type: other
+          voorbeeld: '|  \n\n*Voorbeeld*\n\nEen vennootschap voert haar boekhouding...'
+        - regel: 170
+          categorie: B3
+          type: other
+          voorbeeld: '  | '
 gerelateerde_adviezen:
   - titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen
     url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van

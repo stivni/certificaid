@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "C3: regels 130-132 tonen de bijwerkingslijst als pseudo-tabel met spatie-alignment ('Bijwerking       t.e.m. B.S. van                       Te vervangen pagina's'). Dit is een PDF-extractieartefact. Alle 7 artikelen zijn aanwezig als ## headings en de inhoud is volledig correct. Verder geen noemenswaardige artefacten gevonden."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,18 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '4.5k chars zonder ##-headings; Artikel-markers plain text. Body lijkt grotendeels bijwerkingenlijst — verdient nakijken of feitelijke Artikelen volledig zijn.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "C3: regels 130-132 tonen de bijwerkingslijst als pseudo-tabel met spatie-alignment ('Bijwerking       t.e.m. B.S. van                       Te vervangen pagina's'). Dit is een PDF-extractieartefact. Alle 7 artikelen zijn aanwezig als ## headings en de inhoud is volledig correct. Verder geen noemenswaardige artefacten gevonden."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: '0 ##-headings bij 4454 chars'
+        - regel: 130
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: "       Bijwerking       t.e.m. B.S. van                       Te vervangen pagina's"
+        - regel: 132
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: Bijw. 01 / 01.01.2012     30.12.2011      Volledige uitgave
 ---
 
 # K.B. nr. 6 van 27 december 1977, met betrekking tot de vrijstellingen ten aanzien van internationaal vervoer, zee- en binnenschepen en luchtvaartuigen, op het stuk van de belasting over de toegevoegde waarde

@@ -22,10 +22,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "E1/E2: de tabellen zijn volledig verminkt — elke cel staat op een aparte regel met lege regels ertussen (patroon '| \\n\\nInhoud\\n\\n  |'), waardoor de pipe-tabel-structuur visueel én semantisch onleesbaar is voor een RAG-parser (regels 78–1348). Dit is een fundamenteel extractie-artefact dat de hele tweede helft van het document beslaat. Tekst en voetnoten zijn inhoudelijk intact."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -35,11 +35,23 @@ provenance:
       file_size_chars: 13643
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: "E1/E2: de tabellen zijn volledig verminkt — elke cel staat op een aparte regel met lege regels ertussen (patroon '| \\n\\nInhoud\\n\\n  |'), waardoor de pipe-tabel-structuur visueel én semantisch onleesbaar is voor een RAG-parser (regels 78–1348). Dit is een fundamenteel extractie-artefact dat de hele tweede helft van het document beslaat. Tekst en voetnoten zijn inhoudelijk intact."
+      concrete_problemen:
+        - regel: 78
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: '| Zevende Richtlijn | | Richtlijn 2013/34/EU | \n| Balans | \n| Art. 29 \n\n\t\t\t\t§ 4 |'
+        - regel: 114
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: '| \n\nBoekhoudkundige afschrijving in 5 jaar\n\n  | \n| \n\nJaren\n\n  | | \n\nX\n\n  |'
+        - regel: 219
+          categorie: E2
+          type: other
+          voorbeeld: '| | | | | | | | | | | |  (lege separator-rijen verspreid door tabellen)'
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten

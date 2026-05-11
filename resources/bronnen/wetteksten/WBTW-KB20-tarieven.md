@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A1: 30+ pagina-kopteksten ('Tarieven www.fisconetplus.be KB20 pg. I/1' enz.) doorheen de body op vaste pagina-intervallen — nooit door een mens zo getypt. B4: tabel-rubrieken I t/m XL en Tabel A/B/C staan als plain text zonder ##-prefix; alleen ### Art. 1-artikelen en één ## Afdeling II zijn als headings gemarkeerd. B7: TOC-heading '## AFDELING 5. Slotbepalingen. Art. 22 - 24' eindigt op artikelbereik. Inhoud en volgorde zijn inhoudelijk compleet."
     layer1:
       status: warn
       run_id: 20260509-212552
@@ -42,16 +42,30 @@ provenance:
           samples: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Lange tekst (~147k chars) met slechts 1 ##-heading: de hele KB-tekst zit als één sectie onder de #-titel. 'Artikel N' en 'Tabel A/B'-rubrieken staan als plain text — chunker valt terug op alinea-splitsing. Inhoud lijkt compleet (eindigt netjes met bijwerkingenlijst), maar Article-level retrieval werkt zo niet."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:28Z'
+      rationale: "A1: 30+ pagina-kopteksten ('Tarieven www.fisconetplus.be KB20 pg. I/1' enz.) doorheen de body op vaste pagina-intervallen — nooit door een mens zo getypt. B4: tabel-rubrieken I t/m XL en Tabel A/B/C staan als plain text zonder ##-prefix; alleen ### Art. 1-artikelen en één ## Afdeling II zijn als headings gemarkeerd. B7: TOC-heading '## AFDELING 5. Slotbepalingen. Art. 22 - 24' eindigt op artikelbereik. Inhoud en volgorde zijn inhoudelijk compleet."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: '1 heading (#) bij 147k chars; geen ## per Artikel of Tabel-rubriek'
-        - regel: 0
+        - regel: 121
+          categorie: A1
+          type: form-feed
+          voorbeeld: Tarieven                                       www.fisconetplus.be                             KB20   pg. I/1
+        - regel: 348
+          categorie: A1
+          type: form-feed
+          voorbeeld: T. A - Goederen 6 pct.                       www.fisconetplus.be                          KB20      pg. II/1
+        - regel: 276
+          categorie: B4
           type: other
-          voorbeeld: max_section_size 146945 chars triggert split_long_chunk fallback (QA warn)
+          voorbeeld: BIJLAGE / Tabel A – Goederen en diensten onderworpen aan het tarief van 6 pct. als plain text
+        - regel: 293
+          categorie: B4
+          type: other
+          voorbeeld: 'I.     Levende dieren. (plain text rubriek zonder ##-prefix)'
+        - regel: 100
+          categorie: B7
+          type: dotted-leader
+          voorbeeld: '## AFDELING 5.       Slotbepalingen.                                                    Art. 22 - 24'
 ---
 
 # K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven

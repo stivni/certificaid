@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: vraagstelling, criterium, twee categorieën, antwoord. Geen artefacten.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,10 +36,10 @@ provenance:
       file_size_chars: 2736
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: vraagstelling, criterium, twee categorieën, antwoord. Geen artefacten.'
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Bezit van maatschappelijke rechten in verbonden ondernemingen of in ondernemingen waarmee een deelnemingsverhouding bestaat - Begrip deelneming

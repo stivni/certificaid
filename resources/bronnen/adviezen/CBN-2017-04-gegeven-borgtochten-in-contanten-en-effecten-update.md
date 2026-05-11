@@ -22,10 +22,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: Meerdere malformed italics — spatie vóór het sluitende asterisk: '*Borgtochten betaald in contanten *' (regel 60 en 62) en '*Borgtochten betaald in contanten *' (regel 62). Dit is een gekend PDF-extractiepatroon waarbij spaties rond cursief-markering niet correct worden gesloten. Verder staat ', bijgewerkt op 10 september 2025[^2]' als los fragment na H1 (regel 47)."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -35,11 +35,23 @@ provenance:
       file_size_chars: 2567
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "D4: Meerdere malformed italics — spatie vóór het sluitende asterisk: '*Borgtochten betaald in contanten *' (regel 60 en 62) en '*Borgtochten betaald in contanten *' (regel 62). Dit is een gekend PDF-extractiepatroon waarbij spaties rond cursief-markering niet correct worden gesloten. Verder staat ', bijgewerkt op 10 september 2025[^2]' als los fragment na H1 (regel 47)."
+      concrete_problemen:
+        - regel: 47
+          categorie: A6
+          type: other
+          voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
+        - regel: 60
+          categorie: D4
+          type: other
+          voorbeeld: rekening 418 *Borgtochten betaald in contanten *corresponderen
+        - regel: 62
+          categorie: D4
+          type: other
+          voorbeeld: Op de rekening 288 *Borgtochten betaald in contanten *en 418 *Borgtochten betaald in
 ---
 
 # CBN-advies 2017/04 – Gegeven borgtochten in contanten en effecten (update)

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3/A7: regel 73 bevat een aaneengesloten garbled TOC-string (`---- Boekhoudkundige verwerking-- Back-to-back IRS--...`) als plain-text body-regel — dit is een gedupliceerde TOC die door extractie in de body is terechtgekomen in geconcateneerde vorm, een duidelijk extractie-artefact. A9/B5: regels 490 en 499 bevatten `ndekkings-IRS` (leading 'I' weggevallen), een OCR-like drop in tabellen."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -37,11 +37,23 @@ provenance:
       file_size_chars: 37353
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:18Z'
+      rationale: "A3/A7: regel 73 bevat een aaneengesloten garbled TOC-string (`---- Boekhoudkundige verwerking-- Back-to-back IRS--...`) als plain-text body-regel — dit is een gedupliceerde TOC die door extractie in de body is terechtgekomen in geconcateneerde vorm, een duidelijk extractie-artefact. A9/B5: regels 490 en 499 bevatten `ndekkings-IRS` (leading 'I' weggevallen), een OCR-like drop in tabellen."
+      concrete_problemen:
+        - regel: 73
+          categorie: A3
+          type: scrambled-words
+          voorbeeld: '---- Boekhoudkundige verwerking-- Back-to-back IRS-- De IRS als indekkingsverrichting...'
+        - regel: 490
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: '| | ndekkings-IRS (notioneel van 10.000.000 €, netto balanswaarde van -7.500 €) | -50.000 | | |'
+        - regel: 499
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: '| | ndekkings-IRS (notioneel van 10.000.000 €) | -42.500 | | |'
 ---
 
 # CBN-advies 2011/18 – De boekhoudkundige verwerking van de renteswap (Interest Rate Swap)

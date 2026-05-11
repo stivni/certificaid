@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B5: 'Enig artikel' staat op regel 60 als gecentreerde plain-text regel (met grote witruimte-inspringing) zonder ##-prefix — een mens zou schrijven '## Enig artikel'. Dat is een duidelijk extractie-artefact. Het bestand is verder inhoudelijk compleet (één artikel, volledig) en de frontmatter klopt. Het is een zeer kort MB (1.2KB) waarbij de enige structuurhiërarchie de artikelkop is, die ontbreekt."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,14 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '0 ##-headings; enig artikel staat als plain text. Erg kort (1.2KB).'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:18Z'
+      rationale: "B5: 'Enig artikel' staat op regel 60 als gecentreerde plain-text regel (met grote witruimte-inspringing) zonder ##-prefix — een mens zou schrijven '## Enig artikel'. Dat is een duidelijk extractie-artefact. Het bestand is verder inhoudelijk compleet (één artikel, volledig) en de frontmatter klopt. Het is een zeer kort MB (1.2KB) waarbij de enige structuurhiërarchie de artikelkop is, die ontbreekt."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: geen heading voor enig artikel
+        - regel: 60
+          categorie: B5
+          type: other
+          voorbeeld: '                                             Enig artikel'
 ---
 
 # M.B. van 23 juni 2005, met betrekking tot de delegatie van de bevoegde autoriteit inzake de administratieve samenwerking op het gebied van de belasting over de toegevoegde waarde

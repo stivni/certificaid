@@ -34,10 +34,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Inhoud volledig en goed gestructureerd. Kleine cosmetische onnauwkeurigheid: de 'Schematische voorstelling'-sectie (regels 250-255) bevat drie plain-text regels die de structuur van de bijlagen weergeven, maar dit is inhoudelijk bedoeld als opsomming, niet als headings. Geen structurele extractie-artefacten."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -47,11 +47,15 @@ provenance:
       file_size_chars: 23867
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: "Inhoud volledig en goed gestructureerd. Kleine cosmetische onnauwkeurigheid: de 'Schematische voorstelling'-sectie (regels 250-255) bevat drie plain-text regels die de structuur van de bijlagen weergeven, maar dit is inhoudelijk bedoeld als opsomming, niet als headings. Geen structurele extractie-artefacten."
+      concrete_problemen:
+        - regel: 251
+          categorie: C2
+          type: other
+          voorbeeld: 'Volledig schema van de jaarrekening: Bijlage 6 bij het KB WVV'
 gerelateerde_adviezen:
   - titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening – begroting (update) [ONTWERP]
     url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting-update

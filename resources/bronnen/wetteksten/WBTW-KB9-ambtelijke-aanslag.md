@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Drie problemen: (1) A6/C3: regel 60-61 toont overdreven witruimte in de artikelannotatie ('met                    ingang   van'), typisch column-extractie-artefact. (2) Regels 96-119 bevatten Bijlage A en Bijlage B als plain-tekst blokken met bijwerkingslijsten en een sterretjes-scheidingslijn ('* * * * *'), wat PDF-layout-residu is. (3) G1: regel 109 bevat kale URL 'www.fisconetplus.be' als plain tekst. Alle 4 artikelen aanwezig als ## headings, inhoud volledig."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,26 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: 'Idem KB8: tekst leesbaar maar 0 ##-headings terwijl chunk.level=2. Hele bestand wordt één chunk.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "Drie problemen: (1) A6/C3: regel 60-61 toont overdreven witruimte in de artikelannotatie ('met                    ingang   van'), typisch column-extractie-artefact. (2) Regels 96-119 bevatten Bijlage A en Bijlage B als plain-tekst blokken met bijwerkingslijsten en een sterretjes-scheidingslijn ('* * * * *'), wat PDF-layout-residu is. (3) G1: regel 109 bevat kale URL 'www.fisconetplus.be' als plain tekst. Alle 4 artikelen aanwezig als ## headings, inhoud volledig."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: geen artikel-headings; alle Artikelen staan als plain regels
+        - regel: 60
+          categorie: A6
+          type: other
+          voorbeeld: (De tekst van KB nr. 9, artikel 1, eerste lid, werd gewijzigd met                    ingang   van
+        - regel: 104
+          categorie: A6
+          type: other
+          voorbeeld: '                                             *    *   *     *    *'
+        - regel: 109
+          categorie: G1
+          type: url-plaintext
+          voorbeeld: De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
+        - regel: 98
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: "        Bijwerking                                        Te vervangen pagina's"
 ---
 
 # K.B. nr. 9 van 12 december 1970, met betrekking tot de ambtelijke aanslag inzake belasting over de toegevoegde waarde

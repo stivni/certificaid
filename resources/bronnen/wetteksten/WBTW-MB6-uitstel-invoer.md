@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:51:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Kort besluit (4 artikelen, 1744 tekens). Laag-1 meldt 'pass' en de layer2-prenotitie over '0 ##-headings' is onjuist: het bestand heeft precies 4 ## Art.-headings correct aangemaakt. Structuur klopt, inhoud compleet, geen extractie-artefacten zichtbaar. Opmaak is zuiver, geen OCR-fouten, de lettersgewijze lijst (a–d) in Art. 2 is correct ingesprongen met ruimte maar dat is acceptabel in een wettekst van deze omvang."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -37,14 +37,11 @@ provenance:
       file_size_chars: 1744
       flags: []
     layer2:
-      status: needs-rework
-      agent:
-      run_at:
-      rationale: '0 ##-headings; chunk.level=2 mismatch.'
-      concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: Artikel 1-N zonder heading-prefix
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:18Z'
+      rationale: "Kort besluit (4 artikelen, 1744 tekens). Laag-1 meldt 'pass' en de layer2-prenotitie over '0 ##-headings' is onjuist: het bestand heeft precies 4 ## Art.-headings correct aangemaakt. Structuur klopt, inhoud compleet, geen extractie-artefacten zichtbaar. Opmaak is zuiver, geen OCR-fouten, de lettersgewijze lijst (a–d) in Art. 2 is correct ingesprongen met ruimte maar dat is acceptabel in een wettekst van deze omvang."
+      concrete_problemen: []
 ---
 
 # M.B. nr. 6 van 4 maart 1993, waarbij uitstel wordt verleend voor de voldoening van de ter zake van de invoer van goederen verschuldigde belasting over de toegevoegde waarde

@@ -18,10 +18,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Advies van 2759 chars, vier inhoudelijke alinea's. Geen detecteerbare extractie-artefacten. Geen headings vereist (lopende tekst). Geen italic-markers, geen broken bullets, geen unicode-anomalieën. Inhoud volledig.
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -31,10 +31,10 @@ provenance:
       file_size_chars: 2759
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: Advies van 2759 chars, vier inhoudelijke alinea's. Geen detecteerbare extractie-artefacten. Geen headings vereist (lopende tekst). Geen italic-markers, geen broken bullets, geen unicode-anomalieën. Inhoud volledig.
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van interesten en andere bedragen verschuldigd wegens betalingsachterstand

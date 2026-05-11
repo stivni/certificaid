@@ -18,10 +18,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Twee extractie-artefacten: (1) regel 50 heeft een spurious line-break midden in een zin na '[^2]' gevolgd door een spatie en kleine letter (A6); (2) regel 52 heeft '*' met spatie na '[^3]' waardoor de italic-markering niet sluit — het patroon '[^3] * is' is een broken italic (D4). Inhoud is compleet."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -31,11 +31,19 @@ provenance:
       file_size_chars: 3807
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "Twee extractie-artefacten: (1) regel 50 heeft een spurious line-break midden in een zin na '[^2]' gevolgd door een spatie en kleine letter (A6); (2) regel 52 heeft '*' met spatie na '[^3]' waardoor de italic-markering niet sluit — het patroon '[^3] * is' is een broken italic (D4). Inhoud is compleet."
+      concrete_problemen:
+        - regel: 50
+          categorie: A6
+          type: other
+          voorbeeld: "van het Wetboek van economisch recht[^2]\n kan worden besloten"
+        - regel: 52
+          categorie: D4
+          type: other
+          voorbeeld: vorderingen[^3] * is duidelijk omtrent de classificatie
 gerelateerde_adviezen:
   - titel: Leveranciersschulden en schulden aan de overheid in het kader van een WCO
     url: https://www.cbn-cnc.be/nl/adviezen/leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-een-wco

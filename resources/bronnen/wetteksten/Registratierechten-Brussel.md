@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:57Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A2/B7: de eerste 180+ regels bevatten de volledige TOC met dotted-leaders (paginanummers) die niet verwijderd zijn; dit zijn pure extractie-artefacten die als RAG-chunks zouden meekomen. B4: vier structuurlabels in de body verschijnen als plain-text all-caps regels zonder `#`-prefix (TIJDELIJKE BEPALINGEN r.6513, OVERGANGSBEPALINGEN r.6717, BIJBEPALINGEN r.6829, INWERKINGTREDING r.6858). Het eigenlijke artikel-corpus na de TOC (vanaf r.241) is inhoudelijk goed: correcte `######` Art.-headings, alinea's intact, geen OCR-fouten vastgesteld."
     layer1:
       status: warn
       run_id: 20260509-212552
@@ -44,12 +44,34 @@ provenance:
             - '................................................................................'
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: 'Grote codex met 602 headings, maar Laag-1 meldt 72 TOC-stippen-regels (= TOC niet uit body verwijderd) en max_section_size 58k chars op niveau ######. RAG zal vervuilde TOC-chunks meekrijgen.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:57Z'
+      rationale: "A2/B7: de eerste 180+ regels bevatten de volledige TOC met dotted-leaders (paginanummers) die niet verwijderd zijn; dit zijn pure extractie-artefacten die als RAG-chunks zouden meekomen. B4: vier structuurlabels in de body verschijnen als plain-text all-caps regels zonder `#`-prefix (TIJDELIJKE BEPALINGEN r.6513, OVERGANGSBEPALINGEN r.6717, BIJBEPALINGEN r.6829, INWERKINGTREDING r.6858). Het eigenlijke artikel-corpus na de TOC (vanaf r.241) is inhoudelijk goed: correcte `######` Art.-headings, alinea's intact, geen OCR-fouten vastgesteld."
       concrete_problemen:
-        - 72 TOC-stippen-regels (TOC niet ontkoppeld)
-        - max_section_size 58083 chars
+        - regel: 75
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: '## TITEL I - REGISTRATIERECHT............... 6'
+        - regel: 77
+          categorie: B7
+          type: dotted-leader
+          voorbeeld: '### HOOFDSTUK I - Formaliteit der registratie en vestiging van de belasting ...............................................6'
+        - regel: 6513
+          categorie: B4
+          type: other
+          voorbeeld: TIJDELIJKE BEPALINGEN
+        - regel: 6717
+          categorie: B4
+          type: other
+          voorbeeld: OVERGANGSBEPALINGEN
+        - regel: 6829
+          categorie: B4
+          type: other
+          voorbeeld: BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL GELIJKGESTELDE TAKSEN
+        - regel: 6858
+          categorie: B4
+          type: other
+          voorbeeld: INWERKINGTREDING
 chunk:
   level: 6
   type: Art.

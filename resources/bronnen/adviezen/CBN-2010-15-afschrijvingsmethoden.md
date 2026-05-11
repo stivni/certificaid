@@ -36,10 +36,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Regel 61–76: een genummerde inhoudsopgave staat als plain text in de body, inclusief een samengeperste dubbele TOC-regel op regel 76 ('-- Lineaire afschrijvingsmethoden-- Boekhoudkundige...'). Dit is een A3/A2-artefact (TOC-fragment verdubbeld en als plain text gerenderd). Regel 190: opening italic-marker '*Voorbeeld' zonder sluit-asterisk op diezelfde regel (D4). Regel 204: '*Gemengde bedrijfsdrukte *' — spatie voor sluit-asterisk geeft malformed italic. Inhoud zelf compleet."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -49,11 +49,27 @@ provenance:
       file_size_chars: 24171
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: "Regel 61–76: een genummerde inhoudsopgave staat als plain text in de body, inclusief een samengeperste dubbele TOC-regel op regel 76 ('-- Lineaire afschrijvingsmethoden-- Boekhoudkundige...'). Dit is een A3/A2-artefact (TOC-fragment verdubbeld en als plain text gerenderd). Regel 190: opening italic-marker '*Voorbeeld' zonder sluit-asterisk op diezelfde regel (D4). Regel 204: '*Gemengde bedrijfsdrukte *' — spatie voor sluit-asterisk geeft malformed italic. Inhoud zelf compleet."
+      concrete_problemen:
+        - regel: 61
+          categorie: A3
+          type: other
+          voorbeeld: 1. Waarderingsregels \n  1. Algemeen \n  2. Oprichtingskosten ...
+        - regel: 76
+          categorie: A3
+          type: other
+          voorbeeld: -- Lineaire afschrijvingsmethoden-- Boekhoudkundige degressieve afschrijvingsmethoden-- ...
+        - regel: 190
+          categorie: D4
+          type: other
+          voorbeeld: '*Voorbeeld '
+        - regel: 204
+          categorie: D4
+          type: other
+          voorbeeld: '- *Gemengde bedrijfsdrukte * '
 ---
 
 # CBN-advies 2010/15 - Afschrijvingsmethoden Advies van 6 oktober 2010

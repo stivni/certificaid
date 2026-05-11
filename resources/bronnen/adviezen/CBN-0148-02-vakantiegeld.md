@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: regel 57 bevat '*littera *d)' — spatie vóór de sluitende asterisk (bekend ETL-patroon '*term *'). Geen voetnoten in dit advies, inhoud verder volledig."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -32,11 +32,15 @@ provenance:
       file_size_chars: 2224
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: "D4: regel 57 bevat '*littera *d)' — spatie vóór de sluitende asterisk (bekend ETL-patroon '*term *'). Geen voetnoten in dit advies, inhoud verder volledig."
+      concrete_problemen:
+        - regel: 57
+          categorie: D4
+          type: other
+          voorbeeld: artikel 31, § 1, *littera *d), van de vierde EEG-richtlijn
 gerelateerde_adviezen:
   - titel: 'Verenigingen en Stichtingen: roerende voorheffing'
     url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Meerdere categorie B en C problemen. B5: tenminste 12 artikelen staan als gecentreerde plain-text regels (met 38–42 spaties inspringing) zonder heading-prefix: Artikel 5 t.m. 12 (regels 215–275), Artikel 46 (regel 580), Artikel 64 (regel 711), Artikel 86 (regel 891), Artikel 132 (regel 1437). B2: de heading-hiërarchie springt van ## direct naar ###### voor artkel-nummers, wat onnatuurlijk is. C3: pseudo-tabel BTW-codes op regels 309–323 (ASCII column-alignment met grote witruimte). A6: 'GEREGISTREERD KASSASYSTEEM' op regel 188 staat als gecentreerde plain-text over twee regels in plaats van als heading. De rest van het MB (122 ####### Art.-nummers) is correct gestructureerd maar de inconsistentie is significant."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,19 +38,38 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "TOC werd als echte headings ingelezen: 60 TOC-stippen-regels eindigen in een paginanummer en zijn geinjecteerd als ##/###/####-headings (bijv. '## TITEL I. - ALGEMENE BEPALINGEN ............ 4'). Dat vervuilt RAG ernstig. Verder staat de hoofdtekst zonder per-artikel-headings (max sectie 96506 chars, 124 headings die voornamelijk TOC zijn)."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:18Z'
+      rationale: "Meerdere categorie B en C problemen. B5: tenminste 12 artikelen staan als gecentreerde plain-text regels (met 38–42 spaties inspringing) zonder heading-prefix: Artikel 5 t.m. 12 (regels 215–275), Artikel 46 (regel 580), Artikel 64 (regel 711), Artikel 86 (regel 891), Artikel 132 (regel 1437). B2: de heading-hiërarchie springt van ## direct naar ###### voor artkel-nummers, wat onnatuurlijk is. C3: pseudo-tabel BTW-codes op regels 309–323 (ASCII column-alignment met grote witruimte). A6: 'GEREGISTREERD KASSASYSTEEM' op regel 188 staat als gecentreerde plain-text over twee regels in plaats van als heading. De rest van het MB (122 ####### Art.-nummers) is correct gestructureerd maar de inconsistentie is significant."
       concrete_problemen:
-        - regel: 51
+        - regel: 215
+          categorie: B5
           type: other
-          voorbeeld: '## TITEL I. - ALGEMENE BEPALINGEN EN DEFINITIES ............................................................................................................. 4'
-        - regel: 56
+          voorbeeld: '                                      Artikel 5. Event Normal'
+        - regel: 580
+          categorie: B5
           type: other
-          voorbeeld: '### HOOFDSTUK 1. - Technische eisen ten aanzien van het gecertificeerd kassasysteem...................................... 7'
-        - regel: 0
-          type: missing-section
-          voorbeeld: Art. 132 staat in body maar geen Art.-headings voor de overige artikelen
+          voorbeeld: Artikel 46. Elk kassasysteem moet voorzien zijn van een modelaanduiding...
+        - regel: 711
+          categorie: B5
+          type: other
+          voorbeeld: Artikel 64. De FDM bevat minimaal volgende tellers...
+        - regel: 891
+          categorie: B5
+          type: other
+          voorbeeld: Artikel 86\nHieronder worden zowel de configuratie...
+        - regel: 1437
+          categorie: B5
+          type: other
+          voorbeeld: Artikel 132. Dit besluit vervangt Circulaire AAFisc Nr. 33/2016...
+        - regel: 309
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: BTW-                                             BTW-         CODE                          TAUX      DE
+        - regel: 188
+          categorie: A6
+          type: other
+          voorbeeld: '## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\n                                 GEREGISTREERD KASSASYSTEEM'
 ---
 
 # M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem

@@ -22,10 +22,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Twee problemen: (1) D4/andere: heading '### Op de vervandag' (regel 91) bevat een typefout 'vervandag' i.p.v. 'vervaldag' — consistent met een OCR- of scraper-artefact. (2) E2: tabelcel op regel 100 bevat '6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 |' — het cijfer '1' is een voetnootlabel dat in de cel gelekt is."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -35,11 +35,19 @@ provenance:
       file_size_chars: 3522
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: "Twee problemen: (1) D4/andere: heading '### Op de vervandag' (regel 91) bevat een typefout 'vervandag' i.p.v. 'vervaldag' — consistent met een OCR- of scraper-artefact. (2) E2: tabelcel op regel 100 bevat '6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 |' — het cijfer '1' is een voetnootlabel dat in de cel gelekt is."
+      concrete_problemen:
+        - regel: 91
+          categorie: D4
+          type: other
+          voorbeeld: '### Op de vervandag'
+        - regel: 100
+          categorie: E2
+          type: other
+          voorbeeld: '| 6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |'
 gerelateerde_adviezen:
   - titel: Waardeverminderingen op handelsvorderingen, gedekt door een kredietverzekering (update) [ONTWERP]
     url: https://www.cbn-cnc.be/nl/adviezen/waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering-update

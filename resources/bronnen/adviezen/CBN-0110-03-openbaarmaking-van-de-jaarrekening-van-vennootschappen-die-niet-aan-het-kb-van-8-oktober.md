@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Advies in vraag-antwoord formaat (parlementaire vraag + Ministerantwoord). Geen headings — correct voor dit formaat. Twee voetnoten aanwezig en gedefineerd. Geen artefacten, geen spurious breaks. Cursivering van 'Antwoord van de Minister van Economische Zaken' op regel 71 correct als aanduiding van het citaat-kader.
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,10 +33,10 @@ provenance:
       file_size_chars: 4599
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: Advies in vraag-antwoord formaat (parlementaire vraag + Ministerantwoord). Geen headings — correct voor dit formaat. Twee voetnoten aanwezig en gedefineerd. Geen artefacten, geen spurious breaks. Cursivering van 'Antwoord van de Minister van Economische Zaken' op regel 71 correct als aanduiding van het citaat-kader.
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren

@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: twee tabelrijen zijn gesplitst over twee markdown-regels met tab-inspringing (regels 80-81 en 83-84 — 'Theoretische eindinventaris\\n\\t\\t\\t(tegen detailprijs)'), wat de markdown-tabel breekt en RAG-parsing verstoort. C3: de tabel bevat ASCII-art scheidingsrijen ('--------- | -------------') als table-body-cellen in plaats van als echte tabel-rijen."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,19 @@ provenance:
       file_size_chars: 4670
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: "E2: twee tabelrijen zijn gesplitst over twee markdown-regels met tab-inspringing (regels 80-81 en 83-84 — 'Theoretische eindinventaris\\n\\t\\t\\t(tegen detailprijs)'), wat de markdown-tabel breekt en RAG-parsing verstoort. C3: de tabel bevat ASCII-art scheidingsrijen ('--------- | -------------') als table-body-cellen in plaats van als echte tabel-rijen."
+      concrete_problemen:
+        - regel: 80
+          categorie: E2
+          type: other
+          voorbeeld: '| | Theoretische eindinventaris\n\t\t\t(tegen detailprijs) | 22.000 | | |'
+        - regel: 73
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '| | --------- | ------------- | | | (ASCII-art scheidingsrij als tabelcel)'
 gerelateerde_adviezen:
   - titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
     url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp

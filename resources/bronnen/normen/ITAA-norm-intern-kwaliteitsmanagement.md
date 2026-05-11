@@ -31,10 +31,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Drie categorieën zware artefacten: A8 (tweetalige NL+FR headings door column-bleed: 'Aanvaarding van opdrachten Acceptation de missions', 'Fin des relations clients', 'Documentatie Documentation'), B1/B7 (heading kapt mid-woord af: '## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP' zonder 'KANTOORNIVEAU'), en D1 (zin L80 is broken: 'dient cliëntenbestand en evenredig...' — mist de tussenliggende zin). Bovendien staat 'KANTOORNIVEAU' als plain-text-vervolg van de gebroken heading en bevat '## Fin des relations clients' een heading zonder NL-tegenhanger die losse FR-body-content bevat ('demande.') zonder context."
     layer1:
       status: pass
       run_id: 20260511-085756
@@ -45,25 +45,34 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Tweetalig NL/FR niet goed gescheiden: heading L228 'Aanvaarding van opdrachten Acceptation de missions' (NL+FR samengeplakt), L251 '## Fin des relations clients' (FR-only sectie naast NL 'Beëindigen van cliëntenrelaties' L245), L289 '## Documentatie Documentation' (bilingual). Truncated heading L141 '## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP' eindigt midden in 'OP' (vervolg 'CABINET Doelstelling' L143 niet als heading). Sectie 1-16 vereisten staan in body maar zonder eigen ## headings."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:58Z'
+      rationale: "Drie categorieën zware artefacten: A8 (tweetalige NL+FR headings door column-bleed: 'Aanvaarding van opdrachten Acceptation de missions', 'Fin des relations clients', 'Documentatie Documentation'), B1/B7 (heading kapt mid-woord af: '## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP' zonder 'KANTOORNIVEAU'), en D1 (zin L80 is broken: 'dient cliëntenbestand en evenredig...' — mist de tussenliggende zin). Bovendien staat 'KANTOORNIVEAU' als plain-text-vervolg van de gebroken heading en bevat '## Fin des relations clients' een heading zonder NL-tegenhanger die losse FR-body-content bevat ('demande.') zonder context."
       concrete_problemen:
-        - regel: 141
+        - regel: 172
+          categorie: B1
           type: abrupt-cutoff
-          voorbeeld: "'## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP' — heading kapt af, vervolg 'CABINET Doelstelling' L143 als plain text"
-        - regel: 228
+          voorbeeld: "'## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP' — heading kapt af; vervolg 'CABINET Doelstelling' op r174 als plain text"
+        - regel: 260
+          categorie: A8
           type: column-bleed
-          voorbeeld: "'## Aanvaarding van opdrachten Acceptation de missions' — NL+FR-titel samengeplakt"
-        - regel: 251
+          voorbeeld: "'## Aanvaarding van opdrachten Acceptation de missions' — NL+FR samengeplakt"
+        - regel: 284
+          categorie: A8
           type: column-bleed
-          voorbeeld: "'## Fin des relations clients' — losse FR-sectie zonder NL pendant"
-        - regel: 289
+          voorbeeld: "'## Fin des relations clients' — losse FR-sectie-heading zonder NL-equivalent"
+        - regel: 323
+          categorie: A8
           type: column-bleed
           voorbeeld: "'## Documentatie Documentation' — bilingual heading"
-        - regel: 51
+        - regel: 80
+          categorie: D1
           type: abrupt-cutoff
-          voorbeeld: "'- dat de beroepsbeoefenaar hierbij zijn beroepsactiviteiten dient cliëntenbestand en evenredig...' — overslaat 'organiseren in functie van de aard en de omvang van het'"
+          voorbeeld: "'dient cliëntenbestand en evenredig met de complexiteit...' — mist 'organiseren in functie van de aard en de omvang van het'"
+        - regel: 71
+          categorie: B4
+          type: other
+          voorbeeld: "'Inleiding RAAD VAN HET INSTITUUT VAN DE BELASTINGADVISEURS EN DE ACCOUNTANTS,' als plain-text-regel — had heading moeten zijn"
 ---
 
 ## NORM ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT

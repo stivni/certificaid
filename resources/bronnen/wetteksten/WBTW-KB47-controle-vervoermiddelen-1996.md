@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A1: op regels 109, 167, 233, 256 staan pagina-scheidingsresten 'Vervoermiddelen                               www.fisconetplus.be                                      pg. N' — volledig identiek patroon als in KB41. A6: Art. 3, 4, 5, 7 hebben niet-gesloten haakjes in de wijzigingsnotitie (opening '(' maar geen ')'), wat een extractie-artefact is van de pdf-header-indentatie. Overigens zijn de 11 ## headings aanwezig en de inhoud volledig. KB is opgeheven per 22.07.2019 — dit is correct gedocumenteerd in de body."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,30 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '17k chars zonder ##-headings; degraded chunking. KB is opgeheven per 22.07.2019 (correct vermeld). Body intact.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "A1: op regels 109, 167, 233, 256 staan pagina-scheidingsresten 'Vervoermiddelen                               www.fisconetplus.be                                      pg. N' — volledig identiek patroon als in KB41. A6: Art. 3, 4, 5, 7 hebben niet-gesloten haakjes in de wijzigingsnotitie (opening '(' maar geen ')'), wat een extractie-artefact is van de pdf-header-indentatie. Overigens zijn de 11 ## headings aanwezig en de inhoud volledig. KB is opgeheven per 22.07.2019 — dit is correct gedocumenteerd in de body."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: '0 ##-headings bij 16906 chars'
+        - regel: 109
+          categorie: A1
+          type: form-feed
+          voorbeeld: Vervoermiddelen                               www.fisconetplus.be                                      pg. 1
+        - regel: 167
+          categorie: A1
+          type: form-feed
+          voorbeeld: Vervoermiddelen                                www.fisconetplus.be                                    pg. 2
+        - regel: 233
+          categorie: A1
+          type: form-feed
+          voorbeeld: Vervoermiddelen                               www.fisconetplus.be                                      pg. 3
+        - regel: 256
+          categorie: A1
+          type: form-feed
+          voorbeeld: Vervoermiddelen                              www.fisconetplus.be                                     pg. 4
+        - regel: 111
+          categorie: D4
+          type: other
+          voorbeeld: (De tekst van KB nr. 47, artikel 3, is van toepassing met ingang van 09.09.2005\n       (Art. 4, KB 24.08.2005) B.S. 09.09.2005 — haakje niet gesloten voor body-tekst
 ---
 
 # K.B. nr. 47 van 25 februari 1996, tot regeling van de controle van de voldoening van de BTW verschuldigd ter zake van de levering, intracommunautaire verwerving en invoer van vervoermiddelen, in de zin van artikel 8bis, § 2, 1°, van het Wetboek

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:43:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B5: Bestand opent direct met '§ 1.' op regel 53 zonder Art. 1 heading — het eerste artikel ontbreekt als heading. E1/C3: Tarieftabellen (Art. 9) zijn volledig samengeperst tot één lange pseudo-tabelregel met spatie-alignment ipv markdown pipe-syntax: alle kolommen (aantal PK, assen, luchtvering, andere ophanging, bedragen) staan als één aaneengesloten tekst met meerdere spaties als scheiding. Laag-1 rapporteerde 'pass' maar de tariefblok-structuur is niet RAG-proof."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,12 +38,22 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: Body opent meteen met '§ 1.' zonder eerste Art.-heading — Art. 1 ontbreekt als heading; voorbij Art. 1 zijn er 125 Art.-headings. Hoofdstuk-tabellen met meerkolomstarieven samengeperst tot één regel (zware kolom-bleed in cijferlijsten).
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:43:15Z'
+      rationale: "B5: Bestand opent direct met '§ 1.' op regel 53 zonder Art. 1 heading — het eerste artikel ontbreekt als heading. E1/C3: Tarieftabellen (Art. 9) zijn volledig samengeperst tot één lange pseudo-tabelregel met spatie-alignment ipv markdown pipe-syntax: alle kolommen (aantal PK, assen, luchtvering, andere ophanging, bedragen) staan als één aaneengesloten tekst met meerdere spaties als scheiding. Laag-1 rapporteerde 'pass' maar de tariefblok-structuur is niet RAG-proof."
       concrete_problemen:
-        - 'body start zonder #### Art. 1'
-        - tariefstabellen plat als één paragraaf (kolom-bleed)
+        - regel: 53
+          categorie: B5
+          type: other
+          voorbeeld: § 1. Onder stoom- of motorvoertuigen worden namelijk verstaan... — Art. 1 body zonder heading
+        - regel: 173
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: '  Aantal PK Bedrag der belasting in euro — ruimte-alignment ipv pipe-syntax'
+        - regel: 230
+          categorie: A8
+          type: column-bleed
+          voorbeeld: Gelijk aan of Minder Luchtvering of als gelijkwaardig erkende Andere ophangsystemen... — meerdere kolommen op één regel
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofdstedelijk Gewest

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Ernstigste problemen in deze batch: (1) A3: dubbele TOC mid-body — inhoudstafel op regels 65-85 (met lege afdeling-stubs) wordt daarna HERHAALD als echte headings/secties, wat verdubbeling geeft; (2) A1: meerdere pagina-footers mid-body ('Regeling kleine ondernemingen  www.fisconetplus.be  pg. N' op regels 465, 527, 589, 653, 725); (3) G3: KB nr. 19 (kleine ondernemingen) begint plotseling op regel 408 midden in de bijlage van KB 18 — het bestand bevat inhoud van twee KBs door elkaar; (4) C3: Bijlage-tabellen als ASCII-pseudo-tabel; (5) A8: 7-spaties-inspringing in wijzigings-annotaties. De KB19-contaminatie is een structureel probleem."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,38 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '18 headings (Hoofdstuk + Afdelingen) wel aanwezig, met inhoudstafel mid-body. Maar tail toont opnieuw Fisconet-bijwerkings-blok zonder echte Art.-headings. Max-section 41565 chars op #### niveau (>24000). Inhoudstafel niet ontkoppeld van body.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:58Z'
+      rationale: "Ernstigste problemen in deze batch: (1) A3: dubbele TOC mid-body — inhoudstafel op regels 65-85 (met lege afdeling-stubs) wordt daarna HERHAALD als echte headings/secties, wat verdubbeling geeft; (2) A1: meerdere pagina-footers mid-body ('Regeling kleine ondernemingen  www.fisconetplus.be  pg. N' op regels 465, 527, 589, 653, 725); (3) G3: KB nr. 19 (kleine ondernemingen) begint plotseling op regel 408 midden in de bijlage van KB 18 — het bestand bevat inhoud van twee KBs door elkaar; (4) C3: Bijlage-tabellen als ASCII-pseudo-tabel; (5) A8: 7-spaties-inspringing in wijzigings-annotaties. De KB19-contaminatie is een structureel probleem."
       concrete_problemen:
-        - TOC ('Inhoudstafel') in body
-        - 'max_section_size 41565 chars op #### niveau'
-        - bijwerkingsblok aan einde zonder structuur
+        - regel: 65
+          categorie: A3
+          type: other
+          voorbeeld: '## HOOFDSTUK I — Vrijstelling ingesteld bij artikel 39, § 1, van het Wetboek (TOC-stub)'
+        - regel: 86
+          categorie: A3
+          type: other
+          voorbeeld: '## HOOFDSTUK I\n          Vrijstelling ingesteld bij artikel 39, § 1 (herhaling als echte sectie)'
+        - regel: 408
+          categorie: G3
+          type: other
+          voorbeeld: Koninklijk besluit nr. 19, van 29 juni 2014, met betrekking tot de vrijstellingsregeling...
+        - regel: 465
+          categorie: A1
+          type: form-feed
+          voorbeeld: Regeling kleine ondernemingen                  www.fisconetplus.be                                      pg.1
+        - regel: 527
+          categorie: A1
+          type: form-feed
+          voorbeeld: Regeling kleine ondernemingen                 www.fisconetplus.be                                      pg.2
+        - regel: 599
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '                                 Omschrijving                                  GN-Code'
+        - regel: 90
+          categorie: A6
+          type: other
+          voorbeeld: (De tekst van KB        nr.   18,   artikel    1,   is   van   toepassing     met    ingang    van    01.01.1993
 ---
 
 # K.B. nr. 18 van 29 december 1992, met betrekking tot de vrijstellingen ten aanzien van de uitvoer van goederen en diensten naar een plaats buiten de Gemeenschap, op het stuk van de belasting over de toegevoegde waarde

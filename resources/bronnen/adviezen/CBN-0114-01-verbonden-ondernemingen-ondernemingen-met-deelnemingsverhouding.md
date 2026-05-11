@@ -22,10 +22,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D3/D: Voetnoten [^5] (regel 91) en [^6] (regel 93) bevatten identieke definitie 'Rubrieken 7301 tot 7312.' — één van beide is bijna zeker verkeerd (in het bronadvies verwijst [^5] naar schulden en [^6] naar financiële opbrengsten). Dit is een extractiefout die de inhoud aantast. Verder geen heading-structuur (alle tekst is één blok; Laag-1 meldt heading_count: 0), wat voor RAG-chunking suboptimaal maar niet noodzakelijk een rework-grond is. De duplicate footnote is het doorslaggevende probleem."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -35,11 +35,19 @@ provenance:
       file_size_chars: 4445
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: "D3/D: Voetnoten [^5] (regel 91) en [^6] (regel 93) bevatten identieke definitie 'Rubrieken 7301 tot 7312.' — één van beide is bijna zeker verkeerd (in het bronadvies verwijst [^5] naar schulden en [^6] naar financiële opbrengsten). Dit is een extractiefout die de inhoud aantast. Verder geen heading-structuur (alle tekst is één blok; Laag-1 meldt heading_count: 0), wat voor RAG-chunking suboptimaal maar niet noodzakelijk een rework-grond is. De duplicate footnote is het doorslaggevende probleem."
+      concrete_problemen:
+        - regel: 91
+          categorie: D3
+          type: other
+          voorbeeld: '[^5]: Rubrieken 7301 tot 7312. — identiek aan [^6] op regel 93'
+        - regel: 93
+          categorie: D3
+          type: other
+          voorbeeld: '[^6]: Rubrieken 7301 tot 7312. — duplicaat van [^5], inhoudelijk onjuist'
 gerelateerde_adviezen:
   - titel: Uitdrukking van verrichtingen tussen ondernemingen uit eenzelfde groep
     url: https://www.cbn-cnc.be/nl/adviezen/uitdrukking-van-verrichtingen-tussen-ondernemingen-uit-eenzelfde-groep

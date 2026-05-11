@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "MB met volledige inhoud. Art. 1, 2 en 3 staan correct als ## headings op regels 63, 80 en 85. Geen PDF-artefacten, geen kolom-bleed, geen scrambled text. De eerdere layer2-notitie '0 ##-headings' was incorrect. Laag-1 pass."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -37,14 +37,11 @@ provenance:
       file_size_chars: 2200
       flags: []
     layer2:
-      status: needs-rework
-      agent:
-      run_at:
-      rationale: '0 ##-headings; chunk.level=2 mismatch.'
-      concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: Artikelen als gecentreerde plain regels
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "MB met volledige inhoud. Art. 1, 2 en 3 staan correct als ## headings op regels 63, 80 en 85. Geen PDF-artefacten, geen kolom-bleed, geen scrambled text. De eerdere layer2-notitie '0 ##-headings' was incorrect. Laag-1 pass."
+      concrete_problemen: []
 ---
 
 # M.B. nr. 2 van 21 december 2010, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde

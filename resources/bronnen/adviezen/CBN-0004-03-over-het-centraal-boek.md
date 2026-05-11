@@ -18,10 +18,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:51:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Geen U+2010-dashes, geen HTML-entities, geen duplicate headings. Kleine typefouten ('verichten' r55, 'reed' r57) zijn aanwezig in de brontekst en niet ETL-geïnduceerd; ze zijn consistent met de historische taal van het advies (1981). Inhoud volledig, geen afgekapte zinnen, geen structuurproblemen.
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -31,11 +31,19 @@ provenance:
       file_size_chars: 2604
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:19Z'
+      rationale: Geen U+2010-dashes, geen HTML-entities, geen duplicate headings. Kleine typefouten ('verichten' r55, 'reed' r57) zijn aanwezig in de brontekst en niet ETL-geïnduceerd; ze zijn consistent met de historische taal van het advies (1981). Inhoud volledig, geen afgekapte zinnen, geen structuurproblemen.
+      concrete_problemen:
+        - regel: 55
+          categorie: D1
+          type: other
+          voorbeeld: en het verichten van een samenvattende boeking
+        - regel: 57
+          categorie: D1
+          type: other
+          voorbeeld: de onuitwisbaarheid van de boekingen niet reed wordt gewaarborgd
 gerelateerde_adviezen:
   - titel: Bewaring van de boeken en verantwoordingsstukken
     url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken

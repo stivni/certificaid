@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: op r67 staat '*\" het steeds de bedoeling...' — de opening asterisk voor een aanhalingsteken gevolgd door een spatie is een malformed italic-marker (patroon '* \"'). Zelfde patroon op r61: 'rekening 150 *Kapitaalsubsidie *van de vennootschap'. Klein bestand (3 secties), maar beide instances zijn echt ETL-spatie-artefacten."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,19 @@ provenance:
       file_size_chars: 4775
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: "D4: op r67 staat '*\" het steeds de bedoeling...' — de opening asterisk voor een aanhalingsteken gevolgd door een spatie is een malformed italic-marker (patroon '* \"'). Zelfde patroon op r61: 'rekening 150 *Kapitaalsubsidie *van de vennootschap'. Klein bestand (3 secties), maar beide instances zijn echt ETL-spatie-artefacten."
+      concrete_problemen:
+        - regel: 67
+          categorie: D4
+          type: other
+          voorbeeld: '*" het steeds de bedoeling van de wetgever is geweest...'
+        - regel: 61
+          categorie: D4
+          type: other
+          voorbeeld: 150 *Kapitaalsubsidie *van de vennootschap
 ---
 
 # CBN-advies 2010/2 – De boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 van het Wetboek van de Inkomstenbelastingen 1992 – Update Advies van 10 februari 2010

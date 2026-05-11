@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Geen merkbare extractie-artefacten. Eenvoudige maar correcte structuur met twee ## headings. Inhoud volledig: definitie wentelkrediet, voorbeeld, revolving krediet en boekhoudkundige verwerking. Voetnoten aanwezig. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,10 +33,10 @@ provenance:
       file_size_chars: 6852
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:18Z'
+      rationale: 'Geen merkbare extractie-artefacten. Eenvoudige maar correcte structuur met twee ## headings. Inhoud volledig: definitie wentelkrediet, voorbeeld, revolving krediet en boekhoudkundige verwerking. Voetnoten aanwezig. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien.'
       concrete_problemen: []
 ---
 

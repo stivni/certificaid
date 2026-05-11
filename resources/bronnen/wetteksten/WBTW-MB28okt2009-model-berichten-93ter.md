@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'D2: de bijlagen 1, 2 en 3 (modellen van de berichten en kennisgevingen) worden in de artikelen 1–3 expliciet vermeld als inhoud van dit MB, maar staan op regels 98–102 als gecentreerde plain-text placeholders zonder enige inhoud — de modellen zelf zijn niet geëxtraheerd. Dit is een duidelijke ontbrekende sectie die de bruikbaarheid voor RAG beperkt. Art. 1–5 hebben wel correcte ## headings en de artikelstructuur is verder compleet.'
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,16 +38,14 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "0 ##-headings; bovendien staat 'Bijlage 1/2/3' als lege placeholders aan het eind — modellen zelf ontbreken in tekst."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:18Z'
+      rationale: 'D2: de bijlagen 1, 2 en 3 (modellen van de berichten en kennisgevingen) worden in de artikelen 1–3 expliciet vermeld als inhoud van dit MB, maar staan op regels 98–102 als gecentreerde plain-text placeholders zonder enige inhoud — de modellen zelf zijn niet geëxtraheerd. Dit is een duidelijke ontbrekende sectie die de bruikbaarheid voor RAG beperkt. Art. 1–5 hebben wel correcte ## headings en de artikelstructuur is verder compleet.'
       concrete_problemen:
-        - regel: 0
+        - regel: 98
+          categorie: D2
           type: missing-section
-          voorbeeld: 'geen ##-Art. headings'
-        - regel: -1
-          type: missing-section
-          voorbeeld: Bijlage 1/2/3 als lege regels — modellen niet geëxtraheerd
+          voorbeeld: '                             Bijlage 1\n\n                             Bijlage 2\n\n                             Bijlage 3'
 ---
 
 # M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992

@@ -22,10 +22,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Geen artefacten gevonden in categorie A-G. Advies is kort maar volledig: één alinea die duidelijk uitlegt waarom de actuariële methode van 139/5 niet geldt en welke alternatieve aanpak (marktvoorwaarden) van toepassing is. Laag-1 pass, heading_count 0 is correct voor een paragraaf-only advies.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -35,10 +35,10 @@ provenance:
       file_size_chars: 609
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: 'Geen artefacten gevonden in categorie A-G. Advies is kort maar volledig: één alinea die duidelijk uitlegt waarom de actuariële methode van 139/5 niet geldt en welke alternatieve aanpak (marktvoorwaarden) van toepassing is. Laag-1 pass, heading_count 0 is correct voor een paragraaf-only advies.'
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders

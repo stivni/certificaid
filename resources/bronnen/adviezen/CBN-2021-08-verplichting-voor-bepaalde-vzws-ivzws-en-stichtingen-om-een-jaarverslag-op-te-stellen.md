@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: malformed italic op L80 — '### Toepassingsgebied *ratione temporis *' heeft een spatie vóór de afsluitende asterisk in een heading. E2: alle vier groottecriteria-tabellen missen een scheidingsrij (|---|---|...) na de headerrij, waardoor ze technisch geen geldige markdown-tabellen zijn. Inhoud is volledig en de 14 headings zijn correct."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,31 @@ provenance:
       file_size_chars: 16885
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:41Z'
+      rationale: "D4: malformed italic op L80 — '### Toepassingsgebied *ratione temporis *' heeft een spatie vóór de afsluitende asterisk in een heading. E2: alle vier groottecriteria-tabellen missen een scheidingsrij (|---|---|...) na de headerrij, waardoor ze technisch geen geldige markdown-tabellen zijn. Inhoud is volledig en de 14 headings zijn correct."
+      concrete_problemen:
+        - regel: 80
+          categorie: D4
+          type: other
+          voorbeeld: '### Toepassingsgebied *ratione temporis *'
+        - regel: 122
+          categorie: E2
+          type: other
+          voorbeeld: '| Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/12/2017 | | 31/12/2018 | (geen |---|---| rij)'
+        - regel: 144
+          categorie: E2
+          type: other
+          voorbeeld: '| Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/08/2017 | | 31/08/2018 | (geen |---|---| rij)'
+        - regel: 178
+          categorie: E2
+          type: other
+          voorbeeld: '| Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/12/2017 | | 31/12/2018 | (geen |---|---| rij)'
+        - regel: 197
+          categorie: E2
+          type: other
+          voorbeeld: '| Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/12/2017 | | 31/12/2018 | (geen |---|---| rij)'
 gerelateerde_adviezen:
   - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0

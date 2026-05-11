@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A8/kolom-bleed: regel 86 'Disposition temporaire\\t\\t\\t\\t\\t\\t Art. 13ter' is een twee-kolom-extractie-fout (FR-label + NL-artikel op één regel). B3: TOC-headings (AFDELING 1–5 met Art.-bereiken) worden exact herhaald als echte inhoud-headings zonder paginanummer — dit zijn dubbele headings. B7: de vijf initiële ## AFDELING-headings (regels 71–100) eindigen op paginabereiken ('Art. 1 - 8', 'Art. 14 - 15', ...) die TOC-rest zijn. Inhoud is inhoudelijk compleet (Art. 1–24)."
     layer1:
       status: warn
       run_id: 20260509-212552
@@ -43,16 +43,26 @@ provenance:
             - 'regel 27: Disposition temporaire                                       Art. 13ter'
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Heeft wel headings (18) maar 1 sectie >24k chars en 1 kolom-bleed-patroon (NL/FR mengt op één regel: 'Disposition temporaire ... Art. 13ter'). Inhoud lijkt compleet maar twee-kolom-extractie heeft NL-FR niet correct gescheiden."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:28Z'
+      rationale: "A8/kolom-bleed: regel 86 'Disposition temporaire\\t\\t\\t\\t\\t\\t Art. 13ter' is een twee-kolom-extractie-fout (FR-label + NL-artikel op één regel). B3: TOC-headings (AFDELING 1–5 met Art.-bereiken) worden exact herhaald als echte inhoud-headings zonder paginanummer — dit zijn dubbele headings. B7: de vijf initiële ## AFDELING-headings (regels 71–100) eindigen op paginabereiken ('Art. 1 - 8', 'Art. 14 - 15', ...) die TOC-rest zijn. Inhoud is inhoudelijk compleet (Art. 1–24)."
       concrete_problemen:
-        - regel: 29
+        - regel: 86
+          categorie: A8
           type: column-bleed
-          voorbeeld: Disposition temporaire                                       Art. 13ter
-        - regel: 0
+          voorbeeld: '                        Disposition temporaire                                       Art. 13ter'
+        - regel: 76
+          categorie: B7
+          type: dotted-leader
+          voorbeeld: '### Onderafdeling 1.    Betaling op de postrekening van "BTW-Ontvangsten"\n                        Brussel                                                      Art. 1 - 8'
+        - regel: 71
+          categorie: B3
           type: other
-          voorbeeld: max_section_size 30195 chars (####-niveau) > 24000
+          voorbeeld: '## AFDELING 1 (TOC-kopie) gevolgd door ## AFDELING 1 (echte inhoud) op regel 102'
+        - regel: 107
+          categorie: A8
+          type: column-bleed
+          voorbeeld: (Het opschrift van Afdeling 1, werd vervangen           met   ingang   van   01.12.2019      (Art.    31,
 ---
 
 # K.B. nr. 24 van 29 december 1992, met betrekking tot de voldoening van de belasting over de toegevoegde waarde

@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: Regel 59 bevat '*Thesauriebeleggingen *en' — de italic-marker voor 'Thesauriebeleggingen' heeft een spatie vóór de sluitende asterisk ('*en'). In markdown rendert dit als broken italic. Hetzelfde bestand gebruikt op regel 52 correct gesloten '*Thesauriebeleggingen*', wat de inconsistentie bevestigt als extractie-artefact."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,15 @@ provenance:
       file_size_chars: 2615
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: "D4: Regel 59 bevat '*Thesauriebeleggingen *en' — de italic-marker voor 'Thesauriebeleggingen' heeft een spatie vóór de sluitende asterisk ('*en'). In markdown rendert dit als broken italic. Hetzelfde bestand gebruikt op regel 52 correct gesloten '*Thesauriebeleggingen*', wat de inconsistentie bevestigt als extractie-artefact."
+      concrete_problemen:
+        - regel: 59
+          categorie: D4
+          type: other
+          voorbeeld: '*Thesauriebeleggingen *en *Beschikbare waarden* — spatie voor closing * breekt italic'
 gerelateerde_adviezen:
   - titel: In aanmerking te nemen termijn - Contractuele termijn of nog te lopen termijn
     url: https://www.cbn-cnc.be/nl/adviezen/in-aanmerking-te-nemen-termijn-contractuele-termijn-of-nog-te-lopen-termijn

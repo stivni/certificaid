@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "G1/F1: HTML-entiteit '&#039;' in het gerelateerde advies-veld op regel 48 ('Risico&#039;s verbonden aan bestellingen') — een URL/HTML-escape die niet gedecodeeerd is door de scraper. Staat alleen in frontmatter-metadata, niet in de body, maar schaadt YAML-parse-correctheid. Body zelf is inhoudelijk volledig en schoon."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,15 @@ provenance:
       file_size_chars: 1238
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: "G1/F1: HTML-entiteit '&#039;' in het gerelateerde advies-veld op regel 48 ('Risico&#039;s verbonden aan bestellingen') — een URL/HTML-escape die niet gedecodeeerd is door de scraper. Staat alleen in frontmatter-metadata, niet in de body, maar schaadt YAML-parse-correctheid. Body zelf is inhoudelijk volledig en schoon."
+      concrete_problemen:
+        - regel: 48
+          categorie: G1
+          type: other
+          voorbeeld: 'titel: Risico&#039;s verbonden aan bestellingen van vaste activa'
 gerelateerde_adviezen:
   - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
     url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders

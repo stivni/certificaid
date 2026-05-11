@@ -30,10 +30,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B3: regels 57-59 bevatten een exacte duplicate page-title-heading (bekend patroon). E2: regel 223 heeft een malformed tabelrij 'aan | | 52' met een extra pipe. D3: regels 118 en 199 bevatten orphaned ' [^3]' en '[^4]' als standalone regels midden in de body in plaats van inline in de zin. D4: regel 114 heeft '**Voor de verkoper **' met spatie vóór sluitende **. A9: regel 269 'Kreditinstellingen' vs 'Kredietinstellingen' elders."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -43,11 +43,35 @@ provenance:
       file_size_chars: 11526
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: "B3: regels 57-59 bevatten een exacte duplicate page-title-heading (bekend patroon). E2: regel 223 heeft een malformed tabelrij 'aan | | 52' met een extra pipe. D3: regels 118 en 199 bevatten orphaned ' [^3]' en '[^4]' als standalone regels midden in de body in plaats van inline in de zin. D4: regel 114 heeft '**Voor de verkoper **' met spatie vóór sluitende **. A9: regel 269 'Kreditinstellingen' vs 'Kredietinstellingen' elders."
+      concrete_problemen:
+        - regel: 59
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 148-4 - Boeking van de prorata... (identiek herhaald op r.57 en r.59)'
+        - regel: 223
+          categorie: E2
+          type: other
+          voorbeeld: '| aan | | 52 | Vastrentende effecten | 1.000.000 |'
+        - regel: 118
+          categorie: D3
+          type: other
+          voorbeeld: ' [^3] (standalone regel als caption, geen inline referentie)'
+        - regel: 199
+          categorie: D3
+          type: other
+          voorbeeld: "\t[^4] (standalone regel als caption, geen inline referentie)"
+        - regel: 114
+          categorie: D4
+          type: other
+          voorbeeld: '**Voor de verkoper ** (spatie vóór sluitende **)'
+        - regel: 269
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: '| | 55 | Kreditinstellingen | 1.351.975 | |'
 gerelateerde_adviezen:
   - titel: Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen 137/5 en 148/4
     url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484

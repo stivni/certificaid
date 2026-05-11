@@ -27,10 +27,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'D4: heading op regel 126 heeft `*** ***` malformed italic met spatie voor closing: `### ***Overboeking naar dubieuze debiteuren ***`. Zelfde patroon op regel 135 (`### ***Boeking van de waardevermindering ***`). Regel 148: `#### ** De klant betaalt daadwerkelijk niets**` — spatie na opening `**`. Dit zijn de bekende `*term *`-patronen die RAG-parsers kunnen verstoren.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -40,11 +40,23 @@ provenance:
       file_size_chars: 14211
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:18Z'
+      rationale: 'D4: heading op regel 126 heeft `*** ***` malformed italic met spatie voor closing: `### ***Overboeking naar dubieuze debiteuren ***`. Zelfde patroon op regel 135 (`### ***Boeking van de waardevermindering ***`). Regel 148: `#### ** De klant betaalt daadwerkelijk niets**` — spatie na opening `**`. Dit zijn de bekende `*term *`-patronen die RAG-parsers kunnen verstoren.'
+      concrete_problemen:
+        - regel: 126
+          categorie: D4
+          type: other
+          voorbeeld: '### ***Overboeking naar dubieuze debiteuren ***'
+        - regel: 135
+          categorie: D4
+          type: other
+          voorbeeld: '### ***Boeking van de waardevermindering ***'
+        - regel: 148
+          categorie: D4
+          type: other
+          voorbeeld: '#### ** De klant betaalt daadwerkelijk niets**'
 gerelateerde_adviezen:
   - titel: Omzet – RIZIV-heffingen op de omzet van terugbetaalbare geneesmiddelen
     url: https://www.cbn-cnc.be/nl/adviezen/omzet-riziv-heffingen-op-de-omzet-van-terugbetaalbare-geneesmiddelen

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:44Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'A6: op regel 113 breekt een zin midden na `FAS 109[^5]` af, en vervolgt op regel 114 met een leading spatie — een spurious line-break die er op wijst dat de scraper een newline midden in een zin heeft ingevoegd. B-categorie: twee subkoppen (`## **De Belgische regelgeving**` en `## **Buitenlandse regelgeving**`) hebben onnodig `**` bold-markup inside de heading — een mens zou `## De Belgische regelgeving` schrijven.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -37,11 +37,23 @@ provenance:
       file_size_chars: 11217
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:44Z'
+      rationale: 'A6: op regel 113 breekt een zin midden na `FAS 109[^5]` af, en vervolgt op regel 114 met een leading spatie — een spurious line-break die er op wijst dat de scraper een newline midden in een zin heeft ingevoegd. B-categorie: twee subkoppen (`## **De Belgische regelgeving**` en `## **Buitenlandse regelgeving**`) hebben onnodig `**` bold-markup inside de heading — een mens zou `## De Belgische regelgeving` schrijven.'
+      concrete_problemen:
+        - regel: 113
+          categorie: A6
+          type: other
+          voorbeeld: '...bepaalt FAS 109[^5]\n dat een uitgesteld belastingvoordeel — zin breekt na voetnootmarker'
+        - regel: 97
+          categorie: B2
+          type: other
+          voorbeeld: '## **De Belgische regelgeving** — bold-markup onnodig binnen heading'
+        - regel: 105
+          categorie: B2
+          type: other
+          voorbeeld: '## **Buitenlandse regelgeving** — idem'
 gerelateerde_adviezen:
   - titel: 'Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen in de toelichting'
     url: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de

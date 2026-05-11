@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Systematisch PDF-kolom-alignment-artefact (C3/A6) verspreid door het volledige document: meerdere regels tonen excessieve interne witruimte (tot 15+ spaties) in de inline-datumverwijzingen van wijzigingsmarkers, bv. regel 499, 520, 581, 625, 640. Dit is een consistente extractie-bug die als 'pseudo-tabel' uitlijning door chunkers verkeerd kan worden geïnterpreteerd. De ##/### heading-hiërarchie (Afdeling/Art.) is goed, inhoud volledig (Art. 1-23 + bijlagen)."
     layer1:
       status: pass
       run_id: 20260509-214924
@@ -38,16 +38,26 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '50k chars met 10 ##-headings maar één sectie >24k. Body lijkt intact (Artikel 1..21bis + bijwerkingen). Heading-injectie heeft niet alle Artikelen gepakt.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "Systematisch PDF-kolom-alignment-artefact (C3/A6) verspreid door het volledige document: meerdere regels tonen excessieve interne witruimte (tot 15+ spaties) in de inline-datumverwijzingen van wijzigingsmarkers, bv. regel 499, 520, 581, 625, 640. Dit is een consistente extractie-bug die als 'pseudo-tabel' uitlijning door chunkers verkeerd kan worden geïnterpreteerd. De ##/### heading-hiërarchie (Afdeling/Art.) is goed, inhoud volledig (Art. 1-23 + bijlagen)."
       concrete_problemen:
-        - regel: 0
-          type: other
-          voorbeeld: max_section_size 50447 chars (###-niveau) > 24000
-        - regel: 0
-          type: missing-section
-          voorbeeld: '10 ##-headings ondanks ~21 Artikelen'
+        - regel: 499
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: (De tekst van KB nr. 3, artikel 12, is   van   toepassing    met   ingang     van    01.01.1971
+        - regel: 520
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: In afwijking van het vorige artikel worden                 voor    de   berekening     van    het    algemeen
+        - regel: 68
+          categorie: A6
+          type: pseudo-table
+          voorbeeld: "## AFDELING I\n       Voorwaarden waaraan het uitoefenen van het recht op aftrek"
+        - regel: 581
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: (De tekst van KB        nr.   3,   artikel   17,   is   van   toepassing    met   ingang     van    01.01.1971
 ---
 
 # K.B. nr. 3 van 10 december 1969, met betrekking tot de aftrekken voor de toepassing van de belasting over de toegevoegde waarde

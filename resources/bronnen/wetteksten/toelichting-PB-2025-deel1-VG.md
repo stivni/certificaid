@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Twee structurele problemen: (1) B1/B3: herhaalde 'Vak II', 'Vak III', 'Vak IV'-labels als losse plain-text regels zonder heading-prefix (45+ voorkomens), bedoeld als sectie-etiketten van de PDF maar niet als heading gerenderd — dit veroorzaakt structuurverlies in RAG-chunking. (2) B1: '### I.' zonder bijbehorende tekst op dezelfde regel (regels 139, 154): de ondertitel staat op de volgende regel als plain text. Daarnaast staat de volledige inhoudstafel bovenaan (regels 63-222) als pseudo-inhoudsopgave met VAK-termen zonder dotted-leaders, wat TOC-redundantie geeft (A3). 'II. FEDERAAL' en 'A. ...' sub-labels na '### I.' staan als ongeformatteerde plain text (B4/B5). Ondanks deze problemen is de inhoud compleet en goed leesbaar."
     layer1:
       status: not_run
       run_id:
@@ -32,11 +32,27 @@ provenance:
       file_size_chars:
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:19Z'
+      rationale: "Twee structurele problemen: (1) B1/B3: herhaalde 'Vak II', 'Vak III', 'Vak IV'-labels als losse plain-text regels zonder heading-prefix (45+ voorkomens), bedoeld als sectie-etiketten van de PDF maar niet als heading gerenderd — dit veroorzaakt structuurverlies in RAG-chunking. (2) B1: '### I.' zonder bijbehorende tekst op dezelfde regel (regels 139, 154): de ondertitel staat op de volgende regel als plain text. Daarnaast staat de volledige inhoudstafel bovenaan (regels 63-222) als pseudo-inhoudsopgave met VAK-termen zonder dotted-leaders, wat TOC-redundantie geeft (A3). 'II. FEDERAAL' en 'A. ...' sub-labels na '### I.' staan als ongeformatteerde plain text (B4/B5). Ondanks deze problemen is de inhoud compleet en goed leesbaar."
+      concrete_problemen:
+        - regel: 139
+          categorie: B1
+          type: other
+          voorbeeld: "### I.\n\nGEWESTELIJK: NIET IN II, A VERMELDE UITGAVEN VOOR UW 'EIGEN WONING'"
+        - regel: 145
+          categorie: B4
+          type: other
+          voorbeeld: 'II. FEDERAAL (plain text na ### I. sectie, had ## of ### moeten zijn)'
+        - regel: 458
+          categorie: B5
+          type: other
+          voorbeeld: Vak II (plain text sectionering, herhaald 45+ keer door het document)
+        - regel: 63
+          categorie: A3
+          type: other
+          voorbeeld: INHOUDSTAFEL ALGEMENE INLICHTINGEN (TOC als plain text bovenaan, gevolgd door volledige herhaalde structuur)
 chunk:
   level: 2
   type: Art.

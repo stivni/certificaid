@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3/A7: regels 58–87 bevatten een genummerde TOC-lijst gevolgd door een scrambled-text versie van dezelfde TOC als aaneengeregen string ('-- Gegevens-- Boekingschema----...'). Dit is een duidelijk extractie-artefact: de inhoudsopgave van het originele PDF is tweemaal in de body terechtgekomen, waarvan één keer als onleesbare aaneengesloten string. Verder is het advies inhoudelijk volledig met correcte tabellen en footnotes."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,23 @@ provenance:
       file_size_chars: 23636
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "A3/A7: regels 58–87 bevatten een genummerde TOC-lijst gevolgd door een scrambled-text versie van dezelfde TOC als aaneengeregen string ('-- Gegevens-- Boekingschema----...'). Dit is een duidelijk extractie-artefact: de inhoudsopgave van het originele PDF is tweemaal in de body terechtgekomen, waarvan één keer als onleesbare aaneengesloten string. Verder is het advies inhoudelijk volledig met correcte tabellen en footnotes."
+      concrete_problemen:
+        - regel: 58
+          categorie: A3
+          type: other
+          voorbeeld: 1. Inleiding \n2. Boekhoudkundige verwerking...\n3. Voorbeeld (TOC-fragment in body)
+        - regel: 86
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: -- Gegevens-- Boekingschema---- Jaar 20X1------ Meerwaarde op materieel vast actief...
+        - regel: 87
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: '---- Jaar 20X2------ Balans op 31 december 20X2-------- In geval van een meerwaarde...'
 gerelateerde_adviezen:
   - titel: Actualisatie van uitgestelde belastingen (update)
     url: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update

@@ -21,10 +21,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B3: duplicate page-title heading op regels 57 en 59 ('# CBN advies 112/5 - Progressieve afschrijvingsmethode' tweemaal identiek). Typisch B3-patroon dat bij scrapen ontstaat als de title-tag en de H1 beide worden overgenomen. Inhoud verder volledig en kwalitatief."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -34,11 +34,19 @@ provenance:
       file_size_chars: 4532
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: "B3: duplicate page-title heading op regels 57 en 59 ('# CBN advies 112/5 - Progressieve afschrijvingsmethode' tweemaal identiek). Typisch B3-patroon dat bij scrapen ontstaat als de title-tag en de H1 beide worden overgenomen. Inhoud verder volledig en kwalitatief."
+      concrete_problemen:
+        - regel: 57
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 112/5 - Progressieve afschrijvingsmethode'
+        - regel: 59
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 112/5 - Progressieve afschrijvingsmethode'
 gerelateerde_adviezen:
   - titel: Afschrijvingsmethoden (update) [ONTWERP]
     url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden-update-ontwerp

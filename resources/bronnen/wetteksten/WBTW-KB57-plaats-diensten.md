@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Twee problemen: (1) A1: regels 108-116 bevatten een pagina-voettekst ('KB57 (2017) ... pg. 1 ... Plaats van de dienst') en een bijwerkingslijst als plain tekst die thuishoort in een appendix of verwijderd moet worden. (2) A6/C3: regels 65-69 tonen centered indentation uit de PDF (grote lege ruimte links), wat er op wijst dat de conversie de tekst niet als gewone paragraaf heeft herkend. Artikelheadings (## Art. 1/2/3) zijn aanwezig en de inhoud is volledig."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,16 +38,22 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Klein (3.8k), 0 ##-headings, body lijkt mager — eindigt met paginavoettekst-achtige regel ('KB57 (2017) ... pg. Bijw/1 Plaats van de dienst'). Verdient verificatie of body compleet is."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "Twee problemen: (1) A1: regels 108-116 bevatten een pagina-voettekst ('KB57 (2017) ... pg. 1 ... Plaats van de dienst') en een bijwerkingslijst als plain tekst die thuishoort in een appendix of verwijderd moet worden. (2) A6/C3: regels 65-69 tonen centered indentation uit de PDF (grote lege ruimte links), wat er op wijst dat de conversie de tekst niet als gewone paragraaf heeft herkend. Artikelheadings (## Art. 1/2/3) zijn aanwezig en de inhoud is volledig."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: '0 ##-headings bij 3849 chars'
-        - regel: 0
-          type: abrupt-cutoff
-          voorbeeld: Mogelijk afgekapt; eindigt op paginavoettekst-fragment
+        - regel: 108
+          categorie: A1
+          type: form-feed
+          voorbeeld: KB57 (2017)                                         pg. 1                            Plaats van de dienst
+        - regel: 110
+          categorie: A1
+          type: other
+          voorbeeld: KB nr. 57 (2017) - Lijst van de bijwerkingen ... Bijw. 01 / 13.11.2017   - Volledige uitgave
+        - regel: 65
+          categorie: A6
+          type: other
+          voorbeeld: '                 Dit koninklijk besluit vervangt, met ingang van 23.11.2017, het'
 ---
 
 # K.B. nr. 57, van 31.10.2017 met betrekking tot de plaats van diensten in functie van hun werkelijke gebruik of hun werkelijke exploitatie inzake belasting over de toegevoegde waarde wat goederenvervoerdiensten en ermee samenhangende diensten betreft

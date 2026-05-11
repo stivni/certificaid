@@ -26,10 +26,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B3: duplicate page-title-heading op regels 62 en 64 (identieke H1 tweemaal). Inhoud volledig aanwezig en inhoudelijk correct met twee voetnoten. Enkel het dubbele heading-artefact vereist ETL-fix.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -39,11 +39,19 @@ provenance:
       file_size_chars: 4111
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: 'B3: duplicate page-title-heading op regels 62 en 64 (identieke H1 tweemaal). Inhoud volledig aanwezig en inhoudelijk correct met twee voetnoten. Enkel het dubbele heading-artefact vereist ETL-fix.'
+      concrete_problemen:
+        - regel: 62
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 137/8 - Vordering wegens levering van goederen en diensten omgevormd tot renteloze leningen op meer dan 1 jaar (update)'
+        - regel: 64
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 137/8 - Vordering wegens levering van goederen en diensten omgevormd tot renteloze leningen op meer dan 1 jaar (update)'
 gerelateerde_adviezen:
   - titel: Waardeverminderingen op handelsvorderingen, gedekt door een kredietverzekering (update) [ONTWERP]
     url: https://www.cbn-cnc.be/nl/adviezen/waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering-update

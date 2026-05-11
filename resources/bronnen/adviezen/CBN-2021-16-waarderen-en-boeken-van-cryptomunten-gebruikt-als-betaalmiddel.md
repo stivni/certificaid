@@ -27,10 +27,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:21:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Geen extractie-artefacten. De italic-hits uit de analyse zijn false positives: '*blockchain*', '*Liquide middelen*', '*Overige vorderingen*' zijn correcte markdown-italics zonder spaties. Twee headings correct, inhoud volledig, alle vier voetnootdefinities aanwezig. Compact maar compleet advies."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -40,10 +40,10 @@ provenance:
       file_size_chars: 7410
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:41Z'
+      rationale: "Geen extractie-artefacten. De italic-hits uit de analyse zijn false positives: '*blockchain*', '*Liquide middelen*', '*Overige vorderingen*' zijn correcte markdown-italics zonder spaties. Twee headings correct, inhoud volledig, alle vier voetnootdefinities aanwezig. Compact maar compleet advies."
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van virtuele munten (ONTWERP)

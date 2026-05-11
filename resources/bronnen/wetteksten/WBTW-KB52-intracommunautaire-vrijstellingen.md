@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Drie klassen van problemen. (1) Datum-typo consistent door het hele 2019-KB: 'B.S. 23.12.2009' moet '23.12.2019' zijn — staat op regels 64, 79, 88, 97, 124, 181, 193, 203, 210, 220 (F1/D3). (2) Twee volledige KB's in één bestand (2019 + 1992) zonder expliciete heading-scheiding — zelfde probleem als KB50 (D2-equivalent). (3) Woord-afbreking midden in tekst op regel 104: 'betalings-\ndocumenten' — dit is een PDF-regelafbreking die niet is samengevoegd (A6)."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,22 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "15k chars met 3 ##-headings (HOOFDSTUK 1/2/3) — beter dan 0 maar nog steeds geen per-Artikel-granulariteit. Body intact. Frontmatter eindigt met datum-typo: 'B.S. 23.12.2009' moet vermoedelijk 23.12.2019 zijn — staat in body, niet in frontmatter, dus minor."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "Drie klassen van problemen. (1) Datum-typo consistent door het hele 2019-KB: 'B.S. 23.12.2009' moet '23.12.2019' zijn — staat op regels 64, 79, 88, 97, 124, 181, 193, 203, 210, 220 (F1/D3). (2) Twee volledige KB's in één bestand (2019 + 1992) zonder expliciete heading-scheiding — zelfde probleem als KB50 (D2-equivalent). (3) Woord-afbreking midden in tekst op regel 104: 'betalings-\ndocumenten' — dit is een PDF-regelafbreking die niet is samengevoegd (A6)."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: 'Slechts HOOFDSTUK-headings, geen ## per Artikel'
+        - regel: 64
+          categorie: F1
+          type: other
+          voorbeeld: Ingevoerd met ingang van 01.01.2020 (KB 11.12.2019, B.S. 23.12.2009, pg. 116148)
+        - regel: 104
+          categorie: A6
+          type: other
+          voorbeeld: "vervoerdocumenten, de facturen van vervoerders, de verzekeringsdocumenten en de betalings-\ndocumenten"
+        - regel: 241
+          categorie: B3
+          type: other
+          voorbeeld: 'Tweede KB (1992) begint op r.241 met ### Art. 1 zonder heading-scheiding van het eerste KB (2019)'
 ---
 
 # K.B. nr. 52 van 11 december 2019, met betrekking tot de bewijsregeling inzake de vrijstellingen betreffende de intracommunautaire leveringen van goederen en de ermee gelijkgestelde handelingen en met betrekking tot de vrijstelling van intracommunautaire verwervingen van goederen en de ermee gelijkgestelde handelingen, op het stuk van de belasting over de toegevoegde waarde

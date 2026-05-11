@@ -32,10 +32,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'A3/B7: regels 70–72 bevatten een genummerde TOC-lijst (1. Omrekening..., 2. Afwijkingsaanvragen..., 3. Aanvragen tot verlenging...) midden in de body vóór de ##Inleiding-heading — een gefragmenteerde inhoudsopgave die door extractie in de body is terechtgekomen. De drie TOC-items komen identiek terug als ## headings op regels 84, 101 en 107; dit zijn duplicaten van dezelfde structuur. Overige inhoud clean.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -45,11 +45,15 @@ provenance:
       file_size_chars: 8820
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:18Z'
+      rationale: 'A3/B7: regels 70–72 bevatten een genummerde TOC-lijst (1. Omrekening..., 2. Afwijkingsaanvragen..., 3. Aanvragen tot verlenging...) midden in de body vóór de ##Inleiding-heading — een gefragmenteerde inhoudsopgave die door extractie in de body is terechtgekomen. De drie TOC-items komen identiek terug als ## headings op regels 84, 101 en 107; dit zijn duplicaten van dezelfde structuur. Overige inhoud clean.'
+      concrete_problemen:
+        - regel: 70
+          categorie: A3
+          type: other
+          voorbeeld: 1. Omrekening van activa, passiva, kosten en opbrengsten naar aanleiding van het verkrijgen van de afwijking inzake functionele valuta tijdens het boekjaar
 gerelateerde_adviezen:
   - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0

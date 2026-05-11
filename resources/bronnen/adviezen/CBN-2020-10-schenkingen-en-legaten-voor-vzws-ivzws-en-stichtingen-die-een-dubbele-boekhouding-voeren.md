@@ -25,10 +25,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'A3: Regels 63-108 bevatten een inhoudsopgave als plain-text ingesprongen lijst die midden in de body staat (vóór ## Inleiding op regel 110) — dit is een TOC-fragment dat niet werd verwijderd. Regel 107-108 bevat een aaneengesloten blob van gedupliceerde TOC-tekst (`-------- Waardering...`) als single line, duidelijk een extractie-artefact. A6: regel 97-98 breekt `(geldbeleggingen` en `)` over twee regels midden in een heading-label.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -38,11 +38,23 @@ provenance:
       file_size_chars: 36206
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: 'A3: Regels 63-108 bevatten een inhoudsopgave als plain-text ingesprongen lijst die midden in de body staat (vóór ## Inleiding op regel 110) — dit is een TOC-fragment dat niet werd verwijderd. Regel 107-108 bevat een aaneengesloten blob van gedupliceerde TOC-tekst (`-------- Waardering...`) als single line, duidelijk een extractie-artefact. A6: regel 97-98 breekt `(geldbeleggingen` en `)` over twee regels midden in een heading-label.'
+      concrete_problemen:
+        - regel: 63
+          categorie: A3
+          type: other
+          voorbeeld: '1. Inleiding \n  1. Schenkingen en legaten: nieuwe waarderingsregel ...'
+        - regel: 107
+          categorie: A3
+          type: other
+          voorbeeld: ' -------- Waardering tegen aanschaffingswaarde -------- Waardering tegen werkelijke waarde...'
+        - regel: 97
+          categorie: A6
+          type: other
+          voorbeeld: Schenking van aandelen (geldbeleggingen\n) bestemd om duurzaam bij te dragen
 gerelateerde_adviezen:
   - titel: Duolegaat – Vereniging en stichting
     url: https://www.cbn-cnc.be/nl/adviezen/duolegaat-vereniging-en-stichting

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Kritisch structuurprobleem: regel 106 bevat '## Art. 139: De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen' — dit is een artikel uit een andere wet (W 13.04.2019) dat als voetnoot-citaat (1) midden in de body terechtgekomen is, maar door de ETL-pipeline incorrect als ##-heading gepromoot is (B5/G3). Hierdoor staat de voetnoot-body (regels 96-107) door de eigenlijke tekst van Art. 3 (B6/G3). Voorts: dit KB is opgeheven per 01.01.2020 — status-veld vermeldt dit niet."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,22 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "KB is opgeheven per 01.01.2020. Slechts 1 stray ##-heading 'Art. 139' die uit een geciteerde tekst lijkt te komen, niet een echt artikel van dit KB. Inhoud kort (~7k) met begin-tekst over schuldvorderingen — chunking degraded."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "Kritisch structuurprobleem: regel 106 bevat '## Art. 139: De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen' — dit is een artikel uit een andere wet (W 13.04.2019) dat als voetnoot-citaat (1) midden in de body terechtgekomen is, maar door de ETL-pipeline incorrect als ##-heading gepromoot is (B5/G3). Hierdoor staat de voetnoot-body (regels 96-107) door de eigenlijke tekst van Art. 3 (B6/G3). Voorts: dit KB is opgeheven per 01.01.2020 — status-veld vermeldt dit niet."
       concrete_problemen:
-        - regel: 90
-          type: missing-section
-          voorbeeld: '## Art. 139: De Koning kan voor iedere categorie ... — vermoedelijk verkeerd gepromote regel uit citaat'
+        - regel: 106
+          categorie: B5
+          type: other
+          voorbeeld: '## Art. 139: De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen'
+        - regel: 96
+          categorie: G3
+          type: other
+          voorbeeld: '(1) Art. 138: Deze wet is niet van toepassing: 1° op het administratieve dwangbevel...'
+        - regel: 109
+          categorie: A6
+          type: other
+          voorbeeld: 'Er moet evenwel een nieuw attest worden overgelegd... (staat na de verkeerd geplaatste ## Art. 139)'
 ---
 
 # K.B. nr. 39 van 17 oktober 1980, tot regeling van de toepassingsmodaliteiten van artikel 93duodecies van het Wetboek van de belasting over de toegevoegde waarde

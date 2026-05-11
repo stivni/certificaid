@@ -31,10 +31,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Systematisch broken italic patroon '*term *' (spatie vóór sluitende *) op minstens 6 plaatsen door het document (regels 117, 143, 149, 151, 171 — categorie D4). Bovendien staat regel 56 een duplicaat van de ondertitel ('bij een geïnformatiseerde boekhouding') als losse alinea direct na de ##-titel — extractie-artefact (B3). De rest van de structuur (14 headings, ####-hiërarchie) is uitstekend."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -44,11 +44,35 @@ provenance:
       file_size_chars: 24471
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "Systematisch broken italic patroon '*term *' (spatie vóór sluitende *) op minstens 6 plaatsen door het document (regels 117, 143, 149, 151, 171 — categorie D4). Bovendien staat regel 56 een duplicaat van de ondertitel ('bij een geïnformatiseerde boekhouding') als losse alinea direct na de ##-titel — extractie-artefact (B3). De rest van de structuur (14 headings, ####-hiërarchie) is uitstekend."
+      concrete_problemen:
+        - regel: 56
+          categorie: B3
+          type: other
+          voorbeeld: bij een geïnformatiseerde boekhouding
+        - regel: 117
+          categorie: D4
+          type: other
+          voorbeeld: '*onveranderlijkheid *en de *toegankelijkheid *te waarborgen'
+        - regel: 143
+          categorie: D4
+          type: other
+          voorbeeld: De *onveranderlijkheid *van de boekingen
+        - regel: 149
+          categorie: D4
+          type: other
+          voorbeeld: bewaring* in origineel *en met inachtneming van de *onveranderlijkheid *precies
+        - regel: 151
+          categorie: D4
+          type: other
+          voorbeeld: '*drager *beoogd die de *onveranderlijkheid *en de *toegankelijkheid *'
+        - regel: 171
+          categorie: D4
+          type: other
+          voorbeeld: de *leesbaarheid *en het *origineel karakter ervan*[^17]
 ---
 
 # CBN-advies 2016/22 - Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding

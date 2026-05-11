@@ -21,10 +21,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd, tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met correcte verwijzingen naar andere CBN-adviezen.
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -34,10 +34,10 @@ provenance:
       file_size_chars: 7755
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd, tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met correcte verwijzingen naar andere CBN-adviezen.
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: De boekhoudkundige verwerking van ontvangen overheidssteun in de vorm van een terugvorderbaar voorschot

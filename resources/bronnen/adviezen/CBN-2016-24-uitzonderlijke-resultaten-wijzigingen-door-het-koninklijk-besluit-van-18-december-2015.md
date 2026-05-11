@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Markdown-tabel (MAR-overzicht, regels 68–96) bevat systematisch broken bold/italic: '*term * |' met spatie voor sluitende markering (D4) op minstens 5 regels. Ook is de tabelstructuur inconsistent: de header-rijen hebben 1 kolom terwijl data-rijen 3 kolommen hebben (E2). Inhoud en tekst zijn inhoudelijk compleet."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,31 @@ provenance:
       file_size_chars: 11106
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "Markdown-tabel (MAR-overzicht, regels 68–96) bevat systematisch broken bold/italic: '*term * |' met spatie voor sluitende markering (D4) op minstens 5 regels. Ook is de tabelstructuur inconsistent: de header-rijen hebben 1 kolom terwijl data-rijen 3 kolommen hebben (E2). Inhoud en tekst zijn inhoudelijk compleet."
+      concrete_problemen:
+        - regel: 68
+          categorie: E2
+          type: other
+          voorbeeld: '| **Niet-recurrente bedrijfsopbrengsten** | (1 kolom vs 3 in data-rijen)'
+        - regel: 73
+          categorie: D4
+          type: other
+          voorbeeld: '*Andere niet-recurrente bedrijfsopbrengsten * |'
+        - regel: 74
+          categorie: D4
+          type: other
+          voorbeeld: '**Niet-recurrente bedrijfskosten ** |'
+        - regel: 86
+          categorie: D4
+          type: other
+          voorbeeld: "| * Terugneming van voorzieningen voor niet-recurrente financiële risico's"
+        - regel: 96
+          categorie: D4
+          type: other
+          voorbeeld: '*Als herstructureringskosten geactiveerde niet-recurrente financiële kosten (-) * |'
 ---
 
 # CBN-advies 2016/24 – Uitzonderlijke resultaten: wijzigingen door het koninklijk besluit van 18 december 2015

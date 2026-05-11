@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Volledige advies-tekst (2362 tekens) zonder artefacten. Twee voetnoten correct gekoppeld. Juridische redenering intact en coherent. Frontmatter volledig. Laag-1 pass correct.
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -32,10 +32,10 @@ provenance:
       file_size_chars: 2362
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: Volledige advies-tekst (2362 tekens) zonder artefacten. Twee voetnoten correct gekoppeld. Juridische redenering intact en coherent. Frontmatter volledig. Laag-1 pass correct.
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'

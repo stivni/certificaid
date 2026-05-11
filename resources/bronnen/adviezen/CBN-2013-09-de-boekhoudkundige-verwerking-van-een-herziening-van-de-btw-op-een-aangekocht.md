@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Laag 1 meldt heading_count=0 en file_size_chars=1298: het advies is inhoudelijk een enkelvoudige paragraaf zonder secties, wat overeenkomt met het originele CBN-advies (één antwoord, geen onderverdelingen). Geen extractie-artefacten, geen broken formatting, footnotes ontbreken terecht. Volledig en afgerond.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -32,10 +32,10 @@ provenance:
       file_size_chars: 1298
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: 'Laag 1 meldt heading_count=0 en file_size_chars=1298: het advies is inhoudelijk een enkelvoudige paragraaf zonder secties, wat overeenkomt met het originele CBN-advies (één antwoord, geen onderverdelingen). Geen extractie-artefacten, geen broken formatting, footnotes ontbreken terecht. Volledig en afgerond.'
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste prijs, verschuldigd over een periode van meer dan één jaar

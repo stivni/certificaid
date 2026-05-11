@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'D4 op L77: *Voorraadwijzigingen * heeft een spatie vóór de sluitende asterisk. A6 op L63-64 en L72-73: twee paragrafen zijn gebroken door een mid-zin footnote-marker ([^1] en [^2]), waarna de volgende regel met een leading space verder gaat — scraping-artefact.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,23 @@ provenance:
       file_size_chars: 3017
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: 'D4 op L77: *Voorraadwijzigingen * heeft een spatie vóór de sluitende asterisk. A6 op L63-64 en L72-73: twee paragrafen zijn gebroken door een mid-zin footnote-marker ([^1] en [^2]), waarna de volgende regel met een leading space verder gaat — scraping-artefact.'
+      concrete_problemen:
+        - regel: 77
+          categorie: D4
+          type: other
+          voorbeeld: '...via de rekening *Voorraadwijzigingen *voor de uitzendrechten...'
+        - regel: 63
+          categorie: A6
+          type: other
+          voorbeeld: '...bioscoopuitbater te worden gebruikt[^1]\n en derhalve niet...'
+        - regel: 72
+          categorie: A6
+          type: other
+          voorbeeld: '...de daaruit voortvloeiende opbrengsten[^2]\n ten gunste van...'
 gerelateerde_adviezen:
   - titel: Kilometerheffing
     url: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing

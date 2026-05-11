@@ -31,10 +31,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Regel 69–73: plain-text inhoudsopgave in de body (A3). Regel 173: losstaande voetnootreferentie '[^12]' op een lege regel net boven een tabel — zelfde patroon als 2010/13 (G3). Regels 288–289: verbrokkelde tabelrij — de omschrijving 'Gebouwen die volle eigendom zijn van de vereniging - Geboekte afschrijvingen' staat verspreid over twee regels en de pipe-structuur is gebroken (E2)."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -44,11 +44,23 @@ provenance:
       file_size_chars: 20968
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:18Z'
+      rationale: "Regel 69–73: plain-text inhoudsopgave in de body (A3). Regel 173: losstaande voetnootreferentie '[^12]' op een lege regel net boven een tabel — zelfde patroon als 2010/13 (G3). Regels 288–289: verbrokkelde tabelrij — de omschrijving 'Gebouwen die volle eigendom zijn van de vereniging - Geboekte afschrijvingen' staat verspreid over twee regels en de pipe-structuur is gebroken (E2)."
+      concrete_problemen:
+        - regel: 69
+          categorie: A3
+          type: other
+          voorbeeld: 1. Goederen \n  1. Subsidies, schenkingen en legaten bestemd om duurzaam...
+        - regel: 173
+          categorie: G3
+          type: other
+          voorbeeld: ' [^12]'
+        - regel: 288
+          categorie: E2
+          type: other
+          voorbeeld: '| | 22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -\n\t\t\t\tGeboekte afschrijvingen | 1.515,15 |'
 gerelateerde_adviezen:
   - titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait'
     url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0

@@ -28,10 +28,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: twee gevallen van malformed italic op regel 88 — '*Voorraadwijziging *(bv. 6096)' en '*Voorraadwijziging *ten laste genomen': sluitende asterisk staat direct vóór een spatie in plaats van na het woord, waardoor Markdown de italic niet correct sluit. Verder inhoud compleet en structuur in orde."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -41,11 +41,19 @@ provenance:
       file_size_chars: 7474
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: "D4: twee gevallen van malformed italic op regel 88 — '*Voorraadwijziging *(bv. 6096)' en '*Voorraadwijziging *ten laste genomen': sluitende asterisk staat direct vóór een spatie in plaats van na het woord, waardoor Markdown de italic niet correct sluit. Verder inhoud compleet en structuur in orde."
+      concrete_problemen:
+        - regel: 88
+          categorie: D4
+          type: other
+          voorbeeld: via rekening 609 *Voorraadwijziging *(bv. 6096)
+        - regel: 88
+          categorie: D4
+          type: other
+          voorbeeld: via de rekening *Voorraadwijziging *ten laste genomen
 gerelateerde_adviezen:
   - titel: Kilometerheffing
     url: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing

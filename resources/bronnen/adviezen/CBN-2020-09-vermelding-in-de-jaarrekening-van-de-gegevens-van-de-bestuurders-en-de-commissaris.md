@@ -26,10 +26,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B2: Voorbeelden (## Voorbeeld 1 t/m 4, regels 93, 104, 116, 124) staan op ## niveau terwijl ze genest zijn binnen een ##### sectie — de hiërarchie springt van ##### terug naar ##. Een mens zou deze als ###### of als vetgedrukte alinea markeren. Verder schoon: frontmatter klopt, voetnoten intact, inhoud compleet.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -39,11 +39,27 @@ provenance:
       file_size_chars: 15676
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: 'B2: Voorbeelden (## Voorbeeld 1 t/m 4, regels 93, 104, 116, 124) staan op ## niveau terwijl ze genest zijn binnen een ##### sectie — de hiërarchie springt van ##### terug naar ##. Een mens zou deze als ###### of als vetgedrukte alinea markeren. Verder schoon: frontmatter klopt, voetnoten intact, inhoud compleet.'
+      concrete_problemen:
+        - regel: 93
+          categorie: B2
+          type: other
+          voorbeeld: '## Voorbeeld 1 (verschijnt binnen een ##### sectie — hiërarchiesprong)'
+        - regel: 104
+          categorie: B2
+          type: other
+          voorbeeld: '## Voorbeeld 2 (idem — ## op hetzelfde niveau als hoofdsecties)'
+        - regel: 116
+          categorie: B2
+          type: other
+          voorbeeld: '## Voorbeeld 3 (idem)'
+        - regel: 124
+          categorie: B2
+          type: other
+          voorbeeld: '## Voorbeeld 4 (idem)'
 gerelateerde_adviezen:
   - titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren
     url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding

@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B3/D2: In het BOEK XIV-blok (regels ~20056–20107) zijn meerdere opeenvolgende ###### Art.-headings zonder body: Art. XIV.1 t/m XIV.16 hebben elk geen lichaamstekst — de richtlijn-bepalingen zijn volledig weg. Laag-1 rapporteert 145/2456 lege Art.-headings (~6%) en een max-sectie van 43776 chars. Daarnaast verschijnt 'HOOFDSTUK 2/1.' als plain-text-inspringing (regel 4053, 6019, 6099 e.a.) in plaats van als markdown-heading (B4). Verder inhoudelijk sterk."
     layer1:
       status: warn
       run_id: 20260509-212552
@@ -37,16 +37,22 @@ provenance:
           samples: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "3.5MB wettekst met 3272 headings en 2456 ###### Art.-headings. 145 (~6%) van de Art.-headings is leeg (mogelijk legitieme opgeheven artikelen, maar niet expliciet gemarkeerd). BOEK XIV-sectie (lijn ~20000+) toont reeks lege heading-stubs zonder body. Tot in detail OK, maar lege stubs zonder 'opgeheven'-tag zijn een retrieval-risico."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:18Z'
+      rationale: "B3/D2: In het BOEK XIV-blok (regels ~20056–20107) zijn meerdere opeenvolgende ###### Art.-headings zonder body: Art. XIV.1 t/m XIV.16 hebben elk geen lichaamstekst — de richtlijn-bepalingen zijn volledig weg. Laag-1 rapporteert 145/2456 lege Art.-headings (~6%) en een max-sectie van 43776 chars. Daarnaast verschijnt 'HOOFDSTUK 2/1.' als plain-text-inspringing (regel 4053, 6019, 6099 e.a.) in plaats van als markdown-heading (B4). Verder inhoudelijk sterk."
       concrete_problemen:
-        - regel: 20007
+        - regel: 20056
+          categorie: D2
           type: missing-section
-          voorbeeld: '###### Art. XIV.1. → ### Titel 2. (lege body); idem Art. XIV.2 t/m XIV.16'
-        - regel: 0
+          voorbeeld: '###### Art. XIV.1. — lege body; idem XIV.2 t/m XIV.16 (~15 artikelen zonder tekst)'
+        - regel: 4053
+          categorie: B4
           type: other
-          voorbeeld: 145/2456 Art.-headings zonder body — niet gemarkeerd als opgeheven
+          voorbeeld: '  HOOFDSTUK 2/1. [1 - Betaling door de consument]1 (plain-text zonder #-prefix)'
+        - regel: 0
+          categorie: B3
+          type: other
+          voorbeeld: 145/2456 Art.-headings zonder body — niet als opgeheven gemarkeerd
 chunk:
   level: 6
   type: Art.

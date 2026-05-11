@@ -27,10 +27,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B2: heading-hiërarchie inconsistent (H1 → H3 op L52; H2 'Voorbeelden' → H4 op L113 zonder H3). A4 op L154: U+00AC (¬) gebruikt als koppelteken in 'in-resultaat¬neming' — een PDF-extractie-artefact. Meerdere 'woord- splitstukken' ('prijs- risico', 'in-resultaat- neming', 'niet- samenvallen') zijn licht maar consistent aanwezig."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -40,11 +40,27 @@ provenance:
       file_size_chars: 12188
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: "B2: heading-hiërarchie inconsistent (H1 → H3 op L52; H2 'Voorbeelden' → H4 op L113 zonder H3). A4 op L154: U+00AC (¬) gebruikt als koppelteken in 'in-resultaat¬neming' — een PDF-extractie-artefact. Meerdere 'woord- splitstukken' ('prijs- risico', 'in-resultaat- neming', 'niet- samenvallen') zijn licht maar consistent aanwezig."
+      concrete_problemen:
+        - regel: 52
+          categorie: B2
+          type: other
+          voorbeeld: '### Beginselen (H1 → H3, geen H2)'
+        - regel: 113
+          categorie: B2
+          type: other
+          voorbeeld: '#### Specifieke dekkingsverrichtingen (H2 → H4, geen H3)'
+        - regel: 154
+          categorie: A4
+          type: other
+          voorbeeld: in-resultaat¬neming (U+00AC als koppelteken)
+        - regel: 97
+          categorie: A6
+          type: other
+          voorbeeld: '...het hieraan verbonden prijs- risico gedekt...'
 ---
 
 # CBN-advies 132/4 - Termijnovereenkomsten op handelsgoederen

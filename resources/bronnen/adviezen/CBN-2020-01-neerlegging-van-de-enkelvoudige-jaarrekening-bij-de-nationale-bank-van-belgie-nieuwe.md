@@ -28,10 +28,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: Twee TOC-fragmenten staan in de body. Regels 66-80 bevatten een geneste TOC-lijst en dan op regel 79 een aaneengesloten TOC-string ('Inwerkingtreding WVV en KB WVVDe te gebruiken modellen...-- Aanpassing...') die niet werd opgeschoond. Tevens verwijzen regels 107-115 naar figuren via placeholder-tekst ('Volledig, verkort en micromodel van de jaarrekening: samenstelling...') die niet als heading zijn opgemaakt maar als italic inline-tekst, zonder de eigenlijke figuur/tabel."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -41,11 +41,23 @@ provenance:
       file_size_chars: 23772
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: "A3: Twee TOC-fragmenten staan in de body. Regels 66-80 bevatten een geneste TOC-lijst en dan op regel 79 een aaneengesloten TOC-string ('Inwerkingtreding WVV en KB WVVDe te gebruiken modellen...-- Aanpassing...') die niet werd opgeschoond. Tevens verwijzen regels 107-115 naar figuren via placeholder-tekst ('Volledig, verkort en micromodel van de jaarrekening: samenstelling...') die niet als heading zijn opgemaakt maar als italic inline-tekst, zonder de eigenlijke figuur/tabel."
+      concrete_problemen:
+        - regel: 79
+          categorie: A3
+          type: other
+          voorbeeld: Inwerkingtreding WVV en KB WVVDe te gebruiken modellen van de jaarrekening-- Aanpassing...
+        - regel: 66
+          categorie: A3
+          type: other
+          voorbeeld: 1. Inleiding \n2. Schema van de enkelvoudige jaarrekening... (TOC in body)
+        - regel: 109
+          categorie: D2
+          type: other
+          voorbeeld: 'Volledig, verkort en micromodel...: samenstelling van het eigen vermogen van kapitaalloze vennootschappen[^16] *'
 gerelateerde_adviezen:
   - titel: Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren
     url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding

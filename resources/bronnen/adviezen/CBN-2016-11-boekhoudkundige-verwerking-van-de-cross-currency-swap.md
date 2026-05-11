@@ -29,10 +29,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Drie duidelijke problemen: (1) Regel 81: een aaneengeregen TOC-fragment ('----Fixed-to-fixed cross currency swap----Fixed-to-floating...') dat verdubbeld is in de body direct na de gestructureerde inhoudstafel (regels 64–80) — klassiek TOC-duplicaat (A3). (2) Regels 227, 241, 248, 256, 307, 330, 352 bevatten telkens een losstaande voetnootverwijzing als alleenstaande alinea (' [^14]', ' [^15]', etc.) zonder omringende zin — inline footnote-artefact (G3/D3). (3) Regel 342: ' *Op vervaldag 31 december 2015 *' heeft een trailing spatie voor de afsluitende asterisk — malformed italic (D4). Inhoud is verder volledig en tabellen correct."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -42,11 +42,23 @@ provenance:
       file_size_chars: 24759
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "Drie duidelijke problemen: (1) Regel 81: een aaneengeregen TOC-fragment ('----Fixed-to-fixed cross currency swap----Fixed-to-floating...') dat verdubbeld is in de body direct na de gestructureerde inhoudstafel (regels 64–80) — klassiek TOC-duplicaat (A3). (2) Regels 227, 241, 248, 256, 307, 330, 352 bevatten telkens een losstaande voetnootverwijzing als alleenstaande alinea (' [^14]', ' [^15]', etc.) zonder omringende zin — inline footnote-artefact (G3/D3). (3) Regel 342: ' *Op vervaldag 31 december 2015 *' heeft een trailing spatie voor de afsluitende asterisk — malformed italic (D4). Inhoud is verder volledig en tabellen correct."
+      concrete_problemen:
+        - regel: 81
+          categorie: A3
+          type: other
+          voorbeeld: '----Fixed-to-fixed cross currency swap----Fixed-to-floating cross currency swap----De floating-to-floating cross currency swap...'
+        - regel: 227
+          categorie: G3
+          type: other
+          voorbeeld: ' [^14]'
+        - regel: 342
+          categorie: D4
+          type: other
+          voorbeeld: '*Op vervaldag 31 december 2015 *'
 gerelateerde_adviezen:
   - titel: Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
     url: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in

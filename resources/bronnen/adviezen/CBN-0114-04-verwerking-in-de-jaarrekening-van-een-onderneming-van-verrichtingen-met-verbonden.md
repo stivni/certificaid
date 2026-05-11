@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Kort advies (1778 chars), één alinea-blok + één voetnoot. Geen detecteerbare extractie-artefacten in alle categorieën A–G. Italieken (*de jure*, *de facto*) correct geopend en gesloten. Enige en-dash in frontmatter staat in een gerelateerd-advies-titel (niet in de body) en is niet problematisch. Inhoud compleet.
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,10 +36,10 @@ provenance:
       file_size_chars: 1778
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: Kort advies (1778 chars), één alinea-blok + één voetnoot. Geen detecteerbare extractie-artefacten in alle categorieën A–G. Italieken (*de jure*, *de facto*) correct geopend en gesloten. Enige en-dash in frontmatter staat in een gerelateerd-advies-titel (niet in de body) en is niet problematisch. Inhoud compleet.
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Groottecriteria artikel 15 W.Venn. – Verbonden vennootschappen – Verschillende afsluitingsdata - Wijziging van consolidatiekring

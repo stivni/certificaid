@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Advies van 3325 tekens zonder interne headings — past bij de doorlopende betoog-structuur. Eén voetnoot [^1] aanwezig en gedefineerd. Geen artefacten, geen spurious breaks, geen Unicode-resten. Tekst vloeit logisch van paragraaf tot paragraaf.
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,10 +33,10 @@ provenance:
       file_size_chars: 3325
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: Advies van 3325 tekens zonder interne headings — past bij de doorlopende betoog-structuur. Eén voetnoot [^1] aanwezig en gedefineerd. Geen artefacten, geen spurious breaks, geen Unicode-resten. Tekst vloeit logisch van paragraaf tot paragraaf.
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'

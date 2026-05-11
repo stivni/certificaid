@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B5: Minstens 9 van de 15 artikelen fuseren heading en eerste zin op één regel (bv. regel 63 '### Art. 1.Deze wet regelt...', regel 88 '### Art. 4.[1 § 1. Indien er...', regel 102 '### Art. 5.[1 [2 Indien de schuldeiser...'). De afkapping tussen heading en body is volledig verloren gegaan — het patroon is stelselmatig. Art. 10, 11, 12 en 15 zijn correct (heading op aparte regel), maar de meerderheid is fout. Verdere inhoud (5 hoofdstukken, 15 artikelen) is compleet."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,16 +38,26 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Heading + body samengeklit: '### Art. 5.[1 [2 Indien de schuldeiser ...' bevat de eerste paragraaf binnen de heading-regel. Idem Art. 6, Art. 138-stijl. Maakt heading-anchors voor RAG zwak."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:18Z'
+      rationale: "B5: Minstens 9 van de 15 artikelen fuseren heading en eerste zin op één regel (bv. regel 63 '### Art. 1.Deze wet regelt...', regel 88 '### Art. 4.[1 § 1. Indien er...', regel 102 '### Art. 5.[1 [2 Indien de schuldeiser...'). De afkapping tussen heading en body is volledig verloren gegaan — het patroon is stelselmatig. Art. 10, 11, 12 en 15 zijn correct (heading op aparte regel), maar de meerderheid is fout. Verdere inhoud (5 hoofdstukken, 15 artikelen) is compleet."
       concrete_problemen:
-        - regel: -1
+        - regel: 63
+          categorie: B5
           type: other
-          voorbeeld: '### Art. 5.[1 [2 Indien de schuldeiser zijn contractuele en wettelijke verplichtingen heeft vervuld...'
-        - regel: -1
+          voorbeeld: '### Art. 1.Deze wet regelt een aangelegenheid als bedoeld in artikel 78...'
+        - regel: 88
+          categorie: B5
           type: other
-          voorbeeld: '### Art. 6.[1 [2 Als er verwijlintrest overeenkomstig de bepalingen ...'
+          voorbeeld: '### Art. 4.[1 § 1. Indien er in de overeenkomst geen datum of termijn...'
+        - regel: 102
+          categorie: B5
+          type: other
+          voorbeeld: '### Art. 5.[1 [2 Indien de schuldeiser zijn contractuele en wettelijke...'
+        - regel: 108
+          categorie: B5
+          type: other
+          voorbeeld: '### Art. 7.Contractuele bedingen die afwijken van de bepalingen...'
 ---
 
 # Wet betalingsachterstand handelstransacties

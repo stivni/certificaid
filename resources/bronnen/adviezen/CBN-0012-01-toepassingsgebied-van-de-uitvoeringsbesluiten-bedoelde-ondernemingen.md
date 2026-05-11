@@ -18,10 +18,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A6: de zin 'In zijn antwoord op een parlementaire vraag[^1]\\n  over de al dan niet cumulatieve aard...' is gesplitst over twee regels door een harde newline na de footnote-referentie (r51-52). Dit breekt de zin midden in de verwijzing. Verder: spelfout 'oger' (r49, moet zijn 'hoger') en A4: 4 gevallen U+2010 HYPHEN in r47 en r54. Inhoud correct maar structureel beïnvloed door de split-zin."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -31,11 +31,23 @@ provenance:
       file_size_chars: 1711
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:19Z'
+      rationale: "A6: de zin 'In zijn antwoord op een parlementaire vraag[^1]\\n  over de al dan niet cumulatieve aard...' is gesplitst over twee regels door een harde newline na de footnote-referentie (r51-52). Dit breekt de zin midden in de verwijzing. Verder: spelfout 'oger' (r49, moet zijn 'hoger') en A4: 4 gevallen U+2010 HYPHEN in r47 en r54. Inhoud correct maar structureel beïnvloed door de split-zin."
+      concrete_problemen:
+        - regel: 51
+          categorie: A6
+          type: other
+          voorbeeld: parlementaire vraag[^1]\n  over de al dan niet cumulatieve
+        - regel: 49
+          categorie: D1
+          type: other
+          voorbeeld: en het totaal van hun balans bij het einde van het boekjaar niet oger
+        - regel: 47
+          categorie: A4
+          type: other
+          voorbeeld: bulletin 1‐24 augustus 1977‐september 1989
 gerelateerde_adviezen:
   - titel: De boekhoudkundige verwerking van de inbeslagname in hoofde van de beslagen schuldenaar
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "De body bevat wel degelijk ## Art.-headings (Art. 1 t/m Art. 9 + Art. 4bis), dus de layer2-notitie 'geen ##-headings' was incorrect — de headings zijn er. Maar er zijn drie persistente artefacten: (1) alle amendement-notities staan diep ingesprongen met 7+ spaties, wat een PDF-extractie-artefact is dat een mens nooit zo zou typen (A6/C3); (2) Bijlage A bevat een plain-text tabel met kolom-alignment via witruimte ('Te vervangen pagina's' / 'Bijw. 03 - pg. Bijl.A/1') (C3); (3) tekst in de introductie (regels 54-57) bevat een woordafbreking binnen de wet-naam. Inhoud volledig tot Art. 9 inclusief bijlagen."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,22 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '13k chars zonder ##-headings; Artikel-markers plain text. Body intact.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "De body bevat wel degelijk ## Art.-headings (Art. 1 t/m Art. 9 + Art. 4bis), dus de layer2-notitie 'geen ##-headings' was incorrect — de headings zijn er. Maar er zijn drie persistente artefacten: (1) alle amendement-notities staan diep ingesprongen met 7+ spaties, wat een PDF-extractie-artefact is dat een mens nooit zo zou typen (A6/C3); (2) Bijlage A bevat een plain-text tabel met kolom-alignment via witruimte ('Te vervangen pagina's' / 'Bijw. 03 - pg. Bijl.A/1') (C3); (3) tekst in de introductie (regels 54-57) bevat een woordafbreking binnen de wet-naam. Inhoud volledig tot Art. 9 inclusief bijlagen."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: '0 ##-headings bij 13142 chars'
+        - regel: 62
+          categorie: A6
+          type: pseudo-table
+          voorbeeld: '       (Het opschrift van het KB nr. 48, werd gewijzigd met ingang van 08.03.2010, (Art. 1,'
+        - regel: 222
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: Bijwerking                                  Te vervangen pagina's
+        - regel: 228
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '                        - pg. Bijl.A/1                       - Bijw. 03 - pg. Bijl.A/1'
 ---
 
 # K.B. nr. 48 van 29 december 1992, met betrekking tot de levering van vervoermiddelen in de zin van artikel 8bis, § 2, 1°, van het Btw- Wetboek, verricht binnen de voorwaarden van artikel 39bis van het Btw- Wetboek

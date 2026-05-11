@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Structuur is deels aanwezig: 2 hoofdstuktitels als ## heading en afdelingen als ### heading, artikelen als #### Art.-headings. Echter: (1) A1: zes pagina-footer-regels mid-body ('Deskundige schatting  www.fisconetplus.be  pg. N' op regels 107, 165, 225, 282, 338, 353); (2) B4: 'EERSTE HOOFDSTUK' op regel 60 is plain-text in ALL-CAPS zonder ##-prefix (terwijl ## HOOFDSTUK II op regel 295 wél een heading is — inconsistentie); (3) A7: 'EERSTE HOOFDSTUK' gespreid over 3 regels met centrering (regels 60-62); (4) C3: Bijlage A pseudo-tabel met spatie-alignment; (5) chunk.level=4 in frontmatter maar ## staat ook in body (niveau-inconsistentie). Inhoud volledig: 23 artikelen aanwezig."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,12 +38,46 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Wel ### Afdeling-headings (3 stuks) maar nog geen ## Art.-headings — artikelen als 'Artikel 1' etc. platte tekst. Halverwege betere structuur dan KB16/KB13, maar chunk.level=2 verwacht ## Art. die ontbreken."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:58Z'
+      rationale: "Structuur is deels aanwezig: 2 hoofdstuktitels als ## heading en afdelingen als ### heading, artikelen als #### Art.-headings. Echter: (1) A1: zes pagina-footer-regels mid-body ('Deskundige schatting  www.fisconetplus.be  pg. N' op regels 107, 165, 225, 282, 338, 353); (2) B4: 'EERSTE HOOFDSTUK' op regel 60 is plain-text in ALL-CAPS zonder ##-prefix (terwijl ## HOOFDSTUK II op regel 295 wél een heading is — inconsistentie); (3) A7: 'EERSTE HOOFDSTUK' gespreid over 3 regels met centrering (regels 60-62); (4) C3: Bijlage A pseudo-tabel met spatie-alignment; (5) chunk.level=4 in frontmatter maar ## staat ook in body (niveau-inconsistentie). Inhoud volledig: 23 artikelen aanwezig."
       concrete_problemen:
-        - 'artikelen niet als ## Art.-headings'
-        - chunk-config mismatch
+        - regel: 60
+          categorie: B4
+          type: other
+          voorbeeld: '                                         EERSTE HOOFDSTUK'
+        - regel: 107
+          categorie: A1
+          type: form-feed
+          voorbeeld: Deskundige schatting                           www.fisconetplus.be                                   pg. 1
+        - regel: 165
+          categorie: A1
+          type: form-feed
+          voorbeeld: Deskundige schatting                         www.fisconetplus.be                                     pg. 2
+        - regel: 225
+          categorie: A1
+          type: form-feed
+          voorbeeld: Deskundige schatting                         www.fisconetplus.be                                      pg. 3
+        - regel: 282
+          categorie: A1
+          type: form-feed
+          voorbeeld: Deskundige schatting                         www.fisconetplus.be                                     pg. 4
+        - regel: 338
+          categorie: A1
+          type: form-feed
+          voorbeeld: Deskundige schatting                          www.fisconetplus.be                                     pg. 5
+        - regel: 353
+          categorie: A1
+          type: form-feed
+          voorbeeld: Deskundige schatting                         www.fisconetplus.be                               pg. 6
+        - regel: 362
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: "     Bijwerking                                       Te vervangen pagina's"
+        - regel: 64
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: '       (Het opschrift van hoofdstuk 1, van KB nr. 15, werd gewijzigd met                       ingang   van'
 ---
 
 # K.B. nr. 15 van 3 juni 1970, tot regeling van de schattings- procedure waarin artikel 59, § 2, van het Wetboek van de belasting over de toegevoegde waarde voorziet

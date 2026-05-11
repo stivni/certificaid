@@ -21,10 +21,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: regel 61 bevat malgevormde italic-opmaak '*Oprichtingskosten *als *Kosten van oprichting en kapitaalverhoging*' — spatie vóór tweede asterisk sluit de eerste italic niet in CommonMark, waardoor drie asterisks onbedoeld interageren. De bedoeling is duidelijk (twee aparte term-italics), maar de rendering is incorrect. Drie voetnoten correct. Rest volledig en correct."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -34,11 +34,15 @@ provenance:
       file_size_chars: 1653
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: "D4: regel 61 bevat malgevormde italic-opmaak '*Oprichtingskosten *als *Kosten van oprichting en kapitaalverhoging*' — spatie vóór tweede asterisk sluit de eerste italic niet in CommonMark, waardoor drie asterisks onbedoeld interageren. De bedoeling is duidelijk (twee aparte term-italics), maar de rendering is incorrect. Drie voetnoten correct. Rest volledig en correct."
+      concrete_problemen:
+        - regel: 61
+          categorie: D4
+          type: other
+          voorbeeld: geboekt in de post *Oprichtingskosten *als *Kosten van oprichting en kapitaalverhoging*
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van de inbreng van een bedrijfstak of van een algemeenheid (update) [ONTWERP]
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-inbreng-van-een-bedrijfstak-of-van-een-algemeenheid

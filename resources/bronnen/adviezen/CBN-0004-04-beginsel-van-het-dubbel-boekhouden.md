@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A6/structuurprobleem: het derde bullet-punt is over drie regels gesplitst (r53-55) door een midden-in-zin linebreak na [^1] en [^2]. De footnote-referenties zijn losgekoppeld van hun zin via een harde newline, wat de continuïteit van de bullet-tekst breekt: 'het beginsel van het compensatieverbod[^1]\\n   alsook het beginsel van de volledige aard[^2]\\n in elk geval moeten worden nageleefd.' Dit is een scraping-artefact. Daarnaast A4: 3 gevallen van U+2010 HYPHEN (r51, r52). Inhoud verder compleet."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,23 @@ provenance:
       file_size_chars: 2056
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:19Z'
+      rationale: "A6/structuurprobleem: het derde bullet-punt is over drie regels gesplitst (r53-55) door een midden-in-zin linebreak na [^1] en [^2]. De footnote-referenties zijn losgekoppeld van hun zin via een harde newline, wat de continuïteit van de bullet-tekst breekt: 'het beginsel van het compensatieverbod[^1]\\n   alsook het beginsel van de volledige aard[^2]\\n in elk geval moeten worden nageleefd.' Dit is een scraping-artefact. Daarnaast A4: 3 gevallen van U+2010 HYPHEN (r51, r52). Inhoud verder compleet."
+      concrete_problemen:
+        - regel: 53
+          categorie: A6
+          type: other
+          voorbeeld: beginsel van het compensatieverbod[^1]\n   alsook het beginsel
+        - regel: 51
+          categorie: A4
+          type: other
+          voorbeeld: de mutaties over een bepaalde periode aan debet‐ en creditzijde
+        - regel: 61
+          categorie: D1
+          type: other
+          voorbeeld: het koninklijk besluit van het koninklijk besluit van 30 januari
 ---
 
 # CBN-advies 4-4 - Beginsel van het dubbel boekhouden

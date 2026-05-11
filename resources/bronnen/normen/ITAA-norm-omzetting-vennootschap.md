@@ -25,10 +25,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Laag-1 warn: 29 TOC-stippelregels aanwezig — geconfirmeerd in body (INHOUDSTAFEL L199-281 met dotted-leaders). Tweekoloms-extract leidt tot structurele problemen: kolom 'A.' (toepassingsmodaliteiten) en de vereiste-kolom lopen door elkaar, waardoor alinea's beginnen met 'A.' of 'A1.' als aparte regels (B4/A7). Sectie IV ('Uit te voeren werkzaamheden teneinde de verslaggeving bij de grensoverschrijdende omzetting') staat niet als ## heading (alleen IV.1, IV.2, IV.3 staan in body als plain-text). Page-footers 'OPENBARE RAADPLEGING JUNI 2025 X/64' herhaald in body. Ondanks de grote omvang (153k chars) is de inhoud grotendeels compleet."
     layer1:
       status: warn
       run_id: 20260511-085756
@@ -46,19 +46,34 @@ provenance:
             - '................................................................................'
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Tweekoloms-PDF met sectie IV ontbrekend als ## heading (alleen sectie I, II, III, V, VI als ##) terwijl IV.1, IV.2, IV.3 wel in body staan (L924, L1002, L1069) — IV. zelf is gedegradeerd. Page-footers ('OPENBARE RAADPLEGING JUNI 2025 X/64') ingebed in body. Tweekoloms-extract met 'VEREISTEN' en 'TOEPASSINGSMODALITEITEN' kolommen die niet altijd schoon ineenlopen."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:58Z'
+      rationale: "Laag-1 warn: 29 TOC-stippelregels aanwezig — geconfirmeerd in body (INHOUDSTAFEL L199-281 met dotted-leaders). Tweekoloms-extract leidt tot structurele problemen: kolom 'A.' (toepassingsmodaliteiten) en de vereiste-kolom lopen door elkaar, waardoor alinea's beginnen met 'A.' of 'A1.' als aparte regels (B4/A7). Sectie IV ('Uit te voeren werkzaamheden teneinde de verslaggeving bij de grensoverschrijdende omzetting') staat niet als ## heading (alleen IV.1, IV.2, IV.3 staan in body als plain-text). Page-footers 'OPENBARE RAADPLEGING JUNI 2025 X/64' herhaald in body. Ondanks de grote omvang (153k chars) is de inhoud grotendeels compleet."
       concrete_problemen:
-        - regel: 924
-          type: missing-section
-          voorbeeld: 'Sectie IV ontbreekt als ## heading; alleen IV.1, IV.2, IV.3 in body als plain text'
+        - regel: 201
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: "'Toepassingsgebied .............................................................................................................  6'"
         - regel: 1237
+          categorie: A1
+          type: form-feed
+          voorbeeld: "'OPENBARE RAADPLEGING JUNI 2025  36/64' embedded in body (herhaald meerdere keren)"
+        - regel: 1023
+          categorie: B4
           type: other
-          voorbeeld: Page-footer 'OPENBARE RAADPLEGING JUNI 2025  36/64' embedded in body (talrijk)
-        - regel: 1243
-          type: column-bleed
-          voorbeeld: "'VEREISTEN ... TOEPASSINGSMODALITEITEN' kolom-headers als plain regel midden in sectie V"
+          voorbeeld: "'III. Uit te voeren werkzaamheden teneinde het verslag bij de omzetting op te stellen' — als plain text, geen ## prefix"
+        - regel: 1323
+          categorie: B4
+          type: other
+          voorbeeld: "'IV. Uit te voeren werkzaamheden teneinde de verslaggeving bij de grensoverschrijdende omzetting te doen' — plain text, niet als ##"
+        - regel: 297
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "'A. omzettingen mogelijk:\\nA. –\\neen vennootschap...' — kolom-prefix 'A.' verspreid door opsommingen"
+        - regel: 360
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "'A. getrouw en voldoende zijn van de financiële en boekhoudkundige gegevens\\nopgenomen in het verslag van het bestuursorgaan (Wetboek van\\nvennootschappen\\nen\\nverenigingen)\\ndienen\\ntoe\\nte\\npassen.' — kolom-extract"
 ---
 
 Ontwerp

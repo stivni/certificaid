@@ -28,10 +28,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:24:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'A6: op meerdere plaatsen in de Inleiding en het hoofdtekstblok staan voetnootmarkers gevolgd door een harde regelafbreking midden in een zin (bv. regel 68-69, 72-74, 87-88, 92-93, 128-129, 180, 182-184), wat resulteert in gebroken `[^N]`-zinnen die een mens nooit zo zou typen. Regel 141 en 165 bevatten losstaande voetnootmarkers (` [^19]` en ` [^20][^21]`) op een blanco regel midden tussen twee tabellen — PDF-extractie-artefacten. Tabellen zijn inhoudelijk correct in pipe-syntax mét separator, maar de boekingsrijen zijn asymmetrisch (sommige hebben 4, andere 5 kolommen).'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -41,11 +41,31 @@ provenance:
       file_size_chars: 18601
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:24:34Z'
+      rationale: 'A6: op meerdere plaatsen in de Inleiding en het hoofdtekstblok staan voetnootmarkers gevolgd door een harde regelafbreking midden in een zin (bv. regel 68-69, 72-74, 87-88, 92-93, 128-129, 180, 182-184), wat resulteert in gebroken `[^N]`-zinnen die een mens nooit zo zou typen. Regel 141 en 165 bevatten losstaande voetnootmarkers (` [^19]` en ` [^20][^21]`) op een blanco regel midden tussen twee tabellen — PDF-extractie-artefacten. Tabellen zijn inhoudelijk correct in pipe-syntax mét separator, maar de boekingsrijen zijn asymmetrisch (sommige hebben 4, andere 5 kolommen).'
+      concrete_problemen:
+        - regel: 68
+          categorie: A6
+          type: other
+          voorbeeld: heropening van de vereffening van een vzw of ivzw[^2]\n geregeld met de invoering van het nieuwe
+        - regel: 72
+          categorie: A6
+          type: other
+          voorbeeld: In navolging van het CBN-advies[^6]\n inzake de verslaggeving bij de ontbinding
+        - regel: 87
+          categorie: A6
+          type: other
+          voorbeeld: vereffende vzw of ivzw opnieuw rechtspersoonlijkheid verkrijgt[^10]\n en van rechtswege eigenaar
+        - regel: 141
+          categorie: G3
+          type: other
+          voorbeeld: ' [^19]  (losstaande voetnootmarker op blanco regel tussen twee tabellen)'
+        - regel: 165
+          categorie: G3
+          type: other
+          voorbeeld: ' [^20][^21]  (twee gestapelde losstaande voetnootmarkers op blanco regel)'
 gerelateerde_adviezen:
   - titel: Verslaggeving bij de heropening van de vereffening van de vennootschappen
     url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen

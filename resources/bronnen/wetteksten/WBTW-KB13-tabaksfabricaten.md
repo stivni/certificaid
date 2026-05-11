@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Artikelen hebben ## Art.-headings (Art. 1 t/m Art. 5), dus de layer2-rationale 'geen headings' klopt niet met de werkelijke body. Problemen: (1) B4: 'Bijlage A' en 'Bijlage B' zijn plain-text regels zonder heading-prefix; (2) C3: Bijlage A heeft pseudo-tabel met spatie-alignment; (3) A6: consistente 7-spaties-inspringing voor tekst binnen artikelen, typisch PDF-artefact. Inhoud volledig."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,11 +38,22 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: Heading_count=0 — zelfde Fisconet-issue. Niet chunkbaar zonder heading-injection.
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:58Z'
+      rationale: "Artikelen hebben ## Art.-headings (Art. 1 t/m Art. 5), dus de layer2-rationale 'geen headings' klopt niet met de werkelijke body. Problemen: (1) B4: 'Bijlage A' en 'Bijlage B' zijn plain-text regels zonder heading-prefix; (2) C3: Bijlage A heeft pseudo-tabel met spatie-alignment; (3) A6: consistente 7-spaties-inspringing voor tekst binnen artikelen, typisch PDF-artefact. Inhoud volledig."
       concrete_problemen:
-        - geen markdown-headings voor artikelen
+        - regel: 100
+          categorie: B4
+          type: other
+          voorbeeld: Bijlage A
+        - regel: 102
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: "       Bijwerking                                  Te vervangen pagina's"
+        - regel: 60
+          categorie: A6
+          type: other
+          voorbeeld: '       (De tekst van KB nr. 13, artikel 1 is van toepassing met ingang van 14.04.2003.'
 ---
 
 # K.B. nr. 13 van 29 december 1992, met betrekking tot de regeling voor tabaksfabricaten op het stuk van de belasting over de toegevoegde waarde

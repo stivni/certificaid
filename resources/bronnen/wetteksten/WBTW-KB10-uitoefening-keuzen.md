@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "C3: wijzigingsnotities bij Art. 6, 7quater, 8, 9, 10 bevatten brede spaties als column-alignment-artefact: 'werd                 vervangen    met    ingang     van    01.01.2020' en 'KB        nr.   10,   artikel    8    is   van   toepassing     met   ingang     van    01.01.1993'. G1: 'www.fisconetplus.be' als plain-text URL op regel 365. Overige inhoud compleet en structureel helder."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,11 +38,22 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Heading_count=0 — inhoud staat als 'Artikel N' platte tekst i.p.v. ## Art.-headings. Niet chunkbaar onder huidige chunk-config."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:58Z'
+      rationale: "C3: wijzigingsnotities bij Art. 6, 7quater, 8, 9, 10 bevatten brede spaties als column-alignment-artefact: 'werd                 vervangen    met    ingang     van    01.01.2020' en 'KB        nr.   10,   artikel    8    is   van   toepassing     met   ingang     van    01.01.1993'. G1: 'www.fisconetplus.be' als plain-text URL op regel 365. Overige inhoud compleet en structureel helder."
       concrete_problemen:
-        - geen markdown-headings voor artikelen
+        - regel: 188
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: (De tekst van KB nr. 10, artikel 6, werd                 vervangen    met    ingang     van    01.01.2020
+        - regel: 344
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: (De tekst van KB        nr.   10,   artikel    8    is   van   toepassing     met   ingang     van    01.01.1993
+        - regel: 365
+          categorie: G1
+          type: url-plaintext
+          voorbeeld: De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 ---
 
 # K.B. nr. 10 van 29 december 1992, met betrekking tot de uitoefeningsmodaliteiten van de keuzen, bedoeld in de artikelen 15, § 2, derde lid, 21bis, § 2, 9°, vierde lid, 25ter, § 1, tweede lid, 2°, tweede lid en 44, § 3, 2°, d), van het Wetboek van de belasting over de toegevoegde waarde, de aangiften van aanvang, wijziging, stopzetting van activiteit en de voorafgaande kennisgevingen inzake de belasting over de toegevoegde waarde

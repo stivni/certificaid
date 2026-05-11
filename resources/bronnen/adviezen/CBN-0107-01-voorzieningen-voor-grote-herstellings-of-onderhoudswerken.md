@@ -22,10 +22,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Extreem korte bron (700 chars, 2 alinea's, geen headings buiten de paginatitel). Laag-1 pass. Geen detecteerbare extractie-artefacten: geen HTML-entities, geen gebroken zinnen na footnote-markers, geen unicode-artefacten. De inhoud is volledig en afgerond — dit advies is inhoudelijk kort van aard."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -35,10 +35,10 @@ provenance:
       file_size_chars: 700
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: "Extreem korte bron (700 chars, 2 alinea's, geen headings buiten de paginatitel). Laag-1 pass. Geen detecteerbare extractie-artefacten: geen HTML-entities, geen gebroken zinnen na footnote-markers, geen unicode-artefacten. De inhoud is volledig en afgerond — dit advies is inhoudelijk kort van aard."
       concrete_problemen: []
 ---
 

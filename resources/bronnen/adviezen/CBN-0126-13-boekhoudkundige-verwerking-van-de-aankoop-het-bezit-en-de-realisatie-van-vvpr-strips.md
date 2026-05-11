@@ -27,10 +27,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Meerdere problemen: A3: dubbele TOC (regel 65-75 als genummerde lijst + regel 77 als aaneengesloten nav-blob met '------'-separatoren). A4: U+00AC (NOT SIGN) op regels 183 en 185 als pseudo-koppelstreep in 'VVPR¬aandelen' — duidelijk OCR/extractie-artefact. A5: inconsistente quotes ('VVPS-strip' met ASCII-aanhalingstekens naast «VVPR-strips» met guillemets). G3: footnote [^8] breekt de zin op regel 139 (de footnote-marker staat als losse regel met een spatie ervoor). B1/woordfout: de heading op regel 107 bevat typo 'VVPS-strip' i.p.v. 'VVPR-strip'."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -40,11 +40,31 @@ provenance:
       file_size_chars: 21548
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: "Meerdere problemen: A3: dubbele TOC (regel 65-75 als genummerde lijst + regel 77 als aaneengesloten nav-blob met '------'-separatoren). A4: U+00AC (NOT SIGN) op regels 183 en 185 als pseudo-koppelstreep in 'VVPR¬aandelen' — duidelijk OCR/extractie-artefact. A5: inconsistente quotes ('VVPS-strip' met ASCII-aanhalingstekens naast «VVPR-strips» met guillemets). G3: footnote [^8] breekt de zin op regel 139 (de footnote-marker staat als losse regel met een spatie ervoor). B1/woordfout: de heading op regel 107 bevat typo 'VVPS-strip' i.p.v. 'VVPR-strip'."
+      concrete_problemen:
+        - regel: 77
+          categorie: A3
+          type: other
+          voorbeeld: '------ Boekhoudrechtelijke kwalificatie...------ Vragen in verband... (nav-blob dubbelt TOC)'
+        - regel: 183
+          categorie: A4
+          type: other
+          voorbeeld: VVPR¬aandelen (U+00AC NOT SIGN als koppelstreep)
+        - regel: 107
+          categorie: A5
+          type: other
+          voorbeeld: '#### Juridisch statuut van de "VVPS-strip" (typo + ASCII-quotes naast «»-guillemets)'
+        - regel: 139
+          categorie: G3
+          type: other
+          voorbeeld: '...beurswaarde[^8]\n van de strip daalt. (footnote-marker breekt regel)'
+        - regel: 81
+          categorie: B1
+          type: other
+          voorbeeld: '#### Beschrijving van het mechanisme van de «VVPR-strips (ontbrekend sluitend »)'
 gerelateerde_adviezen:
   - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
     url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders

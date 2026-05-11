@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "E2/C3: regels 143-161 bevatten een vergelijkingstabel (percentage of completion vs completed contract) met multiline celinhoud die niet correct in markdown-pipe-syntax past — cellen lopen over meerdere regels met lege regels ertussen. Regel 464: boeking heeft beide regels als debet zonder 'aan'-prefix voor de credit-zijde. Inhoud overigens uitzonderlijk volledig."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,19 @@ provenance:
       file_size_chars: 41037
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:18Z'
+      rationale: "E2/C3: regels 143-161 bevatten een vergelijkingstabel (percentage of completion vs completed contract) met multiline celinhoud die niet correct in markdown-pipe-syntax past — cellen lopen over meerdere regels met lege regels ertussen. Regel 464: boeking heeft beide regels als debet zonder 'aan'-prefix voor de credit-zijde. Inhoud overigens uitzonderlijk volledig."
+      concrete_problemen:
+        - regel: 143
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: "| | | *Percentage of completion methode* | | *Completed contract methode* | \n| Zekerheid van het erkende resultaat | | \n\nDe geanticipeerde winst..."
+        - regel: 464
+          categorie: E2
+          type: other
+          voorbeeld: "| | 370 | Bestellingen in uitvoering – Aanschaffingswaarde | 40.000 | |\n| | 7170 | Wijzigingen... | 40.000 | |"
 gerelateerde_adviezen:
   - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Volledige, correcte advies-tekst (1725 tekens). Eén voetnoot [^1] correct gekoppeld. Geen artefacten aangetroffen. Frontmatter consistent met body. Laag-1 pass correct.
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -37,10 +37,10 @@ provenance:
       file_size_chars: 1725
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: Volledige, correcte advies-tekst (1725 tekens). Eén voetnoot [^1] correct gekoppeld. Geen artefacten aangetroffen. Frontmatter consistent met body. Laag-1 pass correct.
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming

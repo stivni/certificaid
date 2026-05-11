@@ -1,31 +1,64 @@
 ---
-tags: [XI]
-itaa-lex-sectie: XI
-wet: Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019)
-status: beschikbaar
 bijgewerkt: 27.01.2026
 bron: ejustice.just.fgov.be (Justel, gecoördineerde versie)
-raw-bron: resources/raw/wetteksten/Oud-BW.pdf
+itaa-lex-sectie: XI
 provenance:
+  inputs:
+    - id: resources/raw/wetteksten/Oud-BW.pdf
+      sha256: f0ca492f94ed226cc0d0ac11be8af1243cf429d3a7494af0c1e0821585faeb13
+      version:
+  tooling:
+    pipeline: manual-import
+    pipeline_version: skel-2026-05-11
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T11:42:59Z'
+  stale: false
+  stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:43:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B2: Ernstige heading-hiërarchie-mismatch: alle 2935 Art.-headings staan op niveau ## (bv. '## Art. 1') terwijl de structuurlagen TITEL (###), HOOFDSTUK (####) en AFDELING (#####) dieper zitten — Art. staat dus hoger dan zijn eigen container-secties. D1: Meerdere Art.-headings beginnen met een onvolledige zin doordat de eerste zin-woorden op de vorige PDF-pagina stonden (bv. '## Art. 21' gevolgd door ', met uitzondering van de huwelijksakte...'; '## Art. 24' gevolgd door 'in de DABS opgenomen akten...'; '## Art. 38' gevolgd door 'burgerrechtelijk aansprakelijk...'). Laag-1 was 'not_run'."
     layer1:
-      status: not_run
-      run_id:
-      run_at:
-      heading_count:
-      max_section_chars:
       file_size_chars:
       flags: []
-    layer2:
-      status: not_run
-      agent:
+      heading_count:
+      max_section_chars:
       run_at:
-      rationale:
-      concrete_problemen: []
+      run_id:
+      status: not_run
+    layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:43:15Z'
+      rationale: "B2: Ernstige heading-hiërarchie-mismatch: alle 2935 Art.-headings staan op niveau ## (bv. '## Art. 1') terwijl de structuurlagen TITEL (###), HOOFDSTUK (####) en AFDELING (#####) dieper zitten — Art. staat dus hoger dan zijn eigen container-secties. D1: Meerdere Art.-headings beginnen met een onvolledige zin doordat de eerste zin-woorden op de vorige PDF-pagina stonden (bv. '## Art. 21' gevolgd door ', met uitzondering van de huwelijksakte...'; '## Art. 24' gevolgd door 'in de DABS opgenomen akten...'; '## Art. 38' gevolgd door 'burgerrechtelijk aansprakelijk...'). Laag-1 was 'not_run'."
+      concrete_problemen:
+        - regel: 45
+          categorie: B2
+          type: other
+          voorbeeld: '## Art. 1 staat op niveau ## maar valt binnen ### TITEL I → #### HOOFDSTUK I (Art. is hoger dan zijn container)'
+        - regel: 189
+          categorie: D1
+          type: abrupt-cutoff
+          voorbeeld: '## Art. 21\n\n, met uitzondering van de huwelijksakte, laten vertegenwoordigen... — zin begint midden in'
+        - regel: 207
+          categorie: D1
+          type: abrupt-cutoff
+          voorbeeld: '## Art. 24\n\nin de DABS opgenomen akten, alsook de afschriften... — zin begint midden in'
+        - regel: 385
+          categorie: D1
+          type: abrupt-cutoff
+          voorbeeld: '## Art. 38\n\nburgerrechtelijk aansprakelijk voor het niet naleven... — zin begint midden in'
+        - regel: 358
+          categorie: B3
+          type: other
+          voorbeeld: '###### Onderafdeling 2. Onderafdeling 3 — heading combineert twee labels (extractie-artefact)'
+raw-bron: resources/raw/wetteksten/Oud-BW.pdf
+status: beschikbaar
+tags:
+  - XI
+wet: Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019)
 ---
 
 # Burgerlijk Wetboek (oud)

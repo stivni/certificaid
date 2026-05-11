@@ -22,10 +22,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B3: dubbele page-title-heading op regels 58 en 60 (identieke tekst, duplicate-title-patroon). De rest van de inhoud is correct en volledig afgesloten — enkel de heading-duplicatie is een ETL-bug die eenvoudig te fixen is.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -35,11 +35,15 @@ provenance:
       file_size_chars: 3119
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: 'B3: dubbele page-title-heading op regels 58 en 60 (identieke tekst, duplicate-title-patroon). De rest van de inhoud is correct en volledig afgesloten — enkel de heading-duplicatie is een ETL-bug die eenvoudig te fixen is.'
+      concrete_problemen:
+        - regel: 58
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 126-6 - Individualisering van de aanschaffingsprijs (dubbel op regel 58+60)'
 gerelateerde_adviezen:
   - titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
     url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp

@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B2: heading-hiërarchie springt op regel 60 en 67 van ## naar #### zonder tussenliggend ### niveau — een mens zou dat niet zo schrijven. D4: regel 77 bevat '*Voorbeeld *' met een spatie voor de sluitende asterisk (malformed italic). Inhoud en voetnoten zijn volledig en correct."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,23 @@ provenance:
       file_size_chars: 10395
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:18Z'
+      rationale: "B2: heading-hiërarchie springt op regel 60 en 67 van ## naar #### zonder tussenliggend ### niveau — een mens zou dat niet zo schrijven. D4: regel 77 bevat '*Voorbeeld *' met een spatie voor de sluitende asterisk (malformed italic). Inhoud en voetnoten zijn volledig en correct."
+      concrete_problemen:
+        - regel: 60
+          categorie: B2
+          type: other
+          voorbeeld: '#### Procedure'
+        - regel: 67
+          categorie: B2
+          type: other
+          voorbeeld: '#### Boekhoudkundige verwerking'
+        - regel: 77
+          categorie: D4
+          type: other
+          voorbeeld: '*Voorbeeld *'
 ---
 
 # CBN-advies 2011/22 – Boekhoudkundige verwerking van de door de Vlaamse Regering gecreëerde kmo-portefeuille

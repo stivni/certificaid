@@ -28,10 +28,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'D4/A5: meerdere malformed italics waarbij een spatie voor de sluitende * staat (bv. *Standaardsoftware *, *testing *, *maintenance *, **A.2 Toepassingssoftware bestemd voor commercialisatie **). Regel 146 heeft een losse * * (spatie-italic) als artefact. Inhoud is volledig en inhoudelijk correct; alle vier voetnoten gekoppeld.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -41,11 +41,31 @@ provenance:
       file_size_chars: 12715
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: 'D4/A5: meerdere malformed italics waarbij een spatie voor de sluitende * staat (bv. *Standaardsoftware *, *testing *, *maintenance *, **A.2 Toepassingssoftware bestemd voor commercialisatie **). Regel 146 heeft een losse * * (spatie-italic) als artefact. Inhoud is volledig en inhoudelijk correct; alle vier voetnoten gekoppeld.'
+      concrete_problemen:
+        - regel: 98
+          categorie: D4
+          type: other
+          voorbeeld: a) *Standaardsoftware *
+        - regel: 116
+          categorie: D4
+          type: other
+          voorbeeld: '**A.2 Toepassingssoftware bestemd voor commercialisatie **'
+        - regel: 146
+          categorie: D4
+          type: other
+          voorbeeld: Met toepassing van artikel 37 en 38 KB W.Venn.* *omvat deze vervaardigingsprijs...
+        - regel: 155
+          categorie: D4
+          type: other
+          voorbeeld: '...de uitgaven van *coding*, *testing *en - in bepaalde gevallen - van *maintenance *die...'
+        - regel: 167
+          categorie: D4
+          type: other
+          voorbeeld: a) *Ten behoeve van derden ontwikkelde specifieke software *
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van afvalstoffen
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen

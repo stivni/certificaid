@@ -33,10 +33,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: regel 102 bevat een duplicate TOC als lange aaneengesloten plain-text-blob ('---- Aanschaffingsprijs---- Vervaardigingsprijs---- Inbrengwaarde-- Afschrijvingen...Goodwill-- Inleiding en begrippen -- Afschrijvingen op goodwill') die de volledige TOC herhaalt als extractie-artefact. D4: regel 246 heeft '[^13][^14][^15][^16]' als vier aaneengeplakte footnote-markers zonder tussenliggende tekst — dit zijn inline footnote-markers die normaal verspreid zouden staan."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -46,11 +46,19 @@ provenance:
       file_size_chars: 32459
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:18Z'
+      rationale: "A3: regel 102 bevat een duplicate TOC als lange aaneengesloten plain-text-blob ('---- Aanschaffingsprijs---- Vervaardigingsprijs---- Inbrengwaarde-- Afschrijvingen...Goodwill-- Inleiding en begrippen -- Afschrijvingen op goodwill') die de volledige TOC herhaalt als extractie-artefact. D4: regel 246 heeft '[^13][^14][^15][^16]' als vier aaneengeplakte footnote-markers zonder tussenliggende tekst — dit zijn inline footnote-markers die normaal verspreid zouden staan."
+      concrete_problemen:
+        - regel: 102
+          categorie: A3
+          type: other
+          voorbeeld: '---- Aanschaffingsprijs---- Vervaardigingsprijs---- Inbrengwaarde-- Afschrijvingen en waardeverminderingen...'
+        - regel: 246
+          categorie: G3
+          type: other
+          voorbeeld: ' [^13][^14][^15][^16]'
 gerelateerde_adviezen:
   - titel: 'Aanschaffingsprijs : bijkomende kosten (update) [ONTWERP]'
     url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten-update-ontwerp

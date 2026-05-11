@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B4: twee ## headings in all-caps (INLEIDING, BOEKHOUDKUNDIGE VERWERKING op regels 62 en 78) — mens schrijft Inleiding niet in caps. E1/E2: 127 tabelregels aanwezig maar slechts 2 scheidingsregels (|---|) — de meeste balans-tabellen hebben geen markdown header-separator, wat technisch geen geldige markdown-tabellen zijn. Inhoud volledig en voetnoten correct.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -37,11 +37,23 @@ provenance:
       file_size_chars: 23508
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: 'B4: twee ## headings in all-caps (INLEIDING, BOEKHOUDKUNDIGE VERWERKING op regels 62 en 78) — mens schrijft Inleiding niet in caps. E1/E2: 127 tabelregels aanwezig maar slechts 2 scheidingsregels (|---|) — de meeste balans-tabellen hebben geen markdown header-separator, wat technisch geen geldige markdown-tabellen zijn. Inhoud volledig en voetnoten correct.'
+      concrete_problemen:
+        - regel: 62
+          categorie: B4
+          type: other
+          voorbeeld: '## INLEIDING (all-caps H2)'
+        - regel: 78
+          categorie: B4
+          type: other
+          voorbeeld: '## BOEKHOUDKUNDIGE VERWERKING (all-caps H2)'
+        - regel: 90
+          categorie: E1
+          type: other
+          voorbeeld: '| A (Belgische overgenomen vennootschap) | — geen |---|---| scheidingsrij na header'
 gerelateerde_adviezen:
   - titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve

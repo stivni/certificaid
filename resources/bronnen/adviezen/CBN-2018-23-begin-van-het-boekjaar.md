@@ -29,10 +29,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'A3: TOC-blok op regels 67-78 staat als plain-text nummering in de body (geen heading-prefix), met een extra gedupliceerde en afgebroken TOC-regel op lijn 78 (`-- Inbreng van algemeenheid...`). D3: Losstaande `[^23]` en `[^24]` op respectievelijk regels 227 en 244 zonder voorgaande aankondigingstekst — worden als verweesd anker gerenderd vóór de tabel. Tabellen en inhoud zijn verder volledig en goed opgemaakt.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -42,11 +42,27 @@ provenance:
       file_size_chars: 28458
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: 'A3: TOC-blok op regels 67-78 staat als plain-text nummering in de body (geen heading-prefix), met een extra gedupliceerde en afgebroken TOC-regel op lijn 78 (`-- Inbreng van algemeenheid...`). D3: Losstaande `[^23]` en `[^24]` op respectievelijk regels 227 en 244 zonder voorgaande aankondigingstekst — worden als verweesd anker gerenderd vóór de tabel. Tabellen en inhoud zijn verder volledig en goed opgemaakt.'
+      concrete_problemen:
+        - regel: 67
+          categorie: A3
+          type: other
+          voorbeeld: '1. Inleiding \n2. Het principe: het boekjaar start op de datum...'
+        - regel: 78
+          categorie: A3
+          type: other
+          voorbeeld: -- Inbreng van algemeenheid en inbreng van bedrijfstak tijdens de oprichting van een nieuwe vennootschap
+        - regel: 227
+          categorie: D3
+          type: other
+          voorbeeld: ' [^23]'
+        - regel: 244
+          categorie: D3
+          type: other
+          voorbeeld: ' [^24]'
 gerelateerde_adviezen:
   - titel: Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen

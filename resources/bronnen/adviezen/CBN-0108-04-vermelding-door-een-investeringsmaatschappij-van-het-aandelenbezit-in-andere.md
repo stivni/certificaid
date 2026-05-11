@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Kort advies (2010 tekens) zonder interne headings — structureel correct voor dit type enkelvoudige vraag-antwoord advies. Voetnoten [^1], [^2], [^3] aanwezig en goed gedefineerd. Bullets op regels 64-65 correct. Geen artefacten.
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,10 +33,10 @@ provenance:
       file_size_chars: 2010
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: Kort advies (2010 tekens) zonder interne headings — structureel correct voor dit type enkelvoudige vraag-antwoord advies. Voetnoten [^1], [^2], [^3] aanwezig en goed gedefineerd. Bullets op regels 64-65 correct. Geen artefacten.
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'

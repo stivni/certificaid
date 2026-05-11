@@ -28,10 +28,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: TOC-fragment verdubbeld in de body op L70 — een geconcateneerde regel '---- Omzetting van een vennootschap in een VZW of IVZW-- Mogelijkheid tot compensatie…' is een extractie-artefact waarbij twee TOC-entries samengevoegd zijn en als plain-tekstregel in de body terechtkwamen. D4: malformed italic op L75 — '*Beginvermogen *' en '*Permanente financiering[^3] *' hebben spaties vóór de afsluitende asterisk. A6: L74–L75 is een zin gesplitst over twee regels door een footnote-anker op L74."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -41,11 +41,23 @@ provenance:
       file_size_chars: 21745
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:41Z'
+      rationale: "A3: TOC-fragment verdubbeld in de body op L70 — een geconcateneerde regel '---- Omzetting van een vennootschap in een VZW of IVZW-- Mogelijkheid tot compensatie…' is een extractie-artefact waarbij twee TOC-entries samengevoegd zijn en als plain-tekstregel in de body terechtkwamen. D4: malformed italic op L75 — '*Beginvermogen *' en '*Permanente financiering[^3] *' hebben spaties vóór de afsluitende asterisk. A6: L74–L75 is een zin gesplitst over twee regels door een footnote-anker op L74."
+      concrete_problemen:
+        - regel: 70
+          categorie: A3
+          type: other
+          voorbeeld: '---- Omzetting van een vennootschap in een VZW of IVZW-- Mogelijkheid tot compensatie van negatieve fondsen…'
+        - regel: 75
+          categorie: D4
+          type: other
+          voorbeeld: rekening 100 *Beginvermogen *en rekening 101 *Permanente financiering[^3] *
+        - regel: 74
+          categorie: A6
+          type: other
+          voorbeeld: "…(hierna: KB WVV)[^2]\\n waren de VZW's, IVZW's…"
 gerelateerde_adviezen:
   - titel: Negatieve fondsen in de beginbalans van een vereniging zonder winstoogmerk
     url: https://www.cbn-cnc.be/nl/adviezen/negatieve-fondsen-in-de-beginbalans-van-een-vereniging-zonder-winstoogmerk

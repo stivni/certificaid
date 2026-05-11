@@ -22,10 +22,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Zeer kort advies (1401 tekens) zonder interne headings — past bij enkelvoudige interpretatie-vraag. Geen artefacten. De afkorting 'mec. nr. 4659' op regel 64 is een authentieke verwijzing uit het originele advies, geen extractie-bug. Frontmatter volledig.
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -35,10 +35,10 @@ provenance:
       file_size_chars: 1401
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: Zeer kort advies (1401 tekens) zonder interne headings — past bij enkelvoudige interpretatie-vraag. Geen artefacten. De afkorting 'mec. nr. 4659' op regel 64 is een authentieke verwijzing uit het originele advies, geen extractie-bug. Frontmatter volledig.
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris

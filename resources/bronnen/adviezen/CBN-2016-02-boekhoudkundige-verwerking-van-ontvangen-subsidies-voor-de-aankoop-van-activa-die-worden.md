@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B3+D4: regels 61–65 bevatten drie duplicate #-level headings met ongesloten bold-markers ('# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' zonder sluiter-`**`). Regel 67: '## **Inleiding****' met dubbele sluiter — malformed heading. Regel 73: lege ## heading ('## ') gevolgd door '**Analyse****' als plain-text bold in de body (B3+D4). Dit zijn duidelijke scrape-artefacten."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,31 @@ provenance:
       file_size_chars: 3316
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "B3+D4: regels 61–65 bevatten drie duplicate #-level headings met ongesloten bold-markers ('# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' zonder sluiter-`**`). Regel 67: '## **Inleiding****' met dubbele sluiter — malformed heading. Regel 73: lege ## heading ('## ') gevolgd door '**Analyse****' als plain-text bold in de body (B3+D4). Dit zijn duidelijke scrape-artefacten."
+      concrete_problemen:
+        - regel: 61
+          categorie: D4
+          type: other
+          voorbeeld: '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'
+        - regel: 63
+          categorie: B3
+          type: other
+          voorbeeld: '# **CBN-advies 2016/2 – Boekhoudkundige verwerking van ontvangen subsidies...'
+        - regel: 67
+          categorie: D4
+          type: other
+          voorbeeld: '## **Inleiding****'
+        - regel: 73
+          categorie: B3
+          type: other
+          voorbeeld: '## '
+        - regel: 75
+          categorie: D4
+          type: other
+          voorbeeld: '**Analyse****'
 gerelateerde_adviezen:
   - titel: Wijziging van het boekhoudkundig referentiestelsel
     url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel

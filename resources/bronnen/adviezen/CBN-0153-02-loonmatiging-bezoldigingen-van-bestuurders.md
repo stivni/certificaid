@@ -26,10 +26,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Bron volledig gelezen (3943 tekens, heading_count: 0, Laag-1 pass). Drie journaalboekingstabellen correct als pipe-tables. Drie voetnoten correct gedefinieerd. Geen artefacten in categorieën A-G. Inhoud volledig: juridische context + voorkeur-boekingswijze + boekingen voor alle scenario's aanwezig."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -39,10 +39,10 @@ provenance:
       file_size_chars: 3943
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: "Bron volledig gelezen (3943 tekens, heading_count: 0, Laag-1 pass). Drie journaalboekingstabellen correct als pipe-tables. Drie voetnoten correct gedefinieerd. Geen artefacten in categorieën A-G. Inhoud volledig: juridische context + voorkeur-boekingswijze + boekingen voor alle scenario's aanwezig."
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris

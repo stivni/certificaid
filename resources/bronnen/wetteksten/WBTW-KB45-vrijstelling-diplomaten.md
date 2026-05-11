@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "F3: bestandsnaam 'vrijstelling-diplomaten' klopt niet met de inhoud — KB nr. 45 betreft kans- en geldspelen, niet diplomaten (frontmatter en body kloppen wél onderling; enkel de bestandsnaam is verkeerd). B5: de drie Artikel-markers staan als ##-headings (positief), maar de inhoud is zo kort (3052 chars, 3 artikelen) dat er nauwelijks chunking-waarde is. De bijwerkingenlijst onderaan (regels 104-112) is als plain-text tabel gepresenteerd — aanvaardbaar voor dit formaat. Overige content technisch correct en volledig."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,16 +38,14 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Bestandsnaam-mismatch: file heet 'vrijstelling-diplomaten' maar KB nr. 45 betreft 'vrijstelling kans- en geldspelen' (frontmatter+body kloppen wél onderling). KB is bovendien opgeheven per 01.07.2016 maar via vernietiging Grondwettelijk Hof per 22.05.2018 hersteld. Inhoud kort en correct, maar filename moet hernoemd. 0 ##-headings bij 3 Artikelen."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "F3: bestandsnaam 'vrijstelling-diplomaten' klopt niet met de inhoud — KB nr. 45 betreft kans- en geldspelen, niet diplomaten (frontmatter en body kloppen wél onderling; enkel de bestandsnaam is verkeerd). B5: de drie Artikel-markers staan als ##-headings (positief), maar de inhoud is zo kort (3052 chars, 3 artikelen) dat er nauwelijks chunking-waarde is. De bijwerkingenlijst onderaan (regels 104-112) is als plain-text tabel gepresenteerd — aanvaardbaar voor dit formaat. Overige content technisch correct en volledig."
       concrete_problemen:
         - regel: 0
+          categorie: F3
           type: naam-mismatch
-          voorbeeld: Filename WBTW-KB45-vrijstelling-diplomaten.md ↔ inhoud over kans- en geldspelen
-        - regel: 0
-          type: missing-section
-          voorbeeld: '0 ##-headings, Artikel 1..3 plain text'
+          voorbeeld: Bestandsnaam WBTW-KB45-vrijstelling-diplomaten.md — inhoud over kans- en geldspelen (art. 44 §3 13°)
 ---
 
 # K.B. nr. 45 van 14 april 1993, met betrekking tot de vrijstelling op het stuk van de belasting over de toegevoegde waarde ten aanzien van de kans- en geldspelen

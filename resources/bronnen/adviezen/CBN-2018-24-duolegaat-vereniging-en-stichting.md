@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'A3: TOC op regels 48-58 staat als plain-text in de body; regel 58 bevat een aaneengesloten concatenatie van alle TOC-subpunten op één regel (`vereniging of stichting-- Duolegaat in geld-- Duolegaat in natura...`). D4: `*duolegaat *` (spatie vóór sluitende `*`) op meerdere plaatsen (regels 64, 66, 67, 71, 79, 80, 82, 88, 90). Tabellen en inhoud zijn volledig correct.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,27 @@ provenance:
       file_size_chars: 14728
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: 'A3: TOC op regels 48-58 staat als plain-text in de body; regel 58 bevat een aaneengesloten concatenatie van alle TOC-subpunten op één regel (`vereniging of stichting-- Duolegaat in geld-- Duolegaat in natura...`). D4: `*duolegaat *` (spatie vóór sluitende `*`) op meerdere plaatsen (regels 64, 66, 67, 71, 79, 80, 82, 88, 90). Tabellen en inhoud zijn volledig correct.'
+      concrete_problemen:
+        - regel: 58
+          categorie: A3
+          type: other
+          voorbeeld: vereniging of stichting-- Duolegaat in geld-- Duolegaat in naturaBoekhoudkundige verwerking...
+        - regel: 64
+          categorie: D4
+          type: other
+          voorbeeld: Het *duolegaat *is een bepaling in het testament
+        - regel: 66
+          categorie: D4
+          type: other
+          voorbeeld: Bij het *klassieke duolegaat *wordt de nalatenschap
+        - regel: 79
+          categorie: D4
+          type: other
+          voorbeeld: De door een kleine vereniging of stichting als *duolegaat *ontvangen sommen
 ---
 
 # CBN-advies 2018/24 – Duolegaat – Vereniging en stichting

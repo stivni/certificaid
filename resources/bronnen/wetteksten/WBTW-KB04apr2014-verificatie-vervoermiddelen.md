@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "C3: wijzigingsnotities bij Art. 1, 3, 4, 6, 7, 8, 10, 12 bevatten brede spaties als column-alignment-artefact (PDF tabelvormige opmaak): '(De tekst van KB 04.04.2014, artikel 1,                  werd   gewijzigd     met   ingang    van    04.02.2019'. D4/A6: Art. 8 bevat '                                               (Opgeheven' als ingesprongen tekst zonder sluitende haakjes — een afgebroken PDF-extractieregel. D2: 'Bijlage' verschijnt als plain-text label op regel 232 zonder bijlage-inhoud — vermoedelijk afgesneden."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,12 +38,22 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Zelfde Fisconet-compilatie-issue: heading_count=0, artikelen als 'Artikel N' platte tekst zonder markdown-heading. Niet chunkbaar."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:58Z'
+      rationale: "C3: wijzigingsnotities bij Art. 1, 3, 4, 6, 7, 8, 10, 12 bevatten brede spaties als column-alignment-artefact (PDF tabelvormige opmaak): '(De tekst van KB 04.04.2014, artikel 1,                  werd   gewijzigd     met   ingang    van    04.02.2019'. D4/A6: Art. 8 bevat '                                               (Opgeheven' als ingesprongen tekst zonder sluitende haakjes — een afgebroken PDF-extractieregel. D2: 'Bijlage' verschijnt als plain-text label op regel 232 zonder bijlage-inhoud — vermoedelijk afgesneden."
       concrete_problemen:
-        - 'geen ## Art.-headings'
-        - artikelen als plat-tekst-tekens in pagina-layout
+        - regel: 62
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: (De tekst van KB 04.04.2014, artikel 1,                  werd   gewijzigd     met   ingang    van    04.02.2019
+        - regel: 152
+          categorie: A6
+          type: other
+          voorbeeld: '                                               (Opgeheven'
+        - regel: 232
+          categorie: D2
+          type: abrupt-cutoff
+          voorbeeld: '                           Bijlage (label zonder inhoud — bestand stopt hier)'
 ---
 
 # K.B. van 4 april 2014, betreffende de verificatie van het regelmatig aanwezig zijn van motorvoertuigen

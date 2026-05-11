@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A1: drie pagina-voetregels als plain text in de body (regels 113, 179, 225): 'KB 01.10.2013                                        pg. 1             Certificatie geregistreerde kassa'. De voetregels breken de tekstflow na een alinea mid-artikel. Verder heeft het bestand overmatige leading-spatie-indentatie in alinea's (C3: pseudo-tabel-achtige opmaak in meerdere paragrafen, bijv. regels 61–83) die PDF-sprongen weerspiegelt. Layer2-frontmatter vermeldt al 'geen ## Art.-headings', maar na manueel lezen: de ## Art.-headings zijn WEL aanwezig (Art. 1 t/m Art. 9). Het layer2-verdict in frontmatter is dus incorrect voor dit specifieke punt."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,12 +38,26 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "heading_count=0 terwijl chunk.level=2 type='Art.' verwacht. Tail toont alleen 'Artikel 9' als platte tekst — geen ## Art.-headings. Chunker zal niet kunnen segmenteren; bron in feite niet gechunkbaar."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:58Z'
+      rationale: "A1: drie pagina-voetregels als plain text in de body (regels 113, 179, 225): 'KB 01.10.2013                                        pg. 1             Certificatie geregistreerde kassa'. De voetregels breken de tekstflow na een alinea mid-artikel. Verder heeft het bestand overmatige leading-spatie-indentatie in alinea's (C3: pseudo-tabel-achtige opmaak in meerdere paragrafen, bijv. regels 61–83) die PDF-sprongen weerspiegelt. Layer2-frontmatter vermeldt al 'geen ## Art.-headings', maar na manueel lezen: de ## Art.-headings zijn WEL aanwezig (Art. 1 t/m Art. 9). Het layer2-verdict in frontmatter is dus incorrect voor dit specifieke punt."
       concrete_problemen:
-        - 'geen ## Art.-headings (artikelen blijven inline platte tekst)'
-        - chunker config (level=2) komt niet overeen met body-structuur
+        - regel: 113
+          categorie: A1
+          type: other
+          voorbeeld: KB 01.10.2013                                        pg. 1             Certificatie geregistreerde kassa
+        - regel: 179
+          categorie: A1
+          type: other
+          voorbeeld: KB 01.10.2013                                       pg. 2             Certificatie geregistreerde kassa
+        - regel: 225
+          categorie: A1
+          type: other
+          voorbeeld: KB 01.10.2013                                     pg. 3            Certificatie geregistreerde kassa
+        - regel: 61
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '      Het kassasysteem en de controlemodule bedoeld in artikel 2... (overmatige inspringing door PDF-layout)'
 ---
 
 # K.B. 1 oktober 2013 met betrekking tot de toepassingsmodaliteiten ten aanzien van de certificatie van een geregistreerd kassasysteem in de horecasector

@@ -25,10 +25,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B3: twee lege headings op regels 50 en 75 (enkel '## ' zonder tekst) die de twee secties van het advies zouden moeten labelen. Mens schrijft nooit een lege heading. D4: italic markers zoals '*sexto *' (met spatie voor sluitende asterisk) zijn technisch gesloten maar inconsistent met standaard markdown-conventie; kan rendering-problemen geven in sommige parsers. Inhoud verder volledig."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -38,11 +38,23 @@ provenance:
       file_size_chars: 5991
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: "B3: twee lege headings op regels 50 en 75 (enkel '## ' zonder tekst) die de twee secties van het advies zouden moeten labelen. Mens schrijft nooit een lege heading. D4: italic markers zoals '*sexto *' (met spatie voor sluitende asterisk) zijn technisch gesloten maar inconsistent met standaard markdown-conventie; kan rendering-problemen geven in sommige parsers. Inhoud verder volledig."
+      concrete_problemen:
+        - regel: 50
+          categorie: B3
+          type: other
+          voorbeeld: '## '
+        - regel: 75
+          categorie: B3
+          type: other
+          voorbeeld: '## '
+        - regel: 52
+          categorie: D4
+          type: other
+          voorbeeld: '*sexto *van het tweede lid'
 ---
 
 # CBN-advies 110/2 - Stukken die tegelijk met de jaarrekening dienen neergelegd te worden (artikel 80 W. Venn.)

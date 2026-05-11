@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:51:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Alle drie artikelen zijn correct als ## headings gemarkeerd. De preamble-tekst op regels 54–59 is aaneengesmolten maar dat is een cosmetisch haarscheurtje dat geen leesbaarheid of structuur raakt. Inhoud compleet: Art. 1 (ambtenaar WBTW), Art. 2 (ambtenaar WIB92), Art. 3 (inwerkingtreding). Frontmatter consistent. Geen detecteerbare OCR-fouten, geen kolom-bleed, geen artefacten.'
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -37,14 +37,11 @@ provenance:
       file_size_chars: 1325
       flags: []
     layer2:
-      status: needs-rework
-      agent:
-      run_at:
-      rationale: '0 ##-headings; chunk.level=2 mismatch. Klein MB.'
-      concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: Artikelen als plain centerlines
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:18Z'
+      rationale: 'Alle drie artikelen zijn correct als ## headings gemarkeerd. De preamble-tekst op regels 54–59 is aaneengesmolten maar dat is een cosmetisch haarscheurtje dat geen leesbaarheid of structuur raakt. Inhoud compleet: Art. 1 (ambtenaar WBTW), Art. 2 (ambtenaar WIB92), Art. 3 (inwerkingtreding). Frontmatter consistent. Geen detecteerbare OCR-fouten, geen kolom-bleed, geen artefacten.'
+      concrete_problemen: []
 ---
 
 # M.B. van 29 augustus 2006, tot aanduiding van de ambtenaar bedoeld in artikel 62bis van het Wetboek van de belasting over de toegevoegde waarde en in artikel 318 van het Wetboek van de inkomstenbelastingen 1992

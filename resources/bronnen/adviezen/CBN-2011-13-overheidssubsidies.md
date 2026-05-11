@@ -37,10 +37,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D3: regels 220 en 238 bevatten orphaned `[^19]` en `[^20]` als standalone regels voor boekingtabellen — callouts zonder ankerzin. D4: in tabel op regel 354 staat `| aan | 414 | innen opbrengsten | | |` — het woord 'Te' is weggevallen (moet 'Te innen opbrengsten' zijn), wat een extractie-truncatie is. Verdere structuur (25 headings, markdown tabellen) correct."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -50,11 +50,23 @@ provenance:
       file_size_chars: 41842
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:18Z'
+      rationale: "D3: regels 220 en 238 bevatten orphaned `[^19]` en `[^20]` als standalone regels voor boekingtabellen — callouts zonder ankerzin. D4: in tabel op regel 354 staat `| aan | 414 | innen opbrengsten | | |` — het woord 'Te' is weggevallen (moet 'Te innen opbrengsten' zijn), wat een extractie-truncatie is. Verdere structuur (25 headings, markdown tabellen) correct."
+      concrete_problemen:
+        - regel: 220
+          categorie: D3
+          type: other
+          voorbeeld: ' [^19]'
+        - regel: 238
+          categorie: D3
+          type: other
+          voorbeeld: ' [^20]'
+        - regel: 354
+          categorie: D1
+          type: other
+          voorbeeld: '| aan | 414 | innen opbrengsten | | |'
 ---
 
 # CBN-advies 2011/13 – Overheidssubsidies

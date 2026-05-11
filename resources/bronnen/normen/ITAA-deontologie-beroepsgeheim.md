@@ -26,10 +26,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: rejected
+    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Het bestand bevat enkel een frontmatter-stub met een automatisch gegenereerde placeholder-body (1 regel: '(automatisch gegenereerd — body wordt aangemaakt door convert.py)'). Er is geen inhoud — de eigenlijke brontekst (13 vragen + 67 voetnoten van BeExcellent) is nooit geïnjecteerd. Laag 1 meldt file_size_chars = 130 en heading_count = 0, wat bevestigt dat de body leeg is. Het bestand is niet bruikbaar voor RAG. Laag 2 frontmatter bevat al een eerdere rationale (chunk.level-mismatch en orphan TOC) die verwijst naar een versie met body — die beschrijving klopt niet met de huidige lege toestand."
     layer1:
       status: pass
       run_id: 20260511-085756
@@ -39,20 +39,19 @@ provenance:
       file_size_chars: 130
       flags: []
     layer2:
-      status: needs-rework
-      agent:
-      run_at:
-      rationale: 'Inhoudelijk volledig (BeExcellent extract van vragen 1-13 met voetnoten 1-67), maar frontmatter zet chunk.level=2 terwijl alle 13 hoofdsecties als ### staan en er 0 ## headings zijn. De chunker zal bij level=2 het hele document als één chunk behandelen. Tussen H1 en eerste ### staat een orphan TOC-lijstje met section-titels.'
+      status: rejected
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:58Z'
+      rationale: "Het bestand bevat enkel een frontmatter-stub met een automatisch gegenereerde placeholder-body (1 regel: '(automatisch gegenereerd — body wordt aangemaakt door convert.py)'). Er is geen inhoud — de eigenlijke brontekst (13 vragen + 67 voetnoten van BeExcellent) is nooit geïnjecteerd. Laag 1 meldt file_size_chars = 130 en heading_count = 0, wat bevestigt dat de body leeg is. Het bestand is niet bruikbaar voor RAG. Laag 2 frontmatter bevat al een eerdere rationale (chunk.level-mismatch en orphan TOC) die verwijst naar een versie met body — die beschrijving klopt niet met de huidige lege toestand."
       concrete_problemen:
-        - regel: 27
+        - regel: 65
+          categorie: D2
+          type: missing-section
+          voorbeeld: "'(automatisch gegenereerd — body wordt aangemaakt door convert.py)' — volledige body ontbreekt"
+        - regel: 1
+          categorie: F1
           type: other
-          voorbeeld: 'chunk.level=2 maar 0 ## headings, 13 ### headings — mismatch met chunker-config'
-        - regel: 55
-          type: other
-          voorbeeld: 'L55-67: orphan TOC-lijst met sectienamen tussen intro en eerste vraag, zonder nummering of context'
-        - regel: 72
-          type: other
-          voorbeeld: "'### 2. Wat is de reden van bestaan van het beroepsgeheim?1' — losse 1 (voetnoot-marker) ingebed in heading"
+          voorbeeld: Frontmatter layer2.rationale verwijst naar '13 hoofdsecties' en '### headings' maar body is leeg — frontmatter inconsistent met body
 note: >-
   Gedownload van ITAA BeExcellent platform (Deontologie > Beroepsgeheim).
   Behandelt het beroepsgeheim van accountants en belastingadviseurs onder

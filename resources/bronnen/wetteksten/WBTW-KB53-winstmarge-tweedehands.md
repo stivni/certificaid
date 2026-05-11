@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Body bevat wel degelijk ## Art.-headings (Art. 1 t/m Art. 12) — de layer2-notitie '0 ##-headings' was onjuist. Twee persistente artefacten: (1) introductietekst regels 54-57 bevat meervoudige spaties als kolom-alignment ('bijzondere regeling van belastingheffing over de winstmarge voor gebruikte\ngoederen,     kunstvoorwerpen,   voorwerpen     voor   verzamelingen    en\nantiquiteiten.') (A8/C3); (2) de amendement-notitie bij Art. 12 (regel 213) verwijst foutief naar 'artikel 1' in plaats van 'artikel 12' — vermoedelijk broncopiefout maar een inhoudelijk alarm (D1-equivalent). Bijlage-tabellen als plain-text kolom-alignment."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,22 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '12k chars zonder ##-headings; Artikel-markers plain text. Body intact.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "Body bevat wel degelijk ## Art.-headings (Art. 1 t/m Art. 12) — de layer2-notitie '0 ##-headings' was onjuist. Twee persistente artefacten: (1) introductietekst regels 54-57 bevat meervoudige spaties als kolom-alignment ('bijzondere regeling van belastingheffing over de winstmarge voor gebruikte\ngoederen,     kunstvoorwerpen,   voorwerpen     voor   verzamelingen    en\nantiquiteiten.') (A8/C3); (2) de amendement-notitie bij Art. 12 (regel 213) verwijst foutief naar 'artikel 1' in plaats van 'artikel 12' — vermoedelijk broncopiefout maar een inhoudelijk alarm (D1-equivalent). Bijlage-tabellen als plain-text kolom-alignment."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: '0 ##-headings bij 11999 chars'
+        - regel: 55
+          categorie: A8
+          type: column-bleed
+          voorbeeld: "bijzondere regeling van belastingheffing over de winstmarge voor gebruikte\ngoederen,     kunstvoorwerpen,   voorwerpen     voor   verzamelingen    en"
+        - regel: 213
+          categorie: D1
+          type: other
+          voorbeeld: "(De tekst van Kb nr. 53, artikel 1, is van toepassing...  — staat bij ## Art. 12, moet 'artikel 12' zijn"
+        - regel: 220
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: Bijwerking                                  Te vervangen pagina's
 ---
 
 # K.B. nr. 53 van 23 december 1994, met betrekking tot de bijzondere regeling van belastingheffing over de winstmarge voor gebruikte goederen, kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten

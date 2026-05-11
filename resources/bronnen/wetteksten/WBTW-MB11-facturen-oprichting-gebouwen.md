@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Klein MB (816 chars) met volledige inhoud. Tegenstelling met eerdere layer2-notitie: Art. 1 en Art. 2 staan correct als ## headings op regels 60 en 65. Geen PDF-artefacten, geen kolom-bleed, geen scrambled text. Laag-1 pass. Ziet eruit alsof een mens het van nul heeft geschreven.'
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -37,14 +37,11 @@ provenance:
       file_size_chars: 816
       flags: []
     layer2:
-      status: needs-rework
-      agent:
-      run_at:
-      rationale: 'Klein MB (910 chars) met volledige inhoud, maar 0 ##-headings; Artikel-1 en Artikel-2 staan als plain centerlines.'
-      concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: 'Artikel 1 / Artikel 2 zonder ##-prefix'
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: 'Klein MB (816 chars) met volledige inhoud. Tegenstelling met eerdere layer2-notitie: Art. 1 en Art. 2 staan correct als ## headings op regels 60 en 65. Geen PDF-artefacten, geen kolom-bleed, geen scrambled text. Laag-1 pass. Ziet eruit alsof een mens het van nul heeft geschreven.'
+      concrete_problemen: []
 ---
 
 # M.B. nr. 11 van 3 november 1972, met betrekking tot de controle op de toepassing van de belasting over de toegevoegde waarde ten aanzien van de facturen betreffende oprichting van gebouwen

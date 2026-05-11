@@ -25,10 +25,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks. Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk juist, geen artefact.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -38,10 +38,10 @@ provenance:
       file_size_chars: 10533
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: 'Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks. Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk juist, geen artefact.'
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding

@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Ernstige A6/A7-problemen door de gehele body: zinnen zijn op woordniveau gesplitst over afzonderlijke regels (689 single-word lijnen vastgesteld, bv. regels 81-100: 'acht', 'hoofdstukken', 'behandelen', 'de', 'directe', 'belastingen:', 'de', 'personenbelasting,'). Dit is kenmerkend voor kolom-extractie van een tweekolomme PDF. De afkortingenlijst (regels 267-762) heeft hetzelfde probleem: elke afkorting en definitie staat op aparte regels. TOC-residu (A2) aanwezig op regels 151-265 met dotted-leaders. Paginatellers door de body (regels 407, 561, 712, 954, 1028, ...). De pseudo-tabellen in de 'Cijfers per Hoofdstuk'-sectie zijn met spaties uitgelijnd in plaats van markdown pipe-tabellen (E1-schending). De inhoud zelf is na alle ETL-artefacten nog grotendeels aanwezig, maar de RAG-retrievability is zwaar aangetast door de woordopsplitsing."
     layer1:
       status: not_run
       run_id:
@@ -32,11 +32,31 @@ provenance:
       file_size_chars:
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:19Z'
+      rationale: "Ernstige A6/A7-problemen door de gehele body: zinnen zijn op woordniveau gesplitst over afzonderlijke regels (689 single-word lijnen vastgesteld, bv. regels 81-100: 'acht', 'hoofdstukken', 'behandelen', 'de', 'directe', 'belastingen:', 'de', 'personenbelasting,'). Dit is kenmerkend voor kolom-extractie van een tweekolomme PDF. De afkortingenlijst (regels 267-762) heeft hetzelfde probleem: elke afkorting en definitie staat op aparte regels. TOC-residu (A2) aanwezig op regels 151-265 met dotted-leaders. Paginatellers door de body (regels 407, 561, 712, 954, 1028, ...). De pseudo-tabellen in de 'Cijfers per Hoofdstuk'-sectie zijn met spaties uitgelijnd in plaats van markdown pipe-tabellen (E1-schending). De inhoud zelf is na alle ETL-artefacten nog grotendeels aanwezig, maar de RAG-retrievability is zwaar aangetast door de woordopsplitsing."
+      concrete_problemen:
+        - regel: 81
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "acht\n\nhoofdstukken\n\nbehandelen\n\nde\n\ndirecte\n\nbelastingen:"
+        - regel: 151
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: VOORWOORD......................................................................................................................................................... 2
+        - regel: 407
+          categorie: A1
+          type: form-feed
+          voorbeeld: '8'
+        - regel: 821
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: Belastingontvangsten 2023 in Belastingontvangsten\nmiljoenen euro\nin % van de totale\nbelastingontvangsten(*)
+        - regel: 267
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: AAFisc\n\nAlgemene Administratie van de Fiscaliteit (afkorting-definitie op aparte lijnen)
 chunk:
   level: 3
   type: Art.

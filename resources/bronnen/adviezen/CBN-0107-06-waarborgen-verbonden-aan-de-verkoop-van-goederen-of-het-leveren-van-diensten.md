@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Laag-1 pass (3060 chars). Geen extractie-artefacten: prose vloeit door zonder gebroken regels, geen HTML-entities, geen unicode-problemen. Italic correct op *Voorzieningen* en *Besteding van voorzieningen* (regel 69). Inhoud volledig en goed gestructureerd als lopende tekst.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -32,10 +32,10 @@ provenance:
       file_size_chars: 3060
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: 'Laag-1 pass (3060 chars). Geen extractie-artefacten: prose vloeit door zonder gebroken regels, geen HTML-entities, geen unicode-problemen. Italic correct op *Voorzieningen* en *Besteding van voorzieningen* (regel 69). Inhoud volledig en goed gestructureerd als lopende tekst.'
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis

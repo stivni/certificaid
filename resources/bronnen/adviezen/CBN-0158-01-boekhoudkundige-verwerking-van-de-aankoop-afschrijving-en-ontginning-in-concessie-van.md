@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: regel 53 heeft '#### *Aanschaffingswaarde *' — malformed italic met spatie vóór sluitende asterisk in een heading. Regel 94 idem: '*Aankopen van grondstoffen of handelsgoederen *'. B2: heading-hiërarchie springt van ## (regel 51) naar #### (regel 53) zonder tussenliggend ###. Sterke punten: subheadings correct aanwezig, voetnoot correct gelinkt."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,23 @@ provenance:
       file_size_chars: 5840
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:42Z'
+      rationale: "D4: regel 53 heeft '#### *Aanschaffingswaarde *' — malformed italic met spatie vóór sluitende asterisk in een heading. Regel 94 idem: '*Aankopen van grondstoffen of handelsgoederen *'. B2: heading-hiërarchie springt van ## (regel 51) naar #### (regel 53) zonder tussenliggend ###. Sterke punten: subheadings correct aanwezig, voetnoot correct gelinkt."
+      concrete_problemen:
+        - regel: 53
+          categorie: D4
+          type: other
+          voorbeeld: '#### *Aanschaffingswaarde *'
+        - regel: 53
+          categorie: B2
+          type: other
+          voorbeeld: '## Verwerving in eigendom... → #### *Aanschaffingswaarde * (overgeslagen ###)'
+        - regel: 94
+          categorie: D4
+          type: other
+          voorbeeld: '*Aankopen van grondstoffen of handelsgoederen *'
 gerelateerde_adviezen:
   - titel: De boekhoudkundige verwerking van immateriële vaste activa
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa

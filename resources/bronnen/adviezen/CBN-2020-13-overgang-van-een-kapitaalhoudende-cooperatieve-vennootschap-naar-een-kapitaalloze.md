@@ -30,10 +30,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'D4: Systematisch patroon van malformed italic doorheen het hele document — sluit-asterisk wordt voorafgegaan door een spatie (`*wet van 23 maart 2019* *tot invoering...* `, `rekening 110 *Beschikbare inbreng buiten kapitaa*l` op regel 124 waarbij `l` buiten het italic-span valt). Minstens 10+ gevallen van `* ` (space voor closing asterisk) als wetstitels worden gecursiveerd. Dit is een consistent scraperpatroon, niet incidenteel.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -43,11 +43,23 @@ provenance:
       file_size_chars: 24349
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: 'D4: Systematisch patroon van malformed italic doorheen het hele document — sluit-asterisk wordt voorafgegaan door een spatie (`*wet van 23 maart 2019* *tot invoering...* `, `rekening 110 *Beschikbare inbreng buiten kapitaa*l` op regel 124 waarbij `l` buiten het italic-span valt). Minstens 10+ gevallen van `* ` (space voor closing asterisk) als wetstitels worden gecursiveerd. Dit is een consistent scraperpatroon, niet incidenteel.'
+      concrete_problemen:
+        - regel: 57
+          categorie: D4
+          type: other
+          voorbeeld: Ingevolge de* wet van 23 maart 2019* *tot invoering van het Wetboek...
+        - regel: 124
+          categorie: D4
+          type: other
+          voorbeeld: rekening 110 *Beschikbare inbreng buiten kapitaa*l (l valt buiten italic)
+        - regel: 65
+          categorie: D4
+          type: other
+          voorbeeld: '*Overgangsregeling...houdende diverse bepalingen[^3] * (spatie voor sluit-*)'
 ---
 
 # CBN-advies 2020/13 – Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap

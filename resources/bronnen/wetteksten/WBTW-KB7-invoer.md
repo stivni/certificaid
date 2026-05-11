@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Meerdere PDF-extractieartefacten in dit grote bestand (48 artikelen + bijlage). (1) C3: regels 1762-1908 en de bijlage (2053+) bevatten uitgebreide pseudo-tabellen met spatie-alignment voor hoeveelheden tabaksproducten/alcohol en tariefcodes. (2) A6: regel 1308 toont onverklaarbare extra witruimte midden in een zin ('voortkomen uit                           de'). (3) A3/B7: regels 67-87 bovenaan de body bevatten TOC-fragmenten (Afdeling 2-7 headers als ###) vóór het daadwerkelijke HOOFDSTUK I — dit is een dubbele inhoudsopgave die door de extractie is verspreid. (4) G1: regel 2055 bevat kale URL 'www.fisconetplus.be'. Inhoud is structureel volledig (art. 1-48 + bijlage aanwezig)."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,16 +38,30 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: 'Frontmatter zet chunk.level=4 maar het bestand bevat geen ####-headings; alle artikelen staan als plaintext binnen ##/###-secties. Inhoud is leesbaar en compleet, maar zonder per-artikel-anker is een hele sectie van 115725 chars de chunk-eenheid (max_section_chars warn).'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "Meerdere PDF-extractieartefacten in dit grote bestand (48 artikelen + bijlage). (1) C3: regels 1762-1908 en de bijlage (2053+) bevatten uitgebreide pseudo-tabellen met spatie-alignment voor hoeveelheden tabaksproducten/alcohol en tariefcodes. (2) A6: regel 1308 toont onverklaarbare extra witruimte midden in een zin ('voortkomen uit                           de'). (3) A3/B7: regels 67-87 bovenaan de body bevatten TOC-fragmenten (Afdeling 2-7 headers als ###) vóór het daadwerkelijke HOOFDSTUK I — dit is een dubbele inhoudsopgave die door de extractie is verspreid. (4) G1: regel 2055 bevat kale URL 'www.fisconetplus.be'. Inhoud is structureel volledig (art. 1-48 + bijlage aanwezig)."
       concrete_problemen:
-        - regel: 50
-          type: missing-section
-          voorbeeld: Per-artikel headings (Art. 1, Art. 2, ...) ontbreken; alleen HOOFDSTUK-niveau.
-        - regel: 0
+        - regel: 67
+          categorie: A3
           type: other
-          voorbeeld: 'chunk.level=4 mismatch met heading-structuur (geen #### in body)'
+          voorbeeld: '### Afdeling 2: Vrijstelling ingesteld bij artikel 40, § 1, 1°, b (art. 12-37) [TOC-fragment vóór body]'
+        - regel: 1308
+          categorie: A6
+          type: other
+          voorbeeld: Onder "overblijvende producten" wordt verstaan, producten die voortkomen uit                           de
+        - regel: 1762
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '      a)   tabaksprodukten:\n           -     sigaretten                                                   200 stuks'
+        - regel: 1972
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '     Code van het Tarief                       Omschrijving van invoerrechten'
+        - regel: 2055
+          categorie: G1
+          type: url-plaintext
+          voorbeeld: De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 ---
 
 # K.B. nr. 7 van 29 december 1992, met betrekking tot de invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde

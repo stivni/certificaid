@@ -1,27 +1,42 @@
 ---
 bron_rol: formulier
-tags: [PB, aangifte]
 provenance:
+  inputs:
+    - id: unknown
+      sha256:
+      version:
+  tooling:
+    pipeline: manual-import
+    pipeline_version: skel-2026-05-11
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T11:42:59Z'
+  stale: false
+  stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at: null
-    confirmed_by: null
-    rationale: null
+    status: trusted
+    confirmed_at: '2026-05-11T11:51:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eveneens manueel aangemaakt; geen PDF-extractiesporen. Tabellen correct in pipe-syntax, heading-hiërarchie consistent (## Vak XXI/XVII/XVIII, ### Rubriek). Tarief-samenvatting aan het einde is helder. Kruisreferenties naar WIB92-artikelen correct. Frontmatter stemt overeen met inhoud.'
     layer1:
-      status: not_run
-      run_id: null
-      run_at: null
-      heading_count: null
-      max_section_chars: null
-      file_size_chars: null
+      file_size_chars:
       flags: []
-    layer2:
+      heading_count:
+      max_section_chars:
+      run_at:
+      run_id:
       status: not_run
-      agent: null
-      run_at: null
-      rationale: null
+    layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:19Z'
+      rationale: 'Eveneens manueel aangemaakt; geen PDF-extractiesporen. Tabellen correct in pipe-syntax, heading-hiërarchie consistent (## Vak XXI/XVII/XVIII, ### Rubriek). Tarief-samenvatting aan het einde is helder. Kruisreferenties naar WIB92-artikelen correct. Frontmatter stemt overeen met inhoud.'
       concrete_problemen: []
+tags:
+  - PB
+  - aangifte
 ---
+
 # Aangifte PB aanslagjaar 2025 — codes stopzettingsmeerwaarden
 
 > Bron: "Voorbereiding van de aangifte in de personenbelasting — deel 2, aanslagjaar 2025 (inkomsten 2024)"

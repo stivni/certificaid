@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A6: op regels 66, 182 en 188 staan uitgerekte tab-spaties in de wijzigingsnotities van Art. 1, 9 en 10: 'De tekst van KB         nr.   46,   artikel    1,   is   van   toepassing     met   ingang     van    01.01.1993' — typisch PDF-tab-extractieartefact dat ook in KB4 voorkomt. De headings zijn correct (## Art. 1 t/m 10), inhoud is volledig en er zijn geen paginaresten of kolom-bleed gedetecteerd. Laag-1 pass zonder flags bevestigt de beperkte ernst."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,16 +38,22 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "11k chars zonder ##-headings; Artikel-markers plain text. Body intact. Eén regel toont rare spaced-out tekst ('De tekst van KB         nr.   46') — vermoedelijk PDF-extractie van getabbede regel."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "A6: op regels 66, 182 en 188 staan uitgerekte tab-spaties in de wijzigingsnotities van Art. 1, 9 en 10: 'De tekst van KB         nr.   46,   artikel    1,   is   van   toepassing     met   ingang     van    01.01.1993' — typisch PDF-tab-extractieartefact dat ook in KB4 voorkomt. De headings zijn correct (## Art. 1 t/m 10), inhoud is volledig en er zijn geen paginaresten of kolom-bleed gedetecteerd. Laag-1 pass zonder flags bevestigt de beperkte ernst."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: '0 ##-headings bij 9906 chars'
-        - regel: 45
+        - regel: 66
+          categorie: A6
           type: other
-          voorbeeld: (De tekst van KB         nr.   46,   artikel    1,   is   van   toepassing
+          voorbeeld: De tekst van KB         nr.   46,   artikel    1,   is   van   toepassing     met   ingang     van    01.01.1993
+        - regel: 182
+          categorie: A6
+          type: other
+          voorbeeld: De tekst van KB        nr.   46,   artikel    9,   is   van   toepassing     met   ingang     van    01.01.1993
+        - regel: 188
+          categorie: A6
+          type: other
+          voorbeeld: De tekst van KB        nr.   46,   artikel   10,   is   van   toepassing     met    ingang    van    01.01.1993
 ---
 
 # K.B. nr. 46 van 29 december 1992, tot regeling van de aangifte van de intracommunautaire verwerving van vervoermiddelen en van de betaling van de ter zake verschuldigde BTW

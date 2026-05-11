@@ -21,10 +21,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'A4: consistente aanwezigheid van Unicode HYPHEN (U+2010) in plaats van gewone ASCII-hyphen (-): 7 gevallen verspreid door body en heading (r57, r61, r68). Dit is een web-scraping-artefact (de CBN-website gebruikt typografische koppeltekens). Voor RAG is dit cosmetisch maar niet ideaal; een mens typt nooit U+2010 zelf. Inhoud verder compleet en correct gestructureerd met voetnoot.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -34,11 +34,23 @@ provenance:
       file_size_chars: 1876
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:19Z'
+      rationale: 'A4: consistente aanwezigheid van Unicode HYPHEN (U+2010) in plaats van gewone ASCII-hyphen (-): 7 gevallen verspreid door body en heading (r57, r61, r68). Dit is een web-scraping-artefact (de CBN-website gebruikt typografische koppeltekens). Voor RAG is dit cosmetisch maar niet ideaal; een mens typt nooit U+2010 zelf. Inhoud verder compleet en correct gestructureerd met voetnoot.'
+      concrete_problemen:
+        - regel: 57
+          categorie: A4
+          type: other
+          voorbeeld: '# CBN-advies 3-1 Tijdstip waarop de aan‐ of verkoop...'
+        - regel: 61
+          categorie: A4
+          type: other
+          voorbeeld: verkoopscompromis ‐ of, algemeen genomen, de akte
+        - regel: 68
+          categorie: A4
+          type: other
+          voorbeeld: over de ‐ trouwens niet aan bod gekomen ‐ kwestie
 gerelateerde_adviezen:
   - titel: Wijziging van het boekhoudkundig referentiestelsel
     url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel

@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:16:35Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Geen significante artefacten gevonden. Structuur schoon (Algemeen / In aanmerking te nemen balansdata / Wijziging verbondenheid als ## headings). Voetnoten volledig. Bold-italic combinaties correct gesloten. Inhoud volledig.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,10 +36,10 @@ provenance:
       file_size_chars: 10730
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:35Z'
+      rationale: 'Geen significante artefacten gevonden. Structuur schoon (Algemeen / In aanmerking te nemen balansdata / Wijziging verbondenheid als ## headings). Voetnoten volledig. Bold-italic combinaties correct gesloten. Inhoud volledig.'
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: 'Omzetting van een vennootschap: gevolgen voor de jaarrekening'

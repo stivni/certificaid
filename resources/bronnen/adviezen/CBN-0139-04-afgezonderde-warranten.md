@@ -21,10 +21,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B3: duplicate page-title-heading op regels 44 en 46 (identieke H1 tweemaal, met minimaal witruimte-verschil). Inhoud is kort maar volledig (twee bullets die het advies beknopt samenvatten). Geen verdere artefacten.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -34,11 +34,19 @@ provenance:
       file_size_chars: 494
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: 'B3: duplicate page-title-heading op regels 44 en 46 (identieke H1 tweemaal, met minimaal witruimte-verschil). Inhoud is kort maar volledig (twee bullets die het advies beknopt samenvatten). Geen verdere artefacten.'
+      concrete_problemen:
+        - regel: 44
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 139-4 - Afgezonderde warranten'
+        - regel: 46
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 139-4 - Afgezonderde warranten '
 ---
 
 # CBN advies 139-4 - Afgezonderde warranten

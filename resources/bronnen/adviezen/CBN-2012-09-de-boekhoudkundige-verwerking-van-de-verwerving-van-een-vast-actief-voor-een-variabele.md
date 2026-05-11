@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B2: regel 52 heeft een tweede '#'-level heading ('# Advies 6 juni 2012, bijgewerkt...') midden in het document — een mens zou dit nooit als tweede H1 schrijven. E1/E2: Voorbeeld 4 (regels 149-290) heeft een volledig kapotte tabel waarbij elke cel als losstaande regel is weergegeven met lege pipe-rijen ertussen — onleesbaar als markdown-tabel."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,19 @@ provenance:
       file_size_chars: 20361
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:18Z'
+      rationale: "B2: regel 52 heeft een tweede '#'-level heading ('# Advies 6 juni 2012, bijgewerkt...') midden in het document — een mens zou dit nooit als tweede H1 schrijven. E1/E2: Voorbeeld 4 (regels 149-290) heeft een volledig kapotte tabel waarbij elke cel als losstaande regel is weergegeven met lege pipe-rijen ertussen — onleesbaar als markdown-tabel."
+      concrete_problemen:
+        - regel: 52
+          categorie: B2
+          type: other
+          voorbeeld: '# Advies 6 juni 2012, bijgewerkt op 10 september 2025[^1]'
+        - regel: 149
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: "| | | \n\nVaste betaalde prijs: 300\n\n  | | \n\nVariabele \n\nprijs jaar \n\n20X1: 27"
 gerelateerde_adviezen:
   - titel: Verwerving van een vast actief voor een variabele prijs die afhankelijk is van de toekomstige winst van de koper
     url: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-vast-actief-voor-een-variabele-prijs-die-afhankelijk-is-van-de

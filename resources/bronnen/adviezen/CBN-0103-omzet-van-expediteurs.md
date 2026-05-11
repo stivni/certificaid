@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:44Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B3: duplicate page-title heading op regels 50 en 52. D4/A5: gebroken italic-markering `*Bulletin *` op regel 54 — spatie vóór de sluitende `*` waardoor de markup niet correct sluit (een mens zou `*Bulletin*` schrijven). Twee aparte problemen die ETL kan fixen.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,19 @@ provenance:
       file_size_chars: 3996
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:44Z'
+      rationale: 'B3: duplicate page-title heading op regels 50 en 52. D4/A5: gebroken italic-markering `*Bulletin *` op regel 54 — spatie vóór de sluitende `*` waardoor de markup niet correct sluit (een mens zou `*Bulletin*` schrijven). Twee aparte problemen die ETL kan fixen.'
+      concrete_problemen:
+        - regel: 52
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 103/2 - Omzet van expediteurs (identiek aan regel 50)'
+        - regel: 54
+          categorie: D4
+          type: other
+          voorbeeld: In het *Bulletin *van de Commissie — spatie voor sluitende * breekt italic-markup
 gerelateerde_adviezen:
   - titel: Omzet - Tussenpersonen
     url: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen

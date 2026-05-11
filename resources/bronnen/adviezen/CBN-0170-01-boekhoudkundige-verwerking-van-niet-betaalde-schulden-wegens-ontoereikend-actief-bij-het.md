@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B3: duplicate H1-heading op r.53 en r.55 — de tweede is bovendien vetgedrukt (**...**), wat een duidelijk extractie-artefact is. De body zelf is inhoudelijk compleet en correct (heading_count: 0 na de duplicaat is ook logisch want er zijn geen subheadings). Kleine maar duidelijk zichtbaar artefact.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,15 @@ provenance:
       file_size_chars: 2027
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: 'B3: duplicate H1-heading op r.53 en r.55 — de tweede is bovendien vetgedrukt (**...**), wat een duidelijk extractie-artefact is. De body zelf is inhoudelijk compleet en correct (heading_count: 0 na de duplicaat is ook logisch want er zijn geen subheadings). Kleine maar duidelijk zichtbaar artefact.'
+      concrete_problemen:
+        - regel: 55
+          categorie: B3
+          type: other
+          voorbeeld: '# **CBN advies 170-1 - Boekhoudkundige verwerking...** (duplicate bold H1)'
 gerelateerde_adviezen:
   - titel: Invloed van een gerechtelijk akkoord op de schulden en vorderingen
     url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-een-gerechtelijk-akkoord-op-de-schulden-en-vorderingen

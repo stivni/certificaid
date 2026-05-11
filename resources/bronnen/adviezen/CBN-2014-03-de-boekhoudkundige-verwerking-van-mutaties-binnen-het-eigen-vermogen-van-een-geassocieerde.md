@@ -25,10 +25,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Regel 57: ', bijgewerkt op 25 juni 2025[^2]' staat als losse tekstregel direct na de H1-titel, zonder heading of verklarende context. Dit is een extractie-artefact van een updatevermelding die door de scraper als body-tekst werd opgenomen. Hoort verwerkt te worden in de frontmatter of als cursieve subkop. Verder is het advies inhoudelijk volledig."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -38,11 +38,15 @@ provenance:
       file_size_chars: 9595
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "Regel 57: ', bijgewerkt op 25 juni 2025[^2]' staat als losse tekstregel direct na de H1-titel, zonder heading of verklarende context. Dit is een extractie-artefact van een updatevermelding die door de scraper als body-tekst werd opgenomen. Hoort verwerkt te worden in de frontmatter of als cursieve subkop. Verder is het advies inhoudelijk volledig."
+      concrete_problemen:
+        - regel: 57
+          categorie: B5
+          type: other
+          voorbeeld: ', bijgewerkt op 25 juni 2025[^2]'
 gerelateerde_adviezen:
   - titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves
     url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie

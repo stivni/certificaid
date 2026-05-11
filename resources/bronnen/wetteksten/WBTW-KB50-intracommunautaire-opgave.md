@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Twee volledige KB's in één bestand (KB 2019 Art. 1-17 + KB 2009 Art. 1-13) zonder visuele scheiding tussen de twee wetten — enkel een introductie-alinea als overgang. Dit is een extractie-artefact: de compiler heeft beide versies achter elkaar geplakt (D2-equivalent: twee documenten als één). Bijkomend: regel 503 bevat spurious whitespace 'ingang    van' (A6), en de bijlage-tabel op regels 589-591 bestaat uit ruwe pagina-referenties ('KB50-Bijlage  pg. Bijl./1') als plain text die een mens nooit zo zou laten staan (A1/C3). Hoofdstuk-headings ('## HOOFDSTUK 2') worden gevolgd door gecentreerde plain-text ondertitels (A7/B4)."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,26 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '34k chars met 6 ##-headings maar grootste sectie >24k. Body intact maar Artikel-granulariteit ontbreekt.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "Twee volledige KB's in één bestand (KB 2019 Art. 1-17 + KB 2009 Art. 1-13) zonder visuele scheiding tussen de twee wetten — enkel een introductie-alinea als overgang. Dit is een extractie-artefact: de compiler heeft beide versies achter elkaar geplakt (D2-equivalent: twee documenten als één). Bijkomend: regel 503 bevat spurious whitespace 'ingang    van' (A6), en de bijlage-tabel op regels 589-591 bestaat uit ruwe pagina-referenties ('KB50-Bijlage  pg. Bijl./1') als plain text die een mens nooit zo zou laten staan (A1/C3). Hoofdstuk-headings ('## HOOFDSTUK 2') worden gevolgd door gecentreerde plain-text ondertitels (A7/B4)."
       concrete_problemen:
-        - regel: 0
+        - regel: 250
+          categorie: B4
+          type: scrambled-words
+          voorbeeld: "## HOOFDSTUK 2\n                        Deel 2 van de opgave met betrekking tot de"
+        - regel: 503
+          categorie: A6
           type: other
-          voorbeeld: 'max_section_size 34195 chars op ###-niveau > 24000'
+          voorbeeld: (De tekst van KB nr. 50, artikel 6, § 4, 2°, werd gewijzigd met                           ingang
+        - regel: 589
+          categorie: A1
+          type: other
+          voorbeeld: KB50-Bijlage                         pg. Bijl./1          Intracommunautaire opgave
+        - regel: 394
+          categorie: B3
+          type: other
+          voorbeeld: Tweede KB (2009) begint op r.394 zonder duidelijke heading-scheiding van het eerste KB (2019)
 ---
 
 # K.B. nr. 50 van 11 december 2019, met betrekking tot de btw-opgave van de intracommunautaire handelingen

@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Korte advies-tekst (2090 tekens), volledig en zonder artefacten. Geen headings nodig (één doorlopende redenering). Frontmatter consistent. Laag-1 pass correct.
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,10 +36,10 @@ provenance:
       file_size_chars: 2090
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: Korte advies-tekst (2090 tekens), volledig en zonder artefacten. Geen headings nodig (één doorlopende redenering). Frontmatter consistent. Laag-1 pass correct.
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen

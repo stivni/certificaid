@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A1: drie pagina-voetregels als plain text in body (regels 111, 131, 158): 'KB 07.06.2007                                      pg. 1        Onbeperkt uitstel van de invordering'. C3: Bijlage A (regels 133–139) toont een pseudo-tabel ('Bijwerking                                          Te vervangen pagina's') met spatie-kolom-alignment. G1: bare URL 'www.fisconetplus.be' op regel 146 als plain text."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,11 +38,26 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Idem: geen markdown-headings; alleen 'Bijl.AB' en 'Bijwerkingen' in tail. Niet bruikbaar zonder heading-injection."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:58Z'
+      rationale: "A1: drie pagina-voetregels als plain text in body (regels 111, 131, 158): 'KB 07.06.2007                                      pg. 1        Onbeperkt uitstel van de invordering'. C3: Bijlage A (regels 133–139) toont een pseudo-tabel ('Bijwerking                                          Te vervangen pagina's') met spatie-kolom-alignment. G1: bare URL 'www.fisconetplus.be' op regel 146 als plain text."
       concrete_problemen:
-        - 'heading_count=0, geen ## Art.-headings'
+        - regel: 111
+          categorie: A1
+          type: other
+          voorbeeld: KB 07.06.2007                                      pg. 1        Onbeperkt uitstel van de invordering
+        - regel: 131
+          categorie: A1
+          type: other
+          voorbeeld: KB 07.06.2007                                      pg. 2        Onbeperkt uitstel van de invordering
+        - regel: 135
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: "     Bijwerking                                          Te vervangen pagina's"
+        - regel: 146
+          categorie: G1
+          type: url-plaintext
+          voorbeeld: De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
 ---
 
 # K.B. van 7 juni 2007, tot uitvoering van de artikelen 84quinquies tot 84decies van het Wetboek van de belasting over de toegevoegde waarde

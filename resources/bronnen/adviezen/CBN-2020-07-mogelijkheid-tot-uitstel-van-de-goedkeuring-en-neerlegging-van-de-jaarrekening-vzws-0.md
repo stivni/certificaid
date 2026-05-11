@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Geen PDF-artefacten zichtbaar. Heading-hiërarchie correct (# → ## → ###). Alle voetnoten [^2]-[^24] hebben een corresponderende definitie onderaan; [^1] staat als consultatie-noot enkel onderaan (CBN-conventie, geen bug). Inhoud volledig: inleiding, (I)VZW-sectie, stichtingen-sectie, voorbeelden.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,10 +36,10 @@ provenance:
       file_size_chars: 12872
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: 'Geen PDF-artefacten zichtbaar. Heading-hiërarchie correct (# → ## → ###). Alle voetnoten [^2]-[^24] hebben een corresponderende definitie onderaan; [^1] staat als consultatie-noot enkel onderaan (CBN-conventie, geen bug). Inhoud volledig: inleiding, (I)VZW-sectie, stichtingen-sectie, voorbeelden.'
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Mogelijkheid tot uitstel van de gewone algemene vergadering en van de neerlegging van de jaarrekening (vennootschappen)

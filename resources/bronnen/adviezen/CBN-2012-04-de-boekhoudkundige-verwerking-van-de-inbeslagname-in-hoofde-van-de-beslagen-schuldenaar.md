@@ -21,10 +21,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4/B3: regel 66 heeft '### * Algemene kenmerken*' — asterisken zijn onderdeel van de heading-tekst (malformed). Regels 105 en 117 hebben '**1. Uitvoerend beslag **' en '** 2. Kantonnement**' als bold-paragrafen in plaats van subsection-headings, met extra spaties. Regels 142-144 en 152-154 bevatten gebroken tabelcellen over meerdere regels (C3/E2-patroon bij de verkoopboeking)."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -34,11 +34,27 @@ provenance:
       file_size_chars: 16495
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:18Z'
+      rationale: "D4/B3: regel 66 heeft '### * Algemene kenmerken*' — asterisken zijn onderdeel van de heading-tekst (malformed). Regels 105 en 117 hebben '**1. Uitvoerend beslag **' en '** 2. Kantonnement**' als bold-paragrafen in plaats van subsection-headings, met extra spaties. Regels 142-144 en 152-154 bevatten gebroken tabelcellen over meerdere regels (C3/E2-patroon bij de verkoopboeking)."
+      concrete_problemen:
+        - regel: 66
+          categorie: D4
+          type: other
+          voorbeeld: '### * Algemene kenmerken*'
+        - regel: 105
+          categorie: B5
+          type: other
+          voorbeeld: '**1. Uitvoerend beslag **'
+        - regel: 117
+          categorie: B5
+          type: other
+          voorbeeld: '** 2. Kantonnement**'
+        - regel: 142
+          categorie: E2
+          type: other
+          voorbeeld: "| | 700-707\n\t\t\t\t(of 499 | Verkopen en dienstprestaties\n\t\t\t\tVerkopen materiële vaste activa)"
 ---
 
 # CBN-advies 2012/4 - De boekhoudkundige verwerking van de inbeslagname in hoofde van de beslagen schuldenaar Advies van 11 januari 2012

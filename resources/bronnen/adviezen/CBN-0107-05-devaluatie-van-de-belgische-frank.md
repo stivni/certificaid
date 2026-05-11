@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4-artefact op regel 50: de zin 'artikel 77 W. Venn.[^1]' eindigt op de marker, waarna de volgende regel begint met een spatie gevolgd door ' waardoor in de toekomst...'. Dit is dezelfde broken-footnote-marker-newline-spatie-patroon als in 107/3bis — de marker staat niet inline maar geeft een onbedoelde regelbreuk."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -32,11 +32,15 @@ provenance:
       file_size_chars: 2089
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: "D4-artefact op regel 50: de zin 'artikel 77 W. Venn.[^1]' eindigt op de marker, waarna de volgende regel begint met een spatie gevolgd door ' waardoor in de toekomst...'. Dit is dezelfde broken-footnote-marker-newline-spatie-patroon als in 107/3bis — de marker staat niet inline maar geeft een onbedoelde regelbreuk."
+      concrete_problemen:
+        - regel: 50
+          categorie: D4
+          type: other
+          voorbeeld: "artikel 77 W. Venn.[^1]\n waardoor in de toekomst de verplichting..."
 ---
 
 # CBN-advies 107/5 - Devaluatie van de Belgische frank

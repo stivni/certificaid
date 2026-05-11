@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: Twee TOC-fragmenten staan in de body (regels 44-86). Op regels 84-86 staat een aaneengesloten collapsed TOC-string over meerdere niveaus ('---- Overdracht van het niet-benutte deel...------ De partijen hebben...') als ruwe tekst. Dit is een duidelijk extractie-artefact dat de body vervuilt. Verder bevat ook de geneste TOC op regels 44-83 meerdere niveaus inline in het document."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -32,11 +32,23 @@ provenance:
       file_size_chars: 32861
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: "A3: Twee TOC-fragmenten staan in de body (regels 44-86). Op regels 84-86 staat een aaneengesloten collapsed TOC-string over meerdere niveaus ('---- Overdracht van het niet-benutte deel...------ De partijen hebben...') als ruwe tekst. Dit is een duidelijk extractie-artefact dat de body vervuilt. Verder bevat ook de geneste TOC op regels 44-83 meerdere niveaus inline in het document."
+      concrete_problemen:
+        - regel: 84
+          categorie: A3
+          type: other
+          voorbeeld: '---- Overdracht van het niet-benutte deel van de aftrekcapaciteit ---- Mogelijkheid voor de partijen...'
+        - regel: 85
+          categorie: A3
+          type: other
+          voorbeeld: '------ De partijen hebben in de interestaftrekovereenkomst een vergoeding voorzien-------- In hoofde van...'
+        - regel: 44
+          categorie: A3
+          type: other
+          voorbeeld: 1. Inleiding \n2. Boekhoudkundige verwerking... (uitgebreide nested TOC in body)
 ---
 
 # CBN-advies 2020/06 – Financieringskostensurplus (artikel 194sexies en artikel 198/1 WIB 92)

@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4: de twee structuurlabels 'Boeking eerste jaar' (regel 63) en 'Boeking in het jaar waarin...' (regel 70) staan als `**bold**` inline-tekst in plaats van als markdown-headings. Een mens die dit van nul schrijft zou hier `###`-kopjes gebruiken. Heading_count=0 bevestigt dit: het document heeft na de H1-titel geen enkele heading, terwijl er twee duidelijke subsecties zijn."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,19 @@ provenance:
       file_size_chars: 3434
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "B4: de twee structuurlabels 'Boeking eerste jaar' (regel 63) en 'Boeking in het jaar waarin...' (regel 70) staan als `**bold**` inline-tekst in plaats van als markdown-headings. Een mens die dit van nul schrijft zou hier `###`-kopjes gebruiken. Heading_count=0 bevestigt dit: het document heeft na de H1-titel geen enkele heading, terwijl er twee duidelijke subsecties zijn."
+      concrete_problemen:
+        - regel: 63
+          categorie: B4
+          type: other
+          voorbeeld: '**Boeking eerste jaar** (structuurlabel als bold ipv ## heading)'
+        - regel: 70
+          categorie: B4
+          type: other
+          voorbeeld: '**Boeking in het jaar waarin wordt uitgedrukt om de afzonderlijke aanslag te spreiden over drie aanslagjaren**'
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten

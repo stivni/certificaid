@@ -21,10 +21,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B3: de H1-titel op r54 bevat een inline voetnootaanduiding 'bedrijfstak1' (het cijfer '1' is een escaped superscript uit HTML dat niet als [^1] werd geparsed), en direct op r56 staat 'of van een algemeenheid van goederen' nogmaals als losse plain-text regel — een duplicate titelfragment dat bij extractie losraakte. B2: subkoppen op r76 en r83 gebruiken #### direct onder ## (H2→H4 zonder H3), een heading-hiërarchiefout. Inhoud verder volledig."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -34,11 +34,27 @@ provenance:
       file_size_chars: 15642
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: "B3: de H1-titel op r54 bevat een inline voetnootaanduiding 'bedrijfstak1' (het cijfer '1' is een escaped superscript uit HTML dat niet als [^1] werd geparsed), en direct op r56 staat 'of van een algemeenheid van goederen' nogmaals als losse plain-text regel — een duplicate titelfragment dat bij extractie losraakte. B2: subkoppen op r76 en r83 gebruiken #### direct onder ## (H2→H4 zonder H3), een heading-hiërarchiefout. Inhoud verder volledig."
+      concrete_problemen:
+        - regel: 54
+          categorie: B1
+          type: other
+          voorbeeld: '# CBN-advies 2009/15 - De boekhoudkundige verwerking van de inbreng van een bedrijfstak1 of van'
+        - regel: 56
+          categorie: B3
+          type: other
+          voorbeeld: of van een algemeenheid van goederen
+        - regel: 76
+          categorie: B2
+          type: other
+          voorbeeld: '#### Principe  (direct onder ## zonder tussenniveau)'
+        - regel: 83
+          categorie: B2
+          type: other
+          voorbeeld: '#### Enkele bijzonderheden  (H4 direct onder H2)'
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen

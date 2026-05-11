@@ -29,10 +29,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B3: regels 65-67 bevatten duplicate # heading (zelfde titel tweemaal). D4: regels 417 en 424 hebben '** 20.09.91**' en '** 01.10.91**' met spurieuze spatie na opening-**, waardoor bold niet correct rendert. A9: regel 455 'Aanschaffigswaarde' (ontbrekende 't') en regel 479 'terminijn' zijn OCR/typfouten. B2: heading ##### op regel 182 heeft onafgesloten haakje ('(contant of op termijn' zonder sluitende ')'). Tabellen met multi-line celinhoud (regels 260-309) zijn niet standaard markdown en breken rendering."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -42,11 +42,39 @@ provenance:
       file_size_chars: 41781
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:42Z'
+      rationale: "B3: regels 65-67 bevatten duplicate # heading (zelfde titel tweemaal). D4: regels 417 en 424 hebben '** 20.09.91**' en '** 01.10.91**' met spurieuze spatie na opening-**, waardoor bold niet correct rendert. A9: regel 455 'Aanschaffigswaarde' (ontbrekende 't') en regel 479 'terminijn' zijn OCR/typfouten. B2: heading ##### op regel 182 heeft onafgesloten haakje ('(contant of op termijn' zonder sluitende ')'). Tabellen met multi-line celinhoud (regels 260-309) zijn niet standaard markdown en breken rendering."
+      concrete_problemen:
+        - regel: 67
+          categorie: B3
+          type: other
+          voorbeeld: '# Boekhoudkundige verwerking van dekkingsverrichtingen... (duplicate heading)'
+        - regel: 182
+          categorie: B1
+          type: other
+          voorbeeld: '##### Opties ter dekking van vaste rechten en verplichtingen (contant of op termijn'
+        - regel: 417
+          categorie: D4
+          type: other
+          voorbeeld: '** 20.09.91** (spatie na opening **)'
+        - regel: 424
+          categorie: D4
+          type: other
+          voorbeeld: '** 01.10.91** (spatie na opening **)'
+        - regel: 455
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: Aandelen - Aanschaffigswaarde
+        - regel: 479
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: verlies op op terminijn verkochte effecten
+        - regel: 260
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: 'Multi-line celinhoud in tabelrijen (regels 260-309): cellen bevatten lijnsprongen'
 gerelateerde_adviezen:
   - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
     url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders

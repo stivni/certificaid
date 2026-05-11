@@ -29,10 +29,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Drie problemen: (1) B3: duplicate H1 op r.52 en r.54. (2) B2: heading-hiërarchie springt van # direct naar #### en ##### — geen ## of ### aanwezig in de volledige body (heading_count: 8 zijn allemaal ####/##### niveau). (3) C3: twee alinea's op r.72 en r.74 zijn 4-spaties ingesprongen waardoor ze als code-blok worden gerenderd in markdown. (4) Tikfout 'AAankopen' (r.92) in tabellabel. (5) Zin op r.197-199 breekt 'kan worden' en 'geopteerd' over een alinea-grens."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -42,11 +42,31 @@ provenance:
       file_size_chars: 12114
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: "Drie problemen: (1) B3: duplicate H1 op r.52 en r.54. (2) B2: heading-hiërarchie springt van # direct naar #### en ##### — geen ## of ### aanwezig in de volledige body (heading_count: 8 zijn allemaal ####/##### niveau). (3) C3: twee alinea's op r.72 en r.74 zijn 4-spaties ingesprongen waardoor ze als code-blok worden gerenderd in markdown. (4) Tikfout 'AAankopen' (r.92) in tabellabel. (5) Zin op r.197-199 breekt 'kan worden' en 'geopteerd' over een alinea-grens."
+      concrete_problemen:
+        - regel: 54
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 171 - Boekhoudkundige verwerking van afvalstoffen (duplicate H1)'
+        - regel: 62
+          categorie: B2
+          type: other
+          voorbeeld: '# direct naar #### zonder tussenniveaus ## en ###'
+        - regel: 72
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '    Voor die onderneming vormt de kost... (4-spatie indent → code-blok)'
+        - regel: 92
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: '| | 602 | AAankopen van diensten of | | |'
+        - regel: 197
+          categorie: A6
+          type: other
+          voorbeeld: '...enkel voor de tweede benadering kunnen worden\n\ngeopteerd.'
 ---
 
 # CBN advies 171 - Boekhoudkundige verwerking van afvalstoffen

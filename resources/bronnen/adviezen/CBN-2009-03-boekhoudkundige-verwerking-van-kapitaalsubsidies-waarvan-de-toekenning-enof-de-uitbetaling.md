@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4: vier #### headings in all-caps (INLEIDING, OVERZICHT VAN DE ALGEMENE BEGINSELEN, BEOORDELING VAN HET VASTSTAAND KARAKTER, VOORBEELDEN) zonder onderliggende ##/### niveau — mens schrijft dit als ## of ###, niet als ####. D4: regel 154 heeft '*Kapitaalsubsidies *' met spatie voor sluitende asterisk (malformed italic). Structureel: tabellen zijn afwezig (vervangen door 'Tabel 1 / Tabel 2 / Tabel 3' als plain text op regels 157, 163, 236) — de eigenlijke numerieke tabellen ontbreken in de extractie."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,43 @@ provenance:
       file_size_chars: 19658
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: "B4: vier #### headings in all-caps (INLEIDING, OVERZICHT VAN DE ALGEMENE BEGINSELEN, BEOORDELING VAN HET VASTSTAAND KARAKTER, VOORBEELDEN) zonder onderliggende ##/### niveau — mens schrijft dit als ## of ###, niet als ####. D4: regel 154 heeft '*Kapitaalsubsidies *' met spatie voor sluitende asterisk (malformed italic). Structureel: tabellen zijn afwezig (vervangen door 'Tabel 1 / Tabel 2 / Tabel 3' als plain text op regels 157, 163, 236) — de eigenlijke numerieke tabellen ontbreken in de extractie."
+      concrete_problemen:
+        - regel: 52
+          categorie: B4
+          type: other
+          voorbeeld: '#### INLEIDING (all-caps #### i.p.v. ## Inleiding)'
+        - regel: 60
+          categorie: B4
+          type: other
+          voorbeeld: '#### OVERZICHT VAN DE ALGEMENE BEGINSELEN'
+        - regel: 71
+          categorie: B4
+          type: other
+          voorbeeld: '#### BEOORDELING VAN HET VASTSTAAND KARAKTER VAN HET RECHT OP EEN SUBSIDIE'
+        - regel: 118
+          categorie: B4
+          type: other
+          voorbeeld: '#### VOORBEELDEN'
+        - regel: 154
+          categorie: D4
+          type: other
+          voorbeeld: '*Kapitaalsubsidies *en a rato van 25% (spatie voor sluitende *)'
+        - regel: 157
+          categorie: E2
+          type: other
+          voorbeeld: Tabel 1 (placeholder zonder tabelinhoud — numerieke tabel ontbreekt)
+        - regel: 163
+          categorie: E2
+          type: other
+          voorbeeld: Tabel 2 (placeholder zonder tabelinhoud)
+        - regel: 236
+          categorie: E2
+          type: other
+          voorbeeld: Tabel 3 (placeholder zonder tabelinhoud)
 gerelateerde_adviezen:
   - titel: De boekhoudkundige verwerking van subsidies waarvan de toekenning niet gegarandeerd is (eventuele rechten)
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is

@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: stelselmatige malformed italic door het hele document — spatie voor sluitende asterisk bij rekeningnamen (bijv. '*Geraamde belastingen *', '*Bedrijfsbelastingen *', '*vordering *') op tientallen regels (o.a. 97, 99, 129, 155, 171, 225). Dit is een patroon dat het volledige document doorkruist en een ETL-fix vereist. Inhoud en structuur zijn verder volledig en correct."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -32,11 +32,27 @@ provenance:
       file_size_chars: 45166
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: "D4: stelselmatige malformed italic door het hele document — spatie voor sluitende asterisk bij rekeningnamen (bijv. '*Geraamde belastingen *', '*Bedrijfsbelastingen *', '*vordering *') op tientallen regels (o.a. 97, 99, 129, 155, 171, 225). Dit is een patroon dat het volledige document doorkruist en een ETL-fix vereist. Inhoud en structuur zijn verder volledig en correct."
+      concrete_problemen:
+        - regel: 97
+          categorie: D4
+          type: other
+          voorbeeld: rekening 450 *Geraamd bedrag der belastingschulden*... rekening 6702 *Geraamde belastingen *wordt
+        - regel: 129
+          categorie: D4
+          type: other
+          voorbeeld: een verantwoorde waardering van deze *vordering *vereist
+        - regel: 155
+          categorie: D4
+          type: other
+          voorbeeld: rekening 640 *Bedrijfsbelastingen *wanneer ze negatief is
+        - regel: 225
+          categorie: D4
+          type: other
+          voorbeeld: fictief karakter van de *vordering *op de overheid
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van de vergoeding voor de groepsbijdrage in hoofde van de overdragende vennootschap bij gebrek aan Belgische belastingen op het resultaat op rekening 4500 (addendum bij advies 2019/06)
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de

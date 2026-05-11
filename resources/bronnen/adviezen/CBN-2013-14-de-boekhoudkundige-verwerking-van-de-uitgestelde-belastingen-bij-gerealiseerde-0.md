@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B2/B3: twee opeenvolgende H1-headings op regels 57–58 ('# CBN-advies 2013/14 – ...' en '# Technische nota bij') — een H1 mag slechts één keer voorkomen. De tweede H1 had een H2 moeten zijn. Verder is de tekst van de technische nota inhoudelijk compleet en zonder verdere artefacten."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,19 @@ provenance:
       file_size_chars: 20355
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "B2/B3: twee opeenvolgende H1-headings op regels 57–58 ('# CBN-advies 2013/14 – ...' en '# Technische nota bij') — een H1 mag slechts één keer voorkomen. De tweede H1 had een H2 moeten zijn. Verder is de tekst van de technische nota inhoudelijk compleet en zonder verdere artefacten."
+      concrete_problemen:
+        - regel: 58
+          categorie: B2
+          type: other
+          voorbeeld: '# Technische nota bij'
+        - regel: 60
+          categorie: B2
+          type: other
+          voorbeeld: '## Inleiding (direct na tweede H1, heading-hiërarchie inconsistent met document)'
 gerelateerde_adviezen:
   - titel: Actualisatie van uitgestelde belastingen (update)
     url: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update

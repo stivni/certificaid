@@ -18,10 +18,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: tabel in Voorbeeld 3 is gebroken op r288-292: de afsluitende cel '9.500' staat op een aparte lege regel gevolgd door een verweesde pipe-rij, vermoedelijk een extractie-artefact waarbij een getalswaarde uit de tabelcel gelicht werd. B3: lege heading 'In hoofde van A en B wordt dan als volgt gehandeld' (r96) en 'In hoofde van aandeelhouder D wordt als volgt gehandeld' (r143) zijn plain-text tussenkopjes zonder heading-markup. Inhoud verder compleet en goed gestructureerd."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -31,11 +31,23 @@ provenance:
       file_size_chars: 26780
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: "E2: tabel in Voorbeeld 3 is gebroken op r288-292: de afsluitende cel '9.500' staat op een aparte lege regel gevolgd door een verweesde pipe-rij, vermoedelijk een extractie-artefact waarbij een getalswaarde uit de tabelcel gelicht werd. B3: lege heading 'In hoofde van A en B wordt dan als volgt gehandeld' (r96) en 'In hoofde van aandeelhouder D wordt als volgt gehandeld' (r143) zijn plain-text tussenkopjes zonder heading-markup. Inhoud verder compleet en goed gestructureerd."
+      concrete_problemen:
+        - regel: 288
+          categorie: E2
+          type: other
+          voorbeeld: '| | | \n\n9.500\n\n  | | | | 9.500 |'
+        - regel: 96
+          categorie: B5
+          type: other
+          voorbeeld: In hoofde van A en B wordt dan als volgt gehandeld
+        - regel: 143
+          categorie: B5
+          type: other
+          voorbeeld: In hoofde van aandeelhouder D wordt als volgt gehandeld
 gerelateerde_adviezen:
   - titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
     url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief

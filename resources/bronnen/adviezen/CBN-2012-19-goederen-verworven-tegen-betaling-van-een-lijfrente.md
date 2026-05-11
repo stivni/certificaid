@@ -18,10 +18,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: een genummerde inhoudsopgave (regels 56–70) staat als plain-text blok vóór de body in plaats van als markdown-TOC of weggelaten; regel 72 'Inleiding' is een structuurlabel als plain text (B5). A4: U+00AC (NOT SIGN) op regel 106 in 'bruto¬marktrentevoet' — vermoedelijk foutief geconverteerd koppelteken. E2: gebroken tabelrij op regels 235–237 waarbij celinhoud over twee regels loopt (tab-insprong '\\t\\t\\t 472.685,12'). C3: actuariële formule op regels 158–160 als pseudo-tabel met spatie-uitlijning. Regel 241 'Tweede methode' is een structuurlabel als plain text (B5)."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -31,11 +31,35 @@ provenance:
       file_size_chars: 23533
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "A3: een genummerde inhoudsopgave (regels 56–70) staat als plain-text blok vóór de body in plaats van als markdown-TOC of weggelaten; regel 72 'Inleiding' is een structuurlabel als plain text (B5). A4: U+00AC (NOT SIGN) op regel 106 in 'bruto¬marktrentevoet' — vermoedelijk foutief geconverteerd koppelteken. E2: gebroken tabelrij op regels 235–237 waarbij celinhoud over twee regels loopt (tab-insprong '\\t\\t\\t 472.685,12'). C3: actuariële formule op regels 158–160 als pseudo-tabel met spatie-uitlijning. Regel 241 'Tweede methode' is een structuurlabel als plain text (B5)."
+      concrete_problemen:
+        - regel: 56
+          categorie: A3
+          type: other
+          voorbeeld: 1. Vaststelling van het initiële kapitaal...\n2. Aanpassing van de voorziening...
+        - regel: 72
+          categorie: B5
+          type: other
+          voorbeeld: 'Inleiding '
+        - regel: 106
+          categorie: A4
+          type: other
+          voorbeeld: bruto¬marktrentevoet (U+00AC in plaats van koppelteken)
+        - regel: 158
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: an/i = 1- (1 + i)-n \n\n       i
+        - regel: 235
+          categorie: E2
+          type: other
+          voorbeeld: '| lijfrentebetaling... | - 14.888,08\n\n\t\t\t 472.685,12 | | |'
+        - regel: 241
+          categorie: B5
+          type: other
+          voorbeeld: Tweede methode
 gerelateerde_adviezen:
   - titel: Voorzieningen
     url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen

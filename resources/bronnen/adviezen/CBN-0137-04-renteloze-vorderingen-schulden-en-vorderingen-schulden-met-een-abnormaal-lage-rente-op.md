@@ -25,10 +25,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Meerdere problemen: (1) D2: ### heading 'Renteloze vordering, éénmalig terugbetaalbaar na n jaar' (regel 70) heeft geen body — de formule ontbreekt volledig, waarschijnlijk een afbeelding in de PDF die niet geëxtraheerd kon worden; zelfde voor headings op regels 72, 76, 80. (2) E2: boekingstabellen (regels 114-125) hebben lege Debet/Credit-cellen — waarden ontbreken. (3) A6: spurious line-break midden in een zin op regels 100-102 ('als \\n\\n zodanig geboekt'). (4) D2: voorbeeld-sectie (regels 147-175) heeft losstaande berekeningen zonder de bijhorende tabellen die in de PDF stonden."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -38,11 +38,27 @@ provenance:
       file_size_chars: 8386
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: "Meerdere problemen: (1) D2: ### heading 'Renteloze vordering, éénmalig terugbetaalbaar na n jaar' (regel 70) heeft geen body — de formule ontbreekt volledig, waarschijnlijk een afbeelding in de PDF die niet geëxtraheerd kon worden; zelfde voor headings op regels 72, 76, 80. (2) E2: boekingstabellen (regels 114-125) hebben lege Debet/Credit-cellen — waarden ontbreken. (3) A6: spurious line-break midden in een zin op regels 100-102 ('als \\n\\n zodanig geboekt'). (4) D2: voorbeeld-sectie (regels 147-175) heeft losstaande berekeningen zonder de bijhorende tabellen die in de PDF stonden."
+      concrete_problemen:
+        - regel: 70
+          categorie: D2
+          type: missing-section
+          voorbeeld: '### Renteloze vordering, éénmalig terugbetaalbaar na n jaar\n\n### Vordering met een abnormaal lage rente'
+        - regel: 116
+          categorie: E2
+          type: other
+          voorbeeld: '| | 493 | Over te dragen opbrengsten | | |'
+        - regel: 100
+          categorie: A6
+          type: other
+          voorbeeld: '...als\n\nzodanig geboekt.'
+        - regel: 147
+          categorie: D2
+          type: missing-section
+          voorbeeld: '#### Vaststelling van de actuele waarde en van het disconto\n\n### Actuele waarde...'
 gerelateerde_adviezen:
   - titel: Actualisering van vorderingen en schulden op korte termijn (update)
     url: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update

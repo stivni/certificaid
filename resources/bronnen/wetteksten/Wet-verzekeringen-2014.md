@@ -1,42 +1,69 @@
 ---
-tags: ['2.6', '1.2']
-itaa-lex-sectie: ''
-wet: Wet 4 april 2014 betreffende de verzekeringen
-bron_rol: normatief
-status: beschikbaar
 bijgewerkt: 24.12.2025
 bron: www.ejustice.just.fgov.be (Justel, gecoördineerde versie)
+bron_rol: normatief
 chunk:
   level: 2
-  type: Art.
   sub_strategy:
+  type: Art.
+itaa-lex-sectie: ''
 provenance:
+  inputs:
+    - id: www.ejustice.just.fgov.be (Justel, gecoördineerde versie)
+      sha256:
+      version:
+  tooling:
+    pipeline: manual-import
+    pipeline_version: skel-2026-05-11
+    model:
+    prompt_version:
+  generated_at: '2026-05-11T11:42:59Z'
+  stale: false
+  stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D1/D2: Het bestand eindigt abrupt op regel 2189 met '## Art.' — geen artikelnummer, geen body. De laatste volledige artikelen zijn Art. 120–121 (schadeverzekering); het slot van DEEL 4 (Art. 122 e.v.) en verdere delen ontbreken. Laag-1 bevestigt dit ('abrupt-cutoff'). F2: bron_rol is 'normatief' terwijl het bestand in de map 'wetteksten/' staat — dit is een lichte inconsistentie. F1: itaa-lex-sectie is leeg (''), wat voor een itaa_lex-bron ongebruikelijk is. De [ ...]- amendment-markers zonder artikelnummer (regels 105 en 555) zijn mogelijk geredacteerde tekst maar zijn borderline."
     layer1:
-      status: warn
-      run_id: 20260509-212552
-      run_at:
-      heading_count: 192
-      max_section_chars: 32357
       file_size_chars: 195375
       flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ######-niveau: 32357 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+        - detail: 'langste sectie op ######-niveau: 32357 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          name: max_section_size
           samples: []
+          status: warn
+      heading_count: 192
+      max_section_chars: 32357
+      run_at:
+      run_id: 20260509-212552
+      status: warn
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Bestand eindigt op '## Art.' — abrupt afgekapt zonder artikel-nummer en zonder body. Verder 192 ###### Art.-headings, body OK, maar de cutoff suggereert dat de laatste artikelen (waarschijnlijk slot/inwerkingtreding) ontbreken."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:18Z'
+      rationale: "D1/D2: Het bestand eindigt abrupt op regel 2189 met '## Art.' — geen artikelnummer, geen body. De laatste volledige artikelen zijn Art. 120–121 (schadeverzekering); het slot van DEEL 4 (Art. 122 e.v.) en verdere delen ontbreken. Laag-1 bevestigt dit ('abrupt-cutoff'). F2: bron_rol is 'normatief' terwijl het bestand in de map 'wetteksten/' staat — dit is een lichte inconsistentie. F1: itaa-lex-sectie is leeg (''), wat voor een itaa_lex-bron ongebruikelijk is. De [ ...]- amendment-markers zonder artikelnummer (regels 105 en 555) zijn mogelijk geredacteerde tekst maar zijn borderline."
       concrete_problemen:
-        - regel: -1
+        - regel: 2189
+          categorie: D1
           type: abrupt-cutoff
-          voorbeeld: '## Art.   (laatste regel; geen nummer, geen body)'
+          voorbeeld: '## Art. (laatste regel; geen nummer, geen body — bestand afgekapt)'
+        - regel: 2189
+          categorie: D2
+          type: missing-section
+          voorbeeld: Art. 122 e.v. en mogelijk DEEL 5 ontbreken na abrupte stop op Art. 121 §10
+        - regel: 0
+          categorie: F2
+          type: other
+          voorbeeld: 'bron_rol: normatief (bestand staat in wetteksten/; verwacht itaa_lex of wettekst)'
+        - regel: 105
+          categorie: D5
+          type: open-bracket
+          voorbeeld: '[ ...] (stripped amendment-marker zonder artikelnummer-referentie)'
+status: beschikbaar
+tags:
+  - '2.6'
+  - '1.2'
+wet: Wet 4 april 2014 betreffende de verzekeringen
 ---
 
 # Wet 4 april 2014 betreffende de verzekeringen

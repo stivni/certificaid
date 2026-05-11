@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Inhoud volledig en correct gestructureerd. Twee minor D4-issues: '*Vennootschap A *' (regel 128) en '*Op de datum waarop de voornaamste prestatie...[^11] *' (regel 130) hebben een spatie vóór de sluitende '*', wat duidt op een trailing-space extractie-artefact. Dit raakt leesbaarheid niet maar is on-natuurlijk voor mens-geschreven markdown. Voorts een lege footnote-referentie ' [^12]' (regel 132) die als lege alinea verschijnt."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,23 @@ provenance:
       file_size_chars: 11446
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: "Inhoud volledig en correct gestructureerd. Twee minor D4-issues: '*Vennootschap A *' (regel 128) en '*Op de datum waarop de voornaamste prestatie...[^11] *' (regel 130) hebben een spatie vóór de sluitende '*', wat duidt op een trailing-space extractie-artefact. Dit raakt leesbaarheid niet maar is on-natuurlijk voor mens-geschreven markdown. Voorts een lege footnote-referentie ' [^12]' (regel 132) die als lege alinea verschijnt."
+      concrete_problemen:
+        - regel: 128
+          categorie: D4
+          type: other
+          voorbeeld: '*Vennootschap A *'
+        - regel: 130
+          categorie: D4
+          type: other
+          voorbeeld: '*Op de datum waarop de voornaamste prestatie van de dienst wordt uitgevoerd[^11] *'
+        - regel: 132
+          categorie: D3
+          type: other
+          voorbeeld: ' [^12]'
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van een ruilverrichting en een aanbod tot inschrijving door inbreng in natura
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-ruilverrichting-en-een-aanbod-tot-inschrijving-door

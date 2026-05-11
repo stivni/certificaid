@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Artikelen hebben ## Art.-headings (Art. 1 t/m Art. 5). Problemen: (1) B4: 'KB nr. 16 - Lijst van de bijwerkingen' op regel 112 is plain-text zonder heading-prefix, en ontbreekt als Bijlage A header; (2) C3: Bijwerking-tabel met spatie-alignment (regel 114); (3) A6: 7-spaties-inspringing consistent door hele document; (4) D2: de Bijlage B ('Recente wijzigingen') ontbreekt volledig — het document eindigt abrupt na de bijwerkingstabel. Inhoud van de 5 artikelen is compleet."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,11 +38,22 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Klassiek Fisconet-patroon: heading_count=0, 'Artikel 1' t/m 'Artikel 5' als platte tekst. Inhoud volledig maar niet chunkbaar."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:58Z'
+      rationale: "Artikelen hebben ## Art.-headings (Art. 1 t/m Art. 5). Problemen: (1) B4: 'KB nr. 16 - Lijst van de bijwerkingen' op regel 112 is plain-text zonder heading-prefix, en ontbreekt als Bijlage A header; (2) C3: Bijwerking-tabel met spatie-alignment (regel 114); (3) A6: 7-spaties-inspringing consistent door hele document; (4) D2: de Bijlage B ('Recente wijzigingen') ontbreekt volledig — het document eindigt abrupt na de bijwerkingstabel. Inhoud van de 5 artikelen is compleet."
       concrete_problemen:
-        - 'geen ## Art.-headings'
+        - regel: 112
+          categorie: B4
+          type: other
+          voorbeeld: KB nr. 16 - Lijst van de bijwerkingen
+        - regel: 114
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: "       Bijwerking       t.e.m. B.S. van                       Te vervangen pagina's"
+        - regel: 117
+          categorie: D1
+          type: abrupt-cutoff
+          voorbeeld: Bijw. 01 / 01.01.2012     30.12.2011      Volledige uitgave
 ---
 
 # K.B. nr. 16 van 3 juni 1970, met betrekking tot de toepassing van de belasting over de toegevoegde waarde inzake de verkoop van vis, schaal-, schelp- en weekdieren in de gemeentelijke vismijn

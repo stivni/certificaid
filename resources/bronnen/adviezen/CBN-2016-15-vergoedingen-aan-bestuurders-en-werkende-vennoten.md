@@ -25,10 +25,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Drie gevallen van malformed italic (D4): (1) regel 79 '6201 *Directiepersoneel *' — spatie voor afsluitende asterisk; (2) regel 83 '6201 *Directiepersoneel *' — idem; (3) regel 116 ' [^17][^18][^19]' als losstaande alinea (G3). Verder bevat regel 120–122 en 131–133 multi-line celinhoud in tabel (cel tekst loopt door op volgende inspringing-regels), wat markdown-tabelrendering kan breken (E2). Dit patroon zit ook in de journaalposten op regels 120–125."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -38,11 +38,27 @@ provenance:
       file_size_chars: 17696
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "Drie gevallen van malformed italic (D4): (1) regel 79 '6201 *Directiepersoneel *' — spatie voor afsluitende asterisk; (2) regel 83 '6201 *Directiepersoneel *' — idem; (3) regel 116 ' [^17][^18][^19]' als losstaande alinea (G3). Verder bevat regel 120–122 en 131–133 multi-line celinhoud in tabel (cel tekst loopt door op volgende inspringing-regels), wat markdown-tabelrendering kan breken (E2). Dit patroon zit ook in de journaalposten op regels 120–125."
+      concrete_problemen:
+        - regel: 79
+          categorie: D4
+          type: other
+          voorbeeld: 6201 *Directiepersoneel *worden de bezoldigingen geboekt
+        - regel: 116
+          categorie: G3
+          type: other
+          voorbeeld: ' [^17][^18][^19]'
+        - regel: 120
+          categorie: E2
+          type: other
+          voorbeeld: '| | 618 | Bezoldigingen, premies voor buitenwettelijke \n\t\t\t\tverzekeringen, ouderdoms- en overlevingspensioenen \n\t\t\t\tvan bestuurders...'
+        - regel: 144
+          categorie: G3
+          type: other
+          voorbeeld: ' [^20][^21][^22]'
 ---
 
 # CBN-advies 2016/15 – Vergoedingen aan bestuurders en werkende vennoten

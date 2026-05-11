@@ -22,10 +22,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Compact advies (3751 chars, 4 headings), geen extractie-artefacten aangetroffen. Voetnoten [^1]–[^7] volledig gedefinieerd. Heading-hiërarchie correct (# → ## zonder sprongen). Tekst leest als mens-geschreven markdown.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -35,10 +35,10 @@ provenance:
       file_size_chars: 3751
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: 'Compact advies (3751 chars, 4 headings), geen extractie-artefacten aangetroffen. Voetnoten [^1]–[^7] volledig gedefinieerd. Heading-hiërarchie correct (# → ## zonder sprongen). Tekst leest als mens-geschreven markdown.'
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Vermogensmutatiemethode

@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D3: zes orphan footnote-markers ([^6], [^7], [^8], [^9], [^10], [^11]) staan als losstaande regels tussen de boekingstabellen (L116, L123, L132, L139, L153, L160); ze zijn anchor-verwijzingen die de tabel-contextuele noot aanduiden maar er is geen bijbehorende voetnootdefinitie op dezelfde plek — een mens zou dat nooit zo typen. A6: footnote-anker splitst een zin over twee regels (L91–L92: 'De financiële component[^4]\\n van de verrichting…'). Inhoud is volledig en correct gestructureerd."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,39 @@ provenance:
       file_size_chars: 12002
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: "D3: zes orphan footnote-markers ([^6], [^7], [^8], [^9], [^10], [^11]) staan als losstaande regels tussen de boekingstabellen (L116, L123, L132, L139, L153, L160); ze zijn anchor-verwijzingen die de tabel-contextuele noot aanduiden maar er is geen bijbehorende voetnootdefinitie op dezelfde plek — een mens zou dat nooit zo typen. A6: footnote-anker splitst een zin over twee regels (L91–L92: 'De financiële component[^4]\\n van de verrichting…'). Inhoud is volledig en correct gestructureerd."
+      concrete_problemen:
+        - regel: 116
+          categorie: D3
+          type: other
+          voorbeeld: ' [^6]'
+        - regel: 123
+          categorie: D3
+          type: other
+          voorbeeld: '[^7]'
+        - regel: 132
+          categorie: D3
+          type: other
+          voorbeeld: ' [^8]'
+        - regel: 139
+          categorie: D3
+          type: other
+          voorbeeld: '[^9]'
+        - regel: 153
+          categorie: D3
+          type: other
+          voorbeeld: ' [^10]'
+        - regel: 160
+          categorie: D3
+          type: other
+          voorbeeld: '[^11]'
+        - regel: 91
+          categorie: A6
+          type: other
+          voorbeeld: De financiële component[^4]\n van de verrichting wordt gespreid…
 gerelateerde_adviezen:
   - titel: Dividenduitkering en kapitaalvermindering in natura
     url: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0

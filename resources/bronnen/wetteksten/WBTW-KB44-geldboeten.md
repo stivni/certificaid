@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A8/C3: kolom-bleed bevestigd op minstens drie plaatsen (regels 144, 171, 191) waar twee PDF-kolommen samenvloeien als 'C.   Niet correct ingevuld                                   Per aangifte:' — de sanctie staat op dezelfde regel als de categorie-omschrijving in plaats van als aparte tabelcel. Bijlage-tabellen zijn consistent als pseudo-tabellen met spatie-uitlijning (E1). A1: regel 482 toont een pagina-residu 'Bovenaan Pg Bijl./5' midden in tabelinhoud. Laag-1 bevestigt dit met 3 kolom-bleed-samples. Inhoud volledig aanwezig."
     layer1:
       status: warn
       run_id: 20260509-212552
@@ -49,22 +49,30 @@ provenance:
             - 'regel 113: C.    Niet correct ingevuld                                     Per aangifte:'
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "36k chars; 6 ##-headings maar grootste sectie 36k. Belangrijker: 3 kolom-bleed-patronen in tabellen ('C. Niet correct ingevuld ... Per aangifte:') → twee-kolom PDF-extractie heeft tabel-cellen samengevoegd. RAG zal verwarrende tekst krijgen."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "A8/C3: kolom-bleed bevestigd op minstens drie plaatsen (regels 144, 171, 191) waar twee PDF-kolommen samenvloeien als 'C.   Niet correct ingevuld                                   Per aangifte:' — de sanctie staat op dezelfde regel als de categorie-omschrijving in plaats van als aparte tabelcel. Bijlage-tabellen zijn consistent als pseudo-tabellen met spatie-uitlijning (E1). A1: regel 482 toont een pagina-residu 'Bovenaan Pg Bijl./5' midden in tabelinhoud. Laag-1 bevestigt dit met 3 kolom-bleed-samples. Inhoud volledig aanwezig."
       concrete_problemen:
-        - regel: 74
+        - regel: 144
+          categorie: A8
           type: column-bleed
           voorbeeld: 'C.   Niet correct ingevuld                                   Per aangifte:'
-        - regel: 97
+        - regel: 171
+          categorie: A8
           type: column-bleed
           voorbeeld: 'C.   Niet correct ingevuld                                   Per aangifte:'
-        - regel: 113
+        - regel: 191
+          categorie: A8
           type: column-bleed
-          voorbeeld: C.    Niet correct ingevuld ...
+          voorbeeld: 'C.    Niet correct ingevuld                                     Per aangifte:'
+        - regel: 482
+          categorie: A1
+          type: form-feed
+          voorbeeld: Bovenaan Pg Bijl./5 — paginakop-residu midden in tabelrij
         - regel: 0
-          type: other
-          voorbeeld: max_section_size 36183 chars > 24000
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: Volledige bijlage als spatie-uitgelijnde pseudo-tabel, niet als markdown-pipe-syntax
 ---
 
 # K.B. nr. 44 van 9 juli 2012, tot vaststelling van het bedrag van de niet-proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde

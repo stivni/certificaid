@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Art. 1 t/m Art. 5 staan correct als ## headings. Echter: op regel 75 staat een amenderingsnotitie met meerdere interne spaties als kolom-uitlijning (C3-pseudo-tabel-artefact). Op regels 97 en 128 staan paginamarkeringen '- KB nr. 13 / 1 -' en '- KB nr. 13 / 2 -' die PDF-pagina-nummering zijn (A1-type)."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,22 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: 'Idem: 0 ##-headings; chunk.level=2 niet ingelost.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "Art. 1 t/m Art. 5 staan correct als ## headings. Echter: op regel 75 staat een amenderingsnotitie met meerdere interne spaties als kolom-uitlijning (C3-pseudo-tabel-artefact). Op regels 97 en 128 staan paginamarkeringen '- KB nr. 13 / 1 -' en '- KB nr. 13 / 2 -' die PDF-pagina-nummering zijn (A1-type)."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: 'geen ##-Art. headings'
+        - regel: 75
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: (De tekst van M.B. nr. 13, art.            1,    werd   vervangen     met   ingang   van
+        - regel: 97
+          categorie: A1
+          type: other
+          voorbeeld: '                                                 - KB nr. 13 / 1 -'
+        - regel: 128
+          categorie: A1
+          type: other
+          voorbeeld: '                                              - KB nr. 13 / 2 -'
 ---
 
 # M.B. nr. 13 van 4 maart 1993, met betrekking tot de verplichtingen waartoe een belastingplichtige of een lid van een btw-eenheid eigenaar of houder van een zakelijk recht op een voor hypotheek vatbaar goed gehouden is

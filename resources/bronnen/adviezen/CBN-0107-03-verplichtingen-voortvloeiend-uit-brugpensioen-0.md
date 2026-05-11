@@ -22,10 +22,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4-artefact: footnote-marker `[^1]` op regel 60 staat op een eigen regel gevolgd door een newline en een leading spatie, waardoor de zin gebroken is over twee regels ('In een vorig advies[^1]\\n onderstreepte de Commissie...'). Een mens zou dat nooit zo typen — de marker hoort inline te zitten. Verder inhoud compleet."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -35,11 +35,15 @@ provenance:
       file_size_chars: 1931
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: "D4-artefact: footnote-marker `[^1]` op regel 60 staat op een eigen regel gevolgd door een newline en een leading spatie, waardoor de zin gebroken is over twee regels ('In een vorig advies[^1]\\n onderstreepte de Commissie...'). Een mens zou dat nooit zo typen — de marker hoort inline te zitten. Verder inhoud compleet."
+      concrete_problemen:
+        - regel: 60
+          categorie: D4
+          type: other
+          voorbeeld: "In een vorig advies[^1]\n onderstreepte de Commissie dat, wanneer..."
 gerelateerde_adviezen:
   - titel: Voorzieningen
     url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen

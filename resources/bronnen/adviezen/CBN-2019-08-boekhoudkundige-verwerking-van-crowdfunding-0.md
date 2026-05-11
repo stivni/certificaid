@@ -26,10 +26,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'A3: TOC-fragment op regels 70-71 — lange aaneengesloten `--`-reeks van het geneste TOC. D3: Losstaande `[^23]` op regel 584 als verweesd anker. E2: Tabelcel op regel 516 `Rekening-couran` is afgekapt (missing `t`). Max_section van 19.981 chars suggereert één zeer grote sectie zonder verdere opsplitsing, maar inhoud is volledig aanwezig.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -39,11 +39,27 @@ provenance:
       file_size_chars: 31598
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: 'A3: TOC-fragment op regels 70-71 — lange aaneengesloten `--`-reeks van het geneste TOC. D3: Losstaande `[^23]` op regel 584 als verweesd anker. E2: Tabelcel op regel 516 `Rekening-couran` is afgekapt (missing `t`). Max_section van 19.981 chars suggereert één zeer grote sectie zonder verdere opsplitsing, maar inhoud is volledig aanwezig.'
+      concrete_problemen:
+        - regel: 70
+          categorie: A3
+          type: other
+          voorbeeld: -- Donatie ---- Donatie zonder tegenprestatie – Donation-based crowdfunding...
+        - regel: 71
+          categorie: A3
+          type: other
+          voorbeeld: '------ Uitgifte van obligaties---- Participatory notes'
+        - regel: 584
+          categorie: D3
+          type: other
+          voorbeeld: ' [^23]'
+        - regel: 516
+          categorie: E2
+          type: other
+          voorbeeld: '| | 5500 | Kredietinstellingen – Rekening-couran | 7.000 | |'
 ---
 
 # CBN-advies 2019/08 –Boekhoudkundige verwerking van crowdfunding

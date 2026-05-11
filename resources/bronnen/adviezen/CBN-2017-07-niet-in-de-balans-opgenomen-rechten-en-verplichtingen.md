@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A2/A3: De inhoudsopgave is aanwezig bovenaan (regels 49-66) maar is niet verwijderd uit de body; bovendien bevat regel 67 een TOC-fragmentregel die direct voor de eerste ## heading staat: '-- Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0---- Boeking door de onderneming...'. Regels 60 en 66 bevatten ', 15' als paginanummer-rest (dotted-leader artefact zonder dots). D4: regel 169 bevat '*inlichtingen *' met spatie voor sluitende asterisk."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -37,11 +37,31 @@ provenance:
       file_size_chars: 27244
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "A2/A3: De inhoudsopgave is aanwezig bovenaan (regels 49-66) maar is niet verwijderd uit de body; bovendien bevat regel 67 een TOC-fragmentregel die direct voor de eerste ## heading staat: '-- Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0---- Boeking door de onderneming...'. Regels 60 en 66 bevatten ', 15' als paginanummer-rest (dotted-leader artefact zonder dots). D4: regel 169 bevat '*inlichtingen *' met spatie voor sluitende asterisk."
+      concrete_problemen:
+        - regel: 49
+          categorie: A3
+          type: other
+          voorbeeld: 1. Hypothese en vraag \n2. Wetgevend en reglementair kader \n  1. Vermelding van rechten...
+        - regel: 60
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: ', 15'
+        - regel: 66
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: ', 15'
+        - regel: 67
+          categorie: A3
+          type: other
+          voorbeeld: '  -- Boeking van rechten en verplichtingen onder de rekeningen van de klasse 0---- Boeking door...'
+        - regel: 169
+          categorie: D4
+          type: other
+          voorbeeld: met *inlichtingen *betreffende belangrijke hangende geschillen
 ---
 
 # CBN-advies 2017/07 - Niet in de balans opgenomen rechten en verplichtingen

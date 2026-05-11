@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Zware TOC-residu aan het begin (regels 66-213): de inhoudsopgave met dotted-leaders staat volledig als plain text in de body en is niet verwijderd, inclusief paginanummers ('9', '11', '12', ...). Daarnaast staan paginatellers verspreid door de body ('Belastinggids 2025 • 9', '10 • Brochure A5', '12 • Belastinggids 2025', enz.) — dit zijn klassieke A1/A2-artefacten. De TOC is bovendien deels verdubbeld (A3): de geïntegreerde inhoudstafel bovenaan plus de sectionering als headings geeft redundantie. Paragraafnummers '2.', '3.' op regels 500-501 zijn als ### headings gemarkeerd in plaats van als lijstpunten (B2 bug: '### 2. Voor uw tweede woning...' is een opsommingspunt dat als heading is gerenderd). Ook B5-artefact: sectie-labels 'a. Bezoldigingen', 'b. Beroepskosten' staan als plain text zonder heading-prefix. Inhoud zelf is overigens volledig en correct."
     layer1:
       status: not_run
       run_id:
@@ -32,11 +32,39 @@ provenance:
       file_size_chars:
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:19Z'
+      rationale: "Zware TOC-residu aan het begin (regels 66-213): de inhoudsopgave met dotted-leaders staat volledig als plain text in de body en is niet verwijderd, inclusief paginanummers ('9', '11', '12', ...). Daarnaast staan paginatellers verspreid door de body ('Belastinggids 2025 • 9', '10 • Brochure A5', '12 • Belastinggids 2025', enz.) — dit zijn klassieke A1/A2-artefacten. De TOC is bovendien deels verdubbeld (A3): de geïntegreerde inhoudstafel bovenaan plus de sectionering als headings geeft redundantie. Paragraafnummers '2.', '3.' op regels 500-501 zijn als ### headings gemarkeerd in plaats van als lijstpunten (B2 bug: '### 2. Voor uw tweede woning...' is een opsommingspunt dat als heading is gerenderd). Ook B5-artefact: sectie-labels 'a. Bezoldigingen', 'b. Beroepskosten' staan als plain text zonder heading-prefix. Inhoud zelf is overigens volledig en correct."
+      concrete_problemen:
+        - regel: 66
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: I Woord vooraf.................................................................................................................................................................................. 9
+        - regel: 103
+          categorie: A1
+          type: form-feed
+          voorbeeld: Belastinggids 2025 • 3
+        - regel: 141
+          categorie: A1
+          type: form-feed
+          voorbeeld: 4 • Belastinggids 2025
+        - regel: 255
+          categorie: A1
+          type: form-feed
+          voorbeeld: Belastinggids 2025 • 9
+        - regel: 500
+          categorie: B2
+          type: other
+          voorbeeld: '### 2. Voor uw tweede woning wordt het KI vermenigvuldigd met 1,40.'
+        - regel: 501
+          categorie: B2
+          type: other
+          voorbeeld: '### 3. Als u uw huis verhuurt aan een derde voor privédoeleinden,'
+        - regel: 555
+          categorie: B5
+          type: other
+          voorbeeld: a. Bezoldigingen (plain text, geen heading-prefix)
 chunk:
   level: 2
   type: Art.

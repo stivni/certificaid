@@ -26,10 +26,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:35Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A4/A9: Regels 55-57 en 96 bevatten de IJ-ligature U+0133 (ĳ) in plaats van gewone 'ij' — 'bedrĳfscombinatie', 'gemeenschappelĳke', 'uiteindelĳke', 'partĳ', 'partĳen', 'verkrĳgt', 'bedrĳven' — consistent fout door OCR/encoding-artefact. E1: Tabellen (regels 63-67, 71-73, 77-82) missen een header-scheidingslijn (|---|---|) en hebben geen kolomhoofden; een mens zou nooit zo'n tabel typen. D4: Regel 96 bevat '*pooling of interest[^5] *' met spatie voor sluitende asterisk. Verder staat ', bijgewerkt op 10 september 2025[^2]' als los fragment na H1 (regel 51)."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -39,11 +39,27 @@ provenance:
       file_size_chars: 8738
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:35Z'
+      rationale: "A4/A9: Regels 55-57 en 96 bevatten de IJ-ligature U+0133 (ĳ) in plaats van gewone 'ij' — 'bedrĳfscombinatie', 'gemeenschappelĳke', 'uiteindelĳke', 'partĳ', 'partĳen', 'verkrĳgt', 'bedrĳven' — consistent fout door OCR/encoding-artefact. E1: Tabellen (regels 63-67, 71-73, 77-82) missen een header-scheidingslijn (|---|---|) en hebben geen kolomhoofden; een mens zou nooit zo'n tabel typen. D4: Regel 96 bevat '*pooling of interest[^5] *' met spatie voor sluitende asterisk. Verder staat ', bijgewerkt op 10 september 2025[^2]' als los fragment na H1 (regel 51)."
+      concrete_problemen:
+        - regel: 51
+          categorie: A6
+          type: other
+          voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
+        - regel: 55
+          categorie: A4
+          type: other
+          voorbeeld: bedrĳfscombinatie onder gemeenschappelĳke leiding (IJ-ligature U+0133)
+        - regel: 63
+          categorie: E1
+          type: other
+          voorbeeld: '| 31 december 20X0 | \n| Positief consolidatieverschil | | 100 | | Eigen vermogen (geen header-row)'
+        - regel: 96
+          categorie: D4
+          type: other
+          voorbeeld: '*pooling of interest[^5] * methode'
 ---
 
 # CBN-advies 2017/15 – Transacties onder gemeenschappelijke leiding (Common control transactions) (update)

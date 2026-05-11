@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B3: drie duplicate #-level headings (regels 55–59) herhalen de advies-titel en datumaanduiding — typisch TOC-scrape-artefact. D4: malformed bold/italic op regels 59 en 151 ('*Geraamde belastingen *' met spatie voor sluiter). A6: spurious line breaks na footnote-referenties (regels 83, 95, 100) waarbij de zin wordt afgebroken vóór het haakje."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,35 @@ provenance:
       file_size_chars: 24672
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "B3: drie duplicate #-level headings (regels 55–59) herhalen de advies-titel en datumaanduiding — typisch TOC-scrape-artefact. D4: malformed bold/italic op regels 59 en 151 ('*Geraamde belastingen *' met spatie voor sluiter). A6: spurious line breaks na footnote-referenties (regels 83, 95, 100) waarbij de zin wordt afgebroken vóór het haakje."
+      concrete_problemen:
+        - regel: 55
+          categorie: B3
+          type: other
+          voorbeeld: '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN**'
+        - regel: 57
+          categorie: B3
+          type: other
+          voorbeeld: '# **CBN-advies 2015/1 - Boekhoudkundige verwerking van de tax shelter...'
+        - regel: 59
+          categorie: D4
+          type: other
+          voorbeeld: '# **Advies van 13 mei 2015[^1] **'
+        - regel: 83
+          categorie: A6
+          type: other
+          voorbeeld: '*investerende vennootschap*[^7]\n (hierna: de investeerder)'
+        - regel: 151
+          categorie: D4
+          type: other
+          voorbeeld: rekening 6702 *Geraamde belastingen *wordt door de Commissie
+        - regel: 144
+          categorie: D3
+          type: other
+          voorbeeld: ' [^19]'
 gerelateerde_adviezen:
   - titel: Tax shelter voor podiumkunsten
     url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten

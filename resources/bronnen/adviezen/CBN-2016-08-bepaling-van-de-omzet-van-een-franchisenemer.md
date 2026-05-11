@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Regel 53–57: een groot blok tekst (definitie van 'omzet' uit KB W.Venn.) is in italic opgemaakt met openingsasterisk op regel 53 en afsluitende asterisk op het einde van regel 57, maar de sluiting is onregelmatig — de slotasterisk staat direct na de punt van de laatste zin (D4, malformed italic). Bovendien zijn de bullet-items binnen dit italic-blok (regels 71–74) ook met een asterisk-bullet gemarkeerd terwijl de omringende tekst reeds in italic staat, wat markdown-rendering problemen kan geven. Verder kwalitatief goed: 2 headings, voetnoten [^1]–[^13] correct."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,19 @@ provenance:
       file_size_chars: 8276
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "Regel 53–57: een groot blok tekst (definitie van 'omzet' uit KB W.Venn.) is in italic opgemaakt met openingsasterisk op regel 53 en afsluitende asterisk op het einde van regel 57, maar de sluiting is onregelmatig — de slotasterisk staat direct na de punt van de laatste zin (D4, malformed italic). Bovendien zijn de bullet-items binnen dit italic-blok (regels 71–74) ook met een asterisk-bullet gemarkeerd terwijl de omringende tekst reeds in italic staat, wat markdown-rendering problemen kan geven. Verder kwalitatief goed: 2 headings, voetnoten [^1]–[^13] correct."
+      concrete_problemen:
+        - regel: 53
+          categorie: D4
+          type: other
+          voorbeeld: '* Onder omzet wordt verstaan het bedrag van de verkoop... (italic block opens here)'
+        - regel: 57
+          categorie: D4
+          type: other
+          voorbeeld: '...voor hun bedrijf.*  (italic sluit met asterisk na punt, maar bullet-items ertussen breken italic)'
 ---
 
 # CBN-advies 2016/8 - Bepaling van de omzet van een franchisenemer

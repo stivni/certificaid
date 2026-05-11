@@ -27,10 +27,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:51:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Kort advies (1430 chars), geen headings nodig. Rekeningnamen correct gecursiveerd. Geen duplicaten, geen structuurproblemen, geen artefacten. Sluit logisch af.
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -40,10 +40,10 @@ provenance:
       file_size_chars: 1430
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:19Z'
+      rationale: Kort advies (1430 chars), geen headings nodig. Rekeningnamen correct gecursiveerd. Geen duplicaten, geen structuurproblemen, geen artefacten. Sluit logisch af.
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders

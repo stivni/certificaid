@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A1: regel 108 bevat een gecombineerde paginavoettekst en plain-text URL ('Inlichtingen opgerichte gebouwen  www.fisconetplus  pg. 1'). Dit is een PDF-extract-artefact dat bij een mens-geschreven document niet aanwezig zou zijn. De rest van de body is schoon: alle 3 artikelen zijn aanwezig als ## headings, inhoud volledig, opsomming (1°-8°, a-b) intact."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,18 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '3.9k chars zonder ##-headings; body bereikt slot-Artikel maar Artikel-promotion ontbreekt.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "A1: regel 108 bevat een gecombineerde paginavoettekst en plain-text URL ('Inlichtingen opgerichte gebouwen  www.fisconetplus  pg. 1'). Dit is een PDF-extract-artefact dat bij een mens-geschreven document niet aanwezig zou zijn. De rest van de body is schoon: alle 3 artikelen zijn aanwezig als ## headings, inhoud volledig, opsomming (1°-8°, a-b) intact."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: '0 ##-headings bij 3881 chars'
+        - regel: 108
+          categorie: A1
+          type: form-feed
+          voorbeeld: Inlichtingen opgerichte gebouwen                  www.fisconetplus                                    pg. 1
+        - regel: 108
+          categorie: G1
+          type: url-plaintext
+          voorbeeld: www.fisconetplus (kale URL midden in voettekst-regel)
 ---
 
 # K.B. nr. 58 van 28 mei 2019, met betrekking tot de mededeling van de inlichtingen inzake de pas opgerichte gebouwen voor de toepassing van de belasting over de toegevoegde waarde

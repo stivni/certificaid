@@ -22,10 +22,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'D4: twee gevallen van malformed italic met spatie voor sluitende asterisk op regel 57 (`factoringovereenkomsten[^2] *`) en regel 65 (`*Financiële schulden – Overige leningen moet worden gereclasseerd.*` sluit italic te laat, omvat ook prose-tekst). Klein advies (heading_count 2), maar de italic-fouten zijn zichtbare ETL-artefacten.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -35,11 +35,19 @@ provenance:
       file_size_chars: 4590
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: 'D4: twee gevallen van malformed italic met spatie voor sluitende asterisk op regel 57 (`factoringovereenkomsten[^2] *`) en regel 65 (`*Financiële schulden – Overige leningen moet worden gereclasseerd.*` sluit italic te laat, omvat ook prose-tekst). Klein advies (heading_count 2), maar de italic-fouten zijn zichtbare ETL-artefacten.'
+      concrete_problemen:
+        - regel: 57
+          categorie: D4
+          type: other
+          voorbeeld: factoringovereenkomsten[^2] * behandelt de relatie
+        - regel: 65
+          categorie: D4
+          type: other
+          voorbeeld: '*Financiële schulden – Overige leningen moet worden gereclasseerd.*'
 ---
 
 # CBN-advies 2017/17 – Reverse factoring

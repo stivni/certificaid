@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Twee problemen: (1) A1: regels 76-78 bevatten een Fisconet-paginavoet ('Innings- en invorderingsregister www.fisconetplus.be pg. 1' en 'FOD Financiën (AABEO) www.fisconetplus.be Btw Koninklijke besluiten - 18.03.2020') die midden in de body staan en niet zijn gestript. (2) A6/C3: regels 63-66 tonen diep ingesprongen tekst met meerdere leading spaces als pseudo-uitlijning. De 3 artikelen zijn wel aanwezig als ##-headings."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,22 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: 'Klein (~3k) en zonder ##-headings; in praktijk wellicht nog acceptabel via fallback chunking, maar de Artikel-markers verdienen ##-promotion voor consistente retrieval.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "Twee problemen: (1) A1: regels 76-78 bevatten een Fisconet-paginavoet ('Innings- en invorderingsregister www.fisconetplus.be pg. 1' en 'FOD Financiën (AABEO) www.fisconetplus.be Btw Koninklijke besluiten - 18.03.2020') die midden in de body staan en niet zijn gestript. (2) A6/C3: regels 63-66 tonen diep ingesprongen tekst met meerdere leading spaces als pseudo-uitlijning. De 3 artikelen zijn wel aanwezig als ##-headings."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: '0 ##-headings bij 2977 chars; Artikel-tekst plain'
+        - regel: 76
+          categorie: A1
+          type: form-feed
+          voorbeeld: Innings- en invorderingsregister           www.fisconetplus.be                                    pg. 1
+        - regel: 78
+          categorie: A1
+          type: form-feed
+          voorbeeld: FOD Financiën (AABEO)                         www.fisconetplus.be          Btw Koninklijke besluiten - 18.03.2020
+        - regel: 63
+          categorie: A6
+          type: pseudo-table
+          voorbeeld: '       De belastingschuld wordt op naam van de belastingschuldige opgenomen in een innings- en'
 ---
 
 # K.B. van 29 augustus 2019, tot uitvoering van artikel 85, § 2, derde lid van het Wetboek van de belasting over de toegevoegde waarde met betrekking tot de opmaak van innings- en invorderingsregisters

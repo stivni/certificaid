@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A2/B7: regels 48–49 bevatten een genummerde lijst '1. Definitie... / 2. Bepaling...' direct na de H1-titel — dit is een TOC-fragment dat mee-geëxtraheerd is en nu als body-tekst staat i.p.v. te worden weggelaten (de inhoud wordt daarna als #### headings herhaald). B4: twee #### headings in all-caps (regels 54, 74) zonder bovenliggend ## niveau (B2-sprong: H1 → #### zonder ##/### tussenniveau)."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,31 @@ provenance:
       file_size_chars: 7309
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: "A2/B7: regels 48–49 bevatten een genummerde lijst '1. Definitie... / 2. Bepaling...' direct na de H1-titel — dit is een TOC-fragment dat mee-geëxtraheerd is en nu als body-tekst staat i.p.v. te worden weggelaten (de inhoud wordt daarna als #### headings herhaald). B4: twee #### headings in all-caps (regels 54, 74) zonder bovenliggend ## niveau (B2-sprong: H1 → #### zonder ##/### tussenniveau)."
+      concrete_problemen:
+        - regel: 48
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: 1. Definitie treasury vennootschappen of financieringsvennootschappen (TOC-residu als body-tekst)
+        - regel: 49
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: 2. Bepaling van de functionele valuta bij financieringsvennootschappen (TOC-residu)
+        - regel: 54
+          categorie: B4
+          type: other
+          voorbeeld: '#### Definitie treasury vennootschappen of financieringsvennootschappen (#### zonder ## bovenliggend)'
+        - regel: 74
+          categorie: B4
+          type: other
+          voorbeeld: '#### Bepaling van de functionele valuta bij financieringsvennootschappen (#### zonder ##)'
+        - regel: 54
+          categorie: B2
+          type: other
+          voorbeeld: 'H1 → #### zonder ## of ### tussenniveau (hiërarchiesprong)'
 ---
 
 # CBN-advies 2009/10 - Bepaling van de functionele valuta bij financieringsvennootschappen

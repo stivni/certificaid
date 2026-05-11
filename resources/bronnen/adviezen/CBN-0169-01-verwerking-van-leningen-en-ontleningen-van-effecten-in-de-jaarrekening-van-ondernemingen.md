@@ -27,10 +27,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Meerdere A6-breuken (zin gesplitst over twee regels zonder leesteken aan het einde, r.234-236) en twee G3-instanties (voetnootinhoud in mid-tekst via [^6] en [^7] die als standalone regels verschijnen midden in de boekings-reeksen). Daarnaast D4-equivalent: 'effectenverordening' (r.285/360) is OCR-verwarring voor 'effectenvordering' (A9). Losse tikfouten 'financïele' (r.230), 'balansdatrum' (r.498), 'lengsovereenkomst' (r.677) en 'Tegerlijkertijd' (r.107) wijzen op onvoldoende post-processing. De tabel-structuur (markdown pipe) zelf is intact."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -40,11 +40,39 @@ provenance:
       file_size_chars: 48506
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: "Meerdere A6-breuken (zin gesplitst over twee regels zonder leesteken aan het einde, r.234-236) en twee G3-instanties (voetnootinhoud in mid-tekst via [^6] en [^7] die als standalone regels verschijnen midden in de boekings-reeksen). Daarnaast D4-equivalent: 'effectenverordening' (r.285/360) is OCR-verwarring voor 'effectenvordering' (A9). Losse tikfouten 'financïele' (r.230), 'balansdatrum' (r.498), 'lengsovereenkomst' (r.677) en 'Tegerlijkertijd' (r.107) wijzen op onvoldoende post-processing. De tabel-structuur (markdown pipe) zelf is intact."
+      concrete_problemen:
+        - regel: 107
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: Tegerlijkertijd wordt op hem ook het risico...
+        - regel: 234
+          categorie: A6
+          type: other
+          voorbeeld: '...moet worden\n\nverwerkt, wanneer :'
+        - regel: 230
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: financïele kosten waar hij normaliter...
+        - regel: 285
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: Geleende vastrentende effecten A, "effectenverordening"
+        - regel: 478
+          categorie: G3
+          type: other
+          voorbeeld: '[^6] als losstaande regel midden tussen boekingsblokken'
+        - regel: 498
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: Op balansdatrum moet de geprorateerde vergoeding...
+        - regel: 677
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: lengsovereenkomst lange tijd vóór de afwikkelingsdatum...
 ---
 
 # CBN-advies 169/1 - Verwerking van leningen en ontleningen van effecten in de jaarrekening van ondernemingen

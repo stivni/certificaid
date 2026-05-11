@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:35Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B5: Regel 91 begint met '11.' — dit is een randnummerlabel dat als plain tekst in de paragraaf staat in plaats van als structuurlabel te worden weggelaten of als heading te worden verwerkt; een mens zou dit nooit zo typen. D4: Regel 63 bevat '*CBN-advies 2013/16 - Toelichting ...*' met een spatie voor het sluitende asterisk. Verder is de heading 'Toelichting VOL 6.17' (regel 73) een sectiontitel zonder inhoud — de toelichting zelf (een tabel of afbeelding uit het VOL-formulier) ontbreekt volledig in de body."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -37,11 +37,23 @@ provenance:
       file_size_chars: 8359
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:35Z'
+      rationale: "B5: Regel 91 begint met '11.' — dit is een randnummerlabel dat als plain tekst in de paragraaf staat in plaats van als structuurlabel te worden weggelaten of als heading te worden verwerkt; een mens zou dit nooit zo typen. D4: Regel 63 bevat '*CBN-advies 2013/16 - Toelichting ...*' met een spatie voor het sluitende asterisk. Verder is de heading 'Toelichting VOL 6.17' (regel 73) een sectiontitel zonder inhoud — de toelichting zelf (een tabel of afbeelding uit het VOL-formulier) ontbreekt volledig in de body."
+      concrete_problemen:
+        - regel: 63
+          categorie: D4
+          type: other
+          voorbeeld: CBN-advies 2013/16 - *Toelichting omtrent het niet-gebruik van de waarderingsr...*
+        - regel: 73
+          categorie: D2
+          type: missing-section
+          voorbeeld: '## Toelichting VOL 6.17 (sectie zonder inhoud — toelichting-tabel/formulier ontbreekt)'
+        - regel: 91
+          categorie: B5
+          type: other
+          voorbeeld: 11. Bij gebrek aan deze invulling, is de Commissie van oordeel...
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van de cross currency swap
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap

@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3+B3: TOC-fragmenten verspreid in de body op regels 52–59: na de body-titel verschijnt '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN' (typo in heading) gevolgd door een gesplitste genummerde inhoudsopgave ('1. Periode tot...', '2. Periode na...', '3. Openbaarmakingsformaliteiten') en een samengestelde restlijn 'Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten' zonder witruimte. Dit zijn duidelijke TOC-scrape-artefacten die in de body terechtgekomen zijn."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,23 @@ provenance:
       file_size_chars: 11175
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "A3+B3: TOC-fragmenten verspreid in de body op regels 52–59: na de body-titel verschijnt '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN' (typo in heading) gevolgd door een gesplitste genummerde inhoudsopgave ('1. Periode tot...', '2. Periode na...', '3. Openbaarmakingsformaliteiten') en een samengestelde restlijn 'Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten' zonder witruimte. Dit zijn duidelijke TOC-scrape-artefacten die in de body terechtgekomen zijn."
+      concrete_problemen:
+        - regel: 52
+          categorie: B3
+          type: other
+          voorbeeld: '# COMMISIE VOOR BOEKHOUDKUNDIGE NORMEN'
+        - regel: 54
+          categorie: A3
+          type: other
+          voorbeeld: 1. Periode tot de datum van boekhoudkundige retroactiviteit
+        - regel: 59
+          categorie: A3
+          type: other
+          voorbeeld: Periode na de datum van boekhoudkundige retroactiviteitOpenbaarmakingsformaliteiten
 gerelateerde_adviezen:
   - titel: Begin van het boekjaar
     url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar

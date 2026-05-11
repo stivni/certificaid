@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "F1/G2: HTML-entity '&#039;' in frontmatter op regel 9 ('voorziening voor risico&#039;s en kosten') — dit is een niet-gedecodeerde HTML-escape die in de frontmatter-thema-tag terechtgekomen is. De tabellen voor methode B (regels 298–386) herhalen het verminkende cel-per-regel patroon (zelfde als CBN-2018-12 maar minder ernstig). Verder structureel intact."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,19 @@ provenance:
       file_size_chars: 20186
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: "F1/G2: HTML-entity '&#039;' in frontmatter op regel 9 ('voorziening voor risico&#039;s en kosten') — dit is een niet-gedecodeerde HTML-escape die in de frontmatter-thema-tag terechtgekomen is. De tabellen voor methode B (regels 298–386) herhalen het verminkende cel-per-regel patroon (zelfde als CBN-2018-12 maar minder ernstig). Verder structureel intact."
+      concrete_problemen:
+        - regel: 9
+          categorie: F1
+          type: other
+          voorbeeld: '- voorziening voor risico&#039;s en kosten'
+        - regel: 298
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: '| \n\n  | | \n\nBeurskoers\n\n  | | \n\nVerwachte retentiegraad\n\n  |'
 ---
 
 # CBN-advies 2018/16 – Toekenning van gratis aandelen (Restricted Stock Units) als bonus

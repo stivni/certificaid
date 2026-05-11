@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Twee paginavoettekst-regels niet verwijderd (A1): regels 111 en 152 bevatten 'Intracomm. verw. accijnsprodukten  www.fisconetplus.be  pg. 1/2'. Introductietekst (regels 54-56) bevat meervoudige spaties als kolom-alignment-artefact ('vereenvoudigingsregeling    voor   intracommunautaire      verwerving  van'). Zelfde issue op regel 123 in de bodytekst van Art. 6. Dit zijn typische PDF-twee-kolom-extractie-artefacten (A8/C3). Verder is het KB compact en inhoudelijk volledig."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,26 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '9k chars zonder ##-headings; Artikel-tekst plain. Body intact. Compact KB maar verdient ##-promotion.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "Twee paginavoettekst-regels niet verwijderd (A1): regels 111 en 152 bevatten 'Intracomm. verw. accijnsprodukten  www.fisconetplus.be  pg. 1/2'. Introductietekst (regels 54-56) bevat meervoudige spaties als kolom-alignment-artefact ('vereenvoudigingsregeling    voor   intracommunautaire      verwerving  van'). Zelfde issue op regel 123 in de bodytekst van Art. 6. Dit zijn typische PDF-twee-kolom-extractie-artefacten (A8/C3). Verder is het KB compact en inhoudelijk volledig."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: '0 ##-headings bij 8105 chars'
+        - regel: 55
+          categorie: A8
+          type: column-bleed
+          voorbeeld: vereenvoudigingsregeling    voor   intracommunautaire      verwerving  van
+        - regel: 111
+          categorie: A1
+          type: form-feed
+          voorbeeld: Intracomm. verw. accijnsprodukten               www.fisconetplus.be                                  pg. 1
+        - regel: 152
+          categorie: A1
+          type: form-feed
+          voorbeeld: Intracomm. verw. accijnsprodukten              www.fisconetplus.be                                    pg. 2
+        - regel: 123
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: opgemaakte      of    ontvangen     bestelbons,    contracten,   verzendingsstukken,
 ---
 
 # K.B. nr. 51 van 14 april 1993, met betrekking tot de vereenvoudigingsregeling voor intracommunautaire verwerving van accijnsprodukten op het stuk van de belasting over de toegevoegde waarde

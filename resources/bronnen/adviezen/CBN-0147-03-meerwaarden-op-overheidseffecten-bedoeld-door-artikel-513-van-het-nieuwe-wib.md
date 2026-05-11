@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: regel 63 bevat '*Uitgestelde belastingen *van het bedrag' — spatie vóór de sluitende asterisk, waardoor de italic niet correct sluit (bekend ETL-patroon '*term *'). Verder is de inhoud volledig met 3 correct gedefinieerde voetnoten."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -37,11 +37,15 @@ provenance:
       file_size_chars: 4561
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: "D4: regel 63 bevat '*Uitgestelde belastingen *van het bedrag' — spatie vóór de sluitende asterisk, waardoor de italic niet correct sluit (bekend ETL-patroon '*term *'). Verder is de inhoud volledig met 3 correct gedefinieerde voetnoten."
+      concrete_problemen:
+        - regel: 63
+          categorie: D4
+          type: other
+          voorbeeld: '*Uitgestelde belastingen *van het bedrag van de belastingen'
 gerelateerde_adviezen:
   - titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt. Kapitaalsubsidies
     url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt

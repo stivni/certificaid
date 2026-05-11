@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3/B3: regel 51 bevat 'de Waalse regering gecreëerde opleidingscheques' als losstaande plain-text regel direct na de H1-titel — dit is een duplicaatfragment van de titel dat door de extractor dubbel werd opgenomen. E2: tabelrij op regel 83 ('| | of 623 Andere personeelskosten | | | |') heeft een extra trailing pipe wat de tabel malformed maakt."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -32,11 +32,19 @@ provenance:
       file_size_chars: 3781
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "A3/B3: regel 51 bevat 'de Waalse regering gecreëerde opleidingscheques' als losstaande plain-text regel direct na de H1-titel — dit is een duplicaatfragment van de titel dat door de extractor dubbel werd opgenomen. E2: tabelrij op regel 83 ('| | of 623 Andere personeelskosten | | | |') heeft een extra trailing pipe wat de tabel malformed maakt."
+      concrete_problemen:
+        - regel: 51
+          categorie: A3
+          type: other
+          voorbeeld: de Waalse regering gecreëerde opleidingscheques (titel-duplicaat als plain text)
+        - regel: 83
+          categorie: E2
+          type: other
+          voorbeeld: '| | of 623 Andere personeelskosten | | | | (extra trailing pipe)'
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van loontussenkomst door de overheid in hoofde van de werkgever (update)
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-loontussenkomst-door-de-overheid-in-hoofde-van-de-werkgever

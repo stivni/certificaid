@@ -25,10 +25,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:24:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'E1/E2: alle vier tabellen (regels 107-110, 138-141, 175-179, 196-200) missen de verplichte `|---|---|` scheidingsregel na de headerrij, waardoor het geen geldige markdown-tabellen zijn. Bovendien bevatten de tabellen structureel lege tussencellen (alternerende lege kolommen) die typisch zijn voor een PDF-extractie-artefact waarbij de kleur-highlight-kolommen als lege cellen werden meegenomen. Inhoud en voetnoten zijn volledig en correct.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -38,11 +38,27 @@ provenance:
       file_size_chars: 25650
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:24:34Z'
+      rationale: 'E1/E2: alle vier tabellen (regels 107-110, 138-141, 175-179, 196-200) missen de verplichte `|---|---|` scheidingsregel na de headerrij, waardoor het geen geldige markdown-tabellen zijn. Bovendien bevatten de tabellen structureel lege tussencellen (alternerende lege kolommen) die typisch zijn voor een PDF-extractie-artefact waarbij de kleur-highlight-kolommen als lege cellen werden meegenomen. Inhoud en voetnoten zijn volledig en correct.'
+      concrete_problemen:
+        - regel: 107
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: '| | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | (geen separator-rij, lege ghost-kolommen)'
+        - regel: 108
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: '| Jaargemiddelde personeelsbestand | | 60 | | 60 | | 60 | (lege kolommen door PDF-kleur-extractie)'
+        - regel: 175
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: '| **Einde 31.12** | | | | **31.12.2021** | | | | | | **31.12.2022** | ... (geen separator, veelvuldige lege cellen)'
+        - regel: 196
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: '| **Einde 31.03** | | | | **31.03.2021** | | | | | | **31.03.2022** | ... (idem)'
 gerelateerde_adviezen:
   - titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening – begroting (update) [ONTWERP]
     url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting-update

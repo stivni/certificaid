@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B5-achtig: de ## Art.-headings zijn correct maar 'Bijlage A' en 'Bijlage B' op regels 249 en 260 staan als plain text zonder heading-marker. C3: de bijlagetabel (Bijw. 01/02) is spatie-uitgelijnde pseudotabel. D4: Art. 12 heading op regel 237 is onvolledig ('is opgeheven' staat in de haakjes maar het sluitende haakje ontbreekt). Inhoud volledig (Art. 1–13 + bijlagen)."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,13 +38,26 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '15k chars zonder ##-headings; degraded chunking. Body intact (Artikel 1..6 + bijwerkingen).'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:28Z'
+      rationale: "B5-achtig: de ## Art.-headings zijn correct maar 'Bijlage A' en 'Bijlage B' op regels 249 en 260 staan als plain text zonder heading-marker. C3: de bijlagetabel (Bijw. 01/02) is spatie-uitgelijnde pseudotabel. D4: Art. 12 heading op regel 237 is onvolledig ('is opgeheven' staat in de haakjes maar het sluitende haakje ontbreekt). Inhoud volledig (Art. 1–13 + bijlagen)."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: '0 ##-headings bij 14182 chars'
+        - regel: 237
+          categorie: D4
+          type: other
+          voorbeeld: (De tekst van KB nr. 27, artikel 12 is opgeheven  [ontbreekt sluitende haakje]
+        - regel: 249
+          categorie: B4
+          type: other
+          voorbeeld: 'Bijlage A  (plain text, geen ## heading)'
+        - regel: 252
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: "       Bijwerking                                      Te vervangen pagina's"
+        - regel: 258
+          categorie: G2
+          type: other
+          voorbeeld: '                                             *   *    *    *    *'
 ---
 
 # K.B. nr. 27 van 26 juni 1973, met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde, ten aanzien van vlees van slachtdieren

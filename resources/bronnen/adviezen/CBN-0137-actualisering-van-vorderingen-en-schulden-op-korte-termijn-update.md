@@ -26,10 +26,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B3: duplicate page-title-heading op regels 53 en 55 (identieke H1 twee keer). Inhoud is volledig en correct; de tekst is kort maar afgerond met voetnoot. Enkel het dubbele heading-artefact moet gefixed worden door ETL.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -39,11 +39,19 @@ provenance:
       file_size_chars: 1849
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: 'B3: duplicate page-title-heading op regels 53 en 55 (identieke H1 twee keer). Inhoud is volledig en correct; de tekst is kort maar afgerond met voetnoot. Enkel het dubbele heading-artefact moet gefixed worden door ETL.'
+      concrete_problemen:
+        - regel: 53
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)'
+        - regel: 55
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)'
 gerelateerde_adviezen:
   - titel: Renteloze vorderingen (schulden) en vorderingen (schulden) met een abnormaal lage rente, op meer dan één jaar
     url: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op

@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A5/B: De H1-heading op regel 46 bevat een en-dash (U+2013) '–' in plaats van een gewone koppelteken '-': '# CBN-advies 114/7 – Condominium'. Alle andere adviezen in de serie gebruiken het gewone koppelteken '-'. Dit is een inconsistente typografie die door de extractor is geïntroduceerd en niet aanwezig is in het bronadvies. De rest van het bestand (één alinea-blok, geen voetnoten) is schoon."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,15 @@ provenance:
       file_size_chars: 2196
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: "A5/B: De H1-heading op regel 46 bevat een en-dash (U+2013) '–' in plaats van een gewone koppelteken '-': '# CBN-advies 114/7 – Condominium'. Alle andere adviezen in de serie gebruiken het gewone koppelteken '-'. Dit is een inconsistente typografie die door de extractor is geïntroduceerd en niet aanwezig is in het bronadvies. De rest van het bestand (één alinea-blok, geen voetnoten) is schoon."
+      concrete_problemen:
+        - regel: 46
+          categorie: A5
+          type: other
+          voorbeeld: '# CBN-advies 114/7 – Condominium (en-dash U+2013 i.p.v. gewone koppelteken)'
 ---
 
 # CBN-advies 114/7 – Condominium

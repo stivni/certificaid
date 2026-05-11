@@ -21,10 +21,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:09:17Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Laag-1 pass, heading_count 0 klopt: het advies is één doorlopend tekstblok zonder expliciete secties (zo ook in het origineel — kort advies van één paragraaf). Inhoud volledig, geen artefacten, geen voetnoten nodig, geen bullets. Eén typ-artefact ('daaarentegen' met drie a's op regel 61) maar dat is waarschijnlijk originele tekst."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -34,11 +34,15 @@ provenance:
       file_size_chars: 2307
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:17Z'
+      rationale: "Laag-1 pass, heading_count 0 klopt: het advies is één doorlopend tekstblok zonder expliciete secties (zo ook in het origineel — kort advies van één paragraaf). Inhoud volledig, geen artefacten, geen voetnoten nodig, geen bullets. Eén typ-artefact ('daaarentegen' met drie a's op regel 61) maar dat is waarschijnlijk originele tekst."
+      concrete_problemen:
+        - regel: 61
+          categorie: D1
+          type: other
+          voorbeeld: wanneer daaarentegen de aankoop (driemaal 'a' — vermoedelijk tikfout in origineel)
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van de taks tot vergoeding der successierechten
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-taks-tot-vergoeding-der-successierechten

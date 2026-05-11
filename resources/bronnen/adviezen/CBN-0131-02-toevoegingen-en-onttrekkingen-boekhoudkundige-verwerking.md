@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B2 op L64 en L70: heading-hiërarchie springt van H1 direct naar H4 (#### Over de stijving... / #### Over onttrekkingen...) zonder tussenliggende H2/H3 — onnatuurlijk voor mens-geschreven MD. D4 op L60: *Winst (verlies) van het boekjaar* is wél correct gesloten (false positive in checker); geen echt D4-probleem. De B2-sprong is echter reëel.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,19 @@ provenance:
       file_size_chars: 4060
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: 'B2 op L64 en L70: heading-hiërarchie springt van H1 direct naar H4 (#### Over de stijving... / #### Over onttrekkingen...) zonder tussenliggende H2/H3 — onnatuurlijk voor mens-geschreven MD. D4 op L60: *Winst (verlies) van het boekjaar* is wél correct gesloten (false positive in checker); geen echt D4-probleem. De B2-sprong is echter reëel.'
+      concrete_problemen:
+        - regel: 64
+          categorie: B2
+          type: other
+          voorbeeld: '#### Over de stijving van de belastingvrije reserves (H1 → H4, geen H2/H3)'
+        - regel: 70
+          categorie: B2
+          type: other
+          voorbeeld: '#### Over onttrekkingen aan de belastingvrije reserves (idem)'
 gerelateerde_adviezen:
   - titel: Boekhoudrechtelijke verwerking van de wederopbouwreserve
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve

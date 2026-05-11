@@ -21,10 +21,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: een TOC-blok staat als plain-text genummerde lijst op regels 46–70 (acceptabel als inhoudsopgave), maar regels 71–72 bevatten een samengeperste duplicaat-TOC als één lange run-on tekstregel met `---- ` als separator — dit is een extractie-artefact van de tweede TOC-instantie. A9: regel 96 bevat 'stenmrechtverlenende' — OCR-verwisseling (ontbrekende 'r' in 'stemrecht')."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -34,11 +34,23 @@ provenance:
       file_size_chars: 22698
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "A3: een TOC-blok staat als plain-text genummerde lijst op regels 46–70 (acceptabel als inhoudsopgave), maar regels 71–72 bevatten een samengeperste duplicaat-TOC als één lange run-on tekstregel met `---- ` als separator — dit is een extractie-artefact van de tweede TOC-instantie. A9: regel 96 bevat 'stenmrechtverlenende' — OCR-verwisseling (ontbrekende 'r' in 'stemrecht')."
+      concrete_problemen:
+        - regel: 71
+          categorie: A3
+          type: other
+          voorbeeld: . ---- Kennisgeving van belangrijke deelnemingen in naamloze vennootschappen... [run-on TOC-residu]
+        - regel: 72
+          categorie: A3
+          type: other
+          voorbeeld: '---- Anti-witwaswetgeving-- Kruisparticipaties---- Kennisgeving op grond van...'
+        - regel: 96
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: 'stenmrechtverlenende effecten (moet: stemrechtverlenende)'
 ---
 
 # CBN-advies 2013/5 - De aandeelhoudersstructuur van ondernemingen: opname in de toelichting van de jaarrekening

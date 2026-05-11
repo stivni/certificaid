@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:57Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A1: 311 pagina-voet-regels in de body van het type '    - 1 -\\nFOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 3 - bijw. nr. 7 / 23.11.2019' (elke ~28 regels). D2: de body begint direct met '§ 1. Onder voorbehoud...' — de titel van KB nr. 3 en Art. 1 heading ontbreken; het bestand start structureel halverwege KB nr. 3 zonder KB-titel heading. G1: 'www.fisconetplus.be' als plain-text URL op elke voetregelregel (311 keer). Het bestand is een compilatie van meerdere KBs (nr. 3, nr. 4 en meer) zonder structurele scheiding tussen de afzonderlijke KBs; elke KB heeft zijn eigen reeks paginavoet-artefacten."
     layer1:
       status: not_run
       run_id:
@@ -32,11 +32,27 @@ provenance:
       file_size_chars:
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:57Z'
+      rationale: "A1: 311 pagina-voet-regels in de body van het type '    - 1 -\\nFOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 3 - bijw. nr. 7 / 23.11.2019' (elke ~28 regels). D2: de body begint direct met '§ 1. Onder voorbehoud...' — de titel van KB nr. 3 en Art. 1 heading ontbreken; het bestand start structureel halverwege KB nr. 3 zonder KB-titel heading. G1: 'www.fisconetplus.be' als plain-text URL op elke voetregelregel (311 keer). Het bestand is een compilatie van meerdere KBs (nr. 3, nr. 4 en meer) zonder structurele scheiding tussen de afzonderlijke KBs; elke KB heeft zijn eigen reeks paginavoet-artefacten."
+      concrete_problemen:
+        - regel: 50
+          categorie: D2
+          type: missing-section
+          voorbeeld: "Body start: '§ 1. Onder voorbehoud...' — KB nr. 3 Art. 1 heading en KB-titel ontbreken"
+        - regel: 56
+          categorie: A1
+          type: other
+          voorbeeld: '    - 1 -\nFOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 3 - bijw. nr. 7 / 23.11.2019'
+        - regel: 57
+          categorie: G1
+          type: url-plaintext
+          voorbeeld: FOD Financiën (AABEO) www.fisconetplus.be Btw KB nr. 3 - bijw. nr. 7 / 23.11.2019
+        - regel: 524
+          categorie: B5
+          type: other
+          voorbeeld: 'Koninklijk Besluit nr. 4... (als plain text i.p.v. ## heading bij KB-overgang)'
 chunk:
   level: 5
   type: Art.

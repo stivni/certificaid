@@ -22,10 +22,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: de boekingstabellen zijn inconsistent opgebouwd. 'Aan'-rijen wisselen tussen twee patronen: soms '| aan | 440 Leveranciers |' (aan in cel 1) en soms '| | aan 55 Kredietinstellingen |' (aan samengevoegd in cel 2). Bovendien zijn de Debet- en Credit-kolommen structureel leeg — de tabellen tonen de rekeningnummers maar geen bedragen. Dit is acceptabel voor een advies dat de structuur illustreert, maar de inconsistentie in de 'aan'-plaatsing is een echte E2-issue."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -35,11 +35,19 @@ provenance:
       file_size_chars: 3514
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: "E2: de boekingstabellen zijn inconsistent opgebouwd. 'Aan'-rijen wisselen tussen twee patronen: soms '| aan | 440 Leveranciers |' (aan in cel 1) en soms '| | aan 55 Kredietinstellingen |' (aan samengevoegd in cel 2). Bovendien zijn de Debet- en Credit-kolommen structureel leeg — de tabellen tonen de rekeningnummers maar geen bedragen. Dit is acceptabel voor een advies dat de structuur illustreert, maar de inconsistentie in de 'aan'-plaatsing is een echte E2-issue."
+      concrete_problemen:
+        - regel: 67
+          categorie: E2
+          type: other
+          voorbeeld: '| aan | 440 Leveranciers | | | | vs. | | aan 55 Kredietinstellingen | | | |'
+        - regel: 74
+          categorie: E2
+          type: other
+          voorbeeld: '| | aan 55 Kredietinstellingen | | | | (inconsistent met L67-patroon)'
 ---
 
 # CBN-advies 132/6 - Vooruitbetalingen

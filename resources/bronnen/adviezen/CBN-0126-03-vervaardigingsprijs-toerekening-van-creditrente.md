@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: twee regels (65 en 71) bevatten malgevormde italic-opmaak waarbij de sluitende asterisk wordt voorafgegaan door een spatie ('*Wijziging in de voorraad... *, zonder' en '*Wijziging in de bestellingen in uitvoering *(717)') — in CommonMark sluit dit de italic niet. De gebruikte termen zijn boekhoudkundige rubrieksnamen die italics verdienen, maar de opmaak is fout. Eén voetnoot correct. Rest inhoudelijk volledig."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,19 @@ provenance:
       file_size_chars: 4208
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: "D4: twee regels (65 en 71) bevatten malgevormde italic-opmaak waarbij de sluitende asterisk wordt voorafgegaan door een spatie ('*Wijziging in de voorraad... *, zonder' en '*Wijziging in de bestellingen in uitvoering *(717)') — in CommonMark sluit dit de italic niet. De gebruikte termen zijn boekhoudkundige rubrieksnamen die italics verdienen, maar de opmaak is fout. Eén voetnoot correct. Rest inhoudelijk volledig."
+      concrete_problemen:
+        - regel: 65
+          categorie: D4
+          type: other
+          voorbeeld: via de rubriek *Wijziging in de voorraad goederen in bewerking en gereed produkt...*, zonder
+        - regel: 71
+          categorie: D4
+          type: other
+          voorbeeld: via de rekening *Wijziging in de bestellingen in uitvoering *(717)
 gerelateerde_adviezen:
   - titel: 'Verenigingen en Stichtingen: roerende voorheffing'
     url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Regel 53: '***Voorbeeld***' gebruikt drievoudige asterisk (bold+italic gecombineerd) terwijl regel 66 hetzelfde patroon herhaalt. Dit is een inconsistentie tov de andere adviezen die '*Voorbeeld*' of '*Voorbeeld' gebruiken (D4/stijl-inconsistentie). Anderzijds is dit een zeer kort advies (2042 chars) met slechts twee headings en één tabel — laag 1 meldt heading_count 2 wat klopt. Voetnoot [^1] is gedefinieerd maar er is geen [^1]-referentie in de body (de footnote is een redactionele noot over de publieke consultatie, wat in orde is). Toch wijst het triple-asterisk patroon op een ETL-stijlinconsistentie ten opzichte van de rest van de batch."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -37,11 +37,19 @@ provenance:
       file_size_chars: 2042
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:18Z'
+      rationale: "Regel 53: '***Voorbeeld***' gebruikt drievoudige asterisk (bold+italic gecombineerd) terwijl regel 66 hetzelfde patroon herhaalt. Dit is een inconsistentie tov de andere adviezen die '*Voorbeeld*' of '*Voorbeeld' gebruiken (D4/stijl-inconsistentie). Anderzijds is dit een zeer kort advies (2042 chars) met slechts twee headings en één tabel — laag 1 meldt heading_count 2 wat klopt. Voetnoot [^1] is gedefinieerd maar er is geen [^1]-referentie in de body (de footnote is een redactionele noot over de publieke consultatie, wat in orde is). Toch wijst het triple-asterisk patroon op een ETL-stijlinconsistentie ten opzichte van de rest van de batch."
+      concrete_problemen:
+        - regel: 53
+          categorie: D4
+          type: other
+          voorbeeld: '***Voorbeeld***'
+        - regel: 66
+          categorie: D4
+          type: other
+          voorbeeld: '***Voorbeeld***'
 ---
 
 # CBN-advies 2011/4 - Boekhoudkundige verwerking van levering/ontvangst van handelsgoederen om niet (update)

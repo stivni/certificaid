@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B3: twee opeenvolgende #-level headings op regels 60–62 ('# CBN-advies 2015/8 ...1' en '# Advies 30 september 2015') zijn duplicate body-titels, typisch scrape-artefact. Tevens eindigt de eerste H1 op een literal '1' (voetnoot niet geparsed als [^1]). D4: regel 83 bevat 'Onroerende goederen bestemd voor verkoop *' met spatie voor sluitende `*` (malformed italic)."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -37,11 +37,23 @@ provenance:
       file_size_chars: 12648
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "B3: twee opeenvolgende #-level headings op regels 60–62 ('# CBN-advies 2015/8 ...1' en '# Advies 30 september 2015') zijn duplicate body-titels, typisch scrape-artefact. Tevens eindigt de eerste H1 op een literal '1' (voetnoot niet geparsed als [^1]). D4: regel 83 bevat 'Onroerende goederen bestemd voor verkoop *' met spatie voor sluitende `*` (malformed italic)."
+      concrete_problemen:
+        - regel: 60
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN-advies 2015/8 Boekhoudkundige verwerking...bestemd voor verkoop1'
+        - regel: 62
+          categorie: B3
+          type: other
+          voorbeeld: '# Advies 30 september 2015'
+        - regel: 83
+          categorie: D4
+          type: other
+          voorbeeld: post *Onroerende goederen bestemd voor verkoop *is dus niet toegestaan
 gerelateerde_adviezen:
   - titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0

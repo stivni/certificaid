@@ -31,10 +31,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Regel 69: 'artikel 107, 4° KB W.Venn.' staat als plain text na de H1-titel maar vóór de eerste ## heading — dit is een losse sub-titelregel die als heading had moeten worden opgenomen of als inleiding-alinea, niet als zweefzin (B5/B1-patroon). Inhoud en vijf headings zijn overigens correct en volledig."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -44,11 +44,15 @@ provenance:
       file_size_chars: 5740
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:18Z'
+      rationale: "Regel 69: 'artikel 107, 4° KB W.Venn.' staat als plain text na de H1-titel maar vóór de eerste ## heading — dit is een losse sub-titelregel die als heading had moeten worden opgenomen of als inleiding-alinea, niet als zweefzin (B5/B1-patroon). Inhoud en vijf headings zijn overigens correct en volledig."
+      concrete_problemen:
+        - regel: 69
+          categorie: B5
+          type: other
+          voorbeeld: artikel 107, 4° KB W.Venn.
 gerelateerde_adviezen:
   - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
     url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders

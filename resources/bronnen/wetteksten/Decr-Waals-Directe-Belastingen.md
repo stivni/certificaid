@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:43:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B5: 'Artikel 1' op regel 74 staat als plain-text paragraaf zonder heading-prefix; alle volgende artikelen zijn correct als ##### Art. X opgenomen maar de heading-injectie splitst het eerste woord van de articelinhoud mee in het heading-label (bv. '##### Art. 2.De', '##### Art. 3.De'). D1: Meerdere art.-headings bevatten de eerste woorden van de body-zin als onderdeel van de heading-tekst, waardoor de zin mid-woord begint na de heading. Decreet inhoudelijk compleet (139 artikelen) — structurele ETL-fix vereist."
     layer1:
       status: warn
       run_id: 20260509-212552
@@ -37,19 +37,26 @@ provenance:
           samples: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: Decreet inhoudelijk compleet (139 artikelen), maar heading-injectie produceert artefacten zoals '##### Art. 2.De' (split tussen art-nummer en eerste woord van body). Eerste 'Artikel 1' staat als plain text i.p.v. heading. Gemixed pattern remains across body. Warn op max_section_size suggereert chunks die te groot worden door deze inconsistentie.
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:43:15Z'
+      rationale: "B5: 'Artikel 1' op regel 74 staat als plain-text paragraaf zonder heading-prefix; alle volgende artikelen zijn correct als ##### Art. X opgenomen maar de heading-injectie splitst het eerste woord van de articelinhoud mee in het heading-label (bv. '##### Art. 2.De', '##### Art. 3.De'). D1: Meerdere art.-headings bevatten de eerste woorden van de body-zin als onderdeel van de heading-tekst, waardoor de zin mid-woord begint na de heading. Decreet inhoudelijk compleet (139 artikelen) — structurele ETL-fix vereist."
       concrete_problemen:
-        - regel: 49
+        - regel: 74
+          categorie: B5
           type: other
-          voorbeeld: Artikel 1.[1 Dit decreet ... — 'Artikel 1' staat als plain paragraph, geen heading
-        - regel: 52
+          voorbeeld: 'Artikel 1.[1 Dit decreet is van toepassing... — geen ## of ##### prefix'
+        - regel: 77
+          categorie: B1
           type: other
-          voorbeeld: "##### Art. 2.De / Regering wijst — newline-split tussen 'De' en 'Regering'"
-        - regel: 45
+          voorbeeld: "##### Art. 2.De — 'De' hoort bij de zin, niet bij de heading-tekst"
+        - regel: 229
+          categorie: B1
           type: other
-          voorbeeld: "'2 de wijzigingen aangebracht bij DWG ... maken deel van een herstructurering van het huidig HOOFDSTUK II' staat in body terwijl '## HOOFDSTUK I' direct daarna komt — TOC-residu"
+          voorbeeld: "##### Art. 13.Indien — 'Indien' is begin body-zin, niet heading-tekst"
+        - regel: 67
+          categorie: A3
+          type: other
+          voorbeeld: "Nota's : 1 in wat betreft de wijzigingen aangebracht bij DWG 2009-12-10/27... — TOC-nota's als plain text vóór HOOFDSTUK I"
 chunk:
   level: 5
   type: Art.

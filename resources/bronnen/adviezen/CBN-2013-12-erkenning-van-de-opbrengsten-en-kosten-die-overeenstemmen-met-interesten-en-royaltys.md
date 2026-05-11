@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 8 headings met correcte hiërarchie (H1, H2, H3). Footnotes [^1]–[^18] aanwezig en gedefinieerd. Voetnoot [^4] is inhoudelijk zeer lang maar dit is de letterlijke tekst van art. 73 KB W.Venn. — geen artefact. Geen extractiesporen.
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,10 +36,10 @@ provenance:
       file_size_chars: 13058
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: 8 headings met correcte hiërarchie (H1, H2, H3). Footnotes [^1]–[^18] aanwezig en gedefinieerd. Voetnoot [^4] is inhoudelijk zeer lang maar dit is de letterlijke tekst van art. 73 KB W.Venn. — geen artefact. Geen extractiesporen.
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van geactiveerde intercalaire interesten

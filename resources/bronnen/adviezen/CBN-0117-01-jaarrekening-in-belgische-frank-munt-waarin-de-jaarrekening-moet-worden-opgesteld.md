@@ -26,10 +26,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Advies van 3068 chars, drie alinea's + drie voetnoten. Geen extractie-artefacten. Voetnoten [^1]–[^3] correct gekoppeld. Geen italic-problemen, geen broken bullets, geen unicode-anomalieën. Inhoud volledig en coherent.
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -39,10 +39,10 @@ provenance:
       file_size_chars: 3068
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: Advies van 3068 chars, drie alinea's + drie voetnoten. Geen extractie-artefacten. Voetnoten [^1]–[^3] correct gekoppeld. Geen italic-problemen, geen broken bullets, geen unicode-anomalieën. Inhoud volledig en coherent.
       concrete_problemen: []
 gerelateerde_adviezen:
   - titel: Munt waarin de boekhouding moet worden gevoerd en de jaarrekening opgesteld De commissie heeft reeds uiteengezet waarom de vennotschappen naar Belgisch recht hun jaarrekening verplicht in Belgische franken moeten opstellen en openbaar maken. (1) Nu is

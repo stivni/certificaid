@@ -39,10 +39,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:24:33Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B2: de 'Voorbeeld'-headings (## Voorbeeld 1/2/3 op regels 195, 209, 219) vallen midden in een ### sectie en zijn zelf op ##-niveau — hiërarchiefout. De pijl-notatie '-> X is...' (regels 201-231) is pseudo-indentatie met spaties die als plaintext staat maar structuurlabels zijn (C3). 25 footnotes correct. Inhoud volledig."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -52,11 +52,23 @@ provenance:
       file_size_chars: 31322
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:24:33Z'
+      rationale: "B2: de 'Voorbeeld'-headings (## Voorbeeld 1/2/3 op regels 195, 209, 219) vallen midden in een ### sectie en zijn zelf op ##-niveau — hiërarchiefout. De pijl-notatie '-> X is...' (regels 201-231) is pseudo-indentatie met spaties die als plaintext staat maar structuurlabels zijn (C3). 25 footnotes correct. Inhoud volledig."
+      concrete_problemen:
+        - regel: 195
+          categorie: B2
+          type: other
+          voorbeeld: "### Toepassingsgebied\n...\n## Voorbeeld 1  (sprong van ### naar ## is onjuist)"
+        - regel: 201
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: "   -> X is een kleine vennootschap.\n\n   -> X is een microvennootschap.  (spatie-indent als structuur)"
+        - regel: 336
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '   > Meer dan één van de criteria wordt op de balansdatum overschreden (spatie-indent)'
 gerelateerde_adviezen:
   - titel: Groottecriteria verenigingen en stichtingen - schema van de jaarrekening – begroting (update) [ONTWERP]
     url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting-update

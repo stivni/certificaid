@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:57Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A2: 24 TOC-stippenregels verspreid door de body (bijv. regel 88: 'te verzekeren ....................................................... 81') — onverwijderd TOC-residu. A3: het TOC-blok (regels 86–138) staat niet apart maar is direct gevolgd door de eigenlijke wettekst zonder scheiding, waardoor TOC en body door elkaar lopen. C3: tarief-tabellen (regels 993–998, 1017–1021) zijn als aaneengesloten platte tekst geëxtraheerd i.p.v. markdown-tabellen — zware pseudo-tabel en kolom-bleed (A8). B4: 'Eerste afdeling - ...' komt als plain-text voor in de body (regels 613, 977, 1002, 1737, …) i.p.v. #### heading. Dubbele koppen door TOEKOMSTIG RECHT-constructie (bijv. HOOFDSTUK VI op regels 975 en 1000, Art. 17 op regels 331 en 342)."
     layer1:
       status: warn
       run_id: 20260509-212552
@@ -50,14 +50,38 @@ provenance:
             - 'regel 1514: Tabel met betrekking tot het preferentiele tarief voor de netto-aandelen in woningen Schijf van het netto-aandeel       '
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: Zelfde driedubbele titel-herhaling als Brussel, 24 TOC-stippen, 2 kolom-bleed-patronen, max-section 57k. 73 '(…)'-placeholders.
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:57Z'
+      rationale: "A2: 24 TOC-stippenregels verspreid door de body (bijv. regel 88: 'te verzekeren ....................................................... 81') — onverwijderd TOC-residu. A3: het TOC-blok (regels 86–138) staat niet apart maar is direct gevolgd door de eigenlijke wettekst zonder scheiding, waardoor TOC en body door elkaar lopen. C3: tarief-tabellen (regels 993–998, 1017–1021) zijn als aaneengesloten platte tekst geëxtraheerd i.p.v. markdown-tabellen — zware pseudo-tabel en kolom-bleed (A8). B4: 'Eerste afdeling - ...' komt als plain-text voor in de body (regels 613, 977, 1002, 1737, …) i.p.v. #### heading. Dubbele koppen door TOEKOMSTIG RECHT-constructie (bijv. HOOFDSTUK VI op regels 975 en 1000, Art. 17 op regels 331 en 342)."
       concrete_problemen:
-        - 3x herhaalde titel
-        - 24 TOC-stippen-regels
-        - 2 kolom-bleed buiten tabellen
-        - max_section_size 57678 chars
+        - regel: 67
+          categorie: A1
+          type: other
+          voorbeeld: WETBOEK DER SUCCESSIERECHTEN\n\nWAALS GEWEST\n\nWETBOEK DER SUCCESSIERECHTEN (drievoudige titelrepetitie)
+        - regel: 88
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: te verzekeren ....................................................... 81
+        - regel: 90
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: '### HOOFDSTUK XII - Bewijsmiddelen .............................................................................................  95'
+        - regel: 613
+          categorie: B4
+          type: other
+          voorbeeld: Eerste afdeling - Verplichting tot aangifte
+        - regel: 975
+          categorie: B3
+          type: other
+          voorbeeld: '### HOOFDSTUK VI - Tarief der rechten (duplicaat op regel 1000)'
+        - regel: 993
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: Gedeelte van het netto-aandeel                            Rechte lijn - tussen echtgenoten...
+        - regel: 993
+          categorie: A8
+          type: column-bleed
+          voorbeeld: 0,01 EUR                      12.500,00 EUR               3%               - 12.500,01 EUR...
 chunk:
   level: 5
   type: Art.

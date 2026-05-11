@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:57Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A1: 112 keer een pagina-header '02013L0034 — NL — 28.05.2024 — 006.001 — N' verspreid door de body (elke ca. 35-40 regels een nieuwe). G2/A1: EUR-Lex wijzigings-markers (▼B, ▼M1-▼M6, ►B, ►M) staan als losse regels in de body — 169 keer ▼-markers en 11 keer ►-markers; dit zijn EUR-Lex-formaat-artefacten. Tail van het bestand (concordantietabel r.4180+) bevat lege ### Art. N headings gevolgd door alleen '—' — dit is tabelinhoud die als losse headings gerenderd is (B1/E1). Artikelen 50/51 met echte inhoud zijn aanwezig (r.2145-2157). Het kerncorpus (Art. 1-49) is inhoudelijk intact maar sterk vervuild."
     layer1:
       status: warn
       run_id: 20260509-212552
@@ -37,13 +37,34 @@ provenance:
           samples: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Tail toont leeg ### Art. 50 / 50a / 51 / 55 met enkel ' — ' — late artikelen lijken inhoudelijk afgekapt. Daarnaast max-section >31k. Body-deel daarvoor lijkt intact, maar de eindartikelen ontbreken aan inhoud."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:57Z'
+      rationale: "A1: 112 keer een pagina-header '02013L0034 — NL — 28.05.2024 — 006.001 — N' verspreid door de body (elke ca. 35-40 regels een nieuwe). G2/A1: EUR-Lex wijzigings-markers (▼B, ▼M1-▼M6, ►B, ►M) staan als losse regels in de body — 169 keer ▼-markers en 11 keer ►-markers; dit zijn EUR-Lex-formaat-artefacten. Tail van het bestand (concordantietabel r.4180+) bevat lege ### Art. N headings gevolgd door alleen '—' — dit is tabelinhoud die als losse headings gerenderd is (B1/E1). Artikelen 50/51 met echte inhoud zijn aanwezig (r.2145-2157). Het kerncorpus (Art. 1-49) is inhoudelijk intact maar sterk vervuild."
       concrete_problemen:
-        - 'leeg ### Art. 50, 50a, 51, 55 (alleen em-dash placeholders)'
-        - mogelijke truncatie/extractie-fout op late artikelen
-        - max_section_size 31271 chars
+        - regel: 57
+          categorie: A1
+          type: form-feed
+          voorbeeld: 02013L0034 — NL — 28.05.2024 — 006.001 — 1
+        - regel: 60
+          categorie: G2
+          type: other
+          voorbeeld: ►B
+        - regel: 149
+          categorie: G2
+          type: other
+          voorbeeld: ▼M3
+        - regel: 4239
+          categorie: B1
+          type: other
+          voorbeeld: "### Art. 35\n\n—\n\nArtikel 37, lid 2"
+        - regel: 4357
+          categorie: B3
+          type: other
+          voorbeeld: "### Art. 48\n\n### Art. 51"
+        - regel: 393
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "### Art. 7\nAlternatieve\n\nwaarderingsgrondslag voor vaste geherwaardeerde bedragen\n\nactiva\n\ntegen"
 chunk:
   level: 3
   type: Art.

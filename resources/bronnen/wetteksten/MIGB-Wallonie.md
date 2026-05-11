@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:43:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B5: Zelfde patroon als MIGB-Brussel: bestand opent met '§ 1.' zonder Art. 1 heading op regel 53. B3: Duplicate heading op regels 179 en 181: '### HOOFDSTUK V - Bedrag der belasting of belastingvoet' staat twee keer achter elkaar. E1/A8: Tarieftabellen (Art. 9) als spatie-uitgelijnde pseudo-tabellen met kolommen door elkaar (MTM, luchtvering, andere ophanging, bedragen), niet als markdown pipe-tables. Inhoud overigens volledig en up-to-date (30.05.2025)."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,12 +38,26 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: 'Zelfde patroon als MIGB-Brussel: body opent zonder eerste Art.-heading; ook hier tariefblokken met kolom-bleed. 140 Art.-headings overigens consistent.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:43:15Z'
+      rationale: "B5: Zelfde patroon als MIGB-Brussel: bestand opent met '§ 1.' zonder Art. 1 heading op regel 53. B3: Duplicate heading op regels 179 en 181: '### HOOFDSTUK V - Bedrag der belasting of belastingvoet' staat twee keer achter elkaar. E1/A8: Tarieftabellen (Art. 9) als spatie-uitgelijnde pseudo-tabellen met kolommen door elkaar (MTM, luchtvering, andere ophanging, bedragen), niet als markdown pipe-tables. Inhoud overigens volledig en up-to-date (30.05.2025)."
       concrete_problemen:
-        - 'body start zonder #### Art. 1'
-        - kolom-bleed in tariefstabellen
+        - regel: 53
+          categorie: B5
+          type: other
+          voorbeeld: § 1. Onder stoom- of motorvoertuigen worden namelijk verstaan... — Art. 1 body zonder heading
+        - regel: 179
+          categorie: B3
+          type: other
+          voorbeeld: '### HOOFDSTUK V - Bedrag der belasting of belastingvoet — duplicate heading op regels 179 en 181'
+        - regel: 240
+          categorie: A8
+          type: column-bleed
+          voorbeeld: MTM uitgedrukt in kg MTM uitgedrukt in kg\n    Luchtvering of als Andere... — kolom-bleed in tarieftabel
+        - regel: 352
+          categorie: D1
+          type: other
+          voorbeeld: koninklijk besluit van 15 maart 1968 van het koninklijk besluit van 15 maart 1968 — dubbele verwijzing (waarschijnlijk nota-extractie fout)
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest

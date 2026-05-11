@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A6: Talrijke spurious line-breaks midden in zinnen — voetnootreferentie [^N] staat aan het eind van een regel, de zin loopt door op de volgende regel met een spatie-inspringing (bv. regel 62-63, 67-68, 101-102, 110-111). Dit is een PDF-extractie-artefact dat rendering breekt. Verder: regel 58 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment direct na de H1, zonder eigen heading of context. Inhoud en structuur zijn volledig; headings en tabellen zijn correct."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,27 @@ provenance:
       file_size_chars: 16225
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "A6: Talrijke spurious line-breaks midden in zinnen — voetnootreferentie [^N] staat aan het eind van een regel, de zin loopt door op de volgende regel met een spatie-inspringing (bv. regel 62-63, 67-68, 101-102, 110-111). Dit is een PDF-extractie-artefact dat rendering breekt. Verder: regel 58 bevat ', bijgewerkt op 10 september 2025[^2]' als los fragment direct na de H1, zonder eigen heading of context. Inhoud en structuur zijn volledig; headings en tabellen zijn correct."
+      concrete_problemen:
+        - regel: 58
+          categorie: A6
+          type: other
+          voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
+        - regel: 62
+          categorie: A6
+          type: other
+          voorbeeld: groottecriteria[^3]\n wanneer sprake is van een gezamenlijke controle
+        - regel: 67
+          categorie: A6
+          type: other
+          voorbeeld: geldt een wettelijk en onweerlegbaar vermoeden[^5]\n Bijgevolg zijn
+        - regel: 101
+          categorie: A6
+          type: other
+          voorbeeld: 'Aldus heeft de vennootschap A op geconsolideerde[^15]\n basis:'
 gerelateerde_adviezen:
   - titel: Verbonden ondernemingen
     url: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen

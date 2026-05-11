@@ -42,10 +42,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:24:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'A6/A7: op meerdere plaatsen (regels 383–388, 463–471, 572–578) staat een tabelcel met de tekst van het eigen vermogen afgebroken over meerdere afzonderlijke regels buiten de pipe-syntax (bv. `| *Eigen vermogen* |` gevolgd door een lege regel en dan `5.500` op een nieuwe regel). Dit is een kolom-extractie-artefact: de cel-inhoud is niet op één regel gebleven. Voorbeeld 5 (regels 630) bevat een pseudotabel-regel (`   7.500 Inbreng / Kapitaal 7.500`) als plain text. Voorbeeld 5 (regels 673–676, 702–704) heeft ook malformed bold/italic met inspringing (`20 % **+ 400**`). Voetnoten compleet, inhoud omvangrijk maar volledig.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -55,11 +55,27 @@ provenance:
       file_size_chars: 68246
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:24:34Z'
+      rationale: 'A6/A7: op meerdere plaatsen (regels 383–388, 463–471, 572–578) staat een tabelcel met de tekst van het eigen vermogen afgebroken over meerdere afzonderlijke regels buiten de pipe-syntax (bv. `| *Eigen vermogen* |` gevolgd door een lege regel en dan `5.500` op een nieuwe regel). Dit is een kolom-extractie-artefact: de cel-inhoud is niet op één regel gebleven. Voorbeeld 5 (regels 630) bevat een pseudotabel-regel (`   7.500 Inbreng / Kapitaal 7.500`) als plain text. Voorbeeld 5 (regels 673–676, 702–704) heeft ook malformed bold/italic met inspringing (`20 % **+ 400**`). Voetnoten compleet, inhoud omvangrijk maar volledig.'
+      concrete_problemen:
+        - regel: 383
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "| C |\n| Activum 1 | | 2.000 | | *Eigen vermogen* | |\n\n5.500\n\n  |"
+        - regel: 463
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "| C |\n| Activum 1 | | 2.000 | | *Eigen vermogen* | |\n\n8.500\n\n  |"
+        - regel: 630
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '   7.500 Inbreng / Kapitaal 7.500'
+        - regel: 675
+          categorie: D4
+          type: other
+          voorbeeld: 20 % **+ 400**) | | 560 |
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van splitsingen van vennootschappen – negatief fiscaal nettoactief – herwaarderingsmeerwaarde (addendum bij CBN-advies 2022/01 en 2022/12)
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen-negatief-fiscaal

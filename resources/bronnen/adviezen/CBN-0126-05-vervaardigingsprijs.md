@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:57:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B3: dubbele page-title-heading op regels 49 en 51 (klassiek duplicate-title-patroon). D1: document eindigt abrupt mid-zin ('Toepassing daarvan zou de vervaardigingsprijs trouwens') zonder conclusie — het advies is duidelijk ingekort of afgekapt bij de scrape. Deze twee problemen samen maken de bron onbetrouwbaar voor RAG."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -32,11 +32,19 @@ provenance:
       file_size_chars: 1154
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:57:45Z'
+      rationale: "B3: dubbele page-title-heading op regels 49 en 51 (klassiek duplicate-title-patroon). D1: document eindigt abrupt mid-zin ('Toepassing daarvan zou de vervaardigingsprijs trouwens') zonder conclusie — het advies is duidelijk ingekort of afgekapt bij de scrape. Deze twee problemen samen maken de bron onbetrouwbaar voor RAG."
+      concrete_problemen:
+        - regel: 49
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 126-5 - Vervaardigingsprijs (regel 49 en 51 identiek)'
+        - regel: 57
+          categorie: D1
+          type: abrupt-cutoff
+          voorbeeld: Toepassing daarvan zou de vervaardigingsprijs trouwens
 gerelateerde_adviezen:
   - titel: Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde opleidingscheques
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques

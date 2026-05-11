@@ -25,10 +25,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B3: duplicate H1-heading op regels 55 en 57 — exact dezelfde titel tweemaal, wat een typisch scraper-duplicaat is. Bovendien gebruikt de heading-label een koppelteken als scheidingsteken ('137-1') i.p.v. de standaard schuine streep ('137/1') die wel in het frontmatter-veld nummer staat."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -38,11 +38,15 @@ provenance:
       file_size_chars: 2198
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: "B3: duplicate H1-heading op regels 55 en 57 — exact dezelfde titel tweemaal, wat een typisch scraper-duplicaat is. Bovendien gebruikt de heading-label een koppelteken als scheidingsteken ('137-1') i.p.v. de standaard schuine streep ('137/1') die wel in het frontmatter-veld nummer staat."
+      concrete_problemen:
+        - regel: 57
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 137-1 - Klassering van de vorderingen bij faillissement van de schuldenaar '
 gerelateerde_adviezen:
   - titel: Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
     url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1

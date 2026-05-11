@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T11:51:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Alle drie artikelen zijn correct als ## headings gemarkeerd. De preamble-tekst op regels 54–69 is aaneengesmolten maar dat is marginaal (de afwijking tussen alinea-scheiding in preamble tegenover de nette artikel-structuur is acceptabel voor een Belgisch MB van dit type). De inhoud bevat de relevante juridische context (opheffingsbesluit KB 22 juni 2020), de drie artikelen zijn volledig en de frontmatter klopt. Geen A-artefacten, geen B-bugs in de eigenlijke artikelen.'
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -37,14 +37,15 @@ provenance:
       file_size_chars: 2550
       flags: []
     layer2:
-      status: needs-rework
-      agent:
-      run_at:
-      rationale: '0 ##-headings; chunk.level=2 mismatch.'
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:18Z'
+      rationale: 'Alle drie artikelen zijn correct als ## headings gemarkeerd. De preamble-tekst op regels 54–69 is aaneengesmolten maar dat is marginaal (de afwijking tussen alinea-scheiding in preamble tegenover de nette artikel-structuur is acceptabel voor een Belgisch MB van dit type). De inhoud bevat de relevante juridische context (opheffingsbesluit KB 22 juni 2020), de drie artikelen zijn volledig en de frontmatter klopt. Geen A-artefacten, geen B-bugs in de eigenlijke artikelen.'
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: Artikel 1-3 zonder heading
+        - regel: 54
+          categorie: A6
+          type: other
+          voorbeeld: Ministerieel besluit, van 26 februari 2007, met betrekking tot de aanduiding van\nde dienst bevoegd... (preamble niet in alinea's gesplitst)
 ---
 
 # M.B. van 26 februari 2007, met betrekking tot de aanduiding van de dienst bevoegd voor het ontvangen van de berichten en het afleveren van de ontvangstmeldingen in het kader van het systeem van elektronische notificaties tussen de FOD Financiën en bepaalde ministeriële officieren, openbare ambtenaren en andere personen

@@ -22,10 +22,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Twee concrete problemen: (1) Regel 395 bevat een losstaande voetnootverwijzing ' [^8]' als hele alinea, zonder voorafgaande zin — dit is een inline-footnote-artefact (G3/D3) waarbij de voetnootinhoud in de body belandde zonder contextzin. (2) Regel 301 bevat een typfout in de tabel ('Materiële vaste avtiva' ipv 'activa'), wat waarschijnlijk een OCR-letterverwarring of kopieer-fout uit de bron is (A9). Verder is het bestand kwalitatief goed: 21 headings correct genest, alle voetnoten [^1]–[^9] aanwezig, tabellen in pipe-syntax."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -35,11 +35,19 @@ provenance:
       file_size_chars: 24414
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "Twee concrete problemen: (1) Regel 395 bevat een losstaande voetnootverwijzing ' [^8]' als hele alinea, zonder voorafgaande zin — dit is een inline-footnote-artefact (G3/D3) waarbij de voetnootinhoud in de body belandde zonder contextzin. (2) Regel 301 bevat een typfout in de tabel ('Materiële vaste avtiva' ipv 'activa'), wat waarschijnlijk een OCR-letterverwarring of kopieer-fout uit de bron is (A9). Verder is het bestand kwalitatief goed: 21 headings correct genest, alle voetnoten [^1]–[^9] aanwezig, tabellen in pipe-syntax."
+      concrete_problemen:
+        - regel: 395
+          categorie: G3
+          type: other
+          voorbeeld: ' [^8]'
+        - regel: 301
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: Materiële vaste avtiva
 ---
 
 # CBN-advies 2016/7 – Verwerving van een bedrijfstak tegen een symbolische euro

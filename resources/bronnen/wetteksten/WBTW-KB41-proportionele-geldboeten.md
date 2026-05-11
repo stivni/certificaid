@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A1: pagina-scheidingsresten aanwezig op regels 117, 171, 240, 312, 385, 458, 529 als 'Proportionele fiscale geldboeten              www.fisconetplus.be                            Bijlage pg. N' — leesbaar als kop-/voetregel die niet is verwijderd. C3/A8: de bijlage-tabellen zijn gerenderd als pseudo-tabellen met spatie-uitlijning (3+ spaties als kolom-separator) in plaats van markdown-pipe-syntax. De heading-hiërarchie wisselt onlogisch tussen ### (Art.) en ## (Afdeling in bijlage), wat de indruk wekt van inconsistente extractie. Laag-1 meldt max_section_size 73k >> 24k; één sectie bevat alle tabellen ongesplitst."
     layer1:
       status: warn
       run_id: 20260509-212552
@@ -42,13 +42,38 @@ provenance:
           samples: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: '73k chars met 12 ##-headings; max-sectie 73k >> 24k → één sectie bevat de hele tabellenstructuur. Inhoud lijkt compleet maar tabel-secties (Tabel C, G, etc.) zijn niet gesplit.'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "A1: pagina-scheidingsresten aanwezig op regels 117, 171, 240, 312, 385, 458, 529 als 'Proportionele fiscale geldboeten              www.fisconetplus.be                            Bijlage pg. N' — leesbaar als kop-/voetregel die niet is verwijderd. C3/A8: de bijlage-tabellen zijn gerenderd als pseudo-tabellen met spatie-uitlijning (3+ spaties als kolom-separator) in plaats van markdown-pipe-syntax. De heading-hiërarchie wisselt onlogisch tussen ### (Art.) en ## (Afdeling in bijlage), wat de indruk wekt van inconsistente extractie. Laag-1 meldt max_section_size 73k >> 24k; één sectie bevat alle tabellen ongesplitst."
       concrete_problemen:
+        - regel: 117
+          categorie: A1
+          type: form-feed
+          voorbeeld: Proportionele fiscale geldboeten              www.fisconetplus.be                            Bijlage pg. 1
+        - regel: 171
+          categorie: A1
+          type: form-feed
+          voorbeeld: Proportionele fiscale geldboeten             www.fisconetplus.be                       Bijlage pg. 2
+        - regel: 240
+          categorie: A1
+          type: form-feed
+          voorbeeld: Proportionele fiscale geldboeten            www.fisconetplus.be                          Bijlage pg. 1
+        - regel: 312
+          categorie: A1
+          type: form-feed
+          voorbeeld: Proportionele fiscale geldboeten             www.fisconetplus.be                          Bijlage pg. 2
+        - regel: 385
+          categorie: A1
+          type: form-feed
+          voorbeeld: Proportionele fiscale geldboeten          www.fisconetplus.be                                Bijlage pg. 3
+        - regel: 192
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: A)     belasting  en     voorschotten     waarvan     de    per maand vertraging (1), een
         - regel: 0
-          type: other
-          voorbeeld: 'max_section_size 73284 chars op ###-niveau'
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: Bijlage-tabellen als spatie-uitgelijnde kolommen, niet als markdown-pipe-tabellen
 ---
 
 # K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde

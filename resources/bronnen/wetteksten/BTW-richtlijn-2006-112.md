@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:43:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A1/A2: Lange inhoudstafel (regels 60-386) met dotted leaders is als ## / ### / #### / ##### headings in de body opgenomen, waardoor de TOC verdubbelt met de echte body-secties. A1: Pagina-footers 'NL', 'Publicatieblad van de Europese Unie' en 'L 347/x' staan als losse regels verspreid door de body (226 NL/L347-regels geteld). B2: Hiërarchiesprong: body-artikelen starten op ###### terwijl TITEL op ### staat. Inhoud is overigens volledig en leesbaar NL."
     layer1:
       status: warn
       run_id: 20260509-212552
@@ -37,16 +37,26 @@ provenance:
           samples: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "Lange TOC vooraan (regel 38-260+) met dotted leaders waarvan veel hoofdstuk-headings als ## zijn opgenomen, dat verdubbelt de TOC met de echte body-headings die later komen — RAG-hits op TOC zijn ruis. Body zelf is leesbaar NL, met page-footers (L 347/x) en losstaande 'NL' regels. Warn op max_section_size suggereert grote secties, maar de echte structuur (TITEL/HOOFDSTUK/Art.) is grotendeels intact in de body. Wegwerken van TOC zou dit naar trusted brengen."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:43:15Z'
+      rationale: "A1/A2: Lange inhoudstafel (regels 60-386) met dotted leaders is als ## / ### / #### / ##### headings in de body opgenomen, waardoor de TOC verdubbelt met de echte body-secties. A1: Pagina-footers 'NL', 'Publicatieblad van de Europese Unie' en 'L 347/x' staan als losse regels verspreid door de body (226 NL/L347-regels geteld). B2: Hiërarchiesprong: body-artikelen starten op ###### terwijl TITEL op ### staat. Inhoud is overigens volledig en leesbaar NL."
       concrete_problemen:
-        - regel: 39
+        - regel: 61
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: '### TITEL I - VOORWERP EN TOEPASSINGSGEBIED . . . . . . . . . . . . . . .'
+        - regel: 99
+          categorie: A1
+          type: form-feed
+          voorbeeld: "L 347/6\n\nNL\n\nPublicatieblad van de Europese Unie"
+        - regel: 387
+          categorie: A3
           type: other
-          voorbeeld: '### TITEL I - VOORWERP EN TOEPASSINGSGEBIED . . . . . . . . . . . — TOC-heading dupliceert body-heading'
-        - regel: 76
+          voorbeeld: iii) — los tekstfragment tussen TOC en body (concordantietabel-residu)
+        - regel: 392
+          categorie: B2
           type: other
-          voorbeeld: L 347/6 / NL als losse paginafooter-regels in body
+          voorbeeld: '### TITEL I (body) → ###### Art. 1: sprong van ### naar ###### zonder tussenniveaus'
 chunk:
   level: 6
   type: Art.

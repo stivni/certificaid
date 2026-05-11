@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:09:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A3: regel 82 bevat een duplicate TOC als aaneengesloten plain-text-blob ('-- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase...') — dit is een tweede inhoudstafel die verspreid in de body terechtkwam na extractie. De genummerde TOC bovenaan (regels 58-81) is correct; dit tweede blok had verwijderd moeten worden."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,15 @@ provenance:
       file_size_chars: 30963
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:09:18Z'
+      rationale: "A3: regel 82 bevat een duplicate TOC als aaneengesloten plain-text-blob ('-- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase...') — dit is een tweede inhoudstafel die verspreid in de body terechtkwam na extractie. De genummerde TOC bovenaan (regels 58-81) is correct; dit tweede blok had verwijderd moeten worden."
+      concrete_problemen:
+        - regel: 82
+          categorie: A3
+          type: other
+          voorbeeld: -- Toepassingsvoorwaarden-- Fiscaal voordeel-- Procedure---- Eerste fase---- Tweede faseBoekhoudkundige verwerking...
 gerelateerde_adviezen:
   - titel: Tax shelter voor podiumkunsten
     url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten

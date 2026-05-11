@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "G1/G2: in de frontmatter-sectie gerelateerde_adviezen staat op r44 een ongeparseerde HTML-entity: 'Het begrip &quot;financiële instelling&quot;' — de scraper heeft de HTML-entities niet gedecodeerd. Dit is een frontmatter-kwaliteitsdefect dat voor downstream YAML-parsing problemen kan geven. Verder: A4: 7 gevallen U+2010 HYPHEN in r49 en r55 (titels van instellingen zoals 'Spaar‐ en Lijfrentekas'). Spelfout 'valln' (r55). Geen duplicate headings."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -32,11 +32,23 @@ provenance:
       file_size_chars: 1668
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:19Z'
+      rationale: "G1/G2: in de frontmatter-sectie gerelateerde_adviezen staat op r44 een ongeparseerde HTML-entity: 'Het begrip &quot;financiële instelling&quot;' — de scraper heeft de HTML-entities niet gedecodeerd. Dit is een frontmatter-kwaliteitsdefect dat voor downstream YAML-parsing problemen kan geven. Verder: A4: 7 gevallen U+2010 HYPHEN in r49 en r55 (titels van instellingen zoals 'Spaar‐ en Lijfrentekas'). Spelfout 'valln' (r55). Geen duplicate headings."
+      concrete_problemen:
+        - regel: 44
+          categorie: G2
+          type: other
+          voorbeeld: 'titel: Het begrip &quot;financiële instelling&quot;'
+        - regel: 55
+          categorie: D1
+          type: other
+          voorbeeld: de ondernemingen die onder toepassing valln van het koninklijk besluit
+        - regel: 49
+          categorie: A4
+          type: other
+          voorbeeld: financiële instellingen ‐ Kredietinstellingen die onder de toepassing
 gerelateerde_adviezen:
   - titel: Coördinatiecentrum - Financiële instelling
     url: https://www.cbn-cnc.be/nl/adviezen/coordinatiecentrum-financiele-instelling

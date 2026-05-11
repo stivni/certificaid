@@ -20,10 +20,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: tabelrij op regel 193–194 is gesplitst over twee regels ('Wettelijke reserve – artikel 184quater WIB 92\\n (31/12/N)'), waardoor de pipe-tabel syntactisch breekt en één cel verdeeld is over twee regels. Verder is de inhoud volledig en geen andere artefacten zichtbaar."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -33,11 +33,15 @@ provenance:
       file_size_chars: 13799
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "E2: tabelrij op regel 193–194 is gesplitst over twee regels ('Wettelijke reserve – artikel 184quater WIB 92\\n (31/12/N)'), waardoor de pipe-tabel syntactisch breekt en één cel verdeeld is over twee regels. Verder is de inhoud volledig en geen andere artefacten zichtbaar."
+      concrete_problemen:
+        - regel: 193
+          categorie: E2
+          type: other
+          voorbeeld: '| aan | 130X | Wettelijke reserve – artikel 184quater WIB 92\n (31/12/N) | | 40 |'
 ---
 
 # CBN-advies 2015/2 - Boekhoudkundige verwerking van de liquidatiereserve (Programmawet van 19 december 2014) en de afzonderlijke aanslag op deze liquidatiereserve

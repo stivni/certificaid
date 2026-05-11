@@ -25,10 +25,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: meerdere malformed italic-markers met spatie vóór sluit-asterisk op regels 93, 126 en 89 ('489X *Ontvangen voorschotten op kapitaal *', '*Boeking bij de betaalbaarstelling[^8] *'). Dit is het bekende '*term *'-patroon. De inhoud is volledig en de tabellen zijn correct."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -38,11 +38,23 @@ provenance:
       file_size_chars: 16912
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "D4: meerdere malformed italic-markers met spatie vóór sluit-asterisk op regels 93, 126 en 89 ('489X *Ontvangen voorschotten op kapitaal *', '*Boeking bij de betaalbaarstelling[^8] *'). Dit is het bekende '*term *'-patroon. De inhoud is volledig en de tabellen zijn correct."
+      concrete_problemen:
+        - regel: 93
+          categorie: D4
+          type: other
+          voorbeeld: 489X *Ontvangen voorschotten op kapitaal *plaatsvinden.
+        - regel: 126
+          categorie: D4
+          type: other
+          voorbeeld: '*Boeking bij de betaalbaarstelling[^8] *'
+        - regel: 89
+          categorie: D4
+          type: other
+          voorbeeld: 489X O*ntvangen voorschotten op kapitaal* (open-asterisk zonder spatie voor 'n')
 gerelateerde_adviezen:
   - titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen

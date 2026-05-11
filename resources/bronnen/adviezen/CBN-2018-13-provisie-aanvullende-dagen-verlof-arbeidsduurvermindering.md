@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D4: drie gevallen van malformed italic op regels 66 en 68 ('die* in vast dienstverband[^4] *', '*Te ontvangen facturen. *') waarbij de spatie vóór de sluitende asterisk staat. Regel 66 heeft ook een asterisk vóór de tekst (opens middenin een zin). Verder inhoud structureel compleet en correct."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -37,11 +37,19 @@ provenance:
       file_size_chars: 5162
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: "D4: drie gevallen van malformed italic op regels 66 en 68 ('die* in vast dienstverband[^4] *', '*Te ontvangen facturen. *') waarbij de spatie vóór de sluitende asterisk staat. Regel 66 heeft ook een asterisk vóór de tekst (opens middenin een zin). Verder inhoud structureel compleet en correct."
+      concrete_problemen:
+        - regel: 66
+          categorie: D4
+          type: other
+          voorbeeld: Voor werknemers die* in vast dienstverband[^4] * werken
+        - regel: 68
+          categorie: D4
+          type: other
+          voorbeeld: rekening 444 *Te ontvangen facturen. *
 ---
 
 # CBN-advies 2018/13 – Provisie aanvullende dagen verlof – Arbeidsduurvermindering

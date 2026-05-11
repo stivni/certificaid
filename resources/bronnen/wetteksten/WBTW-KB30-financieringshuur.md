@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:46:29Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Drie problemen: (1) B4: 'KB nr. 30 - Lijst van de bijwerkingen' (regel 104) staat als plain text in plaats van als ##-heading. (2) C3/E1: de bijwerking-tabel op regels 106-108 gebruikt space-alignment ('Bijw. 01 / 01.01.2012   30.12.2011   Volledige uitgave') in plaats van markdown pipe-syntax. (3) A6: leading spaces in Art. 1-body (regels 63-66). De 4 artikelen zelf zijn correct als ##-headings aanwezig; inhoud is volledig voor dit korte KB."
     layer1:
       status: pass
       run_id: 20260509-212552
@@ -38,16 +38,26 @@ provenance:
       flags: []
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: 'Klein bestand (3.2k) maar inhoud bestaat hoofdzakelijk uit bijwerkingen-lijst — of de eigenlijke Artikelen ontbreken, of ze zijn grotendeels niet geëxtraheerd. Geen ##-structuur. Verdient nakijken: is dit alle content?'
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:46:29Z'
+      rationale: "Drie problemen: (1) B4: 'KB nr. 30 - Lijst van de bijwerkingen' (regel 104) staat als plain text in plaats van als ##-heading. (2) C3/E1: de bijwerking-tabel op regels 106-108 gebruikt space-alignment ('Bijw. 01 / 01.01.2012   30.12.2011   Volledige uitgave') in plaats van markdown pipe-syntax. (3) A6: leading spaces in Art. 1-body (regels 63-66). De 4 artikelen zelf zijn correct als ##-headings aanwezig; inhoud is volledig voor dit korte KB."
       concrete_problemen:
-        - regel: 0
-          type: missing-section
-          voorbeeld: '0 ##-headings; einde toont alleen bijwerkingenlijst'
-        - regel: 0
-          type: abrupt-cutoff
-          voorbeeld: Mogelijk afgekapte body — slechts 3245 chars voor een KB
+        - regel: 104
+          categorie: B4
+          type: other
+          voorbeeld: KB nr. 30 - Lijst van de bijwerkingen
+        - regel: 106
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: "       Bijwerking       t.e.m. B.S. van                       Te vervangen pagina's"
+        - regel: 108
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: Bijw. 01 / 01.01.2012     30.12.2011      Volledige uitgave
+        - regel: 63
+          categorie: A6
+          type: pseudo-table
+          voorbeeld: '       (De tekst van KB nr. 30, artikel 1, 4° is van toepassing met ingang van 27.01.2005'
 ---
 
 # K.B. nr. 30 van 29 december 1992, met betrekking tot de toepassing van de belasting over de toegevoegde waarde op de onroerende financieringshuur

@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Regel 48: 'op 1 januari 2014' staat als losstaande tekstregel direct na de H1-titel — dit is een fragment van de volledige originele titel dat door de scraper gesplitst werd en als body-tekst terechtkwam. Hoort ofwel onderdeel te zijn van de H1-heading ofwel verwijderd te worden. Verdere inhoud is volledig."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,15 @@ provenance:
       file_size_chars: 7554
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "Regel 48: 'op 1 januari 2014' staat als losstaande tekstregel direct na de H1-titel — dit is een fragment van de volledige originele titel dat door de scraper gesplitst werd en als body-tekst terechtkwam. Hoort ofwel onderdeel te zijn van de H1-heading ofwel verwijderd te worden. Verdere inhoud is volledig."
+      concrete_problemen:
+        - regel: 48
+          categorie: B5
+          type: other
+          voorbeeld: op 1 januari 2014
 ---
 
 # CBN-advies 2014/6 – De boekhoudkundige verwerking van effecten aan toonder van rechtswege omgezet in effecten op naam of in gedematerialiseerde effecten op 1 januari 2014

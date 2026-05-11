@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Vier klassen van artefacten. (1) B4: alle 25 hoofdsecties ('VAK - RESERVES', 'VAK - VERWORPEN UITGAVEN', 'VOORAFGAANDE OPMERKINGEN', 'GEBRUIKTE AFKORTINGEN', 'DEFINITIES', 'ONDERWORPEN BELASTINGPLICHTIGEN', 'BANKINFORMATIE', etc.) zijn als plain-text all-caps regels in de body in plaats van ## headings; dit maakt chunking onmogelijk. (2) B5: twee artikelverwijzingen zijn ten onrechte als ## heading gemarkeerd: 'Art. 307, § 1/2, WIB 92...' (regel 1461) en 'Art. 207, WIB 92...' (regel 1851) — dit zijn proza-zinnen, geen sectie-titels. (3) A1: losstaand 'be' op regel 63 (fragment van 'fin.belgium.be' gesplitst over de regel) plus '• \\n\\n' als PDF-glyph-artefact direct erna. (4) A1: '- 18 -' paginanummer embedded midden in een zin (regel 1189): '...CO2- 18 -\\n\\nuitstootgehalte...', wat de zin breekt. Inhoud (alle aangiftevakken aanwezig t/m Diamant Stelsel) is verder compleet."
     layer1:
       status: not_run
       run_id:
@@ -32,11 +32,47 @@ provenance:
       file_size_chars:
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:19Z'
+      rationale: "Vier klassen van artefacten. (1) B4: alle 25 hoofdsecties ('VAK - RESERVES', 'VAK - VERWORPEN UITGAVEN', 'VOORAFGAANDE OPMERKINGEN', 'GEBRUIKTE AFKORTINGEN', 'DEFINITIES', 'ONDERWORPEN BELASTINGPLICHTIGEN', 'BANKINFORMATIE', etc.) zijn als plain-text all-caps regels in de body in plaats van ## headings; dit maakt chunking onmogelijk. (2) B5: twee artikelverwijzingen zijn ten onrechte als ## heading gemarkeerd: 'Art. 307, § 1/2, WIB 92...' (regel 1461) en 'Art. 207, WIB 92...' (regel 1851) — dit zijn proza-zinnen, geen sectie-titels. (3) A1: losstaand 'be' op regel 63 (fragment van 'fin.belgium.be' gesplitst over de regel) plus '• \\n\\n' als PDF-glyph-artefact direct erna. (4) A1: '- 18 -' paginanummer embedded midden in een zin (regel 1189): '...CO2- 18 -\\n\\nuitstootgehalte...', wat de zin breekt. Inhoud (alle aangiftevakken aanwezig t/m Diamant Stelsel) is verder compleet."
+      concrete_problemen:
+        - regel: 63
+          categorie: A1
+          type: other
+          voorbeeld: fin.belgium.be\n\nbe\n\n•\n\n\nBELANGRIJKE OPMERKINGEN...
+        - regel: 65
+          categorie: C1
+          type: bullet-glyph
+          voorbeeld: •\n\n\nBELANGRIJKE OPMERKINGEN (•-glyph als PDF-bullet zonder context)
+        - regel: 90
+          categorie: B4
+          type: other
+          voorbeeld: 'VOORAFGAANDE OPMERKINGEN (plain-text all-caps in plaats van ## heading)'
+        - regel: 112
+          categorie: B4
+          type: other
+          voorbeeld: 'GEBRUIKTE AFKORTINGEN (plain-text all-caps in plaats van ## heading)'
+        - regel: 425
+          categorie: B4
+          type: other
+          voorbeeld: 'VAK - RESERVES (25x: alle hoofdvakken als plain text, geen ## heading)'
+        - regel: 1189
+          categorie: A1
+          type: other
+          voorbeeld: '...CO2- 18 -\n\nuitstootgehalte gelijk aan dit van het overeenstemmende voertuig...'
+        - regel: 1461
+          categorie: B5
+          type: other
+          voorbeeld: '## Art. 307, § 1/2, WIB 92, bepaalt dat de vennootschap gehouden is aangifte te doen...'
+        - regel: 1851
+          categorie: B5
+          type: other
+          voorbeeld: "## Art. 207, WIB 92, voorziet ook in een aftrekbeperking, de zogenaamde 'fiscale korf'..."
+        - regel: 3265
+          categorie: A1
+          type: other
+          voorbeeld: MODEL 275.1 Ned. (formulier-code als artefact in de body)
 chunk:
   level: 2
   type: Art.

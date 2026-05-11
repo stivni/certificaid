@@ -23,10 +23,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "E2: de journaalboekingstabellen zijn structureel incompleet — debet- en creditkolommen zijn leeg voor alle boekingsregels (regels 71-72, 84-85, 91-92), wat niet de opzet van het brondocument is (cijfers ontbreken). Bovendien staat op regel 92 'aan | | 101 | | Niet-opgevraagd kapitaal' met een extra lege cel, wat een tabelstructuurfout is (cel verschoven ten opzichte van de header). Inhoud en argumentatie wel compleet."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -36,11 +36,19 @@ provenance:
       file_size_chars: 3770
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: "E2: de journaalboekingstabellen zijn structureel incompleet — debet- en creditkolommen zijn leeg voor alle boekingsregels (regels 71-72, 84-85, 91-92), wat niet de opzet van het brondocument is (cijfers ontbreken). Bovendien staat op regel 92 'aan | | 101 | | Niet-opgevraagd kapitaal' met een extra lege cel, wat een tabelstructuurfout is (cel verschoven ten opzichte van de header). Inhoud en argumentatie wel compleet."
+      concrete_problemen:
+        - regel: 71
+          categorie: E2
+          type: other
+          voorbeeld: '| | 100 | Geplaatst kapitaal | | | (debet/credit leeg)'
+        - regel: 92
+          categorie: E2
+          type: other
+          voorbeeld: '| aan | | 101 | | Niet-opgevraagd kapitaal | (cel-offset)'
 gerelateerde_adviezen:
   - titel: Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
     url: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders

@@ -21,10 +21,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Geen extractie-artefacten aangetroffen. Tekst is doorlopend en vlot leesbaar, headings correct genummerd (3 stuks), voetnoten [^1]–[^12] volledig gedefinieerd en gesloten. Enige kleine onregelmatigheid op regel 82–84: zin loopt door over twee regels met een harde regelbreuk middenin ('om de aanschaffingswaarde van een voorraad te bepalen waarbij van de detailverkoopprijs van deze voorraden, de marge wordt afgetrokken… / grond van de verkoopprijs'), maar dit stamt vermoedelijk uit de bronparagraaf en is niet ernstig genoeg om needs-rework te rechtvaardigen. Alle inhoudelijke secties aanwezig."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -34,11 +34,15 @@ provenance:
       file_size_chars: 10066
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "Geen extractie-artefacten aangetroffen. Tekst is doorlopend en vlot leesbaar, headings correct genummerd (3 stuks), voetnoten [^1]–[^12] volledig gedefinieerd en gesloten. Enige kleine onregelmatigheid op regel 82–84: zin loopt door over twee regels met een harde regelbreuk middenin ('om de aanschaffingswaarde van een voorraad te bepalen waarbij van de detailverkoopprijs van deze voorraden, de marge wordt afgetrokken… / grond van de verkoopprijs'), maar dit stamt vermoedelijk uit de bronparagraaf en is niet ernstig genoeg om needs-rework te rechtvaardigen. Alle inhoudelijke secties aanwezig."
+      concrete_problemen:
+        - regel: 82
+          categorie: A6
+          type: other
+          voorbeeld: om de aanschaffingswaarde van een voorraad te bepalen waarbij van de detailverkoopprijs van deze voorraden, de marge wordt afgetrokken waarmee de aanschaffingsprijs werd verhoogd om de verkoopprijs vast te stellen.
 gerelateerde_adviezen:
   - titel: Waardering van de aanschaffingsprijs van de voorraden op grond van de verkoopprijs
     url: https://www.cbn-cnc.be/nl/adviezen/waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs

@@ -27,10 +27,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:34Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Twee problemen: (1) heading_count=0 — de volledige body na de ##-titel heeft geen subheadings; één platte sectie van 4564 tekens is geen goede RAG-segmentatie en contrasteert met andere adviezen van vergelijkbare omvang (B2); (2) regel 52 heeft hetzelfde 'bijgewerkt'-fragment als artefact direct na de titel (A6); (3) regel 63 heeft een spurious line-break na '[^3]' midden in de zin (A6)."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -40,11 +40,23 @@ provenance:
       file_size_chars: 4564
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:34Z'
+      rationale: "Twee problemen: (1) heading_count=0 — de volledige body na de ##-titel heeft geen subheadings; één platte sectie van 4564 tekens is geen goede RAG-segmentatie en contrasteert met andere adviezen van vergelijkbare omvang (B2); (2) regel 52 heeft hetzelfde 'bijgewerkt'-fragment als artefact direct na de titel (A6); (3) regel 63 heeft een spurious line-break na '[^3]' midden in de zin (A6)."
+      concrete_problemen:
+        - regel: 52
+          categorie: A6
+          type: other
+          voorbeeld: ', bijgewerkt op 10 september 2025[^2] '
+        - regel: 51
+          categorie: B2
+          type: other
+          voorbeeld: 'heading_count=0: gehele body is één platte sectie zonder ##-subheadings'
+        - regel: 63
+          categorie: A6
+          type: other
+          voorbeeld: "meer dan één[^3]\n jaar niet in aanmerking"
 ---
 
 # CBN-advies 2016/21 – Actualisatie van uitgestelde belastingen (update)

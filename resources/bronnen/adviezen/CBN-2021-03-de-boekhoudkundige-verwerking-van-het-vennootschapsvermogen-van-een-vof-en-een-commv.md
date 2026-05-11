@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:21:40Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Zeer kort advies (4062 tekens) zonder tussensecties — dit weerspiegelt het originele document dat enkel een # titel heeft en dan doorlopende tekst. Geen PDF-artefacten. Rekeningnamen gecursiveerd als *Onbeschikbare inbreng buiten kapitaal* en *Beschikbare inbreng buiten kapitaal* — hier zonder trailing spatie, schoon. Voetnoten [^1]-[^4] correct. Inhoud volledig voor een kort standpuntadvies.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -37,10 +37,10 @@ provenance:
       file_size_chars: 4062
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:21:40Z'
+      rationale: 'Zeer kort advies (4062 tekens) zonder tussensecties — dit weerspiegelt het originele document dat enkel een # titel heeft en dan doorlopende tekst. Geen PDF-artefacten. Rekeningnamen gecursiveerd als *Onbeschikbare inbreng buiten kapitaal* en *Beschikbare inbreng buiten kapitaal* — hier zonder trailing spatie, schoon. Voetnoten [^1]-[^4] correct. Inhoud volledig voor een kort standpuntadvies.'
       concrete_problemen: []
 ---
 

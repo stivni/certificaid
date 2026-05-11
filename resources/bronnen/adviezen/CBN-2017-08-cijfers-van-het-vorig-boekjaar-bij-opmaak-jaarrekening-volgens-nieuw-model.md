@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:16:35Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A6/B3: Regel 51 bevat 'bij opmaak jaarrekening volgens nieuw model' als los tekstfragment direct na de H1 — dit is een herhaalde ondertitel die door de scraper niet is gefilterd en bij rendering als alinea wordt getoond, dubbele H1-informatie. Verder geen andere artefacten; inhoud correct en volledig."
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -32,11 +32,15 @@ provenance:
       file_size_chars: 4126
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:16:35Z'
+      rationale: "A6/B3: Regel 51 bevat 'bij opmaak jaarrekening volgens nieuw model' als los tekstfragment direct na de H1 — dit is een herhaalde ondertitel die door de scraper niet is gefilterd en bij rendering als alinea wordt getoond, dubbele H1-informatie. Verder geen andere artefacten; inhoud correct en volledig."
+      concrete_problemen:
+        - regel: 51
+          categorie: A6
+          type: other
+          voorbeeld: bij opmaak jaarrekening volgens nieuw model
 gerelateerde_adviezen:
   - titel: Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen
     url: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van

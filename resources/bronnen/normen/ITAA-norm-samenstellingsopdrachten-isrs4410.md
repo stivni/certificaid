@@ -32,10 +32,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Laag-1 warn: 21 TOC-stippelregels. Drie structurele problemen: (1) column-header 'VEREISTEN TOEPASSINGSMODALITEITEN' is 16x als ## heading geëxtraheerd, verspreid door het hele document, waardoor de heading-boomstructuur ernstig vervuild is; (2) TOC-regel met dot-leader '## Communicatie met het management en de met governance belaste personen . 34 Het' is als ## heading overgenomen inclusief paginanummer en eerste woord van de volgende regel (B7/A2); (3) een zin breekt af mid-woord: '...naar aanleiding van \\n IBA.' waarna de zin eindigt zonder logische conclusie (A6). De inhoudelijke structuur (Toepassingsgebied, Definities, Doelstellingen, Vereisten) is grotendeels aanwezig maar doorkruist door de spurious column-headers."
     layer1:
       status: warn
       run_id: 20260511-085756
@@ -53,22 +53,26 @@ provenance:
             - '................................................................................'
     layer2:
       status: needs-rework
-      agent:
-      run_at:
-      rationale: "ISRS 4410 (NL-vertaling met BE-aanpassing) heeft 16 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als heading (column-header bleed). Inhoudstafel L153-157 gefragmenteerd ('## Communicatie met het management ... . 34 Het' — afgekapte TOC-regel als heading). Veel werkelijke section-titels (Toepassingsgebied, Doelstellingen, Definities, Aanvaarding) wel als ## aanwezig maar afgewisseld met de spurious column-headers."
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:41:58Z'
+      rationale: "Laag-1 warn: 21 TOC-stippelregels. Drie structurele problemen: (1) column-header 'VEREISTEN TOEPASSINGSMODALITEITEN' is 16x als ## heading geëxtraheerd, verspreid door het hele document, waardoor de heading-boomstructuur ernstig vervuild is; (2) TOC-regel met dot-leader '## Communicatie met het management en de met governance belaste personen . 34 Het' is als ## heading overgenomen inclusief paginanummer en eerste woord van de volgende regel (B7/A2); (3) een zin breekt af mid-woord: '...naar aanleiding van \\n IBA.' waarna de zin eindigt zonder logische conclusie (A6). De inhoudelijke structuur (Toepassingsgebied, Definities, Doelstellingen, Vereisten) is grotendeels aanwezig maar doorkruist door de spurious column-headers."
       concrete_problemen:
+        - regel: 238
+          categorie: B7
+          type: dotted-leader
+          voorbeeld: "'## Communicatie met het management en de met governance belaste personen . 34 Het' — TOC-regel met paginanummer als ## heading"
         - regel: 180
+          categorie: A8
           type: column-bleed
-          voorbeeld: "'## VEREISTEN TOEPASSINGSMODALITEITEN' herhaald als heading (16x), soms met '(Zie Par. 22)' suffix"
-        - regel: 155
-          type: abrupt-cutoff
-          voorbeeld: "'## Communicatie met het management en de met governance belaste personen . 34 Het' — TOC-regel met dot-leader als ## heading"
-        - regel: 110
-          type: abrupt-cutoff
-          voorbeeld: "'9. Deze norm wordt van toepassing gemaakt voor de verslagen uitgebracht naar aanleiding van \\n IBA.' — overslaat een woord/zin tussenin"
-        - regel: 100
-          type: abrupt-cutoff
-          voorbeeld: "'specificiteiten.' op aparte regel; eerdere zin '...te' breekt af"
+          voorbeeld: "'## VEREISTEN TOEPASSINGSMODALITEITEN' als heading (16x herhaald), soms met '(Zie Par. 22)' suffix"
+        - regel: 148
+          categorie: A6
+          type: other
+          voorbeeld: "'Deze norm wordt van toepassing gemaakt voor de verslagen uitgebracht naar aanleiding van \\n IBA.' — zin breekt af na 'aanleiding van', vervolgt met 'IBA.' op volgende regel"
+        - regel: 209
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: "'Inleiding ............................................................................................................................................................... 6' in INHOUDSTAFEL-blok in body"
 ---
 
 ## Norm inzake de 

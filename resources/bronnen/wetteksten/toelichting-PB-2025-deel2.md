@@ -19,10 +19,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T11:51:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Drie klassen van extractie-artefacten aanwezig. (1) A1/A2: de INHOUDSTAFEL staat volledig in de body met losstaande paginanummers op eigen regels (3, 5, 6, 8, 21, 27 ...) door het hele TOC-blok heen (regels 59–110). (2) B4/B5: secties als 'Vak XV', 'Vak XVI', 'Vak XVII' enz. worden 66× als plain-text herhaald als pagina-koptekst in plaats van heading (bijv. regels 207, 247, 320 ...); ook 'INHOUDSTAFEL' en 'ALGEMENE INLICHTINGEN' zijn plain-text in plaats van ##-heading. (3) A6/A7: twee bevestigde woord-afkappingen over pagina-grenzen heen: 'be10\\n\\nVak XV\\n\\ntaald' (regel 460) en 'beroepswerkzaam51\\n\\nVak XVIII' (regel 2438), waarbij het paginanummer midden in het woord is geplakt. Inhoud (alle vakken XIV–XXII aanwezig) en wetsvolgorde zijn verder correct."
     layer1:
       status: not_run
       run_id:
@@ -32,11 +32,43 @@ provenance:
       file_size_chars:
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T11:51:19Z'
+      rationale: "Drie klassen van extractie-artefacten aanwezig. (1) A1/A2: de INHOUDSTAFEL staat volledig in de body met losstaande paginanummers op eigen regels (3, 5, 6, 8, 21, 27 ...) door het hele TOC-blok heen (regels 59–110). (2) B4/B5: secties als 'Vak XV', 'Vak XVI', 'Vak XVII' enz. worden 66× als plain-text herhaald als pagina-koptekst in plaats van heading (bijv. regels 207, 247, 320 ...); ook 'INHOUDSTAFEL' en 'ALGEMENE INLICHTINGEN' zijn plain-text in plaats van ##-heading. (3) A6/A7: twee bevestigde woord-afkappingen over pagina-grenzen heen: 'be10\\n\\nVak XV\\n\\ntaald' (regel 460) en 'beroepswerkzaam51\\n\\nVak XVIII' (regel 2438), waarbij het paginanummer midden in het woord is geplakt. Inhoud (alle vakken XIV–XXII aanwezig) en wetsvolgorde zijn verder correct."
+      concrete_problemen:
+        - regel: 59
+          categorie: A1
+          type: other
+          voorbeeld: INHOUDSTAFEL\nALGEMENE INLICHTINGEN\n\n3\n\n## VAK XIV...
+        - regel: 63
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: 3\n\n## VAK XIV - BEROEP EN ONDERNEMINGSNUMMER\n\n5
+        - regel: 111
+          categorie: A1
+          type: other
+          voorbeeld: 2\n\n\nALGEMENE INLICHTINGEN\nDe voorbereiding van de aangifte (deel 2)
+        - regel: 116
+          categorie: B5
+          type: other
+          voorbeeld: '## Deel 2 van de voorbereiding van de aangifte in de personenbelasting is bestemd voor:'
+        - regel: 207
+          categorie: B4
+          type: other
+          voorbeeld: Vak XV - DIVERSE INKOMSTEN (66x herhaald als plain-text pagina-koptekst)
+        - regel: 460
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: '...zijn be10\n\n\nVak XV\n\ntaald of toegekend...'
+        - regel: 2438
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: '...stopzetting van uw beroepswerkzaam51\n\n\nVak XVIII'
+        - regel: 3343
+          categorie: A1
+          type: other
+          voorbeeld: 276.1 DEEL 2 NED.\n\nbedrijfsrevisor\n\n70
 chunk:
   level: 2
   type: Art.

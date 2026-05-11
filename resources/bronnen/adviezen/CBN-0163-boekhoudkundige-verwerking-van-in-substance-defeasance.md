@@ -22,10 +22,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-11T12:04:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Geen ETL-artefacten. Proza coherent, geen OCR-fouten, geen malformed markdown. Inhoud volledig: techniek beschreven, juridische analyse en conclusie aanwezig. Geen subheadings nodig voor dit korte advies.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -35,10 +35,10 @@ provenance:
       file_size_chars: 3776
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:42Z'
+      rationale: 'Geen ETL-artefacten. Proza coherent, geen OCR-fouten, geen malformed markdown. Inhoud volledig: techniek beschreven, juridische analyse en conclusie aanwezig. Geen subheadings nodig voor dit korte advies.'
       concrete_problemen: []
 ---
 

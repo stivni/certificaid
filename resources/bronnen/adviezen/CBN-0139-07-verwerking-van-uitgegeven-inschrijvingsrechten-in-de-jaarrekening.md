@@ -29,10 +29,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by:
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-11T12:04:41Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B3: duplicate page-title-heading op regels 52 en 54 (identieke H1 tweemaal). D4: *Bull. CNC * op regel 58 heeft spatie voor sluitende * (malformed italic). Inhoud volledig aanwezig met drie secties correct als H2/H3 opgebouwd.'
     layer1:
       status: pass
       run_id: 20260511-083333
@@ -42,11 +42,23 @@ provenance:
       file_size_chars: 4371
       flags: []
     layer2:
-      status: not_run
-      agent:
-      run_at:
-      rationale:
-      concrete_problemen: []
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-11T12:04:41Z'
+      rationale: 'B3: duplicate page-title-heading op regels 52 en 54 (identieke H1 tweemaal). D4: *Bull. CNC * op regel 58 heeft spatie voor sluitende * (malformed italic). Inhoud volledig aanwezig met drie secties correct als H2/H3 opgebouwd.'
+      concrete_problemen:
+        - regel: 52
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 139-7 - Verwerking van uitgegeven inschrijvingsrechten in de jaarrekening'
+        - regel: 54
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 139-7 - Verwerking van uitgegeven inschrijvingsrechten in de jaarrekening '
+        - regel: 58
+          categorie: D4
+          type: other
+          voorbeeld: '...gepubliceerd in de adviezen die de Commissie in haar *Bull. CNC *nr. 28 en 29 van november 1992...'
 ---
 
 # CBN advies 139-7 - Verwerking van uitgegeven inschrijvingsrechten in de jaarrekening
