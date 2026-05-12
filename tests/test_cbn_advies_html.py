@@ -69,6 +69,39 @@ def test_promote_italic_preserves_legitimate_bold():
     assert "## Boekhoudkundige verwerking" in result
 
 
+# ─── B4 ALL-CAPS heading-promotie ─────────────────────────────────────────────
+
+def test_promote_allcaps_standalone_long():
+    """REGRESSIE-FIX (CBN-0100, CBN-0152-01, CBN-2024-09): ALL-CAPS regel
+    tussen blank lines met ≥2 woorden wordt ## heading.
+    """
+    md = "Body.\n\nDE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW\n\nMeer body.\n"
+    result = _promote_implicit_headings(md)
+    assert "## DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW" in result
+
+
+def test_promote_allcaps_short_acronym_not_promoted():
+    """Korte ALL-CAPS afkortingen (VZW, OCMW, BV) blijven inline."""
+    md = "Body.\n\nVZW\n\nMeer body.\n"
+    result = _promote_implicit_headings(md)
+    assert "## VZW" not in result
+
+
+def test_promote_allcaps_inline_not_promoted():
+    """ALL-CAPS midden in paragraph (geen blank lines rondom) blijft inline."""
+    md = "Een paragraaf met DE OCMW vermelding\nin de tekst.\n"
+    result = _promote_implicit_headings(md)
+    assert "## " not in result
+
+
+def test_promote_allcaps_single_word_not_promoted():
+    """Single-word ALL-CAPS (zelfs lang) wordt niet als heading gepromoot."""
+    md = "Body.\n\nNORMALISATIETERMIJN\n\nMeer body.\n"
+    result = _promote_implicit_headings(md)
+    # Single word → no heading (vermijdt false positives op term-definities)
+    assert "## NORMALISATIETERMIJN" not in result
+
+
 # ─── D3-SP3: standalone adjacent footnote refs strippen ─────────────────────
 
 def test_cleanup_strips_four_adjacent_footnote_refs_on_standalone_line():

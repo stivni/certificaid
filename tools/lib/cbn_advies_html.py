@@ -720,6 +720,13 @@ _BOLD_TITLE_STANDALONE = re.compile(r'^\s*\*\*([^\*\n]{20,}?)\*\*\s*$')
 # eigen regel. Toegevoegd 2026-05-13 voor B5-patroon in CBN-Q&A-adviezen waar
 # vragen-titels als italic-standalone staan i.p.v. heading.
 _ITALIC_TITLE_STANDALONE = re.compile(r'^\s*\*([^\*\n]{20,}?)\*\s*$')
+# ALL-CAPS standalone heading (B4): regel uit alleen hoofdletters + spaties/leestekens,
+# ≥10 chars, tussen blank lines. Voorbeeld CBN-0100:
+#   "DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW"
+# Toegevoegd 2026-05-13.
+_ALLCAPS_TITLE_STANDALONE = re.compile(
+    r'^\s*([A-Z][A-Z\s\.,\-]{9,150}[A-Z])\s*$'
+)
 
 
 def _promote_implicit_headings(md: str) -> str:
@@ -755,6 +762,18 @@ def _promote_implicit_headings(md: str) -> str:
                 if prev_blank and next_blank:
                     title = m.group(1).strip()
                     if not re.search(r'[\.\?\!]$', title):
+                        out_lines.append(f'## {title}')
+                        replaced = True
+
+        if not replaced:
+            m = _ALLCAPS_TITLE_STANDALONE.match(line)
+            if m:
+                prev_blank = (i == 0 or not lines[i - 1].strip())
+                next_blank = (i >= len(lines) - 1 or not lines[i + 1].strip())
+                if prev_blank and next_blank:
+                    title = m.group(1).strip()
+                    # Vereis ≥2 woorden om afkortingen (VZW, OCMW) niet te promoveren
+                    if len(title.split()) >= 2:
                         out_lines.append(f'## {title}')
                         replaced = True
 
