@@ -1474,3 +1474,46 @@ class TestFixBoldItalicMixing:
     def test_geregistreerd_in_transformers(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "fix_bold_italic_mixing" in TRANSFORMERS
+
+
+# ─── strip_itaa_norm_footers (ITAA-norm page-footers) ─────────────────────────
+
+class TestStripItaaNormFooters:
+    def test_copyright_footer(self):
+        from tools.etl.transformers.strip_itaa_norm_footers import strip_itaa_norm_footers
+        body = "Body voor.\n© ITAA – Norm betreffende de verenigbaarheid\nBody na.\n"
+        result, _ = strip_itaa_norm_footers(body, {})
+        assert "© ITAA" not in result
+        assert "Body voor." in result
+        assert "Body na." in result
+
+    def test_hreb_footer_with_heading_prefix(self):
+        from tools.etl.transformers.strip_itaa_norm_footers import strip_itaa_norm_footers
+        body = "Body.\n## Goedgekeurd HREB (02-03-2026)- ter goedkeuring van de minister voorgelegd 1/47\nMeer.\n"
+        result, _ = strip_itaa_norm_footers(body, {})
+        assert "Goedgekeurd HREB" not in result
+        assert "Body." in result
+
+    def test_hreb_footer_plain(self):
+        from tools.etl.transformers.strip_itaa_norm_footers import strip_itaa_norm_footers
+        body = "Goedgekeurd HREB (02-03-2026)- ter goedkeuring van de minister voorgelegd 12/47\nBody.\n"
+        result, _ = strip_itaa_norm_footers(body, {})
+        assert "Goedgekeurd HREB" not in result
+
+    def test_legitimate_content_with_itaa_not_stripped(self):
+        """Een legitieme zin met 'ITAA' blijft staan; alleen `© ITAA`-prefix patroon strip."""
+        from tools.etl.transformers.strip_itaa_norm_footers import strip_itaa_norm_footers
+        body = "Het ITAA heeft een norm gepubliceerd.\n"
+        result, _ = strip_itaa_norm_footers(body, {})
+        assert result == body
+
+    def test_idempotent(self):
+        from tools.etl.transformers.strip_itaa_norm_footers import strip_itaa_norm_footers
+        body = "© ITAA – Norm\n## Goedgekeurd HREB - voorgelegd 3/47\nBody.\n"
+        once, _ = strip_itaa_norm_footers(body, {})
+        twice, _ = strip_itaa_norm_footers(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "strip_itaa_norm_footers" in TRANSFORMERS
