@@ -53,10 +53,16 @@ _TOC_LEADER = re.compile(r"\.{4,}")
 # Trailing page number: spatie(s) + 1-4 cijfers aan het einde van de regel
 _TRAILING_PAGE = re.compile(r"\s+\d{1,4}\s*$")
 
-# A. Vak-patroon (PB-toelichtingen): 1-4 spaties + 'Vak' (mixed case) + Roman + ' - '
+# A1. Vak-patroon (PB-toelichtingen): 1-4 spaties + 'Vak' (mixed case) + Roman + ' - '
 _VAK_ROMAN = re.compile(
     r"^( {1,4})(Vak) (" + _ROMAN + r") - (.*)$"
 )
+
+# A2. VAK-sectie (VenB-toelichting): kolom 0 + 'VAK - ' + ALLCAPS-titel (geen Roman-numeral)
+# De VenB-aangifte gebruikt 'VAK - RESERVES', 'VAK - VERWORPEN UITGAVEN', …
+# Dit patroon vangt de sectie-headers op kolom 0 zonder context-eis (blank lines),
+# omdat de content soms direct na de header-regel volgt.
+_VAK_MIN = re.compile(r"^(VAK - )(.+)$")
 
 # B. HOOFDSTUK solo (fiscaal-memento body): 1 spatie + HOOFDSTUK + Roman/cijfer, EINDE REGEL
 _HOOFDSTUK_SOLO = re.compile(
@@ -70,16 +76,23 @@ _ROMAN_CHAPTER = re.compile(
 )
 
 # D. ALL-CAPS standalone (VenB col 0): alleen hoofdletters + spaties + basisleestekens
-# Minimum 8 chars (incl. spaties), kolom 0 (geen leading whitespace).
+# Minimum 10 chars en minstens 1 spatie (multi-woord). Kolom 0 (geen leading whitespace).
+# De eis van minstens 1 spatie voorkomt dat enkelvoudige ALLCAPS-woorden die als
+# titel-fragments verspreid over meerdere regels voorkomen (bv. VERLEEND, BELASTINGKREDIET)
+# als heading worden gepromoveerd.
 # Uitgesloten:
-#   - regels die beginnen met 'VAK ' (TOC-regels in PB-toelichting)
-#   - regels die beginnen met een Romein-numeral + punt (I., II., III., …)
-#     — dit zijn sub-sectie-labels, geen top-level secties
+#   - regels die beginnen met 'VAK [Roman]' (PB-toelichting TOC-regels)
+#   - regels die beginnen met Romein-numeral + punt (I., II., …)
 _ALLCAPS_COL0 = re.compile(
-    r"^([A-Z][A-Z ,/\(\)\-\.]{7,})$"
+    r"^([A-Z][A-Z ,/\(\)\-\.]{9,})$"
 )
-# Patronen die patroon D uitsluiten
-_STARTS_WITH_VAK = re.compile(r"^VAK[ -]")
+# Eis minstens 1 spatie in de ALL-CAPS regel (multi-woord) — enkelvoudige woorden worden
+# niet gepromoveerd (te hoog risico op valse positieven bij gefragmenteerde PDFs).
+_ALLCAPS_HAS_SPACE = re.compile(r" ")
+# Patronen die patroon D uitsluiten:
+#   - VAK [Roman]: PB-toelichting TOC-regels (VAK I -, VAK II -, …)
+#     Note: 'VAK - ...' (met koppelteken i.p.v. Romein) is VenB-sectie → NIET uitsluiten
+_STARTS_WITH_VAK_ROMAN = re.compile(r"^VAK [IVXLCDM]")
 _STARTS_WITH_ROMAN_DOT = re.compile(r"^[IVXLCDM]+\. ")
 
 # E. Ingesprongen ALLCAPS (VenB indented sections): 1-4 spaties + ALLCAPS
@@ -163,6 +176,29 @@ def inject_headings_narratief(body: str, frontmatter: dict) -> tuple[str, dict]:
             i = j
             continue
 
+        # ─── Patroon A2: VAK - [titel] (VenB-toelichting, kolom 0) ───────────
+        m_vak_min = _VAK_MIN.match(line)
+        if m_vak_min:
+            rest = m_vak_min.group(2).strip()
+            # Verzamel aansluitende ALLCAPS-vervolgregels (afgebroken titel).
+            title_parts = [rest] if rest else []
+            j = i + 1
+            while j < n and not _is_blank(lines[j]):
+                next_stripped = lines[j].strip()
+                if _SUBSECTION_PREFIX.match(next_stripped):
+                    break
+                if not _ALLCAPS_CONTINUATION.match(next_stripped):
+                    break
+                title_parts.append(next_stripped)
+                j += 1
+            full_title = " ".join(p for p in title_parts if p).strip()
+            if full_title:
+                out.append(f"## VAK - {full_title}")
+            else:
+                out.append("## VAK")
+            i = j
+            continue
+
         # ─── Patroon B: HOOFDSTUK N (solo op de regel, fiscaal-memento) ───────
         m_hfst = _HOOFDSTUK_SOLO.match(line)
         if m_hfst:
@@ -217,7 +253,8 @@ def inject_headings_narratief(body: str, frontmatter: dict) -> tuple[str, dict]:
         # ─── Patroon D: ALL-CAPS col-0, omsloten door lege regels ─────────────
         m_col0 = _ALLCAPS_COL0.match(line)
         if (m_col0
-                and not _STARTS_WITH_VAK.match(line)
+                and _ALLCAPS_HAS_SPACE.search(line)
+                and not _STARTS_WITH_VAK_ROMAN.match(line)
                 and not _STARTS_WITH_ROMAN_DOT.match(line)):
             # Controleer of vorige regel leeg is
             prev_blank = (i == 0) or _is_blank(lines[i - 1])

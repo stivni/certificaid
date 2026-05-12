@@ -17,10 +17,10 @@ provenance:
       version: '2025'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 6655d4b-dirty
+    pipeline_version: 1fc0dd6
     model:
     prompt_version:
-  generated_at: '2026-05-12T20:05:33Z'
+  generated_at: '2026-05-12T20:13:39Z'
   stale: false
   stale_reason:
   trust:
@@ -30,15 +30,15 @@ provenance:
     rationale:
     layer1:
       status: warn
-      run_id: 20260512-200607
-      run_at: '2026-05-12T20:06:07Z'
-      heading_count: 2
-      max_section_chars: 179126
-      file_size_chars: 247117
+      run_id: 20260512-201404
+      run_at: '2026-05-12T20:14:04Z'
+      heading_count: 22
+      max_section_chars: 48748
+      file_size_chars: 247177
       flags:
         - name: max_section_size
           status: warn
-          detail: 'langste sectie op ##-niveau: 179126 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          detail: 'langste sectie op ##-niveau: 48748 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
 ---
@@ -429,7 +429,7 @@ Eventuele latere wijzigingen met betrekking tot het door de administratie te geb
 spoedig mogelijk via het online platform MyMinfin worden meegedeeld. Er is ook bijkomende informatie beschikbaar op
 de website van de FOD Financiën op het adres fin.belgium.be onder de rubriek Ondernemingen – Vennootschapsbelasting - Terugbetaling.
 
-VAK - RESERVES
+## VAK - RESERVES
 A. Belastbare gereserveerde winst
 Algemeen
 Indien de aangifte niet elektronisch wordt ingediend en het niet mogelijk is alle reserves in het vak ‘Belastbare gereserveerde winst’ zelf te vermelden, een opgave verstrekken waaruit voor elke reserve de toestand blijkt bij het begin en op
@@ -1038,7 +1038,7 @@ In het kapitaal en de uitgiftepremies geïncorporeerd gedeelte van de vrijgestel
 Hier moet worden vermeld, het gedeelte van de vrijgestelde gereserveerde winst (regel 1140) dat geïncorporeerd is in
 het kapitaal en de uitgiftepremies.
 
-VAK - VERWORPEN UITGAVEN EN OVERIGE BESTANDDELEN VAN HET RESULTAAT
+## VAK - VERWORPEN UITGAVEN EN OVERIGE BESTANDDELEN VAN HET RESULTAAT
 Algemeen
 Als rechtvaardiging van de in rekening gebrachte beroepskosten past het inzonderheid volgende gegevens te verstrekken:
 1° een lijst van de bedrijfs-, financiële en uitzonderlijke kosten, volgens hun aard, daarin begrepen de bezoldigingen.
@@ -1641,7 +1641,7 @@ de financiële bijdrage zoals bedoeld in art. 5bis, § 9, van Verordening (EU) n
 2014 betreffende beperkende maatregelen naar aanleiding van de acties van Rusland die de situatie in Oekraïne
 destabiliseren (art. 53, 34°, WIB 92).
 
-VAK - UITGEKEERDE DIVIDENDEN
+## VAK - UITGEKEERDE DIVIDENDEN
 Bedrag van de uitgekeerde dividenden
 Bedoeld zijn de hierna vermelde dividenden, met uitzondering evenwel van het gedeelte van de dividenden die aan
 natuurlijke personen zijn toegekend door volgens art. 8:4, WVV, erkende coöperatieve vennootschappen, dat niet meer
@@ -1734,7 +1734,7 @@ Voor de in c) en d) vermelde verrichtingen die vóór 01.01.1990 hebben plaatsge
 regels 1511 en 1512 van het vak ‘Bijzondere aanslagen met betrekking tot verrichtingen die vóór 01.01.1990 hebben
 plaatsgevonden’.
 
-VAK - BUITENLANDSE WINST DIE GENIET VAN EEN VERMINDERDE BELASTING
+## VAK - BUITENLANDSE WINST DIE GENIET VAN EEN VERMINDERDE BELASTING
 In het geval de vennootschap beschikt over één of meerdere inrichtingen in het buitenland, moet het totale bedrag van
 haar resterend resultaat volgens oorsprong worden onderverdeeld. Alvorens die onderverdeling wordt gedaan, worden
 de verliezen van het belastbare tijdperk, die in een land worden geleden, volgens bepaalde regels en in een bepaalde
@@ -1748,7 +1748,7 @@ verdrag wordt verminderd; dit verzoek is onherroepelijk (art. 206/4, vierde lid 
 Het vakje op de regel 1340 enkel aanvinken (in de papieren aangifte moet op die regel ‘JA’ worden vermeld) indien de
 vennootschap verzoekt om de niet-aanrekening van verliezen op buitenlandse winst waarvan de belasting bij toepassing van een internationaal verdrag wordt verminderd.
 
-VAK - UITEENZETTING VAN DE WINST
+## VAK - UITEENZETTING VAN DE WINST
 Resultaat van het belastbare tijdperk
 Het resultaat van het belastbare tijdperk is het totaal van de belastbare gereserveerde winst (positief of negatief bedrag),
 de verworpen uitgaven en de uitgekeerde dividenden.
@@ -2256,7 +2256,7 @@ Geen voorheffing, noch forfaitair gedeelte van de buitenlandse belasting, noch b
 met de belasting berekend aan het tarief van 5 % zoals vermeld in het eerste lid (art. 139, § 2, tweede lid, W 23.12.2009,
 respectievelijk art. 276, tweede lid, WIB 92).
 
-VAK - BEPERKING VAN DE AFTREKKEN VAN DE RESTERENDE WINST
+## VAK - BEPERKING VAN DE AFTREKKEN VAN DE RESTERENDE WINST
 Het vakje op de regel 1496 aanvinken (in de papieren aangifte moet op die regel ‘JA’ worden vermeld) indien de aangifte
 betrekking heeft op één van de eerste vier belastbare tijdperken vanaf de oprichting van de vennootschap die wordt
 aangemerkt als een ‘kleine vennootschap’.
@@ -2264,7 +2264,7 @@ In dat geval is de in art. 207, vijfde lid, WIB 92, vermelde beperking niet van 
 WIB 92, vermelde vorige verliezen van de ‘kleine vennootschap’ gedurende de eerste vier belastbare tijdperken vanaf
 haar oprichting zoals bedoeld in art. 14526, § 1, derde en vierde lid, WIB 92 (zie ook rubriek ‘Grondslag voor de berekening van de korf’ van het vak ‘Uiteenzetting van de winst’).
 
-VAK - AFZONDERLIJKE AANSLAGEN
+## VAK - AFZONDERLIJKE AANSLAGEN
 Niet-verantwoorde kosten, voordelen van alle aard of inkomsten uit auteursrechten en naburige
 rechten, verdoken meerwinsten en financiële voordelen of voordelen van alle aard
 Bedoeld zijn de in art. 219, WIB 92, vermelde niet-verantwoorde kosten, voordelen van alle aard of inkomsten uit auteursrechten en naburige rechten, verdoken meerwinsten en de in art. 53, 24°, WIB 92, vermelde financiële voordelen
@@ -2419,7 +2419,7 @@ Afzonderlijke aanslag van het gedeelte van de boekhoudkundige winst na belasting
 Hier moet worden vermeld, het gedeelte van de boekhoudkundige winst na belasting dat voor het belastbare tijdperk is
 overgeboekt naar de liquidatiereserve zoals bedoeld in art. 184quater, WIB 92.
 
-VAK - BIJZONDERE AANSLAGEN MET BETREKKING TOT VERRICHTINGEN DIE VOOR
+## VAK - BIJZONDERE AANSLAGEN MET BETREKKING TOT VERRICHTINGEN DIE VOOR
 01.01.1990 HEBBEN PLAATSGEVONDEN
 Gehele of gedeeltelijke verdeling van maatschappelijk vermogen
 Deze rubriek mag slechts worden ingevuld wanneer de bedoelde verrichtingen vóór 01.01.1990 hebben plaatsgevonden. In de andere gevallen wordt verwezen naar de rubrieken ‘Overlijden, uittreding of uitsluiting van een vennoot’ en
@@ -2447,12 +2447,11 @@ Bedoeld zijn de voordelen van alle aard die vennootschappen in vereffening verle
 rechtspersonen die geen vereffenaars van die vennootschappen zijn, behalve wanneer die voordelen rechtstreeks of
 onrechtstreeks in aanmerking komen voor het bepalen van de belastbare inkomsten van de verkrijgers.
 
-VAK - TERUGBETALING VAN VOORHEEN
-ONDERZOEK EN ONTWIKKELING
+## VAK - TERUGBETALING VAN VOORHEEN ONDERZOEK EN ONTWIKKELING
 
-## VERLEEND
+VERLEEND
 
-## BELASTINGKREDIET
+BELASTINGKREDIET
 
 VOOR
 
@@ -2463,7 +2462,7 @@ wanneer de in art. 82, § 2, KB/WIB 92, vermelde verplichting tijdens het belast
 
  (d.w.z. wanneer de desbetreffende investeringen tijdens het belastbare tijdperk tot andere doeleinden dan voor onderzoek en ontwikkeling zijn gebruikt).
 
-VAK - NIET-BELASTBARE BESTANDDELEN
+## VAK - NIET-BELASTBARE BESTANDDELEN
 -
 
 Vrijgestelde giften
@@ -2624,8 +2623,7 @@ de terugbetalingen van de in art. 53, 6°, WIB 92, vermelde geldboeten;
 alle niet-belastbare bedragen die in de winst voorkomen, andere dan die hiervoor bedoeld zijn (art. 206/5, eerste lid,
 2°, b), WIB 92).
 
-VAK - MEERWAARDEN BIJ TOETREDING VAN ZEESCHEPEN TOT HET STELSEL VAN DE
-FORFAITAIRE BELASTING AAN DE HAND VAN DE TONNAGE
+## VAK - MEERWAARDEN BIJ TOETREDING VAN ZEESCHEPEN TOT HET STELSEL VAN DE FORFAITAIRE BELASTING AAN DE HAND VAN DE TONNAGE
 Te verstrekken informatie
 Indien, op verzoek van de belastingplichtige, de in België belastbare winst uit zeescheepvaart op forfaitaire wijze wordt
 vastgesteld op basis van de tonnage van de zeeschepen waarmee de winst wordt behaald (art. 116, W 02.08.2002),
@@ -2661,7 +2659,7 @@ Op regel 1627 het verschil vermelden tussen het bedrag vermeld op regel 1625 ene
 regel 1626 anderzijds. Dit is het werkelijk belastbaar bedrag (zie ook rubriek ‘Nettobedrag van de meerwaarden bij
 toetreding van zeeschepen tot het stelsel van de forfaitaire belasting aan de hand van de tonnage’ van het vak ‘Uiteenzetting van de winst’).
 
-VAK - DEFINITIEF BELASTE INKOMSTEN
+## VAK - DEFINITIEF BELASTE INKOMSTEN
 Definitief belaste inkomsten, afkomstig van waarden die belegd zijn in een vaste inrichting in een land waarvan de
 winsten vrijgesteld zijn ingevolge internationale verdragen, komen hier niet in aanmerking.
 Een splitsing dient te worden gemaakt naargelang de definitief belaste inkomsten voortkomen van waarden die zijn
@@ -2918,7 +2916,7 @@ f) andere roerende activa waarvan de inkomsten rechtstreeks in het buitenland zi
 welke er aan een fiscale heffing werden onderworpen;
 g) andere activa die roerende inkomsten opbrengen.
 
-VAK - OVERDRACHT AFTREK DEFINITIEF BELASTE INKOMSTEN
+## VAK - OVERDRACHT AFTREK DEFINITIEF BELASTE INKOMSTEN
 De overdracht van de DBI-overschotten heeft betrekking op de inkomsten zoals bedoeld in art. 202, § 1, 1°, WIB 92,
 evenals de inkomsten vermeld in art. 202, § 1, 2°, WIB 92, die voortkomen uit in art. 210, § 1, 1° tot 2°, WIB 92, vermelde
 verrichtingen (Zie ook vak ‘Definitief belaste inkomsten’), die beantwoorden aan de voorwaarden vermeld in § 2, eerste lid,
@@ -2965,13 +2963,13 @@ waarin de achterwaartse verliesaftrek door de vennootschap werd gevraagd, vermel
 Tenslotte het bedrag van de naar het volgende belastbare tijdperk over te brengen te compenseren beroepsverliezen
 op regel 1730 vermelden.
 
-VAK - OVERDRACHT AFTREK VOOR RISICOKAPITAAL
+## VAK - OVERDRACHT AFTREK VOOR RISICOKAPITAAL
 Het bedrag van de overgedragen aftrek voor risicokapitaal dat in beginsel voor aftrek in aanmerking komt, vermelden
 op regel 1711 (in voorkomend geval rekening houden met de bepalingen van art. 207, achtste lid, WIB 92).
 Op regel 1712 moet het saldo worden vermeld van de aftrek voor risicokapitaal dat volgens art. 536, WIB 92, in principe
 overdraagbaar is naar latere belastbare tijdperken.
 
-VAK - TARIEF VAN DE BELASTING
+## VAK - TARIEF VAN DE BELASTING
 Verminderd tarief van 20 % op de eerste schijf van 100.000 euro
 Indien de vennootschap een ‘kleine vennootschap’ is, kan zij in beginsel aanspraak maken op het verminderd tarief van
 20 % op de eerste schijf van 100.000 euro (art. 215, tweede lid, WIB 92).
@@ -3011,16 +3009,13 @@ Het tarief bedraagt 5 % voor bepaalde vennootschappen voor huisvestingskrediet, 
 Enkel indien de vennootschap onderworpen is aan dat tarief, het vakje op de regel 1753 aanvinken (in de papieren
 aangifte moet op die regel ‘JA’ worden vermeld).
 
-VAK - VOORAFBETALINGEN
+## VAK - VOORAFBETALINGEN
 Een vennootschap die als ‘kleine vennootschap’ wordt aangemerkt, is geen vermeerdering verschuldigd op de vennootschapsbelasting die betrekking heeft op de eerste drie boekjaren vanaf haar oprichting.
 Enkel in dit geval, het vakje op de regel 1801 aanvinken (in de papieren aangifte moet op die regel ‘JA’ worden vermeld).
 Op regel 1810 dient het totaal bedrag van de in mindering van de vennootschapsbelasting van het aj. 2024 gestorte
 sommen te worden vermeld.
 
-VAK - OVERDRACHT VAN HET FISCALE VOORDEEL VERBONDEN AAN HET OVERSCHOT
-AAN VOORAFBETALINGEN IN HET KADER VAN DE BINNENLANDSE BIJHEFFING
-VOOR GROEPEN VAN MULTINATIONALE ONDERNEMINGEN EN OMVANGRIJKE
-BINNENLANDSE GROEPEN
+## VAK - OVERDRACHT VAN HET FISCALE VOORDEEL VERBONDEN AAN HET OVERSCHOT AAN VOORAFBETALINGEN IN HET KADER VAN DE BINNENLANDSE BIJHEFFING VOOR GROEPEN VAN MULTINATIONALE ONDERNEMINGEN EN OMVANGRIJKE BINNENLANDSE GROEPEN
 Dit vak is bedoeld om een overeenstemming te maken tussen de aangifte in de vennootschapsbelasting en de aangifte in de binnenlandse bijheffing voor groepen van multinationale ondernemingen en omvangrijke binnenlandse
 groepen.
 Volgens art. 30, § 2, W 19.12.2023, kan het overschot aan voorafbetalingen in de vennootschapsbelasting in aanmerking worden genomen in het kader van de binnenlandse bijheffing om een belastingvermeerdering wegens geen of
@@ -3159,7 +3154,7 @@ Belastingkrediet voor onderzoek en ontwikkeling dat voor het huidig belastbare t
 Op regel 1850 moet het gedeelte van het voor het aj. 2021 aangegeven verrekenbare en terugbetaalbare belastingkrediet worden vermeld dat niet kon worden verrekend met de vennootschapsbelasting die betrekking heeft op de aj. 2021
 tot 2025 en aldus terugbetaalbaar is.
 
-VAK - GRONDSLAG VAN DE EXITHEFFING
+## VAK - GRONDSLAG VAN DE EXITHEFFING
 Hier moet worden vermeld, in voorkomend geval na proportionele verrekening van de aftrekken zoals vermeld in de
 art. 199 tot 206, WIB 92:
 -
@@ -3212,14 +3207,12 @@ De keuze voor de gespreide betaling moet, binnen een termijn van twee maanden va
 art. 413/1, § 4, WIB 92.
 Er wordt opgemerkt dat de vermeerdering ingeval geen of ontoereikende voorafbetalingen zijn gedaan niet van toepassing is op dit gedeelte van de belasting (art. 218, § 1, eerste lid, WIB 92).
 
-VAK - VERMEERDERING INGEVOLGE DE OVERSCHRIJDING VAN DE MAXIMALE
-STEUNINTENSITEIT TEN GEVOLGE VAN DE ACHTERWAARTSE AFTREK VAN
-LANDBOUWVERLIEZEN
+## VAK - VERMEERDERING INGEVOLGE DE OVERSCHRIJDING VAN DE MAXIMALE STEUNINTENSITEIT TEN GEVOLGE VAN DE ACHTERWAARTSE AFTREK VAN LANDBOUWVERLIEZEN
 Wanneer de belastingplichtige heeft geopteerd voor de achterwaartse aftrek van landbouwverliezen in toepassing van
 art. 206, § 4, WIB 92, (zie ook het vak ‘Compenseerbare verliezen’, regels 1724 en 1725) en ingevolge die aftrek het
 teveel aan belasting in toepassing van art. 375/1, WIB 92, van rechtswege is ontheven, op regel 1877 de overeenkomstig art. 168/1, § 3, WIB 92, bepaalde vermeerdering vermelden.
 
-VAK - AFTREK VOOR INNOVATIE-INKOMSTEN
+## VAK - AFTREK VOOR INNOVATIE-INKOMSTEN
 In het kader van de gegevensuitwisseling met de OESO te verzamelen informatie
 Het vakje op de regel 1880 aanvinken (in de papieren aangifte moet op die regel ‘JA’ worden vermeld) indien in de op
 de regels 1439 of 1442 vermelde aftrek voor innovatie-inkomsten bedragen zijn begrepen die, overeenkomstig een
@@ -3228,7 +3221,7 @@ met een breuk vastgesteld op basis van de verhouding van de toegevoegde waarde v
 uitgevoerde activiteiten voor onderzoek en ontwikkeling in verhouding tot het geheel van activiteiten voor onderzoek en
 ontwikkeling met betrekking tot een bepaald intellectueel eigendomsrecht (art. 205/3, § 2, WIB 92).
 
-VAK - GROOTTE VAN DE VENNOOTSCHAP
+## VAK - GROOTTE VAN DE VENNOOTSCHAP
 Dit vak heeft als doel te bepalen of een vennootschap al dan niet als een ‘kleine vennootschap’ moet worden beschouwd.
 Het vakje op de regel 1871 aanvinken (in de papieren aangifte moet op die regel ‘JA’ worden vermeld) indien de vennootschap is verbonden met één of meerdere andere vennootschappen in de zin van art. 1:20, WVV, zoals vermeld in
 art. 1:24, § 6, van hetzelfde Wetboek. Indien dat niet het geval is, moet op de regel 1871 niets vermeld worden.
@@ -3257,7 +3250,7 @@ met uitsluiting van de niet-recurrente opbrengsten.
 Op regel 1874 het balanstotaal vermelden.
 Dit is de totale boekwaarde van de activa zoals ze blijkt uit het balansschema dat vastgesteld is bij het KB/WVV.
 
-VAK - GECONTROLEERDE BUITENLANDSE ONDERNEMINGEN
+## VAK - GECONTROLEERDE BUITENLANDSE ONDERNEMINGEN
 De vennootschap moet in zijn aangifte het bestaan melden van elke buitenlandse vennootschap of buitenlandse inrichting, die in toepassing van art. 185/2, § 3, WIB 92, als CFC wordt aangemerkt (art. 307, § 1/2, vijfde en zesde lid,
 WIB 92).
 Indien de belastingplichtige een buitenlandse vennootschap aanhoudt die als CFC wordt aangemerkt of waarvan de

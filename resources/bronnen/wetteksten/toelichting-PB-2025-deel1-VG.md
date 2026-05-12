@@ -17,10 +17,10 @@ provenance:
       version: '2025'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 6655d4b-dirty
+    pipeline_version: 1fc0dd6
     model:
     prompt_version:
-  generated_at: '2026-05-12T20:05:25Z'
+  generated_at: '2026-05-12T20:13:57Z'
   stale: false
   stale_reason:
   trust:
@@ -30,11 +30,11 @@ provenance:
     rationale:
     layer1:
       status: warn
-      run_id: 20260512-200606
-      run_at: '2026-05-12T20:06:07Z'
-      heading_count: 14
+      run_id: 20260512-201404
+      run_at: '2026-05-12T20:14:04Z'
+      heading_count: 13
       max_section_chars: 102927
-      file_size_chars: 358441
+      file_size_chars: 358438
       flags:
         - name: max_section_size
           status: warn
@@ -220,7 +220,7 @@ I.
 
 102
 
-## GEWESTELIJK
+GEWESTELIJK
 
 A. Uitgaven voor behoud of herwaardering van beschermd onroerend erfgoed
 B. Betalingen voor prestaties in het kader van het wijk-werken

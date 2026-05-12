@@ -148,10 +148,22 @@ class TestInjectHeadingsNarratief:
     # ─── Patroon E: ingesprongen ALLCAPS, omsloten door lege regels (VenB) ───
 
     def test_vak_min_sectie(self):
-        """'    VAK - RESERVES' omsloten door lege regels → ## heading."""
+        """'    VAK - RESERVES' omsloten door lege regels → ## heading (patroon E)."""
         body = "Vorige tekst.\n\n    VAK - RESERVES\n\nA. Belastbare gereserveerde winst\n"
         result, _ = inject_headings_narratief(body, {})
         assert "## VAK - RESERVES" in result
+
+    def test_vak_min_col0(self):
+        """'VAK - RESERVES' op kolom 0 (VenB-stijl, geen omsluitende lege regels) → ## heading."""
+        body = "Vorige tekst.\n\nVAK - RESERVES\nA. Belastbare gereserveerde winst\n"
+        result, _ = inject_headings_narratief(body, {})
+        assert "## VAK - RESERVES" in result
+
+    def test_vak_min_col0_met_continuatie(self):
+        """'VAK - TEKST' met ALLCAPS-vervolgregel → samengevoegde heading."""
+        body = "Vorige.\n\nVAK - BIJZONDERE AANSLAGEN MET BETREKKING TOT\nVERRICHTINGEN DIE VOOR\nA. Tekst.\n"
+        result, _ = inject_headings_narratief(body, {})
+        assert "## VAK - BIJZONDERE AANSLAGEN MET BETREKKING TOT VERRICHTINGEN DIE VOOR" in result
 
     def test_bankinformatie_ingesprongen(self):
         """'    BANKINFORMATIE' omsloten door lege regels → ## heading."""
