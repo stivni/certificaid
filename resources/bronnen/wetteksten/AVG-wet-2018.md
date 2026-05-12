@@ -17,35 +17,19 @@ provenance:
       version: 30.07.2018
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: 8add68e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:14:05Z'
+  generated_at: '2026-05-12T19:38:12Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T19:27:14Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B5/G3: de body start met een rij amendment-marker artikelnummers op regel 47 (bv. '(Art.254) (Art.255)...') die als plain-tekst bulk vooraan staat — dit is een Fisconet-artefact, geen inhoud. Verder zijn individuele artikelkoppen correct als ##### headings, inhoud volledig aanwezig (L1 pass, 533 headings)."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-191733
-      run_at: '2026-05-12T19:17:33Z'
-      heading_count: 533
-      max_section_chars: 8309
-      file_size_chars: 303040
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:14Z'
-      rationale: "B5/G3: de body start met een rij amendment-marker artikelnummers op regel 47 (bv. '(Art.254) (Art.255)...') die als plain-tekst bulk vooraan staat — dit is een Fisconet-artefact, geen inhoud. Verder zijn individuele artikelkoppen correct als ##### headings, inhoud volledig aanwezig (L1 pass, 533 headings)."
-      concrete_problemen:
-        - regel: 47
-          categorie: G3
-          type: other
-          voorbeeld: (Art.254)   (Art.255)    (Art.256)      (Art.257)  ... .\n01-04-2019             (Art.20)
 ---
 
 # Belgische AVG-uitvoeringswet 2018
@@ -53,9 +37,6 @@ provenance:
 *Bijgewerkt tot en met 30.07.2018 — gecoördineerde versie.*
 
 30 JULI 2018. - Wet betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens
-
-(Art.254)   (Art.255)    (Art.256)      (Art.257)     (Art.258)   (Art.259)   (Art.260 (Art.261)   (Art.262)    (Art.263)      (Art.264)     (Art.265)   (Art.266)   (Art.267) 05-09-2018 (Art.268)   (Art.269)    (Art.270)      (Art.272)     (Art.273)   (Art.274)   (Art.275) (Art.276)   (Art.277)    (Art.278)      (Art.279)     (Art.280)   (Art.281)   .
-01-04-2019             (Art.20)
 
 ##### Art. 24
 

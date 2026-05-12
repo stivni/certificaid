@@ -30,6 +30,7 @@ from tools.etl.transformers.emit_frontmatter import emit_frontmatter  # noqa: E4
 from tools.etl.transformers.strip_fisconet_artefacts import strip_fisconet_artefacts  # noqa: E402
 from tools.etl.transformers.fix_stuck_art_number import fix_stuck_art_number  # noqa: E402
 from tools.etl.transformers.split_merged_headings import split_merged_headings  # noqa: E402
+from tools.etl.transformers.strip_amendment_overview import strip_amendment_overview  # noqa: E402
 
 
 # ─── apply_chain ─────────────────────────────────────────────────────────────
@@ -631,3 +632,96 @@ class TestSplitMergedHeadings:
     def test_geregistreerd_in_transformers(self):
         """split_merged_headings moet in TRANSFORMERS-registry zitten."""
         assert "split_merged_headings" in TRANSFORMERS
+
+
+# ─── strip_amendment_overview ─────────────────────────────────────────────────
+
+class TestStripAmendmentOverview:
+    """Strip Fisconet wijzigings-overzicht-artefacten uit body."""
+
+    def test_multi_art_ref_row(self):
+        """Rij met ≥3 `(Art.N)` wordt gestript."""
+        body = "Body voor.\n(Art.254)   (Art.255)    (Art.256)\nBody na.\n"
+        result, _ = strip_amendment_overview(body, {})
+        assert "(Art.254)" not in result
+        assert "Body voor." in result
+        assert "Body na." in result
+
+    def test_date_art_ref_line(self):
+        """Regel met datum + (Art.N) wordt gestript."""
+        body = "Body voor.\n01-04-2019             (Art.20)\nBody na.\n"
+        result, _ = strip_amendment_overview(body, {})
+        assert "01-04-2019" not in result
+        assert "Body voor." in result
+        assert "Body na." in result
+
+    def test_no_strip_legitimate_art_ref_in_text(self):
+        """Een enkele `(Art.N)` inline in body-tekst blijft staan."""
+        body = "Conform de bepalingen van (Art.5) geldt het volgende.\n"
+        result, _ = strip_amendment_overview(body, {})
+        assert result == body
+
+    def test_no_strip_two_art_refs_only(self):
+        """Twee `(Art.N)` op een regel is geen overzicht — niet strippen."""
+        body = "Conform (Art.5) en (Art.7) bepalingen.\n"
+        result, _ = strip_amendment_overview(body, {})
+        assert result == body
+
+    def test_no_strip_date_in_normal_sentence(self):
+        """Een datum in normale tekst (geen alleen-op-regel) wordt niet gestript."""
+        body = "Inwerkingtreding: 01-04-2019 volgens artikel 5.\n"
+        result, _ = strip_amendment_overview(body, {})
+        assert result == body
+
+    def test_avg_wet_pattern(self):
+        """Realistisch patroon uit AVG-wet-2018."""
+        body = (
+            "30 JULI 2018. - Wet betreffende de bescherming.\n"
+            "\n"
+            "(Art.254)   (Art.255)    (Art.256)      (Art.257)     (Art.258)\n"
+            "01-04-2019             (Art.20)\n"
+            "\n"
+            "##### Art. 24\n"
+        )
+        result, _ = strip_amendment_overview(body, {})
+        assert "(Art.254)" not in result
+        assert "01-04-2019" not in result
+        assert "30 JULI 2018" in result
+        assert "##### Art. 24" in result
+
+    def test_idempotent(self):
+        """Tweede call verandert niets."""
+        body = "(Art.254)   (Art.255)    (Art.256)\n"
+        once, _ = strip_amendment_overview(body, {})
+        twice, _ = strip_amendment_overview(once, {})
+        assert once == twice
+
+    def test_collapse_blank_lines_after_strip(self):
+        """Multiple lege regels na strip worden tot max 2 collapsed."""
+        body = (
+            "Foo.\n"
+            "\n"
+            "(Art.254)   (Art.255)    (Art.256)\n"
+            "01-04-2019    (Art.20)\n"
+            "\n"
+            "Bar.\n"
+        )
+        result, _ = strip_amendment_overview(body, {})
+        # Geen meer dan 2 opeenvolgende newlines
+        assert "\n\n\n" not in result
+
+    def test_long_messy_overview_with_mid_line_date(self):
+        """Realistische zeer lange rij met embedded datum + missing-paren.
+
+        Voorbeeld uit AVG-wet (na partial fix): één lange regel met >20
+        `(Art.N)` references, een datum `05-09-2018` middenin, en zelfs
+        een typo `(Art.260` zonder sluithaakje.
+        """
+        body = (
+            "(Art.254)   (Art.255)    (Art.256)      (Art.257)     (Art.258)   "
+            "(Art.259)   (Art.260 (Art.261)   (Art.262) 05-09-2018 "
+            "(Art.268)   (Art.269)    (Art.270) ."
+        )
+        result, _ = strip_amendment_overview(body, {})
+        # Regel met zoveel (Art.N) refs hoort als overzicht behandeld te worden
+        assert "(Art.254)" not in result, f"long overview row niet gestript: {result[:100]!r}"
