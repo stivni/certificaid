@@ -683,6 +683,10 @@ _IMPLICIT_HEADING_PATTERNS = [
 ]
 
 _BOLD_TITLE_STANDALONE = re.compile(r'^\s*\*\*([^\*\n]{20,}?)\*\*\s*$')
+# Italic-equivalent: enkele asterisks rond een lange tekst (≥20 chars) op een
+# eigen regel. Toegevoegd 2026-05-13 voor B5-patroon in CBN-Q&A-adviezen waar
+# vragen-titels als italic-standalone staan i.p.v. heading.
+_ITALIC_TITLE_STANDALONE = re.compile(r'^\s*\*([^\*\n]{20,}?)\*\s*$')
 
 
 def _promote_implicit_headings(md: str) -> str:
@@ -701,6 +705,17 @@ def _promote_implicit_headings(md: str) -> str:
 
         if not replaced:
             m = _BOLD_TITLE_STANDALONE.match(line)
+            if m:
+                prev_blank = (i == 0 or not lines[i - 1].strip())
+                next_blank = (i >= len(lines) - 1 or not lines[i + 1].strip())
+                if prev_blank and next_blank:
+                    title = m.group(1).strip()
+                    if not re.search(r'[\.\?\!]$', title):
+                        out_lines.append(f'## {title}')
+                        replaced = True
+
+        if not replaced:
+            m = _ITALIC_TITLE_STANDALONE.match(line)
             if m:
                 prev_blank = (i == 0 or not lines[i - 1].strip())
                 next_blank = (i >= len(lines) - 1 or not lines[i + 1].strip())
