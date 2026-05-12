@@ -40,35 +40,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: ccd9afd
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-12T22:47:46Z'
+  generated_at: '2026-05-12T23:22:48Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T22:59:55Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: *N**iet in de balans opgenomen rechten en verplichtingen* op regel 22 - ETL-artefact: N is fout gescraped als * + ** mixing, veroorzaakt door inconsistent italic rendering.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-225123
-      run_at: '2026-05-12T22:51:26Z'
-      heading_count: 29
-      max_section_chars: 22789
-      file_size_chars: 39959
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T22:59:55Z'
-      rationale: 'D4: *N**iet in de balans opgenomen rechten en verplichtingen* op regel 22 - ETL-artefact: N is fout gescraped als * + ** mixing, veroorzaakt door inconsistent italic rendering.'
-      concrete_problemen:
-        - regel: 22
-          categorie: D4
-          type: unclosed-bold
-          voorbeeld: '*N**iet in de balans opgenomen rechten en verplichtingen*'
 ---
 # Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen (Err., Bull. CBN, nr. 30, februari 1993, p. 8)
 

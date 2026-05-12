@@ -26,38 +26,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-09T19:12:06Z'
+  generated_at: '2026-05-12T23:21:59Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260511-085756
-      run_at: '2026-05-11T08:57:56Z'
-      heading_count: 7
-      max_section_chars: 1978
-      file_size_chars: 7564
-      flags: []
     layer2:
-      status: trusted
-      agent:
-      run_at:
-      rationale: 'Schone HTML-extractie van itaa.be/algemene-controlenorm. Alle 7 hoofdsecties (Inleiding, Verslag, Werkschema, Werkdocumenten, Opvolging, Controles, Commissie van Toezicht) als ## heading, inhoud volledig en leesbaar. Geen kolom-bleed, geen OCR-flags.'
-      concrete_problemen: []
 ---
 # Algemene controlenorm (Besl. Raad d.d. 30 september 1991)
 
 ## 1. Inleiding
 Elk door de accountant afgeleverd attest steunt op de onafhankelijke beoordeling die hij heeft opgedaan ingevolge een passende en daadwerkelijke controle die hij heeft uitgevoerd.
 Bij de uitvoering van zijn opdrachten moet de accountant zich laten leiden:
-door de wettekst die zijn opdracht omschrijft en die de vorm van de controle bepaalt;
+door de wettekst die zijn opdracht omschrijft en die de vorm van de controle bepaalt;
 door de overeenkomst die de accountant met zijn cliënt heeft afgesloten;
 door de bijzondere aanbevelingen die uitgaan van het Instituut van de Accountants en de Belastingconsulenten;
 door de gespecialiseerde vakliteratuur.
@@ -72,7 +60,7 @@ De accountant voert zijn opdracht uit en stelt zijn besluiten op in een geest va
 De accountant dient geen oordeel uit te spreken over de opportuniteit van de beslissingen die aan zijn opdracht ten grondslag liggen. Toch dient hij, met naleving van het beroepsgeheim waartoe hij gehouden is, erover te waken dat alle betrokken partijen op correcte wijze voorgelicht worden over de mogelijke gevolgen van de genomen beslissingen, met name wanneer de beslissingen de continuïteit van het bedrijf in het gedrang zouden kunnen brengen.
 ## 3. Werkschema
 Elke opdracht wordt uitgevoerd overeenkomstig een passend werkschema. Dit schema is een beschrijving van de controlewerkzaamheden die moeten uitgevoerd worden en aan de hand waarvan het mogelijk moet zijn, binnen normaal voorzienbare grenzen, te bepalen wanneer en hoe de controlewerkzaamheden zullen kunnen worden uitgevoerd en hoeveel tijd zij in beslag zullen nemen.
-Dit werkschema kan, naarmate de opdracht vordert, aangepast worden. De accountant is verplicht de door hem of door zijn medewerkers uitgevoerde controlewerkzaamheden schriftelijk en op onuitwisbare wijze op te tekenen of te laten optekenen teneinde er een spoor van te behouden. Deze werkdocumenten moeten gedurende ten minste 10 jaar worden bewaard.
+Dit werkschema kan, naarmate de opdracht vordert, aangepast worden. De accountant is verplicht de door hem of door zijn medewerkers uitgevoerde controlewerkzaamheden schriftelijk en op onuitwisbare wijze op te tekenen of te laten optekenen teneinde er een spoor van te behouden. Deze werkdocumenten moeten gedurende ten minste 10 jaar worden bewaard.
 ## 4. Werkdocumenten
 De werkdocumenten moeten zo worden opgesteld dat zij het bewijs kunnen uitmaken van de omvang en van de aard van de uitgevoerde werkzaamheden en dat zij de verantwoording bevatten van de conclusies waartoe de controlewerkzaamheden hebben geleid.
 De werkdocumenten omvatten met name:
@@ -88,11 +76,11 @@ de aanwijzing van de persoon die de controleprocedures heeft uitgevoerd en het o
 een afschrift van de met derden uitgewisselde inlichtingen;
 de afschriften van de brieven of van de nota’s die, met betrekking tot de uitgevoerde controles, aan het bedrijf werden gericht of die met de vertegenwoordigers van het bedrijf werden besproken, met inbegrip van de brief die de opdracht van de accountant bevat en de opmerkingen die verband houden met de interne controles;
 de door de cliënt afgelegde verklaringen;
-de besluiten waartoe de accountant gekomen is in verband met de belangrijke punten van de controle met de gekozen oplossing voor of wat er gedaan werd met de anomalieën die de controleverrichtingen aan het licht mochten gebracht hebben;
+de besluiten waartoe de accountant gekomen is in verband met de belangrijke punten van de controle met de gekozen oplossing voor of wat er gedaan werd met de anomalieën die de controleverrichtingen aan het licht mochten gebracht hebben;
 een afschrift van de financiële informatie evenals van de verslagen waarop de controle betrekking gehad heeft.
 Al deze werkdocumenten behoren uitsluitend toe aan de accountant en zijn gedekt door het beroepsgeheim.
 ## 5. Opvolging
-Elke accountant die een confrater of een bedrijfsrevisor moet opvolgen, moet vooraf met hem in contact treden. De opvolger mag de werkdocumenten van zijn voorganger inzien, maar deze laatste mag zijn oorspronkelijke stukken niet uit handen geven.
+Elke accountant die een confrater of een bedrijfsrevisor moet opvolgen, moet vooraf met hem in contact  treden. De opvolger mag de werkdocumenten van zijn voorganger inzien, maar deze laatste mag zijn oorspronkelijke stukken niet uit handen geven.
 De accountant beslist in alle onafhankelijkheid, maar hij moet al zijn beroepsbekwaamheid en zijn ervaring aanwenden om een verantwoorde keuze te maken in verband met de aard en de omvang van de uit te voeren controles evenals in verband met de aan te wenden technieken; hij moet echter steeds in staat zijn zijn besluiten op een samenhangende manier te kunnen verantwoorden.
 ## 6. Controles
 Bij de vaststelling van zijn keuze moet de accountant:

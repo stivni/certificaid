@@ -33,37 +33,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: ccd9afd
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-12T22:47:35Z'
+  generated_at: '2026-05-12T23:22:37Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T22:59:55Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'C1: 5 bullet-glyphs (•) in de body als PDF-opsommingsteken i.p.v. markdown-conventie (-). ETL bullet-promotion fix heeft dit bestand gemist.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-225123
-      run_at: '2026-05-12T22:51:25Z'
-      heading_count: 10
-      max_section_chars: 10968
-      file_size_chars: 21954
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T22:59:55Z'
-      rationale: 'C1: 5 bullet-glyphs (•) in de body als PDF-opsommingsteken i.p.v. markdown-conventie (-). ETL bullet-promotion fix heeft dit bestand gemist.'
-      concrete_problemen:
-        - categorie: C1
-          type: bullet-glyph
-          voorbeeld: • Als dit bedrag wordt vergeleken met de geactualiseerde waarde
-        - categorie: C1
-          type: bullet-glyph
-          voorbeeld: '• Dat bedrag kan ook worden verkregen :'
 ---
 # CBN-advies 139/8 - Uitgifte van obligaties met inschrijvingsrechten die in aandelen converteerbaar of terugbetaalbaar zijn, en van aandelen waaraan het recht is gekoppeld om in te schrijven op later uit te geven aandelen
 

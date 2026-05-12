@@ -24,31 +24,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: ccd9afd
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-12T22:47:22Z'
+  generated_at: '2026-05-12T23:22:21Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T22:59:54Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (1126 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-225123
-      run_at: '2026-05-12T22:51:24Z'
-      heading_count: 0
-      max_section_chars: 1125
-      file_size_chars: 1125
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T22:59:54Z'
-      rationale: 'Kort advies (1126 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
-      concrete_problemen: []
 ---
 # CBN-advies 120/2 - In aanmerking te nemen termijn - Contractuele termijn of nog te lopen termijn
 

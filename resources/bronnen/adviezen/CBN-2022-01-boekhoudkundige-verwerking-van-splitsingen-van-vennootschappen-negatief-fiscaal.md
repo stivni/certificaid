@@ -29,31 +29,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: ccd9afd
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-12T22:48:44Z'
+  generated_at: '2026-05-12T23:23:44Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T22:59:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-225123
-      run_at: '2026-05-12T22:51:28Z'
-      heading_count: 6
-      max_section_chars: 4439
-      file_size_chars: 15330
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T22:59:58Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2025/01 – Boekhoudkundige verwerking van splitsingen van vennootschappen – negatief fiscaal nettoactief – herwaarderingsmeerwaarde (addendum bij CBN-advies 2022/01 en 2022/12)
 

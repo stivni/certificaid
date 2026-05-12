@@ -25,37 +25,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-09T19:12:06Z'
+  generated_at: '2026-05-12T23:21:59Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260511-085756
-      run_at: '2026-05-11T08:57:56Z'
-      heading_count: 4
-      max_section_chars: 7012
-      file_size_chars: 12696
-      flags: []
     layer2:
-      status: trusted
-      agent:
-      run_at:
-      rationale: Korte norm (4 secties I-IV) uit PDF schoon geconverteerd. Heading-structure correct, definities en voorwaarden volledig. Cover-page tekst (L41-54) heeft cosmetische inspring; copyright-footers (L106, L160, L215) embedded in body, maar verstoort retrieval niet.
-      concrete_problemen:
-        - regel: 41
-          type: other
-          voorbeeld: Cover-page header 'ITAA / INSTITUTE FOR TAX / ADVISORS & ACCOUNTANTS' met inspring — cosmetisch
-        - regel: 106
-          type: other
-          voorbeeld: "Page-footer copyright '© ITAA – Norm betreffende...' embedded in body (3x: L106, L160, L215)"
 ---
                    ITAA
             INSTITUTE FOR TAX

@@ -36,37 +36,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: ccd9afd
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-12T22:47:45Z'
+  generated_at: '2026-05-12T23:22:48Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T22:59:55Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'C1: 2 bullet-glyphs (•) als PDF-opsommingsteken i.p.v. markdown-conventie (-). Overige opsommingen gebruiken correct "-".'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-225123
-      run_at: '2026-05-12T22:51:26Z'
-      heading_count: 0
-      max_section_chars: 7812
-      file_size_chars: 7812
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T22:59:55Z'
-      rationale: 'C1: 2 bullet-glyphs (•) als PDF-opsommingsteken i.p.v. markdown-conventie (-). Overige opsommingen gebruiken correct "-".'
-      concrete_problemen:
-        - categorie: C1
-          type: bullet-glyph
-          voorbeeld: • als een inbreng gevolgd door een uitkering in natura
-        - categorie: C1
-          type: bullet-glyph
-          voorbeeld: • als een splitsing met specifieke kenmerken
 ---
 # CBN-advies 166/2 - Verwerking in de jaarrekening van bepaalde verrichtingen als bedoeld in artikel 677 van het Wetboek van vennootschappen1
 

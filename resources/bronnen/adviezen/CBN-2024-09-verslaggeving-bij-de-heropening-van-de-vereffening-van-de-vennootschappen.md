@@ -37,35 +37,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: ccd9afd
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-12T22:48:53Z'
+  generated_at: '2026-05-12T23:23:52Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T22:59:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B4: "HET LOT VAN EEN VERGETEN ACTIEF OF PASSIEF NA DE SLUITING VAN DE VEREFFENING" (regel 171) is plain-text-header zonder ##-prefix. Overige headings correct aangemaakt.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-225123
-      run_at: '2026-05-12T22:51:29Z'
-      heading_count: 12
-      max_section_chars: 20685
-      file_size_chars: 29361
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T22:59:58Z'
-      rationale: 'B4: "HET LOT VAN EEN VERGETEN ACTIEF OF PASSIEF NA DE SLUITING VAN DE VEREFFENING" (regel 171) is plain-text-header zonder ##-prefix. Overige headings correct aangemaakt.'
-      concrete_problemen:
-        - regel: 171
-          categorie: B4
-          type: allcaps-struct-label
-          voorbeeld: HET LOT VAN EEN VERGETEN ACTIEF OF PASSIEF NA DE SLUITING VAN DE VEREFFENING
 ---
 # CBN-advies 2024/09 – Verslaggeving bij de heropening van de vereffening van de vennootschappen
 
@@ -177,8 +161,7 @@ Gelet op art. 2:105, § 5 WVV dient de vereffenaar vanaf het ogenblik dat de ver
 
 9 oktober 2024
 
-HET LOT VAN EEN VERGETEN ACTIEF OF PASSIEF NA DE SLUITING VAN DE VEREFFENING
-
+## HET LOT VAN EEN VERGETEN ACTIEF OF PASSIEF NA DE SLUITING VAN DE VEREFFENING
 Het is wellicht een curiosum, een ‘*accident de parcours*’: een vergeten actief of passief dat opduikt nà de sluiting van de vereffening.1 De wetgever heeft, nu voor het eerst, een wettelijke regeling uitgewerkt (art. 2:104 en 2:105 WVV). We geven nu reeds mee dat de vereffening enkel zal heropend worden als een vergeten actief opduikt in een *deficitaire* vereffening. 
 
 1 EEN VERGETEN ACTIEF 

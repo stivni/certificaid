@@ -25,31 +25,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: ccd9afd
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-12T22:48:06Z'
+  generated_at: '2026-05-12T23:23:08Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T22:59:56Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (9 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-225123
-      run_at: '2026-05-12T22:51:27Z'
-      heading_count: 8
-      max_section_chars: 15982
-      file_size_chars: 20249
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T22:59:56Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (9 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2012/9 – De boekhoudkundige verwerking van de verwerving van een vast actief voor een variabele prijs die afhankelijk is van een toekomstige en onzekere gebeurtenis die een rechtstreeks verband houdt met het nut dat het verworven actief heeft voor de vennootschap (update)
 

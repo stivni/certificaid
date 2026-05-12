@@ -27,31 +27,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: ccd9afd
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-12T22:47:40Z'
+  generated_at: '2026-05-12T23:22:42Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T22:59:55Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (1170 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-225123
-      run_at: '2026-05-12T22:51:25Z'
-      heading_count: 0
-      max_section_chars: 1169
-      file_size_chars: 1169
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T22:59:55Z'
-      rationale: 'Kort advies (1170 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
-      concrete_problemen: []
 ---
 # CBN-advies 150/2 - Aansluitingskosten en installatiekosten waarbij derden de eigendom van de installatie verwerven of behouden
 

@@ -32,31 +32,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: ccd9afd
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-12T22:47:17Z'
+  generated_at: '2026-05-12T23:22:18Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T22:59:54Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-225123
-      run_at: '2026-05-12T22:51:24Z'
-      heading_count: 0
-      max_section_chars: 4474
-      file_size_chars: 4474
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T22:59:54Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN advies 112/5 - Progressieve afschrijvingsmethode
 Volgens het koninklijk besluit van 8 oktober 1976 moeten de materiële en immateriële vaste activa waarvan de gebruiksduur beperkt is, worden afgeschreven volgens een door het beheersorgaan bepaald plan, teneinde de aanschaffingskosten te spreiden over hun waarschijnlijke nuttigheids- of gebruiksduur. Dit afschrijvingsbeleid moet stroken met de beginselen inzake voorzichtigheid, oprechtheid en goede trouw. Het mag niet worden geconditioneerd door de resultaten van het boekjaar. 

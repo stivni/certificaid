@@ -28,31 +28,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: ccd9afd
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-12T22:48:11Z'
+  generated_at: '2026-05-12T23:23:13Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T22:59:56Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-225123
-      run_at: '2026-05-12T22:51:27Z'
-      heading_count: 4
-      max_section_chars: 6160
-      file_size_chars: 13025
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T22:59:56Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2013/12 - Erkenning van de opbrengsten en kosten die overeenstemmen met interesten en royalty's, evenals de toewijzing van de resultaten in de vorm van dividenden en tantièmes en de opbrengsten die overeenstemmen met dividenden en tantièmes
 

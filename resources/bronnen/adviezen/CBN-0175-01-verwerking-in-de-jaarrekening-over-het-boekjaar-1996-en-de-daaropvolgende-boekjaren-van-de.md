@@ -35,37 +35,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: ccd9afd
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-12T22:47:49Z'
+  generated_at: '2026-05-12T23:22:52Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T22:59:55Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'C1: 2 bullet-glyphs (•) als PDF-opsommingsteken. Overige opsommingen gebruiken correct "-".'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-225123
-      run_at: '2026-05-12T22:51:26Z'
-      heading_count: 7
-      max_section_chars: 9233
-      file_size_chars: 18045
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T22:59:55Z'
-      rationale: 'C1: 2 bullet-glyphs (•) als PDF-opsommingsteken. Overige opsommingen gebruiken correct "-".'
-      concrete_problemen:
-        - categorie: C1
-          type: bullet-glyph
-          voorbeeld: • In het PBEG van 6 augustus 1996 staat een mededeling
-        - categorie: C1
-          type: bullet-glyph
-          voorbeeld: • In haar beschikking van 4 december 1996 kondigt de Europese Commissie aan
 ---
 # CBN-advies 175/1 - Verwerking in de jaarrekening over het boekjaar 1996 en de daaropvolgende boekjaren, van de «Maribel bis en ter»-steun toegekend voor de boekjaren 1993, 1994, 1995 en 1996
 

@@ -27,31 +27,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: ccd9afd
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-12T22:47:47Z'
+  generated_at: '2026-05-12T23:22:49Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T22:59:55Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-225123
-      run_at: '2026-05-12T22:51:26Z'
-      heading_count: 6
-      max_section_chars: 10337
-      file_size_chars: 12009
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T22:59:55Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN advies 171 - Boekhoudkundige verwerking van afvalstoffen
 Aan de Commissie werd gevraagd hoe de produktie, de ophaling, de vernietiging, de verwerking of de recyclage van afvalstoffen alsook de exploitatie van stortplaatsen in de jaarrekening van ondernemingen moeten worden verwerkt. De ondernemingen, zoals trouwens ook de overheid, worden immers met steeds grotere afvalverwerkingsproblemen geconfronteerd. De Commissie heeft derhalve beslist daaraan een algemeen advies te wijden. 

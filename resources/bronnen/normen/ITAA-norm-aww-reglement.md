@@ -28,34 +28,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-09T19:12:06Z'
+  generated_at: '2026-05-12T23:21:59Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260511-085756
-      run_at: '2026-05-11T08:57:56Z'
-      heading_count: 14
-      max_section_chars: 8503
-      file_size_chars: 42385
-      flags: []
     layer2:
-      status: trusted
-      agent:
-      run_at:
-      rationale: "AWW-reglement (IAB-norm) volledig met alle 10 hoofdsecties + 4 bijlagen als ## headings. Definities, voorwaarden en bijlagen intact. Eén orphan TOC-regel (L121: 'BIJLAGE I: Variabelen ten minste in overweging te nemen in de integrale') is een minor cosmetisch overblijfsel; verstoort retrieval niet."
-      concrete_problemen:
-        - regel: 121
-          type: other
-          voorbeeld: "Orphan TOC-line 'BIJLAGE I: Variabelen ten minste in overweging te nemen in de integrale' tussen preambule en sectie 1"
 ---
   Norm van het Instituut van de Accountants en de Belastingconsulenten d.d. 31
 maart 2020 inzake de toepassing van de wet van 18 september 2017 tot voorkoming

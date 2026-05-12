@@ -20,35 +20,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: ccd9afd
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-12T22:47:00Z'
+  generated_at: '2026-05-12T23:22:00Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T22:59:53Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: gecombineerde bold/italic marker op regel 56 (*Bull. **CBN* nr. 2) is fout gesloten door ETL; mixing van inline formatting. Verder schoon advies.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-225123
-      run_at: '2026-05-12T22:51:24Z'
-      heading_count: 1
-      max_section_chars: 6895
-      file_size_chars: 6895
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T22:59:53Z'
-      rationale: 'D4: gecombineerde bold/italic marker op regel 56 (*Bull. **CBN* nr. 2) is fout gesloten door ETL; mixing van inline formatting. Verder schoon advies.'
-      concrete_problemen:
-        - regel: 56
-          categorie: D4
-          type: unclosed-bold
-          voorbeeld: '*Bull. **CBN* nr. 2 - gecombineerd * en ** marker'
 ---
 # CBN advies 7-2 - Interne en externe jaarrekening – Begrippen
 De Commissie heeft in een aantal gevallen enige begripsverwarring vastgesteld inzake het onderscheid dat uit de boekhoudwet en haar uitvoeringsbesluiten voortvloeit, tussen enerzijds de zogenaamde interne jaarrekening, en anderzijds de externe jaarrekening.[^1] 

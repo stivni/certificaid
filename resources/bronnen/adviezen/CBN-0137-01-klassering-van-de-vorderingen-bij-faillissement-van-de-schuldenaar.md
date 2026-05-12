@@ -30,31 +30,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: ccd9afd
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-12T22:47:32Z'
+  generated_at: '2026-05-12T23:22:32Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T22:59:55Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-225123
-      run_at: '2026-05-12T22:51:25Z'
-      heading_count: 0
-      max_section_chars: 2106
-      file_size_chars: 2106
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T22:59:55Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN advies 137-1 - Klassering van de vorderingen bij faillissement van de schuldenaar
 Overeenkomstig de definities in de bijlage bij het besluit van 8 oktober 1976 geldt als criterium voor de rangschikking van een vordering onder de vorderingen op meer dan één jaar of de vorderingen op ten hoogste één jaar in de eerste plaats de termijn die in de overeenkomst werd voorzien. 

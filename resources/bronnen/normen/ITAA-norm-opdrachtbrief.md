@@ -25,37 +25,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-09T19:12:07Z'
+  generated_at: '2026-05-12T23:22:01Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260511-085756
-      run_at: '2026-05-11T08:57:57Z'
-      heading_count: 18
-      max_section_chars: 5311
-      file_size_chars: 24353
-      flags: []
     layer2:
-      status: trusted
-      agent:
-      run_at:
-      rationale: "Twee-deel norm-nota: deel 1 'Wettelijke verplichting' met secties 1-4, deel 2 'Enkele inhoudelijke aspecten van de opdrachtbrief' met secties 1-9. Hierdoor 2x duplicate ## nummers maar elk binnen eigen logische groep — interpretatief leesbaar. Geen kolom-bleed, geen OCR-fouten van betekenis. Page-footers (1, 2, 3) als losse regels — minor cosmetisch."
-      concrete_problemen:
-        - regel: 252
-          type: other
-          voorbeeld: "'## 1. Algemeen' (deel 2) duplicaat van L60 — kan retrieval verwarren maar inhoudelijk twee aparte 'Algemeen'-secties"
-        - regel: 105
-          type: other
-          voorbeeld: Page-footers '1', '2', '3' als losse regels embedded in body
 ---
     OPDRACHTBRIEF
 

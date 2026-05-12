@@ -25,39 +25,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: ccd9afd
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-12T22:47:03Z'
+  generated_at: '2026-05-12T23:22:05Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T22:59:54Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B4: plain-text-header "DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW" (regel 207) zonder ##-prefix. 91 andere headings correct; dit is een ETL-omissie op 1 sectie.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: warn
-      run_id: 20260512-225123
-      run_at: '2026-05-12T22:51:24Z'
-      heading_count: 91
-      max_section_chars: 25937
-      file_size_chars: 121009
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ###-niveau: 25937 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T22:59:54Z'
-      rationale: 'B4: plain-text-header "DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW" (regel 207) zonder ##-prefix. 91 andere headings correct; dit is een ETL-omissie op 1 sectie.'
-      concrete_problemen:
-        - regel: 207
-          categorie: B4
-          type: allcaps-struct-label
-          voorbeeld: DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW
 ---
 # CBN-advies S100 - Vragen en antwoorden over de sociale balans
 
@@ -213,11 +193,10 @@ De ziekenhuizen die krachtens artikel 12, § 2 van de Boekhoudwet van 17 juli 19
 
 Zoals bij het begin werd vermeld, kunnen de ziekenhuizen die hun jaarrekening niet openbaar moeten maken, bij de NBB een aangepast formulier van sociale balans verkrijgen.
 
-DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW
-
+## DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW
 Overeenkomstig het KB van 14 december 1987 betreffende de jaarrekening van de ziekenhuizen moet elk ziekenhuis een jaarrekening en dus ook een sociale balans opmaken. Het feit dat een ziekenhuis afhangt van de OCMW, speelt daarbij geen rol ook niet ten aanzien van de sociale balans. In die sociale balans worden de werknemers vermeld die ingeschreven zijn in het personeelsregister.
 
-##### De andere privaatrechtelijke rechtspersonen (Hoofdstuk X van het KB betreffende de sociale balans)
+De andere privaatrechtelijke rechtspersonen (Hoofdstuk X van het KB betreffende de sociale balans)
 Het betreft rechtspersonen die tegelijk aan de volgende voorwaarden voldoen : 
 
 a. Niet behoren tot de voormelde categorieën. 
@@ -294,7 +273,7 @@ Het KB van 4 augustus 1996, genomen in uitvoering van de Wet van 22 december 199
 Deze twee categorieën moeten duidelijk worden onderscheiden vermits in het volledig schema van de sociale balans de werknemers van de eerste categorie vermeld moeten worden onder het punt I.A. van de "Staat van de tewerkgestelde personen", terwijl de personen van de tweede categorie voorkomen onder het punt I.B van dezelfde staat (enkel in het "volledig schema" van de sociale balans). 
 
 #### Werknemers ingeschreven in het personeelsregister
-##### Principes
+### Principes
 Het feit van ingeschreven te moeten zijn in het personeelsregister is het criterium[^39] dat toelaat om te bepalen welke werknemers in de sociale balans moeten worden opgenomen. Als een onderneming zich bijgevolg afvraagt of een bepaalde werknemer al dan niet in de sociale balans moet worden opgenomen, dan dient zij na te gaan of deze werknemer ingeschreven moet worden in haar personeelsregister, in toepassing van de KB's nr. 5 van 23 oktober 1978 en 8 augustus 1980 betreffende het bijhouden van sociale documenten. 
 
 Alle in de zin van artikel 6, 2° van het KB van 4 augustus 1996 in het personeelsregister ingeschreven werknemers (en dus verbonden met de onderneming door een overeenkomst), of zij nu werkelijk actief zijn in de onderneming of niet, moeten voor de sociale balans in aanmerking worden genomen; het KB betreffende de sociale balans maakt immers geen enkel onderscheid tussen in het personeelsregister ingeschreven werknemers die werkelijk "actief" zijn en die welke het niet zijn. Ook werknemers waarvan de uitvoering van arbeidsovereenkomst tijdelijk geschorst is[^40] (b.v. bij zwangerschapsverlof, ziekte, ongeval) worden dus bij de telling betrokken.
@@ -307,7 +286,7 @@ In sommige door de Koning bepaalde bedrijfstakken[^42] moet een aanwezigheidsreg
 
 Er rekening mee houdend dat het KB betreffende de sociale balans uitdrukkelijk verwijst naar het personeelsregister, blijkt dat in de huidige stand van de reglementering de tabellen I[^44] en II van de sociale balans uitsluitend betrekking hebben op de personen die in het personeelsregister zijn ingeschreven; personen die in een aanwezigheidsregister maar niet in het personeelsregister worden opgenomen, komen dus niet in aanmerking voor de sociale balans.
 
-##### Toepassing
+### Toepassing
 Moeten dus in de sociale balans vermeld worden door het feit dat zij in het personeelsregister moeten ingeschreven zijn :
 
 ###### De werknemers die met de onderneming verbonden zijn door een arbeidsovereenkomst of door een stage-overeenkomst
@@ -398,7 +377,7 @@ Conventioneel halftijds brugpensioen veronderstelt dat een voltijdse werknemer m
 De behandeling van deze werknemers zal verder onder punt 2.4.2. van dit advies uitgelegd worden.
 
 #### Uitzendkrachten en ter beschikking van de onderneming gestelde personen
-##### Uitzendkrachten
+### Uitzendkrachten
 Een uitzendkracht is door een arbeidsovereenkomst voor uitzendarbeid[^52] verbonden met een uitzendbureau. De uitzendkracht die bij de gebruiker wordt te werk gesteld, op grond van een (schriftelijke) overeenkomst tussen het uitzendbureau en de gebruiker, wordt niet ingeschreven in het personeelsregister van die gebruiker. 
 
 Voor wat de sociale balans betreft : 
@@ -408,7 +387,7 @@ Voor wat de sociale balans betreft :
 
 Voor de berekening van deze rubrieken wordt verwezen naar punt 3.6. van dit advies. 
 
-##### Ter beschikking van de onderneming gestelde personen
+### Ter beschikking van de onderneming gestelde personen
 Er wordt van ter beschikking van de onderneming gestelde personen gesproken, in de zin van de Wet van 24 juli 1987 betreffende de tijdelijke arbeid, de uitzendarbeid en het ter beschikking stellen van werknemers ten behoeve van gebruikers, wanneer een werkgever werknemers, die hij in dienst heeft genomen en waarmee hij dus een arbeidsovereenkomst heeft gesloten:
 
 - ter beschikking stelt van een gebruiker; 
@@ -455,7 +434,7 @@ De volledige of deeltijdse (beroeps)loopbaanonderbreking houdt in dat de werknem
 
 De werkgever heeft recht op vermindering van de werkgeversbijdragen voor sociale zekerheid bij de vervanging (door een volledig uitkeringsgerechtigde werkloze of gelijkgestelde), binnen bepaalde voorwaarden, van zo'n werknemer.
 
-##### (Volledige) Loopbaanonderbreking
+### (Volledige) Loopbaanonderbreking
 A. Rubrieken 100 - *Gemiddeld aantal werknemers* en 101 - *Totaal aantal daadwerkelijk gepresteerde uren* 
 
 Een werknemer die per einde van de maand met (volledige) loopbaanonderbreking gaat, blijft voor de volgende maanden, naargelang de arbeidsovereenkomst, als "voltijds" of "deeltijds" in aanmerking komen voor de berekening van het gemiddeld aantal werknemers (rubriek 100).
@@ -491,7 +470,7 @@ Ingeval een werknemer opteert voor een (volledige) loopbaanonderbreking, zonder 
 
 Het doel is te tonen hoeveel werknemers tijdens het boekjaar in de onderneming werkzaam waren met de status van "aangeworven in het kader van de vervangingsplicht voor werknemers die geopteerd hebben voor (volledige) loopbaanonderbreking".
 
-##### Deeltijdse loopbaanonderbreking of vermindering van de arbeidsprestaties
+### Deeltijdse loopbaanonderbreking of vermindering van de arbeidsprestaties
 A. Rubriek 100 - *Gemiddeld aantal werknemers*
 
 Een werknemer die per einde van de maand deeltijdse loopbaanonderbreking neemt, komt voor de volgende maanden, als “deeltijds”in aanmerking voor de berekening van het gemiddeld aantal werknemers (rubriek 100). Voor zo'n werknemer moet immers een schriftelijke arbeidsovereenkomst voor deeltijdse arbeid worden opgemaakt.
@@ -512,8 +491,8 @@ Het doel is te tonen hoeveel werknemers (zonder dubbel gebruik inzake aantal en 
 #### Brugpensioen
 Er zijn twee soorten van brugpensioen, en meteen ook twee soorten van bruggepensioneerden :
 
-##### (Voltijds) Conventioneel brugpensioen
-###### Principes
+### (Voltijds) Conventioneel brugpensioen
+#### Principes
 Voltijds conventioneel brugpensioen veronderstelt ontslag door de werkgever, dus beëindiging van de arbeidsovereenkomst.
 
 Oudere werknemers die ontslagen worden, kunnen aanspraak maken op een aanvullende vergoeding bovenop hun werkloosheidsvergoeding tot aan de pensioengerechtigde leeftijd.[^58]
@@ -523,7 +502,7 @@ In principe moet de bruggepensioneerde (die dus de onderneming definitief verlaa
 
 De werkgever geniet geen vermindering van de werkgeversbijdragen op het loon van de vervanger (van de werknemer in conventioneel brugpensioen); er zijn wel sancties voorzien ingeval vervangingsplicht is, zonder dat er effectief een vervanging gebeurt.
 
-###### Naar de sociale balans toe
+#### Naar de sociale balans toe
 A. Rubriek 100 - *Gemiddeld aantal werknemers*
 
 Een werknemer die per einde van de maand met (voltijds) conventioneel brugpensioen vertrekt, komt (enkel) voor de volgende maanden niet meer in aanmerking voor de berekening van het gemiddeld aantal werknemers.
@@ -550,8 +529,8 @@ Voor elke werknemer die vertrekt met (voltijds) conventioneel brugpensioen en di
 
 Het doel is te tonen hoeveel werknemers tijdens het boekjaar in de onderneming werkzaam waren (zonder dubbel gebruik inzake aantal en VTE) die (tijdens het boekjaar of voordien) aangeworven zijn geworden ingevolge de vervangingsplicht voor met (voltijds) conventioneel brugpensioen vertrokken werknemers.
 
-##### Conventioneel halftijds brugpensioen
-###### Principes
+### Conventioneel halftijds brugpensioen
+#### Principes
 Conventioneel halftijds brugpensioen veronderstelt dat een voltijdse werknemer met zijn werknemer een nieuwe arbeidsovereenkomst afsluit, met vermelding van de deeltijdse arbeidsregeling. De halftijds bruggepensioneerde ontvangt o.m. een aanvullende vergoeding ten laste van de werkgever.[^62] 
 
 De werkgever is verplicht de halftijds bruggepensioneerde te vervangen door een volledig uitkeringsgerechtigde werkloze of daarmee gelijkgestelde persoon voor minstens het aantal uren dat de halftijds bruggepensioneerde minder presteert. De werkgever is verplicht om de halftijdse bruggepensioneerde te vervangen gedurende de volledige duur van het halftijds brugpensioen.
@@ -560,7 +539,7 @@ Ook hier bestaan er uitzonderingen op de vervangingsverplichting.[^63]
 
 De werkgever geniet van een vermindering van de werkgeversbijdragen op het loon van de vervanger (van de werknemer in halftijds brugpensioen), ingeval de vervanger volledig werkloos is en werkloosheidsuitkeringen geniet.
 
-###### Naar de sociale balans toe
+#### Naar de sociale balans toe
 A. Rubriek 100 - *Gemiddeld aantal werknemers*
 
 Een werknemer die per einde van de maand met conventioneel halftijds brugpensioen gaat, komt voor de volgende maanden als “deeltijds” in aanmerking voor de berekening van het gemiddeld aantal werknemers (rubriek 100, kolom 2).
@@ -694,7 +673,7 @@ Er rekening mee houdend dat het aantal daadwerkelijk gepresteerde uren precies w
 
 ### Rubriek 102 - “Personeelskosten”
 #### Aard van de personeelskosten bedoeld in de rubriek 102
-##### Principes
+### Principes
 Moeten onder de rubriek 102 - *Personeelskosten* worden opgenomen : de kosten die omwille van hun aard geboekt worden op de rekening 62 - *Bezoldigingen, sociale lasten en pensioenen* van de Minimumindeling van het Algemeen Rekeningenstelsel, in de mate dat deze kosten betrekking hebben op werknemers die in aanmerking komen voor de sociale balans (cf. hierboven).
 
 Worden dus in de rubriek 102 opgenomen, in de mate dat ze betrekking hebben op de betrokken werknemers :
@@ -706,10 +685,10 @@ Worden dus in de rubriek 102 opgenomen, in de mate dat ze betrekking hebben op d
 
 De kosten die in de rekening 624 *Ouderdoms- en overlevingspensioenen* worden geboekt worden niet in de rubriek 102 opgenomen.
 
-##### Voordelen in natura
+### Voordelen in natura
 De voordelen in natura die in de boekhouding worden geboekt in functie van hun aard, onafhankelijk van hun fiscaalrechtelijke kwalificatie, op een rekening van de Minimumindeling van het Algemeen Rekeningenstelsel, andere dan de rekening 62[^71] worden niet opgenomen in de rubriek 102 van de sociale balans. Hetzelfde geldt voor de kosten eigen aan de werkgever.
 
-##### Bijzondere gevallen
+### Bijzondere gevallen
 A. Loonachterstallen
 
 De loonachterstallen en de indirecte kosten die daarop betrekking hebben, moeten in de rubriek 102 worden opgenomen.
@@ -739,7 +718,7 @@ Door de wijzigingen die door het KB betreffende de sociale balans werden aangebr
 
 Deze kosten worden vermeld in de rubriek 152 van de sociale balans.
 
-##### Eventuele verschillen met de rekening 62 - “Personeelskosten”
+### Eventuele verschillen met de rekening 62 - “Personeelskosten”
 De rubriek 102 (personeelskosten) komt voor wat de aard van de kosten betreft, overeen met de rekening 62 - *Personeelskosten uit het rekeningenstelsel*.
 
 Naar de betrokken werknemers toe evenwel zal de rubriek 102 - *Personeelskosten* van de sociale balans niet steeds overeenkomen met de rekening 62. De rubriek 102 moet immers beperkt worden tot de kosten m.b.t. “werknemers ingeschreven in het personeelsregister”, dus zonder de personeelskosten met betrekking tot onder meer :
@@ -949,12 +928,12 @@ Voor de maatregel “Tewerkstellingsakkoorden 1995 - 1996”komen bijgevolg alle
 Indien het ontstaan van dit recht niet vaststaat, bijvoorbeeld omwille van niet afgesloten sectorale CAO's, blijft deze rubriek blanco.
 
 #### Specifieke rubrieken
-##### Rubrieken 400 - “Bedrijfsplan” en 405 - “Tewerkstellingsakkoorden 1995 - 1996”
+### Rubrieken 400 - “Bedrijfsplan” en 405 - “Tewerkstellingsakkoorden 1995 - 1996”
 Met “Bedrijfsplan” worden de “Bedrijfsplannen tot herverdeling van de arbeid” bedoeld.
 
 In beide gevallen kunnen voor de onderverdeling in mannen en vrouwen, de personeelsstaten worden gebruikt die voor de RSZ-bestemd zijn.
 
-##### Rubriek 505 - “Opeenvolgende arbeidsovereenkomsten voor een bepaalde tijd”
+### Rubriek 505 - “Opeenvolgende arbeidsovereenkomsten voor een bepaalde tijd”
 Opeenvolgende arbeidsovereenkomsten voor een bepaalde tijd zonder dat er een onderbreking is toe te schrijven aan de werknemer, zijn slechts beperkt mogelijk. Zij worden geacht een arbeidsovereenkomst voor onbepaalde tijd te zijn, behalve wanneer de werkgever het bewijs levert dat deze overeenkomsten gerechtvaardigd zijn wegens de aard van het werk of wegens andere wettige redenen.[^84] 
 
 Door de Wet van 30 maart 1994[^85] wordt de mogelijkheid om opeenvolgende arbeidsovereenkomsten voor een bepaalde tijd te sluiten, versoepeld voor overeenkomsten gesloten vanaf 31 maart 1994 tot uiterlijk 31 december 1997.[^86] 

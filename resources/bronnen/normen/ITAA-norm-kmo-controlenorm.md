@@ -27,38 +27,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-09T19:12:07Z'
+  generated_at: '2026-05-12T23:22:00Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-09T20:31:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'L1=warn; L1.5=improvement (Auto-synthesized: ETL-fixes vandaag (NBSP, sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.); L2=trusted (Goed gestructureerde HTML-extractie met geneste H1/H2/H3-hierarchie. Alle hoofdsecties (1. INLEIDING, 2. GEMEENSCHAPPELIJKE PRINCIPES, ...) als ## of #, sub-secties (1.1.x, 2.1.x, 2.2.x) als ###. INHOUDSTAFEL voorop, Bijlagen 1-4 als ##. Layer-1 warn over max_section_size 43kB is een chunker-aandachtspunt, geen content-issue (split_long_chunk handelt het af).)'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: warn
-      run_id: 20260511-085756
-      run_at: '2026-05-11T08:57:57Z'
-      heading_count: 74
-      max_section_chars: 43167
-      file_size_chars: 145358
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 43167 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
-      status: trusted
-      agent:
-      run_at:
-      rationale: 'Goed gestructureerde HTML-extractie met geneste H1/H2/H3-hierarchie. Alle hoofdsecties (1. INLEIDING, 2. GEMEENSCHAPPELIJKE PRINCIPES, ...) als ## of #, sub-secties (1.1.x, 2.1.x, 2.2.x) als ###. INHOUDSTAFEL voorop, Bijlagen 1-4 als ##. Layer-1 warn over max_section_size 43kB is een chunker-aandachtspunt, geen content-issue (split_long_chunk handelt het af).'
-      concrete_problemen:
-        - regel: 71
-          type: other
-          voorbeeld: 'INHOUDSTAFEL als #-heading (in plaats van ##) — minor inconsistentie'
 ---
 # KMO controle norm
 
@@ -220,7 +201,7 @@ De lijsten met gedeelde wettelijk voorbehouden assurance-opdrachten die onder he
 §9. Elke beroepsbeoefenaar respecteert de wettelijke, regelgevende en normatieve bepalingen voor wat zijn vakgebied betreft.
 ### 2.1.1 Evenredigheid
 §10. De toepassing van de bepalingen van de norm is evenredig met de omvang en de aard van de activiteiten van de “kmo of kleine vzw” voor dewelke een opdracht wordt uitgevoerd.
-### 2.1.2. Onafhankelijkheid
+### 2.1.2. Onafhankelijkheid
 §11. De onafhankelijkheid van de beroepsbeoefenaar dient vanuit twee onlosmakelijk verbonden gezichtspunten te worden beoordeeld:
 1° de onafhankelijkheid qua geesteshouding, namelijk een morele houding waarbij alleen de overwegingen die voor de toevertrouwde taak van belang zijn, in aanmerking worden genomen bij de te nemen beslissingen in het kader van de uitvoering van een opdracht, en
 2° de onafhankelijkheid naar buiten toe, namelijk de noodzaak om situaties en feiten te vermijden die in die mate van belang zijn dat zij een redelijk denkende en geïnformeerde derde ertoe kunnen brengen de bekwaamheid van de beroepsbeoefenaar om objectief te handelen, in vraag te stellen.
@@ -367,7 +348,7 @@ bewaarperiode. Als de beroepsbeoefenaar het toch nodig vindt bestaande documenta
 §48. Het voltooien van de opmaak van het definitieve dossier na de datum van het verslag van de beroepsbeoefenaar is een administratief proces dat geen betrekking heeft op de uitvoering van nieuwe controlewerkzaamheden of op het trekken van nieuwe conclusies.
 §49. De bewaarperiode bedraagt minimaal 5 jaar vanaf ondertekening van het verslag van de beroepsbeoefenaar.
 
-### 2.2.5. Verantwoordelijkheden van de beroepsbeoefenaar met betrekking tot fraude
+### 2.2.5. Verantwoordelijkheden van de beroepsbeoefenaar met betrekking tot fraude
 §50. De beroepsbeoefenaar dient:
 risico's te identificeren en in te schatten op een afwijking van materieel belang die het gevolg is van fraude,
 voldoende en geschikte assurance-informatie te verkrijgen over de ingeschatte risico's op een afwijking van materieel belang die het gevolg is van fraude door middel van het opzetten en implementeren van geschikte procedures om op die risico's in te spelen, en
@@ -388,7 +369,7 @@ gespecificeerde werkzaamheden uit te voeren teneinde gevallen van niet-naleving 
 op passende wijze in te spelen op tijdens de controle of de beoordeling geïdentificeerde niet- naleving of vermoedens van niet-naleving van wet- en regelgeving.
 §58. Niettemin, kan de beroepsbeoefenaar niet verantwoordelijk worden gesteld voor het verwittigen van het niet-naleven van wet- en regelgeving en men mag van hem niet verwachten dat hij elk geval opspoort van niet-naleven van alle wet- en regelgeving.
 
-### 2.2.7. Continuïteit
+### 2.2.7. Continuïteit
 §59. De verantwoordelijkheid omtrent het beoordelen van de mogelijkheid om continuïteit te handhaven berust in de eerste plaats op het management of de met governance belaste personen. De beroepsbeoefenaar dient voldoende en geschikte assurance-informatie te verkrijgen om te kunnen concluderen of er sprake is van een onzekerheid van materieel belang met betrekking tot mogelijkheid om de continuïteit van de “kmo of kleine vzw” te handhaven.
 §60. De beroepsbeoefenaar:
 
@@ -431,7 +412,7 @@ bekende actuele of mogelijke niet-naleving van de wetgeving inzake de strijd teg
 
 # 3. CONTROLE VAN DE HISTORISCHE FINANCIËLE INFORMATIE (REDELIJKE ZEKERHEID)
 
-## 3.1. Risico’s op een afwijking van materieel belang identificeren en inschatten & planning
+## 3.1. Risico’s    op    een    afwijking    van    materieel belang identificeren en inschatten & planning
 ### 3.1.1. Planning
 §70. De beroepsbeoefenaar plant de controle zodat de opdracht efficiënt kan worden uitgevoerd.
 §71. De planning van een controle omvat het vaststellen van de algehele controleaanpak voor de opdracht alsmede het ontwikkelen van een controleprogramma ter zake.
@@ -572,7 +553,7 @@ de betrouwbaarheid van de gegevens waarop zijn verwachting ten aanzien van vastg
 een verwachting ten aanzien van vastgelegde bedragen of verhoudingscijfers op te bouwen, en te evalueren of die verwachting voldoende nauwkeurig is om een afwijking te kunnen identificeren die, afzonderlijk of gezamenlijk met andere afwijkingen, ertoe kan leiden dat de financiële overzichten een van materieel belang zijnde afwijking bevatten; en
 het verschil te bepalen tussen de vastgelegde bedragen en de verwachte waarden dat aanvaardbaar is zonder onderzoek naar de oorzaak van dit verschil.
 
-§104. In bijlage 2 wordt een schematisch overzicht verstrekt van de wijze van inspelen op de risico’s.
+§104.     In bijlage 2 wordt een schematisch overzicht verstrekt van de wijze van inspelen op de risico’s.
 
 ### 3.2.2. Interventie van een dienstverlenende organisaties
 §105. Wanneer de “kmo of kleine vzw” een beroep doet op de diensten van een dienstverlenende organisaties (serviceorganisaties), dient de beroepsbeoefenaar:
@@ -593,7 +574,7 @@ zijn conclusie met betrekking tot de vraag of niet-gecorrigeerde afwijkingen, af
 
 ### 3.2.4. Cijferanalyses
 
-§111. De beroepsbeoefenaar:
+§111.     De beroepsbeoefenaar:
 
 dient cijferanalyses uit te voeren bij het identificeren en inschatten van de risico’s van een afwijking van materieel belang door middel van het verwerven van inzicht in de “kmo of kleine vzw” en haar omgeving;
 kan relevante en betrouwbare assurance-informatie verkrijgen bij het gebruik van gegevensgerichte cijferanalyses; en
@@ -609,7 +590,7 @@ de in de financiële overzichten opgenomen dan wel toegelichte boekhoudkundige s
 de daarop betrekking hebbende toelichtingen in de financiële overzichten adequaat zijn, binnen de context van het van toepassing zijnde stelsel inzake financiële verslaggeving.
 
 ### 3.2.7. Verbonden partijen
-§115. De beroepsbeoefenaar:
+§115.     De beroepsbeoefenaar:
 verwerft voldoende inzicht in de relaties en de transacties met verbonden partijen, ongeacht of het van toepassing zijnd stelsel inzake financiële verslaggeving al dan niet regels op dat vlak voorschrijft, om in staat te zijn om:
 eventuele risicofactoren voor fraude te ontdekken die voorvloeien uit relaties en transacties met verbonden partijen, die relevant zijn voor het onderkennen en inschatten van de risico’s van afwijkingen van materieel belang die voortkomen uit fraude en;
 op basis van de verzamelde assurance-informatie te besluiten of de financiële verslagen, voor zover ze door die relaties en transacties worden beïnvloed;
@@ -617,9 +598,9 @@ getrouw worden weergegeven en;
 
 verzamelt bovendien, wanneer het van toepassing zijnd stelsel van financiële verslaggeving regels bevat over verbonden partijen, voldoende en geschikte assurance- informatie om vast te stellen of de relaties en transacties met de verbonden partijen correct werden onderkend en geboekt in de financiële overzichten en of daarin relevante informatie hierover werd verstrekt.
 
-## 3.3 Formulering van het oordeel en verslag
-### 3.3.1. Basis voor het oordeel
-§116. De beroepsbeoefenaar dient:
+## 3.3 Formulering van het oordeel en verslag
+### 3.3.1. Basis voor het oordeel
+§116.     De beroepsbeoefenaar dient:
 een oordeel te vormen over de financiële overzichten op basis van een evaluatie van de conclusies die uit de verkregen assurance-informatie zijn getrokken; en
 dat oordeel op duidelijke wijze tot uitdrukking te brengen door middel van een schriftelijke verklaring.
 §117. Teneinde dit oordeel te vormen, dient de beroepsbeoefenaar te concluderen of hij een redelijke mate van zekerheid heeft verkregen over de vraag of de financiële overzichten als geheel geen afwijkingen van materieel belang bevatten die het gevolg zijn van fraude of van fouten. Deze conclusie dient rekening te houden met:
@@ -635,20 +616,20 @@ het overwegen van de kwalitatieve aspecten van de praktijken inzake administrati
 als hij op basis van de verkregen assurance-informatie tot de conclusie komt dat de financiële overzichten als geheel een afwijking van materieel belang bevat; of
 als hij niet in staat is voldoende en geschikte assurance-informatie te verkrijgen om te concluderen dat de financiële overzichten als geheel geen afwijking van materieel belang bevat.
 
-#### 3.3.2.1. Financiële overzichten bevatten afwijkingen van materieel belang
+#### 3.3.2.1. Financiële overzichten bevatten afwijkingen van materieel belang
 §119. De beroepsbeoefenaar dient een oordeel met voorbehoud tot uitdrukking te brengen wanneer:
 
 hij, nadat hij voldoende en geschikte assurance-informatie heeft verkregen, tot de conclusie komt dat afwijkingen afzonderlijk of gezamenlijk van materieel belang zijn voor, maar geen diepgaande invloed hebben op, de financiële overzichten; of
 hij niet in staat is voldoende en geschikte assurance-informatie te verkrijgen om daarop zijn oordeel te baseren maar tot de conclusie komt dat de mogelijke gevolgen van eventuele niet-gedetecteerde afwijkingen voor de financiële overzichten van materieel belang kunnen zijn maar geen diepgaande invloed kunnen hebben.
-§120. De beroepsbeoefenaar dient een afkeurend oordeel tot uitdrukking te brengen als hij, nadat hij voldoende en geschikte assurance-informatie heeft verkregen, tot de conclusie komt dat afwijkingen afzonderlijk of gezamenlijk zowel van materieel belang zijn voor, als een diepgaande invloed hebben op de financiële overzichten.
-#### 3.3.2.2. Het niet in staat zijn om voldoende en geschikte assurance-informatie te verkrijgen
+§120.   De beroepsbeoefenaar dient een afkeurend oordeel tot uitdrukking te brengen als hij, nadat hij voldoende en geschikte assurance-informatie heeft verkregen, tot de conclusie komt dat afwijkingen afzonderlijk of gezamenlijk zowel van materieel belang zijn voor, als een diepgaande invloed hebben op de financiële overzichten.
+#### 3.3.2.2. Het niet in staat zijn om voldoende en geschikte assurance-informatie te verkrijgen
 §121. De beroepsbeoefenaar dient een oordeelonthouding te formuleren als hij niet in staat is voldoende en geschikte assurance-informatie te verkrijgen om daarop zijn oordeel te baseren en de beroepsbeoefenaar tot de conclusie komt dat de mogelijke gevolgen van eventuele niet- gedetecteerde afwijkingen voor de financiële overzichten zowel van materieel belang kunnen zijn als een diepgaande invloed zouden kunnen hebben.
 
 ### 3.3.3. Paragraaf ter benadrukking van bepaalde aangelegenheden en paragraaf inzake overige aangelegenheden
-#### 3.3.3.1. Paragraaf ter benadrukking van bepaalde aangelegenheden
+#### 3.3.3.1. Paragraaf ter benadrukking van bepaalde aangelegenheden
 §122. Als de beroepsbeoefenaar het nodig acht de aandacht van de gebruikers te vestigen op een in de financiële overzichten voorgesteld of vermeld punt dat op grond van zijn oordeelsvorming zodanig belangrijk is dat het essentieel is voor hun begrip van de financiële overzichten, dan neemt hij in zijn controleverklaring een paragraaf ter benadrukking van bepaalde aangelegenheden op. En dit op voorwaarde dat hij voldoende en geschikte assurance-informatie heeft verkregen betreffende het feit dat het in de financiële overzichten voorgestelde of vermelde punt geen afwijkingen van materieel belang omvat. Een dergelijke paragraaf moet telkens verwijzen naar informatie die voorgesteld of vermeld wordt in de financiële overzichten.
 
-#### 3.3.3.2. Paragraaf inzake overige aangelegenheden
+#### 3.3.3.2. Paragraaf inzake overige aangelegenheden
 §123. Indien de beroepsbeoefenaar het noodzakelijk acht een andere aangelegenheid te communiceren dan degenen die in de financiële overzichten of jaarrekening weergegeven of toegelicht zijn die, op grond van oordeelsvorming van de beroepsbeoefenaar, relevant zijn voor het begrip van gebruikers van de controle, de verantwoordelijkheden van de beroepsbeoefenaar of de controleverklaring. Indien dit niet is verboden door wet of regelgeving, dient de beroepsbeoefenaar dit te doen in een paragraaf in de controleverklaring met de titel Overige aangelegenheden of een ander passende titel.
 
 ### 3.3.4. Verslag over de financiële overzichten
@@ -665,7 +646,7 @@ de grondslagen voor financiële verslaggeving die in de ter vergelijking opgenom
 ## 4.1. Inleiding
 §126. Een opdracht tot het uitvoeren van een beoordeling van historische financiële informatie heeft ten doel de beroepsbeoefenaar in staat te stellen een conclusie te formuleren op basis van de door hem uitgevoerde beoordeling waaruit volgt dat er geen aanpassingen van materieel belang zouden impliceren van de historische financiële informatie in overeenstemming met een van toepassing zijnde stelsel inzake financiële verslaggeving. De beroepsbeoefenaar verzoekt om inlichtingen en voert cijferanalyses en andere beoordelingswerkzaamheden uit teneinde het risico van het formuleren van een onjuiste conclusie, wanneer de historische financiële informatie een afwijking van materieel belang bevat, tot een aanvaardbaar niveau terug te brengen.
 
-## 4.2. Het uitvoeren van de opdracht
+## 4.2. Het uitvoeren van de opdracht
 ### 4.2.1. Het inzicht van de beroepsbeoefenaar
 §127. De beroepsbeoefenaar dient inzicht te verwerven in de “kmo of kleine vzw” en haar omgeving, met inbegrip van haar interne beheersing, en in het van toepassing zijnde stelsel inzake financiële verslaggeving, om gebieden in de financiële overzichten te kunnen identificeren waar zich waarschijnlijk afwijkingen van materieel belang voor zullen doen. Daarmee verschaft hij zich een basis voor het opzetten van werkzaamheden om op die gebieden in te spelen.
 
@@ -719,13 +700,13 @@ te bepalen dat de aangelegenheid-/heden er toe zal/zullen leiden dat de financi�
 §139. De datum van de schriftelijke bevestigingen dient zo dicht als mogelijk bij, maar niet na, de datum van de beoordelingsverklaring te liggen. De schriftelijke bevestigingen dienen te slaan op alle financiële overzichten en alle verslagperioden die in de beoordelingsverklaring worden genoemd.
 
 ### 4.3.7. Het evalueren van assurance-informatie verkregen uit de uitgevoerde werkzaamheden
-§140. De beroepsbeoefenaar dient te evalueren of er voldoende en geschikte assurance-informatie is verkregen uit de uitgevoerde werkzaamheden. Zo niet, dan dient de beroepsbeoefenaar andere werkzaamheden uit te voeren die de beroepsbeoefenaar in de omstandigheden noodzakelijk acht om over de financiële overzichten een conclusie te kunnen vormen.
+§140.   De beroepsbeoefenaar dient te evalueren of er voldoende en geschikte assurance-informatie is verkregen uit de uitgevoerde werkzaamheden. Zo niet, dan dient de beroepsbeoefenaar andere werkzaamheden uit te voeren die de beroepsbeoefenaar in de omstandigheden noodzakelijk acht om over de financiële overzichten een conclusie te kunnen vormen.
 §141. Het is mogelijk dat de beroepsbeoefenaar niet in staat is voldoende en geschikte assurance- informatie te verkrijgen om een conclusie te kunnen vormen. Dan dient de beroepsbeoefenaar de effecten die dergelijke beperkingen hebben op de reikwijdte van de beoordeling met het management en, in voorkomend geval, de met governance belaste personen te bespreken.
 
 ### 4.3.8. Het evalueren van het effect op de beoordelingsverklaring
-§142. De beroepsbeoefenaar dient de assurance-informatie die is verkregen uit de uitgevoerde werkzaamheden te evalueren om het effect op de beoordelingsverklaring te bepalen.
+§142.     De beroepsbeoefenaar dient de assurance-informatie die is verkregen uit de uitgevoerde werkzaamheden te evalueren om het effect op de beoordelingsverklaring te bepalen.
 
-## 4.4. Formulering van de conclusie en verslag
+## 4.4. Formulering van de conclusie en verslag
 ### 4.4.1. Het in overweging nemen van het van toepassing zijnde stelsel inzake financiële verslaggeving met betrekking tot de financiële overzichten
 §143. Bij het vormen van de conclusie over de financiële overzichten dient de beroepsbeoefenaar:
 te evalueren of de financiële overzichten op adequate wijze verwijzen naar het van toepassing zijnde stelsel inzake financiële verslaggeving of op adequate wijze hiervan een beschrijving geven;
@@ -756,14 +737,14 @@ een afkeurende conclusie wanneer de effecten van de aangelegenheid (-heden) die 
 een conclusie met voorbehoud tot uitdrukking te brengen indien de beroepsbeoefenaar concludeert dat de mogelijke effecten van eventuele niet-ontdekte afwijkingen op de financiële overzichten van materieel belang zouden kunnen zijn maar niet van diepgaande invloed; of
 een onthouding van een conclusie te formuleren indien de beroepsbeoefenaar concludeert dat de mogelijke effecten van eventuele niet-ontdekte afwijkingen op de financiële overzichten zowel van materieel belang als van diepgaande invloed zouden kunnen zijn.
 
-## 4.5. Paragraaf ter benadrukking van bepaalde aangelegenheden en paragraaf inzake overige aangelegenheden in de beoordelingsverklaring
+## 4.5. Paragraaf ter benadrukking van bepaalde aangelegenheden en paragraaf inzake overige aangelegenheden in de beoordelingsverklaring
 ### 4.5.1. Paragraaf ter benadrukking van bepaalde aangelegenheden
 §148. De beroepsbeoefenaar kan het nodig achten de aandacht van gebruikers te vestigen op een aangelegenheid die is weergegeven of toegelicht in de financiële overzichten die op grond van oordeelsvorming van de beroepsbeoefenaar van zodanig belang is dat deze van fundamenteel belang is voor het begrip van gebruikers van de financiële overzichten. In dergelijke gevallen dient de beroepsbeoefenaar een paragraaf ter benadrukking van bepaalde aangelegenheden in de beoordelingsverklaring op te nemen. Dit op voorwaarde dat de beroepsbeoefenaar voldoende en geschikte assurance-informatie heeft verkregen om te concluderen dat de aangelegenheid waarschijnlijk geen afwijking van materieel belang bevat zoals deze in de financiële overzichten is weergegeven. Een dergelijke paragraaf dient alleen te refereren aan informatie die in de financiële overzichten is weergegeven of toegelicht.
 
 ### 4.5.2. Paragrafen inzake overige aangelegenheden
 §149. Indien de beroepsbeoefenaar het noodzakelijk acht een andere aangelegenheid te communiceren dan degenen die in de financiële overzichten weergegeven of toegelicht zijn die, op grond van oordeelsvorming van de beroepsbeoefenaar, relevant zijn voor het begrip van gebruikers van de beoordeling, de verantwoordelijkheden van de beroepsbeoefenaar of de beoordelingsverklaring. Indien dit niet is verboden door wet of regelgeving, dient de beroepsbeoefenaar dit te doen in een paragraaf in de beoordelingsverklaring met de titel Overige aangelegenheden of een ander passende titel.
 
-## 4.6. Beoordelingsverslag
+## 4.6.  Beoordelingsverslag
 §150. De beroepsbeoefenaar moet een geschreven en gedateerd verslag uitbrengen, in overeenstemming met het voorbeeld opgenomen in de huidige norm hetwelk de volgende elementen bevat: een titel, de geadresseerde en, indien er één is, de beoogde gebruiker, de identificatie van het of de financie(ë)l(e) overzicht(en) dat of die werd(en) gecontroleerd, een korte beschrijving van de opdracht overgenomen uit de opdrachtbrief, een paragraaf ter herinnering van de verantwoordelijkheden van het management en de beroepsbeoefenaar, een beschrijving van de uitgevoerde procedures, een conclusie alsook de plaats van de ondertekening en de naam van de beroepsbeoefenaar. De opdrachtbrief kan mits akkoord tussen de partijen gehecht worden aan het verslag.
 De beroepsbeoefenaar dient zijn verslag aan te passen in functie van de bijzonderheden van de opdracht, van de rechtsvorm van de “KMO of kleine vzw”, van het boekhoudkundig referentiestelsel en/of van de van toepassing zijnde wettelijke en reglementaire voorschriften.
 
@@ -916,20 +897,20 @@ Vooringenomenheid bij het management of de met governance belaste personen: het 
 10 Soms wordt ook de term “werkdocumenten” gebruikt.
 11 Ook bekend onder de term « substantieve testen ».
 
-# BIJLAGE 2 : Schematisch overzicht van de wijze van inspelen op de risico’s
+# BIJLAGE 2 : Schematisch overzicht van de wijze van inspelen op de risico’s
 
 # BIJLAGE 3 : Voorbeeld verslag (assurance met een redelijke mate van zekerheid)
 
-VERSLAG [VAN DE ACCOUNTANT of DE BEDRIJFSREVISOR] AAN HET BESTUURSORGAAN VAN (NAAM VAN DE KMO OF KLEINE VZW) OP DE CONTRACTUELE12 CONTROLE VAN DE FINANCIËLE OVERZICHTEN13 VAN DE VENNOOTSCHAP _______VAN HET BOEKJAAR AFGESLOTEN OP 20
+VERSLAG [VAN DE ACCOUNTANT of DE BEDRIJFSREVISOR] AAN HET BESTUURSORGAAN VAN (NAAM VAN DE KMO OF KLEINE VZW) OP DE CONTRACTUELE12 CONTROLE VAN DE FINANCIËLE OVERZICHTEN13 VAN DE VENNOOTSCHAP   _______VAN HET BOEKJAAR AFGESLOTEN OP                                     20
 
-Overeenkomstig onze opdracht zoals hierna omschreven en die werd bevestigd door de opdrachtbrief van_____ /_____ /_____ [gehecht aan dit verslag], brengen wij u verslag uit over de controle van de financiële overzichten van het boekjaar afgesloten op ___20_____ . Onze opdracht bestaat uit___________________ . De beoogde gebruiker is _________________________.
-Wij hebben de controle uitgevoerd van de financiële overzichten van de vennootschap over het boekjaar afgesloten op 20 , opgesteld op grond van de in België van toepassing zijnde boekhoudkundige wetgeving, met een balanstotaal van € en waarvan de resultatenrekening afsluit met een winst [verlies] van het boekjaar van € .
+Overeenkomstig onze opdracht zoals hierna omschreven en die werd bevestigd door de opdrachtbrief van_____ /_____ /_____ [gehecht aan dit verslag], brengen wij u verslag uit over de controle van de financiële overzichten van het boekjaar afgesloten op      ___20_____ . Onze opdracht bestaat uit___________________ . De beoogde gebruiker is _________________________.
+Wij hebben de controle uitgevoerd van de financiële overzichten van de vennootschap                                                                              over het boekjaar afgesloten op                   20 , opgesteld op grond van de in België van toepassing zijnde boekhoudkundige wetgeving, met een balanstotaal van €                                                            en waarvan de resultatenrekening afsluit met een winst [verlies] van het boekjaar van €                                                               .
 Het bestuursorgaan is verantwoordelijk voor het opstellen van financiële overzichten die een getrouw beeld geven in overeenstemming met de in België van toepassing zijnde boekhoudkundige wetgeving, alsook voor het implementeren van de interne beheersing die het bestuursorgaan noodzakelijk acht voor het opstellen van financiële overzichten die geen afwijking van materieel belang bevatten.
 Overeenkomstig onze opdrachtbrief, is het onze verantwoordelijkheid een oordeel over deze financiële overzichten tot uitdrukking te brengen op basis van onze controle. Wij hebben onze controle volgens de norm met betrekking tot de contractuele controle van KMO’s en kleine (i)vzw’s en stichtingen en de gedeelde wettelijk voorbehouden opdrachten bij KMO’s en kleine (i)vzw’s en stichtingen uitgevoerd. Deze norm vereist dat wij de controle plannen en uitvoeren teneinde ervoor te zorgen dat de financiële overzichten geen afwijkingen van materieel belang bevatten. Wij hebben alle deontologische vereisten die relevant zijn voor de contractuele controle van de financiële overzichten in België nageleefd, met inbegrip van deze met betrekking tot de onafhankelijkheid zoals voorzien door voormelde norm.
 Onze controle omvat werkzaamheden zoals voorzien in de norm met betrekking tot de contractuele controle van KMO’s en kleine (i)vzw’s en stichtingen en de gedeelde wettelijk voorbehouden opdrachten bij KMO’s en kleine (i)vzw’s en stichtingen ter verkrijging van controle-informatie over de in de financiële overzichten opgenomen bedragen en toelichtingen. De geselecteerde werkzaamheden zijn afhankelijk van de professionele beoordeling door de accountant / bedrijfsrevisor, met inbegrip van een beperkte inschatting van de risico’s van een afwijking van materieel belang in de financiële overzichten. We hebben controlewerkzaamheden opgezet die in de gegeven omstandigheden geschikt zijn, maar die niet gericht zijn op het geven van een oordeel over de effectiviteit van de interne beheersing van de [Naam van de KMO of de kleine vzw].
 
 Wij zijn van mening dat de door ons verkregen controle-informatie voldoende en geschikt is om daarop ons oordeel te baseren.
-Naar ons oordeel, overeenkomstig de bepalingen van de norm met betrekking tot de contractuele controle van KMO’s en kleine (i)vzw’s en stichtingen en de gedeelde wettelijk voorbehouden opdrachten bij KMO’s en kleine (i)vzw’s en stichtingen, geven de in bijlage gevoegde financiële overzichten een getrouw beeld van het vermogen en de financiële toestand van de vennootschap per _ _______ 20_______ , alsook van diens resultaten over het boekjaar dat op die datum is afgesloten, in overeenstemming met de in België van toepassing zijnde boekhoudkundige wetgeving.
+Naar ons oordeel, overeenkomstig de bepalingen van de norm met betrekking tot de contractuele controle van KMO’s en kleine (i)vzw’s en stichtingen en de gedeelde wettelijk voorbehouden opdrachten bij KMO’s en kleine (i)vzw’s en stichtingen, geven de in bijlage gevoegde financiële overzichten een getrouw beeld van het vermogen en de financiële toestand van de vennootschap                  per _   _______ 20_______  , alsook van diens resultaten over het boekjaar dat op die datum is afgesloten, in overeenstemming met de in België van toepassing zijnde boekhoudkundige wetgeving.
 Dit verslag is niet geschikt voor andere doeleinden en de verspreiding ervan is beperkt tot het beoogd gebruik zoals voorzien in de opdrachtbrief.
 
 Plaats, datum en handtekening
@@ -940,9 +921,9 @@ Accountant / Bedrijfsrevisor
 13 Het gaat over financiële overzichten of over de jaarrekening in functie van de opdracht: indien nodig in het verslag aan te passen door duidelijk het financieel overzicht dat werd of de financiële overzichten die werden gecontroleerd aan te geven.
 
 # BIJLAGE 4 : Voorbeeldverslag (beoordeling)
-VERSLAG [VAN DE ACCOUNTANT of DE BEDRIJFSREVISOR] AAN HET BESTUURSORGAAN VAN (NAAM VAN DE KMO OF KLEINE VZW) OP DE CONTRACTUELE14 BEOORDELING VAN FINANCIËLE OVERZICHTEN15 VAN DE VENNOOTSCHAP ___ VAN HET BOEKJAAR AFGESLOTEN OP _____ 20
+VERSLAG [VAN DE ACCOUNTANT of DE BEDRIJFSREVISOR] AAN HET BESTUURSORGAAN VAN (NAAM VAN DE KMO OF KLEINE VZW) OP DE CONTRACTUELE14 BEOORDELING VAN FINANCIËLE OVERZICHTEN15 VAN DE VENNOOTSCHAP  ___    VAN HET BOEKJAAR AFGESLOTEN OP       _____            20
 
-Overeenkomstig onze opdracht zoals hierna omschreven en die werd bevestigd door de opdrachtbrief van ___ /___ /___________ [gehecht aan dit verslag], hebben wij de beoordeling van de financiële overzichten van de vennootschap uitgevoerd, voor de periode afgesloten op 20 , opgesteld in overeenstemming met het in België van toepassing zijnde stelsel inzake financiële verslaggeving, met een balanstotaal van € en waarvan de resultatenrekening zich afsluit met een winst (verlies) van € over het boekjaar van. Onze opdracht bestaat uit _____________________ . De beoogde gebruiker is_______________ .
+Overeenkomstig onze opdracht zoals hierna omschreven en die werd bevestigd door de opdrachtbrief van ___    /___    /___________ [gehecht aan dit verslag], hebben wij de beoordeling van de financiële overzichten van de vennootschap                                                                                                           uitgevoerd, voor de periode afgesloten op                                 20 , opgesteld in overeenstemming met het in België van toepassing zijnde stelsel inzake financiële verslaggeving, met een balanstotaal van €                                            en waarvan de resultatenrekening zich afsluit met een winst (verlies) van €                          over het boekjaar van. Onze opdracht bestaat uit  _____________________     . De beoogde gebruiker is_______________ .
 Het bestuursorgaan is verantwoordelijk voor het opstellen en de getrouwe weergave van deze financiële overzichten in overeenstemming met het in België van toepassing zijnde stelsel inzake financiële verslaggeving. Onze verantwoordelijkheid bestaat erin een conclusie over de financiële overzichten te formuleren op basis van de door ons uitgevoerde beoordeling.
 We hebben onze beoordeling uitgevoerd overeenkomstig de norm met betrekking tot de contractuele controle van KMO’s en kleine (i)vzw’s en stichtingen en de gedeelde wettelijk voorbehouden opdrachten bij KMO’s en kleine (i)vzw’s en stichtingen. Een beoordeling van financiële overzichten bestaat uit het verzoeken om inlichtingen, in hoofdzaak bij de voor financiën en administratieve verantwoordelijke personen, alsmede uit het uitvoeren van cijferanalyses en andere beoordelingswerkzaamheden. De reikwijdte van een beoordeling is aanzienlijk geringer dan die van een controle met het oog op een redelijke zekerheid. Om die reden stelt de beoordeling ons niet in staat de zekerheid te verkrijgen dat wij kennis zullen krijgen van alle aangelegenheden van materieel belang die naar aanleiding van een controle mogelijk worden onderkend.
 Gebaseerd op de door ons uitgevoerde beoordeling, overeenkomstig de bepalingen van de norm met betrekking tot de contractuele controle van KMO’s en kleine (i)vzw’s en stichtingen en de gedeelde wettelijk voorbehouden opdrachten bij KMO’s en kleine (i)vzw’s en stichtingen, hebben we geen elementen geïdentificeerd die belangrijke aanpassingen van de in bijlage gevoegde financiële overzichten met zich meebrengen, opgesteld in overeenstemming met het in België van toepassing zijnde stelsel inzake financiële verslaggeving.

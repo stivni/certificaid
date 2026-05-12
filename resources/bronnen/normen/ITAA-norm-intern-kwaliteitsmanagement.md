@@ -24,57 +24,20 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-09T19:12:06Z'
+  generated_at: '2026-05-12T23:22:00Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T11:41:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Drie categorieën zware artefacten: A8 (tweetalige NL+FR headings door column-bleed: 'Aanvaarding van opdrachten Acceptation de missions', 'Fin des relations clients', 'Documentatie Documentation'), B1/B7 (heading kapt mid-woord af: '## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP' zonder 'KANTOORNIVEAU'), en D1 (zin L80 is broken: 'dient cliëntenbestand en evenredig...' — mist de tussenliggende zin). Bovendien staat 'KANTOORNIVEAU' als plain-text-vervolg van de gebroken heading en bevat '## Fin des relations clients' een heading zonder NL-tegenhanger die losse FR-body-content bevat ('demande.') zonder context."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260511-085756
-      run_at: '2026-05-11T08:57:57Z'
-      heading_count: 6
-      max_section_chars: 5107
-      file_size_chars: 13191
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:41:58Z'
-      rationale: "Drie categorieën zware artefacten: A8 (tweetalige NL+FR headings door column-bleed: 'Aanvaarding van opdrachten Acceptation de missions', 'Fin des relations clients', 'Documentatie Documentation'), B1/B7 (heading kapt mid-woord af: '## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP' zonder 'KANTOORNIVEAU'), en D1 (zin L80 is broken: 'dient cliëntenbestand en evenredig...' — mist de tussenliggende zin). Bovendien staat 'KANTOORNIVEAU' als plain-text-vervolg van de gebroken heading en bevat '## Fin des relations clients' een heading zonder NL-tegenhanger die losse FR-body-content bevat ('demande.') zonder context."
-      concrete_problemen:
-        - regel: 172
-          categorie: B1
-          type: abrupt-cutoff
-          voorbeeld: "'## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP' — heading kapt af; vervolg 'CABINET Doelstelling' op r174 als plain text"
-        - regel: 260
-          categorie: A8
-          type: column-bleed
-          voorbeeld: "'## Aanvaarding van opdrachten Acceptation de missions' — NL+FR samengeplakt"
-        - regel: 284
-          categorie: A8
-          type: column-bleed
-          voorbeeld: "'## Fin des relations clients' — losse FR-sectie-heading zonder NL-equivalent"
-        - regel: 323
-          categorie: A8
-          type: column-bleed
-          voorbeeld: "'## Documentatie Documentation' — bilingual heading"
-        - regel: 80
-          categorie: D1
-          type: abrupt-cutoff
-          voorbeeld: "'dient cliëntenbestand en evenredig met de complexiteit...' — mist 'organiseren in functie van de aard en de omvang van het'"
-        - regel: 71
-          categorie: B4
-          type: other
-          voorbeeld: "'Inleiding RAAD VAN HET INSTITUUT VAN DE BELASTINGADVISEURS EN DE ACCOUNTANTS,' als plain-text-regel — had heading moeten zijn"
 ---
-
 ## NORM ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT
 
 Inleiding RAAD VAN HET INSTITUUT VAN DE BELASTINGADVISEURS EN DE ACCOUNTANTS,
@@ -168,7 +131,6 @@ implementeren en in werking te stellen. Het kantoor dient daarbij rekening te
 
 van de opdrachten die hij uitvoert.
 
-
 ## Eindverantwoordelijke(n) voor het kwaliteitsmanagementsysteem
 
 2. Indien het kantoor bestaat uit een zelfstandige beroepsbeoefenaar, dan heeft
@@ -176,7 +138,6 @@ deze beroepsbeoefenaar deontologisch de eindverantwoordelijkheid en de verantwoo
 
 3. Indien het kantoor een erkende rechtspersoon is, dan dragen alle bestuurders
 – beroepsbeoefenaars – deontologisch de eindverantwoordelijkheid en de verantwoordingsplicht voor het vaststellen en onderhouden van het kwaliteitsmanagementsysteem.
-
 
 ## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP
 
@@ -265,7 +226,6 @@ mate van zekerheid geeft dat de beroepsbeoefenaars aan wie activiteiten of opdra
 
 voortzetten om hun beroepskennis en -bekwaamheid en hun beroepsethiek op voldoende peil te houden, in overeenstemming met de Wet en met de Norm Permanente Vorming.
 
-
 ## Aanvaarding van opdrachten Acceptation de missions
 
 11. Het kantoor richt zijn kwaliteitsmanagementsysteem zo in dat dit een redelijke mate van zekerheid geeft dat:
@@ -288,7 +248,6 @@ Beëindigen van cliëntenrelaties
 12. Het kantoor richt zijn kwaliteitsmanagementsysteem zo in dat dit een redelijke
 mate van zekerheid geeft dat alle boeken, documenten en elektronische of andere
 gegevens die toebehoren aan de cliënt onverwijld uit handen worden gegeven, wanneer deze erom verzoekt.
-
 
 ## Fin des relations clients
 
@@ -327,7 +286,6 @@ opzet, implementatie en werking van het kwaliteitsmanagementsysteem;
 (b) passende maatregelen te nemen om te reageren op geïdentificeerde
 
 tekortkomingen, zodat tekortkomingen tijdig worden geremedieerd en
-
 
 ## Documentatie Documentation
 

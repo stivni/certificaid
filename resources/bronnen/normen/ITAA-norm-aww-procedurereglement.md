@@ -25,31 +25,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7a134f4
+    pipeline_version: f1177ef
     model:
     prompt_version:
-  generated_at: '2026-05-09T19:12:06Z'
+  generated_at: '2026-05-12T23:21:59Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: L1=pass
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260511-085756
-      run_at: '2026-05-11T08:57:56Z'
-      heading_count: 9
-      max_section_chars: 3782
-      file_size_chars: 12861
-      flags: []
     layer2:
-      status: trusted
-      agent:
-      run_at:
-      rationale: 'Schone DOCX-extractie van procedurereglement. Alle 9 Artikels als ## heading, definities en preambule correct geplaatst, geen kolom-bleed of scrambled text.'
-      concrete_problemen: []
 ---
   Procedurereglement voor het opleggen van maatregelen
     in het kader van artikel 118, §1 van de antiwitwaswet
