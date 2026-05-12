@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1 pass: 268 headings, max sectie 3258 chars. Heading-hiërarchie correct als ##### Art. N met beschrijvende namen. Afdelingen als 'Ondertitel' zijn plain-text tussenkopjes maar dit is bron-stijl (BW). Inhoud volledig, geen ETL-artefacten."
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 167953
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: "L1 pass: 268 headings, max sectie 3258 chars. Heading-hiërarchie correct als ##### Art. N met beschrijvende namen. Afdelingen als 'Ondertitel' zijn plain-text tussenkopjes maar dit is bron-stijl (BW). Inhoud volledig, geen ETL-artefacten."
+      concrete_problemen:
+        - regel: 185
+          categorie: B4
+          type: other
+          voorbeeld: Ondertitel 2. Hoedanigheden vereist om te erven — plain-text tussenkopje
 ---
 
 # Burgerlijk Wetboek — Boek 4 — Nalatenschappen, schenkingen en testamenten

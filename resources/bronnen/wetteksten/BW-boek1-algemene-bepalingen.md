@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'D2: bestand is vrijwel leeg (115 chars, 0 headings, geen inhoud buiten de titel). De PDF bevat enkel een introductie/titelblad zonder eigenlijke artikelinhoud. Structureel leeg voor RAG-doeleinden.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 115
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'D2: bestand is vrijwel leeg (115 chars, 0 headings, geen inhoud buiten de titel). De PDF bevat enkel een introductie/titelblad zonder eigenlijke artikelinhoud. Structureel leeg voor RAG-doeleinden.'
+      concrete_problemen:
+        - regel: 1
+          categorie: D2
+          type: abrupt-cutoff
+          voorbeeld: Bestand heeft enkel H1 titel + italic datum — 0 headings, 115 chars
 ---
 
 # Burgerlijk Wetboek — Boek 1 — Algemene bepalingen

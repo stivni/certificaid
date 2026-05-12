@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L1 pass: 9 headings, max sectie 2228 chars. Kleine KB correct verwerkt, bijlage als Art. N heading. Inhoud volledig.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 8750
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'L1 pass: 9 headings, max sectie 2228 chars. Kleine KB correct verwerkt, bijlage als Art. N heading. Inhoud volledig.'
+      concrete_problemen: []
 ---
 
 # BTW KB nr. 2 — Forfaitaire regeling

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L1 pass: 11 headings, kleine richtlijn volledig intact. Opsomming van vennootschapsvormen correct als plain-text opsomming.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 23049
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'L1 pass: 11 headings, kleine richtlijn volledig intact. Opsomming van vennootschapsvormen correct als plain-text opsomming.'
+      concrete_problemen: []
 ---
 
 # Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten

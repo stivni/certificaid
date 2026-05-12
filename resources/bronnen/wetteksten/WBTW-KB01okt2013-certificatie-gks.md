@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T16:30:31Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: "Eerder beoordeeld door subagent-sonnet-4-6: A1 header-residuen in body (pagina-header 'KB 01.10.2013   pg. 1   Certificatie geregistreerde kassa'). Inhoud aanwezig maar pagina-kopjes zijn ETL-artefacten."
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -32,29 +34,15 @@ provenance:
       file_size_chars: 11972
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: "Eerder beoordeeld door subagent-sonnet-4-6: A1 header-residuen in body (pagina-header 'KB 01.10.2013   pg. 1   Certificatie geregistreerde kassa'). Inhoud aanwezig maar pagina-kopjes zijn ETL-artefacten."
       concrete_problemen:
-        - categorie: A1
-          regel: 149
+        - regel: 149
+          categorie: A1
           type: other
           voorbeeld: KB 01.10.2013                                        pg. 1             Certificatie geregistreerde kassa
-        - categorie: A1
-          regel: 215
-          type: other
-          voorbeeld: KB 01.10.2013                                       pg. 2             Certificatie geregistreerde kassa
-        - categorie: A1
-          regel: 261
-          type: other
-          voorbeeld: KB 01.10.2013                                     pg. 3            Certificatie geregistreerde kassa
-        - categorie: C3
-          regel: 97
-          type: pseudo-table
-          voorbeeld: '      Het kassasysteem en de controlemodule bedoeld in artikel 2... (overmatige leading-spatie door PDF-layout)'
-      rationale: 'A1: drie pagina-voetregels als plain text in de body (regels 149, 215, 261): ''KB 01.10.2013                                        pg. 1             Certificatie geregistreerde kassa''. C3: overmatige leading-spatie-inspringing in alinea''s (regels 97–121, 140–173) die PDF-layout weerspiegelt — geen valide markdown-inspringing.'
-      run_at: '2026-05-11T16:30:31Z'
-      status: needs-rework
-    rationale: 'A1: drie pagina-voetregels als plain text in de body (regels 149, 215, 261): ''KB 01.10.2013                                        pg. 1             Certificatie geregistreerde kassa''. C3: overmatige leading-spatie-inspringing in alinea''s (regels 97–121, 140–173) die PDF-layout weerspiegelt — geen valide markdown-inspringing.'
-    status: needs-rework
 status: beschikbaar
 tags:
   - VI.B

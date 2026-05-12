@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L1 pass: 11 headings, kleine verordening volledig intact. Spurious line-breaks in paragrafen zijn EU PB-opmaak, geen ETL-bug.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 17133
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'L1 pass: 11 headings, kleine verordening volledig intact. Spurious line-breaks in paragrafen zijn EU PB-opmaak, geen ETL-bug.'
+      concrete_problemen: []
 ---
 
 # Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 betreffende de toepassing van internationale standaarden voor jaarrekeningen

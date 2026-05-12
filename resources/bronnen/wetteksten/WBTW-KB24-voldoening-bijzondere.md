@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:46:28Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
     layer1:
       status: warn
       run_id: 20260512-191733
@@ -37,29 +39,11 @@ provenance:
           samples:
             - 'regel 27: Disposition temporaire                                       Art. 13ter'
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A8
-          regel: 86
-          type: column-bleed
-          voorbeeld: '                        Disposition temporaire                                       Art. 13ter'
-        - categorie: B7
-          regel: 76
-          type: dotted-leader
-          voorbeeld: '### Onderafdeling 1.    Betaling op de postrekening van "BTW-Ontvangsten"\n                        Brussel                                                      Art. 1 - 8'
-        - categorie: B3
-          regel: 71
-          type: other
-          voorbeeld: '## AFDELING 1 (TOC-kopie) gevolgd door ## AFDELING 1 (echte inhoud) op regel 102'
-        - categorie: A8
-          regel: 107
-          type: column-bleed
-          voorbeeld: (Het opschrift van Afdeling 1, werd vervangen           met   ingang   van   01.12.2019      (Art.    31,
-      rationale: 'A8/kolom-bleed: regel 86 ''Disposition temporaire\t\t\t\t\t\t Art. 13ter'' is een twee-kolom-extractie-fout (FR-label + NL-artikel op één regel). B3: TOC-headings (AFDELING 1–5 met Art.-bereiken) worden exact herhaald als echte inhoud-headings zonder paginanummer — dit zijn dubbele headings. B7: de vijf initiële ## AFDELING-headings (regels 71–100) eindigen op paginabereiken (''Art. 1 - 8'', ''Art. 14 - 15'', ...) die TOC-rest zijn. Inhoud is inhoudelijk compleet (Art. 1–24).'
-      run_at: '2026-05-11T11:46:28Z'
       status: needs-rework
-    rationale: 'A8/kolom-bleed: regel 86 ''Disposition temporaire\t\t\t\t\t\t Art. 13ter'' is een twee-kolom-extractie-fout (FR-label + NL-artikel op één regel). B3: TOC-headings (AFDELING 1–5 met Art.-bereiken) worden exact herhaald als echte inhoud-headings zonder paginanummer — dit zijn dubbele headings. B7: de vijf initiële ## AFDELING-headings (regels 71–100) eindigen op paginabereiken (''Art. 1 - 8'', ''Art. 14 - 15'', ...) die TOC-rest zijn. Inhoud is inhoudelijk compleet (Art. 1–24).'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+      concrete_problemen: []
 status: beschikbaar
 tags:
   - VI.B

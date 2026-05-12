@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L1 pass: 32 headings, max sectie 4826 chars. Internationaal verdrag, headings als ## Art. correct. Bijlagen als plain-text opsommingen zijn bron-stijl. Inhoud volledig inclusief bijlagen A/B/C.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 40782
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'L1 pass: 32 headings, max sectie 4826 chars. Internationaal verdrag, headings als ## Art. correct. Bijlagen als plain-text opsommingen zijn bron-stijl. Inhoud volledig inclusief bijlagen A/B/C.'
+      concrete_problemen: []
 ---
 
 # Verdrag inzake wederzijdse administratieve bijstand in fiscale aangelegenheden (WABB/CMAAT)

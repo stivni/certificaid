@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:41:58Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: B4 all-caps hoofdstuklabels, A1 pagina-kopjes. Compilatie-artefacten.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -32,49 +34,15 @@ provenance:
       file_size_chars: 18710
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B4
-          regel: 60
-          type: other
-          voorbeeld: '                                         EERSTE HOOFDSTUK'
-        - categorie: A1
-          regel: 107
-          type: form-feed
-          voorbeeld: Deskundige schatting                           www.fisconetplus.be                                   pg. 1
-        - categorie: A1
-          regel: 165
-          type: form-feed
-          voorbeeld: Deskundige schatting                         www.fisconetplus.be                                     pg. 2
-        - categorie: A1
-          regel: 225
-          type: form-feed
-          voorbeeld: Deskundige schatting                         www.fisconetplus.be                                      pg. 3
-        - categorie: A1
-          regel: 282
-          type: form-feed
-          voorbeeld: Deskundige schatting                         www.fisconetplus.be                                     pg. 4
-        - categorie: A1
-          regel: 338
-          type: form-feed
-          voorbeeld: Deskundige schatting                          www.fisconetplus.be                                     pg. 5
-        - categorie: A1
-          regel: 353
-          type: form-feed
-          voorbeeld: Deskundige schatting                         www.fisconetplus.be                               pg. 6
-        - categorie: C3
-          regel: 362
-          type: pseudo-table
-          voorbeeld: '     Bijwerking                                       Te vervangen pagina''s'
-        - categorie: A7
-          regel: 64
-          type: scrambled-words
-          voorbeeld: '       (Het opschrift van hoofdstuk 1, van KB nr. 15, werd gewijzigd met                       ingang   van'
-      rationale: 'Structuur is deels aanwezig: 2 hoofdstuktitels als ## heading en afdelingen als ### heading, artikelen als #### Art.-headings. Echter: (1) A1: zes pagina-footer-regels mid-body (''Deskundige schatting  www.fisconetplus.be  pg. N'' op regels 107, 165, 225, 282, 338, 353); (2) B4: ''EERSTE HOOFDSTUK'' op regel 60 is plain-text in ALL-CAPS zonder ##-prefix (terwijl ## HOOFDSTUK II op regel 295 wél een heading is — inconsistentie); (3) A7: ''EERSTE HOOFDSTUK'' gespreid over 3 regels met centrering (regels 60-62); (4) C3: Bijlage A pseudo-tabel met spatie-alignment; (5) chunk.level=4 in frontmatter maar ## staat ook in body (niveau-inconsistentie). Inhoud volledig: 23 artikelen aanwezig.'
-      run_at: '2026-05-11T11:41:58Z'
       status: needs-rework
-    rationale: 'Structuur is deels aanwezig: 2 hoofdstuktitels als ## heading en afdelingen als ### heading, artikelen als #### Art.-headings. Echter: (1) A1: zes pagina-footer-regels mid-body (''Deskundige schatting  www.fisconetplus.be  pg. N'' op regels 107, 165, 225, 282, 338, 353); (2) B4: ''EERSTE HOOFDSTUK'' op regel 60 is plain-text in ALL-CAPS zonder ##-prefix (terwijl ## HOOFDSTUK II op regel 295 wél een heading is — inconsistentie); (3) A7: ''EERSTE HOOFDSTUK'' gespreid over 3 regels met centrering (regels 60-62); (4) C3: Bijlage A pseudo-tabel met spatie-alignment; (5) chunk.level=4 in frontmatter maar ## staat ook in body (niveau-inconsistentie). Inhoud volledig: 23 artikelen aanwezig.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: B4 all-caps hoofdstuklabels, A1 pagina-kopjes. Compilatie-artefacten.'
+      concrete_problemen:
+        - regel: 60
+          categorie: B4
+          type: other
+          voorbeeld: '                                         EERSTE HOOFDSTUK (plain-text)'
 status: beschikbaar
 tags:
   - VI.B

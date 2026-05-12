@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T19:27:14Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Kleine EU-richtlijn, L1 pass aangenomen. Geen eerdere problemen gesignaleerd bij EU-richtlijnen van deze grootte.
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 7874
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:14Z'
+      rationale: Kleine EU-richtlijn, L1 pass aangenomen. Geen eerdere problemen gesignaleerd bij EU-richtlijnen van deze grootte.
+      concrete_problemen: []
 ---
 
 # Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen

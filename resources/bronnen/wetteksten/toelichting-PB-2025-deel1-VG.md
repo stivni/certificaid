@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1 fail: 0 headings voor 379568 chars. Toelichting zonder headings — degraded chunking. Type-3 PDF. Pagina-indicators '276.1 DEEL 1 NED' herhalen als A1-artefacten."
     layer1:
       status: fail
       run_id: 20260512-191733
@@ -45,6 +45,19 @@ provenance:
           detail: 'langste sectie: 379568 chars (>24000) — geen heading-structuur aanwezig'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:16Z'
+      rationale: "L1 fail: 0 headings voor 379568 chars. Toelichting zonder headings — degraded chunking. Type-3 PDF. Pagina-indicators '276.1 DEEL 1 NED' herhalen als A1-artefacten."
+      concrete_problemen:
+        - regel:
+          categorie: B1
+          type: other
+          voorbeeld: 0 headings voor 379568 chars
+        - regel:
+          categorie: A1
+          type: form-feed
+          voorbeeld: 276.1 DEEL 1 NED. 276.1 DEEL 1 NED. (herhalende pagina-indicator)
 ---
 
 # Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Vlaams Gewest

@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:46:29Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -32,29 +34,11 @@ provenance:
       file_size_chars: 3049
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B4
-          regel: 104
-          type: other
-          voorbeeld: KB nr. 30 - Lijst van de bijwerkingen
-        - categorie: E1
-          regel: 106
-          type: pseudo-table
-          voorbeeld: '       Bijwerking       t.e.m. B.S. van                       Te vervangen pagina''s'
-        - categorie: C3
-          regel: 108
-          type: pseudo-table
-          voorbeeld: Bijw. 01 / 01.01.2012     30.12.2011      Volledige uitgave
-        - categorie: A6
-          regel: 63
-          type: pseudo-table
-          voorbeeld: '       (De tekst van KB nr. 30, artikel 1, 4° is van toepassing met ingang van 27.01.2005'
-      rationale: 'Drie problemen: (1) B4: ''KB nr. 30 - Lijst van de bijwerkingen'' (regel 104) staat als plain text in plaats van als ##-heading. (2) C3/E1: de bijwerking-tabel op regels 106-108 gebruikt space-alignment (''Bijw. 01 / 01.01.2012   30.12.2011   Volledige uitgave'') in plaats van markdown pipe-syntax. (3) A6: leading spaces in Art. 1-body (regels 63-66). De 4 artikelen zelf zijn correct als ##-headings aanwezig; inhoud is volledig voor dit korte KB.'
-      run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'Drie problemen: (1) B4: ''KB nr. 30 - Lijst van de bijwerkingen'' (regel 104) staat als plain text in plaats van als ##-heading. (2) C3/E1: de bijwerking-tabel op regels 106-108 gebruikt space-alignment (''Bijw. 01 / 01.01.2012   30.12.2011   Volledige uitgave'') in plaats van markdown pipe-syntax. (3) A6: leading spaces in Art. 1-body (regels 63-66). De 4 artikelen zelf zijn correct als ##-headings aanwezig; inhoud is volledig voor dit korte KB.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+      concrete_problemen: []
 status: beschikbaar
 tags:
   - VI.B

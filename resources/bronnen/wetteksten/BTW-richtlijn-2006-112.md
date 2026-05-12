@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:14Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Bekende issue: concordantietabel onderaan bevat dubbele Art.-headings (bv. '###### Art. 2. van Richtlijn 94/5/EG', '###### Art. 4. van Richtlijn 2002/38/EG') — de concordantietabel-stijl genereert sub-headings in de bijlagen die verwarrend zijn. L1 warn: max sectie 36349 chars. Inhoud verder compleet."
     layer1:
       status: warn
       run_id: 20260512-191733
@@ -41,6 +41,15 @@ provenance:
           detail: 'langste sectie op ######-niveau: 36349 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:14Z'
+      rationale: "Bekende issue: concordantietabel onderaan bevat dubbele Art.-headings (bv. '###### Art. 2. van Richtlijn 94/5/EG', '###### Art. 4. van Richtlijn 2002/38/EG') — de concordantietabel-stijl genereert sub-headings in de bijlagen die verwarrend zijn. L1 warn: max sectie 36349 chars. Inhoud verder compleet."
+      concrete_problemen:
+        - regel:
+          categorie: B3
+          type: other
+          voorbeeld: '###### Art. 2. van   Richtlijn   94/5/EG — dubbele heading in concordantietabel'
 ---
 
 # Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde

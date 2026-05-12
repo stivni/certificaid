@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "D2: '(Beeld niet opgenomen om technische redenen...)' op meerdere plaatsen — de forfaitaire grondslagerijen zijn afbeeldingen in de PDF die niet zijn geëxtraheerd. Inhoud ontbreekt grotendeels."
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 21268
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: "D2: '(Beeld niet opgenomen om technische redenen...)' op meerdere plaatsen — de forfaitaire grondslagerijen zijn afbeeldingen in de PDF die niet zijn geëxtraheerd. Inhoud ontbreekt grotendeels."
+      concrete_problemen:
+        - regel:
+          categorie: D2
+          type: other
+          voorbeeld: (Beeld niet opgenomen om technische redenen, zie B.St. van 25-05-2022, p. 44822)
 ---
 
 # BTW KB nr. 2bis — Forfaitaire grondslagen caféhouders

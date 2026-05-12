@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1 warn: 201 headings, max sectie 32357 chars. Tail bevat een lege heading '## Art.' zonder nummer of titel — B1/B3 artefact. De body start mid-§2 (bron-artefact). Verder inhoud aanwezig."
     layer1:
       status: warn
       run_id: 20260512-191733
@@ -41,6 +41,15 @@ provenance:
           detail: 'langste sectie op ######-niveau: 32357 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:16Z'
+      rationale: "L1 warn: 201 headings, max sectie 32357 chars. Tail bevat een lege heading '## Art.' zonder nummer of titel — B1/B3 artefact. De body start mid-§2 (bron-artefact). Verder inhoud aanwezig."
+      concrete_problemen:
+        - regel:
+          categorie: B3
+          type: other
+          voorbeeld: '## Art. (lege heading zonder nummer onderaan)'
 ---
 
 # Wet 4 april 2014 betreffende de verzekeringen

@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T16:30:31Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: C3 pseudo-tabellen, A6 spurious line-breaks, D2 lege Art. headings. Compilatie-artefacten aanwezig.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -32,25 +34,15 @@ provenance:
       file_size_chars: 10689
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: C3 pseudo-tabellen, A6 spurious line-breaks, D2 lege Art. headings. Compilatie-artefacten aanwezig.'
       concrete_problemen:
-        - categorie: C3
-          regel: 88
+        - regel: 88
+          categorie: C3
           type: pseudo-table
           voorbeeld: (De tekst van KB 04.04.2014, artikel 1,                  werd   gewijzigd     met   ingang    van    04.02.2019
-        - categorie: A6
-          regel: 178
-          type: other
-          voorbeeld: '                                               (Opgeheven'
-        - categorie: D2
-          regel: 258
-          type: abrupt-cutoff
-          voorbeeld: '                           Bijlage'
-      rationale: 'C3: wijzigingsnotities bij Art. 1, 3, 4, 5, 6, 7, 8, 10, 12 bevatten brede-spatie column-alignment artefact (PDF tabelvormige opmaak): ''(De tekst van KB 04.04.2014, artikel 1,                  werd   gewijzigd     met   ingang    van    04.02.2019''. Art. 8 bevat ''                                               (Opgeheven'' als ingesprongen tekst zonder sluitende haakjes (A6/D4). D2: ''Bijlage'' verschijnt als plain-text label op regel 258 zonder bijlage-inhoud — vermoedelijk afgesneden.'
-      run_at: '2026-05-11T16:30:31Z'
-      status: needs-rework
-    rationale: 'C3: wijzigingsnotities bij Art. 1, 3, 4, 5, 6, 7, 8, 10, 12 bevatten brede-spatie column-alignment artefact (PDF tabelvormige opmaak): ''(De tekst van KB 04.04.2014, artikel 1,                  werd   gewijzigd     met   ingang    van    04.02.2019''. Art. 8 bevat ''                                               (Opgeheven'' als ingesprongen tekst zonder sluitende haakjes (A6/D4). D2: ''Bijlage'' verschijnt als plain-text label op regel 258 zonder bijlage-inhoud — vermoedelijk afgesneden.'
-    status: needs-rework
 status: beschikbaar
 tags:
   - VI.B

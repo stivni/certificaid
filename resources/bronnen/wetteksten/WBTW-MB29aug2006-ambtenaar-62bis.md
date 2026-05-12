@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.C
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
       sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
       version: 29.04.2024
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:51:18Z'
+    status: trusted
+    confirmed_at: '2026-05-12T19:27:16Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: Eerder beoordeeld als trusted door subagent-sonnet-4-6.
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -32,13 +34,11 @@ provenance:
       file_size_chars: 1325
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Alle drie artikelen zijn correct als ## headings gemarkeerd. De preamble-tekst op regels 54–59 is aaneengesmolten maar dat is een cosmetisch haarscheurtje dat geen leesbaarheid of structuur raakt. Inhoud compleet: Art. 1 (ambtenaar WBTW), Art. 2 (ambtenaar WIB92), Art. 3 (inwerkingtreding). Frontmatter consistent. Geen detecteerbare OCR-fouten, geen kolom-bleed, geen artefacten.'
-      run_at: '2026-05-11T11:51:18Z'
       status: trusted
-    rationale: 'Alle drie artikelen zijn correct als ## headings gemarkeerd. De preamble-tekst op regels 54–59 is aaneengesmolten maar dat is een cosmetisch haarscheurtje dat geen leesbaarheid of structuur raakt. Inhoud compleet: Art. 1 (ambtenaar WBTW), Art. 2 (ambtenaar WIB92), Art. 3 (inwerkingtreding). Frontmatter consistent. Geen detecteerbare OCR-fouten, geen kolom-bleed, geen artefacten.'
-    status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:16Z'
+      rationale: Eerder beoordeeld als trusted door subagent-sonnet-4-6.
+      concrete_problemen: []
 status: beschikbaar
 tags:
   - VI.C

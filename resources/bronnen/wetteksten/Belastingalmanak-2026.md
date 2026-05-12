@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L1 warn: 5 headings voor 2.3M chars, max sectie 1.5M chars, TOC-stippen aanwezig. Narratieve gids — degraded chunking. Type-3 PDF.'
     layer1:
       status: warn
       run_id: 20260512-191733
@@ -46,6 +46,15 @@ provenance:
           samples:
             - '................ 2021'
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'L1 warn: 5 headings voor 2.3M chars, max sectie 1.5M chars, TOC-stippen aanwezig. Narratieve gids — degraded chunking. Type-3 PDF.'
+      concrete_problemen:
+        - regel:
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: '................ 2021'
 ---
 
 # Belastingalmanak 2026 — ITAA / Larcier-Intersentia

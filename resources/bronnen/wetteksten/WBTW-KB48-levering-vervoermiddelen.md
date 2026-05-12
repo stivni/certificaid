@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:46:29Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -32,25 +34,11 @@ provenance:
       file_size_chars: 12640
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 62
-          type: pseudo-table
-          voorbeeld: '       (Het opschrift van het KB nr. 48, werd gewijzigd met ingang van 08.03.2010, (Art. 1,'
-        - categorie: C3
-          regel: 222
-          type: pseudo-table
-          voorbeeld: Bijwerking                                  Te vervangen pagina's
-        - categorie: C3
-          regel: 228
-          type: pseudo-table
-          voorbeeld: '                        - pg. Bijl.A/1                       - Bijw. 03 - pg. Bijl.A/1'
-      rationale: 'De body bevat wel degelijk ## Art.-headings (Art. 1 t/m Art. 9 + Art. 4bis), dus de layer2-notitie ''geen ##-headings'' was incorrect — de headings zijn er. Maar er zijn drie persistente artefacten: (1) alle amendement-notities staan diep ingesprongen met 7+ spaties, wat een PDF-extractie-artefact is dat een mens nooit zo zou typen (A6/C3); (2) Bijlage A bevat een plain-text tabel met kolom-alignment via witruimte (''Te vervangen pagina''s'' / ''Bijw. 03 - pg. Bijl.A/1'') (C3); (3) tekst in de introductie (regels 54-57) bevat een woordafbreking binnen de wet-naam. Inhoud volledig tot Art. 9 inclusief bijlagen.'
-      run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'De body bevat wel degelijk ## Art.-headings (Art. 1 t/m Art. 9 + Art. 4bis), dus de layer2-notitie ''geen ##-headings'' was incorrect — de headings zijn er. Maar er zijn drie persistente artefacten: (1) alle amendement-notities staan diep ingesprongen met 7+ spaties, wat een PDF-extractie-artefact is dat een mens nooit zo zou typen (A6/C3); (2) Bijlage A bevat een plain-text tabel met kolom-alignment via witruimte (''Te vervangen pagina''s'' / ''Bijw. 03 - pg. Bijl.A/1'') (C3); (3) tekst in de introductie (regels 54-57) bevat een woordafbreking binnen de wet-naam. Inhoud volledig tot Art. 9 inclusief bijlagen.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+      concrete_problemen: []
 status: beschikbaar
 tags:
   - VI.B

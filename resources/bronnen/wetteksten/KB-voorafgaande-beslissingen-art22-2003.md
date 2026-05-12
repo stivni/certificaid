@@ -33,10 +33,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L1 pass: 3 headings, max sectie 1314 chars. Kleine KB met 3 artikels volledig intact.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -46,6 +46,11 @@ provenance:
       file_size_chars: 1718
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'L1 pass: 3 headings, max sectie 1314 chars. Kleine KB met 3 artikels volledig intact.'
+      concrete_problemen: []
 ---
 
 # K.B. 17 januari 2003 tot uitvoering van artikel 22, tweede lid, van de wet van 24 december 2002 tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken

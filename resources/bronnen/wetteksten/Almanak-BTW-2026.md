@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:14Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1 fail: A2 TOC-stippen in body (1 regel met '................ 2021'), max sectie 1.5M chars (narratieve gids). Type-3 PDF via pdftotext_ejustice + simple_mode cleanup — als praktijkgids zonder Art-headings acceptabel voor chunking maar max_section_size is enorm."
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,19 @@ provenance:
       file_size_chars: 1470682
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:14Z'
+      rationale: "L1 fail: A2 TOC-stippen in body (1 regel met '................ 2021'), max sectie 1.5M chars (narratieve gids). Type-3 PDF via pdftotext_ejustice + simple_mode cleanup — als praktijkgids zonder Art-headings acceptabel voor chunking maar max_section_size is enorm."
+      concrete_problemen:
+        - regel:
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: '................ 2021'
+        - regel:
+          categorie: B1
+          type: other
+          voorbeeld: Slechts 5 headings voor 2.3M chars — degraded chunking
 ---
 
 # Almanak BTW 2026 — ITAA / Larcier-Intersentia

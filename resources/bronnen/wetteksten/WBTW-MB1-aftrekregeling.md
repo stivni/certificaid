@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.C
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
       sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
       version: 29.04.2024
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:46:29Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:16Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: kolom-bleed in bijlage-regels. needs-rework.'
     layer1:
       status: warn
       run_id: 20260512-191733
@@ -38,29 +40,15 @@ provenance:
             - 'regel 54: *   Ministerieel besluit nr. 6, van 4 maart 1993, waarbij uitstel wordt                        Bijw. 01/01.01.2012'
             - 'regel 162: *   Ministerieel besluit, van 29 april 2024, betreffende de technische                    Bijw. 01/03.06.2024'
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A8
-          regel: 97
-          type: column-bleed
-          voorbeeld: '*   Ministerieel besluit nr. 1, van 2 september 1980 ...                    Bijw. 02/09.12.2013'
-        - categorie: A8
-          regel: 116
-          type: column-bleed
-          voorbeeld: '*   Ministerieel besluit nr. 6, van 4 maart 1993 ...                        Bijw. 01/01.01.2012'
-        - categorie: A3
-          regel: 93
-          type: other
-          voorbeeld: FOD Financiën (AA BEO)   www.fisconetplus.be   Btw Ministeriële besluiten – 01.04.2023
-        - categorie: A3
-          regel: 95
-          type: other
-          voorbeeld: Lijst van de ministeriële besluiten (compilatie-TOC van 20+ MBs midden in de body)
-      rationale: 'Het bestand bevat ~180 regels Fisconet-compilatie-introductie (volledige MB-lijst met datumkolom rechts van de tekst, A8) vóór de eigenlijke MB nr. 1-inhoud begint. Dit is een A3-patroon: TOC/metapagina verspreid door de body. De drie werkelijke artikelen (Art. 1–3) staan wél correct als ## headings aan het einde, maar de omvangrijke voorblad-tekst is niet thuishoort in deze individuele MB-MD.'
-      run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'Het bestand bevat ~180 regels Fisconet-compilatie-introductie (volledige MB-lijst met datumkolom rechts van de tekst, A8) vóór de eigenlijke MB nr. 1-inhoud begint. Dit is een A3-patroon: TOC/metapagina verspreid door de body. De drie werkelijke artikelen (Art. 1–3) staan wél correct als ## headings aan het einde, maar de omvangrijke voorblad-tekst is niet thuishoort in deze individuele MB-MD.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:16Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: kolom-bleed in bijlage-regels. needs-rework.'
+      concrete_problemen:
+        - regel: 54
+          categorie: A8
+          type: column-bleed
+          voorbeeld: '*   Ministerieel besluit nr. 6, van 4 maart 1993...                        Bijw. 01/01.01.2012'
 status: beschikbaar
 tags:
   - VI.C

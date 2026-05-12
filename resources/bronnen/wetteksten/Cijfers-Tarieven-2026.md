@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L1 warn: 18 headings, max sectie 119K chars. Praktijkgids met tabellen en forfaitaire bedragen. Tabellen zijn gedeeltelijk als pseudo-tabellen met witruimte-alignment (zie de sociale voordelen-tabel). Geen Art.-structuur.'
     layer1:
       status: warn
       run_id: 20260512-191733
@@ -41,6 +41,19 @@ provenance:
           detail: 'langste sectie op ##-niveau: 119379 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'L1 warn: 18 headings, max sectie 119K chars. Praktijkgids met tabellen en forfaitaire bedragen. Tabellen zijn gedeeltelijk als pseudo-tabellen met witruimte-alignment (zie de sociale voordelen-tabel). Geen Art.-structuur.'
+      concrete_problemen:
+        - regel:
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '    aftrek- belastbaar welke maximaal RSZ verbaar bij de bij de werk-...'
+        - regel:
+          categorie: G1
+          type: url-plaintext
+          voorbeeld: https://be.brussels/fr/propos-de-la-region/... (kale URL)
 ---
 
 # Cijfers & tarieven 2026 — ITAA

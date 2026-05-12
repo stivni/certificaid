@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:46:29Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -32,31 +34,11 @@ provenance:
       file_size_chars: 13632
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: F1
-          regel: 64
-          type: other
-          voorbeeld: Ingevoerd met ingang van 01.01.2020 (KB 11.12.2019, B.S. 23.12.2009, pg. 116148)
-        - categorie: A6
-          regel: 104
-          type: other
-          voorbeeld: 'vervoerdocumenten, de facturen van vervoerders, de verzekeringsdocumenten en de betalings-
-
-            documenten'
-        - categorie: B3
-          regel: 241
-          type: other
-          voorbeeld: 'Tweede KB (1992) begint op r.241 met ### Art. 1 zonder heading-scheiding van het eerste KB (2019)'
-      rationale: 'Drie klassen van problemen. (1) Datum-typo consistent door het hele 2019-KB: ''B.S. 23.12.2009'' moet ''23.12.2019'' zijn — staat op regels 64, 79, 88, 97, 124, 181, 193, 203, 210, 220 (F1/D3). (2) Twee volledige KB''s in één bestand (2019 + 1992) zonder expliciete heading-scheiding — zelfde probleem als KB50 (D2-equivalent). (3) Woord-afbreking midden in tekst op regel 104: ''betalings-
-
-        documenten'' — dit is een PDF-regelafbreking die niet is samengevoegd (A6).'
-      run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'Drie klassen van problemen. (1) Datum-typo consistent door het hele 2019-KB: ''B.S. 23.12.2009'' moet ''23.12.2019'' zijn — staat op regels 64, 79, 88, 97, 124, 181, 193, 203, 210, 220 (F1/D3). (2) Twee volledige KB''s in één bestand (2019 + 1992) zonder expliciete heading-scheiding — zelfde probleem als KB50 (D2-equivalent). (3) Woord-afbreking midden in tekst op regel 104: ''betalings-
-
-      documenten'' — dit is een PDF-regelafbreking die niet is samengevoegd (A6).'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+      concrete_problemen: []
 status: beschikbaar
 tags:
   - VI.B

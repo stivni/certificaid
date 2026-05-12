@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:14Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B5/G3: de body start met een rij amendment-marker artikelnummers op regel 47 (bv. '(Art.254) (Art.255)...') die als plain-tekst bulk vooraan staat — dit is een Fisconet-artefact, geen inhoud. Verder zijn individuele artikelkoppen correct als ##### headings, inhoud volledig aanwezig (L1 pass, 533 headings)."
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 303040
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:14Z'
+      rationale: "B5/G3: de body start met een rij amendment-marker artikelnummers op regel 47 (bv. '(Art.254) (Art.255)...') die als plain-tekst bulk vooraan staat — dit is een Fisconet-artefact, geen inhoud. Verder zijn individuele artikelkoppen correct als ##### headings, inhoud volledig aanwezig (L1 pass, 533 headings)."
+      concrete_problemen:
+        - regel: 47
+          categorie: G3
+          type: other
+          voorbeeld: (Art.254)   (Art.255)    (Art.256)      (Art.257)  ... .\n01-04-2019             (Art.20)
 ---
 
 # Belgische AVG-uitvoeringswet 2018

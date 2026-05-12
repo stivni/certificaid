@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:14Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Zelfde situatie als Almanak-BTW: type-3 narratieve praktijkgids, max sectie groot, weinig headings. Aanvaardbaar als praktijkgids maar niet ideaal voor RAG.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 895948
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:14Z'
+      rationale: 'Zelfde situatie als Almanak-BTW: type-3 narratieve praktijkgids, max sectie groot, weinig headings. Aanvaardbaar als praktijkgids maar niet ideaal voor RAG.'
+      concrete_problemen:
+        - regel:
+          categorie: B1
+          type: other
+          voorbeeld: 'Weinig ## headings voor grote file — degraded chunking'
 ---
 
 # Almanak Vennootschapsbelasting 2026 — ITAA / Larcier-Intersentia

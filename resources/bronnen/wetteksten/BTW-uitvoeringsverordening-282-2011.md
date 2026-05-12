@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T19:27:14Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L1 pass: 84 headings, max sectie 17226 chars. Headings als ###### Artikel N, inhoud correct. Concordantietabel onderaan is acceptabel (## Hoofdstuk VIII headings). Geen significante artefacten.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 74977
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:14Z'
+      rationale: 'L1 pass: 84 headings, max sectie 17226 chars. Headings als ###### Artikel N, inhoud correct. Concordantietabel onderaan is acceptabel (## Hoofdstuk VIII headings). Geen significante artefacten.'
+      concrete_problemen: []
 ---
 
 # Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG

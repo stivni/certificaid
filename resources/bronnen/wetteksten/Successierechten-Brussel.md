@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1 warn: 368 headings, max sectie 57698 chars (chunker auto-split). ##### Art.-headings correct, Fisconet-stijl met 'van toepassing vanaf...' OK. Inhoud volledig tot Art. 1232."
     layer1:
       status: warn
       run_id: 20260512-191733
@@ -41,6 +41,11 @@ provenance:
           detail: 'langste sectie op #####-niveau: 57698 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: "L1 warn: 368 headings, max sectie 57698 chars (chunker auto-split). ##### Art.-headings correct, Fisconet-stijl met 'van toepassing vanaf...' OK. Inhoud volledig tot Art. 1232."
+      concrete_problemen: []
 ---
 
 # Successierechten — Brussels Hoofdstedelijk Gewest

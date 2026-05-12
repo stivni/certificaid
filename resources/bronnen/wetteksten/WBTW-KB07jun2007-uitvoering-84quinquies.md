@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T16:30:31Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: A1 pagina-kopjes in body. Compilatie-artefacten.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -32,33 +34,15 @@ provenance:
       file_size_chars: 5935
       flags: []
     layer2:
+      status: needs-rework
       agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: A1 pagina-kopjes in body. Compilatie-artefacten.'
       concrete_problemen:
-        - categorie: A1
-          regel: 142
+        - regel: 142
+          categorie: A1
           type: other
           voorbeeld: KB 07.06.2007                                      pg. 1        Onbeperkt uitstel van de invordering
-        - categorie: A1
-          regel: 162
-          type: other
-          voorbeeld: KB 07.06.2007                                      pg. 2        Onbeperkt uitstel van de invordering
-        - categorie: A1
-          regel: 189
-          type: other
-          voorbeeld: KB 07.06.2007                                     pg. Bijl.AB 1        Lijst van de bijw. en rec. wijz.
-        - categorie: C3
-          regel: 166
-          type: pseudo-table
-          voorbeeld: '     Bijwerking                                          Te vervangen pagina''s'
-        - categorie: G1
-          regel: 177
-          type: url-plaintext
-          voorbeeld: De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
-      rationale: 'A1: twee pagina-voetregels als plain text in body (regels 142, 162, 189): ''KB 07.06.2007                                      pg. 1        Onbeperkt uitstel van de invordering''. C3: Bijlage A (regel 166) toont pseudo-tabel met spatie-kolom-alignment: ''Bijwerking                                          Te vervangen pagina''s''. G1: bare URL ''www.fisconetplus.be'' op regel 177 als plain text zonder hyperlink-markup.'
-      run_at: '2026-05-11T16:30:31Z'
-      status: needs-rework
-    rationale: 'A1: twee pagina-voetregels als plain text in body (regels 142, 162, 189): ''KB 07.06.2007                                      pg. 1        Onbeperkt uitstel van de invordering''. C3: Bijlage A (regel 166) toont pseudo-tabel met spatie-kolom-alignment: ''Bijwerking                                          Te vervangen pagina''s''. G1: bare URL ''www.fisconetplus.be'' op regel 177 als plain text zonder hyperlink-markup.'
-    status: needs-rework
 status: beschikbaar
 tags:
   - VI.B

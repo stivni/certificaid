@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:46:29Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:16Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -32,29 +34,11 @@ provenance:
       file_size_chars: 3350
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 60
-          type: other
-          voorbeeld: (De tekst van KB nr. 9, artikel 1, eerste lid, werd gewijzigd met                    ingang   van
-        - categorie: A6
-          regel: 104
-          type: other
-          voorbeeld: '                                             *    *   *     *    *'
-        - categorie: G1
-          regel: 109
-          type: url-plaintext
-          voorbeeld: De historische versies kunnen geraadpleegd worden op www.fisconetplus.be
-        - categorie: C3
-          regel: 98
-          type: pseudo-table
-          voorbeeld: '        Bijwerking                                        Te vervangen pagina''s'
-      rationale: 'Drie problemen: (1) A6/C3: regel 60-61 toont overdreven witruimte in de artikelannotatie (''met                    ingang   van''), typisch column-extractie-artefact. (2) Regels 96-119 bevatten Bijlage A en Bijlage B als plain-tekst blokken met bijwerkingslijsten en een sterretjes-scheidingslijn (''* * * * *''), wat PDF-layout-residu is. (3) G1: regel 109 bevat kale URL ''www.fisconetplus.be'' als plain tekst. Alle 4 artikelen aanwezig als ## headings, inhoud volledig.'
-      run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'Drie problemen: (1) A6/C3: regel 60-61 toont overdreven witruimte in de artikelannotatie (''met                    ingang   van''), typisch column-extractie-artefact. (2) Regels 96-119 bevatten Bijlage A en Bijlage B als plain-tekst blokken met bijwerkingslijsten en een sterretjes-scheidingslijn (''* * * * *''), wat PDF-layout-residu is. (3) G1: regel 109 bevat kale URL ''www.fisconetplus.be'' als plain tekst. Alle 4 artikelen aanwezig als ## headings, inhoud volledig.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:16Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+      concrete_problemen: []
 status: beschikbaar
 tags:
   - VI.B

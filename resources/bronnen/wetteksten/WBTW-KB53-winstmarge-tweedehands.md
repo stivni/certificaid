@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:46:29Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -32,35 +34,11 @@ provenance:
       file_size_chars: 11411
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A8
-          regel: 55
-          type: column-bleed
-          voorbeeld: 'bijzondere regeling van belastingheffing over de winstmarge voor gebruikte
-
-            goederen,     kunstvoorwerpen,   voorwerpen     voor   verzamelingen    en'
-        - categorie: D1
-          regel: 213
-          type: other
-          voorbeeld: '(De tekst van Kb nr. 53, artikel 1, is van toepassing...  — staat bij ## Art. 12, moet ''artikel 12'' zijn'
-        - categorie: C3
-          regel: 220
-          type: pseudo-table
-          voorbeeld: Bijwerking                                  Te vervangen pagina's
-      rationale: 'Body bevat wel degelijk ## Art.-headings (Art. 1 t/m Art. 12) — de layer2-notitie ''0 ##-headings'' was onjuist. Twee persistente artefacten: (1) introductietekst regels 54-57 bevat meervoudige spaties als kolom-alignment (''bijzondere regeling van belastingheffing over de winstmarge voor gebruikte
-
-        goederen,     kunstvoorwerpen,   voorwerpen     voor   verzamelingen    en
-
-        antiquiteiten.'') (A8/C3); (2) de amendement-notitie bij Art. 12 (regel 213) verwijst foutief naar ''artikel 1'' in plaats van ''artikel 12'' — vermoedelijk broncopiefout maar een inhoudelijk alarm (D1-equivalent). Bijlage-tabellen als plain-text kolom-alignment.'
-      run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'Body bevat wel degelijk ## Art.-headings (Art. 1 t/m Art. 12) — de layer2-notitie ''0 ##-headings'' was onjuist. Twee persistente artefacten: (1) introductietekst regels 54-57 bevat meervoudige spaties als kolom-alignment (''bijzondere regeling van belastingheffing over de winstmarge voor gebruikte
-
-      goederen,     kunstvoorwerpen,   voorwerpen     voor   verzamelingen    en
-
-      antiquiteiten.'') (A8/C3); (2) de amendement-notitie bij Art. 12 (regel 213) verwijst foutief naar ''artikel 1'' in plaats van ''artikel 12'' — vermoedelijk broncopiefout maar een inhoudelijk alarm (D1-equivalent). Bijlage-tabellen als plain-text kolom-alignment.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+      concrete_problemen: []
 status: beschikbaar
 tags:
   - VI.B

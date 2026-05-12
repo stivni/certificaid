@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'D2: bestand is vrijwel leeg (207 chars, 0 headings). Slechts titel + één onvolledige zin. PDF-extractie heeft gefaald.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 207
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'D2: bestand is vrijwel leeg (207 chars, 0 headings). Slechts titel + één onvolledige zin. PDF-extractie heeft gefaald.'
+      concrete_problemen:
+        - regel: 1
+          categorie: D2
+          type: abrupt-cutoff
+          voorbeeld: 0 headings, 207 chars — bestand leeg behalve titel
 ---
 
 # BTW KB 22/06/2020 — E-notariaat

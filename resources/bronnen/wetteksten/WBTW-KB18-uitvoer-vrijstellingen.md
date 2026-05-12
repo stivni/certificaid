@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:41:58Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: A3 TOC-fragmenten verspreid. Compilatie-artefacten.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -32,41 +34,15 @@ provenance:
       file_size_chars: 39322
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A3
-          regel: 65
-          type: other
-          voorbeeld: '## HOOFDSTUK I — Vrijstelling ingesteld bij artikel 39, § 1, van het Wetboek (TOC-stub)'
-        - categorie: A3
-          regel: 86
-          type: other
-          voorbeeld: '## HOOFDSTUK I\n          Vrijstelling ingesteld bij artikel 39, § 1 (herhaling als echte sectie)'
-        - categorie: G3
-          regel: 408
-          type: other
-          voorbeeld: Koninklijk besluit nr. 19, van 29 juni 2014, met betrekking tot de vrijstellingsregeling...
-        - categorie: A1
-          regel: 465
-          type: form-feed
-          voorbeeld: Regeling kleine ondernemingen                  www.fisconetplus.be                                      pg.1
-        - categorie: A1
-          regel: 527
-          type: form-feed
-          voorbeeld: Regeling kleine ondernemingen                 www.fisconetplus.be                                      pg.2
-        - categorie: C3
-          regel: 599
-          type: pseudo-table
-          voorbeeld: '                                 Omschrijving                                  GN-Code'
-        - categorie: A6
-          regel: 90
-          type: other
-          voorbeeld: (De tekst van KB        nr.   18,   artikel    1,   is   van   toepassing     met    ingang    van    01.01.1993
-      rationale: 'Ernstigste problemen in deze batch: (1) A3: dubbele TOC mid-body — inhoudstafel op regels 65-85 (met lege afdeling-stubs) wordt daarna HERHAALD als echte headings/secties, wat verdubbeling geeft; (2) A1: meerdere pagina-footers mid-body (''Regeling kleine ondernemingen  www.fisconetplus.be  pg. N'' op regels 465, 527, 589, 653, 725); (3) G3: KB nr. 19 (kleine ondernemingen) begint plotseling op regel 408 midden in de bijlage van KB 18 — het bestand bevat inhoud van twee KBs door elkaar; (4) C3: Bijlage-tabellen als ASCII-pseudo-tabel; (5) A8: 7-spaties-inspringing in wijzigings-annotaties. De KB19-contaminatie is een structureel probleem.'
-      run_at: '2026-05-11T11:41:58Z'
       status: needs-rework
-    rationale: 'Ernstigste problemen in deze batch: (1) A3: dubbele TOC mid-body — inhoudstafel op regels 65-85 (met lege afdeling-stubs) wordt daarna HERHAALD als echte headings/secties, wat verdubbeling geeft; (2) A1: meerdere pagina-footers mid-body (''Regeling kleine ondernemingen  www.fisconetplus.be  pg. N'' op regels 465, 527, 589, 653, 725); (3) G3: KB nr. 19 (kleine ondernemingen) begint plotseling op regel 408 midden in de bijlage van KB 18 — het bestand bevat inhoud van twee KBs door elkaar; (4) C3: Bijlage-tabellen als ASCII-pseudo-tabel; (5) A8: 7-spaties-inspringing in wijzigings-annotaties. De KB19-contaminatie is een structureel probleem.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: A3 TOC-fragmenten verspreid. Compilatie-artefacten.'
+      concrete_problemen:
+        - regel: 65
+          categorie: A3
+          type: other
+          voorbeeld: '## HOOFDSTUK I — Vrijstelling... (TOC-stub zonder body)'
 status: beschikbaar
 tags:
   - VI.B

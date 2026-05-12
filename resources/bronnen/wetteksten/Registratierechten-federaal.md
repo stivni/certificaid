@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1 warn: 535 headings, kolom-bleed aanwezig (3 gevallen). Mid-body toont duidelijk twee-kolom extractie: NL-tekst en FR-fragmenten staan naast elkaar op dezelfde regels (bv. 'De schatting dient gevorderd... L'e'). A8 kolom-bleed is aanwezig."
     layer1:
       status: warn
       run_id: 20260512-191733
@@ -48,6 +48,15 @@ provenance:
             - 'regel 188: De exequaturs der scheidsrechterlijke uitspraken en die der                            Le buitenslands gewezen rechterli'
             - 'regel 676: Het registratierecht op de openbare verkopingen van lichamelijke                      Le roerende goederen is een federa'
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: "L1 warn: 535 headings, kolom-bleed aanwezig (3 gevallen). Mid-body toont duidelijk twee-kolom extractie: NL-tekst en FR-fragmenten staan naast elkaar op dezelfde regels (bv. 'De schatting dient gevorderd... L'e'). A8 kolom-bleed is aanwezig."
+      concrete_problemen:
+        - regel:
+          categorie: A8
+          type: column-bleed
+          voorbeeld: De schatting dient gevorderd bij een aanvraag genotificeerd door den               L'e ontvanger...
 ---
 
 # Registratierechten — federaal

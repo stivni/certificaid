@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L1 warn: 378 headings, max sectie 57698 chars, kolom-bleed 1 geval. Kolom-bleed is minimaal en in bijlagen/concordantietabellen. Hoofd-artikelinhoud correct. Inhoud volledig.'
     layer1:
       status: warn
       run_id: 20260512-191733
@@ -46,6 +46,15 @@ provenance:
           samples:
             - 'regel 919: Gedeelte van het netto-aandeel                                         Rechte lijn – tussen echtgenoten tussen wettelijk'
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'L1 warn: 378 headings, max sectie 57698 chars, kolom-bleed 1 geval. Kolom-bleed is minimaal en in bijlagen/concordantietabellen. Hoofd-artikelinhoud correct. Inhoud volledig.'
+      concrete_problemen:
+        - regel:
+          categorie: A8
+          type: column-bleed
+          voorbeeld: 1 kolom-bleed-patroon (in bijlage/concordantie)
 ---
 
 # Successierechten — Waals Gewest

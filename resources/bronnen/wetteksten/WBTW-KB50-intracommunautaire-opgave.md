@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:46:29Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -32,29 +34,11 @@ provenance:
       file_size_chars: 32782
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B4
-          regel: 250
-          type: scrambled-words
-          voorbeeld: "## HOOFDSTUK 2\n                        Deel 2 van de opgave met betrekking tot de"
-        - categorie: A6
-          regel: 503
-          type: other
-          voorbeeld: (De tekst van KB nr. 50, artikel 6, § 4, 2°, werd gewijzigd met                           ingang
-        - categorie: A1
-          regel: 589
-          type: other
-          voorbeeld: KB50-Bijlage                         pg. Bijl./1          Intracommunautaire opgave
-        - categorie: B3
-          regel: 394
-          type: other
-          voorbeeld: Tweede KB (2009) begint op r.394 zonder duidelijke heading-scheiding van het eerste KB (2019)
-      rationale: 'Twee volledige KB''s in één bestand (KB 2019 Art. 1-17 + KB 2009 Art. 1-13) zonder visuele scheiding tussen de twee wetten — enkel een introductie-alinea als overgang. Dit is een extractie-artefact: de compiler heeft beide versies achter elkaar geplakt (D2-equivalent: twee documenten als één). Bijkomend: regel 503 bevat spurious whitespace ''ingang    van'' (A6), en de bijlage-tabel op regels 589-591 bestaat uit ruwe pagina-referenties (''KB50-Bijlage  pg. Bijl./1'') als plain text die een mens nooit zo zou laten staan (A1/C3). Hoofdstuk-headings (''## HOOFDSTUK 2'') worden gevolgd door gecentreerde plain-text ondertitels (A7/B4).'
-      run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'Twee volledige KB''s in één bestand (KB 2019 Art. 1-17 + KB 2009 Art. 1-13) zonder visuele scheiding tussen de twee wetten — enkel een introductie-alinea als overgang. Dit is een extractie-artefact: de compiler heeft beide versies achter elkaar geplakt (D2-equivalent: twee documenten als één). Bijkomend: regel 503 bevat spurious whitespace ''ingang    van'' (A6), en de bijlage-tabel op regels 589-591 bestaat uit ruwe pagina-referenties (''KB50-Bijlage  pg. Bijl./1'') als plain text die een mens nooit zo zou laten staan (A1/C3). Hoofdstuk-headings (''## HOOFDSTUK 2'') worden gevolgd door gecentreerde plain-text ondertitels (A7/B4).'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+      concrete_problemen: []
 status: beschikbaar
 tags:
   - VI.B

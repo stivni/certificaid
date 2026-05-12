@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:46:29Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
     layer1:
       status: warn
       run_id: 20260512-191733
@@ -39,33 +41,11 @@ provenance:
             - 'regel 97: C.   Niet correct ingevuld                                   Per aangifte:'
             - 'regel 113: C.    Niet correct ingevuld                                     Per aangifte:'
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A8
-          regel: 144
-          type: column-bleed
-          voorbeeld: 'C.   Niet correct ingevuld                                   Per aangifte:'
-        - categorie: A8
-          regel: 171
-          type: column-bleed
-          voorbeeld: 'C.   Niet correct ingevuld                                   Per aangifte:'
-        - categorie: A8
-          regel: 191
-          type: column-bleed
-          voorbeeld: 'C.    Niet correct ingevuld                                     Per aangifte:'
-        - categorie: A1
-          regel: 482
-          type: form-feed
-          voorbeeld: Bovenaan Pg Bijl./5 — paginakop-residu midden in tabelrij
-        - categorie: E1
-          regel: 0
-          type: pseudo-table
-          voorbeeld: Volledige bijlage als spatie-uitgelijnde pseudo-tabel, niet als markdown-pipe-syntax
-      rationale: 'A8/C3: kolom-bleed bevestigd op minstens drie plaatsen (regels 144, 171, 191) waar twee PDF-kolommen samenvloeien als ''C.   Niet correct ingevuld                                   Per aangifte:'' — de sanctie staat op dezelfde regel als de categorie-omschrijving in plaats van als aparte tabelcel. Bijlage-tabellen zijn consistent als pseudo-tabellen met spatie-uitlijning (E1). A1: regel 482 toont een pagina-residu ''Bovenaan Pg Bijl./5'' midden in tabelinhoud. Laag-1 bevestigt dit met 3 kolom-bleed-samples. Inhoud volledig aanwezig.'
-      run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'A8/C3: kolom-bleed bevestigd op minstens drie plaatsen (regels 144, 171, 191) waar twee PDF-kolommen samenvloeien als ''C.   Niet correct ingevuld                                   Per aangifte:'' — de sanctie staat op dezelfde regel als de categorie-omschrijving in plaats van als aparte tabelcel. Bijlage-tabellen zijn consistent als pseudo-tabellen met spatie-uitlijning (E1). A1: regel 482 toont een pagina-residu ''Bovenaan Pg Bijl./5'' midden in tabelinhoud. Laag-1 bevestigt dit met 3 kolom-bleed-samples. Inhoud volledig aanwezig.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+      concrete_problemen: []
 status: beschikbaar
 tags:
   - VI.B

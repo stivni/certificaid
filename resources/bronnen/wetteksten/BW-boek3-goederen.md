@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L1 pass: 55 headings, max sectie 1767 chars. Wijzigingswet met correct headings. Body start is ongebruikelijk (§2 midden in een wijzigingsbepaling) maar dit is een bron-artefact (de PDF bevat de wetstekst zo). Inhoud volledig.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 15881
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'L1 pass: 55 headings, max sectie 1767 chars. Wijzigingswet met correct headings. Body start is ongebruikelijk (§2 midden in een wijzigingsbepaling) maar dit is een bron-artefact (de PDF bevat de wetstekst zo). Inhoud volledig.'
+      concrete_problemen:
+        - regel: 47
+          categorie: D1
+          type: source-typo
+          voorbeeld: § 2. In geval van gehele of gedeeltelijke vernietiging... (start mid-paragraaf, bron-artefact)
 ---
 
 # Burgerlijk Wetboek — Boek 3 — Goederen

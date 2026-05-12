@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1 warn: 903 headings, max sectie 38191 chars. Mid-body toont kolom-bleed: NL-tekst en FR-fragmenten staan op dezelfde regels (bv. '###### Art. 2.9.7.0.1 Het verkooprecht wordt geheven...  L met de bepalingen...'). A8 kolom-bleed zichtbaar in historiek-secties."
     layer1:
       status: warn
       run_id: 20260512-191733
@@ -41,6 +41,15 @@ provenance:
           detail: 'langste sectie op ######-niveau: 38191 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: "L1 warn: 903 headings, max sectie 38191 chars. Mid-body toont kolom-bleed: NL-tekst en FR-fragmenten staan op dezelfde regels (bv. '###### Art. 2.9.7.0.1 Het verkooprecht wordt geheven...  L met de bepalingen...'). A8 kolom-bleed zichtbaar in historiek-secties."
+      concrete_problemen:
+        - regel:
+          categorie: A8
+          type: column-bleed
+          voorbeeld: '###### Art. 2.9.7.0.1 Het verkooprecht wordt geheven             L met de bepalingen van artikel 3.3.2.0.1'
 ---
 
 # Vlaamse Codex Fiscaliteit (VCF)

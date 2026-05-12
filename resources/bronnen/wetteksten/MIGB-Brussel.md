@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1 pass: 189 headings, max sectie 10694 chars. ###### Artikel-headings correct, TITEL/HOOFDSTUK-structuur aanwezig. Wijzigingsmarkers '(gewijzigd bij art...)' zijn Fisconet-stijl, OK. Inhoud volledig."
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 126239
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: "L1 pass: 189 headings, max sectie 10694 chars. ###### Artikel-headings correct, TITEL/HOOFDSTUK-structuur aanwezig. Wijzigingsmarkers '(gewijzigd bij art...)' zijn Fisconet-stijl, OK. Inhoud volledig."
+      concrete_problemen: []
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofdstedelijk Gewest

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Bekende issue: heading/body volgorde. De overwegingen (1)-(16) staan als plain-tekst paragrafen vóór de eigenlijke artikelen, maar overweging-nummers zijn geen headings. De artikelkopjes (###### Artikel N) zijn correct. Voorts zijn lege headings '###### Artikel 15', '###### Artikel 16' aanwezig zonder body."
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,19 @@ provenance:
       file_size_chars: 39810
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: "Bekende issue: heading/body volgorde. De overwegingen (1)-(16) staan als plain-tekst paragrafen vóór de eigenlijke artikelen, maar overweging-nummers zijn geen headings. De artikelkopjes (###### Artikel N) zijn correct. Voorts zijn lege headings '###### Artikel 15', '###### Artikel 16' aanwezig zonder body."
+      concrete_problemen:
+        - regel:
+          categorie: B3
+          type: other
+          voorbeeld: '###### Artikel 15\n\n###### Artikel 16 (lege headings zonder body)'
+        - regel:
+          categorie: B4
+          type: other
+          voorbeeld: Overwegingen (1)-(16) als plain-text paragrafen in plaats van headings
 ---
 
 # Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld

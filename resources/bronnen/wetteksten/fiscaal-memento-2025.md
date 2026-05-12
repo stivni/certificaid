@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L1 fail: 0 headings voor 1072417 chars. Narratieve gids zonder headings — volledig degraded chunking. Type-3 PDF. Pagina-voetregels aanwezig.'
     layer1:
       status: fail
       run_id: 20260512-191733
@@ -52,6 +52,15 @@ provenance:
             - '................................................................................'
             - '................................................................................'
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:16Z'
+      rationale: 'L1 fail: 0 headings voor 1072417 chars. Narratieve gids zonder headings — volledig degraded chunking. Type-3 PDF. Pagina-voetregels aanwezig.'
+      concrete_problemen:
+        - regel:
+          categorie: B1
+          type: other
+          voorbeeld: 0 headings voor 1.07M chars — volledig degraded chunking
 ---
 
 # Fiscaal Memento 2025 — FOD Financiën (editie 12/2024)

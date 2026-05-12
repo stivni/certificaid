@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Handcrafted file, L1 pass: 9 headings, max sectie 3541 chars. Markdown-tabellen correct als pipe-syntax. Inhoud compleet.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 10226
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:16Z'
+      rationale: 'Handcrafted file, L1 pass: 9 headings, max sectie 3541 chars. Markdown-tabellen correct als pipe-syntax. Inhoud compleet.'
+      concrete_problemen: []
 ---
 
 # aangifte-PB-2025-bezoldigingen

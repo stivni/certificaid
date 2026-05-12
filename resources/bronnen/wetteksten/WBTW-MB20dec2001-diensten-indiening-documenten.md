@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.C
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
       sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
       version: 29.04.2024
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:51:18Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:16Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -32,25 +34,11 @@ provenance:
       file_size_chars: 2516
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 54
-          type: other
-          voorbeeld: Ministerieel besluit, van 20 december 2001, met betrekking tot de diensten waar\nde documenten bedoeld in de artikelen 53...
-        - categorie: A6
-          regel: 55
-          type: other
-          voorbeeld: 2°,53ter,1°,  (geen spaties rond komma — extractie-artefact)
-        - categorie: B5
-          regel: 58
-          type: other
-          voorbeeld: (De tekst van het opschrift van het MB van 20.12.2001... — amendement-parenthese midden in proza, niet als voetnoot
-      rationale: 'B5: Artikel 1 en Artikel 2 hebben wel ##-headings (''## Art. 1'', ''## Art. 2''), dus die structuur klopt. Maar regel 55 bevat ''53ter,1°,'' zonder spaties rond de komma — minor spacing artefact uit extractie. Ernstiger: de preamble-tekst (regels 54–69) staat als doorlopende proza-blokken zonder enige alinea-scheiding, waarbij het opschrift van het MB (regels 54–57) en de wetsgrondslag (regels 61–67) en de coordinatienoot (regels 68–69) aaneengesmolten zijn — dat is extractie-artefact (A6: spurious line-breaks / ontbrekende alinea-scheiding). Verder is de preamble-tekst inhoudelijk volledig en zijn de artikelen leesbaar.'
-      run_at: '2026-05-11T11:51:18Z'
       status: needs-rework
-    rationale: 'B5: Artikel 1 en Artikel 2 hebben wel ##-headings (''## Art. 1'', ''## Art. 2''), dus die structuur klopt. Maar regel 55 bevat ''53ter,1°,'' zonder spaties rond de komma — minor spacing artefact uit extractie. Ernstiger: de preamble-tekst (regels 54–69) staat als doorlopende proza-blokken zonder enige alinea-scheiding, waarbij het opschrift van het MB (regels 54–57) en de wetsgrondslag (regels 61–67) en de coordinatienoot (regels 68–69) aaneengesmolten zijn — dat is extractie-artefact (A6: spurious line-breaks / ontbrekende alinea-scheiding). Verder is de preamble-tekst inhoudelijk volledig en zijn de artikelen leesbaar.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:16Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+      concrete_problemen: []
 status: beschikbaar
 tags:
   - VI.C

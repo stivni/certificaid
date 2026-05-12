@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:46:28Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: A1 Fisconet pagina-kopjes, max sectie 128566 chars. Compilatie-artefacten in tarieven-bijlage.'
     layer1:
       status: warn
       run_id: 20260512-191733
@@ -36,33 +38,15 @@ provenance:
           detail: 'langste sectie op ###-niveau: 128566 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A1
-          regel: 121
-          type: form-feed
-          voorbeeld: Tarieven                                       www.fisconetplus.be                             KB20   pg. I/1
-        - categorie: A1
-          regel: 348
-          type: form-feed
-          voorbeeld: T. A - Goederen 6 pct.                       www.fisconetplus.be                          KB20      pg. II/1
-        - categorie: B4
-          regel: 276
-          type: other
-          voorbeeld: BIJLAGE / Tabel A – Goederen en diensten onderworpen aan het tarief van 6 pct. als plain text
-        - categorie: B4
-          regel: 293
-          type: other
-          voorbeeld: 'I.     Levende dieren. (plain text rubriek zonder ##-prefix)'
-        - categorie: B7
-          regel: 100
-          type: dotted-leader
-          voorbeeld: '## AFDELING 5.       Slotbepalingen.                                                    Art. 22 - 24'
-      rationale: 'A1: 30+ pagina-kopteksten (''Tarieven www.fisconetplus.be KB20 pg. I/1'' enz.) doorheen de body op vaste pagina-intervallen — nooit door een mens zo getypt. B4: tabel-rubrieken I t/m XL en Tabel A/B/C staan als plain text zonder ##-prefix; alleen ### Art. 1-artikelen en één ## Afdeling II zijn als headings gemarkeerd. B7: TOC-heading ''## AFDELING 5. Slotbepalingen. Art. 22 - 24'' eindigt op artikelbereik. Inhoud en volgorde zijn inhoudelijk compleet.'
-      run_at: '2026-05-11T11:46:28Z'
       status: needs-rework
-    rationale: 'A1: 30+ pagina-kopteksten (''Tarieven www.fisconetplus.be KB20 pg. I/1'' enz.) doorheen de body op vaste pagina-intervallen — nooit door een mens zo getypt. B4: tabel-rubrieken I t/m XL en Tabel A/B/C staan als plain text zonder ##-prefix; alleen ### Art. 1-artikelen en één ## Afdeling II zijn als headings gemarkeerd. B7: TOC-heading ''## AFDELING 5. Slotbepalingen. Art. 22 - 24'' eindigt op artikelbereik. Inhoud en volgorde zijn inhoudelijk compleet.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: A1 Fisconet pagina-kopjes, max sectie 128566 chars. Compilatie-artefacten in tarieven-bijlage.'
+      concrete_problemen:
+        - regel: 121
+          categorie: A1
+          type: other
+          voorbeeld: Fisconet pagina-kopje in body
 status: beschikbaar
 tags:
   - VI.B

@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:46:29Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -32,25 +34,11 @@ provenance:
       file_size_chars: 6553
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B5
-          regel: 106
-          type: other
-          voorbeeld: '## Art. 139: De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen'
-        - categorie: G3
-          regel: 96
-          type: other
-          voorbeeld: '(1) Art. 138: Deze wet is niet van toepassing: 1° op het administratieve dwangbevel...'
-        - categorie: A6
-          regel: 109
-          type: other
-          voorbeeld: 'Er moet evenwel een nieuw attest worden overgelegd... (staat na de verkeerd geplaatste ## Art. 139)'
-      rationale: 'Kritisch structuurprobleem: regel 106 bevat ''## Art. 139: De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen'' — dit is een artikel uit een andere wet (W 13.04.2019) dat als voetnoot-citaat (1) midden in de body terechtgekomen is, maar door de ETL-pipeline incorrect als ##-heading gepromoot is (B5/G3). Hierdoor staat de voetnoot-body (regels 96-107) door de eigenlijke tekst van Art. 3 (B6/G3). Voorts: dit KB is opgeheven per 01.01.2020 — status-veld vermeldt dit niet.'
-      run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'Kritisch structuurprobleem: regel 106 bevat ''## Art. 139: De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen'' — dit is een artikel uit een andere wet (W 13.04.2019) dat als voetnoot-citaat (1) midden in de body terechtgekomen is, maar door de ETL-pipeline incorrect als ##-heading gepromoot is (B5/G3). Hierdoor staat de voetnoot-body (regels 96-107) door de eigenlijke tekst van Art. 3 (B6/G3). Voorts: dit KB is opgeheven per 01.01.2020 — status-veld vermeldt dit niet.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+      concrete_problemen: []
 status: beschikbaar
 tags:
   - VI.B

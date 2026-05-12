@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:46:29Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -32,29 +34,11 @@ provenance:
       file_size_chars: 48429
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: C3
-          regel: 499
-          type: pseudo-table
-          voorbeeld: (De tekst van KB nr. 3, artikel 12, is   van   toepassing    met   ingang     van    01.01.1971
-        - categorie: C3
-          regel: 520
-          type: pseudo-table
-          voorbeeld: In afwijking van het vorige artikel worden                 voor    de   berekening     van    het    algemeen
-        - categorie: A6
-          regel: 68
-          type: pseudo-table
-          voorbeeld: "## AFDELING I\n       Voorwaarden waaraan het uitoefenen van het recht op aftrek"
-        - categorie: C3
-          regel: 581
-          type: pseudo-table
-          voorbeeld: (De tekst van KB        nr.   3,   artikel   17,   is   van   toepassing    met   ingang     van    01.01.1971
-      rationale: 'Systematisch PDF-kolom-alignment-artefact (C3/A6) verspreid door het volledige document: meerdere regels tonen excessieve interne witruimte (tot 15+ spaties) in de inline-datumverwijzingen van wijzigingsmarkers, bv. regel 499, 520, 581, 625, 640. Dit is een consistente extractie-bug die als ''pseudo-tabel'' uitlijning door chunkers verkeerd kan worden geïnterpreteerd. De ##/### heading-hiërarchie (Afdeling/Art.) is goed, inhoud volledig (Art. 1-23 + bijlagen).'
-      run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'Systematisch PDF-kolom-alignment-artefact (C3/A6) verspreid door het volledige document: meerdere regels tonen excessieve interne witruimte (tot 15+ spaties) in de inline-datumverwijzingen van wijzigingsmarkers, bv. regel 499, 520, 581, 625, 640. Dit is een consistente extractie-bug die als ''pseudo-tabel'' uitlijning door chunkers verkeerd kan worden geïnterpreteerd. De ##/### heading-hiërarchie (Afdeling/Art.) is goed, inhoud volledig (Art. 1-23 + bijlagen).'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+      concrete_problemen: []
 status: beschikbaar
 tags:
   - VI.B

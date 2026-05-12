@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T19:27:14Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L1 pass: 93 headings, max sectie 4227 chars. Body start bevat korrekte ###### Art.-headings, wisselingsmarkers [1...] zijn Fisconet-stijl en OK. Bijlagen intact als Art. N1-N4 headings. Geen artefacten.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 58205
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:14Z'
+      rationale: 'L1 pass: 93 headings, max sectie 4227 chars. Body start bevat korrekte ###### Art.-headings, wisselingsmarkers [1...] zijn Fisconet-stijl en OK. Bijlagen intact als Art. N1-N4 headings. Geen artefacten.'
+      concrete_problemen: []
 ---
 
 # Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Bekende issue: font-misclassificatie in de bijlage met vennootschapsvormen — genummerde lijsten (a), b), c)...) lopen samen in lange alinea's zonder markdown-lijst-opmaak. L1 pass: 23 headings. Inhoud aanwezig maar bijlage-opsommingen zijn niet als markdown-lijsten."
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 27798
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: "Bekende issue: font-misclassificatie in de bijlage met vennootschapsvormen — genummerde lijsten (a), b), c)...) lopen samen in lange alinea's zonder markdown-lijst-opmaak. L1 pass: 23 headings. Inhoud aanwezig maar bijlage-opsommingen zijn niet als markdown-lijsten."
+      concrete_problemen:
+        - regel:
+          categorie: C2
+          type: other
+          voorbeeld: b) De vennootschappen naar Belgisch recht, geheten... (opsomming niet als markdown lijst)
 ---
 
 # Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemeenschappelijke fiscale regeling voor moedermaatschappijen en dochterondernemingen uit verschillende lidstaten

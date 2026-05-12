@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Handcrafted file, geen PDF-artefacten. Maar: rekeningnummers als plain text zonder ##-headings (bv. '66211 Besteding'), structuur is flat-text rekeningstelsel zonder markdown-hiërarchie. 0 headings voor 5338 chars. Voor een MAR (rekeningstelsel) kan dit acceptabel zijn, maar de pagina-aanduidingen ('9 | Minimum Algemeen Rekeningstelsel...') zijn PDF-footer-resten."
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,19 @@ provenance:
       file_size_chars: 5338
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: "Handcrafted file, geen PDF-artefacten. Maar: rekeningnummers als plain text zonder ##-headings (bv. '66211 Besteding'), structuur is flat-text rekeningstelsel zonder markdown-hiërarchie. 0 headings voor 5338 chars. Voor een MAR (rekeningstelsel) kan dit acceptabel zijn, maar de pagina-aanduidingen ('9 | Minimum Algemeen Rekeningstelsel...') zijn PDF-footer-resten."
+      concrete_problemen:
+        - regel:
+          categorie: A1
+          type: form-feed
+          voorbeeld: 9 | Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen (pagina-indicator)
+        - regel:
+          categorie: B4
+          type: other
+          voorbeeld: 66211 Besteding (-) als plain-text, niet als heading
 ---
 
 # Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW)

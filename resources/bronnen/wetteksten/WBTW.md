@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L1 warn: 349 headings, max sectie 58337 chars (chunker auto-split). Fisconet-bron, ##### Art.-headings correct. Mid-body toont correcte artikelinhoud zonder kolom-bleed. Tail bevat bijlage-arresten correct. Geen ETL-artefacten.'
     layer1:
       status: warn
       run_id: 20260512-191733
@@ -41,6 +41,11 @@ provenance:
           detail: 'langste sectie op #####-niveau: 58337 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:16Z'
+      rationale: 'L1 warn: 349 headings, max sectie 58337 chars (chunker auto-split). Fisconet-bron, ##### Art.-headings correct. Mid-body toont correcte artikelinhoud zonder kolom-bleed. Tail bevat bijlage-arresten correct. Geen ETL-artefacten.'
+      concrete_problemen: []
 ---
 
 # Wetboek van de Belasting over de Toegevoegde Waarde (WBTW)

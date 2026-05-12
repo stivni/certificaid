@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L1 warn: 100 headings, max sectie 32574 chars (chunker auto-split). Headings correct als ###### Artikel N. EU PB-formatting in body (spurious hyphens) zijn bron-stijl. Inhoud volledig.'
     layer1:
       status: warn
       run_id: 20260512-191733
@@ -41,6 +41,11 @@ provenance:
           detail: 'langste sectie op ######-niveau: 32574 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'L1 warn: 100 headings, max sectie 32574 chars (chunker auto-split). Headings correct als ###### Artikel N. EU PB-formatting in body (spurious hyphens) zijn bron-stijl. Inhoud volledig.'
+      concrete_problemen: []
 ---
 
 # Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen

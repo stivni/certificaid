@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L1 fail: 0 headings voor 251159 chars. Toelichting VenB zonder headings — degraded chunking. Type-3 PDF. MODEL-aanduiding als pagina-footer.'
     layer1:
       status: fail
       run_id: 20260512-191733
@@ -45,6 +45,19 @@ provenance:
           detail: 'langste sectie: 251159 chars (>24000) — geen heading-structuur aanwezig'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:16Z'
+      rationale: 'L1 fail: 0 headings voor 251159 chars. Toelichting VenB zonder headings — degraded chunking. Type-3 PDF. MODEL-aanduiding als pagina-footer.'
+      concrete_problemen:
+        - regel:
+          categorie: B1
+          type: other
+          voorbeeld: 0 headings voor 251159 chars
+        - regel:
+          categorie: A1
+          type: form-feed
+          voorbeeld: MODEL 275.1 Ned. (pagina-footer)
 ---
 
 # Toelichting bij de aangifte in de vennootschapsbelasting — AJ 2025

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1 pass: 97 headings, max sectie 7003 chars. Fisconet-bron, 'Bron : ECONOMIE' is Fisconet-header die als plain-text in body staat — kleine artefact maar niet leesbaarheid-schadend. Alle artikels als #### Art. headings correct, inhoud volledig."
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 87816
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: "L1 pass: 97 headings, max sectie 7003 chars. Fisconet-bron, 'Bron : ECONOMIE' is Fisconet-header die als plain-text in body staat — kleine artefact maar niet leesbaarheid-schadend. Alle artikels als #### Art. headings correct, inhoud volledig."
+      concrete_problemen:
+        - regel: 47
+          categorie: A1
+          type: other
+          voorbeeld: 'Bron : ECONOMIE, KMO, MIDDENSTAND EN ENERGIE (Fisconet header na Art. 1)'
 ---
 
 # Klokkenluiderswet 2022

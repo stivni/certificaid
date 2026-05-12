@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:46:29Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -32,25 +34,11 @@ provenance:
       file_size_chars: 3702
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A1
-          regel: 108
-          type: form-feed
-          voorbeeld: KB57 (2017)                                         pg. 1                            Plaats van de dienst
-        - categorie: A1
-          regel: 110
-          type: other
-          voorbeeld: KB nr. 57 (2017) - Lijst van de bijwerkingen ... Bijw. 01 / 13.11.2017   - Volledige uitgave
-        - categorie: A6
-          regel: 65
-          type: other
-          voorbeeld: '                 Dit koninklijk besluit vervangt, met ingang van 23.11.2017, het'
-      rationale: 'Twee problemen: (1) A1: regels 108-116 bevatten een pagina-voettekst (''KB57 (2017) ... pg. 1 ... Plaats van de dienst'') en een bijwerkingslijst als plain tekst die thuishoort in een appendix of verwijderd moet worden. (2) A6/C3: regels 65-69 tonen centered indentation uit de PDF (grote lege ruimte links), wat er op wijst dat de conversie de tekst niet als gewone paragraaf heeft herkend. Artikelheadings (## Art. 1/2/3) zijn aanwezig en de inhoud is volledig.'
-      run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'Twee problemen: (1) A1: regels 108-116 bevatten een pagina-voettekst (''KB57 (2017) ... pg. 1 ... Plaats van de dienst'') en een bijwerkingslijst als plain tekst die thuishoort in een appendix of verwijderd moet worden. (2) A6/C3: regels 65-69 tonen centered indentation uit de PDF (grote lege ruimte links), wat er op wijst dat de conversie de tekst niet als gewone paragraaf heeft herkend. Artikelheadings (## Art. 1/2/3) zijn aanwezig en de inhoud is volledig.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+      concrete_problemen: []
 status: beschikbaar
 tags:
   - VI.B

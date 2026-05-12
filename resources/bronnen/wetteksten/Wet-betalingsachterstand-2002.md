@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Bekende issue: D1 Art. 2 getrunceerd — de file start pas bij '1° van de ontvangst...' midden in Art. 4 § 1 (of Art. 2 oud), Art. 1 en begin Art. 2 ontbreken. Geen heading voor het eerste artikel zichtbaar."
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 15075
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:16Z'
+      rationale: "Bekende issue: D1 Art. 2 getrunceerd — de file start pas bij '1° van de ontvangst...' midden in Art. 4 § 1 (of Art. 2 oud), Art. 1 en begin Art. 2 ontbreken. Geen heading voor het eerste artikel zichtbaar."
+      concrete_problemen:
+        - regel: 47
+          categorie: D1
+          type: abrupt-cutoff
+          voorbeeld: Body start met '1° van de ontvangst door de schuldenaar...' zonder Art. 1 heading
 ---
 
 # Wet betalingsachterstand handelstransacties

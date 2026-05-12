@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:46:29Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -32,25 +34,11 @@ provenance:
       file_size_chars: 9431
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 66
-          type: other
-          voorbeeld: De tekst van KB         nr.   46,   artikel    1,   is   van   toepassing     met   ingang     van    01.01.1993
-        - categorie: A6
-          regel: 182
-          type: other
-          voorbeeld: De tekst van KB        nr.   46,   artikel    9,   is   van   toepassing     met   ingang     van    01.01.1993
-        - categorie: A6
-          regel: 188
-          type: other
-          voorbeeld: De tekst van KB        nr.   46,   artikel   10,   is   van   toepassing     met    ingang    van    01.01.1993
-      rationale: 'A6: op regels 66, 182 en 188 staan uitgerekte tab-spaties in de wijzigingsnotities van Art. 1, 9 en 10: ''De tekst van KB         nr.   46,   artikel    1,   is   van   toepassing     met   ingang     van    01.01.1993'' — typisch PDF-tab-extractieartefact dat ook in KB4 voorkomt. De headings zijn correct (## Art. 1 t/m 10), inhoud is volledig en er zijn geen paginaresten of kolom-bleed gedetecteerd. Laag-1 pass zonder flags bevestigt de beperkte ernst.'
-      run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'A6: op regels 66, 182 en 188 staan uitgerekte tab-spaties in de wijzigingsnotities van Art. 1, 9 en 10: ''De tekst van KB         nr.   46,   artikel    1,   is   van   toepassing     met   ingang     van    01.01.1993'' — typisch PDF-tab-extractieartefact dat ook in KB4 voorkomt. De headings zijn correct (## Art. 1 t/m 10), inhoud is volledig en er zijn geen paginaresten of kolom-bleed gedetecteerd. Laag-1 pass zonder flags bevestigt de beperkte ernst.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+      concrete_problemen: []
 status: beschikbaar
 tags:
   - VI.B

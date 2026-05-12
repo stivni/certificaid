@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1 fail: 0 headings voor 161033 chars. Narratieve praktijkgids zonder enige ## heading — degraded chunking. Type-3 PDF. Pagina-footers ('82 • Belastinggids 2025', '83 www.aclvb.be') als A1-artefacten aanwezig."
     layer1:
       status: fail
       run_id: 20260512-191733
@@ -52,6 +52,19 @@ provenance:
             - '................................................................................'
             - '................................................................................'
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:16Z'
+      rationale: "L1 fail: 0 headings voor 161033 chars. Narratieve praktijkgids zonder enige ## heading — degraded chunking. Type-3 PDF. Pagina-footers ('82 • Belastinggids 2025', '83 www.aclvb.be') als A1-artefacten aanwezig."
+      concrete_problemen:
+        - regel:
+          categorie: B1
+          type: other
+          voorbeeld: 0 headings voor 161033 chars
+        - regel:
+          categorie: A1
+          type: form-feed
+          voorbeeld: 82 • Belastinggids 2025 (pagina-footer)
 ---
 
 # Belastinggids 2025 — ACLVB

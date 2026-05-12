@@ -8,21 +8,23 @@ chunk:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
       sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
       version: 06.03.2020
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T16:34:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T11:46:29Z'
+    status: needs-rework
+    confirmed_at: '2026-05-12T19:27:15Z'
     confirmed_by: subagent-sonnet-4-6
+    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
     layer1:
       status: pass
       run_id: 20260512-191733
@@ -32,25 +34,11 @@ provenance:
       file_size_chars: 2694
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A1
-          regel: 76
-          type: form-feed
-          voorbeeld: Innings- en invorderingsregister           www.fisconetplus.be                                    pg. 1
-        - categorie: A1
-          regel: 78
-          type: form-feed
-          voorbeeld: FOD Financiën (AABEO)                         www.fisconetplus.be          Btw Koninklijke besluiten - 18.03.2020
-        - categorie: A6
-          regel: 63
-          type: pseudo-table
-          voorbeeld: '       De belastingschuld wordt op naam van de belastingschuldige opgenomen in een innings- en'
-      rationale: 'Twee problemen: (1) A1: regels 76-78 bevatten een Fisconet-paginavoet (''Innings- en invorderingsregister www.fisconetplus.be pg. 1'' en ''FOD Financiën (AABEO) www.fisconetplus.be Btw Koninklijke besluiten - 18.03.2020'') die midden in de body staan en niet zijn gestript. (2) A6/C3: regels 63-66 tonen diep ingesprongen tekst met meerdere leading spaces als pseudo-uitlijning. De 3 artikelen zijn wel aanwezig als ##-headings.'
-      run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'Twee problemen: (1) A1: regels 76-78 bevatten een Fisconet-paginavoet (''Innings- en invorderingsregister www.fisconetplus.be pg. 1'' en ''FOD Financiën (AABEO) www.fisconetplus.be Btw Koninklijke besluiten - 18.03.2020'') die midden in de body staan en niet zijn gestript. (2) A6/C3: regels 63-66 tonen diep ingesprongen tekst met meerdere leading spaces als pseudo-uitlijning. De 3 artikelen zijn wel aanwezig als ##-headings.'
-    status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T19:27:15Z'
+      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+      concrete_problemen: []
 status: beschikbaar
 tags:
   - VI.B
