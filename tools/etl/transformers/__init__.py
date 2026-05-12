@@ -26,6 +26,7 @@ from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragrap
 from tools.etl.transformers.merge_broken_sentences import merge_broken_sentences
 from tools.etl.transformers.fix_italic_spacing import fix_italic_spacing
 from tools.etl.transformers.normalize_bullet_glyphs import normalize_bullet_glyphs
+from tools.etl.transformers.fix_bold_italic_mixing import fix_bold_italic_mixing
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
@@ -44,6 +45,7 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "merge_broken_sentences": merge_broken_sentences,
     "fix_italic_spacing": fix_italic_spacing,
     "normalize_bullet_glyphs": normalize_bullet_glyphs,
+    "fix_bold_italic_mixing": fix_bold_italic_mixing,
 }
 
 

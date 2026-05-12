@@ -1425,3 +1425,52 @@ class TestNormalizeBulletGlyphs:
     def test_geregistreerd_in_transformers(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "normalize_bullet_glyphs" in TRANSFORMERS
+
+
+# ─── fix_bold_italic_mixing (D4 in CBN-adviezen) ──────────────────────────────
+
+class TestFixBoldItalicMixing:
+    def test_mid_word_double_asterisk_stripped(self):
+        """`*N**iet in de balans*` → `*Niet in de balans*` (CBN-0167-02 patroon)."""
+        from tools.etl.transformers.fix_bold_italic_mixing import fix_bold_italic_mixing
+        body = "*N**iet in de balans opgenomen rechten*"
+        result, _ = fix_bold_italic_mixing(body, {})
+        assert result == "*Niet in de balans opgenomen rechten*"
+
+    def test_four_plus_asterisks_stripped(self):
+        """`****` (lege link/ruis) wordt gestript."""
+        from tools.etl.transformers.fix_bold_italic_mixing import fix_bold_italic_mixing
+        body = "Body voor ****link**** met meer tekst."
+        result, _ = fix_bold_italic_mixing(body, {})
+        assert "****" not in result
+
+    def test_legitimate_bold_unaffected(self):
+        """`**bold**` blijft volledig intact."""
+        from tools.etl.transformers.fix_bold_italic_mixing import fix_bold_italic_mixing
+        body = "Dit is **echte bold** in een zin."
+        result, _ = fix_bold_italic_mixing(body, {})
+        assert result == body
+
+    def test_legitimate_italic_unaffected(self):
+        from tools.etl.transformers.fix_bold_italic_mixing import fix_bold_italic_mixing
+        body = "Een *cursief* woord."
+        result, _ = fix_bold_italic_mixing(body, {})
+        assert result == body
+
+    def test_triple_asterisk_NOT_touched(self):
+        """`***foo***` (bold+italic combo) wordt NIET aangeraakt — kwetsbaar."""
+        from tools.etl.transformers.fix_bold_italic_mixing import fix_bold_italic_mixing
+        body = "***Boekingen***"
+        result, _ = fix_bold_italic_mixing(body, {})
+        assert result == body
+
+    def test_idempotent(self):
+        from tools.etl.transformers.fix_bold_italic_mixing import fix_bold_italic_mixing
+        body = "*N**iet* ****link****"
+        once, _ = fix_bold_italic_mixing(body, {})
+        twice, _ = fix_bold_italic_mixing(once, {})
+        assert once == twice
+
+    def test_geregistreerd_in_transformers(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "fix_bold_italic_mixing" in TRANSFORMERS
