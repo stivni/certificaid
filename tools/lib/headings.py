@@ -32,7 +32,7 @@ _FRONTMATTER_RE = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n", re.DOTALL)
 # binnen AFDELING), inconsistente BOEK-sectienummering (Antiwitwaswet: BOEK I impliciet),
 # en kleine documenten met weinig structuurlabels.
 BELGISCHE_HIERARCHIE: list[str] = [
-    "DEEL", "BOEK", "TITEL", "HOOFDSTUK", "AFDELING", "ONDERAFDELING",
+    "DEEL", "BOEK", "TITEL", "ONDERTITEL", "HOOFDSTUK", "AFDELING", "ONDERAFDELING",
 ]
 
 # Herkende structuurlabels voor de Belgische wetshiërarchie.
@@ -40,8 +40,10 @@ BELGISCHE_HIERARCHIE: list[str] = [
 # wetteksten zelden voor als sectie-heading en "paragraaf" verschijnt frequent
 # als verwijzing in body-tekst (bv. "overeenkomstig paragraaf 1.") wat anders
 # tot false positives leidt in de containment-detectie.
+# ONDERTITEL toegevoegd 2026-05-13 — komt in AVG-wet-2018 voor als sub-titel
+# onder TITEL (6 occurrences) en moet als rank gedetecteerd worden.
 STRUCTUURLABELS = [
-    "BOEK", "DEEL", "TITEL", "HOOFDSTUK", "AFDELING", "ONDERAFDELING",
+    "BOEK", "DEEL", "TITEL", "ONDERTITEL", "HOOFDSTUK", "AFDELING", "ONDERAFDELING",
 ]
 
 # Merge-groepen (ADR-005 §7, ADR-006 §4.1):
@@ -57,8 +59,10 @@ DEFAULT_MERGE_GROUPS: list[tuple[str, str]] = [
 # ─── Regex-patronen ───────────────────────────────────────────────────────────
 
 # Keyword-patroon (case-insensitive voor het sleutelwoord zelf)
-# Bevat enkel de zes erkende structuurlabels (zie STRUCTUURLABELS hierboven).
-_KEYWORD_PAT = r"(BOEK|DEEL|TITEL|HOOFDSTUK|AFDELING|ONDERAFDELING)"
+# Bevat enkel de zeven erkende structuurlabels (zie STRUCTUURLABELS hierboven).
+# Volgorde belangrijk: langere labels (ONDERTITEL/ONDERAFDELING) eerst zodat
+# de regex ze prefereert boven de kortere TITEL/AFDELING.
+_KEYWORD_PAT = r"(ONDERAFDELING|ONDERTITEL|HOOFDSTUK|AFDELING|TITEL|BOEK|DEEL)"
 _KEYWORD_RE = re.compile(
     r"^[\s\xa0]*" + _KEYWORD_PAT + r"\s+",
     re.IGNORECASE,

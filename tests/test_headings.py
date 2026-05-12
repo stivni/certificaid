@@ -43,8 +43,22 @@ def _info_for(naam: str) -> dict:
 
 def test_belgische_hierarchie_volgorde():
     assert BELGISCHE_HIERARCHIE == [
-        "DEEL", "BOEK", "TITEL", "HOOFDSTUK", "AFDELING", "ONDERAFDELING",
+        "DEEL", "BOEK", "TITEL", "ONDERTITEL", "HOOFDSTUK", "AFDELING", "ONDERAFDELING",
     ]
+
+
+def test_avg_wet_ondertitel_als_heading_rank():
+    """REGRESSIE-FIX: AVG-wet-2018 gebruikt 'ONDERTITEL N. - ...' (sub-titel
+    onder TITEL) — moet als rank gedetecteerd worden, niet als plain-text body.
+
+    Bron heeft 6 ONDERTITELs. Voor de fix stonden ze als B4 plain-text.
+    Na de fix: ONDERTITEL is opgenomen in BELGISCHE_HIERARCHIE en wordt
+    door process_wettekst gemapt naar een eigen heading-niveau.
+    """
+    info = _info_for("AVG-wet-2018.md")
+    assert "ONDERTITEL" in info["ranks"], (
+        f"ONDERTITEL niet gedetecteerd in ranks: {info['ranks']}"
+    )
 
 
 def test_default_merge_groups():
