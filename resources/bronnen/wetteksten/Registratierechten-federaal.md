@@ -17,56 +17,238 @@ provenance:
       version: 01.04.2026
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 6655d4b
+    pipeline_version: 2ab0aa1
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:52:43Z'
+  generated_at: '2026-05-12T21:23:24Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Kolom-bleed ETL-fix #3 slechts gedeeltelijk effectief: NL- en FR-tekst staan nog op dezelfde regels (bv. 'Artikel 1  Article 1 er', 'TITRE I ER - DROIT D'ENREGISTREMENT' in headings). B5: artikel-nummering als plain-text 'Artikel 1' in body (niet als ## of ### heading). B4: '##### van de belasting' als fragment-heading zonder volledige tekst (regel 68). Heading-structuur ernstig aangetast door bilinguïsme."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: warn
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:41Z'
-      heading_count: 255
-      max_section_chars: 55465
-      file_size_chars: 489801
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ######-niveau: 55465 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: "Kolom-bleed ETL-fix #3 slechts gedeeltelijk effectief: NL- en FR-tekst staan nog op dezelfde regels (bv. 'Artikel 1  Article 1 er', 'TITRE I ER - DROIT D'ENREGISTREMENT' in headings). B5: artikel-nummering als plain-text 'Artikel 1' in body (niet als ## of ### heading). B4: '##### van de belasting' als fragment-heading zonder volledige tekst (regel 68). Heading-structuur ernstig aangetast door bilinguïsme."
-      concrete_problemen:
-        - regel: 70
-          categorie: A8
-          type: column-bleed
-          voorbeeld: Artikel 1  Article 1 er
-        - regel: 88
-          categorie: B4
-          type: other
-          voorbeeld: "## TITEL I - REGISTRATIERECHT  TITRE I ER - DROIT D'ENREGISTREMENT"
-        - regel: 68
-          categorie: B1
-          type: other
-          voorbeeld: '##### van de belasting'
-        - regel: 70
-          categorie: B5
-          type: other
-          voorbeeld: 'Artikel 1  Article 1 er (plain-text, geen ## prefix)'
 ---
 
 # Registratierechten — federaal
 
 *Bijgewerkt tot en met 01.04.2026 — gecoördineerde versie.*
+
+#### WETBOEK DER REGISTRATIE-, HYPOTHEEK- EN GRIFFIERECHTEN
+
+CODE DES DROITS D’ENREGISTREMENT, D’HYPOTHEQUE ET DE GREFFE
+
+##### Federale wetgeving
+
+##### Législation Fédérale
+
+(officieuze coördinatie)
+
+(coordination officieuse)
+
+(KB nr. 64 van 30.11.1939, bevattende het Wetboek der registratie- hypotheek- en griffierechten (B.S. 01.12.1939) err. (B.S.,
+
+03.12.1939 en B.S. 13.12.1939). Dit KB werd bekrachtigd door art. 2 van de wet van 16 jun. 1947 (B.S. 14.08.1947) err. (B.S.,
+
+26.10.1947))
+
+(Arrêté royal n  64 du 30.11.1939, contenant le Code des droits d’enregistrement, d’hypothèque et de greffe (M.B., 01.12.1939)
+
+err. (M.B., 03.12.1939 et M.B., 13.12.1939). Cet AR a été confirmé par l’art. 2 de la loi du 16 juin 1947 (M.B., 14.08.1947) err. (M.B.,
+
+26.10.1947))
+
+INHOUDSTAFEL:
+
+TABLE DES MATIÈRES :
+
+## TITEL I - REGISTRATIERECHT................................................................................................................................................ 8
+
+### HOOFDSTUK I - Formaliteit der registratie en vestiging van de belasting .................................................................................... 8
+
+### HOOFDSTUK II - Indeling van de rechten en algemene heffingsregels ....................................................................................... 14
+
+### HOOFDSTUK III - Registratieverplichting .................................................................................................................................................. 17
+
+Eerste afdeling - Akten en verklaringen aan de formaliteit onderworpen .......................................................................... 17
+
+#### Afdeling II - Termijnen voor de aanbieding ter registratie .......................................................................................................... 23
+
+#### Afdeling III - Personen verplicht tot aanbieding ter registratie ................................................................................................. 26
+
+#### Afdeling IV - Plaats der registratie ........................................................................................................................................................ 29
+
+#### Afdeling V - Sancties ................................................................................................................................................................................... 31
+
+### HOOFDSTUK IV - Vaststelling van de rechten ........................................................................................................................................ 33
+
+#### Afdeling I - Overdrachten onder bezwarende titel van onroerende goederen .................................................................. 33
+
+#### Afdeling II - Openbare verkopingen van lichamelijke roerende goederen ........................................................................... 53
+
+#### Afdeling III - (…) .............................................................................................................................................................................................. 55
+
+#### Afdeling IV - Huurcontracten ................................................................................................................................................................... 55
+
+#### Afdeling V - (…) ............................................................................................................................................................................................... 57
+
+#### Afdeling VI - Hypotheekvestigingen ..................................................................................................................................................... 58
+
+#### Afdeling VII - (…) ............................................................................................................................................................................................ 61
+
+#### Afdeling VIII - (…) ........................................................................................................................................................................................... 62
+
+#### Afdeling IX - Opheffingen .......................................................................................................................................................................... 63
+
+#### Afdeling X - Verdelingen ............................................................................................................................................................................ 65
+
+#### Afdeling XI - Vennootschappen .............................................................................................................................................................. 67
+
+#### Afdeling XII - Schenkingen ........................................................................................................................................................................ 78
+
+#### Afdeling XIII - Huwelijkscontracten en testamenten .................................................................................................................... 91
+
+#### Afdeling XIV- Vonnissen en arresten ................................................................................................................................................... 91
+
+#### Afdeling XV - (…) ............................................................................................................................................................................................ 95
+
+#### Afdeling XVI - (…) ........................................................................................................................................................................................... 96
+
+#### Afdeling XVII - (…) ......................................................................................................................................................................................... 96
+
+#### Afdeling XVIII - (…) ........................................................................................................................................................................................ 96
+
+#### Afdeling XIX - Protesten ............................................................................................................................................................................ 97
+
+##### Afdeling XIX bis - Aangehechte akten en geschriften .................................................................................................................... 97
+
+#### Afdeling XX - Akten vrijgesteld van het evenredig recht en onderhevig aan het algemeen vast recht ............... 101
+
+### HOOFDSTUK V - Registratie in debet ...................................................................................................................................................... 105
+
+### HOOFDSTUK VI - Kosteloze registratie ................................................................................................................................................... 106
+
+### HOOFDSTUK VII - Vrijstelling van de formaliteit der registratie ................................................................................................... 110
+
+### HOOFDSTUK VIII - Diverse bepalingen betreffende de vereffening van de rechten en de betaling van het
+
+verschuldigde bedrag ...................................................................................................................................................................................... 117
+
+### HOOFDSTUK IX - Verplichtingen met het oog op het verzekeren van het heffen van de rechten ................................ 119
+
+#### Afdeling I - Vermeldingen op te nemen in bepaalde akten ..................................................................................................... 119
+
+#### Afdeling II - Voorschriften betreffende het uitreiken van uitgiften ...................................................................................... 120
+
+#### Afdeling III - Repertorium van de akten ........................................................................................................................................... 122
+
+#### Afdeling IV - Verplichting van inzageverlening ............................................................................................................................. 125
+
+#### Afdeling V - Verplichtingen opgelegd aan openbare ambtenaren ter verzekering van de invordering der
+
+registratierechten ...................................................................................................................................................................................... 129
+
+d’enregistrement ....................................................................................................................................................................................... 129
+
+### HOOFDSTUK X - Bewijsmiddelen .............................................................................................................................................................. 130
+
+#### Afdeling I - Algemene bepalingen ...................................................................................................................................................... 130
+
+#### Afdeling II - Controleschatting ............................................................................................................................................................. 132
+
+### HOOFDSTUK XI - Tekort in de waardering, bewimpeling en veinzing. Sanctiën ................................................................... 138
+
+### HOOFDSTUK XII - Correctionele straffen ............................................................................................................................................... 139
+
+### HOOFDSTUK XIII - Teruggaaf ...................................................................................................................................................................... 145
+
+### HOOFDSTUK XIV - Verjaring ........................................................................................................................................................................ 149
+
+### HOOFDSTUK XV - Vervolgingen en gedingen ...................................................................................................................................... 152
+
+### HOOFDSTUK XVI - Bijzondere bepalingen betreffende de openbare verkopingen van roerende goederen............ 156
+
+### HOOFDSTUK XVII - Inlichtingen te verstrekken door de Algemene Administratie van de
+
+Patrimoniumdocumentatie .......................................................................................................................................................................... 160
+
+### HOOFDSTUK XVIII - Speciaal recht op de nationaliteit, de adelbrieven en de verzoeken tot verandering van naam
+
+de nom ................................................................................................................................................................................................................... 162
+
+#### Afdeling I - Nationaliteit .......................................................................................................................................................................... 163
+
+#### Afdeling II - Open brieven van adeldom en verzoeken tot verandering van naam ....................................................... 166
+
+#### Afdeling III - Bepaling gemeen aan afdelingen I en II ................................................................................................................. 168
+
+### HOOFDSTUK XIX - Speciale geldboete wegens late neerlegging van aan bekendmaking onderworpen akten van
+
+vennootschap ..................................................................................................................................................................................................... 168
+
+## TITEL II - HYPOTHEEKRECHT ........................................................................................................................................... 169
+
+## TITEL III - GRIFFIERECHT .................................................................................................................................................. 172
+
+### HOOFDSTUK I - VESTIGING VAN DE BELASTING EN VASTSTELLING VAN DE RECHTEN ............................................... 172
+
+#### Afdeling I - Rolrecht .................................................................................................................................................................................. 173
+
+##### Afdeling I bis - Opstelrecht ...................................................................................................................................................................... 175
+
+#### Afdeling II - Expeditierecht .................................................................................................................................................................... 176
+
+#### Afdeling III - Legalisatie- en opzoekingsrechten .......................................................................................................................... 178
+
+#### Afdeling IV - Recht van inschrijving in het handelsregister, in het ambachtsregister en in de registers van de
+
+economische samenwerkingsverbanden ....................................................................................................................................... 179
+
+groupements d'intérêt économique .................................................................................................................................................. 179
+
+### HOOFDSTUK II - Vrijstellingen ..................................................................................................................................................................... 179
+
+### HOOFDSTUK III - Diverse bepalingen ....................................................................................................................................................... 183
+
+## Titel IV - Digitalisatie van de relaties tussen de Federale Overheidsdienst Financiën, de burgers en bepaalde derden .... 185
+
+GEMEENSCHAPPELIJKE BEPALINGEN VOOR ALLE BELASTINGEN .......................................................................................... 191
+
+DISPOSITIONS COMMUNES A TOUS LES IMPOTS ............................................................................................................................ 191
+
+INTREKKINGSBEPALING ............................................................................................................................................................................... 259
+
+DISPOSITION ABROGATOIRE ...................................................................................................................................................................... 259
+
+TIJDELIJKE BEPALINGEN ................................................................................................................................................................................ 259
+
+DISPOSITIONS TEMPORAIRES ................................................................................................................................................................... 259
+
+#### Afdeling I - Maatregelen waarbij de oprichting van nieuwe gebouwen begunstigd wordt door een
+
+vermindering der registratierechten ................................................................................................................................................. 259
+
+nouveaux bâtiments ................................................................................................................................................................................ 259
+
+#### Afdeling II - Diverse bepalingen ........................................................................................................................................................... 261
+
+OVERGANGSBEPALINGEN ........................................................................................................................................................................... 265
+
+DISPOSITIONS TRANSITOIRES ................................................................................................................................................................... 265
+
+#### Afdeling I - Algemene maatregelen ................................................................................................................................................... 265
+
+#### Afdeling II - Bijzondere maatregelen................................................................................................................................................. 266
+
+BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL GELIJKGESTELDE TAKSEN .............................................................. 267
+
+DISPOSITIONS ADDITIONNELLES RELATIVES AUX TAXES ASSIMILEES AU TIMBRE ....................................................... 267
+
+INWERKINGTREDING ...................................................................................................................................................................................... 268
+
+ENTREE EN VIGUEUR ..................................................................................................................................................................................... 268
 
 ### EN GRIFFIERECHTEN
 
@@ -82,13 +264,13 @@ hypotheek- en griffierechten (B.S. 01.12.1939) err. (B.S., 03.12.1939 en B.S.
 
 (B.S. 14.08.1947) err. (B.S., 26.10.1947))
 
-## TITEL I - REGISTRATIERECHT  TITRE I ER - DROIT D’ENREGISTREMENT
+## TITEL I - REGISTRATIERECHT
 
 ### HOOFDSTUK I - Formaliteit der registratie en vestiging
 
 ##### van de belasting
 
-Artikel 1  Article 1 er
+###### Artikel 1
 
 (gewijzigd bij art. 79 van de wet van 11.07.2018 (B.S., 20.07.2018 - ed. 2).
 
@@ -108,7 +290,7 @@ Deze formaliteit geeft aanleiding tot heffing van een belasting
 
 genaamd registratierecht.
 
-Artikel 2  Article 2
+###### Artikel 2
 
 (gewijzigd bij art. 111 van de wet van 31.07.2020 (B.S., 07.08.2020 - ed. 1).
 
@@ -192,8 +374,6 @@ worden geregistreerd.
 
 ###### Art. 2. bis
 
-Article 2 bis
-
 (ingevoegd bij art. 43 van de wet van 21.12.2013 (B.S., 31.12.2013 – ed. 2).
 
 Tekst van toepassing vanaf 10.01.2014 (art. 87, 1°))
@@ -211,8 +391,6 @@ getekend door de betrokken partij of door de instrumenterende
 notaris, in haar naam.
 
 ###### Art. 2. ter
-
-Article 2 ter
 
 (ingevoegd bij art. 44 van de wet van 21.12.2013 (B.S., 31.12.2013 - ed. 2).
 
@@ -235,8 +413,6 @@ ondernemingsnummer is toegekend, bevestigt die partij dit in de akte
 of in een ondertekende aanvullende verklaring onderaan de akte.
 
 ###### Art. 2. quater
-
-Article 2 quater
 
 (lid 3, vervangen bij art. 58 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed.
 
@@ -272,9 +448,9 @@ geweigerd wegens niet naleving van de voorgaande bepalingen,
 
 wordt de verzoeker daarvan in kennis gesteld.
 
-Dit artikel is niet van toepassing in het geval bepaald in artikel 25.  Le présent article n'est pas d'application dans le cas visé à l'article 25.
+Dit artikel is niet van toepassing in het geval bepaald in artikel 25.
 
-Artikel 3  Article 3
+###### Artikel 3
 
 (gewijzigd bij art. 80 van de wet van 11.07.2018 (B.S., 20.07.2018 - ed. 2).
 
@@ -292,23 +468,21 @@ door een beëdigde vertaler voor echt verklaarde vertaling daaraan
 
 worde toegevoegd.
 
-Artikel 4  Article 4
+###### Artikel 4
 
 De registratie is ondeelbaar: zij wordt toegepast op de gehele akte of
 
 het geheel geschrift welke tot de formaliteit wordt aangeboden.
 
-Artikel 5  Article 5
+###### Artikel 5
 
 (opgeheven bij art. 3 van de wet van 11.06.2020 (B.S., 19.06.2020 - ed. 1).
 
 Tekst van toepassing vanaf 29.06.2020 (art. -))
 
-(…)  (…)
+(…)
 
 ###### Art. 5. bis
-
-Article 5 bis
 
 (vervangen bij art. 93 van de wet van 21.01.2022 (B.S., 28.01.2022 - ed.
 
@@ -330,7 +504,7 @@ zelfstandige bedoeld in de wet van 25 april 2007 houdende diverse
 
 bepalingen (IV).
 
-Artikel 6  Article 6
+###### Artikel 6
 
 (gewijzigd bij art. 82 van de wet van 11.07.2018 (B.S., 20.07.2018 - ed. 2).
 
@@ -352,7 +526,7 @@ opening van de kantoren.
 
 Het kantoor mag ze niet langer houden dan nodig is.  Le bureau ne peut les retenir au-delà du temps nécessaire.
 
-Artikel 7  Article 7
+###### Artikel 7
 
 (gewijzigd bij art. 83 van de wet van 11.07.2018 (B.S., 20.07.2018 - ed. 2).
 
@@ -378,7 +552,7 @@ het bevoegde kantoor zelf de eensluidendheid van het afschrift, met
 
 vermelding van die weigering. Het aldus gewaarmerkt afschrift
 
-Artikel 8  Article 8
+###### Artikel 8
 
 (gewijzigd bij art. 4 van de wet van 11.06.2020 (B.S., 19.06.2020 - ed. 1). Tekst
 
@@ -406,8 +580,6 @@ geschiedt naar een door de Minister van Financiën vastgestelde tekst.
 
 ###### Art. 8. bis
 
-Article 8 bis
-
 (ingevoegd bij art. 135 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
 van toepassing vanaf 01.01.1990 (art. 244))
@@ -432,7 +604,7 @@ voorschrijven en aanvullende regels vaststellen om de juiste heffing
 
 van de belasting te verzekeren.
 
-Artikel 9  Article 9
+###### Artikel 9
 
 (gewijzigd bij art. 12 van de wet van 07.02.2021 (B.S., 19.02.2021). Tekst van
 
@@ -446,7 +618,7 @@ vastgesteld is voor de uitvoering van een formaliteit, op een
 
 ##### heffingsregels
 
-Artikel 10  Article 10
+###### Artikel 10
 
 (gewijzigd bij art. 136 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
@@ -458,7 +630,7 @@ Vaste rechten zijn verdeeld in algemeen vast recht en specifieke vaste
 
 rechten.
 
-Artikel 11  Article 11
+###### Artikel 11
 
 (gewijzigd bij art. 11 van de Programmawet van 28.06.2013 (B.S.,
 
@@ -476,7 +648,7 @@ voorziene akten en geschriften.
 
 Het algemeen vast recht bedraagt 50 EUR.  Le montant du droit fixe général est de 50 EUR.
 
-Artikel 12  Article 12
+###### Artikel 12
 
 Het evenredig of specifiek vast recht wordt slechts eenmaal op een
 
@@ -484,7 +656,7 @@ rechtshandeling geheven, wat ook het getal zij van de geschriften die
 
 daarvan laten blijken.
 
-Artikel 13  Article 13
+###### Artikel 13
 
 heeft:
 
@@ -516,7 +688,7 @@ handeling geheven evenredig recht teruggegeven werd of voor
 
 teruggaaf vatbaar zij.
 
-Artikel 14  Article 14
+###### Artikel 14
 
 (vervangen bij art. 2 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
@@ -534,7 +706,7 @@ Het recht wordt geheven met inachtneming van diegene van
 
 bedoelde beschikkingen welke tot het hoogste recht aanleiding geeft.
 
-Artikel 15  Article 15
+###### Artikel 15
 
 Wanneer, in een akte, verscheidene onafhankelijke of niet
 
@@ -546,7 +718,7 @@ verschuldigd.
 
 Deze regel is niet van toepassing op het algemeen vast recht.  Cette règle n’est pas applicable au droit fixe général.
 
-Artikel 16  Article 16
+###### Artikel 16
 
 welke aan een schorsende voorwaarde onderworpen is, geeft alleen
 
@@ -568,7 +740,7 @@ geweest, en op de bij dit wetboek vastgelegde en op de datum van de
 
 vervulling der voorwaarde beschouwde belastbare grondslag.
 
-Artikel 17  Article 17
+###### Artikel 17
 
 Wordt, voor de toepassing van dit wetboek, met een aan een
 
@@ -578,7 +750,7 @@ rechtshandeling door een rechtspersoon verricht en aan machtiging,
 
 goedkeuring of bekrachtiging van overheidswege onderworpen.
 
-Artikel 18  Article 18
+###### Artikel 18
 
 (§ 2, vervangen bij art. 168 van de programmawet van 29.03.2012 (B.S.,
 
@@ -644,13 +816,13 @@ verrichting aan een belastingheffing overeenkomstig het doel van de
 
 wet onderworpen alsof het misbruik niet heeft plaatsgevonden.
 
-### HOOFDSTUK III - Registratieverplichting  CHAPITRE III - Obligation de l’enregistrement
+### HOOFDSTUK III - Registratieverplichting
 
 Eerste afdeling - Akten en verklaringen aan de formaliteit
 
 onderworpen
 
-Artikel 19  Article 19
+###### Artikel 19
 
 (lid 1, 5°, gewijzigd bij art. 20 van de wet van 10.02.2026 (B.S., 27.02.2026).
 
@@ -708,17 +880,15 @@ wat de bepalingen onder 2°, 3° en 5° van hetzelfde lid betreft,
 
 worden in dit artikel alleen de in België verleden akten bedoeld.
 
-Artikel 20  Article 20
+###### Artikel 20
 
 (opgeheven bij art. 2 van de wet van 12.07.1960 (B.S., 09.11.1960). Tekst van
 
 toepassing vanaf 01.01.1961 (art. 39))
 
-(…)  (…)
+(…)
 
 ###### Art. 21. 1
-
-Article 21 1
 
 (vervangen bij art. 59 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2).
 
@@ -734,7 +904,7 @@ bijlagen en alle andere tegelijk aan te bieden stukken, geschriften en
 
 verklaringen:
 
-1° de plaatsbeschrijving bedoeld in artikel 2 quater , eerste lid;  1° l'état des lieux visé à l'article 2 quater , alinéa 1 er ;
+1° de plaatsbeschrijving bedoeld in artikel 2 quater , eerste lid;
 
 is gevoegd;
 
@@ -746,7 +916,7 @@ akte welke onder de minuten van een notaris in België berust of bij
 
 zijn minuten is gevoegd;
 
-4° de verklaringen bedoeld in artikel 31.  4° les déclarations visées à l'article 31.
+4° de verklaringen bedoeld in artikel 31.
 
 De Koning kan de categorie van akten, geschriften en verklaringen
 
@@ -763,8 +933,6 @@ overgedragen aan het Rijksarchief of vernietigd in uitvoering van de
 artikelen 1 en 5 van de archiefwet Wet van 24 juni 1955.
 
 ###### Art. 21. 2
-
-Article 21 2
 
 (gewijzigd bij art. 1 van de wet van 10.07.1969 (B.S., 25.07.1969). Tekst van
 
@@ -786,7 +954,7 @@ voorwerpen aangewend tot de dienst en de exploitatie van
 
 onroerende goederen.
 
-Artikel 22  Article 22
+###### Artikel 22
 
 (opgeheven bij art. 3 van de wet van 10.06.1997 (B.S., 19.07.1997). Tekst van
 
@@ -794,7 +962,7 @@ toepassing voor de effecten die ter betaling worden aangeboden vanaf
 
 23.09.1997 (art. 10, KB van 15.09.1997 (B.S., 23.09.1997))
 
-(…)  (…)
+(…)
 
 De exequaturs der scheidsrechterlijke uitspraken en die der
 
@@ -804,15 +972,15 @@ aanbieding ter registratie, vergezeld zijn van de desbetreffende
 
 uitspraken of beslissingen.
 
-Artikel 24  Article 24
+###### Artikel 24
 
 (opgeheven bij art. 2 van de wet van 12.07.1960 (B.S., 09.11.1960). Tekst van
 
 toepassing vanaf 01.01.1961 (art. 39))
 
-(…)  (…)
+(…)
 
-Artikel 25  Article 25
+###### Artikel 25
 
 (gewijzigd bij art. 3 van de wet van 03.12.2020 (B.S., 11.12.2020 - ed. 1). Tekst
 
@@ -852,7 +1020,7 @@ Nota:
 
 (1) ‘uittrek-sel’ in het B.S.
 
-Artikel 26  Article 26
+###### Artikel 26
 
 (laatste lid vervangen bij art. 47 van de wet van 21.12.2013 (B.S., 31.12.2013
 
@@ -866,7 +1034,7 @@ aangehechte of neergelegde akte tegelijk met de desbetreffende akte
 
 ter registratie aan te bieden.
 
-De in het eerste lid bedoelde verplichting is niet van toepassing:  L'obligation visée à l'alinéa 1 er n'est pas applicable :
+De in het eerste lid bedoelde verplichting is niet van toepassing:
 
 1° in geval van aanhechting of van neerlegging, onder de vorm van
 
@@ -890,15 +1058,15 @@ refertenummer van het plan en bevestigt dat het plan nadien niet is
 
 gewijzigd.
 
-Artikel 27  Article 27
+###### Artikel 27
 
 (opgeheven bij art. 19 van de wet van 01.07.1983 (B.S., 08.07.1983). Tekst
 
 van toepassing vanaf 18.07.1983 (art. -))
 
-(…)  (…)
+(…)
 
-Artikel 28  Article 28
+###### Artikel 28
 
 (opgeheven bij art. 2/art. 28 van de wet van 10.10.1967 (B.S., 31.10.1967).
 
@@ -906,9 +1074,9 @@ Tekst van toepassing vanaf 01.01.1969 (art. 3, 28°, KB 04.11.1968 (B.S.,
 
 13.11.1968))
 
-(…)  (…)
+(…)
 
-Artikel 29  Article 29
+###### Artikel 29
 
 (gewijzigd bij art. 87 van de wet van 11.07.2018 (B.S., 20.07.2018 - ed. 2).
 
@@ -916,7 +1084,7 @@ Tekst van toepassing vanaf 30.07.2018 (art. -))
 
 krachtens niet vooraf geregistreerde akten.
 
-Artikel 30  Article 30
+###### Artikel 30
 
 (gewijzigd bij art. 88 van de wet van 11.07.2018 (B.S., 20.07.2018 - ed. 2).
 
@@ -940,7 +1108,7 @@ België verleden gerechtelijke akten van de burgerlijke stand, in
 
 minuut, uitgifte, afschrift of uittreksel.
 
-Artikel 31  Article 31
+###### Artikel 31
 
 (lid 1, 1°bis, gewijzigd bij art. 21 van de wet van 10.02.2026 (B.S.,
 
@@ -968,7 +1136,7 @@ leiding buiten het grondgebied van de lidstaten van de Europese Unie,
 
 is gevestigd, niet bij een akte is vastgesteld;
 
-1° ter (…)  1° ter (…)
+1° ter (…)
 
 2° Wanneer de voorwaarde die de heffing van een recht heeft
 
@@ -994,9 +1162,9 @@ der partijen ondertekende verklaring als van al de partijen uitgaande
 
 aangezien.
 
-#### Afdeling II - Termijnen voor de aanbieding ter registratie  Section II - Délais pour la présentation à la formalité
+#### Afdeling II - Termijnen voor de aanbieding ter registratie
 
-Artikel 32  Article 32
+###### Artikel 32
 
 (7°, gewijzigd bij art. 22 van de wet van 10.02.2026 (B.S., 27.02.2026). Tekst
 
@@ -1130,9 +1298,9 @@ werkelijke leiding buiten het grondgebied van de lidstaten van de
 
 Europese Unie is gevestigd, vier maanden;
 
-8° voor de in artikel 19, eerste lid, 6°, bedoelde akten, vier maanden.  8° de quatre mois, pour les actes visés à l'article 19, alinéa 1 er , 6°.
+8° voor de in artikel 19, eerste lid, 6°, bedoelde akten, vier maanden.
 
-Artikel 33  Article 33
+###### Artikel 33
 
 (gewijzigd bij art. 60 van de wet van 22.12.1998 (B.S., 15.01.1999). Tekst van
 
@@ -1148,13 +1316,13 @@ vervulling van de voorwaarde welke de heffing van het recht heeft
 
 geschorst.
 
-Artikel 34  Article 34
+###### Artikel 34
 
 (opgeheven bij art. 77 van de wet van 18.12.2015 (B.S., 28.12.2015 - ed. 2).
 
 Tekst van toepassing vanaf 07.01.2016 (art. -))
 
-(…)  (…)
+(…)
 
 Vierde lid: gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van
 
@@ -1162,9 +1330,9 @@ Vierde lid: gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van
 
 gewesten)
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-Artikel 35  Article 35
+###### Artikel 35
 
 (lid 5, vervangen bij art. 61 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2).
 
@@ -1256,13 +1424,13 @@ heeft, wordt het bericht aan de procureur des Konings te Brussel
 
 verzonden.
 
------  -----
+-----
 
 #### Afdeling III - Personen verplicht tot aanbieding ter
 
 registratie
 
-Artikel 35  Article 35
+###### Artikel 35
 
 (gewijzigd bij art. 95 van de wet van 21.01.2022 (B.S., 28.01.2022 - ed. 1).
 
@@ -1350,7 +1518,7 @@ heeft, wordt het bericht aan de procureur des Konings te Brussel
 
 verzonden.
 
-Artikel 36  Article 36
+###### Artikel 36
 
 (gewijzigd bij art. 96 van de wet van 21.01.2022 (B.S., 28.01.2022 - ed. 1).
 
@@ -1362,7 +1530,7 @@ voor de registratie gestelde termijn in handen der notarissen niet
 
 hebben geconsigneerd.
 
-Artikel 37  Article 37
+###### Artikel 37
 
 (gewijzigd bij art. 97 van de wet van 21.01.2022 (B.S., 28.01.2022 - ed. 1).
 
@@ -1378,17 +1546,17 @@ legatarissen of begiftigden zomede door de testamentuitvoerders
 
 verschuldigd.
 
-Artikel 38  Article 38
+###### Artikel 38
 
 (opgeheven bij art. 140 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
 van toepassing vanaf 01.01.1990 (art. 244))
 
-(…)  (…)
+(…)
 
-#### Afdeling IV - Plaats der registratie  Section IV - Lieu de l’enregistrement
+#### Afdeling IV - Plaats der registratie
 
-Artikel 39  Article 39
+###### Artikel 39
 
 (1° en 4°, vervangen bij art. 98 van de wet van 21.01.2022 (B.S., 28.01.2022
 
@@ -1424,7 +1592,7 @@ zelfstandige bedoeld in de wet van 25 april 2007 houdende diverse
 
 bepalingen (IV);
 
-1° bis (…)  1° bis (…)
+1° bis (…)
 
 2° De arresten en vonnissen der hoven en rechtbanken, ten kantore
 
@@ -1486,17 +1654,17 @@ aan geregistreerde akte, ten kantore in het 5° hiervoren aangeduid;
 
 7° De andere akten dan voornoemde, onverschillig in alle kantoren.  7° Les actes autres que ceux qui précèdent, dans tous les bureaux
 
-Artikel 40  Article 40
+###### Artikel 40
 
 (opgeheven bij art. 27 van de wet van 25.12.2017 (B.S., 29.12.2017 - ed. 1).
 
 Tekst van toepassing vanaf 08.01.2018 (art. -))
 
-(…)  (…)
+(…)
 
-#### Afdeling V - Sancties  Section V - Sanctions
+#### Afdeling V - Sancties
 
-Artikel 41  Article 41
+###### Artikel 41
 
 (gewijzigd bij art. 4 van de wet van 26.05.2016 (B.S., 09.06.2016). Tekst van
 
@@ -1528,8 +1696,6 @@ gedaan binnen de voorgeschreven termijn.
 
 ###### Art. 41. bis
 
-Article 41 bis
-
 (gewijzigd bij art. 54 van de wet van 27.04.2016 (B.S., 06.05.2016). Tekst van
 
 toepassing vanaf 16.05.2016 (art. -))
@@ -1558,7 +1724,7 @@ onrechte de vrijstelling van de formaliteit bedoeld in artikel 8 bis ,
 
 toegepast hebben.
 
-Artikel 42  Article 42
+###### Artikel 42
 
 (gewijzigd bij art. 2, nr. 11 van het KB van 20.07.2000 (B.S., 30.08.2000 - ed.
 
@@ -1572,7 +1738,7 @@ Voor elke overtreding van artikel 26 verbeurt de notaris of de
 
 gerechtsdeurwaarder een boete van 25 EUR.
 
-Artikel 43  Article 43
+###### Artikel 43
 
 (gewijzigd bij art. 2, nr. 11 van het KB van 20.07.2000 (B.S., 30.08.2000 - ed.
 
@@ -1604,9 +1770,9 @@ is een federale belasting (art. 3, eerste lid, 6°, wet 16.01.1989
 
 onroerende goederen
 
-§ 1. Algemene bepalingen  § 1 er . Dispositions générales
+§ 1. Algemene bepalingen
 
-Artikel 44  Article 44
+###### Artikel 44
 
 (gewijzigd bij art. 40 van de wet van 30.03.1994 (BS., 31.03.1994 - ed. 2).
 
@@ -1624,7 +1790,7 @@ de wet van 16.01.1989 betreffende de financiering van de gemeenschappen
 
 en de gewesten)
 
-Artikel 45  Article 45
+###### Artikel 45
 
 (aangevuld bij art. 41 van de wet van 30.03.1994 (B.S., 31.03.1994 - ed. 2).
 
@@ -1656,13 +1822,13 @@ overeengekomen waarde van de ten laste van de verkrijger van het
 
 onroerend goed bedongen tegenprestatie.
 
-Artikel 46  Article 46
+###### Artikel 46
 
 Evenwel mag de belastbare grondslag in geen geval lager zijn dan de
 
 verkoopwaarde van de overgedragen onroerende goederen.
 
-Artikel 47  Article 47
+###### Artikel 47
 
 (gewijzigd bij art. 3 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
@@ -1726,7 +1892,7 @@ vier vijfden van de verkoopwaarde van de volle eigendom worden
 
 toegewezen.
 
-Artikel 48  Article 48
+###### Artikel 48
 
 Gaat de overeenkomst over de blote eigendom van een onroerend
 
@@ -1736,7 +1902,7 @@ voorbehouden, zo mag de belastbare grondslag niet lager zijn dan de
 
 verkoopwaarde van de volle eigendom.
 
-Artikel 49  Article 49
+###### Artikel 49
 
 Gaat de overeenkomst over de blote eigendom van een onroerend
 
@@ -1748,7 +1914,7 @@ verkoopwaarde van de volle eigendom, na aftrekking van de
 
 overeenkomstig artikel 47 berekende waarde van het vruchtgebruik.
 
-Artikel 50  Article 50
+###### Artikel 50
 
 Wordt of werd het vruchtgebruik op het hoofd van twee of meer
 
@@ -1764,7 +1930,7 @@ betreffende de financiering van de gemeenschappen en de gewesten)
 
 § 2. Verkopingen aan bouwmaatschappijen tot nut van het algemeen  § 2. Ventes aux sociétés immobilières de service public
 
-Artikel 51  Article 51
+###### Artikel 51
 
 (aangevuld bij art. 145 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
@@ -1802,7 +1968,7 @@ betreffende de financiering van de gemeenschappen en de gewesten)
 
 § 3. Verkopingen aan de met regeringspremie begunstigde kopers  § 3. Ventes aux acheteurs bénéficiaires de la prime gouvernementale
 
-Artikel 52  Article 52
+###### Artikel 52
 
 (gewijzigd bij art. 146 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
@@ -1836,7 +2002,7 @@ betreffende de financiering van de gemeenschappen en de gewesten)
 
 woningen
 
-Artikel 53  Article 53
+###### Artikel 53
 
 (gewijzigd bij art. 35 van de wet van 19.07.1979 (B.S., 22.08.1979). Tekst van
 
@@ -1880,7 +2046,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 54  Article 54
+###### Artikel 54
 
 (gewijzigd bij art. 36 van de wet van 19.07.1979 (B.S., 22.08.1979). Tekst van
 
@@ -1924,7 +2090,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 55  Article 55
+###### Artikel 55
 
 (gewijzigd bij art. 79 van de wet van 22.12.2009 (B.S., 31.12.2009 - ed. 2).
 
@@ -1996,7 +2162,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 56  Article 56
+###### Artikel 56
 
 Wanneer het kadastraal inkomen van het verkregen onroerend goed
 
@@ -2018,7 +2184,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 57  Article 57
+###### Artikel 57
 
 Onder voorbehoud der door artikel 54 voorziene beperkingen, wordt
 
@@ -2046,7 +2212,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 58  Article 58
+###### Artikel 58
 
 (aangevuld bij art. 26 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
@@ -2084,7 +2250,7 @@ gebracht; deze kan bezwaar indienen volgens de procedure
 
 betreffende de vaststelling van de nieuwe kadastrale inkomens.
 
-Artikel 59  Article 59
+###### Artikel 59
 
 (gewijzigd bij art. 148 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
@@ -2100,7 +2266,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 60  Article 60
+###### Artikel 60
 
 (gewijzigd bij art. 3 van de wet van 19.05.1998 (B.S., 14.07.1998). Tekst van
 
@@ -2142,8 +2308,6 @@ betreffende de financiering van de gemeenschappen en de gewesten)
 
 ###### Art. 61. 1
 
-Article 61 1
-
 Indien de vermindering vervalt bij gebreke van exploitatie binnen de
 
 termijn en gedurende de tijd bepaald in artikel 60, eerste lid, is de
@@ -2169,8 +2333,6 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 betreffende de financiering van de gemeenschappen en de gewesten)
 
 ###### Art. 61. 2
-
-Article 61 2
 
 (gewijzigd bij art. 5 van de wet van 19.05.1998 (B.S., 14.07.1998). Tekst van
 
@@ -2206,7 +2368,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 62  Article 62
+###### Artikel 62
 
 (vervangen bij art. 1 van de wet van 27.04.1978 (B.S., 30.11.1978). Tekst van
 
@@ -2232,11 +2394,9 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 ###### Art. 63. 1
-
-Article 63 1
 
 (lid 1, 1°, vervangen bij art. 62 van de wet van 12.05.2024 (B.S., 30.05.2024
 
@@ -2310,11 +2470,9 @@ vertegenwoordiger die medeaansprakelijk is en hoofdelijk met hem
 
 instaat voor de nakoming van zijn fiscale verplichtingen.
 
------  -----
+-----
 
 ###### Art. 63. 1
-
-Article 63 1
 
 (gewijzigd bij art. 62 van de wet van 14.04.2011 (B.S., 06.05.2011). Tekst van
 
@@ -2388,8 +2546,6 @@ betreffende de financiering van de gemeenschappen en de gewesten)
 
 ###### Art. 63. 2
 
-Article 63 2
-
 (ingevoegd bij art. 3 van de wet van 03.02.1959 (B.S., 14.02.1959). Tekst van
 
 toepassing vanaf 24.02.1959 (art. -))
@@ -2410,7 +2566,7 @@ de heffing van het verminderd recht gediend heeft, van een zelfde
 
 som als boete en van de kosten der procedure.
 
-Artikel 64  Article 64
+###### Artikel 64
 
 Het bij artikel 44 bepaald recht wordt vorderbaar ten laste van de
 
@@ -2436,7 +2592,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 65  Article 65
+###### Artikel 65
 
 De verkrijger mag de betaling aanbieden van het gewoon recht vóór
 
@@ -2448,7 +2604,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 66  Article 66
+###### Artikel 66
 
 Het recht dat voor de verkrijging van het goed betaald werd, mag niet
 
@@ -2460,7 +2616,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 67  Article 67
+###### Artikel 67
 
 de verkrijging betaald recht en naar het op de datum dezer verkrijging
 
@@ -2478,9 +2634,9 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-Artikel 68  Article 68
+###### Artikel 68
 
 (lid 3, vervangen bij art. 63 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed.
 
@@ -2524,9 +2680,9 @@ bewaard door de bevoegde dienst van de Algemene administratie van
 
 de patrimoniumdocumentatie.
 
------  -----
+-----
 
-Artikel 68  Article 68
+###### Artikel 68
 
 In het geval van artikel 64 worden de gewone rechten vereffend op
 
@@ -2564,7 +2720,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 69  Article 69
+###### Artikel 69
 
 (gewijzigd bij artikel 63 van de wet van 14.04.2011 (B.S., 06.05.2011). Tekst
 
@@ -2616,7 +2772,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 71  Article 71
+###### Artikel 71
 
 Indien hij die een beroepsverklaring heeft ondertekend bij het
 
@@ -2638,7 +2794,7 @@ betreffende de financiering van de gemeenschappen en de gewesten)
 
 § 6. Ruiling van ongebouwde landgoederen  § 6. Echanges d’immeubles ruraux non bâtis
 
-Artikel 72  Article 72
+###### Artikel 72
 
 (gewijzigd en aangevuld bij art. 2 van de wet van 27.04.1978 (B.S.,
 
@@ -2694,8 +2850,6 @@ betreffende de financiering van de gemeenschappen en de gewesten)
 
 ###### Art. 73. 1
 
-Article 73 1
-
 (vervangen bij art. 3 van de wet van 26.07.1952 (B.S., 30.08.1952). Tekst van
 
 toepassing vanaf 09.09.1952 (art. -))
@@ -2722,8 +2876,6 @@ betreffende de financiering van de gemeenschappen en de gewesten)
 
 ###### Art. 73. 2
 
-Article 73 2
-
 (hersteld bij art. 3 van de wet van 27.04.1978 (B.S., 30.11.1978). Tekst van
 
 toepassing vanaf 30.11.1978 (art. 2, KB 13.11.1978 (B.S., 30.11.1978)))
@@ -2744,7 +2896,7 @@ betreffende de financiering van de gemeenschappen en de gewesten)
 
 tot de dienst van het onroerend goed aangewende voorwerpen
 
-Artikel 74  Article 74
+###### Artikel 74
 
 (gewijzigd bij art. 42 van de wet van 30.03.1994 (B.S., 31.03.1994 - ed. 2).
 
@@ -2778,7 +2930,7 @@ dat de belasting over de toegevoegde waarde werd gekweten voor de
 
 levering van het hout op stam of van de te slopen gebouwen.
 
-Artikel 75  Article 75
+###### Artikel 75
 
 (gewijzigd bij art. 43 van de wet van 30.03.1994 (B.S., 31.03.1994 - ed. 2).
 
@@ -2814,19 +2966,19 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-§ 8. (…)  § 8. (…)
+§ 8. (…)
 
 (opgeheven bij art. 3 van de wet van 22.06.1960 (B.S., 21.07.1960). Tekst van
 
 toepassing vanaf 31.07.1960 (art. -))
 
-Artikel 76  Article 76
+###### Artikel 76
 
 (opgeheven bij art. 3 van de wet van 22.06.1960 (B.S., 21.07.1960). Tekst van
 
 toepassing vanaf 31.07.1960 (art. -))
 
-(…)  (…)
+(…)
 
 ###### Art. 77. tot 82 W.Reg. federaal
 
@@ -2842,7 +2994,7 @@ roerende goederen
 
 Tekst van toepassing vanaf 17.01.1959 (art. -))
 
-Artikel 77  Article 77
+###### Artikel 77
 
 (vervangen bij art. 4 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
@@ -2852,7 +3004,7 @@ Het recht wordt vastgesteld op 5 t.h. voor de openbare verkopingen
 
 van lichamelijke roerende goederen.
 
-Artikel 78  Article 78
+###### Artikel 78
 
 (opgeheven bij art. 5 van de wet van 10.07.1969 (B.S., 25.07.1969). Tekst van
 
@@ -2860,9 +3012,9 @@ toepassing vanaf 01.01.1971 (art. 10, gewijzigd bij art. 3 van de wet van
 
 19.12.1969 (B.S., 20.12.1969)))
 
-(…)  (…)
+(…)
 
-Artikel 79  Article 79
+###### Artikel 79
 
 (vervangen bij art. 4 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
@@ -2872,9 +3024,9 @@ De heffingsgrondslag wordt bepaald zoals gezegd in de artikelen 45
 
 en 231.
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-Artikel 80  Article 80
+###### Artikel 80
 
 (lid 2, gewijzigd bij art. 64 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2).
 
@@ -2910,9 +3062,9 @@ kantoor de verkoper de periodieke aangiften voor de belasting over de
 
 toegevoegde waarde moet verzenden.
 
------  -----
+-----
 
-Artikel 80  Article 80
+###### Artikel 80
 
 (vervangen bij art. 42 van de wet van 27.12.1977 (B.S., 30.12.1977) err. (B.S.,
 
@@ -2948,21 +3100,21 @@ toegevoegde waarde moet indienen.
 
 toepassing vanaf 17.01.1959 (art. -))
 
-Artikel 81  Article 81
+###### Artikel 81
 
 (opgeheven bij art. 5 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
 toepassing vanaf 17.01.1959 (art. -))
 
-(…)  (…)
+(…)
 
-Artikel 82  Article 82
+###### Artikel 82
 
 (opgeheven bij art. 5 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
 toepassing vanaf 17.01.1959 (art. -))
 
-(…)  (…)
+(…)
 
 ###### Art. 83. tot 86 W.Reg. federaal
 
@@ -2974,9 +3126,9 @@ Het registratierecht op de huurcontracten is een federale belasting
 
 gemeenschappen en de gewesten).
 
-#### Afdeling IV - Huurcontracten  Section IV - Baux
+#### Afdeling IV - Huurcontracten
 
-Artikel 83  Article 83
+###### Artikel 83
 
 (lid 1, 3°, gewijzigd bij art. 5 van de wet van 22.12.2023 (B.S., 29.12.2023 –
 
@@ -3096,27 +3248,27 @@ gebeurlijk ten bate van de overdrager bedongen prestatiën gevoegd
 
 bij de heffingsgrondslag zoals hij hiervoor is bepaald.
 
-#### Afdeling V - (…)  Section V - (…)
+#### Afdeling V - (…)
 
 (opgeheven bij art. 7 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
 toepassing vanaf 17.01.1959 (art. -))
 
-Artikel 85  Article 85
+###### Artikel 85
 
 (opgeheven bij art. 7 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
 toepassing vanaf 17.01.1959 (art. -))
 
-(…)  (…)
+(…)
 
-Artikel 86  Article 86
+###### Artikel 86
 
 (opgeheven bij art. 7 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
 toepassing vanaf 17.01.1959 (art. -))
 
-(…)  (…)
+(…)
 
 ###### Art. 87. tot 102 W.Reg. federaal
 
@@ -3152,13 +3304,13 @@ Gewestelijke bepalingen (art. 3, eerste lid, 7°, a) van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-#### Afdeling VI - Hypotheekvestigingen  Section VI - Constitutions d’hypothèque
+#### Afdeling VI - Hypotheekvestigingen
 
 (gewijzigd bij art. 55 van de wet van 25.12.2016 (B.S., 30.12.2016). Tekst van
 
 toepassing vanaf 01.01.2018 (art. 70))
 
-Artikel 87  Article 87
+###### Artikel 87
 
 (vervangen bij art. 8 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
@@ -3168,7 +3320,7 @@ Worden aan een recht van 1 t.h. onderworpen, de vestigingen van een
 
 hypotheek op een in België gelegen onroerend goed.
 
-Artikel 88  Article 88
+###### Artikel 88
 
 (vervangen bij art. 56 van de wet van 25.12.2016 (B.S., 30.12.2016). Tekst van
 
@@ -3186,7 +3338,7 @@ inwerkingtreding van deze wet, wordt in mindering gebracht op het krachtens
 
 gevestigd tot zekerheid van dezelfde schuld (art. 69).
 
-Artikel 89  Article 89
+###### Artikel 89
 
 (gewijzigd bij art. 57 van de wet van 25.12.2016 (B.S., 30.12.2016). Tekst van
 
@@ -3200,7 +3352,7 @@ toekomstige schuld, van een voorwaardelijke of eventuele schuld of
 
 van een verbintenis om iets te doen.
 
-Artikel 90  Article 90
+###### Artikel 90
 
 (vervangen bij art. 8 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
@@ -3216,7 +3368,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 7°, a) van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 91  Article 91
+###### Artikel 91
 
 (vervangen bij art. 58 van de wet van 25.12.2016 (B.S., 30.12.2016). Tekst van
 
@@ -3236,8 +3388,6 @@ recht van 0,50 pct.
 
 ###### Art. 92. 1
 
-Article 92 1
-
 Het in artikel 88 en het in artikel 3, eerste lid, 7°, a) , van de bijzondere
 
 wet van 16 januari 1989 betreffende de financiering van de
@@ -3249,8 +3399,6 @@ vestiging van hypotheek op een schip tot zekerheid van dezelfde
 schuldvordering en van hetzelfde gewaarborgd bedrag.
 
 ###### Art. 92. 2
-
-Article 92²
 
 (gewijzigd bij art. 60 van de wet van 25.12.2016 (B.S., 30.12.2016). Tekst van
 
@@ -3274,7 +3422,7 @@ bezwarende titel, wordt onderworpen aan een recht van 1 pct. of van
 
 een onroerend goed betreft.
 
-Artikel 93  Article 93
+###### Artikel 93
 
 (gewijzigd bij art. 61 van de wet van 25.12.2016 (B.S., 30.12.2016). Tekst van
 
@@ -3288,7 +3436,7 @@ uitsluiting van de interesten of rentetermijnen van drie jaren, die
 
 gewaarborgd zijn door artikel 87 van de wet van 16 december 1851.
 
-Artikel 94  Article 94
+###### Artikel 94
 
 (gewijzigd bij art. 12 van de wet van 03.07.2018 (B.S., 19.07.2018). Tekst van
 
@@ -3338,77 +3486,77 @@ met de interesten te betalen alvorens de in het eerste lid, 2°, b)
 
 voorziene termijn is verstreken.
 
-#### Afdeling VII - (…)  Section VII - (…)
+#### Afdeling VII - (…)
 
 (opgeheven bij art. 9 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
 toepassing vanaf 17.01.1959 (art. -))
 
-Artikel 95  Article 95
+###### Artikel 95
 
 (opgeheven bij art. 9 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
 toepassing vanaf 17.01.1959 (art. -))
 
-(…)  (…)
+(…)
 
-Artikel 96  Article 96
+###### Artikel 96
 
 (opgeheven bij art. 9 van de wet van 23.12.1958 (B.S., 07.01.1959).Tekst van
 
 toepassing vanaf 17.01.1959 (art. -))
 
-Artikel 97  Article 97
+###### Artikel 97
 
 (opgeheven bij art. 9 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
 toepassing vanaf 17.01.1959 (art. -))
 
-(…)  (…)
+(…)
 
-Artikel 98  Article 98
-
-(opgeheven bij art. 9 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
-
-toepassing vanaf 17.01.1959 (art. -))
-
-(…)  (…)
-
-#### Afdeling VIII - (…)  Section VIII - (…)
+###### Artikel 98
 
 (opgeheven bij art. 9 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
 toepassing vanaf 17.01.1959 (art. -))
 
-Artikel 99  Article 99
+(…)
+
+#### Afdeling VIII - (…)
 
 (opgeheven bij art. 9 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
 toepassing vanaf 17.01.1959 (art. -))
 
-(…)  (…)
-
-Artikel 100  Article 100
+###### Artikel 99
 
 (opgeheven bij art. 9 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
 toepassing vanaf 17.01.1959 (art. -))
 
-(…)  (…)
+(…)
 
-Artikel 101  Article 101
-
-(opgeheven bij art. 9 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
-
-toepassing vanaf 17.01.1959 (art. -))
-
-Artikel 102  Article 102
+###### Artikel 100
 
 (opgeheven bij art. 9 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
 toepassing vanaf 17.01.1959 (art. -))
 
-(…)  (…)
+(…)
+
+###### Artikel 101
+
+(opgeheven bij art. 9 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
+
+toepassing vanaf 17.01.1959 (art. -))
+
+###### Artikel 102
+
+(opgeheven bij art. 9 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
+
+toepassing vanaf 17.01.1959 (art. -))
+
+(…)
 
 ###### Art. 103. tot 108 W.Reg. federaal
 
@@ -3420,9 +3568,9 @@ inschrijving is een federale belasting (art. 3, a contrario , wet
 
 de gewesten).
 
-#### Afdeling IX - Opheffingen  Section IX - Mainlevées
+#### Afdeling IX - Opheffingen
 
-Artikel 103  Article 103
+###### Artikel 103
 
 (gewijzigd bij art. 92 van de wet van 11.07.2018 (B.S., 20.07.2018 - ed. 2).
 
@@ -3462,7 +3610,7 @@ of van een verkoop uit de hand bedoeld in artikel 1580 bis van het
 
 Gerechtelijk Wetboek.
 
-Artikel 104  Article 104
+###### Artikel 104
 
 (opgeheven bij art. 10 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst
 
@@ -3470,7 +3618,7 @@ van toepassing vanaf 17.01.1959 (art. -))
 
 (...)  (…)
 
-Artikel 105  Article 105
+###### Artikel 105
 
 (opgeheven bij art. 153, 1° van de wet van 22.12.1989 (B.S., 29.12.1989).
 
@@ -3478,15 +3626,15 @@ Tekst van toepassing vanaf 01.01.1990 (art. 244))
 
 (...)  (…)
 
-Artikel 106  Article 106
+###### Artikel 106
 
 (opgeheven bij art. 153, 2°, van de wet van 22.12.1989 (B.S., 29.12.1989).
 
 Tekst van toepassing vanaf 01.01.1990 (art. 244))
 
-(…)  (…)
+(…)
 
-Artikel 107  Article 107
+###### Artikel 107
 
 (opgeheven bij art. 10 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst
 
@@ -3494,7 +3642,7 @@ van toepassing vanaf 17.01.1959 (art. -))
 
 (...)  (…)
 
-Artikel 108  Article 108
+###### Artikel 108
 
 (opgeheven bij art. 153, 3°, van de wet van 22.12.1989 (B.S., 29.12.1989).
 
@@ -3504,9 +3652,9 @@ Gewestelijke bepalingen (art. 3, eerste lid, 7° b) van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-#### Afdeling X - Verdelingen  Section X - Partages
+#### Afdeling X - Verdelingen
 
-Artikel 109  Article 109
+###### Artikel 109
 
 (aangevuld bij art. 33 van de wet van 14.05.1981 (B.S., 27.05.1981). Tekst van
 
@@ -3528,7 +3676,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 7° b) van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 110  Article 110
+###### Artikel 110
 
 (vervangen bij art. 16 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
@@ -3576,7 +3724,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 7° b) van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 112  Article 112
+###### Artikel 112
 
 (opgeheven bij art. 16 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst
 
@@ -3588,7 +3736,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 7° b) van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 113  Article 113
+###### Artikel 113
 
 (vervangen bij art. 17 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
@@ -3620,7 +3768,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 7° b) van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 114  Article 114
+###### Artikel 114
 
 De bepalingen van deze afdeling zijn niet van toepassing op de
 
@@ -3634,9 +3782,9 @@ federale belasting (art. 3, eerste lid, 6°, wet 16.01.1989 betreffende
 
 de financiering van de gemeenschappen en de gewesten).
 
-#### Afdeling XI - Vennootschappen  Section XI - Sociétés
+#### Afdeling XI - Vennootschappen
 
-Artikel 115  Article 115
+###### Artikel 115
 
 (lid 1, gewijzigd en lid 3, opgeheven bij art. 22 van de wet van 30.10.2025 (B.S.,
 
@@ -3657,8 +3805,6 @@ oprichting van de vennootschap of naderhand plaats heeft.
 Het recht wordt vereffend op het totaal bedrag van de inbrengen.  Le droit est liquidé sur le montant total des apports.
 
 ###### Art. 115. bis
-
-Article 115 bis
 
 (lid 1, gewijzigd bij art. 23 van de wet van 30.10.2025 (B.S., 24.11.2025). Tekst
 
@@ -3682,7 +3828,7 @@ bestemming van het onroerend goed, zijn de aanvullende rechten
 
 opeisbaar en verbeurt iedere partij een boete gelijk aan de rechten.
 
-Artikel 116  Article 116
+###### Artikel 116
 
 (gewijzigd bij art. 24 van de wet van 30.10.2025 (B.S., 24.11.2025). Tekst van
 
@@ -3712,7 +3858,7 @@ gedeelte van het bedrag van die inbrengen dat onderworpen werd
 
 aan het bij de artikelen 115 en 115 bis bedoeld recht.
 
-Artikel 117  Article 117
+###### Artikel 117
 
 (gewijzigd bij art. 25 van de wet van 30.10.2025 (B.S., 24.11.2025). Tekst van
 
@@ -3924,7 +4070,7 @@ van deze paragraaf uiterlijk wanneer de akte ter formaliteit wordt
 
 aangeboden, wordt deze akte tegen het gewoon tarief geregistreerd.
 
-Artikel 118  Article 118
+###### Artikel 118
 
 (vervangen bij art. 7 van de wet van 03.07.1972 (B.S., 01.08.1972). Tekst van
 
@@ -3952,7 +4098,7 @@ In deze gevallen omvat de inbreng de goederen van elke aard die aan
 
 de vennootschap toebehoren op het tijdstip van de overbrenging.
 
-Artikel 119  Article 119
+###### Artikel 119
 
 In de gevallen bedoeld in de artikelen 115, 115 bis en 118 wordt de
 
@@ -3982,7 +4128,7 @@ van in België gelegen onroerende goederen wordt bepaald
 
 overeenkomstig de artikelen 47 tot 50.
 
-Artikel 120  Article 120
+###### Artikel 120
 
 (gewijzigd bij art. 47 van de wet van 30.03.1994 (B.S., 31.03.1994 - ed. 2).
 
@@ -4082,7 +4228,7 @@ van de omvorming, de wijziging van het voorwerp of de overbrenging
 
 van de zetel.
 
-Artikel 122  Article 122
+###### Artikel 122
 
 (lid 1, 1° en 3°, vervangen, lid 1, 4° en lid 2, gewijzigd bij art. 28 van de wet
 
@@ -4136,15 +4282,13 @@ tot weigering of tot intrekking van de erkenning.
 
 ###### Art. 122. 2
 
-Article 122 2
-
 (opgeheven bij art. 14, 1°, van de wet van 14.04.1965 (B.S., 24.04.1965).
 
 Tekst van toepassing vanaf 04.05.1965 (art. -))
 
-(…)  (…)
+(…)
 
-Artikel 123  Article 123
+###### Artikel 123
 
 (gewijzigd bij art. 93 van de wet van 17.03.2019 (B.S., 10.05.2019). Tekst van
 
@@ -4170,9 +4314,9 @@ In geval van onjuistheid van die vermelding verbeurt de vennootschap
 
 een boete gelijk aan het ontdoken recht.
 
-----------  ----------
+----------
 
-Nota (1) – Overgangsbepalingen:  Note (1) – Dispositions transitoires :
+Nota (1) – Overgangsbepalingen:
 
 Zolang het Wetboek van vennootschappen en verenigingen, overeenkomstig
 
@@ -4224,7 +4368,7 @@ vermelden voor wat deze vennootschap, vereniging of stichting betreft, zoals
 
 voor de inwerkingtreding van deze wet. (art. 119, § 3).
 
-Artikel 124  Article 124
+###### Artikel 124
 
 (hersteld bij art. 31 van de wet van 22.05.2001 (B.S., 09.06.2001). Tekst van
 
@@ -4254,15 +4398,15 @@ Ingeval deze vermelding ontbreekt of onjuist is, loopt de
 
 vennootschap een boete op gelijk aan het ontdoken recht.
 
-Artikel 125  Article 125
+###### Artikel 125
 
 (opgeheven bij art. 14, 3°, van de wet van 14.04.1965 (B.S.,24.04.1965).
 
 Tekst van toepassing vanaf 04.05.1965 (art. -))
 
-(…)  (…)
+(…)
 
-Artikel 126  Article 126
+###### Artikel 126
 
 (opgeheven bij art. 14, 4°, van de wet van 14.04.1965 (B.S.,24.04.1965).
 
@@ -4270,7 +4414,7 @@ Tekst van toepassing vanaf 04.05.1965 (art. -))
 
 ( …)  (…)
 
-Artikel 127  Article 127
+###### Artikel 127
 
 (opgeheven bij art. 14, 5°, van de wet van 14.04.1965 (B.S., 24.04.1965).
 
@@ -4278,7 +4422,7 @@ Tekst van toepassing vanaf 04.05.1965 (art. -))
 
 ( ...)  (…)
 
-Artikel 128  Article 128
+###### Artikel 128
 
 (gewijzigd bij art. 15 van de wet van 14.04.1965 (B.S., 24.04.1965). Tekst van
 
@@ -4302,7 +4446,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 129  Article 129
+###### Artikel 129
 
 (gewijzigd bij art. 31 van de wet van 23.03.2019 (B.S., 04.04.2019). Tekst van
 
@@ -4370,11 +4514,11 @@ Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-#### Afdeling XII - Schenkingen  Section XII - Donations
+#### Afdeling XII - Schenkingen
 
-##### Onderafdeling I - Algemene bepalingen  Sous-section première - Dispositions générales
+##### Onderafdeling I - Algemene bepalingen
 
-Artikel 131  Article 131
+###### Artikel 131
 
 (gewijzigd bij art. 3, § 1 van het KB van 20.07.2000 (B.S., 30.08.2000 - ed. 1).
 
@@ -4402,7 +4546,7 @@ onder b: het totale bedrag van de belasting over de voorgaande
 
 gedeelten.
 
-TABEL I  TABLEAU I
+TABEL I
 
 Gedeelte van de schenking
 
@@ -4432,7 +4576,7 @@ delà de
 
 500.000
 
-TABEL II  TABLEAU II
+TABEL II
 
 Gedeelte van de
 
@@ -4494,7 +4638,7 @@ inbegrepen
 
 à … inclus
 
-EUR  EUR  t.h.
+EUR  t.h.
 
 EUR  t.h.
 
@@ -4522,7 +4666,7 @@ p.c.
 
 75.000 - 175.000 50  23.125 55  26.875 65  33.125
 
-boven de / au-delà
+boven de
 
 65  73.125 70  81.875 80  98.125
 
@@ -4530,25 +4674,19 @@ de 175.000
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989
 
-Dispositions régionales (art. 3, al. 1 er , 8° de la loi spéciale du 16.01.1989
-
 betreffende de financiering van de gemeenschappen en de gewesten)
 
 relative au financement des Communautés et des Régions)
 
 ###### Art. 132. 1
 
-Article 132 1
-
-(…)  (…)
+(…)
 
 Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
 ###### Art. 132. 2
-
-Article 132²
 
 (vervangen bij art. 157 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
@@ -4594,7 +4732,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 133  Article 133
+###### Artikel 133
 
 (gewijzigd bij art. 11 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
@@ -4632,7 +4770,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 134  Article 134
+###### Artikel 134
 
 Voor de toepassing van artikelen 131 tot 133, wordt de last,
 
@@ -4648,7 +4786,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 135  Article 135
+###### Artikel 135
 
 (gewijzigd bij art. 2, nr. 11 van het KB van 20.07.2000 (B.S., 30.08.2000 - ed.
 
@@ -4682,7 +4820,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 136  Article 136
+###### Artikel 136
 
 (gewijzigd bij art. 159 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
@@ -4716,13 +4854,13 @@ afstammelingen een onjuiste verklaring heeft afgelegd, verbeurt een
 
 boete gelijk aan het ontdoken recht.
 
-----------  ----------
+----------
 
 Nota:  Note :
 
 (1) Bij vergetelheid werd het woord “wettige” niet geschrapt.  (1) Il a été omis de supprimer le mot « légitimes ».
 
-Artikel 137  Article 137
+###### Artikel 137
 
 Ter bepaling van het op een schenking toepasselijk tarief, wordt de
 
@@ -4743,8 +4881,6 @@ Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989
 betreffende de financiering van de gemeenschappen en de gewesten)
 
 ###### Art. 138. 1
-
-Article 138 1
 
 (gewijzigd bij art. 2, nr. 11 van het KB van 20.07.2000 (B.S., 30.08.2000 - ed.
 
@@ -4790,8 +4926,6 @@ dan 25 EUR mag zijn.
 
 ###### Art. 138. 2
 
-Article 138 2
-
 (ingevoegd bij art. 7 van de wet van 14.08.1947 (B.S., 17.09.1947). Tekst van
 
 toepassing vanaf 27.09.1947 (art.. -))
@@ -4808,7 +4942,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 139  Article 139
+###### Artikel 139
 
 Bij onjuist opgeven van den graad van verwantschap tussen schenker
 
@@ -4822,7 +4956,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 140  Article 140
+###### Artikel 140
 
 (gewijzigd bij art. 43 van de wet van 02.05.2002 (B.S., 18.10.2002 - ed. 2) err.
 
@@ -4910,8 +5044,6 @@ ondernemingen
 
 ###### Art. 140. bis
 
-Article 140 bis
-
 (ingevoegd bij art. 68 van de wet van 22.12.1998 (B.S., 15.01.1999). Tekst van
 
 toepassing vanaf 25.01.1999 (art. -))
@@ -4949,8 +5081,6 @@ Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989
 betreffende de financiering van de gemeenschappen en de gewesten)
 
 ###### Art. 140. ter
-
-Article 140 ter
 
 (ingevoegd bij art. 68 van de wet van 22.12.1998 (B.S., 15.01.1999). Tekst van
 
@@ -5064,8 +5194,6 @@ betreffende de financiering van de gemeenschappen en de gewesten)
 
 ###### Art. 140. quater
 
-Article 140 quater
-
 (ingevoegd bij art. 68 van de wet van 22.12.1998 (B.S., 15.01.1999). Tekst van
 
 toepassing vanaf 25.01.1999 (art. -))
@@ -5085,8 +5213,6 @@ Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989
 betreffende de financiering van de gemeenschappen en de gewesten)
 
 ###### Art. 140. quinquies
-
-Article 140 quinquies
 
 (ingevoegd bij art. 68 van de wet van 22.12.1998 (B.S., 15.01.1999). Tekst van
 
@@ -5156,8 +5282,6 @@ betreffende de financiering van de gemeenschappen en de gewesten)
 
 ###### Art. 140. sexies
 
-Article 140 sexies
-
 (ingevoegd bij art. 68 van de wet van 22.12.1998 (B.S., 15.01.1999). Tekst van
 
 toepassing vanaf 25.01.1999 (art. -))
@@ -5184,8 +5308,6 @@ betreffende de financiering van de gemeenschappen en de gewesten)
 
 ###### Art. 140. septies
 
-Article 140 septies
-
 (ingevoegd bij art. 68 van de wet van 22.12.1998 (B.S., 15.01.1999). Tekst van
 
 toepassing vanaf 25.01.1999 (art. -))
@@ -5204,11 +5326,9 @@ Gewestelijke bepalingen (art. 3, eerste lid, 8° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 ###### Art. 140. octies
-
-Article 140 octies
 
 (lid 3, vervangen bij art. 65 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2).
 
@@ -5256,11 +5376,9 @@ bewaard door de bevoegde dienst van de Algemene administratie van
 
 de patrimoniumdocumentatie.
 
------  -----
+-----
 
 ###### Art. 140. octies
-
-Article 140 octies
 
 Indien artikel 140 quinquies van toepassing is worden het recht
 
@@ -5298,15 +5416,15 @@ van de opeisbaarheid van het verschuldigde recht en al de voor de
 
 vereffening van het recht vereiste gegevens.
 
-#### Afdeling XIII - Huwelijkscontracten en testamenten  Section XIII - Contrats de mariage et testaments
+#### Afdeling XIII - Huwelijkscontracten en testamenten
 
-Artikel 141  Article 141
+###### Artikel 141
 
 (opgeheven bij art. 162 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
 van toepassing vanaf 01.01.1990 (art. 244))
 
-(…)  (…)
+(…)
 
 ###### Art. 142. tot 157 W.Reg. federaal
 
@@ -5322,7 +5440,7 @@ vennootschap (art. 3, eerste lid, 6° wet 16.01.1989 betreffende de
 
 financiering van de gemeenschappen en de gewesten).
 
-#### Afdeling XIV- Vonnissen en arresten  Section XIV - Jugements et arrêts
+#### Afdeling XIV- Vonnissen en arresten
 
 (gewijzigd bij art. 4 van de wet van 24.12.1993 (B.S., 31.12.1993 - ed. 2). Tekst
 
@@ -5354,7 +5472,7 @@ kosten, en, in geval van rangregeling, op het totaal bedrag der aan de
 
 schuldeisers uitgedeelde sommen.
 
-Artikel 143  Article 143
+###### Artikel 143
 
 (gewijzigd bij art. 2, nr. 11 van het KB van 20.07.2000 (B.S., 30.08.2000 - ed.
 
@@ -5386,7 +5504,7 @@ laste van een zelfde persoon, of van de aan de schuldeisers van een
 
 zelfde persoon uitgedeelde sommen, 12.500 EUR niet overtreft.
 
-Artikel 144  Article 144
+###### Artikel 144
 
 vanaf 01.01.2002 (art. 45, § 1))
 
@@ -5416,7 +5534,7 @@ andere hoofdelijke veroordeelden, dit alles onverminderd de
 
 toepassing van de voorschriften genomen in het eerste lid.
 
-Artikel 145  Article 145
+###### Artikel 145
 
 (gewijzigd bij art. 2, nr. 11 van het KB van 20.07.2000 (B.S., 30.08.2000 - ed.
 
@@ -5442,7 +5560,7 @@ op de aanvullende veroordeling tot sommen of waarden, en voor
 
 zover deze 12.500 EUR te boven gaat.
 
-Artikel 146  Article 146
+###### Artikel 146
 
 (gewijzigd bij art. 167 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
@@ -5468,7 +5586,7 @@ hoogste één jaar na de overeenkomst een eis tot ontbinding of
 
 herroeping, zelfs bij een onbevoegd rechter, werd ingesteld.
 
-Artikel 147  Article 147
+###### Artikel 147
 
 (vervangen bij art. 10, § 2, van de wet van 12.07.1960 (B.S., 09.11.1960). Tekst
 
@@ -5494,7 +5612,7 @@ waren geweest indien de vernietiging, de ontbinding of de herroeping
 
 het voorwerp van een minnelijke akte had uitgemaakt.
 
-Artikel 148  Article 148
+###### Artikel 148
 
 (vervangen bij art.10, § 2, van de wet van 12.07.1960 (B.S., 09.11.1960). Tekst
 
@@ -5516,7 +5634,7 @@ ter registratie van een buitenlands gewezen rechterlijke beslissing
 
 indien zij van rechtswege in België uitvoerbaar is.
 
-Artikel 149  Article 149
+###### Artikel 149
 
 Behoudens in de gevallen beoogd door de artikelen 146 tot 148
 
@@ -5524,7 +5642,7 @@ maken de vonnissen en arresten geen evenredig recht eisbaar uit
 
 hoofde van de overeenkomsten waarvan zij het bestaan vaststellen.
 
-Artikel 150  Article 150
+###### Artikel 150
 
 (hersteld bij art. 12 van de wet van 19.06.1986 (B.S., 24.07.1986). Tekst van
 
@@ -5546,23 +5664,23 @@ schuldvorderingen van de begunstigden van de veroordelingen,
 
 vereffeningen of rangregelingen.
 
-Artikel 151  Article 151
+###### Artikel 151
 
 (opgeheven bij art. 10, § 3, van de wet van 12.07.1960 (B.S., 09.11.1960).
 
 Tekst van toepassing vanaf 01.01.1961 (art. 39))
 
-(…)  (…)
+(…)
 
-Artikel 152  Article 152
+###### Artikel 152
 
 (opgeheven bij art. 10, § 3, van de wet van 12.07.1960 (B.S., 09.11.1960).
 
 Tekst van toepassing vanaf 01.01.1961 (art. 39))
 
-(…)  (…)
+(…)
 
-#### Afdeling XV - (…)  Section XV - (…)
+#### Afdeling XV - (…)
 
 (opgeheven bij art. 2/art. 29 van de wet van 10.10.1967 (B.S., 31.10.1967).
 
@@ -5578,7 +5696,7 @@ Tekst van toepassing vanaf 01.01.1969 (art. 3, 28°, van het KB van
 
 ( …)  (…)
 
-#### Afdeling XVI - (…)  Section XVI - (…)
+#### Afdeling XVI - (…)
 
 (opgeheven bij art. 2/art. 29 van de wet van 10.10.1967 (B.S., 31.10.1967).
 
@@ -5586,7 +5704,7 @@ Tekst van toepassing vanaf 01.01.1969 (art. 3, 28°, van het KB van
 
 04.11.1968 (B.S., 13.11.1968))
 
-Artikel 154  Article 154
+###### Artikel 154
 
 (opgeheven bij art. 2/art. 29 van de wet van 10.10.1967 (B.S., 31.10.1967).
 
@@ -5594,17 +5712,9 @@ Tekst van toepassing vanaf 01.01.1969 (art. 3, 28°, KB 04.11.1968 (B.S.,
 
 13.11.1968)))
 
-(…)  (…)
+(…)
 
-#### Afdeling XVII - (…)  Section XVII - (…)
-
-(opgeheven bij art. 2/art. 29 van de wet van 10.10.1967 (B.S., 31.10.1967).
-
-Tekst van toepassing vanaf 01.01.1969 (art. 3, 28°, KB 04.11.1968 (B.S.,
-
-13.11.1968)))
-
-Artikel 155  Article 155
+#### Afdeling XVII - (…)
 
 (opgeheven bij art. 2/art. 29 van de wet van 10.10.1967 (B.S., 31.10.1967).
 
@@ -5612,9 +5722,17 @@ Tekst van toepassing vanaf 01.01.1969 (art. 3, 28°, KB 04.11.1968 (B.S.,
 
 13.11.1968)))
 
-(…)  (…)
+###### Artikel 155
 
-#### Afdeling XVIII - (…)  Section XVIII - (…)
+(opgeheven bij art. 2/art. 29 van de wet van 10.10.1967 (B.S., 31.10.1967).
+
+Tekst van toepassing vanaf 01.01.1969 (art. 3, 28°, KB 04.11.1968 (B.S.,
+
+13.11.1968)))
+
+(…)
+
+#### Afdeling XVIII - (…)
 
 (opgeheven bij art. 11 van de wet van 12.07.1960 (B.S., 09.11.1960). Tekst
 
@@ -5624,17 +5742,17 @@ van toepassing vanaf 01.01.1961 (art. 39))
 
 van toepassing vanaf 01.01.1961 (art. 39))
 
-(…)  (…)
+(…)
 
-#### Afdeling XIX - Protesten  Section XIX - Protêts
+#### Afdeling XIX - Protesten
 
-Artikel 157  Article 157
+###### Artikel 157
 
 (opgeheven bij art. 73 van de wet van 14.01.2013 (B.S., 01.03.2013). Tekst
 
 van toepassing vanaf 01.01.2013 (art. 85))
 
-(…)  (…)
+(…)
 
 ###### Art. 158. W.Reg. federaal
 
@@ -5646,13 +5764,13 @@ a contrario , wet 16.01.1989 betreffende de financiering van de
 
 gemeenschappen en de gewesten).
 
-##### Afdeling XIX bis - Aangehechte akten en geschriften  Section XIX bis - Actes et écrits annexés
+##### Afdeling XIX bis - Aangehechte akten en geschriften
 
 (ingevoegd bij art. 51 van de wet van 21.12.2013 (B.S., 31.12.2013 - ed. 2).
 
 Tekst van toepassing vanaf 01.04.2014 (art. 87, 3°))
 
-Artikel 158  Article 158
+###### Artikel 158
 
 (hersteld bij art. 51 van de wet van 21.12.2013 (B.S., 31.12.2013 - ed. 2). Tekst
 
@@ -5674,13 +5792,13 @@ recht van 100 euro eenmaal verschuldigd is voor de registratie van de
 
 overige documenten.
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 #### Afdeling XX - Akten vrijgesteld van het evenredig recht en
 
 onderhevig aan het algemeen vast recht
 
-Artikel 159  Article 159
+###### Artikel 159
 
 (lid 1, 8°, b), gewijzigd bij art. 66 van de wet van 12.05.2024 (B.S., 30.05.2024 –
 
@@ -5716,7 +5834,7 @@ lastgever voor de toepassing van dit Wetboek als wederverkoop
 
 beschouwd.
 
-Met afwijking van het vorenstaande:  Par dérogation à ce qui précède :
+Met afwijking van het vorenstaande:
 
 a) moet de aanwijzing van lastgever, bij toewijzingen die wettelijk
 
@@ -5898,7 +6016,7 @@ verkrijging, hoe zij ook gebeurt, het voor verkopingen bepaalde recht
 
 verschuldigd.
 
-13° (…)  13° (…)
+13° (…)
 
 14° de inbrengen van onroerende goederen, andere dan die welke
 
@@ -5938,13 +6056,13 @@ bestemming van het onroerend goed, worden de bijvoeglijke rechten
 
 opeisbaar en verbeurt iedere partij een boete gelijk aan de rechten.
 
------  -----
+-----
 
 #### Afdeling XX - Akten vrijgesteld van het evenredig recht en
 
 onderhevig aan het algemeen vast recht
 
-Artikel 159  Article 159
+###### Artikel 159
 
 (14°, gewijzigd bij art. 23 van de wet van 10.02.2026 (B.S., 27.02.2026). Tekst
 
@@ -5972,7 +6090,7 @@ lastgever voor de toepassing van dit Wetboek als wederverkoop
 
 beschouwd.
 
-Met afwijking van het vorenstaande:  Par dérogation à ce qui précède :
+Met afwijking van het vorenstaande:
 
 a) moet de aanwijzing van lastgever, bij toewijzingen die wettelijk
 
@@ -6156,7 +6274,7 @@ verkrijging, hoe zij ook gebeurt, het voor verkopingen bepaalde recht
 
 verschuldigd.
 
-13° (…)  13° (…)
+13° (…)
 
 14° de inbrengen van onroerende goederen, andere dan die welke
 
@@ -6190,15 +6308,15 @@ bestemming van het onroerend goed, worden de bijvoeglijke rechten
 
 opeisbaar en verbeurt iedere partij een boete gelijk aan de rechten.
 
-### HOOFDSTUK V - Registratie in debet  Chapitre V - Enregistrement en débet
+### HOOFDSTUK V - Registratie in debet
 
-Artikel 160  Article 160
+###### Artikel 160
 
 (gewijzigd bij art. 5 van de wet van 26.05.2016 (B.S., 09.06.2016). Tekst van
 
 toepassing vanaf 01.01.2015 (art. 8))
 
-In afwijking van artikel 169 ter , worden in debet geregistreerd:  Par dérogation à l’article 169 ter , sont enregistrés en débet :
+In afwijking van artikel 169 ter , worden in debet geregistreerd:
 
 1° de akten opgemaakt ten verzoek van de persoon die
 
@@ -6266,9 +6384,9 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-### HOOFDSTUK VI - Kosteloze registratie  CHAPITRE VI - Enregistrement gratuit
+### HOOFDSTUK VI - Kosteloze registratie
 
-Artikel 161  Article 161
+###### Artikel 161
 
 (1° en 12°, gewijzigd bij art. 29 van de wet van 10.02.2026 (B.S., 27.02.2026).
 
@@ -6386,7 +6504,7 @@ wet houdende bijzondere maatregelen inzake ruilverkaveling van
 
 landeigendommen in der minne;
 
-8° (…)  8° (…)
+8° (…)
 
 9° Akten, vonnissen en arresten betreffen de uitvoering der wet op
 
@@ -6424,7 +6542,7 @@ concessiegedeelte worden gebruikt.
 
 van schenking van ondernemingen.
 
-12°  12°
+12°
 
 a) de akten houdende verhuring, onderverhuring of overdracht van
 
@@ -6480,7 +6598,7 @@ vraagt en de akte opgesteld wordt binnen de 6 maanden na het
 
 overlijden.
 
-----------  ----------
+----------
 
 Nota:  Note :
 
@@ -6508,7 +6626,7 @@ beïnvloeden, die afzonderlijk blijven en niet door deze wijzigingen worden
 
 geraakt (Parl.St., Kamer: 56-1127 001, blz. 8).
 
-Artikel 161/1  Article 161/1
+###### Artikel 161/1
 
 (gewijzigd bij art. 1 van het KB van 03.10.2019 (B.S., 30.10.2019). Tekst van
 
@@ -6530,7 +6648,7 @@ Gewesten.
 
 ##### registratie
 
-Artikel 162  Article 162
+###### Artikel 162
 
 (10°, opgeheven bij art. 4 van de wet van 31.07.2023 (B.S., 23.08.2023). Tekst
 
@@ -6938,7 +7056,7 @@ de Gemeenschappen en de Gewesten;
 
 b) de in artikelen 146 en 147 bedoelde vonnissen en arresten;  b) les jugements et arrêts visés aux articles 146 et 147.
 
-----------  ----------
+----------
 
 Nota:  Note :
 
@@ -6956,7 +7074,7 @@ Nota:  Note :
 
 moeten zijn.
 
-Artikel 163  Article 163
+###### Artikel 163
 
 (gewijzigd bij art. 16 van de wet van 14.04.1965 (B.S., 24.04.1965). Tekst van
 
@@ -6984,7 +7102,7 @@ verkrijgers aanbelangen;
 
 b) processen-verbaal van rangregeling en van verdeling bij aandelen.  b) aux procès-verbaux d’ordre et de distribution par contribution.
 
-Artikel 164  Article 164
+###### Artikel 164
 
 Zijn mede van de formaliteit der registratie vrijgesteld, de uitgiften,
 
@@ -6992,7 +7110,7 @@ afschriften van en uittreksels uit akten welke geregistreerd werden of
 
 die krachtens artikel 162 van de formaliteit zijn vrijgesteld.
 
-Artikel 165  Article 165
+###### Artikel 165
 
 ### HOOFDSTUK VIII - Diverse bepalingen betreffende de
 
@@ -7004,7 +7122,7 @@ Artikel 165  Article 165
 
 toepassing vanaf 01.01.2015 (art. 8))
 
-Artikel 166  Article 166
+###### Artikel 166
 
 (gewijzigd bij art. 5, § 7, 1° van het KB van 20.07.2000 (B.S., 30.08.2000 - ed. 1).
 
@@ -7026,7 +7144,7 @@ Het bedrag van het vereffende recht wordt, desvoorkomend, tot de
 
 hogere eurocent afgerond.
 
-Artikel 167  Article 167
+###### Artikel 167
 
 Wanneer er niet anderszins bij deze titel over beschikt is, mag het
 
@@ -7034,7 +7152,7 @@ bedrag van het op een akte of een verklaring te heffen evenredig recht
 
 niet minder dan in het algemeen vast recht bedragen.
 
-Artikel 168  Article 168
+###### Artikel 168
 
 (gewijzigd bij art. 17 van de wet van 14.04.1965 (B.S., 24.04.1965). Tekst van
 
@@ -7074,7 +7192,7 @@ de verklaring naam, voornamen, woonplaats, plaats en datum van
 
 geboorte van de beneficianten van dit levenslang recht vervatten.
 
-Artikel 169  Article 169
+###### Artikel 169
 
 De rechten verschuldigd op akten waarbij eigendom of vruchtgebruik
 
@@ -7091,8 +7209,6 @@ die door den nieuwe eigenaar of vruchtgebruiker ten laste genomen
 worden, moeten als lasten van de overeenkomst beschouwd worden.
 
 ###### Art. 169. bis
-
-Article 169 bis
 
 (ingevoegd bij art. 70 van de wet van 22.12.1998 (B.S., 15.01.1999). Tekst van
 
@@ -7115,8 +7231,6 @@ eenheid die van de andere goederen of delen die het perceel vormen
 kan worden afgezonderd.
 
 ###### Art. 169. ter
-
-Article 169 ter
 
 De rechten en, in voorkomend geval, de boeten en de interesten, zoals
 
@@ -7156,9 +7270,9 @@ vorderen, indien daartoe grond bestaat.
 
 ##### verzekeren van het heffen van de rechten
 
-#### Afdeling I - Vermeldingen op te nemen in bepaalde akten  Section I re - Mentions à insérer dans certains actes
+#### Afdeling I - Vermeldingen op te nemen in bepaalde akten
 
-Artikel 170  Article 170
+###### Artikel 170
 
 (gewijzigd bij art. 2, nr. 11 van het KB van 20.07.2000 (B.S., 30.08.2000 - ed.
 
@@ -7186,8 +7300,6 @@ authentieke akte melding gemaakt.
 
 ###### Art. 170. bis
 
-Article 170 bis
-
 (ingevoegd bij art. 6 van de wet van 07.03.2002 (B.S., 19.03.2002). Tekst van
 
 toepassing vanaf 01.01.2002 (art. 7))
@@ -7212,7 +7324,7 @@ De notaris die nagelaten heeft de schenker te vragen de verklaring te
 
 doen, verbeurt een boete van 25 EUR.
 
-Artikel 171  Article 171
+###### Artikel 171
 
 (aangevuld bij art. 112 van de wet van 31.07.2020 (B.S., 07.08.2020 - ed. 1).
 
@@ -7236,7 +7348,7 @@ oog op de aanbieding ervan ter formaliteit van de registratie.
 
 uitgiften
 
-Artikel 172  Article 172
+###### Artikel 172
 
 (gewijzigd bij art. 2, nr. 11 van het KB van 20.07.2000 (B.S., 30.08.2000 - ed.
 
@@ -7260,7 +7372,7 @@ Alle overtreding van dit verbod wordt met een geldboete van 25 EUR
 
 gestraft.
 
-Artikel 173  Article 173
+###### Artikel 173
 
 (7°bis, ingevoegd bij art. 113 van de wet van 31.07.2020 (B.S., 07.08.2020 -
 
@@ -7334,25 +7446,25 @@ worden neergelegd in de Notariële Aktebank overeenkomstig artikel
 
 18 van de wet van 25 ventôse jaar XI op het notarisambt.
 
-Artikel 174  Article 174
+###### Artikel 174
 
 (opgeheven bij art. 13 van de wet van 19.06.1986 (B.S., 24.07.1986). Tekst
 
 van toepassing vanaf 01.11.1986 (art. 15))
 
-(…)  (…)
+(…)
 
-Artikel 175  Article 175
+###### Artikel 175
 
 (opgeheven bij art. 17 van de wet van 12.07.1960 (B.S., 09.11.1960). Tekst
 
 van toepassing vanaf 01.01.1961 (art. 39))
 
-(…)  (…)
+(…)
 
-#### Afdeling III - Repertorium van de akten  Section III - Répertoire des actes
+#### Afdeling III - Repertorium van de akten
 
-Artikel 176  Article 176
+###### Artikel 176
 
 (gewijzigd bij art. 48, § 4 van de wet van 05.07.1963 (B.S., 17.07.1963). Tekst
 
@@ -7360,7 +7472,7 @@ van toepassing vanaf 28.09.1963 (art. 52))
 
 volgorde der nummers, alle akten van hun ambt inschrijven.
 
-Artikel 177  Article 177
+###### Artikel 177
 
 (gewijzigd bij art. 53 van de wet van 21.12.2013 (B.S., 31.12.2013 - ed. 2).
 
@@ -7388,7 +7500,7 @@ De Koning kan aanvullende vermeldingen voorschrijven of
 
 afwijkingen toestaan.
 
-Artikel 178  Article 178
+###### Artikel 178
 
 (gewijzigd bij art. 2, nr. 11 van het KB van 20.07.2000 (B.S., 30.08.2000 - ed.
 
@@ -7408,7 +7520,7 @@ vroegere datum dan die van het proces-verbaal van nummering en
 
 waarmerk van het repertorium.
 
-Artikel 179  Article 179
+###### Artikel 179
 
 De in artikel 176 bedoelde repertoria die moeten worden gehouden
 
@@ -7432,7 +7544,7 @@ de Nationale Kamer van gerechtsdeurwaarders in een door de Koning
 
 goedgekeurd reglement.
 
-Artikel 180  Article 180
+###### Artikel 180
 
 (gewijzigd bij art. 54 van de wet van 21.12.2013 (B.S., 31.12.2013 - ed. 2).
 
@@ -7461,8 +7573,6 @@ Bij laattijdige voorlegging van het repertorium wordt een boete
 verbeurd van 25 euro per week vertraging.
 
 ###### Art. 180. bis
-
-Article 180 bis
 
 (lid 1, gewijzigd bij art. 24 van de wet van 10.02.2026 (B.S., 27.02.2026). Tekst
 
@@ -7496,8 +7606,6 @@ inhoud van deze stukken waarborgen.
 
 ###### Art. 180. ter
 
-Article 180 ter
-
 (ingevoegd bij art. 114 van de wet van 31.07.2020 (B.S., 07.08.2020 - ed. 1).
 
 Tekst van toepassing vanaf 17.08.2020 (art. -))
@@ -7508,11 +7616,9 @@ De griffier bewaart, samen met de minuut van het vonnis of arrest:  Le greffier 
 
 2° een kopie van het geregistreerde afschrift van dat vonnis of arrest.  2° une copie de la copie enregistrée de ce jugement ou de cet arrêt.
 
-#### Afdeling IV - Verplichting van inzageverlening  Section IV - Devoir de communication
+#### Afdeling IV - Verplichting van inzageverlening
 
 ###### Art. 181. 1
-
-Article 181 1
 
 (gewijzigd bij art. 55 van de wet van 27.04.2016 (B.S., 06.05.2016). Tekst van
 
@@ -7540,8 +7646,6 @@ toepasselijk op de bij notarissen berustende testamenten.
 
 ###### Art. 181. 2
 
-Article 181 2
-
 (gewijzigd bij art. 115 van de wet van 31.07.2020 (B.S., 07.08.2020 - ed. 1).
 
 Tekst van toepassing vanaf 17.08.2020 (art. -))
@@ -7560,7 +7664,7 @@ Patrimoniumdocumentatie inzage te verlenen van:
 
 andere akten waarvan zij bewaarders zijn;
 
-3° de afschriften en vermeldingen bedoeld in artikel 180 ter .  3° les copies et relations visées à l'article 180 ter .
+3° de afschriften en vermeldingen bedoeld in artikel 180 ter .
 
 De modaliteiten waaronder deze inzage moet verleend worden en de
 
@@ -7572,7 +7676,7 @@ kunnen beteugeld worden met boeten waarvan het bedrag 25 EUR
 
 per inbreuk niet zal te boven gaan.
 
-Artikel 182  Article 182
+###### Artikel 182
 
 (gewijzigd bij art. 57 van de wet van 27.04.2016 (B.S., 06.05.2016). Tekst van
 
@@ -7602,8 +7706,6 @@ vastgesteld en gestraft met een geldboete van 250 tot 2.500 EUR,
 
 ###### Art. 182. bis
 
-Article 182 bis
-
 (gewijzigd bij art. 66 van de wet van 25.04.2014 (B.S., 16.05.2014). Tekst van
 
 toepassing vanaf 16.05.2014 (art. 99))
@@ -7626,9 +7728,9 @@ Elke weigering van inzageverlening wordt bij proces-verbaal
 
 vastgesteld en wordt gestraft met een geldboete van 1.250 EUR.
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-Artikel 183  Article 183
+###### Artikel 183
 
 (gewijzigd bij art. 67 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst
 
@@ -7682,9 +7784,9 @@ Algemene Administratie van de Patrimoniumdocumentatie wordt
 
 vastgesteld.
 
------  -----
+-----
 
-Artikel 183  Article 183
+###### Artikel 183
 
 (gewijzigd bij art. 58 van de wet van 27.04.2016 (B.S., 06.05.2016). Tekst van
 
@@ -7744,7 +7846,7 @@ Note :
 
 (1) Lire : « de l’ ».
 
-Artikel 184  Article 184
+###### Artikel 184
 
 (lid 2, vervangen bij art. 68 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2).
 
@@ -7772,9 +7874,9 @@ De Koning bepaalt de modaliteiten van deze communicatie en duidt
 
 de ambtenaar aan ertoe bevoegd hetzelve te ontvangen.
 
------  -----
+-----
 
-Artikel 184  Article 184
+###### Artikel 184
 
 (gewijzigd bij art. 68 van de wet van 25.04.2014 (B.S., 16.05.2014). Tekst van
 
@@ -7808,8 +7910,6 @@ registratierechten
 
 ###### Art. 184. bis
 
-Article 184 bis
-
 De notarissen, gerechtsdeurwaarders en griffiers, de vereffenaars en
 
 curatoren alsook de ambtenaren van de Deposito- en Consignatiekas
@@ -7840,13 +7940,13 @@ artikel niet zijn nagekomen, zijn zij persoonlijk aansprakelijk voor de
 
 betaling van de sommen die opeisbaar blijven.
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-### HOOFDSTUK X - Bewijsmiddelen  Chapitre X - Moyens de preuve
+### HOOFDSTUK X - Bewijsmiddelen
 
-#### Afdeling I - Algemene bepalingen  Section I re - Dispositions générales
+#### Afdeling I - Algemene bepalingen
 
-Artikel 185  Article 185
+###### Artikel 185
 
 (lid 2, vervangen bij art. 69 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2).
 
@@ -7874,13 +7974,13 @@ blijken of er toe bijdraagt deze opvorderbaarheid te laten blijken.
 
 een aangetekende zending.
 
------  -----
+-----
 
-### HOOFDSTUK X - Bewijsmiddelen  Chapitre X - Moyens de preuve
+### HOOFDSTUK X - Bewijsmiddelen
 
-#### Afdeling I - Algemene bepalingen  Section I re - Dispositions générales
+#### Afdeling I - Algemene bepalingen
 
-Artikel 185  Article 185
+###### Artikel 185
 
 (gewijzigd bij art. 59 van de wet van 27.04.2016 (B.S., 06.05.2016). Tekst van
 
@@ -7912,19 +8012,19 @@ gebeuren bij een ter post aangetekend schrijven. De afgifte van het
 
 stuk ter post geldt als betekening van de volgende dag af.
 
-Artikel 186  Article 186
+###### Artikel 186
 
 (opnieuw opgeheven bij art. 11 van de wet van 13.08.1947 (B.S., 17.09.1947).
 
 Tekst van toepassing vanaf 27.09.1947 (art. -))
 
-(…)  (…)
+(…)
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 187  Article 187
+###### Artikel 187
 
 overeenkomst, wordt, ter vordering van het recht tegen de nieuwe
 
@@ -7940,7 +8040,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 188  Article 188
+###### Artikel 188
 
 Wordt als koper voor eigen rekening beschouwd en mag zich op de
 
@@ -7960,9 +8060,9 @@ De tussenpersoon wordt geacht het onroerend goed te hebben
 
 verkregen op de dag van de betaling of van de verbintenis tot betaling.
 
-#### Afdeling II - Controleschatting  Section II - Expertise de contrôle
+#### Afdeling II - Controleschatting
 
-Artikel 189  Article 189
+###### Artikel 189
 
 (gewijzigd bij art. 94 van de wet van 11.07.2018 (B.S., 20.07.2018 - ed. 2).
 
@@ -7982,7 +8082,7 @@ wanneer het gaat om eigendom of vruchtgebruik van in België
 
 gelegen onroerende goederen.
 
-Artikel 190  Article 190
+###### Artikel 190
 
 De schatting dient gevorderd bij een aanvraag genotificeerd door den
 
@@ -8002,7 +8102,7 @@ bestuur geschat werden en van het vermoedelijk wegens recht en
 
 boete verschuldigd bedrag.
 
-Artikel 191  Article 191
+###### Artikel 191
 
 Binnen vijftien dagen na de in artikel 190 voorziene notificatie, kunnen
 
@@ -8022,7 +8122,7 @@ door de partij ondertekend; indien de partij niet mag of niet kan
 
 ondertekenen, dient dit in het proces-verbaal vermeld.
 
-Artikel 192  Article 192
+###### Artikel 192
 
 Bij gemis van het onder artikel 191 voorzien akkoord richt de
 
@@ -8066,7 +8166,7 @@ verklaringen;
 
 officieren.
 
-Artikel 194  Article 194
+###### Artikel 194
 
 (gewijzigd bij art. 3/art. 119 van de wet van 10.10.1967 (B.S., 31.10.1967).
 
@@ -8100,9 +8200,9 @@ hij de gewraakte deskundigen.
 
 Deze nieuwe beslissing wordt aan de partij betekend.  Cette nouvelle décision est signifiée à la partie.
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-Artikel 195  Article 195
+###### Artikel 195
 
 respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))
 
@@ -8126,9 +8226,9 @@ bescheid moet tezelfdertijd in afschrift aan de andere partij bij
 
 aangetekende zending worden gezonden.
 
------  -----
+-----
 
-Artikel 195  Article 195
+###### Artikel 195
 
 De ontvanger notificeert aan de deskundigen de opdracht die hun
 
@@ -8150,7 +8250,7 @@ bescheid moet tezelfdertijd in afschrift aan de andere partij bij
 
 aangetekende brief worden gezonden.
 
-Artikel 196  Article 196
+###### Artikel 196
 
 (lid 3 vervangen bij art. 7 van de wet van 27.05.1974 (B.S., 06.07.1974) err. (B.S.
 
@@ -8190,7 +8290,7 @@ De minuut van het verslag wordt ter griffie van het onder artikel 192
 
 aangeduid vredegerecht neergelegd.
 
-Artikel 197  Article 197
+###### Artikel 197
 
 Het verslag wordt door de meest gerede partij gelicht en aan de
 
@@ -8206,9 +8306,9 @@ verkoopwaarde van het goed ten opzichte van de heffing der
 
 belasting bepaald.
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-Artikel 198  Article 198
+###### Artikel 198
 
 (vervangen bij art. 71 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst
 
@@ -8218,9 +8318,9 @@ ondernemingsnummer, evenals voor natuurlijke personen, op een datum
 
 respectievelijk te bepalen door de Koning, en ten laatste op 01.01.2028 (art. 222))
 
------  -----
+-----
 
-Artikel 198  Article 198
+###### Artikel 198
 
 De krachtens vorenstaande artikelen van deze afdeling te verrichten
 
@@ -8230,7 +8330,7 @@ geschieden. De afgifte van het stuk ter post geldt als notificatie vanaf
 
 de daaropvolgende dag.
 
-Artikel 199  Article 199
+###### Artikel 199
 
 (vervangen bij art. 33 door de programmawet van 09.07.2004 (B.S.,
 
@@ -8244,7 +8344,7 @@ te worden, op straffe van verval, binnen de termijn van één maand te
 
 rekenen van de betekening van het verslag.
 
-Artikel 200  Article 200
+###### Artikel 200
 
 (gewijzigd bij art. 181 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
@@ -8282,7 +8382,7 @@ uitgewezen tekort bereikt of overtreft.
 
 ##### en veinzing. Sanctiën
 
-Artikel 201  Article 201
+###### Artikel 201
 
 (gewijzigd bij art. 182 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
@@ -8300,7 +8400,7 @@ aangegeven waarde, verbeurt de verkrijgende partij een geldboete
 
 ten bedrage van het ontdoken recht.
 
-Artikel 202  Article 202
+###### Artikel 202
 
 (gewijzigd bij art. 15 van de wet van 23.12.1958 (B.S., 07.01.1959). Tekst van
 
@@ -8330,7 +8430,7 @@ betaling van dat recht, het al ondeelbaar ten laste van hen die de
 
 verklaring gedaan hebben.
 
-Artikel 203  Article 203
+###### Artikel 203
 
 (gewijzigd bij art. 2, nr. 11 van het KB van 20.07.2000 (B.S., 30.08.2000 - ed.
 
@@ -8364,7 +8464,7 @@ Op straf van een boete van 25 EUR moet uitdrukkelijke melding van
 
 die voorlezing in de akte gemaakt worden.
 
-Artikel 204  Article 204
+###### Artikel 204
 
 (gewijzigd bij art. 18 van de wet van 14.04.1965 (B.S., 24.04.1965). Tekst van
 
@@ -8384,17 +8484,17 @@ een geldboete verschuldigd gelijk aan het ontdoken recht. Dit recht is
 
 ondeelbaar door alle partijen verschuldigd.
 
-Artikel 205  Article 205
+###### Artikel 205
 
 (opgeheven bij art. 64 van de wet van 15.03.1999 (B.S., 27.03.1999). Tekst
 
 van toepassing vanaf 06.04.1999 (art. -))
 
-(…)  (…)
+(…)
 
-### HOOFDSTUK XII - Correctionele straffen  CHAPITRE XII - Peines correctionnelles
+### HOOFDSTUK XII - Correctionele straffen
 
-Artikel 206  Article 206
+###### Artikel 206
 
 Onverminderd de fiscale boeten, wordt hij die met bedrieglijk opzet of
 
@@ -8419,8 +8519,6 @@ en de gewesten, wordt het bedrag van het in het eerste lid bepaalde
 maximum van de boete gebracht op 500.000 euro.
 
 ###### Art. 206. bis
-
-Article 206 bis
 
 (gewijzigd bij art. 23 van de wet van 20.09.2012 (B.S., 22.10.2012). Tekst van
 
@@ -8462,8 +8560,6 @@ lid bepaalde maximum van de boete gebracht op 500.000 euro.
 
 ###### Art. 206. bis /1
 
-Article 206 bis /1
-
 (ingevoegd bij art. 109 van de wet van 05.05.2019 (B.S., 24.05.2019 - ed. 1).
 
 Tekst van toepassing op de datum bepaald door de Koning en ten laatste op
@@ -8496,7 +8592,7 @@ vordering van de fiscale administratie gegrond wordt verklaard en tot
 
 een effectieve betaling van deze volledige vordering heeft geleid.
 
-Artikel 207  Article 207
+###### Artikel 207
 
 (vervangen bij art. 13 van de wet van 10.02.1981 (B.S., 14.02.1981). Tekst van
 
@@ -8544,8 +8640,6 @@ de dag waarop de veroordeling in kracht van gewijsde is gegaan.
 
 ###### Art. 207. bis
 
-Article 207 bis
-
 (gewijzigd bij art. 24 van de wet van 20.09.2012 (B.S., 22.10.2012). Tekst van
 
 toepassing vanaf 01.11.2012 (art. -))
@@ -8572,8 +8666,6 @@ maximum van de boete gebracht op 500.000 euro.
 
 ###### Art. 207. ter
 
-Article 207 ter
-
 (gewijzigd bij art. 25 van de wet van 20.09.2012 (B.S., 22.10.2012). Tekst van
 
 toepassing vanaf 01.11.2012 (art. -))
@@ -8584,7 +8676,7 @@ inbegrip van artikel 85, zijn van toepassing op de misdrijven bedoeld
 
 in de artikelen 206, 206 bis en 207 bis .
 
-§ 2. (…)  § 2. (…)
+§ 2. (…)
 
 § 3. De wet van 5 maart 1952, gewijzigd bij de wetten van 22
 
@@ -8595,8 +8687,6 @@ strafrechtelijke geldboeten, is van toepassing op de misdrijven
 bedoeld in artikel 206, 206 bis en 207 bis .
 
 ###### Art. 207. quater
-
-Article 207 quater
 
 (lid 2, 2°, gewijzigd bij art. 51 van de wet van 09.04.2024 (B.S., 18.04.2024).
 
@@ -8650,8 +8740,6 @@ rechte of in feite zijn uitgesproken.
 
 ###### Art. 207. quinquies
 
-Article 207 quinquies
-
 (ingevoegd bij art. 13 van de wet van 10.02.1981 (B.S., 14.02.1981). Tekst van
 
 toepassing vanaf 14.02.1981 (art. 22))
@@ -8685,8 +8773,6 @@ wordt gestraft overeenkomstig de artikelen 66, 67 en 458 van het
 Strafwetboek.
 
 ###### Art. 207. septies
-
-Article 207 septies
 
 (gewijzigd bij art. 110 van de wet van 05.05.2019 (B.S., 24.05.2019 - ed. 1).
 
@@ -8738,8 +8824,6 @@ In geen geval schorst het verzoek om advies de strafvordering.  En aucun cas, la
 
 ###### Art. 207. octies
 
-Article 207 octies
-
 (gewijzigd bij art. 70 van de wet van 25.04.2014 (B.S., 16.05.2014). Tekst van
 
 toepassing vanaf 16.05.2014 (art. 99))
@@ -8770,9 +8854,9 @@ aan het in artikel 29, derde lid van het Wetboek van strafvordering
 
 bedoelde overleg.
 
-### HOOFDSTUK XIII - Teruggaaf  CHAPITRE XIII - Restitution
+### HOOFDSTUK XIII - Teruggaaf
 
-Artikel 208  Article 208
+###### Artikel 208
 
 De regelmatig geheven rechten kunnen niet worden teruggegeven,
 
@@ -8780,7 +8864,7 @@ welke ook de latere gebeurtenissen zijn, behoudens in de bij deze titel
 
 voorziene gevallen.
 
-Artikel 209  Article 209
+###### Artikel 209
 
 (gewijzigd bij art. 96 van de wet van 17.03.2019 (B.S., 10.05.2019). Tekst van
 
@@ -8842,9 +8926,9 @@ De teruggaaf geschiedt desvoorkomend onder aftrekking van het
 
 algemeen vast recht.
 
-----------  ----------
+----------
 
-Nota (1) – Overgangsbepalingen:  Note (1) – Dispositions transitoires :
+Nota (1) – Overgangsbepalingen:
 
 Zolang het Wetboek van vennootschappen en verenigingen, overeenkomstig
 
@@ -8890,7 +8974,7 @@ vermelden voor wat deze vennootschap, vereniging of stichting betreft, zoals
 
 voor de inwerkingtreding van deze wet. (art. 119, § 3).
 
-Artikel 210  Article 210
+###### Artikel 210
 
 (gewijzigd bij art. 26 van de wet van 28.04.2019 (B.S., 06.05.2019). Tekst van
 
@@ -8924,19 +9008,19 @@ waarop de heffing werd gedaan, herleid wordt tot een som die bij
 
 artikel 143, laatste lid, vastgestelde bedrag niet overschrijdt.
 
-Artikel 211  Article 211
+###### Artikel 211
 
 (opgeheven bij art. 23 van de wet van 12.07.1960 (B.S., 09.11.1960). Tekst
 
 van toepassing vanaf 01.01.1961 (art. 39))
 
-(…)  (…)
+(…)
 
 Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 212  Article 212
+###### Artikel 212
 
 (lid 5, gewijzigd bij art. 25 van de wet van 10.02.2026 (B.S., 27.02.2026). Tekst
 
@@ -8990,7 +9074,7 @@ Gewestelijke bepalingen (art. 3, eerste lid, 6° van de wet van 16.01.1989
 
 betreffende de financiering van de gemeenschappen en de gewesten)
 
-Artikel 213  Article 213
+###### Artikel 213
 
 (gewijzigd bij art. 24 van het KB nr. 12 van 18.04.1967 (B.S., 20.04.1967).
 
@@ -9012,9 +9096,9 @@ tweede en derde lid.
 
 gewesten)
 
-### HOOFDSTUK XIV - Verjaring  CHAPITRE XIV - Prescription
+### HOOFDSTUK XIV - Verjaring
 
-Artikel 214  Article 214
+###### Artikel 214
 
 (gewijzigd bij art. 63 van de wet van 28.12.1992 (B.S., 31.12.1992 - ed. 3) err.
 
@@ -9084,7 +9168,7 @@ Is van toepassing, ten aanzien van de verjaring, artikel 18 van dit
 
 wetboek.
 
-Artikel 215  Article 215
+###### Artikel 215
 
 Er is verjaring voor de vordering tot teruggaaf van rechten, interesten
 
@@ -9092,7 +9176,7 @@ en boeten, na twee jaar, te rekenen van den dag waarop de
 
 rechtsvordering is ontstaan.
 
-Artikel 216  Article 216
+###### Artikel 216
 
 De verjaring van de bij artikel 189 ingestelde rechtsvordering tot
 
@@ -9116,8 +9200,6 @@ nederlegging van dit verslag.
 
 ###### Art. 217. 1
 
-Article 217 1
-
 (gewijzigd en art. 217 1 geworden door art. 36 van de wet van 23.12.1958
 
 (B.S., 07.01.1959). Tekst van toepassing van 17.01.1959 (art. -))
@@ -9136,11 +9218,9 @@ vorige verjaring werd gestuit, indien er geen geding aanhangig is vóór
 
 het gerecht.
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 ###### Art. 217. 2
-
-Article 217 2
 
 (gewijzigd bij art. 72 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst
 
@@ -9178,11 +9258,9 @@ waarbij de aanvraag werd verworpen, aan belanghebbende met een
 
 aangetekende zending genotificeerd werd.
 
------  -----
+-----
 
 ###### Art. 217. 2
-
-Article 217 2
 
 (gewijzigd bij art. 3 van de wet van 26.11.2021 (B.S., 02.12.2021). Tekst van
 
@@ -9214,7 +9292,7 @@ De afgifte van de brieven ter post geldt als notificatie van de volgende
 
 dag af.
 
-Artikel 218  Article 218
+###### Artikel 218
 
 (vervangen bij art. 96 van de wet van 26.03.2018 (B.S., 30.03.2018 - ed. 2).
 
@@ -9240,11 +9318,11 @@ arrest in kracht van gewijsde is gegaan voor de misdrijven bedoeld in
 
 het eerste lid.
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
-### HOOFDSTUK XV - Vervolgingen en gedingen  CHAPITRE XV - Poursuites et instances
+### HOOFDSTUK XV - Vervolgingen en gedingen
 
-Artikel 219  Article 219
+###### Artikel 219
 
 (lid 2, gewijzigd bij art. 73 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2).
 
@@ -9308,11 +9386,11 @@ voordat het bestuur iets gevorderd heeft, de overtreding aan het
 
 bestuur bekent, hetzij overleden is.
 
------  -----
+-----
 
-### HOOFDSTUK XV - Vervolgingen en gedingen  CHAPITRE XV - Poursuites et instances
+### HOOFDSTUK XV - Vervolgingen en gedingen
 
-Artikel 219  Article 219
+###### Artikel 219
 
 (gewijzigd bij art. 124 van de wet van 25.04.2007 (B.S., 08.05.2007 - ed. 3). In
 
@@ -9378,7 +9456,7 @@ voordat het bestuur iets gevorderd heeft, de overtreding aan het
 
 bestuur bekent, hetzij overleden is.
 
-Artikel 220  Article 220
+###### Artikel 220
 
 (gewijzigd bij art. 62 van de wet van 27.04.2016 (B.S., 06.05.2016). Tekst van
 
@@ -9398,13 +9476,13 @@ geviseerd  en  uitvoerbaar  verklaard  en  bij  exploot  van
 
 gerechtsdeurwaarder betekend.
 
-Artikel 221  Article 221
+###### Artikel 221
 
 (vervangen bij art. 67 van de wet van 15.03.1999 (B.S., 27.03.1999). Tekst van
 
 toepassing van 06.04.1999 (art. -))
 
-Artikel 222  Article 222
+###### Artikel 222
 
 (gewijzigd bij art. 4 van de wet van 26.11.2021 (B.S., 02.12.2021). Tekst van
 
@@ -9428,7 +9506,7 @@ hiertoe wordt verleend door een ambtenaar met minimum de graad
 
 van adviseur–generaal.
 
-Artikel 223  Article 223
+###### Artikel 223
 
 De moratoire interesten op de in te vorderen of terug te geven
 
@@ -9436,15 +9514,15 @@ sommen zijn verschuldigd naar den voet en de regelen in burgerlijke
 
 zaken vastgesteld.
 
-Artikel 224  Article 224
+###### Artikel 224
 
 (opgeheven bij art. 69 van de wet van 15.03.1999 (B.S., 27.03.1999). Tekst
 
 van toepassing vanaf 06.04.1999 (art. -))
 
-(…)  (…)
+(…)
 
-Artikel 225  Article 225
+###### Artikel 225
 
 De openbare ambtenaren die, krachtens de bepalingen van deze titel,
 
@@ -9468,8 +9546,6 @@ tenuitvoerlegging van de gerechtelijke beslissing.
 
 ###### Art. 225. ter
 
-Article 225 ter
-
 (vervangen bij art. 382 van de programmawet van 27.12.2004 (B.S.,
 
 31.12.2004 - ed. 2). Tekst van toepassing vanaf 10.01.2005 (art. -))
@@ -9481,8 +9557,6 @@ op de voorziening mag door een advocaat worden ondertekend en
 neergelegd.
 
 ###### Art. 225. quater
-
-Article 225 quater
 
 (ingevoegd bij art. 97 van de wet van 26.03.2018 (B.S., 30.03.2018 - ed. 2).
 
@@ -9502,7 +9576,7 @@ aansprakelijkheidsvordering.
 
 ##### de openbare verkopingen van roerende goederen
 
-Artikel 226  Article 226
+###### Artikel 226
 
 (gewijzigd bij art. 48, § 4, van de wet van 05.07.1963 (M.B., 17.07.1963). Tekst
 
@@ -9518,7 +9592,7 @@ gerechtsdeurwaarder verkocht worden.
 
 door hun ambtenaren doen verkopen.
 
-Artikel 227  Article 227
+###### Artikel 227
 
 (vervangen bij art. 27 van de wet van 28.12.2023 (B.S., 29.12.2023 – ed. 2).
 
@@ -9548,7 +9622,7 @@ Ondernemingen;
 
 2° dat de kennisgeving vergezeld moet gaan van metagegevens.  2° que l'information doit être accompagnée de métadonnées.
 
-Artikel 228  Article 228
+###### Artikel 228
 
 De werkende openbare officier of ambtenaar vermeldt, in zijn proces-
 
@@ -9562,7 +9636,7 @@ eigenaar, zomede, desvorkomend, den datum van de overhandiging
 
 of de verzending van de in artikel 227 voorziene kennisgeving.
 
-Artikel 229  Article 229
+###### Artikel 229
 
 (vervangen bij art. 28 van de wet van 28.12.2023 (B.S., 29.12.2023 – ed. 2).
 
@@ -9586,7 +9660,7 @@ eens in cijfers aangeduid.
 
 Na elke zitting wordt het proces-verbaal afgesloten en ondertekend.  Après chaque séance, le procès-verbal est clôturé et signé.
 
-Artikel 231  Article 231
+###### Artikel 231
 
 (gewijzigd bij art. 190 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
@@ -9626,7 +9700,7 @@ rechtspersoon, wordt nochtans niet afgeweken van artikelen 16 en
 
 machtiging, goedkeuring of bekrachtiging van de overheid.
 
-Artikel 232  Article 232
+###### Artikel 232
 
 (gewijzigd bij art. 2, nr. 11 van het KB van 20.07.2000 (B.S., 30.08.2000 - ed.
 
@@ -9662,7 +9736,7 @@ in het proces-verbaal niet voluit in letters of niet in cijfers buiten de
 
 linie is aangeduid.
 
-Artikel 233  Article 233
+###### Artikel 233
 
 (gewijzigd bij art. 2, nr. 11 van het KB van 20.07.2000 (B.S., 30.08.2000 - ed.
 
@@ -9686,7 +9760,7 @@ De overtreders zijn daarbij hoofdelijk gehouden tot de betaling van het
 
 ontdoken recht.
 
-Artikel 234  Article 234
+###### Artikel 234
 
 (gewijzigd bij art. 63 van de wet van 27.04.2016 (B.S., 06.05.2016). Tekst van
 
@@ -9700,7 +9774,7 @@ waar roerende voorwerpen openbaar worden verkocht. Zij hebben
 
 het recht zich de processen-verbaal van verkoop te doen overleggen
 
-Artikel 235  Article 235
+###### Artikel 235
 
 (vervangen door het enig art. van de wet van 03.07.1962 (B.S., 17.07.1962).
 
@@ -9734,7 +9808,7 @@ werden gegeven;
 
 ##### Patrimoniumdocumentatie
 
-Artikel 236  Article 236
+###### Artikel 236
 
 (vervangen bij art. 10 van de wet van 31.07.2023 (B.S., 24.08.2023). Tekst van
 
@@ -9762,7 +9836,7 @@ De aflevering van deze stukken geeft recht op een door de Koning te
 
 bepalen retributie.
 
-Artikel 236/1  Article 236/1
+###### Artikel 236/1
 
 (ingevoegd bij art. 11 van de wet van 31.07.2023 (B.S., 24.08.2023). Tekst van
 
@@ -9810,7 +9884,7 @@ noodzakelijk is voor de verwezenlijking van met de verwerking van de
 
 persoonsgegevens nagestreefde doelstelling.
 
-Artikel 236/2  Article 236/2
+###### Artikel 236/2
 
 (aangevuld bij art. 79 van de wet van 12.05.2024 (B.S., 29.05.2024). Tekst van
 
@@ -9831,8 +9905,6 @@ juni 1955, de bewaartermijnen en de wijze van bewaring bepalen van
 de vragen om inlichtingen en van de verstrekte antwoorden.
 
 ###### Art. 236. bis
-
-Article 236 bis
 
 (gewijzigd bij art. 13 van de wet van 31.07.2023 (B.S., 24.08.2023). Tekst van
 
@@ -9878,15 +9950,15 @@ afschriften of uittreksels afleveren.
 
 ##### naam
 
-Artikel 237  Article 237
+###### Artikel 237
 
 (opgeheven bij art. 30 van de wet van 10.02.2026 (B.S., 27.02.2026). Tekst
 
 van toepassing vanaf 09.03.2026 (art. 33, lid 1))
 
-#### Afdeling I - Nationaliteit  Section 1 re - Nationalité
+#### Afdeling I - Nationaliteit
 
-Artikel 238  Article 238
+###### Artikel 238
 
 (gewijzigd bij art. 31 van de wet van 10.02.2026 (B.S., 27.02.2026). Tekst van
 
@@ -9940,7 +10012,7 @@ Staatsblad gepubliceerd. De Federale Overheidsdienst Financiën
 
 vermeldt die inlichting eveneens op zijn webstek.
 
-----------  ----------
+----------
 
 Nota:  Note :
 
@@ -9958,9 +10030,9 @@ voorgeschreven bij art. 238, laatste lid, W.Reg.:
 
 toepassing vanaf 03.10.1993 (art. -))
 
-(…)  (…)
+(…)
 
-Artikel 240  Article 240
+###### Artikel 240
 
 (opgeheven bij art. 7, 2° van de wet van 24.12.1999 (B.S., 31.12.1999 – ed. 2).
 
@@ -9970,11 +10042,9 @@ deze datum zijn ingediend, blijven onderworpen aan de vroeger toepasselijke
 
 bepalingen van de art. 238, 240, 240bis, 241 en 244 W.Reg. (art. 12))
 
-(…)  (…)
+(…)
 
 ###### Art. 240. bis
-
-Article 240 bis
 
 (opgeheven bij art. 7, 3° van de wet van 24.12.1999 (B.S., 31.12.1999 – ed. 2).
 
@@ -9984,9 +10054,9 @@ deze datum zijn ingediend, blijven onderworpen aan de vroeger toepasselijke
 
 bepalingen van de art. 238, 240, 240bis, 241 en 244 W.Reg. (art. 12))
 
-(…)  (…)
+(…)
 
-Artikel 241  Article 241
+###### Artikel 241
 
 (opgeheven bij art. 7, 4° van de wet van 24.12.1999 (B.S., 31.12.1999 – ed. 2).
 
@@ -9996,15 +10066,15 @@ deze datum zijn ingediend, blijven onderworpen aan de vroeger toepasselijke
 
 bepalingen van de art. 238, 240, 240bis, 241 en 244 W.Reg. (art. 12))
 
-(…)  (…)
+(…)
 
-Artikel 242  Article 242
+###### Artikel 242
 
 (opgeheven bij art. 21, 5° van de wet van 28.06.1984 (B.S. 12.07.1984). Tekst
 
 van toepassing vanaf 01.01.1985 (art. 19))
 
-Artikel 243  Article 243
+###### Artikel 243
 
 (opgeheven bij art. 21, 5° van de wet van 28.06.1984 (B.S., 12.07.1984). Tekst
 
@@ -10012,7 +10082,7 @@ van toepassing vanaf 01.01.1985 (art. 19))
 
 (…)  (...)
 
-Artikel 244  Article 244
+###### Artikel 244
 
 (opgeheven bij art. 7, 5° van de wet van 24.12.1999 (B.S., 31.12.1999 – ed. 2).
 
@@ -10024,7 +10094,7 @@ bepalingen van de art. 238, 240, 240bis, 241 en 244 W.Reg. (art. 12))
 
 ( …)  (...)
 
-Artikel 245  Article 245
+###### Artikel 245
 
 (opgeheven bij art. 21, 5° van de wet van 28.06.1984 (B.S., 12.07.1984). Tekst
 
@@ -10032,7 +10102,7 @@ van toepassing vanaf 01.01.1985 (art. 19))
 
 (…)  (...)
 
-Artikel 246  Article 246
+###### Artikel 246
 
 (opgeheven bij art. 21, 5° van de wet van 28.06.1984 (B.S., 12.07.1984). Tekst
 
@@ -10040,7 +10110,7 @@ van toepassing vanaf 01.01.1985 (art. 19))
 
 ( …)  (...)
 
-Artikel 247  Article 247
+###### Artikel 247
 
 (opgeheven bij art. 195 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
@@ -10052,7 +10122,7 @@ van toepassing vanaf 01.01.1990 (art. 244))
 
 toepassing vanaf 01.03.2021 (art. -))
 
-Artikel 248  Article 248
+###### Artikel 248
 
 (gewijzigd bij art. 26 van de wet van 10.02.2026 (B.S., 27.02.2026). Tekst van
 
@@ -10084,7 +10154,7 @@ wetenschappelijke, culturele, economische, sociale of humanitaire
 
 aard.
 
-Artikel 249  Article 249
+###### Artikel 249
 
 (aangevuld bij art. 8 van de wet van 07.01.2024 (B.S., 19.01.2024). Tekst van
 
@@ -10124,7 +10194,7 @@ verleend worden aan een persoon en aan zijn kinderen of
 
 afstammelingen waarvan het aantal drie overschrijdt.
 
-Artikel 251  Article 251
+###### Artikel 251
 
 (vervangen bij art. 131 van de wet van 18.06.2018 (B.S., 02.07.2018). Tekst
 
@@ -10140,7 +10210,7 @@ wanneer het verzoek beoogt rechtstreeks te verhelpen aan deze
 
 intrekking of vernietiging.
 
-Artikel 252  Article 252
+###### Artikel 252
 
 (gewijzigd bij art. 132 van de wet van 18.06.2018 (B.S., 02.07.2018). Tekst
 
@@ -10154,7 +10224,7 @@ ondertekening van de adelbrieven voorafgaat, of op de datum van de
 
 indiening van het verzoek tot verandering van naam.
 
-Artikel 253  Article 253
+###### Artikel 253
 
 (gewijzigd bij art. 133 van de wet van 18.06.2018 (B.S., 02.07.2018). Tekst
 
@@ -10168,7 +10238,7 @@ hun datum ten kantore Brussel.
 
 heffen van en geldboete gelijk aan het recht, onverminderd ditzelve.
 
-Artikel 254  Article 254
+###### Artikel 254
 
 (gewijzigd bij art. 134 van de wet van 18.06.2018 (B.S., 02.07.2018). Tekst
 
@@ -10182,13 +10252,13 @@ Zolang aan de formaliteit van registratie niet is voldaan, mag de open
 
 brief van adeldom niet aan begunstigden worden uitgereikt.
 
-#### Afdeling III - Bepaling gemeen aan afdelingen I en II  Section III - Dispositions communes aux sections I et II
+#### Afdeling III - Bepaling gemeen aan afdelingen I en II
 
 (gewijzigd bij art. 9 van de wet van 07.02.2021 (B.S., 19.02.2021). Tekst van
 
 toepassing vanaf 01.03.2021 (art. -))
 
-Artikel 255  Article 255
+###### Artikel 255
 
 De algemene bepalingen van deze titel betreffende de formaliteit van
 
@@ -10206,25 +10276,25 @@ afgeweken.
 
 ##### akten van vennootschap
 
-Artikel 256  Article 256
+###### Artikel 256
 
 (opgeheven bij art. 28 van de wet van 25.12.2017 (B.S., 29.12.2017 - ed. 1).
 
 Tekst van toepassing vanaf 08.01.2018 (art. -))
 
-(…)  (…)
+(…)
 
 Tekst van toepassing vanaf 08.01.2018 (art. -))
 
-(…)  (…)
+(…)
 
-Artikel 258  Article 258
+###### Artikel 258
 
 (opgeheven bij art. 30 van de wet van 25.12.2017 (B.S., 29.12.2017 - ed. 1).
 
 Tekst van toepassing vanaf 08.01.2018 (art. -))
 
-(…)  (…)
+(…)
 
 ###### Art. 259. tot 267 W.Reg. federaal
 
@@ -10236,9 +10306,9 @@ Het hypotheekrecht is een federale belasting (art. 3, a contrario , wet
 
 de gewesten).
 
-## TITEL II - HYPOTHEEKRECHT  TITRE II - DROIT D’HYPOTHEQUE
+## TITEL II - HYPOTHEEKRECHT
 
-Artikel 259  Article 259
+###### Artikel 259
 
 (gewijzigd bij art. 5 van de wet van 26.11.2021 (B.S., 02.12.2021). Tekst van
 
@@ -10250,7 +10320,7 @@ op de inschrijvingen van hypotheken en voorrechten op onroerende
 
 goederen.
 
-Artikel 260  Article 260
+###### Artikel 260
 
 (gewijzigd bij art. 99 van de wet van 11.07.2018 (B.S., 20.07.2018 - ed. 2).
 
@@ -10268,7 +10338,7 @@ voor het geval het inschrijvingsborderel op gedematerialiseerde wijze
 
 wordt aangeboden.
 
-Artikel 261  Article 261
+###### Artikel 261
 
 (vervangen bij art. 6 van de wet van 26.11.2021 (B.S., 02.12.2021). Tekst van
 
@@ -10296,7 +10366,7 @@ als eerste in het inschrijvingsborderel is vermeld. Het over dat bedrag
 
 geïnde recht dekt de inschrijvingen op de overige kantoren.
 
-Artikel 262  Article 262
+###### Artikel 262
 
 (gewijzigd bij art. 196 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
@@ -10304,13 +10374,13 @@ van toepassing vanaf 01.01.1990 (art. 244))
 
 Het hypotheekrecht is op 0,30 t.h. gesteld.  Le droit d’hypothèque est fixé à 0,30 p.c.
 
-Artikel 263  Article 263
+###### Artikel 263
 
 Het recht is vereffend op het bedrag in hoofd- en bijkomende
 
 sommen waarvoor de inschrijving genomen of hernieuwd wordt.
 
-Artikel 264  Article 264
+###### Artikel 264
 
 (gewijzigd bij art. 2, nr. 11 en 5, § 7, 2° van het KB van 20.07.2000 (B.S.,
 
@@ -10324,7 +10394,7 @@ hogere cent afgerond.
 
 Het in te vorderen recht mag niet minder dan 5 EUR bedragen.  Le droit à percevoir ne peut être inférieur à 5 EUR.
 
-Artikel 265  Article 265
+###### Artikel 265
 
 (3°, gewijzigd bij art. 103 van de wet van 21.01.2022 (B.S., 28.01.2022 - ed.
 
@@ -10358,7 +10428,7 @@ de wet betreffende het herstel van zekere schade veroorzaakt aan
 
 private goederen door natuurrampen.
 
-Artikel 266  Article 266
+###### Artikel 266
 
 (laatste lid vervangen bij art. 37 van de wet van 23.12.1958 (B.S., 07.01.1959).
 
@@ -10374,7 +10444,7 @@ rekenen van den dag der inschrijving;
 
 Die verjaringen worden gestuit overeenkomstig artikel 217 1 en 217 2 .  Les prescriptions sont interrompues conformément aux articles 217 1
 
-Artikel 267  Article 267
+###### Artikel 267
 
 Zijn toepasselijk op het hypotheekrecht, de bepalingen van titel I,
 
@@ -10392,13 +10462,13 @@ Het griffierecht is een federale belasting (art. 3, a contrario , wet
 
 de gewesten).
 
-## TITEL III - GRIFFIERECHT  TITRE III - DROIT DE GREFFE
+## TITEL III - GRIFFIERECHT
 
 ### HOOFDSTUK I - VESTIGING VAN DE BELASTING EN
 
 ##### VASTSTELLING VAN DE RECHTEN
 
-Artikel 268  Article 268
+###### Artikel 268
 
 (gewijzigd bij art. 2 van de wet van 28.04.2015 (B.S., 26.05.2015). Tekst van
 
@@ -10425,8 +10495,6 @@ vonnissen en arresten en van kopieën van andere stukken die op de
 griffie worden bewaard;
 
 ###### Art. 269. 1
-
-Article 269 1
 
 (gewijzigd bij art. 130 van de wet van 05.05.2019 (B.S., 19.06.2019). Tekst
 
@@ -10474,7 +10542,7 @@ uitgesproken door de jeugdrechtbank, waarvan de wijziging wordt
 
 gevraagd voor de familierechtbank.
 
-----------  ----------
+----------
 
 Nota:  Note :
 
@@ -10540,7 +10608,7 @@ of van de weglating opeisbaar ten laste van de partij die de zaak op de
 
 rol heeft doen stellen.
 
-----------  ----------
+----------
 
 Nota:  Note :
 
@@ -10568,13 +10636,11 @@ van toepassing waren vóór de inwerkingtreding van die bepalingen.
 
 ###### Art. 269. 3
 
-Article 269 3
-
 (opgeheven bij art. 4 van de wet van 14.10.2018 (B.S., 20.12.2018 - ed. 2).
 
 Tekst van toepassing vanaf 01.02.2019 (art. 29)) (1)
 
-Nota (1) – Overgangsbepaling:  Note (1) – Disposition transitoire :
+Nota (1) – Overgangsbepaling:
 
 De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in
 
@@ -10584,17 +10650,15 @@ vanaf hun datums van inwerkingtreding (art. 28).
 
 ###### Art. 269. 4
 
-Article 269 4
-
 (opgeheven bij art. 5 van de wet van 14.10.2018 (B.S., 20.12.2018 - ed. 2).
 
 Tekst van toepassing vanaf 01.02.2019 (art. 29)) (1)
 
-(…)  (…)
+(…)
 
-----------  ----------
+----------
 
-Nota (1) – Overgangsbepaling:  Note (1) – Disposition transitoire :
+Nota (1) – Overgangsbepaling:
 
 De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in
 
@@ -10602,7 +10666,7 @@ De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in
 
 vanaf hun datums van inwerkingtreding (art. 28).
 
-Artikel 270  Article 270
+###### Artikel 270
 
 (opgeheven bij art. 26 van de wet van 12.07.1960 (B.S., 09.11.1960); de art.
 
@@ -10612,11 +10676,9 @@ Artikel 270  Article 270
 
 (…)  (...)
 
-##### Afdeling I bis - Opstelrecht  Section I bis - Droit de rédaction
+##### Afdeling I bis - Opstelrecht
 
 ###### Art. 270. 1
-
-Article 270 1
 
 (gewijzigd bij art. 98 van de wet van 22.06.2012 (B.S. , 28.06.2012). Tekst van
 
@@ -10652,8 +10714,6 @@ bepaald.
 
 ###### Art. 270. 3
 
-Article 270 3
-
 (gewijzigd bij art. 100 van de wet van 22.06.2012 (B.S., 28.06.2012). Tekst
 
 van toepassing vanaf 08.07.2012 (art. -))
@@ -10666,9 +10726,9 @@ Dit recht is vatbaar voor teruggaaf ingeval de inwilliging bij een
 
 eindbeslissing van het bevoegd gerecht wordt geweigerd.
 
-#### Afdeling II - Expeditierecht  Section II - Droit d’expédition
+#### Afdeling II - Expeditierecht
 
-Artikel 271  Article 271
+###### Artikel 271
 
 (2°, gewijzigd bij art. 252 van de wet van 15.04.2018 (B.S., 27.04.2018 - ed.
 
@@ -10758,7 +10818,7 @@ het brondocument, die de elektronische bladzijde bepalen, mogen bij
 
 het maken van de kopie niet gewijzigd worden.
 
-Artikel 273  Article 273
+###### Artikel 273
 
 (gewijzigd bij art. 312 van de wet van 27.12.2006 (B.S. 28.12.2006 - ed. 3).
 
@@ -10776,7 +10836,7 @@ van artikel 121 van het Algemeen Reglement op de gerechtskosten in
 
 strafzaken.
 
-Artikel 274  Article 274
+###### Artikel 274
 
 (gewijzigd bij art. 312 van de wet van 27.12.2006 (B.S. 28.12.2006). Tekst van
 
@@ -10794,8 +10854,6 @@ verschuldigd voor één bladzijde.
 
 ###### Art. 274. bis
 
-Article 274 bis
-
 (gewijzigd bij art. 103 van de wet van 22.06.2012 (B.S., 28.06.2012). Tekst
 
 van toepassing vanaf 08.07.2012 (art. -))
@@ -10812,8 +10870,6 @@ volle minuut.
 
 ###### Art. 274. ter
 
-Article 274 ter
-
 (gewijzigd bij art. 104 van de wet van 22.06.2012 (B.S., 28.06.2012). Tekst
 
 van toepassing vanaf 08.07.2012 (art. -))
@@ -10822,7 +10878,7 @@ De expeditierechten die verschuldigd zijn op één en hetzelfde verzoek
 
 voor één en dezelfde zaak, mogen 1 450 euro niet overschrijden.
 
-#### Afdeling III - Legalisatie- en opzoekingsrechten  Section III - Droits de légalisation et de recherche
+#### Afdeling III - Legalisatie- en opzoekingsrechten
 
 (opgeheven bij art. 205 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
@@ -10830,7 +10886,7 @@ van toepassing vanaf 01.01.1990 (art. 244))
 
 (…)  (...)
 
-Artikel 276  Article 276
+###### Artikel 276
 
 (opgeheven bij art. 205 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
@@ -10844,15 +10900,15 @@ het ambachtsregister en in de registers van de economische
 
 samenwerkingsverbanden
 
-Artikel 277  Article 277
+###### Artikel 277
 
 (opgeheven bij art. 5, § 1 van het KB van 28.05.2003 (B.S., 20.06.2003 - ed. 3).
 
 Tekst van toepassing vanaf 01.07.2003 (art. 6))
 
-(…)  (…)
+(…)
 
-Artikel 278  Article 278
+###### Artikel 278
 
 (opgeheven bij art. 5, § 1 van het KB van 28.05.2003 (B.S., 20.06.2003). Tekst
 
@@ -10860,11 +10916,9 @@ van toepassing van 01.07.2003 (art. 6))
 
 (…)  (...)
 
-### HOOFDSTUK II - Vrijstellingen  CHAPITRE II - Exemptions
+### HOOFDSTUK II - Vrijstellingen
 
 ###### Art. 279. 1
-
-Article 279 1
 
 (aangevuld bij art. 6 van de wet van 14.10.2018 (B.S., 20.12.2018 - ed. 2).
 
@@ -10896,9 +10950,9 @@ arbeidsgerechten;
 
 ## boek XX van het Wetboek van economisch recht.
 
-----------  ----------
+----------
 
-Nota (1) – Overgangsbepaling:  Note (1) – Disposition transitoire :
+Nota (1) – Overgangsbepaling:
 
 De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in
 
@@ -10907,8 +10961,6 @@ De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in
 vanaf hun datums van inwerkingtreding (art. 28).
 
 ###### Art. 279. 2
-
-Article 279 2
 
 (5°, opgeheven bij art. 32 van de wet van 10.02.2026 (B.S., 27.02.2026). Tekst
 
@@ -10932,9 +10984,9 @@ vermeldingen dier worden aangebracht op de registers, titels en
 
 stukken tot staving daarvan;
 
-4° (…)  4° (…)
+4° (…)
 
-5° (…)  5° (…)
+5° (…)
 
 (6°, gewijzigd bij art. 27 van de wet van 10.02.2026 (B.S., 27.02.2026). Tekst
 
@@ -11056,17 +11108,17 @@ de schadeloosstelling wordt geregeld door bijzondere wetten of door
 
 internationale overeenkomsten.
 
-Artikel 281  Article 281
+###### Artikel 281
 
 (opgeheven bij art. 8 van de wet van 14.10.2018 (B.S., 20.12.2018 - ed. 2).
 
 Tekst van toepassing vanaf 01.02.2019 (art. 29)) (1)
 
-(…)  (…)
+(…)
 
-----------  ----------
+----------
 
-Nota (1) – Overgangsbepaling:  Note (1) – Disposition transitoire :
+Nota (1) – Overgangsbepaling:
 
 De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in
 
@@ -11074,13 +11126,13 @@ De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in
 
 vanaf hun datums van inwerkingtreding (art. 28).
 
-Artikel 282  Article 282
+###### Artikel 282
 
-(…)  (…)
+(…)
 
-### HOOFDSTUK III - Diverse bepalingen  CHAPITRE III - Dispositions diverses
+### HOOFDSTUK III - Diverse bepalingen
 
-Artikel 283  Article 283
+###### Artikel 283
 
 In de in artikel 160 voorziene gevallen, worden de griffierechten in
 
@@ -11090,7 +11142,7 @@ toepassing zijn op de onder dezelfde voorwaarden vereffende
 
 registratierechten.
 
-Artikel 284  Article 284
+###### Artikel 284
 
 (gewijzigd bij art. 312 van de wet van 27.12.2006 (B.S., 28.12.2006). Tekst
 
@@ -11114,8 +11166,6 @@ werd.
 
 ###### Art. 284. bis
 
-Article 284 bis
-
 (gewijzigd bij art. 312 van de wet van 27.12.2006 (B.S., 28.12.2006). Tekst
 
 van toepassing vanaf 07.01.2007 (art. -))
@@ -11130,7 +11180,7 @@ rechten  alsmede  de  andere  kosten  worden  ingevorderd
 
 overeenkomstig de bepalingen van hetzelfde Wetboek.
 
-Artikel 285  Article 285
+###### Artikel 285
 
 5° van het KB van 13.07.2001 (B.S., 11.08.2001 - ed. 1). Tekst van toepassing
 
@@ -11154,7 +11204,7 @@ kunnen worden bestraft met boeten waarvan het bedrag per inbreuk
 
 250 EUR niet mag te boven gaan.
 
-Artikel 286  Article 286
+###### Artikel 286
 
 (voorlaatste lid vervangen bij art. 37 van de wet van 23.12.1958 (B.S.,
 
@@ -11178,13 +11228,13 @@ ontstaat echter zoals die voor de onder dezelfde voorwaarden
 
 vereffende registratierechten.
 
-Artikel 287  Article 287
+###### Artikel 287
 
 De bepalingen van titel I betreffende de vervolgingen en gedingen en
 
 de moratoire interesten, zijn toepasselijk op de griffierechten.
 
-Artikel 288  Article 288
+###### Artikel 288
 
 De Koning kan wat de rolrechten betreft bij een in Ministerraad
 
@@ -11202,9 +11252,9 @@ bekrachtigd door de wet binnen de 12 maanden volgend op de datum
 
 van hun bekendmaking in het Belgisch Staatsblad .
 
-----------  ----------
+----------
 
-Nota (1) – Overgangsbepaling:  Note (1) – Disposition transitoire :
+Nota (1) – Overgangsbepaling:
 
 De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in
 
@@ -11213,8 +11263,6 @@ De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in
 vanaf hun datums van inwerkingtreding (art. 28).
 
 ###### Art. 288. bis
-
-Article 288 bis
 
 (ingevoegd bij art. 10 van de wet van 14.10.2018 (B.S., 20.12.2018 - ed. 2).
 
@@ -11228,9 +11276,9 @@ bedrag niet minder kan bedragen dan 25 euro en niet hoger mag zijn
 
 dan de helft van het recht bepaald in artikel 269 1 .
 
-----------  ----------
+----------
 
-Nota (1) – Overgangsbepaling:  Note (1) – Disposition transitoire :
+Nota (1) – Overgangsbepaling:
 
 De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in
 
@@ -11238,7 +11286,7 @@ De bepalingen van deze wet zijn van toepassing op de zaken waarvan de in
 
 vanaf hun datums van inwerkingtreding (art. 28).
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 ## TITEL IV - DIGITALISATIE VAN DE RELATIES
 
@@ -11344,11 +11392,9 @@ elektronische transacties in de interne markt en tot intrekking van
 
 zo ook de bewaring van het verzonden bericht garandeert.
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 ###### Art. 288. quater
-
-Article 288 quater
 
 (ingevoegd bij art. 76 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst
 
@@ -11442,11 +11488,9 @@ gesloten omslag worden verstuurd en deze intrekking van
 
 toestemming zal onmiddellijk van kracht worden.
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 ###### Art. 288. quinquies
-
-Article 288 quinquies
 
 (ingevoegd bij art. 77 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst
 
@@ -11474,11 +11518,9 @@ aan een persoon die houder is van een ondernemingsnummer,
 
 verzonden door middel van een beveiligd elektronisch platform.
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 ###### Art. 288. sexies
-
-Article 288 sexies
 
 (ingevoegd bij art. 78 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst
 
@@ -11502,11 +11544,9 @@ staan er verbinding mee te maken, wordt het bericht eveneens onder
 
 gesloten omslag verzonden.
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 ###### Art. 288. septies
-
-Article 288 septies
 
 (ingevoegd bij art. 79 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst
 
@@ -11590,11 +11630,9 @@ registratie-, hypotheek- en griffierechten of in de tot uitvoering ervan
 
 genomen besluiten.
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 ###### Art. 288. octies
-
-Article 288 octies
 
 (ingevoegd bij art. 80 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst
 
@@ -11610,11 +11648,9 @@ beveiligd elektronisch platform of onder gesloten omslag zijn
 
 dezelfde.
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 ###### Art. 288. nonies
-
-Article 288 nonies
 
 (ingevoegd bij art. 81 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst
 
@@ -11644,11 +11680,9 @@ wordt die ondertekening beschouwd als gekwalificeerd in de zin van
 
 van die Verordening.
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 ###### Art. 288. decies
-
-Article 288 decies
 
 (ingevoegd bij art. 82 van de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst
 
@@ -11680,7 +11714,7 @@ GEMEENSCHAPPELIJKE BEPALINGEN VOOR ALLE
 
 toepassing vanaf 01.01.2013 (art. 21))
 
-Artikel 289  Article 289
+###### Artikel 289
 
 (gewijzigd bij art. 3 van de wet van 14.01.2013 (B.S., 31.01.2013 - ed. 2). Tekst
 
@@ -11723,8 +11757,6 @@ verband met gerechtelijke procedures mag evenwel geen inzage of
 afschrift worden verleend zonder uitdrukkelijke toelating van het
 
 openbaar ministerie.
-
-Alinea 1 is niet van toepassing op het Bestuur der postchecks, het
 
 Nationaal Instituut voor de statistiek, noch op de kredietinstellingen.
 
@@ -11780,11 +11812,9 @@ die bijdragen tot de vestiging of de invordering van eender welke,
 
 andere, door de Staat geheven belasting.
 
-TOEKOMSTIG RECHT (vanaf 01.01.2028)  DROIT FUTUR (à partir du 01.01.2028)
+TOEKOMSTIG RECHT (vanaf 01.01.2028)
 
 ###### Art. 289. bis
-
-Article 289 bis
 
 (§   12, lid 3, gewijzigd bij art. 83 van de wet van 12.05.2024 (B.S., 30.05.2024
 
@@ -13622,7 +13652,7 @@ de toepassing van de richtlijn wordt geschorst totdat de
 
 gegevensinbreuk is verholpen.
 
-----------  ----------
+----------
 
 Nota:  Note :
 
@@ -13634,7 +13664,7 @@ Nota:  Note :
 
 - in § 6/1, lid 1, 5°, i): lees ‘rechtspersonen’ ipv. ‘rechtpersonen’.
 
------  -----
+-----
 
 16.03.2026 (B.S., 01.04.2026). Tekst van toepassing vanaf 11.04.2026 (art. -))
 
@@ -15462,7 +15492,7 @@ de toepassing van de richtlijn wordt geschorst totdat de
 
 gegevensinbreuk is verholpen.
 
-----------  ----------
+----------
 
 Nota:  Note :
 
@@ -15475,8 +15505,6 @@ Nota:  Note :
 - in § 6/1, lid 1, 5°, i): lees ‘rechtspersonen’ ipv. ‘rechtpersonen’.
 
 ###### Art. 289. bis /1
-
-Article 289 bis /1
 
 (8°, ingevoegd bij art. 29 van de wet van 16.03.2026 (B.S., 01.04.2026). Tekst
 
@@ -15619,8 +15647,6 @@ intermediair  met  betrekking  tot  een  meldingsplichtige
 grensoverschrijdende constructie.
 
 ###### Art. 289. bis /2
-
-Article 289 bis /2
 
 (ingevoegd bij art. 21 van de wet van 20.12.2019 (B.S., 30.12.2019). Tekst van
 
@@ -15934,7 +15960,7 @@ overdrager of overdragers indien de overdracht niet had
 
 plaatsgevonden.
 
-----------  ----------
+----------
 
 Nota:  Note :
 
@@ -15945,8 +15971,6 @@ bedoelde meldingsplichtige grensoverschrijdende constructies waarvan de
 eerste stap is geïmplementeerd tussen 25 juni 2018 en 01.07.2020. Deze
 
 ###### Art. 289. bis /3
-
-Article 289 bis /3
 
 (ingevoegd bij art. 22 van de wet van 20.12.2019 (B.S., 30.12.2019). Tekst van
 
@@ -16020,8 +16044,6 @@ dat dezelfde inlichtingen in een andere lidstaat zijn verstrekt.
 
 ###### Art. 289. bis /4
 
-Article 289 bis /4
-
 (ingevoegd bij art. 23 van de wet van 20.12.2019 (B.S., 30.12.2019). Tekst van
 
 toepassing vanaf 01.07.2020 (art. 61, lid 1) en overgangsbepaling (art. 61, lid 2))
@@ -16047,8 +16069,6 @@ betrokken intermediairs en aan de relevante belastingplichtige door
 te geven.
 
 ###### Art. 289. bis /5
-
-Article 289 bis /5
 
 (ingevoegd bij art. 24 van de wet van 20.12.2019 (B.S., 30.12.2019). Tekst van
 
@@ -16097,8 +16117,6 @@ dat een andere intermediair de inlichtingen bedoeld in artikel 289 bis ,
 § 6/3, tweede lid, reeds heeft verstrekt.
 
 ###### Art. 289. bis /7
-
-Article 289 bis /7
 
 (§ 1, lid 1, 1°, vernietigd door het arrest 1/2024 van 11.01.2024 van het
 
@@ -16155,8 +16173,6 @@ cliënt is op de hoogte te brengen dat hij niet aan de meldingsplicht kan
 voldoen.
 
 ###### Art. 289. bis /8
-
-Article 289 bis /8
 
 (ingevoegd bij art. 27 van de wet van 20.12.2019 (B.S., 30.12.2019). Tekst van
 
@@ -16248,7 +16264,7 @@ schriftelijk bewijs voorlegt dat dezelfde inlichtingen in een andere
 
 lidstaat zijn verstrekt.
 
-----------  ----------
+----------
 
 Nota:  Note :
 
@@ -16263,8 +16279,6 @@ inlichtingen over die meldingsplichtige grensoverschrijdende constructies worden
 uiterlijk op 31 augustus 2020 meegedeeld (art. 61, lid 2).
 
 ###### Art. 289. bis /9
-
-Article 289 bis /9
 
 (ingevoegd bij art. 28 van de wet van 20.12.2019 (B.S., 30.12.2019). Tekst van
 
@@ -16294,8 +16308,6 @@ bedoeld in artikel 289 bis , § 6/3, reeds heeft verstrekt.
 
 ###### Art. 289. bis /10
 
-Article 289 bis /10
-
 (ingevoegd bij art. 29 van de wet van 20.12.2019 (B.S., 30.12.2019). Tekst van
 
 toepassing vanaf 01.07.2020 (art. 61, lid 1) en overgangsbepaling (art. 61, lid 2))
@@ -16310,7 +16322,7 @@ nader bepaalt, naast het gebruik van één van de officiële landstalen,
 
 ook in het Engels te gebeuren.
 
-----------  ----------
+----------
 
 Nota:  Note :
 
@@ -16332,8 +16344,6 @@ inkomstenbelastingen (art. 1, MB 07.07.2020 (B.S., 14.07.2020)).
 
 ###### Art. 289. bis /11
 
-Article 289 bis /11
-
 (ingevoegd bij art. 30 van de wet van 20.12.2019 (B.S., 30.12.2019). Tekst van
 
 toepassing vanaf 01.07.2020 (art. 61, lid 1) en overgangsbepaling (art. 61, lid 2))
@@ -16344,7 +16354,7 @@ relevante belastingplichtige de verplichtingen opgenomen in de
 
 artikelen 289 bis /1 tot en met 289 bis /9 moeten naleven.
 
-----------  ----------
+----------
 
 Nota:  Note :
 
@@ -16359,8 +16369,6 @@ worden meegedeeld (art. 1) en eveneens het formulier dat door de intermediair of
 inkomstenbelastingen (art. 1, MB 07.07.2020 (B.S., 14.07.2020)).
 
 ###### Art. 289. bis /12
-
-Article 289 bis /12
 
 (gewijzigd bij art. 18 van de wet van 20.12.2024 (B.S., 31.12.2024). Tekst van
 
@@ -16410,8 +16418,6 @@ de sanctie door de bevoegde rechter.
 
 ###### Art. 289. bis /13
 
-Article 289 bis /13
-
 (ingevoegd bij art. 32 van de wet van 20.12.2019 (B.S., 30.12.2019). Tekst van
 
 toepassing vanaf 01.07.2020 (art. 61, lid 1) en overgangsbepaling (art. 61, lid 2))
@@ -16430,8 +16436,6 @@ Belgische bevoegde autoriteit.
 
 ###### Art. 289. ter
 
-Article 289 ter
-
 (ingevoegd bij art. 11 van de wet van 07.02.2021 (B.S., 19.02.2021). Tekst van
 
 toepassing vanaf 01.03.2021 (art. -))
@@ -16443,8 +16447,6 @@ krachtens de bepalingen van dit Wetboek en de uitvoeringsbesluiten
 ervan verschuldigd zijn, andere dan de strafrechtelijke boetes.
 
 ###### Art. 289. quater   (tekst niet in werking getreden)
-
-Article 289 quater (texte n’étant pas entré en vigueur)
 
 (ingevoegd bij art. 81 van de wet van 26.01.2021 (B.S., 10.02.2021). Tekst van
 
@@ -16460,11 +16462,9 @@ de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing vanaf
 
 09.06.2024 (art. -))
 
-(…)  (…)
+(…)
 
 ###### Art. 289. quinquies   (tekst niet in werking getreden)
-
-Article 289 quinquies (texte n’étant pas entré en vigueur)
 
 (ingevoegd bij art. 82 van de wet van 26.01.2021 (B.S., 10.02.2021). Tekst van
 
@@ -16480,11 +16480,9 @@ de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing vanaf
 
 09.06.2024 (art. -))
 
-(…)  (…)
+(…)
 
 ###### Art. 289. sexies
-
-Article 289 sexies (texte n’étant pas entré en vigueur)
 
 vastleggen voor de verschillende bepalingen van deze wet (art. 219, lid 2))
 
@@ -16494,19 +16492,17 @@ de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing vanaf
 
 09.06.2024 (art. -))
 
-(…)  (…)
+(…)
 
 ###### Art. 289. septies
-
-Article 289 septies
 
 (§ 1, opgeheven bij art. 216 van de wet van 12.05.2024 (B.S., 30.05.2024 –
 
 ed. 2). Tekst van toepassing vanaf 09.06.2024 (art. -))
 
-(…) (1)  (…) (1)
+(…) (1)
 
-----------  ----------
+----------
 
 Nota:  Note :
 
@@ -16517,8 +16513,6 @@ nooit in werking is getreden wordt opgeheven bij art. 213 van de wet van
 12.05.2024 (B.S., 30.05.2024 – ed. 2).
 
 ###### Art. 289. octies   (tekst niet in werking getreden)
-
-Article 289 octies (texte n’étant pas entré en vigueur)
 
 (ingevoegd bij art. 85 van de wet van 26.01.2021 (B.S., 10.02.2021). Tekst van
 
@@ -16534,11 +16528,9 @@ de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing vanaf
 
 09.06.2024 (art. -))
 
-(…)  (…)
+(…)
 
 ###### Art. 289. nonies   (tekst niet in werking getreden)
-
-Article 289 nonies (texte n’étant pas entré en vigueur)
 
 (ingevoegd bij art. 86 van de wet van 26.01.2021 (B.S., 10.02.2021). Tekst van
 
@@ -16548,11 +16540,9 @@ inwerkingtreding voorafgaand aan de in het eerste lid vermelde datum
 
 vastleggen voor de verschillende bepalingen van deze wet (art. 219, lid 2))
 
-(…)  (…)
+(…)
 
 ###### Art. 289. decies   (tekst niet in werking getreden)
-
-Article 289 decies (texte n’étant pas entré en vigueur)
 
 (ingevoegd bij art. 87 van de wet van 26.01.2021 (B.S., 10.02.2021). Tekst van
 
@@ -16568,11 +16558,9 @@ de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing vanaf
 
 09.06.2024 (art. -))
 
-(…)  (…)
+(…)
 
 ###### Art. 289. undecies   (tekst niet in werking getreden)
-
-Article 289 undecies (texte n’étant pas entré en vigueur)
 
 (ingevoegd bij art. 88 van de wet van 26.01.2021 (B.S., 10.02.2021). Tekst van
 
@@ -16588,11 +16576,9 @@ de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing vanaf
 
 09.06.2024 (art. -))
 
-(…)  (…)
+(…)
 
 ###### Art. 289. duodecies   (tekst niet in werking getreden)
-
-Article 289 duodecies (texte n’étant pas entré en vigueur)
 
 (ingevoegd bij art. 89 van de wet van 26.01.2021 (B.S., 10.02.2021). Tekst van
 
@@ -16610,8 +16596,6 @@ de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing vanaf
 
 ###### Art. 289. terdecies   (tekst niet in werking getreden)
 
-Article 289 terdecies (texte n’étant pas entré en vigueur)
-
 (ingevoegd bij art. 90 van de wet van 26.01.2021 (B.S., 10.02.2021). Tekst van
 
 toepassing vanaf 01.01.2025 (art. 219, lid 1). De Koning kan een
@@ -16626,11 +16610,11 @@ de wet van 12.05.2024 (B.S., 30.05.2024 – ed. 2). Tekst van toepassing vanaf
 
 09.06.2024 (art. -))
 
-(…)  (…)
+(…)
 
 INTREKKINGSBEPALING  DISPOSITION ABROGATOIRE
 
-Artikel 290  Article 290
+###### Artikel 290
 
 Onder voorbehoud van de bijzondere fiscale bepalingen voortvloeiend
 
@@ -16654,67 +16638,49 @@ registratierechten
 
 ###### Art. 291. (zonder voorwerp geworden)
 
-Article 291 (cette disposition a cessé d’être applicable)
-
-(…)  (…)
+(…)
 
 ###### Art. 292. (niet meer van toepassing)
 
-Article 292 (cette disposition a cessé d’être applicable)
-
 ###### Art. 293. (zonder voorwerp geworden)
 
-Article 293 (cette disposition a cessé d’être applicable)
-
-(…)  (…)
+(…)
 
 ###### Art. 294. (niet meer van toepassing)
 
-Article 294 (cette disposition a cessé d’être applicable)
-
-(…)  (…)
+(…)
 
 ###### Art. 295. (niet meer van toepassing)
 
-Article 295 (cette disposition a cessé d’être applicable)
-
-(…)  (…)
+(…)
 
 ###### Art. 296. (zonder voorwerp geworden)
 
-Article 296 (cette disposition a cessé d’être applicable)
-
-(…)  (…)
+(…)
 
 § 2 - Verkoop van een gebouwd onroerend goed  § 2. Vente d’un immeuble bâti
 
 ###### Art. 297. (niet meer van toepassing)
 
-Article 297 (cette disposition a cessé d’être applicable)
-
-(…)  (…)
+(…)
 
 ###### Art. 298. (zonder voorwerp geworden)
 
-Article 298 (cette disposition a cessé d’être applicable)
-
-(…)  (…)
+(…)
 
 ###### Art. 299. (niet meer van toepassing)
 
-Article 299 (cette disposition a cessé d’être applicable)
+(…)
 
-(…)  (…)
-
-Artikel 300  Article 300
+###### Artikel 300
 
 (opgeheven bij art. 32 van de wet van 12.07.1960 (B.S., 09.11.1960). Tekst
 
 van toepassing vanaf 01.01.1961 (art. 39))
 
-(…)  (…)
+(…)
 
-Artikel 301  Article 301
+###### Artikel 301
 
 (1°, gewijzigd bij art. 5 van de wet van 31.07.2023 (B.S., 23.08.2023). Tekst
 
@@ -16764,7 +16730,7 @@ wettiging van de kinderen wier ouders, ten gevolge van den oorlog,
 
 zich in de onmogelijkheid hebben bevonden een huwelijk aan te gaan.
 
-8° (…)  8° (…)
+8° (…)
 
 tenuitvoerlegging van de wet betreffende de verklaringen van
 
@@ -16786,27 +16752,21 @@ eisbaar op het ogenblik van de indiening van de eis, niet hoger is dan
 
 ###### Art. 301. bis
 
-Article 301 bis
-
 (opgeheven bij art. 72, 1° van de wet van 29.03.1962 (B.S., 12.04.1962). Tekst
 
 van toepassing vanaf 202.04.1962 (art. 77))
 
-(…)  (…)
+(…)
 
 ###### Art. 301. ter
-
-Article 301 ter
 
 (impliciet opgeheven bij art. 2 van de wet van 24.01.1958 (B.S., 14.02.1958).
 
 Tekst van toepassing vanaf 24.02.1958 (art. -))
 
-(…)  (…)
+(…)
 
 ###### Art. 301. quater
-
-Article 301 quater
 
 (ingevoegd bij art. 3 van de wet van 25.05.1951 (B.S., 31.05.1951). Tekst van
 
@@ -16824,11 +16784,9 @@ oog op de huisvesting van de geteisterden door oorlogsfeit werden
 
 gebouwd.
 
-Artikel 302  Article 302
+###### Artikel 302
 
 ###### Art. 302. bis
-
-Article 302 bis
 
 (aangevuld bij art. 9 van de wet van 04.08.1978 (B.S. 17.08.1978). Tekst van
 
@@ -16864,25 +16822,21 @@ economische heroriëntering zijn bedoeld.
 
 ###### Art. 302. ter
 
-Article 302 ter
-
 (opgeheven bij art. 27 van de wet van 30.10.2025 (B.S., 24.11.2025). Tekst
 
 van toepassing vanaf 25.11.2025 (art. 28))
 
-(…)  (…)
+(…)
 
 ###### Art. 302. quater
-
-Article 302 quater
 
 (opgeheven bij art. 15, 1° van de wet van 24.12.1993 (B.S., 31.12.1993 - ed.
 
 2). Tekst van toepassing vanaf 01.01.1994 (art. 26))
 
-(…)  (…)
+(…)
 
-Artikel 303  Article 303
+###### Artikel 303
 
 Worden van hypotheekrecht vrijgesteld:  Sont exemptées du droit d’hypothèque :
 
@@ -16896,7 +16850,7 @@ artikel 301, 1° en 2°, bedoelde leningen en kredietopeningen;
 
 handelaars voor het herstel der oorlogsschade.
 
-Artikel 304  Article 304
+###### Artikel 304
 
 (aangevuld  bij  art.  39  samengeordende  wetten  houdende
 
@@ -16918,162 +16872,160 @@ artikel 301, 10°.
 
 ###### Art. 304. bis
 
-Article 304 bis
-
 (opgeheven bij art. 15, 2° van de wet van 24.12.1993 (B.S., 31.12.1993 - ed.
 
 2). Tekst van toepassing vanaf 01.01.1994 (art. 26))
 
-(…)  (…)
+(…)
 
-Artikel 305  Article 305
+###### Artikel 305
 
 (opgeheven bij art. 213 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
 van toepassing vanaf 01.01.1990 (art. 244))
 
-(…)  (…)
+(…)
 
 van toepassing vanaf 30.09.1967 (art. -))
 
-(…)  (…)
+(…)
 
 OVERGANGSBEPALINGEN  DISPOSITIONS TRANSITOIRES
 
-#### Afdeling I - Algemene maatregelen  Section 1 ère - Mesures générales
+#### Afdeling I - Algemene maatregelen
 
-Artikel 306  Article 306
-
-(opgeheven bij art. 213 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
-
-van toepassing vanaf 01.01.1990 (art. 244))
-
-(…)  (…)
-
-Artikel 307  Article 307
+###### Artikel 306
 
 (opgeheven bij art. 213 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
 van toepassing vanaf 01.01.1990 (art. 244))
 
-(…)  (…)
+(…)
 
-Artikel 308  Article 308
-
-(opgeheven bij art. 213 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
-
-van toepassing vanaf 01.01.1990 (art. 244))
-
-(…)  (…)
-
-Artikel 309  Article 309
+###### Artikel 307
 
 (opgeheven bij art. 213 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
 van toepassing vanaf 01.01.1990 (art. 244))
 
-(…)  (…)
+(…)
+
+###### Artikel 308
 
 (opgeheven bij art. 213 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
 van toepassing vanaf 01.01.1990 (art. 244))
 
-(…)  (…)
+(…)
 
-Artikel 311  Article 311
-
-(opgeheven bij art. 213 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
-
-van toepassing vanaf 01.01.1990 (art. 244))
-
-(…)  (…)
-
-Artikel 312  Article 312
+###### Artikel 309
 
 (opgeheven bij art. 213 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
 van toepassing vanaf 01.01.1990 (art. 244))
 
-(…)  (…)
-
-Artikel 313  Article 313
+(…)
 
 (opgeheven bij art. 213 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
 van toepassing vanaf 01.01.1990 (art. 244))
 
-(…)  (…)
+(…)
 
-Artikel 314  Article 314
+###### Artikel 311
 
 (opgeheven bij art. 213 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
 van toepassing vanaf 01.01.1990 (art. 244))
 
-(…)  (…)
+(…)
 
-#### Afdeling II - Bijzondere maatregelen  Section II - Mesures particulières
+###### Artikel 312
 
-Artikel 315  Article 315
+(opgeheven bij art. 213 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
+
+van toepassing vanaf 01.01.1990 (art. 244))
+
+(…)
+
+###### Artikel 313
+
+(opgeheven bij art. 213 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
+
+van toepassing vanaf 01.01.1990 (art. 244))
+
+(…)
+
+###### Artikel 314
+
+(opgeheven bij art. 213 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
+
+van toepassing vanaf 01.01.1990 (art. 244))
+
+(…)
+
+#### Afdeling II - Bijzondere maatregelen
+
+###### Artikel 315
 
 (opgeheven bij art. 42 van de wet van 19.07.1979 (B.S., 22.08.1979). Tekst
 
 van toepassing vanaf 01.01.1980 (art. 45, § 1, 4°))
 
-(…)  (…)
+(…)
 
-Artikel 316  Article 316
+###### Artikel 316
 
 (opgeheven bij art. 213 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
 van toepassing vanaf 01.01.1990 (art. 244))
 
-(…)  (…)
+(…)
 
 § 2. Burgerlijke en handelsvennootschappen  § 2. Sociétés civiles et commerciales
 
-Artikel 317  Article 317
+###### Artikel 317
 
 (opgeheven bij art. 213 van de wet van 22.12.1989 (B.S., 29.12.1989). Tekst
 
 van toepassing vanaf 01.01.1990 (art. 244))
 
-(…)  (…)
+(…)
 
-Artikel 318  Article 318
+###### Artikel 318
 
 (opgeheven bij art. 19, 2° van de wet van 14.04.1965 (B.S., 24.04.1965). Tekst
 
 van toepassing vanaf 04.05.1965 (art. -))
 
-(…)  (…)
+(…)
 
 BIJBEPALINGEN BETREFFENDE DE MET HET ZEGEL
 
 ##### GELIJKGESTELDE TAKSEN
 
-Artikel 319  Article 319
+###### Artikel 319
 
-(…)  (…)
+(…)
 
-Artikel 320  Article 320
-
-(impliciet opgeheven bij art. 94 van de wet van 03.07.1969 (B.S., 17.07.1969).
-
-Tekst van toepassing vanaf 01.01.1971 (art. 98))
-
-(…)  (…)
-
-Artikel 321  Article 321
+###### Artikel 320
 
 (impliciet opgeheven bij art. 94 van de wet van 03.07.1969 (B.S., 17.07.1969).
 
 Tekst van toepassing vanaf 01.01.1971 (art. 98))
 
-(…)  (…)
+(…)
+
+###### Artikel 321
+
+(impliciet opgeheven bij art. 94 van de wet van 03.07.1969 (B.S., 17.07.1969).
+
+Tekst van toepassing vanaf 01.01.1971 (art. 98))
+
+(…)
 
 INWERKINGTREDING  ENTREE EN VIGUEUR
 
-Artikel 322  Article 322
+###### Artikel 322
 
 Dit besluit treedt in werking op 1 Februari 1940.  Le présent arrêté entrera en vigueur le 1 er février 1940.
