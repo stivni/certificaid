@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Pre-commit hook: draai de test-suite voor we committen.
+#
+# Installeer via: scripts/install-git-hooks.sh
+# Skip eenmalig via: git commit --no-verify
+set -euo pipefail
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
+
+echo "→ pre-commit: pytest -q"
+python3 -m pytest tests/ -q --no-header

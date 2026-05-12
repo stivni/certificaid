@@ -68,8 +68,8 @@ provenance:
 - (a) `layer2.status == "trusted"` — agent heeft inhoudelijk getekend, of
 - (b) `confirmed_by == "human"` — mens heeft Laag 2 expliciet overruled of geskipt.
 
-Anders ⇒ `status = unreviewed`. `tools/etl/promote_staging.py` en
-`tools/etl/mark_trusted.py` enforceren deze regel.
+Anders ⇒ `status = unreviewed`. `tools/etl/mark_trusted.py` enforceert deze
+regel (zowel bij `--apply-from-verdicts` als bij handmatige `--status`-overrides).
 
 **Per artefact-type plek**:
 - Markdown-bronnen: in YAML frontmatter
@@ -79,9 +79,9 @@ Anders ⇒ `status = unreviewed`. `tools/etl/promote_staging.py` en
 
 **Stale-marking**: input-hash verandert → `tools/lib/provenance.py` cascadeert `stale: true` + reden naar alle downstream artefacten. Geen automatische regeneratie (zie ADR-003).
 
-**Trust-marking**: `trust.status` is de operationele output van de kwaliteits-gate (ADR-005 §5). Default `unreviewed` voor alle nieuwe of bestaande bronnen zonder expliciete beoordeling. `tools/etl/promote_staging.py` zet `status: trusted` enkel als Laag 2 `trusted` retourneert (`confirmed_by` wordt dan de agent-naam) of als de mens via `tools/etl/mark_trusted.py --status trusted` een override toepast (`confirmed_by: human`). Laag 1 (deterministische checks) bevestigt nooit trust uit zichzelf — het levert alleen `pass | warn | fail`-data aan `layer1.status`. `tools/rag/rag_index.py` filtert default op `trust.status == "trusted"`.
+**Trust-marking**: `trust.status` is de operationele output van de kwaliteits-gate (ADR-005 §5). Default `unreviewed` voor alle nieuwe of bestaande bronnen zonder expliciete beoordeling. `tools/etl/mark_trusted.py` zet `status: trusted` enkel als Laag 2 `trusted` retourneert (`confirmed_by` wordt dan de agent-naam) — typisch via `mark_trusted.py --apply-from-verdicts <verdicts.json>` — of als de mens via `mark_trusted.py --status trusted --confirmed-by human` een override toepast. Laag 1 (deterministische checks) bevestigt nooit trust uit zichzelf — het levert alleen `pass | warn | fail`-data aan `layer1.status`. `tools/rag/rag_index.py` filtert default op `trust.status == "trusted"`.
 
-**Vervallen onderdelen** (2026-05-11): de v2-auto-trust-flow met `layer1_5_diff` (regressie-diff) en `sample_pick` (mens-steekproef) bleek in praktijk niet bruikbaar. Laag 1.5 was bedoeld als overgangsregressietest tijdens ETL-iteratie en is uit het canonical schema gehaald. De steekproef-flow gaf de illusie van mens-controle zonder daadwerkelijke L2-inhoudelijke beoordeling; ze is vervangen door de strikte regel "trusted ⇔ Laag 2 trusted OR human override". `sample_review.py` blijft als tool bestaan voor ad-hoc inspecties maar speelt geen rol meer in de trust-derivation.
+**Vervallen onderdelen** (2026-05-11 + 2026-05-12): de v2-auto-trust-flow met `layer1_5_diff` (regressie-diff) en `sample_pick` (mens-steekproef) bleek in praktijk niet bruikbaar. Beide zijn uit het canonical schema gehaald — de regressie-zorg wordt nu afgedekt door snapshot-tests rond de extract/cleanup/heading-stappen (zie ADR-005 §5), de steekproef-zorg door de strikte regel "trusted ⇔ Laag 2 trusted OR human override". Bijbehorende scripts (`promote_staging.py`, `diff_review.py`, `sample_review.py`) zijn verwijderd conform de "geen leftovers"-regel (CLAUDE.md §9).
 
 Verband met stale: een ETL-update die een bron hercreëert kan beschouwd worden als reden om de vorige trust-confirmatie te laten vervallen (terug naar `unreviewed`). Die cascade is nog niet geïmplementeerd; voorlopig blijft trust expliciet door `convert.py` of `mark_trusted.py` beheerd.
 

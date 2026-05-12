@@ -1,113 +1,232 @@
 # ADR-005: Bronnen-ETL
 
 **Status**: Draft
-**Datum**: 2026-05-07 (gewijzigd 2026-05-08: §5 kwaliteits-gate uitgewerkt met trust-marker; 2026-05-09: §3 frontmatter `chunk:`-blok + §7 wettekst-hiërarchiedetectie; 2026-05-09 v2: §2 unified conversie-pipeline — patches geschrapt + 1-op-N compilatie + auto-trust workflow met agent-diff-review en sample-tracking)
-**Vervangt**: archive/ADR-014 (oude ETL-pipeline), ADR-008 (bron_rol nu hier ingebed)
+**Datum**: 2026-05-12 (v2)
+**Vervangt**: archive/ADR-014 (oude ETL-pipeline), ADR-008 (`bron_rol` nu hier ingebed)
 
 ## Context
 
-Bronnen komen uit verschillende kanalen (ejustice-PDF's, FOD-PDF's, CBN-website-HTML, BeExcellent-platform, ITAA-publicaties als PDF, IFAC-PDF's voor ISA/ISAE/ISRS) en hebben verschillende structuur (artikelen, secties, krantenkolommen, schema's). Doel: een **uniforme markdown-output** met behoud van structurele headings en tabellen, gestuurd door één configuratiebestand.
+Bronnen voor de Certificaid-kennisbank komen uit ~zes kanalen met elk een eigen formaat:
 
-De vorige iteratie had een proliferatie van type-strings (`ejustice_nl`, `wib92`, `wetboek`, `split`, `skip`, ...) zonder duidelijke schema-discipline. Het ADR-017-extract-schema heeft dat al deels rechtgetrokken — die richting wordt hier voortgezet.
+- ejustice.fgov.be PDFs (Belgische wetteksten in officiële opmaak)
+- fisconetplus PDFs (fiscale wetteksten, andere layout)
+- ejustice/justel HTML
+- EU-richtlijn-PDFs (tweetalige layout met afwijkende even/oneven kolommen)
+- CBN-website HTML (boekhoudkundige adviezen)
+- ITAA-publicaties (PDF normen, gidsen) en IFAC-PDFs (ISA/ISAE/ISRS)
 
-**Tweede pijnpunt** (vastgesteld 2026-05-09): de pipeline groeide tot ~23 ETL-scripts waaronder een reeks post-conversie patch-scripts (`inject_wettekst_headings.py`, `inject_norm_headings.py`, `fix_advies_artefacts.py`, `fix_norm_artefacts.py`, `split-kb-compilatie.py`). Conversie was niet idempotent: `convert.py` schreef ruwe markdown, daarna patchten meerdere scripts erin. Bij elke iteratie raakte de markdown verder af van de raw bron, git-diffs werden onleesbaar, regressies sloop in. Tegelijk: `WBTW-KB-compilatie.md` bevatte 32 KBs in één bestand én er waren 32 derived MDs als kopie — 33 bestanden voor 32 KBs, met split-script als enige link.
-
-Tegelijk: regressies sluipen in. Nieuwe ejustice-snapshots breken de cleanup-pipeline op subtiele manieren (nieuwe paginavoetregel, gewijzigde TOC-format). Een **agent-gebaseerde QA-check** als gate boven op een golden-set vangt die regressies vóór ze de RAG-index bereiken.
+Doel: alle bronnen omzetten naar uniforme markdown met behoud van structurele
+headings, tabellen en bron-traceerbaarheid, gestuurd door één configuratiebestand
+zodat een nieuwe bron geen nieuw script vereist.
 
 ## Beslissing
 
-### 1. Enige bron van waarheid
+### 1. Drie-fasige ETL-pipeline
 
-`resources/source_config.yaml` met per bron:
+```
+raw (PDF/HTML) ── Extract ──► ruwe MD ── Transform ──► interpreteerbare MD ── Load ──► chunks
+```
+
+Strikt gescheiden verantwoordelijkheden:
+
+**Extract** = format-specifiek. Eén concrete extractor per bron-formaat (of subtype),
+optioneel geparametriseerd via abstracte basis-extractors:
+
+- Format → tekst (PDF, HTML)
+- Kolom-detectie (bbox-info uit PDF)
+- Kop-/voettekst strippen (page-positie-afhankelijk)
+- Page-artefacten verwijderen (`\x0c` form-feed, page-numbers)
+- Output: tuple `(body, partial_frontmatter)`:
+  - `body` is markdown met `# Titel` + paragrafen + lijsten + ruwe tabellen.
+    Extract MAG `##/###/...` semantische headings emitteren als die **inherent**
+    in de bron staan (HTML `<h2>`, PDF-bookmarks); ze zijn vrije winst en mogen
+    niet weggegooid worden om in transform her-uitgevonden te worden. Een
+    transformer als `inject_headings_*` skipt-of-aanvult wanneer er al
+    semantische headings zijn.
+  - `partial_frontmatter` is een dict met velden die de extractor zelf kan
+    afleiden uit de raw: `bron_taal` (NL/FR/EN-detectie), `images: [...]`
+    (geëxtraheerde figures), `pdf_bookmarks: [...]` (bron-TOC), `extract_meta:
+    {pages, tables_n, footnotes_n}`. Transform's `emit_frontmatter` mergent dit
+    met de transform-bijdrage (chunk-config) en de pipeline-provenance.
+
+**Transform** = format-agnostisch, werkt op tekst. Een chain van kleine
+transformers, default afhankelijk van de extractor:
+
+- Heading-injectie ("Artikel 5." → `## Artikel 5.`) — bronsoort-specifiek
+- Heading-hiërarchie normaliseren (max 6 niveaus, parent-child invariant)
+- TOC strippen
+- Sentence-merge over line-breaks (incl. hyphenated word-merge)
+- Voetnoot-syntax normaliseren (`[1]` → `[^1]`)
+- Tabellen valideren/repareren
+- Frontmatter emitten (laatste step: chunk-config + provenance)
+
+**Load** = markdown → embedding → ChromaDB. Eén pad voorlopig:
+`tools/rag/rag_index.py` chunkt op `chunk.level`-headings (ADR-006), embedt
+en upsertet naar ChromaDB met stabiele chunk-ids. Een tweede pad
+(bronnen → Quartz HTML) is uitgesteld tot er behoefte aan is.
+
+**Deterministisch herloadbaar — geen tussentijdse manipulatie**
+
+Een bron herinladen = `raw → Extract → Transform → Load`. Nooit beginnen klooien
+op tussentijdse markdowns. Als de output onjuist is, fix je de extractor of een
+transformer en draai je de pipeline opnieuw — de markdown in
+`resources/bronnen/` is een artefact, geen werkbestand.
+
+Gevolgen:
+
+- De **body** + **`provenance:`-blok** van een bron-MD is volledig bepaald door
+  `raw + extractor + extract.params + transform.chain + pipeline_version`
+  (modulo `provenance.generated_at`). Identieke input + identieke pipeline-versie
+  ⇒ identieke output. Geverifieerd door `test_pipeline_is_idempotent_modulo_generated_at`.
+- **`provenance.trust`** is een aparte beoordelings-laag bovenop het
+  deterministische artefact; alleen `qa_bron.py` (Laag 1) en `mark_trusted.py`
+  (Laag 2 + mens-override) muteren dit blok. Body en de andere provenance-velden
+  blijven read-only voor humans.
+- **Bron-verandering reset trust**: als één van `inputs.sha256`,
+  `pipeline_version`, `extractor` of `transform.chain` wijzigt, worden bestaande
+  `layer1`/`layer2`-verdicts gemarkeerd `stale: true` en wordt `trust.status`
+  teruggezet naar `unreviewed`. Zonder uitzondering — ook een eerdere
+  `confirmed_by: human` overleeft een bron-update niet, want de inhoud die de
+  mens beoordeelde is niet meer wat er nu staat. Zie §7 voor de cascade.
+- **Snapshot-tests bouwen op deze garantie**: een snapshot legt vast wat de
+  pipeline produceert; updates gebeuren via `pytest --snapshot-update` na
+  een echte pipeline-wijziging, nooit als reactie op een ad-hoc edit.
+
+### 2. `resources/source_config.yaml` — enige bron van waarheid
+
+Twee top-level blokken: `extractors:` (met per extractor de default transform-chain)
+en `sources:` (de eigenlijke bronnen).
 
 ```yaml
-SourceName:
-  bron_rol: itaa_lex | normatief | interpretatief | praktijkgids | formulier
-  raw: resources/raw/wetteksten/X.pdf  # of source_url voor HTML
-  output: resources/bronnen/wetteksten/X.md
-  tags: [...]
-  status: volledig | toc_only | nieuw
-  extract:
-    method: pdftotext_ejustice | pymupdf4llm | custom_wib92 | custom_wetboek |
-            justel_html | cbn_advies_html | pdftotext_compilatie_btw_kb | handcrafted
-    params: { ... }   # methode-specifiek
+extractors:
+  pdf_ejustice:
+    transform_chain:
+      - merge_hyphens
+      - merge_wrapped_lines
+      - strip_toc
+      - inject_headings_wettekst
+      - organize_headings
+      - normalize_tables
+      - normalize_footnotes
+      - emit_frontmatter
+  html_cbn:
+    transform_chain:
+      - inject_headings_advies          # skip-or-merge als headings al aanwezig
+      - organize_headings
+      - protect_source_typos
+      - emit_frontmatter
+  # ...
+
+sources:
+  WIB92:
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/WIB92.pdf
+    output: resources/bronnen/wetteksten/WIB92.md
+    tags: [...]
+    extract:
+      extractor: custom_wib92            # ref naar extractors:-blok
+      params: { ... }                    # extractor-specifiek
+    # transform_chain: [...]             # optioneel — override default van extractor
 ```
 
-`extract.method: handcrafted` vereist `params.reason` — geen ongedocumenteerde uitzonderingen.
-
-**1-op-N output (compilatie-PDFs)** — als één raw-bestand meerdere zelfstandige
-bronnen bevat (bv. `WBTW-KB-compilatie.pdf` = 32 KB-besluiten in één PDF), wordt
-`output:` vervangen door `splits:`. De convert-pipeline schrijft dan N aparte MDs:
+**Compilatie-bronnen** (één raw-bestand met N zelfstandige bronnen, bv.
+`WBTW-KB-compilatie.pdf` = 32 koninklijke besluiten): de compilatie-extractor
+splitst de raw zelf en schrijft N outputs op basis van een **output-template
+met placeholders**. Geen expliciete `splits:`-lijst per item — de extractor
+detecteert hoeveel er zijn en welke variabelen (nr, korte titel, …) elke split
+oplevert.
 
 ```yaml
-WBTW-KBs:
-  bron_rol: itaa_lex
-  raw: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
-  extract:
-    method: pdftotext_compilatie_btw_kb
-  splits:
-    - kb_id: "1"
-      output: resources/bronnen/wetteksten/WBTW-KB1-voldoening.md
-      wet: "Koninklijk besluit nr. 1 ..."
-    - kb_id: "2"
-      output: resources/bronnen/wetteksten/WBTW-KB2-forfaitaire.md
-      wet: "..."
-    # ...
+sources:
+  WBTW-KBs:
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+    extract:
+      extractor: pdf_compilatie_kb
+      params:
+        inner_extractor: pdf_ejustice
+        output_template: 'resources/bronnen/wetteksten/WBTW-KB{nr}-{slug}.md'
 ```
 
-Bestaande output-namen blijven gehandhaafd voor chunk-id-stabiliteit (ADR-006 §3.1).
-Het oude artefact-paar (compilatie-MD + 32 derived MDs) verdwijnt: één PDF → 32 MDs
-direct, geen split-script, geen `derived_from`-relatie.
+Welke template-variabelen (`{nr}`, `{slug}`, …) beschikbaar zijn, documenteert
+elke compilatie-extractor in zijn docstring. Output-namen blijven stabiel
+omdat ze direct uit raw-content afgeleid worden (chunk-id-stabiliteit,
+ADR-006 §3.1).
 
-### 2. Conversie-pipeline (één atomaire stap, geen patches)
+### 3. Extractors (`tools/etl/extractors/`)
 
-**Principe (vastgesteld 2026-05-09)**: `convert.py` produceert in één aanroep een
-finale markdown die zo de RAG-index in kan. Geen post-processing patch-scripts.
-Functies die voorheen in losse scripts zaten (`inject_wettekst_headings`,
-`inject_norm_headings`, `fix_advies_artefacts`, `fix_norm_artefacts`,
-`split-kb-compilatie`) verhuizen naar `tools/lib/` als bibliotheekmodules en
-worden vanuit `convert.py` aangeroepen.
+**Abstracte basis** (parametriseerbaar):
 
-**Volgorde binnen convert.py**:
+- `base.Extractor` — interface `extract(raw_path, params) -> (body: str, partial_frontmatter: dict)`
+- `pdf_columns.PdfColumnsExtractor` — kolom-aware PDF-leessysteem,
+  parameters: `columns: 1|2`, `even_odd_margins: bool`, `column_split_threshold: float`
+- `pdf_compilatie.PdfCompilatieExtractor` — abstracte basis voor PDF-compilaties
+  (1 raw → N outputs); concrete subclasses (`pdf_compilatie_kb`,
+  `pdf_compilatie_mb`, …) implementeren het bron-specifieke split-patroon en
+  publiceren welke template-variabelen ze leveren
 
-```
-raw bron → extract (per method) → cleanup → heading-injection
-        → frontmatter (incl. chunk-config + provenance) → MD-output
-```
+**Concrete extractors:**
 
-Sub-stappen:
+| Naam | Doel | Basis |
+|---|---|---|
+| `pdf_ejustice` | Belgische ejustice.fgov.be wetteksten | `pdf_columns` (1 kol) |
+| `pdf_wetboek` | Wetboeken via pymupdf met bbox-info | eigen (pymupdf) |
+| `pdf_eu_directive` | EU-richtlijnen (even/oneven marges) | `pdf_columns` (params) |
+| `pdf_staatsblad` | Staatsblad-PDFs | `pdf_columns` |
+| `pdf_compilatie_kb` | WBTW KB-compilatie | `pdf_compilatie` |
+| `html_cbn` | CBN-adviezen HTML | eigen (html.parser) |
+| `html_justel` | Justel HTML | eigen |
+| `pdf_handcrafted` | Bron met `params.reason` — geen scriptbaar patroon | passthrough |
 
-1. **Extract**: per `extract.method` een handler. PDF→tekst (`pdftotext_*`),
-   HTML→markdown (`cbn_advies_html`), 2-koloms NL+FR (`extract_norm_twocolumn`),
-   compilatie-splits (`pdftotext_compilatie_*` schrijft N outputs uit één raw).
+**Output-contract** (gemeenschappelijk voor alle extractors):
 
-2. **Cleanup**: idempotente pipeline
-   `remove_page_artifacts → fix_broken_words → normalize_whitespace →
-    collapse_blank_lines → merge_wrapped_lines → merge_heading_continuations →
-    mark_appendices`. Plus bron-specifieke stappen waar nodig.
-   **Invariant**: cleanup raakt nooit juridische tekst aan — enkel opmaak/metadataruis.
+- Returnt `(body: str, partial_frontmatter: dict)`.
+- `body` is markdown, UTF-8, met `# <bron-titel>` als enige H1, plus paragrafen,
+  lijsten en ruwe tabellen. H2-H6 zijn toegestaan **alleen** wanneer ze inherent
+  uit de bron komen (HTML-heading-tags, PDF-bookmarks); ad-hoc heading-promotie
+  hoort thuis in transform.
+- `body` bevat geen page-artefacten meer (`\x0c`, page-numbers, herhalende
+  headers/footers).
+- `partial_frontmatter` bevat alleen velden die uit raw-content afleidbaar zijn
+  (`bron_taal`, `images`, `pdf_bookmarks`, `extract_meta`). Bron-rol, tags, wet-naam
+  e.d. komen uit `source_config.yaml`; chunk-config en provenance worden in
+  transform/pipeline toegevoegd.
 
-3. **Heading-injection** (wetteksten): hiërarchie-detectie volgens vaste Belgische
-   wettekst-volgorde `DEEL > BOEK > TITEL > HOOFDSTUK > AFDELING > ONDERAFDELING`.
-   Aanwezigheidsdetectie + mapping H2→H6 met conditional flattening (merge-groepen
-   `[DEEL,BOEK]`, `[AFDELING,ONDERAFDELING]`). Voor normen/adviezen: type-specifiek
-   (sectie-headings, bold-titel-promotie, ...).
+Compilatie-extractors (subclasses van `PdfCompilatieExtractor`) leveren in plaats
+van één tuple een sequentie `[(body, partial_frontmatter, template_vars), …]`,
+waar `template_vars` de placeholders (`{nr}`, `{slug}`, …) invullen voor de
+output-padresolutie.
 
-4. **Frontmatter**: schrijft `chunk.level`, `chunk.type`, `chunk.sub_strategy`
-   (per heading-injection bepaald), `bron_rol`, `wet`, `tags`, `provenance`
-   (zie ADR-004), `provenance.trust.status` = `unreviewed` (default).
+### 4. Transformers (`tools/etl/transformers/`)
 
-5. **Output**: schrijft naar **staging**: `data/etl-staging/<bron>.md`.
-   Promotie naar `resources/bronnen/...` gebeurt via een aparte stap (zie §5),
-   na QA-gate. Dit voorkomt dat een halfgare conversie de canonieke MDs
-   overschrijft tijdens iteratie.
+Elke transformer is een pure functie `(body: str, frontmatter: dict) ->
+(body: str, frontmatter: dict)`. Ze worden gechained per extractor — de
+default-chain staat in `source_config.yaml` onder `extractors:` (zie §2),
+override per bron via `transform_chain:` op de source-entry.
 
-**Idempotentie als test**: `convert.py X` tweemaal achter elkaar moet identieke
-output produceren (modulo `provenance.generated_at`). Een unit-test verifieert dit.
+**Catalogus:**
 
-### 3. Output-format
+| Naam | Verantwoordelijkheid |
+|---|---|
+| `merge_hyphens` | `kred-\nietinstellingen` → `kredietinstellingen` |
+| `merge_wrapped_lines` | soft-wrapped paragrafen mergen tot één regel |
+| `strip_toc` | TOC-blok herkennen + verwijderen |
+| `inject_headings_wettekst` | `DEEL/BOEK/TITEL/HOOFDSTUK/AFDELING/ONDERAFDELING/Art.` → `##..######` |
+| `inject_headings_norm` | bold-titel-promotie voor ITAA-normen |
+| `inject_headings_advies` | sectie-detectie voor CBN-adviezen |
+| `organize_headings` | hiërarchie normaliseren (max 6 niveaus, parent-child) |
+| `normalize_tables` | markdown-table-syntax repareren |
+| `normalize_footnotes` | `[1]` / `(1)` → `[^1]` |
+| `protect_source_typos` | annotate "dit is een bron-typo, niet een artefact" |
+| `emit_frontmatter` | **laatste in chain** — schrijft YAML frontmatter (chunk + provenance + bron_rol) |
 
-Markdown met YAML frontmatter:
+**Default-chain per extractor** wordt in `resources/source_config.yaml` onder
+`extractors:` gedeclareerd (zie §2). De pipeline leest die default; een
+source-entry kan met `transform_chain:` een eigen chain forceren wanneer de bron
+afwijkt van zijn extractor-default.
+
+### 5. Output-format
+
 ```yaml
 ---
 titel: "..."
@@ -115,212 +234,218 @@ bron_rol: itaa_lex
 tags: [...]
 chunk:                   # frontmatter-driven chunking (ADR-006 §4)
   level: 5               # MD-niveau waarop chunk-grens ligt
-  type: "Art."           # filter op heading-type bij chunken
-  sub_strategy: null     # opt-in voor sub-artikel chunking (toekomstig)
+  type: "Art."           # filter op heading-type
+  sub_strategy: null
 provenance: { ... }      # zie ADR-004
 ---
+
+# <bron-titel>
+
+## ...
 ```
 
-**Heading-niveaus** (zie ADR-006 §4.1 voor wettekst-detectie):
-- H1 = wet-naam / advies-titel / norm-titel (vast, breadcrumb-root)
-- H2 = hoogste structuurlabel (per wet dynamisch gedetecteerd)
-- H3–H6 = diepere structuurlabels
-- Artikel-headings (`Art.`, `Par.`) op `chunk.level`-niveau
+Heading-niveaus:
+- H1 = wet-naam / advies-titel (vast, breadcrumb-root)
+- H2-H6 = structuurlabels (bronsoort-specifiek, max 6)
+- Artikel/Sectie-headings op `chunk.level`-niveau
 
-Tabellen als markdown-tabellen. Schema's als losse PNG's in `<bron>-img/` (pymupdf4llm).
+Tabellen als markdown-tabellen. Schema's als losse PNGs in `<bron>-img/`
+(via pymupdf-extractie).
 
-### 4. Bron-rollen (5 niveaus)
+### 6. Bron-rollen (5 niveaus)
 
 | Waarde | Autoriteit | Bij examen citeerbaar? |
 |---|---|---|
-| `itaa_lex` | Hoogste — wettekst | ✅ Ja |
+| `itaa_lex` | Hoogste — wettekst in ITAA-LEX | ✅ Ja |
 | `normatief` | Hoog — wettekst buiten ITAA-LEX | ❌ |
-| `interpretatief` | Middel — CBN/ITAA-normen | ❌ |
+| `interpretatief` | Middel — CBN-adviezen, ITAA-normen | ❌ |
 | `praktijkgids` | Laag — toelichtingen, gidsen | ❌ |
 | `formulier` | Referentie — aangifteformulieren | ❌ |
 
 Stuurt confidence (ADR-010) en retrieval-filtering (ADR-006).
 
-### 5. Kwaliteits-gate (Laag 1 + Laag 2 + optionele mens-override)
+### 7. Kwaliteits-gate (Laag 1 + Laag 2 + mens-override + regressie-net)
 
-> **Status 2026-05-11**: vereenvoudigd na praktijkbevinding. De vorige v2-flow met
-> Laag 1.5 (regressie-diff) en mens-steekproef is vervallen. Het canonical schema
-> per bron staat in **ADR-004 §trust:**. Hieronder de operationele werking.
-
-Bij ~580 bronnen is handmatig elk MD-bestand controleren niet realistisch, maar
-blind alles indexeren ondermijnt RAG-precisie. De gate werkt op de **staging-MD**
-uit §2 stap 5 en bestaat uit twee verplichte lagen plus een optionele
-mens-override:
-
-- **Laag 1**: deterministische checks — produceert `layer1.status: pass|warn|fail` data, bevestigt nooit trust.
-- **Laag 2**: agent leest inhoud + Laag-1-rapport, geeft `layer2.status: trusted|needs-rework|rejected`.
-- **Mens-override** (optioneel): `mark_trusted.py --status trusted --confirmed-by human` overruled Laag 2 expliciet.
-
-**Afgeleide regel** (uit ADR-004): `trust.status = trusted` ⇔ `layer2.status = trusted` OR `confirmed_by = human`. Anders ⇒ `unreviewed`.
+Bij ~580 bronnen is handmatig elk MD-bestand controleren niet realistisch. Vier
+mechanismen werken samen op elke bron-MD in `resources/bronnen/<rol-pad>/`:
 
 **Laag 1 — Deterministische checks** (`tools/etl/qa_bron.py`)
 
-Per staging-MD machine-controleerbare criteria:
+Machine-controleerbare criteria, schrijft `provenance.trust.layer1`:
 
-- frontmatter compleet voor bron-rol; provenance-blok valide (inputs+sha256, tooling, generated_at)
-- chunk-config aanwezig (`chunk.level`, `chunk.type`)
-- ≥ N headings op `chunk.level` voor bestand >X chars (anders: degraded chunking)
-- langste sectie tussen `chunk.level`-headings < 24K chars (RAG-bovengrens, ADR-006)
-- geen extractie-artefacten: `\x0c` form feed, `....\d+$` TOC-rest, `Page N of N`,
-  `[A-Z][a-z]+\s{20,}[A-Z]` kolom-bleed, runs van >5 lege regels, OCR-flags
-  (`lAB`, `lBR`, l/I-verwarring op verdachte plekken)
+- Frontmatter compleet voor bron-rol; provenance valide (inputs+sha256, tooling, generated_at)
+- `chunk.level` en `chunk.type` aanwezig
+- ≥ N headings op `chunk.level` voor bestand >X chars
+- Langste sectie tussen `chunk.level`-headings < 24K chars (RAG-bovengrens, ADR-006)
+- Geen extractie-artefacten: `\x0c`, TOC-rest `....\d+$`, `Page N of N`,
+  kolom-bleed, runs van >5 lege regels, OCR-flags (`lAB`, `lBR`, l/I-verwarring)
 
-Output: schrijft naar `provenance.trust.layer1` in de bron-MD (+ legacy JSON-rapport
-in `data/qa/<run-id>.json`). Per bron `pass | warn | fail` met concrete vindplaatsen
-in `flags`.
+Status: `pass | warn | fail`. Bevestigt **nooit** trust uit zichzelf.
 
 **Laag 2 — Inhoudelijke beoordeling** (`tools/etl/qa_subagent_prompt.md`)
 
-Voor wat Laag 1 niet kan beoordelen — leesbaarheid, scrambled-words, verdwenen
-secties, abrupt einde, mismatch naam vs. inhoud. Een Claude Code subagent (Sonnet,
-lokaal) leest de gemarkeerde bronnen plus het Laag-1-rapport en produceert:
+Voor wat Laag 1 niet kan: leesbaarheid, scrambled-words, verdwenen secties,
+abrupt einde, mismatch naam vs. inhoud. Claude Code subagent (Sonnet, lokaal —
+geen API-call uit script, zie CLAUDE.md regel 3) leest bron + Laag-1-rapport en
+schrijft naar `provenance.trust.layer2`:
 
 ```json
 {
-  "bestand": "...",
-  "aanbevolen_status": "trusted | needs-rework | rejected",
+  "status": "trusted | needs-rework | rejected",
+  "agent": "subagent-sonnet-4-6",
   "rationale": "1-3 zinnen onderbouwing",
-  "concrete_problemen": [{"regel": N, "type": "...", "voorbeeld": "..."}],
-  "concrete_sterke_punten": ["..."]
+  "concrete_problemen": [{"regel": N, "type": "...", "voorbeeld": "..."}]
 }
 ```
 
-Heuristiek: conservatief — bij twijfel `needs-rework`, niet `trusted`. Output schrijft
-naar `provenance.trust.layer2` in de bron-MD (`status`, `agent`, `run_at`, `rationale`,
-optioneel `concrete_problemen`).
+Heuristiek: conservatief — bij twijfel `needs-rework`.
 
-**Verdict-combinatie** (`tools/etl/promote_staging.py`):
+**Verdict-toepassing** (`tools/etl/mark_trusted.py --apply-from-verdicts`):
 
-| Laag 1 | Laag 2 | Resultaat |
+| Laag 1 | Laag 2 | trust.status |
 |---|---|---|
-| `pass` of `warn` | `trusted` | promote → `trust.status = trusted`, `confirmed_by = <agent>` |
-| `pass` of `warn` | `needs-rework` of `rejected` | blocked — blijft in staging, `trust.status = needs-rework` resp `rejected` |
-| `fail` | * | blocked — Laag 2 wordt niet eens gedraaid |
+| `pass` of `warn` | `trusted` | `trusted`, `confirmed_by = <agent>` |
+| `pass` of `warn` | `needs-rework` of `rejected` | overgenomen van Laag 2 |
+| `fail` | * | `needs-rework` (Laag 2 hoeft niet te draaien) |
 
-Geen "auto-trust zonder Laag 2" meer. Een bron die enkel `layer1.status: pass` heeft
-en géén `layer2.status: trusted` blijft `unreviewed`.
+**Afgeleide regel** (ADR-004): `trust.status = trusted` ⇔
+`layer2.status == "trusted"` OR `confirmed_by == "human"`. Anders `unreviewed`.
 
-**Mens-override** (`tools/etl/mark_trusted.py`)
+**Mens-override** (`tools/etl/mark_trusted.py --status trusted --confirmed-by human`):
 
-Voor bronnen waar Laag 2 niet praktisch is (bv. legacy bulk, of een bron waar
-de agent het oneens is met de mens), kan de mens expliciet `status: trusted`
-zetten:
+Voor edge-cases (bv. legacy bulk, agent die het oneens is met de mens) zet de
+mens expliciet `status: trusted`. `layer2.status` blijft onaangeroerd. Een
+eerdere `confirmed_by: human` wordt nooit overschreven door een nieuw
+agent-verdict.
 
-```bash
-python tools/etl/mark_trusted.py --bron resources/bronnen/wetteksten/X.md \
-    --status trusted \
-    --confirmed-by human \
-    --rationale "Handmatig geverifieerd 2026-05-11"
-```
-
-Dit zet `confirmed_by: human`, laat `layer2.status: not_run` onaangeroerd, en is
-de enige manier waarop een bron zonder `layer2.status = trusted` toch in de
-RAG-index komt.
-
-**Vier trust-statussen** (zie ADR-004 §"trust:"):
+**Vier trust-statussen**:
 
 | Status | Betekenis | rag_index gedrag |
 |---|---|---|
 | `unreviewed` | Default; nog niet beoordeeld | Geskipt |
 | `trusted` | Bevestigd OK voor RAG | Geïndexeerd |
-| `needs-rework` | Gemarkeerd: ETL-fix nodig | Geskipt |
+| `needs-rework` | ETL-fix nodig | Geskipt |
 | `rejected` | Niet bruikbaar; weglaten | Geskipt |
 
-**Default-state strict**: bij introductie krijgen alle nieuwe bronnen
-`unreviewed`. Niets in de RAG-index tot Laag 2 of een mens-override ze op
-`trusted` zet.
+**Stale-cascade bij bron-verandering**
 
-### 6. Indexering filtert op trust
+Beide QA-lagen krijgen een `stale: true|false` veld in hun blok. Bij elke
+pipeline-run vergelijkt `pipeline.py` `inputs.sha256`, `pipeline_version`,
+`extractor` en `transform.chain` met de waarden in het bestaande trust-blok:
+
+| Wat verandert | Effect op `layer1.stale` | Effect op `layer2.stale` | `trust.status` |
+|---|---|---|---|
+| Niets (re-run met identieke inputs/pipeline) | `false` | `false` | behouden |
+| `inputs.sha256` (raw veranderd) | `true` | `true` | reset naar `unreviewed` |
+| `pipeline_version` | `true` | `true` | reset naar `unreviewed` |
+| `extractor` of `transform.chain` (config) | `true` (deterministische check anders) | `true` (verdict mogelijk niet meer accuraat) | reset naar `unreviewed` |
+
+Géén uitzondering voor `confirmed_by: human` — een mens-override is altijd op
+specifieke inhoud; verandert de inhoud, dan vervalt de override. Re-run van
+Laag 1 is goedkoop en gebeurt automatisch; Laag 2 vereist een nieuwe agent-pass
+maar de oude verdict blijft (`stale: true`) als hint voor de mens of een
+"smart re-QA" die alleen stale verdicts opnieuw beoordeelt.
+
+**Regressie-bescherming via snapshot-testing**:
+
+Elke extractor en transformer heeft test-fixtures + snapshots, beheerd met
+**syrupy** (`pytest-snapshot` is een alternatief; syrupy is gekozen voor het
+leesbare `.ambr`-bestandsformaat dat in git-diffs prima leesbaar is).
+
+- `tests/fixtures/extract/<naam>/` — kleine raw inputs (HTML-fragment, mini-PDF) die elk
+  gekend extract-patroon dekken (kolom-bleed, page-overgang, source-typo, OCR-confusion).
+- `tests/fixtures/transform/<naam>.md` — platte markdown-inputs voor transformer-tests.
+- `tests/__snapshots__/*.ambr` — verwachte outputs (text-format).
+
+**Snel-pad en traag-pad** (verplicht onderscheid):
+
+- **Snel** (`tests/test_pipeline_snapshots.py` e.d.): gebruikt **mocked**
+  extractor-output — een fixed input-string per fixture, zonder echte raw-files
+  te lezen. Milliseconds per fixture. Draait mee in de pre-commit hook.
+- **Traag** (`@pytest.mark.slow`): integratie-tests die de echte raw uit
+  `resources/raw/` lezen en de volledige extractor draaien. Wordt op aanvraag
+  uitgevoerd (`pytest -m slow`), niet in pre-commit.
+
+Bij elke test-run worden actual outputs gediff'd tegen snapshots. Failure ⇒ ofwel
+regressie (fix code) ofwel bedoelde verbetering (`pytest --snapshot-update`).
+
+Verplicht bij elke nieuwe extract/transform-fix: fixture + snapshot die het
+gerepareerde geval vastlegt. Snapshots vervangen het oude "golden-set"-idee —
+fijnmaziger en duidelijker te onderhouden.
+
+Pre-commit hook (`scripts/git-hooks/pre-commit`) draait `pytest -q` (zonder
+`-m slow`) zodat geen commit met rode snel-tests landt.
+
+### 8. Indexering filtert op trust
 
 `tools/rag/rag_index.py` indexeert default alleen bronnen met
-`provenance.trust.status == "trusted"`. Geskipte bronnen worden geteld in de
-run-statistiek met reden. Een `--include-unreviewed` flag bestaat voor
-experimenten maar is niet de productieflow.
+`trust.status == "trusted"`. Geskipte bronnen worden geteld in de
+run-statistiek met reden. `--include-unreviewed` voor experimenten.
 
-Dankzij chunk-id-stabiliteit (ADR-004, ADR-006 §3.1), ChromaDB upsert én de
-chunk-sha-skip (`_batch_upsert` in `rag_index.py`) is het toevoegen van een
-nieuw-trusted bron volledig incrementeel: bestaande chunks behouden hun id én
-worden niet opnieuw geëmbed (de SHA wordt vergeleken vóór de embedding-call),
-nieuwe chunks worden toegevoegd. Conform ADR-004 §"Chunk-id-stabiliteit als
-requirement". Geverifieerd in test (2026-05-08): 16/21 chunks overgeslagen bij
-appenden van een tweede norm aan een collection met 16 bestaande chunks.
+Chunk-id-stabiliteit (ADR-004, ADR-006 §3.1) + ChromaDB upsert + chunk-sha-skip
+maken het toevoegen van een nieuw-trusted bron volledig incrementeel: bestaande
+chunks behouden hun id én worden niet opnieuw geëmbed.
 
-### 7. Wettekst-hiërarchie (samenvatting; detail in §2 stap 3)
+## Output-contract per fase (testbaarheid)
 
-Heading-injectie voor wetteksten gebruikt de **vaste Belgische wettekst-hiërarchie**
-`DEEL > BOEK > TITEL > HOOFDSTUK > AFDELING > ONDERAFDELING`, gevolgd door
-`Art.` als chunk-grens. Aanwezigheidsdetectie + mapping H2→H6, met conditional
-flattening via merge-groepen `[DEEL, BOEK]` en `[AFDELING, ONDERAFDELING]` bij
-overflow. Niet-samenhangende merges (bv. `[TITEL, HOOFDSTUK]`) worden niet
-automatisch gedaan — zo'n bron krijgt een waarschuwing en handmatige beslissing.
+Elke fase produceert een testbaar artefact:
 
-**Conversie-bug-audit** (separate stap, vóór re-conversie):
-`tools/etl/audit_wettekst_toplevels.py` detecteert wetten waar het hoogste
-structuurlabel of het eerste artikel ontbreekt (bv. WVV mist DEEL 1 / BOEK 1
-/ TITEL 1 / Art. 1:1). Aanname: de raw PDF bevat de data; betere `pdftotext`-
-flags of een `justel_html`-fallback lossen het op tijdens re-conversie.
+| Fase | Input | Output | Test-type |
+|---|---|---|---|
+| Extract | `raw/X.pdf` | platte markdown-string | Snapshot per fixture |
+| Transform | platte markdown | interpreteerbare markdown | Snapshot + unit |
+| Load | interpreteerbare markdown | chunks in ChromaDB | Idempotentie-test |
 
-Sub-artikel chunking (definitieblokken, paragrafen) wordt niet als MD-heading
-geforceerd — zie ADR-006 §4.2 (toekomstige opt-in via `chunk.sub_strategy`).
+Dit maakt isolatie van fouten triviaal: een failing snapshot zegt direct of het
+in extract of in transform stuk gaat.
 
 ## Gevolgen
 
-**Nieuwe / herziene scripts** (`tools/etl/`):
+**Modules** (`tools/etl/`):
 
-- `convert.py` — orchestrator van de hele pipeline (extract + cleanup + headings + frontmatter); schrijft naar `data/etl-staging/`
-- `diff_review.py` (nieuw) — Laag 1.5 regressie-diff via Claude Code subagent
-- `promote_staging.py` (nieuw) — promotie van staging naar `resources/bronnen/`, schrijft `provenance.trust`
-- `sample_review.py` (nieuw) — random steekproef-tracking, mtime-detectie, --mark-ok / --mark-not-ok
-- `audit_wettekst_toplevels.py` — bestaand; conversie-bug-audit
-- `qa_bron.py` — Laag 1 deterministische checks (op staging i.p.v. resources)
+- `pipeline.py` — orchestrator: leest config, kiest extractor + chain (uit `source_config.yaml`), past stale-cascade toe, schrijft output
+- `extractors/` — alle extract-modules (zie §3)
+- `transformers/` — alle transform-modules (zie §4); chains zijn config-driven, geen Python-defaults-dict
+- `qa_bron.py` — Laag 1 deterministische checks
 - `qa_subagent_prompt.md` — Laag 2 prompt-template
-- `mark_trusted.py` — bestaande mens-tool (blijft voor handmatige overrides)
-- `backfill_trust_unreviewed.py` — one-off migratie (kan na deze revisie geschrapt)
+- `mark_trusted.py` — trust-derivatie + mens-override
+- `audit_wettekst_toplevels.py` — conversie-bug-audit
 
-**Naar `tools/lib/` verhuisd of geschrapt**:
+**Tests** (`tests/`):
 
-- `tools/lib/cleanup.py` — bestaande cleanup-pipeline blijft als module
-- `tools/lib/headings.py` (nieuw) — wettekst-hiërarchie + heading-injection-logica uit `inject_wettekst_headings.py`
-- `tools/lib/normen_extractie.py` (nieuw) — logica uit `inject_norm_headings.py`, `extract_norm_twocolumn.py`
-- `tools/lib/cbn_advies_html.py` (nieuw) — scraper-logica uit `scrape_cbn_advies.py`
-- `tools/lib/compilatie_split.py` (nieuw) — split-logica uit `split-kb-compilatie.py`
-- `tools/lib/provenance.py` — bestaand; krijgt nieuwe trust-velden (`agent_verdict_at`, `sample_pick`, `sample_reviewed_at`, `sample_reviewed_by`); zie ADR-004
-- **Geschrapt** als losse executables: `inject_wettekst_headings.py`, `inject_norm_headings.py`, `fix_advies_artefacts.py`, `fix_norm_artefacts.py`, `split-kb-compilatie.py`, `scrape_cbn_advies.py` (alleen de CLI; logica blijft in lib), `process_normen.py`, `bulk_refresh_adviezen.py`, `migrate_legacy_to_extract.py`, `add_provenance.py` (functionaliteit ingebouwd in `convert.py`)
+- `tests/test_extractors/test_<naam>.py` — per extractor, snapshot + unit
+- `tests/test_transformers/test_<naam>.py` — per transformer, snapshot + unit
+- `tests/test_pipeline.py` — orchestrator + idempotentie
+- `tests/test_headings.py`, `tests/test_qa_bron_staging.py` — bestaande tests
+- `tests/fixtures/`, `tests/__snapshots__/` — fixture + snapshot data
+- Pre-commit hook draait `pytest -q`
 
 **`source_config.yaml`**:
 
-- Nieuw veld `splits:` voor 1-op-N compilatie (zie §1)
-- Veld `cleanup:` verwijdert (cleanup is altijd default-pipeline; bron-specifieke stappen via `extract.params`)
-- Veld `derived_from:` schrappen voor compilatie-derivaties (worden directe outputs van compilatie-raw)
+- Top-level `extractors:` blok met per extractor de default `transform_chain:`
+- Per source: `extract.extractor` + `extract.params`; optioneel `transform_chain:` voor override
+- Compilaties: `output_template` in `extract.params` (geen aparte `splits:` blok)
 
-**Workflow voor end-to-end re-conversie van alle bronnen**:
+**Workflow voor end-to-end re-conversie**:
 
 ```
-1. python tools/etl/convert.py --all                      → data/etl-staging/*.md
-2. python tools/etl/qa_bron.py --staging                  → data/qa/<run-id>.json
-3. python tools/etl/diff_review.py --staging              → data/qa/<run-id>-diff-verdicts.json
-4. python tools/etl/qa_subagent_prompt.md                 → data/qa/<run-id>-content-verdicts.json
-5. python tools/etl/promote_staging.py --run <run-id>     → resources/bronnen/*.md (auto-trust)
-6. python tools/etl/sample_review.py --run <run-id> --pick 10%  → markeert sample-picks
-7. mens beoordeelt picks in editor
-8. python tools/etl/sample_review.py --status             → toont voortgang
-9. python tools/rag/rag_index.py                          → indexeert trusted bronnen
+1. python tools/etl/pipeline.py --all                   → resources/bronnen/*.md (unreviewed)
+2. python tools/etl/qa_bron.py --all                    → schrijft layer1-blok per bron
+3. Claude Code subagent (Sonnet/Opus, lokaal) via Task-tool
+   met qa_subagent_prompt.md                            → data/qa/<run-id>-verdicts.json
+4. python tools/etl/mark_trusted.py --apply-from-verdicts → trust.status afgeleid
+5. python tools/rag/rag_index.py                        → indexeert trusted bronnen
 ```
 
-**Open punten** (uit migratie en nieuw):
+Geen staging-directory; geen sample-review; mens-override voor edge-cases.
 
-- WVV-conversie-bug oplossen via betere `pdftotext`-flags of `justel_html` (DEEL 1 / BOEK 1 / Art. 1:1 ontbreken)
-- ChromaDB-rebuild draait pas na groene gates + trust-confirmatie op de POC-bronnen
-- `resources/eval/golden/` — kleine handmatig-OK-bevonden set voor end-to-end regressie (lange termijn)
+## Open punten
 
-**Inmiddels opgelost** (sinds vorige draft, 9 mei 2026):
-
-- `justel_html`-handler: ✓ Wet-verzekeringen-2014 (147 artikelen) en KB-voorafgaande-beslissingen-art22-2003 herconverteerd via `c28d063`
-- Oud-BW: ✓ herconverteerd via `convert-oud-bw.py` met `custom_wetboek` (3186 artikelen, 0 plain-text labels)
-- 118 legacy `type:`-bronnen: ✓ allemaal gemigreerd naar `extract:`-schema in `eabdfb0`
-- Tweetalige norm-extractie: ✓ NL-only kolom + soft-wrap merge in `5863ff9`
+- WVV-extractie is stuk (slechts 1 artikel geëxtraheerd terwijl 1866 verwacht);
+  gedetecteerd door `tests/test_headings.py::test_wvv_hierarchie_en_merges` (xfail strict).
+  Fix vereist betere `pdf_wetboek`-extractie of `html_justel`-fallback.
+- EU-richtlijn-PDFs met afwijkende kolom-marges tussen even/oneven pagina's —
+  vereist parameter-uitbreiding in `pdf_columns.PdfColumnsExtractor`.
+- Trust-percentage opvoeren (huidig 51%): patroon-clustering van
+  needs-rework-rationales → gerichte transformer-fixes per cluster.
+- Tweede load-pad (bronnen → Quartz HTML) — uitgesteld tot er een concrete vraag is.
