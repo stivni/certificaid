@@ -47,13 +47,27 @@ SLOW_FIXTURES = [
 
 
 def _strip_provenance(text: str) -> str:
-    """Filter run-afhankelijke velden uit frontmatter."""
-    return re.sub(
+    """Filter run-afhankelijke velden uit frontmatter.
+
+    Strip:
+    - `generated_at`: timestamp van de huidige run
+    - `pipeline_version`: git commit hash, verandert per commit
+    Beide zouden anders bij élke commit alle slow-snapshots roden zonder dat
+    er inhoudelijk iets veranderd is.
+    """
+    text = re.sub(
         r"^\s*generated_at:\s*['\"]?[^'\"\n]+['\"]?\s*$",
         "  generated_at: '<STRIPPED>'",
         text,
         flags=re.MULTILINE,
     )
+    text = re.sub(
+        r"^\s*pipeline_version:\s*['\"]?[^'\"\n]+['\"]?\s*$",
+        "    pipeline_version: '<STRIPPED>'",
+        text,
+        flags=re.MULTILINE,
+    )
+    return text
 
 
 def _raw_exists(source_name: str) -> bool:

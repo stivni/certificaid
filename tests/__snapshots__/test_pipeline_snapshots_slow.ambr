@@ -20,7 +20,7 @@
         version: 24.12.2025
     tooling:
       pipeline: tools/etl/convert.py
-      pipeline_version: 6bc0c13-dirty
+      pipeline_version: '<STRIPPED>'
       model:
       prompt_version:
     generated_at: '<STRIPPED>'
@@ -63,7 +63,7 @@
         version: '2024'
     tooling:
       pipeline: tools/etl/convert.py
-      pipeline_version: 6bc0c13-dirty
+      pipeline_version: '<STRIPPED>'
       model:
       prompt_version:
     generated_at: '<STRIPPED>'
@@ -718,7 +718,7 @@
         version: '2020'
     tooling:
       pipeline: tools/etl/convert.py
-      pipeline_version: 6bc0c13-dirty
+      pipeline_version: '<STRIPPED>'
       model:
       prompt_version:
     generated_at: '<STRIPPED>'
