@@ -29,6 +29,7 @@ from tools.etl.transformers.organize_headings import organize_headings  # noqa: 
 from tools.etl.transformers.emit_frontmatter import emit_frontmatter  # noqa: E402
 from tools.etl.transformers.strip_fisconet_artefacts import strip_fisconet_artefacts  # noqa: E402
 from tools.etl.transformers.fix_stuck_art_number import fix_stuck_art_number  # noqa: E402
+from tools.etl.transformers.split_merged_headings import split_merged_headings  # noqa: E402
 
 
 # ─── apply_chain ─────────────────────────────────────────────────────────────
@@ -558,3 +559,75 @@ class TestFixStuckArtNumber:
     def test_geregistreerd_in_transformers(self):
         """fix_stuck_art_number moet in TRANSFORMERS-registry zitten."""
         assert "fix_stuck_art_number" in TRANSFORMERS
+
+
+# ─── split_merged_headings ────────────────────────────────────────────────────
+
+class TestSplitMergedHeadings:
+    """Splits gemerged hiërarchie-headings op één regel."""
+
+    def test_afdeling_onderafdeling(self):
+        body = "##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 2. Bevoegdheden."
+        result, _ = split_merged_headings(body, {})
+        assert result == (
+            "##### Afdeling 1. Gemeenschappelijke bepalingen.\n"
+            "\n"
+            "###### Onderafdeling 2. Bevoegdheden."
+        )
+
+    def test_deel_boek_uppercase(self):
+        body = "## DEEL 3. De verenigingen en stichtingen. - BOEK 9. VZW."
+        result, _ = split_merged_headings(body, {})
+        assert result == (
+            "## DEEL 3. De verenigingen en stichtingen.\n"
+            "\n"
+            "### BOEK 9. VZW."
+        )
+
+    def test_no_split_when_single_heading(self):
+        """Een enkele heading-regel blijft onveranderd."""
+        body = "##### Afdeling 1. Gemeenschappelijke bepalingen."
+        result, _ = split_merged_headings(body, {})
+        assert result == body
+
+    def test_no_split_in_body_text(self):
+        """Body-regels die toevallig ' - ' bevatten blijven onveranderd."""
+        body = "Dit is body-tekst met - een streep - maar geen heading."
+        result, _ = split_merged_headings(body, {})
+        assert result == body
+
+    def test_multiple_merges_in_body(self):
+        """Twee merge-regels worden allebei gesplitst, andere regels onveranderd."""
+        body = (
+            "# Wet\n"
+            "\n"
+            "## DEEL 1. Algemeen. - BOEK 1. Inleiding.\n"
+            "\n"
+            "Body tekst.\n"
+            "\n"
+            "##### Afdeling 1. Foo. - Onderafdeling 2. Bar.\n"
+        )
+        result, _ = split_merged_headings(body, {})
+        assert "## DEEL 1. Algemeen.\n\n### BOEK 1. Inleiding." in result
+        assert "##### Afdeling 1. Foo.\n\n###### Onderafdeling 2. Bar." in result
+        assert "Body tekst." in result
+
+    def test_idempotent(self):
+        """Tweede call op output verandert niets meer."""
+        body = "##### Afdeling 1. Foo. - Onderafdeling 2. Bar."
+        once, _ = split_merged_headings(body, {})
+        twice, _ = split_merged_headings(once, {})
+        assert once == twice
+
+    def test_deepest_level_does_not_overflow(self):
+        """Een merge op level 6 (max) houdt de tweede heading op level 6."""
+        body = "###### Afdeling 1. Foo. - Onderafdeling 2. Bar."
+        result, _ = split_merged_headings(body, {})
+        # Beide headings op level 6 (geen `#######` — dat is geen geldige markdown)
+        for line in result.split("\n"):
+            if line.startswith("#"):
+                assert line.count("#") <= 6
+
+    def test_geregistreerd_in_transformers(self):
+        """split_merged_headings moet in TRANSFORMERS-registry zitten."""
+        assert "split_merged_headings" in TRANSFORMERS

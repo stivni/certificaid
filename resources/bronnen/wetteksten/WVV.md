@@ -17,35 +17,19 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f9ce762
+    pipeline_version: 48432a9-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T15:58:24Z'
+  generated_at: '2026-05-12T18:23:39Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T16:08:56Z'
-    confirmed_by: subagent-unspecified
-    rationale: 'D2: Boeken 1-7 van het WVV ontbreken volledig — het document begint bij Art. 7:231 (opgeheven) en omvat slechts Boeken 8-18. De kern van het WVV (Boek 2 algemene bepalingen, Boek 3 maatschapsvormen, Boek 4 VOF/CommV, Boek 5 BV, Boek 6 CV, Boek 7 NV) is afwezig. Dit is vermoedelijk een incomplete PDF-extractie. Inhoud van Boeken 8-18 is wel correct gestructureerd (318 artikelen, 511 headings).'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-160243
-      run_at: '2026-05-12T16:02:43Z'
-      heading_count: 511
-      max_section_chars: 7220
-      file_size_chars: 279216
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-unspecified
-      run_at: '2026-05-12T16:08:56Z'
-      rationale: 'D2: Boeken 1-7 van het WVV ontbreken volledig — het document begint bij Art. 7:231 (opgeheven) en omvat slechts Boeken 8-18. De kern van het WVV (Boek 2 algemene bepalingen, Boek 3 maatschapsvormen, Boek 4 VOF/CommV, Boek 5 BV, Boek 6 CV, Boek 7 NV) is afwezig. Dit is vermoedelijk een incomplete PDF-extractie. Inhoud van Boeken 8-18 is wel correct gestructureerd (318 artikelen, 511 headings).'
-      concrete_problemen:
-        - regel: 46
-          categorie: D2
-          type: missing-section
-          voorbeeld: 'Document start: Art. 7:231 — Boeken 1-7 (Art. 1:1 t/m 7:230) volledig afwezig'
 ---
 
 # Wetboek van vennootschappen en verenigingen 23/03/2019
@@ -95,7 +79,9 @@ Een coöperatieve vennootschap wiens voornaamste doel erin bestaat om haar aande
 De ondernemingsrechtbank kan op verzoek van de minister bevoegd voor Economie, het openbaar ministerie of elke belanghebbende de ontbinding uitspreken van een vennootschap die zich voordoet als een erkende coöperatieve vennootschap, hoewel zij niet is erkend.  De ondernemingsrechtbank kan op verzoek van de minister bevoegd voor Economie, het openbaar ministerie of elke belanghebbende de ontbinding uitspreken van een vennootschap die zich voordoet als een coöperatieve vennootschap erkend als sociale onderneming, hoewel zij niet is erkend.  In voorkomend geval kan de rechtbank een termijn aan de vennootschap toestaan om haar toestand te regulariseren.
 
 
-## DEEL 3. De verenigingen en stichtingen. - BOEK 9. VZW.
+## DEEL 3. De verenigingen en stichtingen.
+
+### BOEK 9. VZW.
 
 ### TITEL 1. Algemene bepalingen.
 
@@ -154,13 +140,17 @@ De vereniging is verbonden door de handelingen van het bestuursorgaan, van de da
 #### HOOFDSTUK 2. De algemene vergadering van leden.
 
 
-##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 1. Bevoegdheden.
+##### Afdeling 1. Gemeenschappelijke bepalingen.
+
+###### Onderafdeling 1. Bevoegdheden.
 
 ###### Art. 9:12
 
 Een besluit van de algemene vergadering is vereist voor:  1° de statutenwijziging;  2° de benoeming en de afzetting van de bestuurders en de bepaling van hun bezoldiging ingeval een bezoldiging wordt toegekend;  3° de benoeming en de afzetting van de commissaris en de bepaling van zijn bezoldiging;  4° de kwijting aan de bestuurders en de commissaris, alsook, in voorkomend geval, het instellen van de verenigingsvordering tegen de bestuurders en de commissarissen;  5° de goedkeuring van de jaarrekening en van de begroting;  6° de ontbinding van de vereniging;  7° de uitsluiting van een lid;  8° de omzetting van de VZW in een IVZW, een coöperatieve vennootschap erkend als sociale onderneming of in een erkende coöperatieve vennootschap sociale onderneming;  9° om een inbreng om niet van een algemeenheid te doen of te aanvaarden;  10° alle andere gevallen waarin de wet of de statuten dat vereisen.
 
-##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 2. Bijeenroeping van de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen.
+
+###### Onderafdeling 2. Bijeenroeping van de algemene vergadering.
 
 ###### Art. 9:13
 
@@ -176,7 +166,9 @@ Alle leden, bestuurders en commissarissen worden ten minste vijftien dagen vóó
 
 ----------  ( 1 )<Ingevoegd bij W 2020-12-20/02, art. 36, 005; Inwerkingtreding : 24-12-2020>
 
-##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 3. Deelneming aan de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen.
+
+###### Onderafdeling 3. Deelneming aan de algemene vergadering.
 
 ###### Art. 9:15
 
@@ -192,7 +184,9 @@ Wanneer de algemene vergadering beraadslaagt op grond van een door de commissari
 
 ----------  ( 1 )<Ingevoegd bij W 2020-12-20/02, art. 37, 005; Inwerkingtreding : 24-12-2020>   ( 2 )<W 2020-12-20/02, art. 38, 005; Inwerkingtreding : 24-12-2020; Opheffing : 30-06-2021>
 
-##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 4. Verloop van de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen.
+
+###### Onderafdeling 4. Verloop van de algemene vergadering.
 
 ###### Art. 9:17
 
@@ -246,7 +240,9 @@ De ondernemingsrechtbank kan op verzoek van het openbaar ministerie of van enige
 
 is van overeenkomstige toepassing op giften aan buitenlandse verenigingen.  ----------  ( 1 )<W 2020-04-28/06, art. 183, 002; Inwerkingtreding : 06-05-2020>
 
-## DEEL 3. De verenigingen en stichtingen. - BOEK 10. IVZW.
+## DEEL 3. De verenigingen en stichtingen.
+
+### BOEK 10. IVZW.
 
 ### TITEL 1. Algemene bepalingen.
 
@@ -267,13 +263,17 @@ De oprichtingsakte bevat ten minste de gegevens die vermeld zijn in het in artik
 #### HOOFDSTUK 1. De algemene vergadering van leden.
 
 
-##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 1. Bevoegdheden.
+##### Afdeling 1. Gemeenschappelijke bepalingen.
+
+###### Onderafdeling 1. Bevoegdheden.
 
 ###### Art. 10:5
 
 Een besluit van de algemene vergadering is vereist voor:  1° de benoeming en de afzetting van de commissaris en de bepaling van zijn bezoldiging;  2° de goedkeuring van de jaarrekening;  3° alle andere gevallen waarin de wet of de statuten dat vereisen.
 
-##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 2. Bijeenroeping van de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen.
+
+###### Onderafdeling 2. Bijeenroeping van de algemene vergadering.
 
 ###### Art. 10:6
 
@@ -289,7 +289,9 @@ Onverminderd de in de statuten bepaalde wijze van bijeenroeping, kan, in voorkom
 
 ----------  ( 1 )<Ingevoegd bij W 2020-12-20/02, art. 40, 005; Inwerkingtreding : 24-12-2020>
 
-##### Afdeling 1. Gemeenschappelijke bepalingen. - Onderafdeling 3. Deelneming aan de algemene vergadering.
+##### Afdeling 1. Gemeenschappelijke bepalingen.
+
+###### Onderafdeling 3. Deelneming aan de algemene vergadering.
 
 ###### Art. 10:7
 
@@ -319,7 +321,9 @@ De statuten bepalen de vorm, de samenstelling, de werkwijze en de bevoegdheden v
 
 Met uitzondering van handgiften, behoeft elke gift onder de levenden aan de vereniging waarvan de waarde hoger is dan 100 000 euro een machtiging door de minister van Justitie of zijn vertegenwoordiger.  De gift wordt geacht te zijn gemachtigd indien de minister van Justitie of zijn vertegenwoordiger niet heeft gereageerd binnen een termijn van drie maanden te rekenen van het aan hem gerichte verzoek tot machtiging.  De minister van Justitie bepaalt welke stukken bij het verzoek moeten worden gevoegd.  Ingeval het door de vereniging toegezonden dossier niet volledig is, stelt de minister van Justitie of zijn vertegenwoordiger de vereniging daarvan bij aangetekende brief in kennis, met vermelding van de ontbrekende stukken. De termijn van drie maanden wordt opgeschort met ingang van de datum van die verzending tot aan de toezending van alle gevraagde stukken.  De machtiging kan enkel worden verleend indien de vereniging heeft voldaan aan de bepalingen van artikel 2:10.  Het bedrag bedoeld in het eerste lid kan worden gewijzigd bij een in Ministerraad overlegd koninklijk besluit.
 
-## DEEL 3. De verenigingen en stichtingen. - BOEK 11. Stichtingen.
+## DEEL 3. De verenigingen en stichtingen.
+
+### BOEK 11. Stichtingen.
 
 ### TITEL 1. Algemene bepalingen.
 
@@ -398,7 +402,9 @@ De ondernemingsrechtbank kan op verzoek van het openbaar ministerie of van enige
 is van overeenkomstige toepassing op giften aan buitenlandse stichtingen.  ----------  ( 1 )<W 2020-04-28/06, art. 191, 002; Inwerkingtreding : 06-05-2020>
 
 
-## DEEL 4. Herstructurering en omzetting. - BOEK 12. Herstructurering van vennootschappen.
+## DEEL 4. Herstructurering en omzetting.
+
+### BOEK 12. Herstructurering van vennootschappen.
 
 ### TITEL 1. Inleidende bepalingen en definities.
 
@@ -1072,7 +1078,9 @@ Deze aanvraag kan per gewone post of per e-mail geschieden.  De in het eerste li
 
 ----------  ( 1 )<Ingevoegd bij W 2023-05-25/04, art. 61, 013; Inwerkingtreding : 16-06-2023>
 
-## DEEL 4. Herstructurering en omzetting. - BOEK 13. Herstructurering van verenigingen en stichtingen.
+## DEEL 4. Herstructurering en omzetting.
+
+### BOEK 13. Herstructurering van verenigingen en stichtingen.
 
 ### TITEL 1. De regeling inzake fusies en splitsingen.
 
@@ -1120,7 +1128,9 @@ De nietigheid doet op zichzelf geen afbreuk aan de geldigheid van de verbintenis
 
 ### TITEL 2. Inbreng om niet van algemeenheid of van bedrijfstak.
 
-## DEEL 4. Herstructurering en omzetting. - BOEK 14. Omzetting van vennootschappen, verenigingen en stichtingen.
+## DEEL 4. Herstructurering en omzetting.
+
+### BOEK 14. Omzetting van vennootschappen, verenigingen en stichtingen.
 
 ### TITEL 1. Omzetting van vennootschappen.
 
@@ -1216,7 +1226,9 @@ Wanneer een vennootschap haar [ 1 ...] 1 zetel over de grenzen heen verplaatst, 
 
 ----------  ( 1 )<W 2023-05-25/04, art. 66, 013; Inwerkingtreding : 16-06-2023>
 
-##### Afdeling 1. [ 1 Algemene bepalingen.] 1 - Onderafdeling 2. [ 1 Rechtsgevolgen van grensoverschrijdende omzetting.] 1
+##### Afdeling 1. [ 1 Algemene bepalingen.] 1
+
+###### Onderafdeling 2. [ 1 Rechtsgevolgen van grensoverschrijdende omzetting.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2023-05-25/04, art. 67, 013; Inwerkingtreding : 16-06-2023>
 
@@ -1226,7 +1238,9 @@ Wanneer een vennootschap haar [ 1 ...] 1 zetel over de grenzen heen verplaatst, 
 
 ----------  ( 1 )<Ingevoegd bij W 2023-05-25/04, art. 68, 013; Inwerkingtreding : 16-06-2023>
 
-##### Afdeling 1. [ 1 Algemene bepalingen.] 1 - Onderafdeling 3. [ 1 Nietigheid van de grensoverschrijdende omzetting.] 1
+##### Afdeling 1. [ 1 Algemene bepalingen.] 1
+
+###### Onderafdeling 3. [ 1 Nietigheid van de grensoverschrijdende omzetting.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2023-05-25/04, art. 69, 013; Inwerkingtreding : 16-06-2023>
 
@@ -1237,7 +1251,9 @@ Wanneer een vennootschap haar [ 1 ...] 1 zetel over de grenzen heen verplaatst, 
 ----------  ( 1 )<Ingevoegd bij W 2023-05-25/04, art. 70, 013; Inwerkingtreding : 16-06-2023>
 
 
-##### Afdeling 2. Emigratie. - Onderafdeling 1. Formaliteiten die het besluit tot grensoverschrijdende omzetting voorafgaan.
+##### Afdeling 2. Emigratie.
+
+###### Onderafdeling 1. Formaliteiten die het besluit tot grensoverschrijdende omzetting voorafgaan.
 
 ----------  ( 1 )<W 2023-05-25/04, art. 71, 013; Inwerkingtreding : 16-06-2023>
 
@@ -1412,7 +1428,9 @@ Wanneer een rechtspersoon haar statutaire zetel over de grenzen heen verplaatst,
 De grensoverschrijdende omzetting is niet toegelaten zolang de om te zetten rechtspersoon is onderworpen aan een insolventieprocedure.
 
 
-##### Afdeling 2. Emigratie. - Onderafdeling 1. Formaliteiten die het besluit tot grensoverschrijdende omzetting voorafgaan.
+##### Afdeling 2. Emigratie.
+
+###### Onderafdeling 1. Formaliteiten die het besluit tot grensoverschrijdende omzetting voorafgaan.
 
 ###### Art. 14:54
 
@@ -1436,7 +1454,9 @@ gecertificeerd accountant] 1 , brengt over deze staat verslag uit en vermeldt in
 
 Een kopie van het verslag van het bestuursorgaan en van het verslag van de commissaris of van de bedrijfsrevisor of [ 1 gecertificeerd accountant] 1 , alsook het ontwerp van statutenwijziging, worden meegedeeld aan de leden samen met de oproeping tot de algemene vergadering voor de VZW of de vergadering van het door de statuten aangewezen orgaan voor de IVZW overeenkomstig artikel 2:32.  Iedere schuldeiser die op grond van artikel 14:55 over een verzetsrecht beschikt kan, vanaf de bekendmaking van het omzettingsvoorstel overeenkomstig artikel 14:54 op de zetel van de vereniging kosteloos een kopie van de in het eerste lid bedoelde stukken verkrijgen.  ----------  ( 1 )<W 2023-05-25/04, art. 84, 013; Inwerkingtreding : 16-06-2023>
 
-##### Afdeling 2. Emigratie. - Onderafdeling 2. Besluit tot grensoverschrijdende omzetting.
+##### Afdeling 2. Emigratie.
+
+###### Onderafdeling 2. Besluit tot grensoverschrijdende omzetting.
 
 ###### Art. 14:61
 
@@ -1487,7 +1507,9 @@ Wanneer een rechtspersoon haar statutaire zetel over de grenzen heen verplaatst,
 De grensoverschrijdende omzetting is niet toegelaten zolang de om te zetten rechtspersoon is onderworpen aan een insolventieprocedure.
 
 
-##### Afdeling 2. Emigratie. - Onderafdeling 1. Formaliteiten die het besluit tot grensoverschrijdende omzetting voorafgaan.
+##### Afdeling 2. Emigratie.
+
+###### Onderafdeling 1. Formaliteiten die het besluit tot grensoverschrijdende omzetting voorafgaan.
 
 ###### Art. 14:71
 
@@ -1544,7 +1566,9 @@ De grensoverschrijdende omzetting en de daarmee gepaard gaande statutenwijziging
 De zich omzettende rechtspersoon legt door toedoen van haar bestuursorgaan een staat van activa en passiva neer bij de Nationale Bank van België die haar vermogenstoestand weergeeft op het ogenblik van de omzetting.  Deze neerlegging gebeurt binnen dertig dagen nadat de authentieke omzettingsakte is verleden.  Indien de staat van actief en passief niet werd neergelegd zoals bepaald in het tweede lid, wordt de door derden geleden schade, behoudens tegenbewijs, geacht voort te vloeien uit dit verzuim.  De Koning kan het model van de staat van activa en passiva vaststellen.
 
 
-## DEEL 5. De Europese rechtsvormen. - BOEK 15. De Europese vennootschap.
+## DEEL 5. De Europese rechtsvormen.
+
+### BOEK 15. De Europese vennootschap.
 
 ### TITEL 1. Algemene bepalingen.
 
@@ -1714,7 +1738,9 @@ De onafhankelijke deskundige(n) bedoeld in artikel 66, lid 5, van verordening (E
 
 De strafbepalingen van dit wetboek betreffende de naamloze vennootschap zijn van overeenkomstige toepassing op de SE.
 
-## DEEL 5. De Europese rechtsvormen. - BOEK 16. De Europese coöperatieve vennootschap.
+## DEEL 5. De Europese rechtsvormen.
+
+### BOEK 16. De Europese coöperatieve vennootschap.
 
 ### TITEL 1. Algemene bepalingen.
 
@@ -1876,7 +1902,9 @@ De onafhankelijke deskundige(n) bedoeld in artikel 76, lid 5, van verordening (E
 
 Met geldboete van vijftig euro tot tienduizend euro en bovendien met gevangenisstraf van één maand tot één jaar kunnen worden gestraft:  1° de bestuurders als bedoeld in artikel 2:51 die het bijzonder verslag samen met het verslag van de commissaris of van de bedrijfsrevisor, niet voorleggen zoals voorgeschreven door de artikelen 7:7 en 7:197;  2° de bestuurders als bedoeld in artikel 2:51 die het voorschrift van artikel 7:212 hebben overtreden;  3° zij die als bestuurder zoals bedoeld in artikel 2:51 of commissaris door enig middel op kosten van de vennootschap geldstortingen op de aandelen doen of geldstortingen als gedaan erkennen die niet werkelijk gedaan zijn op de voorgeschreven wijze en tijdstippen;  4° zij die de voorschriften van artikel 4, lid 12, van verordening (EG) nr. 1435/2003 hebben overtreden.
 
-## DEEL 5. De Europese rechtsvormen. - BOEK 17. De Europese politieke partij en de Europese politieke stichting.
+## DEEL 5. De Europese rechtsvormen.
+
+### BOEK 17. De Europese politieke partij en de Europese politieke stichting.
 
 ### TITEL 1. De Europese politieke partij.
 
@@ -1922,7 +1950,9 @@ In geval van verlies van de Europese rechtspersoonlijkheid in toepassing van art
 
 § 1. Uiterlijk twee maanden na de bekendmaking van de buitenlandse zetelverplaatsing, kunnen de schuldeisers van de EUPS die tot zetelverplaatsing overgaat en van wie de vordering vaststaand is vóór die bekendmaking maar nog niet opeisbaar is of die voor deze schuldvordering in rechte of via arbitrage een vordering heeft ingesteld vóór die bekendmaking, niettegenstaande enig andersluidend beding, zekerheid eisen.  De EUPS kan deze eis afweren door de schuldvordering te voldoen tegen haar waarde, na aftrek van het disconto.  Indien geen overeenstemming wordt bereikt of indien de schuldeiser geen voldoening heeft gekregen, wordt het geschil door de meest gerede partij voorgelegd aan de voorzitter van de ondernemingsrechtbank van het rechtsgebied waarbinnen de schuldplichtige EUPS haar zetel heeft. De rechtspleging wordt ingeleid en behandeld in kort geding; hetzelfde geldt voor de tenuitvoerlegging van de gewezen beslissing. Zonder afbreuk te doen aan de grond van de zaak bepaalt de voorzitter de zekerheid die de EUPS moet stellen en de termijn waarbinnen zulks moet geschieden, tenzij hij beslist dat geen zekerheid moet worden gesteld gelet op de waarborgen en de voorrechten waarover de schuldeiser beschikt of gelet op de solvabiliteit van de betrokken EUPS.  Indien de zekerheid niet binnen de bepaalde termijn is gesteld, wordt de schuldvordering onmiddellijk opeisbaar.  § 2. De doorhaling in België van de oude inschrijving ten gevolge van de verplaatsing van de statutaire zetel naar het buitenland wordt in de Bijlagen bij het Belgisch Staatsblad bekendgemaakt.
 
-## DEEL 5. De Europese rechtsvormen. - BOEK 18. Het Europees economisch samenwerkingsverband.
+## DEEL 5. De Europese rechtsvormen.
+
+### BOEK 18. Het Europees economisch samenwerkingsverband.
 
 ### TITEL 1. Algemene bepalingen.
 

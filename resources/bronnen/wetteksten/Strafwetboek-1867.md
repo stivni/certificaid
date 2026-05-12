@@ -1,310 +1,41 @@
 ---
-bijgewerkt: gecoördineerd
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["XII"]
+itaa-lex-sectie: "XII"
+wet: "Strafwetboek 8 juni 1867 (Oud Strafwetboek)"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "gecoördineerd"
+bron: "onbekend"
 chunk:
   level: 6
-  sub_strategy: null
-  type: Art.
-itaa-lex-sectie: XII
+  type: "Art."
+  sub_strategy:
 provenance:
-  generated_at: '2026-05-11T16:34:21Z'
   inputs:
-  - id: resources/raw/wetteksten/Strafwetboek-1867.pdf
-    sha256: 805a6ac039515251f2ed494c8b14b6919e88a655098d4d8030481afcd208848f
-    version: gecoördineerd
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/Strafwetboek-1867.pdf
+      sha256: 805a6ac039515251f2ed494c8b14b6919e88a655098d4d8030481afcd208848f
+      version: gecoördineerd
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version: null
+    pipeline_version: 48432a9-dirty
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T18:24:24Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T16:30:31Z'
-    confirmed_by: subagent-sonnet-4-6
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 658733
-      flags: []
-      heading_count: 1045
-      max_section_chars: 14398
-      run_at: '2026-05-11T13:40:46Z'
-      run_id: 20260511-134044
-      status: pass
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-      - categorie: B1
-        extra: source-typo
-        regel: 103
-        type: other
-        voorbeeld: '###### Art. 7bis (heading zonder body — opgeheven artikel, source-conform)'
-      rationale: 'Laag-1 meldt geen flags (status: pass). Body is inhoudelijk volledig:
-        Boek 1 (Art. 1-100ter) en Boek 2 (Art. 101-566) aanwezig, correct als ######
-        Art. N headings, met wetgevingshistoriek in <W ...>-noten per artikel. Geen
-        kolom-bleed, geen OCR-verwarringen, geen form-feed resten. Wijzigingsnotities
-        zoals <W 2003-01-23/42, art. 89> zijn consistent en opzettelijk onderdeel
-        van de Fisconet-coördinatie. Art. 7bis, 30bis, 34bis, 34quinquies, 37bis,
-        41bis, 50bis, 100ter en andere lege headings (enkel het Art.-nummer, geen
-        body) zijn conformEen een kenmerk van de wetsbron zelf waar de artikelinhoud
-        volledig opgeheven is — dit is source-eigenaardigheid, geen ETL-bug.'
-      run_at: '2026-05-11T16:30:31Z'
-      status: trusted
-    rationale: 'Laag-1 meldt geen flags (status: pass). Body is inhoudelijk volledig:
-      Boek 1 (Art. 1-100ter) en Boek 2 (Art. 101-566) aanwezig, correct als ######
-      Art. N headings, met wetgevingshistoriek in <W ...>-noten per artikel. Geen
-      kolom-bleed, geen OCR-verwarringen, geen form-feed resten. Wijzigingsnotities
-      zoals <W 2003-01-23/42, art. 89> zijn consistent en opzettelijk onderdeel van
-      de Fisconet-coördinatie. Art. 7bis, 30bis, 34bis, 34quinquies, 37bis, 41bis,
-      50bis, 100ter en andere lege headings (enkel het Art.-nummer, geen body) zijn
-      conformEen een kenmerk van de wetsbron zelf waar de artikelinhoud volledig opgeheven
-      is — dit is source-eigenaardigheid, geen ETL-bug.'
-    status: trusted
-status: beschikbaar
-tags:
-- XII
-wet: Strafwetboek 8 juni 1867 (Oud Strafwetboek)
 ---
 
 # Strafwetboek 8 juni 1867 (Oud Strafwetboek)
 
 *Bijgewerkt tot en met gecoördineerd — gecoördineerde versie.*
 
-#### HOOFDSTUK III. - OVERTREDINGEN VAN DE DERDE KLASSE. (Opgeheven)
-
-#### HOOFDSTUK IV. - OVERTREDINGEN VAN DE VIERDE KLASSE. (Opgeheven)
-
-###### Art. 563, 563bis, 564
-
-BEPALINGEN AAN DE VIER VORIGE HOOFDSTUKKEN GEMEEN. (Opgeheven)
-
-## BOEK 1. - DE MISDRIJVEN EN DE BESTRAFFING IN HET ALGEMEEN.
-
-#### HOOFDSTUK I. - MISDRIJVEN.
-
-###### Art. 1
-
-Het misdrijf, naar de wetten strafbaar met een criminele straf, is een misdaad.  Het misdrijf, naar de wetten strafbaar met een correctionele straf, is een wanbedrijf.  Het misdrijf, naar de wetten strafbaar met een politiestraf, is een overtreding.
-
-###### Art. 2
-
-Geen misdrijf kan worden gestraft met straffen die bij de wet niet waren gesteld voordat het misdrijf werd gepleegd.  Indien de straf, ten tijde van het vonnis bepaald, verschilt van die welke ten tijde van het misdrijf was bepaald, wordt de minst zware straf toegepast.
-
-###### Art. 3
-
-Het misdrijf, op het grondgebied van het Rijk door Belgen of door vreemdelingen gepleegd, wordt gestraft overeenkomstig de bepalingen van de Belgische wetten.
-
-###### Art. 4
-
-Het misdrijf, buiten het grondgebied van het Rijk door Belgen of door vreemdelingen gepleegd, wordt in België niet gestraft dan in de gevallen bij de wet bepaald.
-
-###### Art. 5
-
-[ 1 Een rechtspersoon is strafrechtelijk verantwoordelijk voor de misdrijven die hetzij een intrinsiek verband hebben met de verwezenlijking van zijn doel of de waarneming van zijn belangen, of die, zoals blijkt uit de concrete omstandigheden, voor zijn rekening zijn gepleegd.  [ 2 Met rechtspersonen worden gelijkgesteld:  1° maatschappen;  2° vennootschappen in oprichting.] 2
-
-De strafrechtelijke verantwoordelijkheid van de rechtspersonen sluit die van de natuurlijke personen, die daders zijn van dezelfde feiten of eraan hebben deelgenomen, niet uit.] 1
-
-----------  ( 1 )<W 2018-07-11/10, art. 2, 132; Inwerkingtreding : 30-07-2018>   ( 2 )<W 2021-11-28/01, art. 14, 146; Inwerkingtreding : 10-12-2021>
-
-###### Art. 6
-
-De hoven en rechtbanken zullen de bijzondere wetten en verordeningen verder toepassen in alle bij dit wetboek niet geregelde zaken.
-
-#### HOOFDSTUK II. - STRAFFEN.
-
-
-In criminele zaken en in correctionele zaken :  1° Ontzetting van bepaalde politieke en burgerlijke rechten;  2° [ 1 Terbeschikkingstelling van de strafuitvoeringsrechtbank;] 1
-
-In criminele zaken, in correctionele zaken en in politiezaken :  1° Geldboete;  2° Bijzondere verbeurdverklaring.  [ 3 § 2. Bij de keuze van de straf en het bepalen van de strafmaat, streeft de rechter de volgende doelen na:  1° het uiting geven aan de maatschappelijke afkeuring ten aanzien van de overtreding van de strafwet;  2° het bevorderen van het herstel van het maatschappelijk evenwicht en van het herstel van de door het misdrijf veroorzaakte schade;  3° het bevorderen van de maatschappelijke rehabilitatie en re-integratie van de dader;  4° het beschermen van de maatschappij.  Binnen de grenzen van de wet moet de rechter naar een rechtvaardige proportionaliteit tussen het misdrijf en de straf zoeken.  Alvorens een straf uit te spreken, moet de rechter deze doelstellingen in overweging nemen, maar ook de ongewenste neveneffecten van de straf ten aanzien van de rechtstreeks betrokken personen, hun omgeving en de samenleving.  § 3. Voor feiten strafbaar met een maximale gevangenisstraf van zes maanden en indien de rechter overweegt om een effectieve gevangenisstraf op te leggen, legt hij een straf onder elektronisch toezicht, een werkstraf of een autonome probatiestraf op, indien voldaan is aan de voorwaarden bepaald door de artikelen 37ter, 37quinquies en 37octies.  Voor feiten strafbaar met een gevangenisstraf van meer dan zes maanden tot drie jaar en indien de rechter een effectieve gevangenisstraf oplegt, omkleedt hij met redenen waarom de bestraffing niet door een straf onder elektronisch toezicht, een werkstraf of een autonome probatiestraf kan worden bereikt indien voldaan is aan de voorwaarden bepaald door de artikelen 37ter, 37quinquies en 37octies.] 3
-
-----------  ( 1 )<W 2007-04-26/89, art. 2, 069; Inwerkingtreding : 01-01-2012>   ( 2 )<W 2014-04-10/80, art. 2, 111; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016 (zie W 2014-05- 08/55, art. 6, gewijzigd zichzelf bij W 2015-11-23/02, art. 13) gewijzigd in dezelfde zin bij W 2016-02-05/11, art. 48, 114; Inwerkingtreding : 29-02-2016>   ( 3 )<W 2025-07-18/16, art. 2, 163; Inwerkingtreding : 04-08-2025>
-
-##### AFDELING I. - VERSCHILLENDE SOORTEN VAN STRAFFEN.
-###### Art. 7bis
-
-
-in criminele zaken, in correctionele zaken en in politiezaken :  1° geldboete;  2° bijzondere verbeurdverklaring; de bijzondere verbeurdverklaring, bepaald in artikel 42, 1°, uitgesproken ten aanzien van publiekrechtelijke rechtspersonen kan enkel betrekking hebben op goederen die vatbaar zijn voor burgerlijk beslag;  in criminele en correctionele zaken :  1° ontbinding; deze kan niet worden uitgesproken ten aanzien van de publiekrechtelijke rechtspersoon;  2° verbod een werkzaamheid die deel uitmaakt van het maatschappelijk doel te verrichten, met uitzondering van werkzaamheden die behoren tot een opdracht van openbare dienstverlening;  3° sluiting van een of meer inrichtingen, met uitzondering van de inrichtingen waar werkzaamheden worden verricht die behoren tot een opdracht van openbare dienstverlening;  4° bekendmaking of verspreiding van de beslissing.  [ 1 Ten aanzien van de Federale Staat, de gewesten, de gemeenschappen, de provincies, de hulpverleningszones, de prezones, de Brusselse agglomeratie, de gemeenten, de meergemeentezones, de binnengemeentelijke territoriale organen, de Franse Gemeenschapscommissie, de Vlaamse Gemeenschapscommissie, de Gemeenschappelijke Gemeenschapscommissie en de openbare centra voor maatschappelijk welzijn kan enkel, met uitsluiting van elke andere straf, de eenvoudige schuldigverklaring worden uitgesproken.] 1
-
-----------  ( 1 )<W 2018-07-11/10, art. 3, 132; Inwerkingtreding : 30-07-2018>
-
-
-##### AFDELING II. - CRIMINELE STRAFFEN.
-###### Art. 8
-
-<W 1996-07-10/42, art. 5, 018; Inwerkingtreding : 11-08-1996> Opsluiting is levenslang of tijdelijk.
-
-----------  ( 1 )<W 2016-02-05/11, art. 2, 114; Inwerkingtreding : 29-02-2016>
-
-###### Art. 10
-
-<W 1996-07-10/42, art. 7, 018; Inwerkingtreding : 11-08-1996> Hechtenis is levenslang of tijdelijk.
-
-###### Art. 11
-
-<W 1996-07-10/42, art. 8, 018; Inwerkingtreding : 11-08-1996> Tijdelijke hechtenis wordt uitgesproken voor een termijn van :  1° vijf tot tien jaar;  2° tien tot vijftien jaar;  3° vijftien tot twintig jaar;  4° twintig tot dertig jaar.  [ 1 5° dertig tot veertig jaar.] 1
-
-----------  ( 1 )<W 2016-02-05/11, art. 3, 114; Inwerkingtreding : 29-02-2016>
-
-###### Art. 12
-
-<rétabli par L 2006-05-15/35, art. 19; 056; Inwerkingtreding : 16-10-2006> Levenslange opsluiting of levenslange hechtenis wordt niet uitgesproken ten aanzien van een persoon die op het tijdstip van de misdaad de volle leeftijd van achttien jaar nog niet had bereikt.. 21, 018; Inwerkingtreding : 11-08-1996>
-
-###### Art. 13. (Opgeheven) <W 1996-07-10/42, art. 21, 018; Inwerkingtreding : 11-08-1996>
-
-###### Art. 14. (Opgeheven) <W 1996-07-10/42, art. 21, 018; Inwerkingtreding : 11-08-1996>
-
-###### Art. 15. (Opgeheven) <W 18-03-1970, art. 3>
-
-###### Art. 16. (Opgeheven) <W 1996-07-10/42, art. 21, 018; Inwerkingtreding : 11-08-1996>
-
-###### Art. 17. (Opgeheven) <W 1996-07-10/42, art. 21, 018; Inwerkingtreding : 11-08-1996>
-
-###### Art. 18
-
-<W 2003-01-23/42, art. 7, 040; Inwerkingtreding : 13-03-2003> Het arrest houdende veroordeling tot levenslange opsluiting of levenslange hechtenis, tot opsluiting of hechtenis van twintig jaar tot dertig jaar [ 1 of van dertig jaar tot veertig jaar] 1 wordt bij uittreksel gedrukt en aangeplakt in de gemeente waar de misdaad is gepleegd en in die waar het arrest is gewezen.  ----------  ( 1 )<W 2016-02-05/11, art. 4, 114; Inwerkingtreding : 29-02-2016>
-
-###### Art. 19
-
-<W 2003-01-23/42, art. 8, 040; Inwerkingtreding : 13-03-2003> Bij alle arresten van veroordeling tot levenslange opsluiting of levenslange hechtenis, tot tijdelijke opsluiting [ 1 of tot hechtenis van vijftien jaar tot twintig jaar of voor een langere termijn] 1 wordt tegen de veroordeelden de afzetting uitgesproken van de titels, graden, openbare ambten, bedieningen en betrekkingen, waarmee zij bekleed zijn.  Het hof van assisen kan die afzetting uitspreken tegen de veroordeelden tot hechtenis van tien jaar tot vijftien jaar of van vijf jaar tot tien jaar.  ----------  ( 1 )<W 2016-02-05/11, art. 5, 114; Inwerkingtreding : 29-02-2016>
-
-###### Art. 20. (Opgeheven) <W 1996-07-10/42, art. 21, 018; Inwerkingtreding : 11-08-1996>
-
-###### Art. 21
-
-(Opgeheven) <W 2004-11-22/32, art. 2, 049; Inwerkingtreding : 19-12-2004> (NOTA : Bevestigd door <W 2005-01-12/39, art. 169, 050; Inwerkingtreding : 15-01-2007>)
-
-###### Art. 22
-
-(Opgeheven) <W 2004-11-22/32, art. 2, 049; Inwerkingtreding : 19-12-2004> (NOTA : Bevestigd door <W 2005-01-12/39, art. 169, 050; Inwerkingtreding : onbepaald>)
-
-###### Art. 23
-
-(Opgeheven) <W 2004-11-22/32, art. 2, 049; Inwerkingtreding : 19-12-2004> (NOTA : Bevestigd door <W 2005-01-12/39, art. 169, 050; Inwerkingtreding : 15-01-2007>)
-
-###### Art. 24
-
-(Opgeheven) <W 2004-11-22/32, art. 2, 049; Inwerkingtreding : 19-12-2004> (NOTA : Bevestigd door <W 2005-01-12/39, art. 169, 050; Inwerkingtreding : 15-01-2007>)
-
-
-De duur van een dag gevangenisstraf is vierentwintig uren.  De duur van een maand gevangenisstraf is dertig dagen.  ----------  ( 1 )<W 2009-12-21/14, art. 2, 075; Inwerkingtreding : 21-01-2010>   ( 2 )<W 2016-02-05/11, art. 6, 114; Inwerkingtreding : 29-02-2016> (NOTA : bij arrest nr.148/2017 van 21-12- 2017 (B.St. 12-01-2018, p. 1393), heeft het Grondwettelijk Hof het artikel 6 vernietigd). In versie 113 (114-1) van de archieven, kunnnen we het lid 5 vervangen door 3 leden teruglezen : " Hij is ten hoogste twintig jaar voor een met opsluiting van twintig jaar tot dertig jaar of met levenslange opsluiting strafbare misdaad die gecorrectionaliseerd is. "
-
-##### AFDELING III. - CORRECTIONELE GEVANGENISSTRAF.
-###### Art. 26. (Opgeheven) <W 1996-07-10/42, art. 21, 018; Inwerkingtreding : 11-08-1996>
-
-###### Art. 27. (Opgeheven) <W 18-03-1970, art. 3>
-
-
-##### AFDELING IV. - POLITIEGEVANGENISSTRAF.
-###### Art. 28
-
-De gevangenisstraf wegens overtreding mag niet minder zijn dan een dag en niet meer dan zeven dagen, behoudens de bij de wet uitgezonderde gevallen.
-
-###### Art. 29. (Opgeheven) <W 1996-07-10/42, art. 21, 018; Inwerkingtreding : 11-08-1996>
-
-(BEPALINGEN AAN DE AFDELINGEN II, III EN IV GEMEEN). <W 18-03-1970, art. 1>
-
-###### Art. 30
-
-Elke hechtenis, vóór het onherroepelijk worden van de veroordeling ondergaan ten gevolge van het misdrijf [ 1 , met uitzondering van de veroordeling tot een eenvoudige schuldigverklaring, wordt toegerekend op de duur van de nog lopende vrijheidsstraffen] 1 .  (Iedere voorlopige plaatsingsmaatregel in een gesloten opvoedingsafdeling als bedoeld in artikel 52quater van de wet van 8 april 1965 betreffende de jeugdbescherming, het ten laste nemen van minderjarigen die een als misdrijf omschreven feit hebben gepleegd en het herstel van de door dit feit veroorzaakte schade of in de wet van 1 maart 2002 betreffende de voorlopige plaatsing van minderjarigen die een als misdrijf omschreven feit hebben gepleegd, wordt onder dezelfde voorwaarde toegerekend op de duur van de vrijheidsstraffen waartoe de persoon, verwezen overeenkomstig artikel 57bis van de voornoemde wet van 8 april 1965, is veroordeeld.) <W 2006-05-15/35, art. 20, 056; Inwerkingtreding : 01-10-2007>  ----------  ( 1 )<W 2016-12-25/14, art. 31, 121; Inwerkingtreding : 09-01-2017>
-
-###### Art. 30bis
-
-
-###### Art. 30ter
-
-(Oud artikel 30bis) (Opgeheven) <W 2005-01-12/39, art. 169, 050; Inwerkingtreding : 15-01-2007>
-
-
-##### AFDELING V. - STRAFFEN AAN MISDADEN EN WANBEDRIJVEN GEMEEN. - Onderafdeling I. - (Straffen aan misdaden en wanbedrijven gemeen, toepasselijk op natuurlijke personen). <Ingevoegd bij W 1999-05-04/60, art. 5; Inwerkingtreding : 02-07-1999>
-
-----------  ( 1 )<W 2009-04-14/01, art. 2, 073; Inwerkingtreding : 15-04-2009>   ( 2 )<W 2013-03-17/14, art. 150, 101; Inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>   ( 3 )<W 2016-02-05/11, art. 7, 114; Inwerkingtreding : 29-02-2016>
-
-###### Art. 32
-
-[ 1 De hoven en rechtbanken kunnen de veroordeelden tot opsluiting van vijf tot minder dan tien jaar, tot tijdelijke hechtenis of tot gevangenisstraf van tien tot minder dan twintig jaar, voor hun leven of voor tien jaar tot twintig jaar, geheel of ten dele ontzetten van de uitoefening van de rechten bedoeld in artikel 31.] 1
-
-----------  ( 1 )<W 2016-02-05/11, art. 8, 114; Inwerkingtreding : 29-02-2016>
-
-###### Art. 33
-
-[ 2 Onder voorbehoud van de toepassing van de artikelen 31 en 32 kunnen de hoven en rechtbanken] 2 , in de gevallen bij de wet bepaald, de tot correctionele straffen veroordeelden voor een termijn van vijf jaar tot tien jaar, geheel of ten dele ontzetten van de uitoefening van de rechten genoemd in [ 1 artikel 31, eerste lid] 1 .  [ 3 Zij kunnen dezelfde ontzetting voor dezelfde duur uitspreken tegen de schuldigen wier criminele straf verminderd is tot een gevangenisstraf van minder dan tien jaar.] 3
-
-----------  ( 1 )<W 2009-04-14/01, art. 4, 073; Inwerkingtreding : 15-04-2009>   ( 2 )<W 2016-02-05/11, art. 9, 114; Inwerkingtreding : 29-02-2016>   ( 3 )<W 2017-07-06/24, art. 208, 124; Inwerkingtreding : 24-07-2017>
-
-###### Art. 33bis
-
-[ 1 [ 2 Onder voorbehoud van de toepassing van de artikelen 31 en 32 zullen de hoven en rechtbanken] 2 de tot correctionele straffen veroordeelden kunnen ontzetten van de uitoefening van het recht bedoeld in artikel 31, tweede lid, voor een termijn van vijf jaar tot tien jaar.] 1
-
-----------  ( 1 )<Ingevoegd bij W 2009-04-14/01, art. 5, 073; Inwerkingtreding : 15-04-2009>   ( 2 )<W 2016-02-05/11, art. 10, 114; Inwerkingtreding : 29-02-2016>
-
-###### Art. 34
-
-De tijd van de ontzetting, bij het vonnis of het arrest van veroordeling bepaald, gaat in op de dag dat de veroordeelde zijn straf heeft ondergaan of dat zijn straf verjaard is.  Bovendien heeft de ontzetting haar gevolgen met ingang van de dag waarop de op tegenspraak of bij verstek gewezen veroordeling onherroepelijk is geworden.  (De ontzetting die is uitgesproken ten aanzien van een veroordeelde die overeenkomstig de wet van 29 juni 1964 betreffende de opschorting, het uitstel en de probatie voor de tenuitvoerlegging van zijn straf volledig of gedeeltelijk uitstel heeft verkregen, gaat in op de dag waarop het uitstel begint te lopen zolang dat niet wordt herroepen.) <W 2003-12-22/42, art. 380, 047; Inwerkingtreding : 10-01-2004, is vanaf zijn inwerkingtreding van toepassing, ook voor de veroordeelde personen die uitstel genieten of genoten hebben>
-
-##### AFDELING V. - STRAFFEN AAN MISDADEN EN WANBEDRIJVEN GEMEEN. - Onderafdeling Ibis. - De terbeschikkingstelling van de strafuitvoeringsrechtbank <Ingevoegd bij W 2007-04- 26/89, art. 3; Inwerkingtreding : 01-01-2012>
-
-###### Art. 34bis
-
-
-###### Art. 34quater
-
-
-----------  ( 1 )<W 2011-11-30/28, art. 1, 083; Inwerkingtreding : 30-01-2012>   ( 2 )<W 2014-04-25/23, art. 33, 104; Inwerkingtreding : 24-05-2014>   ( 3 )<W 2014-04-25/23, art. 58, 104; Inwerkingtreding : 24-05-2014>   ( 4 )<W 2016-02-01/09, art. 6, 115; Inwerkingtreding : 29-02-2016>   ( 5 )<W 2019-05-05/10, art. 65, 137; Inwerkingtreding : 03-06-2019>   ( 6 )<W 2020-05-04/16, art. 3, 142; Inwerkingtreding : 01-07-2020>   ( 7 )<W 2022-03-21/01, art. 85, 148; Inwerkingtreding : 01-06-2022>
-
-###### Art. 34quinquies
-
-
-----------  ( 1 )<W 2014-04-25/23, art. 59, 104; Inwerkingtreding : 24-05-2014>
-
-##### AFDELING V. - STRAFFEN AAN MISDADEN EN WANBEDRIJVEN GEMEEN. - Onderafdeling II. - (Staffen aan misdaden en wanbedrijven gemeen, toepasselijk op rechtspersonen). <Ingevoegd bij W 1999-05-04/60, art. 6; Inwerkingtreding : 02-07-1999>
-
-###### Art. 35
-
-<W 1999-05-04/60, art. 6, 024; Inwerkingtreding : 02-07-1999> Ontbinding kan door de rechter worden uitgesproken, wanneer de rechtspersoon opzettelijk is opgericht om de strafbare werkzaamheden te verrichten waarvoor hij wordt veroordeeld of wanneer hij opzettelijk van zijn doel is afgewend om dergelijke werkzaamheden te verrichten.  Wanneer de rechter de ontbinding uitspreekt, verwijst hij de zaak naar het gerecht dat bevoegd is kennis te nemen van de vereffening van de rechtspersoon.
-
-###### Art. 36
-
-<W 1999-05-04/60, art. 6, 024; Inwerkingtreding : 02-07-1999> Tijdelijk of definitief verbod een werkzaamheid te verrichten die deel uitmaakt van het maatschappelijk doel van de rechtspersoon, kan door de rechter worden uitgesproken in de gevallen door de wet bepaald.
-
-###### Art. 37
-
-<W 1999-05-04/60, art. 6, 024; Inwerkingtreding : 02-07-1999> Tijdelijke of definitieve sluiting van een of meer inrichtingen van de rechtspersoon kan door de rechter worden uitgesproken in de gevallen door de wet bepaald.
-
-###### Art. 37bis
-
-
-
-##### AFDELING Vbis. ([ 2 oude afdeling Vter hernummerd tot nieuwe afdeling Vbis] 2 ) [ 1 - De straf onder elektronisch toezicht] 1
-###### Art. 37ter
-
-[ 1 § 1. Indien een feit van die aard is om gestraft te worden met een gevangenisstraf van ten hoogste een jaar, kan de rechter als hoofdstraf een straf onder elektronisch toezicht opleggen van dezelfde duur als de gevangenisstraf die hij anders zou opleggen en die van toepassing kan worden ingeval de straf onder elektronisch toezicht niet wordt uitgevoerd. Voor de bepaling van de duur van deze vervangende gevangenisstraf staat een dag van de opgelegde straf onder elektronisch toezicht gelijk aan een dag gevangenisstraf.  Een straf onder elektronisch toezicht bestaat uit de verplichting om gedurende een door de rechter overeenkomstig paragraaf 2 bepaalde termijn aanwezig te zijn op een bepaald adres, behoudens toegestane verplaatsingen of afwezigheden, waarbij onder meer gebruik wordt gemaakt van elektronische middelen om dit te controleren, en waaraan overeenkomstig paragraaf 5 voorwaarden worden gekoppeld.  De straf onder elektronisch toezicht mag niet worden uitgesproken voor de feiten die :  1° bedoeld zijn [ 2 in de artikelen 417/12 tot 417/22] 2 ,  2° bedoeld zijn [ 2 in de artikelen 417/25 tot 417/41, 417/44 tot 417/47, 417/52 en 417/54] 2 , indien de feiten zijn gepleegd op of met behulp van minderjarigen;  3° bedoeld zijn in de artikelen 393 tot 397.  § 2. De duur van de straf onder elektronisch toezicht bedraagt minstens een maand en ten hoogste een jaar. De strafrechter kan overeenkomstig artikel 85 rekening houden met verzachtende omstandigheden, zonder evenwel de duur van het elektronisch toezicht als autonome straf te bepalen op minder dan één maand.  De straf onder elektronisch toezicht moet een aanvang nemen binnen zes maanden na de dag waarop de rechterlijke beslissing in kracht van gewijsde is gegaan. Indien de overschrijding van deze termijn te wijten is aan de veroordeelde, beslist het openbaar ministerie ofwel tot verder uitstel van de uitvoering van de straf onder elektronisch toezicht ofwel tot uitvoering van de vervangende gevangenisstraf. Indien de overschrijding van deze termijn niet te wijten is aan de veroordeelde, moet de straf een aanvang nemen binnen zes maanden na de afloop van de eerste termijn, bij gebreke daarvan is de straf verjaard.  § 3. Met het oog op het opleggen van een straf onder elektronisch toezicht, kunnen respectievelijk het openbaar ministerie, de onderzoeksrechter, de onderzoeksgerechten of de vonnisgerechten aan de bevoegde dienst voor de organisatie en de controle van het elektronisch toezicht, hierna "de bevoegde dienst voor het elektronisch toezicht" genoemd, van het gerechtelijk arrondissement van de verblijfplaats van de inverdenkinggestelde, de beklaagde of de veroordeelde de opdracht geven een beknopt voorlichtingsrapport en/of een maatschappelijke enquête uit te voeren.  Dit rapport of dit onderzoek bevat alleen de pertinente elementen die van aard zijn de overheid die het verzoek tot de bevoegde dienst voor het elektronisch toezicht richtte in te lichten over de opportuniteit van de overwogen straf.  Iedere meerderjarige waarmee de beklaagde samenwoont wordt in het kader van deze maatschappelijke enquête gehoord in zijn opmerkingen. Het beknopt voorlichtingsrapport of het verslag van de maatschappelijke enquête wordt binnen de maand na de aanvraag aan het dossier toegevoegd.  § 4. Indien een straf onder elektronisch toezicht door de rechter wordt overwogen, door het openbaar ministerie wordt gevorderd of door de beklaagde wordt gevraagd, licht de rechter deze laatste vóór de sluiting van de debatten in over de draagwijdte van een dergelijke straf, de eventuele aanwijzingen over de concrete invulling die hij kan geven en de geïndividualiseerde voorwaarden die hij overeenkomstig paragraaf 5 kan opleggen en hoort hem in zijn opmerkingen. De rechter kan hierbij eveneens rekening houden met de belangen van de eventuele slachtoffers. De rechter kan de straf onder elektronisch toezicht slechts uitspreken als de beklaagde op de terechtzitting aanwezig is of vertegenwoordigd is en nadat hij, hetzij in persoon, hetzij via zijn raadsman, zijn instemming heeft gegeven. Iedere meerderjarige samenwonende van de beklaagde die in het kader van de maatschappelijke enquête niet is gehoord, of in het geval geen maatschappelijke enquête is verricht, kan door de rechter worden gehoord in zijn opmerkingen.  De rechter die weigert een door het openbaar ministerie gevorderde of door de beklaagde gevraagde straf onder elektronisch toezicht uit te spreken, moet zijn beslissing met redenen omkleden.  § 5. De rechter bepaalt de duur van de straf onder elektronisch toezicht en kan aanwijzingen geven omtrent de concrete invulling ervan.  Aan de straf onder elektronisch toezicht worden steeds de volgende algemene voorwaarden verbonden :  1° geen strafbare feiten plegen;  2° een vast adres hebben en, bij wijziging ervan, de nieuwe verblijfplaats onmiddellijk meedelen aan het openbaar ministerie en de bevoegde dienst voor het elektronisch toezicht;  3° gevolg geven aan de oproepingen van de bevoegde dienst voor het elektronisch toezicht en de concrete invulling bepaald door deze dienst naleven.  De rechter kan de veroordeelde bovendien aan geïndividualiseerde bijzondere voorwaarden onderwerpen in het belang van het slachtoffer. Deze voorwaarden hebben betrekking op het verbod om op bepaalde plaatsen te komen of met het slachtoffer contact op te nemen en/of op diens vergoeding.] 1
-
-----------  ( 1 )<Ingevoegd bij W 2014-02-07/15, art. 8, 110; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016, art. 8 gewijzigd bij W 2016-02-05/11, art. 45, 114>
-
-
-##### AFDELING Vter. - ([ 1 de oude afdeling Vbis vernummerd tot een nieuwe afdeling Vter] 1 ) DE WERKSTRAF <Ingevoegd bijW 2002-04-17/33, art. 3; Inwerkingtreding : 07-05-2002>  ----------  ( 1 )<W 2014-02-07/15, art. 9, 110; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016>
-###### Art. 37quinquies
-
-([ 1 oud art. 37ter vernummerd tot nieuw art. 37quinquies] 1 ) <Ingevoegd bij W 2002-04- 17/33, art. 3; Inwerkingtreding : 07-05-2002> § 1. Indien een feit van die aard is om door een politiestraf of een correctionele straf gestraft te worden, kan de rechter als hoofdstraf een werkstraf opleggen. Binnen de perken van de op het misdrijf gestelde straffen, alsook van de wet op grond waarvan de zaak voor hem werd gebracht, voorziet de rechter in een gevangenisstraf of in een geldboete die van toepassing kan worden ingeval de werkstraf niet wordt uitgevoerd.  [ 3 De werkstraf mag niet worden uitgesproken voor de feiten :  1° die strafbaar zouden zijn met een maximumstraf van meer dan twintig jaar opsluiting als ze niet in wanbedrijven werden omgezet;  2° die bedoeld zijn [ 5 in de artikelen 417/12 tot 417/22] 5 ;  3° die bedoeld zijn [ 5 in de artikelen 417/25 tot 417/41, 417/44 tot 417/47, 417/52 en 417/54] 5 , indien de feiten zijn gepleegd op of met behulp van minderjarigen;  4° die bedoeld zijn in de artikelen 393 tot 397.] 3
-
-§ 2. De duur van een werkstraf bedraagt minstens twintig uren en ten hoogste driehonderd uren. Een werkstraf van vijfenveertig uren of minder is een politiestraf. Een werkstraf van meer dan vijfenveertig uren is een correctionele straf.  De werkstraf moet worden uitgevoerd binnen twaalf maanden na de dag waarop de rechterlijke beslissing in kracht van gewijsde is gegaan. De probatiecommissie kan die termijn ambtshalve of op verzoek van de veroordeelde verlengen.  § 3. Indien een werkstraf door de rechter wordt overwogen, door het openbaar ministerie wordt gevorderd of door de beklaagde wordt gevraagd, licht de rechter deze laatste vóór de sluiting van de debatten in over de draagwijdte van een dergelijke straf en hoort hem in zijn opmerkingen. De rechter kan hierbij eveneens rekening houden met de belangen van de eventuele slachtoffers. De rechter kan de werkstraf slechts uitspreken als de beklaagde op de terechtzitting aanwezig of vertegenwoordigd is en nadat hij, hetzij in persoon, hetzij via zijn raadsman, zijn instemming heeft gegeven.  [ 2 De rechter die weigert een door het openbaar ministerie gevorderde of door de beklaagde gevraagde werkstraf uit te spreken, moet zijn beslissing met redenen omkleden.] 2
-
-§ 4. De rechter bepaalt de duur van de werkstraf en kan aanwijzingen geven omtrent de concrete invulling van de werkstraf.  [ 4 Bij veroordeling op grond van de strafrechtelijke bepalingen van de wetten van 30 juli 1981 tot bestraffing van bepaalde door racisme of xenophobie ingegeven daden, van 23 maart 1995 tot bestraffing van het ontkennen, minimaliseren, rechtvaardigen of goedkeuren van de genocide die tijdens de tweede wereldoorlog door het Duitse nationaal-socialistische regime is gepleegd, van 10 mei 2007 ter bestrijding van bepaalde vormen van discriminatie, van 10 mei 2007 ter bestrijding van discriminatie tussen vrouwen en mannen en van 22 mei 2014 ter bestrijding van seksisme in de openbare ruimte en tot aanpassing van de wet van 10 mei 2007 ter bestrijding van discriminatie tussen vrouwen en mannen teneinde de daad van discriminatie te bestraffen, kan de rechter aanwijzingen geven opdat de invulling van de werkstraf in verband zou staan met, respectievelijk, de strijd tegen het racisme of de xenofobie, de discriminatie, het seksisme en het negationisme, ter inperking van het risico op herhaling van dergelijke misdrijven.] 4
-
-###### Art. 37sexies
-
-([ 1 oud art. 37quater vernummerd tot nieuw art. 37sexies] 1 ) <Ingevoegd bij W 2002-04-17/33, art. 3; Inwerkingtreding : 07-05-2002> § 1. De veroordeelde verricht de werkstraf kosteloos tijdens de vrije tijd waarover hij naast zijn eventuele school- of beroepsactiviteiten beschikt.  De werkstraf mag uitsluitend worden verricht bij openbare diensten van de Staat, de gemeenten, de provincies, de gemeenschappen en de gewesten, dan wel bij verenigingen zonder winstoogmerk of bij stichtingen met een sociaal, wetenschappelijk of cultureel oogmerk.  De werkstraf mag niet bestaan uit een activiteit die, in de aangewezen overheidsdienst of vereniging, doorgaans door bezoldigde werknemers wordt verricht.  § 2. Met het oog op de toepassing van artikel 37ter, kunnen het openbaar ministerie, de onderzoeksrechter, de onderzoeksgerechten en de vonnisgerechten aan de afdeling van de Dienst justitiehuizen van het (FOD Justitie) van het gerechtelijk arrondissement van de verblijfplaats van de inverdenkinggestelde, de beklaagde of de veroordeelde de opdracht geven een beknopt voorlichtingsverslag op te stellen en/of een maatschappelijke enquête uit te voeren. <W 2006-12-27/33, art. 35, 1°, 061; Inwerkingtreding : 07-01-2007>  (De Koning bepaalt de nadere regels inzake het beknopt voorlichtingsrapport en de maatschappelijke enquête.  Deze rapporten en deze onderzoeken mogen alleen de pertinente elementen bevatten die van aard zijn de overheid die het verzoek tot de dienst van de justitiehuizen richtte in te lichten over de opportuniteit van de overwogen maatregel of straf.) <W 2006-12-27/33, art. 35, 2°, 061; Inwerkingtreding : 07-01-2007>  § 3. (Elke arrondissementele afdeling van de Dienst Justitiehuizen van de FOD Justitie stelt tweemaal per jaar een verslag op van bestaande activiteiten waaruit de werkstraf kan bestaan.) De afdeling bezorgt een afschrift van dit verslag aan de voorzitter van de rechtbank van eerste aanleg en aan de procureur des Konings van het betrokken arrondissement en, op eenvoudig verzoek, aan al wie van een belang kan doen blijken. <W 2006-12- 27/33, art. 35, 3°, 061; Inwerkingtreding : 07-01-2007>  (§ 4. Op federaal en lokaal niveau worden overlegstructuren inzake de toepassing van de [ 2 werkstraf en de autonome probatiestraf] 2 opgericht. Deze overlegstructuren hebben tot taak de instanties die betrokken zijn bij de uitvoering van de [ 2 werkstraf en de autonome probatiestraf] 2 , op regelmatige basis samen te brengen teneinde hun samenwerking te evalueren. De Koning bepaalt de nadere regels inzake de samenstelling en de werking van deze overlegstructuren.) <W 2006-12-27/33, art. 35, 4°, 061; Inwerkingtreding : 07-01-2007>  ----------  ( 1 )<W 2014-02-07/15, art. 9, 110; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016>   ( 2 )<W 2014-04-10/80, art. 5, 111; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016 (zie W 2014-05- 08/55, art. 6, gewijzigd zichzelf bij W 2015-11-23/02, art. 13)>
-
-###### Art. 37septies
-
-([ 1 oud art. 37quinquies vernummerd tot nieuw art. 37septies)] 1 ) <Ingevoegd bij W 2002-04- 17/33, art. 3; Inwerkingtreding : 07-05-2002> § 1. Wie overeenkomstig artikel 37ter tot een werkstraf is veroordeeld, wordt gevolgd door een justitieassistent van de Dienst justitiehuizen van (FOD Justitie) van het gerechtelijk arrondissement van zijn verblijfplaats. <W 2006-12-27/33, art. 36, 1°, 061; Inwerkingtreding : 07-01- 2007>  Op de tenuitvoerlegging van de werkstraf wordt toegezien door de probatiecommissie van de verblijfplaats van de veroordeelde, waaraan de justitieassistent rapporteert.  § 2. Wanneer de rechterlijke beslissing waarbij de werkstraf wordt uitgesproken in kracht van gewijsde is gegaan, bezorgt de griffier daarvan binnen vierentwintig uur een uitgifte aan de voorzitter van de bevoegde probatiecommissie, alsook aan de (bevoegde arrondissementele afdeling van de Dienst Justitiehuizen van de FOD Justitie), die onverwijld de in § 1 bedoelde justitieassistent aanwijst. [ 2 ...] 2
-
-(De territoriale bevoegdheid van de probatiecommissie wordt bepaald door de verblijfplaats van de veroordeelde op het ogenblik van het in kracht van gewijsde gaan van het vonnis of arrest. Indien de betrokkene zijn verblijfplaats heeft buiten het grondgebied van het Rijk, is de territoriaal bevoegde probatiecommissie die van de plaats waar de veroordeling in eerste aanleg uitgesproken werd.  Indien de commissie het in uitzonderlijke gevallen voor een tot een werkstraf veroordeelde persoon, die daartoe een gemotiveerde aanvraag indient, aangewezen acht om de bevoegdheid over te dragen aan de probatiecommissie van zijn nieuwe verblijfplaats, neemt zij een gemotiveerde beslissing nadat die andere commissie binnen de twee maanden een eensluidend advies heeft uitgebracht. Voor een persoon zonder verblijfplaats in het Rijk kan volgens dezelfde procedure de bevoegdheid naar een andere probatiecommissie worden overgedragen, zonder dat het in dat geval de commissie van zijn nieuwe verblijfplaats moet zijn.) <W 2006-12-27/33, art. 36, 4°, 061; Inwerkingtreding : 07-01-2007>  § 3. De justitieassistent bepaalt na de veroordeelde gehoord te hebben en rekening houdend met zijn opmerkingen de concrete invulling van de straf, met naleving van de aanwijzingen bedoeld in artikel [ 3
-
-
-----------  ( 1 )<Ingevoegd bij W 2014-04-10/80, art. 7, 111; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016 (zie W 2014-05-08/55, art. 6, gewijzid zichzelf bij W 2015-11-23/02, art. 13)>
-
-##### AFDELING Vquater. [ 1 - De autonome probatiestraf] 1
 ###### Art. 37octies .[ 1 § 1. Indien een feit van die aard is om door een politiestraf of een correctionele straf gestraft te worden, kan de rechter als hoofdstraf een autonome probatiestraf opleggen.  [ 4 Een autonome probatiestraf bestaat uit de verplichting om:  1° algemene voorwaarden na te leven van zodra het vonnis in kracht van gewijsde is gegaan, gedurende de termijn die door de rechter wordt bepaald overeenkomstig paragraaf 2. Deze algemene voorwaarden zijn:  a) geen strafbaar feit plegen;  b) een vast adres hebben en elke adreswijziging meedelen aan de probatiecommissie en aan de bevoegde dienst van de gemeenschappen;  c) gevolg geven aan de oproepingen van de probatiecommissie en van de bevoegde dienst van de gemeenschappen;  d) samenwerken met de bevoegde dienst van de gemeenschappen bij het uitwerken en opvolgen van de bijzondere voorwaarden;  2° bijzondere voorwaarden na te leven waarvan de concrete invulling door de probatiecommissie bepaald wordt. De veroordeelde leeft de bijzondere voorwaarden na voor de resterende duur van de overeenkomstig paragraaf 2 bepaalde termijn, van zodra deze hem door de probatiecommissie ter kennis gebracht zijn.] 4
 
 § 5. De overlegstructuren op federaal en lokaal niveau inzake de toepassing van de werkstraf en de autonome probatiestraf functioneren overeenkomstig de bepalingen van artikel 37sexies, § 4.] 1
@@ -330,7 +61,9 @@ bevoegde dienst van de gemeenschappen] 2 .  In dit geval kan het openbaar minist
 ----------  ( 1 )<Ingevoegd bij W 2014-04-10/80, art. 11, 111; Inwerkingtreding : onbepaald en uiterlijk op 01-05-2016 (zie W 2014-05-08/55, art. 6, gewijzigd zichzelf bij W 2015-11-23/02, art. 13)>   ( 2 )<W 2024-01-18/06, art. 16, 157; Inwerkingtreding : 05-02-2024>
 
 
-##### AFDELING VI. - STRAFFEN AAN DE DRIE SOORTEN VAN MISDRIJVEN GEMEEN. - Onderafdeling I. - (De geldboete op natuurlijke personen toepasselijk). <Ingevoegd bij W 1999-05-04/60, art. 7; Inwerkingtreding : 02-07-1999>
+##### AFDELING VI. - STRAFFEN AAN DE DRIE SOORTEN VAN MISDRIJVEN GEMEEN.
+
+###### Onderafdeling I. - (De geldboete op natuurlijke personen toepasselijk). <Ingevoegd bij W 1999-05-04/60, art. 7; Inwerkingtreding : 02-07-1999>
 
 ###### Art. 38
 
@@ -344,12 +77,16 @@ Wanneer verscheidene personen wegens een zelfde misdrijf worden veroordeeld, wor
 
 In alle gevallen kan de veroordeelde zich van die gevangenisstraf bevrijden door de geldboete te betalen; hij kan zich niet onttrekken aan het verhaal op zijn goederen door aan te bieden de gevangenisstraf te ondergaan.
 
-##### AFDELING VI. - STRAFFEN AAN DE DRIE SOORTEN VAN MISDRIJVEN GEMEEN. - Onderafdeling II. - (De geldboete op rechtspersonen toepasselijk). <Ingevoegd bij W 1999-05-04/60, art. 8; Inwerkingtreding : 02-07-1999>
+##### AFDELING VI. - STRAFFEN AAN DE DRIE SOORTEN VAN MISDRIJVEN GEMEEN.
+
+###### Onderafdeling II. - (De geldboete op rechtspersonen toepasselijk). <Ingevoegd bij W 1999-05-04/60, art. 8; Inwerkingtreding : 02-07-1999>
 
 ###### Art. 41bis
 
 
-##### AFDELING VI. - STRAFFEN AAN DE DRIE SOORTEN VAN MISDRIJVEN GEMEEN. - Onderafdeling III. - (Bijzondere verbeurdverklaring). <Ingevoegd bij W 1999-05-04/60, art. 9; Inwerkingtreding : 02-07-1999>
+##### AFDELING VI. - STRAFFEN AAN DE DRIE SOORTEN VAN MISDRIJVEN GEMEEN.
+
+###### Onderafdeling III. - (Bijzondere verbeurdverklaring). <Ingevoegd bij W 1999-05-04/60, art. 9; Inwerkingtreding : 02-07-1999>
 
 ###### Art. 42
 
@@ -439,7 +176,7 @@ De bepalingen betreffende de herhaling worden toegepast overeenkomstig de vorige
 
 ###### Art. 57bis
 
-[ 1 De bepalingen betreffende de herhaling, bepaald in de artikelen 54 tot 56, worden toegepast in geval van een vroegere veroordeling die in aanmerking genomen wordt overeenkomstig artikel 99bis.] 1
+[ 1 De bepalingen betreffende de herhaling, bepaald in de artikelen 54 tot 56, worden toegepast in geval van een vroegere veroordeling die in aanmerking genomen wordt overeenkomstig artikel 99bis. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-25/23, art. 60, 104; Inwerkingtreding : 24-05-2014> (NOTA : bij arrest nr.148/2017 van 21-12-2017 (B.St. 12-01-2018, p. 1393), heeft het Grondwettelijk Hof het artikel 15 vernietigd)
 
@@ -639,7 +376,7 @@ Burgerlijke veroordelingen, uitgesproken bij arresten of vonnissen gewezen in cr
 
 ###### Art. 100
 
-(Bij gebreke van andersluidende bepalingen in bijzondere wetten en verordeningen, worden de bepalingen van het eerste boek van dit wetboek toegepast op de misdrijven die bij die wetten en verordeningen strafbaar zijn gesteld, met uitzondering van hoofdstuk VII (...) en van artikel 85.) <W 09-04-1930, art. 32>  (Lid 2 opgeheven) <W 04-08-1986, art. 105>
+(Bij gebreke van andersluidende bepalingen in bijzondere wetten en verordeningen, worden de bepalingen van het eerste boek van dit wetboek toegepast op de misdrijven die bij die wetten en verordeningen strafbaar zijn gesteld, met uitzondering van hoofdstuk VII (...) en van artikel 85. ) <W 09-04-1930, art. 32>  (Lid 2 opgeheven) <W 04-08-1986, art. 105>
 
 ###### Art. 100bis
 
@@ -804,7 +541,7 @@ Hij die door vijandelijke handelingen, door de Regering niet goedgekeurd, de Sta
 
 ###### Art. 123ter
 
-(Indien de misdrijven, in de artikelen 115 tot 120quater, 120sexies tot 123bis omschreven, uit winstbejag zijn begaan, worden de (sommen, de goederen of de rechtstreekse of onrechtstreekse voordelen van welke aard ook, die de werkzaamheid van de schuldige heeft opgebracht,) tot eigendom van de Schatkist verklaard; (indien zij niet in beslag zijn genomen, wordt een met hun waarde overeenstemmend bedrag) tot eigendom van de Schatkist verklaard.) <W 19-07-1934, art. 1> <W 07-06-1948, art. 1>  (In hetzelfde geval worden de in de artikelen 119 en 120 bepaalde gevangenisstraffen vervangen door opsluiting van vijf jaar tot tien jaar en tijdelijke hechtenis door tijdelijke opsluiting van gelijke duur.) <W 2003-01- 23/42, art. 31, 040; Inwerkingtreding : 13-03-2003>  (Indien verzachtende omstandigheden aanwezig zijn, wordt (levenslange opsluiting) vervangen overeenkomstig artikel 80.) <W 19-07-1934, art. 1> <W 1996-07-10/42, art. 15, 018; Inwerkingtreding : 11-08-1996>
+(Indien de misdrijven, in de artikelen 115 tot 120quater, 120sexies tot 123bis omschreven, uit winstbejag zijn begaan, worden de (sommen, de goederen of de rechtstreekse of onrechtstreekse voordelen van welke aard ook, die de werkzaamheid van de schuldige heeft opgebracht,) tot eigendom van de Schatkist verklaard; (indien zij niet in beslag zijn genomen, wordt een met hun waarde overeenstemmend bedrag) tot eigendom van de Schatkist verklaard.) <W 19-07-1934, art. 1> <W 07-06-1948, art. 1>  (In hetzelfde geval worden de in de artikelen 119 en 120 bepaalde gevangenisstraffen vervangen door opsluiting van vijf jaar tot tien jaar en tijdelijke hechtenis door tijdelijke opsluiting van gelijke duur.) <W 2003-01- 23/42, art. 31, 040; Inwerkingtreding : 13-03-2003>  (Indien verzachtende omstandigheden aanwezig zijn, wordt (levenslange opsluiting) vervangen overeenkomstig artikel 80. ) <W 19-07-1934, art. 1> <W 1996-07-10/42, art. 15, 018; Inwerkingtreding : 11-08-1996>
 
 ###### Art. 123quater
 
@@ -965,7 +702,7 @@ bedoelde misdrijven, met uitzondering van het in artikel 137, § 3, 6°, bedoeld
 
 [ 1 Wordt gestraft met opsluiting van vijf jaar tot tien jaar en met geldboete van honderd euro tot vijfduizend euro, iedere persoon die, op enigerlei wijze, direct of indirect, materiële middelen verstrekt of inzamelt, daaronder begrepen financiële hulp, met het oogmerk dat deze worden gebruikt of in de wetenschap dat zij, geheel of gedeeltelijk, zullen worden gebruikt,  1° om een misdrijf als bedoeld in de artikelen 137 en 140 tot 140septies te plegen of eraan bij te dragen;  of  2° door een andere persoon wanneer de persoon die de materiële middelen verstrekt of inzamelt weet dat die andere persoon een misdrijf als bedoeld in artikel 137 pleegt of zal plegen.] 1
 
-[ 2 De straf is opsluiting van tien jaar tot vijftien jaar en een geldboete van vijfduizend euro tot tienduizend euro indien het verstrekken of het inzamelen van de materiële middelen plaatsvindt met het oogmerk dat ze geheel of gedeeltelijk gebruikt zouden worden door een minderjarige met het oog op het plegen of het bijdragen tot het plegen van een terroristisch misdrijf als bedoeld in artikel 137.] 2
+[ 2 De straf is opsluiting van tien jaar tot vijftien jaar en een geldboete van vijfduizend euro tot tienduizend euro indien het verstrekken of het inzamelen van de materiële middelen plaatsvindt met het oogmerk dat ze geheel of gedeeltelijk gebruikt zouden worden door een minderjarige met het oog op het plegen of het bijdragen tot het plegen van een terroristisch misdrijf als bedoeld in artikel 137. ] 2
 
 ###### Art. 141bis
 
@@ -2362,7 +2099,9 @@ Er is noch misdaad, noch wanbedrijf, wanneer de doodslag, de verwondingen en de 
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 3, 148; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 1. [ 1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.] 1 - Onderafdeling 1. [ 1 - Toestemming met betrekking tot het seksueel zelfbeschikkingsrecht.] 1
+##### Afdeling 1. [ 1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.] 1
+
+###### Onderafdeling 1. [ 1 - Toestemming met betrekking tot het seksueel zelfbeschikkingsrecht.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 5, 148; Inwerkingtreding : 01-06-2022>
 
@@ -2372,7 +2111,9 @@ Er is noch misdaad, noch wanbedrijf, wanneer de doodslag, de verwondingen en de 
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 6, 148; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 1. [ 1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.] 1 - Onderafdeling 2. [ 1 - Basismisdrijven.] 1
+##### Afdeling 1. [ 1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.] 1
+
+###### Onderafdeling 2. [ 1 - Basismisdrijven.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 7, 148; Inwerkingtreding : 01-06-2022>
 
@@ -2402,7 +2143,9 @@ Verkrachting is elke gestelde daad die bestaat of mede bestaat uit een seksuele 
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 12, 148; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 1. [ 1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.] 1 - Onderafdeling 3. [ 1 - Verzwaarde misdrijven.] 1
+##### Afdeling 1. [ 1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.] 1
+
+###### Onderafdeling 3. [ 1 - Verzwaarde misdrijven.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 13, 148; Inwerkingtreding : 01-06-2022>
 
@@ -2458,7 +2201,9 @@ Onder niet-consensuele intrafamiliale seksuele handelingen worden begrepen de ni
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 24, 148; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 1. [ 1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.] 1 - Onderafdeling 4. [ 1 - Algemene bepaling.] 1
+##### Afdeling 1. [ 1 - Aantasting van de seksuele integriteit, voyeurisme, niet-consensuele verspreiding van seksueel getinte inhoud en verkrachting.] 1
+
+###### Onderafdeling 4. [ 1 - Algemene bepaling.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 25, 148; Inwerkingtreding : 01-06-2022>
 
@@ -2471,7 +2216,9 @@ Bij de keuze van de straf of de maatregel en de zwaarte ervan voor feiten die ni
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 27, 148; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen.] 1 - Onderafdeling 1. [ 1 - Benaderen van een minderjarige voor seksuele doeleinden.] 1
+##### Afdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen.] 1
+
+###### Onderafdeling 1. [ 1 - Benaderen van een minderjarige voor seksuele doeleinden.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 28, 148; Inwerkingtreding : 01-06-2022>
 
@@ -2481,7 +2228,9 @@ Benaderen van een minderjarige voor seksuele doeleinden is het aan een minderjar
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 29, 148; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen.] 1 - Onderafdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen met het oog op prostitutie.] 1
+##### Afdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen.] 1
+
+###### Onderafdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen met het oog op prostitutie.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 31, 148; Inwerkingtreding : 01-06-2022>
 
@@ -2575,7 +2324,9 @@ Indien het reclame maken voor ontucht en prostitutie van een minderjarige tot do
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 48, 148; Inwerkingtreding : 01-06-2022>   ( 2 )<W 2022-07-30/03, art. 4, 150; Inwerkingtreding : 18-08-2022>
 
-##### Afdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen.] 1 - Onderafdeling 3. [ 1 - Beelden van seksueel misbruik van minderjarigen.] 1
+##### Afdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen.] 1
+
+###### Onderafdeling 3. [ 1 - Beelden van seksueel misbruik van minderjarigen.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 49, 148; Inwerkingtreding : 01-06-2022>
 
@@ -2617,7 +2368,9 @@ Bezitten en verwerven van beelden van seksueel misbruik van minderjarigen is het
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 56, 148; Inwerkingtreding : 01-06-2022>
 
-##### Afdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen.] 1 - Onderafdeling 4. [ 1 - Algemene bepaling.] 1
+##### Afdeling 2. [ 1 - Seksuele uitbuiting van minderjarigen.] 1
+
+###### Onderafdeling 4. [ 1 - Algemene bepaling.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-03-21/01, art. 57, 148; Inwerkingtreding : 01-06-2022>
 
@@ -3360,7 +3113,7 @@ Hij die, na in een rechtsgeding enige titel, enig stuk of enige memorie te hebbe
 <W 10-10-1967, art. 144> Met gevangenisstraf van acht dagen tot twee jaar en met geldboete van zesentwintig [euro] tot duizend [euro], of met een van die straffen alleen, wordt gestraft hij die een stuk dat hij onder zich heeft en waarvan de overlegging in rechte bij een vonnis wordt bevolen, bedrieglijk vernietigt, verandert of verbergt. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>
 
 
-(Poging tot het wanbedrijf omschreven in het eerste lid wordt gestraft met gevangenisstraf van acht dagen tot drie jaar en met geldboete van zesentwintig [euro] tot tweeduizend [euro].) <W 1993-06-16/35, art. 1, 1°, 009; Inwerkingtreding : 03-08-1993> <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  (In de gevallen in de vorige leden omschreven kan de schuldige bovendien worden veroordeeld tot ontzetting van rechten overeenkomstig artikel 33.) <W 1993-06-16/35, art. 1, 2°, 009; Inwerkingtreding : 03-08-1993>  ----------  ( 1 )<W 2011-11-26/19, art. 41, 084; Inwerkingtreding : 02-02-2012>   ( 2 )<W 2023-07-12/10, art. 16, 153; Inwerkingtreding : 18-09-2023>
+(Poging tot het wanbedrijf omschreven in het eerste lid wordt gestraft met gevangenisstraf van acht dagen tot drie jaar en met geldboete van zesentwintig [euro] tot tweeduizend [euro].) <W 1993-06-16/35, art. 1, 1°, 009; Inwerkingtreding : 03-08-1993> <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  (In de gevallen in de vorige leden omschreven kan de schuldige bovendien worden veroordeeld tot ontzetting van rechten overeenkomstig artikel 33. ) <W 1993-06-16/35, art. 1, 2°, 009; Inwerkingtreding : 03-08-1993>  ----------  ( 1 )<W 2011-11-26/19, art. 41, 084; Inwerkingtreding : 02-02-2012>   ( 2 )<W 2023-07-12/10, art. 16, 153; Inwerkingtreding : 18-09-2023>
 
 ##### AFDELING III. - OPLICHTING EN BEDRIEGERIJ.
 ###### Art. 497
@@ -3426,7 +3179,7 @@ vergunningsplichtige wapens of geld met een illegale herkomst in bezit heeft.  �
 
 ###### Art. 505ter
 
-[ 1 De misdrijven bedoeld in artikel 505, eerste lid, 2° tot 4°, worden gestraft met gevangenisstraf van drie jaar tot vijf jaar en met geldboete van tienduizend euro tot tweehonderdduizend euro of met een van die straffen alleen wanneer zij zijn gepleegd in de volgende omstandigheden:  1° de dader van het misdrijf is een meldingsplichtige entiteit bedoeld in artikel 2 van de Richtlijn (EU) 2015/849 van het Europees Parlement en de Raad van 20 mei 2015 inzake de voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld of terrorismefinanciering, tot wijziging van Verordening (EU) nr. 648/2012 van het Europees Parlement en de Raad en tot intrekking van Richtlijn 2005/60/EG van het Europees Parlement en de Raad en Richtlijn 2006/70/EG van de Commissie, gevestigd in België, in een ander land van de Europese Economische Ruimte of een derde land dat verplichtingen oplegt die gelijkaardig zijn aan die uit de voornoemde Richtlijn, en deze het misdrijf heeft gepleegd in het kader van de uitoefening van zijn beroepsactiviteiten; of  2° het strafbare feit is gepleegd in het kader van een criminele organisatie zoals omschreven in artikel 324bis.] 1
+[ 1 De misdrijven bedoeld in artikel 505, eerste lid, 2° tot 4°, worden gestraft met gevangenisstraf van drie jaar tot vijf jaar en met geldboete van tienduizend euro tot tweehonderdduizend euro of met een van die straffen alleen wanneer zij zijn gepleegd in de volgende omstandigheden:  1° de dader van het misdrijf is een meldingsplichtige entiteit bedoeld in artikel 2 van de Richtlijn (EU) 2015/849 van het Europees Parlement en de Raad van 20 mei 2015 inzake de voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld of terrorismefinanciering, tot wijziging van Verordening (EU) nr. 648/2012 van het Europees Parlement en de Raad en tot intrekking van Richtlijn 2005/60/EG van het Europees Parlement en de Raad en Richtlijn 2006/70/EG van de Commissie, gevestigd in België, in een ander land van de Europese Economische Ruimte of een derde land dat verplichtingen oplegt die gelijkaardig zijn aan die uit de voornoemde Richtlijn, en deze het misdrijf heeft gepleegd in het kader van de uitoefening van zijn beroepsactiviteiten; of  2° het strafbare feit is gepleegd in het kader van een criminele organisatie zoals omschreven in artikel 324bis. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2024-01-18/06, art. 43, 157; Inwerkingtreding : 05-02-2024>
 
