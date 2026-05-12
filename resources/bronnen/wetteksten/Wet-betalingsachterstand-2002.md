@@ -30,8 +30,8 @@ provenance:
     rationale: "Bekende issue: D1 Art. 2 getrunceerd — de file start pas bij '1° van de ontvangst...' midden in Art. 4 § 1 (of Art. 2 oud), Art. 1 en begin Art. 2 ontbreken. Geen heading voor het eerste artikel zichtbaar."
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:15Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:02Z'
       heading_count: 16
       max_section_chars: 4130
       file_size_chars: 15075

@@ -17,39 +17,26 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1fc0dd6-dirty
+    pipeline_version: 06a7e51-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T20:30:13Z'
+  generated_at: '2026-05-12T21:03:30Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Vrijwel schoon: geen 4-space indent-probleem in artikel-bodies. Twee kleine artefacten: '    (Opgeheven' op regel 100 en '    Bijlage' op regel 149 zijn 4-space ingesprongen, maar dit zijn marginale artefacten in randgevallen (opgeheven artikel, bijlage-verwijzing). Alle 16 artikel-headings correct, inhoud compleet, wetshistorie-nota's als plain text correct."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:13Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:00Z'
       heading_count: 16
       max_section_chars: 1368
-      file_size_chars: 10258
+      file_size_chars: 10250
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: "Vrijwel schoon: geen 4-space indent-probleem in artikel-bodies. Twee kleine artefacten: '    (Opgeheven' op regel 100 en '    Bijlage' op regel 149 zijn 4-space ingesprongen, maar dit zijn marginale artefacten in randgevallen (opgeheven artikel, bijlage-verwijzing). Alle 16 artikel-headings correct, inhoud compleet, wetshistorie-nota's als plain text correct."
-      concrete_problemen:
-        - regel: 100
-          categorie: A6
-          type: other
-          voorbeeld: '    (Opgeheven  (4-space indent)'
-        - regel: 149
-          categorie: A6
-          type: other
-          voorbeeld: '    Bijlage  (4-space indent)'
 ---
 
 # K.B. van 4 april 2014, betreffende de verificatie van het regelmatig aanwezig zijn van motorvoertuigen
@@ -110,7 +97,7 @@ De Minister van Mobiliteit en de Minister van Financiën kunnen gezamenlijk ople
 ## Art. 8
 (De tekst van KB 04.04.2014, artikel 8, werd opgeheven met ingang van 04.02.2019 (KB 06.03.2020, B.S. 18.03.2020, pg. 15917))
 
-    (Opgeheven
+(Opgeheven
 
 ## Art. 9
 (De tekst van KB 04.04.2014, artikel 9, is van toepassing met ingang van 07.05.2014 (KB 04.04.2014, B.S. 07.05.2014, pg. 36551)
@@ -159,4 +146,4 @@ Dit besluit treedt in werking de dag waarop het in het Belgisch Staatsblad wordt
 
 Onze minister die Financiën onder zijn bevoegdheid heeft en Onze minister die Mobiliteit en Vervoer onder zijn bevoegdheid heeft, zijn ieder wat hem betreft, belast met de uitvoering van dit besluit.
 
-    Bijlage
+Bijlage

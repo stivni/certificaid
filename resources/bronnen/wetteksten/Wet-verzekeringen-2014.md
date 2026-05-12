@@ -30,8 +30,8 @@ provenance:
     rationale: "L1 warn: 201 headings, max sectie 32357 chars. Tail bevat een lege heading '## Art.' zonder nummer of titel — B1/B3 artefact. De body start mid-§2 (bron-artefact). Verder inhoud aanwezig."
     layer1:
       status: warn
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:15Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:02Z'
       heading_count: 201
       max_section_chars: 32357
       file_size_chars: 195430

@@ -17,31 +17,26 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1fc0dd6-dirty
+    pipeline_version: 06a7e51-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T20:30:11Z'
+  generated_at: '2026-05-12T21:03:28Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Schoon: geen 4-space indent in artikel-bodies. Wetswijzigingen-nota's correct als inline plain text. 18 artikel-headings correct als ## Art. N. Inhoud volledig."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:13Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:00Z'
       heading_count: 18
-      max_section_chars: 15569
-      file_size_chars: 41538
+      max_section_chars: 15545
+      file_size_chars: 41514
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: "Schoon: geen 4-space indent in artikel-bodies. Wetswijzigingen-nota's correct als inline plain text. 18 artikel-headings correct als ## Art. N. Inhoud volledig."
-      concrete_problemen: []
 ---
 
 # K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde
@@ -145,17 +140,17 @@ De krachtens artikel 5 bij wijze van toerekening terug te geven belasting wordt,
 
 3° het bedrag verschuldigd door de Staat na het indienen van de in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde maandaangifte wanneer het 245 euro bereikt, indien de andere belastingplichtige dan de in artikel 55, § 3, tweede lid, van het Wetboek bedoelde belastingplichtige tijdens het verstreken kalenderjaar een overschot in zijn voordeel had van ten minste 12.000 euro en tijdens dezelfde periode voor ten minste dertig percent van zijn omzet :
 
-    a) leveringen van goederen en diensten heeft verricht welke van de belasting zijn vrijgesteld bij toepassing van de artikelen 39, 39bis en 39quater van het Wetboek;
+a) leveringen van goederen en diensten heeft verricht welke van de belasting zijn vrijgesteld bij toepassing van de artikelen 39, 39bis en 39quater van het Wetboek;
 
-    b) leveringen van goederen en diensten heeft verricht welke van de belasting zijn vrijgesteld bij toepassing van de artikelen 40, § 2, 1° en 2°, 41, § 1, eerste lid, 2° tot 6° en 42 van het Wetboek;
+b) leveringen van goederen en diensten heeft verricht welke van de belasting zijn vrijgesteld bij toepassing van de artikelen 40, § 2, 1° en 2°, 41, § 1, eerste lid, 2° tot 6° en 42 van het Wetboek;
 
-    c) leveringen van goederen en diensten heeft verricht waarvoor de belasting verschuldigd is door de medecontractant overeenkomstig de artikelen 51, § 2, eerste lid, 5° en 51, § 4, van het Wetboek;
+c) leveringen van goederen en diensten heeft verricht waarvoor de belasting verschuldigd is door de medecontractant overeenkomstig de artikelen 51, § 2, eerste lid, 5° en 51, § 4, van het Wetboek;
 
-    d) leveringen van goederen en diensten heeft verricht waarvoor het verlaagd btwtarief van toepassing is overeenkomstig de rubrieken XXXI, XXXII, XXXIII, XXXVI, XXXVII, XXXVIII en XL van tabel A van de bijlage bij het koninklijk besluit nr. 20 van 20 juli 1970 tot vaststelling van de tarieven van de belasting over de
+d) leveringen van goederen en diensten heeft verricht waarvoor het verlaagd btwtarief van toepassing is overeenkomstig de rubrieken XXXI, XXXII, XXXIII, XXXVI, XXXVII, XXXVIII en XL van tabel A van de bijlage bij het koninklijk besluit nr. 20 van 20 juli 1970 tot vaststelling van de tarieven van de belasting over de
 
-    toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven;
+toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven;
 
-    e) leveringen van goederen en diensten heeft verricht die in het buitenland plaatsvinden voor zover het overschot voortvloeit uit de voorfinanciering van de belasting geheven op deze goederen en diensten.
+e) leveringen van goederen en diensten heeft verricht die in het buitenland plaatsvinden voor zover het overschot voortvloeit uit de voorfinanciering van de belasting geheven op deze goederen en diensten.
 
 4° het bedrag dat verschuldigd is door de Staat na het indienen van de in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde maandaangifte en dat betrekking heeft op een tijdvak dat valt binnen de vierentwintig maanden die volgen op de datum van aanvang van de economische activiteit bedoeld in artikel 1, tweede lid, van het koninklijk besluit nr. 10 van 29 december 1992 met betrekking tot de uitoefeningsmodaliteiten van de keuzen, bedoeld in de artikelen 15, § 2, derde lid en 25ter, § 1, tweede lid, 2°, tweede lid, van het Wetboek van de belasting over de toegevoegde waarde, de aangiften van aanvang, wijziging, stopzetting van activiteit en de voorafgaande kennisgevingen inzake de belasting over de toegevoegde waarde, wanneer dat bedrag 245 euro bereikt.
 

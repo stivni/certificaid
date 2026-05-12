@@ -17,39 +17,26 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1fc0dd6-dirty
+    pipeline_version: 06a7e51-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T20:30:12Z'
+  generated_at: '2026-05-12T21:03:29Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "4-space indent op HOOFDSTUK/AFDELING-titels in de body (regels 72, 79-81, 103-104). Bv. '## HOOFDSTUK I\\n    Vrijstelling ingesteld bij artikel 39, § 1...' en '### AFDELING 1\\n    Uitvoer van goederen...\\n    Vrijstelling ingesteld bij artikel 39...' — sectie-titels als code-blok. A3-achtig: HOOFDSTUK-headings in de TOC (regels 53-69) dubbel aanwezig als TOC + body."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:13Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:00Z'
       heading_count: 40
-      max_section_chars: 1674
-      file_size_chars: 14823
+      max_section_chars: 1670
+      file_size_chars: 14787
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: "4-space indent op HOOFDSTUK/AFDELING-titels in de body (regels 72, 79-81, 103-104). Bv. '## HOOFDSTUK I\\n    Vrijstelling ingesteld bij artikel 39, § 1...' en '### AFDELING 1\\n    Uitvoer van goederen...\\n    Vrijstelling ingesteld bij artikel 39...' — sectie-titels als code-blok. A3-achtig: HOOFDSTUK-headings in de TOC (regels 53-69) dubbel aanwezig als TOC + body."
-      concrete_problemen:
-        - regel: 72
-          categorie: A6
-          type: other
-          voorbeeld: '## HOOFDSTUK I\n    Vrijstelling ingesteld bij artikel 39... (titel als code block)'
-        - regel: 53
-          categorie: A3
-          type: other
-          voorbeeld: TOC-regels 53-69 herhalen HOOFDSTUK/AFDELING-structuur die ook als body-headings aanwezig zijn
 ---
 
 # K.B. nr. 18 van 29 december 1992, met betrekking tot de vrijstellingen ten aanzien van de uitvoer van goederen en diensten naar een plaats buiten de Gemeenschap, op het stuk van de belasting over de toegevoegde waarde
@@ -82,7 +69,7 @@ Laatstelijk gewijzigd, met ingang van 01.01.2020 (KB 07.11.2019, B.S. 20.11.2019
 ## HOOFDSTUK V: Algemene bepalingen.
 
 ## HOOFDSTUK I
-    Vrijstelling ingesteld bij artikel 39, § 1, van het Wetboek.
+Vrijstelling ingesteld bij artikel 39, § 1, van het Wetboek.
 
 #### Art. 1
 (De tekst van KB nr. 18, artikel 1, is van toepassing met ingang van 01.01.1993 (KB 29.12.1992))
@@ -90,8 +77,8 @@ Laatstelijk gewijzigd, met ingang van 01.01.2020 (KB 07.11.2019, B.S. 20.11.2019
 De in artikel 39, § 1, van het Wetboek bedoelde vrijstelling wordt verleend voor zover de voorwaarden zijn vervuld, de formaliteiten worden nagekomen en de bewijzen worden geleverd die in dit hoofdstuk zijn bepaald.
 
 ### AFDELING 1
-    Uitvoer van goederen door of voor rekening van de verkoper.
-    Vrijstelling ingesteld bij artikel 39, § 1, 1°, van het Wetboek.
+Uitvoer van goederen door of voor rekening van de verkoper.
+Vrijstelling ingesteld bij artikel 39, § 1, 1°, van het Wetboek.
 
 #### Art. 2
 (De tekst van KB nr. 18, artikel 2, is van toepassing met ingang van 01.01.1993 (KB 29.12.1992))
@@ -145,8 +132,8 @@ Het bepaalde in de afdelingen 1 en 2 is van toepassing voor de diensten, andere 
 Wanneer op de kopiefactuur die overeenkomstig artikel 2 op het douanekantoor moet worden afgegeven, de hoeveelheid en de gewone benaming van de uitgevoerde goederen niet zijn vermeld, moet die kopiefactuur met deze gegevens worden aangevuld, of moet eveneens een verzendingsstuk, waarop die gegevens voorkomen, worden afgegeven.
 
 ### AFDELING 4
-    Goederen uit te voeren in de persoonlijke bagage van de reizigers.
-    Vrijstelling ingesteld bij artikel 39, § 1, 4°, van het Wetboek.
+Goederen uit te voeren in de persoonlijke bagage van de reizigers.
+Vrijstelling ingesteld bij artikel 39, § 1, 4°, van het Wetboek.
 
 #### Art. 8
 (De tekst van KB nr. 18, artikel 8, 2°, werd gewijzigd met ingang van 01.01.2020 (Art. 2, KB 07.11.2019, B.S. 20.11.2019, pg. 106949)
@@ -169,7 +156,7 @@ De levering van goederen aan een niet in de Gemeenschap gevestigde reiziger, die
 Onder woonplaats of gebruikelijke verblijfplaats van de reiziger wordt verstaan de plaats die als zodanig op zijn reispas, op zijn identiteitskaart of, bij ontstentenis daarvan, op een als identiteitsbewijs erkend stuk is vermeld.
 
 ## HOOFDSTUK II
-    Vrijstelling ingesteld bij artikel 39, § 2, van het Wetboek.
+Vrijstelling ingesteld bij artikel 39, § 2, van het Wetboek.
 
 #### Art. 10
 (De tekst van KB nr. 18, artikel 10, is van toepassing met ingang van 01.01.1993 (KB 29.12.1992))
@@ -203,7 +190,7 @@ De vrijstelling wordt voorlopig verleend. Ze wordt slechts definitief op het tij
 (De tekst van KB nr. 18, artikel 14, werd opgeheven met ingang van 01.01.1996 (Art.23, A, KB 25.02.1996))
 
 ## HOOFDSTUK III
-    Algemene bepaling betreffende de hoofdstukken I en II.
+Algemene bepaling betreffende de hoofdstukken I en II.
 
 #### Art. 15
 (De tekst van KB nr. 18, artikel 15, eerste lid, werd gewijzigd met ingang van 07.01.2016 (Art. 5, KB 18.12.2015, B.S. 28.12.2015, Ed. 2, pg. 79604))
@@ -213,7 +200,7 @@ Wanneer een oorzaak van opeisbaarheid van de belasting waarvoor het belastbare f
 Deze opschorting kan worden toegestaan voor een termijn van ten hoogste één jaar; in uitzonderlijke omstandigheden kan die termijn evenwel worden verlengd.
 
 ## HOOFDSTUK IV
-    Vrijstelling ingesteld bij artikel 40, § 1, 3°, van het Wetboek.
+Vrijstelling ingesteld bij artikel 40, § 1, 3°, van het Wetboek.
 
 #### Art. 16
 (De tekst van KB nr. 18, artikel 16 is opgeheven met ingang van 01.01.1996 (Art.23, B, KB 25.02.1996))
@@ -222,7 +209,7 @@ Deze opschorting kan worden toegestaan voor een termijn van ten hoogste één ja
 (De tekst van KB nr. 18, artikel 17 is opgeheven met ingang van 01.01.1996 (Art.23, B, KB 25.02.1996))
 
 ## HOOFDSTUK V
-    Algemene bepalingen.
+Algemene bepalingen.
 
 #### Art. 18
 (De tekst van KB nr. 18, artikel 18 is opgeheven met ingang van 01.01.1996 (Art.23, C, KB 25.02.1996))

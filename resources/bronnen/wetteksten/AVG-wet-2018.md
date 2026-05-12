@@ -30,8 +30,8 @@ provenance:
     rationale: "B4: 'ONDERTITEL 1-6' als plain-text regels (niet als heading) doorheen het document (regels 80, 132, 136, 188, 240, 276, 1097...). B4: 'Tekst' als losse plain-text regel op regel 340 (overgangsmarkering die uit de bron-PDF stamt). A3: eerste 310 regels bevatten een TOC met afgekorte artikel-verwijzingen (bv. `##### Art. 24` zonder body) gevolgd door de eigenlijke wettekst — dit is een dubbele inhoudsopgave-structuur. Inhoud na regel 340 is grotendeels schoon."
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:10Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:03:57Z'
       heading_count: 533
       max_section_chars: 8309
       file_size_chars: 302653

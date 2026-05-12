@@ -17,35 +17,26 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1fc0dd6-dirty
+    pipeline_version: 06a7e51-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T20:30:11Z'
+  generated_at: '2026-05-12T21:03:28Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Systematisch 4-space indent in artikel-bodies.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:14Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:00Z'
       heading_count: 4
-      max_section_chars: 812
-      file_size_chars: 2314
+      max_section_chars: 800
+      file_size_chars: 2266
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: Systematisch 4-space indent in artikel-bodies.
-      concrete_problemen:
-        - regel: 49
-          categorie: A6
-          type: other
-          voorbeeld: '    (De tekst van KB nr. 9... (code block)'
 ---
 
 # K.B. nr. 9 van 12 december 1970, met betrekking tot de ambtelijke aanslag inzake belasting over de toegevoegde waarde
@@ -57,25 +48,25 @@ Koninklijk besluit nr. 9, van 12 december 1970, met betrekking tot de ambtelijke
 (Officieuze coördinatie)
 
 ## Art. 1
-    (De tekst van KB nr. 9, artikel 1, eerste lid, werd gewijzigd met ingang van 16.05.2014. (Art. 13, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
+(De tekst van KB nr. 9, artikel 1, eerste lid, werd gewijzigd met ingang van 16.05.2014. (Art. 13, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
-    Alvorens de in artikel 66 van het Wetboek bedoelde ambtelijke aanslag op te leggen, stelt de administratie belast met de belasting over de toegevoegde waarde de schuldenaar van de belasting bij ter post aangetekende brief in kennis van de feiten die de aanslag rechtvaardigen, het tijdvak waarop hij betrekking heeft, het vermoedelijk bedrag van de beoogde handelingen, het bedrag van de ter zake van die handelingen opeisbare belasting, de wijze waarop die belasting werd berekend en het bedrag van de verbeurde geldboeten.
-    De schuldenaar van de belasting beschikt over een termijn van een maand om schriftelijk zijn opmerkingen te doen kennen.
+Alvorens de in artikel 66 van het Wetboek bedoelde ambtelijke aanslag op te leggen, stelt de administratie belast met de belasting over de toegevoegde waarde de schuldenaar van de belasting bij ter post aangetekende brief in kennis van de feiten die de aanslag rechtvaardigen, het tijdvak waarop hij betrekking heeft, het vermoedelijk bedrag van de beoogde handelingen, het bedrag van de ter zake van die handelingen opeisbare belasting, de wijze waarop die belasting werd berekend en het bedrag van de verbeurde geldboeten.
+De schuldenaar van de belasting beschikt over een termijn van een maand om schriftelijk zijn opmerkingen te doen kennen.
 
 ## Art. 2
-    (De tekst van KB nr. 9, artikel 2 is van toepassing met ingang van 01.01.1993.
-    (Art.2, KB 29.12.1992), (gewijzigd bij art. 2 van het K.B. van 29.12.1992)).
+(De tekst van KB nr. 9, artikel 2 is van toepassing met ingang van 01.01.1993.
+(Art.2, KB 29.12.1992), (gewijzigd bij art. 2 van het K.B. van 29.12.1992)).
 
-    De administratie kan de ambtelijke aanslag slechts opleggen na het verstrijken van de in artikel 1 bepaalde termijn.
-    De ambtelijke aanslag wordt opgelegd door de gewestelijke directeur van de administratie die bevoegd is voor de belasting over de toegevoegde waarde of door de hoofdcontroleur die hij aanwijst.
-    Van de beslissing waarbij de aanslag wordt opgelegd, wordt aan de schuldenaar van de belasting kennis gegeven bij ter post aangetekende brief.
+De administratie kan de ambtelijke aanslag slechts opleggen na het verstrijken van de in artikel 1 bepaalde termijn.
+De ambtelijke aanslag wordt opgelegd door de gewestelijke directeur van de administratie die bevoegd is voor de belasting over de toegevoegde waarde of door de hoofdcontroleur die hij aanwijst.
+Van de beslissing waarbij de aanslag wordt opgelegd, wordt aan de schuldenaar van de belasting kennis gegeven bij ter post aangetekende brief.
 
 ## Art. 3
-    (De tekst van KB nr. 9, artikel 3 is van toepassing met ingang van 01.01.1971 (KB 12.03.1970))
+(De tekst van KB nr. 9, artikel 3 is van toepassing met ingang van 01.01.1971 (KB 12.03.1970))
 
-    Dit besluit treedt in werking op dezelfde datum als de wet van 3 juli 1969 tot invoering van het Wetboek van de belasting over de toegevoegde waarde.
+Dit besluit treedt in werking op dezelfde datum als de wet van 3 juli 1969 tot invoering van het Wetboek van de belasting over de toegevoegde waarde.
 
 ## Art. 4
-    (De tekst van KB nr. 9, artikel 4 is van toepassing met ingang van 01.01.1971 (KB 12.03.1970))
+(De tekst van KB nr. 9, artikel 4 is van toepassing met ingang van 01.01.1971 (KB 12.03.1970))
 
-    Onze Minister van Financiën is belast met de uitvoering van dit besluit.
+Onze Minister van Financiën is belast met de uitvoering van dit besluit.

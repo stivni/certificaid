@@ -17,35 +17,26 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1fc0dd6-dirty
+    pipeline_version: 06a7e51-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T20:30:12Z'
+  generated_at: '2026-05-12T21:03:29Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Systematisch 4-space indent in alle artikel-bodies: '    De bevoegdheden waarover de ambtenaren...', '    De ambtenaar bedoeld in artikel 93ter...' renderen als code-blokken."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:13Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:00Z'
       heading_count: 5
-      max_section_chars: 511
-      file_size_chars: 2012
+      max_section_chars: 510
+      file_size_chars: 1964
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: "Systematisch 4-space indent in alle artikel-bodies: '    De bevoegdheden waarover de ambtenaren...', '    De ambtenaar bedoeld in artikel 93ter...' renderen als code-blokken."
-      concrete_problemen:
-        - regel: 50
-          categorie: A6
-          type: other
-          voorbeeld: '    (De tekst van KB nr. 11, artikel 1, werd gewijzigd... (code block)'
 ---
 
 # K.B. nr. 11 van 29 december 1992, met betrekking tot de toepassing van de belasting over de toegevoegde waarde
@@ -56,28 +47,28 @@ Koninklijk besluit nr. 11, van 29 december 1992, met betrekking tot de toepassin
 (Uitvoering van de artikelen 63bis, 72, tweede lid, en 93ter, § 1, tweede lid, van het Wetboek.) (Officieuze coördinatie) Laatst gewijzigd met ingang van 16.05.2014 (KB 24.01.2015, B.S. 20.02.2015 – Ed. 2)
 
 ## Art. 1
-    (De tekst van KB nr. 11, artikel 1, werd gewijzigd met ingang van 16.05.2014 (Art.
-    15, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
+(De tekst van KB nr. 11, artikel 1, werd gewijzigd met ingang van 16.05.2014 (Art.
+15, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
-    De bevoegdheden waarover de ambtenaren bedoeld in de artikelen 61, 62, § 1, en 63 van het Wetboek beschikken, worden ook verleend aan de ambtenaren van de Algemene Administratie van de Douane en Accijnzen.
+De bevoegdheden waarover de ambtenaren bedoeld in de artikelen 61, 62, § 1, en 63 van het Wetboek beschikken, worden ook verleend aan de ambtenaren van de Algemene Administratie van de Douane en Accijnzen.
 
 ## Art. 2
-    (De tekst van KB nr. 11, artikel 2 is van toepassing met ingang van 01.04.2007. (Art.
-    19, KB 17.05.2007, B.S. 31.05.2007))
+(De tekst van KB nr. 11, artikel 2 is van toepassing met ingang van 01.04.2007. (Art.
+19, KB 17.05.2007, B.S. 31.05.2007))
 
-    De ambtenaar bedoeld in artikel 93ter, § 1, tweede lid, van het Wetboek, is het hoofd van het ontvangkantoor van de belasting over de toegevoegde waarde waaronder de belastingplichtige of het lid van een BTW-eenheid in de zin van artikel 4, § 2 van het Wetboek, die eigenaar of vruchtgebruiker is van het voor hypotheek vatbaar goed of van een gedeelte ervan, ressorteert.
+De ambtenaar bedoeld in artikel 93ter, § 1, tweede lid, van het Wetboek, is het hoofd van het ontvangkantoor van de belasting over de toegevoegde waarde waaronder de belastingplichtige of het lid van een BTW-eenheid in de zin van artikel 4, § 2 van het Wetboek, die eigenaar of vruchtgebruiker is van het voor hypotheek vatbaar goed of van een gedeelte ervan, ressorteert.
 
 ## Art. 3
-    (De tekst van KB nr. 11, artikel 3 is van toepassing met ingang van 01.01.1993 (KB 29.12.1992))
+(De tekst van KB nr. 11, artikel 3 is van toepassing met ingang van 01.01.1993 (KB 29.12.1992))
 
-    Dit besluit vervangt het koninklijk besluit nr. 11 van 12 maart 1970 met betrekking tot toepassing van de belasting over de toegevoegde waarde.
+Dit besluit vervangt het koninklijk besluit nr. 11 van 12 maart 1970 met betrekking tot toepassing van de belasting over de toegevoegde waarde.
 
 ## Art. 4
-    (De tekst van KB nr. 11, artikel 4 is van toepassing met ingang van 01.01.1993 (KB 29.12.1992))
+(De tekst van KB nr. 11, artikel 4 is van toepassing met ingang van 01.01.1993 (KB 29.12.1992))
 
-    Dit besluit treedt in werking op 1 januari 1993.
+Dit besluit treedt in werking op 1 januari 1993.
 
 ## Art. 5
-    (De tekst van KB nr. 11, artikel 5 is van toepassing met ingang van 01.01.1993 (KB 29.12.1992))
+(De tekst van KB nr. 11, artikel 5 is van toepassing met ingang van 01.01.1993 (KB 29.12.1992))
 
-    Onze Minister van Financiën is belast met de uitvoering van dit besluit.
+Onze Minister van Financiën is belast met de uitvoering van dit besluit.

@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 pass: 35 headings, max sectie 3077 chars. Kleine KB met artikels correct als ## Art. headings. Concordantietabel onderaan als plain-text tabel correct. Geen artefacten.'
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:12Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:03:59Z'
       heading_count: 35
       max_section_chars: 3077
       file_size_chars: 23006

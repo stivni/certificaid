@@ -873,3 +873,86 @@ class TestStripCompilatieAppendix:
         """strip_compilatie_appendix staat in de TRANSFORMERS-registry."""
         from tools.etl.transformers import TRANSFORMERS
         assert "strip_compilatie_appendix" in TRANSFORMERS
+
+
+# ─── unindent_pdftotext_margin ────────────────────────────────────────────────
+
+class TestUnindentPdftotextMargin:
+    """Strip 4-space globale margin van pdftotext-output."""
+
+    def test_basic_4space_indent(self):
+        body = "    Art. 1. Eerste artikel.\n    Art. 2. Tweede artikel."
+        from tools.etl.transformers.unindent_pdftotext_margin import unindent_pdftotext_margin
+        result, _ = unindent_pdftotext_margin(body, {})
+        assert result == "Art. 1. Eerste artikel.\nArt. 2. Tweede artikel."
+
+    def test_relative_indent_preserved(self):
+        """`        sub-item` (8 spaties) wordt `    sub-item` (4 spaties)."""
+        body = "    item\n        sub-item"
+        from tools.etl.transformers.unindent_pdftotext_margin import unindent_pdftotext_margin
+        result, _ = unindent_pdftotext_margin(body, {})
+        assert result == "item\n    sub-item"
+
+    def test_no_indent_unchanged(self):
+        """Regels met 0-3 spaties blijven onaangetast."""
+        body = "## Heading\n\nGewone tekst.\n  twee-spaties-indent"
+        from tools.etl.transformers.unindent_pdftotext_margin import unindent_pdftotext_margin
+        result, _ = unindent_pdftotext_margin(body, {})
+        assert result == body
+
+    def test_empty_lines_preserved(self):
+        body = "    regel 1\n\n    regel 2"
+        from tools.etl.transformers.unindent_pdftotext_margin import unindent_pdftotext_margin
+        result, _ = unindent_pdftotext_margin(body, {})
+        assert result == "regel 1\n\nregel 2"
+
+    def test_fenced_code_block_preserved(self):
+        """Binnen ``` blocks blijft alle indent intact."""
+        body = (
+            "Body voor.\n"
+            "\n"
+            "```\n"
+            "    def foo():\n"
+            "        return 1\n"
+            "```\n"
+            "\n"
+            "    Geindenteerde body na code-block."
+        )
+        from tools.etl.transformers.unindent_pdftotext_margin import unindent_pdftotext_margin
+        result, _ = unindent_pdftotext_margin(body, {})
+        assert "    def foo():" in result
+        assert "        return 1" in result
+        # Body buiten fence krijgt de unindent
+        assert "Geindenteerde body na code-block." in result
+        assert "    Geindenteerde body na code-block." not in result
+
+    def test_realistic_wbtw_kb_body(self):
+        """Realistisch WBTW-KB body-fragment met margin."""
+        body = (
+            "## Art. 1\n"
+            "\n"
+            "    Het normale tarief van de belasting bedraagt 21%.\n"
+            "    Dit tarief is van toepassing op alle goederen tenzij...\n"
+            "\n"
+            "## Art. 2\n"
+            "\n"
+            "    Het verlaagde tarief van 6% geldt voor..."
+        )
+        from tools.etl.transformers.unindent_pdftotext_margin import unindent_pdftotext_margin
+        result, _ = unindent_pdftotext_margin(body, {})
+        assert "## Art. 1" in result
+        assert "Het normale tarief van de belasting bedraagt 21%." in result
+        # geen 4-space leading meer
+        for line in result.split("\n"):
+            assert not line.startswith("    "), f"Nog 4-space indent in: {line!r}"
+
+    def test_idempotent(self):
+        body = "    Art. 1.\n    Art. 2."
+        from tools.etl.transformers.unindent_pdftotext_margin import unindent_pdftotext_margin
+        once, _ = unindent_pdftotext_margin(body, {})
+        twice, _ = unindent_pdftotext_margin(once, {})
+        assert once == twice
+
+    def test_geregistreerd_in_transformers(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "unindent_pdftotext_margin" in TRANSFORMERS

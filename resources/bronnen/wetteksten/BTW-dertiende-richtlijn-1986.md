@@ -30,8 +30,8 @@ provenance:
     rationale: Kleine EU-richtlijn, L1 pass aangenomen. Geen eerdere problemen gesignaleerd bij EU-richtlijnen van deze grootte.
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:11Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:03:58Z'
       heading_count: 11
       max_section_chars: 2359
       file_size_chars: 7874

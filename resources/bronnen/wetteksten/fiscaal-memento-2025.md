@@ -30,8 +30,8 @@ provenance:
     rationale: "L1 flags bevestigd: 102 dotted-leader TOC-regels (A2), 1 paginavoettekst '12/2024' (A1). A6 ernstig: volledige alinea gesplitst per woord (regels 89-103: 'Het\\neerste\\nacht\\nhoofdstukken\\nbehandelen\\nde\\ndirecte\\nbelastingen'). Cover-ruisregels bovenaan (FISCAAL MEMENTO 2025, FR-disclaimer midden in NL-tekst). Secties zijn 268556 chars — structureel problematisch voor RAG."
     layer1:
       status: warn
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:15Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:02Z'
       heading_count: 21
       max_section_chars: 268556
       file_size_chars: 1056612

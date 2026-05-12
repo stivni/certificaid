@@ -27,8 +27,8 @@ provenance:
     rationale: Eerder beoordeeld als trusted door subagent-sonnet-4-6.
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:14Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:00Z'
       heading_count: 2
       max_section_chars: 537
       file_size_chars: 816

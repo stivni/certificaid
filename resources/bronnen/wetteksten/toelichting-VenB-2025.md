@@ -30,8 +30,8 @@ provenance:
     rationale: "Cover-fragment A6 (regels 50-65: 'TOELICHTING\\nbij de\\nAANGIFTE IN DE VENNOOTSCHAPSBELASTING\\n\\nAANSLAGJAAR 2025', '-1-\\n\\nbe\\n\\n•\\n'). Paginanummer '-1-' in body (A1). Bullet '•' als PDF-glyph op regel 67 (C1). Sectie-grootte 48748 chars (L1 warn). Structureel: 22 ## headings aanwezig."
     layer1:
       status: warn
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:15Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:02Z'
       heading_count: 22
       max_section_chars: 48748
       file_size_chars: 247177

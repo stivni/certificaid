@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 pass: 52 headings, max sectie 2999 chars. Nieuwe KB (2022) correct verwerkt met #### Art.-headings. Inhoud volledig.'
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:14Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:00Z'
       heading_count: 52
       max_section_chars: 2999
       file_size_chars: 34895

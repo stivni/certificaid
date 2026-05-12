@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 warn: 347 headings, max sectie 29141 chars (chunker auto-split). ##### Art.-headings correct, wijzigingsmarkers Fisconet-stijl OK. Inhoud volledig.'
     layer1:
       status: warn
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:14Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:01Z'
       heading_count: 347
       max_section_chars: 29141
       file_size_chars: 201150

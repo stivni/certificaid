@@ -30,8 +30,8 @@ provenance:
     rationale: "TOC met paginanummers op aparte regels door de TOC-sectie (regels 66-158): bv. 'VAK II - PERSOONLIJKE GEGEVENS EN GEZINSLASTEN\\n\\n10\\n\\nA. Persoonlijke gegevens\\nB. Gezinslasten\\n\\n10\\n16'. Paginanummers staan als aparte regels in de body (A2-achtig). A6: cover-tekstfragmenten 'Toelichting\\n\\nbij deel 1' opgesplitst. Hoofdsecties zijn correct als ## headings; inhoud na de TOC is grotendeels leesbaar."
     layer1:
       status: warn
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:15Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:02Z'
       heading_count: 13
       max_section_chars: 102927
       file_size_chars: 358438

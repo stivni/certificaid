@@ -17,39 +17,26 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1fc0dd6-dirty
+    pipeline_version: 06a7e51-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T20:30:13Z'
+  generated_at: '2026-05-12T21:03:30Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "4-space indent in artikel-bodies (regels 50-51, 55-56). Trailing-sectie 'Recent opgeheven...' (regels 61-69) bevat kolom-bleed: 'Koninklijk besluit nr. 39, van 17 oktober 1980, tot regeling van de Bijw. 04/01.01.2020 toepassingsmodaliteiten...' — bijwerking-datum en opgeheven-status zijn door de tekst gehusseld (A8/A7)."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:13Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:00Z'
       heading_count: 3
-      max_section_chars: 1242
-      file_size_chars: 2367
+      max_section_chars: 1234
+      file_size_chars: 2347
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: "4-space indent in artikel-bodies (regels 50-51, 55-56). Trailing-sectie 'Recent opgeheven...' (regels 61-69) bevat kolom-bleed: 'Koninklijk besluit nr. 39, van 17 oktober 1980, tot regeling van de Bijw. 04/01.01.2020 toepassingsmodaliteiten...' — bijwerking-datum en opgeheven-status zijn door de tekst gehusseld (A8/A7)."
-      concrete_problemen:
-        - regel: 50
-          categorie: A6
-          type: other
-          voorbeeld: '    De belastingschuld wordt op naam... (code block)'
-        - regel: 63
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: '...Bijw. 04/01.01.2020 toepassingsmodaliteiten... (datum binnen tekst gehusseld)'
 ---
 
 # K.B. van 29 augustus 2019, tot uitvoering van artikel 85, § 2, derde lid van het Wetboek van de belasting over de toegevoegde waarde met betrekking tot de opmaak van innings- en invorderingsregisters
@@ -60,18 +47,18 @@ Koninklijk besluit van 29 augustus 2019 tot uitvoering van artikel 85, § 2, der
 
 ## Art. 1
 
-    De belastingschuld wordt op naam van de belastingschuldige opgenomen in een innings- en invorderingsregister bedoeld in artikel 85 van het Wetboek.
-    Indien de belastingschuldige overleden is, wordt de belastingschuld opgenomen in een innings- en invorderingsregister op zijn naam, voorafgegaan door het woord "Nalatenschap".
+De belastingschuld wordt op naam van de belastingschuldige opgenomen in een innings- en invorderingsregister bedoeld in artikel 85 van het Wetboek.
+Indien de belastingschuldige overleden is, wordt de belastingschuld opgenomen in een innings- en invorderingsregister op zijn naam, voorafgegaan door het woord "Nalatenschap".
 
 ## Art. 2
 
-    Dit besluit treedt in werking de dag waarop het in het Belgisch Staatsblad wordt bekendgemaakt.
+Dit besluit treedt in werking de dag waarop het in het Belgisch Staatsblad wordt bekendgemaakt.
 
 ## Art. 3
 
-    De minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.
+De minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.
 
-    Recent opgeheven of vervangen koninklijke besluiten.
+Recent opgeheven of vervangen koninklijke besluiten.
 
 * Koninklijk besluit nr. 39, van 17 oktober 1980, tot regeling van de Bijw. 04/01.01.2020 toepassingsmodaliteiten van artikel 93duodecies van het Wetboek van de (Opgeheven) belasting over de toegevoegde waarde. (Opgeheven bij W 13.04.2019)
 

@@ -17,39 +17,26 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1fc0dd6-dirty
+    pipeline_version: 06a7e51-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T20:30:13Z'
+  generated_at: '2026-05-12T21:03:29Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "4-space indent op introductie-blok (regel 53) en HOOFDSTUK-afdeling-titels (regels 107, 116: '## HOOFDSTUK 2\\n    Vrijstelling...' en '## HOOFDSTUK 3\\n    Slotbepalingen'). A3: TOC-structuur ontbreekt maar HOOFDSTUK-headings zijn correct als ## + 4-space-ingesprongen subtitel."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:13Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:00Z'
       heading_count: 11
-      max_section_chars: 3581
-      file_size_chars: 9521
+      max_section_chars: 3577
+      file_size_chars: 9509
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: "4-space indent op introductie-blok (regel 53) en HOOFDSTUK-afdeling-titels (regels 107, 116: '## HOOFDSTUK 2\\n    Vrijstelling...' en '## HOOFDSTUK 3\\n    Slotbepalingen'). A3: TOC-structuur ontbreekt maar HOOFDSTUK-headings zijn correct als ## + 4-space-ingesprongen subtitel."
-      concrete_problemen:
-        - regel: 53
-          categorie: A6
-          type: other
-          voorbeeld: '    Dit koninklijk besluit vervangt... (code block)'
-        - regel: 105
-          categorie: A6
-          type: other
-          voorbeeld: '## HOOFDSTUK 2\n\n    Vrijstelling van intracommunautaire verwervingen... (subtitel als code)'
 ---
 
 # K.B. nr. 52 van 11 december 2019, met betrekking tot de bewijsregeling inzake de vrijstellingen betreffende de intracommunautaire leveringen van goederen en de ermee gelijkgestelde handelingen en met betrekking tot de vrijstelling van intracommunautaire verwervingen van goederen en de ermee gelijkgestelde handelingen, op het stuk van de belasting over de toegevoegde waarde
@@ -63,7 +50,7 @@ Koninklijk besluit nr. 52, van 11 december 2019, met betrekking tot de bewijsreg
 Officieuze coördinatie
 Ingevoerd met ingang van 01.01.2020 (KB 11.12.2019, B.S. 23.12.2009, pg. 116148)
 
-    Dit koninklijk besluit vervangt met ingang van 01.01.2020 het Koninklijk besluit nr. 52, van 29 december 1992, met betrekking tot de vrijstellingen betreffende de intracommunautaire leveringen van goederen en de ermee gelijkgestelde handelingen, alsook betreffende de intracommunautaire verwervingen van goederen, op het stuk van de belasting over de toegevoegde waarde.
+Dit koninklijk besluit vervangt met ingang van 01.01.2020 het Koninklijk besluit nr. 52, van 29 december 1992, met betrekking tot de vrijstellingen betreffende de intracommunautaire leveringen van goederen en de ermee gelijkgestelde handelingen, alsook betreffende de intracommunautaire verwervingen van goederen, op het stuk van de belasting over de toegevoegde waarde.
 
 ## HOOFDSTUK 1
 
@@ -117,7 +104,7 @@ Ingeval de goederen niet naar een inrichting van de afnemer worden verzonden of 
 
 ## HOOFDSTUK 2
 
-    Vrijstelling van intracommunautaire verwervingen van goederen en de ermee gelijkgestelde handelingen
+Vrijstelling van intracommunautaire verwervingen van goederen en de ermee gelijkgestelde handelingen
 
 ### Art. 5
 (De tekst van KB nr. 52 (2019), artikel 5, is van toepassing met ingang van 01.01.2020 (KB 11.12.2019, B.S. 23.12.2009, pg. 116148))
@@ -126,7 +113,7 @@ De bepalingen opgenomen in afdeling 2 van hoofdstuk IV van het koninklijk beslui
 
 ## HOOFDSTUK 3
 
-    Slotbepalingen
+Slotbepalingen
 
 ### Art. 6
 (De tekst van KB nr. 52 (2019), artikel 6, is van toepassing met ingang van 01.01.2020 (KB 11.12.2019, B.S. 23.12.2009, pg. 116148))

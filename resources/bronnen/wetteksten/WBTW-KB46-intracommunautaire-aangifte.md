@@ -17,31 +17,26 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1fc0dd6-dirty
+    pipeline_version: 06a7e51-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T20:30:12Z'
+  generated_at: '2026-05-12T21:03:29Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Schoon: geen 4-space indent in artikel-bodies. Alle 10 artikel-headings correct als ## Art. N. Wetswijzigingen-nota's correct inline. Art. 7 loopt over op regel 93-94 maar dit is een inhoudelijk doorlopende zin (geen breuk). Inhoud volledig."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:13Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:00Z'
       heading_count: 10
       max_section_chars: 1386
       file_size_chars: 7990
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: "Schoon: geen 4-space indent in artikel-bodies. Alle 10 artikel-headings correct als ## Art. N. Wetswijzigingen-nota's correct inline. Art. 7 loopt over op regel 93-94 maar dit is een inhoudelijk doorlopende zin (geen breuk). Inhoud volledig."
-      concrete_problemen: []
 ---
 
 # K.B. nr. 46 van 29 december 1992, tot regeling van de aangifte van de intracommunautaire verwerving van vervoermiddelen en van de betaling van de ter zake verschuldigde BTW

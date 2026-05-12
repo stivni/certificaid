@@ -30,8 +30,8 @@ provenance:
     rationale: "Kolom-bleed ETL-fix #3 slechts gedeeltelijk effectief: NL- en FR-tekst staan nog op dezelfde regels (bv. 'Artikel 1  Article 1 er', 'TITRE I ER - DROIT D'ENREGISTREMENT' in headings). B5: artikel-nummering als plain-text 'Artikel 1' in body (niet als ## of ### heading). B4: '##### van de belasting' als fragment-heading zonder volledige tekst (regel 68). Heading-structuur ernstig aangetast door bilinguïsme."
     layer1:
       status: warn
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:12Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:03:59Z'
       heading_count: 255
       max_section_chars: 55465
       file_size_chars: 489801

@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 pass: 11 headings, kleine richtlijn volledig intact. Opsomming van vennootschapsvormen correct als plain-text opsomming.'
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:12Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:03:58Z'
       heading_count: 11
       max_section_chars: 6515
       file_size_chars: 23049

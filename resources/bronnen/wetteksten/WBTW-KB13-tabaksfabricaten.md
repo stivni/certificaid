@@ -17,35 +17,26 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1fc0dd6-dirty
+    pipeline_version: 06a7e51-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T20:30:12Z'
+  generated_at: '2026-05-12T21:03:29Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Systematisch 4-space indent in alle artikel-bodies: '    De belasting over de toegevoegde waarde op tabaksfabrikaten...' rendert als code-blok."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:13Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:00Z'
       heading_count: 5
-      max_section_chars: 887
-      file_size_chars: 2601
+      max_section_chars: 867
+      file_size_chars: 2549
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: "Systematisch 4-space indent in alle artikel-bodies: '    De belasting over de toegevoegde waarde op tabaksfabrikaten...' rendert als code-blok."
-      concrete_problemen:
-        - regel: 49
-          categorie: A6
-          type: other
-          voorbeeld: '    (De tekst van KB nr. 13, artikel 1... (code block)'
 ---
 
 # K.B. nr. 13 van 29 december 1992, met betrekking tot de regeling voor tabaksfabricaten op het stuk van de belasting over de toegevoegde waarde
@@ -55,29 +46,29 @@ provenance:
 Koninklijk besluit nr. 13 van 29 december 1992 met betrekking tot de regeling voor tabaksfabricaten op het stuk van de belasting over de toegevoegde waarde (Uitvoering van de artikelen 45, § 3, 1°, 54 en 58, § 1, van het Wetboek) (Officieuze coördinatie) Laatst gewijzigd, met ingang van 01.01.2013 (KB 30.04.2013, B.S. 08.05.2013)
 
 ## Art. 1
-    (De tekst van KB nr. 13, artikel 1 is van toepassing met ingang van 14.04.2003.
-    (Art.1, KB 27.03.2003))
+(De tekst van KB nr. 13, artikel 1 is van toepassing met ingang van 14.04.2003.
+(Art.1, KB 27.03.2003))
 
-    De belasting over de toegevoegde waarde op tabaksfabrikaten, tabakssurrogaten daaronder begrepen, die in België worden ingevoerd, worden verworven in de zin van artikel 25ter van het Wetboek of worden geproduceerd, is opeisbaar op hetzelfde tijdstip als de accijns.
-    Het bedrag van de overeenkomstig artikel 58, § 1, van het Wetboek berekende belasting wordt door de schuldenaar van de accijns betaald aan de ontvanger die bevoegd is voor de heffing van de accijns.
-    Door of vanwege de Minister van Financiën kan, in individuele gevallen en onder de voorwaarden door of namens hem te bepalen voor ieder geval, voor de voldoening van de belasting een termijn worden toegestaan die niet langer mag zijn dan de termijn toegestaan voor de voldoening van de accijns.
+De belasting over de toegevoegde waarde op tabaksfabrikaten, tabakssurrogaten daaronder begrepen, die in België worden ingevoerd, worden verworven in de zin van artikel 25ter van het Wetboek of worden geproduceerd, is opeisbaar op hetzelfde tijdstip als de accijns.
+Het bedrag van de overeenkomstig artikel 58, § 1, van het Wetboek berekende belasting wordt door de schuldenaar van de accijns betaald aan de ontvanger die bevoegd is voor de heffing van de accijns.
+Door of vanwege de Minister van Financiën kan, in individuele gevallen en onder de voorwaarden door of namens hem te bepalen voor ieder geval, voor de voldoening van de belasting een termijn worden toegestaan die niet langer mag zijn dan de termijn toegestaan voor de voldoening van de accijns.
 
 ## Art. 2
-    (De tekst van KB nr. 13, artikel 2,werd gewijzigd met ingang van 01.01.2013 (Art. 16, KB 30.04.2013, B.S. 08.05.2013))
+(De tekst van KB nr. 13, artikel 2,werd gewijzigd met ingang van 01.01.2013 (Art. 16, KB 30.04.2013, B.S. 08.05.2013))
 
-    In afwijking van artikel 5, § 1, 8° en 9°, van het koninklijk besluit nr. 1 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde worden de leveringen van tabaksfabrikaten gefactureerd tegen een prijs inclusief belasting. Bovendien moet op de factuur de vermelding voorkomen : "Tabaksfabrikaten : BTW voldaan bij de bron en niet aftrekbaar".
+In afwijking van artikel 5, § 1, 8° en 9°, van het koninklijk besluit nr. 1 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde worden de leveringen van tabaksfabrikaten gefactureerd tegen een prijs inclusief belasting. Bovendien moet op de factuur de vermelding voorkomen : "Tabaksfabrikaten : BTW voldaan bij de bron en niet aftrekbaar".
 
 ## Art. 3
-    (De tekst van KB nr. 13, artikel 3 is van toepassing met ingang van 01.01.1993 (KB 29.12.1992))
+(De tekst van KB nr. 13, artikel 3 is van toepassing met ingang van 01.01.1993 (KB 29.12.1992))
 
-    Dit besluit vervangt het koninklijk besluit nr. 13 van 3 juli 1970 met betrekking tot de regeling voor tabaksfabrikaten op het stuk van de belasting over toegevoegde waarde.
+Dit besluit vervangt het koninklijk besluit nr. 13 van 3 juli 1970 met betrekking tot de regeling voor tabaksfabrikaten op het stuk van de belasting over toegevoegde waarde.
 
 ## Art. 4
-    (De tekst van KB nr. 13, artikel 4 is van toepassing met ingang van 01.01.1993 (KB 29.12.1992))
+(De tekst van KB nr. 13, artikel 4 is van toepassing met ingang van 01.01.1993 (KB 29.12.1992))
 
-    Dit besluit treedt in werking op 1 januari 1993.
+Dit besluit treedt in werking op 1 januari 1993.
 
 ## Art. 5
-    (De tekst van KB nr. 13, artikel 5 is van toepassing met ingang van 01.01.1993 (KB 29.12.1992))
+(De tekst van KB nr. 13, artikel 5 is van toepassing met ingang van 01.01.1993 (KB 29.12.1992))
 
-    Onze Minister van Financiën is belast met de uitvoering van dit besluit.
+Onze Minister van Financiën is belast met de uitvoering van dit besluit.

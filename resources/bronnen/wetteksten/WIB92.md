@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 warn: 1093 headings, max sectie 68112 chars (chunker auto-split). ###### Art.-headings correct, Fisconet-stijl. Inhoud volledig inclusief tijdelijke bepalingen Art. 552. Geen ETL-artefacten.'
     layer1:
       status: warn
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:15Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:01Z'
       heading_count: 1093
       max_section_chars: 68112
       file_size_chars: 1950660

@@ -17,35 +17,26 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1fc0dd6-dirty
+    pipeline_version: 06a7e51-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T20:30:11Z'
+  generated_at: '2026-05-12T21:03:28Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "4-space indent voor AFDELING-titels die als code-blokken renderen (regel 55: '## AFDELING I\\n    Voorwaarden waaraan het uitoefenen...'). Consistente toepassing door heel document."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:13Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:00Z'
       heading_count: 32
-      max_section_chars: 4562
-      file_size_chars: 43360
+      max_section_chars: 4554
+      file_size_chars: 43324
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: "4-space indent voor AFDELING-titels die als code-blokken renderen (regel 55: '## AFDELING I\\n    Voorwaarden waaraan het uitoefenen...'). Consistente toepassing door heel document."
-      concrete_problemen:
-        - regel: 55
-          categorie: A6
-          type: other
-          voorbeeld: '## AFDELING I\n    Voorwaarden waaraan... (afdeling-titel als code block)'
 ---
 
 # K.B. nr. 3 van 10 december 1969, met betrekking tot de aftrekken voor de toepassing van de belasting over de toegevoegde waarde
@@ -61,7 +52,7 @@ Koninklijk besluit nr. 3, van 10 december 1969, met betrekking tot de aftrekrege
 Laatstelijk gewijzigd, met ingang van 02.01.2020 (KB 11.12.2019, B.S. 23.11.2019, pg. 116136)
 
 ## AFDELING I
-    Voorwaarden waaraan het uitoefenen van het recht op aftrek onderworpen is.
+Voorwaarden waaraan het uitoefenen van het recht op aftrek onderworpen is.
 
 ### Art. 1
 (De tekst van KB nr. 3, artikel 1, § 2, tweede lid, werd gewijzigd met ingang van 16.05.2014 (Art. 6, KB 24.01.2015, B.S. 20.02.2015 - Ed. 2, pg. 13872))
@@ -101,7 +92,7 @@ Het recht op aftrek ontstaat:
 
 2° ten aanzien van de belasting geheven van een handeling die hij verricht voor de behoeften van zijn economische activiteit en die wordt gelijkgesteld met een levering door artikel 12, § 1, eerste lid, 3° en 4° van het Wetboek, of met een dienst door artikel 19, § 2, eerste lid, 1°, of § 3, van het Wetboek, het in artikel 3 van het koninklijk besluit nr. 1,
 
-    met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde bedoelde stuk opmaken en de verschuldigde belasting opnemen in de aangifte met betrekking tot het tijdvak waarin ze opeisbaar wordt;
+met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde bedoelde stuk opmaken en de verschuldigde belasting opnemen in de aangifte met betrekking tot het tijdvak waarin ze opeisbaar wordt;
 
 3° ten aanzien van de belasting geheven van de andere invoeren dan die bedoeld onder 4°, in het bezit zijn van een invoerdocument dat hem als geadresseerde aanwijst en dat de betaling van de belasting vaststelt;
 
@@ -111,7 +102,7 @@ Het recht op aftrek ontstaat:
 6° ten aanzien van de belasting geheven van een handeling die de belastingplichtige verricht voor de behoeften van zijn economische activiteit en die met een intracommunautaire verwerving wordt gelijkgesteld door artikel 25quater van het Wetboek, in het bezit zijn van het transfertdocument opgesteld overeenkomstig de wettelijke bepalingen die van kracht zijn in de lidstaat van waaruit deze goederen zijn verzonden of vervoerd of bij gebreke ervan, het in artikel 9, § 3, van het koninklijk besluit nr. 1 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde bedoelde stuk en de verschuldigde belasting opnemen in de aangifte met betrekking tot het tijdvak waarin ze opeisbaar wordt;
 
 7° ten aanzien van de belasting geheven van de handelingen waarvoor hij, bij toepassing van artikel 51, § 2, eerste lid, 1°, 2°, 5° en 6° of § 4, of van artikel 55, § 6, van het Wetboek, ertoe gehouden is zelf de opeisbare belasting te voldoen, in het bezit zijn van een factuur uitgereikt overeenkomstig de artikelen 53, § 2 en 53decies, § 2, van het Wetboek of, bij gebreke van een dergelijke factuur, van het bedoelde stuk in artikel 9, § 1, van het koninklijk besluit nr. 1 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde of in artikel 5, § 2, van het koninklijk besluit nr.
-    31 van 2 april 2002 met betrekking tot de toepassingsmodaliteiten van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen en de verschuldigde belasting opnemen in de aangifte met betrekking tot het tijdvak waarin ze opeisbaar wordt.
+31 van 2 april 2002 met betrekking tot de toepassingsmodaliteiten van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen en de verschuldigde belasting opnemen in de aangifte met betrekking tot het tijdvak waarin ze opeisbaar wordt.
 
 § 2. In afwijking van § 1 kan in de gevallen bedoeld in artikel 13 van het koninklijk besluit nr.
 1 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde, de aftrek worden verricht met inachtneming van de door of vanwege de Minister van Financiën gestelde voorwaarden.
@@ -126,7 +117,7 @@ belasting waarvoor het recht op aftrek tijdens hetzelfde tijdvak is ontstaan en 
 Wanneer de formaliteiten waaraan het uitoefenen van het recht op aftrek onderworpen is, niet tijdig worden vervuld en, in het bijzonder, wanneer de in artikel 3, § 1, 1°, bedoelde factuur werd uitgereikt na het verstrijken van de termijn voorgeschreven door artikel 4, § 1, van het koninklijk besluit nr. 1 van 29 december 1992, wordt dat recht uitgeoefend in de aangifte met betrekking tot het tijdvak waarin de formaliteiten worden vervuld of in een aangifte betreffende een volgend tijdvak, ingediend vóór het verstrijken van het derde kalenderjaar volgend op dat waarin de af te trekken belasting opeisbaar is geworden.
 
 ## AFDELING II
-    Herziening van de aftrek ten aanzien van andere belasting dan die geheven van bedrijfsmiddelen.
+Herziening van de aftrek ten aanzien van andere belasting dan die geheven van bedrijfsmiddelen.
 
 ### Art. 5
 (De tekst van KB nr. 3, artikel 5, werd vervangen met ingang van 01.01.2011 (Art. 2, KB 19.12.2010, B.S. 24.12.2010))
@@ -146,7 +137,7 @@ Wanneer de formaliteiten waaraan het uitoefenen van het recht op aftrek onderwor
 § 3. De toepassing van dit artikel wordt geregeld door of vanwege de Minister van Financiën.
 
 ## AFDELING III
-    Herziening van de aftrek ten aanzien van belasting geheven van bedrijfsmiddelen.
+Herziening van de aftrek ten aanzien van belasting geheven van bedrijfsmiddelen.
 
 ### Art. 6
 (De tekst van KB nr. 3, artikel 6 is van toepassing met ingang van 18.05.2007 (Art. 125, W 27.04.2007) B.S. 08.05.2007
@@ -211,7 +202,7 @@ Voor de toepassing van het eerste lid, worden bedoeld de belasting geheven van:
 In de situatie bedoeld in het eerste lid, 2°, vervangt het tijdvak bedoeld in paragraaf 3 het tijdvak bedoeld in paragraaf 2 vanaf 1 januari van het jaar waarin de bedoelde goederen worden verhuurd onder de voorwaarden van artikel 44, § 3, 2°, d), van het Wetboek. Voor de berekening van het bedrag van de belasting die vanaf dat tijdstip voor herziening vatbaar is, wordt het tijdvak bedoeld in paragraaf 3 geacht een aanvang genomen te hebben vanaf 1 januari van het jaar waarin de betrokken goederen het voorwerp hebben uitgemaakt van de eerste ingebruikneming.
 
 (1) Artikel 9, § 1, is van toepassing op de bedrijfsmiddelen waarvoor het recht op aftrek van de btw geheven van die bedrijfsmiddelen ten vroegste op 1 januari 2019 voor de eerste keer is ontstaan.
-    De bedrijfsmiddelen waarvan het recht op aftrek van de btw geheven van die bedrijfsmiddelen is ontstaan vóór 1 januari 2019, blijven onderworpen aan artikel 9, § 1, in de versie van kracht vóór de inwerkingtreding van dit besluit. (Art. 9, KB 12.05.2019)
+De bedrijfsmiddelen waarvan het recht op aftrek van de btw geheven van die bedrijfsmiddelen is ontstaan vóór 1 januari 2019, blijven onderworpen aan artikel 9, § 1, in de versie van kracht vóór de inwerkingtreding van dit besluit. (Art. 9, KB 12.05.2019)
 
 ### Art. 10
 (De tekst van KB nr. 3, artikel 10 is van toepassing met ingang van 01.04.2007 (Art. 103, W 27.04.2007) B.S. 08.05.2007 - Erratum B.S. 23.05.2007
@@ -278,7 +269,7 @@ Voor de toepassing van artikel 60 van het Wetboek moet de tabel betreffende een 
 § 6. De toepassing van dit artikel wordt geregeld door of vanwege de Minister van Financiën.
 
 ## AFDELING IV
-    Bepalingen met betrekking tot de aftrek volgens het algemeen verhoudingsgetal.
+Bepalingen met betrekking tot de aftrek volgens het algemeen verhoudingsgetal.
 
 ### Art. 12
 (De tekst van KB nr. 3, artikel 12, is van toepassing met ingang van 01.01.1971 (KB 10.12.1969))
@@ -379,7 +370,7 @@ Door of namens hem wordt onder meer de wijze van herziening van de aftrek bepaal
 2° wanneer iemand die zowel handelingen verricht die recht op aftrek verlenen als handelingen die geen recht op aftrek verlenen, uitsluitend handelingen begint te stellen die recht op aftrek verlenen;
 
 ## Afdeling VI
-    Bijzondere bepaling
+Bijzondere bepaling
 
 ### Art. 21bis
 (De tekst van KB nr. 3, artikel 21bis, § 1, tweede lid, werd gewijzigd met ingang van 27.05.2019 (Art. 5, KB 12.05.2019, B.S. 27.05.2019, Ed. 1, pg. 50443))
@@ -412,7 +403,7 @@ Die stukken worden opgemaakt in twee exemplaren waarvan er één bestemd is voor
 2° de belasting geheven van de bedrijfsmiddelen die het voorwerp uitmaken van de handelingen bedoeld in dit lid en die geen volledig recht op aftrek verleenden op het tijdstip waarop de belasting opeisbaar is geworden, voor zover het tijdvak bepaald bij artikel 48, § 2, van het Wetboek niet is verstreken;
 
 3° de belasting geheven van de bedrijfsmiddelen waarmee de belastingplichtige handelingen verricht bedoeld in dit lid, en die geen volledig recht op aftrek verleenden op het tijdstip waarop de belasting opeisbaar is geworden, voor zover het tijdvak bepaald bij artikel 48,
-    § 2, van het Wetboek niet is verstreken.
+§ 2, van het Wetboek niet is verstreken.
 Voor de belasting geheven van bedrijfsmiddelen is het bedrag van de regularisatie gelijk aan de belasting die niet in aftrek kon worden gebracht, verminderd met een vijfde of een vijftiende volgens het onderscheid gemaakt in artikel 9, naargelang de aard of het gebruik van het goed, per jaar, vanaf 1 januari van het jaar dat overeenkomstig de artikelen 2 en 9 in aanmerking moet worden genomen voor de berekening van de aftrek tot 31 december van het jaar dat voorafgaat aan het jaar waarin de verhuur bedoeld in het eerste lid een aanvang neemt.
 
 Deze regularisatie gebeurt bij toepassing van de artikelen 45 tot 49 van het Wetboek en overeenkomstig de regels van artikel 3.

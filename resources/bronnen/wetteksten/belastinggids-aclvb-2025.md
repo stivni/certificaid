@@ -30,8 +30,8 @@ provenance:
     rationale: "L1 flags terecht: 126 dotted-leader TOC-regels door het document (A2). Paginanummer 'Belastinggids 2025 • 3' op regel 107 is een pagina-voettekst in de body (A1). Cover-pagina-ruis bovenaan (regels 57-67): 'Belastinggids\\n2025\\n Belastinggids\\n2025\\n 2V.U.:\\n• Gert\\nBrochure\\nTruyens,\\nA5 Koning Albertlaan 95...'. Heading-count van 5 is correct voor de 5 hoofdstukken, maar sectie-groottes zijn enorm."
     layer1:
       status: warn
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:15Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:02Z'
       heading_count: 5
       max_section_chars: 89710
       file_size_chars: 154793

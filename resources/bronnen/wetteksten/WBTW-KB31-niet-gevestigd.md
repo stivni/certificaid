@@ -17,35 +17,26 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1fc0dd6-dirty
+    pipeline_version: 06a7e51-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T20:30:12Z'
+  generated_at: '2026-05-12T21:03:29Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Systematisch 4-space indent in artikel-bodies.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:13Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:00Z'
       heading_count: 9
-      max_section_chars: 3630
-      file_size_chars: 18102
+      max_section_chars: 3626
+      file_size_chars: 18098
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: Systematisch 4-space indent in artikel-bodies.
-      concrete_problemen:
-        - regel: 49
-          categorie: A6
-          type: other
-          voorbeeld: '    (De tekst van KB nr. 31... (code block)'
 ---
 
 # K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen
@@ -67,7 +58,7 @@ Laatstelijk gewijzigd, met ingang van 05.12.2019 (KB 07.11.2019, B.S. 25.11.2019
 1° goederen te leveren of diensten te verrichten, andere dan die waarvoor overeenkomstig artikel 51, § 2, eerste lid, 1°, 2°, 5° en 6°, van het Wetboek de belasting verschuldigd is door de medecontractant;
 
 2° goederen in te voeren, een intracommunautaire verwerving van goederen of een handeling te verrichten waarvoor hij schuldenaar is van de belasting krachtens artikel 51,
-    § 2, eerste lid, 3° en 4°, van het Wetboek;
+§ 2, eerste lid, 3° en 4°, van het Wetboek;
 
 3° een handeling te verrichten van plaatsing van goederen onder een andere regeling van entrepot dan douane-entrepot die niet aan de belasting is onderworpen.
 

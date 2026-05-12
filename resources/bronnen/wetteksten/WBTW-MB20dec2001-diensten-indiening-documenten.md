@@ -27,8 +27,8 @@ provenance:
     rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:14Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:01Z'
       heading_count: 2
       max_section_chars: 1490
       file_size_chars: 2516

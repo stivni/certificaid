@@ -30,8 +30,8 @@ provenance:
     rationale: 'Zelfde patroon als deel1: TOC met losse paginanummers (1 dotted-leader L1 flag). Cover-fragment A6. Secties correct als ## headings. Inhoud leesbaar maar cover-ruis en TOC-artefacten hinderen RAG.'
     layer1:
       status: warn
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:15Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:02Z'
       heading_count: 8
       max_section_chars: 56550
       file_size_chars: 187187

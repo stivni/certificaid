@@ -20,6 +20,7 @@ from tools.etl.transformers.fix_stuck_art_number import fix_stuck_art_number
 from tools.etl.transformers.split_merged_headings import split_merged_headings
 from tools.etl.transformers.strip_amendment_overview import strip_amendment_overview
 from tools.etl.transformers.strip_compilatie_appendix import strip_compilatie_appendix
+from tools.etl.transformers.unindent_pdftotext_margin import unindent_pdftotext_margin
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
@@ -32,6 +33,7 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "split_merged_headings": split_merged_headings,
     "strip_amendment_overview": strip_amendment_overview,
     "strip_compilatie_appendix": strip_compilatie_appendix,
+    "unindent_pdftotext_margin": unindent_pdftotext_margin,
 }
 
 

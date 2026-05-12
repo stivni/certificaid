@@ -30,8 +30,8 @@ provenance:
     rationale: "Kolom-bleed ETL-fix #3 slechts gedeeltelijk effectief: NL+FR text nog op dezelfde regels door heel document. Headings bevatten FR-tekst: '## TITEL 1 - Inleidende bepalingen  TITRE 1 er - Dispositions introductives'. Article headings: '###### Art. 1.1.0.0.1.  Art. 1.1.0.0.1.' (dubbel). Body-paragrafen: 'In deze codex wordt verstaan onder :  Dans le présent code, il y a lieu d'entendre par :'. OCR-artifact: 'Succes|Upsierechten' (regel ~124). 1225 regels met dubbele content."
     layer1:
       status: warn
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:13Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:00Z'
       heading_count: 836
       max_section_chars: 36043
       file_size_chars: 943675

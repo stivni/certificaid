@@ -17,39 +17,26 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1fc0dd6-dirty
+    pipeline_version: 06a7e51-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T20:30:12Z'
+  generated_at: '2026-05-12T21:03:29Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Dubbele TOC-structuur: AFDELING-titels staan eerst als TOC (regels 52-74) met 4-space ingesprongen beschrijving, dan opnieuw als ## AFDELING headings met 4-space body (regels 76-79: '## AFDELING 1\\n    Betalingen op de rekeningen...'). Heading-fragment 'Onderafdeling 2. Betaling op de financiële rekening van \"Inning en\\n    Invordering\". Art. 9 - 13' splitst over 2 regels als code-block."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-203610
-      run_at: '2026-05-12T20:36:13Z'
+      run_id: 20260512-210357
+      run_at: '2026-05-12T21:04:00Z'
       heading_count: 44
-      max_section_chars: 2790
-      file_size_chars: 22132
+      max_section_chars: 2786
+      file_size_chars: 22052
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: "Dubbele TOC-structuur: AFDELING-titels staan eerst als TOC (regels 52-74) met 4-space ingesprongen beschrijving, dan opnieuw als ## AFDELING headings met 4-space body (regels 76-79: '## AFDELING 1\\n    Betalingen op de rekeningen...'). Heading-fragment 'Onderafdeling 2. Betaling op de financiële rekening van \"Inning en\\n    Invordering\". Art. 9 - 13' splitst over 2 regels als code-block."
-      concrete_problemen:
-        - regel: 52
-          categorie: A3
-          type: other
-          voorbeeld: '## AFDELING 1. Betalingen op... / ## AFDELING 1\n    Betalingen... (dubbele TOC+body)'
-        - regel: 58
-          categorie: B1
-          type: other
-          voorbeeld: '### Onderafdeling 2. Betaling op de financiële rekening van "Inning en\n    Invordering". Art. 9 - 13'
 ---
 
 # K.B. nr. 24 van 29 december 1992, met betrekking tot de voldoening van de belasting over de toegevoegde waarde
@@ -63,20 +50,20 @@ Koninklijk besluit nr. 24, van 29 december 1992, met betrekking tot de voldoenin
 Laatstelijk gewijzigd met ingang van 01.01.2020 (KB 09.12.2019, B.S. 16.12.2019 – Ed. 2, pg. 113850)
 
 ## AFDELING 1. Betalingen op de rekeningen van "btw-ontvangsten"
-    Brussel, "Inning en Invordering", "Mini One Stop Shop - btw BE" en "btw on E-Services".
+Brussel, "Inning en Invordering", "Mini One Stop Shop - btw BE" en "btw on E-Services".
 
 ### Onderafdeling 1. Betaling op de postrekening van "BTW-Ontvangsten"
-    Brussel Art. 1 - 8
+Brussel Art. 1 - 8
 
 ### Onderafdeling 2. Betaling op de financiële rekening van "Inning en
-    Invordering". Art. 9 - 13
+Invordering". Art. 9 - 13
 
 ### Onderafdeling 3. Betaling op de postrekening van "Mini One Stop Shop
-    - VAT BE” Art. 13bis
+- VAT BE” Art. 13bis
 
 ### Onderafdeling 4. Betaling op de postrekening van "VAT on E-Services”
 
-    Disposition temporaire Art. 13ter
+Disposition temporaire Art. 13ter
 
 ## AFDELING 2. Betaling vastgesteld door middel van het elektronische systeem PLDA van de Algemene Administratie van de Douane en Accijnzen. Art. 14 - 15
 
@@ -87,14 +74,14 @@ Laatstelijk gewijzigd met ingang van 01.01.2020 (KB 09.12.2019, B.S. 16.12.2019 
 ## AFDELING 5. Slotbepalingen. Art. 22 - 24
 
 ## AFDELING 1
-    Betalingen op de rekeningen van "btw-ontvangsten" Brussel,
-    "Inning en Invordering", "Mini One Stop Shop - btw BE" en
-    "btw on E-Services".
+Betalingen op de rekeningen van "btw-ontvangsten" Brussel,
+"Inning en Invordering", "Mini One Stop Shop - btw BE" en
+"btw on E-Services".
 
 (Het opschrift van Afdeling 1, werd vervangen met ingang van 01.12.2019 (Art. 31, KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
 ### Onderafdeling 1
-    Betaling op de postrekening van "BTW-Ontvangsten" Brussel.
+Betaling op de postrekening van "BTW-Ontvangsten" Brussel.
 
 #### Art. 1
 (De tekst van KB nr. 24, artikel 1, inleidende zin, werd gewijzigd met ingang van 05.12.2019 (Art. 4, KB 07.11.2019, B.S. 25.11.2019, pg 108072))
@@ -107,7 +94,7 @@ Onder voorbehoud van de toepassing van de artikelen 8, § 1, en 10, 1°/1 van di
 3° de fiscale geldboeten en de nalatigheidsinteresten verschuldigd overeenkomstig artikel 91, § 1 van het Wetboek, voor het te laat betalen van de belasting waarvan de opeisbaarheid uit diezelfde aangifte blijkt;
 
 4° het voorschot waarvan de opeisbaarheid blijkt uit artikel 19 van het koninklijk besluit nr.
-    1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde.
+1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde.
 
 #### Art. 2
 (De tekst van KB nr. 24, artikel 2, is van toepassing met ingang van 01.01.1999 (Art.1, KB 12.11.1998))
@@ -145,15 +132,15 @@ In geen geval mag het op het betaalformulier gedrukte BTW-identificatienummer wo
 
 1° op de creditzijde:
 
-    a) het bedrag van alle betalingen op de postrekening nr. 679-2003000-47, die op naam van de belastingplichtige worden geboekt;
+a) het bedrag van alle betalingen op de postrekening nr. 679-2003000-47, die op naam van de belastingplichtige worden geboekt;
 
-    b) het batig maand- of kwartaalsaldo dat blijkt uit de door de belastingplichtige ingediende aangiften;
+b) het batig maand- of kwartaalsaldo dat blijkt uit de door de belastingplichtige ingediende aangiften;
 
 2° op de debetzijde:
 
-    a) het bedrag van de in artikel 1, 1° tot 3° bedoelde belasting, nalatigheidsinteresten en fiscale geldboeten;
+a) het bedrag van de in artikel 1, 1° tot 3° bedoelde belasting, nalatigheidsinteresten en fiscale geldboeten;
 
-    b) de bedragen die aan de belastingplichtige werden teruggegeven overeenkomstig artikel 7 van dit besluit.
+b) de bedragen die aan de belastingplichtige werden teruggegeven overeenkomstig artikel 7 van dit besluit.
 
 § 2. Door of vanwege de Minister van Financiën kan onder de voorwaarden die zij bepalen, worden beslist dat andere dan de onder § 1 van dit artikel vermelde verrichtingen in de rekening-courant worden geboekt als een door de belastingplichtige verschuldigd bedrag van belasting over de toegevoegde waarde, fiscale geldboeten, nalatigheidsinteresten en kosten, als
 
@@ -197,7 +184,7 @@ Indien de bijzondere rekening sluit met een overschot in het voordeel van de bel
 § 2. Iedere betaling of verrichting gelijkgesteld met een betaling overeenkomstig artikel 5, § 2, van dit besluit, die wordt ingeschreven op de rekening-courant en die uitwerking heeft na de in § 1 van dit artikel bedoelde kennisgeving, worden, niettegenstaande elke strijdige verklaring, geacht te zijn gedaan ter voldoening van de in artikel 1 en artikel 5, § 2, bedoelde bedragen, die de belastingplichtige verschuldigd is of zal worden voor het tijdvak dat volgt op dat waarvoor het bijhouden van een bijzondere rekening werd voorgeschreven.
 
 ### Onderafdeling 2
-    Betaling op de financiële rekening van "Inning en Invordering".
+Betaling op de financiële rekening van "Inning en Invordering".
 
 (Het opschrift van Onderafdeling 2, werd vervangen met ingang van 01.12.2019 (Art. 32, KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
@@ -230,7 +217,7 @@ De betalingen, andere dan diegene die op de postrekening van "btw-ontvangsten Br
 (De tekst van KB nr. 24, artikel 13, werd opgeheven met ingang van 01.12.2019 (Art. 36, KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
 
 ### Onderafdeling 3
-    Betaling op de postrekening van "Mini One Stop Shop - VAT BE”.
+Betaling op de postrekening van "Mini One Stop Shop - VAT BE”.
 
 (De tekst van Onderafdeling 3, werd vervangen met ingang van 01.01.2015 (Art. 7, KB 05.07.2015, B.S. 10.07.2015, pg. 45614))
 
@@ -244,7 +231,7 @@ artikelen 58ter, § 5 en 58quater, § 5, van het Wetboek wordt gedaan op de post
 De betaling door de belastingschuldige op de postrekening BE78 6792 0036 2186 van "Mini One Stop Shop - VAT BE" wordt gedaan door storting of overschrijving met vermelding van de gestructureerde mededeling die hem werd ter kennis gebracht door de administratie. Zij heeft uitwerking op de datum bepaald overeenkomstig artikel 4, § 1.
 
 ### Onderafdeling 4
-    Betaling op de postrekening van "VAT on E-Services".
+Betaling op de postrekening van "VAT on E-Services".
 
 (De tekst van Onderafdeling 4, werd ingevoegd met ingang van 01.01.2015. (Art. 8, KB 05.07.2015, B.S. 10.07.2015, pg. 45614))
 
@@ -277,8 +264,8 @@ Betaling vastgesteld door middel van het elektronische systeem PLDA van de Algem
 § 2. Door of vanwege de Minister van Financiën mag echter, in de bijzondere gevallen en onder de voorwaarden door hen te bepalen, worden toegestaan dat de voldoening van de ter zake van invoer verschuldigde BTW op een andere wijze wordt vastgesteld.
 
 ## AFDELING 3
-    Betaling bestemd voor het kantoor van de door of vanwege de
-    Minister van Financiën met de invordering belaste ambtenaar.
+Betaling bestemd voor het kantoor van de door of vanwege de
+Minister van Financiën met de invordering belaste ambtenaar.
 
 #### Art. 16
 (De tekst van KB nr. 24, artikel 16, wordt opgeheven met ingang van 01.12.2019 (Art. 37, KB 17.02.2019, B.S. 08.03.2019, pg. 25174))
@@ -312,7 +299,7 @@ De in artikel 20 bedoelde betalingen hebben uitwerking:
 Indien door of vanwege de Minister van Financiën overeenkomstig artikel 20 van dit besluit, een andere wijze van betalen wordt toegestaan, wordt door of vanwege hem eveneens de datum bepaald waarop de betaling uitwerking heeft.
 
 ## AFDELING 5
-    Slotbepalingen.
+Slotbepalingen.
 
 #### Art. 22
 (De tekst van KB nr. 24, artikel 22, is van toepassing met ingang van 01.01.1993 (KB 29.12.1992))
