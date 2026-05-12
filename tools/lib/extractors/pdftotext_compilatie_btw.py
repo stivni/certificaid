@@ -44,6 +44,7 @@ from pathlib import Path
 
 from tools.lib.compilatie_split import SplitConfig, split_btw_compilatie
 from tools.lib.inhoudstafel import strip_inhoudstafel
+from tools.etl.transformers.strip_compilatie_appendix import strip_compilatie_appendix as _strip_appendix
 
 ROOT = Path(__file__).resolve().parents[3]
 
@@ -57,6 +58,9 @@ _BODY_NOISE = [
     re.compile(r'^\s*-\s*\d+\s*-\s*$'),
     re.compile(r'^(?:KB|MB)\d+\w*\s+pg\..+', re.I),
     re.compile(r'^-\s*(?:KB|MB)\d+\w*\s+pg\..+', re.I),
+    # Datum-formaat running header: "KB 07.06.2007   pg. 1   Onbeperkt uitstel..."
+    # KB/MB gevolgd door datum DD.MM.YYYY, dan whitespace, dan pg. N
+    re.compile(r'^(?:KB|MB)\s+\d{2}\.\d{2}\.\d{4}\s+pg\.\s+\d+\b.+', re.I),
     # Page-footer in MB-compilatie: "- MB nr. 1 / 1 -" of "- MB 28.10.2009 / 3 -".
     re.compile(
         r'^-\s*MB\s+(?:nr\.\s+\d+\w*|\d{2}[\.\-/]\d{2}[\.\-/]\d{4})'
@@ -209,10 +213,11 @@ def _clean_body(body: str) -> str:
         out_lines.append(ln)
     body = "\n".join(out_lines)
 
-    # Stap 2-5: structuur-cleanup
+    # Stap 2-6: structuur-cleanup
     body = strip_inhoudstafel(body)
     body = _normalize_afdeling_and_artikel(body)
     body = _strip_bijwerking_marginalia(body)
+    body, _ = _strip_appendix(body, {})  # Stap 5: Fisconet bijwerkingen/recente-wijzigingen appendix
     body = _collapse_blanks(body)
     return body.strip() + "\n"
 

@@ -86,7 +86,7 @@ DEFAULT_CHAINS: dict[str, list[str]] = {
     "pymupdf_wetboek":          ["cleanup_basics", "strip_amendment_overview", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],
     "cbn_advies":               ["cleanup_basics", "emit_frontmatter"],
     "extract_norm":             ["cleanup_basics", "emit_frontmatter"],
-    "pdftotext_compilatie_btw": ["cleanup_basics", "strip_amendment_overview", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],
+    "pdftotext_compilatie_btw": ["cleanup_basics", "strip_compilatie_appendix", "strip_amendment_overview", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],
 }
 
 _DEFAULT_CHAIN_FALLBACK: list[str] = ["cleanup_basics", "emit_frontmatter"]
