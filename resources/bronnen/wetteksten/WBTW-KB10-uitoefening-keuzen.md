@@ -24,19 +24,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Schoon: geen 4-space indent in artikel-bodies. Wetswijzigingen-nota's staan correct als plain-text inline (niet ingesprongen). Alle 10+ artikel-headings correct. Art. 7bis en 7ter correct als ## headings. Inhoud volledig aanwezig."
     layer1:
       status: pass
-      run_id: 20260512-203201
-      run_at: '2026-05-12T20:32:04Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:13Z'
       heading_count: 13
       max_section_chars: 3364
       file_size_chars: 17325
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "Schoon: geen 4-space indent in artikel-bodies. Wetswijzigingen-nota's staan correct als plain-text inline (niet ingesprongen). Alle 10+ artikel-headings correct. Art. 7bis en 7ter correct als ## headings. Inhoud volledig aanwezig."
+      concrete_problemen: []
 ---
 
 # K.B. nr. 10 van 29 december 1992, met betrekking tot de uitoefeningsmodaliteiten van de keuzen, bedoeld in de artikelen 15, § 2, derde lid, 21bis, § 2, 9°, vierde lid, 25ter, § 1, tweede lid, 2°, tweede lid en 44, § 3, 2°, d), van het Wetboek van de belasting over de toegevoegde waarde, de aangiften van aanvang, wijziging, stopzetting van activiteit en de voorafgaande kennisgevingen inzake de belasting over de toegevoegde waarde

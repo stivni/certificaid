@@ -24,14 +24,14 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Kolom-bleed ETL-fix #3 slechts gedeeltelijk effectief: NL+FR text nog op dezelfde regels door heel document. Headings bevatten FR-tekst: '## TITEL 1 - Inleidende bepalingen  TITRE 1 er - Dispositions introductives'. Article headings: '###### Art. 1.1.0.0.1.  Art. 1.1.0.0.1.' (dubbel). Body-paragrafen: 'In deze codex wordt verstaan onder :  Dans le présent code, il y a lieu d'entendre par :'. OCR-artifact: 'Succes|Upsierechten' (regel ~124). 1225 regels met dubbele content."
     layer1:
       status: warn
-      run_id: 20260512-195249
-      run_at: '2026-05-12T19:52:50Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:13Z'
       heading_count: 836
       max_section_chars: 36043
       file_size_chars: 943675
@@ -41,6 +41,27 @@ provenance:
           detail: 'langste sectie op ######-niveau: 36043 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "Kolom-bleed ETL-fix #3 slechts gedeeltelijk effectief: NL+FR text nog op dezelfde regels door heel document. Headings bevatten FR-tekst: '## TITEL 1 - Inleidende bepalingen  TITRE 1 er - Dispositions introductives'. Article headings: '###### Art. 1.1.0.0.1.  Art. 1.1.0.0.1.' (dubbel). Body-paragrafen: 'In deze codex wordt verstaan onder :  Dans le présent code, il y a lieu d'entendre par :'. OCR-artifact: 'Succes|Upsierechten' (regel ~124). 1225 regels met dubbele content."
+      concrete_problemen:
+        - regel: 50
+          categorie: A8
+          type: column-bleed
+          voorbeeld: '## TITEL 1 - Inleidende bepalingen  TITRE 1 er - Dispositions introductives'
+        - regel: 54
+          categorie: A8
+          type: column-bleed
+          voorbeeld: '###### Art. 1.1.0.0.1.  Art. 1.1.0.0.1.'
+        - regel: 60
+          categorie: A8
+          type: column-bleed
+          voorbeeld: "In deze codex wordt verstaan onder :  Dans le présent code, il y a lieu d'entendre par :"
+        - regel: 124
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: "Wetboek van Successierechten : ... 'Succes|Upsierechten'"
 ---
 
 # Vlaamse Codex Fiscaliteit (VCF)

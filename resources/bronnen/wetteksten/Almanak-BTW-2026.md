@@ -30,8 +30,8 @@ provenance:
     rationale: "L1 fail: A2 TOC-stippen in body (1 regel met '................ 2021'), max sectie 1.5M chars (narratieve gids). Type-3 PDF via pdftotext_ejustice + simple_mode cleanup — als praktijkgids zonder Art-headings acceptabel voor chunking maar max_section_size is enorm."
     layer1:
       status: pass
-      run_id: 20260512-191733
-      run_at: '2026-05-12T19:17:33Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:11Z'
       heading_count: 305
       max_section_chars: 15678
       file_size_chars: 1470682

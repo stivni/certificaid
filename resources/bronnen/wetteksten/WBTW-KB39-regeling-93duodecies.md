@@ -24,19 +24,32 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "4-space indent op disclaimer-blok regel 54 ('    Dit koninklijk besluit nr. 39 werd opgeheven...'). Regels 73-76: voetnoot-inhoud (art. 138-139) staat 4-space ingesprongen als code-block, met 'Art. 138:' en 'Art. 139:' als zelfstandige heading-achtige regels zonder ## prefix (B5)."
     layer1:
       status: pass
-      run_id: 20260512-203201
-      run_at: '2026-05-12T20:32:05Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:13Z'
       heading_count: 8
       max_section_chars: 1359
       file_size_chars: 5640
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "4-space indent op disclaimer-blok regel 54 ('    Dit koninklijk besluit nr. 39 werd opgeheven...'). Regels 73-76: voetnoot-inhoud (art. 138-139) staat 4-space ingesprongen als code-block, met 'Art. 138:' en 'Art. 139:' als zelfstandige heading-achtige regels zonder ## prefix (B5)."
+      concrete_problemen:
+        - regel: 54
+          categorie: A6
+          type: other
+          voorbeeld: '    Dit koninklijk besluit nr. 39 werd opgeheven... (code block)'
+        - regel: 73
+          categorie: B5
+          type: other
+          voorbeeld: '(1) Art. 138: Deze wet is niet van toepassing: 1° op het administratieve...'
 ---
 
 # K.B. nr. 39 van 17 oktober 1980, tot regeling van de toepassingsmodaliteiten van artikel 93duodecies van het Wetboek van de belasting over de toegevoegde waarde

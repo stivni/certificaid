@@ -30,8 +30,8 @@ provenance:
     rationale: "L1 warn: 3706 headings, max sectie 29650 chars (chunker auto-split). ###### Art.-headings correct, opgeheven artikels als '<Opgeheven...>' zijn Fisconet-stijl. Inhoud volledig inclusief BW boek 8 afdeling 5."
     layer1:
       status: warn
-      run_id: 20260512-191733
-      run_at: '2026-05-12T19:17:35Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:12Z'
       heading_count: 3706
       max_section_chars: 29650
       file_size_chars: 1511480

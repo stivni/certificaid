@@ -24,19 +24,32 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "4-space indent op introductie-blok (regel 53) en HOOFDSTUK-afdeling-titels (regels 107, 116: '## HOOFDSTUK 2\\n    Vrijstelling...' en '## HOOFDSTUK 3\\n    Slotbepalingen'). A3: TOC-structuur ontbreekt maar HOOFDSTUK-headings zijn correct als ## + 4-space-ingesprongen subtitel."
     layer1:
       status: pass
-      run_id: 20260512-203201
-      run_at: '2026-05-12T20:32:05Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:13Z'
       heading_count: 11
       max_section_chars: 3581
       file_size_chars: 9521
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "4-space indent op introductie-blok (regel 53) en HOOFDSTUK-afdeling-titels (regels 107, 116: '## HOOFDSTUK 2\\n    Vrijstelling...' en '## HOOFDSTUK 3\\n    Slotbepalingen'). A3: TOC-structuur ontbreekt maar HOOFDSTUK-headings zijn correct als ## + 4-space-ingesprongen subtitel."
+      concrete_problemen:
+        - regel: 53
+          categorie: A6
+          type: other
+          voorbeeld: '    Dit koninklijk besluit vervangt... (code block)'
+        - regel: 105
+          categorie: A6
+          type: other
+          voorbeeld: '## HOOFDSTUK 2\n\n    Vrijstelling van intracommunautaire verwervingen... (subtitel als code)'
 ---
 
 # K.B. nr. 52 van 11 december 2019, met betrekking tot de bewijsregeling inzake de vrijstellingen betreffende de intracommunautaire leveringen van goederen en de ermee gelijkgestelde handelingen en met betrekking tot de vrijstelling van intracommunautaire verwervingen van goederen en de ermee gelijkgestelde handelingen, op het stuk van de belasting over de toegevoegde waarde

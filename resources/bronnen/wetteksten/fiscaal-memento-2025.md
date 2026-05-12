@@ -24,14 +24,14 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1 flags bevestigd: 102 dotted-leader TOC-regels (A2), 1 paginavoettekst '12/2024' (A1). A6 ernstig: volledige alinea gesplitst per woord (regels 89-103: 'Het\\neerste\\nacht\\nhoofdstukken\\nbehandelen\\nde\\ndirecte\\nbelastingen'). Cover-ruisregels bovenaan (FISCAAL MEMENTO 2025, FR-disclaimer midden in NL-tekst). Secties zijn 268556 chars — structureel problematisch voor RAG."
     layer1:
       status: warn
-      run_id: 20260512-201404
-      run_at: '2026-05-12T20:14:04Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:15Z'
       heading_count: 21
       max_section_chars: 268556
       file_size_chars: 1056612
@@ -53,6 +53,27 @@ provenance:
           samples:
             - 12/2024
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "L1 flags bevestigd: 102 dotted-leader TOC-regels (A2), 1 paginavoettekst '12/2024' (A1). A6 ernstig: volledige alinea gesplitst per woord (regels 89-103: 'Het\\neerste\\nacht\\nhoofdstukken\\nbehandelen\\nde\\ndirecte\\nbelastingen'). Cover-ruisregels bovenaan (FISCAAL MEMENTO 2025, FR-disclaimer midden in NL-tekst). Secties zijn 268556 chars — structureel problematisch voor RAG."
+      concrete_problemen:
+        - regel: 89
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: 'Het\n\neerste\n\nacht\n\nhoofdstukken\n\nbehandelen\n\nde\n\ndirecte\n\nbelastingen:'
+        - regel: 157
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: VOORWOORD........................................................................................ 2
+        - regel: 68
+          categorie: A1
+          type: other
+          voorbeeld: Le Mémento fiscal ne peut être considéré comme une circulaire administrative
+        - regel: 74
+          categorie: A1
+          type: form-feed
+          voorbeeld: 12/2024  (pagina-voettekst)
 ---
 
 # Fiscaal Memento 2025 — FOD Financiën (editie 12/2024)

@@ -30,8 +30,8 @@ provenance:
     rationale: 'D2: bestand is vrijwel leeg (115 chars, 0 headings, geen inhoud buiten de titel). De PDF bevat enkel een introductie/titelblad zonder eigenlijke artikelinhoud. Structureel leeg voor RAG-doeleinden.'
     layer1:
       status: pass
-      run_id: 20260512-191733
-      run_at: '2026-05-12T19:17:34Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:11Z'
       heading_count: 0
       max_section_chars: 115
       file_size_chars: 115

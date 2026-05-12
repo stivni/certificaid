@@ -24,19 +24,28 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "4-space indent voor AFDELING-titels die als code-blokken renderen (regel 55: '## AFDELING I\\n    Voorwaarden waaraan het uitoefenen...'). Consistente toepassing door heel document."
     layer1:
       status: pass
-      run_id: 20260512-203201
-      run_at: '2026-05-12T20:32:05Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:13Z'
       heading_count: 32
       max_section_chars: 4562
       file_size_chars: 43360
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "4-space indent voor AFDELING-titels die als code-blokken renderen (regel 55: '## AFDELING I\\n    Voorwaarden waaraan het uitoefenen...'). Consistente toepassing door heel document."
+      concrete_problemen:
+        - regel: 55
+          categorie: A6
+          type: other
+          voorbeeld: '## AFDELING I\n    Voorwaarden waaraan... (afdeling-titel als code block)'
 ---
 
 # K.B. nr. 3 van 10 december 1969, met betrekking tot de aftrekken voor de toepassing van de belasting over de toegevoegde waarde

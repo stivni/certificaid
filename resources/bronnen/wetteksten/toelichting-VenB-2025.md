@@ -24,14 +24,14 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Cover-fragment A6 (regels 50-65: 'TOELICHTING\\nbij de\\nAANGIFTE IN DE VENNOOTSCHAPSBELASTING\\n\\nAANSLAGJAAR 2025', '-1-\\n\\nbe\\n\\n•\\n'). Paginanummer '-1-' in body (A1). Bullet '•' als PDF-glyph op regel 67 (C1). Sectie-grootte 48748 chars (L1 warn). Structureel: 22 ## headings aanwezig."
     layer1:
       status: warn
-      run_id: 20260512-201404
-      run_at: '2026-05-12T20:14:04Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:15Z'
       heading_count: 22
       max_section_chars: 48748
       file_size_chars: 247177
@@ -41,6 +41,23 @@ provenance:
           detail: 'langste sectie op ##-niveau: 48748 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "Cover-fragment A6 (regels 50-65: 'TOELICHTING\\nbij de\\nAANGIFTE IN DE VENNOOTSCHAPSBELASTING\\n\\nAANSLAGJAAR 2025', '-1-\\n\\nbe\\n\\n•\\n'). Paginanummer '-1-' in body (A1). Bullet '•' als PDF-glyph op regel 67 (C1). Sectie-grootte 48748 chars (L1 warn). Structureel: 22 ## headings aanwezig."
+      concrete_problemen:
+        - regel: 63
+          categorie: A1
+          type: form-feed
+          voorbeeld: -1-  (paginanummer in body)
+        - regel: 67
+          categorie: C1
+          type: bullet-glyph
+          voorbeeld: •  (PDF-bullet als glyph)
+        - regel: 50
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: TOELICHTING\nbij de\nAANGIFTE IN DE VENNOOTSCHAPSBELASTING
 ---
 
 # Toelichting bij de aangifte in de vennootschapsbelasting — AJ 2025

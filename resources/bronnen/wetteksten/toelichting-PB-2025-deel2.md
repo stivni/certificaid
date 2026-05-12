@@ -24,14 +24,14 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Zelfde patroon als deel1: TOC met losse paginanummers (1 dotted-leader L1 flag). Cover-fragment A6. Secties correct als ## headings. Inhoud leesbaar maar cover-ruis en TOC-artefacten hinderen RAG.'
     layer1:
       status: warn
-      run_id: 20260512-201404
-      run_at: '2026-05-12T20:14:04Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:15Z'
       heading_count: 8
       max_section_chars: 56550
       file_size_chars: 187187
@@ -46,6 +46,19 @@ provenance:
           samples:
             - '................................................................................'
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: 'Zelfde patroon als deel1: TOC met losse paginanummers (1 dotted-leader L1 flag). Cover-fragment A6. Secties correct als ## headings. Inhoud leesbaar maar cover-ruis en TOC-artefacten hinderen RAG.'
+      concrete_problemen:
+        - regel: 55
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: Toelichting\n\nbij deel 2 van de\nvoorbereiding van de aangifte
+        - regel: 1
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: 1 dotted-leader-regel gevonden (L1 flag)
 ---
 
 # Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Deel 2

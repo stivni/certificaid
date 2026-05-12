@@ -24,19 +24,32 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Vrijwel schoon: geen 4-space indent-probleem in artikel-bodies. Twee kleine artefacten: '    (Opgeheven' op regel 100 en '    Bijlage' op regel 149 zijn 4-space ingesprongen, maar dit zijn marginale artefacten in randgevallen (opgeheven artikel, bijlage-verwijzing). Alle 16 artikel-headings correct, inhoud compleet, wetshistorie-nota's als plain text correct."
     layer1:
       status: pass
-      run_id: 20260512-203201
-      run_at: '2026-05-12T20:32:04Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:13Z'
       heading_count: 16
       max_section_chars: 1368
       file_size_chars: 10258
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "Vrijwel schoon: geen 4-space indent-probleem in artikel-bodies. Twee kleine artefacten: '    (Opgeheven' op regel 100 en '    Bijlage' op regel 149 zijn 4-space ingesprongen, maar dit zijn marginale artefacten in randgevallen (opgeheven artikel, bijlage-verwijzing). Alle 16 artikel-headings correct, inhoud compleet, wetshistorie-nota's als plain text correct."
+      concrete_problemen:
+        - regel: 100
+          categorie: A6
+          type: other
+          voorbeeld: '    (Opgeheven  (4-space indent)'
+        - regel: 149
+          categorie: A6
+          type: other
+          voorbeeld: '    Bijlage  (4-space indent)'
 ---
 
 # K.B. van 4 april 2014, betreffende de verificatie van het regelmatig aanwezig zijn van motorvoertuigen

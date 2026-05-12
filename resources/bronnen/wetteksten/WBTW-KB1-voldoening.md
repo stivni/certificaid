@@ -30,8 +30,8 @@ provenance:
     rationale: "L1 pass: 62 headings, max sectie 9654 chars. Headings correct als ## en #### Art. N. 'Beeld niet opgenomen'-meldingen zijn bron-stijl. Inhoud volledig inclusief bijlagen N1-N4."
     layer1:
       status: pass
-      run_id: 20260512-191733
-      run_at: '2026-05-12T19:17:36Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:13Z'
       heading_count: 62
       max_section_chars: 9654
       file_size_chars: 109575

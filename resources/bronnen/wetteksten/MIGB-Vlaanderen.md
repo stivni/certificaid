@@ -30,8 +30,8 @@ provenance:
     rationale: "L1 pass: 402 headings, max sectie 6938 chars. ###### Artikel-headings correct, concordantietabel VCF-VCF als plain-text tabel OK. Opgeheven bepalingen als '(...)' zijn bron-stijl. Inhoud volledig."
     layer1:
       status: pass
-      run_id: 20260512-191733
-      run_at: '2026-05-12T19:17:34Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:12Z'
       heading_count: 402
       max_section_chars: 6938
       file_size_chars: 103908

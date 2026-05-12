@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 pass: 11 headings, kleine verordening volledig intact. Spurious line-breaks in paragrafen zijn EU PB-opmaak, geen ETL-bug.'
     layer1:
       status: pass
-      run_id: 20260512-191733
-      run_at: '2026-05-12T19:17:34Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:12Z'
       heading_count: 11
       max_section_chars: 11254
       file_size_chars: 17133

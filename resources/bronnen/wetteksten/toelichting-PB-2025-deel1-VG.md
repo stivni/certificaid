@@ -24,14 +24,14 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "TOC met paginanummers op aparte regels door de TOC-sectie (regels 66-158): bv. 'VAK II - PERSOONLIJKE GEGEVENS EN GEZINSLASTEN\\n\\n10\\n\\nA. Persoonlijke gegevens\\nB. Gezinslasten\\n\\n10\\n16'. Paginanummers staan als aparte regels in de body (A2-achtig). A6: cover-tekstfragmenten 'Toelichting\\n\\nbij deel 1' opgesplitst. Hoofdsecties zijn correct als ## headings; inhoud na de TOC is grotendeels leesbaar."
     layer1:
       status: warn
-      run_id: 20260512-201404
-      run_at: '2026-05-12T20:14:04Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:15Z'
       heading_count: 13
       max_section_chars: 102927
       file_size_chars: 358438
@@ -41,6 +41,19 @@ provenance:
           detail: 'langste sectie op ##-niveau: 102927 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "TOC met paginanummers op aparte regels door de TOC-sectie (regels 66-158): bv. 'VAK II - PERSOONLIJKE GEGEVENS EN GEZINSLASTEN\\n\\n10\\n\\nA. Persoonlijke gegevens\\nB. Gezinslasten\\n\\n10\\n16'. Paginanummers staan als aparte regels in de body (A2-achtig). A6: cover-tekstfragmenten 'Toelichting\\n\\nbij deel 1' opgesplitst. Hoofdsecties zijn correct als ## headings; inhoud na de TOC is grotendeels leesbaar."
+      concrete_problemen:
+        - regel: 76
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: VAK II - PERSOONLIJKE GEGEVENS...\n\n10 (paginanummer als aparte regel)
+        - regel: 50
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: Toelichting\n\nbij deel 1 van de\nvoorbereiding van de aangifte
 ---
 
 # Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Vlaams Gewest

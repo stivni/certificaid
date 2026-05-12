@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 pass: 115 headings, max sectie 776 chars. Wijzigingswet met correcte #### Art. headings. Inhoud zijn wijzigingen van andere wetboeken, volledig aanwezig.'
     layer1:
       status: pass
-      run_id: 20260512-191733
-      run_at: '2026-05-12T19:17:34Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:11Z'
       heading_count: 115
       max_section_chars: 776
       file_size_chars: 21051

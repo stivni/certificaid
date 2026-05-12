@@ -24,14 +24,14 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Systematisch 4-space indent in artikel-body (regel 60: '    (De tekst van KB nr. 20...'). L1 warn terecht: langste sectie 97071 chars door omvangrijke bijlage (BTW-tarieventabel). Chunker handelt dit automatisch af maar inhoudelijk is de bijlage als één doorlopend blok zonder sub-headings."
     layer1:
       status: warn
-      run_id: 20260512-203201
-      run_at: '2026-05-12T20:32:04Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:13Z'
       heading_count: 9
       max_section_chars: 97071
       file_size_chars: 110528
@@ -41,6 +41,15 @@ provenance:
           detail: 'langste sectie op ###-niveau: 97071 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "Systematisch 4-space indent in artikel-body (regel 60: '    (De tekst van KB nr. 20...'). L1 warn terecht: langste sectie 97071 chars door omvangrijke bijlage (BTW-tarieventabel). Chunker handelt dit automatisch af maar inhoudelijk is de bijlage als één doorlopend blok zonder sub-headings."
+      concrete_problemen:
+        - regel: 60
+          categorie: A6
+          type: other
+          voorbeeld: '    (De tekst van KB nr. 20, artikel 1... (code block)'
 ---
 
 # K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven

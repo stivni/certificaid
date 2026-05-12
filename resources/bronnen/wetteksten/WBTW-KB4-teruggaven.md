@@ -24,19 +24,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Schoon: geen 4-space indent in artikel-bodies. Wetswijzigingen-nota's correct als inline plain text. 18 artikel-headings correct als ## Art. N. Inhoud volledig."
     layer1:
       status: pass
-      run_id: 20260512-203201
-      run_at: '2026-05-12T20:32:05Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:13Z'
       heading_count: 18
       max_section_chars: 15569
       file_size_chars: 41538
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "Schoon: geen 4-space indent in artikel-bodies. Wetswijzigingen-nota's correct als inline plain text. 18 artikel-headings correct als ## Art. N. Inhoud volledig."
+      concrete_problemen: []
 ---
 
 # K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde

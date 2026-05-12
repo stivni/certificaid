@@ -24,14 +24,14 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Kolom-bleed ETL-fix #3 slechts gedeeltelijk effectief: NL- en FR-tekst staan nog op dezelfde regels (bv. 'Artikel 1  Article 1 er', 'TITRE I ER - DROIT D'ENREGISTREMENT' in headings). B5: artikel-nummering als plain-text 'Artikel 1' in body (niet als ## of ### heading). B4: '##### van de belasting' als fragment-heading zonder volledige tekst (regel 68). Heading-structuur ernstig aangetast door bilinguïsme."
     layer1:
       status: warn
-      run_id: 20260512-195251
-      run_at: '2026-05-12T19:52:52Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:12Z'
       heading_count: 255
       max_section_chars: 55465
       file_size_chars: 489801
@@ -41,6 +41,27 @@ provenance:
           detail: 'langste sectie op ######-niveau: 55465 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "Kolom-bleed ETL-fix #3 slechts gedeeltelijk effectief: NL- en FR-tekst staan nog op dezelfde regels (bv. 'Artikel 1  Article 1 er', 'TITRE I ER - DROIT D'ENREGISTREMENT' in headings). B5: artikel-nummering als plain-text 'Artikel 1' in body (niet als ## of ### heading). B4: '##### van de belasting' als fragment-heading zonder volledige tekst (regel 68). Heading-structuur ernstig aangetast door bilinguïsme."
+      concrete_problemen:
+        - regel: 70
+          categorie: A8
+          type: column-bleed
+          voorbeeld: Artikel 1  Article 1 er
+        - regel: 88
+          categorie: B4
+          type: other
+          voorbeeld: "## TITEL I - REGISTRATIERECHT  TITRE I ER - DROIT D'ENREGISTREMENT"
+        - regel: 68
+          categorie: B1
+          type: other
+          voorbeeld: '##### van de belasting'
+        - regel: 70
+          categorie: B5
+          type: other
+          voorbeeld: 'Artikel 1  Article 1 er (plain-text, geen ## prefix)'
 ---
 
 # Registratierechten — federaal

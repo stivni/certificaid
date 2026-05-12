@@ -24,19 +24,32 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "4-space indent op HOOFDSTUK/AFDELING-titels in de body (regels 72, 79-81, 103-104). Bv. '## HOOFDSTUK I\\n    Vrijstelling ingesteld bij artikel 39, § 1...' en '### AFDELING 1\\n    Uitvoer van goederen...\\n    Vrijstelling ingesteld bij artikel 39...' — sectie-titels als code-blok. A3-achtig: HOOFDSTUK-headings in de TOC (regels 53-69) dubbel aanwezig als TOC + body."
     layer1:
       status: pass
-      run_id: 20260512-203201
-      run_at: '2026-05-12T20:32:04Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:13Z'
       heading_count: 40
       max_section_chars: 1674
       file_size_chars: 14823
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "4-space indent op HOOFDSTUK/AFDELING-titels in de body (regels 72, 79-81, 103-104). Bv. '## HOOFDSTUK I\\n    Vrijstelling ingesteld bij artikel 39, § 1...' en '### AFDELING 1\\n    Uitvoer van goederen...\\n    Vrijstelling ingesteld bij artikel 39...' — sectie-titels als code-blok. A3-achtig: HOOFDSTUK-headings in de TOC (regels 53-69) dubbel aanwezig als TOC + body."
+      concrete_problemen:
+        - regel: 72
+          categorie: A6
+          type: other
+          voorbeeld: '## HOOFDSTUK I\n    Vrijstelling ingesteld bij artikel 39... (titel als code block)'
+        - regel: 53
+          categorie: A3
+          type: other
+          voorbeeld: TOC-regels 53-69 herhalen HOOFDSTUK/AFDELING-structuur die ook als body-headings aanwezig zijn
 ---
 
 # K.B. nr. 18 van 29 december 1992, met betrekking tot de vrijstellingen ten aanzien van de uitvoer van goederen en diensten naar een plaats buiten de Gemeenschap, op het stuk van de belasting over de toegevoegde waarde

@@ -24,19 +24,28 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Systematisch 4-space indent in artikel-bodies door heel document (284 4-space regels).
     layer1:
       status: pass
-      run_id: 20260512-203201
-      run_at: '2026-05-12T20:32:05Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:13Z'
       heading_count: 18
       max_section_chars: 19857
       file_size_chars: 46272
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: Systematisch 4-space indent in artikel-bodies door heel document (284 4-space regels).
+      concrete_problemen:
+        - regel: 49
+          categorie: A6
+          type: other
+          voorbeeld: '    (De tekst van KB nr. 41... (code block)'
 ---
 
 # K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde

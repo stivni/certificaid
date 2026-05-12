@@ -7,21 +7,23 @@ gerelateerde_adviezen:
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
 nummer: CBN-advies 158/1
 provenance:
-  generated_at: '2026-05-11T19:17:25Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-afschrijving-en-ontginning-in-concessie-van
       sha256: 08e46100637031f687700017facf7e19aed6f6f370c0da7b2d8a08fc11f758d4
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T19:17:25Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: trusted
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Volledig schoon advies. Heading-hiërarchie correct (## en ###), paragraftekst vloeiend, voetnoot [^1] correct gekoppeld. Geen extractie-artefacten. Inhoud compleet (verwerving eigendom + concessie + contractuele verplichtingen).'
     layer1:
       status: pass
       run_id: 20260511-191727
@@ -31,13 +33,11 @@ provenance:
       file_size_chars: 5824
       flags: []
     layer2:
-      agent:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: 'Volledig schoon advies. Heading-hiërarchie correct (## en ###), paragraftekst vloeiend, voetnoot [^1] correct gekoppeld. Geen extractie-artefacten. Inhoud compleet (verwerving eigendom + concessie + contractuele verplichtingen).'
       concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
 themas:
   - concessie
   - materiële vaste activa

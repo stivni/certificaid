@@ -24,19 +24,32 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "4-space indent op introductie-blok (regel 48: '    Dit koninklijk besluit vervangt...') en BIJLAGE-sectie (147 4-space regels). Bijlage met geldboeten-tabel staat als code-block in plaats van als markdown-tabel of plain text."
     layer1:
       status: pass
-      run_id: 20260512-203201
-      run_at: '2026-05-12T20:32:05Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:13Z'
       heading_count: 12
       max_section_chars: 14415
       file_size_chars: 17157
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "4-space indent op introductie-blok (regel 48: '    Dit koninklijk besluit vervangt...') en BIJLAGE-sectie (147 4-space regels). Bijlage met geldboeten-tabel staat als code-block in plaats van als markdown-tabel of plain text."
+      concrete_problemen:
+        - regel: 48
+          categorie: A6
+          type: other
+          voorbeeld: '    Dit koninklijk besluit vervangt... (code block)'
+        - regel: 81
+          categorie: A6
+          type: other
+          voorbeeld: '    BIJLAGE (code block, gevolgd door geldboeten-tabel als code)'
 ---
 
 # K.B. nr. 44 van 9 juli 2012, tot vaststelling van het bedrag van de niet-proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde

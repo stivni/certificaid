@@ -24,19 +24,32 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Systematisch patroon in alle WBTW-KB compilatie-splits: artikel-bodies en wetshistorie-nota's zijn 4-space ingesprongen waardoor ze als code-blokken renderen in markdown. Dit is ETL-fix #4 artefact. Alle paragrafen na '## Art. 1' etc. beginnen met 4 spaties."
     layer1:
       status: pass
-      run_id: 20260512-203201
-      run_at: '2026-05-12T20:32:04Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:13Z'
       heading_count: 9
       max_section_chars: 2557
       file_size_chars: 11309
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "Systematisch patroon in alle WBTW-KB compilatie-splits: artikel-bodies en wetshistorie-nota's zijn 4-space ingesprongen waardoor ze als code-blokken renderen in markdown. Dit is ETL-fix #4 artefact. Alle paragrafen na '## Art. 1' etc. beginnen met 4 spaties."
+      concrete_problemen:
+        - regel: 50
+          categorie: B5
+          type: other
+          voorbeeld: '    Het kassasysteem en de controlemodule bedoeld in artikel 2... (4-space indent = code block)'
+        - regel: 50
+          categorie: A6
+          type: other
+          voorbeeld: '    (De tekst van KB 04.04.2014, artikel 1... (wetshistorie als code block)'
 ---
 
 # K.B. 1 oktober 2013 met betrekking tot de toepassingsmodaliteiten ten aanzien van de certificatie van een geregistreerd kassasysteem in de horecasector

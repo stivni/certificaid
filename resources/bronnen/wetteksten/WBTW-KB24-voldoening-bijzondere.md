@@ -24,19 +24,32 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Dubbele TOC-structuur: AFDELING-titels staan eerst als TOC (regels 52-74) met 4-space ingesprongen beschrijving, dan opnieuw als ## AFDELING headings met 4-space body (regels 76-79: '## AFDELING 1\\n    Betalingen op de rekeningen...'). Heading-fragment 'Onderafdeling 2. Betaling op de financiële rekening van \"Inning en\\n    Invordering\". Art. 9 - 13' splitst over 2 regels als code-block."
     layer1:
       status: pass
-      run_id: 20260512-203201
-      run_at: '2026-05-12T20:32:04Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:13Z'
       heading_count: 44
       max_section_chars: 2790
       file_size_chars: 22132
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "Dubbele TOC-structuur: AFDELING-titels staan eerst als TOC (regels 52-74) met 4-space ingesprongen beschrijving, dan opnieuw als ## AFDELING headings met 4-space body (regels 76-79: '## AFDELING 1\\n    Betalingen op de rekeningen...'). Heading-fragment 'Onderafdeling 2. Betaling op de financiële rekening van \"Inning en\\n    Invordering\". Art. 9 - 13' splitst over 2 regels als code-block."
+      concrete_problemen:
+        - regel: 52
+          categorie: A3
+          type: other
+          voorbeeld: '## AFDELING 1. Betalingen op... / ## AFDELING 1\n    Betalingen... (dubbele TOC+body)'
+        - regel: 58
+          categorie: B1
+          type: other
+          voorbeeld: '### Onderafdeling 2. Betaling op de financiële rekening van "Inning en\n    Invordering". Art. 9 - 13'
 ---
 
 # K.B. nr. 24 van 29 december 1992, met betrekking tot de voldoening van de belasting over de toegevoegde waarde

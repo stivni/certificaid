@@ -24,12 +24,36 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4: 'ONDERTITEL 1-6' als plain-text regels (niet als heading) doorheen het document (regels 80, 132, 136, 188, 240, 276, 1097...). B4: 'Tekst' als losse plain-text regel op regel 340 (overgangsmarkering die uit de bron-PDF stamt). A3: eerste 310 regels bevatten een TOC met afgekorte artikel-verwijzingen (bv. `##### Art. 24` zonder body) gevolgd door de eigenlijke wettekst — dit is een dubbele inhoudsopgave-structuur. Inhoud na regel 340 is grotendeels schoon."
     layer1:
+      status: pass
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:10Z'
+      heading_count: 533
+      max_section_chars: 8309
+      file_size_chars: 302653
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "B4: 'ONDERTITEL 1-6' als plain-text regels (niet als heading) doorheen het document (regels 80, 132, 136, 188, 240, 276, 1097...). B4: 'Tekst' als losse plain-text regel op regel 340 (overgangsmarkering die uit de bron-PDF stamt). A3: eerste 310 regels bevatten een TOC met afgekorte artikel-verwijzingen (bv. `##### Art. 24` zonder body) gevolgd door de eigenlijke wettekst — dit is een dubbele inhoudsopgave-structuur. Inhoud na regel 340 is grotendeels schoon."
+      concrete_problemen:
+        - regel: 80
+          categorie: B4
+          type: other
+          voorbeeld: ONDERTITEL 1. - De bescherming van natuurlijke personen...
+        - regel: 340
+          categorie: A3
+          type: other
+          voorbeeld: Tekst
+        - regel: 48
+          categorie: A3
+          type: other
+          voorbeeld: '##### Art. 24  (TOC-verwijzing zonder body, voor regel 340)'
 ---
 
 # Belgische AVG-uitvoeringswet 2018

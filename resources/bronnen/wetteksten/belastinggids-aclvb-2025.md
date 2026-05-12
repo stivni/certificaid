@@ -24,14 +24,14 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "L1 flags terecht: 126 dotted-leader TOC-regels door het document (A2). Paginanummer 'Belastinggids 2025 • 3' op regel 107 is een pagina-voettekst in de body (A1). Cover-pagina-ruis bovenaan (regels 57-67): 'Belastinggids\\n2025\\n Belastinggids\\n2025\\n 2V.U.:\\n• Gert\\nBrochure\\nTruyens,\\nA5 Koning Albertlaan 95...'. Heading-count van 5 is correct voor de 5 hoofdstukken, maar sectie-groottes zijn enorm."
     layer1:
       status: warn
-      run_id: 20260512-201404
-      run_at: '2026-05-12T20:14:04Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:15Z'
       heading_count: 5
       max_section_chars: 89710
       file_size_chars: 154793
@@ -48,6 +48,23 @@ provenance:
             - '................................................................................'
             - '................................................................................'
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "L1 flags terecht: 126 dotted-leader TOC-regels door het document (A2). Paginanummer 'Belastinggids 2025 • 3' op regel 107 is een pagina-voettekst in de body (A1). Cover-pagina-ruis bovenaan (regels 57-67): 'Belastinggids\\n2025\\n Belastinggids\\n2025\\n 2V.U.:\\n• Gert\\nBrochure\\nTruyens,\\nA5 Koning Albertlaan 95...'. Heading-count van 5 is correct voor de 5 hoofdstukken, maar sectie-groottes zijn enorm."
+      concrete_problemen:
+        - regel: 70
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: I Woord vooraf.................................................................................................................  9
+        - regel: 107
+          categorie: A1
+          type: form-feed
+          voorbeeld: Belastinggids 2025 • 3
+        - regel: 57
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: Belastinggids\n2025\n Belastinggids\n2025\n 2V.U.:\n• Gert\nBrochure\nTruyens,\nA5 Koning Albertlaan 95, 9000 Gent
 ---
 
 # Belastinggids 2025 — ACLVB

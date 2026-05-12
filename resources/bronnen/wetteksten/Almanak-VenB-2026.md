@@ -30,8 +30,8 @@ provenance:
     rationale: 'Zelfde situatie als Almanak-BTW: type-3 narratieve praktijkgids, max sectie groot, weinig headings. Aanvaardbaar als praktijkgids maar niet ideaal voor RAG.'
     layer1:
       status: pass
-      run_id: 20260512-191733
-      run_at: '2026-05-12T19:17:33Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:11Z'
       heading_count: 187
       max_section_chars: 14567
       file_size_chars: 895948

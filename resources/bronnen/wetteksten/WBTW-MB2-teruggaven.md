@@ -27,8 +27,8 @@ provenance:
     rationale: 'Eerder beoordeeld als trusted door subagent-sonnet-4-6: art. 1-3 correct als ## headings.'
     layer1:
       status: pass
-      run_id: 20260512-191733
-      run_at: '2026-05-12T19:17:38Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:14Z'
       heading_count: 3
       max_section_chars: 1220
       file_size_chars: 2200

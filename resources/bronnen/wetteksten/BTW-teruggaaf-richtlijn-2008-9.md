@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 pass: 31 headings, max sectie 4098 chars. Kleine richtlijn, inhoud correct, headings als ###### Art. N, geen artefacten. Spurious line-breaks in mid-body zijn EU PB-opmaak (niet ETL), acceptabel.'
     layer1:
       status: pass
-      run_id: 20260512-191733
-      run_at: '2026-05-12T19:17:33Z'
+      run_id: 20260512-203610
+      run_at: '2026-05-12T20:36:11Z'
       heading_count: 31
       max_section_chars: 4098
       file_size_chars: 23501

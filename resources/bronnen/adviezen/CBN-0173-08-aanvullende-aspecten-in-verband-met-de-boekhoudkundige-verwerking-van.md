@@ -3,21 +3,23 @@ bron: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-
 datum: 1999-02-01
 nummer: CBN-advies 173/8
 provenance:
-  generated_at: '2026-05-11T19:17:26Z'
   inputs:
     - id: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
       sha256: 878ca1049fadc02cc82f266a5b5ad4227e34e1134ca9e1336da3f1a305b8c127
       version:
-  stale: false
-  stale_reason:
   tooling:
-    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
+    model:
     prompt_version:
+  generated_at: '2026-05-11T19:17:26Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at:
-    confirmed_by:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: HTML-entiteit-rest `TD>` in een tabelcel (regel 144) is een scraper-artefact dat niet uit de bron-HTML komt maar door een incomplete HTML-tag-strip is ingeslopen. Verdere inhoud is compleet en heading-structuur klopt; tabellen zijn verder goed opgemaakt.
     layer1:
       status: pass
       run_id: 20260511-191727
@@ -27,13 +29,15 @@ provenance:
       file_size_chars: 16256
       flags: []
     layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Trust gereset 2026-05-11: re-scrape met scraper-fixes, content-diff > 5%'
-    status: unreviewed
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: HTML-entiteit-rest `TD>` in een tabelcel (regel 144) is een scraper-artefact dat niet uit de bron-HTML komt maar door een incomplete HTML-tag-strip is ingeslopen. Verdere inhoud is compleet en heading-structuur klopt; tabellen zijn verder goed opgemaakt.
+      concrete_problemen:
+        - regel: 144
+          categorie: G1
+          type: other
+          voorbeeld: '| | 400 | Handelsdebiteuren/ TD> | 10,61 | |'
 themas:
   - verwerking van afrondingsverschillen
   - afronding

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T20:58:28Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A6 (spurious line-breaks): paragrafen zijn gesplitst per visuele PDF-regel — korte regels die niet eindigen op leesteken gevolgd door nieuwe zin. A6 patroon doortrekken door heel document (bv. regel 100-106 'The Code establishes' splitst over 7 regels). Lettered sub-items (a), (b) staan elk op eigen regel los van hun inhoud (regel 67-81). Eén sectie is 86477 chars — L1 warn terecht. Structuur is verder logisch."
     layer1:
       status: warn
       run_id: 20260512-190254
@@ -41,6 +41,23 @@ provenance:
           detail: 'langste sectie op ##-niveau: 86477 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T20:58:28Z'
+      rationale: "A6 (spurious line-breaks): paragrafen zijn gesplitst per visuele PDF-regel — korte regels die niet eindigen op leesteken gevolgd door nieuwe zin. A6 patroon doortrekken door heel document (bv. regel 100-106 'The Code establishes' splitst over 7 regels). Lettered sub-items (a), (b) staan elk op eigen regel los van hun inhoud (regel 67-81). Eén sectie is 86477 chars — L1 warn terecht. Structuur is verder logisch."
+      concrete_problemen:
+        - regel: 100
+          categorie: A6
+          type: other
+          voorbeeld: The Code establishes five fundamental principles to be complied with
+        - regel: 67
+          categorie: A6
+          type: other
+          voorbeeld: (a)\n\nAdherence to ethical principles and professional standards;
+        - regel: 171
+          categorie: A6
+          type: other
+          voorbeeld: the conceptual framework to a range of facts and circumstances that\naccountants might encounter
 ---
 
 # IESBA-code-of-ethics-2024
