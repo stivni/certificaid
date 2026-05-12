@@ -43,6 +43,11 @@ SLOW_FIXTURES = [
     "WBTW-KB1-voldoening",
     # method: pymupdf_wetboek (~0.5s) — block-aware PDF-extractie
     "BW-boek1-algemene-bepalingen",
+    # method: pymupdf_wetboek + mode: eu_richtlijn — C1-regressiefixture
+    # EU-OJ richtlijn: 6-pagina's NL-only 2-kolom, small PDF.
+    # Na de fix: schone body zonder PB-kopteksten, zonder EUR-Lex markers,
+    # zonder spaced-letter sectietitels; Artikel 1-8 correct als headings.
+    "EU-Richtlijn-interest-royalties-2003-49",
 ]
 
 
