@@ -1213,3 +1213,104 @@ class TestMergePdfParagraphBreaks:
         """merge_pdf_paragraph_breaks moet in TRANSFORMERS-registry zitten."""
         from tools.etl.transformers import TRANSFORMERS
         assert "merge_pdf_paragraph_breaks" in TRANSFORMERS
+
+
+# ─── merge_broken_sentences (A6 patroon in CBN-adviezen) ──────────────────────
+
+class TestMergeBrokenSentences:
+    """Merge zinnen die door spurious paragraph-break gesplitst zijn."""
+
+    def test_basic_midsentence_break(self):
+        from tools.etl.transformers.merge_broken_sentences import merge_broken_sentences
+        body = (
+            "worden geïdentificeerd Bij de als dekking\n"
+            "\n"
+            "bestemde verrichtingen moet een onderscheid worden gemaakt.\n"
+        )
+        result, _ = merge_broken_sentences(body, {})
+        assert "worden geïdentificeerd Bij de als dekking bestemde verrichtingen" in result
+
+    def test_after_footnote_ref(self):
+        """Spurious break direct na `[^N]` footnote-referentie."""
+        from tools.etl.transformers.merge_broken_sentences import merge_broken_sentences
+        body = (
+            "Het bedrag dat kan worden vrijgesteld is[^9]\n"
+            "\n"
+            "het minimum van twee bedragen.\n"
+        )
+        result, _ = merge_broken_sentences(body, {})
+        assert "vrijgesteld is[^9] het minimum" in result
+
+    def test_no_merge_after_sentence_end(self):
+        """Echte paragraph-break na sentence-end punt: NIET mergen."""
+        from tools.etl.transformers.merge_broken_sentences import merge_broken_sentences
+        body = (
+            "Dit is een afgesloten zin.\n"
+            "\n"
+            "een nieuwe paragraaf begint hier.\n"
+        )
+        result, _ = merge_broken_sentences(body, {})
+        # Tweede paragraaf blijft op eigen regel
+        lines_with_content = [l for l in result.split("\n") if l.strip()]
+        assert lines_with_content[0].endswith("zin.")
+        assert lines_with_content[1].startswith("een nieuwe paragraaf")
+
+    def test_no_merge_when_next_starts_uppercase(self):
+        """Volgende paragraaf begint met hoofdletter — nieuwe zin, niet mergen."""
+        from tools.etl.transformers.merge_broken_sentences import merge_broken_sentences
+        body = (
+            "Vorige zin eindigt zonder punt en\n"
+            "\n"
+            "Nieuwe Paragraaf hoort apart.\n"
+        )
+        result, _ = merge_broken_sentences(body, {})
+        # NIET gemerged
+        assert "en Nieuwe Paragraaf" not in result
+
+    def test_no_merge_heading_or_list(self):
+        """Volgende regel is heading of list-item: niet mergen."""
+        from tools.etl.transformers.merge_broken_sentences import merge_broken_sentences
+        body = (
+            "voorgaande zin loopt door\n"
+            "\n"
+            "## Heading mag niet gemerged worden\n"
+        )
+        result, _ = merge_broken_sentences(body, {})
+        assert "## Heading" in result
+        # NOT merged in vorige regel
+        assert "loopt door ## Heading" not in result
+
+        body2 = (
+            "voorgaande zin loopt door\n"
+            "\n"
+            "- list item niet mergen\n"
+        )
+        result2, _ = merge_broken_sentences(body2, {})
+        assert "- list item" in result2
+        assert "loopt door - list item" not in result2
+
+    def test_no_merge_table_pipe(self):
+        from tools.etl.transformers.merge_broken_sentences import merge_broken_sentences
+        body = (
+            "voorgaande zin\n"
+            "\n"
+            "| cell | cell |\n"
+        )
+        result, _ = merge_broken_sentences(body, {})
+        assert "| cell |" in result
+        assert "voorgaande zin | cell" not in result
+
+    def test_idempotent(self):
+        from tools.etl.transformers.merge_broken_sentences import merge_broken_sentences
+        body = (
+            "worden geïdentificeerd Bij de als dekking\n"
+            "\n"
+            "bestemde verrichtingen.\n"
+        )
+        once, _ = merge_broken_sentences(body, {})
+        twice, _ = merge_broken_sentences(once, {})
+        assert once == twice
+
+    def test_geregistreerd_in_transformers(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "merge_broken_sentences" in TRANSFORMERS

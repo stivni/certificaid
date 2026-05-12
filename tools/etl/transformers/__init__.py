@@ -23,6 +23,7 @@ from tools.etl.transformers.strip_compilatie_appendix import strip_compilatie_ap
 from tools.etl.transformers.unindent_pdftotext_margin import unindent_pdftotext_margin
 from tools.etl.transformers.strip_pdf_page_noise import strip_pdf_page_noise
 from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragraph_breaks
+from tools.etl.transformers.merge_broken_sentences import merge_broken_sentences
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
@@ -38,6 +39,7 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "unindent_pdftotext_margin": unindent_pdftotext_margin,
     "strip_pdf_page_noise": strip_pdf_page_noise,
     "merge_pdf_paragraph_breaks": merge_pdf_paragraph_breaks,
+    "merge_broken_sentences": merge_broken_sentences,
 }
 
 
