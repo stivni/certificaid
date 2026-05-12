@@ -1391,3 +1391,37 @@ class TestFixItalicSpacing:
     def test_geregistreerd_in_transformers(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "fix_italic_spacing" in TRANSFORMERS
+
+
+# ─── normalize_bullet_glyphs (C1 in CBN-adviezen) ─────────────────────────────
+
+class TestNormalizeBulletGlyphs:
+    def test_basic_bullet_at_line_start(self):
+        from tools.etl.transformers.normalize_bullet_glyphs import normalize_bullet_glyphs
+        body = "• Eerste\n• Tweede\n"
+        result, _ = normalize_bullet_glyphs(body, {})
+        assert result == "- Eerste\n- Tweede\n"
+
+    def test_indented_bullet(self):
+        from tools.etl.transformers.normalize_bullet_glyphs import normalize_bullet_glyphs
+        body = "  • sub-item\n    • diep sub\n"
+        result, _ = normalize_bullet_glyphs(body, {})
+        assert result == "  - sub-item\n    - diep sub\n"
+
+    def test_bullet_inline_not_changed(self):
+        """Een `•` middenin een zin blijft staan."""
+        from tools.etl.transformers.normalize_bullet_glyphs import normalize_bullet_glyphs
+        body = "Een zin met • inline bullet • niet aanraken.\n"
+        result, _ = normalize_bullet_glyphs(body, {})
+        assert result == body
+
+    def test_idempotent(self):
+        from tools.etl.transformers.normalize_bullet_glyphs import normalize_bullet_glyphs
+        body = "• Foo\n• Bar\n"
+        once, _ = normalize_bullet_glyphs(body, {})
+        twice, _ = normalize_bullet_glyphs(once, {})
+        assert once == twice
+
+    def test_geregistreerd_in_transformers(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "normalize_bullet_glyphs" in TRANSFORMERS
