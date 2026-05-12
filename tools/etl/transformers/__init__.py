@@ -14,12 +14,14 @@ from tools.etl.transformers.cleanup_basics import cleanup_basics
 from tools.etl.transformers.inject_headings_wettekst import inject_headings_wettekst
 from tools.etl.transformers.organize_headings import organize_headings
 from tools.etl.transformers.emit_frontmatter import emit_frontmatter
+from tools.etl.transformers.strip_fisconet_artefacts import strip_fisconet_artefacts
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
     "inject_headings_wettekst": inject_headings_wettekst,
     "organize_headings": organize_headings,
     "emit_frontmatter": emit_frontmatter,
+    "strip_fisconet_artefacts": strip_fisconet_artefacts,
 }
 
 
