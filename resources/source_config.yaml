@@ -1635,6 +1635,7 @@ sources:
         reden: Praktische PB-gids voor werknemers; nuttig als toegankelijk overzicht naast officiële toelichtingen
   MAR-vzw:
     bron_rol: normatief
+    raw: resources/raw/handcrafted/MAR-vzw.md
     output: resources/bronnen/wetteksten/MAR-vzw.md
     tags: ["1.1", "1.2"]
     bijgewerkt: "2023"
@@ -1642,9 +1643,7 @@ sources:
     status: volledig
     note: "MAR voor vzw/ivzw/stichtingen. MAR voor ondernemingen zit in KB-21-10-2018.md"
     extract:
-      method: handcrafted
-      params:
-        reden: MAR voor vzw/ivzw/stichtingen. MAR voor ondernemingen zit in KB-21-10-2018.md
+      method: md_passthrough
   fiscaal-memento-2025:
     bron_rol: praktijkgids
     raw: resources/raw/wetteksten/fiscaal-memento-2025.pdf

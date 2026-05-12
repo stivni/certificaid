@@ -29,6 +29,7 @@ from . import (
     justel_bs_bilingual,
     justel_change_lg,
     justel_html,
+    md_passthrough,
     pdftotext_compilatie_btw,
     pdftotext_ejustice,
     pymupdf_wetboek,
@@ -50,6 +51,7 @@ METHOD_HANDLERS: dict[str, ExtractFn] = {
     "cbn_advies": cbn_advies.extract,
     "extract_norm": itaa_norm.extract,
     "pymupdf_wetboek": pymupdf_wetboek.extract,
+    "md_passthrough": md_passthrough.extract,
 }
 
 # Methodes die een dict retourneren (1-op-N output). De orchestrator gebruikt
