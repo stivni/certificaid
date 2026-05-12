@@ -846,12 +846,15 @@ def remove_toc_ejustice(text: str) -> str:
     # Nummer-patroon: dekt "47", "6:18", "I.20/1", "IV.85", "III.82"
     _art_num = r"(?:[IVX]+\.)?[\d][\w./:]*"
 
-    # Echte artikel: Art./Artikel + nummer + punt + substantiële tekst (>15 chars).
+    # Echte artikel: Art./Artikel + nummer + punt + substantiële tekst (>10 chars).
     # Whitespace tussen punt en body is OPTIONEEL — sommige Justel-extractes
     # plakken de Justel-marker direct tegen de punt: `Artikel 1.<W 2006-...`.
-    # Body-start MOET niet-digit zijn (zie remove_toc.first_art_marker rationale).
+    # WVV-Justel-formaat heeft SPATIE vóór de punt: `Art.   1:5 . § 1. body` —
+    # vandaar `\s*\.\s*` (optionele spaties beide kanten van de punt) i.p.v.
+    # alleen na de punt. Body-start MOET niet-digit zijn (zie
+    # remove_toc.first_art_marker rationale).
     first_real_art = re.compile(
-        rf"^\s{{0,4}}Art(?:\.|ikel)\s+{_art_num}\.\s{{0,3}}[^\d\s].{{15,}}"
+        rf"^\s{{0,4}}Art(?:\.|ikel)\s+{_art_num}\s*\.\s*[^\d\s].{{10,}}"
     )
     # TOC-range: meerdere artikels op één lijn (komma of koppelstreep)
     art_range = re.compile(
