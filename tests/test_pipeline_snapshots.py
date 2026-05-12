@@ -136,7 +136,7 @@ def test_pipeline_output_snapshot(
     monkeypatch.setattr(orchestrator, "load_config", lambda: {f"Test{fixture_name}": cfg})
     fake_handler = mock.Mock(return_value=fake_body)
     monkeypatch.setattr(orchestrator, "get_handler", lambda m: fake_handler)
-    monkeypatch.setattr(orchestrator, "STAGING_DIR", tmp_path)
+    monkeypatch.setattr(orchestrator, "OUTPUT_ROOT", tmp_path)
     monkeypatch.setattr(orchestrator, "_attach_provenance", lambda *a, **kw: None)
 
     out = orchestrator.convert_one(f"Test{fixture_name}")
@@ -186,7 +186,7 @@ def test_cbn_advies_pipeline_snapshot(
         "extract": {"method": "cbn_advies"},
     }
     monkeypatch.setattr(orchestrator, "load_config", lambda: {"TestCBN": cfg})
-    monkeypatch.setattr(orchestrator, "STAGING_DIR", tmp_path)
+    monkeypatch.setattr(orchestrator, "OUTPUT_ROOT", tmp_path)
     monkeypatch.setattr(orchestrator, "_attach_provenance", lambda *a, **kw: None)
 
     out = orchestrator.convert_one("TestCBN")
@@ -223,7 +223,7 @@ def test_justel_html_pipeline_snapshot(
         "extract": {"method": "justel_html"},
     }
     monkeypatch.setattr(orchestrator, "load_config", lambda: {"TestJustel": cfg})
-    monkeypatch.setattr(orchestrator, "STAGING_DIR", tmp_path)
+    monkeypatch.setattr(orchestrator, "OUTPUT_ROOT", tmp_path)
     monkeypatch.setattr(orchestrator, "_attach_provenance", lambda *a, **kw: None)
 
     out = orchestrator.convert_one("TestJustel")

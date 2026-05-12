@@ -139,7 +139,7 @@ def test_fixture_pipeline_snapshot(
     cfg = _build_test_cfg(name, method, extra_params)
 
     monkeypatch.setattr(orchestrator, "load_config", lambda: {name: cfg})
-    monkeypatch.setattr(orchestrator, "STAGING_DIR", tmp_path)
+    monkeypatch.setattr(orchestrator, "OUTPUT_ROOT", tmp_path)
 
     out = orchestrator.convert_one(name)
     assert out is not None and out.exists(), f"convert_one returnt None voor {name}"

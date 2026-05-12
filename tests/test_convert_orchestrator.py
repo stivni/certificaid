@@ -78,7 +78,7 @@ def test_ejustice_pipeline_writes_staging_md_with_chunk_and_provenance(
     monkeypatch.setattr(orchestrator, "get_handler", lambda m: fake_handler)
 
     # 2. Verleg staging-folder zodat we niet in de echte data/ schrijven
-    monkeypatch.setattr(orchestrator, "STAGING_DIR", tmp_path)
+    monkeypatch.setattr(orchestrator, "OUTPUT_ROOT", tmp_path)
 
     # 3. Stub provenance — maakt geen raw-PDF verplicht
     monkeypatch.setattr(orchestrator, "_attach_provenance", lambda *a, **kw: None)
@@ -141,7 +141,7 @@ def test_pipeline_is_idempotent_modulo_generated_at(
     fake_cfg = _make_test_cfg("pdftotext_ejustice")
     monkeypatch.setattr(orchestrator, "load_config", lambda: {"TestBron": fake_cfg})
     monkeypatch.setattr(orchestrator, "get_handler", lambda m: lambda *a, **kw: _FAKE_EJUSTICE_BODY)
-    monkeypatch.setattr(orchestrator, "STAGING_DIR", tmp_path)
+    monkeypatch.setattr(orchestrator, "OUTPUT_ROOT", tmp_path)
     monkeypatch.setattr(orchestrator, "_attach_provenance", lambda *a, **kw: None)
 
     out1 = orchestrator.convert_one("TestBron")
@@ -181,7 +181,7 @@ _RAW_WETBOEK_PDF = ROOT / "resources" / "raw" / "wetteksten" / "WBTW-2026.pdf"
 def test_wetboek_full_pipeline_integration(tmp_path: Path,
                                            monkeypatch: pytest.MonkeyPatch) -> None:
     """End-to-end test op één wetboek-bron — vereist de raw PDF lokaal."""
-    monkeypatch.setattr(orchestrator, "STAGING_DIR", tmp_path)
+    monkeypatch.setattr(orchestrator, "OUTPUT_ROOT", tmp_path)
 
     out = orchestrator.convert_one(_WETBOEK_INTEGRATION_TARGET, dry_run=False)
     assert out is not None and out.exists()

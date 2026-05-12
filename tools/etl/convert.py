@@ -2,7 +2,7 @@
 In-process orchestrator voor de Certificaid bronnen-ETL (ADR-005 §2).
 
 Pipeline per bron:
-    extract → transform-chain → staging-output
+    extract → transform-chain → direct output naar resources/bronnen/
 
 De extract-stap delegeert naar `tools/lib/extractors/<method>.py` op basis van
 `extract.method` in `resources/source_config.yaml`. De transform-stap loopt
@@ -13,9 +13,9 @@ Default chains per extract-method staan in DEFAULT_CHAINS. Een bron kan via
 `transform_chain:` in source_config.yaml een eigen chain forceren (toekomstig,
 bij source_config-restructure, ADR-005 §2).
 
-Output landt in `data/etl-staging/<source_name>.md` — NIET in
-`resources/bronnen/wetteksten/`. Dat blijft de huidige goedgekeurde set; staging
-wordt door een latere fase (D) gepromoveerd.
+Output landt direct in `resources/bronnen/<rol-pad>/<bron>.md` conform ADR-005
+v2 §2.5 — het pad is het `output:`-veld uit source_config.yaml, relatief
+t.o.v. OUTPUT_ROOT (standaard de repo-root).
 
 Gebruik:
     python3 tools/etl/convert.py --list
@@ -39,7 +39,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 CONFIG_PATH = ROOT / "resources" / "source_config.yaml"
-STAGING_DIR = ROOT / "data" / "etl-staging"
+OUTPUT_ROOT = ROOT
 
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "tools"))
@@ -351,7 +351,7 @@ def _show_diff(left: Path, right: Path) -> None:
 
 def convert_one(source_name: str, *, dry_run: bool = False,
                 show_diff: bool = False) -> Path | None:
-    """Converteer één bron naar `data/etl-staging/<source_name>.md`."""
+    """Converteer één bron en schrijf direct naar resources/bronnen/ (ADR-005 §2.5)."""
     config = load_config()
     cfg = get_source(source_name, config)
     method = resolve_method(cfg)
@@ -402,7 +402,7 @@ def convert_one(source_name: str, *, dry_run: bool = False,
         for output_rel, body in extracted.items():
             split_meta = splits_meta.get(output_rel, {})
             basename = Path(output_rel).stem
-            staging_path = STAGING_DIR / f"{basename}.md"
+            output_path = OUTPUT_ROOT / output_rel
 
             if not body.strip():
                 print(f"    ⚠️  {basename}: lege body — split overgeslagen")
@@ -432,9 +432,9 @@ def convert_one(source_name: str, *, dry_run: bool = False,
             info = frontmatter.get("_chunk_info") or {}
 
             if not dry_run:
-                STAGING_DIR.mkdir(parents=True, exist_ok=True)
-                staging_path.write_text(text, encoding="utf-8")
-                _attach_provenance(staging_path, cfg, source_name, method)
+                output_path.parent.mkdir(parents=True, exist_ok=True)
+                output_path.write_text(text, encoding="utf-8")
+                _attach_provenance(output_path, cfg, source_name, method)
                 if info:
                     print(
                         f"    ✓ {basename}  ranks={info.get('ranks', '?')} "
@@ -445,7 +445,7 @@ def convert_one(source_name: str, *, dry_run: bool = False,
                     print(f"    ✓ {basename}")
             else:
                 print(f"    (dry-run) {basename} — {len(text):,} tekens")
-            last_path = staging_path
+            last_path = output_path
 
         return last_path
 
@@ -474,24 +474,25 @@ def convert_one(source_name: str, *, dry_run: bool = False,
     # door de _chunk_info uit de (reeds-geleegde) dict niet te gebruiken.
     # Alternatief: logging inline in de transformer. Voorlopig: geen chunk-info
     # in het 1-op-1 logging-pad na wiring (non-functional, dus OK).
-    staging_path = STAGING_DIR / f"{source_name}.md"
+    output_key = cfg.get("output") or f"resources/bronnen/{source_name}.md"
+    output_path = OUTPUT_ROOT / output_key
 
     if not dry_run:
-        STAGING_DIR.mkdir(parents=True, exist_ok=True)
-        staging_path.write_text(text, encoding="utf-8")
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_text(text, encoding="utf-8")
         # Provenance-blok toevoegen
-        _attach_provenance(staging_path, cfg, source_name, method)
-        print(f"  ✓ Geschreven: {_display(staging_path)}")
+        _attach_provenance(output_path, cfg, source_name, method)
+        print(f"  ✓ Geschreven: {_display(output_path)}")
     else:
-        print(f"  (dry-run) {_display(staging_path)} — {len(text):,} tekens")
+        print(f"  (dry-run) {_display(output_path)} — {len(text):,} tekens")
 
+    # --diff: vergelijkt de huidige outputfile met zichzelf (output IS de bron),
+    # maar kan zinvol zijn als de gebruiker output_path vóór de run apart bewaarde.
+    # Wordt meegegeven voor backwards-compatibiliteit; in de praktijk altijd leeg.
     if show_diff:
-        original = ROOT / cfg.get("output", "")
-        if cfg.get("output") and original.exists() and staging_path.exists():
-            print(f"  Diff: {original.relative_to(ROOT)} ↔ staging")
-            _show_diff(original, staging_path)
+        print("  (--diff heeft geen effect meer: output schrijft direct naar resources/bronnen/)")
 
-    return staging_path
+    return output_path
 
 
 # ─── Collection-pipeline (CBN-adviezen, ITAA-normen) ─────────────────────────
@@ -616,9 +617,10 @@ def convert_collection_item(
     """Verwerk één item uit een collection.
 
     Leest de bestaande MD-frontmatter, dispatcht naar de juiste extractor,
-    cleant de body, bouwt een nieuwe frontmatter en schrijft naar
-    `data/etl-staging/<source_name>.md`. Skipt (returnt None) bij een
-    item-failure i.p.v. te falen — de orchestrator-loop blijft draaien.
+    cleant de body, bouwt een nieuwe frontmatter en schrijft direct terug naar
+    hetzelfde pad (output_dir/<source_name>.md conform ADR-005 §2.5). Skipt
+    (returnt None) bij een item-failure i.p.v. te falen — de orchestrator-loop
+    blijft draaien.
     """
     source_name = md_path.stem
     method_key = _COLLECTION_METHOD.get(collection_name)
@@ -678,24 +680,24 @@ def convert_collection_item(
     if not text.endswith("\n"):
         text += "\n"
 
-    # 5. Schrijf naar staging
-    staging_path = STAGING_DIR / f"{source_name}.md"
+    # 5. Schrijf direct naar output-pad (md_path == bronbestand zelf)
+    output_path = md_path
     if dry_run:
         print(f"  (dry-run) {source_name} — {len(text):,} tekens")
-        return staging_path
+        return output_path
 
-    STAGING_DIR.mkdir(parents=True, exist_ok=True)
-    staging_path.write_text(text, encoding="utf-8")
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(text, encoding="utf-8")
 
     # 6. Provenance toevoegen
     item_inputs_spec = collection_cfg.get("item_inputs") or []
     try:
-        _attach_collection_provenance(staging_path, existing_fm, item_inputs_spec)
+        _attach_collection_provenance(output_path, existing_fm, item_inputs_spec)
     except Exception as e:  # noqa: BLE001
         print(f"  ⚠️  {source_name}: provenance-blok niet toegevoegd ({e})")
 
     print(f"  ✓ {source_name}")
-    return staging_path
+    return output_path
 
 
 def convert_collection(
@@ -729,7 +731,7 @@ def convert_collection(
         md_paths = md_paths[:limit]
 
     print(f"\n{'='*60}")
-    print(f"Collection: {name}  |  items: {len(md_paths)}  |  staging: data/etl-staging/")
+    print(f"Collection: {name}  |  items: {len(md_paths)}  |  output: {cfg['output_dir']}")
     print("=" * 60)
 
     done = 0
@@ -772,7 +774,7 @@ def main() -> None:
                         help="Alle bronnen behalve handcrafted/derived")
     parser.add_argument("--list", action="store_true", help="Toon overzicht")
     parser.add_argument("--diff", action="store_true",
-                        help="Toon git-diff tussen huidige resources/bronnen en staging")
+                        help="(deprecated) Output schrijft direct naar resources/bronnen/; geen staging meer")
     parser.add_argument("--dry-run", action="store_true",
                         help="Pipeline draaien zonder naar staging te schrijven")
     parser.add_argument("--method", help="Filter --list op extract.method")

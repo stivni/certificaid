@@ -59,11 +59,10 @@ def test_cbn_collection_writes_staging_with_chunk_and_keeps_existing_fields(
         "output_dir": str(bronnen_dir.relative_to(tmp_path)),  # niet gebruikt
         "item_inputs": [{"field": "bron", "kind": "url"}],
     }
-    # Patch load_collections + ROOT-resolutie + STAGING_DIR
+    # Patch load_collections + ROOT-resolutie
     monkeypatch.setattr(orchestrator, "load_collections",
                         lambda: {"cbn-adviezen": fake_collection})
     monkeypatch.setattr(orchestrator, "ROOT", tmp_path)
-    monkeypatch.setattr(orchestrator, "STAGING_DIR", tmp_path / "staging")
 
     # Patch fake collection_cfg om naar onze tmp dir te wijzen.
     fake_collection["output_dir"] = "adviezen"
@@ -83,7 +82,8 @@ def test_cbn_collection_writes_staging_with_chunk_and_keeps_existing_fields(
     n_done = orchestrator.convert_collection("cbn-adviezen")
     assert n_done == 2
 
-    out_path = tmp_path / "staging" / "CBN-9999-01-test-een.md"
+    # Output landt direct terug op het bronbestand (geen staging-tussenmap)
+    out_path = bronnen_dir / "CBN-9999-01-test-een.md"
     assert out_path.exists()
     text = out_path.read_text(encoding="utf-8")
 
@@ -121,7 +121,6 @@ def test_collection_skips_md_without_frontmatter(
     monkeypatch.setattr(orchestrator, "load_collections",
                         lambda: {"cbn-adviezen": fake_collection})
     monkeypatch.setattr(orchestrator, "ROOT", tmp_path)
-    monkeypatch.setattr(orchestrator, "STAGING_DIR", tmp_path / "staging")
 
     n_done = orchestrator.convert_collection("cbn-adviezen")
     assert n_done == 0
