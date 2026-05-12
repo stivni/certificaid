@@ -35,6 +35,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:29Z'
+      heading_count: 0
+      max_section_chars: 1951
+      file_size_chars: 1951
+      flags: []
     layer2:
 ---
 # CBN-advies 126/15 - Aanpassing van de (aan-) verkoopprijs van een deelneming

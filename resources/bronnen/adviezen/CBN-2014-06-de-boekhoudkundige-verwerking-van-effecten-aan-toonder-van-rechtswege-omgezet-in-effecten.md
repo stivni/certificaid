@@ -33,6 +33,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:32Z'
+      heading_count: 5
+      max_section_chars: 3078
+      file_size_chars: 7528
+      flags: []
     layer2:
 ---
 # CBN-advies 2014/6 – De boekhoudkundige verwerking van effecten aan toonder van rechtswege omgezet in effecten op naam of in gedematerialiseerde effecten op 1 januari 2014

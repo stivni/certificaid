@@ -36,6 +36,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:32Z'
+      heading_count: 61
+      max_section_chars: 15183
+      file_size_chars: 75449
+      flags: []
     layer2:
 ---
 # CBN-advies 2015/5 - Zakelijke rechten op onroerende goederen: vruchtgebruik - opstalrecht - erfpachtrecht - erfdienstbaarheid

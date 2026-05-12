@@ -41,6 +41,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:31Z'
+      heading_count: 5
+      max_section_chars: 3196
+      file_size_chars: 10135
+      flags: []
     layer2:
 ---
 # CBN-advies 2010-13 - Boekhoudkundige verwerking van de belasting over de toegevoegde waarde in hoofde van de leden van een btw-eenheid Advies van 8 september 2010

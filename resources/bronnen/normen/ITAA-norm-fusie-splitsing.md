@@ -33,8 +33,8 @@ provenance:
     rationale: 'Laag-1 pass zonder flags. Inhoud volledig en logisch gestructureerd: 4 hoofdsecties (Overwegingen, Toepassingsgebied, Controlewerkzaamheden, Inhoud van het verslag) elk met coherente subsecties als ## headings. Voetnoten correct onderaan secties als genummerde lijstregels. Markdown-tabel in Bijlage valide pipe-syntax. Geen zichtbare PDF-artefacten, OCR-fouten, column-bleed of broken lines.'
     layer1:
       status: pass
-      run_id: 20260511-085756
-      run_at: '2026-05-11T08:57:57Z'
+      run_id: 20260512-232433
+      run_at: '2026-05-12T23:24:34Z'
       heading_count: 19
       max_section_chars: 6809
       file_size_chars: 54266

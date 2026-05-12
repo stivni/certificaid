@@ -41,6 +41,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:31Z'
+      heading_count: 8
+      max_section_chars: 2369
+      file_size_chars: 6121
+      flags: []
     layer2:
 ---
 # CBN-advies 2012/2 – De boekhoudkundige verwerking van toegekende voordelen bij het afsluiten van een huurovereenkomst

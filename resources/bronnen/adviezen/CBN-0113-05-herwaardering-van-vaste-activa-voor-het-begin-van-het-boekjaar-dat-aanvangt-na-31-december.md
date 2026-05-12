@@ -47,6 +47,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:29Z'
+      heading_count: 3
+      max_section_chars: 5850
+      file_size_chars: 7296
+      flags: []
     layer2:
 ---
 # CBN-advies 113/5 - Herwaardering van vaste activa vóór het begin van het boekjaar dat aanvangt na 31 december 1983

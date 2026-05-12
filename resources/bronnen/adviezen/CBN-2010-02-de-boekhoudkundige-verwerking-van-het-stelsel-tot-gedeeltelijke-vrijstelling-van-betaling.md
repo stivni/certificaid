@@ -33,6 +33,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:31Z'
+      heading_count: 4
+      max_section_chars: 1482
+      file_size_chars: 4764
+      flags: []
     layer2:
 ---
 # CBN-advies 2010/2 – De boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 van het Wetboek van de Inkomstenbelastingen 1992 – Update Advies van 10 februari 2010

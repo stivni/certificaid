@@ -48,6 +48,17 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: warn
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:31Z'
+      heading_count: 5
+      max_section_chars: 36649
+      file_size_chars: 48347
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 36649 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
 ---
 # CBN-advies 2011/11 - De boekhoudkundige verwerking van grensoverschrijdende partiële splitsingen

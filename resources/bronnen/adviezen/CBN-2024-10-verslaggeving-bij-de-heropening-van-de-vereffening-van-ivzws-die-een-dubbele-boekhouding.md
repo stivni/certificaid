@@ -51,6 +51,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:33Z'
+      heading_count: 11
+      max_section_chars: 9534
+      file_size_chars: 18543
+      flags: []
     layer2:
 ---
 # CBN-advies 2024/10 – Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren

@@ -39,6 +39,17 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: warn
+      run_id: 20260512-232433
+      run_at: '2026-05-12T23:24:34Z'
+      heading_count: 74
+      max_section_chars: 43684
+      file_size_chars: 145915
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 43684 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
 ---
 # KMO controle norm

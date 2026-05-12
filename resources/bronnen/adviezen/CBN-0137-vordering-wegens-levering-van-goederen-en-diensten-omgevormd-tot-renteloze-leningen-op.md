@@ -49,6 +49,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:30Z'
+      heading_count: 1
+      max_section_chars: 3970
+      file_size_chars: 3970
+      flags: []
     layer2:
 ---
 # CBN advies 137/8 - Vordering wegens levering van goederen en diensten omgevormd tot renteloze leningen op meer dan 1 jaar (update)

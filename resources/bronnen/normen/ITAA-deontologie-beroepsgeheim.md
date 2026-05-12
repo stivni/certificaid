@@ -46,6 +46,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232433
+      run_at: '2026-05-12T23:24:33Z'
+      heading_count: 24
+      max_section_chars: 23480
+      file_size_chars: 39047
+      flags: []
     layer2:
 ---
 # Het beroepsgeheim van de accountant en de belastingadviseur

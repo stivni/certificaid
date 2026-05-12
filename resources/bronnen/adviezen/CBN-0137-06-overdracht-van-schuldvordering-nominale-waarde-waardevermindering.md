@@ -45,6 +45,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:30Z'
+      heading_count: 3
+      max_section_chars: 1158
+      file_size_chars: 3513
+      flags: []
     layer2:
 ---
 # CBN-advies 137/6 - Overdracht van schuldvordering - Nominale waarde - Waardevermindering

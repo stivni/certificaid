@@ -38,6 +38,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:32Z'
+      heading_count: 2
+      max_section_chars: 4324
+      file_size_chars: 7750
+      flags: []
     layer2:
 ---
 # CBN-advies 2014/7 – De boekhoudkundige verwerking van subsidies waarvan de toekenning niet gegarandeerd is (eventuele rechten)

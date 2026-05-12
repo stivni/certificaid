@@ -47,6 +47,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:30Z'
+      heading_count: 0
+      max_section_chars: 2635
+      file_size_chars: 2635
+      flags: []
     layer2:
 ---
 # CBN-advies 173/7 - Afronding van de bedragen in de jaarrekeningen die in euro of in duizenden euro zijn opgesteld

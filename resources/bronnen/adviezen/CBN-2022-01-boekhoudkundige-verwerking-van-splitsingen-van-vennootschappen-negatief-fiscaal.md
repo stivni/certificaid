@@ -41,6 +41,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:33Z'
+      heading_count: 6
+      max_section_chars: 4439
+      file_size_chars: 15330
+      flags: []
     layer2:
 ---
 # CBN-advies 2025/01 – Boekhoudkundige verwerking van splitsingen van vennootschappen – negatief fiscaal nettoactief – herwaarderingsmeerwaarde (addendum bij CBN-advies 2022/01 en 2022/12)

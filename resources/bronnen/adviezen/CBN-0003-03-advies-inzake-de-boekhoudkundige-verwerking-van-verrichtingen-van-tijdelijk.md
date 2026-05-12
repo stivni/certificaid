@@ -38,6 +38,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:28Z'
+      heading_count: 53
+      max_section_chars: 16269
+      file_size_chars: 82159
+      flags: []
     layer2:
 ---
 # ADVIES 3-3 - INZAKE DE BOEKHOUDKUNDIGE VERWERKING VAN VERRICHTINGEN VAN TIJDELIJKE HANDELSVENNOOTSCHAPPEN

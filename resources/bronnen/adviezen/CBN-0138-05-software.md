@@ -48,6 +48,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:30Z'
+      heading_count: 11
+      max_section_chars: 4535
+      file_size_chars: 12704
+      flags: []
     layer2:
 ---
 # CBN-advies 138/5 - Software

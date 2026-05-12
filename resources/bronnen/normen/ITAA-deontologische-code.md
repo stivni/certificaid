@@ -40,8 +40,8 @@ provenance:
     rationale: 'Expliciete placeholder: het bestand bevat bewust geen inhoud en waarschuwt dat het NIET mag worden gevuld met een zelf-geconstrueerde samenvatting. Body bestaat uit instructies voor het ophalen van het echte document (drie zoekstrategieën + vervolgstappen). Laag 1 bevestigt: file_size = 1149 chars, heading_count = 3 (de instructie-headings). Niet geschikt voor RAG totdat de echte norm beschikbaar is.'
     layer1:
       status: warn
-      run_id: 20260511-085756
-      run_at: '2026-05-11T08:57:56Z'
+      run_id: 20260512-232433
+      run_at: '2026-05-12T23:24:33Z'
       heading_count: 3
       max_section_chars: 395
       file_size_chars: 1149

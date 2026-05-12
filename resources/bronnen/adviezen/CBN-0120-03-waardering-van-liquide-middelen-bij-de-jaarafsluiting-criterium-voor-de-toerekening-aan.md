@@ -46,6 +46,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:29Z'
+      heading_count: 0
+      max_section_chars: 2838
+      file_size_chars: 2838
+      flags: []
     layer2:
 ---
 # CBN-advies 120/3 - Waardering van liquide middelen bij de jaarafsluiting : criterium voor de toerekening aan een bepaald boekjaar

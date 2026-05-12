@@ -40,6 +40,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232433
+      run_at: '2026-05-12T23:24:33Z'
+      heading_count: 14
+      max_section_chars: 8503
+      file_size_chars: 42385
+      flags: []
     layer2:
 ---
   Norm van het Instituut van de Accountants en de Belastingconsulenten d.d. 31

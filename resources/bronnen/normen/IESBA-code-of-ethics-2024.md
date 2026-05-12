@@ -29,6 +29,21 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: "B4/B5: 621 plain-text subkopjes ('Introduction', 'Requirements and Application Material', 'General', 'SUBSECTION 111 – INTEGRITY', ...) die allen als heading hadden moeten worden ge-extraheerd. A6: 911 spurious line-breaks in body (PDF-kolom per visuele regel afgekapt, niet per logische zin). Structuur H1/H2 aanwezig maar subkopjes ontbreken volledig als markdown-headings."
     layer1:
+      status: fail
+      run_id: 20260512-232433
+      run_at: '2026-05-12T23:24:33Z'
+      heading_count: 42
+      max_section_chars: 86168
+      file_size_chars: 637277
+      flags:
+        - name: frontmatter_complete
+          status: fail
+          detail: "ontbrekende velden: ['naam', 'type']"
+          samples: []
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 86168 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6

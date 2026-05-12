@@ -36,6 +36,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:32Z'
+      heading_count: 2
+      max_section_chars: 2046
+      file_size_chars: 4079
+      flags: []
     layer2:
 ---
 # CBN-advies 2017/08 – Cijfers van het vorig boekjaar bij opmaak jaarrekening volgens nieuw model

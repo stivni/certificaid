@@ -54,6 +54,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:31Z'
+      heading_count: 14
+      max_section_chars: 3432
+      file_size_chars: 20520
+      flags: []
     layer2:
 ---
 # CBN-advies 2010/17 - Boekhoudkundige verwerking van subsidies, schenkingen en legaten in natura in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen

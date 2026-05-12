@@ -57,6 +57,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:33Z'
+      heading_count: 39
+      max_section_chars: 22466
+      file_size_chars: 65582
+      flags: []
     layer2:
 ---
 # CBN-advies 2022/15 – Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)

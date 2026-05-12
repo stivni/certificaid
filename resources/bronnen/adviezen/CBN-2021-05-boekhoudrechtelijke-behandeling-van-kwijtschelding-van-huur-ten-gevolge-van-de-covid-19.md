@@ -49,6 +49,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:33Z'
+      heading_count: 7
+      max_section_chars: 2237
+      file_size_chars: 10484
+      flags: []
     layer2:
 ---
 # CBN-advies 2021/05 - Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van de COVID-19-pandemie

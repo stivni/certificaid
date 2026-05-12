@@ -32,6 +32,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:31Z'
+      heading_count: 0
+      max_section_chars: 3488
+      file_size_chars: 3488
+      flags: []
     layer2:
 ---
 # CBN-advies 2012/20 – De boekhoudkundige verwerking van de betaling van een schuld van de vennootschap door een derde die zich hiertoe als borg heeft verbonden ten aanzien van de schuldeiser

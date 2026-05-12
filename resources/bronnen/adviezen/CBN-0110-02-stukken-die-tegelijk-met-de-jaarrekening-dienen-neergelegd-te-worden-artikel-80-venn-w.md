@@ -35,6 +35,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:29Z'
+      heading_count: 0
+      max_section_chars: 5978
+      file_size_chars: 5978
+      flags: []
     layer2:
 ---
 # CBN-advies 110/2 - Stukken die tegelijk met de jaarrekening dienen neergelegd te worden (artikel 80 W. Venn.)

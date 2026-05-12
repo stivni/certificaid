@@ -48,6 +48,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:30Z'
+      heading_count: 17
+      max_section_chars: 18015
+      file_size_chars: 46301
+      flags: []
     layer2:
 ---
 # CBN-advies 173/1 - Overschakeling op de euro: boekhoudrechtelijke aspecten

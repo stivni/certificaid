@@ -51,6 +51,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:29Z'
+      heading_count: 3
+      max_section_chars: 3969
+      file_size_chars: 11456
+      flags: []
     layer2:
 ---
 # CBN-advies 117/3 - Voeren van de boekhouding en opstellen van de jaarrekening in een andere munt dan de euro

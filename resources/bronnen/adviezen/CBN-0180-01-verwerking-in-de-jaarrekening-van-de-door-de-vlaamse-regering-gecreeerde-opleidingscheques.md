@@ -38,6 +38,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:31Z'
+      heading_count: 0
+      max_section_chars: 2306
+      file_size_chars: 2306
+      flags: []
     layer2:
 ---
 # CBN-advies 180/1 - Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde opleidingscheques

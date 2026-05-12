@@ -38,6 +38,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:33Z'
+      heading_count: 3
+      max_section_chars: 2156
+      file_size_chars: 3918
+      flags: []
     layer2:
 ---
 # CBN-advies 2020/15 – Zetelverplaatsing naar België: model van staat van activa en passiva bij immigrerende vennootschappen

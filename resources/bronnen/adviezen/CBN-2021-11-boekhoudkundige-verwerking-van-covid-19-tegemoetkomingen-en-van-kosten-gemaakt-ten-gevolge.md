@@ -48,6 +48,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:33Z'
+      heading_count: 6
+      max_section_chars: 8630
+      file_size_chars: 12659
+      flags: []
     layer2:
 ---
 # CBN-advies 2021/11 – Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis

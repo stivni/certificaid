@@ -43,6 +43,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:29Z'
+      heading_count: 0
+      max_section_chars: 1102
+      file_size_chars: 1102
+      flags: []
     layer2:
 ---
 # CBN-advies R102/2 - Overschrijvingsorders

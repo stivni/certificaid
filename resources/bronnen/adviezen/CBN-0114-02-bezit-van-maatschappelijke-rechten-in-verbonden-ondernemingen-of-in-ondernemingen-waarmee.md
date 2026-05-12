@@ -49,6 +49,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:29Z'
+      heading_count: 0
+      max_section_chars: 4296
+      file_size_chars: 4296
+      flags: []
     layer2:
 ---
 # CBN-advies 114/2 - Bezit van maatschappelijke rechten in verbonden ondernemingen of in ondernemingen waarmee een deelnemingsverhouding bestaat - Begrip deelneming

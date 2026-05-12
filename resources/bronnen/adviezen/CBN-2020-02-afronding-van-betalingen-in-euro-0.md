@@ -43,6 +43,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:33Z'
+      heading_count: 10
+      max_section_chars: 5094
+      file_size_chars: 11742
+      flags: []
     layer2:
 ---
 # CBN-advies 2020/02 – Afronding van betalingen in euro

@@ -40,6 +40,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:33Z'
+      heading_count: 74
+      max_section_chars: 16784
+      file_size_chars: 63534
+      flags: []
     layer2:
 ---
 # CBN-advies 2022/11 – Vermogensmutatiemethode

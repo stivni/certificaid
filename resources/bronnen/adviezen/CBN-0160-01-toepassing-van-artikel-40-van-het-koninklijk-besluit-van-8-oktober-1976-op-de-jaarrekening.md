@@ -42,6 +42,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:30Z'
+      heading_count: 0
+      max_section_chars: 6299
+      file_size_chars: 6299
+      flags: []
     layer2:
 ---
 # CBN-advies 160/1 - Toepassing van artikel 40 van het Koninklijk Besluit van 8 oktober 1976 op de jaarrekening van de ondernemingen

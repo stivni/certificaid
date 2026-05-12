@@ -29,6 +29,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:33Z'
+      heading_count: 37
+      max_section_chars: 20526
+      file_size_chars: 29994
+      flags: []
     layer2:
 ---
 # CBN-advies 2020/06 – Financieringskostensurplus (artikel 194sexies en artikel 198/1 WIB 92)

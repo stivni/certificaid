@@ -32,6 +32,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:32Z'
+      heading_count: 2
+      max_section_chars: 2668
+      file_size_chars: 3803
+      flags: []
     layer2:
 ---
 # CBN-advies 2016/20 – Leveranciersschulden en schulden aan de overheid in het kader van boek XX “Insolventie van ondernemingen” van het Wetboek van economisch recht

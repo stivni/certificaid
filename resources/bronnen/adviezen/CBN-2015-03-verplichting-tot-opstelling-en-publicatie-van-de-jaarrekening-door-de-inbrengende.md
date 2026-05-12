@@ -37,6 +37,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:32Z'
+      heading_count: 5
+      max_section_chars: 3896
+      file_size_chars: 10879
+      flags: []
     layer2:
 ---
 # CBN-advies 2015/3 - Verplichting tot opstelling en publicatie van de jaarrekening door de inbrengende vereniging in het kader van een pseudo-fusie

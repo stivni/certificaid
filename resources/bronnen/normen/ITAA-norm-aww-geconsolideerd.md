@@ -40,6 +40,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232433
+      run_at: '2026-05-12T23:24:33Z'
+      heading_count: 6
+      max_section_chars: 11377
+      file_size_chars: 25088
+      flags: []
     layer2:
 ---
 Geconsolideerde tekst door het Instituut van de Belastingadviseurs en de Accountants (ITAA) van de norm van het IAB en de richtlijn van het BIBF inzake de

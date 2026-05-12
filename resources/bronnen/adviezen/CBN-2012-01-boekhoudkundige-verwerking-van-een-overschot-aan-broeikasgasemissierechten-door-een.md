@@ -37,6 +37,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:31Z'
+      heading_count: 3
+      max_section_chars: 4107
+      file_size_chars: 7505
+      flags: []
     layer2:
 ---
 # CBN-advies 2012/1 - Boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten door een onderneming die de nettomethode toepast

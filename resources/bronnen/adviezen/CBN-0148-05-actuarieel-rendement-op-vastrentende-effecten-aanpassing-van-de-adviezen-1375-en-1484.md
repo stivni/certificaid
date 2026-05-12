@@ -36,6 +36,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-232428
+      run_at: '2026-05-12T23:24:30Z'
+      heading_count: 23
+      max_section_chars: 4388
+      file_size_chars: 9316
+      flags: []
     layer2:
 ---
 # CBN-advies 148/5 - Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen 137/5 en 148/4
