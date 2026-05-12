@@ -184,3 +184,184 @@ def test_is_noise_eu_mode_off_does_not_strip_pb_header():
         "NL   L 77/4  Publicatieblad van de Europese Unie  23.3.2011",
         eu_mode=False,
     )
+
+
+# ─── FR-regel stripping uit tweetalige blokken ───────────────────────────────
+
+def test_strip_fr_lines_removes_titre_heading():
+    """FR-structuurheading 'TITRE 1 er - Dispositions introductives' wordt gestript."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_lines_from_block
+    raw = "TITEL 1 - Inleidende bepalingen \nTITRE 1 er  - Dispositions introductives"
+    result = _strip_fr_lines_from_block(raw)
+    assert "TITEL 1 - Inleidende bepalingen" in result
+    assert "TITRE" not in result
+    assert "Dispositions" not in result
+
+
+def test_strip_fr_lines_removes_chapitre_heading():
+    """FR-structuurheading 'Chapitre 1er - ...' wordt gestript."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_lines_from_block
+    raw = "Hoofdstuk 1 - Algemene bepalingen en definities \nChapitre 1er - Dispositions générales et définitions"
+    result = _strip_fr_lines_from_block(raw)
+    assert "Hoofdstuk 1" in result
+    assert "Chapitre" not in result
+
+
+def test_strip_fr_lines_removes_duplicate_art_number():
+    """Dubbel art-nummer 'Art. 1.1.0.0.1. \\nArt. 1.1.0.0.1.' → enkel bewaard."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_lines_from_block
+    raw = "Art. 1.1.0.0.1. \nArt. 1.1.0.0.1."
+    result = _strip_fr_lines_from_block(raw)
+    # Slechts één instantie overblijft
+    assert result.count("Art. 1.1.0.0.1") == 1
+
+
+def test_strip_fr_lines_removes_fr_body_line():
+    """FR-body-regel na NL-regel met 'Dans le présent' wordt gestript."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_lines_from_block
+    raw = "In deze codex wordt verstaan onder : \nDans le présent code, il y a lieu d'entendre par :"
+    result = _strip_fr_lines_from_block(raw)
+    assert "In deze codex" in result
+    assert "Dans le présent" not in result
+
+
+def test_strip_fr_lines_preserves_pure_nl_block():
+    """Zuiver NL-blok zonder FR-regels blijft volledig intact."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_lines_from_block
+    raw = ("1° belastingen en toebehoren : de belastingen in \n"
+           "hoofdsom waarop deze codex van toepassing is, in \n"
+           "voorkomend geval met inbegrip van de opcentiemen")
+    result = _strip_fr_lines_from_block(raw)
+    assert "belastingen en toebehoren" in result
+    assert "hoofdsom" in result
+    assert "opcentiemen" in result
+
+
+def test_strip_fr_lines_removes_section_heading():
+    """FR 'Section' en 'Sous-section' headings worden gestript."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_lines_from_block
+    raw = "Afdeling 1 - Algemene bepalingen \nSection 1re - Dispositions générales"
+    result = _strip_fr_lines_from_block(raw)
+    assert "Afdeling 1" in result
+    assert "Section" not in result
+
+
+def test_strip_fr_lines_removes_fr_article_1er():
+    """'Article 1 er' (FR art-aanduiding met 'er') wordt gestript."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_lines_from_block
+    raw = "Artikel 1 \nArticle 1 er"
+    result = _strip_fr_lines_from_block(raw)
+    assert "Artikel 1" in result
+    assert "Article 1 er" not in result
+
+
+def test_strip_fr_lines_removes_titre_droit_enregistrement():
+    """'TITRE I ER - DROIT D\\'ENREGISTREMENT' — bekende FR-heading in Reg.rechten."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_lines_from_block
+    raw = "TITEL I - REGISTRATIERECHT \nTITRE I ER - DROIT D'ENREGISTREMENT"
+    result = _strip_fr_lines_from_block(raw)
+    assert "REGISTRATIERECHT" in result
+    assert "DROIT" not in result
+    assert "ENREGISTREMENT" not in result
+
+
+def test_strip_fr_lines_no_effect_on_single_nl_line():
+    """Enkelvoudige NL-regel (geen \\n) blijft ongewijzigd."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_lines_from_block
+    raw = "TITEL 1 - Inleidende bepalingen"
+    result = _strip_fr_lines_from_block(raw)
+    assert result == raw
+
+
+def test_strip_fr_lines_returns_empty_for_single_fr_line():
+    """Enkelvoudige FR-only-regel (zonder \\n) → lege string (noise-filter pakt hem op)."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_lines_from_block
+    raw = "Dispositions régionales (art. 3, al. 1 er , 8° de la loi spéciale)"
+    result = _strip_fr_lines_from_block(raw)
+    assert result == ""
+
+
+def test_strip_fr_lines_returns_empty_for_single_titre_line():
+    """Enkelvoudige 'TITRE ...' FR-regel → lege string."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_lines_from_block
+    raw = "TITRE I ER - DROIT D'ENREGISTREMENT"
+    result = _strip_fr_lines_from_block(raw)
+    assert result == ""
+
+
+def test_strip_fr_lines_removes_vehicules_a_moteur():
+    """'VEHICULES A MOTEUR' na 'MOTORVOERTUIGEN' wordt gestript."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_lines_from_block
+    raw = "MOTORVOERTUIGEN \nVEHICULES A MOTEUR"
+    result = _strip_fr_lines_from_block(raw)
+    assert "MOTORVOERTUIGEN" in result
+    assert "VEHICULES" not in result
+
+
+def test_strip_fr_lines_removes_tableau():
+    """'TABLEAU I' na 'TABEL I' wordt gestript."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_lines_from_block
+    raw = "TABEL I \nTABLEAU I"
+    result = _strip_fr_lines_from_block(raw)
+    assert "TABEL I" in result
+    assert "TABLEAU" not in result
+
+
+def test_strip_fr_lines_removes_droit_futur():
+    """'DROIT FUTUR (à partir du 01.01.2028)' na NL-equivalent wordt gestript."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_lines_from_block
+    raw = "TOEKOMSTIG RECHT (vanaf 01.01.2028) \nDROIT FUTUR (à partir du 01.01.2028)"
+    result = _strip_fr_lines_from_block(raw)
+    assert "TOEKOMSTIG RECHT" in result
+    assert "DROIT FUTUR" not in result
+
+
+# ─── Inline bilingual slash-separator stripping ───────────────────────────────
+
+def test_strip_fr_lines_strips_inline_tableau_suffix():
+    """'TABEL I   /   TABLEAU I' → 'TABEL I' (inline suffix gestript)."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_lines_from_block
+    raw = "TABEL I   /   TABLEAU I \nverkrijging in rechte lijn en tussen partners / acquisition en ligne directe et entre partenaires"
+    result = _strip_fr_lines_from_block(raw)
+    assert "TABEL I" in result
+    assert "TABLEAU" not in result
+    assert "verkrijging in rechte lijn" in result
+    assert "acquisition" not in result
+
+
+def test_strip_fr_inline_suffix_all_caps_fr():
+    """Enkelvoudige TABEL / TABLEAU-regel via _strip_fr_inline_suffix."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_inline_suffix
+    assert _strip_fr_inline_suffix("TABEL II / TABLEAU II").strip() == "TABEL II"
+
+
+def test_strip_fr_inline_suffix_accented():
+    """Inline FR-suffix met geaccentueerde letter wordt gestript."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_inline_suffix
+    result = _strip_fr_inline_suffix("belasting / impôt")
+    assert "belasting" in result
+    assert "impôt" not in result
+
+
+def test_strip_fr_inline_suffix_acquisition():
+    """Inline 'acquisition' als FR-indicator."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_inline_suffix
+    result = _strip_fr_inline_suffix(
+        "verkrijging in rechte lijn / acquisition en ligne directe"
+    )
+    assert "verkrijging" in result
+    assert "acquisition" not in result
+
+
+def test_strip_fr_inline_suffix_preserves_nl_after_slash():
+    """Puur NL-tekst na slash wordt NIET gestript (geen FR-indicator)."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_inline_suffix
+    result = _strip_fr_inline_suffix("art. 2.8.4.2.1 / geef mij een euro")
+    assert "geef mij een euro" in result
+
+
+def test_strip_fr_lines_returns_empty_for_single_fr_dispositions():
+    """Single-line 'Dispositions régionales...' → lege string."""
+    from tools.lib.extractors.pymupdf_wetboek import _strip_fr_lines_from_block
+    raw = "Dispositions régionales (art. 3, al. 1 er , 8° de la loi spéciale)"
+    assert _strip_fr_lines_from_block(raw) == ""

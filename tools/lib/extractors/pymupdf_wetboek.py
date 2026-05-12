@@ -275,6 +275,182 @@ def _classify_block(block: Block, heading_levels: dict[float, int]) -> tuple[str
     return "paragraph", 0
 
 
+# ─── FR-regel stripping uit tweetalige blokken ───────────────────────────────
+
+# Structuurlabels die UITSLUITEND in het Frans voorkomen in tweetalige wetteksten.
+# NL equivalenten (TITEL, HOOFDSTUK, AFDELING, …) worden nooit als FR herkend.
+# Let op: TABEL (NL) ≠ TABLEAU (FR); DROIT is FR, RECHT is NL.
+# Splitsing in twee regexes: (A) woordgrens-patronen, (B) overige patroonmatches.
+_FR_STRUCT_LINE_RE = re.compile(
+    r"^\s*(?:TITRE|LIVRE|PARTIE|CHAPITRE|SECTION|SOUS-SECTION"
+    r"|Titre|Livre|Partie|Chapitre|Section|Sous-section"
+    r"|TABLEAU|Tableau"                      # FR tegenhanger van NL TABEL
+    r"|VEHICULES?|Véhicules?|COMBINAISONS?"  # FR tabelhoofding in VCF-bijlage
+    r"|DROIT\s+(?:FUTUR|D[''']ENREGISTREMENT)"  # Reg.rechten FR labels
+    # FR-alleen zinnen als volledige regel (geen NL equivalent)
+    r"|Dispositions\s+r[eé]gionales"        # "Dispositions régionales" — FR voetnoot
+    r"|Alin[eé]a\s+\d"                      # "Alinéa 4 : dispositions..."
+    r")\b"
+    # Aanvullende patronen zonder woordgrens-eis (eindigen niet op een woordkarakter)
+    r"|^\s*Note\s+\(\d+"                    # "Note (1)" — FR noot-intro
+    ,
+)
+
+# "Article N er" / "Article N ère" — Frans ordegetal achter art-nummer.
+# Ook: "§ N er ." — FR ordegetal voor paragraaf-aanduiding.
+_FR_ARTICLE_ER_RE = re.compile(
+    r"^\s*(?:"
+    r"Article\s+\d+\s*(?:er|ère|re|ième|ieme|bis|ter)?\s*[.\-]?"
+    r"|§\s*\d+\s*(?:er|ère|re|ième|ieme)\s*\.\s*(?:Dispositions|La\s|Le\s|Les\s)"
+    r")\s*",
+    re.I,
+)
+
+# Veelvoorkomende onmiskenbaar Franstalige zinsdelen in body-tekst.
+# Gekozen op basis van VCF- en Registratierechten-patronen uit L2-rapport.
+_FR_BODY_MARKERS_RE = re.compile(
+    r"(?:"
+    r"[Ll]e\s+présent\s+(?:code|décret|règlement|Code)"
+    r"|[Ii]l\s+y\s+a\s+lieu\s+d[''']entendre"
+    r"|d[''']entendre\s+par\s+:"
+    r"|[Ll]a\s+présente\s+(?:section|disposition|loi|ordonnance)"
+    r"|[Ll][''']article\s+\d+"
+    r"|[Pp]ar\s+dérogation"
+    r"|(?:visé|prévu|défini)(?:e|es|s)?\s+(?:à|au|aux)\s+(?:l[''']article|l[''']alinéa|les articles)"
+    r")",
+)
+
+
+def _is_fr_only_line(line: str) -> bool:
+    """Bepaal of een enkele regel onmiskenbaar Franstalig is.
+
+    Gebruikt dezelfde patroonset als ``_strip_fr_lines_from_block`` maar
+    als helper voor enkelvoudige regels (geen ``\\n``).
+    """
+    stripped = line.strip()
+    if not stripped:
+        return False
+    return bool(
+        _FR_STRUCT_LINE_RE.match(stripped)
+        or _FR_ARTICLE_ER_RE.match(stripped)
+        or _FR_BODY_MARKERS_RE.search(stripped)
+    )
+
+
+# Inline bilingual ` / ` separator: "TABEL I / TABLEAU I" of
+# "verkrijging in rechte lijn / acquisition en ligne directe".
+# Drie triggers voor FR-gedeelte na ` / `:
+#   1. All-caps FR-woord (TABLEAU, ...)
+#   2. Geaccentueerde letter in de eerste 40 chars na de slash (é, è, ê, â, û, ç, …)
+#   3. Bekende FR-startwoorden in deze context (acquisition, tarif, tranche, etc.)
+_FR_INLINE_SLASH_RE = re.compile(
+    r"\s+/\s+"                                   # spatie-slash-spatie separator
+    r"(?:"
+    r"[A-Z][A-ZÀ-Ý]{2,}"                        # all-caps FR (TABLEAU, etc.)
+    r"|(?=[^/\n]{0,40}[àáâãäåæçèéêëìíîïðñòóôõöùúûüýÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖÙÚÛÜÝ])"
+                                                  # accent char binnen 40 tekens
+    r"|(?:acquisition|tarif|tranche|montant|imposition|perception"
+    r"|entre|pour\s|dans\s|selon\s|aux\s|par\s|du\s|de\s+la\s|le\s|les\s|la\s)"
+                                                  # bekende FR-woorden
+    r")"
+    r".*$",                                        # rest van de regel
+)
+
+
+def _strip_fr_inline_suffix(text: str) -> str:
+    """Strip een Franstalig gedeelte na een ` / `-separator in dezelfde regel.
+
+    Bedoeld voor inline tweetalige labels zoals:
+      "TABEL I   /   TABLEAU I" → "TABEL I"
+      "verkrijging in rechte lijn en tussen partners / acquisition en ligne"
+        → "verkrijging in rechte lijn en tussen partners"
+
+    Voorzichtig patroon: alleen strippen als het FR-deel onmiskenbaar Frans is
+    (begint met all-caps FR-woord of bevat geaccent. lowercase letters).
+
+    Args:
+      text: één tekstlijn (geen ``\\n``).
+
+    Returns:
+      Tekst zonder het FR-gedeelte achter de ` / `-separator, of ongewijzigd
+      als het patroon niet matcht.
+    """
+    return _FR_INLINE_SLASH_RE.sub("", text)
+
+
+def _strip_fr_lines_from_block(text: str) -> str:
+    """Verwijder Franstalige regels uit een tweetalig PDF-blok.
+
+    Context: tweetalige Belgische wetteksten (VCF, Registratierechten) bevatten
+    blokken waarbij NL en FR tekst op opeenvolgende regels staan binnen
+    hetzelfde PDF-blok (bv. centred headings, art-nummers, gedeeltelijke
+    body-paragrafen). De `column_filter: nl`-instelling filtert kolom-1 blokken
+    weg, maar heeft geen effect op blokken die de volledige breedte beslaan.
+
+    Deze functie werkt op het ruwe blok-tekst met ``\\n``-scheidingen, vóór de
+    join in ``_clean_block_text``. Ze verwijdert regels die onmiskenbaar Frans
+    zijn op basis van drie criteria:
+      1. Regel begint met een FR-structuurlabel (TITRE, CHAPITRE, SECTION, …)
+      2. Regel is een "Article N er" French ordegetal-variant
+      3. Regel bevat een onmiskenbaar Frans zinsdeel (le présent code, …)
+      4. Regel is een letterlijk duplicaat van de vorige NL-regel (bv. dubbel
+         art-nummer Art. 1.1.0.0.1.)
+
+    Voor blokken zonder ``\\n`` geldt: als de volledige tekst FR is, wordt een
+    lege string teruggegeven (zodat ``_is_noise_block`` het daarna verwijdert).
+
+    Voorzichtigheidsprincipe: twijfelachtige regels worden NIET verwijderd
+    (geen taal-score / probability — alleen harde patronen).
+
+    Args:
+      text: ruwe blok-tekst met ``\\n`` als regelscheiding.
+
+    Returns:
+      Gefilterde tekst met behoud van ``\\n``-scheiding voor resterende regels.
+      Lege string als het volledige enkelvoudige blok FR is.
+    """
+    if "\n" not in text:
+        # Enkelvoudige regel: verwijder als het FR-only is.
+        if _is_fr_only_line(text):
+            return ""
+        # Strip inline bilingual suffix: "TABEL I / TABLEAU I" → "TABEL I"
+        return _strip_fr_inline_suffix(text)
+
+    lines = text.split("\n")
+    kept: list[str] = []
+    prev_stripped: str = ""
+
+    for line in lines:
+        stripped = line.strip()
+
+        # Duplicaat van vorige regel (bv. art-nummer in NL én FR kolom)
+        if stripped and stripped == prev_stripped:
+            prev_stripped = stripped
+            continue
+
+        # FR-structuurlabel
+        if _FR_STRUCT_LINE_RE.match(stripped):
+            prev_stripped = stripped
+            continue
+
+        # "Article N er" (Frans ordegetal)
+        if _FR_ARTICLE_ER_RE.match(stripped):
+            prev_stripped = stripped
+            continue
+
+        # Onmiskenbaar Franstalig zinsdeel
+        if _FR_BODY_MARKERS_RE.search(stripped):
+            prev_stripped = stripped
+            continue
+
+        # Strip inline bilingual suffix (bv. "TABEL I / TABLEAU I")
+        cleaned_line = _strip_fr_inline_suffix(line)
+        kept.append(cleaned_line)
+        prev_stripped = stripped
+
+    return "\n".join(kept)
+
+
 # ─── Text-cleanup tussen blokken ──────────────────────────────────────────────
 
 _MULTI_WS = re.compile(r"[ \t\xa0]{2,}")
@@ -597,6 +773,12 @@ def extract_pdf(
                 blocks = [b for b in blocks if b.column == 0]
             elif column_filter == "fr":
                 blocks = [b for b in blocks if b.column == 1]
+        # Strip FR-regels uit tweetalige blokken (bv. centred headings die de
+        # volledige paginabreedte beslaan en dus niet door kolom-filter worden
+        # gepakt). Alleen actief bij column_filter="nl".
+        if column_filter == "nl":
+            for b in blocks:
+                b.text = _strip_fr_lines_from_block(b.text)
         all_blocks.extend(blocks)
         per_page_blocks.append((blocks, n_cols, split_x, page.rect.height))
 
