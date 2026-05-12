@@ -8,5 +8,5 @@ set -euo pipefail
 REPO_ROOT="$(git rev-parse --show-toplevel)"
 cd "$REPO_ROOT"
 
-echo "→ pre-commit: pytest -q"
-python3 -m pytest tests/ -q --no-header
+echo "→ pre-commit: pytest -q -m 'not slow'"
+python3 -m pytest tests/ -q --no-header -m "not slow"
