@@ -31,6 +31,7 @@ from tools.etl.transformers.strip_fisconet_artefacts import strip_fisconet_artef
 from tools.etl.transformers.fix_stuck_art_number import fix_stuck_art_number  # noqa: E402
 from tools.etl.transformers.split_merged_headings import split_merged_headings  # noqa: E402
 from tools.etl.transformers.strip_amendment_overview import strip_amendment_overview  # noqa: E402
+from tools.etl.transformers.strip_compilatie_appendix import strip_compilatie_appendix  # noqa: E402
 
 
 # ─── apply_chain ─────────────────────────────────────────────────────────────
@@ -725,3 +726,150 @@ class TestStripAmendmentOverview:
         result, _ = strip_amendment_overview(body, {})
         # Regel met zoveel (Art.N) refs hoort als overzicht behandeld te worden
         assert "(Art.254)" not in result, f"long overview row niet gestript: {result[:100]!r}"
+
+
+class TestStripCompilatieAppendix:
+    """Strip Fisconet bijwerkingen/recente-wijzigingen appendix van KB-splits."""
+
+    def test_bijlage_a_met_lijst_van_bijwerkingen(self):
+        """Bijlage A gevolgd door 'Lijst van de bijwerkingen' wordt gestript."""
+        body = (
+            "## Art. 5\n"
+            "\n"
+            "Onze Minister is belast met de uitvoering.\n"
+            "\n"
+            "Bijlage A\n"
+            "Lijst van de bijwerkingen\n"
+            "\n"
+            "Bijw. 01 / 01.01.2012   - Volledige uitgave\n"
+        )
+        result, _ = strip_compilatie_appendix(body, {})
+        assert "Lijst van de bijwerkingen" not in result
+        assert "Bijw. 01" not in result
+        assert "Onze Minister" in result
+
+    def test_bijlage_a_met_bijwerking_kolomheader(self):
+        """Bijlage A gevolgd door 'Bijwerking   t.e.m. B.S.' wordt gestript."""
+        body = (
+            "Onze Minister is belast met de uitvoering.\n"
+            "\n"
+            "Bijlage A\n"
+            "\n"
+            "     Bijwerking         t.e.m. B.S. van                Te vervangen pagina's\n"
+            "\n"
+            "Bijw. 01 / 01.01.2012     Volledige uitgave\n"
+        )
+        result, _ = strip_compilatie_appendix(body, {})
+        assert "Bijwerking" not in result
+        assert "Bijw. 01" not in result
+        assert "Onze Minister" in result
+
+    def test_recente_wijzigingen_als_directe_trigger(self):
+        """'Recente wijzigingen' op eigen regel wordt direct gestript."""
+        body = (
+            "## Art. 3\n"
+            "\n"
+            "Onze Minister is belast met de uitvoering.\n"
+            "\n"
+            "Recente wijzigingen – KB nr. 11\n"
+            "De historische versies kunnen geraadpleegd worden op www.fisconetplus.be\n"
+            "\n"
+            "*   KB van 24.01.2015 - Koninklijk besluit...\n"
+        )
+        result, _ = strip_compilatie_appendix(body, {})
+        assert "Recente wijzigingen" not in result
+        assert "De historische versies" not in result
+        assert "## Art. 3" in result
+        assert "Onze Minister" in result
+
+    def test_bijlage_bare_met_recente_wijzigingen(self):
+        """Bare 'Bijlage' gevolgd door 'Recente wijzigingen' wordt gestript."""
+        body = (
+            "Onze Minister is belast met de uitvoering.\n"
+            "\n"
+            "Bijlage\n"
+            "Recente wijzigingen – KB nr. 3\n"
+            "De historische versies ...\n"
+        )
+        result, _ = strip_compilatie_appendix(body, {})
+        assert "Recente wijzigingen" not in result
+        assert "Bijlage\n" not in result
+        assert "Onze Minister" in result
+
+    def test_geen_strip_zonder_trigger(self):
+        """Body zonder compilatie-appendix blijft ongewijzigd."""
+        body = (
+            "## Art. 1\n"
+            "\n"
+            "Gewone wettekst zonder appendix.\n"
+        )
+        result, _ = strip_compilatie_appendix(body, {})
+        assert result == body
+
+    def test_geen_strip_markdown_heading_bijlage(self):
+        """'## Bijlage I' als markdown-heading wordt niet gestript."""
+        body = (
+            "## Art. 5\n"
+            "\n"
+            "Artikel tekst.\n"
+            "\n"
+            "## Bijlage I\n"
+            "\n"
+            "Echte wettekst bijlage.\n"
+        )
+        result, _ = strip_compilatie_appendix(body, {})
+        assert "## Bijlage I" in result
+        assert "Echte wettekst bijlage" in result
+
+    def test_geen_strip_bijlage_all_caps(self):
+        """'BIJLAGE' (all caps) als legal bijlage wordt niet gestript."""
+        body = (
+            "## Art. 3\n"
+            "\n"
+            "Onze Minister is belast.\n"
+            "\n"
+            "                    BIJLAGE\n"
+            "\n"
+            "Tabel A - Goederen aan 6 pct.\n"
+        )
+        result, _ = strip_compilatie_appendix(body, {})
+        assert "BIJLAGE" in result
+        assert "Tabel A" in result
+
+    def test_idempotent(self):
+        """Tweede run verandert niets meer."""
+        body = (
+            "## Art. 5\n"
+            "Onze Minister is belast.\n"
+            "\n"
+            "Bijlage A\n"
+            "Lijst van de bijwerkingen\n"
+            "Bijw. 01 / 01.01.2012\n"
+        )
+        once, _ = strip_compilatie_appendix(body, {})
+        twice, _ = strip_compilatie_appendix(once, {})
+        assert once == twice
+
+    def test_lege_body_pass_through(self):
+        """Lege body wordt ongemoeid doorgegeven."""
+        result, _ = strip_compilatie_appendix("", {})
+        assert result == ""
+
+    def test_geen_overtollige_lege_regels_na_strip(self):
+        """Na strip geen overtollige lege regels aan het einde."""
+        body = (
+            "Wettekst.\n"
+            "\n"
+            "\n"
+            "Bijlage A\n"
+            "Lijst van de bijwerkingen\n"
+        )
+        result, _ = strip_compilatie_appendix(body, {})
+        # Geen meer dan één lege regel aan het einde voor \n
+        assert not result.endswith("\n\n")
+        assert "Wettekst." in result
+
+    def test_geregistreerd_in_transformers(self):
+        """strip_compilatie_appendix staat in de TRANSFORMERS-registry."""
+        from tools.etl.transformers import TRANSFORMERS
+        assert "strip_compilatie_appendix" in TRANSFORMERS
