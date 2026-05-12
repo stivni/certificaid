@@ -1,5 +1,5 @@
 {
-  "n_bronnen": 584,
+  "n_bronnen": 588,
   "bronnen": [
     {
       "bestand": "AVG-wet-2018.md",
@@ -17,6 +17,34 @@
       "layer2_status": "needs-rework"
     },
     {
+      "bestand": "Almanak-BTW-2026.md",
+      "bron_rol": "wettekst",
+      "stem": "Almanak-BTW-2026",
+      "titel": "Almanak BTW 2026 — ITAA / Larcier-Intersentia",
+      "korte_naam": "Almanak BTW 2026",
+      "tags": [
+        "2.4"
+      ],
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "layer1_status": "pass",
+      "layer2_status": "needs-rework"
+    },
+    {
+      "bestand": "Almanak-VenB-2026.md",
+      "bron_rol": "wettekst",
+      "stem": "Almanak-VenB-2026",
+      "titel": "Almanak Vennootschapsbelasting 2026 — ITAA / Larcier-Intersentia",
+      "korte_naam": "Almanak VenB 2026",
+      "tags": [
+        "2.4"
+      ],
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "layer1_status": "pass",
+      "layer2_status": "needs-rework"
+    },
+    {
       "bestand": "Antiwitwaswet-2017.md",
       "bron_rol": "wettekst",
       "stem": "Antiwitwaswet-2017",
@@ -26,10 +54,10 @@
         "XVII",
         "4.0"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
-      "layer2_status": "needs-rework"
+      "layer1_status": "pass",
+      "layer2_status": "trusted"
     },
     {
       "bestand": "BTW-dertiende-richtlijn-1986.md",
@@ -41,10 +69,10 @@
         "VI.A",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "BTW-richtlijn-2006-112.md",
@@ -71,10 +99,10 @@
         "VI.A",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "BTW-uitvoeringsverordening-282-2011.md",
@@ -86,10 +114,10 @@
         "VI.A",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "BW-boek1-algemene-bepalingen.md",
@@ -116,10 +144,10 @@
         "XI",
         "3.1"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "BW-boek3-goederen.md",
@@ -131,10 +159,10 @@
         "XI",
         "3.1"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "BW-boek4-nalatenschappen.md",
@@ -147,10 +175,10 @@
         "3.1",
         "2.6"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "BW-boek5-verbintenissen.md",
@@ -162,10 +190,10 @@
         "XI",
         "3.1"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "BW-boek8-bewijs.md",
@@ -177,10 +205,10 @@
         "XI",
         "3.1"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "BW-boek9-zekerheden.md",
@@ -192,9 +220,24 @@
         "XI",
         "3.1"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
+      "layer2_status": "trusted"
+    },
+    {
+      "bestand": "Belastingalmanak-2026.md",
+      "bron_rol": "wettekst",
+      "stem": "Belastingalmanak-2026",
+      "titel": "Belastingalmanak 2026 — ITAA / Larcier-Intersentia",
+      "korte_naam": "Belastingalmanak 2026",
+      "tags": [
+        "2.2",
+        "2.3"
+      ],
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "layer1_status": "warn",
       "layer2_status": "needs-rework"
     },
     {
@@ -207,9 +250,27 @@
         "IV.B",
         "2.5"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
+      "layer2_status": "trusted"
+    },
+    {
+      "bestand": "Cijfers-Tarieven-2026.md",
+      "bron_rol": "wettekst",
+      "stem": "Cijfers-Tarieven-2026",
+      "titel": "Cijfers & tarieven 2026 — ITAA",
+      "korte_naam": "Cijfers Tarieven 2026",
+      "tags": [
+        "2.1",
+        "2.2",
+        "2.3",
+        "2.4",
+        "2.5"
+      ],
+      "trust_status": "needs-rework",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "layer1_status": "warn",
       "layer2_status": "needs-rework"
     },
     {
@@ -222,10 +283,10 @@
         "IV.C",
         "2.5"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "EU-AVG-Verordening-2016-679.md",
@@ -252,10 +313,10 @@
         "1.2",
         "1.5"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "EU-Richtlijn-fusie-2009-133.md",
@@ -267,10 +328,10 @@
         "X",
         "2.8"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "EU-Richtlijn-interest-royalties-2003-49.md",
@@ -282,10 +343,10 @@
         "X",
         "2.8"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "EU-Richtlijn-moeder-dochter-2011-96.md",
@@ -363,10 +424,10 @@
         "2.2",
         "2.3"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "KB-WVV-2019.md",
@@ -380,10 +441,10 @@
         "3.1",
         "3.2"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "KB-voorafgaande-beslissingen-art22-2003.md",
@@ -408,10 +469,10 @@
       "tags": [
         "I"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Klokkenluiderswet-2022.md",
@@ -423,10 +484,10 @@
         "XVIII",
         "4.0"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "MAR-vzw.md",
@@ -454,10 +515,10 @@
         "2.2",
         "2.3"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "MIGB-Vlaanderen.md",
@@ -470,10 +531,10 @@
         "2.2",
         "2.3"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "MIGB-Wallonie.md",
@@ -486,10 +547,10 @@
         "2.2",
         "2.3"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Oud-BW.md",
@@ -498,12 +559,13 @@
       "titel": "Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019)",
       "korte_naam": "Oud BW",
       "tags": [
-        "XI"
+        "XI",
+        "3.1"
       ],
-      "trust_status": "unknown",
-      "trust_confirmed_by": null,
-      "layer1_status": null,
-      "layer2_status": null
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "layer1_status": "warn",
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Registratierechten-Brussel.md",
@@ -515,10 +577,10 @@
         "VIII",
         "2.6"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Registratierechten-Waals.md",
@@ -530,10 +592,10 @@
         "VIII",
         "2.6"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Registratierechten-federaal.md",
@@ -562,10 +624,10 @@
         "1.1",
         "1.2"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Strafwetboek-1867.md",
@@ -590,10 +652,10 @@
       "tags": [
         "XII"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Strafwetboek2024-boek2.md",
@@ -604,10 +666,10 @@
       "tags": [
         "XII"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Successierechten-Brussel.md",
@@ -619,10 +681,10 @@
         "IX",
         "2.6"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Successierechten-Waals.md",
@@ -634,10 +696,10 @@
         "IX",
         "2.6"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Successierechten-federaal.md",
@@ -756,10 +818,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB10-uitoefening-keuzen.md",
@@ -876,10 +938,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB2-forfaitaire.md",
@@ -891,10 +953,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB20-tarieven.md",
@@ -936,10 +998,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "rejected",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "rejected"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB23-jaarlijkse-lijst.md",
@@ -1266,10 +1328,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB55-btw-eenheid.md",
@@ -1296,10 +1358,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB57-plaats-diensten.md",
@@ -1341,10 +1403,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB6-internationaal-vervoer.md",
@@ -1431,10 +1493,10 @@
         "VI.C",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-MB1-aftrekregeling.md",
@@ -1657,10 +1719,10 @@
         "2.5",
         "2.6"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WER-Boek-VIII-normalisatie.md",
@@ -1672,10 +1734,10 @@
         "XIII",
         "1.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "rejected",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "needs-rework"
+      "layer2_status": "rejected"
     },
     {
       "bestand": "WER.md",
@@ -1687,10 +1749,10 @@
         "XIII",
         "1.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
-      "layer2_status": "needs-rework"
+      "layer1_status": "pass",
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WIB92.md",
@@ -1720,10 +1782,10 @@
         "3.1",
         "3.2"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Wet-ITAA-2019.md",
@@ -1749,10 +1811,10 @@
       "tags": [
         "XVI"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Wet-beroepskwalificaties-2008.md",
@@ -1764,10 +1826,10 @@
         "XXI",
         "4.0"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Wet-betalingsachterstand-2002.md",
@@ -1793,10 +1855,10 @@
         "2.6",
         "1.2"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "Wet-voorafgaande-beslissingen-2002.md",
@@ -1808,10 +1870,10 @@
         "I",
         "2.1"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Wetboek-Invordering.md",
@@ -1823,25 +1885,22 @@
         "VII",
         "2.5"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "X-oeso-model-verdrag.md",
       "bron_rol": "wettekst",
       "stem": "X-oeso-model-verdrag",
-      "titel": "OECD Model Tax Convention on Income and on Capital (as it read on 21 November 2017)",
+      "titel": "X-oeso-model-verdrag",
       "korte_naam": "X oeso model verdrag",
-      "tags": [
-        "X",
-        "2.8"
-      ],
-      "trust_status": "needs-rework",
+      "tags": [],
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "aangifte-PB-2025-bezoldigingen.md",
@@ -1849,13 +1908,10 @@
       "stem": "aangifte-PB-2025-bezoldigingen",
       "titel": "aangifte-PB-2025-bezoldigingen",
       "korte_naam": "aangifte PB 2025 bezoldigingen",
-      "tags": [
-        "PB",
-        "aangifte"
-      ],
+      "tags": [],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "fail",
+      "layer1_status": "pass",
       "layer2_status": "trusted"
     },
     {
@@ -1864,13 +1920,10 @@
       "stem": "aangifte-PB-2025-stopzetting",
       "titel": "aangifte-PB-2025-stopzetting",
       "korte_naam": "aangifte PB 2025 stopzetting",
-      "tags": [
-        "PB",
-        "aangifte"
-      ],
+      "tags": [],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "fail",
+      "layer1_status": "pass",
       "layer2_status": "trusted"
     },
     {
@@ -1886,14 +1939,14 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": "fail",
       "layer2_status": "needs-rework"
     },
     {
       "bestand": "fiscaal-memento-2025.md",
       "bron_rol": "wettekst",
       "stem": "fiscaal-memento-2025",
-      "titel": "Fiscaal Memento 2025 — FOD Financiën (editie 12/2024, bijgewerkt 31.12.2024)",
+      "titel": "Fiscaal Memento 2025 — FOD Financiën (editie 12/2024)",
       "korte_naam": "fiscaal memento 2025",
       "tags": [
         "2.1",
@@ -1907,14 +1960,14 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": "fail",
       "layer2_status": "needs-rework"
     },
     {
       "bestand": "toelichting-PB-2025-deel1-VG.md",
       "bron_rol": "wettekst",
       "stem": "toelichting-PB-2025-deel1-VG",
-      "titel": "Toelichting bij de aangifte in de personenbelasting — Aanslagjaar 2025 (inkomsten 2024) — Vlaams Gewest",
+      "titel": "Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Vlaams Gewest",
       "korte_naam": "toelichting PB 2025 deel1 VG",
       "tags": [
         "2.2",
@@ -1922,14 +1975,14 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": "fail",
       "layer2_status": "needs-rework"
     },
     {
       "bestand": "toelichting-PB-2025-deel2.md",
       "bron_rol": "wettekst",
       "stem": "toelichting-PB-2025-deel2",
-      "titel": "Toelichting bij de aangifte in de personenbelasting — Aanslagjaar 2025 (inkomsten 2024) — Deel 2",
+      "titel": "Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Deel 2",
       "korte_naam": "toelichting PB 2025 deel2",
       "tags": [
         "2.2",
@@ -1937,21 +1990,21 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": "fail",
       "layer2_status": "needs-rework"
     },
     {
       "bestand": "toelichting-VenB-2025.md",
       "bron_rol": "wettekst",
       "stem": "toelichting-VenB-2025",
-      "titel": "Toelichting bij de aangifte in de vennootschapsbelasting — Aanslagjaar 2025",
+      "titel": "Toelichting bij de aangifte in de vennootschapsbelasting — AJ 2025",
       "korte_naam": "toelichting VenB 2025",
       "tags": [
         "2.3"
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": "fail",
       "layer2_status": "needs-rework"
     },
     {
@@ -1961,17 +2014,16 @@
       "titel": "IESBA-code-of-ethics-2024",
       "korte_naam": "IESBA code of ethics 2024",
       "tags": [
-        "norm",
+        "4.0",
         "ethiek",
-        "iesba",
-        "ifac",
         "onafhankelijkheid",
-        "deontologie"
+        "deontologie",
+        "iesba"
       ],
-      "trust_status": "needs-rework",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": "default",
       "layer1_status": "warn",
-      "layer2_status": "needs-rework"
+      "layer2_status": null
     },
     {
       "bestand": "ITAA-deontologie-beroepsgeheim.md",
