@@ -13,6 +13,9 @@ Alternatief voor pdftotext-layout dat structuur-bewust werkt:
     spurious line-breaks op)
   - **Tabel-detectie** (rudimentair): blokken in grid-patroon op zelfde
     y-range → markdown pipe-tabel (mitigeert C3 pseudo-tabel-bug)
+  - **EU-richtlijn mode** (`mode: eu_richtlijn`): activeert extra EU
+    Publicatieblad-koptekst stripping, EUR-Lex amendment-marker stripping
+    en beperkt extractie tot de NL-kolom (linker kolom bij 2-kolom layout)
 
 Niet bedoeld voor:
   - PDFs met afbeeldingen/schema's als content (D2 — vereist OCR)
@@ -29,6 +32,8 @@ Gebruik via convert.py met `extract.method: pymupdf_wetboek`:
         # y-margins voor page-header/footer filter (default: 5% van page-height)
         top_margin: 50
         bottom_margin: 50
+        # EU-richtlijn mode: strip PB-kopteksten + EUR-Lex markers + NL-kolom
+        mode: eu_richtlijn  # eu_richtlijn | None (default)
 """
 from __future__ import annotations
 
@@ -288,9 +293,45 @@ _PAGE_NOISE = re.compile(
     re.I,
 )
 
+# ─── EU-richtlijn specifieke patronen ─────────────────────────────────────────
 
-def _clean_block_text(text: str) -> str:
-    """Normaliseer whitespace en strip soft-hyphens / dotted-leaders."""
+# Publicatieblad-kopteksten die op y≈50 verschijnen (net buiten top_margin=50).
+# Varianten:
+#   "NL   L 77/4  Publicatieblad van de Europese Unie  23.3.2011"
+#   "11.9.2002 L 243/1 Publicatieblad van de Europese Gemeenschappen NL"
+#   "11.12.2006 NL Publicatieblad   van   de   Europese   Unie L   347/21"
+_EU_PB_HEADER_RE = re.compile(
+    r"^(?:NL\s+|(?:\d{1,2}\.\d{1,2}\.\d{4}\s+))"  # "NL " of datum-prefix
+    r".*?(?:Publicatieblad|L\s+\d+/\d+).*$",
+    re.I,
+)
+
+# EUR-Lex amendment-markers (traceer-symbolen in geconsolideerde teksten).
+# ►B = basistekst; ▼B = einde basistekst; ▼M1/►M1 = amendement 1, etc.
+_EU_AMENDMENT_MARKER_RE = re.compile(
+    r"[►▼][BM]\d*",
+)
+
+# Spaced-letter blokken: EU OJ rendert sectietitels soms als
+# "O n d e r a f d e l i n g  3" (spaced individual chars).
+# Twee varianten:
+#   - single-space: "O n d e r a f d e l i n g 3"
+#   - double-space (na _MULTI_WS cleanup al single-space, maar na \n→space
+#     kan er alsnog een dubbele ruimte zijn tussen woorden):
+#     "H e t  v e r s t r e k k e n  v a n  r e s t a u r a n t ..."
+# Heuristic: ≥4 single-char alpha-tokens in de blok-tekst.
+_EU_SPACED_LETTER_RE = re.compile(
+    r"^(?:[A-Za-z][ ]{1,2}){4,}",
+)
+
+
+def _clean_block_text(text: str, eu_mode: bool = False) -> str:
+    """Normaliseer whitespace en strip soft-hyphens / dotted-leaders.
+
+    Args:
+      text: ruwe blok-tekst.
+      eu_mode: als True, verwijder ook EUR-Lex amendment-markers (►B, ▼M1, ...).
+    """
     text = _SOFT_HYPH.sub("", text)
     # Multi-space → single (PDF justification artifact)
     text = _MULTI_WS.sub(" ", text)
@@ -300,11 +341,20 @@ def _clean_block_text(text: str) -> str:
     text = re.sub(r"\s+(?:\.\s+){3,}(\d+)?\s*$", "", text)
     # Strip inline `. . . . .` runs (vaak TOC-style)
     text = _DOTTED_LEADER_INLINE.sub(" ", text)
+    if eu_mode:
+        # Strip EUR-Lex amendment-markers (►B, ▼B, ▼M1, ►M2, ...)
+        text = _EU_AMENDMENT_MARKER_RE.sub("", text)
     return text.strip()
 
 
-def _is_noise_block(text: str) -> bool:
-    """Page-headers, footers, kale URLs, page-numbers etc."""
+def _is_noise_block(text: str, eu_mode: bool = False) -> bool:
+    """Page-headers, footers, kale URLs, page-numbers etc.
+
+    Args:
+      text: gecleande blok-tekst.
+      eu_mode: als True, strip ook EU Publicatieblad-kopteksten en
+               spaced-letter sectietitels.
+    """
     if not text:
         return True
     if _BARE_URL.match(text):
@@ -335,18 +385,37 @@ def _is_noise_block(text: str) -> bool:
         text, re.I,
     ):
         return True
+    if eu_mode:
+        # EU Publicatieblad-kopteksten die op y≈50 verschijnen (net buiten
+        # top_margin=50): "NL   L 77/4  Publicatieblad van de Europese Unie  23.3.2011"
+        if _EU_PB_HEADER_RE.match(text):
+            return True
+        # Spaced-letter sectietitels: "O n d e r a f d e l i n g 3"
+        # Dit zijn supplementaire sectie-subtitels naast ONDERAFDELING/AFDELING
+        # headings; de gecompacteerde tekst zou woordgrenzen missen en is
+        # minder informatief dan de structurele heading zelf.
+        if _EU_SPACED_LETTER_RE.match(text):
+            return True
+        # Standalone "NL" of "I" / "II" als sectie-marker van het Publicatieblad
+        if re.fullmatch(r"\s*(?:NL|FR|DE|EN)\s*", text, re.I):
+            return True
+        if re.fullmatch(r"\s*[IVX]+\s*", text):
+            return True
     return False
 
 
 # ─── Hoofd-extract per pagina ─────────────────────────────────────────────────
 
 def _render_page(blocks: list[Block], heading_levels: dict[float, int],
-                 n_columns: int) -> str:
+                 n_columns: int, eu_mode: bool = False) -> str:
     """Render één pagina naar markdown.
 
     Volgorde:
       n_columns=1 → blocks sorted by y, dan x.
       n_columns=2 → alle column-0 blocks (sorted by y), dan alle column-1.
+
+    Args:
+      eu_mode: activeer EU-richtlijn specifieke filtering (PB-headers, markers).
     """
     if n_columns == 2:
         col0 = sorted([b for b in blocks if b.column == 0], key=lambda b: (b.y0, b.x0))
@@ -376,13 +445,13 @@ def _render_page(blocks: list[Block], heading_levels: dict[float, int],
                 if heading_title:
                     rest_lines.insert(0, heading_title)
             # Body uit rest_lines (joined paragraph)
-            body = _clean_block_text('\n'.join(rest_lines))
-            if body and not _is_noise_block(body):
+            body = _clean_block_text('\n'.join(rest_lines), eu_mode=eu_mode)
+            if body and not _is_noise_block(body, eu_mode=eu_mode):
                 out_parts.append(body)
             continue
 
-        text = _clean_block_text(b.text)
-        if not text or _is_noise_block(text):
+        text = _clean_block_text(b.text, eu_mode=eu_mode)
+        if not text or _is_noise_block(text, eu_mode=eu_mode):
             continue
         kind, level = _classify_block(b, heading_levels)
         level = min(level, 6)
@@ -472,6 +541,7 @@ def extract_pdf(
     column_filter: str = "both",   # "nl" (only col 0), "fr" (only col 1), "both"
     top_margin: float = 50.0,
     bottom_margin: float = 50.0,
+    mode: Optional[str] = None,    # "eu_richtlijn" | None
 ) -> str:
     """Extract een wettekst-PDF naar markdown via pymupdf block-extractie.
 
@@ -481,7 +551,15 @@ def extract_pdf(
       column_filter: bij 2-column: "nl" voor enkel linker (NL) kolom,
         "fr" voor rechter, "both" voor beide in NL→FR volgorde.
       top_margin / bottom_margin: y-zones om te strippen als page-noise.
+      mode: "eu_richtlijn" activeert EU Publicatieblad-specifieke filtering:
+        - Strip PB-kopteksten ("NL   L 77/4  Publicatieblad...") die op
+          y≈50 staan (net buiten standaard top_margin=50)
+        - Strip EUR-Lex amendment-markers (►B, ▼M1, ...)
+        - Strip spaced-letter sectietitels ("O n d e r a f d e l i n g 3")
+        - Beperkt column_filter standaard tot "nl" (linker NL-kolom)
     """
+    eu_mode = (mode == "eu_richtlijn")
+
     doc = pymupdf.open(str(pdf_path))
     all_pages_md: list[str] = []
 
@@ -519,7 +597,7 @@ def extract_pdf(
                 continue
             # Eerste niet-TOC pagina: zet skip_mode af.
             skip_mode = False
-        md = _render_page(blocks, heading_levels, n_cols)
+        md = _render_page(blocks, heading_levels, n_cols, eu_mode=eu_mode)
         if md:
             all_pages_md.append(md)
 
@@ -555,4 +633,5 @@ def extract(cfg: dict, source_name: str) -> str:
         column_filter=params.get("column_filter", "both"),
         top_margin=params.get("top_margin", 50.0),
         bottom_margin=params.get("bottom_margin", 50.0),
+        mode=params.get("mode"),
     )
