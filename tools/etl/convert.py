@@ -70,7 +70,7 @@ from tools.etl.transformers import apply_chain  # noqa: E402
 
 DEFAULT_CHAINS: dict[str, list[str]] = {
     "pdftotext_ejustice":       ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
-    "custom_wetboek":           ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
+    "custom_wetboek":           ["cleanup_basics", "strip_fisconet_artefacts", "inject_headings_wettekst", "emit_frontmatter"],
     "custom_wib92":             ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
     "justel_html":              ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
     "justel_change_lg":         ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
