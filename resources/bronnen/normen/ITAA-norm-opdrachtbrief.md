@@ -32,10 +32,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:30:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A1/G1: pagina-residu op regels 50–53: '    OPDRACHTBRIEF', '1', '    Inhoud', '            2) Specifieke regels...' — dit zijn pagina-koptekst, paginanummer en TOC-fragment van de bron-PDF die voor de echte body staan. Regel 54 begint '2' (paginanummer). Eigenlijke inhoud start pas op regel 55. 18 headings correct aanwezig."
     layer1:
       status: pass
       run_id: 20260512-232433
@@ -45,6 +45,19 @@ provenance:
       file_size_chars: 24353
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:18Z'
+      rationale: "A1/G1: pagina-residu op regels 50–53: '    OPDRACHTBRIEF', '1', '    Inhoud', '            2) Specifieke regels...' — dit zijn pagina-koptekst, paginanummer en TOC-fragment van de bron-PDF die voor de echte body staan. Regel 54 begint '2' (paginanummer). Eigenlijke inhoud start pas op regel 55. 18 headings correct aanwezig."
+      concrete_problemen:
+        - regel: 50
+          categorie: A1
+          type: form-feed
+          voorbeeld: '    OPDRACHTBRIEF\n1\n    Inhoud\n            2) Specifieke regels...'
+        - regel: 54
+          categorie: A1
+          type: form-feed
+          voorbeeld: 2 (paginanummer als standalone regel)
 ---
     OPDRACHTBRIEF
 

@@ -33,10 +33,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:30:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "C1: bullet-glyphs '•' op meerdere plaatsen (regels 418–428 etc.) i.p.v. '-' markdown-bullets. A6: titel (regels 52–54) is over meerdere korte regels gebroken. A3/intro: goedkeuringsblok is gefragmenteerd (regels 56–65: 'BELASTINGADVISEURS EN DE ACCOUNTANTS', 'betreft;', 'gunstig advies uitgebracht te hebben.' staan als losse fragmenten zonder aanleiding). Inhoud groot (67 headings) maar content verder materieel intact."
     layer1:
       status: pass
       run_id: 20260512-232433
@@ -46,6 +46,23 @@ provenance:
       file_size_chars: 69523
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:18Z'
+      rationale: "C1: bullet-glyphs '•' op meerdere plaatsen (regels 418–428 etc.) i.p.v. '-' markdown-bullets. A6: titel (regels 52–54) is over meerdere korte regels gebroken. A3/intro: goedkeuringsblok is gefragmenteerd (regels 56–65: 'BELASTINGADVISEURS EN DE ACCOUNTANTS', 'betreft;', 'gunstig advies uitgebracht te hebben.' staan als losse fragmenten zonder aanleiding). Inhoud groot (67 headings) maar content verder materieel intact."
+      concrete_problemen:
+        - regel: 52
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: Norm inzake...\nin het bijzonder de artikelen 3...\nheeft uitgebracht...
+        - regel: 418
+          categorie: C1
+          type: bullet-glyph
+          voorbeeld: • De identificatie van de beroepsbeoefenaar...
+        - regel: 131
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: Bijlage 3 – Voorbeeld van opdrachtbrief ... 41 (TOC-rest)
 ---
 Norm inzake de opdracht van de beroepsbeoefenaar in het kader van de beoordeling van het getrouw en voldoende
 

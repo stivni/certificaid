@@ -35,10 +35,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:30:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A2/B6: Inhoudstafel op regel 127–128 is een onvolledig TOC-fragment ('Inhoudstafel' + enkel bijlage-verwijzing, geen paginanummers of dotted-leaders maar wel TOC-rest in de body). Sectietitels binnen §§ (bijv. 'Definities', 'Toepassingsgebied ratione personae', 'Interne procedures') staan als plain-text op regel 133/257/347 in plaats van als ##/###-headings. Inhoud inhoudelijk volledig."
     layer1:
       status: pass
       run_id: 20260512-232433
@@ -48,6 +48,23 @@ provenance:
       file_size_chars: 42385
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:18Z'
+      rationale: "A2/B6: Inhoudstafel op regel 127–128 is een onvolledig TOC-fragment ('Inhoudstafel' + enkel bijlage-verwijzing, geen paginanummers of dotted-leaders maar wel TOC-rest in de body). Sectietitels binnen §§ (bijv. 'Definities', 'Toepassingsgebied ratione personae', 'Interne procedures') staan als plain-text op regel 133/257/347 in plaats van als ##/###-headings. Inhoud inhoudelijk volledig."
+      concrete_problemen:
+        - regel: 127
+          categorie: A3
+          type: other
+          voorbeeld: 'Inhoudstafel\n\nBIJLAGE I: Variabelen... (onvolledig TOC-fragment)'
+        - regel: 133
+          categorie: B5
+          type: other
+          voorbeeld: 'Definities (plain text, geen ## heading)'
+        - regel: 257
+          categorie: B5
+          type: other
+          voorbeeld: 'Toepassingsgebied ratione personae (plain text, geen ## heading)'
 ---
   Norm van het Instituut van de Accountants en de Belastingconsulenten d.d. 31
 maart 2020 inzake de toepassing van de wet van 18 september 2017 tot voorkoming

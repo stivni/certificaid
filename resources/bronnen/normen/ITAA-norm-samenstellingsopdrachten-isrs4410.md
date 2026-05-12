@@ -32,10 +32,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:30:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "C1: bullet-glyphs '•' op meerdere plaatsen (regels 140, 141, 219, 220, 285 etc.). A6: goedkeuringsblok (regels 51–65) is sterk gefragmenteerd — losse zinsdeeltjes zonder begin ('in het bijzonder de artikelen...', 'heeft uitgebracht...', 'gunstig advies uitgebracht te hebben.'). Inhoud verder intact (43 headings)."
     layer1:
       status: pass
       run_id: 20260512-232433
@@ -45,6 +45,19 @@ provenance:
       file_size_chars: 46248
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:18Z'
+      rationale: "C1: bullet-glyphs '•' op meerdere plaatsen (regels 140, 141, 219, 220, 285 etc.). A6: goedkeuringsblok (regels 51–65) is sterk gefragmenteerd — losse zinsdeeltjes zonder begin ('in het bijzonder de artikelen...', 'heeft uitgebracht...', 'gunstig advies uitgebracht te hebben.'). Inhoud verder intact (43 headings)."
+      concrete_problemen:
+        - regel: 51
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: in het bijzonder de artikelen 3, 5, 6, 62... (mid-zin begin)
+        - regel: 140
+          categorie: C1
+          type: bullet-glyph
+          voorbeeld: • nadere uitleg bevatten van wat een vereiste inhoudt...
 ---
 ## Norm inzake de Samenstellingsopdrachten
 

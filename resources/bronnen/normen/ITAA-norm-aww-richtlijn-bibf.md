@@ -35,10 +35,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:30:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Zelfde patroon als aww-reglement: sectietitels binnen hoofdsecties staan als plain-text in de body i.p.v. als ###-headings (bijv. 'Definities', 'Toepassingsgebied ratione personae', 'Interne procedures', 'Clientacceptatiebeleid' etc.). A6: titel op regels 52–55 is over meerdere regels gebroken. Inhoud otherwise compleet."
     layer1:
       status: pass
       run_id: 20260512-232433
@@ -48,6 +48,19 @@ provenance:
       file_size_chars: 42872
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:18Z'
+      rationale: "Zelfde patroon als aww-reglement: sectietitels binnen hoofdsecties staan als plain-text in de body i.p.v. als ###-headings (bijv. 'Definities', 'Toepassingsgebied ratione personae', 'Interne procedures', 'Clientacceptatiebeleid' etc.). A6: titel op regels 52–55 is over meerdere regels gebroken. Inhoud otherwise compleet."
+      concrete_problemen:
+        - regel: 52
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: Richtlijn...\n     van 31 maart 2020...\n     2017 tot voorkoming...
+        - regel: 133
+          categorie: B5
+          type: other
+          voorbeeld: 'Definities (plain-text i.p.v. ### heading in body)'
 ---
 Richtlijn van het Beroepsinstituut van erkende Boekhouders en Fiscalisten
      van 31 maart 2020 inzake de toepassing van de wet van 18 september

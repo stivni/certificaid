@@ -26,10 +26,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:30:14Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
     layer1:
       status: pass
       run_id: 20260512-232428
@@ -39,6 +39,11 @@ provenance:
       file_size_chars: 2257
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:14Z'
+      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      concrete_problemen: []
 ---
 # CBN advies 12-3 - Toepassingsgebied van de uitvoeringsbesluiten - Gemiddeld aantal jaarlijks tewerkgestelde personen
 De vraag werd gesteld welk criterium in aanmerking moet genomen worden voor de berekening van het gemiddeld aantal tewerkgestelde personen zoals bedoeld in artikel 12 van de wet van 17 juli 1975 en artikel 39 van het koninklijk besluit van 8 oktober 1976. 

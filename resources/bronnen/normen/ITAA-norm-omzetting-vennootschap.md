@@ -32,10 +32,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:30:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "C1: bullet-glyphs '•' op regels 413–442 i.p.v. '-' bullets. A6: goedkeuringsblok (regels 53–59) is gefragmenteerd in losse zinsdeeltjes. Ontwerp-status op regel 49 ('Ontwerp') is een stuk brondocument-metadata dat midden in de body staat. Inhoud anders intact (122 headings)."
     layer1:
       status: pass
       run_id: 20260512-232433
@@ -45,6 +45,23 @@ provenance:
       file_size_chars: 94171
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:18Z'
+      rationale: "C1: bullet-glyphs '•' op regels 413–442 i.p.v. '-' bullets. A6: goedkeuringsblok (regels 53–59) is gefragmenteerd in losse zinsdeeltjes. Ontwerp-status op regel 49 ('Ontwerp') is een stuk brondocument-metadata dat midden in de body staat. Inhoud anders intact (122 headings)."
+      concrete_problemen:
+        - regel: 49
+          categorie: A1
+          type: other
+          voorbeeld: Ontwerp (brondocument-status als plain text body-regel)
+        - regel: 413
+          categorie: C1
+          type: bullet-glyph
+          voorbeeld: • de identificatie van de beroepsbeoefenaar...
+        - regel: 53
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien...\nbetreft;\nGezien het ontwerp...
 ---
 Ontwerp
 

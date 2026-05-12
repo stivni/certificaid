@@ -31,10 +31,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:30:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A7: preambule en goedkeuringsblok (regels 49–103) zijn sterk gefragmenteerd: zinnen zijn over meerdere korte regels gebroken zonder logische alinea-grens. Secties als 'Definities' (regel 105) en 'Kwaliteitsmanagementsysteem' (regel 135) staan als plain-text in de body zonder ## heading. De heading 'CABINET Doelstelling' (regel 151) is een samengevoegde EN/FR-samenvoegingsfout (FR 'cabinet' = kantoor). Inhoud materieel aanwezig."
     layer1:
       status: pass
       run_id: 20260512-232433
@@ -44,6 +44,23 @@ provenance:
       file_size_chars: 13185
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:18Z'
+      rationale: "A7: preambule en goedkeuringsblok (regels 49–103) zijn sterk gefragmenteerd: zinnen zijn over meerdere korte regels gebroken zonder logische alinea-grens. Secties als 'Definities' (regel 105) en 'Kwaliteitsmanagementsysteem' (regel 135) staan als plain-text in de body zonder ## heading. De heading 'CABINET Doelstelling' (regel 151) is een samengevoegde EN/FR-samenvoegingsfout (FR 'cabinet' = kantoor). Inhoud materieel aanwezig."
+      concrete_problemen:
+        - regel: 50
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: Inleiding RAAD VAN HET INSTITUUT... (meerdere fragmenten samengevoegd)
+        - regel: 105
+          categorie: B5
+          type: other
+          voorbeeld: 'Definities (plain text, geen ## heading)'
+        - regel: 151
+          categorie: A8
+          type: column-bleed
+          voorbeeld: "## CABINET Doelstelling (FR 'CABINET' + NL 'Doelstelling' samengevoegd)"
 ---
 ## NORM ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT
 

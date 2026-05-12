@@ -34,10 +34,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:30:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A1: pagina-headers/footers door de body: paginanummers '1' (regel 54) en '2' (regel 60) + copyright-footers '© ITAA – Norm permanente vorming...' (regels 56, 62) als standalone regels midden in het document vóór de echte body. Dit zijn PDF-pagina-resten die niet gefilterd zijn. Eigenlijke norm start op regel 64. 15 headings correct."
     layer1:
       status: pass
       run_id: 20260512-232433
@@ -47,6 +47,19 @@ provenance:
       file_size_chars: 31888
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:18Z'
+      rationale: "A1: pagina-headers/footers door de body: paginanummers '1' (regel 54) en '2' (regel 60) + copyright-footers '© ITAA – Norm permanente vorming...' (regels 56, 62) als standalone regels midden in het document vóór de echte body. Dit zijn PDF-pagina-resten die niet gefilterd zijn. Eigenlijke norm start op regel 64. 15 headings correct."
+      concrete_problemen:
+        - regel: 54
+          categorie: A1
+          type: form-feed
+          voorbeeld: 1\n© ITAA – Norm permanente vorming... (pagina-resten vóór body)
+        - regel: 60
+          categorie: A1
+          type: form-feed
+          voorbeeld: 2\n© ITAA – Norm permanente vorming... (tweede pagina-rest)
 ---
           Norm met betrekking tot
           de permanente vorming

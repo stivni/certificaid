@@ -34,10 +34,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:30:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'A6: goedkeuringsblok (regels 59–79) is één doorlopende tekst zonder alinea-scheiding. Laag 1 meldt max_section_chars=43684 wat de RAG-chunker dwingt op alinea-grenzen te splitsen. Inhoud groot (74 headings, 145915 chars) maar structureel intact. Dubbele # heading op regel 55 en 57 (twee # H1s). Tekst in goedkeuringsblok is aaneengesloten op lange regels zonder puntkomma-grenzen.'
     layer1:
       status: warn
       run_id: 20260512-232433
@@ -51,6 +51,19 @@ provenance:
           detail: 'langste sectie op ##-niveau: 43684 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:18Z'
+      rationale: 'A6: goedkeuringsblok (regels 59–79) is één doorlopende tekst zonder alinea-scheiding. Laag 1 meldt max_section_chars=43684 wat de RAG-chunker dwingt op alinea-grenzen te splitsen. Inhoud groot (74 headings, 145915 chars) maar structureel intact. Dubbele # heading op regel 55 en 57 (twee # H1s). Tekst in goedkeuringsblok is aaneengesloten op lange regels zonder puntkomma-grenzen.'
+      concrete_problemen:
+        - regel: 55
+          categorie: B3
+          type: other
+          voorbeeld: '# KMO controle norm\n# Norm met betrekking... (dubbele H1)'
+        - regel: 59
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: DE RAAD VAN HET INSTITUUT... Gezien... Gelet op... Gezien... (aaneengesloten)
 ---
 # KMO controle norm
 

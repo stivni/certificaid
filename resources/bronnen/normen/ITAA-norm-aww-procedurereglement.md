@@ -32,10 +32,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:30:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Geen ETL-artefacten. 9 article-headings correct. Intro-blok (regels 49–112) bevat de preambule als plain-text-alinea's — dit is conform de bron-layout van dit reglement. Geen dotted-leaders, form-feeds of column-bleed. Inhoud volledig (art. 1–9 aanwezig).
     layer1:
       status: pass
       run_id: 20260512-232433
@@ -45,6 +45,11 @@ provenance:
       file_size_chars: 12861
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:18Z'
+      rationale: Geen ETL-artefacten. 9 article-headings correct. Intro-blok (regels 49–112) bevat de preambule als plain-text-alinea's — dit is conform de bron-layout van dit reglement. Geen dotted-leaders, form-feeds of column-bleed. Inhoud volledig (art. 1–9 aanwezig).
+      concrete_problemen: []
 ---
   Procedurereglement voor het opleggen van maatregelen
     in het kader van artikel 118, §1 van de antiwitwaswet

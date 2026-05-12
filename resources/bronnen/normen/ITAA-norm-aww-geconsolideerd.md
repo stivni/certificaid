@@ -35,10 +35,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:30:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A7: titel en intro-paragraaf (regels 52–69) zijn over meerdere korte regels gebroken — de titel is gesplitst over 3 regels en de intro-paragraaf heeft een ontbrekende zinsaanzet op regel 67 ('om een nieuwe norm...' begint mid-zin, begin van de zin ontbreekt). A2: Inhoudstafel (regels 73–128) bevat dotted-leader resten ('---- ... ---- 4'). Structureel verder intact."
     layer1:
       status: pass
       run_id: 20260512-232433
@@ -48,6 +48,23 @@ provenance:
       file_size_chars: 25088
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:18Z'
+      rationale: "A7: titel en intro-paragraaf (regels 52–69) zijn over meerdere korte regels gebroken — de titel is gesplitst over 3 regels en de intro-paragraaf heeft een ontbrekende zinsaanzet op regel 67 ('om een nieuwe norm...' begint mid-zin, begin van de zin ontbreekt). A2: Inhoudstafel (regels 73–128) bevat dotted-leader resten ('---- ... ---- 4'). Structureel verder intact."
+      concrete_problemen:
+        - regel: 52
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: Geconsolideerde tekst...\ntoepassing van de wet...\nvoorkoming van het...
+        - regel: 67
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "om een nieuwe norm, maar een samensmelting... (ontbreekt: 'Het gaat niet')"
+        - regel: 74
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: ALGEMENE BEPALINGEN ------...------- 4
 ---
 Geconsolideerde tekst door het Instituut van de Belastingadviseurs en de Accountants (ITAA) van de norm van het IAB en de richtlijn van het BIBF inzake de
 

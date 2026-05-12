@@ -31,10 +31,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:30:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'D1: bestand eindigt abrupt mid-zin op regel 53 ("...zou de vervaardigingsprijs trouwens" - zin zonder afronding). Scraper heeft de pagina onvolledig opgehaald.'
     layer1:
       status: pass
       run_id: 20260512-232428
@@ -44,6 +44,15 @@ provenance:
       file_size_chars: 1109
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:15Z'
+      rationale: 'D1: bestand eindigt abrupt mid-zin op regel 53 ("...zou de vervaardigingsprijs trouwens" - zin zonder afronding). Scraper heeft de pagina onvolledig opgehaald.'
+      concrete_problemen:
+        - regel: 53
+          categorie: D1
+          type: abrupt-cutoff
+          voorbeeld: zou de vervaardigingsprijs trouwens
 ---
 # CBN advies 126-5 - Vervaardigingsprijs
 Aan de Commissie werd gevraagd of de financiële kosten die mogen worden opgenomen in de vervaardigingsprijs van voorraden en bestellingen in uitvoering, waarvan de produktie meer dan één jaar bestrijkt, alle daaraan verbonden financiële kosten omvatten of enkel de financiële kosten die betrekking hebben op de schulden op meer dan één jaar. 

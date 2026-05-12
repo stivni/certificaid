@@ -40,10 +40,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:30:15Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'C1: 5 bullet-glyphs (•) in de body als PDF-opsommingsteken i.p.v. markdown-conventie (-). ETL bullet-promotion fix heeft dit bestand gemist.'
     layer1:
       status: pass
       run_id: 20260512-232428
@@ -53,6 +53,17 @@ provenance:
       file_size_chars: 21954
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:15Z'
+      rationale: 'C1: 5 bullet-glyphs (•) in de body als PDF-opsommingsteken i.p.v. markdown-conventie (-). ETL bullet-promotion fix heeft dit bestand gemist.'
+      concrete_problemen:
+        - categorie: C1
+          type: bullet-glyph
+          voorbeeld: • Als dit bedrag wordt vergeleken met de geactualiseerde waarde
+        - categorie: C1
+          type: bullet-glyph
+          voorbeeld: '• Dat bedrag kan ook worden verkregen :'
 ---
 # CBN-advies 139/8 - Uitgifte van obligaties met inschrijvingsrechten die in aandelen converteerbaar of terugbetaalbaar zijn, en van aandelen waaraan het recht is gekoppeld om in te schrijven op later uit te geven aandelen
 

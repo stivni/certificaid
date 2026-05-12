@@ -45,10 +45,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:30:16Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'C1: 2 bullet-glyphs (•) in tabel-context. ETL bullet-promotion fix heeft dit bestand niet volledig gecorrigeerd.'
     layer1:
       status: pass
       run_id: 20260512-232428
@@ -58,6 +58,17 @@ provenance:
       file_size_chars: 11710
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:16Z'
+      rationale: 'C1: 2 bullet-glyphs (•) in tabel-context. ETL bullet-promotion fix heeft dit bestand niet volledig gecorrigeerd.'
+      concrete_problemen:
+        - categorie: C1
+          type: bullet-glyph
+          voorbeeld: • in 1998 voor een bedrag van 2 872,3
+        - categorie: C1
+          type: bullet-glyph
+          voorbeeld: • in 1999 voor een bedrag van (15.000)
 ---
 # CBN-advies 173/5 - Toelichting bij de boekhoudkundige verwerking van termijnwisselverrichtingen tussen de munten van Lid-Staten van de Muntunie
 

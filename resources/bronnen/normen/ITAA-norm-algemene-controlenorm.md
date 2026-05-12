@@ -33,10 +33,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:30:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Geen ETL-artefacten. 7 headings correct, inhoud volledig. Opsommingen als plain-text (zonder bullets) zijn conform de bronopmaak van deze beknopte 1991-norm. Geen form-feeds, OCR-fouten of column-bleed.
     layer1:
       status: pass
       run_id: 20260512-232433
@@ -46,6 +46,11 @@ provenance:
       file_size_chars: 7565
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:18Z'
+      rationale: Geen ETL-artefacten. 7 headings correct, inhoud volledig. Opsommingen als plain-text (zonder bullets) zijn conform de bronopmaak van deze beknopte 1991-norm. Geen form-feeds, OCR-fouten of column-bleed.
+      concrete_problemen: []
 ---
 # Algemene controlenorm (Besl. Raad d.d. 30 september 1991)
 

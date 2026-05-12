@@ -29,10 +29,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:30:14Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Kort advies (818 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
     layer1:
       status: pass
       run_id: 20260512-232428
@@ -42,6 +42,11 @@ provenance:
       file_size_chars: 817
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:14Z'
+      rationale: 'Kort advies (818 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+      concrete_problemen: []
 ---
 # CBN advies 100 - Omzet – Begrip
 Tal van bepalingen van de wet van 17 juli 1975 en van het koninklijk besluit van 8 oktober 1976 verwijzen naar het begrip omzetcijfer[^1]. 

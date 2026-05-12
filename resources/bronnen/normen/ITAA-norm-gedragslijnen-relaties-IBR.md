@@ -31,10 +31,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:30:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A9: OCR-fouten consistent door het document — 'BEROEPSRELATlES' (regel 48, kleine l i.p.v. I), 'fmanciële' (regel 105), 'van WIe' (regel 116), 'enlof' (regel 60). Trailing ' ,\"' op meerdere regels (54, 57, 62 etc.) — dit zijn waarschijnlijk bron-typfouten maar zijn consistent door het brondocument. heading_count=0: document heeft geen enkel ## heading — alle sectietitels ('Definities', 'Eerste principe', 'Tweede principe' etc.) staan als plain text. Dit is B4/B5."
     layer1:
       status: pass
       run_id: 20260512-232433
@@ -44,6 +44,27 @@ provenance:
       file_size_chars: 7570
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:18Z'
+      rationale: "A9: OCR-fouten consistent door het document — 'BEROEPSRELATlES' (regel 48, kleine l i.p.v. I), 'fmanciële' (regel 105), 'van WIe' (regel 116), 'enlof' (regel 60). Trailing ' ,\"' op meerdere regels (54, 57, 62 etc.) — dit zijn waarschijnlijk bron-typfouten maar zijn consistent door het brondocument. heading_count=0: document heeft geen enkel ## heading — alle sectietitels ('Definities', 'Eerste principe', 'Tweede principe' etc.) staan als plain text. Dit is B4/B5."
+      concrete_problemen:
+        - regel: 48
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: BEROEPSRELATlES (kleine l i.p.v. I)
+        - regel: 105
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: fmanciële informatie te controleren
+        - regel: 116
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: de entiteit is de rechtspersoon of natuurlijke persoon voor WIe
+        - regel: 119
+          categorie: B5
+          type: other
+          voorbeeld: 'Eerste principe - Aanvaarding van een controleopdracht (plain text, geen ##)'
 ---
 GEDRAGSLIJNEN INZAKE DE BEROEPSRELATlES TUSSEN DE LEDEN VAN
 HET IBR, HET IAB EN HET BIBF

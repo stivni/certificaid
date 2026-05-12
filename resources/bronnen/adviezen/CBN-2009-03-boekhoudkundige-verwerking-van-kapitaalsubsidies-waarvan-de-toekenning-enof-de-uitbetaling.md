@@ -32,10 +32,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:30:16Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'D4: *** drievoudig asterisk voor "Boekingen" op regel 177 - ETL-bug waarbij bold+italic mix resulteert in unclosed marker. Leestbaarheid van tabeltitels aangetast.'
     layer1:
       status: pass
       run_id: 20260512-232428
@@ -45,6 +45,15 @@ provenance:
       file_size_chars: 19614
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:16Z'
+      rationale: 'D4: *** drievoudig asterisk voor "Boekingen" op regel 177 - ETL-bug waarbij bold+italic mix resulteert in unclosed marker. Leestbaarheid van tabeltitels aangetast.'
+      concrete_problemen:
+        - regel: 177
+          categorie: D4
+          type: unclosed-bold
+          voorbeeld: '***Boekingen tijdens het eerste jaar (t) - drievoudig * marker'
 ---
 # CBN-advies 2009/3 - Boekhoudkundige verwerking van kapitaalsubsidies waarvan de toekenning en/of de uitbetaling over verschillende jaren wordt gespreid
 

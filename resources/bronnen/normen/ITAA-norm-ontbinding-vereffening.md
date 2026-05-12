@@ -34,10 +34,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:30:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A6: goedkeuringsblok (regels 53–63) is sterk gefragmenteerd — 'BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien...', 'betreft;', 'Gezien het ontwerp...' staan als losse zinsresten zonder volledig begin/einde. Ontwerp-label op regel 51 staat als plain text. Structuur verder intact (109 headings)."
     layer1:
       status: pass
       run_id: 20260512-232433
@@ -47,6 +47,19 @@ provenance:
       file_size_chars: 66968
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:30:18Z'
+      rationale: "A6: goedkeuringsblok (regels 53–63) is sterk gefragmenteerd — 'BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien...', 'betreft;', 'Gezien het ontwerp...' staan als losse zinsresten zonder volledig begin/einde. Ontwerp-label op regel 51 staat als plain text. Structuur verder intact (109 headings)."
+      concrete_problemen:
+        - regel: 51
+          categorie: A1
+          type: other
+          voorbeeld: Ontwerp (brondocument-status als plain body-regel)
+        - regel: 53
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien...\nbetreft;\nGezien het ontwerp...
 ---
 Ontwerp
 
