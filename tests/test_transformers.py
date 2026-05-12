@@ -7,6 +7,7 @@ Dekt:
   - inject_headings_wettekst: heading-injectie op eenvoudige body
   - organize_headings: noop-placeholder
   - emit_frontmatter: YAML-blok + chunk-blok + intro-content
+  - strip_fisconet_artefacts: TOC-fragment + plain-text labels
   - Idempotentie waar van toepassing
   - Edge-cases: lege body, ontbrekende sleutels
 """
@@ -26,6 +27,7 @@ from tools.etl.transformers.cleanup_basics import cleanup_basics  # noqa: E402
 from tools.etl.transformers.inject_headings_wettekst import inject_headings_wettekst  # noqa: E402
 from tools.etl.transformers.organize_headings import organize_headings  # noqa: E402
 from tools.etl.transformers.emit_frontmatter import emit_frontmatter  # noqa: E402
+from tools.etl.transformers.strip_fisconet_artefacts import strip_fisconet_artefacts  # noqa: E402
 
 
 # ─── apply_chain ─────────────────────────────────────────────────────────────
@@ -326,3 +328,149 @@ Art. 2.  Tweede artikel.
         assert "---" in text
         # Chunk-blok met default level=2 aanwezig
         assert "level: 2" in text
+
+
+# ─── strip_fisconet_artefacts ────────────────────────────────────────────────
+
+class TestStripFisconetArtefacts:
+    """Tests voor de strip_fisconet_artefacts-transformer.
+
+    Dekt:
+      - TOC-fragment strippen (≥ 3 heading-only blokken)
+      - 'Titel' als losse regel verwijderen
+      - 'Bron : FINANCIEN' verwijderen
+      - Idempotentie
+      - Edge-case: geen TOC-fragment → onveranderd
+      - Frontmatter onveranderd
+    """
+
+    # Mini-body die de drie artefacten bevat (gebaseerd op WBTW-KB1-voldoening).
+    # Het artikel-tekst is één lange lijn (≥ 100 chars) zoals de custom_wetboek
+    # extractor die uitvoert — niet word-wrapped.
+    _BODY_WITH_ARTEFACTS = """\
+# BTW KB nr. 1
+
+*Bijgewerkt tot en met 2024 — gecoördineerde versie.*
+
+Titel
+
+29 DECEMBER 1992. - Koninklijk besluit nr. 1 met betrekking tot de regeling.
+
+Bron : FINANCIEN
+
+#### Art. 4
+
+### Afdeling 3. - Vermeldingen
+
+#### Art. 5
+
+### Afdeling 4. - Andere verplichtingen
+
+### Afdeling 5. - Vereenvoudigde facturen
+
+## Hoofdstuk II. - De boekhouding.
+
+## Hoofdstuk III. - Periodieke aangifte
+
+Eerste hoofdstuk. - Facturering
+
+### Afdeling 1. - Uit te reiken facturen
+
+Artikel 1.[1 [4 De belastingplichtige die hierna vermelde leveringen van goederen of diensten die niet zijn vrijgesteld krachtens artikel 44 van het Wetboek verricht voor natuurlijke personen die ze bestemmen voor hun privégebruik, reikt een factuur uit wanneer deze handelingen overeenkomstig de artikelen van het Wetboek in België plaatsvinden.]4
+"""
+
+    # Body zonder TOC-fragment (normaal geval).
+    # Art. 1 heeft een lange paragraaf NA de heading-regel (> 100 chars body-tekst).
+    _BODY_CLEAN = """\
+# Test wet
+
+*Bijgewerkt tot en met 2024 — gecoördineerde versie.*
+
+## Hoofdstuk I. - Algemene bepalingen
+
+### Art. 1.
+
+Dit is een substantiële alinea die meer dan honderd tekens bevat en duidelijk
+als echte artikel-tekst beschouwd wordt door de heuristiek, niet als TOC.
+
+### Art. 2.
+
+Tweede artikel met voldoende inhoud om als echte sectie te tellen.
+"""
+
+    def test_titel_label_verwijderd(self):
+        result_body, _ = strip_fisconet_artefacts(self._BODY_WITH_ARTEFACTS, {})
+        # 'Titel' als losse regel moet weg zijn
+        lines = result_body.split("\n")
+        assert "Titel" not in lines
+
+    def test_bron_financien_verwijderd(self):
+        result_body, _ = strip_fisconet_artefacts(self._BODY_WITH_ARTEFACTS, {})
+        assert "Bron : FINANCIEN" not in result_body
+
+    def test_toc_fragment_gestript(self):
+        result_body, _ = strip_fisconet_artefacts(self._BODY_WITH_ARTEFACTS, {})
+        # De TOC-headings zonder substantiële tekst moeten weg zijn
+        assert "#### Art. 4" not in result_body
+        assert "### Afdeling 3." not in result_body
+
+    def test_echte_sectie_behouden(self):
+        result_body, _ = strip_fisconet_artefacts(self._BODY_WITH_ARTEFACTS, {})
+        # De echte artikel-inhoud (lange lijn ≥ 100 chars) moet bewaard blijven.
+        assert "Artikel 1." in result_body
+        assert "leveringen van goederen of diensten" in result_body
+        # De echte TOC-headings zonder inhoud moeten weg zijn:
+        assert "#### Art. 4" not in result_body
+        assert "### Afdeling 3." not in result_body
+
+    def test_idempotent(self):
+        """Twee keer de transformer draaien geeft dezelfde output."""
+        result1, _ = strip_fisconet_artefacts(self._BODY_WITH_ARTEFACTS, {})
+        result2, _ = strip_fisconet_artefacts(result1, {})
+        assert result1 == result2
+
+    def test_schone_body_onveranderd(self):
+        """Body zonder TOC-fragment en zonder label-regels wordt niet gewijzigd."""
+        result_body, _ = strip_fisconet_artefacts(self._BODY_CLEAN, {})
+        assert result_body == self._BODY_CLEAN
+
+    def test_lege_body(self):
+        result_body, result_fm = strip_fisconet_artefacts("", {})
+        assert result_body == ""
+        assert result_fm == {}
+
+    def test_frontmatter_onveranderd(self):
+        fm = {"wet": "Testwet", "tags": ["BTW"]}
+        _, result_fm = strip_fisconet_artefacts(self._BODY_WITH_ARTEFACTS, fm)
+        assert result_fm == {"wet": "Testwet", "tags": ["BTW"]}
+
+    def test_bron_financien_variaties(self):
+        """Verwijder ook variaties in spatiëring."""
+        for variant in (
+            "Bron : FINANCIEN",
+            "Bron: FINANCIEN",
+            "Bron :  FINANCIEN",
+        ):
+            body = f"# Wet\n\n{variant}\n\n### Art. 1.  Tekst.\n"
+            result_body, _ = strip_fisconet_artefacts(body, {})
+            assert variant not in result_body, f"Variant niet gestript: {variant!r}"
+
+    def test_twee_toc_blokken_niet_gestript(self):
+        """Minder dan 3 heading-only blokken → conservatief: niet strippen."""
+        body = """\
+# Wet
+
+*Bijgewerkt.*
+
+## Hoofdstuk I.
+
+### Art. 1.  Substantiële tekst die meer dan honderd tekens telt en dus niet
+als TOC-blok beschouwd wordt door de conservatieve heuristiek hier.
+"""
+        result_body, _ = strip_fisconet_artefacts(body, {})
+        # Hoofdstuk I. moet er nog staan (< 3 TOC-blokken)
+        assert "## Hoofdstuk I." in result_body
+
+    def test_geregistreerd_in_transformers(self):
+        """strip_fisconet_artefacts moet zichtbaar zijn in TRANSFORMERS-registry."""
+        assert "strip_fisconet_artefacts" in TRANSFORMERS

@@ -37,6 +37,10 @@ from tools.etl import convert as orchestrator  # noqa: E402
 SLOW_FIXTURES = [
     # method: custom_wetboek (~0.6s)
     "WBTW-KB22jun2020-e-notariaat",
+    # method: custom_wetboek — C2-regressiefixture voor strip_fisconet_artefacts
+    # Bevat TOC-fragment (≥ 3 heading-blokken) + 'Titel' + 'Bron : FINANCIEN'.
+    # Na de fix: schone body zonder TOC-fragment, zonder label-regels.
+    "WBTW-KB1-voldoening",
     # method: pymupdf_wetboek (~0.5s) — block-aware PDF-extractie
     "BW-boek1-algemene-bepalingen",
 ]
