@@ -307,9 +307,17 @@ _EU_PB_HEADER_RE = re.compile(
 )
 
 # EUR-Lex amendment-markers (traceer-symbolen in geconsolideerde teksten).
-# ►B = basistekst; ▼B = einde basistekst; ▼M1/►M1 = amendement 1, etc.
+# Varianten in EU PB-teksten:
+#   ►B / ▼B   — basistekst start / einde
+#   ►M1..M9 / ▼M1..M9 — modification (amendement)
+#   ►C1..C3 / ▼C1..C3 — correction / rectification (toegevoegd na bevinding
+#                       in Richtlijn-2013-34-EU met 23 occurrences)
+#   ◄         — close-marker bij inline-bracketing (`►C1 X ◄`)
+#
+# Optionele spatie tussen pijl en letter-cijfer-code (`► M1`, `▼ C3`) — komt
+# voor in wijzigingsoverzicht-tabellen waar PDF-render een spatie inlast.
 _EU_AMENDMENT_MARKER_RE = re.compile(
-    r"[►▼][BM]\d*",
+    r"[►▼]\s*[BMC]\d*|◄",
 )
 
 # Spaced-letter blokken: EU OJ rendert sectietitels soms als

@@ -20,44 +20,27 @@ provenance:
     pipeline_version: f9ce762
     model:
     prompt_version:
-  generated_at: '2026-05-12T15:58:17Z'
+  generated_at: '2026-05-12T18:07:04Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T16:08:56Z'
-    confirmed_by: subagent-unspecified
-    rationale: "A1: 23 EUR-Lex amendment/rectification markers (►M1-M7, ►C1-C3, ▼C1, ▼C3) aanwezig in body — dit zijn niet-weggefiltreerde EUR-Lex opmaak-codes. Bijv. '▼C1  2) deelneming...' op r138, '►C1 beleggingen ◄' inline in bijlagen. Laag-1 heeft terecht max_section_size warn (32624 chars). Inhoud anderszins zeer compleet (100 artikelen, bijlagen)."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: warn
-      run_id: 20260512-160243
-      run_at: '2026-05-12T16:02:43Z'
+      run_id: 20260512-180721
+      run_at: '2026-05-12T18:07:21Z'
       heading_count: 100
-      max_section_chars: 32624
-      file_size_chars: 249646
+      max_section_chars: 32574
+      file_size_chars: 249511
       flags:
         - name: max_section_size
           status: warn
-          detail: 'langste sectie op ######-niveau: 32624 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          detail: 'langste sectie op ######-niveau: 32574 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
-      status: needs-rework
-      agent: subagent-unspecified
-      run_at: '2026-05-12T16:08:56Z'
-      rationale: "A1: 23 EUR-Lex amendment/rectification markers (►M1-M7, ►C1-C3, ▼C1, ▼C3) aanwezig in body — dit zijn niet-weggefiltreerde EUR-Lex opmaak-codes. Bijv. '▼C1  2) deelneming...' op r138, '►C1 beleggingen ◄' inline in bijlagen. Laag-1 heeft terecht max_section_size warn (32624 chars). Inhoud anderszins zeer compleet (100 artikelen, bijlagen)."
-      concrete_problemen:
-        - regel: 64
-          categorie: A1
-          type: form-feed
-          voorbeeld: ► M1  Richtlijn 2014/95/EU van het Europees Parlement en de Raad van  22 oktober 2014  L 330  1  15.11.2014
-        - regel: 138
-          categorie: A1
-          type: form-feed
-          voorbeeld: '▼C1  2) deelneming: de al dan niet in certificaten belichaamde rechten...'
-        - regel: 452
-          categorie: A1
-          type: form-feed
-          voorbeeld: ►C1 beleggingen ◄, worden berekend op basis van gewogen gemid- delde prijzen
 ---
 
 # Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen
@@ -78,21 +61,21 @@ betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële o
 
 Gewĳzigd bĳ:
 
-► M1  Richtlijn 2014/95/EU van het Europees Parlement en de Raad van  22 oktober 2014  L 330  1  15.11.2014
+Richtlijn 2014/95/EU van het Europees Parlement en de Raad van  22 oktober 2014  L 330  1  15.11.2014
 
-► M2  Richtlijn 2014/102/EU van de Raad van 7 november 2014  L 334  86  21.11.2014  ► M3  Richtlijn (EU) 2021/2101 van het Europees Parlement en de Raad van  24 november 2021  L 429  1  1.12.2021
+Richtlijn 2014/102/EU van de Raad van 7 november 2014  L 334  86  21.11.2014    Richtlijn (EU) 2021/2101 van het Europees Parlement en de Raad van  24 november 2021  L 429  1  1.12.2021
 
-► M4  Richtlijn (EU) 2022/2464 van het Europees Parlement en de Raad van  14 december 2022  L 322  15  16.12.2022
+Richtlijn (EU) 2022/2464 van het Europees Parlement en de Raad van  14 december 2022  L 322  15  16.12.2022
 
-► M5  Richtlijn (EU) 2023/2864 van het Europees Parlement en de Raad van  13 december 2023  L 2864  1  20.12.2023
+Richtlijn (EU) 2023/2864 van het Europees Parlement en de Raad van  13 december 2023  L 2864  1  20.12.2023
 
-► M6  Gedelegeerde Richtlijn (EU) 2023/2775 van de Commissie van  17 oktober 2023  L 2775  1  21.12.2023
+Gedelegeerde Richtlijn (EU) 2023/2775 van de Commissie van  17 oktober 2023  L 2775  1  21.12.2023
 
-► M7  Richtlijn (EU) 2024/1306 van het Europees Parlement en de Raad van  29 april 2024  L 1306  1  8.5.2024
+Richtlijn (EU) 2024/1306 van het Europees Parlement en de Raad van  29 april 2024  L 1306  1  8.5.2024
 
 Gerectificeerd bĳ:
 
-► C1  Rectificatie PB L 181 van 7.7.2022, blz. 37 (2013/34/EU)  ► C2  Rectificatie PB L 187 van 14.7.2022, blz. 58 (2021/2101)  ► C3  Rectificatie PB L 183 van 20.7.2023, blz. 64 (2013/34/EU)
+Rectificatie PB L 181 van 7.7.2022, blz. 37 (2013/34/EU)    Rectificatie PB L 187 van 14.7.2022, blz. 58 (2021/2101)    Rectificatie PB L 183 van 20.7.2023, blz. 64 (2013/34/EU)
 
 Publicatieblad
 
@@ -152,7 +135,7 @@ c) verzekeringsondernemingen zijn in de zin van artikel 2, lid 1,  van Richtlijn
 
 d) door de lidstaten zijn aangemerkt als organisaties van openbaar  belang, bijvoorbeeld ondernemingen die van groot algemeen  belang zijn als gevolg van de aard van hun bedrijfsactiviteiten,  hun omvang of de grootte van hun personeelsbestand;
 
-▼C1  2) „deelneming”: de al dan niet in certificaten belichaamde rechten in  het kapitaal van andere ondernemingen, die, door het scheppen van  een duurzame band met die andere ondernemingen, ertoe strekken  de eigen bedrijfsuitoefening van de onderneming die deze rechten  bezit, te bevorderen. Er bestaat een vermoeden van deelneming  wanneer het door een onderneming gehouden deel van het kapitaal  van een andere onderneming een door de lidstaten vastgestelde  drempelwaarde, die lager is dan of gelijk is aan 20 %, overschrijdt;
+2) „deelneming”: de al dan niet in certificaten belichaamde rechten in  het kapitaal van andere ondernemingen, die, door het scheppen van  een duurzame band met die andere ondernemingen, ertoe strekken  de eigen bedrijfsuitoefening van de onderneming die deze rechten  bezit, te bevorderen. Er bestaat een vermoeden van deelneming  wanneer het door een onderneming gehouden deel van het kapitaal  van een andere onderneming een door de lidstaten vastgestelde  drempelwaarde, die lager is dan of gelijk is aan 20 %, overschrijdt;
 
 3) „verbonden partij”: dezelfde betekenis als in de internationale stan daarden voor jaarrekeningen zoals die zijn goedgekeurd overeen komstig Verordening (EG) nr. 1606/2002 van het Europees Parle ment en de Raad van 19 juli 2002 betreffende de toepassing van  internationale standaarden voor jaarrekeningen ( 4 );
 
@@ -466,7 +449,7 @@ d) de waardering tegen de lagere waarde als bedoeld in de punten a) en  b) mag n
 
 De waardering tegen de lagere waarde als bedoeld in de eerste alinea  mag niet worden voortgezet wanneer de redenen voor de waardecor recties niet langer bestaan.
 
-9.  De lidstaten kunnen toestaan dat de aanschaffingsprijs of vervaar digingskosten van voorraden van goederen van dezelfde soort, alsmede  van  alle  vervangbare  bestanddelen  met  inbegrip  van  ►C1 beleggingen ◄, worden berekend op basis van gewogen gemid delde prijzen of volgens de methode „first in, first out” (FIFO), de me thode „last in, first out” (LIFO), dan wel een methode die overeenkomt  met de algemeen aanvaarde praktijk.
+9.  De lidstaten kunnen toestaan dat de aanschaffingsprijs of vervaar digingskosten van voorraden van goederen van dezelfde soort, alsmede  van  alle  vervangbare  bestanddelen  met  inbegrip  van   beleggingen , worden berekend op basis van gewogen gemid delde prijzen of volgens de methode „first in, first out” (FIFO), de me thode „last in, first out” (LIFO), dan wel een methode die overeenkomt  met de algemeen aanvaarde praktijk.
 
 10.  Indien het op een schuld af te lossen bedrag hoger is dan het  ontvangen bedrag, kunnen de lidstaten toestaan of voorschrijven dat het  verschil wordt geactiveerd. Het moet afzonderlijk in de balans of in de  toelichting bij de financiële overzichten worden vermeld. Van dit ver schil moet jaarlijks een redelijk gedeelte worden afgeschreven en het  moet uiterlijk ten tijde van de aflossing van de schuld volledig afge schreven zijn.
 
@@ -500,7 +483,7 @@ Vereenvoudigingen voor kleine en middelgrote ondernemingen
 
 a) de in bijlage III bij post D II onder „Activa” en bij post C onder  „Eigen vermogen en passiva” tussen haakjes vereiste informatie,  maar geaggregeerd voor elke post; of
 
-▼C3  b) de in bijlage IV bij post D II tussen haakjes vereiste informatie.
+b) de in bijlage IV bij post D II tussen haakjes vereiste informatie.
 
 2.  De lidstaten kunnen toestaan dat kleine en middelgrote onder nemingen een verkorte winst-en-verliesrekening opstellen binnen de  volgende grenzen:
 
@@ -596,7 +579,7 @@ e) het gemiddelde personeelsbestand gedurende het boekjaar, gesplitst  naar cate
 
 f) indien in de balans een voorziening voor uitgestelde belastingen is  opgenomen, het saldo van de uitgestelde belastingen aan het einde  van het boekjaar en de verschuivingen in dit saldo in de loop van  het boekjaar;
 
-▼C3  g) naam en zetel van elk van de ondernemingen waarin de onder neming, hetzij zelf hetzij via een persoon die in eigen naam,  maar voor rekening van de onderneming handelt, een deelneming  heeft, met opgave van het aandeel in het kapitaal, alsmede het  bedrag van het eigen vermogen en van het resultaat over het meest  recente boekjaar van de betrokken onderneming waarvoor financi ële overzichten zijn vastgesteld; de vermelding van het eigen ver mogen en van het resultaat mag worden weggelaten indien de  betrokken onderneming haar balans niet openbaar maakt en de  onderneming geen zeggenschap heeft over de betrokken onder neming.
+g) naam en zetel van elk van de ondernemingen waarin de onder neming, hetzij zelf hetzij via een persoon die in eigen naam,  maar voor rekening van de onderneming handelt, een deelneming  heeft, met opgave van het aandeel in het kapitaal, alsmede het  bedrag van het eigen vermogen en van het resultaat over het meest  recente boekjaar van de betrokken onderneming waarvoor financi ële overzichten zijn vastgesteld; de vermelding van het eigen ver mogen en van het resultaat mag worden weggelaten indien de  betrokken onderneming haar balans niet openbaar maakt en de  onderneming geen zeggenschap heeft over de betrokken onder neming.
 
 waarop de informatie betrekking heeft. De lidstaten kunnen het  weglaten van deze informatie afhankelijk stellen van de toestemming  van overheid of rechter. Het achterwege laten van deze informatie  wordt in de toelichting bij de financiële overzichten vermeld;
 
@@ -1222,7 +1205,7 @@ Duurzaamheidsrapporteringsstandaarden
 
 In de in de eerste alinea van dit lid bedoelde gedelegeerde handelingen  specificeert de Commissie uiterlijk voor 30 juni 2023 welke informatie  ondernemingen overeenkomstig artikel 19 bis, leden 1 en 2, en in voor komend geval artikel 29 bis, leden 1 en 2, moeten rapporteren. Die  informatie zal ten minste de informatie omvatten die beantwoordt aan  de behoeften van financiëlemarktdeelnemers waarop de informatiever schaffingsverplichtingen van Verordening (EU) 2019/2088 van toepas sing zijn met het oog op hun naleving van die verplichtingen.
 
-In de in de eerste alinea bedoelde gedelegeerde handelingen specificeert  de Commissie uiterlijk voor  30 juni 2026 ◄:
+In de in de eerste alinea bedoelde gedelegeerde handelingen specificeert  de Commissie uiterlijk voor  30 juni 2026 :
 
 i) aanvullende informatie die ondernemingen moeten rapporteren met  betrekking tot de in artikel 19 bis, lid 2, genoemde duurzaamheids kwesties en rapporteringsgebieden, indien nodig;
 
@@ -1628,7 +1611,7 @@ Een lidstaat is niet gehouden de voorschriften van deze richtlijn betref fende d
 
 1) de moederonderneming stelt de geconsolideerde financiële overzich ten op overeenkomstig deze richtlijn en wordt in de geconsolideerde  financiële overzichten opgenomen;
 
-▼C3  2) de vrijstelling wordt vermeld in de toelichting bij de door de moe deronderneming opgestelde jaarlijkse financiële overzichten;
+2) de vrijstelling wordt vermeld in de toelichting bij de door de moe deronderneming opgestelde jaarlijkse financiële overzichten;
 
 3) de vrijstelling wordt vermeld in de toelichting bij de door de moe deronderneming opgestelde geconsolideerde financiële overzichten;  en
 
@@ -1674,7 +1657,7 @@ Indien de onderneming uit het derde land het assuranceoordeel niet  overeenkomst
 
 Duuzaamheidsrapporteringsstandaarden voor ondernemingen uit  derde landen
 
-De Commissie stelt uiterlijk voor  30 juni 2026 ◄ overeenkom stig artikel 49 een gedelegeerde handeling vast ter aanvulling van deze  richtlijn om te voorzien in duurzaamheidsrapporteringsstandaarden voor  ondernemingen uit derde landen waarin wordt gespecificeerd welke  informatie in de in artikel 40 bis bedoelde duurzaamheidsverslagen  moet worden opgenomen.
+De Commissie stelt uiterlijk voor  30 juni 2026  overeenkom stig artikel 49 een gedelegeerde handeling vast ter aanvulling van deze  richtlijn om te voorzien in duurzaamheidsrapporteringsstandaarden voor  ondernemingen uit derde landen waarin wordt gespecificeerd welke  informatie in de in artikel 40 bis bedoelde duurzaamheidsverslagen  moet worden opgenomen.
 
 ### Art. 40. quater
 
@@ -1930,7 +1913,7 @@ c) het aantal werknemers, uitgedrukt in voltijdequivalenten;
 
 d) inkomsten, die worden berekend als:
 
-▼C2  i) de som van de netto-omzet, overige bedrijfsopbrengsten, op brengsten uit deelnemingen, exclusief van verbonden onder nemingen ontvangen dividenden, opbrengsten uit andere beleg gingen en leningen die tot de vaste activa behoren, overige ren tebaten en soortgelijke opbrengsten, als genoemd in de bijlagen V  en VI bij deze richtlijn, of
+i) de som van de netto-omzet, overige bedrijfsopbrengsten, op brengsten uit deelnemingen, exclusief van verbonden onder nemingen ontvangen dividenden, opbrengsten uit andere beleg gingen en leningen die tot de vaste activa behoren, overige ren tebaten en soortgelijke opbrengsten, als genoemd in de bijlagen V  en VI bij deze richtlijn, of
 
 ii) de inkomsten als gedefinieerd door het stelsel voor financiële  verslaglegging op basis waarvan de financiële overzichten wor den opgesteld, exclusief waardecorrecties en van verbonden on dernemingen ontvangen dividenden;
 
@@ -2400,7 +2383,7 @@ III. Financiële vaste activa
 
 4. Leningen verstrekt aan ondernemingen waarmee een deelnemings verhouding bestaat.
 
-5. ►C1 Beleggingen ◄ die tot de vaste activa behoren.
+5.  Beleggingen  die tot de vaste activa behoren.
 
 D. Vlottende activa
 
@@ -2430,13 +2413,13 @@ II. Vorderingen
 
 6. Overlopende posten (tenzij overlopende posten overeenkomstig het  nationale recht als activa onder post E moeten worden opgenomen).
 
-III. ►C1 Beleggingen ◄
+III.  Beleggingen
 
 1. Aandelen in verbonden ondernemingen.
 
 2. Eigen aandelen (met vermelding van hun nominale waarde of, bij  gebreke hiervan, hun fractiewaarde), voor zover de nationale wetge ving toestaat dat zij op de balans worden opgenomen.
 
-3. Overige ►C1 beleggingen ◄.
+3. Overige  beleggingen .
 
 IV. Kasmiddelen en bank- en girosaldi
 
@@ -2552,7 +2535,7 @@ III. Financiële vaste activa
 
 4. Leningen verstrekt aan ondernemingen waarmee een deelnemings verhouding bestaat.
 
-5. ►C1 Beleggingen ◄ die tot de vaste activa behoren.
+5.  Beleggingen  die tot de vaste activa behoren.
 
 6. Overige leningen.
 
@@ -2582,13 +2565,13 @@ II. Vorderingen
 
 6. Overlopende posten (tenzij overlopende posten overeenkomstig het  nationale recht als activa onder post E moeten worden opgenomen).
 
-III. ►C1 Beleggingen ◄
+III.  Beleggingen
 
 1. Aandelen in verbonden ondernemingen.
 
 2. Eigen aandelen (met vermelding van hun nominale waarde of, bij  gebreke hiervan, hun fractiewaarde), voor zover het nationale recht  toestaat dat zij op de balans worden opgenomen.
 
-3. Overige ►C1 beleggingen ◄.
+3. Overige  beleggingen .
 
 IV. Kasmiddelen en bank- en girosaldi
 
@@ -2704,11 +2687,11 @@ b) Waardecorrecties op vlottende activa, voor zover deze de in de onder neming g
 
 9. Opbrengsten uit deelnemingen, met afzonderlijke vermelding van de op brengsten uit verbonden ondernemingen.
 
-10. Opbrengsten uit andere ►C1 beleggingen ◄ en ►C1 leningen ◄ die tot  de vaste activa behoren, met afzonderlijke vermelding van de opbrengsten  uit verbonden ondernemingen.
+10. Opbrengsten uit andere  beleggingen  en  leningen  die tot  de vaste activa behoren, met afzonderlijke vermelding van de opbrengsten  uit verbonden ondernemingen.
 
 11. Overige rentebaten en soortgelijke opbrengsten, met afzonderlijke vermel ding van die uit verbonden ondernemingen.
 
-12. Waardecorrecties op financiële vaste activa en op ►C1 beleggingen ◄ die  tot de vlottende activa behoren.
+12. Waardecorrecties op financiële vaste activa en op  beleggingen  die  tot de vlottende activa behoren.
 
 13. Rentelasten en soortgelijke kosten, met afzonderlijke vermelding van aan  verbonden ondernemingen verschuldigde bedragen.
 
@@ -2738,11 +2721,11 @@ INDELING  VAN  DE  WINST-EN-VERLIESREKENING  -  NAAR  FUNCTIE VAN DE KOSTEN, ZOA
 
 7. Opbrengsten uit deelnemingen, met afzonderlijke vermelding van de op brengsten uit verbonden ondernemingen.
 
-8. Opbrengsten uit andere ►C1 beleggingen ◄ en ►C1 leningen ◄ die tot  de vaste activa behoren, met afzonderlijke vermelding van de opbrengsten  uit verbonden ondernemingen.
+8. Opbrengsten uit andere  beleggingen  en  leningen  die tot  de vaste activa behoren, met afzonderlijke vermelding van de opbrengsten  uit verbonden ondernemingen.
 
 9. Overige rentebaten en soortgelijke opbrengsten, met afzonderlijke vermel ding van de opbrengsten uit verbonden ondernemingen.
 
-10. Waardecorrecties op financiële vaste activa en op ►C1 beleggingen ◄ die  tot de vlottende activa behoren.
+10. Waardecorrecties op financiële vaste activa en op  beleggingen  die  tot de vlottende activa behoren.
 
 11. Rentelasten en soortgelijke kosten, met afzonderlijke vermelding van aan  verbonden ondernemingen verschuldigde bedragen.
 
