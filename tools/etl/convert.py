@@ -73,13 +73,15 @@ DEFAULT_CHAINS: dict[str, list[str]] = {
     # pdftotext_narratief: narratieve praktijkgidsen (Type 3 PDFs) zonder artikel-
     # hiërarchie. inject_headings_narratief detecteert Vak/HOOFDSTUK/Roman/ALLCAPS
     # sectie-patronen specifiek voor deze broncategorie.
-    "pdftotext_narratief":      ["cleanup_basics", "unindent_pdftotext_margin", "strip_pdf_page_noise", "inject_headings_narratief", "emit_frontmatter"],
+    # merge_pdf_paragraph_breaks: herstelt woord-per-woord-splits door pdftotext.
+    "pdftotext_narratief":      ["cleanup_basics", "unindent_pdftotext_margin", "strip_pdf_page_noise", "merge_pdf_paragraph_breaks", "inject_headings_narratief", "emit_frontmatter"],
     "custom_wetboek":           ["cleanup_basics", "strip_amendment_overview", "strip_fisconet_artefacts", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],
     "custom_wib92":             ["cleanup_basics", "strip_amendment_overview", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],
     # iesba: structuur (headings, bold para-nummers) al door extractor gedaan;
     # merge_wrapped_lines en inject_headings_wettekst zijn niet geschikt voor
     # Engelstalig materiaal zonder artikelhiërarchie.
-    "iesba":                    ["cleanup_basics", "emit_frontmatter"],
+    # merge_pdf_paragraph_breaks: herstelt lettered items (a)/(b) op eigen regel.
+    "iesba":                    ["cleanup_basics", "merge_pdf_paragraph_breaks", "emit_frontmatter"],
     "justel_html":              ["cleanup_basics", "strip_amendment_overview", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],
     "justel_change_lg":         ["cleanup_basics", "strip_amendment_overview", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],
     "justel_bs_bilingual":      ["cleanup_basics", "strip_amendment_overview", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],

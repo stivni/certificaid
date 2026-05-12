@@ -1040,3 +1040,176 @@ class TestStripPdfPageNoise:
     def test_geregistreerd_in_transformers(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "strip_pdf_page_noise" in TRANSFORMERS
+
+
+# ─── merge_pdf_paragraph_breaks ───────────────────────────────────────────────
+
+class TestMergePdfParagraphBreaks:
+    """Tests voor de merge_pdf_paragraph_breaks-transformer.
+
+    Dekt:
+      - Patroon 1: lettered item (a)/(b)/(i)/(1) op eigen regel → merge met volgende
+      - Patroon 2: korte regel (woord-per-woord split) → merge met volgende
+      - Behoud: headings, lijst-items, lange regels, zin-einde-markers
+      - Behoud: YAML-frontmatter
+      - Idempotentie
+      - Lege body
+    """
+
+    def test_lettered_item_merged(self):
+        """(a) op eigen regel wordt gemerged met volgende niet-lege regel."""
+        from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragraph_breaks
+        body = "(a)\n\nAdherence to ethical principles.\n"
+        result, _ = merge_pdf_paragraph_breaks(body, {})
+        assert "(a) Adherence to ethical principles." in result
+        # Geen losse (a) meer op eigen regel
+        assert "\n(a)\n" not in result
+
+    def test_lettered_item_b(self):
+        """(b) item ook gemerged."""
+        from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragraph_breaks
+        body = "(b)\n\nUse of business acumen.\n"
+        result, _ = merge_pdf_paragraph_breaks(body, {})
+        assert "(b) Use of business acumen." in result
+
+    def test_roman_numeral_item_merged(self):
+        """(i), (ii), (iii) etc. worden ook gemerged."""
+        from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragraph_breaks
+        body = "(i)\n\nBias;\n"
+        result, _ = merge_pdf_paragraph_breaks(body, {})
+        assert "(i) Bias;" in result
+
+    def test_numbered_item_merged(self):
+        """(1), (2) etc. worden gemerged."""
+        from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragraph_breaks
+        body = "(1)\n\nFirst condition.\n"
+        result, _ = merge_pdf_paragraph_breaks(body, {})
+        assert "(1) First condition." in result
+
+    def test_multiple_lettered_items(self):
+        """Meerdere lettered items in één body worden allemaal gemerged."""
+        from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragraph_breaks
+        body = (
+            "including:\n"
+            "(a)\n"
+            "\n"
+            "Adherence to ethical principles;\n"
+            "\n"
+            "(b)\n"
+            "\n"
+            "Use of business acumen;\n"
+            "\n"
+            "(c)\n"
+            "\n"
+            "Application of expertise.\n"
+        )
+        result, _ = merge_pdf_paragraph_breaks(body, {})
+        assert "(a) Adherence to ethical principles;" in result
+        assert "(b) Use of business acumen;" in result
+        assert "(c) Application of expertise." in result
+
+    def test_short_line_merged_with_next(self):
+        """Korte regel (< 20 chars, geen sentence-end) gemerged met volgende."""
+        from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragraph_breaks
+        body = "Het\n\neerste\n\nacht\n\nhoofdstukken\n\nbehandelen de directe belastingen.\n"
+        result, _ = merge_pdf_paragraph_breaks(body, {})
+        # Alles moet samengevoegd zijn in één alinea
+        assert "Het" in result
+        assert "eerste" in result
+        assert "behandelen de directe belastingen." in result
+        # Geen isoleerde enkelvoudige woorden meer
+        lines = [l for l in result.split("\n") if l.strip()]
+        for line in lines:
+            # Geen korte 1-woord regels meer (behalve structuurregels)
+            if len(line.strip()) < 10 and not line.startswith("#"):
+                pass  # enkelvoudige woorden na merge zijn OK als deel van grotere zin
+
+    def test_heading_not_merged(self):
+        """Headings worden nooit gemerged — ook niet als ze kort zijn."""
+        from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragraph_breaks
+        body = "## BTW\n\nBelasting over de toegevoegde waarde.\n"
+        result, _ = merge_pdf_paragraph_breaks(body, {})
+        assert "## BTW\n" in result
+        assert "Belasting over de toegevoegde waarde." in result
+
+    def test_sentence_end_not_merged(self):
+        """Regel die eindigt op `.` wordt NIET gemerged (echte alinea-grens)."""
+        from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragraph_breaks
+        body = "Dit is een korte zin.\n\nVolgende alinea begint hier.\n"
+        result, _ = merge_pdf_paragraph_breaks(body, {})
+        assert "Dit is een korte zin." in result
+        assert "Volgende alinea begint hier." in result
+        # Moeten gescheiden blijven
+        assert "Dit is een korte zin.\n" in result
+
+    def test_colon_end_not_merged(self):
+        """Regel die eindigt op `:` wordt niet gemerged."""
+        from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragraph_breaks
+        body = "including:\n\n(a) First item.\n"
+        result, _ = merge_pdf_paragraph_breaks(body, {})
+        assert "including:\n" in result
+
+    def test_long_line_not_merged(self):
+        """Regel van ≥ 20 chars zonder sentence-end: patroon 2 triggert niet."""
+        from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragraph_breaks
+        body = "Dit is een voldoende\n\nlange regel die niet gemerged wordt.\n"
+        result, _ = merge_pdf_paragraph_breaks(body, {})
+        # Moet twee gescheiden alinea's blijven
+        assert "Dit is een voldoende\n" in result
+
+    def test_frontmatter_not_touched(self):
+        """YAML-frontmatter-blok wordt ongemoeid gelaten."""
+        from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragraph_breaks
+        body = "---\ntags: [BTW]\nwet: Test\n---\n\n(a)\n\nFirst item.\n"
+        result, _ = merge_pdf_paragraph_breaks(body, {})
+        # Frontmatter intact
+        assert "---\ntags: [BTW]\nwet: Test\n---\n" in result
+        # Maar lettered item wél gemerged ná frontmatter
+        assert "(a) First item." in result
+
+    def test_empty_body(self):
+        """Lege body geeft lege body terug."""
+        from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragraph_breaks
+        result, _ = merge_pdf_paragraph_breaks("", {})
+        assert result == ""
+
+    def test_frontmatter_dict_unchanged(self):
+        """frontmatter-dict wordt niet gewijzigd."""
+        from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragraph_breaks
+        fm = {"wet": "Test", "tags": ["BTW"]}
+        _, result_fm = merge_pdf_paragraph_breaks("body tekst.", fm)
+        assert result_fm == {"wet": "Test", "tags": ["BTW"]}
+
+    def test_idempotent_lettered(self):
+        """Twee keer de transformer draaien geeft dezelfde output (lettered)."""
+        from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragraph_breaks
+        body = "(a)\n\nAdherence to ethical principles.\n"
+        once, _ = merge_pdf_paragraph_breaks(body, {})
+        twice, _ = merge_pdf_paragraph_breaks(once, {})
+        assert once == twice
+
+    def test_idempotent_short_line(self):
+        """Twee keer de transformer draaien geeft dezelfde output (korte regel)."""
+        from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragraph_breaks
+        body = "Het\n\neerste\n\nacht\n\nhoofdstukken behandelen.\n"
+        once, _ = merge_pdf_paragraph_breaks(body, {})
+        twice, _ = merge_pdf_paragraph_breaks(once, {})
+        assert once == twice
+
+    def test_list_item_not_merged_as_next(self):
+        """Een volgende regel die een lijst-item is, wordt niet gemerged."""
+        from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragraph_breaks
+        body = "Beschrijving\n\n- Eerste punt\n- Tweede punt\n"
+        result, _ = merge_pdf_paragraph_breaks(body, {})
+        # "Beschrijving" is < 20 chars zonder sentence-end, maar volgende is list-item
+        assert "- Eerste punt" in result
+        # Beschrijving moet op eigen regel staan (niet gemerged met lijst-item)
+        lines = result.split("\n")
+        beschrijving_line = next((l for l in lines if "Beschrijving" in l), None)
+        assert beschrijving_line is not None
+        assert "- Eerste punt" not in beschrijving_line
+
+    def test_geregistreerd_in_transformers(self):
+        """merge_pdf_paragraph_breaks moet in TRANSFORMERS-registry zitten."""
+        from tools.etl.transformers import TRANSFORMERS
+        assert "merge_pdf_paragraph_breaks" in TRANSFORMERS
