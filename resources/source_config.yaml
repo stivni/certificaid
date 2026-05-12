@@ -1540,30 +1540,28 @@ sources:
           - resources/raw/wetteksten/KB-voorafgaande-beslissingen-art22-p4.pdf
   X-oeso-model-verdrag:
     bron_rol: normatief
+    raw: resources/raw/handcrafted/X-oeso-model-verdrag.md
     output: resources/bronnen/wetteksten/X-oeso-model-verdrag.md
     status: volledig
+    note: "OECD Model Tax Convention — handmatig samengesteld, geen machine-leesbare bronpdf"
     extract:
-      method: handcrafted
-      params:
-        reden: handmatig verwerkt — geen herconversie via convert.py
+      method: md_passthrough
   aangifte-PB-2025-bezoldigingen:
     bron_rol: formulier
+    raw: resources/raw/handcrafted/aangifte-PB-2025-bezoldigingen.md
     output: resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md
     status: volledig
-    note: "Aangifteformulier PB 2025 — bezoldigingen; geen wettekst, enkel referentie"
+    note: "Aangifteformulier PB 2025 — bezoldigingen; handmatig samengesteld"
     extract:
-      method: handcrafted
-      params:
-        reden: Aangifteformulier PB 2025 — bezoldigingen; geen wettekst, enkel referentie
+      method: md_passthrough
   aangifte-PB-2025-stopzetting:
     bron_rol: formulier
+    raw: resources/raw/handcrafted/aangifte-PB-2025-stopzetting.md
     output: resources/bronnen/wetteksten/aangifte-PB-2025-stopzetting.md
     status: volledig
-    note: "Aangifteformulier PB 2025 — stopzetting; geen wettekst, enkel referentie"
+    note: "Aangifteformulier PB 2025 — stopzetting; handmatig samengesteld"
     extract:
-      method: handcrafted
-      params:
-        reden: Aangifteformulier PB 2025 — stopzetting; geen wettekst, enkel referentie
+      method: md_passthrough
   Wet-verzekeringen-2014:
     bron_rol: normatief
     output: resources/bronnen/wetteksten/Wet-verzekeringen-2014.md
@@ -1588,9 +1586,9 @@ sources:
     status: volledig
     note: "Praktische gids FOD Financiën — uitleg per code/vak; jaarlijks te vervangen"
     extract:
-      method: handcrafted
+      method: pdftotext_ejustice
       params:
-        reden: Praktische gids FOD Financiën — uitleg per code/vak; jaarlijks te vervangen
+        simple_mode: true
   toelichting-VenB-2025:
     bron_rol: praktijkgids
     raw: resources/raw/wetteksten/toelichting-VenB-2025.pdf
@@ -1601,9 +1599,9 @@ sources:
     status: volledig
     note: "Praktische gids FOD Financiën — uitleg per code bij de Biztax-aangifte; jaarlijks te vervangen"
     extract:
-      method: handcrafted
+      method: pdftotext_ejustice
       params:
-        reden: Praktische gids FOD Financiën — uitleg per code bij de Biztax-aangifte; jaarlijks te vervangen
+        simple_mode: true
   toelichting-PB-2025-deel2:
     bron_rol: praktijkgids
     raw: resources/raw/wetteksten/toelichting-PB-2025-deel2.pdf
@@ -1614,9 +1612,9 @@ sources:
     status: volledig
     note: "Deel 2: belastingverminderingen, aftrekbare bestedingen"
     extract:
-      method: handcrafted
+      method: pdftotext_ejustice
       params:
-        reden: 'Deel 2: belastingverminderingen, aftrekbare bestedingen'
+        simple_mode: true
   belastinggids-aclvb-2025:
     bron_rol: praktijkgids
     raw: resources/raw/wetteksten/belastinggids-aclvb-2025.pdf
@@ -1627,9 +1625,9 @@ sources:
     status: volledig
     note: "Praktische PB-gids voor werknemers; nuttig als toegankelijk overzicht naast officiële toelichtingen"
     extract:
-      method: handcrafted
+      method: pdftotext_ejustice
       params:
-        reden: Praktische PB-gids voor werknemers; nuttig als toegankelijk overzicht naast officiële toelichtingen
+        simple_mode: true
   MAR-vzw:
     bron_rol: normatief
     raw: resources/raw/handcrafted/MAR-vzw.md
@@ -1649,13 +1647,11 @@ sources:
     bijgewerkt: "31.12.2024"
     wet: "Fiscaal Memento 2025 — FOD Financiën (editie 12/2024)"
     status: volledig
-    note: "Educatief overzicht alle Belgische belastingen — geen circulaire, maar gezaghebbend overzichtswerk van FOD Financiën
-      zelf"
+    note: "Educatief overzicht alle Belgische belastingen — geen circulaire, maar gezaghebbend overzichtswerk van FOD Financiën zelf"
     extract:
-      method: handcrafted
+      method: pdftotext_ejustice
       params:
-        reden: Educatief overzicht alle Belgische belastingen — geen circulaire, maar gezaghebbend overzichtswerk van
-          FOD Financiën zelf
+        simple_mode: true
   Belastingalmanak-2026:
     bron_rol: praktijkgids
     raw: resources/raw/wetteksten/Belastingalmanak-2026.pdf

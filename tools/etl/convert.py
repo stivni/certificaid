@@ -307,6 +307,11 @@ def _cleanup_steps_for(cfg: dict, method: str) -> list[str]:
       we beperken cleanup tot collapse_blank_lines.
     """
     if method == "pdftotext_ejustice":
+        params = (cfg.get("extract") or {}).get("params") or {}
+        if params.get("simple_mode"):
+            # simple_mode: geen article-hiërarchie, dus geen remove_toc/
+            # inject_headings. Minimale cleanup + bron-specifieke stappen.
+            return ["normalize_whitespace", "collapse_blank_lines"] + list(cfg.get("cleanup", []))
         steps = list(DEFAULT_STEPS) + list(cfg.get("cleanup", []))
         return steps
     if method == "pymupdf_wetboek":
@@ -378,7 +383,12 @@ def convert_one(source_name: str, *, dry_run: bool = False,
     extracted = handler(cfg, source_name)
 
     # Bepaal de transformer-chain voor deze method.
-    chain = DEFAULT_CHAINS.get(method, _DEFAULT_CHAIN_FALLBACK)
+    # pdftotext_ejustice met simple_mode=True: geen wettekst-transformers nodig
+    params_extract = (cfg.get("extract") or {}).get("params") or {}
+    if method == "pdftotext_ejustice" and params_extract.get("simple_mode"):
+        chain = ["cleanup_basics", "emit_frontmatter"]
+    else:
+        chain = DEFAULT_CHAINS.get(method, _DEFAULT_CHAIN_FALLBACK)
 
     # ─── 1-op-N pad: compilatie-handler retourneert dict ──────────────────
     if method in COMPILATIE_METHODS or isinstance(extracted, dict):
