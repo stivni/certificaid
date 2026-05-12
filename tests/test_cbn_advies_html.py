@@ -1,7 +1,7 @@
 """Tests voor tools/lib/cbn_advies_html.py."""
 from __future__ import annotations
 
-from tools.lib.cbn_advies_html import select_title, _promote_implicit_headings
+from tools.lib.cbn_advies_html import select_title, _promote_implicit_headings, _cleanup_markdown
 
 
 def test_select_title_strip_commissie_prefix():
@@ -67,6 +67,48 @@ def test_promote_italic_preserves_legitimate_bold():
     md = "\n**Boekhoudkundige verwerking**\n\nBody.\n"
     result = _promote_implicit_headings(md)
     assert "## Boekhoudkundige verwerking" in result
+
+
+# ─── D3-SP3: standalone adjacent footnote refs strippen ─────────────────────
+
+def test_cleanup_strips_four_adjacent_footnote_refs_on_standalone_line():
+    """D3-SP3: een regel die enkel uit 4+ aaneengesloten [^N]-markers bestaat
+    is een floating ETL-artefact (de refs zijn uit hun inline-context gerukt).
+    De cleanup moet ze verwijderen — de definitie blijft onderaan in de
+    footnotes-sectie.
+
+    Voorbeeld: CBN-2012-13 r.198 ' [^13][^14][^15][^16]' (4 markers).
+    """
+    md = (
+        "## Voorbeeld op het ogenblik van onderzoek\n"
+        "\n"
+        " [^13][^14][^15][^16]\n"
+        "\n"
+        "| | Rekening | Debet | Credit |\n"
+        "|---|---------|-------|--------|\n"
+        "| | 61 | 12.000 | |\n"
+        "\n"
+        "[^13]: Er wordt uitgegaan van een werkgeversbijdrage van 32%.\n"
+        "[^14]: Het nettoloon is gelijk aan...\n"
+        "[^15]: In dit voorbeeld wordt uitgegaan van 35% bedrijfsvoorheffing.\n"
+        "[^16]: Werknemersbijdrage 13% van het brutoloon.\n"
+    )
+    result = _cleanup_markdown(md)
+    # Standalone ref-regel moet verdwenen zijn
+    assert " [^13][^14][^15][^16]" not in result
+    # Footnote-definities onderaan moeten bewaard blijven
+    assert "[^13]:" in result
+    assert "[^14]:" in result
+
+
+def test_cleanup_strips_two_adjacent_footnote_refs_on_standalone_line():
+    """D3-SP3: ook 1-3 aangrenzende refs op een eigen regel worden gestript
+    (bestaand gedrag; geen regressie door de uitbreiding).
+    """
+    md = "Heading.\n\n [^1][^2]\n\nBody.\n\n[^1]: Definitie een.\n[^2]: Definitie twee.\n"
+    result = _cleanup_markdown(md)
+    assert " [^1][^2]" not in result
+    assert "[^1]:" in result
 
 
 # ─── B4-SP2: bold Boeking-headings promotie ──────────────────────────────────

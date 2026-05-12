@@ -1029,10 +1029,13 @@ def _cleanup_markdown(md: str) -> str:
     md = re.sub(r'^\s*\*+(\s*\*+)*\s*$', '', md, flags=re.MULTILINE)
 
     # ─── 7. Losse `[^N]` op eigen regel als artefact (D3) ────────────────────
-    # Een regel die enkel uit footnote-markers bestaat is meestal een floating
-    # artefact dat de scraper na een tabel-cel kwijt is geraakt. Verwijder
-    # (de definitie blijft onderaan in de footnotes-sectie).
-    md = re.sub(r'^\s*(?:\[\^\d+\]\s*){1,3}\s*$', '', md, flags=re.MULTILINE)
+    # Een regel die enkel uit footnote-markers bestaat is een floating artefact:
+    # de ETL rukt inline-refs uit hun context (bv. begin van een tabel-voorbeeld).
+    # Verwijder de standalone regel — de definities blijven onderaan staan en
+    # de footnote-nummers zijn in de definitie-sectie nog steeds traceerbaar.
+    # Geplafonneerd op {1,3} in de originele versie, maar CBN-2012-13 en
+    # CBN-2016-13 tonen 4 aaneengesloten markers; uitgebreid naar {1,}.
+    md = re.sub(r'^\s*(?:\[\^\d+\]\s*){1,}\s*$', '', md, flags=re.MULTILINE)
 
     # ─── 8. TOC-blob met `--`-separators op één regel ────────────────────────
     # Patroon (a): `1. Inleiding ------ 2. Toepassing ------ 3. ...` —
