@@ -31,19 +31,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T22:59:54Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Kort advies (1910 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
     layer1:
       status: pass
-      run_id: 20260512-224940
-      run_at: '2026-05-12T22:49:41Z'
+      run_id: 20260512-225123
+      run_at: '2026-05-12T22:51:24Z'
       heading_count: 0
       max_section_chars: 1909
       file_size_chars: 1909
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T22:59:54Z'
+      rationale: 'Kort advies (1910 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+      concrete_problemen: []
 ---
 # CBN-advies 120/6 - Boeking van het financiële bedrijf van een coördinatiecentrum binnen een groep
 

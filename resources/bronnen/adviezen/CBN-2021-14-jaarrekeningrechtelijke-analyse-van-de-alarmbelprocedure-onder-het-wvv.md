@@ -27,19 +27,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T22:59:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (17 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
     layer1:
       status: pass
-      run_id: 20260512-224940
-      run_at: '2026-05-12T22:49:44Z'
+      run_id: 20260512-225123
+      run_at: '2026-05-12T22:51:28Z'
       heading_count: 16
       max_section_chars: 21050
       file_size_chars: 39390
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T22:59:58Z'
+      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (17 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      concrete_problemen: []
 ---
 # CBN-advies 2021/14 – Jaarrekeningrechtelijke analyse van de alarmbelprocedure onder het WVV
 

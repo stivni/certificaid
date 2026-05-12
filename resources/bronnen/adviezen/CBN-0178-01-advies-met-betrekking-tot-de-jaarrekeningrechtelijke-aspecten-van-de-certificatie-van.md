@@ -40,19 +40,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T22:59:55Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (9 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
     layer1:
       status: pass
-      run_id: 20260512-224940
-      run_at: '2026-05-12T22:49:42Z'
+      run_id: 20260512-225123
+      run_at: '2026-05-12T22:51:26Z'
       heading_count: 8
       max_section_chars: 17578
       file_size_chars: 35737
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T22:59:55Z'
+      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (9 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      concrete_problemen: []
 ---
 # CBN-advies 178/1 - Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen1
 

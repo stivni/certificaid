@@ -25,19 +25,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T22:59:57Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (18 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
     layer1:
       status: pass
-      run_id: 20260512-224940
-      run_at: '2026-05-12T22:49:43Z'
+      run_id: 20260512-225123
+      run_at: '2026-05-12T22:51:28Z'
       heading_count: 17
       max_section_chars: 11063
       file_size_chars: 20404
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T22:59:57Z'
+      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (18 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      concrete_problemen: []
 ---
 # CBN-advies 2017/16 – Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening
 

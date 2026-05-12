@@ -47,14 +47,14 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T22:59:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (24 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
     layer1:
       status: warn
-      run_id: 20260512-224940
-      run_at: '2026-05-12T22:49:44Z'
+      run_id: 20260512-225123
+      run_at: '2026-05-12T22:51:29Z'
       heading_count: 23
       max_section_chars: 26807
       file_size_chars: 56224
@@ -64,6 +64,11 @@ provenance:
           detail: 'langste sectie op ####-niveau: 26807 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T22:59:58Z'
+      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (24 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      concrete_problemen: []
 ---
 # CBN-advies 2022/14 - Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)
 

@@ -44,19 +44,28 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T22:59:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B4: "HET LOT VAN EEN VERGETEN ACTIEF OF PASSIEF NA DE SLUITING VAN DE VEREFFENING" (regel 171) is plain-text-header zonder ##-prefix. Overige headings correct aangemaakt.'
     layer1:
       status: pass
-      run_id: 20260512-224940
-      run_at: '2026-05-12T22:49:44Z'
+      run_id: 20260512-225123
+      run_at: '2026-05-12T22:51:29Z'
       heading_count: 12
       max_section_chars: 20685
       file_size_chars: 29361
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T22:59:58Z'
+      rationale: 'B4: "HET LOT VAN EEN VERGETEN ACTIEF OF PASSIEF NA DE SLUITING VAN DE VEREFFENING" (regel 171) is plain-text-header zonder ##-prefix. Overige headings correct aangemaakt.'
+      concrete_problemen:
+        - regel: 171
+          categorie: B4
+          type: allcaps-struct-label
+          voorbeeld: HET LOT VAN EEN VERGETEN ACTIEF OF PASSIEF NA DE SLUITING VAN DE VEREFFENING
 ---
 # CBN-advies 2024/09 – Verslaggeving bij de heropening van de vereffening van de vennootschappen
 

@@ -66,19 +66,28 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T22:59:55Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B4: plain-text-header in all-caps op regel 236 zonder ##-prefix. Overige structuur correct; dit is een ETL-omissie op 1 sectietitel.'
     layer1:
       status: pass
-      run_id: 20260512-224940
-      run_at: '2026-05-12T22:49:42Z'
+      run_id: 20260512-225123
+      run_at: '2026-05-12T22:51:25Z'
       heading_count: 49
       max_section_chars: 16370
       file_size_chars: 105765
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T22:59:55Z'
+      rationale: 'B4: plain-text-header in all-caps op regel 236 zonder ##-prefix. Overige structuur correct; dit is een ETL-omissie op 1 sectietitel.'
+      concrete_problemen:
+        - regel: 236
+          categorie: B4
+          type: allcaps-struct-label
+          voorbeeld: WAARDEVERMINDERINGEN OP MONETAIRE ACTIVA IN DEVIEZEN EN REGULARISERING VAN MONETAIRE POSTEN IN DEVIEZEN
 ---
 # CBN-advies 152/1 - Boekingen van deviezenverrichtingen en verwerking van tegoeden en verplichtingen in deviezen in de jaarrekening
 

@@ -52,19 +52,28 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T22:59:58Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'D4: unclosed ** in voetnoot 55 (regel 484) - ETL-artefact bij verwerking van een boekverwijs in cursief.'
     layer1:
       status: pass
-      run_id: 20260512-224940
-      run_at: '2026-05-12T22:49:44Z'
+      run_id: 20260512-225123
+      run_at: '2026-05-12T22:51:29Z'
       heading_count: 39
       max_section_chars: 22466
       file_size_chars: 65582
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T22:59:58Z'
+      rationale: 'D4: unclosed ** in voetnoot 55 (regel 484) - ETL-artefact bij verwerking van een boekverwijs in cursief.'
+      concrete_problemen:
+        - regel: 484
+          categorie: D4
+          type: unclosed-bold
+          voorbeeld: '[^55]: ...Succursales de sociétés étrangères en Belgique **"'
 ---
 # CBN-advies 2022/15 – Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)
 
