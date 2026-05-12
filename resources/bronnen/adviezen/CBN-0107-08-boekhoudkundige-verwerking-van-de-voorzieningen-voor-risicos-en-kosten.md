@@ -2,49 +2,37 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-voorzieningen-voor-risicos-en-kosten
 datum: 1988-06-01
 nummer: CBN-advies 107/8
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-voorzieningen-voor-risicos-en-kosten
-      sha256: d753bc74c5fd679b41db4da5185b9d315db89113f7fc81e0cf1c003ccd4d619d
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:20Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 2994
-      file_size_chars: 2994
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: G2
-          regel: 45
-          type: other
-          voorbeeld: voorzieningen voor risico&#039;s en kosten — HTML-entity &#039; niet gedecode in YAML
-      rationale: 'G2: frontmatter themas-veld op regel 45 bevat ongeparseerde HTML-entity ''&#039;'' (''voorzieningen voor risico&#039;s en kosten'') — ETL-bug, HTML niet gedecode. Body-tekst is volledig clean en goed leesbaar.'
-      run_at: '2026-05-11T17:05:20Z'
-      status: needs-rework
-    rationale: 'G2: frontmatter themas-veld op regel 45 bevat ongeparseerde HTML-entity ''&#039;'' (''voorzieningen voor risico&#039;s en kosten'') — ETL-bug, HTML niet gedecode. Body-tekst is volledig clean en goed leesbaar.'
-    status: needs-rework
 themas:
   - fiscale voorziening
   - voorziening
   - voorzieningen met een financieel karakter
   - voorzieningen voor risico&#039;s en kosten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-voorzieningen-voor-risicos-en-kosten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:11Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 107/8 - Boekhoudkundige verwerking van de voorzieningen voor risico's en kosten
 
 Als gevolg van concrete vragen daaromtrent heeft de Commissie een algemeen onderzoek verricht met betrekking tot de boekhoudkundige verwerking van de voorzieningen voor risico's en kosten.

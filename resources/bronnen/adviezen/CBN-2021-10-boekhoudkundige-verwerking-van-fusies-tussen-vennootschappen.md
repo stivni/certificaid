@@ -15,50 +15,6 @@ gerelateerde_adviezen:
     titel: Begin van het boekjaar
     url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
 nummer: CBN-advies 2021/10
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
-      sha256: 3790a16041b65701836ff1734be487b952cc0233a7b050a8232a2df96c20b8e3
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 21
-      max_section_chars: 18994
-      file_size_chars: 77206
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 561
-          type: other
-          voorbeeld: 'tabelrij met sublijst-items buiten cellen: ''- Geplaatst kapitaal / Beschikbare inbreng: 1.800 + (4.000 x 20 %) ='''
-        - categorie: E2
-          regel: 843
-          type: other
-          voorbeeld: "| | | 18.380 | | |\n\n18.380\n\n  | — tabelslot gesplitst over 3 regels"
-        - categorie: E2
-          regel: 890
-          type: other
-          voorbeeld: "| | | 18.380 | | |\n\n18.380\n\n  | — idem voor voorbeeld 12"
-      rationale: 'E2/A7: Op meerdere plaatsen zijn complexe tabellen met sublijsten niet correct als markdown weergegeven — regels 561-576 tonen een gebroken tabelrij waarbij bullet-list items buiten de tabelcellen vallen met losse |---|---| separators op eigen regels, wat een extractie-artefact is van een geneste tabelstructuur in de HTML-bron. Dezelfde problemen op regels 843-847 en 890-894 waarbij een tabelrij gesplitst is over meerdere regels met ''18.380'' als losstaande plain-text buiten de tabel. Overige 10+ balansoverzichten zijn correct.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'E2/A7: Op meerdere plaatsen zijn complexe tabellen met sublijsten niet correct als markdown weergegeven — regels 561-576 tonen een gebroken tabelrij waarbij bullet-list items buiten de tabelcellen vallen met losse |---|---| separators op eigen regels, wat een extractie-artefact is van een geneste tabelstructuur in de HTML-bron. Dezelfde problemen op regels 843-847 en 890-894 waarbij een tabelrij gesplitst is over meerdere regels met ''18.380'' als losstaande plain-text buiten de tabel. Overige 10+ balansoverzichten zijn correct.'
-    status: needs-rework
 themas:
   - fusie
   - reorganisatie
@@ -75,8 +31,32 @@ themas:
   - kapitaalsubsidie
   - herwaarderingsmeerwaarde
   - wedersamenstelling van het eigen vermogen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:42Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2021/10 – Boekhoudkundige verwerking van fusies tussen vennootschappen
 
 ## Inleiding
@@ -154,46 +134,46 @@ Voorbeeld 1: De overnemende en overgenomen vennootschap houden geen aandelen van
 
 De balansen[^18] van de deelnemende vennootschappen vóór de fusie worden als volgt weergegeven:
 
-| Balans A | 
+| Balans A|
 |---|
-| Vaste activa | | 3.080 | | Inbreng/Kapitaal[^19] | | 1.800 | 
-| Vlottende activa | | 1.610 | | Reserves | | 1.670 | 
-| | | | | | | 3.470 | 
-| | | | | Voorzieningen | | 400 | 
-| | | | | Schulden | | 820 | 
-| | | 4.690 | | | | 4.690 | 
+| Vaste activa| 3.080| Inbreng/Kapitaal[^19] | 1.800|
+| Vlottende activa| 1.610| Reserves| 1.670|
+| | | | 3.470|
+| | | Voorzieningen| 400|
+| | | Schulden| 820|
+| | 4.690| | 4.690|
 
-| Balans B | 
+| Balans B|
 |---|
-| Vaste activa | | 12.660 | | Inbreng/Kapitaal | | 4.000 | 
-| Vlottende activa | | 5.720 | | Reserves | | 8.900 | 
-| | | | | | | 12.900 | 
-| | | | | Voorzieningen | | 1.680 | 
-| | | | | Schulden | | 3.800 | 
-| | | 18.380 | | | | 18.380 | 
+| Vaste activa| 12.660| Inbreng/Kapitaal| 4.000|
+| Vlottende activa| 5.720| Reserves| 8.900|
+| | | | 12.900|
+| | | Voorzieningen| 1.680|
+| | | Schulden| 3.800|
+| | 18.380| | 18.380|
 
 Hierna worden de gegevens opgenomen m.b.t. het aantal aandelen, de ruilwaarde en de ruilwaarde per aandeel van elke vennootschap:
 
-| | | A | | B | 
-|---|---|---|---|---|
-| Aantal aandelen | | 1.200 | | 2.000 | 
-| Overeengekomen ruilwaarde van de vennootschap | | 3.750 | | 12.500 | 
-| Ruilwaarde per aandeel | | 3.750 /1.200 = 3,125 | | 12.500/2.000 = 6,250 | 
+| | A| B|
+|---|---|---|
+| Aantal aandelen| 1.200| 2.000|
+| Overeengekomen ruilwaarde van de vennootschap| 3.750| 12.500|
+| Ruilwaarde per aandeel| 3.750 /1.200 = 3,125| 12.500/2.000 = 6,250|
 
 Indien geen enkele van de door artikel 3:77 KB WVV beoogde situaties van toepassing is, is de boekhoudkundige verwerking van de verrichting uitsluitend onderworpen aan de bepalingen van artikel 3:56, § 1 KB WVV. Alle actief- en passiefbestanddelen van de overgenomen vennootschap, met inbegrip van de bestanddelen van het eigen vermogen, worden opgeteld bij die van de overnemende vennootschap. Bijgevolg kan er worden opgemerkt dat de fusie door overneming van B door A boekhoudkundig tot hetzelfde resultaat leidt als de fusie door overneming van A door B.
 
-| Balans A + B of B + A | 
+| Balans A + B of B + A|
 |---|
-| Vaste activa | | | | Inbreng/Kapitaal | | | 
-| 3.080 + 12.660 = | | 15.740 | | 1.800 + 4.000 = | | 5.800 | 
-| Vlottende activa | | | | Reserves | | | 
-| 1.610 + 5.720 = | | 7.330 | | 1.670 + 8.900 = | | 10.570 | 
-| | | | | | | 16.370 | 
-| | | | | Voorzieningen | | | 
-| | | | | 400 + 1.680 = | | 2.080 | 
-| | | | | Schulden | | | 
-| | | | | 820 + 3.800 = | | 4.620 | 
-| | | 23.070 | | | | 23.070 | 
+| Vaste activa| | Inbreng/Kapitaal| |
+| 3.080 + 12.660 =| 15.740| 1.800 + 4.000 =| 5.800|
+| Vlottende activa| | Reserves| |
+| 1.610 + 5.720 =| 7.330| 1.670 + 8.900 =| 10.570|
+| | | | 16.370|
+| | | Voorzieningen| |
+| | | 400 + 1.680 =| 2.080|
+| | | Schulden| |
+| | | 820 + 3.800 =| 4.620|
+| | 23.070| | 23.070|
 
 De richting van de fusie heeft echter gevolgen voor de ruilverhouding:
 
@@ -229,25 +209,25 @@ In dergelijke gevallen zijn de volgende correcties noodzakelijk (toepassing van 
 
 Voorbeeld 2 : de gegevens van voorbeeld 1 worden hernomen. Vennootschappen A en B zijn NV’s.
 
-| Balans A | 
+| Balans A|
 |---|
-| Vaste activa | | 3.080 | | Inbreng/Kapitaal | | 1.800 | 
-| Vlottende activa | | 1.610 | | Reserves | | 1.670 | 
-| | | | | | | 3.470 | 
-| | | | | Voorzieningen | | 400 | 
-| | | | | Schulden | | 820 | 
-| | | 4.690 | | | | 4.690 | 
+| Vaste activa| 3.080| Inbreng/Kapitaal| 1.800|
+| Vlottende activa| 1.610| Reserves| 1.670|
+| | | | 3.470|
+| | | Voorzieningen| 400|
+| | | Schulden| 820|
+| | 4.690| | 4.690|
 
 Aantal A-aandelen: 1.200, waarvan de nominale waarde 1,5 bedraagt 
 
-| Balans B | 
+| Balans B|
 |---|
-| Vaste activa | | 12.660 | | Inbreng/Kapitaal | | 4.000 | 
-| Vlottende activa | | 5.720 | | Reserves | | 8.900 | 
-| | | | | | | 12.900 | 
-| | | | | Voorzieningen | | 1.680 | 
-| | | | | Schulden | | 3.800 | 
-| | | 18.380 | | | | 18.380 | 
+| Vaste activa| 12.660| Inbreng/Kapitaal| 4.000|
+| Vlottende activa| 5.720| Reserves| 8.900|
+| | | | 12.900|
+| | | Voorzieningen| 1.680|
+| | | Schulden| 3.800|
+| | 18.380| | 18.380|
 
 Aantal B-aandelen: 2.000, waarvan de nominale waarde 2 bedraagt 
 
@@ -258,37 +238,37 @@ Ruilverhouding: 2 A = 1 B
 
 Het kapitaal van A wordt dus verhoogd met 4.000 x 1,5 = 6.000 d.i. 2.000 meer dan het kapitaal van B. Dit verschil wordt onttrokken aan de reserves van B, op de wijze beslist door de algemene vergadering die tot fusie besluit. 
 
-| Balans A + B | 
+| Balans A + B|
 |---|
-| Vaste activa | | | | Kapitaal | | | 
-| 3.080 + 12.660 = | | 15.740 | | 1.800 + 4.000 **+ 2.000** = | | 7.800 | 
-| Vlottende activa | | | | Reserves | | | 
-| 1.610 + 5.720 = | | 7.330 | | 1.670 + 8.900 **- 2.000** = | | 8.570 | 
-| | | | | | | 16.370 | 
-| | | | | Voorzieningen | | | 
-| | | | | 400 + 1.680 = | | 2.080 | 
-| | | | | Schulden | | | 
-| | | | | 820 + 3.800 = | | 4.620 | 
-| | | 23.070 | | | | 23.070 | 
+| Vaste activa| | Kapitaal| |
+| 3.080 + 12.660 =| 15.740| 1.800 + 4.000 **+ 2.000** =| 7.800|
+| Vlottende activa| | Reserves| |
+| 1.610 + 5.720 =| 7.330| 1.670 + 8.900 **- 2.000** =| 8.570|
+| | | | 16.370|
+| | | Voorzieningen| |
+| | | 400 + 1.680 =| 2.080|
+| | | Schulden| |
+| | | 820 + 3.800 =| 4.620|
+| | 23.070| | 23.070|
 
 #### B neemt A over met behoud van de nominale waarde van de B-aandelen
 2 A = 1 B => creatie van 1.200 x 1/2 = 600 nieuwe B-aandelen waarvan de nominale waarde 2 bedraagt
 
 Het kapitaal van B wordt dus verhoogd met 600 x 2 = 1.200 d.i. 600 minder dan het kapitaal van A. Dit verschil wordt geboekt als uitgiftepremie. 
 
-| Balans B + A | 
+| Balans B + A|
 |---|
-| Vaste activa | | | | Kapitaal | | | 
-| 3.080 + 12.660 = | | 15.740 | | 4.000 + 1.800 **- 600** = | | 5.200 | 
-| Vlottende activa | | | | Uitgiftepremie **+ 600** = | | 600 | 
-| 1.610 + 5.720 = | | 7.330 | | Reserves | | | 
-| | | | | 8.900 + 1.670** **= | | 10.570 | 
-| | | | | | | 16.370 | 
-| | | | | Voorzieningen | | | 
-| | | | | 1.680 + 400 = | | 2.080 | 
-| | | | | Schulden | | | 
-| | | | | 3.800 + 820 = | | 4.620 | 
-| | | 23.070 | | | | 23.070 | 
+| Vaste activa| | Kapitaal| |
+| 3.080 + 12.660 =| 15.740| 4.000 + 1.800 **- 600** =| 5.200|
+| Vlottende activa| | Uitgiftepremie **+ 600** =| 600|
+| 1.610 + 5.720 =| 7.330| Reserves| |
+| | | 8.900 + 1.670** **=| 10.570|
+| | | | 16.370|
+| | | Voorzieningen| |
+| | | 1.680 + 400 =| 2.080|
+| | | Schulden| |
+| | | 3.800 + 820 =| 4.620|
+| | 23.070| | 23.070|
 
 Overnemende en overgenomen vennootschap houden geen aandelen van elkaar. Er wordt geen opleg in geld toegekend. De overgenomen vennootschap bezit eigen aandelen (toepassing van artikel 3:77, § 1 KB WVV)
 Artikel 12:34, § 2, 2° WVV bepaalt dat er geen aandelen van de overnemende vennootschap kunnen worden omgewisseld voor aandelen van de overgenomen vennootschap die worden gehouden door de overgenomen vennootschap zelf. 
@@ -299,37 +279,37 @@ Werd bij inkoop een onbeschikbare reserve voor eigen aandelen gevormd, dan wordt
 
 Voorbeeld 3 : zelfde gegevens als in voorbeeld 1, met als verschil dat B 10 % eigen aandelen bezit met een boekwaarde van 1.300. A, waarvan de aandelen geen nominale waarde hebben, neemt B over. 
 
-| Balans A | 
+| Balans A|
 |---|
-| Vaste activa | | 3.080 | | Inbreng/Kapitaal | | 1.800 | 
-| Vlottende activa | | 1.610 | | Reserves | | 1.670 | 
-| | | | | | | 3.470 | 
-| | | | | Voorzieningen | | 400 | 
-| | | | | Schulden | | 820 | 
-| | | 4.690 | | | | 4.690 | 
+| Vaste activa| 3.080| Inbreng/Kapitaal| 1.800|
+| Vlottende activa| 1.610| Reserves| 1.670|
+| | | | 3.470|
+| | | Voorzieningen| 400|
+| | | Schulden| 820|
+| | 4.690| | 4.690|
 
-| Balans B | 
+| Balans B|
 |---|
-| Vaste activa | | 12.660 | | Inbreng/Kapitaal | | 4.000 | 
-| Vlottende activa | | 4.420 | | Onbeschikbare reserves voor eigen aandelen | | 1.300 | 
-| Eigen aandelen | | 1.300 | | Beschikbare reserves | | 7.600 | 
-| | | | | | | 12.900 | 
-| | | | | Voorzieningen | | 1.680 | 
-| | | | | Schulden | | 3.800 | 
-| | | 18.380 | | | | 18.380 | 
+| Vaste activa| 12.660| Inbreng/Kapitaal| 4.000|
+| Vlottende activa| 4.420| Onbeschikbare reserves voor eigen aandelen| 1.300|
+| Eigen aandelen| 1.300| Beschikbare reserves| 7.600 |
+| | | | 12.900|
+| | | Voorzieningen| 1.680|
+| | | Schulden| 3.800|
+| | 18.380| | 18.380|
 
-| Balans A + B | 
+| Balans A + B|
 |---|
-| Vaste activa | | | | Inbreng/kapitaal | | | 
-| 3.080 + 12.660 = | | 15.740 | | 1.800 + 4.000 = | | 5.800 | 
-| Vlottende activa | | | | Reserves | | | 
-| 1.610 + 4.420 = | | 6.030 | | 1.670 + 7.600 + 1.300 **- 1.300** = | | 9.270 | 
-| | | | | | | 15.070 | 
-| Eigen aandelen | | | | Voorzieningen | | | 
-| 1.300 **- 1.300** = | | 0 | | 400 + 1.680 = | | 2.080 | 
-| | | | | Schulden | | | 
-| | | | | 820 + 3.800 = | | 4.620 | 
-| | | 21.770 | | | | 21.770 | 
+| Vaste activa| | Inbreng/kapitaal| |
+| 3.080 + 12.660 =| 15.740| 1.800 + 4.000 =| 5.800|
+| Vlottende activa| | Reserves| |
+| 1.610 + 4.420 =| 6.030| 1.670 + 7.600 + 1.300 **- 1.300** =| 9.270|
+| | | | 15.070|
+| Eigen aandelen| | Voorzieningen| |
+| 1.300 **- 1.300** =| 0| 400 + 1.680 =| 2.080|
+| | | Schulden| |
+| | | 820 + 3.800 =| 4.620|
+| | 21.770| | 21.770|
 
 Overnemende en overgenomen vennootschap houden geen aandelen van elkaar. De overgenomen vennootschap bezit geen eigen aandelen. Er wordt een opleg in geld toegekend (toepassing van artikel 3:77, § 3 KB WVV)
 Artikel 12:2 WVV stelt dat een opleg in geld kan worden toegekend die niet meer mag bedragen dan een tiende van de nominale of, bij gebreke van nominale waarde, van de fractiewaarde van de toegekende aandelen. 
@@ -338,36 +318,36 @@ Boekhoudkundig wordt de toegekende opleg geacht onttrokken te zijn aan het eigen
 
 Voorbeeld 4: zelfde gegevens als in voorbeeld 1. A neemt B over maar geeft 3.904 nieuwe aandelen uit en kent een opleg in geld toe van 300. 
 
-| Balans A | 
+| Balans A|
 |---|
-| Vaste activa | | 3.080 | | Inbreng/Kapitaal | | 1.800 | 
-| Vlottende activa | | 1.610 | | Reserves | | 1.670 | 
-| | | | | | | 3.470 | 
-| | | | | Voorzieningen | | 400 | 
-| | | | | Schulden | | 820 | 
-| | | 4.690 | | | | 4.690 | 
+| Vaste activa| 3.080| Inbreng/Kapitaal| 1.800|
+| Vlottende activa| 1.610| Reserves| 1.670|
+| | | | 3.470|
+| | | Voorzieningen| 400|
+| | | Schulden| 820|
+| | 4.690| | 4.690|
 
-| Balans B | 
+| Balans B|
 |---|
-| Vaste activa | | 12.660 | | Inbreng/Kapitaal | | 4.000 | 
-| Vlottende activa | | 5.720 | | Reserves | | 8.900 | 
-| | | | | | | 12.900 | 
-| | | | | Voorzieningen | | 1.680 | 
-| | | | | Schulden | | 3.800 | 
-| | | 18.380 | | | | 18.380 | 
+| Vaste activa| 12.660| Inbreng/Kapitaal| 4.000|
+| Vlottende activa| 5.720| Reserves| 8.900|
+| | | | 12.900|
+| | | Voorzieningen| 1.680|
+| | | Schulden| 3.800|
+| | 18.380| | 18.380|
 
-| Balans A + B | 
+| Balans A + B|
 |---|
-| Vaste activa | | | | Inbreng/kapitaal | | | 
-| 3.080 + 12.660 = | | 15.740 | | 1.800 + 4.000 = | | 5.800 | 
-| Vlottende activa | | | | Reserves | | | 
-| 1.610 + 5.720 **- 300** = | | 7.030 | | 1.670 + 8.900 **- 300** = | | 10.270 | 
-| | | | | | | 16.070 | 
-| | | | | Voorzieningen | | | 
-| | | | | 400 + 1.680 = | | 2.080 | 
-| | | | | Schulden | | | 
-| | | | | 820 + 3.800 = | | 4.620 | 
-| | | 22.770 | | | | 22.770 | 
+| Vaste activa| | Inbreng/kapitaal| |
+| 3.080 + 12.660 =| 15.740| 1.800 + 4.000 =| 5.800|
+| Vlottende activa| | Reserves| |
+| 1.610 + 5.720 **- 300** =| 7.030| 1.670 + 8.900 **- 300** =| 10.270|
+| | | | 16.070|
+| | | Voorzieningen| |
+| | | 400 + 1.680 =| 2.080|
+| | | Schulden| |
+| | | 820 + 3.800 =| 4.620|
+| | 22.770| | 22.770|
 
 In hoofde van de aandeelhouders van de overgenomen vennootschap moet de opleg afgetrokken worden van de boekwaarde, en bij voorrang van de aanschaffingswaarde, van de aandelen van de overgenomen vennootschap, inzover die opleg werd onttrokken aan het kapitaal, aan de uitgiftepremie van de overgenomen vennootschap of, in voorkomend geval, aan de inbreng. In de overige gevallen wordt dat bedrag in resultaat genomen. In bovenstaand voorbeeld wordt de opleg van 300 in opbrengsten opgenomen[^23].
 
@@ -387,25 +367,25 @@ Het spreekt voor zich dat deze situatie zich in de praktijk vrijwel nooit zal vo
 
 Voorbeeld 5: Zelfde gegevens als in voorbeeld 1, maar A bezit 20 % van de aandelen van B, waarvan de boekwaarde overeenstemt met het aandeel in het eigen vermogen van B (20 % x 12.900 = 2.580). A neemt B over. 
 
-| Balans A | 
+| Balans A|
 |---|
-| Vaste activa | | 500 | | Inbreng/Kapitaal | | 1.800 | 
-| Deelneming B (20 %) | | 2.580 | | Reserves | | 1.670 | 
-| Vlottende activa | | 1.610 | | | | 3.470 | 
-| | | | | Voorzieningen | | 400 | 
-| | | | | Schulden | | 820 | 
-| | | 4.690 | | | | 4.690 | 
+| Vaste activa| 500| Inbreng/Kapitaal| 1.800|
+| Deelneming B (20 %) | 2.580| Reserves| 1.670|
+| Vlottende activa| 1.610| | 3.470|
+| | | Voorzieningen| 400|
+| | | Schulden| 820|
+| | 4.690| | 4.690|
 
 Aantal A-aandelen: 1.200
 
-| Balans B | 
+| Balans B|
 |---|
-| Vaste activa | | 12.660 | | Inbreng/Kapitaal | | 4.000 | 
-| Vlottende activa | | 5.720 | | Reserves | | 8.900 | 
-| | | | | | | 12.900 | 
-| | | | | Voorzieningen | | 1.680 | 
-| | | | | Schulden | | 3.800 | 
-| | | 18.380 | | | | 18.380 | 
+| Vaste activa| 12.660| Inbreng/Kapitaal| 4.000|
+| Vlottende activa| 5.720| Reserves| 8.900|
+| | | | 12.900|
+| | | Voorzieningen| 1.680|
+| | | Schulden| 3.800|
+| | 18.380| | 18.380|
 
 Aantal B-aandelen: 2.000
 
@@ -417,18 +397,18 @@ Aangezien er overeenkomstig artikel 12:34, § 2, 1° WVV geen aandelen worden to
 
 Het aandeel in het eigen vermogen van B dat overeenstemt met het aandelenpercentage van A in B (20 % x 12.900) wordt verrekend met de boekwaarde van de deelneming van A in B. Dit heeft tot gevolg dat de verschillende bestanddelen van het eigen vermogen van B in principe slechts worden opgenomen ten belope van het aandelenpercentage dat niet in bezit is van A (toepassing van artikel 3:77, § 4 KB WVV). 
 
-| Balans A + B | 
+| Balans A + B|
 |---|
-| Vaste activa | | | | Inbreng/kapitaal | | | 
-| 500 + 12.660 = | | 13.160 | | 1.800 + 4.000 x 80 % = | | 5.000 | 
-| Deelneming B (20 %) | | | | Reserves | | | 
-| 2.580 – (4.000 + 8.900) x 20% = | | 0 | | 1.670 + 8.900 x 80% = | | 8.790 | 
-| Vlottende activa | | | | | | 13.790 | 
-| 1.610 + 5.720 = | | 7.330 | | Voorzieningen | | | 
-| | | | | 400 + 1.680 = | | 2.080 | 
-| | | | | Schulden | | | 
-| | | | | 820 + 3.800 = | | 4.620 | 
-| | | 20.490 | | | | 20.490 | 
+| Vaste activa| | Inbreng/kapitaal| |
+| 500 + 12.660 =| 13.160| 1.800 + 4.000 x 80 % =| 5.000|
+| Deelneming B (20 %)| | Reserves| |
+| 2.580 – (4.000 + 8.900) x 20% =| 0| 1.670 + 8.900 x 80% =| 8.790|
+| Vlottende activa| | | 13.790|
+| 1.610 + 5.720 =| 7.330| Voorzieningen| |
+| | | 400 + 1.680 =| 2.080|
+| | | Schulden| |
+| | | 820 + 3.800 =| 4.620|
+| | 20.490| | 20.490|
 
 Nochtans moet rekening worden gehouden met: 
 
@@ -441,24 +421,24 @@ Daarom kan er vanuit boekhoudkundig standpunt afgeweken worden van een proportio
 
 Voorbeeld 6: zelfde gegevens als in voorbeeld 5, maar B heeft 8.000 beschikbare reserves en 900 belastingvrije reserves. Er wordt verondersteld dat er volledige overeenstemming is tussen enerzijds de beschikbare reserves en de belaste reserves en anderzijds tussen de belastingvrije reserves en de vrijgestelde reserves.
 
-| Balans A | 
+| Balans A|
 |---|
-| Vaste activa | | 500 | | Inbreng/Kapitaal | | 1.800 | 
-| Deelneming B (20 %) | | 2.580 | | Beschikbare reserves | | 1.670 | 
-| Vlottende activa | | 1.610 | | | | 3.470 | 
-| | | | | Voorzieningen | | 400 | 
-| | | | | Schulden | | 820 | 
-| | | 4.690 | | | | 4.690 | 
+| Vaste activa| 500| Inbreng/Kapitaal| 1.800|
+| Deelneming B (20 %) | 2.580| Beschikbare reserves| 1.670|
+| Vlottende activa| 1.610| | 3.470|
+| | | Voorzieningen| 400|
+| | | Schulden| 820|
+| | 4.690| | 4.690|
 
-| Balans B | 
+| Balans B|
 |---|
-| Vaste activa | | 12.660 | | Inbreng/Kapitaal | | 4.000 | 
-| Vlottende activa | | 5.720 | | Belastingvrije reserves | | 900 | 
-| | | | | Beschikbare reserves | | 8.000 | 
-| | | | | | | 12.900 | 
-| | | | | Voorzieningen | | 1.680 | 
-| | | | | Schulden | | 3.800 | 
-| | | 18.380 | | | | 18.380 | 
+| Vaste activa| 12.660| Inbreng/Kapitaal| 4.000|
+| Vlottende activa| 5.720| Belastingvrije reserves| 900|
+| | | Beschikbare reserves| 8.000|
+| | | | 12.900|
+| | | Voorzieningen| 1.680|
+| | | Schulden| 3.800|
+| | 18.380| | 18.380|
 
 Indien vennootschap A vennootschap B overneemt, zou elk eigenvermogensbestanddeel van B slechts overgenomen worden ten belope van 80 %. 
 
@@ -466,43 +446,43 @@ Om te vermijden dat de belastingvrije reserves zouden verdwijnen, mag de vermind
 
 In dit voorbeeld zullen de 900 belastingvrije reserves van B volledig worden overgenomen en zal de globale vermindering toegerekend worden aan de beschikbare reserves die na de fusie 7.890 zullen bedragen. 
 
-| Balans A + B | 
+| Balans A + B|
 |---|
-| Vaste activa | | | | Inbreng/kapitaal | | | 
-| 500 + 12.660 = | | 13.160 | | 1.800 + 4.000 x 80 % = | | 5.000 | 
-| Deelneming B | | | | Belastingvrije reserves | | | 
-| 2.580 – (4.000 + 900 + 8.000) x 20% = | | 0 | | 0 + (900 x 80%) **+ 180** = | | 900 | 
-| Vlottende activa | | | | Beschikbare reserves | | | 
-| 1.610 + 5.720 = | | 7.330 | | 1.670 + (8.000 x 80%) **- 180** = | | 7.890 | 
-| | | | | | | 13.790 | 
-| | | | | Voorzieningen | | | 
-| | | | | 400 + 1.680 = | | 2.080 | 
-| | | | | Schulden | | | 
-| | | | | 820 + 3.800 = | | 4.620 | 
-| | | 20.490 | | | | 20.490 | 
+| Vaste activa| | Inbreng/kapitaal| |
+| 500 + 12.660 =| 13.160| 1.800 + 4.000 x 80 % =| 5.000|
+| Deelneming B| | Belastingvrije reserves| |
+| 2.580 – (4.000 + 900 + 8.000) x 20% =| 0| 0 + (900 x 80%) **+ 180** = | 900|
+| Vlottende activa| | Beschikbare reserves| |
+| 1.610 + 5.720 =| 7.330| 1.670 + (8.000 x 80%) **- 180** =| 7.890|
+| | | | 13.790|
+| | | Voorzieningen| |
+| | | 400 + 1.680 =| 2.080|
+| | | Schulden| |
+| | | 820 + 3.800 =| 4.620|
+| | 20.490| | 20.490|
 
 In dit voorbeeld volstaan de andere dan de belastingvrije reserves om de wedersamenstelling van de belastingvrije reserves mogelijk te maken. In de praktijk zal dit echter niet altijd het geval zijn. 
 
 Voorbeeld 7: B beschikt over beschikbare en belastingvrije reserves voor een bedrag van 1.000. A heeft 80 % van B in bezit, waardoor de deelneming van A 4.800 bedraagt. Het bedrag van de reserves van A is hetzelfde als dat in voorbeeld 6. Dit bedrag wordt uitsluitend samengesteld uit belastingvrije reserves, niet meer uit beschikbare reserves. De andere gegevens werden gewijzigd opdat het evenwicht tussen actief en passief zou worden behouden. 
 
-| Balans A | 
+| Balans A|
 |---|
-| Vaste activa | | 500 | | Inbreng/Kapitaal | | 1.800 | 
-| Deelneming B (80 %) | | 4.800 | | Belastingvrije reserves | | 1.670 | 
-| Vlottende activa | | 1.610 | | | | 3.470 | 
-| | | | | Voorzieningen | | 1.540 | 
-| | | | | Schulden | | 1.900 | 
-| | | 6.910 | | | | 6.910 | 
+| Vaste activa| 500| Inbreng/Kapitaal| 1.800|
+| Deelneming B (80 %) | 4.800| Belastingvrije reserves| 1.670|
+| Vlottende activa| 1.610| | 3.470|
+| | | Voorzieningen| 1.540|
+| | | Schulden| 1.900|
+| | 6.910| | 6.910|
 
-| Balans B | 
+| Balans B|
 |---|
-| Vaste activa | | 6.760 | | Inbreng/Kapitaal | | 4.000 | 
-| Vlottende activa | | 4.720 | | Belastingvrije reserves | | 1.000 | 
-| | | | | Beschikbare reserves | | 1.000 | 
-| | | | | | | 6.000 | 
-| | | | | Voorzieningen | | 1.680 | 
-| | | | | Schulden | | 3.800 | 
-| | | 11.480 | | | | 11.480 | 
+| Vaste activa| 6.760| Inbreng/Kapitaal| 4.000|
+| Vlottende activa| 4.720| Belastingvrije reserves| 1.000|
+| | | Beschikbare reserves| 1.000|
+| | | | 6.000|
+| | | Voorzieningen| 1.680|
+| | | Schulden| 3.800|
+| | 11.480| | 11.480|
 
 Indien vennootschap A vennootschap B overneemt, zou elk eigenvermogensbestanddeel van B slechts overgenomen worden ten belope van 20 %, inclusief de belastingvrije reserves. 
 
@@ -526,21 +506,21 @@ In tweede instantie kan het deel van de belastingvrije reserves dat na de fusiev
 
 De balans na fusie wordt dan als volgt opgemaakt:
 
-| Balans A + B | 
+| Balans A + B|
 |---|
-| Vaste activa | | | | Inbreng/kapitaal | | | 
-| 500 + 6.760 = | | 7.260 | | 1.800 + 4.000 x 20 % = | | 2.600 | 
-| Deelneming B | | | | Belastingvrije reserves | | | 
-| 4.800 – (4.000 + 1.000 + 1.000) x 80 % = | | 0 | | 1.670 + (1.000 x 20 %) **+ 200 + 600** = | | 2.670 | 
-| Vlottende activa | | | | Beschikbare reserves | | | 
-| 1.610 + 4.720 = | | 6.330 | | 0 + (1.000 x 20 %) **- 200** = | | 0 | 
-| | | | | Overgedragen verlies | | <**600**> | 
-| | | | | | | 4.670 | 
-| | | | | Voorzieningen | | | 
-| | | | | 1.540 + 1.680 = | | 3.220 | 
-| | | | | Schulden | | | 
-| | | | | 1.900 + 3.800 = | | 5.700 | 
-| | | 13.590 | | | | 13.590 | 
+| Vaste activa| | Inbreng/kapitaal| |
+| 500 + 6.760 =| 7.260| 1.800 + 4.000 x 20 % =| 2.600|
+| Deelneming B| | Belastingvrije reserves| |
+| 4.800 – (4.000 + 1.000 + 1.000) x 80 % =| 0| 1.670 + (1.000 x 20 %) **+ 200 + 600** = | 2.670|
+| Vlottende activa| | Beschikbare reserves| |
+| 1.610 + 4.720 =| 6.330| 0 + (1.000 x 20 %) **- 200** =| 0|
+| | | Overgedragen verlies| <**600**>|
+| | | | 4.670|
+| | | Voorzieningen| |
+| | | 1.540 + 1.680 =| 3.220|
+| | | Schulden| |
+| | | 1.900 + 3.800 =| 5.700|
+| | 13.590| | 13.590|
 
 Om te vermijden dat de overboeking naar de belastingvrije reserves tot een kunstmatig boekhoudkundig verlies zou leiden, zal A het saldo van de vrijgestelde reserves ook kunnen wedersamenstellen door in haar boekhouding subrekeningen van rekening 10 Kapitaal te creëren, de ene voor de in het kapitaal geïncorporeerde vrijgestelde reserve en de andere voor de in het kapitaal geïncorporeerde negatieve belaste reserve. Voor kapitaalloze vennootschappen kunnen de subrekeningen ‘In de inbreng geïncorporeerde vrijgestelde reserve’ en ‘In de inbreng geïncorporeerde negatieve belaste reserve’ gecreëerd worden binnen rekening 110 Beschikbare inbreng buiten kapitaal, tenzij de statuten van de overnemende vennootschap gewijzigd werden met als gevolg dat de uitkering van wedersamengestelde, vrijgestelde reserves wordt verhinderd. De Commissie benadrukt dat de voorbereidende werken stellen dat de toepassing van één van deze technieken volstaat om de naleving van de onaantastbaarheidsvoorwaarde, waar de vrijstelling van de wedersamengestelde reserves aan is onderworpen, te verzekeren[^26]. Er moet dus geen onbeschikbare reserve worden aangelegd.
 
@@ -553,34 +533,34 @@ Dat geeft in het voorbeeld de volgende boeking:
 
 De balans na fusie wordt dan als volgt opgemaakt:
 
-| Balans A + B | 
+| Balans A + B|
 |---|
-| Vaste activa | | | | Inbreng / Kapitaal | | | 
-| 500 + 6.760 = | | 7.260 | | 
+| Vaste activa| | Inbreng / Kapitaal| |
+| 500 + 6.760 = | 7.260| 
 - Geplaatst kapitaal / Beschikbare inbreng: 1.800 + (4.000 x 20 %) = 
 
- | | 2.600 | 
-|---|---|
-| | | | | 
+| 2.600|
+|---|
+| | | 
 - In het kapitaal / In de inbreng geïncorporeerde negatieve belaste reserves 
 
- | | <600> | 
-|---|---|
-| | | | | 
+| <600>|
+|---|
+| | | 
 - In het kapitaal / In de inbreng geïncorporeerde vrijgestelde reserves 
 
- | | 600 | 
-|---|---|
-| | | | | | | 2.600 | 
-| Deelneming B | | | | Belastingvrije reserves | | | 
-| 4.800 - (4.000 + 1.000 + 1.000) x 80 % = | | 0 | | 1.670 + (1.000 x 20 %) **+ 200** = | | 2.070 | 
-| Vlottende activa | | | | Beschikbare reserves | | | 
-| 1.610 + 4.720 = | | 6.330 | | 0 + (1.000 x 20 %) **- 200** = | | 0 | 
-| | | | | Voorzieningen | | | 
-| | | | | 1.540 + 1.680 = | | 3.220 | 
-| | | | | Schulden | | | 
-| | | | | 1.900 + 3.800 = | | 5.700 | 
-| | | 13.590 | | | | 13.590 | 
+| 600|
+|---|
+| | | | 2.600|
+| Deelneming B| | Belastingvrije reserves| |
+| 4.800 - (4.000 + 1.000 + 1.000) x 80 % =| 0| 1.670 + (1.000 x 20 %) **+ 200** =| 2.070|
+| Vlottende activa| | Beschikbare reserves| |
+| 1.610 + 4.720 =| 6.330| 0 + (1.000 x 20 %) **- 200** =| 0|
+| | | Voorzieningen| |
+| | | 1.540 + 1.680 =| 3.220|
+| | | Schulden| |
+| | | 1.900 + 3.800 =| 5.700|
+| | 13.590| | 13.590|
 
 De Commissie is van oordeel dat de negatief belaste reserve waarschijnlijk zal moeten worden behouden binnen het eigen vermogen van de overnemende vennootschap tot op het moment waarop de vereffening wordt afgesloten.
 
@@ -635,37 +615,37 @@ Deze waardetoerekeningen vormen de uitdrukking van bij de fusie vastgestelde act
 
 Voorbeeld 8: de gegevens zijn dezelfde als in voorbeeld 1, behalve dat A 20 % van de aandelen van B houdt. De boekwaarde van deze aandelen ligt 65 hoger van het aandeel dat zij vertegenwoordigen in het eigen vermogen van B (20 % x 12.900 = 2.580). Vennootschap A neemt vennootschap B over.
 
-| Balans A | 
+| Balans A|
 |---|
-| Vaste activa | | 500 | | Inbreng/Kapitaal | | 1.800 | 
-| Deelneming B (20 %) | | 2.645 | | Reserves | | 1.670 | 
-| Vlottende activa | | 1.545 | | | | 3.470 | 
-| | | | | Voorzieningen | | 400 | 
-| | | | | Schulden | | 820 | 
-| | | 4.690 | | | | 4.690 | 
+| Vaste activa| 500| Inbreng/Kapitaal| 1.800|
+| Deelneming B (20 %) | 2.645| Reserves| 1.670|
+| Vlottende activa| 1.545| | 3.470|
+| | | Voorzieningen| 400|
+| | | Schulden| 820|
+| | 4.690| | 4.690|
 
-| Balans B | 
+| Balans B|
 |---|
-| Vaste activa | | 12.660 | | Inbreng/Kapitaal | | 4.000 | 
-| Vorderingen op meer dan één jaar | | 5.720 | | Reserves | | 8.900 | 
-| | | | | | | 12.900 | 
-| | | | | Voorzieningen | | 1.680 | 
-| | | | | Schulden | | 3.800 | 
-| | | 18.380 | | | | 18.380 | 
+| Vaste activa| 12.660| Inbreng/Kapitaal| 4.000|
+| Vorderingen op meer dan één jaar| 5.720| Reserves| 8.900|
+| | | | 12.900|
+| | | Voorzieningen| 1.680|
+| | | Schulden| 3.800|
+| | 18.380| | 18.380|
 
 (1) Uit een actuele beoordeling blijkt dat de voorzieningen van B te hoog gewaardeerd zijn ten belope van 50. 
 
 Met toepassing van artikel 3:33 KB WVV wordt deze voorziening teruggebracht tot 1.630. Een overeenkomstig resultaat wordt geboekt. 
 
-| Balans B aangepast vóór de fusie | 
+| Balans B aangepast vóór de fusie|
 |---|
-| Vaste activa | | 12.660 | | Inbreng / Kapitaal | | 4.000 | 
-| Vorderingen op meer dan één jaar | | 5.720 | | Reserves | | 8.900 | 
-| | | | | Overgedragen resultaat | | **50** | 
-| | | | | | | 12.950 | 
-| | | | | Voorzieningen 1.680 – 50 = | | 1.630 | 
-| | | | | Schulden | | 3.800 | 
-| | | 18.380 | | | | 18.380 | 
+| Vaste activa| 12.660| Inbreng / Kapitaal| 4.000|
+| Vorderingen op meer dan één jaar| 5.720| Reserves| 8.900|
+| | | Overgedragen resultaat| **50**|
+| | | | 12.950|
+| | | Voorzieningen 1.680 – 50 =| 1.630|
+| | | Schulden| 3.800|
+| | 18.380| | 18.380|
 
 (2) Na aanpassing van het eigen vermogen van B met toepassing van de gemeenrechtelijke boekhoudbepalingen, blijft er een verschil van 55 tussen de boekwaarde van de B-aandelen en het aandeel in het eigen vermogen van B (20 % x 12.950). 
 
@@ -675,20 +655,18 @@ Er dient dan te worden nagegaan of er een toerekening kan gebeuren aan activa me
 
 Wanneer B bijvoorbeeld 60 zou kunnen toerekenen aan een vast actief, dan wordt deze toerekening beperkt tot het bedrag van het resterende verschil, in casu 55. 
 
-| Balans A + B na toerekening aan een materieel vast actief | 
+| Balans A + B na toerekening aan een materieel vast actief|
 |---|
-| Vaste activa | | | | Inbreng / Kapitaal | | | 
-| 500 + 12.660 **+ 55**[^27]
- = | | 13.215 | | 1.800 + 4.000 x 80 % = | | 5.000 | 
-| Deelneming B | | | | Reserves | | | 
-|---|---|---|---|---|---|---|
-| 2.645 - (4.000 + 8.950) x 20 % **- 55** = | | 0 | | 1.670 + 8.950 x 80 % = | | 8.830 | 
-| | | | | | | 13.830 | 
-| Vorderingen op meer dan één jaar | | 5.720 | | Voorzieningen | | | 
-| Vlottende activa | | 1.545 | | 400 + 1.630 = | | 2.030 | 
-| | | | | Schulden | | | 
-| | | | | 820 + 3.800 = | | 4.620 | 
-| | | 20.480 | | | | 20.480 | 
+| Vaste activa| | Inbreng / Kapitaal | |
+| 500 + 12.660 **+ 55**[^27] =| 13.215| 1.800 + 4.000 x 80 % =| 5.000|
+| Deelneming B| | Reserves| |
+| 2.645 - (4.000 + 8.950) x 20 % **- 55** =| 0| 1.670 + 8.950 x 80 % =| 8.830|
+| | | | 13.830|
+| Vorderingen op meer dan één jaar| 5.720 | Voorzieningen | |
+| Vlottende activa| 1.545 | 400 + 1.630 =| 2.030|
+| | | Schulden| |
+| | | 820 + 3.800 =| 4.620|
+| | 20.480| | 20.480|
 
 (2.2.) Toerekening aan een geactualiseerde schuld 
 
@@ -696,57 +674,57 @@ Wanneer B bijvoorbeeld 60 zou kunnen toerekenen aan een schuld die wordt geactua
 
 Deze blijft geboekt tegen nominale waarde. Het tot het resterende fusieverschil beperkte bedrag van het verschil tussen de nominale en de actuele waarde wordt op een overlopende rekening geboekt en wordt nadien op geactualiseerde basis in resultaat genomen. 
 
-| Balans A + B na toerekening aan een geactualiseerde schuld | 
+| Balans A + B na toerekening aan een geactualiseerde schuld|
 |---|
-| Vaste activa | | | | Inbreng / Kapitaal | | | 
-| 500 + 12.660 = | | 13.160 | | 1.800 + 4.000 x 80 % = | | 5.000 | 
-| Deelneming B | | | | Reserves | | | 
-| 2.645 - (4.000 + 8.950) x 20 % **- 55** = | | 0 | | 1.670 + 8.950 x 80 % = | | 8.830 | 
-| | | | | | | 13.830 | 
-| Vorderingen op meer dan één jaar | | 5.720 | | Voorzieningen | | | 
-| Vlottende activa | | 1.545 | | 400 + 1.630 = | | 2.030 | 
-| Overlopende rekeningen | | **55** | | Schulden | | | 
-| | | | | 820 + 3.800 = | | 4.620 | 
-| | | 20.480 | | | | 20.480 | 
+| Vaste activa| | Inbreng / Kapitaal | |
+| 500 + 12.660 =| 13.160| 1.800 + 4.000 x 80 % =| 5.000|
+| Deelneming B| | Reserves| |
+| 2.645 - (4.000 + 8.950) x 20 % **- 55** =| 0| 1.670 + 8.950 x 80 % =| 8.830|
+| | | | 13.830|
+| Vorderingen op meer dan één jaar| 5.720 | Voorzieningen | |
+| Vlottende activa| 1.545 | 400 + 1.630 =| 2.030|
+| Overlopende rekeningen| **55**| Schulden| |
+| | | 820 + 3.800 =| 4.620|
+| | 20.480| | 20.480|
 
 Is de boekwaarde van de aandelen na waardecorrecties en na waardeaanpassingen met toepassing van de gemeenrechtelijke bepalingen van het boekhoudrecht of waardetoerekeningen bij fusie, nog steeds groter dan het overeenstemmende aandeel in het eigen vermogen, dan wordt dit verschil al naargelang het geval ten laste genomen door de overnemende vennootschap of geactiveerd als *goodwill*[^28]. De boekhoudkundige verwerking van deze situatie wordt hieronder toegelicht.
 
 Voorbeeld 9: De gegevens zijn dezelfde als in voorbeeld 8. Er wordt geen waardecorrectie of waardeaanpassing doorgevoerd.
 
-| Balans A | 
+| Balans A|
 |---|
-| Vaste activa | | 500 | | Inbreng/Kapitaal | | 1.800 | 
-| Deelneming B (20 %) | | 2.645 | | Reserves | | 1.670 | 
-| Vlottende activa | | 1.545 | | | | 3.470 | 
-| | | | | Voorzieningen | | 400 | 
-| | | | | Schulden | | 820 | 
-| | | 4.690 | | | | 4.690 | 
+| Vaste activa| 500| Inbreng/Kapitaal| 1.800|
+| Deelneming B (20 %) | 2.645| Reserves| 1.670|
+| Vlottende activa| 1.545| | 3.470|
+| | | Voorzieningen| 400|
+| | | Schulden| 820|
+| | 4.690| | 4.690|
 
-| Balans B | 
+| Balans B|
 |---|
-| Vaste activa | | 12.660 | | Inbreng/Kapitaal | | 4.000 | 
-| Vorderingen op meer dan één jaar | | 5.720 | | Reserves | | 8.900 | 
-| | | | | | | 12.900 | 
-| | | | | Voorzieningen | | 1.680 | 
-| | | | | Schulden | | 3.800 | 
-| | | 18.380 | | | | 18.380 | 
+| Vaste activa| 12.660| Inbreng/Kapitaal| 4.000|
+| Vorderingen op meer dan één jaar| 5.720| Reserves| 8.900|
+| | | | 12.900|
+| | | Voorzieningen| 1.680|
+| | | Schulden| 3.800|
+| | 18.380| | 18.380|
 
 Indien het verschil van 65 tussen de boekwaarde van de deelneming van A in B en het aandeel van het eigen vermogen dat deze deelneming vertegenwoordigt niet ten laste van de resultatenrekening wordt genomen, wordt er voor dit bedrag *goodwill* geboekt op het actief van A. De balans van A ziet er na fusie als volgt uit:
 
-| Balans A + B | 
+| Balans A + B|
 |---|
-| Vaste activa | | | | Inbreng / Kapitaal | | | 
-| 500 + 12.660 = | | 13.160 | | 1.800 + 4.000 x 80 % = | | 5.000 | 
-| Deelneming B | | | | | | | 
-| 2.645 - 2.645 = | | 0 | | | | | 
-| Goodwill | | | | Reserves | | | 
-| 2.645 – (4.000+8.900) x 20 % = | | 65 | | 1.670 + 8.900 x 80 % = | | 8.790 | 
-| | | | | | | 13.790 | 
-| Vorderingen op meer dan één jaar | | 5.720 | | Voorzieningen | | | 
-| | | | | 400 + 1.680 = | | 2.080 | 
-| Vlottende activa | | 1.545 | | Schulden | | | 
-| | | | | 820 + 3.800 = | | 4.620 | 
-| | | 20.490 | | | | 20.490 | 
+| Vaste activa| | Inbreng / Kapitaal| |
+| 500 + 12.660 =| 13.160| 1.800 + 4.000 x 80 % =| 5.000|
+| Deelneming B| | | |
+| 2.645 - 2.645 =| 0| | |
+| Goodwill| | Reserves| |
+| 2.645 – (4.000+8.900) x 20 % = | 65| 1.670 + 8.900 x 80 % =| 8.790|
+| | | | 13.790|
+| Vorderingen op meer dan één jaar| 5.720| Voorzieningen| |
+| | | 400 + 1.680 =| 2.080|
+| Vlottende activa| 1.545| Schulden | |
+| | | 820 + 3.800 = | 4.620|
+| | 20.490| | 20.490|
 
 A zal als tegenpost op de passiefzijde van de balans een meerwaarde moeten boeken waarvan de vrijstelling onderworpen is aan de naleving van de onaantastbaarheidsvoorwaarde[^29]. Aan deze voorwaarde wordt voldaan hetzij door de overboeking naar de belastingvrije reserves via debitering van de resultatenrekening van een bedrag dat gelijk is aan de geboekte *goodwill*, namelijk 65; hetzij door het aanleggen van een vrijgestelde reserve en een negatieve belaste reserve, ten belope van hetzelfde bedrag, die beide in het kapitaal / in de inbreng worden geïncorporeerd[^30]. In dit voorbeeld kan één van de volgende boekingen worden uitgevoerd[^31]:
 
@@ -771,38 +749,38 @@ Indien het vastgestelde fusieverschil niet kan worden weggewerkt door toepassing
 
 Voorbeeld 10: zelfde gegevens als in voorbeeld 8. De deelneming van 20% van A in B bedraagt 2.490 en ligt 90 lager dan het aandeel van het eigen vermogen van B dat deze deelneming vertegenwoordigt, ofwel 20 % x 12.900 = 2.580.
 
-| Balans A | 
+| Balans A|
 |---|
-| Vaste activa | | 500 | | Inbreng/Kapitaal | | 1.800 | 
-| Deelneming B (20 %) | | 2.490 | | Reserves | | 1.670 | 
-| Vlottende activa | | 1.545 | | | | 3.470 | 
-| | | | | Voorzieningen | | 245 | 
-| | | | | Schulden | | 820 | 
-| | | 4.535 | | | | 4.535 | 
+| Vaste activa| 500| Inbreng/Kapitaal| 1.800|
+| Deelneming B (20 %) | 2.490| Reserves| 1.670|
+| Vlottende activa| 1.545| | 3.470|
+| | | Voorzieningen| 245|
+| | | Schulden| 820|
+| | 4.535| | 4.535|
 
-| Balans B | 
+| Balans B|
 |---|
-| Vaste activa | | 12.660 | | Inbreng/Kapitaal | | 4.000 | 
-| Vorderingen op meer dan één jaar | | 5.720 | | Reserves | | 8.900 | 
-| | | | | | | 12.900 | 
-| | | | | Voorzieningen | | 1.680 | 
-| | | | | Schulden | | 3.800 | 
-| | | 18.380 | | | | 18.380 | 
+| Vaste activa| 12.660| Inbreng/Kapitaal| 4.000|
+| Vorderingen op meer dan één jaar| 5.720| Reserves| 8.900|
+| | | | 12.900|
+| | | Voorzieningen| 1.680|
+| | | Schulden| 3.800|
+| | 18.380| | 18.380|
 
 Het fusieverschil dat voortvloeit uit bovenvermeld verschil moet dus in resultaat worden genomen. Dit bedrag maakt intrinsiek een meerwaarde uit, daarom wordt het over het algemeen ook gekwalificeerd als een fusiemeerwaarde. Dit bedrag moet niet noodzakelijk op een afzonderlijke rekening worden opgenomen en mag worden toegevoegd aan de reserves.
 
-| Balans A + B | 
+| Balans A + B|
 |---|
-| Vaste activa | | | | Inbreng / Kapitaal | | | 
-| 500 + 12.660 = | | 13.160 | | 1.800 + 4.000 x 80 % = | | 5.000 | 
-| Vorderingen op meer dan één jaar | | 5.720 | | Reserves | | | 
-| | | | | 1.670 + 8.900 x 80 %** + 90 **= | | 8.880 | 
-| | | | | | | 13.880 | 
-| Deelneming B | | | | Voorzieningen | | | 
-| 2.490 - 2.580 **+ 90** = | | 0 | | 245 + 1.680 = | | 1.925 | 
-| Vlottende activa | | 1.545 | | Schulden | | | 
-| | | | | 820 + 3.800 = | | 4.620 | 
-| | | 20.425 | | | | 20.425 | 
+| Vaste activa| | Inbreng / Kapitaal| |
+| 500 + 12.660 =| 13.160| 1.800 + 4.000 x 80 % =| 5.000|
+| Vorderingen op meer dan één jaar| 5.720| Reserves| |
+| | | 1.670 + 8.900 x 80 %** + 90 **=| 8.880|
+| | | | 13.880|
+| Deelneming B| | Voorzieningen| |
+| 2.490 - 2.580 **+ 90** = | 0| 245 + 1.680 =| 1.925|
+| Vlottende activa| 1.545| Schulden | |
+| | | 820 + 3.800 = | 4.620|
+| | 20.425| | 20.425|
 
 #### Kapitaalsubsidies en herwaarderingsmeerwaarden
 ##### Kapitaalsubsidies
@@ -814,45 +792,45 @@ De uitgestelde belastingen die betrekking hebben op de kapitaalsubsidies van de 
 
 Voorbeeld 11: zelfde gegevens als in voorbeeld 5, behalve dat B kapitaalsubsidies ontving van 1.000 (de belastingvoet bedraagt 25 %). 
 
-| Balans A | 
+| Balans A|
 |---|
-| Vaste activa | | 500 | | Inbreng/Kapitaal | | 1.800 | 
-| Deelneming B (20 %) | | 2.580 | | Reserves | | 1.670 | 
-| Vlottende activa | | 1.610 | | | | 3.470 | 
-| | | | | Voorzieningen | | 400 | 
-| | | | | Schulden | | 820 | 
-| | | 4.690 | | | | 4.690 | 
+| Vaste activa| 500| Inbreng/Kapitaal| 1.800|
+| Deelneming B (20 %) | 2.580| Reserves| 1.670|
+| Vlottende activa| 1.610| | 3.470|
+| | | Voorzieningen| 400|
+| | | Schulden| 820|
+| | 4.690| | 4.690|
 
-| Balans B | 
+| Balans B|
 |---|
-| Vaste activa | | 12.660 | | Inbreng/Kapitaal | | 4.000 | 
-| Vlottende activa | | 5.720 | | Reserves | | 8.150 | 
-| | | | | Kapitaalsubsidies | | 750 | 
-| | | | | | | 12.900 | 
-| | | | | Uitgestelde belastingen | | 250 | 
-| | | | | Voorzieningen | | 1.430 | 
-| | | | | Schulden | | 3.800 | 
-| | | 18.380 | | | | 
+| Vaste activa| 12.660| Inbreng/Kapitaal| 4.000|
+| Vlottende activa| 5.720| Reserves| 8.150|
+| | | Kapitaalsubsidies| 750|
+| | | | 12.900|
+| | | Uitgestelde belastingen| 250|
+| | | Voorzieningen| 1.430|
+| | | Schulden| 3.800|
+| | 18.380| | 
 
 18.380
 
-  | 
+ |
 
-| Balans A + B | 
+| Balans A + B|
 |---|
-| Vaste activa | | | | Inbreng / Kapitaal | | | 
-| 500 + 12.660 = | | 13.160 | | 1.800 + 4.000 x 80 % = | | 5.000 | 
-| Deelneming B | | | | Reserves | | | 
-| 2.580 – (4.000 + 8.150 + 750) x 20 % = | | 0 | | 1.670 + 8.150 x 80 % = | | 8.190 | 
-| Vlottende activa | | | | Kapitaalsubsidies | | | 
-| 1.610 + 5.720 = | | 7.330 | | 750 x 80 % = | | 600[^33] | 
-| | | | | | | 13.790 | 
-| | | | | Voorzieningen | | | 
-| | | | | 400 + 1.430 = | | 1.830 | 
-| | | | | Uitgestelde belastingen | | 250 | 
-| | | | | Schulden | | | 
-| | | | | 820 + 3.800 = | | 4.620 | 
-| | | 20.490 | | | | 20.490 | 
+| Vaste activa| | Inbreng / Kapitaal | |
+| 500 + 12.660 =| 13.160| 1.800 + 4.000 x 80 % =| 5.000|
+| Deelneming B| | Reserves| |
+| 2.580 – (4.000 + 8.150 + 750) x 20 % =| 0| 1.670 + 8.150 x 80 % =| 8.190|
+| Vlottende activa| | Kapitaalsubsidies| |
+| 1.610 + 5.720 =| 7.330| 750 x 80 % =| 600[^33] |
+| | | | 13.790|
+| | | Voorzieningen| |
+| | | 400 + 1.430 =| 1.830|
+| | | Uitgestelde belastingen| 250|
+| | | Schulden| |
+| | | 820 + 3.800 =| 4.620|
+| | 20.490| | 20.490|
 
 ##### Herwaarderingsmeerwaarden
 Net zoals de kapitaalsubsidies verdwijnen bij fusie ook de herwaarderingsmeerwaarden van de overgenomen vennootschap ten belope van het deelnemingspercentage van de overnemende in de overgenomen vennootschap. 
@@ -861,43 +839,43 @@ Wordt het geherwaardeerde actief vervreemd dan zal rekening worden gehouden met 
 
 Voorbeeld 12: zelfde gegevens als in voorbeeld 5, B heeft een gebouw met aanschaffingsprijs 400 dat werd geherwaardeerd ten belope van 600. 
 
-| Balans A | 
+| Balans A|
 |---|
-| Vaste activa | | 500 | | Inbreng/Kapitaal | | 1.800 | 
-| Deelneming B (20 %) | | 2.580 | | Reserves | | 1.670 | 
-| Vlottende activa | | 1.610 | | | | 3.470 | 
-| | | | | Voorzieningen | | 400 | 
-| | | | | Schulden | | 820 | 
-| | | 4.690 | | | | 4.690 | 
+| Vaste activa| 500| Inbreng/Kapitaal| 1.800|
+| Deelneming B (20 %) | 2.580| Reserves| 1.670|
+| Vlottende activa| 1.610| | 3.470|
+| | | Voorzieningen| 400|
+| | | Schulden| 820|
+| | 4.690| | 4.690|
 
-| Balans B | 
+| Balans B|
 |---|
-| Vaste activa | | 12.660 | | Inbreng/Kapitaal | | 4.000 | 
-| Vlottende activa | | 5.720 | | Reserves | | 8.300 | 
-| | | | | Herwaarderingsmeerwaarden | | 600 | 
-| | | | | | | 12.900 | 
-| | | | | Voorzieningen | | 1.680 | 
-| | | | | Schulden | | 3.800 | 
-| | | 18.380 | | | | 
+| Vaste activa| 12.660| Inbreng/Kapitaal| 4.000|
+| Vlottende activa| 5.720| Reserves| 8.300|
+| | | Herwaarderingsmeerwaarden | 600|
+| | | | 12.900|
+| | | Voorzieningen| 1.680|
+| | | Schulden| 3.800|
+| | 18.380| | 
 
 18.380
 
-  | 
+ |
 
-| Balans A + B | 
+| Balans A + B|
 |---|
-| Vaste activa | | | | Inbreng / Kapitaal | | | 
-| 500 + 12.660 = | | 13.160 | | 1.800 + 4.000 x 80 % = | | 5.000 | 
-| Deelneming B | | | | Reserves | | | 
-| 2.580 – (4.000 + 8.300 + 600) x 20 % = | | 0 | | 1.670 + 8.300 x 80 % = | | 8.310 | 
-| Vlottende activa | | | | Herwaarderingsmeerwaarden | | | 
-| 1.610 + 5.720 = | | 7.330 | | 600 x 80 % = | | 480 | 
-| | | | | | | 13.790 | 
-| | | | | Voorzieningen | | | 
-| | | | | 400 + 1.680 = | | 2.080 | 
-| | | | | Schulden | | | 
-| | | | | 820 + 3.800 = | | 4.620 | 
-| | | 20.490 | | | | 20.490 | 
+| Vaste activa| | Inbreng / Kapitaal | |
+| 500 + 12.660 =| 13.160| 1.800 + 4.000 x 80 % =| 5.000|
+| Deelneming B| | Reserves| |
+| 2.580 – (4.000 + 8.300 + 600) x 20 % =| 0| 1.670 + 8.300 x 80 % =| 8.310|
+| Vlottende activa| | Herwaarderingsmeerwaarden | |
+| 1.610 + 5.720 =| 7.330| 600 x 80 % =| 480|
+| | | | 13.790|
+| | | Voorzieningen| |
+| | | 400 + 1.680 =| 2.080|
+| | | Schulden| |
+| | | 820 + 3.800 =| 4.620|
+| | 20.490| | 20.490|
 
 Indien het geherwaardeerde gebouw (met aanschaffingsprijs van 400) voor 1.000 wordt verkocht, dan wordt een meerwaarde geboekt van 480. 
 
@@ -943,60 +921,60 @@ In het Wetboek van Vennootschappen werd er bepaald dat de nominale waarde of de 
 
 Voorbeeld 13: zelfde gegevens als in voorbeeld 1, B bezit 50 % van de aandelen van A. A neemt B over. A en B zijn BV’s.
 
-| Balans A | 
+| Balans A|
 |---|
-| Vaste activa | | 3.080 | | Inbreng | | 1.800 | 
-| Vlottende activa | | 1.610 | | Reserves | | 1.670 | 
-| | | | | | | 3.470 | 
-| | | | | Voorzieningen | | 400 | 
-| | | | | Schulden | | 820 | 
-| | | 4.690 | | | | 4.690 | 
+| Vaste activa| 3.080| Inbreng| 1.800|
+| Vlottende activa | 1.610| Reserves| 1.670|
+| | | | 3.470|
+| | | Voorzieningen| 400|
+| | | Schulden| 820|
+| | 4.690| | 4.690|
 
-| Balans B | 
+| Balans B|
 |---|
-| Vaste activa | | 10.660 | | Inbreng/Kapitaal | | 4.000 | 
-| Deelneming A (50 %) | | 2.000 | | Reserves | | 8.900 | 
-| Vlottende activa | | 5.720 | | | | 12.900 | 
-| | | | | Voorzieningen | | 1.680 | 
-| | | | | Schulden | | 3.800 | 
-| | | 18.380 | | | | 
+| Vaste activa| 10.660| Inbreng/Kapitaal| 4.000|
+| Deelneming A (50 %)| 2.000| Reserves| 8.900|
+| Vlottende activa| 5.720| | 12.900|
+| | | Voorzieningen | 1.680|
+| | | Schulden| 3.800|
+| | 18.380| | 
 
 18.380
 
-  | 
+ |
 
 Indien vennootschap A vennootschap B overneemt, een onbeschikbare reserve voor eigen aandelen aanlegt en daarna de verkregen eigen aandelen vernietigt, wordt de volgende toestand verkregen: 
 
-| Balans A + B | 
+| Balans A + B|
 |---|
-| Vaste activa | | | | Inbreng | | | 
-| 3.080 + 10.660 = | | 13.740 | | 1.800 + 4.000 = | | 5.800 | 
-| Vlottende activa | | | | Reserves | | | 
-| 1.610 + 5.720 = | | 7.330 | | 1.670 + 8.900 **- 2.000** = | | 8.570 | 
-| | | | | | | 14.370 | 
-| | | | | Onbeschikbare reserve eigen aandelen | | | 
-| | | | | **2.000 - 2.000** = | | 0 | 
-| Eigen aandelen | | | | Voorzieningen | | | 
-| 2.000 – 2.000 = | | 0 | | 400 + 1.680 = | | 2.080 | 
-| | | | | Schulden | | | 
-| | | | | 820 + 3.800 = | | 4.620 | 
-| | | 21.070 | | | | 21.070 | 
+| Vaste activa| | Inbreng| |
+| 3.080 + 10.660 =| 13.740| 1.800 + 4.000 =| 5.800|
+| Vlottende activa| | Reserves| |
+| 1.610 + 5.720 =| 7.330| 1.670 + 8.900 **- 2.000** =| 8.570|
+| | | | 14.370|
+| | | Onbeschikbare reserve eigen aandelen| |
+| | | **2.000 - 2.000** = | 0|
+| Eigen aandelen| | Voorzieningen| |
+| 2.000 – 2.000 =| 0| 400 + 1.680 =| 2.080|
+| | | Schulden| |
+| | | 820 + 3.800 =| 4.620|
+| | 21.070| | 21.070|
 
 Men zal opmerken dat het eigen vermogen overeenstemt met een fusie in omgekeerde richting waarbij het niet toegerekende fusieverschil ten laste wordt genomen als resultaat. Uiteraard zal ook de samenstelling van het eigen vermogen er anders uitzien. 
 
-| Balans B + A | 
+| Balans B + A|
 |---|
-| Vaste activa | | | | Inbreng | | | 
-| 10.660 + 3.080 = | | 13.740 | | 4.000 + 1.800 x 50 % = | | 4.900 | 
-| Deelneming A | | | | Reserves | | | 
-| 2.000 - (1.800 + 1.670) x 50 % **-** **265** = | | 0 | | 8.900 + 1.670 x 50 % = | | 9.735 | 
-| Vlottende activa | | | | Overgedragen resultaat | | <**265**> | 
-| 5.720 + 1.610 = | | 7.330 | | | | 14.370 | 
-| | | | | Voorzieningen | | | 
-| | | | | 1.680 + 400 = | | 2.080 | 
-| | | | | Schulden | | | 
-| | | | | 3.800 + 820 = | | 4.620 | 
-| | | 21.070 | | | | 21.070 | 
+| Vaste activa| | Inbreng| |
+| 10.660 + 3.080 =| 13.740| 4.000 + 1.800 x 50 % =| 4.900|
+| Deelneming A| | Reserves| |
+| 2.000 - (1.800 + 1.670) x 50 % **-** **265** =| 0| 8.900 + 1.670 x 50 % = | 9.735|
+| Vlottende activa| | Overgedragen resultaat| <**265**>|
+| 5.720 + 1.610 = | 7.330| | 14.370|
+| | | Voorzieningen| |
+| | | 1.680 + 400 =| 2.080|
+| | | Schulden| |
+| | | 3.800 + 820 =| 4.620|
+| | 21.070| | 21.070|
 
 Indien de bij de fusie betrokken vennootschappen aandelen van elkaar houden, zal de richting van de fusie dus niet neutraal zijn t.a.v. de verwerking van het verschil tussen de boekwaarde van deze aandelen en het overeenstemmende aandeel in het eigen vermogen: 
 

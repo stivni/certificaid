@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Bezoldigingen toegekend aan bestuurders en commissarissen -Bedoelde bezoldigingen
     url: https://www.cbn-cnc.be/nl/adviezen/bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen
 nummer: CBN-advies 153/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
-      sha256: 5775518672073eb4ccad2ec0a44dd277bc67b055566971951312d79692a3d4e5
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 3942
-      file_size_chars: 3942
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Bron volledig gelezen (3943 tekens, heading_count: 0, Laag-1 pass). Drie journaalboekingstabellen correct als pipe-tables. Drie voetnoten correct gedefinieerd. Geen artefacten in categorieën A-G. Inhoud volledig: juridische context + voorkeur-boekingswijze + boekingen voor alle scenario''s aanwezig.'
-      run_at: '2026-05-11T12:04:41Z'
-      status: trusted
-    rationale: 'Bron volledig gelezen (3943 tekens, heading_count: 0, Laag-1 pass). Drie journaalboekingstabellen correct als pipe-tables. Drie voetnoten correct gedefinieerd. Geen artefacten in categorieën A-G. Inhoud volledig: juridische context + voorkeur-boekingswijze + boekingen voor alle scenario''s aanwezig.'
-    status: trusted
 themas:
   - bestuurder
   - voorziening
@@ -57,8 +25,32 @@ themas:
   - participatiefonds
   - personeel
   - provisie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:42Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 153/2 - Loonmatiging (bezoldigingen van bestuurders)
 
 Artikel 9 van het koninklijk besluit van 24 december 1993 voert een loonmatiging in voor de bezoldigingen van bestuurders. Deze loonmatiging houdt in dat de bezoldigingen van bestuurders in 1994, 1995 en 1996 niet hoger mogen zijn dan deze toegekend in 1993. Is de bezoldiging toch hoger dan moet de onderneming een "Provisie"[^1] aanleggen door de inhouding van deze verhoging. Kan de onderneming op 31 december 1997 niet aantonen dat deze "Provisie" volledig werd aangewend voor bepaalde investeringen, dan moet het geprovisioneerde bedrag worden doorgestort aan het Participatiefonds.

@@ -2,58 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/vragen-en-antwoorden-over-de-sociale-balans
 datum: 1997-04-01
 nummer: CBN-advies S100
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vragen-en-antwoorden-over-de-sociale-balans
-      sha256: cb84fe1ae9d8be8471967c71bfe887a1b47653223a98da9e947667eef91b128f
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:20Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: warn
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 87
-      max_section_chars: 25938
-      file_size_chars: 121355
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ###-niveau: 25938 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B4
-          regel: 239
-          type: other
-          voorbeeld: DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW — all-caps plain-text, geen heading-prefix
-        - categorie: E2
-          regel: 717
-          type: pseudo-table
-          voorbeeld: '| *Op het einde \n\t\t\t\tvan de maand* | — tabelkop gesplitst over twee regels'
-        - categorie: E2
-          regel: 735
-          type: pseudo-table
-          voorbeeld: '| **Totaal** | | Som A | ... Som C \n\t\t\t\t= (Som A) + \n\t\t\t\t(Som B.b) | — cel-inhoud over meerdere regels'
-        - categorie: C4
-          regel: 280
-          type: other
-          voorbeeld: 1. \n\nonafhankelijk van de grootte... — genummerd listpunt als aparte paragraaf gespat
-      rationale: 'Drie ETL-bugs bevestigd in huidige body: (1) B4: regel 239 ''DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW'' staat als plain-text zonder heading-prefix (vergelijking met omliggende ##### headings toont dat dit een subsectie-heading had moeten zijn). (2) E2: tabel regels 717-750 is zwaar verminkt — header gesplitst over twee regels (r717-719) en totaalrij met cel-inhoud verspreid over meerdere regels met tabs (r735-754). (3) C4: regels 280-286 tonen genummerde list-items ''1.'' en ''2.'' die elk als aparte paragraaf staan in plaats van als doorlopende list-items.'
-      run_at: '2026-05-11T17:05:20Z'
-      status: needs-rework
-    rationale: 'Drie ETL-bugs bevestigd in huidige body: (1) B4: regel 239 ''DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW'' staat als plain-text zonder heading-prefix (vergelijking met omliggende ##### headings toont dat dit een subsectie-heading had moeten zijn). (2) E2: tabel regels 717-750 is zwaar verminkt — header gesplitst over twee regels (r717-719) en totaalrij met cel-inhoud verspreid over meerdere regels met tabs (r735-754). (3) C4: regels 280-286 tonen genummerde list-items ''1.'' en ''2.'' die elk als aparte paragraaf staan in plaats van als doorlopende list-items.'
-    status: needs-rework
 themas:
   - ter beschikking van de onderneming gestelde personen
   - statutair
@@ -65,8 +13,32 @@ themas:
   - uitzendkracht
   - sociale balans
   - voordelen bovenop het loon
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vragen-en-antwoorden-over-de-sociale-balans
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:03Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies S100 - Vragen en antwoorden over de sociale balans
 
 ## Inleiding
@@ -655,50 +627,29 @@ Het gemiddelde wordt berekend als het gemiddelde van het aantal werknemers inges
 Het verdient aanbeveling tijdens het boekjaar de volgende samenvattende tabel maandelijks bij te werken, in de veronderstelling dat het boekjaar 12 maanden omvat, van 1 januari tot 31 december.
 
 **Aantal werknemers ingeschreven in het personeelsregister** 
-| *Op het einde 
+| *Op het einde van de maand*| A. Voltijds| B. Deeltijds| C. Totaal|
+|---|---|---|---|
+| | | **a. Nominaal**|** b. In VTE**|** In VTE**|
+| Januari| XX| XX| XX,X| XX,X|
+| Februari| XX| XX| XX,X| XX,X|
+| Maart| XX| XX| XX,X| XX,X|
+| April| XX| XX| XX,X| XX,X|
+| Mei| XX| XX| XX,X| XX,X|
+| Juni| XX| XX| XX,X| XX,X|
+| Juli| XX| XX| XX,X| XX,X|
+| Augustus| XX| XX| XX,X| XX,X|
+| September| XX| XX| XX,X| XX,X|
+| Oktober| XX| XX| XX,X| XX,X|
+| November| XX| XX| XX,X| XX,X|
+| December| XX| XX| XX,X| XX,X|
+| | | | | |
+| **Totaal**| Som A| Som B.a| Som B.b| Som C = (Som A) + (Som B.b)|
+| | | | | |
+| **Gemiddeld aantal:**| (Som A) : 12 = XX,X [= code 1001]| (Som B.a) : 12 = XX,X [= code 1002]| | 
 
-			van de maand* | | A. Voltijds | | B. Deeltijds | | C. Totaal | 
-| | | | | **a. Nominaal** | | **b. In VTE** | | **In VTE** | 
-|---|---|---|---|---|---|---|---|---|
-| Januari | | XX | | XX | | XX,X | | XX,X | 
-| Februari | | XX | | XX | | XX,X | | XX,X | 
-| Maart | | XX | | XX | | XX,X | | XX,X | 
-| April | | XX | | XX | | XX,X | | XX,X | 
-| Mei | | XX | | XX | | XX,X | | XX,X | 
-| Juni | | XX | | XX | | XX,X | | XX,X | 
-| Juli | | XX | | XX | | XX,X | | XX,X | 
-| Augustus | | XX | | XX | | XX,X | | XX,X | 
-| September | | XX | | XX | | XX,X | | XX,X | 
-| Oktober | | XX | | XX | | XX,X | | XX,X | 
-| November | | XX | | XX | | XX,X | | XX,X | 
-| December | | XX | | XX | | XX,X | | XX,X | 
-| | | | | | | | | | 
-| **Totaal** | | Som A | | Som B.a | | Som B.b | | Som C 
+(C) : 12 = XX,X [= code 1003] [= code 9087]
 
-			= (Som A) + 
-
-			(Som B.b) | 
-| | | | | | | | | | 
-|---|---|---|---|---|---|---|---|---|
-| **Gemiddeld aantal:** | | (Som A) : 12 
-
-			= XX,X 
-
-			[= code 1001] | | (Som B.a) : 12 
-
-			= XX,X 
-
-			[= code 1002] | | | | 
-
-(C) : 12 = 
-
-			XX,X 
-
-			[= code 1003] 
-
-			[= code 9087]
-
-  | 
+ |
 
 Het totaal aantal op de afsluitingsdatum van het boekjaar (rubriek met code 9086) is dan de som van het aantal voltijdsen (T1) en het nominaal aantal deeltijdsen (T2).
 
@@ -998,8 +949,7 @@ Het KB over de sociale balans voorziet in de vermelding van de overeenstemmende 
 
 A. Rubrieken van het volledig schema
 
-*De rubrieken van de punten C1. en G. van de Staat XII. - “Bedrijfsresultaten”:* 
-
+## De rubrieken van de punten C1. en G. van de Staat XII. - “Bedrijfsresultaten”:
 C1. Werknemers ingeschreven in het personeelsregister
 
 1. Totaal aantal op de afsluitingsdatum (code 9086, kol. “Vorig boekjaar”) 
@@ -1011,8 +961,7 @@ G. Uitzendkrachten en ter beschikking van de onderneming gestelde personen
 - Totaal aantal op de afsluitingsdatum (code 9096, kol. “Vorig boekjaar”) 
 - Gemiddeld aantal berekend in VTE (code 9097, kol. “Vorig boekjaar”) Aantal daadwerkelijk boekjaar gepresteerde uren (code 9098, kol. “Vorig boekjaar”) Kosten voor de onderneming (code 617, kol. “Vorig boekjaar”) 
 
-*De volgende rubrieken van de sociale balans :*
-
+## De volgende rubrieken van de sociale balans :
 uit de Staat I.A. van de sociale balans :
 
 - Gemiddeld aantal werknemers (code 100, kol. 4 “Vorig boekjaar”) 
@@ -1026,16 +975,14 @@ Uit de Staat III.
 
 B. Rubrieken van het verkort schema
 
-*De rubrieken van punt 1., staat VI. - “Personeel en personeelskosten”:*
-
+## De rubrieken van punt 1., staat VI. - “Personeel en personeelskosten”:
 1. Werknemers ingeschreven in het personeelsregister
 
 1. Totaal aantal op de afsluitingsdatum (code 9086, kol. “Vorig boekjaar”) 
 2. Gemiddeld personeelsbestand berekend in VTE (code 9087, kol. “Vorig boekjaar”) 
 3. Aantal daadwerkelijk gepresteerde uren (code 9088, kol. “Vorig boekjaar”) 
 
-*De volgende rubrieken van de sociale balans :*
-
+## De volgende rubrieken van de sociale balans :
 Uit de Staat I.A. van de sociale balans :
 
 - Gemiddeld aantal werknemers (code 100, kol. 4 “Vorig boekjaar”) 

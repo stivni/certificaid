@@ -15,46 +15,6 @@ gerelateerde_adviezen:
     titel: Boekingswijze van een voorschot op de verdeling van het netto-actief
     url: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief
 nummer: CBN-advies 2022/07
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vzw-of-ivzw
-      sha256: e8dfa13d03ae374219649275661e6dc1c8721d2a6b24041bcc50eaf408afb88a
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:31Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 7
-      max_section_chars: 16199
-      file_size_chars: 22199
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A5
-          regel: 117
-          type: other
-          voorbeeld: de bedrijfsrevisor of een gecertificeerd, accountant bevestigt dit schriftelijk akkoord
-        - categorie: D2
-          regel: 148
-          type: missing-section
-          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [tijdslijn-schema ontbreekt]'
-      rationale: 'D2: regel 148 kondigt ''Schematisch kunnen de volgende termijnen worden onderscheiden:'' aan maar het tijdslijn-schema ontbreekt. D4/A5: regel 117 bevat ''de bedrijfsrevisor of een gecertificeerd, accountant bevestigt'' — spurious komma na ''gecertificeerd'' is een ETL-interpunctie-artefact (vergelijk CBN-2022-06 regel 111 zonder komma). Geen source-typo: de overeenkomstige bepaling in CBN-2022-06 art. 2:80 heeft geen komma.'
-      run_at: '2026-05-11T17:13:31Z'
-      status: needs-rework
-    rationale: 'D2: regel 148 kondigt ''Schematisch kunnen de volgende termijnen worden onderscheiden:'' aan maar het tijdslijn-schema ontbreekt. D4/A5: regel 117 bevat ''de bedrijfsrevisor of een gecertificeerd, accountant bevestigt'' — spurious komma na ''gecertificeerd'' is een ETL-interpunctie-artefact (vergelijk CBN-2022-06 regel 111 zonder komma). Geen source-typo: de overeenkomstige bepaling in CBN-2022-06 art. 2:80 heeft geen komma.'
-    status: needs-rework
 themas:
   - sluiting vereffening
   - ontbinding
@@ -91,8 +51,32 @@ themas:
   - verenigingsdossier
   - ondernemingsrechtbank
   - provisie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vzw-of-ivzw
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:47Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2022/07 – Verslaggeving bij onmiddellijke sluiting van de vereffening van een VZW of IVZW
 
 ## Onderwerp van het advies

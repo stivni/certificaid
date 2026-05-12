@@ -9,38 +9,6 @@ gerelateerde_adviezen:
     titel: Realisatiebeginsel (behalve bij fusie)
     url: https://www.cbn-cnc.be/nl/adviezen/realisatiebeginsel-behalve-bij-fusie
 nummer: CBN-advies 126/18
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
-      sha256: 23e1efd01eadba87708da24edf79b754185f1d53522d69efec6051aef29e037b
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T21:19:09Z'
-    confirmed_by: human
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 4
-      max_section_chars: 12823
-      file_size_chars: 31017
-      flags: []
-    layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Heading-structuur hersteld: 3 ongenummerde ## sectietitels via context-aware bold-only promotie. Laag 1 geeft PASS. Inhoud volledig (inbreng in natura, werkelijke waarde, 4 hypothesen).'
-    status: trusted
 themas:
   - conventionele waarde
   - inbreng
@@ -49,19 +17,37 @@ themas:
   - kapitaalvermindering
   - uitgiftepremie
   - werkelijke waarde
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-inbreng-in-natura
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:27Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 126/18 - Aanschaffingswaarde bij inbreng in natura1
 
-| Samenvatting | 
+| Samenvatting|
 |---|
-| Dit advies handelt over de bepaling van de aanschaffingswaarde bij inbreng in natura, zowel de waardering van de aanschaffingswaarde van de ingebrachte vermogensbestanddelen in hoofde van de inbreng ontvangende vennootschap, als de waardering van de aanschaffingswaarde van de ter vergoeding van de inbreng ontvangen aandelen in hoofde van de inbrengende vennootschap. 
-
-			Naar het oordeel van de Commissie dienen beide waarderingen principieel met elkaar overeen te stemmen. 
-
-			De aanschaffingswaarde van de ingebrachte goederen en van de ter vergoeding van de inbreng ontvangen aandelen zal overeenstemmen met de "werkelijke waarde" van de uitgegeven aandelen, met uitzondering van gevallen van verkrijging gedeeltelijk om niet. Als bij de inbreng het bedrag van kapitaalverhoging en uitgiftepremie lager is dan de boekhoudrechtelijke inbrengwaarde, wordt het verschil bij de inbreng ontvangende vennootschap boekhoudkundig verwerkt als uitgiftepremie. 
-
-			Dit advies werd getoetst aan buitenlandse en IAS verslaggevingsnormen[^2]. | 
+| Dit advies handelt over de bepaling van de aanschaffingswaarde bij inbreng in natura, zowel de waardering van de aanschaffingswaarde van de ingebrachte vermogensbestanddelen in hoofde van de inbreng ontvangende vennootschap, als de waardering van de aanschaffingswaarde van de ter vergoeding van de inbreng ontvangen aandelen in hoofde van de inbrengende vennootschap. Naar het oordeel van de Commissie dienen beide waarderingen principieel met elkaar overeen te stemmen. De aanschaffingswaarde van de ingebrachte goederen en van de ter vergoeding van de inbreng ontvangen aandelen zal overeenstemmen met de "werkelijke waarde" van de uitgegeven aandelen, met uitzondering van gevallen van verkrijging gedeeltelijk om niet. Als bij de inbreng het bedrag van kapitaalverhoging en uitgiftepremie lager is dan de boekhoudrechtelijke inbrengwaarde, wordt het verschil bij de inbreng ontvangende vennootschap boekhoudkundig verwerkt als uitgiftepremie. Dit advies werd getoetst aan buitenlandse en IAS verslaggevingsnormen[^2] .|
 
 Het koninklijk besluit tot uitvoering van het Wetboek van Vennootschappen bevat twee afzonderlijke artikelen over de bepaling van de aanschaffingswaarde bij inbreng. 
 

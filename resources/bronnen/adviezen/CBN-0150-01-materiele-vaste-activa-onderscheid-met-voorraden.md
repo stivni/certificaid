@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Rechten tot vertoning van films
     url: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
 nummer: CBN-advies 150/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
-      sha256: 6da50ea2d8309abf067107fdc8cb41cc0da5a41fb9ed4b4e54574eefb073a1c2
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:15:33Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 4
-      max_section_chars: 1912
-      file_size_chars: 7462
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen ETL-artefacten aangetroffen. Vier thema-secties (reserve-onderdelen, ontginningsgronden, toonzaalmateriaal, dieren) elk als ### heading correct gemarkeerd. Prose leesbaar en volledig. Voetnoot [^1] correct inline verbonden. Geen tabellen, lijsten of TOC-elementen die problemen veroorzaken.'
-      run_at: '2026-05-11T15:15:33Z'
-      status: trusted
-    rationale: 'Geen ETL-artefacten aangetroffen. Vier thema-secties (reserve-onderdelen, ontginningsgronden, toonzaalmateriaal, dieren) elk als ### heading correct gemarkeerd. Prose leesbaar en volledig. Voetnoot [^1] correct inline verbonden. Geen tabellen, lijsten of TOC-elementen die problemen veroorzaken.'
-    status: trusted
 themas:
   - diensten en diverse goederen
   - dieren
@@ -59,8 +27,32 @@ themas:
   - vaste activa
   - vlottende activa
   - voorraden
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:40Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 150/1 - Materiële vaste activa - Onderscheid met voorraden
 
 De Commissie werd meermaals gevraagd op grond van welke criteria bepaalde vermogensbestanddelen in de boekhouding en de jaarrekening hetzij bij de vaste activa, hetzij bij de voorraden, moeten worden ingedeeld. 

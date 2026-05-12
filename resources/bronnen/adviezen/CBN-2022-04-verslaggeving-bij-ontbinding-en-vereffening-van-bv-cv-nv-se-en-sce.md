@@ -15,42 +15,6 @@ gerelateerde_adviezen:
     titel: Going concern - Waarderingsregels bij de stopzetting of gedeeltelijke stopzetting van het bedrijf van een onderneming
     url: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
 nummer: CBN-advies 2022/04
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
-      sha256: 60fddc17498aa2acf9fb6b1937ec85208cc2d26dae275d8514e5543466c0f5ce
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:31Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 13
-      max_section_chars: 16265
-      file_size_chars: 30193
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D2
-          regel: 193
-          type: missing-section
-          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [tijdslijn-schema ontbreekt]'
-      rationale: 'D2: regel 193 kondigt ''Schematisch kunnen de volgende termijnen worden onderscheiden:'' aan maar het schema (tijdslijn-afbeelding) ontbreekt volledig — de tekst gaat direct verder met een bullet-lijst zonder de beloofde visuele voorstelling. Ronde-3 herlezing: het eerder gemelde A3 TOC-fragment (vorige pass) is niet aanwezig in de huidige body; de structuur start correct met ## headings.'
-      run_at: '2026-05-11T17:13:31Z'
-      status: needs-rework
-    rationale: 'D2: regel 193 kondigt ''Schematisch kunnen de volgende termijnen worden onderscheiden:'' aan maar het schema (tijdslijn-afbeelding) ontbreekt volledig — de tekst gaat direct verder met een bullet-lijst zonder de beloofde visuele voorstelling. Ronde-3 herlezing: het eerder gemelde A3 TOC-fragment (vorige pass) is niet aanwezig in de huidige body; de structuur start correct met ## headings.'
-    status: needs-rework
 themas:
   - verslaggeving
   - ontbinding
@@ -83,8 +47,32 @@ themas:
   - inzagerecht
   - stukken tot staving
   - dossier van de rechtspersoon
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:46Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2022/04 - Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
 
 Aan de Commissie werd de vraag gesteld welke verslaggevingsverplichtingen moeten worden nageleefd bij de ontbinding, gedurende de vereffening en bij de sluiting van de vereffening van BV, CV, NV, SE en SCE onder het Wetboek van vennootschappen en verenigingen[^2] (hierna: het WVV). In dit advies wordt bijgevolg de ontbinding van een vennootschap behandeld die gevolgd wordt door een daadwerkelijke vereffeningsperiode. De ontbinding en vereffening van een vennootschap in één akte maakt het voorwerp uit van een afzonderlijk advies van de Commissie.[^3]

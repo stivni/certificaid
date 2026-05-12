@@ -6,46 +6,34 @@ gerelateerde_adviezen:
     titel: De boekhoudkundige verwerking van de inbeslagname in hoofde van de beslagen schuldenaar
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar
 nummer: CBN-advies 12/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-bedoelde-ondernemingen
-      sha256: 851f88bac6c753745e09aeeb0d2dfef6363d5a0d13cf668f0cbfe5140d3098c9
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:15:32Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 1709
-      file_size_chars: 1709
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: (source)
-          regel: 53
-          type: source-typo
-          voorbeeld: niet oger is dan 25 miljoen frank — source-typo voor 'hoger'
-      rationale: 'Enige door vorige verdict gemelde issue: ''oger is dan 25 miljoen frank'' (r53, moet ''hoger'' zijn) — source-typo letterlijk in bron-HTML. A6-bug (zin gesplitst) is verholpen. Inhoud volledig, voetnoot correct. Geen ETL-bugs aangetroffen.'
-      run_at: '2026-05-11T15:15:32Z'
-      status: trusted
-    rationale: 'Enige door vorige verdict gemelde issue: ''oger is dan 25 miljoen frank'' (r53, moet ''hoger'' zijn) — source-typo letterlijk in bron-HTML. A6-bug (zin gesplitst) is verholpen. Inhoud volledig, voetnoot correct. Geen ETL-bugs aangetroffen.'
-    status: trusted
 themas:
   - uitvoerend beslag
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-bedoelde-ondernemingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:00Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 12-1 - Toepassingsgebied van de uitvoeringsbesluiten: bedoelde ondernemingen
 
 Dit advies is verouderd gezien het nieuwe artikel 12 van de wet 17 juli 1975 (artikel 8 van de wet van 1 juli 1983) (zie lijst van gepubliceerde adviezen, bulletin 1-24 augustus 1977-september 1989)

@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-vrijwilligerswerk-en-verenigingswerk
 datum: 2019-06-14
 nummer: CBN-advies 2019/05
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-vrijwilligerswerk-en-verenigingswerk
-      sha256: af5055b9bac4417d6f7c9ae95333d8d0fa0334ed88b6a5f79771e2b511c029be
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 4
-      max_section_chars: 2505
-      file_size_chars: 5316
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Kort advies, volledig schoon. Vier headings correct (H1 > H2). Geen artefacten, geen broken italics, geen TOC-fragmenten, geen open-brackets. Voetnoten [^1]–[^8] aanwezig en gesloten. Inhoud volledig.
-      run_at: '2026-05-11T12:21:40Z'
-      status: trusted
-    rationale: Kort advies, volledig schoon. Vier headings correct (H1 > H2). Geen artefacten, geen broken italics, geen TOC-fragmenten, geen open-brackets. Voetnoten [^1]–[^8] aanwezig en gesloten. Inhoud volledig.
-    status: trusted
 themas:
   - vrijwilligersvergoeding
   - vrijwilliger
@@ -41,8 +9,32 @@ themas:
   - vrijwilligerswerk
   - bezoldiging
   - vergoeding aan bestuurders
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-vrijwilligerswerk-en-verenigingswerk
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:34Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2019/05 – Vergoedingen vrijwilligerswerk en verenigingswerk
 
 ## Algemeen

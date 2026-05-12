@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
 nummer: CBN-advies 2019/04
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
-      sha256: e9f17634cbc598797605b0f56cacc635df0c9616fdbdf3b434d87f2d95dd7532
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 23
-      max_section_chars: 21935
-      file_size_chars: 50720
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Het advies bevat 21 headings en 52 voetnoten; beide delen (waarderingsregels + rapporteringsverplichtingen) zijn volledig aanwezig. Geen tabelcorruptie.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - bestellingen in uitvoering
   - betalingen aan overheden
@@ -64,8 +32,32 @@ themas:
   - voorziening
   - waarderingsregels
   - wisselkoersverschil
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:34Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2019/04 – Gevolgen op gebied van financiële rapportering als gevolg van de brexit
 
 ## Inleiding

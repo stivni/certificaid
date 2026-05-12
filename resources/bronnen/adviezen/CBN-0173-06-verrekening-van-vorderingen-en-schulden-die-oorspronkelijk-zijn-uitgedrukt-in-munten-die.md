@@ -2,46 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die
 datum: 1998-02-01
 nummer: CBN-advies 173/6
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die
-      sha256: c41f6a3cb0ae587f1e4b5b000235dc2a3bbe9337683fe765717feeee60ab3365
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 3
-      max_section_chars: 3424
-      file_size_chars: 7817
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 85
-          type: other
-          voorbeeld: "Die schulden en vorderingen mogen dus niet \n\nlanger, voor het overeenstemmende bedrag..."
-        - categorie: F1
-          regel: 49
-          type: source-typo
-          voorbeeld: '- erfpa (afgekapt thema-label in frontmatter — source-typo, niet ETL)'
-      rationale: 'A6 bevestigd r.85-87: de zin ''Die schulden en vorderingen mogen dus niet'' eindigt zonder leesteken, gevolgd door een lege regel, waarna ''langer, voor het overeenstemmende bedrag...'' begint — een PDF-regelbreuk midden in een logische alinea. Frontmatter thema ''erfpa'' (r.49) is een afgekapt scraping-artefact (bron-typo categorie); telt niet als ETL-reden voor needs-rework maar de A6-regelbreuk volstaat. Overige inhoud volledig en correct.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'A6 bevestigd r.85-87: de zin ''Die schulden en vorderingen mogen dus niet'' eindigt zonder leesteken, gevolgd door een lege regel, waarna ''langer, voor het overeenstemmende bedrag...'' begint — een PDF-regelbreuk midden in een logische alinea. Frontmatter thema ''erfpa'' (r.49) is een afgekapt scraping-artefact (bron-typo categorie); telt niet als ETL-reden voor needs-rework maar de A6-regelbreuk volstaat. Overige inhoud volledig en correct.'
-    status: needs-rework
 themas:
   - verrekening van vorderingen en schulden
   - vordering
@@ -52,8 +12,32 @@ themas:
   - schulden
   - schulden die oorspronkelijk zijn uitgedrukt in munten die overgaan in de euro
   - schuldvergelijking
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verrekening-van-vorderingen-en-schulden-die-oorspronkelijk-zijn-uitgedrukt-in-munten-die
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:48Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 173/6 - Verrekening van vorderingen en schulden die oorspronkelijk zijn uitgedrukt in munten die overgaan in de euro
 
 De vraag werd gesteld of een onderneming haar wederzijdse vorderingen en schulden met eenzelfde tegenpartij, in verschillende munten die op 1 januari 1999 niet-decimale onderverdelingen van de euro worden, op die datum in haar boekhouding en jaarrekening mag - of moet - verrekenen ten belope van het kleinste van beide betrokken bedragen. 

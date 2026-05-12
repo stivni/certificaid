@@ -6,38 +6,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
 nummer: CBN-advies 2019/03
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
-      sha256: 970674ee10043a7a4946bf7e3ecbcbef1a3dab0418e711b3b90a218b20bd3f97
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 4
-      max_section_chars: 6940
-      file_size_chars: 12126
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen extractie-artefacten gevonden. Italics correct gesloten (*instandhoudingsforfait*, *strategisch forfait*, *herconditioneringswerken*). Headings hiërarchisch correct (H1 > H2 > H3). Voetnoten [^1]–[^11] volledig. Inhoud compleet (beschrijving subsidies, boekhoudkundige verwerking). Laag-1: pass, geen flags.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: trusted
-    rationale: 'Geen extractie-artefacten gevonden. Italics correct gesloten (*instandhoudingsforfait*, *strategisch forfait*, *herconditioneringswerken*). Headings hiërarchisch correct (H1 > H2 > H3). Voetnoten [^1]–[^11] volledig. Inhoud compleet (beschrijving subsidies, boekhoudkundige verwerking). Laag-1: pass, geen flags.'
-    status: trusted
 themas:
   - bedrijfsopbrengsten
   - exploitatiesubsidie
@@ -54,8 +22,32 @@ themas:
   - ziekenhuis
   - ziekenhuisfinanciering
   - ziekenhuisinfrastructuur
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:33Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2019/03 – Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait
 
 ## Algemeen

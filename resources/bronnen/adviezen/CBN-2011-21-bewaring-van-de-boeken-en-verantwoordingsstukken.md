@@ -9,45 +9,37 @@ gerelateerde_adviezen:
     titel: Beginselen van een regelmatige boekhouding
     url: https://www.cbn-cnc.be/nl/adviezen/beginselen-van-een-regelmatige-boekhouding
 nummer: CBN-advies 2011/21
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken
-      sha256: 65f95b8699d7f9352f77c42c264b757409453a813a287d7b1a18f2499ed561c2
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 0
-      max_section_chars: 2211
-      file_size_chars: 2211
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Laag 1: pass, heading_count 0 — correct want het is een korte procedurenota die na de H1-titel enkel doorlopende proza bevat zonder tussenkoppen (inhoud rechtvaardigt dit). Één voetnoot [^1] correct gedefinieerd en gerefereerd. Geen extractie-artefacten. Inhoud compleet en afgerond.'
-      run_at: '2026-05-11T12:09:18Z'
-      status: trusted
-    rationale: 'Laag 1: pass, heading_count 0 — correct want het is een korte procedurenota die na de H1-titel enkel doorlopende proza bevat zonder tussenkoppen (inhoud rechtvaardigt dit). Één voetnoot [^1] correct gedefinieerd en gerefereerd. Geen extractie-artefacten. Inhoud compleet en afgerond.'
-    status: trusted
 themas:
   - bewaringstermijn
   - boeken
   - verantwoordingsstukken
   - vereffening
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-boeken-en-verantwoordingsstukken
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:03Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2011/21 - Bewaring van de boeken en verantwoordingsstukken
 
 Artikel 6, vierde lid van de wet van 17 juli 1975 (hierna: de Boekhoudwet) bepaalt onder meer dat de verantwoordingsstukken, in origineel of in afschrift, zeven jaar moeten worden bewaard. Deze termijn wordt op 3 jaar teruggebracht voor de stukken die niet als bewijs jegens derden hoeven te dienen. 

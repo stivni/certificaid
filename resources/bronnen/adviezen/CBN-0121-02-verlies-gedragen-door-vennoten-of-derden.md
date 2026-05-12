@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Herwaarderingsmeerwaarden
     url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden
 nummer: CBN-advies 121/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten-of-derden
-      sha256: a548e625e9e9642720e9a702993fc1be329ccb0738c0f2e26d1e247c253e793a
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:30Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 5042
-      file_size_chars: 5042
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met meerdere scenario''s (verliesovername via AVB, overheid, à fonds perdus, onrechtstreeks) en toelichtingsverplichting als sluitstuk.'
-      run_at: '2026-05-08T19:02:30Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - aanzuivering van verlies
   - resultaatverwerking
@@ -55,8 +23,32 @@ themas:
   - verlies
   - verlies gedragen door derden
   - verlies gedragen door vennoten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten-of-derden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:23Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 121/2 - Verlies gedragen door vennoten of derden
 
 Het komt meer voor dat vennoten of derden het verlies van een onderneming helpen dekken of voor hun rekening nemen om de balans aan te zuiveren. Aan de Commissie werden diverse vragen gesteld over de wijze waarop dergelijke tussenkomsten in de jaarrekening tot uiting moeten worden gebracht. 

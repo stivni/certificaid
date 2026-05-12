@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Tax shelter voor podiumkunsten
     url: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
 nummer: CBN-advies 2018/01
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
-      sha256: 1b7cc8df2f34d523e05e807e2be7905931917b5a0aaa761884bb042b96fcb6e6
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:30:33Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 14
-      max_section_chars: 10601
-      file_size_chars: 16305
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: '14 headings correct gestructureerd met drie niveaus (##, ###, ####). Volledige inhoud in drie hoofddelen (overzicht, boekhoudkundige verwerking, fiscale documentatie). Italic-markeringen voor accountingsrekeningen correct gesloten. Alle 34 voetnoten aanwezig en correct gedefinieerd. Geen PDF-artefacten aangetroffen.'
-      run_at: '2026-05-11T13:30:33Z'
-      status: trusted
-    rationale: '14 headings correct gestructureerd met drie niveaus (##, ###, ####). Volledige inhoud in drie hoofddelen (overzicht, boekhoudkundige verwerking, fiscale documentatie). Italic-markeringen voor accountingsrekeningen correct gesloten. Alle 34 voetnoten aanwezig en correct gedefinieerd. Geen PDF-artefacten aangetroffen.'
-    status: trusted
 themas:
   - belasting
   - aftrek innovatie-inkomsten
@@ -58,8 +26,32 @@ themas:
   - immateriële vaste activa
   - belastingvrije reserves
   - beschikbare reserves
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:27Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/01 – Aftrek voor innovatie-inkomsten
 
 ## Inleiding

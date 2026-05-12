@@ -9,42 +9,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van loontussenkomst door de overheid in hoofde van de werkgever (update)
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-loontussenkomst-door-de-overheid-in-hoofde-van-de-werkgever
 nummer: CBN-advies 2009/13
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0
-      sha256: da1c0f17729bbe08a1ea44d889165553e64b1cc9f8b3643ce7a53b176d16b3d2
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 5
-      max_section_chars: 9836
-      file_size_chars: 15360
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: (source)
-          regel: 146
-          type: source-typo
-          voorbeeld: rekening 740* Bedrijfssubsidies en compenserende bedragen*[^17] — asterisk is ARS-subrekening-notatie uit brondocument
-      rationale: 'Ronde-2-verdict (D4 malformed italic op r157 en r159) is niet langer gegrond als ETL-bug: ''740*'' is de Belgische ARS-notatie voor een subrekening (740* = rekening 740 en onderrubrieken), en ''150 *Kapitaalsubsidie*'' is correct markdown italic. De patroon op r146 ''...rekening 740* Bedrijfssubsidies en compenserende bedragen*[^17]'' leest als italic-opener na 740 en sluit correct op bedragen — dit is een source-document asterisk-notatie, geen ETL-artefact (source-typo-uitzondering). Geen andere ETL-problemen aangetroffen.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: trusted
-    rationale: 'Ronde-2-verdict (D4 malformed italic op r157 en r159) is niet langer gegrond als ETL-bug: ''740*'' is de Belgische ARS-notatie voor een subrekening (740* = rekening 740 en onderrubrieken), en ''150 *Kapitaalsubsidie*'' is correct markdown italic. De patroon op r146 ''...rekening 740* Bedrijfssubsidies en compenserende bedragen*[^17]'' leest als italic-opener na 740 en sluit correct op bedragen — dit is een source-document asterisk-notatie, geen ETL-artefact (source-typo-uitzondering). Geen andere ETL-problemen aangetroffen.'
-    status: trusted
 themas:
   - bedrijfssubsidie
   - compensatie
@@ -52,8 +16,32 @@ themas:
   - subsidies
   - vzw
   - werkingssubsidie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:53Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2009/13 – De boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 van het Wetboek van de Inkomstenbelastingen 1992
 
 ## Inleiding
@@ -72,12 +60,9 @@ Het 1ste, 2de en 3de lid van §1 van artikel 275/3, WIB 92, luiden als volgt:
 
 *De in het eerste lid bedoelde vrijstelling van storting van 75 pct. van de bedrijfsvoorheffing wordt ook toegekend aan de wetenschappelijke instellingen die daartoe worden erkend bij een besluit vastgesteld na overleg in de Ministerraad en die bezoldigingen uitbetalen of toekennen ofwel aan assistent-onderzoekers ofwel aan postdoctorale onderzoekers.*
 
-*De in het tweede lid bedoelde vrijstelling van storting wordt ook toegekend:*
-
-*1° aan ondernemingen die bezoldigingen uitbetalen of toekennen aan onderzoekers die aan onderzoeksprojecten werken ter uitvoering van samenwerkingsovereenkomsten afgesloten met in het eerste en tweede lid bedoelde universiteiten of hogescholen, gevestigd in de Europese Economische Ruimte, of erkende wetenschappelijke instellingen. Die vrijstelling geldt enkel voor de bedrijfsvoorheffing op de bezoldigingen die in het kader van het onderzoeksproject uitbetaald zijn tijdens de duurtijd van dat project, voor zover die betrekking hebben op een effectieve tewerkstelling in het onderzoeksproject;*
-
-*2° aan vennootschappen die onder de definitie van « Young Innovative Company » vallen en die bezoldigingen uitbetalen of toekennen aan wetenschappelijk personeel dat als werknemer door deze vennootschap wordt tewerkgesteld. Onder Young Innovative Company wordt verstaan een vennootschap die onderzoeksprojecten uitvoert en, aan het einde van het belastbare tijdperk, aan de volgende voorwaarden voldoet:*
-
+## De in het tweede lid bedoelde vrijstelling van storting wordt ook toegekend:
+## 1° aan ondernemingen die bezoldigingen uitbetalen of toekennen aan onderzoekers die aan onderzoeksprojecten werken ter uitvoering van samenwerkingsovereenkomsten afgesloten met in het eerste en tweede lid bedoelde universiteiten of hogescholen, gevestigd in de Europese Economische Ruimte, of erkende wetenschappelijke instellingen. Die vrijstelling geldt enkel voor de bedrijfsvoorheffing op de bezoldigingen die in het kader van het onderzoeksproject uitbetaald zijn tijdens de duurtijd van dat project, voor zover die betrekking hebben op een effectieve tewerkstelling in het onderzoeksproject;
+## 2° aan vennootschappen die onder de definitie van « Young Innovative Company » vallen en die bezoldigingen uitbetalen of toekennen aan wetenschappelijk personeel dat als werknemer door deze vennootschap wordt tewerkgesteld. Onder Young Innovative Company wordt verstaan een vennootschap die onderzoeksprojecten uitvoert en, aan het einde van het belastbare tijdperk, aan de volgende voorwaarden voldoet:
 1. *het gaat om een kleine vennootschap, zoals bedoeld in artikel 15, §1, van het Wetboek van Vennootschappen;*  
 2. *ze bestaat sinds minder dan 10 jaar vóór 1 januari van het jaar waarin de vrijstelling van storting van de bedrijfsvoorheffing wordt toegekend;*  
 3. *ze is niet opgericht in het kader van een concentratie, een herstructurering, een uitbreiding van een vroegere activiteit of een overname van dergelijke activiteiten;* 

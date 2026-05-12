@@ -15,43 +15,35 @@ gerelateerde_adviezen:
     titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende titel of om niet
     url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
 nummer: CBN-advies 126/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
-      sha256: f91c0913b88b6d736f037df8ae902e7cb5fdc3efc7b1e6a1defa2d57a606f951
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 2362
-      file_size_chars: 2362
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Volledige advies-tekst (2362 tekens) zonder artefacten. Twee voetnoten correct gekoppeld. Juridische redenering intact en coherent. Frontmatter volledig. Laag-1 pass correct.
-      run_at: '2026-05-11T11:57:45Z'
-      status: trusted
-    rationale: Volledige advies-tekst (2362 tekens) zonder artefacten. Twee voetnoten correct gekoppeld. Juridische redenering intact en coherent. Frontmatter volledig. Laag-1 pass correct.
-    status: trusted
 themas:
   - aanschaffingsprijs
   - bijkomende kost
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:24Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 126/1 - Aanschaffingsprijs : bijkomende kosten
 
 Overeenkomstig artikel 21 van het besluit van 8 oktober 1976 maken de bijkomende kosten die werden gemaakt voor de aanschaffing van zowel vaste als vlottende activa integraal deel uit van de aanschaffingsprijs en bijgevolg van de waarde waartegen deze activa in de jaarrekening worden opgenomen. 

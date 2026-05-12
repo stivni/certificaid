@@ -15,58 +15,38 @@ gerelateerde_adviezen:
     titel: Mogelijkheid tot uitstel van de gewone algemene vergadering en van de neerlegging van de jaarrekening (vennootschappen)
     url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
 nummer: CBN-advies 2020/11
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-ter-versterking-van-de-solvabiliteit-en-het-eigen-vermogen-van-de-0
-      sha256: a4e4fa6047464374dcdd9f99e415b10e78c57870f32dce88f69b63bcd9375be2
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 6
-      max_section_chars: 5772
-      file_size_chars: 15116
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 91
-          type: other
-          voorbeeld: Indien *anderzijds *het effectief gerealiseerde verlies
-        - categorie: D4
-          regel: 91
-          type: other
-          voorbeeld: onderworpen is aan het '*flat'* tarief
-        - categorie: B5
-          regel: 109
-          type: other
-          voorbeeld: In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd (plain text, geen heading)
-      rationale: 'D4: Regel 91 bevat ''*enerzijds*'' correct maar ''*anderzijds *'' (spatie vóór sluit-asterisk) en "''*flat''*" (smart-quote doorkruist italic span) — malformed italic op dezelfde regel. B5: Regel 109 bevat ''In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd'' als plain-text zonder heading-prefix, waarna regel 110 dezelfde zin herhaalt als inleiding op de inhoudelijke paragraaf — structuurniveau ontbreekt terwijl ### In het boekjaar waarin... op regel 97 wél een heading heeft.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'D4: Regel 91 bevat ''*enerzijds*'' correct maar ''*anderzijds *'' (spatie vóór sluit-asterisk) en "''*flat''*" (smart-quote doorkruist italic span) — malformed italic op dezelfde regel. B5: Regel 109 bevat ''In het boekjaar volgend op datgene waarin de belastbare gereserveerde winst wordt verminderd'' als plain-text zonder heading-prefix, waarna regel 110 dezelfde zin herhaalt als inleiding op de inhoudelijke paragraaf — structuurniveau ontbreekt terwijl ### In het boekjaar waarin... op regel 97 wél een heading heeft.'
-    status: needs-rework
 themas:
   - COVID-19
   - tijdelijke vrijstelling
   - vervroegde verliesaftrek
   - carry back
   - fiscale steunmaatregel
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-ter-versterking-van-de-solvabiliteit-en-het-eigen-vermogen-van-de-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:39Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2020/11 – Vrijstelling ter versterking van de solvabiliteit en het eigen vermogen van de vennootschappen ten gevolge van de COVID-19-pandemie in de vennootschapsbelasting
 
 ## Inleiding

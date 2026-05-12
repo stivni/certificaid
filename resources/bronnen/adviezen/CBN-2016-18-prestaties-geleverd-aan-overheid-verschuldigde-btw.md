@@ -2,43 +2,35 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-verschuldigde-btw
 datum: 2016-09-07
 nummer: CBN-advies 2016/18
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-verschuldigde-btw
-      sha256: 715bff8867faddd422570e50039bcd071efc96661e150312323d2b3917573b70
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 2
-      max_section_chars: 2893
-      file_size_chars: 3949
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Kort, helder advies zonder artefacten. Twee ##-headings, acht voetnoten allemaal correct. Geen structuur- of opmaakproblemen.'
-      run_at: '2026-05-11T12:16:34Z'
-      status: trusted
-    rationale: 'Kort, helder advies zonder artefacten. Twee ##-headings, acht voetnoten allemaal correct. Geen structuur- of opmaakproblemen.'
-    status: trusted
 themas:
   - prestaties geleverd aan de overheid
   - btw
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/prestaties-geleverd-aan-overheid-verschuldigde-btw
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:19Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/18 – Prestaties geleverd aan overheid – verschuldigde btw
 
 ## Inleiding

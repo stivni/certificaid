@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-de-aan-verkoopprijs-van-een-deelneming
 datum: 1999-02-01
 nummer: CBN-advies 126/15
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-de-aan-verkoopprijs-van-een-deelneming
-      sha256: 812b1c5dd56fc17d2942ea2c3243013b902c0c191b47d235de9dac192a0d54ff
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 1952
-      file_size_chars: 1952
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Kort, enkelvoudig advies (1952 tekens) zonder headings. Geen extractie-artefacten, geen HTML-entities, geen ongewone unicode. Inhoud volledig en conclusie duidelijk afgesloten. Layer1 pass bevestigd.
-      run_at: '2026-05-11T11:57:45Z'
-      status: trusted
-    rationale: Kort, enkelvoudig advies (1952 tekens) zonder headings. Geen extractie-artefacten, geen HTML-entities, geen ongewone unicode. Inhoud volledig en conclusie duidelijk afgesloten. Layer1 pass bevestigd.
-    status: trusted
 themas:
   - aankoopprijs van een deelneming
   - aanpassing aankoopprijs van een deelneming
@@ -43,8 +11,32 @@ themas:
   - prijsherziening
   - verkoopprijs van een deelneming
   - waarborg
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanpassing-van-de-aan-verkoopprijs-van-een-deelneming
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:27Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 126/15 - Aanpassing van de (aan-) verkoopprijs van een deelneming
 
 In het kader van een (aan-) verkoopsverrichting van een deelneming, gebeurt het vaak dat de verkoper en/ of koper aan de koper en/of verkoper een aantal waarborgen bieden in verband met, bijvoorbeeld, wat de verkoper aangaat, de werkelijkheid en de correcte waardering van bepaalde posten van de jaarrekening van de vennootschap, waarvan de aandelen afgestaan werden, haar commerciële of juridische positie en wat de koper aangaat, de verwachte ontwikkeling of het behoud van de werkgelegenheid. 

@@ -6,46 +6,38 @@ gerelateerde_adviezen:
     titel: Forfaitaire waardeverminderingen op vorderingen (update) [ONTWERP]
     url: https://www.cbn-cnc.be/nl/adviezen/forfaitaire-waardeverminderingen-op-vorderingen-update-ontwerp
 nummer: CBN-advies 127/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/forfaitaire-waardeverminderingen-op-vorderingen
-      sha256: cf202d171ac30f57131b3eaaf81898e5e380cb175b4d5da59f5b7bb43bfe2539
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:30Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 5333
-      file_size_chars: 5333
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met helder onderscheid grote individuele vs. kleine statistische vorderingen, concrete toepassingsvoorwaarden en boekingsregels.'
-      run_at: '2026-05-08T19:02:30Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - forfaitaire waardeverminderingen op vorderingen
   - individuele waardering
   - vordering
   - Waardevermindering
   - waardevermindering op vorderingen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/forfaitaire-waardeverminderingen-op-vorderingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:27Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 127/1 - Forfaitaire waardeverminderingen op vorderingen
 
 Aan de Commissie werd de vraag gesteld of het in het licht van het besluit inzake de jaarrekening van ondernemingen toelaatbaar is een forfaitaire waardevermindering te boeken op vorderingen ten einde rekening te houden met een algemeen, naar zijn aard moeilijk te specifiëren risico waaraan deze vorderingen onderhevig zijn, en in bevestigend geval hoe deze waardevermindering moet worden geboekt. 

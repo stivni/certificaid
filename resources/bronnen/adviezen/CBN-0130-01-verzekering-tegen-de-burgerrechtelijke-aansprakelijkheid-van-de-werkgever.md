@@ -15,43 +15,35 @@ gerelateerde_adviezen:
     titel: Materiële vaste activa - Onderscheid met voorraden
     url: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
 nummer: CBN-advies 130/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verzekering-tegen-de-burgerrechtelijke-aansprakelijkheid-van-de-werkgever
-      sha256: bff0a8c136dc3c77347799a331afb3f53187d03222cf535e0064cfd66a1c08ec
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 1768
-      file_size_chars: 1768
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Volledig leesbaar advies zonder detecteerbare artefacten. Twee alinea's met heldere redenering, één footnote [^1] correct gedefinieerd. Geen heading-hiërarchie vereist (één blok tekst). Geen unicode-problemen, geen broken markdown.
-      run_at: '2026-05-11T12:04:41Z'
-      status: trusted
-    rationale: Volledig leesbaar advies zonder detecteerbare artefacten. Twee alinea's met heldere redenering, één footnote [^1] correct gedefinieerd. Geen heading-hiërarchie vereist (één blok tekst). Geen unicode-problemen, geen broken markdown.
-    status: trusted
 themas:
   - diensten en diverse goederen
   - verzekering burgerlijke aansprakelijkheid werkgever
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verzekering-tegen-de-burgerrechtelijke-aansprakelijkheid-van-de-werkgever
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:29Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 130/1 - Verzekering tegen de burgerrechtelijke aansprakelijkheid van de werkgever
 
 Overeenkomstig het besluit van 8 oktober 1976 moeten de kosten in de resultatenrekening worden geboekt volgens hun aard. De Commissie heeft de gelegenheid gehad dit beginsel te verduidelijken naar aanleiding van een vraag die haar werd gesteld over de post waaronder de premies moeten worden geboekt die door een onderneming werden betaald om haar burgerlijke aansprakelijkheid te verzekeren als werkgever voor de schade veroorzaakt aan derden door haar personeel[^1]. In casu moest maandelijks een premie worden betaald berekend op basis van de uitbetaalde lonen. 

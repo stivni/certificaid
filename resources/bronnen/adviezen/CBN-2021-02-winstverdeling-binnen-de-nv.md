@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
 datum: 2021-03-09
 nummer: CBN-advies 2021/02
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
-      sha256: 0db24257c2c89ef51c46bc7347b9aee620d224f716aaa7e1f506923e22527b31
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 18
-      max_section_chars: 21671
-      file_size_chars: 45452
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 16 headings, 81 voetnoten. De grote sectie (35.032 chars) bevat rijke voetnotenstructuur die de bestandsgrootte verklaart. Journaalposten voor tussentijds dividend als schone Markdown-tabellen.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - winstverdeling
   - uitkeerbare winst
@@ -42,8 +10,32 @@ themas:
   - staat van activa en passiva
   - nettoactief
   - nettoactieftest
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:40Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2021/02 – Winstverdeling binnen de NV
 
 ## Inleiding

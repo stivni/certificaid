@@ -2,62 +2,38 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/verkoop-van-oplaadbare-betaalkaarten
 datum: 2018-05-30
 nummer: CBN-advies 2018/11
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verkoop-van-oplaadbare-betaalkaarten
-      sha256: f053794d73bf6c56003c22777a980d226e59c1ca1a3b1e51e0f0b1075766901f
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:51:53Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 6
-      max_section_chars: 4093
-      file_size_chars: 7894
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 62
-          type: pseudo-table
-          voorbeeld: "| \n\n*Voorbeeld*"
-        - categorie: E2
-          regel: 81
-          type: pseudo-table
-          voorbeeld: " | \n\nIndien de betaalkaart niet terugbetaalbaar is"
-        - categorie: E2
-          regel: 85
-          type: pseudo-table
-          voorbeeld: "| \n\n*Voorbeeld*"
-        - categorie: E2
-          regel: 97
-          type: pseudo-table
-          voorbeeld: " | \n\n De natuurlijke personen die koopman zijn"
-      rationale: 'E2/C3: regels 62, 81, 85 en 97 bevatten stray single-pipe tekens (''| '') als losstaande regels tussen secties — artefacten van HTML-tabel-extractie die de markdown-structuur verbreken. Een mens zou dit nooit zo typen. Verdere inhoud correct; tabellen zijn verder goed gerenderd in pipe-syntax.'
-      run_at: '2026-05-11T17:51:53Z'
-      status: needs-rework
-    rationale: 'E2/C3: regels 62, 81, 85 en 97 bevatten stray single-pipe tekens (''| '') als losstaande regels tussen secties — artefacten van HTML-tabel-extractie die de markdown-structuur verbreken. Een mens zou dit nooit zo typen. Verdere inhoud correct; tabellen zijn verder goed gerenderd in pipe-syntax.'
-    status: needs-rework
 themas:
   - betaalkaart
   - oplaadbare betaalkaart
   - tegoedbon
   - tegoedkaart
   - cadeaubon
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verkoop-van-oplaadbare-betaalkaarten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:29Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/11 – Verkoop van (oplaadbare) betaalkaarten
 
 ## Algemeen
@@ -94,7 +70,7 @@ Een onderneming ontvangt van een klant 100 euro om deze op te laden op een betaa
 | aan | 451 | Te betalen btw | | 0,06 |
 | | 70 | Omzet | 1,00 | |
 
- | 
+|
 
 Indien de betaalkaart niet terugbetaalbaar is en op de vervaldatum het opgeladen krediet niet volledig werd verbruikt, wordt het niet verbruikte gedeelte van de betaalkaart als opbrengst geboekt.
 
@@ -110,7 +86,7 @@ Op de vervaldatum van (het saldo op) een uitgegeven betaalkaart komt een bedrag 
 | | 489 | Diverse schulden | 13,00 | |
 | aan | 743 | Diverse bedrijfsopbrengsten | | 13,00 |
 
- | 
+|
 
  De natuurlijke personen die koopman zijn, de vennootschappen onder firma en de gewone commanditaire vennootschappen mogen evenwel een vereenvoudigde boekhouding voeren als hun omzet exclusief btw over het laatste boekjaar het bedrag van 500.000 euro niet overschrijdt.[^9]
  Net zoals de kleine verenigingen en stichtingen kunnen zij zich er toe beperken om de ontvangsten en de uitgaven te registreren en jaarlijks een inventaris op te maken. In deze inventaris worden in voorkomend geval de op de betaalkaarten nog aanwezige terugbetaalbare tegoeden vermeld onder de schulden en/of verplichtingen.

@@ -2,49 +2,37 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-aandeelhoudersstructuur-van-ondernemingen-opname-in-de-toelichting-van-de-jaarrekening
 datum: 2013-03-04
 nummer: CBN-advies 2013/5
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-aandeelhoudersstructuur-van-ondernemingen-opname-in-de-toelichting-van-de-jaarrekening
-      sha256: fd754b63baa9e3701702ab5cd56aec1ae9f1426254c1fd8c687f8b8201805636
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 17
-      max_section_chars: 14771
-      file_size_chars: 20902
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A1
-          regel: 50
-          type: other
-          voorbeeld: .
-      rationale: 'A1: regel 50 bevat een losstaande punt ''.'' als enige inhoud van de regel, direct na de H1-titel en vóór ''## Inleiding'' — een ETL-artefact, vermoedelijk overblijfsel van een paginanummer of separator die niet werd opgeschoond. Een mens schrijft dit nooit zo.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'A1: regel 50 bevat een losstaande punt ''.'' als enige inhoud van de regel, direct na de H1-titel en vóór ''## Inleiding'' — een ETL-artefact, vermoedelijk overblijfsel van een paginanummer of separator die niet werd opgeschoond. Een mens schrijft dit nooit zo.'
-    status: needs-rework
 themas:
   - aandeelhoudersstructuur
   - kennisgevingsplicht
   - kruisparticipaties
   - openbaarmakingsplicht
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-aandeelhoudersstructuur-van-ondernemingen-opname-in-de-toelichting-van-de-jaarrekening
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:10Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2013/5 - De aandeelhoudersstructuur van ondernemingen: opname in de toelichting van de jaarrekening
 
 ## Inleiding

@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Afwijkingen van de bepalingen van het K.B. van 8 oktober 1976 – Procedure
     url: https://www.cbn-cnc.be/nl/adviezen/afwijkingen-van-de-bepalingen-van-het-kb-van-8-oktober-1976-procedure
 nummer: CBN-advies 110/5
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/opstelling-goedkeuring-en-openbaarmaking-van-de-jaarrekening
-      sha256: ed252b48ceaecbb9125813b4bd2c2d3c8785fbd8d4de0b2a29a12114196d279b
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:30Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 5680
-      file_size_chars: 5680
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met vier concrete implicaties van de procedurele keten en uitwerking verkorte versie-regeling.'
-      run_at: '2026-05-08T19:02:30Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - commissaris
   - goedkeuring van de jaarrekening
@@ -55,8 +23,32 @@ themas:
   - opstelling van de jaarrekening
   - publicatie
   - verslag van de commissaris
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/opstelling-goedkeuring-en-openbaarmaking-van-de-jaarrekening
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:15Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 110/5 - Opstelling, goedkeuring en openbaarmaking van de jaarrekening
 
 Artikel 77 van de Vennootschapswet bepaalt dat de bestuurders elk jaar de jaarrekening opmaken. Die jaarrekening bestaat uit de balans, de resultatenrekening en de toelichting, en vormt een geheel. Deze stukken worden opgemaakt overeenkomstig de wet van 17 juli 1975 op de boekhouding en de jaarrekening van de ondernemingen en de besluiten ter uitvoering ervan, voor zover de vennootschap daaraan is onderworpen en overeenkomstig de bijzondere wettelijke en bestuursrechtelijke bepalingen die op haar toepasselijk zijn. 

@@ -6,46 +6,6 @@ gerelateerde_adviezen:
     titel: De boekhoudkundige verwerking van derdenrekeningen
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-derdenrekeningen
 nummer: CBN-advies 2018/04
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-derdenrekeningen-0
-      sha256: a366f879a7345a1d8665d99dce6b52b517921b7e86c9660a386e51fb72df8ce5
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 3
-      max_section_chars: 18599
-      file_size_chars: 20252
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B5
-          regel: 78
-          type: other
-          voorbeeld: Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen
-        - categorie: A6
-          regel: 79
-          type: other
-          voorbeeld: "is een rekening waarbij bij de \n\ntenaamstelling wordt aangegeven"
-      rationale: 'B5: regel 78 bevat ''Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen'' als plain-text zonder ## prefix — het is een subsectie-heading die als aaneengeplakte paragraaf staat. A6: regel 79-81 heeft ''is een rekening waarbij bij de \n\ntenaamstelling wordt aangegeven'' — spurious line-break midden in een zin met dubbele lege regel ertussen.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'B5: regel 78 bevat ''Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen'' als plain-text zonder ## prefix — het is een subsectie-heading die als aaneengeplakte paragraaf staat. A6: regel 79-81 heeft ''is een rekening waarbij bij de \n\ntenaamstelling wordt aangegeven'' — spurious line-break midden in een zin met dubbele lege regel ertussen.'
-    status: needs-rework
 themas:
   - derdenrekening
   - advocaat
@@ -57,8 +17,32 @@ themas:
   - rubriekrekening
   - carpa-rekening
   - niet in de balans opgenomen rechten en verplichtingen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-derdenrekeningen-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:28Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/04 - De boekhoudkundige verwerking van derdenrekeningen
 
 ## Inleiding

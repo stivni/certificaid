@@ -2,42 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/opbrengsten-waarover-betwisting-bestaat-update
 datum: 1989-09-01
 nummer: CBN-advies 107/11
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/opbrengsten-waarover-betwisting-bestaat-update
-      sha256: a825f5803d0f039826d922fc8be983950b805af35c15c92916d08be43e25f0cf
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:20Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 3512
-      file_size_chars: 3512
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: G2
-          regel: 45
-          type: other
-          voorbeeld: voorzieningen voor risico&#039;s en kosten — HTML-entity &#039; niet gedecode in YAML
-      rationale: 'G2: frontmatter themas-veld op regel 45 bevat ongeparseerde HTML-entity ''&#039;'' (''voorzieningen voor risico&#039;s en kosten'') — ETL-bug, HTML niet gedecode. Body-tekst is volledig clean en inhoudelijk correct.'
-      run_at: '2026-05-11T17:05:20Z'
-      status: needs-rework
-    rationale: 'G2: frontmatter themas-veld op regel 45 bevat ongeparseerde HTML-entity ''&#039;'' (''voorzieningen voor risico&#039;s en kosten'') — ETL-bug, HTML niet gedecode. Body-tekst is volledig clean en inhoudelijk correct.'
-    status: needs-rework
 themas:
   - betwisting
   - opbrengsten waarover betwisting bestaat
@@ -48,8 +12,32 @@ themas:
   - risico
   - Waardevermindering
   - waarschijnlijkheid
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/opbrengsten-waarover-betwisting-bestaat-update
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:11Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # Advies van september 1989, bijgewerkt op 10 september 2025
 Krachtens het eerste lid van artikel 3:11 van het koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen (hierna: KB WVV) moet rekening worden gehouden ”met alle voorzienbare risico's, mogelijke verliezen en ontwaardingen, ontstaan tijdens het boekjaar waarop de jaarrekening betrekking heeft of tijdens voorgaande boekjaren, zelfs indien deze risico's, verliezen of ontwaardingen slechts gekend zijn tussen de balansdatum en het ogenblik waarop de jaarrekening door het bestuursorgaan van de vennootschap, VZW, IVZW of stichting wordt opgesteld”. Het tweede lid van art. 3:11 KB WVV zegt voorts dat rekening moet worden gehouden met de kosten en de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd, behalve indien de effectieve inning van deze opbrengsten onzeker is. 
 

@@ -2,62 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
 datum: 2020-12-09
 nummer: CBN-advies 2020/13
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
-      sha256: 7a6ccd926ff977a1552595e8ab0cb3da97a206538ddac53916548b750f5c742b
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 11
-      max_section_chars: 12987
-      file_size_chars: 24308
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 73
-          type: other
-          voorbeeld: Ingevolge de* wet van 23 maart 2019* *tot invoering...
-        - categorie: D4
-          regel: 133
-          type: other
-          voorbeeld: rekening 110 *Beschikbare inbreng buiten kapitaa*l
-        - categorie: B5
-          regel: 85
-          type: other
-          voorbeeld: CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV
-        - categorie: B5
-          regel: 88
-          type: other
-          voorbeeld: CVBA die niet beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV
-        - categorie: B5
-          regel: 115
-          type: other
-          voorbeeld: CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV (tweede keer plain text)
-        - categorie: B5
-          regel: 141
-          type: other
-          voorbeeld: CVBA die niet beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV (tweede keer plain text)
-      rationale: 'D4: Systematisch patroon malformed italic doorheen het document — regel 73: ''Ingevolge de* wet van 23 maart 2019*'' (spatie vóór opening-asterisk), regel 133: ''*Beschikbare inbreng buiten kapitaa*l'' (letter ''l'' buiten de italic span). B5: Regels 85, 88, 115, 141 bevatten subsectietitels (''CVBA die beantwoordt aan de definitie...'' en ''CVBA die niet beantwoordt...'') als plain-text paragrafen zonder heading-prefix, terwijl aangrenzende secties (### CVOA, #### Algemene regel) wél headings hebben.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'D4: Systematisch patroon malformed italic doorheen het document — regel 73: ''Ingevolge de* wet van 23 maart 2019*'' (spatie vóór opening-asterisk), regel 133: ''*Beschikbare inbreng buiten kapitaa*l'' (letter ''l'' buiten de italic span). B5: Regels 85, 88, 115, 141 bevatten subsectietitels (''CVBA die beantwoordt aan de definitie...'' en ''CVBA die niet beantwoordt...'') als plain-text paragrafen zonder heading-prefix, terwijl aangrenzende secties (### CVOA, #### Algemene regel) wél headings hebben.'
-    status: needs-rework
 themas:
   - CVBA
   - coöperatieve vennootschap
@@ -72,8 +16,32 @@ themas:
   - coöperatieve vennootschap met beperkte aansprakelijkheid
   - coöperatieve vennootschap met onbeperkte aansprakelijkheid
   - inbreng buiten kapitaal
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:39Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2020/13 – Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap
 
 ## Inleiding

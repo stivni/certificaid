@@ -2,50 +2,36 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-door-de-vlaamse-regering-gecreeerde-kmo-portefeuille
 datum: 2011-10-05
 nummer: CBN-advies 2011/22
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-door-de-vlaamse-regering-gecreeerde-kmo-portefeuille
-      sha256: 6e925ea83ee592735035416d840b6c46af53b964cc33ac88a183f6826f4242ba
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 6
-      max_section_chars: 8495
-      file_size_chars: 10214
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 136
-          type: pseudo-table
-          voorbeeld: '| | 61 | Diensten en diverse goederen | 160 | |
-
-            | | of 623 Andere personeelskosten | | | |'
-      rationale: 'E2: regel 136 toont ''| | of 623 Andere personeelskosten | | | |'' als een losstaande tabelrij — een parenthetisch alternatief ''(of 623)'' uit de brondocument-tabel is als aparte rij geëxtraheerd in plaats van in dezelfde cel als rekening 61. Verder is het document (10392 chars, 6 headings) inhoudelijk volledig.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'E2: regel 136 toont ''| | of 623 Andere personeelskosten | | | |'' als een losstaande tabelrij — een parenthetisch alternatief ''(of 623)'' uit de brondocument-tabel is als aparte rij geëxtraheerd in plaats van in dezelfde cel als rekening 61. Verder is het document (10392 chars, 6 headings) inhoudelijk volledig.'
-    status: needs-rework
 themas:
   - kmo-portefeuille
   - ondernemerschapsportefeuille
   - subsidies
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-door-de-vlaamse-regering-gecreeerde-kmo-portefeuille
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:04Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2011/22 – Boekhoudkundige verwerking van de door de Vlaamse Regering gecreëerde kmo-portefeuille
 
 ## Inleiding
@@ -118,8 +104,7 @@ Bij ontvangst van de factuur van de dienstverlener wordt de door de dienstverlen
 
 *Voorbeeld*
 
-*De onderneming Y boekt de factuur die ze ontvangen heeft van de dienstverlener*
-
+## De onderneming Y boekt de factuur die ze ontvangen heeft van de dienstverlener
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 61 | Diensten en diverse goederen | 160 | |

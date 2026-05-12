@@ -6,54 +6,6 @@ gerelateerde_adviezen:
     titel: Actualisering van vorderingen en schulden op korte termijn (update)
     url: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
 nummer: CBN-advies 137/4
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op
-      sha256: 83a65bba87ad55a209a297397675381773d2a0fa8645a76b1147c23efa2f0782
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 12
-      max_section_chars: 7693
-      file_size_chars: 8351
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B5
-          regel: 95
-          type: other
-          voorbeeld: 'Renteloze vordering of vordering met een abnormaal lage rente, terugbetaalbaar anders dan op vaste termijn... (plain tekst, geen ### heading)'
-        - categorie: C3
-          regel: 157
-          type: pseudo-table
-          voorbeeld: 20 000 op 31 december 1986 30 000 op 31 december 1987 50 000 op 31 december 1988.
-        - categorie: D2
-          regel: 163
-          type: missing-section
-          voorbeeld: '### Actuele waarde van de kasstromen — sectie heeft geen tabelinhoud, alleen (1) Art. 25bis en één berekening'
-        - categorie: D2
-          regel: 177
-          type: missing-section
-          voorbeeld: '### Evolutie van de actuele waarde en van het disconto — tabel volledig weggevallen, alleen (1) en (2) restanten'
-      rationale: 'B5 op L95: derde subsectie ''Renteloze vordering of vordering met een abnormaal lage rente, terugbetaalbaar anders dan op vaste termijn...'' staat als plain tekst terwijl de twee andere subsecties (L86, L91) wél als ### headings zijn opgemaakt. D2 op L163-189: het voorbeeldgedeelte bevat berekenings- en evolutietabellen die volledig ontbreken — enkel voetnootreferenties (1), (2), (3) en één berekening blijven over. C3 op L157: terugbetalingsschema staat als één aaneengesloten pseudo-tabelregel.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'B5 op L95: derde subsectie ''Renteloze vordering of vordering met een abnormaal lage rente, terugbetaalbaar anders dan op vaste termijn...'' staat als plain tekst terwijl de twee andere subsecties (L86, L91) wél als ### headings zijn opgemaakt. D2 op L163-189: het voorbeeldgedeelte bevat berekenings- en evolutietabellen die volledig ontbreken — enkel voetnootreferenties (1), (2), (3) en één berekening blijven over. C3 op L157: terugbetalingsschema staat als één aaneengesloten pseudo-tabelregel.'
-    status: needs-rework
 themas:
   - Vorderingen met een abnormaal lage rente
   - disconto
@@ -63,8 +15,32 @@ themas:
   - schulden
   - schulden met een abnormaal lage rente
   - vordering
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:33Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 137/4 - Renteloze vorderingen (schulden) en vorderingen (schulden) met een abnormaal lage rente, op meer dan één jaar
 
 Overeenkomstig artikel 27*bis*, § 2, eerste lid,* litt*. c) van het koninklijk besluit van 8 oktober 1976 wordt bij boeking voor haar nominale waarde van een vordering op meer dan één jaar, een disconto geboekt wanneer het gaat om een renteloze vordering of een vordering met een abnormaal lage rente. Dit disconto wordt in de overlopende rekeningen van het passief geboekt en pro rata temporis in resultaat genomen.
@@ -153,12 +129,10 @@ De interest wordt jaarlijks op 31 december geïnd, te beginnen vanaf 1986. De ma
 
 #### Vaststelling van de actuele waarde en van het disconto
 ### Actuele waarde van de kasstromen
-*- Op 31 december 1985*
-
+## - Op 31 december 1985
 (1) Art. 25*bis*, § 3, WIB.
 
-*- Op 30 september 1985* 
-
+## - Op 30 september 1985
 88.823 x 0,9789 = 86.931 
 
 ### Disconto op 30 september 1985

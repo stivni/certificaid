@@ -15,44 +15,36 @@ gerelateerde_adviezen:
     titel: Gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt. Kapitaalsubsidies
     url: https://www.cbn-cnc.be/nl/adviezen/gerealiseerde-meerwaarden-waarvoor-de-uitgestelde-belastingregeling-geldt
 nummer: CBN-advies 113/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
-      sha256: b926b44b89a5bd144b86ff6e7bf5966d956a51c30621cb87e84db438af66d14f
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T21:31:11Z'
-    confirmed_by: human
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 2781
-      file_size_chars: 2781
-      flags: []
-    layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
-    status: trusted
 themas:
   - gerealiseerde meerwaarde
   - herwaardering
   - niet-gerealiseerde meerwaarde
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:17Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 113/2 - Herwaarderingen verricht met toepassing van de Wet van 20 augustus 1947
 
 CBN-advies 113/2 - Herwaarderingen verricht met toepassing van de Wet van 20 augustus 1947

@@ -15,50 +15,6 @@ gerelateerde_adviezen:
     titel: Verlies gedragen door vennoten of derden
     url: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten-of-derden
 nummer: CBN-advies 121/3
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/mutaties-binnen-het-eigen-vermogen
-      sha256: a494a51dc41c670cd4c09f0ab8e895eaf42e573697f0b32ef9126a0f635717da
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:20Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 11
-      max_section_chars: 6106
-      file_size_chars: 13611
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 138
-          type: other
-          voorbeeld: meer. de doctrine is verdeeld — lowercase 'd' na punt, merge-artefact
-        - categorie: A6
-          regel: 140
-          type: other
-          voorbeeld: dient te gebeuren. enerzijds kan — lowercase 'e' na punt
-        - categorie: A6
-          regel: 156
-          type: other
-          voorbeeld: in de resultaat verwerking slechts — samengesteld woord gesplitst
-      rationale: 'A6: regel 138 bevat ''meer. de doctrine is verdeeld'' — nieuwe zin begint met lowercase ''d'' na punt, typisch mid-sentence merge uit PDF-extractie. Regel 140 heeft ''dient te gebeuren. enerzijds kan'' — lowercase ''e'' na punt. Regel 156 bevat ''in de resultaat verwerking'' — samengesteld woord ''resultaatverwerking'' ten onrechte gesplitst.'
-      run_at: '2026-05-11T17:05:20Z'
-      status: needs-rework
-    rationale: 'A6: regel 138 bevat ''meer. de doctrine is verdeeld'' — nieuwe zin begint met lowercase ''d'' na punt, typisch mid-sentence merge uit PDF-extractie. Regel 140 heeft ''dient te gebeuren. enerzijds kan'' — lowercase ''e'' na punt. Regel 156 bevat ''in de resultaat verwerking'' — samengesteld woord ''resultaatverwerking'' ten onrechte gesplitst.'
-    status: needs-rework
 themas:
   - verlies
   - aanzuivering overgedragen verlies
@@ -85,8 +41,32 @@ themas:
   - uitgiftepremie
   - uitkering aan derden
   - uitkering aan vennoten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/mutaties-binnen-het-eigen-vermogen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:24Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 121/3 - Mutaties binnen het eigen vermogen
 
 Uit de bevindingen van de Balanscentrale, meer bepaald met betrekking tot de resultaatverwerking onderaan de resultatenrekening, blijkt dat bepaalde mutaties binnen het eigen vermogen op verschillende manieren in de jaarrekening worden verwerkt. Het dient onderstreept te worden dat die verschillen ook voorkomen in de doctrine. 

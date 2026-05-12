@@ -6,46 +6,34 @@ gerelateerde_adviezen:
     titel: Leveranciersschulden en schulden aan de overheid in het kader van een WCO
     url: https://www.cbn-cnc.be/nl/adviezen/leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-een-wco
 nummer: CBN-advies 2016/20 – UPDATE
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-boek-xx-insolventie-van
-      sha256: 419a282ec29b37329a6bff8f40a70c1205c9500b9e4de3465addbc4c32628165
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:39Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 2
-      max_section_chars: 2668
-      file_size_chars: 3804
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 55
-          type: other
-          voorbeeld: vorderingen[^3]*  is duidelijk omtrent de classificatie (stray asterisk na voetnootref met dubbele spatie)
-      rationale: 'D4: regel 55 `vorderingen[^3]*  is duidelijk omtrent de classificatie` bevat een stray asterisk direct na de voetnootreferentie met dubbele spatie — gebroken italic-markering als ETL-artefact. De asterisk hoort bij het cursief van de titelbeschrijving maar is losgeraakt van de sluit-markering. Inhoud compleet: 2 headings, tekst leesbaar, voetnoten [^1]–[^4] aanwezig.'
-      run_at: '2026-05-11T17:09:39Z'
-      status: needs-rework
-    rationale: 'D4: regel 55 `vorderingen[^3]*  is duidelijk omtrent de classificatie` bevat een stray asterisk direct na de voetnootreferentie met dubbele spatie — gebroken italic-markering als ETL-artefact. De asterisk hoort bij het cursief van de titelbeschrijving maar is losgeraakt van de sluit-markering. Inhoud compleet: 2 headings, tekst leesbaar, voetnoten [^1]–[^4] aanwezig.'
-    status: needs-rework
 themas:
   - schulden aan de overheid
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/leveranciersschulden-en-schulden-aan-de-overheid-in-het-kader-van-boek-xx-insolventie-van
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:19Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/20 – Leveranciersschulden en schulden aan de overheid in het kader van boek XX “Insolventie van ondernemingen” van het Wetboek van economisch recht
 
 ## Inleiding

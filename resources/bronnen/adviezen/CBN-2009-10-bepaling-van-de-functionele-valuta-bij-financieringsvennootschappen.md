@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen
 datum: 2009-09-16
 nummer: CBN-advies 2009/10
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen
-      sha256: 0d99ed3da1c845b15c6d59f468f49f333307bc37fdc538f29da9b2b82ff3505b
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:51:53Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 2
-      max_section_chars: 4439
-      file_size_chars: 7159
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Schone prosatekst, 2 duidelijke ## headings die de bronstructuur correct weerspiegelen. Geen tabellen. Beide voetnoten correct als [^1]/[^2]-definitie. Geen PDF-artefacten van welke categorie dan ook.'
-      run_at: '2026-05-11T17:51:53Z'
-      status: trusted
-    rationale: 'Schone prosatekst, 2 duidelijke ## headings die de bronstructuur correct weerspiegelen. Geen tabellen. Beide voetnoten correct als [^1]/[^2]-definitie. Geen PDF-artefacten van welke categorie dan ook.'
-    status: trusted
 themas:
   - financieringsvennootschappen
   - functionele munt
@@ -41,8 +9,32 @@ themas:
   - special purpose entity
   - treasury vennootschappen
   - afwijking
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-functionele-valuta-bij-financieringsvennootschappen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:52Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2009/10 - Bepaling van de functionele valuta bij financieringsvennootschappen
 
 De Commissie heeft op vraag van de Minister van Economie onderzocht in welke mate advies CBN-advies 117/3 - Voeren van de boekhouding en opstellen van de jaarrekening in een andere munt dan de euro[^1]

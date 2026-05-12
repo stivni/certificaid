@@ -2,58 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
 datum: 2011-05-04
 nummer: CBN-advies 2011/13
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
-      sha256: f994ee22711e985d88df6a643db5ad06c0f9102fb6dcbdaeb8dfcd2296467fab
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 25
-      max_section_chars: 13806
-      file_size_chars: 40767
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B1
-          regel: 119
-          type: other
-          voorbeeld: '### *Tijdstip waarop de subsidie moet geboekt worden*'
-        - categorie: B1
-          regel: 303
-          type: other
-          voorbeeld: '### *Interestsubidies*'
-        - categorie: (source)
-          regel: 303
-          type: source-typo
-          voorbeeld: 'Interestsubidies (source-typo: ''Interestsubidies'' i.p.v. ''Interestsubsidies'')'
-        - categorie: D4
-          regel: 180
-          type: other
-          voorbeeld: post* Kapitaalsubsidies* opgenomen onder
-        - categorie: A6
-          regel: 366
-          type: other
-          voorbeeld: -Inventarisboeking
-      rationale: 'Meerdere ETL-problemen bevestigd: B1 op r119 ''### *Tijdstip waarop de subsidie moet geboekt worden*'' en r303 ''### *Interestsubidies*'' — italic-markup binnenin heading-label (ETL-artefact); D4 op r180 ''post* Kapitaalsubsidies*'' — italic-marker midden in woord ''post''; A6 op r366 ''-Inventarisboeking'' — ontbrekende spatie na koppelteken (geen geldige bullet/inline-marker). Schrijffout ''Interestsubidies'' op r303 is een source-typo (markeert als (source), telt niet als grond voor needs-rework). De eerder gerapporteerde A3 (r62-88 TOC) is niet bevestigd in de body.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'Meerdere ETL-problemen bevestigd: B1 op r119 ''### *Tijdstip waarop de subsidie moet geboekt worden*'' en r303 ''### *Interestsubidies*'' — italic-markup binnenin heading-label (ETL-artefact); D4 op r180 ''post* Kapitaalsubsidies*'' — italic-marker midden in woord ''post''; A6 op r366 ''-Inventarisboeking'' — ontbrekende spatie na koppelteken (geen geldige bullet/inline-marker). Schrijffout ''Interestsubidies'' op r303 is een source-typo (markeert als (source), telt niet als grond voor needs-rework). De eerder gerapporteerde A3 (r62-88 TOC) is niet bevestigd in de body.'
-    status: needs-rework
 themas:
   - administratieve overheid
   - exploitatiesubsidie
@@ -75,8 +23,32 @@ themas:
   - subsidies in natura
   - subsidies voor kosten van onderzoek en ontwikkeling
   - uitgestelde belastingen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:02Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2011/13 – Overheidssubsidies
 
 ## Inleiding
@@ -172,8 +144,7 @@ De eventuele uitgestelde belastingen op deze kapitaalsubsidies worden oorspronke
 De uitgestelde belastingen op de *kapitaalsubsidies* worden eveneens geleidelijk afgeboekt, gelijkmatig met de *kapitaalsubsidies* waarop ze betrekking hebben. Dit gebeurt via overboeking naar de post *Onttrekkingen aan de uitgestelde belastingen van de resultatenrekening*[^17]. 
 
 #### Toerekening van de subsidie aan de resultatenrekening
-*Afschrijfbare activa*
-
+## Afschrijfbare activa
 Het tempo van de inresultaatname van de kapitaalsubsidies moet parallel lopen met het tempo van de afschrijvingen van de vaste activa voor de verwerving waarvan de subsidie werd bekomen. 
 
 Bijgevolg is het niet toegelaten om een kapitaalsubsidie onmiddellijk en integraal als opbrengst te boeken, terwijl de afschrijving van de investering waarvoor de subsidie werd verkregen zou worden gespreid over meerdere boekjaren. Naar het oordeel van de Commissie is het noch bedrijfseconomisch, noch vanuit het standpunt van het subsidiëringsbeleid van de overheid, verantwoord de aanrekening van een kapitaalsubsidie los te zien van de tenlasteneming van de gesubsidieerde investering in de resultatenrekening via afschrijvingen. Bedrijfseconomisch is dit niet verantwoord vermits door het onmiddellijk en integraal als opbrengst boeken van de subsidie het resultaat van één boekjaar wordt begunstigd ten nadele van volgende boekjaren waarin de afschrijvingskost onverminderd op het resultaat zal drukken. Vanuit het standpunt van het subsidiëringsbeleid van de overheid is er ook een bezwaar vermits dit beleid er juist toe strekt de bedrijfskosten van de ondernemingen te verminderen en niet om hun een onmiddellijke opbrengst te verschaffen. 
@@ -182,14 +153,12 @@ Evenmin is het toegelaten dat een onderneming die een versneld afschrijvingsplan
 
 Vaak gebeurt de investering echter relatief lange tijd vóór het recht van de onderneming op de overheidssubsidie komt vast te staan. In voorkomend geval kan reeds met de gespreide afschrijving van de gesubsidieerde investering aangevangen zijn zonder dat de kost van de bij de resultaten geboekte afschrijvingen kon worden verminderd via een parallelle aanrekening hierop van de bekomen subsidie. Wanneer de subsidie komt vast te staan nadat de afschrijving van de gesubsidieerde investering reeds is aangevangen of nadat het actief reeds volledig is afgeschreven, moet de resultatenrekening van het boekjaar waarin de subsidie definitief verworven blijkt, het gedeelte van de subsidie vermelden dat overeenstemt met de reeds verrichte afschrijvingen. Hieromtrent wenst de Commissie tevens te herinneren aan de vereiste dat wanneer opbrengsten en kosten in belangrijke mate worden beïnvloed door opbrengsten of kosten die aan een ander boekjaar moeten worden toegerekend, zulks in de toelichting dient te worden vermeld[^18]. 
 
-*Niet-afschrijfbare activa*
-
+## Niet-afschrijfbare activa
 Wat betreft de boekhoudkundige verwerking van kapitaalsubsidies toegekend voor de verwerving van niet-afschrijfbare activa, moet naar het oordeel van de Commissie rekening worden gehouden met de finaliteit van dergelijke subsidies. In die optiek is het logisch dat een kapitaalsubsidie toegekend ter verwerving van een niet-afschrijfbaar actief op het passief van de balans geboekt blijft, zolang het betrokken actief deel uitmaakt van het patrimonium van de onderneming. 
 
 Wordt een minderwaarde vastgesteld, dan is het aangewezen - naar analogie met de aanrekening van kapitaalsubsidies met betrekking tot afschrijfbare activa - de kapitaalsubsidie in resultaat te nemen *pro rata* de geboekte minderwaarde op het gesubsidieerde actief. 
 
-*Realisatie of buitengebruikstelling van het vast actief*
-
+## Realisatie of buitengebruikstelling van het vast actief
 Bij realisatie of buitengebruikstelling van de gesubsidieerde vaste activa, dient het gedeelte van de kapitaalsubsidie (en de eventuele uitgestelde belastingen hierop) dat nog niet in het resultaat is opgenomen, onmiddellijk in het resultaat te worden geboekt.
 
 *Boekingen*
@@ -273,11 +242,9 @@ Boeking op het ogenblik van de terugbetaling van de helft van de kapitaalsubsidi
 | aan | 55 | Kredietinstellingen | | 2.500 |
 
 #### Particulariteiten
-*Fusies en (partiële) splitsingen*
-
+## Fusies en (partiële) splitsingen
 Voor de boekhoudkundige verwerking van kapitaalsubsidies bij fusies en (partiële) splitsingen, zie adviezen 2009/6[^22], 2009/8[^23] en 2009/11[^24].
-*Inbreng van een algemeenheid van goederen of een bedrijfstak*
-
+## Inbreng van een algemeenheid van goederen of een bedrijfstak
 Voor de boekhoudkundige verwerking van kapitaalsubsidies bij inbreng van een algemeenheid van goederen of een bedrijfstak, zie advies 2009/15[^25].
 Een vennootschap die een algemeenheid van goederen of een bedrijfstak inbrengt, dient de nog niet in resultaat genomen kapitaalsubsidies die betrekking hebben op de ingebrachte activa, uit te boeken en in resultaat te nemen in de post Andere financiële opbrengsten[^26].
 Artikel 81 KB W.Venn. bepaalt dat bij inbreng van een bedrijfsafdeling of een algemeenheid van goederen zoals gedefinieerd in de artikelen 678 en 679 van het Wetboek van Vennootschappen, de ingebrachte activa, passiva, rechten en verplichtingen in de boekhouding worden opgenomen van de vennootschap waarin de inbreng gebeurt, tegen de waarde waarvoor zij op het tijdstip van de inbreng in de boekhouding van de inbrengende vennootschap voorkwamen.

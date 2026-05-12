@@ -15,42 +15,6 @@ gerelateerde_adviezen:
     titel: Aftrek voor innovatie-inkomsten
     url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
 nummer: CBN-advies 2011/10
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-splitsingen
-      sha256: 4b61e0649ce780e830cb4940928d119883539180dc3ed49c08918c7562e0199a
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: warn
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 7
-      max_section_chars: 26090
-      file_size_chars: 51929
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 26090 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Het advies bevat 12 headings en behandelt grensoverschrijdende splitsingen met correct juridisch kader en voorbeelden. Geen tabelcorruptie vastgesteld.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - belastingvrije reserves
   - belgische inrichting
@@ -59,8 +23,32 @@ themas:
   - grensoverschrijdende partiële splitsing
   - dotatie
   - kapitaal
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-splitsingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:00Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2011/10 De boekhoudkundige verwerking van grensoverschrijdende splitsingen
 
 ## INLEIDING
@@ -120,8 +108,7 @@ Naar aanleiding van de splitsing ontstaat een Belgische inrichting van vennootsc
 
 Er wordt ondersteld dat A een aandeelhouder-vennootschap D heeft die 80 % van de A-aandelen heeft aangeschaft voor een bedrag gelijk aan 7.500.
 
-*In hoofde van B en de Belgische inrichting van C wordt dan als volgt gehandeld*
-
+## In hoofde van B en de Belgische inrichting van C wordt dan als volgt gehandeld
 Op basis van bovenstaande gegevens, en de samenstelling van de eigen vermogens van B en de Belgische inrichting van C buiten beschouwing latend, zien B en de Belgische inrichting van C er na de splitsing als volgt uit:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -174,8 +161,7 @@ Na de splitsing zullen B en de Belgische inrichting van C er dan als volgt uitzi
 | | Schulden | 2.500 | | |
 | | 8.500 | 8.500 | | |
 
-*In hoofde van aandeelhouder D wordt als volgt gehandeld*
-
+## In hoofde van aandeelhouder D wordt als volgt gehandeld
 De boekwaarde van de A-participatie (7.500) moet worden omgedeeld in verhouding tot de reële waarden van de aan B en C toebedeelde vermogens.
 
 De boekwaarde van de A-participatie welke overeenstemt met het aan B overgedragen vermogen bedraagt 3.375 (7.500 x 9.000/20.000) en de boekwaarde van de A-participatie welke overeenstemt met het aan C overgedragen vermogen bedraagt 4.125 (7.500 x 11.000/20.000).
@@ -188,7 +174,7 @@ Bij D wordt de aandelenruil naar aanleiding van de splitsing dan ook als volgt g
 | | Participatie C | 4.125 | | |
 | aan | | Participatie A | | 7.500 |
 
-#### Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt gesplitst door oprichting van een Belgische vennootschap B en door overname door een in een andere EU-lidstaat gevestigde vennootschap C. Vennootschap C bezit A-aandelen en deze A-participatie is belegd in een Belgische inrichting van vennootschap C; vennootschap A bezit geen eigen aandelen.
+Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt gesplitst door oprichting van een Belgische vennootschap B en door overname door een in een andere EU-lidstaat gevestigde vennootschap C. Vennootschap C bezit A-aandelen en deze A-participatie is belegd in een Belgische inrichting van vennootschap C; vennootschap A bezit geen eigen aandelen.
 De boekhoudkundige verwerking van de splitsing waarbij de in de andere EU-lidstaat gevestigde vennootschap C-aandelen in vennootschap A bezit welke belegd zijn in een Belgische inrichting, geschiedt op het Belgisch niveau op een gelijkaardige manier als bij een interne splitsing waarbij een verkrijgende vennootschap aandelen in de gesplitste vennootschap bezit. 
 
 Hierbij is artikel 78, § 6 van het KB W.Venn. onverkort van toepassing. Dit wil zeggen dat de verschillende bestanddelen van het eigen vermogen van de gesplitste vennootschap die aan de verkrijgende vennootschap C worden toegewezen (maar waarbij het bedrag van het toegewezen maatschappelijk kapitaal en uitgiftepremie wordt ingeschreven als dotatie) in de Belgische inrichting van C slechts worden opgenomen ten belope van de fractie die overeenstemt met de aandelen in de gesplitste vennootschap die worden omgewisseld tegen de door de verkrijgende vennootschap C nieuw uitgegeven aandelen. Overeenkomstig de laatste zin van artikel 78, § 6 KB W.Venn. dient in voorkomend geval rekening te worden gehouden met de ten gevolge van de splitsing gewijzigde fiscale kwalificatie van de toegewezen reserves van de gesplitste vennootschap. Dit kan leiden tot bijkomende boekhoudkundige correcties.
@@ -240,21 +226,21 @@ Dit is identiek met wat in voorbeeld 1 werd uiteengezet.
 
 Vennootschap B en het aan C overgedragen vermogen zien er dan ook als volgt uit:
 
-| B | 
+| B |
 |---|
-| Activa | | 5.500 | | Kapitaal | | 1.200 | 
-| | | | | Belastingvrije res. | | 800 | 
-| | | | | Beschikbare res. | | 2.000 | 
-| | | | | Schulden | | 1.500 | 
-| | | 5.500 | | | | 5.500 | 
+| Activa| 5.500| Kapitaal| 1.200|
+| | | Belastingvrije res.| 800|
+| | | Beschikbare res. | 2.000|
+| | | Schulden | 1.500|
+| | 5.500| | 5.500|
 
-| Aan C overgedragen vermogen | 
+| Aan C overgedragen vermogen|
 |---|
-| Activa | | 8.500 | | Passive | | 1.800 | 
-| | | | | Belastingvrije res | | 1.200 | 
-| | | | | Beschikbare res. | | 3.000 | 
-| | | | | Schulden | | 2.500 | 
-| | | 8.500 | | | | 8.500 | 
+| Activa| 8.500| Passive| 1.800|
+| | | Belastingvrije res| 1.200|
+| | | Beschikbare res.| 3.000|
+| | | Schulden| 2.500|
+| | 8.500| | 8.500|
 
 In hoofde van de Belgische inrichting van C dient de boekwaarde van de A-participatie (10.800) te worden opgedeeld in het gedeelte dat overeenstemt met het aan B overgedragen vermogen en in het gedeelte dat overeenstemt met het aan C overgedragen vermogen. Deze opdeling gebeurt pro rata de reële waarden van de aan B en C toebedeelde vermogens.
 
@@ -316,7 +302,7 @@ De Belgische inrichting van C zal evenwel de aan haar toegewezen belastingvrije 
 | | 689 | Overboeking naar de belastingvrije reserves | 1.080 | |
 | aan | 132 | Belastingvrije reserves | | 1.080 |
 
-#### Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt gesplitst door oprichting van een Belgische vennootschap B en door overname door een in een andere EU-lidstaat gevestigde vennootschap C. Vennootschap C bezit A-aandelen maar heeft vóór de splitsing geen Belgische inrichting; vennootschap A bezit geen eigen aandelen.
+Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt gesplitst door oprichting van een Belgische vennootschap B en door overname door een in een andere EU-lidstaat gevestigde vennootschap C. Vennootschap C bezit A-aandelen maar heeft vóór de splitsing geen Belgische inrichting; vennootschap A bezit geen eigen aandelen.
 Voorbeeld 3
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -375,7 +361,7 @@ Na de splitsing zullen B en de Belgische inrichting van C er dan als volgt uitzi
 | | 8.500 | 8.500 | | |
 
 Splitsing van een vennootschap gevestigd in een andere EU-lidstaat, in een Belgische vennootschap en een vennootschap gevestigd in een andere EU-lidstaat
-#### Een in een andere EU-lidstaat gevestigde vennootschap C wordt gesplitst door overname door een Belgische vennootschap A en door oprichting van een in een andere EU-lidstaat gevestigde vennootschap B. De Belgische vennootschap A bezit geen aandelen in de gesplitste vennootschap C en de gesplitste vennootschap C heeft geen Belgische inrichting.
+Een in een andere EU-lidstaat gevestigde vennootschap C wordt gesplitst door overname door een Belgische vennootschap A en door oprichting van een in een andere EU-lidstaat gevestigde vennootschap B. De Belgische vennootschap A bezit geen aandelen in de gesplitste vennootschap C en de gesplitste vennootschap C heeft geen Belgische inrichting.
 ## Voorbeeld 4
 Onderstel dat onderstaande in een andere EU-lidstaat gevestigde vennootschap C wordt gesplitst door overname door de Belgische vennootschap A en door oprichting van een in een andere EU-lidstaat gevestigde vennootschap B. 
 
@@ -422,21 +408,21 @@ De bestanddelen van het boekhoudkundig eigen vermogen die aan de verkrijgende ve
 
 Voorbeeld 5
 
-| A (Belgische verkrijgende vennootschap vóór de splitsing) | 
+| A (Belgische verkrijgende vennootschap vóór de splitsing)|
 |---|
-| Materiële vaste activa | | 300 | | Kapitaal | | 2.000 | 
-| Financiële vaste activa | | 2.900 | | Belastingvrije reserves | | 1.500 | 
-| (Participatie C 90 %) | | | | Beschikbare reserves | | 4.500 | 
-| Vlottende activa | | 6.800 | | Voorzieningen | | 900 | 
-| | | | | Schulden | | 1.100 | 
-| | | 10.000 | | | | 10.000 | 
+| Materiële vaste activa| 300| Kapitaal| 2.000|
+| Financiële vaste activa| 2.900| Belastingvrije reserves | 1.500|
+| (Participatie C 90 %) | | Beschikbare reserves| 4.500|
+| Vlottende activa| 6.800| Voorzieningen| 900|
+| | | Schulden| 1.100|
+| | 10.000| | 10.000|
 
-| C (te splitsen vennootschap) | 
+| C (te splitsen vennootschap)|
 |---|
-| Activa | | 14.000 | | Kapitaal | | 3.000 | 
-| | | | | Reserves[^21] | | 7.000 | 
-| | | | | Schulden | | 4.000 | 
-| | | 14.000 | | | | 14.000 | 
+| Activa| 14.000| Kapitaal| 3.000|
+| | | Reserves[^21] | 7.000|
+| | | Schulden| 4.000|
+| | 14.000| | 14.000|
 
 Naar aanleiding van de splitsing verkrijgt de Belgische vennootschap A 5.500 activa en 1.500 schulden. De reële waarde van vennootschap C op het ogenblik van de splitsing bedraagt 20.000; de reële waarde van het aan vennootschap A overgedragen netto-actief bedraagt 9.000.
 

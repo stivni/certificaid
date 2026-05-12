@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/stukken-die-tegelijk-met-de-jaarrekening-dienen-neergelegd-te-worden-artikel-80-venn-w
 datum: 1978-12-01
 nummer: CBN-advies 110/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/stukken-die-tegelijk-met-de-jaarrekening-dienen-neergelegd-te-worden-artikel-80-venn-w
-      sha256: a859f50e1d95639cecf3850a874ab41a26e0173bc95ecf7d0a8f404af3224c6c
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:15:32Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 5979
-      file_size_chars: 5979
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Geen artefacten aangetroffen in categorieën A-G. Body is volledig proza zonder headings (correct voor dit korte advies), genummerde lijsten gebruikt correct '1.', '2.', '3.' formaat, voetnoten [^1]–[^3] correct gedefinieerd. Frontmatter themas clean zonder HTML-entiteiten.
-      run_at: '2026-05-11T15:15:32Z'
-      status: trusted
-    rationale: Geen artefacten aangetroffen in categorieën A-G. Body is volledig proza zonder headings (correct voor dit korte advies), genummerde lijsten gebruikt correct '1.', '2.', '3.' formaat, voetnoten [^1]–[^3] correct gedefinieerd. Frontmatter themas clean zonder HTML-entiteiten.
-    status: trusted
 themas:
   - achterstallig
   - bijkantoor
@@ -43,8 +11,32 @@ themas:
   - publicatie
   - schulden
   - schulden jegens fiscale besturen en jegens de Rijksdienst voor Sociale Zekerheid
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/stukken-die-tegelijk-met-de-jaarrekening-dienen-neergelegd-te-worden-artikel-80-venn-w
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:14Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 110/2 - Stukken die tegelijk met de jaarrekening dienen neergelegd te worden (artikel 80 W. Venn.)
 
 Het nieuw artikel 80 van de gecoördineerde wetten op de handelsvennootschappen, ingelast door de wet van 24 maart 1978, bepaalt in het *sexto* van het tweede lid dat tegelijk met de jaarrekening een stuk wordt neergelegd met de volgende gegevens tenzij, die reeds afzonderlijk in de jaarrekening worden vermeld:

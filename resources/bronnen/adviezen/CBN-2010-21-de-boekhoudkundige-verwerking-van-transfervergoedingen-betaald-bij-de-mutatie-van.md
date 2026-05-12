@@ -15,43 +15,35 @@ gerelateerde_adviezen:
     titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
     url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2010/21
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-transfervergoedingen-betaald-bij-de-mutatie-van
-      sha256: d5c4088c75aa9d7cfeaf1bb264a52c517c6968c3cdceecdaaf4bd8e7de8e9a69
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T21:31:11Z'
-    confirmed_by: human
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 6
-      max_section_chars: 7340
-      file_size_chars: 18253
-      flags: []
-    layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
-    status: trusted
 themas:
   - immateriële vaste activa
   - transfervergoeding
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-transfervergoedingen-betaald-bij-de-mutatie-van
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:57Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2010/21 - De boekhoudkundige verwerking van transfervergoedingen betaald bij de mutatie van voetbalspelers (niet-amateurs en profspelers)
 
 ## Inleiding

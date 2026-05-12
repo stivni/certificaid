@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/specifiek-achtergestelde-leningen
 datum: 1989-09-01
 nummer: CBN-advies 159/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/specifiek-achtergestelde-leningen
-      sha256: a23060a0ddd0f6b9290bde1222b9de08ac692ef2be3ce09ffd66107fdfa2111a
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:42Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 3094
-      file_size_chars: 3094
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Geen ETL-artefacten. Italics voor '*Achtergestelde leningen*' en '*Niet-converteerbare achtergestelde leningen*' correct gesloten. Voetnoot correct gelinkt. Inhoud volledig en coherent.
-      run_at: '2026-05-11T12:04:42Z'
-      status: trusted
-    rationale: Geen ETL-artefacten. Italics voor '*Achtergestelde leningen*' en '*Niet-converteerbare achtergestelde leningen*' correct gesloten. Voetnoot correct gelinkt. Inhoud volledig en coherent.
-    status: trusted
 themas:
   - achtergestelde lening
   - achterstellingsclausule
@@ -42,8 +10,32 @@ themas:
   - schulden
   - specifiek achtergestelde leningen
   - toelichting
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/specifiek-achtergestelde-leningen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:44Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 159/2 - Specifiek achtergestelde leningen
 
 Aan de Commissie werd gevraagd in welke passiefpost van de jaarrekening een lening met een achterstellingsclausule die niet geldt voor alle schuldeisers, moet worden geboekt. 

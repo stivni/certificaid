@@ -6,38 +6,6 @@ gerelateerde_adviezen:
     titel: Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap
     url: https://www.cbn-cnc.be/nl/adviezen/overgang-van-een-kapitaalhoudende-cooperatieve-vennootschap-naar-een-kapitaalloze
 nummer: CBN-advies 2022/02
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/uittreding-en-uitsluiting-lastens-het-vennootschapsvermogen-bij-de-bv-en-cv
-      sha256: afa832f20d1fea68e50cdedd0168f13361f755a0f7ff1b8f83e4fbfcf4012b5a
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:31Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 12
-      max_section_chars: 8648
-      file_size_chars: 21455
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Ronde-3 herlezing: geen TOC-fragment of ''--''-restant meer aanwezig in de body. De structuur is correct met ## en ### headings, drie boekingstabellen in pipe-syntax, alle 31 voetnoten intact. Inhoud volledig: BV en CV uittreding/uitsluiting procedures en boekhoudkundige verwerking. Geen ETL-artefacten aangetroffen in de volledige tekst.'
-      run_at: '2026-05-11T17:13:31Z'
-      status: trusted
-    rationale: 'Ronde-3 herlezing: geen TOC-fragment of ''--''-restant meer aanwezig in de body. De structuur is correct met ## en ### headings, drie boekingstabellen in pipe-syntax, alle 31 voetnoten intact. Inhoud volledig: BV en CV uittreding/uitsluiting procedures en boekhoudkundige verwerking. Geen ETL-artefacten aangetroffen in de volledige tekst.'
-    status: trusted
 themas:
   - uittreding
   - scheidingsaandeel
@@ -46,8 +14,32 @@ themas:
   - uittreding van rechtswege
   - vrijwillige uittreding
   - uitkeringstesten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/uittreding-en-uitsluiting-lastens-het-vennootschapsvermogen-bij-de-bv-en-cv
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:44Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2022/02 – Uittreding en uitsluiting lastens het vennootschapsvermogen bij de BV en CV - Scheidingsaandeel
 
 ## Inleiding

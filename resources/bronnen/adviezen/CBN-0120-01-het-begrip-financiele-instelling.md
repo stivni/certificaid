@@ -6,38 +6,6 @@ gerelateerde_adviezen:
     titel: In aanmerking te nemen termijn - Contractuele termijn of nog te lopen termijn
     url: https://www.cbn-cnc.be/nl/adviezen/in-aanmerking-te-nemen-termijn-contractuele-termijn-of-nog-te-lopen-termijn
 nummer: CBN-advies 120/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
-      sha256: 09569e50a30a303b5f3b13e0c117da75f86383378989d1d5c821ee201bdbf17c
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:16:02Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 2614
-      file_size_chars: 2614
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Vorige L2 flagde D4 broken italic op regel 59 ('*Thesauriebeleggingen *en'), maar de werkelijke body toont '*Thesauriebeleggingen*' correct gesloten op alle vier plaatsen (regels 56, 62). Geen spatie voor sluitende asterisk aangetroffen. Body kort (2614 chars), vijf alinea's, twee voetnoten correct. Geen artefacten.
-      run_at: '2026-05-11T13:16:02Z'
-      status: trusted
-    rationale: Vorige L2 flagde D4 broken italic op regel 59 ('*Thesauriebeleggingen *en'), maar de werkelijke body toont '*Thesauriebeleggingen*' correct gesloten op alle vier plaatsen (regels 56, 62). Geen spatie voor sluitende asterisk aangetroffen. Body kort (2614 chars), vijf alinea's, twee voetnoten correct. Geen artefacten.
-    status: trusted
 themas:
   - beschikbare waarden
   - financiële instelling
@@ -45,8 +13,32 @@ themas:
   - thesauriebelegging
   - transacties met dochterondernemingen
   - verbonden onderneming
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:22Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 120/1 - Het begrip "financiële instelling"
 
 Volgens het koninklijk besluit van 8 oktober 1976 worden de vorderingen op financiële instellingen geboekt onder de rubriek *Thesauriebeleggingen* of onder de rubriek *Beschikbare waarden* van het actief van de balans, naargelang het gaat om termijnrekeningen op meer dan één maand, of om tegoeden op zicht of op ten hoogste één maand. 

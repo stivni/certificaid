@@ -2,47 +2,35 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-interestopbrengsten-en-kosten-door-erkende
 datum: 2011-10-05
 nummer: CBN-advies 2011/19
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-interestopbrengsten-en-kosten-door-erkende
-      sha256: 6e6268271b2b7aa39644cb41d0ad3b69eced439bd52ae437e23c2be5296875e9
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 2
-      max_section_chars: 2385
-      file_size_chars: 5051
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: (source)
-          regel: 60
-          type: source-typo
-          voorbeeld: '*"Een Belgische of buitenlandse onderneming:* '
-      rationale: 'Eerder gemelde D4 (spatie voor sluitende asterisk op regels 60 en 63) is een source-typo: de CBN-website formatteert geciteerde wetteksten als italic met een spatie voor de sluiting — een mens die de HTML opent ziet hetzelfde. Geen echte ETL-artefacten (categorieën A-G) aanwezig. Document is compact (5053 chars, 2 headings), inhoudelijk volledig, alle 6 voetnoten correct.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: trusted
-    rationale: 'Eerder gemelde D4 (spatie voor sluitende asterisk op regels 60 en 63) is een source-typo: de CBN-website formatteert geciteerde wetteksten als italic met een spatie voor de sluiting — een mens die de HTML opent ziet hetzelfde. Geen echte ETL-artefacten (categorieën A-G) aanwezig. Document is compact (5053 chars, 2 headings), inhoudelijk volledig, alle 6 voetnoten correct.'
-    status: trusted
 themas:
   - erkende kredietmaatschappij
   - kredietmaatschappij
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-interestopbrengsten-en-kosten-door-erkende
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:03Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2011/19 – De boekhoudkundige verwerking van interestopbrengsten en –kosten door erkende kredietmaatschappijen in Vlaanderen
 
 Met een “erkende kredietmaatschappij” wordt de hypothecaire kredietmaatschappij voor sociaal woonkrediet bedoeld waaraan een erkenning is verleend door de Vlaamse regering overeenkomstig artikel 78, § 1, eerste lid, 1° van het decreet van 15 juli 1997 houdende de Vlaamse Wooncode[^1].
@@ -52,8 +40,7 @@ De erkenning kan, onder de gestelde voorwaarden[^2] door de minister voor onbepa
 ## Onderworpenheid aan de Boekhoudwet
 Artikel 15 van de wet van 17 juli 1975 op de boekhouding van de ondernemingen (hierna: Boekhoudwet) stelt dat een aantal bepalingen[^4] niet van toepassing zijn op kredietinstellingen die vallen onder de wet van 22 maart 1993 op het statuut van en het toezicht op kredietinstellingen. Het lijkt de Commissie dan ook noodzakelijk om na te gaan in hoeverre een erkende kredietmaatschappij onder de noemer “kredietinstelling” valt. De wet van 22 maart 1993 op het statuut van en het toezicht op de kredietinstellingen[^5] definieert een kredietinstelling als volgt: 
 
-*“Een Belgische of buitenlandse onderneming:* 
-
+## “Een Belgische of buitenlandse onderneming:
 1. *waarvan de werkzaamheden bestaan in het van het publiek in ontvangst nemen van gelddeposito's of van andere terugbetaalbare gelden en het verlenen van kredieten voor eigen rekening, of*  
 2. *waarvan de werkzaamheden bestaan in het uitgeven van betaalinstrumenten in de vorm van elektronisch geld.”* 
 

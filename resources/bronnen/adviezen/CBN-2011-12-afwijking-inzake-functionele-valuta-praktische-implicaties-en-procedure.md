@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
 nummer: CBN-advies 2011/12
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
-      sha256: c2257273e04e873a3695a27be7117365919032c17a63a1102ff1ae3817652f12
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 4
-      max_section_chars: 3160
-      file_size_chars: 8487
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r70-72 TOC) is niet bevestigd: de body bevat geen plain-text inhoudsopgave; de vier ## headings (Inleiding, Omrekening..., Afwijkingsaanvragen..., Aanvragen tot verlenging...) volgen direct zonder tussenliggend TOC-blok. Voetnoten 1-9 zijn volledig gedefinieerd en gerefereerd. Geen tabellen, geen OCR-problemen, geen broken markup.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: trusted
-    rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r70-72 TOC) is niet bevestigd: de body bevat geen plain-text inhoudsopgave; de vier ## headings (Inleiding, Omrekening..., Afwijkingsaanvragen..., Aanvragen tot verlenging...) volgen direct zonder tussenliggend TOC-blok. Voetnoten 1-9 zijn volledig gedefinieerd en gerefereerd. Geen tabellen, geen OCR-problemen, geen broken markup.'
-    status: trusted
 themas:
   - afwijking
   - afwijkingsaanvraag
@@ -63,8 +31,32 @@ themas:
   - voeren van de boekhouding
   - wisselkoers
   - wisselkoersverschil
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:01Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2011/12 - Afwijking inzake functionele valuta: praktische implicaties en procedure
 
 ## Inleiding

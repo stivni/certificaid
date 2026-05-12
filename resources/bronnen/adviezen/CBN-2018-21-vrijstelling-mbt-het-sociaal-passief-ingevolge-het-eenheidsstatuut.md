@@ -6,45 +6,37 @@ gerelateerde_adviezen:
     titel: Belastingvrije provisie voor sociaal passief
     url: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
 nummer: CBN-advies 2018/21
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-mbt-het-sociaal-passief-ingevolge-het-eenheidsstatuut
-      sha256: c71ec7d9c8f537088d54151d46dea7a11d4210e362c8b7e4ea7ea4a8398c69dc
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 3
-      max_section_chars: 4072
-      file_size_chars: 6586
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen artefacten gevonden. Tekst vloeiend, drie ## headings correct, alle 14 voetnoten volledig verankerd. Geen tabellen. De cursief-opmaak van artikelnummers (67*quater*) is correcte markdown-weergave van de wettelijke schrijfwijze. Inhoud volledig.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: trusted
-    rationale: 'Geen artefacten gevonden. Tekst vloeiend, drie ## headings correct, alle 14 voetnoten volledig verankerd. Geen tabellen. De cursief-opmaak van artikelnummers (67*quater*) is correcte markdown-weergave van de wettelijke schrijfwijze. Inhoud volledig.'
-    status: trusted
 themas:
   - sociaal passief
   - eenheidsstatuut
   - fiscale vrijstelling
   - belastinglatentie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-mbt-het-sociaal-passief-ingevolge-het-eenheidsstatuut
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:32Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/21 – Vrijstelling m.b.t. het sociaal passief ingevolge het eenheidsstatuut
 
 ## Inleiding

@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
 datum: 2020-12-11
 nummer: CBN-advies 2020/14
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
-      sha256: ed74afcdef9799397ca53683b6c66f0d3608f5b8b3457b0d7e4d25674a0fab43
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 4
-      max_section_chars: 15872
-      file_size_chars: 23038
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen significante artefacten. Drie situaties (koper-rekening, verkoper-rekening, notaris-rekening) helder als ### headings. Alle boekingstabellen in markdown pipe-syntax. Lege Debet/Credit cellen in de ordererekenings-tabellen zijn intentioneel (bedragen zijn situatie-afhankelijk). Voetnoten 1-34 aanwezig. Inhoud compleet.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: trusted
-    rationale: 'Geen significante artefacten. Drie situaties (koper-rekening, verkoper-rekening, notaris-rekening) helder als ### headings. Alle boekingstabellen in markdown pipe-syntax. Lege Debet/Credit cellen in de ordererekenings-tabellen zijn intentioneel (bedragen zijn situatie-afhankelijk). Voetnoten 1-34 aanwezig. Inhoud compleet.'
-    status: trusted
 themas:
   - geblokkeerde rekening
   - geblokkeerde bankrekening
@@ -43,8 +11,32 @@ themas:
   - niet in de balans opgenomen rechten en verplichtingen
   - escrow
   - inbeslagname
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aan-verkoop-van-een-actief-via-een-geblokkeerde-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:40Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2020/14 – Boekhoudkundige verwerking van de aan-/verkoop van een actief via een geblokkeerde rekening
 
 ## Inleiding

@@ -2,45 +2,37 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bebost-terrein
 datum: 2016-06-15
 nummer: CBN-advies 2016/9
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bebost-terrein
-      sha256: 5b16ac8f98d0ccf87b4a2e899560fbb7dc951a0c4c35c87aeaadf4e72e6d9702
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 3
-      max_section_chars: 1428
-      file_size_chars: 3327
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Klein en schoon bestand (3340 tekens). Drie headings correct, twee voorbeeldboekingstabellen in pipe-syntax, voetnoten [^1]–[^3] volledig gedefinieerd. Geen artefacten aangetroffen in geen enkele categorie. Inhoud compleet: beide scenario''s (vervreemding / geen vervreemding) behandeld.'
-      run_at: '2026-05-11T12:16:34Z'
-      status: trusted
-    rationale: 'Klein en schoon bestand (3340 tekens). Drie headings correct, twee voorbeeldboekingstabellen in pipe-syntax, voetnoten [^1]–[^3] volledig gedefinieerd. Geen artefacten aangetroffen in geen enkele categorie. Inhoud compleet: beide scenario''s (vervreemding / geen vervreemding) behandeld.'
-    status: trusted
 themas:
   - bebost terrein
   - goederen in bewerking
   - terrein
   - voorraad
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-bebost-terrein
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:17Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/9 – Verwerving van een bebost terrein
 
 ## Inleiding

@@ -2,46 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
 datum: 2010-10-06
 nummer: CBN-advies 2010/15
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
-      sha256: 05e9e21fba9ce48c9b7b4a9124423c7ed3139d641800094a23c7b2e73604d6d0
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 13
-      max_section_chars: 6417
-      file_size_chars: 23538
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 183
-          type: other
-          voorbeeld: '*Voorbeeld  (trailing spatie na opening asterisk, malformed italic opener)'
-        - categorie: D4
-          regel: 199
-          type: other
-          voorbeeld: en wordt het* pro rata* van het gebruik
-      rationale: 'D4 bevestigd op twee plaatsen: r183 ''*Voorbeeld '' heeft een opening asterisk gevolgd door spatie (malformed italic opener); r199 ''het* pro rata*'' heeft een asterisk direct na ''het'' zonder scheidende spatie (gebroken italic-markup). De eerder gerapporteerde A3 is niet bevestigd: de body bevat geen plain-text TOC, de themas-lijst staat enkel in de frontmatter. Overige inhoud (13 headings, voetnoten 1-34 volledig, voorbeelden compleet) correct.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'D4 bevestigd op twee plaatsen: r183 ''*Voorbeeld '' heeft een opening asterisk gevolgd door spatie (malformed italic opener); r199 ''het* pro rata*'' heeft een asterisk direct na ''het'' zonder scheidende spatie (gebroken italic-markup). De eerder gerapporteerde A3 is niet bevestigd: de body bevat geen plain-text TOC, de themas-lijst staat enkel in de frontmatter. Overige inhoud (13 headings, voetnoten 1-34 volledig, voorbeelden compleet) correct.'
-    status: needs-rework
 themas:
   - af te schrijven waarde
   - afschrijvingen
@@ -62,8 +22,32 @@ themas:
   - vaste activa
   - versnelde afschrijvingsmethode
   - waarderingsregels
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:56Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2010/15 - Afschrijvingsmethoden Advies van 6 oktober 2010
 
 ## Inleiding

@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
 nummer: CBN-advies 124/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/fusie-inbreng-van-een-onderdeel-van-een-onderneming-splitsing
-      sha256: ff450fde1a444049df31cd0ee8d45c1d670d7eac5d26fc8b0f5121b40ec457b0
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 2090
-      file_size_chars: 2090
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Korte advies-tekst (2090 tekens), volledig en zonder artefacten. Geen headings nodig (één doorlopende redenering). Frontmatter consistent. Laag-1 pass correct.
-      run_at: '2026-05-11T11:57:45Z'
-      status: trusted
-    rationale: Korte advies-tekst (2090 tekens), volledig en zonder artefacten. Geen headings nodig (één doorlopende redenering). Frontmatter consistent. Laag-1 pass correct.
-    status: trusted
 themas:
   - fusie
   - fusie door opslorping
@@ -54,8 +22,32 @@ themas:
   - inbreng van een onderdeel van een onderneming
   - splitsing
   - vergelijkende cijfers
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/fusie-inbreng-van-een-onderdeel-van-een-onderneming-splitsing
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:24Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 124/1 - Fusie, inbreng van een onderdeel van een onderneming, splitsing
 
 Krachtens het besluit van 8 oktober 1976 moet de jaarrekening naast elke post de vergelijkende cijfers vermelden van het voorafgaande boekjaar. Wordt de voorstelling van de jaarrekening gewijzigd als gevolg van een belangrijke wijziging in de structuur van het vermogen, van de opbrengsten en van de kosten van de onderneming dan worden de cijfers van het voorafgaande boekjaar, uitsluitend omwille van de vergelijkbaarheid, aangepast op grond van de maatstaven die voor het boekjaar in aanmerking werden genomen. 

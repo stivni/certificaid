@@ -15,66 +15,6 @@ gerelateerde_adviezen:
     titel: De boekhoudkundige verwerking van een herziening van de btw op een aangekocht bedrijfsmiddel
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
 nummer: CBN-advies 132/7
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
-      sha256: d73c47ba8ea46d281b831bb8deee7fd1176686795ce91e18dd9c1f2040ddf8d9
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 47
-      max_section_chars: 15612
-      file_size_chars: 75465
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A9
-          regel: 168
-          type: ocr-confusion
-          voorbeeld: 'Naar het oordeel van de Commussue moeten aan deze post... (OCR: Commussue i.p.v. Commissie)'
-        - categorie: E2
-          regel: 293
-          type: other
-          voorbeeld: '| 34 Handelsgoederen | (enkelvoudige tabelrij; ''aan 6094''-regel staat buiten tabel op L295)'
-        - categorie: A9
-          regel: 303
-          type: ocr-confusion
-          voorbeeld: '6094 Voorraadwijzgingen van handelsgoederen (missing letters: Voorraadwijzgingen)'
-        - categorie: C3
-          regel: 399
-          type: pseudo-table
-          voorbeeld: ________________________________________________________________________________________________ (ASCII-art scheidingslijn voor breukformule)
-        - categorie: E2
-          regel: 560
-          type: other
-          voorbeeld: '| 34 Voorraden | (enkelvoudige rij; ''aan 6094''-regel staat buiten de tabel op L562)'
-        - categorie: E2
-          regel: 663
-          type: other
-          voorbeeld: '| 330 Gereed product - aanschaffingswaarde | (enkelvoudige rij; ''aan 713''-regel staat buiten tabel op L667)'
-        - categorie: E2
-          regel: 769
-          type: other
-          voorbeeld: Duplicate tabel 'bij vooruitbetaling' (L769-774 identiek aan L764-767) — ETL-duplicaat
-      rationale: 'Meerdere ETL-artefacten over het lange bestand: A9 op L168 (''Commussue'' i.p.v. ''Commissie'') en L303 (''Voorraadwijzgingen'' missing letters). E2: enkelvoudige tabelrijen gevolgd door ''aan''-regels buiten de tabel op L293-295, L560-562, L663-667. C3 op L399 en L407: ASCII-art scheidingslijnen als breukformule-weergave. Duplicate tabel op L769-774 (zelfde boeking als L764-767).'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'Meerdere ETL-artefacten over het lange bestand: A9 op L168 (''Commussue'' i.p.v. ''Commissie'') en L303 (''Voorraadwijzgingen'' missing letters). E2: enkelvoudige tabelrijen gevolgd door ''aan''-regels buiten de tabel op L293-295, L560-562, L663-667. C3 op L399 en L407: ASCII-art scheidingslijnen als breukformule-weergave. Duplicate tabel op L769-774 (zelfde boeking als L764-767).'
-    status: needs-rework
 themas:
   - aanschaffingswaarde
   - aanschaffingsprijs
@@ -95,8 +35,32 @@ themas:
   - marktwaarde
   - onrechtstreekse productiekost
   - realisatie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:30Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 132/7 - Boeking en waardering van voorraden
 
 ## Algemene inleiding
@@ -287,14 +251,13 @@ Niet-industriële ondernemingen gebruiken daarvoor het volgende schema :
 
 - *Inkomende voorraden en toevoeging van bijkomende kosten :*  
 
-| 34 Handelsgoederen | 
+| 34 Handelsgoederen|
 |---|
-| | | aan 6094 Vooraadwijzigingen van handelsgoederen | 
+| | aan 6094 Vooraadwijzigingen van handelsgoederen|
 
 - 
 
-*Uitgaande voorraden :* 
-
+## Uitgaande voorraden :
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6094 Voorraadwijzgingen van handelsgoederen | | | |
@@ -313,8 +276,7 @@ Niet-industriële ondernemingen gebruiken daarvoor het volgende schema :
 
   - 
 
-*Uitgaande voorraden :*
-
+## Uitgaande voorraden :
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6090 (6091)Voorraadwijzigingen van grondstoffen (hulpstoffen) | | | |
@@ -330,8 +292,7 @@ Niet-industriële ondernemingen gebruiken daarvoor het volgende schema :
 
 - 
 
-*Uitgaande voorraden :*
-
+## Uitgaande voorraden :
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 712 (713) Wijzigingen in de voorraad goederen in bewerking (gereed product) | | | |
@@ -538,9 +499,9 @@ De bijkomende kosten bedoeld sub 3° hierboven, betaald aan derden buiten de lev
 
 De toerekening van al die kosten (aanschaffingsprijs in hoofdsom, niet-recupereerbare belastingen, aan derden betaalde bijkomende kosten, interne kosten bedoeld sub 4° hierboven) aan de aanschaffingsprijs van de voorraden, gebeurt als volgt : 
 
-| 34 Voorraden | 
+| 34 Voorraden |
 |---|
-| | | aan 6094 Voorraadwijzigingen van handelsgoederen | 
+| | aan 6094 Voorraadwijzigingen van handelsgoederen |
 
 #### Marktwaarde
 Voor handelsgoederen bestemd voor verkoop, is de marktprijs die in aanmerking moet worden genomen, in beginsel de verkoopprijs "bij vertrek uit de onderneming", op balansdatum, die wordt verkregen onder normale en gebruikelijke verkoopvoorwaarden, rekening houdend met de kortingen, ristorno's en rabatten die gewoonlijk door de onderneming worden gegeven, na aftrek van een bedrag dat overeenstemt met de normale rechtstreekse verkoopkosten (die de marktprijs normaliter moet dekken en die niet in de aanschaffingsprijs zijn inbegrepen).
@@ -629,13 +590,13 @@ Dit impliceert :
 #### Boeking van de voorraadwijzigingen bij voorraadopname
 Alle bestanddelen van de vervaardigingsprijs van het gereed product worden als volgt aan de voorraden toegerekend : 
 
-| 330 Gereed product - aanschaffingswaarde | 
+| 330 Gereed product - aanschaffingswaarde|
 |---|
-| | | 
+| | 
 
 aan 713 Wijzigingen in de voorraad gereed product 
 
-  | 
+ |
 
 #### Begrip marktprijs
 De marktprijs is noodzakelijkerwijze de marktprijs bij verkoop, «bij het verlaten van de onderneming» onder normale en gebruikelijke verkoopvoorwaarden, rekening houdend met de gewoonlijk door de onderneming toegestane kortingen, ristorno's en rabatten, na aftrek van een bedrag dat overeenstemt met de normale rechtstreekse verkoopkosten.
@@ -753,30 +714,27 @@ In het verlengde van dit advies acht de Commissie het daarom noodzakelijk erop t
 
 Deze gegevens kunnen voorgesteld worden zoals in volgend schema : 
 
-*Waardering van voorraden grond-en hulpstoffen, goederen in bewerking, gereed product en handelsgoederen* 
-
+## Waardering van voorraden grond-en hulpstoffen, goederen in bewerking, gereed product en handelsgoederen
 1) Waarderingsregels[^34] 
 
-| **Voorraden 
-
-			waardering** | | **Grond- en hulpstoffen** | | **Goederen in bewaring** | | **Gereed product** | | **Handels-goederen** | 
-| Individuele waardering | | Ja/Neen | | Ja/Neen | | Ja/Neen | | Ja/Neen | 
-|---|---|---|---|---|---|---|---|---|
-| Gewogen gemiddelde | | Ja/Neen | | Ja/Neen | | Ja/Neen | | Ja/Neen | 
-| Fifo | | Ja/Neen | | Ja/Neen | | Ja/Neen | | Ja/Neen | 
-| Lifo | | Ja/Neen | | Ja/Neen | | Ja/Neen | | Ja/Neen | 
-| Gehele of gedeeltelijke uitsluiting indirecte productiekosten | | | | Ja/Neen | | Ja/Neen | | | 
-| Intresten in de vervaardigingsprijs | | | | Ja/Neen | | Ja/Neen | | | 
+| **Voorraden waardering**|** Grond- en hulpstoffen**|** Goederen in bewaring**|** Gereed product**|** Handels-goederen**|
+|---|---|---|---|---|
+| Individuele waardering| Ja/Neen| Ja/Neen| Ja/Neen| Ja/Neen|
+| Gewogen gemiddelde| Ja/Neen| Ja/Neen| Ja/Neen| Ja/Neen|
+| Fifo| Ja/Neen| Ja/Neen| Ja/Neen| Ja/Neen|
+| Lifo| Ja/Neen| Ja/Neen| Ja/Neen| Ja/Neen|
+| Gehele of gedeeltelijke uitsluiting indirecte productiekosten| | Ja/Neen| Ja/Neen| |
+| Intresten in de vervaardigingsprijs| | Ja/Neen| Ja/Neen| |
 
 2) Verschil tussen boekwaarde en marktwaarde op balansdatum (zo relevant)
 
-| *Waarde* | | *Bedrag* | 
-|---|---|---|
-| Grond- en hulpstoffen | | | 
-| Goederen in bewerking | | | 
-| Gereed product | | | 
-| Handelsgoederen | | | 
-| | | *Totaal* |
+| *Waarde*|* Bedrag*|
+|---|---|
+| Grond- en hulpstoffen| |
+| Goederen in bewerking| |
+| Gereed product| |
+| Handelsgoederen| |
+| | *Totaal*|
 
 [^1]: Met inbegrip van de onroerende goederen bestemd voor verkoop.
 

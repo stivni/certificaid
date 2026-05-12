@@ -2,44 +2,36 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-fairness-tax
 datum: 2014-06-04
 nummer: CBN-advies 2014/8
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-fairness-tax
-      sha256: 4dd27d4fa4bc9402e7a50cff9c9c41fab286f3fb37017d8c266c1607d2543f49
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 2
-      max_section_chars: 1140
-      file_size_chars: 2390
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Kort advies (2393 chars, 2 headings), geen extractie-artefacten aangetroffen. Voetnoten [^1]–[^6] volledig gedefinieerd en correct geankerd. Markdown ziet er mens-geschreven uit.
-      run_at: '2026-05-11T12:16:34Z'
-      status: trusted
-    rationale: Kort advies (2393 chars, 2 headings), geen extractie-artefacten aangetroffen. Voetnoten [^1]–[^6] volledig gedefinieerd en correct geankerd. Markdown ziet er mens-geschreven uit.
-    status: trusted
 themas:
   - fairness tax
   - vennootschapsbelasting
   - eindejaarsverrichting
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-fairness-tax
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:13Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2014/8 – De boekhoudkundige verwerking van de Fairness Tax
 
 ## Algemeen

@@ -6,44 +6,36 @@ gerelateerde_adviezen:
     titel: Groepsbijdrage
     url: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
 nummer: CBN-advies 2021/17
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
-      sha256: b8c4ff7e98d3fd00c4ccc9afa7d75b8f401e8924f500d455a9633b0d6ede595b
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:24:33Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 7
-      max_section_chars: 1362
-      file_size_chars: 4250
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Klein advies (4261 chars, 3 headings), volledig leesbaar en inhoudelijk compleet. Tabellen correct in pipe-syntax met header en separator. Footnotes aanwezig en correct gekoppeld ([^1] en [^2]). De boldgedrukte tussentitels ''In hoofde van vennootschap B/A'' zonder ##-prefix reflecteren de originele tekststructuur en zijn niet storend voor retrieval.'
-      run_at: '2026-05-11T12:24:33Z'
-      status: trusted
-    rationale: 'Klein advies (4261 chars, 3 headings), volledig leesbaar en inhoudelijk compleet. Tabellen correct in pipe-syntax met header en separator. Footnotes aanwezig en correct gekoppeld ([^1] en [^2]). De boldgedrukte tussentitels ''In hoofde van vennootschap B/A'' zonder ##-prefix reflecteren de originele tekststructuur en zijn niet storend voor retrieval.'
-    status: trusted
 themas:
   - groepsbijdrage
   - belastingen
   - fiscale consolidatie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:44Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2021/17 – Boekhoudkundige verwerking van de vergoeding voor de groepsbijdrage in hoofde van de overdragende vennootschap bij gebrek aan Belgische belastingen op het resultaat op rekening 4500 (addendum bij advies 2019/06)
 
 ## Inleiding

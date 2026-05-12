@@ -6,38 +6,6 @@ gerelateerde_adviezen:
     titel: Mogelijkheid tot uitstel van de goedkeuring en neerlegging van de jaarrekening (VZW’s, IVZW’s en stichtingen)
     url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-goedkeuring-en-neerlegging-van-de-jaarrekening-vzws-0
 nummer: CBN-advies 2020/08
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
-      sha256: b2dfc18f72c8b3503a034b0831a8b39e4ee7f92599fd960098276382a266cfc1
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 5
-      max_section_chars: 5861
-      file_size_chars: 11306
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen artefacten. Vijf logische ## headings, Latijnse termen correct gecursiveerd. Alle voetnoten [^1]-[^19] aanwezig en correct. Inhoud volledig (goedkeuring, neerlegging, laattijdige neerlegging, voorbeeld).'
-      run_at: '2026-05-11T12:21:40Z'
-      status: trusted
-    rationale: 'Geen artefacten. Vijf logische ## headings, Latijnse termen correct gecursiveerd. Alle voetnoten [^1]-[^19] aanwezig en correct. Inhoud volledig (goedkeuring, neerlegging, laattijdige neerlegging, voorbeeld).'
-    status: trusted
 themas:
   - uitstel algemene vergadering
   - opstelling van de jaarrekening
@@ -46,8 +14,32 @@ themas:
   - COVID-19
   - vereniging
   - laattijdige neerlegging
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:38Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2020/08 – Mogelijkheid tot uitstel van de gewone algemene vergadering en van de neerlegging van de jaarrekening (vennootschappen)
 
 ## Inleiding

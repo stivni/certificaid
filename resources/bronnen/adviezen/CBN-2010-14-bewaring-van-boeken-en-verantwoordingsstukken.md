@@ -9,38 +9,6 @@ gerelateerde_adviezen:
     titel: Bewaring van de verantwoordingsstukken
     url: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-de-verantwoordingsstukken
 nummer: CBN-advies 2010/14
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
-      sha256: cc3dc16756036705ba3ff4dc69f8573d60aeb6ad8fa0314939d527bac08266d0
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 7
-      max_section_chars: 5179
-      file_size_chars: 10522
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks. Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk juist, geen artefact.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: trusted
-    rationale: 'Geen zichtbare extractie-artefacten. Zeven ## en ### headings correct hiërarchisch. Voetnoten 1–18 volledig. Zinnen lopen door zonder spurious line-breaks. Tabellen ontbreken (dit advies heeft geen voorbeeldboekingen) — dat is inhoudelijk juist, geen artefact.'
-    status: trusted
 themas:
   - bewaring
   - bewaring van verantwoordingsstukken
@@ -50,8 +18,32 @@ themas:
   - elektronische facturering
   - plaats van bewaring
   - verantwoordingsstuk
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:56Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2010/14 - Bewaring van boeken en verantwoordingsstukken
 
 ## Inleiding

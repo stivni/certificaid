@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-aspecten-met-betrekking-tot-het-jaar-2000
 datum: 1999-02-01
 nummer: CBN-advies 176/1
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-aspecten-met-betrekking-tot-het-jaar-2000
-      sha256: 1b5d482fa1c89c87bcf7de36433ca0a9d3d2620f3c17f6156617a13f91dc898a
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 2
-      max_section_chars: 10828
-      file_size_chars: 17141
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Laag-1 pass, geen flags. Twee ## headings met volledige titels, 11 voetnoten correct aangelegd, opsommingen via ''-'' consistent, sub-bullets via ''-'' correct genest. Groot document maar inhoud compleet en lopend. Geen PDF-artefacten.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: trusted
-    rationale: 'Laag-1 pass, geen flags. Twee ## headings met volledige titels, 11 voetnoten correct aangelegd, opsommingen via ''-'' consistent, sub-bullets via ''-'' correct genest. Groot document maar inhoud compleet en lopend. Geen PDF-artefacten.'
-    status: trusted
 themas:
   - informaticasysteem
   - jaar 2000 problematiek
@@ -43,8 +11,32 @@ themas:
   - overgang naar het jaar 2000
   - software
   - voorziening
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-aspecten-met-betrekking-tot-het-jaar-2000
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:50Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 176/1 - Boekhoudrechtelijke aspecten met betrekking tot het jaar 2000
 
 In hun huidige versie kunnen sommige informaticasystemen gegevens in verband met datums van na het jaar 1999 niet naar behoren beheren in zover ze ontwikkeld zijn om enkel de twee eindcijfers en dus niet de vier cijfers van een jaartal te verwerken en op te slaan. De twee eeuwcijfers werden vaak weggelaten om het werkgeheugen te besparen. Dit probleem kan zware gevolgen hebben voor het bedrijfsleven.

@@ -6,64 +6,38 @@ gerelateerde_adviezen:
     titel: Inresultaatneming van het actuariële rendement van vastrentende effecten
     url: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten
 nummer: CBN-advies 148/5
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
-      sha256: 9a05429dbe510b4e87feb0e2aabca76f9ed492da6f32da5e1fac2cd203f35761
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:51:53Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 23
-      max_section_chars: 4388
-      file_size_chars: 9317
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B5
-          regel: 62
-          type: other
-          voorbeeld: "### 1 jaar : 80 000\n2 jaar : 166 400 \n3 jaar : 259 712"
-        - categorie: B2
-          regel: 73
-          type: other
-          voorbeeld: '### BOEKINGEN BIJ DE EMITTENT
-
-            ## Bij uitgifte'
-        - categorie: E2
-          regel: 216
-          type: other
-          voorbeeld: '| | aan 751 Opbrengsten uit vlottende activa | 13.027 | | |'
-        - categorie: E2
-          regel: 226
-          type: other
-          voorbeeld: '| | 124.553 | | | |'
-      rationale: 'B2: heading-hiërarchie springt op regel 62-73 van ### naar ## (BOEKINGEN BIJ DE EMITTENT als ### maar ''Bij uitgifte'' als ##). B5: de opsomming ''2 jaar : 166 400 / 3 jaar : 259 712 / 4 jaar : 360 489 / 5 jaar : 469 328'' op regel 63-70 heeft alleen het eerste item een ###-heading; de rest staat als plain-text body. E2: regel 216 heeft een table-cel met embedded ''aan 751 Opbrengsten...'' als kale tekst in een cel in plaats van een correcte pipe-rij; regel 226 heeft een losstaand getal ''124.553'' als cel-inhoud zonder context.'
-      run_at: '2026-05-11T17:51:53Z'
-      status: needs-rework
-    rationale: 'B2: heading-hiërarchie springt op regel 62-73 van ### naar ## (BOEKINGEN BIJ DE EMITTENT als ### maar ''Bij uitgifte'' als ##). B5: de opsomming ''2 jaar : 166 400 / 3 jaar : 259 712 / 4 jaar : 360 489 / 5 jaar : 469 328'' op regel 63-70 heeft alleen het eerste item een ###-heading; de rest staat als plain-text body. E2: regel 216 heeft een table-cel met embedded ''aan 751 Opbrengsten...'' als kale tekst in een cel in plaats van een correcte pipe-rij; regel 226 heeft een losstaand getal ''124.553'' als cel-inhoud zonder context.'
-    status: needs-rework
 themas:
   - actuarieel rendement op vastrentende effecten
   - actuariële rendement
   - kapitalisatiebon
   - toerekening van kosten en opbrengsten
   - vastrentende effecten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:40Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 148/5 - Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen 137/5 en 148/4
 
 Artikel 27*bis*, § 3 van het koninklijk besluit van 8 oktober 1976, zoals gewijzigd door het koninklijk besluit van 30 december 1991, bepaalt dat wanneer het actuariële rendement van vastrentende effecten berekend bij de aankoop, met inachtneming van hun terugbetalingswaarde op vervaldag, verschilt van hun nominaal rendement, het verschil tussen de aanschaffingswaarde en de terugbetalingswaarde *pro rata temporis* over de resterende looptijd van de effecten in resultaat wordt genomen als bestanddeel van de renteopbrengst, en naar gelang van het geval toegevoegd aan of afgetrokken van de aanschaffingswaarde van de effecten.

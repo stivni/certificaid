@@ -9,38 +9,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van de mini BEL-20
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
 nummer: CBN-advies 178/1
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
-      sha256: 04afdcb126a2343ef1d3e80d715762bcc4ec8a9373b222253ea9020277927ee1
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 8
-      max_section_chars: 17579
-      file_size_chars: 35738
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 10 headings, volledige inhoudelijke kern aanwezig: vijf verwerkingspunten volledig, IAS 39-verwijzingen, vier toepassingssituaties. Voetnootnummer in titeltekst is cosmetisch.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - vorderingsrecht
   - certificaathouder
@@ -53,8 +21,32 @@ themas:
   - financiële vaste activa
   - geldbeleggingen
   - inkomsten uit gecertificeerde effecten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:50Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 178/1 - Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen1
 
 De certificatie van effecten is een techniek die werd geregeld bij de wet van 15 juli 1998. Door de opsplitsing die ze mogelijk maakt tussen de patrimoniale aspecten van de effecten van een vennootschap en de daaraan verbonden stemrechten kan zij inzonderheid tot doel hebben de continuïteit van het management van een vennootschap te waarborgen. 

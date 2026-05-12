@@ -15,45 +15,37 @@ gerelateerde_adviezen:
     titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar (de grondeigenaa
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
 nummer: CBN-advies 2017/18
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname
-      sha256: 252075c74dbfd020a00ef2bc8e6c72414f78ee3c1ff32850917c1fe7263f4feb
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 0
-      max_section_chars: 9652
-      file_size_chars: 9652
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig advies met concrete case (gebouw 800.000 EUR, VIPA-subsidie 500.000 EUR) en journaalposten. Twee vergelijkende scenario''s uitgewerkt.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - afschrijvingen
   - kapitaalsubsidies
   - vaste activa in aanbouw
   - vooruitbetalingen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/afschrijving-van-materiele-vaste-activa-in-aanbouw-en-vooruitbetalingen-inresultaatname
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:27Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2017/18 – Afschrijving van materiële vaste activa in aanbouw en vooruitbetalingen - Inresultaatname van kapitaalsubsidies
 
 De Commissie voor Boekhoudkundige Normen werd gevraagd naar de boekhoudkundige verwerking van de volgende verrichting: een onderneming beslist een gebouw te laten bouwen voor een totaal investeringsbedrag van 800.000 euro (het gebouw). Het gebouw zal over 33 jaar worden afgeschreven. Op 31 december 20X0 werden er reeds werken gefactureerd ten bedrage van 120.000 euro, namelijk 15 % van het totaal investeringsbedrag. De onderneming komt hiervoor in aanmerking voor een subsidie van een totaalbedrag van 500.000 euro bij het Vlaams Infrastructuurfonds voor Persoonsgebonden Aangelegenheden (VIPA).[^2]
@@ -95,21 +87,17 @@ De mening van de Commissie berust op de volgende gronden:
 
 	Indien de subsidie niet evenredig in resultaat wordt genomen, zou zij het bedrag van de geboekte afschrijving overschrijden:
 
-| Inresultaatname van de subsidie: 3.788 euro (= 125.000 euro / 33 jaar) 
-
-				- Afschrijving van het bedrag opgenomen op rekening 27: 3.636 euro (= 120.000 euro / 33 jaar) | 
-| Resultaat: 152 euro | 
+| Inresultaatname van de subsidie: 3.788 euro (= 125.000 euro / 33 jaar) - Afschrijving van het bedrag opgenomen op rekening 27: 3.636 euro (= 120.000 euro / 33 jaar)|
 |---|
+| Resultaat: 152 euro|
 
 	Zoals hierboven echter uiteengezet, zal de subsidie slechts 62,5 % van het totaal investeringsbedrag vertegenwoordigen, zodat de afschrijving op het gebouw in de regel de inresultaatname van de subsidie zou moeten compenseren. 
 
 	Neemt de onderneming de subsidie evenredig in resultaat, dan bekomt zij als dusdanig het volgende resultaat:
 
-| Inresultaatname van de subsidie: 568 euro (= [125.000 euro / 33 jaar] * 15 %) 
-
-				- afschrijving van het bedrag opgenomen op rekening 27: 3.636 euro (= 120.000 euro / 33 jaar) | 
-| Resultaat: - 3.068 euro | 
+| Inresultaatname van de subsidie: 568 euro (= [125.000 euro / 33 jaar] * 15 %) - afschrijving van het bedrag opgenomen op rekening 27: 3.636 euro (= 120.000 euro / 33 jaar)|
 |---|
+| Resultaat: - 3.068 euro|
 
 Indien de onderneming het gebouw bovendien afwerkt in 20X1, zal zij het volgende neerschrijven:
 

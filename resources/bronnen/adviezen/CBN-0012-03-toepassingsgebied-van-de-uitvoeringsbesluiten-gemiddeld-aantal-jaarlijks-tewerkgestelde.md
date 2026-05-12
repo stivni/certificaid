@@ -2,49 +2,37 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-gemiddeld-aantal-jaarlijks-tewerkgestelde
 datum: 1979-05-01
 nummer: CBN-advies 12/3
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-gemiddeld-aantal-jaarlijks-tewerkgestelde
-      sha256: c30b11e8f6ea09cb21a53e7702fb6c211469e2f1ae15a369f21938c195d047ad
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:16:01Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 2258
-      file_size_chars: 2258
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D1
-          regel: 56
-          type: other
-          voorbeeld: koninklijk besluit van 18 oktober 1978[^1] ,[^2].
-      rationale: 'B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel staat slechts eenmaal (r52). De lichte ''[^1] ,[^2]'' spatie-voor-komma (r56) is een marginale opmaakafwijking die geen inhoudelijke of structurele impact heeft. Geen verdere artefacten: body volledig, drie voetnoten correct geformateerd, logische opbouw.'
-      run_at: '2026-05-11T13:16:01Z'
-      status: trusted
-    rationale: 'B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel staat slechts eenmaal (r52). De lichte ''[^1] ,[^2]'' spatie-voor-komma (r56) is een marginale opmaakafwijking die geen inhoudelijke of structurele impact heeft. Geen verdere artefacten: body volledig, drie voetnoten correct geformateerd, logische opbouw.'
-    status: trusted
 themas:
   - gemiddeld aantal tewerkgestelde personen
   - omvangcriteria
   - tewerkgestelde personen
   - uitzendkracht
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toepassingsgebied-van-de-uitvoeringsbesluiten-gemiddeld-aantal-jaarlijks-tewerkgestelde
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:01Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN advies 12-3 - Toepassingsgebied van de uitvoeringsbesluiten - Gemiddeld aantal jaarlijks tewerkgestelde personen
 De vraag werd gesteld welk criterium in aanmerking moet genomen worden voor de berekening van het gemiddeld aantal tewerkgestelde personen zoals bedoeld in artikel 12 van de wet van 17 juli 1975 en artikel 39 van het koninklijk besluit van 8 oktober 1976. 
 

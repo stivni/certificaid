@@ -15,43 +15,35 @@ gerelateerde_adviezen:
     titel: Rechten tot vertoning van films
     url: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
 nummer: CBN-advies 2016/26
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
-      sha256: 8c35c5e1d99a47d6f1ece5d1ac3706232fa829b1aa58e1e2eb74712bdf2d5f93
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 2
-      max_section_chars: 3158
-      file_size_chars: 4726
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Kort, schoon advies zonder zichtbare artefacten. Twee ##-headings correct; vijf voetnoten volledig gedefinieerd; geen broken opmaak of extractiesporen.'
-      run_at: '2026-05-11T12:16:34Z'
-      status: trusted
-    rationale: 'Kort, schoon advies zonder zichtbare artefacten. Twee ##-headings correct; vijf voetnoten volledig gedefinieerd; geen broken opmaak of extractiesporen.'
-    status: trusted
 themas:
   - diensten en diverse goederen
   - kilometerheffing
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/kilometerheffing
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:20Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
 ## Algemeen

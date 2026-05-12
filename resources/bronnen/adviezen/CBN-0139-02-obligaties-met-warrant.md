@@ -15,48 +15,36 @@ gerelateerde_adviezen:
     titel: 'Vastrentende effecten : financiële vaste activa of geldbeleggingen ? Criteria'
     url: https://www.cbn-cnc.be/nl/adviezen/vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria
 nummer: CBN-advies 139/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant
-      sha256: b62f014465cf143e0fa22c5f4b0c68c37d7e64724a3b959597911a6abe560eeb
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 3657
-      file_size_chars: 3657
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: F1
-          regel: 11
-          type: other
-          voorbeeld: 'titel: Passende boekhoudkundige verwerking van de tegenwaarde van participatiecertificaten CPC&#039;s'
-      rationale: 'F1 (regel 11): HTML-entity ''&#039;'' in frontmatter-veld ''gerelateerde_adviezen.titel'' staat nog steeds niet gedecodeerd — scraper-artefact ongewijzigd t.o.v. ronde 2. Body volledig schoon: tabel correct, voetnoot correct, geen verdere artefacten.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'F1 (regel 11): HTML-entity ''&#039;'' in frontmatter-veld ''gerelateerde_adviezen.titel'' staat nog steeds niet gedecodeerd — scraper-artefact ongewijzigd t.o.v. ronde 2. Body volledig schoon: tabel correct, voetnoot correct, geen verdere artefacten.'
-    status: needs-rework
 themas:
   - obligaties
   - obligaties met warrant
   - warrant
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:34Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 139/2 - Obligaties met warrant
 
 De Commissie werd ondervraagd over de boekingswijze van obligaties uitgegeven met warranten evenals over de aanschaffingswaarde die moet worden toegekend respectievelijk aan de obligatie en aan de warrant bij afzondering van deze laatste. 

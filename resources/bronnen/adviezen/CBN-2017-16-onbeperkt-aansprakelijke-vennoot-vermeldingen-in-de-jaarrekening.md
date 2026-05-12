@@ -2,56 +2,36 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
 datum: 2017-09-13
 nummer: CBN-advies 2017/16
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
-      sha256: 20d910d026c92012c57fcec04e4d61a64ca89bb59dcdd172671d0fee330df66f
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 17
-      max_section_chars: 11064
-      file_size_chars: 20405
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B5
-          regel: 96
-          type: other
-          voorbeeld: Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt
-        - categorie: B5
-          regel: 128
-          type: other
-          voorbeeld: Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd
-        - categorie: B3
-          regel: 57
-          type: other
-          voorbeeld: vermeldingen in de jaarrekening
-      rationale: 'B5: regels 96 en 128 (body) bevatten sectiehoofdingen als plain-text zonder ## prefix: ''Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt'' en ''Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd'' — beiden zijn secties met inhoudstafel-equivalent niveau maar missen de heading-markering. B3: regel 57 (body) herhaalt ''vermeldingen in de jaarrekening'' als orphan-zin direct na de H1.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'B5: regels 96 en 128 (body) bevatten sectiehoofdingen als plain-text zonder ## prefix: ''Opname van de jaarrekening van de ondernemingen waarvoor de onbeperkte aansprakelijkheid geldt'' en ''Op welke wijze moeten de jaarrekeningen in het apart document of in de toelichting worden gepresenteerd'' — beiden zijn secties met inhoudstafel-equivalent niveau maar missen de heading-markering. B3: regel 57 (body) herhaalt ''vermeldingen in de jaarrekening'' als orphan-zin direct na de H1.'
-    status: needs-rework
 themas:
   - onbeperkt aansprakelijk vennoot
   - toelichting
   - onbeperkte aansprakelijkheid
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/onbeperkt-aansprakelijke-vennoot-vermeldingen-in-de-jaarrekening
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:26Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2017/16 – Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening
 
 ## Inleiding

@@ -15,46 +15,38 @@ gerelateerde_adviezen:
     titel: Verplichtingen voortvloeiend uit brugpensioen
     url: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen-0
 nummer: CBN-advies 107/3
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen
-      sha256: c7da02172dffa0ce6a538d9d681abf8cda6a17658a255ae7d424f3ce6af97c47
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:30Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 5525
-      file_size_chars: 5525
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee concrete rechtsvragen beantwoord, grondige motivering waarom art. 45 KB 1976 niet toepasselijk.'
-      run_at: '2026-05-08T19:02:30Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - brugpensioen
   - conventioneel brugpensioen
   - verplichting voortvloeiend uit brugpensioen
   - voorziening
   - voorzieningen voor brugpensioen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:09Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 107/3 - Verplichtingen voortvloeiend uit brugpensioen
 
 Aan de Commissie werd gevraagd hoe in de jaarrekening van een onderneming verplichtingen moeten worden geboekt die zij aangaat wanneer zij, in het kader van het conventioneel brugpensioenstelsel ingevoerd door de collectieve arbeidsovereenkomst nr. 17 van 19 november 1974[^1], bepaalde werknemers op brugpensioen stelt.

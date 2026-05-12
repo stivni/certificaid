@@ -6,38 +6,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van virtuele munten (ONTWERP)
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-virtuele-munten-ontwerp
 nummer: CBN-advies 2021/16
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
-      sha256: 93817b0a58155c7cf3900e7005139b5fa9fdce3a655d921559deef8a09c48bc0
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:21:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 2
-      max_section_chars: 6083
-      file_size_chars: 7408
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen extractie-artefacten. De italic-hits uit de analyse zijn false positives: ''*blockchain*'', ''*Liquide middelen*'', ''*Overige vorderingen*'' zijn correcte markdown-italics zonder spaties. Twee headings correct, inhoud volledig, alle vier voetnootdefinities aanwezig. Compact maar compleet advies.'
-      run_at: '2026-05-11T12:21:41Z'
-      status: trusted
-    rationale: 'Geen extractie-artefacten. De italic-hits uit de analyse zijn false positives: ''*blockchain*'', ''*Liquide middelen*'', ''*Overige vorderingen*'' zijn correcte markdown-italics zonder spaties. Twee headings correct, inhoud volledig, alle vier voetnootdefinities aanwezig. Compact maar compleet advies.'
-    status: trusted
 themas:
   - cryptocurrency
   - cryptomunt
@@ -49,8 +17,32 @@ themas:
   - geldbelegging
   - vordering
   - overige vorderingen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/waarderen-en-boeken-van-cryptomunten-gebruikt-als-betaalmiddel
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:43Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2021/16 – Waarderen en boeken van cryptomunten gebruikt als betaalmiddel
 
 ## Inleiding

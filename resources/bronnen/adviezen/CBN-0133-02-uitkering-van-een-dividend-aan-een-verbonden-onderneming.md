@@ -15,46 +15,38 @@ gerelateerde_adviezen:
     titel: Voorstel tot uitkering van een dividend
     url: https://www.cbn-cnc.be/nl/adviezen/voorstel-tot-uitkering-van-een-dividend
 nummer: CBN-advies 133/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/uitkering-van-een-dividend-aan-een-verbonden-onderneming
-      sha256: 2964e9efa28a0bb8594cd291790d81747302d45363f00943fbfcdb29b03a6fa5
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 1288
-      file_size_chars: 1288
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Kort advies (1288 chars), twee alinea's. Geen detecteerbare artefacten van welke categorie dan ook. Italic-spans afwezig (geen rekening-namen gecursiveerd). Frontmatter klopt. Laag 1 pass zonder flags.
-      run_at: '2026-05-11T12:04:41Z'
-      status: trusted
-    rationale: Kort advies (1288 chars), twee alinea's. Geen detecteerbare artefacten van welke categorie dan ook. Italic-spans afwezig (geen rekening-namen gecursiveerd). Frontmatter klopt. Laag 1 pass zonder flags.
-    status: trusted
 themas:
   - dividenden
   - dividenduitkering
   - onderneming met participatieverhouding
   - uitkering van een dividend
   - verbonden onderneming
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/uitkering-van-een-dividend-aan-een-verbonden-onderneming
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:31Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 133/2 - Uitkering van een dividend aan een verbonden onderneming
 
 In dezelfde gedachtengang werd de vraag gesteld of een dividend dat bij de uitkering zal toekomen aan een verbonden onderneming of aan een onderneming waarmee een participatieverhouding bestaat, in punt 14 van de toelichting onder de schulden aan verbonden ondernemingen c.q. aan ondernemingen waarmee een participatieverhouding bestaat, moet vermeld worden. 

@@ -15,45 +15,37 @@ gerelateerde_adviezen:
     titel: Afschrijvingsmethoden
     url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
 nummer: CBN-advies 112/5
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/progressieve-afschrijvingsmethode
-      sha256: e755a65edaf94c50284ba2ae6d610d7d90eac6f75714c7e81936b93780882a67
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:16:02Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 4475
-      file_size_chars: 4475
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Prior layer2 verdict (needs-rework, B3 duplicate headings op L57 en L59) is onjuist: die regelnummers vallen in de frontmatter. De body heeft slechts één H1-heading op regel 65. De heading-tekst ''CBN advies 112/5'' mist een koppelteken na ''CBN'' vergeleken met de conventie, maar dit is cosmetisch. Geen ETL-artefacten in de body aangetroffen.'
-      run_at: '2026-05-11T13:16:02Z'
-      status: trusted
-    rationale: 'Prior layer2 verdict (needs-rework, B3 duplicate headings op L57 en L59) is onjuist: die regelnummers vallen in de frontmatter. De body heeft slechts één H1-heading op regel 65. De heading-tekst ''CBN advies 112/5'' mist een koppelteken na ''CBN'' vergeleken met de conventie, maar dit is cosmetisch. Geen ETL-artefacten in de body aangetroffen.'
-    status: trusted
 themas:
   - afschrijvingen
   - afschrijvingsplan
   - gebruiksduur
   - progressieve afschrijvingsmethode
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/progressieve-afschrijvingsmethode
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:17Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN advies 112/5 - Progressieve afschrijvingsmethode
 Volgens het koninklijk besluit van 8 oktober 1976 moeten de materiële en immateriële vaste activa waarvan de gebruiksduur beperkt is, worden afgeschreven volgens een door het beheersorgaan bepaald plan, teneinde de aanschaffingskosten te spreiden over hun waarschijnlijke nuttigheids- of gebruiksduur. Dit afschrijvingsbeleid moet stroken met de beginselen inzake voorzichtigheid, oprechtheid en goede trouw. Het mag niet worden geconditioneerd door de resultaten van het boekjaar. 
 

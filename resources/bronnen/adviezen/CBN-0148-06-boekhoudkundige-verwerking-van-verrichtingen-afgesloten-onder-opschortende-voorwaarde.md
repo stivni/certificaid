@@ -12,46 +12,38 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van kapitaalsubsidies waarvan de toekenning en/of de uitbetaling over verschillende jaren wordt gespreid
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling
 nummer: CBN-advies 148/6
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
-      sha256: d68168fcce935fdf12f1c2d2d983924d931f38803033ef5f116f97b8f5d624fe
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:30Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 6118
-      file_size_chars: 6118
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Drie exhaustieve scenario''s met duidelijke rechtsgevolgen, concrete wetsverwijzingen, praktijkgeval met overheidsgoedkeuring. Volledig coherent als één chunk.'
-      run_at: '2026-05-08T19:02:30Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - opschortende voorwaarde
   - toerekening van kosten en opbrengsten
   - verrichting onder opschortende voorwaarde
   - voorwaardelijke verbintenis
   - voorziening
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-verrichtingen-afgesloten-onder-opschortende-voorwaarde
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:40Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 148/6 - Boekhoudkundige verwerking van verrichtingen afgesloten onder opschortende voorwaarde
 
 Artikel 33, tweede lid van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna: KB W.Venn.) bepaalt dat "rekening moet gehouden worden met de kosten en opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze worden betaald of geïnd, behalve indien de effectieve inning van deze opbrengsten onzeker is (...)". 

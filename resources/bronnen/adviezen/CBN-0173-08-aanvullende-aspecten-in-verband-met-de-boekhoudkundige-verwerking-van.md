@@ -2,42 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
 datum: 1999-02-01
 nummer: CBN-advies 173/8
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
-      sha256: 878ca1049fadc02cc82f266a5b5ad4227e34e1134ca9e1336da3f1a305b8c127
-      version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T19:17:26Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: HTML-entiteit-rest `TD>` in een tabelcel (regel 144) is een scraper-artefact dat niet uit de bron-HTML komt maar door een incomplete HTML-tag-strip is ingeslopen. Verdere inhoud is compleet en heading-structuur klopt; tabellen zijn verder goed opgemaakt.
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 6
-      max_section_chars: 7450
-      file_size_chars: 16256
-      flags: []
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: HTML-entiteit-rest `TD>` in een tabelcel (regel 144) is een scraper-artefact dat niet uit de bron-HTML komt maar door een incomplete HTML-tag-strip is ingeslopen. Verdere inhoud is compleet en heading-structuur klopt; tabellen zijn verder goed opgemaakt.
-      concrete_problemen:
-        - regel: 144
-          categorie: G1
-          type: other
-          voorbeeld: '| | 400 | Handelsdebiteuren/ TD> | 10,61 | |'
 themas:
   - verwerking van afrondingsverschillen
   - afronding
@@ -47,8 +11,32 @@ themas:
   - invoering van de euro
   - omrekeningskoers
   - overschakeling op de euro
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanvullende-aspecten-in-verband-met-de-boekhoudkundige-verwerking-van
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:49Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 173/8 - Aanvullende aspecten in verband met de boekhoudkundige verwerking van afrondingsverschillen bij conversie
 
 In haar Bulletin nr. 42 van februari 1998 heeft de Commissie voor Boekhoudkundige Normen het advies 173/2 gepubliceerd over de boekhoudkundige verwerking van de afrondingen bij conversie. Dat advies betrof in het bijzonder de problematiek van de overeenstemming tussen, enerzijds, de omrekeningen van het totaal van de afzonderlijke bedragen in euro of in Belgische frank en, anderzijds, de omrekening van het totaalbedrag in euro of in Belgische frank. Ingevolge de publicatie van dat advies van algemene draagwijdte werden aan de Commissie verschillende vragen gesteld. Die vragen gingen niet over wezenlijke punten van boekhouddoctrine maar over technische en praktische aspecten van de aanpassing van de boekhouding.
@@ -80,14 +68,14 @@ Stel dat een onderneming (bij de overschakeling van haar boekhouding op de euro)
 
 Op basis van de officiële omrekeningskoers (BEF/EUR) van 40,3399, ziet de overschakeling van de MAR-rekening 400 "Handelsdebiteuren" er als volgt uit:
 
-| | | **BEF** | | **EUR** | 
-|---|---|---|---|---|
-| Klant A | | 1.205 | | 29,87 | 
-| Klant B | | 1.300 | | 32,23 | 
-| Klant C | | 500 | | 12,39 | 
-| Klant D | | 600 | | 14,87 | 
-| | | | | *(89,36)* | 
-| | | 3.605 | | 89,37 | 
+| | **BEF**|** EUR**|
+|---|---|---|
+| Klant A| 1.205| 29,87|
+| Klant B| 1.300| 32,23|
+| Klant C | 500| 12,39|
+| Klant D| 600| 14,87|
+| | | *(89,36)*|
+| | 3.605| 89,37|
 
 In dit bijzonder geval zou de afronding niet binnen de verschillende individuele klantenrekeningen worden doorgevoerd, maar op het niveau van het totaal, (zijnde de MAR-rekening 400), die bijgevolg niet een debetsaldo van 89,37 maar van 89,36 euro’s vertoont. Het verschil van 0,01 EUR moet via de rekening of subrekening 65/75 worden ten laste genomen. 
 
@@ -109,22 +97,22 @@ Vennootschap A besluit haar boekhouding op 1 mei 1999 op de euro over te schakel
 | 
 
 ## Balans in BEF op 30/4/99
-  | | **Tegenwaarde in EUR, afgerond op de 2de decimaal** | 
-|---|---|
-| 100 | | Kapitaal | | | | 150 | | | | 3,72 | 
-| 2210 | | Gebouwen | | 1207 | | | | 29,92 | | | 
-| 22109 | | Afschrijvingen op gebouwen | | | | 302 | | | | 7,49 | 
-| 400 | | Handelsdebiteuren | | 428 | | | | 10,61 | | | 
-| 55 | | Kredietinstellingen | | 56 | | | | 1,39 | | | 
-| | | | | | | | | | | | 
-| 440 | | Leveranciers | | | | 1052 | | | | 26,08 | 451 | | Te betalen BTW |
- | | | | 221 | | | | 5,48 | 
-| | | | | | | | | | | | 
-| 61 | | Diensten & diverse goederen | | 1132 | | | | 28,06 | | | 
-| 6302 | | Afschrijvingen op materiële vaste activa | | 48 | | | | 1,19 | | | 
-| | | | | | | | | | | | 
-| 70 | | Omzet | | | | 1146 | | | | 28,41 | 
-| | | | | *2871* | | *2871* | | *71,17* | | *71,18* | 
+ | **Tegenwaarde in EUR, afgerond op de 2de decimaal**|
+|---|
+| 100| Kapitaal| | 150| | 3,72|
+| 2210| Gebouwen| 1207| | 29,92| |
+| 22109| Afschrijvingen op gebouwen| | 302| | 7,49|
+| 400| Handelsdebiteuren| 428| | 10,61| |
+| 55| Kredietinstellingen| 56| | 1,39| |
+| | | | | | |
+| 440| Leveranciers| | 1052| | 26,08|
+| 451| Te betalen BTW | | 221| | 5,48|
+| | | | | | |
+| 61 | Diensten & diverse goederen| 1132| | 28,06| |
+| 6302| Afschrijvingen op materiële vaste activa| 48| | 1,19| |
+| | | | | | |
+| 70| Omzet| | 1146| | 28,41|
+| | | *2871*|* 2871*|* 71,17*|* 71,18*|
 
 ### Overschakeling van de boekhouding op de euro op 1/5/99
 ### A. Afsluiting van de boekhouding in BEF

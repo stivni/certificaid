@@ -6,42 +6,6 @@ gerelateerde_adviezen:
     titel: Voorzieningen voor de schulden ten opzichte van het personeel bij sluiting van de onderneming
     url: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-de-schulden-ten-opzichte-van-het-personeel-bij-sluiting-van-de
 nummer: CBN-advies 134/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
-      sha256: 938d859daac2fd8d5c51f728bb891bcb6c39abf197dd7efcb74f735ab792253e
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 2126
-      file_size_chars: 2126
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: F1
-          regel: 55
-          type: other
-          voorbeeld: voorzieningen voor risico&#039;s en kosten (HTML-entiteit niet gedecodeerd in frontmatter)
-      rationale: 'F1 op L55: frontmatter-veld themas bevat ongedecodeerde HTML-entiteit ''&#039;'' (apostrof) in ''voorzieningen voor risico&#039;s en kosten'' — ETL-bug die machine-leesbare metadata corrumpeert voor retrieval. Body (L59-L72) is volledig schoon.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'F1 op L55: frontmatter-veld themas bevat ongedecodeerde HTML-entiteit ''&#039;'' (apostrof) in ''voorzieningen voor risico&#039;s en kosten'' — ETL-bug die machine-leesbare metadata corrumpeert voor retrieval. Body (L59-L72) is volledig schoon.'
-    status: needs-rework
 themas:
   - afdanking van personeel
   - belastingen
@@ -54,8 +18,32 @@ themas:
   - reserves
   - voorzieningen voor risico&#039;s en kosten
   - vrijgestelde reserves
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:32Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 134/2 - Belastingvrije provisie voor sociaal passief
 
 Door het koninklijk besluit nr. 7 van 15 februari 1982[^1] tot wijziging van het WIB met betrekking tot het sociaal passief wordt aan bepaalde ondernemingen de mogelijkheid verleend om bij de aanwerving van bijkomend personeel een belastingvrije «provisie» te vormen voor de kosten die de onderneming moet dragen in geval van afdanking van werknemers. Aan de Commissie werd gevraagd hoe deze «provisie» in de jaarrekening moet worden geboekt en of zij boekhoudkundig te beschouwen is als een reserve dan wel als een voorziening voor risico's en lasten in de zin van het besluit van 8 oktober 1976. 

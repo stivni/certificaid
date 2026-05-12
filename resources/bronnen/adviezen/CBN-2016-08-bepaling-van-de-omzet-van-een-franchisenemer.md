@@ -2,52 +2,36 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-omzet-van-een-franchisenemer
 datum: 2016-06-15
 nummer: CBN-advies 2016/8
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-omzet-van-een-franchisenemer
-      sha256: 407c616f79f88d89f2f91835aa4df7d710fee8284d31d361e93fe77c83f16221
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 2
-      max_section_chars: 8071
-      file_size_chars: 8275
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 61
-          type: other
-          voorbeeld: '* Onder omzet wordt verstaan het bedrag van de verkoop... (opent multiline italic over lege regels heen)'
-        - categorie: D4
-          regel: 65
-          type: other
-          voorbeeld: '...voor hun bedrijf.* (sluit multiline italic na meerdere lege regels)'
-      rationale: 'D4: regels 61–65 bevatten een wetsartikel-citaat waarbij de extractor een `*`-italic-span opent op regel 61 (`* Onder omzet...`) en sluit op regel 65 (`...voor hun bedrijf.*`) over meerdere alinea-breaks heen — in standaard markdown-parsers breekt een inline `*...*` span bij een lege regel, waardoor de rendering onvoorspelbaar is. Overige inhoud inhoudelijk volledig; voetnoten [^1]–[^13] aanwezig.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'D4: regels 61–65 bevatten een wetsartikel-citaat waarbij de extractor een `*`-italic-span opent op regel 61 (`* Onder omzet...`) en sluit op regel 65 (`...voor hun bedrijf.*`) over meerdere alinea-breaks heen — in standaard markdown-parsers breekt een inline `*...*` span bij een lege regel, waardoor de rendering onvoorspelbaar is. Overige inhoud inhoudelijk volledig; voetnoten [^1]–[^13] aanwezig.'
-    status: needs-rework
 themas:
   - franchiseovereenkomst
   - franchising
   - omzet
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-omzet-van-een-franchisenemer
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:17Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/8 - Bepaling van de omzet van een franchisenemer
 
 ## Inleiding
@@ -72,8 +56,7 @@ De franchiseovereenkomst wordt niet behandeld in het voormelde advies. Deze over
 
 In artikel I.11., 2° van het Wetboek van economisch recht wordt het concept ruimer omschreven als een “commerciële samenwerkingsovereenkomst” waaronder ook de franchiseovereenkomst valt:
 
-*commerciële samenwerkingsovereenkomst: overeenkomst gesloten tussen meerdere personen, waarbij de ene persoon het recht verleent aan de andere om bij de verkoop van producten of de verstrekking van diensten een commerciële formule te gebruiken onder één of meerdere van de volgende vormen:*
-
+## commerciële samenwerkingsovereenkomst: overeenkomst gesloten tussen meerdere personen, waarbij de ene persoon het recht verleent aan de andere om bij de verkoop van producten of de verstrekking van diensten een commerciële formule te gebruiken onder één of meerdere van de volgende vormen:
 - *een gemeenschappelijk uithangbord;* 
 - *een gemeenschappelijke handelsnaam;* 
 - *een overdracht van knowhow;* 

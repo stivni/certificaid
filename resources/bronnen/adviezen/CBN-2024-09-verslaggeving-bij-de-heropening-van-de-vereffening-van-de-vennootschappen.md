@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een vennootschap
     url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap
 nummer: CBN-advies 2024/09
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
-      sha256: e5d77e7af0f0c308f6472d1556d1d8acc3050b5396ef38ed23f623d8a5ecd410
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 7
-      max_section_chars: 20685
-      file_size_chars: 29363
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 5 headings voor inhoudelijk volledig advies. Minderheidsstandpunt correct en volledig opgenomen. Journaalposten correct als Markdown-tabellen. Wat boven de drempel valt is inherent aan de rijke inhoud.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - vereffening
   - heropening vereffening
@@ -57,8 +25,32 @@ themas:
   - publicatie
   - neerlegging van de jaarrekening
   - vereffeningsperiode
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-de-vennootschappen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:53Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2024/09 – Verslaggeving bij de heropening van de vereffening van de vennootschappen
 
 ## Inleiding
@@ -108,30 +100,26 @@ In een dergelijk geval zullen de boekingen in hoofde van desbetreffende vennoots
 | aan | 489X | Andere diverse schulden: onbetaalde schuldeiser | | 80 |
 | | 489 | Andere diverse schulden | 20 | |
 
-*Boeking realisatie vergeten actief voor 120*
-
+## Boeking realisatie vergeten actief voor 120
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 416 | Diverse vorderingen | 120 | |
 | aan | 2/3/4/5 | Vergeten actief | | 100 |
 | | 764 | Andere niet-recurrente bedrijfsopbrengsten | 20 | |
 
-*Boeking geraamde belastingen* 
-
+## Boeking geraamde belastingen
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6702 | Geraamde belastingen | 5 | |
 | aan | 450 | Belgische winstbelasting | | 5 |
 
-*Boeking ontvangst vordering*
-
+## Boeking ontvangst vordering
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 550 | Kredietinstellingen: rekening-courant | 120 | |
 | aan | 416 | Diverse vorderingen | | 120 |
 
-*Betaling schuldeiser*
-
+## Betaling schuldeiser
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 489X | Andere diverse schulden: onbetaalde schuldeiser | 80 | |
@@ -144,8 +132,7 @@ In een dergelijk geval zullen de boekingen in hoofde van desbetreffende vennoots
 | | 450 | Belgische winstbelasting | 5 | |
 | aan | 550 | Kredietinstellingen: rekening-courant | | 5 |
 
-*Boeking toewijzing van saldo aan de rechthebbenden*
-
+## Boeking toewijzing van saldo aan de rechthebbenden
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 697 | Andere rechthebbenden | 15 | |

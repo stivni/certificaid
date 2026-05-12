@@ -15,42 +15,6 @@ gerelateerde_adviezen:
     titel: Verslaggeving bij onmiddellijke sluiting van de vereffening van een vennootschap
     url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap
 nummer: CBN-advies 2024/10
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
-      sha256: d890612ad02a0fd7aceb09a037b130b54c0b9dcb02864b8735cc43a03bac28d8
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:34:13Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 7
-      max_section_chars: 9534
-      file_size_chars: 18544
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D3
-          regel: 204
-          type: other
-          voorbeeld: '[^19]: In dit voorbeeld wordt ervan uitgegaan... — geen [^19] anker zichtbaar in body-tekst van Voorbeeld 1'
-      rationale: 'Geen A- of B-categorie artefacten gevonden. Tabellen (regels 114-148) zijn correct opgemaakt met pipe-syntax én separator-rijen. Heading-hiërarchie klopt: # titel, ## secties, ### subsecties. Voetnoten [^1]–[^35] zijn aanwezig; [^19], [^20], [^21] staan in het voetnoetenblok maar ontbreken als anker in de body — dit zijn waarschijnlijk voetnoten bij de journaalposten die de scraper niet heeft opgepikt, maar het is een beperkte imperfectie zonder leesbaarheidsimpact. Geen OCR-verwarring, geen form-feeds, geen kolom-bleed. Inhoud compleet: Inleiding, wettekst art. 2:138 integraal geciteerd, twee voorbeelden met journaalboekingen.'
-      run_at: '2026-05-11T13:34:13Z'
-      status: trusted
-    rationale: 'Geen A- of B-categorie artefacten gevonden. Tabellen (regels 114-148) zijn correct opgemaakt met pipe-syntax én separator-rijen. Heading-hiërarchie klopt: # titel, ## secties, ### subsecties. Voetnoten [^1]–[^35] zijn aanwezig; [^19], [^20], [^21] staan in het voetnoetenblok maar ontbreken als anker in de body — dit zijn waarschijnlijk voetnoten bij de journaalposten die de scraper niet heeft opgepikt, maar het is een beperkte imperfectie zonder leesbaarheidsimpact. Geen OCR-verwarring, geen form-feeds, geen kolom-bleed. Inhoud compleet: Inleiding, wettekst art. 2:138 integraal geciteerd, twee voorbeelden met journaalboekingen.'
-    status: trusted
 themas:
   - vereffening
   - vereniging
@@ -63,8 +27,32 @@ themas:
   - vereffeningsperiode
   - vergeten actief
   - heropening vereffening
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-de-heropening-van-de-vereffening-van-ivzws-die-een-dubbele-boekhouding
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:53Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2024/10 – Verslaggeving bij de heropening van de vereffening van (i)vzw’s die een dubbele boekhouding voeren
 
 ## Inleiding
@@ -116,30 +104,26 @@ In een dergelijk geval zullen de boekingen in hoofde van desbetreffende vzw er a
 | aan | 489X | Andere diverse schulden: onbetaalde schuldeisers | | 80 |
 | | 489 | Andere diverse schulden | 20 | |
 
-*Boeking realisatie vergeten actief voor 120*
-
+## Boeking realisatie vergeten actief voor 120
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 416 | Diverse vorderingen | 120 | |
 | aan | 2/3/4/5 | Vergeten actief | | 100 |
 | | 764 | Andere niet-recurrente bedrijfsopbrengsten | 20 | |
 
-*Boeking ontvangst vordering*
-
+## Boeking ontvangst vordering
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 550 | Kredietinstellingen: rekening-courant | 120 | |
 | aan | 416 | Diverse vorderingen | | 120 |
 
-*Betaling schuldeiser*
-
+## Betaling schuldeiser
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 489X | Andere diverse schulden: onbetaalde schuldeisers | 80 | |
 | aan | 550 | Kredietinstellingen: rekening-courant | | 80 |
 
-*Boeking toewijzing van vereffeningssaldo aan het belangeloos doel*
-
+## Boeking toewijzing van vereffeningssaldo aan het belangeloos doel
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 69X | Andere rechthebbenden | 20 | |

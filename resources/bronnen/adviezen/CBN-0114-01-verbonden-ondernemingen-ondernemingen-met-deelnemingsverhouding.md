@@ -12,54 +12,38 @@ gerelateerde_adviezen:
     titel: Bezit van maatschappelijke rechten in verbonden ondernemingen of in ondernemingen waarmee een deelnemingsverhouding bestaat - Begrip deelneming
     url: https://www.cbn-cnc.be/nl/adviezen/bezit-van-maatschappelijke-rechten-in-verbonden-ondernemingen-of-in-ondernemingen-waarmee
 nummer: CBN-advies 114/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen-ondernemingen-met-deelnemingsverhouding
-      sha256: 92658798ac58ca0952215a8a51c2ca208fa3e115667cbc28b417364235c0c23a
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:20Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 4444
-      file_size_chars: 4444
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D3
-          regel: 98
-          type: other
-          voorbeeld: '[^5]: Rubrieken 7301 tot 7312. — identiek aan [^6], maar context = schulden'
-        - categorie: D3
-          regel: 100
-          type: other
-          voorbeeld: '[^6]: Rubrieken 7301 tot 7312. — duplicaat van [^5], context = financiële opbrengsten'
-      rationale: 'D3: voetnoten [^5] (regel 98) en [^6] (regel 100) zijn identiek (''Rubrieken 7301 tot 7312.''), maar de body-tekst refereert [^5] aan schulden en [^6] aan financiële opbrengsten bekomen van verbonden ondernemingen — rubriek 73xx is financiële opbrengsten, dus [^5] is inhoudelijk onjuist. ETL-extractiefout die foutieve definitie geeft aan de lezer.'
-      run_at: '2026-05-11T17:05:20Z'
-      status: needs-rework
-    rationale: 'D3: voetnoten [^5] (regel 98) en [^6] (regel 100) zijn identiek (''Rubrieken 7301 tot 7312.''), maar de body-tekst refereert [^5] aan schulden en [^6] aan financiële opbrengsten bekomen van verbonden ondernemingen — rubriek 73xx is financiële opbrengsten, dus [^5] is inhoudelijk onjuist. ETL-extractiefout die foutieve definitie geeft aan de lezer.'
-    status: needs-rework
 themas:
   - deelnemingsverhouding
   - financiële vaste activa
   - ondernemingen met deelnemingsverhouding
   - participatieverhouding
   - verbonden onderneming
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen-ondernemingen-met-deelnemingsverhouding
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:20Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 114/1 - Verbonden ondernemingen - Ondernemingen met deelnemingsverhouding
 
 Het koninklijk besluit van 8 oktober 1976 legt de verplichting op om in de jaarrekening de belangrijkste verhoudingen tot uiting te doen komen die bestaan tussen de onderneming enerzijds en de ondernemingen die met haar verbonden zijn of waarmee een participatieverhouding bestaat anderzijds. Deze verhoudingen hebben betrekking op de participaties[^1], de vorderingen[^2], de waarborgen verstrekt in hun voordeel[^3] en de bekomen waarborgen[^4], de schulden[^5], de financiële opbrengsten bekomen van dergelijke ondernemingen ([^6]) en de financiële opbrengsten toegekend aan die ondernemingen[^7]. 

@@ -15,53 +15,37 @@ gerelateerde_adviezen:
     titel: Afschrijvingsmethoden
     url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
 nummer: CBN-advies 112/8
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/waarderingsregels
-      sha256: 5f9735a6cc71f59d06a1d68dce41ce8103eaf065ab88ae29197085c9ba315c0f
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:20Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 1899
-      file_size_chars: 1899
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 73
-          type: other
-          voorbeeld: om duidelijk het [LEGE REGEL] onderscheid te laten blijken
-        - categorie: E2
-          regel: 79
-          type: pseudo-table
-          voorbeeld: '| | | **Lineair afschrijvingspercentage op aanschaffingswaarde** | | **Aanvankelijk...**'
-      rationale: 'A6: paragraaf op regels 73-75 is gesplitst over een lege regel midden in een zin (''om duidelijk het'' → lege regel → ''onderscheid te laten blijken'') — typisch PDF-kolom-extractie-artefact. E2: tabel (regels 79-86) bevat lege spacer-cellen (| | |) als visuele opvulling uit het bronformaat, geen valide markdown-tabelkolommen.'
-      run_at: '2026-05-11T17:05:20Z'
-      status: needs-rework
-    rationale: 'A6: paragraaf op regels 73-75 is gesplitst over een lege regel midden in een zin (''om duidelijk het'' → lege regel → ''onderscheid te laten blijken'') — typisch PDF-kolom-extractie-artefact. E2: tabel (regels 79-86) bevat lege spacer-cellen (| | |) als visuele opvulling uit het bronformaat, geen valide markdown-tabelkolommen.'
-    status: needs-rework
 themas:
   - afschrijvingen
   - degressieve afschrijving
   - toelichting
   - waarderingsregels
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/waarderingsregels
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:16Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
 Artikel 15 van het koninklijk besluit van 8 oktober 1976 stelt dat het bestuursorgaan de regels bepaalt die, met naleving van de bepalingen van het besluit doch rekening houdend met de eigen karakteristieken, gelden voor de waardering van de inventaris en, onder meer, voor de vorming en de aanpassing van afschrijvingen (...). De waarderingsregels worden samengevat in de toelichting op een nauwkeurige wijze die inzicht geeft in de toegepaste waarderingsmethoden. 
@@ -76,11 +60,11 @@ onderscheid te laten blijken met andere afschrijvingsvormen.
 
 Om elke verkeerde interpretatie over het degressieve afschrijvingspercentage te vermijden, raadt de Commissie aan, bij toepassing van een degressief afschrijvingsplan, in de toelichting te vermelden:
 
-| | | **Lineair afschrijvingspercentage op aanschaffingswaarde** | | **Aanvankelijk toegepast verhoogd afschrijvingspercentage op netto-boekwaarde** | 
-|---|---|---|---|---|
-| Immateriële vaste activa | | ...% | | ...% | 
-| Gebouwen | | ...% | | ...% | 
-| Installaties, machines en uitrusting | | ...% | | ...% | 
-| Meubilair | | ...% | | ...% | 
-| Rollend materieel | | ...% | | ...% | 
-| Overige materiële vaste activa | | ...% | | ...% |
+| | **Lineair afschrijvingspercentage op aanschaffingswaarde**|** Aanvankelijk toegepast verhoogd afschrijvingspercentage op netto-boekwaarde**|
+|---|---|---|
+| Immateriële vaste activa| ...%| ...%|
+| Gebouwen| ...%| ...%|
+| Installaties, machines en uitrusting| ...%| ...%|
+| Meubilair| ...%| ...%|
+| Rollend materieel| ...%| ...%|
+| Overige materiële vaste activa| ...%| ...%|

@@ -15,44 +15,36 @@ gerelateerde_adviezen:
     titel: Duur van het boekjaar
     url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
 nummer: CBN-advies 7/4
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/opmaken-van-de-inventaris
-      sha256: d6557b9b2f689f105306b8478a04372b0df6df19ebe1e71eddae39f4e8720efc
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:29Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 6603
-      file_size_chars: 6603
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met drie categorieën ondernemingen, timing fysieke opname vs. balansdatum helder behandeld.'
-      run_at: '2026-05-08T19:02:29Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - inventaris
   - jaarafsluiting
   - opmaak van de inventaris
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/opmaken-van-de-inventaris
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:00Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 7-4 - Opmaken van de inventaris
 
 Overeenkomstig artikel 9, §1 van de wet van 17 juli 1975 moet elke onderneming ten minste eens per jaar, omzichtig en te goeder trouw, de nodige opnemingen, verificaties, onderzoekingen en waarderingen verrichten om op een door haar gekozen datum de inventaris op te maken van al haar bezittingen, vorderingen, schulden en verplichtingen van welke aard ook, die betrekking hebben op haar bedrijf en op de middelen daaraan verstrekt. Nadat de rekeningen in overeenstemming zijn gebracht met de gegevens van de inventaris, worden zij samengevat in de jaarrekening. 

@@ -2,42 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma
 datum: 1988-06-01
 nummer: CBN-advies 150/4
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma
-      sha256: 1fc7b7bd9e51b597389bca924c94891da92c68a7424020649eeecab3bd0a68d9
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 2951
-      file_size_chars: 2951
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 60
-          type: other
-          voorbeeld: de werkelijke kost van de energie- aankopen is bestemd voor de verkoper
-      rationale: 'A6 (regel 60): afbreekstreepje ''energie- aankopen'' staat nog steeds met een spatie na het koppelteken — PDF-afbreekstreepje niet samengevoegd door ETL, ongewijzigd t.o.v. ronde 2. Enige bug in dit korte document; inhoud verder volledig.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'A6 (regel 60): afbreekstreepje ''energie- aankopen'' staat nog steeds met een spatie na het koppelteken — PDF-afbreekstreepje niet samengevoegd door ETL, ongewijzigd t.o.v. ronde 2. Enige bug in dit korte document; inhoud verder volledig.'
-    status: needs-rework
 themas:
   - energiebesparende investeringen
   - geïntegreerd energiebeheerprogramma
@@ -47,8 +11,32 @@ themas:
   - rationeler energieverbuik
   - schulden
   - vordering
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/investering-voor-een-rationeler-energieverbruik-geintegreerd-energiebeheerprogramma
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:40Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 150/4 - Investering voor een rationeler energieverbruik -Geïntegreerd energiebeheerprogramma
 
 De Commissie werd ondervraagd over de boekhoudkundige verwerking voor elk der betrokken partijen, van een financieringssysteem dat wordt aangeduid als "geïntegreerd energiebeheerprogramma". 

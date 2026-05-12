@@ -6,46 +6,38 @@ gerelateerde_adviezen:
     titel: Coördinatiecentrum - Financiële instelling
     url: https://www.cbn-cnc.be/nl/adviezen/coordinatiecentrum-financiele-instelling
 nummer: CBN-advies 120/6
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-financiele-bedrijf-van-een-coordinatiecentrum-binnen-een-groep
-      sha256: 8290e7bbdbc95df2debedbba375ee4787fa3b05144feb08ee4e91cb56fe3b925
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:16:02Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 1910
-      file_size_chars: 1910
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Vorige L2 flagde D4 broken italic op regels 53 en 57 ('*Bull. CBN *nr.'), maar de werkelijke body toont '*Bull. CBN*' correct gesloten op regels 61 en 65 — scraper-fix D4 heeft gewerkt. Body is kort (1910 chars), drie alinea's, voetnoot [^1] correct. Geen extractie-artefacten.
-      run_at: '2026-05-11T13:16:02Z'
-      status: trusted
-    rationale: Vorige L2 flagde D4 broken italic op regels 53 en 57 ('*Bull. CBN *nr.'), maar de werkelijke body toont '*Bull. CBN*' correct gesloten op regels 61 en 65 — scraper-fix D4 heeft gewerkt. Body is kort (1910 chars), drie alinea's, voetnoot [^1] correct. Geen extractie-artefacten.
-    status: trusted
 themas:
   - coördinatiecentrum
   - financiële bedrijf
   - geldbeleggingen
   - voorschot
   - vordering
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-financiele-bedrijf-van-een-coordinatiecentrum-binnen-een-groep
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:23Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 120/6 - Boeking van het financiële bedrijf van een coördinatiecentrum binnen een groep
 
 Aan de Commissie werd gevraagd waar leningen voor investeringsdoeleinden toegekend door een coördinatiecentrum aan de in België gevestigde dochterondernemingen van de groep, alsmede voorschotten op vaste termijn toegekend door dit centrum aan de vennootschappen van de groep op grond van hun behoeften, boekhoudkundig moeten worden gerangschikt. 

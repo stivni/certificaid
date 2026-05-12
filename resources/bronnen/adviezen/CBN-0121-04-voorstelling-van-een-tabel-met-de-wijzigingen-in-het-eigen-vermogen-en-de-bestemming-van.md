@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
 datum: 1995-03-01
 nummer: CBN-advies 121/4
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
-      sha256: d63a3c5e3ff8c274dc4649c2e281793ac45b5d16ea5ef36a1462186f3a1a3554
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T21:19:09Z'
-    confirmed_by: human
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 5241
-      file_size_chars: 5241
-      flags: []
-    layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Bijlage-link hersteld: [Klik hier om de bijlage te raadplegen](https://www.cbn-cnc.be/nl/bijlage-bij-cbn-advies-1214). Geen ## headings maar slechts 5K chars — heading_structure warn benign voor zo''n kort advies.'
-    status: trusted
 themas:
   - wijzigingen in het eigen vermogen
   - bestemming van het resultaat van het boekjaar
@@ -43,8 +11,32 @@ themas:
   - mutaties binnen het eigen vermogen
   - resultaatverwerking
   - tabel
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:24Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 121/4 - Voorstelling van een tabel met de wijzigingen in het eigen vermogen en de bestemming van het resultaat van het boekjaar
 
 Naar aanleiding van het onderzoek van de boekhoudkundige verwerking van de belangrijkste verrichtingen met betrekking tot het eigen vermogen heeft de Commissie zich gebogen over de mogelijke problemen bij het lezen van de financiële staten om inzicht te krijgen in de evolutie van het eigen vermogen van een vennootschap, enerzijds, en om die evolutie te toetsen aan de resultaatverwerking, anderzijds. 

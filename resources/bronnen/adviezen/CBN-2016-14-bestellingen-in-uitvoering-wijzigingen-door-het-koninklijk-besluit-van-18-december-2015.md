@@ -15,44 +15,36 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
 nummer: CBN-advies 2016/14
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
-      sha256: b7f3b132d8a0aa0c0e8a09c62f4e9ae308e6357e47ff23fcb87d2ceba75cb368
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 6
-      max_section_chars: 2779
-      file_size_chars: 8879
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Schoon bestand. Zes headings correct genest (inclusief italic-geneste subheadings *Algemeen* en *Toepassingsvoorwaarden*). Genummerde randnummers (1–14) zijn als lopende tekst opgenomen, wat de stijl van het CBN-bronadvies weerspiegelt — dit is een bewuste opmaakkeuze, geen artefact. Voetnoten [^1]–[^15] volledig gedefinieerd. Geen tabellen in dit advies (correct, want geen boekingsvoorbeelden). Inhoud compleet.
-      run_at: '2026-05-11T12:16:34Z'
-      status: trusted
-    rationale: Schoon bestand. Zes headings correct genest (inclusief italic-geneste subheadings *Algemeen* en *Toepassingsvoorwaarden*). Genummerde randnummers (1–14) zijn als lopende tekst opgenomen, wat de stijl van het CBN-bronadvies weerspiegelt — dit is een bewuste opmaakkeuze, geen artefact. Voetnoten [^1]–[^15] volledig gedefinieerd. Geen tabellen in dit advies (correct, want geen boekingsvoorbeelden). Inhoud compleet.
-    status: trusted
 themas:
   - bestellingen in uitvoering
   - compensatie
   - ontvangen vooruitbetalingen op bestellingen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:18Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/14 – Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015
 
 ## Inleiding

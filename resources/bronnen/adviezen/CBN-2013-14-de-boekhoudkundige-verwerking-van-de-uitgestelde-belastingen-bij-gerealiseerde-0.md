@@ -15,48 +15,36 @@ gerelateerde_adviezen:
     titel: Herwaarderingen verricht met toepassing van de Wet van 20 augustus 1947
     url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
 nummer: CBN-advies 2013/14 NT
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-0
-      sha256: cece8804e52dd038152c883b88548a1e1db6bfaf5a6e420cc76d109c6bd23d88
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 14
-      max_section_chars: 5281
-      file_size_chars: 20305
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B1
-          regel: 60
-          type: abrupt-cutoff
-          voorbeeld: '# Technische nota bij'
-      rationale: 'B1/D1: de H1-titel op regel 60 luidt enkel ''# Technische nota bij'' zonder verdere tekst — een afgekapte titel die niet aangeeft bij welk advies de nota hoort. Een mens zou ''# Technische nota bij CBN-advies 2013/14 – ...'' schrijven. Dit is een ETL-artefact waarbij de titeltekst na de eerste twee woorden niet werd overgenomen.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'B1/D1: de H1-titel op regel 60 luidt enkel ''# Technische nota bij'' zonder verdere tekst — een afgekapte titel die niet aangeeft bij welk advies de nota hoort. Een mens zou ''# Technische nota bij CBN-advies 2013/14 – ...'' schrijven. Dit is een ETL-artefact waarbij de titeltekst na de eerste twee woorden niet werd overgenomen.'
-    status: needs-rework
 themas:
   - gerealiseerde meerwaarde
   - kapitaalsubsidie
   - uitgestelde belastingen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:11Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2013/14 – De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt en bij kapitaalsubsidies
 
 ## Inleiding
@@ -97,8 +85,7 @@ De Standaard vereist dat er voor alle belastbare tijdelijke verschillen een uitg
 Voor alle verrekenbare tijdelijke verschillen moet een uitgestelde belastingvordering worden opgenomen, in zoverre het waarschijnlijk is dat er fiscale winst beschikbaar zal zijn waarmee het verrekenbare tijdelijke verschil kan worden verrekend, tenzij de uitgestelde belastingvordering voortvloeit uit de eerste opname van een vordering of verplichting in een transactie die geen bedrijfscombinatie is, en op het moment van de transactie geen invloed heeft op de boekhoudkundige winst of de fiscale winst (het fiscaal verlies).
 
 #### De initial recognition exception
-*Ontstaan bij eerste opname van een actief- of passiefbestanddeel of goodwill*
-
+## Ontstaan bij eerste opname van een actief- of passiefbestanddeel of goodwill
 De* initial recognition exception* vindt haar oorsprong in een achterhaalde benadering voor de bepaling van uitgestelde belastingen (de* income statement approach*). 
 
 Het is immers perfect mogelijk dat de boekwaarde van een actiefbestanddeel hoger of lager is dan de fiscale waarde ervan en er dus onmiddellijk bij de eerste opname een tijdelijk verschil ontstaat hetgeen aanleiding zou geven tot de uitdrukking van uitgestelde belastingen hierop. 
@@ -113,13 +100,12 @@ Er kan natuurlijk wel een uitgestelde belasting worden erkend op goodwill wannee
 
 Daarnaast mag de *initial recognition exception* ook niet worden ingeroepen als de boekhoudkundige winst of het belastbaar resultaat wel beïnvloed wordt. Concreet betekent dit dat er bij de eerste opname van een actief- of passiefbestanddeel een credit of debet op een resultatenrekening verschijnt. 
 
-*Ontstaan na eerste opname van een actief- of passiefbestanddeel*
-
+## Ontstaan na eerste opname van een actief- of passiefbestanddeel
 De *initial recognition exception* heeft enkel en alleen betrekking op de tijdelijke verschillen die ontstaan bij de eerste opname van een actief- of passiefbestanddeel en kent geen uitwerking op tijdelijke verschillen die zouden ontstaan na de eerste opname. Op deze tijdelijke verschillen dienen er wel uitgestelde belastingen te worden erkend. Het tijdelijk verschil zal dan moeten worden bepaald door het verschil te maken tussen het initiële tijdelijke verschil, waarop geen uitgestelde belasting werd berekend, en het overblijvende tijdelijke verschil waarop wel uitgestelde belastingen worden berekend.
 
 Wanneer de verandering van het tijdelijk verschil voortvloeit uit een verandering van de fiscale boekwaarde ten gevolge van een wetswijziging, dan zal de verwerking van deze verandering afhangen van het feit of er reeds uitgestelde belastingen werden opgenomen voor het betreffende actief of de verplichting. Indien er reeds uitgestelde belastingen werden opgenomen, dan zal een verandering van de fiscale boekwaarde leiden tot een overeenkomstige verandering van de uitgestelde belastingvordering of –verplichting met bijhorende wijzigingen verwerkt in de winst- of verliesrekening. Indien er voorheen geen uitgestelde belastingen werden opgenomen omwille van de *initial recognition exception*, dan dient men een uitgestelde belastingvordering (-verplichting) op te nemen voor het verrekenbare ( belastbare) tijdelijke verschil. 
 
-#### Beperking bij de opname van uitgestelde belastingvorderingen
+### Beperking bij de opname van uitgestelde belastingvorderingen
 Er bestaat een essentieel verschil tussen de erkenning van uitgestelde belastingverplichtingen en uitgestelde belastingvorderingen.
 
 Voor alle verrekenbare tijdelijke verschillen moet een uitgestelde belastingvordering worden opgenomen. Aangezien de afwikkeling van verrekenbare verschillen leidt tot een vermindering van de fiscale winst in toekomstige perioden, zal een entiteit slechts uitgestelde belastingvorderingen opnemen als het waarschijnlijk is dat er belastbare winsten beschikbaar zullen zijn waarmee de verrekenbare tijdelijke verschillen kunnen worden verrekend. 
@@ -139,7 +125,7 @@ De vereiste dat er rekening moet worden gehouden met toekomstige fiscale opportu
 
 De Standaard neemt expliciet op dat fiscale opportuniteiten naar acties verwijzen die de onderneming effectief gaat ondernemen. Fiscale opportuniteiten die theoretisch mogelijk, doch niet praktisch haalbaar zijn, kunnen niet in rekening worden gebracht. 
 
-#### Niet-gecompenseerde fiscale verliezen en ongebruikte fiscaal verrekenbare tegoeden
+Niet-gecompenseerde fiscale verliezen en ongebruikte fiscaal verrekenbare tegoeden
 Een uitgestelde belastingvordering moet worden opgenomen voor de voorwaartse compensatie van niet-gecompenseerde fiscale verliezen en ongebruikte fiscaal verrekenbare tegoeden in zoverre het waarschijnlijk is dat er toekomstige fiscale winst beschikbaar zal zijn waarmee de niet-gecompenseerde fiscale verliezen en ongebruikte fiscaal verrekenbare tegoeden kunnen worden verrekend.
 
 De criteria voor opname zijn in belangrijke mate dezelfde als de criteria die gelden voor de opname van verrekenbare tijdelijke verschillen. De Standaard benadrukt echter wel dat het bestaan van fiscale verliezen een duidelijke indicatie vormt dat er mogelijk geen toekomstige fiscale winst beschikbaar zal zijn. Een entiteit die in het recente verleden vaak verliezen heeft geleden zal daarom een uitgestelde belastingvordering die voortvloeit uit niet-gecompenseerde fiscale verliezen of ongebruikte fiscaal verrekenbare tegoeden alleen opnemen in zoverre zij over voldoende belastbare tijdelijke verschillen beschikt of als er andere overtuigende aanwijzingen zijn dat er voldoende fiscale winst beschikbaar zal zijn waarmee de niet-gecompenseerde fiscale verliezen of ongebruikte fiscaal verrekenbare tegoeden kunnen worden verrekend. Indien de onderneming gebruik maakt van dit laatste argument dient het de nodige toelichtingen op te nemen. 
@@ -156,7 +142,7 @@ d) of planning van de fiscale winst mogelijk is zodat de entiteit fiscale winst 
 
 In zoverre het niet waarschijnlijk is dat er fiscale winst beschikbaar zal zijn waarmee de niet-gecompenseerde fiscale verliezen of ongebruikte fiscaal verrekenbare tegoeden kunnen worden verrekend, wordt de uitgestelde belastingvordering niet opgenomen.
 
-#### Herschatting van uitgestelde belastingvorderingen
+### Herschatting van uitgestelde belastingvorderingen
 De onderneming dient de opgenomen en niet-opgenomen uitgestelde belastingvorderingen te herschatten op het einde van iedere verslagperiode. Voor wat betreft de eerder opgenomen vorderingen dient de boekwaarde van een belastingvordering te worden verminderd indien het niet langer waarschijnlijk is dat er voldoende fiscale winst beschikbaar zal zijn om de vordering te verrekenen. Deze verminderingen dienen teruggenomen te worden op het ogenblik dat het opnieuw waarschijnlijk is dat toekomstige fiscale winst beschikbaar zal zijn. 
 
 Voor wat betreft de voorheen niet-opgenomen vorderingen zal een onderneming de vordering erkennen op het moment dat het waarschijnlijk is dat er voldoende toekomstige fiscale winst beschikbaar zal zijn om de belastingvordering te verrekenen. 

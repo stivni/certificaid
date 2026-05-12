@@ -2,50 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
 datum: 2016-09-07
 nummer: CBN-advies 2016/15
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
-      sha256: 286a7bf84cdb376aac13f0f8a43abd19fb274ead9a2b49c4902b4536eec9f532
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:39Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 11
-      max_section_chars: 8251
-      file_size_chars: 17642
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 128
-          type: other
-          voorbeeld: '| | 618 | Bezoldigingen, premies voor buitenwettelijke \n\t\t\t\tverzekeringen... (multiline tabelcel)'
-        - categorie: D4
-          regel: 79
-          type: other
-          voorbeeld: diensten en diverse goederen[^7]* . (spatie vóór afsluitende asterisk in italic)
-        - categorie: B5
-          regel: 74
-          type: other
-          voorbeeld: '618 Bezoldigingen, premies voor buitenwettelijke verzekeringen... (plain text zonder ## prefix)'
-      rationale: 'E2: regels 128–130 bevatten een multiline tabelcel voor rekeningomschrijving 618 met tab-inspringing — breekt pipe-tabel-rendering. D4: regel 79 `diensten en diverse goederen[^7]* .` heeft een spatie vóór de afsluitende `*` in inline italic — broken italic-markering. B5: regel 74 bevat `618 Bezoldigingen, premies...` als plain-text-paragraaf zonder `##`/`###` prefix — sectielabel dat een heading hoort te zijn.'
-      run_at: '2026-05-11T17:09:39Z'
-      status: needs-rework
-    rationale: 'E2: regels 128–130 bevatten een multiline tabelcel voor rekeningomschrijving 618 met tab-inspringing — breekt pipe-tabel-rendering. D4: regel 79 `diensten en diverse goederen[^7]* .` heeft een spatie vóór de afsluitende `*` in inline italic — broken italic-markering. B5: regel 74 bevat `618 Bezoldigingen, premies...` als plain-text-paragraaf zonder `##`/`###` prefix — sectielabel dat een heading hoort te zijn.'
-    status: needs-rework
 themas:
   - arbeidsovereenkomst
   - bestuurder
@@ -55,8 +11,32 @@ themas:
   - vergoeding aan werkende vennoten
   - werkende vennoten
   - zaakvoerder
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vergoedingen-aan-bestuurders-en-werkende-vennoten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:18Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/15 – Vergoedingen aan bestuurders en werkende vennoten
 
 ## Algemeen

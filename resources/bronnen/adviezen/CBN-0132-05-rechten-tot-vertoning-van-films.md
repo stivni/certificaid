@@ -15,42 +15,6 @@ gerelateerde_adviezen:
     titel: Materiële vaste activa - Onderscheid met voorraden
     url: https://www.cbn-cnc.be/nl/adviezen/materiele-vaste-activa-onderscheid-met-voorraden
 nummer: CBN-advies 132/5
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
-      sha256: 01839fec25050d00ee08d40374ee0706fef1ac979531ff432708d211921e7e43
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 3015
-      file_size_chars: 3015
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 85
-          type: other
-          voorbeeld: wanneer de uitzendrechten onder* Diensten en diverse goederen* werden geboekt (spatie ontbreekt voor *)
-      rationale: 'D4 op L85: ''wanneer de uitzendrechten onder* Diensten en diverse goederen* werden geboekt'' — openende asterisk staat direct tegen ''onder'' geplakt zonder spatie, wat de italic-span niet correct parseert. Eerdere A6-claim over L75 niet bevestigd: [^1] mid-zin is standaard markdown-voetnootnotatie, geen extractie-artefact.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'D4 op L85: ''wanneer de uitzendrechten onder* Diensten en diverse goederen* werden geboekt'' — openende asterisk staat direct tegen ''onder'' geplakt zonder spatie, wat de italic-span niet correct parseert. Eerdere A6-claim over L75 niet bevestigd: [^1] mid-zin is standaard markdown-voetnootnotatie, geen extractie-artefact.'
-    status: needs-rework
 themas:
   - diensten en diverse goederen
   - immateriële vaste activa
@@ -58,8 +22,32 @@ themas:
   - uitzendrechten
   - vertoningsrechten
   - voorraden
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/rechten-tot-vertoning-van-films
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:30Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 132/5 - Rechten tot vertoning van films
 
 De Commissie werd om advies gevraagd over de boekhoudkundige verwerking van het bedrag dat een onderneming (bedoeld wordt een bioscoopuitbater of een televisieomroep) betaalt voor de verwerving van het recht tot vertoning van een film. 

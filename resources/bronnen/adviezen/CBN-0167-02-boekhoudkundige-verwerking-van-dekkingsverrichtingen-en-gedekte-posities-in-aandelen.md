@@ -15,58 +15,6 @@ gerelateerde_adviezen:
     titel: Verrichtingen met betrekking tot inschrijvingsrechten
     url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
 nummer: CBN-advies 167/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
-      sha256: aeaa0dec08e7842f94598d4cbb8e08274e27672f835f77e02013b4f75fc77e72
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:51:53Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 29
-      max_section_chars: 11219
-      file_size_chars: 41207
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 104
-          type: other
-          voorbeeld: "worden geïdentificeerd Bij de als dekking \n\nbestemde verrichtingen moet een onderscheid"
-        - categorie: A6
-          regel: 109
-          type: other
-          voorbeeld: "2. de onderneming wapenen...waarbij zij evenwel\n\n\tgeheel of gedeeltelijk de voordelen"
-        - categorie: B3
-          regel: 167
-          type: other
-          voorbeeld: een call-optie bezit...verkocht. (regel 167-169 en opnieuw identiek op 170-172)
-        - categorie: E2
-          regel: 241
-          type: other
-          voorbeeld: "| - Van 20.09.91 \n\n\t\t\t\ttot 1.10.91 \n\n\t\t\t\t100 x (128 - 126,4)"
-        - categorie: E2
-          regel: 447
-          type: other
-          voorbeeld: '| | (tijdswaarde) | 150 | | |'
-      rationale: 'A6: meerdere zinsbreuken midden in een zin (regel 104-106: zin loopt door over twee alinea-grenzen; regel 109-111: vergelijkbaar). E2: de grote resultaattabellen op regel 238-286 (en vergelijkbaar op 463-478) gebruiken multi-line cel-content met tabs als regelterugloop binnen een tabelrij, wat geen geldige markdown-pipe-syntax is en door elke renderer anders wordt geïnterpreteerd. Dubbele lijstitem op regel 170-172 (copy van regel 167-169).'
-      run_at: '2026-05-11T17:51:53Z'
-      status: needs-rework
-    rationale: 'A6: meerdere zinsbreuken midden in een zin (regel 104-106: zin loopt door over twee alinea-grenzen; regel 109-111: vergelijkbaar). E2: de grote resultaattabellen op regel 238-286 (en vergelijkbaar op 463-478) gebruiken multi-line cel-content met tabs als regelterugloop binnen een tabelrij, wat geen geldige markdown-pipe-syntax is en door elke renderer anders wordt geïnterpreteerd. Dubbele lijstitem op regel 170-172 (copy van regel 167-169).'
-    status: needs-rework
 themas:
   - aandelen
   - aandelenopties
@@ -80,8 +28,32 @@ themas:
   - put-optie
   - waardering
   - koersschommeling
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:46Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen (Err., Bull. CBN, nr. 30, februari 1993, p. 8)
 
 ## Inleiding
@@ -151,18 +123,18 @@ In dergelijk geval van volkomen dekking :
 
 5 juli 1992 : een onderneming 
 
-| bezit | | 95 effecten E | | verworven tegen | | 2.500 F | 
-|---|---|---|---|---|---|---|
-| verkoopt op termijn | | 100 effecten E | | | | 4.610 F | 
-| koopt contant | | 5 effecten E | | | | 4.580 F | 
+| bezit| 95 effecten E | verworven tegen| 2.500 F|
+|---|---|---|---|
+| verkoopt op termijn | 100 effecten E | | 4.610 F|
+| koopt contant | 5 effecten E | | 4.580 F|
 
 Op die datum is haar resultaat definitief gerealiseerd ten belope van : 
 
-| 100 x 4.610 = | | 461.000 F | 
-|---|---|---|
-| 95 x 2.500 = | | - 237.500 F | 
-| 5 x 4.580 = | | - 22.900 F | 
-| | | 200.600 F | 
+| 100 x 4.610 =| 461.000 F |
+|---|---|
+| 95 x 2.500 =| - 237.500 F |
+| 5 x 4.580 =| - 22.900 F |
+| | 200.600 F |
 
 b) Met dit eerste geval waarin elk risico en elk voordeel definitief zijn geëlimineerd, moet het geval worden gelijkgesteld waarin een onderneming één of meer effecten bezit, een call heeft geschreven en een put gekocht met een zelfde vervaldag en tegen dezelfde uitoefenprijs, die op een zelfde aantal onderliggende effecten slaan. De combinatie van een geschreven call en een gekochte put met een zelfde vervaldag en tegen dezelfde uitoefenprijs heeft inderdaad tot gevolg dat, ongeacht de koersevolutie, de overdracht plaats heeft door uitoefening van hetzij de call, hetzij de put, op die vervaldag en tegen de overeengekomen prijs. 
 
@@ -232,84 +204,52 @@ Om haar positie te dekken koopt zij op 1 oktober 1991 een call-optie (vervalmaan
 
 Nadien evolueren de koers van het Y-aandeel, de koers van de optie en bijgevolg ook haar intrinsieke waarde en haar tijdswaarde als volgt : 
 
-| Noteringsdata | | Koers van de optie 
- | | Koers van het aandeel | | Intrinsieke waarde 
- | | Tijdswaarde | 
-|---|---|
-| 01/10/1991 | | 5,3 | | 126,4 | | 0 | | 5,3 | 
-| 10/10/1991 | | 6,7 | | 128,8 | | 0 | | 6,7 | 
-| 20/10/1991 | | 5,3 | | 126,9 | | 0 | | 5,3 | 
-| 01/11/1991 | | 7,3 | | 130 | | 0 | | 7,3 | 
-| 02/11/1991 | | 9,3 | | 133,4 | | 3,4 | | 5,9 | 
-| 10/11/1991 | | 7,6 | | 132,3 | | 2,3 | | 5,3 | 
-| 20/11/1991 | | 11,4 | | 137,6 | | 7,6 | | 3,8 | 
-| 01/12/1991 | | 10,7 | | 137 | | 7 | | 3,7 | 
-| 10/12/1991 | | 8 | | 133,5 | | 3,5 | | 4,5 | 
-| 20/12/1991 | | 10,3 | | 137,7 | | 7,7 | | 2,6 | 
-| 31/12/1992 | | 11,9 | | 138,5 | | 8,5 | | 3,4 | 
-| 05/01/1992 | | 13,5 | | 140,8 | | 10,8 | | 2,7 | 
-| 10/01/1992 | | 15,4 | | 142,6 | | 12,6 | | 2,8 | 
-| 15/01/1992 | | 16 | | 144,3 | | 14,3 | | 1,7 | 
-| 19/01/1992 | | 21,5 | | 150,5 | | 20,5 | | 1 | 
-| 20/01/1992 | | 20,5 | | 150,5 | | 20,5 | | 0 | 
+| Noteringsdata| Koers van de optie | Koers van het aandeel | Intrinsieke waarde | Tijdswaarde|
+|---|---|---|---|---|
+| 01/10/1991 | 5,3| 126,4| 0| 5,3|
+| 10/10/1991 | 6,7 | 128,8 | 0| 6,7 |
+| 20/10/1991| 5,3 | 126,9 | 0| 5,3 |
+| 01/11/1991 | 7,3 | 130 | 0| 7,3 |
+| 02/11/1991 | 9,3 | 133,4 | 3,4 | 5,9 |
+| 10/11/1991 | 7,6 | 132,3 | 2,3 | 5,3 |
+| 20/11/1991 | 11,4 | 137,6 | 7,6 | 3,8 |
+| 01/12/1991 | 10,7 | 137| 7| 3,7 |
+| 10/12/1991 | 8| 133,5 | 3,5 | 4,5 |
+| 20/12/1991 | 10,3 | 137,7 | 7,7 | 2,6 |
+| 31/12/1992 | 11,9 | 138,5 | 8,5 | 3,4 |
+| 05/01/1992 | 13,5 | 140,8 | 10,8 | 2,7 |
+| 10/01/1992 | 15,4 | 142,6 | 12,6 | 2,8 |
+| 15/01/1992 | 16| 144,3 | 14,3 | 1,7 |
+| 19/01/1992 | 21,5 | 150,5 | 20,5 | 1|
+| 20/01/1992 | 20,5 | 150,5 | 20,5 | 0|
 
 Afhankelijk van de periode ziet het resultaat er als volgt uit: 
 
-| | | | | ** OPTIE ** | | | | | | | 
-|---|---|---|---|---|---|---|---|---|---|---|
-| **Potentiële resultaten** | | **Termijn-verkoop** | | **Intrinsieke waarde** | | **Tijds-waarde** | | **Totaal** | | **Totaal-resultaat** | 
-| - Van 20.09.91 
+| | | ** OPTIE **| | | |
+|---|---|---|---|---|---|
+| **Potentiële resultaten**|** Termijn-verkoop**|** Intrinsieke waarde**|** Tijds-waarde**|** Totaal**|** Totaal-resultaat**|
+| - Van 20.09.91 tot 1.10.91 100 x (128 - 126,4)| + 160| | | | + 160|
+| - Van 01.10.91 tot 01.11.91| | | | | |
+| 100 x (-130 +126,4)| - 360| | | | |
+| 100 x (0 - 0)| | | | | - 160|
+| | | | | + 200| |
+| 100 x (7,5 - 5,3)| | | + 200| | |
+| - Van 01.11.91 tot 31.12.91| | | | | |
+| 100 x (-138,5 - 130)| - 850| | | | |
+| 100 x (8,5 - 0)| | +850| | | - 390|
+| | | | | + 460| |
+| 100 x (3,4 - 7,3)| | | - 390| | |
+| - Van 31.12.91 tot 20.01.91| | | | | |
+| 100 x (- 150,5 + 138,5)| - 1.200| | | | |
+| 100 x (20,5 - 8,5)| | + 1.200| | | - 340|
+| | | | | + 860| |
+| 100 x (0 - 3,4)| | | - 340| | |
 
-			tot 1.10.91 
-
-			100 x (128 - 126,4) | | 
-
-			+ 160 | | | | | | | | 
-
-			+ 160 | 
-| - Van 01.10.91 
-
-			tot 01.11.91 | | | | | | | | | | | 
-| 100 x 
-
-			(-130 +126,4) | | 
-
-			- 360 | | | | | | | | | 
-| 100 x (0 - 0) | | | | | | | | | | - 160 | 
-|---|---|---|---|---|---|---|---|---|---|---|
-| | | | | | | | | + 200 | | | 
-| 100 x (7,5 - 5,3) | | | | | | + 200 | | | | | 
-| - Van 01.11.91 
-
-			tot 31.12.91 | | | | | | | | | | | 
-| 100 x 
-
-			(-138,5 - 130) | | 
-
-			- 850 | | | | | | | | 
- | 
-| 100 x (8,5 - 0) | | | | +850 | | | | | | - 390 | 
-|---|---|---|---|---|---|---|---|---|---|---|
-| | | | | | | | | + 460 | | | 
-| 100 x (3,4 - 7,3) | | | | | | - 390 | | | | | 
-| - Van 31.12.91 
-
-			tot 20.01.91 | | | | | | | | | | | 
-| 100 x 
-
-			(- 150,5 + 138,5) | | 
-
-			- 1.200 | | | | | | | | | 
-| 100 x (20,5 - 8,5) | | | | + 1.200 | | | | | | - 340 | 
-|---|---|---|---|---|---|---|---|---|---|---|
-| | | | | | | | | + 860 | | | 
-| 100 x (0 - 3,4) | | | | | | - 340 | | | | | 
-
-| **Samengevoegde werkelijke****** **resultaten** | | | | | | | | | | | 
-|---|---|---|---|---|---|---|---|---|---|---|
-| Vóór de dekkingsverrichting | | + 160 | | - | | - | | - | | + 160 | 
-| Sedert de dekkingsverrichting | | - 2.410 | | + 2.050 | | - 530 | | + 1.520 | | - 890 | 
-| | | - 2.250 | | + 2.050 | | - 530 | | + 1.520 | | - 730 | 
+| **Samengevoegde werkelijke****** **resultaten**| | | | | |
+|---|---|---|---|---|---|
+| Vóór de dekkingsverrichting| + 160| -| -| -| + 160|
+| Sedert de dekkingsverrichting| - 2.410| + 2.050| - 530| + 1.520| - 890|
+| | - 2.250| + 2.050| - 530| + 1.520| - 730|
 
 Op resultaatniveau stelt men vast dat een volkomen neutralisatie slechts wordt bereikt 
 
@@ -393,13 +333,13 @@ Afwikkeling van de termijn verkoop
 ## Voorbeeld 2 : variante van voorbeeld 1
 Les opérations sont, au départ, les mêmes que dans l'exemple 1, mais l'évolution des cours est inverse.
 
-| **Noteringsdata** | | **Koers van de optie** | | **Koers van het aandeel** | | **Intrinsieke waarde** | | **Tijdswaarde**  | 
-|---|---|---|---|---|---|---|---|---|
-| 01/10/1991 | | 5,3 | | 133 | | 3 | | 2,3 | 
-| 01/11/1991 | | 3,9 | | 132 | | 2 | | 1,9 | 
-| 01/12/1991 | | 1,3 | | 130 | | - | | 1,3 | 
-| 31/12/1991 | | 0,8 | | 129 | | - | | 0,8 | 
-| 20/01/1991 | | - | | 126 | | - | | - | 
+| **Noteringsdata**|** Koers van de optie**|** Koers van het aandeel**|** Intrinsieke waarde**|** Tijdswaarde **|
+|---|---|---|---|---|
+| 01/10/1991| 5,3| 133| 3| 2,3|
+| 01/11/1991| 3,9| 132| 2| 1,9|
+| 01/12/1991| 1,3| 130| -| 1,3|
+| 31/12/1991| 0,8| 129| -| 0,8|
+| 20/01/1991| -| 126| -| -|
 
 In dit voorbeeld evolueert bovendien de koers van het onderliggende effect parallel met de intrinsieke waarde zolang er een intrinsieke waarde is, dus tot 1 december 1991. De resultaten moeten dan ook dienovereenkomstig worden geneutraliseerd. 
 
@@ -472,36 +412,33 @@ In dit tweede voorbeeld zien de boekingen[^12] er schematisch als volgt uit :
 ## Voorbeeld 3 : aankoop van een put-optie (op een effect in portefeuille)
 Op 1 december 1991 koopt een onderneming een put-optie om de verkoopprijs van een effect X met boekwaarde 120 en opgenomen onder de geldbeleggingen, te waarborgen. Optieprijs : 14; vervalmaand : januari 1992; vereffening op de derde vrijdag van de vervalmaand, d.i. op 20 januari 1992; uitoefenprijs per effect : 140
 
-| **Noteringsdata** | | **Koers van de optie** | | **Koers van het aandeel** | | **Intrinsieke waarde** | | **Tijdswaarde** | 
-|---|---|---|---|---|---|---|---|---|
-| 01/12/1991 | | 14 | | 126,4 | | 13,6 | | 0,4 | 
-| 31/12/1991 | | 30 | | 115 | | 25 | | 5 | 
-| 20/01/1991 | | 30 | | 110 | | 30 | | 0 | 
+| **Noteringsdata**|** Koers van de optie**|** Koers van het aandeel**|** Intrinsieke waarde**|** Tijdswaarde**|
+|---|---|---|---|---|
+| 01/12/1991| 14| 126,4| 13,6| 0,4|
+| 31/12/1991| 30| 115| 25| 5|
+| 20/01/1991| 30| 110| 30| 0|
 
 Afhankelijk van de periode ziet het resultaat er als volgt uit 
 
-| | | | | ** ** | | ** Optie ** | | ** ** | | | 
-|---|---|---|---|---|---|---|---|---|---|---|
-| **Potentiële resultaten** | | **Effecten in de portefeuille** | | **Intrinsieke waarde** | | **Tijdswaarde** | | **Totaal** | | **Totaalresultaat uit de verrichting** | 
-| - Op 01.12.91 | | | | | | | | | | | 
-| (126,4 - 120) | | + 6,4 | | | | | | | | + 6,4 | 
-| - Van 02.12.91 tot 31.12.91 | | | | | | | | | | | 
-| (- 126,4 + 115) | | - 11,4 | | | | | | | | + 4,6 | 
-| (- 13,6 + 25) | | | | + 11,4 | | | | + 16 | | | 
-| (-0,4 + 5) | | | | | | + 4,6 | | | | | 
-| - Van 01.01.92 
+| | | ** **|**  Optie **|**  **| |
+|---|---|---|---|---|---|
+| **Potentiële resultaten**|** Effecten in de portefeuille**|** Intrinsieke waarde**|** Tijdswaarde**|** Totaal**|** Totaalresultaat uit de verrichting**|
+| - Op 01.12.91| | | | | |
+| (126,4 - 120)| + 6,4| | | | + 6,4|
+| - Van 02.12.91 tot 31.12.91| | | | | |
+| (- 126,4 + 115)| - 11,4| | | | + 4,6|
+| (- 13,6 + 25)| | + 11,4| | + 16| |
+| (-0,4 + 5)| | | + 4,6| | |
+| - Van 01.01.92 tot 20.01.92| | | | | |
+| (- 115 + 110)| - 5| | | | - 5|
+| (- 25 + 30)| | + 5| | 0| |
+| (- 5 + 0)| | | - 5| | |
 
-			tot 20.01.92 | | | | | | | | | | | 
-| (- 115 + 110) | | - 5 | | | | | | | | - 5 | 
-|---|---|---|---|---|---|---|---|---|---|---|
-| (- 25 + 30) | | | | + 5 | | | | 0 | | | 
-| (- 5 + 0) | | | | | | - 5 | | | | | 
-
-| **Samengevoegde werkelijke resultaten** | | | | | | | | | | | 
-|---|---|---|---|---|---|---|---|---|---|---|
-| Vóór de dekkingsverrichting | | + 6,4 | | - | | - | | - | | + 6,4 | 
-| Sedert de dekkingsverrichting | | - 16,4 | | + 16,4 | | - 0,4 | | + 16 | | - 0,4 | 
-| | | - 10 | | + 16,4 | | - 0,4 | | + 16 | | + 6 | 
+| **Samengevoegde werkelijke resultaten**| | | | | |
+|---|---|---|---|---|---|
+| Vóór de dekkingsverrichting| + 6,4| -| -| -| + 6,4|
+| Sedert de dekkingsverrichting| - 16,4| + 16,4| - 0,4| + 16| - 0,4|
+| | - 10| + 16,4| - 0,4| + 16| + 6|
 
 Schematisch zien de boekingen er als volgt uit:
 

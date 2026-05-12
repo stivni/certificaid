@@ -15,50 +15,38 @@ gerelateerde_adviezen:
     titel: Gegeven borgtochten in contanten en effecten (update)
     url: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
 nummer: CBN-advies 139/5
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant-0
-      sha256: 1aee70e4105d459ef905cdaa50f31c213898395d930893f2ca763ff4304c8eda
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 1
-      max_section_chars: 6407
-      file_size_chars: 6407
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B5
-          regel: 82
-          type: other
-          voorbeeld: '## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / (koers van de obligatie ex-warrant + koers van de warrant)]'
-      rationale: 'B5/B2 (regel 82): rekenformule ''## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / ...]'' staat nog steeds als ## heading — ongewijzigd t.o.v. ronde 2. Geen andere artefacten; inhoud volledig.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'B5/B2 (regel 82): rekenformule ''## aanschaffingswaarde van de obligatie met warrant x [koers van de warrant / ...]'' staat nog steeds als ## heading — ongewijzigd t.o.v. ronde 2. Geen andere artefacten; inhoud volledig.'
-    status: needs-rework
 themas:
   - financiële vaste activa
   - inschrijvingsrecht
   - obligaties
   - obligaties met warrant
   - warrant
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/obligaties-met-warrant-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:35Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 139/5 - Obligaties met warrant
 
 Aan de Commissie werd gevraagd hoe obligaties met warrant moeten worden geboekt en welke aanschaffingswaarde respectievelijk moet worden toegekend aan de obligatie en aan de warrant. 

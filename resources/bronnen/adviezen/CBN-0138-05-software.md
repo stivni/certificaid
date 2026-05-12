@@ -12,58 +12,6 @@ gerelateerde_adviezen:
     titel: 'Vervaardigingsprijs : correctie van de Nederlandse tekst van artikel 22 van het Koninklijk Besluit van 8 oktober 1976'
     url: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-correctie-van-de-nederlandse-tekst-van-artikel-22-van-het-koninklijk
 nummer: CBN-advies 138/5
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/software
-      sha256: ebff870067b0ffe7325d9400ce25b349b5144743046d2d6da127a68f34c820c3
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 11
-      max_section_chars: 4535
-      file_size_chars: 12705
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A7
-          regel: 112
-          type: scrambled-words
-          voorbeeld: '## Type-gevallen voor de activering de activering en rubricering van software-uitgaven'
-        - categorie: B5
-          regel: 114
-          type: other
-          voorbeeld: Bij derden aangekochte, of via gebruiksrecht (tegen éénmalige vergoeding) verkregen toepassingssoftware
-        - categorie: A6
-          regel: 171
-          type: other
-          voorbeeld: (*coding*); - het onderhoud van het programma en de opleiding van de gebruiker (*maintenance*).
-        - categorie: D4
-          regel: 173
-          type: other
-          voorbeeld: '*testing *en - in bepaalde gevallen - van* maintenance *'
-        - categorie: D4
-          regel: 181
-          type: other
-          voorbeeld: via het credit van rekening 72* Geactiveerde interne productie*
-      rationale: 'Vier ETL-bugs ongewijzigd t.o.v. ronde 2: A7 (regel 112) dubbele frase in heading; B5 (regel 114) subsectie-titel als plain tekst; A6 (regel 171) twee bullets samengesmolten op één regel; D4 (regels 173 en 181) gebroken italics-markers. Structureel en inhoudelijk verder volledig.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'Vier ETL-bugs ongewijzigd t.o.v. ronde 2: A7 (regel 112) dubbele frase in heading; B5 (regel 114) subsectie-titel als plain tekst; A6 (regel 171) twee bullets samengesmolten op één regel; D4 (regels 173 en 181) gebroken italics-markers. Structureel en inhoudelijk verder volledig.'
-    status: needs-rework
 themas:
   - gereed produkt
   - immateriële vaste activa
@@ -76,8 +24,32 @@ themas:
   - toepassings- of applicatiesoftware
   - toepassingssoftware bestemd voor commercialisatie
   - toepassingssoftware voor intern gebruik
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/software
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:34Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 138/5 - Software
 
 ## Inleiding

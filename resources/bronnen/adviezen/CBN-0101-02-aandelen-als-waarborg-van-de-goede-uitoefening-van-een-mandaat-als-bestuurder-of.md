@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Verrichtingen met betrekking tot inschrijvingsrechten
     url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
 nummer: CBN-advies R101/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aandelen-als-waarborg-van-de-goede-uitoefening-van-een-mandaat-als-bestuurder-of
-      sha256: 82499d4e226562797918723736f421a434da2972162112b32af06adb83251f86
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:51:19Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 1430
-      file_size_chars: 1430
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Kort advies (1430 chars), geen headings nodig. Rekeningnamen correct gecursiveerd. Geen duplicaten, geen structuurproblemen, geen artefacten. Sluit logisch af.
-      run_at: '2026-05-11T11:51:19Z'
-      status: trusted
-    rationale: Kort advies (1430 chars), geen headings nodig. Rekeningnamen correct gecursiveerd. Geen duplicaten, geen structuurproblemen, geen artefacten. Sluit logisch af.
-    status: trusted
 themas:
   - aandelen
   - aandelen als waarborg
@@ -58,8 +26,32 @@ themas:
   - waarborg
   - waarborg mandaat
   - zakelijke waarborgen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aandelen-als-waarborg-van-de-goede-uitoefening-van-een-mandaat-als-bestuurder-of
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:03Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies R101/2 - Aandelen als waarborg van de goede uitoefening van een mandaat als bestuurder of commissaris
 
 Overeenkomstig de artikelen 57, eerste lid, en 69, eerste lid, W.Venn. moet iedere bestuurder of commissaris een bepaald aantal aandelen bij voorrecht verbinden tot waarborg van zijn mandaat.

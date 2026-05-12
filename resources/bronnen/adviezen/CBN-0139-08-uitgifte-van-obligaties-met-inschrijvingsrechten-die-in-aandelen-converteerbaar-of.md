@@ -6,58 +6,6 @@ gerelateerde_adviezen:
     titel: Verwerking van uitgegeven inschrijvingsrechten in de jaarrekening
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
 nummer: CBN-advies 139/8
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of
-      sha256: 71f2fc6846b0a42b29c0df5f6db38b2e372ff7c0647f3636876c31b454bb11a9
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 10
-      max_section_chars: 11087
-      file_size_chars: 22073
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B1
-          regel: 119
-          type: other
-          voorbeeld: '### 1.000.000 = 747.258'
-        - categorie: B1
-          regel: 125
-          type: other
-          voorbeeld: '### 40.000 + 40.000 + 40.000 + 40.000 + 40.000 = 168.494'
-        - categorie: B1
-          regel: 130
-          type: other
-          voorbeeld: '### 60.000 + 60.000 + 60.000 + 60.000 + 60.000 = 252.742'
-        - categorie: B5
-          regel: 152
-          type: other
-          voorbeeld: 'a) Bij de uitgifte van de lening :'
-        - categorie: B3
-          regel: 169
-          type: other
-          voorbeeld: '### c) Bij de terugbetaling van de lening'
-      rationale: 'B1 (regels 119, 125, 130): drie wiskundige formules staan nog steeds als ### headings. B5 (regel 152) en B3 (regel 169): subsecties a) en b) zijn plain tekst terwijl c) een ### heading heeft — inconsistent. B2-probleem (#### zonder ##/###) lijkt gecorrigeerd naar ## in huidige versie. Kernproblemen B1 en B5/B3 blijven aanwezig.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'B1 (regels 119, 125, 130): drie wiskundige formules staan nog steeds als ### headings. B5 (regel 152) en B3 (regel 169): subsecties a) en b) zijn plain tekst terwijl c) een ### heading heeft — inconsistent. B2-probleem (#### zonder ##/###) lijkt gecorrigeerd naar ## in huidige versie. Kernproblemen B1 en B5/B3 blijven aanwezig.'
-    status: needs-rework
 themas:
   - uitgegeven convertereerbare obligaties
   - uitgegeven inschrijvingsrechten
@@ -73,8 +21,32 @@ themas:
   - obligaties
   - obligaties met warrant
   - toelichting
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/uitgifte-van-obligaties-met-inschrijvingsrechten-die-in-aandelen-converteerbaar-of
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:35Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 139/8 - Uitgifte van obligaties met inschrijvingsrechten die in aandelen converteerbaar of terugbetaalbaar zijn, en van aandelen waaraan het recht is gekoppeld om in te schrijven op later uit te geven aandelen
 
 In haar advies 139/7[^1] heeft de Commissie onderzocht hoe warrants (inschrijvingsrechten) door hun emittent moeten worden geboekt[^2] als ze kosteloos worden uitgegeven dan wel, onder bezwarende titel, tegen betaling van een prijs. In laatstgenoemd geval bepaalde zij dat de uitgifteprijs in de eigen vermogenspost "Uitgiftepremies" moet worden geboekt. 
@@ -134,15 +106,15 @@ bedraagt het verschil tussen beide bedragen 84.248 (252.742 - 168.494) en stemt 
 
 • De geactualiseerde waarde - tegen marktrente, op het ogenblik van de uitgifte - bedraagt dus 915 752 en moet, naar gelang van het geval, worden geboekt in post 1710 van het genormaliseerd rekeningenstelsel «Converteerbare [obligatie]lening» of 1711 «Niet-converteerbare [obligatie]lening». Het saldo van het bedrag waarop de schuldeisers-obligatiehouders hebben ingeschreven, namelijk 84 248, wordt op zijn beurt geboekt in post 11 «Uitgiftepremie».
 • De tabel over het actuarieel rendement ziet er als volgt uit :
-| **Jaar** | | **Hoofdsom** | | **Coupon (rentelast van 4%)** | | **Afschrijving van het renteverschil** | | **Totale rentlast** | 
-|---|---|---|---|---|---|---|---|---|
-| **Jaar x+1** | | 915.752 | | 40.000 | | 14.945 | | 54.945 | 
-| **Jaar x+2** | | 930.697 | | 40.000 | | 15.842 | | 55.842 | 
-| **Jaar x+3** | | 946.539 | | 40.000 | | 16.792 | | 56.792 | 
-| **Jaar x+4** | | 963.331 | | 40.000 | | 17.800 | | 57.800 | 
-| **Jaar x+5** | | 981.131 | | 40.000 | | 18.869 | | 58.869 | 
-| | | **1.000.000** | | | | **84.248** | | | 
-| | | M.a.w. de wedersamenstelling van het na 5 jaar aan de schuldeisers-obligatiehouders terug te betalen kapitaal | | | | M.a.w. het bedrag van het renteverschil | | | 
+| **Jaar**|** Hoofdsom**|** Coupon (rentelast van 4%)**|** Afschrijving van het renteverschil**|** Totale rentlast**|
+|---|---|---|---|---|
+| **Jaar x+1**| 915.752| 40.000| 14.945| 54.945|
+| **Jaar x+2**| 930.697| 40.000 | 15.842| 55.842|
+| **Jaar x+3**| 946.539| 40.000 | 16.792| 56.792|
+| **Jaar x+4**| 963.331| 40.000 | 17.800| 57.800|
+| **Jaar x+5**| 981.131| 40.000 | 18.869| 58.869|
+| | **1.000.000**| |** 84.248**| |
+| | M.a.w. de wedersamenstelling van het na 5 jaar aan de schuldeisers-obligatiehouders terug te betalen kapitaal| | M.a.w. het bedrag van het renteverschil| |
 
 • Tot slot kan het boekingsschema met betrekking tot de uitgifte van die obligatielening met inschrijvingsrechten als volgt worden samengevat :
 a) Bij de uitgifte van de lening :

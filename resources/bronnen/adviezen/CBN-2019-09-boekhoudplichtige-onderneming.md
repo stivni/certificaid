@@ -9,38 +9,6 @@ gerelateerde_adviezen:
     titel: De boekhoudkundige en jaarrekeningrechtelijke verplichtingen van een beoefenaar van een vrij beroep
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
 nummer: CBN-advies 2019/09
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
-      sha256: d5cf095e91fad06fe74a290994e695a7dd043f59d198ff5b395bc18669aa0e4b
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:23:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 14
-      max_section_chars: 7293
-      file_size_chars: 23359
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Ronde-1-verdict (needs-rework voor A3 TOC op regels 55-71) is na re-scrape niet langer van toepassing: het huidige bestand begint direct met `## Algemeen` op regel 67 zonder enige TOC-blok ervoor. Heading-hiërarchie (H1 → H2 → H3) is correct en consistent. Geen extractie-artefacten aangetroffen in categorieën A-G. Inhoud volledig: definities, verduidelijkingen, overgangsbepalingen, voorbeelden en 22 voetnoten.'
-      run_at: '2026-05-11T15:23:43Z'
-      status: trusted
-    rationale: 'Ronde-1-verdict (needs-rework voor A3 TOC op regels 55-71) is na re-scrape niet langer van toepassing: het huidige bestand begint direct met `## Algemeen` op regel 67 zonder enige TOC-blok ervoor. Heading-hiërarchie (H1 → H2 → H3) is correct en consistent. Geen extractie-artefacten aangetroffen in categorieën A-G. Inhoud volledig: definities, verduidelijkingen, overgangsbepalingen, voorbeelden en 22 voetnoten.'
-    status: trusted
 themas:
   - boekhoudplichtige onderneming
   - vrij beroep
@@ -48,8 +16,32 @@ themas:
   - feitelijke vereniging
   - maatschap
   - bijkantoor
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudplichtige-onderneming
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:35Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2019/09 – Boekhoudplichtige onderneming
 
 ## Algemeen

@@ -15,44 +15,36 @@ gerelateerde_adviezen:
     titel: Te verwaarlozen betekenis
     url: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
 nummer: CBN-advies 2012/12
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie
-      sha256: 8f168ca3c194d2e303793b92086d96be169004b1e86f6cbc85e979ca9feec293
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T21:31:11Z'
-    confirmed_by: human
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 3
-      max_section_chars: 1691
-      file_size_chars: 4255
-      flags: []
-    layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
-    status: trusted
 themas:
   - geconsolideerde jaarrekening
   - subconsolidatie
   - vrijstelling
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:07Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2012/12 - Vrijstelling van subconsolidatie
 
 CBN-advies 2012/12 - Vrijstelling van subconsolidatie

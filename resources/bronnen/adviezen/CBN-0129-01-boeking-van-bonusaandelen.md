@@ -6,46 +6,38 @@ gerelateerde_adviezen:
     titel: De boekhoudkundige verwerking van stockdividenden
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-stockdividenden
 nummer: CBN-advies 129/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-bonusaandelen
-      sha256: f2f44d742929ecd3f5bb3c5a8222c42b5feb48ea8e6821df96e7e014c0c2f2cb
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:30Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 5094
-      file_size_chars: 5094
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Inhoudelijk volledig met twee benaderingen, gemotiveerd ontkennend antwoord en praktische conclusie over aanschaffingsprijs bij bonusaandelen.'
-      run_at: '2026-05-08T19:02:30Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - bonusaandelen
   - equity methode
   - financiële vaste activa
   - incorporatie van reserves in het kapitaal
   - nettovermogenswaardemethode
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-bonusaandelen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:29Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 129/1 - Boeking van bonusaandelen
 
 Aan een onderneming worden naar rato van haar participatie in een andere vennootschap, aandelen van deze laatste toegekend uitgegeven op basis van een incorporatie van reserves in het kapitaal. Aan de Commissie werd gevraagd of de waarde van deze «bonusaandelen» op het actief mag worden geboekt als aangroei van de boekwaarde van de portefeuille, en hun tegenwaarde op de resultatenrekening als financiële opbrengst. 

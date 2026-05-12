@@ -15,62 +15,38 @@ gerelateerde_adviezen:
     titel: Uitgiftepremie
     url: https://www.cbn-cnc.be/nl/adviezen/uitgiftepremie
 nummer: CBN-advies 2021/01
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/uitgiftepremie-0
-      sha256: 62cf2752f2d3c6fc437d4fd18bf5273a8fe23b7773e7571d947cf9a9065fe896
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 10
-      max_section_chars: 8211
-      file_size_chars: 16089
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: F1
-          regel: 74
-          type: other
-          voorbeeld: '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN (geen advies-nummer of titel in H1)'
-        - categorie: D4
-          regel: 97
-          type: other
-          voorbeeld: '- bij de andere dan de NV, SE, SCE:* I.B. Inbreng - Onbeschikbaar*.'
-        - categorie: B5
-          regel: 158
-          type: other
-          voorbeeld: 'b) Indien de statuten niets vermelden... (plain text, geen heading — terwijl a) op r. 151 wel ### heeft)'
-        - categorie: B5
-          regel: 164
-          type: other
-          voorbeeld: c) Bij een latere statutenwijziging... (idem — plain text)
-      rationale: 'F1: H1-titel luidt ''# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'' zonder advies-nummer of -titel — bron-identificatie ontbreekt in body (frontmatter heeft het correct als ''CBN-advies 2021/01'' maar body-kop klopt niet). D4: Regel 97 bevat '':* I.B. Inbreng - Onbeschikbaar*.'' met spatie na het dubbele punt vóór opening-asterisk — italic niet correct geopend. B5: Regels 158 en 164 bevatten ''b) Indien...'' en ''c) Bij een latere...'' als plain-text vóór tabellen zonder heading-prefix, terwijl ''a)'' op regel 151 wél een ### heading heeft.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'F1: H1-titel luidt ''# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'' zonder advies-nummer of -titel — bron-identificatie ontbreekt in body (frontmatter heeft het correct als ''CBN-advies 2021/01'' maar body-kop klopt niet). D4: Regel 97 bevat '':* I.B. Inbreng - Onbeschikbaar*.'' met spatie na het dubbele punt vóór opening-asterisk — italic niet correct geopend. B5: Regels 158 en 164 bevatten ''b) Indien...'' en ''c) Bij een latere...'' als plain-text vóór tabellen zonder heading-prefix, terwijl ''a)'' op regel 151 wél een ### heading heeft.'
-    status: needs-rework
 themas:
   - uitgiftepremie
   - beschikbare inbreng
   - onbeschikbare inbreng
   - reserve
   - aanzuiveren van verliezen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/uitgiftepremie-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:40Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
 ## Inleiding

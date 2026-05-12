@@ -15,42 +15,6 @@ gerelateerde_adviezen:
     titel: Bouwwerken op andermans grond
     url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
 nummer: CBN-advies 2021/05
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
-      sha256: a6a835235f4de2ac37139702cfe01c84e595a9ff09f053496214f4c98aaa6179
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 7
-      max_section_chars: 2237
-      file_size_chars: 10485
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 78
-          type: other
-          voorbeeld: rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] * wordt gecrediteerd
-      rationale: 'D4: Regel 78 bevat ''rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *'' waarbij spaties staan vóór de sluit-asterisken van beide italic spans — het voetnootmarker [^2] doorkruist de tweede italic-span en injecteert een spatie. Geïsoleerd extractie-artefact; rest van het document is inhoudelijk volledig en correct gestructureerd met 7 headings en 3 voetnootdefinities.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'D4: Regel 78 bevat ''rekening 744 *Huuropbrengsten *of rekening 70 *Omzet[^2] *'' waarbij spaties staan vóór de sluit-asterisken van beide italic spans — het voetnootmarker [^2] doorkruist de tweede italic-span en injecteert een spatie. Geïsoleerd extractie-artefact; rest van het document is inhoudelijk volledig en correct gestructureerd met 7 headings en 3 voetnootdefinities.'
-    status: needs-rework
 themas:
   - Huur
   - COVID-19
@@ -61,8 +25,32 @@ themas:
   - opbrengsterkenning
   - leasevergoeding
   - verlenging huur
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-behandeling-van-kwijtschelding-van-huur-ten-gevolge-van-de-covid-19
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:41Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2021/05 - Boekhoudrechtelijke behandeling van kwijtschelding van huur ten gevolge van de COVID-19-pandemie
 
 ## Inleiding

@@ -6,42 +6,34 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van interesten en andere bedragen verschuldigd wegens betalingsachterstand
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens
 nummer: CBN-advies 116
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/financiele-kortingen
-      sha256: a267635240227b1356f102bc544cb9ce1610a55c29d3aa9413dd786800b7e24a
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 2759
-      file_size_chars: 2759
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Advies van 2759 chars, vier inhoudelijke alinea's. Geen detecteerbare extractie-artefacten. Geen headings vereist (lopende tekst). Geen italic-markers, geen broken bullets, geen unicode-anomalieën. Inhoud volledig.
-      run_at: '2026-05-11T11:57:45Z'
-      status: trusted
-    rationale: Advies van 2759 chars, vier inhoudelijke alinea's. Geen detecteerbare extractie-artefacten. Geen headings vereist (lopende tekst). Geen italic-markers, geen broken bullets, geen unicode-anomalieën. Inhoud volledig.
-    status: trusted
 themas:
   - financiële korting
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/financiele-kortingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:21Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 116 - Financiële kortingen
 
 In het handelsverkeer wordt vaak in overeenkomsten of in facturen een korting voorzien ten belope van een zeker percentage van het gefactureerde bedrag bij betaling van dit bedrag vóór een vastgestelde datum. 

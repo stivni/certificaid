@@ -2,43 +2,35 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/devaluatie-van-de-belgische-frank
 datum: 1983-04-01
 nummer: CBN-advies 107/5
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/devaluatie-van-de-belgische-frank
-      sha256: e970a3e2c22eadc34e305d927322d901fcaa773d3ca74a0b17e7cd45ca052914
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:16:02Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 2088
-      file_size_chars: 2088
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Prior layer2 verdict (needs-rework, D4) is onjuist: de [^1]-marker op regel 54 staat inline in de zin (''artikel 77 W. Venn.[^1] waardoor...'') op dezelfde regel — geen gebroken newline in de body. De voetnoot heeft een correcte definitie op regel 56. Body is volledig, geen headings verwacht voor een korte advies-nota, geen andere artefacten aangetroffen.'
-      run_at: '2026-05-11T13:16:02Z'
-      status: trusted
-    rationale: 'Prior layer2 verdict (needs-rework, D4) is onjuist: de [^1]-marker op regel 54 staat inline in de zin (''artikel 77 W. Venn.[^1] waardoor...'') op dezelfde regel — geen gebroken newline in de body. De voetnoot heeft een correcte definitie op regel 56. Body is volledig, geen headings verwacht voor een korte advies-nota, geen andere artefacten aangetroffen.'
-    status: trusted
 themas:
   - devaluatie van de Belgische frank
   - voorziening
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/devaluatie-van-de-belgische-frank
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:10Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 107/5 - Devaluatie van de Belgische frank
 
 Overeenkomstig artikel 19, derde lid, van het koninklijk besluit van 8 oktober 1976 moet in de jaarrekening rekening worden gehouden met alle voorzienbare risico's, mogelijke verliezen en ontwaardingen, ontstaan tijdens het boekjaar of tijdens voorgaande boekjaren, zelfs indien deze risico's, verliezen of ontwaardingen slechts gekend zijn tussen de balansdatum en het ogenblik waarop de jaarrekening door het beheersorgaan van de onderneming wordt opgesteld.

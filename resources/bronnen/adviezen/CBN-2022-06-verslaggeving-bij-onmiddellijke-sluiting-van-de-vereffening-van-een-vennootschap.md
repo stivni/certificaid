@@ -15,42 +15,6 @@ gerelateerde_adviezen:
     titel: Boekingswijze van een voorschot op de verdeling van het netto-actief
     url: https://www.cbn-cnc.be/nl/adviezen/boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief
 nummer: CBN-advies 2022/06
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap
-      sha256: ca798a8aebd702ff295f370653cd9e6fc4a85a86f45252acf0db20c89a773a4f
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:31Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 7
-      max_section_chars: 17538
-      file_size_chars: 23682
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D2
-          regel: 144
-          type: missing-section
-          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [tijdslijn-schema ontbreekt]'
-      rationale: 'D2: regel 144 kondigt ''Schematisch kunnen de volgende termijnen worden onderscheiden:'' aan maar het tijdslijn-schema ontbreekt volledig — de tekst gaat direct verder met een bullet-opsomming zonder de beloofde schematische voorstelling. Geen TOC-fragmenten of andere artefacten aangetroffen.'
-      run_at: '2026-05-11T17:13:31Z'
-      status: needs-rework
-    rationale: 'D2: regel 144 kondigt ''Schematisch kunnen de volgende termijnen worden onderscheiden:'' aan maar het tijdslijn-schema ontbreekt volledig — de tekst gaat direct verder met een bullet-opsomming zonder de beloofde schematische voorstelling. Geen TOC-fragmenten of andere artefacten aangetroffen.'
-    status: needs-rework
 themas:
   - sluiting vereffening
   - ontbinding
@@ -85,8 +49,32 @@ themas:
   - verenigingsdossier
   - ondernemingsrechtbank
   - provisie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:47Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2022/06 – Verslaggeving bij onmiddellijke sluiting van de vereffening van een vennootschap
 
 ## Onderwerp van het advies

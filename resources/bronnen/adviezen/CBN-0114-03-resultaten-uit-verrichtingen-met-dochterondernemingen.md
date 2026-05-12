@@ -12,38 +12,6 @@ gerelateerde_adviezen:
     titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves
     url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
 nummer: CBN-advies 114/3
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/resultaten-uit-verrichtingen-met-dochterondernemingen
-      sha256: d152908b90018acf998826b351f506fee4d353f740a2246484bd2e6f3f7c62c3
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 8930
-      file_size_chars: 8930
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig coherent advies met principiële vraag en antwoord volledig uitgewerkt. Onderscheid gewone vs. geconsolideerde jaarrekening helder.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - dochteronderneming
   - geconsolideerde jaarrekening
@@ -51,8 +19,32 @@ themas:
   - resultaten
   - verrichtingen met dochterondernemingen
   - verrichtingen met verbonden ondernemingen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/resultaten-uit-verrichtingen-met-dochterondernemingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:20Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 114/3 - Resultaten uit verrichtingen met dochterondernemingen
 
 Aan de Commissie werd de vraag gesteld of, gelet op de bepalingen van het koninklijk besluit van 8 oktober 1976, de resultaten uit verrichtingen tussen een onderneming en haar dochter - waarvan zij de quasi-totaliteit van het kapitaal bezit - als gerealiseerd kunnen worden beschouwd en derhalve in de resultatenrekening als opbrengsten en kosten mogen worden geboekt. 

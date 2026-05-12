@@ -9,38 +9,6 @@ gerelateerde_adviezen:
     titel: Voorstelling van een tabel met de wijzigingen in het eigen vermogen en de bestemming van het resultaat van het boekjaar
     url: https://www.cbn-cnc.be/nl/adviezen/voorstelling-van-een-tabel-met-de-wijzigingen-in-het-eigen-vermogen-en-de-bestemming-van
 nummer: CBN-advies 133/4
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
-      sha256: 91e4ca11a7177d32fb69fb0526c84ed29cae2683cb3bdb8c0797556e9eb8e5f7
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 4625
-      file_size_chars: 4625
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Volledig leesbaar advies met correct opgemaakte markdown-tabellen, gedefineerde voetnoten en coherente lopende tekst. Geen zichtbare PDF-extractie-artefacten. Een buitenstaander zou dit voor mens-geschreven markdown houden.
-      run_at: '2026-05-11T12:04:41Z'
-      status: trusted
-    rationale: Volledig leesbaar advies met correct opgemaakte markdown-tabellen, gedefineerde voetnoten en coherente lopende tekst. Geen zichtbare PDF-extractie-artefacten. Een buitenstaander zou dit voor mens-geschreven markdown houden.
-    status: trusted
 themas:
   - bestemming van het resultaat van het boekjaar
   - deelneming
@@ -50,8 +18,32 @@ themas:
   - roerende voorheffing
   - schulden
   - schulden uit bestemming van het resultaat
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:31Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 133/4 - Schulden uit de resultaatbestemming : dividenduitkering aan een onderneming die ten minste 25 % bezit van het kapitaal van de vennootschap die het dividend uitkeert
 
 Met toepassing van het koninklijk besluit van 6 juli 1997[^1] tot wijziging van artikel 106, §§ 5 en 6 van het Koninklijk Besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen (KB/WIB 92), wordt geen roerende voorheffing ingehouden op het dividend dat een Belgische vennootschap uitkeert aan een andere Belgische of Europese vennootschap, op voorwaarde dat laatstgenoemde vennootschap tijdens een ononderbroken periode van ten minste één jaar een deelneming van minimaal 25 % bezit in het kapitaal van eerstgenoemde vennootschap, zelfs indien, op het ogenblik waarop het dividend wordt toegekend, de termijn van één jaar nog niet is verstreken. 
@@ -76,22 +68,19 @@ In de rekeningen van A
 | | 694 | Vergoeding van het kapitaal | 800 | |
 | aan | 471 | Dividenden over het boekjaar | | 800 |
 
-*Bij de dividenduitkering*
-
+## Bij de dividenduitkering
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 471 | Dividenden over het boekjaar | 600 | |
 | aan | 55 | Kredietinstellingen | | 600 |
 
-*Indien B, op 15 november van jaar n, 15 % van A verkoopt*
-
+## Indien B, op 15 november van jaar n, 15 % van A verkoopt
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 471 | Dividenden over het boekjaar | 200 | |
 | aan | 453 | Ingehouden voorheffing | | 200 |
 
-*Indien B, op 15 februari van jaar n+1, nog steeds meer dan 25 % van A bezit*
-
+## Indien B, op 15 februari van jaar n+1, nog steeds meer dan 25 % van A bezit
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 471 | Dividenden over het boekjaar | 200 | |
@@ -99,23 +88,20 @@ In de rekeningen van A
 
 In de rekeningen van B 
 
-*Bij de dividenduitkering*
-
+## Bij de dividenduitkering
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 55 | Kredietinstellingen | 600 | |
 | | 41 | Overige vorderingen | 200 | |
 | aan | 75 | Financiële opbrengsten | | 800 |
 
-*Wanneer B op 15 november van jaar n 15 % van A verkoopt*
-
+## Wanneer B op 15 november van jaar n 15 % van A verkoopt
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 67 | Belastingen op het resultaat | 200 | |
 | aan | 41 | Overige vorderingen | | 200 |
 
-*Indien B op 15 februari van jaar n+1 nog steeds meer dan 25 % van A bezit*
-
+## Indien B op 15 februari van jaar n+1 nog steeds meer dan 25 % van A bezit
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 55 | Kredietinstellingen | 200 | |

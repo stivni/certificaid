@@ -15,46 +15,38 @@ gerelateerde_adviezen:
     titel: Verrichtingen met betrekking tot inschrijvingsrechten
     url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
 nummer: CBN-advies 126/16
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-van-de-aandelen-ontvangen-naar-aanleiding-van-een-in-het-buitenland
-      sha256: c042a328cca11a9e09e176d8b647d6d289f774c526f4f02145acd2c6ea72f2db
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 8398
-      file_size_chars: 8398
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig advies met twee interpretaties en conclusie van de Commissie. H1-titel tweemaal herhaald is cosmetisch scraping-artefact.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - aandelen
   - aandeel ontvangen n.a.v. een in het buitenland verwezenlijkte fusie
   - fusie
   - fusie van buitenlandse vennootschappen
   - in het buitenland verwezenlijkte fusie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-van-de-aandelen-ontvangen-naar-aanleiding-van-een-in-het-buitenland
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:27Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN advies 126-16 - Aanschaffingswaarde van de aandelen ontvangen naar aanleiding van een in het buitenland verwezenlijkte fusie
 Een vennootschap naar Belgisch recht (onderworpen aan de bepalingen van het koninklijk besluit van 8 oktober 1976) bezit aandelen van een in een andere Lid-Staat van de Europese Unie gevestigde vennootschap. Deze vennootschap wordt via een fusie door overneming, opgeslorpt door een andere, eveneens in die Lid-Staat gevestigde vennootschap. De fusie wordt verwezenlijkt overeenkomstig de nationale maatregelen getroffen in het kader van de omzetting van de derde EG-richtlijn betreffende fusies van naamloze vennootschappen. De Belgische vennootschap ontvangt aandelen van de overnemende buitenlandse vennootschap, in ruil voor haar aandelen in de overgenomen vennootschap. 
 

@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Toelichting bij de boekhoudkundige verwerking van termijnwisselverrichtingen tussen de munten van Lid-Staten van de Muntunie
     url: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de
 nummer: CBN-advies 173/4
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vervroegde-vaststelling-van-de-bilaterale-wisselkoersen-in-mei-1998-gevolgen-voor-het
-      sha256: e87ce873f16e8a77335c30c17199e3da216857864ccccb6dad43ab7e34c50411
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 11620
-      file_size_chars: 11620
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig en coherent advies met twee varianten en concrete cijfervoorbeelden. Historisch specifiek maar inhoudelijk compleet.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - euro
   - omrekeningskoers
@@ -54,8 +22,32 @@ themas:
   - wisselresultaat
   - bilaterale wisselkoersen
   - wisselverschil
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vervroegde-vaststelling-van-de-bilaterale-wisselkoersen-in-mei-1998-gevolgen-voor-het
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:48Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 173/4 - Vervroegde vaststelling van de bilaterale wisselkoersen in mei 1998 : gevolgen voor het advies nr. 173/1 : «Overschakeling op de euro : boekhoudrechtelijke aspecten»
 
 Tijdens een vergadering op 13 en 14 september 1997 in Mondorf met de Ministers van Financiën van de Lid-Staten van de Europese Unie, werd beslist om de bilaterale wisselkoersen van de Europese deviezen die in aanmerking komen voor de euro, vast te stellen tijdens het weekend van 2 en 3 mei 1998. Die wisselkoersen zullen worden gehanteerd bij de invoering van de eenheidsmunt, wat uiterlijk op 1 januari 1999 dient te geschieden, terwijl de omrekeningskoers in euro van de verschillende betrokken munten op 1 januari 1999 zal worden vastgesteld. 

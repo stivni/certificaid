@@ -12,46 +12,38 @@ gerelateerde_adviezen:
     titel: Verbonden ondernemingen - Ondernemingen met deelnemingsverhouding
     url: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen-ondernemingen-met-deelnemingsverhouding
 nummer: CBN-advies 114/6
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/uitdrukking-van-verrichtingen-tussen-ondernemingen-uit-eenzelfde-groep
-      sha256: a2e68aed61782b8862affb864cca224727baf8b2a6f5226ed041927ed8560f25
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 1999
-      file_size_chars: 1999
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Kort advies (1999 chars), vier alinea's + één voetnoot. Geen extractie-artefacten in categorieën A–G. Heading correct als H1. Geen italic-problemen, geen broken bullets, geen spurious line-breaks. Inhoud volledig conform verwacht advies-patroon.
-      run_at: '2026-05-11T11:57:45Z'
-      status: trusted
-    rationale: Kort advies (1999 chars), vier alinea's + één voetnoot. Geen extractie-artefacten in categorieën A–G. Heading correct als H1. Geen italic-problemen, geen broken bullets, geen spurious line-breaks. Inhoud volledig conform verwacht advies-patroon.
-    status: trusted
 themas:
   - deelnemingsverhouding
   - verbonden onderneming
   - verrichtingen met verbonden ondernemingen
   - interne groepsverrichting
   - verrichtingen tussen ondernemingen uit eenzelfde groep
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/uitdrukking-van-verrichtingen-tussen-ondernemingen-uit-eenzelfde-groep
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:21Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 114/6 - Uitdrukking van verrichtingen tussen ondernemingen uit eenzelfde groep
 
 Met toepassing van de vierde EEG-richtlijn schrijft het koninklijk besluit van 8 oktober 1976 voor dat de belangrijkste verrichtingen van een onderneming met de ondernemingen waarmee zij is verbonden of waarmee een deelnemingsverhouding bestaat, in de jaarrekening moeten worden uitgedrukt[^1]. 

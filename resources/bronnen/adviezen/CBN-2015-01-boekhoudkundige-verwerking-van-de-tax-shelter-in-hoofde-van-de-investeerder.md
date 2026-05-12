@@ -9,50 +9,6 @@ gerelateerde_adviezen:
     titel: Verwerking in de boekhouding en de jaarrekening van de belastingbesparing ingevoerd door het K.B. nr. 16 van 9 maart 1982
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-boekhouding-en-de-jaarrekening-van-de-belastingbesparing-ingevoerd-door
 nummer: CBN-advies 2015/1
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
-      sha256: 67fafb8ab12a60b28c7bae3b215010737b1e7a8d288a71d0da5ef8114d159e0d
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 10
-      max_section_chars: 6262
-      file_size_chars: 24363
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B3
-          regel: 65
-          type: other
-          voorbeeld: '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN — extra H1 scrape-artefact boven werkelijke adviestitel'
-        - categorie: D4
-          regel: 90
-          type: other
-          voorbeeld: de* productievennootschap* — asterisk kleeft direct aan 'de' zonder spatie (malformed italic)
-        - categorie: A6
-          regel: 93
-          type: other
-          voorbeeld: ' Het bedrag dat kan worden vrijgesteld is... — spurious line break na voetnootreferentie [^9]'
-      rationale: 'B3 bevestigd: regel 65 ''# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'' is een extra scrape-artefact H1 bovenaan de body — de eigenlijke adviestitel staat als ## op regel 67. D4 bevestigd: regel 90 ''de* productievennootschap*'' heeft asterisk die direct na ''de'' kleeft zonder spatie, waardoor de italic-markup breekt. A6: regel 93 begint een nieuwe zin op een nieuwe regel direct na de vorige zin zonder alinea-break. Alle ETL-artefacten, geen source-typo.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'B3 bevestigd: regel 65 ''# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'' is een extra scrape-artefact H1 bovenaan de body — de eigenlijke adviestitel staat als ## op regel 67. D4 bevestigd: regel 90 ''de* productievennootschap*'' heeft asterisk die direct na ''de'' kleeft zonder spatie, waardoor de italic-markup breekt. A6: regel 93 begint een nieuwe zin op een nieuwe regel direct na de vorige zin zonder alinea-break. Alle ETL-artefacten, geen source-typo.'
-    status: needs-rework
 themas:
   - belastingbesparing
   - belastingvoordeel
@@ -60,8 +16,32 @@ themas:
   - Investeerder
   - Onaantastbaarheidsvoorwaarde
   - tax shelter
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:13Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2015/1 - Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)
 
 ## Inleiding

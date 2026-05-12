@@ -15,44 +15,36 @@ gerelateerde_adviezen:
     titel: Interne en externe jaarrekening – Begrippen
     url: https://www.cbn-cnc.be/nl/adviezen/interne-en-externe-jaarrekening-begrippen
 nummer: CBN-advies 110/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-de-jaarrekening-mogelijkheid-tot-publikatie-van-de-jaarrekening-in
-      sha256: 1ef9820459b50de3ce91e1b2c40e8b3caaa390057c0b656e38b89ef70efe6af6
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 3325
-      file_size_chars: 3325
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Advies van 3325 tekens zonder interne headings — past bij de doorlopende betoog-structuur. Eén voetnoot [^1] aanwezig en gedefineerd. Geen artefacten, geen spurious breaks, geen Unicode-resten. Tekst vloeit logisch van paragraaf tot paragraaf.
-      run_at: '2026-05-11T11:57:45Z'
-      status: trusted
-    rationale: Advies van 3325 tekens zonder interne headings — past bij de doorlopende betoog-structuur. Eén voetnoot [^1] aanwezig en gedefineerd. Geen artefacten, geen spurious breaks, geen Unicode-resten. Tekst vloeit logisch van paragraaf tot paragraaf.
-    status: trusted
 themas:
   - interne jaarrekening
   - openbaarmaking
   - publicatie van de jaarrekening in beknopte vorm
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmaking-van-de-jaarrekening-mogelijkheid-tot-publikatie-van-de-jaarrekening-in
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:13Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 110/1 - Openbaarmaking van de jaarrekening - Mogelijkheid tot publikatie van de jaarrekening in beknopte vorm (artikel 39)
 
 Krachtens artikel 39 van het koninklijk besluit hebben de ondernemingen die beantwoorden aan de erin opgenomen criteria, de mogelijkheid een beknopte balans en resultatenrekening te publiceren en bepaalde vermeldingen waarin is voorzien door Hoofdstuk I van de bijlage bij het koninklijk besluit van 8 oktober 1976 niet in de toelichting op te nemen. 

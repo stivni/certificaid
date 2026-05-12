@@ -15,50 +15,6 @@ gerelateerde_adviezen:
     titel: 'Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
 nummer: CBN-advies 2020/01
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
-      sha256: 14f15fd95e33712adef5480cf5cefebadebb5694dcea904d867d50597eddc1f2
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 10
-      max_section_chars: 10037
-      file_size_chars: 22909
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A7
-          regel: 78
-          type: scrambled-words
-          voorbeeld: "van de jaarrekening \n\n van de jaarrekening"
-        - categorie: D2
-          regel: 102
-          type: missing-section
-          voorbeeld: '*Volledig, verkort en micromodel van de jaarrekening: samenstelling van het eigen vermogen van kapitaalvennootschappen[^15]*'
-        - categorie: D2
-          regel: 108
-          type: missing-section
-          voorbeeld: '*Volledig model van de jaarrekening: samenstelling van de rubriek Onbeschikbare reserves van kapitaalloze vennootschappen[^17]*'
-      rationale: 'A7: regels 78–80 bevatten twee weesregels `van de jaarrekening` — fragmenten van de ondertitel losgeraakt bij extractie. D2: regels 102, 104, 108 bevatten italic plaatshouders voor figuren (`*Volledig, verkort en micromodel...samenstelling van het eigen vermogen*`) maar de eigenlijke schema''s ontbreken — de kern van het advies (nieuwe jaarrekeningmodellen) is daardoor niet leesbaar.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'A7: regels 78–80 bevatten twee weesregels `van de jaarrekening` — fragmenten van de ondertitel losgeraakt bij extractie. D2: regels 102, 104, 108 bevatten italic plaatshouders voor figuren (`*Volledig, verkort en micromodel...samenstelling van het eigen vermogen*`) maar de eigenlijke schema''s ontbreken — de kern van het advies (nieuwe jaarrekeningmodellen) is daardoor niet leesbaar.'
-    status: needs-rework
 themas:
   - neerlegging van de jaarrekening
   - publicatie
@@ -71,8 +27,32 @@ themas:
   - inbreng
   - kapitaal
   - uitgiftepremie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:37Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2020/01 – Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België: nieuwe modellen van de jaarrekening
 
 ## Inleiding
@@ -93,14 +73,12 @@ De nieuwe schema’s van de jaarrekening[^10] verschillen op zich weinig van de 
 
 Zoals blijkt uit onderstaande figuren wordt zowel in het geval van een kapitaalvennootschap als in het geval van een kapitaalloze vennootschap als verzamelnaam voor alle inbrengen voortaan de titulatuur “Inbreng” ingevoerd.
 
-*Volledig, verkort en micromodel van de jaarrekening: samenstelling van het eigen vermogen van kapitaalvennootschappen[^15]* 
-
+## Volledig, verkort en micromodel van de jaarrekening: samenstelling van het eigen vermogen van kapitaalvennootschappen
 Volledig, verkort en micromodel van de jaarrekening: samenstelling van het eigen vermogen van kapitaalloze vennootschappen[^16] *
 
 - in de schema’s van de balansen van de vennootschappen wordt een uitsplitsing gevraagd van de onbeschikbare reserves naargelang de reden van deze onbeschikbaarheid. Hierin is voorzien in een subrubriek ‘Overige’. Op deze subrubriek ‘Overige’ wordt onder meer de onbeschikbare reserve geboekt die ontstaat bij de omzetting van een VZW in een erkende CVSO of een coöperatieve vennootschap erkend als SO zoals bedoeld in artikel 14:37 WVV; 
 
-*Volledig model van de jaarrekening: samenstelling van de rubriek Onbeschikbare reserves van kapitaalloze vennootschappen[^17]* 
-
+## Volledig model van de jaarrekening: samenstelling van de rubriek Onbeschikbare reserves van kapitaalloze vennootschappen
 - in het schema van de resultatenrekening worden een aantal terminologische wijzigingen aangebracht ingevolge het verdwijnen van het kapitaalbegrip bij de kapitaalloze vennootschappen. 
 
 De vennootschappen die hun jaarrekening moeten opmaken overeenkomstig de schema’s uit het KB WVV volgen voor de neerlegging van hun jaarrekening een model van jaarrekening dat door de Nationale Bank van België wordt opgesteld na advies van de Commissie en dat op haar website ter beschikking wordt gesteld.[^18] 
@@ -164,11 +142,10 @@ Kapitaalloze vennootschappen zullen het bedrag dat werd geboekt op de rekeningen
 
 Bij de opstelling van de jaarrekening van een kapitaalloze vennootschap door het bestuursorgaan zal het saldo van de bedragen die in de ‘oude’ modellen van de jaarrekening werden opgenomen onder code 100 *(Geplaatst kapitaal)* en 101 *(Niet-opgevraagd kapitaal)* vanaf de inwerkingtreding moeten worden opgenomen onder de code 111 *Onbeschikbare inbreng* van de nieuwe modellen van de jaarrekening.
 
-*‘Oud’ model van de jaarrekening*
-
+## ‘Oud’ model van de jaarrekening
 ‘Nieuw’ model van de jaarrekening voor kapitaalloze vennootschappen*
 
-#### Aangepaste modellen voor VZW’s, IVZW’s en stichtingen
+### Aangepaste modellen voor VZW’s, IVZW’s en stichtingen
 De wijzigingen aan de schema’s voor de VZW’s, IVZW’s en stichtingen zoals opgenomen in bijlagen 6 en 7 bij het KB WVV zijn minder ingrijpend, hebben geen ‘herindeling’ tot gevolg en behoeven bijgevolg in het kader van onderhavig advies geen verdere commentaar. De Commissie zal evenwel niet nalaten om in andere adviezen waar nodig de voornaamste inhoudelijke wijzigingen toe te lichten. 
 
 ### Gebruik van de ‘oude’ XBRL-modellen van de jaarrekening

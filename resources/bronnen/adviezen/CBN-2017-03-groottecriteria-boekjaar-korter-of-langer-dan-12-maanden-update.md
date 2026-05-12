@@ -15,46 +15,38 @@ gerelateerde_adviezen:
     titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
     url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
 nummer: CBN-advies 2017/03
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
-      sha256: 7246b24275436240f8e58897b25965ca4740deb95dfb50770445841f85806bff
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:51:53Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 3
-      max_section_chars: 862
-      file_size_chars: 2561
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Zeer kort advies (2.5k chars, 3 headings). Volledig schoon: vraag, antwoord en voorbeelden helder gestructureerd. Voetnoten [^1]–[^3] correct. Geen artefacten.'
-      run_at: '2026-05-11T17:51:53Z'
-      status: trusted
-    rationale: 'Zeer kort advies (2.5k chars, 3 headings). Volledig schoon: vraag, antwoord en voorbeelden helder gestructureerd. Voetnoten [^1]–[^3] correct. Geen artefacten.'
-    status: trusted
 themas:
   - boekjaar
   - criteria
   - groottecriteria
   - verlenging van het boekjaar
   - verkorting van het boekjaar
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:21Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2017/03 – Groottecriteria – Boekjaar korter of langer dan 12 maanden (update)
 
 ## Vraag

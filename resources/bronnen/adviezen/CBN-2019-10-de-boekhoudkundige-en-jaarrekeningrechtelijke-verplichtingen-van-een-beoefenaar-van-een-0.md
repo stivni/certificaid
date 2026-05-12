@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
 datum: 2019-09-30
 nummer: CBN-advies 2019/10
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
-      sha256: 7d925eef4c564534b49c0be59c27ce430bea5653fea0641887cda8ac5c889f72
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 7
-      max_section_chars: 6503
-      file_size_chars: 19087
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen extractie-artefacten. Geen TOC-fragment in de body, geen broken italics, geen orphan-ankers. Zeven headings correct gelaagd. Voetnoten [^1]–[^29] volledig en correct. Inhoud compleet (aanvangsmoment, boekjaar, dubbel vs. vereenvoudigd, publicatieverplichting). Laag-1: pass, geen flags.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: trusted
-    rationale: 'Geen extractie-artefacten. Geen TOC-fragment in de body, geen broken italics, geen orphan-ankers. Zeven headings correct gelaagd. Voetnoten [^1]–[^29] volledig en correct. Inhoud compleet (aanvangsmoment, boekjaar, dubbel vs. vereenvoudigd, publicatieverplichting). Laag-1: pass, geen flags.'
-    status: trusted
 themas:
   - boekhoudkundige verplichting
   - vrij beroep
@@ -44,8 +12,32 @@ themas:
   - publicatie
   - openbaarmaking
   - jaarrekening
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-en-jaarrekeningrechtelijke-verplichtingen-van-een-beoefenaar-van-een-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:35Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2019/10 – De boekhoudkundige en jaarrekeningrechtelijke verplichtingen van een beoefenaar van een vrij beroep
 
 ## Algemeen

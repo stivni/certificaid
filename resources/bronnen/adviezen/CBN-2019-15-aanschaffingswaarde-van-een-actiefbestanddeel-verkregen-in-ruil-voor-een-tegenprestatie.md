@@ -6,50 +6,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van een ruilverrichting en een aanbod tot inschrijving door inbreng in natura
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-ruilverrichting-en-een-aanbod-tot-inschrijving-door
 nummer: CBN-advies 2019/15
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-van-een-actiefbestanddeel-verkregen-in-ruil-voor-een-tegenprestatie
-      sha256: bbb6a8771bd8588544978cda660da6cb388db0d391bb158485cfd5c5e2079459
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 4
-      max_section_chars: 5374
-      file_size_chars: 11431
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 128
-          type: other
-          voorbeeld: '*Vennootschap A *'
-        - categorie: D4
-          regel: 130
-          type: other
-          voorbeeld: '*Op de datum waarop de voornaamste prestatie van de dienst wordt uitgevoerd[^11] *'
-        - categorie: D3
-          regel: 132
-          type: other
-          voorbeeld: ' [^12]'
-      rationale: 'Inhoud volledig en correct gestructureerd. Twee minor D4-issues: ''*Vennootschap A *'' (regel 128) en ''*Op de datum waarop de voornaamste prestatie...[^11] *'' (regel 130) hebben een spatie vóór de sluitende ''*'', wat duidt op een trailing-space extractie-artefact. Dit raakt leesbaarheid niet maar is on-natuurlijk voor mens-geschreven markdown. Voorts een lege footnote-referentie '' [^12]'' (regel 132) die als lege alinea verschijnt.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: trusted
-    rationale: 'Inhoud volledig en correct gestructureerd. Twee minor D4-issues: ''*Vennootschap A *'' (regel 128) en ''*Op de datum waarop de voornaamste prestatie...[^11] *'' (regel 130) hebben een spatie vóór de sluitende ''*'', wat duidt op een trailing-space extractie-artefact. Dit raakt leesbaarheid niet maar is on-natuurlijk voor mens-geschreven markdown. Voorts een lege footnote-referentie '' [^12]'' (regel 132) die als lege alinea verschijnt.'
-    status: trusted
 themas:
   - ruil
   - tegenprestatie anders dan in geld
@@ -57,8 +13,32 @@ themas:
   - aanschaffingswaarde actiefbestanddeel
   - verlenen van een dienst
   - marktwaarde
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-van-een-actiefbestanddeel-verkregen-in-ruil-voor-een-tegenprestatie
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:36Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2019/15 – Aanschaffingswaarde van een actiefbestanddeel verkregen in ruil voor een tegenprestatie anders dan in geld
 
 ## Inleiding
@@ -134,8 +114,7 @@ De volgende boekingen vinden plaats:
 
 *Vennootschap A* 
 
-*Op de datum waarop de voornaamste prestatie van de dienst wordt uitgevoerd[^11]* 
-
+## Op de datum waarop de voornaamste prestatie van de dienst wordt uitgevoerd
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 230 | Installaties, machines en uitrusting: aanschaffingswaarde | 45.000 | |
@@ -148,8 +127,7 @@ De volgende boekingen vinden plaats:
 
 *Vennootschap B*
 
-*Op de datum van de overdracht van de voornaamste risico’s[^13]* 
-
+## Op de datum van de overdracht van de voornaamste risico’s
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 61 | Diensten en diverse goederen | 45.000 | |

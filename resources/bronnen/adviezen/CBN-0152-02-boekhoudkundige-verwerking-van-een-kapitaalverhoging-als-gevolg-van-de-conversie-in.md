@@ -2,46 +2,38 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in
 datum: 1988-12-01
 nummer: CBN-advies 152/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in
-      sha256: b6840570e812c940d603a191cc7882ca8ebaad935cb3537d20f0883e2c052220
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 2578
-      file_size_chars: 2578
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Korte bron (2579 tekens) zonder subkoppen, conform Laag-1. Inhoud compleet: vraag, analyse, voorbeeld met journaalboeking als pipe-table, drie correct gedefinieerde voetnoten. Geen artefacten in categorieën A-G aangetroffen.'
-      run_at: '2026-05-11T12:04:41Z'
-      status: trusted
-    rationale: 'Korte bron (2579 tekens) zonder subkoppen, conform Laag-1. Inhoud compleet: vraag, analyse, voorbeeld met journaalboeking als pipe-table, drie correct gedefinieerde voetnoten. Geen artefacten in categorieën A-G aangetroffen.'
-    status: trusted
 themas:
   - conversie in aandelen van obligaties uitgedrukt in vreemde valuta
   - deviezen
   - kapitaalverhoging
   - omrekeningskoers
   - wisselverrichting
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:41Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 152/2 - Boekhoudkundige verwerking van een kapitaalverhoging als gevolg van de conversie in aandelen van obligaties uitgedrukt in Ecu of in andere vreemde valuta
 
 Naar aanleiding van haar advies over de boekhoudkundige verwerking van vreemde valuta[^1] werden aan de Commissie vragen gesteld over de boeking van een kapitaalverhoging voortvloeiend uit de conversie in aandelen van obligaties uitgedrukt in Ecu of in een andere vreemde valuta. 

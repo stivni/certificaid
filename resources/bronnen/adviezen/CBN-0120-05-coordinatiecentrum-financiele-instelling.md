@@ -6,43 +6,35 @@ gerelateerde_adviezen:
     titel: Boeking van het financiële bedrijf van een coördinatiecentrum binnen een groep
     url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-het-financiele-bedrijf-van-een-coordinatiecentrum-binnen-een-groep
 nummer: CBN-advies 120/5
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/coordinatiecentrum-financiele-instelling
-      sha256: 3294cfde4a1ec82b435797011d5592935defe9cecea0149b70007446120b0c9f
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 1580
-      file_size_chars: 1580
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Geen artefacten gevonden in body of frontmatter. Korte advies-tekst (1580 tekens) met twee alinea's, correct als lopende proza gepresenteerd, geen headings nodig. Laag-1 pass correct. Frontmatter volledig en consistent met inhoud.
-      run_at: '2026-05-11T11:57:45Z'
-      status: trusted
-    rationale: Geen artefacten gevonden in body of frontmatter. Korte advies-tekst (1580 tekens) met twee alinea's, correct als lopende proza gepresenteerd, geen headings nodig. Laag-1 pass correct. Frontmatter volledig en consistent met inhoud.
-    status: trusted
 themas:
   - coördinatiecentrum
   - financiële instelling
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/coordinatiecentrum-financiele-instelling
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:23Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 120/5 - Coördinatiecentrum - Financiële instelling
 
 Met de bedoeling belangrijke multinationale groepen naar België te lokken werd met het - herhaalde malen gewijzigde - koninklijk besluit nr. 187 van 30 december 1982 de fiscale regeling voor coördinatiecentra ingevoerd. Onder bepaalde voorwaarden biedt deze regeling zeer belangrijke voordelen. 

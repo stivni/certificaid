@@ -15,43 +15,35 @@ gerelateerde_adviezen:
     titel: De boekhoudkundige verwerking van factoringovereenkomsten
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
 nummer: CBN-advies 2012/5
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/betaling-van-vorderingen-in-natura
-      sha256: b6becb28377bf7a9825c8260f33f2666068c9283a33ae494dc8007ab3e099751
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T21:31:11Z'
-    confirmed_by: human
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 4
-      max_section_chars: 3537
-      file_size_chars: 5977
-      flags: []
-    layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
-    status: trusted
 themas:
   - vordering
   - inbetalinggeving
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/betaling-van-vorderingen-in-natura
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:05Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2012/5 – Betaling van vorderingen in natura
 
 Inleiding
@@ -107,8 +99,7 @@ Voor wat betreft de inbetalinggeving door levering van een dienst is de Commissi
 
 Een onderneming levert in 20X1 een machine aan een afnemer voor een bedrag van 1.000 EUR, exclusief BTW. Initieel werd er voorzien in een monetaire betaling. Eind 20X1 wordt er, na overleg tussen de schuldenaar en schuldeiser, besloten dat de schuldenaar beveiligingsdiensten voor één jaar in betaling zal geven voor een waarde van 1.000 EUR exclusief BTW. Gezien het overleg pas in oktober 20X1 plaatsvond, worden er in 20X1 slechts 2 maanden diensten geleverd. 
 
-*Boekingen per 31 december 20X1*
-
+## Boekingen per 31 december 20X1
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 61 | Diensten en diverse goederen | 1.000 | |

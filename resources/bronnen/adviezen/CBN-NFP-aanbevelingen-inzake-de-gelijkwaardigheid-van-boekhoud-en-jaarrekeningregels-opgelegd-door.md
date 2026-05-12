@@ -2,50 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/aanbevelingen-inzake-de-gelijkwaardigheid-van-boekhoud-en-jaarrekeningregels-opgelegd-door
 datum: 2007-01-01
 nummer: CBN-advies NFP
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanbevelingen-inzake-de-gelijkwaardigheid-van-boekhoud-en-jaarrekeningregels-opgelegd-door
-      sha256: f9afefc503221aa54eb11710768c07d716aacd5e1f5e6c0216584985fb2fca83
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:31Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 5
-      max_section_chars: 9108
-      file_size_chars: 23494
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B3
-          regel: 69
-          type: other
-          voorbeeld: '## Januari 2007 (lege H2-heading onmiddellijk na H1, geen sectie-inhoud)'
-        - categorie: B4
-          regel: 71
-          type: other
-          voorbeeld: '**A. INLEIDING** (bold-tekst als sectielabel i.p.v. ## heading; inconsistent met ## B, ## C, ## D)'
-        - categorie: A6
-          regel: 150
-          type: other
-          voorbeeld: 1. \n\nEen patrimoniale boekhouding voeren... (getal op eigen regel, tekst in aparte alinea — criteria 1-9 allemaal zo)
-      rationale: 'B4: sectie A (Inleiding) is als ''**A. INLEIDING**'' bold-tekst opgemaakt (regel 71) in plaats van als ## heading, terwijl secties B (regel 112), C (regel 129) en D (regel 144) wél als ## heading zijn opgemaakt — inconsistente heading-behandeling is een extractie-artefact. B3: ''## Januari 2007'' (regel 69) staat onmiddellijk na de H1-titel zonder eigen inhoud — lege sectionering. A6/C2: de genummerde criteria 1-9 in sectie D (regels 150-176) staan elk als een geïsoleerd getal op een eigen regel gevolgd door de tekst in een aparte alinea, in plaats van als ''1. tekst'' op één regel — PDF-reflow-artefact.'
-      run_at: '2026-05-11T17:13:31Z'
-      status: needs-rework
-    rationale: 'B4: sectie A (Inleiding) is als ''**A. INLEIDING**'' bold-tekst opgemaakt (regel 71) in plaats van als ## heading, terwijl secties B (regel 112), C (regel 129) en D (regel 144) wél als ## heading zijn opgemaakt — inconsistente heading-behandeling is een extractie-artefact. B3: ''## Januari 2007'' (regel 69) staat onmiddellijk na de H1-titel zonder eigen inhoud — lege sectionering. A6/C2: de genummerde criteria 1-9 in sectie D (regels 150-176) staan elk als een geïsoleerd getal op een eigen regel gevolgd door de tekst in een aparte alinea, in plaats van als ''1. tekst'' op één regel — PDF-reflow-artefact.'
-    status: needs-rework
 themas:
   - gelijkwaardigheid
   - zeer grote verenigingen en stichtingen
@@ -62,8 +18,32 @@ themas:
   - vereenvoudigde boekhouding
   - vereniging zonder winstoogmerk
   - vzw
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanbevelingen-inzake-de-gelijkwaardigheid-van-boekhoud-en-jaarrekeningregels-opgelegd-door
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:53Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # Aanbevelingen inzake de gelijkwaardigheid van boekhoud- en jaarrekeningregels opgelegd door sectorale regelgevingen met de gemeenrechtelijke boekhoud- en jaarrekeningregels voor vzw’s, ivzw’s en stichtingen
 ## Januari 2007
 ## A. INLEIDING

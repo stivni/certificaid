@@ -15,45 +15,37 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van moratoriuminterest
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-moratoriuminterest
 nummer: CBN-advies 128/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/betwiste-fiscale-aanslag-0
-      sha256: dd4a00b064fa97e158d18679d1579cd863a214ffe438f15204d51704df48df41
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 1415
-      file_size_chars: 1415
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Zeer kort advies (1415 tekens) zonder headings, inhoud volledig en correct afgesloten met duidelijke conclusie. Geen HTML-entities in body of frontmatter, geen ongewone unicode, geen extractie-artefacten. Layer1 pass bevestigd.
-      run_at: '2026-05-11T11:57:45Z'
-      status: trusted
-    rationale: Zeer kort advies (1415 tekens) zonder headings, inhoud volledig en correct afgesloten met duidelijke conclusie. Geen HTML-entities in body of frontmatter, geen ongewone unicode, geen extractie-artefacten. Layer1 pass bevestigd.
-    status: trusted
 themas:
   - belastingen
   - betwiste belastingen
   - betwiste fiscale aanslag
   - schulden
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/betwiste-fiscale-aanslag-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:28Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 128/2 - Betwiste fiscale aanslag
 
 Naar aanleiding van advies 128/1 dat verschenen is in het *Bull. CBN* nr. 7, werd de vraag gesteld of de voorgestelde boekingswijze geen fiscale gevolgen heeft. De Commissie had geadviseerd enerzijds het ingecohierde bedrag ten laste te nemen en anderzijds op het actief het geschatte bedrag op te nemen van het verhaal tegen de aanslag. Daar de Commissie niet bevoegd is in deze aangelegenheid werd het advies ingewonnen van het fiscaal bestuur, dat hierna wordt weergegeven. 

@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
     url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
 nummer: CBN-advies C105/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/uitgestelde-belastingvoordelen-wegens-overdraagbare-verliezen
-      sha256: 41a5930b23518a778e7c593efaebc62700a8921b45e82c67adaf09d760fd5cdf
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:15:32Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 3
-      max_section_chars: 5927
-      file_size_chars: 11205
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'De B2-bug (bold-markup in headings ## **De Belgische regelgeving** en ## **Buitenlandse regelgeving**) die Ronde 1 rapporteerde is opgelost door de scraper-fixes: regels 105 en 113 tonen nu clean headings zonder **bold**. Geen andere artefacten aangetroffen in categorieën A-G. Voetnoten [^1]–[^5] volledig gedefinieerd, inhoud compleet.'
-      run_at: '2026-05-11T15:15:32Z'
-      status: trusted
-    rationale: 'De B2-bug (bold-markup in headings ## **De Belgische regelgeving** en ## **Buitenlandse regelgeving**) die Ronde 1 rapporteerde is opgelost door de scraper-fixes: regels 105 en 113 tonen nu clean headings zonder **bold**. Geen andere artefacten aangetroffen in categorieën A-G. Voetnoten [^1]–[^5] volledig gedefinieerd, inhoud compleet.'
-    status: trusted
 themas:
   - toelichting
   - uitgestelde belastingvoordelen
@@ -55,8 +23,32 @@ themas:
   - belastingen
   - geconsolideerde jaarrekening
   - overdraagbare verliezen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/uitgestelde-belastingvoordelen-wegens-overdraagbare-verliezen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:07Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies C105/1 - Uitgestelde belastingvoordelen wegens overdraagbare verliezen
 
 De Commissie werd om advies gevraagd over de mogelijkheid om, gelet op beschikbare overdraagbare verliezen, uitgestelde belastingvoordelen te activeren in de geconsolideerde jaarrekening. 

@@ -15,52 +15,36 @@ gerelateerde_adviezen:
     titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van artikel 107, 4° KB W.Venn.'
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
 nummer: CBN-advies 2016/1
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
-      sha256: dad4b233d963a4855c96703b21c8580530bead33ca10a1724540264c6e72f907
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 6
-      max_section_chars: 3986
-      file_size_chars: 12529
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 141
-          type: other
-          voorbeeld: '| **Boekwaarde van het oud effect** | | **Bedrag** |\n| \n\n- waarmee de boekwaarde... — bullets buiten pipe-cell'
-        - categorie: E2
-          regel: 144
-          type: other
-          voorbeeld: '- waarmee de boekwaarde van het oud effect moet worden verminderd (bullet buiten tabelcel)'
-      rationale: 'E2 bevestigd: tabel op regels 141–153 bevat bullets buiten pipe-syntax als cel-inhoud (regels 144–148 zijn bullet-items die losgehangen zijn van de omringende pipe-tabel) — HTML-tabel extractie-artefact waarbij geneste lijst in cel niet correct werd omgezet. Eerste tabel (regels 133–137) is correct. ETL-artefact.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'E2 bevestigd: tabel op regels 141–153 bevat bullets buiten pipe-syntax als cel-inhoud (regels 144–148 zijn bullet-items die losgehangen zijn van de omringende pipe-tabel) — HTML-tabel extractie-artefact waarbij geneste lijst in cel niet correct werd omgezet. Eerste tabel (regels 133–137) is correct. ETL-artefact.'
-    status: needs-rework
 themas:
   - aandelen
   - effecten
   - inschrijvingsrecht
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:15Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/1 - Verrichtingen met betrekking tot inschrijvingsrechten
 
 ## Inleiding
@@ -124,27 +108,27 @@ Bij uitoefening[^4] van een recht ontstaat er geen resultaat dat als zodanig mag
 ### Voorbeeld
 De hierboven beschreven beginselen kunnen als volgt worden geïllustreerd:
 
-| Boekwaarde van het oude effect | | | | XX EUR | 
-|---|---|---|---|---|
-| Verkoopprijs van het recht | | | | 7,50 EUR | 
-| Waarde van het recht bij uitoefening | | | | 7,50 EUR | 
-| Beurskoers van het effect ex-recht | | | | 95 EUR | 
+| Boekwaarde van het oude effect| | XX EUR|
+|---|---|---|
+| Verkoopprijs van het recht| | 7,50 EUR|
+| Waarde van het recht bij uitoefening| | 7,50 EUR|
+| Beurskoers van het effect ex-recht| | 95 EUR|
 
 Naar gelang de boekwaarde van het oude effect 30, 40 of 110 EUR bedraagt[^5], gebeurt de verrekening als volgt:
 
-| **Boekwaarde van het oud effect** | | **Bedrag** | 
-|---|---|---|
+| **Boekwaarde van het oud effect**|** Bedrag**|
+|---|---|
 | 
 
 - waarmee de boekwaarde van het oud effect moet worden verminderd
 
 - dat bij de aanschaffingswaarde van het nieuwe effect moet worden toegevoegd
 
-  | | dat als resultaat moet worden geboekt bij verkoop van het recht: gerealiseerde meer- of minderwaarde | 
-|---|---|
-| 30 EUR | | 30 x [7,5 / (95 + 7,5)] = 2,20 EUR | | 7,5 - 2,20 = 5,30 EUR | 
-| 40 EUR | | 40 x [7,5 / (95 + 7,5)] = 2,93 | | 7,5 - 2,93 = 4,75 EUR | 
-| 110 EUR | | 110 x [7,5 / (95 + 7,5)] = 8,05 | | 7,5 - 8,05 = -0,55 EUR | 
+ | dat als resultaat moet worden geboekt bij verkoop van het recht: gerealiseerde meer- of minderwaarde|
+|---|
+| 30 EUR| 30 x [7,5 / (95 + 7,5)] = 2,20 EUR| 7,5 - 2,20 = 5,30 EUR|
+| 40 EUR| 40 x [7,5 / (95 + 7,5)] = 2,93| 7,5 - 2,93 = 4,75 EUR|
+| 110 EUR| 110 x [7,5 / (95 + 7,5)] = 8,05| 7,5 - 8,05 = -0,55 EUR|
 
 In het geval dat de onderneming zelf geen gebruik maakt van het inschrijvingsrecht om deel te nemen aan de kapitaalverhoging, maar de inschrijvingsrechten aanbiedt, ontvangt zij hiervoor een provenu. In dat geval zijn de boekingen de volgende[^6]:
 

@@ -2,46 +2,38 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-in-substance-defeasance
 datum: 1991-03-01
 nummer: CBN-advies 163
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-in-substance-defeasance
-      sha256: afb75ddb259a9325a97dcc88ff928e050701eedd2d6202322628b7dcf6766288
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:42Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 3776
-      file_size_chars: 3776
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen ETL-artefacten. Proza coherent, geen OCR-fouten, geen malformed markdown. Inhoud volledig: techniek beschreven, juridische analyse en conclusie aanwezig. Geen subheadings nodig voor dit korte advies.'
-      run_at: '2026-05-11T12:04:42Z'
-      status: trusted
-    rationale: 'Geen ETL-artefacten. Proza coherent, geen OCR-fouten, geen malformed markdown. Inhoud volledig: techniek beschreven, juridische analyse en conclusie aanwezig. Geen subheadings nodig voor dit korte advies.'
-    status: trusted
 themas:
   - in-substance defeasance
   - onherroepelijke overdracht van activa
   - schulden
   - trustee
   - vastrentende effecten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-in-substance-defeasance
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:45Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 163 - Boekhoudkundige verwerking van in-substance defeasance
 
 De Commissie werd om advies gevraagd over de boekhoudkundige verwerking van een verrichting die bestaat uit de onherroepelijke overdracht van activa - meestal vastrentende effecten - aan een derde, meestal een "trustee" die is gevestigd in een land waar deze instelling bekend is; deze trustee moet dan instaan voor de aflossing van de schuld - die hem tegelijkertijd wordt overgedragen - met behulp van de opbrengsten uit deze activa. Deze verrichting geschiedt zonder het akkoord van de schuldeisers. 

@@ -2,48 +2,36 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-programmawet-van-19-december-2014-en
 datum: 2015-05-13
 nummer: CBN-advies 2015/2
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-programmawet-van-19-december-2014-en
-      sha256: 284bcf355d8ced868b3296ca519b49b8f00b40e11883ddf22d0d7408caf4b298
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 15
-      max_section_chars: 9297
-      file_size_chars: 13770
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 189
-          type: other
-          voorbeeld: "| | 130X | Wettelijke reserve – artikel 184quater WIB 92\n (31/12/N) | | 40 | — cel over twee regels"
-      rationale: 'E2 bevestigd: tabelrij op regels 189–190 is gesplitst over twee regels — ''| | 130X | Wettelijke reserve – artikel 184quater WIB 92'' gevolgd door ''(31/12/N) | | 40 |'' — de pipe-tabel is syntactisch ongeldig door de cell-break. ETL-artefact. Overige tabellen en de volledige inhoud zijn correct.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'E2 bevestigd: tabelrij op regels 189–190 is gesplitst over twee regels — ''| | 130X | Wettelijke reserve – artikel 184quater WIB 92'' gevolgd door ''(31/12/N) | | 40 |'' — de pipe-tabel is syntactisch ongeldig door de cell-break. ETL-artefact. Overige tabellen en de volledige inhoud zijn correct.'
-    status: needs-rework
 themas:
   - afzonderlijke aanslag
   - belastingen
   - liquidatiereserve
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-programmawet-van-19-december-2014-en
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:13Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2015/2 - Boekhoudkundige verwerking van de liquidatiereserve (Programmawet van 19 december 2014) en de afzonderlijke aanslag op deze liquidatiereserve
 
 ## Algemeen
@@ -95,8 +83,7 @@ Voordat een gedeelte van de winst van het boekjaar na belasting wordt overgeboek
 
 Het resterende saldo van (1.610 – 1.200 – 65,5) = 344,5 wordt overgedragen naar het volgende boekjaar.
 
-*Boekingen op inventarisdatum*
-
+## Boekingen op inventarisdatum
 ## Bijkomende boeking van de afzonderlijke aanslag op de liquidatiereserve
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -123,8 +110,7 @@ Het resterende saldo van (1.610 – 1.200 – 65,5) = 344,5 wordt overgedragen n
 | aan | 130 | Wettelijke reserves | | 65,5 |
 | | 14 | Overgedragen winst | 344,5 | |
 
-*Latere uitkering van de liquidatiereserve*
-
+## Latere uitkering van de liquidatiereserve
 Wanneer de vennootschap in een later boekjaar beslist om de liquidatiereserve volledig uit te keren, vinden de volgende boekingen plaats:
 
 ## Boeking op inventarisdatum
@@ -160,8 +146,7 @@ Voordat het geheel van de winst van het boekjaar na belasting wordt overgeboekt 
 
 Het bedrag van de liquidatiereserve bedraagt: 2.000 - 570 - 130 = 1.300.
 
-*Boekingen op inventarisdatum*
-
+## Boekingen op inventarisdatum
 ## Bijkomende boeking van de afzonderlijke aanslag op de liquidatiereserve
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

@@ -2,42 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
 datum: 1995-03-01
 nummer: CBN-advies 139/7
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
-      sha256: d7cc7231e7ba165a07ecdb818bfd59a4691c760209f111e9bb6bd2a2d13576e0
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 5
-      max_section_chars: 2082
-      file_size_chars: 4275
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A4
-          regel: 68
-          type: other
-          voorbeeld: '### Kosteloos uitgegeven warrants ​​​'
-      rationale: 'A4 (regel 68): heading ''### Kosteloos uitgegeven warrants'' bevat nog steeds drie U+200B zero-width spaces als trailing whitespace — ongewijzigd t.o.v. ronde 2. Verder geen andere artefacten; heading-structuur en inhoud volledig.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'A4 (regel 68): heading ''### Kosteloos uitgegeven warrants'' bevat nog steeds drie U+200B zero-width spaces als trailing whitespace — ongewijzigd t.o.v. ronde 2. Verder geen andere artefacten; heading-structuur en inhoud volledig.'
-    status: needs-rework
 themas:
   - converteerbare obligatie
   - inschrijvingsrecht
@@ -51,8 +15,32 @@ themas:
   - uitgegeven inschrijvingsrechten
   - warrant
   - uitgiftepremie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-uitgegeven-inschrijvingsrechten-in-de-jaarrekening
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:35Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN advies 139-7 - Verwerking van uitgegeven inschrijvingsrechten in de jaarrekening
 De adviezen 139/1, 139/4, 139/5 en 139/6 van de Commissie handelden over de wijze waarop converteerbare obligaties of obligaties met voorkeurrecht alsook autonome warrants (inschrijvingsrechten), moeten worden verwerkt in de jaarrekening van de onderneming die ze heeft verworven en die ze in bezit heeft.
 

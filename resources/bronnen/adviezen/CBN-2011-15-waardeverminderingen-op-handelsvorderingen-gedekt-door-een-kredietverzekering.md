@@ -12,38 +12,6 @@ gerelateerde_adviezen:
     titel: Beginsel van het dubbel boekhouden
     url: https://www.cbn-cnc.be/nl/adviezen/beginsel-van-het-dubbel-boekhouden
 nummer: CBN-advies 2011/15
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering
-      sha256: fabe8cebfc4d54bf18c08cd31e9f2447b5fd4870fed263588ded5bc50a6ba214
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:19:36Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 12
-      max_section_chars: 9313
-      file_size_chars: 13659
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Geen extractie-artefacten gevonden. Alle 12 headings correct genummerd en tekstueel volledig. Pipe-tabellen correct opgebouwd door het hele document. Alle voetnoten [^1]-[^9] correct gedefinieerd onderaan. Geen form-feeds, TOC-resten, OCR-verwarringen of broken table rows.
-      run_at: '2026-05-11T15:19:36Z'
-      status: trusted
-    rationale: Geen extractie-artefacten gevonden. Alle 12 headings correct genummerd en tekstueel volledig. Pipe-tabellen correct opgebouwd door het hele document. Alle voetnoten [^1]-[^9] correct gedefinieerd onderaan. Geen form-feeds, TOC-resten, OCR-verwarringen of broken table rows.
-    status: trusted
 themas:
   - compensatieverbod
   - dubieuze debiteuren
@@ -55,8 +23,32 @@ themas:
   - schadevergoeding
   - subrogatie
   - Waardevermindering
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:02Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2011/15 - Waardeverminderingen op handelsvorderingen, gedekt door een kredietverzekering
 
 ## Inleiding

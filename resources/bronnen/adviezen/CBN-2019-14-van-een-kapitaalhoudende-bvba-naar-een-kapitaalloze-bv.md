@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
 datum: 2019-11-13
 nummer: CBN-advies 2019/14
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
-      sha256: 317be01978f6d7661cb8f62f4084a59221307bf02a12f6e9eea3814bb9fe71ad
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 12
-      max_section_chars: 5782
-      file_size_chars: 13832
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Geen extractie-artefacten. Heading-hiërarchie correct, rekeningschema correct als ingesprongen blok, journaalboekingen als pipe-tabellen goed weergegeven. Inhoud compleet van inleiding tot opt-in en statutenaanpassing.
-      run_at: '2026-05-11T12:21:40Z'
-      status: trusted
-    rationale: Geen extractie-artefacten. Heading-hiërarchie correct, rekeningschema correct als ingesprongen blok, journaalboekingen als pipe-tabellen goed weergegeven. Inhoud compleet van inleiding tot opt-in en statutenaanpassing.
-    status: trusted
 themas:
   - besloten vennootschap
   - kapitaal
@@ -47,8 +15,32 @@ themas:
   - omvorming kapitaal
   - wettelijke reserve
   - opt-in
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:36Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2019/14 – Van een kapitaalhoudende BVBA naar een kapitaalloze BV
 
 ## Inleiding

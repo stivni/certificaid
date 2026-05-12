@@ -15,43 +15,35 @@ gerelateerde_adviezen:
     titel: De boekhoudkundige verwerking van immateriële vaste activa
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
 nummer: CBN-advies 2013/9
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
-      sha256: bc3681d414f97ab78630ba21a24a99b3da88dbce7299db23da0a84fdc0293fa5
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 0
-      max_section_chars: 1298
-      file_size_chars: 1298
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Laag 1 meldt heading_count=0 en file_size_chars=1298: het advies is inhoudelijk een enkelvoudige paragraaf zonder secties, wat overeenkomt met het originele CBN-advies (één antwoord, geen onderverdelingen). Geen extractie-artefacten, geen broken formatting, footnotes ontbreken terecht. Volledig en afgerond.'
-      run_at: '2026-05-11T12:16:34Z'
-      status: trusted
-    rationale: 'Laag 1 meldt heading_count=0 en file_size_chars=1298: het advies is inhoudelijk een enkelvoudige paragraaf zonder secties, wat overeenkomt met het originele CBN-advies (één antwoord, geen onderverdelingen). Geen extractie-artefacten, geen broken formatting, footnotes ontbreken terecht. Volledig en afgerond.'
-    status: trusted
 themas:
   - aanschaffingswaarde
   - herziening btw
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-een-herziening-van-de-btw-op-een-aangekocht
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:10Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2013/9 – De boekhoudkundige verwerking van een herziening van de btw op een aangekocht bedrijfsmiddel
 
 Aan de Commissie werd de vraag gesteld op welke wijze een herziening van de belasting over de toegevoegde waarde (hierna: btw) op een aangekocht materieel vast actief boekhoudkundig moet worden verwerkt. 

@@ -2,42 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving
 datum: 1988-12-01
 nummer: CBN-advies 154/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving
-      sha256: 7bd0173f9f8968a11d49e1fa3149526bff05b641bfc658cc599a320df4fda6b1
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 4639
-      file_size_chars: 4639
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B3
-          regel: 52
-          type: other
-          voorbeeld: CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking
-      rationale: 'Vorig verdict bevestigd. B3 r.52: paginatitel ''CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking'' herhaald als plain-text alinea direct na de identieke H1-heading op r.50 — klassiek HTML-scrape-artefact (duplicate page-title). Inhoud verder volledig; drie voetnoten correct verbonden.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'Vorig verdict bevestigd. B3 r.52: paginatitel ''CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking'' herhaald als plain-text alinea direct na de identieke H1-heading op r.50 — klassiek HTML-scrape-artefact (duplicate page-title). Inhoud verder volledig; drie voetnoten correct verbonden.'
-    status: needs-rework
 themas:
   - bestendigheid
   - bestendigheidsplicht
@@ -45,8 +9,32 @@ themas:
   - toelichting
   - waarderingsregels
   - wijziging van de waarderingsregels
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-de-waarderingsregels-als-gevolg-van-gewijzigde-wetgeving
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:43Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking
 
 CBN-advies 154/1 - Wijziging van de waarderingsregels als gevolg van gewijzigde wetgeving-Informatieverstrekking

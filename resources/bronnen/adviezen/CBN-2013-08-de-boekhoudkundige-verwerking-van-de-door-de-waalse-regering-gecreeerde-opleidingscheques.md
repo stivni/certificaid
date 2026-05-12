@@ -9,51 +9,35 @@ gerelateerde_adviezen:
     titel: De boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 van het Wetboek van de Inkomstenbelastingen 1992
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-het-stelsel-tot-gedeeltelijke-vrijstelling-van-0
 nummer: CBN-advies 2013/8
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques
-      sha256: e38bfddbd610fc108a5e18a82365dacd18dca9065a2026646c8e146a367dcc71
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 2
-      max_section_chars: 2906
-      file_size_chars: 3777
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A3
-          regel: 59
-          type: other
-          voorbeeld: de Waalse regering gecreëerde opleidingscheques
-        - categorie: E2
-          regel: 89
-          type: other
-          voorbeeld: '| | of 623 Andere personeelskosten | | | |'
-      rationale: 'A3: regel 59 bevat ''de Waalse regering gecreëerde opleidingscheques'' als losstaande plain-text regel direct na de H1-titel — een gedupliceerd titelfragment dat niet werd opgeschoond. E2: de tabelrij op regel 89 (''| | of 623 Andere personeelskosten | | | |'') heeft een extra trailing pipe waardoor de rij meer cellen heeft dan de header-rij, wat de tabel malformed maakt.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'A3: regel 59 bevat ''de Waalse regering gecreëerde opleidingscheques'' als losstaande plain-text regel direct na de H1-titel — een gedupliceerd titelfragment dat niet werd opgeschoond. E2: de tabelrij op regel 89 (''| | of 623 Andere personeelskosten | | | |'') heeft een extra trailing pipe waardoor de rij meer cellen heeft dan de header-rij, wat de tabel malformed maakt.'
-    status: needs-rework
 themas:
   - bedrijfssubsidie
   - opleidingscheques
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:10Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2013/8 – De boekhoudkundige verwerking van de door de Waalse regering gecreëerde opleidingscheques
 
 de Waalse regering gecreëerde opleidingscheques

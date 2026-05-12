@@ -9,38 +9,6 @@ gerelateerde_adviezen:
     titel: Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves
     url: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
 nummer: CBN-advies 2024/04
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
-      sha256: 935540be7b4d90a785af3089c2bcb940028d9e8241a35b78a265829bdb2743e9
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:24:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 5
-      max_section_chars: 8880
-      file_size_chars: 16552
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig. Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen TOC-residu, geen malformed bold/italic.'
-      run_at: '2026-05-11T12:24:34Z'
-      status: trusted
-    rationale: 'Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig. Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen TOC-residu, geen malformed bold/italic.'
-    status: trusted
 themas:
   - terugbetaling van kapitaal
   - kapitaalvermindering
@@ -57,8 +25,32 @@ themas:
   - werkelijke wisselkoers
   - actuele wisselkoers
   - wisselresultaat
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/terugbetaling-van-kapitaal-in-vreemde-valuta-aan-de-aandeelhouders
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:51Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2024/04 – Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders
 
 ## Inleiding

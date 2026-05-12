@@ -2,43 +2,35 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/opening-van-bijkomende-rekeningen
 datum: 1979-05-01
 nummer: CBN-advies R100-1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/opening-van-bijkomende-rekeningen
-      sha256: abca0e7e72000a14456d7ea736e7f8a6830c3a697d938749485bd8da80bacb04
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:51:19Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 3892
-      file_size_chars: 3892
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Eén aaneengesloten tekstblok zonder headings (heading_count=0, correct voor dit korte advies). Genummerde opsomming (1. t/m 4.) is consistent en correct. Geen PDF-artefacten, geen onzichtbare unicode, geen afgekapte zinnen. Ziet er uit als mens-geschreven markdown.
-      run_at: '2026-05-11T11:51:19Z'
-      status: trusted
-    rationale: Eén aaneengesloten tekstblok zonder headings (heading_count=0, correct voor dit korte advies). Genummerde opsomming (1. t/m 4.) is consistent en correct. Geen PDF-artefacten, geen onzichtbare unicode, geen afgekapte zinnen. Ziet er uit als mens-geschreven markdown.
-    status: trusted
 themas:
   - opening van bijkomende rekeningen
   - rekeningenstelsel
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/opening-van-bijkomende-rekeningen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:02Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies R100/1 - Opening van bijkomende rekeningen
 
 De vraag werd gesteld of het de ondernemingen toegelaten is, naast de verdere indeling bij wijze van onderrekeningen van de rekeningen waarin het minimum genormaliseerd rekeningstelsel voorziet, in de algemene boekhouding rekeningen te openen die niet in het genormaliseerd rekeningstelsel werden voorzien.

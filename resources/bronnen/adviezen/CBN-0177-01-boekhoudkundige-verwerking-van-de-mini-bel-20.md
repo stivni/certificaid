@@ -15,48 +15,6 @@ gerelateerde_adviezen:
     titel: Interimdividend versus tussentijds dividend
     url: https://www.cbn-cnc.be/nl/adviezen/interimdividend-versus-tussentijds-dividend
 nummer: CBN-advies 177/1
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
-      sha256: 6d2235a17fd87aaf0a7dcf0318f20a09d38522928c5597a0786a41f8a11535eb
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 12
-      max_section_chars: 6857
-      file_size_chars: 19942
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 136
-          type: other
-          voorbeeld: hetzij bij de* Geldbeleggingen*, hetzij bij de* Financiële vaste activa*
-        - categorie: G3
-          regel: 160
-          type: other
-          voorbeeld: 'het risico [^10]
-
-            -in de jaarrekening in een afzonderlijke post'
-      rationale: 'D4 bevestigd r.136: ''hetzij bij de* Geldbeleggingen*, hetzij bij de* Financiële vaste activa*'' — de opening asterisk grenst direct aan ''de'' zonder spatie, wat een malformed italic-patroon is dat een mens nooit zo zou typen. G3 bevestigd r.160-161: ''het risico [^10]\n-in de jaarrekening'' — voetnootreferentie midden in zin gevolgd door een koppelteken aan het begin van de volgende regel (inline-voetnoot artefact). Heading-hiërarchie (##/###/####) en 11 voetnoten correct.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'D4 bevestigd r.136: ''hetzij bij de* Geldbeleggingen*, hetzij bij de* Financiële vaste activa*'' — de opening asterisk grenst direct aan ''de'' zonder spatie, wat een malformed italic-patroon is dat een mens nooit zo zou typen. G3 bevestigd r.160-161: ''het risico [^10]\n-in de jaarrekening'' — voetnootreferentie midden in zin gevolgd door een koppelteken aan het begin van de volgende regel (inline-voetnoot artefact). Heading-hiërarchie (##/###/####) en 11 voetnoten correct.'
-    status: needs-rework
 themas:
   - dividenduitkering
   - geldbeleggingen
@@ -70,8 +28,32 @@ themas:
   - sluiten van de positie
   - vorderingsrecht
   - Waardevermindering
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-mini-bel-20
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:50Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 177/1 - Boekhoudkundige verwerking van de mini BEL-20
 
 ## Algemeen

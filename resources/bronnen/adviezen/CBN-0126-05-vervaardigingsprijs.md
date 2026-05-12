@@ -9,47 +9,35 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van afvalstoffen
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
 nummer: CBN-advies 126/5
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs
-      sha256: 008e8c01ac1c4a8dc672d6eda2ea5765048ae1304d8ee04def94fced00021d24
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:20Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 1110
-      file_size_chars: 1110
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D1
-          regel: 59
-          type: abrupt-cutoff
-          voorbeeld: zou de vervaardigingsprijs trouwens [einde bestand, zin onafgewerkt]
-      rationale: 'D1: bestand eindigt abrupt mid-zin op regel 59 (''zou de vervaardigingsprijs trouwens'') — de zin is onafgewerkt en er ontbreekt een slotconclusie. Duidelijke afkapfout in de extractie; inhoud inhoudelijk onvolledig.'
-      run_at: '2026-05-11T17:05:20Z'
-      status: needs-rework
-    rationale: 'D1: bestand eindigt abrupt mid-zin op regel 59 (''zou de vervaardigingsprijs trouwens'') — de zin is onafgewerkt en er ontbreekt een slotconclusie. Duidelijke afkapfout in de extractie; inhoud inhoudelijk onvolledig.'
-    status: needs-rework
 themas:
   - financiële kosten
   - vervaardigingsprijs
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:25Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN advies 126-5 - Vervaardigingsprijs
 Aan de Commissie werd gevraagd of de financiële kosten die mogen worden opgenomen in de vervaardigingsprijs van voorraden en bestellingen in uitvoering, waarvan de produktie meer dan één jaar bestrijkt, alle daaraan verbonden financiële kosten omvatten of enkel de financiële kosten die betrekking hebben op de schulden op meer dan één jaar. 
 

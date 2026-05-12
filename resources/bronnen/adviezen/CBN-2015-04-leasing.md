@@ -9,58 +9,6 @@ gerelateerde_adviezen:
     titel: Roerende leasing - Definitie
     url: https://www.cbn-cnc.be/nl/adviezen/roerende-leasing-definitie
 nummer: CBN-advies 2015/4
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/leasing
-      sha256: 994069d2d9c8d9a586845e90715415891f988cd32d291df3cee47605596eb26c
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 38
-      max_section_chars: 11336
-      file_size_chars: 73858
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B3
-          regel: 76
-          type: other
-          voorbeeld: '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN — extra H1 scrape-artefact'
-        - categorie: B5
-          regel: 108
-          type: other
-          voorbeeld: Overeenkomsten die kwalificeren als leasing volgens artikel 95 KB W.Venn. — plain tekst, geen heading
-        - categorie: B2
-          regel: 109
-          type: other
-          voorbeeld: '#### Algemene principes — sprongt van plain tekst naar ####, geen ## of ### tussenlaag'
-        - categorie: D4
-          regel: 129
-          type: other
-          voorbeeld: zie punt* B. Overeenkomsten die niet kwalificeren als leasing...).* — spatie voor asterisk
-        - categorie: B5
-          regel: 239
-          type: other
-          voorbeeld: Overeenkomsten die niet kwalificeren als leasing volgens artikel 95 KB W.Venn. — plain tekst
-      rationale: 'Meerdere categorieën bevestigd: B3 (regel 76 ''# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'' als extra H1), B5 (regel 108 ''Overeenkomsten die kwalificeren als leasing...'' en regel 239 ''Overeenkomsten die niet kwalificeren...'' als plain tekst zonder heading-prefix), B2 (regel 109 ''#### Algemene principes'' direct na plain tekst op regel 108 zonder ## of ### tussenniveau), D4 (regel 129 en 188 met malformed italic ''* ... *.''). Allen ETL-artefacten.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'Meerdere categorieën bevestigd: B3 (regel 76 ''# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'' als extra H1), B5 (regel 108 ''Overeenkomsten die kwalificeren als leasing...'' en regel 239 ''Overeenkomsten die niet kwalificeren...'' als plain tekst zonder heading-prefix), B2 (regel 109 ''#### Algemene principes'' direct na plain tekst op regel 108 zonder ## of ### tussenniveau), D4 (regel 129 en 188 met malformed italic ''* ... *.''). Allen ETL-artefacten.'
-    status: needs-rework
 themas:
   - aankoopoptie
   - financiële leasing
@@ -71,8 +19,32 @@ themas:
   - roerende leasing
   - sale and lease back
   - verkoopoptie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/leasing
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:14Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
 ## Inleiding

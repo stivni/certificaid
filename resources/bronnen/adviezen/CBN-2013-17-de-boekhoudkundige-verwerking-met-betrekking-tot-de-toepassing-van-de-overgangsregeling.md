@@ -6,46 +6,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van splitsingen van vennootschappen
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen
 nummer: CBN-advies 2013/17
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
-      sha256: 1a6411054d36a7a026011c946b13ba3d5f0e4b599782ecd7277c8c295fbb3907
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 12
-      max_section_chars: 8761
-      file_size_chars: 16913
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 96
-          type: other
-          voorbeeld: 489X O*ntvangen voorschotten op kapitaal*
-        - categorie: D4
-          regel: 132
-          type: other
-          voorbeeld: '*Boeking bij de betaalbaarstelling[^8] *'
-      rationale: 'D4: twee malformed italic-markers. Regel 96: ''489X O*ntvangen voorschotten op kapitaal*'' — asterisk kleeft direct aan de ''O'' (geen spatie na reguliere tekst, opent italic mid-woord). Regel 132: ''*Boeking bij de betaalbaarstelling[^8] *'' — spatie vóór sluit-asterisk, wat de italic niet correct sluit in de meeste renderers.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'D4: twee malformed italic-markers. Regel 96: ''489X O*ntvangen voorschotten op kapitaal*'' — asterisk kleeft direct aan de ''O'' (geen spatie na reguliere tekst, opent italic mid-woord). Regel 132: ''*Boeking bij de betaalbaarstelling[^8] *'' — spatie vóór sluit-asterisk, wat de italic niet correct sluit in de meeste renderers.'
-    status: needs-rework
 themas:
   - belaste reserves
   - belastingen op het resultaat
@@ -55,8 +15,32 @@ themas:
   - kapitaalverhoging
   - liquidatiebonus
   - roerende voorheffing
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:12Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2013/17 - De boekhoudkundige verwerking met betrekking tot de toepassing van de overgangsregeling zoals vermeld in artikel 537 WIB 92
 
 ## Inleiding
@@ -113,60 +97,52 @@ Hierna volgen een aantal voorbeelden waarbij wordt uitgegaan van verschillende g
 De vennootschap beslist tot een uitkering in contanten. De vennootschap stort het bedrag na afhouding van de roerende voorheffing op een geblokkeerde rekening van de vennootschap in naam en voor rekening van de aandeelhouders die door middel van een bewijskrachtig element hebben aangetoond dat ze zullen inschrijven op de kapitaalverhoging.
 
 #### Dividendtoekenning voor het gedeelte waarbij het ‘bewijskrachtig element’ niet aanwezig is
-*Boeking bij de beslissing van de algemene vergadering*
-
+## Boeking bij de beslissing van de algemene vergadering
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 694 | Vergoeding van het kapitaal | | |
 | aan | 471 | Dividenden over het boekjaar | | |
 
-*Boeking bij de betaalbaarstelling[^8]* 
-
+## Boeking bij de betaalbaarstelling
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 471 | Dividenden over het boekjaar | | |
 | aan | 453 | Ingehouden voorheffingen | | |
 
-*Boeking bij de effectieve betalingen*
-
+## Boeking bij de effectieve betalingen
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 471 | Dividenden over het boekjaar | | |
 | | 453 | Ingehouden voorheffingen | | |
 | aan | 5500 | Kredietinstellingen: Rekening-courant | | |
 
-#### Dividendtoekenning voor het gedeelte waarbij het ‘bewijskrachtig element’ aanwezig is
-*Boeking bij de beslissing van de algemene vergadering*
-
+Dividendtoekenning voor het gedeelte waarbij het ‘bewijskrachtig element’ aanwezig is
+## Boeking bij de beslissing van de algemene vergadering
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 694 | Vergoeding van het kapitaal | | |
 | aan | 471 | Dividenden over het boekjaar | | |
 
-*Boeking bij de betaalbaarstelling*
-
+## Boeking bij de betaalbaarstelling
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 471 | Dividenden over het boekjaar | | |
 | aan | 453 | Ingehouden voorheffingen | | |
 | | 471X | Dividenden over het boekjaar, bestemd om in te brengen in het kapitaal | | |
 
-*Effectieve uitbetaling (ontvangst rekeninguittreksel debitering bankrekening)*
-
+## Effectieve uitbetaling (ontvangst rekeninguittreksel debitering bankrekening)
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 471X | Dividenden over het boekjaar, bestemd om in te brengen in het kapitaal | | |
 | aan | 5500 | Kredietinstellingen: Rekening-courant | | |
 
-*Ontvangst rekeninguittreksel storting op geblokkeerde rekening*
-
+## Ontvangst rekeninguittreksel storting op geblokkeerde rekening
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 5500X | Bank: geblokkeerde rekening | | |
 | aan | 489X | Ontvangen voorschotten op kapitaal | | |
 
-*Boeking bij de formele kapitaalverhoging*
-
+## Boeking bij de formele kapitaalverhoging
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 489X | Ontvangen voorschotten op kapitaal | | |
@@ -179,29 +155,25 @@ Voor de boekhoudkundige verwerking van de dividenden waarvoor door de aandeelhou
 
 Indien het dividendrecht door de aandeelhouder wordt ingebracht in het kapitaal is sprake van een inbreng in natura. 
 
-*Boeking bij de beslissing van de algemene vergadering*
-
+## Boeking bij de beslissing van de algemene vergadering
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 694 | Vergoeding van het kapitaal | | |
 | aan | 471 | Dividenden over het boekjaar | | |
 
-*Boeking bij de betaalbaarstelling*
-
+## Boeking bij de betaalbaarstelling
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 471 | Dividenden over het boekjaar | | |
 | aan | 453 | Ingehouden voorheffingen | | |
 
-*Boeking bij de aanlevering van het bewijskrachtig element dat de aandeelhouder zal deelnemen aan de Verrichting*
-
+## Boeking bij de aanlevering van het bewijskrachtig element dat de aandeelhouder zal deelnemen aan de Verrichting
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 471 | Dividenden over het boekjaar | | |
 | aan | 489X | Ontvangen voorschotten op kapitaal | | |
 
-*Effectieve kapitaalverhoging*
-
+## Effectieve kapitaalverhoging
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 489X | Ontvangen voorschotten op kapitaal | | |

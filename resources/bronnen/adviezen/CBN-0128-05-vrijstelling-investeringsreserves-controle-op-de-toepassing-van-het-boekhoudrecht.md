@@ -6,44 +6,36 @@ gerelateerde_adviezen:
     titel: Overboeking van winsten naar de belastingvrije reserves - Verwerking in de jaarrekening van de investeringsreserve
     url: https://www.cbn-cnc.be/nl/adviezen/overboeking-van-winsten-naar-de-belastingvrije-reserves-verwerking-in-de-jaarrekening-van
 nummer: CBN-advies 128/5
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-investeringsreserves-controle-op-de-toepassing-van-het-boekhoudrecht
-      sha256: 1f6cbbb2dc9091c13e3acd7ca6db923a1d5098e683b5a6f341ec91c68ac30ab7
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:15:33Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 1
-      max_section_chars: 3912
-      file_size_chars: 3912
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Geen ETL-artefacten aangetroffen. Genummerde paragrafen (1, 2, 3) zijn inhoudelijk correct gestructureerd. Voetnoten [^1] en [^2] zijn aanwezig en correct geankerd. Herhaling van de titel op L49 na de H1 is een scraper-eigenaardigheid maar niet leesbaarheidsschadelijk en waarschijnlijk afkomstig van de bronpagina.
-      run_at: '2026-05-11T15:15:33Z'
-      status: trusted
-    rationale: Geen ETL-artefacten aangetroffen. Genummerde paragrafen (1, 2, 3) zijn inhoudelijk correct gestructureerd. Voetnoten [^1] en [^2] zijn aanwezig en correct geankerd. Herhaling van de titel op L49 na de H1 is een scraper-eigenaardigheid maar niet leesbaarheidsschadelijk en waarschijnlijk afkomstig van de bronpagina.
-    status: trusted
 themas:
   - investeringreserve
   - leasing
   - vrijstelling
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-investeringsreserves-controle-op-de-toepassing-van-het-boekhoudrecht
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:28Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 128/5 - Vrijstelling investeringsreserves - Controle op de toepassing van het boekhoudrecht
 
 CBN-advies 128/5 - Vrijstelling investeringsreserves - Controle op de toepassing van het boekhoudrecht 

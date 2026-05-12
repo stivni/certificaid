@@ -12,54 +12,6 @@ gerelateerde_adviezen:
     titel: Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten
     url: https://www.cbn-cnc.be/nl/adviezen/toelichting-omtrent-het-niet-gebruik-van-de-waarderingsgregels-op-basis-van-de-waarde-in
 nummer: CBN-advies 2010/12
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
-      sha256: c9f6f8f0f467c420a15edda62e9915a8a8db08424d27efbe262d4331fcff25ef
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 6
-      max_section_chars: 8985
-      file_size_chars: 17377
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A9
-          regel: 74
-          type: other
-          voorbeeld: instrumenten1 Advies van 8 september 2010 (superscript [^1] niet geparsed)
-        - categorie: B4
-          regel: 78
-          type: other
-          voorbeeld: '*Het ontbreken van een conceptueel kader inzake de boekhoudkundige verwerking...*'
-        - categorie: B2
-          regel: 95
-          type: other
-          voorbeeld: '### *Doelstelling van het advies* (italic wrapper in ### heading)'
-        - categorie: D4
-          regel: 117
-          type: other
-          voorbeeld: '*Voorrang van het boekhoudkundig realisatiebeginsel op het overeenstemmingsprincipe*'
-      rationale: 'A9: H1-titel (r74) bevat ''instrumenten1'' — superscript voetnootnummer niet geparsed als [^1], plus ''2010/12 -De'' zonder spatie. B2/D4: r78 heeft ''*Het ontbreken van een conceptueel kader...*'' als standalone italic-regel die als subsectietitel fungeert — PDF-artefact, niet als heading gemarkeerd. Alle vier ### subkoppen (r95, r103, r117, r128) gebruiken ''*italic wrapper*'' — consistent PDF-extractieartefact dat een mens nooit zo schrijft.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'A9: H1-titel (r74) bevat ''instrumenten1'' — superscript voetnootnummer niet geparsed als [^1], plus ''2010/12 -De'' zonder spatie. B2/D4: r78 heeft ''*Het ontbreken van een conceptueel kader...*'' als standalone italic-regel die als subsectietitel fungeert — PDF-artefact, niet als heading gemarkeerd. Alle vier ### subkoppen (r95, r103, r117, r128) gebruiken ''*italic wrapper*'' — consistent PDF-extractieartefact dat een mens nooit zo schrijft.'
-    status: needs-rework
 themas:
   - afgeleide financiële instrumenten
   - boekhoudprincipes
@@ -69,8 +21,32 @@ themas:
   - overeenstemmingsprincipe
   - realisatiebeginsel
   - voorzichtigheidsbeginsel
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:56Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2010/12 -De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten1 Advies van 8 september 2010
 
 ## Inleiding

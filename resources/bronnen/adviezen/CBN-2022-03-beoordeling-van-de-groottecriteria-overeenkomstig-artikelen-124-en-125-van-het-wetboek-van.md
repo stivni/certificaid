@@ -15,50 +15,6 @@ gerelateerde_adviezen:
     titel: Gevolgen verhoging groottecriteria voor vennootschappen
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
 nummer: CBN-advies 2022/03
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
-      sha256: 59ccb7c4e9e9de6383eb54a59d6624c21f39c167760578c1e6b2f2441b565e38
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:31Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 31
-      max_section_chars: 15597
-      file_size_chars: 31305
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B1
-          regel: 129
-          type: other
-          voorbeeld: 708 *Toegekende kortingen, ristorno's en rabatten (-)*
-        - categorie: E1
-          regel: 258
-          type: pseudo-table
-          voorbeeld: "| Vennootschap A | | Vennootschap B | \n| Omzet excl. btw | | 1.000.000 | | Omzet excl. btw | | 8.500.000 |"
-        - categorie: E1
-          regel: 266
-          type: pseudo-table
-          voorbeeld: '| Omzet excl. btw: | | 1.000.000 + 8.500.000 - 300.000 = 9.200.000 > 9.000.000 |'
-      rationale: 'E1: de berekeningsexempels op regels 258-277 gebruiken pseudo-pipe-tabellen zonder markdown header+separator-rij (bv. ''| Vennootschap A | | Vennootschap B |'' zonder scheidingslijn). B1: regel 129 bevat ''708 *Toegekende kortingen, ristorno''s en rabatten (-)* '' als plain text terwijl regel 127 ''### 700 tot 707 *Verkopen en dienstprestaties*'' een ### heading is — inconsistente behandeling van dezelfde structuurlaag.'
-      run_at: '2026-05-11T17:13:31Z'
-      status: needs-rework
-    rationale: 'E1: de berekeningsexempels op regels 258-277 gebruiken pseudo-pipe-tabellen zonder markdown header+separator-rij (bv. ''| Vennootschap A | | Vennootschap B |'' zonder scheidingslijn). B1: regel 129 bevat ''708 *Toegekende kortingen, ristorno''s en rabatten (-)* '' als plain text terwijl regel 127 ''### 700 tot 707 *Verkopen en dienstprestaties*'' een ### heading is — inconsistente behandeling van dezelfde structuurlaag.'
-    status: needs-rework
 themas:
   - groottecriteria
   - criteria
@@ -82,8 +38,32 @@ themas:
   - balanstotaal
   - berekening op geaggregeerde basis
   - berekening op geconsolideerde basis
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:45Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2022/03 - Beoordeling van de groottecriteria overeenkomstig artikelen 1:24 en 1:25 van het Wetboek van vennootschappen en verenigingen
 
 ## Inleiding
@@ -235,26 +215,24 @@ Een individuele moedervennootschap binnen een groep heeft steeds de vrije keuze 
 #### Voorbeeld
 Vennootschap A is de moedervennootschap van B, die niet als moedervennootschap kan worden beschouwd aangezien zij geen controle uitoefent op een andere vennootschap. Van de omzet van vennootschap B wordt 300.000 euro gefactureerd aan vennootschap A. De balanstotalen van vennootschappen A en B omvatten een bedrag van 400.000 euro dat door de verrekeningen en weglatingen bedoeld in de artikelen 3:127 tot 3:134 KB WVV niet wordt opgenomen in de geconsolideerde balans van vennootschap A. 
 
-| Vennootschap A | | Vennootschap B | 
-|---|---|---|
-| Omzet excl. btw | | 1.000.000 | | Omzet excl. btw | | 8.500.000 | 
-| Balanstotaal | | 3.000.000 | | Balanstotaal | | 2.000.000 | 
-| Aantal werknemers | | 10 | | Aantal werknemers | | 24 | 
+| Vennootschap A| Vennootschap B|
+|---|---|
+| Omzet excl. btw| 1.000.000| Omzet excl. btw| 8.500.000|
+| Balanstotaal| 3.000.000| Balanstotaal| 2.000.000|
+| Aantal werknemers| 10| Aantal werknemers| 24|
 
-*Beoordeling van de groottecriteria op geconsolideerde basis*
-
-| Omzet excl. btw: | | 1.000.000 + 8.500.000 - 300.000 = 9.200.000 > 9.000.000 | 
-|---|---|---|
-| Balanstotaal: | | 3.000.000 + 2.000.000 - 400.000 = 4.600.000 > 4.500.000 | 
-| Aantal werknemers: | | 10 + 24 = 34 < 50 | 
+## Beoordeling van de groottecriteria op geconsolideerde basis
+| Omzet excl. btw:| 1.000.000 + 8.500.000 - 300.000 = 9.200.000 > 9.000.000|
+|---|---|
+| Balanstotaal:| 3.000.000 + 2.000.000 - 400.000 = 4.600.000 > 4.500.000|
+| Aantal werknemers:| 10 + 24 = 34 < 50|
 
 Besluit: op geconsolideerde basis wordt meer dan één van de criteria overschreden. Bijgevolg kan vennootschap A, de moedervennootschap, niet worden aangemerkt als een kleine vennootschap. Aangezien vennootschap B zelf geen moedervennootschap is, gebeurt de beoordeling van de groottecriteria voor vennootschap B op enkelvoudige basis. Op enkelvoudige basis overschrijdt vennootschap B geen van de criteria, waardoor zij kan worden aangemerkt als een kleine vennootschap.
-*Beoordeling van de groottecriteria volgens de vereenvoudigde methode*
-
-| Omzet excl. btw: | | 1.000.000 + 8.500.000 = 9.500.000 < 10.800.000 | 
-|---|---|---|
-| Balanstotaal: | | 3.000.000 + 2.000.000 = 5.000.000 < 5.400.000 | 
-| Aantal werknemers: | | 10 + 24 = 34 < 50 | 
+## Beoordeling van de groottecriteria volgens de vereenvoudigde methode
+| Omzet excl. btw:| 1.000.000 + 8.500.000 = 9.500.000 < 10.800.000|
+|---|---|
+| Balanstotaal: | 3.000.000 + 2.000.000 = 5.000.000 < 5.400.000|
+| Aantal werknemers:| 10 + 24 = 34 < 50|
 
 Besluit: volgens de vereenvoudigde (of geaggregeerde) methode, wordt geen van de criteria overschreden. Bijgevolg kunnen zowel vennootschap A als vennootschap B worden aangemerkt als kleine vennootschappen.
 ### Beoordelingsdatum

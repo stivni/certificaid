@@ -2,54 +2,38 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
 datum: 2017-02-01
 nummer: CBN-advies 2017/04
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
-      sha256: 43a9e497b9a01bd3cd9f1045f41cc40ead351e4b7b5c88168b7d0b195b380ac5
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 2
-      max_section_chars: 1988
-      file_size_chars: 2564
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 55
-          type: other
-          voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
-        - categorie: D4
-          regel: 67
-          type: other
-          voorbeeld: De rekeningen 750* Opbrengsten uit financiële vaste activa* en 751
-      rationale: 'A6/G3: regel 55 (body) bevat '', bijgewerkt op 10 september 2025[^2]'' als losstaand fragment direct na H1 — scraper-artefact. D4: regel 67 (body) bevat ''750* Opbrengsten uit financiële vaste activa*'' waarbij de asterisk direct aan het rekeningsnummer kleeft zonder spatie — broken italic openingsmarkering. Klein advies, inhoud verder volledig.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'A6/G3: regel 55 (body) bevat '', bijgewerkt op 10 september 2025[^2]'' als losstaand fragment direct na H1 — scraper-artefact. D4: regel 67 (body) bevat ''750* Opbrengsten uit financiële vaste activa*'' waarbij de asterisk direct aan het rekeningsnummer kleeft zonder spatie — broken italic openingsmarkering. Klein advies, inhoud verder volledig.'
-    status: needs-rework
 themas:
   - borgtochten
   - borgtochten in contanten
   - borgtochten in effecten
   - waarborgen
   - financiële vaste activa
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:21Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2017/04 – Gegeven borgtochten in contanten en effecten (update)
 
 , bijgewerkt op 10 september 2025[^2]

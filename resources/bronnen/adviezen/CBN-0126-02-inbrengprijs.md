@@ -15,45 +15,37 @@ gerelateerde_adviezen:
     titel: 'Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België: nieuwe modellen van de jaarrekening'
     url: https://www.cbn-cnc.be/nl/adviezen/neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe
 nummer: CBN-advies 126/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/inbrengprijs
-      sha256: b780564a7b1f0eed2709b1d3d3858fbf8e12a265541a5de2098929a68176c846
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:16:02Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 1653
-      file_size_chars: 1653
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Vorige L2 flagde D4 broken italic op regel 61 ('*Oprichtingskosten *als'), maar de werkelijke body toont '*Oprichtingskosten* als *Kosten van oprichting en kapitaalverhoging*' correct gesloten — scraper-fix D4 effectief. Body kort (1653 chars), twee alinea's, drie voetnoten correct. Geen extractie-artefacten.
-      run_at: '2026-05-11T13:16:02Z'
-      status: trusted
-    rationale: Vorige L2 flagde D4 broken italic op regel 61 ('*Oprichtingskosten *als'), maar de werkelijke body toont '*Oprichtingskosten* als *Kosten van oprichting en kapitaalverhoging*' correct gesloten — scraper-fix D4 effectief. Body kort (1653 chars), twee alinea's, drie voetnoten correct. Geen extractie-artefacten.
-    status: trusted
 themas:
   - inbreng
   - inbrengprijs
   - kosten van oprichting en kapitaalverhoging
   - oprichtingskosten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/inbrengprijs
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:25Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 126/2 - Inbrengprijs
 
 Overeenkomstig artikel 23 van het besluit van 8 oktober 1976 behoren de belastingen en de kosten in verband met de inbreng niet tot de inbrengprijs. Hieraan ligt de gedachte ten grondslag dat de betrokken belastingen en kosten veelal moeilijk in verband kunnen worden gebracht met welbepaalde goederen zodat ze bezwaarlijk in de boekwaarde daarvan kunnen worden opgenomen. Gaat het om een inbreng in geld dan is het niet denkbaar dat de ingebrachte som geboekt wordt tegen een hogere waarde dan de nominale waarde. Bij inbreng als gevolg van een fusie, een opslorping, een splitsing of een inbreng van een onderdeel van een onderneming hebben de belastingen en kosten in verband met de inbreng betrekking op het netto ingebrachte vermogen en niet op het bruto-vermogen. Tenslotte kunnen er belastingen of kosten inzake inbreng verschuldigd zijn zonder dat er een echte inbreng van nieuwe activa heeft plaatsgehad, zoals bij kapitaalverhoging door incorporatie van reserves.

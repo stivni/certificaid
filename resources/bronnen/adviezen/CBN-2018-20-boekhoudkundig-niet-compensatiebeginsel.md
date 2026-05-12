@@ -2,44 +2,36 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
 datum: 2018-11-23
 nummer: CBN-advies 2018/20
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
-      sha256: 568d1613dc26b400815af270a80f04670188bb30393feef47a163c9c9d37c243
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 4
-      max_section_chars: 2847
-      file_size_chars: 7713
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, vier ## headings correct aanwezig, alle 12 voetnoten volledig en verankerd. Geen tabellen. Inhoud compleet.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: trusted
-    rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, vier ## headings correct aanwezig, alle 12 voetnoten volledig en verankerd. Geen tabellen. Inhoud compleet.'
-    status: trusted
 themas:
   - niet-compensatie
   - compensatie
   - schuldvergelijking
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundig-niet-compensatiebeginsel
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:32Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/20 – Boekhoudkundig niet-compensatiebeginsel
 
 ## Inleiding

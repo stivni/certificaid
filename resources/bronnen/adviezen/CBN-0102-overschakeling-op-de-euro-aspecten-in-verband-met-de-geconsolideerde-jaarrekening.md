@@ -6,50 +6,6 @@ gerelateerde_adviezen:
     titel: Opneming van de rekeningen van een buitenlands bijkantoor
     url: https://www.cbn-cnc.be/nl/adviezen/opneming-van-de-rekeningen-van-een-buitenlands-bijkantoor
 nummer: CBN-advies C102
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening
-      sha256: ab2bfec3e927b5ec40d7ee28060050ff1cc7740d622ffac9dde0c1ebb0dbd7d9
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:20Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 6
-      max_section_chars: 15747
-      file_size_chars: 26648
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: G3
-          regel: 111
-          type: other
-          voorbeeld: te ] verantwoorden»[^8] — spurious ] bracket midden in geciteerde passage
-        - categorie: D3
-          regel: 204
-          type: other
-          voorbeeld: '[^14]: Voor een definitie van monetaire en niet-monetaire posten, zie pagina''s 5 en 12 van advies 152/1 Voor een definitie van monetaire en niet-monetaire posten, zie pagina''s 5 en 12 van advies 152/1'
-        - categorie: A6
-          regel: 149
-          type: other
-          voorbeeld: niet- monetaire bestanddelen — spatie na koppelteken (ook r153, r208)
-      rationale: 'Drie ETL-bugs bevestigd: (1) G3/spurious bracket: regel 111 bevat ''] verantwoorden»[^8]'' met losstaand '']'' midden in geciteerde passage — verminkt de geciteerde tekst. (2) D3: voetnoot [^14] op regel 204 bevat dezelfde definitiezin tweemaal aaneengesloten zonder separator. (3) A6: ''niet- monetaire'' met spatie na koppelteken op regels 149, 153 en 208 naast correct ''niet-monetaire'' elders — inconsistentie typisch voor extractie-artefact.'
-      run_at: '2026-05-11T17:05:20Z'
-      status: needs-rework
-    rationale: 'Drie ETL-bugs bevestigd: (1) G3/spurious bracket: regel 111 bevat ''] verantwoorden»[^8]'' met losstaand '']'' midden in geciteerde passage — verminkt de geciteerde tekst. (2) D3: voetnoot [^14] op regel 204 bevat dezelfde definitiezin tweemaal aaneengesloten zonder separator. (3) A6: ''niet- monetaire'' met spatie na koppelteken op regels 149, 153 en 208 naast correct ''niet-monetaire'' elders — inconsistentie typisch voor extractie-artefact.'
-    status: needs-rework
 themas:
   - slotkoers
   - slotkoersmethode
@@ -63,8 +19,32 @@ themas:
   - omrekeningskoers
   - omrekeningsverschil
   - overschakeling op de euro
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:05Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies C102 - Overschakeling op de euro - Aspecten in verband met de geconsolideerde jaarrekening
 
 De Commissie heeft in haar[^1] advies 173/1 over de «Overschakeling op de euro : boekhoudrechtelijke aspecten» aangekondigd de specifieke problemen[^2] in verband met de geconsolideerde jaarrekening in een later advies te behandelen[^3]. 

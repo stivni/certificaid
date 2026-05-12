@@ -2,44 +2,36 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/schade-en-schadeverzekering-andere-dan-kredietverzekering
 datum: 1978-07-03
 nummer: CBN-advies 105/6
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/schade-en-schadeverzekering-andere-dan-kredietverzekering
-      sha256: cb2e6eb082f7814be3e4ca194a7922d183fcb2f83c1eb63d891641d6de97daf6
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 1971
-      file_size_chars: 1971
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen artefacten. Bestand is inhoudelijk volledig (vier alinea''s die alle gevallen uit het advies behandelen). De `mec. nr.`-referenties zijn plain text in de body maar dat is correct: dit zijn geen URLs, maar rekeningnummer-aanduidingen uit het origineel. Italic-markup correct gesloten.'
-      run_at: '2026-05-11T11:57:45Z'
-      status: trusted
-    rationale: 'Geen artefacten. Bestand is inhoudelijk volledig (vier alinea''s die alle gevallen uit het advies behandelen). De `mec. nr.`-referenties zijn plain text in de body maar dat is correct: dit zijn geen URLs, maar rekeningnummer-aanduidingen uit het origineel. Italic-markup correct gesloten.'
-    status: trusted
 themas:
   - schade
   - schadeverzekering
   - compensatie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/schade-en-schadeverzekering-andere-dan-kredietverzekering
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:08Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 105/6 - Schade en schadeverzekering (andere dan kredietverzekering)
 
 De vraag werd gesteld of de van een verzekeringsmaatschappij ontvangen vergoeding voor geleden schade door de onderneming in mindering gebracht mag worden van de verliezen of van de kosten die voor haar uit dit schadegeval zijn voortgevloeid. Naar het oordeel van de Commissie betreft het hier een compensatie verboden door artikel 6 van het koninklijk besluit van 8 oktober 1976. 

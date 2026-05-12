@@ -12,70 +12,6 @@ gerelateerde_adviezen:
     titel: '- Verwerking in de jaarrekening over het boekjaar 1996 en de daaropvolgende boekjaren, van de «Maribel bis en ter»-steun toegekend voor de boekjaren 1993, 1994, 1995 en 1996'
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
 nummer: CBN-advies 2021/07
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
-      sha256: 8f62b9e08b4b1a75a1c78cf20f4d3129914beca349cf84250a3c634991e376e7
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 29
-      max_section_chars: 23739
-      file_size_chars: 40189
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D3
-          regel: 101
-          type: other
-          voorbeeld: '[^13] (orphan footnote-marker als losstaande regel na boekingstabel)'
-        - categorie: D3
-          regel: 288
-          type: other
-          voorbeeld: '[^39] (idem)'
-        - categorie: D3
-          regel: 295
-          type: other
-          voorbeeld: '[^40] (idem)'
-        - categorie: D3
-          regel: 368
-          type: other
-          voorbeeld: '[^42] (idem)'
-        - categorie: D3
-          regel: 375
-          type: other
-          voorbeeld: '[^43] (idem)'
-        - categorie: D3
-          regel: 440
-          type: other
-          voorbeeld: '[^46] (idem)'
-        - categorie: D3
-          regel: 449
-          type: other
-          voorbeeld: '[^47] (idem)'
-        - categorie: A6
-          regel: 104
-          type: other
-          voorbeeld: "toegevoegd[^2]\n samenhangender te maken..."
-      rationale: "D3: Zeven orphan footnote-markers als losstaande regels na boekingstabellen (L101, L288, L295, L368, L375, L440, L449) — exact hetzelfde extractie-artefact als CBN-2021-04, waarbij footnote-anchors bedoeld als tabel-context als aparte paragrafen zijn weergegeven. A6: Voetnootanker op L104 splitst een zin over twee regels ('Boek XX... toegevoegd[^2]\n samenhangender te maken...'). De rest van het advies is inhoudelijk compleet met 29 headings en alle 47 voetnootdefinities aanwezig."
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: "D3: Zeven orphan footnote-markers als losstaande regels na boekingstabellen (L101, L288, L295, L368, L375, L440, L449) — exact hetzelfde extractie-artefact als CBN-2021-04, waarbij footnote-anchors bedoeld als tabel-context als aparte paragrafen zijn weergegeven. A6: Voetnootanker op L104 splitst een zin over twee regels ('Boek XX... toegevoegd[^2]\n samenhangender te maken...'). De rest van het advies is inhoudelijk compleet met 29 headings en alle 47 voetnootdefinities aanwezig."
-    status: needs-rework
 themas:
   - minnelijk akkoord
   - gerechtelijke reorganisatie
@@ -95,8 +31,32 @@ themas:
   - conventionele waarde
   - omzetting schuldvordering
   - inbreng schuldvordering
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:41Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2021/07 - Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)
 
 ## Inleiding
@@ -263,14 +223,13 @@ Een kapitaalhoudende vennootschap verkeert in financiële problemen en een van d
 
 De balans van de vennootschap in moeilijkheden (vóór de inbreng van de schuldvordering) is de volgende: 
 
-| Balans | 
+| Balans|
 |---|
-| Activa | | 200.000 | | Kapitaal | | 100.000 | 
-| | | | | Verliezen | | -150.000 | 
-| | | | | Schulden | | 250.000 | 
+| Activa| 200.000| Kapitaal| 100.000|
+| | | Verliezen| -150.000|
+| | | Schulden| 250.000|
 
-*Hypothese 1: de schuldvordering wordt ingebracht voor haar nominale waarde*
-
+## Hypothese 1: de schuldvordering wordt ingebracht voor haar nominale waarde
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 44 of 175 | Handelsschulden | 100.000 | |
@@ -278,14 +237,13 @@ De balans van de vennootschap in moeilijkheden (vóór de inbreng van de schuldv
 
 De balans van de vennootschap ziet er, na de inbreng van de schuldvordering, als volgt uit:
 
-| Balans | 
+| Balans|
 |---|
-| Activa | | 200.000 | | Kapitaal | | 200.000 | 
-| | | | | Verliezen | | -150.000 | 
-| | | | | Schulden | | 150.000 | 
+| Activa| 200.000| Kapitaal| 200.000|
+| | | Verliezen| -150.000|
+| | | Schulden| 150.000|
 
-*Hypothese 2: de schuldvordering wordt ingebracht aan haar economische waarde*
-
+## Hypothese 2: de schuldvordering wordt ingebracht aan haar economische waarde
 De economische waarde van deze vordering wordt geschat op 80.000 euro. De schuldenaar zal een kapitaalverhoging doorvoeren ten belope van 80.000 euro en zal ten belope van de andere 20.000 euro een opbrengst dienen te boeken. 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -305,14 +263,14 @@ De economische waarde van deze vordering wordt geschat op 80.000 euro. De schuld
 
 De balans van de vennootschap ziet er, na de inbreng van de schuldvordering, als volgt uit (in het geval de vennootschap voldoet aan de onaantastbaarheidvoorwaarde van artikel 27/1, § 2 KB WIB 92):
 
-| Balans | 
+| Balans|
 |---|
-| Activa | | 200.000 | | Kapitaal | | 180.000 | 
-| | | | | Belastingvrije reserves | | 20.000 | 
-| | | | | Verliezen | | -150.000 | 
-| | | | | Schulden | | 150.000 | 
+| Activa| 200.000| Kapitaal| 180.000|
+| | | Belastingvrije reserves| 20.000|
+| | | Verliezen| -150.000|
+| | | Schulden| 150.000|
 
-#### Bij de schuldeiser
+### Bij de schuldeiser
 Artikel 3:19, § 1 KB WVV bepaalt dat de aanschaffingswaarde van deelnemingen of aandelen ontvangen als vergoeding voor inbrengen die niet bestaan in contanten of die voortkomen uit de omzetting van vorderingen, overeenstemt met de conventionele waarde van de ingebrachte goederen en waarden of van de omgezette vorderingen. 
 
 ### Voorbeeld 2
@@ -327,7 +285,7 @@ Stel dat de schuldeiser reeds een waardevermindering van 10.000 euro boekte op z
 | aan | 407 of 2907 | Handelsvorderingen: Dubieuze debiteuren | | 100.000 |
 
 ### Kapitaalloze vennootschappen
-#### Bij de schuldenaar
+### Bij de schuldenaar
 De boekhoudkundige verwerking is vergelijkbaar met die van de omzetting van een schuldvordering in kapitaal[^41] bij de schuldenaar (zoals uitgelegd in punt IV.A.1). Er worden wel andere rekeningen gebruikt.
 
 Gezien de verschillende strekkingen in de rechtsleer over de waarde waartegen een schuldvordering moet worden ingebracht, dient er tevens een onderscheid te worden gemaakt tussen het waarderen van de schuldvordering tegen de nominale waarde en tegen de economische waarde. 
@@ -337,14 +295,13 @@ Een kapitaalloze vennootschap verkeert in financiële problemen en een van de sc
 
 De balans van de vennootschap in moeilijkheden (vóór de inbreng van de schuldvordering) is de volgende:
 
-| Balans | 
+| Balans|
 |---|
-| Activa | | 200.000 | | Inbreng | | 200.000 | 
-| | | | | Verliezen | | -150.000 | 
-| | | | | Schulden | | 150.000 | 
+| Activa| 200.000| Inbreng| 200.000|
+| | | Verliezen| -150.000|
+| | | Schulden| 150.000|
 
-*Hypothese 1: de schuldvordering wordt ingebracht voor haar nominale waarde*
-
+## Hypothese 1: de schuldvordering wordt ingebracht voor haar nominale waarde
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 44 of 175 | Handelsschulden | 100.000 | |
@@ -352,14 +309,13 @@ De balans van de vennootschap in moeilijkheden (vóór de inbreng van de schuldv
 
 De balans van de vennootschap ziet er, na de inbreng van de schuldvordering, als volgt uit:
 
-| Balans | 
+| Balans|
 |---|
-| Activa | | 200.000 | | Inbreng | | 200.000 | 
-| | | | | Verliezen | | -150.000 | 
-| | | | | Schulden | | 150.000 | 
+| Activa| 200.000| Inbreng| 200.000|
+| | | Verliezen| -150.000|
+| | | Schulden| 150.000|
 
-*Hypothese 2: de schuldvordering wordt ingebracht aan haar economische waarde*
-
+## Hypothese 2: de schuldvordering wordt ingebracht aan haar economische waarde
 De economische waarde van deze vordering wordt geschat op 80.000 euro. De schuldenaar zal een verhoging van de inbreng doorvoeren ten belope van 80.000 euro en zal ten belope van de andere 20.000 euro een opbrengst dienen te boeken. 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -379,18 +335,18 @@ De economische waarde van deze vordering wordt geschat op 80.000 euro. De schuld
 
 De balans van de vennootschap ziet er, na de inbreng van de schuldvordering, als volgt uit (in het geval de onderneming voldoet aan de onaantastbaarheidvoorwaarde van artikel 27/1, § 2 KB WIB 92):
 
-| Balans | 
+| Balans|
 |---|
-| Activa | | 200.000 | | Inbreng | | 180.000 | 
-| | | | | Belastingvrije reserves | | 20.000 | 
-| | | | | Verliezen | | -150.000 | 
-| | | | | Schulden | | 150.000 | 
+| Activa| 200.000| Inbreng| 180.000|
+| | | Belastingvrije reserves| 20.000|
+| | | Verliezen| -150.000|
+| | | Schulden| 150.000|
 
-#### Bij de schuldeiser
+### Bij de schuldeiser
 De boekhoudkundige verwerking is vergelijkbaar met die van de omzetting van een schuldvordering in kapitaal bij de schuldeiser. De Commissie verwijst naar punt IV.A.2.
 
 ### VZW’s, IVZW’s en stichtingen
-#### Bij de schuldenaar
+### Bij de schuldenaar
 De boekhoudkundige verwerking is vergelijkbaar met die van de omzetting van een schuldvordering in kapitaal[^44] bij de schuldenaar (zoals uitgelegd in punt IV.A.1.). Er worden wel andere rekeningen gebruikt.
 
 Gezien de verschillende strekkingen in de rechtsleer over de waarde waartegen een schuldvordering[^45] moet worden ingebracht, dient er tevens een onderscheid te worden gemaakt tussen het waarderen van de schuldvordering tegen de nominale waarde en tegen de economische waarde. 
@@ -400,16 +356,15 @@ Een vereniging verkeert in financiële problemen en een van de schuldeisers gaat
 
 De balans van de vereniging in moeilijkheden (voor de inbreng van de schuldvordering) is de volgende:
 
-| Balans | 
+| Balans|
 |---|
-| Activa | | 200.000 | | Fondsen | | 100.000 | 
-| | | | | Verliezen | | -150.000 | 
-| | | | | Schulden | | 250.000 | 
-| | | | | | | | 
-| | | 40 | | | | 40 | 
+| Activa| 200.000| Fondsen| 100.000|
+| | | Verliezen| -150.000|
+| | | Schulden| 250.000|
+| | | | |
+| | 40| | 40|
 
-*Hypothese 1: schuldvordering wordt ingebracht voor haar nominale waarde*
-
+## Hypothese 1: schuldvordering wordt ingebracht voor haar nominale waarde
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | XX | Schulden | 100.000 | |
@@ -417,14 +372,13 @@ De balans van de vereniging in moeilijkheden (voor de inbreng van de schuldvorde
 
 De balans van de vereniging ziet er, na de inbreng van de schuldvordering, als volgt uit:
 
-| Balans | 
+| Balans|
 |---|
-| Activa | | 200.000 | | Fondsen | | 200.000 | 
-| | | | | Verliezen | | -150.000 | 
-| | | | | Schulden | | 150.000 | 
+| Activa| 200.000| Fondsen| 200.000|
+| | | Verliezen| -150.000|
+| | | Schulden| 150.000|
 
-*Hypothese 2: schuldvordering wordt ingebracht aan haar economische waarde*
-
+## Hypothese 2: schuldvordering wordt ingebracht aan haar economische waarde
 De economische waarde van deze vordering wordt geschat op 80.000 euro. De schuldenaar zal een fondsverhoging doorvoeren ten belope van 80.000 euro en zal ten belope van de andere 20.000 euro een opbrengst dienen te boeken. 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -446,22 +400,22 @@ En voor zover de vereniging geen rechtspersoon is die onderworpen is aan de rech
 
 De balans van de vereniging ziet er, na de inbreng van de schuldvordering, als volgt uit (in het geval de onderneming voldoet aan de onaantastbaarheidvoorwaarde van artikel 27/1, § 2 KB WIB 92):
 
-| Balans | 
+| Balans|
 |---|
-| Activa | | 200.000 | | Fondsen | | 180.000 | 
-| | | | | Belastingvrije reserves | | 20.000 | 
-| | | | | Verliezen | | -150.000 | 
-| | | | | Schulden | | 150.000 | 
+| Activa| 200.000| Fondsen| 180.000|
+| | | Belastingvrije reserves| 20.000|
+| | | Verliezen| -150.000|
+| | | Schulden| 150.000|
 
 En voor zover de vereniging een rechtspersoon is die onderworpen is aan de rechtspersonenbelasting, ziet de balans van de vereniging er, na de inbreng van de schuldvordering, als volgt uit:
 
-| Balans | 
+| Balans|
 |---|
-| Activa | | 200.000 | | Fondsen | | 180.000 | 
-| | | | | Verliezen | | -130.000 | 
-| | | | | Schulden | | 150.000 | 
+| Activa| 200.000| Fondsen| 180.000|
+| | | Verliezen| -130.000|
+| | | Schulden| 150.000|
 
-#### Bij de schuldeiser
+### Bij de schuldeiser
 In hoofde van de schuldeiser zal de omzetting van de schuldvordering in de fondsen van de vereniging aanleiding geven tot het boeken van een niet-recurrente bedrijfskost.
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 17 maart 2020 ter publieke consultatie werd gepubliceerd op de website van de CBN.

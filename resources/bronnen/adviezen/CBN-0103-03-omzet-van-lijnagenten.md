@@ -6,45 +6,37 @@ gerelateerde_adviezen:
     titel: Omzet - Tussenpersonen
     url: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
 nummer: CBN-advies 103/3
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-van-lijnagenten
-      sha256: 2648f6d828657e492f73a3dd5ae3dd9e826af14e97235075369a52161c3df90d
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:51:19Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 1996
-      file_size_chars: 1996
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Correct opgebouwd advies zonder headings (terecht voor deze lengte). Technische term *agency fee* correct gecursiveerd. Twee voetnoten correct gedefinieerd en gekoppeld. Geen artefacten.
-      run_at: '2026-05-11T11:51:19Z'
-      status: trusted
-    rationale: Correct opgebouwd advies zonder headings (terecht voor deze lengte). Technische term *agency fee* correct gecursiveerd. Twee voetnoten correct gedefinieerd en gekoppeld. Geen artefacten.
-    status: trusted
 themas:
   - lijnagent
   - omzet
   - reder
   - tussenpersoon
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-van-lijnagenten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:06Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 103/3 - Omzet van lijnagenten
 
 Aan de Commissie werd de vraag voorgelegd hoe de omzet van lijnagenten dient te worden bepaald. 

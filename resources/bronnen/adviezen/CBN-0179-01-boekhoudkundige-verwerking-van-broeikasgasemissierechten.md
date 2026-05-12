@@ -6,54 +6,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten door een onderneming die de nettomethode toepast
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een
 nummer: CBN-advies 179/1
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
-      sha256: 318b60ea7b396ab94915e412a3588e4ba56412cb3fd533851ebf265b424273f2
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 9
-      max_section_chars: 9185
-      file_size_chars: 25266
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B4
-          regel: 73
-          type: other
-          voorbeeld: (Update november 2008) — plain tekst direct na H1-titel, geen heading-prefix
-        - categorie: D4
-          regel: 163
-          type: other
-          voorbeeld: Bij de* Interpretation 3 Emission Rights* worden ook voorbeelden gegeven
-        - categorie: D4
-          regel: 165
-          type: other
-          voorbeeld: In verband met de* Interpretation 3 Emission Rights* werden een aantal kritieken
-        - categorie: D4
-          regel: 180
-          type: other
-          voorbeeld: ',* sui generis* rechten en roerende rechten'
-      rationale: 'B4 bevestigd r.73: ''(Update november 2008)'' als plain tekst direct na de H1-titel in plaats van als subkopje. D4 bevestigd r.163/165: ''Bij de* Interpretation 3 Emission Rights*'' en ''In verband met de* Interpretation 3 Emission Rights*'' — opening asterisk grenst direct aan ''de'' zonder spatie (malformed italic). D4 ook r.180: '',* sui generis* rechten'' toont spatie voor opening asterisk. Noot: de B2-sprong die in vorige ronde werd gemeld is niet meer zichtbaar in de huidige body (IFRIC/Bruto/Nettomethode staan als ###, correct onder ##), maar D4 en B4 volstaan voor needs-rework.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'B4 bevestigd r.73: ''(Update november 2008)'' als plain tekst direct na de H1-titel in plaats van als subkopje. D4 bevestigd r.163/165: ''Bij de* Interpretation 3 Emission Rights*'' en ''In verband met de* Interpretation 3 Emission Rights*'' — opening asterisk grenst direct aan ''de'' zonder spatie (malformed italic). D4 ook r.180: '',* sui generis* rechten'' toont spatie voor opening asterisk. Noot: de B2-sprong die in vorige ronde werd gemeld is niet meer zichtbaar in de huidige body (IFRIC/Bruto/Nettomethode staan als ###, correct onder ##), maar D4 en B4 volstaan voor needs-rework.'
-    status: needs-rework
 themas:
   - broeikasgasemissierechten
   - bruto-methode
@@ -62,8 +14,32 @@ themas:
   - immateriële vaste activa
   - netto-methode
   - toelichting
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:51Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # Boekhoudkundige verwerking van broeikasgasemissierechten
 (Update november 2008)
 

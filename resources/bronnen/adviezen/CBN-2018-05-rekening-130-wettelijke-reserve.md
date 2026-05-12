@@ -12,43 +12,35 @@ gerelateerde_adviezen:
     titel: Van een kapitaalhoudende BVBA naar een kapitaalloze BV
     url: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
 nummer: CBN-advies 2018/05
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/rekening-130-wettelijke-reserve
-      sha256: c8b2728d90556558c16d9f39b6121f16ab151d0d0a9bb9262e99fc90de4a8f59
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:34:11Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 6
-      max_section_chars: 1704
-      file_size_chars: 5970
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Volledig schone extractie. Zes headings correct genest, twee pipe-tabellen correct opgebouwd, alle voetnoten [^1]–[^12] aanwezig met definitie. Geen PDF-artefacten, geen onzichtbare unicode, geen spurious line-breaks. Inhoud compact en compleet.
-      run_at: '2026-05-11T13:34:11Z'
-      status: trusted
-    rationale: Volledig schone extractie. Zes headings correct genest, twee pipe-tabellen correct opgebouwd, alle voetnoten [^1]–[^12] aanwezig met definitie. Geen PDF-artefacten, geen onzichtbare unicode, geen spurious line-breaks. Inhoud compact en compleet.
-    status: trusted
 themas:
   - wettelijke reserve
   - reservefonds
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/rekening-130-wettelijke-reserve
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:28Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/05 – Rekening 130 Wettelijke reserve
 
 ## Algemeen

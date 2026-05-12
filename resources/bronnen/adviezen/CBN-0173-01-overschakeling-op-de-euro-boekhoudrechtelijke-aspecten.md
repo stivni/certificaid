@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-boekhoudrechtelijke-aspecten
 datum: 1997-01-01
 nummer: CBN-advies 173/1
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-boekhoudrechtelijke-aspecten
-      sha256: c54803fef2d4b5cf579399080be7b80ab1c66071b61078183734c59958df0cbd
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 17
-      max_section_chars: 18016
-      file_size_chars: 46302
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 22 headings met vierniveaux hiërarchie, volledig coherent advies. Lange sectie is inherent aan dense juridisch-technische inhoud. Één scraping-artefact in H2-tekst maar inhoud volledig.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - conversie in euro
   - eigen vermogen
@@ -56,8 +24,32 @@ themas:
   - voorziening
   - wisselrisico
   - wisselverschil
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-boekhoudrechtelijke-aspecten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:47Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 173/1 - Overschakeling op de euro: boekhoudrechtelijke aspecten
 
 ## Vanaf 1 januari 1999 wordt de euro de munt van de Lid-Staten van de Europese Unie die deel uitmaken van de Europese Monetaire Unie.Gelet op de beslissingen van de Europese top van Madrid, Firenze en Dublin, de beraadslagingen van de (Belgische) Ministerraad van 2 augustus 1996 en het «Legal framework for the use of the Euro», vastgesteld door de Top van Dublin in december 1996, ziet de situatie er als volgt uit.**Inleiding**

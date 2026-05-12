@@ -6,38 +6,6 @@ gerelateerde_adviezen:
     titel: Belastingvrije provisie voor sociaal passief
     url: https://www.cbn-cnc.be/nl/adviezen/belastingvrije-provisie-voor-sociaal-passief
 nummer: CBN-advies 107/4
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-de-schulden-ten-opzichte-van-het-personeel-bij-sluiting-van-de
-      sha256: e258e3db6ceff9c40c90837abe3e5625e75d3bb14531c00e4b9d62da736f8c4c
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 2641
-      file_size_chars: 2641
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Laag-1 pass (2641 chars). Geen aantoonbare extractie-artefacten: geen gebroken footnote-regels, geen HTML-entities, geen unicode-problemen. Prose vloeit logisch en zinnen zijn correct afgerond. Inhoud compleet met going-concern-thema goed behandeld.'
-      run_at: '2026-05-11T11:57:45Z'
-      status: trusted
-    rationale: 'Laag-1 pass (2641 chars). Geen aantoonbare extractie-artefacten: geen gebroken footnote-regels, geen HTML-entities, geen unicode-problemen. Prose vloeit logisch en zinnen zijn correct afgerond. Inhoud compleet met going-concern-thema goed behandeld.'
-    status: trusted
 themas:
   - afdanking van personeel
   - going concern beginsel
@@ -46,8 +14,32 @@ themas:
   - stopzetting van de werkzaamheden
   - voorziening
   - Voorzieningen voor schulden ten opzichte van personeel bij sluiting van de onderneming
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-de-schulden-ten-opzichte-van-het-personeel-bij-sluiting-van-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:10Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 107/4 - Voorzieningen voor de schulden ten opzichte van het personeel bij sluiting van de onderneming
 
 Aan de Commissie werd gevraagd of een onderneming een voorziening mag boeken voor de personeelskosten en andere sociale lasten die zij moeten dragen bij de stopzetting van het geheel of van een belangrijk gedeelte van haar bedrijf met als gevolg het ontslag van alle of een groot aantal personeelsleden.

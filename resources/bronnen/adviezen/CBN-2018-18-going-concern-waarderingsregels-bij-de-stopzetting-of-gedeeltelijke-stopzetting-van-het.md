@@ -6,38 +6,6 @@ gerelateerde_adviezen:
     titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
 nummer: CBN-advies 2018/18
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
-      sha256: 3877990133cefd4d161a28e09205d68d5a29ea2fc5360215133d617bafa6550f
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 14
-      max_section_chars: 9149
-      file_size_chars: 24667
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, headings correct hiërarchisch (##, ###, **bold-subsections** als gestijlde subsecties — acceptabel voor dit adviestype), voetnoten volledig en goed verankerd. Geen tabelstructuren aanwezig. Inhoud volledig inclusief voorbeeld.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: trusted
-    rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, headings correct hiërarchisch (##, ###, **bold-subsections** als gestijlde subsecties — acceptabel voor dit adviestype), voetnoten volledig en goed verankerd. Geen tabelstructuren aanwezig. Inhoud volledig inclusief voorbeeld.'
-    status: trusted
 themas:
   - going concern
   - stopzetting
@@ -58,8 +26,32 @@ themas:
   - gebeurtenis na balansdatum
   - verslaggeving
   - rapporteringsverplichting
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:31Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/18 – Going concern - Waarderingsregels bij de stopzetting of gedeeltelijke stopzetting van het bedrijf van een onderneming
 
 ## Inleiding

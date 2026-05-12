@@ -15,46 +15,38 @@ gerelateerde_adviezen:
     titel: Verplichtingen voortvloeiend uit brugpensioen
     url: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen
 nummer: CBN-advies 107/3 bis
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen-0
-      sha256: 373f4f7f7f5ae4191a73a94e8827c04332b5eea7cf27a57ed171e2b06fe76725
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:16:02Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 1930
-      file_size_chars: 1930
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Bug D4 (voetnootmarker [^1] op eigen regel met leading spatie) is opgelost: body regel 64 toont ''In een vorig advies[^1] onderstreepte de Commissie dat...'' correct inline. Inhoud volledig. Geen andere artefacten.'
-      run_at: '2026-05-11T13:16:02Z'
-      status: trusted
-    rationale: 'Bug D4 (voetnootmarker [^1] op eigen regel met leading spatie) is opgelost: body regel 64 toont ''In een vorig advies[^1] onderstreepte de Commissie dat...'' correct inline. Inhoud volledig. Geen andere artefacten.'
-    status: trusted
 themas:
   - brugpensioen
   - conventioneel brugpensioen
   - verplichting voortvloeiend uit brugpensioen
   - voorziening
   - voorzieningen voor brugpensioen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verplichtingen-voortvloeiend-uit-brugpensioen-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:09Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 107/3bis - Verplichtingen voortvloeiend uit brugpensioen
 
 In een vorig advies[^1] onderstreepte de Commissie dat, wanneer een onderneming, in het kader van de conventionele brugpensioenregeling ingevoerd krachtens de collectieve arbeidsovereenkomst nr. 17 van 19 november 1974, bepaalde werknemers op pensioen stelt, zij krachtens artikel 19 van het besluit van 8 oktober 1976 een passende voorziening moet vormen voor de verbintenissen die zij aangaat ten opzichte van haar werknemers.

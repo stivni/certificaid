@@ -15,46 +15,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
 nummer: CBN-advies 2021/13
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door
-      sha256: 3404a5a64eca3f15bc7f710f31423f847aae9a6d9d904376821ec4f9a166b287
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:31Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 12
-      max_section_chars: 7265
-      file_size_chars: 21881
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B2
-          regel: 122
-          type: other
-          voorbeeld: '### 1° verhoogd met het bedrag van de omgezette herwaarderingsmeerwaarde, en'
-        - categorie: D4
-          regel: 156
-          type: other
-          voorbeeld: rekening* 1109 Andere beschikbare inbreng buiten kapitaal*
-      rationale: 'B2: regel 122 bevat ''### 1° verhoogd met het bedrag van de omgezette herwaarderingsmeerwaarde, en'' — een genummerd lid van art. 7:208 WVV werd als ###-heading opgemaakt in plaats van als list-item, waardoor er een hiërarchiesprong ontstaat (H3 onder H2 zonder structuurlogica). D4: regel 156 bevat ''rekening* 1109 Andere beschikbare inbreng buiten kapitaal*'' — losstaande asterisk, zelfde ETL-artefact als in 2021/12.'
-      run_at: '2026-05-11T17:13:31Z'
-      status: needs-rework
-    rationale: 'B2: regel 122 bevat ''### 1° verhoogd met het bedrag van de omgezette herwaarderingsmeerwaarde, en'' — een genummerd lid van art. 7:208 WVV werd als ###-heading opgemaakt in plaats van als list-item, waardoor er een hiërarchiesprong ontstaat (H3 onder H2 zonder structuurlogica). D4: regel 156 bevat ''rekening* 1109 Andere beschikbare inbreng buiten kapitaal*'' — losstaande asterisk, zelfde ETL-artefact als in 2021/12.'
-    status: needs-rework
 themas:
   - herwaarderingsmeerwaarde
   - niet-gerealiseerde meerwaarde
@@ -62,8 +22,32 @@ themas:
   - uitkeerbare winst
   - omzetting in inbreng
   - omzetting in kapitaal
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden-bij-vennootschappen-gevolgen-van-de-wijzigingen-aangebracht-door
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:43Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2021/13 – Herwaarderingsmeerwaarden bij vennootschappen: gevolgen van de wijzigingen aangebracht door het WVV en KB WVV
 
 ## Inleiding

@@ -2,43 +2,35 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/kosten-afgewenteld-op-of-gedragen-door-derden
 datum: 1977-08-01
 nummer: CBN-advies 105/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/kosten-afgewenteld-op-of-gedragen-door-derden
-      sha256: 94b95deabd02e2a98891ef640906d58df0f6dc7e05a95bb64af51c647c39e53d
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 1858
-      file_size_chars: 1858
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Geen artefacten. Bestand bevat één coherente alinea-advies (1 858 chars) zonder headings — logisch voor een kort CBN-advies uit 1977. Frontmatter klopt, geen unicode-issues, geen HTML-entities.
-      run_at: '2026-05-11T11:57:45Z'
-      status: trusted
-    rationale: Geen artefacten. Bestand bevat één coherente alinea-advies (1 858 chars) zonder headings — logisch voor een kort CBN-advies uit 1977. Frontmatter klopt, geen unicode-issues, geen HTML-entities.
-    status: trusted
 themas:
   - kosten afgewenteld op derden
   - kosten gedragen door derden
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/kosten-afgewenteld-op-of-gedragen-door-derden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:07Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 105/2 - Kosten afgewenteld op of gedragen door derden
 
 Het gebeurt regelmatig dat zekere uitgaven of kosten van een onderneming afgewenteld worden op - of gedragen worden door derden. 

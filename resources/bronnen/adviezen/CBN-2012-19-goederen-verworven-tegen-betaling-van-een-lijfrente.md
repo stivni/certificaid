@@ -15,54 +15,34 @@ gerelateerde_adviezen:
     titel: Inwerkingtreding van artikel 26, paragraaf 2 van het Koninklijk Besluit van 8 oktober 1976 m.b.t. de lijfrente
     url: https://www.cbn-cnc.be/nl/adviezen/inwerkingtreding-van-artikel-26-paragraaf-2-van-het-koninklijk-besluit-van-8-oktober-1976
 nummer: CBN-advies 2012/19
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/goederen-verworven-tegen-betaling-van-een-lijfrente
-      sha256: 2cd8f92de27086cad9c9aba0626d18cf297100f0dafb460f69a62c8c50cb4e49
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 18
-      max_section_chars: 12566
-      file_size_chars: 22899
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B5
-          regel: 68
-          type: other
-          voorbeeld: 'Inleiding '
-        - categorie: C3
-          regel: 149
-          type: pseudo-table
-          voorbeeld: an/i = 1- (1 + i)-n \n\n       i
-        - categorie: E2
-          regel: 226
-          type: other
-          voorbeeld: '| | lijfrentebetaling van de voorziening afgenomen bedrag | - 14.888,08\n\n\t\t\t 472.685,12 | | |'
-      rationale: 'B5: ''Inleiding'' op regel 68 staat als plain-text alinea-opener zonder ##-prefix, terwijl de eerste echte ## heading pas op regel 82 staat. C3: actuariële formule op regels 149–151 gebruikt spatie-uitlijning als pseudo-kolom (''an/i = 1- (1 + i)-n \n\n       i''). E2: de toelichting-tabel op regels 223–231 heeft een gebroken celrij waarbij ''472.685,12'' na tab-insprong op een aparte regel staat, buiten de pipe-tabel structuur.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'B5: ''Inleiding'' op regel 68 staat als plain-text alinea-opener zonder ##-prefix, terwijl de eerste echte ## heading pas op regel 82 staat. C3: actuariële formule op regels 149–151 gebruikt spatie-uitlijning als pseudo-kolom (''an/i = 1- (1 + i)-n \n\n       i''). E2: de toelichting-tabel op regels 223–231 heeft een gebroken celrij waarbij ''472.685,12'' na tab-insprong op een aparte regel staat, buiten de pipe-tabel structuur.'
-    status: needs-rework
 themas:
   - lijfrente
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/goederen-verworven-tegen-betaling-van-een-lijfrente
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:08Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2012/19 - Goederen verworven tegen betaling van een lijfrente
 
 Inleiding 
@@ -151,10 +131,10 @@ waarbij *n* staat voor de duur van de rente en *i* voor de rentevoet.
 
 In bovenstaand voorbeeld bedraagt het kapitaal 36.000 euro X a20/4,33 = 36.000 euro X = 487.573,20 euro.
 
-| Jaar | | Leeftijd | | Levensverwachting[^7] | | Rentevoet | | Kapitaalbedrag | 
-|---|---|---|---|---|---|---|---|---|
-| N | | 60 | | 20,83 | | 4,33% | | 487.573,20 | 
-| N+1 | | 61 | | 20,05 | | 4,33% | | 476.014,85 | 
+| Jaar | Leeftijd| Levensverwachting[^7] | Rentevoet| Kapitaalbedrag|
+|---|---|---|---|---|
+| N| 60| 20,83 | 4,33%| 487.573,20|
+| N+1 | 61| 20,05| 4,33%| 476.014,85|
 
 o De bijkomende kosten bedragen 15 % van het kapitaalbedrag dat noodzakelijk is om de lijfrente te betalen of 73.135,98 euro (15 % van 487.573,20 euro)
 o Afloop van de overeenkomst (overlijden): na 15 jaar

@@ -2,48 +2,36 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-voor-vorming-van-een-reserve-voor-een-voorzienbaar-verlies
 datum: 2016-11-16
 nummer: CBN-advies 2016/25
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-voor-vorming-van-een-reserve-voor-een-voorzienbaar-verlies
-      sha256: a323708d78caf2ee9141cb9671a5de95cd86d4b34ceb78162f913b715816dbc4
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 9
-      max_section_chars: 3181
-      file_size_chars: 8503
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 63
-          type: other
-          voorbeeld: '*Reserve voor voorzienbaar verlies[^5]*  om na te gaan of de wettelijke voorwaarden'
-      rationale: 'D4: regel 63 (body) bevat ''*Reserve voor voorzienbaar verlies[^5]*  om na te gaan'' — dubbele spatie na de sluitende asterisk is een broken italic-markering, consistent ETL-artefact uit dezelfde pipeline. Overige structuur (9 headings hiërarchisch correct, 3 boekingstabellen in pipe-syntax, voetnoten volledig) is intact.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'D4: regel 63 (body) bevat ''*Reserve voor voorzienbaar verlies[^5]*  om na te gaan'' — dubbele spatie na de sluitende asterisk is een broken italic-markering, consistent ETL-artefact uit dezelfde pipeline. Overige structuur (9 headings hiërarchisch correct, 3 boekingstabellen in pipe-syntax, voetnoten volledig) is intact.'
-    status: needs-rework
 themas:
   - voorzienbaar verlies
   - kapitaalvermindering
   - onbeschikbare reserve
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-voor-vorming-van-een-reserve-voor-een-voorzienbaar-verlies
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:20Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/25 – Kapitaalvermindering voor vorming van een reserve voor een voorzienbaar verlies
 
 ## Inleiding
@@ -91,22 +79,20 @@ K = geplaatst kapitaal na kapitaalvermindering zoals volgt uit de authentieke ak
 
 Een vennootschap (NV) met 500.000 EUR kapitaal en 250.000 EUR overgedragen verlies beslist om over te gaan tot een kapitaalvermindering van 250.000 EUR ter aanzuivering van het overgedragen verlies. De vennootschap beslist ook om een reserve te vormen voor een voorzienbaar verlies van 20.000 EUR (deze reserve bedraagt dus minder dan de maximaal toegelaten 10 % van het kapitaal na kapitaalvermindering, dat in dit geval 22.727 EUR bedraagt).[^10] 
 
-*Overdracht van het overgedragen verlies naar de resultaatverwerking*
-
+## Overdracht van het overgedragen verlies naar de resultaatverwerking
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 690 | Overgedragen verlies van het vorige boekjaar | 250.000 | |
 | aan | 141 | Overgedragen verlies | | 250.000 |
 
-*Kapitaalvermindering en vorming van een reserve voor voorzienbaar verlies*
-
+## Kapitaalvermindering en vorming van een reserve voor voorzienbaar verlies
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 100 | Geplaatst kapitaal | 270.000 | |
 | aan | 791 | Onttrekking aan het kapitaal en aan de uitgiftepremies | | 250.000 |
 | | 1311X | Onbeschikbare reserve voor voorzienbaar verlies | 20.000 | |
 
-##### Opvolging van de reserve voor voorzienbaar verlies
+### Opvolging van de reserve voor voorzienbaar verlies
 De reserve voor voorzienbare verliezen kan enkel worden gebruikt om verliezen te compenseren of om het kapitaal terug te verhogen door omzetting van reserves in kapitaal wanneer blijkt dat de verliezen zich toch niet voordoen of minder omvangrijk blijken dan verwacht.[^11] 
 
 De toewijzing van het werkelijke verlies aan de onbeschikbare reserve die hiervoor eerder werd gevormd, zal gebeuren via de resultaatverwerking.

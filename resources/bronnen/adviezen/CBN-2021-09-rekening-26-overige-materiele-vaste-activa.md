@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Aansluitingskosten en installatiekosten waarbij derden de eigendom van de installatie verwerven of behouden
     url: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
 nummer: CBN-advies 2021/09
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
-      sha256: be4ebe2add6f9dadcf20b4514d83355b8ca1e178901f445fb910c8d2c410e956
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:21:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 3
-      max_section_chars: 5040
-      file_size_chars: 6758
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Alle drie categorieën (A t/m G) schoon. Drie headings correct genesteld, inhoud volledig (inleiding, rubriek-inhoud, waarderingsregels), 12 voetnootdefinities aanwezig, geen artefacten, geen orphan-footnotes, geen malformed italic. Compacte maar complete bron.
-      run_at: '2026-05-11T12:21:41Z'
-      status: trusted
-    rationale: Alle drie categorieën (A t/m G) schoon. Drie headings correct genesteld, inhoud volledig (inleiding, rubriek-inhoud, waarderingsregels), 12 voetnootdefinities aanwezig, geen artefacten, geen orphan-footnotes, geen malformed italic. Compacte maar complete bron.
-    status: trusted
 themas:
   - overige materiële vaste activa
   - onroerende reserve
@@ -62,8 +30,32 @@ themas:
   - herverkoop
   - voorraden
   - herwaarderingsmeerwaarde
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/rekening-26-overige-materiele-vaste-activa
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:42Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2021/09 – Rekening 26 Overige materiële vaste activa
 
 ## Inleiding

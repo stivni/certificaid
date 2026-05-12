@@ -15,43 +15,35 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van fusies tussen vennootschappen
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen
 nummer: CBN-advies 2009/16
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/omrekening-van-kapitaal-bij-grensoverschrijdende-fusies
-      sha256: 83dc21653a6c045697a3cc20ede1abb140dfde829e847e94ef0aef58d448ddef
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 5
-      max_section_chars: 4265
-      file_size_chars: 10638
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen substantiële extractie-artefacten. Vijf secties correct als ## headings opgemaakt, voetnoten [^1]–[^18] volledig gedefinieerd, inhoud compleet. De CAPS-headings (INLEIDING, TE VOLGEN PROCEDURE, etc.) zijn de stijl van dit advies en consistent. Geen invisible unicode, geen broken tables, geen afgekapte zinnen.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: trusted
-    rationale: 'Geen substantiële extractie-artefacten. Vijf secties correct als ## headings opgemaakt, voetnoten [^1]–[^18] volledig gedefinieerd, inhoud compleet. De CAPS-headings (INLEIDING, TE VOLGEN PROCEDURE, etc.) zijn de stijl van dit advies en consistent. Geen invisible unicode, geen broken tables, geen afgekapte zinnen.'
-    status: trusted
 themas:
   - fusie
   - grensoverschrijdende fusie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/omrekening-van-kapitaal-bij-grensoverschrijdende-fusies
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:53Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2009/16 Omrekening van kapitaal bij grensoverschrijdende fusies
 
 ## INLEIDING

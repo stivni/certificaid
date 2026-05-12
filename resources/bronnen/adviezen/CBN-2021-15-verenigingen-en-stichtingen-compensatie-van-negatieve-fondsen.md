@@ -6,38 +6,6 @@ gerelateerde_adviezen:
     titel: Negatieve fondsen in de beginbalans van een vereniging zonder winstoogmerk
     url: https://www.cbn-cnc.be/nl/adviezen/negatieve-fondsen-in-de-beginbalans-van-een-vereniging-zonder-winstoogmerk
 nummer: CBN-advies 2021/15
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
-      sha256: f0474628f8efb15438554003a161662d28e56c8e131df30eeb2092d50cf6321b
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:26:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 14
-      max_section_chars: 11199
-      file_size_chars: 20882
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Alle categorieën schoon. Inhoud volledig: 14 headings, 6 voorbeelden, balans- en journaaltabellen correct in markdown-pipe-syntax, voetnoten [^1]-[^19] aanwezig en gesloten. Geen PDF-artefacten, TOC-fragmenten, OCR-verwarring of structuurbugs gevonden.'
-      run_at: '2026-05-11T15:26:40Z'
-      status: trusted
-    rationale: 'Alle categorieën schoon. Inhoud volledig: 14 headings, 6 voorbeelden, balans- en journaaltabellen correct in markdown-pipe-syntax, voetnoten [^1]-[^19] aanwezig en gesloten. Geen PDF-artefacten, TOC-fragmenten, OCR-verwarring of structuurbugs gevonden.'
-    status: trusted
 themas:
   - negatieve fondsen
   - beginvermogen
@@ -50,8 +18,32 @@ themas:
   - compensatie
   - positief resultaat
   - bestemde fondsen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:43Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2021/15 – Verenigingen en stichtingen: compensatie van negatieve fondsen
 
 ## Inleiding
@@ -92,11 +84,11 @@ Door de opname van financiële verplichtingen op de passiefzijde van de beginbal
 ### Voorbeeld 2
 Veronderstel een VZW die niet langer voldoet aan de voorwaarden voor het voeren van een vereenvoudigde boekhouding. Het bestuursorgaan kent noch de aanschaffingswaarde, noch de betrouwbare werkelijke waarde, marktwaarde of gebruikswaarde van de in de VZW aanwezige activa en zal deze enkel in de toelichting bij de jaarrekening opnemen. Deze VZW beschikt eveneens over 15.600 euro aan schulden. Rekening houdend met deze financiële verplichtingen, zal in de openingsbalans rekening 10 *Fondsen van de vereniging* het evenwicht moeten herstellen en bijgevolg een negatief saldo vertonen.
 De openingsbalans van de VZW ziet er als volgt uit:
-| Balans VZW | 
+| Balans VZW|
 |---|
-| Vaste activa | | 0 | | Fondsen van de vereniging | | -15.600 | 
-| | | | | Schulden | | 15.600 | 
-| | | 0 | | | | 0 | 
+| Vaste activa| 0| Fondsen van de vereniging| -15.600|
+| | | Schulden| 15.600|
+| | 0| | 0|
 
 Ook ingeval er intussen actiefbestanddelen werden vernield, gestolen of weggeschonken, zal rekening 10 *Fondsen van de vereniging of stichting*, wanneer er sprake is van schulden op de passiefzijde van de balans, het evenwicht herstellen en als dusdanig een negatief saldo vertonen.
 
@@ -115,21 +107,21 @@ Hetzelfde geldt voor fusies: indien één van de bij de fusie betrokken VZW’s,
 
 ### Voorbeeld 4
 Twee VZW’s brengen een fusie tot stand. Beide VZW’s voeren een dubbele boekhouding. Vóór de fusie zien de balansen van de te ontbinden VZW en van de verkrijgende VZW er als volgt uit:
-| Balans te ontbinden VZW vóór de fusie | 
+| Balans te ontbinden VZW vóór de fusie|
 |---|
-| Vaste activa | | 100.000 | | Fondsen van de vereniging | | -80.000 | 
-| Vlottende activa | | 20.000 | | Overgedragen winst | | 60.000 | 
-| | | | | Voorzieningen | | 40.000 | 
-| | | | | Schulden | | 100.000 | 
-| | | 120.000 | | | | 120.000 | 
+| Vaste activa| 100.000| Fondsen van de vereniging| -80.000|
+| Vlottende activa| 20.000| Overgedragen winst| 60.000|
+| | | Voorzieningen| 40.000|
+| | | Schulden| 100.000|
+| | 120.000| | 120.000|
 
-| Balans verkrijgende VZW vóór de fusie | 
+| Balans verkrijgende VZW vóór de fusie|
 |---|
-| Vaste activa | | 120.000 | | Fondsen van de vereniging | | 70.000 | 
-| Vlottende activa | | 80.000 | | Bestemde fondsen | | 40.000 | 
-| | | | | Overgedragen verlies | | -10.000 | 
-| | | | | Schulden | | 100.000 | 
-| | | 200.000 | | | | 200.000 | 
+| Vaste activa| 120.000| Fondsen van de vereniging| 70.000|
+| Vlottende activa| 80.000| Bestemde fondsen| 40.000|
+| | | Overgedragen verlies| -10.000|
+| | | Schulden| 100.000|
+| | 200.000| | 200.000|
 
 Na de fusie ziet de balans van de verkrijgende VZW er als volgt uit.
 | | Rekening | Omschrijving | Debet | Credit |
@@ -141,14 +133,14 @@ Na de fusie ziet de balans van de verkrijgende VZW er als volgt uit.
 | | XX | Voorzieningen | 40.000 | |
 | | XX | Schulden | 100.000 | |
 
-| Balans verkrijgende VZW na de fusie | 
+| Balans verkrijgende VZW na de fusie|
 |---|
-| Vaste activa | | 220.000 | | Fondsen van de vereniging | | -10.000 | 
-| Vlottende activa | | 100.000 | | Bestemde fondsen | | 40.000 | 
-| | | | | Overgedragen winst | | 50.000 | 
-| | | | | Voorzieningen | | 40.000 | 
-| | | | | Schulden | | 200.000 | 
-| | | 320.000 | | | | 320.000 | 
+| Vaste activa| 220.000| Fondsen van de vereniging| -10.000|
+| Vlottende activa| 100.000| Bestemde fondsen| 40.000|
+| | | Overgedragen winst| 50.000|
+| | | Voorzieningen| 40.000|
+| | | Schulden| 200.000|
+| | 320.000| | 320.000|
 
 #### Omzetting van een vennootschap in een VZW of IVZW
 Een vennootschap met rechtspersoonlijkheid kan worden omgezet in een VZW of IVZW.[^16]
@@ -163,12 +155,12 @@ Beslist het bestuursorgaan in de loop van het boekjaar om de negatieve fondsen t
 
 ### Voorbeeld 5
 Op 1 januari 2020 ziet de balans van een VZW er als volgt uit:
-| Balans VZW | 
+| Balans VZW|
 |---|
-| Activa | | 100.000 | | Fondsen van de vereniging | | -80.000 | 
-| | | | | Overgedragen winst | | 100.000 | 
-| | | | | Schulden | | 80.000 | 
-| | | 100.000 | | | | 100.000 | 
+| Activa| 100.000| Fondsen van de vereniging| -80.000|
+| | | Overgedragen winst | 100.000|
+| | | Schulden| 80.000|
+| | 100.000| | 100.000|
 
 Om de reële vermogenstoestand beter weer te geven, beslist het bestuursorgaan om naar aanleiding van de resultaatverwerking eind 2020 de negatieve fondsen van de VZW te compenseren met 80.000 van de overgedragen winst van het vorige boekjaar. Tijdens het boekjaar 2020 werd er geen bijkomende winst gerealiseerd.
 | | Rekening | Omschrijving | Debet | Credit |
@@ -182,24 +174,24 @@ Om de reële vermogenstoestand beter weer te geven, beslist het bestuursorgaan o
 | aan | 10 | Fondsen van de vereniging: beginvermogen | | 80.000 |
 
 Na de verrichting ziet de balans van de VZW er als volgt uit:
-| Balans VZW | 
+| Balans VZW|
 |---|
-| Diverse activa | | 100.000 | | Fondsen van de vereniging | | 0 | 
-| | | | | Overgedragen winst | | 20.000 | 
-| | | | | Schulden | | 80.000 | 
-| | | 100.000 | | | | 100.000 | 
+| Diverse activa | 100.000| Fondsen van de vereniging| 0|
+| | | Overgedragen winst | 20.000|
+| | | Schulden| 80.000|
+| | 100.000| | 100.000|
 
 Aan het einde van het boekjaar kan het bestuursorgaan, indien zij over een positief resultaat van het boekjaar beschikt, dit positief resultaat aanwenden ter compensatie van haar negatieve fondsen. Aangezien het de bestemming van het resultaat van het boekjaar betreft, zal de mutatie verlopen via rekening 69X *Overdracht aan het beginvermogen*. 
 
 ### Voorbeeld 6
 Op 31 december 2020 ziet de balans vóór resultaatbestemming van een VZW er als volgt uit:
-| Balans VZW | 
+| Balans VZW|
 |---|
-| Diverse activa | | 80.000 | | Fondsen van de vereniging | | -80.000 | 
-| Kredietinstellingen | | 160.000 | | Overgedragen winst | | 20.000 | 
-| | | | | Te bestemmen resultaat van het boekjaar | | 160.000 | 
-| | | | | Schulden | | 140.000 | 
-| | | 240.000 | | | | 240.000 | 
+| Diverse activa| 80.000| Fondsen van de vereniging| -80.000|
+| Kredietinstellingen| 160.000| Overgedragen winst| 20.000|
+| | | Te bestemmen resultaat van het boekjaar | 160.000|
+| | | Schulden| 140.000|
+| | 240.000| | 240.000|
 
 Bij de afsluiting van dat boekjaar beslist het bestuursorgaan om de negatieve fondsen te compenseren met de overgedragen winst van het vorige boekjaar (20.000 euro) en 60.000 euro van de winst van het boekjaar. 
 
@@ -222,12 +214,12 @@ Het saldo van de winst van het boekjaar (160.000 – 60.000) wordt overgedragen:
 
 De balans van de VZW ziet er na de bestemming als volgt uit:
 
-| Balans VZW | 
+| Balans VZW|
 |---|
-| Diverse activa | | 80.000 | | Fondsen van de vereniging | | 0 | 
-| Kredietinstellingen | | 160.000 | | Overgedragen winst | | 100.000 | 
-| | | | | Schulden | | 140.000 | 
-| | | 240.000 | | | | 240.000 | 
+| Diverse activa | 80.000| Fondsen van de vereniging| 0|
+| Kredietinstellingen | 160.000| Overgedragen winst | 100.000|
+| | | Schulden| 140.000|
+| | 240.000| | 240.000|
 
 ## Negatieve fondsen en de mogelijkheid om negatieve fondsen te compenseren met bestemde fondsen
 In tegenstelling tot de compensatie van negatieve fondsen met een positief resultaat, spreekt het KB WVV zich nergens uit over de mogelijkheid om in aanwezigheid van bestemde fondsen, via een onttrekking aan deze bestemde fondsen een negatief startfonds aan te zuiveren. De Commissie is van oordeel dat een dergelijke compensatie ertoe kan bijdragen dat de jaarrekening een getrouwer beeld geeft van het vermogen, de financiële positie en het resultaat van de vereniging of stichting. In tegenstelling de compensatie met een overgedragen (positief) resultaat, zal deze mutatie evenwel niet dienen te verlopen via de resultaatverwerking, maar via een rechtstreekse overboeking tussen de bestemde fondsen en de negatieve fondsen van de vereniging of stichting.

@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: De rentabiliteitsvoorwaarde bij herwaarderingsmeerwaarden
     url: https://www.cbn-cnc.be/nl/adviezen/de-rentabiliteitsvoorwaarde-bij-herwaarderingsmeerwaarden
 nummer: CBN-advies 2011/14
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden
-      sha256: e23beb51f09bf7badebca573fe28d0c78b67196e7d54283c81a3e6579e66b094
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 24
-      max_section_chars: 16399
-      file_size_chars: 51482
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 22 headings en behandelt uitgebreid herwaarderingsmeerwaarden en terugneming van waardeverminderingen. Inhoudelijk volledig.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - aanzuivering van verlies
   - actiefgebonden rentabiliteitsvoorwaarde
@@ -63,8 +31,32 @@ themas:
   - rentabiliteitsvoorwaarde
   - terugname afschrijvingen
   - terugneming van waardeverminderingen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/herwaarderingsmeerwaarden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:02Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2011/14 - Herwaarderingsmeerwaarden
 
 ## Inleiding

@@ -2,42 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/pensioenvoorzieningen
 datum: 1987-11-24
 nummer: CBN-advies 107/12
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/pensioenvoorzieningen
-      sha256: 7cae9d96e7c8ebc8a0c451cf51977d4b9534ff2d00cc5a2ddf9057a1c1db7fe3
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:20Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 2196
-      file_size_chars: 2196
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: (source)
-          regel: 51
-          type: source-typo
-          voorbeeld: '# CBN-advies 107/12 – Pensioenvoorzieningen — U+2013 EN-DASH is source-karakter (145 andere adviezen gebruiken hetzelfde patroon)'
-      rationale: 'De enige eerder gerapporteerde issue (A5: en-dash ''–'' in H1-heading) is een source-karakter: analyse van het corpus toont dat 145 CBN-adviezen dezelfde ''–'' separator gebruiken in de H1-heading — dit is het dominante patroon van de CBN-website, geen ETL-inconsistentie. Body-tekst is volledig clean, inhoud compleet, voetnoot [^1] correct.'
-      run_at: '2026-05-11T17:05:20Z'
-      status: trusted
-    rationale: 'De enige eerder gerapporteerde issue (A5: en-dash ''–'' in H1-heading) is een source-karakter: analyse van het corpus toont dat 145 CBN-adviezen dezelfde ''–'' separator gebruiken in de H1-heading — dit is het dominante patroon van de CBN-website, geen ETL-inconsistentie. Body-tekst is volledig clean, inhoud compleet, voetnoot [^1] correct.'
-    status: trusted
 themas:
   - aanvullend rust- en overlevingspensioen
   - directieleden
@@ -46,8 +10,32 @@ themas:
   - verplichting inzake rust- of overlevingspensioenen
   - voorziening
   - voorzieningen voor pensioenen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/pensioenvoorzieningen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:11Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 107/12 – Pensioenvoorzieningen
 
 De vroegere versie van artikel 45 van het koninklijk besluit van 8 oktober 1976 luidde als volgt : «Bij afwijking van artikel 19 moet voor de verplichtingen die voor de onderneming voortvloeien uit regelingen met betrekking tot een aanvullend rust- en overlevingspensioen ten behoeve van haar personeels- of directieleden slechts een voorziening worden gevormd vanaf de datum en volgens de modaliteiten door een later besluit te bepalen».

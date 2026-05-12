@@ -15,42 +15,34 @@ gerelateerde_adviezen:
     titel: 'Ziekenhuisfinanciering: de boekhoudkundige verwerking van het instandhoudingsforfait en het strategisch forfait'
     url: https://www.cbn-cnc.be/nl/adviezen/ziekenhuisfinanciering-de-boekhoudkundige-verwerking-van-het-instandhoudingsforfait-en-0
 nummer: CBN-advies 2013/2
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/het-gebruik-van-de-rekening-15-kapitaalsubsidies-door-grote-en-zeer-grote-verenigingen-en
-      sha256: fc1c5e4c4def5750d73db528721f40d665cb8d84abd956ac123dcc6b75452629
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 2
-      max_section_chars: 4028
-      file_size_chars: 6857
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Geen artefacten gevonden. Kort advies (6860 chars) met twee correcte H2-kopjes. Voetnoten correct. Drie beschrijvende voorbeelden als lopende tekst, geen tabellen nodig. Inhoud compleet.
-      run_at: '2026-05-11T12:16:34Z'
-      status: trusted
-    rationale: Geen artefacten gevonden. Kort advies (6860 chars) met twee correcte H2-kopjes. Voetnoten correct. Drie beschrijvende voorbeelden als lopende tekst, geen tabellen nodig. Inhoud compleet.
-    status: trusted
 themas:
   - kapitaalsubsidie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/het-gebruik-van-de-rekening-15-kapitaalsubsidies-door-grote-en-zeer-grote-verenigingen-en
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:09Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2013/2 – Het gebruik van de rekening 15 Kapitaalsubsidies door grote en zeer grote verenigingen en stichtingen
 
 ## Algemeen

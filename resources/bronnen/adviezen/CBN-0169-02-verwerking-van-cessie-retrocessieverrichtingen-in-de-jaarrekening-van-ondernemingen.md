@@ -2,53 +2,37 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen
 datum: 1995-02-01
 nummer: CBN-advies 169/2
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen
-      sha256: 7bdd2ddf62dc20d396997a39b3d2ba81e680484b21ead22a1e47bc44248fb977
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 19
-      max_section_chars: 18069
-      file_size_chars: 29719
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A9
-          regel: 145
-          type: ocr-confusion
-          voorbeeld: '## (Oordpronkelijke) cedent van het aandeel'
-        - categorie: A9
-          regel: 208
-          type: ocr-confusion
-          voorbeeld: '## (Ooorspronkelijke) cessionaris van het aandeel'
-      rationale: 'Vorig verdict bevestigd. A9 r.145: ''## (Oordpronkelijke) cedent van het aandeel'' — ''Oordpronkelijke'' is een scrambled-words ETL-artefact (corruptie van ''Oorspronkelijke''). A9 r.208: ''## (Ooorspronkelijke) cessionaris van het aandeel'' — extra ''o''. Rest van het document inhoudelijk volledig en structureel correct.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'Vorig verdict bevestigd. A9 r.145: ''## (Oordpronkelijke) cedent van het aandeel'' — ''Oordpronkelijke'' is een scrambled-words ETL-artefact (corruptie van ''Oorspronkelijke''). A9 r.208: ''## (Ooorspronkelijke) cessionaris van het aandeel'' — extra ''o''. Rest van het document inhoudelijk volledig en structureel correct.'
-    status: needs-rework
 themas:
   - cessie-retrocessieverrichtingen
   - effecten
   - portageverrichtingen
   - aandelen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-cessie-retrocessieverrichtingen-in-de-jaarrekening-van-ondernemingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:46Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 169/2 - Verwerking van cessie-retrocessieverrichtingen in de jaarrekening van ondernemingen
 
 ## Inleiding : de cessie-retrocessieverrichting
@@ -194,15 +178,13 @@ In dit voorbeeld echter waarin de fiduciair ontvangen aandeel Y wordt overgedrag
 /
 
 ## (Ooorspronkelijke) cessionaris van het aandeel
-*Voorafgaande opneming van de aandelen Y in de portefeuille[^7]* 
-
+## Voorafgaande opneming van de aandelen Y in de portefeuille
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 51... | Aandelen Y | 1.602.000 | |
 | aan | 487 | Te retrocederen aandelen | | 1.602.000 |
 
-*Overdracht van de aandelen Y*
-
+## Overdracht van de aandelen Y
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 55 | Kredietinstellingen | 1.602.000 | |
@@ -242,15 +224,13 @@ Zodra de aandelen zijn teruggekocht, wordt ervan uitgegaan dat het resultaat, ec
 /
 
 ## (Oorspronkelijke) cessionaris van het aandeel
-*Aanschaffing van de aandelen*
-
+## Aanschaffing van de aandelen
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 51... | Aandelen Y | 1.540.000 | |
 | aan | 55 | Kredietinstellingen | | 1.540.000 |
 
-*Inresultaatneming van het koersverschil* 
-
+## Inresultaatneming van het koersverschil
 (nl. 1.602.000 - 1.540.000)
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -277,60 +257,52 @@ Indien de aandelen (zoals in dit voorbeeld) aan een derde werden overgedragen vo
 - anderzijds, op de aandelenschuld waarvan het bedrag werd geherwaardeerd ingevolge de inresultaatneming van het verschil dat is ontstaan bij het afsluiten van de dekkingsverrichting zoals geboekt in punt 5 van het schema (1 540 000, d.i. 1 602 000 - 62 000). 
 
 ## (Oorspronkelijke) cedent van het aandeel
-*Terugbetaling van de lening*
-
+## Terugbetaling van de lening
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 43 | Financiële schulden | 1.500.000 | |
 | aan | 55 | Kredietinstellingen | | 1.500.000 |
 
-*Retrocessie van de aandelen Y*
-
+## Retrocessie van de aandelen Y
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 510 | Aandelen Y | 1.000.000 | |
 | aan | 51... | Aandelen Y in cessie - retrocessie | | 1.000.000 |
 
-*Vergoeding voor de lening*
-
+## Vergoeding voor de lening
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 492 | Toe te rekenen kosten | 15.000 | |
 | | 650 | Kosten van schulden | 15.000 | |
 | aan | 55 | Kredietinstellingen | | 30.000 |
 
-*Ristorno van de boekingen van de rechten en verplichtingen buiten balans*
-
+## Ristorno van de boekingen van de rechten en verplichtingen buiten balans
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 021 | Zakelijke zekerheden gesteld voor eigen rekening | 1.000.000 | |
 | aan | 020 | Crediteuren van de onderneming, houders van zakelijke zekerheden | | 1.000.000 |
 
 ## (Oorspronkelijke) cessionaris van het aandeel
-*Terugbetaling van de lening*
-
+## Terugbetaling van de lening
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 55 | Kredietinstellingen | 1.500.000 | |
 | aan | 416 | Diverse vorderingen | | 1.500.000 |
 
-*Retrocessie van de aandelen Y*
-
+## Retrocessie van de aandelen Y
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 487 | Te retrocederen aandelen | 1.540.000 | |
 | aan | 51... | Aandelen Y | | 1.540.000 |
 
-*Vergoeding voor de lening*
-
+## Vergoeding voor de lening
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 55 | Kredietinstellingen | 30.000 | |
 | aan | 491 | Verkregen opbrengsten | | 15.000 |
 | | 751 | Opbrengsten uit vlottende activa | 15.000 | |
 
-*Ristorno van de boekingen van de rechten en verplichtingen buiten balans*
-
+## Ristorno van de boekingen van de rechten en verplichtingen buiten balans
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 033 | Zekerheidsstellers | 1.600.000 | |

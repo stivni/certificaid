@@ -9,45 +9,37 @@ gerelateerde_adviezen:
     titel: Overheidssubsidies
     url: https://www.cbn-cnc.be/nl/adviezen/overheidssubsidies
 nummer: CBN-advies 2014/7
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
-      sha256: 129dce5ffd8bae1274c5c90703f3a21c45b14d1e92c28e39261279fbedb589d9
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 2
-      max_section_chars: 4324
-      file_size_chars: 7751
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd, tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met correcte verwijzingen naar andere CBN-adviezen.
-      run_at: '2026-05-11T12:16:34Z'
-      status: trusted
-    rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd, tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met correcte verwijzingen naar andere CBN-adviezen.
-    status: trusted
 themas:
   - overheidssteun
   - eventuele rechten
   - subsidies
   - overheidssubsidies
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:13Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2014/7 – De boekhoudkundige verwerking van subsidies waarvan de toekenning niet gegarandeerd is (eventuele rechten)
 
 ## Inleiding en onderwerp van het advies

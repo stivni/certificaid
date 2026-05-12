@@ -2,54 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
 datum: 2016-09-28
 nummer: CBN-advies 2016/22
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
-      sha256: 9f3f8a4363d75980f1f743c9e48767f600c6d8c853bc861b06e69958c692677f
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:39Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 14
-      max_section_chars: 12611
-      file_size_chars: 24418
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B3
-          regel: 72
-          type: other
-          voorbeeld: bij een geïnformatiseerde boekhouding (duplicaat subtitle als losstaande alinea na H1)
-        - categorie: D4
-          regel: 133
-          type: other
-          voorbeeld: de* onveranderlijkheid *en de* toegankelijkheid *te waarborgen (spaties rond asterisken)
-        - categorie: D4
-          regel: 165
-          type: other
-          voorbeeld: verplichting tot bewaring* in origineel *en met inachtneming van de *onveranderlijkheid * (broken italic)
-        - categorie: D4
-          regel: 167
-          type: other
-          voorbeeld: '*drager *beoogd die de *onveranderlijkheid *en de *toegankelijkheid * (systematisch broken italic)'
-      rationale: 'B3: regel 72 bevat `bij een geïnformatiseerde boekhouding` als losstaande alinea direct na H1 — duplicaat van de subtitle als extractie-artefact. D4: systematisch patroon van broken italics met spaties rond asterisken op regels 133, 165 en 167 — bv. `de* onveranderlijkheid *en de* toegankelijkheid *` en `verplichting tot bewaring* in origineel *` — ETL genereert spaaties rondom de `*`-markers wat italic rendering verbreekt. Structuur met 14 headings is overigens uitstekend.'
-      run_at: '2026-05-11T17:09:39Z'
-      status: needs-rework
-    rationale: 'B3: regel 72 bevat `bij een geïnformatiseerde boekhouding` als losstaande alinea direct na H1 — duplicaat van de subtitle als extractie-artefact. D4: systematisch patroon van broken italics met spaties rond asterisken op regels 133, 165 en 167 — bv. `de* onveranderlijkheid *en de* toegankelijkheid *` en `verplichting tot bewaring* in origineel *` — ETL genereert spaaties rondom de `*`-markers wat italic rendering verbreekt. Structuur met 14 headings is overigens uitstekend.'
-    status: needs-rework
 themas:
   - archivering
   - bewaring
@@ -65,8 +17,32 @@ themas:
   - materiële continuïteit
   - verantwoordingsstukken
   - toegankelijkheid
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/bewaring-van-boeken-en-verantwoordingsstukken-bij-een-geinformatiseerde-boekhouding
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:20Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/22 - Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding
 
 ## Context

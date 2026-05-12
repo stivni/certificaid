@@ -12,53 +12,37 @@ gerelateerde_adviezen:
     titel: Verwerking in de jaarrekening van bepaalde verrichtingen als bedoeld in artikel 677 van het Wetboek van vennootschappen
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-bepaalde-verrichtingen-als-bedoeld-in-artikel-677-van
 nummer: CBN-advies 2009/15
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-van-een-bedrijfstak-of-van-een-algemeenheid
-      sha256: 040d3c605891795bded2e48e8a8839bb399079cfc2f275c721df16354f76a6d7
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 4
-      max_section_chars: 12185
-      file_size_chars: 15658
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A9
-          regel: 62
-          type: other
-          voorbeeld: bedrijfstak1 or van een algemeenheid van goederen (superscript [^1] niet geparsed)
-        - categorie: B3
-          regel: 64
-          type: other
-          voorbeeld: of van een algemeenheid van goederen (losstaand titelfragment duplicate)
-      rationale: 'A9: H1-titel (r62) bevat ''bedrijfstak1'' — superscript voetnootnummer [^1] niet geparsed, kleeft aan het woord als cijfer. B3/A6: r64 bevat ''of van een algemeenheid van goederen'' als losstaande plain-text regel direct na de H1-titel — dit is een extractie-duplicaatfragment van de H1-titel. Beide zijn ETL-bugs die herstel vereisen.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'A9: H1-titel (r62) bevat ''bedrijfstak1'' — superscript voetnootnummer [^1] niet geparsed, kleeft aan het woord als cijfer. B3/A6: r64 bevat ''of van een algemeenheid van goederen'' als losstaande plain-text regel direct na de H1-titel — dit is een extractie-duplicaatfragment van de H1-titel. Beide zijn ETL-bugs die herstel vereisen.'
-    status: needs-rework
 themas:
   - continuïteitsbeginsel
   - fiscale aspecten
   - inbreng van een algemeenheid van goederen
   - inbreng van een onderdeel van een onderneming
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-van-een-bedrijfstak-of-van-een-algemeenheid
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:53Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2009/15 - De boekhoudkundige verwerking van de inbreng van een bedrijfstak1 of van een algemeenheid van goederen
 
 ## Inleiding
@@ -96,20 +80,20 @@ Hoe in zulk geval moet worden gehandeld, wordt geïllustreerd aan de hand van vo
 
 Vennootschap A brengt haar algemeenheid van goederen in, in een bestaande vennootschap B. Er wordt uitgegaan van de hypothese dat de verrichting belastingneutraal verloopt.
 
-| A | 
+| A|
 |---|
-| Activa | | 9.000 | | Kapitaal | | 3.000 | 
-| Activum 1 | | 1.000 | | Herwaarderingsmeerwaarden | | 1.000 | 
-| | | | | Beschikbare reserves | | 4.000 | 
-| | | | | Schulden | | 2.000 | 
-| | | 10.000 | | | | 10.000 | 
+| Activa| 9.000| Kapitaal| 3.000|
+| Activum 1| 1.000| Herwaarderingsmeerwaarden| 1.000|
+| | | Beschikbare reserves | 4.000|
+| | | Schulden| 2.000|
+| | 10.000| | 10.000|
 
 Activum 1 was volledig afgeschreven en werd met 1.000 geherwaardeerd (er wordt uitgegaan van de hypothese dat deze 1.000 nog niet werd belast).
 
-| B | 
+| B|
 |---|
-| Activa | | 3.000 | | Kapitaal | | 3.000 | 
-| | | 3.000 | | | | 3.000 | 
+| Activa| 3.000| Kapitaal| 3.000|
+| | 3.000| | 3.000|
 
 De verwerking van deze verrichting volgens het boekhoudkundig continuïteitsprincipe kan op twee manieren gebeuren. 
 
@@ -142,20 +126,20 @@ en bij B:
 
 Na de inbreng zien A en B er dan als volgt uit :
 
-| A[^2] | 
+| A[^2] |
 |---|
-| Participatie B | | 8.000 | | Kapitaal | | 3.000 | 
-| | | | | Belastingvrije reserves | | 1.000 | 
-| | | | | Beschikbare reserves | | 4.000 | 
-| | | | | | | | 
-| | | 8.000 | | | | 8.000 | 
+| Participatie B| 8.000| Kapitaal| 3.000|
+| | | Belastingvrije reserves| 1.000|
+| | | Beschikbare reserves| 4.000|
+| | | | |
+| | 8.000| | 8.000|
 
-| B[^3] | 
+| B[^3] |
 |---|
-| Activa (3.000 + 9.000) | | 12.000 | | Kapitaal (3.000 + 7.000) | | 10.000 | 
-| Activum 1 (0 + 1.000) | | 1.000 | | Herwaarderingsmeerwaarde (0 + 1.000) | | 1.000 | 
-| | | | | Schulden (0 + 2.000) | | 2.000 | 
-| | | 13.000 | | | | 13.000 | 
+| Activa (3.000 + 9.000)| 12.000| Kapitaal (3.000 + 7.000)| 10.000|
+| Activum 1 (0 + 1.000)| 1.000| Herwaarderingsmeerwaarde (0 + 1.000)| 1.000|
+| | | Schulden (0 + 2.000)| 2.000|
+| | 13.000| | 13.000|
 - *Tweede benadering: de herwaarderingsmeerwaarde wordt niet uitgeboekt* 
 
 In deze benadering blijft de herwaarderingsmeerwaarde behouden bij de inbrengende vennootschap niettegenstaande het geherwaardeerde activum zich niet langer in het vermogen van de inbrengende vennootschap bevindt. Deze herwaarderingsmeerwaarde wordt nu als het ware geacht een herwaarderingsmeerwaarde te zijn op de in ruil voor de inbreng ontvangen participatie. Bij vennootschap B die het geherwaardeerde activum naar aanleiding van de inbreng verkrijgt, wordt op het passief van de balans geen herwaarderingsmeerwaarde tot uitdrukking gebracht.
@@ -180,18 +164,18 @@ en bij B:
 
 Na de inbreng zien A en B er dan als volgt uit:
 
-| A[^4] | 
+| A[^4] |
 |---|
-| Participatie B | | 8.000 | | Kapitaal | | 3.000 | 
-| | | | | Herwaarderingsmeerwaarde | | 1.000 | 
-| | | | | Beschikbare reserves | | 4.000 | 
-| | | 8.000 | | | | 8.000 | 
+| Participatie B| 8.000| Kapitaal| 3.000|
+| | | Herwaarderingsmeerwaarde| 1.000|
+| | | Beschikbare reserves| 4.000|
+| | 8.000| | 8.000|
 
-| B[^5] | 
+| B[^5] |
 |---|
-| Activa (3.000 + 9.000) | | 12.000 | | Kapitaal (3.000 + 8.000) | | 11.000 | 
-| Activum 1 (0 + 1.000) | | 1.000 | | Schulden (0 + 2.000) | | 2.000 | 
-| | | 13.000 | | | | 13.000 | 
+| Activa (3.000 + 9.000)| 12.000| Kapitaal (3.000 + 8.000)| 11.000|
+| Activum 1 (0 + 1.000)| 1.000| Schulden (0 + 2.000)| 2.000|
+| | 13.000| | 13.000|
 
 De Commissie voor Boekhoudkundige Normen is van mening dat de eerste benadering de voorkeur geniet aangezien de tweede benadering minder transparant is inzonderheid ten aanzien van de verkrijgende vennootschap.
 
@@ -214,20 +198,20 @@ Onderstel dat vennootschap A voorheen een gespreid te belasten meerwaarde van 1.
 
 Teneinde te voldoen aan de fiscale onaantastbaarheidsvoorwaarde werd de gerealiseerde meerwaarde overgeboekt ten belope van 660 onder de post belastingvrije reserves en voor 340 onder de post uitgestelde belastingen.
 
-| A | 
+| A|
 |---|
-| Activa | | 9.000 | | Kapitaal | | 4.000 | 
-| Activum 1 | | 1.000 | | Belastingvrije reserves | | 660 | 
-| | | | | Beschikbare reserves | | 5.000 | 
-| | | | | Uitgestelde belastingen | | 340 | 
-| | | 10.000 | | | | 10.000 | 
+| Activa| 9.000| Kapitaal| 4.000|
+| Activum 1| 1.000| Belastingvrije reserves| 660|
+| | | Beschikbare reserves| 5.000|
+| | | Uitgestelde belastingen| 340|
+| | 10.000| | 10.000|
 
 Vennootschap A brengt haar algemeenheid van goederen in, in een bestaande vennootschap B. Er wordt uitgegaan van de hypothese dat de verrichting belastingneutraal verloopt
 
-| B (vóór inbreng) | 
+| B (vóór inbreng)|
 |---|
-| Activa | | 3.000 | | Kapitaal | | 3.000 | 
-| | | 3.000 | | | | 3.000 | 
+| Activa| 3.000| Kapitaal| 3.000|
+| | 3.000| | 3.000|
 
 Bij A wordt geboekt:
 
@@ -252,21 +236,21 @@ en bij B:
 
 Na de inbreng zien A en B er dan als volgt uit:
 
-| A[^6] | 
+| A[^6] |
 |---|
-| Participatie B | | 9.660 | | Kapitaal | | 4.000 | 
-| | | | | Beschikbare reserves | | 5.000 | 
-| | | | | Overgedragen resultaat | | 660 | 
-| | | | | | | | 
-| | | 9.660 | | | | 9.660 | 
+| Participatie B| 9.660| Kapitaal| 4.000|
+| | | Beschikbare reserves| 5.000|
+| | | Overgedragen resultaat| 660|
+| | | | |
+| | 9.660| | 9.660|
 
-| B[^7] | 
+| B[^7] |
 |---|
-| Activa (3.000 + 9 .000) | | 12.000 | | Kapitaal (3.000 + 9.000) | | 12.000 | 
-| Activum 1 (0 + 1.000) | | 1.000 | | Belastingvrije reserves (0 + 660) | | 660 | 
-| | | | | Uitgestelde belastingen (0 + 340) | | 340 | 
-| | | | | | | | 
-| | | 13.000 | | | | 13.000 |
+| Activa (3.000 + 9 .000)| 12.000| Kapitaal (3.000 + 9.000)| 12.000|
+| Activum 1 (0 + 1.000)| 1.000| Belastingvrije reserves (0 + 660)| 660|
+| | | Uitgestelde belastingen (0 + 340)| 340|
+| | | | |
+| | 13.000| | 13.000|
 
 [^1]: De termen bedrijfstak (artikel 680 W.Venn.) en bedrijfsafdeling (artikelen 81 en 41, §1, tweede lid, in fine KB/W.Venn.) moeten als synoniem worden beschouwd.
 

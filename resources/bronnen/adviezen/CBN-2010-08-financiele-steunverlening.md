@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/financiele-steunverlening
 datum: 2010-06-16
 nummer: CBN-advies 2010/8
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/financiele-steunverlening
-      sha256: 98c92f3867505770312107fa899f81320ce9a695177f32151e75e09f3caa7d6a
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 2
-      max_section_chars: 6073
-      file_size_chars: 8522
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen extractie-artefacten. Twee ## secties correct opgemaakt, journaalpost-tabellen in pipe-syntax aanwezig en compleet, voetnoten [^1]–[^10] volledig gedefinieerd. Inhoud sluit logisch af. Geen invisible unicode, geen HTML-entities, geen broken tables.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: trusted
-    rationale: 'Geen extractie-artefacten. Twee ## secties correct opgemaakt, journaalpost-tabellen in pipe-syntax aanwezig en compleet, voetnoten [^1]–[^10] volledig gedefinieerd. Inhoud sluit logisch af. Geen invisible unicode, geen HTML-entities, geen broken tables.'
-    status: trusted
 themas:
   - financiële bijstand
   - financiële steunverlening
@@ -42,8 +10,32 @@ themas:
   - onbeschikbare reserve
   - uitkeerbare winst
   - zekerheid
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/financiele-steunverlening
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:55Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2010/8 - Financiële steunverlening Advies van 16 juni 2010
 
 In overeenstemming met artikel 23 van de gewijzigde Tweede Vennootschapsrichtlijn[^1] bepaalt het Wetboek van Vennootschappen dat het vanaf 1 januari 2009 een vennootschap is toegestaan om middelen voor te schieten, leningen toe te staan of zekerheden te stellen met het oog op de verkrijging van haar effecten door een derde[^2]. 
@@ -57,8 +49,7 @@ Indien de vennootschap voor de verkrijging van eigen effecten door een derde fin
 
 De vorming van de onbeschikbare reserve dient slechts via de resultaatverwerking te gebeuren wanneer het overgedragen resultaat of het resultaat van het boekjaar daartoe wordt aangewend[^8]. De overboeking van de ene reserve naar de andere reserve mag rechtstreeks gebeuren.
 
-*Boekingen bij de terbeschikkingstelling van financiële middelen*
-
+## Boekingen bij de terbeschikkingstelling van financiële middelen
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 291 | Overige vorderingen | X | |

@@ -15,42 +15,6 @@ gerelateerde_adviezen:
     titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
 nummer: CBN-advies 2022/14
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
-      sha256: d41d0979eb9bc4640e7cd0c24f7f7ece0dd843e247c441092e9df3d00ae43a7b
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: warn
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 23
-      max_section_chars: 26807
-      file_size_chars: 56492
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ####-niveau: 26807 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 27 headings en 73 voetnoten. De langste sectie bevat drie samenvattende tabellen (België, EU, buiten EU) met complexe cel-inhoud als Markdown pipe-tabellen. Informatie volledig aanwezig.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - bijkantoor
   - publicatieplicht
@@ -64,8 +28,32 @@ themas:
   - jaarverslag
   - verslag van de commissaris
   - commissarisverslag
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:49Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2022/14 - Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)
 
 ## Inleiding
@@ -150,104 +138,29 @@ Om de publicatieverplichtingen opgelegd aan de buitenlandse vennootschappen die 
 3. tussen vennootschappen die ressorteren onder het recht van een andere Lidstaat van de Europese Unie[^35] (Europese vennootschappen) en vennootschappen die ressorteren onder het recht van een andere Staat dan een Lidstaat van de Europese Unie (niet-Europese vennootschappen). 
 
 Samenvattende tabellen van de publicatieverplichtingen van Belgische vennootschappen en van buitenlandse vennootschappen met een Belgisch bijkantoor
-| Staat van herkomst | | België | 
-|---|---|---|
-| Rechtsvorm | | NV, BV, CV | | VOF, CommV | 
-| Neerlegging van de jaarrekening, het jaarverslag, verslag van de commissaris | | “Grote” vennootschappen 
+| Staat van herkomst| België|
+|---|---|
+| Rechtsvorm| NV, BV, CV| VOF, CommV|
+| Neerlegging van de jaarrekening, het jaarverslag, verslag van de commissaris| “Grote” vennootschappen Onderworpen Volledig schema (art. 3:10 WVV)| Kleine niet-genoteerde vennootschappen[^36] Onderworpen Verkort schema (art. 3:11 WVV)| Microvennootschappen[^37] Onderworpen Microschema (art. 3:11 WVV)| Niet onderworpen* * behalve indien niet klein en indien alle of een deel van hun onbeperkt aansprakelijke vennoten geen natuurlijke personen zijn (art. 3:9 WVV)|
+| Neerlegging van de geconsolideerde jaarrekening, het geconsolideerde jaarverslag, verslag van de commissaris| Onderworpen[^38] tenzij van te verwaarlozen betekenis (art. 3:23 WVV), groep van beperkte omvang (art. 3:25 WVV) of vrijstelling van subconsolidatie (art. 3:26 WVV)|
+| Consolidatie in geval van een consortium (art. 3:24 WVV)|
+| Neerlegging sociale balans[^39] | Onderworpen (artikel 3:12, 8° WVV)| Niet onderworpen behalve indien niet klein *en* indien alle of een deel van hun onbeperkt aansprakelijke vennoten geen natuurlijke personen zijn (artikel 44 van de wet van 22.12.1995)[^40] |
 
-Onderworpen 
+| Staat van herkomst| EU|
+|---|---|
+| Rechtsvorm| Rechtsvorm vergelijkbaar met NV, BV, CV| Rechtsvorm vergelijkbaar met VOF, CommV|
+| Neerlegging van de jaarrekening, het jaarverslag, verslag van de commissaris| Grote vennootschappen Onderworpen tenzij vrijstellingen (art. 37 en 39 accounting-richtlijn)| Kleine en middelgrote ondernemingen Onderworpen tenzij vrijstellingen (art. 31, 37 en 39 accounting-richtlijn)| Microvennootschappen Onderworpen tenzij vrijstellingen (art. 36, 37 en 39 accounting-richtlijn)| Niet onderworpen* * behalve indien niet klein[^41] en indien alle directe of indirecte vennoten die onbeperkt aansprakelijk zijn, vennootschappen met beperkte aansprakelijkheid zijn (maar vrijstellingen art. 30, § 2, 31, 36, 37, 38 en 39 van de accountingrichtlijn)|
+| Neerlegging van de geconsolideerde jaarrekening, het geconsolideerde jaarverslag, verslag van de commissaris| Onderworpen indien verplicht te publiceren in de Lidstaat van herkomst tenzij vrijstelling van subconsolidatie: op een hoger niveau opgestelde geconsolideerde jaarrekening, geconsolideerd jaarverslag en verslag van de commissaris die moeten worden neergelegd (art. 23 accountingrichtlijn)| Niet onderworpen* * behalve indien alle directe of indirecte vennoten die onbeperkt aansprakelijk zijn, vennootschappen met beperkte aansprakelijkheid zijn *en* indien Lidstaat van herkomst publicatieplicht voorziet|
+| Indien geen consolidatie voor consortium in Lidstaat van herkomst: geen geconsolideerde jaarrekening neer te leggen|
+| Neerlegging sociale balans| Onderworpen (artikel 18, eerste lid van het KB van 04.08.1996[^42] )| Niet onderworpen behalve indien niet klein *en* indien alle of een deel van hun onbeperkt aansprakelijke vennoten geen natuurlijke personen zijn[^43] (artikel 18, vierde lid van het KB van 04.08.1996 en artikel 44 van de wet van 22.12.1995)|
 
-			Volledig schema 
-
-			(art. 3:10 WVV) | | Kleine niet-genoteerde vennootschappen[^36] 
-
-Onderworpen 
-
-			Verkort schema 
-
-			(art. 3:11 WVV) | | Microvennootschappen[^37] 
-
-Onderworpen 
-
-			Microschema 
-
-			(art. 3:11 WVV) | | Niet onderworpen* * 
-
-behalve indien niet klein en indien alle of een deel van hun onbeperkt aansprakelijke vennoten geen natuurlijke personen zijn 
-
-			(art. 3:9 WVV) | 
-| Neerlegging van de geconsolideerde jaarrekening, het geconsolideerde jaarverslag, verslag van de commissaris | | Onderworpen[^38] 
-
-tenzij van te verwaarlozen betekenis (art. 3:23 WVV), groep van beperkte omvang (art. 3:25 WVV) of vrijstelling van subconsolidatie (art. 3:26 WVV) | 
-| Consolidatie in geval van een consortium (art. 3:24 WVV) | 
-|---|
-| Neerlegging sociale balans[^39] | | Onderworpen 
-
-			(artikel 3:12, 8° WVV) | | Niet onderworpen 
-
-behalve indien niet klein *en* indien alle of een deel van hun onbeperkt aansprakelijke vennoten geen natuurlijke personen zijn 
-
-			(artikel 44 van de wet van 22.12.1995)[^40] | 
-
-| Staat van herkomst | | EU | 
-|---|---|---|
-| Rechtsvorm | | Rechtsvorm vergelijkbaar met NV, BV, CV | | Rechtsvorm vergelijkbaar met VOF, CommV | 
-| Neerlegging van de jaarrekening, het jaarverslag, verslag van de commissaris | | Grote vennootschappen 
-
-Onderworpen 
-
-tenzij vrijstellingen (art. 37 en 39 accounting-richtlijn) | | Kleine en middelgrote ondernemingen 
-
-Onderworpen 
-
-tenzij vrijstellingen (art. 31, 37 en 39 accounting-richtlijn) | | Microvennootschappen 
-
-Onderworpen 
-
-tenzij vrijstellingen 
-
-			(art. 36, 37 en 39 accounting-richtlijn) | | Niet onderworpen* * 
-
-behalve indien niet klein[^41] en indien alle directe of indirecte vennoten die onbeperkt aansprakelijk zijn, vennootschappen met beperkte aansprakelijkheid zijn (maar vrijstellingen art. 30, § 2, 31, 36, 37, 38 en 39 van de accountingrichtlijn) | 
-| Neerlegging van de geconsolideerde jaarrekening, het geconsolideerde jaarverslag, verslag van de commissaris | | Onderworpen 
-
-indien verplicht te publiceren in de Lidstaat van herkomst 
-
-tenzij vrijstelling van subconsolidatie: op een hoger niveau opgestelde geconsolideerde jaarrekening, geconsolideerd jaarverslag en verslag van de commissaris die moeten worden neergelegd (art. 23 accountingrichtlijn) | | Niet onderworpen* * 
-
-behalve indien alle directe of indirecte vennoten die onbeperkt aansprakelijk zijn, vennootschappen met beperkte aansprakelijkheid zijn *en* indien Lidstaat van herkomst publicatieplicht voorziet | 
-| Indien geen consolidatie voor consortium in Lidstaat van herkomst: geen geconsolideerde jaarrekening neer te leggen | 
-|---|
-| Neerlegging sociale balans | | Onderworpen 
-
-			(artikel 18, eerste lid van het KB van 04.08.1996[^42]) | | Niet onderworpen 
-
-behalve indien niet klein *en* indien alle of een deel van hun onbeperkt aansprakelijke vennoten geen natuurlijke personen zijn[^43] 
-
-			(artikel 18, vierde lid van het KB van 04.08.1996 en artikel 44 van de wet van 22.12.1995) | 
-
-| Staat van herkomst | | Buiten EU | 
-|---|---|---|
-| Rechtsvorm | | Rechtsvorm vergelijkbaar met NV, BV, CV | | Rechtsvorm vergelijkbaar met VOF, CommV | 
-| Neerlegging van de jaarrekening, het jaarverslag, verslag van de commissaris | | Onderworpen 
-
-tenzij vrijstellingen analoog aan de accountingrichtlijn | | Niet onderworpen* * 
-
-behalve indien niet klein[^44] *en* indien alle directe of indirecte vennoten die onbeperkt aansprakelijk zijn, vennootschappen met beperkte aansprakelijkheid zijn (*maar* vrijstellingen analoog aan de accountingrichtlijn) | 
-| Neerlegging van de geconsolideerde jaarrekening, het geconsolideerde jaarverslag, verslag van de commissaris | | Onderworpen 
-
-indien ze dochterondernemingen controleren en voldoen aan de groottecriteria van de accountingrichtlijn | | Niet onderworpen* * 
-
-behalve indien (1) ze dochterondernemingen controleren en voldoen aan de groottecriteria van de accountingrichtlijn, (2) alle directe of indirecte vennoten die onbeperkt aansprakelijk zijn, vennootschappen met beperkte aansprakelijkheid zijn *en* (3) Staat van herkomst publicatieplicht voorziet | 
-| Indien geen consolidatie voor consortium in Staat van herkomst: geen geconsolideerde jaarrekening neer te leggen | 
-|---|
-| Neerlegging sociale balans | | Onderworpen 
-
-			(artikel 18, eerste lid van het KB van 04.08.1996) | | Niet onderworpen 
-
-behalve indien niet klein *en* indien alle of een deel van hun onbeperkt aansprakelijke vennoten geen natuurlijke personen zijn[^45] 
-
-			(artikel 18, vierde lid van het KB van 04.08.1996 en artikel 44 van de wet van 22.12.1995) | 
+| Staat van herkomst| Buiten EU|
+|---|---|
+| Rechtsvorm| Rechtsvorm vergelijkbaar met NV, BV, CV| Rechtsvorm vergelijkbaar met VOF, CommV|
+| Neerlegging van de jaarrekening, het jaarverslag, verslag van de commissaris| Onderworpen tenzij vrijstellingen analoog aan de accountingrichtlijn| Niet onderworpen* * behalve indien niet klein[^44] *en* indien alle directe of indirecte vennoten die onbeperkt aansprakelijk zijn, vennootschappen met beperkte aansprakelijkheid zijn (*maar* vrijstellingen analoog aan de accountingrichtlijn)|
+| Neerlegging van de geconsolideerde jaarrekening, het geconsolideerde jaarverslag, verslag van de commissaris| Onderworpen indien ze dochterondernemingen controleren en voldoen aan de groottecriteria van de accountingrichtlijn| Niet onderworpen* * behalve indien (1) ze dochterondernemingen controleren en voldoen aan de groottecriteria van de accountingrichtlijn, (2) alle directe of indirecte vennoten die onbeperkt aansprakelijk zijn, vennootschappen met beperkte aansprakelijkheid zijn *en* (3) Staat van herkomst publicatieplicht voorziet|
+| Indien geen consolidatie voor consortium in Staat van herkomst: geen geconsolideerde jaarrekening neer te leggen|
+| Neerlegging sociale balans| Onderworpen (artikel 18, eerste lid van het KB van 04.08.1996)| Niet onderworpen behalve indien niet klein *en* indien alle of een deel van hun onbeperkt aansprakelijke vennoten geen natuurlijke personen zijn[^45] (artikel 18, vierde lid van het KB van 04.08.1996 en artikel 44 van de wet van 22.12.1995)|
 
 Toelichting bij de samenvattende tabellen: verplichte openbaarmaking van de (statutaire) jaarrekening
 #### Vennootschappen die, gelet op hun rechtsvorm, wettelijk verplicht zijn hun jaarrekening zowel in België als in hun Staat van herkomst openbaar te maken

@@ -2,58 +2,38 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
 datum: 2021-07-12
 nummer: CBN-advies 2021/12
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
-      sha256: 3feb5c08df659031ce4ad5a7979f068cea92f3e4bb5854713c6db51fef10d85b
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:31Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 6
-      max_section_chars: 6994
-      file_size_chars: 17532
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 74
-          type: other
-          voorbeeld: '*Wet van 19 november 2020 houdende de invoering van een wederopbouwreserve voor vennootschappen[^2]*  '
-        - categorie: D4
-          regel: 88
-          type: other
-          voorbeeld: '*Bezoldigingen en rechtstreekse sociale voordelen[^15]*  een bedrag is opgenomen'
-        - categorie: D4
-          regel: 156
-          type: other
-          voorbeeld: overboeking op rekening* 1109 Andere beschikbare inbreng buiten kapitaal*
-      rationale: 'D4: drie italic-spans met spatie-artefacten door voetnootankers in de body: L74 sluit af met twee trailing spaces na de asterisk, L88 heeft hetzelfde patroon, L156 produceert ''rekening* 1109 Andere beschikbare inbreng buiten kapitaal*'' met een losstaande asterisk voor ''1109'' — consistent extractie-artefact, geen source-typo. Laag-1-flags leeg, inhoud verder volledig met 24 voetnoten en correcte tabellen.'
-      run_at: '2026-05-11T17:13:31Z'
-      status: needs-rework
-    rationale: 'D4: drie italic-spans met spatie-artefacten door voetnootankers in de body: L74 sluit af met twee trailing spaces na de asterisk, L88 heeft hetzelfde patroon, L156 produceert ''rekening* 1109 Andere beschikbare inbreng buiten kapitaal*'' met een losstaande asterisk voor ''1109'' — consistent extractie-artefact, geen source-typo. Laag-1-flags leeg, inhoud verder volledig met 24 voetnoten en correcte tabellen.'
-    status: needs-rework
 themas:
   - wederopbouwreserve
   - COVID-19
   - vrijgestelde reserves
   - Onaantastbaarheidsvoorwaarde
   - belastingvrije reserves
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudrechtelijke-verwerking-van-de-wederopbouwreserve
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:42Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2021/12 – Boekhoudrechtelijke verwerking van de wederopbouwreserve
 
 ## Inleiding

@@ -12,52 +12,36 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
 nummer: CBN-advies 2012/18
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenopties-als-zodanig
-      sha256: fc78f1e6b4713cd70bf6ff7237844f6824545cbb67521c65005f9e111f846db1
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 32
-      max_section_chars: 19856
-      file_size_chars: 39013
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 113
-          type: other
-          voorbeeld: (de optie is dan "in the money", *cfr*.* infra*)
-        - categorie: B5
-          regel: 123
-          type: other
-          voorbeeld: Onderliggende doelstellingen van optiecontracten.\nVerschillende strategieën kunnen aan de basis liggen
-      rationale: 'D4: regel 113 bevat ''de optie is dan "in the money", *cfr*.* infra*'' waarbij een stray italic-asterisk de tekst vermangelt — het sluit-asterisk van ''*cfr*'' staat vóór de punt, waarna een nieuw italic-blok ''* infra*'' opent met een spatie na het asterisk. B5: regel 123 ''Onderliggende doelstellingen van optiecontracten.'' staat als plain-text alinea-opener terwijl het duidelijk een nieuw subsectie-thema introduceert.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'D4: regel 113 bevat ''de optie is dan "in the money", *cfr*.* infra*'' waarbij een stray italic-asterisk de tekst vermangelt — het sluit-asterisk van ''*cfr*'' staat vóór de punt, waarna een nieuw italic-blok ''* infra*'' opent met een spatie na het asterisk. B5: regel 123 ''Onderliggende doelstellingen van optiecontracten.'' staat als plain-text alinea-opener terwijl het duidelijk een nieuw subsectie-thema introduceert.'
-    status: needs-rework
 themas:
   - aandelenopties
   - call-optie
   - put-optie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-aandelenopties-als-zodanig
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:08Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN advies 2012/18 – De boekhoudkundige verwerking van aandelenopties (als zodanig)
 
 ## Inleiding

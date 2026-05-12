@@ -15,54 +15,38 @@ gerelateerde_adviezen:
     titel: 'Consolidatiekring: interpretatie van de uitsluitingsgrond van  artikel 107, 4° KB W.Venn.'
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatiekring-interpretatie-van-de-uitsluitingsgrond-van-artikel-107-4deg-kb-wvenn
 nummer: CBN-advies 2016/17
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
-      sha256: 72e8ba1e43c6167b2d3a6758e6876c39c537df510ed6b9bd77f5f8351ef3cd4a
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:39Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 4
-      max_section_chars: 4525
-      file_size_chars: 9783
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B5
-          regel: 90
-          type: other
-          voorbeeld: 'Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen (plain text zonder ## prefix)'
-        - categorie: D4
-          regel: 91
-          type: other
-          voorbeeld: post* Andere uitgaven* (spatie vóór openende asterisk — malformed italic)
-      rationale: 'B5: regel 90 `Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen` staat als plain-text-paragraaf zonder `##` of `###` prefix — structuurlabel dat een heading hoort te zijn gezien de parallelstructuur met de heading op regel 79. D4: regel 91 `post* Andere uitgaven*` bevat spatie vóór openende `*` waardoor italic malformed is.'
-      run_at: '2026-05-11T17:09:39Z'
-      status: needs-rework
-    rationale: 'B5: regel 90 `Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen` staat als plain-text-paragraaf zonder `##` of `###` prefix — structuurlabel dat een heading hoort te zijn gezien de parallelstructuur met de heading op regel 79. D4: regel 91 `post* Andere uitgaven*` bevat spatie vóór openende `*` waardoor italic malformed is.'
-    status: needs-rework
 themas:
   - aandelen
   - certificatie
   - certificering
   - gecertificeerde aandelen
   - economische eigendom
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-certificatie-van-aandelen-van-handelsvennootschappen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:19Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/17 – Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen
 
 ## Inleiding

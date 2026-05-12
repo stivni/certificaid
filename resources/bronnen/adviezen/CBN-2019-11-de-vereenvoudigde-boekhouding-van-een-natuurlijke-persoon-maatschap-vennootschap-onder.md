@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Model van ongesplitst dagboek zoals bedoeld in artikel 2 van het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde VZW’s, stichtingen en IVZW’s
     url: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
 nummer: CBN-advies 2019/11
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
-      sha256: 3c04ef6d99ed0ab7b0f356366bbe3e31bd0434fcdcddeef4b7e86c115df5f0cc
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 14
-      max_section_chars: 9521
-      file_size_chars: 13785
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen zichtbare extractie-artefacten. Heading-hiërarchie correct (# → ## → ### → ####), alle voetnoten gedefinieerd en aanwezig, inhoud compleet van inleiding tot publicatieverplichting. Laag-1 pass bevestigd.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: trusted
-    rationale: 'Geen zichtbare extractie-artefacten. Heading-hiërarchie correct (# → ## → ### → ####), alle voetnoten gedefinieerd en aanwezig, inhoud compleet van inleiding tot publicatieverplichting. Laag-1 pass bevestigd.'
-    status: trusted
 themas:
   - vereenvoudigde boekhouding
   - omzet
@@ -62,8 +30,32 @@ themas:
   - VOF
   - CommV
   - niet-recurrente ontvangsten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:35Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2019/11 – De vereenvoudigde boekhouding van een natuurlijke persoon, maatschap, vennootschap onder firma en commanditaire vennootschap: groottecriteria – omzetdefinitie
 
 ## Algemeen

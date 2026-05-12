@@ -12,50 +12,6 @@ gerelateerde_adviezen:
     titel: Berekening criteria artikel 15 W.Venn.
     url: https://www.cbn-cnc.be/nl/adviezen/berekening-criteria-artikel-15-wvenn
 nummer: CBN-advies 2018/08
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
-      sha256: 74a69f07fac32c70f0adfdc99ef68a659721a0189c87dfc139b990f3ab6fae9f
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 4
-      max_section_chars: 8552
-      file_size_chars: 21543
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: C2
-          regel: 108
-          type: other
-          voorbeeld: "1. \n\nHet bepalen, ten gevolge van een gebeurtenis na afsluitingsdatum..."
-        - categorie: C2
-          regel: 121
-          type: other
-          voorbeeld: "2. \n\nDe minnelijke schikking voor een geschil..."
-        - categorie: E2
-          regel: 167
-          type: pseudo-table
-          voorbeeld: "| \n\n*Voorbeeld*\n\n  |"
-      rationale: 'C2/A6: de genummerde opsomming (punten 1-8, regels 108-145) is niet als markdown-lijst opgemaakt — elk item staat als een getal gevolgd door lege regel en tekst met tab-inspringing, wat geen standaard markdown-lijst is (zou ''1. tekst'' moeten zijn). E2: voorbeeld-blok op regels 167-177 bevat het ''| \n\n*Voorbeeld*\n\n  |'' scraper-artefact.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'C2/A6: de genummerde opsomming (punten 1-8, regels 108-145) is niet als markdown-lijst opgemaakt — elk item staat als een getal gevolgd door lege regel en tekst met tab-inspringing, wat geen standaard markdown-lijst is (zou ''1. tekst'' moeten zijn). E2: voorbeeld-blok op regels 167-177 bevat het ''| \n\n*Voorbeeld*\n\n  |'' scraper-artefact.'
-    status: needs-rework
 themas:
   - balansdatum
   - afsluitdatum
@@ -65,8 +21,32 @@ themas:
   - gebeurtenissen na balansdatum
   - gebeurtenissen na afsluitdatum
   - gebeurtenissen na afsluitingsdatum
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:29Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/08 – Gebeurtenissen na afsluitingsdatum van het boekjaar
 
 ## Inleiding
@@ -170,7 +150,7 @@ Indien het bestuursorgaan op 15 april 20X1 te weten komt dat de vennootschap ern
 
 Als het bestuursorgaan daarentegen op 14 mei 20X1 verneemt dat de vennootschap dergelijke schade heeft veroorzaakt, verkeert het in de onmogelijkheid om de jaarrekening opnieuw vast te stellen. Het bestuursorgaan moet in dit geval de betrokken gebeurtenis mondeling toelichten tijdens de algemene vergadering en kan desgevallend de beslissing van de algemene vergadering met betrekking tot de goedkeuring van de jaarrekening met drie weken uitstellen, opdat een volgende algemene vergadering de jaarrekening definitief zou goedkeuren.
 
-  | 
+ |
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 23 februari 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

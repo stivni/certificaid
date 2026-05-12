@@ -12,50 +12,34 @@ gerelateerde_adviezen:
     titel: Vermeldingen in het centralisatieboek
     url: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
 nummer: CBN-advies 4/3
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
-      sha256: c64abd6195b7a76fb1fdc7ef22baf5c9d72a8d45088cae8d7bbe79d1f6bffced
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:51:19Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 1
-      max_section_chars: 2602
-      file_size_chars: 2602
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D1
-          regel: 55
-          type: other
-          voorbeeld: en het verichten van een samenvattende boeking
-        - categorie: D1
-          regel: 57
-          type: other
-          voorbeeld: de onuitwisbaarheid van de boekingen niet reed wordt gewaarborgd
-      rationale: Geen U+2010-dashes, geen HTML-entities, geen duplicate headings. Kleine typefouten ('verichten' r55, 'reed' r57) zijn aanwezig in de brontekst en niet ETL-geïnduceerd; ze zijn consistent met de historische taal van het advies (1981). Inhoud volledig, geen afgekapte zinnen, geen structuurproblemen.
-      run_at: '2026-05-11T11:51:19Z'
-      status: trusted
-    rationale: Geen U+2010-dashes, geen HTML-entities, geen duplicate headings. Kleine typefouten ('verichten' r55, 'reed' r57) zijn aanwezig in de brontekst en niet ETL-geïnduceerd; ze zijn consistent met de historische taal van het advies (1981). Inhoud volledig, geen afgekapte zinnen, geen structuurproblemen.
-    status: trusted
 themas:
   - boeken
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:46:59Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 4-3 - Over het centraal boek
 
 ## Dit advies is verouderd als gevolg van publicatie van de wet van 1 juli 1983 (B.S. 8 juli 1983) en het koninklijk besluit van 25 januari 2005 (B.S. 7 februari 2005)

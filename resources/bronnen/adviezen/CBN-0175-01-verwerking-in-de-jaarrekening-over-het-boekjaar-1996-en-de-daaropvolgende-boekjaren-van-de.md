@@ -15,50 +15,6 @@ gerelateerde_adviezen:
     titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
     url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
 nummer: CBN-advies 175/1
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
-      sha256: ac39eb27c4481b2805ab1d3e8ee1db6cc109c61d1e30539a1c11d288f497f387
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 7
-      max_section_chars: 9234
-      file_size_chars: 18046
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: C1
-          regel: 102
-          type: bullet-glyph
-          voorbeeld: • In het PBEG van 6 augustus 1996 staat een mededeling...
-        - categorie: A6
-          regel: 105
-          type: other
-          voorbeeld: "- \n\nde Belgische Staat is de voornoemde verplichtingen inzake..."
-        - categorie: C1
-          regel: 117
-          type: bullet-glyph
-          voorbeeld: • In haar beschikking van 4 december 1996 kondigt de Europese Commissie aan...
-      rationale: 'C1 bevestigd r.102 en r.117: ''•'' bullet-glyphs (PDF-iconen) in plaats van markdown ''-''. A6 bevestigd r.105-116: bullets beginnen met ''- '' gevolgd door een lege regel (''- \n\nde Belgische Staat is de voornoemde...'') waardoor bulletinhoud is losgekoppeld van het bullet-teken — zichtbare regelbreukpatroon in lijstcontext. Twee afzonderlijke categorieën met duidelijke artefacten. Overige structuur en zes voetnoten correct.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'C1 bevestigd r.102 en r.117: ''•'' bullet-glyphs (PDF-iconen) in plaats van markdown ''-''. A6 bevestigd r.105-116: bullets beginnen met ''- '' gevolgd door een lege regel (''- \n\nde Belgische Staat is de voornoemde...'') waardoor bulletinhoud is losgekoppeld van het bullet-teken — zichtbare regelbreukpatroon in lijstcontext. Twee afzonderlijke categorieën met duidelijke artefacten. Overige structuur en zes voetnoten correct.'
-    status: needs-rework
 themas:
   - toelichting
   - voorziening
@@ -67,8 +23,32 @@ themas:
   - minnelijk akkoord
   - steunmaatregel van de lidstaten
   - lastenverlaging
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-over-het-boekjaar-1996-en-de-daaropvolgende-boekjaren-van-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:49Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 175/1 - Verwerking in de jaarrekening over het boekjaar 1996 en de daaropvolgende boekjaren, van de «Maribel bis en ter»-steun toegekend voor de boekjaren 1993, 1994, 1995 en 1996
 
 De Commissie is om advies gevraagd over een aantal aspecten in verband met de boekhoudkundige verwerking van de «Maribel bis en ter»-steun die werd toegekend voor de boekjaren 1994, 1995 en 1996 en waarover in 1996 en 1997 beslissingen zijn genomen door de Europese Commissie, enerzijds, en de Belgische Federale Regering, anderzijds. 

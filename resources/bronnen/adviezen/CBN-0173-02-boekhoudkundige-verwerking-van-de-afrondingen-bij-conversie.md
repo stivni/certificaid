@@ -15,45 +15,37 @@ gerelateerde_adviezen:
     titel: Afronding van de bedragen in de jaarrekeningen die in euro of in duizenden euro zijn opgesteld
     url: https://www.cbn-cnc.be/nl/adviezen/afronding-van-de-bedragen-in-de-jaarrekeningen-die-in-euro-of-in-duizenden-euro-zijn
 nummer: CBN-advies 173/2
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
-      sha256: 28016f3fc0c35028cd22dc3bc24fc507ebec22791830fdca82512e66e7639507
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:19:35Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 2054
-      file_size_chars: 2054
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Kort advies (2054 tekens, geen headings want één doorlopende teksteenheid). Eén correcte pipe-tabel, twee voetnoten correct opgemaakt. Geen PDF-artefacten, geen structuurproblemen, geen OCR-issues. Inhoud volledig en consistent met de titel.
-      run_at: '2026-05-11T15:19:35Z'
-      status: trusted
-    rationale: Kort advies (2054 tekens, geen headings want één doorlopende teksteenheid). Eén correcte pipe-tabel, twee voetnoten correct opgemaakt. Geen PDF-artefacten, geen structuurproblemen, geen OCR-issues. Inhoud volledig en consistent met de titel.
-    status: trusted
 themas:
   - afronding
   - afrondingen bij conversie
   - euro
   - overschakeling op de euro
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:48Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 173/2 - Boekhoudkundige verwerking van de afrondingen bij conversie
 
 Bij het Commissariaat-generaal voor de euro is een bijzondere werkgroep opgericht om de problemen te onderzoeken in verband met de verwerking van omrekeningsafrondingen. In de eerste conclusies en aanbevelingen van die werkgroep[^1] wordt onder meer gevraagd dat de Commissie voor Boekhoudkundige Normen zich in een advies zou uitspreken over de boekhoudkundige verwerking van die omrekeningsafrondingen. Daarom heeft de Commissie beslist het advies over de euro[^2] met de onderstaande tekst aan te vullen : 
@@ -68,14 +60,14 @@ Dergelijke verschillen zullen onder meer te wijten zijn aan het feit dat het tot
 
 Bijvoorbeeld (uitgaande van een omrekeningskoers EUR/BEF van 40,2171) : 
 
-| **BEF** | | **EUR**  | 
-|---|---|---|
-| 1.250 | | 31,08 | 
-| 1.300 | | 32,32 | 
-| 500 | | 12,43 | 
-| 600 | | 14,92 | 
-| | | (90,75) | 
-| 3.650 | | 90,76 | 
+| **BEF**|** EUR **|
+|---|---|
+| 1.250| 31,08 |
+| 1.300| 32,32 |
+| 500| 12,43 |
+| 600| 14,92|
+| | (90,75) |
+| 3.650| 90,76 |
 
 Het verdient aanbeveling in het rekeningenstelsel van de onderneming een rekening of subrekening te openen in post 65 of 75 waarin alle verschillen (ongeacht of ze positief dan wel negatief zijn) kunnen worden opgenomen. Naargelang het saldo van die rekening positief of negatief is, wordt dat dan als opbrengst of als kost geboekt in de resultatenrekening.»
 

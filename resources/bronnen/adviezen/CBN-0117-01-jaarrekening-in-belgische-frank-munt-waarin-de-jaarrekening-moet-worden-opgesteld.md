@@ -12,38 +12,6 @@ gerelateerde_adviezen:
     titel: Ondernemingen naar buitenlands recht - Houden en bewaren in België van de boeken, rekeningen en verantwoordingsstukken
     url: https://www.cbn-cnc.be/nl/adviezen/ondernemingen-naar-buitenlands-recht-houden-en-bewaren-in-belgie-van-de-boeken-rekeningen
 nummer: CBN-advies 117/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-in-belgische-frank-munt-waarin-de-jaarrekening-moet-worden-opgesteld
-      sha256: 4fd81b1b5b0fd47b6c758e4a9b3e866e192e9e6bf623fb6cce79b559445cbdfa
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 3068
-      file_size_chars: 3068
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Advies van 3068 chars, drie alinea's + drie voetnoten. Geen extractie-artefacten. Voetnoten [^1]–[^3] correct gekoppeld. Geen italic-problemen, geen broken bullets, geen unicode-anomalieën. Inhoud volledig en coherent.
-      run_at: '2026-05-11T11:57:45Z'
-      status: trusted
-    rationale: Advies van 3068 chars, drie alinea's + drie voetnoten. Geen extractie-artefacten. Voetnoten [^1]–[^3] correct gekoppeld. Geen italic-problemen, geen broken bullets, geen unicode-anomalieën. Inhoud volledig en coherent.
-    status: trusted
 themas:
   - bedrijfszetel
   - buitenlandse onderneming
@@ -54,8 +22,32 @@ themas:
   - opstelling van de jaarrekening in vreemde munt
   - succursaal
   - vreemde munt
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-in-belgische-frank-munt-waarin-de-jaarrekening-moet-worden-opgesteld
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:21Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 117/1 - Jaarrekening in Belgische frank - Munt waarin de jaarrekening moet worden opgesteld
 
 Aan de Commissie werd de vraag gesteld of een vennootschap haar jaarrekening mag opstellen en bekendmaken in een vreemde munt. Een onderscheid moet hierbij gemaakt worden naar gelang het gaat om een Belgische of een buitenlands vennootschap. 

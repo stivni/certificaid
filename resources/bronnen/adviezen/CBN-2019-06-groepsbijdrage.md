@@ -6,57 +6,37 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van de vergoeding voor de groepsbijdrage in hoofde van de overdragende vennootschap bij gebrek aan Belgische belastingen op het resultaat op rekening 4500 (addendum bij advies 2019/06)
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-de-groepsbijdrage-in-hoofde-van-de
 nummer: CBN-advies 2019/06
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
-      sha256: 23705bc5a0cc0c91cfed3d7152f078d8b8915286af9c9a392d809d9d1c9bd7bf
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 12
-      max_section_chars: 4494
-      file_size_chars: 13861
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 64
-          type: other
-          voorbeeld: de *groepsbijdrage*regeling[^2] in de statutaire jaarrekening
-        - categorie: B2
-          regel: 124
-          type: other
-          voorbeeld: '## Bij de eindejaarsverrichtingen op 31/12/N (kind van ### In hoofde van vennootschap B)'
-        - categorie: B2
-          regel: 131
-          type: other
-          voorbeeld: '## Bij het sluiten van de groepsbijdrage-overeenkomst (in boekjaar N+1)'
-      rationale: 'D4: regel 64 heeft `*groepsbijdrage*regeling` — ontbrekende spatie tussen italic-sluit en aangrenzend woord. B2: `## Bij de eindejaarsverrichtingen op 31/12/N` (regels 124, 140) en `## Bij het sluiten van de groepsbijdrage-overeenkomst` (regels 131, 144) staan op ##-niveau terwijl hun logische ouder-heading `### In hoofde van vennootschap B/A` op ###-niveau staat — omgekeerde hiërarchieverhouding.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'D4: regel 64 heeft `*groepsbijdrage*regeling` — ontbrekende spatie tussen italic-sluit en aangrenzend woord. B2: `## Bij de eindejaarsverrichtingen op 31/12/N` (regels 124, 140) en `## Bij het sluiten van de groepsbijdrage-overeenkomst` (regels 131, 144) staan op ##-niveau terwijl hun logische ouder-heading `### In hoofde van vennootschap B/A` op ###-niveau staat — omgekeerde hiërarchieverhouding.'
-    status: needs-rework
 themas:
   - groepsbijdrage
   - fiscale consolidatie
   - winstverschuiving
   - belastingen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/groepsbijdrage
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:34Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
 ## Algemeen

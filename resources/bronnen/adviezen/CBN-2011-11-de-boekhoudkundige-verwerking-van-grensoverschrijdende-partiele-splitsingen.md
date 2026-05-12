@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Aftrek voor innovatie-inkomsten
     url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
 nummer: CBN-advies 2011/11
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-partiele-splitsingen
-      sha256: ae9135f6917773d242aac947508f930823041bbac56ee7ceddfbde13190b8ea3
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 9
-      max_section_chars: 10853
-      file_size_chars: 48378
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Het advies heeft 11 headings en behandelt grensoverschrijdende partiële splitsingen volledig. Juridisch kader correct en verwijst naar CBN-advies 2011/10.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - belastingvrije reserves
   - belgische inrichting
@@ -56,8 +24,32 @@ themas:
   - dotatie
   - grensoverschrijdende partiële splitsing
   - kapitaal
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-grensoverschrijdende-partiele-splitsingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:01Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2011/11 - De boekhoudkundige verwerking van grensoverschrijdende partiële splitsingen
 
 ## INLEIDING
@@ -115,8 +107,7 @@ Naar aanleiding van de partiële splitsing ontstaat een Belgische inrichting van
 
 Er wordt ondersteld dat A een aandeelhouder-vennootschap C heeft die 80 % van de A-aandelen heeft aangeschaft voor een bedrag gelijk aan 7.500.
 
-*In hoofde van A en de Belgische inrichting van B wordt dan als volgt gehandeld*
-
+## In hoofde van A en de Belgische inrichting van B wordt dan als volgt gehandeld
 Op basis van bovenstaande gegevens, en de samenstelling van de eigen vermogens van A (na afsplitsing) en de Belgische inrichting van B buiten beschouwing latend, zien A en de Belgische inrichting van B er na de partiële splitsing als volgt uit:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -169,8 +160,7 @@ Na de partiële splitsing zullen A en de Belgische inrichting van B er dan als v
 | | Schulden | 2.500 | | |
 | | 8.500 | 8.500 | | |
 
-*In hoofde van aandeelhouder C wordt als volgt gehandeld*
-
+## In hoofde van aandeelhouder C wordt als volgt gehandeld
 C behoudt haar A-participatie en verkrijgt 80 % van de nieuw uitgegeven B-aandelen.
 
 In hoofde van C moet de boekwaarde van de A-participatie (7.500) worden omgedeeld in verhouding tot de reële waarden van het door A behouden vermogen en het aan B overgedragen vermogen.
@@ -186,7 +176,7 @@ Naar aanleiding van de partiële splitsing wordt bij C het volgende geboekt:
 
 In hoofde van C bedraagt de boekwaarde van de participatie A na de partiële splitsing 3.375.
 
-#### Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt partieel gesplitst waarbij een deel van haar maatschappelijk vermogen overgaat op een in een andere EU-lidstaat gevestigde vennootschap B. Vennootschap B bezit A aandelen en deze A-participatie is belegd in een Belgische inrichting van vennootschap B.
+Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt partieel gesplitst waarbij een deel van haar maatschappelijk vermogen overgaat op een in een andere EU-lidstaat gevestigde vennootschap B. Vennootschap B bezit A aandelen en deze A-participatie is belegd in een Belgische inrichting van vennootschap B.
 De boekhoudkundige verwerking van een partiële splitsing waarbij de in de andere EU-lidstaat gevestigde vennootschap B-aandelen in vennootschap A bezit welke belegd zijn in een Belgische inrichting, geschiedt op het Belgisch niveau op een gelijkaardige manier als bij een interne partiële splitsing waarbij een verkrijgende vennootschap aandelen in de partieel gesplitste vennootschap bezit. 
 
 Hierbij is artikel 78, § 6 van het KB W.Venn. onverkort van toepassing. Dit wil zeggen dat de verschillende bestanddelen van het eigen vermogen van de partieel gesplitste vennootschap die aan de verkrijgende vennootschap B worden toegewezen (maar waarbij het bedrag van het toegewezen maatschappelijk kapitaal en uitgiftepremie wordt ingeschreven als dotatie) in de Belgische inrichting van B slechts worden opgenomen ten belope van de fractie die overeenstemt met de aandelen in de partieel gesplitste vennootschap waarvoor de verkrijgende vennootschap B nieuwe aandelen uitgeeft. Overeenkomstig de laatste zin van artikel 78, §6 KB W.Venn. dient in voorkomend geval rekening te worden gehouden met de ten gevolge van de partiële splitsing gewijzigde fiscale kwalificatie van de toegewezen reserves van de partieel gesplitste vennootschap. Dit kan leiden tot bijkomende boekhoudkundige correcties.
@@ -313,7 +303,7 @@ De Belgische inrichting van de verkrijgende vennootschap B zal evenwel de aan ha
 | | 689 | Overboeking naar de belastingvrije reserves | 1.080 | |
 | aan | 132 | Belastingvrije reserves | | 1.080 |
 
-#### Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt partieel gesplitst waarbij een deel van haar maatschappelijk vermogen overgaat op een in een andere EU-lidstaat gevestigde vennootschap B. Vennootschap B bezit A aandelen maar heeft vóór de partiële splitsing geen Belgische inrichting.
+Een Belgische vennootschap A, zonder buitenlandse inrichting, wordt partieel gesplitst waarbij een deel van haar maatschappelijk vermogen overgaat op een in een andere EU-lidstaat gevestigde vennootschap B. Vennootschap B bezit A aandelen maar heeft vóór de partiële splitsing geen Belgische inrichting.
 Voorbeeld 3
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -372,7 +362,7 @@ Na de partiële splitsing zullen A en de Belgische inrichting van B er dan als v
 | | 8.500 | 8.500 | | |
 
 Partiële splitsing van een vennootschap gevestigd in een andere EU-lidstaat, waarbij een deel van haar maatschappelijk vermogen overgaat op een Belgische vennootschap
-#### Een in een andere EU-lidstaat gevestigde vennootschap B wordt partieel gesplitst waarbij een deel van haar maatschappelijk vermogen overgaat op een Belgische vennootschap A. De Belgische vennootschap A bezit geen aandelen in de partieel gesplitste vennootschap B en de partieel gesplitste vennootschap B heeft geen Belgische inrichting.
+Een in een andere EU-lidstaat gevestigde vennootschap B wordt partieel gesplitst waarbij een deel van haar maatschappelijk vermogen overgaat op een Belgische vennootschap A. De Belgische vennootschap A bezit geen aandelen in de partieel gesplitste vennootschap B en de partieel gesplitste vennootschap B heeft geen Belgische inrichting.
 Voorbeeld 4
 
 Onderstel dat onderstaande in een andere EU-lidstaat gevestigde vennootschap B partieel wordt gesplitst waarbij een deel van haar maatschappelijk vermogen overgaat op een Belgische vennootschap A. 
@@ -414,7 +404,7 @@ Na de partiële splitsing zal vennootschap A er als volgt uitzien:
 | | Schulden (1.100 + 1.500) | 2.600 | | |
 | | 15.500 | 15.500 | | |
 
-#### Een in een andere EU-lidstaat gevestigde vennootschap B wordt partieel gesplitst waarbij een deel van haar maatschappelijk vermogen overgaat op een Belgische vennootschap A. De Belgische vennootschap A bezit aandelen in de partieel gesplitste vennootschap B en de partieel gesplitste vennootschap B heeft geen Belgische inrichting.
+Een in een andere EU-lidstaat gevestigde vennootschap B wordt partieel gesplitst waarbij een deel van haar maatschappelijk vermogen overgaat op een Belgische vennootschap A. De Belgische vennootschap A bezit aandelen in de partieel gesplitste vennootschap B en de partieel gesplitste vennootschap B heeft geen Belgische inrichting.
 De bestanddelen van het boekhoudkundig eigen vermogen die aan de verkrijgende vennootschap A worden toegewezen, worden in toepassing van art. 78, § 6 KB W.Venn slechts opgenomen ten belope van de fractie die overeenstemt met de aandelen in de partieel gesplitste vennootschap waarvoor de verkrijgende vennootschap A nieuwe aandelen uitgeeft. Hierbij dient tevens rekening te worden gehouden met de fiscale kwalificatie van de toegewezen reserves.
 
 Voorbeeld 5
@@ -460,7 +450,7 @@ Na de partiële splitsing zal vennootschap A er als volgt uitzien:
 | | Schulden (1.100 + 1.500) | 2.600 | | |
 | | 14.195 | 14.195 | | |
 
-#### Een in een andere EU-lidstaat gevestigde vennootschap B met een Belgische inrichting wordt partieel gesplitst waarbij de Belgische inrichting overgaat op een Belgische vennootschap A. De Belgische vennootschap A bezit geen aandelen in de partieel gesplitste vennootschap B.
+Een in een andere EU-lidstaat gevestigde vennootschap B met een Belgische inrichting wordt partieel gesplitst waarbij de Belgische inrichting overgaat op een Belgische vennootschap A. De Belgische vennootschap A bezit geen aandelen in de partieel gesplitste vennootschap B.
 De in een andere EU-lidstaat gevestigde vennootschap B splitst de vermogensbestanddelen van haar Belgische inrichting af naar de Belgische vennootschap A. De boekhoudkundige verwerking van de partiële splitsing in hoofde van vennootschap A gebeurt op een analoge wijze als aangegeven in voorbeeld 4. Een verschil is evenwel dat de belastingvrije reserves van de partieel gesplitste vennootschap B welke verbonden zijn met haar Belgische inrichting en die overeenkomstig de fiscale bepalingen ter zake door de verkrijgende vennootschap A worden overgenomen, in beginsel het karakter van belastingvrije reserves ten name van de verkrijgende vennootschap A behouden.
 
 Voorbeeld 6
@@ -514,7 +504,7 @@ Na de partiële splitsing zal vennootschap A er als volgt uitzien:
 | | Schulden (1.100 + 250) | 1.350 | | |
 | | 11.000 | 11.000 | | |
 
-#### Een in een andere EU-lidstaat gevestigde vennootschap B met een Belgische inrichting wordt partieel gesplitst waarbij de Belgische inrichting overgaat op een Belgische vennootschap A. De Belgische verkrijgende vennootschap A bezit aandelen in de partieel gesplitste vennootschap B.
+Een in een andere EU-lidstaat gevestigde vennootschap B met een Belgische inrichting wordt partieel gesplitst waarbij de Belgische inrichting overgaat op een Belgische vennootschap A. De Belgische verkrijgende vennootschap A bezit aandelen in de partieel gesplitste vennootschap B.
 Deze situatie is een combinatie van de gevallen behandeld onder 2. en 3.
 
 Voorbeeld 7

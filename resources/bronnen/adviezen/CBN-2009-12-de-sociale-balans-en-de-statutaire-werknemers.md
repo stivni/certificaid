@@ -2,45 +2,37 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-sociale-balans-en-de-statutaire-werknemers
 datum: 2009-10-14
 nummer: CBN-advies 2009/12
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-sociale-balans-en-de-statutaire-werknemers
-      sha256: 8b84092b1fd2d33b748a4d77317c8d9f60a53215a661f2da5d2d1b780f2b0948
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 4
-      max_section_chars: 3481
-      file_size_chars: 7052
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen extractie-artefacten gevonden. Vier secties correct hiërarchisch als ## headings opgemaakt, voetnoten [^1]–[^12] volledig gedefinieerd, geen afgekapte zinnen, geen invisible unicode of HTML-entities. Body kort en inhoudelijk compleet.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: trusted
-    rationale: 'Geen extractie-artefacten gevonden. Vier secties correct hiërarchisch als ## headings opgemaakt, voetnoten [^1]–[^12] volledig gedefinieerd, geen afgekapte zinnen, geen invisible unicode of HTML-entities. Body kort en inhoudelijk compleet.'
-    status: trusted
 themas:
   - dimona
   - personeelsregister
   - sociale balans
   - statutaire werknemers
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-sociale-balans-en-de-statutaire-werknemers
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:52Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2009/12 – De sociale balans en de statutaire werknemers
 
 ## Inleiding

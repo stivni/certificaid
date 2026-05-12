@@ -9,45 +9,37 @@ gerelateerde_adviezen:
     titel: 'Aanschaffingsprijs : bijkomende kosten'
     url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingsprijs-bijkomende-kosten
 nummer: CBN-advies 135/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/kosten-die-worden-gemaakt-bij-de-vervreemding-van-activa
-      sha256: b5cada4573c21bf3796e8b0e3d996d6bf619d4af92184ada684335af4e28511f
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 1476
-      file_size_chars: 1476
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Kort advies (1476 tekens), geen structuurproblemen, geen artefacten. Inhoud volledig.
-      run_at: '2026-05-11T12:04:41Z'
-      status: trusted
-    rationale: Kort advies (1476 tekens), geen structuurproblemen, geen artefacten. Inhoud volledig.
-    status: trusted
 themas:
   - bijkomende kost
   - compensatie
   - kosten bij vervreemding van activa
   - vervreemding
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/kosten-die-worden-gemaakt-bij-de-vervreemding-van-activa
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:32Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 135/1 - Kosten die worden gemaakt bij de vervreemding van activa
 
 Overeenkomstig artikel 21 van het koninklijk besluit van 8 oktober 1976 omvat de aanschaffingsprijs van een activum tevens de bijkomende kosten die bij de aanschaffing worden gemaakt. De vraag werd gesteld of op dezelfde wijze te werk moet worden gegaan bij de vervreemding van activa en meer bepaald of de daarmee verband houdende kosten moeten of mogen worden afgetrokken van de verkoopprijs van goederen of diensten bij het bepalen van de omzet of bij het bepalen van de meerwaarde of de minderwaarde bij de realisering van de betrokken activa. 

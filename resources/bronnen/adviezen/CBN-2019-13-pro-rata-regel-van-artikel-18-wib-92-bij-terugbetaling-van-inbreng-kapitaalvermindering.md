@@ -2,57 +2,37 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
 datum: 2019-11-21
 nummer: CBN-advies 2019/13
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
-      sha256: 693c54c6facd7de15d4aa790eaee7926680f1bab37510af71555627545a6f0db
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 9
-      max_section_chars: 11293
-      file_size_chars: 24444
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E1
-          regel: 141
-          type: pseudo-table
-          voorbeeld: "| \n\n  | | \n|---|\n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak"
-        - categorie: E1
-          regel: 459
-          type: pseudo-table
-          voorbeeld: "| \n\n  | | \n|---|\n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak"
-        - categorie: E1
-          regel: 856
-          type: pseudo-table
-          voorbeeld: "| \n\n  | | \n|---|\n\nSamenstelling van het eigen vermogen op boekhoudkundig vlak"
-      rationale: 'E1/E2: drie grote eigen-vermogen-overzichtstabellen (regels 141–442, 459–792, 856–1055) zijn volledig gefragmenteerd als enkelvoudige single-cell blokken — tabelstructuur volledig verloren. Journaalpost-tabellen en tekst zijn correct.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'E1/E2: drie grote eigen-vermogen-overzichtstabellen (regels 141–442, 459–792, 856–1055) zijn volledig gefragmenteerd als enkelvoudige single-cell blokken — tabelstructuur volledig verloren. Journaalpost-tabellen en tekst zijn correct.'
-    status: needs-rework
 themas:
   - terugbetaling inbreng
   - kapitaalvermindering
   - dividend
   - dividenduitkering
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:36Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2019/13 - Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering
 
 ## Inleiding
@@ -135,676 +115,554 @@ Het gevolg hiervan is een verhoudingsgewijze aanrekening van 255 (400 * 63,6 %) 
 
 | 
 
- | | 
-|---|
+| 
 
 Samenstelling van het eigen vermogen op boekhoudkundig vlak
 
-  | | 
-|---|
+ | 
 
 Samenstelling van het eigen vermogen op fiscaal vlak
 
-  | 
+ |
 | 
 
- | | 
-|---|
+| 
 
 Begin-toestand
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 Eind-toestand
 
-  | | 
-|---|
+ | 
 
 Begin-toestand
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 Eind-toestand
 
-  | 
+ |
 | 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
 Fiscaal gestort kapitaal
 
-  | 
+ |
 | 
 
 Kapitaal
 
-  | | 
-|---|
+ | 
 
 1.000
 
-  | | 
-|---|
+ | 
 
 -400
 
-  | | 
-|---|
+ | 
 
 600
 
-  | | 
-|---|
+ | 
 
 1.000
 
-  | | 
-|---|
+ | 
 
 -255
 
-  | | 
-|---|
+ | 
 
 745
 
-  | 
+ |
 | 
 
 Uitgiftepremies
 
-  | | 
-|---|
+ | 
 
 400
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
-
-400
-
-  | | 
-|---|
-
-400
-
-  | | 
-|---|
-
- | | 
-|---|
-
-400
-
-  | 
 | 
 
- | | 
-|---|
+400
 
- | | 
-|---|
+ | 
+
+400
+
+ | 
+
+| 
+
+400
+
+ |
+| 
+
+| 
+
+| 
 
 Belaste reserves
 
-  | 
+ |
 | 
 
 Wettelijke reserve
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 50
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 50
 
-  | 
+ |
 | 
 
 Beschikbare reserves
 
-  | | 
-|---|
+ | 
 
 800
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 800
 
-  | | 
-|---|
+ | 
 
 800
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 800
 
-  | 
+ |
 | 
 
 Negatieve reserves
 
-  | | 
-|---|
+ | 
 
 -
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 -
 
-  | | 
-|---|
+ | 
 
 0
 
-  | | 
-|---|
+ | 
 
 -145
 
-  | | 
-|---|
+ | 
 
 -145
 
-  | 
+ |
 | 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
 Vrijgestelde reserves
 
-  | 
+ |
 | 
 
 Belastingvrije reserves
 
-  | | 
-|---|
+ | 
 
 150
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 150
 
-  | | 
-|---|
+ | 
 
 150
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 150
 
-  | 
+ |
 | 
 
 Totaal
 
-  | | 
-|---|
+ | 
 
 2.400
 
-  | | 
-|---|
+ | 
 
 -400
 
-  | | 
-|---|
+ | 
 
 2.000
 
-  | | 
-|---|
+ | 
 
 2.400
 
-  | | 
-|---|
+ | 
 
 -400
 
-  | | 
-|---|
+ | 
 
 2.000
 
-  | 
+ |
 
 De boekingen worden als volgt verricht:
 
-*Bij de beslissing van kapitaalvermindering genomen door de algemene vergadering:*
-
+## Bij de beslissing van kapitaalvermindering genomen door de algemene vergadering:
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 10 | Kapitaal | 400 | |
 | aan | 489 | Andere diverse schulden | | 400 |
 
-#### Dividenduitkering van 700 in 2019
+### Dividenduitkering van 700 in 2019
 Boekhoudkundig wordt deze verrichting behandeld als de uitkering van beschikbare reserves ten belope van 700.
 
 De ‘fiscaal’ beschikbare reserves* (655, namelijk 800 van beschikbare reserves verminderd met 145 van negatieve reserves) volstaan niet voor de integrale aanrekening van de dividenduitkering. Het saldo van de uitkering (45) wordt bijgevolg aangerekend op de reserves die al behandeld zijn als dividend in het kader van een eerdere kapitaalvermindering.
 
 | 
 
- | | 
-|---|
+| 
 
 Samenstelling van het eigen vermogen op boekhoudkundig vlak
 
-  | | 
-|---|
+ | 
 
 Samenstelling van het eigen vermogen op fiscaal vlak
 
-  | 
+ |
 | 
 
- | | 
-|---|
+| 
 
 Begin-toestand
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 Eind-toestand
 
-  | | 
-|---|
+ | 
 
 Begin-toestand
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 Eind-toestand
 
-  | 
+ |
 | 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
 Fiscaal gestort kapitaal
 
-  | 
+ |
 | 
 
 Kapitaal
 
-  | | 
-|---|
+ | 
 
 600
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 600
 
-  | | 
-|---|
+ | 
 
 745
 
-  | | 
-|---|
+ | 
 
 -45
 
-  | | 
-|---|
+ | 
 
 700
 
-  | 
+ |
 | 
 
 Uitgiftepremies
 
-  | | 
-|---|
+ | 
 
 400
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
-
-400
-
-  | | 
-|---|
-
-400
-
-  | | 
-|---|
-
- | | 
-|---|
-
-400
-
-  | 
 | 
 
- | | 
-|---|
+400
 
- | | 
-|---|
+ | 
+
+400
+
+ | 
+
+| 
+
+400
+
+ |
+| 
+
+| 
+
+| 
 
 Belaste reserves
 
-  | 
+ |
 | 
 
 Wettelijke reserve
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 50
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 50
 
-  | 
+ |
 | 
 
 Beschikbare reserves
 
-  | | 
-|---|
+ | 
 
 800
 
-  | | 
-|---|
+ | 
 
 -700
 
-  | | 
-|---|
+ | 
 
 100
 
-  | | 
-|---|
+ | 
 
 800
 
-  | | 
-|---|
+ | 
 
 -700
 
-  | | 
-|---|
+ | 
 
 100
 
-  | 
+ |
 | 
 
 Negatieve reserves
 
-  | | 
-|---|
+ | 
 
 -
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 -
 
-  | | 
-|---|
+ | 
 
 -145
 
-  | | 
-|---|
+ | 
 
 +45
 
-  | | 
-|---|
+ | 
 
 -100
 
-  | 
+ |
 | 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
 Vrijgestelde reserves
 
-  | 
+ |
 | 
 
 Belastingvrije reserves
 
-  | | 
-|---|
+ | 
 
 150
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 150
 
-  | | 
-|---|
+ | 
 
 150
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 150
 
-  | 
+ |
 | 
 
 Totaal
 
-  | | 
-|---|
+ | 
 
 2.000
 
-  | | 
-|---|
+ | 
 
 -700
 
-  | | 
-|---|
+ | 
 
 1.300
 
-  | | 
-|---|
+ | 
 
 2.000
 
-  | | 
-|---|
+ | 
 
 -700
 
-  | | 
-|---|
+ | 
 
 1.300
 
-  | 
+ |
 
 | 
 
 Verhoging van de begintoestand van de reserves[^10] 
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
 45
 
-  | | 
-|---|
+ | 
 
 -45
 
-  | | 
-|---|
+ | 
 
 0
 
-  | 
+ |
 
 Dat het saldo van de uitkering (45), zoals gezegd, aangerekend wordt op de in het kader van de eerdere kapitaalvermindering reeds als dividend behandelde reserves, vertaalt zich in de tabel in een vermindering van de 'negatieve reserves' met 45 van (-145) naar (-100). En aangezien de 'fiscaal' aanspreekbare reserves niet volstonden om de gehele dividenduitkering te dekken, leidt dezelfde vermindering noodzakelijkerwijs tot een vermindering van het fiscaal voorradige 'kapitaal' (vermindering van 745 naar 700).
 
 De boekingen worden als volgt verricht:
 
-*Bij de beslissing van dividenduitkering genomen door de (buitengewone) algemene vergadering:*
-
+## Bij de beslissing van dividenduitkering genomen door de (buitengewone) algemene vergadering:
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 694 | Vergoeding van de inbreng | 700 | |
 | aan | 471 | Dividenden over het boekjaar | | 700 |
 
-*Bij de toekenning of betaalbaarstelling van het tussentijds dividend:*
-
+## Bij de toekenning of betaalbaarstelling van het tussentijds dividend:
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 471 | Dividenden over het boekjaar | 196,5 | |
 | aan | 453 | Ingehouden voorheffingen | | 196,5 |
 
-*Bij de betaling van het tussentijds dividend en van de roerende voorheffing:*
-
+## Bij de betaling van het tussentijds dividend en van de roerende voorheffing:
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 471 | Dividenden over het boekjaar | 503,5 | |
@@ -846,209 +704,172 @@ Bijgevolg zal het bedrag van het dividend ten belope van 800 als dusdanig aanvaa
 
 | 
 
- | | 
-|---|
+| 
 
 Samenstelling van het eigen vermogen op boekhoudkundig vlak
 
-  | | 
-|---|
+ | 
 
 Samenstelling van het eigen vermogen op fiscaal vlak
 
-  | 
+ |
 | 
 
- | | 
-|---|
+| 
 
 Begin-toestand
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 Eind-toestand
 
-  | | 
-|---|
+ | 
 
 Begin-toestand
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 Eind-toestand
 
-  | 
+ |
 | 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
 Fiscaal gestort kapitaal
 
-  | 
+ |
 | 
 
 Kapitaal
 
-  | | 
-|---|
+ | 
 
 5.000
 
-  | | 
-|---|
+ | 
 
 -200
 
-  | | 
-|---|
+ | 
 
 4.800
 
-  | | 
-|---|
+ | 
 
 5.000
 
-  | | 
-|---|
+ | 
 
 -200
 
-  | | 
-|---|
+ | 
 
 4.800
 
-  | 
+ |
 | 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
 Belaste reserves
 
-  | 
+ |
 | 
 
 Wettelijke reserve
 
-  | | 
-|---|
+ | 
 
 500
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 500
 
-  | | 
-|---|
+ | 
 
 500
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 500
 
-  | 
+ |
 | 
 
 Beschikbare reserves
 
-  | | 
-|---|
+ | 
 
 20.000
 
-  | | 
-|---|
+ | 
 
 -800
 
-  | | 
-|---|
+ | 
 
 19.200
 
-  | | 
-|---|
+ | 
 
 20.000
 
-  | | 
-|---|
+ | 
 
 -800
 
-  | | 
-|---|
+ | 
 
 19.200
 
-  | 
+ |
 | 
 
 Totaal
 
-  | | 
-|---|
+ | 
 
 25.500
 
-  | | 
-|---|
+ | 
 
 -1.000
 
-  | | 
-|---|
+ | 
 
 24.500
 
-  | | 
-|---|
+ | 
 
 25.500
 
-  | | 
-|---|
+ | 
 
 -1.000
 
-  | | 
-|---|
+ | 
 
 24.500
 
-  | 
+ |
 
 De boekingen zijn als volgt:
 
-*Bij de beslissing door de algemene vergadering tot vermindering van het kapitaal samen met de beslissing tot het uitkeren van een tussentijds dividend*
-
+## Bij de beslissing door de algemene vergadering tot vermindering van het kapitaal samen met de beslissing tot het uitkeren van een tussentijds dividend
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 694 | Vergoeding van de inbreng | 800 | |
@@ -1059,15 +880,13 @@ De boekingen zijn als volgt:
 | | 100 | Kapitaal | 200 | |
 | aan | 489 | Diverse schulden | | 200 |
 
-*Bij de toekenning of betaalbaarstelling van het tussentijds dividend:*
-
+## Bij de toekenning of betaalbaarstelling van het tussentijds dividend:
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 471 | Dividenden over het boekjaar | 240 | |
 | aan | 453 | Ingehouden voorheffingen | | 240 |
 
-*Bij de betaling van het tussentijds dividend en de roerende voorheffing:*
-
+## Bij de betaling van het tussentijds dividend en de roerende voorheffing:
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 471 | Dividenden over het boekjaar | 560 | |

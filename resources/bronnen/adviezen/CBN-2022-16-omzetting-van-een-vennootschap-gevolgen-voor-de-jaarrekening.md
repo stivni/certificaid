@@ -6,38 +6,6 @@ gerelateerde_adviezen:
     titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
     url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
 nummer: CBN-advies 2022/16
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
-      sha256: 3340dd01809e7f96942593815b28e17a7f8370d39f3a02cd4a3e2dd3acd9025b
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:24:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 5
-      max_section_chars: 3140
-      file_size_chars: 7625
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Kort advies (7 headings, ~7600 chars). Geen zichtbare extractie-artefacten: geen TOC-duplicaten, geen gebroken tabelcellen, geen malformed bold/italic, geen floating footnotes. Voetnoten [^1]–[^13] volledig gedefinieerd. Drie concrete voorbeelden correct als ### subsecties. Inhoud compleet voor het onderwerp (omzetting VOF→BV, BV→CommV, NV→BV).'
-      run_at: '2026-05-11T12:24:34Z'
-      status: trusted
-    rationale: 'Kort advies (7 headings, ~7600 chars). Geen zichtbare extractie-artefacten: geen TOC-duplicaten, geen gebroken tabelcellen, geen malformed bold/italic, geen floating footnotes. Voetnoten [^1]–[^13] volledig gedefinieerd. Drie concrete voorbeelden correct als ### subsecties. Inhoud compleet voor het onderwerp (omzetting VOF→BV, BV→CommV, NV→BV).'
-    status: trusted
 themas:
   - omzetting vennootschap
   - omzetting
@@ -50,8 +18,32 @@ themas:
   - publicatieverplichting
   - openbaarmakingsplicht
   - openbaarmakingsverplichting
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/omzetting-van-een-vennootschap-gevolgen-voor-de-jaarrekening
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:50Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2022/16 – Omzetting van een vennootschap: gevolgen voor de jaarrekening
 
 ## Inleiding

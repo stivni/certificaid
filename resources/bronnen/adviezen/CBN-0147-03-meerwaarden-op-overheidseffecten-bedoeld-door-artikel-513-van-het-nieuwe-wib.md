@@ -9,38 +9,6 @@ gerelateerde_adviezen:
     titel: Invloed van een gerechtelijk akkoord op de schulden en vorderingen
     url: https://www.cbn-cnc.be/nl/adviezen/invloed-van-een-gerechtelijk-akkoord-op-de-schulden-en-vorderingen
 nummer: CBN-advies 147/3
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib
-      sha256: 5c683304c9ae4d4540e3f0d3a9c2cae209300d4062a50cc9d1a4c655f924ebc4
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:23:03Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 4560
-      file_size_chars: 4560
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: D4-probleem uit vorig verdict ('*Uitgestelde belastingen *' met trailing space) is niet aanwezig in het huidige bestand — italic correct gesloten na scraper-fix. Inhoud volledig met 5 genummerde boekingsstappen en 3 correct gedefinieerde voetnoten. Geen andere ETL-artefacten zichtbaar.
-      run_at: '2026-05-11T13:23:03Z'
-      status: trusted
-    rationale: D4-probleem uit vorig verdict ('*Uitgestelde belastingen *' met trailing space) is niet aanwezig in het huidige bestand — italic correct gesloten na scraper-fix. Inhoud volledig met 5 genummerde boekingsstappen en 3 correct gedefinieerde voetnoten. Geen andere ETL-artefacten zichtbaar.
-    status: trusted
 themas:
   - gespreide taxatie
   - meerwaarde
@@ -49,8 +17,32 @@ themas:
   - uitgestelde belastingen
   - vastrentende effecten
   - belastingvrije reserves
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:38Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 147/3 - Meerwaarden op overheidseffecten bedoeld door artikel 513 van het (nieuwe) WIB
 
 Door de wet van 22 december 1989 werd in de fiscale wetgeving een optionele regeling ingevoerd van gespreide taxatie van de meerwaarden verwezenlijkt op immateriële en materiële vaste activa[^1], op voorwaarde o.m. dat de verwezenlijkte meerwaarde in de onderneming behouden blijft (onaantastbaarheidsvoorwaarde). Door de zelfde wet werd een soortgelijk (maar tijdelijke) regeling van (over zes jaar) gespreide taxatie ingevoerd[^2] voor meerwaarden verwezenlijkt op sommige overheidseffecten. 

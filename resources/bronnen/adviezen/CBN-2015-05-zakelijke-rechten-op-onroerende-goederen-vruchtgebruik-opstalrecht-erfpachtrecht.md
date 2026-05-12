@@ -2,46 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht
 datum: 2015-07-08
 nummer: CBN-advies 2015/5
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht
-      sha256: e42d98ea9631d91fa32198a5fc40f1dba0e70b80b63a615042de95c134542e01
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:51:53Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 40
-      max_section_chars: 15183
-      file_size_chars: 75464
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: G1
-          regel: 706
-          type: url-plaintext
-          voorbeeld: '[^41]: www.cass.be'
-        - categorie: B5
-          regel: 442
-          type: other
-          voorbeeld: Overdracht en einde van het vruchtgebruik vóór het verstrijken van de initieel voorziene duur
-      rationale: 'G1: regel 706 bevat ''www.cass.be'' als kale URL zonder markdown-link in een voetnoot. B5: regel 442 (''Overdracht en einde van het vruchtgebruik vóór het verstrijken van de initieel voorziene duur'') staat als gewone alineatekst terwijl het een subsectie-heading had moeten zijn op grond van de documentstructuur. Overige inhoud is inhoudelijk correct en compleet.'
-      run_at: '2026-05-11T17:51:53Z'
-      status: needs-rework
-    rationale: 'G1: regel 706 bevat ''www.cass.be'' als kale URL zonder markdown-link in een voetnoot. B5: regel 442 (''Overdracht en einde van het vruchtgebruik vóór het verstrijken van de initieel voorziene duur'') staat als gewone alineatekst terwijl het een subsectie-heading had moeten zijn op grond van de documentstructuur. Overige inhoud is inhoudelijk correct en compleet.'
-    status: needs-rework
 themas:
   - blote eigendom
   - bouwwerken op andermans eigendom
@@ -52,8 +12,32 @@ themas:
   - opstal
   - vruchtgebruik
   - zakelijke rechten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:14Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2015/5 - Zakelijke rechten op onroerende goederen: vruchtgebruik - opstalrecht - erfpachtrecht - erfdienstbaarheid
 
 ## Algemeen
@@ -116,22 +100,19 @@ Een onderneming verwerft het vruchtgebruik van een onroerend goed en betaalt de 
 
 Aangezien het recht van vruchtgebruik per definitie tijdelijk is - ook al heeft dit recht betrekking op een goed waarvan het gebruik niet beperkt is in de tijd, bv. een terrein - zal zijn aanschaffingswaarde volgens een passend plan ten laste worden genomen op basis van de duur van het recht van vruchtgebruik of van de economische gebruiksduur ervan, in de veronderstelling (die, rekening houdend met de definitie van het vruchtgebruik, niet erg waarschijnlijk is) dat deze economische gebruiksduur korter zou zijn dan de duur van het vruchtgebruik. 
 
-*Boekingen bij de verwerving van het vruchtgebruik*
-
+## Boekingen bij de verwerving van het vruchtgebruik
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 2230 | Overige zakelijke rechten op onroerende goederen: aanschaffingswaarde | | |
 | aan | 489 | Andere diverse schulden | | |
 
-*Boekingen tijdens de looptijd van het vruchtgebruik*
-
+## Boekingen tijdens de looptijd van het vruchtgebruik
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6302 | Afschrijvingen op materiële vaste activa | | |
 | aan | 2239 | Overige zakelijke rechten op onroerende goederen: geboekte afschrijvingen | | |
 
-*Boekingen bij afloop van het vruchtgebruik*
-
+## Boekingen bij afloop van het vruchtgebruik
 Aangezien het recht in principe volledig afgeschreven zal zijn bij de afloop[^9] van het vruchtgebruik, moet het recht enkel nog worden uitgeboekt. 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -141,11 +122,10 @@ Aangezien het recht in principe volledig afgeschreven zal zijn bij de afloop[^9]
 
 Wat betreft de uitbreidings- of verbeteringswerken die werden verricht door de vruchtgebruiker wordt verwezen naar artikel 599 BW. In de randnummers 18 tot 21 wordt de boekhoudkundige verwerking van dergelijke werken nader toegelicht.
 
-#### Verwerving vruchtgebruik: uitsluitend periodieke vergoedingen
+### Verwerving vruchtgebruik: uitsluitend periodieke vergoedingen
 Een onderneming verwerft het vruchtgebruik van een onroerend goed en betaalt uitsluitend periodieke vergoedingen voor het vruchtgebruik.
 
-*Boekingen bij de verwerving en tijdens de looptijd van het vruchtgebruik*
-
+## Boekingen bij de verwerving en tijdens de looptijd van het vruchtgebruik
 Wanneer de onderneming een vruchtgebruik heeft verworven waarvoor ze periodieke betalingen verschuldigd is, zullen, in principe, deze vergoedingen als een jaarlijkse huurkost worden geboekt. Het verschil tussen de boekhoudkundige verwerking van dergelijke periodieke betalingen en de boekhoudkundige verwerking van vooruitbetaalde vergoedingen vloeit voort uit de verwoording van de oorspronkelijke tekst van het koninklijk besluit van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen.[^10] 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -155,16 +135,15 @@ Wanneer de onderneming een vruchtgebruik heeft verworven waarvoor ze periodieke 
 
 Het bestaan en het bedrag van het zakelijk recht wordt opgenomen in de orderekeningen en wordt vermeld in de toelichting.[^11] 
 
-*Boekingen bij afloop*
-
+## Boekingen bij afloop
 Aangezien de uitgaven niet werden geactiveerd zal bij afloop geen enkele boeking[^12] meer plaatsvinden.
 
-#### Verwerving vruchtgebruik: combinatie van vooruitbetalingen en periodieke vergoedingen
+Verwerving vruchtgebruik: combinatie van vooruitbetalingen en periodieke vergoedingen
 Indien de onderneming voor de verwerving van het vruchtgebruik een gedeelte van de vergoedingen betaalt bij de aanvang van de overeenkomst en vervolgens periodieke vergoedingen betaalt, meent de Commissie dat de vooruitbetalingen moeten worden geboekt op de rekening 223 *Overige zakelijke rechten op onroerende goederen* en de periodieke vergoedingen als huurkost moeten worden geboekt. 
 
 De Commissie is van mening dat het bestuursorgaan verantwoordelijk is voor de opstelling van een passend afschrijvingsplan voor de vooruitbetaalde vergoedingen. Het bestaan en het bedrag van het zakelijk recht wordt opgenomen in de orderekeningen en wordt vermeld in de toelichting.[^13] 
 
-#### Vruchtgebruiker: verbeterings- of uitbreidingswerken
+### Vruchtgebruiker: verbeterings- of uitbreidingswerken
 Wanneer een vruchtgebruiker uitbreidings- of verbeteringswerken heeft aangebracht, worden deze werken in principe geboekt op de rekening 26 *Andere materiële vaste activa[^14]*  en volgens een passend afschrijvingsplan afgeschreven.
 
 Met betrekking tot deze werken beschikt de vruchtgebruiker krachtens artikel 599 BW over een keuzerecht: hij kan de verbeteringen verwijderen of laten staan. In dit laatste geval kan van de blote eigenaar geen vergoeding worden geëist, ook niet wanneer de waarde van de zaak vermeerderd zou zijn door de uitbreidings- of verbeteringswerken. De vruchtgebruiker en de blote eigenaar kunnen echter afwijken van de wettelijke bepalingen en onderling een vergoedingsregeling afspreken. Aangezien in dit advies uitsluitend marktconforme verrichtingen worden beoogd,[^15] is het waarschijnlijk dat er bij ingrijpende uitbreidings- of verbeteringswerken inderdaad afspraken worden gemaakt tussen de blote eigenaar en de vruchtgebruiker.
@@ -200,8 +179,7 @@ Een onderneming is eigenaar van een onroerend goed dat als volgt in de rekeninge
 
 De onderneming verkoopt de blote eigendom van een onroerend goed en behoudt zich het recht van vruchtgebruik voor gedurende 20 jaar. De waarde van de blote eigendom vertegenwoordigt 40 % van de waarde van de volle eigendom van het goed. Het onroerend goed dat met een vruchtgebruik is bezwaard (m.a.w. de blote eigendom) wordt verkocht voor 200.000 euro.
 
-*Boeking van de verrichting*
-
+## Boeking van de verrichting
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 416 | Diverse vorderingen | 200.000 | |
@@ -212,8 +190,7 @@ De onderneming verkoopt de blote eigendom van een onroerend goed en behoudt zich
 | | 2210 | Gebouwen: aanschaffingswaarde | 240.000 | |
 | | 763 | Meerwaarden op de realisatie van vaste activa | 132.800 | |
 
-*Boeking van de jaarlijkse afschrijving*
-
+## Boeking van de jaarlijkse afschrijving
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6302 | Afschrijvingen op materiële vaste activa | 5.040 | |
@@ -229,23 +206,20 @@ Wanneer de blote eigendom van een onroerend goed wordt verworven moet een onders
 ##### Vruchtgebruiker betaalt geen vergoedingen
 Wanneer een onderneming de blote eigendom van een onroerend goed verwerft zonder dat deze onderneming recht heeft op vergoedingen van de vruchtgebruiker, is volgens de Commissie de onderstaande boekhoudkundige verwerking van toepassing. Een vaak voorkomend geval is de gesplitste aankoop waarbij een derde een onroerend goed verkoopt en de kopende partijen hun aankoop uitsplitsen in een aankoop van het vruchtgebruik enerzijds, en een aankoop van de blote eigendom anderzijds. In dergelijk geval zal de blote eigenaar tijdens de duur van het vruchtgebruik meestal geen recht hebben op vergoedingen van de vruchtgebruiker. 
 
-*Boekingen bij de verwerving van de blote eigendom*
-
+## Boekingen bij de verwerving van de blote eigendom
 De blote eigenaar zal de blote eigendom tegen aanschaffingswaarde boeken.[^20]
  De Commissie vindt het aangewezen dat bij de verwerving van de blote eigendom van een onroerend goed een onderscheid wordt gemaakt tussen het gedeelte van de aanschaffingswaarde dat betrekking heeft op de blote eigendom van het terrein en het gedeelte van deze waarde dat betrekking heeft op de blote eigendom van het gebouw.
 
 ## Voorbeeld 3
 Een onroerend goed wordt verkocht voor de prijs van 300.000 euro. Onderneming A en onderneming B komen overeen dat onderneming B 60 % van de prijs betaalt voor een vruchtgebruik voor een periode van 25 jaar, terwijl onderneming A voor de verwerving van de blote eigendom 40 % van de prijs betaalt. De bijkomende aankoopkosten bedragen 15 %.
 
-*Boeking bij de verwerving in hoofde van onderneming A (blote eigenaar)*
-
+## Boeking bij de verwerving in hoofde van onderneming A (blote eigenaar)
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 26X0 | Andere materiële vaste activa: aanschaffingswaarde | 138.000 | |
 | aan | 489 | Andere diverse schulden | | 138.000 |
 
-*Boekingen tijdens de looptijd van het vruchtgebruik in hoofde van onderneming A (blote eigenaar)*
-
+## Boekingen tijdens de looptijd van het vruchtgebruik in hoofde van onderneming A (blote eigenaar)
 Indien de blote eigenaar geen periodieke vergoedingen ontvangt, mag het blote eigendomsrecht tijdens de periode waarin de eigendom is bezwaard met een vruchtgebruik slechts worden afgeschreven[^22] in de veronderstelling dat de aanschaffingswaarde, ingevolge een nieuw feit of een onverwachte gebeurtenis, hoger zou liggen dan de gebruikswaarde na het verstrijken van het vruchtgebruik. In dit geval zou een uitzonderlijke afschrijving worden geboekt krachtens artikel 64, § 1, tweede lid van het KB W.Venn. Het systematisch boeken van afschrijvingen lijkt in dit geval echter uitgesloten.
 
 De Commissie baseert haar standpunt op volgende gegevens: 
@@ -257,8 +231,7 @@ Op dit punt sluit het besluit aan bij het *matching principle* op grond waarvan 
 
 Deze regeling stemt eveneens overeen met de bedrijfseconomische werkelijkheid. In financieel-economisch opzicht stemt de waarde van de blote eigendom immers overeen met de actualisering van de gebruikswaarde van het goed voor de blote eigenaar wanneer hij het volle genot ervan zal hebben verkregen, d.i. na afloop van het recht van vruchtgebruik. Indien het gaat om een goed waarvan de vermoedelijke gebruiksduur beperkt is in de tijd zal voor de aanschaffingswaarde van de blote eigendom zeker rekening gehouden zijn met de normale waardevermindering van het goed tijdens de duur van het vruchtgebruik en zal de normale afschrijving van het goed tijdens deze periode dan ook van in het begin verrekend zijn in de aanschaffingswaarde. 
 
-*Boekingen bij onderneming A (blote eigenaar) bij de afloop van het vruchtgebruik*
-
+## Boekingen bij onderneming A (blote eigenaar) bij de afloop van het vruchtgebruik
 Als gevolg van het voornamelijk tijdelijke karakter van het vruchtgebruik, zal de blote eigenaar, van rechtswege en automatisch, *volle eigenaar* worden van het goed na het verstrijken van de duur van het vruchtgebruik. 
 
 De Commissie meent dat het verantwoord kan zijn het actief te herwaarderen naarmate de eindtermijn van het vruchtgebruik nadert. De Commissie wenst te benadrukken dat een dergelijke herwaardering niet verplicht is.
@@ -311,8 +284,7 @@ Voor de bepaling van het bedrag van de afschrijvingen dat moet worden geboekt bi
 
 In dit voorbeeld wordt de vestiging van het vruchtgebruik bijgevolg in de boekhouding van de onderneming uitgedrukt door een uitzonderlijke afschrijving ten belope van 300.000 euro. De onderneming behaalt met de verrichting een boekhoudkundig resultaat van 100.000[^29] euro. De blote eigendom van het onroerend goed wordt vervolgens overgeboekt naar de rekening 26 Andere *materiële vaste activa.*
 
-*Boeking van de vestiging van het vruchtgebruik*
-
+## Boeking van de vestiging van het vruchtgebruik
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 416 | Diverse vorderingen | 400.000 | |
@@ -320,8 +292,7 @@ In dit voorbeeld wordt de vestiging van het vruchtgebruik bijgevolg in de boekho
 | aan | 2219 | Gebouwen: geboekte afschrijvingen | | 300.000 |
 | | 743 | Diverse bedrijfsopbrengsten | 400.000 | |
 
-*Overboeking naar de overige materiële vaste activa*
-
+## Overboeking naar de overige materiële vaste activa
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 260 | Andere materiële vaste activa: aanschaffingswaarde | 600.000 | |
@@ -354,8 +325,7 @@ Voor de bepaling van het bedrag van de afschrijvingen die moeten worden geboekt 
 
 In dit voorbeeld wordt de vestiging van het vruchtgebruik in de boekhouding van de onderneming uitgedrukt door een uitzonderlijke afschrijving ten belope van 15 x 13.000 of 195.000 euro en per saldo een resultaat ten belope van 205.000 euro (400.000 – 195.000). De blote eigendom van het onroerend goed wordt vervolgens overgeboekt naar de rekening 26 *Andere materiële vaste activa*.
 
-*Boeking van de vestiging van het vruchtgebruik*
-
+## Boeking van de vestiging van het vruchtgebruik
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 416 | Diverse vorderingen | 400.000 | |
@@ -365,8 +335,7 @@ In dit voorbeeld wordt de vestiging van het vruchtgebruik in de boekhouding van 
 | | 743 | Diverse bedrijfsopbrengsten | 400.000 | |
 | | (2209 | Terreinen: geboekte waardeverminderingen) | | |
 
-*Overboeking naar de overige materiële vaste activa*
-
+## Overboeking naar de overige materiële vaste activa
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 260 | Andere materiële vaste activa: aanschaffingswaarde | 600.000 | |
@@ -400,15 +369,13 @@ Bij de verwerving van de blote eigendom van het onroerend goed door de vruchtgeb
 ## Voorbeeld 6
 De onderneming heeft het vruchtgebruik verworven van een loods voor een periode van 15 jaar met een aanschaffingswaarde van 600.000 euro. De loods heeft een verwachte economische gebruiksduur van 20 jaar.
 
-*Boeking bij de verwerving van het vruchtgebruik*
-
+## Boeking bij de verwerving van het vruchtgebruik
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 2230 | Overige zakelijke rechten op onroerende goederen: aanschaffingswaarde | 600.000 | |
 | aan | 489 | Andere diverse schulden | | 600.000 |
 
-*Jaarlijkse afschrijving*
-
+## Jaarlijkse afschrijving
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6302 | Afschrijvingen op materiële vaste activa | 40.000 | |
@@ -416,8 +383,7 @@ De onderneming heeft het vruchtgebruik verworven van een loods voor een periode 
 
 Na 2 jaar heeft het zakelijk recht een boekwaarde van 520.000 euro (600.000 – 40.000 – 40.000). 
 
-*Boekingen bij de verwerving van de blote eigendom* 
-
+## Boekingen bij de verwerving van de blote eigendom
 Twee jaar na de verwerving van het vruchtgebruik, verwerft de onderneming de blote eigendom van deze loods voor een bedrag van 550.000 euro.
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -433,8 +399,7 @@ Vervolgens moeten een aantal correctieboekingen plaatsvinden om zo de huidige to
 | | 2210 | Gebouwen: aanschaffingswaarde | 750.000 | |
 | aan | 2230 | Overige zakelijke rechten op onroerende goederen: aanschaffingswaarde | | 1.150.000 |
 
-*Overboeking van de reeds geboekte afschrijvingen[^38]* 
-
+## Overboeking van de reeds geboekte afschrijvingen
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 2239 | Overige zakelijke rechten op onroerende goederen: geboekte afschrijvingen | 80.000 | |
@@ -549,8 +514,7 @@ Een onderneming heeft 3 jaar geleden een onroerend goed aangekocht voor 500.000 
 
 Tijdens het boekjaar wordt een opstalrecht gevestigd voor een periode van 11 jaar. De opstalhouder betaalt geen vergoeding voor het gebouw, maar betaalt een éénmalige vergoeding van 300.000 euro voor het opstalrecht.
 
-*Boekingen bij de vestiging van het opstalrecht*
-
+## Boekingen bij de vestiging van het opstalrecht
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 416 | Diverse vorderingen | 300.000 | |
@@ -561,8 +525,7 @@ Tijdens het boekjaar wordt een opstalrecht gevestigd voor een periode van 11 jaa
 | | 6602 | Uitzonderlijke afschrijvingen op materiële vaste activa | 220.000 | |
 | aan | 2219 | Gebouwen: geboekte afschrijvingen | | 220.000 |
 
-*Overboeking naar de Overige materiële vaste activa*
-
+## Overboeking naar de Overige materiële vaste activa
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 2219 | Gebouwen: geboekte afschrijvingen | 280.000 | |
@@ -571,8 +534,7 @@ Tijdens het boekjaar wordt een opstalrecht gevestigd voor een periode van 11 jaa
 | | 2210 | Gebouwen: aanschaffingswaarde | 400.000 | |
 | | 269 | Andere materiële vaste activa: geboekte afschrijvingen | 280.000 | |
 
-*Boeking bij afloop van het opstalrecht*
-
+## Boeking bij afloop van het opstalrecht
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 2200 | Terreinen: aanschaffingswaarde | 100.000 | |

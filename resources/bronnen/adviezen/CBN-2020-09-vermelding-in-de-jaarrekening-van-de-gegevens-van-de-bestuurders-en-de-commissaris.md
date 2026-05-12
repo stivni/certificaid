@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: 'Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
 nummer: CBN-advies 2020/09
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
-      sha256: eae22de5c623f612d3cb68cc81753ac2f932cda35649d778696ee1749d7c29ee
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:23:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 15
-      max_section_chars: 6983
-      file_size_chars: 15655
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Geen extractie-artefacten of structuurproblemen aangetroffen. Heading-hiërarchie (H1 → H2 → H3 → H4 → H5) correct en consistent. Vier concrete voorbeelden aanwezig. Sectie voor VZW's/IVZW's/stichtingen volledig. Geen TOC-resten, geen OCR-verwarring, geen pseudo-tabellen, geen afgekapte zinnen. Voetnoten 1-22 intact.
-      run_at: '2026-05-11T15:23:43Z'
-      status: trusted
-    rationale: Geen extractie-artefacten of structuurproblemen aangetroffen. Heading-hiërarchie (H1 → H2 → H3 → H4 → H5) correct en consistent. Vier concrete voorbeelden aanwezig. Sectie voor VZW's/IVZW's/stichtingen volledig. Geen TOC-resten, geen OCR-verwarring, geen pseudo-tabellen, geen afgekapte zinnen. Voetnoten 1-22 intact.
-    status: trusted
 themas:
   - jaarrekening
   - gegevens bestuurder
@@ -57,8 +25,32 @@ themas:
   - monistisch bestuur
   - duaal bestuur
   - gecoöpteerd bestuurder
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:38Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2020/09 – Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris
 
 ## Inleiding

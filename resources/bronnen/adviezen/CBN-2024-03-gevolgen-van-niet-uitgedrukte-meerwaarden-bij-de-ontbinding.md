@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
     url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
 nummer: CBN-advies 2024/03
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-van-niet-uitgedrukte-meerwaarden-bij-de-ontbinding
-      sha256: 5e6db05c468c4f702b469948fe212f35f9a2e631860812c8abc57e0af42c5c9c
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 0
-      max_section_chars: 10404
-      file_size_chars: 10404
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Recent (2024) inhoudelijk compleet advies met twee scenarios, rol bestuursorgaan, uitbreiding naar VZW''s. Footnotes correct met WVV-artikelverwijzingen.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - ontbinding
   - niet-uitgedrukte meerwaarde
@@ -54,8 +22,32 @@ themas:
   - staat van activa en passiva
   - latente meerwaarde
   - ontbindingsvoorstel
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-van-niet-uitgedrukte-meerwaarden-bij-de-ontbinding
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:50Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2024/03 – Gevolgen van niet-uitgedrukte meerwaarden bij de ontbinding
 
 Het komt voor dat een vennootschap bij een vrijwillige ontbinding over een actiefbestanddeel beschikt waarop een niet-uitgedrukte meerwaarde rust. Overeenkomstig art. 2:71, § 2 van het Wetboek van vennootschappen en verenigingen (hierna: WVV) wordt het ontbindingsvoorstel door het bestuursorgaan toegelicht in een verslag dat wordt vermeld in de agenda van de algemene vergadering die zich over de ontbinding moet uitspreken. Bij dat verslag wordt een staat van activa en passiva gevoegd, die niet meer dan drie maanden vóór de algemene vergadering, die over het ontbindingsvoorstel moet besluiten, is afgesloten. Aan de Commissie werd de vraag gesteld inzake de implicaties van deze niet-uitgedrukte meerwaarden in de staat van activa en passiva die bij het verslag inzake het ontbindingsvoorstel moet worden gevoegd.

@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/passende-boekhoudkundige-verwerking-van-de-tegenwaarde-van-participatiecertificaten-cpcs
 datum: 1991-03-01
 nummer: CBN-advies 164
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/passende-boekhoudkundige-verwerking-van-de-tegenwaarde-van-participatiecertificaten-cpcs
-      sha256: 3535a812b2e54ae3dcb7d33c0395e4b30f14b153cb808580927da92a12fae800
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:42Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 2275
-      file_size_chars: 2275
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen ETL-artefacten. Proza correct, italics (*Niet-converteerbare achtergestelde leningen*) correct gesloten. Inhoud volledig: CPC-kenmerken, eigen-vermogensclassificatie en omzettingsregel aanwezig.'
-      run_at: '2026-05-11T12:04:42Z'
-      status: trusted
-    rationale: 'Geen ETL-artefacten. Proza correct, italics (*Niet-converteerbare achtergestelde leningen*) correct gesloten. Inhoud volledig: CPC-kenmerken, eigen-vermogensclassificatie en omzettingsregel aanwezig.'
-    status: trusted
 themas:
   - achtergestelde obligatie
   - cpc
@@ -42,8 +10,32 @@ themas:
   - participatiecertificaat
   - obligaties
   - winstbewijs
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/passende-boekhoudkundige-verwerking-van-de-tegenwaarde-van-participatiecertificaten-cpcs
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:45Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 164 - Passende boekhoudkundige verwerking van de tegenwaarde van participatiecertificaten CPC's
 
 Aan de Commissie werd gevraagd hoe de tegenwaarde van het onlangs gecreëerde instrument, het participatiecertificaat, verkort "CPC" genaamd, boekhoudkundig moet worden verwerkt. 

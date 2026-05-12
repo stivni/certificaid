@@ -6,44 +6,36 @@ gerelateerde_adviezen:
     titel: De boekhoudkundige verwerking van immateriële vaste activa
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
 nummer: CBN-advies 158/1
-provenance:
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-afschrijving-en-ontginning-in-concessie-van
-      sha256: 08e46100637031f687700017facf7e19aed6f6f370c0da7b2d8a08fc11f758d4
-      version:
-  tooling:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    model:
-    prompt_version:
-  generated_at: '2026-05-11T19:17:25Z'
-  stale: false
-  stale_reason:
-  trust:
-    status: trusted
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Volledig schoon advies. Heading-hiërarchie correct (## en ###), paragraftekst vloeiend, voetnoot [^1] correct gekoppeld. Geen extractie-artefacten. Inhoud compleet (verwerving eigendom + concessie + contractuele verplichtingen).'
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 8
-      max_section_chars: 3161
-      file_size_chars: 5824
-      flags: []
-    layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: 'Volledig schoon advies. Heading-hiërarchie correct (## en ###), paragraftekst vloeiend, voetnoot [^1] correct gekoppeld. Geen extractie-artefacten. Inhoud compleet (verwerving eigendom + concessie + contractuele verplichtingen).'
-      concrete_problemen: []
 themas:
   - concessie
   - materiële vaste activa
   - Natuurlijke rijkdom
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-afschrijving-en-ontginning-in-concessie-van
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:44Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 158/1 - Boekhoudkundige verwerking van de aankoop, afschrijving en ontginning in concessie van natuurlijke rijkdommen
 
 Meestal wordt een natuurlijke rijkdom in eigendom verworven of in concessie ontvangen.

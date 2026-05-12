@@ -15,54 +15,6 @@ gerelateerde_adviezen:
     titel: Toekenning van gratis aandelen (Restricted Stock Units) als bonus
     url: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
 nummer: CBN-advies 2018/15
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen
-      sha256: 64830a3e26e539c0098498821c4e375822e63ee6e3d5f4c5b58cf9c352e75272
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 11
-      max_section_chars: 5024
-      file_size_chars: 23585
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 146
-          type: other
-          voorbeeld: de pensioentoezegging die door de *inrichter *wordt gegeven
-        - categorie: D4
-          regel: 148
-          type: other
-          voorbeeld: Opdat de *pensioeninstelling *ook effectief in staat zou zijn
-        - categorie: D4
-          regel: 217
-          type: other
-          voorbeeld: '***Samenvattend** *kan dus besloten worden'
-        - categorie: D4
-          regel: 235
-          type: other
-          voorbeeld: '**Geen externalisering van* alle *risico''s **'
-      rationale: 'D4: regel 146 heeft ''*inrichter *'' en regel 148 heeft ''*pensioeninstelling *'' — spatie vóór sluitende asterisk, malformed italic. Regel 217: ''***Samenvattend** *kan dus besloten worden'' — inconsistent gemengd bold/italic waarbij de sluitende markers in verkeerde volgorde staan. Regel 235: ''**Geen externalisering van* alle *risico''s **'' — inconsistente nesting van bold en italic markers.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'D4: regel 146 heeft ''*inrichter *'' en regel 148 heeft ''*pensioeninstelling *'' — spatie vóór sluitende asterisk, malformed italic. Regel 217: ''***Samenvattend** *kan dus besloten worden'' — inconsistent gemengd bold/italic waarbij de sluitende markers in verkeerde volgorde staan. Regel 235: ''**Geen externalisering van* alle *risico''s **'' — inconsistente nesting van bold en italic markers.'
-    status: needs-rework
 themas:
   - voorziening
   - pensioentoezegging
@@ -74,8 +26,32 @@ themas:
   - rendementswaarborg
   - externalisatieverplichting
   - aanvullend pensioen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:30Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/15 – Boekhoudkundige verwerking van onder meer de rendementswaarborg voor werkgeversbijdragen in het kader van een aanvullende pensioentoezegging
 
 ## Algemeen

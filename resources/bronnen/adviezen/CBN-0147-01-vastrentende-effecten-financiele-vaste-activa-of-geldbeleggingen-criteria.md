@@ -6,38 +6,6 @@ gerelateerde_adviezen:
     titel: Bezit van maatschappelijke rechten in verbonden ondernemingen of in ondernemingen waarmee een deelnemingsverhouding bestaat - Begrip deelneming
     url: https://www.cbn-cnc.be/nl/adviezen/bezit-van-maatschappelijke-rechten-in-verbonden-ondernemingen-of-in-ondernemingen-waarmee
 nummer: CBN-advies 147/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria
-      sha256: fe061a0eb4762f8740523a558aaafc6478ca4ad0d47b65c639685dc9cd3728d3
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 2736
-      file_size_chars: 2736
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: vraagstelling, criterium, twee categorieën, antwoord. Geen artefacten.'
-      run_at: '2026-05-11T12:04:41Z'
-      status: trusted
-    rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: vraagstelling, criterium, twee categorieën, antwoord. Geen artefacten.'
-    status: trusted
 themas:
   - duurzame band
   - duurzame ondersteuning
@@ -45,8 +13,32 @@ themas:
   - geldbeleggingen
   - obligaties
   - vastrentende effecten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vastrentende-effecten-financiele-vaste-activa-of-geldbeleggingen-criteria
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:38Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 147/1 - Vastrentende effecten : financiële vaste activa of geldbeleggingen ? Criteria
 
 Krachtens het koninklijk besluit van 8 oktober 1976 kunnen obligaties hetzij als financiële vaste activa, hetzij als geldbelegging worden geboekt; op grond van dit onderscheid worden zij in de overeenstemmende actiefrubrieken ondergebracht.

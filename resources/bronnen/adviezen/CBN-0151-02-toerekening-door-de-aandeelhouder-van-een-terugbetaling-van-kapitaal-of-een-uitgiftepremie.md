@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
 nummer: CBN-advies 151/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
-      sha256: 8c2007001e437847254de171c8f00eb996ea682a5abfe87cc015de5b022de0b1
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 11726
-      file_size_chars: 11726
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Inhoudelijk volledig met heldere tweedeling, genummerde paragrafen en concrete conclusie. Past perfect als één RAG-chunk.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - deelneming
   - dividenden
@@ -62,8 +30,32 @@ themas:
   - Waardevermindering
   - aandelen
   - financiële vaste activa
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toerekening-door-de-aandeelhouder-van-een-terugbetaling-van-kapitaal-of-een-uitgiftepremie
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:41Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 151/2 - Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves
 
 Wanneer een vennootschap beslist om aan haar aandeelhouders een deel van haar kapitaal of uitgiftepremies terug te betalen dan wel reserves uit te keren, rijst de vraag in welke gevallen en ten belope van welke bedragen alsook op grond van welke criteria de door de aandeelhouder ontvangen bedragen voor hem een opbrengst vormen die hij in zijn resultatenrekening moet opnemen, dan wel een vermindering van zijn investering in de betrokken aandelen, die van de aanschaffingswaarde van die aandelen moet worden afgetrokken. 

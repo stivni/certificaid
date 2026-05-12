@@ -15,42 +15,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van een kapitaalverhoging als gevolg van de conversie in aandelen van obligaties uitgedrukt in Ecu of in andere vreemde valuta
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-kapitaalverhoging-als-gevolg-van-de-conversie-in
 nummer: CBN-advies 152/6
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/risicos-verbonden-aan-bestellingen-van-vaste-activa
-      sha256: 25fc0b1d69db719c2d234e8a5832b6351e473457cc683784b39671fa707277c7
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 2433
-      file_size_chars: 2433
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: F1
-          regel: 60
-          type: other
-          voorbeeld: '- risico&#039;s verbonden aan bestellingen van vaste activa'
-      rationale: 'Vorig verdict bevestigd. F1 r.60: HTML-entiteit ''&#039;'' niet gedecodeerd in het themas-veld (''risico&#039;s verbonden aan bestellingen van vaste activa'') — ETL-bug. Body volledig en schoon.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'Vorig verdict bevestigd. F1 r.60: HTML-entiteit ''&#039;'' niet gedecodeerd in het themas-veld (''risico&#039;s verbonden aan bestellingen van vaste activa'') — ETL-bug. Body volledig en schoon.'
-    status: needs-rework
 themas:
   - deviezen
   - risico&#039;s verbonden aan bestellingen van vaste activa
@@ -59,8 +23,32 @@ themas:
   - voorziening
   - wisselverschil
   - bestellingen van vaste activa in vreemde valuta
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/risicos-verbonden-aan-bestellingen-van-vaste-activa
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:42Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 152/6 - Risico's verbonden aan bestellingen van vaste activa
 
 Artikel 19, zesde lid van het koninklijk besluit van 8 oktober 1976 voert de verplichting in om voorzieningen te vormen voor "de verliesrisico's die voor de onderneming voortvloeien uit (...) verbintenissen tot aankoop (...) van vaste activa (...), uit termijnposities of -overeenkomsten in deviezen (...)".

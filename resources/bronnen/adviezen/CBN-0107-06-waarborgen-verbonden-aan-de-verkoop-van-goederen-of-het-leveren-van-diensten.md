@@ -15,43 +15,35 @@ gerelateerde_adviezen:
     titel: Toekenning van gratis aandelen (Restricted Stock Units) als bonus
     url: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
 nummer: CBN-advies 107/6
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/waarborgen-verbonden-aan-de-verkoop-van-goederen-of-het-leveren-van-diensten
-      sha256: 3c6bb203772ae565a7e0c086eb61a89cc3ea4da79869e94f964196ab3800db4f
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 3060
-      file_size_chars: 3060
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Laag-1 pass (3060 chars). Geen extractie-artefacten: prose vloeit door zonder gebroken regels, geen HTML-entities, geen unicode-problemen. Italic correct op *Voorzieningen* en *Besteding van voorzieningen* (regel 69). Inhoud volledig en goed gestructureerd als lopende tekst.'
-      run_at: '2026-05-11T11:57:45Z'
-      status: trusted
-    rationale: 'Laag-1 pass (3060 chars). Geen extractie-artefacten: prose vloeit door zonder gebroken regels, geen HTML-entities, geen unicode-problemen. Italic correct op *Voorzieningen* en *Besteding van voorzieningen* (regel 69). Inhoud volledig en goed gestructureerd als lopende tekst.'
-    status: trusted
 themas:
   - voorziening
   - waarborg
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/waarborgen-verbonden-aan-de-verkoop-van-goederen-of-het-leveren-van-diensten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:10Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 107/6 - Waarborgen verbonden aan de verkoop van goederen of het leveren van diensten
 
 Meestal worden bij verkoop van goederen of het leveren van diensten, op grond van hetzij gemeenrechtelijke regels of bijzondere contractuele bepalingen, waarborgen verleend zoals waarborgen tegen verborgen gebreken, conformiteitswaarborgen, waarborgen voor «stukken en arbeidsloon», enz. Uiteindelijk wil de verkoper of dienstverlener hierdoor binnen zekere grenzen en gedurende een welbepaalde tijd waarborgen dat het verkochte voorwerp of de geleverde dienst overeenstemt hetzij met de contractuele bepalingen, hetzij met de rechtmatige verwachtingen van de koper met betrekking tot de verkregen zaak of dienst.

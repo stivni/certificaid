@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/subsidies-en-schenkingen-vanuit-het-oogpunt-van-de-verstrekkende-vereniging-of-stichting
 datum: 2010-11-10
 nummer: CBN-advies 2010/18
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/subsidies-en-schenkingen-vanuit-het-oogpunt-van-de-verstrekkende-vereniging-of-stichting
-      sha256: c7b39235700056bc5c9e144ded0d7577e9a7c51b767eb849ff0fc187fb8e6cb7
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 13
-      max_section_chars: 3833
-      file_size_chars: 6881
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r55-64 TOC) is niet bevestigd: de body bevat enkel inleidingstekst gevolgd door correcte ## en ### headings. Zes voorbeelden met pipe-tabellen zijn correct opgemaakt. Voetnoot [^1] is gedefinieerd en gerefereerd. Geen OCR, scrambling, broken markup of structuurproblemen gevonden.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: trusted
-    rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r55-64 TOC) is niet bevestigd: de body bevat enkel inleidingstekst gevolgd door correcte ## en ### headings. Zes voorbeelden met pipe-tabellen zijn correct opgemaakt. Voetnoot [^1] is gedefinieerd en gerefereerd. Geen OCR, scrambling, broken markup of structuurproblemen gevonden.'
-    status: trusted
 themas:
   - gratis verstrekte dienst
   - om niet
@@ -44,8 +12,32 @@ themas:
   - subsidies in natura
   - vereniging zonder winstoogmerk
   - vrijwilligersprestatie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/subsidies-en-schenkingen-vanuit-het-oogpunt-van-de-verstrekkende-vereniging-of-stichting
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:57Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2010/18 - Subsidies en schenkingen vanuit het oogpunt van de verstrekkende vereniging of stichting
 
 Verenigingen en stichtingen verkrijgen dikwijls geldmiddelen en goederen om niet met het oog op het realiseren van bepaalde vormen van dienstverlening of het uitvoeren van bepaalde programma’s. Dergelijke subsidies en schenkingen worden vaak toegekend door andere verenigingen en stichtingen[^1]. 

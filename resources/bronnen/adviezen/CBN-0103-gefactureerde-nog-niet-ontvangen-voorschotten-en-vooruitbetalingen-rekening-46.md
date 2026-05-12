@@ -2,46 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/gefactureerde-nog-niet-ontvangen-voorschotten-en-vooruitbetalingen-rekening-46
 datum: 1981-04-01
 nummer: CBN-advies R103
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/gefactureerde-nog-niet-ontvangen-voorschotten-en-vooruitbetalingen-rekening-46
-      sha256: 8984215a8cc3f55508224e316bb671bdff8327f7328acd0085a73f79beae77eb
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:20Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 1220
-      file_size_chars: 1220
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 62
-          type: pseudo-table
-          voorbeeld: '| | Rekening | Omschrijving | Debet | Credit | — lege eerste kolom zonder header-label'
-        - categorie: E2
-          regel: 64
-          type: pseudo-table
-          voorbeeld: '| | 460 | Te ontvangen | | | — lege eerste kolom herhaald op datarij'
-      rationale: 'E2: markdown-tabel (regels 62-65) heeft een lege eerste kolom zonder header-label — elke rij (inclusief de sub-rijen 460 en 461) begint met ''| |'' waarvoor geen overeenkomstige header bestaat. ETL heeft de originele rekeningstructuur niet correct naar pipe-markdown vertaald. De overige body-tekst is volledig en clean.'
-      run_at: '2026-05-11T17:05:20Z'
-      status: needs-rework
-    rationale: 'E2: markdown-tabel (regels 62-65) heeft een lege eerste kolom zonder header-label — elke rij (inclusief de sub-rijen 460 en 461) begint met ''| |'' waarvoor geen overeenkomstige header bestaat. ETL heeft de originele rekeningstructuur niet correct naar pipe-markdown vertaald. De overige body-tekst is volledig en clean.'
-    status: needs-rework
 themas:
   - gefactureerde voorschotten en vooruitbetalingen
   - nog niet ontvangen voorschotten en vooruitbetalingen
@@ -49,8 +9,32 @@ themas:
   - te innen voorschotten en vooruitbetalingen
   - voorschot
   - Vooruitbetaling
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/gefactureerde-nog-niet-ontvangen-voorschotten-en-vooruitbetalingen-rekening-46
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:06Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies R103 - Gefactureerde, nog niet ontvangen voorschotten en vooruitbetalingen - Rekening 46
 
 Naar aanleiding van een vraag daaromtrent heeft de Commissie geadviseerd dat op rekening 46 niet enkel de "ontvangen" - in de zin van effectief geïnde - voorschotten en vooruitbetalingen worden geboekt, doch eveneens de nog te innen voorschotten en vooruitbetalingen. Zodra derhalve een voorschot gefactureerd werd behoort het, hoewel nog niet "ontvangen", geboekt te worden op rekening 46.

@@ -15,45 +15,37 @@ gerelateerde_adviezen:
     titel: Duur van het boekjaar
     url: https://www.cbn-cnc.be/nl/adviezen/duur-van-het-boekjaar-0
 nummer: CBN-advies 7/3
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boek-waarin-de-jaarrekening-en-de-inventarisstukken-worden-opgenomen-opname-van-de
-      sha256: e35b96d4655ff00b9a460b23d13f3fbe2ab7b00ce92adcb097759721ca36af50
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:16:01Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 2737
-      file_size_chars: 2737
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel staat slechts eenmaal (r61). Geen andere artefacten gevonden: geen form-feeds, geen spurious line-breaks, geen TOC-residu, geen unicode-problemen, geen afgekapte zinnen. Voetnoten [^1] en [^2] correct aanwezig en gelinkt. Inhoud volledig (5 alinea''s, beide vragen beantwoord).'
-      run_at: '2026-05-11T13:16:01Z'
-      status: trusted
-    rationale: 'B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel staat slechts eenmaal (r61). Geen andere artefacten gevonden: geen form-feeds, geen spurious line-breaks, geen TOC-residu, geen unicode-problemen, geen afgekapte zinnen. Voetnoten [^1] en [^2] correct aanwezig en gelinkt. Inhoud volledig (5 alinea''s, beide vragen beantwoord).'
-    status: trusted
 themas:
   - inventaris
   - jaarrekening
   - opname waarderingsregels
   - waarderingsregels
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boek-waarin-de-jaarrekening-en-de-inventarisstukken-worden-opgenomen-opname-van-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:00Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN advies 7-3 - Boek waarin de jaarrekening en de inventarisstukken worden opgenomen - Opname van de waarderingsregels
 Toelichting werd gevraagd over het vereiste in artikel 7, derde lid van de wet met betrekking tot de opname van de jaarrekening in een boek waarin ook de inventarisstukken worden opgenomen. Meer in het bijzonder werd de vraag gesteld of dit ertoe leidt dat jaarlijks de toegepaste waarderingsregels *in extenso* in dit boek moeten worden weergegeven, zelfs zo tijdens het betrokken boekjaar geen afwijkingen noch wijzigingen ervan werden doorgevoerd. 
 

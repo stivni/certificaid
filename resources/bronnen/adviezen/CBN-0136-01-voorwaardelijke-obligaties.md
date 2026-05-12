@@ -15,45 +15,37 @@ gerelateerde_adviezen:
     titel: 'Afwijking inzake functionele valuta: praktische implicaties en procedure'
     url: https://www.cbn-cnc.be/nl/adviezen/afwijking-inzake-functionele-valuta-praktische-implicaties-en-procedure
 nummer: CBN-advies 136/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/voorwaardelijke-obligaties
-      sha256: 239e723a8f3ae87eb5e7b40b03a303369a95c62cc716b43c26b46d5636e1542d
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 1438
-      file_size_chars: 1438
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Kort advies (1438 tekens), clean prose. Geen extractie-artefacten aangetroffen.
-      run_at: '2026-05-11T12:04:41Z'
-      status: trusted
-    rationale: Kort advies (1438 tekens), clean prose. Geen extractie-artefacten aangetroffen.
-    status: trusted
 themas:
   - toelichting
   - verplichting tot uitgifte van obligaties
   - voorwaardelijke obligaties
   - voorwaardelijke schuld
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorwaardelijke-obligaties
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:32Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 136/1 - Voorwaardelijke obligaties
 
 Tijdens de laatste jaren gebeurde het vaak dat de financiële steun van de overheid aan een onderneming in moeilijkheden gekoppeld werd aan de verplichting in hoofde van de begunstigde onderneming tot terugbetaling meer bepaald indien de onderneming terug rendabel zou worden en zij terug in staat zou zijn haar verliezen aan te zuiveren. 

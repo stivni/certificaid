@@ -15,44 +15,36 @@ gerelateerde_adviezen:
     titel: Vrijstelling van subconsolidatie
     url: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie
 nummer: CBN-advies C100
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-geconsolideerde-jaarrekening-van-de-vermogensbestanddelen-en-de
-      sha256: 12ca3d583e24f034d7620e86f5c24ff39894b85432fc6e2cf470c04b0478a4ba
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:51:19Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 1701
-      file_size_chars: 1701
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Drie alinea's, geen headings (heading_count=0, correct). Wetsartikel geciteerd als prose, geen tabellen of lijsten nodig. Geen artefacten, inhoud volledig en afgerond.
-      run_at: '2026-05-11T11:51:19Z'
-      status: trusted
-    rationale: Drie alinea's, geen headings (heading_count=0, correct). Wetsartikel geciteerd als prose, geen tabellen of lijsten nodig. Geen artefacten, inhoud volledig en afgerond.
-    status: trusted
 themas:
   - geconsolideerde jaarrekening
   - resultaten
   - verwerking van vermogensbestanddelen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-geconsolideerde-jaarrekening-van-de-vermogensbestanddelen-en-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:02Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies C100 - Verwerking in de geconsolideerde jaarrekening van de vermogensbestanddelen en de resultaten op de datum waarop de geconsolideerde jaarrekening wordt afgesloten
 
 Artikel 25 van het koninklijk besluit van 6 maart 1990 luidt als volgt : 

@@ -2,44 +2,36 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
 datum: 2012-07-04
 nummer: CBN-advies 2012/10
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
-      sha256: 6b99fb366e6ded06b001c98cccac8e5f1d7de48d1cd863427e16c406d60f1cf2
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:19:36Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 6
-      max_section_chars: 3283
-      file_size_chars: 10964
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Vorig verdict (needs-rework A3) was fout: regel 89 is een echte ## heading ''CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting...'' — een afzonderlijk advies dat als sectie in de body staat, niet een duplicate TOC-blob. Document is volledig schoon: 6 correcte headings, alle voetnoten [^1]–[^12] aanwezig en gedefinieerd, geen form-feeds, geen onzichtbare unicode, geen column-bleed.'
-      run_at: '2026-05-11T15:19:36Z'
-      status: trusted
-    rationale: 'Vorig verdict (needs-rework A3) was fout: regel 89 is een echte ## heading ''CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting...'' — een afzonderlijk advies dat als sectie in de body staat, niet een duplicate TOC-blob. Document is volledig schoon: 6 correcte headings, alle voetnoten [^1]–[^12] aanwezig en gedefinieerd, geen form-feeds, geen onzichtbare unicode, geen column-bleed.'
-    status: trusted
 themas:
   - te verwaarlozen betekenis
   - vrijstelling
   - geconsolideerde jaarrekening
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/te-verwaarlozen-betekenis
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:07Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2012/10 - Te verwaarlozen betekenis
 
 ## Inleiding

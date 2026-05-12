@@ -2,54 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/termijnovereenkomsten-op-handelsgoederen
 datum: 1988-06-01
 nummer: CBN-advies 132/4
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/termijnovereenkomsten-op-handelsgoederen
-      sha256: fba281e0eaf4069ff985457ce4e9bcd65ae43e05810f2cb55639e7daa3afe6f7
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 8
-      max_section_chars: 9069
-      file_size_chars: 12171
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 101
-          type: other
-          voorbeeld: niet voor in-resultaat- neming vatbaar is
-        - categorie: A6
-          regel: 113
-          type: other
-          voorbeeld: niet voor in-resultaat- neming vatbaar is
-        - categorie: A6
-          regel: 117
-          type: other
-          voorbeeld: het hieraan verbonden prijs- risico gedekt
-        - categorie: A6
-          regel: 129
-          type: other
-          voorbeeld: een niet- gerealiseerde winst (niet in resultaat te nemen)
-      rationale: 'A6 op meerdere regels: hyphen-spatie word-splits ''in-resultaat- neming'' (L101, L113), ''prijs- risico'' (L117), ''niet- gerealiseerde'' (L129) — PDF-regelbreuk-artefacten consistent door het bestand. Heading-hiërarchie in de huidige body is correct (H1→H2→H3), dus B2 van eerdere ronde is niet meer van toepassing.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'A6 op meerdere regels: hyphen-spatie word-splits ''in-resultaat- neming'' (L101, L113), ''prijs- risico'' (L117), ''niet- gerealiseerde'' (L129) — PDF-regelbreuk-artefacten consistent door het bestand. Heading-hiërarchie in de huidige body is correct (H1→H2→H3), dus B2 van eerdere ronde is niet meer van toepassing.'
-    status: needs-rework
 themas:
   - gedekte verrichting
   - handelsgoederen
@@ -61,8 +13,32 @@ themas:
   - voorraden
   - voorziening
   - voorzieningen voor andere risico’s en kosten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/termijnovereenkomsten-op-handelsgoederen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:30Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 132/4 - Termijnovereenkomsten op handelsgoederen
 
 ### Beginselen

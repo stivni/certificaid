@@ -15,60 +15,36 @@ gerelateerde_adviezen:
     titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
 nummer: CBN-advies 2012/7
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
-      sha256: dc95420e9c652b744e721087806cdbf2d4fac9f260be6e391e05124393bf9444
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 19
-      max_section_chars: 15306
-      file_size_chars: 28729
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B5
-          regel: 130
-          type: other
-          voorbeeld: Boekhoudkundige kwalificatie van de rechten verbonden aan de productie en de exploitatie van het audiovisueel werk
-        - categorie: B5
-          regel: 147
-          type: other
-          voorbeeld: Te verrichten boekingen tijdens de verschillende fasen van het vrijstellingsmechanisme van de tax shelter
-        - categorie: E2
-          regel: 181
-          type: pseudo-table
-          voorbeeld: "| | 51 | Aandelen (rechten op de opbrengsten van het \n\t\t\taudiovisueel werk [X] ) | 60 | |"
-        - categorie: E2
-          regel: 203
-          type: pseudo-table
-          voorbeeld: "| | 09 | Verkoopoptie van de rechten op de opbrengsten van het \n\t\t\taudiovisueel werk [X] | 15 | |"
-      rationale: 'B5: regels 130 en 147 tonen sectie-titels (''Boekhoudkundige kwalificatie van de rechten...'' en ''Te verrichten boekingen tijdens de verschillende fasen...'') als plain-text alinea''s zonder heading-prefix, terwijl dit duidelijk sectieniveaus zijn op ## niveau. E2: regels 181-182 en 203-206 tonen gebroken tabelrijen met omschrijvingen die over meerdere regels lopen met tab-inspringing buiten de cellen.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'B5: regels 130 en 147 tonen sectie-titels (''Boekhoudkundige kwalificatie van de rechten...'' en ''Te verrichten boekingen tijdens de verschillende fasen...'') als plain-text alinea''s zonder heading-prefix, terwijl dit duidelijk sectieniveaus zijn op ## niveau. E2: regels 181-182 en 203-206 tonen gebroken tabelrijen met omschrijvingen die over meerdere regels lopen met tab-inspringing buiten de cellen.'
-    status: needs-rework
 themas:
   - tax shelter
   - belastingvrije reserves
   - geldbeleggingen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-investeerder
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:06Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2012/7 - De boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder Advies van 17 april 2012
 
 ## Inleiding

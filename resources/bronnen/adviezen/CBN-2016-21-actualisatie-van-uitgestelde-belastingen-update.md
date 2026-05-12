@@ -2,42 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
 datum: 2016-09-28
 nummer: CBN-advies 2016/21
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
-      sha256: 06f83943967c5156ac3f0fd9e5a8010d8afed43963a2eb67364d2ad85afabfe2
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:39Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 0
-      max_section_chars: 4563
-      file_size_chars: 4563
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 56
-          type: other
-          voorbeeld: ', bijgewerkt op 10 september 2025[^2] (bijwerkingsannotatie als losstaand body-fragment na H1)'
-      rationale: 'A6/G3: regel 56 `, bijgewerkt op 10 september 2025[^2]` staat als losstaand fragment direct na H1-titel — bijwerkingsartefact van de CBN-scraper (identiek patroon als 2016/19). Inhoud verder als één aaneengesloten blok (heading_count=0) wat voor dit korte één-vraag-advies acceptabel is. Het artefact op regel 56 is een duidelijke ETL-bug.'
-      run_at: '2026-05-11T17:09:39Z'
-      status: needs-rework
-    rationale: 'A6/G3: regel 56 `, bijgewerkt op 10 september 2025[^2]` staat als losstaand fragment direct na H1-titel — bijwerkingsartefact van de CBN-scraper (identiek patroon als 2016/19). Inhoud verder als één aaneengesloten blok (heading_count=0) wat voor dit korte één-vraag-advies acceptabel is. Het artefact op regel 56 is een duidelijke ETL-bug.'
-    status: needs-rework
 themas:
   - actualisatie
   - gerealiseerde meerwaarde
@@ -49,8 +13,32 @@ themas:
   - opeisbaarheid van belastingen
   - getrouw beeld
   - voorziening
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/actualisatie-van-uitgestelde-belastingen-update
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:19Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/21 – Actualisatie van uitgestelde belastingen (update)
 
 , bijgewerkt op 10 september 2025[^2] 

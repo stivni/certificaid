@@ -2,54 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-renteswap-interest-rate-swap
 datum: 2011-10-05
 nummer: CBN-advies 2011/18
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-renteswap-interest-rate-swap
-      sha256: 09901efc13cc8117f278f027696548e4d44bbfecffcaa205aeb03b4e74210752
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 16
-      max_section_chars: 9480
-      file_size_chars: 36077
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A9
-          regel: 477
-          type: ocr-confusion
-          voorbeeld: '| | ndekkings-IRS (notioneel van 10.000.000 €, netto balanswaarde van -7.500 €) | -50.000 | | |'
-        - categorie: A9
-          regel: 486
-          type: ocr-confusion
-          voorbeeld: '| | ndekkings-IRS (notioneel van 10.000.000 €) | -42.500 | | |'
-        - categorie: B5
-          regel: 337
-          type: other
-          voorbeeld: De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet
-        - categorie: B5
-          regel: 382
-          type: other
-          voorbeeld: De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen
-      rationale: 'A9: regels 477 en 486 tonen ''ndekkings-IRS'' — de leidende ''I'' van ''Indekkings-IRS'' is weggevallen, consistent op twee plaatsen (OCR-verwarring). B5: regels 337 en 382 tonen sectie-titels (''De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet'' en ''De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen'') als plain-text alinea zonder ### prefix, terwijl de paragrafen er direct onder wel ### subheadings hebben.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'A9: regels 477 en 486 tonen ''ndekkings-IRS'' — de leidende ''I'' van ''Indekkings-IRS'' is weggevallen, consistent op twee plaatsen (OCR-verwarring). B5: regels 337 en 382 tonen sectie-titels (''De IRS als indekkingsverrichting van een lening of ontlening tegen variabele rentevoet'' en ''De IRS als indekkingsverrichting van een vastrentend effect opgenomen onder de geldbeleggingen'') als plain-text alinea zonder ### prefix, terwijl de paragrafen er direct onder wel ### subheadings hebben.'
-    status: needs-rework
 themas:
   - cash flow hedge
   - fair value hedge
@@ -58,8 +10,32 @@ themas:
   - interest Rate Swap
   - IRS
   - renteswap
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-renteswap-interest-rate-swap
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:03Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2011/18 – De boekhoudkundige verwerking van de renteswap (Interest Rate Swap)
 
 ## Inleiding
@@ -164,8 +140,7 @@ De IRS wordt op de orderekeningen geboekt, onder de diverse rechten en verplicht
 | | 09… | Renteswap – notioneel geleend bedrag | 5.000.000 | |
 | aan | 751 | Post | | 10.000 |
 
-*Op 30 september 2010*
-
+## Op 30 september 2010
 Op 30 september 2010 wordt het eerste deel van de variabele interesten (2 % van 5.000.000 EUR op 6 maanden, ofwel 50.000 EUR) ontvangen en als volgt geboekt: 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -264,8 +239,7 @@ Op 31 maart 2011 heeft de onderneming recht op de tweede schijf van de variabele
 | | 550 | Kredietinstellingen: | 112.500 | |
 | | rekening-courant | | | |
 
-*Op 30 september 2011*
-
+## Op 30 september 2011
 Op 30 september 2011 wordt de derde schijf aan variabele interesten (2,5% van 5.000.000 EUR op 6 maanden, ofwel 62.500 EUR) ontvangen en als volgt geboekt:
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -301,8 +275,7 @@ Op 31 december 2011 is de marktwaarde van de IRS positief ten belope van een bed
 
 Zo vertoont de verrichting een latente winst die niet in resultaat dient erkend te worden volgens het voorzichtigheidsprincipe, dat voorschrijft dat niet gerealiseerde opbrengsten niet geboekt dienen te worden.
 
-*Vanaf 1 januari 2012 tot op de vervaldag van de IRS*
-
+## Vanaf 1 januari 2012 tot op de vervaldag van de IRS
 Tot aan de vervaldag wordt de IRS verwerkt volgens de eerder aangehaalde boekingen. 
 
 *Op de vervaldag* 

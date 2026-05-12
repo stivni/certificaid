@@ -15,46 +15,6 @@ gerelateerde_adviezen:
     titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
 nummer: CBN-advies 117/3
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro
-      sha256: 31318435a29991bcbeb515e0d31d19760d5c140e282ad7e8200b3872787c2071
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:20Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 3
-      max_section_chars: 3969
-      file_size_chars: 11457
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 97
-          type: other
-          voorbeeld: ''' Bij de opstelling van de jaarrekening bepaalt iedere entiteit'''
-        - categorie: A6
-          regel: 118
-          type: other
-          voorbeeld: ''' Tenzij de transacties steevast in een andere munt dan de euro'''
-      rationale: 'A6: regel 97 en 118 beginnen met een leading space ('' Bij de opstelling...'' en '' Tenzij de transacties...'') — spurious line-break artefacten, typisch PDF-extractie waarbij een alinea-opening een spatie-prefix meekreeg. Heading-hiërarchie is correct (H1 → H2 → H2 → H2); eerdere B2-claim was onjuist.'
-      run_at: '2026-05-11T17:05:20Z'
-      status: needs-rework
-    rationale: 'A6: regel 97 en 118 beginnen met een leading space ('' Bij de opstelling...'' en '' Tenzij de transacties...'') — spurious line-break artefacten, typisch PDF-extractie waarbij een alinea-opening een spatie-prefix meekreeg. Heading-hiërarchie is correct (H1 → H2 → H2 → H2); eerdere B2-claim was onjuist.'
-    status: needs-rework
 themas:
   - afwijking
   - functionele munt
@@ -67,8 +27,32 @@ themas:
   - opstelling van de jaarrekening in vreemde munt
   - voeren van de boekhouding
   - vreemde munt
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:22Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 117/3 - Voeren van de boekhouding en opstellen van de jaarrekening in een andere munt dan de euro
 
 De Commissie kreeg de afgelopen tijd een aantal aanvragen van vennootschappen met de vraag het voeren van de boekhouding en het opstellen van de enkelvoudige jaarrekening niet te doen in euro maar in een andere functionele munt.

@@ -2,55 +2,35 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/financieringskostensurplus-artikel-194sexies-en-artikel-1981-wib-92
 datum: 2020-05-27
 nummer: CBN-advies 2020/06
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/financieringskostensurplus-artikel-194sexies-en-artikel-1981-wib-92
-      sha256: 83563083987172e5387a3f35944819c0eeb009df6968445d048464f0747c5ccc
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 37
-      max_section_chars: 20526
-      file_size_chars: 29995
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B2
-          regel: 170
-          type: other
-          voorbeeld: '## Bij de eindejaarsverrichtingen op 31/12/N en het sluiten van de interestaftrekovereenkomst'
-        - categorie: B2
-          regel: 182
-          type: other
-          voorbeeld: '### In hoofde van vennootschap Y (ontvanger van de vergoeding)'
-        - categorie: B2
-          regel: 201
-          type: other
-          voorbeeld: '## Bij de eindejaarsverrichtingen op 31/12/N'
-      rationale: 'B2: systematische heading-hiërarchiesprongen doorheen het voorbeeldendeel — `## Bij de eindejaarsverrichtingen` (regels 170, 184, 201, 208, 217, 224, 238, 242) en `### In hoofde van vennootschap X/Y` (regels 182, 191, 197, 215, 236, 259, 270, 276, 294) staan op ##/###-niveau terwijl hun logische ouder-headings op #####-niveau staan. Dit is een structureel extractieprobleem waarbij sub-sectietitels als top-level headings zijn gerenderd.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'B2: systematische heading-hiërarchiesprongen doorheen het voorbeeldendeel — `## Bij de eindejaarsverrichtingen` (regels 170, 184, 201, 208, 217, 224, 238, 242) en `### In hoofde van vennootschap X/Y` (regels 182, 191, 197, 215, 236, 259, 270, 276, 294) staan op ##/###-niveau terwijl hun logische ouder-headings op #####-niveau staan. Dit is een structureel extractieprobleem waarbij sub-sectietitels als top-level headings zijn gerenderd.'
-    status: needs-rework
 themas:
   - financieringskostensurplus
   - interestaftrekovereenkomst
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/financieringskostensurplus-artikel-194sexies-en-artikel-1981-wib-92
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:38Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2020/06 – Financieringskostensurplus (artikel 194sexies en artikel 198/1 WIB 92)
 
 ## Inleiding

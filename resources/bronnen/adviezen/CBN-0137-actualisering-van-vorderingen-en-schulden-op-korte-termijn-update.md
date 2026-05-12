@@ -6,38 +6,6 @@ gerelateerde_adviezen:
     titel: Renteloze vorderingen (schulden) en vorderingen (schulden) met een abnormaal lage rente, op meer dan één jaar
     url: https://www.cbn-cnc.be/nl/adviezen/renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op
 nummer: CBN-advies 137/9
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
-      sha256: f80fc19159bc3be038cb0b293c47843b630ae221af7b778a1e39123a9f3af147
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:15:33Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 1
-      max_section_chars: 1753
-      file_size_chars: 1753
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Kort advies (1759 chars, 1 heading) zonder ETL-artefacten. Inhoud volledig: de vraag, het antwoord van de Commissie en de wettelijke onderbouwing zijn aanwezig. Voetnoot correct geformatteerd als [^1]. Geen A-G-categorie problemen aangetroffen.'
-      run_at: '2026-05-11T15:15:33Z'
-      status: trusted
-    rationale: 'Kort advies (1759 chars, 1 heading) zonder ETL-artefacten. Inhoud volledig: de vraag, het antwoord van de Commissie en de wettelijke onderbouwing zijn aanwezig. Voetnoot correct geformatteerd als [^1]. Geen A-G-categorie problemen aangetroffen.'
-    status: trusted
 themas:
   - Vorderingen met een abnormaal lage rente
   - waardering
@@ -48,8 +16,32 @@ themas:
   - renteloze vorderingen
   - schulden
   - vordering
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/actualisering-van-vorderingen-en-schulden-op-korte-termijn-update
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:33Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)
 ## Advies van februari 1993, bijgewerkt op 10 september 2025
 Aan de Commissie werd gevraagd of ondernemingen op grond van de boekhoudwetgeving hun vorderingen en schulden op korte termijn mogen waarderen tegen hun actuele waarde, dus na actualisering. 

@@ -15,44 +15,36 @@ gerelateerde_adviezen:
     titel: Inresultaatneming van het actuariële rendement van vastrentende effecten
     url: https://www.cbn-cnc.be/nl/adviezen/inresultaatneming-van-het-actuariele-rendement-van-vastrentende-effecten
 nummer: CBN-advies 2016/10
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
-      sha256: 28e49e5f323d3aa862bc98ab17efabc5f617e203cf6e0e8f2ca40e57e6e62e9e
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T21:31:12Z'
-    confirmed_by: human
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 0
-      max_section_chars: 4628
-      file_size_chars: 4628
-      flags: []
-    layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
-    status: trusted
 themas:
   - nominale waarde
   - schulden
   - vordering
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-en-vorderingen-gevolgen-van-de-wijzigingen-aan-artikel-67-kb-wvenn-door-het
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:17Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/10 – Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn. door het koninklijk besluit van 18 december 2015
 
 CBN-advies 2016/10 – Schulden en vorderingen: gevolgen van de wijzigingen aan artikel 67 KB W.Venn. door het koninklijk besluit van 18 december 2015

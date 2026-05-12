@@ -6,62 +6,6 @@ gerelateerde_adviezen:
     titel: De boekhoudkundige verwerking van subsidies waarvan de toekenning niet gegarandeerd is (eventuele rechten)
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-subsidies-waarvan-de-toekenning-niet-gegarandeerd-is
 nummer: CBN-advies 2009/3
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling
-      sha256: 0d2e9abf1e2373b5da82f777a4eb4ecb1d4cbe61ee161a4f7847c6d2f1c1a0e5
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 16
-      max_section_chars: 11776
-      file_size_chars: 19617
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B4
-          regel: 76
-          type: other
-          voorbeeld: '## INLEIDING (all-caps ##-heading)'
-        - categorie: E2
-          regel: 180
-          type: other
-          voorbeeld: Tabel 1 (plain-text placeholder zonder tabelinhoud — inresultaatnemingstabel kapitaalsubsidie)
-        - categorie: E2
-          regel: 186
-          type: other
-          voorbeeld: Tabel 2 (plain-text placeholder zonder tabelinhoud — aflossingsplan krediet)
-        - categorie: E2
-          regel: 259
-          type: other
-          voorbeeld: Tabel 3 (plain-text placeholder zonder tabelinhoud — inresultaatneming voorbeeld 2)
-        - categorie: D4
-          regel: 164
-          type: other
-          voorbeeld: '***a) Voorbeeld 1 : Subsidie verkregen...** * (ongematcht *** vs **)'
-        - categorie: B2
-          regel: 170
-          type: other
-          voorbeeld: '## ii. Inresultaatneming van de kapitaalsubsidie (## voor subpunt binnen opsomming)'
-      rationale: 'Meerdere artefacten bevestigd: B4 r.76/84/95/142: vier ##-headings in all-caps (''## INLEIDING'', ''## OVERZICHT VAN DE ALGEMENE BEGINSELEN'', ''## BEOORDELING VAN HET VASTSTAAND KARAKTER'', ''## VOORBEELDEN'') i.p.v. normale schrijfwijze. E2 r.146/162/180/186/259: drie tabellen volledig afwezig — ''Tabel 1'' (r.180), ''Tabel 2'' (r.186), ''Tabel 3'' (r.259) zijn plain-text placeholders zonder tabelinhoud; dit is significante inhoudsverlies. D4 r.164: ''***a) Voorbeeld 1...**'' heeft ongematcht triple/double asterisk. Ook r.170: ''## ii. Inresultaatneming'' is een ##-heading voor een subpunt binnen een opsomming (B2).'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'Meerdere artefacten bevestigd: B4 r.76/84/95/142: vier ##-headings in all-caps (''## INLEIDING'', ''## OVERZICHT VAN DE ALGEMENE BEGINSELEN'', ''## BEOORDELING VAN HET VASTSTAAND KARAKTER'', ''## VOORBEELDEN'') i.p.v. normale schrijfwijze. E2 r.146/162/180/186/259: drie tabellen volledig afwezig — ''Tabel 1'' (r.180), ''Tabel 2'' (r.186), ''Tabel 3'' (r.259) zijn plain-text placeholders zonder tabelinhoud; dit is significante inhoudsverlies. D4 r.164: ''***a) Voorbeeld 1...**'' heeft ongematcht triple/double asterisk. Ook r.170: ''## ii. Inresultaatneming'' is een ##-heading voor een subpunt binnen een opsomming (B2).'
-    status: needs-rework
 themas:
   - eventuele rechten
   - kapitaalsubsidie
@@ -69,8 +13,32 @@ themas:
   - uitgestelde belastingen
   - vipa
   - vlaams infrastructuurfonds voor persoonsgebonden aangelegenheden
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:51Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2009/3 - Boekhoudkundige verwerking van kapitaalsubsidies waarvan de toekenning en/of de uitbetaling over verschillende jaren wordt gespreid
 
 ## INLEIDING
@@ -152,7 +120,7 @@ Investeringskrediet : **3.500.000 EUR** op 20 jaar tegen 5% (terugbetaling in va
 
 Marginale tarief (bij wijze van voorbeeld) in de vennootschapsbelasting : **25 %**
 
-  | 
+ |
 
 ***a) Voorbeeld 1 : Subsidie verkregen om de aanschaffing te financieren van materiële vaste activa, met gespreide uitbetaling over 20 jaar** *
 

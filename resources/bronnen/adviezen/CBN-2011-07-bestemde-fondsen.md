@@ -6,42 +6,6 @@ gerelateerde_adviezen:
     titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
     url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
 nummer: CBN-advies 2011/7
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bestemde-fondsen
-      sha256: aaf3d6eb8ebd7055b7296f9ee9efb1f17a8c0e2814922dfdda9aee7efb275a30
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 3
-      max_section_chars: 2825
-      file_size_chars: 8709
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D3
-          regel: 150
-          type: other
-          voorbeeld: '[^4]: De Commissie zal voorstellen om de benaming van rekening 790 aan te passen...'
-      rationale: 'D3 bevestigd: voetnoot [^4] is gedefinieerd op r150 (redactionele noot over voorgestelde naamswijziging rekening 790) maar heeft geen overeenkomstige [^4]-callout in de body — de referentie die in de originele bron bij de Boeking-sectie stond is verloren gegaan bij de extractie. Overige voetnoten (1-3, 5-10) correct gerefereerd. Drie voorbeelden met pipe-tabellen correct. Boeking-template r64-67 heeft lege bedragen wat de originele document-opzet weerspiegelt.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'D3 bevestigd: voetnoot [^4] is gedefinieerd op r150 (redactionele noot over voorgestelde naamswijziging rekening 790) maar heeft geen overeenkomstige [^4]-callout in de body — de referentie die in de originele bron bij de Boeking-sectie stond is verloren gegaan bij de extractie. Overige voetnoten (1-3, 5-10) correct gerefereerd. Drie voorbeelden met pipe-tabellen correct. Boeking-template r64-67 heeft lege bedragen wat de originele document-opzet weerspiegelt.'
-    status: needs-rework
 themas:
   - bestemde fondsen
   - fondsen bestemd voor investeringen
@@ -49,8 +13,32 @@ themas:
   - stichting
   - resultatenrekening
   - vereniging zonder winstoogmerk
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/bestemde-fondsen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:59Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
 De bestemde fondsen van een grote of zeer grote vereniging of stichting vertegenwoordigen eigen middelen van de vereniging of stichting. Bestemde fondsen worden gevormd vanuit het positief te bestemmen resultaat dat een vereniging of stichting behaalt, en waaraan zij een specifieke bestemming wenst te geven[^1]. 

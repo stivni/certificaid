@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: 'Verenigingen en stichtingen: compensatie van negatieve fondsen'
     url: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-compensatie-van-negatieve-fondsen
 nummer: CBN-advies 166/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-bepaalde-verrichtingen-als-bedoeld-in-artikel-677-van
-      sha256: 290c24edc8c5275b7f3aee2a57433e261951d543d412d3fa57b804174fdd02cb
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:29Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 7813
-      file_size_chars: 7813
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met twee interpretaties, gemotiveerde keuze voor splitsings-benadering en twee beleidsaanbevelingen.'
-      run_at: '2026-05-08T19:02:29Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - splitsing
   - uitkering in natura
@@ -56,8 +24,32 @@ themas:
   - continuïteitsbeginsel
   - fusie
   - inbreng
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-bepaalde-verrichtingen-als-bedoeld-in-artikel-677-van
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:45Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 166/2 - Verwerking in de jaarrekening van bepaalde verrichtingen als bedoeld in artikel 677 van het Wetboek van vennootschappen1
 
 Woord vooraf 

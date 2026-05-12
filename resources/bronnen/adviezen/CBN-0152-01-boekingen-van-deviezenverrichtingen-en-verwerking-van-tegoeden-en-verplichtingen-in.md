@@ -15,50 +15,6 @@ gerelateerde_adviezen:
     titel: Bestellingen in uitvoering
     url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
 nummer: CBN-advies 152/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekingen-van-deviezenverrichtingen-en-verwerking-van-tegoeden-en-verplichtingen-in
-      sha256: abfb76c50150627c208c3fca7723f5e345ecdf9199d967e5694ef08b8239b916
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 51
-      max_section_chars: 16371
-      file_size_chars: 105889
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A9
-          regel: 390
-          type: ocr-confusion
-          voorbeeld: '| | 55 | Bank USA | 41.100 | |'
-        - categorie: E2
-          regel: 1018
-          type: other
-          voorbeeld: '| | | **Effect A (geldbelegging)**  | | **Effect B (geldbelegging)** |'
-        - categorie: B4
-          regel: 98
-          type: other
-          voorbeeld: VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN IN DEVIEZEN EN VERWERKING VAN DE OMREKENINGSVERSCHILLEN
-      rationale: 'Vorig verdict bevestigd. A9 r.390: ''Bank USA'' i.p.v. ''Bank USD'' (consequent in rest van het document). E2 r.1018-1026: vergelijkingstabel Effect A/B heeft headerrij met 6 cellen maar datarijen met 8 cellen — inconsistente celtellingen. B4 r.98: all-caps structuurlabel ''VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN...'' als plain-text-alinea direct na H1-heading in plaats van ## heading.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'Vorig verdict bevestigd. A9 r.390: ''Bank USA'' i.p.v. ''Bank USD'' (consequent in rest van het document). E2 r.1018-1026: vergelijkingstabel Effect A/B heeft headerrij met 6 cellen maar datarijen met 8 cellen — inconsistente celtellingen. B4 r.98: all-caps structuurlabel ''VAN NIET SPECIFIEK GEDEKTE TEGOEDEN EN VERPLICHTINGEN...'' als plain-text-alinea direct na H1-heading in plaats van ## heading.'
-    status: needs-rework
 themas:
   - bestellingen in uitvoering
   - contant wisselverrichting
@@ -91,8 +47,32 @@ themas:
   - wisselrisico
   - wisselrisicodekking
   - wisselverrichting
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekingen-van-deviezenverrichtingen-en-verwerking-van-tegoeden-en-verplichtingen-in
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:41Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 152/1 - Boekingen van deviezenverrichtingen en verwerking van tegoeden en verplichtingen in deviezen in de jaarrekening
 
 ## Inleiding
@@ -461,8 +441,7 @@ Boeking :
 
 - De gekochte of verkochte deviezen worden geboekt tegen de omrekeningskoers op de dag van de afwikkeling van de termijnverrichting. 
 
-*Boeking : (indien omrekeningskoers 6,348 BEF)*
-
+## Boeking : (indien omrekeningskoers 6,348 BEF)
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 55 | Bank FRF | 6.348.000 | |
@@ -471,7 +450,7 @@ Boeking :
 
 Bovendien wordt de boeking onder de verplichtingen (O-rekeningen) tegengeboekt. 
 
-##### HET CONTRACT VERSTRIJKT NIET IN HETZELFDE BOEKJAAR :
+HET CONTRACT VERSTRIJKT NIET IN HETZELFDE BOEKJAAR :
 In dit geval moet het aan het einde van het boekjaar gelopen prorata van het report/deport in resultaat worden genomen en moeten de te ontvangen of te leveren deviezen[^12] worden herberekend tegen slotomrekeningskoers. 
 
 Voor de inventarisboekingen aan het einde van het boekjaar moet de onderneming dan ook een spoor bewaren van beide bestanddelen van de termijnkoers op grond waarvan de termijnverrichting is gesloten. 
@@ -503,7 +482,7 @@ Voorbeeld :
 - Contantkoers : verkoper 6,318 
 - Termijnkoers : 3 maand : verkoper Report/deport D 0,023 koers 6,295 
 
-##### Boeking bij de afsluiting van de termijnverrichting
+### Boeking bij de afsluiting van de termijnverrichting
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 064 | Op termijn gekochte FRF
@@ -516,7 +495,7 @@ Voorbeeld :
 | | 414 | Te innen opbrengsten (deport) | 23.000 | |
 | aan | 756 | Diverse financiële opbrengsten | | 23.000 |
 
-##### Proratering van het report/deport aan het einde van het boekjaar :
+Proratering van het report/deport aan het einde van het boekjaar :
 Het niet gelopen pro rata van report of deport wordt uitgesteld via de overlopende rekeningen. Indien bij veronderstelling één maand verloopt tussen de datum van afsluiting van de termijnverrichting en het einde van het boekjaar wordt als volgt geboekt : 
 
 | | Rekening | Omschrijving | Debet | Credit |
@@ -530,7 +509,7 @@ Het volgende boekjaar worden de overgedragen opbrengsten uit het voorgaande boek
 
 aan 756 Diverse financiële opbrengsten 
 
-##### Afwikkeling van de verrichting :
+Afwikkeling van de verrichting :
 Bij de afwikkeling van de verrichting worden de gekochte of geleverde deviezen in Belgische franken omgerekend volgens de geldende modaliteiten voor de omrekening van contant gekochte of geleverde deviezen.
 
 Zoals in laatstgenoemd geval zijn ook hier twee benaderingen mogelijk : 
@@ -967,15 +946,15 @@ Economisch gezien is er inderdaad géén verband tussen de evolutie van beide fa
 
 Hierna volgt een voorbeeld ter verduidelijking :
 
-| | | **Effect A (geldbelegging)**  | | **Effect B (geldbelegging)** | 
-|---|---|---|---|---|
-| **in USD** | | **in BEF** | | **in USD** | | **in BEF** | 
-| Aanschaffingswaarde (omrekeningskoers : 1 USD= 42 BEF) | | 1.000 | | 42.000 | | 1.000 | | 42.000 | 
-| Beurswaarde op 31 december | | 1.030 | | | | 980 | | | 
-| Waardevermindering met toepassing van artikel 31, 2de lid jarrekeningbesluit | | - | | - | | - 20 | | -840 | 
-| Boekwaarde vóór omrekening tegen slotkoers | | 1.000 | | 42.000 | | 980 | | 41.160 | 
-| Omrekening tegen slotkoers | | | | 38.000 | | | | 37.240 | 
-| Omrekeningsverschil | | | | - 4.000 | | | | - 3.920 | 
+| | **Effect A (geldbelegging)** | **Effect B (geldbelegging)**|
+|---|---|---|
+| **in USD**|** in BEF**|** in USD**|** in BEF**|
+| Aanschaffingswaarde (omrekeningskoers : 1 USD= 42 BEF)| 1.000| 42.000 | 1.000| 42.000|
+| Beurswaarde op 31 december| 1.030| | 980| |
+| Waardevermindering met toepassing van artikel 31, 2de lid jarrekeningbesluit| -| -| - 20| -840|
+| Boekwaarde vóór omrekening tegen slotkoers| 1.000| 42.000| 980| 41.160|
+| Omrekening tegen slotkoers| | 38.000| | 37.240|
+| Omrekeningsverschil| | - 4.000| | - 3.920|
 
 TEGOEDEN IN LIQUIDE MIDDELEN EN SCHULDEN IN REKENING-COURANT TEGENOVER KREDIETINSTELLINGEN
 Internationaal wordt algemeen aanvaard dat "omrekeningsverschillen" op tegoeden in liquide middelen als gerealiseerd mogen worden beschouwd en in resultaat genomen, zelfs al gaat het om winsten.

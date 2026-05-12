@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Consolidatie bij de horizontale groep (consortium)
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
 nummer: CBN-advies 2016/19
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0
-      sha256: 65d15596052ca2d02b89fb1d796bc2ea30c852156292e7cfdeb5ef9df53c6f2c
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:51:53Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 4
-      max_section_chars: 2103
-      file_size_chars: 5009
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Kort advies (5k chars), volledig schoon. Vier ##-secties correct benoemd, voetnoten [^1]–[^7] volledig gekoppeld, geen artefacten in categorie A t/m G. Inhoud compleet (inleiding, vraagstelling, toepasselijke standaard, vrijstelling).'
-      run_at: '2026-05-11T17:51:53Z'
-      status: trusted
-    rationale: 'Kort advies (5k chars), volledig schoon. Vier ##-secties correct benoemd, voetnoten [^1]–[^7] volledig gekoppeld, geen artefacten in categorie A t/m G. Inhoud compleet (inleiding, vraagstelling, toepasselijke standaard, vrijstelling).'
-    status: trusted
 themas:
   - consolidatie
   - subconsolidatie
@@ -55,8 +23,32 @@ themas:
   - waarderingsregels
   - IFRS
   - BE GAAP
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/consortium-toepasselijke-rapporteringsstandaard-vrijstelling-van-subconsolidatie-update-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:19Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/19 – Consortium: toepasselijke rapporteringsstandaard – vrijstelling van subconsolidatie (update)
 
 ## Inleiding

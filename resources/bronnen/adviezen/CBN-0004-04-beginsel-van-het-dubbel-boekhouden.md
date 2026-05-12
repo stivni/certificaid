@@ -2,60 +2,36 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/beginsel-van-het-dubbel-boekhouden
 datum: 1993-02-01
 nummer: CBN-advies 4/4
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/beginsel-van-het-dubbel-boekhouden
-      sha256: 189ed488644d5d8e86a771346dd9e6ec8e3c92bafe18bf3bbd7219ce8ad3f25b
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:15:32Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 2052
-      file_size_chars: 2052
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: (source)
-          regel: 63
-          type: source-typo
-          voorbeeld: gebruikeljke regels op het dubbel boekhouden
-        - categorie: (source)
-          regel: 67
-          type: source-typo
-          voorbeeld: op ee volledige en correcte wijze werden overgeschreven
-        - categorie: (source)
-          regel: 68
-          type: source-typo
-          voorbeeld: het koninklijk besluit over de minimumindeling ... rekeningenstelel
-        - categorie: (source)
-          regel: 75
-          type: source-typo
-          voorbeeld: van het koninklijk besluit van het koninklijk besluit van 30 januari 2001 — dubbele tekst in bron
-      rationale: 'Alle door vorige verdict gemelde problemen zijn source-typos: ''gebruikeljke'' (r63), ''rekeningenstelel'' (r68), ''ee volledige'' (r67) staan in de bron-HTML. De woordduplicatie in [^2] (''van het koninklijk besluit van het koninklijk besluit'', r75) is eveneens een fout in de officiële CBN-tekst. Geen ETL-artefacten (A-G) aangetroffen buiten deze source-categorie. Bullet op r65 correct op één regel. Inhoud volledig.'
-      run_at: '2026-05-11T15:15:32Z'
-      status: trusted
-    rationale: 'Alle door vorige verdict gemelde problemen zijn source-typos: ''gebruikeljke'' (r63), ''rekeningenstelel'' (r68), ''ee volledige'' (r67) staan in de bron-HTML. De woordduplicatie in [^2] (''van het koninklijk besluit van het koninklijk besluit'', r75) is eveneens een fout in de officiële CBN-tekst. Geen ETL-artefacten (A-G) aangetroffen buiten deze source-categorie. Bullet op r65 correct op één regel. Inhoud volledig.'
-    status: trusted
 themas:
   - beginsel van dubbel boekhouden
   - compensatie
   - compensatieverbod
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/beginsel-van-het-dubbel-boekhouden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:00Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 4-4 - Beginsel van het dubbel boekhouden
 
 In een bepaald boekhoudsoftwarepakket worden creditnota's voor cliënten en creditnota's opgesteld door leveranciers als «aftrek» geboekt op de debetzijde van de cliëntenrekening of creditzijde van de leveranciersrekening. Aan de Commissie werd gevraagd of dit wel strookt met de boekhoudwet. 

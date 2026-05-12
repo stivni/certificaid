@@ -12,38 +12,6 @@ gerelateerde_adviezen:
     titel: Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen(1)
     url: https://www.cbn-cnc.be/nl/adviezen/advies-met-betrekking-tot-de-jaarrekeningrechtelijke-aspecten-van-de-certificatie-van
 nummer: CBN-advies 2017/02
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/gezamenlijke-controle-over-een-vennootschap-groottecriteria-update
-      sha256: 23569f6d8d8f426a4e3878ef9b3499a08fea2d3154af13436086d01edb07dcb3
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:51:53Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 6
-      max_section_chars: 5355
-      file_size_chars: 16193
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Lang advies (16k chars) met genummerde voorbeelden en tabellen. Pipe-tabellen correct gerenderd. Heading-hiërarchie consistent (## voor secties en gevallen). Voetnoten [^1]–[^28] volledig. Geen ETL-artefacten.
-      run_at: '2026-05-11T17:51:53Z'
-      status: trusted
-    rationale: Lang advies (16k chars) met genummerde voorbeelden en tabellen. Pipe-tabellen correct gerenderd. Heading-hiërarchie consistent (## voor secties en gevallen). Voetnoten [^1]–[^28] volledig. Geen ETL-artefacten.
-    status: trusted
 themas:
   - controle
   - gemeenschappelijke dochtervennootschap
@@ -51,8 +19,32 @@ themas:
   - groottecriteria
   - verbonden vennootschap
   - consolidatie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/gezamenlijke-controle-over-een-vennootschap-groottecriteria-update
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:21Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2017/02 – Gezamenlijke controle over een vennootschap - groottecriteria (update)
 
 ## Algemeen
@@ -74,11 +66,11 @@ Het bestaan van een aandeelhoudersovereenkomst tussen een meerderheid van de aan
 ## Voorbeeld 1
 Vennootschap A is eigenaar van 50 procent van de aandelen van vennootschap X; vennootschap B is eigenaar van de overige 50 procent. De vennootschap X werd destijds door de vennootschappen A en B opgericht met een volstort startkapitaal van 600.000 euro (300.000 euro door iedere vennootschap; deze 300.000 euro is tevens de huidige boekwaarde van de participatie bij beide vennootschappen). Vennootschap X heeft een eigen vermogen van 1.900.000 euro, namelijk een kapitaal van 600.000 euro en 1.300.000 euro reserves. De vennootschappen A, B en X bezitten geen andere deelnemingen. De netto-omzet, het balanstotaal en het aantal werknemers van deze drie vennootschappen zijn als volgt: 
 
-| | | Vennootschap A | | Vennootschap B | | Vennootschap X | 
-|---|---|---|---|---|---|---|
-| Netto-omzet | | 7.000.000 | | 3.800.000 | | 20.000.000 | 
-| Balanstotaal | | 2.000.000 | | 1.300.000 | | 18.000.000 | 
-| Aantal werknemers | | 20 | | 7 | | 110 | 
+| | Vennootschap A| Vennootschap B | Vennootschap X|
+|---|---|---|---|
+| Netto-omzet| 7.000.000| 3.800.000| 20.000.000|
+| Balanstotaal| 2.000.000| 1.300.000| 18.000.000|
+| Aantal werknemers| 20| 7| 110|
 
 Op enkelvoudige basis overschrijden noch de vennootschap A noch de vennootschap B meer dan één van de groottecriteria vermeld in artikel 1:24, § 1 WVV.
 

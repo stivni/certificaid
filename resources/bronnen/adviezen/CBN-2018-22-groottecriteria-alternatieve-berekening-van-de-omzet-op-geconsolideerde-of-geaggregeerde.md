@@ -15,54 +15,6 @@ gerelateerde_adviezen:
     titel: Groottecriteria – Boekjaar korter of langer dan 12 maanden (update)
     url: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-boekjaar-korter-of-langer-dan-12-maanden-update
 nummer: CBN-advies 2018/22
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde
-      sha256: e8239fb06e706232d9098b2caebfc6f6cf3844c3bac3088e4d6e403cb306efac
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:51:53Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 60
-      max_section_chars: 6210
-      file_size_chars: 18874
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B1
-          regel: 91
-          type: other
-          voorbeeld: "## Rekening 70\n  | |"
-        - categorie: B1
-          regel: 95
-          type: other
-          voorbeeld: "## Rekening 74\n  | |"
-        - categorie: B1
-          regel: 103
-          type: other
-          voorbeeld: "## Vennootschap A\n  | |"
-        - categorie: E1
-          regel: 86
-          type: pseudo-table
-          voorbeeld: "| \n\n | | \n|---|\n\n## Rekening 70"
-      rationale: 'B1/B4: de tabellen met rekening-gegevens (regels 86-357 en verder) zijn volledig uiteengevallen in losse ## headings per tabelcel (''## Rekening 70'', ''## Vennootschap A'', ''## Geconsolideerd bedrag'', etc.) afgewisseld met stray pipe-tekens. Layer 1 meldt 60 headings voor 18k chars — dit is het directe symptoom. De tabellen zijn onleesbaar als zodanig en de heading-count is structureel verstoord door de extractiebug.'
-      run_at: '2026-05-11T17:51:53Z'
-      status: needs-rework
-    rationale: 'B1/B4: de tabellen met rekening-gegevens (regels 86-357 en verder) zijn volledig uiteengevallen in losse ## headings per tabelcel (''## Rekening 70'', ''## Vennootschap A'', ''## Geconsolideerd bedrag'', etc.) afgewisseld met stray pipe-tekens. Layer 1 meldt 60 headings voor 18k chars — dit is het directe symptoom. De tabellen zijn onleesbaar als zodanig en de heading-count is structureel verstoord door de extractiebug.'
-    status: needs-rework
 themas:
   - criteria
   - groottecriteria
@@ -71,8 +23,32 @@ themas:
   - berekening op geaggregeerde basis
   - geconsolideerde methode
   - geaggregeerde methode
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-alternatieve-berekening-van-de-omzet-op-geconsolideerde-of-geaggregeerde
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:32Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/22 – Groottecriteria – Alternatieve berekening van de omzet op geconsolideerde of geaggregeerde basis
 
 ## Algemeen
@@ -101,76 +77,64 @@ Indien, berekend op geaggregeerde basis, het totaal van de opbrengsten die voort
 Vennootschap C is een moedervennootschap met de vennootschappen A en B als dochtervennootschappen. De vennootschappen A en B zijn zelf geen moedervennootschappen. De opbrengstengegevens van deze drie vennootschappen zijn als volgt:
 | 
 
- | | 
-|---|
+| 
 
 ## Rekening 70
-  | | 
-|---|
+ | 
 
 ## Rekening 74
-  | | 
-|---|
+ | 
 
 ## Rekening 75
-  | 
+ |
 | 
 
 ## Vennootschap A
-  | | 
-|---|
+ | 
 
 5.000
 
-  | | 
-|---|
+ | 
 
 200.000
 
-  | | 
-|---|
+ | 
 
 0
 
-  | 
+ |
 | 
 
 ## Vennootschap B
-  | | 
-|---|
+ | 
 
 8.700.000
 
-  | | 
-|---|
+ | 
 
 1.000
 
-  | | 
-|---|
+ | 
 
 10
 
-  | 
+ |
 | 
 
 ## Vennootschap C
-  | | 
-|---|
+ | 
 
 100.000
 
-  | | 
-|---|
+ | 
 
 1.500
 
-  | | 
-|---|
+ | 
 
 6.500.000
 
-  | 
+ |
 
 ### Berekening op enkelvoudige basis
 Op enkelvoudige basis is de in aanmerking te nemen omzet voor de berekening van de groottecriteria voor de betreffende vennootschappen als volgt:
@@ -185,95 +149,80 @@ In het voorbeeld wordt er hypothetisch vanuit gegaan dat de omzet van vennootsch
 Op geconsolideerde basis zijn de in aanmerking te nemen opbrengsten als volgt:
 | 
 
- | | 
-|---|
+| 
 
 ## Rekening 70
-  | | 
-|---|
+ | 
 
 ## Rekening 74
-  | | 
-|---|
+ | 
 
 ## Rekening 75
-  | 
+ |
 | 
 
 ## Vennootschap A
-  | | 
-|---|
+ | 
 
 5.000
 
-  | | 
-|---|
+ | 
 
 200.000
 
-  | | 
-|---|
+ | 
 
 0
 
-  | 
+ |
 | 
 
 ## Vennootschap B
-  | | 
-|---|
+ | 
 
 8.700.000
 
-  | | 
-|---|
+ | 
 
 1.000
 
-  | | 
-|---|
+ | 
 
 10
 
-  | 
+ |
 | 
 
 ## Vennootschap C
-  | | 
-|---|
+ | 
 
 100.000
 
-  | | 
-|---|
+ | 
 
 1.500
 
-  | | 
-|---|
+ | 
 
 6.500.000
 
-  | 
+ |
 | 
 
 ## Geconsolideerd bedrag
-  | | 
-|---|
+ | 
 
 8.759.000[^20] 
 
-  | | 
-|---|
+ | 
 
 202.500
 
-  | | 
-|---|
+ | 
 
 6.500.010
 
-  | 
+ |
 
 Op geconsolideerde basis bedraagt de omzet 8.759.000 euro. Dit bedrag is samengesteld uit de omzet van vennootschap A (5.000) + de omzet van vennootschap B (8.700.000) + de omzet van vennootschap C (100.000), verminderd met de hogervermelde intragroepsomzet van 46.000 euro. Op geconsolideerde basis bestaan de opbrengsten die voortspruiten uit het gewoon bedrijf dus voor meer dan de helft uit opbrengsten die beantwoorden aan de omschrijving van de post omzet.
 Indien het bestuursorgaan opteert voor een berekening van de groottecriteria op geconsolideerde basis (en niet op geaggregeerde basis) bedraagt, voor de beoordeling van de groottecriteria, de in aanmerking te nemen omzet 8.759.000[^21].
@@ -281,95 +230,80 @@ Indien het bestuursorgaan opteert voor een berekening van de groottecriteria op 
 Op geaggregeerde basis zijn de in aanmerking te nemen opbrengsten als volgt:
 | 
 
- | | 
-|---|
+| 
 
 ## Rekening 70
-  | | 
-|---|
+ | 
 
 ## Rekening 74
-  | | 
-|---|
+ | 
 
 ## Rekening 75
-  | 
+ |
 | 
 
 ## Vennootschap A
-  | | 
-|---|
+ | 
 
 5.000
 
-  | | 
-|---|
+ | 
 
 200.000
 
-  | | 
-|---|
+ | 
 
 0
 
-  | 
+ |
 | 
 
 ## Vennootschap B
-  | | 
-|---|
+ | 
 
 8.700.000
 
-  | | 
-|---|
+ | 
 
 1.000
 
-  | | 
-|---|
+ | 
 
 10
 
-  | 
+ |
 | 
 
 ## Vennootschap C
-  | | 
-|---|
+ | 
 
 100.000
 
-  | | 
-|---|
+ | 
 
 1.500
 
-  | | 
-|---|
+ | 
 
 6.500.000
 
-  | 
+ |
 | 
 
 ## Geaggregeerde cijfers
-  | | 
-|---|
+ | 
 
 8.805.000
 
-  | | 
-|---|
+ | 
 
 202.500
 
-  | | 
-|---|
+ | 
 
 6.500.010
 
-  | 
+ |
 
 De (geaggregeerde) opbrengsten die voortspruiten uit het gewoon bedrijf bestaan voor meer dan de helft uit opbrengsten die beantwoorden aan de omschrijving van de post ‘omzet’.
 Indien het bestuursorgaan opteert voor een berekening van de groottecriteria op geaggregeerde basis (en niet op geconsolideerde op basis) bedraagt, voor de beoordeling van de groottecriteria, de in aanmerking te nemen omzet 8.805.000.
@@ -377,71 +311,61 @@ Indien het bestuursorgaan opteert voor een berekening van de groottecriteria op 
 Vennootschap C is een moedervennootschap met de vennootschap B als dochtervennootschap. Vennootschap A is op haar beurt een dochtervennootschap van vennootschap B. De vennootschap B is dus zelf ook een moedervennootschap. De opbrengstengegevens van deze drie vennootschappen zijn als volgt:
 | 
 
- | | 
-|---|
+| 
 
 ## Rekening 70
-  | | 
-|---|
+ | 
 
 ## Rekening 75
-  | 
+ |
 | 
 
 ## Vennootschap A
-  | | 
-|---|
+ | 
 
 1.000.000
 
-  | | 
-|---|
+ | 
 
 500.000
 
-  | 
+ |
 | 
 
 ## Vennootschap B
-  | | 
-|---|
+ | 
 
 200.000
 
-  | | 
-|---|
+ | 
 
 9.200.000
 
-  | 
+ |
 | 
 
 ## Vennootschap C
-  | | 
-|---|
+ | 
 
 9.100.000
 
-  | | 
-|---|
+ | 
 
 5.000
 
-  | 
+ |
 | 
 
 ## Geaggregeerde cijfers
-  | | 
-|---|
+ | 
 
 10.300.000
 
-  | | 
-|---|
+ | 
 
 9.705.000
 
-  | 
+ |
 
 ### Berekening op enkelvoudige basis
 Op enkelvoudige basis is de in aanmerking te nemen omzet voor de berekening van de groottecriteria voor de betreffende vennootschappen als volgt:
@@ -463,57 +387,49 @@ De Commissie stelt vast dat voor de moedervennootschappen B en C het grensbedrag
 Vennootschap C is een moedervennootschap met de vennootschap B als dochtervennootschap. Vennootschap A is op haar beurt een dochtervennootschap van vennootschap B. De vennootschap B is dus zelf ook een moedervennootschap. De opbrengstengegevens van deze drie vennootschappen zijn als volgt:
 | 
 
- | | 
-|---|
+| 
 
 ## Rekening 70
-  | | 
-|---|
+ | 
 
 ## Rekening 75
-  | 
+ |
 | 
 
 ## Vennootschap A
-  | | 
-|---|
+ | 
 
 1.000.000
 
-  | | 
-|---|
+ | 
 
 500.000
 
-  | 
+ |
 | 
 
 ## Vennootschap B
-  | | 
-|---|
+ | 
 
 200.000
 
-  | | 
-|---|
+ | 
 
 9.200.000
 
-  | 
+ |
 | 
 
 ## Vennootschap C
-  | | 
-|---|
+ | 
 
 9.100.000
 
-  | | 
-|---|
+ | 
 
 2.000.000
 
-  | 
+ |
 
 ### Berekening op enkelvoudige basis
 Op enkelvoudige basis is de in aanmerking te nemen omzet voor de berekening van de groottecriteria voor de betreffende vennootschappen als volgt:
@@ -534,43 +450,37 @@ Indien het bestuursorgaan opteert voor een berekening van de groottecriteria op 
 Vennootschap A is een moedervennootschap met de vennootschap B als dochtervennootschap. De vennootschap B is zelf geen moedervennootschap. De opbrengstengegevens van deze twee vennootschappen zijn als volgt:
 | 
 
- | | 
-|---|
+| 
 
 ## Rekening 70
-  | | 
-|---|
+ | 
 
 ## Rekening 75
-  | 
+ |
 | 
 
 ## Vennootschap A
-  | | 
-|---|
+ | 
 
 1.000
 
-  | | 
-|---|
+ | 
 
 100
 
-  | 
+ |
 | 
 
 ## Vennootschap B
-  | | 
-|---|
+ | 
 
 12.000.000
 
-  | | 
-|---|
+ | 
 
 50
 
-  | 
+ |
 
 ### Berekening op enkelvoudige basis
 Op enkelvoudige basis is de in aanmerking te nemen omzet voor de berekening van de groottecriteria voor de betreffende vennootschappen als volgt:

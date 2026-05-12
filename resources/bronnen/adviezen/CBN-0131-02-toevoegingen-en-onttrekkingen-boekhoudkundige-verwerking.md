@@ -15,48 +15,36 @@ gerelateerde_adviezen:
     titel: Aftrek voor innovatie-inkomsten
     url: https://www.cbn-cnc.be/nl/adviezen/aftrek-voor-innovatie-inkomsten
 nummer: CBN-advies 131/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toevoegingen-en-onttrekkingen-boekhoudkundige-verwerking
-      sha256: e5d9c1109c84f82c4e79ce025649017333d189c32af26b16f1980baf13296ab2
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:20Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 2
-      max_section_chars: 2628
-      file_size_chars: 4053
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 72
-          type: other
-          voorbeeld: een speciale rubriek* Overboeking naar de belastingvrije reserves* (spatie ontbreekt voor openende *)
-      rationale: 'D4 op L72: ''een speciale rubriek* Overboeking naar de belastingvrije reserves*'' — de openende asterisk staat direct tegen ''rubriek'' geplakt zonder spatie, wat de italic-span niet correct parseert. Heading-hiërarchie in de huidige body is correct (H1→H2→H2), dus B2 van eerdere ronde is niet meer aanwezig of was fout. Één D4-artefact is voldoende reden voor needs-rework.'
-      run_at: '2026-05-11T17:05:20Z'
-      status: needs-rework
-    rationale: 'D4 op L72: ''een speciale rubriek* Overboeking naar de belastingvrije reserves*'' — de openende asterisk staat direct tegen ''rubriek'' geplakt zonder spatie, wat de italic-span niet correct parseert. Heading-hiërarchie in de huidige body is correct (H1→H2→H2), dus B2 van eerdere ronde is niet meer aanwezig of was fout. Één D4-artefact is voldoende reden voor needs-rework.'
-    status: needs-rework
 themas:
   - belastingvrije reserves
   - onttrekking aan de belastingvrije reserves
   - toevoeging aan de belastingvrije reserves
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toevoegingen-en-onttrekkingen-boekhoudkundige-verwerking
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:29Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 131/2 - Toevoegingen en onttrekkingen - Boekhoudkundige verwerking
 
 Krachtens het koninklijk besluit van 8 oktober 1976 moeten belastingvrije reserves, dat zijn de gerealiseerde meerwaarden en de winsten die belastingvrij zijn indien ze in het vermogen van de onderneming blijven, in een afzonderlijke rubriek op de passiefzijde van de balans worden geboekt. 

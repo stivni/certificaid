@@ -15,46 +15,38 @@ gerelateerde_adviezen:
     titel: Berekening criteria artikel 15 W.Venn.
     url: https://www.cbn-cnc.be/nl/adviezen/berekening-criteria-artikel-15-wvenn
 nummer: CBN-advies 2011/20
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen
-      sha256: 58b980c3a3de0f06d8dd374311a2d68742227957040e8d80495d4d538a4310a0
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 6
-      max_section_chars: 1525
-      file_size_chars: 5025
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Laag 1: pass, geen flags. Volledige lezing: geen PDF-artefacten. Heading-hiërarchie correct (#, ##, ###). Gebruik van *cursief* voor nadruk op wettelijke termen is stijlconform. Voetnoten [^1] correct. Inhoud compleet: groepsstructuur + exclusieve controle + gezamenlijke controle + artikel 15 gevolgen volledig behandeld.'
-      run_at: '2026-05-11T12:09:18Z'
-      status: trusted
-    rationale: 'Laag 1: pass, geen flags. Volledige lezing: geen PDF-artefacten. Heading-hiërarchie correct (#, ##, ###). Gebruik van *cursief* voor nadruk op wettelijke termen is stijlconform. Voetnoten [^1] correct. Inhoud compleet: groepsstructuur + exclusieve controle + gezamenlijke controle + artikel 15 gevolgen volledig behandeld.'
-    status: trusted
 themas:
   - berekening op geconsolideerde basis
   - controle
   - gezamenlijke controle
   - exclusieve controle
   - verbonden onderneming
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verbonden-ondernemingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:03Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2011/20 – Verbonden ondernemingen
 
 ## Inleiding

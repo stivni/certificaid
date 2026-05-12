@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Gevolgen verhoging groottecriteria voor vennootschappen
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
 nummer: CBN-advies 2019/12
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
-      sha256: 52bbb3f0bad6eab43de279dab9b10784e68d1b580b429143c7d60413ab061c56
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:34:12Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 25
-      max_section_chars: 13174
-      file_size_chars: 23844
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen TOC-artefact: het advies start direct met `## Algemeen` zonder plain-text TOC-blok. Heading-hiërarchie correct en gelaagd. Inhoud volledig (groottecriteria, omzet, neerlegging, begroting). Enige cosmetische kanttekening: `**Criteria**`, `**Bij de griffie**` en `**Bij de Nationale Bank van België**` zijn bold-paragraafkoppen in plaats van headings (grensgevallen B4), maar dit is acceptabel voor een mens-geschreven stijl bij korte overgangen. Geen andere artefacten.'
-      run_at: '2026-05-11T13:34:12Z'
-      status: trusted
-    rationale: 'Geen TOC-artefact: het advies start direct met `## Algemeen` zonder plain-text TOC-blok. Heading-hiërarchie correct en gelaagd. Inhoud volledig (groottecriteria, omzet, neerlegging, begroting). Enige cosmetische kanttekening: `**Criteria**`, `**Bij de griffie**` en `**Bij de Nationale Bank van België**` zijn bold-paragraafkoppen in plaats van headings (grensgevallen B4), maar dit is acceptabel voor een mens-geschreven stijl bij korte overgangen. Geen andere artefacten.'
-    status: trusted
 themas:
   - groottecriteria
   - verenigingen en stichtingen
@@ -65,8 +33,32 @@ themas:
   - jokeradvies
   - vereniging
   - stichting
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/groottecriteria-verenigingen-en-stichtingen-schema-van-de-jaarrekening-begroting
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:36Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2019/12 – Groottecriteria verenigingen en stichtingen - schema van de jaarrekening - begroting
 
 ## Algemeen

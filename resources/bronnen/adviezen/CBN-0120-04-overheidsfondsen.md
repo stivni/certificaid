@@ -15,46 +15,38 @@ gerelateerde_adviezen:
     titel: Gegeven borgtochten in contanten en effecten (update)
     url: https://www.cbn-cnc.be/nl/adviezen/gegeven-borgtochten-in-contanten-en-effecten-update
 nummer: CBN-advies 120/4
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
-      sha256: 15a694b2be8548376b7e9370809fd2a0bc3a62b4af1aa92042f8652d46fd6d96
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:15:32Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 2
-      max_section_chars: 2775
-      file_size_chars: 6795
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen ETL-artefacten aangetroffen. Heading-hiërarchie is H1 → H3 (twee secties I en II) — passend voor dit advies zonder tussenliggende niveaus in het brondocument. Genummerde lijst correct (1. 2. 3.). Italics consequent correct gesloten voor rubrieknamen. Content compleet: beide secties (ondernemingen met/zonder besluit 8 okt 1976) volledig aanwezig.'
-      run_at: '2026-05-11T15:15:32Z'
-      status: trusted
-    rationale: 'Geen ETL-artefacten aangetroffen. Heading-hiërarchie is H1 → H3 (twee secties I en II) — passend voor dit advies zonder tussenliggende niveaus in het brondocument. Genummerde lijst correct (1. 2. 3.). Italics consequent correct gesloten voor rubrieknamen. Content compleet: beide secties (ondernemingen met/zonder besluit 8 okt 1976) volledig aanwezig.'
-    status: trusted
 themas:
   - financiële vaste activa
   - geldbeleggingen
   - liquide middelen
   - overheidsfondsen
   - vastrentende effecten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/overheidsfondsen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:23Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 120/4 - Overheidsfondsen
 
 Aan de Commissie werd de vraag gesteld of fondsen uitgegeven door de Belgische Staat, in hoofde van de ondernemingen die ze bezitten, noodzakelijk als *Geldbeleggingen* moeten worden beschouwd. 

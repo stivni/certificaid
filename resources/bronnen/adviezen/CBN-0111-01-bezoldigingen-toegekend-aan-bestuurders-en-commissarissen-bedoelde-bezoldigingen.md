@@ -15,46 +15,38 @@ gerelateerde_adviezen:
     titel: Loonmatiging (bezoldigingen van bestuurders)
     url: https://www.cbn-cnc.be/nl/adviezen/loonmatiging-bezoldigingen-van-bestuurders
 nummer: CBN-advies 111/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen
-      sha256: 1fd5a084f02de977a3750e07d9e78909d8790a4c3597cea96439159545d07cc2
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 1401
-      file_size_chars: 1401
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Zeer kort advies (1401 tekens) zonder interne headings — past bij enkelvoudige interpretatie-vraag. Geen artefacten. De afkorting 'mec. nr. 4659' op regel 64 is een authentieke verwijzing uit het originele advies, geen extractie-bug. Frontmatter volledig.
-      run_at: '2026-05-11T11:57:45Z'
-      status: trusted
-    rationale: Zeer kort advies (1401 tekens) zonder interne headings — past bij enkelvoudige interpretatie-vraag. Geen artefacten. De afkorting 'mec. nr. 4659' op regel 64 is een authentieke verwijzing uit het originele advies, geen extractie-bug. Frontmatter volledig.
-    status: trusted
 themas:
   - bestuurder
   - bezoldiging
   - bezoldigingen aan bestuurders en commissarissen
   - commissaris
   - zaakvoerder
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:16Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 111/1 - Bezoldigingen toegekend aan bestuurders en commissarissen -Bedoelde bezoldigingen
 
 Het koninklijk besluit van 8 oktober 1976 schrijft voor dat de rechtstreekse en onrechtstreekse bezoldigingen die ten laste van de resultatenrekening aan de beheerders, zaakvoerders, commissarissen, enz., worden toegekend, in de toelichting bij de jaarrekening vermeld moeten worden. 

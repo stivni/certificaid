@@ -2,50 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
 datum: 2017-09-13
 nummer: CBN-advies 2017/15
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
-      sha256: e34d71c0b915d2915bedf5f2e0faf1e45742e2108099e419f5bcf364e08f69b4
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 3
-      max_section_chars: 4116
-      file_size_chars: 8725
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 59
-          type: other
-          voorbeeld: ', bijgewerkt op 10 september 2025[^2]'
-        - categorie: E2
-          regel: 73
-          type: other
-          voorbeeld: '| Positief consolidatieverschil | | 100 | | Eigen vermogen | | 80 |'
-        - categorie: D4
-          regel: 104
-          type: other
-          voorbeeld: '*pooling of interest[^5]*  methode te gebruiken bij een bedrijfscombinatie'
-      rationale: 'A6/G3: regel 59 (body) bevat '', bijgewerkt op 10 september 2025[^2]'' als orphan-zin direct na de H1 — scraper-artefact. E1/E2: de drie balans-tabellen (regels 73-76, 82-83, 89-93) zijn malformed — meerdere data-kolommen aaneengeregen in één pipe-rij zonder correcte kolom-scheiding, tabel rendert niet als multi-kolom tabel. D4: regel 104 bevat ''*pooling of interest[^5]*  methode'' met dubbele spatie na sluitende asterisk.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'A6/G3: regel 59 (body) bevat '', bijgewerkt op 10 september 2025[^2]'' als orphan-zin direct na de H1 — scraper-artefact. E1/E2: de drie balans-tabellen (regels 73-76, 82-83, 89-93) zijn malformed — meerdere data-kolommen aaneengeregen in één pipe-rij zonder correcte kolom-scheiding, tabel rendert niet als multi-kolom tabel. D4: regel 104 bevat ''*pooling of interest[^5]*  methode'' met dubbele spatie na sluitende asterisk.'
-    status: needs-rework
 themas:
   - bedrijfscombinatie
   - common control transactie
@@ -56,8 +12,32 @@ themas:
   - pooling of interest
   - consolidatieverschil
   - groottecriteria
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/transacties-onder-gemeenschappelijke-leiding-common-control-transactions-update
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:25Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2017/15 – Transacties onder gemeenschappelijke leiding (Common control transactions) (update)
 
 ## Inleiding
@@ -68,29 +48,29 @@ Een bedrijfscombinatie, of *business combination*, is een transactie of andere g
 ## Voorbeeld
 De verkorte geconsolideerde balans van Holdco I per 31 december 20X0, in miljoenen EUR is als volgt:
 
-| 31 december 20X0 | 
+| 31 december 20X0|
 |---|
-| Positief consolidatieverschil | | 100 | | Eigen vermogen | | 80 | 
-| Materiële vaste activa | | 60 | | Vreemd vermogen | | 200 | 
-| Vorderingen | | 120 | | | | | 
-| | | 280 | | | | 280 | 
+| Positief consolidatieverschil| 100| Eigen vermogen| 80|
+| Materiële vaste activa| 60| Vreemd vermogen| 200|
+| Vorderingen| 120| | |
+| | 280| | 280|
 
 Per 1 januari 20X1 verwerft Holdco II de controle over Holdco I voor een bedrag van 600 miljoen EUR. De enkelvoudige balans van Holdco II kan per 1 januari 20X1 als volgt voorgesteld worden:
 
-| 1 januari 20X1 | 
+| 1 januari 20X1|
 |---|
-| Belang in Holdco I | | 600 | | Eigen vermogen | | 600 | 
-| | | 600 | | | | 600 | 
+| Belang in Holdco I| 600| Eigen vermogen| 600|
+| | 600| | 600|
 
 De geconsolideerde balans van Holdco II kan als volgt voorgesteld worden per 1 januari 20X1:
 
-| 1 januari 20X1 | 
+| 1 januari 20X1|
 |---|
-| Positief consolidatieverschil II | | 520 | | Eigen vermogen | | 600 | 
-| Positief consolidatieverschil I | | 100 | | Vreemd vermogen | | 200 | 
-| Materiële vaste activa | | 60 | | | | | 
-| Vorderingen | | 120 | | | | | 
-| | | 800 | | | | 800 | 
+| Positief consolidatieverschil II| 520| Eigen vermogen| 600|
+| Positief consolidatieverschil I| 100| Vreemd vermogen| 200|
+| Materiële vaste activa| 60| | |
+| Vorderingen| 120| | |
+| | 800| | 800|
 
 De problematiek van een transactie onder gemeenschappelijke leiding situeert zich rond de erkenning van *het positief consolidatieverschil II* in de geconsolideerde balans van Holdco II. Mathematisch is deze immers ontstaan door het verschil tussen het verworven sub-geconsolideerd nettoactief van Holdco I, 80, en de overnameprijs van 600, hetgeen 520 geeft. 
 

@@ -15,42 +15,6 @@ gerelateerde_adviezen:
     titel: Boeking en waardering van voorraden
     url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
 nummer: CBN-advies 2012/13
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
-      sha256: 67a3d88a28e5f96ab6003fd3e7c83b626e8511afd470d5ff4def5332c7710318
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 26
-      max_section_chars: 18870
-      file_size_chars: 30231
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D3
-          regel: 216
-          type: other
-          voorbeeld: '[^13][^14][^15][^16]'
-      rationale: 'D3: regel 216 toont ''[^13][^14][^15][^16]'' als een losstaande regel zonder omringende tekst — vier voetnootmarkers zijn door ETL uit hun inline-context gerukt en als een aparte blokregel geplaatst, vlak voor de boeking. De voetnootdefinities staan correct op regels 339-345, maar de markers hangen hier in het niets. Verder is het document (30261 chars, 26 headings) inhoudelijk volledig.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'D3: regel 216 toont ''[^13][^14][^15][^16]'' als een losstaande regel zonder omringende tekst — vier voetnootmarkers zijn door ETL uit hun inline-context gerukt en als een aparte blokregel geplaatst, vlak voor de boeking. De voetnootdefinities staan correct op regels 339-345, maar de markers hangen hier in het niets. Verder is het document (30261 chars, 26 headings) inhoudelijk volledig.'
-    status: needs-rework
 themas:
   - aanschaffingsprijs
   - aanschaffingswaarde
@@ -68,8 +32,32 @@ themas:
   - vervaardigingsprijs
   - Vooruitbetaling
   - Waardevermindering
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:07Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2012/13 – De boekhoudkundige verwerking van immateriële vaste activa
 
 ## Inleiding
@@ -193,10 +181,7 @@ Geactiveerde kosten van onderzoek en ontwikkeling moeten worden afgeschreven vol
 
 Een onderneming maakt tijdens het boekjaar 20X0 voor 91.200 euro aan kosten van onderzoek en ontwikkeling (voor 12.000 euro diensten en diverse goederen en voor 79.200 euro personeelskosten). Deze kosten van onderzoek en ontwikkeling worden geactiveerd en volgens een daartoe door het bestuursorgaan opgesteld plan afgeschreven over een periode van 5 jaar. 
 
-*Op het ogenblik van het onderzoek en ontwikkeling jaar 20X0* 
-
- [^13][^14][^15][^16]
-
+## Op het ogenblik van het onderzoek en ontwikkeling jaar 20X0
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 61 | Diensten en diverse goederen | 12.000 | |

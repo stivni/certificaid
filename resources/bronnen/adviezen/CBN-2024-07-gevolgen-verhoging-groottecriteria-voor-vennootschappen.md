@@ -15,46 +15,6 @@ gerelateerde_adviezen:
     titel: Consolidatie bij de horizontale groep (consortium)
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
 nummer: CBN-advies 2024/07
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
-      sha256: 299811b111c18f8c8ab27667595381f3bb927885bed18c9fd42286b366236b9e
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:31Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 7
-      max_section_chars: 9442
-      file_size_chars: 25982
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B5
-          regel: 186
-          type: other
-          voorbeeld: 'Voorbeeld 3: impact van de verhoging van de criteria op langere termijn waarbij het boekjaar gelijk loopt met het kalenderjaar (plain text, geen ### prefix)'
-        - categorie: B5
-          regel: 207
-          type: other
-          voorbeeld: 'Voorbeeld 4: impact van de verhoging van de criteria op langere termijn waarbij het boekjaar niet gelijk loopt met het kalenderjaar (plain text, geen ### prefix)'
-      rationale: 'B5: Voorbeeld 3 (regel 186) en Voorbeeld 4 (regel 207) staan als plain-text alinea''s zonder ### heading-prefix, terwijl Voorbeeld 1 (regel 115), Voorbeeld 2 (regel 148) en Voorbeeld 5 (regel 228) wél als ### heading zijn opgemaakt — inconsistente extractie van sectie-titels. Inhoud verder volledig; 36 voetnoten correct.'
-      run_at: '2026-05-11T17:13:31Z'
-      status: needs-rework
-    rationale: 'B5: Voorbeeld 3 (regel 186) en Voorbeeld 4 (regel 207) staan als plain-text alinea''s zonder ### heading-prefix, terwijl Voorbeeld 1 (regel 115), Voorbeeld 2 (regel 148) en Voorbeeld 5 (regel 228) wél als ### heading zijn opgemaakt — inconsistente extractie van sectie-titels. Inhoud verder volledig; 36 voetnoten correct.'
-    status: needs-rework
 themas:
   - groottecriteria
   - drempels
@@ -64,8 +24,32 @@ themas:
   - balanstotaal
   - personeelsbestand
   - gebroken boekjaar
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-vennootschappen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:52Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2024/07 – Gevolgen verhoging groottecriteria voor vennootschappen
 
 ## Inleiding
@@ -111,11 +95,11 @@ In de hierna uitgewerkte voorbeelden[^19] wordt er van uitgegaan dat de betrokke
 ### Voorbeeld 1: boekjaar loopt gelijk met kalenderjaar
 Een vennootschap voert een boekhouding per kalenderjaar. Voor de boekjaren 2021, 2022 en 2023 werd de vennootschap aangemerkt als een “grote” vennootschap. De vennootschap heeft de volgende kencijfers[^20]:
 
-| | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | 
-|---|---|---|---|---|---|---|
-| Jaargemiddelde personeelsbestand | | 60 | | 60 | | 60 | 
-| Omzet[^21] | | 10.000.000 | | 11.000.000 | | 12.000.000 | 
-| Balanstotaal | | 4.800.000 | | 5.000.000 | | 5.200.000 | 
+| | 31/12/2023| 31/12/2024| 31/12/2025|
+|---|---|---|---|
+| Jaargemiddelde personeelsbestand| 60| 60| 60|
+| Omzet[^21] | 10.000.000| 11.000.000| 12.000.000|
+| Balanstotaal| 4.800.000| 5.000.000| 5.200.000|
 
 Voor de beoordeling of de vennootschap voor het boekjaar 2024, dit is het eerste boekjaar dat aanvangt na 31 december 2023, wordt aangemerkt als een kleine of een “grote” vennootschap, moet uitsluitend worden nagegaan of zij op 31 december 2024, zijnde de balansdatum van het boekjaar met betrekking tot de eerste op te stellen jaarrekening na 31 december 2023, meer dan één van de verhoogde criteria van het aangepaste artikel 1:24 WVV overschrijdt. 
 
@@ -143,11 +127,11 @@ Door de uitgestelde werking blijft de vennootschap ook in boekjaar 2026 klein, a
 ### Voorbeeld 2: gebroken boekjaar
 Een vennootschap hanteert gebroken boekjaren waarbij het boekjaar eindigt op 31 maart. Voor de boekjaren die werden aangevat op 1 april 2022 en 1 april 2023 werd de vennootschap aangemerkt als een kleine vennootschap. De vennootschap heeft de volgende kencijfers[^23]:
 
-| | | 31/03/2024 | | 31/03/2025 | | 31/03/2026 | 
-|---|---|---|---|---|---|---|
-| Jaargemiddelde personeelsbestand | | 60 | | 60 | | 60 | 
-| Omzet | | 11.350.000 | | 11.000.000 | | 11.450.000 | 
-| Balanstotaal | | 5.500.000 | | 5.650.000 | | 5.800.000 | 
+| | 31/03/2024| 31/03/2025| 31/03/2026|
+|---|---|---|---|
+| Jaargemiddelde personeelsbestand| 60| 60| 60|
+| Omzet| 11.350.000| 11.000.000| 11.450.000|
+| Balanstotaal| 5.500.000| 5.650.000| 5.800.000|
 
 Voor de beoordeling of de vennootschap voor het boekjaar dat loopt van 1 april 2024 tot 31 maart 2025 - dit is het eerste boekjaar dat aanvangt na 31 december 2023 - wordt aangemerkt als een kleine of een “grote” vennootschap, moet uitsluitend worden nagegaan of zij op 31 maart 2024, zijnde de balansdatum van het boekjaar met betrekking tot de eerste op te stellen jaarrekening na 31 december 2023, meer dan één van de verhoogde criteria van het aangepaste artikel 1:24 WVV overschrijdt. 
 
@@ -181,12 +165,12 @@ Voorbeeld 3: impact van de verhoging van de criteria op langere termijn waarbij 
 Veronderstel een vennootschap met een einde boekjaardatum van 31 december. De cijfers in het rood geven aan wanneer de criteria[^25] werden overschreden.[^26]
  Om de grootte van de vennootschap te bepalen in boekjaren die aanvatten na 31 december 2023 moet men de verhoogde drempelwaarden gebruiken. 
 
-| **Einde 31.12** | | | | **31.12.2021** | | | | | | **31.12.2022** | | | | **31.12.2023** | | | | | | **31.12.2024** | | | | | | **31.12.2025** | | | | | | **31.12.2026** | | | 
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Personeel | | 60 | | 60 | | 60 | | 60 | | 60 | | 60 | 
-| Omzet | | 10 | | 10 | | 10 | | 11 | | 12 | | 12 | 
-| Balanstotaal | | 4,8 | | 4,8 | | 4,8 | | 5,2 | | 5,2 | | 5,2 | 
-| Criteria | | oud | | oud | | nieuw | | nieuw | | nieuw | | nieuw | 
+| **Einde 31.12**| |** 31.12.2021**| | |** 31.12.2022**| |** 31.12.2023**| | |** 31.12.2024**| | |** 31.12.2025**| | |** 31.12.2026**| |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Personeel| 60| 60| 60| 60| 60| 60|
+| Omzet| 10| 10| 10| 11| 12| 12|
+| Balanstotaal| 4,8| 4,8| 4,8| 5,2| 5,2| 5,2|
+| Criteria| oud| oud| nieuw| nieuw| nieuw| nieuw|
 
 De vennootschap zal in boekjaar 2023 worden gekwalificeerd als zijnde een ‘grote’ vennootschap (wegens het overschrijden van meer dan één van de ‘oude’ drempelwaarden in 2021 en 2022). 
 
@@ -202,12 +186,12 @@ Voorbeeld 4: impact van de verhoging van de criteria op langere termijn waarbij 
 Veronderstel een vennootschap met een einde boekjaardatum van 31 maart. De cijfers in het rood geven aan wanneer de criteria werden overschreden.[^29]
  Om de grootte van de vennootschap te bepalen in boekjaren die aanvatten na 31 december 2023 moet men de verhoogde drempelwaarden gebruiken.
 
-| **Einde 31.03** | | | | **31.03.2021** | | | | | | **31.03.2022** | | | | **31.03.2023** | | | | | | **31.03.2024** | | | | | | **31.03.2025** | | | | | | **31.03.2026** | | | 
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Personeel | | 60 | | 60 | | 60 | | 60 | | 60 | | 60 | 
-| Omzet | | 10 | | 10 | | 10 | | 11 | | 12 | | 12 | 
-| Balanstotaal | | 4,8 | | 4,8 | | 4,8 | | 5,2 | | 5,2 | | 5,2 | 
-| Criteria | | oud | | oud | | oud | | nieuw | | nieuw | | nieuw | 
+| **Einde 31.03**| |** 31.03.2021**| | |** 31.03.2022**| |** 31.03.2023**| | |** 31.03.2024**| | |** 31.03.2025**| | |** 31.03.2026**| |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Personeel| 60| 60| 60| 60| 60| 60|
+| Omzet| 10| 10| 10| 11| 12| 12|
+| Balanstotaal| 4,8| 4,8| 4,8| 5,2| 5,2| 5,2|
+| Criteria| oud| oud| oud| nieuw| nieuw| nieuw|
 
 De vennootschap zal in boekjaar dat start op 1 april 2022 worden gekwalificeerd als zijnde een ‘grote’ vennootschap (wegens het overschrijden van meer dan één van de ‘oude’ drempelwaarden op 31 maart 2021 en 31 maart 2022). 
 

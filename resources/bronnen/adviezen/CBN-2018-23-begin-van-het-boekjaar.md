@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Verslaggeving bij ontbinding en vereffening van BV, CV, NV, SE en SCE
     url: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce
 nummer: CBN-advies 2018/23
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
-      sha256: b442dbac8ff7b7731072ff57be43236eeeae2d8e535166126b18c96d96018a75
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:23:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 11
-      max_section_chars: 12512
-      file_size_chars: 27717
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Na re-scrape met scraper-fixes is het TOC-artefact (A3) dat in de vorige ronde aanwezig was verdwenen. De body begint direct met de titel-heading gevolgd door de inhoudssecties zonder enig plain-text TOC-blok. Structuur correct, tabellen in pipe-format, voetnoten [^1]–[^40] volledig aanwezig. Geen nieuwe ETL-artefacten gevonden in categorieën A–G.
-      run_at: '2026-05-11T15:23:43Z'
-      status: trusted
-    rationale: Na re-scrape met scraper-fixes is het TOC-artefact (A3) dat in de vorige ronde aanwezig was verdwenen. De body begint direct met de titel-heading gevolgd door de inhoudssecties zonder enig plain-text TOC-blok. Structuur correct, tabellen in pipe-format, voetnoten [^1]–[^40] volledig aanwezig. Geen nieuwe ETL-artefacten gevonden in categorieën A–G.
-    status: trusted
 themas:
   - boekjaar
   - begin van het boekjaar
@@ -60,8 +28,32 @@ themas:
   - promotor
   - Inbreng van een algemeenheid
   - periodiciteit
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:32Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/23 - Begin van het boekjaar
 
 ## Inleiding

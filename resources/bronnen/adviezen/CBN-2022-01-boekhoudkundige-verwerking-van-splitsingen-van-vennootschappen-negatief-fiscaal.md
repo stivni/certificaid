@@ -15,46 +15,34 @@ gerelateerde_adviezen:
     titel: Begin van het boekjaar
     url: https://www.cbn-cnc.be/nl/adviezen/begin-van-het-boekjaar
 nummer: CBN-advies 2025/01
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen-negatief-fiscaal
-      sha256: 54c11456d0480a715274c3e22199ab824c1c3b0ff0ab0fd4355b45dc67f1fdc4
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:26:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 6
-      max_section_chars: 4797
-      file_size_chars: 15795
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: (source)
-          regel: 179
-          type: source-typo
-          voorbeeld: '| Overdragen resultaat | | -30 |'
-      rationale: Inhoud volledig en structureel correct. 6 headings, alle tabellen in pipe-syntax, voetnoten [^1]-[^17] aanwezig. Op regel 179 staat 'Overdragen resultaat' (ontbreekt 'd' achteraan) — dit is een source-typo in de originele CBN-tekst, geen ETL-bug. Geen verdere artefacten.
-      run_at: '2026-05-11T15:26:40Z'
-      status: trusted
-    rationale: Inhoud volledig en structureel correct. 6 headings, alle tabellen in pipe-syntax, voetnoten [^1]-[^17] aanwezig. Op regel 179 staat 'Overdragen resultaat' (ontbreekt 'd' achteraan) — dit is een source-typo in de originele CBN-tekst, geen ETL-bug. Geen verdere artefacten.
-    status: trusted
 themas:
   - splitsing
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen-negatief-fiscaal
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:44Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2025/01 – Boekhoudkundige verwerking van splitsingen van vennootschappen – negatief fiscaal nettoactief – herwaarderingsmeerwaarde (addendum bij CBN-advies 2022/01 en 2022/12)
 
 ## Inleiding
@@ -73,13 +61,13 @@ Onderhavig advies wordt als volgt ingedeeld:
 ## Beschrijving van de verrichting
 De balans van de te splitsen vennootschap A wordt vóór de splitsing als volgt opgemaakt[^3]: 
 
-| Vennootschap A (te splitsen vennootschap) | 
+| Vennootschap A (te splitsen vennootschap)|
 |---|
-| Activum 1 | | 130 | | Kapitaal/Inbreng | | 60 | 
-| Activum 2 | | 150 | | Beschikbare reserves | | 40 | 
-| | | | | HWMW activum 2 | | 120 | 
-| | | | | Schulden | | 60 | 
-| Totaal | | 280 | | | | 280 | 
+| Activum 1| 130| Kapitaal/Inbreng| 60|
+| Activum 2| 150| Beschikbare reserves| 40|
+| | | HWMW activum 2| 120|
+| | | Schulden| 60|
+| Totaal| 280| | 280|
 
 Er wordt verondersteld dat de hierboven opgenomen bedragen van het boekhoudkundig kapitaal/inbreng en de beschikbare reserves overeenstemmen met, respectievelijk, het fiscaal kapitaal[^4] en de belaste reserves.
 
@@ -87,16 +75,16 @@ De fiscale nettowaarde van vennootschap A, die gesplitst wordt in twee nieuwe ve
 
 Indien activum 1 aan vennootschap B en het geherwaardeerd activum 2 samen met de schulden aan vennootschap C worden toegekend, worden de balansen van de verkrijgende vennootschappen na de splitsing (maar vóór verdeling van het eigen vermogen) als volgt opgemaakt: 
 
-| Vennootschap B | 
+| Vennootschap B|
 |---|
-| Activum 1 | | 130 | | *Eigen vermogen* | | *130* | 
-| Totaal | | 130 | | | | 130 | 
+| Activum 1| 130| *Eigen vermogen*|* 130*|
+| Totaal| 130| | 130|
 
-| Vennootschap C | 
+| Vennootschap C|
 |---|
-| Activum 2 | | 150 | | *Eigen vermogen* | | *90* | 
-| | | | | Schulden | | 60 | 
-| Totaal | | 150 | | | | 150 | 
+| Activum 2| 150| *Eigen vermogen*|* 90*|
+| | | Schulden | 60|
+| Totaal| 150| | 150|
 
 Er moet vervolgens worden bepaald hoe het eigen vermogen vanuit boekhoudkundig oogpunt kan (of moet) worden verdeeld.
 
@@ -126,37 +114,37 @@ Volgens de Commissie zou het evenwel niet mogelijk mogen zijn om gebruik te make
 ### Toepassing van artikel 3:56, § 4 KB WVV
 Volgens de Commissie zou de verdeling van het eigen vermogen van vennootschap A, in toepassing van artikel 3:56, § 4 KB WVV, als volgt moeten verlopen:
 
-| | | Eigen vermogen van vennootschap A | | Aan vennootschap B fiscaal overgedragen eigen vermogen | | Aan vennootschap C fiscaal overgedragen eigen vermogen[^15] | 
-|---|---|---|---|---|---|---|
-| Kapitaal/inbreng | | 60 | | 60 (1) | | 0 (1) | 
-| Onbeschikbare reserves | | 0 | | 0 (1) | | 0 (1) | 
-| Beschikbare reserves | | 40 | | 40 (1) | | 0 (1) | 
-| Overgedragen resultaat | | 0 | | 0 (1) | | 0 (1) | 
-| Herwaarderingsmeer-waarden | | 120 | | 0 (2) | | 120 (2) | 
-| Totaal eigen vermogen na fiscale verdeling | | 220 | | 100 | | 120 | 
+| | Eigen vermogen van vennootschap A| Aan vennootschap B fiscaal overgedragen eigen vermogen| Aan vennootschap C fiscaal overgedragen eigen vermogen[^15] |
+|---|---|---|---|
+| Kapitaal/inbreng| 60| 60 (1)| 0 (1)|
+| Onbeschikbare reserves| 0| 0 (1)| 0 (1)|
+| Beschikbare reserves| 40| 40 (1)| 0 (1)|
+| Overgedragen resultaat| 0| 0 (1)| 0 (1)|
+| Herwaarderingsmeer-waarden| 120| 0 (2)| 120 (2)|
+| Totaal eigen vermogen na fiscale verdeling| 220| 100| 120|
 
 (1) Ratio artikel 213 WIB 92: aan vennootschap B overgedragen fiscale nettowaarde = 130. Aan vennootschap C overgedragen fiscale nettowaarde = 0 (-30). Aan vennootschap B overgedragen eigen vermogen (met fiscale waarde – art. 213 WIB 92): 100 % en aan vennootschap C: 0 %
 (2) De herwaarderingsmeerwaarde wordt op fiscaal vlak toegewezen aan de vennootschap die het geherwaardeerde actief (activum 2) verkrijgt (nr. 211/55 Com.IB 92, zie ook CBN-advies 2022/12 – Boekhoudkundige verwerking van splitsingen van vennootschappen).
 
 Op basis van het hierboven opgenomen schema kan er via het aan vennootschap B toegekende boekhoudkundig eigen vermogen geen gelijkheid worden gevonden tussen actief en passief. Er bestaat immers een verschil tussen het boekhoudkundig eigen vermogen dat voortkomt uit de fiscale verdeling zoals bedoeld in artikel 213 WIB 92 en het aan de verkrijgende vennootschappen overgedragen boekhoudkundig nettoactief. 
 
-| | | Eigen vermogen van vennootschap B | | Eigen vermogen van vennootschap C | 
-|---|---|---|---|---|
-| Boekhoudkundig eigen vermogen na fiscale verdeling | | 100 | | 120 | 
-| Verwacht boekhoudkundig eigen vermogen (zie *supra*, randnummer 5) | | 130 | | 90 | 
-| Verschil | | + 30 | | - 30 | 
+| | Eigen vermogen van vennootschap B| Eigen vermogen van vennootschap C|
+|---|---|---|
+| Boekhoudkundig eigen vermogen na fiscale verdeling| 100| 120|
+| Verwacht boekhoudkundig eigen vermogen (zie *supra*, randnummer 5) | 130| 90|
+| Verschil| + 30| - 30|
 
 Deze ongelijkheid wordt boekhoudkundig gecorrigeerd via de onbeschikbare reserves bij vennootschap B en via het overgedragen resultaat bij vennootschap C. De verdeling van het boekhoudkundig eigen vermogen na correctie wordt hieronder opgenomen:
 
-| | | Eigen vermogen van vennootschap A | | Aan vennootschap B fiscaal overgedragen eigen vermogen | | Aan vennootschap C fiscaal overgedragen eigen vermogen | 
-|---|---|---|---|---|---|---|
-| Kapitaal/inbreng | | 60 | | 60 | | 0 | 
-| Onbeschikbare reserves | | | | 30 (1) | | 0 | 
-| Beschikbare reserves | | 40 | | 40 | | 0 | 
-| Overgedragen resultaat | | 0 | | 0 (1) | | - 30 (2) | 
-| Herwaarderingsmeer-waarden | | 120 | | 0 | | 120 | 
-| Totaal boekhoudkundig eigen vermogen | | 220 | | 130 | | 90 | 
-| *p.m.: fiscale nettowaarden* | | *100* | | *130* | | *0 (-30)* | 
+| | Eigen vermogen van vennootschap A| Aan vennootschap B fiscaal overgedragen eigen vermogen| Aan vennootschap C fiscaal overgedragen eigen vermogen|
+|---|---|---|---|
+| Kapitaal/inbreng| 60| 60| 0|
+| Onbeschikbare reserves| | 30 (1)| 0|
+| Beschikbare reserves| 40| 40| 0|
+| Overgedragen resultaat| 0| 0 (1)| - 30 (2)|
+| Herwaarderingsmeer-waarden| 120| 0| 120|
+| Totaal boekhoudkundig eigen vermogen| 220| 130| 90|
+| *p.m.: fiscale nettowaarden*|* 100*|* 130*|* 0 (-30)*|
 
 (1) Hetzij een onbeschikbare reserve van 0 op basis van artikel 213 WIB 92 en een boekhoudkundige correctie van + 30.
 (2) Hetzij een overgedragen resultaat van 0 op basis van artikel 213 WIB 92 en een boekhoudkundige correctie van - 30. 
@@ -165,29 +153,29 @@ De som van de boekwaarde van de eigenvermogensbestanddelen die aan elk van de ve
 
 Na de splitsing worden de balansen van de verkrijgende vennootschappen als volgt weergegeven:
 
-| Vennootschap B | 
+| Vennootschap B|
 |---|
-| Activum 1 | | 130 | | Kapitaal | | 60 | 
-| | | | | Beschikbare reserves | | 40 | 
-| | | | | Onbeschikbare reserves | | 30 | 
-| Totaal | | 130 | | | | 130 | 
+| Activum 1| 130| Kapitaal| 60|
+| | | Beschikbare reserves| 40|
+| | | Onbeschikbare reserves| 30|
+| Totaal| 130| | 130|
 
-| Vennootschap C | 
+| Vennootschap C|
 |---|
-| Activum 2 | | 150 | | Overdragen resultaat | | -30 | 
-| | | | | Herwaarderingsmeerwaarde | | 120 | 
-| | | | | Schulden | | 60 | 
-| Totaal | | 150 | | | | 150 | 
+| Activum 2| 150| Overdragen resultaat| -30|
+| | | Herwaarderingsmeerwaarde| 120|
+| | | Schulden | 60|
+| Totaal| 150| | 150|
 
 Overeenkomstig het standpunt ingenomen in CBN-advies 2022/01, geeft het verschil tussen de overgedragen fiscale en boekhoudkundige waarden aanleiding tot de boeking van een negatieve belaste reserve van 30 in de belastingaangifte van vennootschap B en tot de boeking van een positieve belaste reserve in die van vennootschap C.
 
 In hoofde van vennootschap C bedraagt het overgedragen fiscaal eigen vermogen in kader I.A van de fiscale aangifte -30 (overgedragen resultaat) en 30 (belaste reserve), hetgeen in totaal neerkomt op een nettobedrag van 0 dat overeenstemt met de waarde van het fiscaal eigen vermogen dat op basis van artikel 213 WIB 92 aan vennootschap C werd toegekend.[^16] 
 
-| | | Eigen vermogen van vennootschap A | | Aan vennootschap B fiscaal overgedragen eigen vermogen | | Aan vennootschap C fiscaal overgedragen eigen vermogen | 
-|---|---|---|---|---|---|---|
-| Totaal eigen vermogen na fiscale verdeling | | 220 | | 100 | | 120 | 
-| Totaal boekhoudkundig eigen vermogen | | 220 | | 130 | | 90 | 
-| Verschil | | | | - 30 | | - 30 | 
+| | Eigen vermogen van vennootschap A| Aan vennootschap B fiscaal overgedragen eigen vermogen| Aan vennootschap C fiscaal overgedragen eigen vermogen|
+|---|---|---|---|
+| Totaal eigen vermogen na fiscale verdeling| 220| 100| 120|
+| Totaal boekhoudkundig eigen vermogen| 220| 130| 90|
+| Verschil| | - 30| - 30|
 
 ### Overige benadering (boeking van de herwaarderingsmeerwaarde na de splitsing)
 De in punt III voorgestelde benadering maakt het eveneens mogelijk om dezelfde balanssituatie te bekomen als wanneer de herwaarderingsmeerwaarde niet werd geboekt op het ogenblik van de splitsing, maar erna.[^17]

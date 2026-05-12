@@ -15,50 +15,6 @@ gerelateerde_adviezen:
     titel: Consolidatie bij de horizontale groep (consortium)
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
 nummer: CBN-advies 2024/08
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
-      sha256: 6de1272699f26002e279dc23b8980b5366bd9173ebd3e64b7c543a252fb2a982
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:31Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 8
-      max_section_chars: 4940
-      file_size_chars: 16621
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 215
-          type: pseudo-table
-          voorbeeld: '| **Einde 31.12** | | | | **31.12.2021** | | | | | | **31.12.2022** | ... (35 kolommen met lege ghost-kolommen)'
-        - categorie: D3
-          regel: 232
-          type: other
-          voorbeeld: '[^1]: Onderhavig advies is tot stand gekomen... (geen [^1]-anker in bodytekst)'
-        - categorie: A6
-          regel: 212
-          type: other
-          voorbeeld: 22. Veronderstel een stichting... (randnummer als losstaand prefix voor de alinea)
-      rationale: 'E2: de Voorbeeld 4-tabel (regel 215) heeft 35 kolommen met afwisselende lege ghost-kolommen (bv. ''| **Einde 31.12** | | | | **31.12.2021** | | | | | |...'') — de PDF-lay-out van de meerkolommentabel is niet genormaliseerd naar een compacte pipe-tabel; dit schaadt de leesbaarheid. D3: voetnoot [^1] staat in het voetnoetenblok (regel 232) maar heeft geen corresponderend [^1]-anker in de bodytekst. A6: regel 212 begint met ''22. Veronderstel...'' — een losstaand randnummer dat als gevolg van PDF-extractie voor de alinea staat in plaats van inline als opsomming.'
-      run_at: '2026-05-11T17:13:31Z'
-      status: needs-rework
-    rationale: 'E2: de Voorbeeld 4-tabel (regel 215) heeft 35 kolommen met afwisselende lege ghost-kolommen (bv. ''| **Einde 31.12** | | | | **31.12.2021** | | | | | |...'') — de PDF-lay-out van de meerkolommentabel is niet genormaliseerd naar een compacte pipe-tabel; dit schaadt de leesbaarheid. D3: voetnoot [^1] staat in het voetnoetenblok (regel 232) maar heeft geen corresponderend [^1]-anker in de bodytekst. A6: regel 212 begint met ''22. Veronderstel...'' — een losstaand randnummer dat als gevolg van PDF-extractie voor de alinea staat in plaats van inline als opsomming.'
-    status: needs-rework
 themas:
   - groottecriteria
   - verenigingen en stichtingen
@@ -72,8 +28,32 @@ themas:
   - balanstotaal
   - personeelsbestand
   - gebroken boekjaar
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/gevolgen-verhoging-groottecriteria-voor-ivzws-en-stichtingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:52Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2024/08 – Gevolgen verhoging groottecriteria voor (I)VZW’s en stichtingen
 
 ## Inleiding
@@ -106,11 +86,11 @@ Ook de verhoogde drempelwaarden in art. 3:47, § 2 WVV en art. 3:51, § 2 WVV zi
 ### Voorbeeld 1 : boekjaar loopt gelijk met kalenderjaar
 Een VZW voert een boekhouding per kalenderjaar. Voor de boekjaren 2021, 2022 en 2023 werd de VZW aangemerkt als een kleine vereniging. De vereniging heeft de volgende kencijfers[^14]:
 
-| | | 31/12/2023 | | 31/12/2024 | | 31/12/2025 | 
-|---|---|---|---|---|---|---|
-| Jaargemiddelde personeelsbestand | | 12 | | 11 | | 8 | 
-| Omzet | | 750.000 | | 600.000 | | 400.000 | 
-| Balanstotaal | | 400.000 | | 475.000 | | 425.000 | 
+| | 31/12/2023| 31/12/2024| 31/12/2025|
+|---|---|---|---|
+| Jaargemiddelde personeelsbestand| 12| 11| 8|
+| Omzet| 750.000| 600.000| 400.000|
+| Balanstotaal| 400.000| 475.000| 425.000|
 
 Voor de beoordeling of de vereniging voor het boekjaar 2024, dit is het eerste boekjaar dat aanvangt na 31 december 2023, wordt aangemerkt als een kleine of een micro-VZW, moet uitsluitend worden nagegaan of zij op 31 december 2023, zijnde de balansdatum “van het laatst afgesloten boekjaar”, meer dan één van de verhoogde criteria van het aangepaste artikel 1:29 WVV overschrijdt. 
 
@@ -162,11 +142,11 @@ Aangezien bij de toetsing aan deze drempelwaarden geen consistentiebeginsel staa
 ### Voorbeeld 3: gebroken boekjaar
 Een VZW hanteert gebroken boekjaren waarbij het boekjaar eindigt op 30 juni. Voor de boekjaren die werden aangevat in 2022 en 2023 werd de VZW aangemerkt als een “grote” VZW. De VZW heeft de volgende kencijfers[^16]:
 
-| | | 30/06/2024 | | 30/06/2025 | | 30/06/2026 | 
-|---|---|---|---|---|---|---|
-| Jaargemiddelde personeelsbestand | | 45 | | 55 | | 60 | 
-| Omzet | | 10.000.000 | | 11.000.000 | | 12.000.000 | 
-| Balanstotaal | | 7.500.000 | | 8.000.000 | | 8.500.000 | 
+| | 30/06/2024| 30/06/2025| 30/06/2026|
+|---|---|---|---|
+| Jaargemiddelde personeelsbestand| 45| 55| 60|
+| Omzet| 10.000.000| 11.000.000| 12.000.000|
+| Balanstotaal| 7.500.000| 8.000.000| 8.500.000|
 
 Voor de beoordeling of de VZW voor het boekjaar dat loopt van 1 juli 2024 tot 30 juni 2025 - dit is het eerste boekjaar dat aanvangt na 31 december 2023 - wordt aangemerkt als een kleine of een “grote” VZW, moet uitsluitend worden nagegaan of zij op 30 juni 2024, zijnde de balansdatum van het laatst afgesloten boekjaar, meer dan één van de verhoogde criteria van het aangepaste artikel 1:28 WVV overschrijdt. 
 
@@ -200,12 +180,12 @@ Op balansdatum 30 juni 2026 werd opnieuw meer dan één van de criteria overschr
 22. Veronderstel een stichting met een einde boekjaardatum van 31 december. De cijfers in het rood geven aan wanneer de criteria[^17] werden overschreden.[^18]
  Om de grootte van de stichting te bepalen in boekjaren die aanvatten na 31 december 2023 moet men de verhoogde drempelwaarden gebruiken. 
 
-| **Einde 31.12** | | | | **31.12.2021** | | | | | | **31.12.2022** | | | | **31.12.2023** | | | | | | **31.12.2024** | | | | | | **31.12.2025** | | | | | | **31.12.2026** | | | 
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Personeel | | 60 | | 60 | | 60 | | 60 | | 60 | | 60 | 
-| Omzet | | 10 | | 10 | | 10 | | 11 | | 12 | | 12 | 
-| Balanstotaal | | 4,8 | | 4,8 | | 4,8 | | 5,2 | | 5,2 | | 5,2 | 
-| Criteria | | oud | | oud | | nieuw | | nieuw | | nieuw | | nieuw | 
+| **Einde 31.12**| |** 31.12.2021**| | |** 31.12.2022**| |** 31.12.2023**| | |** 31.12.2024**| | |** 31.12.2025**| | |** 31.12.2026**| |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Personeel| 60| 60| 60| 60| 60| 60|
+| Omzet| 10| 10| 10| 11| 12| 12|
+| Balanstotaal| 4,8| 4,8| 4,8| 5,2| 5,2| 5,2|
+| Criteria| oud| oud| nieuw| nieuw| nieuw| nieuw|
 
 De stichting zal in boekjaar 2023 worden gekwalificeerd als zijnde een ‘grote’ stichting (wegens het overschrijden van meer dan één van de ‘oude’ drempelwaarden in 2021 en 2022).
 

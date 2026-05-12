@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-schema-van-de-balanscentrale-omvang-van-de-bedrijven
 datum: 1989-09-01
 nummer: CBN-advies 110/9
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-schema-van-de-balanscentrale-omvang-van-de-bedrijven
-      sha256: c8fd688b587bbb38aadcd62f198584a390974665316dacb04cd02b303c0aa7e5
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T21:31:11Z'
-    confirmed_by: human
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 4929
-      file_size_chars: 4929
-      flags: []
-    layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
-    status: trusted
 themas:
   - balanscentrale
   - omvang van de bedrijven
@@ -41,8 +9,32 @@ themas:
   - publicatie
   - schema van de jaarrekening
   - standaardformulier
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekening-schema-van-de-balanscentrale-omvang-van-de-bedrijven
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:15Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 110/9 - Jaarrekening - Schema van de Balanscentrale - Omvang van de bedrijven1
 
 CBN-advies 110/9 - Jaarrekening - Schema van de Balanscentrale - Omvang van de bedrijven[^1] 

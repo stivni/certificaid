@@ -6,38 +6,6 @@ gerelateerde_adviezen:
     titel: Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering
     url: https://www.cbn-cnc.be/nl/adviezen/pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering
 nummer: CBN-advies 2019/01
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
-      sha256: 2a27321595711abf20073bd1a09dce17d12ae08358e12ff0a6bf1872bd2a8f58
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T21:31:12Z'
-    confirmed_by: human
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 19
-      max_section_chars: 11271
-      file_size_chars: 24717
-      flags: []
-    layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
-    status: trusted
 themas:
   - dividend
   - uitkering
@@ -55,8 +23,32 @@ themas:
   - inbetalinggeving
   - uitbreng
   - aanschaffingswaarde
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/dividenduitkering-en-kapitaalvermindering-in-natura-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:33Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2019/01 – Dividenduitkering en kapitaalvermindering in natura
 
 ## Algemeen

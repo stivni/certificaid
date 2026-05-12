@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: De boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
 nummer: CBN-advies 2018/09
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
-      sha256: 107a8e48d1e0b3908d231bf190f771cb4ca5e58dc8a2ad683c52910874450f8b
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 3
-      max_section_chars: 3339
-      file_size_chars: 4910
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Geen ETL-artefacten gevonden. Kort advies (3 headings, heading_count klopt) met correcte structuur, complete voetnoten [^1] t/m [^8], en inhoud volledig (inleiding + verwerking investeerder + verwerking producent). Geen malformed italic, geen TOC-residu, geen gebroken zinnen.
-      run_at: '2026-05-11T12:21:40Z'
-      status: trusted
-    rationale: Geen ETL-artefacten gevonden. Kort advies (3 headings, heading_count klopt) met correcte structuur, complete voetnoten [^1] t/m [^8], en inhoud volledig (inleiding + verwerking investeerder + verwerking producent). Geen malformed italic, geen TOC-residu, geen gebroken zinnen.
-    status: trusted
 themas:
   - tax shelter
   - belasting
@@ -57,8 +25,32 @@ themas:
   - immateriële vaste activa
   - kapitaalsubsidie
   - uitgestelde belasting
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/tax-shelter-voor-podiumkunsten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:29Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/09 – Tax shelter voor podiumkunsten
 
 ## Inleiding

@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Wijziging van het boekhoudkundig referentiestelsel
     url: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
 nummer: CBN-advies 2011/2
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
-      sha256: 778baa7300874c205e3ad65417b3d6738770463aebdffd38c29c48ba4dfce218
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:09:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 3
-      max_section_chars: 4185
-      file_size_chars: 7329
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Drie ## headings correct. Voetnoten 1–7 volledig. Geen inhoudsopgave als plain text, geen extractie-artefacten. Inhoud beknopt maar compleet voor dit advies.'
-      run_at: '2026-05-11T12:09:18Z'
-      status: trusted
-    rationale: 'Drie ## headings correct. Voetnoten 1–7 volledig. Geen inhoudsopgave als plain text, geen extractie-artefacten. Inhoud beknopt maar compleet voor dit advies.'
-    status: trusted
 themas:
   - continuïteit
   - concordantietabel
@@ -54,8 +22,32 @@ themas:
   - eerste boekjaar
   - vergelijkende cijfers
   - zetelverplaatsing
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:58Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2011/2 - Zetelverplaatsing naar België van een vennootschap opgericht naar buitenlands recht: gevolgen voor het voeren van de boekhouding en het opstellen van de jaarrekening
 
 ## Inleiding

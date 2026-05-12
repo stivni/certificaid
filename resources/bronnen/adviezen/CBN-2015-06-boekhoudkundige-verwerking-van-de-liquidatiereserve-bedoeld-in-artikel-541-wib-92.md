@@ -15,58 +15,38 @@ gerelateerde_adviezen:
     titel: Aanwending van herwaarderingsmeerwaarden
     url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden-0
 nummer: CBN-advies 2015/6
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92
-      sha256: f75947a777e67970e2d3551b28d529ee94c0c42cdd01b6cf19a7e08704e40481
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 6
-      max_section_chars: 10342
-      file_size_chars: 18725
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 70
-          type: other
-          voorbeeld: '...bijzondere aanslag op deze liquidatiereserve1 — literal ''1'' i.p.v. [^1] in H1-titel'
-        - categorie: D4
-          regel: 161
-          type: other
-          voorbeeld: (artikel 184*quater* WIB 92)[^21] ** — stray sluitende ** zonder opening
-        - categorie: D3
-          regel: 259
-          type: other
-          voorbeeld: '[^23]: Onderhavig voorbeeld... — voetnootdefinitie zonder zichtbare [^23] referentie in body'
-      rationale: 'D4 bevestigd: regel 161 ''(artikel 184*quater* WIB 92)[^21] **'' heeft een stray ''**'' na de voetnootreferentie die geen bijbehorende opening heeft. Regel 70 H1-titel eindigt op literal ''1'' (voetnootcijfer niet als [^1] geparsed). D3: [^23] voetnootdefinitie aanwezig maar heeft geen body-referentie in de lopende tekst. ETL-artefacten.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'D4 bevestigd: regel 161 ''(artikel 184*quater* WIB 92)[^21] **'' heeft een stray ''**'' na de voetnootreferentie die geen bijbehorende opening heeft. Regel 70 H1-titel eindigt op literal ''1'' (voetnootcijfer niet als [^1] geparsed). D3: [^23] voetnootdefinitie aanwezig maar heeft geen body-referentie in de lopende tekst. ETL-artefacten.'
-    status: needs-rework
 themas:
   - Onaantastbaarheidsvoorwaarde
   - bijzondere aanslag
   - belastingen
   - liquidatiereserve
   - bijzondere liquidatiereserve
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:14Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2015/6 - Boekhoudkundige verwerking van de liquidatiereserve bedoeld in artikel 541 WIB 92 (Programmawet van 10 augustus 2015) en de bijzondere aanslag op deze liquidatiereserve1
 
 ## Algemeen
@@ -123,15 +103,13 @@ In de boekjaren 2013 en 2014 heeft de vennootschap net evenveel kosten als opbre
 
 Het bedrag van 1.000 is bijgevolg nog steeds in de reserves geboekt op de eerste dag van het boekjaar 2015. Tijdens het boekjaar 2015 wordt beslist om een liquidatiereserve aan te leggen ten belope van het volledige bedrag van de boekhoudkundige winst van het boekjaar 2012. De bijzondere aanslag van 10 procent wordt betaald op 28 november 2015. De vennootschap behaalt tijdens het boekjaar 2015 een boekhoudkundige winst na belastingen van 3.300.
 
-*Boeking op 28 november 2015*
-
+## Boeking op 28 november 2015
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6710X | Verschuldigde of gestorte belastingsupplementen | 100 | |
 | aan | 5500 | Kredietinstellingen: rekening-courant | | 100 |
 
-*Boeking van de vorming van de bijzondere liquidatiereserve ten laatste op de inventarisdatum en boeking van de resultaatverwerking*
-
+## Boeking van de vorming van de bijzondere liquidatiereserve ten laatste op de inventarisdatum en boeking van de resultaatverwerking
 ## Eerste variant: Er wordt beslist om al de winst van het boekjaar 2015 over te dragen naar het volgend boekjaar
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
@@ -190,15 +168,13 @@ De vennootschap vormt met betrekking tot de winst van het boekjaar 2012, in toep
 
 De bijzondere aanslag van 10 procent wordt betaald op 28 november 2015. De vennootschap behaalt tijdens het boekjaar 2015 een boekhoudkundige winst na belastingen van 3.000. De bijzondere liquidatiereserve wordt gevormd uit de winsten van het boekjaar 2015. Het resterend saldo wordt overgedragen naar het volgende boekjaar.
 
-*Boeking op 28 november 2015*
-
+## Boeking op 28 november 2015
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 6710X | Verschuldigde of gestorte belastingsupplementen | 50 | |
 | aan | 5500 | Kredietinstellingen: rekening-courant | | 50 |
 
-*Boeking van de vorming van de bijzondere liquidatiereserve ten laatste op de inventarisdatum en boeking van de resultaatverwerking*
-
+## Boeking van de vorming van de bijzondere liquidatiereserve ten laatste op de inventarisdatum en boeking van de resultaatverwerking
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 693 | Over te dragen winst | 2.500 | |

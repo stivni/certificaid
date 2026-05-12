@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/condominium
 datum: 1986-07-01
 nummer: CBN-advies 114/7
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/condominium
-      sha256: d90e6655287e42fdccee1525db502d4bd176db78351a15ce989959edfddc3211
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:16:02Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 2203
-      file_size_chars: 2203
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Vorige L2 flagde een en-dash in een H1-heading, maar de werkelijke H1 in de body is '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' — geen dash aanwezig. Body bestaat uit vier schone alinea's (2203 chars), geen italics, geen voetnoten nodig, geen extractie-artefacten. Inhoud compleet en coherent.
-      run_at: '2026-05-11T13:16:02Z'
-      status: trusted
-    rationale: Vorige L2 flagde een en-dash in een H1-heading, maar de werkelijke H1 in de body is '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' — geen dash aanwezig. Body bestaat uit vier schone alinea's (2203 chars), geen italics, geen voetnoten nodig, geen extractie-artefacten. Inhoud compleet en coherent.
-    status: trusted
 themas:
   - beslissende invloed
   - condominium
@@ -41,8 +9,32 @@ themas:
   - joint-venture
   - omvangcriteria
   - verbonden onderneming
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/condominium
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:21Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
 Aan de Commissie werd de vraag gesteld of de berekening op geconsolideerde basis van de criteria voor de kleine en middelgrote ondernemingen, zoals bedoeld in artikel 12, § 2 van het koninklijk besluit van 12 september 1983, van toepassing is op een joint venture, namelijk wanneer twee of meer ondernemingen samen voor een evenredig deel het gehele kapitaal van een andere onderneming bezitten. 

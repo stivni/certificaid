@@ -2,46 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
 datum: 1995-03-01
 nummer: CBN-advies 171
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
-      sha256: ef019e5fa8d5ff93cfeecf2422b2fa22e0858ffe7d0bbce9d35b95e64f9dcf00
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 6
-      max_section_chars: 10337
-      file_size_chars: 12010
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A9
-          regel: 96
-          type: ocr-confusion
-          voorbeeld: '| | 602 | AAankopen van diensten of | | |'
-        - categorie: A6
-          regel: 198
-          type: other
-          voorbeeld: '...zal enkel voor de tweede benadering kunnen worden \n\ngeopteerd.'
-      rationale: 'Vorig verdict bevestigd. A9 r.96: ''| | 602 | AAankopen van diensten of | | |'' — dubbele ''A'' (OCR-duplicatie). A6 r.198-200: slotzin ''zal enkel voor de tweede benadering kunnen worden'' gevolgd door een lege regel en ''geopteerd.'' op een nieuwe alinea — afgebroken alinea-patroon.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'Vorig verdict bevestigd. A9 r.96: ''| | 602 | AAankopen van diensten of | | |'' — dubbele ''A'' (OCR-duplicatie). A6 r.198-200: slotzin ''zal enkel voor de tweede benadering kunnen worden'' gevolgd door een lege regel en ''geopteerd.'' op een nieuwe alinea — afgebroken alinea-patroon.'
-    status: needs-rework
 themas:
   - afvaldienstenonderneming
   - afvalstoffen
@@ -55,8 +15,32 @@ themas:
   - vervaardigingsprijs
   - Voorraad afvalstoffen
   - voorraden
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-afvalstoffen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:47Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN advies 171 - Boekhoudkundige verwerking van afvalstoffen
 Aan de Commissie werd gevraagd hoe de produktie, de ophaling, de vernietiging, de verwerking of de recyclage van afvalstoffen alsook de exploitatie van stortplaatsen in de jaarrekening van ondernemingen moeten worden verwerkt. De ondernemingen, zoals trouwens ook de overheid, worden immers met steeds grotere afvalverwerkingsproblemen geconfronteerd. De Commissie heeft derhalve beslist daaraan een algemeen advies te wijden. 
 

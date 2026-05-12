@@ -2,42 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en
 datum: 2009-03-11
 nummer: CBN-advies 2009/9
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en
-      sha256: 21e9fb5214140e5447af42694896cb77b881beec36b81428df1d6534429f19cf
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T21:31:11Z'
-    confirmed_by: human
-    layer1:
-      status: warn
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 43
-      max_section_chars: 28008
-      file_size_chars: 107850
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ###-niveau: 28008 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-    layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
-    status: trusted
 themas:
   - aanvaardingsplicht
   - afgedankte elektrische en elektronische apparatuur
@@ -49,8 +13,32 @@ themas:
   - recupelbijdrage
   - sectorbeheersorganisme
   - voorziening
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-gevolgen-van-de-aanvaardingsplicht-inzake-afgedankte-elektrische-en
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:52Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2009/9 - Boekhoudkundige gevolgen van de aanvaardingsplicht inzake afgedankte elektrische en elektronische apparaten
 
 ## OVERZICHT RELEVANTE WETGEVING
@@ -80,16 +68,10 @@ De WEEE Richtlijn maakt het onderscheid tussen:
 
 Samenvattend wordt in volgende tabel weergegeven wie de kosten verbonden met de verwerking van AEEA van particuliere huishoudens en AEEA van andere gebruikers dan particuliere huishoudens draagt.
 
-| | | **AEEA van particuliere huishoudens** | | **AEEA van andere dan particuliere huishoudens** | 
-|---|---|---|---|---|
-| Op de markt gebracht uiterlijk op 13.08.2005 | | De verantwoordelijkheid voor de financiering van de kosten voor het beheer van AEEA berust bij een of meer systemen waaraan alle producenten die op de markt aanwezig zijn op het tijdstip waarop de betrokken kosten ontstaan, naar evenredigheid bijdragen, bijvoorbeeld naar evenredigheid van hun marktaandeel voor de betrokken apparatuur (art. 8, WEEE Richtlijn). | | Indien de AEEA worden vervangen door nieuwe gelijkwaardige producten of door nieuwe producten met dezelfde functie worden de kosten gedragen door de producenten van deze producten (art. 9, WEEE Richtlijn). 
-
-			Worden de AEEA niet vervangen, dan worden de kosten gedragen door de gebruikers[^6] (art. 9, 1, WEEE Richtlijn). 
-
-			Producenten en andere gebruikers dan particuliere huishoudens kunnen onverminderd de bepalingen van deze richtlijn andere financieringsregelingen overeenkomen (art. 9, 2, WEEE Richtlijn). | 
-| Op de markt gebracht na 13.08.2005 | | De producenten voorzien in de financiering van de inzameling, verwerking, nuttige toepassing en milieuhygiënisch verantwoorde verwijdering van hun eigen AEEA. Hij kan kiezen tussen collectieve en individuele regelingen (art. 8, WEEE Richtlijn). | | De producenten voorzien in de financiering van de inzameling, verwerking, nuttige toepassing en milieuhygiënisch verantwoorde verwijdering van de AEEA (art. 9, 1, WEEE Richtlijn). 
-
-			Producenten en andere gebruikers dan particuliere huishoudens kunnen onverminderd de bepalingen van deze richtlijn andere financieringsregelingen overeenkomen (art. 9, 2, WEEE Richtlijn). | 
+| | **AEEA van particuliere huishoudens**|** AEEA van andere dan particuliere huishoudens**|
+|---|---|---|
+| Op de markt gebracht uiterlijk op 13.08.2005| De verantwoordelijkheid voor de financiering van de kosten voor het beheer van AEEA berust bij een of meer systemen waaraan alle producenten die op de markt aanwezig zijn op het tijdstip waarop de betrokken kosten ontstaan, naar evenredigheid bijdragen, bijvoorbeeld naar evenredigheid van hun marktaandeel voor de betrokken apparatuur (art. 8, WEEE Richtlijn).| Indien de AEEA worden vervangen door nieuwe gelijkwaardige producten of door nieuwe producten met dezelfde functie worden de kosten gedragen door de producenten van deze producten (art. 9, WEEE Richtlijn). Worden de AEEA niet vervangen, dan worden de kosten gedragen door de gebruikers[^6] (art. 9, 1, WEEE Richtlijn). Producenten en andere gebruikers dan particuliere huishoudens kunnen onverminderd de bepalingen van deze richtlijn andere financieringsregelingen overeenkomen (art. 9, 2, WEEE Richtlijn).|
+| Op de markt gebracht na 13.08.2005| De producenten voorzien in de financiering van de inzameling, verwerking, nuttige toepassing en milieuhygiënisch verantwoorde verwijdering van hun eigen AEEA. Hij kan kiezen tussen collectieve en individuele regelingen (art. 8, WEEE Richtlijn). | De producenten voorzien in de financiering van de inzameling, verwerking, nuttige toepassing en milieuhygiënisch verantwoorde verwijdering van de AEEA (art. 9, 1, WEEE Richtlijn). Producenten en andere gebruikers dan particuliere huishoudens kunnen onverminderd de bepalingen van deze richtlijn andere financieringsregelingen overeenkomen (art. 9, 2, WEEE Richtlijn).|
 
 Aangezien de Belgische aanvaardingsplicht reeds voor de Europese WEEE Richtlijn wettelijk was geregeld (bijvoorbeeld in het Vlaamse Gewest door het Afvalstoffendecreet, *cf*. infra), diende de regionale wetgeving door de komst van de Europese richtlijn te worden aangepast.
 
@@ -160,11 +142,10 @@ De verantwoordelijkheid voor de financiering van de kosten voor het beheer[^26] 
 
 Voor wat de professionele AEEA betreft kan hetzelfde onderscheid worden gemaakt zoals in de WEEE Richtlijn (historical waste versus new waste).
 
-| | | **Professionele AEEA** | 
-|---|---|---|
-| Op de markt gebracht uiterlijk op 13.08.2005 | | Voor de historische voorraad die wordt vervangen door nieuwe, gelijkaardige producten met dezelfde functie worden de kosten gedragen door de producenten van die nieuwe professionele EEA op het moment dat ze worden geleverd. Voor andere historische voorraad worden de kosten gedragen door de andere gebruikers dan particuliere huishoudens[^28] (art. 3.5.1*bis*, § 1, 2°, b), Vlarea II). | 
-| Op de markt gebracht na 13.08.2005 | | Elke producent is verantwoordelijk voor de financiering van de inzameling en de verwerking van de professionele AEEA (art. 3.5.1*bis,* § 1, 2°, a), Vlarea II). | 
-|---|---|---|
+| | **Professionele AEEA**|
+|---|---|
+| Op de markt gebracht uiterlijk op 13.08.2005| Voor de historische voorraad die wordt vervangen door nieuwe, gelijkaardige producten met dezelfde functie worden de kosten gedragen door de producenten van die nieuwe professionele EEA op het moment dat ze worden geleverd. Voor andere historische voorraad worden de kosten gedragen door de andere gebruikers dan particuliere huishoudens[^28] (art. 3.5.1*bis*, § 1, 2°, b), Vlarea II).|
+| Op de markt gebracht na 13.08.2005| Elke producent is verantwoordelijk voor de financiering van de inzameling en de verwerking van de professionele AEEA (art. 3.5.1*bis,* § 1, 2°, a), Vlarea II).|
 
 #### Het Waalse Gewest
 In het Waalse Gewest is de aanvaardingsplicht voor AEEA gebaseerd op het Decreet van de Waalse Regering van 27 juni 1996 betreffende de afvalstoffen, laatst gewijzigd door het Decreet van 22 maart 2007[^29].
@@ -193,25 +174,18 @@ De omzetting van de Europese richtlijn inzake de financiering van AEEA is terug 
 
 Samenvattend wordt in volgende tabel weergegeven wie de kosten verbonden met de verwerking van huishoudelijke en professionele AEEA draagt (tabel opgesteld op basis van het Decreet 27 juni 1996 en het Uitvoeringsbesluit 25 april 2002). 
 
-| | | **Afval[^36] van huishoudelijke EEA** | | **Professionele AEEA** | 
-| *Op de markt gebracht uiterlijk op 13.08.2005* | | Indien de producent kan worden geïdentificeerd draagt hij de kosten van verwerking van de AEEA (art. 65, § 1). 
-
-			Indien de producent van het AEEA niet kan worden geïdentificeerd, dragen de producenten gezamenlijk de kosten naar rata van de hoeveelheden die ze op de markt brengen[^37] (art. 65, § 2). | | De producenten voorzien in de financiering van de inzameling, verwerking, valorisatie en milieuhygiënisch verantwoorde verwijdering (art 65*bis*, § 1). | 
-| *Op de markt gebracht na 13.08.2005* | | De producenten voorzien in de financiering van de inzameling, verwerking, valorisatie en milieuhygiënisch verantwoorde verwijdering (art 65*bis*, § 1). 
-
-			De kosten voor het beheer[^38] van de afval van EEA worden gedragen door: 
-
+| | **Afval[^36] van huishoudelijke EEA**|** Professionele AEEA**|
+|---|---|---|
+| *Op de markt gebracht uiterlijk op 13.08.2005*| Indien de producent kan worden geïdentificeerd draagt hij de kosten van verwerking van de AEEA (art. 65, § 1). Indien de producent van het AEEA niet kan worden geïdentificeerd, dragen de producenten gezamenlijk de kosten naar rata van de hoeveelheden die ze op de markt brengen[^37] (art. 65, § 2). | De producenten voorzien in de financiering van de inzameling, verwerking, valorisatie en milieuhygiënisch verantwoorde verwijdering (art 65*bis*, § 1).|
+| *Op de markt gebracht na 13.08.2005*| De producenten voorzien in de financiering van de inzameling, verwerking, valorisatie en milieuhygiënisch verantwoorde verwijdering (art 65*bis*, § 1). De kosten voor het beheer[^38] van de afval van EEA worden gedragen door: 
 - de producent/invoerder of een derde als zij wordt vervangen door een gelijkaardig product of door een product met dezelfde functies; 
 - de gebruiker in de andere gevallen. 
 
- | | De producenten voorzien in de financiering van de inzameling, verwerking, valorisatie en milieuhygiënisch verantwoorde verwijdering (art. 65*bis*, § 1). 
-
-			De kosten voor het beheer[^39] van de afval van EEA worden gedragen door: 
-
+| De producenten voorzien in de financiering van de inzameling, verwerking, valorisatie en milieuhygiënisch verantwoorde verwijdering (art. 65*bis*, § 1). De kosten voor het beheer[^39] van de afval van EEA worden gedragen door: 
 - de producent/invoerder of een derde als zij wordt vervangen door een gelijkaardig product of door een product met dezelfde functies; 
 - de gebruiker in de andere gevallen. 
 
- | 
+|
 
 Producenten, invoerders of derden die in hun naam handelen en andere gebruikers dan particuliere huishoudens kunnen andere financieringsregelingen overeenkomen.
 
@@ -234,16 +208,15 @@ De omzetting van de Europese richtlijn inzake de financiering van AEEA is terug 
 
 Samenvattend wordt in volgende tabel weergegeven wie de kosten verbonden met de verwerking van huishoudelijke en professionele AEEA draagt (tabel opgesteld op basis van het Ordonnantie van de Brusselse Hoofdstedelijke Raad van 7 maart 1991 en het Uitvoeringsbesluit 18 juli 2002). 
 
-| | | **Huishoudelijke EEA** | | **Professionele AEEA** | 
-|---|---|---|---|---|
-| Op de markt gebracht uiterlijk op 13.08.2005 | | Het beheer berust bij één of meer systemen waaraan alle producenten die op de markt aanwezig zijn op het tijdstip waarop de betrokken kosten ontstaat, naar evenredigheid van hun marktaandeel voor de betrokken apparatuur bijdragen (art. 35, Besluit 18 juli 2002). | | De beheerskosten worden verzekerd: 
-
-- door de producent/invoerder of derde wanneer de AEEA door een gelijkwaardig product of een product met dezelfde functies vervangen wordt[^47]; 
+| | **Huishoudelijke EEA**|** Professionele AEEA**|
+|---|---|---|
+| Op de markt gebracht uiterlijk op 13.08.2005| Het beheer berust bij één of meer systemen waaraan alle producenten die op de markt aanwezig zijn op het tijdstip waarop de betrokken kosten ontstaat, naar evenredigheid van hun marktaandeel voor de betrokken apparatuur bijdragen (art. 35, Besluit 18 juli 2002).| De beheerskosten worden verzekerd: 
+- door de producent/invoerder of derde wanneer de AEEA door een gelijkwaardig product of een product met dezelfde functies vervangen wordt[^47] ; 
 - door de gebruiker in de andere gevallen (art. 35*ter*, Besluit 18 juli 2002). 
 
- | 
-| Op de markt gebracht na 13.08.2005 | | De producent is verantwoordelijk voor de financiering van de inzameling vanaf de containerparken, de verdelers of de kleinhandelaars en voor de financiering van de verwerking van het afval van zijn eigen producten. Hij kan voor de organisatie van de financiering kiezen tussen collectieve en individuele regelingen (art. 35, Besluit 18 juli 2002). | | De producent is verantwoordelijk voor de beheerskosten (art. 35*ter*, Besluit 18 juli 2002). | 
-|---|---|---|---|---|
+|
+| Op de markt gebracht na 13.08.2005| De producent is verantwoordelijk voor de financiering van de inzameling vanaf de containerparken, de verdelers of de kleinhandelaars en voor de financiering van de verwerking van het afval van zijn eigen producten. Hij kan voor de organisatie van de financiering kiezen tussen collectieve en individuele regelingen (art. 35, Besluit 18 juli 2002).| De producent is verantwoordelijk voor de beheerskosten (art. 35*ter*, Besluit 18 juli 2002).|
+|---|---|---|
 
 Producenten, invoerders of derden die in hun naam handelen en andere gebruikers dan particuliere huishoudens kunnen andere financieringsregelingen overeenkomen.
 

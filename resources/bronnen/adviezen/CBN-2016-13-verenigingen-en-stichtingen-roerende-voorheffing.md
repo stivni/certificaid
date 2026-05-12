@@ -12,52 +12,36 @@ gerelateerde_adviezen:
     titel: 'Schulden uit de resultaatbestemming : dividenduitkering aan een onderneming die ten minste 25 % bezit van het kapitaal van de vennootschap die het dividend uitkeert'
     url: https://www.cbn-cnc.be/nl/adviezen/schulden-uit-de-resultaatbestemming-dividenduitkering-aan-een-onderneming-die-ten-minste
 nummer: CBN-advies 2016/13
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing
-      sha256: a429da8d0b7fd51c4e9fb99e3d9b487cf8cd7b50dea8dc8478aea7b801603b16
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 9
-      max_section_chars: 4377
-      file_size_chars: 9833
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: G3
-          regel: 135
-          type: other
-          voorbeeld: ' [^18][^19][^20][^21] (losstaande voetnootcluster als eigen alinea na boldtitel)'
-        - categorie: B4
-          regel: 109
-          type: other
-          voorbeeld: '**Boeking op 31/03/2013 (tarief roerende voorheffing bedraagt 25[^10] procent)** (bold ipv ## heading)'
-      rationale: 'G3: regel 135 bevat ` [^18][^19][^20][^21]` als alleenstaande alinea direct na de boldtitel op regel 133 — losgeraakte voetnootcluster die in de ankerzin thuishoort maar door de extractor als eigen alinea is ingevoegd. B4: regel 109 gebruikt `**Boeking op 31/03/2013...**` als bold-paragraaf terwijl equivalente boekingen (regels 101, 117, 125) wél `##`-headings zijn — structuurinconsistentie die een heading-extractie-bug aanduidt.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'G3: regel 135 bevat ` [^18][^19][^20][^21]` als alleenstaande alinea direct na de boldtitel op regel 133 — losgeraakte voetnootcluster die in de ankerzin thuishoort maar door de extractor als eigen alinea is ingevoegd. B4: regel 109 gebruikt `**Boeking op 31/03/2013...**` als bold-paragraaf terwijl equivalente boekingen (regels 101, 117, 125) wél `##`-headings zijn — structuurinconsistentie die een heading-extractie-bug aanduidt.'
-    status: needs-rework
 themas:
   - roerende voorheffing
   - toerekening van kosten en opbrengsten
   - toerekeningsbeginsel
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-roerende-voorheffing
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:18Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/13 – Verenigingen en Stichtingen: roerende voorheffing
 
 ## Inleiding
@@ -122,8 +106,6 @@ Een grote vereniging of stichting die haar jaarrekening afsluit op 31 maart bele
 | aan | 751 | Opbrengsten uit vlottende activa | | 327,82 |
 
 **Boeking bij afloop op 31/03/2016 (tarief roerende voorheffing bedraagt 27[^17] procent)**
-
- [^18][^19][^20][^21]
 
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|

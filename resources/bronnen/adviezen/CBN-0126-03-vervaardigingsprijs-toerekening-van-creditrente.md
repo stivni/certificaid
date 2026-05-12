@@ -15,44 +15,36 @@ gerelateerde_adviezen:
     titel: Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen 137/5 en 148/4
     url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
 nummer: CBN-advies 126/3
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-toerekening-van-creditrente
-      sha256: c0be8b50c0783a49b530949e9774a323bc28b67bbc3d68f1f7c3ece3584e95ac
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:16:02Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 4208
-      file_size_chars: 4208
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Vorige Laag-2-ronde flagde D4 (italic niet gesloten op L73 en L79), maar bij her-lezing van de actuele body sluiten beide italic-spans correct: ''via de rubriek *Wijziging in de voorraad ... in uitvoering*, zonder'' en ''*Wijziging in de bestellingen in uitvoering* (717)'' — de asterisk staat vóór de spatie/komma. Scraper-fix heeft dit opgelost. Inhoud volledig, voetnoot correct, geen andere artefacten.'
-      run_at: '2026-05-11T13:16:02Z'
-      status: trusted
-    rationale: 'Vorige Laag-2-ronde flagde D4 (italic niet gesloten op L73 en L79), maar bij her-lezing van de actuele body sluiten beide italic-spans correct: ''via de rubriek *Wijziging in de voorraad ... in uitvoering*, zonder'' en ''*Wijziging in de bestellingen in uitvoering* (717)'' — de asterisk staat vóór de spatie/komma. Scraper-fix heeft dit opgelost. Inhoud volledig, voetnoot correct, geen andere artefacten.'
-    status: trusted
 themas:
   - toerekening van kosten en opbrengsten
   - vervaardigingsprijs
   - voorschot
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vervaardigingsprijs-toerekening-van-creditrente
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:25Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 126/3 - Vervaardigingsprijs : toerekening van creditrente
 
 Het jaarrekeningbesluit van 8 oktober 1976 bepaalt in artikel 22, tweede lid, dat in de vervaardigingsprijs van bestellingen in uitvoering de rente op vreemd vermogen aangewend voor de financiering van de produktie mag worden opgenomen, dit voor zover de produktie of de uitvoering meer dan één jaar bestrijkt. Daarnaast is vereist dat deze rente op de normale uitvoeringstermijn van deze bestellingen betrekking heeft. Wanneer de rente in de vervaardigingsprijs wordt opgenomen dient zulks bij de waarderingsregels in de toelichting te worden vermeld. 

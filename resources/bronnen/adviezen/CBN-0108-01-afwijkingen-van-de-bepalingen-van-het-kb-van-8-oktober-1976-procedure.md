@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
 nummer: CBN-advies 108/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/afwijkingen-van-de-bepalingen-van-het-kb-van-8-oktober-1976-procedure
-      sha256: 466967bde208f58cf2173e47efcba81b58bd0ca5627da8ba86369a9261b186ab
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 2634
-      file_size_chars: 2634
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Korte bron (2634 tekens) zonder headings — dat klopt: het advies is één doorlopende alinea''s-tekst. Geen artefacten: geen lege headings, geen Unicode-resten, geen spurious breaks. Frontmatter volledig en consistent met inhoud. Voetnoten ontbreken (het origineel heeft er ook geen). Leesbaar als mens-geschreven tekst.'
-      run_at: '2026-05-11T11:57:45Z'
-      status: trusted
-    rationale: 'Korte bron (2634 tekens) zonder headings — dat klopt: het advies is één doorlopende alinea''s-tekst. Geen artefacten: geen lege headings, geen Unicode-resten, geen spurious breaks. Frontmatter volledig en consistent met inhoud. Voetnoten ontbreken (het origineel heeft er ook geen). Leesbaar als mens-geschreven tekst.'
-    status: trusted
 themas:
   - afwijking
   - commissaris
@@ -54,8 +22,32 @@ themas:
   - procedure
   - publicatie van het omzetcijfer
   - vrijstelling
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/afwijkingen-van-de-bepalingen-van-het-kb-van-8-oktober-1976-procedure
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:12Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 108/1 - Afwijkingen van de bepalingen van het K.B. van 8 oktober 1976 – Procedure
 
 Artikel 15 van de wet van 17 juli 1975 bepaalt dat de Minister van Economische Zaken, in speciale gevallen en op gemotiveerd advies van de Commissie voor Boekhoudkundige Normen, afwijkingen mag toestaan van de regels getroffen krachtens artikel 4, 6de lid, artikel 7, 4de lid en de artikelen 10 en 11 van de wet.

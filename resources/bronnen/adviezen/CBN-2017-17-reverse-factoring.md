@@ -2,54 +2,38 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/reverse-factoring
 datum: 2017-09-13
 nummer: CBN-advies 2017/17
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/reverse-factoring
-      sha256: 7d0d3618b625430845800efb1502ad04dde9ffe0a8eedc32deb3f511d81ad5a0
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 2
-      max_section_chars: 3509
-      file_size_chars: 4588
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 65
-          type: other
-          voorbeeld: factoringovereenkomsten[^2]*  behandelt
-        - categorie: D4
-          regel: 73
-          type: other
-          voorbeeld: '*Financiële schulden – Overige leningen moet worden gereclasseerd.*'
-      rationale: 'D4: regel 65 heeft ''factoringovereenkomsten[^2]*  behandelt'' waarbij na de footnote-marker de italic-sluiting gevolgd wordt door twee spaties voor ''behandelt'' — ETL-artefact. Regel 73: ''*Financiële schulden – Overige leningen moet worden gereclasseerd.*'' omvat de volledige proza-zin inclusief punt in italic in plaats van enkel de rekeningnaam — een mens italiciseert enkel de naam, niet de omliggende zin.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'D4: regel 65 heeft ''factoringovereenkomsten[^2]*  behandelt'' waarbij na de footnote-marker de italic-sluiting gevolgd wordt door twee spaties voor ''behandelt'' — ETL-artefact. Regel 73: ''*Financiële schulden – Overige leningen moet worden gereclasseerd.*'' omvat de volledige proza-zin inclusief punt in italic in plaats van enkel de rekeningnaam — een mens italiciseert enkel de naam, niet de omliggende zin.'
-    status: needs-rework
 themas:
   - factor
   - factoring
   - financiële schuld
   - handelsschuld
   - reverse factoring
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/reverse-factoring
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:26Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2017/17 – Reverse factoring
 
 ## Inleiding

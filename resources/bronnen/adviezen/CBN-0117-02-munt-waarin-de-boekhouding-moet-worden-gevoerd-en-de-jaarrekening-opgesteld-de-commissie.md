@@ -15,50 +15,6 @@ gerelateerde_adviezen:
     titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
 nummer: CBN-advies 117/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/munt-waarin-de-boekhouding-moet-worden-gevoerd-en-de-jaarrekening-opgesteld-de-commissie
-      sha256: bae5e73feda46fb6a5b2fc1e8076fece4ac486ba8958478ed4e6eaf1257ccbde
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:20Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 4790
-      file_size_chars: 4790
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A9
-          regel: 89
-          type: ocr-confusion
-          voorbeeld: jaarrekening van succursalen in Belgiëë van ondernemingen
-        - categorie: A9
-          regel: 93
-          type: ocr-confusion
-          voorbeeld: volledig ingschakeld zijn in het economische en sociale bestel
-        - categorie: A6
-          regel: 101
-          type: other
-          voorbeeld: dienen zij der halve te worden omgezet
-      rationale: 'A9: regel 89 bevat ''Belgiëë'' (dubbele ë) voor ''België'' — encoding-artefact. Regel 93 bevat ''ingschakeld'' voor ''ingeschakeld'' — ontbrekende letter, OCR-artefact. A6: regel 101 bevat ''der halve'' (gesplitst woord) voor ''derhalve'' — spurious word-split. Drie bevestigde ETL-artefacten; overige inhoud volledig.'
-      run_at: '2026-05-11T17:05:20Z'
-      status: needs-rework
-    rationale: 'A9: regel 89 bevat ''Belgiëë'' (dubbele ë) voor ''België'' — encoding-artefact. Regel 93 bevat ''ingschakeld'' voor ''ingeschakeld'' — ontbrekende letter, OCR-artefact. A6: regel 101 bevat ''der halve'' (gesplitst woord) voor ''derhalve'' — spurious word-split. Drie bevestigde ETL-artefacten; overige inhoud volledig.'
-    status: needs-rework
 themas:
   - afwijking
   - bedrijfszetel
@@ -70,8 +26,32 @@ themas:
   - opstelling van de jaarrekening
   - succursaal
   - vreemde munt
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/munt-waarin-de-boekhouding-moet-worden-gevoerd-en-de-jaarrekening-opgesteld-de-commissie
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:21Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 117/2 - Munt waarin de boekhouding moet worden gevoerd en de jaarrekening opgesteld
 
 De commissie heeft reeds uiteengezet waarom de vennootschappen naar Belgisch recht hun jaarrekening verplicht in Belgische franken moeten opstellen en openbaar maken[^1].

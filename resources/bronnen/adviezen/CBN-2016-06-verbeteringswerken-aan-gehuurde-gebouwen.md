@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Aansluitingskosten en installatiekosten waarbij derden de eigendom van de installatie verwerven of behouden
     url: https://www.cbn-cnc.be/nl/adviezen/aansluitingskosten-en-installatiekosten-waarbij-derden-de-eigendom-van-de-installatie
 nummer: CBN-advies 2016/6
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verbeteringswerken-aan-gehuurde-gebouwen
-      sha256: 8ac351fe3e7cb8c9b7afb7aaeafaf9938044284f6ac2fab960ce1bc0246797ab
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T21:31:12Z'
-    confirmed_by: human
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 6
-      max_section_chars: 2919
-      file_size_chars: 6786
-      flags: []
-    layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
-    status: trusted
 themas:
   - gebouw
   - gehuurde gebouwen
@@ -54,8 +22,32 @@ themas:
   - uitbreidingswerken
   - verbeteringswerken
   - voorziening
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verbeteringswerken-aan-gehuurde-gebouwen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:16Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/6 - Verbeteringswerken aan gehuurde gebouwen
 
 ## Inleiding

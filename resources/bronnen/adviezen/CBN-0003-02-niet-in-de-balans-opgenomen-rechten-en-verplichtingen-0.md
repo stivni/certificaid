@@ -6,38 +6,6 @@ gerelateerde_adviezen:
     titel: Niet in de balans opgenomen rechten en verplichtingen
     url: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen
 nummer: CBN-advies 3/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen-0
-      sha256: 9cb5fc236fcf116896c53d7729c5102ef151474280391fee0125c0d5949753e8
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 9295
-      file_size_chars: 9295
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Compleet advies over klasse 0-rekeningen. OCR-artefacten (dubbele spaties, typo ''janari'') maar inhoud volledig leesbaar en coherent.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - buiten balans
   - goederen en waarden gehouden door derden in hun naam, maar ten bate en op risico van de onderneming
@@ -51,8 +19,32 @@ themas:
   - zakelijke zekerheden
   - zekerheden
   - zekerheden door derden gesteld voor rekening van de onderneming
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:46:57Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 3-2 - Niet in de balans opgenomen rechten en verplichtingen
 
 Zowel in de bepalingen zelf als in de verantwoording van de wet van 17 juli 1975 en van de ter uitvoering hiervan genomen besluten is duidelijk de nadruk gelegd op de noodzaak om niet in de balans opgenomen rechten en verplichtingen te boeken, te inventariseren aan het einde van het boekjaar en op passende wijze in de jaarrekening te vermelden. 

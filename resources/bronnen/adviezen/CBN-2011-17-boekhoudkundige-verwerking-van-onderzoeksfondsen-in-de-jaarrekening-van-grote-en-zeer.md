@@ -15,56 +15,6 @@ gerelateerde_adviezen:
     titel: Bestellingen in uitvoering
     url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
 nummer: CBN-advies 2011/17
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
-      sha256: b28435f5f77a0ad5b6b19eb05ff737fafd55d49bf2953afc6c1b8ffb6e617a0f
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 7
-      max_section_chars: 5055
-      file_size_chars: 18820
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 219
-          type: pseudo-table
-          voorbeeld: '| | 6620 | Voorzieningen voor uitzonderlijke risico''s | | |
-
-            | | en kosten | 100.000 | | |'
-        - categorie: E2
-          regel: 241
-          type: pseudo-table
-          voorbeeld: '| | 168 | Voorzieningen voor schenkingen en legaten | | |
-
-            | | met terugnemingsrecht | 100.000 | | |'
-        - categorie: E2
-          regel: 269
-          type: pseudo-table
-          voorbeeld: '| aan | 7170 | Wijziging in de bestellingen in uitvoering: | | 70.000 |
-
-            | | Aanschaffingswaarde | | | |'
-      rationale: 'E2: meerdere tabelrijen zijn gefragmenteerd. Regel 219-222: rekening 6620 en de omschrijving ''en kosten'' staan als aparte rijen buiten de tabelcel. Regels 241-243: rekening 168 en ''met terugnemingsrecht'' idem. Regels 269-270 en 277-278: ''Aanschaffingswaarde'' als losse tabelrij na de hoofd-rekeningrij. Regels 313-316 en 329-334: zelfde patroon voor 7171/371. Inhoud inhoudelijk volledig en alle voetnoten [^1]-[^12] correct.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'E2: meerdere tabelrijen zijn gefragmenteerd. Regel 219-222: rekening 6620 en de omschrijving ''en kosten'' staan als aparte rijen buiten de tabelcel. Regels 241-243: rekening 168 en ''met terugnemingsrecht'' idem. Regels 269-270 en 277-278: ''Aanschaffingswaarde'' als losse tabelrij na de hoofd-rekeningrij. Regels 313-316 en 329-334: zelfde patroon voor 7171/371. Inhoud inhoudelijk volledig en alle voetnoten [^1]-[^12] correct.'
-    status: needs-rework
 themas:
   - bestellingen in uitvoering
   - completed contract method
@@ -74,8 +24,32 @@ themas:
   - ontvangen vooruitbetalingen op bestellingen
   - over te dragen opbrengsten
   - percentage of completion method
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:03Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2011/17 - Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
 
 Verenigingen en stichtingen ontvangen geregeld “onderzoeksfondsen” met het oog op de uitvoering van welbepaalde onderzoeksactiviteiten. 

@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
 datum: 2019-07-11
 nummer: CBN-advies 2019/07
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
-      sha256: e202a1be947f8d1631a1dc4341ddb81214015a1152489e3dbfa7f684cda940ea
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:23:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 36
-      max_section_chars: 4849
-      file_size_chars: 20374
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Na re-scrape met scraper-fixes is het TOC-artefact (A3, regels 53–99 in de vorige versie) verdwenen. De body begint direct met `## Inleiding` na de frontmatter. Geen TOC-blok zichtbaar. Structuur volledig correct: 36 headings correct hiërarchisch gelaagd (#, ##, ###, ####), alle boekingstabellen in pipe-syntax, voetnoten [^1]–[^17] correct gedefinieerd. Geen artefacten uit categorieën A–G gevonden.'
-      run_at: '2026-05-11T15:23:43Z'
-      status: trusted
-    rationale: 'Na re-scrape met scraper-fixes is het TOC-artefact (A3, regels 53–99 in de vorige versie) verdwenen. De body begint direct met `## Inleiding` na de frontmatter. Geen TOC-blok zichtbaar. Structuur volledig correct: 36 headings correct hiërarchisch gelaagd (#, ##, ###, ####), alle boekingstabellen in pipe-syntax, voetnoten [^1]–[^17] correct gedefinieerd. Geen artefacten uit categorieën A–G gevonden.'
-    status: trusted
 themas:
   - obligatielening
   - obligaties
@@ -46,8 +14,32 @@ themas:
   - oprichtingskosten
   - pari
   - uitgiftewaarde
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-uitgifte-van-een-obligatielening
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:34Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2019/07 – Boekhoudkundige verwerking van de uitgifte van een obligatielening
 
 ## Inleiding
@@ -91,11 +83,11 @@ Dit betekent dat voor contracten die afgesloten zijn na 31 december 1991, de uit
 
 Het behoort het bestuursorgaan toe de uitgiftevoorwaarden voor een obligatielening te bepalen. De leningen kunnen als volgt worden uitgegeven:
 
-| | | Uitgifte onder pari | | Uitgifte tegen pari-waarde | | Uitgifte boven pari | 
-|---|---|---|---|---|---|---|
-| Terugbetaling onder pari | | | | Negatieve terugbetalingspremie | | Negatieve dubbele premie | 
-| Terugbetaling tegen pari-waarde | | Uitgiftepremie | | Lening zonder premie | | Negatieve uitgiftepremie | 
-| Terugbetaling boven pari | | Dubbele premie | | Terugbetalingspremie | | | 
+| | Uitgifte onder pari| Uitgifte tegen pari-waarde| Uitgifte boven pari|
+|---|---|---|---|
+| Terugbetaling onder pari| | Negatieve terugbetalingspremie| Negatieve dubbele premie|
+| Terugbetaling tegen pari-waarde| Uitgiftepremie| Lening zonder premie| Negatieve uitgiftepremie|
+| Terugbetaling boven pari| Dubbele premie| Terugbetalingspremie| |
 
 #### Lening zonder verschil tussen de uitgifteprijs en terugbetalingswaarde
 De vennootschap-emittent kent de inschrijver een vordering toe waarvan de uitgifteprijs en terugbetalingswaarde gelijk zijn aan de nominale waarde; in dit geval gaat het om een lening uitgegeven a pari of *uitgifte tegen pari-waarde*. 

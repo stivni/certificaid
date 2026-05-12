@@ -12,38 +12,6 @@ gerelateerde_adviezen:
     titel: De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten
     url: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
 nummer: CBN-advies 2017/11
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
-      sha256: 2ad85c57300b2181be4df3dd43682f08b3281cf16b9618661d08f8f6fccef178
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:30:33Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 4
-      max_section_chars: 4757
-      file_size_chars: 8357
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Vier ## headings, alle inhoud compleet, voetnoten [^1]-[^12] correct gedefinieerd. Lijn 93 start met ''11.'' als randnummer-verwijzing — dit is authentieke CBN-stijl voor randnummers, geen extractie-bug. Geen form-feeds, geen broken italic, geen column-bleed aangetroffen.'
-      run_at: '2026-05-11T13:30:33Z'
-      status: trusted
-    rationale: 'Vier ## headings, alle inhoud compleet, voetnoten [^1]-[^12] correct gedefinieerd. Lijn 93 start met ''11.'' als randnummer-verwijzing — dit is authentieke CBN-stijl voor randnummers, geen extractie-bug. Geen form-feeds, geen broken italic, geen column-bleed aangetroffen.'
-    status: trusted
 themas:
   - afgeleide financiële instrumenten
   - financiële instrumenten
@@ -52,8 +20,32 @@ themas:
   - richtlijn 2013/34/EU
   - toelichting
   - waarde in het economisch verkeer
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/opname-van-financiele-vaste-activa-geboekt-tegen-een-hoger-bedrag-dan-hun-reele-waarde-in
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:24Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2017/11 – Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
 
 ## Inleiding

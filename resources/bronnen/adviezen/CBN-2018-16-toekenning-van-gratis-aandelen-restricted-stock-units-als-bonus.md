@@ -2,54 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
 datum: 2018-11-14
 nummer: CBN-advies 2018/16
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
-      sha256: 1a9f3240acadc2fb454cb3eff60fdbf3d4c1a4809610431cba5f163fdc28958b
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 4
-      max_section_chars: 7679
-      file_size_chars: 20380
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E1
-          regel: 110
-          type: other
-          voorbeeld: "| \n\n  | | \n|---|\n\nBeurskoers\n\n  | | \n|---|\n\nVerwachte beurskoers op 1 maart 20x6"
-        - categorie: E1
-          regel: 333
-          type: other
-          voorbeeld: "| \n\n  | | \n|---|\n\nBeurskoers\n\n  | | \n|---|\n\nVerwachte retentiegraad"
-        - categorie: B5
-          regel: 86
-          type: other
-          voorbeeld: Erkenning van de kost op basis van de verwachte beurskoers of verwachte reële waarde op de datum van terbeschikkingstelling van de aandelen (methode A)
-        - categorie: B5
-          regel: 101
-          type: other
-          voorbeeld: Erkenning van de kost op basis van de effectieve beurskoers of reële waarde per balansdatum (methode B)
-      rationale: "E1/E2: RSU-tabellen (regels 110–247 methode A, 333–435 methode B) zijn niet als pipe-tabellen gerenderd maar als losse single-cell fragmenten (`| \n\n  | | \n|---|`). B5: methode-koppen op regels 86 en 101 zijn plain-text alinea's zonder heading-prefix. Overige inhoud en journaalpost-tabellen zijn correct."
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: "E1/E2: RSU-tabellen (regels 110–247 methode A, 333–435 methode B) zijn niet als pipe-tabellen gerenderd maar als losse single-cell fragmenten (`| \n\n  | | \n|---|`). B5: methode-koppen op regels 86 en 101 zijn plain-text alinea's zonder heading-prefix. Overige inhoud en journaalpost-tabellen zijn correct."
-    status: needs-rework
 themas:
   - restricted stock unit
   - RSU
@@ -57,8 +9,32 @@ themas:
   - aandelenoptieplan
   - voorziening voor risico&#039;s en kosten
   - voorziening
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toekenning-van-gratis-aandelen-restricted-stock-units-als-bonus
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:31Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/16 – Toekenning van gratis aandelen (Restricted Stock Units) als bonus
 
 ## Inleiding
@@ -106,142 +82,121 @@ De verwachte beurskoers van het onderliggende aandeel op 1 maart 20x6 en de verw
 
 | 
 
- | | 
-|---|
+| 
 
 Beurskoers
 
-  | | 
-|---|
+ | 
 
 Verwachte beurskoers op 1 maart 20x6
 
-  | | 
-|---|
+ | 
 
 Verwachte retentiegraad
 
-  | 
+ |
 | 
 
 31 december 20X1
 
-  | | 
-|---|
+ | 
 
 14
 
-  | | 
-|---|
+ | 
 
 18
 
-  | | 
-|---|
+ | 
 
 70%
 
-  | 
+ |
 | 
 
 31 december 20X2
 
-  | | 
-|---|
+ | 
 
 17
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 75%
 
-  | 
+ |
 | 
 
 31 december 20X3
 
-  | | 
-|---|
+ | 
 
 18
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 80%
 
-  | 
+ |
 | 
 
 31 december 20X4
 
-  | | 
-|---|
+ | 
 
 16
 
-  | | 
-|---|
+ | 
 
 19
 
-  | | 
-|---|
+ | 
 
 70%
 
-  | 
+ |
 | 
 
 31 december 20X5
 
-  | | 
-|---|
+ | 
 
 17
 
-  | | 
-|---|
+ | 
 
 18
 
-  | | 
-|---|
+ | 
 
 90%
 
-  | 
+ |
 | 
 
 1 maart 20X6
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 -
 
-  | | 
-|---|
+ | 
 
 -
 
-  | 
+ |
 
 In de loop van 20X2 en 20X4 heeft telkens één kaderlid de onderneming verlaten. Op 1 maart 20X6 verkrijgen de drie overblijvende kaderleden hun aandelen.
 
@@ -328,107 +283,93 @@ De beurskoers van het onderliggende aandeel en de verwachte retentiegraad worden
 
 | 
 
- | | 
-|---|
+| 
 
 Beurskoers
 
-  | | 
-|---|
+ | 
 
 Verwachte retentiegraad
 
-  | 
+ |
 | 
 
 31 december 20X1
 
-  | | 
-|---|
+ | 
 
 14 EUR
 
-  | | 
-|---|
+ | 
 
 70%
 
-  | 
+ |
 | 
 
 31 december 20X2
 
-  | | 
-|---|
+ | 
 
 17 EUR
 
-  | | 
-|---|
+ | 
 
 75%
 
-  | 
+ |
 | 
 
 31 december 20X3
 
-  | | 
-|---|
+ | 
 
 18 EUR
 
-  | | 
-|---|
+ | 
 
 80%
 
-  | 
+ |
 | 
 
 31 december 20X4
 
-  | | 
-|---|
+ | 
 
 16 EUR
 
-  | | 
-|---|
+ | 
 
 70%
 
-  | 
+ |
 | 
 
 31 december 20X5
 
-  | | 
-|---|
+ | 
 
 17 EUR
 
-  | | 
-|---|
+ | 
 
 90%
 
-  | 
+ |
 | 
 
 1 maart 20X6
 
-  | | 
-|---|
+ | 
 
 18 EUR
 
-  | | 
-|---|
+ | 
 
 -
 
-  | 
+ |
 
 In de loop van 20X3 en 20X4 heeft telkens één kaderlid de onderneming verlaten. Op 1 maart 20X6 verkrijgen de drie overblijvende kaderleden hun aandelen.
 

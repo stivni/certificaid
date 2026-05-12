@@ -15,46 +15,6 @@ gerelateerde_adviezen:
     titel: Winstverdeling binnen de NV
     url: https://www.cbn-cnc.be/nl/adviezen/winstverdeling-binnen-de-nv
 nummer: CBN-advies 2022/01
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
-      sha256: 9daea3fd6ca339f48d1fc62283441749091d877578b706b9786d76e6c532cc30
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:31Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 9
-      max_section_chars: 7855
-      file_size_chars: 24815
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D2
-          regel: 92
-          type: missing-section
-          voorbeeld: 'wordt deze verhouding via volgende formule berekend: [formule ontbreekt]'
-        - categorie: D2
-          regel: 94
-          type: missing-section
-          voorbeeld: Bovenstaande formule geldt als vertrekpunt voor de berekening... [geen formule zichtbaar]
-      rationale: 'D2: regel 92 kondigt ''wordt deze verhouding via volgende formule berekend:'' aan, maar de formule zelf ontbreekt volledig in de body — was een afbeelding in het originele advies. Regel 94 verwijst naar ''Bovenstaande formule'' die niet zichtbaar is, waardoor de redenering over ruilverhouding niet te volgen is. De 9 balans-tabellen in markdown-pipe-syntax zijn correct.'
-      run_at: '2026-05-11T17:13:31Z'
-      status: needs-rework
-    rationale: 'D2: regel 92 kondigt ''wordt deze verhouding via volgende formule berekend:'' aan, maar de formule zelf ontbreekt volledig in de body — was een afbeelding in het originele advies. Regel 94 verwijst naar ''Bovenstaande formule'' die niet zichtbaar is, waardoor de redenering over ruilverhouding niet te volgen is. De 9 balans-tabellen in markdown-pipe-syntax zijn correct.'
-    status: needs-rework
 themas:
   - nettoactief
   - fusie
@@ -69,8 +29,32 @@ themas:
   - continuïteit
   - verdeling eigen vermogen
   - eigen vermogen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:44Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2022/01 – Fusies en splitsingen van vennootschappen met een negatief nettoactief
 
 ## Inleiding
@@ -115,38 +99,38 @@ Daar een herstructureringsverrichting overeenkomstig het WVV kan worden aangemer
 ### Toepassing op fusies
 ### Voorbeeld 1
 Naamloze vennootschap A neemt zich voor naamloze vennootschap B[^19], die een negatief boekhoudkundig eigen vermogen heeft, over te nemen. De deelnemende vennootschappen houden geen aandelen aan van elkaar. Er wordt geen opleg in geld toegekend. Vennootschap B is niet in het bezit van eigen aandelen en de aandelen hebben geen nominale waarde. Er werd niet beslist om de fractiewaarde per aandeel te behouden. De balansen van beide vennootschappen vóór de fusie worden hieronder weergegeven. De bedragen worden uitgedrukt in duizend euro.
-| Balans A | 
+| Balans A|
 |---|
-| Activa | | 2.000 | | Kapitaal | | 1.000 | 
-| | | | | Reserves | | 500 | 
-| | | | | Schulden | | 500 | 
-| | | 2.000 | | | | 2.000 | 
+| Activa| 2.000| Kapitaal | 1.000|
+| | | Reserves | 500|
+| | | Schulden | 500|
+| | 2.000| | 2.000|
 
-| Balans B | 
+| Balans B|
 |---|
-| Activa | | 1.000 | | Kapitaal | | 200 | 
-| | | | | Overgedragen verlies | | -400 | 
-| | | | | Schulden | | 1.200 | 
-| | | 1.000 | | | | 1.000 | 
+| Activa| 1.000| Kapitaal | 200|
+| | | Overgedragen verlies| -400|
+| | | Schulden | 1.200|
+| | 1.000| | 1.000|
 
 De ruilwaarde van iedere vennootschap, die eveneens overeenstemt met de werkelijke waarde ervan, bedraagt 5.000 en 1.000. Deze is dus positief.
 Het aantal aandelen, de ruilwaarde en de ruilwaarde per aandeel van beide vennootschappen worden als volgt weergegeven:
-| | | A | | B | 
-|---|---|---|---|---|
-| Aantal aandelen | | 100 | | 10 | 
-| Ruilwaarde | | 5.000 | | 1.000 | 
-| Ruilwaarde per aandeel | | 50 | | 100 | 
+| | A| B|
+|---|---|---|
+| Aantal aandelen| 100| 10|
+| Ruilwaarde| 5.000| 1.000|
+| Ruilwaarde per aandeel| 50| 100|
 
 De ruilverhouding die wordt verkregen is de volgende: 1 B-aandeel wordt geruild tegen 2 A-aandelen. Er worden dus 20 A-aandelen uitgegeven in ruil voor 10 B-aandelen.
 De fusie kan in boekhoudkundige continuïteit worden voltrokken indien er ook voldaan wordt aan de andere voorwaarden dan de uitgifte van aandelen van de overnemende vennootschap aan de aandeelhouders van de overgenomen vennootschap.
 Op de datum waarop de fusie boekhoudkundig van kracht wordt, ziet de balans van de overnemende vennootschap (A) er als volgt uit:
-| Balans A (+B) | 
+| Balans A (+B)|
 |---|
-| Activa | | 3.000 | | Kapitaal | | 1.200 | 
-| | | | | Reserves | | 500 | 
-| | | | | Overgedragen verlies | | -400 | 
-| | | | | Schulden | | 1.700 | 
-| | | 3.000 | | | | 3.000 | 
+| Activa| 3.000| Kapitaal | 1.200|
+| | | Reserves | 500|
+| | | Overgedragen verlies | -400|
+| | | Schulden | 1.700|
+| | 3.000| | 3.000|
 
 Dit voorbeeld bevestigt dat een fusie door overneming van een vennootschap met een negatief boekhoudkundig eigen vermogen (B) wel degelijk kan leiden tot de uitgifte van aandelen van de overnemende vennootschap (A) wanneer de ruilwaarde van de betrokken vennootschappen positief is. Overigens kan er een kapitaalverhoging in hoofde van de overnemende vennootschap worden vastgesteld. 
 
@@ -177,50 +161,50 @@ De Commissie meent dat de verdeling van het boekhoudkundig eigen vermogen van de
 Stel dat naamloze vennootschap A (de balans van A wordt hieronder weergegeven) gesplitst wordt in twee bestaande naamloze vennootschappen B en C.[^27]
  Net zoals in voorbeeld 1 worden de bedragen in duizend euro weergegeven. Er wordt verondersteld dat er gelijkwaardigheid is tussen het boekhoudkundig en het fiscaal kapitaal.
 
-| Balans A | 
+| Balans A|
 |---|
-| Activa | | 8.000 | | Kapitaal | | 2.000 | 
-| | | | | Overgedragen verlies | | -4.000 | 
-| | | | | Schulden | | 10.000 | 
-| | | 8.000 | | | | 8.000 | 
+| Activa| 8.000| Kapitaal | 2.000|
+| | | Overgedragen verlies | -4.000|
+| | | Schulden | 10.000|
+| | 8.000| | 8.000|
 
 Wanneer het splitsingsvoorstel bepaalt dat de verdeling, over de aandeelhouders van de te splitsen vennootschap, van de aandelen van de verkrijgende vennootschappen naar evenredigheid met hun rechten op het kapitaal van de te splitsen vennootschap zal gebeuren[^28], kunnen het aantal aandelen, de ruilwaarde en de ruilwaarde per aandeel van beide vennootschappen als volgt worden weergegeven:
-| | | A | | B | | C | 
-|---|---|---|---|---|---|---|
-| Aantal aandelen | | 5.000 | | 15.000 | | 12.000 | 
-| Ruilwaarde | | 10.000 | | 15.000 | | 12.000 | 
-| Ruilwaarde per aandeel | | 2 | | 1 | | 1 | 
+| | A| B| C|
+|---|---|---|---|
+| Aantal aandelen| 5.000| 15.000| 12.000|
+| Ruilwaarde| 10.000| 15.000| 12.000|
+| Ruilwaarde per aandeel| 2| 1| 1|
 
 Aangezien de ruilwaarde van de betrokken vennootschappen positief is, kan de verrichting plaatsvinden.
 B verkrijgt activa met een boekhoudkundige waarde van 6.000, d.i. ¾ van de totale waarde van de activa van A. C verkrijgt activa ter waarde van 2.000, d.i. ¼ van de waarde van de activa van A.
 Het vermogen van A dat aan B en C wordt overgedragen, wordt als volgt samengesteld:
-| Balans B | 
+| Balans B|
 |---|
-| Activa | | 6.000 | | Eigen vermogen | | -1.500 | 
-| | | | | Schulden | | 7.500 | 
-| | | 6.000 | | | | 6.000 | 
+| Activa| 6.000| Eigen vermogen | -1.500|
+| | | Schulden | 7.500|
+| | 6.000| | 6.000|
 
-| Balans C | 
+| Balans C|
 |---|
-| Activa | | 2.000 | | Eigen vermogen | | -500 | 
-| | | | | Schulden | | 2.500 | 
-| | | 2.000 | | | | 2.000 | 
+| Activa| 2.000| Eigen vermogen | -500|
+| | | Schulden | 2.500|
+| | 2.000| | 2.000|
 
 Overeenkomstig artikel 213, tweede lid WIB 92 moet het fiscaal eigen vermogen in dezelfde verhouding als de activa worden overgedragen. Gezien de gelijkwaardigheid van het boekhoudkundig en het fiscaal eigen vermogen, geldt hetzelfde voor het boekhoudkundig eigen vermogen.
 De overgedragen vermogens aan B en C worden als volgt weergegeven:
-| Balans B | 
+| Balans B|
 |---|
-| Activa | | 6.000 | | Kapitaal | | 1.500 | 
-| | | | | Overgedragen verlies | | -3.000 | 
-| | | | | Schulden | | 7.500 | 
-| | | 6.000 | | | | 6.000 | 
+| Activa| 6.000| Kapitaal | 1.500|
+| | | Overgedragen verlies | -3.000|
+| | | Schulden | 7.500|
+| | 6.000| | 6.000|
 
-| Balans C | 
+| Balans C|
 |---|
-| Activa | | 2.000 | | Kapitaal | | 500 | 
-| | | | | Overgedragen verlies | | -1.000 | 
-| | | | | Schulden | | 2.500 | 
-| | | 2.000 | | | | 2.000 | 
+| Activa| 2.000| Kapitaal | 500|
+| | | Overgedragen verlies | -1.000|
+| | | Schulden | 2.500|
+| | 2.000| | 2.000|
 
 Overigens moet er worden opgemerkt dat de afstemming van de overdracht van het boekhoudkundig eigen vermogen op de overdracht van het fiscaal eigen vermogen uitsluitend kan plaatsvinden indien de activa en de schulden in dezelfde verhouding worden overgedragen. In de praktijk zal dit echter niet altijd het geval zijn. De schulden worden immers overgedragen op zodanige wijze dat ze in verband worden gebracht met de activa waarop ze betrekking hebben. In dergelijk geval is de Commissie van oordeel dat, wanneer de activa en de schulden niet in dezelfde verhouding worden overgedragen, er aanpassingen nodig zullen zijn in de fiscale aangifte. 
 
@@ -228,33 +212,33 @@ Overigens moet er worden opgemerkt dat de afstemming van de overdracht van het b
 Neem het voorbeeld van een naamloze vennootschap A (de balans van A wordt hieronder opgenomen) die een partiële splitsing doorvoert en daarbij een deel van haar activa overdraagt aan de nieuw opgerichte naamloze vennootschap B.[^29]
  De bedragen worden uitgedrukt in duizend euro. Er wordt verondersteld dat er gelijkwaardigheid bestaat tussen het boekhoudkundig en het fiscaal kapitaal.
 
-| Balans A | 
+| Balans A|
 |---|
-| Activum 1 | | 4.000 | | Kapitaal | | 2.000 | 
-| Activum 2 | | 4.000 | | Overgedragen resultaat | | -4.000 | 
-| | | | | Schulden | | 10.000 | 
-| | | 8.000 | | | | 8.000 | 
+| Activum 1| 4.000| Kapitaal | 2.000|
+| Activum 2| 4.000| Overgedragen resultaat | -4.000|
+| | | Schulden | 10.000|
+| | 8.000| | 8.000|
 
 Vennootschap A houdt activa met een boekwaarde van 8.000 en schulden ter waarde van 10.000, wat neerkomt op een negatief nettoactief van -2.000.
 In de veronderstelling dat de ruilwaarde van de betrokken vennootschappen positief is, kan de verrichting plaatsvinden.
 A behoudt activum 2 met een boekwaarde van 4.000, d.i. ½ van de totale waarde van de activa van A vóór de verrichting, alsook het volledige bedrag van de schulden. B verwerft activum 1 met een boekwaarde van 4.000, d.i. ½ van de totale waarde van de activa van A vóór de verrichting.
 Vanuit boekhoudkundig standpunt lijkt het, zonder bijkomende aanpassingen uit te voeren, niet mogelijk het eigen vermogen toe te kennen overeenkomstig artikel 213, § 2 WIB 92.
 Boekhoudkundig wordt de balans van A na de verrichting als volgt voorgesteld:
-| Balans A | 
+| Balans A|
 |---|
-| Activum 2 | | 4.000 | | Kapitaal | | 1.000 | 
-| | | | | Overgedragen resultaat | | -7.000 | 
-| | | | | Schulden | | 10.000 | 
-| | | 4.000 | | | | 4.000 | 
+| Activum 2| 4.000| Kapitaal | 1.000|
+| | | Overgedragen resultaat | -7.000|
+| | | Schulden | 10.000|
+| | 4.000| | 4.000|
 
 Rekening houdend met de hierboven vermelde 50/50-verhouding, behoudt vennootschap A een kapitaal van 1.000, d.i. 50 % van 2.000. Daar de activa 4.000 en de schulden 10.000 bedragen, is het overgedragen resultaat vanuit boekhoudkundig standpunt gelijk aan -7.000. Het eigen vermogen bedraagt aldus -6.000 en is samengesteld uit het kapitaal (1.000) en het overgedragen resultaat (-7.000).
 Op fiscaal vlak moet het overgedragen resultaat daarentegen gelijk zijn aan -2.000, d.i. 50 % van -4.000. Bijgevolg moet er in het hierboven vermelde geval van verdeling een positieve belaste reserve (bijvoorbeeld een “buiten de balans opgenomen reserve”) worden opgenomen in de aangifte van de vennootschapsbelasting die bij het begin en aan het einde 5.000 bedraagt.
 Boekhoudkundig wordt de balans van B na de verrichting als volgt voorgesteld:
-| Balans B | 
+| Balans B|
 |---|
-| Activum 1 | | 4.000 | | Kapitaal | | 1.000 | 
-| | | | | Overgedragen resultaat | | 3.000 | 
-| | | 4.000 | | | | 4.000 | 
+| Activum 1| 4.000| Kapitaal | 1.000|
+| | | Overgedragen resultaat | 3.000|
+| | 4.000| | 4.000|
 
 Rekening houdend met de hierboven vermelde 50/50-verhouding, ontvangt B een kapitaal van 1.000, d.i. 50 % van 2.000. Daar de activa 4.000 bedragen, is het (boekhoudkundig) overgedragen resultaat gelijk aan 3.000.
 Op fiscaal vlak moet het overgedragen resultaat echter -2.000 bedragen, d.i. 50 % van -4.000. Bijgevolg moet er een negatieve belaste reserve (bijvoorbeeld een “buiten de balans opgenomen reserve”) worden opgenomen in de aangifte van de vennootschapsbelasting die bij het begin en aan het einde -5.000 bedraagt.

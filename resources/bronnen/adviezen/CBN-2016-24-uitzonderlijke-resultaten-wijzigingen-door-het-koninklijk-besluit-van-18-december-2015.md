@@ -2,54 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
 datum: 2016-10-26
 nummer: CBN-advies 2016/24
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
-      sha256: 47168dbcf84b23ac15058c02ea32c39d3c630a6666dd441455dcc6fa521caf50
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 3
-      max_section_chars: 4921
-      file_size_chars: 11115
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 75
-          type: other
-          voorbeeld: ' Dit geldt *mutatis mutandis* voor het microschema van de resultatenrekening.[^9]'
-        - categorie: A6
-          regel: 76
-          type: other
-          voorbeeld: ' Ook het schema van de resultatenrekening van de geconsolideerde jaarrekening'
-        - categorie: A6
-          regel: 78
-          type: other
-          voorbeeld: zijn opgenomen onder de niet-recurrente bedrijfs- of financiële resultaten.[^11]
-        - categorie: A6
-          regel: 79
-          type: other
-          voorbeeld: ' De Commissie meent dus dat in deze context in de praktijk geen verschil'
-      rationale: 'A6: structureel patroon van spurious line-breaks na voetnootreferenties midden in lopende zinnen — regels 75-76 ('' Dit geldt *mutatis mutandis*[^9]\n Ook het schema'') en 78-79 (''[^11]\n De Commissie meent'') zijn kenmerkend voor dit ETL-patroon. Tabel correct in pipe-syntax; inhoud en voetnoten compleet.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'A6: structureel patroon van spurious line-breaks na voetnootreferenties midden in lopende zinnen — regels 75-76 ('' Dit geldt *mutatis mutandis*[^9]\n Ook het schema'') en 78-79 (''[^11]\n De Commissie meent'') zijn kenmerkend voor dit ETL-patroon. Tabel correct in pipe-syntax; inhoud en voetnoten compleet.'
-    status: needs-rework
 themas:
   - niet-recurrente kosten
   - niet-recurrente opbrengsten
@@ -57,8 +9,32 @@ themas:
   - uitzonderlijke kosten
   - uitzonderlijke opbrengsten
   - uitzonderlijke resultaten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/uitzonderlijke-resultaten-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:20Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/24 – Uitzonderlijke resultaten: wijzigingen door het koninklijk besluit van 18 december 2015
 
 ## Inleiding
@@ -82,36 +58,36 @@ Herstructureringskosten kunnen van verschillende aard zijn: uitzonderlijke afsch
 
 ***Overzicht MAR-rekeningen “Niet-recurrente resultaten”***
 
-| **Niet-recurrente bedrijfsopbrengsten** | 
+| **Niet-recurrente bedrijfsopbrengsten**|
 |---|
-| *7600* | | *Terugneming van afschrijvingen op immateriële vaste activa* | 
-| *7601* | | *Terugneming van afschrijvingen op materiële vaste activa* | 
-| *7620* | | *Terugneming van voorzieningen voor niet-recurrente bedrijfsrisico’s en kosten* | 
-| *7630* | | *Meerwaarde op de realisatie van immateriële en materiële vaste activa* | 
-| *764 > 768* | | *Andere niet-recurrente bedrijfsopbrengsten*  | 
-| **Niet-recurrente bedrijfskosten**  | 
-| *6600* | | *Niet-recurrente afschrijvingen en waardeverminderingen op oprichtingskosten* | 
-| *6601* | | *Niet-recurrente afschrijvingen en waardeverminderingen op immateriële vaste activa* | 
-| *6602* | | *Niet-recurrente afschrijvingen en waardeverminderingen op materiële vaste activa* | 
-| *6620* | | *Voorzieningen voor niet-recurrente bedrijfsrisico’s en kosten* | 
-| | | *66200 Toevoeging* | 
-| | | *66201 Besteding (-)* | 
-| *6630* | | *Minderwaarde op de realisatie van immateriële en materiële vaste activa* | 
-| *664 > 667* | | *Andere niet-recurrente bedrijfskosten* | 
-| *6690* | | *Als herstructureringskosten geactiveerde niet-recurrente bedrijfskosten (-)* | 
-| **Niet-recurrente financiële opbrengsten** | 
-| *761* | | *Terugneming van waardeverminderingen op financiële vaste activa* | 
-| *7621* | | * Terugneming van voorzieningen voor niet-recurrente financiële risico’s en kosten* | 
-| *7631* | | *Meerwaarde op de realisatie van financiële vaste activa* | 
-| *769* | | *Andere niet-recurrente financiële opbrengsten* | 
-| **Niet-recurrente financiële kosten**  | 
-| *661* | | *Waardeverminderingen op financiële vaste activa (toevoeging)* | 
-| *6621* | | *Voorzieningen voor niet-recurrente financiële risico’s en kosten* | 
-| | | *66210 Toevoeging* | 
-| | | *66211 Besteding (-)* | 
-| *6631* | | *Minderwaarde op de realisatie van financiële vaste activa* | 
-| *668* | | *Andere niet-recurrente financiële kosten* | 
-| *6691* | | *Als herstructureringskosten geactiveerde niet-recurrente financiële kosten (-)*  | 
+| *7600*|* Terugneming van afschrijvingen op immateriële vaste activa*|
+| *7601*|* Terugneming van afschrijvingen op materiële vaste activa*|
+| *7620*|* Terugneming van voorzieningen voor niet-recurrente bedrijfsrisico’s en kosten*|
+| *7630*|* Meerwaarde op de realisatie van immateriële en materiële vaste activa*|
+| *764 > 768*|* Andere niet-recurrente bedrijfsopbrengsten *|
+| **Niet-recurrente bedrijfskosten** |
+| *6600*|* Niet-recurrente afschrijvingen en waardeverminderingen op oprichtingskosten*|
+| *6601*|* Niet-recurrente afschrijvingen en waardeverminderingen op immateriële vaste activa*|
+| *6602*|* Niet-recurrente afschrijvingen en waardeverminderingen op materiële vaste activa*|
+| *6620*|* Voorzieningen voor niet-recurrente bedrijfsrisico’s en kosten*|
+| | *66200 Toevoeging*|
+| | *66201 Besteding (-)*|
+| *6630*|* Minderwaarde op de realisatie van immateriële en materiële vaste activa*|
+| *664 > 667*|* Andere niet-recurrente bedrijfskosten*|
+| *6690*|* Als herstructureringskosten geactiveerde niet-recurrente bedrijfskosten (-)*|
+| **Niet-recurrente financiële opbrengsten**|
+| *761*|* Terugneming van waardeverminderingen op financiële vaste activa*|
+| *7621*|*  Terugneming van voorzieningen voor niet-recurrente financiële risico’s en kosten*|
+| *7631*|* Meerwaarde op de realisatie van financiële vaste activa*|
+| *769*|* Andere niet-recurrente financiële opbrengsten*|
+| **Niet-recurrente financiële kosten** |
+| *661*|* Waardeverminderingen op financiële vaste activa (toevoeging)*|
+| *6621*|* Voorzieningen voor niet-recurrente financiële risico’s en kosten*|
+| | *66210 Toevoeging*|
+| | *66211 Besteding (-)*|
+| *6631*|* Minderwaarde op de realisatie van financiële vaste activa*|
+| *668*|* Andere niet-recurrente financiële kosten*|
+| *6691*|* Als herstructureringskosten geactiveerde niet-recurrente financiële kosten (-) *|
 
 ## Vermelding in de toelichting
 Ook in de toelichting van zowel het volledig[^13] als het verkort schema[^14] van de jaarrekening moeten voortaan het bedrag en de aard van de opbrengsten en kosten van uitzonderlijke omvang of uitzonderlijke mate van voorkomen worden opgenomen op een meer opgedeelde wijze aangepast aan de structuur waarop deze in het aangepaste schema van de resultatenrekening zijn opgenomen onder de niet-recurrente bedrijfs- of financiële resultaten.[^15]

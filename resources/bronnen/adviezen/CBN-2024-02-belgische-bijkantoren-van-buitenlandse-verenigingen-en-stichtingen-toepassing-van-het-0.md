@@ -15,42 +15,6 @@ gerelateerde_adviezen:
     titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
 nummer: CBN-advies 2024/02
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
-      sha256: 7b9a8a629ece5b431808799881a666da1acf93156fb67b32a4601de36a6b777a
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:31Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 39
-      max_section_chars: 20175
-      file_size_chars: 47292
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A3
-          regel: 87
-          type: other
-          voorbeeld: 'Sluiting van het bijkantoor (losse tekstregel tussen H1-titel op regel 85 en ## Inleiding op regel 89 — TOC-relic)'
-      rationale: 'A3: de tekst ''Sluiting van het bijkantoor'' staat als losstaande plain-text alinea op regel 87, tussen de H1-titel en ## Inleiding — een TOC-navigatie-relic dat niet thuishoort in de body; de werkelijke sectie met die titel staat pas op regel 344 als ## heading. Dit is een klassiek scraper-artefact waarbij een inhoudsopgave-link werd meegekopieerd. Verder is de inhoud volledig en zijn de 77 voetnoten correct.'
-      run_at: '2026-05-11T17:13:31Z'
-      status: needs-rework
-    rationale: 'A3: de tekst ''Sluiting van het bijkantoor'' staat als losstaande plain-text alinea op regel 87, tussen de H1-titel en ## Inleiding — een TOC-navigatie-relic dat niet thuishoort in de body; de werkelijke sectie met die titel staat pas op regel 344 als ## heading. Dit is een klassiek scraper-artefact waarbij een inhoudsopgave-link werd meegekopieerd. Verder is de inhoud volledig en zijn de 77 voetnoten correct.'
-    status: needs-rework
 themas:
   - bijkantoor
   - publicatie
@@ -76,8 +40,32 @@ themas:
   - sluiting
   - bewaarplicht
   - moederbedrijf
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-verenigingen-en-stichtingen-toepassing-van-het-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:50Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2024/02 – Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen
 
 ## Inleiding

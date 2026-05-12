@@ -15,43 +15,35 @@ gerelateerde_adviezen:
     titel: Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen 137/5 en 148/4
     url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
 nummer: CBN-advies 148/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vakantiegeld
-      sha256: 741d030d6b6ba24bf9ad15b73181dc19b7d0f11020739f2638d999710c7bc4a6
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:23:03Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 2224
-      file_size_chars: 2224
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Vorige D4-issue (*littera *d) met spatie vóór sluitende asterisk) is gefixeerd — body toont nu correct *littera* d). Inhoud volledig (4 paragrafen, geen voetnoten), geen artefacten van andere categorieën aangetroffen.
-      run_at: '2026-05-11T13:23:03Z'
-      status: trusted
-    rationale: Vorige D4-issue (*littera *d) met spatie vóór sluitende asterisk) is gefixeerd — body toont nu correct *littera* d). Inhoud volledig (4 paragrafen, geen voetnoten), geen artefacten van andere categorieën aangetroffen.
-    status: trusted
 themas:
   - toerekening van kosten en opbrengsten
   - vakentiegeld
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vakantiegeld
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:39Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 148/2 - Vakantiegeld
 
 Overeenkomstig artikel 31, § 1, *littera* d), van de vierde EEG-richtlijn bepaalt artikel 19, vierde lid van het jaarrekeningbesluit van 8 oktober 1976 zoals gewijzigd door het koninklijk besluit van 12 september 1983 dat "er moet rekening worden gehouden met de kosten en opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd". Dit lid preciseert verder : "ten laste van het boekjaar moeten inzonderheid worden geboekt ... de bezoldigingen, uitkeringen en andere sociale voordelen die in de loop van een volgend boekjaar zullen worden betaald voor diensten die tijdens het boekjaar of tijdens voorgaande boekjaren zijn verricht.".

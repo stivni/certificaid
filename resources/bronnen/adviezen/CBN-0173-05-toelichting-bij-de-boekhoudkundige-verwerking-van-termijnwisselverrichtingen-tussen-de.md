@@ -9,54 +9,6 @@ gerelateerde_adviezen:
     titel: Overschakeling op de euro - Aspecten in verband met de geconsolideerde jaarrekening
     url: https://www.cbn-cnc.be/nl/adviezen/overschakeling-op-de-euro-aspecten-in-verband-met-de-geconsolideerde-jaarrekening
 nummer: CBN-advies 173/5
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de
-      sha256: 1590a40d3e4a3e9423ec4a2ad25bbb84ad2d65d6c11eee4f0d14b9d61cfb9337
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 3
-      max_section_chars: 7318
-      file_size_chars: 11729
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 176
-          type: pseudo-table
-          voorbeeld: "| **RESULTATENREKENING OP 31/12/1998**  | \n|---|\n| 60.000 | | 47.872,3"
-        - categorie: E2
-          regel: 180
-          type: pseudo-table
-          voorbeeld: "\t\t\t\t15.000 |"
-        - categorie: D3
-          regel: 196
-          type: abrupt-cutoff
-          voorbeeld: In dit verband wenst de Commissie, conform voetnoot
-        - categorie: D3
-          regel: 198
-          type: other
-          voorbeeld: van advies 173/1 over de boekhoudrechtelijke aspecten van de overschakeling...
-      rationale: 'E2 bevestigd r.176-184: de twee RESULTATENREKENING-samenvattingstabellen zijn ernstig verminkt — cellen staan als losstaande regels met wisselende inspringing buiten de pipe-tabel, waardoor de samenvatting onleesbaar is (''60.000 | | 47.872,3'' op r.178 en ''15.000 |'' op r.180 als losstaande tabfragmenten). D3 r.196-198: voetnoot 4 eindigt mid-zin (''conform voetnoot'') en voetnoot 5 begint met ''van advies 173/1 over...'' — de voetnootreferentie en -tekst zijn opgeknipt over twee afzonderlijke voetnoten door een extractieartefact.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'E2 bevestigd r.176-184: de twee RESULTATENREKENING-samenvattingstabellen zijn ernstig verminkt — cellen staan als losstaande regels met wisselende inspringing buiten de pipe-tabel, waardoor de samenvatting onleesbaar is (''60.000 | | 47.872,3'' op r.178 en ''15.000 |'' op r.180 als losstaande tabfragmenten). D3 r.196-198: voetnoot 4 eindigt mid-zin (''conform voetnoot'') en voetnoot 5 begint met ''van advies 173/1 over...'' — de voetnootreferentie en -tekst zijn opgeknipt over twee afzonderlijke voetnoten door een extractieartefact.'
-    status: needs-rework
 themas:
   - bilaterale wisselkoersen
   - contantrentevoet
@@ -74,8 +26,32 @@ themas:
   - bilaterale wisselkoersen
   - contantrentevoet
   - contantwisselkoers
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toelichting-bij-de-boekhoudkundige-verwerking-van-termijnwisselverrichtingen-tussen-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:48Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 173/5 - Toelichting bij de boekhoudkundige verwerking van termijnwisselverrichtingen tussen de munten van Lid-Staten van de Muntunie
 
 Gelet op de vragen en opmerkingen over de laatste twee leden van punt D.4. van advies 173/1[^1] over termijnwisselverrichtingen tussen munten van de Lid-Staten van de Muntunie, leek het opportuun om, net als in het (in bulletin nr. 20 gepubliceerde) advies 152/1 over verrichtingen, tegoeden en verplichtingen in deviezen, bij de verwerking van termijnverrichtingen, een duidelijker onderscheid te maken tussen, enerzijds, de component «contantwisselkoers» en, anderzijds, de component «rente» die het report/ deport vormt. Die twee leden dienen te worden vervangen door de volgende tekst : 
@@ -170,15 +146,13 @@ De invloed van de voornoemde termijnwisselverrichting op de door de betrokken on
 
 Dit komt neer op een totaalresultaat (met inbegrip van de samenstellende delen «wissel» en «rente») van (12.127,7) dat in resultaat moet worden genomen : 
 
-| **RESULTATENREKENING OP 31/12/1998**  | 
+| **RESULTATENREKENING OP 31/12/1998** |
 |---|
-| 60.000 | | 47.872,3 
+| 60.000| 47.872,3 15.000|
 
-			15.000 | 
-
-| **RESULTATENREKENING OP 31/12/1999** | 
+| **RESULTATENREKENING OP 31/12/1999**|
 |---|
-| 15.000 | | | 
+| 15.000| |
 
 • in 1998 voor een bedrag van 2 872,3 
 

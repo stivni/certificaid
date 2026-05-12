@@ -6,54 +6,38 @@ gerelateerde_adviezen:
     titel: Boeking van bonusaandelen
     url: https://www.cbn-cnc.be/nl/adviezen/boeking-van-bonusaandelen
 nummer: CBN-advies 2010/3
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-stockdividenden
-      sha256: c15147cac20fa5f43b85a2ac282cdc0c16a2365199873b4b4135ab42e1634a48
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 3
-      max_section_chars: 4672
-      file_size_chars: 7986
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D3
-          regel: 164
-          type: other
-          voorbeeld: '[^10]: In het geval uiteraard roerende voorheffing verschuldigd is. — geen anker [^10] in body'
-        - categorie: B1
-          regel: 61
-          type: other
-          voorbeeld: '# CBN-advies 2010/3 -De boekhoudkundige verwerking... (spatie ontbreekt na koppelteken)'
-      rationale: 'Ronde-2-verdict TOC-artefact (A3) is verholpen door scraper-fix: geen TOC-fragment meer aanwezig in body. Echter nieuw gevonden: D3: voetnoot [^10] is gedefinieerd (r164: ''In het geval uiteraard roerende voorheffing verschuldigd is'') maar heeft geen overeenkomstig anker in de body — orphaned footnote definition. Ook H1-titel (r61) bevat ''2010/3 -De'' zonder spatie na koppelteken (ETL-formatteerfout). Twee issues.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'Ronde-2-verdict TOC-artefact (A3) is verholpen door scraper-fix: geen TOC-fragment meer aanwezig in body. Echter nieuw gevonden: D3: voetnoot [^10] is gedefinieerd (r164: ''In het geval uiteraard roerende voorheffing verschuldigd is'') maar heeft geen overeenkomstig anker in de body — orphaned footnote definition. Ook H1-titel (r61) bevat ''2010/3 -De'' zonder spatie na koppelteken (ETL-formatteerfout). Twee issues.'
-    status: needs-rework
 themas:
   - bonusaandelen
   - dividenden
   - kapitaalverhoging
   - keuzedividend
   - stockdividend
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-stockdividenden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:54Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2010/3 -De boekhoudkundige verwerking van stockdividenden Advies van 25 maart 2010
 
 Aan de Commissie werd de vraag gesteld hoe een stockdividend dient verwerkt te worden in de boekhouding van de vennootschap[^1].
@@ -86,8 +70,7 @@ Aangezien met de uitreiking van een stockdividend een nieuw vermogensbestanddeel
 
 De latere aanwending van het vorderingsrecht door de aandeelhouder (al dan niet inbreng van zijn vorderingsrecht in het kapitaal van de dividenddecreterende vennootschap) is irrelevant voor de boekhoudkundige verwerking van het stockdividend. De waarde van dit vorderingsrecht moet in de resultatenrekening van de aandeelhouder worden geboekt als financiële opbrengst.
 
-*a) Boeking bij aandeelhouders*
-
+## a) Boeking bij aandeelhouders
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 416 | Diverse vorderingen | ... | |
@@ -103,8 +86,7 @@ De omzetting van het dividendrecht in nieuwe aandelen ter gelegenheid van de inb
 | | of | 28 | Financiële vaste activa | ... |
 | aan | 416 | Diverse vorderingen | | ... |
 
-*b) Boeking bij dividenddecreterende vennootschap*
-
+## b) Boeking bij dividenddecreterende vennootschap
 - Bij resultaatsbestemming
 
 | | Rekening | Omschrijving | Debet | Credit |

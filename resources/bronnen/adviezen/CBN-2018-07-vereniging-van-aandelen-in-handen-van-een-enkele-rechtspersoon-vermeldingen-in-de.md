@@ -2,46 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
 datum: 2018-05-09
 nummer: CBN-advies 2018/07
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
-      sha256: 0bfff4849299f0c0eca7f7080f32ac0ae00d5919809aed787b8629fb17d28435
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 4
-      max_section_chars: 2617
-      file_size_chars: 7545
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 69
-          type: pseudo-table
-          voorbeeld: "| \n\n*Voorbeeld*\n\n  |"
-        - categorie: E2
-          regel: 167
-          type: pseudo-table
-          voorbeeld: "| \n\n*Voorbeeld*\n\n  |"
-      rationale: 'E2: twee voorbeeld-blokken (regels 69-75 en 167-177) zijn verpakt in ''|\n\n*Voorbeeld*\n\n  |'' constructies — losse tabelcellen zonder header of separator, een scraper-artefact waarbij call-out boxes als tabel-fragmenten zijn gerenderd. Een mens zou een blockquote (>) of gewone alinea schrijven. Verder inhoud en heading-structuur correct.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'E2: twee voorbeeld-blokken (regels 69-75 en 167-177) zijn verpakt in ''|\n\n*Voorbeeld*\n\n  |'' constructies — losse tabelcellen zonder header of separator, een scraper-artefact waarbij call-out boxes als tabel-fragmenten zijn gerenderd. Een mens zou een blockquote (>) of gewone alinea schrijven. Verder inhoud en heading-structuur correct.'
-    status: needs-rework
 themas:
   - vereniging van aandelen in één hand
   - eenhoofdigheid
@@ -50,8 +10,32 @@ themas:
   - personnlijke zekerheid
   - waarborg
   - aansprakelijkheid
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vereniging-van-aandelen-in-handen-van-een-enkele-rechtspersoon-vermeldingen-in-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:29Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/07 – Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen in de toelichting
 
 ## Inleiding
@@ -70,7 +54,7 @@ In bepaalde gevallen is een belangrijk gevolg gekoppeld aan de eenhoofdigheid va
 
 Wanneer alle aandelen van de vennootschap op 1 januari X in handen van vennootschap A verenigd zijn, dan wordt A vanaf 1 januari X+1 hoofdelijk aansprakelijk voor de in het jaar X ontstane verbintenissen van de vennootschap wanneer ondertussen geen nieuwe aandeelhouder is toegetreden of wanneer in tussentijd het ontbindingsbesluit niet is openbaar gemaakt. Treedt op 1 juni X+1 een nieuwe aandeelhouder toe of werd op die dag het ontbindingsbesluit openbaar gemaakt dan blijft A met de vennootschap aansprakelijk voor de voorheen ontstane verbintenissen maar niet voor de verbintenissen die na 1 juni X+1 zijn ontstaan.[^5] 
 
-  | 
+ |
 
 ## Vermeldingen in de jaarrekening van de enige aandeelhouder
 De eenhoofdigheid heeft voor gevolg dat iedere rechtspersoon die de enige aandeelhouder is van een NV of van een BVBA en dus hoofdelijk borg staat, passende vermeldingen moet maken in de jaarrekening. Artikel 25 van het uitvoeringsbesluit bij het Wetboek van vennootschappen (hierna: KB W.Venn.) schrijft namelijk voor dat de toelichting per soort de rechten en verplichtingen die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden, vermeldt. Belangrijke rechten en verplichtingen die niet kunnen worden becijferd, worden op passende wijze vermeld in de toelichting.

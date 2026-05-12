@@ -2,57 +2,37 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar
 datum: 2012-01-11
 nummer: CBN-advies 2012/4
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar
-      sha256: 4325b86bb9e88219e2116194f27bc2a303cf2a3c2f5d2e38addf25adad2bd7cc
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 9
-      max_section_chars: 7131
-      file_size_chars: 16321
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B5
-          regel: 123
-          type: other
-          voorbeeld: '** 2. Kantonnement**'
-        - categorie: E2
-          regel: 146
-          type: pseudo-table
-          voorbeeld: "| | 700-707\n\t\t\t(of 499 | Verkopen en dienstprestaties \n\t\t\tVerkopen materiële vaste activa) | 4.750,00 | |"
-        - categorie: E2
-          regel: 154
-          type: pseudo-table
-          voorbeeld: "| | 700 – 707\n\t\t\t(of 499 | Verkopen en dienstprestaties \n\t\t\tVerkopen materiële vaste activa) | 4.750,00 | |"
-      rationale: 'B5: regel 123 toont ''** 2. Kantonnement**'' als bold pseudo-heading — structureel inconsistent met de andere subsecties die wel ### headings gebruiken (bv. ''### 1. Uitvoerend beslag'' op regel 111). E2: regels 146-148 en 154-156 tonen tabelrijen waarbij rekeningnummers ''700-707'' en ''700 – 707'' plus de omschrijving over meerdere regels met tab-inspringing lopen, buiten de tabelcellen.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'B5: regel 123 toont ''** 2. Kantonnement**'' als bold pseudo-heading — structureel inconsistent met de andere subsecties die wel ### headings gebruiken (bv. ''### 1. Uitvoerend beslag'' op regel 111). E2: regels 146-148 en 154-156 tonen tabelrijen waarbij rekeningnummers ''700-707'' en ''700 – 707'' plus de omschrijving over meerdere regels met tab-inspringing lopen, buiten de tabelcellen.'
-    status: needs-rework
 themas:
   - bewarend beslag
   - inbeslagname
   - kantonnement
   - uitvoerend beslag
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbeslagname-in-hoofde-van-de-beslagen-schuldenaar
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:05Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2012/4 - De boekhoudkundige verwerking van de inbeslagname in hoofde van de beslagen schuldenaar Advies van 11 januari 2012
 
 ## Inleiding

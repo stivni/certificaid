@@ -15,46 +15,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van “onderzoeksfondsen” in de jaarrekening van grote en zeer grote verenigingen en stichtingen
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onderzoeksfondsen-in-de-jaarrekening-van-grote-en-zeer
 nummer: CBN-advies 2015/8
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
-      sha256: 953d75e99ef043526de7c91c7e325638643e154c2d56c484308010f4b0891eda
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 7
-      max_section_chars: 5927
-      file_size_chars: 12601
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B3
-          regel: 68
-          type: other
-          voorbeeld: '# Advies 30 september 2015 — H1 zonder CBN-advies-nummer 2015/8'
-        - categorie: B2
-          regel: 110
-          type: other
-          voorbeeld: '## Voorbeeldboekingen gevolgd door ## Boeking van de aankoop... (subsectie als zelfde niveau)'
-      rationale: 'B3 bevestigd: H1 op regel 68 is ''# Advies 30 september 2015'' zonder CBN-advies-nummer (2015/8 ontbreekt in body) — structureel onvolledig als heading. B2 bevestigd: regels 110 en 112 bevatten twee opeenvolgende ## Voorbeeldboekingen en ## Boeking van de aankoop... die conceptueel een nesting vereisen maar beide ## zijn. ETL-artefacten.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'B3 bevestigd: H1 op regel 68 is ''# Advies 30 september 2015'' zonder CBN-advies-nummer (2015/8 ontbreekt in body) — structureel onvolledig als heading. B2 bevestigd: regels 110 en 112 bevatten twee opeenvolgende ## Voorbeeldboekingen en ## Boeking van de aankoop... die conceptueel een nesting vereisen maar beide ## zijn. ETL-artefacten.'
-    status: needs-rework
 themas:
   - bestellingen in uitvoering
   - bouwprojecten
@@ -63,8 +23,32 @@ themas:
   - voorraden
   - winsttoerekening
   - onroerende goederen bestemd voor verkoop
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:15Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2015/8 Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop1
 
 ## Inleiding

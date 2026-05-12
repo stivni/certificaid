@@ -15,50 +15,6 @@ gerelateerde_adviezen:
     titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende titel of om niet
     url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
 nummer: CBN-advies 126/7
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs
-      sha256: a116e35af0dd89b793235e46cdd8b2a8b8bdfc379ce3aee5c522c23738e79043
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:20Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 2
-      max_section_chars: 2181
-      file_size_chars: 4690
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: C3
-          regel: 85
-          type: pseudo-table
-          voorbeeld: '| | --------- | ------------- | | |'
-        - categorie: E2
-          regel: 92
-          type: other
-          voorbeeld: '| | Theoretische eindinventaris\n\t\t\t(tegen detailprijs) | 22.000 | | |'
-        - categorie: E2
-          regel: 96
-          type: other
-          voorbeeld: '| | Fysieke eindinventaris\n\t\t\t(tegen detailprijs) | 20.000 | | |'
-      rationale: 'C3: regels 85, 88, 91 bevatten ''--------- | -------------'' als gewone tabelcellen — ASCII-art scheidingsrijen die geen valide markdown-tabelseparatoren zijn. E2: tabelrijen ''Theoretische eindinventaris'' (regels 92-93) en ''Fysieke eindinventaris'' (regels 96-97) zijn gesplitst over twee regels met tab-inspringing — breekt de pipe-table structuur.'
-      run_at: '2026-05-11T17:05:20Z'
-      status: needs-rework
-    rationale: 'C3: regels 85, 88, 91 bevatten ''--------- | -------------'' als gewone tabelcellen — ASCII-art scheidingsrijen die geen valide markdown-tabelseparatoren zijn. E2: tabelrijen ''Theoretische eindinventaris'' (regels 92-93) en ''Fysieke eindinventaris'' (regels 96-97) zijn gesplitst over twee regels met tab-inspringing — breekt de pipe-table structuur.'
-    status: needs-rework
 themas:
   - aanschaffingsprijs
   - aftrekmethode
@@ -66,8 +22,32 @@ themas:
   - voorraden
   - waardering
   - waardering van voorraden
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/waardering-van-de-aanschaffingsprijs-van-de-voorraden-op-grond-van-de-verkoopprijs
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:26Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 126/7 - Waardering van de aanschaffingsprijs van de voorraden op grond van de verkoopprijs
 
 Het koninklijk besluit van 8 oktober 1976 stelt als beginsel dat voorraden - zoals de andere actiefbestanddelen -in de jaarrekening worden gewaardeerd tegen aanschaffingsprijs. Deze waarde wordt gewoonlijk vastgesteld volgens een additieve methode, waarbij aan de voorraadrekening de diverse kostenbestanddelen worden toegerekend die aan de betrokken voorraden toerekenbaar zijn en werden gemaakt om ze op dat ogenblik op die plaats te brengen in de staat waarin zij zich bevinden. Deze methode is uitdrukkelijk verwoord in de artikelen 21 en 22 van voornoemd besluit, waar de aanschaffings- en de vervaardigingsprijs worden omschreven. 

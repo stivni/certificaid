@@ -2,50 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-crowdfunding-0
 datum: 2019-07-31
 nummer: CBN-advies 2019/08
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-crowdfunding-0
-      sha256: 0619330477c4da91affa08f9ceff354dc4e9271cd86cf439ef6f1cc76ec4454e
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 24
-      max_section_chars: 18795
-      file_size_chars: 30391
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A5
-          regel: 61
-          type: other
-          voorbeeld: '# CBN-advies 2019/08 –Boekhoudkundige verwerking van crowdfunding'
-        - categorie: B2
-          regel: 409
-          type: other
-          voorbeeld: '## In hoofde van de begunstigde (artiest)'
-        - categorie: E2
-          regel: 500
-          type: abrupt-cutoff
-          voorbeeld: '| | 5500 | Kredietinstellingen – Rekening-couran | 7.000 | |'
-      rationale: 'B2: `## In hoofde van de begunstigde (artiest)` op regel 409 staat op ##-niveau terwijl alle omliggende sub-items van Voorbeeld 2 plain-text zijn — inconsistente hiërarchie. E2: tabelcel op regel 500 is afgekapt: `Kredietinstellingen – Rekening-couran` (ontbrekende `t`). A5: H1-titel regel 61 mist spatie na em-dash: `2019/08 –Boekhoudkundige`.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'B2: `## In hoofde van de begunstigde (artiest)` op regel 409 staat op ##-niveau terwijl alle omliggende sub-items van Voorbeeld 2 plain-text zijn — inconsistente hiërarchie. E2: tabelcel op regel 500 is afgekapt: `Kredietinstellingen – Rekening-couran` (ontbrekende `t`). A5: H1-titel regel 61 mist spatie na em-dash: `2019/08 –Boekhoudkundige`.'
-    status: needs-rework
 themas:
   - crowdfunding
   - publieksfinanciering
@@ -56,8 +12,32 @@ themas:
   - factoring
   - profit-sharing
   - participatory notes
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-crowdfunding-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:35Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2019/08 –Boekhoudkundige verwerking van crowdfunding
 
 ## Inleiding
@@ -174,15 +154,13 @@ In hoofde van de begunstigde
 | | 5500 | Kredietinstellingen – Rekening-courant | 10.000 | |
 | aan | 174 | Schulden op meer dan 1 jaar - Overige leningen | | 10.000 |
 
-*Jaarlijkse herclassificatie in functie van de looptijd*
-
+## Jaarlijkse herclassificatie in functie van de looptijd
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 174 | Schulden op meer dan 1 jaar - Overige leningen | 1.000 | |
 | aan | 424 | Overige leningen | | 1.000 |
 
-*Jaarlijkse terugbetaling (en eventuele betaling van de interesten)*
-
+## Jaarlijkse terugbetaling (en eventuele betaling van de interesten)
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 424 | Overige leningen | 1.000 | |
@@ -197,15 +175,13 @@ In hoofde van de investeerder
 | | 291 | Vorderingen op meer dan 1 jaar - Overige vorderingen | 10.000 | |
 | aan | 5500 | Kredietinstellingen – Rekening-courant | | 10.000 |
 
-*Jaarlijkse herclassificatie in functie van de looptijd*
-
+## Jaarlijkse herclassificatie in functie van de looptijd
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 416 | Overige vorderingen – Diverse vorderingen | 1.000 | |
 | aan | 291 | Vorderingen op meer dan 1 jaar – Overige vorderingen | | 1.000 |
 
-*Jaarlijkse terugbetaling (en eventuele betaling van de interesten)*
-
+## Jaarlijkse terugbetaling (en eventuele betaling van de interesten)
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 5500 | Kredietinstellingen – Rekening-courant | 1.100 | |
@@ -230,8 +206,7 @@ In hoofde van de begunstigde
 | | 400 | Klanten | 10.000 | |
 | aan | 700 tot 707 | Verkopen en dienstprestaties | | 10.000 |
 
-*Betaling van de vordering door de factor*
-
+## Betaling van de vordering door de factor
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 5500 | Kredietinstellingen – Rekening-courant | 9.300 | |
@@ -240,7 +215,7 @@ In hoofde van de begunstigde
 
 Voor het overige wordt er verwezen naar CBN-advies 2011/23 betreffende de boekhoudkundige verwerking van factoringovereenkomsten[^13].
 
-#### Profit-sharing-based crowdfunding / Royalty crowdfunding
+### Profit-sharing-based crowdfunding / Royalty crowdfunding
 De Commissie is van oordeel dat via dit type financiering de investeerder tegen de betaling van een bepaalde prijs, de investeerder een onlichamelijk roerend goed kan verwerven. De opbrengst van dat onlichamelijk roerend goed bestaat uit een deel van de toekomstige winst die het gefinancierde project zal opleveren. Deze vorm van crowdfunding wordt over het algemeen gebruikt bij artistieke projecten. De artiest draagt dan de vermogensrechten op het gefinancierde kunstwerk over aan de investeerders.
 
 De Commissie wenst te benadrukken dat de boekhoudkundige verwerking in hoofde van de investeerder afhankelijk is van de specifieke aard van het project (of het nu gaat om een artistiek- of een bedrijfsproject). De betaalde bedragen zullen voor artistieke werken op rekening 21 *Immateriële vaste activa* worden geboekt en voor bedrijfsprojecten op rekening 28 *Financiële vaste activa*.
@@ -520,8 +495,7 @@ In hoofde van het platform
 | | 5500 | Kredietinstellingen – Rekening-courant | 10.000 | |
 | aan | 489 | Andere diverse schulden | | 10.000 |
 
-*Inbreng van middelen bij de onderliggende onderneming*
-
+## Inbreng van middelen bij de onderliggende onderneming
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 489 | Andere diverse schulden | 10.000 | |
@@ -567,8 +541,7 @@ In hoofde van het platform
 | | 5500 | Kredietinstellingen – Rekening-courant | 275.000 | |
 | aan | 489 | Andere diverse schulden | | 275.000 |
 
-*Overdracht van fondsen aan de onderneming*
-
+## Overdracht van fondsen aan de onderneming
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 520 | Andere diverse schulden | 275.000 | |

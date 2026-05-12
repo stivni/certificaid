@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
 nummer: CBN-advies 2022/08
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
-      sha256: 4581799d96586ed35899b164c302b080832536eee5338dc6eacc1cad5abaa33e
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:34:12Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 9
-      max_section_chars: 9622
-      file_size_chars: 22669
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen artefacten gevonden in alle categorieën A–G. Headings correct hiërarchisch (## Inleiding, ## Boekhoudkundige beginselen, ### Voorbeeld 1, ## Standpunt, ### Continuïteitsbeginsel, ### Aanpassing, ### Uitzondering, ### Voorbeeld 2, ## Boekhoudkundige verwerking). Voetnoten 1–32 volledig aanwezig en gekoppeld. Twee voorbeelden helder uitgewerkt. Een buitenstaander zou dit voor mens-geschreven houden.'
-      run_at: '2026-05-11T13:34:12Z'
-      status: trusted
-    rationale: 'Geen artefacten gevonden in alle categorieën A–G. Headings correct hiërarchisch (## Inleiding, ## Boekhoudkundige beginselen, ### Voorbeeld 1, ## Standpunt, ### Continuïteitsbeginsel, ### Aanpassing, ### Uitzondering, ### Voorbeeld 2, ## Boekhoudkundige verwerking). Voetnoten 1–32 volledig aanwezig en gekoppeld. Twee voorbeelden helder uitgewerkt. Een buitenstaander zou dit voor mens-geschreven houden.'
-    status: trusted
 themas:
   - waarderingsregels
   - continuïteitsbeginsel
@@ -55,8 +23,32 @@ themas:
   - materiële vaste activa
   - herwaarderingsmeerwaarde
   - boekhoudkundig referentiestelsel
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/wijziging-van-het-boekhoudkundig-referentiestelsel
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:48Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2022/08 – Wijziging van het boekhoudkundig referentiestelsel
 
 ## Inleiding

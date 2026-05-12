@@ -15,50 +15,6 @@ gerelateerde_adviezen:
     titel: Gezamenlijke controle over een vennootschap - groottecriteria (update)
     url: https://www.cbn-cnc.be/nl/adviezen/gezamenlijke-controle-over-een-vennootschap-groottecriteria-update
 nummer: CBN-advies 2022/09
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
-      sha256: 12683d44b1bc9f6374c629327b3f9306330182fbca42de0ad727f6cacf952408
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:31Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 32
-      max_section_chars: 18704
-      file_size_chars: 50759
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B2
-          regel: 149
-          type: other
-          voorbeeld: '### a (natuurlijke persoon) bezit 25 % [lijst-item als ###-heading; b/c/d als plain-text met inspringen]'
-        - categorie: B2
-          regel: 158
-          type: other
-          voorbeeld: '### a (natuurlijke persoon) bezit 5 % [zelfde patroon vennootschap Y]'
-        - categorie: C3
-          regel: 151
-          type: pseudo-table
-          voorbeeld: '     b (natuurlijke persoon) bezit 24 % [5 spaties inspringen als pseudo-kolom]'
-      rationale: 'B2: regels 149 en 158 bevatten ''### a (natuurlijke persoon) bezit 25 %'' en ''### a (natuurlijke persoon) bezit 5 %'' als ###-headings — aandeelhouderspercentages in een opsomming onterecht als structuur-heading opgemaakt door de extractor; de overige aandeelhouders (b, c, d, e) staan als plain text met 5-spaties inspringen. C3: die inspringende regels zijn pseudo-kolom-uitlijning (bv. ''     b (natuurlijke persoon) bezit 24 %'').'
-      run_at: '2026-05-11T17:13:31Z'
-      status: needs-rework
-    rationale: 'B2: regels 149 en 158 bevatten ''### a (natuurlijke persoon) bezit 25 %'' en ''### a (natuurlijke persoon) bezit 5 %'' als ###-headings — aandeelhouderspercentages in een opsomming onterecht als structuur-heading opgemaakt door de extractor; de overige aandeelhouders (b, c, d, e) staan als plain text met 5-spaties inspringen. C3: die inspringende regels zijn pseudo-kolom-uitlijning (bv. ''     b (natuurlijke persoon) bezit 24 %'').'
-    status: needs-rework
 themas:
   - consolidatie
   - horizontale groep
@@ -75,8 +31,32 @@ themas:
   - microvennootschap
   - consolidatiemethode
   - integrale consolidatie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:48Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2022/09 – Consolidatie bij de horizontale groep (consortium)
 
 ## Inleiding
@@ -249,90 +229,90 @@ Ten slotte vindt tussen de leden van het consortium een horizontale consolidatie
 ### Horizontale consolidatie
 ### Voorbeeld 8
 Hierna volgen de vereenvoudigde balansen van de vennootschappen X en Y en een geconsolideerde balans van het consortium dat door beiden gevormd wordt. Er wordt verondersteld dat X een kapitaalloze vennootschap is en Y een kapitaalhoudende vennootschap. Zowel vennootschap X als vennootschap Y houden zelf géén deelnemingen aan. Bij wijze van voorbeeld worden de schulden geacht schulden te zijn tegenover derden. Er wordt verondersteld dat er vóór de verwerving geen resultaat van het boekjaar was.
-| Balans vennootschap X | 
+| Balans vennootschap X|
 |---|
-| Immateriële vaste activa | | 350 | | Inbreng | | | 
-| | | | | Beschikbaar | | 100 | 
-| | | | | Onbeschikbaar | | 0 | 
-| Materiële vaste activa | | 500 | | Reserves | | 300 | 
-| Geldbeleggingen | | 20 | | Schulden | | 470 | 
-| | | 870 | | | | 870 | 
+| Immateriële vaste activa| 350| Inbreng | |
+| | | Beschikbaar| 100|
+| | | Onbeschikbaar| 0|
+| Materiële vaste activa | 500| Reserves | 300|
+| Geldbeleggingen| 20| Schulden| 470|
+| | 870| | 870|
 
-| Balans vennootschap Y | 
+| Balans vennootschap Y|
 |---|
-| Materiële vaste activa | | 1.150 | | Inbreng | | | 
-| | | | | Kapitaal | | 1.000 | 
-| | | | | Buiten kapitaal: Uitgiftepremie[^58] | | 150 | 
-| Financiële vaste activa | | 20 | | Schulden | | 50 | 
-| Geldbeleggingen | | 30 | | | | | 
-| | | 1.200 | | | | 1.200 | 
+| Materiële vaste activa| 1.150| Inbreng | |
+| | | Kapitaal | 1.000|
+| | | Buiten kapitaal: Uitgiftepremie[^58] | 150|
+| Financiële vaste activa | 20| Schulden| 50|
+| Geldbeleggingen| 30| | |
+| | 1.200| | 1.200|
 
 *Stap 3* 
 
-| Balans consortium X + Y na horizontale consolidatie | 
+| Balans consortium X + Y na horizontale consolidatie|
 |---|
-| Immateriële vaste activa | | 350 | | Inbreng | | | 
-| | | | | Kapitaal | | 1.000 | 
-| | | | | Buiten kapitaal: Uitgiftepremie | | 150 | 
-| | | | | Beschikbaar | | 100 | 
-| | | | | Onbeschikbaar | | 0 | 
-| Materiële vaste activa | | 1.650 | | Reserves | | 300 | 
-| Financiële vaste activa | | 20 | | Schulden | | 520 | 
-| Geldbeleggingen | | 50 | | | | | 
-| | | 2.070 | | | | 2.070 | 
+| Immateriële vaste activa| 350| Inbreng | |
+| | | Kapitaal | 1.000|
+| | | Buiten kapitaal: Uitgiftepremie| 150|
+| | | Beschikbaar| 100|
+| | | Onbeschikbaar | 0|
+| Materiële vaste activa| 1.650| Reserves | 300|
+| Financiële vaste activa | 20| Schulden| 520|
+| Geldbeleggingen| 50| | |
+| | 2.070| | 2.070|
 
 ### Verticale consolidatie voorafgaand aan de horizontale consolidatie
 Mogelijks bezitten de vennootschappen die het consortium vormen zelf dochterondernemingen. In voorkomend geval zullen deze dochterondernemingen moeten worden opgenomen in de geconsolideerde jaarrekening volgens de geëigende (verticale) consolidatietechniek. 
 
 ### Voorbeeld 9
 Vennootschap X bezit 100 % van de stemrechten verbonden aan de aandelen van vennootschap X1. Deze aandelen werden verworven met een aanschaffingswaarde van 200. De vennootschappen X en Y staan onder de centrale leiding van bijvoorbeeld drie natuurlijke personen waarbij geen tegenbewijs wordt geleverd. In de voorstelling hierna zal de vennootschap X eerst een verticale consolidatie uitvoeren volgens de integrale consolidatiemethode. Vervolgens zal een horizontale consolidatie plaatsvinden van de geconsolideerde rekeningen (X + X1) met de rekeningen van de vennootschap Y. Er wordt verondersteld dat vennootschappen X, X1 en Y kapitaalhoudende vennootschappen zijn.
-| Balans vennootschap X | 
+| Balans vennootschap X|
 |---|
-| Immateriële vaste activa | | 350 | | Inbreng | | | 
-| | | | | Kapitaal | | 100 | 
-| Financiële vaste activa | | 200 | | Reserves | | 300 | 
-| Geldbeleggingen | | 80 | | Schulden | | 230 | 
-| | | 630 | | | | 630 | 
+| Immateriële vaste activa| 350| Inbreng | |
+| | | Kapitaal | 100|
+| Financiële vaste activa | 200| Reserves | 300|
+| Geldbeleggingen| 80| Schulden| 230|
+| | 630| | 630|
 
-| Balans vennootschap X1 | 
+| Balans vennootschap X1|
 |---|
-| Immateriële vaste activa | | 50 | | Inbreng | | | 
-| | | | | Kapitaal | | 250 | 
-| Materiële vaste activa | | 500 | | Reserves | | 200 | 
-| Geldbeleggingen | | 10 | | Schulden | | 110 | 
-| | | 560 | | | | 560 | 
+| Immateriële vaste activa| 50| Inbreng | |
+| | | Kapitaal | 250|
+| Materiële vaste activa | 500| Reserves | 200|
+| Geldbeleggingen| 10| Schulden| 110|
+| | 560| | 560|
 
-| Balans vennootschap Y | 
+| Balans vennootschap Y|
 |---|
-| Materiële vaste activa | | 1.150 | | Inbreng | | | 
-| | | | | Kapitaal | | 1.000 | 
-| | | | | Buiten kapitaal: Uitgiftepremie | | 150 | 
-| Financiële vaste activa | | 20 | | | | | 
-| Geldbeleggingen | | 30 | | Schulden | | 50 | 
-| | | 1.200 | | | | 1.200 | 
+| Materiële vaste activa| 1.150| Inbreng | |
+| | | Kapitaal | 1.000|
+| | | Buiten kapitaal: Uitgiftepremie| 150|
+| Financiële vaste activa | 20| | |
+| Geldbeleggingen| 30| Schulden| 50|
+| | 1.200| | 1.200|
 
 *Stap 2[^59]*  
 
-| Balans vennootschappen (X + X1) na verticale consolidatie | 
+| Balans vennootschappen (X + X1) na verticale consolidatie|
 |---|
-| Immateriële vaste activa | | 400 | | Inbreng | | | 
-| | | | | Kapitaal | | 100 | 
-| Materiëlevaste activa | | 500 | | Reserves | | 300 | 
-| Geldbeleggingen | | 90 | | Consolidatieverschil[^60] | | 250 | 
-| | | | | Schulden | | 340 | 
-| | | 990 | | | | 990 | 
+| Immateriële vaste activa| 400| Inbreng | |
+| | | Kapitaal | 100|
+| Materiëlevaste activa | 500| Reserves | 300|
+| Geldbeleggingen| 90| Consolidatieverschil[^60] | 250|
+| | | Schulden| 340|
+| | 990| | 990|
 
 *Stap 3* 
 
-| Balans consortium (X + X1) + Y na horizontale consolidatie | 
+| Balans consortium (X + X1) + Y na horizontale consolidatie|
 |---|
-| Immateriële vaste activa | | 400 | | Inbreng | | | 
-| | | | | Kapitaal | | 1.100 | 
-| | | | | Buiten kapitaal: Uitgiftepremie | | 150 | 
-| Materiële vaste activa | | 1.650 | | Reserves | | 300 | 
-| Financiële vaste activa | | 20 | | Consolidatieverschil | | 250 | 
-| Geldbeleggingen | | 120 | | Schulden | | 390 | 
-| | | 2.190 | | | | 2.190 | 
+| Immateriële vaste activa| 400| Inbreng | |
+| | | Kapitaal | 1.100|
+| | | Buiten kapitaal: Uitgiftepremie| 150|
+| Materiële vaste activa | 1.650| Reserves | 300|
+| Financiële vaste activa | 20| Consolidatieverschil | 250|
+| Geldbeleggingen| 120| Schulden| 390|
+| | 2.190| | 2.190|
 
 ## Belangen van derden
 Wanneer er sprake is van een centrale leiding maakt het niet uit hoeveel het deelnemingspercentage van derden in de consoliderende ondernemingen bedraagt. De geconsolideerde jaarrekening van het consortium bestaat uit een optelsom van het geheel van ondernemingen die het consortium vormen. De loutere optelling van de rekeningen van de ondernemingen die het consortium vormen, is net de essentie van een horizontale consolidatie. Ofwel is er eenheid van leiding, ofwel is er geen eenheid van leiding.[^61] 
@@ -341,110 +321,110 @@ In een geconsolideerde jaarrekening van een zuiver consortium komen noch belange
 
 ### Voorbeeld 10
 Vennootschap X bezit 80 % van de stemrechten verbonden aan de aandelen van vennootschap X1. Deze aandelen werden verworven met een aanschaffingswaarde van 200. De vennootschappen X en Y staan onder de centrale leiding van bijvoorbeeld drie natuurlijke personen waarbij geen tegenbewijs wordt geleverd. In een eerste stap zal X een verticale consolidatie uitvoeren volgens de integrale consolidatiemethode. In een tweede stap zal een horizontale consolidatie plaatsvinden van de verticaal geconsolideerde rekeningen (X + X1) met de rekeningen van de vennootschap Y. Er wordt verondersteld dat vennootschappen X, X1 en Y kapitaalhoudende vennootschappen zijn.
-| Balans vennootschap X | 
+| Balans vennootschap X|
 |---|
-| Immateriële vaste activa | | 350 | | Inbreng | | | 
-| | | | | Kapitaal | | 100 | 
-| Financiële vaste activa | | 200 | | Reserves | | 300 | 
-| Geldbeleggingen | | 80 | | Schulden | | 230 | 
-| | | 630 | | | | 630 | 
+| Immateriële vaste activa| 350| Inbreng | |
+| | | Kapitaal | 100|
+| Financiële vaste activa | 200| Reserves | 300|
+| Geldbeleggingen| 80| Schulden| 230|
+| | 630| | 630|
 
-| Balans vennootschap X1 | 
+| Balans vennootschap X1|
 |---|
-| Immateriële vaste activa | | 50 | | Inbreng | | | 
-| | | | | Kapitaal | | 250 | 
-| Materiële vaste activa | | 500 | | Reserves | | 200 | 
-| Geldbeleggingen | | 10 | | Schulden | | 110 | 
-| | | 560 | | | | 560 | 
+| Immateriële vaste activa| 50| Inbreng | |
+| | | Kapitaal | 250|
+| Materiële vaste activa | 500| Reserves | 200|
+| Geldbeleggingen| 10| Schulden| 110|
+| | 560| | 560|
 
-| Balans vennootschap Y | 
+| Balans vennootschap Y|
 |---|
-| Materiële vaste activa | | 1.150 | | Inbreng | | | 
-| | | | | Kapitaal | | 1.000 | 
-| Financiële vaste activa | | 20 | | Buiten kapitaal: Uitgiftepremie | | 150 | 
-| Geldbeleggingen | | 30 | | Schulden | | 50 | 
-| | | 1.200 | | | | 1.200 | 
+| Materiële vaste activa| 1.150| Inbreng | |
+| | | Kapitaal | 1.000|
+| Financiële vaste activa | 20| Buiten kapitaal: Uitgiftepremie| 150|
+| Geldbeleggingen| 30| Schulden| 50|
+| | 1.200| | 1.200|
 
 *Stap 2[^62]*  
 
-| Balans vennootschap (X + X1) na verticale consolidatie | 
+| Balans vennootschap (X + X1) na verticale consolidatie|
 |---|
-| Immateriële vaste activa | | 400 | | Inbreng | | | 
-| | | | | Kapitaal | | 100 | 
-| Materiële vaste activa | | 500 | | Reserves | | 300 | 
-| Geldbeleggingen | | 90 | | Consolidatieverschil[^63] | | 160 | 
-| | | | | Belangen van derden[^64] | | 90 | 
-| | | | | Schulden | | 340 | 
-| | | 990 | | | | 990 | 
+| Immateriële vaste activa| 400| Inbreng | |
+| | | Kapitaal | 100|
+| Materiële vaste activa | 500| Reserves | 300|
+| Geldbeleggingen| 90| Consolidatieverschil[^63] | 160|
+| | | Belangen van derden[^64] | 90|
+| | | Schulden| 340|
+| | 990| | 990|
 
 *Stap 3* 
 
-| Balans consortium (X + X1) + Y na horizontale consolidatie | 
+| Balans consortium (X + X1) + Y na horizontale consolidatie|
 |---|
-| Immateriële vaste activa | | 400 | | Inbreng | | | 
-| | | | | Kapitaal | | 1.100 | 
-| | | | | Buiten kapitaal: Uitgiftepremie | | 150 | 
-| Materiële vaste activa | | 1.650 | | Reserves | | 300 | 
-| Financiële vaste activa | | 20 | | Consolidatieverschil | | 160 | 
-| Geldbeleggingen | | 120 | | Belangen van derden | | 90 | 
-| | | | | Schulden | | 390 | 
-| | | 2.190 | | | | 2.190 | 
+| Immateriële vaste activa| 400| Inbreng | |
+| | | Kapitaal | 1.100|
+| | | Buiten kapitaal: Uitgiftepremie| 150|
+| Materiële vaste activa | 1.650| Reserves | 300|
+| Financiële vaste activa | 20| Consolidatieverschil | 160|
+| Geldbeleggingen| 120| Belangen van derden | 90|
+| | | Schulden| 390|
+| | 2.190| | 2.190|
 
 Er moet in het bijzonder aandacht worden besteed aan het geval waarin twee leden van het consortium een deelneming aanhouden in een derde vennootschap. Veronderstel dat de 20 % van X1 die in het voorgaande voorbeeld niet door X wordt aangehouden, in het bezit is van Y. De eerste vraag die moet worden gesteld is of, enerzijds, de controle over X1 in dit geval een gezamenlijke controle is die wordt uitgeoefend door X en Y of, anderzijds, X een exclusieve controle uitoefent over X1. In het geval van centrale leiding zal deze centrale leiding controle uitoefenen over zowel X als Y. De Commissie verwacht dat de controle gezamenlijk wordt uitgeoefend. Het lijkt immers op het eerste gezicht moeilijk om aan te nemen dat X alleen (zonder Y) controle uitoefent over X1, terwijl beide vennootschappen onder dezelfde centrale leiding staan.
 
 In het geval van gezamenlijke controle zal X1 worden beschouwd als een gemeenschappelijke dochtervennootschap van X en Y. X1 zal aldus verticaal evenredig worden geconsolideerd door X en Y (artikel 3:140 KB WVV). De horizontale consolidatie die in tweede instantie wordt uitgevoerd, zal logischerwijs leiden tot de consolidatie van het geheel van X1 in de jaarrekening van het consortium.
 
-| Balans vennootschap X | 
+| Balans vennootschap X|
 |---|
-| Immateriële vaste activa | | 350 | | Inbreng | | | 
-| | | | | Kapitaal | | 100 | 
-| Financiële vaste activa (deelneming X1) | | 200 | | Reserves | | 300 | 
-| Geldbeleggingen | | 80 | | Schulden | | 230 | 
-| | | 630 | | | | 630 | 
+| Immateriële vaste activa| 350| Inbreng | |
+| | | Kapitaal | 100|
+| Financiële vaste activa (deelneming X1)| 200| Reserves | 300|
+| Geldbeleggingen| 80| Schulden| 230|
+| | 630| | 630|
 
-| Balans vennootschap Y | 
+| Balans vennootschap Y|
 |---|
-| Materiële vaste activa | | 1.150 | | Inbreng | | | 
-| | | | | Kapitaal | | 1.000 | 
-| Financiële vaste activa (deelneming X1) | | 20 | | Buiten kapitaal: Uitgiftepremie | | 150 | 
-| Geldbeleggingen | | 30 | | Schulden | | 50 | 
-| | | 1.200 | | | | 1.200 | 
+| Materiële vaste activa| 1.150| Inbreng | |
+| | | Kapitaal | 1.000|
+| Financiële vaste activa (deelneming X1)| 20| Buiten kapitaal: Uitgiftepremie| 150|
+| Geldbeleggingen| 30| Schulden| 50|
+| | 1.200| | 1.200|
 
-| Balans vennootschap X1 | 
+| Balans vennootschap X1|
 |---|
-| Immateriële vaste activa | | 50 | | Inbreng | | | 
-| | | | | Kapitaal | | 250 | 
-| Materiële vaste activa | | 500 | | Reserves | | 200 | 
-| Geldbeleggingen | | 10 | | Schulden | | 110 | 
-| | | 560 | | | | 560 | 
+| Immateriële vaste activa| 50| Inbreng | |
+| | | Kapitaal | 250|
+| Materiële vaste activa | 500| Reserves | 200|
+| Geldbeleggingen| 10| Schulden| 110|
+| | 560| | 560|
 
-| Geconsolideerde balans vennootschap X – X1 | 
+| Geconsolideerde balans vennootschap X – X1|
 |---|
-| Immateriële vaste activa | | 390[^65] | | Inbreng | | | 
-| | | | | Kapitaal | | 100 | 
-| | | | | Reserves | | 300 | 
-| Materiële vaste activa | | 400[^66] | | Consolidatieverschil | | 160[^67] | 
-| Geldbeleggingen | | 88[^68] | | Schulden | | 318[^69] | 
-| | | 878 | | | | 878 | 
+| Immateriële vaste activa| 390[^65] | Inbreng | |
+| | | Kapitaal | 100|
+| | | Reserves | 300|
+| Materiële vaste activa | 400[^66] | Consolidatieverschil | 160[^67] |
+| Geldbeleggingen| 88[^68] | Schulden| 318[^69] |
+| | 878| | 878|
 
-| Geconsolideerde balans vennootschap Y – X1 | 
+| Geconsolideerde balans vennootschap Y – X1|
 |---|
-| Immateriële vaste activa | | 10[^70] | | Inbreng | | | 
-| | | | | Kapitaal | | 1.000 | 
-| | | | | Buiten kapitaal : Uitgiftepremie | | 150 | 
-| Materiële vaste activa | | 1.250[^71] | | Consolidatieverschil | | 70[^72] | 
-| Geldbeleggingen | | 32[^73] | | Schulden | | 72[^74] | 
-| | | 1.292 | | | | 1.292 | 
+| Immateriële vaste activa| 10[^70] | Inbreng | |
+| | | Kapitaal | 1.000|
+| | | Buiten kapitaal : Uitgiftepremie| 150|
+| Materiële vaste activa | 1.250[^71] | Consolidatieverschil| 70[^72] |
+| Geldbeleggingen| 32[^73] | Schulden| 72[^74] |
+| | 1.292| | 1.292|
 
-| Balans consortium ((X – X1) + (Y + X1)) na horizontale consolidatie | 
+| Balans consortium ((X – X1) + (Y + X1)) na horizontale consolidatie|
 |---|
-| Immateriële vaste activa | | 400 | | Inbreng | | | 
-| | | | | Kapitaal | | 1.000 | 
-| | | | | Buiten kapitaal : Uitgiftepremie | | 150 | 
-| Materiële vaste activa | | 1.650 | | Reserves | | 300 | 
-| | | | | Consolidatieverschil | | 230 | 
-| Geldbeleggingen | | 120 | | Schulden | | 390 | 
-| | | 2.170 | | | | 2.170 | 
+| Immateriële vaste activa| 400| Inbreng | |
+| | | Kapitaal | 1.000|
+| | | Buiten kapitaal : Uitgiftepremie| 150|
+| Materiële vaste activa | 1.650| Reserves| 300|
+| | | Consolidatieverschil | 230|
+| Geldbeleggingen| 120| Schulden| 390|
+| | 2.170| | 2.170|
 
 ## Bezit van eigen aandelen
 Overeenkomstig artikel 1:20, 1, c) WVV worden vennootschappen waarmee een consortium wordt gevormd, aangemerkt als verbonden ondernemingen. Bijgevolg wordt de deelneming die wordt aangehouden door een lid van het consortium in een ander lid van het consortium, in de enkelvoudige jaarrekening opgenomen onder de financiële vaste activa. 
@@ -454,70 +434,70 @@ Artikel 3:133, eerste lid KB WVV bepaalt dat de eigen aandelen van de consolider
 
 Voorbeeld 11 waarbij een lid van het consortium een deelneming heeft in het kapitaal van een ander lid van het consortium
 De vennootschappen X en Y vormen een consortium. Vennootschap X heeft een deelneming van 10 % in het kapitaal van vennootschap Y. Deze aandelen werden verworven met een aanschaffingswaarde van 200. De balansen van de kapitaalvennootschappen X en Y zien er uit als volgt:
-| Balans vennootschap X | 
+| Balans vennootschap X|
 |---|
-| Financiële vaste activa | | 200 | | Inbreng | | | 
-| Liquide middelen | | 1.000 | | Kapitaal | | 400 | 
-| | | | | Schulden | | 800 | 
-| | | 1.200 | | | | 1.200 | 
+| Financiële vaste activa| 200| Inbreng | |
+| Liquide middelen| 1.000| Kapitaal | 400|
+| | | Schulden| 800|
+| | 1.200| | 1.200|
 
-| Balans vennootschap Y | 
+| Balans vennootschap Y|
 |---|
-| Liquide middelen | | 2.500 | | Inbreng | | | 
-| | | | | Kapitaal | | 650 | 
-| | | | | Schulden | | 1.850 | 
-| | | 2.500 | | | | 2.500 | 
+| Liquide middelen | 2.500| Inbreng | |
+| | | Kapitaal | 650|
+| | | Schulden| 1.850|
+| | 2.500| | 2.500|
 
 De geconsolideerde balans ziet eruit als volgt:
-| Balans consortium X + Y na horizontale consolidatie | 
+| Balans consortium X + Y na horizontale consolidatie|
 |---|
-| Geldbeleggingen | | | | Inbreng | | | 
-| Eigen aandelen | | 200 | | Kapitaal | | 1.050 | 
-| Liquide middelen | | 3.500 | | Schulden | | 2.650 | 
-| | | 3.700 | | | | 3.700 | 
+| Geldbeleggingen| | Inbreng | |
+| Eigen aandelen| 200| Kapitaal | 1.050|
+| Liquide middelen | 3.500| Schulden| 2.650|
+| | 3.700| | 3.700|
 
 Voorbeeld 12 waarbij de aandelen van één van de vennootschappen die deel uitmaken van het consortium worden aangehouden door een dochteronderneming van één van de andere leden van het consortium
 Vennootschap X heeft een 75 %-dochteronderneming X1. De aanschaffingswaarde van deze aandelen bedraagt 450. Vennootschap X1 bezit op haar beurt 8 % van vennootschap Y. Vennootschap X1 heeft deze deelneming verworven voor een aanschaffingswaarde van 200. Aangezien vennootschap X en Y een consortium vormen, zal vennootschap X in eerste instantie overgaan tot een verticale consolidatie (stap 2). Om het voorbeeld eenvoudig te houden[^76], wordt er van uit gegaan dat het eigen vermogen van vennootschap X1 overeenstemt met het eigen vermogen van X1 op datum van verwerving van de aandelen.
-| Balans vennootschap X | 
+| Balans vennootschap X|
 |---|
-| Financiële vaste activa | | 450 | | Inbreng | | | 
-| Liquide middelen | | 950 | | Kapitaal | | 500 | 
-| | | | | Schulden | | 900 | 
-| | | 1.400 | | | | 1.400 | 
+| Financiële vaste activa| 450| Inbreng | |
+| Liquide middelen| 950| Kapitaal | 500|
+| | | Schulden| 900|
+| | 1.400| | 1.400|
 
 In eerste instantie zal een geconsolideerde balans worden opgesteld van X+X1.
-| Balans vennootschap X1 | 
+| Balans vennootschap X1|
 |---|
-| Financiële vaste activa | | 200 | | Inbreng | | | 
-| Liquide middelen | | 700 | | Kapitaal | | 400 | 
-| | | | | Schulden | | 500 | 
-| | | 900 | | | | 900 | 
+| Financiële vaste activa| 200| Inbreng | |
+| Liquide middelen| 700| Kapitaal | 400|
+| | | Schulden| 500|
+| | 900| | 900|
 
-| Balans vennootschap Y | 
+| Balans vennootschap Y|
 |---|
-| Liquide middelen | | 2.500 | | Inbreng | | | 
-| | | | | Kapitaal | | 650 | 
-| | | | | Schulden | | 1.850 | 
-| | | 2.500 | | | | 2.500 | 
+| Liquide middelen | 2.500| Inbreng | |
+| | | Kapitaal | 650|
+| | | Schulden| 1.850|
+| | 2.500| | 2.500|
 
 In eerste instantie zal een geconsolideerde balans worden opgesteld van X+X1.
-| Balans vennootschap (X + X1) na verticale consolidatie | 
+| Balans vennootschap (X + X1) na verticale consolidatie|
 |---|
-| Consolidatieverschil[^77] | | 150 | | Inbreng | | | 
-| Financiële vaste activa | | 200 | | Kapitaal | | 500 | 
-| Liquide middelen | | 1.650 | | Belangen van derden[^78] | | 100 | 
-| | | | | Schulden | | 1.400 | 
-| | | 2.000 | | | | 2.000 | 
+| Consolidatieverschil[^77] | 150| Inbreng | |
+| Financiële vaste activa| 200| Kapitaal | 500|
+| Liquide middelen | 1.650| Belangen van derden[^78] | 100|
+| | | Schulden| 1.400|
+| | 2.000| | 2.000|
 
 De geconsolideerde balans van het consortium ziet eruit als volgt:
-| Balans consortium (X + X1) + Y na horizontale consolidatie | 
+| Balans consortium (X + X1) + Y na horizontale consolidatie|
 |---|
-| Consolidatieverschil | | 150 | | Inbreng | | | 
-| Geldbeleggingen | | | | | | | 
-| Eigen aandelen | | 200 | | Kapitaal | | 1.150 | 
-| Liquide middelen | | 4.150 | | Belangen van derden | | 100 | 
-| | | | | Schulden | | 3.250 | 
-| | | 4.500 | | | | 4.500 | 
+| Consolidatieverschil| 150| Inbreng | |
+| Geldbeleggingen| | | |
+| Eigen aandelen| 200| Kapitaal | 1.150|
+| Liquide middelen | 4.150| Belangen van derden| 100|
+| | | Schulden| 3.250|
+| | 4.500| | 4.500|
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 11 augustus 2021 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

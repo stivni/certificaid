@@ -2,42 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/aanvragen-tot-afwijking-overzicht
 datum: 1978-12-01
 nummer: CBN-advies 108/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aanvragen-tot-afwijking-overzicht
-      sha256: ba3a343ddfa87e81faaa7171277264e63ed339d662ec9109a0ca6d56e85ac63b
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:20Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 3
-      max_section_chars: 6782
-      file_size_chars: 12806
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 112
-          type: other
-          voorbeeld: '...met het oog op de statistische verwerking, van [lege regel] het bedrag der verschillende samengevoegde rubrieken. — zin gesplitst over twee paragrafen'
-      rationale: 'De eerder gerapporteerde B2-bug (heading-hiërarchie #### zonder ##) is OPGELOST — regels 69, 91 en 126 zijn nu correct ## headings. Echter: A6 op regels 112-114: zin ''Ze werd echter afhankelijk gemaakt ... met het oog op de statistische verwerking, van'' (r112) eindigt midden in een bijzin, gevolgd door een lege regel, waarna ''het bedrag der verschillende samengevoegde rubrieken.'' (r114) de zin afsluit als aparte paragraaf — een pagina-breuk-artefact uit de originele drukversie die als lege alinea-scheiding is gerenderd.'
-      run_at: '2026-05-11T17:05:20Z'
-      status: needs-rework
-    rationale: 'De eerder gerapporteerde B2-bug (heading-hiërarchie #### zonder ##) is OPGELOST — regels 69, 91 en 126 zijn nu correct ## headings. Echter: A6 op regels 112-114: zin ''Ze werd echter afhankelijk gemaakt ... met het oog op de statistische verwerking, van'' (r112) eindigt midden in een bijzin, gevolgd door een lege regel, waarna ''het bedrag der verschillende samengevoegde rubrieken.'' (r114) de zin afsluit als aparte paragraaf — een pagina-breuk-artefact uit de originele drukversie die als lege alinea-scheiding is gerenderd.'
-    status: needs-rework
 themas:
   - aanpassing schema van de jaarrekening
   - aanvragen tot afwijking
@@ -50,8 +14,32 @@ themas:
   - schema van de jaarrekening
   - steenkoolmijn
   - verzekeringsonderneming
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aanvragen-tot-afwijking-overzicht
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:12Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 108/2 - Aanvragen tot afwijking : overzicht
 
 Voor het eerste boekjaar waarop het koninklijk besluit van 8 oktober 1976 van toepassing was, heeft de Commissie een advies uitgebracht over 168[^1] aanvragen tot afwijking die haar overgemaakt werden door de Minister van Economische Zaken bij toepassing van artikel 15 van de wet van 17 juli 1975. Op een totaal van 168 aanvragen werd in 138 gevallen een afwijking verleend[^2]. In vrijwel alle gevallen werd de ministeriële beslissing getroffen op eensluidend advies van de Commissie.

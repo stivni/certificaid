@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
 nummer: CBN-advies 2022/15
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
-      sha256: 282fec0b9374f03ef752f8c95a02d2255eaa064d4e46d622f9fd309dc14eb6b3
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 39
-      max_section_chars: 22466
-      file_size_chars: 65644
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Inhoud is volledig en accuraat: alle negen hoofdstukken aanwezig, uitgebreide journaalpost-voorbeelden als correcte Markdown-tabellen, volledige voetnotenapparaat (106 noten). De twee column-bleed-instanties zijn visuele balanstabellen met ''Activa … Passiva'' op één rij — de inhoud is volledig leesba'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - bijkantoor
   - centrum van werkzaamheden
@@ -65,8 +33,32 @@ themas:
   - bewaarplicht
   - boekhoudplan
   - rekening-courant
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:50Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2022/15 – Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)
 
 ## Inleiding
@@ -356,11 +348,10 @@ Optie 1: boeking als interne schuld ten aanzien van het moederbedrijf
 
 Balans van het bijkantoor aan het einde van het boekjaar
 
-| Activa Passiva | 
+| Activa Passiva|
 |---|
-| 55 Bank | | 100 | | 100 Verbindingsrekening | | 1.000 | 
-| 400/416[^86]
-    Vorderingen | | 600 | | 489 Interne schulden ten aanzien van het moederbedrijf | | 600 | 
+| 55 Bank| 100| 100 Verbindingsrekening| 1.000|
+| 400/416[^86] Vorderingen| 600| 489 Interne schulden ten aanzien van het moederbedrijf| 600|
 
 Optie 2: boeking als overgedragen resultaat
 
@@ -371,11 +362,11 @@ Optie 2: boeking als overgedragen resultaat
 
 Balans van het bijkantoor aan het einde van het boekjaar
 
-| Activa Passiva | 
+| Activa Passiva|
 |---|
-| 55 Bank | | 100 | | 100 Verbindingsrekening | | 1.000 | 
-| 400/416 Vorderingen | | 600 | | 14 Overgedragen winst | | 130 | 
-| | | | | 489 Interne schulden ten aanzien van het moederbedrijf | | 470 | 
+| 55 Bank| 100| 100 Verbindingsrekening| 1.000|
+| 400/416 Vorderingen| 600| 14 Overgedragen winst| 130|
+| | | 489 Interne schulden ten aanzien van het moederbedrijf| 470|
 
 ## Jaarverslag, controleverslag, sociale balans en andere documenten
 ### Ontbreken van een jaarverslag specifiek van het bijkantoor

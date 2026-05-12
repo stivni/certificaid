@@ -12,46 +12,38 @@ gerelateerde_adviezen:
     titel: Gebruik van uniforme boekhoudsoftware door internationale ondernemingen
     url: https://www.cbn-cnc.be/nl/adviezen/gebruik-van-uniforme-boekhoudsoftware-door-internationale-ondernemingen
 nummer: CBN-advies 2020/03
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/taal-van-de-jaarrekening-de-geconsolideerde-jaarrekening-en-de-andere-bij-de-nationale-0
-      sha256: 6a1bc36d859edab5d4cde1f198077495dfee7bc82f34a155bea499b7094c95bb
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 3
-      max_section_chars: 2617
-      file_size_chars: 4678
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Kort advies, volledig schoon. Drie secties correct als ## headings, 10 voetnoten aanwezig en gedefinieerd, geen extractie-artefacten. Inhoud compleet.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: trusted
-    rationale: 'Kort advies, volledig schoon. Drie secties correct als ## headings, 10 voetnoten aanwezig en gedefinieerd, geen extractie-artefacten. Inhoud compleet.'
-    status: trusted
 themas:
   - taal
   - openbaarmaking
   - publicatie
   - neerlegging van de jaarrekening
   - vertaling
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/taal-van-de-jaarrekening-de-geconsolideerde-jaarrekening-en-de-andere-bij-de-nationale-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:37Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2020/03 – Taal van de jaarrekening, de geconsolideerde jaarrekening en de andere bij de Nationale Bank van België neer te leggen stukken
 
 ## Inleiding

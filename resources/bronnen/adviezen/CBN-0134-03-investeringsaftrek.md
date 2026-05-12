@@ -12,44 +12,36 @@ gerelateerde_adviezen:
     titel: Verwerking in de boekhouding en de jaarrekening van de belastingbesparing ingevoerd door het K.B. nr. 16 van 9 maart 1982
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-boekhouding-en-de-jaarrekening-van-de-belastingbesparing-ingevoerd-door
 nummer: CBN-advies 134/3
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/investeringsaftrek
-      sha256: ebd205f826d7a7c05b2b063549f0802199c354e8db62d456585a413c5184bdac
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 1526
-      file_size_chars: 1526
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Zeer kort advies (1527 tekens), één alinea + voetnoot. Geen artefacten. Inhoud volledig en afgerond.
-      run_at: '2026-05-11T12:04:41Z'
-      status: trusted
-    rationale: Zeer kort advies (1527 tekens), één alinea + voetnoot. Geen artefacten. Inhoud volledig en afgerond.
-    status: trusted
 themas:
   - fiscale steunmaatregel
   - investeringsaftrek
   - te betalen belasting
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/investeringsaftrek
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:32Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 134/3 - Investeringsaftrek
 
 Door het koninklijk besluit nr. 48 van 22 juni 1982 tot wijziging van het W.I.B. inzake investeringsaftrek, meerwaarden en afschrijvingen[^1] worden de bestaande fiscale investeringsstimuli vervangen door een geïntegreerd nieuw stelsel waarbij de ondernemingen de mogelijkheid krijgen hun belastbare winst te verminderen met een investeringsaftrek. Deze investeringsaftrek stemt overeen met een percentage van de aanschaffings- of vervaardigingsprijs van de tijdens het belastbaar tijdperk gedane afschrijfbare investeringen in materiële vaste activa die in nieuwe staat zijn verkregen of tot stand gebracht en in nieuwe immateriële vaste activa die in België voor het uitoefenen van de beroepswerkzaamheid worden gebruikt. De investeringsaftrek kan, naar de keuze van de belastingplichtige, ofwel in eenmaal worden afgetrokken van de winst van het belastbaar tijdperk tijdens hetwelk de investering is verricht, ofwel gespreid worden over de volledige afschrijvingstermijn. 

@@ -9,49 +9,37 @@ gerelateerde_adviezen:
     titel: De boekhoudkundige verwerking van de afzonderlijke aanslag op interne pensioenvoorzieningen
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-afzonderlijke-aanslag-op-interne
 nummer: CBN-advies 180/1
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
-      sha256: 1110304768ecaf861bbc2d54b573c7e32725c912557e2eb4e7fa90359a4f62dc
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:09:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 0
-      max_section_chars: 2307
-      file_size_chars: 2307
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D1
-          regel: 61
-          type: other
-          voorbeeld: wanneer daaarentegen de aankoop (driemaal 'a' — vermoedelijk tikfout in origineel)
-      rationale: 'Laag-1 pass, heading_count 0 klopt: het advies is één doorlopend tekstblok zonder expliciete secties (zo ook in het origineel — kort advies van één paragraaf). Inhoud volledig, geen artefacten, geen voetnoten nodig, geen bullets. Eén typ-artefact (''daaarentegen'' met drie a''s op regel 61) maar dat is waarschijnlijk originele tekst.'
-      run_at: '2026-05-11T12:09:17Z'
-      status: trusted
-    rationale: 'Laag-1 pass, heading_count 0 klopt: het advies is één doorlopend tekstblok zonder expliciete secties (zo ook in het origineel — kort advies van één paragraaf). Inhoud volledig, geen artefacten, geen voetnoten nodig, geen bullets. Eén typ-artefact (''daaarentegen'' met drie a''s op regel 61) maar dat is waarschijnlijk originele tekst.'
-    status: trusted
 themas:
   - bedrijfsbelastingen
   - financiële kosten
   - liquide middelen
   - opleidingscheques
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:51Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 180/1 - Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde opleidingscheques
 
 Het besluit van de Vlaamse regering van 14 december 2001 en het ministerieel besluit van 21 december 2001 creëerden in Vlaanderen het systeem van "opleidingscheques". Vennootschappen kunnen maximaal 200 opleidingscheques met een zichtwaarde van 30 euro aankopen. Het Vlaamse Gewest levert een bijdrage van 50% in het totaalbedrag van de aangekochte opleidingscheques. De opleidingscheques hebben een geldigheidsduur van twaalf maanden vanaf de datum van uitgifte en moeten aangewend worden voor een opleiding die heeft plaatsgevonden vóór het verstrijken van de geldigheidsduur.

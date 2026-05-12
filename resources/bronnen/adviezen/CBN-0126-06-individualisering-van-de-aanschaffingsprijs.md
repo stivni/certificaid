@@ -15,46 +15,38 @@ gerelateerde_adviezen:
     titel: Bepaling van de aanschaffingswaarde van activa verkregen onder bezwarende titel of om niet
     url: https://www.cbn-cnc.be/nl/adviezen/bepaling-van-de-aanschaffingswaarde-van-activa-verkregen-onder-bezwarende-titel-of-om-niet
 nummer: CBN-advies 126/6
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/individualisering-van-de-aanschaffingsprijs
-      sha256: 6e700565eb112f2c86e015c9db3299cb25a551c4e7743f73c7274ecbba23ba17
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:16:02Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 3052
-      file_size_chars: 3052
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Vorige Laag-2-ronde flagde B3 (duplicate heading op L58+60), maar bij her-lezing staat de enkelvoudige H1-heading correct op L62 in de body. De verwarring ontstond doordat de thema-entries in de frontmatter lijken op een titelherhaling, maar dat zijn metadata-velden. Geen duplicaat in de body. Inhoud volledig afgesloten met complete redenering.
-      run_at: '2026-05-11T13:16:02Z'
-      status: trusted
-    rationale: Vorige Laag-2-ronde flagde B3 (duplicate heading op L58+60), maar bij her-lezing staat de enkelvoudige H1-heading correct op L62 in de body. De verwarring ontstond doordat de thema-entries in de frontmatter lijken op een titelherhaling, maar dat zijn metadata-velden. Geen duplicaat in de body. Inhoud volledig afgesloten met complete redenering.
-    status: trusted
 themas:
   - aanschaffingsprijs
   - individualisering van de aanschaffingsprijs
   - voorraden
   - waardering
   - waardering van voorraden
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/individualisering-van-de-aanschaffingsprijs
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:26Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN advies 126-6 - Individualisering van de aanschaffingsprijs
 Krachtens artikel 18 van het koninklijk besluit van 8 oktober 1976 moet elk vermogensbestanddeel afzonderlijk worden gewaardeerd. 
 

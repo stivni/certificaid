@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Afschrijvingsmethoden
     url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
 nummer: CBN-advies 113/5
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december
-      sha256: 1cf5aff861f5346d111cb0f8bcb4bed221f788d17e89713f24e56a69581dac4a
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:51:53Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 3
-      max_section_chars: 5850
-      file_size_chars: 7297
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Volledig schone extractie. Drie headings (H1 titel + H2 voor de twee sub-vragen a/b) zijn wat minimaal maar weerspiegelen de bronstructuur van dit korte advies. Alle vier voetnoten correct als markdown [^n]-definitie onderaan. Geen PDF-artefacten, geen broken tables, geen truncatie.
-      run_at: '2026-05-11T17:51:53Z'
-      status: trusted
-    rationale: Volledig schone extractie. Drie headings (H1 titel + H2 voor de twee sub-vragen a/b) zijn wat minimaal maar weerspiegelen de bronstructuur van dit korte advies. Alle vier voetnoten correct als markdown [^n]-definitie onderaan. Geen PDF-artefacten, geen broken tables, geen truncatie.
-    status: trusted
 themas:
   - afschrijvingen
   - gebruiksduur
@@ -55,8 +23,32 @@ themas:
   - immateriële vaste activa
   - materiële vaste activa
   - vaste activa
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:18Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 113/5 - Herwaardering van vaste activa vóór het begin van het boekjaar dat aanvangt na 31 december 1983
 
 ## Weerslag van het koninklijk besluit van 12 september 1983

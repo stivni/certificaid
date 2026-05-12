@@ -15,50 +15,38 @@ gerelateerde_adviezen:
     titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
 nummer: CBN-advies 2020/05
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-vereenvoudigde-boekhouding-waarderingsregels
-      sha256: 207d30200c778de2727d024cf6152f0dca3d79e49ec11a55e0d60b1f0dbac3cb
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:21:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 4
-      max_section_chars: 4824
-      file_size_chars: 13098
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 88
-          type: other
-          voorbeeld: '*Relevantie *'
-      rationale: 'Inhoud volledig en goed gestructureerd. Eén minor D4-issue: ''*Relevantie *'' (regel 88) heeft een spatie vóór de sluitende ''*'', artefact van HTML-extractie. Dit is cosmetisch en raakt de leesbaarheid niet. Alle overige italic-labels correct.'
-      run_at: '2026-05-11T12:21:40Z'
-      status: trusted
-    rationale: 'Inhoud volledig en goed gestructureerd. Eén minor D4-issue: ''*Relevantie *'' (regel 88) heeft een spatie vóór de sluitende ''*'', artefact van HTML-extractie. Dit is cosmetisch en raakt de leesbaarheid niet. Alle overige italic-labels correct.'
-    status: trusted
 themas:
   - waarderingsregels
   - vereenvoudigde boekhouding
   - waardering van bezittingen
   - vereniging
   - stichting
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-vereenvoudigde-boekhouding-waarderingsregels
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:37Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2020/05 – Verenigingen en stichtingen – Vereenvoudigde boekhouding – Waarderingsregels
 
 ## Inleiding
@@ -105,14 +93,12 @@ Het KB WVV bevat een concrete waarderingsregel voor wat betreft de bezittingen v
 
 Bezittingen worden gewaardeerd tegen de som van de waarde van de tegenprestaties en uitgaven ingevolge de verwerving[^14]. Dit wil zeggen dat de bezittingen in de inventaris en in de jaarrekening worden opgenomen tegen de waarde die overeenstemt met de waarde van de tegenprestaties geleverd door de vereniging of stichting voor de verwerving. Indien de verenging of stichting bijvoorbeeld een dienst moet presteren voor een waarde van 1.000 euro voor de verwerving van een goed, dan wordt dit goed in de inventaris en in de jaarrekening opgenomen voor een waarde van 1.000 euro. De in de inventaris op te nemen waarde is de waarde inclusief btw indien de vereniging of stichting geen recht op aftrek heeft voor de aangerekende btw. Indien de vereniging of stichting wel een recht op aftrek heeft op de aangerekende btw, wordt de waarde van de tegenprestaties in de inventaris opgenomen exclusief btw.
 
-*Aanpassing van de waardering van de bezittingen*
-
+## Aanpassing van de waardering van de bezittingen
 Indien de waarde van een bezitting na verloop van tijd in waarde is gedaald, dient het bestuursorgaan een passende waardecorrectie toe te passen teneinde te voldoen aan de regel dat iedere waardering moet voldoen aan de algemene vereiste van voorzichtigheid, oprechtheid en goede trouw. Een dergelijke aanpassing van de waardering moet worden toegelicht in de toelichting. Het bestuursorgaan kan er uiteraard voor opteren om in de toelichting een waardecorrectiemethodiek op te nemen waardoor bij wijze van voorbeeld de waarde waartegen bezittingen die een beperkte gebruiksduur hebben volgens een vooraf bepaald, ernstig schema afgewaardeerd worden. De Commissie meent dat dit door het bestuursorgaan zou kunnen worden bepaald op een gelijkaardige wijze als de afschrijvingsmethoden die kunnen worden toegepast in een dubbele boekhouding.[^15] 
 
 Indien het bestuursorgaan bezittingen tegen een hogere waarde wenst[^16] op te nemen in de inventaris dan de hiervoor vermelde som van de waarden van de tegenprestaties en uitgaven ingevolge de verwerving, is er volgens de Commissie geen belemmering dat deze hogere waarde in de toelichting[^17] wordt opgenomen en toegelicht.
 
-*Uitzondering voor bezittingen verworven tijdens een boekjaar dat aanvangt vóór 1 mei 2019*
-
+## Uitzondering voor bezittingen verworven tijdens een boekjaar dat aanvangt vóór 1 mei 2019
 De bezittingen die werden verworven tijdens een boekjaar dat aanvangt vóór 1 mei 2019 waarvoor *de som van de waarde van de tegenprestaties en uitgaven ingevolge de verwerving* niet wordt teruggevonden, worden opgenomen tegen de waarde bepaald door het bestuursorgaan.[^18]
  De wijze waarop deze bezittingen worden opgenomen in de jaarrekening moeten, in het licht van wat werd vermeld onder het voormelde randnummer 5, worden verantwoord in de toelichting. Dit kan bij wijze van voorbeeld een waardering betekenen tegen een symbolische euro. 
 

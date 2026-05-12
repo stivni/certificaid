@@ -15,44 +15,36 @@ gerelateerde_adviezen:
     titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
 nummer: CBN-advies 108/4
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vermelding-door-een-investeringsmaatschappij-van-het-aandelenbezit-in-andere
-      sha256: e8e26aebdfa259af3f84e339148d5413ad6999b4ac2064923e9c9bd4cdf25c74
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 2008
-      file_size_chars: 2008
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Kort advies (2010 tekens) zonder interne headings — structureel correct voor dit type enkelvoudige vraag-antwoord advies. Voetnoten [^1], [^2], [^3] aanwezig en goed gedefineerd. Bullets op regels 64-65 correct. Geen artefacten.
-      run_at: '2026-05-11T11:57:45Z'
-      status: trusted
-    rationale: Kort advies (2010 tekens) zonder interne headings — structureel correct voor dit type enkelvoudige vraag-antwoord advies. Voetnoten [^1], [^2], [^3] aanwezig en goed gedefineerd. Bullets op regels 64-65 correct. Geen artefacten.
-    status: trusted
 themas:
   - afwijking
   - investeringsmaatschappij
   - tijdelijk minderheidsbelang
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vermelding-door-een-investeringsmaatschappij-van-het-aandelenbezit-in-andere
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:13Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 108/4 - Vermelding door een investeringsmaatschappij van het aandelenbezit in andere vennootschappen
 
 Met toepassing van de Vierde EEG-Richtlijn[^1] vereist het koninklijk besluit van 8 oktober 1976 de vermelding in de toelichting van de vennootschappen waarin de onderneming een aandeel in het kapitaal bezit dat ten minste 10 %[^2] van het geplaatste kapitaal beloopt. De richtlijn bepaalt echter dat de Lid-Staten kunnen toestaan - gebeurlijk mits toestemming van overheid of rechter - dat deze gegevens achterwege worden gelaten indien het vermelden ervan aan een van de betrokken ondernemingen ernstig nadeel kan berokkenen[^3].

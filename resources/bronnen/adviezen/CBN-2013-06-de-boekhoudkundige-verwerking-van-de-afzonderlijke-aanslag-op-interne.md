@@ -9,48 +9,36 @@ gerelateerde_adviezen:
     titel: Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde opleidingscheques
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-in-de-jaarrekening-van-de-door-de-vlaamse-regering-gecreeerde-opleidingscheques
 nummer: CBN-advies 2013/6
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-afzonderlijke-aanslag-op-interne
-      sha256: b4049ba8b65296af7fe55261e3f7301d271578a23683196b0b39b803b32f232b
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 1
-      max_section_chars: 3431
-      file_size_chars: 3431
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B4
-          regel: 66
-          type: other
-          voorbeeld: '**Boeking eerste jaar**'
-      rationale: 'B4: ''Boeking eerste jaar'' op regel 66 staat als **bold** inline-tekst in plaats van ##/###-heading, terwijl ''Boeking in het jaar waarin wordt uitgedrukt...'' op regel 73 wél correct als ## heading is opgemaakt. Deze inconsistente heading-behandeling binnen één document is een ETL-artefact — een mens zou beide als heading schrijven.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'B4: ''Boeking eerste jaar'' op regel 66 staat als **bold** inline-tekst in plaats van ##/###-heading, terwijl ''Boeking in het jaar waarin wordt uitgedrukt...'' op regel 73 wél correct als ## heading is opgemaakt. Deze inconsistente heading-behandeling binnen één document is een ETL-artefact — een mens zou beide als heading schrijven.'
-    status: needs-rework
 themas:
   - bedrijfsbelastingen
   - interne pensioenvoorziening
   - pensioenvoorzieningen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-afzonderlijke-aanslag-op-interne
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:10Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2013/6 – De boekhoudkundige verwerking van de afzonderlijke aanslag op interne pensioenvoorzieningen
 
 De Programmawet van 22 juni 2012[^1] onderwerpt interne pensioenvoorzieningen aan een éénmalige belastingheffing middels een afzonderlijke aanslag. De bedoelde voorzieningen zijn de voorzieningen die gevormd zijn ter uitvoering van aanvullende individuele pensioentoezeggingen bestaand op het einde van het laatste boekjaar met afsluitdatum vóór 1 januari 2012. De heffing bedraagt 1,75 procent van deze voorzieningen. De afzonderlijke aanslag wordt samen met de vennootschapsbelasting, de rechtspersonenbelasting of de belasting van niet-inwoners voor het aanslagjaar 2013 ingekohierd.
@@ -63,8 +51,7 @@ Wanneer de onderneming ervoor opteert deze belasting niet in één keer te betal
 
 In het Belgische boekhoudrecht wordt het schema van de resultatenrekening opgesteld in functie van de aard van de kosten. De afzonderlijke aanslag op de interne pensioenvoorzieningen is een niet-verrekenbare bedrijfsbelasting. De Commissie is van mening dat dergelijke kosten in de boekhouding moeten worden geregistreerd op de rekening 640 *Bedrijfsbelastingen*. 
 
-**Boeking eerste jaar**
-
+## Boeking eerste jaar
 | | Rekening | Omschrijving | Debet | Credit |
 |---|----------|--------------|-------|--------|
 | | 640 | Bedrijfsbelastingen | 1,75 | |

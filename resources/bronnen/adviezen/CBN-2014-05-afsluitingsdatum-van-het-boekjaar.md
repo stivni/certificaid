@@ -2,45 +2,37 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
 datum: 2014-04-23
 nummer: CBN-advies 2014/5
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
-      sha256: 2c47eb840e00d394a7b0d827c1f25e2935694f1535011a5c01bb48914d8dad4f
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 2
-      max_section_chars: 3304
-      file_size_chars: 3836
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct, tekst leest als mens-geschreven markdown. Kort en inhoudelijk volledig advies.
-      run_at: '2026-05-11T12:16:34Z'
-      status: trusted
-    rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct, tekst leest als mens-geschreven markdown. Kort en inhoudelijk volledig advies.
-    status: trusted
 themas:
   - afsluiting
   - afsluitingsdatum
   - balansdatum
   - boekjaar
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/afsluitingsdatum-van-het-boekjaar
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:12Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2014/5 - Afsluitingsdatum van het boekjaar
 
 ## Onderwerp van het advies

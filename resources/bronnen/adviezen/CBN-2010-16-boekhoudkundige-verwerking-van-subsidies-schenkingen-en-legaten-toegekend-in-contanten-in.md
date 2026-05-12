@@ -2,42 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
 datum: 2010-11-10
 nummer: CBN-advies 2010/16
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
-      sha256: b66cf497d0127797f6e2ad5f488d4a6171e035dbf5fe77f441d95017d0a9090c
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 14
-      max_section_chars: 10553
-      file_size_chars: 27019
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 106
-          type: other
-          voorbeeld: (1)** oorzaak:** het gaat om de reden
-      rationale: 'D4 bevestigd: r106 ''(1)** oorzaak:**'' heeft bold-marker direct na de haakjes zonder spatie, inconsistent met r108 ''(2) **vorm:**'' en r110 ''(3) **doel:**'' — gebroken bold-opmaakartefact. De eerder gerapporteerde A3 (r72-79 inhoudsopgave) is niet bevestigd: de betrokken regels zijn gewone inleidingstekst, geen TOC. Overige inhoud (8 voorbeelden met pipe-tabellen, voetnoten 1-23 volledig) correct.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'D4 bevestigd: r106 ''(1)** oorzaak:**'' heeft bold-marker direct na de haakjes zonder spatie, inconsistent met r108 ''(2) **vorm:**'' en r110 ''(3) **doel:**'' — gebroken bold-opmaakartefact. De eerder gerapporteerde A3 (r72-79 inhoudsopgave) is niet bevestigd: de betrokken regels zijn gewone inleidingstekst, geen TOC. Overige inhoud (8 voorbeelden met pipe-tabellen, voetnoten 1-23 volledig) correct.'
-    status: needs-rework
 themas:
   - compenserende bedragen ter vermindering van de loonkost
   - exploitatiesubsidie
@@ -53,8 +17,32 @@ themas:
   - stichting
   - subsidies
   - vereniging zonder winstoogmerk
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:57Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2010/16 - Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
 
 ## Inleiding
@@ -111,8 +99,7 @@ Indien de subsidies, schenkingen of legaten voorzien in de permanente financieri
 
 Artikel 19, § 2, 1° van het KB van 19 december 2003 definieert de inhoud van de post *Fondsen van de vereniging* (ter vervanging van de post *Geplaatst kapitaal* van toepassing bij vennootschappen) als volgt:
 
-*“Onder fondsen van de vereniging moet het totaal worden verstaan van, enerzijds, het beginvermogen, met name het vermogen van de vereniging op de eerste dag van het eerste boekjaar waarvoor de bepalingen van dit besluit gelden, en, anderzijds, de permanente financiering, met name de schenkingen, de legaten en subsidies die uitsluitend bestemd zijn om duurzaam bij te dragen tot de activiteit van de vereniging.”*
-
+## “Onder fondsen van de vereniging moet het totaal worden verstaan van, enerzijds, het beginvermogen, met name het vermogen van de vereniging op de eerste dag van het eerste boekjaar waarvoor de bepalingen van dit besluit gelden, en, anderzijds, de permanente financiering, met name de schenkingen, de legaten en subsidies die uitsluitend bestemd zijn om duurzaam bij te dragen tot de activiteit van de vereniging.”
 De Commissie is de mening toegedaan dat het gebruik van de term “uitsluitend” een restrictieve interpretatie oplegt van het bovengenoemd artikel.
 
 De post I. *Fondsen van de vereniging* moet bijgevolg, wat de subsidies betreft, voorbehouden blijven voor subsidies die noch beantwoorden aan het begrip kapitaalsubsidie[^12], noch aan het begrip exploitatie- of interestsubsidie en die ondubbelzinnig tot doel hebben de fondsen van de vereniging of stichting permanent te vergroten, met uitsluiting van elke andere besteding.
@@ -148,8 +135,7 @@ Een vereniging actief in de jeugdzorg wenst een nieuwe onthaalmogelijkheid te on
 ### Subsidies in contanten verkregen voor investeringen in vaste activa
 Artikel 19, § 2, 3° van het KB van 19 december 2003 voorziet in een aanpassing van de omschrijving van de post *Kapitaalsubsidies* zoals opgenomen in artikel 95, § 2 KB W.Venn. Het aangepast artikel 95 KB W.Venn., zoals van toepassing op verenigingen en stichtingen, luidt als volgt: 
 
-*Post VI Kapitaalsubsidies*
-
+## Post VI Kapitaalsubsidies
 *Deze post omvat de kapitaalsubsidies die werden verkregen voor investeringen in vaste activa. 
 
 Deze subsidies worden geleidelijk afgeboekt via overboeking naar post I.D ‘Lidgeld, schenkingen, legaten en subsidies’, volgens hetzelfde ritme als de afschrijvingen op de vaste activa voor de verwerving waarvan ze werden verkregen of, in voorkomend geval, ten belope van het saldo, bij realisatie of buitengebruikstelling van de betrokken vaste activa. *

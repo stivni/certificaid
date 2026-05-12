@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: 'Belgische bijkantoren van vennootschappen naar buitenlands recht: eigen boekhoudkundige verplichtingen'
     url: https://www.cbn-cnc.be/nl/adviezen/belgische-bijkantoren-van-vennootschappen-naar-buitenlands-recht-eigen-boekhoudkundige-0
 nummer: CBN-advies 113/6
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-afschrijfbare-activa-intercommunale-verenigingen-en-gemeentebedrijven
-      sha256: 7d876ed91369d55fbd71d75e87b139ee098d870101512dfa7c7c584860a4495e
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:29Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 8101
-      file_size_chars: 8101
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig historisch advies met 6 genummerde hoofdkenmerken van de nieuwe regeling.'
-      run_at: '2026-05-08T19:02:29Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - afwijking
   - geïndexeerde balanswaarden
@@ -55,8 +23,32 @@ themas:
   - indexering van afschrijfbare activa
   - intercommunale verenigingen
   - vervangingswaarde
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/herwaardering-van-afschrijfbare-activa-intercommunale-verenigingen-en-gemeentebedrijven
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:19Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 113/6 - Herwaardering van afschrijfbare activa - Intercommunale verenigingen en gemeentebedrijven - Toepassing van afschrijvingen berekend op basis van jaarlijks geïndexeerde balanswaarden
 
 In de intercommunale verenigingen worden de materiële vaste activa met beperkte gebruiksduur van oudsher jaarlijks geherwaardeerd. Voor het eerst toegepast door de gemengde intercommunale verenigingen voor energiedistributie en later door sommige zuiver publiekrechtelijke intercommunale verenigingen uit dezelfde bedrijfssector, werd bij een circulaire van 4 juni 1970 van de Minister van Binnenlandse Zaken de jaarlijkse herwaardering der materiële vaste activa veralgemeend en principieel verplicht gesteld voor alle intercommunale verenigingen en gemeentebedrijven, ongeacht hun werksfeer. Als herwaarderingscoëfficiënt werd het rekenkundig gemiddelde van het indexcijfer der groothandelsprijzen en van het indexcijfer der consumptiegoederen genomen. 
@@ -85,8 +77,7 @@ Het onderzoek en overleg waarvan sprake heeft geleid tot het opstellen van een o
 
 Gelet daarop heeft de Minister van Economische Zaken met toepassing van artikel 15 van de boekhoudwet en op gunstig advies van de Commissie, erin toegestemd dat de betrokken intercommunale verenigingen en gemeentebedrijven, binnen het raam van de door de toezichthoudende overheid uitgevaardigde onderrichtingen alsmede van de aanbevelingen van het Controlecomité voor Gas en Elektriciteit, met betrekking tot afschrijfbare vaste activa een van het gemeen recht afwijkend waarderings- en afschrijvingsbeleid zouden toepassen dat rekening houdt met de koopkrachtevolutie. 
 
-*De hoofdkenmerken daarvan zijn de volgende:* 
-
+## De hoofdkenmerken daarvan zijn de volgende:
 1. De materiële vaste activa met beperkte gebruiksduur worden jaarlijks geherwaardeerd ten belope van de indexering van hun geherwaardeerde boekwaarde bij het begin van het boekjaar. Zulks staat in tegenstelling tot de vroegere regeling waarbij de aanschaffingswaarde werd geïndexeerd. 
 
 	Op de balans worden deze activa, rekening gehouden met de op de aanschaffingswaarde en op de herwaardering geboekte afschrijvingen, opgenomen tegen geïndexeerde netto-aanschaffingswaarde. 

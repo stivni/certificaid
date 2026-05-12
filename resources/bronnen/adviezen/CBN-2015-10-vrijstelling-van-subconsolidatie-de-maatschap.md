@@ -15,46 +15,38 @@ gerelateerde_adviezen:
     titel: Consolidatie bij de horizontale groep (consortium)
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
 nummer: CBN-advies 2015/10
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie-de-maatschap
-      sha256: cb9f51c63451b2711f97245630b93d5484b43839204be737f3c7ede4239b3f9f
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 4
-      max_section_chars: 1551
-      file_size_chars: 3742
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Compact advies (3751 chars, 4 headings), geen extractie-artefacten aangetroffen. Voetnoten [^1]–[^7] volledig gedefinieerd. Heading-hiërarchie correct (# → ## zonder sprongen). Tekst leest als mens-geschreven markdown.'
-      run_at: '2026-05-11T12:16:34Z'
-      status: trusted
-    rationale: 'Compact advies (3751 chars, 4 headings), geen extractie-artefacten aangetroffen. Voetnoten [^1]–[^7] volledig gedefinieerd. Heading-hiërarchie correct (# → ## zonder sprongen). Tekst leest als mens-geschreven markdown.'
-    status: trusted
 themas:
   - consolidatie
   - consortium
   - consolidatieplicht
   - maatschap
   - subconsolidatie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vrijstelling-van-subconsolidatie-de-maatschap
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:15Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2015/10 – Vrijstelling van subconsolidatie: de maatschap
 
 ## Inleiding

@@ -6,38 +6,6 @@ gerelateerde_adviezen:
     titel: Boeking en waardering van voorraden
     url: https://www.cbn-cnc.be/nl/adviezen/boeking-en-waardering-van-voorraden
 nummer: CBN-advies 132/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/lifo-methode
-      sha256: 9f5dad87edeed60e2c6f4377a949f8eaa9c5cf16599cade262c83a1c4d968415
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:15:33Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 1
-      max_section_chars: 6966
-      file_size_chars: 6966
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Geen ETL-artefacten aangetroffen. Één sectie (6968 chars) zonder subheadings — passend voor dit compacte advies. Titelvorm 'CBN advies 132-1' (ruimte, koppelteken, kleine letter) is hoe de CBN-website dit weergeeft en dus een source-eigenaardigheid, geen ETL-bug. Lopende tekst coherent zonder spurious line-breaks of column-bleed.
-      run_at: '2026-05-11T15:15:33Z'
-      status: trusted
-    rationale: Geen ETL-artefacten aangetroffen. Één sectie (6968 chars) zonder subheadings — passend voor dit compacte advies. Titelvorm 'CBN advies 132-1' (ruimte, koppelteken, kleine letter) is hoe de CBN-website dit weergeeft en dus een source-eigenaardigheid, geen ETL-bug. Lopende tekst coherent zonder spurious line-breaks of column-bleed.
-    status: trusted
 themas:
   - fifo-methode
   - gewogen gemiddelde prijs
@@ -45,8 +13,32 @@ themas:
   - lifo-methode
   - methode van gewogen gemiddelde prijzen
   - voorraden
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/lifo-methode
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:29Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN advies 132-1 - LIFO-methode
 ## Advies van december 1981, bijgewerkt op 6 oktober 2010
 Overeenkomstig artikel 43, eerste lid van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna: KB W.Venn.) wordt de aanschaffingswaarde van activa met identieke technische of juridische kenmerken bepaald hetzij door individualisering van de prijs van elk bestanddeel, hetzij volgens de methode van gewogen gemiddelde prijzen, hetzij volgens de Fifo- of de Lifo-methode.

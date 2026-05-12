@@ -9,38 +9,6 @@ gerelateerde_adviezen:
     titel: Interesten op vorderingen
     url: https://www.cbn-cnc.be/nl/adviezen/interesten-op-vorderingen
 nummer: CBN-advies 2013/12
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
-      sha256: a886b9442607f70a17719fb9c9671b2b78efcc1f34b64094e15769e9297b45af
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 4
-      max_section_chars: 6160
-      file_size_chars: 13026
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 8 headings met correcte hiërarchie (H1, H2, H3). Footnotes [^1]–[^18] aanwezig en gedefinieerd. Voetnoot [^4] is inhoudelijk zeer lang maar dit is de letterlijke tekst van art. 73 KB W.Venn. — geen artefact. Geen extractiesporen.
-      run_at: '2026-05-11T12:16:34Z'
-      status: trusted
-    rationale: 8 headings met correcte hiërarchie (H1, H2, H3). Footnotes [^1]–[^18] aanwezig en gedefinieerd. Voetnoot [^4] is inhoudelijk zeer lang maar dit is de letterlijke tekst van art. 73 KB W.Venn. — geen artefact. Geen extractiesporen.
-    status: trusted
 themas:
   - interesten
   - opbrengsterkenning
@@ -48,8 +16,32 @@ themas:
   - royalties
   - tantièmes
   - voorzichtigheidsbeginsel
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/erkenning-van-de-opbrengsten-en-kosten-die-overeenstemmen-met-interesten-en-royaltys
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:11Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2013/12 - Erkenning van de opbrengsten en kosten die overeenstemmen met interesten en royalty's, evenals de toewijzing van de resultaten in de vorm van dividenden en tantièmes en de opbrengsten die overeenstemmen met dividenden en tantièmes
 
 ## Onderwerp van het advies

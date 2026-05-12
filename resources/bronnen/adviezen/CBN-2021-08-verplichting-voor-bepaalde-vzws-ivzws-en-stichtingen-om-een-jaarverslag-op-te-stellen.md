@@ -15,48 +15,36 @@ gerelateerde_adviezen:
     titel: Gevolgen op gebied van financiële rapportering als gevolg van de brexit
     url: https://www.cbn-cnc.be/nl/adviezen/gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0
 nummer: CBN-advies 2021/08
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verplichting-voor-bepaalde-vzws-ivzws-en-stichtingen-om-een-jaarverslag-op-te-stellen
-      sha256: 3a8f3ccacc5c204762cb16e509b2b635fe4df2f26e2af17cdab3d30d1198569a
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:26:40Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 14
-      max_section_chars: 8258
-      file_size_chars: 16928
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: (source)
-          regel: 114
-          type: source-typo
-          voorbeeld: in de* Bijlagen bij het Belgisch Staatsblad* — spatie voor italic-opener (ook op r.132)
-      rationale: 'Geen ETL-artefacten aangetroffen. Vijf voorbeelden met tabellen correct in markdown pipe-syntax. Heading-hiërarchie correct (## > ### > #### > #####). Twee kleine spaties-voor-italic-openers op regels 114 en 132 (''in de* Bijlagen*'') zijn waarschijnlijk source-typos (consistent op CBN-website), geen reden voor needs-rework. Inhoud volledig: toepassingsgebied, voorbeelden 1-5, vrijwillige opstelling — alle 22 voetnoten aanwezig.'
-      run_at: '2026-05-11T15:26:40Z'
-      status: trusted
-    rationale: 'Geen ETL-artefacten aangetroffen. Vijf voorbeelden met tabellen correct in markdown pipe-syntax. Heading-hiërarchie correct (## > ### > #### > #####). Twee kleine spaties-voor-italic-openers op regels 114 en 132 (''in de* Bijlagen*'') zijn waarschijnlijk source-typos (consistent op CBN-website), geen reden voor needs-rework. Inhoud volledig: toepassingsgebied, voorbeelden 1-5, vrijwillige opstelling — alle 22 voetnoten aanwezig.'
-    status: trusted
 themas:
   - jaarverslag
   - opstelling jaarverslag
   - neerlegging jaarverslag
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verplichting-voor-bepaalde-vzws-ivzws-en-stichtingen-om-een-jaarverslag-op-te-stellen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:41Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2021/08 – Verplichting voor bepaalde VZW’s, IVZW’s en stichtingen om een jaarverslag op te stellen
 
 ## Inleiding
@@ -109,11 +97,11 @@ Naar aanleiding van die “*opt-in*” zijn de bepalingen van het WVV van toepas
 - balanstotaal: 1.850.000 euro. 
 
 Bovendien moeten de cijfers van de twee voorgaande boekjaren (2017 en 2018) in rekening worden genomen om te bepalen of de VZW verplicht is een jaarverslag op te stellen. De gevolgen van de overschrijding hebben immers pas uitwerking vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk meer dan één van de criteria voor de tweede keer op rij werden overschreden of niet werden overschreden[^13]. De cijfers waren op afsluitdatum van de boekjaren 2017 en 2018 de volgende:
-| Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/12/2017 | | 31/12/2018 | 
-|---|---|---|---|---|
-| Personeelsbestand | | 54 | | 55 | 
-| Jaaromzet | | 5.600.000 | | 5.500.000 | 
-| Balans | | 1.850.000 | | 1.850.000 | 
+| Groottecriteria (artikel 1 :28, § 1 WVV)| 31/12/2017| 31/12/2018|
+|---|---|---|
+| Personeelsbestand | 54 | 55|
+| Jaaromzet | 5.600.000 | 5.500.000|
+| Balans | 1.850.000| 1.850.000|
 
 Aangezien de VZW een kleine VZW is overeenkomstig artikel 1:28, § 1 WVV, moet het bestuursorgaan geen jaarverslag opstellen en gelijktijdig neerleggen met de jaarrekening over het boekjaar 2019.
 ### Voorbeeld 3
@@ -126,11 +114,11 @@ Naar aanleiding van die “*opt-in*” zijn de bepalingen van het WVV van toepas
 - balanstotaal: 5.000.000 euro. 
 
 Bovendien moeten de cijfers van de twee voorgaande boekjaren (2017 en 2018) in rekening worden genomen om te bepalen of de VZW verplicht is een jaarverslag op te stellen. De gevolgen van de overschrijding hebben immers pas uitwerking vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk meer dan één van de criteria voor de tweede keer op rij werden overschreden of niet werden overschreden[^16]. De cijfers waren op afsluitdatum van boekjaren 2017 en 2018 de volgende:
-| Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/08/2017 | | 31/08/2018 | 
-|---|---|---|---|---|
-| Personeelsbestand | | 49 | | 50 | 
-| Jaaromzet | | 11.000.000 | | 5.500.000 | 
-| Balans | | 5.250.000 | | 5.000.000 | 
+| Groottecriteria (artikel 1 :28, § 1 WVV)| 31/08/2017| 31/08/2018|
+|---|---|---|
+| Personeelsbestand | 49| 50|
+| Jaaromzet | 11.000.000 | 5.500.000|
+| Balans | 5.250.000| 5.000.000|
 
 Aangezien de VZW een andere dan een kleine VZW is, zal het bestuursorgaan gelijktijdig met de jaarrekening over het boekjaar dat start op 1 september 2018 en eindigt op 31 augustus 2019 een jaarverslag opstellen en neerleggen.
 #### VZW’s, IVZW’s en stichtingen die reeds bestonden vóór 1 mei 2019 en die niet hebben besloten tot een “opt-in”
@@ -152,11 +140,11 @@ De VZW zag er op balansdatum van het laatst afgesloten boekjaar als volgt uit:
 - balanstotaal: 4.500.000 euro. 
 
 Bovendien moeten de cijfers van de twee voorgaande boekjaren (2017 en 2018) in rekening worden genomen om te bepalen of de VZW verplicht is een jaarverslag op te stellen. De gevolgen van de overschrijding hebben immers pas uitwerking vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk meer dan één van de criteria voor de tweede keer op rij werden overschreden of niet werden overschreden[^21]. De cijfers waren op afsluitdatum van boekjaren 2017 en 2018 de volgende:
-| Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/12/2017 | | 31/12/2018 | 
-|---|---|---|---|---|
-| Personeelsbestand | | 45 | | 45 | 
-| Jaaromzet | | 8.500.000 | | 8.300.000 | 
-| Balans | | 3.750.000 | | 3.200.000 | 
+| Groottecriteria (artikel 1 :28, § 1 WVV)| 31/12/2017| 31/12/2018|
+|---|---|---|
+| Personeelsbestand | 45| 45|
+| Jaaromzet | 8.500.000 | 8.300.000|
+| Balans | 3.750.000| 3.200.000|
 
 Het feit dat er op balansdatum van het laatst afgesloten boekjaar (2019) meer dan één van de criteria werden overschreden, blijft zonder gevolgen. Dit zal echter wel gevolgen hebben indien deze toestand zich twee opeenvolgende boekjaren voordoet. Aangezien de VZW een kleine VZW is, moet zij geen jaarverslag opstellen.
 ### Voorbeeld 5
@@ -168,11 +156,11 @@ We hernemen de gegevens van voorbeeld 4. Hier zag de VZW er op balansdatum van h
 - balanstotaal: 5.000.000 euro. 
 
 Bovendien moeten de cijfers van de twee voorgaande boekjaren (2017 en 2018) in rekening worden genomen om te bepalen of de VZW verplicht is een jaarverslag op te stellen. De gevolgen van de overschrijding hebben immers pas uitwerking vanaf het boekjaar dat volgt op het boekjaar gedurende hetwelk meer dan één van de criteria voor de tweede keer op rij werden overschreden of niet werden overschreden[^22]. De cijfers waren op afsluitdatum van boekjaren 2017 en 2018 de volgende:
-| Groottecriteria (artikel 1 :28, § 1 WVV) | | 31/12/2017 | | 31/12/2018 | 
-|---|---|---|---|---|
-| Personeelsbestand | | 55 | | 55 | 
-| Jaaromzet | | 9.500.000 | | 9.500.000 | 
-| Balans | | 5.250.000 | | 5.000.000 | 
+| Groottecriteria (artikel 1 :28, § 1 WVV)| 31/12/2017| 31/12/2018|
+|---|---|---|
+| Personeelsbestand | 55| 55|
+| Jaaromzet | 9.500.000 | 9.500.000|
+| Balans | 5.250.000| 5.000.000|
 
 Aangezien het hier een andere dan een kleine VZW betreft, moet het bestuursorgaan een jaarverslag opstellen overeenkomstig artikel 3:48 WVV. Dit jaarverslag moet gelijktijdig worden neergelegd met de jaarrekening bij de Nationale Bank van België.
 ## Vrijwillig opstellen van een jaarverslag: neerlegging?

@@ -2,45 +2,37 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-prefinanciering-van-langlopende-leningen
 datum: 1986-03-01
 nummer: CBN-advies 137/3
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-prefinanciering-van-langlopende-leningen
-      sha256: 2cba114a45e58cc130f8caade7b3c1a58ac0efc21f116a912e7eb6e348c481b4
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 1406
-      file_size_chars: 1406
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Kort advies (1406 tekens), clean prose, geen artefacten. Inhoud volledig en logisch afgerond.
-      run_at: '2026-05-11T12:04:41Z'
-      status: trusted
-    rationale: Kort advies (1406 tekens), clean prose, geen artefacten. Inhoud volledig en logisch afgerond.
-    status: trusted
 themas:
   - overbruggingskrediet
   - prefinanciering van langlopende leningen
   - schulden
   - schulden op meer dan één jaar
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-prefinanciering-van-langlopende-leningen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:33Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 137/3 - Schulden op meer dan één jaar - Prefinanciering van langlopende leningen
 
 Aan de Commissie werd de vraag gesteld of een krediet verkregen op korte termijn, in het kader van een globaal financieringsplan van een meerjarig investeringsprogramma, bedoeld als een prefinanciering van een krediet op lange termijn dat op het einde van het boekjaar reeds was verkregen doch nog niet effectief toegekend, op de balans mag worden geboekt onder de schulden op méér dan één jaar.

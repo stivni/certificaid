@@ -15,48 +15,36 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van de afrondingen bij conversie
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-afrondingen-bij-conversie
 nummer: CBN-advies 2020/02
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro-0
-      sha256: a2ed168cbce2a03f05d3b93a39aa870ad77ec4cd1bed60eb13e2f785ce36c0ce
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 10
-      max_section_chars: 5094
-      file_size_chars: 11743
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 111
-          type: other
-          voorbeeld: geboekt op het debet van rekening 700* Verkopen en dienstprestaties*. Indien dit verschil echter positief is, wordt het verschil geboekt op het credit van rekening 700* Verkopen en dienstprestaties*.
-      rationale: 'D4: regel 111 bevat twee keer malformed italic `rekening 700* Verkopen en dienstprestaties*` (spatie ontbreekt na opening-asterisk). Patroon herhaalt zich twee keer op dezelfde regel. Rest van het document is inhoudelijk volledig en correct opgemaakt.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'D4: regel 111 bevat twee keer malformed italic `rekening 700* Verkopen en dienstprestaties*` (spatie ontbreekt na opening-asterisk). Patroon herhaalt zich twee keer op dezelfde regel. Rest van het document is inhoudelijk volledig en correct opgemaakt.'
-    status: needs-rework
 themas:
   - afronding
   - betaling
   - betaling in speciën
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/afronding-van-betalingen-in-euro-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:37Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2020/02 – Afronding van betalingen in euro
 
 ## Inleiding

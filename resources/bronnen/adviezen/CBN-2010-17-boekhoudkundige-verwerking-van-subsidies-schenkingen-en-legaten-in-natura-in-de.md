@@ -15,42 +15,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
 nummer: CBN-advies 2010/17
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de
-      sha256: 279c3bba870d7298015aae568c39c23e8ca58504e4df0819d27b7b6f09a50f79
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 13
-      max_section_chars: 3432
-      file_size_chars: 20521
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 282
-          type: other
-          voorbeeld: "| | 22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -\n\t\t\t\tGeboekte afschrijvingen | 1.515,15 |"
-      rationale: 'E2 bevestigd: r282-283 tabelrij van Voorbeeld 7 (afschrijving gebouw) is gebroken over twee regels met tab-inspringing — ''| | 22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -\n\t\t\t\tGeboekte afschrijvingen | 1.515,15 |'' doorbreekt de pipe-delimiters. De eerder gerapporteerde A3 (r81-87 TOC) is niet bevestigd: die regels bevatten inleidende tekst, geen plain-text inhoudsopgave. Overige 9 voorbeelden en voetnoten 1-20 correct.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'E2 bevestigd: r282-283 tabelrij van Voorbeeld 7 (afschrijving gebouw) is gebroken over twee regels met tab-inspringing — ''| | 22119 | 751 | Gebouwen die volle eigendom zijn van de vereniging -\n\t\t\t\tGeboekte afschrijvingen | 1.515,15 |'' doorbreekt de pipe-delimiters. De eerder gerapporteerde A3 (r81-87 TOC) is niet bevestigd: die regels bevatten inleidende tekst, geen plain-text inhoudsopgave. Overige 9 voorbeelden en voetnoten 1-20 correct.'
-    status: needs-rework
 themas:
   - exploitatiesubsidie
   - fondsen van de vereniging
@@ -66,8 +30,32 @@ themas:
   - terbeschikkingstelling vaste activa
   - vereniging zonder winstoogmerk
   - vrijwilligersprestatie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-in-natura-in-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:57Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2010/17 - Boekhoudkundige verwerking van subsidies, schenkingen en legaten in natura in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
 
 ## Inleiding
@@ -116,8 +104,7 @@ Artikel 19, § 2, 3° van het KB van 19 december 2003 voorziet in een aanpassing
 
 Het aangepast artikel 95 KB W.Venn. luidt als volgt: 
 
-*Post VI Kapitaalsubsidies*
-
+## Post VI Kapitaalsubsidies
 *Deze post omvat de kapitaalsubsidies die werden verkregen voor investeringen in vaste activa 
 
 Deze subsidies worden geleidelijk afgeboekt via overboeking naar post I.D ‘Lidgeld, schenkingen, legaten en subsidies’, volgens hetzelfde ritme als de afschrijvingen op de vaste activa voor de verwerving waarvan ze werden verkregen of, in voorkomend geval, ten belope van het saldo, bij realisatie of buitengebruikstelling van de betrokken vaste activa. *

@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-goud-en-kunstwerken
 datum: 2011-03-16
 nummer: CBN-advies 2011/6
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-goud-en-kunstwerken
-      sha256: b8b176840e084369b96e16c7b04d86f0f271224a1ca2cfcb9c5d12df2a10a879
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:23:04Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 11
-      max_section_chars: 4217
-      file_size_chars: 12612
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen plain-text TOC, geen form-feeds, geen OCR-artefacten, geen broken tabellen. Headingstructuur (H1 > ## > ### > ####) is consistent en zonder hiërarchiesprongen. Nummering ''### 1. Voorraden'' en ''### 2. Geldbeleggingen'' herhaalt zich in de sectie Kunstwerken — dit spiegelt de documentstructuur van het origineel en is geen extractie-artefact. Alle 20 voetnoten correct gedefinieerd en gerefereerd vanuit de body. Inhoud volledig (Goud + Kunstwerken beide behandeld, met vlottende activa en vaste activa sub-secties).'
-      run_at: '2026-05-11T13:23:04Z'
-      status: trusted
-    rationale: 'Geen plain-text TOC, geen form-feeds, geen OCR-artefacten, geen broken tabellen. Headingstructuur (H1 > ## > ### > ####) is consistent en zonder hiërarchiesprongen. Nummering ''### 1. Voorraden'' en ''### 2. Geldbeleggingen'' herhaalt zich in de sectie Kunstwerken — dit spiegelt de documentstructuur van het origineel en is geen extractie-artefact. Alle 20 voetnoten correct gedefinieerd en gerefereerd vanuit de body. Inhoud volledig (Goud + Kunstwerken beide behandeld, met vlottende activa en vaste activa sub-secties).'
-    status: trusted
 themas:
   - aankoop van goud
   - aankoop van kunstwerken
@@ -53,8 +21,32 @@ themas:
   - voorraden
   - waardering van voorraden
   - Waardevermindering
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-aankoop-van-goud-en-kunstwerken
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:59Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2011/6 - Boekhoudkundige verwerking van de aankoop van goud en kunstwerken
 
 ## Inleiding

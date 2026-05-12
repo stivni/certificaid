@@ -9,49 +9,37 @@ gerelateerde_adviezen:
     titel: 'Zetelverplaatsing naar België van een vennootschap opgericht naar buitenlands recht: gevolgen voor het voeren van de boekhouding en het opstellen van de jaarrekening'
     url: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-van-een-vennootschap-opgericht-naar-buitenlands-recht
 nummer: CBN-advies 2020/15
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-model-van-staat-van-activa-en-passiva-bij-immigrerende
-      sha256: be0d14092a3cfa9ddad3237fab0a7e0e64a44382e9e7a5e3f69af67b2a64d652
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 3
-      max_section_chars: 2156
-      file_size_chars: 3919
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B5
-          regel: 66
-          type: other
-          voorbeeld: '### De Koning kan het model van de staat van activa en passiva vaststellen."'
-      rationale: 'B5: Regel 66 bevat ''### De Koning kan het model van de staat van activa en passiva vaststellen.'' als ### heading, maar deze zin is de afsluitende zin van het geciteerde artikel 14:30 WVV binnen een blockquote — de ETL heeft de ### prefix ten onrechte op deze wetszin geplakt in plaats van hem als plain-text binnen de blockquote te laten staan. Overige inhoud (2 echte headings, 2 voetnoten, correct standpunt Commissie) is volledig en correct.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'B5: Regel 66 bevat ''### De Koning kan het model van de staat van activa en passiva vaststellen.'' als ### heading, maar deze zin is de afsluitende zin van het geciteerde artikel 14:30 WVV binnen een blockquote — de ETL heeft de ### prefix ten onrechte op deze wetszin geplakt in plaats van hem als plain-text binnen de blockquote te laten staan. Overige inhoud (2 echte headings, 2 voetnoten, correct standpunt Commissie) is volledig en correct.'
-    status: needs-rework
 themas:
   - zetelverplaatsing
   - staat van activa en passiva
   - immigrerende vennootschap
   - grensoverschrijdende zetelverplaatsing
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/zetelverplaatsing-naar-belgie-model-van-staat-van-activa-en-passiva-bij-immigrerende
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:40Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2020/15 – Zetelverplaatsing naar België: model van staat van activa en passiva bij immigrerende vennootschappen
 
 ## Inleiding

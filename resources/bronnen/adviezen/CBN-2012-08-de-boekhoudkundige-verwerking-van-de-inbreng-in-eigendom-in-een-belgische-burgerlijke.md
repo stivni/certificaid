@@ -2,57 +2,37 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-in-eigendom-in-een-belgische-burgerlijke
 datum: 2012-06-06
 nummer: CBN-advies 2012/8
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-in-eigendom-in-een-belgische-burgerlijke
-      sha256: cf24aa3f760d50dc1b488d09cc2327fdf8077a89461654915c14c249c627b655
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 6
-      max_section_chars: 4882
-      file_size_chars: 12427
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E1
-          regel: 123
-          type: pseudo-table
-          voorbeeld: "| Balans vennootschap A (aandeel in de maatschap : 4/7) | \n|---|\n| Terreinen en gebouwen | | 228.571,43 | | | | |"
-        - categorie: B2
-          regel: 130
-          type: other
-          voorbeeld: '## Terreinen en gebouwen'
-        - categorie: D4
-          regel: 113
-          type: other
-          voorbeeld: Het aandeel van vennootschap C in de maatschap bedraagt 2/7." *
-      rationale: 'E1: de balanstabel op regels 123-128 is niet in standaard markdown pipe-syntax met header-separator — de rijen hebben geen `|---|` scheidingsrij en zijn onvolledig uitgebalanceerd. B2: regels 130, 136 en 142 tonen ''## Terreinen en gebouwen'', ''## Meubilair en rollend materieel'' en ''## Financiële vaste activa'' als ## headings terwijl dit inhoudelijk subsecties van een Voorbeeld zijn — ze hadden ### niveau moeten hebben, waardoor de heading-hiërarchie springt. D4: regel 113 eindigt op ''2/7." *'' met spatie vóór de sluitende asterisk, waardoor de italic-markup ongeldig is in de meeste parsers.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'E1: de balanstabel op regels 123-128 is niet in standaard markdown pipe-syntax met header-separator — de rijen hebben geen `|---|` scheidingsrij en zijn onvolledig uitgebalanceerd. B2: regels 130, 136 en 142 tonen ''## Terreinen en gebouwen'', ''## Meubilair en rollend materieel'' en ''## Financiële vaste activa'' als ## headings terwijl dit inhoudelijk subsecties van een Voorbeeld zijn — ze hadden ### niveau moeten hebben, waardoor de heading-hiërarchie springt. D4: regel 113 eindigt op ''2/7." *'' met spatie vóór de sluitende asterisk, waardoor de italic-markup ongeldig is in de meeste parsers.'
-    status: needs-rework
 themas:
   - burgerlijke maatschap
   - inbreng
   - proportionele integratiemethode
   - realisatie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-inbreng-in-eigendom-in-een-belgische-burgerlijke
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:06Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2012/8 – De boekhoudkundige verwerking van de inbreng in eigendom in een Belgische burgerlijke maatschap die niet de rechtsvorm heeft aangenomen van een handelsvennootschap
 
 ## Inleiding
@@ -114,12 +94,12 @@ De totale activa van de burgerlijke maatschap bedragen dan 700.000 euro :
 
 Na de inbreng in de burgerlijke maatschap zullen volgende bedragen op de balans van vennootschap A voorkomen. 
 
-| Balans vennootschap A (aandeel in de maatschap : 4/7) | 
+| Balans vennootschap A (aandeel in de maatschap : 4/7)|
 |---|
-| Terreinen en gebouwen | | 228.571,43 | | | | | 
-| Meubilair en rollend materieel | | 57.142,86 | | Herwaarderingsmeerwaarde[^13] | | 57.142,86 | 
-| | | | | Gerealiseerde meerwaarde | | 42.857,14 | 
-| Financiële vaste activa | | 114.285,71 | | | | | 
+| Terreinen en gebouwen | 228.571,43| | |
+| Meubilair en rollend materieel| 57.142,86 | Herwaarderingsmeerwaarde[^13] | 57.142,86|
+| | | Gerealiseerde meerwaarde | 42.857,14|
+| Financiële vaste activa | 114.285,71| | |
 
 ## Terreinen en gebouwen
 Vennootschap A blijft eigenaar van haar onverdeeld aandeel, nl. 4/7 van 400.000 (de werkelijke waarde van de eigen inbreng). 

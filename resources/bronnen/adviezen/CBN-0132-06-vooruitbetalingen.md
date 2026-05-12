@@ -2,62 +2,38 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen
 datum: 1993-12-01
 nummer: CBN-advies 132/6
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen
-      sha256: f39529e8410b2cd371795a771f1e28a0d40fdd73287e098c06b0fef08e3a1f37
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 3514
-      file_size_chars: 3514
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 83
-          type: other
-          voorbeeld: '| aan | 440 Leveranciers | | | | — ''aan'' als aparte cel 1'
-        - categorie: E2
-          regel: 90
-          type: other
-          voorbeeld: '| | aan 55 Kredietinstellingen | | | | — ''aan'' samengevoegd in cel 2'
-        - categorie: E2
-          regel: 116
-          type: other
-          voorbeeld: '| | aan 440 Leveranciers | | | | — inconsistent patroon (cel 2)'
-        - categorie: E2
-          regel: 118
-          type: other
-          voorbeeld: '| | aan 36 Vooruitbetalingen op voorraadinkopen | | | | — inconsistent patroon'
-      rationale: 'E2: boekingstabellen zijn structureel inconsistent door het gehele bestand — in sommige tabellen staat ''aan'' als aparte cel in kolom 1 (L83, L98, L108), in andere is ''aan'' samengevoegd met de rekeningnaam in kolom 2 (L90, L116, L118). Dit wisselt willekeurig en is een ETL-artefact dat de tabel-parsing verstoort.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'E2: boekingstabellen zijn structureel inconsistent door het gehele bestand — in sommige tabellen staat ''aan'' als aparte cel in kolom 1 (L83, L98, L108), in andere is ''aan'' samengevoegd met de rekeningnaam in kolom 2 (L90, L116, L118). Dit wisselt willekeurig en is een ETL-artefact dat de tabel-parsing verstoort.'
-    status: needs-rework
 themas:
   - gefactureerde vooruitbetalingen
   - voorraden
   - Vooruitbetaling
   - waardering
   - waardering van voorraden
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:30Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 132/6 - Vooruitbetalingen
 
 Naar hun aard zijn ontvangen en gedane vooruitbetalingen duidelijk te onderscheiden van schulden en vorderingen. Vooruitbetalingen doen geen toekomstige uitgaande of inkomende kasstromen ontstaan. Zodra het goed is ontvangen of geleverd of de dienst is verricht verdwijnen zij doordat zij worden verrekend met de vordering of de schuld die ontstaat ingevolge de levering of ontvangst van het goed of het verrichten van de dienst. 

@@ -15,52 +15,36 @@ gerelateerde_adviezen:
     titel: De boekhoudkundige verwerking van  immateriële vaste activa
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-immateriele-vaste-activa
 nummer: CBN-advies 2017/13
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
-      sha256: a5072da0a6f51c6e36822312fb6e24f53efabd76b5b4c74bf8b5e87ad25b178c
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 0
-      max_section_chars: 3155
-      file_size_chars: 3155
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B1
-          regel: 64
-          type: other
-          voorbeeld: 'Volledig advies zonder ## headings (heading_count=0); inhoud als één ongestructureerd blok'
-        - categorie: A4
-          regel: 84
-          type: other
-          voorbeeld: CBN-advies 2015/9 ‐ Boekhoudkundige verwerking (U+2010 non-breaking hyphen)
-      rationale: 'B1: heading_count=0 — het volledige advies heeft geen enkele ## heading; de inhoud staat als één ongestructureerd blok, wat RAG-chunking ernstig bemoeilijkt (ETL-bug: de CBN-website toont paragrafen die als secties hadden kunnen worden geëxtraheerd). A4: voetnoot 84 bevat ''CBN-advies 2015/9 ‐'' met een U+2010 non-breaking hyphen die een gewone koppelteken vervangt.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'B1: heading_count=0 — het volledige advies heeft geen enkele ## heading; de inhoud staat als één ongestructureerd blok, wat RAG-chunking ernstig bemoeilijkt (ETL-bug: de CBN-website toont paragrafen die als secties hadden kunnen worden geëxtraheerd). A4: voetnoot 84 bevat ''CBN-advies 2015/9 ‐'' met een U+2010 non-breaking hyphen die een gewone koppelteken vervangt.'
-    status: needs-rework
 themas:
   - aanschaffingswaarde
   - borgstelling
   - intercalaire interesten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-vergoeding-voor-een-borg-in-het-kader-van-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:25Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2017/13 – Boekhoudkundige verwerking van de vergoeding voor een borg in het kader van de financiering van een voor verkoop bestemd onroerend goed
 
 Aan de Commissie voor boekhoudkundige normen werd een vraag gesteld over de boekhoudkundige verwerking van de volgende verrichting: met het oog op de financiering van een voor verkoop bestemd onroerend goed (hierna: het onroerend goed), namelijk de aankoop van een terrein en de bouw van een gebouw op dit terrein, gaat een vennootschap een lening aan bij een bank. De bank eist dat een derde zich borg stelt voor de vennootschap. De derde aanvaardt deze borgstelling mits vergoeding.

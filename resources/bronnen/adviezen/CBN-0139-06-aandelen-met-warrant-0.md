@@ -15,46 +15,38 @@ gerelateerde_adviezen:
     titel: Verrichtingen met betrekking tot inschrijvingsrechten
     url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
 nummer: CBN-advies 139/6
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aandelen-met-warrant-0
-      sha256: 638d838131ba1ed45004e915e4b34e10000ebe300c93f8d5dd37343a633fcc20
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 609
-      file_size_chars: 609
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen artefacten gevonden in categorie A-G. Advies is kort maar volledig: één alinea die duidelijk uitlegt waarom de actuariële methode van 139/5 niet geldt en welke alternatieve aanpak (marktvoorwaarden) van toepassing is. Laag-1 pass, heading_count 0 is correct voor een paragraaf-only advies.'
-      run_at: '2026-05-11T12:04:41Z'
-      status: trusted
-    rationale: 'Geen artefacten gevonden in categorie A-G. Advies is kort maar volledig: één alinea die duidelijk uitlegt waarom de actuariële methode van 139/5 niet geldt en welke alternatieve aanpak (marktvoorwaarden) van toepassing is. Laag-1 pass, heading_count 0 is correct voor een paragraaf-only advies.'
-    status: trusted
 themas:
   - aandelen
   - aandelen met warrant
   - financiële vaste activa
   - inschrijvingsrecht
   - warrant
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aandelen-met-warrant-0
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:35Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 139/6 - Aandelen met warrant
 
 Bij de verwerving van aandelen met warrant mag de actuariële methode die wordt aanbevolen in advies 139/5 om te bepalen welke fractie van de aanschaffingswaarde van de obligaties met warrant moet worden toegerekend aan de obligatie enerzijds en de warrant anderzijds, per definitie niet worden gevolgd. 

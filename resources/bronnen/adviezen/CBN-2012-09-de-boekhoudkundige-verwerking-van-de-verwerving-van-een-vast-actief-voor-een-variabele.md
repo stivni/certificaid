@@ -9,56 +9,36 @@ gerelateerde_adviezen:
     titel: Verwerving van een vast actief voor een prijs die bestaat uit een vast contant te betalen gedeelte en een variabel gedeelte dat afhankelijk is van de gerealiseerde bedrijfswinst
     url: https://www.cbn-cnc.be/nl/adviezen/verwerving-van-een-vast-actief-voor-een-prijs-die-bestaat-uit-een-vast-contant-te-betalen
 nummer: CBN-advies 2012/9
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-verwerving-van-een-vast-actief-voor-een-variabele
-      sha256: bf4eeb3bbe53a79b3ed20c981361938a3d6d79fa6d298ad2bdd8a0bdfa8f723d
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 7
-      max_section_chars: 16575
-      file_size_chars: 20843
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E1
-          regel: 155
-          type: pseudo-table
-          voorbeeld: "| | | \n|---|---|\n\nVaste betaalde prijs: 300\n\n  | | \n|---|"
-        - categorie: B5
-          regel: 136
-          type: other
-          voorbeeld: Afschrijven van vaste activa met beperkte levensduur die zijn verworven voor een prijs die (deels) bestaat uit een variabele gedeelte
-        - categorie: B5
-          regel: 326
-          type: other
-          voorbeeld: Overeenstemming tussen de boekhoudkundige verwerking van goederen verworven tegen betaling van een lijfrente en de activatie van de variabele prijs
-      rationale: 'E1/E2: de afschrijvingstabel voor Voorbeeld 4 (regels 155-324) is volledig uiteengevallen in tientallen losse eencellige pipe-tabellen met multi-line content en tab-ingesprongen tekst — een complexe multi-kolom spreadsheet-tabel die ETL niet kon reconstrueren. B5: regels 136 en 326 tonen sectie-titels (''Afschrijven van vaste activa met beperkte levensduur...'' en ''Overeenstemming tussen de boekhoudkundige verwerking...'') als plain-text alinea''s zonder heading-prefix.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'E1/E2: de afschrijvingstabel voor Voorbeeld 4 (regels 155-324) is volledig uiteengevallen in tientallen losse eencellige pipe-tabellen met multi-line content en tab-ingesprongen tekst — een complexe multi-kolom spreadsheet-tabel die ETL niet kon reconstrueren. B5: regels 136 en 326 tonen sectie-titels (''Afschrijven van vaste activa met beperkte levensduur...'' en ''Overeenstemming tussen de boekhoudkundige verwerking...'') als plain-text alinea''s zonder heading-prefix.'
-    status: needs-rework
 themas:
   - variabele prijs
   - financiële vaste activa
   - immateriële vaste activa
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-verwerving-van-een-vast-actief-voor-een-variabele
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:06Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2012/9 – De boekhoudkundige verwerking van de verwerving van een vast actief voor een variabele prijs die afhankelijk is van een toekomstige en onzekere gebeurtenis die een rechtstreeks verband houdt met het nut dat het verworven actief heeft voor de vennootschap (update)
 
 ## Inleiding
@@ -145,176 +125,139 @@ In dit voorbeeld vertonen de te betalen variabele gedeelten van de prijs een dui
 
 De geboekte afschrijvingen van de concessie zullen in dit voorbeeld als volgt evolueren:
 
-| | | 
-|---|---|
+| | 
+|---|
 
 Vaste betaalde prijs: 300
 
-  | | 
-|---|
+ | 
 
-Variabele 
+Variabele prijs jaar 20X1: 27
 
-			prijs jaar 
+ | 
 
-			20X1: 27
+ Variabele prijs jaar 20X2: 32
 
-  | | 
-|---|
+ | 
 
- Variabele 
+Variabele prijs jaar 20X3: 14
 
-			prijs jaar 
+ | 
 
-			20X2: 32
+Variabele prijs jaar 20X4: 36
 
-  | | 
-|---|
+ | 
 
-Variabele 
+Jaarlijkse afschrijving
 
-			prijs jaar 
-
-			20X3: 14
-
-  | | 
-|---|
-
-Variabele 
-
-			prijs jaar 
-
-			20X4: 36
-
-  | | 
-|---|
-
-Jaarlijkse 
-
-			afschrijving
-
-  | 
+ |
 | 
 
 Jaar 20X0 
 
-  | | 
-|---|
+ | 
 
 30[^7] 
 
-  | | | | | | | | | | **30** | 
-|---|---|---|---|---|---|---|---|---|---|
+ | | | | | **30**|
+|---|---|---|---|---|
 | 
 
 Jaar 20X1 
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 3[^8] | | | | | | | | **33** | 
-|---|---|---|---|---|---|---|---|---|---|
+ | 3[^8] | | | | **33**|
+|---|---|---|---|---|
 | 
 
 Jaar 20X2
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 3 | | 4[^9] | | | | | | **37** | 
-|---|---|---|---|---|---|---|---|---|---|
+ | 3| 4[^9] | | | **37**|
+|---|---|---|---|---|
 | 
 
 Jaar 20X3 
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 3 | | 4 | | 2[^10] | | | | **39** | 
-|---|---|---|---|---|---|---|---|---|---|
+ | 3| 4| 2[^10] | | **39**|
+|---|---|---|---|---|
 | 
 
 Jaar 20X4
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 3 | | 4 | | 2 | | 6[^11] | | **45** | 
-|---|---|---|---|---|---|---|---|---|---|
+ | 3| 4| 2| 6[^11] | **45**|
+|---|---|---|---|---|
 | 
 
 Jaar 20X5
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 3 | | 4 | | 2 | | 6 | | **45** | 
-|---|---|---|---|---|---|---|---|---|---|
+ | 3| 4| 2| 6| **45**|
+|---|---|---|---|---|
 | 
 
 Jaar 20X6
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 3 | | 4 | | 2 | | 6 | | **45** | 
-|---|---|---|---|---|---|---|---|---|---|
+ | 3| 4| 2| 6| **45**|
+|---|---|---|---|---|
 | 
 
 Jaar 20X7 
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 3 | | 4 | | 2 | | 6 | | **45** | 
-|---|---|---|---|---|---|---|---|---|---|
+ | 3| 4| 2| 6| **45**|
+|---|---|---|---|---|
 | 
 
 Jaar 20X8
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 3 | | 4 | | 2 | | 6 | | **45** | 
-|---|---|---|---|---|---|---|---|---|---|
+ | 3| 4| 2| 6| **45**|
+|---|---|---|---|---|
 | 
 
 Jaar 20X9 
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 3 | | 4 | | 2 | | 6 | | **45** | 
-|---|---|---|---|---|---|---|---|---|---|
+ | 3| 4| 2| 6| **45**|
+|---|---|---|---|---|
 | 
 
-**Totaal van de 
+## Totaal van de afschrijvingen
+ | 
 
-			afschrijvingen**
-
-  | | 
-|---|
-
- | | | | | | | | | | **409** | 
-|---|---|---|---|---|---|---|---|---|---|
+| | | | | **409**|
+|---|---|---|---|---|
 
 Overeenstemming tussen de boekhoudkundige verwerking van goederen verworven tegen betaling van een lijfrente en de activatie van de variabele prijs betaald naar aanleiding van de verwerving van een vast actief
 Aan de Commissie werd gevraagd of de activering van de variabele gedeelten van de prijs die worden betaald naar aanleiding van de verwerving van een vast actief en die een investeringskarakter vertonen, wel strookt met de boekhoudkundige verwerking van goederen die worden verworven tegen betaling van een lijfrente, zoals voorgeschreven door artikel 3:18 KB WVV. 

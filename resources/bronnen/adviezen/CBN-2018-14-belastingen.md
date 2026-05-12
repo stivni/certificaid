@@ -15,63 +15,35 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van de liquidatiereserve bedoeld in artikel 541 WIB 92 (Programmawet van 10 augustus 2015) en de bijzondere aanslag op deze liquidatiereserve
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-liquidatiereserve-bedoeld-in-artikel-541-wib-92
 nummer: CBN-advies 2018/14
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/belastingen
-      sha256: 37257a82ec205759256316f09d50c8ffe643b65db8b5b0d3e2b75e62eea7df9b
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 42
-      max_section_chars: 21147
-      file_size_chars: 45082
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B5
-          regel: 142
-          type: other
-          voorbeeld: Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen
-        - categorie: D4
-          regel: 106
-          type: other
-          voorbeeld: rekening 640* Bedrijfsbelastingen*. Als tweede voorbeeld
-        - categorie: D4
-          regel: 120
-          type: other
-          voorbeeld: daartoe gecreëerd een rekening 6703* Gevormde fiscale voorziening*
-        - categorie: D4
-          regel: 140
-          type: other
-          voorbeeld: rekening 673* Buitenlandse belastingen op het resultaat van vorige boekjaren*
-        - categorie: D4
-          regel: 149
-          type: other
-          voorbeeld: fictief karakter van de *vordering *op de overheid
-      rationale: 'B5: regel 142 bevat ''Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen'' als plain-text alinea zonder heading-prefix, terwijl omliggende subrekeningen elk een ####-heading hebben — structurele inconsistentie. D4: stelselmatige malformed italic bij rekeningnamen (spatie vóór sluitende asterisk) op regels 106, 120, 135, 140, 149 en meerdere andere — dit patroon is zo frequent dat het de leesbaarheid aantast.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'B5: regel 142 bevat ''Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen'' als plain-text alinea zonder heading-prefix, terwijl omliggende subrekeningen elk een ####-heading hebben — structurele inconsistentie. D4: stelselmatige malformed italic bij rekeningnamen (spatie vóór sluitende asterisk) op regels 106, 120, 135, 140, 149 en meerdere andere — dit patroon is zo frequent dat het de leesbaarheid aantast.'
-    status: needs-rework
 themas:
   - belastingen
   - actieve belastinglatentie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/belastingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:30Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
 ## Inleiding
@@ -167,7 +139,7 @@ Een onderneming heeft een bedrijfsgebouw laten oprichten voor een totaalbedrag v
 
 Een onderneming heeft een bedrijfsgebouw laten oprichten om te verhuren. De aanschaffingswaarde van het gebouw bedraagt 850.000 euro inclusief een bedrag van 150.000 euro btw waarvoor de onderneming geen recht op aftrek van de btw heeft kunnen uitoefenen. De aanschaffingswaarde wordt afgeschreven over een periode van 20 jaar. Na acht jaar beslist het bestuursorgaan om het gebouw aan te wenden voor haar eigen exploitatieactiviteiten. Ingevolge deze wijziging vindt een btw-herziening plaats en kan, mits de voorwaarden[^24] daartoe vervuld zijn, een recht op aftrek worden uitgeoefend van zeven vijftiende van de aangerekende btw. De aanschaffingswaarde van het gebouw zal aldus worden verminderd met 80.000 euro en vervolgens verder worden afgeschreven over de resterende gebruiksduur van 12 jaar.
 
-  | 
+ |
 
 ### Diverse bedrijfsbelastingen
 Op de rekening 640 *Bedrijfsbelastingen* worden de belastingen opgenomen die als een bedrijfskost moeten worden aangemerkt zoals de onroerende voorheffing, de verkeersbelasting, de belasting op inverkeerstelling, de belasting op drijfkracht of op tewerkgesteld personeel, de accijnsrechten en de uitvoerheffingen.[^25]

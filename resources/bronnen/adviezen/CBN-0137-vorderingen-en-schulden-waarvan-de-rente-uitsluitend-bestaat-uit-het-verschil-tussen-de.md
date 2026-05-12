@@ -15,43 +15,35 @@ gerelateerde_adviezen:
     titel: Schulden op meer dan één jaar waarvoor geen of slechts een abnormaal lage rente verschuldigd is - Fiscale impact
     url: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
 nummer: CBN-advies 137/5
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vorderingen-en-schulden-waarvan-de-rente-uitsluitend-bestaat-uit-het-verschil-tussen-de
-      sha256: 9bc74326dd3c0b83505ac7e0ed2677f8405c30dc5d4a5da2356828a4245f91f0
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:23:03Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 3878
-      file_size_chars: 3878
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Vorige verdict (B3 duplicate) was onjuist: de body bevat slechts één H1 (regel 63) en daarna aaneengesloten proza zonder verdere headings. Geen ETL-artefacten, geen afgekapte zinnen, italics correct (*bis*, *cf*). Inhoud volledig voor dit advies uit 1986 dat geen voetnoten bevat.'
-      run_at: '2026-05-11T13:23:03Z'
-      status: trusted
-    rationale: 'Vorige verdict (B3 duplicate) was onjuist: de body bevat slechts één H1 (regel 63) en daarna aaneengesloten proza zonder verdere headings. Geen ETL-artefacten, geen afgekapte zinnen, italics correct (*bis*, *cf*). Inhoud volledig voor dit advies uit 1986 dat geen voetnoten bevat.'
-    status: trusted
 themas:
   - nominale waarde
   - vordering
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vorderingen-en-schulden-waarvan-de-rente-uitsluitend-bestaat-uit-het-verschil-tussen-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:34Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN advies 137/5 - Vorderingen (en schulden) waarvan de rente uitsluitend bestaat uit het verschil tussen de nominale waarde (of terugbetalingsprijs) en de uitgifteprijs
 Artikel 27*bis* van het koninklijk besluit van 8 oktober 1976 bepaalt dat bij de boeking van een vordering in de balans voor haar nominale waarde in voorkomend geval in de overlopende rekeningen van het passief worden geboekt en pro rata temporis in resultaat worden genomen : 
 

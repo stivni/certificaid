@@ -15,46 +15,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van erfpachtcontracten in not-for-profit-organisaties
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-erfpachtcontracten-in-not-for-profit-organisaties
 nummer: CBN-advies 2017/14
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-verwerving-door-de-erfpacht-houder-van-het-met-een-erfpacht
-      sha256: 5cbd681fd8472fc6e422e3e7abbf6654d621e4aa16abd64891dfe87a8c086955
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 17
-      max_section_chars: 12030
-      file_size_chars: 19370
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 165
-          type: other
-          voorbeeld: "| 2201 | Terreinen die volle eigendom\n zijn van de vereniging | 100 | |"
-        - categorie: D4
-          regel: 119
-          type: other
-          voorbeeld: '*getrapte[^8]*  overdracht van de volle eigendom'
-      rationale: 'E2: tabelcel op regels 165-166 (body) bevat een spurious line-break midden in de celinhoud (''Terreinen die volle eigendom\n zijn van de vereniging''), waardoor de markdown-tabel niet correct rendert. D4: regel 119 (body) bevat ''*getrapte[^8]*  overdracht'' met dubbele spatie na de sluitende asterisk — ETL-artefact. Overige tabellen en inhoud volledig intact.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'E2: tabelcel op regels 165-166 (body) bevat een spurious line-break midden in de celinhoud (''Terreinen die volle eigendom\n zijn van de vereniging''), waardoor de markdown-tabel niet correct rendert. D4: regel 119 (body) bevat ''*getrapte[^8]*  overdracht'' met dubbele spatie na de sluitende asterisk — ETL-artefact. Overige tabellen en inhoud volledig intact.'
-    status: needs-rework
 themas:
   - erfpacht
   - onroerende goederen
@@ -62,8 +22,32 @@ themas:
   - symbolische vergoeding
   - tréfonds
   - zakelijke rechten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-verwerving-door-de-erfpacht-houder-van-het-met-een-erfpacht
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:25Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2017/14 – Verenigingen en Stichtingen – Verwerving door de erfpacht-houder van het met een erfpacht bezwaard onroerend goed (verwerving tréfonds) – Hereniging van het eigendomsrecht
 
 ## Inleiding

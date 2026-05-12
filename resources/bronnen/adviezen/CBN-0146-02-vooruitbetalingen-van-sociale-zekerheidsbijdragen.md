@@ -15,45 +15,37 @@ gerelateerde_adviezen:
     titel: Betwiste fiscale aanslag
     url: https://www.cbn-cnc.be/nl/adviezen/betwiste-fiscale-aanslag
 nummer: CBN-advies 146/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen-van-sociale-zekerheidsbijdragen
-      sha256: a5fcb5df7d0ba93c414823187809481a053f039a0cdf6a6d49a564659e192fdb
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 1773
-      file_size_chars: 1773
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Zeer kort advies (1776 chars), 3 voetnoten volledig gedefinieerd. Geen artefacten, geen structuurfouten.
-      run_at: '2026-05-11T12:04:41Z'
-      status: trusted
-    rationale: Zeer kort advies (1776 chars), 3 voetnoten volledig gedefinieerd. Geen artefacten, geen structuurfouten.
-    status: trusted
 themas:
   - schulden
   - toelichting
   - Vooruitbetaling
   - vooruitbetaling van sociale zekerheidsbijdragen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vooruitbetalingen-van-sociale-zekerheidsbijdragen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:37Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 146/2 - Vooruitbetalingen van sociale zekerheidsbijdragen
 
 Aan de Commissie werd gevraagd of de verplichte vermelding in de toelichting bij de jaarrekening[^1] van het bedrag per einde boekjaar van de vervallen maar niet betaalde schulden tegenover de Rijksdienst voor Sociale Zekerheid[^2] ook geldt voor het bedrag per einde boekjaar van de vooruitbetalingen van sociale zekerheidsbijdragen die hadden moeten worden gestort[^3] maar niet werden gestort.

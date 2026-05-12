@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/toerekenen-van-kosten-als-gevolg-van-een-waarborgovereenkomst
 datum: 1986-01-01
 nummer: CBN-advies 148/3
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toerekenen-van-kosten-als-gevolg-van-een-waarborgovereenkomst
-      sha256: efb93cfc2a9357d8f712b25b834397f1b49619bbdae0e6ad2b41edf3342d272f
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 3630
-      file_size_chars: 3630
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: probleem, twee methodieken, standpunt Commissie. Geen artefacten, geen structuurfouten.'
-      run_at: '2026-05-11T12:04:41Z'
-      status: trusted
-    rationale: 'Één voetnoot aanwezig en correct. Inhoud volledig: probleem, twee methodieken, standpunt Commissie. Geen artefacten, geen structuurfouten.'
-    status: trusted
 themas:
   - kosten als gevolg van een waarborgovereenkomst
   - toerekenen van kosten als gevolg van waarborgovereenkomst
@@ -41,8 +9,32 @@ themas:
   - voorziening
   - waarborg
   - waarborgovereenkomst
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toerekenen-van-kosten-als-gevolg-van-een-waarborgovereenkomst
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:39Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 148/3 - Toerekenen van kosten als gevolg van een waarborgovereenkomst
 
 Een onderneming biedt aan de afnemers van haar producten de mogelijkheid "waarborgovereenkomsten" of te sluiten ter aanvulling van - of onafhankelijk van - de verkoopovereenkomst. Hierbij verbindt de onderneming zich ertoe, mits een onmiddellijk te betalen prijs, de goede werking van het product of van het apparaat gedurende een aantal jaren te waarborgen, en al of een deel van de herstellingskosten te dragen. 

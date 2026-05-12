@@ -6,54 +6,6 @@ gerelateerde_adviezen:
     titel: Verwerking van verrichtingen voor de verwerving of verkoop van een recht op vruchtgebruik of van naakte eigendom op materiële vaste activa in de boekhouding van de vruchtgebruiker (de erfpachter, de opstalhouder) en van de naakte eigenaar (de grondeigenaa
     url: https://www.cbn-cnc.be/nl/adviezen/verwerking-van-verrichtingen-voor-de-verwerving-of-verkoop-van-een-recht-op-vruchtgebruik
 nummer: CBN-advies 2018/17
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
-      sha256: 84aa2320b4231304ec94ca9ec3cb7b1c27ff343e76901d581e87eb837894b6b8
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 41
-      max_section_chars: 19172
-      file_size_chars: 52996
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E1
-          regel: 291
-          type: other
-          voorbeeld: "| \n\n**Soort zekerheid**\n\n  | | \n|---|\n\n## Onherroepelijk beloofd of gesteld"
-        - categorie: B5
-          regel: 95
-          type: other
-          voorbeeld: De zakelijke zekerheden bedoeld in KB W.Venn.
-        - categorie: B5
-          regel: 230
-          type: other
-          voorbeeld: De staat over de betrekkingen met verbonden, geassocieerde ondernemingen...
-        - categorie: B3
-          regel: 298
-          type: other
-          voorbeeld: '## Onherroepelijk beloofd of gesteld (midden in tabelinhoud)'
-      rationale: 'E1/E2: samenvattende bijlagetabellen (regels 289–1099) zijn volledig gefragmenteerd als single-cell blokken — identieke extractor-bug als CBN-2018-16. B5: subsectielabels op regels 95 en 230 staan als plain-text zonder heading-prefix. B3: `## Onherroepelijk beloofd of gesteld` verschijnt midden in gefragmenteerde tabelinhoud op regels 298, 486, 669, 829, 987.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'E1/E2: samenvattende bijlagetabellen (regels 289–1099) zijn volledig gefragmenteerd als single-cell blokken — identieke extractor-bug als CBN-2018-16. B5: subsectielabels op regels 95 en 230 staan als plain-text zonder heading-prefix. B3: `## Onherroepelijk beloofd of gesteld` verschijnt midden in gefragmenteerde tabelinhoud op regels 298, 486, 669, 829, 987.'
-    status: needs-rework
 themas:
   - zakelijk recht
   - niet in de balans opgenomen rechten en verplichtingen
@@ -75,8 +27,32 @@ themas:
   - pandrecht op nog te verwerven activa
   - pandrecht op activa
   - voorrecht van de verkoper
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-gewaarborgd-door-een-zakelijke-zekerheid-niet-in-de-balans-opgenomen-rechten-en
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:31Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/17 – Schulden gewaarborgd door een zakelijke zekerheid – Niet in de balans opgenomen rechten en verplichtingen
 
 ## Inleiding
@@ -286,515 +262,441 @@ Bijlagen:
 | 
 
 ## Soort zekerheid
-  | | 
-|---|
+ | 
 
 ## Onherroepelijk beloofd of gesteld
-  | | 
-|---|
+ | 
 
 ## Staat
-  | | 
-|---|
+ | 
 
 ## Boeking
-  | 
+ |
 | 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
 Gewaarborgde schulden
 
-  | | 
-|---|
+ | 
 
 Niet in de balans opgenomen rechten en verplichtingen
 
-  | | 
-|---|
+ | 
 
 Staat over de betrekkingen met verbonden, geassocieerde ondernemingen en ondernemingen waarmee een deelnemingsverhouding bestaat
 
-  | | 
-|---|
-
  | 
+
+|
 | 
 
 Hypotheek
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | | 
-|---|
+ | 
 
 Bedrag van de schuld of van het gedeelte van de schuld dat gewaarborgd is
 
-  | | 
-|---|
+ | 
 
 Boekwaarde van de bezwaarde activa en het bedrag waarvoor de volmachthebber krachtens het mandaat inschrijving mag nemen
 
-  | | 
-|---|
+ | 
 
 Bedrag waarvoor de volmachthebber krachtens het mandaat inschrijving mag nemen 
 
-  | | 
-|---|
+ | 
 
 Bedrag van de gewaarborgde schulden voor deze drie types van ondernemingen
 
-  | | 
-|---|
+ | 
 
 Rekening 02 Zakelijke zekerheden gesteld[^85] op eigen activa
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | | 
-|---|
+ | 
 
 Boekwaarde van de bezwaarde activa en bedrag van de inschrijving
 
-  | | 
-|---|
+ | 
 
 Bedrag van de inschrijving
 
-  | 
+ |
 | 
 
 Pandrecht op een handelszaak
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | | 
-|---|
+ | 
 
 Bedrag waarvoor de volmachthebber krachtens het mandaat tot inschrijving mag overgaan
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | | 
-|---|
+ | 
 
 Maximumbedrag waarvoor de schuld is gewaarborgd en waarvoor registratie plaatsvindt
 
-  | 
+ |
 | 
 
 Pandrecht op nog te verwerven activa
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | | 
-|---|
+ | 
 
 Bedrag van de betrokken activa
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | 
+ |
 | 
 
 Pandrecht op andere activa
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | | 
-|---|
+ | 
 
 Boekwaarde van de bezwaarde activa
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | 
+ |
 | 
 
 Eigendomsvoorbehoud[^86] 
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 Boekwaarde van de betrokken activa
 
-  | 
+ |
 | 
 
 Voorrecht van de verkoper[^87] 
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 Boekwaarde van het verkochte goed
 
-  | 
+ |
 
 ### 1.2. *Verkort schema*
 | 
 
 ## Soort zekerheid
-  | | 
-|---|
+ | 
 
 ## Onherroepelijk beloofd of gesteld
-  | | 
-|---|
+ | 
 
 ## Staat
-  | | 
-|---|
+ | 
 
 ## Boeking
-  | 
+ |
 | 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
 Gewaarborgde schulden
 
-  | | 
-|---|
+ | 
 
 Niet in de balans opgenomen rechten en verplichtingen
 
-  | | 
-|---|
+ | 
 
 Staat over de betrekkingen met verbonden ondernemingen, geassocieerde ondernemingen, bestuurders, zaakvoerders en commissarissen[^88] 
 
-  | | 
-|---|
-
  | 
+
+|
 | 
 
 Hypotheek
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | | 
-|---|
+ | 
 
 Bedrag van de schuld of van het gedeelte van de schuld dat gewaarborgd is
 
-  | | 
-|---|
+ | 
 
 Boekwaarde van de bezwaarde activa en bedrag waarvoor de volmachthebber krachtens het mandaat inschrijving mag nemen
 
-  | | 
-|---|
+ | 
 
 Bedrag waarvoor de volmachthebber krachtens het mandaat inschrijving mag nemen
 
-  | | 
-|---|
+ | 
 
 Rekening 02 Zakelijke zekerheden gesteld[^89] op eigen activa
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | | 
-|---|
+ | 
 
 Boekwaarde van de bezwaarde activa en bedrag van de inschrijving
 
-  | | 
-|---|
+ | 
 
 Bedrag van de inschrijving
 
-  | 
+ |
 | 
 
 Pandrecht op een handelszaak
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | | 
-|---|
+ | 
 
 Bedrag waarvoor de volmachthebber krachtens het mandaat tot inschrijving mag overgaan
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | | 
-|---|
+ | 
 
 Maximumbedrag waarvoor de schuld is gewaarborgd en waarvoor registratie plaatsvindt
 
-  | 
+ |
 | 
 
 Pandrecht op nog te verwerven activa
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | | 
-|---|
+ | 
 
 Bedrag van de betrokken activa
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | 
+ |
 | 
 
 Pandrecht op andere activa
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | | 
-|---|
+ | 
 
 Boekwaarde van de bezwaarde activa
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | 
+ |
 | 
 
 Eigendomsvoorbehoud[^90] 
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 Boekwaarde van de betrokken activa
 
-  | 
+ |
 | 
 
 Voorrecht van de verkoper[^91] 
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 Boekwaarde van het verkochte goed
 
-  | 
+ |
 
 ### 1.3. *Microschema*
 | 
 
 ## Soort zekerheid
-  | | 
-|---|
+ | 
 
 ## Onherroepelijk beloofd of gesteld
-  | | 
-|---|
+ | 
 
 ## Staat
-  | | 
-|---|
+ | 
 
 ## Boeking
-  | 
+ |
 | 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
 Niet in de balans opgenomen rechten en verplichtingen
 
-  | | 
-|---|
-
  | 
+
+|
 | 
 
 Hypotheek
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | | 
-|---|
+ | 
 
 Boekwaarde van de bezwaarde activa en bedrag waarvoor de volmachthebber krachtens het mandaat inschrijving mag nemen
 
-  | | 
-|---|
+ | 
 
 Rekening 02 Zakelijke zekerheden gesteld[^92] op eigen activa
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | | 
-|---|
+ | 
 
 Boekwaarde van de bezwaarde activa en bedrag van de inschrijving
 
-  | 
+ |
 | 
 
 Pandrecht op een handelszaak
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | | 
-|---|
+ | 
 
 Bedrag waarvoor de volmachthebber krachtens het mandaat tot inschrijving mag overgaan
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | | 
-|---|
+ | 
 
 Maximumbedrag waarvoor de schuld is gewaarborgd en waarvoor registratie plaatsvindt
 
-  | 
+ |
 | 
 
 Pandrecht op nog te verwerven activa
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | | 
-|---|
+ | 
 
 Bedrag van de betrokken activa
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | 
+ |
 | 
 
 Pandrecht op andere activa
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | | 
-|---|
+ | 
 
 Boekwaarde van de bezwaarde activa
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | 
+ |
 | 
 
 Eigendomsvoorbehoud[^93] 
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 Boekwaarde van de betrokken activa
 
-  | 
+ |
 | 
 
 Voorrecht van de verkoper[^94] 
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 Boekwaarde van het verkochte goed
 
-  | 
+ |
 
 2. Samenvattende tabel over de zekerheden die door de derden werden gesteld of onherroepelijk beloofd ten behoeve van de crediteuren van de vennootschap
 
@@ -802,272 +704,237 @@ Boekwaarde van het verkochte goed
 | 
 
 ## Soort zekerheid
-  | | 
-|---|
+ | 
 
 ## Onherroepelijk beloofd of gesteld
-  | | 
-|---|
+ | 
 
 ## Staat
-  | | 
-|---|
+ | 
 
 ## Boeking
-  | 
+ |
 | 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
 Staat over de betrekkingen met verbonden, geassocieerde ondernemingen en ondernemingen waarmee een deelnemingsverhouding bestaat
 
-  | | 
-|---|
-
  | 
+
+|
 | 
 
 Hypotheek
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | | 
-|---|
+ | 
 
 Bedrag waarvoor de volmachthebber krachtens het mandaat inschrijving mag nemen
 
-  | | 
-|---|
+ | 
 
 Rekening 00 Zekerheden door derden gesteld voor rekening van de vennootschap
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | | 
-|---|
+ | 
 
 Bedrag van de inschrijving
 
-  | 
+ |
 | 
 
 Pandrecht op een handelszaak
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | | 
-|---|
+ | 
 
 Bedrag waarvoor de volmachthebber krachtens het mandaat tot inschrijving mag overgaan
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | | 
-|---|
+ | 
 
 Maximumbedrag waarvoor de schuld is gewaarborgd en waarvoor registratie plaatsvindt
 
-  | 
+ |
 | 
 
 Pandrecht op nog te verwerven activa
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | | 
-|---|
+ | 
 
 Bedrag van de betrokken activa
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | 
+ |
 | 
 
 Pandrecht op andere activa
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | | 
-|---|
+ | 
 
 Boekwaarde van de bezwaarde activa
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | 
+ |
 | 
 
 Eigendomsvoorbehoud[^95] 
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 Boekwaarde van de betrokken activa
 
-  | 
+ |
 | 
 
 Voorrecht van de verkoper[^96] 
 
-  | | 
-|---|
+ | 
 
- | | 
-|---|
+| 
 
 Boekwaarde van het verkochte goed
 
-  | 
+ |
 
 ### 2.2. *Verkort schema en microschema*
 | 
 
 ## Soort zekerheid
-  | | 
-|---|
+ | 
 
 ## Onherroepelijk beloofd of gesteld
-  | | 
-|---|
+ | 
 
 ## Staat
-  | | 
-|---|
+ | 
 
 ## Boeking
-  | 
+ |
 | 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
 /
 
-  | | 
-|---|
-
  | 
+
+|
 | 
 
 Hypotheek
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | | 
-|---|
+ | 
 
 /
 
-  | | 
-|---|
+ | 
 
 Rekening 00 Zekerheden door derden gesteld voor rekening van de vennootschap
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | 
+ |
 | 
 
 Pandrecht op een handelszaak
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | 
+ |
 | 
 
 Pandrecht op nog te verwerven activa
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | 
+ |
 | 
 
 Pandrecht op andere activa
 
-  | | 
-|---|
+ | 
 
 Onherroepelijk beloofd
 
-  | 
+ |
 | 
 
 Gesteld
 
-  | 
+ |
 | 
 
 Eigendomsvoorbehoud[^97] 
 
-  | | 
-|---|
-
  | 
+
+|
 | 
 
 Voorrecht van de verkoper[^98] 
 
-  | | 
-|---|
-
  | 
+
+|
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerp van dit advies op 7 mei 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

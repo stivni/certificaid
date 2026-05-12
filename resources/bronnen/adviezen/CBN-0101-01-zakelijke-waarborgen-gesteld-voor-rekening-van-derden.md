@@ -15,46 +15,6 @@ gerelateerde_adviezen:
     titel: Gebeurtenissen na afsluitingsdatum van het boekjaar
     url: https://www.cbn-cnc.be/nl/adviezen/gebeurtenissen-na-afsluitingsdatum-van-het-boekjaar
 nummer: CBN-advies R101/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/zakelijke-waarborgen-gesteld-voor-rekening-van-derden
-      sha256: dd346a1d84ea751247cf3d70d6316785147f7a5e680b36ea1ceb22e549ac5e51
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:20Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 3553
-      file_size_chars: 3553
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 74
-          type: pseudo-table
-          voorbeeld: '| 01 | | Waarborgen gesteld voor rekening van derden | — 3-koloms header'
-        - categorie: E2
-          regel: 76
-          type: pseudo-table
-          voorbeeld: '| | | 014 | | Debiteuren wegens zakelijke zekerheden | — 5 kolommen, mismatcht 3-koloms header'
-      rationale: 'E2: twee markdown-tabellen (regels 74-82) zijn structureel incorrect — subrekening-rijen (014, 015, 022, 023) bevatten 5 cellen (''| | | 014 | | Omschrijving |'') terwijl de header slechts 3 kolommen (''| 01 | | Omschrijving |'') definieert. Dit is een ETL-artefact: de originele hiërarchische rekeningstructuur is niet correct naar pipe-markdown vertaald. Body-tekst en voetnoten zijn clean.'
-      run_at: '2026-05-11T17:05:20Z'
-      status: needs-rework
-    rationale: 'E2: twee markdown-tabellen (regels 74-82) zijn structureel incorrect — subrekening-rijen (014, 015, 022, 023) bevatten 5 cellen (''| | | 014 | | Omschrijving |'') terwijl de header slechts 3 kolommen (''| 01 | | Omschrijving |'') definieert. Dit is een ETL-artefact: de originele hiërarchische rekeningstructuur is niet correct naar pipe-markdown vertaald. Body-tekst en voetnoten zijn clean.'
-    status: needs-rework
 themas:
   - niet in de balans opgenomen rechten en verplichtingen
   - rekeningenstelsel
@@ -65,21 +25,45 @@ themas:
   - zakelijke waarborgen gesteld voor rekening van derden
   - zakelijke zekerheden
   - zekerheden
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/zakelijke-waarborgen-gesteld-voor-rekening-van-derden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:03Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies R101/1 - Zakelijke waarborgen gesteld voor rekening van derden
 
 Indien een onderneming haar eigen bezittingen bezwaart met een zakelijke zekerheid voor rekening van een derde dan wordt dit in het minimum genormaliseerd rekeningstelsel uitgedrukt in een dubbel stel rekeningen:
 
-| 01 | | Waarborgen gesteld voor rekening van derden | 
-|---|---|---|
-| | | 014 | | Debiteuren wegens zakelijke zekerheden | 
-| | | 015 | | Crediteuren wegens zakelijke zekerheden | 
+| 01| Waarborgen gesteld voor rekening van derden |
+|---|---|
+| | 014| Debiteuren wegens zakelijke zekerheden |
+| | 015| Crediteuren wegens zakelijke zekerheden |
 
-| 02 | | Zakelijke waarborgen gesteld op eigen tegoeden | 
-|---|---|---|
-| | | 022 | | Crediteuren van derden, houders van zakelijke waarborgen[^1] | 
-| | | 023 | | Zakelijke waarborgen gesteld voor rekening van derden[^2] | 
+| 02| Zakelijke waarborgen gesteld op eigen tegoeden |
+|---|---|
+| | 022| Crediteuren van derden, houders van zakelijke waarborgen[^1] |
+| | 023| Zakelijke waarborgen gesteld voor rekening van derden[^2] |
 
 Verschillende vragen werden gesteld over de juiste werking van deze rekeningen en meer bepaald over het verband tussen rekening 015 en de rekening 022.
 

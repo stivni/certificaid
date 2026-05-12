@@ -15,54 +15,38 @@ gerelateerde_adviezen:
     titel: De boekhoudkundige verwerking van factoringovereenkomsten
     url: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-factoringovereenkomsten
 nummer: CBN-advies 137/6
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/overdracht-van-schuldvordering-nominale-waarde-waardevermindering
-      sha256: 25fd1bb0d0ab515b3701d5cd67f1da2fb53847742ea2754c819febb7703658ab
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 3
-      max_section_chars: 1158
-      file_size_chars: 3514
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 108
-          type: other
-          voorbeeld: 6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 | |
-        - categorie: (source)
-          regel: 99
-          type: source-typo
-          voorbeeld: '### Op de vervandag  (vermoedelijk ''vervaldag'' in bronpagina)'
-      rationale: 'E2 (regel 108): voetnootlabel ''1'' lekt nog steeds in de tabelcel — ''6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |'' — ETL-bug ongewijzigd t.o.v. ronde 2. Heading ''### Op de vervandag'' (regel 99) blijft een source-typo (telt niet als needs-rework-grond). Geen nieuwe problemen gevonden.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'E2 (regel 108): voetnootlabel ''1'' lekt nog steeds in de tabelcel — ''6331 | Handelsvorderingen op meer dan 1 jaar -terugneming van waardeverminderingen 1 | 10 |'' — ETL-bug ongewijzigd t.o.v. ronde 2. Heading ''### Op de vervandag'' (regel 99) blijft een source-typo (telt niet als needs-rework-grond). Geen nieuwe problemen gevonden.'
-    status: needs-rework
 themas:
   - Waardevermindering
   - waardevermindering op vorderingen
   - nominale waarde
   - overdracht van schuldvordering
   - vordering
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/overdracht-van-schuldvordering-nominale-waarde-waardevermindering
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:33Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 137/6 - Overdracht van schuldvordering - Nominale waarde - Waardevermindering
 
 Artikel 27*bis*, § 1 van het jaarrekeningbesluit bepaalt dat vorderingen in de balans worden opgenomen voor hun nominale waarde, onverminderd evenwel de verplichting om op de betrokken vorderingen waardeverminderingen toe te passen zo er voor het geheel of een gedeelte ervan onzekerheid bestaat over de betaling ervan op de vervaldag[^1].

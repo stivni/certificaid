@@ -15,46 +15,34 @@ gerelateerde_adviezen:
     titel: Verrichtingen met betrekking tot inschrijvingsrechten
     url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
 nummer: CBN-advies 139/3
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/aandelen-met-warrant
-      sha256: 6a6e46b69fc6c00e8d3e61bcaeb496d426ca91783f92453b11e42afa4a32aed3
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:15:33Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 149
-      file_size_chars: 149
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D2
-          regel: 60
-          type: abrupt-cutoff
-          voorbeeld: Voor aandelen met warrant zijn de beginselen verwoord in voornoemd advies 139/1 volledig van toepassing.
-      rationale: 'D2: het bestand bevat uitsluitend één verwijzingszin naar advies 139/1 en heeft geen zelfstandige inhoud (149 chars body). Als standalone RAG-chunk volledig onbruikbaar: levert geen zelfstandige informatie op en kan niet zonder de referentiebron worden geïnterpreteerd.'
-      run_at: '2026-05-11T15:15:33Z'
-      status: rejected
-    rationale: 'D2: het bestand bevat uitsluitend één verwijzingszin naar advies 139/1 en heeft geen zelfstandige inhoud (149 chars body). Als standalone RAG-chunk volledig onbruikbaar: levert geen zelfstandige informatie op en kan niet zonder de referentiebron worden geïnterpreteerd.'
-    status: rejected
 themas:
   - geen inhoud
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/aandelen-met-warrant
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:34Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 139/3 - Aandelen met warrant
 
 Voor aandelen met warrant zijn de beginselen verwoord in voornoemd advies 139/1 volledig van toepassing.

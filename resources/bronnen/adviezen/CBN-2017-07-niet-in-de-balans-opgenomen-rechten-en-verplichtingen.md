@@ -2,50 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen
 datum: 2017-03-15
 nummer: CBN-advies 2017/07
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen
-      sha256: f6470ed1e68c46c270e00f166224818bc6700a337a8f39ddfb0840dc88b5f528
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 14
-      max_section_chars: 11916
-      file_size_chars: 26332
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A2
-          regel: 61
-          type: dotted-leader
-          voorbeeld: ', 15'
-        - categorie: A2
-          regel: 62
-          type: dotted-leader
-          voorbeeld: ', 15'
-        - categorie: D4
-          regel: 165
-          type: other
-          voorbeeld: met *inlichtingen* betreffende belangrijke hangende geschillen
-      rationale: 'A2: regels 61-62 (body) bevatten twee losstaande '', 15'' fragmenten direct na de H1 — paginanummer-resten zonder context, typisch dotted-leader artefact. D4: regel 165 (body) bevat ''met *inlichtingen* betreffende'' — controleer op spatie voor sluitende asterisk (potentieel ETL-artefact). Omvangrijke inhoud (26370 chars) met 14 headings verder volledig.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'A2: regels 61-62 (body) bevatten twee losstaande '', 15'' fragmenten direct na de H1 — paginanummer-resten zonder context, typisch dotted-leader artefact. D4: regel 165 (body) bevat ''met *inlichtingen* betreffende'' — controleer op spatie voor sluitende asterisk (potentieel ETL-artefact). Omvangrijke inhoud (26370 chars) met 14 headings verder volledig.'
-    status: needs-rework
 themas:
   - rechten
   - verplichtingen
@@ -54,8 +10,32 @@ themas:
   - gewaarborgde schulden
   - buiten balans
   - niet in de balans opgenomen rechten en verplichtingen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/niet-in-de-balans-opgenomen-rechten-en-verplichtingen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:22Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2017/07 - Niet in de balans opgenomen rechten en verplichtingen
 
 ## Hypothese en vraag

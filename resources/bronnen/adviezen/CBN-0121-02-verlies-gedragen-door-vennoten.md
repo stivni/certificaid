@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Aanwending van herwaarderingsmeerwaarden
     url: https://www.cbn-cnc.be/nl/adviezen/aanwending-van-herwaarderingsmeerwaarden
 nummer: CBN-advies 121/2 bis
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten
-      sha256: 8282fed6facf534849b18c1e63c5fa534fe5bfb1b41641fe59271df0b8295778
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 1725
-      file_size_chars: 1725
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Volledige, correcte advies-tekst (1725 tekens). Eén voetnoot [^1] correct gekoppeld. Geen artefacten aangetroffen. Frontmatter consistent met body. Laag-1 pass correct.
-      run_at: '2026-05-11T11:57:45Z'
-      status: trusted
-    rationale: Volledige, correcte advies-tekst (1725 tekens). Eén voetnoot [^1] correct gekoppeld. Geen artefacten aangetroffen. Frontmatter consistent met body. Laag-1 pass correct.
-    status: trusted
 themas:
   - aanzuiveren van verliezen
   - buitengewone algemene vergadering
@@ -55,8 +23,32 @@ themas:
   - vennoot
   - verlies
   - verlies gedragen door vennoten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verlies-gedragen-door-vennoten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:24Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 121/2bis - Verlies gedragen door vennoten
 
 Een vennootschap sluit het boekjaar af met verlies. De algemene vergadering beslist het verlies over te dragen. Tijdens het daaropvolgende boekjaar beslissen de vennoten op een buitengewone algemene vergadering het aldus overgedragen verlies zelf ten laste te nemen. De vraag wordt gesteld op welke wijze deze beslissing van de buitengewone algemene vergadering in de boekhouding en in de jaarrekening moet worden geboekt. 

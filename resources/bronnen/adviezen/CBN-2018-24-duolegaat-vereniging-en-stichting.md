@@ -2,50 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/duolegaat-vereniging-en-stichting
 datum: 2018-12-10
 nummer: CBN-advies 2018/24
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/duolegaat-vereniging-en-stichting
-      sha256: 0baac9477a5f841ed3e769b0073d43138b4b533987a1590f4990f4c6088b39f4
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 7
-      max_section_chars: 4774
-      file_size_chars: 14227
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A3
-          regel: 60
-          type: other
-          voorbeeld: vereniging of stichting
-        - categorie: D4
-          regel: 73
-          type: other
-          voorbeeld: Bij een* omgekeerd duolegaat* wordt het begunstigde verre familielid
-        - categorie: D4
-          regel: 68
-          type: other
-          voorbeeld: Bij het *klassieke duolegaat *wordt de nalatenschap volledig toebedeeld
-      rationale: 'A3: regel 60 bevat `vereniging of stichting` als losstaande plain-text regel — TOC-residu. D4: stelselmatig malformed italic voor `duolegaat`-varianten: zowel `*duolegaat *` (spatie vóór sluitende asterisk) als `Bij een* omgekeerd duolegaat*` (spatie na opening-asterisk) op minstens regels 64, 68, 73, 87, 114, 140. Journaalpost-tabellen correct.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'A3: regel 60 bevat `vereniging of stichting` als losstaande plain-text regel — TOC-residu. D4: stelselmatig malformed italic voor `duolegaat`-varianten: zowel `*duolegaat *` (spatie vóór sluitende asterisk) als `Bij een* omgekeerd duolegaat*` (spatie na opening-asterisk) op minstens regels 64, 68, 73, 87, 114, 140. Journaalpost-tabellen correct.'
-    status: needs-rework
 themas:
   - duolegaat
   - nalatenschap
@@ -53,8 +9,32 @@ themas:
   - schenking
   - duolegaat in geld
   - duolegaat in natura
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/duolegaat-vereniging-en-stichting
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:33Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/24 – Duolegaat – Vereniging en stichting
 
 ## Algemeen

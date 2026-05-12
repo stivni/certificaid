@@ -15,58 +15,6 @@ gerelateerde_adviezen:
     titel: Bouwwerken op andermans grond
     url: https://www.cbn-cnc.be/nl/adviezen/bouwwerken-op-andermans-grond
 nummer: CBN-advies 2016/2
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-ontvangen-subsidies-voor-de-aankoop-van-activa-die-worden
-      sha256: 074350628fb9f6a0648fb610e585e68c7bac08b5f35a1156be111a403d2c830a
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 4
-      max_section_chars: 2263
-      file_size_chars: 3156
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 79
-          type: other
-          voorbeeld: '# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN (openende ** zonder sluiting)'
-        - categorie: D4
-          regel: 81
-          type: other
-          voorbeeld: '## **CBN-advies 2016/2 – Boekhoudkundige verwerking... (openende ** zonder sluiting)'
-        - categorie: D4
-          regel: 85
-          type: other
-          voorbeeld: '## Inleiding** (sluitende ** zonder opening)'
-        - categorie: B3
-          regel: 91
-          type: other
-          voorbeeld: '## (lege heading zonder tekst)'
-        - categorie: D4
-          regel: 93
-          type: other
-          voorbeeld: '**Analyse**** (dubbele sluitende ** — malformed bold)'
-      rationale: 'D4 bevestigd: regel 79 ''# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'' opent ** zonder sluiting; regel 81 ''## **CBN-advies 2016/2...'' idem; regel 85 ''## Inleiding**'' heeft sluitende ** zonder opening — stray bold-markers verspreid over drie headings. B3: regel 91 is een lege ## heading zonder tekst. Regel 93 ''**Analyse****'' heeft dubbele sluitende **. Allen ETL-artefacten.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'D4 bevestigd: regel 79 ''# **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN'' opent ** zonder sluiting; regel 81 ''## **CBN-advies 2016/2...'' idem; regel 85 ''## Inleiding**'' heeft sluitende ** zonder opening — stray bold-markers verspreid over drie headings. B3: regel 91 is een lege ## heading zonder tekst. Regel 93 ''**Analyse****'' heeft dubbele sluitende **. Allen ETL-artefacten.'
-    status: needs-rework
 themas:
   - materiële vaste activa
   - overige materiële vaste activa
@@ -74,8 +22,32 @@ themas:
   - terbeschikkingstelling vaste activa
   - vereniging zonder winstoogmerk
   - vzw
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-ontvangen-subsidies-voor-de-aankoop-van-activa-die-worden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:15Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # **COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 ## **CBN-advies 2016/2 – Boekhoudkundige verwerking van ontvangen subsidies voor de aankoop van activa die worden ter beschikking gesteld
 ## Advies van 9 maart 2016

@@ -6,38 +6,6 @@ gerelateerde_adviezen:
     titel: Aanschaffingswaarde bij de aankoop van een goed tegen betaling van een vaste prijs, verschuldigd over een periode van meer dan één jaar
     url: https://www.cbn-cnc.be/nl/adviezen/aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs-0
 nummer: CBN-advies 159/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
-      sha256: d4afec32799a95bf94f4a6b3d109271f899c33a7cb9a0e57737ab0f3f7044673
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:42Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 4425
-      file_size_chars: 4425
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen zichtbare ETL-artefacten. Italics voor ''artikel 27*bis*'' en ''25*bis*'' zijn Belgische wetgevingsstijl (geen malformed markdown). Voetnoten correct gelinkt. Genummerde lijst (1./2.) en bulletlijst correct. Inhoud volledig: vraag, boekhoudkundig antwoord met cijfervoorbeeld en fiscaal-rechtelijk commentaar aanwezig.'
-      run_at: '2026-05-11T12:04:42Z'
-      status: trusted
-    rationale: 'Geen zichtbare ETL-artefacten. Italics voor ''artikel 27*bis*'' en ''25*bis*'' zijn Belgische wetgevingsstijl (geen malformed markdown). Voetnoten correct gelinkt. Genummerde lijst (1./2.) en bulletlijst correct. Inhoud volledig: vraag, boekhoudkundig antwoord met cijfervoorbeeld en fiscaal-rechtelijk commentaar aanwezig.'
-    status: trusted
 themas:
   - abnormaal lage rente
   - geen rente verschuldigd
@@ -47,8 +15,32 @@ themas:
   - schulden
   - schulden met een abnormaal lage rente
   - schulden op meer dan één jaar
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/schulden-op-meer-dan-een-jaar-waarvoor-geen-of-slechts-een-abnormaal-lage-rente
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:44Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 159/1 - Schulden op meer dan één jaar waarvoor geen of slechts een abnormaal lage rente verschuldigd is - Fiscale impact
 
 Het koninklijk besluit van 6 november 1987 tot wijziging van het koninklijk besluit van 8 oktober 1976 ter zake[^1] wijzigde onder meer artikel 27*bis* van voormeld besluit. 

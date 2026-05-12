@@ -9,54 +9,38 @@ gerelateerde_adviezen:
     titel: Voeren van de boekhouding en opstellen van de jaarrekening in een andere munt dan de euro
     url: https://www.cbn-cnc.be/nl/adviezen/voeren-van-de-boekhouding-en-opstellen-van-de-jaarrekening-in-een-andere-munt-dan-de-euro
 nummer: CBN-advies 2010/4
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/omrekeningsverschillen-ontstaan-bij-omrekening-van-het-kapitaal-naar-aanleiding-van-het
-      sha256: 11a931f8df073fd3e894e1f3203b0b4bda80b7d8ed85d68db8f1b8524f54b970
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 0
-      max_section_chars: 7531
-      file_size_chars: 7531
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 100
-          type: other
-          voorbeeld: '| *Kapitaal* | | *1.000* | | *1.500 — cel breekt naar volgende regel zonder sluitende pipe'
-        - categorie: A6
-          regel: 102
-          type: other
-          voorbeeld: "\t\t\t\t-300* |"
-      rationale: 'E2/A6: tabel op r97-105 (balans EUR vs USD) heeft een gebroken rij — r100 eindigt met ''| | *1.500'' zonder sluitende pipe, en r102 heeft ''\t\t\t\t-300* |'' als verdrongen celinhoud op een aparte insprong-regel. ETL tabel-rendering-bug waarbij een cel met een newline-karakter niet correct geparsed werd.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'E2/A6: tabel op r97-105 (balans EUR vs USD) heeft een gebroken rij — r100 eindigt met ''| | *1.500'' zonder sluitende pipe, en r102 heeft ''\t\t\t\t-300* |'' als verdrongen celinhoud op een aparte insprong-regel. ETL tabel-rendering-bug waarbij een cel met een newline-karakter niet correct geparsed werd.'
-    status: needs-rework
 themas:
   - functionele munt
   - functionele valuta
   - geplaatst kapitaal
   - kapitaal
   - omrekeningsverschil
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/omrekeningsverschillen-ontstaan-bij-omrekening-van-het-kapitaal-naar-aanleiding-van-het
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:54Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2010/4 - Omrekeningsverschillen ontstaan bij omrekening van het kapitaal naar aanleiding van het verkrijgen van de afwijking inzake functionele valuta Advies van 21 april 2010
 
 De procedure voor het vragen van afwijkingen wordt vastgelegd in artikel 14 van de Boekhoudwet van 17 juli 1975 en in artikel 125, § 1 van het Wetboek van Vennootschappen. 
@@ -80,11 +64,11 @@ Een voorbeeld ter verduidelijking:
 
 De bestuurders van een Belgische onderneming zijn van oordeel dat de functionele valuta van de vennootschap de USD is. De vraag om haar boekhouding te voeren en haar jaarrekening op te stellen in USD vanaf 1 januari 20N1 wordt ingediend. 
 
-| Activa | | Balans in EUR | | Passiva | 
-|---|---|---|---|---|
-| Vaste activa | | 1.020 | | Kapitaal | | 1.000 | 
-| Vlottende activa | | 180 | | Schulden | | 200 | 
-| | | **1.200** | | | | **1.200** | 
+| Activa| Balans in EUR| Passiva|
+|---|---|---|
+| Vaste activa| 1.020| Kapitaal| 1.000|
+| Vlottende activa| 180| Schulden| 200|
+| | **1.200**| |** 1.200**|
 
 De onderneming zet, naar aanleiding van haar vraag tot afwijking, haar maatschappelijk kapitaal reeds om in USD. De wisselkoers bedraagt op datum van de notariële akte (1 oktober 20N0): 1 EUR = 1,5 USD.
 
@@ -94,15 +78,12 @@ Inmiddels verkrijgt de onderneming de toelating om vanaf het boekjaar dat start 
 
 Het negatief omrekeningsverschil van 300 wordt aan de rubriek *Kapitaal* toegerekend. Bij voorkeur wordt daartoe een afzonderlijke subrekening binnen de rekening 100 *Geplaatst kapitaal* gecreëerd. 
 
-| Activa | | Balans | | Passiva | 
-|---|---|---|---|---|
-| | | EUR | | USD | | | | EUR | | USD | 
-| Vaste activa | | 1.020 | | 1.224 | | *Kapitaal* | | *1.000* | | *1.500 
-
-			-300* | 
-| Vlottende activa | | 180 | | 216 | | Schulden | | 200 | | 240 | 
-|---|---|---|---|---|---|---|---|---|---|---|
-| | | **1.200** | | **1.440** | | | | **1.200** | | **1.440** | 
+| Activa| Balans| Passiva|
+|---|---|---|
+| | EUR| USD| | EUR| USD|
+| Vaste activa| 1.020| 1.224| *Kapitaal*|* 1.000*|* 1.500 -300*|
+| Vlottende activa | 180| 216| Schulden| 200| 240|
+| | **1.200**|** 1.440**| |** 1.200**|** 1.440**|
 
 Uiteraard worden ook positieve omrekeningsverschillen op dezelfde wijze verwerkt.
 

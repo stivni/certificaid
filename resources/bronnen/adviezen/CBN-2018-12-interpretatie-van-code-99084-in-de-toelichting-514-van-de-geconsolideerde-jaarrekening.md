@@ -15,58 +15,38 @@ gerelateerde_adviezen:
     titel: Belastingkrediet voor kosten van onderzoek en ontwikkeling
     url: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2018/12
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
-      sha256: 341e869a5772c57309a88b90943ac582d84e1ff11174619f8e67928cb20a98f7
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 5
-      max_section_chars: 6684
-      file_size_chars: 15488
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E1
-          regel: 128
-          type: pseudo-table
-          voorbeeld: "| \n\nBoekhoudkundige afschrijving in 5 jaar\n\n  |"
-        - categorie: E1
-          regel: 134
-          type: pseudo-table
-          voorbeeld: "| \n\nJaren\n\n  | | \n|---|\n\nX\n\n  | | \n|---|\n\nX+1\n\n  |"
-        - categorie: A6
-          regel: 93
-          type: other
-          voorbeeld: "| Art. 29 \n\n\t\t\t\t§ 4 | | In de geconsolideerde balans..."
-      rationale: 'E1/E2: de volledige voorbeeldtabellen (regels 128-869 en 875-1611) zijn gedecomposeerd in losse ''| waarde |'' celfragmenten waarbij elke numerieke waarde in een afzonderlijk ''| \n\n[waarde]\n\n  |'' blokje staat — de originele multi-kolom tabelstructuur (jaren X t/m X+4) is volledig onleesbaar. Dit ernstig ETL-artefact maakt het tweede deel van het document onbruikbaar voor RAG. A6: regel 93-95 heeft een gebroken tabelcel (''Art. 29 \n\n\t\t\t\t§ 4'') met tab-inspringing.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'E1/E2: de volledige voorbeeldtabellen (regels 128-869 en 875-1611) zijn gedecomposeerd in losse ''| waarde |'' celfragmenten waarbij elke numerieke waarde in een afzonderlijk ''| \n\n[waarde]\n\n  |'' blokje staat — de originele multi-kolom tabelstructuur (jaren X t/m X+4) is volledig onleesbaar. Dit ernstig ETL-artefact maakt het tweede deel van het document onbruikbaar voor RAG. A6: regel 93-95 heeft een gebroken tabelcel (''Art. 29 \n\n\t\t\t\t§ 4'') met tab-inspringing.'
-    status: needs-rework
 themas:
   - belasting
   - uitgestelde belastingen
   - belastinglatentie
   - actieve belastinglatentie
   - passieve belastinglatentie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/interpretatie-van-code-99084-in-de-toelichting-514-van-de-geconsolideerde-jaarrekening
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:30Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/12 - Interpretatie van code 99084 in de toelichting 5.14 van de geconsolideerde jaarrekening
 
 ## Inleiding
@@ -85,22 +65,14 @@ Hoewel richtlijn 2013/34/EU de verplichting voorzien in artikel 34 § 11 van de 
 
 In punt 4 wordt een tabel opgenomen met een vergelijking tussen de twee richtlijnen en hun respectieve vereisten.
 
-| Zevende Richtlijn | | Richtlijn 2013/34/EU | 
-|---|---|---|
-| Balans | 
-| Art. 29 
-
-			§ 4 | | In de geconsolideerde balans en winst - en verliesrekening wordt rekening gehouden met het verschil dat bij de consolidatie blijkt tussen de aan het boekjaar en de vorige boekjaren toe te rekenen belastingen en de met betrekking tot deze boekjaren betaalde of opgelegde belastingen, voor zover mag worden aangenomen dat daaruit voor een van de geconsolideerde ondernemingen in de afzienbare toekomst inderdaad kosten zullen voortvloeien. | | Art. 24, § 13 | | Uitgestelde belastingen worden bij consolidatie opgenomen, voor zover mag worden aangenomen dat daaruit voor een van de in de consolidatie opgenomen ondernemingen in de nabije toekomst inderdaad een verschuldigdheid van de belasting zal voortvloeien. | 
-| Art. 29, 
-
-			§ 5 | | Wanneer uitsluitend voor de toepassing van de belastingwetgeving buitengewone waardecorrecties zijn uitgevoerd met betrekking tot in de consolidatie opgenomen activa, worden deze activa pas geconsolideerd nadat deze correcties ongedaan zijn gemaakt[^4]. | | Art. 24, § 14 | | Indien uitsluitend voor de toepassing van de belastingwetgeving waardecorrecties zijn uitgevoerd met betrekking tot in de geconsolideerde financiële overzichten opgenomen activa, worden deze activa pas in de geconsolideerde financiële overzichten opgenomen nadat deze correcties ongedaan werden gemaakt[^5]. | 
-| Toelichting | 
-|---|
-| Art. 34 
-
-			§ 11 | | De toelichting moet het verschil vermelden tussen de aan de geconsolideerde winst- en verliesrekening van het boekjaar en de vorige boekjaren toegerekende belastingen en de met betrekking tot deze boekjaren betaalde of opgelegde belastingen, voor zover dit verschil van wezenlijk belang is met het oog op in de toekomst te betalen belastingen. Dit bedrag kan ook gecumuleerd op de geconsolideerde balans worden opgenomen in een afzonderlijke post die dienovereenkomstig wordt omschreven. | | Art. 17, § 1, punt f | | Middelgrote en grote ondernemingen en organisaties van openbaar belang vermelden in de toelichting bij de financiële overzichten, indien in de balans een voorziening voor uitgestelde belastingen is opgenomen, het saldo van de uitgestelde belastingen aan het einde van het boekjaar en de verschuivingen in dit saldo in de loop van het boekjaar.. | 
-| | | | | Art. 28 § 1 | | In de toelichting bij de geconsolideerde financiële overzichten [wordt] de in artikelen 16, 17 en 18 [van deze richtlijn] verlangde informatie vermeld. | 
-|---|---|---|---|---|---|---|
+| Zevende Richtlijn| Richtlijn 2013/34/EU|
+|---|---|
+| Balans|
+| Art. 29 § 4| In de geconsolideerde balans en winst - en verliesrekening wordt rekening gehouden met het verschil dat bij de consolidatie blijkt tussen de aan het boekjaar en de vorige boekjaren toe te rekenen belastingen en de met betrekking tot deze boekjaren betaalde of opgelegde belastingen, voor zover mag worden aangenomen dat daaruit voor een van de geconsolideerde ondernemingen in de afzienbare toekomst inderdaad kosten zullen voortvloeien.| Art. 24, § 13| Uitgestelde belastingen worden bij consolidatie opgenomen, voor zover mag worden aangenomen dat daaruit voor een van de in de consolidatie opgenomen ondernemingen in de nabije toekomst inderdaad een verschuldigdheid van de belasting zal voortvloeien.|
+| Art. 29, § 5| Wanneer uitsluitend voor de toepassing van de belastingwetgeving buitengewone waardecorrecties zijn uitgevoerd met betrekking tot in de consolidatie opgenomen activa, worden deze activa pas geconsolideerd nadat deze correcties ongedaan zijn gemaakt[^4] .| Art. 24, § 14| Indien uitsluitend voor de toepassing van de belastingwetgeving waardecorrecties zijn uitgevoerd met betrekking tot in de geconsolideerde financiële overzichten opgenomen activa, worden deze activa pas in de geconsolideerde financiële overzichten opgenomen nadat deze correcties ongedaan werden gemaakt[^5] .|
+| Toelichting|
+| Art. 34 § 11| De toelichting moet het verschil vermelden tussen de aan de geconsolideerde winst- en verliesrekening van het boekjaar en de vorige boekjaren toegerekende belastingen en de met betrekking tot deze boekjaren betaalde of opgelegde belastingen, voor zover dit verschil van wezenlijk belang is met het oog op in de toekomst te betalen belastingen. Dit bedrag kan ook gecumuleerd op de geconsolideerde balans worden opgenomen in een afzonderlijke post die dienovereenkomstig wordt omschreven. | Art. 17, § 1, punt f| Middelgrote en grote ondernemingen en organisaties van openbaar belang vermelden in de toelichting bij de financiële overzichten, indien in de balans een voorziening voor uitgestelde belastingen is opgenomen, het saldo van de uitgestelde belastingen aan het einde van het boekjaar en de verschuivingen in dit saldo in de loop van het boekjaar..|
+| | | Art. 28 § 1| In de toelichting bij de geconsolideerde financiële overzichten [wordt] de in artikelen 16, 17 en 18 [van deze richtlijn] verlangde informatie vermeld.|
 
 ## Inhoud van de toelichting bij de geconsolideerde jaarrekening betreffende de resultaten van het boekjaar en het vorige boekjaar zoals voorzien in artikel 165 KB W.Venn.
 Code 99084 uit de toelichting 5.14 mag niet verward worden met de toelichting 5.6 betreffende de berekeningsmethoden van belastinglatenties in code 168 van de geconsolideerde jaarrekening, Uitgestelde belastingen en belastinglatenties.
@@ -126,743 +98,623 @@ Een degressieve belastingafschrijving wordt vastgelegd voor 40 op basis van arti
 
 Boekhoudkundige afschrijving in 5 jaar
 
-  | 
+ |
 | 
 
 Jaren
 
-  | | 
-|---|
+ | 
 
 X
 
-  | | 
-|---|
+ | 
 
 X+1
 
-  | | 
-|---|
+ | 
 
 X+2
 
-  | | 
-|---|
+ | 
 
 X+3
 
-  | | 
-|---|
+ | 
 
 X+4
 
-  | 
+ |
 | 
 
 (Rest)waarde
 
-  | | 
-|---|
+ | 
 
 100
 
-  | | 
-|---|
+ | 
 
 80
 
-  | | 
-|---|
+ | 
 
 60
 
-  | | 
-|---|
+ | 
 
 40
 
-  | | 
-|---|
+ | 
 
 20
 
-  | 
+ |
 | 
 
 Afschrijving
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 20
 
-  | 
+ |
 | 
 
 Balans
 
-  | | 
-|---|
+ | 
 
 80
 
-  | | 
-|---|
+ | 
 
 60
 
-  | | 
-|---|
+ | 
 
 40
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 0
 
-  | 
-| | | | | | | | | | | | 
-|---|---|---|---|---|---|---|---|---|---|---|
+ |
+| | | | | | |
+|---|---|---|---|---|---|
 | 
 
 Boekhoudkundig resultaat
 
-  | 
+ |
 | 
 
 Jaren
 
-  | | 
-|---|
+ | 
 
 X
 
-  | | 
-|---|
+ | 
 
 X+1
 
-  | | 
-|---|
+ | 
 
 X+2
 
-  | | 
-|---|
+ | 
 
 X+3
 
-  | | 
-|---|
+ | 
 
 X+4
 
-  | 
+ |
 | 
 
 Opbrengsten
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
 50
 
-  | 
+ |
 | 
 
 Kosten (afschrijving)
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 20
 
-  | 
+ |
 | 
 
 Inkomsten voor belastingen
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 
-|---|
+ | 
 
 30
 
-  | 
+ |
 | 
 
 Belastingen (25%)
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | 
-| | | | | | | | | | | | 
-|---|---|---|---|---|---|---|---|---|---|---|
+ |
+| | | | | | |
+|---|---|---|---|---|---|
 | 
 
 Belastingafschrijving in 4 jaar
 
-  | 
+ |
 | 
 
 Jaren
 
-  | | 
-|---|
+ | 
 
 X
 
-  | | 
-|---|
+ | 
 
 X+1
 
-  | | 
-|---|
+ | 
 
 X+2
 
-  | | 
-|---|
+ | 
 
 X+3
 
-  | | 
-|---|
+ | 
 
 X+4
 
-  | 
+ |
 | 
 
 (Rest)waarde
 
-  | | 
-|---|
+ | 
 
 100
 
-  | | 
-|---|
+ | 
 
 60
 
-  | | 
-|---|
+ | 
 
 36
 
-  | | 
-|---|
+ | 
 
 16
 
-  | | 
-|---|
+ | 
 
 0
 
-  | 
+ |
 | 
 
 Afschrijving
 
-  | | 
-|---|
+ | 
 
 40
 
-  | | 
-|---|
+ | 
 
 24
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 16
 
-  | | 
-|---|
+ | 
 
 0
 
-  | 
+ |
 | 
 
 Balans
 
-  | | 
-|---|
+ | 
 
 60
 
-  | | 
-|---|
+ | 
 
 36
 
-  | | 
-|---|
+ | 
 
 16
 
-  | | 
-|---|
+ | 
 
 0
 
-  | | 
-|---|
+ | 
 
 0
 
-  | 
-| | | | | | | | | | | | 
-|---|---|---|---|---|---|---|---|---|---|---|
+ |
+| | | | | | |
+|---|---|---|---|---|---|
 | 
 
 Fiscaal resultaat
 
-  | 
+ |
 | 
 
 Jaren
 
-  | | 
-|---|
+ | 
 
 X
 
-  | | 
-|---|
+ | 
 
 X+1
 
-  | | 
-|---|
+ | 
 
 X+2
 
-  | | 
-|---|
+ | 
 
 X+3
 
-  | | 
-|---|
+ | 
 
 X+4
 
-  | 
+ |
 | 
 
 Opbrengsten
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
 50
 
-  | 
+ |
 | 
 
 Kosten (afschrijving)
 
-  | | 
-|---|
+ | 
 
 40
 
-  | | 
-|---|
+ | 
 
 24
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 16
 
-  | | 
-|---|
+ | 
 
 0
 
-  | 
+ |
 | 
 
 Resultaat voor belastingen
 
-  | | 
-|---|
+ | 
 
 10
 
-  | | 
-|---|
+ | 
 
 26
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 
-|---|
+ | 
 
 34
 
-  | | 
-|---|
+ | 
 
 50
 
-  | 
+ |
 | 
 
 Belastingen (25%)
 
-  | | 
-|---|
+ | 
 
 2,5
 
-  | | 
-|---|
+ | 
 
 6,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 8,5
 
-  | | 
-|---|
+ | 
 
 12,5
 
-  | 
-| | | | | | | | | | | | 
-|---|---|---|---|---|---|---|---|---|---|---|
+ |
+| | | | | | |
+|---|---|---|---|---|---|
 | 
 
 Actieve belastinglatenties
 
-  | 
+ |
 | 
 
 Jaren
 
-  | | 
-|---|
+ | 
 
 X
 
-  | | 
-|---|
+ | 
 
 X+1
 
-  | | 
-|---|
+ | 
 
 X+2
 
-  | | 
-|---|
+ | 
 
 X+3
 
-  | | 
-|---|
+ | 
 
 X+4
 
-  | 
+ |
 | 
 
 A[^9] 
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | 
+ |
 | 
 
 B[^10] 
 
-  | | 
-|---|
+ | 
 
 2,5
 
-  | | 
-|---|
+ | 
 
 6,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 8,5
 
-  | | 
-|---|
+ | 
 
 12,5
 
-  | 
+ |
 | 
 
 A-B
 
-  | | 
-|---|
+ | 
 
 5
 
-  | | 
-|---|
+ | 
 
 1
 
-  | | 
-|---|
+ | 
 
 0
 
-  | | 
-|---|
+ | 
 
 -1
 
-  | | 
-|---|
+ | 
 
 -5
 
-  | 
+ |
 | 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
- | 
+|
 | 
 
 Code 99084
 
-  | | 
-|---|
+ | 
 
 5
 
-  | | 
-|---|
+ | 
 
 6
 
-  | | 
-|---|
+ | 
 
 6
 
-  | | 
-|---|
+ | 
 
 5
 
-  | | 
-|---|
+ | 
 
 0
 
-  | 
+ |
 
 ### Passieve belastinglatenties
 Een degressieve boekhoudkundige afschrijving wordt vastgelegd voor 40 en wordt belasting afgeschreven in 5 jaar.
@@ -871,739 +723,620 @@ Een degressieve boekhoudkundige afschrijving wordt vastgelegd voor 40 en wordt b
 
 Boekhoudkundige afschrijving in 4 jaar
 
-  | 
+ |
 | 
 
 Jaren
 
-  | | 
-|---|
+ | 
 
 X
 
-  | | 
-|---|
+ | 
 
 X+1
 
-  | | 
-|---|
+ | 
 
 X+2
 
-  | | 
-|---|
+ | 
 
 X+3
 
-  | | 
-|---|
+ | 
 
 X+4
 
-  | 
+ |
 | 
 
 (Rest)waarde
 
-  | | 
-|---|
+ | 
 
 100
 
-  | | 
-|---|
+ | 
 
 60
 
-  | | 
-|---|
+ | 
 
 36
 
-  | | 
-|---|
+ | 
 
 16
 
-  | | 
-|---|
+ | 
 
 0
 
-  | 
+ |
 | 
 
 Afschrijving
 
-  | | 
-|---|
+ | 
 
 40
 
-  | | 
-|---|
+ | 
 
 24
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 16
 
-  | | 
-|---|
+ | 
 
 0
 
-  | 
+ |
 | 
 
 Balans
 
-  | | 
-|---|
+ | 
 
 60
 
-  | | 
-|---|
+ | 
 
 36
 
-  | | 
-|---|
+ | 
 
 16
 
-  | | 
-|---|
+ | 
 
 0
 
-  | | 
-|---|
+ | 
 
 0
 
-  | 
-| | | | | | | | | | | | 
-|---|---|---|---|---|---|---|---|---|---|---|
+ |
+| | | | | | |
+|---|---|---|---|---|---|
 | 
 
 Boekhoudkundig resultaat
 
-  | 
+ |
 | 
 
 Jaren
 
-  | | 
-|---|
+ | 
 
 X
 
-  | | 
-|---|
+ | 
 
 X+1
 
-  | | 
-|---|
+ | 
 
 X+2
 
-  | | 
-|---|
+ | 
 
 X+3
 
-  | | 
-|---|
+ | 
 
 X+4
 
-  | 
+ |
 | 
 
 Opbrengsten
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
 50
 
-  | 
+ |
 | 
 
 Kosten (afschrijving)
 
-  | | 
-|---|
+ | 
 
 40
 
-  | | 
-|---|
+ | 
 
 24
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 16
 
-  | | 
-|---|
+ | 
 
 0
 
-  | 
+ |
 | 
 
 Resultaat voor belastingen
 
-  | | 
-|---|
+ | 
 
 10
 
-  | | 
-|---|
+ | 
 
 26
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 
-|---|
+ | 
 
 34
 
-  | | 
-|---|
+ | 
 
 50
 
-  | 
+ |
 | 
 
 Belastingen (25%)
 
-  | | 
-|---|
+ | 
 
 2,5
 
-  | | 
-|---|
+ | 
 
 6,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 8,5
 
-  | | 
-|---|
+ | 
 
 12,5
 
-  | 
-| | | | | | | | | | | | 
-|---|---|---|---|---|---|---|---|---|---|---|
+ |
+| | | | | | |
+|---|---|---|---|---|---|
 | 
 
 Belastingafschrijving in 5 jaar
 
-  | 
+ |
 | 
 
 Jaren
 
-  | | 
-|---|
+ | 
 
 X
 
-  | | 
-|---|
+ | 
 
 X+1
 
-  | | 
-|---|
+ | 
 
 X+2
 
-  | | 
-|---|
+ | 
 
 X+3
 
-  | | 
-|---|
+ | 
 
 X+4
 
-  | 
+ |
 | 
 
 (Rest)waarde
 
-  | | 
-|---|
+ | 
 
 100
 
-  | | 
-|---|
+ | 
 
 80
 
-  | | 
-|---|
+ | 
 
 60
 
-  | | 
-|---|
+ | 
 
 40
 
-  | | 
-|---|
+ | 
 
 20
 
-  | 
+ |
 | 
 
 Afschrijving
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 20
 
-  | 
+ |
 | 
 
 Balans
 
-  | | 
-|---|
+ | 
 
 80
 
-  | | 
-|---|
+ | 
 
 60
 
-  | | 
-|---|
+ | 
 
 40
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 0
 
-  | 
-| | | | | | | | | | | | 
-|---|---|---|---|---|---|---|---|---|---|---|
+ |
+| | | | | | |
+|---|---|---|---|---|---|
 | 
 
 Fiscaal resultaat
 
-  | 
+ |
 | 
 
 Jaren
 
-  | | 
-|---|
+ | 
 
 X
 
-  | | 
-|---|
+ | 
 
 X+1
 
-  | | 
-|---|
+ | 
 
 X+2
 
-  | | 
-|---|
+ | 
 
 X+3
 
-  | | 
-|---|
+ | 
 
 X+4
 
-  | 
+ |
 | 
 
 Opbrengsten
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
 50
 
-  | | 
-|---|
+ | 
 
 50
 
-  | 
+ |
 | 
 
 Kosten (afschrijving)
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 20
 
-  | | 
-|---|
+ | 
 
 20
 
-  | 
+ |
 | 
 
 Resultaat voor belastingen
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 
-|---|
+ | 
 
 30
 
-  | | 
-|---|
+ | 
 
 30
 
-  | 
+ |
 | 
 
 Belastingen (25%)
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | 
-| | | | | | | | | | | | 
-|---|---|---|---|---|---|---|---|---|---|---|
+ |
+| | | | | | |
+|---|---|---|---|---|---|
 | 
 
 Passieve belastinglatenties
 
-  | 
+ |
 | 
 
 Jaren
 
-  | | 
-|---|
+ | 
 
 X
 
-  | | 
-|---|
+ | 
 
 X+1
 
-  | | 
-|---|
+ | 
 
 X+2
 
-  | | 
-|---|
+ | 
 
 X+3
 
-  | | 
-|---|
+ | 
 
 X+4
 
-  | 
+ |
 | 
 
 A
 
-  | | 
-|---|
+ | 
 
 2,5
 
-  | | 
-|---|
+ | 
 
 6,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 8,5
 
-  | | 
-|---|
+ | 
 
 12,5
 
-  | 
+ |
 | 
 
 B
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | | 
-|---|
+ | 
 
 7,5
 
-  | 
-| | | 
-|---|---|
+ |
+| | 
+|---|
 
 -5
 
-  | | 
-|---|
+ | 
 
 -1
 
-  | | 
-|---|
+ | 
 
 0
 
-  | | 
-|---|
+ | 
 
 1
 
-  | | 
-|---|
+ | 
 
 5
 
-  | 
+ |
 | 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
- | | 
-|---|
+| 
 
- | 
+|
 | 
 
  Code 99084
 
-  | | 
-|---|
+ | 
 
 -5 
 
-  | | 
-|---|
+ | 
 
 -6
 
-  | | 
-|---|
+ | 
 
 -6
 
-  | | 
-|---|
+ | 
 
 -5
 
-  | | 
-|---|
+ | 
 
 0
 
-  |
+ |
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 20 februari 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

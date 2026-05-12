@@ -6,38 +6,6 @@ gerelateerde_adviezen:
     titel: Omzet van expediteurs
     url: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
 nummer: CBN-advies 103
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
-      sha256: 9fe8f8368372e19e030cfb6ebe21f487d98bd122381c58765b829588ca177520
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:16:02Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 4389
-      file_size_chars: 4389
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Bug B3 (duplicate heading) is opgelost: body bevat één heading ''# CBN advies 103 - Omzet - Tussenpersonen''. Inhoud is volledig (uitgebreide analyse van makelaar/mandataris/commissionair). Geen artefacten, geen unicode-issues, geen broken markup. Ziet eruit als mens-geschreven.'
-      run_at: '2026-05-11T13:16:02Z'
-      status: trusted
-    rationale: 'Bug B3 (duplicate heading) is opgelost: body bevat één heading ''# CBN advies 103 - Omzet - Tussenpersonen''. Inhoud is volledig (uitgebreide analyse van makelaar/mandataris/commissionair). Geen artefacten, geen unicode-issues, geen broken markup. Ziet eruit als mens-geschreven.'
-    status: trusted
 themas:
   - commissionair
   - expediteur
@@ -47,8 +15,32 @@ themas:
   - omzet
   - reder
   - tussenpersoon
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:06Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN advies 103 - Omzet - Tussenpersonen
 Het koninklijk besluit van 8 oktober 1976 stelt als beginsel dat de resultatenrekening enerzijds de bruto-inkomsten moet vermelden en anderzijds de bruto-kosten en dat deze naar hun aard moeten worden onderverdeeld. 
 

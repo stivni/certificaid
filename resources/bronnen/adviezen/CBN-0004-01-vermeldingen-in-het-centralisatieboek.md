@@ -12,62 +12,34 @@ gerelateerde_adviezen:
     titel: Over het centraal boek
     url: https://www.cbn-cnc.be/nl/adviezen/over-het-centraal-boek
 nummer: CBN-advies 4/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
-      sha256: 8a7a28268d29da0fe3a1111a6ecb81357935da4c8cf8d0c1e63356b3cc2e3153
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T15:15:32Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 2831
-      file_size_chars: 2831
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: (source)
-          regel: 75
-          type: source-typo
-          voorbeeld: berokken rekeningen — source-typo voor 'betrokken'
-        - categorie: (source)
-          regel: 83
-          type: source-typo
-          voorbeeld: dee vermelding betrekking moet hebben ... wttelijke vereisten
-        - categorie: (source)
-          regel: 85
-          type: source-typo
-          voorbeeld: inschrijving in het centraisatieboek te beperken
-        - categorie: (source)
-          regel: 87
-          type: source-typo
-          voorbeeld: de bewegingn die elk ervan hebben ondergaan ... angegeven
-        - categorie: (source)
-          regel: 87
-          type: source-typo
-          voorbeeld: ondergaan -gelet op de moeilijkheid — U+2010 of gewoon koppelteken uit bron-HTML
-      rationale: Alle door vorige verdict gemelde tekstfouten (berokken, dee vermelding, wttelijke, centraisatieboek, bewegingn, angegeven) staan letterlijk in de bron-HTML en vallen onder de source-uitzondering. A4 (U+2010 in r87 'ondergaan -gelet') is eveneens een bron-karakter uit de CBN-website. Geen ETL-bugs gevonden buiten deze source-categorieën. Inhoud volledig, voetnoot intact.
-      run_at: '2026-05-11T15:15:32Z'
-      status: trusted
-    rationale: Alle door vorige verdict gemelde tekstfouten (berokken, dee vermelding, wttelijke, centraisatieboek, bewegingn, angegeven) staan letterlijk in de bron-HTML en vallen onder de source-uitzondering. A4 (U+2010 in r87 'ondergaan -gelet') is eveneens een bron-karakter uit de CBN-website. Geen ETL-bugs gevonden buiten deze source-categorieën. Inhoud volledig, voetnoot intact.
-    status: trusted
 themas:
   - boeken
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/vermeldingen-in-het-centralisatieboek
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:46:59Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 4-1 - Vermeldingen in het centralisatieboek
 
 **Dit advies is verouderd als gevolg van publicatie van het koninklijk besluit nr. 22 van 15 december 1978 (B.S. 4 januari 1979).**

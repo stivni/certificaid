@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van onder meer de rendementswaarborg voor werkgeversbijdragen in het kader van een aanvullende pensioentoezegging
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-onder-meer-de-rendementswaarborg-voor-werkgeversbijdragen
 nummer: CBN-advies 2018/25
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
-      sha256: fae8917bafe5586d4249c28f83de7d7832fe70ecfb8ef4148a3b0d3d54ce2689
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:27Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 38
-      max_section_chars: 16398
-      file_size_chars: 80015
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 33 headings, 12 praktische toepassingen elk met eigen subheading. Inhoud volledig coherent.'
-      run_at: '2026-05-08T19:02:27Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - voorziening
   - waarschijnlijke kost
@@ -73,8 +41,32 @@ themas:
   - lijfrente
   - milieu
   - aleatoire waardering
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:33Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
 ## Inleiding
@@ -530,8 +522,7 @@ Artikel 7/1, lid 3 van het koninklijk besluit van 21 oktober 1975 houdende opric
 
 In dit geval zet de heer Michel De Wolf, lid van de Commissie op voordracht van het Instituut van de Bedrijfsrevisoren, zijn afwijkende standpunt uiteen als volgt: 
 
-*“Het advies betreffende de voorzieningen zoals het is goedgekeurd, vormt zeker en vast een kwalitatief overzicht van de heersende posities in België over de meeste vragen met betrekking tot het begrip ‘voorzieningen’. Het advies vertoont echter ook een minimalistische benadering van de gevolgen die, volgens mij, zouden moeten voortvloeien uit de toevoeging door de wetgever van het volgend lid uit artikel 50 van het koninklijk besluit van 30 januari 2001: “Onverminderd artikel 33, § 1, vertegenwoordigt een voorziening op balansdatum de beste schatting van de kosten die als waarschijnlijk worden beschouwd of, in geval van een verplichting, de beste schatting van het bedrag dat vereist is om die verplichting op de balansdatum na te komen.” *
-
+## “Het advies betreffende de voorzieningen zoals het is goedgekeurd, vormt zeker en vast een kwalitatief overzicht van de heersende posities in België over de meeste vragen met betrekking tot het begrip ‘voorzieningen’. Het advies vertoont echter ook een minimalistische benadering van de gevolgen die, volgens mij, zouden moeten voortvloeien uit de toevoeging door de wetgever van het volgend lid uit artikel 50 van het koninklijk besluit van 30 januari 2001: “Onverminderd artikel 33, § 1, vertegenwoordigt een voorziening op balansdatum de beste schatting van de kosten die als waarschijnlijk worden beschouwd of, in geval van een verplichting, de beste schatting van het bedrag dat vereist is om die verplichting op de balansdatum na te komen.”
 *Deze toevoeging in het koninklijk besluit beoogt de omzetting van het laatste lid van artikel 12 van Richtlijn 2013/34 naar het Belgische recht, dat opgesteld is in een vergelijkbare bewoording.*
 
 *Inhoudelijk komt dit algemeen taalgebruik overeen met IAS 37.36: “Het bedrag dat als voorziening is opgenomen, dient de beste schatting te zijn van de uitgaven die vereist zijn om de bestaande verplichting op de balansdatum af te wikkelen.” Richtlijn 2013/34 heeft een grotere overeenstemming (en op bepaalde vlakken zelfs een sterkere convergentie) proberen te waarborgen met de internationale boekhoudkundige normen.*
@@ -540,8 +531,7 @@ In dit geval zet de heer Michel De Wolf, lid van de Commissie op voordracht van 
 
 *Het goedgekeurde advies voert overigens het concept in van “meer waarschijnlijk dan niet” van IAS 37 (zie in het bijzonder randnr. 19 van het advies), zonder evenwel tekstueel terug te vallen op de Richtlijn of het KB. Het voorzichtigheidsbeginsel in het Belgische boekhoudrecht stelt echter algemeen dat een voorziening geboekt moet worden om het hoofd te bieden aan een zeer waarschijnlijke kost, zelfs wanneer de waarschijnlijkheid geen 50,1% bedraagt. De verwijzing naar het principe “meer waarschijnlijk dan niet” dreigt sommige ondernemingen in moeilijkheden aan te moedigen zich hierachter te verschuilen om geen voorzieningen te moeten boeken in omstandigheden waarin de rechtsleer het boeken van voorzieningen tot nu toe als noodzakelijk beschouwde.*
 
-*Om voormelde redenen, moet ik, met het meeste respect, helaas afwijken van het goedgekeurde advies.”*
-
+## Om voormelde redenen, moet ik, met het meeste respect, helaas afwijken van het goedgekeurde advies.”
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 4 januari 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN. De heer Michel De Wolf, lid van de Commissie op voordracht van het Instituut van de Bedrijfsrevisoren, heeft tijdens de plenaire vergadering van de Commissie op 12 september 2018, bij vertegenwoordiging, meegedeeld een afwijkend standpunt te formuleren. De redenen hiertoe werden aan de Voorzitter kenbaar gemaakt op 8 oktober 2018 en opgenomen achteraan in onderhavig advies.
 
 [^2]: Artikel 24, eerste lid KB W.Venn.

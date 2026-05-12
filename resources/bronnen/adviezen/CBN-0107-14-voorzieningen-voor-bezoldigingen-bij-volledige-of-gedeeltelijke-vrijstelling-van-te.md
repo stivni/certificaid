@@ -15,46 +15,38 @@ gerelateerde_adviezen:
     titel: Fusies en splitsingen van vennootschappen met een negatief nettoactief
     url: https://www.cbn-cnc.be/nl/adviezen/fusies-en-splitsingen-van-vennootschappen-met-een-negatief-nettoactief
 nummer: CBN-advies 107/14
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-bezoldigingen-bij-volledige-of-gedeeltelijke-vrijstelling-van-te
-      sha256: 1eabea21ab422e78879e288e79149e258f9e929d26e42eb415da3c8d1786b8ed
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:30Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 5655
-      file_size_chars: 5655
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met nauwkeurige afbakening toepassingsgebied (enkel vaste individuele verbintenissen) en expliciete conclusie.'
-      run_at: '2026-05-08T19:02:30Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - herstructurering
   - voorziening
   - Voorziening voor bezoldiging bij volledige of gedeeltelijke vrijstelling van te leveren arbeidsprestaties
   - vrijstelling
   - Vrijstelling van te leveren arbeidsprestaties
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/voorzieningen-voor-bezoldigingen-bij-volledige-of-gedeeltelijke-vrijstelling-van-te
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:12Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 107/14 - Voorzieningen voor bezoldigingen bij volledige of gedeeltelijke vrijstelling van te leveren arbeidsprestaties
 
 In het raam van getroffen herstructureringsmaatregelen sluit een onderneming met sommige van haar personeelsleden, een individuele overeenkomst, waarbij zij hen voor de toekomst vrijstelt van alle of een deel van hun arbeidsprestaties, zonder daarbij hun bezoldiging proportioneel (of ongeveer proportioneel) te verlagen.

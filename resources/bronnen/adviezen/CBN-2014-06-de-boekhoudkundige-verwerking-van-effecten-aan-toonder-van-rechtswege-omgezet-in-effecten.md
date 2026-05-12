@@ -2,42 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten
 datum: 2014-04-23
 nummer: CBN-advies 2014/6
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten
-      sha256: 96a637b0198c56439326c067bc3fa16af11e8354f95f69eb043dfc588197858f
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 5
-      max_section_chars: 3079
-      file_size_chars: 7529
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 52
-          type: other
-          voorbeeld: op 1 januari 2014 — losstaand fragment na H1-heading (duplicaat van titelelement)
-      rationale: 'A6/B5 bevestigd: regel 52 bevat ''op 1 januari 2014'' als losstaande tekstregel direct na de H1-titel die dezelfde woorden al bevat — fragment van de volledige originele titel die door de scraper werd gesplitst. ETL-artefact, geen source-typo. Overige inhoud volledig en voetnoten correct.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'A6/B5 bevestigd: regel 52 bevat ''op 1 januari 2014'' als losstaande tekstregel direct na de H1-titel die dezelfde woorden al bevat — fragment van de volledige originele titel die door de scraper werd gesplitst. ETL-artefact, geen source-typo. Overige inhoud volledig en voetnoten correct.'
-    status: needs-rework
 themas:
   - aandelen aan toonder
   - aandelen op naam
@@ -45,8 +9,32 @@ themas:
   - effecten aan toonder
   - effecten op naam
   - gedematerialiseerde effecten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-effecten-aan-toonder-van-rechtswege-omgezet-in-effecten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:12Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2014/6 – De boekhoudkundige verwerking van effecten aan toonder van rechtswege omgezet in effecten op naam of in gedematerialiseerde effecten op 1 januari 2014
 
 ## Inleiding en onderwerp van het advies

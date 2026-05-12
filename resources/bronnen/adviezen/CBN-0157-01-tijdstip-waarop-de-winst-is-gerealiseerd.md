@@ -15,42 +15,6 @@ gerelateerde_adviezen:
     titel: Bestellingen in uitvoering
     url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering
 nummer: CBN-advies 157/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/tijdstip-waarop-de-winst-is-gerealiseerd
-      sha256: 947de518276cc54f43cb9d8fc1f073c58445cbd6a249cd913dcdacb205927dc1
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 1603
-      file_size_chars: 1603
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A3
-          regel: 66
-          type: other
-          voorbeeld: 'CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd '
-      rationale: 'Vorig verdict bevestigd. A3 r.66: volledige H1-titel ''CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd '' (met trailing spatie) herhaald als plain-text alinea direct na de H1-heading op r.64 — HTML-scrape-artefact. Inhoud overigens volledig en correct.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'Vorig verdict bevestigd. A3 r.66: volledige H1-titel ''CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd '' (met trailing spatie) herhaald als plain-text alinea direct na de H1-heading op r.64 — HTML-scrape-artefact. Inhoud overigens volledig en correct.'
-    status: needs-rework
 themas:
   - bestellingen in uitvoering
   - realisatie
@@ -59,8 +23,32 @@ themas:
   - tijdstip waarop winst is gerealiseerd
   - winstrealisatie
   - bestellingen in uitvoering
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/tijdstip-waarop-de-winst-is-gerealiseerd
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:43Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd
 
 CBN-advies 157/1 - Tijdstip waarop de winst is gerealiseerd 

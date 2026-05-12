@@ -9,38 +9,6 @@ gerelateerde_adviezen:
     titel: 'De vereenvoudigde boekhouding van een natuurlijke persoon, maatschap, vennootschap onder firma en commanditaire vennootschap: groottecriteria – omzetdefinitie'
     url: https://www.cbn-cnc.be/nl/adviezen/de-vereenvoudigde-boekhouding-van-een-natuurlijke-persoon-maatschap-vennootschap-onder
 nummer: CBN-advies 2024/06
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
-      sha256: 0b3cd75f6c92a1d6d6baeebc0d4500f100c1eea75a76911222ececfb827a2bea
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:24:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 0
-      max_section_chars: 3081
-      file_size_chars: 3081
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Zeer kort advies (~3100 chars). Layer1 meldt heading_count: 0 — het document heeft geen ## headings, enkel de # H1-titel, wat correct is voor een advies van één alinea. Geen extractie-artefacten. Voetnoten [^1]–[^4] volledig. Inhoud volledig voor het smalle onderwerp (VOF/CommV turboliquidatie en openbaarmakingsplicht).'
-      run_at: '2026-05-11T12:24:34Z'
-      status: trusted
-    rationale: 'Zeer kort advies (~3100 chars). Layer1 meldt heading_count: 0 — het document heeft geen ## headings, enkel de # H1-titel, wat correct is voor een advies van één alinea. Geen extractie-artefacten. Voetnoten [^1]–[^4] volledig. Inhoud volledig voor het smalle onderwerp (VOF/CommV turboliquidatie en openbaarmakingsplicht).'
-    status: trusted
 themas:
   - VOF
   - openbaarmaking
@@ -53,8 +21,32 @@ themas:
   - turboliquidatie
   - jaarrekening
   - ontbinding en vereffening in één akte
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/openbaarmakingsverplichtingen-in-hoofde-van-de-vennootschap-onder-firma-en-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:52Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2024/06 – Openbaarmakingsverplichtingen in hoofde van de vennootschap onder firma en de commanditaire vennootschap bij onmiddellijke sluiting van de vereffening
 
 De Commissie heeft zich met het CBN-advies 2022/06 – Verslaggeving bij onmiddellijke sluiting van de vereffening van een vennootschap uitgesproken over de verslaggeving die gepaard gaat met de procedure van onmiddellijke sluiting van de vereffening, zoals opgenomen in art. 2:80 WVV. Overeenkomstig art. 2:71, § 5 WVV is deze procedure ook van toepassing op een vennootschap onder firma (hierna: VOF) en een commanditaire vennootschap (hierna: CommV).[^2] 

@@ -15,45 +15,37 @@ gerelateerde_adviezen:
     titel: 'Kosten van onderzoek en ontwikkeling: wijzigingen door het koninklijk besluit van 18 december 2015'
     url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18
 nummer: CBN-advies 2016/27
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
-      sha256: 1b50873b4577c325e2182ab7060fa5d90cf7a0099b0c48dd815d76dae81f2ecf
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:16:34Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 2
-      max_section_chars: 753
-      file_size_chars: 1142
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Zeer kort advies (1144 chars) maar volledig en schoon. Twee ##-headings correct; geen voetnoten nodig; geen extractie-artefacten.'
-      run_at: '2026-05-11T12:16:34Z'
-      status: trusted
-    rationale: 'Zeer kort advies (1144 chars) maar volledig en schoon. Twee ##-headings correct; geen voetnoten nodig; geen extractie-artefacten.'
-    status: trusted
 themas:
   - immateriële vaste activa
   - kosten van onderzoek en ontwikkeling
   - onderzoekskost
   - ontwikkelingskost
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:21Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/27 – Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking
 
 ## Inleiding

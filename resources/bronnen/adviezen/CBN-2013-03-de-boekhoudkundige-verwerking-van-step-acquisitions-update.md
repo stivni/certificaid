@@ -15,54 +15,6 @@ gerelateerde_adviezen:
     titel: Consolidatie bij de horizontale groep (consortium)
     url: https://www.cbn-cnc.be/nl/adviezen/consolidatie-bij-de-horizontale-groep-consortium
 nummer: CBN-advies 2013/3
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-acquisitions-update
-      sha256: 416a6e032a3b9e9c52a207133ec7e93ef185e166cd850a9459913c5ebf538e62
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 4
-      max_section_chars: 6839
-      file_size_chars: 16097
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 85
-          type: other
-          voorbeeld: paragraaf I*I.A. Verhoging van belang in een geassocieerde onderneming*
-        - categorie: B5
-          regel: 89
-          type: other
-          voorbeeld: Verhoging van belang in een geassocieerde onderneming die na de verhoging nog steeds een geassocieerde onderneming blijft
-        - categorie: E2
-          regel: 139
-          type: other
-          voorbeeld: '| Overgedragen winst – lopend boekjaar *[Balans]* | | 16 | | |'
-        - categorie: B5
-          regel: 182
-          type: other
-          voorbeeld: Verhoging van belang in een geassocieerde onderneming, die na de verhoging een integraal geconsolideerde dochteronderneming wordt
-      rationale: 'D4: regel 85 bevat ''paragraaf I*I.A.'' waarbij een asterisk mid-woord een italic-blok opent dat de sectiereferentie ''II.A.'' verminkt. B5: regels 89–90 bevatten twee sectietitels als plain-text zonder ##-prefix (''Verhoging van belang in een geassocieerde onderneming die na de verhoging...''). E2: tabellen op regels 139–165 ontberen correcte |---|---| separator-rij en hebben inconsistent kolomaantal.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'D4: regel 85 bevat ''paragraaf I*I.A.'' waarbij een asterisk mid-woord een italic-blok opent dat de sectiereferentie ''II.A.'' verminkt. B5: regels 89–90 bevatten twee sectietitels als plain-text zonder ##-prefix (''Verhoging van belang in een geassocieerde onderneming die na de verhoging...''). E2: tabellen op regels 139–165 ontberen correcte |---|---| separator-rij en hebben inconsistent kolomaantal.'
-    status: needs-rework
 themas:
   - consolidatie
   - stapsgewijze verwerving
@@ -72,8 +24,32 @@ themas:
   - vermogensmutatiemethode
   - consolidatieverschil
   - belangen van derden
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-step-acquisitions-update
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:09Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2013/3 – De boekhoudkundige verwerking van step acquisitions (update)
 
 ## Inleiding
@@ -133,48 +109,48 @@ Deze verwerving wordt als volgt verwerkt in de geconsolideerde jaarrekening:
 | | Afschrijvingen op positieve consolidatieverschillen [Resultatenrekening] | 16 | | |
 | aan | Geboekte afschrijvingen op consolidatieverschillen [Balans] | | | 16 |
 
-| Overgedragen winst – lopend boekjaar *[Balans]* | | 16 | | | 
-|---|---|---|---|---|
-| aan | | Over te dragen winst *[Resultatenrekening]* | | | | 1 | 
+| Overgedragen winst – lopend boekjaar *[Balans]*| 16| |
+|---|---|---|
+| aan| Over te dragen winst *[Resultatenrekening]*| | 1|
 
 In 20X2, één jaar na de initiële verwerving, verhoogt de onderneming ABC haar belang in de geassocieerde onderneming DEF met 10 %. Ze betaalt hiervoor 100 daar waar de netto-activa op het ogenblik van deze bijkomende verwerving 800 bedragen.
 
 Dit impliceert dat op de tweede acquisitiedatum in de geconsolideerde jaarrekening volgend positief consolidatieverschil dient te worden erkend:
 
-| Investering 2 | | 100 | 
-|---|---|---|
-| Aandeel in netto-activa | | 80 (800 x 10 %) | 
-| Positief consolidatieverschil | | 20 | 
+| Investering 2| 100|
+|---|---|
+| Aandeel in netto-activa| 80 (800 x 10 %)|
+| Positief consolidatieverschil | 20|
 
 Deze bijkomende verwerving wordt als volgt verwerkt in de geconsolideerde jaarrekening:
 
-| Vennootschappen waarop vermogensmutatiemethode is toegepast *[Balans]* | | 80 | | | 
-|---|---|---|---|---|
-| Positieve consolidatieverschillen *[Balans]* | | 20 | | | 
-| aan | | Deelnemingen in ondernemingen waarmee een deelnemingsverhouding bestaat *[Balans]* | | | | 100 | 
+| Vennootschappen waarop vermogensmutatiemethode is toegepast *[Balans]*| 80| |
+|---|---|---|
+| Positieve consolidatieverschillen *[Balans]* | 20| |
+| aan| Deelnemingen in ondernemingen waarmee een deelnemingsverhouding bestaat *[Balans]*| | 100|
 
 Daarnaast wordt het positieve consolidatieverschil over 5 jaar afgeschreven:
 
-| Afschrijvingen op positieve consolidatieverschillen *[Resultatenrekening]* | | 4 | | | 
-|---|---|---|---|---|
-| aan | | Geboekte afschrijvingen op consolidatieverschillen *[Balans]* | | | | 4 | 
-| Overgedragen winst – lopend boekjaar *[Balans]* | | 4 | | | 
-| aan | | Over te dragen winst *[Resultatenrekening]* | | | | 4 | 
+| Afschrijvingen op positieve consolidatieverschillen *[Resultatenrekening]*| 4| |
+|---|---|---|
+| aan| Geboekte afschrijvingen op consolidatieverschillen *[Balans]*| | 4|
+| Overgedragen winst – lopend boekjaar *[Balans]*| 4| |
+| aan| Over te dragen winst *[Resultatenrekening]*| | 4|
 
 Het positieve consolidatieverschil, dat werd erkend n.a.v. de initiële verwerving, dient tevens verder te worden afgeschreven in 20X2.
 
 Samengevat kan worden gesteld dat op het einde van het boekjaar 20X2 de geconsolideerde jaarrekening van ABC met betrekking tot haar belang in geassocieerde onderneming DEF, als volgt kan worden weergegeven:
 
-| | | | | Investering | | Investering | | ∑ | 
-|---|---|---|---|---|---|---|---|---|
-| | | | | 1 | | 2 | | | 
-| Positieve consolidatieverschillen - Aanschaffingswaarde [*Balans*] | | | | 80 | | 20 | | 100 | 
-| | | | | | | | | | 
-| Afschrijvingen op positieve consolidatieverschillen [*Balans*] | | 2011 | | 16 | | | | 16 | 
-| | | 2012 | | 16 | | 4 | | 20 | 
-| | | | | | | | | | 
-| Netto boekwaarde positieve consolidatieverschillen [*Balans*] | | 2011 | | 64 | | | | 64 | 
-| | | 2012 | | 48 | | 16 | | 64 | 
+| | | Investering| Investering| ∑|
+|---|---|---|---|---|
+| | | 1| 2| |
+| Positieve consolidatieverschillen - Aanschaffingswaarde [*Balans*]| | 80| 20| 100|
+| | | | | |
+| Afschrijvingen op positieve consolidatieverschillen [*Balans*]| 2011| 16| | 16|
+| | 2012| 16| 4| 20|
+| | | | | |
+| Netto boekwaarde positieve consolidatieverschillen [*Balans*]| 2011| 64| | 64|
+| | 2012| 48| 16| 64|
 
 Verhoging van belang in een geassocieerde onderneming, die na de verhoging een integraal geconsolideerde dochteronderneming wordt
 De overgang van een geassocieerde onderneming naar een integraal geconsolideerde dochteronderneming impliceert de overgang van de vermogensmutatiemethode naar de integrale consolidatiemethode. 
@@ -193,12 +169,12 @@ De Commissie is de mening toegedaan dat het mogelijk moet zijn om, in het kader 
 ## Voorbeeld 2
 De onderneming TTT[^16] verwerft op 1 januari 20X1 een belang van 30 % in de onderneming UUU voor 5.000. De balans van onderneming UUU is op acquisitiedatum als volgt:
 
-| Balans UUU op 1 januari 2011 | 
+| Balans UUU op 1 januari 2011|
 |---|
-| Gebouwen | | 4.000 | | Kapitaal | | 6.000 | 
-| Vorderingen | | 3.000 | | Reserves | | 3.000 | 
-| Liquide middelen | | 2.000 | | | | | 
-| | | 9.000 | | | | 9.000 | 
+| Gebouwen| 4.000| Kapitaal| 6.000|
+| Vorderingen| 3.000| Reserves| 3.000|
+| Liquide middelen| 2.000| | |
+| | 9.000| | 9.000|
 
 De verwerving van de initiële 30 % wordt als volgt verwerkt in de geconsolideerde balans van TTT:
 
@@ -212,12 +188,12 @@ Voor de boekhoudkundige verwerking in de geconsolideerde balans van onderneming 
 
 Het resultaat van het boekjaar, afgesloten op 31 december 20X1, ten belope van 5.000 werd integraal aan de reserves toegevoegd, hetgeen leidt tot volgende balans per 31 december 20X1:
 
-| Balans UUU op 31 december 2011 | 
+| Balans UUU op 31 december 2011|
 |---|
-| Gebouwen | | 4.000 | | Kapitaal | | 6.000 | 
-| Vorderingen | | 3.000 | | Reserves | | 8.000 | 
-| Liquide middelen | | 7.000 | | | | | 
-| | | 14.000 | | | | 14.000 | 
+| Gebouwen| 4.000| Kapitaal| 6.000|
+| Vorderingen| 3.000| Reserves| 8.000|
+| Liquide middelen| 7.000| | |
+| | 14.000| | 14.000|
 
 Op 1 januari 20X2 verwerft TTT een bijkomend belang in UUU van 40 % voor een bedrag van 8.000.
 

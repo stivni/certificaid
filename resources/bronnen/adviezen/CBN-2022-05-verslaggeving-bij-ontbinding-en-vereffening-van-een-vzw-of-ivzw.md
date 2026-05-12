@@ -15,42 +15,6 @@ gerelateerde_adviezen:
     titel: Going concern - Waarderingsregels bij de stopzetting of gedeeltelijke stopzetting van het bedrijf van een onderneming
     url: https://www.cbn-cnc.be/nl/adviezen/going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het
 nummer: CBN-advies 2022/05
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
-      sha256: 8cd05b05f7a5bb251084598b2bde8a816f7753a58592dd89cc82f1ac4b3a8a3b
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:31Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 14
-      max_section_chars: 19921
-      file_size_chars: 33381
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D2
-          regel: 200
-          type: missing-section
-          voorbeeld: 'Schematisch kunnen de volgende termijnen worden onderscheiden: [tijdslijn-schema ontbreekt]'
-      rationale: 'D2: regel 200 kondigt ''Schematisch kunnen de volgende termijnen worden onderscheiden:'' aan maar het schema ontbreekt — identiek patroon als in CBN-2022-04. Ronde-3 herlezing: het eerder gemelde A3 TOC-fragment is niet aanwezig; de bullet-lijst op regels 101-107 is correcte document-inhoud (ontbindingsvormen), geen TOC-duplicaat.'
-      run_at: '2026-05-11T17:13:31Z'
-      status: needs-rework
-    rationale: 'D2: regel 200 kondigt ''Schematisch kunnen de volgende termijnen worden onderscheiden:'' aan maar het schema ontbreekt — identiek patroon als in CBN-2022-04. Ronde-3 herlezing: het eerder gemelde A3 TOC-fragment is niet aanwezig; de bullet-lijst op regels 101-107 is correcte document-inhoud (ontbindingsvormen), geen TOC-duplicaat.'
-    status: needs-rework
 themas:
   - verslaggeving
   - ontbinding
@@ -82,8 +46,32 @@ themas:
   - stukken tot staving
   - dossier van de rechtspersoon
   - inzagerecht
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verslaggeving-bij-ontbinding-en-vereffening-van-een-vzw-of-ivzw
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:46Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2022/05 - Verslaggeving bij ontbinding en vereffening van een VZW of IVZW
 
 Aan de Commissie werd de vraag gesteld welke verslaggevingsverplichtingen moeten worden nageleefd bij de ontbinding, gedurende de vereffening en bij de sluiting van de vereffening van VZW’s en IVZW’s onder het Wetboek van Vennootschappen en Verenigingen[^2] (hierna: het WVV). In dit advies wordt bijgevolg de ontbinding van VZW’s en IVZW’s behandeld die gevolgd wordt door een daadwerkelijke vereffeningsperiode. De ontbinding en vereffening van VZW’s en IVZW’s in één akte maakt het voorwerp uit van een afzonderlijk advies van de Commissie[^3].

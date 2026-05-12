@@ -15,43 +15,35 @@ gerelateerde_adviezen:
     titel: Afschrijvingsmethoden
     url: https://www.cbn-cnc.be/nl/adviezen/afschrijvingsmethoden
 nummer: CBN-advies 112/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/ontoereikendheid-van-de-afschrijvingen-geboekt-voor-de-inwerkingtreding-van-het-koninklijk
-      sha256: a93d98199916e7a901fd9db4c3d36711799697c6d89d5d05881536b599775dcf
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:45Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 3814
-      file_size_chars: 3814
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Advies van 3814 tekens zonder interne headings — inhoudelijk correct als doorlopende redenering. Vier coherente alinea's, volledig en afgerond. Geen artefacten, geen spurious breaks, geen Unicode-resten. Frontmatter consistent met inhoud.
-      run_at: '2026-05-11T11:57:45Z'
-      status: trusted
-    rationale: Advies van 3814 tekens zonder interne headings — inhoudelijk correct als doorlopende redenering. Vier coherente alinea's, volledig en afgerond. Geen artefacten, geen spurious breaks, geen Unicode-resten. Frontmatter consistent met inhoud.
-    status: trusted
 themas:
   - afschrijvingen
   - ontoereikendheid van de afschrijvingen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/ontoereikendheid-van-de-afschrijvingen-geboekt-voor-de-inwerkingtreding-van-het-koninklijk
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:16Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 112/2 - Ontoereikendheid van de afschrijvingen geboekt vóór de inwerkingtreding van het Koninklijk Besluit van 8 oktober 1976
 
 Aan de Commissie werd de volgende vraag gesteld : “Moeten afschrijvingen, waardeverminderingen en voorzieningen wegens risico's met betrekking tot de vroegere boekjaren die echter, bij gebrek aan voldoende rendabiliteit of om fiscale redenen, niet in de loop van die boekjaren werden geboekt, aangerekend worden op de eerste jaarrekening waarop het koninklijk besluit van 8 oktober 1976 van toepassing is?”

@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van moratoriuminterest
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-moratoriuminterest
 nummer: CBN-advies 146/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/belastingschulden-sociale-schulden-verwijlinteresten
-      sha256: 6836f813cb9e20ab3653815ed5695914555babca0b507bcfa20df8d76fbd3a44
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 4260
-      file_size_chars: 4260
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Eén voetnoot correct aanwezig. Italic *pro rata temporis* en cursief-labels voor passiefrubriek correct gesloten. Genummerde paragrafenstructuur (1./2.) is consistent met Belgische adviesstijl. Geen artefacten.
-      run_at: '2026-05-11T12:04:41Z'
-      status: trusted
-    rationale: Eén voetnoot correct aanwezig. Italic *pro rata temporis* en cursief-labels voor passiefrubriek correct gesloten. Genummerde paragrafenstructuur (1./2.) is consistent met Belgische adviesstijl. Geen artefacten.
-    status: trusted
 themas:
   - belastingen
   - belastingschuld
@@ -54,8 +22,32 @@ themas:
   - sociale schulden
   - toelichting
   - verwijlintresten
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/belastingschulden-sociale-schulden-verwijlinteresten
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:36Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 146/1 - Belastingschulden - Sociale schulden : verwijlinteresten
 
 Als een schuld tegenover een belastingbestuur of de RSZ niet op de vervaldag is betaald, is de debiteur van rechtswege verwijlinteresten verschuldigd die worden berekend volgens de wettelijke bepaalde modaliteiten en tarieven[^1].

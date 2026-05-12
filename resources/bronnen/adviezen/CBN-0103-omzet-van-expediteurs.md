@@ -6,38 +6,6 @@ gerelateerde_adviezen:
     titel: Omzet - Tussenpersonen
     url: https://www.cbn-cnc.be/nl/adviezen/omzet-tussenpersonen
 nummer: CBN-advies 103/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
-      sha256: 0fcedc7f243f950032bc4e7d023cbbc343cbbdbd46b67fc118a0782b048bf7c0
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:16:02Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 3951
-      file_size_chars: 3951
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Bugs B3 (duplicate heading) en D4 (gebroken italic ''*Bulletin *'') zijn beide opgelost: body bevat één heading op regel 58 en ''*Bulletin*'' is correct gesloten op regel 60. Inhoud is volledig met voetnoten en antwoord van de Minister. Ziet eruit als mens-geschreven.'
-      run_at: '2026-05-11T13:16:02Z'
-      status: trusted
-    rationale: 'Bugs B3 (duplicate heading) en D4 (gebroken italic ''*Bulletin *'') zijn beide opgelost: body bevat één heading op regel 58 en ''*Bulletin*'' is correct gesloten op regel 60. Inhoud is volledig met voetnoten en antwoord van de Minister. Ziet eruit als mens-geschreven.'
-    status: trusted
 themas:
   - commissionair
   - expediteur
@@ -45,8 +13,32 @@ themas:
   - omzet
   - mandataris
   - tussenpersoon
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/omzet-van-expediteurs
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:06Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN advies 103/2 - Omzet van expediteurs
 In het *Bulletin* van de Commissie voor Boekhoudkundige Normen nr. 1 van augustus 1977, blz. 12 tot en met 14, heeft hoger vermeld orgaan zich uitgesproken over het op te geven omzetcijfer door tussenpersonen. 
 

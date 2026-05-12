@@ -2,54 +2,38 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
 datum: 2018-03-21
 nummer: CBN-advies 2018/02
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
-      sha256: 03181e2a0d186a99b17dcc95fb7356e567d8df51b94f9e4f9f905c617969f555
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 13
-      max_section_chars: 5210
-      file_size_chars: 12876
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: A6
-          regel: 136
-          type: other
-          voorbeeld: "| aan | 67/77 | Belastingen op het resultaat/Regularisering van\n\t\t\t\tbelastingen en terugneming van fiscale voorzieningen"
-        - categorie: D4
-          regel: 57
-          type: other
-          voorbeeld: '*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit'
-      rationale: 'A6/E2: regel 136-137 bevat een gebroken tabelcel — ''Regularisering van\n\t\t\t\tbelastingen en terugneming van fiscale voorzieningen'' met tab-inspringing op de vervolgregels, wat de tabelstructuur breekt. D4: regel 57 heeft ''*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit'' waarbij na de dubbele punt een tweede afzonderlijke italic-span opent, door PDF-conversie.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'A6/E2: regel 136-137 bevat een gebroken tabelcel — ''Regularisering van\n\t\t\t\tbelastingen en terugneming van fiscale voorzieningen'' met tab-inspringing op de vervolgregels, wat de tabelstructuur breekt. D4: regel 57 heeft ''*Kosten van onderzoek en ontwikkeling:* *wijzigingen door het koninklijk besluit'' waarbij na de dubbele punt een tweede afzonderlijke italic-span opent, door PDF-conversie.'
-    status: needs-rework
 themas:
   - belastingkrediet
   - belasting
   - kosten van onderzoek en ontwikkeling
   - onderzoek en ontwikkeling
   - investeringsaftrek
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/belastingkrediet-voor-kosten-van-onderzoek-en-ontwikkeling
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:28Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/02 – Belastingkrediet voor kosten van onderzoek en ontwikkeling
 
 ## Inleiding

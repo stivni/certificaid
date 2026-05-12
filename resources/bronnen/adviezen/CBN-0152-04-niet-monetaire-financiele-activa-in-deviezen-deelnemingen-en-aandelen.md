@@ -15,38 +15,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-dekkingsverrichtingen-en-gedekte-posities-in-aandelen
 nummer: CBN-advies 152/4
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/niet-monetaire-financiele-activa-in-deviezen-deelnemingen-en-aandelen
-      sha256: e1834b1a69fa11fccade18a815f1a1e41c13395bb3370341dab7d41e3cf3b025
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:30Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 6144
-      file_size_chars: 6144
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] Volledig met principe BEF-aanschaffingswaarde, toets waardevermindering/herwaardering, omrekening actuele waarde.'
-      run_at: '2026-05-08T19:02:30Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - deelneming
   - deelnemingen in deviezen
@@ -62,8 +30,32 @@ themas:
   - wisselverrichting
   - aandelen
   - aandelen in deviezen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/niet-monetaire-financiele-activa-in-deviezen-deelnemingen-en-aandelen
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:42Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 152/4 - Niet-monetaire financiële activa in deviezen (deelnemingen en aandelen)
 
 Naar aanleiding van haar advies over de boekhoudkundige verwerking van vreemde valuta[^1] werd de Commissie ondervraagd over de wijze waarop de in dit advies geformuleerde beginselen moeten worden toegepast op de waardering van niet-monetaire financiële activa in deviezen (deelnemingen en aandelen). De Commissie heeft hieromtrent volgend aanvullend advies uitgebracht.

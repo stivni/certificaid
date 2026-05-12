@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis
 datum: 2010-01-13
 nummer: CBN-advies 2010/1
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis
-      sha256: f8cb0768ae41a60178408e84719465b10aa085621e8b1f65eda22c87b97a02e3
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T21:31:11Z'
-    confirmed_by: human
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 7
-      max_section_chars: 9085
-      file_size_chars: 13736
-      flags: []
-    layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Herscraped na fix select_title(): gecombineerde H1 (COMMISSIE + titel) correct gesplitst. Inhoud ongewijzigd t.o.v. vorig vertrouwd verdict. Laag 1 pass (of benign max_section warn).'
-    status: trusted
 themas:
   - buiten normale marktvoorwaarden
   - corporate governance
@@ -41,8 +9,32 @@ themas:
   - transactie buiten normale marktvoorwaarden
   - transactie met verbonden partijen
   - transactie van enige betekenis
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-interpretatie-van-de-openbaarmakingsverplichting-van-transacties-van-enige-betekenis
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:54Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2010/1 - De interpretatie van de openbaarmakingsverplichting van transacties van enige betekenis met verbonden partijen buiten normale marktvoorwaarden, zoals bepaald in het koninklijk besluit van 10 augustus 2009
 
 Via het Koninklijk besluit van 10 augustus 2009 (*B.S*., 24.08.2009) is in intern Belgisch algemeen jaarrekeningenrecht voorzien in de omzetting van artikelen 1, 6) en 2, 1) van Richtlijn 2006/46/EG van het Europees Parlement en de Raad van 14 juni 2006 tot wijziging van de Richtlijnen 78/660/EEG van de Raad betreffende de jaarrekening van bepaalde vennootschapsvormen, 83/349/EEG van de Raad betreffende de geconsolideerde jaarrekening, 86/635/EEG van de Raad betreffende de jaarrekening en de geconsolideerde jaarrekening van banken en andere financiële instellingen en 91/674/EEG van de Raad betreffende de jaarrekening en de geconsolideerde jaarrekening van verzekeringsondernemingen (Publicatieblad van de Europese Unie, L 224/1, 16.08.2006).

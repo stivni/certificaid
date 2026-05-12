@@ -9,51 +9,35 @@ gerelateerde_adviezen:
     titel: Het begrip &quot;financiële instelling&quot;
     url: https://www.cbn-cnc.be/nl/adviezen/het-begrip-financiele-instelling
 nummer: CBN-advies 16/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-de-wet-op-financiele-instellingen-kredietinstellingen-die-onder-de
-      sha256: f8e4652436db7b0cecba38ff5200255e61355b17c7d905b26369463da1ad4923
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:20Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 1668
-      file_size_chars: 1668
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: G2
-          regel: 9
-          type: other
-          voorbeeld: 'titel: Het begrip &quot;financiële instelling&quot; — HTML-entity niet gedecode in YAML'
-        - categorie: (source)
-          regel: 63
-          type: source-typo
-          voorbeeld: ondernemingen die onder de toepassing valln van het koninklijk besluit nr. 64
-      rationale: Frontmatter regel 9 bevat ongeparseerde HTML-entity '&quot;' in de YAML-waarde van gerelateerde_adviezen[1].titel ('Het begrip &quot;financiële instelling&quot;') — dit is een ETL-bug (HTML niet gedecode), geen source-typo. De typo 'valln' op regel 63 in de body-tekst is een source-typo (staat letterlijk op de CBN-website). Body zelf is verder volledig en clean.
-      run_at: '2026-05-11T17:05:20Z'
-      status: needs-rework
-    rationale: Frontmatter regel 9 bevat ongeparseerde HTML-entity '&quot;' in de YAML-waarde van gerelateerde_adviezen[1].titel ('Het begrip &quot;financiële instelling&quot;') — dit is een ETL-bug (HTML niet gedecode), geen source-typo. De typo 'valln' op regel 63 in de body-tekst is een source-typo (staat letterlijk op de CBN-website). Body zelf is verder volledig en clean.
-    status: needs-rework
 themas:
   - financiële instelling
   - kredietinstelling
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/toepassing-van-de-wet-op-financiele-instellingen-kredietinstellingen-die-onder-de
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:01Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 16-1 Toepassing van de wet op financiële instellingen - Kredietinstellingen die onder de toepassing vallen van een bijzondere wet
 
 Dit advies is verouderd als gevolg van de aangebrachte wijzigingen aan de betrokken bepalingen, actueel artikel 15 van de wet

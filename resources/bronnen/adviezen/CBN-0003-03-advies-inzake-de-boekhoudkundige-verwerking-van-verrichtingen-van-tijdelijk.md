@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk
 datum: 2008-01-31
 nummer: CBN-advies 3/3
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk
-      sha256: ce71fe8e4f9b9100e75abec5685775f52a3886600e87139cabfc6a58c9a1d4e5
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:27Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 53
-      max_section_chars: 16271
-      file_size_chars: 82689
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 51 headings met duidelijke hiërarchie per integratiemethode. De grote sectie bevat geneste voorbeelden maar alle methoden zijn volledig uitgewerkt.'
-      run_at: '2026-05-08T19:02:27Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - eliminatie
   - geassocieerde onderneming
@@ -46,8 +14,32 @@ themas:
   - uitgebreide equivalentiemethode
   - waarderingsregels
   - waarderingsregels in de tijdelijke handelsvennootschap
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/advies-inzake-de-boekhoudkundige-verwerking-van-verrichtingen-van-tijdelijk
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:46:58Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # ADVIES 3-3 - INZAKE DE BOEKHOUDKUNDIGE VERWERKING VAN VERRICHTINGEN VAN TIJDELIJKE HANDELSVENNOOTSCHAPPEN
 ## INLEIDING
 Voor veel ondernemingen is de tijdelijke handelsvennootschap een weliswaar veelvuldig gebruikte rechtsfiguur om diverse werkzaamheden uit te voeren, vooral - maar niet uitsluitend - in de bouwsector, maar men kan bezwaarlijk ontkennen dat het juridisch en boekhoudkundig regelgevend kader dat geldt voor de tijdelijke handelsvennootschap - waarschijnlijk als gevolg van de ruime contractuele vrijheid die de wetgever daaraan heeft willen verbinden - vaag is en derhalve een bron van talrijke onzekerheden is.
@@ -422,32 +414,32 @@ Bij het opstarten van een tijdelijke handelsvennootschap kennen de twee vennoten
 
 Dan ziet de balans van de vennoten er als volgt uit (gemakshalve in 000 € voorgesteld):
 
-| DEELGENOOT A DEELGENOOT B | 
+| DEELGENOOT A DEELGENOOT B|
 |---|
-| Voorschot | | | | Voorschot | | | 
-| aan THV | | 60 | | aan THV | | 40 | 
+| Voorschot| | Voorschot| |
+| aan THV| 60| aan THV| 40|
 
 En de balans van de tijdelijke handelsvennootschap als volgt:
 
-| TIJDELIJKE HANDELSVENNOOTSCHAP | 
+| TIJDELIJKE HANDELSVENNOOTSCHAP|
 |---|
-| | | | | Ontvangen voorschot A | | 60 | 
-| | | | | Ontvangen voorschot B | | 40 | 
-| | | | | | | 100 | 
+| | | Ontvangen voorschot A| 60|
+| | | Ontvangen voorschot B| 40|
+| | | | 100|
 
 Wat na de integratie bij deelgenoot A leidt tot:
 
-| DEELGENOOT A | 
+| DEELGENOOT A|
 |---|
-| Voorschot toegestaan | | | | Door THV | | | 
-| aan THV | | 60 | | ontvangen voorschot | | 60 | 
+| Voorschot toegestaan| | Door THV| |
+| aan THV| 60| ontvangen voorschot| 60|
 
 En bij deelgenoot B het volgende geeft: 
 
-| DEELGENOOT B | 
+| DEELGENOOT B|
 |---|
-| Voorschot toegestaan | | | | Door THV | | | 
-| aan THV | | 40 | | ontvangen voorschot | | 40 | 
+| Voorschot toegestaan| | Door THV| |
+| aan THV| 40| ontvangen voorschot| 40|
 
 De eliminatie bestaat erin de vordering uit hoofde van het toegestane voorschot en de schuld die vanuit de tijdelijke handelsvennootschap werd geïntegreerd, af te boeken.
 
@@ -458,39 +450,39 @@ Indien er wordt uitgegaan van het voorgaande voorbeeld met een 60 % - 40 % verho
 
 Bij de partners wordt het toegestane voorschot geboekt: 
 
-| DEELGENOOT A DEELGENOOT B | 
+| DEELGENOOT A DEELGENOOT B|
 |---|
-| Voorschot aan | | | | voorschot aan | | | 
-| de THV | | 80 | | de THV | | 20 | 
+| Voorschot aan| | voorschot aan| |
+| de THV| 80| de THV| 20|
 
 En bij de tijdelijke handelsvennootschap de ontvangen voorschotten: 
 
-| TIJDELIJKE HANDELSVENNOOTSCHAP | 
+| TIJDELIJKE HANDELSVENNOOTSCHAP|
 |---|
-| | | | | Ontvangen voorschot A | | 80 | 
-| | | | | Ontvangen voorschot B | | 20 | 
-| | | | | | | 100 | 
+| | | Ontvangen voorschot A| 80|
+| | | Ontvangen voorschot B| 20|
+| | | | 100|
 
 Wat na integratie in de rekeningen van de deelgenoten het volgende beeld geeft bij deelgenoot A: 
 
-| DEELGENOOT A | 
+| DEELGENOOT A|
 |---|
-| Voorschot toegestaan aan de THV | | 80 | | Proportioneel aandel in ontvangen voorschotten | | | 
-| | | | | 60% X 100 = | | 60 | 
+| Voorschot toegestaan aan de THV| 80| Proportioneel aandel in ontvangen voorschotten| |
+| | | 60% X 100 =| 60|
 
 En bij deelgenoot B: 
 
-| DEELGENOOT B | 
+| DEELGENOOT B|
 |---|
-| Voorschot toegestaan aan de THV | | 20 | | proportioneel aandeel in ontvangen voorschotten | | | 
-| | | | | 40% X 100 = | | 40 | 
+| Voorschot toegestaan aan de THV| 20| proportioneel aandeel in ontvangen voorschotten| |
+| | | 40% X 100 = | 40|
 
 De eliminatie zal in dit geval beperkt blijven tot het schrappen van het kleinste bedrag van de twee, wat betekent dat in de rekeningen van de twee deelgenoten, zelfs na eliminatie, een saldo zal blijven openstaan, dat overeenstemt met het excedent dat partner A heeft toegestaan, en het tekort dat deelgenoot B niet heeft voorgeschoten: 
 
-| DEELGENOOT A DEELGENOOT B | 
+| DEELGENOOT A DEELGENOOT B|
 |---|
-| netto saldo aan toegekend voorschot | | | | netto saldo aan ontvangen voorschot | | | 
-| 80-60 = | | 20 | | 40-20 = | | 20 | 
+| netto saldo aan toegekend voorschot| | netto saldo aan ontvangen voorschot| |
+| 80-60 =| 20| 40-20 =| 20|
 
 ###### Toe te passen op welke balansposten?
 De voorgaande voorbeelden illustreren de eliminatietechniek die wordt toegepast op de toegestane voorschotten aan tijdelijke handelsvennootschappen, alsmede op de door deze tijdelijke handelsvennootschappen uitgekeerde geldoverschotten.
@@ -518,56 +510,48 @@ Een belangrijke vaststelling is dat:
 ###### Voorbeeld
 Er wordt uitgegaan van een tijdelijke handelsvennootschap met twee deelgenoten die een samenwerkingsovereenkomst hebben afgesloten met een 60 % - 40 % verhouding waarbij de hoofdpartner eigen personeel tewerkstelt en de minderheidspartner enkel werkt via onderaanneming:
 
-| DEELGENOOT A | 
+| DEELGENOOT A|
 |---|
-| Arbeiders | | 80 | | Omzet | | 100 | 
-| Afschrijvingen | | 10 | | | | | 
-| | | 90 | | | | 100 | 
-| **Winst** | | **10** | | | | | 
+| Arbeiders| 80| Omzet| 100|
+| Afschrijvingen| 10| | |
+| | 90| | 100|
+| **Winst**|** 10**| | |
 
-| DEELGENOOT B | 
+| DEELGENOOT B|
 |---|
-| Onder-aannemingen | | 180 | | Omzet | | 200 | 
-| Diensten | | 10 | | | | | 
-| | | 190 | | | | 200 | 
-| **Winst** | | **190** | | | | | 
+| Onder-aannemingen| 180| Omzet| 200|
+| Diensten| 10| | |
+| | 190| | 200|
+| **Winst**|** 190**| | |
 
 Indien, naast de onderaanneming toevertrouwd aan de deelgenoten, de tijdelijke handelsvennootschap nog eigen loonkosten heeft en hierop nog marge genereert, kan de resultatenrekening er als volgt uitzien: 
 
-| TIDELIJKE HANDELSVENNOOTSCHAP | 
+| TIDELIJKE HANDELSVENNOOTSCHAP|
 |---|
-| Onderaanneming A | | 100 | | Omzet | | 400 | 
-| Onderaanneming B | | 200 | | | | | 
-| Arbeiders van de THV | | 60 | | | | | 
-| **Winst** | | **40** | | | | | 
+| Onderaanneming A| 100| Omzet| 400|
+| Onderaanneming B| 200| | |
+| Arbeiders van de THV| 60| | |
+| **Winst**|** 40**| | |
 
 Na de integratie zien de resultatenrekeningen van de deelgenoten er als volgt uit (dit zijn dus de bruto-resultatenrekeningen voor enige eliminatie ): 
 
-| DEELGENOOT A | 
+| DEELGENOOT A|
 |---|
-| Onderaanneming | | | | Omzet A | | 100 | 
-| 300x60% = | | 180 | | omzet THV 
+| Onderaanneming| | Omzet A| 100|
+| 300x60% =| 180| omzet THV 400x60%| 240|
+| Arbeiders 80+(60%x60)=| 116| | |
+| Afschrijvingen| 10| | |
+| | 306| | 340|
+| **Winst**|** 34**| | |
 
-			400x60% | | 
-
-			240 | 
-| Arbeiders 80+(60%x60)= | | 116 | | | | | 
-|---|---|---|---|---|---|---|
-| Afschrijvingen | | 10 | | | | | 
-| | | 306 | | | | 340 | 
-| **Winst** | | **34** | | | | | 
-
-| DEELGENOOT B | 
+| DEELGENOOT B|
 |---|
-| 180+(300x40%) = | | 300 | | Omzet B | | 200 | 
-| | | | | omzet THV | | | 
-| Diensten | | 10 | | 400 x 40% = | | 160 | 
-| Arbeiders 
-
-			60x40% = | | 24 | | | | | 
-| | | 334 | | | | 360 | 
-|---|---|---|---|---|---|---|
-| **Winst** | | **26** | | | | | 
+| 180+(300x40%) = | 300| Omzet B| 200|
+| | | omzet THV| |
+| Diensten| 10| 400 x 40% =| 160|
+| Arbeiders 60x40% =| 24| | |
+| | 334| | 360|
+| **Winst**|** 26**| | |
 
 Het valt daarbij op dat elk van de partners een resultaat genereert dat logisch voortvloeit uit de samenstelling van het eigen resultaat en het proportionele deel van het resultaat van de tijdelijke handelsvennootschap. Immers:
 
@@ -641,7 +625,7 @@ De zaakvoerder die instaat voor de boekhouding verschaft met behulp van de inter
 
 **Tweede principe: De waardering van bestellingen in uitvoering blijft waarderingsneutraal op het vlak van de resultaattoerekening.**
 
-  | 
+ |
 
 De meest elementaire waarderingsregel bij projectgebonden activiteiten, zoals die uitgevoerd in het kader van een tijdelijke handelsvennootschap, is de keuze van het winsttoerekeningsprincipe : wordt het resultaat op de lopende bestelling opgenomen a rato van de voortgang van het project *(percentage of completion method)* of wordt het resultaat uitgesteld tot op het einde van het project (*completed contract method*). Bij het bepalen van die keuze spelen allerhande factoren.
 
@@ -676,11 +660,11 @@ In de hoogst uitzonderlijke gevallen waarin op de afsluitdatum niet de nodige co
 
 **Derde principe: De vervaardigingsprijs van bestellingen in uitvoering wordt bepaald overeenkomstig de voorkeurbenadering van artikel 37 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen.**
 
-  | 
+ |
 
 Los van de problematiek inzake de winsttoerekening, dient de kostprijs van bestellingen in uitvoering te worden bepaald binnen de tijdelijke handelsvennootschap. Daarbij wordt het algemene principe van het voornoemde artikel 37 toegepast, wat betekent dat de vervaardigingsprijs naast de aanschaffingskosten van de grondstoffen, verbruiksgoederen en hulpstoffen, ook de productiekosten omvat die rechtstreeks aan de bestelling toerekenbaar zijn evenals het evenredig deel van de productiekosten die slechts onrechtstreeks aan de bestelling toerekenbaar zijn, voor zover deze kosten op de normale productieperiode betrekking hebben. Dit houdt ook in dat de tijdelijke handelsvennootschap niet opteert voor de alternatieve methode om de onrechtstreekse productiekosten niet, geheel of gedeeltelijk, in de vervaardigingsprijs op te nemen.
 
-| **Vierde principe: De tijdelijke handelsvennootschap registreert enkel bedrijfsresultaten. Alle andere resultaten worden doorgerekend aan de partners.** | 
+| **Vierde principe: De tijdelijke handelsvennootschap registreert enkel bedrijfsresultaten. Alle andere resultaten worden doorgerekend aan de partners.**|
 |---|
 
 Uitzonderlijke resultaten zijn op zich onbestaande in een tijdelijke handelsvennootschap omdat alle resultaten per definitie verbonden zijn aan een project en dus moeilijk als exceptioneel kunnen worden beschouwd.
@@ -689,7 +673,7 @@ De doorrekening van de financiële resultaten is eerder een praktische aangelege
 
 Het lijkt passend dat alle financiële resultaten op een zelfde wijze worden behandeld. Dit houdt in dat deze verrekening zal slaan op alle financiële opbrengsten en kosten, zodat de rubrieken “65” en “75” als het ware op nul worden geplaatst. 
 
-| **Vijfde principe: De toepassing van het waarderingsprincipe* « Lower of Cost or Market » *wordt overgelaten aan de individuele partners.** | 
+| **Vijfde principe: De toepassing van het waarderingsprincipe* « Lower of Cost or Market » *wordt overgelaten aan de individuele partners.**|
 |---|
 
 In het kader van het beheer van het project zullen de verantwoordelijken periodiek de technische kostprijs moeten toetsen aan de technische verkoopprijs.
@@ -714,7 +698,7 @@ Een *tweede methode* houdt in dat de deelgenoten - zeker wanneer zij tot dezelfd
 
 Deze methode gaat uit van de volgende principes: 
 
-| **Eerste principe: De waarderingsregels inzake afschrijvingen, waardeverminderingen en voorzieningen worden vastgelegd in het contract van tijdelijke handelsvennootschap.** | 
+| **Eerste principe: De waarderingsregels inzake afschrijvingen, waardeverminderingen en voorzieningen worden vastgelegd in het contract van tijdelijke handelsvennootschap.**|
 |---|
 
 Het is niet uitgesloten dat partners van een tijdelijke handelsvennootschap het eens zijn omtrent de toe te passen waarderingsregels in de tijdelijke handelsvennootschap. 
@@ -725,16 +709,18 @@ Het is ook niet uitgesloten dat de deelgenoten de rekeningen van de tijdelijke h
 
 In al deze gevallen worden de regels inzake de toe te passen afschrijvingspercentages, de boeking van waardeverminderingen op vorderingen, op voorraden en op bestellingen in uitvoering, alsook inzake de boeking van voorzieningen, vastgelegd in de overeenkomst van tijdelijke handelsvennootschap. 
 
-| **Tweede principe: De waardering van bestellingen in uitvoering blijft waarderingsneutraal op het vlak van de resultaattoerekening (cf. supra).** | 
+| **Tweede principe: De waardering van bestellingen in uitvoering blijft waarderingsneutraal op het vlak van de resultaattoerekening (cf. supra).**|
 |---|
 
 Indien alle partners het erover zijn om toch de *methode van vooruitgang van het project* toe te passen, dan biedt de contractuele vrijheid hen vanzelfsprekend de mogelijkheid toch voor deze methode te kiezen. 
 
-| **Derde principe: De vervaardigingsprijs van bestellingen in uitvoering wordt bepaald overeenkomstig de voorkeurbenadering van het artikel 37 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen[^15].** | 
+| **Derde principe: De vervaardigingsprijs van bestellingen in uitvoering wordt bepaald overeenkomstig de voorkeurbenadering van het artikel 37 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen[^15] .**|
+|---|
 
 Indien alle partners het erover eens zijn om toch een bestelling tegen directe kostprijs te waarderen of volgens een variante daarop met gedeeltelijke toewijzing van onrechtstreekse productiekosten, dan biedt de contractuele vrijheid hen vanzelfsprekend de mogelijkheid toch voor deze methode te kiezen. In dit geval dient wel de bijkomende publicatie zoals opgelegd door artikel 37 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen in acht te worden genomen. 
 
-| **Vierde principe: De tijdelijke handelsvennootschap registreert enkel bedrijfsresultaten. Alle andere resultaten worden doorgerekend aan de partners[^16].** | 
+| **Vierde principe: De tijdelijke handelsvennootschap registreert enkel bedrijfsresultaten. Alle andere resultaten worden doorgerekend aan de partners[^16] .**|
+|---|
 
 Indien alle partners het erover eens zijn om de financiële opbrengsten en kosten geheel of ten dele in de rekeningen van de tijdelijke handelsvennootschap te behouden, dan biedt de contractuele vrijheid hen vanzelfsprekend de mogelijkheid voor deze methode te kiezen. 
 
@@ -742,7 +728,7 @@ Indien alle partners het erover eens zijn om de financiële opbrengsten en koste
 
 **Vijfde principe: De toepassing van het waarderingsprincipe* Lower of Cost or Market* wordt toegewezen aan het bestuur van de tijdelijke handelsvennootschap.**
 
-  | 
+ |
 
 Indien deze taak wordt opgedragen aan het bestuur van de tijdelijke vennootschap, dan wordt dit op expliciete wijze vermeld in het contract van tijdelijke handelsvennootschap.
 
@@ -761,7 +747,7 @@ Volgens de Commissie zou de publicatie van gegevens door geassocieerde ondernemi
 
 **Eerste principe: Ondernemingen die activiteiten ontplooien via een tijdelijke handelsvennootschap zouden in de toelichting bij hun jaarrekening de lijst moeten opnemen van de significante tijdelijke handelsvennootschappen met hun identificatiegegevens.**
 
-  | 
+ |
 
 Onder identificatiegegevens wordt verstaan:
 
@@ -782,7 +768,7 @@ Anderzijds mag niet uit het oog worden verloren dat de Belgische ondernemingen n
 
 **Tweede principe: Ondernemingen die activiteiten ontplooien via een tijdelijke handelsvennootschap zouden in de toelichting bij hun jaarrekening een beschrijving moeten opnemen van de methode of methoden voor de integratie en eliminatie van verrichtingen van en met tijdelijke handelsvennootschappen.**
 
-  | 
+ |
 
 Een van de meest fundamentele zwakheden in de huidige toelichting bij de jaarrekening bestaat erin dat de ondernemingen weinig of niets vermelden over de toegepaste integratie- en eliminatiemethoden.
 
@@ -810,7 +796,7 @@ Zowel wat de integratie als wat de eliminatie betreft, is het niet uitgesloten d
 
 **Derde principe: Ondernemingen die activiteiten ontplooien via tijdelijke handelsvennootschappen zouden in de toelichting bij hun jaarrekening een samenvatting moeten publiceren van de financiële kerncijfers van de verrichtingen van en met tijdelijke handelsvennootschappen.**
 
-  | 
+ |
 
 Artikel 25 § 3 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen vereist inderdaad de vermelding in de toelichting, per soort, van de rechten en verplichtingen die niet in de balans voorkomen en die het vermogen, de financiële positie of het resultaat van de vennootschap aanmerkelijk kunnen beïnvloeden. Belangrijke rechten en verplichtingen die niet kunnen worden becijferd, worden op passende wijze vermeld in de toelichting.[^17] 
 

@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
 datum: 1984-10-01
 nummer: CBN-advies 148/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
-      sha256: c010bda2afe42e6eeff2a45fd07e56fd1d50f6cdcfb556cd4dec47b8be9ef48e
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T12:04:41Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 0
-      max_section_chars: 3798
-      file_size_chars: 3798
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen voetnootverwijzingen in body (verwijzing naar advies 148/1 is gewone tekst). Geen PDF-artefacten. Inhoud volledig: definitie, voorbeeld, boekhoudkundige behandeling, onderscheid voorschot vs overlopende rekening, matching principle.'
-      run_at: '2026-05-11T12:04:41Z'
-      status: trusted
-    rationale: 'Geen voetnootverwijzingen in body (verwijzing naar advies 148/1 is gewone tekst). Geen PDF-artefacten. Inhoud volledig: definitie, voorbeeld, boekhoudkundige behandeling, onderscheid voorschot vs overlopende rekening, matching principle.'
-    status: trusted
 themas:
   - gespreide of opeenvolgende prestaties
   - accijns
@@ -42,8 +10,32 @@ themas:
   - toerekening opbrengsten bij overeenkomsten met gespreide of opeenvolgende prestaties
   - toerekening van kosten en opbrengsten
   - abonnement
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/overeenkomsten-waarin-gespreide-of-opeenvolgende-prestaties-worden-voorzien
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:39Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 148/1 - Overeenkomsten waarin gespreide of opeenvolgende prestaties worden voorzien
 
 Door overeenkomst waarin gespreide of opeenvolgende prestaties worden voorzien is hier verstaan een overeenkomst waarbij één der partijen zich tegen een vaste totaalprijs verbindt om, gespreid over een zekere tijd, bepaalde goederen te leveren, dan wel op gespreide wijze of volgens een afgesproken periodiciteit, bepaalde in de overeenkomst omschreven diensten te leveren. 

@@ -15,42 +15,6 @@ gerelateerde_adviezen:
     titel: Verrichtingen met betrekking tot inschrijvingsrechten
     url: https://www.cbn-cnc.be/nl/adviezen/verrichtingen-met-betrekking-tot-inschrijvingsrechten
 nummer: CBN-advies 127/2
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/waardevermindering-op-aandelen-voorziening-voor-risicos-verbonden-aan-niet-opgevraagd
-      sha256: dd176ad07335dc8869f9254b82ab3b39e8c35527699586e1bdfa3e7620dc91e6
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:20Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:28Z'
-      heading_count: 0
-      max_section_chars: 2723
-      file_size_chars: 2723
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: F1
-          regel: 59
-          type: other
-          voorbeeld: '- voorzieningen voor risico&#039;s en kosten (HTML-entiteit niet gedecodeerd)'
-      rationale: 'F1 op L59: frontmatter-veld themas bevat ongedecodeerde HTML-entiteit ''&#039;'' (apostrof) in ''voorzieningen voor risico&#039;s en kosten'' — ETL-bug die machine-leesbare metadata corrumpeert. Body (L63-L76) is volledig schoon en inhoudelijk compleet voor dit korte advies.'
-      run_at: '2026-05-11T17:05:20Z'
-      status: needs-rework
-    rationale: 'F1 op L59: frontmatter-veld themas bevat ongedecodeerde HTML-entiteit ''&#039;'' (apostrof) in ''voorzieningen voor risico&#039;s en kosten'' — ETL-bug die machine-leesbare metadata corrumpeert. Body (L63-L76) is volledig schoon en inhoudelijk compleet voor dit korte advies.'
-    status: needs-rework
 themas:
   - aandelen
   - niet-opgevraagd gedeelte van aandelen
@@ -58,8 +22,32 @@ themas:
   - voorziening
   - voorzieningen voor risico&#039;s en kosten
   - Waardevermindering
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/waardevermindering-op-aandelen-voorziening-voor-risicos-verbonden-aan-niet-opgevraagd
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:28Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 127/2 - Waardevermindering op aandelen - Voorziening voor risico's verbonden aan niet-opgevraagd gedeelte
 
 Aan de Commissie werd gevraagd hoe de verliesrisico's verbonden aan het niet-opgevraagde gedeelte van aandelen of deelnemingen waarop een onderneming had ingeschreven of die zij had verworven, moeten worden verwerkt in boekhouding en in de jaarrekening. 

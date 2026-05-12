@@ -12,46 +12,6 @@ gerelateerde_adviezen:
     titel: De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten
     url: https://www.cbn-cnc.be/nl/adviezen/de-toepassing-van-de-algemene-boekhoudprincipes-op-afgeleide-financiele-instrumenten
 nummer: CBN-advies 2016/11
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
-      sha256: 45282a2c7d1f6bcf5611098b6a097f274c6b2775b2ffb4aa47162f5f96ad7dec
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 11
-      max_section_chars: 10029
-      file_size_chars: 23504
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 237
-          type: other
-          voorbeeld: '| aan | 756 | Diverse financiële opbrengsten\n\t\t\t\t(Cross currency swap – vlottend) | (multiline tabelcel)'
-        - categorie: E2
-          regel: 273
-          type: other
-          voorbeeld: '| aan | 657 | Diverse financiële kosten) | | 4.375 | (overtollige ) in cel)'
-      rationale: 'E2: regel 237–238 bevat een multiline tabelcel waarbij de omschrijving `(Cross currency swap – vlottend)` op een nieuwe regel met tab-inspringing staat — breekt pipe-tabel-rendering. Regel 273: `| aan | 657 | Diverse financiële kosten) |` bevat een overtollige `)` in de cel als ETL-artefact. Inhoud en rekenkundige voorbeelden verder volledig correct.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'E2: regel 237–238 bevat een multiline tabelcel waarbij de omschrijving `(Cross currency swap – vlottend)` op een nieuwe regel met tab-inspringing staat — breekt pipe-tabel-rendering. Regel 273: `| aan | 657 | Diverse financiële kosten) |` bevat een overtollige `)` in de cel als ETL-artefact. Inhoud en rekenkundige voorbeelden verder volledig correct.'
-    status: needs-rework
 themas:
   - afgeleide financiële instrumenten
   - cross currency swap
@@ -65,8 +25,32 @@ themas:
   - valutaswap
   - vreemde valuta
   - wisselrisico
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-de-cross-currency-swap
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:17Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/11 - Boekhoudkundige verwerking van de cross currency swap
 
 ## Inleiding
@@ -307,8 +291,7 @@ Op 1 januari 2015 worden de journaalposten met betrekking tot de omrekeningsvers
 | | 755 | Omrekeningsverschillen | 100.000 | |
 | aan | 416 | Herberekening tegen slotomrekeningskoers USD | | 100.000 |
 
-*Op vervaldag 31 december 2015* 
-
+## Op vervaldag 31 december 2015
 De volgende boeking betreft de terugbetaling op vervaldag van de lening, die inmiddels als korte termijnlening geboekt staat, evenals de vereffening van de cross currency swap:
 
 | | Rekening | Omschrijving | Debet | Credit |

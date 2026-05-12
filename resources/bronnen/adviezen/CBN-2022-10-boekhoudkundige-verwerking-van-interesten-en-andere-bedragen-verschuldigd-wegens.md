@@ -2,38 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens
 datum: 2022-08-29
 nummer: CBN-advies 2022/10
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens
-      sha256: 075e298a2435b2d63709d0aba4d9917bdc9017d10a07a1c9b57b150012a3505e
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:34:13Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:33Z'
-      heading_count: 19
-      max_section_chars: 8454
-      file_size_chars: 25840
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Geen artefacten gevonden in alle categorieën A–G. Headings correct hiërarchisch (4 niveaus consistent). Journaalboekingen correct in pipe-tabel syntax. 39 voetnoten volledig aanwezig. Afwijkend standpunt correct als eigen sectie opgenomen. Een buitenstaander zou dit voor mens-geschreven houden.
-      run_at: '2026-05-11T13:34:13Z'
-      status: trusted
-    rationale: Geen artefacten gevonden in alle categorieën A–G. Headings correct hiërarchisch (4 niveaus consistent). Journaalboekingen correct in pipe-tabel syntax. 39 voetnoten volledig aanwezig. Afwijkend standpunt correct als eigen sectie opgenomen. Een buitenstaander zou dit voor mens-geschreven houden.
-    status: trusted
 themas:
   - betalingsachterstand
   - laattijdige betaling
@@ -42,8 +10,32 @@ themas:
   - invorderingskost
   - kredietbeperkingstoeslag
   - financiële korting
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-interesten-en-andere-bedragen-verschuldigd-wegens
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:48Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2022/10 – Boekhoudkundige verwerking van interesten en andere bedragen verschuldigd wegens betalingsachterstand
 
 ## Inleiding
@@ -85,12 +77,12 @@ Op basis van de aan de Commissie overgemaakte informatie kan de kredietbeperking
 
 De boekhoudkundige verwerking van facturen met een kredietbeperkingstoeslag kan moeilijkheden met zich meebrengen. Wegens uiteenlopende redenen omvat het totaalbedrag van de factuur immers al het bedrag van de kredietbeperkingstoeslag. Neem bijvoorbeeld een factuur met een kredietbeperkingstoeslag voor de aankoop van handelsgoederen. Het bedrag van de kredietbeperkingstoeslag bedraagt 10 euro indien de betaling na een termijn van dertig dagen wordt uitgevoerd. Dit wordt als volgt weergegeven: 
 
-| Prijs excl. btw | | 400 euro | 
-|---|---|---|
-| Btw[^17] | | 84 euro | 
-| Prijs incl. btw | | 484 euro | 
-| Kredietbeperkingstoeslag | | 10 euro | 
-| **Totaalbedrag**  | | **494 euro** | 
+| Prijs excl. btw| 400 euro|
+|---|---|
+| Btw[^17] | 84 euro|
+| Prijs incl. btw | 484 euro|
+| Kredietbeperkingstoeslag| 10 euro|
+| **Totaalbedrag** | **494 euro**|
 
 Rekening houdende met de twijfels die verschillende ondernemingen hierrond hebben, wordt hieronder de geschikte boekhoudkundige verwerking voor dergelijke facturen weergegeven.
 
@@ -125,12 +117,12 @@ Hieruit blijkt dat bij de opmaak of bij de ontvangst van de factuur in principe 
 ### Voorbeeld 1
 Het hierboven reeds vermelde voorbeeld wordt hier verder uitgewerkt.
 Op een factuur betreffende de aankoop van handelsgoederen ter waarde van 400 euro, staat vermeld dat de klant 30 dagen de tijd heeft om de betaling uit te voeren. Bovendien wordt er bepaald dat indien de klant op de vervaldag van de factuur nog steeds niet betaald heeft, deze een kredietbeperkingstoeslag ter waarde van 10 EUR verschuldigd is. De factuur wordt als volgt opgesteld:
-| Prijs excl. btw | | 400 euro | 
-|---|---|---|
-| Btw[^32] | | 84 euro | 
-| Prijs incl. btw | | 484 euro | 
-| Kredietbeperkingstoeslag | | 10 euro | 
-| **Totaalbedrag**  | | **494 euro** | 
+| Prijs excl. btw| 400 euro|
+|---|---|
+| Btw[^32] | 84 euro|
+| Prijs incl. btw | 484 euro|
+| Kredietbeperkingstoeslag| 10 euro|
+| **Totaalbedrag** | **494 euro**|
 
 Volgende boekingen moeten door de koper worden uitgevoerd[^33]:
 ### Bij ontvangst van de factuur

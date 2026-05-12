@@ -2,46 +2,6 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/provisie-aanvullende-dagen-verlof-arbeidsduurvermindering
 datum: 2018-05-30
 nummer: CBN-advies 2018/13
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/provisie-aanvullende-dagen-verlof-arbeidsduurvermindering
-      sha256: b628cdfb65bc905f228c256ec3eeaec820ce3d97ccddc11bc7973be31a7556d8
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 2
-      max_section_chars: 2518
-      file_size_chars: 5160
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 74
-          type: other
-          voorbeeld: Voor werknemers die* in vast dienstverband[^4] * werken
-        - categorie: D4
-          regel: 76
-          type: other
-          voorbeeld: rekening 444 *Te ontvangen facturen. *
-      rationale: 'D4: regel 74 heeft ''Voor werknemers die* in vast dienstverband[^4] * werken'' — de italic-markering opent na ''die'' en sluit met spatie voor het asterisk, wat een malformed italic span is. Regel 76 heeft ''rekening 444 *Te ontvangen facturen. *'' met spatie voor sluitende asterisk. Patroon stelselmatig consistent met ETL-batch; scraper-fix heeft dit niet opgelost.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'D4: regel 74 heeft ''Voor werknemers die* in vast dienstverband[^4] * werken'' — de italic-markering opent na ''die'' en sluit met spatie voor het asterisk, wat een malformed italic span is. Regel 76 heeft ''rekening 444 *Te ontvangen facturen. *'' met spatie voor sluitende asterisk. Patroon stelselmatig consistent met ETL-batch; scraper-fix heeft dit niet opgelost.'
-    status: needs-rework
 themas:
   - arbeidsduurvermindering
   - adv-dagen
@@ -50,8 +10,32 @@ themas:
   - interimpersoneel
   - interimkracht
   - vakantiegeld
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/provisie-aanvullende-dagen-verlof-arbeidsduurvermindering
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:30Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2018/13 – Provisie aanvullende dagen verlof – Arbeidsduurvermindering
 
 ## Inleiding

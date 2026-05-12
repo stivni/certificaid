@@ -15,42 +15,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-subsidies-schenkingen-en-legaten-toegekend-in-contanten-in
 nummer: CBN-advies 2016/4
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-boekhoudkundige-verwerking-van-meerjarige-toekenningen-bij
-      sha256: b5b6831d4910ee12494fe88b705196852c0afd9d02d642847e82d5fe4b6e5783
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 3
-      max_section_chars: 3488
-      file_size_chars: 7824
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 68
-          type: other
-          voorbeeld: '## Advies van 13 april 2016**[^1]**  (stray ** rond voetnootref in heading)'
-      rationale: 'D4: regel 68 `## Advies van 13 april 2016**[^1]** ` bevat stray `**` die de footnote-referentie omhult als bold-marker in een heading — onzichtbaar voor de lezer maar syntactisch een ETL-artefact. Inhoud volledig correct: 5 headings genest, voetnoten [^1]–[^8] aanwezig, geen pagina-artefacten of OCR-fouten.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'D4: regel 68 `## Advies van 13 april 2016**[^1]** ` bevat stray `**` die de footnote-referentie omhult als bold-marker in een heading — onzichtbaar voor de lezer maar syntactisch een ETL-artefact. Inhoud volledig correct: 5 headings genest, voetnoten [^1]–[^8] aanwezig, geen pagina-artefacten of OCR-fouten.'
-    status: needs-rework
 themas:
   - legaat
   - meerjarige toekenningen
@@ -59,8 +23,32 @@ themas:
   - subsidies
   - vereniging zonder winstoogmerk
   - vzw
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/verenigingen-en-stichtingen-boekhoudkundige-verwerking-van-meerjarige-toekenningen-bij
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:16Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2016/4 - Verenigingen en stichtingen: boekhoudkundige verwerking van meerjarige toekenningen bij grote en zeer grote verenigingen en stichtingen
 
 ## Inleiding

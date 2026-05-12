@@ -15,42 +15,34 @@ gerelateerde_adviezen:
     titel: 'Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015'
     url: https://www.cbn-cnc.be/nl/adviezen/bestellingen-in-uitvoering-wijzigingen-door-het-koninklijk-besluit-van-18-december-2015
 nummer: CBN-advies 105/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/compensatie-tussen-debet-en-creditsaldi-bij-eenzelfde-bankinstelling
-      sha256: efcb0de695d8b8a23cbd4477e144e838a996eb39774b5775e6b7b807d3977663
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T11:57:44Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:27Z'
-      heading_count: 0
-      max_section_chars: 1298
-      file_size_chars: 1298
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Geen artefacten gevonden. Bestand is kort (1 298 chars, 1 alinea advies), maar dat klopt met de bron: dit is een kort CBN-advies. Inhoud compleet, markdown schoon, frontmatter consistent.'
-      run_at: '2026-05-11T11:57:44Z'
-      status: trusted
-    rationale: 'Geen artefacten gevonden. Bestand is kort (1 298 chars, 1 alinea advies), maar dat klopt met de bron: dit is een kort CBN-advies. Inhoud compleet, markdown schoon, frontmatter consistent.'
-    status: trusted
 themas:
   - compensatie
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/compensatie-tussen-debet-en-creditsaldi-bij-eenzelfde-bankinstelling
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:07Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 105/1 - Compensatie tussen debet- en creditsaldi bij eenzelfde bankinstelling
 
 Ondernemingen openen regelmatig bij eenzelfde bankinstelling meerdere rekeningen-courant waarop worden geregistreerd, de verrichtingen van verschillende succursalen, verrichtingen die verband houden met de uitvoering van bestellingen of van verschillende werken, enz. 

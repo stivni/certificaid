@@ -15,44 +15,36 @@ gerelateerde_adviezen:
     titel: 'Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking'
     url: https://www.cbn-cnc.be/nl/adviezen/kosten-van-onderzoek-en-ontwikkeling-onderscheid-tussen-onderzoek-en-ontwikkeling
 nummer: CBN-advies 2012/6
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
-      sha256: 12abeb2f8f991f826eab0cc96d473615b3719e6dfe4011df92eb462d6c90fd2c
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T21:19:09Z'
-    confirmed_by: human
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 6
-      max_section_chars: 12301
-      file_size_chars: 34157
-      flags: []
-    layer2:
-      agent:
-      concrete_problemen: []
-      rationale:
-      run_at:
-      status: not_run
-    rationale: 'Heading-structuur hersteld: 10 genummerde ### subsecties via promote_implicit_headings (bold numbered titles). max_section_size warn benign: langste ## sectie 28K, maar H3 chunks elk ~2-3K. 19 journaalposten correct.'
-    status: trusted
 themas:
   - immateriële vaste activa
   - niet in de balans opgenomen rechten en verplichtingen
   - tax shelter
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-tax-shelter-in-hoofde-van-de-productievennootschap
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:06Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2012/6 – De boekhoudkundige verwerking van de tax shelter in hoofde van de productievennootschap
 
 ## Inleiding

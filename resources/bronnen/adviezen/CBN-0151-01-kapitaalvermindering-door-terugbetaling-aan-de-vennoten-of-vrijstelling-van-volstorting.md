@@ -15,50 +15,6 @@ gerelateerde_adviezen:
     titel: Van een kapitaalhoudende BVBA naar een kapitaalloze BV
     url: https://www.cbn-cnc.be/nl/adviezen/van-een-kapitaalhoudende-bvba-naar-een-kapitaalloze-bv
 nummer: CBN-advies 151/1
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-door-terugbetaling-aan-de-vennoten-of-vrijstelling-van-volstorting
-      sha256: 2c34d7979e80bfbd6561058adfafea05e047e5a8132eff5aa7e6653a664220fc
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 2
-      max_section_chars: 2796
-      file_size_chars: 3765
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 79
-          type: other
-          voorbeeld: '| | 100 | Geplaatst kapitaal | | |'
-        - categorie: E2
-          regel: 80
-          type: other
-          voorbeeld: '| aan | 48 | Diverse | | |'
-        - categorie: E2
-          regel: 99
-          type: other
-          voorbeeld: '| aan | | 101 | | Niet-opgevraagd kapitaal |'
-      rationale: 'E2: alle drie boekingstabellen (regels 77-80, 90-93, 96-99) hebben volledig lege debet- en creditkolommen — bedragen ontbreken volledig, ongewijzigd t.o.v. ronde 2. Regel 99 ''| aan | | 101 | | Niet-opgevraagd kapitaal |'' heeft bovendien een extra lege cel die de kolomuitlijning verbreekt.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'E2: alle drie boekingstabellen (regels 77-80, 90-93, 96-99) hebben volledig lege debet- en creditkolommen — bedragen ontbreken volledig, ongewijzigd t.o.v. ronde 2. Regel 99 ''| aan | | 101 | | Niet-opgevraagd kapitaal |'' heeft bovendien een extra lege cel die de kolomuitlijning verbreekt.'
-    status: needs-rework
 themas:
   - kapitaal
   - kapitaalvermindering
@@ -66,8 +22,32 @@ themas:
   - terugbetaling aan vennoten
   - vrijstelling
   - vrijstelling van volstorting
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/kapitaalvermindering-door-terugbetaling-aan-de-vennoten-of-vrijstelling-van-volstorting
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:41Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 151/1 - Kapitaalvermindering door terugbetaling aan de vennoten of vrijstelling van volstorting
 
 De wet van 5 december 1984 heeft de vroegere bepalingen van de vennootschapswet inzake kapitaalvermindering, grondig gewijzigd. Het nieuwe artikel 72bis stelt in § 1 dat, indien de vermindering van het kapitaal geschiedt door een terugbetaling aan de aandeelhouders of door vrijstelling van de storting van het saldo van de inbreng, de schuldeisers het recht hebben om een zekerheid te eisen voor hun vorderingen. Elke uitkering of betaling aan de aandeelhouders of vrijstelling van storting van het saldo van de inbreng is verboden, zolang de schuldeisers, die binnen de voorgeschreven termijn hun rechten hebben doen gelden, geen voldoening hebben gekregen, tenzij hun aanspraak om zekerheid te verkrijgen bij een rechterlijke beslissing is verworpen. 

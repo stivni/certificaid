@@ -6,54 +6,6 @@ gerelateerde_adviezen:
     titel: Actuarieel rendement op vastrentende effecten - Aanpassing van de adviezen 137/5 en 148/4
     url: https://www.cbn-cnc.be/nl/adviezen/actuarieel-rendement-op-vastrentende-effecten-aanpassing-van-de-adviezen-1375-en-1484
 nummer: CBN-advies 148/4
-provenance:
-  generated_at: '2026-05-11T19:17:25Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
-      sha256: 271cb09439663de1bf18f686e3ae538c62fcc7f80f360d78bad5764e2d849ceb
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:29Z'
-      heading_count: 5
-      max_section_chars: 6724
-      file_size_chars: 11418
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 234
-          type: other
-          voorbeeld: '| aan | | 52 | Vastrentende effecten | 1.000.000 |'
-        - categorie: A9
-          regel: 280
-          type: ocr-confusion
-          voorbeeld: '| | 55 | Kreditinstellingen | 1.351.975 | |'
-        - categorie: D3
-          regel: 292
-          type: other
-          voorbeeld: '[^3]: Roerende voorheffing van 25 %.  (geen inline-referentie in body)'
-        - categorie: B1
-          regel: 189
-          type: other
-          voorbeeld: '## 31.12.1987 : 80 000'
-      rationale: 'Vier ETL-bugs ongewijzigd t.o.v. ronde 2: E2 (regel 234) ''aan'' als losse cel breekt tabelstructuur; A9 (regel 280) ''Kreditinstellingen'' i.p.v. ''Kredietinstellingen''; D3 (regels 292-294) voetnoten [^3] en [^4] zonder inline-referentie in body; B1 (regel 189) heading bevat enkel datum en bedrag zonder omschrijving.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'Vier ETL-bugs ongewijzigd t.o.v. ronde 2: E2 (regel 234) ''aan'' als losse cel breekt tabelstructuur; A9 (regel 280) ''Kreditinstellingen'' i.p.v. ''Kredietinstellingen''; D3 (regels 292-294) voetnoten [^3] en [^4] zonder inline-referentie in body; B1 (regel 189) heading bevat enkel datum en bedrag zonder omschrijving.'
-    status: needs-rework
 themas:
   - kapitalisatiebon
   - kasbon
@@ -68,8 +20,32 @@ themas:
   - toerekeningsbeginsel
   - verworven opbrengsten
   - zero-bond
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boeking-van-de-prorata-van-gelopen-interest-op-obligaties-en-kasbons
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:39Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN advies 148-4 - Boeking van de prorata van gelopen interest op obligaties en kasbons
 Krachtens de boekhoudwetgeving moeten de kosten en opbrengsten steeds worden toegerekend aan het boekjaar waarop zij betrekking hebben. Artikel 19, vierde lid van het koninklijk besluit van 8 oktober 1976 bepaalt immers dat "er rekening moet worden gehouden met de kosten en de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd, ...". 
 

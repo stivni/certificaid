@@ -15,42 +15,6 @@ gerelateerde_adviezen:
     titel: Mogelijkheid tot uitstel van de gewone algemene vergadering en van de neerlegging van de jaarrekening (vennootschappen)
     url: https://www.cbn-cnc.be/nl/adviezen/mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de
 nummer: CBN-advies 2021/11
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
-      sha256: 4dbc8abbe69e46fb2249e4292bfe7878344a23222a30d726f5ebd3a59a02c27d
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:13:30Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 6
-      max_section_chars: 8630
-      file_size_chars: 12660
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: E2
-          regel: 86
-          type: other
-          voorbeeld: '| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |'
-      rationale: 'E2: Regel 86 bevat ''| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |'' waarbij ''(of 764 tot 768'' als extra eerste kolom-cel staat — alternatieve boeking correct bedoeld maar zonder geldige markdown-tabelstructuur (extra pipe-cell). Geïsoleerd artefact; overige tabellen correct, inhoud volledig, 6 headings correct, alle 17 voetnootdefinities aanwezig.'
-      run_at: '2026-05-11T17:13:30Z'
-      status: needs-rework
-    rationale: 'E2: Regel 86 bevat ''| | (of 764 tot 768 | Andere niet-recurrente bedrijfsopbrengsten | 2.000 | |'' waarbij ''(of 764 tot 768'' als extra eerste kolom-cel staat — alternatieve boeking correct bedoeld maar zonder geldige markdown-tabelstructuur (extra pipe-cell). Geïsoleerd artefact; overige tabellen correct, inhoud volledig, 6 headings correct, alle 17 voetnootdefinities aanwezig.'
-    status: needs-rework
 themas:
   - COVID-19
   - tegemoetkoming
@@ -60,8 +24,32 @@ themas:
   - Waardevermindering
   - indekkingsverrichting
   - speculatieve verrichting
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-covid-19-tegemoetkomingen-en-van-kosten-gemaakt-ten-gevolge
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:42Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2021/11 – Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
 
 ## Inleiding

@@ -2,46 +2,38 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv
 datum: 2021-10-12
 nummer: CBN-advies 2021/14
-provenance:
-  generated_at: '2026-05-11T19:17:27Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv
-      sha256: ce291b71d6d5e3716d3c3fadf7736b5975e0e1eb86e9958eeefb190e5b556f84
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-08T19:02:28Z'
-    confirmed_by: subagent-laag2-ronde2
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:32Z'
-      heading_count: 16
-      max_section_chars: 21050
-      file_size_chars: 39619
-      flags: []
-    layer2:
-      agent: subagent-laag2-ronde2
-      concrete_problemen: []
-      rationale: '[Laag-2-R2 2026-05-08] 17 headings, 65 voetnoten, twee concrete balanstabellen als Markdown-tabellen. De langste sectie (24.478 chars) valt net boven de drempel maar bevat de volledige kern. RAG-ready.'
-      run_at: '2026-05-08T19:02:28Z'
-      status: trusted
-    rationale: Laag-2 trusted door subagent-laag2-ronde2 (zie layer2.rationale)
-    status: trusted
 themas:
   - alarmbelprocedure
   - nettoactief
   - gecorrigeerd nettoactief
   - uitkeerbare winst
   - continuïteit
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/jaarrekeningrechtelijke-analyse-van-de-alarmbelprocedure-onder-het-wvv
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:43Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2021/14 – Jaarrekeningrechtelijke analyse van de alarmbelprocedure onder het WVV
 
 ## Inleiding
@@ -116,19 +108,19 @@ De alarmbelprocedure moet *anderzijds* worden toegepast wanneer het bestuursorga
 Bij de redactie van een tussentijdse staat van NV[^38]
  B, stelt het bestuursorgaan vast dat de balans van deze naamloze vennootschap, als gevolg van de geleden verliezen, er als volgt uitziet: 
 
-| Activa | | Passiva | 
-|---|---|---|
-| III. Materiële vaste activa | | 25.000 | | I. Inbreng | | | 
-| V. Vorderingen op meer dan een jaar | | 15.000 | | A. Kapitaal | | | 
-| VI. Voorraden en bestellingen in uitvoering | | 30.000 | | 1. Geplaatst kapitaal | | 70.000 | 
-| VII. Vorderingen op ten hoogste een jaar | | | | III. Reserves | | 8.000 | 
-| A. Handelsvorderingen | | 10.000 | | IV. Overgedragen verlies | 
-| -43.500 | 
-| B. Overige vorderingen | | 0 | | VII. Voorzieningen en uitgestelde belastingen | | | 
-| IX. Liquide middelen | | 28.500 | | A. Voorzieningen voor risico’s en kosten | | 14.000 | 
-| | | | | VIII. Schulden op meer dan een jaar | | 60.000 | 
-| | | | | | | | 
-| **Totaalbedrag van de activa** | | **108.500** | | **Totaalbedrag van de passiva** | | **108.500** | 
+| Activa| Passiva|
+|---|---|
+| III. Materiële vaste activa| 25.000| I. Inbreng| |
+| V. Vorderingen op meer dan een jaar| 15.000| A. Kapitaal| |
+| VI. Voorraden en bestellingen in uitvoering| 30.000| 1. Geplaatst kapitaal| 70.000|
+| VII. Vorderingen op ten hoogste een jaar| | III. Reserves| 8.000|
+| A. Handelsvorderingen| 10.000| IV. Overgedragen verlies|
+| -43.500|
+| B. Overige vorderingen| 0| VII. Voorzieningen en uitgestelde belastingen| |
+| IX. Liquide middelen| 28.500| A. Voorzieningen voor risico’s en kosten| 14.000|
+| | | VIII. Schulden op meer dan een jaar| 60.000|
+| | | | |
+| **Totaalbedrag van de activa**|** 108.500**|** Totaalbedrag van de passiva**|** 108.500**|
 
 Om te achterhalen of de alarmbelprocedure aangevat moet worden, dient het bestuursorgaan het nettoactief van deze NV te vergelijken met de helft (of één vierde) van het geplaatst kapitaal. De volgende berekeningen dienen te geschieden:
 
@@ -139,19 +131,19 @@ Om te achterhalen of de alarmbelprocedure aangevat moet worden, dient het bestuu
 ## Voorbeeld 2
 Bij de redactie van een tussentijdse staat van NV C, stelt het bestuursorgaan vast dat de balans van deze naamloze vennootschap, als gevolg van de geleden verliezen, er als volgt uitziet:
 
-| Activa | | Passiva | 
-|---|---|---|
-| I. Oprichtingskosten | | 10.000 | | I. Inbreng | | | 
-| III. Materiële vaste activa | | 25.000 | | A. Kapitaal | | | 
-| V. Vorderingen op meer dan een jaar | | 15.000 | | 1. Geplaatst kapitaal | | 80.000 | 
-| VI. Voorraden en bestellingen in uitvoering | | 30.000 | | 2. Niet opgevraagd kapitaal | | 0 | 
-| VII. Vorderingen op ten hoogste een jaar | | | | III. Reserves | | 8.000 | 
-| A. Handelsvorderingen | | 10.000 | | IV. Overgedragen verlies | | -35.000 | 
-| B. Overige vorderingen | | 8.500 | | VII. Voorzieningen en uitgestelde belastingen | | | 
-| IX. Liquide middelen | | 28.500 | | A. Voorzieningen voor risico’s en kosten | | 14.000 | 
-| | | | | VIII. Schulden op meer dan een jaar | | 60.000 | 
-| | | | | | | | 
-| **Totaalbedrag van de activa** | | **127.000** | | **Totaalbedrag van de passiva** | | **127.000** | 
+| Activa| Passiva|
+|---|---|
+| I. Oprichtingskosten| 10.000| I. Inbreng| |
+| III. Materiële vaste activa| 25.000| A. Kapitaal| |
+| V. Vorderingen op meer dan een jaar| 15.000| 1. Geplaatst kapitaal| 80.000|
+| VI. Voorraden en bestellingen in uitvoering| 30.000| 2. Niet opgevraagd kapitaal| 0|
+| VII. Vorderingen op ten hoogste een jaar| | III. Reserves| 8.000|
+| A. Handelsvorderingen| 10.000| IV. Overgedragen verlies| -35.000|
+| B. Overige vorderingen| 8.500| VII. Voorzieningen en uitgestelde belastingen| |
+| IX. Liquide middelen| 28.500| A. Voorzieningen voor risico’s en kosten| 14.000|
+| | | VIII. Schulden op meer dan een jaar| 60.000|
+| | | | |
+| **Totaalbedrag van de activa**|** 127.000**|** Totaalbedrag van de passiva**|** 127.000**|
 
 Om te achterhalen of de alarmbelprocedure in deze situatie toegepast moet worden, dient het bestuursorgaan het nettoactief van deze NV te vergelijken met de helft (of één vierde) van het geplaatst kapitaal. De volgende berekeningen dienen te geschieden:
 

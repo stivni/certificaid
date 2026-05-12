@@ -2,57 +2,37 @@
 bron: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
 datum: 2009-02-11
 nummer: CBN-advies 2009/4
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
-      sha256: 6f30587cbf2f8a2ac685ed3b4a90b51536ee9416c8fa0f16d54d06a311b623e7
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:05:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 3
-      max_section_chars: 3332
-      file_size_chars: 6244
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D4
-          regel: 64
-          type: other
-          voorbeeld: beperkt is tot* "de registratie van de verrichtingen met betrekking tot de mutaties
-        - categorie: B4
-          regel: 56
-          type: other
-          voorbeeld: '## SCHRAPPING VAN HET WOORD « MINIMAAL » IN ARTIKEL 2 EN BIJLAGE A VAN HET BESLUIT (all-caps ##)'
-        - categorie: B4
-          regel: 70
-          type: other
-          voorbeeld: '## HET ONGESPLITSTE DAGBOEK HOUDEN DOOR MIDDEL VAN GEINFORMATISEERDE SYSTEMEN (all-caps ##)'
-      rationale: 'D4 bevestigd r.64: ''beperkt is tot* "de registratie van de verrichtingen'' — sluitende asterisk van italic staat direct vóór een aanhalingsteken zonder spatie-na-asterisk (malformed italic). Aanvullend nieuw in deze ronde: B4 r.56/70: twee ##-headings in all-caps (''## SCHRAPPING VAN HET WOORD « MINIMAAL »'' en ''## HET ONGESPLITSTE DAGBOEK HOUDEN'') die in vorige ronde niet waren gerapporteerd maar duidelijke all-caps structuurlabels zijn. Inhoud volledig; twee voetnoten correct.'
-      run_at: '2026-05-11T17:05:21Z'
-      status: needs-rework
-    rationale: 'D4 bevestigd r.64: ''beperkt is tot* "de registratie van de verrichtingen'' — sluitende asterisk van italic staat direct vóór een aanhalingsteken zonder spatie-na-asterisk (malformed italic). Aanvullend nieuw in deze ronde: B4 r.56/70: twee ##-headings in all-caps (''## SCHRAPPING VAN HET WOORD « MINIMAAL »'' en ''## HET ONGESPLITSTE DAGBOEK HOUDEN'') die in vorige ronde niet waren gerapporteerd maar duidelijke all-caps structuurlabels zijn. Inhoud volledig; twee voetnoten correct.'
-    status: needs-rework
 themas:
   - centraal boek
   - ongesplitst dagboek
   - vereenvoudigde boekhouding
   - vzw
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/model-van-ongesplitst-dagboek-zoals-bedoeld-in-artikel-2-van-het-koninklijk-besluit-van-26
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:47:51Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2009/4 - Model van ongesplitst dagboek zoals bedoeld in artikel 2 van het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde VZW’s, stichtingen en IVZW’s
 
 ## INLEIDING

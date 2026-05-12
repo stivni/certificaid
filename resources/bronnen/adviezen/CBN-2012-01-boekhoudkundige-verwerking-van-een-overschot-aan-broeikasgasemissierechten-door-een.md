@@ -6,50 +6,6 @@ gerelateerde_adviezen:
     titel: Boekhoudkundige verwerking van broeikasgasemissierechten
     url: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-broeikasgasemissierechten
 nummer: CBN-advies 2012/1
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een
-      sha256: a5e15ff6d0abe3c9b6af01ecf3511538573fd4ce60f6dae2ac4ad950f1434fbe
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T17:09:38Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:30Z'
-      heading_count: 3
-      max_section_chars: 4107
-      file_size_chars: 7506
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B5
-          regel: 84
-          type: other
-          voorbeeld: De onderneming behoudt het overschot van emissierechten en heeft dus niet de intentie om deze emissierechten te verkopen op een actieve markt
-        - categorie: B5
-          regel: 89
-          type: other
-          voorbeeld: De onderneming heeft de intentie om het overschot van emissierechten te verkopen op een actieve markt
-        - categorie: D1
-          regel: 131
-          type: abrupt-cutoff
-          voorbeeld: hetgeen een onverantwoorde schending zou zijn van het bestendigheidsbeginse
-      rationale: 'B5: regels 84 en 89 tonen subsectie-titels (''De onderneming behoudt het overschot...'' en ''De onderneming heeft de intentie...'') als plain-text alinea-openers zonder ### prefix — conform de genummerde TOC (regels 1-2 in het document ontbreken, maar de structuur impliceert twee subsecties). D1: voetnoot [^5] op regel 131 eindigt op ''bestendigheidsbeginse'' — één letter afgehakt; mogelijk source-truncatie op CBN-website maar visueel abrupt.'
-      run_at: '2026-05-11T17:09:38Z'
-      status: needs-rework
-    rationale: 'B5: regels 84 en 89 tonen subsectie-titels (''De onderneming behoudt het overschot...'' en ''De onderneming heeft de intentie...'') als plain-text alinea-openers zonder ### prefix — conform de genummerde TOC (regels 1-2 in het document ontbreken, maar de structuur impliceert twee subsecties). D1: voetnoot [^5] op regel 131 eindigt op ''bestendigheidsbeginse'' — één letter afgehakt; mogelijk source-truncatie op CBN-website maar visueel abrupt.'
-    status: needs-rework
 themas:
   - broeikasgasemissierechten
   - bruto-methode
@@ -57,8 +13,32 @@ themas:
   - immateriële vaste activa
   - netto-methode
   - overlopende rekeningen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/boekhoudkundige-verwerking-van-een-overschot-aan-broeikasgasemissierechten-door-een
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:04Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2012/1 - Boekhoudkundige verwerking van een overschot aan broeikasgasemissierechten door een onderneming die de nettomethode toepast
 
 ## Inleiding

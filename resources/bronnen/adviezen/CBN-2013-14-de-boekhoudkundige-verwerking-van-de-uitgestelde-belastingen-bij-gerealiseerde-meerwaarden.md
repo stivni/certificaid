@@ -15,44 +15,36 @@ gerelateerde_adviezen:
     titel: Herwaarderingen verricht met toepassing van de Wet van 20 augustus 1947
     url: https://www.cbn-cnc.be/nl/adviezen/herwaarderingen-verricht-met-toepassing-van-de-wet-van-20-augustus-1947
 nummer: CBN-advies 2013/14
-provenance:
-  generated_at: '2026-05-11T19:17:26Z'
-  inputs:
-    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden
-      sha256: 1797f2099973db21019f401c77a91e8d1096ae56217d8dc0e573e7ac01d20547
-      version:
-  stale: false
-  stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
-  trust:
-    confirmed_at: '2026-05-11T13:30:32Z'
-    confirmed_by: subagent-sonnet-4-6
-    layer1:
-      status: pass
-      run_id: 20260511-191727
-      run_at: '2026-05-11T19:17:31Z'
-      heading_count: 21
-      max_section_chars: 15060
-      file_size_chars: 22448
-      flags: []
-    layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: Geen extractie-artefacten gevonden. Heading-hiërarchie (##/###/####/#####/######) correct en volledig opgebouwd. Alle journaalboekingstabellen correct pipe-syntax met |---| separator. Beide scenario's (meerwaarde + kapitaalsubsidie) voor alle boekjaren (20X1, 20X2, 20X4) inhoudelijk compleet aanwezig. Voetnoten correct gematcht.
-      run_at: '2026-05-11T13:30:32Z'
-      status: trusted
-    rationale: Geen extractie-artefacten gevonden. Heading-hiërarchie (##/###/####/#####/######) correct en volledig opgebouwd. Alle journaalboekingstabellen correct pipe-syntax met |---| separator. Beide scenario's (meerwaarde + kapitaalsubsidie) voor alle boekjaren (20X1, 20X2, 20X4) inhoudelijk compleet aanwezig. Voetnoten correct gematcht.
-    status: trusted
 themas:
   - gerealiseerde meerwaarde
   - kapitaalsubsidie
   - uitgestelde belastingen
+bron_rol: interpretatief
+chunk:
+  level: 2
+  type: '##'
+  sub_strategy:
+provenance:
+  inputs:
+    - id: https://www.cbn-cnc.be/nl/adviezen/de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden
+      sha256:
+      version:
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: ccd9afd
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T22:48:11Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+    layer2:
 ---
-
 # CBN-advies 2013/14 – De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde belastingregeling geldt en bij kapitaalsubsidies
 
 ## Inleiding
@@ -192,39 +184,39 @@ Elke andere verrichting buiten beschouwing gelaten, zal er op 31 december 20X1 g
 
 ##### Balans op 31 december 20X1
 ###### In geval van een meerwaarde
-| Actief Balans Passief | 
+| Actief Balans Passief|
 |---|
-| Materiële vaste activa | | 1.000 | | Belastingvrije reserve | | 594 | 
-| Afschrijvingen (-) | | -100 | | Uitgestelde belastingen | | 306 | 
-| | | | | | | | 
-| | | | | | | | 
-| | | 900 | | | | 900 | 
+| Materiële vaste activa | 1.000| Belastingvrije reserve | 594|
+| Afschrijvingen (-)| -100| Uitgestelde belastingen| 306|
+| | | | |
+| | | | |
+| | 900| | 900|
 
 ###### In geval van een kapitaalsubsidie
-| Actief Balans Passief | 
+| Actief Balans Passief|
 |---|
-| Materiële vaste activa | | 1.000 | | Subsidies | | 594 | 
-| Afschrijvingen (-) | | -100 | | Uitgestelde belastingen | | 306 | 
-| | | | | | | | 
-| | | | | | | | 
-| | | 900 | | | | 900 | 
+| Materiële vaste activa | 1.000| Subsidies| 594|
+| Afschrijvingen (-)| -100| Uitgestelde belastingen| 306|
+| | | | |
+| | | | |
+| | 900| | 900|
 
 ##### Resultatenrekening op 31 december 20X1
-| | | | | Ingeval van een meerwaarde | | Ingeval van een kapitaalsubsidie | 
-|---|---|---|---|---|---|---|
-| II. D. | | Afschrijvingen | | -100 | | -100 | 
-| IV. | | Financiële opbrengsten | | | | 66 | 
-| VII. D. | | Meerwaarden bij de realisatie van vaste activa | | 1.000 | | | 
-| | | | | | | | 
-| IX. | | Winst vóór belastingen | | 900 | | -34 | 
-| IX. *bis* | | Overboeking naar de uitgestelde belastingen | | -340 | | - | 
-| | | Onttrekking aan de uitgestelde belastingen | | +34 | | +34 | 
-| | | | | | | | 
-| X. | | Belastingen op het resultaat | | - | | - | 
-| XI. | | Winst van het boekjaar | | 594 | | | 
-| XII. | | Overboeking naar de belastingvrije reserves | | -660 | | | 
-| | | Onttrekking aan de belastingvrije reserves | | +66 | | | 
-| XIII. | | Te bestemmen winst | | 0 | | 0 | 
+| | | Ingeval van een meerwaarde| Ingeval van een kapitaalsubsidie|
+|---|---|---|---|
+| II. D.| Afschrijvingen| -100| -100|
+| IV.| Financiële opbrengsten| | 66|
+| VII. D.| Meerwaarden bij de realisatie van vaste activa | 1.000 | |
+| | | | |
+| IX.| Winst vóór belastingen| 900| -34|
+| IX. *bis*| Overboeking naar de uitgestelde belastingen| -340| -|
+| | Onttrekking aan de uitgestelde belastingen| +34| +34|
+| | | | |
+| X.| Belastingen op het resultaat| -| -|
+| XI.| Winst van het boekjaar| 594| |
+| XII.| Overboeking naar de belastingvrije reserves| -660| |
+| | Onttrekking aan de belastingvrije reserves| +66| |
+| XIII.| Te bestemmen winst| 0| 0|
 
 #### Jaar 20X2
 Tijdens het jaar 20X2 zullen voor de betrokken verrichtingen dezelfde boekingen plaatsvinden als in het jaar 20X1. 
@@ -235,36 +227,36 @@ Wat betreft de kapitaalsubsidie zal een afschrijving plaatsvinden van het gesubs
 
 ##### Balans op 31 december 20X2
 ###### In geval van een meerwaarde
-| Actief Balans Passief | 
+| Actief Balans Passief|
 |---|
-| Materiële vaste activa | | 1.000 | | Belastingvrije reserves | | 528 | 
-| Afschrijvingen (-) | | -200 | | Uitgestelde belastingen | | 272 | 
-| | | | | | | | 
-| | | | | | | | 
-| | | 800 | | | | 800 | 
+| Materiële vaste activa| 1.000| Belastingvrije reserves| 528|
+| Afschrijvingen (-)| -200| Uitgestelde belastingen| 272|
+| | | | |
+| | | | |
+| | 800| | 800|
 
 ###### In geval van een kapitaalsubsidie
-| Actief Balans Passief | 
+| Actief Balans Passief|
 |---|
-| Materiële vaste activa | | 1.000 | | Subsidies | | 528 | 
-| Afschrijvingen (-) | | -200 | | Uitgestelde belastingen | | 272 | 
-| | | | | | | | 
-| | | | | | | | 
-| | | 800 | | | | 800 | 
+| Materiële vaste activa| 1.000| Subsidies| 528|
+| Afschrijvingen (-)| -200| Uitgestelde belastingen | 272|
+| | | | |
+| | | | |
+| | 800| | 800|
 
 ##### Resultatenrekening op 31 december 20X2
-| | | | | Ingeval van een meerwaarde | | Ingeval van een kapitaalsubsidie | 
-|---|---|---|---|---|---|---|
-| II. D. | | Afschrijvingen | | -100 | | -100 | 
-| IV. | | Financiële opbrengsten | | | | 66 | 
-| | | | | | | | 
-| IX. | | Winst vóór belastingen | | -100 | | -34 | 
-| IX. *bis* | | Onttrekking aan de uitgestelde belasting | | +34 | | +34 | 
-| | | | | | | | 
-| X. | | Belastingen op het resultaat | | - | | - | 
-| XI. | | Winst van het boekjaar | | -66 | | 0 | 
-| XII. | | Onttrekking aan de belastingvrije reserves | | +66 | | | 
-| XIII. | | Te bestemmen winst | | 0 | | 0 | 
+| | | Ingeval van een meerwaarde| Ingeval van een kapitaalsubsidie|
+|---|---|---|---|
+| II. D.| Afschrijvingen| -100| -100|
+| IV.| Financiële opbrengsten| | 66|
+| | | | |
+| IX.| Winst vóór belastingen| -100| -34|
+| IX. *bis*| Onttrekking aan de uitgestelde belasting| +34| +34|
+| | | | |
+| X.| Belastingen op het resultaat| -| -|
+| XI.| Winst van het boekjaar| -66| 0|
+| XII.| Onttrekking aan de belastingvrije reserves| +66| |
+| XIII.| Te bestemmen winst| 0| 0|
 
 #### Jaar 20X4
 Tijdens het jaar 20X4 zullen voor de betrokken verrichtingen dezelfde boekingen plaatsvinden als in het jaar 20X1, 20X2 en 20X3. 
