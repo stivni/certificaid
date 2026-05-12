@@ -1260,7 +1260,8 @@ sources:
       method: pymupdf_wetboek
       params:
         force_columns: 2
-        column_filter: both
+        column_filter: nl
+        mode: eu_richtlijn
   BTW-uitvoeringsverordening-282-2011:
     bron_rol: itaa_lex
     simple_mode: true
@@ -1278,6 +1279,7 @@ sources:
       params:
         force_columns: 2
         column_filter: both
+        mode: eu_richtlijn
   BTW-teruggaaf-richtlijn-2008-9:
     bron_rol: itaa_lex
     simple_mode: true
@@ -1296,6 +1298,7 @@ sources:
       params:
         force_columns: 2
         column_filter: both
+        mode: eu_richtlijn
   BTW-dertiende-richtlijn-1986:
     bron_rol: itaa_lex
     simple_mode: true
@@ -1312,6 +1315,7 @@ sources:
       params:
         force_columns: 2
         column_filter: both
+        mode: eu_richtlijn
   MIGB-Brussel:
     bron_rol: itaa_lex
     raw: "resources/raw/wetteksten/MIGB-Brussel.pdf"
@@ -1426,6 +1430,7 @@ sources:
       params:
         force_columns: 2
         column_filter: both
+        mode: eu_richtlijn
   EU-Richtlijn-interest-royalties-2003-49:
     bron_rol: itaa_lex
     simple_mode: true
@@ -1444,6 +1449,7 @@ sources:
       params:
         force_columns: 2
         column_filter: both
+        mode: eu_richtlijn
   EU-Richtlijn-fusie-2009-133:
     bron_rol: itaa_lex
     simple_mode: true
@@ -1462,6 +1468,7 @@ sources:
       params:
         force_columns: 2
         column_filter: both
+        mode: eu_richtlijn
   Richtlijn-2013-34-EU:
     bron_rol: itaa_lex
     simple_mode: true
@@ -1479,6 +1486,7 @@ sources:
       params:
         force_columns: 2
         column_filter: both
+        mode: eu_richtlijn
   EU-IFRS-verordening-1606-2002:
     bron_rol: normatief
     simple_mode: true
@@ -1496,6 +1504,7 @@ sources:
       params:
         force_columns: 2
         column_filter: both
+        mode: eu_richtlijn
   EU-Richtlijn-witwassen-2018-1673:
     bron_rol: normatief
     simple_mode: true
@@ -1513,6 +1522,7 @@ sources:
       params:
         force_columns: 2
         column_filter: both
+        mode: eu_richtlijn
   KB-voorafgaande-beslissingen-art22-2003:
     bron_rol: normatief
     output: resources/bronnen/wetteksten/KB-voorafgaande-beslissingen-art22-2003.md
