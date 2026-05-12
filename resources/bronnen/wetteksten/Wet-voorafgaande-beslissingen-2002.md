@@ -17,31 +17,19 @@ provenance:
       version: 24.12.2002
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f9ce762
+    pipeline_version: f9ce762-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T15:58:20Z'
+  generated_at: '2026-05-12T18:20:47Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T16:08:56Z'
-    confirmed_by: subagent-unspecified
-    rationale: Geen Fisconet-artefacten. 43 artikelheadings. De standalone '#### Art. 7', '#### Art. 14', '#### Art. 31' headings in de slotbepalingen (r262-281) zijn overgangsbepalingen waar de artikelnummers als verwijzingen dienen — dit is source-opmaak van de wet. Inhoud volledig.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-160243
-      run_at: '2026-05-12T16:02:43Z'
-      heading_count: 43
-      max_section_chars: 4244
-      file_size_chars: 29697
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-unspecified
-      run_at: '2026-05-12T16:08:56Z'
-      rationale: Geen Fisconet-artefacten. 43 artikelheadings. De standalone '#### Art. 7', '#### Art. 14', '#### Art. 31' headings in de slotbepalingen (r262-281) zijn overgangsbepalingen waar de artikelnummers als verwijzingen dienen — dit is source-opmaak van de wet. Inhoud volledig.
-      concrete_problemen: []
 ---
 
 # Wet voorafgaande beslissingen in fiscale zaken
@@ -214,7 +202,7 @@ Zolang er geen beslissing is genomen, moet de aanvraag worden aangevuld met elk 
 De voorafgaande beslissing wordt meegedeeld aan de aanvrager binnen een termijn van drie maanden vanaf de datum van indiening van de overeenkomstig de vorige leden opgestelde aanvraag. De Federale Overheidsdienst Financiën en de aanvrager kunnen in onderlinge overeenstemming deze termijn wijzigen.
 Ten laatste binnen vijftien werkdagen vanaf het ogenblik dat de aanvraag volledig is, licht de Federale
 
-#### Art. 22.Een
+#### Art. 22. Een
 
 voorafgaande beslissing kan niet worden gegeven wanneer :
 1° de aanvraag betrekking heeft op situaties of verrichtingen die identiek zijn aan die welke op fiscaal vlak reeds gevolgen hebben ten name van de aanvrager of op fiscaal vlak het voorwerp uitmaken van een administratief beroep of gerechtelijke handeling tussen de Belgische Staat en de aanvrager;

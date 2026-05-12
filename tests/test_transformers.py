@@ -28,6 +28,7 @@ from tools.etl.transformers.inject_headings_wettekst import inject_headings_wett
 from tools.etl.transformers.organize_headings import organize_headings  # noqa: E402
 from tools.etl.transformers.emit_frontmatter import emit_frontmatter  # noqa: E402
 from tools.etl.transformers.strip_fisconet_artefacts import strip_fisconet_artefacts  # noqa: E402
+from tools.etl.transformers.fix_stuck_art_number import fix_stuck_art_number  # noqa: E402
 
 
 # ─── apply_chain ─────────────────────────────────────────────────────────────
@@ -474,3 +475,86 @@ als TOC-blok beschouwd wordt door de conservatieve heuristiek hier.
     def test_geregistreerd_in_transformers(self):
         """strip_fisconet_artefacts moet zichtbaar zijn in TRANSFORMERS-registry."""
         assert "strip_fisconet_artefacts" in TRANSFORMERS
+
+
+# ─── fix_stuck_art_number ─────────────────────────────────────────────────────
+
+class TestFixStuckArtNumber:
+    """Voeg ontbrekende spatie tussen `Art. N.` en eerste body-karakter."""
+
+    def test_basic_capital_letter(self):
+        """`Art. 3.Deze wet ...` → `Art. 3. Deze wet ...`"""
+        body = "Art. 3.Deze wet is van toepassing"
+        result, _ = fix_stuck_art_number(body, {})
+        assert result == "Art. 3. Deze wet is van toepassing"
+
+    def test_bracketed_amendment_marker(self):
+        """`Art. 4.[1 § 1.` → `Art. 4. [1 § 1.`"""
+        body = "Art. 4.[1 § 1. Indien er ..."
+        result, _ = fix_stuck_art_number(body, {})
+        assert result == "Art. 4. [1 § 1. Indien er ..."
+
+    def test_articke_keyword_long_form(self):
+        """`Artikel 5.Deze ...` → `Artikel 5. Deze ...`"""
+        body = "Artikel 5.Deze bepaling treedt in werking"
+        result, _ = fix_stuck_art_number(body, {})
+        assert result == "Artikel 5. Deze bepaling treedt in werking"
+
+    def test_wvv_num_colon_num(self):
+        """`Art. 1:5.Een vennootschap ...` → met spatie."""
+        body = "Art. 1:5.Een vennootschap wordt opgericht"
+        result, _ = fix_stuck_art_number(body, {})
+        assert result == "Art. 1:5. Een vennootschap wordt opgericht"
+
+    def test_wer_roman_prefix(self):
+        """`Art. XV.125.De ...` → met spatie."""
+        body = "Art. XV.125.De Koning kan ..."
+        result, _ = fix_stuck_art_number(body, {})
+        assert result == "Art. XV.125. De Koning kan ..."
+
+    def test_bis_suffix(self):
+        """`Art. 3bis.Tekst ...` → met spatie."""
+        body = "Art. 3bis.Tekst van het artikel"
+        result, _ = fix_stuck_art_number(body, {})
+        assert result == "Art. 3bis. Tekst van het artikel"
+
+    def test_no_change_when_space_already_present(self):
+        """`Art. 3. Deze wet` blijft onveranderd."""
+        body = "Art. 3. Deze wet is van toepassing"
+        result, _ = fix_stuck_art_number(body, {})
+        assert result == body
+
+    def test_no_change_for_inline_reference(self):
+        """`zoals in art. 5 vermeld` (geen punt-eind) onveranderd."""
+        body = "zoals in art. 5 vermeld in de inleiding"
+        result, _ = fix_stuck_art_number(body, {})
+        assert result == body
+
+    def test_no_change_for_sub_numbering(self):
+        """`Art. 3.5 De ...` is sub-numbering, geen heading-eind. Niet aanraken."""
+        body = "Art. 3.5 De Koning kan ..."
+        result, _ = fix_stuck_art_number(body, {})
+        assert result == body
+
+    def test_multiple_occurrences_in_body(self):
+        """Meerdere stuck-art-numbers worden ALLEMAAL gefixt."""
+        body = (
+            "### Art. 3.Deze wet is van toepassing.\n\n"
+            "### Art. 4.De Koning kan ..."
+        )
+        result, _ = fix_stuck_art_number(body, {})
+        assert result == (
+            "### Art. 3. Deze wet is van toepassing.\n\n"
+            "### Art. 4. De Koning kan ..."
+        )
+
+    def test_idempotent(self):
+        """Tweede call op output verandert niets."""
+        body = "Art. 3.Deze wet is van toepassing"
+        once, _ = fix_stuck_art_number(body, {})
+        twice, _ = fix_stuck_art_number(once, {})
+        assert once == twice
+
+    def test_geregistreerd_in_transformers(self):
+        """fix_stuck_art_number moet in TRANSFORMERS-registry zitten."""
+        assert "fix_stuck_art_number" in TRANSFORMERS

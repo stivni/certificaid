@@ -69,16 +69,16 @@ from tools.etl.transformers import apply_chain  # noqa: E402
 # Tot die tijd zijn ze hier hardcoded als interim-oplossing.
 
 DEFAULT_CHAINS: dict[str, list[str]] = {
-    "pdftotext_ejustice":       ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
-    "custom_wetboek":           ["cleanup_basics", "strip_fisconet_artefacts", "inject_headings_wettekst", "emit_frontmatter"],
-    "custom_wib92":             ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
-    "justel_html":              ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
-    "justel_change_lg":         ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
-    "justel_bs_bilingual":      ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
-    "pymupdf_wetboek":          ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
+    "pdftotext_ejustice":       ["cleanup_basics", "fix_stuck_art_number", "inject_headings_wettekst", "emit_frontmatter"],
+    "custom_wetboek":           ["cleanup_basics", "strip_fisconet_artefacts", "fix_stuck_art_number", "inject_headings_wettekst", "emit_frontmatter"],
+    "custom_wib92":             ["cleanup_basics", "fix_stuck_art_number", "inject_headings_wettekst", "emit_frontmatter"],
+    "justel_html":              ["cleanup_basics", "fix_stuck_art_number", "inject_headings_wettekst", "emit_frontmatter"],
+    "justel_change_lg":         ["cleanup_basics", "fix_stuck_art_number", "inject_headings_wettekst", "emit_frontmatter"],
+    "justel_bs_bilingual":      ["cleanup_basics", "fix_stuck_art_number", "inject_headings_wettekst", "emit_frontmatter"],
+    "pymupdf_wetboek":          ["cleanup_basics", "fix_stuck_art_number", "inject_headings_wettekst", "emit_frontmatter"],
     "cbn_advies":               ["cleanup_basics", "emit_frontmatter"],
     "extract_norm":             ["cleanup_basics", "emit_frontmatter"],
-    "pdftotext_compilatie_btw": ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
+    "pdftotext_compilatie_btw": ["cleanup_basics", "fix_stuck_art_number", "inject_headings_wettekst", "emit_frontmatter"],
 }
 
 _DEFAULT_CHAIN_FALLBACK: list[str] = ["cleanup_basics", "emit_frontmatter"]

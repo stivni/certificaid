@@ -1,12 +1,15 @@
 ---
-bijgewerkt: '2022'
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["VI.B", "2.4"]
+itaa-lex-sectie: "VI.B"
+wet: "K.B. nr. 56, 10 april 2022, met betrekking tot de teruggaaf inzake btw aan belastingplichtigen gevestigd in een andere lidstaat dan de lidstaat van teruggaaf"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "2022"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 4
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: VI.B
 provenance:
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB56-teruggaaf.pdf
@@ -14,67 +17,26 @@ provenance:
       version: '2022'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: f9ce762-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:24Z'
+  generated_at: '2026-05-12T18:20:48Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "D2/B5: Art. 1 ontbreekt volledig — het bestand begint direct met de body-tekst 'teruggaaf van de belasting over de toegevoegde waarde aan niet op het grondgebied...' zonder Art. 1-heading en -tekst. A6: Meerdere spurious line-breaks midden in zinnen: regel 157-159 ('Het teruggaafverzoek wordt uiterlijk op 30 september... teruggaaftijdvak'), regel 207-209, regel 305-307, regel 360-362. Structuur (HOOFDSTUK ##, Afdeling ###, Art ####) is verder consistent."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 35505
-      flags: []
-      heading_count: 54
-      max_section_chars: 2999
-      run_at: '2026-05-11T13:40:48Z'
-      run_id: 20260511-134044
-      status: pass
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "D2/B5: Art. 1 ontbreekt volledig — het bestand begint direct met de body-tekst 'teruggaaf van de belasting over de toegevoegde waarde aan niet op het grondgebied...' zonder Art. 1-heading en -tekst. A6: Meerdere spurious line-breaks midden in zinnen: regel 157-159 ('Het teruggaafverzoek wordt uiterlijk op 30 september... teruggaaftijdvak'), regel 207-209, regel 305-307, regel 360-362. Structuur (HOOFDSTUK ##, Afdeling ###, Art ####) is verder consistent."
-      concrete_problemen:
-        - regel: 60
-          categorie: D2
-          type: missing-section
-          voorbeeld: teruggaaf van de belasting... (Art. 1 volledig ontbrekend als heading en tekst)
-        - regel: 157
-          categorie: A6
-          type: other
-          voorbeeld: "Het teruggaafverzoek wordt uiterlijk op 30 september van het kalenderjaar volgend op het\n\nteruggaaftijdvak bij de lidstaat"
-        - regel: 207
-          categorie: A6
-          type: other
-          voorbeeld: "Correcties betreffende een eerder teruggaafverzoek...worden door de administratie in meer of in min...of, in geval van toezending van een\n\nafzonderlijke verklaring"
-        - regel: 305
-          categorie: A6
-          type: other
-          voorbeeld: "behalve in het geval van invoer, de naam en het volledige adres en het btw-identificatienummer dat de letters\n\nBE bevat"
-        - regel: 360
-          categorie: A6
-          type: other
-          voorbeeld: "Indien de aanvullende gegevens worden opgevraagd bij een andere persoon dan de aanvrager wordt alleen langs elektronische weg om gegevens verzocht indien de bestemmeling van het verzoek\n\nover de desbetreffende apparatuur beschikt."
-status: beschikbaar
-tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 56, 10 april 2022, met betrekking tot de teruggaaf inzake btw aan belastingplichtigen gevestigd in een andere lidstaat dan de lidstaat van teruggaaf
 ---
 
 # BTW KB nr. 56 — Teruggaaf aan buitenlandse belastingplichtigen
 
 *Bijgewerkt tot en met 2022 — gecoördineerde versie.*
 
-Titel
-
 10 APRIL 2022. - Koninklijk besluit nr. 56 met betrekking tot de teruggaaf inzake belasting over de toegevoegde waarde aan belastingplichtigen gevestigd in een andere lidstaat dan de lidstaat van teruggaaf en aan niet in de Gemeenschap gevestigde belastingplichtigen
-
-Bron : FINANCIEN
 
 teruggaaf van de belasting over de toegevoegde waarde aan niet op het grondgebied van de Gemeenschap gevestigde belastingplichtigen.
 
@@ -270,7 +232,7 @@ De aanvrager kan worden gevraagd zijn beroepsactiviteit te omschrijven aan de ha
 Het teruggaafverzoek wordt uiterlijk op 30 september van het kalenderjaar volgend op het teruggaaftijdvak ingediend. Het teruggaafverzoek wordt alleen als ingediend aangemerkt indien de aanvrager alle in de artikelen 24 en 25 gevraagde gegevens heeft verstrekt.
 De administratie stuurt de aanvrager onverwijld langs elektronische weg een bevestiging van ontvangst.
 
-#### Art. 27.De
+#### Art. 27. De
 
 administratie stuurt het verzoek niet door aan de lidstaat van teruggaaf wanneer de in België gevestigde aanvrager gedurende het teruggaaftijdvak:
 1° niet aan de belasting over de toegevoegde waarde is onderworpen;

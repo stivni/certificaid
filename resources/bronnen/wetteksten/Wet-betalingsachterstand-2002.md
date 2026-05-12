@@ -17,35 +17,19 @@ provenance:
       version: 02.08.2002
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f9ce762
+    pipeline_version: f9ce762-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T15:58:20Z'
+  generated_at: '2026-05-12T18:20:46Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T16:08:56Z'
-    confirmed_by: subagent-unspecified
-    rationale: "D2: Art. 2 (definities) is onvolledig geëxtraheerd — de body begint midden in Art. 2 bij definitie 4 ('referentie-interestvoet'), en definities 1-3 ontbreken ('handelstransactie', 'overheidsinstantie', en eerste definitie met verwijzing naar 'Richtlijn 2004/17/EG'). Dit is een extractietruncatie van de eerste pagina."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-160243
-      run_at: '2026-05-12T16:02:43Z'
-      heading_count: 16
-      max_section_chars: 4130
-      file_size_chars: 15067
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-unspecified
-      run_at: '2026-05-12T16:08:56Z'
-      rationale: "D2: Art. 2 (definities) is onvolledig geëxtraheerd — de body begint midden in Art. 2 bij definitie 4 ('referentie-interestvoet'), en definities 1-3 ontbreken ('handelstransactie', 'overheidsinstantie', en eerste definitie met verwijzing naar 'Richtlijn 2004/17/EG'). Dit is een extractietruncatie van de eerste pagina."
-      concrete_problemen:
-        - regel: 48
-          categorie: D2
-          type: missing-section
-          voorbeeld: "Body start: 'Richtlijn 2004/17/EG en in artikel 1, lid 9...' — dit is midden Art. 2 definitie 3; definities 1-3 ontbreken"
 ---
 
 # Wet betalingsachterstand handelstransacties
@@ -59,7 +43,7 @@ Richtlijn 2004/17/EG en in artikel 1, lid 9, van Richtlijn 2004/18/EG, ongeacht 
 5. " beroepsregulerende overheid " : de beroepsorde die of het beroepsinstituut dat krachtens de wet bevoegd is om de beroepsactiviteit van een bepaald vrij beroep te reguleren;
 [1 6. " verschuldigd bedrag " : de hoofdsom die binnen de contractuele of wettelijke betalingstermijn had moeten voldaan, inclusief toepasselijke belastingen, rechten, heffingen of kosten als vermeld in de factuur of in een gelijkwaardig verzoek tot betaling;]1 [2 7. "kmo": een onderneming die op het ogenblik van het sluiten van een handelstransactie valt binnen de criteria vastgesteld in artikel 1:24, § 1, van het Wetboek van vennootschappen en verenigingen.]2 (1)<W 2013-11-22/12, art. 3, 004; Inwerkingtreding : 16-03-2013> (2)<W 2019-05-28/16, art. 2, 009; Inwerkingtreding : 29-04-2020>
 
-### Art. 3.Deze
+### Art. 3. Deze
 
 wet is van toepassing op alle betalingen tot vergoeding van handelstransacties.
 Zij doet geen afbreuk aan de bijzondere regels inzake insolventieprocedures en in het bijzonder aan de bepalingen van [4 het Boek XX van het Wetboek van economisch recht]4 en van de titel IV " Collectieve schuldenregeling " van het vijfde deel van het Gerechtelijk Wetboek.
@@ -69,7 +53,7 @@ Zij doet geen afbreuk aan de bijzondere regels inzake insolventieprocedures en i
 
 ## HOOFDSTUK II. - Betalingsachterstand bij handelstransacties.
 
-### Art. 4.[1 § 1. Indien er in de overeenkomst geen datum of termijn voor betaling is vastgesteld, dient elke betaling tot vergoeding van een handelstransactie tussen ondernemingen te gebeuren binnen een termijn van dertig kalenderdagen te rekenen vanaf de dag volgend op die :
+### Art. 4. [1 § 1. Indien er in de overeenkomst geen datum of termijn voor betaling is vastgesteld, dient elke betaling tot vergoeding van een handelstransactie tussen ondernemingen te gebeuren binnen een termijn van dertig kalenderdagen te rekenen vanaf de dag volgend op die :
 1° van de ontvangst door de schuldenaar van de factuur of een gelijkwaardig verzoek tot betaling, of
 2° van de ontvangst van de goederen of diensten, indien de datum van ontvangst van de factuur of het gelijkwaardig verzoek tot betaling niet vaststaat of indien de schuldenaar de factuur of het gelijkwaardig verzoek tot betaling eerder ontvangt dan [3 de goederen of diensten.]3
 3° [3 ...]3
@@ -84,13 +68,13 @@ In afwijking van het eerste lid en zonder dat partijen een langere betalingsterm
 In geen geval mag de ontvangstdatum van de factuur bij contractuele overeenkomst tussen schuldenaar en schuldeiser worden vastgelegd. [3 Uiterlijk op het moment van ontvangst van de goederen of prestatie van de diensten voorziet de schuldenaar de schuldeiser van alle informatie die nodig is om de factuur te kunnen uitreiken.]3 [3 Indien de wet of de overeenkomst voorziet in een procedure voor aanvaarding of controle ter verificatie van de conformiteit van de goederen of diensten met de overeenkomst, maakt de termijn voor deze verificatie integraal deel uit van de betalingstermijn bedoeld in het eerste of tweede lid.]3
 § 3. In afwijking van paragrafen 1 en 2, kunnen partijen betalingsregelingen met betaling in termijnen overeenkomen. In dergelijke gevallen worden, indien een van de afbetalingstermijnen niet op de afgesproken datum worden voldaan, de interest en de vergoeding uitsluitend berekend over de achterstallige bedragen.]1 (1)<W 2013-11-22/12, art. 6, 004; Inwerkingtreding : 16-03-2013> (2)<W 2019-05-28/16, art. 3, 009; Inwerkingtreding : 29-04-2020> (3)<W 2021-08-14/12, art. 2, 010; Inwerkingtreding : 01-02-2022>
 
-### Art. 5.[1 [2 Indien de schuldeiser zijn contractuele en wettelijke verplichtingen heeft vervuld en het verschuldigde bedrag niet op tijd heeft ontvangen, wordt het openstaande bedrag vanaf de daarop volgende dag van rechtswege en zonder ingebrekestelling verhoogd met een intrest, behalve indien de schuldenaar bewijst dat hij niet verantwoordelijk is voor de vertraging.]2 Indien de partijen niet anders zijn overeengekomen met inachtneming van artikel 7, is deze interest de interest tegen de referentie-interestvoet vermeerderd met acht procentpunten en afgerond tot het hogere halve procentpunt. Indien het handelstransacties betreft tussen ondernemingen en overheidsinstanties, waarbij de schuldenaar een overheidsinstantie is, is deze interest de interest tegen de referentie-interestvoet vermeerderd met acht procentpunten en afgerond tot het hogere halve procentpunt, ongeacht enige andersluidende overeenkomst tussen de partijen.]1 De Minister van Financiën zal de aldus bepaalde interestvoet, alsmede iedere wijziging van deze interestvoet, via een bericht in het Belgisch Staatsblad meedelen.
+### Art. 5. [1 [2 Indien de schuldeiser zijn contractuele en wettelijke verplichtingen heeft vervuld en het verschuldigde bedrag niet op tijd heeft ontvangen, wordt het openstaande bedrag vanaf de daarop volgende dag van rechtswege en zonder ingebrekestelling verhoogd met een intrest, behalve indien de schuldenaar bewijst dat hij niet verantwoordelijk is voor de vertraging.]2 Indien de partijen niet anders zijn overeengekomen met inachtneming van artikel 7, is deze interest de interest tegen de referentie-interestvoet vermeerderd met acht procentpunten en afgerond tot het hogere halve procentpunt. Indien het handelstransacties betreft tussen ondernemingen en overheidsinstanties, waarbij de schuldenaar een overheidsinstantie is, is deze interest de interest tegen de referentie-interestvoet vermeerderd met acht procentpunten en afgerond tot het hogere halve procentpunt, ongeacht enige andersluidende overeenkomst tussen de partijen.]1 De Minister van Financiën zal de aldus bepaalde interestvoet, alsmede iedere wijziging van deze interestvoet, via een bericht in het Belgisch Staatsblad meedelen.
 (1)<W 2013-11-22/12, art. 7, 004; Inwerkingtreding : 16-03-2013>
 (2)<W 2021-08-14/12, art. 3, 010; Inwerkingtreding : 01-02-2022>
 
-### Art. 6.[1 [2 Als er verwijlintrest overeenkomstig de bepalingen van deze wet verschuldigd is, wordt het openstaande bedrag van rechtswege en zonder ingebrekestelling verhoogd met een forfaitaire vergoeding van 40 euro voor de invorderingskosten van de schuldeiser.]2 Bovenop dit forfaitaire bedrag heeft de schuldeiser recht op een redelijke schadeloosstelling voor alle andere invorderingskosten welke dat vaste bedrag te boven gaan en die ontstaan zijn door de laattijdige betaling, hierin begrepen de rechtsplegingvergoeding overeenkomstig de bepalingen van het Gerechtelijk Wetboek.]1 (1)<W 2013-11-22/12, art. 8, 004; Inwerkingtreding : 16-03-2013> (2)<W 2021-08-14/12, art. 4, 010; Inwerkingtreding : 01-02-2022>
+### Art. 6. [1 [2 Als er verwijlintrest overeenkomstig de bepalingen van deze wet verschuldigd is, wordt het openstaande bedrag van rechtswege en zonder ingebrekestelling verhoogd met een forfaitaire vergoeding van 40 euro voor de invorderingskosten van de schuldeiser.]2 Bovenop dit forfaitaire bedrag heeft de schuldeiser recht op een redelijke schadeloosstelling voor alle andere invorderingskosten welke dat vaste bedrag te boven gaan en die ontstaan zijn door de laattijdige betaling, hierin begrepen de rechtsplegingvergoeding overeenkomstig de bepalingen van het Gerechtelijk Wetboek.]1 (1)<W 2013-11-22/12, art. 8, 004; Inwerkingtreding : 16-03-2013> (2)<W 2021-08-14/12, art. 4, 010; Inwerkingtreding : 01-02-2022>
 
-### Art. 7.Contractuele
+### Art. 7. Contractuele
 
 bedingen die afwijken van de bepalingen van dit hoofdstuk worden door de rechter, op verzoek van de schuldeiser, herzien indien zij, alle omstandigheden in aanmerking genomen, met inbegrip van de goede handelspraktijken en de aard van het produkt of de dienst, een kennelijke onbillijkheid jegens de schuldeiser behelzen, met dien verstande dat de door de rechter bepaalde billijke voorwaarden aan de schuldeiser niet meer rechten kunnen verlenen dan deze waarover hij krachtens de bepalingen van dit hoofdstuk zou beschikken.
 Bij de beoordeling van het kennelijke onbillijk karakter in de zin van het vorige lid zal de rechter onder meer nagaan [1 of het contractueel beding een kennelijk onevenwicht schept tussen de rechten en plichten van de partijen ten nadele van de schuldeiser en]1 of de schuldenaar objectieve redenen heeft om af te wijken van de bepalingen van dit hoofdstuk.
@@ -101,14 +85,14 @@ Voor de toepassing van het eerste lid worden contractuele bedingen of praktijken
 
 ## HOOFDSTUK III. - Vordering tot staking.
 
-### Art. 8.De
+### Art. 8. De
 
 voorzitter van de rechtbank van eerste aanleg of, indien de vordering wordt ingesteld tegen [2 ondernemingen als bedoeld in artikel 573, eerste lid, 1°, van het Gerechtelijk Wetboek]2 of hun beroepsverenigingen of interprofessionele verenigingen, de voorzitter van de [3 ondernemingsrechtbank]3, stelt het bestaan vast en beveelt de staking van het gebruik van contractuele bedingen [1 of praktijken]1 die een kennelijke onbillijkheid behelzen in de zin van artikel 7.
 (1)<W 2013-11-22/12, art. 10, 004; Inwerkingtreding : 16-03-2013>
 (2)<W 2014-03-26/33, art. 10, 005; Inwerkingtreding : 01-07-2014>
 (3)<W 2018-04-15/14, art. 252, 008; Inwerkingtreding : 01-11-2018>
 
-### Art. 9.De
+### Art. 9. De
 
 vordering tot staking, bedoeld in artikel 8, wordt ingesteld op verzoek van :
 1° de belanghebbenden;
@@ -139,7 +123,7 @@ Artikel 587, eerste lid, van het Gerechtelijk Wetboek, gewijzigd bij de wetten v
 
 Artikel 589 van het Gerechtelijk Wetboek, gewijzigd bij de wetten van 11 april 1999, wordt aangevuld met de volgende bepaling : " 7° bedoeld in artikel 8 van de wet van 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelstransacties die worden ingesteld tegen handelaars of hun beroepsverenigingen of interprofessionele verenigingen. "
 
-### Art. 14.Deze
+### Art. 14. Deze
 
 wet is van toepassing op betalingen in uitvoering van overeenkomsten gesloten, vernieuwd of verlengd [1 vanaf 16 maart 2013]1.
 Ze is in elk geval van toepassing op betalingen in uitvoering van lopende overeenkomsten twee jaar [1 te rekenen vanaf 16 maart 2013]1.

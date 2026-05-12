@@ -15,6 +15,7 @@ from tools.etl.transformers.inject_headings_wettekst import inject_headings_wett
 from tools.etl.transformers.organize_headings import organize_headings
 from tools.etl.transformers.emit_frontmatter import emit_frontmatter
 from tools.etl.transformers.strip_fisconet_artefacts import strip_fisconet_artefacts
+from tools.etl.transformers.fix_stuck_art_number import fix_stuck_art_number
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
@@ -22,6 +23,7 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "organize_headings": organize_headings,
     "emit_frontmatter": emit_frontmatter,
     "strip_fisconet_artefacts": strip_fisconet_artefacts,
+    "fix_stuck_art_number": fix_stuck_art_number,
 }
 
 

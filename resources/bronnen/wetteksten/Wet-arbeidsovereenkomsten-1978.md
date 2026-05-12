@@ -17,31 +17,19 @@ provenance:
       version: 03.07.1978
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f9ce762
+    pipeline_version: f9ce762-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T15:58:19Z'
+  generated_at: '2026-05-12T18:20:43Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T16:08:56Z'
-    confirmed_by: subagent-unspecified
-    rationale: Geen Fisconet-artefacten. 207 artikelheadings in correcte hiërarchie. Groot document (255k chars) maar geen structurele problemen. Wijzigingshistorie consistent aanwezig. Art. 138 correct als slotartikel.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-160243
-      run_at: '2026-05-12T16:02:43Z'
-      heading_count: 207
-      max_section_chars: 22809
-      file_size_chars: 255367
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-unspecified
-      run_at: '2026-05-12T16:08:56Z'
-      rationale: Geen Fisconet-artefacten. 207 artikelheadings in correcte hiërarchie. Groot document (255k chars) maar geen structurele problemen. Wijzigingshistorie consistent aanwezig. Art. 138 correct als slotartikel.
-      concrete_problemen: []
 ---
 
 # Wet arbeidsovereenkomsten 1978
@@ -52,7 +40,7 @@ provenance:
 
 Nota :           art. 3bis-3ter gewijzigd met ingang op een onbepaalde datum bij W 2018-01-15/02, art. 11 en 18;
 
-##### Art. 1.Deze
+##### Art. 1. Deze
 
 wet regelt de arbeidsovereenkomsten voor werklieden, bedienden, handelsvertegenwoordigers en dienstboden.
 Zij is ook van toepassing op de bij het eerste lid bedoelde werknemers, tewerkgesteld door het Rijk, de provincies, de agglomeraties, de federaties van gemeenten, de gemeenten, de openbare instellingen welke eronder ressorteren, de instellingen van openbaar nut en de door het Rijk gesubsidieerde inrichtingen van het vrij onderwijs, en wier toestand niet statutair geregeld is.
@@ -62,14 +50,14 @@ Zij is ook van toepassing op de bij het eerste lid bedoelde werknemers, tewerkge
 
 De arbeidsovereenkomst voor werklieden is de overeenkomst waarbij een werknemer, de werkman, zich verbindt, tegen loon, onder gezag (...) van een werkgever in hoofdzaak handarbeid te verrichten. <W 1985-07- 17/41, art. 1, 010>
 
-##### Art. 2bis.<Ingevoegd bij W 2001-05-22/33, art. 34; Inwerkingtreding : 29-12-2001, met dien verstande dat de eerste verdeelbare winst deze is van het boekjaar met afsluitdatum ten vroegste op 31 december 2001> Voor de toepassing van deze wet, moeten niet als loon worden beschouwd : de uitkeringen in speciën of in aandelen, of deelbewijzen die aan de werknemers, overeenkomstig de toepassing van de wet van 22 mei 2001 [1 betreffende de werknemersparticipatie in het kapitaal van de vennootschappen en tot instelling van een winstpremie voor de werknemers]1, worden toegekend.
+##### Art. 2bis. <Ingevoegd bij W 2001-05-22/33, art. 34; Inwerkingtreding : 29-12-2001, met dien verstande dat de eerste verdeelbare winst deze is van het boekjaar met afsluitdatum ten vroegste op 31 december 2001> Voor de toepassing van deze wet, moeten niet als loon worden beschouwd : de uitkeringen in speciën of in aandelen, of deelbewijzen die aan de werknemers, overeenkomstig de toepassing van de wet van 22 mei 2001 [1 betreffende de werknemersparticipatie in het kapitaal van de vennootschappen en tot instelling van een winstpremie voor de werknemers]1, worden toegekend.
 (1)<W 2018-12-14/02, art. 11, 093; Inwerkingtreding : 01-01-2018>
 
 ##### Art. 3
 
 De arbeidsovereenkomst voor bedienden is de overeenkomst waarbij een werknemer, de bediende, zich verbindt, tegen loon, onder gezag, (...) van een werkgever in hoofdzaak hoofdarbeid te verrichten. <W 1985-07- 17/41, art. 1, 010>
 
-##### Art. 3bis.<W 2007-06-03/81, art. 5, 068; Inwerkingtreding : 02-08-2007> Een arbeidsovereenkomst ondertekend met behulp van de elektronische handtekening die wordt gecreëerd door de elektronische identiteitskaart of door middel van een elektronische handtekening die voldoet aan dezelfde veiligheidswaarborgen als de elektronische handtekening die door de elektronische identiteitskaart wordt gecreëerd, wordt gelijkgesteld met een papieren arbeidsovereenkomst ondertekend door middel van een handgeschreven handtekening.
+##### Art. 3bis. <W 2007-06-03/81, art. 5, 068; Inwerkingtreding : 02-08-2007> Een arbeidsovereenkomst ondertekend met behulp van de elektronische handtekening die wordt gecreëerd door de elektronische identiteitskaart of door middel van een elektronische handtekening die voldoet aan dezelfde veiligheidswaarborgen als de elektronische handtekening die door de elektronische identiteitskaart wordt gecreëerd, wordt gelijkgesteld met een papieren arbeidsovereenkomst ondertekend door middel van een handgeschreven handtekening.
 De Koning kan bij een besluit vastgesteld na overleg in de Ministerraad en na advies van de Nationale Arbeidsraad bepalen aan welke veiligheidswaarborgen andere systemen van elektronische handtekening dan de elektronische handtekening die door de elektronische identiteitskaart wordt gecreëerd dienen te voldoen.
 Alle aanbieders van een systeem voor het gebruik van de elektronische handtekening kunnen door het Beheerscomité van de Kruispuntbank voor Sociale Zekerheid laten vaststellen dat hun systeem beantwoordt aan de voorwaarden gesteld door het in het vorige lid genoemd koninklijk besluit. Een lijst van aanbieders van een systeem voor het gebruik van de elektronische handtekening die hun vrijwillige aangifte voor een opname op deze lijst hebben gedaan en wier aangifte aanvaard is wordt door het Beheerscomité van de Kruispuntbank voor Sociale Zekerheid opgemaakt en ter bekrachtiging doorgestuurd naar de minister die Werk onder zijn bevoegdheid heeft. Indien de minister die Werk onder zijn bevoegdheid heeft, geen opmerkingen formuleert binnen een termijn van vijftien dagen te rekenen vanaf de datum van het versturen van de lijst, wordt ze als bekrachtigd beschouwd. De lijst wordt bekendgemaakt op de website van de Kruispuntbank voor Sociale Zekerheid.
 Voor de toepassing van dit artikel worden verstaan onder :
@@ -85,7 +73,7 @@ Voor de toepassing van dit artikel wordt onder " verlener van een elektronische 
 De verlener van een elektronische archiveringsdienst dient te voldoen aan de voorwaarden inzake het verlenen van diensten [1 van gekwalificeerde elektronische archivering die gesteld worden door boek XII, titel 2, van het Wetboek van economisch recht]1.
 (1)<W 2016-07-21/40, art. 35, 083; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
-##### Art. 3ter.<Ingevoegd bij W 2007-06-03/81, art. 17; Inwerkingtreding : 02-08-2007> § 1. [2 In het kader van de individuele arbeidsrelatie tussen de werkgever en werknemer kunnen de documenten bedoeld in artikel 21 van deze wet elektronisch worden verstuurd en opgeslagen.]2
+##### Art. 3ter. <Ingevoegd bij W 2007-06-03/81, art. 17; Inwerkingtreding : 02-08-2007> § 1. [2 In het kader van de individuele arbeidsrelatie tussen de werkgever en werknemer kunnen de documenten bedoeld in artikel 21 van deze wet elektronisch worden verstuurd en opgeslagen.]2
 § 2. Bij onderling akkoord dat eveneens langs elektronische weg kan worden gesloten, bepalen de werknemer en de werkgever welke van in de vorige paragraaf bedoelde documenten elektronisch verstuurd en opgeslagen worden. Het onderlinge akkoord geldt minstens voor het lopende kalenderjaar.
 Na het verstrijken van het in het vorige lid bedoelde kalenderjaar kan zowel de werknemer als de werkgever eenzijdig op het in het vorige lid bedoelde onderlinge akkoord terugkomen door op heldere en ondubbelzinnige wijze te kennen te geven dat één of meerdere documenten in het kader van de individuele arbeidsrelatie opnieuw in papieren vorm moet worden meegedeeld.
 De mededeling in papieren vorm van de in de vorige paragraaf bedoelde documenten gaat in op de eerste dag van de tweede maand die volgt op de in het vorige lid bedoelde kennisgeving.
@@ -154,14 +142,14 @@ De Koning bepaalt welke procedure moet worden gevolgd om de toestemming te verkr
 
 <W 1985-07-17/41, art. 2, 010> Zo na het verstrijken van de termijn de partijen voortgaan met de uitvoering van de overeenkomst, dan gelden voor deze overeenkomst dezelfde voorwaarden als voor de overeenkomst voor onbepaalde tijd.
 
-##### Art. 11bis.<W 1981-06-23/04, art. 1, 003> De arbeidsovereenkomst gesloten voor deeltijdse arbeid moet voor iedere werknemer afzonderlijk schriftelijk worden vastgesteld, uiterlijk op het tijdstip waarop de werknemer de uitvoering van zijn overeenkomst aanvangt.
+##### Art. 11bis. <W 1981-06-23/04, art. 1, 003> De arbeidsovereenkomst gesloten voor deeltijdse arbeid moet voor iedere werknemer afzonderlijk schriftelijk worden vastgesteld, uiterlijk op het tijdstip waarop de werknemer de uitvoering van zijn overeenkomst aanvangt.
 Dit geschrift moet de overeengekomen deeltijdse arbeidsregeling en werkrooster vermelden.
 Het werkrooster van deeltijdse arbeid kan variabel zijn. [2 In dat geval wordt het vastgesteld volgens de regels bepaald in het arbeidsreglement. Dit moet blijken uit de in het eerste lid bedoelde overeenkomst, die daarnaast, in afwijking van het tweede lid, slechts de overeengekomen deeltijdse arbeidsregeling moet vermelden.]2 (De wekelijkse arbeidsduur, berekend overeenkomstig de bepalingen vastgesteld door artikel 26bis, § 1, [1 zevende lid]1, van de arbeidswet van 16 maart 1971, moet echter gemiddeld worden gerespecteerd over een periode van maximum één trimester. Een collectieve arbeidsovereenkomst, gesloten overeenkomstig de wet van 5 december 1968 betreffende de collectieve arbeidsovereenkomsten en de paritaire comités (of, bij ontstentenis, het arbeidsreglement) kan de periode verlengen tot maximum één jaar. Ze kan verlengd worden door de Koning voor de werknemers en de werkgevers die niet onderworpen zijn aan de wet van 5 december 1968.) <W 1989- 12-22/31, art. 182, 019; Inwerkingtreding : 30-03-1990> <W 1996-07-26/32, art. 40, 038; Inwerkingtreding : onbepaald> <W 1998-12-04/31, art. 10, 041; Inwerkingtreding : 27-12-1998> [2 Zo er geen overeenkomstig de voorgaande leden gesteld geschrift is, kan de werknemer de deeltijdse arbeidsregeling en werkrooster kiezen die hem het meest gunstig zijn onder dewelke die worden toegepast in de onderneming.]2 (De wekelijkse arbeidsduur van de deeltijds tewerkgestelde werknemer die in de bij het eerste lid bedoelde overeenkomst is overeengekomen, mag niet lager liggen dan een derde van de wekelijkse arbeidsduur van de voltijds tewerkgestelde werknemers die in de onderneming tot dezelfde categorie behoren. Bij ontstentenis van voltijds tewerkgestelde werknemers die in de onderneming tot dezelfde categorie behoren moet men zich houden aan de arbeidsduur die in dezelfde bedrijfssector van toepassing is.
 De Koning kan, bij in Ministerraad overlegd besluit, en onder de voorwaarden die Hij vaststelt, toestaan dat afgeweken wordt van de grens van een derde in de bedrijfstakken, de bedrijfscategorieën of de ondernemingstakken of voor de categorieën van werknemers of werken waarop deze grens niet kan toegepast worden.
 (Een zelfde afwijking kan eveneens worden vastgesteld in een collectieve arbeidsovereenkomst, gesloten overeenkomstig de wet van 5 december 1968 betreffende de collectieve arbeidsovereenkomsten en de paritaire comités.
 Indien deze collectieve arbeidsovereenkomst wordt afgesloten buiten het bevoegd paritair orgaan, dient zij te worden goedgekeurd door dit paritair orgaan.) <W 2005-07-20/41, art. 96, 060; Inwerkingtreding : 08-08- 2005> Wanneer de overeenkomst prestaties vastlegt die lager liggen dan de grenzen die door of krachtens deze wet zijn vastgesteld, is het loon nochtans verschuldigd op basis van deze minimumgrenzen.) <W 1989-12-22/31, (1)<W 2013-08-17/26, art. 5, 079; Inwerkingtreding : 01-10-2013 (zie KB 2013-09-11/02, art. 8 > (2)<W 2017-03-05/03, art. 57, 085; Inwerkingtreding : 01-10-2017>
 
-##### Art. 11ter.(§ 1.) <W 1985-01-22/30,art. 58, 009> Hij die een werknemer vervangt wiens arbeidsovereenkomst is geschorst om een andere reden dan gebrek aan werk wegens economische oorzaken, slecht weer, staking of lock-out, kan in dienst worden genomen onder voorwaarden die afwijken van deze wet, wat de duur van de overeenkomst en de opzeggingstermijn betreft.
+##### Art. 11ter. (§ 1.) <W 1985-01-22/30,art. 58, 009> Hij die een werknemer vervangt wiens arbeidsovereenkomst is geschorst om een andere reden dan gebrek aan werk wegens economische oorzaken, slecht weer, staking of lock-out, kan in dienst worden genomen onder voorwaarden die afwijken van deze wet, wat de duur van de overeenkomst en de opzeggingstermijn betreft.
 De reden, de identiteit van de vervangen werknemer(s) en de voorwaarden van die indienstneming moeten schriftelijk voor elke werknemer afzonderlijk worden vastgesteld uiterlijk op het tijdstip waarop deze werknemer in dienst treedt.
 
 De duur van de overeenkomstig de bepalingen van dit artikel gesloten vervangingsovereenkomst mag niet langer zijn dan twee jaar.
@@ -174,7 +162,7 @@ Is er geen geschrift of werd de door het derde en het vierde lid bepaalde termij
 [1 Onverminderd de artikelen 10, 10bis en 11ter, en onverminderd artikel 104 van de Herstelwet van 22 januari 1985 houdende sociale bepalingen, mag de totale duur van de opeenvolging van één of meerdere arbeidsovereenkomsten voor een bepaalde tijd of voor een duidelijk omschreven werk en één of meerdere vervangingsovereenkomsten zonder dat er een onderbreking is, toe te schrijven aan de werknemer, niet langer zijn dan twee jaar. Wordt deze duur overschreden, dan gelden voor die overeenkomst dezelfde voorwaarden als voor de overeenkomst voor onbepaalde tijd.
 Voor de toepassing van het eerste lid wordt eenmalig buiten beschouwing gelaten, de vervangingsovereenkomst die volgt op verschillende opeenvolgende arbeidsovereenkomsten voor een bepaalde tijd of voor een duidelijk omschreven werk die gerechtvaardigd zijn wegens de aard van het werk of wegens andere wettige redenen zoals bedoeld in artikel 10, zonder dat evenwel de totale duur van deze opeenvolging van overeenkomsten langer mag zijn dan drie jaar.]1 (1)<Ingevoegd bij W 2023-03-20/08, art. 2, 111; Inwerkingtreding : 08-05-2023>
 
-##### Art. 12.Bij
+##### Art. 12. Bij
 
 ontstentenis van een geschrift, is het getuigenbewijs toegelaten ongeacht de waarde van het geschil.
 [1 Het document of de documenten bedoeld in artikel 4 van de wet van 7 oktober 2022 houdende gedeeltelijke omzetting van Richtlijn (EU) 2019/1152 van het Europees Parlement en van de Raad van 20 juni 2019 betreffende transparante en voorspelbare arbeidsvoorwaarden in de Europese Unie kunnen niet dienen als bewijs voor het bestaan van andere arbeidsvoorwaarden dan die welke zijn voorzien in de arbeidsovereenkomst gesloten tussen de werkgever en de werknemer.]1 (1)<W 2022-10-07/09, art. 9, 105; Inwerkingtreding : 10-11-2022>
@@ -183,7 +171,7 @@ ontstentenis van een geschrift, is het getuigenbewijs toegelaten ongeacht de waa
 
 De werknemers en hun werkgevers mogen zich niet vooraf verbinden geschillen die uit de overeenkomst kunnen ontstaan, aan scheidsrechters voor te leggen.
 
-##### Art. 14.De
+##### Art. 14. De
 
 nietigheid van de overeenkomst kan niet worden ingeroepen ten aanzien van de rechten van de werknemer die voortvloeien uit de toepassing van deze wet wanneer arbeid wordt verricht :
 1° ingevolge een overeenkomst nietig wegens inbreuk op de bepalingen die de regelen van de arbeidsverhoudingen tot voorwerp hebben;
@@ -211,7 +199,7 @@ De rechtsvorderingen die uit de overeenkomst ontstaan, verjaren één jaar na he
 Werkgever en werknemer zijn elkander eerbied en achting verschuldigd.
 Gedurende de uitvoering van de overeenkomst moeten zij de welvoeglijkheid en de goede zeden in acht nemen en doen in acht nemen.
 
-##### Art. 17.De
+##### Art. 17. De
 
 werknemer is verplicht :
 1° zijn werk zorgvuldig, eerlijk en nauwkeurig te verrichten, op tijd, plaats en wijze zoals is overeengekomen;
@@ -223,7 +211,7 @@ b) daden van oneerlijke concurrentie te verrichten of daaraan mede te werken;]1
 5° het hem toevertrouwde arbeidsgereedschap en de ongebruikte grondstoffen in goede staat aan de werkgever terug te geven.
 (1)<W 2018-07-30/18, art. 43, 089; Inwerkingtreding : 24-08-2018>
 
-##### Art. 18.Ingeval
+##### Art. 18. Ingeval
 
 de werknemer bij de uitvoering van zijn overeenkomst de werkgever of derden schade berokkent, is hij enkel aansprakelijk voor zijn bedrog en zijn zware schuld.
 Voor lichte schuld is hij enkel aansprakelijk als die bij hem eerder gewoonlijk dan toevallig voorkomt.
@@ -263,7 +251,7 @@ De werkgever kan de teruggave van het gebruiksrecht niet weigeren wanneer het ve
 
 De werkgever is aansprakelijk voor het gebrekkig werk, te wijten aan de slechte hoedanigheid van de door hem geleverde grondstoffen, gegevens, gereedschappen of apparatuur.
 
-##### Art. 22bis.<Ingevoegd bij W 2006-12-27/32, art. 179; Inwerkingtreding : 07-01-2007> § 1. Onder scholingsbeding wordt verstaan het beding waarbij de werknemer, die gedurende de uitvoering van zijn arbeidsovereenkomst een vorming volgt op kosten van de werkgever, zich ertoe verbindt om aan deze laatste een gedeelte van de vormingskosten terug te betalen ingeval hij de onderneming verlaat voor het einde van de overeengekomen periode.
+##### Art. 22bis. <Ingevoegd bij W 2006-12-27/32, art. 179; Inwerkingtreding : 07-01-2007> § 1. Onder scholingsbeding wordt verstaan het beding waarbij de werknemer, die gedurende de uitvoering van zijn arbeidsovereenkomst een vorming volgt op kosten van de werkgever, zich ertoe verbindt om aan deze laatste een gedeelte van de vormingskosten terug te betalen ingeval hij de onderneming verlaat voor het einde van de overeengekomen periode.
 Bij collectieve arbeidsovereenkomst gesloten in het bevoegde paritair comité en algemeen verbindend verklaard door de Koning kunnen bepaalde categorieën van werknemers en/of vormingen worden uitgesloten van de toepassing van het scholingsbeding.
 § 2. Op straffe van nietigheid moet het beding schriftelijk worden vastgesteld, voor elke werknemer afzonderlijk ten laatste op het moment waarop de door het betrokken beding beoogde vorming een aanvang neemt.
 Het kan enkel worden bepaald in het kader van een arbeidsovereenkomst gesloten voor onbepaalde duur.
@@ -344,7 +332,7 @@ De door overmacht ontstane gebeurtenissen hebben de beëindiging van de overeenk
 Het faillissement of het kennelijk onvermogen van de werkgever, evenals de tijdelijke of definitieve sluiting van een onderneming die voortvloeit uit de maatregelen getroffen bij toepassing van de wetgeving op de reglementering betreffende de vrijwaring van het leefmilieu [1 of met toepassing van het Sociaal Strafwetboek]1, zijn op zichzelf geen gevallen van overmacht die een einde maken aan de verplichtingen der partijen.
 (1)<W 2010-06-06/06, art. 18, 070; Inwerkingtreding : 07-2011>
 
-##### Art. 27.[1 § 1.]1 Recht op het loon dat hem zou zijn toegekomen indien hij zijn dagtaak normaal had kunnen volbrengen, heeft de werknemer die (op het ogenblik dat hij zich naar het werk begeeft), geschikt is om te werken en : <W 1978-07-18/33, art. 4, 011>
+##### Art. 27. [1 § 1.]1 Recht op het loon dat hem zou zijn toegekomen indien hij zijn dagtaak normaal had kunnen volbrengen, heeft de werknemer die (op het ogenblik dat hij zich naar het werk begeeft), geschikt is om te werken en : <W 1978-07-18/33, art. 4, 011>
 1° die, zich normaal naar zijn werk begevend, met vertraging of niet op de plaats van het werk aankomt, op voorwaarde dat die vertraging of die afwezigheid te wijten is aan een oorzaak die overkomen is op de weg naar het werk en die onafhankelijk is van zijn wil;
 2° die, buiten het geval van staking, wegens een oorzaak die onafhankelijk is van zijn wil, hetzij de arbeid niet kan beginnen wanneer hij zich normaal op de plaats van het werk had begeven, hetzij de arbeid, waaraan hij bezig was, niet kan voortzetten.
 (3° die, zo hij niet voldoet aan de voorwaarden om bij volmacht te stemmen, afwezig is van het werk gedurende de tijd die noodzakelijk is om zijn plicht als kiezer op het Belgische grondgebied te vervullen.) <W 1985-07-18/33, De Koning, kan, na eensluidend en eenparig advies van het bevoegde paritair comité of van de Nationale Arbeidsraad van de bepalingen van het vorige lid afwijken.
@@ -364,13 +352,13 @@ b) (de afdeling 6 van hoofdstuk IV van de herstelwet van 22 januari 1985 houdend
 c) de wet van 19 juli 1976 tot instelling van een verlof voor de uitoefening van een politiek mandaat.
 (5° gedurende de tijd dat de werknemer afwezig is wegens maatregelen van voorlopige vrijheidsberoving waarvan hij het voorwerp is.) <W 1983-11-29/31, art. 1, 006>
 
-##### Art. 29.[1 In alle gevallen waarin de uitvoering van de arbeidsovereenkomst wordt geschorst en de werknemer recht heeft op uitkeringen wegens tijdelijke werkloosheid, met uitzondering van de schorsing van de uitvoering van de arbeidsovereenkomst wegens overmacht, heeft de werknemer waarvan het maandloon niet hoger is dan 4.000 euro, voor iedere dag die wordt gedekt door een tijdelijke werkloosheidsuitkering, recht op een toeslag van 5 euro, dit onverminderd de wettelijke of conventionele supplementen bedoeld in artikel 51, § 8, en artikel 77/4, §
+##### Art. 29. [1 In alle gevallen waarin de uitvoering van de arbeidsovereenkomst wordt geschorst en de werknemer recht heeft op uitkeringen wegens tijdelijke werkloosheid, met uitzondering van de schorsing van de uitvoering van de arbeidsovereenkomst wegens overmacht, heeft de werknemer waarvan het maandloon niet hoger is dan 4.000 euro, voor iedere dag die wordt gedekt door een tijdelijke werkloosheidsuitkering, recht op een toeslag van 5 euro, dit onverminderd de wettelijke of conventionele supplementen bedoeld in artikel 51, § 8, en artikel 77/4, §
 7. De werknemer waarvan het maandloon hoger is dan 4.000 euro heeft recht op die toeslag van zodra hij in hetzelfde jaar bij dezelfde werkgever meer dan 26 dagen tijdelijke werkloosheid telt, [2 en dit voor elke dag gedekt door een tijdelijke werkloosheidsuitkering vanaf de 27e dag]2, de dagen tijdelijke werkloosheid wegens overmacht buiten beschouwing gelaten.
 Het bedrag van de in het eerste lid bedoelde toeslag is gekoppeld aan de spilindex geldend op 1 januari 2024 en wordt verhoogd of verminderd overeenkomstig de bepalingen van de wet van 2 augustus 1971 houdende inrichting van een stelsel waarbij de wedden, lonen, pensioenen, toelagen en tegemoetkomingen ten laste van de openbare schatkist, sommige sociale uitkeringen, de bezoldigingsgrenzen waarmee rekening dient gehouden bij de berekening van sommige bijdragen van de sociale zekerheid der arbeiders, alsmede de verplichtingen op sociaal gebied opgelegd aan de zelfstandigen, aan het indexcijfer van de consumptieprijzen worden gekoppeld.
 De werkgever is ertoe gehouden deze toeslag te betalen, tenzij de betaling daarvan door een door de Koning algemeen verbindend verklaarde collectieve arbeidsovereenkomst ten laste wordt gelegd van het Fonds voor Bestaanszekerheid.
 [3 De werkgever is er niet toe gehouden deze toeslag te betalen indien de werknemer de toepassing geniet van een collectieve arbeidsovereenkomst die hem, in geval van tijdelijke werkloosheid, de betaling van een percentage van zijn loon waarborgt en alleen voor zover dit percentage de werknemer een bedrag waarborgt dat ten minste gelijkwaardig is aan datgene waarop hij krachtens het eerste lid recht zou hebben.]3]1 (1)<W 2023-11-05/04, art. 21, 113; Inwerkingtreding : 01-01-2024> (2)<W 2023-12-22/06, art. 100, 112; Inwerkingtreding : 01-01-2024> (3)<W 2023-12-22/06, art. 101, 112; Inwerkingtreding : 01-01-2024>
 
-##### Art. 30.(§ 1.) De werknemer heeft het recht om van het werk afwezig te zijn, met behoud van zijn normaal loon, ter gelegenheid van familiegebeurtenissen, voor de vervulling van staatsburgerlijke verplichtingen of van burgerlijke opdrachten en in geval van (verschijning voor het gerecht). <W 1985-07-18/33, art. 6, 011> <W 2001-08-10/59, art. 27, 047; Inwerkingtreding : 01-07-2002> Om gerechtigd te zijn op het loon moet de werknemer de werkgever vooraf verwittigen; indien dit hem niet mogelijk is, moet hij de werkgever zo spoedig mogelijk verwittigen; hij moet het verlof gebruiken voor het doel waarvoor het is toegestaan.
+##### Art. 30. (§ 1.) De werknemer heeft het recht om van het werk afwezig te zijn, met behoud van zijn normaal loon, ter gelegenheid van familiegebeurtenissen, voor de vervulling van staatsburgerlijke verplichtingen of van burgerlijke opdrachten en in geval van (verschijning voor het gerecht). <W 1985-07-18/33, art. 6, 011> <W 2001-08-10/59, art. 27, 047; Inwerkingtreding : 01-07-2002> Om gerechtigd te zijn op het loon moet de werknemer de werkgever vooraf verwittigen; indien dit hem niet mogelijk is, moet hij de werkgever zo spoedig mogelijk verwittigen; hij moet het verlof gebruiken voor het doel waarvoor het is toegestaan.
 Onverminderd gunstiger bepalingen van individuele of collectieve arbeidsovereenkomsten, bepaalt de Koning, na advies van de Nationale Arbeidsraad welke familiegebeurtenissen, staatsburgerlijke verplichtingen en burgerlijke opdrachten alsmede welke verschijningen voor het gerecht in aanmerking komen voor de toepassing van het eerste lid. Onder dezelfde voorwaarden stelt de Koning voor alle werknemers het aantal dagen vast gedurende welke de werknemer van het werk mag wegblijven met behoud van loon. Daarenboven kan Hij de vereisten inzake de regelmatige aanwezigheid vaststellen.
 [§ 2. [4 De werknemer heeft het recht om van het werk afwezig te zijn, ter gelegenheid van de geboorte van een kind waarvan de afstamming langs zijn zijde vaststaat, gedurende vijftien dagen, door hem te kiezen binnen vier maanden te rekenen vanaf de dag van de bevalling.
 Het recht op vijftien dagen geboorteverlof, zoals bedoeld in het eerste lid, wordt opgetrokken tot twintig dagen voor de geboortes die plaatsvinden vanaf 1 januari 2023.]4 [1 Bij ontstentenis van een werknemer bedoeld in het [3 eerste lid]3, komt datzelfde recht toe aan de werknemer die op het ogenblik van geboorte :
@@ -389,7 +377,7 @@ Op verzoek van de werknemer stelt de werkgever hem schriftelijk in kennis van de
 Zo de ingeroepen reden tot staving van de niet-hernieuwing van de betrokken arbeidsovereenkomst niet vreemd is aan de geboorte van het kind, of bij ontstentenis van reden, zal de werkgever aan de werknemer een forfaitaire vergoeding betalen die gelijk is aan het brutoloon voor drie maanden.
 Voor de toepassing van deze paragraaf wordt de gebruiker van een uitzendkracht beschouwd als de werkgever.]4 (1)<W 2011-04-13/09, art. 5, 072; Inwerkingtreding : 20-05-2011> (2)<W 2011-06-11/17, art. 2, 074; Inwerkingtreding : 30-07-2011> (3)<W 2020-12-20/09, art. 63, 098; Inwerkingtreding : 01-01-2021> (4)<W 2022-10-07/08, art. 6, 104; Inwerkingtreding : 10-11-2022>
 
-##### Art. 30bis.<Ingevoegd bij W 1991-05-29/31, art. 1, 023; Inwerkingtreding : 20-07-1991> [1 § 1.]1 De werknemer heeft het recht om van het werk afwezig te zijn om dwingende redenen.
+##### Art. 30bis. <Ingevoegd bij W 1991-05-29/31, art. 1, 023; Inwerkingtreding : 20-07-1991> [1 § 1.]1 De werknemer heeft het recht om van het werk afwezig te zijn om dwingende redenen.
 De nadere regelen voor de uitoefening van dat recht en inzonderheid de duur van de afwezigheid, de ervoor in aanmerking komende gebeurtenissen en gebeurlijk het aantal dagen van die afwezigheid worden vastgesteld bij een collectieve arbeidsovereenkomst gesloten in de Nationale Arbeidsraad en, wat de werknemers betreft waarop voornoemde collectieve arbeidsovereenkomst niet van toepassing is door de Koning. [1 De aldus vastgestelde duur van de afwezigheid bedraagt minstens tien arbeidsdagen per kalenderjaar.]1 Onverminderd gunstiger bepalingen kan de Koning voor de werknemers die niet worden bedoeld door de collectieve arbeidsovereenkomst gesloten in de Nationale Arbeidsraad het aantal dagen vaststellen gedurende welke de werknemer van het werk mag wegblijven met behoud van loon.
 [1 § 2. De werknemer heeft het recht om, in het kader van paragraaf 1, van het werk afwezig te zijn gedurende maximaal vijf, al dan niet aaneensluitende, dagen per kalenderjaar, met het oog op het verlenen van persoonlijke zorg of steun aan een gezinslid of een familielid dat om een ernstige medische reden behoefte heeft aan aanzienlijke zorg of steun, volgens de voorwaarden en regels waarin deze paragraaf voorziet.
 Voor de toepassing van deze paragraaf wordt verstaan onder:
@@ -406,7 +394,7 @@ De werkgever dient te bewijzen dat zulke redenen voorhanden zijn. Op verzoek van
 Zo de ingeroepen reden tot staving van het ontslag niet beantwoordt aan het bepaalde in het zevende lid, of bij ontstentenis van reden, betaalt de werkgever aan de werknemer een forfaitaire vergoeding gelijk aan het brutoloon voor zes maanden, onverminderd de vergoedingen verschuldigd in geval van verbreking van de arbeidsovereenkomst.
 Voor de toepassing van het zevende tot en met het negende lid wordt gelijkgesteld met een ontslag door de werkgever tijdens de periode van bescherming zoals bedoeld in het zevende lid, elke handeling van de werkgever na afloop van deze periode die ertoe strekt eenzijdig een einde te maken aan de arbeidsovereenkomst van de werknemer en waarvoor tijdens deze periode enige voorbereiding werd getroffen. Onder het treffen van enige voorbereiding wordt eveneens begrepen, het nemen van de ontslagbeslissing.]1 (1)<W 2022-10-07/08, art. 7, 104; Inwerkingtreding : 10-11-2022>
 
-##### Art. 30ter.<Ingevoegd bij W 2004-07-09/30, art. 293; Inwerkingtreding : 25-07-2004> § 1. De werknemer die in het kader van een adoptie een [3 minderjarig]3 kind in zijn gezin onthaalt, heeft, met het oog op de zorg voor dit kind, recht op een adoptieverlof gedurende een aaneengesloten periode van maximum zes weken [3 ...]3.
+##### Art. 30ter. <Ingevoegd bij W 2004-07-09/30, art. 293; Inwerkingtreding : 25-07-2004> § 1. De werknemer die in het kader van een adoptie een [3 minderjarig]3 kind in zijn gezin onthaalt, heeft, met het oog op de zorg voor dit kind, recht op een adoptieverlof gedurende een aaneengesloten periode van maximum zes weken [3 ...]3.
 Indien de werknemer ervoor kiest om niet het toegestane maximum aantal weken adoptieverlof op te nemen, dient het verlof ten minste een week of een veelvoud van een week te bedragen.
 [3 Het adoptieverlof van zes weken per adoptieouder wordt als volgt opgetrokken voor de adoptieouder of voor beide adoptieouders samen :
 1° met één week vanaf 1 januari 2019;
@@ -437,7 +425,7 @@ Voor de toepassing van deze paragraaf wordt de gebruiker van een uitzendkracht b
 
 (6)<W 2022-10-07/08, art. 8, 104; Inwerkingtreding : 10-11-2022>
 
-##### Art. 30quater.<Ingevoegd bij W 2007-04-27/35, art. 57, Inwerkingtreding : 08-05-2007> § 1. De werknemer die is aangesteld als pleegouder door de rechtbank, door een door de gemeenschap erkende dienst voor pleegzorg, door de diensten van l'Aide à la Jeunesse of door het Comité Bijzondere Jeugdbijstand heeft het recht om van het werk afwezig te zijn voor de vervulling van verplichtingen en opdrachten of om het hoofd te bieden aan situaties die voortvloeien uit de plaatsing in zijn gezin van één of meerdere personen die in het kader van die pleegzorg aan hem zijn toevertrouwd. De duur van de afwezigheid mag 5 dagen per jaar niet overschrijden.
+##### Art. 30quater. <Ingevoegd bij W 2007-04-27/35, art. 57, Inwerkingtreding : 08-05-2007> § 1. De werknemer die is aangesteld als pleegouder door de rechtbank, door een door de gemeenschap erkende dienst voor pleegzorg, door de diensten van l'Aide à la Jeunesse of door het Comité Bijzondere Jeugdbijstand heeft het recht om van het werk afwezig te zijn voor de vervulling van verplichtingen en opdrachten of om het hoofd te bieden aan situaties die voortvloeien uit de plaatsing in zijn gezin van één of meerdere personen die in het kader van die pleegzorg aan hem zijn toevertrouwd. De duur van de afwezigheid mag 5 dagen per jaar niet overschrijden.
 Indien het pleeggezin bestaat uit twee werknemers, die beiden zijn aangesteld als pleegouder, dienen deze dagen onder hen te worden verdeeld.
 § 2. Onverminderd gunstiger regelingen kan de Koning, na advies van de Nationale Arbeidsraad, op algemene wijze, het aantal dagen, bedoeld in § 1, verhogen.
 Vanaf 1 januari 2008 verhoogt de Koning, na advies van de Nationale Arbeidsraad, het aantal dagen, bedoeld in
@@ -479,7 +467,7 @@ Deze vergoeding mag evenwel niet worden samen genoten met andere vergoedingen di
 § 6. Voor de toepassing van dit artikel wordt onder langdurige pleegzorg verstaan : pleegzorg waarvan bij aanvang duidelijk is dat het kind voor minstens zes maanden in hetzelfde pleeggezin bij dezelfde pleegouder of dezelfde pleegouders zal verblijven.
 De Koning kan voor de toepassing van dit artikel de begrippen onthaal en langdurige pleegzorg verder verduidelijken.]1 (1)<Ingevoegd bij W 2018-09-06/12, art. 3, 092; Inwerkingtreding : 01-01-2019>
 
-##### Art. 31.<W 1999-06-13/61, art. 8, 043; Inwerkingtreding : 01-12-2002> § 1. De onmogelijkheid voor de werknemer om zijn werk te verrichten ten gevolge van ziekte of ongeval, schorst de uitvoering van de overeenkomst.
+##### Art. 31. <W 1999-06-13/61, art. 8, 043; Inwerkingtreding : 01-12-2002> § 1. De onmogelijkheid voor de werknemer om zijn werk te verrichten ten gevolge van ziekte of ongeval, schorst de uitvoering van de overeenkomst.
 § 2. De werknemer is verplicht zijn werkgever onmiddellijk op de hoogte te brengen van zijn arbeidsongeschiktheid.
 Indien een collectieve arbeidsovereenkomst of het arbeidsreglement dit voorschrijft of bij ontstentenis van dergelijk voorschrift, op verzoek van de werkgever, legt de werknemer aan deze laatste een geneeskundig getuigschrift voor. Het geneeskundig getuigschrift maakt melding van de arbeidsongeschiktheid, alsmede van de waarschijnlijke duur ervan, en of de werknemer zich met het oog op de controle al dan niet naar een andere plaats mag begeven.
 Behoudens in geval van overmacht zendt de werknemer het geneeskundig getuigschrift op of geeft hij het af op de onderneming, binnen twee werkdagen vanaf de dag van de ongeschiktheid of de dag van de ontvangst van het verzoek, tenzij een andere termijn bij collectieve arbeidsovereenkomst of door het arbeidsreglement is bepaald. [1 ...]1 [2 § 2/1. In afwijking van § 2, tweede en derde lid, is de werknemer er [3 tweemaal]3 per kalenderjaar niet toe gehouden een geneeskundig getuigschrift voor te leggen voor de eerste dag van een arbeidsongeschiktheid. In voorkomend geval deelt hij de werkgever onmiddellijk mee op welk adres hij zal verblijven tijdens deze eerste dag van arbeidsongeschiktheid, tenzij dit adres overeenstemt met zijn gewoonlijke verblijfplaats die bij de werkgever gekend is.
@@ -537,7 +525,7 @@ Behoudens de algemene wijzen waarop de verbintenissen te niet gaan, nemen de ver
 
 Het overlijden van de werkgever maakt geen einde aan de overeenkomst. Indien dit overlijden het einde tot gevolg heeft van de activiteit waarvoor de werknemer in dienst is genomen of als de overeenkomst is gesloten met het oog op de persoonlijke medewerking, oordeelt de rechter naar billijkheid of grond tot vergoeding bestaat en bepaalt hij het bedrag ervan.
 
-##### Art. 34.[1 § 1. De arbeidsongeschiktheid ten gevolge van ziekte of ongeval, waardoor het voor de werknemer definitief onmogelijk wordt om het overeengekomen werk te verrichten, kan slechts een einde maken aan de arbeidsovereenkomst wegens overmacht nadat de procedure bepaald in paragraaf 2 gevolgd werd.
+##### Art. 34. [1 § 1. De arbeidsongeschiktheid ten gevolge van ziekte of ongeval, waardoor het voor de werknemer definitief onmogelijk wordt om het overeengekomen werk te verrichten, kan slechts een einde maken aan de arbeidsovereenkomst wegens overmacht nadat de procedure bepaald in paragraaf 2 gevolgd werd.
 De procedure bepaald in paragraaf 2 kan slechts worden opgestart wanneer de werknemer gedurende een termijn van ten minste [2 zes]2 maanden ononderbroken arbeidsongeschikt is, en voor zover voor de werknemer geen re-integratietraject bedoeld in de codex over het welzijn op het werk lopende is. Deze termijn van [2 zes]2 maanden wordt onderbroken wanneer de werknemer effectief het werk hervat, tenzij de werknemer binnen de eerste veertien dagen van deze werkhervatting opnieuw arbeidsongeschikt wordt, in welk geval deze termijn wordt geacht niet onderbroken te zijn.
 § 2. De werknemer of de werkgever geeft aan de andere partij, evenals aan de preventieadviseur-arbeidsarts van de onderneming, door middel van een aangetekende zending, kennis van de intentie om na te gaan of het voor de werknemer definitief onmogelijk is om het overeengekomen werk te verrichten overeenkomstig de bijzondere procedure in boek I, titel 4, hoofdstuk VI, afdeling 3, van de codex over het welzijn op het werk. De kennisgeving die uitgaat van de werkgever maakt melding van het recht van de werknemer om, overeenkomstig deze bijzondere procedure opgenomen in de codex over het welzijn op het werk, aan de preventieadviseurarbeidsarts te vragen dat de mogelijkheden voor aangepast of ander werk onderzocht worden, indien wordt vastgesteld dat het voor hem onmogelijk is het overeengekomen werk te verrichten. De kennisgeving die uitgaat van de werkgever maakt tevens melding van het recht van de werknemer om zich tijdens deze procedure te laten bijstaan door de vakbondsafvaardiging van de onderneming, overeenkomstig de bepalingen van de
 
@@ -570,7 +558,7 @@ Nietig zijn de bedingen waarbij wordt bepaald dat het huwelijk, het moederschap 
 
 <ingevoegd bij W 1991-06-12/30, art. 112, Inwerkingtreding : onbepaald, uiterlijk op 09-07-1992> Nietig zijn alle bedingen van de arbeidsovereenkomst waarbij de werkgever ertoe wordt gemachtigd de arbeidsovereenkomst zonder opzegging of vóór het verstrijken van de termijn te beëindigen wanneer beslag gelegd is op het loon van de werknemer ten gevolge van een kredietovereenkomst bepaald door de wet van 12 juni 1991 op het consumentenkrediet.
 
-##### Art. 37.(§ 1.) Is de overeenkomst voor onbepaalde tijd gesloten, dan heeft ieder der partijen het recht om die te beëindigen door opzegging aan de andere.
+##### Art. 37. (§ 1.) Is de overeenkomst voor onbepaalde tijd gesloten, dan heeft ieder der partijen het recht om die te beëindigen door opzegging aan de andere.
 (Op straffe van nietigheid dient de kennisgeving van de opzegging het begin en de duur van de opzeggingstermijn te vermelden.
 Indien de opzegging uitgaat van de werknemer, geschiedt de kennisgeving van de opzegging, op straffe van nietigheid, door afgifte aan de werkgever van een geschrift. De handtekening van de werkgever op het duplicaat van dit geschrift geldt enkel als bericht van ontvangst van de kennisgeving. De kennisgeving kan ook geschieden hetzij bij een ter post aangetekende brief die uitwerking heeft de derde werkdag na de datum van verzending, hetzij bij gerechtsdeurwaardersexploot.
 Indien de opzegging uitgaat van de werkgever, kan de kennisgeving van de opzegging, op straffe van nietigheid enkel geschieden hetzij bij een ter post aangetekende brief die uitwerking heeft de derde werkdag na de datum van verzending, hetzij bij gerechtsdeurwaardersexploot, met dien verstande dat de werknemer die nietigheid niet kan dekken en dat ze door de rechter van ambtswege wordt vastgesteld.) <W 1987-11-07/30, art. 73, 015;
@@ -624,7 +612,7 @@ De opzeggingstermijn wordt vastgelegd op :
 - twee weken wat de werknemer betreft die tussen drie maanden en minder dan zes maanden anciënniteit telt;
 - drie weken wat de werknemer betreft die tussen zes maanden en minder dan een jaar anciënniteit telt;
 - vier weken wat de werknemer betreft die een jaar of meer anciënniteit telt.
-De opzeggingstermijnen, bedoeld in vorig lid, nemen een aanvang overeenkomstig artikel 37/1.]1 (1)<Ingevoegd bij W 2013-12-26/08, art. 3, 080; Inwerkingtreding : 01-01-2014> (2)<W 2018-03-26/01, art. 2, 087; Inwerkingtreding : 01-05-2018>
+De opzeggingstermijnen, bedoeld in vorig lid, nemen een aanvang overeenkomstig artikel 37/1. ]1 (1)<Ingevoegd bij W 2013-12-26/08, art. 3, 080; Inwerkingtreding : 01-01-2014> (2)<W 2018-03-26/01, art. 2, 087; Inwerkingtreding : 01-05-2018>
 
 arbeidsovereenkomst gesloten in een paritair comité of paritair subcomité.]1 (1)<Ingevoegd bij W 2013-12-26/08, art. 4, 080; Inwerkingtreding : 01-01-2014>
 
@@ -635,7 +623,7 @@ Wanneer de opzegging wordt gegeven door de werkgever, komt bovendien de vroegere
 van wedertewerkstellingsprogramma's bedoeld in artikel 6, § 1, IX, 2°, van de bijzondere wet van 8 augustus 1980 tot hervorming der instellingen.]1 (1)<Ingevoegd bij W 2013-12-26/08, art. 6, 080; Inwerkingtreding : 01-01-2014>
 
 een einde te maken vanaf de eerste dag van de maand volgend op de maand waarin de werknemer de wettelijke pensioenleeftijd bereikt, bedraagt de opzeggingstermijn maximaal zesentwintig weken wanneer het ontslag van de werkgever uitgaat.
-Wanneer de opzegging wordt gegeven aan de werknemer bedoeld in het eerste lid, geniet deze het voordeel van het bepaalde in artikel 41.]1 (1)<Ingevoegd bij W 2013-12-26/08, art. 7, 080; Inwerkingtreding : 01-01-2014>
+Wanneer de opzegging wordt gegeven aan de werknemer bedoeld in het eerste lid, geniet deze het voordeel van het bepaalde in artikel 41. ]1 (1)<Ingevoegd bij W 2013-12-26/08, art. 7, 080; Inwerkingtreding : 01-01-2014>
 
 uitvoering van de overeenkomst of van gedeeltelijke arbeid heeft de werknemer het recht de overeenkomst zonder opzegging te beëindigen.
 Als de in het artikel 50 bedoelde schorsing één maand overschrijdt, heeft de werknemer hetzelfde recht.
@@ -667,7 +655,7 @@ Indien het transitietraject voleindigd werd, dient de werkgever-gebruiker de wer
 Wanneer de werknemer na de terbeschikkingstelling door de werkgever-gebruiker in dienst wordt genomen op grond van een arbeidsovereenkomst, wordt voor het berekenen van de opzegtermijn conform artikel 37/2 van deze wet, ook rekening gehouden met de anciënniteit opgebouwd gedurende het transitietraject.
 Wanneer de werknemer na de terbeschikkingstelling door de werkgever-gebruiker wordt in dienst genomen op grond van een arbeidsovereenkomst, behoudt de werknemer de anciënniteit die hij heeft opgebouwd op grond van zijn vorige arbeidsovereenkomst, voor wat de toepassing betreft van de bepalingen die betrekking hebben op de loopbaanonderbreking en het tijdskrediet, met inbegrip van de thematische verloven.]1 (1)<Ingevoegd bij W 2022-10-03/06, art. 22, 106; Inwerkingtreding : 20-11-2022>
 
-##### Art. 38.§ 1. De werknemer kan de overeenkomst opzeggen tijdens de schorsing van de uitvoering daarvan, als bedoeld in (de artikelen 28, 1°, 2° en 5°) [2 , 30, § 2, 30bis, 30ter]2 [1 ...]1 en 31. <W 1983-11-29/31, art. 2, 006> Bij opzegging door de werknemer gegeven vóór of tijdens de schorsing, loopt de opzeggingstermijn tijdens die schorsing.
+##### Art. 38. § 1. De werknemer kan de overeenkomst opzeggen tijdens de schorsing van de uitvoering daarvan, als bedoeld in (de artikelen 28, 1°, 2° en 5°) [2 , 30, § 2, 30bis, 30ter]2 [1 ...]1 en 31. <W 1983-11-29/31, art. 2, 006> Bij opzegging door de werknemer gegeven vóór of tijdens de schorsing, loopt de opzeggingstermijn tijdens die schorsing.
 § 2. Onverminderd het bepaalde in § 3 van dit artikel en in artikel 40 van de arbeidswet van 16 maart 1971, kan ook de werkgever in de in § 1 bedoelde gevallen de overeenkomst opzeggen tijdens de schorsing van de uitvoering daarvan.
 Bij opzegging door de werkgever gegeven vóór of tijdens de schorsing, houdt de opzeggingstermijn op te lopen tijdens die schorsing.
 (Bij opzegging door de werkgever gegeven vóór of tijdens de periode van acht weken, bedoeld in artikel 39, derde lid, van de arbeidswet van 16 maart 1971, gedurende dewelke de werkneemster haar verlofdagen van
@@ -681,7 +669,7 @@ postnatale rust opneemt, houdt de opzeggingstermijn op te lopen tijdens de ganse
 
 <KB225 1983-12-07/32, art. 15, 005> Bij opzegging door de werkgever, loopt de opzeggingstermijn niet gedurende de dagen inhaalrust die bij toepassing van artikel 26bis van de Arbeidswet van 16 maart 1971 (en van artikel 8, § 3, van de wet van 14 december 2000 tot vaststelling van sommige aspecten van de organisatie van de arbeidstijd in de openbare sector) worden toegekend. <W 2003-04-22/40, art. 2, 056; Inwerkingtreding : 13-05-2003>
 
-##### Art. 39.§ 1. Is de overeenkomst voor onbepaalde tijd gesloten, dan is de partij die de overeenkomst beëindigt zonder dringende reden of zonder inachtneming van de opzeggingstermijn vastgesteld in de artikelen [1 37/2, 37/5, 37/6 en 37/11]1, gehouden de andere partij een vergoeding te betalen die gelijk is aan het lopend loon dat overeenstemt hetzij met de duur van de opzeggingstermijn, hetzij met het resterende gedeelte van die termijn.
+##### Art. 39. § 1. Is de overeenkomst voor onbepaalde tijd gesloten, dan is de partij die de overeenkomst beëindigt zonder dringende reden of zonder inachtneming van de opzeggingstermijn vastgesteld in de artikelen [1 37/2, 37/5, 37/6 en 37/11]1, gehouden de andere partij een vergoeding te betalen die gelijk is aan het lopend loon dat overeenstemt hetzij met de duur van de opzeggingstermijn, hetzij met het resterende gedeelte van die termijn.
 De vergoeding is nochtans steeds gelijk aan het lopend loon dat overeenstemt met de duur van de opzeggingstermijn, wanneer de opzegging uitgaat van de werkgever en met miskenning van het bepaalde [2 ...]2 in artikel 40 van de arbeidswet van 16 maart 1971.
 De opzeggingsvergoeding behelst niet alleen het lopende loon, maar ook de voordelen verworven krachtens de overeenkomst.
 [1 Wanneer het lopend loon of de voordelen verworven krachtens de overeenkomst geheel of gedeeltelijk veranderlijk zijn, wordt voor het veranderlijke gedeelte het gemiddelde genomen van de twaalf voorafgaande maanden of, in voorkomend, geval het gedeelte van die twaalf maanden tijdens hetwelk de werknemer in dienst was.
@@ -699,7 +687,7 @@ Voor de werknemers die forfaitair worden betaald, wordt het weekloon dat nodig i
 De Koning bepaalt bij in Ministerraad overlegd besluit, na advies van de Nationale Arbeidsraad, wat moet worden verstaan onder onderneming in moeilijkheden of die uitzonderlijk ongunstige economische omstandigheden kent.
 § 2. De opzeggingsvergoeding die in maandtermijnen wordt betaald, is gebonden aan de evolutie van het indexcijfer van de consumptieprijzen volgens dezelfde modaliteiten als die welke van toepassing waren op het loon van de werknemer wiens overeenkomst een einde heeft genomen.
 
-##### Art. 39ter.[1 § 1. Wanneer een werknemer bij ontslag gegeven door de werkgever recht heeft op een opzeggingstermijn die, berekend overeenkomstig de bepalingen van deze wet, theoretisch minstens 30 weken bedraagt op het ogenblik van het door de werkgever gegeven ontslag, heeft hij recht op een eenmalig forfaitair budget van 1.800 euro met het oog op het volgen en bekostigen van inzetbaarheidsbevorderende maatregelen.
+##### Art. 39ter. [1 § 1. Wanneer een werknemer bij ontslag gegeven door de werkgever recht heeft op een opzeggingstermijn die, berekend overeenkomstig de bepalingen van deze wet, theoretisch minstens 30 weken bedraagt op het ogenblik van het door de werkgever gegeven ontslag, heeft hij recht op een eenmalig forfaitair budget van 1.800 euro met het oog op het volgen en bekostigen van inzetbaarheidsbevorderende maatregelen.
 Onder inzetbaarheidsbevorderende maatregelen verstaat men elke maatregel, inzonderheid de opleiding en de begeleiding waaraan de werknemer deelneemt, die wordt verstrekt door een professionele dienstverlener en die bedoeld is om de werknemer in staat te stellen zelf binnen een zo kort mogelijke termijn een betrekking bij een nieuwe werkgever te vinden of een beroepsbezigheid als zelfstandige te ontplooien. Tot die maatregelen behoren met name doch niet uitsluitend: bijkomend outplacement bovenop het outplacement waarop de werknemer reeds recht heeft op grond van de bepalingen van de wet van 5 september 2001 tot verbetering van de werkgelegenheidsgraad van de werknemers, een door de bevoegde overheden erkende opleiding of omscholing,
 
 loopbaancoaching of -begeleiding.
@@ -713,7 +701,7 @@ Wanneer de werknemer is ontslagen met toepassing van een opzeggingsvergoeding, d
 § 4. De bepalingen van dit artikel zijn niet van toepassing op de werknemers die worden ontslagen in het kader van een herstructurering, bedoeld bij artikel 31 van de wet van 23 december 2005 betreffende het generatiepact.
 § 5. De bepalingen van dit artikel maken het voorwerp uit van een evaluatie door de Nationale Arbeidsraad en door het Beheerscomité van de Rijksdienst voor Arbeidsvoorziening binnen een termijn van twee jaar te rekenen vanaf de inwerkingtreding ervan.]1 (1)<W 2024-05-15/19, art. 139, 116; Inwerkingtreding : 01-04-2025>
 
-##### Art. 40.[1 § 1. Is de overeenkomst voor een bepaalde tijd of voor een duidelijk omschreven werk aangegaan, dan is de partij die de overeenkomst beëindigt zonder dringende reden vóór het verstrijken van de termijn gehouden de andere partij een vergoeding te betalen, die gelijk is aan het bedrag van het loon dat verschuldigd is tot het bereiken van die termijn, zonder echter het dubbel te mogen overtreffen van het loon dat overeenstemt met de duur van de opzeggingstermijn die in acht had moeten worden genomen indien de overeenkomst zonder tijdsbepaling was gesloten.
+##### Art. 40. [1 § 1. Is de overeenkomst voor een bepaalde tijd of voor een duidelijk omschreven werk aangegaan, dan is de partij die de overeenkomst beëindigt zonder dringende reden vóór het verstrijken van de termijn gehouden de andere partij een vergoeding te betalen, die gelijk is aan het bedrag van het loon dat verschuldigd is tot het bereiken van die termijn, zonder echter het dubbel te mogen overtreffen van het loon dat overeenstemt met de duur van de opzeggingstermijn die in acht had moeten worden genomen indien de overeenkomst zonder tijdsbepaling was gesloten.
 § 2. In afwijking van paragraaf 1, kan elke partij de overeenkomst die voor een bepaalde tijd of voor een duidelijk omschreven werk is aangegaan vóór het verstrijken van de termijn zonder dringende reden beëindigen tijdens de eerste helft van de overeengekomen duurtijd en zonder dat de periode waarin opzegging mogelijk is zes maanden kan overschrijden, mits naleving van de opzeggingstermijnen bepaald in artikel 37/2.
 De bepalingen van artikel 37, § 1, gelden voor de in het eerste lid bedoelde opzeggingstermijnen.
 De opzeggingstermijnen bedoeld in het eerste lid nemen een aanvang overeenkomstig artikel 37/1.
@@ -722,7 +710,7 @@ De partij die de overeenkomst bedoeld in het eerste lid, vóór het verstrijken 
 § 4. De opzeggingsvergoeding die verschuldigd is met toepassing van dit artikel, wordt berekend overeenkomstig artikel 39.
 § 5. Onverminderd het bepaalde in paragrafen 1 en 2, betaalt de werkgever die het bepaalde in artikel 40 van de arbeidswet van 16 maart 1971 niet in acht neemt, de in het derde lid van voormeld artikel 40 voorziene vergoeding.]1 (1)<W 2013-12-26/08, art. 15, 080; Inwerkingtreding : 01-01-2014>
 
-##### Art. 41.[1 § 1. Tijdens de opzeggingstermijn mag de werknemer, binnen de grenzen bepaald in de paragrafen 2 tot 4, met behoud van loon van het werk wegblijven om een nieuwe dienstbetrekking te zoeken.
+##### Art. 41. [1 § 1. Tijdens de opzeggingstermijn mag de werknemer, binnen de grenzen bepaald in de paragrafen 2 tot 4, met behoud van loon van het werk wegblijven om een nieuwe dienstbetrekking te zoeken.
 § 2. Tijdens de laatste zesentwintig weken van de opzeggingstermijn mag de werknemer van dit recht om van
 
 het werk afwezig te zijn een- of tweemaal per week gebruik maken mits de duur van deze afwezigheid in totaal niet meer dan een arbeidsdag per week bedraagt. Tijdens de voorafgaande periode mag hij slechts één halve dag per week afwezig zijn.
@@ -770,7 +758,7 @@ De bepalingen van deze titel gelden voor de arbeidsovereenkomst voor werklieden.
 
 ### HOOFDSTUK II. _ Loonregeling bij schorsing van de uitvoering van de overeenkomst.
 
-##### Art. 49.[2 § 1.]2 In geval van technische stoornis in de onderneming wordt de uitvoering van de overeenkomst geschorst. Tijdens een periode van zeven dagen te rekenen vanaf de datum van deze technische stoornis, behoudt de werkman zijn recht op het normale loon.
+##### Art. 49. [2 § 1.]2 In geval van technische stoornis in de onderneming wordt de uitvoering van de overeenkomst geschorst. Tijdens een periode van zeven dagen te rekenen vanaf de datum van deze technische stoornis, behoudt de werkman zijn recht op het normale loon.
 De arbeidsdag die onderbroken werd wegens deze technische stoornis en die aan de werkman betaald wordt ingevolge het bepaalde in artikel 27, moet beschouwd worden als de eerste dag van de periode van zeven dagen.
 De werkman verliest zijn recht op het bij het eerste lid vastgestelde loon, wanneer hij weigert elk vervangingswerk te aanvaarden dat overeenstemt met zijn lichamelijke en verstandelijke geschiktheden en verenigbaar is met zijn beroepskwalificatie. Nochtans is die weigering op zichzelf geen dringende reden die de beëindiging van de overeenkomst rechtvaardigt.
 (([1 Uiterlijk de eerste werkdag na de dag van de technische stoornis deelt de werkgever op elektronische wijze, overeenkomstig de nadere regelen die door de Koning worden bepaald, het volgende mee aan de Rijksdienst voor Arbeidsvoorziening :
@@ -782,7 +770,7 @@ Arbeidsvoorziening een lijst mee met de naam, de voornamen en het identificatien
 [3 De werkgever duidt in deze mededeling aan of hij al dan niet over een opleidingsplan bedoeld in artikel 51ter beschikt.]3 De werkgever wordt van deze mededeling vrijgesteld indien gedurende de kalendermaand voor de betrokken werknemer reeds mededeling werd gedaan met toepassing van artikel 50, derde lid, of artikel 51, § 3quater, eerste lid.
 Als de werkgever zich niet naar de bepalingen van het eerste lid gedraagt of er zich te laat naar gedraagt, zijn de bepalingen van § 1, zevende lid, van toepassing.]2 (1)<W 2011-07-04/03, art. 5, 073; Inwerkingtreding : 01-10-2011> (2)<W 2012-06-22/02, art. 10, 076; Inwerkingtreding : 01-10-2012 (zie KB 2012-09-20/23, art. 7, 1°)> (3)<W 2012-12-27/06, art. 45, 077; Inwerkingtreding : onbepaald>
 
-##### Art. 50.Het
+##### Art. 50. Het
 
 slechte weder schorst de uitvoering van de overeenkomst, voor zover het werk onmogelijk wordt en op voorwaarde dat de werkman werd verwittigd dat hij zich niet moet aanbieden.
 (Voor de toepassing van dit artikel kan de Koning, na advies van het Beheerscomité van het Fonds tot vergoeding van de in geval van sluiting van ondernemingen ontslagen werknemers, opgericht bij artikel [4 27 van de wet van 26 juni 2002 betreffende de sluiting van ondernemingen]4, en van de Nationale Arbeidsraad, bepalen wat moet worden verstaan onder het slechte weer dat het werk onmogelijk maakt.) <W 1992-06-26/30, art. 98, 028; Inwerkingtreding : 10-07-1992> ([1 De werkgever is verplicht de eerste dag van de werkelijke schorsing van de uitvoering van de overeenkomst, krachtens dit artikel, in elke kalendermaand onmiddellijk op elektronische wijze mede te delen aan de Rijksdienst voor Arbeidsvoorziening. De Koning bepaalt de nadere regelen betreffende het bewijs van het slechte weder en betreffende deze mededeling. Hij bepaalt eveneens de voorwaarden waaronder de elektronische mededeling vervangen kan worden door een mededeling bij een ter post aangetekende brief of door een faxbericht verzonden aan het werkloosheidsbureau van de Rijksdienst voor Arbeidsvoorziening van de plaats waar de onderneming gevestigd is.]1 [3 De werkgever duidt in deze mededeling aan of hij al dan niet over een opleidingsplan bedoeld in artikel 51ter beschikt.]3 De werkgever wordt van deze mededeling vrijgesteld indien gedurende de kalendermaand voor de betrokken werknemer reeds mededeling werd gedaan met toepassing [2 van artikel 49, § 2, eerste lid, of]2 van artikel 51, § 3quater, eerste lid.) <W 1999-03-26/30, art. 124, 042; Inwerkingtreding : 01-01-1999> Maakt het weder het werk opnieuw mogelijk, dan moet de werkman verwittigd worden dat het werk wordt hervat.
@@ -792,7 +780,7 @@ slechte weder schorst de uitvoering van de overeenkomst, voor zover het werk onm
 (1)<W 2011-07-04/03, art. 6, 073; Inwerkingtreding : 01-10-2011>
 (2)<W 2012-06-22/02, art. 11, 076; Inwerkingtreding : Inwerkingtreding : 01-10-2012 (zie KB 2012-09-20/23, (3)<W 2012-12-27/06, art. 46, 077; Inwerkingtreding : onbepaald> (4)<W 2013-12-26/08, art. 17, 080; Inwerkingtreding : 01-01-2014> (5)<W 2013-12-26/08, art. 29, 080; Inwerkingtreding : 01-01-2014>
 
-##### Art. 51.§ 1. (Op advies van het paritair comité of van de Nationale Arbeidsraad, kan de Koning de voorwaarden bepalen waaronder bij gebrek aan werk wegens economische oorzaken, de uitvoering van de overeenkomst geheel wordt geschorst of een regeling van gedeeltelijke arbeid wordt ingevoerd.
+##### Art. 51. § 1. (Op advies van het paritair comité of van de Nationale Arbeidsraad, kan de Koning de voorwaarden bepalen waaronder bij gebrek aan werk wegens economische oorzaken, de uitvoering van de overeenkomst geheel wordt geschorst of een regeling van gedeeltelijke arbeid wordt ingevoerd.
 Het koninklijk besluit vermeldt :
 1° de wijze waarop en de termijn waarbinnen de nieuwe arbeidsregeling wordt ter kennis gebracht;
 2° de duur van de nieuwe regeling;
@@ -831,7 +819,7 @@ De werkgever die zich niet gedraagt naar de in het eerste en het derde lid bedoe
 Het minimumbedrag van het supplement wordt bepaald op 2 euro per dag waarop hij niet heeft gewerkt in toepassing van dit artikel.
 De werkgever is ertoe gehouden dit supplement te betalen, tenzij de betaling daarvan door een door de Koning algemeen verbindend verklaarde collectieve arbeidsovereenkomst ten laste wordt gelegd van het Fonds voor Bestaanszekerheid.
 De Koning kan, bij een in Ministerraad overlegd besluit, het minimumbedrag van het supplement bedoeld in het tweede lid verhogen.
-Dit supplement is eveneens verschuldigd in geval van toepassing van artikel 49 en artikel 50.]1 [4De werkgever moet aan de werkman minstens het dubbele betalen van het minimumbedrag van het supplement bedoeld in het tweede en het vijfde lid voor elke werkloosheidsdag in toepassing van de artikelen 49, 50 of dit artikel tijdens de welke de werkman geen recht heeft gehad uit hoofde van de werkgever op de in artikel 51ter, tweede lid, bedoelde opleiding]4 (1)<W 2011-04-12/05, art. 9, 071; Inwerkingtreding : 01-01-2012> (2)<W 2011-07-04/03, art. 7, 073; Inwerkingtreding : 01-10-2011> (3)<W 2012-06-22/02, art. 12, 076; Inwerkingtreding : Inwerkingtreding : 01-10-2012 (zie KB 2012-09-20/23, (4)<W 2012-12-27/06, art. 47, 077; Inwerkingtreding : onbepaald> (5)<W 2013-12-26/08, art. 30, 080; Inwerkingtreding : 01-01-2014> (6)<W 2018-01-15/02, art. 9, 086; Inwerkingtreding : 15-02-2018>
+Dit supplement is eveneens verschuldigd in geval van toepassing van artikel 49 en artikel 50. ]1 [4De werkgever moet aan de werkman minstens het dubbele betalen van het minimumbedrag van het supplement bedoeld in het tweede en het vijfde lid voor elke werkloosheidsdag in toepassing van de artikelen 49, 50 of dit artikel tijdens de welke de werkman geen recht heeft gehad uit hoofde van de werkgever op de in artikel 51ter, tweede lid, bedoelde opleiding]4 (1)<W 2011-04-12/05, art. 9, 071; Inwerkingtreding : 01-01-2012> (2)<W 2011-07-04/03, art. 7, 073; Inwerkingtreding : 01-10-2011> (3)<W 2012-06-22/02, art. 12, 076; Inwerkingtreding : Inwerkingtreding : 01-10-2012 (zie KB 2012-09-20/23, (4)<W 2012-12-27/06, art. 47, 077; Inwerkingtreding : onbepaald> (5)<W 2013-12-26/08, art. 30, 080; Inwerkingtreding : 01-01-2014> (6)<W 2018-01-15/02, art. 9, 086; Inwerkingtreding : 15-02-2018>
 
 ##### Art. 51bis
 
@@ -844,7 +832,7 @@ De werkgever mag volledige rustdagen toekennen om deze gemiddelde wekelijkse arb
 [1 De Koning bepaalt de vorm en de inhoud van het opleidingsplan bedoeld in de artikelen 49, § 2, tweede lid, 50, vierde lid, en 51, § 3quater, tweede lid, evenals de nadere regelen van de bewaring of de verzending ervan aan de Rijksdienst voor Arbeidsvoorziening.
 De Koning bepaalt het type van opleidingen die moeten verleend worden in uitvoering van het opleidingsplan.]1 (1)<Ingevoegd bij W 2012-12-27/06, art. 48, 077; Inwerkingtreding : onbepaald>
 
-##### Art. 52.§ 1. (In geval van arbeidsongeschiktheid wegens ziekte, andere dan een beroepsziekte, of wegens ongeval, ander dan een arbeidsongeval of een ongeval op de weg naar of van het werk, heeft de werkman ten laste van zijn werkgever recht op zijn normaal loon gedurende een periode van zeven dagen (en op 60 pct. van het gedeelte van dat loon dat de loongrens die in aanmerking komt voor de berekening van de uitkeringen van de ziekte- en invaliditeitsverzekering niet overschrijdt, gedurende de zeven daaropvolgende dagen). <KB465 1986- 10-01/30, art. 1, a, 013> <nota: de bepalingen van dit besluit zijn enkel van toepassing op de werknemers die na de inwerkingtreding arbeidsongeschikt zijn geworden : 01-11-1986> [1 lid 2 opgeheven]1 [1 lid 3 opgeheven]1 [1 lid 4 opgeheven, met oude lid 4 al opgeheven]1
+##### Art. 52. § 1. (In geval van arbeidsongeschiktheid wegens ziekte, andere dan een beroepsziekte, of wegens ongeval, ander dan een arbeidsongeval of een ongeval op de weg naar of van het werk, heeft de werkman ten laste van zijn werkgever recht op zijn normaal loon gedurende een periode van zeven dagen (en op 60 pct. van het gedeelte van dat loon dat de loongrens die in aanmerking komt voor de berekening van de uitkeringen van de ziekte- en invaliditeitsverzekering niet overschrijdt, gedurende de zeven daaropvolgende dagen). <KB465 1986- 10-01/30, art. 1, a, 013> <nota: de bepalingen van dit besluit zijn enkel van toepassing op de werknemers die na de inwerkingtreding arbeidsongeschikt zijn geworden : 01-11-1986> [1 lid 2 opgeheven]1 [1 lid 3 opgeheven]1 [1 lid 4 opgeheven, met oude lid 4 al opgeheven]1
 
 Het recht op loon gaat in wanneer de werkman zonder onderbreking gedurende ten minste één maand in dienst van dezelfde onderneming is gebleven.
 Wanneer de werkman die anciënniteit bereikt tijdens (de periode van gewaarborgd loon), kan hij op het eerste lid bedoelde loon aanspraak maken voor de overblijvende dagen. <KB465 1986-10-01/30, art. 1, c, 013> <nota : de bepalingen van dit besluit zijn enkel van toepassing op de werknemers die na de inwerkingtreding arbeidsongeschikt zijn geworden : 01-11-1986>
@@ -866,7 +854,7 @@ De Koning kan, na advies van het bevoegde paritair comité en bij een in Ministe
 3° bijkomende voorwaarden buiten die gesteld in de artikelen 31 en 52 opleggen.
 Het paritair comité deelt zijn advies mede binnen twee maanden na verzoek daartoe; na het verstrijken van deze termijn mag een beslissing worden genomen.
 
-##### Art. 54.§ 1. In geval van arbeidsongeschiktheid wegens een arbeidsongeval, een ongeval op de weg naar of van het werk, of een beroepsziekte, heeft de werkman recht op het normaal loon gedurende een periode van zeven dagen vanaf de eerste dag van de arbeidsongeschiktheid.
+##### Art. 54. § 1. In geval van arbeidsongeschiktheid wegens een arbeidsongeval, een ongeval op de weg naar of van het werk, of een beroepsziekte, heeft de werkman recht op het normaal loon gedurende een periode van zeven dagen vanaf de eerste dag van de arbeidsongeschiktheid.
 De arbeidsdag die onderbroken wordt wegens een arbeidsongeval, een ongeval op de weg naar of van het werk, of een beroepsziekte en die aan de door het ongeval getroffen of zieke werkman uitbetaald wordt krachtens de bepalingen van artikel 27, moet worden beschouwd als de eerste dag van deze periode.
 § 2. In afwijking van de artikelen 22 en 25 van de arbeidsongevallenwet van 10 april 1971 en van de artikelen 34 en 35 van de gecoördineerde wetten van 3 juni 1970 betreffende de schadeloosstelling voor beroepsziekten, zijn de in de artikelen 49 en 58 van de arbeidsongevallenwet bedoelde maatschappij, verzekeringskas of [1 Fedris]1, alsmede het in artikel 4 van genoemde gecoördineerde wetten van 3 juni 1970 bedoelde [1 Fedris]1 ertoe gehouden de dagelijkse vergoedingen, die aan de werkman verschuldigd zijn, voor dezelfde periode aan de werkgever te storten.
 In dat geval zijn de in artikel 43 van de voormelde wet van 10 april 1971 en in artikel 42 van de voormelde gecoördineerde wetten van 3 juni 1970 bedoelde bijdragen, niet verschuldigd.
@@ -880,13 +868,13 @@ De in het vorige lid bedoelde vergoedingen worden, voor de toepassing van de bep
 
 <W 1989-12-22/31, art. 241, 019; Inwerkingtreding : 09-01-1990> Zo de werkster buiten de periodes van verlof of van arbeidsonderbreking vastgesteld bij artikel 39 van de arbeidswet van 16 maart 1971 arbeidsongeschikt is ten gevolge van zwangerschap of bevalling, zijn de bepalingen van artikel 52 van toepassing.
 
-##### Art. 56.Tijdens
+##### Art. 56. Tijdens
 
 de periodes en verloven, vastgesteld bij (de bepalingen van de artikelen 28, 2°bis, 30, 30ter, [1 30sexies,]1 49, 51, 52, 54 en 55) heeft de werkman enkel recht op het normale loon voor de dagen van gewone activiteit waarvoor hij aanspraak had kunnen maken op loon, indien hij niet in de onmogelijkheid had verkeerd om te werken. <W 2004-07-09/30, art. 294, 058; Inwerkingtreding : 25-07-2004> (De Koning kan op advies van de Nationale Arbeidsraad afwijken van de regel voorzien in het eerste lid.) <W 1993-06-10/32, art. 14, 029; Inwerkingtreding : 10-07-1993> Het normale loon wordt berekend volgens de wetgeving op de feestdagen.
 De Koning kan, na advies van het bevoegde paritair comité of van de Nationale Arbeidsraad, een andere wijze van berekening van het normale loon vaststellen.
 (1)<W 2018-09-06/12, art. 3/1, 092; Inwerkingtreding : 01-01-2019>
 
-##### Art. 57.In
+##### Art. 57. In
 
 de bedrijfstakken waar een fonds voor bestaanszekerheid bestaat, is de werkgever geheel of gedeeltelijk ontslagen van de verplichtingen betreffende het behoud van het loon, (zoals bepaald bij [2 of krachtens]2 de artikelen 27, [1 ...]1 30, [2 30ter, 30sexies]2, 49 tot 52, 54 en 55), voor zover bij een collectieve arbeidsovereenkomst, door de Koning algemeen verbindend verklaard, het Fonds voor bestaanszekerheid met die verplichting wordt belast. <W 2004-07-09/30, art. 295, 058; Inwerkingtreding : 25-07-2004> (1)<W 2013-12-26/08, art. 31, 080; Inwerkingtreding : 01-01-2014> (2)<W 2022-10-07/08, art. 11, 104; Inwerkingtreding : 10-11-2022>
 
@@ -916,7 +904,7 @@ de bedrijfstakken waar een fonds voor bestaanszekerheid bestaat, is de werkgever
 
 <Opgeheven bij W 2013-12-26/08, art. 37, 080; Inwerkingtreding : 01-01-2014>
 
-##### Art. 63.Onder
+##### Art. 63. Onder
 
 willekeurige afdanking wordt, voor de toepassing van dit artikel, verstaan, het ontslag van een werkman die is aangeworven voor een onbepaalde tijd, om redenen die geen verband houden met de geschiktheid of het gedrag van de werkman of die niet berusten op de noodwendigheden inzake de werking van de onderneming, de instelling of de dienst.
 Bij betwisting behoort het aan de werkgever het bewijs te leveren van de voor het ontslag ingeroepen redenen.
@@ -935,7 +923,7 @@ De in het derde lid bedoelde vergoeding is verschuldigd onafgezien van het feit 
 
 <Opgeheven bij W 2013-12-26/08, art. 39, 080; Inwerkingtreding : 01-01-2014>
 
-##### Art. 65.§ 1. Onder concurrentiebeding wordt verstaan het beding waarbij de werkman de verbintenis aangaat bij zijn vertrek uit de onderneming geen soortgelijke activiteiten uit te oefenen, hetzij door zelf een onderneming uit te baten, hetzij door in dienst te treden bij een concurrerende werkgever, waardoor hij de mogelijkheid heeft de onderneming, die hij heeft verlaten, nadeel te berokkenen door de kennis, die eigen is aan die onderneming en die hij op industrieel of op handelsgebied in die onderneming heeft verworven, voor zichzelf of ten voordele van een concurrerende onderneming aan te wenden.
+##### Art. 65. § 1. Onder concurrentiebeding wordt verstaan het beding waarbij de werkman de verbintenis aangaat bij zijn vertrek uit de onderneming geen soortgelijke activiteiten uit te oefenen, hetzij door zelf een onderneming uit te baten, hetzij door in dienst te treden bij een concurrerende werkgever, waardoor hij de mogelijkheid heeft de onderneming, die hij heeft verlaten, nadeel te berokkenen door de kennis, die eigen is aan die onderneming en die hij op industrieel of op handelsgebied in die onderneming heeft verworven, voor zichzelf of ten voordele van een concurrerende onderneming aan te wenden.
 § 2. Het concurrentiebeding wordt als niet-bestaande beschouwd in de arbeidsovereenkomsten waarin het jaarloon ((16 100) EUR) niet overschrijdt. <KB 1984-12-14/33, art. 1, 008> <KB 2000-07-20/66, art. 1, 046;
 
 (NOTA : het bedrag van 16.100 EUR wordt bij indexering gebracht op 25.277 EUR <VARIA 2001-10-30/30, art.
@@ -1048,7 +1036,7 @@ De bepalingen van deze titel zijn toepasselijk op de arbeidsovereenkomst voor be
 
 (opgeheven) <W 1985-01-22/30, art. 63, 009>
 
-##### Art. 69.In
+##### Art. 69. In
 
 afwijking van artikel 13 is het scheidsrechterlijk beding geldig voor de bediende waarvan het jaarloon hoger is dan ((32 200) EUR) en die met het dagelijks beheer van de onderneming is belast of in een afdeling of bedrijfseenheid van de onderneming beheersverantwoordelijkheid heeft die kan worden vergeleken met die voor de gehele onderneming. <KB 1984-12-14/33, art. 3, 008> <KB 2000-07-20/66, art. 1, 046; Inwerkingtreding : 01-01-2002>
 
@@ -1085,14 +1073,14 @@ M; Inwerkingtreding : 01-01-2016>)
 
 ### HOOFDSTUK II. _ Loonregeling bij schorsing van de uitvoering van de overeenkomst.
 
-##### Art. 70.De
+##### Art. 70. De
 
 bediende die is aangeworven voor onbepaalde tijd, voor een bepaalde tijd van ten minste drie maanden of voor een duidelijk omschreven werk waarvan de uitvoering normaal een tewerkstelling van ten minste drie maanden vergt, behoudt het recht op zijn loon gedurende de eerste dertig dagen van arbeidsongeschiktheid wegens ziekte of ongeval.
 
 [1 In geval de arbeidsongeschiktheid ten gevolge van ziekte andere dan een beroepsziekte, of ten gevolge van een ongeval, ander dan een arbeidsongeval of een ongeval van of naar het werk aansluit op de afwezigheid wegens het overlijden van de echtgenoot of echtgenote of samenwonende partner, van een kind van de werknemer of van zijn echtgeno(o)t(e) of samenwonende partner, worden deze dagen van afwezigheid die op grond van artikel 2, 5°, van het koninklijk besluit van 28 augustus 1963 betreffende het behoud van het normaal loon van werknemers voor afwezigheidsdagen ter gelegenheid van familiegebeurtenissen of voor de vervulling van staatsburgerlijke verplichtingen of van burgerlijke opdrachtenartikel worden toegekend, vanaf de vierde dag aangerekend op de periode van dertig dagen bedoeld in het eerste lid, op voorwaarde dat deze vierde dag aansluit op een derde dag afwezigheid toegestaan op grond van artikel 2, 5°, van het voormelde koninklijk besluit.]1 [3 Met betrekking tot de werknemers die niet onder het toepassingsgebied vallen van het voormelde koninklijk besluit, bepaalt de Koning de aanrekening op de periode van het gewaarborgd loon, alsook de nadere regelen van de betrokken aanrekening. De aanrekening mag niet minder voordelig zijn dan deze bedoeld in de eerste zin.]3 [2 In afwijking van de voorgaande leden heeft de bediende die wordt tewerkgesteld in toepassing van artikel 17,
 § 1, eerste lid, 1° en 3° tot 7°, van het koninklijk besluit van 28 november 1969 tot uitvoering van de wet van 27 juni 1969 tot herziening van de besluitwet van 28 december 1944 betreffende de maatschappelijke zekerheid der arbeiders en met naleving van alle voorwaarden bepaald in artikel 17 van voormeld koninklijk besluit van 28 november 1969, geen recht op loon verschuldigd in geval van arbeidsongeschiktheid wegens een ziekte, andere dan een beroepsziekte, of wegens een ongeval dat geen arbeidsongeval is of een ongeval op de weg naar of van het werk, tenzij dit loon wordt voorzien door een door de Koning algemeen verbindend verklaarde collectieve arbeidsovereenkomst.]2 (1)<W 2021-06-27/18, art. 7, 100; Inwerkingtreding : 25-07-2021> (2)<W 2022-03-17/11, art. 6, 102; Inwerkingtreding : 01-01-2022> (3)<W 2022-11-28/01, art. 2, 109; Inwerkingtreding : 01-03-2023>
 
-##### Art. 71.De
+##### Art. 71. De
 
 bediende die is aangeworven [1 ...]1 voor een bepaalde tijd van minder dan drie maanden of voor een duidelijk omschreven werk waarvan de uitvoering normaal een tewerkstelling van minder dan drie maanden vergt, heeft recht, in geval van arbeidsongeschiktheid wegens ziekte ander dan een beroepsziekte of wegens ongeval ander dan een arbeidsongeval of een ongeval op de weg naar of van het werk, op (...) zijn loon voor een periode van zeven dagen (en op 60 pct. van het gedeelte van dat loon dat de loongrens die in aanmerking komt voor de berekening van de uitkeringen van de ziekte- en invaliditeitsverzekering niet overschrijdt, gedurende de zeven daaropvolgende dagen). <KB465 1986-10-01/30, art. 3, 013> <nota : de bepalingen van dit besluit zijn enkel van toepassing op de werknemers die na de inwerkingtreding arbeidsongeschikt zijn geworden : 01-11- 1986> De bepalingen van de [3 artikelen 52, § § 1, 6, en 7,]3 en 53 gelden voor dat loon.
 (1)<W 2013-12-26/08, art. 42, 080; Inwerkingtreding : 01-01-2014>
@@ -1104,7 +1092,7 @@ bediende die is aangeworven [1 ...]1 voor een bepaalde tijd van minder dan drie 
 De bediende als bedoeld in artikel 71 heeft, in geval van arbeidsongeschiktheid wegens beroepsziekte, arbeidsongeval of ongeval op de weg naar of van het werk, recht op zijn (...) loon voor een periode van zeven dagen die aanvangt met de eerste dag van de arbeidsongeschiktheid. <W 1985-07-17/41, art. 12, 010> De arbeidsdag die onderbroken wordt wegens beroepsziekte, arbeidsongeval of ongeval op de weg naar of van het werk en die aan de bediende wordt uitbetaald krachtens de bepalingen van artikel 27, moet worden beschouwd als de eerste dag van die periode.
 De bepalingen van artikel 54, § 2, eerste en tweede lid, gelden voor dat loon.
 
-##### Art. 73.§ 1. In geval van arbeidsongeschiktheid wegens ziekte, ander dan een beroepsziekte, of wegens ongeval, ander dan arbeidsongeval of een ongeval op de weg naar of van het werk, is het in de artikelen 70 en 71 bedoelde loon niet opnieuw verschuldigd als een nieuwe arbeidsongeschiktheid zich voordoet in de eerste [1 acht weken]1 na het einde van een periode van arbeidsongeschiktheid waarvoor het in de artikelen 70 en 71 bedoelde loon wordt betaald.
+##### Art. 73. § 1. In geval van arbeidsongeschiktheid wegens ziekte, ander dan een beroepsziekte, of wegens ongeval, ander dan arbeidsongeval of een ongeval op de weg naar of van het werk, is het in de artikelen 70 en 71 bedoelde loon niet opnieuw verschuldigd als een nieuwe arbeidsongeschiktheid zich voordoet in de eerste [1 acht weken]1 na het einde van een periode van arbeidsongeschiktheid waarvoor het in de artikelen 70 en 71 bedoelde loon wordt betaald.
 Het in de artikelen 70 en 71 bedoelde loon is echter verschuldigd :
 1° voor het nog te lopen gedeelte van de periode van dertig of (veertien) dagen, als de eerste periode van arbeidsongeschiktheid geen aanleiding gaf tot betaling van het in de artikelen 70 en 71 bedoelde loon tijdens de periode van dertig of (veertien) dagen; <KB465 1986-10-01/30, art. 4, 013> <nota : de bepalingen van dit besluit zijn enkel van toepassing op de werknemers die na de inwerkingtreding arbeidsongeschikt zijn geworden : 01-11-1986>
 2° als de bediende een geneeskundig getuigschrift overlegt waaruit blijkt dat de nieuwe arbeidsongeschiktheid aan een andere ziekte of een ander ongeval is te wijten.
@@ -1270,7 +1258,7 @@ Het type van opleidingen die moeten verleend worden in uitvoering van het opleid
 
 <Opgeheven bij W 2013-12-26/08, art. 53, 080; Inwerkingtreding : 01-01-2014>
 
-##### Art. 86.§ 1. De bepalingen van artikel 65 zijn toepasselijk op de arbeidsovereenkomst voor bedienden.
+##### Art. 86. § 1. De bepalingen van artikel 65 zijn toepasselijk op de arbeidsovereenkomst voor bedienden.
 § 2. Wat de hierna bedoelde ondernemingen en bedienden betreft, kan, in de vormen en onder de voorwaarden vastgesteld in een in de schoot van de Nationale Arbeidsraad afgesloten overeenkomst worden afgeweken van het bepaalde in artikel 65, § 2, vijfde lid, 2° en 3°, alsook van het bepaalde in § 2, negende lid, van hetzelfde artikel, in zoverre daarin voorzien wordt dat het beding geen uitwerking heeft wanneer aan de overeenkomst een einde wordt gemaakt, ofwel [1 gedurende de eerste zes maanden vanaf de aanvang van de overeenkomst]1 ofwel na deze periode door de werkgever zonder dringende reden. Deze afwijkingen geven recht op het betalen van een vergoeding door de werkgever tenzij hij aan de effectieve toepassing van het concurrentiebeding verzaakt.
 De ondernemingen waarop dit afwijkingsbeding kan worden toegepast zijn die welke beantwoorden aan een van de twee of aan de twee navolgende voorwaarden :
 a) een internationaal activiteitsveld hebben of belangrijke economische, technische of financiële belangen hebben op de internationale markten;
@@ -1371,7 +1359,7 @@ De vergoedingen verschuldigd krachtens de artikelen 39 en 40 en de vergoeding we
 
 Wanneer de overeenkomst wordt beëindigd om een aan de werkgever te wijten dringende reden en het bedrag van de in artikel 101 bedoelde uitwinningsvergoeding het werkelijk geleden nadeel niet volledig vergoedt, kan de handelsvertegenwoordiger, mits hij de omvang van het beweerde nadeel bewijst, boven de in artikel 101 bedoelde vergoeding schadeloosstelling verkrijgen ten belope van het verschil tussen het bedrag van het werkelijk geleden nadeel en het bedrag van die vergoeding.
 
-##### Art. 104.In
+##### Art. 104. In
 
 de overeenkomsten waarin het jaarlijks loon ((16.100) EUR) niet te boven gaat, wordt het concurrentiebeding als onbestaande beschouwd. <KB 1984-12-14/33, art. 7, 008> <KB 2000-07-20/66, art. 1, 046; Inwerkingtreding : 01-01-2002>
 
@@ -1453,7 +1441,7 @@ In dat geval is de werkgever ook verplicht de niet-ontvoogde minderjarige dienst
 
 ### HOOFDSTUK III. _ Schorsing van de uitvoering van de overeenkomst.
 
-##### Art. 112.Bij
+##### Art. 112. Bij
 
 arbeidsongeschiktheid wegens ziekte of ongeval behoudt de dienstbode het recht op zijn normaal loon voor een periode van zeven dagen vanaf de eerste dag van arbeidsongeschiktheid (en op 60 pct. van het gedeelte van dat loon dat de loongrens die in aanmerking komt voor de berekening van de uitkeringen van de ziekte- en invaliditeitsverzekering niet overschrijdt, gedurende de zeven daaropvolgende dagen). <KB465 1986- 10-01/30, art. 6, 013> <nota : de bepalingen van dit besluit zijn enkel van toepassing op de werknemers die na de inwerkingtreding arbeidsongeschikt zijn geworden : 01-11-1986> Bij arbeidsongeschiktheid wegens arbeidsongeval of ongeval op de weg naar of van het werk gelden de bepalingen van artikel 54, § 2, eerste en tweede lid, voor dat loon.
 [1 In geval de arbeidsongeschiktheid ten gevolge van ziekte andere dan een beroepsziekte, of ten gevolge van een ongeval, ander dan een arbeidsongeval of een ongeval van of naar het werk aansluit op de afwezigheid wegens het overlijden van de echtgenoot of echtgenote of samenwonende partner, van een kind van de dienstbode of van zijn echtgeno(o)t(e) of samenwonende partner, worden de dagen van afwezigheid die op grond van artikel 2, 5°, van het koninklijk besluit van 28 augustus 1963 betreffende het behoud van het normaal loon van werknemers voor afwezigheidsdagen ter gelegenheid van familiegebeurtenissen of voor de vervulling van staatsburgerlijke verplichtingen of van burgerlijke opdrachten worden toegekend, vanaf de vierde dag aangerekend op de periode van het gewaarborgd loon zoals bepaald in het eerste lid, op voorwaarde dat deze vierde dag aansluit op een derde dag afwezigheid toegestaan op grond van artikel 2, 5°, van het voormelde koninklijk besluit.]1 (1)<W 2021-06-27/18, art. 9, 100; Inwerkingtreding : 25-07-2021>
@@ -1545,7 +1533,7 @@ artikel 119.4, § 2, 4°, bedoelde vermelding en bij ontstentenis van een collec
 1° onmiddellijk zijn werkgever op de hoogte brengen van zijn arbeidsongeschiktheid :
 2° binnen 2 werkdagen vanaf de dag van de ongeschiktheid aan de werkgever een geneeskundig getuigschrift sturen of overhandigen. Van deze termijn kan bij collectieve arbeidsovereenkomst of in het arbeidsreglement worden afgeweken. Wordt het getuigschrift na de voorgeschreven termijn overgelegd, dan kan aan de werknemer het recht worden ontzegd op de in de artikelen 52, 54, 55, 70, 71, 73, 119.10 en 119.12 bedoeld loon voor de dagen van ongeschiktheid die de dag van het overhandigen of het sturen van het getuigschrift voorafgaan.
 
-##### Art. 119.10.<Ingevoegd bij W 1996-12-06/30, art. 4; Inwerkingtreding : 1997-03-01> [1 ...]1 [1 ...]1 [1 ...]1 In afwijking van artikel 56, heeft de huisarbeider die niet forfaitair betaald wordt, gedurende de periodes en de verloven die in de bepalingen van de artikelen 51, 52, 54 en 55 vastgesteld zijn, recht op een dagelijks forfaitair loon gelijk aan 1/7e van zijn normaal wekelijks loon behalve indien de uitvoering van de arbeidsovereenkomst al geschorst is of indien de werknemer op een ander loon recht heeft.
+##### Art. 119.10. <Ingevoegd bij W 1996-12-06/30, art. 4; Inwerkingtreding : 1997-03-01> [1 ...]1 [1 ...]1 [1 ...]1 In afwijking van artikel 56, heeft de huisarbeider die niet forfaitair betaald wordt, gedurende de periodes en de verloven die in de bepalingen van de artikelen 51, 52, 54 en 55 vastgesteld zijn, recht op een dagelijks forfaitair loon gelijk aan 1/7e van zijn normaal wekelijks loon behalve indien de uitvoering van de arbeidsovereenkomst al geschorst is of indien de werknemer op een ander loon recht heeft.
 Het loon wordt berekend overeenkomstig de wetgeving inzake de feestdagen.
 Na advies van het bevoegd paritair orgaan kan de Koning een andere berekeningswijze van het normaal loon bepalen.
 (1)<W 2013-12-26/08, art. 63, 080; Inwerkingtreding : 01-01-2014>
@@ -1554,7 +1542,7 @@ Na advies van het bevoegd paritair orgaan kan de Koning een andere berekeningswi
 
 <Ingevoegd bij W 1996-12-06/30, art. 4; Inwerkingtreding : 1997-03-01> Artikel 41 is slechts van toepassing op de huisarbeider die forfaitair betaald wordt.
 
-##### Art. 119.12.<Ingevoegd bij W 1996-12-06/30, art. 4; Inwerkingtreding : 1997-03-01> [1 ...]1 [1 ...]1 [1 ...]1 Voor de in de artikelen 70, 71 en 73 bedoelde periodes heeft de huisarbeider die niet forfaitair betaald wordt, recht op een dagelijks forfaitair loon gelijk aan 1/7e van zijn normaal wekelijks loon behalve als de uitvoering van de arbeidsovereenkomst al geschorst is of als de werknemer op een ander loon recht heeft.
+##### Art. 119.12. <Ingevoegd bij W 1996-12-06/30, art. 4; Inwerkingtreding : 1997-03-01> [1 ...]1 [1 ...]1 [1 ...]1 Voor de in de artikelen 70, 71 en 73 bedoelde periodes heeft de huisarbeider die niet forfaitair betaald wordt, recht op een dagelijks forfaitair loon gelijk aan 1/7e van zijn normaal wekelijks loon behalve als de uitvoering van de arbeidsovereenkomst al geschorst is of als de werknemer op een ander loon recht heeft.
 Het loon wordt overeenkomstig de wetgeving inzake de feestdagen berekend.
 Na advies van het bevoegd paritair orgaan kan de Koning een andere berekeningswijze van het normaal loon bepalen.
 (1)<W 2013-12-26/08, art. 64, 080; Inwerkingtreding : 01-01-2014>
@@ -1579,7 +1567,7 @@ De overeenkomst voor een tewerkstelling van studenten welke onder de toepassing 
 
 dienst treedt.
 
-##### Art. 124.Het
+##### Art. 124. Het
 
 in artikel 123 bedoelde geschrift moet vermelden :
 1° de identiteit, de geboortedatum, de woonplaats en eventueel de verblijfplaats van de partijen;
@@ -1620,7 +1608,7 @@ Het vorige lid is niet van toepassing wanneer de werkgever kan bewijzen dat het 
 
 geen enkele schade berokkent.
 
-##### Art. 127.[1 De eerste drie arbeidsdagen worden als proeftijd beschouwd. Tot bij het verstrijken van die tijdsduur mag ieder van de partijen de overeenkomst beëindigen, zonder opzegging noch vergoeding.]1 [2 Wanneer een student via opeenvolgende arbeidsovereenkomsten voor tewerkstelling van studenten in dezelfde functie wordt tewerkgesteld, zijn opeenvolgende proefperiodes verboden.]2 (1)<W 2013-12-26/08, art. 22, 080; Inwerkingtreding : 01-01-2014> (2)<W 2022-10-07/09, art. 25, 105; Inwerkingtreding : 10-11-2022>
+##### Art. 127. [1 De eerste drie arbeidsdagen worden als proeftijd beschouwd. Tot bij het verstrijken van die tijdsduur mag ieder van de partijen de overeenkomst beëindigen, zonder opzegging noch vergoeding.]1 [2 Wanneer een student via opeenvolgende arbeidsovereenkomsten voor tewerkstelling van studenten in dezelfde functie wordt tewerkgesteld, zijn opeenvolgende proefperiodes verboden.]2 (1)<W 2013-12-26/08, art. 22, 080; Inwerkingtreding : 01-01-2014> (2)<W 2022-10-07/09, art. 25, 105; Inwerkingtreding : 10-11-2022>
 
 ##### Art. 128
 
@@ -1632,7 +1620,7 @@ Indien de student hierom vraagt, is de werkgever gehouden bij ziekte of ongeval 
 
 In geval van arbeidsongeschiktheid ten gevolge van ziekte of ongeval kan de werkgever een einde maken aan de overeenkomst indien de ongeschiktheid langer duurt dan zeven dagen, mits betaling van een vergoeding gelijk aan het loon overeenkomend hetzij met de duur van de opzeggingstermijn, hetzij met het nog te lopen gedeelte van die termijn.
 
-##### Art. 130.Ieder
+##### Art. 130. Ieder
 
 van de partijen heeft het recht de overeenkomst te beëindigen door opzegging aan de andere partij.
 Wanneer de duur van de verbintenis één maand niet overschrijdt, bedraagt de opzeggingstermijn welke door de werkgever moet in acht genomen worden drie dagen en diegene die moet in acht genomen worden door de student één dag. Deze termijnen zijn respectievelijk zeven en drie dagen wanneer de duur van de verbintenis één maand overschrijdt.
@@ -1641,7 +1629,7 @@ De bepalingen van de artikelen [1 37, 37/1 en 37/4, eerste en tweede lid]1, geld
 (1)<W 2013-12-26/08, art. 23, 080; Inwerkingtreding : 01-01-2014>
 (2)<W 2013-12-26/08, art. 60, 080; Inwerkingtreding : 01-01-2014>
 
-##### Art. 130bis.<W 1983-06-29/31, art. 10, § 2, 004> De Koning bepaalt de voorwaarden en de modaliteiten waaronder minderjarigen van (vijftien jaar en meer [1 ...]1), overeenkomsten voor de tewerkstelling van studenten kunnen sluiten. <W 1995-03-21/32, art. 4, 034; Inwerkingtreding : 01-05-1995> (1)<W 2025-12-18/06, art. 123, 117; Inwerkingtreding : 09-01-2026>
+##### Art. 130bis. <W 1983-06-29/31, art. 10, § 2, 004> De Koning bepaalt de voorwaarden en de modaliteiten waaronder minderjarigen van (vijftien jaar en meer [1 ...]1), overeenkomsten voor de tewerkstelling van studenten kunnen sluiten. <W 1995-03-21/32, art. 4, 034; Inwerkingtreding : 01-05-1995> (1)<W 2025-12-18/06, art. 123, 117; Inwerkingtreding : 09-01-2026>
 
 ##### Art. 130ter
 
@@ -1649,7 +1637,7 @@ De bepalingen van de artikelen [1 37, 37/1 en 37/4, eerste en tweede lid]1, geld
 
 ## TITEL VIII. _ (oude TITEL VII) SLOTBEPALINGEN. <W 1996-12-06/30, art. 3, 039; Inwerkingtreding : 1997-03- 01>
 
-##### Art. 131.Voor
+##### Art. 131. Voor
 
 de toepassing van [1 de artikelen 65, [2 69, 86 en 104]2 ]1 worden de commissielonen en veranderlijke verdiensten berekend naar het loon van de twaalf voorafgaande maanden.
 ((Jaarlijks worden [1 de loonbedragen bepaald bij de artikelen 22bis, [3 29,]3 [2 65, 69, 86 en 104]2 ]1) [4 , evenals het budget bepaald door of krachtens artikel 39ter, § 1,]4 aangepast aan het indexcijfer van de conventionele lonen voor bedienden van het derde trimester overeenkomstig de volgende formule : het nieuwe bedrag is gelijk aan het basisbedrag vermenigvuldigd met het nieuwe indexcijfer en gedeeld door het aanvangsindexcijfer. Het resultaat wordt afgerond (op de euro). <KB 2001-11-28/30, art. 1, 049;
@@ -1695,5 +1683,5 @@ Opgeheven worden :
 4° de wet van 24 april 1970 betreffende de arbeidsovereenkomst voor dienstboden;
 5°, (...), de wet van 9 juni 1970 betreffende de tewerkstelling van studenten. <W 1985-07-17/41, art. 20, 010>
 
-##### Art. 138.[1 De inbreuken op de bepalingen van [2 de artikelen 30, § 2, 30bis, § 2, 30ter, 30quater en 30sexies]2 van deze wet en van de uitvoeringsbesluiten ervan worden opgespoord, vastgesteld en bestraft overeenkomstig het Sociaal Strafwetboek.
+##### Art. 138. [1 De inbreuken op de bepalingen van [2 de artikelen 30, § 2, 30bis, § 2, 30ter, 30quater en 30sexies]2 van deze wet en van de uitvoeringsbesluiten ervan worden opgespoord, vastgesteld en bestraft overeenkomstig het Sociaal Strafwetboek.
 De sociaal inspecteurs beschikken over de in de artikelen 23 tot 39 van het Sociaal Strafwetboek bedoelde bevoegdheden wanneer zij, ambtshalve of op verzoek, optreden in het kader van hun opdracht tot informatie, bemiddeling en toezicht inzake de naleving van de voormelde bepalingen en de uitvoeringsbesluiten ervan.]1 (1)<Ingevoegd bij W 2018-09-06/12, art. 3/3, 092; Inwerkingtreding : 01-01-2019> (2)<W 2022-10-07/08, art. 12, 104; Inwerkingtreding : 10-11-2022>

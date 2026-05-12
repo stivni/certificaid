@@ -1,84 +1,40 @@
 ---
-bijgewerkt: 03.02.2026
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
+tags: ["IV.C", "2.5"]
+itaa-lex-sectie: "IV.C"
+wet: "Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de Waalse gewestelijke belastingen"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "03.02.2026"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 5
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: IV.C
 provenance:
-  generated_at: '2026-05-11T16:33:51Z'
   inputs:
     - id: resources/raw/wetteksten/Decr-Waals-Directe-Belastingen.pdf
       sha256: fa05f2e6d48e11bb8849cb29f93b4cf98be34ae2d6e9ef3b4672a50fded6f56c
       version: 03.02.2026
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: f9ce762-dirty
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T18:20:43Z'
   stale: false
   stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
   trust:
-    confirmed_at: '2026-05-11T16:30:30Z'
-    confirmed_by: subagent-sonnet-4-6
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: warn
-      run_id: 20260511-165250
-      run_at: '2026-05-11T16:52:50Z'
-      heading_count: 242
-      max_section_chars: 31069
-      file_size_chars: 334281
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op #####-niveau: 31069 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B4
-          regel: 55
-          type: other
-          voorbeeld: 'Titel
-
-
-            6 MEI 1999. - Decreet betreffende...'
-        - categorie: B1
-          regel: 64
-          type: other
-          voorbeeld: '##### Art. 17bis, 18, 18bis, 19-20, 20bis, 20ter, 20quater, 20quinquies, 21-24, 24bis'
-        - categorie: B4
-          regel: 183
-          type: other
-          voorbeeld: 'Tekst
-
-
-            ## HOOFDSTUK I. - Algemene bepalingen.'
-        - categorie: A6
-          regel: 189
-          type: scrambled-words
-          voorbeeld: '##### Art. 2.De
-
-
-            Regering wijst de ambtenaren aan...'
-      rationale: 'B1/B4: De TOC bovenaan bevat article-groepen als ##### headings zonder echte artiteltekst (bv. regel 64: ''##### Art. 17bis, 18, 18bis, 19-20, 20bis, ...'' — dit zijn geen echte headings maar placeholders). Verder staan structuurlabels ''Tekst'' (regel 183) en ''Titel'' (regel 55) als losse plain-text regels zonder heading-prefix (B4). Laag-1 meldt max_section_size warn (31069 chars) maar geen form-feed. De artikel-body is correct en volledig; enkel de TOC-constructie en losse labels zijn ETL-artefacten.'
-      run_at: '2026-05-11T16:30:30Z'
-      status: needs-rework
-    rationale: 'B1/B4: De TOC bovenaan bevat article-groepen als ##### headings zonder echte artiteltekst (bv. regel 64: ''##### Art. 17bis, 18, 18bis, 19-20, 20bis, ...'' — dit zijn geen echte headings maar placeholders). Verder staan structuurlabels ''Tekst'' (regel 183) en ''Titel'' (regel 55) als losse plain-text regels zonder heading-prefix (B4). Laag-1 meldt max_section_size warn (31069 chars) maar geen form-feed. De artikel-body is correct en volledig; enkel de TOC-constructie en losse labels zijn ETL-artefacten.'
-    status: needs-rework
-status: beschikbaar
-tags:
-  - IV.C
-  - '2.5'
-wet: Decreet 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake de Waalse gewestelijke belastingen
 ---
 
 # Decreet Waalse gewestelijke belastingen
 
 *Bijgewerkt tot en met 03.02.2026 — gecoördineerde versie.*
-
-Titel
 
 6 MEI 1999. - Decreet betreffende de vestiging, de invordering en de geschillen inzake de Waalse gewestelijke belastingen. (VERTALING) (Opschrift vervangen door DWG 2008-01-17/36, art. 17, 004; Inwerkingtreding : 01- 01-2008)
 
@@ -88,26 +44,6 @@ Nota's :         1 in wat betreft de wijzigingen aangebracht bij DWG 2009-12-10/
 2 de wijzigingen aangebracht bij DWG 2013-09-19/23, art. 1, maken deel van een herstructurering van het huidig HOOFDSTUK II
 
 ##### Art. 17bis, 18, 18bis, 19-20, 20bis, 20ter, 20quater, 20quinquies, 21-24, 24bis
-
-## HOOFDSTUK V. - Rechtsmiddelen.
-
-### Afdeling 1. - Administratief verhaal.
-
-### Afdeling 2. - Gerechtelijk beroep.
-
-##### Art. 28
-
-## HOOFDSTUK Vbis. [1 Bijkomende aanvragen tot teruggave.]1
-
-##### Art. 28bis, 28ter
-
-## HOOFDSTUK VI. - Interest.
-
-### Afdeling 1. - Nalatigheidsinterest ten laste van de belastingplichtige.
-
-### Afdeling 2. - Moratoriumsinterest ten laste van het gewest.
-
-## HOOFDSTUK VII. - Invordering.
 
 ### Afdeling 1. - Vervolging.
 
@@ -209,23 +145,23 @@ Tekst
 
 ## HOOFDSTUK I. - Algemene bepalingen.
 
-Artikel 1.[1 Dit decreet is van toepassing op de belastingen, in hoofdsom en interesten, en [2 fiscale boetes]2, die gevestigd worden door decreten van het Waalse Gewest behalve voor zover bedoelde decreten daarvan afwijken alsook op de andere belastingen en taksen in hoofdsom, in interesten en [2 fiscale boetes]2 ten bate van het Waalse Gewest als dit decreet uitdrukkelijk op hen toepasselijk wordt gemaakt.
+Artikel 1. [1 Dit decreet is van toepassing op de belastingen, in hoofdsom en interesten, en [2 fiscale boetes]2, die gevestigd worden door decreten van het Waalse Gewest behalve voor zover bedoelde decreten daarvan afwijken alsook op de andere belastingen en taksen in hoofdsom, in interesten en [2 fiscale boetes]2 ten bate van het Waalse Gewest als dit decreet uitdrukkelijk op hen toepasselijk wordt gemaakt.
 Tenzij anders bepaald, is dit decreet eveneens van toepassing op aanvullende belastingen geïnd door het Waalse Gewest ten bate van de provincies, gemeenten en federaties van gemeenten.]1 [2 Onder fiscale boete wordt verstaan elke straf, ongeacht of zij forfaitair, vast of proportioneel is, alsook elke belastingverhoging of -toeslag.]2 (1)<DWG 2016-12-21/02, art. 53, 014; Inwerkingtreding : 01-01-2017> (2)<DWG 2021-12-22/12, art. 19, 026; Inwerkingtreding : 01-01-2022>
 
-##### Art. 2.De
+##### Art. 2. De
 
 Regering wijst de ambtenaren aan die belast zijn met het in ontvangst nemen en het nazien van de aangiften, het vestigen en het inkohieren van de [1 Waalse]1 gewestelijke belastingen.
 (1)<DWG 2008-01-17/36, art. 19, 004; Inwerkingtreding : 01-01-2008>
 
-##### Art. 3.De
+##### Art. 3. De
 
 [1 Waalse]1 gewestelijke belastingen worden in jaarlijkse of in bijzondere kohieren ingeschreven.
 (1)<DWG 2008-01-17/36, art. 20, 004; Inwerkingtreding : 01-01-2008>
 
-##### Art. 4.[1 De Regering bepaalt de wijze waarop de aangiften en de kohieren worden opgesteld, de wijze waarop van de kohieren kennis wordt gegeven, de betalingen worden doorgevoerd en de kwitanties afgelever ]1.
+##### Art. 4. [1 De Regering bepaalt de wijze waarop de aangiften en de kohieren worden opgesteld, de wijze waarop van de kohieren kennis wordt gegeven, de betalingen worden doorgevoerd en de kwitanties afgelever ]1.
 (1)<DWG 2023-07-12/11, art. 8, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 5.[1 § 1.]1 Mededelingen in verband met de aangifte en de controle worden, evenals de aanslagbiljetten, in een verzegelde enveloppe aan de belastingplichtige overgemaakt [2 of via gelijkwaardige elektronische communicatie ]2.
+##### Art. 5. [1 § 1.]1 Mededelingen in verband met de aangifte en de controle worden, evenals de aanslagbiljetten, in een verzegelde enveloppe aan de belastingplichtige overgemaakt [2 of via gelijkwaardige elektronische communicatie ]2.
 [1 § 2. De termijnen bedoeld in dit besluit worden berekend overeenkomstig de artikelen 52, eerste lid, 53 en 54 van het Gerechtelijk Wetboek.
 § 3. Ten opzichte van de ontvanger worden de termijnen bedoeld in de artikelen 10, 14, 16 en 25 van dit decreet die beginnen te lopen vanaf een kennisgeving op papier [2 of via gelijkwaardige elektronische communicatie]2, berekend vanaf de datum van uitwerking van de kennisgeving, namelijk :
 1° ofwel de eerste dag volgend op die waarop de brief voorgelegd is op de woonplaats van de ontvanger of, in voorkomend geval, op zijn verblijfplaats of zijn gekozen woonplaats, wanneer de kennisgeving bij gerechtsbrief [2 of per aangetekend schrijven met ontvangstbericht, of op de eerste dag volgend op die van de gelijkwaardige elektronische communicatie]2 wordt verricht;
@@ -234,7 +170,7 @@ Regering wijst de ambtenaren aan die belast zijn met het in ontvangst nemen en h
 
 (1)<DWG 2009-04-30/93, art. 6, 005; Inwerkingtreding : 01-07-2009>
 (2)<DWG 2023-07-12/11, art. 9, 030; Inwerkingtreding : 28-09-2023>
-(3)(geen Nederlandstalige versie) Art. 5bis.[1 . § 1. Onder "gelijkwaardige elektronische communicatie" in de zin van dit decreet wordt verstaan, iedere elektronische communicatieprocedure overeenkomstig het decreet van 27 maart 2014 betreffende de communicaties via elektronische weg tussen de gebruikers en de Waalse openbare overheden, en die dezelfde rechtsgevolgen voor betrokken partijen teweegbrengt als de nietelektronische procedure bepaald bij het betrokken artikel van dit decreet.
+(3)(geen Nederlandstalige versie) Art. 5bis. [1 . § 1. Onder "gelijkwaardige elektronische communicatie" in de zin van dit decreet wordt verstaan, iedere elektronische communicatieprocedure overeenkomstig het decreet van 27 maart 2014 betreffende de communicaties via elektronische weg tussen de gebruikers en de Waalse openbare overheden, en die dezelfde rechtsgevolgen voor betrokken partijen teweegbrengt als de nietelektronische procedure bepaald bij het betrokken artikel van dit decreet.
 De gelijkwaardige elektronische communicatie wordt enkel gebruikt als de belastingplichtige met deze communicatieprocedure instemt.
 § 2 Wanneer de belastingplichtige of zijn gevolmachtigde niet langer beschikt over de IT-middelen die nodig zijn om de gelijkwaardige elektronische communicatieprocedure te onderhouden, brengt hij de Waalse elektronische communicatieprocedure haar rechtsgevolgen en blijft ze uitvoerbaar tegen de belastingplichtige of zijn gemachtigde vertegenwoordiger. ]1 (1)<Ingevoegd bij DWG 2023-07-12/11, art. 10, 030; Inwerkingtreding : 28-09-2023>
 
@@ -246,35 +182,35 @@ De gelijkwaardige elektronische communicatie wordt enkel gebruikt als de belasti
 
 (1)<Ingevoegd bij DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013>
 
-##### Art. 6.[1 De belastingplichtigen die een aangifte van belasting moeten indienen, dienen gebruik te maken van het formulier dat door de Regering is vastgesteld.
+##### Art. 6. [1 De belastingplichtigen die een aangifte van belasting moeten indienen, dienen gebruik te maken van het formulier dat door de Regering is vastgesteld.
 Bedoelde formulieren worden afgeleverd door de dienst die door de Regering is aangewezen.
 De belastingplichtige die het formulier niet heeft ontvangen moet het opeisen bij de dienst die de Regering heeft aangewezen om het aangifteformulier af te leveren.]1 (1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013>
 
-##### Art. 7.[1 Om het formulier in te vullen, dienen de daarop vermelde aanwijzingen te worden gevolgd.
+##### Art. 7. [1 Om het formulier in te vullen, dienen de daarop vermelde aanwijzingen te worden gevolgd.
 Belastingformulieren moeten voor echt verklaard, van een datum voorzien en ondertekend worden.
 Stukken en inlichtingen die krachtens het formulier verplicht moeten worden voorgelegd, maken onlosmakelijk deel uit van de aangifte en dienen ofwel in originele versie of in afschrift bij de aangifte te worden gevoegd.
 Afschriften van stukken moeten voor eensluidend worden verklaard.
 De andere bijlagen moeten voor echt verklaard, van een datum voorzien en ondertekend worden, behalve indien ze van derden uitgaan.]1 [2 De aangifte van belasting moet binnen de op het formulier vermelde termijn, op papier of in gedematerialiseerde vorm aan de betrokken dienst worden opgestuurd of overhandigd volgens de modaliteiten bepaald door de [3 ...]3 Regering.]2 [2 De belastingplichtige moet elke wijziging van één van de gegevens van zijn aangifte aangeven. Wat de verkeersbelasting [3 ...]3 betreft, moet deze aangifte gebeuren vóór de ingebruikneming van het voertuig volgens de nieuwe voorwaarden.]2 (1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013> (2)<DWG 2013-11-28/18, art. 42, 009; Inwerkingtreding : 01-01-2014> (3)<DWG 2023-07-12/11, art. 11, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 8.[1 Is de belastingplichtige overleden of is hij handelingsonbekwaam, hebben, in het eerste geval, de erfgenamen of de algemene legatarissen dan wel begiftigden en, in het tweede geval, de wettelijke vertegenwoordiger de plicht om aangifte van belasting te doen.
+##### Art. 8. [1 Is de belastingplichtige overleden of is hij handelingsonbekwaam, hebben, in het eerste geval, de erfgenamen of de algemene legatarissen dan wel begiftigden en, in het tweede geval, de wettelijke vertegenwoordiger de plicht om aangifte van belasting te doen.
 Voor ontbonden vennootschappen komt die plicht aan de vereffenaars toe.]1 (1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013>
 
-##### Art. 9.[1 Gemachtigden mogen eveneens het ondertekenen van aangiften op zich nemen, maar moeten in dat geval het bewijs van de machtiging leveren dat hen in staat stelt te handelen.
+##### Art. 9. [1 Gemachtigden mogen eveneens het ondertekenen van aangiften op zich nemen, maar moeten in dat geval het bewijs van de machtiging leveren dat hen in staat stelt te handelen.
 Belastingplichtigen die niet kunnen lezen of ondertekenen, mogen hun aangiften laten invullen door de ambtenaren van de dienst waar de aangifte moet worden ingediend, op voorwaarde dat de vereiste aanwijzingen worden gegeven. Die omstandigheid wordt dan op de aangifte vermeld, welke ondertekend wordt door de ambtenaar die de aangifte heeft gekregen.
 Bij de zonder vereffening ontbonden vennootschappen in het kader van een fusie, een aan een fusie
 
 gelijkgestelde verrichting of een splitsing als bedoeld [2 in de artikelen 12:1 van het Wetboek van vennootschappen en verenigingen]2, of een gelijkaardige vennootschapsrechtelijke verrichting onder buitenlands recht, rust de verplichting tot aangifte naargelang het geval op de overnemende vennootschap of op de verkrijgende vennootschappen. Bij de andere ontbonden vennootschappen rust deze verplichting op de vereffenaars.]1 (1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013> (2)<DWG 2023-04-06/06, art. 64, 031; Inwerkingtreding : 02-11-2023>
 
-##### Art. 9bis.[1 Onverminderd andere specifieke bepalingen ter voorziening van bepaalde fiscale verplichtingen kan de [2 ]2 Regering eenieder die onderhevig is aan een belasting of taks bedoeld in dit decreet, alsmede de verenigingen, instellingen en groeperingen zonder rechtspersoonlijkheid, de verplichting opleggen boeken te houden of documenten en formulieren te bezigen waarvan zij het model en het gebruik bepaalt en die zij, wat haar of een derde betreft, nodig acht voor de controle en de inning van de belastingen en taksen bedoeld in dit decreet.]1 (1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013> (2)<DWG 2023-07-12/11, art. 12, 030; Inwerkingtreding : 28-09-2023>
+##### Art. 9bis. [1 Onverminderd andere specifieke bepalingen ter voorziening van bepaalde fiscale verplichtingen kan de [2 ]2 Regering eenieder die onderhevig is aan een belasting of taks bedoeld in dit decreet, alsmede de verenigingen, instellingen en groeperingen zonder rechtspersoonlijkheid, de verplichting opleggen boeken te houden of documenten en formulieren te bezigen waarvan zij het model en het gebruik bepaalt en die zij, wat haar of een derde betreft, nodig acht voor de controle en de inning van de belastingen en taksen bedoeld in dit decreet.]1 (1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013> (2)<DWG 2023-07-12/11, art. 12, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 10.[1 Binnen de termijn van één maand na de datum van uitwerking van de kennisgeving van de aanvraag, zoals berekend overeenkomstig artikel 5, § 3, waarbij die termijn om wettige redenen verlengd kan worden, dienen de belastingplichtigen zonder zich te verplaatsen alle inlichtingen, boeken en stukken schriftelijk [2 of via een gelijkwaardige elektronische communicatie]2 over te maken die door de dienst die de Regering heeft aangewezen, nodig worden geacht om de rechtmatige inning der belasting te waarborgen, wanneer zij daartoe worden aangezocht door de dienst aangewezen door de Regering en onverminderd het recht van deze dienst om inlichtingen ter plaatse te vragen overeenkomstig artikel 11bis.
+##### Art. 10. [1 Binnen de termijn van één maand na de datum van uitwerking van de kennisgeving van de aanvraag, zoals berekend overeenkomstig artikel 5, § 3, waarbij die termijn om wettige redenen verlengd kan worden, dienen de belastingplichtigen zonder zich te verplaatsen alle inlichtingen, boeken en stukken schriftelijk [2 of via een gelijkwaardige elektronische communicatie]2 over te maken die door de dienst die de Regering heeft aangewezen, nodig worden geacht om de rechtmatige inning der belasting te waarborgen, wanneer zij daartoe worden aangezocht door de dienst aangewezen door de Regering en onverminderd het recht van deze dienst om inlichtingen ter plaatse te vragen overeenkomstig artikel 11bis.
 Die inlichtingen kunnen betrekking hebben op de verrichtingen waaraan de belastingplichtige deelachtig was en mogen worden aangewend om de belasting te heffen op derden die eveneens aan die verrichtingen deel hadden.]1 (1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013> (2)<DWG 2023-07-12/11, art. 13, 030; Inwerkingtreding : 28-09-2023>
 
 ### Afdeling 2. - [1 Onderzoeken en controles]1
 
 (1)<Ingevoegd bij DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013>
 
-##### Art. 11.[1 § 1. De dienst die de Regering heeft aangewezen mag voor een welbepaalde belastingplichtige zich schriftelijke attesten laten uitreiken, derden verhoren en van natuurlijke en rechtspersonen, en van verenigingen zonder rechtspersoonlijkheid, diensten, openbare instellingen en inrichtingen uitgesloten, eisen dat alle inlichtingen die het bestuur nodig acht om de rechtmatige inning der belasting te waarborgen, binnen de door het bestuur opgelegde termijn worden verstrekt, waarbij bedoelde termijn om wettige redenen kan worden verlengd.
+##### Art. 11. [1 § 1. De dienst die de Regering heeft aangewezen mag voor een welbepaalde belastingplichtige zich schriftelijke attesten laten uitreiken, derden verhoren en van natuurlijke en rechtspersonen, en van verenigingen zonder rechtspersoonlijkheid, diensten, openbare instellingen en inrichtingen uitgesloten, eisen dat alle inlichtingen die het bestuur nodig acht om de rechtmatige inning der belasting te waarborgen, binnen de door het bestuur opgelegde termijn worden verstrekt, waarbij bedoelde termijn om wettige redenen kan worden verlengd.
 § 2. De administratieve diensten van [4 ...]4, de besturen van de provincies, de agglomeraties, de federaties van gemeenten en de gemeenten gelegen op het grondgebied van het Waalse Gewest, zomede de openbare instellingen en inrichtingen die actief zijn op het grondgebied van het Waalse Gewest, zijn gehouden, wanneer zij daartoe worden aangezocht door een ambtenaar belast met de vestiging of de invordering van de belastingen en taksen bedoeld in dit decreet, hem alle in hun bezit zijnde inlichtingen te verstrekken, hem, zonder verplaatsing, in alle in hun bezit zijnde akten, stukken, registers en om het even welke bescheiden inzage te verlenen, en hem alle inlichtingen, afschriften of uittreksels te laten nemen, welke de bedoelde ambtenaar voor de vestiging of de inningsvordering van de belastingen of taksen bedoeld in dit decreet nodig acht.
 Onder openbare instellingen worden verstaan, in de zin van het vorig lid, de instellingen, maatschappijen, verenigingen, inrichtingen en diensten welke het Waalse Gewest mede beheert, waaraan het Waalse Gewest een waarborg verstrekt, op de werkzaamheden waarvan het Waalse Gewest toezicht uitoefent of waarvan het bestuurspersoneel wordt aangewezen door de Waalse Regering, op haar voordracht of met haar goedkeuring.
 De Waalse Regering kan voorzien dat elke aanvraag tot overmaking van inlichtingen, akten, stukken, registers en om het even welke bescheiden inzake fiscaliteit, ingediend bij het Waalse Gewest door andere Belgische of buitenlandse overheden, alsook alle aanvragen om inlichtingen, akten, stukken, registers en om het even welke bescheiden inzake fiscaliteit, ingediend door het Waalse Gewest bij andere Belgische of buitenlandse overheden, alsook het ontvangen en verzenden van deze informatie, verplicht moeten gericht worden aan of gestuurd worden door een bepaalde dienst [3 van de Waalse Overheidsdienst Fiscaliteit]3 die zij aanwijst.
@@ -286,7 +222,7 @@ De Waalse Regering kan voorzien dat elke aanvraag tot overmaking van inlichtinge
 (3)<DWG 2021-12-22/12, art. 20, 026; Inwerkingtreding : 01-01-2022>
 (4)<DWG 2023-07-12/11, art. 14, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 11bis.[1 § 1. Om controle uit te oefenen op de inning van de belastingen en taksen bedoeld in dit decreet, mogen de ambtenaren van de door de Regering aangewezen dienst elk ogenblik zonder voorafgaande verwittiging vrij binnendringen in alle gebouwen, werkplaatsen, inrichtingen, lokalen of andere plaatsen waar activiteiten waarop deze belastingen en taksen betrekking hebben, worden uitgeoefend of waarvan vermoed wordt dat ze daar uitgeoefend worden.
+##### Art. 11bis. [1 § 1. Om controle uit te oefenen op de inning van de belastingen en taksen bedoeld in dit decreet, mogen de ambtenaren van de door de Regering aangewezen dienst elk ogenblik zonder voorafgaande verwittiging vrij binnendringen in alle gebouwen, werkplaatsen, inrichtingen, lokalen of andere plaatsen waar activiteiten waarop deze belastingen en taksen betrekking hebben, worden uitgeoefend of waarvan vermoed wordt dat ze daar uitgeoefend worden.
 Deze ambtenaren mogen o.a.:
 1. alle boeken, registers, facturen en andere bescheiden die zich daar bevinden, controleren; door middel van de gebruikte uitrusting en met de bijstand van de vereiste persoon, de betrouwbaarheid nagaan van de geïnformatiseerde inlichtingen, gegevens en bewerkingen, door inzonderheid de voorlegging ter inzage te vorderen van stukken die in het bijzonder zijn opgesteld om de op informatiedragers geplaatste gegevens om te zetten in een leesbare en verstaanbare vorm;
 2. de aard en de belangrijkheid van de aldaar uitgeoefende activiteit en het daarvoor bestemde personeel vaststellen, alsook de voorraden en goederen die zich daar bevinden, met inbegrip van de installaties en het rollend materieel; voor de controle op de inning van de belasting op de spelen en weddenschappen, de kasvoorraad van de belastingplichtige controleren;
@@ -326,23 +262,23 @@ De ambtenaren bedoeld in § 1 moeten in het kader van de controle van de inning 
 De [7 ...]7 Regering bepaalt het dienstuniform dat door deze ambtenaren gedragen wordt alsook de legitimatiekaart en de kentekens op de voertuigen die door laatstgenoemden zullen worden gebruikt.
 § 5. Onverminderd de bevoegdheden toegewezen aan de andere officiers of agenten van de gerechtelijke politie en aan de leden van het operationeel kader van de federale en de lokale politie, wijst de [7 ...]7 Regering de hoedanigheid van agent of officier van de gerechtelijke politie toe aan de beëdigde personeelsleden die zij aanwijst om de inning van de belastingen te controleren waarop dit decreet van toepassing is.]3 (1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013> (2)<DWG 2013-11-28/18, art. 43, 009; Inwerkingtreding : 01-01-2014> (3)<DWG 2013-11-28/18, art. 44, 009; Inwerkingtreding : 01-01-2014> (4)<DWG 2015-12-17/14, art. 36, 012; Inwerkingtreding : 01-04-2016> (5)<DWG 2016-12-21/02, art. 54, 014; Inwerkingtreding : 01-01-2017> (6)<DWG 2021-12-22/12, art. 21, 026; Inwerkingtreding : 01-01-2022> (7)<DWG 2023-07-12/11, art. 15, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 11ter.[1 De persoon die een in dit decreet bedoelde belasting of taks verschuldigd is, bewaart gedurende [2
+##### Art. 11ter. [1 De persoon die een in dit decreet bedoelde belasting of taks verschuldigd is, bewaart gedurende [2
 
 tien]2 jaar, met ingang van 1 januari van het aanslagjaar, een afschrift van de desbetreffende aangiften overgemaakt aan de dienst die de Regering heeft aangewezen om ze in ontvangst te nemen, alsook de boeken, registers, facturen en andere bescheiden waarvan de wetgeving van toepassing op de betrokken taks of belasting het houden, het opmaken of het uitreiken voorschrijven, en ook de andere beheersdocumenten die nodig zijn voor de verificatie van de vaststelling en de inning van de belastingen en taksen bedoeld in dit decreet, met name de gegevens met betrekking tot de analyses, de programma's en het beheer van computersystemen gebruikt in het beheer van deze belastingen en taksen, en de informatiedragers en alle gegevens die zij bevatten.
 Behoudens wanneer zij door het gerecht in beslag genomen worden, of behoudens afwijking toegestaan door de dienst aangewezen door de [3 ...]3 Regering, moeten de aangiften, boeken, registers, facturen en andere bescheiden bedoeld in het eerste lid, ter beschikking van deze dienst worden bewaard in het kantoor, agentschap, bijhuis of elk ander beroeps- of privélokaal van de belastingplichtige waar deze boeken en bescheiden werden gehouden, opgesteld of toegezonden.]1 (1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013> (2)<DWG 2021-12-22/12, art. 22, 026; Inwerkingtreding : 01-01-2022> (3)<DWG 2023-07-12/11, art. 16, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 11quater.[1 Hij die, in welke hoedanigheid ook, optreedt bij de toepassing van de Waalse fiscale bepalingen of die toegang heeft tot de kantoren [2 van de Waalse Overheidsdienst Fiscaliteit]2, is, buiten het uitoefenen van zijn ambt, verplicht tot de meest volstrekte geheimhouding aangaande alle zaken waarvan hij wegens de uitvoering van zijn opdracht kennis heeft.]1 [2 De in lid 1 bedoelde verplichting wordt opgeheven wanneer informatie wordt meegedeeld in het kader van een meldingssysteem dat specifiek bij decreet of bij besluit van de Regering is ingesteld.]2 (1)<Ingevoegd bij DWG 2013-11-28/18, art. 45, 009; Inwerkingtreding : 01-01-2014> (2)<DWG 2021-12-22/12, art. 23, 026; Inwerkingtreding : 01-01-2022>
+##### Art. 11quater. [1 Hij die, in welke hoedanigheid ook, optreedt bij de toepassing van de Waalse fiscale bepalingen of die toegang heeft tot de kantoren [2 van de Waalse Overheidsdienst Fiscaliteit]2, is, buiten het uitoefenen van zijn ambt, verplicht tot de meest volstrekte geheimhouding aangaande alle zaken waarvan hij wegens de uitvoering van zijn opdracht kennis heeft.]1 [2 De in lid 1 bedoelde verplichting wordt opgeheven wanneer informatie wordt meegedeeld in het kader van een meldingssysteem dat specifiek bij decreet of bij besluit van de Regering is ingesteld.]2 (1)<Ingevoegd bij DWG 2013-11-28/18, art. 45, 009; Inwerkingtreding : 01-01-2014> (2)<DWG 2021-12-22/12, art. 23, 026; Inwerkingtreding : 01-01-2022>
 
-##### Art. 11quinquies.[1 De met de invordering belaste ambtenaren beschikken over alle onderzoeksbevoegdheden bedoeld bij dit decreet om de vermogenstoestand vast te leggen van de belastingplichtige en van de personen op wier goederen de belastingen, taksen, verschuldigd in hoofdsom en opcentiemen, de administratieve boetes en verhogingen, de nalatigheidsinteresten en de kosten worden ingevorderd overeenkomstig artikel 35ter, om de invordering van de belastingen, taksen, verschuldigd in hoofdsom en opcentiemen, de administratieve boetes en verhogingen, de nalatigheidsinteresten en de kosten te verzekeren. ]1 (1)<Ingevoegd bij DWG 2023-07-12/11, art. 17, 030; Inwerkingtreding : 28-09-2023>
+##### Art. 11quinquies. [1 De met de invordering belaste ambtenaren beschikken over alle onderzoeksbevoegdheden bedoeld bij dit decreet om de vermogenstoestand vast te leggen van de belastingplichtige en van de personen op wier goederen de belastingen, taksen, verschuldigd in hoofdsom en opcentiemen, de administratieve boetes en verhogingen, de nalatigheidsinteresten en de kosten worden ingevorderd overeenkomstig artikel 35ter, om de invordering van de belastingen, taksen, verschuldigd in hoofdsom en opcentiemen, de administratieve boetes en verhogingen, de nalatigheidsinteresten en de kosten te verzekeren. ]1 (1)<Ingevoegd bij DWG 2023-07-12/11, art. 17, 030; Inwerkingtreding : 28-09-2023>
 
 ### Afdeling 3. - [1 Bewijsmiddelen van het bestuur]1
 
 (1)<Ingevoegd bij DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013>
 
-##### Art. 12.[1 § 1. Om te bepalen of een persoon aan de belasting dient te worden onderworpen en om belastinggrondslag en bedrag vast te stellen, mag de door de Regering aangewezen dienst alle bewijsmiddelen aanwenden die door het gemene recht worden toegelaten, behalve de eed.
+##### Art. 12. [1 § 1. Om te bepalen of een persoon aan de belasting dient te worden onderworpen en om belastinggrondslag en bedrag vast te stellen, mag de door de Regering aangewezen dienst alle bewijsmiddelen aanwenden die door het gemene recht worden toegelaten, behalve de eed.
 § 2. De aangiften, inlichtingen, boeken en stukken, attesten en beheersdocumenten bedoeld in de artikelen 6 tot 11ter alsmede de gegevens die erin worden vermeld, die door de door de Regering aangewezen dienst opgenomen, bewaard of gekopieerd worden volgens een fotografisch, optisch of elektronisch proces of door elke andere informatica- of telematicatechniek alsmede hun uitbeelding op een zichtbare drager, hebben bewijskracht voor de toepassing van de belastingen en taksen bedoeld in dit decreet.]1 (1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013>
 
-##### Art. 12bis.[6 °1. ]6 [1 De ambtenaren van het Waalse Gewest en de gemeentelijke en provinciale ambtenaren en personeelsleden zijn bevoegd voor het hele grondgebied van het Waalse Gewest om overtredingen op te sporen en om, zelfs alleen, processen-verbaal inzake de taksen en belastingen bedoeld in dit decreet op te stellen.
+##### Art. 12bis. [6 °1. ]6 [1 De ambtenaren van het Waalse Gewest en de gemeentelijke en provinciale ambtenaren en personeelsleden zijn bevoegd voor het hele grondgebied van het Waalse Gewest om overtredingen op te sporen en om, zelfs alleen, processen-verbaal inzake de taksen en belastingen bedoeld in dit decreet op te stellen.
 Deze processen-verbaal hebben bewijskracht, zolang het tegendeel niet bewezen is, voor de feiten die erin worden vastgesteld.
 Ze worden overgemaakt aan de ambtenaar aangewezen door de Regering.]1
 [2 [3 [4 Inzake verkeersbelasting, belasting op de inverkeerstelling, eurovignet en kilometerheffing]4]3, zijn de personeelsleden van de dienst aangewezen door de Regering, als agent van de gerechtelijke politie of als officier van de gerechtelijke politie bevoegd om over het ganse grondgebied van het Waalse Gewest de overtredingen van de betrokken wetgeving op te sporen, [6 en]6 om de processen-verbaal terzake, alleen of gezamenlijk, op te stellen en om het ontdoken bedrag van de betrokken belasting, verhoogd met de [5 fiscale boete]5, onmiddellijk te innen.
@@ -357,10 +293,10 @@ De processen-verbaal worden toegezonden aan de ambtenaren die daartoe door de Ge
 (5)<DWG 2021-12-22/12, art. 24, 026; Inwerkingtreding : 01-01-2022>
 (6)<DWG 2023-07-12/11, art. 18, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 12ter.[1 § 1. Elke inlichting, elk stuk, proces-verbaal of elke akte, in het uitoefenen van zijn functie ontdekt of bekomen door een ambtenaar van het Waalse Gewest, hetzij rechtstreeks, hetzij door toedoen van één der in artikel 11, § 2 en § 3 aangeduide diensten, [2 hetzij in het kader van de wederzijdse bijstand gevoer overeenkomstig hoofdstuk Xbis]2 kan door het Waalse Gewest worden ingeroepen voor het opsporen van elke krachtens de belastingen en taksen bedoeld in dit decreet verschuldigde som.
+##### Art. 12ter. [1 § 1. Elke inlichting, elk stuk, proces-verbaal of elke akte, in het uitoefenen van zijn functie ontdekt of bekomen door een ambtenaar van het Waalse Gewest, hetzij rechtstreeks, hetzij door toedoen van één der in artikel 11, § 2 en § 3 aangeduide diensten, [2 hetzij in het kader van de wederzijdse bijstand gevoer overeenkomstig hoofdstuk Xbis]2 kan door het Waalse Gewest worden ingeroepen voor het opsporen van elke krachtens de belastingen en taksen bedoeld in dit decreet verschuldigde som.
 § 2. Elke ambtenaar van het Waalse Gewest, regelmatig belast met een controle of een onderzoek in verband met de toepassing van een belasting of taks bedoeld in dit decreet bij een natuurlijke of rechtspersoon, is van rechtswege gemachtigd alle inlichtingen te nemen, op te zoeken of in te zamelen welke de juiste heffing kan verzekeren van alle belastingen of taksen gevestigd ten gunste van het Waalse Gewest en waarvoor het Waalse Gewest de dienst verzorgt.]1 (1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013> (2)<DWG 2023-07-12/11, art. 19, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 12quater.[1 In afwijking van de artikelen 10 tot 11bis is de dienst aangewezen door de Regering niet gemachtigd om in de rekeningen, boeken en documenten van de bank-, wissel-, krediet- en spaarinstellingen inlichtingen in te zamelen met het oog op het belasten van hun cliënten.
+##### Art. 12quater. [1 In afwijking van de artikelen 10 tot 11bis is de dienst aangewezen door de Regering niet gemachtigd om in de rekeningen, boeken en documenten van de bank-, wissel-, krediet- en spaarinstellingen inlichtingen in te zamelen met het oog op het belasten van hun cliënten.
 De artikelen 10 tot 11bis zijn ook niet van toepassing op het Nationaal Instituut voor de Statistiek, op de openbare financiële en kredietinstellingen en -inrichtingen, wat betreft de individuele gegevens die over derden worden ingezameld.
 Indien evenwel, het onderzoek van de dienst aangewezen door de Regering, uitgevoerd op basis van de artikelen 10 tot 11bis bij andere personen of instellingen dan die bedoeld in lid 1 en 2, concrete elementen aan het licht brengt die het bestaan of de voorbereiding van een mechanisme van belastingontduiking kunnen doen vermoeden, kan de daartoe door de Minister bevoegd voor Financiën aangewezen ambtenaar uit de rekeningen, boeken en documenten van de instelling inlichtingen putten die het mogelijk maken het onderzoek te voltooien en de door deze cliënt verschuldigde belastingen en taksen te bepalen.]1 (1)<DWG 2013-09-19/23, art. 1, 008; Inwerkingtreding : 21-10-2013>
 
@@ -379,25 +315,25 @@ Indien de belastingplichtige het tegendeel niet bewijst, worden de maatstaf van 
 
 ### Afdeling 1. - Wijziging van de aangifte.
 
-##### Art. 13.Indien
+##### Art. 13. Indien
 
 het bestuur meent dat de bestanddelen die de belastingplichtige in zijn aangifte opgenomen heeft, dienen te worden gewijzigd, worden laatstgenoemde [1 ,bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie,]1 de bestanddelen medegedeeld die [de dienst die de Regering heeft aangewezen] voornemens is in de plaats te stellen van de in de aangifte opgenomen bestanddelen, waarbij de redenen worden opgegeven die de wijziging van aangifte kennelijk staven. <DWG 2007-03-22/38, art. 56, 003;
 19/45, art. 6>
 (1)<DWG 2023-07-12/11, art. 20, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 14.De
+##### Art. 14. De
 
 belastingplichtige mag [de dienst die de Regering heeft aangewezen] [1 binnen één maand na de datum van uitwerking van het advies van wijziging, zoals berekend overeenkomstig artikel 5, § 3,]1 , waarbij bedoelde termijn om wettige redenen kan worden verlengd, kennis geven van de bemerkingen waarop hij van zins is zich te beroepen. <BWG 2007-03-22/38, art. 57, 1°, 003; Inwerkingtreding : 01-01-2008; zie evenwel DWG 2007-03-22/38, art. 72, zoals gewijzigd bij DWG 2007-12-19/45, art. 6> Vóór het verstrijken van bedoelde termijn mag de belasting niet worden gevestigd [, tenzij de belastingplichtige schriftelijk [2 of via een gelijkwaardige elektronische communicatie]2 heeft ingestemd met de rechtzetting van de aangifte of tenzij de rechten van de gewestelijke Schatkist om een andere reden dan het verstrijken van de aanslagtermijn in gevaar zijn]. <BWG 2007-03-22/38, art. 57, 2°, 003; Inwerkingtreding : 01-01-2008; zie evenwel DWG 2007-03-22/38, art. 72, zoals gewijzigd bij DWG 2007-12-19/45, art. 6> (1)<DWG 2009-04-30/93, art. 10, 005; Inwerkingtreding : 01-07-2009> (2)<DWG 2023-07-12/11, art. 21, 030; Inwerkingtreding : 28-09-2023>
 
 ### Afdeling 2. - Aanslag van ambtswege.
 
-##### Art. 15.[1 De dienst die de Regering heeft aangewezen mag de aanslag van ambtswege doorvoeren op grond van de belastinggrondslag die vermoed wordt naar aanleiding van de bestanddelen waarover wordt beschikt in gevallen waarin de belastingplichtige : - verzuimd heeft om binnen de vereiste termijn indiening te doen van de aangifte waartoe hij bij het decreet [2 of de wetgeving]2 tot vestiging van de belasting verplicht is;
+##### Art. 15. [1 De dienst die de Regering heeft aangewezen mag de aanslag van ambtswege doorvoeren op grond van de belastinggrondslag die vermoed wordt naar aanleiding van de bestanddelen waarover wordt beschikt in gevallen waarin de belastingplichtige : - verzuimd heeft om binnen de vereiste termijn indiening te doen van de aangifte waartoe hij bij het decreet [2 of de wetgeving]2 tot vestiging van de belasting verplicht is;
 - verzuimd heeft binnen de daartoe voorgeschreven termijn de vormfouten uit zijn aangifte te verwijderen;
 [2 - verzuimd heeft op verzoek van de ambtenaar aangewezen door de Regering om binnen een termijn van een maand en zonder zich te verplaatsen, alle inlichtingen en documenten te verstrekken die nodig worden geacht voor de controle van de aangifte i.v.m. de verkeersbelasting, de belasting op de inverkeerstelling en het eurovignet of de toepassing van de wetgeving betreffende deze belastingen;]2 - verzuimd heeft om de inlichtingen opgevraagd door de dienst die de Regering heeft aangewezen binnen de vastgestelde termijn te verstrekken of de van hem geëiste boeken, registers, facturen en andere stukken over te maken, en meer in het algemeen in geval van overtreding van de artikelen 10, 11bis en 11ter door de belastingplichtige;
 - verzuimd heeft de belasting op de automatische ontspanningstoestellen te betalen, rekening houdend met een belastbaar toestel, binnen de termijn voorgeschreven door artikel 83 van het Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen.
 De dienst die de [3 ...]3 Regering heeft aangewezen mag ook de aanslag van ambtswege doorvoeren op grond van de belastinggrondslag die vermoed wordt naar aanleiding van de bestanddelen waarover wordt beschikt in geval van toepassing van de artikelen 91 en 92 van het Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen.]1 (1)<DWG 2009-12-10/27, art. 54, 006; Inwerkingtreding : 01-01-2010> (2)<DWG 2013-11-28/18, art. 48, 009; Inwerkingtreding : 01-01-2014> (3)<DWG 2023-07-12/11, art. 22, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 16.Vóór
+##### Art. 16. Vóór
 
 de aanslag van ambtswege gevestigd wordt, geeft [de dienst die de Regering heeft aangewezen] de belastingplichtige [3 ,bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie,]3kennis van de redenen waarom tot deze maatregel is beslist, van de bestanddelen waarop de aanslag steunt, van de wijze waarop bedoelde bestanddelen zijn bepaald en van het belastingbedrag. <BWG 2007-03-22/38, art. 59, 1°, 003; Inwerkingtreding : 01-01-2008; zie evenwel DWG 2007-03-22/38, art. 72, zoals gewijzigd bij DWG 2007-12-19/45, art. 6> De belastingplichtige beschikt [2 over een termijn van één maand te rekenen vanaf de datum van uitwerking van deze kennisgeving, zoals berekend overeenkomstig artikel 5, § 3,]2 om zijn bemerkingen schriftelijk [3 of via een gelijkwaardige elektronische communicatie]3 mede te delen.
 
@@ -411,7 +347,7 @@ Bij aanslag van ambtswege is het de belastingplichtige die het bewijs van het ju
 
 ## HOOFDSTUK IV. - Aanslagtermijn en eisbaarheid van de belasting.
 
-##### Art. 17bis.<ingevoegd bij DWG 2007-03-22/38, art. 60; Inwerkingtreding : 01-01-2008; zie evenwel DWG 2007- 03-22/38, art. 72, zoals gewijzigd bij DWG 2007-12-19/45, art. 6> § 1. [1 [7 Ieder belasting wordt alleen geïnd bij de belastingplichtigen: ]7]1 : a. hetzij krachtens een uitvoerbaar verklaard kohier, document dat de wettelijke inningstitel vormt; b. hetzij krachtens een betalingsverplichting uit eigen beweging door de wetgeving opgelegd aan de belastingplichtige, of krachtens een aangifte [3 ...]3.
+##### Art. 17bis. <ingevoegd bij DWG 2007-03-22/38, art. 60; Inwerkingtreding : 01-01-2008; zie evenwel DWG 2007- 03-22/38, art. 72, zoals gewijzigd bij DWG 2007-12-19/45, art. 6> § 1. [1 [7 Ieder belasting wordt alleen geïnd bij de belastingplichtigen: ]7]1 : a. hetzij krachtens een uitvoerbaar verklaard kohier, document dat de wettelijke inningstitel vormt; b. hetzij krachtens een betalingsverplichting uit eigen beweging door de wetgeving opgelegd aan de belastingplichtige, of krachtens een aangifte [3 ...]3.
 [2 c. hetzij krachtens een uitnodiging tot betaling of een fiscale afrekening, rechtstreeks gericht aan de belastingplichtige door de dienst aangewezen door de Regering.]2 [3 d. [7 of krachtens de fiscale afrekeing bedoeld in artikel 12bis, § 2.]7.]3
 § 2. De kohieren zijn hetzij jaarlijks, hetzij bijzonder.
 Bijzondere kohieren hebben betrekking op :
@@ -429,15 +365,15 @@ Bijzondere kohieren hebben betrekking op :
 
 (7)<DWG 2023-07-12/11, art. 24, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 18.[1 Voor de belastingen in hoofdsom, opcentiemen en [3 fiscale boetes]3 ten gunste van het Gewest, de provincies, de federaties van gemeenten en de gemeenten worden de kohieren aangelegd en uitvoerbaar verklaard door de ambtenaar aangewezen door de Regering [2 op de tijdstippen die door dezelfde ambtenaar worden bepaald]2 .]1 (1)<DWG 2013-11-28/18, art. 50, 009; Inwerkingtreding : 01-01-2014> (2)<DWG 2014-12-12/02, art. 135, 011; Inwerkingtreding : 08-01-2015> (3)<DWG 2021-12-22/12, art. 26, 026; Inwerkingtreding : 01-01-2022>
+##### Art. 18. [1 Voor de belastingen in hoofdsom, opcentiemen en [3 fiscale boetes]3 ten gunste van het Gewest, de provincies, de federaties van gemeenten en de gemeenten worden de kohieren aangelegd en uitvoerbaar verklaard door de ambtenaar aangewezen door de Regering [2 op de tijdstippen die door dezelfde ambtenaar worden bepaald]2 .]1 (1)<DWG 2013-11-28/18, art. 50, 009; Inwerkingtreding : 01-01-2014> (2)<DWG 2014-12-12/02, art. 135, 011; Inwerkingtreding : 08-01-2015> (3)<DWG 2021-12-22/12, art. 26, 026; Inwerkingtreding : 01-01-2022>
 
-##### Art. 18bis.[1 § 1. De belastingen worden op de rol geplaatst ten name van de betrokken belastingplichtigen.
+##### Art. 18bis. [1 § 1. De belastingen worden op de rol geplaatst ten name van de betrokken belastingplichtigen.
 § 2. De belastingen ten laste van overleden belastingplichtigen worden ingekohierd ten name van deze, voorafgegaan door het woord "Erfopvolging" en gevolgd door de eventuele vermelding van de persoon of personen die zich bekend hebben gemaakt bij de ambtenaar belast met de vestiging van de belasting als erfopvolger, legataris, begiftigde of bijzondere gemachtigde.
 De identiteit van dIe personen wordt gedetailleerd. Als één van de erfopvolgers uitdrukkelijk werd aangewezen om bij plaatsvervulling op te komen, wordt de inkohiering uitgevoerd overeenkomstig de volgende formule : "Erfopvolging X., de plaats van de erfopvolgers vervuld door...".
 In geval van aanslag van ambtswege, moet de naam van de overleden belastingschuldige (Nalatenschap X ...) slechts gevolgd worden door de vermelding van een van de erfgenamen die aan de dienst aangewezen door de [3 ...]3 Regering bekend is.
 § 3. Ingeval een vennootschap wordt overgenomen of gesplitst in het kader van een fusie, een aan een fusie gelijkgestelde verrichting of een splitsing als bedoel [4 in de artikelen 12:1 tot 12:8 van het Wetboek van vennootschappen en verenigingen]4, of een gelijkaardige vennootschapsrechtelijke verrichting onder buitenlands recht, wordt de aanslag inzake de overgenomen of gesplitste vennootschap, betreffende haar activiteiten tot en met de voornoemde verrichting, gevestigd, binnen de termijnen bepaald in dit hoofdstuk, ten name van de overnemende vennootschap of de verkrijgende vennootschappen zelfs op een tijdstip waarop de overgenomen of gesplitste vennootschap als rechtspersoon niet langer bestaat.]1 [2 § 4. Belastingen in de onroerende voorheffing voor een onroerend goed dat eigendom is van meerdere eigenaren in onverdeeldheid worden op de naam van één of meerdere eigenaren in het kohier ingeschreven, gevolgd door de woorden "in onverdeeldheid".]2 (1)<Ingevoegd bij DWG 2009-12-10/27, art. 56, 006; Inwerkingtreding : 01-01-2010> (2)<DWG 2020-12-17/47, art. 5, 025; Inwerkingtreding : 01-01-2021> (3)<DWG 2023-07-12/11, art. 25, 030; Inwerkingtreding : 28-09-2023> (4)<DWG 2023-04-06/06, art. 65, 031; Inwerkingtreding : 02-11-2023>
 
-##### Art. 19.Het
+##### Art. 19. Het
 
 belastbaar tijdperk valt samen met het kalenderjaar waarop de voor belasting in aanmerking genomen toestand betrekking heeft, of met het deel van het kalenderjaar waarin de belastingplichtige de voorwaarden heeft vervuld om aan de belasting te worden onderworpen.
 [Het aanslagjaar is :
@@ -446,7 +382,7 @@ belastbaar tijdperk valt samen met het kalenderjaar waarop de voor belasting in 
 (1)<DWG 2009-12-10/27, art. 57, 006; Inwerkingtreding : 01-01-2010>
 (2)<DWG 2020-12-17/47, art. 6, 025; Inwerkingtreding : 01-01-2021>
 
-##### Art. 20.De
+##### Art. 20. De
 
 belasting moet uiterlijk gevestigd zijn op 30 juni van het jaar dat volgt op het aanslagjaar.
 [1 [3 De belasting of belastingtoeslag kan vanaf 1 januari van het aanslagjaar evenwel gedurende drie jaar gevestigd worden in het geval van : - belastingen die het voorwerp zijn van een procedure tot rechtzetting van de aangifte;
@@ -463,7 +399,7 @@ In afwijking van het derde lid wordt deze termijn met vier jaar verlengd bij een
 (3)<DWG 2020-12-17/47, art. 7, 025; Inwerkingtreding : 01-01-2021>
 (4)<DWG 2021-12-22/12, art. 27, 026; Inwerkingtreding : 01-01-2022>
 
-##### Art. 20bis.[1 De belasting of belastingtoeslag kan zelfs na het verstrijken van de termijnen bedoeld in artikel 20 worden gevestigd, wanneer :
+##### Art. 20bis. [1 De belasting of belastingtoeslag kan zelfs na het verstrijken van de termijnen bedoeld in artikel 20 worden gevestigd, wanneer :
 1° [3 een rechtsvordering uitwijst dat de belastingplichtige bedoeld in dit decreet de bepalingen van dit decreet of de wetgeving die de betrokken belasting vestigt, heeft overtreden gedurende een van de tien jaren die voorafgaan aan het jaar waarin de gerechtelijke procedure is ingesteld; in dit geval moet de belasting of de aanvullende belasting worden gevestigd binnen vierentwintig maanden te rekenen vanaf de datum waarop tegen de beslissing van genoemde rechtsvordering geen verzet of voorziening meer kan worden ingediend]3;
 2° [3 bewijskrachtige gegevens waarvan de dienst aangewezen door de Waalse Regering kennis krijgt, uitwijzen dat de belastingplichtige bedoeld in dit decreet de bepalingen van dit decreet of de wetgeving die de betrokken belasting vestigt, heeft overtreden gedurende een van de tien jaren voorafgaande aan het jaar waarin deze elementen ter kennis van genoemde aangewezen dienst zijn gekomen; in dat geval wordt de belasting of de heffing vastgesteld binnen vierentwintig maanden na de datum waarop deze elementen ter kennis zijn gekomen van deze aangewezen diens]3;]1 [2 3° er na een procedure voor onderling overleg in toepassing van een internationale overeenkomst ter voorkoming van dubbele belasting of na een geschilbeslechtingsprocedure bedoeld in de artikelen 3, 4, 6, 10 of 15 van het decreet van 2 juli 2020 tot omzetting van de Richtlijn (EU) 2017/1852 van de Raad van 10 oktober 2017 betreffende mechanismen ter beslechting van belastinggeschillen in de Europese Unie, nog belastingen verschuldigd zijn, in welk geval de belasting of de toeslag wordt vastgesteld binnen twaalf maanden na de datum waarop de procedure is voltooid.]2 (1)<Ingevoegd bij DWG 2009-12-10/27, art. 59, 006; Inwerkingtreding : 01-01-2010> (2)<DWG 2020-07-02/17, art. 21, 022; Inwerkingtreding : 01-01-2018> (3)<DWG 2021-12-22/12, art. 28, 026; Inwerkingtreding : 01-01-2022>
 
@@ -472,7 +408,7 @@ In afwijking van het derde lid wordt deze termijn met vier jaar verlengd bij een
 [1 Als de vestiging van een belasting gedeeltelijk of volledig nietig verklaard is door de ambtenaar bedoeld in de artikelen 25 tot 27 rekening houdend met de schending van een wettelijke regel ander dan een regel betreffende het vervallen van de belastingstermijnen bedoeld in de artikelen 20 en 20bis, kan deze belasting, voor zover zij nietig verklaard is, opnieuw worden gevestigd ten laste van dezelfde belastingplichtige op grond van dezelfde belastingelementen of op een gedeelte ervan, binnen drie maanden van de datum waarop de beslissing van de ambtenaar bedoeld in de artikelen 25 tot 27 niet meer voor de rechter kan worden gebracht, en dit zelfs wanneer de gestelde termijnen voor het vestigen van de belastingaanslag overeenkomstig de artikelen 20 en 20bis, reeds verlopen zijn.
 Wanneer de vestiging van de vernietigde belasting aanleiding heeft gegeven tot een teruggave van een belastingkrediet aan de betrokken belastingplichtige, wordt bij de vestiging van de nieuwe vervangende belasting rekening gehouden met deze teruggave.]1 (1)<Ingevoegd bij DWG 2009-12-10/27, art. 60, 006; Inwerkingtreding : 01-01-2010>
 
-##### Art. 20quater.[1 Wanneer tegen een beslissing van de ambtenaar bedoeld in de artikelen 25 tot 27 beroep is aangetekend, en de rechter de aanslag geheel of ten dele nietig verklaart rekening houdend met de schending van een wettelijke regel ander dan een regel betreffende het vervallen van de belastingstermijnen bedoeld in de artikelen 20 en 20bis, blijft de zaak ingeschreven in het kohier gedurende zes maanden te rekenen van de gerechtelijke beslissing. Tijdens die termijn van zes maanden waarin de termijnen voor verzet, hoger beroep of verbreking geschorst worden, kan de ambtenaar aangewezen door de Regering, via conclusies een subsidiaire belasting op naam van dezelfde belastingplichtige en op grond van alle of een deel van dezelfde belastingelementen als de oorspronkelijke belasting, ter beoordeling voorleggen aan de rechter en dit, zelfs wanneer de gestelde termijnen voor het vestigen van de belastingaanslag overeenkomstig de artikelen 20 en 20bis reeds verlopen zijn.
+##### Art. 20quater. [1 Wanneer tegen een beslissing van de ambtenaar bedoeld in de artikelen 25 tot 27 beroep is aangetekend, en de rechter de aanslag geheel of ten dele nietig verklaart rekening houdend met de schending van een wettelijke regel ander dan een regel betreffende het vervallen van de belastingstermijnen bedoeld in de artikelen 20 en 20bis, blijft de zaak ingeschreven in het kohier gedurende zes maanden te rekenen van de gerechtelijke beslissing. Tijdens die termijn van zes maanden waarin de termijnen voor verzet, hoger beroep of verbreking geschorst worden, kan de ambtenaar aangewezen door de Regering, via conclusies een subsidiaire belasting op naam van dezelfde belastingplichtige en op grond van alle of een deel van dezelfde belastingelementen als de oorspronkelijke belasting, ter beoordeling voorleggen aan de rechter en dit, zelfs wanneer de gestelde termijnen voor het vestigen van de belastingaanslag overeenkomstig de artikelen 20 en 20bis reeds verlopen zijn.
 Als de ambtenaar aangewezen door de Regering de rechter een subsidiaire belasting voorlegt binnen bovenvermelde termijn van zes maanden, gaan de termijnen voor verzet, hoger beroep en verbreking in afwijking
 
 van het eerste lid pas in vanaf de betekening van de gerechtelijke beslissing over de subsidiaire belasting.
@@ -480,16 +416,16 @@ Wanneer de vestiging van de belasting waarvan de nietigheid door de rechter word
 De subsidiaire belasting is slechts invorderbaar of terugbetaalbaar ter uitvoering van de beslissing van de rechter.
 Deze subsidiaire belasting wordt aan het gerecht onderworpen door een aan de belastingplichtige betekend verzoekschrift; het verzoekschrift wordt betekend met dagvaarding om te verschijnen, wanneer het een overeenkomstig artikel 20quinquies gelijkgestelde belastingplichtige betreft.]1 (1)<DWG 2013-09-19/23, art. 2, 008; Inwerkingtreding : 21-10-2013>
 
-##### Art. 20quinquies.[1 Voor de toepassing van de artikelen 20ter en 20quater worden met dezelfde belastingplichtige gelijkgesteld :
+##### Art. 20quinquies. [1 Voor de toepassing van de artikelen 20ter en 20quater worden met dezelfde belastingplichtige gelijkgesteld :
 1° de erfgenamen van de belastingplichtige;
 2° zijn echtgenoot;
 3° de overnemende vennootschappen of de verkrijgende vennootschappen, al naar gelang, ingeval een vennootschap wordt overgenomen of gesplitst in het kader van een fusie, een aan een fusie gelijkgestelde verrichting of een splitsing als bedoeld [2 in de artikelen 12:1 tot 12:8 van het Wetboek van vennootschappen en verenigingen]2, of een gelijkaardige vennootschapsrechtelijke verrichting onder buitenlands recht;
 4° de leden van het gezin, de vennootschap, de vereniging of de gemeenschap waarvan het hoofd of de directeur oorspronkelijk werd belast en wederkerig.]1 (1)<Ingevoegd bij DWG 2009-12-10/27, art. 62, 006; Inwerkingtreding : 01-01-2010> (2)<DWG 2023-04-06/06, art. 66, 031; Inwerkingtreding : 02-11-2023>
 
-##### Art. 21.[1 § 1. Zodra de kohieren uitvoerbaar zijn verklaard, wordt er, door het verzenden van aanslagbiljetten, van de kohieruittreksels kennis gegeven aan de betrokken belastingplichtigen [2 per gewone zending per post of via een gelijkwaardige elektronische communicatie]2.
+##### Art. 21. [1 § 1. Zodra de kohieren uitvoerbaar zijn verklaard, wordt er, door het verzenden van aanslagbiljetten, van de kohieruittreksels kennis gegeven aan de betrokken belastingplichtigen [2 per gewone zending per post of via een gelijkwaardige elektronische communicatie]2.
 § 2. Wanneer de onroerende voorheffing in het kohier wordt ingeschreven ter uitvoering van artikel 18bis, § 4, wordt van het aanslagbiljet waarvan overeenkomstig het eerste lid kennis wordt gegeven aan de deelgenoot die bij naam in het kohier wordt vernoemd, in afschrift, [2 per gewone zending per post of via een gelijkwaardige elektronische communicatie,]2 kennis gegeven aan elke deelgenoot die niet bij naam in het kohier wordt vernoemd wanneer dat door minstens één van de deelgenoten aangevraagd wordt.]1 (1)<DWG 2020-12-17/47, art. 8, 025; Inwerkingtreding : 01-01-2021> (2)<DWG 2023-07-12/11, art. 26, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 22.Op
+##### Art. 22. Op
 
 het aanslagbiljet moeten vermeld staan :
 1. de woorden " Région wallonne " (" Waals Gewest ");
@@ -504,7 +440,7 @@ het aanslagbiljet moeten vermeld staan :
 10. de vermelding van naam en adres van de dienst die belast is met de inning van de belasting en vermelding van de rekening waarop de belasting moet worden betaald;
 11. de vermelding van naam en adres van de ambtenaar bij wie het administratief verhaal kan worden ingediend en de termijn waarbinnen het verhaal moet worden ingediend.
 
-##### Art. 23.<BWG 2007-03-22/38, art. 64, 003; Inwerkingtreding : 01-01-2008; zie evenwel DWG 2007-03-22/38, in een bijzonder kohier bedoeld in artikel 17bis, § 2, lid 2, eerste, tweede, vierde, zevende of achtste streepje,]3]2, zijn opeisbaar op de datum waarop het kohier uitvoerbaar is verklaard.
+##### Art. 23. <BWG 2007-03-22/38, art. 64, 003; Inwerkingtreding : 01-01-2008; zie evenwel DWG 2007-03-22/38, in een bijzonder kohier bedoeld in artikel 17bis, § 2, lid 2, eerste, tweede, vierde, zevende of achtste streepje,]3]2, zijn opeisbaar op de datum waarop het kohier uitvoerbaar is verklaard.
 Ze worden uiterlijk binnen twee maanden na de datum van verzending van het aanslagbiljet betaald.
 § 2. [1 De belasting opgenomen in een bijzonder kohier [3 bedoeld]3 in artikel 17bis, § 2, tweede lid, derde streepje, is opeisbaar zodra de betalingstermijn bepaald bij de wetgeving die op deze belasting van toepassing is, verstreken is.
 Ze moet onmiddellijk betaald worden. ]1
@@ -517,7 +453,7 @@ Ze moet onmiddellijk betaald worden.]3
 (2)<DWG 2014-12-12/02, art. 96, 011; Inwerkingtreding : 01-01-2015>
 (3)<DWG 2023-07-12/11, art. 27, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 24.[1 § 1.]1 Indien de rechten van de Schatkist in gevaar zijn, [zijn de belastingen opgenomen in een jaarlijks kohier, de belastingen opgenomen in een bijzonder kohier ingevolge een procedure tot rechtzetting van de aangifte of tot belasting van ambtswege bedoeld in artikel 17bis, § 2, tweede lid, eerste en tweede streepje, en de Waalse belasting op het achterlaten van afval bedoeld in artikel 17bis, § 2, tweede lid, vierde streepje, zoals bedoeld in artikel 23, § 1, onmiddellijk opeisbaar]. <BWG 2007-03-22/38, art. 65, 003; Inwerkingtreding : 01-01- 2008; zie evenwel DWG 2007-03-22/38, art. 72, zoals gewijzigd bij DWG 2007-12-19/45, art. 6> [1 § 2. In afwijking van artikel 23, § 2, is de belasting op de spelen en weddenschappen opeisbaar op het moment waarop de ontvangsten op grond waarvan de belasting wordt gevestigd, zijn verricht, als de rechten van de Schatkist in het gedrang komen.]1 [1 § 3. In het geval van § 1 en § 2, wordt er, wanneer de belastingschuldige betwist dat de rechten van de Schatkist in gevaar verkeren, over de betwisting uitspraak gedaan zoals in kort geding door de beslagrechter van de plaats van het kantoor waar de belasting moet worden geïnd.]1 (1)<DWG 2009-12-10/27, art. 64, 006; Inwerkingtreding : 01-01-2010>
+##### Art. 24. [1 § 1.]1 Indien de rechten van de Schatkist in gevaar zijn, [zijn de belastingen opgenomen in een jaarlijks kohier, de belastingen opgenomen in een bijzonder kohier ingevolge een procedure tot rechtzetting van de aangifte of tot belasting van ambtswege bedoeld in artikel 17bis, § 2, tweede lid, eerste en tweede streepje, en de Waalse belasting op het achterlaten van afval bedoeld in artikel 17bis, § 2, tweede lid, vierde streepje, zoals bedoeld in artikel 23, § 1, onmiddellijk opeisbaar]. <BWG 2007-03-22/38, art. 65, 003; Inwerkingtreding : 01-01- 2008; zie evenwel DWG 2007-03-22/38, art. 72, zoals gewijzigd bij DWG 2007-12-19/45, art. 6> [1 § 2. In afwijking van artikel 23, § 2, is de belasting op de spelen en weddenschappen opeisbaar op het moment waarop de ontvangsten op grond waarvan de belasting wordt gevestigd, zijn verricht, als de rechten van de Schatkist in het gedrang komen.]1 [1 § 3. In het geval van § 1 en § 2, wordt er, wanneer de belastingschuldige betwist dat de rechten van de Schatkist in gevaar verkeren, over de betwisting uitspraak gedaan zoals in kort geding door de beslagrechter van de plaats van het kantoor waar de belasting moet worden geïnd.]1 (1)<DWG 2009-12-10/27, art. 64, 006; Inwerkingtreding : 01-01-2010>
 
 ##### Art. 24bis
 
@@ -527,9 +463,9 @@ Ze moet onmiddellijk betaald worden.]3
 
 ### Afdeling 1. - Administratief verhaal.
 
-##### Art. 25.[1 De belastingplichtige alsmede de persoon op wiens goederen de belasting wordt ingevorderd overeenkomstig artikel 35ter, kan overeenkomstig artikel 17bis, § 1, schriftelijk [4 of via een gelijkwaardige elektronische communicatie"]4 bezwaar indienen tegen de belasting die jegens hem is gevestigd, bij de ambtenaar aangewezen door de Regering.
+##### Art. 25. [1 De belastingplichtige alsmede de persoon op wiens goederen de belasting wordt ingevorderd overeenkomstig artikel 35ter, kan overeenkomstig artikel 17bis, § 1, schriftelijk [4 of via een gelijkwaardige elektronische communicatie"]4 bezwaar indienen tegen de belasting die jegens hem is gevestigd, bij de ambtenaar aangewezen door de Regering.
 Het bezwaar dient te worden gemotiveerd en voorgelegd, op straffe van verval, uiterlijk binnen zes maanden na de datum van uitwerking, zoals berekend overeenkomstig artikel 5, § 3, van de kennisgeving van het aanslagbiljet aan de belastingplichtige of aan de persoon op wiens goederen de belasting wordt ingevorderd overeenkomstig artikel 35ter, of van de datum van de inning van de belastingen geïnd [2 volledig of gedeeltelijk]2 op een andere wijze dan per kohier.
-[3 Bij een belasting in de onroerende voorheffing als bedoeld in artikel 18bis, § 4, wordt het gemotiveerd bezwaarschrift, ingediend door een in het kohier niet bij naam vernoemde deelgenoot die overeenkomstig artikel 21, § 2, of artikel 35, § 2, een afschrift gekregen heeft van het aanslagbiljet, uiterlijk ingediend binnen de zes maanden van de ingangsdatum zoals deze berekend wordt overeenkomstig artikel 5, § 3, van de kennisgeving van genoemd afschrift.]3 De binnen die termijn niet-betwiste belastingen worden geacht verschuldigd te zijn en de belasting wordt geacht regelmatig te zijn behalve aanvraag tot ontheffing gegrond op artikel 27.]1 (1)<DWG 2009-12-10/27, art. 66, 006; Inwerkingtreding : 01-01-2010> (2)<DWG 2013-11-28/18, art. 52, 009; Inwerkingtreding : 01-01-2014> (3)<DWG 2020-12-17/47, art. 9, 025; Inwerkingtreding : 01-01-2021> (4)<DWG 2023-07-12/11, art. 28, 030; Inwerkingtreding : 28-09-2023>
+[3 Bij een belasting in de onroerende voorheffing als bedoeld in artikel 18bis, § 4, wordt het gemotiveerd bezwaarschrift, ingediend door een in het kohier niet bij naam vernoemde deelgenoot die overeenkomstig artikel 21, § 2, of artikel 35, § 2, een afschrift gekregen heeft van het aanslagbiljet, uiterlijk ingediend binnen de zes maanden van de ingangsdatum zoals deze berekend wordt overeenkomstig artikel 5, § 3, van de kennisgeving van genoemd afschrift.]3 De binnen die termijn niet-betwiste belastingen worden geacht verschuldigd te zijn en de belasting wordt geacht regelmatig te zijn behalve aanvraag tot ontheffing gegrond op artikel 27. ]1 (1)<DWG 2009-12-10/27, art. 66, 006; Inwerkingtreding : 01-01-2010> (2)<DWG 2013-11-28/18, art. 52, 009; Inwerkingtreding : 01-01-2014> (3)<DWG 2020-12-17/47, art. 9, 025; Inwerkingtreding : 01-01-2021> (4)<DWG 2023-07-12/11, art. 28, 030; Inwerkingtreding : 28-09-2023>
 
 ##### Art. 25bis
 
@@ -542,7 +478,7 @@ Het bezwaar dient te worden gemotiveerd en voorgelegd, op straffe van verval, ui
 Door een met redenen omklede beslissing beslist de door de Regering aangewezen ambtenaar als administratieve overheid over het bezwaar.
 In de beslissing moet vermeld worden dat een gerechtelijk beroep mogelijk is en moet worden aangegeven binnen welke termijn bedoeld beroep moet worden ingediend.
 
-##### Art. 27.[1 § 1. Behalve wanneer een ontvankelijk bezwaar tevoren voorgelegd is en de aanvraag tot ontheffing gegrond is op dezelfde elementen en motiveringen als dat bezwaar, verleent de ambtenaar die door de Regering aangewezen is, de ontheffing van de heffingen waarvan de som hoger is dan de wettelijk verschuldigde som, geïnd krachtens artikel 17bis, § 1, en die voortvloeien uit een onjuiste toepassing van de wettelijke bepalingen inzake de berekening van het bedrag van de verschuldigde retributie, zoals met name feitelijke vergissingen, dubbele heffingen, de gebrekkige overwegingen van een vrijstelling of verlaging van het bedrag van de heffing, het opduiken van nieuwe bewijsstukken of feiten, waarvan de laattijdige overlegging of mededeling door de belastingplichtige of door de persoon wiens goederen worden gebruikt voor de invordering van de heffing overeenkomstig artikel 35 ter, gerechtvaardigd is om legitieme redenen, op voorwaarde dat die bijtaksen vastgesteld zijn door de Administratie of door de belastingschuldige of door de persoon wiens belasting overeenkomstig artikel 35 ter wordt geheven, aan de Administratie zijn medegedeeld, hetzij :
+##### Art. 27. [1 § 1. Behalve wanneer een ontvankelijk bezwaar tevoren voorgelegd is en de aanvraag tot ontheffing gegrond is op dezelfde elementen en motiveringen als dat bezwaar, verleent de ambtenaar die door de Regering aangewezen is, de ontheffing van de heffingen waarvan de som hoger is dan de wettelijk verschuldigde som, geïnd krachtens artikel 17bis, § 1, en die voortvloeien uit een onjuiste toepassing van de wettelijke bepalingen inzake de berekening van het bedrag van de verschuldigde retributie, zoals met name feitelijke vergissingen, dubbele heffingen, de gebrekkige overwegingen van een vrijstelling of verlaging van het bedrag van de heffing, het opduiken van nieuwe bewijsstukken of feiten, waarvan de laattijdige overlegging of mededeling door de belastingplichtige of door de persoon wiens goederen worden gebruikt voor de invordering van de heffing overeenkomstig artikel 35 ter, gerechtvaardigd is om legitieme redenen, op voorwaarde dat die bijtaksen vastgesteld zijn door de Administratie of door de belastingschuldige of door de persoon wiens belasting overeenkomstig artikel 35 ter wordt geheven, aan de Administratie zijn medegedeeld, hetzij :
 1° binnen drie jaar, te rekenen van 1 januari van het jaar waarin de belasting is gevestigd, in het geval van de ten kohiere gebrachte belastingen, uitgezonderd de onroerende voorheffing, waarvoor die termijn op vijf jaar wordt gebracht;
 2° binnen drie jaar, te rekenen van 1 januari van het aanslagjaar van de belasting waarvan de ontheffing wordt aangevraagd, in het geval van geïnde belastingen die niet in een kohier zijn opgenomen.
 In afwijking van het eerste lid, kent de door de Regering aangewezen ambtenaar, voor wat betreft de vrijstellingen van de onroerende voorheffing en onverminderd de daarvoor bepaalde voorwaarden inzake vormvereisten en procedures de ontheffing van de belastingen toe voor een som die hoger is dan de wettelijk verschuldigde som, geïnd overeenkomstig artikel 17bis, § 1, voortvloeiend uit het niet in aanmerking nemen van deze vrijstellingen van de onroerende voorheffing, enkel als ze het gevolg zijn van materiële fouten, dubbele heffingen of als ze opduiken in het licht van bewijskrachtige nieuwe stukken of feiten welke de belastingplichtige om wettige redenen pas laattijdig heeft kunnen voorleggen of aanvoeren.
@@ -556,7 +492,7 @@ Als de ambtshalve ontheffing op initiatief van de dienst aangewezen door de Rege
 
 ### Afdeling 2. - Gerechtelijk beroep.
 
-##### Art. 28.[3 § 1.]3[1 Indien het bezwaar of de aanvraag tot ontheffing wordt afgewezen of indien de door de Regering aangewezen ambtenaar binnen zes maanden, te rekenen vanaf de ontvangst van het bezwaarschrift of van de aanvraag tot ontheffing door bedoeld ambtenaar, geen beslissing heeft getroffen, kan [2 de belastingplichtige, alsmede door de persoon op wiens goederen de belasting wordt ingevorderd overeenkomstig artikel 35ter,]2 een gerechtelijk beroep indienen tegen de door bedoelde ambtenaar beslissing getroffen of, bij gebrek aan beslissing, tegen de heffing.
+##### Art. 28. [3 § 1.]3[1 Indien het bezwaar of de aanvraag tot ontheffing wordt afgewezen of indien de door de Regering aangewezen ambtenaar binnen zes maanden, te rekenen vanaf de ontvangst van het bezwaarschrift of van de aanvraag tot ontheffing door bedoeld ambtenaar, geen beslissing heeft getroffen, kan [2 de belastingplichtige, alsmede door de persoon op wiens goederen de belasting wordt ingevorderd overeenkomstig artikel 35ter,]2 een gerechtelijk beroep indienen tegen de door bedoelde ambtenaar beslissing getroffen of, bij gebrek aan beslissing, tegen de heffing.
 Het beroep wordt ingediend door middel van een verzoekschrift op tegenspraak of bij dagvaarding betekend aan het Gewest in de persoon van de Minister-President.
 De artikelen 1385decies en 1385undecies van het Gerechtelijk Wetboek zijn van toepassing op dit gerechtelijk beroep.
 De termijn van zes maanden bedoeld in het eerste lid wordt met drie maanden verlengd als de omstreden belasting van ambtswege is gevestigd door de dienst bedoeld in artikel 15.
@@ -568,7 +504,7 @@ Gewest worden verzekerd door elke ambtenaar van de Waalse Overheidsdienst Financ
 
 (1)<Ingevoegd bij DWG 2008-01-17/36, art. 25, 004; Inwerkingtreding : 01-01-2008>
 
-##### Art. 28bis.[1 Als een belasting niet is gevestigd overeenkomstig artikel 17bis, § 1, worden de ten onrechte geïnde belastingen en de negatieve bedragen van de belastingen binnen drie jaar, te rekenen van 1 januari van het aanslagjaar van de belasting waarvoor de teruggave wordt aangevraagd, aan de verschuldigde teruggegeven op schriftelijk en gemotiveerd verzoek [2 of via een gelijkwaardige elektronische communicatie,]2 gericht aan de ambtenaar die gemachtigd is om overeenkomstig artikel 27 over de aanvraag tot ontheffing te beslissen, onverminderd artikel 25, derde lid.]1 (1)<Ingevoegd bij DWG 2008-01-17/36, art. 25, 004; Inwerkingtreding : 01-01-2008> (2)<DWG 2023-07-12/11, art. 30, 030; Inwerkingtreding : 28-09-2023>
+##### Art. 28bis. [1 Als een belasting niet is gevestigd overeenkomstig artikel 17bis, § 1, worden de ten onrechte geïnde belastingen en de negatieve bedragen van de belastingen binnen drie jaar, te rekenen van 1 januari van het aanslagjaar van de belasting waarvoor de teruggave wordt aangevraagd, aan de verschuldigde teruggegeven op schriftelijk en gemotiveerd verzoek [2 of via een gelijkwaardige elektronische communicatie,]2 gericht aan de ambtenaar die gemachtigd is om overeenkomstig artikel 27 over de aanvraag tot ontheffing te beslissen, onverminderd artikel 25, derde lid.]1 (1)<Ingevoegd bij DWG 2008-01-17/36, art. 25, 004; Inwerkingtreding : 01-01-2008> (2)<DWG 2023-07-12/11, art. 30, 030; Inwerkingtreding : 28-09-2023>
 
 ##### Art. 28ter
 
@@ -581,12 +517,12 @@ Indien gerechtelijk beroep ingediend wordt omdat over de aanvraag geen beslissin
 
 ### Afdeling 1. - Nalatigheidsinterest ten laste van de belastingplichtige.
 
-##### Art. 29.Bij
+##### Art. 29. Bij
 
 niet-betaling binnen de termijn vastgesteld bij artikel 23 [1 van een belasting of een voorschot opgenomen in een kohier]1 is van rechtswege een nalatigheidsinterest verschuldigd waarvan de voet gelijk is aan de wettelijke rentevoet.
 (1)<DWG 2023-07-12/11, art. 31, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 30.Die
+##### Art. 30. Die
 
 interest wordt voor elke belasting per kalendermaand berekend op de nog verschuldigde som en wordt (op het lagere tiental euro) afgerond ofwel vanaf de eerste dag van de maand die volgt op de maand waarin de vervaldag [2 van de termijn vastgesteld in artikel 23]2 ligt, ofwel, voor zover er een som toegerekend werd op de verschuldigde hoofdsom, vanaf de eerste dag van de maand die volgt op de maand waarin de voorgaande betaling werd verricht en tot en met de laatste dag van de maand waarin de betaling wordt verricht.
 <BWG 2001-12-20/76, art. 6, 002; Inwerkingtreding : 01-01-2002>
@@ -596,12 +532,12 @@ interest wordt voor elke belasting per kalendermaand berekend op de nog verschul
 
 [1 Deze interest wordt beschouwd als een zekere en vaststaande schuld, zodra hij opeisbaar is.]1 (1)<Ingevoegd bij DWG 2009-12-10/27, art. 70, 006; Inwerkingtreding : 01-01-2010>
 
-##### Art. 31.[1 De ambtenaar aangewezen door de Regering]1 kan tegen de voorwaarden die zij zelf bepaalt gedeeltelijke of gehele vrijstelling van nalatigheidsinteresten verlenen.
+##### Art. 31. [1 De ambtenaar aangewezen door de Regering]1 kan tegen de voorwaarden die zij zelf bepaalt gedeeltelijke of gehele vrijstelling van nalatigheidsinteresten verlenen.
 (1)<DWG 2023-07-12/11, art. 33, 030; Inwerkingtreding : 28-09-2023>
 
 ### Afdeling 2. - Moratoriumsinterest ten laste van het gewest.
 
-##### Art. 32.Bij
+##### Art. 32. Bij
 
 teruggaaf van belastingen of nalatigheidsinteresten [1 of [2 fiscale boetes]2]1 wordt de belastingplichtige een moratoriumsinterest toegekend waarvan de voet gelijk is aan de wettelijke rentevoet.
 (1)<DWG 2009-12-10/27, art. 71, 006; Inwerkingtreding : 01-01-2010>
@@ -611,7 +547,7 @@ teruggaaf van belastingen of nalatigheidsinteresten [1 of [2 fiscale boetes]2]1 
 
 Die interest wordt per kalenderjaar berekend op het bedrag van elke (op het lagere tiental euro) afgeronde betaling; de maand waarin de betaling verricht wordt, wordt buiten beschouwing gelaten, maar de maand waarin de belastingplichtige het bericht toegestuurd krijgt dat de terug te geven som te zijner beschikking wordt gesteld, wordt als een hele maand beschouwd. <BWG 2001-12-20/76, art. 7, 002; Inwerkingtreding : 01- 01-2002>
 
-##### Art. 34.Er
+##### Art. 34. Er
 
 wordt geen enkele moratoriumsinterest toegekend :
 1. [2 indien de som van die interest minder bedraagt dan 5 euro per maand.]2
@@ -629,7 +565,7 @@ wordt geen enkele moratoriumsinterest toegekend :
 [1 Ieder belastingbedrag kan enkel het voorwerp uitmaken van maatregelen van gedwongen uitvoering door de ambtenaar belast met de invordering van belastingvorderingen ten voordele van het Waalse Gewest, hierna de ontvanger genoemd, als deze maatregelen worden voorafgegaan door een vermelding van dit belastingbedrag in de uitvoerbaar verklaarde rol.
 De ontvanger is eveneens belast met de invordering van ieder ander bedrag dat bij een in kracht van gewijsde getreden beslissing aan het Gewest is toegewezen ]1 (1)<Ingevoegd bij DWG 2023-07-12/11, art. 34, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 35.[1 § 1. Indien de belasting, de [2 fiscale boete]2 en de eisbare interest niet betaald worden, kan [3 de ontvanger]3, een dwangschrift afleveren.
+##### Art. 35. [1 § 1. Indien de belasting, de [2 fiscale boete]2 en de eisbare interest niet betaald worden, kan [3 de ontvanger]3, een dwangschrift afleveren.
 In het dwangschrift worden de gegevens van het aanslagbiljet weergegeven.
 § 2. Wanneer de onroerende voorheffing ingekohierd wordt ter uitvoering van artikel 18bis, § 4, en bij ontstentenis van de toepassing van artikel 21, § 2, wordt, per gewoon schrijven [3 ]3, aan elke deelgenoot die niet bij naam in het kohier wordt vernoemd, kennis gegeven van een bevel tot betalen, samen met een afschrift van het aanslagbiljet vooraleer hen een dwangschrift wordt uitgereikt.
 § 3.[3 De ambtenaren aangewezen door de Regering zijn bevoegd om vervaldata en termijnen toe te kennen.
@@ -643,7 +579,7 @@ Indien de vervaldate en de termijnen waarom is verzocht, worden geweigerd, moete
 
 [1 Het kohier is uitvoerbaar tegen de personen die er niet in zijn opgenomen in de mate zij gehouden zijn tot de betaling van de belastingschuld op grond van het gemeen recht of op grond van de bepalingen van dit decreet of van de wetgeving die de bedoelde belasting vestigt.]1 (1)<Ingevoegd bij DWG 2009-12-10/27, art. 73, 006; Inwerkingtreding : 01-01-2010>
 
-##### Art. 35quater.[1 § 1. De erfgenamen van een overleden belastingplichtige moeten tot het bedrag van hun erfelijk aandeel de door de erflater nog niet-betaalde of ontdoken rechten betalen, tenzij de ontoereikende inning het gevolg is van misslagen begaan door ambtenaren van de dienst aangewezen door de [2 ...]2 Regering.
+##### Art. 35quater. [1 § 1. De erfgenamen van een overleden belastingplichtige moeten tot het bedrag van hun erfelijk aandeel de door de erflater nog niet-betaalde of ontdoken rechten betalen, tenzij de ontoereikende inning het gevolg is van misslagen begaan door ambtenaren van de dienst aangewezen door de [2 ...]2 Regering.
 § 2. De invordering van de belasting van een met toepassing [3 van de artikelen 12:4 tot 12:6 van het Wetboek van vennootschappen en verenigingen]3 of van een gelijkaardige vennootschapsrechtelijke verrichting onder
 
 buitenlands recht gesplitste vennootschap gevestigd ten name van de verkrijgende vennootschappen wordt, behoudens afwijkende vermeldingen in de akte die de verrichting vaststelt, verricht ten name van de verschillende verkrijgende vennootschappen na rato van de werkelijke waarde van het netto actief dat ze elk ontvangen hebben.]1 (1)<Ingevoegd bij DWG 2009-12-10/27, art. 74, 006; Inwerkingtreding : 01-01-2010> (2)<DWG 2023-07-12/11, art. 36, 030; Inwerkingtreding : 28-09-2023> (3)<DWG 2023-04-06/06, art. 67, 031; Inwerkingtreding : 02-11-2023>
@@ -656,7 +592,7 @@ buitenlands recht gesplitste vennootschap gevestigd ten name van de verkrijgende
 
 [1 Inzake de onroerende voorheffing is elke deelgenoot in de onverdeeldheid enkel gehouden tot de betaling van de belastingschuld in verhouding tot zijn aandeel in de onverdeeldheid in het belaste goed, onverminderd de andere invorderingsmogelijkheden waarin het gemeen recht of de bepalingen van het huidig decreet voorzien.]1 (1)<Ingevoegd bij DWG 2020-12-17/47, art. 12, 025; Inwerkingtreding : 01-01-2021>
 
-##### Art. 35septies.[1 Tot aan de overgang van een eigendom in de kadastrale stukken zijn de voormalige houder van het recht op de belastbare goederen of diens erfgenamen, tenzij zij het bewijs leveren van verandering van houder van dat recht en zij de identiteit en het volledig adres van de nieuwe houder mededelen, aansprakelijk voor de betaling van de onroerende voorheffing, behoudens hun beroep tegen de nieuwe houder van het recht.
+##### Art. 35septies. [1 Tot aan de overgang van een eigendom in de kadastrale stukken zijn de voormalige houder van het recht op de belastbare goederen of diens erfgenamen, tenzij zij het bewijs leveren van verandering van houder van dat recht en zij de identiteit en het volledig adres van de nieuwe houder mededelen, aansprakelijk voor de betaling van de onroerende voorheffing, behoudens hun beroep tegen de nieuwe houder van het recht.
 Bij voorlegging van het bewijs, bedoeld in lid één, of bij vaststelling van de overgang van eigendom door [2 de ontvanger]2, kan de invordering van de onroerende voorheffing, in het kohier vastgelegd op naam van de voormalige houder van het recht, krachtens hetzelfde kohier worden voortgezet ten laste van de daadwerkelijke verschuldigde van de voorheffing. Deze verschuldigde krijgt een nieuw exemplaar van het aanslagbiljet waarin gemeld wordt dat dit krachtens huidige bepaling verstrekt wordt en krijgt de hoedanigheid van retributieplichtige in de zin van dit decreet.
 Onder overgang van een eigendom wordt verstaan, iedere verandering van welke aard ook die een eigendom ondergaat, ongeacht of de eigendom van eigenaar verandert of belast wordt met een recht van erfpacht, vruchtgebruik of bewoning, dan wel of één van deze rechten uitdooft.
 Onder houder van het recht wordt de persoon verstaan, die het zakelijk recht houdt krachtens welk de onroerende voorheffing verschuldigd is.]1 (1)<Ingevoegd bij DWG 2020-12-17/47, art. 13, 025; Inwerkingtreding : 01-01-2021> (2)<DWG 2023-07-12/11, art. 37, 030; Inwerkingtreding : 28-09-2023>
@@ -665,13 +601,13 @@ Onder houder van het recht wordt de persoon verstaan, die het zakelijk recht hou
 
 [1 De administratie of het orgaan dat een goed beheert van de Staat, van een Gemeenschap of van een Gewest is aansprakelijk voor de betaling van de onroerende voorheffing betreffende dat goed.]1 (1)<Ingevoegd bij DWG 2020-12-17/47, art. 14, 025; Inwerkingtreding : 01-01-2021>
 
-##### Art. 36.Het
+##### Art. 36. Het
 
 dwangschrift wordt aan de belastingplichtige betekend bij gerechtsdeurwaardersexploot, met bevel om binnen 24 uur te betalen op straffe van uitvoering bij wijze van beslag.
 [1 In het dwangbevel worden, in de hoofding, een uittreksel uit het kohier betreffende de belastingplichtige of de deelgenoot in de onverdeeldheid die niet bij naam in het kohier vernoemd wordt overeenkomstig artikel 18bis, en een afschrift van de uitvoerbaarverklaring. Vermeld]1.
 (1)<DWG 2020-12-17/47, art. 15, 025; Inwerkingtreding : 01-01-2021>
 
-##### Art. 37.Zodra
+##### Art. 37. Zodra
 
 de in het dwangbevel vermelde termijn verstreken is, laat de ontvanger uitvoerend beslag op roerend goed leggen volgens de wijze vastgesteld door het Gerechtelijk Wetboek [1 ...]1.
 (1)<DWG 2023-07-12/11, art. 38, 030; Inwerkingtreding : 28-09-2023>
@@ -701,10 +637,10 @@ de in het dwangbevel vermelde termijn verstreken is, laat de ontvanger uitvoeren
 Tegenover belastingplichtigen die door roerende voorwerpen weg te halen of op andere wijze zouden trachten om de waarborgen van de gewestelijke Schatkist te doen verdwijnen of eenvoudigweg te verminderen, kan de ontvanger een uitvoerend beslag op roerend goed laten leggen zonder op voorhand een dwangbevel te laten betekenen.
 In dat geval houdt het exploot van het beslag bevel voorafgaand aan beslag in en vermeldt dat exploot de gegevens bedoeld in artikel 22 en de gronden waarop het niet op voorhand betekenen van een dwangbevel steunen.
 
-##### Art. 44.[1 [2 ...]2
+##### Art. 44. [1 [2 ...]2
 Het uitvoerend beslag op onroerend goed moet het voorwerp uitmaken van een machtiging van de [2 ambtenaar aangewezen door de Regering"]2.]1 (1)<DWG 2009-12-10/27, art. 77, 006; Inwerkingtreding : 01-01-2010> (2)<DWG 2023-07-12/11, art. 40, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 45.Bij
+##### Art. 45. Bij
 
 zijn vraag om goedkeuring voegt de ontvanger
 1. een door de hypotheekbewaarder afgeleverd certificaat der inschrijvingen waarmee [1 de uit te voeren]1 goeden zijn bezwaard;
@@ -715,24 +651,24 @@ zijn vraag om goedkeuring voegt de ontvanger
 
 De ontvanger en de instrumenterende deurwaarders mogen zich op straffe van nietigheid van de verkoop geen enkel voorwerp waarvan zij de verkoop vervolgen rechtsreeks of onrechtstreeks toeëigenen.
 
-##### Art. 47.Indien
+##### Art. 47. Indien
 
 er geen andere schuldeisers beslag gelegd of verzet aangetekend hebben, wordt de opbrengst van de verkoop na aftrek van de vervolgingskosten die aan de deurwaarder toekomen, aan de ontvanger gestort. Indien er andere schuldeisers beslag gelegd of verzet aangetekend hebben, wordt de opbrengst volgens de wijze vastgelegd door het Gerechtelijk Wetboek evenredig verdeeld door de gerechtsdeurwaarder.
 
-##### Art. 48.[1 Bij ter post aangetekend schrijven kan de ontvanger in de handen van een derde uitvoerend beslag op derden laten leggen over bedragen en voorwerpen verschuldigd of toebehorend aan de belastingplichtige, tot beloop van het bedrag, geheel of gedeeltelijk, dat door deze laatste verschuldigd is uit hoofde van belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten.
+##### Art. 48. [1 Bij ter post aangetekend schrijven kan de ontvanger in de handen van een derde uitvoerend beslag op derden laten leggen over bedragen en voorwerpen verschuldigd of toebehorend aan de belastingplichtige, tot beloop van het bedrag, geheel of gedeeltelijk, dat door deze laatste verschuldigd is uit hoofde van belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten.
 Wanneer het beslag slaat op inkomsten bedoeld in de artikelen 1409, § 1 en § 1bis, en 1410 van het Gerechtelijk Wetboek, bevat de aanzegging, op straffe van nietigheid, het aangifteformulier voor kind ten laste waarvan het model bepaald is door de Minister van Justitie en gebruikt is voor de toepassing van artikel 164 van het koninklijk besluit tot uitvoering van het Wetboek van de inkomstenbelastingen 1992.
 Het beslag wordt eveneens bij een ter post aangetekende brief [3 of via een gelijkwaardige elektronische communicatie]3 aan de belastingplichtige aangezegd.
 [3 De belastingschuldige kan tegen het beslag bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie verzet aantekenen bij de bevoegde ontvanger binnen de vijftien dagen te rekenen vanaf de afgifte ter post van de aanzegging van het beslag of binnen de vijftien dagen te rekenen vanaf de afgifte van de aanzegging van het beslag via een gelijkwaardige elektronische communicatie. ]3.]1 (1)<DWG 2009-12-10/27, art. 78, 006; Inwerkingtreding : 01-01-2010> (2)<DWG 2021-12-22/12, art. 33, 026; Inwerkingtreding : 01-01-2022> (3)<DWG 2023-07-12/11, art. 41, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 49.[1 Het beslag bedoeld in artikel 48]1 heeft uitwerking te rekenen vanaf de overhandiging van het stuk aan de bestemmeling. Naar aanleiding daarvan wordt door de ontvanger overeenkomstig artikel 1390 van het Gerechtelijk Wetboek een bericht van beslag opgesteld en opgestuurd.
+##### Art. 49. [1 Het beslag bedoeld in artikel 48]1 heeft uitwerking te rekenen vanaf de overhandiging van het stuk aan de bestemmeling. Naar aanleiding daarvan wordt door de ontvanger overeenkomstig artikel 1390 van het Gerechtelijk Wetboek een bericht van beslag opgesteld en opgestuurd.
 (1)<DWG 2023-07-12/11, art. 42, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 50.Onder
+##### Art. 50. Onder
 
 voorbehoud van wat voorzien is in de artikelen 48 en 49 zijn de bepalingen van de artikelen 1539, 1540, 1542, eerste en tweede lid, en 1453 van het Gerechtelijk Wetboek van toepassing op [1 het beslag bedoeld in artikel 48]1, met dien verstande dat het bedrag van het beslag in de handen van de ontvanger wordt gelegd.
 (1)<DWG 2023-07-12/11, art. 43, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 51.Het
+##### Art. 51. Het
 
 uitvoerend beslag onder derden moet per deurwaardersexploot worden gelegd op de wijze voorzien bij de artikelen 1539 tot en met 1544 van het Gerechtelijk Wetboek indien blijkt uit de verklaring die de derde beslagene na het beslag [1,bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie ]1 moet afgeven, dat :
 1. de verschuldigde op wie het beslag geldt zich tegen het uitvoerend beslag onder derden verzet;
@@ -741,21 +677,21 @@ uitvoerend beslag onder derden moet per deurwaardersexploot worden gelegd op de 
 4. dat de voorwerpen waarop beslag is gelegd vervreemd moeten worden.
 (1)<DWG 2023-07-12/11, art. 44, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 52.[1 In het geval van artikel 51 moet het uitvoerend beslag onder derden]1 moet worden gelegd binnen één maand nadat de verklaring voorzien bij artikel 1452 van het Gerechtelijk Wetboek bij de post is afgeleverd; zo niet wordt het beslag bedoeld in artikel 48 geacht onbestaand te zijn.
+##### Art. 52. [1 In het geval van artikel 51 moet het uitvoerend beslag onder derden]1 moet worden gelegd binnen één maand nadat de verklaring voorzien bij artikel 1452 van het Gerechtelijk Wetboek bij de post is afgeleverd; zo niet wordt het beslag bedoeld in artikel 48 geacht onbestaand te zijn.
 In dat geval behoud het uitvoerend beslag onder derden [2 dat door de ontvanger bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie is gelegd]2, zijn bewarende werking indien de ontvanger zoals voorzien bij artikel 1539 van het Gerechtelijk Wetboek een uitvoerend beslag onder derden laat leggen in de handen van de derde binnen de maand die volgt op het afgeven aan de post van de verklaring van de derde beslagene.
 (1)<DWG 2009-12-10/27, art. 79, 006; Inwerkingtreding : 01-01-2010>
 (2)<DWG 2023-07-12/11, art. 45, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 52bis.[1 Elke som die aan een persoon moet worden teruggegeven of betaald in het kader van de toepassing van de wettelijke bepalingen of krachtens de bepalingen van het burgerlijk recht met betrekking tot de onverschuldigde betaling, inzake de Waalse gewestelijke belastingen, heffingen en [2 fiscale boetes]2, kan door de bevoegde ambtenaar zonder formaliteit worden aangewend ter betaling van de door deze persoon invorderbare Waalse gewestelijke belastingen, heffingen en [2 fiscale boetes]2, interesten en kosten [3, evenals van ieder ander bedrag bedoeld in artikel 34bis, lid 2, ]3 wanneer deze laatste een zekere en vaststaande schuld vormen op het tijdstip van de bestemming.
+##### Art. 52bis. [1 Elke som die aan een persoon moet worden teruggegeven of betaald in het kader van de toepassing van de wettelijke bepalingen of krachtens de bepalingen van het burgerlijk recht met betrekking tot de onverschuldigde betaling, inzake de Waalse gewestelijke belastingen, heffingen en [2 fiscale boetes]2, kan door de bevoegde ambtenaar zonder formaliteit worden aangewend ter betaling van de door deze persoon invorderbare Waalse gewestelijke belastingen, heffingen en [2 fiscale boetes]2, interesten en kosten [3, evenals van ieder ander bedrag bedoeld in artikel 34bis, lid 2, ]3 wanneer deze laatste een zekere en vaststaande schuld vormen op het tijdstip van de bestemming.
 Het eerste lid blijft van toepassing in geval van beslag, overdracht, samenloop of een insolvabiliteitsprocedure.
 Een kwitantie wordt zo spoedig mogelijk aan de belastingplichtige verleend en geldt als kennisgeving van de overeenkomstig het eerste lid uitgevoerde toewijzing.]1 (1)<DWG 2017-12-13/07, art. 25, 019; Inwerkingtreding : 01-01-2018> (2)<DWG 2021-12-22/12, art. 34, 026; Inwerkingtreding : 01-01-2022> (3)<DWG 2023-07-12/11, art. 46, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 52ter.[1 Terugbetalingsfondsen worden uitgetrokken op de begroting voor de ten onrechte geïnde sommen inzake de Waalse gewestelijke belastingen, heffingen en [2 fiscale boetes]2.
+##### Art. 52ter. [1 Terugbetalingsfondsen worden uitgetrokken op de begroting voor de ten onrechte geïnde sommen inzake de Waalse gewestelijke belastingen, heffingen en [2 fiscale boetes]2.
 De ontvangers die de ontvangsten hebben uitgevoerd, zorgen voor de terugbetaling van de ten onrechte geïnde bedragen.]1 (1)<Ingevoegd bij DWG 2016-12-21/02, art. 56, 014; Inwerkingtreding : 01-01-2017> (2)<DWG 2021-12-22/12, art. 35, 026; Inwerkingtreding : 01-01-2022>
 
 ### Afdeling 2. - Uitwerking van het beroep op de invordering.
 
-##### Art. 53.[1 In afwijking van de artikelen 24bis en 30bis wordt de omstreden belasting, als er een administratief verhaal of een gerechtelijk beroep wordt ingediend, gebeurlijk vermeerderd met de [6 fiscale boete]6, de interest en de kosten, enkel beschouwd als een zekere en vaststaande schuld die op alle wijzen van uitvoering mag worden ingevorderd, voor zover ze beantwoordt : - aan de gegevens die vermeld zijn in de aangifte van de belastingplichtige of aan gegevens waarmee de
+##### Art. 53. [1 In afwijking van de artikelen 24bis en 30bis wordt de omstreden belasting, als er een administratief verhaal of een gerechtelijk beroep wordt ingediend, gebeurlijk vermeerderd met de [6 fiscale boete]6, de interest en de kosten, enkel beschouwd als een zekere en vaststaande schuld die op alle wijzen van uitvoering mag worden ingevorderd, voor zover ze beantwoordt : - aan de gegevens die vermeld zijn in de aangifte van de belastingplichtige of aan gegevens waarmee de
 
 belastingplichtige zich akkoord heeft verklaard bij het vestigen van de belasting;
 - of, in geval van aanslag van ambtswege bij gebreke van aangifte, aan de belasting van dezelfde aard die ingekohierd werd ten laste van de belastingplichtige voor het voorgaande aanslagjaar;
@@ -781,10 +717,10 @@ In bijzondere gevallen kan de door de Regering aangewezen ambtenaar de invorderi
 
 ### Afdeling 3. - Verjaring.
 
-##### Art. 56.[1 De inning van de belasting, van de interesten en van de fiscale boeten verjaart na het verstrijken van een termijn van vijf jaar te rekenen van : - hun vervaldatum zoals ze voortvloeit uit artikel 23 van dit decreet wat betreft de belastingen en de fiscale boeten;
+##### Art. 56. [1 De inning van de belasting, van de interesten en van de fiscale boeten verjaart na het verstrijken van een termijn van vijf jaar te rekenen van : - hun vervaldatum zoals ze voortvloeit uit artikel 23 van dit decreet wat betreft de belastingen en de fiscale boeten;
 - hun opeisbaarheidsdatum zoals ze voortvloeit uit artikel 29 van dit decreet wat betreft de interesten.]1 (1)<DWG 2009-04-30/93, art. 15, 005; Inwerkingtreding : 01-07-2009>
 
-##### Art. 57.[1 § 1. [2 De in artikel 56 bedoelde termijn wordt gestuit:
+##### Art. 57. [1 § 1. [2 De in artikel 56 bedoelde termijn wordt gestuit:
 1° op de wijze voorzien bij de artikelen 2244 en volgende van het Burgerlijk Wetboek;
 2° door afstand van de verstreken tijd van de verjaring;
 3° door verzending door de ontvanger [4 ,bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie,]4 van een aanmaning tot betaling die de gegevens van het aanslagbiljet bevat.
@@ -800,10 +736,10 @@ In geval van bezwaar of aanvraag tot ontheffing begint de schorsing met de inlei
 
 (1)<Ingevoegd bij DWG 2013-09-19/23, art. 4, 008; Inwerkingtreding : 21-10-2013>
 
-##### Art. 57bis.[1 Op grond van een insolvabiliteitsverslag opgemaakt door de bevoegde ontvanger en op grond waarvan hij de onmogelijkheid om een schuldvordering in te vorderen vaststelt, stelt laatstgenoemde de decharge voor deze oninbaar geachte schuldvordering aan de door de Regering aangewezen dienst.
+##### Art. 57bis. [1 Op grond van een insolvabiliteitsverslag opgemaakt door de bevoegde ontvanger en op grond waarvan hij de onmogelijkheid om een schuldvordering in te vorderen vaststelt, stelt laatstgenoemde de decharge voor deze oninbaar geachte schuldvordering aan de door de Regering aangewezen dienst.
 De decharge voor deze schuldvordering kan aan de ontvanger alleen verleend worden indien de door de Regering aangewezen dienst vaststelt dat de ontvanger te bekwamer tijd alle nodige maatregelen getroffen en de nodige vervolgingen ingesteld heeft.]1 (1)<DWG 2017-12-13/07, art. 27, 019; Inwerkingtreding : 01-01-2018>
 
-##### Art. 57ter.[1 De decharge geldt als decharge voor de ontvanger. Ze vormt geen kwijtschelding. De ontvanger annuleert de oninbare rechten in zijn comptabiliteit.]1 (1)<DWG 2017-12-13/07, art. 28, 019; Inwerkingtreding : 01-01-2018>
+##### Art. 57ter. [1 De decharge geldt als decharge voor de ontvanger. Ze vormt geen kwijtschelding. De ontvanger annuleert de oninbare rechten in zijn comptabiliteit.]1 (1)<DWG 2017-12-13/07, art. 28, 019; Inwerkingtreding : 01-01-2018>
 
 ##### Art. 57quater
 
@@ -819,11 +755,11 @@ De decharge voor deze schuldvordering kan aan de ontvanger alleen verleend worde
 
 ## HOOFDSTUK VIII. - Recht en voorrecht van de schatkist inzake invordering.
 
-##### Art. 58.[1 Voor de invordering van de belastingen, de[2 fiscale boetes]2, de interesten en de kosten [3 ,evenals ieder ander bedrag bedoeld in artikel 34bis, lid 2,]3 heeft het Gewest een algemeen voorrecht op alle roerende goeden van de belastingplichtige met uitzondering van de schepen en boten en een wettelijke hypotheek op alle in België gelegen goeden die aan de belastingplichtige toebehoren en die voor hypotheek in aanmerking kunnen komen.
+##### Art. 58. [1 Voor de invordering van de belastingen, de[2 fiscale boetes]2, de interesten en de kosten [3 ,evenals ieder ander bedrag bedoeld in artikel 34bis, lid 2,]3 heeft het Gewest een algemeen voorrecht op alle roerende goeden van de belastingplichtige met uitzondering van de schepen en boten en een wettelijke hypotheek op alle in België gelegen goeden die aan de belastingplichtige toebehoren en die voor hypotheek in aanmerking kunnen komen.
 Het voorrecht bezwaart eveneens alle roerende goederen van de personen die [3 de belastingen, de interesten en de kosten, evenals ieder ander bedrag bedoeld in artikel 34bis, lid 2,]3 moeten betalen krachtens het gemeen recht, de bepalingen van dit decreet of de wetgeving die de ingekohierde belastingen ten laste van de belastingplichtige vastlegt.
 De wettelijke hypotheek bezwaart eveneens de in België gelegen goederen die vatbaar zijn voor hypotheek en die toebehoren aan personen die de [3 ...]3 belastingen, [2 fiscale boetes]2 [3 , de interesten en de kosten, evenals ieder ander bedrag bedoeld in artikel 34bis, lid 2,]3 moeten betalen krachtens het gemeen recht, de bepalingen van dit decreet of de wetgeving die de ingekohierde belastingen ten laste van de belastingplichtige vastlegt.]1 (1)<DWG 2017-12-13/07, art. 30, 019; Inwerkingtreding : 01-01-2018> (2)<DWG 2021-12-22/12, art. 38, 026; Inwerkingtreding : 01-01-2022> (3)<DWG 2023-07-12/11, art. 49, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 59.[1 Het in artikel 58 bedoelde voorrecht neemt rang onmiddellijk na dat vermeld in artikel 19, 5°, van de
+##### Art. 59. [1 Het in artikel 58 bedoelde voorrecht neemt rang onmiddellijk na dat vermeld in artikel 19, 5°, van de
 
 wet van 16 december 1851.
 De toewijzing bij voorkeur, ingevoerd bij artikel 19 in fine van de wet van 16 december 1851, is van toepassing op de belastingen en taksen waarop artikel 58 van dit decreet toepasselijk is.]1 (1)<DWG 2009-04-30/93, art. 17, 005; Inwerkingtreding : 01-07-2009>
@@ -832,7 +768,7 @@ De toewijzing bij voorkeur, ingevoerd bij artikel 19 in fine van de wet van 16 d
 
 De hypotheek is ingeschreven op verzoek van de ontvanger niettegenstaande verzet, bezwaar of beroep op voorlegging van een door de ontvanger voor eensluidend verklaard afschrift van de aanslag waarin de datum van de tenuitvoerbaarverklaring van het kohier is vermeld.
 
-##### Art. 60bis.[1 § 1. De wettelijke hypotheek doet geen afbreuk aan de vorige voorrechten en hypotheken; zij neemt slechts rang op het moment van de inschrijving ervan.
+##### Art. 60bis. [1 § 1. De wettelijke hypotheek doet geen afbreuk aan de vorige voorrechten en hypotheken; zij neemt slechts rang op het moment van de inschrijving ervan.
 § 2. De inschrijving mag slechts gevorderd worden vanaf de datum waarop de schuld van belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten die aanleiding geeft tot de inschrijving van de wettelijke hypotheek, wordt beschouwd als een zekere en vaststaande schuld, niettegenstaande elk administratief verhaal of gerechtelijk beroep.
 § 3. Artikel 19 van de faillissementswet is niet van toepassing op de wettelijke hypotheek wat betreft de belastingen opgenomen in kohieren die voor het vonnis van faillietverklaring uitvoerbaar werden verklaard.]1 (1)<Ingevoegd bij DWG 2009-12-10/27, art. 82, 006; Inwerkingtreding : 01-01-2010> (2)<DWG 2021-12-22/12, art. 39, 026; Inwerkingtreding : 01-01-2022>
 
@@ -850,7 +786,7 @@ De hypothecaire formaliteitskosten met betrekking tot de wettelijke hypotheek zi
 
 ## HOOFDSTUK VIIIbis. - [1 Aansprakelijkheid en plichten van sommige ministeriële officieren, openbare ambtenaren, andere personen en kredietinstellingen of -inrichtingen.]1 (1)<Ingevoegd bij DWG 2009-12-10/27, art. 84, 006; Inwerkingtreding : onbepaald>
 
-##### Art. 62bis.[1 § 1. De notarissen die gevorderd zijn om een akte op te maken die de vervreemding of de hypothecaire aanwending van een onroerend goed, van een schip of een vaartuig tot voorwerp heeft, zijn persoonlijk aansprakelijk voor de betaling der belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten die tot de hypothecaire inschrijving op deze goederen bedoeld in artikel 58 aanleiding kunnen geven, indien zij in de hierna bepaalde voorwaarden er niet de ontvanger van verwittigen.
+##### Art. 62bis. [1 § 1. De notarissen die gevorderd zijn om een akte op te maken die de vervreemding of de hypothecaire aanwending van een onroerend goed, van een schip of een vaartuig tot voorwerp heeft, zijn persoonlijk aansprakelijk voor de betaling der belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten die tot de hypothecaire inschrijving op deze goederen bedoeld in artikel 58 aanleiding kunnen geven, indien zij in de hierna bepaalde voorwaarden er niet de ontvanger van verwittigen.
 Het bericht dient in dubbel exemplaar opgemaakt en [3 bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie]3 verzonden te worden. Indien de akte waarvan sprake niet verleden wordt binnen drie maanden te rekenen van de verzending van het bericht, wordt het als niet bestaande beschouwd.
 § 2. Indien het belang van het Waalse Gewest zulks vereist, wordt door de ontvanger aan de notaris, voor het verstrijken van de twaalfde werkdag volgend op de verzending van het in § 1 bedoelde bericht en [3 bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatiebij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie]3 kennis gegeven van het bedrag van de belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten die aanleiding kunnen geven tot inschrijving van de wettelijke hypotheek bedoeld in artikel 58 op de goederen welke het voorwerp van de akte zijn.
 § 3. Wanneer de in § 1 bedoelde akte verleden is, geldt de in § 2 bedoelde kennisgeving als beslag onder derden in handen van de notaris op de bedragen en waarden die hij krachtens de akte onder zich houdt voor rekening of ten bate van de belastingplichtige. Deze kennisgeving geldt als verzet tegen de prijs in de zin van artikel 1642 van het Gerechtelijk Wetboek in de gevallen waarin de notaris gehouden is de bedragen en waarden overeenkomstig de artikelen 1639 tot 1654, van het Gerechtelijk Wetboek te verdelen.
@@ -874,7 +810,7 @@ De in de § 1 en § 3, bedoelde berichten en inlichtingen dienen opgemaakt te wo
 [1 Met het akkoord van de belastingplichtige zijn de banken onderworpen aan de wet van 22 maart 1993 op het statuut van en het toezicht op de kredietinstellingen, de ondernemingen onderworpen aan het koninklijk besluit nr. 225 van 7 januari 1936 tot reglementering van de hypothecaire leningen en tot inrichting van de controle op de ondernemingen van hypothecaire leningen, zomede de hypotheekondernemingen onderworpen aan de wet van 4 augustus 1992 op het hypothecair krediet, gemachtigd het in artikel 62bis, § 1, bedoelde bericht toe te sturen en bekwaam om de in artikel 62bis, § 2, bedoelde kennisgeving te ontvangen.
 De afgifte van een attest door die instellingen aan de notaris betreffende de verzending van het bericht en het gevolg daaraan door de ontvanger gegeven, stelt de aansprakelijkheid van die instellingen in de plaats van die van de notaris.]1 (1)<Ingevoegd bij DWG 2009-12-10/27, art. 84, 006; Inwerkingtreding : onbepaald>
 
-##### Art. 62quinquies.[1 § 1. De akte verleden in het buitenland die de vervreemding of de hypothecaire aanwending van een onroerend goed, een schip of een vaartuig tot voorwerp heeft, die tot de hypothecaire inschrijving bedoeld in artikel 58 aanleiding kan geven, maakt het verzenden aan de ontvanger door de houder van een zakelijk recht op dit onroerend goed van een bericht in dubbel exemplaar [3 bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie]3 verplicht. Dit bericht vermeldt de identiteit van de kopers.
+##### Art. 62quinquies. [1 § 1. De akte verleden in het buitenland die de vervreemding of de hypothecaire aanwending van een onroerend goed, een schip of een vaartuig tot voorwerp heeft, die tot de hypothecaire inschrijving bedoeld in artikel 58 aanleiding kan geven, maakt het verzenden aan de ontvanger door de houder van een zakelijk recht op dit onroerend goed van een bericht in dubbel exemplaar [3 bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie]3 verplicht. Dit bericht vermeldt de identiteit van de kopers.
 § 2. Indien het belang van het Waalse Gewest zulks vereist :
 - wordt door de ontvanger aan de belastingplichtige, voor het verstrijken van de twaalfde werkdag volgend op de verzending van het in § 1 bedoelde bericht en [3 bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie]3 kennis gegeven van het bedrag van de belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten die aanleiding kunnen geven tot inschrijving van de wettelijke hypotheek bedoeld in artikel 58 op de goederen welke het voorwerp van de akte zijn;
 - wordt door de ontvanger aan de kopers kennis gegeven van de belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten die aanleiding kunnen geven tot inschrijving van de wettelijke hypotheek bedoeld in artikel 58 op de goederen welke het voorwerp van de akte zijn; deze kennisgeving geldt als beslag onder derden in handen van de kopers op de bedragen en waarden die zij krachtens de akte onder zich houden voor rekening of ten bate van de belastingplichtige.
@@ -886,7 +822,7 @@ nalatigheidsinteresten en kosten, welke in uitvoering van § 2 werden ter kennis
 § 5. De[ -3 ...]3 Regering bepaalt de voorwaarden en de modaliteiten voor de toepassing van dit artikel.
 Het in § 1 bedoelde bericht dient opgemaakt te worden overeenkomstig het door de Waalse Regering bepaalde model.]1 (1)<Ingevoegd bij DWG 2009-12-10/27, art. 84, 006; Inwerkingtreding : onbepaald> (2)<DWG 2021-12-22/12, art. 41, 026; Inwerkingtreding : 01-01-2022> (3)<DWG 2023-07-12/11, art. 51, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 62sexies.[1 § 1. Openbare ambtenaren of ministeriële officieren, belast met de openbare verkoop van roerende goederen waarvan de waarde ten minste 250 EUR bedraagt, zijn persoonlijk aansprakelijk voor de betaling van de belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten die de eigenaar op het ogenblik van de verkoop schuldig is, indien zij niet ten minste acht werkdagen vooraf, de ontvanger ervan verwittigen.
+##### Art. 62sexies. [1 § 1. Openbare ambtenaren of ministeriële officieren, belast met de openbare verkoop van roerende goederen waarvan de waarde ten minste 250 EUR bedraagt, zijn persoonlijk aansprakelijk voor de betaling van de belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten die de eigenaar op het ogenblik van de verkoop schuldig is, indien zij niet ten minste acht werkdagen vooraf, de ontvanger ervan verwittigen.
 Het bericht dient in dubbel exemplaar opgemaakt en [3 bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie]3 verzonden te worden.
 § 2. Indien het belang van het Waalse Gewest zulks vereist, wordt door de ontvanger aan de openbare ambtenaar of ministeriële officier, uiterlijk daags voor de verkoop, en [3 bij ter post aangetekende zending of via een gelijkwaardige elektronische communicatie]3 kennis gegeven van het bedrag van de belastingen, [2 fiscale boetes]2, nalatigheidsinteresten en kosten die de eigenaar op het ogenblik van de verkoop schuldig is.
 § 3. Wanneer de verkoop heeft plaatsgehad, geldt de kennisgeving bedoeld in § 2 als beslag onder derden in handen van de in § 1 vermelde openbare ambtenaren of ministeriële officieren. Deze kennisgeving geldt als verzet tegen de prijs in de zin van artikel 1515 van het Gerechtelijk Wetboek in de gevallen waarin de openbare ambtenaar of ministeriële officier gehouden is de bedragen en waarden overeenkomstig de artikelen 1627 tot 1638 van het Gerechtelijk Wetboek te verdelen.
@@ -897,7 +833,7 @@ Het in § 1 bedoelde bericht dient opgemaakt te worden overeenkomstig het door d
 
 ## HOOFDSTUK IX. - Administratieve straffen.
 
-##### Art. 63.<BWG 2007-03-22/38, art. 68, 003; Inwerkingtreding : 01-01-2008; zie evenwel DWG 2007-03-22/38,
+##### Art. 63. <BWG 2007-03-22/38, art. 68, 003; Inwerkingtreding : 01-01-2008; zie evenwel DWG 2007-03-22/38,
 § 1. [2 [7 § 1. Voor elke overtreding van dit decreet of van een andere wetgeving waarop dit decreet van toepassing is, met uitzondering van overtredingen die te wijten zijn aan omstandigheden waarop de belastingplichtige geen invloed heeft en die naar behoren zijn gemotiveerd, is een fiscale boete tussen 50 en 2 000 euro, of tussen 25 en 100 procent van het bedrag van de belasting van toepassing.
 Indien de overtreding echter met bedrieglijk opzet of met het oog schade te berokkenen is gepleegd, is een fiscale geldboete tussen 5 00 en 5 000 EUR of van 100 tot 250 procent van het bedrag van de belasting van toepassing.
 De Regering stelt de in de leden 1 en 2 bedoelde fiscale boeteschalen vast en bepaalt dat de in lid 1 bedoelde fiscale boete slechts wordt kwijtgescholden voor de eerste overtreding die door de belastingplichtige te goeder trouw wordt begaan]7.]2
@@ -918,7 +854,7 @@ Indien de overtreding echter met bedrieglijk opzet of met het oog schade te bero
 De Regering bepaalt de schaal van de fiscale boetes bedoeld in de leden 1 en 2 en bepaalt dat alleen bij de eerste overtreding die te goeder trouw is begaan, van de in lid 1 bedoelde boete wordt afgezien]9.]6
 § 3. [3 [8 Onder voorbehoud van artikel 11bis, § 4, d), worden de in het eerste en tweede lid bedoelde fiscale boetes op dezelfde wijze vastgesteld, betwist en ingevorderd als de belasting waarop zij betrekking hebben, ongeacht of zij samen met de belasting dan wel afzonderlijk worden ingekohierd]8.]3 (1)<DWG 2009-12-10/27, art. 85, 006; Inwerkingtreding : 01-01-2010> (2)<DWG 2013-11-28/18, art. 55, 009; Inwerkingtreding : 01-01-2014> (3)<DWG 2014-04-11/03, art. 4, 010; Inwerkingtreding : 19-05-2014> (4)<DWG 2014-12-12/02, art. 97, 011; Inwerkingtreding : 01-01-2015> (5)<DWG 2017-06-01/09, art. 22, 016; Inwerkingtreding : 01-07-2017> (6)<DWG 2020-10-01/19, art. 2, 023; Inwerkingtreding : 01-07-2020> (7)<DWG 2021-12-22/12, art. 43, 026; Inwerkingtreding : 01-01-2022> (8)<DWG 2023-07-12/11, art. 53, 030; Inwerkingtreding : 28-09-2023> (9)<DWG 2025-12-19/B4, art. 2, 035; Inwerkingtreding : 01-01-2026>
 
-##### Art. 64.[1 § 1. De door de Regering aangewezen dienst beslist in eerste en laatste instantie over de verzoekschriften m.b.t. de kwijtschelding of de matiging van de fiscale boetes [2 ...]2.
+##### Art. 64. [1 § 1. De door de Regering aangewezen dienst beslist in eerste en laatste instantie over de verzoekschriften m.b.t. de kwijtschelding of de matiging van de fiscale boetes [2 ...]2.
 § 2. De in § 1 bedoelde verzoekschriften worden bij met redenen omkleed schrijven [3 ]3 of via een gelijkwaardige elektronische communicatiebij de door de Regering aangewezen dienst ingediend door de belastingplichtingen of de personen op wier goederen [2 fiscale boetes]2 worden ingevorderd.
 Elk ingediend verzoekschrift bedoeld in § 1 is ontvankelijk wanneer:
 1° de termijnen voor administratieve beroepen niet vervallen zijn, of;
@@ -937,7 +873,7 @@ Elk ingediend verzoekschrift bedoeld in § 1 is ontvankelijk wanneer:
 
 (1)<Ingevoegd bij DWG 2013-09-19/23, art. 7, 008; Inwerkingtreding : 01-01-2013>
 
-##### Art. 64bis.[4 § 1.]4 [1 De artikelen 64bis tot [5 ...]5 leggen de voorschriften en procedures vast voor de onderlinge samenwerking van het Waalse Gewest en de lidstaten van de Europese Unie met het oog op de uitwisseling van inlichtingen die naar verwachting van belang zijn voor de administratie en de handhaving van de interne wetgeving van het Waalse Gewest en van alle lidstaten met betrekking tot de taksen en belastingen geïnd door het Waalse Gewest of voor zijn rekening, door de territoriale of staatkundige onderdelen ervan of voor hun rekening met inbegrip van de plaatselijke overheden.
+##### Art. 64bis. [4 § 1.]4 [1 De artikelen 64bis tot [5 ...]5 leggen de voorschriften en procedures vast voor de onderlinge samenwerking van het Waalse Gewest en de lidstaten van de Europese Unie met het oog op de uitwisseling van inlichtingen die naar verwachting van belang zijn voor de administratie en de handhaving van de interne wetgeving van het Waalse Gewest en van alle lidstaten met betrekking tot de taksen en belastingen geïnd door het Waalse Gewest of voor zijn rekening, door de territoriale of staatkundige onderdelen ervan of voor hun rekening met inbegrip van de plaatselijke overheden.
 Dezelfde artikelen leggen tevens de bepalingen vast voor de elektronische uitwisseling van de in het eerste lid bedoelde inlichtingen.
 Ze laten de toepassing van de regels inzake wederzijdse rechtshulp in strafzaken onverlet. Zij laten eveneens onverlet de verplichtingen van het Waalse Gewest en van de lidstaten inzake ruimere administratieve samenwerking, welke voortvloeien uit andere rechtsinstrumenten, waaronder bilaterale en multilaterale overeenkomsten.
 In de zin van de artikelen 64bis tot [5 64duodecies]5 wordt verstaan onder :
@@ -1082,7 +1018,7 @@ b) de prognoses van de toekomstige kasstromen of inkomsten die naar verwachting 
 
 (1)<Ingevoegd bij DWG 2013-09-19/23, art. 7, 008; Inwerkingtreding : 01-01-2013>
 
-##### Art. 64ter.[1 § 1. De Belgische bevoegde autoriteit kan in een bijzonder geval een buitenlandse bevoegde autoriteit erom verzoeken haar alle inlichtingen bedoeld in artikel 64bis, § 1, eerste lid, die deze in haar bezit heeft of naar aanleiding van een administratief onderzoek heeft verkregen mee te delen. Het verzoek kan een met redenen omkleed verzoek om een bepaald administratief onderzoek omvatten.
+##### Art. 64ter. [1 § 1. De Belgische bevoegde autoriteit kan in een bijzonder geval een buitenlandse bevoegde autoriteit erom verzoeken haar alle inlichtingen bedoeld in artikel 64bis, § 1, eerste lid, die deze in haar bezit heeft of naar aanleiding van een administratief onderzoek heeft verkregen mee te delen. Het verzoek kan een met redenen omkleed verzoek om een bepaald administratief onderzoek omvatten.
 Voor het verkrijgen van de gevraagde inlichtingen gaat de Belgische bevoegde autoriteit te werk volgens dezelfde procedures als handelde zij uit eigen beweging of op verzoek van een andere Belgische autoriteit.
 De Belgische bevoegde autoriteit kan de verzochte autoriteit erom verzoeken haar de originele stukken mee te delen.
 § 2. De Belgische bevoegde autoriteit deelt een buitenlandse bevoegde autoriteit die daarom in een bijzonder geval verzoekt, alle in artikel 64bis, § 1, eerste lid, bedoelde inlichtingen mee die ze in haar bezit heeft of heeft verkregen naar aanleiding van een administratief onderzoek dat noodzakelijk is om deze inlichtingen te kunnen verkrijgen.
@@ -1106,7 +1042,7 @@ Om de waarschijnlijke relevantie van de gevraagde informatie aan te tonen, verst
 
 (1)<DWG 2023-07-12/11, art. 57, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 64quater.[1 [2 De Belgische bevoegde autoriteit verstrekt de in artikel 64ter, § 2, bedoelde inlichtingen zo spoedig mogelijk en uiterlijk drie maanden na de datum van ontvangst van het verzoek. Indien de Belgische bevoegde autoriteit evenwel niet binnen de gestelde termijn aan het verzoek kan voldoen, deelt zij de redenen hiervoor onmiddellijk, en hoe dan ook uiterlijk drie maanden na ontvangst van het verzoek, aan de verzoekende autoriteit mee, met vermelding van de datum waarop zij acht aan het verzoek te kunnen voldoen. Deze termijn mag niet langer zijn dan zes maanden te rekenen van de datum van ontvangst van het verzoek]2.
+##### Art. 64quater. [1 [2 De Belgische bevoegde autoriteit verstrekt de in artikel 64ter, § 2, bedoelde inlichtingen zo spoedig mogelijk en uiterlijk drie maanden na de datum van ontvangst van het verzoek. Indien de Belgische bevoegde autoriteit evenwel niet binnen de gestelde termijn aan het verzoek kan voldoen, deelt zij de redenen hiervoor onmiddellijk, en hoe dan ook uiterlijk drie maanden na ontvangst van het verzoek, aan de verzoekende autoriteit mee, met vermelding van de datum waarop zij acht aan het verzoek te kunnen voldoen. Deze termijn mag niet langer zijn dan zes maanden te rekenen van de datum van ontvangst van het verzoek]2.
 [2 Wanneer de Belgische bevoegde autoriteit evenwel reeds in het bezit is van deze informatie, wordt deze binnen twee maanden volgend op deze datum meegedeeld]2.
 In bijzondere gevallen kunnen de Belgische bevoegde autoriteit en de verzoekende autoriteit andere vastgestelde termijnen overeenkomen.
 De ontvangst van het verzoek wordt door de Belgische bevoegde autoriteit aan de verzoekende autoriteit onmiddellijk, en in elk geval uiterlijk zeven werkdagen na ontvangst, indien mogelijk langs elektronische weg bevestigd.
@@ -1121,7 +1057,7 @@ Indien de Belgische bevoegde autoriteit niet over de gevraagde inlichtingen besc
 #### Onderafdeling 1. [1 Toepassingsgebied en voorwaarden van de automatische en verplichte uitwisseling van inlichtingen ]1
 (1)<Ingevoegd bij DWG 2023-07-12/11, art. 59, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 64quinquies.[1 1. De Belgische bevoegde autoriteit deelt de bevoegde autoriteit van een andere lidstaat, in het kader van de automatische uitwisseling, alle informatie mee waarover zij beschikt betreffende de inwoners van deze andere lidstaat en die verband houden met volgende specifieke inkomsten- en kapitaalcategorieën in de zin van de Belgische wetgeving:
+##### Art. 64quinquies. [1 1. De Belgische bevoegde autoriteit deelt de bevoegde autoriteit van een andere lidstaat, in het kader van de automatische uitwisseling, alle informatie mee waarover zij beschikt betreffende de inwoners van deze andere lidstaat en die verband houden met volgende specifieke inkomsten- en kapitaalcategorieën in de zin van de Belgische wetgeving:
 1° inkomsten uit arbeid;
 2° tantièmes en aanwezigheidsgeld;
 3° levensverzekeringsproducten die niet vallen onder andere uniale rechtsinstrumenten inzake de uitwisseling
@@ -1647,7 +1583,7 @@ Met betrekking tot paragraaf 1er, 2°, worden die registers een voldoende lange 
 
 (1)<Ingevoegd bij DWG 2013-09-19/23, art. 7, 008; Inwerkingtreding : 01-01-2013>
 
-##### Art. 64sexies.[1 De Belgische bevoegde autoriteit verstrekt, in elk van de volgende gevallen, de in [2 artikel 64bis, § 1, eerste lid,]2 bedoelde inlichtingen aan de buitenlandse bevoegde autoriteit :
+##### Art. 64sexies. [1 De Belgische bevoegde autoriteit verstrekt, in elk van de volgende gevallen, de in [2 artikel 64bis, § 1, eerste lid,]2 bedoelde inlichtingen aan de buitenlandse bevoegde autoriteit :
 1° de Belgische bevoegde autoriteit heeft redenen om aan te nemen dat in de betrokken lidstaat een derving van belasting bestaat;
 2° een belastingplichtige verkrijgt in het Waalse Gewest een vrijstelling of vermindering van belasting die voor hem een belastingplicht of een hogere belasting in de betrokken lidstaat zou moeten meebrengen;
 3° transacties tussen een belastingplichtige in het Waalse Gewest en een belastingplichtige in een lidstaat worden over een of meer andere landen geleid, op zodanige wijze dat daardoor in een van beide of in het Waalse Gewest of in de lidstaat of in beide staten een belastingbesparing kan ontstaan;
@@ -1665,7 +1601,7 @@ De ontvangst van de in het eerste lid bedoelde inlichtingen wordt door de Belgis
 
 (1)<Ingevoegd bij DWG 2023-07-12/11, art. 72, 030; Inwerkingtreding : 28-09-2023>
 
-##### Art. 64septies.[1 § 1. De Belgische bevoegde autoriteit kan overeenkomen met een buitenlandse bevoegde autoriteit dat, ter uitwisseling van de in artikel 64bis, § 1, eerste lid, bedoelde inlichtingen de door de Belgische autoriteit gemachtigde ambtenaren onder de door de buitenlandse bevoegde autoriteit vastgestelde voorwaarden :
+##### Art. 64septies. [1 § 1. De Belgische bevoegde autoriteit kan overeenkomen met een buitenlandse bevoegde autoriteit dat, ter uitwisseling van de in artikel 64bis, § 1, eerste lid, bedoelde inlichtingen de door de Belgische autoriteit gemachtigde ambtenaren onder de door de buitenlandse bevoegde autoriteit vastgestelde voorwaarden :
 1° aanwezig kunnen zijn in de kantoren waar de administratieve autoriteiten van de lidstaat van de aangezochte autoriteit hun taken vervullen;
 2° aanwezig zijn bij administratieve onderzoeken op het grondgebied van de aangezochte lidstaat;
 3° deelnemen aan de administratieve onderzoeken die worden uitgevoerd door de aangezochte lidstaat, waar passend met gebruikmaking van elektronische communicatiemiddelen.
@@ -1847,7 +1783,7 @@ Wanneer een dossier wordt doorgestuurd naar een andere dienst van de Waalse Over
 
 ## HOOFDSTUK X. - Wijzigings- en opheffingsbepalingen.
 
-##### Art. 65.In
+##### Art. 65. In
 
 artikel 1, § 2, van het decreet van 25 juli 1991 betreffende de belasting op de afvalstoffen in het Waalse Gewest worden de volgende wijzigingen aangebracht :
 1. in hoofdstuk II, afdeling II ingevoegd bij het decreet van 16 juli 1998, wordt het opschrift van de eerste onderafdeling vervangen door volgend opschrift : " Feit dat tot belasting aanleiding geeft ";

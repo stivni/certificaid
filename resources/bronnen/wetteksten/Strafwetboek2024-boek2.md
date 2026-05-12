@@ -1,132 +1,42 @@
 ---
-bijgewerkt: 29.02.2024
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["XII"]
+itaa-lex-sectie: "XII"
+wet: "Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 2"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "29.02.2024"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 6
-  sub_strategy: null
-  type: Art.
-itaa-lex-sectie: XII
+  type: "Art."
+  sub_strategy:
 provenance:
-  generated_at: '2026-05-11T16:34:22Z'
   inputs:
-  - id: resources/raw/wetteksten/Strafwetboek2024-boek2.pdf
-    sha256: 899110ee793493998bab356a96b02017934b111864ed6bd1e5fe344a9b02b437
-    version: 29.02.2024
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/Strafwetboek2024-boek2.pdf
+      sha256: 899110ee793493998bab356a96b02017934b111864ed6bd1e5fe344a9b02b437
+      version: 29.02.2024
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version: null
+    pipeline_version: f9ce762-dirty
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T18:20:46Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T16:30:31Z'
-    confirmed_by: subagent-sonnet-4-6
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 466327
-      flags: []
-      heading_count: 924
-      max_section_chars: 11480
-      run_at: '2026-05-11T13:40:46Z'
-      run_id: 20260511-134044
-      status: pass
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-      - categorie: B4
-        regel: 52
-        type: other
-        voorbeeld: Titel
-      - categorie: B1
-        regel: 74
-        type: other
-        voorbeeld: '#### Afdeling 1. Doden met het oogmerk om te doden (geen inhoud
-          na heading)'
-      - categorie: B1
-        regel: 514
-        type: other
-        voorbeeld: '###### Art. 2.De'
-      - categorie: A3
-        regel: 62
-        type: other
-        voorbeeld: Voorafgaande titel. Gemeenschappelijke bepalingen (plain-text,
-          geen heading)
-      - categorie: A3
-        regel: 75
-        type: other
-        voorbeeld: Reeks van 50+ lege sectie-headings zonder body (inhoudsopgave-fragment)
-      rationale: 'B5/B4: de eerste ~500 regels (offset 0-500) bevatten uitsluitend
-        inhoudsopgave-headings zonder body-tekst: ''#### Afdeling 1. Doden met het
-        oogmerk om te doden'', ''#### Afdeling 2. Doden door een ernstig gebrek'',
-        etc. — tientallen afdelingen en onderafdelingen zonder enig artikel of inhoud.
-        Pas na regel 500 begint de echte wettekst met Art. 79 (Algemene definities).
-        Dit patroon is een extractie-artefact: de TOC is meegetrokken als heading-structuur,
-        zonder de bijbehorende inhoud per sectie-niveau (B3/A3). Verder: regel 52
-        ''Titel'' als plain-text (B4), regel 514 ''###### Art. 2.De'' (heading met
-        punt-concatenatie, B1). De rest van het corpus vanaf Art. 79 is inhoudelijk
-        compleet en leesbaar.'
-      run_at: '2026-05-11T16:30:31Z'
-      status: needs-rework
-    rationale: 'B5/B4: de eerste ~500 regels (offset 0-500) bevatten uitsluitend inhoudsopgave-headings
-      zonder body-tekst: ''#### Afdeling 1. Doden met het oogmerk om te doden'', ''####
-      Afdeling 2. Doden door een ernstig gebrek'', etc. — tientallen afdelingen en
-      onderafdelingen zonder enig artikel of inhoud. Pas na regel 500 begint de echte
-      wettekst met Art. 79 (Algemene definities). Dit patroon is een extractie-artefact:
-      de TOC is meegetrokken als heading-structuur, zonder de bijbehorende inhoud
-      per sectie-niveau (B3/A3). Verder: regel 52 ''Titel'' als plain-text (B4), regel
-      514 ''###### Art. 2.De'' (heading met punt-concatenatie, B1). De rest van het
-      corpus vanaf Art. 79 is inhoudelijk compleet en leesbaar.'
-    status: needs-rework
-status: beschikbaar
-tags:
-- XII
-wet: Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 2
 ---
 
 # Strafwetboek 2024 — Boek 2
 
 *Bijgewerkt tot en met 29.02.2024 — gecoördineerde versie.*
 
-Titel
-
 29 FEBRUARI 2024. - Wet tot invoering van boek II van het Strafwetboek
-
-###### Art. 1
-
-### HOOFDSTUK 2. - Boek II van het Strafwetboek
-
-###### Art. 2
-
-Voorafgaande titel. Gemeenschappelijke bepalingen
-
-## Titel I. Ernstige schendingen van het internationaal humanitair recht
-
-## Titel 2. Misdaad van ecocide
-
-###### Art. 94
-
-## Titel 3. Misdrijven tegen de persoon
-
-###### Art. 95
-
-### Hoofdstuk 1. Misdrijven tegen het leven
-
-#### Afdeling 1. Doden met het oogmerk om te doden
-
-#### Afdeling 2. Doden door een ernstig gebrek aan voorzorg of voorzichtigheid
-
-#### Afdeling 3. Aanzetting tot zelfdoding
-
-### Hoofdstuk 2. Foltering, onmenselijke behandeling en onterende behandeling
-
-#### Afdeling 1. Foltering
-
-#### Afdeling 2. Onmenselijke behandeling
-
-#### Afdeling 3. Onterende behandeling
-
-#### Afdeling 4. Gemeenschappelijke bepaling
 
 ###### Art. 131
 
@@ -550,7 +460,7 @@ Deze wet regelt een aangelegenheid als bedoeld in artikel 74 van de Grondwet.
 
 ### HOOFDSTUK 2. - Boek II van het Strafwetboek
 
-###### Art. 2.De
+###### Art. 2. De
 
 hiernavolgende bepalingen vormen boek II van het Strafwetboek:
 "Boek II. De gemeenrechtelijke misdrijven en hun straffen
@@ -913,7 +823,7 @@ Bij de keuze van de straf of de maatregel en de zwaarte ervan voor een misdrijf 
 Doden door een ernstig gebrek aan voorzorg of voorzichtigheid
 Het doden door een ernstig gebrek aan voorzorg of voorzichtigheid wordt bestraft met een straf van niveau 2.
 
-###### Art. 107.[1 Doding in het verkeer]1
+###### Art. 107. [1 Doding in het verkeer]1
 Het doden door een ernstig gebrek aan voorzorg of voorzichtigheid in het kader [1 van het deelnemen aan het verkeer]1 wordt bestraft met een straf van niveau 3.
 (1)<W 2026-02-08/04, art. 72, 003; Inwerkingtreding : 26-02-2026>
 
@@ -928,7 +838,7 @@ Het doden door een ernstig gebrek aan voorzorg of voorzichtigheid in het kader v
 De in de bepaling onder 5° bedoelde omstandigheid is niet van toepassing op de bestuurder die houder is van een rijbewijs waarvan de administratieve geldigheidsduur minder dan een jaar is verstreken.
 In afwijking van artikel 52, § 1, tweede lid, bedraagt de geldboete ten hoogste zestienduizend euro.]1 (1)<Ingevoegd bij W 2026-02-08/04, art. 73, 003; Inwerkingtreding : 26-02-2026>
 
-###### Art. 108.Verzwarende
+###### Art. 108. Verzwarende
 
 factor
 Bij de keuze van de straf of de maatregel en de zwaarte ervan voor de [1 in de artikelen 106 tot 107/1]1 bedoelde misdrijven neemt de rechter in overweging dat het misdrijf werd gepleegd in het bijzijn van een
@@ -1715,7 +1625,7 @@ Bij de keuze van de straf of de maatregel en de zwaarte ervan voor de in de arti
 
 Veroorzaken van een integriteitsaantasting door een ernstig gebrek aan voorzorg of voorzichtigheid Het op eender welke wijze veroorzaken van een integriteitsaantasting van de eerste, tweede of derde graad bij een ander persoon door een ernstig gebrek aan voorzorg of voorzichtigheid wordt bestraft met een straf van niveau 1.
 
-###### Art. 218.Veroorzaken
+###### Art. 218. Veroorzaken
 
 van een integriteitsaantasting in [1 het verkeer]1
 Het op eender welke wijze veroorzaken van een integriteitsaantasting van de eerste, tweede of derde graad bij een ander persoon door een ernstig gebrek aan voorzorg of voorzichtigheid in het kader van [1 het deelnemen aan het verkeer]1 wordt bestraft met een straf van niveau 2.
@@ -3237,7 +3147,7 @@ Binnendringing in een havengebied
 Binnendringing in een havengebied is het opzettelijk zonder daartoe gemachtigd of toegelaten te zijn, binnenkomen of binnendringen in een havenfaciliteit, bedoeld in artikel 2.5.2.3, 5°, van het Belgisch Scheepvaartwetboek, of in een onroerend dan wel roerend goed binnen de grenzen van een haven in de zin van dezelfde wet.
 Dit misdrijf wordt bestraft met een straf van niveau 1.
 
-###### Art. 420.Verzwaarde
+###### Art. 420. Verzwaarde
 
 binnendringing in een havengebied
 Binnendringing in een havengebied wordt bestraft met een straf van niveau 2 indien:
@@ -4073,7 +3983,7 @@ Informaticasabotage is het opzettelijk, rechtstreeks of onrechtstreeks, in een i
 Dit misdrijf wordt bestraft met een straf van niveau 2.
 In afwijking van artikel 9, § 1, vierde lid, wordt de poging tot het plegen van dit misdrijf bestraft met dezelfde straf als het voltooide misdrijf.
 
-###### Art. 532.Verzwaarde
+###### Art. 532. Verzwaarde
 
 informaticasabotage
 Informaticasabotage wordt bestraft met een straf van niveau 3 wanneer:
@@ -4184,7 +4094,7 @@ of trachten te beïnvloeden van een democratisch beslissingsproces, met het oogm
 2° het ontvangen van giften of enig ander voordeel van een buitenlandse persoon of organisatie dat geheel of gedeeltelijk bestemd is om in het Rijk activiteiten die de voormelde belangen kunnen aantasten, te ontplooien.
 Dit misdrijf wordt bestraft met een straf van niveau 3.
 
-###### Art. 547.Kwaadwillige
+###### Art. 547. Kwaadwillige
 
 aantasting van het overheidsgezag
 Kwaadwillige aantasting van het overheidsgezag is het met kwaad opzet en in het openbaar aantasten van de bindende kracht van de wet of van de rechten of het gezag van de grondwettelijke instellingen en dit door het rechtstreeks aanzetten om een wet niet na te komen waardoor er een ernstige en reële bedreiging van de nationale veiligheid, de openbare volksgezondheid of de goede zeden is.
@@ -4467,7 +4377,7 @@ Verzwaarde reproductie, bekendmaking of overdracht aan onbevoegden van een staat
 
 Reproductie, bekendmaking of overdracht aan onbevoegden van een staatsgeheim in oorlogstijd Indien de reproductie, bekendmaking of overdracht aan onbevoegden van een staatsgeheim is gepleegd in oorlogstijd, wordt dit misdrijf bestraft met een straf van niveau 6.
 
-###### Art. 586.Onbevoegd
+###### Art. 586. Onbevoegd
 
 ontvangen van een staatsgeheim
 Onbevoegd ontvangen van een staatsgeheim is het opzettelijk, geheel of ten dele, in origineel of reproductie, aanschaffen of ontvangen, zonder bevoegd te zijn dit in ontvangst te nemen of er kennis van te nemen, van een staatsgeheim, alsook de poging om dit te doen.
@@ -5186,14 +5096,14 @@ Dit misdrijf wordt bestraft met een straf van niveau 2.
 
 ##### Onderafdeling 4. Belemmering van de uitvoering of niet-naleving van een straf of een vrijheidsbenemende maatregel
 
-###### Art. 684.[1 Ontsnapping van gevangenen
+###### Art. 684. [1 Ontsnapping van gevangenen
 Ontsnapping van gevangenen is het zich opzettelijk onttrekken door een persoon:
 1° aan de voorlopige hechtenis, de gevangenisstraf of de hem in het kader van een strafrechtelijke procedure opgelegde vrijheidsberovende maatregel door te ontsnappen uit een gevangenis, een inrichting waar een geïnterneerde persoon geplaatst is, een gerechtsgebouw, een politiecommissariaat, een ziekenhuis, een voertuig van de politie of enige andere plaats waar hij onder bewaking of toezicht staat van een personeelslid van de geïntegreerde politie belast met bewakings- of beveiligingstaken, met inbegrip van de beveiligingsagenten en de beveiligingsassistenten van politie van de Directie Beveiliging;
 2° aan de controle door elektronische middelen, opgelegd ter uitvoering van een gerechtelijke beslissing bedoeld in de bepaling onder 1°.
 Dit misdrijf wordt bestraft met een straf van niveau 2.]1
 (1)<W 2025-12-19/73, art. 11, 002; Inwerkingtreding : 16-01-2026>
 
-###### Art. 685.[1 Verzwaarde ontsnapping van gevangenen
+###### Art. 685. [1 Verzwaarde ontsnapping van gevangenen
 De ontsnapping van gevangenen wordt bestraft met een straf van niveau 3 indien het misdrijf werd gepleegd door middel van geweld of bedreigingen.
 Dezelfde straf wordt uitgesproken ten aanzien van een deelnemer die een persoon met een openbare functie is en dit misdrijf pleegt in het kader van de uitoefening van deze functie.]1 (1)<W 2025-12-19/73, art. 12, 002; Inwerkingtreding : 16-01-2026>
 
@@ -5945,7 +5855,7 @@ b) de artikelen 28/1 en 28/2, ingevoegd bij de wet van 22 mei 2014;
 
 ### HOOFDSTUK 5. - Inwerkingtredingsbepaling
 
-###### Art. 119.Deze
+###### Art. 119. Deze
 
 wet treedt in werking [1 op 1 september 2026]1.
 (1)<W 2026-03-30/01, art. 253, 004; Inwerkingtreding : 03-04-2026>

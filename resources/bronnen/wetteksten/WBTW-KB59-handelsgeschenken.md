@@ -17,31 +17,19 @@ provenance:
       version: '2020'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f9ce762
+    pipeline_version: f9ce762-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T15:58:19Z'
+  generated_at: '2026-05-12T18:20:48Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T16:08:56Z'
-    confirmed_by: subagent-unspecified
-    rationale: Geen Fisconet-artefacten. 22 artikelheadings correct gestructureerd. HOOFDSTUK/Afdeling hiërarchie aanwezig. Wijzigingshistorie consistent.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-160243
-      run_at: '2026-05-12T16:02:43Z'
-      heading_count: 22
-      max_section_chars: 3529
-      file_size_chars: 20911
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-unspecified
-      run_at: '2026-05-12T16:08:56Z'
-      rationale: Geen Fisconet-artefacten. 22 artikelheadings correct gestructureerd. HOOFDSTUK/Afdeling hiërarchie aanwezig. Wijzigingshistorie consistent.
-      concrete_problemen: []
 ---
 
 # BTW KB nr. 59 — Handelsgeschenken
@@ -65,7 +53,7 @@ Worden niet gelijkgesteld met leveringen van goederen verricht onder bezwarende 
 
 Worden niet gelijkgesteld met leveringen van goederen verricht onder bezwarende titel in de zin van artikel 12, § 1, van het Wetboek, de onttrekkingen van voedingsmiddelen, gedaan door een belastingplichtige, die voldoen aan de in de artikelen 3 en 4 voorgeschreven voorwaarden en worden verricht volgens de in artikel 5 en, in voorkomend geval, afdeling 3 voorgeschreven nadere regels.
 
-#### Art. 3.Worden
+#### Art. 3. Worden
 
 bedoeld in artikel 2, de goederen die:
 1° bestaan in voedingsmiddelen, met inbegrip van dranken andere dan geestrijke dranken, die:
@@ -97,7 +85,7 @@ In afwezigheid van een formele erkenningsprocedure door de bevoegde overheid, wo
 2° in staat is om de in artikel 2 bedoelde goederen in goede omstandigheden te verdelen;
 3° zich ertoe verbindt om de in artikel 2 bedoelde goederen niet voor commerciële doeleinden te gebruiken en ze uitsluitend te verdelen onder behoeftige personen zonder enige andere tegenprestatie dan een financiële bijdrage die niet hoger is dan de uitgaven die rechtstreeks verband houden met die verdeling.
 
-#### Art. 5.§ 1. Bij een onttrekking bedoeld in artikel 2, stelt de belastingplichtige een document op in twee exemplaren, met de volgende vermeldingen:
+#### Art. 5. § 1. Bij een onttrekking bedoeld in artikel 2, stelt de belastingplichtige een document op in twee exemplaren, met de volgende vermeldingen:
 1° de datum waarop de begunstigde bezit genomen heeft van de goederen;
 2° de naam of maatschappelijke benaming, het adres en het btw-identificatienummer van de belastingplichtige;
 3° de naam of maatschappelijke benaming, het adres en het ondernemingsnummer van de begunstigde;
@@ -147,7 +135,7 @@ In afwezigheid van een formele erkenningsprocedure door de bevoegde overheid, wo
 2° in staat is om de in artikel 6 bedoelde goederen in goede omstandigheden te verdelen;
 3° zich ertoe verbindt om de in artikel 6 bedoelde goederen niet voor commerciële doeleinden te gebruiken en ze uitsluitend te verdelen onder behoeftige personen zonder enige andere tegenprestatie dan een financiële bijdrage die niet hoger is dan de uitgaven die rechtstreeks verband houden met die verdeling.
 
-#### Art. 9.§ 1. Bij een in artikel 6 bedoelde onttrekking stelt de belastingplichtige een document op in twee exemplaren, met de volgende vermeldingen:
+#### Art. 9. § 1. Bij een in artikel 6 bedoelde onttrekking stelt de belastingplichtige een document op in twee exemplaren, met de volgende vermeldingen:
 1° de datum waarop de begunstigde bezit genomen heeft van de goederen;
 2° de naam of maatschappelijke benaming, het adres en het btw-identificatienummer van de belastingplichtige;
 3° de naam of maatschappelijke benaming, het adres en het ondernemingsnummer van de begunstigde;
