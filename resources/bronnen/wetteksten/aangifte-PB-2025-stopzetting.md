@@ -1,53 +1,45 @@
 ---
-bron_rol: formulier
+tags: []
+itaa-lex-sectie: ""
+wet: "aangifte-PB-2025-stopzetting"
+bron_rol: "formulier"
+status: "beschikbaar"
+bijgewerkt: ""
+bron: "onbekend"
+chunk:
+  level: 2
+  type: "Art."
+  sub_strategy:
 provenance:
   inputs:
-    - id: unknown
-      sha256:
+    - id: resources/raw/handcrafted/aangifte-PB-2025-stopzetting.md
+      sha256: f0f2b4f6d4fce6f3f02a7a44b1a9a8250f43e499c1516d97ec0238e0219f57a8
       version:
   tooling:
-    pipeline: manual-import
-    pipeline_version: skel-2026-05-11
+    pipeline: tools/etl/convert.py
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-11T11:42:59Z'
+  generated_at: '2026-05-12T19:02:41Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-11T11:51:19Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Eveneens manueel aangemaakt; geen PDF-extractiesporen. Tabellen correct in pipe-syntax, heading-hiërarchie consistent (## Vak XXI/XVII/XVIII, ### Rubriek). Tarief-samenvatting aan het einde is helder. Kruisreferenties naar WIB92-artikelen correct. Frontmatter stemt overeen met inhoud.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: fail
-      run_id: 20260511-134044
-      run_at: '2026-05-11T13:40:50Z'
-      heading_count: 16
-      max_section_chars: 1484
-      file_size_chars: 7720
-      flags:
-        - name: frontmatter_complete
-          status: fail
-          detail: "ontbrekende velden: ['bron']"
-          samples: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:51:19Z'
-      rationale: 'Eveneens manueel aangemaakt; geen PDF-extractiesporen. Tabellen correct in pipe-syntax, heading-hiërarchie consistent (## Vak XXI/XVII/XVIII, ### Rubriek). Tarief-samenvatting aan het einde is helder. Kruisreferenties naar WIB92-artikelen correct. Frontmatter stemt overeen met inhoud.'
-      concrete_problemen: []
-tags:
-  - PB
-  - aangifte
 ---
+
+# aangifte-PB-2025-stopzetting
+
+*Bijgewerkt tot en met  — gecoördineerde versie.*
 
 # Aangifte PB aanslagjaar 2025 — codes stopzettingsmeerwaarden
 
-> Bron: "Voorbereiding van de aangifte in de personenbelasting — deel 2, aanslagjaar 2025 (inkomsten 2024)"
-> Gepubliceerd door FOD Financiën. Gedownload via fin.belgium.be, geraadpleegd 2026-05-02.
-> URL: https://fin.belgium.be/sites/default/files/media/documents/voorbereiding-deel-2-2025.pdf
->
-> Codes zijn verbatim overgenomen uit de officiële aangifte. Kolom 1 = belastingplichtige / partner 1. Kolom 2 = partner 2.
+> Bron: "Voorbereiding van de aangifte in de personenbelasting — deel 2, aanslagjaar 2025 (inkomsten 2024)" > Gepubliceerd door FOD Financiën. Gedownload via fin.belgium.be, geraadpleegd 2026-05-02.
+> URL: https://fin.belgium.be/sites/default/files/media/documents/voorbereiding-deel-2-2025.pdf > > Codes zijn verbatim overgenomen uit de officiële aangifte. Kolom 1 = belastingplichtige / partner 1. Kolom 2 = partner 2.
 
 ---
 
@@ -55,8 +47,7 @@ tags:
 
 | Situatie | Vak | Toelichting |
 |---|---|---|
-| Meerwaarden **tijdens** de beroepswerkzaamheid (niet bij stopzetting) | XVII (winst) of XVIII (baten) | Rubriek 4 van het betreffende vak |
-| Meerwaarden **bij of na** de definitieve stopzetting | **XXI** | Altijd vak XXI, ongeacht of de belastingplichtige vroeger winst of baten had |
+| Meerwaarden **tijdens** de beroepswerkzaamheid (niet bij stopzetting) | XVII (winst) of XVIII (baten) | Rubriek 4 van het betreffende vak | | Meerwaarden **bij of na** de definitieve stopzetting | **XXI** | Altijd vak XXI, ongeacht of de belastingplichtige vroeger winst of baten had |
 
 **Let op**: meerwaarden bij stopzetting gaan naar **vak XXI**, niet naar vak XVII/XVIII. Dit is uitdrukkelijk vermeld in de toelichting: "meerwaarden behaald bij de stopzetting van uw beroepswerkzaamheid moet u vermelden in vak XXI."
 
@@ -68,18 +59,10 @@ Dit vak geldt voor **alle** stopzettingsmeerwaarden — zowel voor vroegere hand
 
 ### Rubriek 1 — Stopzettingsmeerwaarden (na aftrek van werkelijke kosten van overdracht)
 
-| Rubriek | Omschrijving | Tarief | Code belastingplichtige | Code partner |
-|---|---|---|---|---|
-| 1a | die afzonderlijk belastbaar zijn tegen 10 % | 10% | **1686-60** | 2686-30 |
-| 1b | die afzonderlijk belastbaar zijn tegen 16,5 % | 16,5% | **1690-56** | 2690-26 |
-| 1c | die afzonderlijk belastbaar zijn tegen 33 % | 33% | **1691-55** | 2691-25 |
-| 1d | die gezamenlijk belastbaar zijn | progressief | **1692-54** | 2692-24 |
+| Rubriek | Omschrijving | Tarief | Code belastingplichtige | Code partner | |---|---|---|---|---| | 1a | die afzonderlijk belastbaar zijn tegen 10 % | 10% | **1686-60** | 2686-30 | | 1b | die afzonderlijk belastbaar zijn tegen 16,5 % | 16,5% | **1690-56** | 2690-26 | | 1c | die afzonderlijk belastbaar zijn tegen 33 % | 33% | **1691-55** | 2691-25 | | 1d | die gezamenlijk belastbaar zijn | progressief | **1692-54** | 2692-24 |
 
 **Wanneer welk tarief:**
-- **10%** (art. 171, 2° WIB92): stopzetting vanaf 60 jaar, gedwongen stopzetting, of overlijden
-- **16,5%** (art. 171, 4° WIB92): meerwaarden op vaste activa die meer dan 5 jaar voor de beroepswerkzaamheid zijn gebruikt — bij vrijwillige stopzetting
-- **33%** (art. 171, 1° WIB92): overige stopzettingsmeerwaarden bij vrijwillige stopzetting vóór 60 jaar
-- **gezamenlijk**: wanneer de wet geen afzonderlijk tarief voorziet (zeldzaam bij stopzettingsmeerwaarden)
+- **10%** (art. 171, 2° WIB92): stopzetting vanaf 60 jaar, gedwongen stopzetting, of overlijden - **16,5%** (art. 171, 4° WIB92): meerwaarden op vaste activa die meer dan 5 jaar voor de beroepswerkzaamheid zijn gebruikt — bij vrijwillige stopzetting - **33%** (art. 171, 1° WIB92): overige stopzettingsmeerwaarden bij vrijwillige stopzetting vóór 60 jaar - **gezamenlijk**: wanneer de wet geen afzonderlijk tarief voorziet (zeldzaam bij stopzettingsmeerwaarden)
 
 ### Rubriek 2 — Kosten van overdracht (terugname)
 
@@ -89,10 +72,7 @@ Dit vak geldt voor **alle** stopzettingsmeerwaarden — zowel voor vroegere hand
 
 ### Rubriek 3 — Premies en vergoedingen
 
-| Rubriek | Omschrijving | Tarief | Code belastingplichtige | Code partner |
-|---|---|---|---|---|
-| 3a | die afzonderlijk belastbaar zijn tegen 12,5 % | 12,5% | **1687-59** | 2687-29 |
-| 3b | die afzonderlijk belastbaar zijn tegen 16,5 % | 16,5% | **1694-52** | 2694-22 |
+| Rubriek | Omschrijving | Tarief | Code belastingplichtige | Code partner | |---|---|---|---|---| | 3a | die afzonderlijk belastbaar zijn tegen 12,5 % | 12,5% | **1687-59** | 2687-29 | | 3b | die afzonderlijk belastbaar zijn tegen 16,5 % | 16,5% | **1694-52** | 2694-22 |
 
 ### Rubriek 4 — Winst en baten na de stopzetting
 
@@ -104,15 +84,13 @@ Dit vak geldt voor **alle** stopzettingsmeerwaarden — zowel voor vroegere hand
 
 | Rubriek | Omschrijving | Code belastingplichtige | Code partner |
 |---|---|---|---|
-| 5 | Na de stopzetting verkregen baten voor sportieve activiteiten verricht als vroegere sportbeoefenaar | **1688-58** | 2688-28 |
-| 6 | Na de stopzetting verkregen baten voor activiteiten voor sportbeoefenaars als vroegere opleider/trainer | **1689-57** | 2689-27 |
+| 5 | Na de stopzetting verkregen baten voor sportieve activiteiten verricht als vroegere sportbeoefenaar | **1688-58** | 2688-28 | | 6 | Na de stopzetting verkregen baten voor activiteiten voor sportbeoefenaars als vroegere opleider/trainer | **1689-57** | 2689-27 |
 
 ### Rubriek 7 — Werkelijke beroepskosten betaald of gedragen na de stopzetting
 
 | Rubriek | Omschrijving | Code belastingplichtige | Code partner |
 |---|---|---|---|
-| 7a | kosten van overdracht van activa waarop u in het belastbare tijdperk een (al dan niet belastbare) meerwaarde hebt verwezenlijkt | **1696-50** | 2696-20 |
-| 7b | andere dan die vermeld onder a | **1697-49** | 2697-19 |
+| 7a | kosten van overdracht van activa waarop u in het belastbare tijdperk een (al dan niet belastbare) meerwaarde hebt verwezenlijkt | **1696-50** | 2696-20 | | 7b | andere dan die vermeld onder a | **1697-49** | 2697-19 |
 
 ---
 
@@ -122,23 +100,13 @@ Dit vak is voor meerwaarden verwezenlijkt **tijdens** de beroepswerkzaamheid (du
 
 ### Rubriek 4 — Meerwaarden tijdens de beroepswerkzaamheid
 
-| Rubriek | Omschrijving | Tarief | Code belastingplichtige | Code partner |
-|---|---|---|---|---|
-| 4a | Meerwaarden die afzonderlijk belastbaar zijn (tegen 16,5 %) | 16,5% | **1603-46** | 2603-16 |
-| 4b | Meerwaarden die gezamenlijk belastbaar zijn | progressief | **1604-45** | 2604-15 |
+| Rubriek | Omschrijving | Tarief | Code belastingplichtige | Code partner | |---|---|---|---|---| | 4a | Meerwaarden die afzonderlijk belastbaar zijn (tegen 16,5 %) | 16,5% | **1603-46** | 2603-16 | | 4b | Meerwaarden die gezamenlijk belastbaar zijn | progressief | **1604-45** | 2604-15 |
 
 **Voorwaarde 16,5% in vak XVII**: het moet gaan om vaste activa die sedert meer dan 5 jaar voor de beroepswerkzaamheid zijn gebruikt, en de belastingplichtige heeft niet gekozen voor de gespreide belasting (art. 47 WIB92).
 
 ### Rubriek 6 — Vergoedingen
 
-| Rubriek | Omschrijving | Tarief | Code belastingplichtige | Code partner |
-|---|---|---|---|---|
-| 6a | Vergoedingen afzonderlijk belastbaar tegen 12,5 % | 12,5% | **1607-42** | 2607-12 |
-| 6b1 | Vergoedingen COVID-19-overbruggingsrecht (16,5%) | 16,5% | **1636-13** | 2636-80 |
-| 6b2 | Andere vergoedingen afzonderlijk belastbaar tegen 16,5 % | 16,5% | **1605-44** | 2605-14 |
-| 6c | Vergoedingen afzonderlijk belastbaar tegen 33 % | 33% | **1618-31** | 2618-01 |
-| 6d1 | Vergoedingen COVID-19-overbruggingsrecht (gezamenlijk) | progressief | **1637-12** | 2637-79 |
-| 6d2 | Andere vergoedingen gezamenlijk belastbaar | progressief | **1610-39** | 2610-09 |
+| Rubriek | Omschrijving | Tarief | Code belastingplichtige | Code partner | |---|---|---|---|---| | 6a | Vergoedingen afzonderlijk belastbaar tegen 12,5 % | 12,5% | **1607-42** | 2607-12 | | 6b1 | Vergoedingen COVID-19-overbruggingsrecht (16,5%) | 16,5% | **1636-13** | 2636-80 | | 6b2 | Andere vergoedingen afzonderlijk belastbaar tegen 16,5 % | 16,5% | **1605-44** | 2605-14 | | 6c | Vergoedingen afzonderlijk belastbaar tegen 33 % | 33% | **1618-31** | 2618-01 | | 6d1 | Vergoedingen COVID-19-overbruggingsrecht (gezamenlijk) | progressief | **1637-12** | 2637-79 | | 6d2 | Andere vergoedingen gezamenlijk belastbaar | progressief | **1610-39** | 2610-09 |
 
 ---
 
@@ -146,22 +114,13 @@ Dit vak is voor meerwaarden verwezenlijkt **tijdens** de beroepswerkzaamheid (du
 
 ### Rubriek 6 — Meerwaarden tijdens de beroepswerkzaamheid
 
-| Rubriek | Omschrijving | Tarief | Code belastingplichtige | Code partner |
-|---|---|---|---|---|
-| 6a | Meerwaarden die afzonderlijk belastbaar zijn (tegen 16,5 %) | 16,5% | **1653-93** | 2653-63 |
-| 6b | Meerwaarden die gezamenlijk belastbaar zijn | progressief | **1654-92** | 2654-62 |
+| Rubriek | Omschrijving | Tarief | Code belastingplichtige | Code partner | |---|---|---|---|---| | 6a | Meerwaarden die afzonderlijk belastbaar zijn (tegen 16,5 %) | 16,5% | **1653-93** | 2653-63 | | 6b | Meerwaarden die gezamenlijk belastbaar zijn | progressief | **1654-92** | 2654-62 |
 
 **Opmerking**: ook voor vrije beroepen geldt dat stopzettingsmeerwaarden naar **vak XXI** gaan, niet naar vak XVIII.
 
 ### Rubriek 8 — Vergoedingen en premies
 
-| Rubriek | Omschrijving | Tarief | Code belastingplichtige | Code partner |
-|---|---|---|---|---|
-| 8a1 | Vergoedingen COVID-19-overbruggingsrecht (16,5%) | 16,5% | **1682-64** | 2682-34 |
-| 8a2 | Andere vergoedingen afzonderlijk belastbaar tegen 16,5 % | 16,5% | **1655-91** | 2655-61 |
-| 8b | Vergoedingen afzonderlijk belastbaar tegen 33 % | 33% | **1667-79** | 2667-49 |
-| 8c1 | Vergoedingen COVID-19-overbruggingsrecht (gezamenlijk) | progressief | **1683-63** | 2683-33 |
-| 8c2 | Andere vergoedingen gezamenlijk belastbaar | progressief | **1661-85** | 2661-55 |
+| Rubriek | Omschrijving | Tarief | Code belastingplichtige | Code partner | |---|---|---|---|---| | 8a1 | Vergoedingen COVID-19-overbruggingsrecht (16,5%) | 16,5% | **1682-64** | 2682-34 | | 8a2 | Andere vergoedingen afzonderlijk belastbaar tegen 16,5 % | 16,5% | **1655-91** | 2655-61 | | 8b | Vergoedingen afzonderlijk belastbaar tegen 33 % | 33% | **1667-79** | 2667-49 | | 8c1 | Vergoedingen COVID-19-overbruggingsrecht (gezamenlijk) | progressief | **1683-63** | 2683-33 | | 8c2 | Andere vergoedingen gezamenlijk belastbaar | progressief | **1661-85** | 2661-55 |
 
 ---
 
@@ -169,10 +128,7 @@ Dit vak is voor meerwaarden verwezenlijkt **tijdens** de beroepswerkzaamheid (du
 
 | Tarief | Wanneer van toepassing | Code (belastingplichtige) |
 |---|---|---|
-| **10%** | Stopzetting vanaf 60 jaar / gedwongen stopzetting / overlijden | 1686-60 |
-| **16,5%** | Vaste activa > 5 jaar in gebruik, vrijwillige stopzetting vóór 60 jaar | 1690-56 |
-| **33%** | Overige stopzettingsmeerwaarden, vrijwillige stopzetting vóór 60 jaar | 1691-55 |
-| progressief | Gezamenlijk belastbare stopzettingsmeerwaarden (uitzonderlijk) | 1692-54 |
+| **10%** | Stopzetting vanaf 60 jaar / gedwongen stopzetting / overlijden | 1686-60 | | **16,5%** | Vaste activa > 5 jaar in gebruik, vrijwillige stopzetting vóór 60 jaar | 1690-56 | | **33%** | Overige stopzettingsmeerwaarden, vrijwillige stopzetting vóór 60 jaar | 1691-55 | | progressief | Gezamenlijk belastbare stopzettingsmeerwaarden (uitzonderlijk) | 1692-54 |
 
 ---
 
@@ -180,6 +136,4 @@ Dit vak is voor meerwaarden verwezenlijkt **tijdens** de beroepswerkzaamheid (du
 
 | Opgave | Wanneer | Inhoud |
 |---|---|---|
-| **276 K** | Bij gespreide belasting (art. 47 WIB92) | Detail van de gespreide meerwaarden en herbelegging |
-| **276 N** | Bij vrijstelling meerwaarden op bedrijfsvoertuigen | Bewijsstukken ecologische normen |
-| **276 P** | Bij vrijstelling meerwaarden op binnenschepen | Bewijsstukken ecologische normen |
+| **276 K** | Bij gespreide belasting (art. 47 WIB92) | Detail van de gespreide meerwaarden en herbelegging | | **276 N** | Bij vrijstelling meerwaarden op bedrijfsvoertuigen | Bewijsstukken ecologische normen | | **276 P** | Bij vrijstelling meerwaarden op binnenschepen | Bewijsstukken ecologische normen |
