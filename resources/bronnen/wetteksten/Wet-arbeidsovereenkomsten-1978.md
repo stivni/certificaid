@@ -17,10 +17,10 @@ provenance:
       version: 03.07.1978
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f9ce762-dirty
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-12T18:20:43Z'
+  generated_at: '2026-05-12T19:14:08Z'
   stale: false
   stale_reason:
   trust:
@@ -29,6 +29,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-191408
+      run_at: '2026-05-12T19:14:08Z'
+      heading_count: 207
+      max_section_chars: 22809
+      file_size_chars: 255419
+      flags: []
     layer2:
 ---
 

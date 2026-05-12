@@ -17,35 +17,26 @@ provenance:
       version: 25.11.2009
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f9ce762
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-12T15:58:14Z'
+  generated_at: '2026-05-12T19:15:14Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T16:08:56Z'
-    confirmed_by: subagent-unspecified
-    rationale: "Geen EUR-Lex markers. De ## headings voor Richtlijnfragmenten (bijv. '## RICHTLIJN 2009/133/EG VAN DE RAAD' op r68-70) zijn ruis-headings uit de preambuletekst maar verstoren de structuur minimaal. Definities, artikelen en bijlagen volledig aanwezig. Kleine PDF-koppeltekensplits (bv. 'vennootschap- pen') zijn source-kenmerken."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-160242
-      run_at: '2026-05-12T16:02:42Z'
+      run_id: 20260512-191514
+      run_at: '2026-05-12T19:15:14Z'
       heading_count: 49
       max_section_chars: 11862
       file_size_chars: 43989
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-unspecified
-      run_at: '2026-05-12T16:08:56Z'
-      rationale: "Geen EUR-Lex markers. De ## headings voor Richtlijnfragmenten (bijv. '## RICHTLIJN 2009/133/EG VAN DE RAAD' op r68-70) zijn ruis-headings uit de preambuletekst maar verstoren de structuur minimaal. Definities, artikelen en bijlagen volledig aanwezig. Kleine PDF-koppeltekensplits (bv. 'vennootschap- pen') zijn source-kenmerken."
-      concrete_problemen:
-        - regel: 68
-          categorie: B4
-          type: other
-          voorbeeld: '## RICHTLIJN 2009/133/EG VAN DE RAAD'
 ---
 
 # Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)

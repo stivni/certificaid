@@ -1,12 +1,15 @@
 ---
-bijgewerkt: '2023'
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["VI.B", "2.4"]
+itaa-lex-sectie: "VI.B"
+wet: "K.B. nr. 54, 21 december 2023, met betrekking tot de andere regeling van entrepot dan douane-entrepot bedoeld in artikel 39quater van het WBTW"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "2023"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 2
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: VI.B
 provenance:
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB54-entrepot.pdf
@@ -14,59 +17,33 @@ provenance:
       version: '2023'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:24Z'
+  generated_at: '2026-05-12T19:14:18Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: Art. 3 ontbreekt als heading — de body van Art. 3 begint direct met '1° de naam, het adres...' zonder dat '### Art. 3' of '## Art. 3' aanwezig is als heading (het bestand start direct met de tekst van Art. 3 na de intro-tekst). A6: Meerdere spurious line-breaks midden in zinnen: regel 96-98 ('een dubbel ervan bewaren dat hij\\ndocument overhandigen...') en regel 160-162 ('is ingetrokken, kan een nieuwe vergunningsaanvraag...'). Overige structuur correct."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 21118
-      flags: []
-      heading_count: 9
-      max_section_chars: 11789
-      run_at: '2026-05-11T13:40:47Z'
-      run_id: 20260511-134044
       status: pass
+      run_id: 20260512-191418
+      run_at: '2026-05-12T19:14:18Z'
+      heading_count: 6
+      max_section_chars: 11791
+      file_size_chars: 18262
+      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "B5: Art. 3 ontbreekt als heading — de body van Art. 3 begint direct met '1° de naam, het adres...' zonder dat '### Art. 3' of '## Art. 3' aanwezig is als heading (het bestand start direct met de tekst van Art. 3 na de intro-tekst). A6: Meerdere spurious line-breaks midden in zinnen: regel 96-98 ('een dubbel ervan bewaren dat hij\\ndocument overhandigen...') en regel 160-162 ('is ingetrokken, kan een nieuwe vergunningsaanvraag...'). Overige structuur correct."
-      concrete_problemen:
-        - regel: 60
-          categorie: B5
-          type: other
-          voorbeeld: 1° de naam, het adres en het in artikel 50... (Art. 3-body zonder heading)
-        - regel: 96
-          categorie: A6
-          type: other
-          voorbeeld: "4° een uitslagdocument opstellen op het tijdstip dat de goederen uit het entrepot worden uitgeslagen, dit\n\ndocument overhandigen aan de persoon"
-        - regel: 160
-          categorie: A6
-          type: other
-          voorbeeld: "De entrepothouder wiens op grond van artikel 3 uitgereikte vergunning overeenkomstig het eerste of tweede lid\n\nis ingetrokken"
-status: beschikbaar
-tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 54, 21 december 2023, met betrekking tot de andere regeling van entrepot dan douane-entrepot bedoeld in artikel 39quater van het WBTW
 ---
 
 # BTW KB nr. 54 — Entrepot (art. 39quater)
 
 *Bijgewerkt tot en met 2023 — gecoördineerde versie.*
 
-Titel
-
 21 DECEMBER 2023. - Koninklijk besluit nr. 54 met betrekking tot de andere regeling van entrepot dan douaneentrepot bedoeld in artikel 39quater van het Wetboek van de belasting over de toegevoegde waarde
-
-Bron : FINANCIEN
 
 1° de naam, het adres en het in artikel 50 van het Wetboek bedoelde btw-identificatienummer van de aanvrager of, in voorkomend geval, het overeenkomstig artikel 55, § 3, tweede lid, van het Wetboek toegekende globale btw-identificatienummer, waaronder hij niet in België gevestigde belastingplichtigen vertegenwoordigt die handelingen verrichten in het kader van deze btw-regeling;
 2° de hoedanigheid van de aanvrager;

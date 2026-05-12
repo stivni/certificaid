@@ -1,11 +1,15 @@
 ---
-bijgewerkt: 24.12.2025
-bron: ejustice.just.fgov.be (gecoördineerde versie)
+tags: ["XIII", "1.4"]
+itaa-lex-sectie: "XIII"
+wet: "WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "24.12.2025"
+bron: "onbekend"
 chunk:
-  level: 4
+  level: 5
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: XIII
 provenance:
   inputs:
     - id: resources/raw/wetteksten/WER-Boek-VIII-normalisatie.pdf
@@ -13,56 +17,30 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:26Z'
+  generated_at: '2026-05-12T19:14:41Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A8: het bestand bevat systematische kolom-bleed van de NL+FR tweetalige bron: vanaf regel 60 wisselen NL- en FR-artikelversies elkaar af als aparte ##### headings met identieke nummers ('Art. 2' tweemaal, 'Art. 1' tweemaal, enz.), wat een column-extraction-fout is. B1: veel headings bevatten enkel een artikelnummer gevolgd door een FR-zin als heading-tekst (bv. `##### Art. 2. Le ministre qui a l'Emploi dans ses attributions est chargé de`). B3: identieke heading `#### CHAPITRE I er` en `### HOOFDSTUK I` voor dezelfde sectie, plus dubbele `Art. 2`-headings. Layer1 meldde max_section_size warn (351006 chars) wat bevestigt dat de structuur niet chunker-vriendelijk is."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 863665
-      flags:
-        - detail: 'langste sectie op ####-niveau: 351006 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          name: max_section_size
-          samples: []
-          status: warn
-      heading_count: 267
-      max_section_chars: 351006
-      run_at: '2026-05-11T13:40:48Z'
-      run_id: 20260511-134044
       status: warn
+      run_id: 20260512-191441
+      run_at: '2026-05-12T19:14:41Z'
+      heading_count: 352
+      max_section_chars: 116180
+      file_size_chars: 622737
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op #####-niveau: 116180 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "A8: het bestand bevat systematische kolom-bleed van de NL+FR tweetalige bron: vanaf regel 60 wisselen NL- en FR-artikelversies elkaar af als aparte ##### headings met identieke nummers ('Art. 2' tweemaal, 'Art. 1' tweemaal, enz.), wat een column-extraction-fout is. B1: veel headings bevatten enkel een artikelnummer gevolgd door een FR-zin als heading-tekst (bv. `##### Art. 2. Le ministre qui a l'Emploi dans ses attributions est chargé de`). B3: identieke heading `#### CHAPITRE I er` en `### HOOFDSTUK I` voor dezelfde sectie, plus dubbele `Art. 2`-headings. Layer1 meldde max_section_size warn (351006 chars) wat bevestigt dat de structuur niet chunker-vriendelijk is."
-      concrete_problemen:
-        - regel: 60
-          categorie: A8
-          type: column-bleed
-          voorbeeld: '##### Art. 2. Le ministre... / ##### Art. 2. De minister... (NL+FR door elkaar)'
-        - regel: 107
-          categorie: B3
-          type: other
-          voorbeeld: '#### CHAPITRE I er . en ### HOOFDSTUK I. voor dezelfde sectie'
-        - regel: 113
-          categorie: B1
-          type: other
-          voorbeeld: '##### Art. 1. Deze   collectieve   arbeidsovereenkomst   is   van   toepassing'
-        - regel: 113
-          categorie: C3
-          type: pseudo-table
-          voorbeeld: op de werkgevers   en   werklieden   van   de   ondernemingen (extra spaties als uitlijning)
-status: beschikbaar
-tags:
-  - XIII
-  - '1.4'
-wet: WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)
 ---
 
 # WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)
@@ -73,113 +51,55 @@ wet: WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)
 
 De minister bevoegd voor Werk is belast met de uitvoering van dit besluit.
 
-##### Art. 2. Le ministre qui a l’Emploi dans ses attributions est chargé de
-
-l’exécution du présent arrêté.
-
-Donné à Bruxelles, le 1 er octobre 2012.
-
 Gegeven te Brussel, 1 oktober 2012.
 
 ALBERT
 
-ALBERT
-
-Par le Roi :
-
 Van Koningswege :
-
-La Ministre de l’Emploi, Mme M. DE CONINCK
 
 De Minister van Werk, Mevr. M. DE CONINCK
 
 Nota
 
-Note
-
 (1) Verwijzing naar het Belgisch Staatsblad : Wet van 5 december 1968, Belgisch Staatsblad van 15 januari 1969.
-
-(1) Référence au Moniteur belge : Loi du 5 décembre 1968, Moniteur belge du 15 janvier 1969.
-
-Annexe
-
-Sous-commission paritaire pour le commerce du métal
 
 Paritair Subcomité voor de metaalhandel
 
-Convention collective de travail du 16 juin 2011
-
 Collectieve arbeidsovereenkomst van 16 juni 2011
-
-Formation syndicale (Convention enregistrée le 18 juillet 2011 sous le numéro 104841/CO/149.04)
 
 Vakbondsvorming (Overeenkomst geregistreerd op 18 juli 2011 onder het nummer 104841/CO/149.04)
 
-En exécution de l’article 24 de l’accord national 2011-2012 du 19 mai 2011.
-
 In uitvoering van artikel 24 van het nationaal akkoord 2011-2012 van 19 mei 2011.
 
-#### CHAPITRE I er . — Champ d’application
-
 ### HOOFDSTUK I. — Toepassingsgebied
-
-Article 1 er . La présente convention collective de travail s’applique aux employeurs et aux ouvriers des entreprises relevant de la compétence de la Sous-commission paritaire pour le commerce du métal.
 
 ##### Art. 1. Deze   collectieve   arbeidsovereenkomst   is   van   toepassing
 
 op de werkgevers en werklieden van de ondernemingen die ressorteren onder het Paritair Subcomité voor de metaalhandel.
 
-##### Art. 2. Pour   l’application   de   la   présente   convention   collective   de
-
-travail on entend par ″ ouvriers ″ : les ouvriers et ouvrières.
-
 ##### Art. 2. Voor   de   toepassing   van   de   collectieve   arbeidsovereenkomst
 
 wordt onder ″ werklieden ″ verstaan : de werklieden en de werksters.
 
-#### CHAPITRE II. — Formation syndicale
-
 ### HOOFDSTUK II. — Vakbondsvorming
-
-##### Art. 3. Les   dispositions   du   présent   chapitre   règlent   la   mise   en
-
-application du point 7 de l’accord interprofessionnel du 15 juin 1971, relatif à la formation syndicale.
 
 ##### Art. 3. De   beschikkingen   van   dit   hoofdstuk   regelen   de   toepassing
 
 van punt 7 van de interprofessionele overeenkomst van 15 juni 1971, betreffende de vakbondsvorming.
 
-1. Principes généraux
-
 1. Algemene beginselen
-
-##### Art. 4. 4.1.   Compte   tenu   du   rôle   assumé   par   les   représentants   des
-
-ouvriers dans les entreprises, il leur est accordé, dans les limites précisées ci-après, des facilités pour suivre des cours de formation nécessaires à l’accomplissement de leurs tâches dans les meilleures conditions.
 
 ##### Art. 4. 4.1. Rekening houdend met de rol die de vertegenwoordigers
 
 van de werklieden in de ondernemingen vervullen, wordt hen binnen de hierna omschreven grenzen faciliteiten verleend om vormingscur- sussen te volgen die nodig zijn voor het volbrengen van hun taken in de beste voorwaarden.
 
-4.2. A cet effet, les représentants des ouvriers sont autorisés à participer, sans perte de rémunération, à des cours et séminaires :
-
 4.2. Te dien einde wordt het de vertegenwoordigers van de werklie- den toegestaan, zonder loonderving, aan cursussen en seminaries deel te nemen :
-
-4.2.1. organisés par les confédérations syndicales nationales ou régionales ou par leurs centrales professionnelles, y compris leurs sections régionales;
 
 4.2.1. die ingericht worden door de nationale of regionale vakverbon- den of door hun beroepscentrales, hun regionale afdelingen inbegre- pen;
 
-4.2.2. visant au perfectionnement de leurs connaissances d’ordre économique, social, technique et syndical dans le cadre de leur rôle de représentants des ouvriers.
-
 4.2.2. die gericht zijn op de vervolmaking van hun economische, sociale, technische en vakbondskennis binnen het raam van hun rol van vertegenwoordigers van de werklieden.
 
-2. Modalités d’octroi
-
 2. Toekenningsmodaliteiten
-
-##### Art. 5. 5.1.   La   durée   d’absence   pour   la   participation   aux   cours   et
-
-séminaires visés à l’article 4, est ﬁxée à dix jours par mandat effectif et par période de mandat de quatre ans. Les mandats suppléants ne sont pas pris en compte pour déterminer cette durée.
 
 ##### Art. 5. 5.1. De duur van de afwezigheid voor de deelneming aan de
 
@@ -233,7 +153,7 @@ Vu pour être annexé à l’arrêté royal du 1 er octobre 2012.
 
 Nochtans kunnen in sommige uitzonderlijke omstandigheden indi- viduele gevallen in gemeenschappelijk akkoord tussen het onderne- mingshoofd en de vakbondsafvaardiging bepaald, één of verschillende mandatarissen bedoeld in het vorige alinea, vervangen worden door andere vakbondsverantwoordelijken, bij naam genoemd door de meest representatieve werknemersorganisaties.
 
-5.3. Het globaal aantal toegelaten afwezigheidsdagen bepaald bij artikel 5.1., wordt onder de meest representatieve werknemersorgani- saties verdeeld naar rata van het aantal mandaten dat deze laatsten in de drie vertegenwoordigingsorganen in elke onderneming bekleden.
+5.3. Het globaal aantal toegelaten afwezigheidsdagen bepaald bij artikel 5.1. , wordt onder de meest representatieve werknemersorgani- saties verdeeld naar rata van het aantal mandaten dat deze laatsten in de drie vertegenwoordigingsorganen in elke onderneming bekleden.
 
 5.4. Het normaal loon wordt berekend met inachtneming van de besluiten genomen ter uitvoering van het koninklijk besluit van 18 april 1974, tot bepaling van de algemene wijze van uitvoering van de wet van 4 januari 1974 betreffende de feestdagen. Het loon wordt door de werkgever betaald aan de begunstigden van die afwezigheden voor vorming en dit voor de afwezigheidsdagen toegelaten krachtens deze collectieve arbeidsovereenkomst.
 
@@ -277,25 +197,61 @@ opzegging van drie maanden wordt betekend bij een ter post aangete- kend schrijv
 
 Gezien om te worden gevoegd bij het koninklijk besluit van 1 oktober 2012.
 
-FEDERALE OVERHEIDSDIENST WERKGELEGENHEID, ARBEID EN SOCIAAL OVERLEG
-
 SERVICE PUBLIC FEDERAL EMPLOI, TRAVAIL ET CONCERTATION SOCIALE
 
-[2012/205034] 1 OKTOBER 2012. — Koninklijk besluit waarbij algemeen verbin- dend wordt verklaard de collectieve arbeidsovereenkomst van 8 juni 2011, gesloten in het Paritair Comité voor het kappersbedrijf en de schoonheidszorgen, betreffende de verlenging van de collectieve arbeidsovereenkomst van 29 juni 2009 betreffende de toekenning van het halftijds conventioneel brugpensioen vanaf 55 jaar (1)
-
 [2012/205034] 1 er OCTOBRE 2012. — Arrêté royal rendant obligatoire la convention collective de travail du 8 juin 2011, conclue au sein de la Commission paritaire de la coiffure et des soins de beauté, relative à la reconduction de la convention collective de travail du 29 juin 2009 relative à l’octroi de la prépension conventionnelle à mi-temps à partir de 55 ans (1)
-
-ALBERT II, Koning der Belgen, Aan allen die nu zijn en hierna wezen zullen, Onze Groet. Gelet op de wet van 5 december 1968 betreffende de collectieve arbeidsovereenkomsten en de paritaire comités, inzonderheid op artikel 28; Gelet op het verzoek van het Paritair Comité voor het kappersbedrijf en de schoonheidszorgen; Op de voordracht van de Minister van Werk,
 
 ALBERT II, Roi des Belges, A tous, présents et à venir, Salut. Vu la loi du 5 décembre 1968 sur les conventions collectives de travail et les commissions paritaires, notamment l’article 28;
 
 Vu la demande de la Commission paritaire de la coiffure et des soins de beauté; Sur la proposition de la Ministre de l’Emploi,
 
-Hebben Wij besloten en besluiten Wij :
-
 Nous avons arrêté et arrêtons :
 
 Article 1 er . Est rendue obligatoire la convention collective de travail du 8 juin 2011, reprise en annexe, conclue au sein de la Commission paritaire de la coiffure et des soins de beauté, relative à la reconduction de la convention collective de travail du 29 juin 2009 relative à l’octroi de la prépension conventionnelle à mi-temps à partir de 55 ans.
+
+##### Art. 2. Le ministre qui a l’Emploi dans ses attributions est chargé de
+
+l’exécution du présent arrêté.
+
+Donné à Bruxelles, le 1 er octobre 2012.
+
+ALBERT
+
+Par le Roi :
+
+La Ministre de l’Emploi, Mme M. DE CONINCK
+
+Note
+
+(1) Référence au Moniteur belge : Loi du 5 décembre 1968, Moniteur belge du 15 janvier 1969.
+
+Annexe
+
+Commission paritaire de la coiffure et des soins de beauté
+
+Convention collective de travail du 8 juin 2011
+
+Reconduction de la convention collective de travail du 29 juin 2009 relative à l’octroi de la prépension conventionnelle à mi-temps à partir de 55 ans (Convention enregistrée le 26 août 2011 sous le numéro 105372/CO/314)
+
+#### CHAPITRE I er . — Champ d’application
+
+Article 1 er . La présente convention collective de travail s’applique aux travailleurs et aux employeurs des entreprises relevant de la compétence de la Commission paritaire de la coiffure et des soins de beauté.
+
+Par ″ travailleurs ″ on entend : les ouvriers, ouvrières et employé(e)s.
+
+#### CHAPITRE II. — Dispositions
+
+##### Art. 2. La   présente   convention   collective   de   travail   est   conclue   en
+
+application de la convention collective de travail n o 55 du Conseil national du travail du 13 juillet 1993 instituant un régime d’indemnité complémentaire pour certains travailleurs âgés en cas de réduction des prestations de travail à mi-temps, modiﬁée par les conventions collectives de travail de travail n o 55 bis du Conseil national du travail du 7 février 1995 et n o 55 ter du Conseil national du travail du 10 mars 1998 (ratiﬁées par les arrêtés royaux des 17 novembre 1993, 16 mars 1995 et 26 mai 1998, parus au Moniteur belge des 4 décem- bre 1993, 26 avril 1995 et 17 juin 1998).
+
+FEDERALE OVERHEIDSDIENST WERKGELEGENHEID, ARBEID EN SOCIAAL OVERLEG
+
+[2012/205034] 1 OKTOBER 2012. — Koninklijk besluit waarbij algemeen verbin- dend wordt verklaard de collectieve arbeidsovereenkomst van 8 juni 2011, gesloten in het Paritair Comité voor het kappersbedrijf en de schoonheidszorgen, betreffende de verlenging van de collectieve arbeidsovereenkomst van 29 juni 2009 betreffende de toekenning van het halftijds conventioneel brugpensioen vanaf 55 jaar (1)
+
+ALBERT II, Koning der Belgen, Aan allen die nu zijn en hierna wezen zullen, Onze Groet. Gelet op de wet van 5 december 1968 betreffende de collectieve arbeidsovereenkomsten en de paritaire comités, inzonderheid op artikel 28; Gelet op het verzoek van het Paritair Comité voor het kappersbedrijf en de schoonheidszorgen; Op de voordracht van de Minister van Werk,
+
+Hebben Wij besloten en besluiten Wij :
 
 ##### Art. 1
 
@@ -305,53 +261,25 @@ Algemeen verbindend wordt verklaard de als bijlage overgenomen collectieve arbei
 
 De minister bevoegd voor Werk is belast met de uitvoering van dit besluit.
 
-##### Art. 2. Le ministre qui a l’Emploi dans ses attributions est chargé de
-
-l’exécution du présent arrêté.
-
-Donné à Bruxelles, le 1 er octobre 2012.
-
 Gegeven te Brussel, 1 oktober 2012.
 
 ALBERT
 
-ALBERT
-
-Par le Roi :
-
 Van Koningswege :
-
-La Ministre de l’Emploi, Mme M. DE CONINCK
 
 De Minister van Werk, Mevr. M. DE CONINCK
 
-Note
-
 Nota
-
-(1) Référence au Moniteur belge : Loi du 5 décembre 1968, Moniteur belge du 15 janvier 1969.
 
 (1) Verwijzing naar het Belgisch Staatsblad : Wet van 5 december 1968, Belgisch Staatsblad van 15 januari 1969.
 
-Annexe
-
-Commission paritaire de la coiffure et des soins de beauté
-
 Paritair Comité voor het kappersbedrijf en de schoonheidszorgen
-
-Convention collective de travail du 8 juin 2011
 
 Collectieve arbeidsovereenkomst van 8 juni 2011
 
-Reconduction de la convention collective de travail du 29 juin 2009 relative à l’octroi de la prépension conventionnelle à mi-temps à partir de 55 ans (Convention enregistrée le 26 août 2011 sous le numéro 105372/CO/314)
-
 Verlenging van de collectieve arbeidsovereenkomst van 29 juni 2009 betreffende de toekenning van het halftijds conventioneel brugpensioen vanaf 55 jaar (Overeenkomst geregistreerd op 26 augustus 2011 onder het nummer 105372/CO/314)
 
-#### CHAPITRE I er . — Champ d’application
-
 ### HOOFDSTUK I. — Toepassingsgebied
-
-Article 1 er . La présente convention collective de travail s’applique aux travailleurs et aux employeurs des entreprises relevant de la compétence de la Commission paritaire de la coiffure et des soins de beauté.
 
 ##### Art. 1. Deze   collectieve   arbeidsovereenkomst   is   van   toepassing
 
@@ -359,19 +287,11 @@ op de werknemers en op de werkgevers van de ondernemingen die vallen onder de be
 
 Onder ″ werknemers ″ verstaat men : de arbeiders, arbeidsters en bedienden.
 
-Par ″ travailleurs ″ on entend : les ouvriers, ouvrières et employé(e)s.
-
 ### HOOFDSTUK II. — Bepalingen
-
-#### CHAPITRE II. — Dispositions
 
 ##### Art. 2. Deze   collectieve   arbeidsovereenkomst   wordt   gesloten   in
 
 uitvoering van collectieve arbeidsovereenkomst nr. 55 van de Nationale Arbeidsraad van 13 juli 1993 tot instelling van een regeling van aanvullende vergoeding voor sommige oudere werknemers in geval van halvering van de arbeidsprestaties, gewijzigd bij de collectieve arbeidsovereenkomsten nr. 55 bis van de Nationale Arbeidsraad van 7 februari 1995 en nr. 55 ter van de Nationale Arbeidsraad van 10 maart 1998 (algemeen verbindend verklaard bij koninklijk besluit van 17 november 1993, 16 maart 1995 en 26 mei 1998, verschenen in het Belgisch Staatsblad van 4 december 1993, 26 april 1995 en 17 juni 1998).
-
-##### Art. 2. La   présente   convention   collective   de   travail   est   conclue   en
-
-application de la convention collective de travail n o 55 du Conseil national du travail du 13 juillet 1993 instituant un régime d’indemnité complémentaire pour certains travailleurs âgés en cas de réduction des prestations de travail à mi-temps, modiﬁée par les conventions collectives de travail de travail n o 55 bis du Conseil national du travail du 7 février 1995 et n o 55 ter du Conseil national du travail du 10 mars 1998 (ratiﬁées par les arrêtés royaux des 17 novembre 1993, 16 mars 1995 et 26 mai 1998, parus au Moniteur belge des 4 décem- bre 1993, 26 avril 1995 et 17 juin 1998).
 
 ##### Art. 4
 
@@ -2495,89 +2415,43 @@ Gelet op de gecoördineerde wetten van 22 mei 2003 op de Rijkscomp- tabiliteit, 
 
 Gelet op de wet van 16 maart 1954 betreffende de controle op sommige instellingen van openbaar nut;
 
-Op de voordracht van de Staatssecretaris voor Asiel en Migratie, Maatschappelijke Integratie en Armoedebestrijding,
-
 Sur la proposition du Secrétaire d’Etat à l’Asile et la Migration, à l’Intégration sociale et à la Lutte contre la pauvreté,
-
-Hebben Wij besloten en besluiten Wij :
 
 Nous avons arrêté et arrêtons :
 
 Article 1 er . L’Agence fédérale pour l’accueil des demandeurs d’asile octroie les subventions suivantes aux projets pluriannuels sélectionnés sur le FER 2012 dans le cadre de l’appel à projets du FER 2012 :
 
-##### Art. 1. Het   Federaal Agentschap   voor   de   Opvang   van Asielzoe-
-
-kers kent de volgende subsidies toe aan de meerjaarlijkse projecten onder het EVF 2012 die in het kader van de project oproep onder het EVF 2012 geselecteerde werden :
-
 Nom projet Montant subside Bénéﬁciaire Naam project Bedrag subsidie Begunstigde
 
-S 104.776 Rode Kruis
-
-S 104.776 Rode Kruis Interculturele bemiddelingsdienst voor niet-begeleide minderjarigen (NBM) van Afghaanse origine
-
 Service de médiation intercultu- relle pour les mineurs d’âge afghans
-
-S 44.282,87 Universiteit Gent
-
-S 44.282,87 Université de Gand Longitudinale opvolging van het psychosociaal welzijn van niet- begeleide minderjarigen Trajecten en welzijn van niet-begeleide min- derjarigen van Afghaanse origine
 
 Etude longitudinale sur le bien- être psycho-social des mineurs non-accompagnés. Trajets et bien- être des mineurs non- accompagnés d’origine afghane
 
 Interprétariat en milieu social dans les centres d’accueil S 111.373,68 Sétis Bruxel- les Tolken in sociaal milieu in opvang- structuren S 111.373,68 Sétis Bruxel- les Accompagnement à la mise en autonomie de jeunes ﬁlles et jeu- nes mamans MENA et anciennes MENA issues prioritairement de structures d ’accueil en Brabant wallon
 
-S 97.031,96 Mentor Escale
-
-S 97.031,96 Mentor Escale Begeleiding tot zelfbestuur van jonge meisjes en moeders komende uit opvangstructuren van Waals Brabant
-
 ##### Art. 2. Les   dépenses   sont   imputables   au   budget   2013   de   l’Agence
 
 Fédérale pour l’accueil des demandeurs d’Asile à l’article budgé- taire 590.01 « Remboursement FER pour partenaires ».
-
-##### Art. 2. De   uitgaven   zijn   aanrekenbaar   op   de   2013   begroting   van   het
-
-Federaal Agentschap voor de Opvang van Asielzoekers op begrotings- artikel 590.01 « Terugbetaling partners ».
 
 ##### Art. 3. Une convention conclue entre l’Agence fédérale pour l’accueil
 
 des demandeurs d’Asile et chaque bénéﬁciaire règle les modalités et la manière dont l’utilisation, le suivi, le contrôle, les rapports et l’évalua- tion de la subvention sont justiﬁées.
 
-##### Art. 3. Een   overeenkomst   afgesloten   tussen   het   Federaal   Agent-
-
-schap voor de Opvang van Asielzoekers en elke begunstigde bepaalt de modaliteiten en de wijze waarop het gebruik, de monitoring, de controle, de rapportering en de evaluatie van de subsidie wordt verantwoord.
-
 ##### Art. 4
 
 La Secrétaire d’Etat à l’Asile et la Migration, à l’Intégration sociale et à la Lutte contre la pauvreté est chargée de l’exécution du présent arrêté.
 
-##### Art. 4. De   Staatssecretaris   voor Asiel   en   Migratie,   Maatschappelijke
-
-Integratie en Armoedebestrijding is belast met de uitvoering van dit besluit.
-
 Donné à Bruxelles, le 21 mars 2013.
-
-Gegeven te Brussel, 21 maart 2013.
-
-ALBERT
 
 ALBERT
 
 Par le Roi :
 
-Van Koningswege :
-
 La Ministre de la Justice, Mme A. TURTELBOOM
-
-De Minister van Justitie, Mevr. A. TURTELBOOM
 
 La Secrétaire d’Etat à l’Asile et la Migration, à l’Intégration sociale et à la Lutte contre la pauvreté, Mme M. DE BLOCK
 
-De Staatssecretaris voor Asiel en Migratie, Maatschappelijke Integratie en Armoedebestrijding, Mevr. M. DE BLOCK *
-
-PROGRAMMATORISCHE FEDERALE OVERHEIDSDIENST MAATSCHAPPELIJKE INTEGRATIE, ARMOEDEBESTRIJ- DING, SOCIALE ECONOMIE EN GROOTSTEDENBELEID
-
 SERVICE PUBLIC FEDERAL DE PROGRAMMATION INTEGRA- TION SOCIALE, LUTTE CONTRE LA PAUVRETE, ECONOMIE SOCIALE ET POLITIQUE DES GRANDES VILLES
-
-[C −2013/11169] 21 MAART 2013. — Koninklijk besluit tot toekenning van subsidies door het Federaal Agentschap voor de Opvang van Asielzoekers in kader van het Europese Vluchtelingen Fonds 2012
 
 [C −2013/11169] 21 MARS 2013. — Arrêté royal visant l’octroi de subventions par l’Agence fédérale au titre du Fonds européen pour les Réfugiés 2012
 
@@ -2585,35 +2459,63 @@ ALBERT II, Roi des Belges, A tous, présents et à venir, Salut. Vu la loi du 12
 
 Op de voordracht van de Staatssecretaris voor Asiel en Migratie, Maatschappelijke Integratie en Armoedebestrijding,
 
-Sur la proposition du Secrétaire d’Etat à l’Asile et la Migration, à l’Intégration sociale et à la Lutte contre la pauvreté,
-
 Hebben Wij besloten en besluiten Wij :
+
+##### Art. 1. Het   Federaal Agentschap   voor   de   Opvang   van Asielzoe-
+
+kers kent de volgende subsidies toe aan de meerjaarlijkse projecten onder het EVF 2012 die in het kader van de project oproep onder het EVF 2012 geselecteerde werden :
+
+S 104.776 Rode Kruis
+
+S 104.776 Rode Kruis Interculturele bemiddelingsdienst voor niet-begeleide minderjarigen (NBM) van Afghaanse origine
+
+S 44.282,87 Universiteit Gent
+
+S 44.282,87 Université de Gand Longitudinale opvolging van het psychosociaal welzijn van niet- begeleide minderjarigen Trajecten en welzijn van niet-begeleide min- derjarigen van Afghaanse origine
+
+S 97.031,96 Mentor Escale
+
+S 97.031,96 Mentor Escale Begeleiding tot zelfbestuur van jonge meisjes en moeders komende uit opvangstructuren van Waals Brabant
+
+##### Art. 2. De   uitgaven   zijn   aanrekenbaar   op   de   2013   begroting   van   het
+
+Federaal Agentschap voor de Opvang van Asielzoekers op begrotings- artikel 590.01 « Terugbetaling partners ».
+
+##### Art. 3. Een   overeenkomst   afgesloten   tussen   het   Federaal   Agent-
+
+schap voor de Opvang van Asielzoekers en elke begunstigde bepaalt de modaliteiten en de wijze waarop het gebruik, de monitoring, de controle, de rapportering en de evaluatie van de subsidie wordt verantwoord.
+
+##### Art. 4. De   Staatssecretaris   voor Asiel   en   Migratie,   Maatschappelijke
+
+Integratie en Armoedebestrijding is belast met de uitvoering van dit besluit.
+
+Gegeven te Brussel, 21 maart 2013.
+
+ALBERT
+
+Van Koningswege :
+
+De Minister van Justitie, Mevr. A. TURTELBOOM
+
+De Staatssecretaris voor Asiel en Migratie, Maatschappelijke Integratie en Armoedebestrijding, Mevr. M. DE BLOCK *
+
+PROGRAMMATORISCHE FEDERALE OVERHEIDSDIENST MAATSCHAPPELIJKE INTEGRATIE, ARMOEDEBESTRIJ- DING, SOCIALE ECONOMIE EN GROOTSTEDENBELEID
+
+[C −2013/11169] 21 MAART 2013. — Koninklijk besluit tot toekenning van subsidies door het Federaal Agentschap voor de Opvang van Asielzoekers in kader van het Europese Vluchtelingen Fonds 2012
+
+Sur la proposition du Secrétaire d’Etat à l’Asile et la Migration, à l’Intégration sociale et à la Lutte contre la pauvreté,
 
 Nous avons arrêté et arrêtons :
 
 Article 1 er . L’Agence Fédérale pour l’accueil des demandeurs d’asile octroie les subventions suivantes aux projets pluriannuels sélectionnés sur le FER 2012 dans le cadre de l’appel à projets du FER 2011 :
 
-##### Art. 1. Het   Federaal Agentschap   voor   de   Opvang   van Asielzoe-
-
-kers kent de volgende subsidies toe aan de meerjaarlijkse projecten onder het EVF 2012 die in het kader van de project oproep onder het EVF 2011 geselecteerde werden :
-
 Nom projet Montant subside Bénéﬁciaire Naam project Bedrag subsidie Begunstigde
 
 Dispositif travail, équivalence et formation S 21.400,00 CIRE Project werk, diploma- gelijkschakeling en opleiding S 21.400,00 CIRE
 
-S 378.230,75 Convivium
-
-S 378.230,75 Convivium Begeleiding van vluchtelingen in hun duurzaam vestigingsproces in België
-
 Accompagnement global des réfu- giés dans leur processus d’installation durable en Belgique
 
-S 25.411,89 Convivium
-
 Guidance des réfugiés vers l’insertion professionnelle S 25.411,89 Convivium Begeleiding van vluchtelingen naar socioprofessionele inschake- ling
-
-S 86.685,81 Espace28
-
-S 86.685,81 Espace28 Sociale en etnopsychologische begeleiding van asielzoekers en vluchtelingen
 
 Accompagnement social et eth- nopsycologique des demandeurs d’asile
 
@@ -2621,13 +2523,7 @@ Maxi déﬁ, micro réussites! S 157.002,57 Form Anim Maxi uitdaging, micro resu
 
 Mise en œuvre du droit com- munautaire de l’asile en Belgique S 132.921,17 UCL Omzetting van de Europese asiel- wetgeving naar Belgisch recht S 132.921,17 UCL
 
-S 107.857,33 UVCW Reeks opleidingen over de bege- leiding en het bevorderen van de zelfstandigheid van niet-begeleide buitenlandse minderjarigen
-
-S 107.857,33 UVCW
-
 Séminaire de formations visant l’accompagnement des Mineurs étrangers non accompagnés et leur mise en autonomie
-
-S 125.165,25 Rotes Kreuz Asiel in de Duitstalige Gemeen- schap : Integratiemaatregelen S 125.165,25 Rotes Kreuz
 
 Asile en Communauté germanop- hone : Intégration des démarches pour l’intégration des personnes
 
@@ -2635,53 +2531,77 @@ Travail de renforcement de fem- mes demandeuses d’asile S 65.162,00 Nederlands
 
 Empowerend werken met vrou- welijke asielzoekers S 65.162,00 Nederlandsta- lige vrouwen- raad Accompagnement intégral des mineurs d’âge non accompagnés ou accompagnés
 
-S 714.656,75 CPAS Anvers Integrale begeleiding aan Niet- begeleide Minderjarige Asielzoe- kers en integrale begeleiding aan begeleide minderjarigen
-
-S 714.656,75 O.C.M.W. Antwerpen
-
 La gare de triage S 45.133,06 CPAS Destel- bergen Het tussenstation S 45.133,06 O.C.M.W. Destelbergen Mind-Spring Vlaanderen S 97.405,04 ODICE Mind-Spring Vlaanderen S 97.405,04 ODICE La construction de compétences dans l’analyse des récits de fuite permet un accompagnement ren- forcé de la procédure
-
-S 196.347,84 Vluchtelin- genwerk VL Capaciteitsopbouw in vluchtver- haalanalyse leidt tot versterkte procedurebegeleiding
-
-S 196.347,84 Vluchtelin- genwerk VL
 
 ##### Art. 2. Les   dépenses   sont   imputables   au   budget   2013   de   l’Agence
 
 fédérale pour l’accueil des demandeurs d’Asile à l’article budgé- taire 590.01 « Remboursement FER pour partenaires ».
 
-##### Art. 2. De   uitgaven   zijn   aanrekenbaar   op   de   2013   begroting   van   het
-
-Federaal Agentschap voor de opvang van Asielzoekers op begrotings- artikel 590.01 « Terugbetaling partners ».
-
 ##### Art. 3. Une convention conclue entre l’Agence Fédérale pour l’accueil
 
 des demandeurs d’Asile et chaque bénéﬁciaire règle les modalités et la manière dont l’utilisation, le suivi, le contrôle, les rapports et l’évalua- tion de la subvention sont justiﬁées.
-
-##### Art. 3. Een   overeenkomst   afgesloten   tussen   het   Federaal   Agent-
-
-schap voor de Opvang van Asielzoekers en elke begunstigde bepaalt de modaliteiten en de wijze waarop het gebruik, de monitoring, de controle, de rapportering en de evaluatie van de subsidie wordt verantwoord.
 
 ##### Art. 4
 
 La Secrétaire d’Etat à l’Asile et la Migration, à l’Intégration sociale et à la Lutte contre la pauvreté est chargée de l’exécution du présent arrêté.
 
-##### Art. 4. De   Staatssecretaris   voor Asiel   en   Migratie,   Maatschappelijke
-
-Integratie en Armoedebestrijding is belast met de uitvoering van dit besluit.
-
 Donné à Bruxelles, le 21 mars 2013.
-
-Gegeven te Brussel, 21 maart 2013.
-
-ALBERT
 
 ALBERT
 
 Par le Roi :
 
-Van Koningswege :
-
 La Ministre de la Justice, Mme A. TURTELBOOM
+
+Op de voordracht van de Staatssecretaris voor Asiel en Migratie, Maatschappelijke Integratie en Armoedebestrijding,
+
+Hebben Wij besloten en besluiten Wij :
+
+##### Art. 1. Het   Federaal Agentschap   voor   de   Opvang   van Asielzoe-
+
+kers kent de volgende subsidies toe aan de meerjaarlijkse projecten onder het EVF 2012 die in het kader van de project oproep onder het EVF 2011 geselecteerde werden :
+
+S 378.230,75 Convivium
+
+S 378.230,75 Convivium Begeleiding van vluchtelingen in hun duurzaam vestigingsproces in België
+
+S 25.411,89 Convivium
+
+S 86.685,81 Espace28
+
+S 86.685,81 Espace28 Sociale en etnopsychologische begeleiding van asielzoekers en vluchtelingen
+
+S 107.857,33 UVCW Reeks opleidingen over de bege- leiding en het bevorderen van de zelfstandigheid van niet-begeleide buitenlandse minderjarigen
+
+S 107.857,33 UVCW
+
+S 125.165,25 Rotes Kreuz Asiel in de Duitstalige Gemeen- schap : Integratiemaatregelen S 125.165,25 Rotes Kreuz
+
+S 714.656,75 CPAS Anvers Integrale begeleiding aan Niet- begeleide Minderjarige Asielzoe- kers en integrale begeleiding aan begeleide minderjarigen
+
+S 714.656,75 O.C.M.W. Antwerpen
+
+S 196.347,84 Vluchtelin- genwerk VL Capaciteitsopbouw in vluchtver- haalanalyse leidt tot versterkte procedurebegeleiding
+
+S 196.347,84 Vluchtelin- genwerk VL
+
+##### Art. 2. De   uitgaven   zijn   aanrekenbaar   op   de   2013   begroting   van   het
+
+Federaal Agentschap voor de opvang van Asielzoekers op begrotings- artikel 590.01 « Terugbetaling partners ».
+
+##### Art. 3. Een   overeenkomst   afgesloten   tussen   het   Federaal   Agent-
+
+schap voor de Opvang van Asielzoekers en elke begunstigde bepaalt de modaliteiten en de wijze waarop het gebruik, de monitoring, de controle, de rapportering en de evaluatie van de subsidie wordt verantwoord.
+
+##### Art. 4. De   Staatssecretaris   voor Asiel   en   Migratie,   Maatschappelijke
+
+Integratie en Armoedebestrijding is belast met de uitvoering van dit besluit.
+
+Gegeven te Brussel, 21 maart 2013.
+
+ALBERT
+
+Van Koningswege :
 
 De Minister van Justitie, Mevr. A. TURTELBOOM
 
@@ -3715,12 +3635,6 @@ Annexe 3 Proﬁl requis de l’inspecteur scolaire
 
 Exigences Manifestation
 
-Non constamment
-
-Observable Observable
-
-1 2 3 4 5
-
 Compétences médiatiques ✖
 
 Gestion de projets ✖
@@ -3749,19 +3663,9 @@ Non observable Peu/rarement observable Souvent observable Très souvent observab
 
 Vu pour être annexé à l’arrêté du Gouvernement 3402/EX/VII/B/II du 14 mars 2013. Eupen, le 14 mars 2013. Pour le Gouvernement de la Communauté germanophone,
 
-Le Ministre-Président, Ministre des Pouvoirs locaux, K.-H. LAMBERTZ
-
-Le Ministre de l’Enseignement, de la Formation et de l’Emploi, O. PAASCH
-
 Annexe 4 Proﬁl requis du conseiller en développement scolaire
 
 Exigences Manifestation
-
-Non constamment
-
-Observable Observable
-
-1 2 3 4 5
 
 Compétences médiatiques ✖
 
@@ -3782,6 +3686,22 @@ Aptitude à la communication ✖
 Aptitude à l’animation ✖
 
 Assurance ✖
+
+Non constamment
+
+Observable Observable
+
+1 2 3 4 5
+
+Le Ministre-Président, Ministre des Pouvoirs locaux, K.-H. LAMBERTZ
+
+Le Ministre de l’Enseignement, de la Formation et de l’Emploi, O. PAASCH
+
+Non constamment
+
+Observable Observable
+
+1 2 3 4 5
 
 1 2 3 4 5
 
@@ -3883,12 +3803,6 @@ Bijlage 2 Evaluatierooster
 
 Vereisten Waarneembaarheid
 
-Niet doorlopend
-
-Waarneembaar Waarneembaar
-
-1 2 3 4 5
-
 Mediacompetentie
 
 Projectmanagement
@@ -3917,19 +3831,9 @@ Niet waarneembaar Nauwelijks/zelden waarneembaar Vaak waarneembaar Zeer vaak waa
 
 Gezien om bij het besluit van de Regering 3402/EX/VII/B/II van 14 maart 2013 gevoegd te worden. Eupen, 14 maart 2013. Voor de Regering van de Duitstalige Gemeenschap,
 
-De Minister-President, Minister van Lokale Besturen, K.-H. LAMBERTZ
-
-De Minister van Onderwijs, Opleiding en Werkgelegenheid, O. PAASCH
-
 Bijlage 3 Proﬁel vereist van de onderwijsinspecteur
 
 Vereisten Waarneembaarheid
-
-Niet doorlopend
-
-Waarneembaar Waarneembaar
-
-1 2 3 4 5
 
 Mediacompetentie ✖
 
@@ -3944,6 +3848,22 @@ Bereidheid om te leren, ﬂexibiliteit, openheid ✖
 Belastbaarheid ✖
 
 Doelstellingen nastreven, beslissingen nemen en organiseren ✖
+
+Niet doorlopend
+
+Waarneembaar Waarneembaar
+
+1 2 3 4 5
+
+De Minister-President, Minister van Lokale Besturen, K.-H. LAMBERTZ
+
+De Minister van Onderwijs, Opleiding en Werkgelegenheid, O. PAASCH
+
+Niet doorlopend
+
+Waarneembaar Waarneembaar
+
+1 2 3 4 5
 
 Vermogen om gesprekken te leiden ✖
 
@@ -4013,93 +3933,93 @@ K.-H. LAMBERTZ
 
 SERVICE PUBLIC FEDERAL CHANCELLERIE DU PREMIER MINISTRE
 
-FEDERALE OVERHEIDSDIENST KANSELARIJ VAN DE EERSTE MINISTER
-
 [2013/201940] 22 MARS 2013. — Arrêté royal modiﬁant l’arrêté royal du 4 mai 2012 portant désignation de membres du Comité de gestion du Centre de presse international
-
-[2013/201940] 22 MAART 2013. — Koninklijk besluit tot wijziging van het koninklijk besluit van 4 mei 2012 tot aanduiding van leden van het Beheerscomité van het Internationaal Perscentrum
 
 ALBERT II, Roi des Belges, A tous, présents et à venir, Salut. Vu la loi-programme pour l’année budgétaire 2001 du 19 juillet 2001, l’article 51;
 
-ALBERT II, Koning der Belgen, Aan allen die nu zijn en hierna wezen zullen, Onze Groet. Gelet op de programmawet voor het begrotingsjaar 2001 van 19 juli 2001, artikel 51;
-
 Vu l’arrêté royal du 7 janvier 2002 relatif à la composition et à la compétence des organes, et à la gestion ﬁnancière du Centre de presse international en tant que Service de l’Etat à gestion séparée, les arti- cles 3, § 1 er , alinéa 1 er , 6 o , et alinéa 2, et 4, § 1 er et § 3;
-
-Gelet op het koninklijk besluit van 7 januari 2002 betreffende de samenstelling en de bevoegdheid van de organen, en het ﬁnancieel beheer van het Internationaal Perscentrum als Staatsdienst met afzon- derlijk beheer, de artikelen 3, § 1, eerste lid, 6 o , en tweede lid, en 4, § 1 en § 3;
 
 Vu l’arrêté royal du 4 mai 2012 portant désignation de membres du Comité de gestion du Centre de presse international;
 
-Gelet op het koninklijk besluit van 4 mei 2012 tot aanduiding van leden van het Beheerscomité van het Internationaal Perscentrum;
-
 Sur la proposition du Premier Ministre,
-
-Op de voordracht van de Eerste Minister,
 
 Nous avons arrêté et arrêtons :
 
-Hebben Wij besloten en besluiten Wij :
-
 Article 1 er . Dans l’article 1 er de l’arrêté royal du 4 mai 2012 portant désignation de membres du comité de gestion du Centre de presse international, le 2 o est remplacé par ce qui suit :
-
-##### Art. 1
-
-In artikel 1 van het koninklijk besluit van 4 mei 2012 tot aanduiding van leden van het Beheerscomité van het Internationaal Perscentrum, wordt de bepaling onder 2 o vervangen als volgt :
 
 « 2 o comme représentant du Vice-Premier Ministre et Ministre de la Défense :
 
-« 2 o als vertegenwoordiger van de Vice-Eerste Minister en Minister van Landsverdediging :
-
 M. K. VERWILLIGEN; ».
-
-de heer K. VERWILLIGEN; ».
 
 ##### Art. 2. Dans l’article 2 du même arrêté, modiﬁé par l’arrêté royal du
 
 5 novembre 2012, le 2 o est remplacé par ce qui suit :
 
-##### Art. 2. In artikel 2 van hetzelfde besluit, gewijzigd bij het koninklijk
-
-besluit van 5 november 2012, wordt de bepaling onder 2 o vervangen als volgt :
-
 « 2 o comme représentant du Vice-Premier Ministre et Ministre de la Défense :
 
-« 2 o als vertegenwoordiger van de Vice-Eerste Minister en Minister van Landsverdediging :
-
 M. D. DEWEERDT; ».
-
-de heer D. DEWEERDT; ».
 
 ##### Art. 3. Le   Premier   Ministre   est   chargé   de   l’exécution   du   présent
 
 arrêté.
 
-##### Art. 3
-
-De Eerste Minister is belast met de uitvoering van dit besluit.
-
 Donné à Bruxelles, le 22 mars 2013.
-
-Gegeven te Brussel, 22 maart 2013.
-
-ALBERT
 
 ALBERT
 
 Par le Roi :
 
-Van Koningswege :
-
 Le Premier Ministre, E. DI RUPO
+
+SERVICE PUBLIC FEDERAL INTERIEUR
+
+[C −2013/00200] Inspection générale de la police fédérale et de la police locale. — Nomination
+
+FEDERALE OVERHEIDSDIENST KANSELARIJ VAN DE EERSTE MINISTER
+
+[2013/201940] 22 MAART 2013. — Koninklijk besluit tot wijziging van het koninklijk besluit van 4 mei 2012 tot aanduiding van leden van het Beheerscomité van het Internationaal Perscentrum
+
+ALBERT II, Koning der Belgen, Aan allen die nu zijn en hierna wezen zullen, Onze Groet. Gelet op de programmawet voor het begrotingsjaar 2001 van 19 juli 2001, artikel 51;
+
+Gelet op het koninklijk besluit van 7 januari 2002 betreffende de samenstelling en de bevoegdheid van de organen, en het ﬁnancieel beheer van het Internationaal Perscentrum als Staatsdienst met afzon- derlijk beheer, de artikelen 3, § 1, eerste lid, 6 o , en tweede lid, en 4, § 1 en § 3;
+
+Gelet op het koninklijk besluit van 4 mei 2012 tot aanduiding van leden van het Beheerscomité van het Internationaal Perscentrum;
+
+Op de voordracht van de Eerste Minister,
+
+Hebben Wij besloten en besluiten Wij :
+
+##### Art. 1
+
+In artikel 1 van het koninklijk besluit van 4 mei 2012 tot aanduiding van leden van het Beheerscomité van het Internationaal Perscentrum, wordt de bepaling onder 2 o vervangen als volgt :
+
+« 2 o als vertegenwoordiger van de Vice-Eerste Minister en Minister van Landsverdediging :
+
+de heer K. VERWILLIGEN; ».
+
+##### Art. 2. In artikel 2 van hetzelfde besluit, gewijzigd bij het koninklijk
+
+besluit van 5 november 2012, wordt de bepaling onder 2 o vervangen als volgt :
+
+« 2 o als vertegenwoordiger van de Vice-Eerste Minister en Minister van Landsverdediging :
+
+de heer D. DEWEERDT; ».
+
+##### Art. 3
+
+De Eerste Minister is belast met de uitvoering van dit besluit.
+
+Gegeven te Brussel, 22 maart 2013.
+
+ALBERT
+
+Van Koningswege :
 
 De Eerste Minister, E. DI RUPO *
 
 FEDERALE OVERHEIDSDIENST BINNENLANDSE ZAKEN
 
-SERVICE PUBLIC FEDERAL INTERIEUR
-
 [C −2013/00200] Algemene Inspectie van de federale politie en van de lokale politie. — Benoeming
-
-[C −2013/00200] Inspection générale de la police fédérale et de la police locale. — Nomination
 
 SERVICE PUBLIC FEDERAL SECURITE SOCIALE
 
@@ -4179,71 +4099,71 @@ FEDERALE OVERHEIDSDIENST JUSTITIE
 
 Bij koninklijke besluiten van 17 maart 2013 : — zijn in het eerste artikel van het koninklijk besluit van 9 januari 2013 waarbij de heer Haelterman, J., toegevoegd rechter voor het rechts- gebied van het hof van beroep te Gent, aangewezen is om zijn ambt uit te oefenen in alle rechtbanken van eerste aanleg van het hof van beroep te Gent, voor een periode van vijf jaar met ingang van 10 april 2013, de woorden ″ eerste aanleg ″ vervangen door het woord ″ koophandel ″ ; — is de heer Gruyters, K., rechter in de rechtbank van eerste aanleg te Hasselt, aangewezen tot de functie van onderzoeksrechter in deze rechtbank voor een termijn van één jaar met ingang van 1 april 2013; — is de heer Kerkhofs, S., rechter in de rechtbank van eerste aanleg te Luik, aangewezen tot de functie van onderzoeksrechter in deze rechtbank voor een termijn van één jaar met ingang van 1 april 2013; — is de heer Versteylen, L., rechter in de rechtbank van eerste aanleg te Antwerpen, aangewezen tot de functie van jeugdrechter in deze rechtbank voor een termijn van één jaar met ingang van 1 april 2013. — is de aanwijzing van de heer Vandaele, Ph., rechter in de rechtbank van eerste aanleg te Antwerpen, tot de functie van jeugdrechter in deze rechtbank, hernieuwd voor een termijn van twee jaar met ingang van 1 april 2013; — zijn de Mevrn. Deprez, I. en Leroy, B., substituut-procureurs des Konings bij de rechtbank van eerste aanleg te Hoei, vast aangewezen tot eerste substituut-procureur des Konings bij deze rechtbank op datum van 30 maart 2013.
 
-Het beroep tot nietigverklaring van de voormelde akten met individuele strekking kan voor de afdeling bestuursrechtspraak van de Raad van State worden gebracht binnen zestig dagen na deze bekendmaking. Het verzoekschrift dient bij ter post aangetekende brief aan de Raad van State (adres : Wetenschapsstraat 33, 1040 Brussel), te worden toegezonden. *
-
 Le recours en annulation des actes précités à portée individuelle peut être soumis à la section du contentieux administratif du Conseil d’Etat endéans les soixante jours après cette publication. La requête doit être envoyée au Conseil d’Etat (adresse : rue de la Science 33, 1040 Bruxelles), sous pli recommandé à la poste.
 
-FEDERALE OVERHEIDSDIENST JUSTITIE
-
 SERVICE PUBLIC FEDERAL JUSTICE
-
-[2013/202016] Rechterlijke Orde. — Nationale Orden
 
 [2013/202016] Ordre judiciaire. — Ordres nationaux
 
-Bij koninklijk besluit van 11 maart 2013 is de heer Vandenbussche, W., eresubstituut-procureur des Konings bij de rechtbank van eerste aanleg te Veurne, benoemd tot Officier in de Kroonorde. *
-
 Par arrêté royal du 11 mars 2013, M. Vandenbussche, W., substitut du procureur du Roi honoraire près le tribunal de première instance de Furnes, est nommé Officier de l’Ordre de la Couronne.
-
-FEDERALE OVERHEIDSDIENST JUSTITIE
 
 SERVICE PUBLIC FEDERAL JUSTICE
 
-[2013/202017] Notariaat
-
 [2013/202017] Notariat
-
-Bij ministerieel besluit van 21 maart 2013 is er een einde gesteld aan de hoedanigheid als geassocieerd notaris ter standplaats Kortrijk (grondgebied van het tweede kanton) van Mevr. De Waele, H., op datum van 30 oktober 2012. De associatie ″ Liesbet Degroote-Hélène De Waele-Dirk Vanhaesebrouck ″ is omgevormd naar de associatie ″ Liesbet Degroote-Dirk Vanhaesebrouck ″ , op datum van 1 november 2012. Het beroep tot nietigverklaring van de voormelde akten met individuele strekking kan voor de afdeling bestuursrechtspraak van de Raad van State worden gebracht binnen zestig dagen na deze bekendmaking. Het verzoekschrift dient bij ter post aangetekende brief aan de Raad van State (adres : Wetenschapsstraat 33, 1040 Brussel), te worden toegezonden. *
 
 Par arrêté ministériel du 21 mars 2013, il est mis ﬁn, à la date du 30 octobre 2012, à la qualité de notaire associé à la résidence de Courtrai (territoire du second canton) de Mme De Waele, H.
 
 L’association ″ Liesbet Degroote-Hélène De Waele-Dirk Vanhaesebrouck ″ est transformée en l’association ″ Liesbet Degroote-Dirk Vanhaesebrouck ″ , à la date du 1 er novembre 2012. Le recours en annulation des actes précités à portée individuelle peut être soumis à la section du contentieux administratif du Conseil d’Etat endéans les soixante jours après cette publication. La requête doit être envoyée au Conseil d’Etat (adresse : rue de la Science 33, 1040 Bruxelles), sous pli recommandé à la poste.
 
-GRONDWETTELIJK HOF [C −2013/21023] Nationale Orden
-
 COUR CONSTITUTIONNELLE [C −2013/21023] Ordres nationaux
-
-Bij koninklijke besluiten van 6 juni 2012, 5 juli 2012, 7 januari 2013 en 17 januari 2013, werden de volgende eervolle onderscheidingen verleend aan de hierna vermelde rechters, referendaris, griffiers en leden van het administratief personeel van het Grondwettelijk Hof :
 
 Par arrêtés royaux des 6 juin 2012, 5 juillet 2012, 7 janvier 2013 et 17 janvier 2013, les distinctions honoriﬁques suivantes ont été décer- nées aux juges, référendaire, greffiers et membres du personnel administratif de la Cour constitutionnelle ci-après désignés :
 
 Ordre de Léopold
 
-Leopoldsorde
-
 Commandeur M. Jan Vanhumbeeck, conseiller (15 novembre 2012, comme titulaire de cette nouvelle distinction).
-
-Commandeur De heer Jan Vanhumbeeck, adviseur (15 november 2012, als houder van deze nieuwe onderscheiding).
 
 Chevalier M. Xavier Leman, premier attaché (8 avril 2012). Ils porteront la décoration civile.
 
-Ridder De heer Xavier Leman, eerste attaché (8 april 2012). Zij zullen het burgerlijk ereteken dragen.
-
 Ordre de la Couronne
-
-Kroonorde
 
 Commandeur Mme Christine Horevoets, référendaire (15 novembre 2012).
 
-Commandeur Mevr. Christine Horevoets, referendaris (15 november 2012).
-
 Chevalier M. Marc Evrard, premier expert ICT (8 avril 2012); Mme Christine Masy, premier expert administratif (8 avril 2012); Mme Patricia Van Asbroeck, premier expert administratif (8 avril 2012);
-
-Ridder De heer Marc Evrard, eerste ICT deskundige (8 april 2012); Mevr. Christine Masy, eerste administratief deskundige (8 april 2012); Mevr. Patricia Van Asbroeck, eerste administratief deskundige (8 april 2012); De heer Frank Gowie, eerste documentair deskundige (15 novem- ber 2012).
 
 M. Frank Gowie, premier expert documentaire (15 novembre 2012).
 
 Ordre de Léopold II
+
+Het beroep tot nietigverklaring van de voormelde akten met individuele strekking kan voor de afdeling bestuursrechtspraak van de Raad van State worden gebracht binnen zestig dagen na deze bekendmaking. Het verzoekschrift dient bij ter post aangetekende brief aan de Raad van State (adres : Wetenschapsstraat 33, 1040 Brussel), te worden toegezonden. *
+
+FEDERALE OVERHEIDSDIENST JUSTITIE
+
+[2013/202016] Rechterlijke Orde. — Nationale Orden
+
+Bij koninklijk besluit van 11 maart 2013 is de heer Vandenbussche, W., eresubstituut-procureur des Konings bij de rechtbank van eerste aanleg te Veurne, benoemd tot Officier in de Kroonorde. *
+
+FEDERALE OVERHEIDSDIENST JUSTITIE
+
+[2013/202017] Notariaat
+
+Bij ministerieel besluit van 21 maart 2013 is er een einde gesteld aan de hoedanigheid als geassocieerd notaris ter standplaats Kortrijk (grondgebied van het tweede kanton) van Mevr. De Waele, H., op datum van 30 oktober 2012. De associatie ″ Liesbet Degroote-Hélène De Waele-Dirk Vanhaesebrouck ″ is omgevormd naar de associatie ″ Liesbet Degroote-Dirk Vanhaesebrouck ″ , op datum van 1 november 2012. Het beroep tot nietigverklaring van de voormelde akten met individuele strekking kan voor de afdeling bestuursrechtspraak van de Raad van State worden gebracht binnen zestig dagen na deze bekendmaking. Het verzoekschrift dient bij ter post aangetekende brief aan de Raad van State (adres : Wetenschapsstraat 33, 1040 Brussel), te worden toegezonden. *
+
+GRONDWETTELIJK HOF [C −2013/21023] Nationale Orden
+
+Bij koninklijke besluiten van 6 juni 2012, 5 juli 2012, 7 januari 2013 en 17 januari 2013, werden de volgende eervolle onderscheidingen verleend aan de hierna vermelde rechters, referendaris, griffiers en leden van het administratief personeel van het Grondwettelijk Hof :
+
+Leopoldsorde
+
+Commandeur De heer Jan Vanhumbeeck, adviseur (15 november 2012, als houder van deze nieuwe onderscheiding).
+
+Ridder De heer Xavier Leman, eerste attaché (8 april 2012). Zij zullen het burgerlijk ereteken dragen.
+
+Kroonorde
+
+Commandeur Mevr. Christine Horevoets, referendaris (15 november 2012).
+
+Ridder De heer Marc Evrard, eerste ICT deskundige (8 april 2012); Mevr. Christine Masy, eerste administratief deskundige (8 april 2012); Mevr. Patricia Van Asbroeck, eerste administratief deskundige (8 april 2012); De heer Frank Gowie, eerste documentair deskundige (15 novem- ber 2012).
 
 Orde van Leopold II
 
@@ -5139,6 +5059,8 @@ Les déchets visés respectent les caractéristiques suivantes :
 
 Nature des déchets : Résidu sec, contenant des chlorures et des métaux, provenant du séchage de l’acier galvanisé Code * : 110504 Quantité maximum prévue : 30 tonnes Validité de l’autorisation : 01/01/2013 au 31/12/2013 Notiﬁant : NEDCOAT ALBLASSERDAM NL-2952 AD ALBLASSERDAM Centre de traitement : REVATECH 4480 ENGIS
 
+SERVICE PUBLIC DE WALLONIE
+
 [2013/201849] Direction générale opérationnelle Agriculture, Ressources naturelles et Environnement. — Office wallon des déchets. — Direction de la Politique des déchets. — Autorisation de transferts transfrontaliers de déchets NL 212446
 
 L’autorité compétente wallonne en matière de transferts transfrontaliers de déchets,
@@ -5157,23 +5079,9 @@ Namur, le 18 décembre 2012.
 
 REGION DE BRUXELLES-CAPITALE — BRUSSELS HOOFDSTEDELIJK GEWEST
 
-REGION DE BRUXELLES-CAPITALE
-
-15 MARS 2013. — Arrêté du Gouvernement de la Région de Bruxelles-Capitale modiﬁant l’arrêté du Gouvernement de la Région de Bruxelles-Capitale du 8 mai 2008 désignant les membres de la Commission régionale pour l’accès aux documents adminis- tratifs de la Région de Bruxelles-Capitale
-
-Le Gouvernement de la Région de Bruxelles-Capitale,
-
-Vu l’arrêté du Gouvernement de la Région de Bruxelles-Capitale du 26 septembre 1996 réglant la composition et le fonctionnement de la Commission régionale pour l’accès aux documents administratifs, modiﬁé par les arrêtés du Gouvernement de la Région de Bruxelles- Capitale des 19 mars 1998 et 3 octobre 2002, notamment l’article 3;
-
-Vu l’arrêté du Gouvernement de la Région de Bruxelles-Capitale du 8 mai 2008 désignant les membres de la Commission régionale pour l’accès aux documents administratifs de la Région de Bruxelles- Capitale, notamment l’article 1 er , 3.a); modiﬁé par l’arrêté du Gouver- nement de la Région de Bruxelles-Capitale du 28 avril 2011;
-
-Sur la proposition du ministre chargé de la Fonction publique,
-
-Arrête :
-
-SERVICE PUBLIC DE WALLONIE
-
 BRUSSELS HOOFDSTEDELIJK GEWEST
+
+REGION DE BRUXELLES-CAPITALE
 
 [C −2013/31186]
 
@@ -5181,13 +5089,25 @@ BRUSSELS HOOFDSTEDELIJK GEWEST
 
 15 MAART 2013. — Besluit van de Brusselse Hoofdstedelijke Regering tot wijziging van het besluit van de Brusselse Hoofdste- delijke Regering van 8 mei 2008 tot aanwijzing van de leden van de Gewestelijke Commissie voor de toegang tot de bestuursdocumen- ten van het Brussels Hoofdstedelijk Gewest
 
+15 MARS 2013. — Arrêté du Gouvernement de la Région de Bruxelles-Capitale modiﬁant l’arrêté du Gouvernement de la Région de Bruxelles-Capitale du 8 mai 2008 désignant les membres de la Commission régionale pour l’accès aux documents adminis- tratifs de la Région de Bruxelles-Capitale
+
 De Brusselse Hoofdstedelijke Regering,
+
+Le Gouvernement de la Région de Bruxelles-Capitale,
 
 Gelet op het besluit van de Brusselse Hoofdstedelijke Regering van 26 september 1996 tot regeling van de samenstelling en de werkwijze van de Gewestelijke Commissie voor de toegang tot de bestuursdocu- menten, gewijzigd door de besluiten van de Brusselse Hoofdstedelijke Regering van 19 maart 1998 en 3 oktober 2002, inzonderheid het artikel 3;
 
+Vu l’arrêté du Gouvernement de la Région de Bruxelles-Capitale du 26 septembre 1996 réglant la composition et le fonctionnement de la Commission régionale pour l’accès aux documents administratifs, modiﬁé par les arrêtés du Gouvernement de la Région de Bruxelles- Capitale des 19 mars 1998 et 3 octobre 2002, notamment l’article 3;
+
 Gelet op het besluit van de Brusselse Hoofdstedelijke Regering van 8 mei 2008 tot aanwijzing van de leden van de Gewestelijke Commissie voor de toegang tot de bestuursdocumenten van het Brussels Hoofd- stedelijk Gewest, inzonderheid het artikel 1, 3. a); gewijzigd door het Besluit van de Brusselse Hoofdstedelijke Regering van 28 april 2011;
 
+Vu l’arrêté du Gouvernement de la Région de Bruxelles-Capitale du 8 mai 2008 désignant les membres de la Commission régionale pour l’accès aux documents administratifs de la Région de Bruxelles- Capitale, notamment l’article 1 er , 3.a); modiﬁé par l’arrêté du Gouver- nement de la Région de Bruxelles-Capitale du 28 avril 2011;
+
+Sur la proposition du ministre chargé de la Fonction publique,
+
 Op voordracht van de Minister van Openbaar Ambt,
+
+Arrête :
 
 Besluit :
 

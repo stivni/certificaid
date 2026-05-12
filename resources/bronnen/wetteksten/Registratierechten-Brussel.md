@@ -1,91 +1,46 @@
 ---
-bijgewerkt: 16.03.2026
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
+tags: ["VIII", "2.6"]
+itaa-lex-sectie: "VIII"
+wet: "Wetboek der Registratie-, Hypotheek- en Griffierechten — Brussels Hoofdstedelijk Gewest"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "16.03.2026"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 6
-  sub_strategy: null
-  type: Art.
-itaa-lex-sectie: VIII
+  type: "Art."
+  sub_strategy:
 provenance:
-  generated_at: '2026-05-11T16:34:21Z'
   inputs:
-  - id: resources/raw/wetteksten/Registratierechten-Brussel.pdf
-    sha256: a5a42fdb62118bd14b1ff76a771cced7b25a5b4d9859eae758e7361286b4eb68
-    version: 16.03.2026
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/Registratierechten-Brussel.pdf
+      sha256: a5a42fdb62118bd14b1ff76a771cced7b25a5b4d9859eae758e7361286b4eb68
+      version: 16.03.2026
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version: null
+    pipeline_version: 8add68e
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T19:13:52Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T16:30:31Z'
-    confirmed_by: subagent-sonnet-4-6
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 543758
-      flags:
-      - detail: 'langste sectie op ######-niveau: 58083 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
-      - detail: 72 TOC-stippen-regel(s) gevonden
-        name: no_toc_dots
-        samples:
-        - '................................................................................'
-        - '...............................................................................6'
-        - '................................................................................'
-        status: warn
-      heading_count: 604
-      max_section_chars: 58083
-      run_at: '2026-05-11T13:40:46Z'
-      run_id: 20260511-134044
       status: warn
+      run_id: 20260512-191352
+      run_at: '2026-05-12T19:13:52Z'
+      heading_count: 534
+      max_section_chars: 58101
+      file_size_chars: 529243
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ######-niveau: 58101 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-      - categorie: A3
-        regel: 69
-        type: other
-        voorbeeld: 'Wetgeving van toepassing in het BRUSSELSE HOOFDSTEDELIJK GEWEST
-
-
-          Wetgeving van toepassing in het BRUSSELSE HOOFDSTEDELIJK GEWEST'
-      - categorie: A3
-        regel: 75
-        type: other
-        voorbeeld: (KB nr. 64 van 30.11.1939...) [tweemaal identiek herhaald]
-      - categorie: B2
-        regel: 65
-        type: other
-        voorbeeld: '## HYPOTHEEK- EN GRIFFIERECHTEN
-
-
-          ## BRUSSELS HOOFDSTEDELIJK GEWEST'
-      rationale: 'Let op: layer1 is stale (run vóór de ETL-fix van 16:21 op dezelfde
-        dag); de geflagde TOC-dots zijn NIET aanwezig in de huidige body. Wel aanwezig:
-        duplicate cover-intro regels bovenaan (A3, r.69-71 en r.75-77: ''Wetgeving
-        van toepassing...'' en de KB-citaat elk tweemaal). ''## HYPOTHEEK- EN GRIFFIERECHTEN''
-        en ''## BRUSSELS HOOFDSTEDELIJK GEWEST'' zijn twee losse ## headings vóór
-        TITEL I zonder relatie tot de wetboek-structuur (B2). Verder: 604 headings,
-        goed gestructureerd, alle artikelen aanwezig.'
-      run_at: '2026-05-11T16:30:31Z'
-      status: needs-rework
-    rationale: 'Let op: layer1 is stale (run vóór de ETL-fix van 16:21 op dezelfde
-      dag); de geflagde TOC-dots zijn NIET aanwezig in de huidige body. Wel aanwezig:
-      duplicate cover-intro regels bovenaan (A3, r.69-71 en r.75-77: ''Wetgeving van
-      toepassing...'' en de KB-citaat elk tweemaal). ''## HYPOTHEEK- EN GRIFFIERECHTEN''
-      en ''## BRUSSELS HOOFDSTEDELIJK GEWEST'' zijn twee losse ## headings vóór TITEL
-      I zonder relatie tot de wetboek-structuur (B2). Verder: 604 headings, goed gestructureerd,
-      alle artikelen aanwezig.'
-    status: needs-rework
-status: beschikbaar
-tags:
-- VIII
-- '2.6'
-wet: Wetboek der Registratie-, Hypotheek- en Griffierechten — Brussels Hoofdstedelijk
-  Gewest
 ---
 
 # Registratierechten — Brussels Hoofdstedelijk Gewest
@@ -5107,9 +5062,9 @@ Voor de toepassing van de bepalingen van dit Wetboek, van de bijzondere wetsbepa
 
 1° aangetekende zending: hetzij de briefwisseling, al dan niet vergezeld van een ontvangstbevestiging, neergelegd bij de aanbieder van de universele postdienst, een aanbieder van postdiensten of een gekwalificeerde verlener van vertrouwensdiensten die voldoet aan de vereisten van artikel 44 van Verordening (EU) nr. 910 /2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties binnen de interne markt en tot intrekking van Richtlijn 1999/93/CE, en al dan niet elektronisch verzonden door een van hen naar een vooraf aangewezen ontvanger, die toelaat om de datum van verzending en ontvangst van de briefwisseling door de bestemmeling aan te tonen, hetzij het bericht dat door de dienst voor het versturen en ontvangen van elektronische berichten door bepaalde overheidsdiensten aangeboden aan de natuurlijke personen of hun vertegenwoordigers door de Federale Overheidsdienst belast met de Digitale Agenda en aan houders van een ondernemingsnummer zoals gedefinieerd in artikel III.16 van het Wetboek van economisch recht of aan hun vertegenwoordigers door de Rijksdienst voor Sociale Zekerheid;
 
-2° beveiligd elektronisch platform: elke computertoepassing ter beschikking gesteld door de Federale elektronische diensten aanbiedt om elektronische berichten uit te wisselen met de Federale Overheidsdienst Financiën op voorwaarde dat de authenticatie en identificatie worden uitgevoerd in toepassing van hoofdstuk 4 van de wet van 18 juli 2017 inzake elektronische identificatie door middel van een stelsel voor elektronische identificatie zoals bedoeld in art. 8., 2., van Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in
+2° beveiligd elektronisch platform: elke computertoepassing ter beschikking gesteld door de Federale elektronische diensten aanbiedt om elektronische berichten uit te wisselen met de Federale Overheidsdienst Financiën op voorwaarde dat de authenticatie en identificatie worden uitgevoerd in toepassing van hoofdstuk 4 van de wet van 18 juli 2017 inzake elektronische identificatie door middel van een stelsel voor elektronische identificatie zoals bedoeld in art. 8. , 2., van Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in
 
-de interne markt en tot intrekking van Richtlijn (EG) 1999/93, dat ten minste een substantieel veiligheidsniveau in de zin van artikel 8., 2., b) van bovengenoemde Verordening inzake de integriteit van de inhoud, de tijdsaanduiding, en zo ook de bewaring van het verzonden bericht garandeert.
+de interne markt en tot intrekking van Richtlijn (EG) 1999/93, dat ten minste een substantieel veiligheidsniveau in de zin van artikel 8. , 2., b) van bovengenoemde Verordening inzake de integriteit van de inhoud, de tijdsaanduiding, en zo ook de bewaring van het verzonden bericht garandeert.
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 

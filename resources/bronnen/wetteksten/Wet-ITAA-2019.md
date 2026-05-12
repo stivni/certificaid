@@ -1,12 +1,15 @@
 ---
-bijgewerkt: 24.12.2025
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["XXI", "4.0"]
+itaa-lex-sectie: "XXI"
+wet: "Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Accountants"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "24.12.2025"
+bron: "onbekend"
 chunk:
   level: 5
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: XXI
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Wet-ITAA-2019.pdf
@@ -14,36 +17,26 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:49Z'
+  generated_at: '2026-05-12T19:14:42Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Structuur is goed: 203 headings op 5 niveaus, artikelen correct opgemaakt als ##### Art. N, secties als ## HOOFDSTUK / ### Afdeling / #### Onderafdeling. Wijzigingsmarkers [1 ... ]1, [2 ... ]2 zijn consistent open-en-dicht. Belgische wettekststijl (1°, 2°, §-nummering, amendment-footnotes) doorgehend consistent. Geen TOC-residu, geen form-feeds, geen kolom-bleed, geen OCR-artefacten gevonden. Laag-1 flags leeg, bestandsgrootte 141 k chars, max section 6358 chars — alles binnen norm.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 141432
-      flags: []
-      heading_count: 203
-      max_section_chars: 6358
-      run_at: '2026-05-11T13:40:49Z'
-      run_id: 20260511-134044
       status: pass
+      run_id: 20260512-191442
+      run_at: '2026-05-12T19:14:42Z'
+      heading_count: 167
+      max_section_chars: 3831
+      file_size_chars: 88061
+      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: 'Structuur is goed: 203 headings op 5 niveaus, artikelen correct opgemaakt als ##### Art. N, secties als ## HOOFDSTUK / ### Afdeling / #### Onderafdeling. Wijzigingsmarkers [1 ... ]1, [2 ... ]2 zijn consistent open-en-dicht. Belgische wettekststijl (1°, 2°, §-nummering, amendment-footnotes) doorgehend consistent. Geen TOC-residu, geen form-feeds, geen kolom-bleed, geen OCR-artefacten gevonden. Laag-1 flags leeg, bestandsgrootte 141 k chars, max section 6358 chars — alles binnen norm.'
-      concrete_problemen: []
-status: beschikbaar
-tags:
-  - XXI
-  - '4.0'
-wet: Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Accountants
 ---
 
 # Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Accountants

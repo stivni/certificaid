@@ -1,12 +1,15 @@
 ---
-bijgewerkt: 29.02.2024
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["XII"]
+itaa-lex-sectie: "XII"
+wet: "Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 1"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "29.02.2024"
+bron: "onbekend"
 chunk:
-  level: 5
+  level: 4
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: XII
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Strafwetboek2024-boek1.pdf
@@ -14,55 +17,26 @@ provenance:
       version: 29.02.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:22Z'
+  generated_at: '2026-05-12T19:14:09Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B2/A7: de inhoudsstructuur begint mis: de eerste regels (52-75) zijn de inhoudsopgave van hoofdstukken en afdelingen (HOOFDSTUK 4-5, Afdeling 1-7), gevolgd pas op regel 76 door HOOFDSTUK 1 — dit is een inhoudsopgave-fragment dat door 2-kolom extractie bovenaan de body is terechtgekomen terwijl de eigenlijke artikeltekst (Art. 1 legaliteitsbeginsel) onderaan pas begint. Art. 9 (strafbare poging definitie) en Afdeling 2 (strafbare poging) missen het eigenlijke artikel-9-tekstblok (enkel de heading 'Afdeling 2. Strafbare poging' zonder art. 9). Art. 37 (terbeschikkingstelling, overgangsregeling) staat op r. 506, maar is structureel ingevoegd als deel van HOOFDSTUK 5 terwijl het een uitgebreid zelfstandig artikel is."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 75009
-      flags: []
-      heading_count: 140
-      max_section_chars: 5220
-      run_at: '2026-05-11T15:59:47Z'
-      run_id: 20260511-155947
       status: pass
+      run_id: 20260512-191409
+      run_at: '2026-05-12T19:14:09Z'
+      heading_count: 139
+      max_section_chars: 5219
+      file_size_chars: 74849
+      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "B2/A7: de inhoudsstructuur begint mis: de eerste regels (52-75) zijn de inhoudsopgave van hoofdstukken en afdelingen (HOOFDSTUK 4-5, Afdeling 1-7), gevolgd pas op regel 76 door HOOFDSTUK 1 — dit is een inhoudsopgave-fragment dat door 2-kolom extractie bovenaan de body is terechtgekomen terwijl de eigenlijke artikeltekst (Art. 1 legaliteitsbeginsel) onderaan pas begint. Art. 9 (strafbare poging definitie) en Afdeling 2 (strafbare poging) missen het eigenlijke artikel-9-tekstblok (enkel de heading 'Afdeling 2. Strafbare poging' zonder art. 9). Art. 37 (terbeschikkingstelling, overgangsregeling) staat op r. 506, maar is structureel ingevoegd als deel van HOOFDSTUK 5 terwijl het een uitgebreid zelfstandig artikel is."
-      concrete_problemen:
-        - regel: 52
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: '### Afdeling 1. - Wijzigingen van het Militair Strafwetboek [inhoudsopgave bovenaan ipv onderaan]'
-        - regel: 54
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: '#### Art. 5 [losse art.-ref zonder inhoud, onderdeel van dislocated TOC]'
-        - regel: 118
-          categorie: D2
-          type: missing-section
-          voorbeeld: '### Afdeling 2. Strafbare poging [heading aanwezig maar Art. 9 inhoud ontbreekt volledig]'
-        - regel: 86
-          categorie: B5
-          type: other
-          voorbeeld: '## Hoofdstuk 1. Strafwet Artikel 1. Legaliteitsbeginsel  Niemand kan worden gestraft... [H1 en Art. 1 samengevoegd op één regel als ##-heading]'
-        - regel: 90
-          categorie: B5
-          type: other
-          voorbeeld: '#### Art. 3. Toepassing van de strafwet in de ruimte [Art. 3 als ####, maar Art. 1 als ##-heading — inconsistente hiërarchie]'
-status: beschikbaar
-tags:
-  - XII
-wet: Wetboek 29 februari 2024 Strafwetboek 2024 — Boek 1
 ---
 
 # Strafwetboek 2024 — Boek 1
@@ -379,7 +353,7 @@ Burgerrechtelijke veroordelingen, uitgesproken bij arresten of vonnissen gewezen
 
 #### Art. 78
 
-Omzetting en bepaling van de strafmaat in bijzondere wetten die geen strafniveau bepalen  § 1. Indien de hoofdstraf in de bijzondere strafwet of in de uitvoering van de bijzondere strafwetten niet is omschreven als een straf van niveau 1 tot 8, moet de in de wet bepaalde straf als volgt worden gelezen:  1° indien het maximum van de hoofdstraf bestaat uit levenslange opsluiting of levenslange hechtenis, moet dit worden gelezen als een straf van niveau 8;  2° indien het maximum van de hoofdstraf bestaat uit meer dan twintig jaar opsluiting of hechtenis tot ten hoogste dertig jaar opsluiting of hechtenis, moet dit worden gelezen als een straf van niveau 7;  3° indien het maximum van de hoofdstraf bestaat uit meer dan vijftien jaar opsluiting of hechtenis tot ten hoogste twintig jaar opsluiting of hechtenis, moet dit worden gelezen als een straf van niveau 5;  4° indien het maximum van de hoofdstraf bestaat uit meer dan tien jaar opsluiting of hechtenis tot ten hoogste vijftien jaar opsluiting of hechtenis, moet dit worden gelezen als een straf van niveau 4;  5° indien het maximum van de hoofdstraf bestaat uit vijf jaar opsluiting of hechtenis tot ten hoogste tien jaar opsluiting of hechtenis, moet dit worden gelezen als een straf van niveau 3;  6° indien het maximum van de hoofdstraf bestaat uit meer dan drie jaar gevangenisstraf tot ten hoogste vijf jaar gevangenisstraf, moet dit worden gelezen als een straf van niveau 3;  7° indien het maximum van de hoofdstraf bestaat uit een jaar gevangenisstraf tot ten hoogste drie jaar gevangenisstraf, moet dit worden gelezen als een straf van niveau 2;  8° indien het maximum van de hoofdstraf bestaat uit acht dagen gevangenisstraf tot ten hoogste twaalf maanden gevangenisstraf, moet dit worden gelezen als een straf van niveau 1;  9° indien het maximum van de hoofdstraf bestaat uit een geldboete van meer dan 25 euro, moet dit worden gelezen als een straf van niveau 1.  In afwijking van artikel 36, achtste lid, 1°, en artikel 38, negende lid, 1°, bestaat het minimale en maximale bedrag van de geldboete uit het bedrag dat in de bijzondere strafwet respectievelijk is bepaald, vermenigvuldigd met 8, behoudens indien de feiten dateren van voor de inwerkingtreding van dit Wetboek. In dat laatste geval wordt het bedrag van de geldboete verhoogd overeenkomstig de op het moment van de feiten van toepassing zijnde opdeciemen zoals bepaald in artikel 1 van de wet van 5 maart 1952 betreffende de opdécimes op de strafrechtelijke geldboeten.  Indien het maximum van de hoofdstraf bestaat uit een gevangenisstraf van ten hoogste zeven dagen of een geldboete van ten hoogste 25 euro, moet de strafbaarstelling als opgeheven worden beschouwd.  § 2. Indien naast de hoofdstraffen bedoeld in paragraaf 1, eerste lid, 1° tot 8°, de bijzondere wet voorziet in een geldboete als bijkomende straf, bestaat het minimale en maximale bedrag van de geldboete, in afwijking van artikel 52, § 1, uit het bedrag dat in de bijzondere wet respectievelijk is bepaald, vermenigvuldigd met 8, behoudens indien de feiten dateren van voor de inwerkingtreding van dit Wetboek. In dat laatste geval wordt het bedrag van de geldboete dat in de bijzondere wet respectievelijk is bepaald, verhoogd overeenkomstig de op het moment van de feiten van toepassing zijnde opdeciemen zoals bepaald in artikel 1 van de wet van 5 maart 1952 betreffende de opdécimes op de strafrechtelijke geldboeten.  § 3. De poging tot het plegen van het misdrijf bestraft met een straf bedoeld in paragraaf 1, eerste lid, 6° tot 9°, is niet strafbaar.  § 4. Behoudens indien de bijzondere strafwet een bepaling bevat die hoofdstuk VII van boek 1 van het Strafwetboek van 8 juni 1867 van toepassing verklaart, is artikel 19 niet van toepassing op de misdrijven bestraft met een straf omschreven in paragraaf 1, eerste lid, 1° tot 8°.  § 5. Behoudens indien de bijzondere strafwet een bepaling bevat die artikel 85 van het Strafwetboek van 8 juni 1867 van toepassing verklaart, kunnen geen verzachtende omstandigheden worden aangenomen voor de misdrijven bestraft met een straf bedoeld in paragraaf 1, eerste lid, 6° tot 9°.  § 6. Bij de keuze van de straf en de strafmaat binnen het na de toepassing van deze bepaling verkregen strafniveau legt de rechter geen zwaardere straf op dan diegene die in de bijzondere strafwet is bepaald.  § 7. Indien de bijzondere strafwet verwijst naar "misdaden", zonder dat hierbij enige verwijzing wordt gemaakt naar een concrete strafmaat, moet dit worden gelezen als "misdrijven waarop een straf van niveau 4, 5, 6, 7 of 8 is gesteld".  Indien de bijzondere strafwet verwijst naar "wanbedrijven", zonder dat hierbij enige verwijzing wordt gemaakt naar een concrete strafmaat, moet dit worden gelezen als "misdrijven waarop een straf van niveau 1, 2 of 3 is gesteld".  § 8. Behoudens indien de wet anders bepaalt, moet in de wettelijke bepalingen die voor hun toepassing verwijzen naar een strafdrempel van een gevangenisstraf van minimum een jaar, deze verwijzing worden gelezen als een verwijzing naar een gevangenisstraf van niveau 2, bepaald door artikel 36."
+Omzetting en bepaling van de strafmaat in bijzondere wetten die geen strafniveau bepalen  § 1. Indien de hoofdstraf in de bijzondere strafwet of in de uitvoering van de bijzondere strafwetten niet is omschreven als een straf van niveau 1 tot 8, moet de in de wet bepaalde straf als volgt worden gelezen:  1° indien het maximum van de hoofdstraf bestaat uit levenslange opsluiting of levenslange hechtenis, moet dit worden gelezen als een straf van niveau 8;  2° indien het maximum van de hoofdstraf bestaat uit meer dan twintig jaar opsluiting of hechtenis tot ten hoogste dertig jaar opsluiting of hechtenis, moet dit worden gelezen als een straf van niveau 7;  3° indien het maximum van de hoofdstraf bestaat uit meer dan vijftien jaar opsluiting of hechtenis tot ten hoogste twintig jaar opsluiting of hechtenis, moet dit worden gelezen als een straf van niveau 5;  4° indien het maximum van de hoofdstraf bestaat uit meer dan tien jaar opsluiting of hechtenis tot ten hoogste vijftien jaar opsluiting of hechtenis, moet dit worden gelezen als een straf van niveau 4;  5° indien het maximum van de hoofdstraf bestaat uit vijf jaar opsluiting of hechtenis tot ten hoogste tien jaar opsluiting of hechtenis, moet dit worden gelezen als een straf van niveau 3;  6° indien het maximum van de hoofdstraf bestaat uit meer dan drie jaar gevangenisstraf tot ten hoogste vijf jaar gevangenisstraf, moet dit worden gelezen als een straf van niveau 3;  7° indien het maximum van de hoofdstraf bestaat uit een jaar gevangenisstraf tot ten hoogste drie jaar gevangenisstraf, moet dit worden gelezen als een straf van niveau 2;  8° indien het maximum van de hoofdstraf bestaat uit acht dagen gevangenisstraf tot ten hoogste twaalf maanden gevangenisstraf, moet dit worden gelezen als een straf van niveau 1;  9° indien het maximum van de hoofdstraf bestaat uit een geldboete van meer dan 25 euro, moet dit worden gelezen als een straf van niveau 1.  In afwijking van artikel 36, achtste lid, 1°, en artikel 38, negende lid, 1°, bestaat het minimale en maximale bedrag van de geldboete uit het bedrag dat in de bijzondere strafwet respectievelijk is bepaald, vermenigvuldigd met 8, behoudens indien de feiten dateren van voor de inwerkingtreding van dit Wetboek. In dat laatste geval wordt het bedrag van de geldboete verhoogd overeenkomstig de op het moment van de feiten van toepassing zijnde opdeciemen zoals bepaald in artikel 1 van de wet van 5 maart 1952 betreffende de opdécimes op de strafrechtelijke geldboeten.  Indien het maximum van de hoofdstraf bestaat uit een gevangenisstraf van ten hoogste zeven dagen of een geldboete van ten hoogste 25 euro, moet de strafbaarstelling als opgeheven worden beschouwd.  § 2. Indien naast de hoofdstraffen bedoeld in paragraaf 1, eerste lid, 1° tot 8°, de bijzondere wet voorziet in een geldboete als bijkomende straf, bestaat het minimale en maximale bedrag van de geldboete, in afwijking van artikel 52, § 1, uit het bedrag dat in de bijzondere wet respectievelijk is bepaald, vermenigvuldigd met 8, behoudens indien de feiten dateren van voor de inwerkingtreding van dit Wetboek. In dat laatste geval wordt het bedrag van de geldboete dat in de bijzondere wet respectievelijk is bepaald, verhoogd overeenkomstig de op het moment van de feiten van toepassing zijnde opdeciemen zoals bepaald in artikel 1 van de wet van 5 maart 1952 betreffende de opdécimes op de strafrechtelijke geldboeten.  § 3. De poging tot het plegen van het misdrijf bestraft met een straf bedoeld in paragraaf 1, eerste lid, 6° tot 9°, is niet strafbaar.  § 4. Behoudens indien de bijzondere strafwet een bepaling bevat die hoofdstuk VII van boek 1 van het Strafwetboek van 8 juni 1867 van toepassing verklaart, is artikel 19 niet van toepassing op de misdrijven bestraft met een straf omschreven in paragraaf 1, eerste lid, 1° tot 8°.  § 5. Behoudens indien de bijzondere strafwet een bepaling bevat die artikel 85 van het Strafwetboek van 8 juni 1867 van toepassing verklaart, kunnen geen verzachtende omstandigheden worden aangenomen voor de misdrijven bestraft met een straf bedoeld in paragraaf 1, eerste lid, 6° tot 9°.  § 6. Bij de keuze van de straf en de strafmaat binnen het na de toepassing van deze bepaling verkregen strafniveau legt de rechter geen zwaardere straf op dan diegene die in de bijzondere strafwet is bepaald.  § 7. Indien de bijzondere strafwet verwijst naar "misdaden", zonder dat hierbij enige verwijzing wordt gemaakt naar een concrete strafmaat, moet dit worden gelezen als "misdrijven waarop een straf van niveau 4, 5, 6, 7 of 8 is gesteld".  Indien de bijzondere strafwet verwijst naar "wanbedrijven", zonder dat hierbij enige verwijzing wordt gemaakt naar een concrete strafmaat, moet dit worden gelezen als "misdrijven waarop een straf van niveau 1, 2 of 3 is gesteld".  § 8. Behoudens indien de wet anders bepaalt, moet in de wettelijke bepalingen die voor hun toepassing verwijzen naar een strafdrempel van een gevangenisstraf van minimum een jaar, deze verwijzing worden gelezen als een verwijzing naar een gevangenisstraf van niveau 2, bepaald door artikel 36. "
 
 ## HOOFDSTUK 3. - Wijzigingsbepalingen
 

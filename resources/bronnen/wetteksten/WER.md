@@ -1,11 +1,15 @@
 ---
-bijgewerkt: 24.12.2025
-bron: ejustice.just.fgov.be (gecoördineerde versie)
+tags: ["XIII", "1.4"]
+itaa-lex-sectie: "XIII"
+wet: "Wetboek van Economisch Recht"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "24.12.2025"
+bron: "onbekend"
 chunk:
   level: 6
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: XIII
 provenance:
   inputs:
     - id: resources/raw/wetteksten/WER.pdf
@@ -13,798 +17,31 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:41Z'
+  generated_at: '2026-05-12T19:14:36Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B1/B5: de WER gebruikt een meervoudig-artikelen-per-heading constructie (bv. `###### Art. XV.125/6, XV.125/7` op regel 84 en `###### Art. XV.126, XV.126/1, XV.126/2` op regel 88) waarbij de artikelinhoud ontbreekt — enkel de heading staat er, geen tekst. B4: structuurlabels `HOOFDSTUK 3` en `Afdeling`-lijnen staan als `####`/`#####` headings maar bevatten enkel nummering zonder tekst direct erna. Layer1 meldde max_section_size warn. De WER is extreem groot (3.4MB, 3316 headings) en de bestandsgrootte overschrijdt 256KB waardoor volledige review niet mogelijk was; de gesampelde secties tonen consistent de lege-heading problematiek.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 3469071
-      flags:
-        - detail: 'langste sectie op ######-niveau: 43778 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          name: max_section_size
-          samples: []
-          status: warn
-      heading_count: 3316
-      max_section_chars: 43778
-      run_at: '2026-05-11T13:40:49Z'
-      run_id: 20260511-134044
-      status: warn
+      status: pass
+      run_id: 20260512-191436
+      run_at: '2026-05-12T19:14:36Z'
+      heading_count: 2895
+      max_section_chars: 21231
+      file_size_chars: 2275473
+      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: 'B1/B5: de WER gebruikt een meervoudig-artikelen-per-heading constructie (bv. `###### Art. XV.125/6, XV.125/7` op regel 84 en `###### Art. XV.126, XV.126/1, XV.126/2` op regel 88) waarbij de artikelinhoud ontbreekt — enkel de heading staat er, geen tekst. B4: structuurlabels `HOOFDSTUK 3` en `Afdeling`-lijnen staan als `####`/`#####` headings maar bevatten enkel nummering zonder tekst direct erna. Layer1 meldde max_section_size warn. De WER is extreem groot (3.4MB, 3316 headings) en de bestandsgrootte overschrijdt 256KB waardoor volledige review niet mogelijk was; de gesampelde secties tonen consistent de lege-heading problematiek.'
-      concrete_problemen:
-        - regel: 84
-          categorie: B1
-          type: other
-          voorbeeld: '###### Art. XV.125/6, XV.125/7 (lege heading, geen artikeltekst)'
-        - regel: 88
-          categorie: B1
-          type: other
-          voorbeeld: '###### Art. XV.126, XV.126/1, XV.126/2 (lege heading)'
-        - regel: 90
-          categorie: B1
-          type: other
-          voorbeeld: '#### HOOFDSTUK 3. - [ 1 Bijkomende straffen [...]] 1 (heading zonder inhoud)'
-status: beschikbaar
-tags:
-  - XIII
-  - '1.4'
-wet: Wetboek van Economisch Recht
 ---
 
 # Wetboek van Economisch Recht
 
 *Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
-
-###### Art. XV.125/4/1/1
-
-[ 1 Met een sanctie van niveau 2 worden bestraft zij die de bepalingen van Verordening (EU) 2019/1150 van het Europees Parlement en de Raad van 20 juni 2019 ter bevordering van billijkheid en transparantie voor zakelijke gebruikers van onlinetussenhandelsdiensten overtreden.] 1
-
-###### Art. XV.125/4/2
-
-[ 1 Wordt in het kader van het toezicht bedoeld in artikel XV.30/4 gestraft met een sanctie van niveau 3 :
-
-###### Art. XV.125/4/2/1
-
-[ 1 Met een sanctie van niveau 2 worden bestraft zij die artikel 7 van Verordening (EU) 2018/644 van het Europees Parlement en de Raad van 18 april 2018 betreffende grensoverschrijdende pakketbezorgdiensten overtreden.] 1
-
-###### Art. XV.125/4/3
-
-[ 1 Met een sanctie van niveau 2 worden bestraft zij die de bepalingen van de artikelen 5, 7, 19 en 20 van Verordening (EU) 2023/1804 van het Europees Parlement en de Raad van 13 september 2023 betreffende de uitrol van infrastructuur voor alternatieve brandstoffen en tot intrekking van Richtlijn 2014/94/EU overtreden.] 1
-
-###### Art. XV.125/4/4
-
-[ 1 Met een sanctie van niveau 5 worden bestraft zij die de bepalingen van de artikelen 49, leden 4 tot 6 en 50, leden 1 tot 3 van Verordening (EU) 2023/1114 van het Europees Parlement en de Raad van 31 mei 2023 betreffende cryptoactivamarkten en tot wijziging van Verordeningen (EU) nr. 1093/2010 en (EU) nr. 1095/2010 en Richtlijnen 2013/36/EU en (EU) 2019/1937 overtreden.] 1
-
-##### Afdeling 11/4. [ 1 - De straffen voor de inbreuken op het oud Burgerlijk Wetboek.] 1
-
-###### Art. XV.125/5
-
-[ 1 Met een sanctie van niveau 2 worden bestraft zij die de bepalingen overtreden van de artikelen 1649bis tot 1649nonies of de artikelen 1701/1 tot 1701/19 van het oud Burgerlijk Wetboek.
-
-##### Afdeling 11/5. [ 1 - De straffen voor inbreuken op andere wetten.] 1
-
-###### Art. XV.125/6, XV.125/7
-
-
-##### Afdeling 12. - [ 1 Belemmering van toezicht [ 2 en het niet in acht nemen van maatregelen] 2 ] 1
-###### Art. XV.126, XV.126/1, XV.126/2
-
-#### HOOFDSTUK 3. - [ 1 Bijkomende straffen [...]] 1
-
-
-##### Afdeling 1. [ 1 - Definitief of tijdelijk verbod om gereglementeerde verrichtingen uit te oefenen.] 1
-###### Art. XV.127
-
-
-##### Afdeling 2. - [ 1 Verbeurdverklaring] 1
-###### Art. XV.130, XV.130/1, XV.130/2, XV.130/3, XV.130/4, XV.130/5
-
-
-##### Afdeling 3. - [ 1 De aanplakking van het vonnis of arrest] 1
-###### Art. XV.131
-
-
-##### Afdeling 4. [ 1 - Gehele of gedeeltelijke sluiting] 1
-###### Art. XV.131/1
-
-
-##### Afdeling 5. [ 1 - Beslag op de ontvangsten] 1
-###### Art. XV.131/2
-
-
-##### Afdeling 6. [ 1 - Corrigerende maatregelen] 1
-###### Art. XV.132
-
-###### Art. XVI.1
-
-### Titel 2. [ 1 De behandeling van klachten door de ondernemingen] 1
-
-###### Art. XVI.2-XVI.4
-
-### Titel 3. [ 1 : De Consumentenombudsdienst] 1
-
-#### Hoofdstuk 1. [ 1 Oprichting en opdrachten] 1
-
-###### Art. XVI.5-XVI.7
-
-#### Hoofdstuk 2. [ 1 Werking] 1
-
-###### Art. XVI.8-XVI.12
-
-#### Hoofdstuk 3. [ 1 Bevoegdheden] 1
-
-
-##### Afdeling 1. [ 1 Informatie] 1
-###### Art. XVI.13-XVI.14
-
-
-##### Afdeling 2. [ 1 De buitengerechtelijke regeling van consumentengeschillen] 1 - Onderafdeling 1. [ 1 De ontvangst van de aanvragen] 1
-
-###### Art. XVI.15
-
-##### Afdeling 2. [ 1 De buitengerechtelijke regeling van consumentengeschillen] 1 - Onderafdeling 2. [ 1 Behandeling van consumentengeschillen] 1
-
-###### Art. XVI.16-XVI.21
-
-#### Hoofdstuk 4. [ 1 De personeelsleden van de Consumentenombudsdienst] 1
-
-###### Art. XVI.22-XVI.23
-
-### Titel 4. [ 1 De gekwalificeerde entiteiten voor buitengerechtelijke regeling van consumentengeschillen] 1
-
-###### Art. XVI.24-XVI.26, XVI.26/1, XVI.26/2, XVI.26/3, XVI.27-XVI.28
-
-## Boek XVII. - [ 1 Bijzondere rechtsprocedures] 1
-
-VOORAFGAANDE TITEL. [ 1 - Aan titel 1 en titel 2 gemeenschappelijke bepalingen.] 1
-
-###### Art. XVII.1, XVII.1/1, XVII.1/2, XVII.1/3
-
-### TITEL 1. - [ 1 Vordering tot staking] 1
-
-#### HOOFDSTUK 1. - [ 1 Algemene bepalingen] 1
-
-###### Art. XVII.1/4, XVII.2-XVII.6, XVII.6/1, XVII.6/2
-
-#### HOOFDSTUK 2. - [ 1 Titularissen van de vordering tot staking] 1
-
-###### Art. XVII.7-XVII.8
-
-#### HOOFDSTUK 3. - [ 1 Bijzondere bepalingen eigen aan boek VI ] 1
-
-###### Art. XVII.9-XVII.13
-
-###### Art. XVII.14-XVII.20
-
-
-##### Afdeling 2. - [ 1 Vordering tot staking inzake de controle van de vennootschappen voor het beheer van de auteursrechten en de naburige rechten] 1
-###### Art. XVII.21
-
-
-##### Afdeling 3. [ 1 - Vordering tot staking in geval van het onrechtmatig verkrijgen, gebruiken of openbaar maken van een bedrijfsgeheim] 1
-###### Art. XVII.21/1, XVII.21/2, XVII.21/3, XVII.21/4, XVII.21/5
-
-#### HOOFDSTUK 5. - [ 1 Bijzondere bepalingen eigen aan boek XII] 1
-
-###### Art. XVII.22-XVII.25
-
-#### HOOFDSTUK 5/1. [ 1 - Bijzondere bepalingen eigen aan boek XIV] 1
-
-###### Art. XVII.25/1, XVII.25/2, XVII.25/3, XVII.25/4, XVII.25/5
-
-###### Art. XVII.26-XVII.29, XVII.29/1, XVII.30-XVII.34
-
-### TITEL 1/1. [ 1 - Voorlopige maatregelen in geval van inbreuken op het auteursrecht, op een naburig recht, op het recht van een producent van databanken gepleegd op het internet of in geval van de exploitatie van een onwettig onlinekansspel] 1
-
-###### Art. XVII.34/1, XVII.34/2, XVII.34/3, XVII.34/4, XVII.34/5
-
-### TITEL 2. [ 1 De rechtsvordering tot collectief herstel] 1
-
-#### HOOFDSTUK 1. - [ 1 Algemene bepalingen] 1
-
-
-##### Afdeling 1. - [ 1 Bevoegdheid van de hoven en rechtbanken te Brussel ] 1
-###### Art. XVII.35
-
-
-##### Afdeling 2. - [ 1 Ontvankelijkheidsvoorwaarden] 1
-###### Art. XVII.36-XVII.37
-
-###### Art. XVII.38
-
-
-##### Afdeling 4. - [ 1 De groepsvertegenwoordiger] 1
-###### Art. XVII.39-XVII.41
-
-#### HOOFDSTUK 2. - [ 1 De procedure] 1
-
-
-##### Afdeling 1. - [ 1 De ontvankelijkheidsfase] 1
-###### Art. XVII.42-XVII.43, XVII.43/1, XVII.44
-
-
-##### Afdeling 2. - [ 1 De onderhandeling van een akkoord tot collectief herstel] 1
-###### Art. XVII.45-XVII.48
-
-
-##### Afdeling 3. - [ 1 De homologatie van het akkoord tot collectief herstel] 1
-###### Art. XVII.52-XVII.55, XVII.55/1, XVII.56
-
-
-##### Afdeling 5. - [ 1 De uitvoering van het gehomologeerde akkoord of van de beslissing ten gronde] 1
-###### Art. XVII.57-XVII.62
-
-#### HOOFDSTUK 3. - [ 1 Verjaring, tussengeschillen en verband met andere procedures] 1
-
-
-##### Afdeling 1. - [ 1 Verjaring] 1
-###### Art. XVII.63
-
-
-##### Afdeling 2. - [ 1 Tussengeschillen] 1
-###### Art. XVII.64-XVII.66
-
-
-##### Afdeling 3. - [ 1 Verband met andere procedures] 1
-###### Art. XVII.67-XVII.70
-
-### Titel 3. [ 1 - Rechtsvordering tot schadevergoeding voor inbreuken op het mededingingsrecht] 1
-
-#### HOOFDSTUK 1. [ 1 - Toepassingsgebied] 1
-
-###### Art. XVII.71
-
-#### HOOFDSTUK 2. [ 1 - Recht op volledige vergoeding] 1
-
-###### Art. XVII.72-XVII.73
-
-#### HOOFDSTUK 3. [ 1 - Bewijsmateriaal] 1
-
-
-##### Afdeling 1. [ 1 - Overlegging van het bewijsmateriaal] 1 - Onderafdeling 1. [ 1 - Algemene beginselen] 1
-
-###### Art. XVII.74-XVII.76
-
-##### Afdeling 1. [ 1 - Overlegging van het bewijsmateriaal] 1 - Onderafdeling 2. [ 1 - Overlegging van bewijsmateriaal dat zich in het dossier van een mededingingsautoriteit bevindt] 1
-
-###### Art. XVII.77-XVII.80
-
-##### Afdeling 1. [ 1 - Overlegging van het bewijsmateriaal] 1 - Onderafdeling 3. [ 1 - Sancties] 1
-
-###### Art. XVII.81
-
-
-##### Afdeling 2. [ 1 - Doorwerking van de nationale beslissingen waarbij een inbreuk op het mededingingsrecht wordt vastgesteld] 1
-###### Art. XVII.82
-
-
-##### Afdeling 3. [ 1 - Doorberekening van meerkosten] 1
-###### Art. XVII.83-XVII.85
-
-#### HOOFDSTUK 4. [ 1 - Hoofdelijke aansprakelijkheid] 1
-
-###### Art. XVII.86-XVII.88
-
-#### HOOFDSTUK 5. [ 1 - Schorsende werking van de minnelijke oplossing van geschillen] 1
-
-###### Art. XVII.90-XVII.91
-
-## BOEK XVIII. - [ 1 Maatregelen voor crisisbeheer] 1
-
-### TITEL 1. - [ 1 Reglementering in crisistijd] 1
-
-###### Art. XVIII.1
-
-### TITEL 2. - [ 1 Opeising in crisistijd] 1
-
-###### Art. XVIII.2
-
-### TITEL 3. - [ 1 Gemeenschappelijke bepalingen] 1
-
-###### Art. XVIII.3-XVIII.4
-
-## Boek XIX. [ 1 - Schulden van de consument] 1
-
-### TITEL 1. [ 1 - Betaling van schulden door consumenten aan ondernemingen] 1
-
-#### HOOFDSTUK 1. [ 1 - Toepassingsgebied] 1
-
-###### Art. XIX.1
-
-#### HOOFDSTUK 2. [ 1 - Betalingsachterstand] 1
-
-###### Art. XIX.2-XIX.3
-
-#### HOOFDSTUK 3. [ 1 - Schadebedingen] 1
-
-###### Art. XIX.4
-
-### TITEL 2. [ 1 - Minnelijke invordering van schulden van de consument] 1
-
-#### HOOFDSTUK 1. [ 1 - Minnelijke invordering van schulden van de consument] 1
-
-###### Art. XIX.5
-
-#### HOOFDSTUK 2. [ 1 - Activiteit van minnelijke invordering van schulden] 1
-
-
-##### Afdeling 1. [ 1 Voorafgaande inschrijving] 1
-###### Art. XIX.6
-
-
-##### Afdeling 2. [ 1 Modaliteiten van uitoefening van de activiteit van minnelijke invordering van schulden] 1
-###### Art. XIX.7-XIX.13
-
-#### HOOFDSTUK 3. [ 1 Burgerlijke sancties] 1
-
-###### Art. XIX.14-XIX.15
-
-### TITEL 3. [ 1 - De minnelijke schuldbemiddeling] 1
-
-#### HOOFDSTUK 1. [ 1 - Algemene beginselen] 1
-
-
-##### Afdeling 1. [ 1 - Definitie en doelstellingen van de procedure] 1
-###### Art. XIX.16-XIX.18
-
-#### HOOFDSTUK 2. [ 1 - De minnelijke schuldbemiddelaar] 1
-
-###### Art. XIX.20-XIX.24
-
-#### HOOFDSTUK 3. [ 1 - De procedure en de verplichtingen van de minnelijke schuldbemiddelaar] 1
-
-
-##### Afdeling 1. [ 1 - De aanvang van de minnelijke schuldbemiddeling] 1
-###### Art. XIX.25-XIX.26
-
-
-##### Afdeling 2. [ 1 - Tijdens de minnelijke schuldbemiddeling] 1
-###### Art. XIX.27
-
-
-##### Afdeling 3. [ 1 - Analyse van de situatie van de schuldenaar en inventaris van schulden] 1
-###### Art. XIX.28-XIX.29
-
-
-##### Afdeling 4. [ 1 - Verwerking van persoonsgegevens] 1
-###### Art. XIX.30
-
-
-##### Afdeling 5. [ 1 - Onderhandelingen met schuldeisers] 1
-###### Art. XIX.31-XIX.33
-
-
-##### Afdeling 6. [ 1 - Uitvoering en controle van overeenkomsten] 1
-###### Art. XIX.34-XIX.36
-
-
-##### Afdeling 7. [ 1 - Mislukking van de onderhandelingen en alternatieve oplossingen] 1
-###### Art. XIX.37-XIX.38
-
-#### HOOFDSTUK 4. [ 1 - Verplichtingen van de schuldenaar] 1
-
-###### Art. XIX.39
-
-#### HOOFDSTUK 5. [ 1 - Beëindiging van minnelijke schuld- bemiddeling] 1
-
-###### Art. XIX.40-XIX.42
-
-#### HOOFDSTUK 6. [ 1 - Kosten van minnelijke schuldbemiddeling] 1
-
-###### Art. XIX.43-XIX.44
-
-## BOEK XX. [ 1 - Insolventie van de ondernemingen] 1
-
-### Titel 1. [ 1 - Algemene beginselen die van toepassing zijn voor boek XX] 1
-
-#### HOOFDSTUK 1. [ 1 - Toepassingsgebied] 1
-
-###### Art. XX.1
-
-#### HOOFDSTUK 2. [ 1 - Procedureregels] 1
-
-###### Art. XX.2-XX.11, XX.11/1, XX.12-XX.14, XX.14/1
-
-#### HOOFDSTUK 3. [ 1 - Register] 1
-
-###### Art. XX.15-XX.19
-
-###### Art. XX.20
-
-
-##### Afdeling 2. [ 1 Herstructureringsdeskundigen] 1
-###### Art. XX.20/1
-
-### Titel II. [ 1 - Vroegtijdige waarschuwing, kamers voor ondernemingen in moeilijkheden en ondernemingsbemiddeling] 1
-
-#### HOOFDSTUK 1. [ 1 - Vroegtijdige waarschuwing] 1
-
-###### Art. XX.21, XX.21/1, XX.22, XX.22/1, XX.23-XX.24
-
-#### HOOFDSTUK 2. [ 1 - Kamers voor ondernemingen in moeilijkheden] 1
-
-
-##### Afdeling 1. [ 1 Ambtshalve onderzoek] 1
-###### Art. XX.25-XX.29
-
-
-##### Afdeling 2. [ 1 Onderzoek op verzoek van de schuldenaar] 1
-###### Art. XX.29/1
-
-
-##### Afdeling 3. [ 1 Ondernemingsbemiddeling] 1
-###### Art. XX.29/2
-
-### Titel III. [ 1 - Voorlopige maatregelen] 1
-
-###### Art. XX.30-XX.35
-
-### Titel IV. [ 1 - Minnelijk akkoord buiten gerechtelijke reorganisatie] 1
-
-###### Art. XX.36-XX.38
-
-### Titel V. [ 1 - Algemene bepalingen voor Titel V/I en V/II] 1
-
-#### HOOFDSTUK 1. [ 1 - Inleidende bepalingen betreffende titel V/I en V/II] 1
-
-###### Art. XX.39
-
-##### Afdeling 1/1.
-
-###### Art. XX.39/1, XX.39/2
-
-###### Art. XX.40
-
-#### HOOFDSTUK 2. [ 1 - Gemeenschappelijke bepalingen betreffende de procedures van openbare gerechtelijke reorganisatie en overdracht van onderneming onder gerechtelijk gezag] 1
-
-
-##### Afdeling 1. [ 1 - Verzoek tot openbare gerechtelijke reorganisatie, overdracht onder gerechtelijk gezag en daarop volgende procedure] 1
-###### Art. XX.41-XX.44
-
-
-##### Afdeling 2. [ 1 - Voorwaarden voor de opening van de procedure van openbare gerechtelijke reorganisatie of van overdracht onder gerechtelijk gezag] 1
-###### Art. XX.46-XX.49
-
-
-##### Afdeling 4. [ 1 - Voorlopig bestuur en bijstand van een herstructureringsdeskundige] 1
-###### Art. XX.49/1, XX.49/2, XX.49/3, XX.49/4, XX.49/5
-
-
-##### Afdeling 5. [ 1 - Gevolgen van de beslissing tot reorganisatie of overdracht onder gerechtelijk gezag] 1
-###### Art. XX.50-XX.58
-
-
-##### Afdeling 6. [ 1 - Verlenging of wijziging van de opschorting] 1
-###### Art. XX.59, XX.59/1
-
-
-##### Afdeling 7. [ 1 - Wijziging van het doel van de procedure] 1
-###### Art. XX.60
-
-
-##### Afdeling 8. [ 1 - Voortijdige beëindiging en sluiting van de procedure] 1
-###### Art. XX.61-XX.63
-
-### Titel V/I. [ 1 Gerechtelijke reorganisatie] 1
-
-#### HOOFDSTUK 1. [ 1 Openbare gerechtelijke reorganisatie door een minnelijk akkoord] 1
-
-###### Art. XX.64-XX.66
-
-#### HOOFDSTUK 2. [ 1 Openbare gerechtelijke reorganisatie door een collectief akkoord toepasselijk op de kleine en middelgrote ondernemingen] 1
-
-
-##### Afdeling 1. [ 1 Toepassingsgebied] 1
-###### Art. XX.66/1
-
-
-##### Afdeling 2. [ 1 Reorganisatieplan] 1
-###### Art. XX.67-XX.69
-
-
-##### Afdeling 3. [ 1 Opstelling en inhoud van het reorganisatieplan] 1
-###### Art. XX.70, XX.70/1, XX.71-XX.74, XX.74/1, XX.75, XX.75/1, XX.75/2, XX.76
-
-
-##### Afdeling 4. [ 1 - Neerlegging, goedkeuring en bevestiging van reorganisatieplan" en waarin de artikelen XX.77 tot en met XX.80 zijn opgenomen.] 1
-###### Art. XX.77-XX.78, XX.78/1, XX.78/2, XX.79-XX.80
-
-
-##### Afdeling 5. [ 1 - Rechtsmiddelen.] 1
-###### Art. XX.81
-
-
-##### Afdeling 6. [ 1 - Gevolgen van het gehomologeerd reorganisatieplan.] 1
-###### Art. XX.82
-
-
-##### Afdeling 7. [ 1 - Intrekking van het reorganisatieplan en vaststelling van voltooiing van het reoganisatieplan.] 1
-###### Art. XX.83
-
-
-##### Afdeling 1. [ 1 - Toepassingsgebied] 1
-###### Art. XX.83/1
-
-
-##### Afdeling 2. [ 1 - Reorganisatieplan] 1
-###### Art. XX.83/2
-
-
-##### Afdeling 3. [ 1 - Opstelling en inhoud van het reorganisatieplan] 1
-###### Art. XX.83/3, XX.83/4, XX.83/5, XX.83/6, XX.83/7, XX.83/8, XX.83/9, XX.83/10
-
-
-##### Afdeling 4. [ 1 - Neerlegging, goedkeuring en bevestiging van reorganisatieplannen] 1
-###### Art. XX.83/11, XX.83/12, XX.83/13, XX.83/14, XX.83/15, XX.83/16, XX.83/17, XX.83/18
-
-
-##### Afdeling 5. [ 1 - Beëindiging van de procedure en rechtsmiddelen] 1
-###### Art. XX.83/19
-
-
-##### Afdeling 6. [ 1 - Gevolgen van het gehomologeerd reorganisatieplan] 1
-###### Art. XX.83/20
-
-
-Art.
-
-##### Afdeling 7. [ 1 - Intrekking van het plan en vaststelling van voltooiing van het reorganisatieplan] 1
-#### HOOFDSTUK 4. [ 1 - Besloten gerechtelijke reorganisatieprocedure] 1
-
-
-##### Afdeling 1. [ 1 - Verzoeken en navolgende procedure] 1
-###### Art. XX.83/22, XX.83/23, XX.83/24, XX.83/25, XX.83/26, XX.83/27, XX.83/28
-
-
-##### Afdeling 2. [ 1 - Besloten gerechtelijke reorganisatie door een minnelijk akkoord] 1
-###### Art. XX.83/29, XX.83/30
-
-
-##### Afdeling 3. [ 1 - Besloten gerechtelijke reorganisatie door een collectief akkoord] 1 - Onderafdeling 1. [ 1 Reorganisatieplan] 1
-
-###### Art. XX.83/31
-
-##### Afdeling 3. [ 1 - Besloten gerechtelijke reorganisatie door een collectief akkoord] 1 - Onderafdeling 2. [ 1 Opstelling, inhoud en neerlegging van het reorganisatieplan] 1
-
-###### Art. XX.83/32, XX.83/33
-
-##### Afdeling 3. [ 1 - Besloten gerechtelijke reorganisatie door een collectief akkoord] 1 - Onderafdeling 3. [ 1 Stemming over het reorganisatieplan] 1
-
-###### Art. XX.83/34
-
-##### Afdeling 3. [ 1 - Besloten gerechtelijke reorganisatie door een collectief akkoord] 1 - Onderafdeling 4. [ 1 Homologatie van het reorganisatieplan] 1
-
-###### Art. XX.83/35, XX.83/36, XX.83/37
-
-
-##### Afdeling 4. [ 1 - Beëindiging van de procedure en rechtsmiddelen] 1
-###### Art. XX.83/38, XX.83/39
-
-
-##### Afdeling 5. [ 1 - Gevolgen van het gehomologeerd reorganisatieplan] 1
-###### Art. XX.83/41
-
-### TITEL V/II. [ 1 - Overdracht onder gerechtelijk gezag] 1
-
-###### Art. XX.84-XX.93, XX.93/1, XX.94-XX.97
-
-### Titel V/III. [ 1 - Besloten voorbereiding van het faillissement] 1
-
-###### Art. XX.97/1, XX.97/2, XX.97/3, XX.97/4, XX.97/5, XX.97/6
-
-### Titel VI. [ 1 - Faillissement] 1
-
-#### HOOFDSTUK 1. [ 1 - Staking van betaling en faillietverklaring] 1
-
-###### Art. XX.98-XX.109, XX.109/1
-
-#### HOOFDSTUK 2. [ 1 - Gevolgen van de faillietverklaring] 1
-
-###### Art. XX.110-XX.121
-
-#### HOOFDSTUK 3. [ 1 - Beheer en vereffening van de boedel] 1
-
-
-##### Afdeling 1. [ 1 - Aanstelling en wettelijke taken van curatoren en van rechters-commissarissen] 1
-###### Art. XX.122-XX.125
-
-
-##### Afdeling 2. [ 1 - Ambtsaanvaarding en opdrachten voor curatoren en rechters-commissarissen] 1
-###### Art. XX.126-XX.130
-
-
-##### Afdeling 3. [ 1 - Beheer van het faillissement] 1
-###### Art. XX.131-XX.154
-
-#### HOOFDSTUK 4. [ 1 - Aangifte en verificatie van schuldvorderingen] 1
-
-###### Art. XX.155-XX.165
-
-#### HOOFDSTUK 5. [ 1 - Vereffening van het faillissement] 1
-
-###### Art. XX.166-XX.172
-
-#### HOOFDSTUK 6. [ 1 - Kwijtschelding] 1
-
-###### Art. XX.173-XX.174
-
-#### HOOFDSTUK 7. [ 1 - Schuldeisers en borgtochten] 1
-
-
-##### Afdeling 1. [ 1 - Medeschuldenaars, persoonlijke zekerheden en borgen] 1
-###### Art. XX.175-XX.180
-
-
-##### Afdeling 2. [ 1 - Pandhoudende schuldeisers en schuldeisers bevoorrecht op roerend goed] 1
-###### Art. XX.181-XX.183
-
-
-##### Afdeling 3. [ 1 - Rechten van hypothecaire schuldeisers en van op onroerende goederen bevoorrechte schuldeisers] 1
-###### Art. XX.184-XX.188
-
-
-##### Afdeling 5. [ 1 - Gevolgen van het faillissement op de aansprakelijkheid van derden voor de financiering van een nieuwe activiteit] 1
-###### Art. XX.191
-
-#### HOOFDSTUK 8. [ 1 - Uitdeling aan de schuldeisers] 1
-
-###### Art. XX.192
-
-#### HOOFDSTUK 9. [ 1 - Verkoop van de onroerende goederen van de gefailleerde] 1
-
-###### Art. XX.193
-
-#### HOOFDSTUK 10. [ 1 - Terugvordering] 1
-
-###### Art. XX.194-XX.201
-
-### Titel VII. [ 1 - Grensoverschrijdende insolventie] 1
-
-#### HOOFDSTUK 1. [ 1 - Europese insolventieprocedures] 1
-
-###### Art. XX.202-XX.209
-
-#### HOOFDSTUK 2. [ 1 - Overige grensoverschrijdende insolventieprocedures] 1
-
-###### Art. XX.210-XX.223
-
-### Titel VII. [ 1 - Aansprakelijkheidsvorderingen] 1
-
-###### Art. XX.224-XX.228
-
-### Titel IX. [ 1 - Verbodsbepalingen en de rehabilitatie] 1
-
-#### HOOFDSTUK 1. [ 1 - Verbodsbepalingen] 1
-
-###### Art. XX.229-XX.236
-
-#### HOOFDSTUK 2. [ 1 - Rehabilitatie] 1
-
-###### Art. XX.237-XX.241
-
-### Titel X. [ 1 - Intrekking faillissement] 1
-
-###### Art. XX.242
-
-### Titel XI. [ 1 Evaluatie van de insolventieprocedures] 1
-
-###### Art. XX.243
-
-BIJLAGE.
-
-###### Art. N
-
-## BOEK I. - Definities
-
-### Titel 1. [ 1 Algemene definities] 1
-
-2° consument : iedere natuurlijke persoon die handelt voor doeleinden die buiten zijn handels-, bedrijfs-, ambachts- of beroepsactiviteit vallen;  3° minister : de minister bevoegd voor Economie;  4° producten : goederen en diensten, onroerende goederen, rechten en verplichtingen;  5° dienst : elke prestatie verricht door een onderneming in het kader van haar professionele activiteit of in uitvoering van haar statutair doel;  6° goederen : de lichamelijke roerende zaken;  7° gedragscode : een overeenkomst of een aantal niet bij wettelijke, reglementaire of bestuursrechtelijke bepalingen voorgeschreven regels waarin wordt vastgesteld hoe ondernemingen die zich aan de code binden, zich moeten gedragen met betrekking tot een of meer handelspraktijken of bedrijfssectoren;  8° lidstaat : een lidstaat van de Europese Unie of in zoverre het akkoord over de Europese Economische Ruimte het voorziet, een Staat die dit akkoord heeft ondertekend;  9° werkdagen : het geheel van alle kalenderdagen met uitsluiting van de zondagen en wettelijke feestdagen. Als een termijn, uitgedrukt in werkdagen, op een zaterdag afloopt, wordt hij verlengd tot de eerstvolgende werkdag;  10° adres : een geografisch adres en, in voorkomend geval, het elektronisch adres;  11° elektronisch adres : een geheel van elektronische gegevens waarmee een persoon elektronisch kan gecontacteerd worden;  12° geografisch adres : het geheel van geografische gegevens omvattend, in voorkomend geval, het huisnummer, de straat, de postcode en de gemeente waar een persoon een vestiging heeft of gecontacteerd kan worden;  13° FOD Economie : de Federale Overheidsdienst Economie, K.M.O., Middenstand en Energie;  [ 2 14° beoefenaar van een vrij beroep: elke onderneming wiers activiteit er hoofdzakelijk in bestaat om, op onafhankelijke wijze en onder eigen verantwoordelijkheid, intellectuele prestaties te verrichten waarvoor een voorafgaande opleiding en een permanente vorming is vereist en die onderworpen is aan een plichtenleer waarvan de naleving door of krachtens een door de wet aangeduide tuchtrechtelijke instelling kan worden afgedwongen;] 2
-
-[ 4 15° duurzame gegevensdrager: elk hulpmiddel dat een fysieke persoon of rechtspersoon in staat stelt om persoonlijk aan hem gerichte informatie op te slaan, op een wijze die deze informatie voor hem toegankelijk maakt voor toekomstig gebruik gedurende een tijdsduur die is afgestemd op het doel waarvoor de informatie kan dienen, en die een ongewijzigde reproductie van de opgeslagen informatie mogelijk maakt. Voor zover deze functionaliteiten bewaard worden, kunnen als duurzame gegevensdrager beschouwd worden het papier of, in een digitale omgeving, een e-mail ontvangen door de bestemmeling of een elektronisch document bewaard op een opslagapparaat of toegevoegd aan een e-mail ontvangen door de bestemmeling;] 4
-
-[ 5 16° omzet voor de ondernemingen die in toepassing van artikel III.85 een vereenvoudigde boekhouding voeren: het bedrag van de andere dan niet-recurrente ontvangsten;  17° balanstotaal voor de ondernemingen die in toepassing van artikel III.85 een vereenvoudigde boekhouding voeren: het grootste van de twee bedragen vermeld onder de bezittingen en de schulden.] 5
-
-[ 4 Wanneer de uitdrukking "duurzame gegevensdrager" voorkomt in een wettelijke of reglementaire bepaling, moet ervan worden uitgegaan dat het begrip gedefinieerd is overeenkomstig de definitie bedoeld in 15° van het eerste lid;] 4
-
-[ 7 18° persoonsgegevens: de persoonsgegevens zoals gedefinieerd in artikel 4, punt 1), van Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van richtlijn 95/46/EG.] 7
-
-[ 6 Het eerste lid, 1°, 4°, en 5°, is niet van toepassing op boek XI. Het eerste lid, 8°, is niet van toepassing op boek XI, titels 3 tot en met 8.] 6 ] 1
-
-### Titel 2. - Definities eigen aan bepaalde boeken
-
-#### HOOFDSTUK 1. [ 1 Definities eigen aan boek III.] 1
-
-----------  ( 1 )<Ingevoegd bij W 2013-07-17/32, art. 2, 007; Inwerkingtreding : 09-05-2014>
-
-###### Art. I.2
-
-[ 1 Voor de toepassing van boek III gelden de volgende definities :  1° Kruispuntbank van Ondernemingen : register, opgericht binnen de FOD Economie, K.M.O., Middenstand en Energie, die belast is met de opdrachten bedoeld in artikel III.15;  2° bevoegde autoriteit : elke autoriteit of instantie die een toezichthoudende of regelgevende rol vervult ten aanzien van dienstenactiviteiten; met name de administratieve autoriteiten, met inbegrip van de rechtbanken die in die hoedanigheid optreden, de beroepsorden of andere professionele organen die in het kader van hun juridische autonomie de toegang tot de dienstenactiviteiten of de uitoefening ervan collectief regelen;  3° dienstverrichter : iedere natuurlijke persoon onderdaan van een lidstaat of rechtspersoon in de zin van artikel 54 van het VWEU, gevestigd in een lidstaat die een dienst aanbiedt of verricht;  4° vergunningstelsel : elke procedure die voor een dienstverrichter of voor een afnemer de verplichting inhoudt bij een bevoegde autoriteit stappen te ondernemen ter verkrijging van een formele of stilzwijgende beslissing over de toegang tot of de uitoefening van een dienstenactiviteit;  5° dienst : elke economische activiteit, anders dan in loondienst, die gewoonlijk tegen vergoeding geschiedt, bedoeld in artikel 57 van het VWEU;  6° vestiging : de daadwerkelijke uitoefening van een economische activiteit, zoals bedoeld in artikel 49 van het VWEU, door de dienstverrichter voor onbepaalde tijd en vanuit een duurzame infrastructuur van waaruit daadwerkelijk diensten worden verricht;  7° afnemer : iedere natuurlijke persoon die onderdaan is van een lidstaat of die rechten heeft die hem door communautaire besluiten zijn verleend, of iedere rechtspersoon in de zin van artikel 54 van het VWEU die in een lidstaat is gevestigd en, al dan niet voor beroepsdoeleinden, van een dienst gebruik maakt of wil maken;  8° gereglementeerd beroep : een beroepswerkzaamheid of een geheel van beroepswerkzaamheden waartoe de toegang of waarvan de uitoefening of één van de wijzen van uitoefening krachtens wettelijke of bestuursrechtelijke bepalingen direct of indirect afhankelijk wordt gesteld van het bezit van bepaalde beroepskwalificaties; met name het voeren van een beroepstitel die door wettelijke of bestuursrechtelijke bepalingen beperkt is tot personen die een specifieke beroepskwalificatie bezitten, geldt als een wijze van uitoefening;  9° [ 3 ...] 3
-
-10° [ 3 ...] 3
-
-11° [ 3 ...] 3
-
-12° vereiste : elke verplichting, verbodsbepaling, voorwaarde of beperking uit hoofde van de wet, het reglement of administratieve bepalingen of voortvloeiend uit de rechtspraak, de administratieve praktijk, de regels van beroepsorden of de collectieve regels van beroepsverenigingen of andere beroepsorganisaties, die deze in het kader van de hun toegekende juridische bevoegdheden hebben vastgesteld;  13° ondernemingsloket : de instelling die erkend is in uitvoering van boek III, titel 2, hoofdstuk 3 en belast is met taken van openbare dienst of van algemeen belang bedoeld in deze titel 2;  14° [ 3 ...] 3
-
-15° rechtspersonenregister : deelverzameling van de Kruispuntbank van Ondernemingen omvattende de gegevens van de in de Kruispuntbank van Ondernemingen geregistreerde rechtspersonen;  16° vestigingseenheid : een plaats die men geografisch gezien kan identificeren door een adres [ 4 in België] 4 , waar ten minste een activiteit van de [ 3 geregistreerde entiteit] 3 wordt uitgeoefend of van waaruit de activiteit wordt uitgeoefend;] 1
-
-----------  ( 1 )<Ingevoegd bij W 2013-07-17/32, art. 2, 007; Inwerkingtreding : 09-05-2014>  ( 2 )<W 2016-05-04/13, art. 12, 034; Inwerkingtreding : 01-06-2016>   ( 3 )<W 2018-04-15/14, art. 36, 059; Inwerkingtreding : 01-11-2018>   ( 4 )<W 2024-02-09/19, art. 3, 129; Inwerkingtreding : 31-03-2024>
-
-----------  ( 1 )<Ingevoegd bij W 2013-07-17/32, art. 2, 007; Inwerkingtreding : 09-05-2014>
-
-###### Art. I.4
-
-[ 1 Voor de toepassing van boek III, titel 2 gelden de volgende definities :  1° [ 2 geregistreerde entiteit] 2 : elke entiteit die zich dient in te schrijven in de Kruispuntbank van Ondernemingen krachtens artikel III.16;  2° dienst : openbare dienst, instelling, natuurlijke persoon of rechtspersoon, aan wie taken van openbare dienst of van algemeen belang zijn toevertrouwd in uitvoering van boek III, titel 2;  3° beheersdienst : de dienst binnen de Federale Overheidsdienst Economie, K.M.O., Middenstand en Energie belast met het beheer van de Kruispuntbank van Ondernemingen;  4° de minister : de minister bevoegd voor Middenstand;] 1
-
-[ 2 5° inschrijvingsplichtige onderneming : elke entiteit die zich dient in te schrijven krachtens artikel III.49;] 2
-
-[ 3 6° werkend vennoot: de persoon zoals gedefinieerd in artikel 23bis/1 van het koninklijk besluit nr. 38 van 27 juli 1967 houdende inrichting van het sociaal statuut der zelfstandigen";  "7° helper: de persoon zoals gedefinieerd in artikel 6 van het koninklijk besluit nr. 38 van 27 juli 1967 houdende inrichting van het sociaal statuut der zelfstandigen, met uitzondering van de personen bedoeld in de artikelen 7 en 7bis van voornoemd besluit.] 3
-
-----------  ( 1 )<Ingevoegd bij W 2013-07-17/32, art. 2, 007; Inwerkingtreding : 09-05-2014>  ( 2 )<W 2018-04-15/14, art. 37, 059; Inwerkingtreding : 01-11-2018>   ( 3 )<W 2023-12-22/06, art. 72, 126; Inwerkingtreding : 01-07-2024>
-
-###### Art. I.4/1
-
-[ 1 Voor de toepassing van boek III, titel 3, hoofdstuk 1, geldt de volgende definitie :  1° onderneming: iedere natuurlijke persoon of rechtspersoon die op duurzame wijze een economisch doel nastreeft, alsmede zijn verenigingen.] 1
-
-----------  ( 1 )<Ingevoegd bij W 2018-04-15/14, art. 38, 059; Inwerkingtreding : 01-11-2018>
-
-###### Art. I.5
-
-[ 1 Voor de toepassing van boek III, titel 3, hoofdstuk 2, geldt de volgende definitie :  1° boekhoudplichtige onderneming : een onderneming in de zin van artikel III.82;] 1
-
-----------  ( 1 )<W 2018-04-15/14, art. 39, 059; Inwerkingtreding : 01-11-2018>
-
-#### HOOFDSTUK 2. - [ 1 Definities eigen aan Boek IV.] 1
-
-----------  ( 1 )<W 2016-06-29/01, art. 2, 036; Inwerkingtreding : 16-07-2016>
-
-6° voorzitter: de voorzitter van de Belgische Mededingingsautoriteit;  7° auditoraat: het auditoraat van de Belgische Mededingingsautoriteit;  8° auditeur-generaal: de auditeur-generaal van de Belgische Mededingingsautoriteit;  9° auditeur: het personeelslid van het auditoraat dat door de auditeur-generaal wordt belast met de dagelijkse leiding van het onderzoek van een zaak;  10° auditeur-adviseur: het personeelslid van het auditoraat bedoeld in artikel IV.27, § 4;  11° onderzoeksteam: de personeelsleden van het auditoraat die met het onderzoek zijn belast onder de leiding van de auditeur en de algemene leiding van de auditeur-generaal  12° onderneming: iedere natuurlijke of rechtspersoon die op duurzame wijze een economisch doel nastreeft, alsmede zijn verenigingen;  13° [ 2 betrokken partij: de onderneming, de ondernemingsvereniging of de natuurlijke persoon op wie de onderzoeken en de beslissingen bedoeld in boek IV, titel 3, hoofdstuk 1, betrekking hebben;] 2
-
-[ 2 40° Verordening (EU) 2022/1925: Verordening (EU) 2022/1925 van het Europees Parlement en de Raad van 14 september 2022 over betwistbare en eerlijke markten in de digitale sector, en tot wijziging van Richtlijnen (EU) 2019/1937 en (EU) 2020/1828.] 2
-
-----------  ( 1 )<W 2022-02-28/02, art. 3, 104; Inwerkingtreding : 17-03-2022>   ( 2 )<W 2024-03-29/39, art. 3, 131; Inwerkingtreding : 13-05-2024>
-
-#### HOOFDSTUK 3. - [ 1 Definities eigen aan boek V.] 1
-
-----------  ( 1 )<Ingevoegd bij W 2013-04-03/18, art. 3,002; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art. 2)>
-
-###### Art. I.7
-
-[ 1 Voor de toepassing van boek V gelden de volgende definities :  1° prijzenobservatorium : de instelling belast met de observaties en analyses bedoeld in artikel 108, i), van de wet van 21 december 1994 houdende sociale en diverse bepalingen.  2° onderneming : iedere natuurlijke persoon of rechtspersoon die op duurzame wijze een economisch doel nastreeft, alsmede zijn verenigingen.] 1
-
-----------  ( 1 )<W 2018-04-15/14, art. 41, 059; Inwerkingtreding : 01-11-2018>
-
-#### HOOFDSTUK 4. [ 1 Definities eigen aan boek VI] 1
-
-----------  ( 1 )<Ingevoegd bij W 2013-12-21/23, art. 2, 009; Inwerkingtreding : 31-05-2014>
-
-35° [ 6 digitale inhoud: gegevens die in digitale vorm worden geproduceerd en geleverd;] 6
-
-36° openbare veiling: een verkoopmethode waarbij goederen of diensten door de onderneming worden aangeboden aan consumenten die persoonlijk aanwezig zijn of de mogelijkheid krijgen om persoonlijk aanwezig te zijn op de veiling, door middel van een transparante competitieve biedprocedure, onder leiding van een ministeriële ambtenaar die belast is met de openbare verkoopverrichtingen, en waarbij de winnende bieder verplicht is de goederen of diensten af te nemen;  37° commerciële garantie: iedere verbintenis van de onderneming of een producent om boven hetgeen hij wettelijk verplicht is uit hoofde van het recht op conformiteit, aan de consument de betaalde prijs terug te betalen of de goederen op enigerlei wijze te vervangen, herstellen of onderhouden, wanneer die niet voldoen aan de specificaties of aan enige andere vereisten die geen verband houden met de conformiteit, die vermeld zijn in de garantieverklaring of in de desbetreffende reclameboodschappen ten tijde van of vóór de sluiting van de overeenkomst;  38° aanvullende overeenkomst: een overeenkomst waarbij een consument goederen of diensten verwerft in verband met een overeenkomst, en deze goederen of diensten door de onderneming worden geleverd of door een derde partij op basis van een afspraak tussen die derde partij en de onderneming;] 1
-
-[ 5 39° onderneming : iedere natuurlijke persoon of rechtspersoon die op duurzame wijze een economisch doel nastreeft, alsmede zijn verenigingen;] 5
-
-[ 7 48° "Bel me niet meer!"-lijst: de lijst waarin de nummers zijn opgenomen waarvoor de abonnees en de gebruikers hun recht op verzet, overeenkomstig VI.110, § 2, hebben uitgeoefend.] 7
-
-----------  ( 1 )<Ingevoegd bij W 2013-12-21/23, art. 2, 009; Inwerkingtreding : 31-05-2014>   ( 2 )<KB 2017-12-13/14, art. 11,11°, 056; Inwerkingtreding : 01-01-2018>   ( 3 )<W 2017-08-11/14, art. 66, 058; Inwerkingtreding : 01-05-2018>   ( 4 )<W 2018-09-20/14, art. 4, 067; Inwerkingtreding : 20-10-2018>   ( 5 )<W 2018-04-15/14, art. 42, 059; Inwerkingtreding : 01-11-2018>   ( 6 )<W 2022-05-08/01, art. 4, 107; Inwerkingtreding : 28-05-2022>   ( 7 )<W 2024-02-08/05, art. 3, 128; Inwerkingtreding : 29-02-2024>
-
-###### Art. I.8/1
-
-[ 1 Onverminderd artikel I.8, met uitzondering van de bepalingen onder 4° en 20°, gelden voor boek VI, titel 4, hoofdstuk 2, afdeling 4, de volgende definities:  1° landbouw- en voedingsproducten: de producten die zijn vermeld in bijlage I bij het verdrag betreffende de werking van de Europese Unie, alsmede producten die niet in die bijlage zijn vermeld maar op basis van in die bijlage vermelde producten zijn verwerkt voor gebruik als voedingsmiddel;  2° afnemer: een natuurlijke persoon of rechtspersoon, ongeacht de plaats van vestiging van die persoon, of een overheidsinstantie in de Unie, die landbouw- en voedingsproducten koopt; de term "afnemer" kan een groepering van die natuurlijke of rechtspersonen omvatten, met inbegrip van overheidsinstanties;  3° overheidsinstantie: nationale, regionale of lokale overheidsinstanties, publiekrechtelijke instellingen of samenwerkingsverbanden bestaande uit een of meer van dergelijke overheidsinstanties of een of meer van dergelijke publiekrechtelijke instellingen;  4° leverancier: een landbouwproducent of een natuurlijke of rechtspersoon, ongeacht hun plaats van vestiging, die landbouw- en voedingsproducten verkoopt; de term "leverancier" kan een groepering van dergelijke landbouwproducenten of een groepering van dergelijke natuurlijke personen en rechtspersonen omvatten, zoals producentenorganisaties, leveranciersorganisaties en verenigingen van dergelijke organisaties.] 1
-
-----------  ( 1 )<Ingevoegd bij W 2021-11-28/08, art. 2, 102; Inwerkingtreding : 25-12-2021>
-
-#### HOOFDSTUK 5.   <Opgeheven bij W 2018-04-15/14, art. 43, 059; Inwerkingtreding : 01-11-2018>
 
 ###### Art. I.8 .  <Opgeheven bij W 2018-04-15/14, art. 43, 059; Inwerkingtreding : 01-11-2018>
 
@@ -896,7 +133,7 @@ conformiteitsbeoordelingsinstelling] 3 voldoet aan de eisen die zijn bepaald doo
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 2, 024; Inwerkingtreding : 22-09-2014>  ( 2 )<Ingevoegd bij W 2014-04-19/60, art. 2, 024; Inwerkingtreding : 01-01-2015>  ( 3 )<W 2015-07-20/15, art. 3, 027; Inwerkingtreding : 03-09-2015>   ( 4 )<W 2022-06-19/03, art. 2, 113; Inwerkingtreding : 01-08-2022>
 
-[ 2 17° octrooigemachtigde: de natuurlijke persoon die beroepshalve adviestaken inzake uitvindingsoctrooien uitoefent en derden vertegenwoordigt voor de Dienst, met uitzondering van de werknemers bedoeld in artikel XI.62, § 6, en de advocaten bedoeld in artikel XI.64/2.] 2
+[ 2 17° octrooigemachtigde: de natuurlijke persoon die beroepshalve adviestaken inzake uitvindingsoctrooien uitoefent en derden vertegenwoordigt voor de Dienst, met uitzondering van de werknemers bedoeld in artikel XI.62, § 6, en de advocaten bedoeld in artikel XI.64/2. ] 2
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 2, 024; Inwerkingtreding : 22-09-2014>  ( 2 )<W 2018-07-08/06, art. 4, 061; Inwerkingtreding : 01-04-2024>
 
@@ -1750,7 +987,7 @@ boekhoudplichtige] 2 ondernemingen.  § 2. De Koning kan de door Hem op grond va
 
 ###### Art. IV.4
 
-[ 1 Het verbod van artikel IV.1, § 1, is niet van toepassing op overeenkomsten, besluiten van ondernemingsverenigingen en onderling afgestemde feitelijke gedragingen van ondernemingen die binnen de werkingssfeer vallen van een koninklijk besluit genomen op grond van artikel IV.5.] 1
+[ 1 Het verbod van artikel IV.1, § 1, is niet van toepassing op overeenkomsten, besluiten van ondernemingsverenigingen en onderling afgestemde feitelijke gedragingen van ondernemingen die binnen de werkingssfeer vallen van een koninklijk besluit genomen op grond van artikel IV.5. ] 1
 
 ----------  ( 1 )<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
@@ -1786,7 +1023,7 @@ boekhoudplichtige] 2 ondernemingen.  § 2. De Koning kan de door Hem op grond va
 
 ###### Art. IV.11
 
-[ 1 De concentraties die onderworpen zijn aan het toezicht van de Europese Commissie, met inbegrip van concentraties die bij toepassing van artikel 22 van Verordening (EG) nr. 139/2004 zijn verwezen naar de Europese Commissie, zijn niet onderworpen aan het toezicht ingesteld bij dit hoofdstuk.  Zijn echter wel onderworpen aan het toezicht ingesteld door dit hoofdstuk, de concentraties die door de Europese Commissie naar de Belgische Mededingingsautoriteit werden verwezen krachtens de [ 2 artikelen 4, vierde lid] 2 , en 9, eerste lid, van Verordening (EG) nr. 139/2004. In dat geval dienen de partijen de concentratie opnieuw te melden bij de auditeur-generaal overeenkomstig artikel IV.10.] 1
+[ 1 De concentraties die onderworpen zijn aan het toezicht van de Europese Commissie, met inbegrip van concentraties die bij toepassing van artikel 22 van Verordening (EG) nr. 139/2004 zijn verwezen naar de Europese Commissie, zijn niet onderworpen aan het toezicht ingesteld bij dit hoofdstuk.  Zijn echter wel onderworpen aan het toezicht ingesteld door dit hoofdstuk, de concentraties die door de Europese Commissie naar de Belgische Mededingingsautoriteit werden verwezen krachtens de [ 2 artikelen 4, vierde lid] 2 , en 9, eerste lid, van Verordening (EG) nr. 139/2004. In dat geval dienen de partijen de concentratie opnieuw te melden bij de auditeur-generaal overeenkomstig artikel IV.10. ] 1
 
 ----------  ( 1 )<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>   ( 2 )<W 2024-03-29/39, art. 4, 131; Inwerkingtreding : 13-05-2024>
 
@@ -1872,7 +1109,9 @@ boekhoudplichtige] 2 ondernemingen.  § 2. De Koning kan de door Hem op grond va
 
 ----------  ( 1 )<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>   ( 2 )<W 2024-03-29/39, art. 10, 131; Inwerkingtreding : 13-05-2024>
 
-##### Afdeling 3. [ 1 - Mededingingscollege] 1 - Onderafdeling 2.   <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
+##### Afdeling 3. [ 1 - Mededingingscollege] 1
+
+###### Onderafdeling 2. <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 ----------  ( 1 )<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
@@ -1974,7 +1213,9 @@ schikkingsverklaringen, onverminderd de artikelen XVII.77, XVII.78 en XVII.79] 2
 
 ----------  ( 1 )<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>   ( 2 )<W 2022-02-28/02, art. 11, 104; Inwerkingtreding : 17-03-2022>
 
-##### Afdeling 8. [ 1 - Beroepsgeheim, geheimhoudingsplicht en immuniteit] 1 - Onderafdeling 6.   <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
+##### Afdeling 8. [ 1 - Beroepsgeheim, geheimhoudingsplicht en immuniteit] 1
+
+###### Onderafdeling 6. <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 ###### Art. IV.34
 
@@ -2032,7 +1273,7 @@ en de personeelsleden van de Belgische Mededingingsautoriteit, alsook elke perso
 
 ###### Art. IV.39
 
-[ 1 De auditeur-generaal beslist tot het openen van een onderzoek:  1° op verzoek van de aanmeldende partijen in het geval van een aangemelde concentratie;  2° ambtshalve of na een klacht van een natuurlijke persoon of rechtspersoon die aantoont daarbij een rechtmatig belang te hebben, in het geval van een inbreuk op artikel IV.1, § 1, op artikel IV.1, § 4, op artikel IV.2, [ 2 op artikel IV.2/1,] 2 op artikel IV.10, § 1, op artikel IV.10, § 4, of in geval van niet-naleving van een beslissing genomen krachtens de artikelen IV.10, § 6, IV.44, § 1, 2°, IV.45, eerste lid, 2°, IV.46 § 2, 1°, IV.52, IV.66, IV.69, IV.71 of IV.73;  3° op verzoek of op injunctie van de minister;  4° op verzoek van de minister van Middenstand, van een geëigende openbare instelling of ander overheidslichaam, belast met het toezicht of de controle op een economische sector in het geval van een inbreuk op artikel IV.1, § 1, op artikel IV.2 [ 2 , op artikel IV.2/1] 2 of op artikel IV.10, § 1;  5° ambtshalve of op verzoek van de minister met het oog op het nemen van een koninklijk besluit tot groepsgewijze ontheffing van overeenkomsten, besluiten en onderling afgestemde feitelijke gedragingen op grond van artikel IV.5.] 1
+[ 1 De auditeur-generaal beslist tot het openen van een onderzoek:  1° op verzoek van de aanmeldende partijen in het geval van een aangemelde concentratie;  2° ambtshalve of na een klacht van een natuurlijke persoon of rechtspersoon die aantoont daarbij een rechtmatig belang te hebben, in het geval van een inbreuk op artikel IV.1, § 1, op artikel IV.1, § 4, op artikel IV.2, [ 2 op artikel IV.2/1,] 2 op artikel IV.10, § 1, op artikel IV.10, § 4, of in geval van niet-naleving van een beslissing genomen krachtens de artikelen IV.10, § 6, IV.44, § 1, 2°, IV.45, eerste lid, 2°, IV.46 § 2, 1°, IV.52, IV.66, IV.69, IV.71 of IV.73;  3° op verzoek of op injunctie van de minister;  4° op verzoek van de minister van Middenstand, van een geëigende openbare instelling of ander overheidslichaam, belast met het toezicht of de controle op een economische sector in het geval van een inbreuk op artikel IV.1, § 1, op artikel IV.2 [ 2 , op artikel IV.2/1] 2 of op artikel IV.10, § 1;  5° ambtshalve of op verzoek van de minister met het oog op het nemen van een koninklijk besluit tot groepsgewijze ontheffing van overeenkomsten, besluiten en onderling afgestemde feitelijke gedragingen op grond van artikel IV.5. ] 1
 
 [ 3 Om te beoordelen of het wenselijk is een onderzoek te openen, kan de auditeur-generaal een auditeur aanwijzen om door middel van de in de artikelen IV.40 en IV.40/1 bedoelde maatregelen alle nuttige inlichtingen te verzamelen. De auditeur vermeldt de rechtsgrond en het doel van de genomen maatregelen. Indien de auditeur- generaal van oordeel is dat de opening van een onderzoek niet gerechtvaardigd is, sluit hij het dossier en doet hij alle ter zake dienende mededelingen.] 3
 
@@ -2077,7 +1318,9 @@ en de personeelsleden van de Belgische Mededingingsautoriteit, alsook elke perso
 ----------  ( 1 )<Ingevoegd bij W 2022-02-28/02, art. 1, 104; Inwerkingtreding : 17-03-2022>
 
 
-##### Afdeling 2.   <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019> - Onderafdeling 1.   <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
+##### Afdeling 2. <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
+
+###### Onderafdeling 1. <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 § 3. Ingeval de auditeur de vertrouwelijkheid ten aanzien van een betrokken partij aanvaardt, heeft die partij enkel toegang tot de niet-vertrouwelijke versie of samenvatting, behoudens toepassing van het derde lid.  Ingeval de auditeur de vertrouwelijkheid van een document of gegeven of de niet-vertrouwelijke versie of samenvatting niet aanvaardt, deelt hij dit, met vermelding van zijn redenen, mee aan de persoon van of bij wie het document of het gegeven is verkregen.  De auditeur kan beslissen dat het belang van een effectieve toepassing van dit boek zwaarder weegt dan de bescherming van het vertrouwelijk karakter van de verstrekte documenten of gegevens zodat de vertrouwelijkheid wordt opgeheven ten aanzien van de betrokken partijen die hij aanwijst.  De auditeur deelt zijn gemotiveerde beslissing mee aan de persoon van of bij wie het document of gegeven is verkregen.  § 4. De auditeur kan, in het belang van het onderzoek, beslissen dat bepaalde documenten en gegevens die hij aanwijst, als vertrouwelijk moeten worden behandeld. Hij deelt dit mee aan de persoon van of bij wie het document of het gegeven is verkregen en gelast deze persoon om een niet-vertrouwelijke versie of samenvatting te verstrekken [ 2 of stelt zelf een niet-vertrouwelijke versie of samenvatting op] 2 .  § 5. Tegen de beslissing van de auditeur over de vertrouwelijkheid van de documenten en de gegevens kan door de persoon van of bij wie het document of het gegeven is verkregen beroep worden ingediend bij de voorzitter binnen drie werkdagen na ontvangst van de kennisgeving van de beslissing. De voorzitter wijst, zonder kennis te nemen van de gronden van het beroep, een assessor aan die oordeelt over de vertrouwelijkheid en geen zitting mag hebben in het Mededingingscollege dat gevat wordt door de zaak.  De aangewezen assessor hoort, op hun verzoek, de persoon van of bij wie het document of het gegeven is verkregen evenals de auditeur binnen vijf werkdagen na ontvangst van het beroep, en spreekt zich bij gemotiveerde beslissing binnen vijf werkdagen na de hoorzitting uit over het beroep. De termijnen van vijf werkdagen worden verminderd tot twee werkdagen indien het een onderzoek inzake een concentratie betreft.  De beslissing van de aangewezen assessor wordt opgenomen in het onderzoeksdossier, na verwijdering van de vertrouwelijke gegevens.  De beslissing van de aangewezen assessor is niet vatbaar voor afzonderlijk beroep.  De auditeur deelt geen vertrouwelijke documenten en gegevens, die het voorwerp zijn van het in het eerste lid bedoelde beroep, mee zolang er geen uitspraak is over het beroep.] 1
 
@@ -2085,7 +1328,9 @@ en de personeelsleden van de Belgische Mededingingsautoriteit, alsook elke perso
 
 ----------  ( 1 )<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>   ( 2 )<W 2022-02-28/02, art. 22, 104; Inwerkingtreding : 17-03-2022>
 
-##### Afdeling 2.   <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019> - Onderafdeling 2.   <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
+##### Afdeling 2. <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
+
+###### Onderafdeling 2. <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 met toepassing van artikel IV.40/5] 2 . Het onderzoeksdossier bevat niet de interne documenten van de Belgische Mededingingsautoriteit noch de correspondentie tussen de Belgische Mededingingsautoriteit en andere mededingingsautoriteiten, behoudens andersluidende beslissing van de auditeur.  De auditeur stelt de inventaris op van het onderzoeksdossier met opgave van de vertrouwelijkheidsregeling van elk document. De inventaris maakt deel uit van het onderzoeksdossier.  § 2. De auditeur stelt ook het proceduredossier samen.  Het proceduredossier bevat de documenten en gegevens uit het onderzoeksdossier waarop de auditeur steunt in zijn voorstel van beslissing.  De auditeur stelt de inventaris op van het proceduredossier met opgave van de vertrouwelijkheidsregeling van elk document. De inventaris maakt deel uit van het proceduredossier.  § 3. Het secretariaat vult het proceduredossier, alsmede de inventaris ervan, aan met alle documenten van de procedure voor het Mededingingscollege, onder meer:  1° alle documenten die worden ingediend bij het Mededingingscollege;  2° de door het Mededingingscollege, de voorzitter van het Mededingingscollege of een assessor gevoerde briefwisseling met de auditeur-generaal, de auditeur, de betrokken partijen, de klager, de belanghebbende derden of derden die door het Mededingingscollege worden gehoord of uitgenodigd documenten en geschriften in te dienen;  3° de door het Mededingingscollege, de voorzitter van het Mededingingscollege of een assessor in de zaak genomen beslissingen en eventuele aanvullingen, wijzigingen en uitvoeringsakten daarvan.  Het secretariaat geeft de betrokken partijen toegang tot het proceduredossier en de geactualiseerde inventaris ervan, met inachtneming van de vertrouwelijkheidsclassificatie van de betrokken documenten en gegevens.] 1
 
@@ -2109,7 +1354,9 @@ met toepassing van artikel IV.40/5] 2 . Het onderzoeksdossier bevat niet de inte
 
 ----------  ( 1 )<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>   ( 2 )<W 2022-02-28/02, art. 26, 104; Inwerkingtreding : 17-03-2022>
 
-##### Afdeling 2. [ 1 - Bijzondere onderzoeksregels inzake inbreuken op het mededingingsrecht en niet-naleving van beslissingen] 1 - Onderafdeling 3.   <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
+##### Afdeling 2. [ 1 - Bijzondere onderzoeksregels inzake inbreuken op het mededingingsrecht en niet-naleving van beslissingen] 1
+
+###### Onderafdeling 3. <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 ###### Art. IV.45
 
@@ -2157,7 +1404,9 @@ De voorzitter van het Mededingingscollege verlengt de in het eerste lid bedoelde
 
 ----------  ( 1 )<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>   ( 2 )<W 2022-02-28/02, art. 32, 104; Inwerkingtreding : 17-03-2022>
 
-##### Afdeling 3. [ 1 - Beslissing inzake inbreuken op het mededingingsrecht en niet-naleving van beslissingen] 1 - Onderafdeling 4.   <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
+##### Afdeling 3. [ 1 - Beslissing inzake inbreuken op het mededingingsrecht en niet-naleving van beslissingen] 1
+
+###### Onderafdeling 4. <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 ###### Art. IV.51
 
@@ -2251,13 +1500,15 @@ De betrokken partij erkent in de schikkingsverklaring haar betrokkenheid bij de 
 
 ###### Art. IV.59
 
-[ 1 § 1. Ingeval de schikkingsverklaring van een betrokken partij beantwoordt aan de voorwaarden gesteld in artikel IV.58, kan de auditeur, na advies van de auditeur-adviseur, een schikkingsbeslissing nemen overeenkomstig het ontwerp van schikkingsbeslissing en de procedure sluiten ten aanzien van die partij.  [ 2 De schikkingsbeslissing stelt ten aanzien van de betrokken partij of partijen de inbreuk op het mededingingsrecht en de boete vast, opgelegd voor de opzettelijke of uit onachtzaamheid gepleegde inbreuk, en neemt akte van hun schikkingsverklaringen. De beslissing geldt als een beslissing van het Mededingingscollege zoals bedoeld in artikel IV.52.] 2
+[ 1 § 1. Ingeval de schikkingsverklaring van een betrokken partij beantwoordt aan de voorwaarden gesteld in artikel IV.58, kan de auditeur, na advies van de auditeur-adviseur, een schikkingsbeslissing nemen overeenkomstig het ontwerp van schikkingsbeslissing en de procedure sluiten ten aanzien van die partij.  [ 2 De schikkingsbeslissing stelt ten aanzien van de betrokken partij of partijen de inbreuk op het mededingingsrecht en de boete vast, opgelegd voor de opzettelijke of uit onachtzaamheid gepleegde inbreuk, en neemt akte van hun schikkingsverklaringen. De beslissing geldt als een beslissing van het Mededingingscollege zoals bedoeld in artikel IV.52. ] 2
 
 De schikkingsbeslissing is niet vatbaar voor beroep.  § 2. De auditeur stelt de betrokken partij in kennis van de schikkingsbeslissing en nodigt haar uit de vertrouwelijke passages aan te stippen. De beslissing van de auditeur tot vaststelling van de niet-vertrouwelijke versie van de schikkingsbeslissing is niet vatbaar voor beroep.  De auditeur bezorgt een afschrift van de niet-vertrouwelijke versie aan het secretariaat met het oog op de bekendmaking ervan en voor mededeling ervan aan de eventuele klager.] 1
 
 ----------  ( 1 )<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>   ( 2 )<W 2022-02-28/02, art. 46, 104; Inwerkingtreding : 17-03-2022>
 
-##### Afdeling 5. [ 1 - Procedure inzake schikkingen] 1 - Onderafdeling 6.   <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
+##### Afdeling 5. [ 1 - Procedure inzake schikkingen] 1
+
+###### Onderafdeling 6. <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 ###### Art. IV.60
 
@@ -2283,7 +1534,9 @@ Behoudens ingeval voldaan is aan de voorwaarden voor de toepassing van de vereen
 
 ----------  ( 1 )<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>   ( 2 )<W 2023-11-05/07, art. 9, 123; Inwerkingtreding : 21-12-2023>
 
-##### Afdeling 6. [ 1 - Bijzondere onderzoeksregels inzake concentraties] 1 - Onderafdeling 8.-.   <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
+##### Afdeling 6. [ 1 - Bijzondere onderzoeksregels inzake concentraties] 1
+
+###### Onderafdeling 8. -.   <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 ###### Art. IV.64
 
@@ -2303,7 +1556,9 @@ Behoudens ingeval voldaan is aan de voorwaarden voor de toepassing van de vereen
 
 ----------  ( 1 )<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>   ( 2 )<W 2021-02-02/06, art. 3, 096; Inwerkingtreding : 21-02-2021>   ( 3 )<W 2022-02-28/02, art. 49, 104; Inwerkingtreding : 17-03-2022>
 
-##### Afdeling 7. [ 1 - Beslissing inzake concentraties] 1 - Onderafdeling 10.   <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
+##### Afdeling 7. [ 1 - Beslissing inzake concentraties] 1
+
+###### Onderafdeling 10. <Opgeheven bij W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>
 
 ###### Art. IV.67
 
@@ -2441,7 +1696,7 @@ Het Mededingingscollege kan de in het eerste lid bedoelde geldboeten en dwangsom
 
 dwangsom opleggen teneinde de voorlopige maatregelen, bedoeld in artikel IV.71, te doen naleven.] 1
 
-[ 2 § 2. In afwijking van paragraaf 1 is de in artikel IV.79, § 2, bedoelde dwangsom van toepassing, wanneer de voorlopige maatregelen betrekking hebben op misbruik van een positie van economische afhankelijkheid in de zin van artikel IV.2/1.] 2
+[ 2 § 2. In afwijking van paragraaf 1 is de in artikel IV.79, § 2, bedoelde dwangsom van toepassing, wanneer de voorlopige maatregelen betrekking hebben op misbruik van een positie van economische afhankelijkheid in de zin van artikel IV.2/1. ] 2
 
 ----------  ( 1 )<W 2019-05-02/34, art. 3, 078; Inwerkingtreding : 03-06-2019>   ( 2 )<KB 2020-07-31/11, art. 5, 088; Inwerkingtreding : 22-08-2020>   ( 3 )<W 2022-02-28/02, art. 68, 104; Inwerkingtreding : 17-03-2022>
 
@@ -2777,7 +2032,7 @@ Indien het aantal aanvragen uitzonderlijk hoog is, kunnen de termijnen door de K
 
 ###### Art. VI.7/1
 
-[ 3 § 1. Elke onderneming rondt het totaalbedrag dat de consument in speciën betaalt, af naar het dichtstbijzijnde veelvoud van vijf cent.  § 2. Het is de onderneming ook toegelaten het totaalbedrag af te ronden, wanneer de betaling op een andere wijze dan in speciën gebeurt.  De Koning kan, bij een besluit, vastgesteld na overleg in de Ministerraad, de afronding voor betalingen op een andere wijze dan in speciën verplicht stellen, wanneer de vrijwillige afronding ruime toepassing vindt.  § 3. De bepalingen van de paragrafen 1 en 2 zijn enkel van toepassing voor zover:  1° de betaling plaatsvindt in de gelijktijdige, fysieke aanwezigheid van de consument en de onderneming;  2° het totaalbedrag hoger is dan vijf cent;  3° voldaan is aan de voorwaarden van artikel VI.7/2.] 3
+[ 3 § 1. Elke onderneming rondt het totaalbedrag dat de consument in speciën betaalt, af naar het dichtstbijzijnde veelvoud van vijf cent.  § 2. Het is de onderneming ook toegelaten het totaalbedrag af te ronden, wanneer de betaling op een andere wijze dan in speciën gebeurt.  De Koning kan, bij een besluit, vastgesteld na overleg in de Ministerraad, de afronding voor betalingen op een andere wijze dan in speciën verplicht stellen, wanneer de vrijwillige afronding ruime toepassing vindt.  § 3. De bepalingen van de paragrafen 1 en 2 zijn enkel van toepassing voor zover:  1° de betaling plaatsvindt in de gelijktijdige, fysieke aanwezigheid van de consument en de onderneming;  2° het totaalbedrag hoger is dan vijf cent;  3° voldaan is aan de voorwaarden van artikel VI.7/2. ] 3
 
 ----------  ( 1 )<Ingevoegd bij W 2014-05-15/02, art. 43, 025; Inwerkingtreding : 01-10-2014; zie KB 2014-09-22/01, art. 1>   ( 2 )<W 2015-12-18/17, art. 49, 029; Inwerkingtreding : 08-01-2016>   ( 3 )<W 2019-05-02/28, art. 4, 077; Inwerkingtreding : 01-12-2019>
 
@@ -3097,7 +2352,7 @@ instemming met behulp van een duurzame gegevensdrager] 2 heeft gestuurd. [ 2 ...
 
 ###### Art. VI.52
 
-[ 1 § 1. De uitoefening van het herroepingsrecht beëindigt de verplichting voor de partijen om:  1° de overeenkomst op afstand uit te voeren, of  2° een overeenkomst op afstand te sluiten, in het geval de consument een aanbod heeft gedaan.  § 2. [ 2 Onverminderd de toepassing van artikel VII. 92, eerste en tweede lid,] 2 stelt de uitoefening door de consument van zijn herroepingsrecht voor een overeenkomst op afstand overeenkomstig de artikelen VI.47 tot en met VI.52, § 1, automatisch een einde aan elke aanvullende overeenkomst, zonder kosten voor de consument, behoudens de kosten bedoeld in artikel VI.50, § 2, en artikel VI.51.] 1
+[ 1 § 1. De uitoefening van het herroepingsrecht beëindigt de verplichting voor de partijen om:  1° de overeenkomst op afstand uit te voeren, of  2° een overeenkomst op afstand te sluiten, in het geval de consument een aanbod heeft gedaan.  § 2. [ 2 Onverminderd de toepassing van artikel VII. 92, eerste en tweede lid,] 2 stelt de uitoefening door de consument van zijn herroepingsrecht voor een overeenkomst op afstand overeenkomstig de artikelen VI.47 tot en met VI.52, § 1, automatisch een einde aan elke aanvullende overeenkomst, zonder kosten voor de consument, behoudens de kosten bedoeld in artikel VI.50, § 2, en artikel VI.51. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>  ( 2 )<W 2014-04-19/39, art. 22, 021; Inwerkingtreding : 01-04-2015>
 
@@ -3119,7 +2374,7 @@ instemming met behulp van een duurzame gegevensdrager] 2 heeft gestuurd. [ 2 ...
 ##### Afdeling 2. - [ 1 Overeenkomsten op afstand met betrekking tot financiële diensten] 1
 ###### Art. VI.56
 
-[ 1 In geval van communicatie per spraaktelefonie moeten de identiteit van de onderneming en het commerciële oogmerk van de oproep aan het begin van elk gesprek met de consument expliciet duidelijk worden gemaakt.  Mits de consument hiermee uitdrukkelijk toestemt, hoeft alleen de volgende informatie te worden verstrekt:  a) de identiteit en de hoedanigheid van de persoon die in contact staat met de consument en zijn band met de aanbieder;  b) een beschrijving van de belangrijkste kenmerken van de financiële dienst;  c) de totale prijs die de consument aan de onderneming moet betalen voor de financiële dienst, met inbegrip van alle daarmee samenhangende vergoedingen, kosten en uitgaven, alsmede alle belastingen en taksen die via de onderneming moeten worden betaald, of, wanneer de exacte prijs niet kan worden aangegeven, de grondslag voor de berekening van de prijs, zodat de consument deze kan nagaan;  d) de vermelding van het eventuele bestaan van andere taksen, belastingen en/of kosten die niet via de onderneming worden betaald of door haar worden opgelegd;  e) het al dan niet bestaan van het herroepingsrecht waarin artikel VI.58 voorziet en, waar dat recht bestaat, de duur en de wijze van de uitoefening van dat recht, met inbegrip van informatie over het bedrag dat de consument gehouden kan zijn te betalen op grond van artikel VI.59, § 1, alsook de gevolgen van het niet uitoefenen van dat recht.  De onderneming deelt de consument mee dat op verzoek andere informatie beschikbaar is, en stelt hem in kennis van de aard van die informatie. De onderneming verstrekt in elk geval de volledige informatie wanneer ze voldoet aan haar verplichtingen krachtens artikel VI.57.] 1
+[ 1 In geval van communicatie per spraaktelefonie moeten de identiteit van de onderneming en het commerciële oogmerk van de oproep aan het begin van elk gesprek met de consument expliciet duidelijk worden gemaakt.  Mits de consument hiermee uitdrukkelijk toestemt, hoeft alleen de volgende informatie te worden verstrekt:  a) de identiteit en de hoedanigheid van de persoon die in contact staat met de consument en zijn band met de aanbieder;  b) een beschrijving van de belangrijkste kenmerken van de financiële dienst;  c) de totale prijs die de consument aan de onderneming moet betalen voor de financiële dienst, met inbegrip van alle daarmee samenhangende vergoedingen, kosten en uitgaven, alsmede alle belastingen en taksen die via de onderneming moeten worden betaald, of, wanneer de exacte prijs niet kan worden aangegeven, de grondslag voor de berekening van de prijs, zodat de consument deze kan nagaan;  d) de vermelding van het eventuele bestaan van andere taksen, belastingen en/of kosten die niet via de onderneming worden betaald of door haar worden opgelegd;  e) het al dan niet bestaan van het herroepingsrecht waarin artikel VI.58 voorziet en, waar dat recht bestaat, de duur en de wijze van de uitoefening van dat recht, met inbegrip van informatie over het bedrag dat de consument gehouden kan zijn te betalen op grond van artikel VI.59, § 1, alsook de gevolgen van het niet uitoefenen van dat recht.  De onderneming deelt de consument mee dat op verzoek andere informatie beschikbaar is, en stelt hem in kennis van de aard van die informatie. De onderneming verstrekt in elk geval de volledige informatie wanneer ze voldoet aan haar verplichtingen krachtens artikel VI.57. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -3227,7 +2482,7 @@ instemming met behulp van een duurzame gegevensdrager] 2 heeft gestuurd. [ 2 ...
 
 ###### Art. VI.72
 
-[ 1 § 1. De uitoefening van het herroepingsrecht beëindigt de verplichting voor de partijen om :  1° de buiten verkoopruimten gesloten overeenkomst uit te voeren, of  2° de buiten verkoopruimte overeenkomst te sluiten, in het geval de consument een aanbod heeft gedaan.  § 2. Onverminderd [ 2 artikel VII.92] 2 , stelt de uitoefening door de consument van zijn herroepingsrecht voor een buiten verkoopruimten gesloten overeenkomst overeenkomstig de artikelen VI.67 tot en met VI.71, automatisch een einde aan elke aanvullende overeenkomst, zonder kosten voor de consument, behoudens de kosten bedoeld in artikel VI.70, § 2 en artikel VI.71.] 1
+[ 1 § 1. De uitoefening van het herroepingsrecht beëindigt de verplichting voor de partijen om :  1° de buiten verkoopruimten gesloten overeenkomst uit te voeren, of  2° de buiten verkoopruimte overeenkomst te sluiten, in het geval de consument een aanbod heeft gedaan.  § 2. Onverminderd [ 2 artikel VII.92] 2 , stelt de uitoefening door de consument van zijn herroepingsrecht voor een buiten verkoopruimten gesloten overeenkomst overeenkomstig de artikelen VI.67 tot en met VI.71, automatisch een einde aan elke aanvullende overeenkomst, zonder kosten voor de consument, behoudens de kosten bedoeld in artikel VI.70, § 2 en artikel VI.71. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>  ( 2 )<W 2018-07-30/47, art. 7, 065; Inwerkingtreding : 15-09-2018>
 
@@ -3345,7 +2600,7 @@ instemming met behulp van een duurzame gegevensdrager] 2 heeft gestuurd. [ 2 ...
 
 ###### Art. VI.90
 
-[ 1 De consument moet de geleverde diensten slechts betalen bij de afgifte van het gevraagde bewijsstuk, indien deze afgifte dwingend is voorgeschreven krachtens artikel VI.89.] 1
+[ 1 De consument moet de geleverde diensten slechts betalen bij de afgifte van het gevraagde bewijsstuk, indien deze afgifte dwingend is voorgeschreven krachtens artikel VI.89. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2013-12-21/23, art. 3, 009; Inwerkingtreding : 31-05-2014>
 
@@ -3884,7 +3139,9 @@ TOEKOMSTIG RECHT .
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-##### Afdeling 2. - [ 1 Eenmalige betalingstransacties] 1 - Onderafdeling 1. - [ 1 Toepassingsgebied] 1
+##### Afdeling 2. - [ 1 Eenmalige betalingstransacties] 1
+
+###### Onderafdeling 1. - [ 1 Toepassingsgebied] 1
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -3894,7 +3151,9 @@ TOEKOMSTIG RECHT .
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-##### Afdeling 2. - [ 1 Eenmalige betalingstransacties] 1 - Onderafdeling 2. - [ 1 Voorafgaande informatie en voorwaarden] 1
+##### Afdeling 2. - [ 1 Eenmalige betalingstransacties] 1
+
+###### Onderafdeling 2. - [ 1 Voorafgaande informatie en voorwaarden] 1
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -3910,7 +3169,9 @@ TOEKOMSTIG RECHT .
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>   ( 2 )<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-##### Afdeling 2. - [ 1 Eenmalige betalingstransacties] 1 - Onderafdeling 3. - [ 1 Informatie na initiëring of ontvangst van een betalingsopdracht en na uitvoering van de transactie] 1
+##### Afdeling 2. - [ 1 Eenmalige betalingstransacties] 1
+
+###### Onderafdeling 3. - [ 1 Informatie na initiëring of ontvangst van een betalingsopdracht en na uitvoering van de transactie] 1
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -3948,7 +3209,9 @@ TOEKOMSTIG RECHT .
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-##### Afdeling 3. - [ 1 Raamcontract en de daaronder vallende afzonderlijke betalingstransacties] 1 - Onderafdeling 2. - [ 1 Voorafgaande informatie en voorwaarden] 1
+##### Afdeling 3. - [ 1 Raamcontract en de daaronder vallende afzonderlijke betalingstransacties] 1
+
+###### Onderafdeling 2. - [ 1 Voorafgaande informatie en voorwaarden] 1
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -3966,7 +3229,9 @@ TOEKOMSTIG RECHT .
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-##### Afdeling 3. - [ 1 Raamcontract en de daaronder vallende afzonderlijke betalingstransacties] 1 - Onderafdeling 3. - [ 1 Wijziging van de voorwaarden en opzegging van het raamcontract] 1
+##### Afdeling 3. - [ 1 Raamcontract en de daaronder vallende afzonderlijke betalingstransacties] 1
+
+###### Onderafdeling 3. - [ 1 Wijziging van de voorwaarden en opzegging van het raamcontract] 1
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -3978,7 +3243,9 @@ TOEKOMSTIG RECHT .
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-##### Afdeling 3. - [ 1 Raamcontract en de daaronder vallende afzonderlijke betalingstransacties] 1 - Onderafdeling 4. - [ 1 Afzonderlijke betalingstransacties] 1
+##### Afdeling 3. - [ 1 Raamcontract en de daaronder vallende afzonderlijke betalingstransacties] 1
+
+###### Onderafdeling 4. - [ 1 Afzonderlijke betalingstransacties] 1
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -4004,7 +3271,7 @@ TOEKOMSTIG RECHT .
 ##### Afdeling 1. - [ 1 Algemene regels] 1
 ###### Art. VII.29
 
-[ 1 Wanneer de betalingsdienstgebruiker geen consument is, kunnen partijen overeenkomen dat de artikelen VII.30, § 1, VII.32, § 3, VII.33, VII.42, VII.44, VII.46 en VII.47, VII.50, VII.55/3 tot VII.55/7, in het geheel of ten dele niet van toepassing zijn. Partijen kunnen ook een andere termijn overeenkomen dan die welke is bepaald in artikel VII.41.] 1
+[ 1 Wanneer de betalingsdienstgebruiker geen consument is, kunnen partijen overeenkomen dat de artikelen VII.30, § 1, VII.32, § 3, VII.33, VII.42, VII.44, VII.46 en VII.47, VII.50, VII.55/3 tot VII.55/7, in het geheel of ten dele niet van toepassing zijn. Partijen kunnen ook een andere termijn overeenkomen dan die welke is bepaald in artikel VII.41. ] 1
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -4019,7 +3286,9 @@ TOEKOMSTIG RECHT .
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-##### Afdeling 2. - [ 1 Toestaan van betalingstransacties] 1 - Onderafdeling 1. - [ 1 Instemming met de uitvoering van betalingsopdrachten en bevestiging betreffende de beschikbaarheid van geldmiddelen] 1
+##### Afdeling 2. - [ 1 Toestaan van betalingstransacties] 1
+
+###### Onderafdeling 1. - [ 1 Instemming met de uitvoering van betalingsopdrachten en bevestiging betreffende de beschikbaarheid van geldmiddelen] 1
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -4037,7 +3306,9 @@ TOEKOMSTIG RECHT .
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-##### Afdeling 2. - [ 1 Toestaan van betalingstransacties] 1 - Onderafdeling 2. - [ 1 Regels voor de toegang tot betaalrekeningen en voor de toegang tot en het gebruik van informatie over betaalrekeningen] 1
+##### Afdeling 2. - [ 1 Toestaan van betalingstransacties] 1
+
+###### Onderafdeling 2. - [ 1 Regels voor de toegang tot betaalrekeningen en voor de toegang tot en het gebruik van informatie over betaalrekeningen] 1
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -4053,13 +3324,17 @@ TOEKOMSTIG RECHT .
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-##### Afdeling 2. - [ 1 Toestaan van betalingstransacties] 1 - Onderafdeling 3. - [ 1 Restricties op het gebruik van betaalinstrumenten en op de toegang tot betaalrekeningen door betalingsdienstaanbieders] 1
+##### Afdeling 2. - [ 1 Toestaan van betalingstransacties] 1
+
+###### Onderafdeling 3. - [ 1 Restricties op het gebruik van betaalinstrumenten en op de toegang tot betaalrekeningen door betalingsdienstaanbieders] 1
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-##### Afdeling 2. - [ 1 Toestaan van betalingstransacties] 1 - Onderafdeling 4. - [ 1 Plichten met betrekking tot betaalinstrumenten en persoonlijke beveiligingsgegevens] 1
+##### Afdeling 2. - [ 1 Toestaan van betalingstransacties] 1
+
+###### Onderafdeling 4. - [ 1 Plichten met betrekking tot betaalinstrumenten en persoonlijke beveiligingsgegevens] 1
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -4075,13 +3350,15 @@ TOEKOMSTIG RECHT .
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-##### Afdeling 2. - [ 1 Toestaan van betalingstransacties] 1 - Onderafdeling 5. - [ 1 Kennisgeving en rectificatie van niet-toegestane of onjuist uitgevoerde betalingstransacties] 1
+##### Afdeling 2. - [ 1 Toestaan van betalingstransacties] 1
+
+###### Onderafdeling 5. - [ 1 Kennisgeving en rectificatie van niet-toegestane of onjuist uitgevoerde betalingstransacties] 1
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
 ###### Art. VII.41
 
-[ 1 § 1. De betalingsdienstgebruiker die zich rekenschap geeft van een niet-toegestane of onjuist uitgevoerde betalingstransactie welke aanleiding geeft tot een vordering, met inbegrip van een vordering bedoeld in de artikelen VII.55/3 tot VII.55/7, verkrijgt van de betalingsdienstaanbieder alleen rechtzetting van zulke transactie indien de betalingsdienstgebruiker de betalingsdienstaanbieder onverwijld en uiterlijk dertien maanden na de valutadatum van de debitering of creditering kennis geeft van de bewuste transactie, tenzij de betalingsdienstgebruiker, desgevallend, de informatie betreffende die betalingstransactie niet overeenkomstig de artikelen VII. 4 tot VII. 26 van dit boek heeft verstrekt of ter beschikking heeft gesteld.  § 2. Wanneer een betalingsinitiatiedienstaanbieder bij de transactie betrokken is, verkrijgt de betalingsdienstgebruiker rectificatie van de rekeninghoudende betalingsdienstaanbieder krachtens § 1, onverminderd artikel VII.43, § 2, en artikel VII.55/6.] 1
+[ 1 § 1. De betalingsdienstgebruiker die zich rekenschap geeft van een niet-toegestane of onjuist uitgevoerde betalingstransactie welke aanleiding geeft tot een vordering, met inbegrip van een vordering bedoeld in de artikelen VII.55/3 tot VII.55/7, verkrijgt van de betalingsdienstaanbieder alleen rechtzetting van zulke transactie indien de betalingsdienstgebruiker de betalingsdienstaanbieder onverwijld en uiterlijk dertien maanden na de valutadatum van de debitering of creditering kennis geeft van de bewuste transactie, tenzij de betalingsdienstgebruiker, desgevallend, de informatie betreffende die betalingstransactie niet overeenkomstig de artikelen VII. 4 tot VII. 26 van dit boek heeft verstrekt of ter beschikking heeft gesteld.  § 2. Wanneer een betalingsinitiatiedienstaanbieder bij de transactie betrokken is, verkrijgt de betalingsdienstgebruiker rectificatie van de rekeninghoudende betalingsdienstaanbieder krachtens § 1, onverminderd artikel VII.43, § 2, en artikel VII.55/6. ] 1
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -4091,7 +3368,9 @@ TOEKOMSTIG RECHT .
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-##### Afdeling 2. - [ 1 Toestaan van betalingstransacties] 1 - Onderafdeling 6. - [ 1 Aansprakelijkheid van de betalingsdienstaanbieder voor niet-toegestane betalingstransacties] 1
+##### Afdeling 2. - [ 1 Toestaan van betalingstransacties] 1
+
+###### Onderafdeling 6. - [ 1 Aansprakelijkheid van de betalingsdienstaanbieder voor niet-toegestane betalingstransacties] 1
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -4109,7 +3388,9 @@ TOEKOMSTIG RECHT .
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-##### Afdeling 2. - [ 1 Toestaan van betalingstransacties] 1 - Onderafdeling 7. - [ 1 Terugbetalingen van betalingstransacties die door of via de begunstigde zijn geïnitieerd] 1
+##### Afdeling 2. - [ 1 Toestaan van betalingstransacties] 1
+
+###### Onderafdeling 7. - [ 1 Terugbetalingen van betalingstransacties die door of via de begunstigde zijn geïnitieerd] 1
 
 ###### Art. VII.46
 
@@ -4126,7 +3407,9 @@ TOEKOMSTIG RECHT .
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-##### Afdeling 3. - [ 1 Uitvoering van betalingstransacties] 1 - Onderafdeling 1. - [ 1 Betalingsopdrachten en overgemaakte bedragen] 1
+##### Afdeling 3. - [ 1 Uitvoering van betalingstransacties] 1
+
+###### Onderafdeling 1. - [ 1 Betalingsopdrachten en overgemaakte bedragen] 1
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -4148,7 +3431,9 @@ TOEKOMSTIG RECHT .
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
-##### Afdeling 3. - [ 1 Uitvoering van betalingstransacties] 1 - Onderafdeling 2. - [ 1 Uitvoeringstermijn en valutadatum] 1
+##### Afdeling 3. - [ 1 Uitvoering van betalingstransacties] 1
+
+###### Onderafdeling 2. - [ 1 Uitvoeringstermijn en valutadatum] 1
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -4260,7 +3545,7 @@ TOEKOMSTIG RECHT .
 
 ###### Art. VII.56
 
-[ 1 De betalingsdienstaanbieder stelt de betalingsdienstgebruiker op de hoogte van ten minste één ADR-entiteit (= Alternative Dispute Resolution) die bevoegd is voor de behandeling van geschillen met betrekking tot de uit titel 3 voortvloeiende rechten en plichten en waaraan zij gehouden zijn zich aan te sluiten overeenkomstig artikel VII.216.  De informatie bedoeld in het eerste lid wordt verstrekt met inachtneming van de bepalingen in artikel XVI.4.] 1
+[ 1 De betalingsdienstaanbieder stelt de betalingsdienstgebruiker op de hoogte van ten minste één ADR-entiteit (= Alternative Dispute Resolution) die bevoegd is voor de behandeling van geschillen met betrekking tot de uit titel 3 voortvloeiende rechten en plichten en waaraan zij gehouden zijn zich aan te sluiten overeenkomstig artikel VII.216.  De informatie bedoeld in het eerste lid wordt verstrekt met inachtneming van de bepalingen in artikel XVI.4. ] 1
 
 ----------  ( 1 )<W 2018-07-19/09, art. 10, 063; Inwerkingtreding : 09-08-2018>
 
@@ -4537,7 +3822,9 @@ De Koning kan, bij een in Ministerraad overlegd besluit, na advies van de Commis
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
 
-##### Afdeling 1. [ 1 – Kredietpromotie.] 1 - Onderafdeling 1. [ 1 – Reclame.] 1
+##### Afdeling 1. [ 1 – Kredietpromotie.] 1
+
+###### Onderafdeling 1. [ 1 – Reclame.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4557,7 +3844,9 @@ inzake informatie met betrekking tot de aard van de verrichting, haar duur, de v
 
 ###### Art. VII.66 .  <Opgeheven bij W 2016-04-22/01, art. 5, 038; Inwerkingtreding : 01-12-2016>
 
-##### Afdeling 1. [ 1 – Kredietpromotie.] 1 - Onderafdeling 2. - [ 1 Leuren] 1
+##### Afdeling 1. [ 1 – Kredietpromotie.] 1
+
+###### Onderafdeling 2. - [ 1 Leuren] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4567,7 +3856,9 @@ inzake informatie met betrekking tot de aard van de verrichting, haar duur, de v
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>  ( 2 )<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-##### Afdeling 1. [ 1 – Kredietpromotie.] 1 - Onderafdeling 3. - [ 1 Promotieaanbiedingen] 1
+##### Afdeling 1. [ 1 – Kredietpromotie.] 1
+
+###### Onderafdeling 3. - [ 1 Promotieaanbiedingen] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4580,7 +3871,9 @@ inzake informatie met betrekking tot de aard van de verrichting, haar duur, de v
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
-##### Afdeling 2. - [ 1 Totstandkoming van de kredietovereenkomst.] 1 - Onderafdeling 1. - [ 1 Inlichtingen te vragen door de kredietgever en de kredietbemiddelaar.] 1
+##### Afdeling 2. - [ 1 Totstandkoming van de kredietovereenkomst.] 1
+
+###### Onderafdeling 1. - [ 1 Inlichtingen te vragen door de kredietgever en de kredietbemiddelaar.] 1
 
 ###### Art. VII.69
 
@@ -4588,7 +3881,9 @@ inzake informatie met betrekking tot de aard van de verrichting, haar duur, de v
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
-##### Afdeling 2. - [ 1 Totstandkoming van de kredietovereenkomst.] 1 - Onderafdeling 2. - [ 1 Precontractuele informatie] 1
+##### Afdeling 2. - [ 1 Totstandkoming van de kredietovereenkomst.] 1
+
+###### Onderafdeling 2. - [ 1 Precontractuele informatie] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4604,13 +3899,17 @@ inzake informatie met betrekking tot de aard van de verrichting, haar duur, de v
 
 ----------  ( 1 )<W 2015-10-26/06, art. 16, 028; Inwerkingtreding : 09-11-2015>
 
-##### Afdeling 2. - [ 1 Totstandkoming van de kredietovereenkomst.] 1 - Onderafdeling 3. - [ 1 Plicht tot bijzondere informatieverstrekking van de kredietbemiddelaar] 1
+##### Afdeling 2. - [ 1 Totstandkoming van de kredietovereenkomst.] 1
+
+###### Onderafdeling 3. - [ 1 Plicht tot bijzondere informatieverstrekking van de kredietbemiddelaar] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
-##### Afdeling 2. - [ 1 Totstandkoming van de kredietovereenkomst.] 1 - Onderafdeling 4. - [ 1 Passende toelichtingen] 1
+##### Afdeling 2. - [ 1 Totstandkoming van de kredietovereenkomst.] 1
+
+###### Onderafdeling 4. - [ 1 Passende toelichtingen] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4620,7 +3919,9 @@ inzake informatie met betrekking tot de aard van de verrichting, haar duur, de v
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
-##### Afdeling 2. - [ 1 Totstandkoming van de kredietovereenkomst.] 1 - Onderafdeling 5. - [ 1 Raadgevingsverbintenissen] 1
+##### Afdeling 2. - [ 1 Totstandkoming van de kredietovereenkomst.] 1
+
+###### Onderafdeling 5. - [ 1 Raadgevingsverbintenissen] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4630,7 +3931,9 @@ inzake informatie met betrekking tot de aard van de verrichting, haar duur, de v
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
-##### Afdeling 2. - [ 1 Totstandkoming van de kredietovereenkomst.] 1 - Onderafdeling 6. - [ 1 Onderzoeksplicht] 1
+##### Afdeling 2. - [ 1 Totstandkoming van de kredietovereenkomst.] 1
+
+###### Onderafdeling 6. - [ 1 Onderzoeksplicht] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4650,7 +3953,9 @@ Voor de toepassing van het eerste tot het derde lid houdt iedere wijziging van h
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>  ( 2 )<W 2016-04-22/01, art. 7, 038; Inwerkingtreding : 01-12-2016>   ( 3 )<W 2017-04-18/03, art. 8, 046; Inwerkingtreding : 04-05-2017>
 
-##### Afdeling 2. - [ 1 Totstandkoming van de kredietovereenkomst.] 1 - Onderafdeling 7. - [ 1 Sluiten van de kredietovereenkomst] 1
+##### Afdeling 2. - [ 1 Totstandkoming van de kredietovereenkomst.] 1
+
+###### Onderafdeling 7. - [ 1 Sluiten van de kredietovereenkomst] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4660,7 +3965,9 @@ Voor de toepassing van het eerste tot het derde lid houdt iedere wijziging van h
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>  ( 2 )<W 2015-10-26/06, art. 17, 028; Inwerkingtreding : 09-11-2015>   ( 3 )<W 2016-07-21/40, art. 29, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>   ( 4 )<W 2016-04-22/01, art. 8, 038; Inwerkingtreding : 01-12-2016>   ( 5 )<W 2017-04-18/03, art. 9, 046; Inwerkingtreding : 04-05-2017>   ( 6 )<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-##### Afdeling 2. - [ 1 Totstandkoming van de kredietovereenkomst.] 1 - Onderafdeling 8. - [ 1 Kredietweigering] 1
+##### Afdeling 2. - [ 1 Totstandkoming van de kredietovereenkomst.] 1
+
+###### Onderafdeling 8. - [ 1 Kredietweigering] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4672,7 +3979,9 @@ De mededeling bedoeld in het eerste lid is niet vereist wanneer [ 4 artikel 19, 
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>  ( 2 )<W 2015-10-26/06, art. 18, 028; Inwerkingtreding : 09-11-2015>   ( 3 )<W 2016-04-22/01, art. 9, 038; Inwerkingtreding : 01-12-2016>   ( 4 )<W 2017-09-18/06, art. 181, 051; Inwerkingtreding : 16-10-2017>
 
-##### Afdeling 2. - [ 1 Totstandkoming van de kredietovereenkomst.] 1 - Onderafdeling 9. - [ 1 Bijzondere bepalingen inzake financieringshuur] 1
+##### Afdeling 2. - [ 1 Totstandkoming van de kredietovereenkomst.] 1
+
+###### Onderafdeling 9. - [ 1 Bijzondere bepalingen inzake financieringshuur] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4701,7 +4010,9 @@ De mededeling bedoeld in het eerste lid is niet vereist wanneer [ 4 artikel 19, 
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
-##### Afdeling 4. - [ 1 Onrechtmatige bedingen.] 1 - Onderafdeling 1. - [ 1 Onrechtmatige betalingen.] 1
+##### Afdeling 4. - [ 1 Onrechtmatige bedingen.] 1
+
+###### Onderafdeling 1. - [ 1 Onrechtmatige betalingen.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4717,7 +4028,9 @@ De mededeling bedoeld in het eerste lid is niet vereist wanneer [ 4 artikel 19, 
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
-##### Afdeling 4. - [ 1 Onrechtmatige bedingen.] 1 - Onderafdeling 2. - [ 1 Berekening van de debetintresten en veranderlijkheid van de debetrentevoet en de kosten] 1
+##### Afdeling 4. - [ 1 Onrechtmatige bedingen.] 1
+
+###### Onderafdeling 2. - [ 1 Berekening van de debetintresten en veranderlijkheid van de debetrentevoet en de kosten] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4729,7 +4042,9 @@ De mededeling bedoeld in het eerste lid is niet vereist wanneer [ 4 artikel 19, 
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>  ( 2 )<W 2015-10-26/06, art. 19, 028; Inwerkingtreding : 09-11-2015>   ( 3 )<W 2016-04-22/01, art. 12, 038; Inwerkingtreding : 01-12-2016>   ( 4 )<W 2018-07-30/47, art. 12, 065; Inwerkingtreding : 15-09-2018>   ( 5 )<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>   ( 6 )<W 2024-12-20/49, art. 37, 139; Inwerkingtreding : 24-01-2025>
 
-##### Afdeling 4. - [ 1 Onrechtmatige bedingen.] 1 - Onderafdeling 3. - [ 1 Nevendiensten] 1
+##### Afdeling 4. - [ 1 Onrechtmatige bedingen.] 1
+
+###### Onderafdeling 3. - [ 1 Nevendiensten] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4739,7 +4054,9 @@ De mededeling bedoeld in het eerste lid is niet vereist wanneer [ 4 artikel 19, 
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
-##### Afdeling 4. - [ 1 Onrechtmatige bedingen.] 1 - Onderafdeling 4. - [ 1 Ongeoorloofde waarborgen] 1
+##### Afdeling 4. - [ 1 Onrechtmatige bedingen.] 1
+
+###### Onderafdeling 4. - [ 1 Ongeoorloofde waarborgen] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4754,7 +4071,9 @@ De mededeling bedoeld in het eerste lid is niet vereist wanneer [ 4 artikel 19, 
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
-##### Afdeling 5. - [ 1 Uitvoering van de kredietovereenkomst.] 1 - Onderafdeling 1. - [ 1 Terbeschikkingstelling van het kredietbedrag.] 1
+##### Afdeling 5. - [ 1 Uitvoering van de kredietovereenkomst.] 1
+
+###### Onderafdeling 1. - [ 1 Terbeschikkingstelling van het kredietbedrag.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4764,7 +4083,9 @@ De mededeling bedoeld in het eerste lid is niet vereist wanneer [ 4 artikel 19, 
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
-##### Afdeling 5. - [ 1 Uitvoering van de kredietovereenkomst.] 1 - Onderafdeling 2. - [ 1 Financiering van goederen en diensten] 1
+##### Afdeling 5. - [ 1 Uitvoering van de kredietovereenkomst.] 1
+
+###### Onderafdeling 2. - [ 1 Financiering van goederen en diensten] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4782,7 +4103,9 @@ De mededeling bedoeld in het eerste lid is niet vereist wanneer [ 4 artikel 19, 
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
-##### Afdeling 5. - [ 1 Uitvoering van de kredietovereenkomst.] 1 - Onderafdeling 3. - [ 1 Maximale kosten en terugbetalingstermijnen] 1
+##### Afdeling 5. - [ 1 Uitvoering van de kredietovereenkomst.] 1
+
+###### Onderafdeling 3. - [ 1 Maximale kosten en terugbetalingstermijnen] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4794,7 +4117,9 @@ De mededeling bedoeld in het eerste lid is niet vereist wanneer [ 4 artikel 19, 
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>  ( 2 )<W 2023-11-05/07, art. 17, 123; Inwerkingtreding : 01-04-2024>
 
-##### Afdeling 5. - [ 1 Uitvoering van de kredietovereenkomst.] 1 - Onderafdeling 4. - [ 1 Vervroegde terugbetalingsmodaliteiten en beëindiging] 1
+##### Afdeling 5. - [ 1 Uitvoering van de kredietovereenkomst.] 1
+
+###### Onderafdeling 4. - [ 1 Vervroegde terugbetalingsmodaliteiten en beëindiging] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4810,7 +4135,9 @@ De mededeling bedoeld in het eerste lid is niet vereist wanneer [ 4 artikel 19, 
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>  ( 2 )<W 2018-09-20/14, art. 23, 067; Inwerkingtreding : 20-10-2018>
 
-##### Afdeling 5. - [ 1 Uitvoering van de kredietovereenkomst.] 1 - Onderafdeling 5. - [ 1 Rekeningafschrift] 1
+##### Afdeling 5. - [ 1 Uitvoering van de kredietovereenkomst.] 1
+
+###### Onderafdeling 5. - [ 1 Rekeningafschrift] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4820,7 +4147,9 @@ De mededeling bedoeld in het eerste lid is niet vereist wanneer [ 4 artikel 19, 
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>  ( 2 )<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>   ( 3 )<W 2023-11-05/07, art. 18, 123; Inwerkingtreding : 01-04-2024>
 
-##### Afdeling 5. - [ 1 Uitvoering van de kredietovereenkomst.] 1 - Onderafdeling 6. - [ 1 Ongeoorloofde debetstand en overschrijding] 1
+##### Afdeling 5. - [ 1 Uitvoering van de kredietovereenkomst.] 1
+
+###### Onderafdeling 6. - [ 1 Ongeoorloofde debetstand en overschrijding] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4937,7 +4266,9 @@ mobiliseringsinstellingen in de zin van artikel 2 van de wet van 3 augustus 2012
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
 
-##### Afdeling 11. - [ 1 Verwerking van persoonsgegevens.] 1 - Onderafdeling 1. - [ 1 Overmaking van persoonsgegevens.] 1
+##### Afdeling 11. - [ 1 Verwerking van persoonsgegevens.] 1
+
+###### Onderafdeling 1. - [ 1 Overmaking van persoonsgegevens.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -4967,7 +4298,9 @@ mobiliseringsinstellingen in de zin van artikel 2 van de wet van 3 augustus 2012
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>  ( 2 )<W 2016-03-13/07, art. 750, 033; Inwerkingtreding : 23-03-2016; zie ook art. 756>   ( 3 )<W 2016-04-22/01, art. 23, 038; Inwerkingtreding : 01-12-2016>
 
-##### Afdeling 11. - [ 1 Verwerking van persoonsgegevens.] 1 - Onderafdeling 2. - [ 1 Verwerking van gegevens] 1
+##### Afdeling 11. - [ 1 Verwerking van persoonsgegevens.] 1
+
+###### Onderafdeling 2. - [ 1 Verwerking van gegevens] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-04-2015 (zie KB 2014-04-19/40, art. 2)>
 
@@ -5010,13 +4343,17 @@ mobiliseringsinstellingen in de zin van artikel 2 van de wet van 3 augustus 2012
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-##### Afdeling 3. - [ 1 Totstandkoming van de kredietovereenkomst] 1 - Onderafdeling 1. - [ 1 Inlichtingen te vragen door de kredietgever en de kredietbemiddelaar] 1
+##### Afdeling 3. - [ 1 Totstandkoming van de kredietovereenkomst] 1
+
+###### Onderafdeling 1. - [ 1 Inlichtingen te vragen door de kredietgever en de kredietbemiddelaar] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>  ( 2 )<W 2018-07-30/47, art. 14, 065; Inwerkingtreding : 15-09-2018>
 
-##### Afdeling 3. - [ 1 Totstandkoming van de kredietovereenkomst] 1 - Onderafdeling 2. - [ 1 Precontractuele informatie] 1
+##### Afdeling 3. - [ 1 Totstandkoming van de kredietovereenkomst] 1
+
+###### Onderafdeling 2. - [ 1 Precontractuele informatie] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -5034,7 +4371,9 @@ verstrekt door middel van het formulier "Europees gestandaardiseerd informatiebl
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>  ( 2 )<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-##### Afdeling 3. - [ 1 Totstandkoming van de kredietovereenkomst] 1 - Onderafdeling 4. - [ 1 Passende toelichtingen] 1
+##### Afdeling 3. - [ 1 Totstandkoming van de kredietovereenkomst] 1
+
+###### Onderafdeling 4. - [ 1 Passende toelichtingen] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -5044,7 +4383,9 @@ verstrekt door middel van het formulier "Europees gestandaardiseerd informatiebl
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-##### Afdeling 3. - [ 1 Totstandkoming van de kredietovereenkomst] 1 - Onderafdeling 5. - [ 1 Algemene gedragsregels] 1
+##### Afdeling 3. - [ 1 Totstandkoming van de kredietovereenkomst] 1
+
+###### Onderafdeling 5. - [ 1 Algemene gedragsregels] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -5054,13 +4395,17 @@ verstrekt door middel van het formulier "Europees gestandaardiseerd informatiebl
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-##### Afdeling 3. - [ 1 Totstandkoming van de kredietovereenkomst] 1 - Onderafdeling 6. - [ 1 Raadgevingsplicht en -diensten] 1
+##### Afdeling 3. - [ 1 Totstandkoming van de kredietovereenkomst] 1
+
+###### Onderafdeling 6. - [ 1 Raadgevingsplicht en -diensten] 1
 
 vastgelegd afschrift van het door hen verstrekte advies.  De kredietgever en de kredietbemiddelaar waarschuwen de consument wanneer, gelet op diens financiële situatie, een kredietovereenkomst bepaalde risico's voor de consument kan inhouden.  § 6. Wanneer adviesdiensten worden verstrekt aan consumenten door een kredietgever of een kredietbemiddelaar is het gebruik van de termen "advies" en "adviseur" of van vergelijkbare termen verboden.  § 7. Het is iedere natuurlijk of rechtspersoon, die de hoedanigheid van kredietgever of kredietbemiddelaar bezit, verboden om aan de consument om het even welke vergoeding, rechtstreeks of onrechtstreeks te vragen voor deze adviesdiensten, zelfs indien hij handelt buiten iedere bemiddeling of kredietverstrekking om.] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>  ( 2 )<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-##### Afdeling 3. - [ 1 Totstandkoming van de kredietovereenkomst] 1 - Onderafdeling 7. - [ 1 Onderzoeksplicht] 1
+##### Afdeling 3. - [ 1 Totstandkoming van de kredietovereenkomst] 1
+
+###### Onderafdeling 7. - [ 1 Onderzoeksplicht] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -5074,13 +4419,17 @@ vastgelegd afschrift van het door hen verstrekte advies.  De kredietgever en de 
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>  ( 2 )<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>   ( 3 )<W 2019-05-02/28, art. 8, 077; Inwerkingtreding : 01-06-2019>
 
-##### Afdeling 3. - [ 1 Totstandkoming van de kredietovereenkomst] 1 - Onderafdeling 8. - [ 1 Sluiten van de kredietovereenkomst.] 1
+##### Afdeling 3. - [ 1 Totstandkoming van de kredietovereenkomst] 1
+
+###### Onderafdeling 8. - [ 1 Sluiten van de kredietovereenkomst.] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>  ( 2 )<W 2017-04-18/03, art. 11, 046; Inwerkingtreding : 04-05-2017>   ( 3 )<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-##### Afdeling 3. - [ 1 Totstandkoming van de kredietovereenkomst] 1 - Onderafdeling 9. - [ 1 Wedersamenstelling van kapitaal] 1
+##### Afdeling 3. - [ 1 Totstandkoming van de kredietovereenkomst] 1
+
+###### Onderafdeling 9. - [ 1 Wedersamenstelling van kapitaal] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -5092,13 +4441,15 @@ vastgelegd afschrift van het door hen verstrekte advies.  De kredietgever en de 
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-##### Afdeling 3. - [ 1 Totstandkoming van de kredietovereenkomst] 1 - Onderafdeling 10. - [ 1 Kredietweigering] 1
+##### Afdeling 3. - [ 1 Totstandkoming van de kredietovereenkomst] 1
+
+###### Onderafdeling 10. - [ 1 Kredietweigering] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
 ###### Art. VII.137
 
-[ 1 In geval van kredietweigering deelt de kredietgever aan de consument onverwijld en kosteloos het resultaat van de raadpleging mee evenals de identiteit en het adres van de verantwoordelijke voor de verwerking van de bestanden die hij heeft geraadpleegd met inbegrip van, in voorkomend geval, de identiteit en het adres van de geraadpleegde kredietverzekeraar, en tot wie de consument zich kan wenden overeenkomstig artikel VII.147/37. In voorkomend geval, geeft hij ook aan dat de weigering op een geautomatiseerde gegevensverwerking is gebaseerd.  De mededeling bedoeld in het eerste lid is niet vereist wanneer [ 2 artikel 19, § 2, tweede lid, en boek II, titel 3, hoofdstuk 2, van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten] 2 of andere toepasselijke wetgeving die de openbare orde of de openbare veiligheid raakt, dit verbiedt.  Indien het krediet wordt geweigerd mag geen vergoeding van welke aard ook van de consument worden geëist, met uitzondering van de kosten inzake raadpleging van de Centrale door de kredietgever betaald en van de schattingskosten bedoeld in artikel VII.141.] 1
+[ 1 In geval van kredietweigering deelt de kredietgever aan de consument onverwijld en kosteloos het resultaat van de raadpleging mee evenals de identiteit en het adres van de verantwoordelijke voor de verwerking van de bestanden die hij heeft geraadpleegd met inbegrip van, in voorkomend geval, de identiteit en het adres van de geraadpleegde kredietverzekeraar, en tot wie de consument zich kan wenden overeenkomstig artikel VII.147/37. In voorkomend geval, geeft hij ook aan dat de weigering op een geautomatiseerde gegevensverwerking is gebaseerd.  De mededeling bedoeld in het eerste lid is niet vereist wanneer [ 2 artikel 19, § 2, tweede lid, en boek II, titel 3, hoofdstuk 2, van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten] 2 of andere toepasselijke wetgeving die de openbare orde of de openbare veiligheid raakt, dit verbiedt.  Indien het krediet wordt geweigerd mag geen vergoeding van welke aard ook van de consument worden geëist, met uitzondering van de kosten inzake raadpleging van de Centrale door de kredietgever betaald en van de schattingskosten bedoeld in artikel VII.141. ] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>  ( 2 )<W 2017-09-18/06, art. 182, 051; Inwerkingtreding : 16-10-2017>
 
@@ -5111,7 +4462,9 @@ vastgelegd afschrift van het door hen verstrekte advies.  De kredietgever en de 
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-##### Afdeling 5. - [ 1 Onrechtmatige bedingen] 1 - Onderafdeling 1. - [ 1 Onrechtmatige betalingen] 1
+##### Afdeling 5. - [ 1 Onrechtmatige bedingen] 1
+
+###### Onderafdeling 1. - [ 1 Onrechtmatige betalingen] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -5133,7 +4486,9 @@ vastgelegd afschrift van het door hen verstrekte advies.  De kredietgever en de 
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-##### Afdeling 5. - [ 1 Onrechtmatige bedingen] 1 - Onderafdeling 2. - [ 1 Berekening van de debetrente, veranderlijkheid van de periodieke rentevoet, de debetrentevoet, de kosten en van de contractvoorwaarden] 1
+##### Afdeling 5. - [ 1 Onrechtmatige bedingen] 1
+
+###### Onderafdeling 2. - [ 1 Berekening van de debetrente, veranderlijkheid van de periodieke rentevoet, de debetrentevoet, de kosten en van de contractvoorwaarden] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -5161,7 +4516,9 @@ vastgelegd afschrift van het door hen verstrekte advies.  De kredietgever en de 
 
 ----------  ( 1 )<W 2021-02-02/06, art. 12, 096; Inwerkingtreding : 01-02-2021>
 
-##### Afdeling 5. - [ 1 Onrechtmatige bedingen] 1 - Onderafdeling 3. - [ 1 Nevendiensten] 1
+##### Afdeling 5. - [ 1 Onrechtmatige bedingen] 1
+
+###### Onderafdeling 3. - [ 1 Nevendiensten] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -5177,7 +4534,9 @@ vastgelegd afschrift van het door hen verstrekte advies.  De kredietgever en de 
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>  ( 2 )<W 2023-11-05/07, art. 21, 123; Inwerkingtreding : 01-06-2024>   ( 3 )<W 2024-05-03/21, art. 18, 135; Inwerkingtreding : 01-06-2024>
 
-##### Afdeling 5. - [ 1 Onrechtmatige bedingen] 1 - Onderafdeling 4. - [ 1 Ongeoorloofde waarborgen] 1
+##### Afdeling 5. - [ 1 Onrechtmatige bedingen] 1
+
+###### Onderafdeling 4. - [ 1 Ongeoorloofde waarborgen] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -5192,7 +4551,9 @@ vastgelegd afschrift van het door hen verstrekte advies.  De kredietgever en de 
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-##### Afdeling 6. - [ 1 Uitvoering van de kredietovereenkomst] 1 - Onderafdeling 1. - [ 1 Terbeschikkingstelling van het kredietbedrag] 1
+##### Afdeling 6. - [ 1 Uitvoering van de kredietovereenkomst] 1
+
+###### Onderafdeling 1. - [ 1 Terbeschikkingstelling van het kredietbedrag] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -5202,7 +4563,9 @@ vastgelegd afschrift van het door hen verstrekte advies.  De kredietgever en de 
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-##### Afdeling 6. - [ 1 Uitvoering van de kredietovereenkomst] 1 - Onderafdeling 2. - [ 1 Financiering van goederen en diensten] 1
+##### Afdeling 6. - [ 1 Uitvoering van de kredietovereenkomst] 1
+
+###### Onderafdeling 2. - [ 1 Financiering van goederen en diensten] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -5224,7 +4587,9 @@ vastgelegd afschrift van het door hen verstrekte advies.  De kredietgever en de 
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>  ( 2 )<W 2018-07-30/47, art. 16, 065; Inwerkingtreding : 15-09-2018>
 
-##### Afdeling 6. - [ 1 Uitvoering van de kredietovereenkomst] 1 - Onderafdeling 3. - [ 1 Maximale kosten en terugbetalingstermijnen] 1
+##### Afdeling 6. - [ 1 Uitvoering van de kredietovereenkomst] 1
+
+###### Onderafdeling 3. - [ 1 Maximale kosten en terugbetalingstermijnen] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -5242,7 +4607,9 @@ vastgelegd afschrift van het door hen verstrekte advies.  De kredietgever en de 
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-##### Afdeling 6. - [ 1 Uitvoering van de kredietovereenkomst] 1 - Onderafdeling 4. - [ 1 Vervroegde terugbetalingsmodaliteiten en beëindiging van de kredietovereenkomst] 1
+##### Afdeling 6. - [ 1 Uitvoering van de kredietovereenkomst] 1
+
+###### Onderafdeling 4. - [ 1 Vervroegde terugbetalingsmodaliteiten en beëindiging van de kredietovereenkomst] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -5258,7 +4625,9 @@ vastgelegd afschrift van het door hen verstrekte advies.  De kredietgever en de 
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>  ( 2 )<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-##### Afdeling 6. - [ 1 Uitvoering van de kredietovereenkomst] 1 - Onderafdeling 5. - [ 1 Rekeningafschrift] 1
+##### Afdeling 6. - [ 1 Uitvoering van de kredietovereenkomst] 1
+
+###### Onderafdeling 5. - [ 1 Rekeningafschrift] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -5268,7 +4637,9 @@ vastgelegd afschrift van het door hen verstrekte advies.  De kredietgever en de 
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>  ( 2 )<W 2018-09-20/14, art. 12, 067; Inwerkingtreding : 20-10-2018>
 
-##### Afdeling 6. - [ 1 Uitvoering van de kredietovereenkomst] 1 - Onderafdeling 6. - [ 1 Ongeoorloofde debetstand en overschrijding] 1
+##### Afdeling 6. - [ 1 Uitvoering van de kredietovereenkomst] 1
+
+###### Onderafdeling 6. - [ 1 Ongeoorloofde debetstand en overschrijding] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -5377,7 +4748,9 @@ behoudt de consument tegenover de overnemer of de indeplaatsgestelde schuldeiser
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-##### Afdeling 13. - [ 1 Verwerking van persoonsgegevens] 1 - Onderafdeling 1. [ 1 Overmaking van persoonsgegevens] 1
+##### Afdeling 13. - [ 1 Verwerking van persoonsgegevens] 1
+
+###### Onderafdeling 1. [ 1 Overmaking van persoonsgegevens] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -5401,7 +4774,9 @@ behoudt de consument tegenover de overnemer of de indeplaatsgestelde schuldeiser
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
-##### Afdeling 13. - [ 1 Verwerking van persoonsgegevens] 1 - Onderafdeling 2. - [ 1 Verwerking van gegevens] 1
+##### Afdeling 13. - [ 1 Verwerking van persoonsgegevens] 1
+
+###### Onderafdeling 2. - [ 1 Verwerking van gegevens] 1
 
 ----------  ( 1 )<W 2016-04-22/01, art. 24, 038; Inwerkingtreding : 01-12-2016>
 
@@ -5530,7 +4905,9 @@ De Koning bepaalt de precieze inhoud, de voorwaarden en de nadere regels voor de
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-##### Afdeling 2. - [ 1 Kredietgevers naar Belgisch recht.] 1 - Onderafdeling 1. [ 1 – Vergunningsvoorwaarden.] 1
+##### Afdeling 2. - [ 1 Kredietgevers naar Belgisch recht.] 1
+
+###### Onderafdeling 1. [ 1 – Vergunningsvoorwaarden.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -5572,7 +4949,9 @@ Zij voeren een boekhouding op grond waarvan de door de reglementeringen inzake s
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>  ( 2 )<W 2018-07-30/47, art. 20, 065; Inwerkingtreding : 15-09-2018>   ( 3 )<W 2019-05-02/25, art. 187, 074; Inwerkingtreding : 31-05-2019>   ( 4 )<W 2021-06-27/09, art. 300, 099; Inwerkingtreding : 19-07-2021>   ( 5 )<W 2022-05-08/03, art. 16, 112; Inwerkingtreding : 03-07-2022>
 
-##### Afdeling 2. - [ 1 Kredietgevers naar Belgisch recht.] 1 - Onderafdeling 2. - [ 1 Bedrijfsuitoefeningsvoorwaarden] 1
+##### Afdeling 2. - [ 1 Kredietgevers naar Belgisch recht.] 1
+
+###### Onderafdeling 2. - [ 1 Bedrijfsuitoefeningsvoorwaarden] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -5648,7 +5027,9 @@ hetzij als verzekeringsondernemingen op de lijst als bedoeld in artikel 31 van d
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-##### Afdeling 2. - [ 1 Kredietgevers naar Belgisch recht.] 1 - Onderafdeling 1. - [ 1 Bepaalde gereglementeerde financiële ondernemingen die ressorteren onder het recht van een andere lidstaat.] 1
+##### Afdeling 2. - [ 1 Kredietgevers naar Belgisch recht.] 1
+
+###### Onderafdeling 1. - [ 1 Bepaalde gereglementeerde financiële ondernemingen die ressorteren onder het recht van een andere lidstaat.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -5666,7 +5047,9 @@ bij een aangetekende zending] 3 ter kennis gebracht van de instelling, met een k
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-##### Afdeling 2. - [ 1 Kredietgevers naar Belgisch recht.] 1 - Onderafdeling 2. - [ 1 Andere kredietgevers naar buitenlands recht] 1
+##### Afdeling 2. - [ 1 Kredietgevers naar Belgisch recht.] 1
+
+###### Onderafdeling 2. - [ 1 Andere kredietgevers naar buitenlands recht] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -5703,7 +5086,9 @@ werkingskosten] 2 . Het bedrag van die vergoeding, de gevallen waarin zij versch
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-##### Afdeling 5. - [ 1 Bemiddelaars inzake hypothecair krediet.] 1 - Onderafdeling 1. - [ 1 Algemene bepalingen.] 1
+##### Afdeling 5. - [ 1 Bemiddelaars inzake hypothecair krediet.] 1
+
+###### Onderafdeling 1. - [ 1 Algemene bepalingen.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -5711,7 +5096,9 @@ werkingskosten] 2 . Het bedrag van die vergoeding, de gevallen waarin zij versch
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>  ( 2 )<W 2018-07-30/47, art. 23, 065; Inwerkingtreding : 15-09-2018>   ( 3 )<W 2022-05-08/03, art. 18, 112; Inwerkingtreding : 03-07-2022>
 
-##### Afdeling 5. - [ 1 Bemiddelaars inzake hypothecair krediet.] 1 - Onderafdeling 2. - [ 1 Inschrijvingsvoorwaarden] 1
+##### Afdeling 5. - [ 1 Bemiddelaars inzake hypothecair krediet.] 1
+
+###### Onderafdeling 2. - [ 1 Inschrijvingsvoorwaarden] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -5723,7 +5110,9 @@ werkingskosten] 2 . Het bedrag van die vergoeding, de gevallen waarin zij versch
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>  ( 2 )<W 2015-10-26/06, art. 32, 028; Inwerkingtreding : 01-11-2015>   ( 3 )<W 2015-12-18/31, art. 40, 030; Inwerkingtreding : 09-01-2016>   ( 4 )<W 2017-04-18/03, art. 18, 046; Inwerkingtreding : 04-05-2017>   ( 5 )<W 2018-07-30/47, art. 24, 065; Inwerkingtreding : 15-09-2018>   ( 6 )<W 2019-05-02/25, art. 188, 074; Inwerkingtreding : 31-05-2019>   ( 7 )<W 2020-07-20/12, art. 146, 086; Inwerkingtreding : 15-08-2020>   ( 8 )<W 2021-06-27/09, art. 299, 099; Inwerkingtreding : 19-07-2021>   ( 9 )<W 2022-05-08/03, art. 18, 112; Inwerkingtreding : 03-07-2022>   ( 10 )<W 2022-05-08/03, art. 19, 112; Inwerkingtreding : 03-07-2022>   ( 11 )<W 2024-05-03/21, art. 19, 135; Inwerkingtreding : 10-06-2024>
 
-##### Afdeling 5. - [ 1 Bemiddelaars inzake hypothecair krediet.] 1 - Onderafdeling 3. - [ 1 Inschrijvingsprocedure] 1
+##### Afdeling 5. - [ 1 Bemiddelaars inzake hypothecair krediet.] 1
+
+###### Onderafdeling 3. - [ 1 Inschrijvingsprocedure] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -5737,7 +5126,9 @@ werkingskosten] 2 . Het bedrag van die vergoeding, de gevallen waarin zij versch
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>  ( 2 )<W 2015-10-26/06, art. 33, 028; Inwerkingtreding : 01-11-2015>   ( 3 )<W 2015-12-18/31, art. 41, 030; Inwerkingtreding : 09-01-2016>   ( 4 )<W 2017-12-05/04, art. 21, 052; Inwerkingtreding : 28-12-2017>   ( 5 )<W 2022-05-08/03, art. 18, 112; Inwerkingtreding : 03-07-2022>   ( 6 )<W 2022-05-08/03, art. 20, 112; Inwerkingtreding : 03-07-2022>
 
-##### Afdeling 5. - [ 1 Bemiddelaars inzake hypothecair krediet.] 1 - Onderafdeling 4. - [ 1 Vrijheid van vestiging en vrijheid van dienstverrichting] 1
+##### Afdeling 5. - [ 1 Bemiddelaars inzake hypothecair krediet.] 1
+
+###### Onderafdeling 4. - [ 1 Vrijheid van vestiging en vrijheid van dienstverrichting] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -5754,7 +5145,9 @@ werkingskosten] 2 . Het bedrag van die vergoeding, de gevallen waarin zij versch
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-##### Afdeling 6. - [ 1 Bemiddelaars inzake consumentenkrediet.] 1 - Onderafdeling 1. - [ 1 Algemene bepalingen.] 1
+##### Afdeling 6. - [ 1 Bemiddelaars inzake consumentenkrediet.] 1
+
+###### Onderafdeling 1. - [ 1 Algemene bepalingen.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -5768,7 +5161,9 @@ werkingskosten] 2 . Het bedrag van die vergoeding, de gevallen waarin zij versch
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
-##### Afdeling 6. - [ 1 Bemiddelaars inzake consumentenkrediet.] 1 - Onderafdeling 2. - [ 1 Inschrijvingsvoorwaarden] 1
+##### Afdeling 6. - [ 1 Bemiddelaars inzake consumentenkrediet.] 1
+
+###### Onderafdeling 2. - [ 1 Inschrijvingsvoorwaarden] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 3, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -6364,7 +5759,9 @@ zonder kosten of boete onmiddellijk opzeggen vanaf het ogenblik dat hij kennis h
 
 ----------  ( 1 )<Ingevoegd bij W 2018-04-15/14, art. 120, 059; Inwerkingtreding : 01-11-2018>
 
-##### Afdeling 8. [ 1 - Tussenkomst] 1 - Onderafdeling 2. [ 1 Acceptatie bij tussenkomst] 1
+##### Afdeling 8. [ 1 - Tussenkomst] 1
+
+###### Onderafdeling 2. [ 1 Acceptatie bij tussenkomst] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2018-04-15/14, art. 121, 059; Inwerkingtreding : 01-11-2018>
 
@@ -6386,7 +5783,9 @@ zonder kosten of boete onmiddellijk opzeggen vanaf het ogenblik dat hij kennis h
 
 ----------  ( 1 )<Ingevoegd bij W 2018-04-15/14, art. 122, 059; Inwerkingtreding : 01-11-2018>
 
-##### Afdeling 8. [ 1 - Tussenkomst] 1 - Onderafdeling 3. [ 1 Betaling bij tussenkomst] 1
+##### Afdeling 8. [ 1 - Tussenkomst] 1
+
+###### Onderafdeling 3. [ 1 Betaling bij tussenkomst] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2018-04-15/14, art. 123, 059; Inwerkingtreding : 01-11-2018>
 
@@ -6421,7 +5820,9 @@ zonder kosten of boete onmiddellijk opzeggen vanaf het ogenblik dat hij kennis h
 
 ----------  ( 1 )<Ingevoegd bij W 2018-04-15/14, art. 125, 059; Inwerkingtreding : 01-11-2018>
 
-##### Afdeling 9. [ 1 - Wisselbrief in verscheidene exemplaren en wisselafschriften] 1 - Onderafdeling 1. [ 1 Wisselbrief in verscheidene exemplaren] 1
+##### Afdeling 9. [ 1 - Wisselbrief in verscheidene exemplaren en wisselafschriften] 1
+
+###### Onderafdeling 1. [ 1 Wisselbrief in verscheidene exemplaren] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2018-04-15/14, art. 126, 059; Inwerkingtreding : 01-11-2018>
 
@@ -6437,7 +5838,9 @@ zonder kosten of boete onmiddellijk opzeggen vanaf het ogenblik dat hij kennis h
 
 ----------  ( 1 )<Ingevoegd bij W 2018-04-15/14, art. 127, 059; Inwerkingtreding : 01-11-2018>
 
-##### Afdeling 9. [ 1 - Wisselbrief in verscheidene exemplaren en wisselafschriften] 1 - Onderafdeling 2. [ 1 Wisselafschriften] 1
+##### Afdeling 9. [ 1 - Wisselbrief in verscheidene exemplaren en wisselafschriften] 1
+
+###### Onderafdeling 2. [ 1 Wisselafschriften] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2018-04-15/14, art. 128, 059; Inwerkingtreding : 01-11-2018>
 
@@ -8487,7 +7890,7 @@ dient gebruikt te worden.] 1
 ##### Afdeling 2. [ 1 - Toegang tot het beroep van octrooigemachtigde] 1
 ###### Art. XI.64/1
 
-[ 1 Elke persoon die zich in België vestigt om er het beroep van octrooigemachtigde uit te oefenen, dient voorafgaandelijk aan deze uitoefening ingeschreven te zijn in het register van erkende gemachtigden bedoeld in artikel XI.65.] 1
+[ 1 Elke persoon die zich in België vestigt om er het beroep van octrooigemachtigde uit te oefenen, dient voorafgaandelijk aan deze uitoefening ingeschreven te zijn in het register van erkende gemachtigden bedoeld in artikel XI.65. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2018-07-08/06, art. 8, 061; Inwerkingtreding : 01-12-2020>
 
@@ -8589,7 +7992,7 @@ De duur van doorhaling bij toepassing van punten 5° tot en met 7° van dit arti
 
 ###### Art. XI.75/2
 
-[ 2 Oud art. XI.68.] 2 [ 1 De Commissie bestaat uit twee afdelingen. De ene behandelt de zaken in de Nederlandse taal, de andere de zaken in de Franse [ 2 en de Duitse] 2 taal.  De Koning bepaalt de samenstelling en de werkwijze van de Commissie. Hij bepaalt de voorwaarden voor het bij [ 2 artikel XI.66, § 2, eerste lid, 3°] 2 , bedoelde examen. Een lid van de Franse afdeling moet een voldoende kennis van het Duits bezitten.  De nodige kredieten worden ingeschreven op de begroting van de FOD Economie.] 1
+[ 2 Oud art. XI.68. ] 2 [ 1 De Commissie bestaat uit twee afdelingen. De ene behandelt de zaken in de Nederlandse taal, de andere de zaken in de Franse [ 2 en de Duitse] 2 taal.  De Koning bepaalt de samenstelling en de werkwijze van de Commissie. Hij bepaalt de voorwaarden voor het bij [ 2 artikel XI.66, § 2, eerste lid, 3°] 2 , bedoelde examen. Een lid van de Franse afdeling moet een voldoende kennis van het Duits bezitten.  De nodige kredieten worden ingeschreven op de begroting van de FOD Economie.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 22-09-2014>  ( 2 )<W 2018-07-08/06, art. 16, 061; Inwerkingtreding : 01-12-2020>
 
@@ -8903,7 +8306,7 @@ TOEKOMSTIG_RECHT .
 
 ###### Art. XI.105
 
-[ 1 Het kwekersrecht wordt verleend wanneer het ras onderscheidbaar, homogeen, bestendig en nieuw is.  Bovendien moet het ras worden aangeduid met een benaming in overeenstemming met hetgeen bepaald is in artikel XI.143.] 1
+[ 1 Het kwekersrecht wordt verleend wanneer het ras onderscheidbaar, homogeen, bestendig en nieuw is.  Bovendien moet het ras worden aangeduid met een benaming in overeenstemming met hetgeen bepaald is in artikel XI.143. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -8929,7 +8332,7 @@ TOEKOMSTIG_RECHT .
 
 ###### Art. XI.110
 
-[ 1 De aanvrager duidt het ras aan door een benaming overeenkomstig artikel XI.143.] 1
+[ 1 De aanvrager duidt het ras aan door een benaming overeenkomstig artikel XI.143. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -8965,7 +8368,7 @@ TOEKOMSTIG_RECHT .
 
 ###### Art. XI.116
 
-[ 1 Het kwekersrecht strekt zich niet uit tot :  1° handelingen die in de particuliere sfeer en voor niet commerciële doeleinden zijn verricht;  2° handelingen die voor experimentele doeleinden zijn verricht;  3° handelingen die zijn verricht ten behoeve van het kweken, of van het ontdekken en ontwikkelen van andere rassen;  4° handelingen als bedoeld in artikel XI.113, §§ 2, 3 en 4, met betrekking tot die andere rassen, behalve wanneer artikel XI.114 van toepassing is;  5° handelingen waarvan het verbod inbreuk zou maken op de bepalingen van artikel XI.115 of artikel XI.126.] 1
+[ 1 Het kwekersrecht strekt zich niet uit tot :  1° handelingen die in de particuliere sfeer en voor niet commerciële doeleinden zijn verricht;  2° handelingen die voor experimentele doeleinden zijn verricht;  3° handelingen die zijn verricht ten behoeve van het kweken, of van het ontdekken en ontwikkelen van andere rassen;  4° handelingen als bedoeld in artikel XI.113, §§ 2, 3 en 4, met betrekking tot die andere rassen, behalve wanneer artikel XI.114 van toepassing is;  5° handelingen waarvan het verbod inbreuk zou maken op de bepalingen van artikel XI.115 of artikel XI.126. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -9137,7 +8540,7 @@ TOEKOMSTIG_RECHT .
 
 ###### Art. XI.145
 
-[ 1 § 1. De Dienst kan controleren of het ras, en in voorkomend geval de erfelijke bestanddelen ervan, gedurende de hele duur van de bescherming worden in stand gehouden.  § 2. De Dienst is bevoegd om samenwerkingsakkoorden af te sluiten in verband met de controle op de instandhouding van de rassen en kan de daartoe vereiste uitvoeringsmaatregelen nemen.  § 3. Als de Dienst erom verzoekt, moet de houder aan de Dienst of enige door de Dienst aangewezen partij, binnen de gestelde termijn, de voor de controle op de instandhouding van het ras noodzakelijk geachte inlichtingen, documenten of materiaal voorleggen en mag hij het onderzoek van de met het oog op de instandhouding getroffen maatregelen niet beletten.  § 4. Wanneer er aanwijzingen zijn om te veronderstellen dat het ras niet wordt in stand gehouden en, in voorkomend geval, dat het vermoeden niet wordt tegengesproken door de door de houder in uitvoering van paragraaf 3 verstrekte inlichtingen en documenten, beveelt de Dienst een controle op de instandhouding van het ras en stelt de wijze vast waarop die moet gebeuren.  De houder moet toestaan dat materiaal van het betrokken ras en de plaats waar het ras in stand wordt gehouden, worden geïnspecteerd, zodat de nodige informatie kan worden verkregen ter beoordeling of het ras in stand gehouden wordt.  De houder moet de noodzakelijke documentatie bijhouden, zodat kan worden gecontroleerd of de noodzakelijke maatregelen zijn genomen.  § 5. De controle omvat teeltproeven of andere proeven waarbij het door de houder verstrekte materiaal wordt vergeleken met de officiële beschrijving of met het officiële monster van het ras.  § 6. Wanneer bij de controle blijkt dat de houder het ras niet in stand heeft gehouden, wordt de houder gehoord, op verzoek van de Dienst of op zijn verzoek, voordat een beslissing houdende verval wordt genomen overeenkomstig artikel XI.123.] 1
+[ 1 § 1. De Dienst kan controleren of het ras, en in voorkomend geval de erfelijke bestanddelen ervan, gedurende de hele duur van de bescherming worden in stand gehouden.  § 2. De Dienst is bevoegd om samenwerkingsakkoorden af te sluiten in verband met de controle op de instandhouding van de rassen en kan de daartoe vereiste uitvoeringsmaatregelen nemen.  § 3. Als de Dienst erom verzoekt, moet de houder aan de Dienst of enige door de Dienst aangewezen partij, binnen de gestelde termijn, de voor de controle op de instandhouding van het ras noodzakelijk geachte inlichtingen, documenten of materiaal voorleggen en mag hij het onderzoek van de met het oog op de instandhouding getroffen maatregelen niet beletten.  § 4. Wanneer er aanwijzingen zijn om te veronderstellen dat het ras niet wordt in stand gehouden en, in voorkomend geval, dat het vermoeden niet wordt tegengesproken door de door de houder in uitvoering van paragraaf 3 verstrekte inlichtingen en documenten, beveelt de Dienst een controle op de instandhouding van het ras en stelt de wijze vast waarop die moet gebeuren.  De houder moet toestaan dat materiaal van het betrokken ras en de plaats waar het ras in stand wordt gehouden, worden geïnspecteerd, zodat de nodige informatie kan worden verkregen ter beoordeling of het ras in stand gehouden wordt.  De houder moet de noodzakelijke documentatie bijhouden, zodat kan worden gecontroleerd of de noodzakelijke maatregelen zijn genomen.  § 5. De controle omvat teeltproeven of andere proeven waarbij het door de houder verstrekte materiaal wordt vergeleken met de officiële beschrijving of met het officiële monster van het ras.  § 6. Wanneer bij de controle blijkt dat de houder het ras niet in stand heeft gehouden, wordt de houder gehoord, op verzoek van de Dienst of op zijn verzoek, voordat een beslissing houdende verval wordt genomen overeenkomstig artikel XI.123. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -9325,7 +8728,7 @@ of de licentie] 2 uitdrukkelijk worden bepaald.  [ 2 De persoon aan wie de recht
 
 ###### Art. XI.167/4
 
-[ 1 In het kader van een exploitatieovereenkomst moet de persoon aan wie de rechten werden overgedragen of de licentienemer deze exclusieve rechten exploiteren binnen de overeengekomen termijn. Deze termijn mag niet strijdig zijn met de eerlijke beroepsgebruiken, tenzij deze een hogere beschermingsgraad biedt aan de auteur.  Indien de overeenkomst deze termijn niet vaststelt, dan wordt die bepaald overeenkomstig de eerlijke beroepsgebruiken voor het betrokken soort werken. De collectieve overeenkomsten bedoeld in artikel XI.167/5 kunnen deze beroepsgebruiken bepalen.  Indien de persoon aan wie de rechten werden overgedragen of de licentienemer zijn verplichting tot exploitatie niet nakomt binnen de in het eerste en tweede lid gestelde termijnen en daarvoor geen wettige reden van verschoning heeft, kan de auteur zijn overgedragen of in exclusieve licentie gegeven rechten geheel of gedeeltelijk terugnemen of de exclusiviteit van de licentie beëindigen, indien binnen een redelijke termijn of binnen de termijn bepaald in de collectieve overeenkomst zoals bedoeld in artikel XI.167/5 geen gevolg is gegeven aan een ingebrekestelling die bij een aangetekende zending met ontvangstbewijs is opgestuurd.  Het eerste tot het derde lid zijn niet van toepassing:  1° indien het gebrek aan exploitatie van de rechten voornamelijk te wijten is aan omstandigheden waarvan redelijkerwijs verwacht kan worden dat die door de auteur kunnen worden opgelost;  2° indien het werk of de prestatie een bijdrage omvat van meer dan één auteur of uitvoerende kunstenaar, waarbij de individuele bijdrage van de auteur die het herroepingsrecht wil uitoefenen van relatief belang is en de bijdragen en de rechtmatige belangen van alle auteurs en uitvoerende kunstenaars die worden getroffen door de toepassing van het herroepingsmechanisme nadeel zouden ondervinden van de uitoefening van dit recht;  3° indien de auteur het werk tot stand heeft gebracht ter uitvoering van een arbeidsovereenkomst of een statuut en voor zover de creatie van het werk binnen het toepassingsgebied van de overeenkomst of het statuut valt;  4° indien de auteur het werk tot stand heeft gebracht ter uitvoering van een bestelling waarbij degene die de bestelling heeft geplaatst een activiteit uitoefent in de niet-culturele sector of in de reclamewereld en voor zover het werk bestemd is voor die activiteit;  5° indien een collectieve overeenkomst, zoals bedoeld in artikel XI.167/5, het herroepingsrecht regelt.  Elke contractuele bepaling die afwijkt van wat in dit artikel wordt bepaald, is alleen afdwingbaar als zij voortvloeit uit een collectieve overeenkomst, zoals bedoeld in artikel XI.167/5.] 1
+[ 1 In het kader van een exploitatieovereenkomst moet de persoon aan wie de rechten werden overgedragen of de licentienemer deze exclusieve rechten exploiteren binnen de overeengekomen termijn. Deze termijn mag niet strijdig zijn met de eerlijke beroepsgebruiken, tenzij deze een hogere beschermingsgraad biedt aan de auteur.  Indien de overeenkomst deze termijn niet vaststelt, dan wordt die bepaald overeenkomstig de eerlijke beroepsgebruiken voor het betrokken soort werken. De collectieve overeenkomsten bedoeld in artikel XI.167/5 kunnen deze beroepsgebruiken bepalen.  Indien de persoon aan wie de rechten werden overgedragen of de licentienemer zijn verplichting tot exploitatie niet nakomt binnen de in het eerste en tweede lid gestelde termijnen en daarvoor geen wettige reden van verschoning heeft, kan de auteur zijn overgedragen of in exclusieve licentie gegeven rechten geheel of gedeeltelijk terugnemen of de exclusiviteit van de licentie beëindigen, indien binnen een redelijke termijn of binnen de termijn bepaald in de collectieve overeenkomst zoals bedoeld in artikel XI.167/5 geen gevolg is gegeven aan een ingebrekestelling die bij een aangetekende zending met ontvangstbewijs is opgestuurd.  Het eerste tot het derde lid zijn niet van toepassing:  1° indien het gebrek aan exploitatie van de rechten voornamelijk te wijten is aan omstandigheden waarvan redelijkerwijs verwacht kan worden dat die door de auteur kunnen worden opgelost;  2° indien het werk of de prestatie een bijdrage omvat van meer dan één auteur of uitvoerende kunstenaar, waarbij de individuele bijdrage van de auteur die het herroepingsrecht wil uitoefenen van relatief belang is en de bijdragen en de rechtmatige belangen van alle auteurs en uitvoerende kunstenaars die worden getroffen door de toepassing van het herroepingsmechanisme nadeel zouden ondervinden van de uitoefening van dit recht;  3° indien de auteur het werk tot stand heeft gebracht ter uitvoering van een arbeidsovereenkomst of een statuut en voor zover de creatie van het werk binnen het toepassingsgebied van de overeenkomst of het statuut valt;  4° indien de auteur het werk tot stand heeft gebracht ter uitvoering van een bestelling waarbij degene die de bestelling heeft geplaatst een activiteit uitoefent in de niet-culturele sector of in de reclamewereld en voor zover het werk bestemd is voor die activiteit;  5° indien een collectieve overeenkomst, zoals bedoeld in artikel XI.167/5, het herroepingsrecht regelt.  Elke contractuele bepaling die afwijkt van wat in dit artikel wordt bepaald, is alleen afdwingbaar als zij voortvloeit uit een collectieve overeenkomst, zoals bedoeld in artikel XI.167/5. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-06-19/03, art. 8, 113; Inwerkingtreding : 01-08-2022>
 
@@ -9355,7 +8758,7 @@ of de licentie] 2 uitdrukkelijk worden bepaald.  [ 2 De persoon aan wie de recht
 
 ###### Art. XI.171
 
-[ 1 Na het overlijden van de auteur worden de rechten bedoeld in artikel XI.165, § 1, tijdens de duur van de bescherming van het auteursrecht, uitgeoefend door zijn erfgenamen of legatarissen, tenzij de auteur ze aan een bepaald persoon heeft toegekend, met inachtneming van het wettelijk voorbehouden erfdeel dat aan de erfgenamen toekomt.  De rechten, bedoeld in artikel XI.165, § 2, worden na het overlijden van de auteur, uitgeoefend door zijn erfgenamen of legatarissen, tenzij hij daartoe een welbepaald persoon heeft aangewezen.  Bij onenigheid geldt de regeling van artikel XI.168.] 1
+[ 1 Na het overlijden van de auteur worden de rechten bedoeld in artikel XI.165, § 1, tijdens de duur van de bescherming van het auteursrecht, uitgeoefend door zijn erfgenamen of legatarissen, tenzij de auteur ze aan een bepaald persoon heeft toegekend, met inachtneming van het wettelijk voorbehouden erfdeel dat aan de erfgenamen toekomt.  De rechten, bedoeld in artikel XI.165, § 2, worden na het overlijden van de auteur, uitgeoefend door zijn erfgenamen of legatarissen, tenzij hij daartoe een welbepaald persoon heeft aangewezen.  Bij onenigheid geldt de regeling van artikel XI.168. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -9462,7 +8865,9 @@ beheersvennootschappen en/of collectieve beheerorganisaties] 2 de rechten die ni
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
-##### Afdeling 6. - [ 1 Uitzonderingen op de vermogensrechten van de auteur] 1 - Onderafdeling 1. - [ 1 Algemene uitzonderingen op de vermogensrechten van de auteur] 1
+##### Afdeling 6. - [ 1 Uitzonderingen op de vermogensrechten van de auteur] 1
+
+###### Onderafdeling 1. - [ 1 Algemene uitzonderingen op de vermogensrechten van de auteur] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2016-12-22/03, art. 3, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -9492,7 +8897,9 @@ zonder winstoogmerk en met het oog op] 6 exclusief gebruik door een begunstigde 
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>  ( 2 )<W 2016-06-27/08, art. 2, 035; Inwerkingtreding : 15-07-2016>   ( 3 )<W 2016-12-22/03, art. 5, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>   ( 4 )<W 2018-11-25/04, art. 4, 068; Inwerkingtreding : 22-12-2018>   ( 5 )<W 2019-05-02/28, art. 24, 077; Inwerkingtreding : 01-06-2019>   ( 6 )<W 2022-06-19/03, art. 13, 113; Inwerkingtreding : 01-08-2022>
 
-##### Afdeling 6. - [ 1 Uitzonderingen op de vermogensrechten van de auteur] 1 - Onderafdeling 2. [ 1 Uitzonderingen op de vermogensrechten van de auteur ten behoeve van onderwijs en wetenschappelijk onderzoek] 1
+##### Afdeling 6. - [ 1 Uitzonderingen op de vermogensrechten van de auteur] 1
+
+###### Onderafdeling 2. [ 1 Uitzonderingen op de vermogensrechten van de auteur ten behoeve van onderwijs en wetenschappelijk onderzoek] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2016-12-22/03, art. 7, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -9514,7 +8921,9 @@ activiteiten van de instelling en beveiligd wordt door] 4 passende maatregelen [
 
 ----------  ( 1 )<Ingevoegd bij W 2016-12-22/03, art. 9, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>   ( 2 )<W 2019-05-02/24, art. 3, 073; Inwerkingtreding : 31-05-2019>   ( 3 )<W 2022-06-19/03, art. 16, 113; Inwerkingtreding : 01-08-2022>
 
-##### Afdeling 6. - [ 1 Uitzonderingen op de vermogensrechten van de auteur] 1 - Onderafdeling 3. - [ 1 Uitlening van werken] 1
+##### Afdeling 6. - [ 1 Uitzonderingen op de vermogensrechten van de auteur] 1
+
+###### Onderafdeling 3. - [ 1 Uitlening van werken] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2016-12-22/03, art. 10, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -9526,7 +8935,9 @@ activiteiten van de instelling en beveiligd wordt door] 4 passende maatregelen [
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>  ( 2 )<W 2018-11-25/04, art. 6, 068; Inwerkingtreding : 22-12-2018>   ( 3 )<W 2022-06-19/03, art. 17, 113; Inwerkingtreding : 01-08-2022>
 
-##### Afdeling 6. - [ 1 Uitzonderingen op de vermogensrechten van de auteur] 1 - Onderafdeling 4. - [ 1 Verweesde werken] 1
+##### Afdeling 6. - [ 1 Uitzonderingen op de vermogensrechten van de auteur] 1
+
+###### Onderafdeling 4. - [ 1 Verweesde werken] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2016-12-22/03, art. 11, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -9542,7 +8953,9 @@ activiteiten van de instelling en beveiligd wordt door] 4 passende maatregelen [
 
 ----------  ( 1 )<Ingevoegd bij W 2022-06-19/03, art. 19, 113; Inwerkingtreding : 01-08-2022>
 
-##### Afdeling 6. - [ 1 Uitzonderingen op de vermogensrechten van de auteur] 1 - Onderafdeling 5. [ 1 - Gemeenschappelijke bepalingen voor de onderafdelingen 1, 2, 3, 4 en 4/1] 1
+##### Afdeling 6. - [ 1 Uitzonderingen op de vermogensrechten van de auteur] 1
+
+###### Onderafdeling 5. [ 1 - Gemeenschappelijke bepalingen voor de onderafdelingen 1, 2, 3, 4 en 4/1] 1
 
 ----------  ( 1 )<W 2022-06-19/03, art. 20, 113; Inwerkingtreding : 01-08-2022>
 
@@ -9765,7 +9178,9 @@ De Koning bepaalt het bedrag van de billijke vergoeding, die verschillend kan zi
 
 ----------  ( 1 )<W 2022-06-19/03, art. 41, 113; Inwerkingtreding : 01-08-2022>
 
-##### Afdeling 7. [ 1 - Gemeenschappelijke bepalingen voor de afdelingen 1 tot 6/1.] 1 - Onderafdeling 1. - [ 1 Algemene uitzonderingen] 1
+##### Afdeling 7. [ 1 - Gemeenschappelijke bepalingen voor de afdelingen 1 tot 6/1.] 1
+
+###### Onderafdeling 1. - [ 1 Algemene uitzonderingen] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2016-12-22/03, art. 14, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -9781,7 +9196,9 @@ De Koning bepaalt het bedrag van de billijke vergoeding, die verschillend kan zi
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>  ( 2 )<W 2016-12-22/03, art. 15, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>   ( 3 )<W 2018-11-25/04, art. 7, 068; Inwerkingtreding : 22-12-2018>   ( 4 )<W 2019-05-02/28, art. 25, 077; Inwerkingtreding : 01-06-2019>   ( 5 )<W 2022-06-19/03, art. 42, 113; Inwerkingtreding : 01-08-2022>
 
-##### Afdeling 7. [ 1 - Gemeenschappelijke bepalingen voor de afdelingen 1 tot 6/1.] 1 - Onderafdeling 2. - [ 1 Uitzonderingen ten behoeve van onderwijs en wetenschappelijk onderzoek] 1
+##### Afdeling 7. [ 1 - Gemeenschappelijke bepalingen voor de afdelingen 1 tot 6/1.] 1
+
+###### Onderafdeling 2. - [ 1 Uitzonderingen ten behoeve van onderwijs en wetenschappelijk onderzoek] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2016-12-22/03, art. 16, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -9793,7 +9210,9 @@ De Koning bepaalt het bedrag van de billijke vergoeding, die verschillend kan zi
 
 ----------  ( 1 )<Ingevoegd bij W 2016-12-22/03, art. 17, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>  ( 2 )<W 2018-11-25/04, art. 8, 068; Inwerkingtreding : 22-12-2018>   ( 3 )<W 2019-05-02/24, art. 4, 073; Inwerkingtreding : 31-05-2019>   ( 4 )<W 2022-06-19/03, art. 43, 113; Inwerkingtreding : 01-08-2022>
 
-##### Afdeling 7. [ 1 - Gemeenschappelijke bepalingen voor de afdelingen 1 tot 6/1.] 1 - Onderafdeling 3. - [ 1 Uitlening van prestaties] 1
+##### Afdeling 7. [ 1 - Gemeenschappelijke bepalingen voor de afdelingen 1 tot 6/1.] 1
+
+###### Onderafdeling 3. - [ 1 Uitlening van prestaties] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2016-12-22/03, art. 18, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -9805,7 +9224,9 @@ De Koning bepaalt het bedrag van de billijke vergoeding, die verschillend kan zi
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>  ( 2 )<W 2018-11-25/04, art. 9, 068; Inwerkingtreding : 22-12-2018>   ( 3 )<W 2022-06-19/03, art. 44, 113; Inwerkingtreding : 01-08-2022>
 
-##### Afdeling 7. [ 1 - Gemeenschappelijke bepalingen voor de afdelingen 1 tot 6/1.] 1 - Onderafdeling 4. - [ 1 Verweesde werken] 1
+##### Afdeling 7. [ 1 - Gemeenschappelijke bepalingen voor de afdelingen 1 tot 6/1.] 1
+
+###### Onderafdeling 4. - [ 1 Verweesde werken] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2016-12-22/03, art. 19, 045; Inwerkingtreding : 10-03-2017 (KB 2017-03-05/01, art. 21)>
 
@@ -9821,7 +9242,9 @@ De Koning bepaalt het bedrag van de billijke vergoeding, die verschillend kan zi
 
 ----------  ( 1 )<Ingevoegd bij W 2022-06-19/03, art. 47, 113; Inwerkingtreding : 01-08-2022>
 
-##### Afdeling 7. [ 1 - Gemeenschappelijke bepalingen voor de afdelingen 1 tot 6/1.] 1 - Onderafdeling 5. [ 1 - Gemeenschappelijke bepalingen voor de onderafdelingen 1, 2, 3, 4 en 4/1] 1
+##### Afdeling 7. [ 1 - Gemeenschappelijke bepalingen voor de afdelingen 1 tot 6/1.] 1
+
+###### Onderafdeling 5. [ 1 - Gemeenschappelijke bepalingen voor de onderafdelingen 1, 2, 3, 4 en 4/1] 1
 
 ----------  ( 1 )<W 2022-06-19/03, art. 48, 113; Inwerkingtreding : 01-08-2022>
 
@@ -9989,7 +9412,7 @@ De Koning bepaalt het bedrag van de billijke vergoeding, die verschillend kan zi
 
 ###### Art. XI.228/11
 
-[ 1 § 1. [ 2 Wanneer een auteur of een uitvoerend kunstenaar van een geluids- of audiovisueel werk zijn recht om de mededeling aan het publiek, met inbegrip van de beschikbaarstelling aan het publiek, door een dienstverlener van de informatiemaatschappij bedoeld in artikel XI.228/10, toe te staan of te verbieden, heeft overgedragen of in licentie heeft gegeven aan een producent of uitgever, behoudt hij het recht op een vergoeding voor de mededeling aan het publiek door een dienstverlener van de informatiemaatschappij bedoeld in artikel XI.228/10.] 2
+[ 1 § 1. [ 2 Wanneer een auteur of een uitvoerend kunstenaar van een geluids- of audiovisueel werk zijn recht om de mededeling aan het publiek, met inbegrip van de beschikbaarstelling aan het publiek, door een dienstverlener van de informatiemaatschappij bedoeld in artikel XI.228/10, toe te staan of te verbieden, heeft overgedragen of in licentie heeft gegeven aan een producent of uitgever, behoudt hij het recht op een vergoeding voor de mededeling aan het publiek door een dienstverlener van de informatiemaatschappij bedoeld in artikel XI.228/10. ] 2
 
 § 2. Het recht op een vergoeding zoals bedoeld in paragraaf 1, is onoverdraagbaar en niet vatbaar voor afstand door de auteurs of uitvoerende kunstenaars.  § 3. Bij gebrek aan toepasselijke collectieve overeenkomst, zoals bepaald in artikel XI.167/5, kan het beheer van het recht op een vergoeding van de auteurs van een geluids- of audiovisueel werk, bedoeld in paragraaf 1, uitsluitend worden uitgeoefend door beheersvennootschappen en/of collectieve beheerorganisaties die auteurs vertegenwoordigen.  Bij gebrek aan toepasselijke collectieve overeenkomst, zoals bepaald in artikel XI.205/5, kan het beheer van het recht op een vergoeding, bedoeld in paragraaf 1, van de uitvoerende kunstenaars van een geluids- of audiovisueel werk, uitsluitend worden uitgeoefend door beheersvennootschappen en/of collectieve beheerorganisaties die uitvoerende kunstenaars vertegenwoordigen.  § 4. De bepalingen van paragrafen 1 tot 3 zijn van dwingend recht.] 1
 
@@ -10093,7 +9516,7 @@ beheersvennootschap die representatief is voor alle beheersvennootschappen en co
 
 [ 1 Na raadpleging van de Gemeenschappen, de instellingen en [ 2 beheersvennootschappen] 2
 
-bepaalt de Koning het bedrag van de in artikel XI.243 bedoelde vergoedingen.  De Koning kan het bedrag van de in artikel XI.243 bedoelde vergoeding bepalen, o.a. in functie van :  1° het volume van de collectie van de uitleeninstelling; en/of  2° het aantal uitleningen per instelling.  Deze vergoedingen worden geïnd door de [ 2 eheersvennootschappen en/of collectieve beheerorganisaties die in België de in artikel XI.243 bedoelde vergoeding beheren] 2 .  De Koning kan, overeenkomstig de door Hem gestelde voorwaarden en nadere regels, [ 2 een beheersvennootschap die representatief is voor alle beheersvennootschappen en collectieve beheerorganisaties die in België de in artikel XI.243 bedoelde vergoeding beheren] 2 , belasten met de inning en de verdeling van de vergoedingen voor openbare uitlening.  Na raadpleging van de Gemeenschappen en, in voorkomend geval, op hun initiatief, bepaalt de Koning voor sommige categorieën van instellingen die door de overheid zijn erkend of opgericht, een vrijstelling of een forfaitair vastgesteld bedrag per uitlening bij de vaststelling van de vergoedingen bedoeld in artikel XI.243.] 1
+bepaalt de Koning het bedrag van de in artikel XI.243 bedoelde vergoedingen.  De Koning kan het bedrag van de in artikel XI.243 bedoelde vergoeding bepalen, o.a. in functie van :  1° het volume van de collectie van de uitleeninstelling; en/of  2° het aantal uitleningen per instelling.  Deze vergoedingen worden geïnd door de [ 2 eheersvennootschappen en/of collectieve beheerorganisaties die in België de in artikel XI.243 bedoelde vergoeding beheren] 2 .  De Koning kan, overeenkomstig de door Hem gestelde voorwaarden en nadere regels, [ 2 een beheersvennootschap die representatief is voor alle beheersvennootschappen en collectieve beheerorganisaties die in België de in artikel XI.243 bedoelde vergoeding beheren] 2 , belasten met de inning en de verdeling van de vergoedingen voor openbare uitlening.  Na raadpleging van de Gemeenschappen en, in voorkomend geval, op hun initiatief, bepaalt de Koning voor sommige categorieën van instellingen die door de overheid zijn erkend of opgericht, een vrijstelling of een forfaitair vastgesteld bedrag per uitlening bij de vaststelling van de vergoedingen bedoeld in artikel XI.243. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -10208,13 +9631,17 @@ De Koning kan, op de door Hem gestelde voorwaarden en nadere regels, een of meer
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-08/13, art. 23, 049; Inwerkingtreding : 01-01-2018>
 
-##### Afdeling 3. [ 1 Interacties met de rechthebbenden en organisatie] 1 - Onderafdeling 1. [ 1 Algemene principes] 1
+##### Afdeling 3. [ 1 Interacties met de rechthebbenden en organisatie] 1
+
+###### Onderafdeling 1. [ 1 Algemene principes] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-08/13, art. 24, 049; Inwerkingtreding : 01-01-2018>
 
 ----------  ( 1 )<W 2017-06-08/13, art. 25, 049; Inwerkingtreding : 01-01-2018>
 
-##### Afdeling 3. [ 1 Interacties met de rechthebbenden en organisatie] 1 - Onderafdeling 2. [ 1 Rechten van de rechthebbenden] 1
+##### Afdeling 3. [ 1 Interacties met de rechthebbenden en organisatie] 1
+
+###### Onderafdeling 2. [ 1 Rechten van de rechthebbenden] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-08/13, art. 26, 049; Inwerkingtreding : 01-01-2018>
 
@@ -10226,7 +9653,9 @@ De Koning kan, op de door Hem gestelde voorwaarden en nadere regels, een of meer
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-08/13, art. 28, 049; Inwerkingtreding : 01-01-2018>
 
-##### Afdeling 3. [ 1 Interacties met de rechthebbenden en organisatie] 1 - Onderafdeling 3. [ 1 Organisatie] 1
+##### Afdeling 3. [ 1 Interacties met de rechthebbenden en organisatie] 1
+
+###### Onderafdeling 3. [ 1 Organisatie] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-08/13, art. 29, 049; Inwerkingtreding : 01-01-2018>
 
@@ -10277,7 +9706,9 @@ De Koning kan, op de door Hem gestelde voorwaarden en nadere regels, een of meer
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-08/13, art. 40, 049; Inwerkingtreding : 01-01-2018>
 
-##### Afdeling 4. [ 1 Beheer van de rechten] 1 - Onderafdeling 1. [ 1 Tariferings-, innings- en verdelingsregels] 1
+##### Afdeling 4. [ 1 Beheer van de rechten] 1
+
+###### Onderafdeling 1. [ 1 Tariferings-, innings- en verdelingsregels] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-08/13, art. 41, 049; Inwerkingtreding : 01-01-2018>
 
@@ -10287,11 +9718,15 @@ De Koning kan, op de door Hem gestelde voorwaarden en nadere regels, een of meer
 
 ----------  ( 1 )<W 2017-06-08/13, art. 42, 049; Inwerkingtreding : 01-01-2018>
 
-##### Afdeling 4. [ 1 Beheer van de rechten] 1 - Onderafdeling 2. [ 1 Investeringen] 1
+##### Afdeling 4. [ 1 Beheer van de rechten] 1
+
+###### Onderafdeling 2. [ 1 Investeringen] 1
 
 ----------  ( 1 )<W 2017-06-08/13, art. 44, 049; Inwerkingtreding : 01-01-2018>   ( 2 )<W 2024-02-09/19, art. 41, 129; Inwerkingtreding : 31-03-2024>
 
-##### Afdeling 4. [ 1 Beheer van de rechten] 1 - Onderafdeling 3. [ 1 Verdeling] 1
+##### Afdeling 4. [ 1 Beheer van de rechten] 1
+
+###### Onderafdeling 3. [ 1 Verdeling] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-08/13, art. 45, 049; Inwerkingtreding : 01-01-2018>
 
@@ -10319,7 +9754,9 @@ De Koning kan, op de door Hem gestelde voorwaarden en nadere regels, een of meer
 
 ----------  ( 1 )<W 2017-06-08/13, art. 50, 049; Inwerkingtreding : 01-01-2018>
 
-##### Afdeling 4. [ 1 Beheer van de rechten] 1 - Onderafdeling 4. [ 1 Beheerkosten] 1
+##### Afdeling 4. [ 1 Beheer van de rechten] 1
+
+###### Onderafdeling 4. [ 1 Beheerkosten] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-08/13, art. 51, 049; Inwerkingtreding : 01-01-2018>
 
@@ -10329,7 +9766,9 @@ De Koning kan, op de door Hem gestelde voorwaarden en nadere regels, een of meer
 
 ----------  ( 1 )<W 2017-06-08/13, art. 52, 049; Inwerkingtreding : 01-01-2018>
 
-##### Afdeling 4. [ 1 Beheer van de rechten] 1 - Onderafdeling 5. [ 1 Kredieten en leningen] 1
+##### Afdeling 4. [ 1 Beheer van de rechten] 1
+
+###### Onderafdeling 5. [ 1 Kredieten en leningen] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-08/13, art. 53, 049; Inwerkingtreding : 01-01-2018>
 
@@ -10343,7 +9782,9 @@ beheersvennootschap met een meerderheid van twee derden van de stemmen van de aa
 
 ----------  ( 1 )<W 2017-06-08/13, art. 56, 049; Inwerkingtreding : 01-01-2018>
 
-##### Afdeling 4. [ 1 Beheer van de rechten] 1 - Onderafdeling 7. [ 1 Vertegenwoordigingsovereenkomsten] 1
+##### Afdeling 4. [ 1 Beheer van de rechten] 1
+
+###### Onderafdeling 7. [ 1 Vertegenwoordigingsovereenkomsten] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-08/13, art. 57, 049; Inwerkingtreding : 01-01-2018>
 
@@ -10381,11 +9822,15 @@ beheersvennootschap met een meerderheid van twee derden van de stemmen van de aa
 
 ----------  ( 1 )<W 2017-06-08/13, art. 64, 049; Inwerkingtreding : 01-01-2018>
 
-##### Afdeling 5. [ 1 Interacties met gebruikers] 1 - Onderafdeling 2. [ 1 Verhoging van rechten] 1
+##### Afdeling 5. [ 1 Interacties met gebruikers] 1
+
+###### Onderafdeling 2. [ 1 Verhoging van rechten] 1
 
 ----------  ( 1 )<W 2017-06-08/13, art. 66, 049; Inwerkingtreding : 01-01-2018>
 
-##### Afdeling 5. [ 1 Interacties met gebruikers] 1 - Onderafdeling 3. [ 1 Administratieve vereenvoudiging] 1
+##### Afdeling 5. [ 1 Interacties met gebruikers] 1
+
+###### Onderafdeling 3. [ 1 Administratieve vereenvoudiging] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-08/13, art. 67, 049; Inwerkingtreding : 01-01-2018>
 
@@ -10398,7 +9843,9 @@ beheersvennootschap met een meerderheid van twee derden van de stemmen van de aa
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-08/13, art. 69, 049; Inwerkingtreding : 01-01-2018>
 
-##### Afdeling 6. [ 1 Informatie en communicatie] 1 - Onderafdeling 1. [ 1 Algemene informatie] 1
+##### Afdeling 6. [ 1 Informatie en communicatie] 1
+
+###### Onderafdeling 1. [ 1 Algemene informatie] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-08/13, art. 70, 049; Inwerkingtreding : 01-01-2018>
 
@@ -10408,7 +9855,9 @@ beheersvennootschap met een meerderheid van twee derden van de stemmen van de aa
 
 ----------  ( 1 )<W 2017-06-08/13, art. 72, 049; Inwerkingtreding : 01-01-2018>
 
-##### Afdeling 6. [ 1 Informatie en communicatie] 1 - Onderafdeling 2. [ 1 Informatie van de rechthebbenden] 1
+##### Afdeling 6. [ 1 Informatie en communicatie] 1
+
+###### Onderafdeling 2. [ 1 Informatie van de rechthebbenden] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-08/13, art. 73, 049; Inwerkingtreding : 01-01-2018>
 
@@ -10430,7 +9879,9 @@ beheersvennootschap met een meerderheid van twee derden van de stemmen van de aa
 
 ----------  ( 1 )<W 2017-06-08/13, art. 77, 049; Inwerkingtreding : 01-01-2018>
 
-##### Afdeling 6. [ 1 Informatie en communicatie] 1 - Onderafdeling 4. [ 1 Informatie van de gebruikers] 1
+##### Afdeling 6. [ 1 Informatie en communicatie] 1
+
+###### Onderafdeling 4. [ 1 Informatie van de gebruikers] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-08/13, art. 78, 049; Inwerkingtreding : 01-01-2018>
 
@@ -10440,7 +9891,9 @@ beheersvennootschap met een meerderheid van twee derden van de stemmen van de aa
 
 ----------  ( 1 )<W 2017-06-08/13, art. 79, 049; Inwerkingtreding : 01-01-2018>
 
-##### Afdeling 6. [ 1 Informatie en communicatie] 1 - Onderafdeling 5. [ 1 Mededeling aan de Controledienst] 1
+##### Afdeling 6. [ 1 Informatie en communicatie] 1
+
+###### Onderafdeling 5. [ 1 Mededeling aan de Controledienst] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-08/13, art. 80, 049; Inwerkingtreding : 01-01-2018>
 
@@ -10538,7 +9991,7 @@ bemiddelaar of de bemiddelaars] 2 , heeft verzet, worden zij geacht die voorstel
 
 ###### Art. XI.273/16
 
-[ 1 § 1. Onverminderd de taken die aan de commissaris of revisor worden opgedragen door of op grond van andere wettelijke bepalingen, bestaat de opdracht van de bij een beheervennootschap aangestelde commissaris of revisor er in om:  1° zich ervan te vergewissen dat de beheersvennootschap passende maatregelen heeft getroffen voor de administratieve en boekhoudkundige organisatie en voor de interne controle met het oog op de naleving van deze titel en van de uitvoeringsbesluiten ervan. Die taak maakt ieder jaar het voorwerp uit van een bijzonder verslag aan de raad van bestuur dat ter informatie wordt bezorgd aan de Controledienst;  2° in het kader van hun opdracht bij een beheersvennootschap of van een opdracht als revisor bij een natuurlijke persoon of rechtspersoon waarmee de beheersvennootschap nauwe banden heeft, in de zin van artikel XI.248/12, op eigen initiatief verslag uit te brengen aan de bestuurders of zaakvoerders van de beheersvennootschap, wanneer zij kennis krijgen van:  a) beslissingen, feiten of ontwikkelingen die de positie van de beheersvennootschap op financieel vlak, op het vlak van haar administratieve en boekhoudkundige organisatie of van haar interne controle, op beduidende wijze beïnvloeden of kunnen beïnvloeden;  b) beslissingen of feiten die een schending van het Wetboek van Vennootschappen, van de boekhoudwetgeving, van de statuten van de vennootschap, van deze titel en van de ter uitvoering ervan genomen besluiten kunnen uitmaken;  c) andere beslissingen of feiten die kunnen leiden tot een verklaring met voorbehoud, een afkeurende verklaring, of een onthoudende verklaring.  Een kopie van de in het vorige lid, onder 1° en 2° bedoelde verslagen wordt door de commissaris tegelijkertijd bezorgd aan de Controledienst. De Controledienst zal geen verdere acties ondernemen in verband met de in de verslagen vermelde gegevens gedurende een termijn van vijftien dagen na het versturen van deze verslagen teneinde de beheersvennootschap toe te laten haar opmerkingen aan de commissaris of revisor en aan de Controledienst over te maken.  § 2. Geen burgerrechtelijke, strafrechtelijke of disciplinaire vordering kan worden ingesteld noch kan een professionele sanctie worden uitgesproken tegen de commissarissen of revisoren die te goeder trouw de informatie bepaald in paragraaf 1, eerste lid, 2° verstrekt hebben.  De commissarissen en revisoren zijn ten aanzien van de minister en van de Controledienst vrijgesteld van hun beroepsgeheim wanneer zij een overtreding van het Wetboek van Vennootschappen, van de boekhoudwetgeving, van de statuten van de vennootschap, van de bepalingen van dit hoofdstuk of van de uitvoeringsbesluiten ervan vaststellen.  § 3. De commissaris kan eisen van het bestuursorgaan van de vennootschap waarop hij controle uitoefent, dat het hem, ter zetel van de vennootschap, in het bezit stelt van inlichtingen betreffende natuurlijke of rechtspersonen waarmee de beheersvennootschap nauwe banden heeft, in de zin van artikel XI.248/12.] 1
+[ 1 § 1. Onverminderd de taken die aan de commissaris of revisor worden opgedragen door of op grond van andere wettelijke bepalingen, bestaat de opdracht van de bij een beheervennootschap aangestelde commissaris of revisor er in om:  1° zich ervan te vergewissen dat de beheersvennootschap passende maatregelen heeft getroffen voor de administratieve en boekhoudkundige organisatie en voor de interne controle met het oog op de naleving van deze titel en van de uitvoeringsbesluiten ervan. Die taak maakt ieder jaar het voorwerp uit van een bijzonder verslag aan de raad van bestuur dat ter informatie wordt bezorgd aan de Controledienst;  2° in het kader van hun opdracht bij een beheersvennootschap of van een opdracht als revisor bij een natuurlijke persoon of rechtspersoon waarmee de beheersvennootschap nauwe banden heeft, in de zin van artikel XI.248/12, op eigen initiatief verslag uit te brengen aan de bestuurders of zaakvoerders van de beheersvennootschap, wanneer zij kennis krijgen van:  a) beslissingen, feiten of ontwikkelingen die de positie van de beheersvennootschap op financieel vlak, op het vlak van haar administratieve en boekhoudkundige organisatie of van haar interne controle, op beduidende wijze beïnvloeden of kunnen beïnvloeden;  b) beslissingen of feiten die een schending van het Wetboek van Vennootschappen, van de boekhoudwetgeving, van de statuten van de vennootschap, van deze titel en van de ter uitvoering ervan genomen besluiten kunnen uitmaken;  c) andere beslissingen of feiten die kunnen leiden tot een verklaring met voorbehoud, een afkeurende verklaring, of een onthoudende verklaring.  Een kopie van de in het vorige lid, onder 1° en 2° bedoelde verslagen wordt door de commissaris tegelijkertijd bezorgd aan de Controledienst. De Controledienst zal geen verdere acties ondernemen in verband met de in de verslagen vermelde gegevens gedurende een termijn van vijftien dagen na het versturen van deze verslagen teneinde de beheersvennootschap toe te laten haar opmerkingen aan de commissaris of revisor en aan de Controledienst over te maken.  § 2. Geen burgerrechtelijke, strafrechtelijke of disciplinaire vordering kan worden ingesteld noch kan een professionele sanctie worden uitgesproken tegen de commissarissen of revisoren die te goeder trouw de informatie bepaald in paragraaf 1, eerste lid, 2° verstrekt hebben.  De commissarissen en revisoren zijn ten aanzien van de minister en van de Controledienst vrijgesteld van hun beroepsgeheim wanneer zij een overtreding van het Wetboek van Vennootschappen, van de boekhoudwetgeving, van de statuten van de vennootschap, van de bepalingen van dit hoofdstuk of van de uitvoeringsbesluiten ervan vaststellen.  § 3. De commissaris kan eisen van het bestuursorgaan van de vennootschap waarop hij controle uitoefent, dat het hem, ter zetel van de vennootschap, in het bezit stelt van inlichtingen betreffende natuurlijke of rechtspersonen waarmee de beheersvennootschap nauwe banden heeft, in de zin van artikel XI.248/12. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-08/13, art. 101, 049; Inwerkingtreding : 01-01-2018>
 
@@ -10734,7 +10187,7 @@ auteursrechtelijk beschermd en gelijkgesteld met werken van letterkunde in de zi
 
 ###### Art. XI.302
 
-[ 1 De termijn van bescherming van computerprogramma's door het auteursrecht wordt bepaald overeenkomstig artikel XI.166.] 1
+[ 1 De termijn van bescherming van computerprogramma's door het auteursrecht wordt bepaald overeenkomstig artikel XI.166. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -10828,7 +10281,7 @@ auteursrechtelijk beschermd en gelijkgesteld met werken van letterkunde in de zi
 
 ###### Art. XI.315
 
-[ 1 Het recht van de producenten van databanken geldt voor databanken waarvan de producent onderdaan is van een lidstaat van de Europese Unie of zijn gewone verblijfplaats heeft op het grondgebied van de Europese Unie.  Het eerste lid van dit artikel is eveneens van toepassing op vennootschappen en ondernemingen opgericht overeenkomstig de wetgeving van een lidstaat van de Europese Unie, waarvan de statutaire zetel, het hoofdbestuur of de hoofdvestiging in de Unie is gelegen. Indien een dergelijke vennootschap of onderneming echter alleen haar statutaire zetel op het grondgebied van de Unie heeft, moeten haar werkzaamheden een werkelijke en duurzame band met de economie van een lidstaat hebben.  Databanken uit derde landen die niet onder het eerste of tweede lid van dit artikel vallen en waarop overeenkomsten betrekking hebben die op voorstel van de Commissie van de Europese Unie door de Raad zijn gesloten, worden beschermd op grond van het recht van de producenten van databanken. De duur van de aan deze databanken verleende bescherming kan niet langer zijn dan die vastgesteld in artikel XI.309.] 1
+[ 1 Het recht van de producenten van databanken geldt voor databanken waarvan de producent onderdaan is van een lidstaat van de Europese Unie of zijn gewone verblijfplaats heeft op het grondgebied van de Europese Unie.  Het eerste lid van dit artikel is eveneens van toepassing op vennootschappen en ondernemingen opgericht overeenkomstig de wetgeving van een lidstaat van de Europese Unie, waarvan de statutaire zetel, het hoofdbestuur of de hoofdvestiging in de Unie is gelegen. Indien een dergelijke vennootschap of onderneming echter alleen haar statutaire zetel op het grondgebied van de Unie heeft, moeten haar werkzaamheden een werkelijke en duurzame band met de economie van een lidstaat hebben.  Databanken uit derde landen die niet onder het eerste of tweede lid van dit artikel vallen en waarop overeenkomsten betrekking hebben die op voorstel van de Commissie van de Europese Unie door de Raad zijn gesloten, worden beschermd op grond van het recht van de producenten van databanken. De duur van de aan deze databanken verleende bescherming kan niet langer zijn dan die vastgesteld in artikel XI.309. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 3, 024; Inwerkingtreding : 01-01-2015>
 
@@ -11270,7 +10723,7 @@ In afwijking van artikel XII.3 is de reclame voor de verhandeling van aandelen v
 
 ###### Art. XII.5
 
-[ 1 § 1. Onder de in §§ 2 tot 5 genoemde voorwaarden stelt de Koning, in afwijking van de bepalingen van artikel XII.3., de modaliteiten vast volgens dewelke de overheden die Hij aanduidt maatregelen kunnen nemen tot beperking van het vrije verkeer van een dienst van de informatiemaatschappij geleverd door een in een andere Lidstaat gevestigde dienstverlener.  § 2. De in §§ 1 en 6 bedoelde maatregelen moeten :  1° noodzakelijk zijn voor een van de volgende doelstellingen :  - de openbare orde, in het bijzonder de preventie van, het onderzoek naar, de opsporing en de vervolging van strafbare feiten, waaronder de bescherming van minderjarigen en de bestrijding van het aanzetten tot haat wegens ras, geslacht, godsdienst of nationaliteit en van de schendingen van de menselijke waardigheid ten aanzien van individuen,  - de bescherming van de volksgezondheid,  - de openbare veiligheid, met inbegrip van het waarborgen van de nationale veiligheid en defensie,  - de bescherming van consumenten, met inbegrip van beleggers;  2° worden genomen ten aanzien van een bepaalde dienst van de informatiemaatschappij waardoor afbreuk wordt gedaan aan de onder punt 1° genoemde doelstellingen of een ernstig gevaar daarvoor ontstaat;  3° evenredig zijn aan die doelstellingen.  § 3. Onverminderd gerechtelijke procedures, met inbegrip van de daden in het kader van een opsporingsonderzoek of een gerechtelijk onderzoek, moeten de overheden bedoeld in § 1, alvorens maatregelen te nemen, de lidstaat waarin de betrokken dienstverlener is gevestigd, verzoeken de nodige maatregelen te nemen om de in § 2, 1°, bedoelde doelstellingen te waarborgen.  § 4. Indien de betrokken lidstaat geen gevolg geeft aan dat verzoek of geen voldoende maatregelen neemt, delen de overheden bedoeld in § 1 dit aan de onderzoeksrechter van het gerechtelijk arrondissement Brussel mede.  Eerst informeren zij de betrokken lidstaat en de Europese Commissie van hun voornemen.  § 5. In dringende gevallen en onder de voorwaarden vermeld in § 2, kunnen de overheden bedoeld in § 1 de mededeling aan de onderzoeksrechter onmiddellijk doen, op voorwaarde dat zij de Europese Commissie alsook de betrokken Lidstaat onverwijld van dit feit in kennis stellen.  § 6. Wanneer de onderzoeksrechter van de overheden bedoeld in § 1, overeenkomstig de bepalingen van § 2 en van §§ 4 of 5 een mededeling ontvangen heeft, kan hij middels een met redenen omklede beschikking de dienstverleners die daartoe in staat zijn, gelasten om de communicatietechniek die gebruikt wordt om de handelingen uit te voeren die het naleven van de doelstellingen bedoeld in § 2, 1°, in gevaar brengen of kunnen brengen niet meer ter beschikking te stellen van de dienstverlener die gevestigd is in een andere lidstaat en dit binnen de perken en voor de duur die hij bepaalt en die één maand niet kan overschrijden.  De onderzoeksrechter kan de uitwerking van zijn beschikking één of meerdere keren verlengen; hij moet er een einde aan stellen zodra de omstandigheden die ze rechtvaardigen, verdwenen zijn.] 1
+[ 1 § 1. Onder de in §§ 2 tot 5 genoemde voorwaarden stelt de Koning, in afwijking van de bepalingen van artikel XII.3. , de modaliteiten vast volgens dewelke de overheden die Hij aanduidt maatregelen kunnen nemen tot beperking van het vrije verkeer van een dienst van de informatiemaatschappij geleverd door een in een andere Lidstaat gevestigde dienstverlener.  § 2. De in §§ 1 en 6 bedoelde maatregelen moeten :  1° noodzakelijk zijn voor een van de volgende doelstellingen :  - de openbare orde, in het bijzonder de preventie van, het onderzoek naar, de opsporing en de vervolging van strafbare feiten, waaronder de bescherming van minderjarigen en de bestrijding van het aanzetten tot haat wegens ras, geslacht, godsdienst of nationaliteit en van de schendingen van de menselijke waardigheid ten aanzien van individuen,  - de bescherming van de volksgezondheid,  - de openbare veiligheid, met inbegrip van het waarborgen van de nationale veiligheid en defensie,  - de bescherming van consumenten, met inbegrip van beleggers;  2° worden genomen ten aanzien van een bepaalde dienst van de informatiemaatschappij waardoor afbreuk wordt gedaan aan de onder punt 1° genoemde doelstellingen of een ernstig gevaar daarvoor ontstaat;  3° evenredig zijn aan die doelstellingen.  § 3. Onverminderd gerechtelijke procedures, met inbegrip van de daden in het kader van een opsporingsonderzoek of een gerechtelijk onderzoek, moeten de overheden bedoeld in § 1, alvorens maatregelen te nemen, de lidstaat waarin de betrokken dienstverlener is gevestigd, verzoeken de nodige maatregelen te nemen om de in § 2, 1°, bedoelde doelstellingen te waarborgen.  § 4. Indien de betrokken lidstaat geen gevolg geeft aan dat verzoek of geen voldoende maatregelen neemt, delen de overheden bedoeld in § 1 dit aan de onderzoeksrechter van het gerechtelijk arrondissement Brussel mede.  Eerst informeren zij de betrokken lidstaat en de Europese Commissie van hun voornemen.  § 5. In dringende gevallen en onder de voorwaarden vermeld in § 2, kunnen de overheden bedoeld in § 1 de mededeling aan de onderzoeksrechter onmiddellijk doen, op voorwaarde dat zij de Europese Commissie alsook de betrokken Lidstaat onverwijld van dit feit in kennis stellen.  § 6. Wanneer de onderzoeksrechter van de overheden bedoeld in § 1, overeenkomstig de bepalingen van § 2 en van §§ 4 of 5 een mededeling ontvangen heeft, kan hij middels een met redenen omklede beschikking de dienstverleners die daartoe in staat zijn, gelasten om de communicatietechniek die gebruikt wordt om de handelingen uit te voeren die het naleven van de doelstellingen bedoeld in § 2, 1°, in gevaar brengen of kunnen brengen niet meer ter beschikking te stellen van de dienstverlener die gevestigd is in een andere lidstaat en dit binnen de perken en voor de duur die hij bepaalt en die één maand niet kan overschrijden.  De onderzoeksrechter kan de uitwerking van zijn beschikking één of meerdere keren verlengen; hij moet er een einde aan stellen zodra de omstandigheden die ze rechtvaardigen, verdwenen zijn.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2013-12-26/27, art. 2, 011; Inwerkingtreding : 31-05-2014>
 
@@ -11966,9 +11419,9 @@ Indien de overtreder niet ingaat op het voorstel tot transactie of indien hij de
 
 ###### Art. XV.5
 
-[ 1 § 1. Wanneer de ambtenaren bedoeld in artikel XV.2, overeenkomstig de hun toegekende bevoegdheden, een inbreuk vaststellen, kunnen zij, tegen afgifte van een ontvangstbewijs, beslag leggen op :  1° de goederen die het voorwerp van de inbreuk uitmaken;  2° de productie-, verwerking- en vervoermiddelen of welke voorwerpen dan ook, die gediend hebben om de goederen die het voorwerp van de inbreuk uitmaken voort te brengen, ze te verwerken, ze te verdelen of ze te vervoeren;  3° alle andere voorwerpen die tot het plegen van de inbreuk hebben gediend;  4° de middelen die nodig zijn om diensten te verrichten die een inbreuk uitmaken;  5° de goederen van dezelfde soort en dezelfde bestemming als degene die het voorwerp van de inbreuk uitmaken.  De ambtenaren bedoeld in artikel XV.2 kunnen dit beslag ook leggen indien een derde er eigenaar van is.  Dit beslag moet door het openbaar ministerie bevestigd worden binnen een termijn van vijftien dagen. Bij ontstentenis van een bevestiging door het openbaar ministerie, is het beslag van rechtswege opgeheven. De persoon bij wie beslag op de goederen wordt gelegd kan als gerechtelijk bewaarder ervan aangesteld worden.  De inbeslagnemingen kunnen aanleiding geven tot het aanstellen van een bewaker ter plaatse of kunnen ten uitvoer gelegd worden in om het even welke andere plaats aangeduid door de ambtenaren bedoeld in artikel XV.2.  § 2. De ambtenaren bedoeld in artikel XV.2 kunnen lokalen verzegelen wanneer zulks noodzakelijk is voor het leveren van het bewijs van een inbreuk bedoeld in artikel XV.2, § 1, of het gevaar bestaat dat met de hierin aanwezige goederen inbreuken worden voortgezet of nieuwe inbreuken worden gepleegd.  [ 2 Deze verzegeling moet door het openbaar ministerie bevestigd worden binnen een termijn van vijftien dagen.  Bij ontstentenis van een bevestiging door het openbaar ministerie, is de verzegeling van rechtswege opgeheven. De persoon bij wie de verzegeling wordt gelegd kan als gerechtelijk bewaarder ervan aangesteld worden.  De verzegelingen kunnen aanleiding geven tot het aanstellen van een bewaker ter plaatse door de ambtenaren bedoeld in artikel XV.2.] 2
+[ 1 § 1. Wanneer de ambtenaren bedoeld in artikel XV.2, overeenkomstig de hun toegekende bevoegdheden, een inbreuk vaststellen, kunnen zij, tegen afgifte van een ontvangstbewijs, beslag leggen op :  1° de goederen die het voorwerp van de inbreuk uitmaken;  2° de productie-, verwerking- en vervoermiddelen of welke voorwerpen dan ook, die gediend hebben om de goederen die het voorwerp van de inbreuk uitmaken voort te brengen, ze te verwerken, ze te verdelen of ze te vervoeren;  3° alle andere voorwerpen die tot het plegen van de inbreuk hebben gediend;  4° de middelen die nodig zijn om diensten te verrichten die een inbreuk uitmaken;  5° de goederen van dezelfde soort en dezelfde bestemming als degene die het voorwerp van de inbreuk uitmaken.  De ambtenaren bedoeld in artikel XV.2 kunnen dit beslag ook leggen indien een derde er eigenaar van is.  Dit beslag moet door het openbaar ministerie bevestigd worden binnen een termijn van vijftien dagen. Bij ontstentenis van een bevestiging door het openbaar ministerie, is het beslag van rechtswege opgeheven. De persoon bij wie beslag op de goederen wordt gelegd kan als gerechtelijk bewaarder ervan aangesteld worden.  De inbeslagnemingen kunnen aanleiding geven tot het aanstellen van een bewaker ter plaatse of kunnen ten uitvoer gelegd worden in om het even welke andere plaats aangeduid door de ambtenaren bedoeld in artikel XV.2.  § 2. De ambtenaren bedoeld in artikel XV.2 kunnen lokalen verzegelen wanneer zulks noodzakelijk is voor het leveren van het bewijs van een inbreuk bedoeld in artikel XV.2, § 1, of het gevaar bestaat dat met de hierin aanwezige goederen inbreuken worden voortgezet of nieuwe inbreuken worden gepleegd.  [ 2 Deze verzegeling moet door het openbaar ministerie bevestigd worden binnen een termijn van vijftien dagen.  Bij ontstentenis van een bevestiging door het openbaar ministerie, is de verzegeling van rechtswege opgeheven. De persoon bij wie de verzegeling wordt gelegd kan als gerechtelijk bewaarder ervan aangesteld worden.  De verzegelingen kunnen aanleiding geven tot het aanstellen van een bewaker ter plaatse door de ambtenaren bedoeld in artikel XV.2. ] 2
 
-[ 3 § 6. De inbeslagneming of de verzegeling wordt van rechtswege opgeheven wanneer de ambtenaren bedoeld in artikel XV.60/4 beslist hebben:  1° tot een klassering zonder gevolg zoals bedoeld in artikel XV.60/2, eerste lid;  2° tot een schuldigverklaring zoals bedoeld in artikel XV.60/2, eerste lid, of tot het opleggen van een administratieve geldboete, voor zover geen toepassing is gemaakt van de procedure bedoeld in artikel XV.30/1, § 1/1, binnen een termijn van dertig dagen na verloop van de beroepstermijn bedoeld in artikel XV.60/15.] 3
+[ 3 § 6. De inbeslagneming of de verzegeling wordt van rechtswege opgeheven wanneer de ambtenaren bedoeld in artikel XV.60/4 beslist hebben:  1° tot een klassering zonder gevolg zoals bedoeld in artikel XV.60/2, eerste lid;  2° tot een schuldigverklaring zoals bedoeld in artikel XV.60/2, eerste lid, of tot het opleggen van een administratieve geldboete, voor zover geen toepassing is gemaakt van de procedure bedoeld in artikel XV.30/1, § 1/1, binnen een termijn van dertig dagen na verloop van de beroepstermijn bedoeld in artikel XV.60/15. ] 3
 
 ----------  ( 1 )<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art. 6)>  ( 2 )<W 2015-10-26/06, art. 52, 028; Inwerkingtreding : 09-11-2015>   ( 3 )<W 2024-05-03/21, art. 27, 135; Inwerkingtreding : 10-06-2024>
 
@@ -12006,7 +11459,7 @@ identificeerbaar zijn] 3 ;  2° ingeval de mededeling van dergelijke informatie 
 
 ###### Art. XV.9
 
-[ 1 Om hun bevoegdheden van officier van gerechtelijke politie, hulpofficier van de procureur des Konings, te kunnen uitoefenen, leggen de ambtenaren bedoeld in artikel XV.8., in handen van de procureur- generaal van het rechtsgebied van hun woonplaats, de eed af in de volgende bewoordingen : "Ik zweer getrouwheid aan de Koning, gehoorzaamheid aan de Grondwet en aan de wetten van het Belgische volk en het mij opgedragen ambt trouw waar te nemen".  Zij kunnen hun bevoegdheden uitoefenen op het grondgebied van het hele Koninkrijk.] 1
+[ 1 Om hun bevoegdheden van officier van gerechtelijke politie, hulpofficier van de procureur des Konings, te kunnen uitoefenen, leggen de ambtenaren bedoeld in artikel XV.8. , in handen van de procureur- generaal van het rechtsgebied van hun woonplaats, de eed af in de volgende bewoordingen : "Ik zweer getrouwheid aan de Koning, gehoorzaamheid aan de Grondwet en aan de wetten van het Belgische volk en het mij opgedragen ambt trouw waar te nemen".  Zij kunnen hun bevoegdheden uitoefenen op het grondgebied van het hele Koninkrijk.] 1
 
 ----------  ( 1 )<Ingevoegd bij KB 2013-11-20/02, art. 2, 005; Inwerkingtreding : 12-12-2013 (zie KB 2013-12-08/01, art. 6)>
 
@@ -12086,7 +11539,7 @@ identificeerbaar zijn] 3 ;  2° ingeval de mededeling van dergelijke informatie 
 
 ###### Art. XV.15
 
-[ 1 Bij niet-naleving van de bepalingen van boek VI, titel 3, hoofdstuk 4, kunnen de ambtenaren bedoeld in artikel XV.2 en de officieren van gerechtelijke politie een proces-verbaal opstellen. Een kopie van dit proces-verbaal wordt afgegeven of per aangetekende brief toegestuurd aan de organisator of zijn aangestelde.  Voornoemde ambtenaren kunnen in dit geval ter plaatse mondeling verbieden tot de verkoop van de goederen opgenomen in het proces-verbaal over te gaan, of de stopzetting van deze verkoop bevelen.  Zij kunnen overgaan tot de beslaglegging ten bewarende titel van de goederen die het voorwerp van de inbreuk uitmaken, overeenkomstig de bepalingen van artikel XV.4.] 1
+[ 1 Bij niet-naleving van de bepalingen van boek VI, titel 3, hoofdstuk 4, kunnen de ambtenaren bedoeld in artikel XV.2 en de officieren van gerechtelijke politie een proces-verbaal opstellen. Een kopie van dit proces-verbaal wordt afgegeven of per aangetekende brief toegestuurd aan de organisator of zijn aangestelde.  Voornoemde ambtenaren kunnen in dit geval ter plaatse mondeling verbieden tot de verkoop van de goederen opgenomen in het proces-verbaal over te gaan, of de stopzetting van deze verkoop bevelen.  Zij kunnen overgaan tot de beslaglegging ten bewarende titel van de goederen die het voorwerp van de inbreuk uitmaken, overeenkomstig de bepalingen van artikel XV.4. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2013-12-21/23, art. 4, 009; Inwerkingtreding : 31-05-2014>
 
@@ -12115,7 +11568,9 @@ identificeerbaar zijn] 3 ;  2° ingeval de mededeling van dergelijke informatie 
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 4, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art. 1)>
 
-##### Afdeling 2. [ 1 - De bijzondere bevoegdheden inzake opsporing en vaststelling van inbreuken op boek VII] 1 - Onderafdeling 1. [ 1 - Algemene bepalingen] 1
+##### Afdeling 2. [ 1 - De bijzondere bevoegdheden inzake opsporing en vaststelling van inbreuken op boek VII] 1
+
+###### Onderafdeling 1. [ 1 - Algemene bepalingen] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 4, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art. 1)>
 
@@ -12139,7 +11594,9 @@ De betrokken persoon of personen waarbij vaststellingen worden gedaan mogen niet
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 4, 021; Inwerkingtreding : 29-05-2014 (zie KB 2014-04-19/40, art. 1)>   ( 2 )<W 2014-04-19/39, art. 4, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>   ( 3 )<W 2015-10-26/06, art. 54, 028; Inwerkingtreding : 09-11-2015>   ( 4 )<W 2016-12-01/12, art. 5, 040; Inwerkingtreding : 25-12-2016>   ( 5 )<W 2018-07-30/47, art. 32, 065; Inwerkingtreding : 15-09-2018>   ( 6 )<W 2023-11-05/07, art. 45, 123; Inwerkingtreding : 21-12-2023>   ( 7 )<W 2025-12-11/13, art. 165, 143; Inwerkingtreding : 03-01-2026>
 
-##### Afdeling 2. [ 1 - De bijzondere bevoegdheden inzake opsporing en vaststelling van inbreuken op boek VII] 1 - Onderafdeling 2. [ 1 - De bevoegdheden van de FSMA] 1
+##### Afdeling 2. [ 1 - De bijzondere bevoegdheden inzake opsporing en vaststelling van inbreuken op boek VII] 1
+
+###### Onderafdeling 2. [ 1 - De bevoegdheden van de FSMA] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 4, 021; Inwerkingtreding : 01-07-2015 (zie KB 2014-04-19/40, art. 3)>
 
@@ -12157,7 +11614,9 @@ Zij kan ter plaatse inspecties verrichten bij kredietgevers, kredietbemiddelaars
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 4, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 3)>
 
-##### Afdeling 2. [ 1 - De bijzondere bevoegdheden inzake opsporing en vaststelling van inbreuken op boek VII] 1 - Onderafdeling 3. [ 1 - De bevoegdheden van de Bank.] 1
+##### Afdeling 2. [ 1 - De bijzondere bevoegdheden inzake opsporing en vaststelling van inbreuken op boek VII] 1
+
+###### Onderafdeling 3. [ 1 - De bevoegdheden van de Bank.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2016-12-01/12, art. 6, 040; Inwerkingtreding : 25-12-2016>
 
@@ -12171,7 +11630,9 @@ Zij kan ter plaatse inspecties verrichten bij kredietgevers, kredietbemiddelaars
 
 ----------  ( 1 )<Ingevoegd bij W 2023-11-05/06, art. 24, 141; Inwerkingtreding : 28-06-2025>
 
-##### Afdeling 2. [ 1 - De bijzondere bevoegdheden inzake opsporing en vaststelling van inbreuken op boek VII] 1 - Onderafdeling 1. [ 1 - Klachten met betrekking tot de toegankelijkheid van producten en diensten] 1
+##### Afdeling 2. [ 1 - De bijzondere bevoegdheden inzake opsporing en vaststelling van inbreuken op boek VII] 1
+
+###### Onderafdeling 1. [ 1 - Klachten met betrekking tot de toegankelijkheid van producten en diensten] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2023-11-05/06, art. 25, 141; Inwerkingtreding : 28-06-2025>
 
@@ -12183,7 +11644,9 @@ Zij kan ter plaatse inspecties verrichten bij kredietgevers, kredietbemiddelaars
 
 ----------  ( 1 )<Ingevoegd bij W 2023-11-05/06, art. 27, 141; Inwerkingtreding : 28-06-2025>
 
-##### Afdeling 2. [ 1 - De bijzondere bevoegdheden inzake opsporing en vaststelling van inbreuken op boek VII] 1 - Onderafdeling 2. [ 1 - Markttoezicht op producten] 1
+##### Afdeling 2. [ 1 - De bijzondere bevoegdheden inzake opsporing en vaststelling van inbreuken op boek VII] 1
+
+###### Onderafdeling 2. [ 1 - Markttoezicht op producten] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2023-11-05/06, art. 28, 141; Inwerkingtreding : 28-06-2025>
 
@@ -12212,7 +11675,9 @@ Zij kan ter plaatse inspecties verrichten bij kredietgevers, kredietbemiddelaars
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 4, 024; Inwerkingtreding : 01-01-2015>
 
-##### Afdeling 4. - [ 1 De bijzondere bevoegdheden voor de toepassing van boek XI] 1 - Onderafdeling 1. - [ 1 Bestrijding van namaak en piraterij] 1
+##### Afdeling 4. - [ 1 De bijzondere bevoegdheden voor de toepassing van boek XI] 1
+
+###### Onderafdeling 1. - [ 1 Bestrijding van namaak en piraterij] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 4, 024; Inwerkingtreding : 01-01-2015>
 
@@ -12242,7 +11707,7 @@ Zij kan ter plaatse inspecties verrichten bij kredietgevers, kredietbemiddelaars
 
 ###### Art. XV.25/1
 
-[ 1 Behalve de ambtenaren bedoeld in artikel XV.2, zijn ook de ambtenaren van de Administratie der Douanen en Accijnzen, en de hiertoe door de minister bevoegd voor Economie en de minister van Financiën aangestelde ambtenaren, bevoegd om de in titel 3, hoofdstuk 2, afdeling 8, onderafdeling 1, bepaalde inbreuken op te sporen en vast te stellen.  De ambtenaren bedoeld in het eerste lid beschikken, over dezelfde bevoegdheden als de ambtenaren bedoeld in artikel XV.2.] 1
+[ 1 Behalve de ambtenaren bedoeld in artikel XV.2, zijn ook de ambtenaren van de Administratie der Douanen en Accijnzen, en de hiertoe door de minister bevoegd voor Economie en de minister van Financiën aangestelde ambtenaren, bevoegd om de in titel 3, hoofdstuk 2, afdeling 8, onderafdeling 1, bepaalde inbreuken op te sporen en vast te stellen.  De ambtenaren bedoeld in het eerste lid beschikken, over dezelfde bevoegdheden als de ambtenaren bedoeld in artikel XV.2. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 4, 024; Inwerkingtreding : 01-01-2015>
 
@@ -12258,7 +11723,9 @@ Zij kan ter plaatse inspecties verrichten bij kredietgevers, kredietbemiddelaars
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 4, 024; Inwerkingtreding : 01-01-2015>  ( 2 )<W 2023-11-05/07, art. 47, 123; Inwerkingtreding : 21-12-2023>
 
-##### Afdeling 4. - [ 1 De bijzondere bevoegdheden voor de toepassing van boek XI] 1 - Onderafdeling 2. - [ 1 Collectief beheer van het auteursrecht en naburige rechten en transparantie van het auteursrecht en de naburige rechten] 1
+##### Afdeling 4. - [ 1 De bijzondere bevoegdheden voor de toepassing van boek XI] 1
+
+###### Onderafdeling 2. - [ 1 Collectief beheer van het auteursrecht en naburige rechten en transparantie van het auteursrecht en de naburige rechten] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 4, 024; Inwerkingtreding : 01-01-2015>
 
@@ -12323,7 +11790,9 @@ De kosten voor de vernietiging van de goederen die met toepassing van de eerste 
 
 ----------  ( 1 )<Ingevoegd bij W 2022-07-20/11, art. 46, 114; Inwerkingtreding : 05-08-2022>
 
-##### Afdeling 10. [ 1 Certificering van de cyberbeveiliging.] 1 - Onderafdeling 1. [ 1 - Vrijwillige cyberbeveiligingscertificering] 1
+##### Afdeling 10. [ 1 Certificering van de cyberbeveiliging.] 1
+
+###### Onderafdeling 1. [ 1 - Vrijwillige cyberbeveiligingscertificering] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-07-20/11, art. 47, 114; Inwerkingtreding : 05-08-2022>
 
@@ -12331,7 +11800,9 @@ De kosten voor de vernietiging van de goederen die met toepassing van de eerste 
 
 ----------  ( 1 )<Ingevoegd bij W 2022-07-20/11, art. 48, 114; Inwerkingtreding : 05-08-2022>
 
-##### Afdeling 10. [ 1 Certificering van de cyberbeveiliging.] 1 - Onderafdeling 2. [ 1 - Verplichte cyberbeveiligingscertificering] 1
+##### Afdeling 10. [ 1 Certificering van de cyberbeveiliging.] 1
+
+###### Onderafdeling 2. [ 1 - Verplichte cyberbeveiligingscertificering] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2022-07-20/11, art. 49, 114; Inwerkingtreding : 05-08-2022>
 
@@ -12353,7 +11824,7 @@ De kosten voor de vernietiging van de goederen die met toepassing van de eerste 
 
 § 2. [ 7 Wanneer aan de waarschuwing, bedoeld in paragraaf 1, geen gevolg is gegeven binnen de in paragraaf 1, vierde lid, 2°, bedoelde termijn, wordt een in artikel XV.60/1, § 2, bedoeld proces-verbaal opgemaakt.] 7
 
-§ 3. [ 8 Onverminderd de andere in dit Wetboek voorgeschreven maatregelen, kunnen de ambtenaren bedoeld in artikel XV.2 openbaar maken dat een onderneming heeft toegezegd om een inbreuk zoals bedoeld in artikel XV.2, § 1, stop te zetten, of om over te gaan tot herstelmaatregelen, overeenkomstig artikel XV.31/2.] 8 ] 1
+§ 3. [ 8 Onverminderd de andere in dit Wetboek voorgeschreven maatregelen, kunnen de ambtenaren bedoeld in artikel XV.2 openbaar maken dat een onderneming heeft toegezegd om een inbreuk zoals bedoeld in artikel XV.2, § 1, stop te zetten, of om over te gaan tot herstelmaatregelen, overeenkomstig artikel XV.31/2. ] 8 ] 1
 
 [ 2 § 4. Dit artikel is niet van toepassing op de inbreuken op de bepalingen van [ 5 boek VII, titel 4, hoofdstuk 4, met uitzondering van artikel VII.183, § 5, 4°] 5 .] 2
 
@@ -12378,7 +11849,7 @@ De kosten voor de vernietiging van de goederen die met toepassing van de eerste 
 
 Vooraleer over te kunnen gaan tot de publicatie, dienen de in artikel XV.2 bedoelde ambtenaren de onderneming [ 3 die de schadelijke praktijken hanteert] 3 op de hoogte te brengen van de feiten die aan de basis liggen van de in het eerste lid bedoelde maatregelen, van het voornemen om deze maatregelen te nemen en van de bepalingen opgenomen in het derde en vierde lid.  Er kan slechts worden overgegaan tot de in het eerste lid bedoelde publicatie, indien er binnen de termijn van [ 3
 
-twee werkdagen] 3 geen reactie wordt ontvangen van de onderneming, er geen contact mogelijk is, indien de onderneming niet toezegt de schadelijke praktijk stop te zetten zoals bedoeld in artikel XV.31/2, of indien ze op geen andere manier een afdoende verantwoording heeft gegeven.  Onverminderd de mogelijkheid om de toezegging zelf openbaar te maken, wordt de publicatie ingetrokken van zodra de onderneming het bewijs levert dat ze de inbreuk heeft stopgezet in overeenstemming met haar toezegging zoals bedoeld in artikel XV.31/2.] 1
+twee werkdagen] 3 geen reactie wordt ontvangen van de onderneming, er geen contact mogelijk is, indien de onderneming niet toezegt de schadelijke praktijk stop te zetten zoals bedoeld in artikel XV.31/2, of indien ze op geen andere manier een afdoende verantwoording heeft gegeven.  Onverminderd de mogelijkheid om de toezegging zelf openbaar te maken, wordt de publicatie ingetrokken van zodra de onderneming het bewijs levert dat ze de inbreuk heeft stopgezet in overeenstemming met haar toezegging zoals bedoeld in artikel XV.31/2. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2020-09-29/05, art. 16, 092; Inwerkingtreding : 30-11-2020>   ( 2 )<W 2023-11-05/07, art. 51, 123; Inwerkingtreding : 21-12-2023>   ( 3 )<W 2024-02-09/19, art. 46, 129; Inwerkingtreding : 31-03-2024>
 
@@ -12420,7 +11891,9 @@ twee werkdagen] 3 geen reactie wordt ontvangen van de onderneming, er geen conta
 
 ----------  ( 1 )<Ingevoegd bij W 2013-07-17/32, art. 5, 007; Inwerkingtreding : 09-05-2014>
 
-##### Afdeling 2. [ 1 Coördinatie en opvolging van de acties in het kader van titel 1 van boek III.] 1 - Onderafdeling 1. [ 1 Toepassingsgebied.] 1
+##### Afdeling 2. [ 1 Coördinatie en opvolging van de acties in het kader van titel 1 van boek III.] 1
+
+###### Onderafdeling 1. [ 1 Toepassingsgebied.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2013-07-17/32, art. 5, 007; Inwerkingtreding : 09-05-2014>
 
@@ -12430,7 +11903,9 @@ twee werkdagen] 3 geen reactie wordt ontvangen van de onderneming, er geen conta
 
 ----------  ( 1 )<Ingevoegd bij W 2013-07-17/32, art. 5, 007; Inwerkingtreding : 09-05-2014>
 
-##### Afdeling 2. [ 1 Coördinatie en opvolging van de acties in het kader van titel 1 van boek III.] 1 - Onderafdeling 2. [ 1 Principes.] 1
+##### Afdeling 2. [ 1 Coördinatie en opvolging van de acties in het kader van titel 1 van boek III.] 1
+
+###### Onderafdeling 2. [ 1 Principes.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2013-07-17/32, art. 5, 007; Inwerkingtreding : 09-05-2014>
 
@@ -12498,7 +11973,9 @@ twee werkdagen] 3 geen reactie wordt ontvangen van de onderneming, er geen conta
 
 ----------  ( 1 )<Ingevoegd bij W 2013-07-17/32, art. 5, 007; Inwerkingtreding : 09-05-2014>
 
-##### Afdeling 2. [ 1 Coördinatie en opvolging van de acties in het kader van titel 1 van boek III.] 1 - Onderafdeling 3.   <Opgeheven bij W 2023-11-05/07, art. 53, 123; Inwerkingtreding : 21-12-2023>
+##### Afdeling 2. [ 1 Coördinatie en opvolging van de acties in het kader van titel 1 van boek III.] 1
+
+###### Onderafdeling 3. <Opgeheven bij W 2023-11-05/07, art. 53, 123; Inwerkingtreding : 21-12-2023>
 
 ###### Art. XV.49 .  <Opgeheven bij W 2023-11-05/07, art. 53, 123; Inwerkingtreding : 21-12-2023>
 
@@ -12600,7 +12077,7 @@ Indien de overtreder verzuimd heeft om de aangetekende zending in ontvangst te n
 
 ###### Art. XV.60/8
 
-[ 1 De verweermiddelen kunnen schriftelijk, inbegrepen via e-mail, worden ingediend.  Ze kunnen ook mondeling worden ingediend bij de bevoegde ambtenaren bedoeld in artikel XV.60/4.] 1
+[ 1 De verweermiddelen kunnen schriftelijk, inbegrepen via e-mail, worden ingediend.  Ze kunnen ook mondeling worden ingediend bij de bevoegde ambtenaren bedoeld in artikel XV.60/4. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2020-09-29/05, art. 28, 092; Inwerkingtreding : 30-11-2020>
 
@@ -12670,13 +12147,13 @@ Indien de overtreder verzuimd heeft om de aangetekende zending in ontvangst te n
 
 ###### Art. XV.60/18
 
-[ 1 De rechtsvordering tot invordering van de administratieve geldboete verjaart tien jaar na de dag waarop geen beroep meer kan worden aangetekend tegen de beslissing van de bevoegde ambtenaren bedoeld in artikel XV.60/4.] 1
+[ 1 De rechtsvordering tot invordering van de administratieve geldboete verjaart tien jaar na de dag waarop geen beroep meer kan worden aangetekend tegen de beslissing van de bevoegde ambtenaren bedoeld in artikel XV.60/4. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2020-09-29/05, art. 40, 092; Inwerkingtreding : 30-11-2020>
 
 ###### Art. XV.60/19
 
-[ 1 Door de betaling van de geldboete vervalt de rechtsvordering van de bevoegde ambtenaren bedoeld in artikel XV.60/4.] 1
+[ 1 Door de betaling van de geldboete vervalt de rechtsvordering van de bevoegde ambtenaren bedoeld in artikel XV.60/4. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2020-09-29/05, art. 41, 092; Inwerkingtreding : 30-11-2020>
 
@@ -12692,7 +12169,7 @@ Indien de overtreder verzuimd heeft om de aangetekende zending in ontvangst te n
 
 ###### Art. XV.60/21
 
-[ 1 § 1. De ambtenaren bedoeld in artikel XV.60/4 kunnen de beslissing tot het opleggen van een administratieve geldboete integraal of in beperkte vorm bekendmaken op de website van de Federale Overheidsdienst Economie, K.M.O., Middenstand en Energie en dit ten vroegste na de beroepstermijn bedoeld in artikel XV.60/15.  § 2. De ambtenaren bedoeld in artikel XV.60/4 kunnen beslissen dat de beslissing tot het opleggen van een administratieve geldboete nominatief wordt bekendgemaakt, met het oog op het verwittigen of informeren van consumenten en ondernemingen over de toegepaste praktijken van de overtreder of om toekomstige inbreuken door de onderneming te vermijden.  Indien de bekendmaking van de identiteit van de rechtspersonen of van de persoonsgegevens van natuurlijke personen door de ambtenaren bedoeld in artikel XV.60/4 wordt beschouwd als onevenredig, na een beoordeling per geval van de evenredigheid van de bekendmaking van dergelijke gegevens, of indien de bekendmaking een lopend onderzoek of een lopende strafrechtelijke procedure in het gedrang dreigt te brengen, wordt overgegaan tot een niet-nominatieve en/of beperkte bekendmaking of wordt de beslissing niet bekendgemaakt.  Indien wordt overgegaan tot een nominatieve bekendmaking, wordt deze beslissing genomen samen met de beslissing tot het opleggen van een administratieve geldboete. [ 2 Tegen de beslissing om de beslissing tot het opleggen van een administratieve geldboete nominatief bekend te maken kan beroep worden ingesteld zoals bedoeld in artikel XV.60/15.] 2
+[ 1 § 1. De ambtenaren bedoeld in artikel XV.60/4 kunnen de beslissing tot het opleggen van een administratieve geldboete integraal of in beperkte vorm bekendmaken op de website van de Federale Overheidsdienst Economie, K.M.O., Middenstand en Energie en dit ten vroegste na de beroepstermijn bedoeld in artikel XV.60/15.  § 2. De ambtenaren bedoeld in artikel XV.60/4 kunnen beslissen dat de beslissing tot het opleggen van een administratieve geldboete nominatief wordt bekendgemaakt, met het oog op het verwittigen of informeren van consumenten en ondernemingen over de toegepaste praktijken van de overtreder of om toekomstige inbreuken door de onderneming te vermijden.  Indien de bekendmaking van de identiteit van de rechtspersonen of van de persoonsgegevens van natuurlijke personen door de ambtenaren bedoeld in artikel XV.60/4 wordt beschouwd als onevenredig, na een beoordeling per geval van de evenredigheid van de bekendmaking van dergelijke gegevens, of indien de bekendmaking een lopend onderzoek of een lopende strafrechtelijke procedure in het gedrang dreigt te brengen, wordt overgegaan tot een niet-nominatieve en/of beperkte bekendmaking of wordt de beslissing niet bekendgemaakt.  Indien wordt overgegaan tot een nominatieve bekendmaking, wordt deze beslissing genomen samen met de beslissing tot het opleggen van een administratieve geldboete. [ 2 Tegen de beslissing om de beslissing tot het opleggen van een administratieve geldboete nominatief bekend te maken kan beroep worden ingesteld zoals bedoeld in artikel XV.60/15. ] 2
 
 De persoonsgegevens, zoals bedoeld in artikel 4, 1), van Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van Richtlijn 95/46/EG (hierna de "algemene verordening gegevensbescherming" genoemd), die bekendgemaakt kunnen worden zijn de identificatiegegevens van de overtreder en de gegevens met betrekking tot de vastgestelde inbreuken, de onderliggende praktijken, en de middelen die gebruikt werden om deze inbreuken te begaan. De adressen kunnen maar bekendgemaakt worden voor zover de overtreder er niet gedomicilieerd is.  § 3. Indien geen toepassing wordt gemaakt van paragraaf 2, kan de beslissing tot het opleggen van een administratieve geldboete op elk ogenblik niet-nominatief worden bekendgemaakt.  § 4. Elke beslissing die wordt bekendgemaakt, blijft gedurende een periode van ten minste vijf jaar na de bekendmaking op de website van de Federale Overheidsdienst Economie, K.M.O., Middenstand en Energie staan, waar ze toegankelijk is voor elke burger. Persoonsgegevens, zoals bedoeld in artikel 4, 1), van de algemene verordening gegevensbescherming, die in de bekendmaking zijn opgenomen, worden evenwel slechts op de website vermeld zolang als noodzakelijk in overeenstemming met de doelstellingen bedoeld in paragraaf 2, eerste lid, en dit voor een maximumtermijn van tien jaar.] 1
 
@@ -12727,13 +12204,17 @@ De persoonsgegevens, zoals bedoeld in artikel 4, 1), van Verordening (EU) 2016/6
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 13, 024; Inwerkingtreding : 01-01-2015>
 
-##### Afdeling 2. [ 1 - Bepalingen betreffende boek XI] 1 - Onderafdeling 1. [ 1 - Bestrijding tegen namaak en piraterij] 1
+##### Afdeling 2. [ 1 - Bepalingen betreffende boek XI] 1
+
+###### Onderafdeling 1. [ 1 - Bestrijding tegen namaak en piraterij] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 13, 024; Inwerkingtreding : 01-01-2015>
 
 ###### Art. XV.62 .  <Opgeheven bij W 2023-11-05/07, art. 57, 123; Inwerkingtreding : 21-12-2023>
 
-##### Afdeling 2. [ 1 - Bepalingen betreffende boek XI] 1 - Onderafdeling 2. [ 1 - Collectief beheer van het auteursrecht en de naburige rechten] 1
+##### Afdeling 2. [ 1 - Bepalingen betreffende boek XI] 1
+
+###### Onderafdeling 2. [ 1 - Collectief beheer van het auteursrecht en de naburige rechten] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 13, 024; Inwerkingtreding : 01-01-2015>
 
@@ -12773,7 +12254,7 @@ administratieve beslissing tot schuldigverklaring, op een [ 2 definitieve] 2 adm
 
 ###### Art. XV.62/7
 
-[ 1 § 1. Indien een administratieve geldboete wordt opgelegd voor inbreuken bedoeld in de artikelen XV.99/1 en XV.101/1 mogen de bevoegde ambtenaren bedoeld in artikel XV.60/4 besluiten dat de beslissing tot het opleggen van een administratieve geldboete niet of slechts gedeeltelijk zal worden ten uitvoer gelegd indien de overtreder corrigerende maatregelen, die worden bepaald door de ambtenaren bedoeld in artikel XV.60/4 en worden vermeld in de beslissing bedoeld in artikel XV.60/12, uitvoert.  § 2. De ambtenaren bedoeld in artikel XV.60/4 kunnen de ambtenaren bedoeld in artikel XV.2 verzoeken om na te gaan of de corrigerende maatregelen bedoeld in paragraaf 1 worden uitgevoerd.  De ambtenaren bedoeld in artikel XV.2 maken een proces-verbaal op van hun vaststellingen, dat ze overmaken aan de ambtenaren bedoeld in artikel XV.60/4.] 1
+[ 1 § 1. Indien een administratieve geldboete wordt opgelegd voor inbreuken bedoeld in de artikelen XV.99/1 en XV.101/1 mogen de bevoegde ambtenaren bedoeld in artikel XV.60/4 besluiten dat de beslissing tot het opleggen van een administratieve geldboete niet of slechts gedeeltelijk zal worden ten uitvoer gelegd indien de overtreder corrigerende maatregelen, die worden bepaald door de ambtenaren bedoeld in artikel XV.60/4 en worden vermeld in de beslissing bedoeld in artikel XV.60/12, uitvoert.  § 2. De ambtenaren bedoeld in artikel XV.60/4 kunnen de ambtenaren bedoeld in artikel XV.2 verzoeken om na te gaan of de corrigerende maatregelen bedoeld in paragraaf 1 worden uitgevoerd.  De ambtenaren bedoeld in artikel XV.2 maken een proces-verbaal op van hun vaststellingen, dat ze overmaken aan de ambtenaren bedoeld in artikel XV.60/4. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2023-11-05/06, art. 31, 141; Inwerkingtreding : 28-06-2025>
 
@@ -12897,7 +12378,7 @@ Indien de FSMA na die termijn vaststelt dat de tekortkomingen niet werden verhol
 ##### Afdeling 2. - [ 1 Schrapping en andere herstelmaatregelen van toepassing op kredietgevers naar buitenlands recht] 1
 ###### Art. XV.67/4
 
-[ 1 De artikelen XV.67 en XV.67/1 zijn van toepassing op de andere kredietgevers naar buitenlands recht als bedoeld in artikel VII.176.] 1
+[ 1 De artikelen XV.67 en XV.67/1 zijn van toepassing op de andere kredietgevers naar buitenlands recht als bedoeld in artikel VII.176. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/39, art. 12, 021; Inwerkingtreding : 01-11-2015 (zie KB 2014-04-19/40, art. 3; gewijzigd bij KB 2015-06-28/02, art. 2)>
 
@@ -12955,7 +12436,7 @@ Indien de FSMA na die termijn vaststelt dat de tekortkomingen niet werden verhol
 
 ###### Art. XV.69/2
 
-[ 1 Indien het openbaar ministerie afziet van het instellen van een strafvervolging en van het voorstellen van een minnelijke schikking bedoeld in artikel 216bis van het Wetboek van strafvordering of van een bemiddeling in strafzaken bedoeld in artikel 216ter van hetzelfde Wetboek en indien er aanvullende onderzoeksdaden hebben plaatsgevonden, bezorgt het een afschrift van de procedurestukken van deze onderzoeksdaden aan de bevoegde ambtenaren bedoeld in artikel XV.60/4.] 1
+[ 1 Indien het openbaar ministerie afziet van het instellen van een strafvervolging en van het voorstellen van een minnelijke schikking bedoeld in artikel 216bis van het Wetboek van strafvordering of van een bemiddeling in strafzaken bedoeld in artikel 216ter van hetzelfde Wetboek en indien er aanvullende onderzoeksdaden hebben plaatsgevonden, bezorgt het een afschrift van de procedurestukken van deze onderzoeksdaden aan de bevoegde ambtenaren bedoeld in artikel XV.60/4. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2020-09-29/05, art. 51, 092; Inwerkingtreding : 30-11-2020>
 
@@ -13219,14 +12700,16 @@ overtreden;  2° aanbiedingen, kredietaanvragen of kredietovereenkomsten bedoeld
 ##### Afdeling 7. - [ 1 De straffen voor de inbreuken op Boek IX] 1
 ###### Art. XV.102
 
-[ 1 § 1. Met een sanctie van niveau 2 worden bestraft, zij die het artikel IX.9 overtreden.  § 2. Met een sanctie van niveau 3 worden bestraft :  1° zij die producten op de markt brengen waarvan zij op grond van Europese of Belgische normen weten of hadden moeten weten dat zij niet voldoen aan de in artikel IX.2 bedoelde waarborgen met betrekking tot de veiligheid en de bescherming van de gezondheid;  2° zij die het artikel IX.8 overtreden;  3° zij die artikelen IX.4, IX.5, IX.6 en IX.7 of een besluit genomen in uitvoering van de artikelen IX.4, §§ 1 tot 3 en IX.5, §§ 1 en 2 overtreden;  4° zij die de waarschuwingen bedoeld in artikel XV.31 niet opvolgen.  5° zij die inbreuken begaan op de Verordeningen van de Europese Unie die betrekking hebben op materies die, overeenkomstig Boek IX, tot de reglementaire bevoegdheid van de Koning behoren;  [ 2 6° de tussenkomende organismen die de bepalingen niet respecteren van een besluit genomen in uitvoering van artikel IX.11.] 2
+[ 1 § 1. Met een sanctie van niveau 2 worden bestraft, zij die het artikel IX.9 overtreden.  § 2. Met een sanctie van niveau 3 worden bestraft :  1° zij die producten op de markt brengen waarvan zij op grond van Europese of Belgische normen weten of hadden moeten weten dat zij niet voldoen aan de in artikel IX.2 bedoelde waarborgen met betrekking tot de veiligheid en de bescherming van de gezondheid;  2° zij die het artikel IX.8 overtreden;  3° zij die artikelen IX.4, IX.5, IX.6 en IX.7 of een besluit genomen in uitvoering van de artikelen IX.4, §§ 1 tot 3 en IX.5, §§ 1 en 2 overtreden;  4° zij die de waarschuwingen bedoeld in artikel XV.31 niet opvolgen.  5° zij die inbreuken begaan op de Verordeningen van de Europese Unie die betrekking hebben op materies die, overeenkomstig Boek IX, tot de reglementaire bevoegdheid van de Koning behoren;  [ 2 6° de tussenkomende organismen die de bepalingen niet respecteren van een besluit genomen in uitvoering van artikel IX.11. ] 2
 
 [...]] 1
 
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 15, 024; Inwerkingtreding : 01-01-2015>
 
-##### Afdeling 8. - [ 1 De straffen voor inbreuken op boek XI] 1 - Onderafdeling I. - [ 1 Bestrijding van namaak en piraterij] 1
+##### Afdeling 8. - [ 1 De straffen voor inbreuken op boek XI] 1
+
+###### Onderafdeling I. - [ 1 Bestrijding van namaak en piraterij] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 15, 024; Inwerkingtreding : 01-01-2015>
 
@@ -13292,7 +12775,9 @@ overtreden;  2° aanbiedingen, kredietaanvragen of kredietovereenkomsten bedoeld
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 15, 024; Inwerkingtreding : 01-01-2015>
 
-##### Afdeling 8. - [ 1 De straffen voor inbreuken op boek XI] 1 - Onderafdeling 3. [ 1 - Misbruik van beroepstitels] 1
+##### Afdeling 8. - [ 1 De straffen voor inbreuken op boek XI] 1
+
+###### Onderafdeling 3. [ 1 - Misbruik van beroepstitels] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2018-07-08/06, art. 37, 061; Inwerkingtreding : 01-04-2024>
 
@@ -13318,7 +12803,7 @@ overtreden;  2° aanbiedingen, kredietaanvragen of kredietovereenkomsten bedoeld
 
 ###### Art. XV.120
 
-[ 1 Met een sanctie van niveau 3 worden gestraft, zij die per elektronische post reclame verzenden met overtreding van de voorschriften van artikel XII.13.] 1
+[ 1 Met een sanctie van niveau 3 worden gestraft, zij die per elektronische post reclame verzenden met overtreding van de voorschriften van artikel XII.13. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2013-12-15/51, art. 4, 010; Inwerkingtreding : 31-05-2014>
 
@@ -13336,7 +12821,7 @@ overtreden;  2° aanbiedingen, kredietaanvragen of kredietovereenkomsten bedoeld
 
 ###### Art. XV.123
 
-[ 1 Met een sanctie van niveau 5 wordt gestraft, wie zich de hoedanigheid aanmatigt van gekwalificeerd vertrouwensdienstverlener zonder te zijn opgenomen in de vertrouwenslijst bedoeld in artikel 22 van verordening 910/2014 of wie rechtstreeks of onrechtstreeks te verstaan heeft gegeven dat hij een gekwalificeerde vertrouwensdienst aanbiedt in overtreding van artikel XII.25, § 9, of wie rechtstreeks of onrechtstreeks te verstaan heeft gegeven dat zijn dienst een vaste dagtekening verleent in overtreding van artikel XII.25, § 10, of wie een inbreuk heeft gepleegd op de bepalingen van artikel XII.26.tweede lid.] 1
+[ 1 Met een sanctie van niveau 5 wordt gestraft, wie zich de hoedanigheid aanmatigt van gekwalificeerd vertrouwensdienstverlener zonder te zijn opgenomen in de vertrouwenslijst bedoeld in artikel 22 van verordening 910/2014 of wie rechtstreeks of onrechtstreeks te verstaan heeft gegeven dat hij een gekwalificeerde vertrouwensdienst aanbiedt in overtreding van artikel XII.25, § 9, of wie rechtstreeks of onrechtstreeks te verstaan heeft gegeven dat zijn dienst een vaste dagtekening verleent in overtreding van artikel XII.25, § 10, of wie een inbreuk heeft gepleegd op de bepalingen van artikel XII.26. tweede lid.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2016-07-21/40, art. 28, 037; Inwerkingtreding : 28-09-2016 (KB 2016-09-14/06, art. 1)>
 
@@ -13506,7 +12991,7 @@ overtreden;  2° aanbiedingen, kredietaanvragen of kredietovereenkomsten bedoeld
 
 ###### Art. XV.130/4
 
-[ 1 In afwijking van artikel 43 van het Strafwetboek, oordeelt de rechtbank, zo deze een veroordeling uitspreekt naar aanleiding van een van de inbreuken bedoeld in artikel XV.112, of de bijzondere verbeurdverklaring bevolen moet worden. Deze bepaling is niet van toepassing in het geval van herhaling als bedoeld in het artikel XV.72.] 1
+[ 1 In afwijking van artikel 43 van het Strafwetboek, oordeelt de rechtbank, zo deze een veroordeling uitspreekt naar aanleiding van een van de inbreuken bedoeld in artikel XV.112, of de bijzondere verbeurdverklaring bevolen moet worden. Deze bepaling is niet van toepassing in het geval van herhaling als bedoeld in het artikel XV.72. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-19/60, art. 20, 024; Inwerkingtreding : 01-01-2015>
 
@@ -13663,7 +13148,9 @@ Consumentenombudsdienst gefinancierd door:  1° een subsidie ten laste van de al
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
-##### Afdeling 2. [ 1 De buitengerechtelijke regeling van consumentengeschillen] 1 - Onderafdeling 1. [ 1 De ontvangst van de aanvragen] 1
+##### Afdeling 2. [ 1 De buitengerechtelijke regeling van consumentengeschillen] 1
+
+###### Onderafdeling 1. [ 1 De ontvangst van de aanvragen] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
@@ -13673,7 +13160,9 @@ Consumentenombudsdienst gefinancierd door:  1° een subsidie ten laste van de al
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
-##### Afdeling 2. [ 1 De buitengerechtelijke regeling van consumentengeschillen] 1 - Onderafdeling 2. [ 1 Behandeling van consumentengeschillen] 1
+##### Afdeling 2. [ 1 De buitengerechtelijke regeling van consumentengeschillen] 1
+
+###### Onderafdeling 2. [ 1 Behandeling van consumentengeschillen] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2014-04-04/41, art. 3, 018; Inwerkingtreding : 01-06-2015>
 
@@ -14448,7 +13937,9 @@ In afwijking van artikel 821 van het Gerechtelijk Wetboek, kan de groepsvertegen
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-06/02, art. 18, 047; Inwerkingtreding : 22-06-2017>
 
-##### Afdeling 1. [ 1 - Overlegging van het bewijsmateriaal] 1 - Onderafdeling 1. [ 1 - Algemene beginselen] 1
+##### Afdeling 1. [ 1 - Overlegging van het bewijsmateriaal] 1
+
+###### Onderafdeling 1. [ 1 - Algemene beginselen] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-06/02, art. 19, 047; Inwerkingtreding : 22-06-2017>
 
@@ -14466,7 +13957,9 @@ In afwijking van artikel 821 van het Gerechtelijk Wetboek, kan de groepsvertegen
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-06/02, art. 22, 047; Inwerkingtreding : 22-06-2017>
 
-##### Afdeling 1. [ 1 - Overlegging van het bewijsmateriaal] 1 - Onderafdeling 2. [ 1 - Overlegging van bewijsmateriaal dat zich in het dossier van een mededingingsautoriteit bevindt] 1
+##### Afdeling 1. [ 1 - Overlegging van het bewijsmateriaal] 1
+
+###### Onderafdeling 2. [ 1 - Overlegging van bewijsmateriaal dat zich in het dossier van een mededingingsautoriteit bevindt] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-06/02, art. 23, 047; Inwerkingtreding : 22-06-2017>
 
@@ -14488,7 +13981,9 @@ In afwijking van artikel 821 van het Gerechtelijk Wetboek, kan de groepsvertegen
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-06/02, art. 27, 047; Inwerkingtreding : 22-06-2017>
 
-##### Afdeling 1. [ 1 - Overlegging van het bewijsmateriaal] 1 - Onderafdeling 3. [ 1 - Sancties] 1
+##### Afdeling 1. [ 1 - Overlegging van het bewijsmateriaal] 1
+
+###### Onderafdeling 3. [ 1 - Sancties] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-06-06/02, art. 28, 047; Inwerkingtreding : 22-06-2017>
 
@@ -15442,7 +14937,7 @@ De [ 2 totale] 2 duur van de verlengde opschorting bedraagt niet meer dan twaalf
 ##### Afdeling 8. [ 1 - Voortijdige beëindiging en sluiting van de procedure] 1
 ###### Art. XX.61
 
-[ 1 De schuldenaar kan op elk ogenblik tijdens de procedure geheel of gedeeltelijk verzaken aan zijn vordering tot gerechtelijke reorganisatie [ 2 of tot overdracht onder gerechtelijk gezag] 2 .  Op verzoek van de schuldenaar en na het verslag van de gedelegeerd rechter gehoord te hebben, beëindigt de rechtbank de procedure geheel of gedeeltelijk.  De schuldenaar kan aan de rechtbank vragen om in het vonnis elk akkoord te noteren dat hij gesloten heeft met de betrokken schuldeisers op het eind van de procedure.  Het vonnis wordt bekendgemaakt overeenkomstig de nadere regels bepaald bij artikel XX.48.] 1
+[ 1 De schuldenaar kan op elk ogenblik tijdens de procedure geheel of gedeeltelijk verzaken aan zijn vordering tot gerechtelijke reorganisatie [ 2 of tot overdracht onder gerechtelijk gezag] 2 .  Op verzoek van de schuldenaar en na het verslag van de gedelegeerd rechter gehoord te hebben, beëindigt de rechtbank de procedure geheel of gedeeltelijk.  De schuldenaar kan aan de rechtbank vragen om in het vonnis elk akkoord te noteren dat hij gesloten heeft met de betrokken schuldeisers op het eind van de procedure.  Het vonnis wordt bekendgemaakt overeenkomstig de nadere regels bepaald bij artikel XX.48. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>   ( 2 )<W 2023-06-07/07, art. 85, 122; Inwerkingtreding : 01-09-2023>
 
@@ -15817,13 +15312,17 @@ ondernemingsrechtbank, wanneer aan de voorwaarden van paragraaf 4 is voldaan, ee
 
 ----------  ( 1 )<Ingevoegd bij W 2023-06-07/07, art. 161, 122; Inwerkingtreding : 01-09-2023>
 
-##### Afdeling 3. [ 1 - Besloten gerechtelijke reorganisatie door een collectief akkoord] 1 - Onderafdeling 1. [ 1 Reorganisatieplan] 1
+##### Afdeling 3. [ 1 - Besloten gerechtelijke reorganisatie door een collectief akkoord] 1
+
+###### Onderafdeling 1. [ 1 Reorganisatieplan] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2023-06-07/07, art. 162, 122; Inwerkingtreding : 01-09-2023>
 
 ----------  ( 1 )<Ingevoegd bij W 2023-06-07/07, art. 163, 122; Inwerkingtreding : 01-09-2023>
 
-##### Afdeling 3. [ 1 - Besloten gerechtelijke reorganisatie door een collectief akkoord] 1 - Onderafdeling 2. [ 1 Opstelling, inhoud en neerlegging van het reorganisatieplan] 1
+##### Afdeling 3. [ 1 - Besloten gerechtelijke reorganisatie door een collectief akkoord] 1
+
+###### Onderafdeling 2. [ 1 Opstelling, inhoud en neerlegging van het reorganisatieplan] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2023-06-07/07, art. 164, 122; Inwerkingtreding : 01-09-2023>
 
@@ -15839,11 +15338,15 @@ ondernemingsrechtbank, wanneer aan de voorwaarden van paragraaf 4 is voldaan, ee
 
 ----------  ( 1 )<Ingevoegd bij W 2023-06-07/07, art. 166, 122; Inwerkingtreding : 01-09-2023>
 
-##### Afdeling 3. [ 1 - Besloten gerechtelijke reorganisatie door een collectief akkoord] 1 - Onderafdeling 3. [ 1 Stemming over het reorganisatieplan] 1
+##### Afdeling 3. [ 1 - Besloten gerechtelijke reorganisatie door een collectief akkoord] 1
+
+###### Onderafdeling 3. [ 1 Stemming over het reorganisatieplan] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2023-06-07/07, art. 167, 122; Inwerkingtreding : 01-09-2023>
 
-##### Afdeling 3. [ 1 - Besloten gerechtelijke reorganisatie door een collectief akkoord] 1 - Onderafdeling 4. [ 1 Homologatie van het reorganisatieplan] 1
+##### Afdeling 3. [ 1 - Besloten gerechtelijke reorganisatie door een collectief akkoord] 1
+
+###### Onderafdeling 4. [ 1 Homologatie van het reorganisatieplan] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2023-06-07/07, art. 169, 122; Inwerkingtreding : 01-09-2023>
 
@@ -16103,7 +15606,7 @@ artikel I.1, eerste lid, 1°, c)] 2 , de handelsnaam waaronder de activiteit wor
 
 [ 1 § 1. Ieder vonnis van faillietverklaring of ieder vonnis waarbij het tijdstip van staking van betaling wordt vastgesteld, is bij voorraad en op de minuut vanaf de uitspraak uitvoerbaar.  § 2. Tegen het vonnis kan verzet worden gedaan door de verstekdoende partijen en derdenverzet door de belanghebbenden die daarbij geen partij zijn geweest. [ 3 Een schuldenaar die aangifte doet van zijn staking van betaling, is geen partij in het vonnis dat over die aangifte oordeelt.] 3
 
-§ 3. Het verzet is slechts ontvankelijk indien het wordt gedaan binnen vijftien dagen na de betekening van het vonnis.  Indien het faillissement van een in [ 2 artikel I.1, eerste lid, 1°, c)] 2 , van dit boek bepaalde onderneming, of een rechtspersoon waarvan de vennoten onbeperkt aansprakelijk zijn, betreft, is het [ 3 derdenverzet] 3 uitgaande van een vennoot die niet op de hoogte gebracht is of geen kennis gekregen heeft van de aangifte van faillissement slechts ontvankelijk indien het wordt gedaan binnen de zes maanden na de opneming van de bekendmaking van het faillissement in het Belgisch Staatsblad, en ieder geval, binnen vijftien dagen na kennisname van het vonnis.  Het derdenverzet is slechts ontvankelijk indien het wordt gedaan binnen vijftien dagen na de opneming van de bekendmaking van het [ 3 vonnis] 3 in het Belgisch Staatsblad.  De termijn om hoger beroep in te stellen tegen het vonnis, is vijftien dagen te rekenen vanaf de bekendmaking [ 3 van het vonnis] 3 bedoeld in artikel XX.107.] 1
+§ 3. Het verzet is slechts ontvankelijk indien het wordt gedaan binnen vijftien dagen na de betekening van het vonnis.  Indien het faillissement van een in [ 2 artikel I.1, eerste lid, 1°, c)] 2 , van dit boek bepaalde onderneming, of een rechtspersoon waarvan de vennoten onbeperkt aansprakelijk zijn, betreft, is het [ 3 derdenverzet] 3 uitgaande van een vennoot die niet op de hoogte gebracht is of geen kennis gekregen heeft van de aangifte van faillissement slechts ontvankelijk indien het wordt gedaan binnen de zes maanden na de opneming van de bekendmaking van het faillissement in het Belgisch Staatsblad, en ieder geval, binnen vijftien dagen na kennisname van het vonnis.  Het derdenverzet is slechts ontvankelijk indien het wordt gedaan binnen vijftien dagen na de opneming van de bekendmaking van het [ 3 vonnis] 3 in het Belgisch Staatsblad.  De termijn om hoger beroep in te stellen tegen het vonnis, is vijftien dagen te rekenen vanaf de bekendmaking [ 3 van het vonnis] 3 bedoeld in artikel XX.107. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>   ( 2 )<W 2018-04-15/14, art. 233, 059; Inwerkingtreding : 01-05-2018>   ( 3 )<W 2023-06-07/07, art. 208, 122; Inwerkingtreding : 01-09-2023>
 
@@ -16313,7 +15816,7 @@ Burgerlijk wetboek.] 1
 
 ###### Art. XX.144
 
-[ 1 Alle schuldvorderingen of geldsommen die aan de gefailleerde verschuldigd zijn, worden door de curatoren opgespoord en tegen kwijting geïnd.  De gelden afkomstig van verkopingen en invorderingen door de curatoren gedaan, worden binnen een maand na ontvangst bij de Deposito- en Consignatiekas gestort. De curator kan een beperkt bedrag op een per faillissement geïndividualiseerde bankrekening bewaren, dienstig voor de lopende verrichtingen, onder toezicht van de rechter-commissaris die daarvan het maximumbedrag bepaalt.  Bij nalatigheid zijn de curatoren verwijlintrest, gelijk aan de wettelijke interest, verschuldigd voor de sommen die zij niet hebben gestort, onverminderd de toepassing van artikel XX.20.] 1
+[ 1 Alle schuldvorderingen of geldsommen die aan de gefailleerde verschuldigd zijn, worden door de curatoren opgespoord en tegen kwijting geïnd.  De gelden afkomstig van verkopingen en invorderingen door de curatoren gedaan, worden binnen een maand na ontvangst bij de Deposito- en Consignatiekas gestort. De curator kan een beperkt bedrag op een per faillissement geïndividualiseerde bankrekening bewaren, dienstig voor de lopende verrichtingen, onder toezicht van de rechter-commissaris die daarvan het maximumbedrag bepaalt.  Bij nalatigheid zijn de curatoren verwijlintrest, gelijk aan de wettelijke interest, verschuldigd voor de sommen die zij niet hebben gestort, onverminderd de toepassing van artikel XX.20. ] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2017-08-11/14, art. 3, 058; Inwerkingtreding : 01-05-2018>
 

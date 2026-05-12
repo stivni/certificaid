@@ -20,7 +20,7 @@ provenance:
     pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:02:43Z'
+  generated_at: '2026-05-12T19:15:23Z'
   stale: false
   stale_reason:
   trust:
@@ -29,6 +29,21 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: fail
+      run_id: 20260512-191523
+      run_at: '2026-05-12T19:15:23Z'
+      heading_count: 0
+      max_section_chars: 251159
+      file_size_chars: 251159
+      flags:
+        - name: heading_structure
+          status: warn
+          detail: bestand van 251159 chars heeft 0 headings (## of dieper) → degraded chunking
+          samples: []
+        - name: max_section_size
+          status: fail
+          detail: 'langste sectie: 251159 chars (>24000) — geen heading-structuur aanwezig'
+          samples: []
     layer2:
 ---
 

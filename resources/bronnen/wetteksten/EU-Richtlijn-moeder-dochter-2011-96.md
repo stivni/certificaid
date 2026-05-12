@@ -17,35 +17,26 @@ provenance:
       version: 29.12.2011
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f9ce762
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-12T15:58:15Z'
+  generated_at: '2026-05-12T19:15:13Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T16:08:56Z'
-    confirmed_by: subagent-unspecified
-    rationale: "Geen EUR-Lex markers. Kleine ## heading-fragmenten ('## RICHTLIJN 2011/96/EU VAN DE RAAD' op r72-74) zijn preambuletekst. Alle 11 artikelen aanwezig. Bijlagen I (vennootschapslijsten per lidstaat) en II volledig aanwezig. PDF-koppeltekensplits zijn source-kenmerken."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-160243
-      run_at: '2026-05-12T16:02:43Z'
+      run_id: 20260512-191513
+      run_at: '2026-05-12T19:15:13Z'
       heading_count: 23
       max_section_chars: 12245
       file_size_chars: 27798
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-unspecified
-      run_at: '2026-05-12T16:08:56Z'
-      rationale: "Geen EUR-Lex markers. Kleine ## heading-fragmenten ('## RICHTLIJN 2011/96/EU VAN DE RAAD' op r72-74) zijn preambuletekst. Alle 11 artikelen aanwezig. Bijlagen I (vennootschapslijsten per lidstaat) en II volledig aanwezig. PDF-koppeltekensplits zijn source-kenmerken."
-      concrete_problemen:
-        - regel: 72
-          categorie: B4
-          type: other
-          voorbeeld: '## RICHTLIJN 2011/96/EU VAN DE RAAD'
 ---
 
 # Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemeenschappelijke fiscale regeling voor moedermaatschappijen en dochterondernemingen uit verschillende lidstaten

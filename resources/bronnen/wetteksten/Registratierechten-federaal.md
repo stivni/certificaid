@@ -1,102 +1,53 @@
 ---
-bijgewerkt: 01.04.2026
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
+tags: ["VIII", "2.5", "2.6"]
+itaa-lex-sectie: "VIII"
+wet: "Wetboek der Registratie-, Hypotheek- en Griffierechten — federaal"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "01.04.2026"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 6
-  sub_strategy: null
-  type: Art.
-itaa-lex-sectie: VIII
+  type: "Art."
+  sub_strategy:
 provenance:
-  generated_at: '2026-05-11T16:34:21Z'
   inputs:
-  - id: resources/raw/wetteksten/Registratierechten-federaal.pdf
-    sha256: 768b62551dcd235cd7e3859626df172408bca181bdd6aceb8c7f153ced5d65c2
-    version: 01.04.2026
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/Registratierechten-federaal.pdf
+      sha256: 768b62551dcd235cd7e3859626df172408bca181bdd6aceb8c7f153ced5d65c2
+      version: 01.04.2026
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version: null
+    pipeline_version: 8add68e
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T19:13:51Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T16:30:31Z'
-    confirmed_by: subagent-sonnet-4-6
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 1123028
-      flags:
-      - detail: 'langste sectie op ######-niveau: 128584 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
-      - detail: 3 kolom-bleed-patroon/-en gevonden buiten tabellen (twee-kolom PDF-extractie?)
-        name: no_column_bleed
-        samples:
-        - 'regel 171: Wordt, voor de toepassing van dit wetboek, met een aan een                        Pour
-          l’application du présent code, es'
-        - 'regel 240: De exequaturs der scheidsrechterlijke uitspraken en die der                            Les
-          exequatur des sentences arbit'
-        - 'regel 1985: Wanneer er niet anderszins bij deze titel over beschikt is,
-          mag het                    Lorsqu’il n’en est pas disposé au'
-        status: warn
-      heading_count: 525
-      max_section_chars: 128584
-      run_at: '2026-05-11T13:40:46Z'
-      run_id: 20260511-134044
       status: warn
+      run_id: 20260512-191351
+      run_at: '2026-05-12T19:13:51Z'
+      heading_count: 535
+      max_section_chars: 74658
+      file_size_chars: 669474
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ######-niveau: 74658 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+        - name: no_column_bleed
+          status: warn
+          detail: 3 kolom-bleed-patroon/-en gevonden buiten tabellen (twee-kolom PDF-extractie?)
+          samples:
+            - 'regel 132: Wordt, voor de toepassing van dit wetboek, met een aan een                        Po schorsende voorwaarde onderworpen h'
+            - 'regel 188: De exequaturs der scheidsrechterlijke uitspraken en die der                            Le buitenslands gewezen rechterli'
+            - 'regel 676: Het registratierecht op de openbare verkopingen van lichamelijke                      Le roerende goederen is een federa'
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-      - categorie: B4
-        regel: 67
-        type: other
-        voorbeeld: '## EN GRIFFIERECHTEN'
-      - categorie: A8
-        regel: 71
-        type: column-bleed
-        voorbeeld: KB nr. 64 van 30.11.1939, bevattende het Wetboek der registratie-              (A
-          hypotheek-
-      - categorie: A8
-        regel: 81
-        type: column-bleed
-        voorbeeld: Registratie is een formaliteit bestaande in het afschrijven...        L'e
-          vermelden van een akte
-      - categorie: A8
-        regel: 171
-        type: column-bleed
-        voorbeeld: Wordt, voor de toepassing van dit wetboek, met een aan een                        Pour
-          l'application du présent code, es
-      - categorie: A8
-        regel: 240
-        type: column-bleed
-        voorbeeld: De exequaturs der scheidsrechterlijke uitspraken en die der                            Les
-          exequatur des sentences arbit
-      rationale: 'A8: doorheen het volledige bestand staat kolom-bleed: elke artikeltekst
-        bevat twee kolommen (NL links, FR rechts) die op dezelfde regel gemengd zijn
-        — bv. regel 71: ''KB nr. 64 van 30.11.1939, bevattende het Wetboek der registratie-
-        (A hypotheek-...'' of regel 81: ''Registratie is een formaliteit bestaande
-        in het afschrijven... L''e vermelden van een akte...''. Dit is een systematisch
-        A8-kolom-bleed-artefact door tweetalig PDF-extract. B4: regel 67 ''## EN GRIFFIERECHTEN''
-        is een losstaand heading-fragment (titelrest). F1: de `bron_rol`-veld ontbreekt
-        in de frontmatter (wel `bron` aanwezig, maar `bron_rol` is leeg).'
-      run_at: '2026-05-11T16:30:31Z'
-      status: needs-rework
-    rationale: 'A8: doorheen het volledige bestand staat kolom-bleed: elke artikeltekst
-      bevat twee kolommen (NL links, FR rechts) die op dezelfde regel gemengd zijn
-      — bv. regel 71: ''KB nr. 64 van 30.11.1939, bevattende het Wetboek der registratie-
-      (A hypotheek-...'' of regel 81: ''Registratie is een formaliteit bestaande in
-      het afschrijven... L''e vermelden van een akte...''. Dit is een systematisch
-      A8-kolom-bleed-artefact door tweetalig PDF-extract. B4: regel 67 ''## EN GRIFFIERECHTEN''
-      is een losstaand heading-fragment (titelrest). F1: de `bron_rol`-veld ontbreekt
-      in de frontmatter (wel `bron` aanwezig, maar `bron_rol` is leeg).'
-    status: needs-rework
-status: beschikbaar
-tags:
-- VIII
-- '2.5'
-- '2.6'
-wet: Wetboek der Registratie-, Hypotheek- en Griffierechten — federaal
 ---
 
 # Registratierechten — federaal
@@ -4407,9 +4358,9 @@ Voor de toepassing van de bepalingen van dit Wetboek, van de                    
 
 1° aangetekende zending: hetzij de briefwisseling, al dan niet                        1° vergezeld van een ontvangstbevestiging, neergelegd bij de aanbieder                   ac van de universele postdienst, een aanbieder van postdiensten of een                   un gekwalificeerde verlener van vertrouwensdiensten die voldoet aan de                   se vereisten van artikel 44 van Verordening (EU) nr. 910 /2014 van het                   du Europees Parlement en de Raad van 23 juli 2014 betreffende                            Co elektronische       identificatie      en      vertrouwensdiensten            voor    se elektronische transacties binnen de interne markt en tot intrekking                   m van Richtlijn 1999/93/CE, en al dan niet elektronisch verzonden door                  éle een van hen naar een vooraf aangewezen ontvanger, die toelaat om                      pr de datum van verzending en ontvangst van de briefwisseling door de                    tra bestemmeling aan te tonen, hetzij het bericht dat door de FOD                         m Financiën is verzonden in het kader van de uitoefening van haar taak                  de van openbare dienst door middel van de dienst voor het versturen en                   d' ontvangen        van      elektronische       berichten       door      bepaalde      se vertegenwoordigers door de Federale Overheidsdienst belast met de                     d'A Digitale Agenda en aan houders van een ondernemingsnummer zoals                       qu gedefinieerd in artikel III.16 van het Wetboek van economisch recht of                re aan hun vertegenwoordigers door de Rijksdienst voor Sociale Zekerheid;
 
-2° beveiligd elektronisch platform: elke computertoepassing ter                       2° beschikking gesteld door de Federale Overheidsdienst Financiën of                     fo door een andere openbare instelling in samenwerking met de                            in burgers, bedrijven, rechtspersonen en bepaalde derden elektronische                   de diensten aanbiedt om elektronische berichten uit te wisselen met de                   se authenticatie en identificatie worden uitgevoerd in toepassing van                    l'a hoofdstuk 4 van de wet van 18 juli 2017 inzake elektronische                          ch identificatie door middel van een stelsel voor elektronische                          éle identificatie zoals bedoeld in art. 8., 2., van Verordening (EU) nr.                  à 910/2014 van het Europees Parlement en de Raad van 23 juli 2014                       eu betreffende elektronische identificatie en vertrouwensdiensten voor                   éle elektronische transacties in de interne markt en tot intrekking van                   éle
+2° beveiligd elektronisch platform: elke computertoepassing ter                       2° beschikking gesteld door de Federale Overheidsdienst Financiën of                     fo door een andere openbare instelling in samenwerking met de                            in burgers, bedrijven, rechtspersonen en bepaalde derden elektronische                   de diensten aanbiedt om elektronische berichten uit te wisselen met de                   se authenticatie en identificatie worden uitgevoerd in toepassing van                    l'a hoofdstuk 4 van de wet van 18 juli 2017 inzake elektronische                          ch identificatie door middel van een stelsel voor elektronische                          éle identificatie zoals bedoeld in art. 8. , 2., van Verordening (EU) nr.                  à 910/2014 van het Europees Parlement en de Raad van 23 juli 2014                       eu betreffende elektronische identificatie en vertrouwensdiensten voor                   éle elektronische transacties in de interne markt en tot intrekking van                   éle
 
-Richtlijn (EG) 1999/93, dat ten minste een substantieel                               (C veiligheidsniveau in de zin van artikel 8., 2., b) van bovengenoemde                  sé Verordening inzake de integriteit van de inhoud, de tijdsaanduiding, en               l'in zo ook de bewaring van het verzonden bericht garandeert.                              m
+Richtlijn (EG) 1999/93, dat ten minste een substantieel                               (C veiligheidsniveau in de zin van artikel 8. , 2., b) van bovengenoemde                  sé Verordening inzake de integriteit van de inhoud, de tijdsaanduiding, en               l'in zo ook de bewaring van het verzonden bericht garandeert.                              m
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 

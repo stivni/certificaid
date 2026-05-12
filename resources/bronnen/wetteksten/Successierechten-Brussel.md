@@ -1,111 +1,51 @@
 ---
-bijgewerkt: 16.03.2026
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
+tags: ["IX", "2.6"]
+itaa-lex-sectie: "IX"
+wet: "Wetboek der Successierechten — Brussels Hoofdstedelijk Gewest"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "16.03.2026"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 5
-  sub_strategy: null
-  type: Art.
-itaa-lex-sectie: IX
+  type: "Art."
+  sub_strategy:
 provenance:
-  generated_at: '2026-05-11T16:34:22Z'
   inputs:
-  - id: resources/raw/wetteksten/successie-brussel.pdf
-    sha256: 657d96f879eaa0099e68a066d2e56de7dce5b67d36cce8f324576a992028a015
-    version: 16.03.2026
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/successie-brussel.pdf
+      sha256: 657d96f879eaa0099e68a066d2e56de7dce5b67d36cce8f324576a992028a015
+      version: 16.03.2026
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version: null
+    pipeline_version: 8add68e
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T19:13:59Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T16:30:31Z'
-    confirmed_by: subagent-sonnet-4-6
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 429038
-      flags:
-      - detail: 'langste sectie op #####-niveau: 57698 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
-      - detail: 24 TOC-stippen-regel(s) gevonden
-        name: no_toc_dots
-        samples:
-        - '....................................................... 69
-
-          '
-        - '................................................................................'
-        - '................................................................................'
-        status: warn
-      heading_count: 382
-      max_section_chars: 57698
-      run_at: '2026-05-11T13:40:46Z'
-      run_id: 20260511-134044
       status: warn
+      run_id: 20260512-191359
+      run_at: '2026-05-12T19:13:59Z'
+      heading_count: 368
+      max_section_chars: 57698
+      file_size_chars: 424349
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op #####-niveau: 57698 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-      - categorie: A3
-        regel: 103
-        type: other
-        voorbeeld: '## WETBOEK DER SUCCESSIERECHTEN (3× herhaald op r.103, 107, 111)'
-      - categorie: B3
-        regel: 326
-        type: other
-        voorbeeld: '##### Art. 17 (r.326 toekomstig recht) en ##### Art. 17 (r.338
-          huidig recht) — geen discriminator'
-      - categorie: B3
-        regel: 374
-        type: other
-        voorbeeld: '##### Art. 20 (r.374 toekomstig recht) en ##### Art. 20 (r.388
-          huidig recht) — geen discriminator'
-      - categorie: A2
-        regel: 82
-        type: dotted-leader
-        voorbeeld: '### HOOFDSTUK XI - Aan derden... .......................................................
-          69'
-      - categorie: G2
-        regel: 131
-        type: other
-        voorbeeld: '*                              *
-
-
-          *'
-      rationale: 'Reeds beoordeeld in vorige Laag-2 run (status: needs-rework). Kernproblemen
-        bevestigd: A3: body opent met 3× herhaalde ''WETBOEK DER SUCCESSIERECHTEN''-titel
-        (regels 103, 107, 111). A2: Laag-1 meldt 24 dotted-leader-regels (bv. ''.......................................................
-        69''). B3: dubbele Art. 17-blokken (regel 326 en 338) zonder discriminator-heading
-        voor toekomstig vs. huidig recht. Idem Art. 20 (regels 374 en 388) en Art.
-        25 (regels 483 en 491). G2: Laag-1 bevestigde asterisk-separatoren op r.131-132.'
-      run_at: '2026-05-11T16:30:31Z'
-      status: needs-rework
-    rationale: 'Reeds beoordeeld in vorige Laag-2 run (status: needs-rework). Kernproblemen
-      bevestigd: A3: body opent met 3× herhaalde ''WETBOEK DER SUCCESSIERECHTEN''-titel
-      (regels 103, 107, 111). A2: Laag-1 meldt 24 dotted-leader-regels (bv. ''.......................................................
-      69''). B3: dubbele Art. 17-blokken (regel 326 en 338) zonder discriminator-heading
-      voor toekomstig vs. huidig recht. Idem Art. 20 (regels 374 en 388) en Art. 25
-      (regels 483 en 491). G2: Laag-1 bevestigde asterisk-separatoren op r.131-132.'
-    status: needs-rework
-status: beschikbaar
-tags:
-- IX
-- '2.6'
-wet: Wetboek der Successierechten — Brussels Hoofdstedelijk Gewest
 ---
 
 # Successierechten — Brussels Hoofdstedelijk Gewest
 
 *Bijgewerkt tot en met 16.03.2026 — gecoördineerde versie.*
-
-## WETBOEK DER SUCCESSIERECHTEN
-
-## BRUSSELS HOOFDSTEDELIJK GEWEST
-
-## WETBOEK DER SUCCESSIERECHTEN
-
-Wetgeving van toepassing in het BRUSSELSE HOOFDSTEDELIJK GEWEST
 
 ## WETBOEK DER SUCCESSIERECHTEN
 
@@ -4811,7 +4751,7 @@ Voor de toepassing van de bepalingen van dit Wetboek, van de bijzondere wetsbepa
 
 1° aangetekende zending: hetzij de briefwisseling, al dan niet vergezeld van een ontvangstbevestiging, neergelegd bij de aanbieder van de universele postdienst, een aanbieder van postdiensten of een gekwalificeerde verlener van vertrouwensdiensten die voldoet aan de vereisten van artikel 44 van Verordening (EU) nr. 910 /2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties binnen de interne markt en tot intrekking van Richtlijn 1999/93/CE, en al dan niet elektronisch verzonden door een van hen naar een vooraf aangewezen ontvanger, die toelaat om de datum van verzending en ontvangst van de briefwisseling door de bestemmeling aan te tonen, hetzij het bericht dat door de Federale Overheidsdienst Financiën is verzonden in het kader van de uitoefening van haar taak van openbare dienst door middel van de dienst voor het versturen en ontvangen van elektronische berichten door bepaalde overheidsdiensten aangeboden aan de natuurlijke personen of hun vertegenwoordigers door de Federale Overheidsdienst belast met de Digitale Agenda en aan houders van een ondernemingsnummer zoals gedefinieerd in artikel III.16 van het Wetboek van economisch recht of aan hun vertegenwoordigers door de Rijksdienst voor Sociale Zekerheid;
 
-2° beveiligd elektronisch platform: elke computertoepassing ter beschikking gesteld door de Federale derden elektronische diensten aanbiedt om elektronische berichten uit te wisselen met de Federale toepassing van hoofdstuk 4 van de wet van 18 juli 2017 inzake elektronische identificatie door middel van een stelsel voor elektronische identificatie zoals bedoeld in art. 8., 2., van Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van Richtlijn (EG) 1999/93, dat ten minste een substantieel veiligheidsniveau in de zin van artikel 8., 2., b) van bovengenoemde Verordening inzake de integriteit van de inhoud, de tijdsaanduiding, en zo ook de bewaring van het verzonden bericht garandeert;
+2° beveiligd elektronisch platform: elke computertoepassing ter beschikking gesteld door de Federale derden elektronische diensten aanbiedt om elektronische berichten uit te wisselen met de Federale toepassing van hoofdstuk 4 van de wet van 18 juli 2017 inzake elektronische identificatie door middel van een stelsel voor elektronische identificatie zoals bedoeld in art. 8. , 2., van Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van Richtlijn (EG) 1999/93, dat ten minste een substantieel veiligheidsniveau in de zin van artikel 8. , 2., b) van bovengenoemde Verordening inzake de integriteit van de inhoud, de tijdsaanduiding, en zo ook de bewaring van het verzonden bericht garandeert;
 
 3° bericht: alle schriftelijke mededelingen betreffende de rechten en plichten opgenomen in dit Wetboek, in de bijzondere wetsbepalingen met betrekking tot de successierechten, de rechten van overgang bij overlijden en de taks tot vergoeding der successierechten of in de tot uitvoering ervan genomen besluiten, inclusief de briefwisseling, formulieren en verzendingen van gegevens, ongeacht de gebruikte drager.
 

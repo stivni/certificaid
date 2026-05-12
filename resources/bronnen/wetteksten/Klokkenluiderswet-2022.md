@@ -1,200 +1,51 @@
 ---
-bijgewerkt: 28.11.2022
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["XVIII", "4.0"]
+itaa-lex-sectie: "XVIII"
+wet: "Wet 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "28.11.2022"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 4
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: XVIII
 provenance:
-  generated_at: '2026-05-11T16:33:56Z'
   inputs:
     - id: resources/raw/wetteksten/Klokkenluiderswet-2022.pdf
       sha256: 3f4524a25ebeef490594c319c94b024d047f7c57da3166f5dc9c2bf8434debda
       version: 28.11.2022
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 8add68e
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T19:14:04Z'
   stale: false
   stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
   trust:
-    confirmed_at: '2026-05-11T16:30:30Z'
-    confirmed_by: subagent-sonnet-4-6
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260511-165250
-      run_at: '2026-05-11T16:52:51Z'
-      heading_count: 157
+      run_id: 20260512-191404
+      run_at: '2026-05-12T19:14:04Z'
+      heading_count: 97
       max_section_chars: 7003
-      file_size_chars: 91101
+      file_size_chars: 87816
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B4
-          regel: 52
-          type: other
-          voorbeeld: 'Titel
-
-
-            28 NOVEMBER 2022. - Wet betreffende de bescherming van melders...'
-        - categorie: B4
-          regel: 174
-          type: other
-          voorbeeld: 'Tekst
-
-
-            ## HOOFDSTUK 1. - Doel, toepassingsgebied en definities'
-        - categorie: B1
-          regel: 58
-          type: other
-          voorbeeld: '#### Art. 1  (heading zonder titeltekst in TOC-blok)'
-      rationale: 'B4: Losse ''Titel'' (regel 52) en ''Tekst'' (regel 174) als plain-text regels zonder heading-prefix. Structuurpatroon is typisch voor deze ETL-batch: TOC-blok bovenaan gevolgd door een losse ''Tekst''-marker en dan de eigenlijke artikelen. Verder begint de TOC op regel 58 met ''#### Art. 1'' zonder een leesbare sectionstitel — dit zijn kale articelnummer-headings (B1). De inhoud zelf is volledig en structureel correct. Laag-1 pass.'
-      run_at: '2026-05-11T16:30:30Z'
-      status: needs-rework
-    rationale: 'B4: Losse ''Titel'' (regel 52) en ''Tekst'' (regel 174) als plain-text regels zonder heading-prefix. Structuurpatroon is typisch voor deze ETL-batch: TOC-blok bovenaan gevolgd door een losse ''Tekst''-marker en dan de eigenlijke artikelen. Verder begint de TOC op regel 58 met ''#### Art. 1'' zonder een leesbare sectionstitel — dit zijn kale articelnummer-headings (B1). De inhoud zelf is volledig en structureel correct. Laag-1 pass.'
-    status: needs-rework
-status: beschikbaar
-tags:
-  - XVIII
-  - '4.0'
-wet: Wet 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector
 ---
 
 # Klokkenluiderswet 2022
 
 *Bijgewerkt tot en met 28.11.2022 — gecoördineerde versie.*
 
-Titel
-
 28 NOVEMBER 2022. - Wet betreffende de bescherming van melders van inbreuken op het Unie- of nationale recht vastgesteld binnen een juridische entiteit in de private sector
 
 Bron : ECONOMIE, KMO, MIDDENSTAND EN ENERGIE
-
-#### Art. 1
-
-### Afdeling 2. - Materieel toepassingsgebied
-
-### Afdeling 3. - Personeel toepassingsgebied
-
-#### Art. 6
-
-### Afdeling 4. - Definities
-
-#### Art. 7
-
-## HOOFDSTUK 2. - Beschermingsvoorwaarden
-
-### Afdeling 1. - Voorwaarden voor bescherming van de melders
-
-#### Art. 8
-
-### Afdeling 2. - Voorwaarden voor bescherming van de facilitators en derden die verbonden zijn met de melders
-
-#### Art. 9
-
-## HOOFDSTUK 3. - Interne meldingen en opvolging
-
-### Afdeling 1. - Verplichting tot het opzetten van interne meldingskanalen
-
-### Afdeling 2. - Procedures voor interne melding en opvolging
-
-#### Art. 12
-
-## HOOFDSTUK 4. - Externe meldingen en opvolging
-
-### Afdeling 1. - Externe meldingskanalen
-
-### Afdeling 2. - Procedures voor externe melding
-
-### Afdeling 3. - Evaluatie van de procedures door de bevoegde autoriteiten en rapporteringsverplichting
-
-#### Art. 17
-
-### Afdeling 4. - De federale coördinator voor externe meldingen in de private sector
-
-#### Art. 18
-
-## HOOFDSTUK 5. - Openbaarmaking
-
-#### Art. 19
-
-## HOOFDSTUK 6. - Bepalingen met betrekking tot interne en externe meldingen
-
-### Afdeling 1. - Geheimhoudingsplicht
-
-#### Art. 20
-
-### Afdeling 2. - Verwerking van persoonsgegevens
-
-#### Art. 21
-
-### Afdeling 3. - Registratie van de meldingen
-
-#### Art. 22
-
-## HOOFDSTUK 7. - Beschermingsmaatregelen
-
-### Afdeling 1. -Verbod op represailles
-
-#### Art. 23
-
-### Afdeling 2. - Ondersteuningsmaatregelen
-
-### Afdeling 3. - Beschermingsmaatregelen tegen represailles
-
-### Afdeling 4. - Maatregelen ter bescherming van betrokkenen
-
-#### Art. 32
-
-### Afdeling 5. - Sancties
-
-## HOOFDSTUK 8. - Wijzigingsbepalingen
-
-### Afdeling 1. - Wijziging van de wet van 3 juli 1978 betreffende de arbeidsovereenkomsten
-
-#### Art. 35
-
-### Afdeling 2. - Wijzigingen van de wet van 2 augustus 2002 betreffende het toezicht op de financiële sector en de financiële diensten
-
-### Afdeling 3. - Wijzigingen van de wet van 7 december 2016 tot organisatie van het beroep van en het publiek toezicht op de bedrijfsrevisoren
-
-### Afdeling 4. - Wijzigingen van de wet van 22 februari 1998 tot vaststelling van het organiek statuut van de Nationale Bank van België
-
-### Afdeling 5. - Wijziging van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten
-
-#### Art. 42
-
-### Afdeling 6. - Wijziging van de wet van 2 juni 2021 houdende diverse financiële bepalingen inzake fraudebestrijding
-
-#### Art. 43
-
-### Afdeling 7. - Wijzigingen van het Gerechtelijk Wetboek
-
-### Afdeling 8. - Wijzigingen van de wet van 7 april 2019 tot vaststelling van een kader voor de beveiliging van netwerk- en informatiesystemen van algemeen belang voor de openbare veiligheid
-
-### Afdeling 9. - Wijziging van de wet van 22 maart 1995 tot instelling van federale ombudsmannen
-
-#### Art. 51
-
-### Afdeling 10. - Wijziging van de wet van 12 mei 2019 tot oprichting van een Federaal Instituut voor de bescherming en de bevordering van de rechten van de mens
-
-#### Art. 52
-
-### Afdeling 11. - Wijziging van het Sociaal strafwetboek
-
-## HOOFDSTUK 9. - Slotbepalingen
-
-## HOOFDSTUK 10. - Inwerkingtreding en overgangsbepalingen
-
-Tekst
-
-## HOOFDSTUK 1. - Doel, toepassingsgebied en definities
-
-### Afdeling 1. - Doel
 
 #### Art. 1
 
@@ -359,7 +210,7 @@ De personen bedoeld in artikel 6, § 4, 1° tot 3°, komen in aanmerking voor de
 § 1. Onverminderd de artikelen 15 en 19, mag informatie over inbreuken worden gemeld via de interne meldingskanalen en -procedures waarin dit hoofdstuk voorziet.
 § 2. De nodige informatie over het gebruik van in paragraaf 1 bedoelde interne meldingskanalen maakt deel uit van de informatie die wordt verstrekt door de juridische entiteiten in de private sector krachtens artikel 12 en door de bevoegde autoriteiten krachtens artikel 16.
 
-#### Art. 11.§ 1. De juridische entiteiten in de private sector zetten kanalen en procedures voor de interne melding en voor opvolging op, na overleg met de sociale partners.
+#### Art. 11. § 1. De juridische entiteiten in de private sector zetten kanalen en procedures voor de interne melding en voor opvolging op, na overleg met de sociale partners.
 De in het eerste lid bedoelde kanalen en procedures bieden minstens aan de werknemers van de entiteit de mogelijkheid om informatie over inbreuken te melden.
 § 2. Onder voorbehoud van paragraaf 5, is paragraaf 1 niet van toepassing op de juridische entiteiten in de private sector met minder dan vijftig werknemers.
 [1 De drempel wordt berekend volgens het gemiddelde van de werknemers tewerkgesteld in de onderneming in de zin van artikel 14 van de wet van 20 september 1948 houdende organisatie van het bedrijfsleven en van artikel 49 van de wet van 4 augustus 1996 betreffende het welzijn van de werknemers bij de uitvoering van hun werk, waarbij dit gemiddelde jaarlijks op 1 januari wordt berekend op dezelfde wijze als omschreven in artikel 7, §§ 1 en 2, van de wet van 4 december 2007 betreffende de sociale verkiezingen, evenwel over de referteperiode van de vier trimesters van het voorgaande kalenderjaar.]1 De in het eerste lid bedoelde uitzondering geldt niet voor entiteiten die onder het toepassingsgebied vallen van de bepalingen op het gebied van financiële diensten, producten en markten en van de bepalingen bedoeld in artikel 4, 1°.
@@ -698,7 +549,7 @@ In artikel 36/30/1 van dezelfde wet wordt paragraaf 4 opgeheven.
 
 #### Art. 42
 
-Artikel 10 van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten wordt vervangen als volgt: "Art. 10. De onderworpen entiteiten ontwikkelen en leggen passende procedures ten uitvoer die evenredig zijn met hun aard en omvang, om hun personeelsleden of hun agenten of distributeurs in staat te stellen om, op vertrouwelijke en anonieme basis, via een specifiek en onafhankelijk kanaal, de inbreuken op de in dit boek bedoelde verplichtingen te melden aan de personen die aangewezen zijn op grond van artikel 9.".
+Artikel 10 van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten wordt vervangen als volgt: "Art. 10. De onderworpen entiteiten ontwikkelen en leggen passende procedures ten uitvoer die evenredig zijn met hun aard en omvang, om hun personeelsleden of hun agenten of distributeurs in staat te stellen om, op vertrouwelijke en anonieme basis, via een specifiek en onafhankelijk kanaal, de inbreuken op de in dit boek bedoelde verplichtingen te melden aan de personen die aangewezen zijn op grond van artikel 9. ".
 
 ### Afdeling 6. - Wijziging van de wet van 2 juni 2021 houdende diverse financiële bepalingen inzake fraudebestrijding
 

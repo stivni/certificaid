@@ -17,21 +17,21 @@ provenance:
       version: 11.12.2006
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f9ce762
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-12T15:58:11Z'
+  generated_at: '2026-05-12T19:15:01Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T16:08:56Z'
-    confirmed_by: subagent-unspecified
-    rationale: "B3: duplicate heading '## betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde' op regel 50 (fragment van de richtlijntitel). B7/A7: in de concordantietabel aan het einde staan headings als '## Art. 2. van   Richtlijn   94/5/EG' (spaced-letter, ook op 4438/4444/4448) — dit zijn ruis-headings uit de concordantietabel. Sommige overwegingsnummers (5-9, 17-23) ontbreken in de overwegingenreeks (sprong van (4) naar (10)), wat een extractiefout of source-artefact is. Verder inhoudelijk grotendeels compleet."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: warn
-      run_id: 20260512-160242
-      run_at: '2026-05-12T16:02:42Z'
+      run_id: 20260512-191501
+      run_at: '2026-05-12T19:15:01Z'
       heading_count: 673
       max_section_chars: 36349
       file_size_chars: 222242
@@ -41,23 +41,6 @@ provenance:
           detail: 'langste sectie op ######-niveau: 36349 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
-      status: needs-rework
-      agent: subagent-unspecified
-      run_at: '2026-05-12T16:08:56Z'
-      rationale: "B3: duplicate heading '## betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde' op regel 50 (fragment van de richtlijntitel). B7/A7: in de concordantietabel aan het einde staan headings als '## Art. 2. van   Richtlijn   94/5/EG' (spaced-letter, ook op 4438/4444/4448) — dit zijn ruis-headings uit de concordantietabel. Sommige overwegingsnummers (5-9, 17-23) ontbreken in de overwegingenreeks (sprong van (4) naar (10)), wat een extractiefout of source-artefact is. Verder inhoudelijk grotendeels compleet."
-      concrete_problemen:
-        - regel: 50
-          categorie: B3
-          type: other
-          voorbeeld: '## betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde'
-        - regel: 4438
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: '###### Art. 2. van   Richtlijn   94/5/EG'
-        - regel: 72
-          categorie: D2
-          type: missing-section
-          voorbeeld: Overwegingen (5) t/m (9) ontbreken; sprong van (4) naar (10)
 ---
 
 # Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde

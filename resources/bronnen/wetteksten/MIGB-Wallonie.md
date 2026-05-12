@@ -1,75 +1,42 @@
 ---
-bijgewerkt: 30.05.2025
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["III", "2.2", "2.3"]
+itaa-lex-sectie: "III"
+wet: "Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "30.05.2025"
+bron: "onbekend"
 chunk:
   level: 4
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: III
 provenance:
-  generated_at: '2026-05-11T16:33:59Z'
   inputs:
     - id: resources/raw/wetteksten/MIGB-Wallonie.pdf
       sha256: daf4cff482a1eeddd5158b2c39c88d39577fb3c60e4850f9514e7943dbdb000d
       version: 30.05.2025
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 8add68e
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T19:15:05Z'
   stale: false
   stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
   trust:
-    confirmed_at: '2026-05-11T16:30:31Z'
-    confirmed_by: subagent-sonnet-4-6
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260511-165250
-      run_at: '2026-05-11T16:52:51Z'
+      run_id: 20260512-191505
+      run_at: '2026-05-12T19:15:05Z'
       heading_count: 208
       max_section_chars: 22853
       file_size_chars: 203089
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B3
-          regel: 540
-          type: other
-          voorbeeld: '### HOOFDSTUK V - Bedrag der belasting of belastingvoet
-
-
-            ### HOOFDSTUK V - Bedrag der belasting of belastingvoet'
-        - categorie: C3
-          regel: 560
-          type: pseudo-table
-          voorbeeld: 'Aantal PK  Bedrag der belasting in euro
-
-
-            4 en minder  51,12'
-        - categorie: C3
-          regel: 635
-          type: pseudo-table
-          voorbeeld: 'MTM uitgedrukt in kg  MTM uitgedrukt in kg
-
-
-            van  van'
-        - categorie: B4
-          regel: 74
-          type: other
-          voorbeeld: TOEKOMSTIG RECHT (vanaf 01.01.2028)
-      rationale: 'Eén duplicate heading op r.539-540: ''### HOOFDSTUK V - Bedrag der belasting of belastingvoet'' staat twee keer direct na elkaar (B3). Tarieftabellen zijn space-aligned pseudo-tabellen (C3), identiek patroon als in de Brusselse versie. ''TOEKOMSTIG RECHT'' als plain-text label op r.74 en r.4118 (B4). Verder is het bestand inhoudelijk compleet en goed gestructureerd.'
-      run_at: '2026-05-11T16:30:31Z'
-      status: needs-rework
-    rationale: 'Eén duplicate heading op r.539-540: ''### HOOFDSTUK V - Bedrag der belasting of belastingvoet'' staat twee keer direct na elkaar (B3). Tarieftabellen zijn space-aligned pseudo-tabellen (C3), identiek patroon als in de Brusselse versie. ''TOEKOMSTIG RECHT'' als plain-text label op r.74 en r.4118 (B4). Verder is het bestand inhoudelijk compleet en goed gestructureerd.'
-    status: needs-rework
-status: beschikbaar
-tags:
-  - III
-  - '2.2'
-  - '2.3'
-wet: Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest
 ---
 
 # Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest
@@ -661,7 +628,25 @@ Tabel I — Motorvoertuig met hoogstens twee assen:
 
 MTM uitgedrukt in kg  MTM uitgedrukt in kg
 
+Luchtvering of als
+
+Andere
+
+gelijkwaardig erkende
+
+ophangingsystemen
+
+vering van de
+
+van de aangedreven
+
 van  van
+
+aangedreven as(sen)
+
+as(sen)
+
+Bedragen uitgedrukt in euro
 
 3.501  11.999  0,00  0,00
 
@@ -673,24 +658,6 @@ van  van
 
 15.000  16.999  121,00  274,00
 
-Luchtvering of als
-
-Andere
-
-gelijkwaardig erkende
-
-ophangingsystemen
-
-vering van de
-
-van de aangedreven
-
-aangedreven as(sen)
-
-as(sen)
-
-Bedragen uitgedrukt in euro
-
 
 17.000  >17.000  121,00  274,00
 
@@ -698,25 +665,7 @@ Tabel II – Motorvoertuig met drie assen:
 
 MTM uitgedrukt in kg  3 assen
 
-Luchtvering of als
-
-Andere
-
-gelijkwaardig erkende
-
-ophangingsystemen
-
-vering van de
-
-van de aangedreven
-
 van  tot
-
-aangedreven as(se)n
-
-as(sen)
-
-Bedragen uitgedrukt in euro
 
 3.501  11.999  0,00  0,00
 
@@ -736,25 +685,7 @@ Tabel III – Motorvoertuig met vier assen:
 
 MTM uitgedrukt in kg  4 assen
 
-Luchtvering of als
-
-Andere
-
-gelijkwaardig erkende
-
-ophangingsystemen
-
-vering van de
-
-van de aangedreven
-
 van  van
-
-aangedreven as(se)n
-
-as(sen)
-
-Bedragen uitgedrukt in euro
 
 3.501  11.999  0,00  0,00
 
@@ -772,6 +703,14 @@ Tabel IV – Motorvoertuig met meer dan vier assen:
 
 MTM uitgedrukt in kg  Meer dan 4 assen
 
+van  tot
+
+3.501  11.999  0,00  0,00
+
+12.000  12.999  0,00  0,00
+
+13.000  13.999  0,00  0,00
+
 Luchtvering of als
 
 Andere
@@ -784,7 +723,23 @@ vering van de
 
 van de aangedreven
 
-van  tot
+aangedreven as(se)n
+
+as(sen)
+
+Bedragen uitgedrukt in euro
+
+Luchtvering of als
+
+Andere
+
+gelijkwaardig erkende
+
+ophangingsystemen
+
+vering van de
+
+van de aangedreven
 
 aangedreven as(se)n
 
@@ -792,11 +747,23 @@ as(sen)
 
 Bedragen uitgedrukt in euro
 
-3.501  11.999  0,00  0,00
+Luchtvering of als
 
-12.000  12.999  0,00  0,00
+Andere
 
-13.000  13.999  0,00  0,00
+gelijkwaardig erkende
+
+ophangingsystemen
+
+vering van de
+
+van de aangedreven
+
+aangedreven as(se)n
+
+as(sen)
+
+Bedragen uitgedrukt in euro
 
 
 14.000  14.999  0,00  0,00
@@ -845,7 +812,25 @@ Tabel V – Motorvoertuig met hoogstens twee assen en aanhangwagen of oplegger m
 
 MTM uitgedrukt in kg  1+1 of 2+1 assen
 
+Luchtvering of als
+
+Andere
+
+gelijkwaardig erkende
+
+ophangingsystemen
+
+vering van de
+
+van de aangedreven
+
 van  van
+
+aangedreven as(se)n
+
+as(sen)
+
+Bedragen uitgedrukt in euro
 
 3.501  11.999  0,00  0,00
 
@@ -866,24 +851,6 @@ van  van
 Tabel VI – Motorvoertuig met twee assen en aanhangwagen of oplegger met twee assen:
 
 MTM uitgedrukt in kg  2+2 assen
-
-Luchtvering of als
-
-Andere
-
-gelijkwaardig erkende
-
-ophangingsystemen
-
-vering van de
-
-van de aangedreven
-
-aangedreven as(se)n
-
-as(sen)
-
-Bedragen uitgedrukt in euro
 
 
 van  van
@@ -4348,17 +4315,25 @@ Brandstof/Energie  Brandstof/energiecoëfficiënt
 
 Elektrisch of waterstof met een motorvermogen uitgedrukt in kilowatt
 
+0,01
+
 lager dan of gelijk aan 120 kW
 
 Elektrisch of waterstof met een motorvermogen uitgedrukt in kilowatt
+
+0,10
 
 hoger dan 120 kW en lager dan of gelijk aan 155 kW
 
 Elektrisch of waterstof met een motorvermogen uitgedrukt in kilowatt
 
+0,18
+
 hoger dan 155 kW en lager dan of gelijk aan 249 kW
 
 Elektrisch of waterstof met een motorvermogen uitgedrukt in kilowatt
+
+0,26
 
 hoger dan of gelijk aan 250 kW
 
@@ -4419,14 +4394,6 @@ zijn niet cumulatief.
 De Waalse Regering kan de voorwaarden bepalen voor de toepassing van de voorgaande leden, waarvan het
 
 voordeel automatisch of op verzoek van de betrokkene wordt toegekend.
-
-0,01
-
-0,10
-
-0,18
-
-0,26
 
 
 4° in afwijking van 1° is het bedrag van de belasting gelijk aan 0,00 euro voor het voertuig onderworpen aan
@@ -4890,17 +4857,25 @@ Brandstof/Energie  Brandstof/energiecoëfficiënt
 
 Elektrisch of waterstof met een motorvermogen uitgedrukt in kilowatt
 
+0,01
+
 lager dan of gelijk aan 120 kW
 
 Elektrisch of waterstof met een motorvermogen uitgedrukt in kilowatt
+
+0,10
 
 hoger dan 120 kW en lager dan of gelijk aan 155 kW
 
 Elektrisch of waterstof met een motorvermogen uitgedrukt in kilowatt
 
+0,18
+
 hoger dan 155 kW en lager dan of gelijk aan 249 kW
 
 Elektrisch of waterstof met een motorvermogen uitgedrukt in kilowatt
+
+0,26
 
 hoger dan of gelijk aan 250 kW
 
@@ -4947,14 +4922,6 @@ voordeel automatisch of op verzoek van de betrokkene wordt toegekend;
 4° in afwijking van 1° is het bedrag van de belasting gelijk aan 0,00 euro voor het voertuig onderworpen aan
 
 een forfaitaire verkeersbelasting van 100 euro in toepassing van artikel 10, § 3.
-
-0,01
-
-0,10
-
-0,18
-
-0,26
 
 
 5° In afwijking van 1° wordt de belasting uniform vastgesteld op 61,50 euro voor voertuigen die meer dan

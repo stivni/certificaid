@@ -1,56 +1,46 @@
 ---
-bijgewerkt: 01.04.2026
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["IX", "2.6"]
+itaa-lex-sectie: "IX"
+wet: "Wetboek der Successierechten — federaal"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "01.04.2026"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 5
-  sub_strategy: per_definitieblok
-  type: Art.
-itaa-lex-sectie: IX
+  type: "Art."
+  sub_strategy: "per_definitieblok"
 provenance:
-  generated_at: '2026-05-11T16:34:22Z'
   inputs:
-  - id: resources/raw/wetteksten/successie-federaal.pdf
-    sha256: 560a39e50be62bd622658de7f5f95b029cf3f7b25ab4618814a9ad4649771b7c
-    version: 01.04.2026
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/successie-federaal.pdf
+      sha256: 560a39e50be62bd622658de7f5f95b029cf3f7b25ab4618814a9ad4649771b7c
+      version: 01.04.2026
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version: null
+    pipeline_version: 8add68e
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T19:13:58Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 377088
-      flags:
-      - detail: 'langste sectie op #####-niveau: 58436 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
-      heading_count: 377
-      max_section_chars: 58436
-      run_at: '2026-05-11T13:40:46Z'
-      run_id: 20260511-134044
       status: warn
+      run_id: 20260512-191358
+      run_at: '2026-05-12T19:13:58Z'
+      heading_count: 382
+      max_section_chars: 58436
+      file_size_chars: 377110
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op #####-niveau: 58436 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: 316 Art.-headings, frontmatter correct, geen TOC-bleed, geen max-section-warn.
-        66 '(…)'-placeholders zijn legitieme markers voor opgeheven of voorbehouden
-        artikels — body-flow blijft leesbaar.
-      run_at: null
-      status: trusted
-    rationale: L1=pass
-    status: trusted
-status: beschikbaar
-tags:
-- IX
-- '2.6'
-wet: Wetboek der Successierechten — federaal
 ---
 
 # Successierechten — federaal
@@ -4125,7 +4115,7 @@ Voor de toepassing van de bepalingen van dit Wetboek, van de bijzondere wetsbepa
 
 1° aangetekende zending: hetzij de briefwisseling, al dan niet vergezeld van een ontvangstbevestiging, neergelegd bij de aanbieder van de universele postdienst, een aanbieder van postdiensten of een gekwalificeerde verlener van vertrouwensdiensten die voldoet aan de vereisten van artikel 44 van Verordening (EU) nr. 910 /2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties binnen de interne markt en tot intrekking van Richtlijn 1999/93/CE, en al dan niet elektronisch verzonden door een van hen naar een vooraf aangewezen ontvanger, die toelaat om de datum van verzending en ontvangst van de briefwisseling door de bestemmeling aan te tonen, hetzij het bericht dat door de Federale Overheidsdienst Financiën is verzonden in het kader van de uitoefening van haar taak van openbare dienst door middel van de dienst voor het versturen en ontvangen        van      elektronische       berichten       door      bepaalde vertegenwoordigers door de Federale Overheidsdienst belast met de Digitale Agenda en aan houders van een ondernemingsnummer zoals gedefinieerd in artikel III.16 van het Wetboek van economisch recht of aan hun vertegenwoordigers door de Rijksdienst voor Sociale Zekerheid;
 
-2° beveiligd elektronisch platform: elke computertoepassing ter beschikking gesteld door de Federale Overheidsdienst Financiën of door een andere openbare instelling in samenwerking met de Federale bedrijven, rechtspersonen en bepaalde derden elektronische diensten aanbiedt om elektronische berichten uit te wisselen met de Federale identificatie worden uitgevoerd in toepassing van hoofdstuk 4 van de wet van 18 juli 2017 inzake elektronische identificatie door middel van een stelsel voor elektronische identificatie zoals bedoeld in art. 8., 2., van Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van Richtlijn (EG) 1999/93, dat ten minste een substantieel veiligheidsniveau in de zin van artikel 8., 2., b) van bovengenoemde Verordening inzake de integriteit van de inhoud, de
+2° beveiligd elektronisch platform: elke computertoepassing ter beschikking gesteld door de Federale Overheidsdienst Financiën of door een andere openbare instelling in samenwerking met de Federale bedrijven, rechtspersonen en bepaalde derden elektronische diensten aanbiedt om elektronische berichten uit te wisselen met de Federale identificatie worden uitgevoerd in toepassing van hoofdstuk 4 van de wet van 18 juli 2017 inzake elektronische identificatie door middel van een stelsel voor elektronische identificatie zoals bedoeld in art. 8. , 2., van Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van Richtlijn (EG) 1999/93, dat ten minste een substantieel veiligheidsniveau in de zin van artikel 8. , 2., b) van bovengenoemde Verordening inzake de integriteit van de inhoud, de
 
 tijdsaanduiding, en zo ook de bewaring van het verzonden bericht garandeert;
 

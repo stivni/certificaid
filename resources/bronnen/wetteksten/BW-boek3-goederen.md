@@ -1,57 +1,42 @@
 ---
-bijgewerkt: 24.12.2025
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["XI", "3.1"]
+itaa-lex-sectie: "XI"
+wet: "Burgerlijk Wetboek — Boek 3 — Goederen"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "24.12.2025"
+bron: "onbekend"
 chunk:
-  level: 5
+  level: 4
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: XI
 provenance:
-  generated_at: '2026-05-11T16:33:51Z'
   inputs:
     - id: resources/raw/wetteksten/BW-boek3-goederen.pdf
       sha256: ca4d76f69819a31bf460a475bb0b651d3e8dec3da8d6f15350cccabd7f97564d
       version: 24.12.2025
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 8add68e
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T19:14:56Z'
   stale: false
   stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
   trust:
-    confirmed_at: '2026-05-11T16:30:30Z'
-    confirmed_by: subagent-sonnet-4-6
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260511-165250
-      run_at: '2026-05-11T16:52:50Z'
+      run_id: 20260512-191456
+      run_at: '2026-05-12T19:14:56Z'
       heading_count: 55
       max_section_chars: 1767
-      file_size_chars: 15877
+      file_size_chars: 15881
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: D2
-          regel: 53
-          type: missing-section
-          voorbeeld: § 2. In geval van gehele of gedeeltelijke vernietiging... (document begint mid-paragaaf, geen inhoudelijke Boek 3-artikelen aanwezig)
-        - categorie: B5
-          regel: 167
-          type: other
-          voorbeeld: '#### Art. 25. In artikel 2, 5°, i, van de wet van 12 mei 2014 betreffende de gereglementeerde'
-      rationale: 'D2: het bestand bevat uitsluitend de wijzigings- en overgangsbepalingen (HOOFDSTUK 3–6) — de inhoudelijke artikelen van Boek 3 zelf ontbreken volledig; de body begint mid-paragraaf (§ 2.) zonder voorafgaande sectietitel. B5: Art. 25 op regel 167 heeft een heading die doorloopt in de artikeltekst (''#### Art. 25. In artikel 2, 5°, i, van de wet van 12 mei 2014 betreffende de gereglementeerde'') — de heading is niet afgesloten voor de body. Afdeling XI (regel 145–146) heeft een sectietitel zonder bijbehorend artikel.'
-      run_at: '2026-05-11T16:30:30Z'
-      status: needs-rework
-    rationale: 'D2: het bestand bevat uitsluitend de wijzigings- en overgangsbepalingen (HOOFDSTUK 3–6) — de inhoudelijke artikelen van Boek 3 zelf ontbreken volledig; de body begint mid-paragraaf (§ 2.) zonder voorafgaande sectietitel. B5: Art. 25 op regel 167 heeft een heading die doorloopt in de artikeltekst (''#### Art. 25. In artikel 2, 5°, i, van de wet van 12 mei 2014 betreffende de gereglementeerde'') — de heading is niet afgesloten voor de body. Afdeling XI (regel 145–146) heeft een sectietitel zonder bijbehorend artikel.'
-    status: needs-rework
-status: beschikbaar
-tags:
-  - XI
-  - '3.1'
-wet: Burgerlijk Wetboek — Boek 3 — Goederen
 ---
 
 # Burgerlijk Wetboek — Boek 3 — Goederen
@@ -180,15 +165,15 @@ vastgoedvennootschappen, worden de woorden "in artikel 517 en volgende" vervange
 
 #### Art. 26
 
-In artikel 2.2.4.5., § 3, tweede lid, van het Belgisch Scheepvaartwetboek worden de woorden "overeenkomstig artikel 2262 van het Burgerlijk Wetboek" vervangen door de woorden "overeenkomstig de artikelen 3.26 en 3.27 van het Burgerlijk Wetboek".
+In artikel 2.2.4.5. , § 3, tweede lid, van het Belgisch Scheepvaartwetboek worden de woorden "overeenkomstig artikel 2262 van het Burgerlijk Wetboek" vervangen door de woorden "overeenkomstig de artikelen 3.26 en 3.27 van het Burgerlijk Wetboek".
 
 #### Art. 27
 
-In artikel 2.3.1.3., § 1er, van hetzelfde Wetboek wordt de bepaling onder 1° vervangen als volgt:  "1° titel 4 van boek 3 van het Burgerlijk Wetboek;".
+In artikel 2.3.1.3. , § 1er, van hetzelfde Wetboek wordt de bepaling onder 1° vervangen als volgt:  "1° titel 4 van boek 3 van het Burgerlijk Wetboek;".
 
 #### Art. 28
 
-In artikel 3.2.2.5., § 3, tweede lid, van hetzelfde Wetboek worden de woorden "overeenkomstig artikel 2262 van het Burgerlijk Wetboek" vervangen door de woorden "overeenkomstig de artikelen 3.26 en 3.27 van het Burgerlijk Wetboek".
+In artikel 3.2.2.5. , § 3, tweede lid, van hetzelfde Wetboek worden de woorden "overeenkomstig artikel 2262 van het Burgerlijk Wetboek" vervangen door de woorden "overeenkomstig de artikelen 3.26 en 3.27 van het Burgerlijk Wetboek".
 
 ## HOOFDSTUK 4. - Opheffingsbepalingen
 
@@ -202,7 +187,7 @@ Artikel 1370 van het Gerechtelijk Wetboek, gewijzigd bij de wet van 25 april 201
 
 #### Art. 32
 
-In het Belgisch Scheepvaartwetboek worden opgeheven:  1° artikel 2.2.4.2., 1° ;  2° artikel 3.2.2.2., 1°.
+In het Belgisch Scheepvaartwetboek worden opgeheven:  1° artikel 2.2.4.2. , 1° ;  2° artikel 3.2.2.2. , 1°.
 
 #### Art. 33
 

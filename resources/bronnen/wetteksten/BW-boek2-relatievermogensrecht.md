@@ -1,57 +1,42 @@
 ---
-bijgewerkt: 24.12.2025
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["XI", "3.1"]
+itaa-lex-sectie: "XI"
+wet: "Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "24.12.2025"
+bron: "onbekend"
 chunk:
   level: 4
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: XI
 provenance:
-  generated_at: '2026-05-11T16:33:51Z'
   inputs:
     - id: resources/raw/wetteksten/BW-boek2-relatievermogensrecht.pdf
       sha256: dc2185d69e4bf8cbe98a067c4e2974c04e5859451dece12e6ebd006b1f8836ef
       version: 24.12.2025
+  tooling:
+    pipeline: tools/etl/convert.py
+    pipeline_version: 8add68e
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T19:14:55Z'
   stale: false
   stale_reason:
-  tooling:
-    model:
-    pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version:
   trust:
-    confirmed_at: '2026-05-11T16:30:30Z'
-    confirmed_by: subagent-sonnet-4-6
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260511-165250
-      run_at: '2026-05-11T16:52:50Z'
+      run_id: 20260512-191456
+      run_at: '2026-05-12T19:14:56Z'
       heading_count: 79
       max_section_chars: 703
-      file_size_chars: 19585
+      file_size_chars: 19584
       flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-        - categorie: B4
-          regel: 53
-          type: missing-section
-          voorbeeld: '## HOOFDSTUK 3. - Inhoud van boek 4 (HOOFDSTUK 1 en 2 volledig afwezig)'
-        - categorie: F3
-          regel: 47
-          type: naam-mismatch
-          voorbeeld: 'wet: Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht maar body bevat alleen wijzigingsbepalingen mbt Boek 4/Boek 3'
-      rationale: 'D2 + F3: het bestand heet ''Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht'' maar de inhoud begint abrupt bij HOOFDSTUK 3 over ''Inhoud van Boek 4 Nalatenschappen'' en bevat uitsluitend wijzigings- en opheffingsbepalingen (Art.3 t/m Art.65 van een invoeringswet). HOOFDSTUK 1 en 2 ontbreken volledig; de inhoud klopt niet met de bestandsnaam en het wet-veld. Dit is een extractie- of configuratiebug: ofwel ontbreekt het eigenlijke BW Boek 2 materiaal, ofwel is de verkeerde PDF geconverteerd.'
-      run_at: '2026-05-11T16:30:30Z'
-      status: needs-rework
-    rationale: 'D2 + F3: het bestand heet ''Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht'' maar de inhoud begint abrupt bij HOOFDSTUK 3 over ''Inhoud van Boek 4 Nalatenschappen'' en bevat uitsluitend wijzigings- en opheffingsbepalingen (Art.3 t/m Art.65 van een invoeringswet). HOOFDSTUK 1 en 2 ontbreken volledig; de inhoud klopt niet met de bestandsnaam en het wet-veld. Dit is een extractie- of configuratiebug: ofwel ontbreekt het eigenlijke BW Boek 2 materiaal, ofwel is de verkeerde PDF geconverteerd.'
-    status: needs-rework
-status: beschikbaar
-tags:
-  - XI
-  - '3.1'
-wet: Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht
 ---
 
 # Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht

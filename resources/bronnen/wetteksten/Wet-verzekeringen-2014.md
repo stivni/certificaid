@@ -1,53 +1,46 @@
 ---
-bijgewerkt: 24.12.2025
-bron: www.ejustice.just.fgov.be (Justel, gecoördineerde versie)
-bron_rol: normatief
+tags: ["2.6", "1.2"]
+itaa-lex-sectie: ""
+wet: "Wet 4 april 2014 betreffende de verzekeringen"
+bron_rol: "normatief"
+status: "beschikbaar"
+bijgewerkt: "24.12.2025"
+bron: "www.ejustice.just.fgov.be (Justel, gecoördineerde versie)"
 chunk:
-  level: 2
+  level: 6
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: ''
 provenance:
   inputs:
-    - id: www.ejustice.just.fgov.be (Justel, gecoördineerde versie)
+    - id: https://www.ejustice.just.fgov.be/eli/wet/2014/04/04/2014011239/justel
       sha256:
-      version:
+      version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:50Z'
+  generated_at: '2026-05-12T19:15:21Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Laag-1 meldt max_section_size warn (32357 chars in één sectie), maar dat is een chunker-attentie, geen inhoudelijk ETL-defect. De markdown zelf is structureel correct: ## DEEL / ### TITEL / #### HOOFDSTUK / ###### Art. gelaagd en consistent. Structuurlabels als 'Doel', 'Toepassingsgebied', 'Definities' staan als **bold** (niet als plain text), wat acceptabel is als stylistisch alternatief voor sub-headings in een definitie-zware wet. Geen TOC-residu, geen form-feeds, geen OCR-artefacten, geen spurious line-breaks. Amendment-brackets [ ... ] zijn open-en-dicht. Inhoud volledig: Deel 1–4 aanwezig, definities Art. 5 volledig met 60+ genummerde items. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 194422
-      flags:
-        - detail: 'langste sectie op ##-niveau: 32357 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          name: max_section_size
-          samples: []
-          status: warn
-      heading_count: 195
-      max_section_chars: 32357
-      run_at: '2026-05-11T13:40:50Z'
-      run_id: 20260511-134044
       status: warn
+      run_id: 20260512-191521
+      run_at: '2026-05-12T19:15:21Z'
+      heading_count: 201
+      max_section_chars: 32357
+      file_size_chars: 195430
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ######-niveau: 32357 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "Laag-1 meldt max_section_size warn (32357 chars in één sectie), maar dat is een chunker-attentie, geen inhoudelijk ETL-defect. De markdown zelf is structureel correct: ## DEEL / ### TITEL / #### HOOFDSTUK / ###### Art. gelaagd en consistent. Structuurlabels als 'Doel', 'Toepassingsgebied', 'Definities' staan als **bold** (niet als plain text), wat acceptabel is als stylistisch alternatief voor sub-headings in een definitie-zware wet. Geen TOC-residu, geen form-feeds, geen OCR-artefacten, geen spurious line-breaks. Amendment-brackets [ ... ] zijn open-en-dicht. Inhoud volledig: Deel 1–4 aanwezig, definities Art. 5 volledig met 60+ genummerde items. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien."
-      concrete_problemen: []
-status: beschikbaar
-tags:
-  - '2.6'
-  - '1.2'
-wet: Wet 4 april 2014 betreffende de verzekeringen
 ---
 
 # Wet 4 april 2014 betreffende de verzekeringen
@@ -1137,7 +1130,9 @@ Mits de verzekeraar aantoont de voorafgaande toestemming van de verzekerde te be
 Wanneer er geen risico meer bestaat voor de verzekeraar, bezorgt de adviserend arts de geneeskundige verklaringen, op hun verzoek, terug aan de verzekerde of, in geval van overlijden, aan zijn rechthebbenden.
 
 
-##### Afdeling Ibis. — [ - Recht om vergeten te worden.] - Onderafdeling 1. — [ - "Toepassingsgebied"]
+##### Afdeling Ibis. — [ - Recht om vergeten te worden.]
+
+###### Onderafdeling 1. — [ - "Toepassingsgebied"]
 
 ###### Art. 61/1
 
@@ -1161,13 +1156,15 @@ b) van een beroepskrediet;
 
 De Koning kan, na advies van het Federaal Kenniscentrum voor de Gezondheidszorg, de vorm en de nadere inhoudelijke richtlijnen bepalen van het gestandaardiseerd informatiedocument. ]
 
-##### Afdeling Ibis. — [ - Recht om vergeten te worden.] - Onderafdeling 2. — [ - Schuldsaldoverzekering]
+##### Afdeling Ibis. — [ - Recht om vergeten te worden.]
+
+###### Onderafdeling 2. — [ - Schuldsaldoverzekering]
 
 ###### Art. 61/2
 
 [ § 1.[ Onverminderd artikel 58, moeten personen die getroffen werden of worden door een kankeraandoening, ongeacht het type, en die een verzekering zoals bedoeld in artikel 61/1, 1°, willen aangaan, bij het verstrijken van een termijn van vijf jaar na het succesvol beëindigen van de behandeling en voor zover er geen herval plaatsvond binnen deze termijn, deze aandoening niet langer meedelen aan hun verzekeraar.].
 
-§ 2. [ Indien de verzekeringsonderneming kennis heeft van de kankeraandoening bedoeld in paragraaf 1, is het voor de verzekeringsonderneming verboden om bij het verstrijken van een termijn van vijf jaar na het succesvol beëindigen van de behandeling en voor zover er geen herval plaatsvond binnen deze termijn, deze kankeraandoening in acht te nemen bij het bepalen van de huidige gezondheidstoestand, zoals bedoeld in artikel 61.].
+§ 2. [ Indien de verzekeringsonderneming kennis heeft van de kankeraandoening bedoeld in paragraaf 1, is het voor de verzekeringsonderneming verboden om bij het verstrijken van een termijn van vijf jaar na het succesvol beëindigen van de behandeling en voor zover er geen herval plaatsvond binnen deze termijn, deze kankeraandoening in acht te nemen bij het bepalen van de huidige gezondheidstoestand, zoals bedoeld in artikel 61. ].
 
 Indien de persoon op het moment dat de kankeraandoening werd gediagnosticeerd jonger was dan 21 jaar, bedraagt de in het eerste lid bedoelde termijn maximum vijf jaar.
 
@@ -1219,7 +1216,9 @@ Voor zover het medisch en verzekeringstechnisch objectief en redelijk verantwoor
 
 De financiering van de adviserende opdracht van het Opvolgingsbureau voor de tarifering inzake geschillen zoals bedoeld in het eerste lid, is ten laste van de overeenkomstig artikel 220 erkende Compensatiekas.]
 
-##### Afdeling Ibis. — [ - Recht om vergeten te worden.] - Onderafdeling 3. — [ - arbeidsongeschiktheidsverzekering]
+##### Afdeling Ibis. — [ - Recht om vergeten te worden.]
+
+###### Onderafdeling 3. — [ - arbeidsongeschiktheidsverzekering]
 
 ###### Art. 61/8
 
@@ -1295,7 +1294,9 @@ De Koning kan deze afdeling van het Opvolgingsbureau voor de tarifering belasten
 
 Tweejaarlijks, te rekenen vanaf de datum van inwerkingtreding van dit artikel, wordt de financiering opnieuw geëvalueerd op basis van een verslag van de ombudsdienst inzake verzekeringen aan de minister bevoegd voor Verzekeringen. De Koning kan bepalen dat een Compensatiekas "ziekte" moet voorzien in de financiering van deze taak.]
 
-##### Afdeling Ibis. — [ - Recht om vergeten te worden.] - Onderafdeling 4. — [ Reisannulatieverzekering ]
+##### Afdeling Ibis. — [ - Recht om vergeten te worden.]
+
+###### Onderafdeling 4. — [ Reisannulatieverzekering ]
 
 ###### Art. 61/14
 
@@ -1914,7 +1915,9 @@ Voor de aansprakelijkheidsverzekeringen, andere dan die bedoeld in de wet van 21
 #### HOOFDSTUK 2. — Zaakverzekeringsovereenkomsten
 
 
-##### Afdeling I. — Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen - Onderafdeling 1. — Verzekerbare waarde
+##### Afdeling I. — Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen
+
+###### Onderafdeling 1. — Verzekerbare waarde
 
 **Wijze van waardebepaling**
 
@@ -1938,7 +1941,9 @@ Partijen kunnen bij een uitdrukkelijk beding aan bepaalde goederen een getaxeerd
 
 Wanneer een goed waarvoor een getaxeerde waarde is bedongen een aanzienlijke waardevermindering ondergaat, kan elke partij het bedrag van de getaxeerde waarde verminderen of een einde maken aan de overeenkomst.
 
-##### Afdeling I. — Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen - Onderafdeling 2. — Verplichtingen van de verzekerde
+##### Afdeling I. — Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen
+
+###### Onderafdeling 2. — Verplichtingen van de verzekerde
 
 **Gesteldheid van de plaats**
 
@@ -1950,7 +1955,9 @@ Indien de verzekerde de in het eerste lid bedoelde verplichting niet nakomt en e
 
 Komt de verzekerde de in het eerste lid bedoelde verplichting met bedrieglijk opzet niet na, dan kan de verzekeraar zijn dekking weigeren.
 
-##### Afdeling I. — Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen - Onderafdeling 3. — Overdracht onder de levenden
+##### Afdeling I. — Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen
+
+###### Onderafdeling 3. — Overdracht onder de levenden
 
 **Overdracht onder de levenden van een verzekerde zaak**
 
@@ -1962,7 +1969,9 @@ Tot het verstrijken van de in het eerste lid bedoelde termijn, blijft de aan de 
 
 § 2. In geval van overdracht onder de levenden van een roerend goed, eindigt de verzekering van rechtswege zodra de verzekerde het goed niet meer in zijn bezit heeft, tenzij de partijen bij de verzekeringsovereenkomst een andere datum hebben bedongen.
 
-##### Afdeling I. — Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen - Onderafdeling 4. — Betaling van de schadevergoeding en voorrecht van de verzekeraar.
+##### Afdeling I. — Gemeenschappelijke bepalingen betreffende alle zaakverzekeringen
+
+###### Onderafdeling 4. — Betaling van de schadevergoeding en voorrecht van de verzekeraar.
 
 **Betaling van een verzoek tot schadevergoeding en sancties**
 
@@ -2039,7 +2048,9 @@ Het voorrecht geldt slechts op de verzekerde zaak voor de premie die betrekking 
 Dat voorrecht heeft niet te worden ingeschreven. Het volgt in rang onmiddellijk na dat van de gerechtskosten.
 
 
-##### Afdeling II. — Nadere bepalingen betreffende sommige zaakverzekeringen - Onderafdeling 1. — Brandverzekering
+##### Afdeling II. — Nadere bepalingen betreffende sommige zaakverzekeringen
+
+###### Onderafdeling 1. — Brandverzekering
 
 **Normale dekking**
 

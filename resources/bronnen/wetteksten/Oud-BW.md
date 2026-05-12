@@ -1,17 +1,46 @@
 ---
-bijgewerkt: 27.01.2026
-bron: ejustice.just.fgov.be (Justel, gecoördineerde versie)
-itaa-lex-sectie: XI
+tags: ["XI", "3.1"]
+itaa-lex-sectie: "XI"
+wet: "Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019)"
+bron_rol: "normatief"
+status: "beschikbaar"
+bijgewerkt: "27.01.2026"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
+chunk:
+  level: 6
+  type: "Art."
+  sub_strategy:
 provenance:
-  generated_at: '2026-05-11T16:34:21Z'
+  inputs:
+    - id: resources/raw/wetteksten/Oud-BW.pdf
+      sha256: f0ca492f94ed226cc0d0ac11be8af1243cf429d3a7494af0c1e0821585faeb13
+      version: 27.01.2026
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-raw-bron: resources/raw/wetteksten/Oud-BW.pdf
-status: beschikbaar
-tags:
-- XI
-wet: Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019)
+    pipeline_version: 8add68e
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T19:15:12Z'
+  stale: false
+  stale_reason:
+  trust:
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
+    layer1:
+      status: warn
+      run_id: 20260512-191512
+      run_at: '2026-05-12T19:15:12Z'
+      heading_count: 3706
+      max_section_chars: 29650
+      file_size_chars: 1511480
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ######-niveau: 29650 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+    layer2:
 ---
 
 # Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019)
@@ -22,31 +51,11 @@ wet: Burgerlijk Wetboek (oud, vóór hervormingen nieuwe Burgerlijk Wetboek 2019
 
 *Bijgewerkt tot en met 27.01.2026 — officieuze gecoördineerde versie via JUSTEL. Bron: ejustice.just.fgov.be.*
 
-Titel
-
 Burgerlijkwetboek
 
 Nota's :      art. 374/1-374/2 gewijzigd met ingang op een onbepaalde datum bij W 2018-07-30/54, art. 2;
 
 art. 362-3 gewijzigd in de toekomst door W 2018-06-18/03, art. 157, 082; Inwerkingtreding : onbepaald
-
-## INLEIDENDE TITEL. - BEKENDMAKING, GEVOLGEN EN TOEPASSING VAN DE WETTEN IN HET ALGEMEEN.
-
-###### Art. 1
-
-<Opgeheven bij W 2022-04-28/24, art. 1, 096; Inwerkingtreding : 01-01-2023>
-
-###### Art. 2
-
-<Opgeheven bij W 2022-04-28/25, art. 62, 097; Inwerkingtreding : 01-01-2023>
-
-## BOEK I. - PERSONEN.
-
-### TITEL I. - GENOT EN VERLIES VAN DE BURGERLIJKE RECHTEN.
-
-#### HOOFDSTUK I. [1 ...]1
-
-(1)<W 2018-06-18/03, art. 3, 082; Inwerkingtreding : 31-03-2019>
 
 ###### Art. 3
 
@@ -114,7 +123,7 @@ Bij verhindering van de ambtenaar van de burgerlijke stand wordt deze tijdelijk 
 
 [1 De ambtenaar van de burgerlijke stand kan voor alle taken inzake het opmaken van akten van burgerlijke stand, met inbegrip van het afleveren van afschriften en uittreksels ervan [2 en het indienen van een verzoekschrift als bedoeld in artikel 35, § 1, tweede lid]2, een speciale schriftelijke machtiging verlenen aan één of meer beambten van het gemeentebestuur. [3 Deze machtiging wordt gemeld voor de handtekening van de beambten van het gemeentebestuur, aan wie de machtiging is verleend.]3 [2 Deze machtiging is niet mogelijk voor :
 1° de opmaak van de akte van huwelijk, in toepassing van artikel 165/1, eerste lid;
-2° de opmaak van de akte van nietigverklaring in toepassing van artikel 34/1.]2]1 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019> (2)<W 2020-07-31/03, art. 2, 089; Inwerkingtreding : 01-09-2020> (3)<W 2023-09-13/08, art. 2, 102; Inwerkingtreding : 01-01-2024>
+2° de opmaak van de akte van nietigverklaring in toepassing van artikel 34/1. ]2]1 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019> (2)<W 2020-07-31/03, art. 2, 089; Inwerkingtreding : 01-09-2020> (3)<W 2023-09-13/08, art. 2, 102; Inwerkingtreding : 01-01-2024>
 
 ###### Art. 10
 
@@ -295,7 +304,9 @@ De gewijzigde akte maakt hier melding van.
 
 (1)<W 2020-07-31/03, art. 7, 089; Inwerkingtreding : 01-09-2020>
 
-##### Afdeling 8. [1 Verbetering en nietigverklaring van akten van de burgerlijke stand]1 - Onderafdeling 1. [1 Verbetering door de ambtenaar van de burgerlijke stand]1
+##### Afdeling 8. [1 Verbetering en nietigverklaring van akten van de burgerlijke stand]1
+
+###### Onderafdeling 1. [1 Verbetering door de ambtenaar van de burgerlijke stand]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
@@ -328,7 +339,9 @@ Het verbeterde proces-verbaal wordt als bijlage in de DABS opgenomen.
 De ambtenaar van de burgerlijke stand kan de akte van de burgerlijke stand verbeteren voor zover het medisch attest werd verbeterd door de arts of vroedvrouw.
 Het verbeterde medisch attest wordt als bijlage in de DABS opgenomen.]1 (1)<W 2020-07-31/03, art. 6, 089; Inwerkingtreding : 01-09-2020> (2)<W 2023-09-13/08, art. 11, 102; Inwerkingtreding : 01-01-2024>
 
-##### Afdeling 8. [1 Verbetering en nietigverklaring van akten van de burgerlijke stand]1 - Onderafdeling 2. [1 Ambtshalve nietigverklaring van een akte door de ambtenaar van de burgerlijke stand]1
+##### Afdeling 8. [1 Verbetering en nietigverklaring van akten van de burgerlijke stand]1
+
+###### Onderafdeling 2. [1 Ambtshalve nietigverklaring van een akte door de ambtenaar van de burgerlijke stand]1
 
 (1)<Ingevoegd bij W 2020-07-31/03, art. 8, 089; Inwerkingtreding : 01-09-2020>
 
@@ -344,7 +357,9 @@ De bevoegde ambtenaar van de burgerlijke stand maakt onmiddellijk de akte van ni
 De ambtshalve nietigverklaring is slechts mogelijk binnen een maand na de opmaak van de akte van de burgerlijke stand of van het proces-verbaal, en voor zover deze de rechtstoestand van de personen op wie de akte of het proces-verbaal betrekking heeft niet in gevaar brengt. Na verloop van deze termijn is artikel 35 van toepassing.
 [2 Elke ambtshalve nietigverklaring van een akte wordt via de DABS genotificeerd aan de bevoegde procureur des Konings.]2 Het beheerscomité DABS, bedoeld in artikel 74, maakt jaarlijks een lijst op van het aantal akten dat ambtshalve werd vernietigd. Ze bezorgt deze lijst aan de minister van Justitie, voor 31 januari van het jaar volgend op het voorbije burgerlijke jaar. De minister van Justitie legt deze lijst neer in de Kamer van volksvertegenwoordigers.]1 (1)<Ingevoegd bij W 2020-07-31/03, art. 9, 089; Inwerkingtreding : 01-09-2020> (2)<W 2023-09-13/08, art. 12, 102; Inwerkingtreding : 01-01-2024>
 
-##### Afdeling 8. [1 Verbetering en nietigverklaring van akten van de burgerlijke stand]1 - Onderafdeling 2. Onderafdeling 3 [1 Verbetering en nietigverklaring door de familierechtbank]1
+##### Afdeling 8. [1 Verbetering en nietigverklaring van akten van de burgerlijke stand]1
+
+###### Onderafdeling 2. Onderafdeling 3 [1 Verbetering en nietigverklaring door de familierechtbank]1
 
 (1)<W 2020-07-31/03, art. 10, 089; Inwerkingtreding : 01-09-2020>
 
@@ -416,7 +431,9 @@ De akten van de burgerlijke stand vermelden, voor zover nodig, de datum waarop h
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 2. [1 De akten van geboorte]1 - Onderafdeling 1. [1 De akte van geboorte]1
+##### Afdeling 2. [1 De akten van geboorte]1
+
+###### Onderafdeling 1. [1 De akte van geboorte]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
@@ -443,7 +460,9 @@ a) de toestemming van de personen bedoeld in artikel 329bis;
 b) de naam en de voornamen van de wettelijke vertegenwoordiger van het kind indien deze in de erkenning heeft toegestemd;
 c) de datum, plaats en autoriteit waar de toestemming werd gegeven, of de rechterlijke instantie, de datum en het identificatienummer van de in kracht van gewijsde gegane rechterlijke beslissing waarin de toestemming werd vastgesteld.]1 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 2. [1 De akten van geboorte]1 - Onderafdeling 2.[1 Akte van geboorte van een vondeling]1
+##### Afdeling 2. [1 De akten van geboorte]1
+
+###### Onderafdeling 2. [1 Akte van geboorte van een vondeling]1
 
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
@@ -458,7 +477,9 @@ De hulpdienst doet aangifte van de geboorte van de vondeling bij de ambtenaar va
 1
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 2. [1 De akten van geboorte]1 - Onderafdeling 3. [1 Akte van geboorte in geval van geboorte aan boord van een schip of een luchtvaartuig]1
+##### Afdeling 2. [1 De akten van geboorte]1
+
+###### Onderafdeling 3. [1 Akte van geboorte in geval van geboorte aan boord van een schip of een luchtvaartuig]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 1, 082; Inwerkingtreding : 31-03-2019>
 
@@ -468,7 +489,9 @@ De hulpdienst doet aangifte van de geboorte van de vondeling bij de ambtenaar va
 § 2. Indien de eerstvolgende aanlegplaats of landingsplaats in België is, bezorgt de gezagvoerder zo spoedig mogelijk het proces-verbaal aan de dichtstbijzijnde ambtenaar van de burgerlijke stand, die onmiddellijk een akte van geboorte opmaakt op basis van het proces-verbaal. Het proces-verbaal wordt als bijlage bij de akte van geboorte in de DABS opgenomen. Het op papier opgemaakte proces-verbaal wordt bewaard door de ambtenaar van de burgerlijke stand die de akte heeft opgemaakt tot op het ogenblik van de overdracht van het procesverbaal aan het Algemeen Rijksarchief en Rijksarchief in de Provinciën.
 § 3. Indien de eerstvolgende aanlegplaats of landingsplaats in het buitenland is, bezorgt de gezagvoerder zo spoedig mogelijk het proces-verbaal aan de consulaire beroepspost in wiens consulair ressort de haven of landingsplaats zich bevindt.]1 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 2. [1 De akten van geboorte]1 - Onderafdeling 4. [1 Gemeenschappelijke bepalingen]1
+##### Afdeling 2. [1 De akten van geboorte]1
+
+###### Onderafdeling 4. [1 Gemeenschappelijke bepalingen]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
@@ -484,7 +507,9 @@ De vervaldag is in de termijn begrepen. Is die dag echter een zaterdag, een zond
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 3. [1 De akten van erkenning]1 - Onderafdeling 1. [1 Akte van prenatale erkenning]1
+##### Afdeling 3. [1 De akten van erkenning]1
+
+###### Onderafdeling 1. [1 Akte van prenatale erkenning]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
@@ -495,7 +520,9 @@ De vervaldag is in de termijn begrepen. Is die dag echter een zaterdag, een zond
 2° de naam, de voornamen, de geboortedatum, de geboorteplaats en de hoedanigheid van de erkenner;
 3° de toestemming van de moeder, met vermelding van de datum, plaats en autoriteit voor wie de toestemming werd gegeven, of de rechterlijke instantie, de datum en het identificatienummer van de in kracht van gewijsde gegane rechterlijke beslissing waarin de toestemming werd vastgesteld. De rechterlijke beslissing wordt als bijlage in de DABS opgenomen.]1 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 3. [1 De akten van erkenning]1 - Onderafdeling 2. [1 Akte van erkenning]1
+##### Afdeling 3. [1 De akten van erkenning]1
+
+###### Onderafdeling 2. [1 Akte van erkenning]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
@@ -550,7 +577,9 @@ b) de datum, plaats en autoriteit voor wie de toestemming werd gegeven, of de re
 
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 7. [1 Akten van overlijden]1 - Onderafdeling 1. [1 Akte van overlijden]1
+##### Afdeling 7. [1 Akten van overlijden]1
+
+###### Onderafdeling 1. [1 Akte van overlijden]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
@@ -566,7 +595,9 @@ Het proces-verbaal wordt als bijlage opgenomen bij de akte van overlijden in de 
 1° de naam, de voornamen, de geboortedatum en geboorteplaats van de overledene, of, in geval het gaat om een onbekende, de op het ogenblik van de opmaak van de akte beschikbare gegevens;
 2° de plaats, de datum en het uur van het overlijden of [2 van de vaststelling van het overlijden]2.]1 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019> (2)<W 2023-09-13/08, art. 20, 102; Inwerkingtreding : 01-01-2024>
 
-##### Afdeling 7. [1 Akten van overlijden]1 - Onderafdeling 2. [1 Akte van overlijden in geval van een overlijden aan boord van een schip of een luchtvaartuig]1
+##### Afdeling 7. [1 Akten van overlijden]1
+
+###### Onderafdeling 2. [1 Akte van overlijden in geval van een overlijden aan boord van een schip of een luchtvaartuig]1
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
 ###### Art. 57
@@ -575,7 +606,9 @@ Het proces-verbaal wordt als bijlage opgenomen bij de akte van overlijden in de 
 § 2. Indien de eerstvolgende aanlegplaats of landingsplaats in België is, bezorgt de gezagvoerder zo spoedig mogelijk het proces-verbaal aan de dichtstbijzijnde ambtenaar van de burgerlijke stand, die onmiddellijk een akte van overlijden opmaakt op basis van het proces-verbaal. Het proces-verbaal wordt als bijlage opgenomen. Het op papier opgemaakte proces-verbaal wordt bewaard door de ambtenaar van de burgerlijke stand die de akte heeft opgemaakt tot op het ogenblik van de overdracht van het proces-verbaal aan het Algemeen Rijksarchief en Rijksarchief in de Provinciën.
 § 3. Indien de eerstvolgende aanlegplaats of landingsplaats in het buitenland gelegen is, bezorgt de gezagvoerder zo spoedig mogelijk het proces-verbaal aan de consulaire beroepspost in wiens consulair ressort de haven of landingsplaats zich bevindt.]1 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 7. [1 Akten van overlijden]1 - Onderafdeling 3.[1 Akte van een levenloos kind]1
+##### Afdeling 7. [1 Akten van overlijden]1
+
+###### Onderafdeling 3. [1 Akte van een levenloos kind]1
 
 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
@@ -599,7 +632,9 @@ De akte van een levenloos kind heeft geen rechtsgevolgen uitgezonderd deze uitdr
 6° de naam van het kind waarvan de moeder bevallen is na een zwangerschapsduur van honderdtachtig dagen te rekenen van de verwekking, indien om de vermelding ervan wordt verzocht.
 Voor de toekenning van de naam bedoeld in het eerste lid, 6°, zijn de artikelen 335 en 335ter van overeenkomstige toepassing.]1 (1)<W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
-##### Afdeling 7. [1 Akten van overlijden]1 - Onderafdeling 4. [1 Gemeenschappelijke bepaling]1
+##### Afdeling 7. [1 Akten van overlijden]1
+
+###### Onderafdeling 4. [1 Gemeenschappelijke bepaling]1
 
 (1)<Ingevoegd bij W 2018-06-18/03, art. 4, 082; Inwerkingtreding : 31-03-2019>
 
@@ -3444,7 +3479,7 @@ Indien de wettelijke vertegenwoordiger weigert het verzoek mee te ondertekenen b
 ###### Art. 368-8. <W 2003-04-24/32, art. 2, 017; Inwerkingtreding : 01-09-2005> Iedere Belgische overheid die met een vreemde overheid in contact wenst te treden in verband met een adoptie, moet zich daartoe tot de federale centrale autoriteit wenden.
 Iedere Belgische overheid die door een vreemde overheid wordt gecontacteerd in verband met een adoptie, stelt hiervan onverwijld de federale centrale autoriteit in kennis.
 
-###### Art. 368-9. [1 De ambtenaar van de burgerlijke stand die een akte van herroeping van adoptie opmaakt ten gevolge van een rechterlijke beslissing waarbij de adoptie van een minderjarig kind wordt herroepen zonder dat beslist wordt dat het weer onder het ouderlijk gezag van zijn ouders wordt geplaatst, notificeert dit binnen drie dagen elektronisch via de DABS aan de vrederechter, bedoeld in artikel 390.]1 (1)<Ingevoegd bij W 2018-06-18/03, art. 54, 082; Inwerkingtreding : 31-03-2019>
+###### Art. 368-9. [1 De ambtenaar van de burgerlijke stand die een akte van herroeping van adoptie opmaakt ten gevolge van een rechterlijke beslissing waarbij de adoptie van een minderjarig kind wordt herroepen zonder dat beslist wordt dat het weer onder het ouderlijk gezag van zijn ouders wordt geplaatst, notificeert dit binnen drie dagen elektronisch via de DABS aan de vrederechter, bedoeld in artikel 390. ]1 (1)<Ingevoegd bij W 2018-06-18/03, art. 54, 082; Inwerkingtreding : 31-03-2019>
 
 ###### Art. 368-10. [1 § 1. Elke persoon van wie de adoptie in België is uitgesproken of erkend en die onmogelijk zijn akte van geboorte kan verkrijgen, kan de akte van adoptie overleggen.
 § 2. Indien de gegevens in de akte van adoptie onvoldoende zijn voor het doel waarvoor zij moeten worden gebruikt, start de verzoekende overheid onmiddellijk zelf een onderzoek naar bijkomende gegevens, zonder de termijn van drie maanden te overschrijden. Indien de verzoekende overheid deze gegevens niet zelf kan verkrijgen, of de door haar verkregen gegevens onvoldoende zijn, stelt zij de belanghebbende hiervan onmiddellijk en uiterlijk binnen dezelfde periode van drie maanden op de hoogte en kan zij deze verzoeken om ieder ander bewijs tot staving van die gegevens over te leggen.]1 (1)<Ingevoegd bij W 2018-06-18/03, art. 55, 082; Inwerkingtreding : 31-03-2019>
@@ -4070,7 +4105,7 @@ Indien zij aan de pleegvoogdij een einde maakt, kan zij desgevraagd, na het advi
 ###### Art. 476
 
 Het huwelijk van de minderjarige heeft van rechtswege zijn ontvoogding ten gevolge.
-(Ieder van de echtgenoten is van rechtswege curator over zijn minderjarige echtgenoot. Wanneer beiden minderjarig zijn, wordt de curatele geregeld overeenkomstig artikel 480.) <W 30-04-1958, art. 4>
+(Ieder van de echtgenoten is van rechtswege curator over zijn minderjarige echtgenoot. Wanneer beiden minderjarig zijn, wordt de curatele geregeld overeenkomstig artikel 480. ) <W 30-04-1958, art. 4>
 
 ###### Art. 477
 
@@ -4356,7 +4391,9 @@ De vrederechter kan ofwel ambtshalve, ofwel op verzoek van enige belanghebbende 
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 37, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-##### Afdeling 3. - [1 Rechterlijke bescherming]1 - Onderafdeling 1. [1 Definities]1
+##### Afdeling 3. - [1 Rechterlijke bescherming]1
+
+###### Onderafdeling 1. [1 Definities]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 38, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
@@ -4371,7 +4408,9 @@ e) bekwaamheid : de bevoegdheid om rechten en plichten zelf en zelfstandig uit t
 f) bijstand : wijze waarop de in hoofdstuk II/1, afdeling 4, onderafdeling 2, bedoelde onbekwaamheid wordt opgevangen waarbij de beschermde persoon zelf, maar niet zelfstandig een bepaalde handeling mag stellen;
 g) vertegenwoordiging : wijze waarop de in hoofdstuk II/1, afdeling 4, onderafdeling 3, bedoelde onbekwaamheid wordt opgevangen waarbij de beschermde persoon niet zelfstandig, noch zelf een bepaalde handeling mag stellen.]1 (1)<W 2013-03-17/14, art. 39, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)> (2)<W 2014-04-25/23, art. 185, 062; Inwerkingtreding : 01-09-2014>
 
-##### Afdeling 3. - [1 Rechterlijke bescherming]1 - Onderafdeling 2. - [1 De onbekwaamheid]1
+##### Afdeling 3. - [1 Rechterlijke bescherming]1
+
+###### Onderafdeling 2. - [1 De onbekwaamheid]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 40, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
@@ -4452,7 +4491,9 @@ Ten aanzien van een in artikel 488/2 bedoelde persoon kan de vrederechter enkel 
 
 <Opgeheven bij W 2018-12-21/09, art. 13, 086; Inwerkingtreding : 01-03-2019>
 
-##### Afdeling 3. - [1 Rechterlijke bescherming]1 - Onderafdeling 3. - [1 Sanctionering]1
+##### Afdeling 3. - [1 Rechterlijke bescherming]1
+
+###### Onderafdeling 3. - [1 Sanctionering]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 47, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
@@ -4464,7 +4505,7 @@ Indien de in het eerste lid bedoelde handelingen voorwaardelijk werden toegestaa
 Onder voorbehoud van het eerste lid, zijn de handelingen die door de beschermde persoon zijn verricht in strijd met zijn onbekwaamheid met betrekking tot zijn goederen, vastgesteld overeenkomstig artikel 492/1, § 2, nietig in geval van benadeling. De nietigheid wordt door de rechter beoordeeld rekening houdend met de rechten van derden te goeder trouw. De rechter kan echter de verbintenissen die de beschermde persoon door aankopen of op een andere wijze mocht hebben aangegaan ook verminderen, ingeval zij buitensporig zijn; de rechter houdt daarbij rekening met het vermogen van de beschermde persoon, de goede trouw van de personen die met hem hebben gehandeld en het nut of de nutteloosheid van de uitgaven.
 Indien handelingen bedoeld [6 in de artikelen 4.40, § 3, 4.139 en 2.3.5 van het Burgerlijk Wetboek en artikel 1478, vierde lid]6 [3 , evenals de door de wet toegelaten erfovereenkomsten,]3 voorwaardelijk werden toegestaan door de vrederechter, maar door de beschermde persoon werden verricht zonder dat die voorwaarden in acht werden genomen, zijn deze handelingen rechtens nietig. [2 Hetzelfde geldt indien de gestelde handeling een testament is dat niet voldoet [6 aan de in artikel 4.139, derde lid, of, in voorkomend geval, artikel 4.139, vierde lid, van het Burgerlijk Wetboek]6.]2
 § 3. De nietigheid kan uitsluitend door de beschermde persoon en zijn bewindvoerder worden ingeroepen. [2 De nietige handeling kan tijdens de duur van de beschermingsmaatregel bevestigd worden door zijn bewindvoerder of, ingeval het een handeling betreft bedoeld [6 in de artikelen 4.139 en 2.3.5 van het Burgerlijk Wetboek en artikel 1478, vierde lid]6, [3 of een door de wet toegelaten erfovereenkomst,]3 door de beschermde persoon. Als het om een [6 in artikel 499/7, de artikelen 4.40, § 3, 4.139 en 2.3.5 van het Burgerlijk Wetboek, en artikel 1478, vierde lid]6, bedoelde handeling [3 of een door de wet toegelaten erfovereenkomst,]3 gaat, verleent de vrederechter een bijzondere machtiging aan de bewindvoerder of, in voorkomend geval, aan de beschermde persoon.]2 [4 ...]4 Wanneer de beschermde persoon als zodanig wordt toegelaten tot herstel in zijn recht tegen zijn verbintenissen, kan hetgeen ten gevolge van die verbintenissen is betaald tijdens de bescherming van hem niet worden teruggevorderd, tenzij bewezen is dat het betaalde hem tot voordeel heeft gestrekt.
-§ 4. Dit artikel is van toepassing op de handelingen die de beschermde persoon die zich laat bijstaan, heeft gesteld in strijd met artikel 498/1.]1 (1)<W 2013-03-17/14, art. 48, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)> (2)<W 2014-05-12/02, art. 14, 003; Inwerkingtreding : 01-09-2014> (3)<W 2017-07-31/25, art. 7, 083; Inwerkingtreding : 01-09-2018> (4)<W 2018-12-21/09, art. 14, 086; Inwerkingtreding : 01-03-2019> (5)<W 2020-07-31/03, art. 79, 089; Inwerkingtreding : 01-09-2020> (6)<W 2022-01-19/18, art. 14, 094; Inwerkingtreding : 01-07-2022>
+§ 4. Dit artikel is van toepassing op de handelingen die de beschermde persoon die zich laat bijstaan, heeft gesteld in strijd met artikel 498/1. ]1 (1)<W 2013-03-17/14, art. 48, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)> (2)<W 2014-05-12/02, art. 14, 003; Inwerkingtreding : 01-09-2014> (3)<W 2017-07-31/25, art. 7, 083; Inwerkingtreding : 01-09-2018> (4)<W 2018-12-21/09, art. 14, 086; Inwerkingtreding : 01-03-2019> (5)<W 2020-07-31/03, art. 79, 089; Inwerkingtreding : 01-09-2020> (6)<W 2022-01-19/18, art. 14, 094; Inwerkingtreding : 01-07-2022>
 
 ###### Art. 493/1
 
@@ -4571,7 +4612,9 @@ Ten opzichte van derden die te goeder trouw zijn, wordt elke bewindvoerder geach
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 66, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
-##### Afdeling 4. [1 De werking van het bewind]1 - Onderafdeling 1. [1 Algemene bepalingen]1
+##### Afdeling 4. [1 De werking van het bewind]1
+
+###### Onderafdeling 1. [1 Algemene bepalingen]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 67, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
@@ -4663,14 +4706,16 @@ De rechter past de bedragen toe die gelden op het moment van de indiening van he
 4° indien er meerdere bewindvoerders zijn, de wijze van opmaak van het verslag bedoeld in artikel 498/3, § 2, derde lid, werd nageleefd; en
 5° er geen ernstige aanwijzingen zijn van tekortkomingen of fraude in het beheer van de bewindvoerder.]1 (1)<W 2018-12-21/09, art. 22, 086; Inwerkingtreding : 01-03-2019>
 
-##### Afdeling 4. [1 De werking van het bewind]1 - Onderafdeling 2. - [1 Bijstand]1
+##### Afdeling 4. [1 De werking van het bewind]1
+
+###### Onderafdeling 2. - [1 Bijstand]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 77, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 ###### Art. 498
 
 [1 Deze onderafdeling is van toepassing ingeval de vrederechter een rechterlijke beschermingsmaatregel van bijstand heeft bevolen overeenkomstig artikel 492/1.
-In afwijking van het eerste lid is deze onderafdeling in ieder geval van toepassing indien de vrederechter een rechterlijke beschermingsmaatregel heeft bevolen ten aanzien van een persoon die verkeert in de toestand bedoeld in artikel 488/2.]1 (1)<W 2013-03-17/14, art. 78, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
+In afwijking van het eerste lid is deze onderafdeling in ieder geval van toepassing indien de vrederechter een rechterlijke beschermingsmaatregel heeft bevolen ten aanzien van een persoon die verkeert in de toestand bedoeld in artikel 488/2. ]1 (1)<W 2013-03-17/14, art. 78, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 ###### Art. 498/1
 
@@ -4709,13 +4754,15 @@ Het verslag wordt bij het in artikel 1253 van het Gerechtelijk Wetboek bedoelde 
 [1 [2 De bewindvoerder deelt binnen een maand na de beëindiging van zijn opdracht een eindverslag, opgesteld overeenkomstig artikel 498/3, § 1, derde lid, en/of 498/3, § 2, tweede lid, mee aan de vrederechter, aan de persoon ten aanzien van wie de rechterlijke beschermingsmaatregel is beëindigd of aan de nieuwe bewindvoerder. Het verslag wordt in laatstgenoemd geval eveneens meegedeeld aan de beschermde persoon en diens vertrouwenspersoon.]2 De vrederechter kan de bewindvoerder er evenwel van ontslaan om dit verslag over te zenden aan de beschermde persoon, voor zover deze niet in staat is ervan kennis te nemen.
 [2 De vrederechter gaat na of het verslag voldoet aan de voorwaarden bedoeld in artikel 497/8. Naargelang van het resultaat keurt hij het verslag goed of weigert hij het. In voorkomend geval wordt melding gemaakt van de reden voor de weigering om het verslag goed te keuren.]2 [2 ...]2 Het verslag [2 wordt]2 bij het in artikel 1253 van het Gerechtelijk Wetboek bedoelde administratief dossier gevoegd.]1 (1)<Ingevoegd bij W 2013-03-17/14, art. 82, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)> (2)<W 2018-12-21/09, art. 24, 086; Inwerkingtreding : 01-03-2019>
 
-##### Afdeling 4. [1 De werking van het bewind]1 - Onderafdeling 3. - [1 Vertegenwoordiging en beheer]1
+##### Afdeling 4. [1 De werking van het bewind]1
+
+###### Onderafdeling 3. - [1 Vertegenwoordiging en beheer]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 83, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 ###### Art. 499
 
-[1 Deze onderafdeling is van toepassing ingeval de vrederechter een rechterlijke beschermingsmaatregel van vertegenwoordiging heeft bevolen overeenkomstig artikel 492/1.]1 (1)<W 2013-03-17/14, art. 84, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
+[1 Deze onderafdeling is van toepassing ingeval de vrederechter een rechterlijke beschermingsmaatregel van vertegenwoordiging heeft bevolen overeenkomstig artikel 492/1. ]1 (1)<W 2013-03-17/14, art. 84, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art. 22)>
 
 ###### Art. 499/1
 
@@ -4902,7 +4949,9 @@ De opdracht van de bewindvoerder eindigt in ieder geval op het tijdstip waarop d
 In afwijking van het eerste lid mag de bewindvoerder alle stukken die geen rechtstreeks verband houden met de door dit Wetboek voorgeschreven verplichtingen, zoals facturen en briefwisseling ouder dan vijf jaar, vernietigen.]1 (1)<Ingevoegd bij W 2013-03-17/14, art. 106, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
 
-##### Afdeling 4. [1 De werking van het bewind]1 - Onderafdeling 4. - [1 Het bewind uitgeoefend door de ouders]1
+##### Afdeling 4. [1 De werking van het bewind]1
+
+###### Onderafdeling 4. - [1 Het bewind uitgeoefend door de ouders]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 107, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
@@ -4940,7 +4989,9 @@ Geschillen tussen de ouders worden beslecht in het belang van de beschermde pers
 is van toepassing ingeval het bewind eindigt door het overlijden van de beschermde persoon. In afwijking van artikel 499/19 moeten de ouders slechts rekenschap en verantwoording afleggen, binnen een maand na het overlijden van de beschermde persoon, op uitdrukkelijk verzoek van diens erfgenamen.]1 (1)<Ingevoegd bij W 2013-03-17/14, art. 112, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
 
-##### Afdeling 4. [1 De werking van het bewind]1 - Onderafdeling 5. [1 Vertrouwenspersoon]1
+##### Afdeling 4. [1 De werking van het bewind]1
+
+###### Onderafdeling 5. [1 Vertrouwenspersoon]1
 
 (1)<Ingevoegd bij W 2013-03-17/14, art. 113, 061; inwerkingtreding : 01-09-2014 (W 2014-05-12/02, art.
 22)>
@@ -5333,7 +5384,9 @@ Artikel. 516.
 
 <Ingevoegd bij W 1994-06-30/34, art. 2; Inwerkingtreding : 01-08-1995>
 
-##### AFDELING II. - (GEDWONGEN MEDEEIGENDOM VAN GEBOUWEN OF GROEPEN VAN GEBOUWEN.) - Onderafdeling I. - Algemene bepalingen.
+##### AFDELING II. - (GEDWONGEN MEDEEIGENDOM VAN GEBOUWEN OF GROEPEN VAN GEBOUWEN.)
+
+###### Onderafdeling I. - Algemene bepalingen.
 
 ###### Art. 577-3.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
@@ -5341,12 +5394,16 @@ Artikel. 516.
 ###### Art. 577-4.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-##### AFDELING II. - (GEDWONGEN MEDEEIGENDOM VAN GEBOUWEN OF GROEPEN VAN GEBOUWEN.) - Onderafdeling II. - Rechtspersoonlijkheid van de vereniging van medeëigenaars.
+##### AFDELING II. - (GEDWONGEN MEDEEIGENDOM VAN GEBOUWEN OF GROEPEN VAN GEBOUWEN.)
+
+###### Onderafdeling II. - Rechtspersoonlijkheid van de vereniging van medeëigenaars.
 
 ###### Art. 577-5.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-##### AFDELING II. - (GEDWONGEN MEDEEIGENDOM VAN GEBOUWEN OF GROEPEN VAN GEBOUWEN.) - Onderafdeling III. - [1 Organen van de vereniging van mede-eigenaars.]1
+##### AFDELING II. - (GEDWONGEN MEDEEIGENDOM VAN GEBOUWEN OF GROEPEN VAN GEBOUWEN.)
+
+###### Onderafdeling III. - [1 Organen van de vereniging van mede-eigenaars.]1
 
 (1)<W 2010-06-02/33, art. 5, 006; Inwerkingtreding : 01-09-2010; zie ook art. 19>
 
@@ -5365,7 +5422,9 @@ Artikel. 516.
 ###### Art. 577-8/2.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-##### AFDELING II. - (GEDWONGEN MEDEEIGENDOM VAN GEBOUWEN OF GROEPEN VAN GEBOUWEN.) - Onderafdeling IV. - Rechtsvorderingen. - Openbaarheid. - Tegenstelbaarheid en overdracht.
+##### AFDELING II. - (GEDWONGEN MEDEEIGENDOM VAN GEBOUWEN OF GROEPEN VAN GEBOUWEN.)
+
+###### Onderafdeling IV. - Rechtsvorderingen. - Openbaarheid. - Tegenstelbaarheid en overdracht.
 
 ###### Art. 577-9.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
@@ -5382,7 +5441,9 @@ Artikel. 516.
 ###### Art. 577-11/2.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-##### AFDELING II. - (GEDWONGEN MEDEEIGENDOM VAN GEBOUWEN OF GROEPEN VAN GEBOUWEN.) - Onderafdeling V. - Ontbinding en vereffening.
+##### AFDELING II. - (GEDWONGEN MEDEEIGENDOM VAN GEBOUWEN OF GROEPEN VAN GEBOUWEN.)
+
+###### Onderafdeling V. - Ontbinding en vereffening.
 
 ###### Art. 577-12.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
@@ -5393,7 +5454,9 @@ Artikel. 516.
 ###### Art. 577-13/1.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
 
-##### AFDELING II. - (GEDWONGEN MEDEEIGENDOM VAN GEBOUWEN OF GROEPEN VAN GEBOUWEN.) - Onderafdeling VI. - Dwingend karakter.
+##### AFDELING II. - (GEDWONGEN MEDEEIGENDOM VAN GEBOUWEN OF GROEPEN VAN GEBOUWEN.)
+
+###### Onderafdeling VI. - Dwingend karakter.
 
 ###### Art. 577-14.
 <Opgeheven bij W 2020-02-04/16, art. 29,1°, 016; Inwerkingtreding : 01-09-2021>
@@ -15353,7 +15416,7 @@ De kosten van de overschrijving komen ten laste van de verkrijger.
 ###### Art. 92
 
 <W 2007-04-25/38, art. 2, 032; Inwerkingtreding : 18-05-2007> De inschrijvingen worden doorgehaald of verminderd krachtens de toestemming van de belanghebbende partijen, daartoe bevoegd, ofwel krachtens een vonnis in laatste aanleg gewezen of in kracht van gewijsde gegaan, ofwel krachtens een vonnis, uitvoerbaar verklaard niettegenstaande verzet of beroep. De volmacht tot doorhaling of vermindering moet uitdrukkelijk en in authentieke vorm gegeven worden.
-De inschrijvingen van de bedongen hypotheken kunnen eveneens worden doorgehaald of verminderd krachtens een authentieke akte waarin de instrumenterende ambtenaar eenzijdig bevestigt dat de schuldeiser zijn toestemming heeft verleend met deze doorhaling of vermindering; alle inschrijvingen die in de voorgelegde akte zijn opgenomen worden ambtshalve doorgehaald of verminderd. [1 Onder voorbehoud van de toepassing van artikel 1653 van het Gerechtelijk Wetboek, geldt hetzelfde voor de ambtshalve inschrijvingen uitgevoerd in overeenstemming met artikel 35.]1 De overnemer van een hypothecaire schuldvordering kan geen doorhaling of vermindering toestaan, tenzij de overdracht voortvloeit uit akten als vermeld in artikel 2.
+De inschrijvingen van de bedongen hypotheken kunnen eveneens worden doorgehaald of verminderd krachtens een authentieke akte waarin de instrumenterende ambtenaar eenzijdig bevestigt dat de schuldeiser zijn toestemming heeft verleend met deze doorhaling of vermindering; alle inschrijvingen die in de voorgelegde akte zijn opgenomen worden ambtshalve doorgehaald of verminderd. [1 Onder voorbehoud van de toepassing van artikel 1653 van het Gerechtelijk Wetboek, geldt hetzelfde voor de ambtshalve inschrijvingen uitgevoerd in overeenstemming met artikel 35. ]1 De overnemer van een hypothecaire schuldvordering kan geen doorhaling of vermindering toestaan, tenzij de overdracht voortvloeit uit akten als vermeld in artikel 2.
 (1)<W 2014-04-25/23, art. 139, 046; Inwerkingtreding : 24-05-2014>
 
 ###### Art. 93
@@ -16226,7 +16289,7 @@ De bepalingen van artikel 10, 12, met uitzondering van het 2, het 5 en het 7, en
 ###### Art. 8bis_WAALS_GEWEST.
 <W 1988-11-07/43, art. 7, 002; Inwerkingtreding : 1988-12-16>
 [1 Indien de pachter die na het bereiken van de pensioenleeftijd een rust- of overlevingspensioen geniet, onder de in artikel 34 vermelde personen niemand kan aanwijzen die eventueel zijn exploitatie kan voortzetten, kan de verpachter mits een opzegging, gedaan overeenkomstig artikel 11.4, een einde maken aan de pacht om zelf het verpachte goed geheel of gedeeltelijk te exploiteren of de exploitatie ervan over te dragen aan zijn echtgenoot, aan zijn wettelijk samenwonende, aan zijn afstammelingen of aangenomen kinderen of aan die van zijn echtgenoot of wettelijk samenwonende of aan de echtgenoten of wettelijk samenwonenden van de voormelde afstammelingen of aangenomen kinderen. De bepalingen van artikel 7, 1°, lid 2, zijn van toepassing.]1 [1 De personen bedoeld in artikel 34, opgegeven door de pachter overeenkomstig lid 1, exploiteren zelf de in pacht gekregen gronden in een termijn van drie jaar, te rekenen van de zending van de opzegging. Bij gebreke daarvan kan de verpachter zonder opzegging en onverminderd de termijn die nodig is om de groeiende oogst op het tijdstip van de opzegging weg te halen, een einde maken aan de pacht.
-Voor de toepassing van het eerste lid wordt de bewijslast uitgevoerd overeenkomstig artikel 57bis.]1 Indien verscheidene pachters het goed gemeenschappelijk pachten, moeten al deze pachters voldoen aan alle in
+Voor de toepassing van het eerste lid wordt de bewijslast uitgevoerd overeenkomstig artikel 57bis. ]1 Indien verscheidene pachters het goed gemeenschappelijk pachten, moeten al deze pachters voldoen aan alle in
 
 [1 lid 1]1 gestelde voorwaarden.
 Onder dezelfde voorwaarden kan de verpachter geheel of gedeeltelijk een einde maken aan de pacht om de goederen te verpachten of te vervreemden met het oog op exploitatie door een leefbaar bedrijf of door een bedrijf [1 dat het voorwerp uitmaakt van een plan tot materiële verbetering van de exploitatie waaruit investeringen blijken die verricht zijn of zullen worden om de exploitatie op te richten, te ontwikkelen, te vermeerderen of om het inkomstenpeil in stand te houden]1.
@@ -16931,7 +16994,7 @@ Deze uitzondering is niet van toepassing wanneer de pachter zelf de echtgenoot, 
 ###### Art. 52_WAALS_GEWEST.
 De pachter heeft geen recht van voorkoop :
 1° (indien het goed niet geëxploiteerd wordt door hem persoonlijk of door zijn echtgenoot [1 of door zijn wettelijk samenwonende]1, zijn afstammelingen of aangenomen kinderen, of die van zijn echtgenoot [1 of van zijn wettelijk samenwonende]1 of door de echtgenoten [1 of de wettelijk samenwonenden]1 van de voormelde afstammelingen of aangenomen kinderen.) <W 1988-11-07/43, art. 33, B, 002; Inwerkingtreding : 1988-12-16> Ruil met het oog op het betelen van pachtgoederen heeft evenwel geen invloed op het recht van voorkoop van de pachter;
-[1 1° /1 als de pachter de wettelijke pensioenleeftijd heeft bereikt, een rust- of overlevingspensioen krijgt en geen enkele van de personen, vermeld in artikel 34, kan aanduiden als degene die zijn exploitatie kan voortzetten, wordt de bewijslast uitgevoerd overeenkomstig artikel 57bis.]1
+[1 1° /1 als de pachter de wettelijke pensioenleeftijd heeft bereikt, een rust- of overlevingspensioen krijgt en geen enkele van de personen, vermeld in artikel 34, kan aanduiden als degene die zijn exploitatie kan voortzetten, wordt de bewijslast uitgevoerd overeenkomstig artikel 57bis. ]1
 2° [1 in geval van verkoop van het goed aan zijn echtgenoot, zijn wettelijk samenwonende, zijn afstammelingen of aangenomen kinderen of die van de zijn echtgenoot of zijn wettelijk samenwonende of aan de echtgenoten of wettelijk samenwonenden van de voormelde afstammelingen of aangenomen kinderen van de eigenaar of van één van de medeëigenaren of aan de echtegnoten of aan de wettelijk samenwonenden van voorvermelde afstammelingen of aangenomen kinderen, die voor eigen rekening kopen en voor zover het goed niet opnieuw verkocht wordt binnen een termijn van twee jaar.]1 [1 De uitzondering bedoeld in lid 1, 2°, is niet van toepassing wanneer de pachter zelf de echtgenoot, de wettelijk samenwonende, een afstammeling of een aangenomen kind van de eigenaar of één der medeëigenaars of van de echtgenoot of van de wettelijk samenwonende van de eigenaar of één der medeëigenaars, of de echtgenoot of de wettelijk samenwonende van een van de voormelde afstammelingen of aangenomen kinderen is.]1
 3° in geval van verkoop van het goed aan een openbaar bestuur of een publiekrechtelijke persoon wanneer het goed wordt gekocht om voor doeleinden van algemeen belang te worden aangewend;
 4° in geval van verkoop aan een medeëigenaar van een aandeel in de eigendom van het gepachte goed;
@@ -17864,7 +17927,9 @@ Onverminderd artikel 8.22, kan een partij het bewijs van een rechtshandeling ten
 #### Hoofdstuk 3. Bewijsmiddelen
 
 
-##### Afdeling 1. Bewijs door ondertekend geschrift - Onderafdeling 1. Authentieke akte
+##### Afdeling 1. Bewijs door ondertekend geschrift
+
+###### Onderafdeling 1. Authentieke akte
 
 ###### Art. 8.15
 
@@ -17886,7 +17951,9 @@ Een authentieke akte levert tot betichting van valsheid een bewijs op van wat de
 In geval van betichting van valsheid kan de rechter de uitvoering van de akte schorsen.
 Een authentieke akte levert een volledig bewijs op van de overeenkomst die erin is vervat tussen de partijen en ten aanzien van hun erfgenamen en rechtverkrijgenden.
 
-##### Afdeling 1. Bewijs door ondertekend geschrift - Onderafdeling 2. Onderhandse akte
+##### Afdeling 1. Bewijs door ondertekend geschrift
+
+###### Onderafdeling 2. Onderhandse akte
 
 ###### Art. 8.18
 
@@ -17920,7 +17987,9 @@ De onderhandse akte verkrijgt, ten aanzien van derden, geen vaste dagtekening da
 2° van de dag waarop de hoofdinhoud ervan is vastgesteld in een authentieke akte, ofwel
 3° van de dag waarop minstens één van de partijen de akte of de datum ervan niet langer kan wijzigen, onder meer ten gevolge van het overlijden van een van hen.
 
-##### Afdeling 1. Bewijs door ondertekend geschrift - Onderafdeling 3. Onderhandse akte die mede wordt ondertekend door de advocaten van de partijen
+##### Afdeling 1. Bewijs door ondertekend geschrift
+
+###### Onderafdeling 3. Onderhandse akte die mede wordt ondertekend door de advocaten van de partijen
 
 ###### Art. 8.23
 
@@ -17930,7 +17999,9 @@ Door de akte mede te ondertekenen, verklaart de advocaat dat hij de partij of pa
 Behoudens als een bepaling uitdrukkelijk afwijkt van dit artikel, hoeft op de door de advocaten van alle partijen medeondertekende onderhandse akte geen enkele bij wet opgelegde handgeschreven vermelding te worden aangebracht.
 Tenzij op de door de advocaten van alle partijen medeondertekende akte een gekwalificeerde elektronische handtekening wordt aangebracht in de zin van artikel 3, 12° van de Verordening EU nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van Richtlijn 1999/93/EG, wordt die akte opgemaakt in ten minste evenveel originele exemplaren als er partijen met een verschillend belang en ondertekenende advocaten zijn.
 
-##### Afdeling 1. Bewijs door ondertekend geschrift - Onderafdeling 4. Andere geschriften
+##### Afdeling 1. Bewijs door ondertekend geschrift
+
+###### Onderafdeling 4. Andere geschriften
 
 ###### Art. 8.24
 
@@ -17938,7 +18009,9 @@ Vermelding van de betaling op een akte of het dubbel ervan
 De vermelding van een betaling of van een andere reden van bevrijding die door de schuldeiser wordt aangebracht op een originele akte die steeds in zijn bezit is gebleven, geldt als weerlegbaar vermoeden van bevrijding van de schuldenaar.
 Hetzelfde geldt voor de vermelding die op het dubbel van een akte wordt aangebracht, mits dit dubbel in handen van de schuldenaar is.
 
-##### Afdeling 1. Bewijs door ondertekend geschrift - Onderafdeling 5. Afschriften
+##### Afdeling 1. Bewijs door ondertekend geschrift
+
+###### Onderafdeling 5. Afschriften
 
 ###### Art. 8.25
 
@@ -17965,7 +18038,9 @@ Indien zij minder dan dertig jaar oud zijn, kunnen zij slechts dienen tot begin 
 2° dat er een regelmatig gehouden repertorium van de notaris bestaat, waaruit blijkt dat de akte op dezelfde datum is opgemaakt.
 Wanneer beide voorwaarden zijn vervuld, kan het bewijs van de inhoud van de akte geleverd worden met alle bewijsmiddelen. Als het bewijs door getuigen toelaatbaar is, is het noodzakelijk dat zij die bij de akte getuige zijn geweest, indien zij nog in leven zijn, gehoord worden.
 
-##### Afdeling 1. Bewijs door ondertekend geschrift - Onderafdeling 6. Teruggave van de akte door de schuldeiser aan de schuldenaar
+##### Afdeling 1. Bewijs door ondertekend geschrift
+
+###### Onderafdeling 6. Teruggave van de akte door de schuldeiser aan de schuldenaar
 
 ###### Art. 8.27
 
@@ -18015,7 +18090,9 @@ De samengestelde bekentenis is onsplitsbaar, tenzij een van de onderdelen ervan 
 Verschillende types eed
 De eed kan, ter beslissing van het geding, door de ene partij aan de andere worden opgedragen om de beslissing van de zaak daarvan te doen afhangen. Hij kan ook door de rechter ambtshalve aan een van de partijen worden opgelegd.
 
-##### Afdeling 5. Eed - Onderafdeling 1. Beslissende eed
+##### Afdeling 5. Eed
+
+###### Onderafdeling 1. Beslissende eed
 
 ###### Art. 8.34
 
@@ -18042,7 +18119,9 @@ De eed aan een van de hoofdelijke schuldenaars opgedragen, strekt ten voordele v
 De eed aan de borg opgedragen, strekt ten voordele van de hoofdschuldenaar.
 In de laatste twee gevallen strekt de eed van de hoofdelijke medeschuldenaar of van de borg alleen dan ten voordele van de overige medeschuldenaars of van de hoofdschuldenaar indien hij is opgedragen omtrent de hoofdschuld, en niet omtrent de hoofdelijkheid of de borgtocht.
 
-##### Afdeling 5. Eed - Onderafdeling 2. Ambtshalve opgelegde eed
+##### Afdeling 5. Eed
+
+###### Onderafdeling 2. Ambtshalve opgelegde eed
 
 ###### Art. 8.38
 

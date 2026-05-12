@@ -1,12 +1,15 @@
 ---
-bijgewerkt: 24.12.2025
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["VII", "2.5"]
+itaa-lex-sectie: "VII"
+wet: "Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "24.12.2025"
+bron: "onbekend"
 chunk:
   level: 6
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: VII
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Wetboek-Invordering.pdf
@@ -14,151 +17,31 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:50Z'
+  generated_at: '2026-05-12T19:14:44Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: HOOFDSTUK 6, 7, 8 en TITEL 4 en 5 verschijnen dubbel — eerst als lege 'preview'-headings met enkel artikelnummers (regels 54-80) zonder inhoud, daarna later volledig met artikeltekst; dit is een extractie-artefact (TOC-fragmenten of dubbele structuurmarkers in de body). A6/A1: Art. 6 §4 is over een pagina-grens gebroken: de zin breekt af op regel 118 ('publiceert op de website van de Federale Overheidsdienst') en regel 120 begint midden-zin zonder heading-context; hetzelfde op regel 280 waar Art. 37 §3-inhoud verschijnt zonder bijhorende Art. 37-heading. A6: Art. 46 (regels 320-322) en Art. 48 (regels 328-330) bevatten geïsoleerde regelresten ('4.59, § 4, derde lid,] 2') afgebroken over een paginagrens."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 143073
-      flags: []
-      heading_count: 138
-      max_section_chars: 7576
-      run_at: '2026-05-11T13:40:50Z'
-      run_id: 20260511-134044
       status: pass
+      run_id: 20260512-191444
+      run_at: '2026-05-12T19:14:44Z'
+      heading_count: 104
+      max_section_chars: 4411
+      file_size_chars: 75361
+      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "B3: HOOFDSTUK 6, 7, 8 en TITEL 4 en 5 verschijnen dubbel — eerst als lege 'preview'-headings met enkel artikelnummers (regels 54-80) zonder inhoud, daarna later volledig met artikeltekst; dit is een extractie-artefact (TOC-fragmenten of dubbele structuurmarkers in de body). A6/A1: Art. 6 §4 is over een pagina-grens gebroken: de zin breekt af op regel 118 ('publiceert op de website van de Federale Overheidsdienst') en regel 120 begint midden-zin zonder heading-context; hetzelfde op regel 280 waar Art. 37 §3-inhoud verschijnt zonder bijhorende Art. 37-heading. A6: Art. 46 (regels 320-322) en Art. 48 (regels 328-330) bevatten geïsoleerde regelresten ('4.59, § 4, derde lid,] 2') afgebroken over een paginagrens."
-      concrete_problemen:
-        - regel: 54
-          categorie: B3
-          type: other
-          voorbeeld: "### HOOFDSTUK 6. - De vrijstelling van nalatigheidsinteresten\n\n###### Art. 70\n\n### HOOFDSTUK 7..."
-        - regel: 118
-          categorie: A6
-          type: other
-          voorbeeld: § 4. De [ 1 verwerkingsverantwoordelijke] 1 publiceert op de website van de Federale [ 1 Overheidsdienst] 1
-        - regel: 120
-          categorie: A1
-          type: other
-          voorbeeld: verwerkingsverantwoordelijke] 1 bedoeld in paragraaf 3 behoren en, in voorkomend geval, waarin de volledige betaling...
-        - regel: 280
-          categorie: A6
-          type: other
-          voorbeeld: werkdagen van de datum van de inlichting bedoeld in paragraaf 1, vierde lid.  Alle niet-ingeschreven schuldvorderingen...
-        - regel: 321
-          categorie: A6
-          type: abrupt-cutoff
-          voorbeeld: 4.59, § 4, derde lid,] 2 van het Burgerlijk Wetboek toch op een bevrijdende wijze gedaan worden aan de erfgenaam...
-        - regel: 329
-          categorie: A6
-          type: abrupt-cutoff
-          voorbeeld: 4.59, § 4, derde lid,] 2 van het Burgerlijk Wetboek bedoeld attest van erfopvolging op te maken.
-status: beschikbaar
-tags:
-  - VII
-  - '2.5'
-wet: Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen
 ---
 
 # Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen
 
 *Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
-
-### HOOFDSTUK 6. - De vrijstelling van nalatigheidsinteresten
-
-###### Art. 70
-
-### HOOFDSTUK 7. - De fiscale en niet-fiscale bemiddeling
-
-###### Art. 71
-
-### HOOFDSTUK 8. - De wederzijdse bijstand
-
-## TITEL 4. - De onderzoeksbevoegdheden, de bewijsmiddelen en het beroepsgeheim van de ambtenaren belast met de invordering
-
-### HOOFDSTUK 1. - De onderzoeksbevoegdheden en de bewijsmiddelen
-
-### HOOFDSTUK 2. - Het beroepsgeheim
-
-###### Art. 83
-
-## TITEL 5. - Sancties
-
-### HOOFDSTUK 1. - De administratieve geldboeten
-
-###### Art. 84
-
-### HOOFDSTUK 2. - De strafrechtelijke en bijzondere sancties
-
-###### Art. 85-86, 86/1, 87-96
-
-## TITEL 1. - Algemene bepalingen
-
-### HOOFDSTUK 1. - Toepassingsgebied
-
-###### Art. 1
-
-[ 1 Dit Wetboek regelt bepaalde aspecten van de inning alsmede de minnelijke en gedwongen invordering van fiscale schuldvorderingen zoals gedefinieerd in artikel 2, § 1, 7°, en niet-fiscale schuldvorderingen als gedefinieerd in artikel 2, § 1, 8°, waarvan de inning en de invordering worden verzekerd door de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen.] 1
-
-[ 1 Onder bepaalde aspecten van de inning, in de zin van het eerste lid, wordt verstaan alle regels betreffende de betaling van fiscale en niet-fiscale schuldvorderingen, in welk stadium die zich ook bevinden.] 1
-
-### HOOFDSTUK 2. - Definities, modaliteiten en voorwaarden voor de verzending en kennisgeving van documenten
-
-###### Art. 2
-
-§ 1. In de zin van dit Wetboek en de uitvoeringsbesluiten ervan wordt verstaan onder:  1° "ontvanger": de rekenplichtige van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen, belast met de invordering van de schuldvorderingen bedoeld onder 7° en 8°, en verantwoordelijk ten overstaan van het Rekenhof;  2° "ambtenaren belast met de invordering": de personeelsleden van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen;  3° "persoon":  a) een natuurlijke persoon;  b) een rechtspersoon;  c) een vennootschap zonder rechtspersoonlijkheid, een fiduciaire, vereniging zonder rechtspersoonlijkheid of om het even welke andere groepering of organisatie;  4° "echtgenoot": een gehuwd persoon of een wettelijk samenwonende;  5° "schuldenaar":  a) de persoon op wiens naam de fiscale en niet-fiscale schuldvorderingen zijn opgenomen in het kohier of in het innings- en invorderingsregister, of tegen wie de rechterlijke beslissing houdende veroordeling tot betaling van fiscale en niet-fiscale schuldvorderingen werd uitgesproken;  b) de werkelijke schuldenaar van de onroerende voorheffing in het geval bedoeld in artikel 11, tweede lid;  6° "medeschuldenaar": onder voorbehoud van het bepaalde in artikel 11, tweede lid, de persoon die niet in het kohier of in het innings- en invorderingsregister is opgenomen en in de mate dat deze gehouden is tot de betaling van de fiscale en niet-fiscale schuldvorderingen op grond van dit Wetboek, de fiscale wetten, de wettelijke of reglementaire bepalingen met betrekking tot niet-fiscale schuldvorderingen of het gemeen recht;  7° "fiscale schuldvorderingen":  a) de volgende belastingen, voorheffingen, taksen en rechten:  i. de inkomstenbelastingen bedoeld in artikel 1 van het Wetboek van de inkomstenbelastingen 1992, hierin begrepen de opcentiemen bedoeld in artikel 463bis van hetzelfde Wetboek alsook de aanvullende belastingen bedoeld in artikel 465 van hetzelfde Wetboek;  ii. de voorheffingen bedoeld in artikel 249 van het Wetboek van de inkomstenbelastingen 1992, hierin begrepen de opcentiemen bedoeld in artikel 464/1 van hetzelfde Wetboek;  iii. de met de inkomstenbelastingen gelijkgestelde belastingen bedoeld in artikel 1 van het Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen, hierin begrepen de opdeciemen bedoeld in artikel 42 van hetzelfde Wetboek;  iv. de belasting over de toegevoegde waarde ingevoerd door het Wetboek van de belasting over de toegevoegde waarde;  v. de taksen bedoeld in Boek II van het Wetboek diverse rechten en taksen;  vi. het rolrecht bedoeld in Titel III, Hoofdstuk I, Afdeling I van het Wetboek der registratie-, hypotheek- en griffierechten;  [ 1 vii. de belastingen bedoeld in artikel 2, § 2, van de wet van 19 december 2023, wet houdende de invoering van een minimumbelasting voor multinationale ondernemingen en omvangrijke binnenlandse groepen. Deze belastingen worden voor de toepassing van de overige bepalingen van dit Wetboek gelijkgesteld met de inkomstenbelastingen bedoeld onder i;] 1
-
-### HOOFDSTUK 3. - De ontvanger en de vertegenwoordiging van de Belgische Staat
-
-###### Art. 3
-
-De ontvanger is belast met de invordering van de fiscale en niet-fiscale schuldvorderingen.
-
-###### Art. 4
-
-Onverminderd de bevoegdheden die hem door dit Wetboek, de fiscale wetten, de wettelijke of reglementaire bepalingen met betrekking tot niet-fiscale schuldvorderingen of andere specifieke wettelijke bepalingen worden toegekend, stelt de ontvanger eveneens de rechtsvorderingen in die rechtstreeks of onrechtstreeks verband houden met de invordering van de fiscale en niet-fiscale schuldvorderingen namens de Belgische Staat, Federale Overheidsdienst Financiën of namens de schuldeiser voor wiens rekening hij optreedt.
-
-###### Art. 5
-
-In procedures waarin een ontvanger of een adviseur-generaal van de administratie van de Federale Overheidsdienst Financiën belast met de inning en de invordering van fiscale en niet-fiscale schuldvorderingen optreedt, kan de verschijning in persoon namens de Belgische Staat, Federale Overheidsdienst Financiën of namens de schuldeiser voor wiens rekening de ontvanger of de adviseur-generaal optreedt, worden gedaan door de betrokken ontvanger of adviseur-generaal of door elke andere daartoe aangestelde ambtenaar van de Federale Overheidsdienst Financiën.  Bovendien kunnen in collectieve insolventieprocedures waarin een ontvanger of de Belgische Staat, Federale Overheidsdienst Financiën, betrokken is, de handelingen en de formaliteiten die inherent zijn aan de collectieve insolventieprocedure namens de Belgische Staat, Federale Overheidsdienst Financiën of namens de schuldeiser voor wiens rekening de ontvanger de invordering verzekert, door de betrokken ontvanger of door elke andere daartoe aangestelde ambtenaar van de Federale Overheidsdienst Financiën uitgevoerd worden.
-
-### HOOFDSTUK 4. - De uitvoerbare titels en hun uitvoerbare kracht
-
-#### Afdeling 1. - Algemene bepalingen
-
-###### Art. 6
-
-§ 1. Onverminderd het nemen van bewarende of waarborgmaatregelen, overeenkomstig dit Wetboek, de fiscale wetten, de wettelijke of reglementaire bepalingen met betrekking tot niet-fiscale schuldvorderingen of het gemeen recht, wordt de invordering van fiscale en niet-fiscale schuldvorderingen vervolgd op grond van een uitvoerbaar verklaard kohier of innings- en invorderingsregister of op grond van een rechterlijke beslissing houdende veroordeling tot betaling van fiscale of niet-fiscale schuldvorderingen.  § 2. Ingeval [ 1 het kohier] 1 of innings- en invorderingsregister bedoeld in de eerste paragraaf op elektronische wijze [ 1 wordt] 1 opgemaakt, wordt de oorsprong en de integriteit van de inhoud van dit kohier of deze innings- en invorderingsregisters verzekerd door middel van geschikte beveiligingstechnieken.  § 3. De Federale Overheidsdienst Financiën vertegenwoordigd door de Voorzitter van het Directiecomité is de verwerkingsverantwoordelijke in de zin van de Verordening (EU) 2016/679 van 27 april 2016 van het Europees Parlement en de Raad betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van die gegevens en tot intrekking van richtlijn 95/46/ EG en in overeenstemming met de wet van 3 augustus 2012 houdende bepalingen betreffende de verwerking van persoonsgegevens door de Federale Overheidsdienst Financiën in het kader van zijn opdrachten, voor de verwerkingen van persoonsgegevens die nodig zijn voor de uitvoering van de bepalingen van dit Wetboek.  § 4. De [ 1 verwerkingsverantwoordelijke] 1 publiceert op de website van de Federale [ 1 Overheidsdienst] 1
-
-verwerkingsverantwoordelijke] 1 bedoeld in paragraaf 3 behoren en, in voorkomend geval, waarin de volledige betaling van alle ermee verbonden bedragen, evenals de definitieve beëindiging van de ermee verbonden procedures en administratieve en gerechtelijke beroepen, is geschied.  ----------  ( 1 )<W 2021-12-20/04, art. 11, 006; Inwerkingtreding : 07-01-2022>
-
-###### Art. 7
-
-Het kohier en het innings- en invorderingsregister zijn ook uitvoerbaar tegen de medeschuldenaars.
-
-#### Afdeling 2. - Bijzondere bepalingen inzake inkomstenbelastingen, voorheffingen en met de inkomstenbelastingen gelijkgestelde belastingen
-
-###### Art. 8
-
-De inkomstenbelasting of voorheffing ingekohierd op naam van meerdere personen kan slechts ten laste van elk van hen worden ingevorderd voor het gedeelte dat verband houdt met hun eigen inkomsten.  Het kohier is uitvoerbaar tegen elk van hen in de mate dat de inkomstenbelasting of voorheffing te hunnen laste kan worden ingevorderd op grond van dit Wetboek, de fiscale wetten of het gemeen recht.
-
-###### Art. 9
-
-De invordering van een inkomstenbelasting gevestigd overeenkomstig artikel 126, § 2, eerste lid, 2°, van het Wetboek van de inkomstenbelastingen 1992 op de inkomsten van een feitelijk gescheiden echtgenoot mag slechts worden vervolgd ten laste van de andere echtgenoot op voorwaarde dat:  1° aan de echtgenoot op wiens inkomsten de belasting is gevestigd een aanmaning tot betaling bedoeld in artikel 13, § 1, werd verzonden;  2° aan de andere echtgenoot een aanmaning tot betaling bedoeld in artikel 13, § 2, werd verzonden binnen een termijn die aanvangt de vijftiende werkdag volgend op die van de verzending van de aanmaning tot betaling aan de echtgenoot op wiens inkomsten de belasting is gevestigd en die verstrijkt op het einde van de vierde maand van deze verzending.  Geen enkele aanmaning tot betaling mag worden toegezonden aan de andere echtgenoot op wiens inkomen de belasting is gevestigd zolang hij de verplichtingen van het afbetalingsplan dat hem, in voorkomend geval, werd toegekend, naleeft.
-
-###### Art. 10
-
-§ 1. De inkomstenbelasting of het gedeelte van de inkomstenbelasting in verband met het belastbare inkomen van één van de echtgenoten en de op naam van één van hen beiden ingekohierde voorheffing of met de inkomstenbelastingen gelijkgestelde belastingen mogen, ongeacht het aangenomen huwelijksvermogensstelsel of ongeacht de notariële overeenkomst waarin de modaliteiten van de wettelijke samenwoning worden geregeld, op de eigen en gemeenschappelijke goederen van beide echtgenoten worden ingevorderd.  De inkomstenbelasting of het gedeelte van de inkomstenbelasting in verband met het belastbare inkomen van één van de echtgenoten, alsook de roerende voorheffing, de bedrijfsvoorheffing en de met de inkomstenbelastingen gelijkgestelde belastingen ingekohierd op naam van één van hen, mogen evenwel niet op de eigen goederen van de andere echtgenoot worden ingevorderd wanneer deze laatste aantoont:  1° dat hij ze bezat vóór het huwelijk of vóór het afleggen van de verklaring van wettelijke samenwoning;  2° of dat zij voortkomen van een erfenis of van een schenking door een andere persoon dan zijn echtgenoot;  3° of dat hij ze heeft verkregen door middel van fondsen die voortkomen van de realisatie van dergelijke goederen;  4° of dat het gaat om inkomsten die hem krachtens het burgerlijk recht eigen zijn of om goederen die hij met zulke inkomsten heeft verworven.  § 2. In afwijking van paragraaf 1 kan, in geval van feitelijke scheiding van de echtgenoten, de inkomstenbelasting op de vanaf het tweede kalenderjaar na de feitelijke scheiding verworven inkomsten van één van de echtgenoten, alsook de roerende voorheffing, de bedrijfsvoorheffing en de met de inkomstenbelastingen gelijkgestelde belastingen die vanaf hetzelfde kalenderjaar op naam van één van hen wordt ingekohierd, niet meer worden ingevorderd op de inkomsten van de andere echtgenoot of op de goederen die deze met deze inkomsten heeft verworven.  § 3. Na de ontbinding van het huwelijk of de beëindiging van de wettelijke samenwoning in de zin van artikel 1476 van het Burgerlijk Wetboek kunnen de inkomstenbelastingen en de voorheffingen die betrekking hebben op de inkomsten die de echtgenoten vóór die ontbinding of beëindiging hebben verkregen alsook de met de inkomstenbelastingen gelijkgestelde belastingen in verband met de periode vóór die ontbinding of beëindiging, worden ingevorderd op de goederen van de beide echtgenoten, op de wijze omschreven in paragrafen 1 en 2.  § 4. Paragraaf 1 is niet van toepassing op de inkomstenbelastingen, de voorheffingen en de met de inkomstenbelastingen gelijkgestelde belastingen in verband met de periode vóór het huwelijk en vóór het afleggen van de verklaring van wettelijke samenwoning.
 
 ###### Art. 11_WAALS_GEWEST .  <Opgeheven zoals zij van toepassing waren op de onroerende voorheffing in het Waalse Gewest, bij DWG 2020-12-17/47, art. 17, 005; Inwerkingtreding : 01-01-2021>
 

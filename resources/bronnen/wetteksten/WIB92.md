@@ -1,56 +1,46 @@
 ---
-bijgewerkt: 10.02.2026
-bron: Fisconet (officieuze gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["II", "2.2", "2.3"]
+itaa-lex-sectie: "II"
+wet: "WIB92"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "10.02.2026"
+bron: "Fisconet (officieuze gecoördineerde versie)"
 chunk:
   level: 6
-  sub_strategy: per_definitieblok
-  type: Art.
-itaa-lex-sectie: II
+  type: "Art."
+  sub_strategy: "per_definitieblok"
 provenance:
-  generated_at: '2026-05-11T16:34:49Z'
   inputs:
-  - id: resources/raw/wetteksten/WIB92.pdf
-    sha256: 3283429e179aaf3780ec95af9b04d3597d4987f4a0bef6f36f196f6c7c582938
-    version: 10.02.2026
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/WIB92.pdf
+      sha256: 3283429e179aaf3780ec95af9b04d3597d4987f4a0bef6f36f196f6c7c582938
+      version: 10.02.2026
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version: null
+    pipeline_version: 8add68e
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T19:13:29Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-09T21:27:46Z'
-    confirmed_by: subagent-sonnet-4-6
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 1950496
-      flags:
-      - detail: 'langste sectie op ######-niveau: 68112 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
+      status: warn
+      run_id: 20260512-191329
+      run_at: '2026-05-12T19:13:29Z'
       heading_count: 1093
       max_section_chars: 68112
-      run_at: '2026-05-11T13:40:49Z'
-      run_id: 20260511-134044
-      status: warn
+      file_size_chars: 1950660
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ######-niveau: 68112 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
-      agent: null
-      concrete_problemen: []
-      rationale: 'Solide wettekst: 1093 headings, max sectie 8957 chars, geen warns/fails.
-        Per-artikel ###### Art.-structuur met definitieblok-substrategy.'
-      run_at: null
-      status: trusted
-    rationale: L1=pass
-    status: trusted
-status: beschikbaar
-tags:
-- II
-- '2.2'
-- '2.3'
-wet: WIB92
 ---
 
 # WIB92
@@ -523,7 +513,7 @@ Ten laatste op 1 januari 2028 (of op een datum respectievelijk te bepalen door d
 
 20° aangetekende zending: hetzij de briefwisseling, al dan niet vergezeld van een ontvangstbevestiging, neergelegd bij de aanbieder van de universele postdienst, een aanbieder van postdiensten of een gekwalificeerde verlener van vertrouwensdiensten die voldoet aan de vereisten van artikel 44 van Verordening (EU) nr. 910 /2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties binnen de interne markt en tot intrekking van Richtlijn 1999/93/CE, en al dan niet elektronisch verzonden door een van hen naar een vooraf aangewezen ontvanger, die toelaat om de datum van verzending en ontvangst van de briefwisseling door de bestemmeling aan te tonen, hetzij het bericht dat door de Federale Overheidsdienst Financiën is verzonden in het kader van de uitoefening van haar taak van openbare dienst door middel van de dienst voor het versturen en ontvangen van elektronische berichten door bepaalde overheidsdiensten aangeboden aan de natuurlijke personen of hun vertegenwoordigers door de Federale Overheidsdienst belast met de Digitale Agenda en aan houders van een ondernemingsnummer zoals gedefinieerd in artikel III.16 van het Wetboek van economisch recht of aan hun vertegenwoordigers door de Rijksdienst voor Sociale Zekerheid;
 
-21° beveiligd elektronisch platform: elke computertoepassing ter beschikking gesteld door de Federale Overheidsdienst Financiën of door een andere openbare instelling in samenwerking met de Federale Overheidsdienst Financiën of een andere instelling die aan de burgers, de bedrijven, de rechtspersonen en bepaalde derden elektronische diensten aanbiedt om elektronische berichten uit te wisselen met de Federale Overheidsdienst Financiën op voorwaarde dat de authenticatie en identificatie worden uitgevoerd in toepassing van hoofdstuk 4 van de wet van 18 juli 2017 inzake elektronische identificatie en die, door middel van een stelsel voor elektronische identificatie zoals bedoeld in art. 8., 2., van Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van Richtlijn (EG) 1999/93, dat ten minste een substantieel veiligheidsniveau in de zin van artikel 8., 2.,
+21° beveiligd elektronisch platform: elke computertoepassing ter beschikking gesteld door de Federale Overheidsdienst Financiën of door een andere openbare instelling in samenwerking met de Federale Overheidsdienst Financiën of een andere instelling die aan de burgers, de bedrijven, de rechtspersonen en bepaalde derden elektronische diensten aanbiedt om elektronische berichten uit te wisselen met de Federale Overheidsdienst Financiën op voorwaarde dat de authenticatie en identificatie worden uitgevoerd in toepassing van hoofdstuk 4 van de wet van 18 juli 2017 inzake elektronische identificatie en die, door middel van een stelsel voor elektronische identificatie zoals bedoeld in art. 8. , 2., van Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van Richtlijn (EG) 1999/93, dat ten minste een substantieel veiligheidsniveau in de zin van artikel 8. , 2.,
 b) van bovengenoemde Verordening inzake de integriteit van de inhoud, de tijdsaanduiding, en zo ook de bewaring van het verzonden bericht garandeert.
 
 ----------
@@ -580,7 +570,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 2, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 2, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 1.1.0.0.2. van dezelfde Codex van toepassing ( zie Vlaamse Codex Fiscaliteit).
 
@@ -11335,7 +11325,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 251, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 251, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteitvan
 13 december 2013 – BS 23 december 2013).
 
@@ -11372,7 +11362,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 253, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 253, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -11398,7 +11388,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 254, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 254, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -11420,7 +11410,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 255, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 255, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -11446,7 +11436,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 256, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 256, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -11479,14 +11469,14 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 257, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 257, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
 Vanaf aanslagjaar 2014, zijn de artikelen
 2.1.5.0.1.en 2.1.5.0.2., van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
 
-Vanaf 1 januari 2014, is artikel 1.1.0.0.2., tweede lid, van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, is artikel 1.1.0.0.2. , tweede lid, van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
 
 B. WAALSE GEWEST
 
@@ -11511,7 +11501,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 258, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 258, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -11539,7 +11529,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 259, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 259, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -11573,7 +11563,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 260, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 260, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -11603,7 +11593,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 A. VLAAMSE GEWEST
 
 Vanaf 1 januari 2014, wordt artikel
-260bis, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+260bis, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -11623,7 +11613,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 260ter, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 260ter, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteitvan
 13 december 2013 – BS 23 december 2013).
 
@@ -13605,7 +13595,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 298, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 298, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -13648,7 +13638,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 300, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 300, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -13703,7 +13693,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 302, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 302, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -13755,7 +13745,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 304, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 304, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -14425,7 +14415,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 314, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 314, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -14446,7 +14436,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 314bis, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 314bis, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -14482,7 +14472,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 315, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 315, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -14530,7 +14520,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 315bis, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 315bis, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -14563,7 +14553,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 316, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 316, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit an
 13 december 2013 – BS 23 december 2013).
 
@@ -14578,7 +14568,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 317, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 317, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -14598,7 +14588,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 318, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 318, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -14616,7 +14606,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 319, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 319, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -14630,7 +14620,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 319bis, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 319bis, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -14703,7 +14693,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 321, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 321, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -15267,7 +15257,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 322, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 322, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -15294,7 +15284,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 323, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 323, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteitvan
 13 december 2013 – BS 23 december 2013).
 
@@ -15396,7 +15386,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 323bis, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 323bis, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -15414,7 +15404,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 324, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 324, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -15444,7 +15434,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 325, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 325, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -15471,7 +15461,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 326, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 326, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -15755,7 +15745,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 327, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 327, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -15777,7 +15767,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 329, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 329, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -15826,7 +15816,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 333, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 333, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -15904,7 +15894,7 @@ VLAAMSE GEWEST
 
 ###### Art. 333bis
 
-Vanaf 1 januari 2014, wordt artikel 333bis, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 333bis, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteitvan
 13 december 2013 – BS 23 december 2013).
 
@@ -15918,7 +15908,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 334, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 334, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -15945,7 +15935,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 335, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 335, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -15964,7 +15954,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 336, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 336, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -16004,7 +15994,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 337, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1,
+Vanaf 1 januari 2014, wordt artikel 337, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1,
 1°, van de Vlaamse Codex Fiscaliteit van
 13 december 2013 – BS 23 december 2013).
 
@@ -16622,7 +16612,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 VLAAMSE GEWEST
 
 Vanaf 1 januari 2014, wordt artikel
-339/1, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+339/1, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.1.0.0.3. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit ).
 
@@ -16639,7 +16629,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 340, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 340, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.17.0.0.1. van dezelfde Codex van toepassing
@@ -16711,7 +16701,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 344, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 344, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.17.0.0.2. van dezelfde Codex van toepassing
@@ -16774,7 +16764,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 346, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 346, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 ###### Art. 347 - 350
 ...
@@ -16819,7 +16809,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 351, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 351, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 ###### Art. 352
 
@@ -16911,7 +16901,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 354, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 354, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.3.3.0.1. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
 
@@ -16950,7 +16940,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 355, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 355, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.7.0.0.2. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit ).
 
@@ -16976,7 +16966,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 356, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteitvan 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 356, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteitvan 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.7.0.0.2. en de opmerking in artikel 5.0.0.0.9. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit ).
 
@@ -17004,7 +16994,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 357, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteitvan 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 357, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteitvan 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.7.0.0.2. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit ).
 
@@ -17044,7 +17034,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 358, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 358, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.3.3.0.2. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
 
@@ -17064,7 +17054,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 359, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 359, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.3.2.0.1. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit ).
 
@@ -17151,7 +17141,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 365, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 365, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.2.4.0.1. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit ).
 
@@ -17189,7 +17179,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 366, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 366, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.5.3.0.1. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit ).
 
@@ -17235,7 +17225,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 369, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 369, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.5.3.0.3. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit ).
 
@@ -17276,7 +17266,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 371, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 371, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, zijn de artikelen
 3.5.2.0.1. en 3.5.2.0.4. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit ).
@@ -17289,7 +17279,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 372, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 372, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.5.2.0.2. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
 
@@ -17319,7 +17309,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 373, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 373, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.5.2.0.3. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
 
@@ -17335,7 +17325,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 374, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 374, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, zijn de artikelen
 3.5.4.0.1. en 3.5.8.0.1 van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
@@ -17392,7 +17382,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 375, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 375, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, zijn de artikelen
 3.5.6.0.1. en 3.5.9.0.1 van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
@@ -17434,7 +17424,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 376, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 376, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.6.0.0.1. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
 
@@ -17483,7 +17473,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 A. VLAAMSE GEWEST
 
 Vanaf 1 januari 2014, wordt artikel
-376ter, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+376ter, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, zijn de artikelen
 3.6.0.0.2. en 3.6.0.0.3. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
@@ -17505,7 +17495,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 A. VLAAMSE GEWEST
 
 Vanaf 1 januari 2014, wordt artikel
-376quater, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+376quater, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.5.1.0.1. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
 
@@ -17558,7 +17548,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 377, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 377, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.8.0.0.1. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
 
@@ -17570,7 +17560,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 378, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 378, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.8.0.0.2. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit ).
 
@@ -17584,7 +17574,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 379, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 379, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.8.0.0.3. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
 
@@ -17626,7 +17616,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 393, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 393, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.3.1.1. van dezelfde Codex van toepassing
@@ -17646,7 +17636,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 VLAAMSE GEWEST
 
 Vanaf 1 januari 2014, wordt artikel
-393bis, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+393bis, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.4.1.1. van dezelfde Codex van toepassing
@@ -17665,7 +17655,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 394, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 394, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.4.1.2. van dezelfde Codex van toepassing
@@ -17693,7 +17683,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 395, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 395, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.4.4.2. van dezelfde Codex van toepassing
@@ -17712,7 +17702,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 396, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 396, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.4.4.2. van dezelfde Codex van toepassing
@@ -17731,7 +17721,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 397, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 397, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.4.4.1. van dezelfde Codex van toepassing
@@ -17766,7 +17756,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 399, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 399, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.4.2.1. van dezelfde Codex van toepassing
@@ -17802,7 +17792,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 VLAAMSE GEWEST
 
 Vanaf 1 januari 2014, wordt artikel
-399ter, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+399ter, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.4.2.2. van dezelfde Codex van toepassing
@@ -17915,7 +17905,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 409, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 409, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.4.6.1. van dezelfde Codex van toepassing
@@ -17934,7 +17924,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 410, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 410, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.4.6.1. van dezelfde Codex van toepassing
@@ -18059,7 +18049,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 413, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 413, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, zijn de artikelen
 3.4.2.0.1. en 3.4.2.0.4. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
@@ -18285,7 +18275,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 414, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 414, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.9.1.0.1. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit ).
 
@@ -18335,7 +18325,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 417, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 417, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.9.1.0.2. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit ).
 
@@ -18359,7 +18349,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 418, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 418, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.9.2.0.1. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
 
@@ -18393,7 +18383,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 419, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 419, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel 3.9.2.0.1. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
 
@@ -18420,7 +18410,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 420, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 420, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.5.1.1. van dezelfde Codex van toepassing
@@ -18439,7 +18429,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 421, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 421, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.5.1.2. van dezelfde Codex van toepassing
@@ -18469,7 +18459,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 422, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 422, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.5.2.1. van dezelfde Codex van toepassing
@@ -18488,7 +18478,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 423, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 423, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.5.2.2. van dezelfde Codex van toepassing
@@ -18518,7 +18508,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 425, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 425, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.5.3.1. van dezelfde Codex van toepassing
@@ -18537,7 +18527,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 426, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 426, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.5.3.2. van dezelfde Codex van toepassing
@@ -18556,7 +18546,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 427, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 427, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.5.3.3. van dezelfde Codex van toepassing
@@ -18581,7 +18571,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 428, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 428, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.5.3.4. van dezelfde Codex van toepassing
@@ -18606,7 +18596,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 429, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 429, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.5.3.5. van dezelfde Codex van toepassing
@@ -18631,7 +18621,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 430, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 430, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.5.3.6. van dezelfde Codex van toepassing
@@ -18656,7 +18646,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 431, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 431, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.5.3.7. van dezelfde Codex van toepassing
@@ -18681,7 +18671,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 432, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 432, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.10.5.3.8. van dezelfde Codex van toepassing
@@ -18702,7 +18692,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 433, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013) evenwel rekening houdend met de opmerking in artikel 5.0.0.0.6 van dezelfde Codex.
+Vanaf 1 januari 2014, wordt artikel 433, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013) evenwel rekening houdend met de opmerking in artikel 5.0.0.0.6 van dezelfde Codex.
 
 Vanaf 1 januari 2014, is artikel
 3.12.1.0.1. van dezelfde Codex van toepassing
@@ -18727,7 +18717,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 434, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013) evenwel rekening houdend met de opmerking in artikel 5.0.0.0.6 van dezelfde Codex.
+Vanaf 1 januari 2014, wordt artikel 434, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013) evenwel rekening houdend met de opmerking in artikel 5.0.0.0.6 van dezelfde Codex.
 
 Vanaf 1 januari 2014, is artikel
 3.12.1.0.2. van dezelfde Codex van toepassing
@@ -18752,7 +18742,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 435, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013) evenwel rekening houdend met de opmerking in artikel 5.0.0.0.6 van dezelfde Codex.
+Vanaf 1 januari 2014, wordt artikel 435, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013) evenwel rekening houdend met de opmerking in artikel 5.0.0.0.6 van dezelfde Codex.
 
 Vanaf 1 januari 2014, is artikel
 3.12.1.0.3. van dezelfde Codex van toepassing
@@ -18777,7 +18767,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 436, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013) evenwel rekening houdend met de opmerking in artikel 5.0.0.0.6 van dezelfde Codex.
+Vanaf 1 januari 2014, wordt artikel 436, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013) evenwel rekening houdend met de opmerking in artikel 5.0.0.0.6 van dezelfde Codex.
 
 Vanaf 1 januari 2014, is artikel
 3.12.1.0.4. van dezelfde Codex van toepassing
@@ -18796,7 +18786,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 437, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013) evenwel rekening houdend met de opmerking in artikel 5.0.0.0.6 van dezelfde Codex.
+Vanaf 1 januari 2014, wordt artikel 437, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013) evenwel rekening houdend met de opmerking in artikel 5.0.0.0.6 van dezelfde Codex.
 
 Vanaf 1 januari 2014, is artikel
 3.12.1.0.5. van dezelfde Codex van toepassing
@@ -18815,7 +18805,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 438, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013) evenwel rekening houdend met de opmerking in artikel 5.0.0.0.6 van dezelfde Codex.
+Vanaf 1 januari 2014, wordt artikel 438, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013) evenwel rekening houdend met de opmerking in artikel 5.0.0.0.6 van dezelfde Codex.
 
 Vanaf 1 januari 2014, is artikel
 3.12.1.0.6. van dezelfde Codex van toepassing
@@ -18834,7 +18824,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 439, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013) evenwel rekening houdend met de opmerking in artikel 5.0.0.0.6 van dezelfde Codex.
+Vanaf 1 januari 2014, wordt artikel 439, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013) evenwel rekening houdend met de opmerking in artikel 5.0.0.0.6 van dezelfde Codex.
 
 Vanaf 1 januari 2014, is artikel
 3.12.1.0.7. van dezelfde Codex van toepassing
@@ -18853,7 +18843,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 440, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013) evenwel rekening houdend met de opmerking in artikel 5.0.0.0.6 van dezelfde Codex.
+Vanaf 1 januari 2014, wordt artikel 440, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013) evenwel rekening houdend met de opmerking in artikel 5.0.0.0.6 van dezelfde Codex.
 
 Vanaf 1 januari 2014, is artikel
 3.12.1.0.8. van dezelfde Codex van toepassing
@@ -18878,7 +18868,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 441, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteitvan 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 441, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteitvan 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.12.1.0.9. van dezelfde Codex van toepassing
@@ -18903,7 +18893,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 442, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 442, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, zijn de artikelen
 3.12.1.0.10. en 3.12.1.0.11. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
@@ -18928,7 +18918,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 A. VLAAMSE GEWEST
 
 Vanaf 1 januari 2014, wordt artikel
-442bis, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+442bis, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.12.1.0.14. van dezelfde Codex van toepassing
@@ -18954,7 +18944,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 VLAAMSE GEWEST
 
 Vanaf 1 januari 2014, wordt artikel
-442ter, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+442ter, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.12.1.0.15. van dezelfde Codex van toepassing
@@ -19000,7 +18990,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 443, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 443, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.12.2.0.1. van dezelfde Codex van toepassing
@@ -19022,7 +19012,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 A. VLAAMSE GEWEST
 
 Vanaf 1 januari 2014, wordt artikel
-443bis, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+443bis, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, zijn de artikelen
 3.14.1.0.1. en 3.14.2.0.1. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
@@ -19047,7 +19037,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 A. VLAAMSE GEWEST
 
 Vanaf 1 januari 2014, wordt artikel
-443ter, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+443ter, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, zijn de artikelen
 3.14.3.0.1. en 3.14.3.0.2. van dezelfde Codex van toepassing (zie Vlaamse Codex Fiscaliteit).
@@ -19147,7 +19137,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 445, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 445, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.18.0.0.1. van dezelfde Codex van toepassing
@@ -19163,7 +19153,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 446, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 446, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.16.0.0.1. van dezelfde Codex van toepassing
@@ -19199,7 +19189,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 A. VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 447, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 447, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.16.0.0.2. van dezelfde Codex van toepassing
@@ -19227,7 +19217,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 448, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 448, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.16.0.0.3. van dezelfde Codex van toepassing
@@ -19279,7 +19269,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 449, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 449, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.15.3.0.1. van dezelfde Codex van toepassing
@@ -19305,7 +19295,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 450, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 450, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.15.3.0.2. van dezelfde Codex van toepassing
@@ -19347,7 +19337,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 451, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 451, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.15.3.0.3. van dezelfde Codex van toepassing
@@ -19371,7 +19361,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 452, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 452, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.15.3.0.4. van dezelfde Codex van toepassing
@@ -19393,7 +19383,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 453, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 453, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.15.3.0.5. van dezelfde Codex van toepassing
@@ -19426,7 +19416,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 455, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 455, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.15.3.0.6. van dezelfde Codex van toepassing
@@ -19448,7 +19438,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 456, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 456, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.15.3.0.7. van dezelfde Codex van toepassing
@@ -19480,7 +19470,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 457, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 457, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.15.3.0.8. van dezelfde Codex van toepassing
@@ -19530,7 +19520,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 458, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 458, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.15.3.0.9. van dezelfde Codex van toepassing
@@ -19546,7 +19536,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 459, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 459, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.15.3.0.10. van dezelfde Codex van toepassing
@@ -19564,7 +19554,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 460, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 460, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.15.1.0.1. van dezelfde Codex van toepassing
@@ -19581,7 +19571,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, wordt artikel 461, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1., § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
+Vanaf 1 januari 2014, wordt artikel 461, zoals van toepassing voor de onroerende voorheffing, opgeheven (zie artikel 5.0.0.0.1. , § 1, 1°, van de Vlaamse Codex Fiscaliteit van 13 december 2013 – BS 23 december 2013).
 
 Vanaf 1 januari 2014, is artikel
 3.15.1.0.2. van dezelfde Codex van toepassing
@@ -19785,7 +19775,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 471, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013)
+Vanaf 1 januari 2014, blijft artikel 471, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013)
 
 ### HOOFDSTUK II.
 
@@ -19809,7 +19799,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 472, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteitvan 13 december 2013 (BS 23 december 2013)
+Vanaf 1 januari 2014, blijft artikel 472, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteitvan 13 december 2013 (BS 23 december 2013)
 
 #### Afdeling II.- Aangifte van de belastingplichtigen en recht van onderzoek van de administratie.
 
@@ -19842,7 +19832,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 473, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013)
+Vanaf 1 januari 2014, blijft artikel 473, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013)
 
 ###### Art. 474
 
@@ -19852,7 +19842,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 474, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
+Vanaf 1 januari 2014, blijft artikel 474, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
 
 ###### Art. 475
 
@@ -19867,9 +19857,9 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 475, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
+Vanaf 1 januari 2014, blijft artikel 475, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
 
-Vanaf 1 januari 2014, blijft artikel 475, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
+Vanaf 1 januari 2014, blijft artikel 475, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
 
 ###### Art. 476
 
@@ -19881,7 +19871,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 476, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
+Vanaf 1 januari 2014, blijft artikel 476, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
 
 #### Afdeling III.- Gebouwde onroerende goederen.
 
@@ -19899,7 +19889,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 477, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 477, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 ###### Art. 478
 
@@ -19920,7 +19910,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 478, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
+Vanaf 1 januari 2014, blijft artikel 478, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
 
 #### Afdeling IV.- Ongebouwde onroerende goederen.
 
@@ -19934,7 +19924,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 479, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
+Vanaf 1 januari 2014, blijft artikel 479, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
 
 ###### Art. 480
 
@@ -19960,7 +19950,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 480, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 480, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 ###### Art. 481
 
@@ -19976,7 +19966,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 481, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 481, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 ###### Art. 482
 
@@ -19990,7 +19980,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 482, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
+Vanaf 1 januari 2014, blijft artikel 482, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
 
 ###### Art. 482/1
 
@@ -20013,9 +20003,9 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 483, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
+Vanaf 1 januari 2014, blijft artikel 483, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
 
-Vanaf 1 januari 2014, blijft artikel 483, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 483, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 ###### Art. 484
 
@@ -20028,7 +20018,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 484, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
+Vanaf 1 januari 2014, blijft artikel 484, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
 
 ###### Art. 485
 
@@ -20039,7 +20029,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 485, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 485, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 #### Afdeling VI.- Referentietijdstip.
 
@@ -20052,7 +20042,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 486, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 486, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 ### HOOFDSTUK III.
 
@@ -20071,7 +20061,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 487, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 487, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 #### Afdeling II.- Herzieningen van de kadastrale inkomens.
 
@@ -20083,7 +20073,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 488, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 488, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 ###### Art. 489
 
@@ -20093,7 +20083,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 489 voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
+Vanaf 1 januari 2014, blijft artikel 489 voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
 
 ###### Art. 490
 
@@ -20107,7 +20097,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 490 voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 490 voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 ###### Art. 491
 
@@ -20121,7 +20111,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 491, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 491, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 ###### Art. 492
 
@@ -20131,7 +20121,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 492, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 492, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 ###### Art. 493
 
@@ -20141,9 +20131,9 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 493, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
+Vanaf 1 januari 2014, blijft artikel 493, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit ).
 
-Vanaf 1 januari 2014, blijft artikel 493, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 493, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 #### Afdeling III.- Schatting en herschatting van de kadastrale inkomens.
 
@@ -20205,7 +20195,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 494, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 494, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 ### HOOFDSTUK IV.
 
@@ -20224,7 +20214,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 495, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 495, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 ###### Art. 496
 
@@ -20239,7 +20229,7 @@ UITSLUITEND voor wat de onroerende voorheffing betreft, luidt artikel 496, vanaf
 
 De administratie van het kadaster mag het bedrag van het kadastraal inkomen mededelen aan de administratie der directe belastingen of de Vlaamse Belastingdienst vóór dat het aan de belastingplichtige werd betekend.
 
-Vanaf 1 januari 2014, blijft deze wijziging, voor de onroerende voorheffing, behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft deze wijziging, voor de onroerende voorheffing, behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 ### HOOFDSTUK V.
 
@@ -20255,7 +20245,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 497, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 497, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 ###### Art. 498
 
@@ -20265,7 +20255,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 498, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 498, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 #### Afdeling II.- Voorwaarden van geldigheid van het bezwaar.
 
@@ -20291,7 +20281,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 499, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 499, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 ###### Art. 500
 
@@ -20301,7 +20291,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 500, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 500, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 #### Afdeling III.- Procedure bij het onderzoek van de bezwaren.
 
@@ -20313,7 +20303,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 501, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 501, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 ###### Art. 501bis
 
@@ -20327,7 +20317,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 501bis, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 501bis, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 ###### Art. 502
 
@@ -20340,7 +20330,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 502, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 502, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 #### Afdeling IV.- Uitwerking van de bezwaren.
 
@@ -20352,7 +20342,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 503, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 503, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 ### HOOFDSTUK VI.
 
@@ -20372,7 +20362,7 @@ GEWESTELIJKE FISCALE BEPALINGEN
 
 VLAAMSE GEWEST
 
-Vanaf 1 januari 2014, blijft artikel 504, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1., § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
+Vanaf 1 januari 2014, blijft artikel 504, voor de onroerende voorheffing behouden volgens artikel 5.0.0.0.1. , § 1, van de Vlaamse Codex Fiscaliteit van 13 december 2013 (BS 23 december 2013) (zie Vlaamse Codex Fiscaliteit).
 
 ## TITEL X. - OVERGANGSBEPALINGEN.
 

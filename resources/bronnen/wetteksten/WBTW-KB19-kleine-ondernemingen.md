@@ -1,12 +1,15 @@
 ---
-bijgewerkt: '2024'
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["VI.B", "2.4"]
+itaa-lex-sectie: "VI.B"
+wet: "K.B. nr. 19, 15 december 2024, met betrekking tot de vrijstellingsregeling van belasting over de toegevoegde waarde in het voordeel van kleine ondernemingen"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "2024"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 3
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: VI.B
 provenance:
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB19-kleine-ondernemingen.pdf
@@ -14,55 +17,33 @@ provenance:
       version: '2024'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:24Z'
+  generated_at: '2026-05-12T19:14:13Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B1/A6: Hoofdstuk-heading op regel 141-143 is over twee regels gesplitst ('## HOOFDSTUK 3. - Vrijstelling bedoeld in titel XII,\\nhoofdstuk 1,. van Richtlijn 2006/112/EG') — mens zou dit als één heading schrijven. A6: regel 90-92 heeft een spurious line-break midden in een zin ('waarvoor het\\n\\nbovengenoemde bedrag wordt overschreden'). Overige structuur en inhoud zijn compleet en correct."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 22552
-      flags: []
-      heading_count: 20
-      max_section_chars: 4293
-      run_at: '2026-05-11T13:40:47Z'
-      run_id: 20260511-134044
       status: pass
+      run_id: 20260512-191413
+      run_at: '2026-05-12T19:14:13Z'
+      heading_count: 17
+      max_section_chars: 4294
+      file_size_chars: 21407
+      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "B1/A6: Hoofdstuk-heading op regel 141-143 is over twee regels gesplitst ('## HOOFDSTUK 3. - Vrijstelling bedoeld in titel XII,\\nhoofdstuk 1,. van Richtlijn 2006/112/EG') — mens zou dit als één heading schrijven. A6: regel 90-92 heeft een spurious line-break midden in een zin ('waarvoor het\\n\\nbovengenoemde bedrag wordt overschreden'). Overige structuur en inhoud zijn compleet en correct."
-      concrete_problemen:
-        - regel: 141
-          categorie: B1
-          type: other
-          voorbeeld: "## HOOFDSTUK 3. - Vrijstelling bedoeld in titel XII,\n\nhoofdstuk 1,. van Richtlijn 2006/112/EG"
-        - regel: 90
-          categorie: A6
-          type: other
-          voorbeeld: "waarvoor het\n\nbovengenoemde bedrag wordt overschreden."
-status: beschikbaar
-tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 19, 15 december 2024, met betrekking tot de vrijstellingsregeling van belasting over de toegevoegde waarde in het voordeel van kleine ondernemingen
 ---
 
 # BTW KB nr. 19 — Vrijstellingsregeling kleine ondernemingen
 
 *Bijgewerkt tot en met 2024 — gecoördineerde versie.*
 
-Titel
-
 15 DECEMBER 2024. - Koninklijk besluit nr. 19 met betrekking tot de vrijstellingsregeling van belasting over de toegevoegde waarde in het voordeel van kleine ondernemingen
-
-Bron : FINANCIEN
 
 (1)<KB 2025-12-17/06, art. 26, 002; Inwerkingtreding : 10-01-2026>
 

@@ -17,31 +17,26 @@ provenance:
       version: '2022'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f9ce762
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-12T15:58:18Z'
+  generated_at: '2026-05-12T19:14:17Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T16:08:56Z'
-    confirmed_by: subagent-unspecified
-    rationale: Kort document (320 regels), geen Fisconet-artefacten. Artikel 1-3 correct gestructureerd. HOOFDSTUK-headings aanwezig. Volledig en leesbaar.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-160243
-      run_at: '2026-05-12T16:02:43Z'
+      run_id: 20260512-191417
+      run_at: '2026-05-12T19:14:17Z'
       heading_count: 55
       max_section_chars: 2438
-      file_size_chars: 21266
+      file_size_chars: 21268
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-unspecified
-      run_at: '2026-05-12T16:08:56Z'
-      rationale: Kort document (320 regels), geen Fisconet-artefacten. Artikel 1-3 correct gestructureerd. HOOFDSTUK-headings aanwezig. Volledig en leesbaar.
-      concrete_problemen: []
 ---
 
 # BTW KB nr. 2bis — Forfaitaire grondslagen caféhouders
@@ -97,7 +92,7 @@ Voor de toepassing van deze afdeling worden bedoeld als koude en warme dranken:
 4° koffie, geserveerd als filter of in een kop, thee, bouillon en vooraf bereide soepen.
 Deze afdeling heeft geen betrekking op gedistilleerde dranken en wijnen aangekocht in vaten.
 
-#### Art. 8.De
+#### Art. 8. De
 
 belastbare opbrengst van het serveren van koude en warme dranken in het café wordt forfaitair bekomen door de inkoopprijs van de dranken of van de voor de bereiding van de dranken benodigde producten te vermenigvuldigen met:
 1° [1 2,64]1 voor bier in vaten;
@@ -146,7 +141,7 @@ Wat caféhouders betreft, wordt de vastgestelde en aangeplakte eenheidsprijs, in
 
 De toepassing van de regeling van forfaitaire grondslagen van aanslag bedoeld in deze afdeling is afhankelijk van het gebruik door de caféhouder van normale brouwerijglazen van drieëndertig of vijfentwintig centiliter, al dan niet voorzien van het merkteken, of van glazen van ongeveer twintig centiliter.
 
-#### Art. 14.§ 1. De belastbare opbrengst van het serveren van bier in vaten wordt bekomen door, per biersoort, het aantal aangekochte liters bier te vermenigvuldigen met het aantal normale brouwerijglazen zoals bepaald in het tweede lid en de eenheidsprijs per glas.
+#### Art. 14. § 1. De belastbare opbrengst van het serveren van bier in vaten wordt bekomen door, per biersoort, het aantal aangekochte liters bier te vermenigvuldigen met het aantal normale brouwerijglazen zoals bepaald in het tweede lid en de eenheidsprijs per glas.
 Het aantal normale brouwerijglazen, dat bij een normale tap kan worden geserveerd per aangekochte liter bier, wordt bepaald als volgt:
 1° voor de normale brouwerijglazen van het type drieëndertig centiliter: drie glazen;
 2° voor de normale brouwerijglazen van het type vijfentwintig centiliter: vier glazen;

@@ -17,31 +17,26 @@ provenance:
       version: 26.06.2003
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f9ce762
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-12T15:58:15Z'
+  generated_at: '2026-05-12T19:15:13Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T16:08:56Z'
-    confirmed_by: subagent-unspecified
-    rationale: Geen EUR-Lex markers. Alle 11 artikelen aanwezig en goed gestructureerd. Kleine PDF-koppeltekensplits (bv. 'interca- laire') zijn source-kenmerken. Definities van interest en royalty's, verbonden ondernemingen, en overgangsbepalingen volledig aanwezig.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-160243
-      run_at: '2026-05-12T16:02:43Z'
+      run_id: 20260512-191513
+      run_at: '2026-05-12T19:15:13Z'
       heading_count: 11
       max_section_chars: 6515
       file_size_chars: 23049
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-unspecified
-      run_at: '2026-05-12T16:08:56Z'
-      rationale: Geen EUR-Lex markers. Alle 11 artikelen aanwezig en goed gestructureerd. Kleine PDF-koppeltekensplits (bv. 'interca- laire') zijn source-kenmerken. Definities van interest en royalty's, verbonden ondernemingen, en overgangsbepalingen volledig aanwezig.
-      concrete_problemen: []
 ---
 
 # Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten

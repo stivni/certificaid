@@ -17,31 +17,26 @@ provenance:
       version: 23.03.2011
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f9ce762
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-12T15:58:13Z'
+  generated_at: '2026-05-12T19:15:02Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T16:08:56Z'
-    confirmed_by: subagent-unspecified
-    rationale: Geen EUR-Lex markers, geen TOC-fragmenten, geen PB-kopteksten. 84 artikelheadings goed gestructureerd. Structuurlabels (ONDERWERP, TOEPASSINGSGEBIED, BELASTINGPLICHTIGEN) als plain-text tussenkopjes zijn inherent aan de EUR-bron en zijn niet storend voor RAG. Inhoud volledig en leesbaar.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-160242
-      run_at: '2026-05-12T16:02:42Z'
+      run_id: 20260512-191502
+      run_at: '2026-05-12T19:15:02Z'
       heading_count: 84
       max_section_chars: 17226
       file_size_chars: 74977
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-unspecified
-      run_at: '2026-05-12T16:08:56Z'
-      rationale: Geen EUR-Lex markers, geen TOC-fragmenten, geen PB-kopteksten. 84 artikelheadings goed gestructureerd. Structuurlabels (ONDERWERP, TOEPASSINGSGEBIED, BELASTINGPLICHTIGEN) als plain-text tussenkopjes zijn inherent aan de EUR-bron en zijn niet storend voor RAG. Inhoud volledig en leesbaar.
-      concrete_problemen: []
 ---
 
 # Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG

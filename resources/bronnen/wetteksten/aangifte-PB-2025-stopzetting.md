@@ -20,7 +20,7 @@ provenance:
     pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:02:41Z'
+  generated_at: '2026-05-12T19:15:19Z'
   stale: false
   stale_reason:
   trust:
@@ -29,6 +29,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-191519
+      run_at: '2026-05-12T19:15:19Z'
+      heading_count: 16
+      max_section_chars: 1484
+      file_size_chars: 7803
+      flags: []
     layer2:
 ---
 

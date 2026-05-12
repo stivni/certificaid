@@ -17,39 +17,26 @@ provenance:
       version: 12.11.2018
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f9ce762
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-12T15:58:16Z'
+  generated_at: '2026-05-12T19:15:17Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T16:08:56Z'
-    confirmed_by: subagent-unspecified
-    rationale: "B5/B1: De heading-structuur is omgekeerd — artikelbody staat voor de artikelheading. Artikelen 4-16 worden als losse ###### headings vermeld na de samengebalde body-tekst van meerdere artikelen: bijv. de tekst van Art. 4-6 staat op r220-236, daarna komen de ####### headings 'Artikel 4 — Medeplichtigheid', 'Artikel 5 — Sancties', 'Artikel 6 — Verzwarende omstandigheden'. Dit is een extractor-artefact waarbij de heading na de body terechtkwam. Inhoud wel compleet."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-160243
-      run_at: '2026-05-12T16:02:43Z'
+      run_id: 20260512-191517
+      run_at: '2026-05-12T19:15:17Z'
       heading_count: 16
       max_section_chars: 20441
       file_size_chars: 39810
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-unspecified
-      run_at: '2026-05-12T16:08:56Z'
-      rationale: "B5/B1: De heading-structuur is omgekeerd — artikelbody staat voor de artikelheading. Artikelen 4-16 worden als losse ###### headings vermeld na de samengebalde body-tekst van meerdere artikelen: bijv. de tekst van Art. 4-6 staat op r220-236, daarna komen de ####### headings 'Artikel 4 — Medeplichtigheid', 'Artikel 5 — Sancties', 'Artikel 6 — Verzwarende omstandigheden'. Dit is een extractor-artefact waarbij de heading na de body terechtkwam. Inhoud wel compleet."
-      concrete_problemen:
-        - regel: 220
-          categorie: B5
-          type: other
-          voorbeeld: Artikel 4 Medeplichtigheid, uitlokking en poging (als heading NADER de body)
-        - regel: 242
-          categorie: B5
-          type: other
-          voorbeeld: Art. 4-16 headings staan ACHTER de bijbehorende body-tekst i.p.v. ervoor
 ---
 
 # Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld

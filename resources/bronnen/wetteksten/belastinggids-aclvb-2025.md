@@ -20,7 +20,7 @@ provenance:
     pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:02:44Z'
+  generated_at: '2026-05-12T19:15:24Z'
   stale: false
   stale_reason:
   trust:
@@ -29,6 +29,28 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: fail
+      run_id: 20260512-191524
+      run_at: '2026-05-12T19:15:24Z'
+      heading_count: 0
+      max_section_chars: 161033
+      file_size_chars: 161033
+      flags:
+        - name: heading_structure
+          status: warn
+          detail: bestand van 161033 chars heeft 0 headings (## of dieper) → degraded chunking
+          samples: []
+        - name: max_section_size
+          status: fail
+          detail: 'langste sectie: 161033 chars (>24000) — geen heading-structuur aanwezig'
+          samples: []
+        - name: no_toc_dots
+          status: warn
+          detail: 126 TOC-stippen-regel(s) gevonden
+          samples:
+            - '................................................................................'
+            - '................................................................................'
+            - '................................................................................'
     layer2:
 ---
 

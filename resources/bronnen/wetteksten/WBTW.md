@@ -1,77 +1,51 @@
 ---
-bijgewerkt: 19.12.2025
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["VI.A", "2.4"]
+itaa-lex-sectie: "VI.A"
+wet: "Wet 3 juli 1969 tot invoering van het Wetboek van de belasting over de toegevoegde waarde (WBTW)"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "19.12.2025"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 5
-  sub_strategy: null
-  type: Art.
-itaa-lex-sectie: VI.A
+  type: "Art."
+  sub_strategy:
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/WBTW-2026.pdf
-    sha256: 4892c9b4107878d21a7dc984c82a6e6f8619d05bb3fd058f34bfc144b0cf4d1e
-    version: 19.12.2025
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/WBTW-2026.pdf
+      sha256: 4892c9b4107878d21a7dc984c82a6e6f8619d05bb3fd058f34bfc144b0cf4d1e
+      version: 19.12.2025
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version: null
+    pipeline_version: 8add68e
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T19:13:31Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-09T20:31:38Z'
-    confirmed_by: subagent-sonnet-4-6
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 620256
-      flags:
-      - detail: 'langste sectie op #####-niveau: 58337 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
-      heading_count: 283
-      max_section_chars: 58337
-      run_at: '2026-05-11T13:40:48Z'
-      run_id: 20260511-134044
       status: warn
+      run_id: 20260512-191331
+      run_at: '2026-05-12T19:13:31Z'
+      heading_count: 349
+      max_section_chars: 58337
+      file_size_chars: 625344
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op #####-niveau: 58337 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
-      agent: null
-      concrete_problemen:
-      - regel: 0
-        type: other
-        voorbeeld: max_section_size warn (58337 chars) wordt opgevangen door split_long_chunk
-      rationale: 'Grote wettekst (620KB) met 283 headings tot ##### Art.-niveau; max
-        sectie 58337 chars (chunker splitst auto). Inhoud leesbaar, geen NL/FR-mengelmoes,
-        slot bijlages aanwezig.'
-      run_at: null
-      status: trusted
-    rationale: 'L1=warn; L1.5=improvement (Auto-synthesized: ETL-fixes vandaag (NBSP,
-      sub_strategy, justel-extractor, etc.) verbeteren bestaande versie.); L2=trusted
-      (Grote wettekst (620KB) met 283 headings tot ##### Art.-niveau; max sectie 58337
-      chars (chunker splitst auto). Inhoud leesbaar, geen NL/FR-mengelmoes, slot bijlages
-      aanwezig.)'
-    status: trusted
-status: beschikbaar
-tags:
-- VI.A
-- '2.4'
-wet: Wet 3 juli 1969 tot invoering van het Wetboek van de belasting over de toegevoegde
-  waarde (WBTW)
 ---
 
 # Wetboek van de Belasting over de Toegevoegde Waarde (WBTW)
 
 *Bijgewerkt tot en met 19.12.2025 — gecoördineerde versie.*
-
-## BELASTING OVER DE TOEGEVOEGDE WAARDE
-
-## FINANCIEN
-
-Algemene Administratie voor
-
-contact: comments.kms@minfin.fed.be
 
 ## BELASTING OVER DE TOEGEVOEGDE WAARDE
 

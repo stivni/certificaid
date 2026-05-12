@@ -1,12 +1,15 @@
 ---
-bijgewerkt: 12.02.2008
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["XXI", "4.0"]
+itaa-lex-sectie: "XXI"
+wet: "Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van beroepskwalificaties"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "12.02.2008"
+bron: "onbekend"
 chunk:
   level: 4
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: XXI
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Wet-beroepskwalificaties-2008.pdf
@@ -14,79 +17,31 @@ provenance:
       version: 12.02.2008
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:49Z'
+  generated_at: '2026-05-12T19:15:07Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B4 stelselmatig aanwezig: een twintigtal structuurlabels zoals 'Doel.', 'Toepassingsgebied.', 'Gevolgen van de erkenning.', 'Compenserende maatregelen.', 'Talenkennis.', 'Informatie ten behoeve van de afnemers van de dienst.', 'Bevoegde autoriteiten.', 'Inwerkingtreding.' enz. staan als plain-text regels (zonder ##/###-prefix). Een mens zou die als subheadings schrijven. Dit is een structureel ETL-probleem dat de gehele wet doorzet en retrieval-kwaliteit schaadt. Bovendien bevat de wet parallelle gewestrechtversies (Art. X en Art. X_WAALS_GEWEST naast elkaar), die niet structureel van elkaar zijn onderscheiden via headings — dit is echter inherent aan het brondocument. Laag-1 pass, maar B4-artefacten zijn wijdverspreid."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 173284
-      flags: []
-      heading_count: 89
-      max_section_chars: 17620
-      run_at: '2026-05-11T13:40:50Z'
-      run_id: 20260511-134044
       status: pass
+      run_id: 20260512-191507
+      run_at: '2026-05-12T19:15:08Z'
+      heading_count: 72
+      max_section_chars: 7781
+      file_size_chars: 85408
+      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "B4 stelselmatig aanwezig: een twintigtal structuurlabels zoals 'Doel.', 'Toepassingsgebied.', 'Gevolgen van de erkenning.', 'Compenserende maatregelen.', 'Talenkennis.', 'Informatie ten behoeve van de afnemers van de dienst.', 'Bevoegde autoriteiten.', 'Inwerkingtreding.' enz. staan als plain-text regels (zonder ##/###-prefix). Een mens zou die als subheadings schrijven. Dit is een structureel ETL-probleem dat de gehele wet doorzet en retrieval-kwaliteit schaadt. Bovendien bevat de wet parallelle gewestrechtversies (Art. X en Art. X_WAALS_GEWEST naast elkaar), die niet structureel van elkaar zijn onderscheiden via headings — dit is echter inherent aan het brondocument. Laag-1 pass, maar B4-artefacten zijn wijdverspreid."
-      concrete_problemen:
-        - regel: 72
-          categorie: B4
-          type: other
-          voorbeeld: Doel.
-        - regel: 84
-          categorie: B4
-          type: other
-          voorbeeld: Toepassingsgebied.
-        - regel: 98
-          categorie: B4
-          type: other
-          voorbeeld: Gevolgens van de erkenning.
-        - regel: 206
-          categorie: B4
-          type: other
-          voorbeeld: Toepassingsgebied.
-        - regel: 258
-          categorie: B4
-          type: other
-          voorbeeld: Informatie ten behoeve van de afnemers van de dienst.
-        - regel: 302
-          categorie: B4
-          type: other
-          voorbeeld: Compenserende maatregelen.
-        - regel: 420
-          categorie: B4
-          type: other
-          voorbeeld: Bevoegde autoriteiten.
-        - regel: 454
-          categorie: B4
-          type: other
-          voorbeeld: Inwerkingtreding.
-status: beschikbaar
-tags:
-  - XXI
-  - '4.0'
-wet: Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van beroepskwalificaties
 ---
 
 # Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van beroepskwalificaties
 
 *Bijgewerkt tot en met 12.02.2008 — gecoördineerde versie.*
-
-i) "bedrijfsleider" : eenieder die in een onderneming van de bedrijfstak in kwestie werkzaam is geweest :  - hetzij als bedrijfsleider of als leider van een filiaal van een onderneming;  - hetzij als plaatsvervanger van de ondernemer of van de bedrijfsleider indien deze functie, wat verantwoordelijkheid betreft, met die van de vertegenwoordigde ondernemer of bedrijfsleider overeenstemt, of  - hetzij als lid van het leidinggevend personeel, belast met commerciële en/of technische taken en verantwoordelijk voor één of meer afdelingen van de onderneming.  j) [ 1 "bevoegde Belgische autoriteit": autoriteit of instantie die haar bevoegdheid ontleent aan een wet of reglementering genomen krachtens een wet met het oog op het uitoefenen van een controle- of reglementeringsactiviteit van de toegang tot of de uitoefening van een beroep;] 1
-
-k) "Richtlijn" : de richtlijn 2005/36/EG van het Europees Parlement en de Raad van 7 september 2005 betreffende de erkenning van beroepskwalificaties [ 1 ...] 1 ;  l) [ 1 "lidstaat": lidstaat van de Europese Unie alsook de andere staten waarop de richtlijn van toepassing is;] 1
-
-m) "Aanvrager" : onderdaan van een lidstaat;  [ 1 n) "beroepsstage" : een periode van beroepsuitoefening onder toezicht, mits dit een voorwaarde voor de toegang tot een gereglementeerd beroep vormt en die ofwel tijdens of na afloop van een opleiding die leidt tot een diploma kan plaatsvinden;  o) "Europese beroepskaart" : een elektronisch certificaat dat wordt afgegeven hetzij ten bewijze dat de beroepsbeoefenaar aan alle noodzakelijke voorwaarden voldoet om tijdelijk en incidenteel diensten te verrichten in een ontvangende lidstaat of dat de beroepskwalificaties met het oog op vestiging in een ontvangende lidstaat erkend zijn;  p) "een leven lang leren" : alle vormen van algemeen onderwijs, beroepsonderwijs en beroepsopleidingen, niet- formeel onderwijs en informeel leren die gedurende het gehele leven plaatsvinden en die tot meer kennis, vaardigheden en competenties leiden, eventueel ook op het gebied van de beroepsethiek;  q) "dwingende redenen van algemeen belang" : redenen zoals in het bijzonder de openbare orde, de openbare veiligheid, de Staatsveiligheid, de volksgezondheid, de handhaving van het financiële evenwicht van het sociale zekerheidsstelsel, de bescherming van consumenten, afnemers van diensten en werknemers, de eerlijkheid van handelstransacties, de fraudebestrijding, de bescherming van het milieu en het stedelijke milieu, het dierenwelzijn, de intellectuele eigendom, het behoud van het nationaal historisch en artistiek erfgoed en doelstellingen van het sociaal beleid en het cultuurbeleid;  r) "Europees systeem voor de overdracht van studiepunten" of "ECTS-studiepunten" : het in het Europees hogeronderwijsstelsel gangbare studiepuntenoverdrachtsysteem;  s) "IMI" : het informatiesysteem van de interne markt beheerst door reglement 1024/2012/EU van het Europees Parlement en de Raad van 25 oktober 2012.] 1
 
 #### Art. 2_WAALS_GEWEST .  § 1. In deze wet wordt verstaan onder :  a) "gereglementeerd beroep" : een beroepswerkzaamheid of een geheel van beroepswerkzaamheden waartoe de toegang of waarvan de uitoefening of één van de wijzen van uitoefening krachtens wettelijke of bestuursrechtelijke bepalingen direct of indirect afhankelijk wordt gesteld van het bezit van bepaalde beroepskwalificaties; met name het voeren van een beroepstitel die door wettelijke of bestuursrechtelijke bepalingen beperkt is tot personen die een specifieke beroepskwalificatie bezitten, geldt als een wijze van uitoefening. Wanneer de eerste zin niet van toepassing is, wordt het in § 2 bedoelde beroep met een gereglementeerd beroep gelijkgesteld;  b) "beroepskwalificaties" : kwalificaties die worden gestaafd door een opleidingstitel, een bekwaamheidsattest zoals bedoeld in artikel 13, a), eerste streepje en/of beroepservaring;  c) "opleidingstitel" : een diploma, certificaat of andere titel die door een volgens de wettelijke of bestuursrechtelijke bepalingen van een lidstaat aangewezen autoriteit, is afgegeven ter afsluiting van een overwegend in de Europese [ 2 Unie] 2 gevolgde beroepsopleiding. Wanneer de eerste zin niet van toepassing is, wordt de in § 3 bedoelde opleidingstitel met een opleidingstitel gelijkgesteld;  d) "bevoegde autoriteit" : ieder gemachtigde autoriteit of instelling die met name bevoegd is bewijsstukken van opleiding en andere documenten of informatie af te geven, respectievelijk aan te nemen, alsmede aanvragen te ontvangen en besluiten te nemen zoals bedoeld in deze wet;  e) "gereglementeerde opleiding" : elke opleiding die specifiek op de uitoefening van een bepaald beroep gericht is en die uit een studiecyclus bestaat die eventueel met een beroepsopleiding, een beroepsstage of praktijkervaring wordt aangevuld;  De structuur en het niveau van de beroepsopleiding, de beroepsstage of de praktijkervaring worden in wettelijke of bestuursrechtelijke bepalingen van de betrokken lidstaat vastgesteld of door een daartoe aangewezen autoriteit gecontroleerd of erkend;  f) [ 2 "Beroepservaring": de daadwerkelijke en geoorloofde voltijdse of gelijkwaardige deeltijdse uitoefening van het betrokken beroep in een lidstaat;] 2
 
@@ -278,11 +233,11 @@ Administratieve samenwerking.
 
 #### Art. 10
 
-§ 1. [ 1 De bevoegde Belgische autoriteiten kunnen de bevoegde autoriteiten van de lidstaat van vestiging in geval van gegronde twijfel verzoeken om alle informatie over de rechtmatigheid van de vestiging en het goed gedrag van de dienstverrichter, alsmede over het ontbreken van eventuele tuchtrechtelijke of strafrechtelijke maatregelen met betrekking tot de beroepsuitoefening.  Indien een bevoegde Belgische autoriteit beslist de beroepskwalificaties van de houder van een kwalificatie die in België een activiteit wil uitoefenen met het oog op het tijdelijk en incidenteel verrichten van diensten in de zin van artikel 9, § 4, te controleren, kunnen zij bij de bevoegde autoriteiten van de lidstaat van vestiging informatie vragen over de opleidingen van de dienstverrichter, voor zover dit nodig is voor het beoordelen van wezenlijke verschillen die de volksgezondheid of de openbare veiligheid kunnen schaden.  De bevoegde Belgische autoriteiten verstrekken deze informatie op hun beurt overeenkomstig artikel 27.] 1
+§ 1. [ 1 De bevoegde Belgische autoriteiten kunnen de bevoegde autoriteiten van de lidstaat van vestiging in geval van gegronde twijfel verzoeken om alle informatie over de rechtmatigheid van de vestiging en het goed gedrag van de dienstverrichter, alsmede over het ontbreken van eventuele tuchtrechtelijke of strafrechtelijke maatregelen met betrekking tot de beroepsuitoefening.  Indien een bevoegde Belgische autoriteit beslist de beroepskwalificaties van de houder van een kwalificatie die in België een activiteit wil uitoefenen met het oog op het tijdelijk en incidenteel verrichten van diensten in de zin van artikel 9, § 4, te controleren, kunnen zij bij de bevoegde autoriteiten van de lidstaat van vestiging informatie vragen over de opleidingen van de dienstverrichter, voor zover dit nodig is voor het beoordelen van wezenlijke verschillen die de volksgezondheid of de openbare veiligheid kunnen schaden.  De bevoegde Belgische autoriteiten verstrekken deze informatie op hun beurt overeenkomstig artikel 27. ] 1
 
 § 2. De bevoegde Belgische autoriteiten zorgen voor de uitwisseling van alle nodige informatie opdat een klacht van een afnemer van een dienst tegen een dienstverrichter correct kan worden afgehandeld. De afnemer wordt van het resultaat van de klacht in kennis gesteld.  ----------  ( 1 )<W 2016-12-25/44, art. 20, 002; Inwerkingtreding : 10-02-2017>
 
-#### Art. 10_WAALS_GEWEST .   § 1. [ 2 De bevoegde autoriteiten kunnen de bevoegde autoriteiten van de lidstaat van vestiging in geval van gegronde twijfel verzoeken om alle informatie over de rechtmatigheid van de vestiging en het goed gedrag van de dienstverrichter, alsmede over het ontbreken van eventuele tuchtrechtelijke of strafrechtelijke maatregelen met betrekking tot de beroepsuitoefening.  Indien een bevoegde autoriteit beslist de beroepskwalificaties van de houder van een kwalificatie die in het Waalse Gewest een activiteit wil uitoefenen met het oog op het tijdelijk en incidenteel verrichten van diensten in de zin van artikel 9, § 4, te controleren, kunnen zij bij de bevoegde autoriteiten van de lidstaat van vestiging informatie vragen over de opleidingen van de dienstverrichter, voor zover dit nodig is voor het beoordelen van wezenlijke verschillen die de volksgezondheid of de openbare veiligheid kunnen schaden.  De bevoegde Belgische autoriteiten verstrekken deze informatie op hun beurt overeenkomstig artikel 27.] 2
+#### Art. 10_WAALS_GEWEST .   § 1. [ 2 De bevoegde autoriteiten kunnen de bevoegde autoriteiten van de lidstaat van vestiging in geval van gegronde twijfel verzoeken om alle informatie over de rechtmatigheid van de vestiging en het goed gedrag van de dienstverrichter, alsmede over het ontbreken van eventuele tuchtrechtelijke of strafrechtelijke maatregelen met betrekking tot de beroepsuitoefening.  Indien een bevoegde autoriteit beslist de beroepskwalificaties van de houder van een kwalificatie die in het Waalse Gewest een activiteit wil uitoefenen met het oog op het tijdelijk en incidenteel verrichten van diensten in de zin van artikel 9, § 4, te controleren, kunnen zij bij de bevoegde autoriteiten van de lidstaat van vestiging informatie vragen over de opleidingen van de dienstverrichter, voor zover dit nodig is voor het beoordelen van wezenlijke verschillen die de volksgezondheid of de openbare veiligheid kunnen schaden.  De bevoegde Belgische autoriteiten verstrekken deze informatie op hun beurt overeenkomstig artikel 27. ] 2
 
 § 2. De bevoegde Belgische autoriteiten zorgen voor de uitwisseling van alle nodige informatie opdat een klacht van een afnemer van een dienst tegen een dienstverrichter correct kan worden afgehandeld. De afnemer wordt van het resultaat van de klacht in kennis gesteld.  ----------  ( 1 )<W 2016-12-25/44, art. 20, 002; Inwerkingtreding : 10-02-2017>   ( 2 )<DWG 2017-07-12/16, art. 21, 004; Inwerkingtreding : 22-09-2017>
 

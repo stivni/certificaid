@@ -1,11 +1,15 @@
 ---
-bijgewerkt: 24.12.2025
-bron: ejustice.just.fgov.be (gecoördineerde versie)
+tags: ["V", "2.5", "2.6"]
+itaa-lex-sectie: "V"
+wet: "Wetboek Diverse Rechten en Taksen"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "24.12.2025"
+bron: "onbekend"
 chunk:
   level: 5
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: V
 provenance:
   inputs:
     - id: resources/raw/wetteksten/WDRT.pdf
@@ -13,72 +17,35 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:24Z'
+  generated_at: '2026-05-12T19:14:45Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B2: het bestand opent direct met `##### Art. 212` (regel 57) vóór elk `##`/`###`/`####` hoofdstuk-niveau — de eerste echte structuurheading `## Boek I` verschijnt pas op regel 59, waarna `##### Art. 1` volgt zonder tussenniveaus. Dit geeft een heading-sprong `#####` → `##` → `#####`. A6/A7: meerdere regels bevatten artikeltekst en wijzigingsmarkeringen samengeperst op één lange regel met inline regelafbrekingen i.p.v. alinea-indeling (zie bv. regel 67). D3: voetnoten als `(1)<KB...>` zijn inline in de body geplaatst direct na de artikeltekst zonder markdown-voetnoot-syntax.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 313896
-      flags:
-        - detail: 'langste sectie op #####-niveau: 55659 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          name: max_section_size
-          samples: []
-          status: warn
-      heading_count: 377
-      max_section_chars: 55659
-      run_at: '2026-05-11T13:40:48Z'
-      run_id: 20260511-134044
       status: warn
+      run_id: 20260512-191445
+      run_at: '2026-05-12T19:14:46Z'
+      heading_count: 347
+      max_section_chars: 29141
+      file_size_chars: 201150
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op #####-niveau: 29141 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: 'B2: het bestand opent direct met `##### Art. 212` (regel 57) vóór elk `##`/`###`/`####` hoofdstuk-niveau — de eerste echte structuurheading `## Boek I` verschijnt pas op regel 59, waarna `##### Art. 1` volgt zonder tussenniveaus. Dit geeft een heading-sprong `#####` → `##` → `#####`. A6/A7: meerdere regels bevatten artikeltekst en wijzigingsmarkeringen samengeperst op één lange regel met inline regelafbrekingen i.p.v. alinea-indeling (zie bv. regel 67). D3: voetnoten als `(1)<KB...>` zijn inline in de body geplaatst direct na de artikeltekst zonder markdown-voetnoot-syntax.'
-      concrete_problemen:
-        - regel: 57
-          categorie: B2
-          type: other
-          voorbeeld: '##### Art. 212 — verschijnt vóór ## Boek I (omgekeerde hiërarchie)'
-        - regel: 67
-          categorie: A6
-          type: scrambled-words
-          voorbeeld: '[ 2 ...] 2 .  [ 1 De belastingschuldige is:  1° de notaris...'
-        - regel: 69
-          categorie: D3
-          type: other
-          voorbeeld: '----------  ( 1 )<W 2022-05-18/04, art. 2, 052; Inwerkingtreding : 01-07-2022>'
-status: beschikbaar
-tags:
-  - V
-  - '2.5'
-  - '2.6'
-wet: Wetboek Diverse Rechten en Taksen
 ---
 
 # Wetboek Diverse Rechten en Taksen
 
 *Bijgewerkt tot en met 24.12.2025 — gecoördineerde versie.*
-
-##### Art. 212
-
-## Boek I. [Rechten op geschriften] <Opschrift ingevoegd bij W 2006-12-19/33, art. 3, Inwerkingtreding : 01-01- 2007>
-
-### Titel I. [Vestiging van het recht op geschriften] <Opschrift ingevoegd bij W 2006-12-19/33, art. 3, Inwerkingtreding : 01-01-2007>
-
-##### Art. 1
-
-<W 2006-12-19/33, art. 4, Inwerkingtreding : 01-01-2007> [ 1 Er wordt een recht, "recht op geschriften" genaamd, gevestigd op de [ 2 in België opgemaakte akten] 2 bedoeld in Titel II van dit Boek.] 1
-
-[ 2 ...] 2 .  [ 1 De belastingschuldige is:  1° de notaris voor zijn akten;  2° de gerechtsdeurwaarder voor zijn akten;  3° [ 2 ...] 2 .] 1
-
-----------  ( 1 )<W 2022-05-18/04, art. 2, 052; Inwerkingtreding : 01-07-2022>   ( 2 )<W 2025-12-19/35, art. 2, 065; Inwerkingtreding : 10-01-2026>
 
 ##### Art. 2 .  <Opgeheven bij W 2021-02-07/01, art. 26, 046; Inwerkingtreding : 01-03-2021>
 
@@ -690,7 +657,7 @@ Bij niet-aangifte, laattijdige, onnauwkeurige of onvolledige aangifte, alsook bi
 
 <W 2006-12-27/32, art. 332, Inwerkingtreding : 01-01-2007> Worden met de verzekeringen gelijkgesteld, de contracten van lijfrente of tijdelijke renten gesloten met een verzekeringsonderneming, elke verbintenis aangegaan door instellingen voor bedrijfspensioenvoorziening als bedoeld in artikel 2, 1°, van de wet van 27 oktober 2006 betreffende het toezicht op de instellingen voor bedrijfspensioenvoorziening of door andere pensioeninstellingen, alsmede de verbintenissen aangegaan door de rechtspersonen belast met de uitvoering van de solidariteitstoezegging bedoeld in de wet van 28 april 2003 betreffende de aanvullende pensioenen en het belastingstelsel van die pensioenen en van sommige aanvullende voordelen inzake sociale zekerheid.
 
-##### Art. 175. [Art. 175/1 geworden.] <W 1953-07-27/40, art. 16.>
+##### Art. 175. [Art. 175/1 geworden.] <W 1953-07-27/40, art. 16. >
 
 § 3. [Elke toezegging begrepen in de plannen die worden uitgevoerd door de verzekeringsondernemingen of pensioeninstellingen bedoeld in artikel 2, § 1 of § 3, van de wet van 9 juli 1975 betreffende de controle der verzekeringsondernemingen, of door de instellingen voor bedrijfspensioenvoorziening bedoeld in artikel 2, 1°, van de wet van 27 oktober 2006 betreffende het toezicht op de instellingen voor bedrijfspensioenvoorziening, wordt onderworpen aan het tarief dat op die bepaalde toezegging van toepassing is overeenkomstig §§ 1 en 2, indien:   – het collectief plan en de eventueel voorziene alternatieve individuele keuzemogelijkheden, op eenzelfde en niet- discriminerende wijze toegankelijk zijn voor alle aangeslotenen, zijnde alle werknemers of regelmatig bezoldigde bedrijfsleiders van eenzelfde onderneming of een bijzondere categorie ervan, en  – de eventuele toezegging bij overlijden van de aangeslotene, de eventuele toezegging bij arbeidsongeschiktheid van de aangeslotene en de eventuele toezegging medische kosten van de aangeslotene, kan onderschreven worden zonder uitsluiting op basis van een medisch onderzoek indien meer dan tien personen bij dat collectief plan zijn aangesloten, en  – dat plan door de verzekeringsonderneming, door de pensioeninstelling of door de instelling voor bedrijfspensioenvoorziening op een gedifferentieerde wijze wordt beheerd zodat te allen tijde voor elke belastingplichtige of belastingschuldige de toepassing van het specifieke regime inzake inkomstenbelastingen en met het zegel gelijkgestelde taksen kan worden gewaarborgd, zowel inzake de behandeling van de bijdragen of premies als van de uitkeringen.] <W 2006-12-27/32, art. 333, 3°, Inwerkingtreding : 01-01-2007>  In geval van een collectief plan waarbij voor alle aangeslotenen in een globaal premiebudget wordt voorzien en iedere aangeslotene zelf vrij de aanwending van dit premiebudget mag invullen en ventileren over de verschillende in het plan aangeboden dekkingen, moet er in een standaard toezegging worden voorzien. In afwachting van een keuze of indien de aangeslotene geen keuze maakt, wordt de standaard toezegging voor deze aangeslotene toegepast. Voor elke dekking wordt in een standaard dekking voorzien. Het verbod van uitsluiting op grond van een medisch onderzoek geldt zowel voor deze standaard dekking als de standaard toezeggingen; de standaard dekkingen en de standaard toezegging moeten in het reglement worden omschreven en een betekenisvolle inhoud hebben.  § 4. Bij niet-naleving van één van de in § 3 vermelde voorwaarden wordt op alle toezeggingen begrepen in een in § 3 bedoeld plan, het in § 1 bepaalde tarief toegepast.    ----------  ( 1 )<W 2018-02-18/07, art. 67, 030; Inwerkingtreding : 30-06-2018>   ( 2 )<W 2018-12-06/23, art. 51, 033; Inwerkingtreding : 27-03-2019>   ( 3 )<W 2025-12-19/35, art. 14, 065; Inwerkingtreding : 10-01-2026>
 
@@ -817,7 +784,7 @@ Wanneer de opgave niet binnen de bedoelde termijn werd ingediend, wordt een boet
 
 ##### Art. 186
 
-<W 1992-12-28/32, art. 117, Inwerkingtreding : 01-01-1993> § 1. De opeisbare taks wordt berekend:  1° wat de levensverzekeringscontracten betreft waarvoor op de datum dat de verzekeringnemer de leeftijd van 60 jaar bereikt heeft geen prestaties worden betaald of toegekend, op het bedrag van de theoretische afkoopwaarde vastgesteld op de dag waarop de verzekeringnemer de leeftijd van 60 jaar bereikt heeft. Onder theoretische afkoopwaarde wordt verstaan de reserve bij de verzekeringsonderneming gevormd door de kapitalisatie van de betaalde premies, rekening houdend met de verbruikte sommen;  2° wat de levensverzekeringscontracten betreft waarvoor prestaties betaald of toegekend worden op de datum waarop de verzekeringnemer de leeftijd van 60 jaar bereikt heeft, op het kapitaal of de afkoopwaarde. Wanneer de prestaties de vorm van renten of pensioenen hebben, wordt de taks berekend op het vestigingskapitaal van die rente of dat pensioen, vastgesteld op die datum;  3° wat de spaarrekeningen betreft, op het spaartegoed geplaatst op dergelijke rekeningen, vastgesteld op de dag waarop de rekeninghouder de leeftijd van 60 jaar bereikt heeft, hetzij overeenkomstig artikel 34, § 3, van het Wetboek van de inkomstenbelastingen 1992, zoals het bestond voor dat het door artikel 75 van de wet van 28 december 1992 werd gewijzigd, wat de stortingen vóór 1 januari 1992 betreft, hetzij overeenkomstig artikel 34, § 3, van hetzelfde Wetboek, wat de stortingen gedaan vanaf 1 januari 1992 betreft.  § 2. Voor de gevallen vermeld in artikel 184, § 2, eerste lid, zijn de in § 1 gestelde regels niet van toepassing op de dag waarop de verzekeringnemer of de rekeninghouder de leeftijd van 60 jaar bereikt heeft, maar op de dag van de tiende verjaardag van de datum van het afsluiten van het contract of het openen van de rekening.  Voor de gevallen vermeld in artikel 184, § 2, tweede lid, zijn de in § 1, 2° en 3° gestelde regels van toepassing op de dag waarop de afkoopwaarde of het spaartegoed betaald of toegekend worden.  § 3. [ 1 De vervroegde inning bedoeld bij artikel 185, § 4, wordt berekend:  1° wat de spaarverzekeringen in het kader van pensioensparen betreft, op het bedrag van de theoretische afkoopwaarde, samengesteld door de premies, bijdragen of stortingen, zoals vastgesteld op 31 december 2014;  2° wat de spaarrekeningen betreft, op het spaartegoed geplaatst op dergelijke rekeningen, zoals vastgesteld op 31 december 2014.  Indien de taks op het lange termijnsparen betaalbaar is tijdens de jaren 2015 tot 2019 krachtens artikel 184 van het Wetboek diverse rechten en taksen, is de vervroegde inning betaalbaar tot het jaar voorafgaand aan het tijdstip van de betaling van de taks.  Het bedrag van de vervroegde inning wordt afgetrokken van de taks verschuldigd op het tijdstip bepaald bij artikel 184.] 1
+<W 1992-12-28/32, art. 117, Inwerkingtreding : 01-01-1993> § 1. De opeisbare taks wordt berekend:  1° wat de levensverzekeringscontracten betreft waarvoor op de datum dat de verzekeringnemer de leeftijd van 60 jaar bereikt heeft geen prestaties worden betaald of toegekend, op het bedrag van de theoretische afkoopwaarde vastgesteld op de dag waarop de verzekeringnemer de leeftijd van 60 jaar bereikt heeft. Onder theoretische afkoopwaarde wordt verstaan de reserve bij de verzekeringsonderneming gevormd door de kapitalisatie van de betaalde premies, rekening houdend met de verbruikte sommen;  2° wat de levensverzekeringscontracten betreft waarvoor prestaties betaald of toegekend worden op de datum waarop de verzekeringnemer de leeftijd van 60 jaar bereikt heeft, op het kapitaal of de afkoopwaarde. Wanneer de prestaties de vorm van renten of pensioenen hebben, wordt de taks berekend op het vestigingskapitaal van die rente of dat pensioen, vastgesteld op die datum;  3° wat de spaarrekeningen betreft, op het spaartegoed geplaatst op dergelijke rekeningen, vastgesteld op de dag waarop de rekeninghouder de leeftijd van 60 jaar bereikt heeft, hetzij overeenkomstig artikel 34, § 3, van het Wetboek van de inkomstenbelastingen 1992, zoals het bestond voor dat het door artikel 75 van de wet van 28 december 1992 werd gewijzigd, wat de stortingen vóór 1 januari 1992 betreft, hetzij overeenkomstig artikel 34, § 3, van hetzelfde Wetboek, wat de stortingen gedaan vanaf 1 januari 1992 betreft.  § 2. Voor de gevallen vermeld in artikel 184, § 2, eerste lid, zijn de in § 1 gestelde regels niet van toepassing op de dag waarop de verzekeringnemer of de rekeninghouder de leeftijd van 60 jaar bereikt heeft, maar op de dag van de tiende verjaardag van de datum van het afsluiten van het contract of het openen van de rekening.  Voor de gevallen vermeld in artikel 184, § 2, tweede lid, zijn de in § 1, 2° en 3° gestelde regels van toepassing op de dag waarop de afkoopwaarde of het spaartegoed betaald of toegekend worden.  § 3. [ 1 De vervroegde inning bedoeld bij artikel 185, § 4, wordt berekend:  1° wat de spaarverzekeringen in het kader van pensioensparen betreft, op het bedrag van de theoretische afkoopwaarde, samengesteld door de premies, bijdragen of stortingen, zoals vastgesteld op 31 december 2014;  2° wat de spaarrekeningen betreft, op het spaartegoed geplaatst op dergelijke rekeningen, zoals vastgesteld op 31 december 2014.  Indien de taks op het lange termijnsparen betaalbaar is tijdens de jaren 2015 tot 2019 krachtens artikel 184 van het Wetboek diverse rechten en taksen, is de vervroegde inning betaalbaar tot het jaar voorafgaand aan het tijdstip van de betaling van de taks.  Het bedrag van de vervroegde inning wordt afgetrokken van de taks verschuldigd op het tijdstip bepaald bij artikel 184. ] 1
 
 ----------  ( 1 )<W 2014-12-19/07, art. 104, 016; Inwerkingtreding : 01-01-2015>
 

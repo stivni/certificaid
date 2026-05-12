@@ -1,90 +1,46 @@
 ---
-bijgewerkt: 16.03.2026
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
+tags: ["VIII", "2.6"]
+itaa-lex-sectie: "VIII"
+wet: "Wetboek der Registratie-, Hypotheek- en Griffierechten — Waals Gewest"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "16.03.2026"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 6
-  sub_strategy: null
-  type: Art.
-itaa-lex-sectie: VIII
+  type: "Art."
+  sub_strategy:
 provenance:
-  generated_at: '2026-05-11T16:34:21Z'
   inputs:
-  - id: resources/raw/wetteksten/Registratierechten-Waals.pdf
-    sha256: a2c239adbf6000aaa82c66c263fc70bc8a360cdc6ce462da3a548998b9d0864c
-    version: 16.03.2026
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/Registratierechten-Waals.pdf
+      sha256: a2c239adbf6000aaa82c66c263fc70bc8a360cdc6ce462da3a548998b9d0864c
+      version: 16.03.2026
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version: null
+    pipeline_version: 8add68e
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T19:13:53Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T16:30:31Z'
-    confirmed_by: subagent-sonnet-4-6
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 609384
-      flags:
-      - detail: 'langste sectie op ######-niveau: 58101 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
-      - detail: 74 TOC-stippen-regel(s) gevonden
-        name: no_toc_dots
-        samples:
-        - '................................................................................'
-        - '................................................................................'
-        - '................................................................................'
-        status: warn
-      heading_count: 609
-      max_section_chars: 58101
-      run_at: '2026-05-11T13:40:46Z'
-      run_id: 20260511-134044
       status: warn
+      run_id: 20260512-191353
+      run_at: '2026-05-12T19:13:54Z'
+      heading_count: 544
+      max_section_chars: 58101
+      file_size_chars: 593919
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ######-niveau: 58101 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen:
-      - categorie: A3
-        regel: 107
-        type: other
-        voorbeeld: 'Wetgeving van toepassing in het WAALS GEWEST
-
-
-          Wetgeving van toepassing in het WAALS GEWEST'
-      - categorie: A3
-        regel: 111
-        type: other
-        voorbeeld: (KB nr. 64 van 30.11.1939...) [tweemaal identiek herhaald]
-      - categorie: B2
-        regel: 101
-        type: other
-        voorbeeld: '## HYPOTHEEK- EN GRIFFIERECHTEN
-
-
-          ## WAALS GEWEST'
-      rationale: 'Bevestiging van eerdere layer2-beoordeling. Duplicate cover-intro
-        regels bovenaan (A3, r.107-108: ''Wetgeving van toepassing in het WAALS GEWEST''
-        tweemaal; r.111-113: KB-citaat tweemaal). Zelfde B2-probleem als Brussel:
-        ''## HYPOTHEEK- EN GRIFFIERECHTEN'' en ''## WAALS GEWEST'' als losse headings
-        voor TITEL I. TIJDELIJKE BEPALINGEN (r.7145-equivalent), OVERGANGSBEPALINGEN
-        en INWERKINGTREDING zijn hier wél als ## headings gemarkeerd — correct. Tarieftabellen
-        met kolom-bleed (NL/FR tabelkoppen op afzonderlijke regels, grenseval).'
-      run_at: '2026-05-11T16:30:31Z'
-      status: needs-rework
-    rationale: 'Bevestiging van eerdere layer2-beoordeling. Duplicate cover-intro
-      regels bovenaan (A3, r.107-108: ''Wetgeving van toepassing in het WAALS GEWEST''
-      tweemaal; r.111-113: KB-citaat tweemaal). Zelfde B2-probleem als Brussel: ''##
-      HYPOTHEEK- EN GRIFFIERECHTEN'' en ''## WAALS GEWEST'' als losse headings voor
-      TITEL I. TIJDELIJKE BEPALINGEN (r.7145-equivalent), OVERGANGSBEPALINGEN en INWERKINGTREDING
-      zijn hier wél als ## headings gemarkeerd — correct. Tarieftabellen met kolom-bleed
-      (NL/FR tabelkoppen op afzonderlijke regels, grenseval).'
-    status: needs-rework
-status: beschikbaar
-tags:
-- VIII
-- '2.6'
-wet: Wetboek der Registratie-, Hypotheek- en Griffierechten — Waals Gewest
 ---
 
 # Registratierechten — Waals Gewest
@@ -5538,7 +5494,7 @@ Voor de toepassing van de bepalingen van dit Wetboek, van de bijzondere wetsbepa
 
 1° aangetekende zending: hetzij de briefwisseling, al dan niet vergezeld van een ontvangstbevestiging, neergelegd bij de aanbieder van de universele postdienst, een aanbieder van postdiensten of een gekwalificeerde verlener van vertrouwensdiensten die voldoet aan de vereisten van artikel 44 van Verordening (EU) nr. 910 /2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties binnen de interne markt en tot intrekking van Richtlijn 1999/93/CE, en al dan niet elektronisch verzonden door een van hen naar een vooraf aangewezen ontvanger, die toelaat om de datum van verzending en ontvangst van de briefwisseling door de bestemmeling aan te tonen, hetzij het bericht dat door de dienst voor het versturen en ontvangen van elektronische berichten door bepaalde overheidsdiensten aangeboden aan de natuurlijke personen of hun vertegenwoordigers door de Federale Overheidsdienst belast met de Digitale Agenda en aan houders van een ondernemingsnummer zoals gedefinieerd in artikel III.16 van het Wetboek van economisch recht of aan hun vertegenwoordigers door de Rijksdienst voor Sociale Zekerheid;
 
-2° beveiligd elektronisch platform: elke computertoepassing ter beschikking gesteld door de Federale elektronische diensten aanbiedt om elektronische berichten uit te wisselen met de Federale Overheidsdienst Financiën op voorwaarde dat de authenticatie en identificatie worden uitgevoerd in toepassing van hoofdstuk 4 van de wet van 18 juli 2017 inzake elektronische identificatie door middel van een stelsel voor elektronische identificatie zoals bedoeld in art. 8., 2., van Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van Richtlijn (EG) 1999/93, dat ten minste een substantieel veiligheidsniveau in de zin van artikel 8., 2., b) van bovengenoemde Verordening inzake de integriteit van de inhoud, de tijdsaanduiding, en zo ook de bewaring van het verzonden bericht garandeert.
+2° beveiligd elektronisch platform: elke computertoepassing ter beschikking gesteld door de Federale elektronische diensten aanbiedt om elektronische berichten uit te wisselen met de Federale Overheidsdienst Financiën op voorwaarde dat de authenticatie en identificatie worden uitgevoerd in toepassing van hoofdstuk 4 van de wet van 18 juli 2017 inzake elektronische identificatie door middel van een stelsel voor elektronische identificatie zoals bedoeld in art. 8. , 2., van Verordening (EU) nr. 910/2014 van het Europees Parlement en de Raad van 23 juli 2014 betreffende elektronische identificatie en vertrouwensdiensten voor elektronische transacties in de interne markt en tot intrekking van Richtlijn (EG) 1999/93, dat ten minste een substantieel veiligheidsniveau in de zin van artikel 8. , 2., b) van bovengenoemde Verordening inzake de integriteit van de inhoud, de tijdsaanduiding, en zo ook de bewaring van het verzonden bericht garandeert.
 
 TOEKOMSTIG RECHT (vanaf 01.01.2028)
 

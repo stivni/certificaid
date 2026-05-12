@@ -17,10 +17,10 @@ provenance:
       version: 03.02.2026
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f9ce762-dirty
+    pipeline_version: 8add68e
     model:
     prompt_version:
-  generated_at: '2026-05-12T18:20:43Z'
+  generated_at: '2026-05-12T19:14:02Z'
   stale: false
   stale_reason:
   trust:
@@ -29,6 +29,17 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: warn
+      run_id: 20260512-191403
+      run_at: '2026-05-12T19:14:03Z'
+      heading_count: 232
+      max_section_chars: 31069
+      file_size_chars: 333930
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op #####-niveau: 31069 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
 ---
 

@@ -1,71 +1,49 @@
 ---
-bijgewerkt: '2024'
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["VI.B", "2.4"]
+itaa-lex-sectie: "VI.B"
+wet: "K.B. 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem moet voldoen"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "2024"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 2
-  sub_strategy: null
-  type: Art.
-itaa-lex-sectie: VI.B
+  type: "Art."
+  sub_strategy:
 provenance:
-  generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-GKS.pdf
-    sha256: da9aaad56c0edfe76ed480b9a7332ba627aeedb8cbe72c3f3fc83d074d9b459a
-    version: '2024'
-  stale: false
-  stale_reason: null
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-GKS.pdf
+      sha256: da9aaad56c0edfe76ed480b9a7332ba627aeedb8cbe72c3f3fc83d074d9b459a
+      version: '2024'
   tooling:
-    model: null
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
-    prompt_version: null
+    pipeline_version: 8add68e
+    model:
+    prompt_version:
+  generated_at: '2026-05-12T19:14:14Z'
+  stale: false
+  stale_reason:
   trust:
-    confirmed_at: '2026-05-11T16:30:31Z'
-    confirmed_by: subagent-sonnet-4-6
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      file_size_chars: 7558
-      flags: []
-      heading_count: 6
-      max_section_chars: 2847
-      run_at: '2026-05-11T13:40:47Z'
-      run_id: 20260511-134044
       status: pass
+      run_id: 20260512-191415
+      run_at: '2026-05-12T19:14:15Z'
+      heading_count: 4
+      max_section_chars: 2847
+      file_size_chars: 5654
+      flags: []
     layer2:
-      agent: subagent-sonnet-4-6
-      concrete_problemen: []
-      rationale: 'Kort bestand (4 artikelen + Art. 2bis, Art. 3, Art. 4). Laag-1 pass,
-        geen flags. Body is clean: geen form-feed, geen pseudo-tabellen, geen OCR-fouten.
-        Amendement-markers [1 … ]1, [2 … ]2, [3 … ]3 correct gesloten. Art. 1 heeft
-        een opvallende structuur (de inhoud staat feitelijk in de buurt van de inleiding
-        vóór ## Art. 2), maar dit is een eigenaardigheid van de wettekst zelf (TOEKOMSTIG
-        RECHT-blok met verwijzing naar eerdere versie) en geen ETL-artefact.'
-      run_at: '2026-05-11T16:30:31Z'
-      status: trusted
-    rationale: 'Kort bestand (4 artikelen + Art. 2bis, Art. 3, Art. 4). Laag-1 pass,
-      geen flags. Body is clean: geen form-feed, geen pseudo-tabellen, geen OCR-fouten.
-      Amendement-markers [1 … ]1, [2 … ]2, [3 … ]3 correct gesloten. Art. 1 heeft
-      een opvallende structuur (de inhoud staat feitelijk in de buurt van de inleiding
-      vóór ## Art. 2), maar dit is een eigenaardigheid van de wettekst zelf (TOEKOMSTIG
-      RECHT-blok met verwijzing naar eerdere versie) en geen ETL-artefact.'
-    status: trusted
-status: beschikbaar
-tags:
-- VI.B
-- '2.4'
-wet: K.B. 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan
-  een geregistreerd kassasysteem moet voldoen
 ---
 
 # BTW KB — Geregistreerd kassasysteem (GKS)
 
 *Bijgewerkt tot en met 2024 — gecoördineerde versie.*
 
-Titel
-
 30 DECEMBER 2009. - Koninklijk besluit tot het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem ... moet voldoen <KB 2024-04-24/18, art. 1, 005; Inwerkingtreding : 01-07-2027>
-
-Bron : FINANCIEN
 
 i) de identificatie van de kassa/terminal;
 j) het algoritme berekend op basis van de vermeldingen opgenomen in de voorgaande punten a) tot en met i) ;
