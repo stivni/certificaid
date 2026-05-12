@@ -300,9 +300,17 @@ _PAGE_NOISE = re.compile(
 #   "NL   L 77/4  Publicatieblad van de Europese Unie  23.3.2011"
 #   "11.9.2002 L 243/1 Publicatieblad van de Europese Gemeenschappen NL"
 #   "11.12.2006 NL Publicatieblad   van   de   Europese   Unie L   347/21"
+#   "Nr . L 326 / 40 Publikatieblad van de Europese Gemeenschappen 21 . 11 . 86"
+#       (oudere PDFs uit jaren-80: `Nr . L` prefix, spaties in datum,
+#        spelling met `k` en jaar 2-cijfers)
 _EU_PB_HEADER_RE = re.compile(
-    r"^(?:NL\s+|(?:\d{1,2}\.\d{1,2}\.\d{4}\s+))"  # "NL " of datum-prefix
-    r".*?(?:Publicatieblad|L\s+\d+/\d+).*$",
+    r"^(?:"
+    r"NL\s+"                                                # "NL " prefix
+    r"|(?:\d{1,2}\s*\.\s*\d{1,2}\s*\.\s*\d{2,4}\s+)"          # datum-prefix; spaties
+                                                              # in datum OK, jaar 2-4 cijfers
+    r"|(?:Nr\s*\.\s*L\s+\d+\s*/\s*\d+\s+)"                   # "Nr . L 326 / 40 " (legacy)
+    r")"
+    r".*?(?:Publi[ck]atieblad|L\s+\d+/\d+).*$",              # k|c spelling
     re.I,
 )
 

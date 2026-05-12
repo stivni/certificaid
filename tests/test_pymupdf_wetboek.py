@@ -111,3 +111,76 @@ def test_clean_strips_marker_with_whitespace_between_arrow_and_code():
     assert _clean_block_text("► M1 Richtlijn 2014/95", eu_mode=True).strip() == "Richtlijn 2014/95"
     assert _clean_block_text("► C1 foo", eu_mode=True).strip() == "foo"
     assert _clean_block_text("▼ M3 bar", eu_mode=True).strip() == "bar"
+
+
+# ─── PB-header detection (_is_noise_block) ────────────────────────────────────
+
+def test_is_noise_pb_header_modern_NL_prefix():
+    """Moderne PB-header: 'NL   L 77/4  Publicatieblad van de Europese Unie  23.3.2011'."""
+    from tools.lib.extractors.pymupdf_wetboek import _is_noise_block
+    assert _is_noise_block(
+        "NL   L 77/4  Publicatieblad van de Europese Unie  23.3.2011",
+        eu_mode=True,
+    )
+
+
+def test_is_noise_pb_header_modern_date_prefix():
+    """PB-header met datum-prefix: '11.9.2002 L 243/1 Publicatieblad ... NL'."""
+    from tools.lib.extractors.pymupdf_wetboek import _is_noise_block
+    assert _is_noise_block(
+        "11.9.2002 L 243/1 Publicatieblad van de Europese Gemeenschappen NL",
+        eu_mode=True,
+    )
+
+
+def test_is_noise_pb_header_legacy_Nr_prefix_with_spaces():
+    """Oudere PB-header (1986-stijl): 'Nr . L 326 / 40 Publikatieblad ... 21 . 11 . 86'.
+
+    REGRESSIE-FIX: BTW-dertiende-richtlijn-1986 had deze niet-gestripte header
+    op regel 46. Bevat:
+    - `Nr . L` prefix (i.p.v. `NL` of datum)
+    - spaties IN datum (`21 . 11 . 86`)
+    - oude spelling `Publikatieblad` (k)
+    - jaar 2-cijfers (`86` i.p.v. `1986`)
+    """
+    from tools.lib.extractors.pymupdf_wetboek import _is_noise_block
+    assert _is_noise_block(
+        "Nr . L 326 / 40 Publikatieblad van de Europese Gemeenschappen 21 . 11 . 86",
+        eu_mode=True,
+    )
+
+
+def test_is_noise_pb_header_legacy_date_with_spaces_2digit_year():
+    """Legacy PB-header met datum-prefix MET SPATIES en 2-cijfer jaar.
+
+    Voorbeeld uit BTW-dertiende-richtlijn-1986: omgekeerde header-volgorde met
+    datum eerst, en spaties tussen datumcomponenten:
+      '21 . 11 . 86 Publikatieblad van de Europese Gemeenschappen Nr . L 326 / 41'
+    """
+    from tools.lib.extractors.pymupdf_wetboek import _is_noise_block
+    assert _is_noise_block(
+        "21 . 11 . 86 Publikatieblad van de Europese Gemeenschappen Nr . L 326 / 41",
+        eu_mode=True,
+    )
+
+
+def test_is_noise_does_not_match_legitimate_content():
+    """Geen valse positieven: normale wettekst niet als noise behandelen."""
+    from tools.lib.extractors.pymupdf_wetboek import _is_noise_block
+    assert not _is_noise_block(
+        "Deze richtlijn is van toepassing op natuurlijke en rechtspersonen.",
+        eu_mode=True,
+    )
+    assert not _is_noise_block(
+        "Artikel 1. Voor de toepassing van deze richtlijn wordt verstaan onder...",
+        eu_mode=True,
+    )
+
+
+def test_is_noise_eu_mode_off_does_not_strip_pb_header():
+    """Zonder eu_mode worden EU-specifieke PB-headers niet als noise gevlagd."""
+    from tools.lib.extractors.pymupdf_wetboek import _is_noise_block
+    assert not _is_noise_block(
+        "NL   L 77/4  Publicatieblad van de Europese Unie  23.3.2011",
+        eu_mode=False,
+    )

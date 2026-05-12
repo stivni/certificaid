@@ -20,51 +20,28 @@ provenance:
     pipeline_version: f9ce762
     model:
     prompt_version:
-  generated_at: '2026-05-12T15:58:10Z'
+  generated_at: '2026-05-12T18:10:29Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T16:08:56Z'
-    confirmed_by: subagent-unspecified
-    rationale: "A9/A1: PB-koptekst op regel 46 ('Nr . L 326 / 40 Publikatieblad van de Europese Gemeenschappen 21 . 11 . 86') is niet weggefiltered. A7: scrambled heading op regel 154 ('## Art. 17. ,   lid   4 ,   laatste   z^in ,   van   Richtlijn   77 / 388 / EEG   en') — dit is een gebroken artikelverwijzing die als ## heading is terechtgekomen met OCR-fout ('z^in' i.p.v. 'zin'). A6: uitgebreide spaced-letter ruis door gehele body (regelreferenties zoals '77 / 388 / EEG', afgebroken woorden 'grond  gebied', 'woon  plaats'). B3: lege heading '## plichtigen' op regel 82 is fragment van richtlijnhoofding."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-160242
-      run_at: '2026-05-12T16:02:42Z'
+      run_id: 20260512-181048
+      run_at: '2026-05-12T18:10:48Z'
       heading_count: 11
-      max_section_chars: 2435
-      file_size_chars: 8026
+      max_section_chars: 2359
+      file_size_chars: 7874
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-unspecified
-      run_at: '2026-05-12T16:08:56Z'
-      rationale: "A9/A1: PB-koptekst op regel 46 ('Nr . L 326 / 40 Publikatieblad van de Europese Gemeenschappen 21 . 11 . 86') is niet weggefiltered. A7: scrambled heading op regel 154 ('## Art. 17. ,   lid   4 ,   laatste   z^in ,   van   Richtlijn   77 / 388 / EEG   en') — dit is een gebroken artikelverwijzing die als ## heading is terechtgekomen met OCR-fout ('z^in' i.p.v. 'zin'). A6: uitgebreide spaced-letter ruis door gehele body (regelreferenties zoals '77 / 388 / EEG', afgebroken woorden 'grond  gebied', 'woon  plaats'). B3: lege heading '## plichtigen' op regel 82 is fragment van richtlijnhoofding."
-      concrete_problemen:
-        - regel: 46
-          categorie: A1
-          type: form-feed
-          voorbeeld: Nr . L 326 / 40 Publikatieblad van de Europese Gemeenschappen 21 . 11 . 86
-        - regel: 82
-          categorie: B3
-          type: other
-          voorbeeld: '## plichtigen'
-        - regel: 154
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: '## Art. 17. ,   lid   4 ,   laatste   z^in ,   van   Richtlijn   77 / 388 / EEG   en'
-        - regel: 100
-          categorie: A6
-          type: other
-          voorbeeld: op het betrokken grond  gebied noch de zetel van zijn bedrijfsuitoefening
 ---
 
 # Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen
 
 *Bijgewerkt tot en met 21.11.1986 — gecoördineerde versie.*
-
-Nr . L 326 / 40 Publikatieblad van de Europese Gemeenschappen 21 . 11 . 86
 
 ## ( Besluiten waarvan de publikatie niet voorwaarde is voor de toepassing )
 
@@ -127,8 +104,6 @@ sten , die zijn vrijgesteld uit hoofde van artikel 14 , lid 1 , onder i ), artik
 B , C en D , van Richtlijn 77 / 388 / EEG ; b ) diensten in de gevallen waarin de belasting uitslui
 
 tend verschuldigd is door de ontvanger overeen  komstig artikel 21 , lid 1 , onder b ), van Richtlijn 77 / 388 / EEG ;
-
-21 . 11 . 86 Publikatieblad van de Europese Gemeenschappen Nr . L 326 / 41
 
 2 . „ grondgebied van de Gemeenschap " de gebieden van
 
