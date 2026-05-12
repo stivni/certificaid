@@ -1581,9 +1581,7 @@ sources:
     status: volledig
     note: "Praktische gids FOD Financiën — uitleg per code/vak; jaarlijks te vervangen"
     extract:
-      method: pdftotext_ejustice
-      params:
-        simple_mode: true
+      method: pdftotext_narratief
   toelichting-VenB-2025:
     bron_rol: praktijkgids
     raw: resources/raw/wetteksten/toelichting-VenB-2025.pdf
@@ -1594,9 +1592,7 @@ sources:
     status: volledig
     note: "Praktische gids FOD Financiën — uitleg per code bij de Biztax-aangifte; jaarlijks te vervangen"
     extract:
-      method: pdftotext_ejustice
-      params:
-        simple_mode: true
+      method: pdftotext_narratief
   toelichting-PB-2025-deel2:
     bron_rol: praktijkgids
     raw: resources/raw/wetteksten/toelichting-PB-2025-deel2.pdf
@@ -1607,9 +1603,7 @@ sources:
     status: volledig
     note: "Deel 2: belastingverminderingen, aftrekbare bestedingen"
     extract:
-      method: pdftotext_ejustice
-      params:
-        simple_mode: true
+      method: pdftotext_narratief
   belastinggids-aclvb-2025:
     bron_rol: praktijkgids
     raw: resources/raw/wetteksten/belastinggids-aclvb-2025.pdf
@@ -1620,9 +1614,7 @@ sources:
     status: volledig
     note: "Praktische PB-gids voor werknemers; nuttig als toegankelijk overzicht naast officiële toelichtingen"
     extract:
-      method: pdftotext_ejustice
-      params:
-        simple_mode: true
+      method: pdftotext_narratief
   MAR-vzw:
     bron_rol: normatief
     raw: resources/raw/handcrafted/MAR-vzw.md
@@ -1644,9 +1636,7 @@ sources:
     status: volledig
     note: "Educatief overzicht alle Belgische belastingen — geen circulaire, maar gezaghebbend overzichtswerk van FOD Financiën zelf"
     extract:
-      method: pdftotext_ejustice
-      params:
-        simple_mode: true
+      method: pdftotext_narratief
   Belastingalmanak-2026:
     bron_rol: praktijkgids
     raw: resources/raw/wetteksten/Belastingalmanak-2026.pdf
