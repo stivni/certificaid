@@ -72,6 +72,10 @@ DEFAULT_CHAINS: dict[str, list[str]] = {
     "pdftotext_ejustice":       ["cleanup_basics", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],
     "custom_wetboek":           ["cleanup_basics", "strip_fisconet_artefacts", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],
     "custom_wib92":             ["cleanup_basics", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],
+    # iesba: structuur (headings, bold para-nummers) al door extractor gedaan;
+    # merge_wrapped_lines en inject_headings_wettekst zijn niet geschikt voor
+    # Engelstalig materiaal zonder artikelhiërarchie.
+    "iesba":                    ["cleanup_basics", "emit_frontmatter"],
     "justel_html":              ["cleanup_basics", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],
     "justel_change_lg":         ["cleanup_basics", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],
     "justel_bs_bilingual":      ["cleanup_basics", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],
@@ -314,6 +318,11 @@ def _cleanup_steps_for(cfg: dict, method: str) -> list[str]:
         # die het reeds geconverteerde markdown zou kunnen breken.
         return ["collapse_blank_lines"] + list(cfg.get("cleanup", []))
     if method in ("justel_html", "justel_change_lg", "justel_bs_bilingual"):
+        return ["collapse_blank_lines"]
+    if method == "iesba":
+        # Extractor levert al gestructureerde markdown (headings, bold para-nummers).
+        # merge_wrapped_lines en inject_headings_wettekst zijn niet geschikt voor
+        # Engelstalig materiaal zonder artikelhiërarchie.
         return ["collapse_blank_lines"]
     return list(DEFAULT_STEPS)
 

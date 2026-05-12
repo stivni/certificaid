@@ -1026,12 +1026,9 @@ sources:
     bijgewerkt: "2024-08"
     status: volledig
     note: >
-      Verwerkt via process_iesba_v4.py (pdftotext + custom cleanup).
       Landingspagina: https://www.ethicsboard.org/publications/2024-handbook-international-code-ethics-professional-accountants
     extract:
-      method: handcrafted
-      params:
-        reden: 'Verwerkt via process_iesba_v4.py (pdftotext + custom cleanup). Landingspagina: https://www.ethicsboard.org/publications/2024-handbook-international-code-ethics-professional-accountants'
+      method: iesba
   ITAA-deontologische-code:
     bron_rol: interpretatief
     raw: ""
