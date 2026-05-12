@@ -45,6 +45,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:43Z'
+      heading_count: 4
+      max_section_chars: 8550
+      file_size_chars: 21540
+      flags: []
     layer2:
 ---
 # CBN-advies 2018/08 – Gebeurtenissen na afsluitingsdatum van het boekjaar

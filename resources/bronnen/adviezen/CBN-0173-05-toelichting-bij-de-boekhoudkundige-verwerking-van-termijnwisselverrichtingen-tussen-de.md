@@ -50,6 +50,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:42Z'
+      heading_count: 3
+      max_section_chars: 7317
+      file_size_chars: 11710
+      flags: []
     layer2:
 ---
 # CBN-advies 173/5 - Toelichting bij de boekhoudkundige verwerking van termijnwisselverrichtingen tussen de munten van Lid-Staten van de Muntunie

@@ -52,6 +52,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:42Z'
+      heading_count: 29
+      max_section_chars: 22789
+      file_size_chars: 39959
+      flags: []
     layer2:
 ---
 # Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen (Err., Bull. CBN, nr. 30, februari 1993, p. 8)

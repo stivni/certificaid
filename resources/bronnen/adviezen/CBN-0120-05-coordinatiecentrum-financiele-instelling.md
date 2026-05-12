@@ -33,6 +33,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:41Z'
+      heading_count: 0
+      max_section_chars: 1579
+      file_size_chars: 1579
+      flags: []
     layer2:
 ---
 # CBN-advies 120/5 - Coördinatiecentrum - Financiële instelling

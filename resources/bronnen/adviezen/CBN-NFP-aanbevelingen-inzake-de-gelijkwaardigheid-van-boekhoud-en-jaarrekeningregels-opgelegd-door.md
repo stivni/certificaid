@@ -42,6 +42,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:45Z'
+      heading_count: 5
+      max_section_chars: 9108
+      file_size_chars: 23493
+      flags: []
     layer2:
 ---
 # Aanbevelingen inzake de gelijkwaardigheid van boekhoud- en jaarrekeningregels opgelegd door sectorale regelgevingen met de gemeenrechtelijke boekhoud- en jaarrekeningregels voor vzw’s, ivzw’s en stichtingen

@@ -55,6 +55,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:42Z'
+      heading_count: 4
+      max_section_chars: 3160
+      file_size_chars: 8486
+      flags: []
     layer2:
 ---
 # CBN-advies 2011/12 - Afwijking inzake functionele valuta: praktische implicaties en procedure

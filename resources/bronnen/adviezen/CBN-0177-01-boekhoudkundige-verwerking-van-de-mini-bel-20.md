@@ -52,6 +52,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:42Z'
+      heading_count: 12
+      max_section_chars: 6856
+      file_size_chars: 19941
+      flags: []
     layer2:
 ---
 # CBN-advies 177/1 - Boekhoudkundige verwerking van de mini BEL-20

@@ -37,6 +37,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:44Z'
+      heading_count: 8
+      max_section_chars: 7990
+      file_size_chars: 12857
+      flags: []
     layer2:
 ---
 # CBN-advies 2020/07 – Mogelijkheid tot uitstel van de goedkeuring en neerlegging van de jaarrekening (VZW’s, IVZW’s en stichtingen)

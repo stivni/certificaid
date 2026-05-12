@@ -50,6 +50,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:44Z'
+      heading_count: 4
+      max_section_chars: 3231
+      file_size_chars: 5480
+      flags: []
     layer2:
 ---
 # CBN-advies 2024/05 – Boekhoudkundige verwerking van de taks tot vergoeding der successierechten

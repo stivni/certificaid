@@ -34,6 +34,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:42Z'
+      heading_count: 3
+      max_section_chars: 6073
+      file_size_chars: 8521
+      flags: []
     layer2:
 ---
 # CBN-advies 2010/8 - Financiële steunverlening Advies van 16 juni 2010

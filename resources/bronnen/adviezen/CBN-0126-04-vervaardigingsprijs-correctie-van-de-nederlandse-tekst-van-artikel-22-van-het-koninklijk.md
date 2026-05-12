@@ -30,6 +30,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:41Z'
+      heading_count: 0
+      max_section_chars: 2094
+      file_size_chars: 2094
+      flags: []
     layer2:
 ---
 # CBN-advies 126/4 - Vervaardigingsprijs : correctie van de Nederlandse tekst van artikel 22 van het Koninklijk Besluit van 8 oktober 1976

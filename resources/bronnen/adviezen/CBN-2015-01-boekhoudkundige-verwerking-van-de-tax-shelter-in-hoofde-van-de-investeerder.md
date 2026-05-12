@@ -40,6 +40,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:43Z'
+      heading_count: 10
+      max_section_chars: 6261
+      file_size_chars: 24362
+      flags: []
     layer2:
 ---
 # CBN-advies 2015/1 - Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)

@@ -34,6 +34,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:42Z'
+      heading_count: 8
+      max_section_chars: 3161
+      file_size_chars: 5823
+      flags: []
     layer2:
 ---
 # CBN-advies 158/1 - Boekhoudkundige verwerking van de aankoop, afschrijving en ontginning in concessie van natuurlijke rijkdommen

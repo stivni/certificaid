@@ -46,6 +46,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:42Z'
+      heading_count: 3
+      max_section_chars: 3178
+      file_size_chars: 9453
+      flags: []
     layer2:
 ---
 # CBN-advies 175/2 - Verwerking in de jaarrekening over het boekjaar 1999 van de "Maribel bis en ter"-steun toegekend voor de boekjaren 1993, 1994,1995 en 1996

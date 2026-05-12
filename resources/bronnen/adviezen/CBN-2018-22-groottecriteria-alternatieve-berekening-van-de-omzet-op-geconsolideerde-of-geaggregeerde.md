@@ -47,6 +47,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:44Z'
+      heading_count: 60
+      max_section_chars: 6150
+      file_size_chars: 18227
+      flags: []
     layer2:
 ---
 # CBN-advies 2018/22 – Groottecriteria – Alternatieve berekening van de omzet op geconsolideerde of geaggregeerde basis

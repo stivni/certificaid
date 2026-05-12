@@ -34,6 +34,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:43Z'
+      heading_count: 4
+      max_section_chars: 2617
+      file_size_chars: 7542
+      flags: []
     layer2:
 ---
 # CBN-advies 2018/07 – Vereniging van aandelen in handen van één enkele rechtspersoon: vermeldingen in de toelichting

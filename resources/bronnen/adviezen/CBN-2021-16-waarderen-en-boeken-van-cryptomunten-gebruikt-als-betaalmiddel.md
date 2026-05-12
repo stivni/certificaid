@@ -41,6 +41,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:44Z'
+      heading_count: 2
+      max_section_chars: 6083
+      file_size_chars: 7407
+      flags: []
     layer2:
 ---
 # CBN-advies 2021/16 – Waarderen en boeken van cryptomunten gebruikt als betaalmiddel

@@ -46,6 +46,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:40Z'
+      heading_count: 0
+      max_section_chars: 2633
+      file_size_chars: 2633
+      flags: []
     layer2:
 ---
 # CBN-advies 108/1 - Afwijkingen van de bepalingen van het K.B. van 8 oktober 1976 – Procedure

@@ -45,6 +45,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:43Z'
+      heading_count: 5
+      max_section_chars: 6580
+      file_size_chars: 12864
+      flags: []
     layer2:
 ---
 # CBN-advies 2018/12 - Interpretatie van code 99084 in de toelichting 5.14 van de geconsolideerde jaarrekening

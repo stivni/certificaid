@@ -43,6 +43,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:43Z'
+      heading_count: 3
+      max_section_chars: 7742
+      file_size_chars: 11865
+      flags: []
     layer2:
 ---
 # CBN-advies 2013/4 – De boekhoudkundige verwerking van step disposals

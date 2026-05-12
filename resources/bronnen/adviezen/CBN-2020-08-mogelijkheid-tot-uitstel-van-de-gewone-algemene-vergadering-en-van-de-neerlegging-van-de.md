@@ -38,6 +38,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:44Z'
+      heading_count: 5
+      max_section_chars: 5861
+      file_size_chars: 11305
+      flags: []
     layer2:
 ---
 # CBN-advies 2020/08 – Mogelijkheid tot uitstel van de gewone algemene vergadering en van de neerlegging van de jaarrekening (vennootschappen)

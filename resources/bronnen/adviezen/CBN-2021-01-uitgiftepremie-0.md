@@ -45,6 +45,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:44Z'
+      heading_count: 10
+      max_section_chars: 8210
+      file_size_chars: 16088
+      flags: []
     layer2:
 ---
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN

@@ -42,6 +42,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:44Z'
+      heading_count: 5
+      max_section_chars: 3140
+      file_size_chars: 7624
+      flags: []
     layer2:
 ---
 # CBN-advies 2022/16 – Omzetting van een vennootschap: gevolgen voor de jaarrekening

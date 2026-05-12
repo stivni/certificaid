@@ -55,6 +55,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:44Z'
+      heading_count: 35
+      max_section_chars: 23381
+      file_size_chars: 39830
+      flags: []
     layer2:
 ---
 # CBN-advies 2021/07 - Invloed van het buitengerechtelijk minnelijk akkoord en de gerechtelijke reorganisatie op de schulden en vorderingen (update)

@@ -43,6 +43,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:40Z'
+      heading_count: 6
+      max_section_chars: 15747
+      file_size_chars: 26647
+      flags: []
     layer2:
 ---
 # CBN-advies C102 - Overschakeling op de euro - Aspecten in verband met de geconsolideerde jaarrekening

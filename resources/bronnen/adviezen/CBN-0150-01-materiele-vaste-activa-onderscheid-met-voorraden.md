@@ -51,6 +51,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:41Z'
+      heading_count: 4
+      max_section_chars: 1912
+      file_size_chars: 7461
+      flags: []
     layer2:
 ---
 # CBN-advies 150/1 - Materiële vaste activa - Onderscheid met voorraden

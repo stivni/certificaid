@@ -32,6 +32,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:40Z'
+      heading_count: 1
+      max_section_chars: 6895
+      file_size_chars: 6895
+      flags: []
     layer2:
 ---
 # CBN advies 7-2 - Interne en externe jaarrekening – Begrippen

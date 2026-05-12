@@ -41,6 +41,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:40Z'
+      heading_count: 0
+      max_section_chars: 2776
+      file_size_chars: 2776
+      flags: []
     layer2:
 ---
 # CBN-advies 107/13 - Voorzieningen voor geïndexeerde pensioenen en brugpensioenen

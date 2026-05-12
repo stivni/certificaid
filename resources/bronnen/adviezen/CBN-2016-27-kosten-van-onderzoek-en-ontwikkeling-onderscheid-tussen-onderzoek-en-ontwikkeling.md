@@ -44,6 +44,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:43Z'
+      heading_count: 2
+      max_section_chars: 753
+      file_size_chars: 1141
+      flags: []
     layer2:
 ---
 # CBN-advies 2016/27 – Kosten van onderzoek en ontwikkeling: onderscheid tussen onderzoek en ontwikkeling - verduidelijking

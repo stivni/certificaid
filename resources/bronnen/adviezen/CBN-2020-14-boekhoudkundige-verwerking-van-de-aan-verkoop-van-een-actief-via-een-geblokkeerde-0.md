@@ -35,6 +35,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:44Z'
+      heading_count: 4
+      max_section_chars: 15872
+      file_size_chars: 23037
+      flags: []
     layer2:
 ---
 # CBN-advies 2020/14 – Boekhoudkundige verwerking van de aan-/verkoop van een actief via een geblokkeerde rekening

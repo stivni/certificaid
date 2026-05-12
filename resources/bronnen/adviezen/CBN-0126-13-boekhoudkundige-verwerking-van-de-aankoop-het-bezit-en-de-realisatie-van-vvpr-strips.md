@@ -50,6 +50,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:41Z'
+      heading_count: 10
+      max_section_chars: 11233
+      file_size_chars: 20286
+      flags: []
     layer2:
 ---
 # CBN-advies 126/13 - Boekhoudkundige verwerking van de aankoop, het bezit en de realisatie van «VVPR-strips»

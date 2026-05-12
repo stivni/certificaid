@@ -47,6 +47,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:43Z'
+      heading_count: 7
+      max_section_chars: 5927
+      file_size_chars: 12600
+      flags: []
     layer2:
 ---
 # CBN-advies 2015/8 Boekhoudkundige verwerking van de aankoop van een onroerend goed bestemd voor verkoop1

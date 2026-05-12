@@ -55,6 +55,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:44Z'
+      heading_count: 21
+      max_section_chars: 18166
+      file_size_chars: 73685
+      flags: []
     layer2:
 ---
 # CBN-advies 2021/10 – Boekhoudkundige verwerking van fusies tussen vennootschappen

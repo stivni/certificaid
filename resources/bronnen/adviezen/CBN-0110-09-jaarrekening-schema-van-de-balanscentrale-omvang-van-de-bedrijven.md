@@ -33,6 +33,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:41Z'
+      heading_count: 0
+      max_section_chars: 4928
+      file_size_chars: 4928
+      flags: []
     layer2:
 ---
 # CBN-advies 110/9 - Jaarrekening - Schema van de Balanscentrale - Omvang van de bedrijven1

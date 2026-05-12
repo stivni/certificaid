@@ -40,6 +40,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:41Z'
+      heading_count: 1
+      max_section_chars: 1752
+      file_size_chars: 1752
+      flags: []
     layer2:
 ---
 # CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)

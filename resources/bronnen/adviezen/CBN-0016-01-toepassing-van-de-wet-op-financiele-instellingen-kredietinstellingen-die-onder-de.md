@@ -36,6 +36,13 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: pass
+      run_id: 20260512-224940
+      run_at: '2026-05-12T22:49:40Z'
+      heading_count: 0
+      max_section_chars: 1667
+      file_size_chars: 1667
+      flags: []
     layer2:
 ---
 # CBN-advies 16-1 Toepassing van de wet op financiële instellingen - Kredietinstellingen die onder de toepassing vallen van een bijzondere wet
