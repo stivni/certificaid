@@ -4,100 +4,78 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 3
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
   generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
-    sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
-    version: 06.03.2020
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+      version: 06.03.2020
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 70838
-      flags:
-      - detail: 'langste sectie op ##-niveau: 29664 chars (>24000); chunker splitst
-          auto op alinea-grenzen via split_long_chunk'
-        name: max_section_size
-        samples: []
-        status: warn
+      status: warn
+      run_id: 20260512-191733
+      run_at: '2026-05-12T19:17:37Z'
       heading_count: 18
       max_section_chars: 29664
-      run_at: '2026-05-11T13:40:47Z'
-      run_id: 20260511-134044
-      status: warn
+      file_size_chars: 70838
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 29664 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: A1
-        regel: 117
-        type: form-feed
-        voorbeeld: Proportionele fiscale geldboeten              www.fisconetplus.be                            Bijlage
-          pg. 1
-      - categorie: A1
-        regel: 171
-        type: form-feed
-        voorbeeld: Proportionele fiscale geldboeten             www.fisconetplus.be                       Bijlage
-          pg. 2
-      - categorie: A1
-        regel: 240
-        type: form-feed
-        voorbeeld: Proportionele fiscale geldboeten            www.fisconetplus.be                          Bijlage
-          pg. 1
-      - categorie: A1
-        regel: 312
-        type: form-feed
-        voorbeeld: Proportionele fiscale geldboeten             www.fisconetplus.be                          Bijlage
-          pg. 2
-      - categorie: A1
-        regel: 385
-        type: form-feed
-        voorbeeld: Proportionele fiscale geldboeten          www.fisconetplus.be                                Bijlage
-          pg. 3
-      - categorie: C3
-        regel: 192
-        type: pseudo-table
-        voorbeeld: A)     belasting  en     voorschotten     waarvan     de    per
-          maand vertraging (1), een
-      - categorie: E1
-        regel: 0
-        type: pseudo-table
-        voorbeeld: Bijlage-tabellen als spatie-uitgelijnde kolommen, niet als markdown-pipe-tabellen
-      rationale: 'A1: pagina-scheidingsresten aanwezig op regels 117, 171, 240, 312,
-        385, 458, 529 als ''Proportionele fiscale geldboeten              www.fisconetplus.be                            Bijlage
-        pg. N'' — leesbaar als kop-/voetregel die niet is verwijderd. C3/A8: de bijlage-tabellen
-        zijn gerenderd als pseudo-tabellen met spatie-uitlijning (3+ spaties als kolom-separator)
-        in plaats van markdown-pipe-syntax. De heading-hiërarchie wisselt onlogisch
-        tussen ### (Art.) en ## (Afdeling in bijlage), wat de indruk wekt van inconsistente
-        extractie. Laag-1 meldt max_section_size 73k >> 24k; één sectie bevat alle
-        tabellen ongesplitst.'
+        - categorie: A1
+          regel: 117
+          type: form-feed
+          voorbeeld: Proportionele fiscale geldboeten              www.fisconetplus.be                            Bijlage pg. 1
+        - categorie: A1
+          regel: 171
+          type: form-feed
+          voorbeeld: Proportionele fiscale geldboeten             www.fisconetplus.be                       Bijlage pg. 2
+        - categorie: A1
+          regel: 240
+          type: form-feed
+          voorbeeld: Proportionele fiscale geldboeten            www.fisconetplus.be                          Bijlage pg. 1
+        - categorie: A1
+          regel: 312
+          type: form-feed
+          voorbeeld: Proportionele fiscale geldboeten             www.fisconetplus.be                          Bijlage pg. 2
+        - categorie: A1
+          regel: 385
+          type: form-feed
+          voorbeeld: Proportionele fiscale geldboeten          www.fisconetplus.be                                Bijlage pg. 3
+        - categorie: C3
+          regel: 192
+          type: pseudo-table
+          voorbeeld: A)     belasting  en     voorschotten     waarvan     de    per maand vertraging (1), een
+        - categorie: E1
+          regel: 0
+          type: pseudo-table
+          voorbeeld: Bijlage-tabellen als spatie-uitgelijnde kolommen, niet als markdown-pipe-tabellen
+      rationale: 'A1: pagina-scheidingsresten aanwezig op regels 117, 171, 240, 312, 385, 458, 529 als ''Proportionele fiscale geldboeten              www.fisconetplus.be                            Bijlage pg. N'' — leesbaar als kop-/voetregel die niet is verwijderd. C3/A8: de bijlage-tabellen zijn gerenderd als pseudo-tabellen met spatie-uitlijning (3+ spaties als kolom-separator) in plaats van markdown-pipe-syntax. De heading-hiërarchie wisselt onlogisch tussen ### (Art.) en ## (Afdeling in bijlage), wat de indruk wekt van inconsistente extractie. Laag-1 meldt max_section_size 73k >> 24k; één sectie bevat alle tabellen ongesplitst.'
       run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'A1: pagina-scheidingsresten aanwezig op regels 117, 171, 240, 312,
-      385, 458, 529 als ''Proportionele fiscale geldboeten              www.fisconetplus.be                            Bijlage
-      pg. N'' — leesbaar als kop-/voetregel die niet is verwijderd. C3/A8: de bijlage-tabellen
-      zijn gerenderd als pseudo-tabellen met spatie-uitlijning (3+ spaties als kolom-separator)
-      in plaats van markdown-pipe-syntax. De heading-hiërarchie wisselt onlogisch
-      tussen ### (Art.) en ## (Afdeling in bijlage), wat de indruk wekt van inconsistente
-      extractie. Laag-1 meldt max_section_size 73k >> 24k; één sectie bevat alle tabellen
-      ongesplitst.'
+    rationale: 'A1: pagina-scheidingsresten aanwezig op regels 117, 171, 240, 312, 385, 458, 529 als ''Proportionele fiscale geldboeten              www.fisconetplus.be                            Bijlage pg. N'' — leesbaar als kop-/voetregel die niet is verwijderd. C3/A8: de bijlage-tabellen zijn gerenderd als pseudo-tabellen met spatie-uitlijning (3+ spaties als kolom-separator) in plaats van markdown-pipe-syntax. De heading-hiërarchie wisselt onlogisch tussen ### (Art.) en ## (Afdeling in bijlage), wat de indruk wekt van inconsistente extractie. Laag-1 meldt max_section_size 73k >> 24k; één sectie bevat alle tabellen ongesplitst.'
     status: needs-rework
 status: beschikbaar
 tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele
-  fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde
 ---
 
 # K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde

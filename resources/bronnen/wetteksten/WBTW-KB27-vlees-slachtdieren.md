@@ -4,73 +4,62 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
   generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
-    sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
-    version: 06.03.2020
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+      version: 06.03.2020
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:46:28Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 13563
-      flags: []
+      status: pass
+      run_id: 20260512-191733
+      run_at: '2026-05-12T19:17:37Z'
       heading_count: 13
       max_section_chars: 4397
-      run_at: '2026-05-11T13:40:47Z'
-      run_id: 20260511-134044
-      status: pass
+      file_size_chars: 13563
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: D4
-        regel: 237
-        type: other
-        voorbeeld: (De tekst van KB nr. 27, artikel 12 is opgeheven  [ontbreekt sluitende
-          haakje]
-      - categorie: B4
-        regel: 249
-        type: other
-        voorbeeld: 'Bijlage A  (plain text, geen ## heading)'
-      - categorie: C3
-        regel: 252
-        type: pseudo-table
-        voorbeeld: '       Bijwerking                                      Te vervangen
-          pagina''s'
-      - categorie: G2
-        regel: 258
-        type: other
-        voorbeeld: '                                             *   *    *    *    *'
-      rationale: 'B5-achtig: de ## Art.-headings zijn correct maar ''Bijlage A'' en
-        ''Bijlage B'' op regels 249 en 260 staan als plain text zonder heading-marker.
-        C3: de bijlagetabel (Bijw. 01/02) is spatie-uitgelijnde pseudotabel. D4: Art.
-        12 heading op regel 237 is onvolledig (''is opgeheven'' staat in de haakjes
-        maar het sluitende haakje ontbreekt). Inhoud volledig (Art. 1–13 + bijlagen).'
+        - categorie: D4
+          regel: 237
+          type: other
+          voorbeeld: (De tekst van KB nr. 27, artikel 12 is opgeheven  [ontbreekt sluitende haakje]
+        - categorie: B4
+          regel: 249
+          type: other
+          voorbeeld: 'Bijlage A  (plain text, geen ## heading)'
+        - categorie: C3
+          regel: 252
+          type: pseudo-table
+          voorbeeld: '       Bijwerking                                      Te vervangen pagina''s'
+        - categorie: G2
+          regel: 258
+          type: other
+          voorbeeld: '                                             *   *    *    *    *'
+      rationale: 'B5-achtig: de ## Art.-headings zijn correct maar ''Bijlage A'' en ''Bijlage B'' op regels 249 en 260 staan als plain text zonder heading-marker. C3: de bijlagetabel (Bijw. 01/02) is spatie-uitgelijnde pseudotabel. D4: Art. 12 heading op regel 237 is onvolledig (''is opgeheven'' staat in de haakjes maar het sluitende haakje ontbreekt). Inhoud volledig (Art. 1–13 + bijlagen).'
       run_at: '2026-05-11T11:46:28Z'
       status: needs-rework
-    rationale: 'B5-achtig: de ## Art.-headings zijn correct maar ''Bijlage A'' en
-      ''Bijlage B'' op regels 249 en 260 staan als plain text zonder heading-marker.
-      C3: de bijlagetabel (Bijw. 01/02) is spatie-uitgelijnde pseudotabel. D4: Art.
-      12 heading op regel 237 is onvolledig (''is opgeheven'' staat in de haakjes
-      maar het sluitende haakje ontbreekt). Inhoud volledig (Art. 1–13 + bijlagen).'
+    rationale: 'B5-achtig: de ## Art.-headings zijn correct maar ''Bijlage A'' en ''Bijlage B'' op regels 249 en 260 staan als plain text zonder heading-marker. C3: de bijlagetabel (Bijw. 01/02) is spatie-uitgelijnde pseudotabel. D4: Art. 12 heading op regel 237 is onvolledig (''is opgeheven'' staat in de haakjes maar het sluitende haakje ontbreekt). Inhoud volledig (Art. 1–13 + bijlagen).'
     status: needs-rework
 status: beschikbaar
 tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 27 van 26 juni 1973, met betrekking tot de regeling voor de voldoening
-  van de belasting over de toegevoegde waarde, ten aanzien van vlees van slachtdieren
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 27 van 26 juni 1973, met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde, ten aanzien van vlees van slachtdieren
 ---
 
 # K.B. nr. 27 van 26 juni 1973, met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde, ten aanzien van vlees van slachtdieren

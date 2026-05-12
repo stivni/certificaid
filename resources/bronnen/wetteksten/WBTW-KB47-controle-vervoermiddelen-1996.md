@@ -4,84 +4,66 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
   generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
-    sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
-    version: 06.03.2020
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+      version: 06.03.2020
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 15939
-      flags: []
+      status: pass
+      run_id: 20260512-191733
+      run_at: '2026-05-12T19:17:37Z'
       heading_count: 11
       max_section_chars: 3635
-      run_at: '2026-05-11T13:40:47Z'
-      run_id: 20260511-134044
-      status: pass
+      file_size_chars: 15939
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: A1
-        regel: 109
-        type: form-feed
-        voorbeeld: Vervoermiddelen                               www.fisconetplus.be                                      pg.
-          1
-      - categorie: A1
-        regel: 167
-        type: form-feed
-        voorbeeld: Vervoermiddelen                                www.fisconetplus.be                                    pg.
-          2
-      - categorie: A1
-        regel: 233
-        type: form-feed
-        voorbeeld: Vervoermiddelen                               www.fisconetplus.be                                      pg.
-          3
-      - categorie: A1
-        regel: 256
-        type: form-feed
-        voorbeeld: Vervoermiddelen                              www.fisconetplus.be                                     pg.
-          4
-      - categorie: D4
-        regel: 111
-        type: other
-        voorbeeld: (De tekst van KB nr. 47, artikel 3, is van toepassing met ingang
-          van 09.09.2005\n       (Art. 4, KB 24.08.2005) B.S. 09.09.2005 — haakje
-          niet gesloten voor body-tekst
-      rationale: 'A1: op regels 109, 167, 233, 256 staan pagina-scheidingsresten ''Vervoermiddelen                               www.fisconetplus.be                                      pg.
-        N'' — volledig identiek patroon als in KB41. A6: Art. 3, 4, 5, 7 hebben niet-gesloten
-        haakjes in de wijzigingsnotitie (opening ''('' maar geen '')''), wat een extractie-artefact
-        is van de pdf-header-indentatie. Overigens zijn de 11 ## headings aanwezig
-        en de inhoud volledig. KB is opgeheven per 22.07.2019 — dit is correct gedocumenteerd
-        in de body.'
+        - categorie: A1
+          regel: 109
+          type: form-feed
+          voorbeeld: Vervoermiddelen                               www.fisconetplus.be                                      pg. 1
+        - categorie: A1
+          regel: 167
+          type: form-feed
+          voorbeeld: Vervoermiddelen                                www.fisconetplus.be                                    pg. 2
+        - categorie: A1
+          regel: 233
+          type: form-feed
+          voorbeeld: Vervoermiddelen                               www.fisconetplus.be                                      pg. 3
+        - categorie: A1
+          regel: 256
+          type: form-feed
+          voorbeeld: Vervoermiddelen                              www.fisconetplus.be                                     pg. 4
+        - categorie: D4
+          regel: 111
+          type: other
+          voorbeeld: (De tekst van KB nr. 47, artikel 3, is van toepassing met ingang van 09.09.2005\n       (Art. 4, KB 24.08.2005) B.S. 09.09.2005 — haakje niet gesloten voor body-tekst
+      rationale: 'A1: op regels 109, 167, 233, 256 staan pagina-scheidingsresten ''Vervoermiddelen                               www.fisconetplus.be                                      pg. N'' — volledig identiek patroon als in KB41. A6: Art. 3, 4, 5, 7 hebben niet-gesloten haakjes in de wijzigingsnotitie (opening ''('' maar geen '')''), wat een extractie-artefact is van de pdf-header-indentatie. Overigens zijn de 11 ## headings aanwezig en de inhoud volledig. KB is opgeheven per 22.07.2019 — dit is correct gedocumenteerd in de body.'
       run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'A1: op regels 109, 167, 233, 256 staan pagina-scheidingsresten ''Vervoermiddelen                               www.fisconetplus.be                                      pg.
-      N'' — volledig identiek patroon als in KB41. A6: Art. 3, 4, 5, 7 hebben niet-gesloten
-      haakjes in de wijzigingsnotitie (opening ''('' maar geen '')''), wat een extractie-artefact
-      is van de pdf-header-indentatie. Overigens zijn de 11 ## headings aanwezig en
-      de inhoud volledig. KB is opgeheven per 22.07.2019 — dit is correct gedocumenteerd
-      in de body.'
+    rationale: 'A1: op regels 109, 167, 233, 256 staan pagina-scheidingsresten ''Vervoermiddelen                               www.fisconetplus.be                                      pg. N'' — volledig identiek patroon als in KB41. A6: Art. 3, 4, 5, 7 hebben niet-gesloten haakjes in de wijzigingsnotitie (opening ''('' maar geen '')''), wat een extractie-artefact is van de pdf-header-indentatie. Overigens zijn de 11 ## headings aanwezig en de inhoud volledig. KB is opgeheven per 22.07.2019 — dit is correct gedocumenteerd in de body.'
     status: needs-rework
 status: beschikbaar
 tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 47 van 25 februari 1996, tot regeling van de controle van de voldoening
-  van de BTW verschuldigd ter zake van de levering, intracommunautaire verwerving
-  en invoer van vervoermiddelen, in de zin van artikel 8bis, § 2, 1°, van het Wetboek
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 47 van 25 februari 1996, tot regeling van de controle van de voldoening van de BTW verschuldigd ter zake van de levering, intracommunautaire verwerving en invoer van vervoermiddelen, in de zin van artikel 8bis, § 2, 1°, van het Wetboek
 ---
 
 # K.B. nr. 47 van 25 februari 1996, tot regeling van de controle van de voldoening van de BTW verschuldigd ter zake van de levering, intracommunautaire verwerving en invoer van vervoermiddelen, in de zin van artikel 8bis, § 2, 1°, van het Wetboek

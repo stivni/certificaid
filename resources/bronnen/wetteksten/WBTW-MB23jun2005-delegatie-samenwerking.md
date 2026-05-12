@@ -4,62 +4,50 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.C
 provenance:
   generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
-    sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
-    version: 29.04.2024
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
+      sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
+      version: 29.04.2024
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:51:18Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 1201
-      flags: []
+      status: pass
+      run_id: 20260512-191733
+      run_at: '2026-05-12T19:17:38Z'
       heading_count: 0
       max_section_chars: 1201
-      run_at: '2026-05-11T13:40:48Z'
-      run_id: 20260511-134044
-      status: pass
+      file_size_chars: 1201
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: B5
-        regel: 60
-        type: other
-        voorbeeld: '                                             Enig artikel'
-      rationale: 'B5: ''Enig artikel'' staat op regel 60 als gecentreerde plain-text
-        regel (met grote witruimte-inspringing) zonder ##-prefix — een mens zou schrijven
-        ''## Enig artikel''. Dat is een duidelijk extractie-artefact. Het bestand
-        is verder inhoudelijk compleet (één artikel, volledig) en de frontmatter klopt.
-        Het is een zeer kort MB (1.2KB) waarbij de enige structuurhiërarchie de artikelkop
-        is, die ontbreekt.'
+        - categorie: B5
+          regel: 60
+          type: other
+          voorbeeld: '                                             Enig artikel'
+      rationale: 'B5: ''Enig artikel'' staat op regel 60 als gecentreerde plain-text regel (met grote witruimte-inspringing) zonder ##-prefix — een mens zou schrijven ''## Enig artikel''. Dat is een duidelijk extractie-artefact. Het bestand is verder inhoudelijk compleet (één artikel, volledig) en de frontmatter klopt. Het is een zeer kort MB (1.2KB) waarbij de enige structuurhiërarchie de artikelkop is, die ontbreekt.'
       run_at: '2026-05-11T11:51:18Z'
       status: needs-rework
-    rationale: 'B5: ''Enig artikel'' staat op regel 60 als gecentreerde plain-text
-      regel (met grote witruimte-inspringing) zonder ##-prefix — een mens zou schrijven
-      ''## Enig artikel''. Dat is een duidelijk extractie-artefact. Het bestand is
-      verder inhoudelijk compleet (één artikel, volledig) en de frontmatter klopt.
-      Het is een zeer kort MB (1.2KB) waarbij de enige structuurhiërarchie de artikelkop
-      is, die ontbreekt.'
+    rationale: 'B5: ''Enig artikel'' staat op regel 60 als gecentreerde plain-text regel (met grote witruimte-inspringing) zonder ##-prefix — een mens zou schrijven ''## Enig artikel''. Dat is een duidelijk extractie-artefact. Het bestand is verder inhoudelijk compleet (één artikel, volledig) en de frontmatter klopt. Het is een zeer kort MB (1.2KB) waarbij de enige structuurhiërarchie de artikelkop is, die ontbreekt.'
     status: needs-rework
 status: beschikbaar
 tags:
-- VI.C
-- '2.4'
-wet: M.B. van 23 juni 2005, met betrekking tot de delegatie van de bevoegde autoriteit
-  inzake de administratieve samenwerking op het gebied van de belasting over de toegevoegde
-  waarde
+  - VI.C
+  - '2.4'
+wet: M.B. van 23 juni 2005, met betrekking tot de delegatie van de bevoegde autoriteit inzake de administratieve samenwerking op het gebied van de belasting over de toegevoegde waarde
 ---
 
 # M.B. van 23 juni 2005, met betrekking tot de delegatie van de bevoegde autoriteit inzake de administratieve samenwerking op het gebied van de belasting over de toegevoegde waarde

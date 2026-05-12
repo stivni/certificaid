@@ -30,8 +30,8 @@ provenance:
     rationale:
     layer1:
       status: warn
-      run_id: 20260512-191359
-      run_at: '2026-05-12T19:13:59Z'
+      run_id: 20260512-191733
+      run_at: '2026-05-12T19:17:36Z'
       heading_count: 368
       max_section_chars: 57698
       file_size_chars: 424349

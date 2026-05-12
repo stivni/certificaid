@@ -4,75 +4,58 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
   generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
-    sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
-    version: 06.03.2020
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+      version: 06.03.2020
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 3702
-      flags: []
+      status: pass
+      run_id: 20260512-191733
+      run_at: '2026-05-12T19:17:38Z'
       heading_count: 3
       max_section_chars: 1561
-      run_at: '2026-05-11T13:40:48Z'
-      run_id: 20260511-134044
-      status: pass
+      file_size_chars: 3702
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: A1
-        regel: 108
-        type: form-feed
-        voorbeeld: KB57 (2017)                                         pg. 1                            Plaats
-          van de dienst
-      - categorie: A1
-        regel: 110
-        type: other
-        voorbeeld: KB nr. 57 (2017) - Lijst van de bijwerkingen ... Bijw. 01 / 13.11.2017   -
-          Volledige uitgave
-      - categorie: A6
-        regel: 65
-        type: other
-        voorbeeld: '                 Dit koninklijk besluit vervangt, met ingang van
-          23.11.2017, het'
-      rationale: 'Twee problemen: (1) A1: regels 108-116 bevatten een pagina-voettekst
-        (''KB57 (2017) ... pg. 1 ... Plaats van de dienst'') en een bijwerkingslijst
-        als plain tekst die thuishoort in een appendix of verwijderd moet worden.
-        (2) A6/C3: regels 65-69 tonen centered indentation uit de PDF (grote lege
-        ruimte links), wat er op wijst dat de conversie de tekst niet als gewone paragraaf
-        heeft herkend. Artikelheadings (## Art. 1/2/3) zijn aanwezig en de inhoud
-        is volledig.'
+        - categorie: A1
+          regel: 108
+          type: form-feed
+          voorbeeld: KB57 (2017)                                         pg. 1                            Plaats van de dienst
+        - categorie: A1
+          regel: 110
+          type: other
+          voorbeeld: KB nr. 57 (2017) - Lijst van de bijwerkingen ... Bijw. 01 / 13.11.2017   - Volledige uitgave
+        - categorie: A6
+          regel: 65
+          type: other
+          voorbeeld: '                 Dit koninklijk besluit vervangt, met ingang van 23.11.2017, het'
+      rationale: 'Twee problemen: (1) A1: regels 108-116 bevatten een pagina-voettekst (''KB57 (2017) ... pg. 1 ... Plaats van de dienst'') en een bijwerkingslijst als plain tekst die thuishoort in een appendix of verwijderd moet worden. (2) A6/C3: regels 65-69 tonen centered indentation uit de PDF (grote lege ruimte links), wat er op wijst dat de conversie de tekst niet als gewone paragraaf heeft herkend. Artikelheadings (## Art. 1/2/3) zijn aanwezig en de inhoud is volledig.'
       run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'Twee problemen: (1) A1: regels 108-116 bevatten een pagina-voettekst
-      (''KB57 (2017) ... pg. 1 ... Plaats van de dienst'') en een bijwerkingslijst
-      als plain tekst die thuishoort in een appendix of verwijderd moet worden. (2)
-      A6/C3: regels 65-69 tonen centered indentation uit de PDF (grote lege ruimte
-      links), wat er op wijst dat de conversie de tekst niet als gewone paragraaf
-      heeft herkend. Artikelheadings (## Art. 1/2/3) zijn aanwezig en de inhoud is
-      volledig.'
+    rationale: 'Twee problemen: (1) A1: regels 108-116 bevatten een pagina-voettekst (''KB57 (2017) ... pg. 1 ... Plaats van de dienst'') en een bijwerkingslijst als plain tekst die thuishoort in een appendix of verwijderd moet worden. (2) A6/C3: regels 65-69 tonen centered indentation uit de PDF (grote lege ruimte links), wat er op wijst dat de conversie de tekst niet als gewone paragraaf heeft herkend. Artikelheadings (## Art. 1/2/3) zijn aanwezig en de inhoud is volledig.'
     status: needs-rework
 status: beschikbaar
 tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 57, van 31.10.2017 met betrekking tot de plaats van diensten in functie
-  van hun werkelijke gebruik of hun werkelijke exploitatie inzake belasting over de
-  toegevoegde waarde wat goederenvervoerdiensten en ermee samenhangende diensten betreft
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 57, van 31.10.2017 met betrekking tot de plaats van diensten in functie van hun werkelijke gebruik of hun werkelijke exploitatie inzake belasting over de toegevoegde waarde wat goederenvervoerdiensten en ermee samenhangende diensten betreft
 ---
 
 # K.B. nr. 57, van 31.10.2017 met betrekking tot de plaats van diensten in functie van hun werkelijke gebruik of hun werkelijke exploitatie inzake belasting over de toegevoegde waarde wat goederenvervoerdiensten en ermee samenhangende diensten betreft

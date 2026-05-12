@@ -4,93 +4,74 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 6
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.C
 provenance:
   generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
-    sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
-    version: 29.04.2024
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
+      sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
+      version: 29.04.2024
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:51:18Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 80846
-      flags: []
-      heading_count: 182
-      max_section_chars: 5443
-      run_at: '2026-05-11T13:40:48Z'
-      run_id: 20260511-134044
       status: pass
+      run_id: 20260512-191733
+      run_at: '2026-05-12T19:17:38Z'
+      heading_count: 181
+      max_section_chars: 5443
+      file_size_chars: 80797
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: B5
-        regel: 215
-        type: other
-        voorbeeld: '                                      Artikel 5. Event Normal'
-      - categorie: B5
-        regel: 580
-        type: other
-        voorbeeld: Artikel 46. Elk kassasysteem moet voorzien zijn van een modelaanduiding...
-      - categorie: B5
-        regel: 711
-        type: other
-        voorbeeld: Artikel 64. De FDM bevat minimaal volgende tellers...
-      - categorie: B5
-        regel: 891
-        type: other
-        voorbeeld: Artikel 86\nHieronder worden zowel de configuratie...
-      - categorie: B5
-        regel: 1437
-        type: other
-        voorbeeld: Artikel 132. Dit besluit vervangt Circulaire AAFisc Nr. 33/2016...
-      - categorie: C3
-        regel: 309
-        type: pseudo-table
-        voorbeeld: BTW-                                             BTW-         CODE                          TAUX      DE
-      - categorie: A6
-        regel: 188
-        type: other
-        voorbeeld: '## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN
-          VAN EEN\n                                 GEREGISTREERD KASSASYSTEEM'
-      rationale: 'Meerdere categorie B en C problemen. B5: tenminste 12 artikelen
-        staan als gecentreerde plain-text regels (met 38–42 spaties inspringing) zonder
-        heading-prefix: Artikel 5 t.m. 12 (regels 215–275), Artikel 46 (regel 580),
-        Artikel 64 (regel 711), Artikel 86 (regel 891), Artikel 132 (regel 1437).
-        B2: de heading-hiërarchie springt van ## direct naar ###### voor artkel-nummers,
-        wat onnatuurlijk is. C3: pseudo-tabel BTW-codes op regels 309–323 (ASCII column-alignment
-        met grote witruimte). A6: ''GEREGISTREERD KASSASYSTEEM'' op regel 188 staat
-        als gecentreerde plain-text over twee regels in plaats van als heading. De
-        rest van het MB (122 ####### Art.-nummers) is correct gestructureerd maar
-        de inconsistentie is significant.'
+        - categorie: B5
+          regel: 215
+          type: other
+          voorbeeld: '                                      Artikel 5. Event Normal'
+        - categorie: B5
+          regel: 580
+          type: other
+          voorbeeld: Artikel 46. Elk kassasysteem moet voorzien zijn van een modelaanduiding...
+        - categorie: B5
+          regel: 711
+          type: other
+          voorbeeld: Artikel 64. De FDM bevat minimaal volgende tellers...
+        - categorie: B5
+          regel: 891
+          type: other
+          voorbeeld: Artikel 86\nHieronder worden zowel de configuratie...
+        - categorie: B5
+          regel: 1437
+          type: other
+          voorbeeld: Artikel 132. Dit besluit vervangt Circulaire AAFisc Nr. 33/2016...
+        - categorie: C3
+          regel: 309
+          type: pseudo-table
+          voorbeeld: BTW-                                             BTW-         CODE                          TAUX      DE
+        - categorie: A6
+          regel: 188
+          type: other
+          voorbeeld: '## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\n                                 GEREGISTREERD KASSASYSTEEM'
+      rationale: 'Meerdere categorie B en C problemen. B5: tenminste 12 artikelen staan als gecentreerde plain-text regels (met 38–42 spaties inspringing) zonder heading-prefix: Artikel 5 t.m. 12 (regels 215–275), Artikel 46 (regel 580), Artikel 64 (regel 711), Artikel 86 (regel 891), Artikel 132 (regel 1437). B2: de heading-hiërarchie springt van ## direct naar ###### voor artkel-nummers, wat onnatuurlijk is. C3: pseudo-tabel BTW-codes op regels 309–323 (ASCII column-alignment met grote witruimte). A6: ''GEREGISTREERD KASSASYSTEEM'' op regel 188 staat als gecentreerde plain-text over twee regels in plaats van als heading. De rest van het MB (122 ####### Art.-nummers) is correct gestructureerd maar de inconsistentie is significant.'
       run_at: '2026-05-11T11:51:18Z'
       status: needs-rework
-    rationale: 'Meerdere categorie B en C problemen. B5: tenminste 12 artikelen staan
-      als gecentreerde plain-text regels (met 38–42 spaties inspringing) zonder heading-prefix:
-      Artikel 5 t.m. 12 (regels 215–275), Artikel 46 (regel 580), Artikel 64 (regel
-      711), Artikel 86 (regel 891), Artikel 132 (regel 1437). B2: de heading-hiërarchie
-      springt van ## direct naar ###### voor artkel-nummers, wat onnatuurlijk is.
-      C3: pseudo-tabel BTW-codes op regels 309–323 (ASCII column-alignment met grote
-      witruimte). A6: ''GEREGISTREERD KASSASYSTEEM'' op regel 188 staat als gecentreerde
-      plain-text over twee regels in plaats van als heading. De rest van het MB (122
-      ####### Art.-nummers) is correct gestructureerd maar de inconsistentie is significant.'
+    rationale: 'Meerdere categorie B en C problemen. B5: tenminste 12 artikelen staan als gecentreerde plain-text regels (met 38–42 spaties inspringing) zonder heading-prefix: Artikel 5 t.m. 12 (regels 215–275), Artikel 46 (regel 580), Artikel 64 (regel 711), Artikel 86 (regel 891), Artikel 132 (regel 1437). B2: de heading-hiërarchie springt van ## direct naar ###### voor artkel-nummers, wat onnatuurlijk is. C3: pseudo-tabel BTW-codes op regels 309–323 (ASCII column-alignment met grote witruimte). A6: ''GEREGISTREERD KASSASYSTEEM'' op regel 188 staat als gecentreerde plain-text over twee regels in plaats van als heading. De rest van het MB (122 ####### Art.-nummers) is correct gestructureerd maar de inconsistentie is significant.'
     status: needs-rework
 status: beschikbaar
 tags:
-- VI.C
-- '2.4'
-wet: M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de
-  certificatie van een geregistreerd kassasysteem
+  - VI.C
+  - '2.4'
+wet: M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem
 ---
 
 # M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem

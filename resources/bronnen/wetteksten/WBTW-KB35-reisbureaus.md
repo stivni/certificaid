@@ -4,67 +4,58 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
   generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
-    sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
-    version: 06.03.2020
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+      version: 06.03.2020
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 3421
-      flags: []
+      status: pass
+      run_id: 20260512-191733
+      run_at: '2026-05-12T19:17:37Z'
       heading_count: 4
       max_section_chars: 1647
-      run_at: '2026-05-11T13:40:47Z'
-      run_id: 20260511-134044
-      status: pass
+      file_size_chars: 3421
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: C3
-        regel: 90
-        type: pseudo-table
-        voorbeeld: (De tekst van KB        nr.   35,   artikel    2,   is   van   toepassing   met   ingang    van    01.01.2000
-      - categorie: C3
-        regel: 98
-        type: pseudo-table
-        voorbeeld: (De tekst van KB        nr.   35,   artikel    3,   is   van   toepassing   met   ingang    van    01.01.2000
-      - categorie: C3
-        regel: 103
-        type: pseudo-table
-        voorbeeld: (De tekst van KB        nr.   35,   artikel    4,   is   van   toepassing   met   ingang    van    01.01.2000
-      rationale: 'Systematisch PDF-kolom-alignment-artefact (C3): de wijzigingsmarkers
-        in Art. 2, 3 en 4 tonen excessieve interne witruimte als pseudo-uitlijning
-        (bv. ''KB nr.   35,   artikel    2,   is   van   toepassing   met   ingang    van    01.01.2000'').
-        Zelfde patroon als KB3. Inhoud volledig voor dit 4-artikel KB; layer2-suggestie
-        van abrupt-cutoff is onterecht — Art. 1-4 aanwezig.'
+        - categorie: C3
+          regel: 90
+          type: pseudo-table
+          voorbeeld: (De tekst van KB        nr.   35,   artikel    2,   is   van   toepassing   met   ingang    van    01.01.2000
+        - categorie: C3
+          regel: 98
+          type: pseudo-table
+          voorbeeld: (De tekst van KB        nr.   35,   artikel    3,   is   van   toepassing   met   ingang    van    01.01.2000
+        - categorie: C3
+          regel: 103
+          type: pseudo-table
+          voorbeeld: (De tekst van KB        nr.   35,   artikel    4,   is   van   toepassing   met   ingang    van    01.01.2000
+      rationale: 'Systematisch PDF-kolom-alignment-artefact (C3): de wijzigingsmarkers in Art. 2, 3 en 4 tonen excessieve interne witruimte als pseudo-uitlijning (bv. ''KB nr.   35,   artikel    2,   is   van   toepassing   met   ingang    van    01.01.2000''). Zelfde patroon als KB3. Inhoud volledig voor dit 4-artikel KB; layer2-suggestie van abrupt-cutoff is onterecht — Art. 1-4 aanwezig.'
       run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'Systematisch PDF-kolom-alignment-artefact (C3): de wijzigingsmarkers
-      in Art. 2, 3 en 4 tonen excessieve interne witruimte als pseudo-uitlijning (bv.
-      ''KB nr.   35,   artikel    2,   is   van   toepassing   met   ingang    van    01.01.2000'').
-      Zelfde patroon als KB3. Inhoud volledig voor dit 4-artikel KB; layer2-suggestie
-      van abrupt-cutoff is onterecht — Art. 1-4 aanwezig.'
+    rationale: 'Systematisch PDF-kolom-alignment-artefact (C3): de wijzigingsmarkers in Art. 2, 3 en 4 tonen excessieve interne witruimte als pseudo-uitlijning (bv. ''KB nr.   35,   artikel    2,   is   van   toepassing   met   ingang    van    01.01.2000''). Zelfde patroon als KB3. Inhoud volledig voor dit 4-artikel KB; layer2-suggestie van abrupt-cutoff is onterecht — Art. 1-4 aanwezig.'
     status: needs-rework
 status: beschikbaar
 tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 35 van 28 december 1999, tot invoering van een forfaitaire maatstaf
-  van heffing van de belasting over de toegevoegde waarde op de winstmarge van reisbureaus
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 35 van 28 december 1999, tot invoering van een forfaitaire maatstaf van heffing van de belasting over de toegevoegde waarde op de winstmarge van reisbureaus
 ---
 
 # K.B. nr. 35 van 28 december 1999, tot invoering van een forfaitaire maatstaf van heffing van de belasting over de toegevoegde waarde op de winstmarge van reisbureaus

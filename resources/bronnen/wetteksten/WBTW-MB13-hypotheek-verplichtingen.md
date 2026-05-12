@@ -4,68 +4,58 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.C
 provenance:
   generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
-    sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
-    version: 29.04.2024
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
+      sha256: e2e322b0d748d0314e5f16d11a0aac6c964d684451d00738c9352b4f32f9171c
+      version: 29.04.2024
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 4786
-      flags: []
+      status: pass
+      run_id: 20260512-191733
+      run_at: '2026-05-12T19:17:38Z'
       heading_count: 6
       max_section_chars: 1558
-      run_at: '2026-05-11T13:40:48Z'
-      run_id: 20260511-134044
-      status: pass
+      file_size_chars: 4786
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: C3
-        regel: 75
-        type: pseudo-table
-        voorbeeld: (De tekst van M.B. nr. 13, art.            1,    werd   vervangen     met   ingang   van
-      - categorie: A1
-        regel: 97
-        type: other
-        voorbeeld: '                                                 - KB nr. 13 /
-          1 -'
-      - categorie: A1
-        regel: 128
-        type: other
-        voorbeeld: '                                              - KB nr. 13 / 2
-          -'
-      rationale: 'Art. 1 t/m Art. 5 staan correct als ## headings. Echter: op regel
-        75 staat een amenderingsnotitie met meerdere interne spaties als kolom-uitlijning
-        (C3-pseudo-tabel-artefact). Op regels 97 en 128 staan paginamarkeringen ''-
-        KB nr. 13 / 1 -'' en ''- KB nr. 13 / 2 -'' die PDF-pagina-nummering zijn (A1-type).'
+        - categorie: C3
+          regel: 75
+          type: pseudo-table
+          voorbeeld: (De tekst van M.B. nr. 13, art.            1,    werd   vervangen     met   ingang   van
+        - categorie: A1
+          regel: 97
+          type: other
+          voorbeeld: '                                                 - KB nr. 13 / 1 -'
+        - categorie: A1
+          regel: 128
+          type: other
+          voorbeeld: '                                              - KB nr. 13 / 2 -'
+      rationale: 'Art. 1 t/m Art. 5 staan correct als ## headings. Echter: op regel 75 staat een amenderingsnotitie met meerdere interne spaties als kolom-uitlijning (C3-pseudo-tabel-artefact). Op regels 97 en 128 staan paginamarkeringen ''- KB nr. 13 / 1 -'' en ''- KB nr. 13 / 2 -'' die PDF-pagina-nummering zijn (A1-type).'
       run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'Art. 1 t/m Art. 5 staan correct als ## headings. Echter: op regel
-      75 staat een amenderingsnotitie met meerdere interne spaties als kolom-uitlijning
-      (C3-pseudo-tabel-artefact). Op regels 97 en 128 staan paginamarkeringen ''-
-      KB nr. 13 / 1 -'' en ''- KB nr. 13 / 2 -'' die PDF-pagina-nummering zijn (A1-type).'
+    rationale: 'Art. 1 t/m Art. 5 staan correct als ## headings. Echter: op regel 75 staat een amenderingsnotitie met meerdere interne spaties als kolom-uitlijning (C3-pseudo-tabel-artefact). Op regels 97 en 128 staan paginamarkeringen ''- KB nr. 13 / 1 -'' en ''- KB nr. 13 / 2 -'' die PDF-pagina-nummering zijn (A1-type).'
     status: needs-rework
 status: beschikbaar
 tags:
-- VI.C
-- '2.4'
-wet: M.B. nr. 13 van 4 maart 1993, met betrekking tot de verplichtingen waartoe een
-  belastingplichtige of een lid van een btw-eenheid eigenaar of houder van een zakelijk
-  recht op een voor hypotheek vatbaar goed gehouden is
+  - VI.C
+  - '2.4'
+wet: M.B. nr. 13 van 4 maart 1993, met betrekking tot de verplichtingen waartoe een belastingplichtige of een lid van een btw-eenheid eigenaar of houder van een zakelijk recht op een voor hypotheek vatbaar goed gehouden is
 ---
 
 # M.B. nr. 13 van 4 maart 1993, met betrekking tot de verplichtingen waartoe een belastingplichtige of een lid van een btw-eenheid eigenaar of houder van een zakelijk recht op een voor hypotheek vatbaar goed gehouden is

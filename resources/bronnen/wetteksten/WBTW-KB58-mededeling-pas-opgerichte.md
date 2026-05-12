@@ -4,65 +4,54 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
   generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
-    sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
-    version: 06.03.2020
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+      version: 06.03.2020
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 3622
-      flags: []
+      status: pass
+      run_id: 20260512-191733
+      run_at: '2026-05-12T19:17:38Z'
       heading_count: 3
       max_section_chars: 1516
-      run_at: '2026-05-11T13:40:48Z'
-      run_id: 20260511-134044
-      status: pass
+      file_size_chars: 3622
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: A1
-        regel: 108
-        type: form-feed
-        voorbeeld: Inlichtingen opgerichte gebouwen                  www.fisconetplus                                    pg.
-          1
-      - categorie: G1
-        regel: 108
-        type: url-plaintext
-        voorbeeld: www.fisconetplus (kale URL midden in voettekst-regel)
-      rationale: 'A1: regel 108 bevat een gecombineerde paginavoettekst en plain-text
-        URL (''Inlichtingen opgerichte gebouwen  www.fisconetplus  pg. 1''). Dit is
-        een PDF-extract-artefact dat bij een mens-geschreven document niet aanwezig
-        zou zijn. De rest van de body is schoon: alle 3 artikelen zijn aanwezig als
-        ## headings, inhoud volledig, opsomming (1°-8°, a-b) intact.'
+        - categorie: A1
+          regel: 108
+          type: form-feed
+          voorbeeld: Inlichtingen opgerichte gebouwen                  www.fisconetplus                                    pg. 1
+        - categorie: G1
+          regel: 108
+          type: url-plaintext
+          voorbeeld: www.fisconetplus (kale URL midden in voettekst-regel)
+      rationale: 'A1: regel 108 bevat een gecombineerde paginavoettekst en plain-text URL (''Inlichtingen opgerichte gebouwen  www.fisconetplus  pg. 1''). Dit is een PDF-extract-artefact dat bij een mens-geschreven document niet aanwezig zou zijn. De rest van de body is schoon: alle 3 artikelen zijn aanwezig als ## headings, inhoud volledig, opsomming (1°-8°, a-b) intact.'
       run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'A1: regel 108 bevat een gecombineerde paginavoettekst en plain-text
-      URL (''Inlichtingen opgerichte gebouwen  www.fisconetplus  pg. 1''). Dit is
-      een PDF-extract-artefact dat bij een mens-geschreven document niet aanwezig
-      zou zijn. De rest van de body is schoon: alle 3 artikelen zijn aanwezig als
-      ## headings, inhoud volledig, opsomming (1°-8°, a-b) intact.'
+    rationale: 'A1: regel 108 bevat een gecombineerde paginavoettekst en plain-text URL (''Inlichtingen opgerichte gebouwen  www.fisconetplus  pg. 1''). Dit is een PDF-extract-artefact dat bij een mens-geschreven document niet aanwezig zou zijn. De rest van de body is schoon: alle 3 artikelen zijn aanwezig als ## headings, inhoud volledig, opsomming (1°-8°, a-b) intact.'
     status: needs-rework
 status: beschikbaar
 tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 58 van 28 mei 2019, met betrekking tot de mededeling van de inlichtingen
-  inzake de pas opgerichte gebouwen voor de toepassing van de belasting over de toegevoegde
-  waarde
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 58 van 28 mei 2019, met betrekking tot de mededeling van de inlichtingen inzake de pas opgerichte gebouwen voor de toepassing van de belasting over de toegevoegde waarde
 ---
 
 # K.B. nr. 58 van 28 mei 2019, met betrekking tot de mededeling van de inlichtingen inzake de pas opgerichte gebouwen voor de toepassing van de belasting over de toegevoegde waarde

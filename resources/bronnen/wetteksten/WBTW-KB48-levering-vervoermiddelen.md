@@ -4,77 +4,58 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
   generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
-    sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
-    version: 06.03.2020
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+      version: 06.03.2020
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 12640
-      flags: []
+      status: pass
+      run_id: 20260512-191733
+      run_at: '2026-05-12T19:17:37Z'
       heading_count: 10
       max_section_chars: 3174
-      run_at: '2026-05-11T13:40:47Z'
-      run_id: 20260511-134044
-      status: pass
+      file_size_chars: 12640
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: A6
-        regel: 62
-        type: pseudo-table
-        voorbeeld: '       (Het opschrift van het KB nr. 48, werd gewijzigd met ingang
-          van 08.03.2010, (Art. 1,'
-      - categorie: C3
-        regel: 222
-        type: pseudo-table
-        voorbeeld: Bijwerking                                  Te vervangen pagina's
-      - categorie: C3
-        regel: 228
-        type: pseudo-table
-        voorbeeld: '                        - pg. Bijl.A/1                       -
-          Bijw. 03 - pg. Bijl.A/1'
-      rationale: 'De body bevat wel degelijk ## Art.-headings (Art. 1 t/m Art. 9 +
-        Art. 4bis), dus de layer2-notitie ''geen ##-headings'' was incorrect — de
-        headings zijn er. Maar er zijn drie persistente artefacten: (1) alle amendement-notities
-        staan diep ingesprongen met 7+ spaties, wat een PDF-extractie-artefact is
-        dat een mens nooit zo zou typen (A6/C3); (2) Bijlage A bevat een plain-text
-        tabel met kolom-alignment via witruimte (''Te vervangen pagina''s'' / ''Bijw.
-        03 - pg. Bijl.A/1'') (C3); (3) tekst in de introductie (regels 54-57) bevat
-        een woordafbreking binnen de wet-naam. Inhoud volledig tot Art. 9 inclusief
-        bijlagen.'
+        - categorie: A6
+          regel: 62
+          type: pseudo-table
+          voorbeeld: '       (Het opschrift van het KB nr. 48, werd gewijzigd met ingang van 08.03.2010, (Art. 1,'
+        - categorie: C3
+          regel: 222
+          type: pseudo-table
+          voorbeeld: Bijwerking                                  Te vervangen pagina's
+        - categorie: C3
+          regel: 228
+          type: pseudo-table
+          voorbeeld: '                        - pg. Bijl.A/1                       - Bijw. 03 - pg. Bijl.A/1'
+      rationale: 'De body bevat wel degelijk ## Art.-headings (Art. 1 t/m Art. 9 + Art. 4bis), dus de layer2-notitie ''geen ##-headings'' was incorrect — de headings zijn er. Maar er zijn drie persistente artefacten: (1) alle amendement-notities staan diep ingesprongen met 7+ spaties, wat een PDF-extractie-artefact is dat een mens nooit zo zou typen (A6/C3); (2) Bijlage A bevat een plain-text tabel met kolom-alignment via witruimte (''Te vervangen pagina''s'' / ''Bijw. 03 - pg. Bijl.A/1'') (C3); (3) tekst in de introductie (regels 54-57) bevat een woordafbreking binnen de wet-naam. Inhoud volledig tot Art. 9 inclusief bijlagen.'
       run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'De body bevat wel degelijk ## Art.-headings (Art. 1 t/m Art. 9 + Art.
-      4bis), dus de layer2-notitie ''geen ##-headings'' was incorrect — de headings
-      zijn er. Maar er zijn drie persistente artefacten: (1) alle amendement-notities
-      staan diep ingesprongen met 7+ spaties, wat een PDF-extractie-artefact is dat
-      een mens nooit zo zou typen (A6/C3); (2) Bijlage A bevat een plain-text tabel
-      met kolom-alignment via witruimte (''Te vervangen pagina''s'' / ''Bijw. 03 -
-      pg. Bijl.A/1'') (C3); (3) tekst in de introductie (regels 54-57) bevat een woordafbreking
-      binnen de wet-naam. Inhoud volledig tot Art. 9 inclusief bijlagen.'
+    rationale: 'De body bevat wel degelijk ## Art.-headings (Art. 1 t/m Art. 9 + Art. 4bis), dus de layer2-notitie ''geen ##-headings'' was incorrect — de headings zijn er. Maar er zijn drie persistente artefacten: (1) alle amendement-notities staan diep ingesprongen met 7+ spaties, wat een PDF-extractie-artefact is dat een mens nooit zo zou typen (A6/C3); (2) Bijlage A bevat een plain-text tabel met kolom-alignment via witruimte (''Te vervangen pagina''s'' / ''Bijw. 03 - pg. Bijl.A/1'') (C3); (3) tekst in de introductie (regels 54-57) bevat een woordafbreking binnen de wet-naam. Inhoud volledig tot Art. 9 inclusief bijlagen.'
     status: needs-rework
 status: beschikbaar
 tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 48 van 29 december 1992, met betrekking tot de levering van vervoermiddelen
-  in de zin van artikel 8bis, § 2, 1°, van het Btw- Wetboek, verricht binnen de voorwaarden
-  van artikel 39bis van het Btw- Wetboek
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 48 van 29 december 1992, met betrekking tot de levering van vervoermiddelen in de zin van artikel 8bis, § 2, 1°, van het Btw- Wetboek, verricht binnen de voorwaarden van artikel 39bis van het Btw- Wetboek
 ---
 
 # K.B. nr. 48 van 29 december 1992, met betrekking tot de levering van vervoermiddelen in de zin van artikel 8bis, § 2, 1°, van het Btw- Wetboek, verricht binnen de voorwaarden van artikel 39bis van het Btw- Wetboek

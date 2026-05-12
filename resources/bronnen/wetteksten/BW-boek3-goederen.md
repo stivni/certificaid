@@ -30,8 +30,8 @@ provenance:
     rationale:
     layer1:
       status: pass
-      run_id: 20260512-191456
-      run_at: '2026-05-12T19:14:56Z'
+      run_id: 20260512-191733
+      run_at: '2026-05-12T19:17:34Z'
       heading_count: 55
       max_section_chars: 1767
       file_size_chars: 15881

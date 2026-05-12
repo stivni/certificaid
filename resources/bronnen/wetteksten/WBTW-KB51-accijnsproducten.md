@@ -4,76 +4,62 @@ bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
 bron_rol: itaa_lex
 chunk:
   level: 2
-  sub_strategy: null
+  sub_strategy:
   type: Art.
 itaa-lex-sectie: VI.B
 provenance:
   generated_at: '2026-05-11T16:34:24Z'
   inputs:
-  - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
-    sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
-    version: 06.03.2020
+    - id: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
+      sha256: 5f1bad7278d1f8e1f5c00efb5d792f61342d3f7a14a7950caca2937924bfa91c
+      version: 06.03.2020
   stale: false
-  stale_reason: null
+  stale_reason:
   tooling:
-    model: null
+    model:
     pipeline: tools/etl/convert.py
     pipeline_version: 11f9196
-    prompt_version: null
+    prompt_version:
   trust:
     confirmed_at: '2026-05-11T11:46:29Z'
     confirmed_by: subagent-sonnet-4-6
     layer1:
-      file_size_chars: 7447
-      flags: []
+      status: pass
+      run_id: 20260512-191733
+      run_at: '2026-05-12T19:17:38Z'
       heading_count: 9
       max_section_chars: 1841
-      run_at: '2026-05-11T13:40:47Z'
-      run_id: 20260511-134044
-      status: pass
+      file_size_chars: 7447
+      flags: []
     layer2:
       agent: subagent-sonnet-4-6
       concrete_problemen:
-      - categorie: A8
-        regel: 55
-        type: column-bleed
-        voorbeeld: vereenvoudigingsregeling    voor   intracommunautaire      verwerving  van
-      - categorie: A1
-        regel: 111
-        type: form-feed
-        voorbeeld: Intracomm. verw. accijnsprodukten               www.fisconetplus.be                                  pg.
-          1
-      - categorie: A1
-        regel: 152
-        type: form-feed
-        voorbeeld: Intracomm. verw. accijnsprodukten              www.fisconetplus.be                                    pg.
-          2
-      - categorie: C3
-        regel: 123
-        type: pseudo-table
-        voorbeeld: opgemaakte      of    ontvangen     bestelbons,    contracten,   verzendingsstukken,
-      rationale: 'Twee paginavoettekst-regels niet verwijderd (A1): regels 111 en
-        152 bevatten ''Intracomm. verw. accijnsprodukten  www.fisconetplus.be  pg.
-        1/2''. Introductietekst (regels 54-56) bevat meervoudige spaties als kolom-alignment-artefact
-        (''vereenvoudigingsregeling    voor   intracommunautaire      verwerving  van'').
-        Zelfde issue op regel 123 in de bodytekst van Art. 6. Dit zijn typische PDF-twee-kolom-extractie-artefacten
-        (A8/C3). Verder is het KB compact en inhoudelijk volledig.'
+        - categorie: A8
+          regel: 55
+          type: column-bleed
+          voorbeeld: vereenvoudigingsregeling    voor   intracommunautaire      verwerving  van
+        - categorie: A1
+          regel: 111
+          type: form-feed
+          voorbeeld: Intracomm. verw. accijnsprodukten               www.fisconetplus.be                                  pg. 1
+        - categorie: A1
+          regel: 152
+          type: form-feed
+          voorbeeld: Intracomm. verw. accijnsprodukten              www.fisconetplus.be                                    pg. 2
+        - categorie: C3
+          regel: 123
+          type: pseudo-table
+          voorbeeld: opgemaakte      of    ontvangen     bestelbons,    contracten,   verzendingsstukken,
+      rationale: 'Twee paginavoettekst-regels niet verwijderd (A1): regels 111 en 152 bevatten ''Intracomm. verw. accijnsprodukten  www.fisconetplus.be  pg. 1/2''. Introductietekst (regels 54-56) bevat meervoudige spaties als kolom-alignment-artefact (''vereenvoudigingsregeling    voor   intracommunautaire      verwerving  van''). Zelfde issue op regel 123 in de bodytekst van Art. 6. Dit zijn typische PDF-twee-kolom-extractie-artefacten (A8/C3). Verder is het KB compact en inhoudelijk volledig.'
       run_at: '2026-05-11T11:46:29Z'
       status: needs-rework
-    rationale: 'Twee paginavoettekst-regels niet verwijderd (A1): regels 111 en 152
-      bevatten ''Intracomm. verw. accijnsprodukten  www.fisconetplus.be  pg. 1/2''.
-      Introductietekst (regels 54-56) bevat meervoudige spaties als kolom-alignment-artefact
-      (''vereenvoudigingsregeling    voor   intracommunautaire      verwerving  van'').
-      Zelfde issue op regel 123 in de bodytekst van Art. 6. Dit zijn typische PDF-twee-kolom-extractie-artefacten
-      (A8/C3). Verder is het KB compact en inhoudelijk volledig.'
+    rationale: 'Twee paginavoettekst-regels niet verwijderd (A1): regels 111 en 152 bevatten ''Intracomm. verw. accijnsprodukten  www.fisconetplus.be  pg. 1/2''. Introductietekst (regels 54-56) bevat meervoudige spaties als kolom-alignment-artefact (''vereenvoudigingsregeling    voor   intracommunautaire      verwerving  van''). Zelfde issue op regel 123 in de bodytekst van Art. 6. Dit zijn typische PDF-twee-kolom-extractie-artefacten (A8/C3). Verder is het KB compact en inhoudelijk volledig.'
     status: needs-rework
 status: beschikbaar
 tags:
-- VI.B
-- '2.4'
-wet: K.B. nr. 51 van 14 april 1993, met betrekking tot de vereenvoudigingsregeling
-  voor intracommunautaire verwerving van accijnsprodukten op het stuk van de belasting
-  over de toegevoegde waarde
+  - VI.B
+  - '2.4'
+wet: K.B. nr. 51 van 14 april 1993, met betrekking tot de vereenvoudigingsregeling voor intracommunautaire verwerving van accijnsprodukten op het stuk van de belasting over de toegevoegde waarde
 ---
 
 # K.B. nr. 51 van 14 april 1993, met betrekking tot de vereenvoudigingsregeling voor intracommunautaire verwerving van accijnsprodukten op het stuk van de belasting over de toegevoegde waarde
