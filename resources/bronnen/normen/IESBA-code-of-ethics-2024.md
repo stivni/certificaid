@@ -17,47 +17,19 @@ provenance:
       version: 2024-08
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: a168c7a-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:02:40Z'
+  generated_at: '2026-05-12T21:12:10Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A6 (spurious line-breaks): paragrafen zijn gesplitst per visuele PDF-regel — korte regels die niet eindigen op leesteken gevolgd door nieuwe zin. A6 patroon doortrekken door heel document (bv. regel 100-106 'The Code establishes' splitst over 7 regels). Lettered sub-items (a), (b) staan elk op eigen regel los van hun inhoud (regel 67-81). Eén sectie is 86477 chars — L1 warn terecht. Structuur is verder logisch."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: warn
-      run_id: 20260512-190254
-      run_at: '2026-05-12T19:02:55Z'
-      heading_count: 42
-      max_section_chars: 86477
-      file_size_chars: 639605
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 86477 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: "A6 (spurious line-breaks): paragrafen zijn gesplitst per visuele PDF-regel — korte regels die niet eindigen op leesteken gevolgd door nieuwe zin. A6 patroon doortrekken door heel document (bv. regel 100-106 'The Code establishes' splitst over 7 regels). Lettered sub-items (a), (b) staan elk op eigen regel los van hun inhoud (regel 67-81). Eén sectie is 86477 chars — L1 warn terecht. Structuur is verder logisch."
-      concrete_problemen:
-        - regel: 100
-          categorie: A6
-          type: other
-          voorbeeld: The Code establishes five fundamental principles to be complied with
-        - regel: 67
-          categorie: A6
-          type: other
-          voorbeeld: (a)\n\nAdherence to ethical principles and professional standards;
-        - regel: 171
-          categorie: A6
-          type: other
-          voorbeeld: the conceptual framework to a range of facts and circumstances that\naccountants might encounter
 ---
 
 # IESBA-code-of-ethics-2024
@@ -81,21 +53,13 @@ assurance and other professional activities. Accountants understand
 and acknowledge that such confidence is based on the skills and values
 that accountants bring to the professional activities they undertake,
 including:
-(a)
+(a) Adherence to ethical principles and professional standards;
 
-Adherence to ethical principles and professional standards;
+(b) Use of business acumen;
 
-(b)
+(c) Application of expertise on technical and other matters; and
 
-Use of business acumen;
-
-(c)
-
-Application of expertise on technical and other matters; and
-
-(d)
-
-Exercise of professional judgment.
+(d) Exercise of professional judgment.
 
 The application of these skills and values enables accountants to
 provide advice or other output that meets the purpose for which it was
@@ -203,14 +167,10 @@ accountant who identifies a breach of any other provision of the Code
 shall evaluate the significance of the breach and its impact on the
 accountant’s ability to comply with the fundamental principles. The
 accountant shall also:
-(a)
-
-Take whatever actions might be available, as soon as possible,
+(a) Take whatever actions might be available, as soon as possible,
 to address the consequences of the breach satisfactorily; and
 
-(b)
-
-Determine whether to report the breach to the relevant parties.
+(b) Determine whether to report the breach to the relevant parties.
 
 Relevant parties to whom such a breach might be reported include those
 who might have been affected by it, a professional or regulatory body
@@ -221,66 +181,42 @@ General
 
 There are five fundamental principles of ethics for professional
 accountants:
-(a)
-
-Integrity – to be straightforward and honest in all professional
+(a) Integrity – to be straightforward and honest in all professional
 and business relationships.
 
-(b)
-
-Objectivity – to exercise professional or business judgment
+(b) Objectivity – to exercise professional or business judgment
 without being compromised by:
 
-(c)
-
-(i)
+(c) (i)
 
 Bias;
 
-(ii)
+(ii) Conflict of interest; or
 
-Conflict of interest; or
-
-(iii)
-
-Undue influence of, or undue reliance on, individuals,
+(iii) Undue influence of, or undue reliance on, individuals,
 organizations, technology or other factors.
 
 Professional Competence and Due Care – to:
-(i)
-
-Attain and maintain professional knowledge and skill at
+(i) Attain and maintain professional knowledge and skill at
 the level required to ensure that a client or employing
 organization receives competent professional service,
 based on current technical and professional standards and
 relevant legislation; and
 
-(ii)
-
-Act diligently and in accordance with applicable
+(ii) Act diligently and in accordance with applicable
 technical and professional standards.
 
-(d)
-
-Confidentiality – to respect the confidentiality of information
+(d) Confidentiality – to respect the confidentiality of information
 acquired as a result of professional and business relationships.
 
-(e)
+(e) Professional Behavior – to:
+(i) Comply with relevant laws and regulations;
 
-Professional Behavior – to:
-(i)
-
-Comply with relevant laws and regulations;
-
-(ii)
-
-Behave in a manner consistent with the profession’s
+(ii) Behave in a manner consistent with the profession’s
 responsibility to act in the public interest in all
 professional activities and business relationships; and
 
-(iii)
-
-Avoid any conduct that the professional accountant
+(iii) Avoid any conduct that the professional accountant
 knows or should know might discredit the profession.
 
 **R110.2**
@@ -305,25 +241,15 @@ A professional accountant might face a situation in which complying
 with one fundamental principle conflicts with complying with one or
 more other fundamental principles. In such a situation, the accountant
 might consider consulting, on an anonymous basis if necessary, with:
-•
+• Others within the firm or employing organization.
 
-Others within the firm or employing organization.
+• Those charged with governance.
 
-•
+• A professional body.
 
-Those charged with governance.
+• A regulatory body.
 
-•
-
-A professional body.
-
-•
-
-A regulatory body.
-
-•
-
-Legal counsel.
+• Legal counsel.
 
 However, such consultation does not relieve the accountant from the
 responsibility to exercise professional judgment to resolve the conflict
@@ -352,14 +278,10 @@ organizational consequences.
 **111.1 A2**
 
 Acting appropriately involves:
-(a)
-
-Standing one’s ground when confronted by dilemmas and
+(a) Standing one’s ground when confronted by dilemmas and
 difficult situations; or
 
-(b)
-
-Challenging others as and when circumstances warrant,
+(b) Challenging others as and when circumstances warrant,
 
 in a manner appropriate to the circumstances.
 **R111.2**
@@ -368,17 +290,11 @@ A professional accountant shall not knowingly be associated with
 reports, returns, communications or other information where the
 accountant believes that the information:
 
-(a)
+(a) Contains a materially false or misleading statement;
 
-Contains a materially false or misleading statement;
+(b) Contains statements or information provided recklessly; or
 
-(b)
-
-Contains statements or information provided recklessly; or
-
-(c)
-
-Omits or obscures required information where such omission or
+(c) Omits or obscures required information where such omission or
 obscurity would be misleading.
 
 **111.2 A1**
@@ -401,17 +317,11 @@ SUBSECTION 112 – OBJECTIVITY
 A professional accountant shall comply with the principle of
 objectivity, which requires an accountant to exercise professional or
 business judgment without being compromised by:
-(a)
+(a) Bias;
 
-Bias;
+(b) Conflict of interest; or
 
-(b)
-
-Conflict of interest; or
-
-(c)
-
-Undue influence of, or undue reliance on, individuals,
+(c) Undue influence of, or undue reliance on, individuals,
 organizations, technology or other factors.
 
 A professional accountant shall not undertake a professional activity if
@@ -426,16 +336,12 @@ DUE CARE
 
 A professional accountant shall comply with the principle of
 professional competence and due care, which requires an accountant to:
-(a)
-
-Attain and maintain professional knowledge and skills at the
+(a) Attain and maintain professional knowledge and skills at the
 level required to ensure that a client or employing organization
 receives competent professional service, based on current
 technical and professional standards and relevant legislation; and
 
-(b)
-
-Act diligently and in accordance with applicable technical and
+(b) Act diligently and in accordance with applicable technical and
 professional standards.
 
 Serving clients and employing organizations with professional
@@ -488,25 +394,17 @@ A professional accountant shall comply with the principle of
 confidentiality, which requires an accountant to respect the
 confidentiality of information acquired in the course of professional
 and business relationships. An accountant shall:
-(a)
-
-Be alert to the possibility of inadvertent disclosure, including in
+(a) Be alert to the possibility of inadvertent disclosure, including in
 a social environment, and particularly to a close business
 associate or an immediate or a close family member;
 
-(b)
-
-Maintain confidentiality of information within the firm or
+(b) Maintain confidentiality of information within the firm or
 employing organization;
 
-(c)
-
-Maintain confidentiality of information disclosed by a
+(c) Maintain confidentiality of information disclosed by a
 prospective client or employing organization; and
 
-(d)
-
-Take reasonable steps to ensure that personnel under the
+(d) Take reasonable steps to ensure that personnel under the
 accountant’s control, and individuals from whom advice and
 
 **114.1 A1**
@@ -525,38 +423,26 @@ Subject to paragraph R114.3, a professional accountant shall not:
 
 **114.3 A1**
 
-(a)
-
-Disclose confidential information acquired in the course of
+(a) Disclose confidential information acquired in the course of
 professional and business relationships;
 
-(b)
-
-Use confidential information acquired in the course of
+(b) Use confidential information acquired in the course of
 professional and business relationships for the advantage of the
 accountant, the firm, the employing organization or a third party;
 
-(c)
-
-Use or disclose any confidential information, either acquired or
+(c) Use or disclose any confidential information, either acquired or
 received in the course of a professional or business relationship,
 after that relationship has ended; and
 
-(d)
-
-Use or disclose information in respect of which the duty of
+(d) Use or disclose information in respect of which the duty of
 confidentiality applies notwithstanding that the information has
 become publicly available, whether properly or improperly.
 
 As an exception to paragraph R114.2, a professional accountant may
 disclose or use confidential information where:
-(a)
+(a) There is a legal or professional duty or right to do so; or
 
-There is a legal or professional duty or right to do so; or
-
-(b)
-
-This is authorized by the client or any person with the authority
+(b) This is authorized by the client or any person with the authority
 to permit disclosure or use of the confidential information and
 this is not prohibited by law or regulation.
 
@@ -566,87 +452,55 @@ employing organization to the accountant in the knowledge that the
 information will not be disclosed to a third party. Nevertheless, the
 following are circumstances where professional accountants might be
 required or have the duty or right to disclose confidential information:
-(a)
-
-Disclosure is required by law or regulation, for example:
-(i)
-
-Production of documents or other provision of evidence
+(a) Disclosure is required by law or regulation, for example:
+(i) Production of documents or other provision of evidence
 in the course of legal proceedings; or
 
-(ii)
-
-Disclosure to the appropriate public authorities of
+(ii) Disclosure to the appropriate public authorities of
 infringements of the law that come to light; and
 
 assistance are obtained, comply with the accountant’s duty of
 confidentiality.
 
-(b)
-
-**114.3 A2**
+(b) **114.3 A2**
 
 **114.3 A3**
 
 There is a professional duty or right to disclose or use, when not
 prohibited by law or regulation:
-(i)
+(i) To comply with the quality review of a professional body;
 
-To comply with the quality review of a professional body;
-
-(ii)
-
-To respond to an inquiry or investigation by a
+(ii) To respond to an inquiry or investigation by a
 professional or regulatory body;
 
-(iii)
-
-To protect the professional interests of a professional
+(iii) To protect the professional interests of a professional
 accountant in legal proceedings; or
 
-(iv)
-
-To comply with technical and professional standards,
+(iv) To comply with technical and professional standards,
 including ethics requirements.
 
 In deciding whether to disclose or use confidential information, factors
 to consider, depending on the circumstances, include:
-•
-
-Whether the interests of any parties, including third parties
+• Whether the interests of any parties, including third parties
 whose interests might be affected, could be harmed if the client
 or employing organization authorizes the disclosure or use of
 information by the professional accountant.
 
-•
-
-Whether all the relevant information is known and substantiated,
+• Whether all the relevant information is known and substantiated,
 to the extent practicable. Factors affecting the decision to
 disclose or use the information include:
-o
+o Unsubstantiated facts.
 
-Unsubstantiated facts.
+o Incomplete information.
 
-o
+o Unsubstantiated conclusions.
 
-Incomplete information.
+• The proposed means of communicating the information.
 
-o
-
-Unsubstantiated conclusions.
-
-•
-
-The proposed means of communicating the information.
-
-•
-
-Whether the parties to whom the information is to be provided
+• Whether the parties to whom the information is to be provided
 or access is to be granted are appropriate recipients.
 
-•
-
-Any applicable law or regulation (including those governing
+• Any applicable law or regulation (including those governing
 privacy) in a jurisdiction where disclosure might take place and,
 if different, the jurisdiction where the confidential information
 originates.
@@ -663,24 +517,16 @@ that provided such information for use in specific circumstances,
 
 **R114.4**
 
-•
+• The nature of the information to be used or disclosed.
 
-The nature of the information to be used or disclosed.
-
-•
-
-The purpose for which the information is to be used or disclosed
+• The purpose for which the information is to be used or disclosed
 (for example, technology development, research or
 benchmarking data or studies).
 
-•
-
-The individual or entity who will undertake the activity for
+• The individual or entity who will undertake the activity for
 which the information is to be used or disclosed.
 
-•
-
-Whether the identity of the individual or entity that provided
+• Whether the identity of the individual or entity that provided
 such information or any individuals or entities to which such
 information relates will be identifiable from the output of the
 activity for which the information is to be used or disclosed.
@@ -698,19 +544,13 @@ SUBSECTION 115 – PROFESSIONAL BEHAVIOR
 
 A professional accountant shall comply with the principle of
 professional behavior, which requires an accountant to:
-(a)
+(a) Comply with relevant laws and regulations;
 
-Comply with relevant laws and regulations;
-
-(b)
-
-Behave in a manner consistent with the profession’s
+(b) Behave in a manner consistent with the profession’s
 responsibility to act in the public interest in all professional
 activities and business relationships; and
 
-(c)
-
-Avoid any conduct that the accountant knows or should know
+(c) Avoid any conduct that the accountant knows or should know
 might discredit the profession.
 
 A professional accountant shall not knowingly engage in any business,
@@ -733,14 +573,10 @@ might include:
 When undertaking marketing or promotional activities, a professional
 accountant shall not bring the profession into disrepute. A professional
 accountant shall be honest and truthful and shall not make:
-(a)
-
-Exaggerated claims for the services offered by, or the
+(a) Exaggerated claims for the services offered by, or the
 qualifications or experience of, the accountant; or
 
-(b)
-
-Disparaging references or unsubstantiated comparisons to the
+(b) Disparaging references or unsubstantiated comparisons to the
 work of others.
 
 If a professional accountant is in doubt about whether a form of
@@ -766,17 +602,11 @@ because that situation is not specifically prohibited by the Code.
 
 The conceptual framework specifies an approach for a professional
 accountant to:
-(a)
+(a) Identify threats to compliance with the fundamental principles;
 
-Identify threats to compliance with the fundamental principles;
+(b) Evaluate the threats identified; and
 
-(b)
-
-Evaluate the threats identified; and
-
-(c)
-
-Address the threats by eliminating or reducing them to an
+(c) Address the threats by eliminating or reducing them to an
 acceptable level.
 
 Requirements and Application Material
@@ -792,25 +622,13 @@ fundamental principles set out in Section 110.
 Additional requirements and application material that are relevant to
 the application of the conceptual framework are set out in:
 
-(a)
+(a) Part 2 – Professional Accountants in Business;
 
-Part 2 – Professional Accountants in Business;
+(b) Part 3 – Professional Accountants in Public Practice; and
 
-(b)
-
-Part 3 – Professional Accountants in Public Practice; and
-
-(c)
-
-International Independence Standards, as follows:
-(i)
-
-Part 4A – Independence for Audit and Review
-Engagements; and
-
-(ii)
-
-Part 4B – Independence for Assurance Engagements
+(c) International Independence Standards, as follows:
+(i) Part 4A – Independence for Audit and Review
+Engagements; and (ii) Part 4B – Independence for Assurance Engagements
 Other than Audit and Review Engagements.
 
 THE CONCEPTUAL FRAMEWORK
@@ -829,17 +647,11 @@ these circumstances.
 
 When applying the conceptual framework, the professional accountant
 shall:
-(a)
+(a) Have an inquiring mind;
 
-Have an inquiring mind;
+(b) Exercise professional judgment; and
 
-(b)
-
-Exercise professional judgment; and
-
-(c)
-
-Use the reasonable and informed third party test described in
+(c) Use the reasonable and informed third party test described in
 paragraph 120.5 A9.
 
 Having an Inquiring Mind
@@ -850,43 +662,29 @@ Having an Inquiring Mind
 An inquiring mind is a prerequisite to obtaining an understanding of
 known facts and circumstances necessary for the proper application of
 the conceptual framework. Having an inquiring mind involves:
-(a)
-
-Considering the source, relevance and sufficiency of
+(a) Considering the source, relevance and sufficiency of
 information obtained, taking into account the nature, scope and
 outputs of the professional activity being undertaken; and
 
-(b)
-
-Being open and alert to a need for further investigation or other
+(b) Being open and alert to a need for further investigation or other
 action.
 
 When considering the source, relevance and sufficiency of information
 obtained, the professional accountant might consider, among other
 matters, whether:
-•
-
-New information has emerged or there have been changes in
+• New information has emerged or there have been changes in
 facts and circumstances.
 
-•
+• The information or its source might be influenced by bias or selfinterest.
 
-The information or its source might be influenced by bias or selfinterest.
-
-•
-
-There is reason to be concerned that potentially relevant
+• There is reason to be concerned that potentially relevant
 information might be missing from the facts and circumstances
 known to the accountant.
 
-•
-
-There is an inconsistency between the known facts and
+• There is an inconsistency between the known facts and
 circumstances and the accountant’s expectations.
 
-•
-
-The information provides a reasonable basis on which to reach
+• The information provides a reasonable basis on which to reach
 a conclusion.
 
 **120.5 A3**
@@ -919,19 +717,13 @@ applies the conceptual framework in order to make informed decisions
 about the courses of actions available, and to determine whether such
 decisions are appropriate in the circumstances. In making this
 determination, the accountant might consider matters such as whether:
-•
-
-The accountant’s expertise and experience are sufficient to reach
+• The accountant’s expertise and experience are sufficient to reach
 a conclusion.
 
-•
-
-There is a need to consult with others with relevant expertise or
+• There is a need to consult with others with relevant expertise or
 experience.
 
-•
-
-The accountant’s own preconception or bias might be affecting
+• The accountant’s own preconception or bias might be affecting
 the accountant’s exercise of professional judgment.
 
 **120.5 A6**
@@ -947,31 +739,21 @@ and assumptions that are interconnected or interdependent.
 **120.5 A7**
 
 Managing complexity involves:
-•
-
-Making the firm or employing organization and, if appropriate,
+• Making the firm or employing organization and, if appropriate,
 relevant stakeholders aware of the inherent uncertainties or
 
-•
-
-•
+• •
 
 **120.5 A8**
 
 difficulties arising from the facts and circumstances. (Ref: Para.
-R113.3)
-Being alert to any developments or changes in the facts and
+R113.3) Being alert to any developments or changes in the facts and
 circumstances and assessing whether they might impact any
 judgments the accountant has made. (Ref: Para. R120.5 to 120.5
 A3, and R120.9 to 120.9 A2)
 
 Managing complexity might also involve:
-•
-
-•
-•
-
-Analyzing and investigating as relevant, any uncertain elements,
+• • • Analyzing and investigating as relevant, any uncertain elements,
 the variables and assumptions and how they are connected or
 interdependent.
 Using technology to analyze relevant data to inform the
@@ -1026,37 +808,27 @@ more of the following categories:
 
 **120.6 A4**
 
-(a)
-
-Self-interest threat – the threat that a financial or other interest
+(a) Self-interest threat – the threat that a financial or other interest
 will inappropriately influence a professional accountant’s
 judgment or behavior;
 
-(b)
-
-Self-review threat – the threat that a professional accountant will
+(b) Self-review threat – the threat that a professional accountant will
 not appropriately evaluate the results of a previous judgment
 made, or an activity performed by the accountant or by another
 individual within the accountant’s firm or employing
 organization, on which the accountant will rely when forming a
 judgment as part of performing a current activity;
 
-(c)
-
-Advocacy threat – the threat that a professional accountant will
+(c) Advocacy threat – the threat that a professional accountant will
 promote a client’s or employing organization’s position to the
 point that the accountant’s objectivity is compromised;
 
-(d)
-
-Familiarity threat – the threat that due to a long or close
+(d) Familiarity threat – the threat that due to a long or close
 relationship with a client, or employing organization, a
 professional accountant will be too sympathetic to their interests
 or too accepting of their work; and
 
-(e)
-
-Intimidation threat – the threat that a professional accountant
+(e) Intimidation threat – the threat that a professional accountant
 will be deterred from acting objectively because of actual or
 perceived pressures, including attempts to exercise undue
 influence over the accountant.
@@ -1094,29 +866,19 @@ The existence of conditions, policies and procedures described in
 paragraph 120.6 A1 might also be factors that are relevant in evaluating
 the level of threats to compliance with the fundamental principles.
 Examples of such conditions, policies and procedures include:
-•
+• Corporate governance requirements.
 
-Corporate governance requirements.
-
-•
-
-Educational, training and experience requirements for the
+• Educational, training and experience requirements for the
 profession.
 
-•
-
-Effective complaint systems which enable the professional
+• Effective complaint systems which enable the professional
 accountant and the general public to draw attention to unethical
 behavior.
 
-•
-
-An explicitly stated duty to report breaches of ethics
+• An explicitly stated duty to report breaches of ethics
 requirements.
 
-•
-
-Professional or regulatory monitoring and disciplinary
+• Professional or regulatory monitoring and disciplinary
 procedures.
 
 Consideration of New Information or Changes in Facts and Circumstances
@@ -1135,13 +897,9 @@ emerged or changes in facts and circumstances have occurred that:
 
 **120.9 A2**
 
-(a)
+(a) Impact the level of a threat; or
 
-Impact the level of a threat; or
-
-(b)
-
-Affect the accountant’s conclusions about whether safeguards
+(b) Affect the accountant’s conclusions about whether safeguards
 applied continue to be appropriate to address identified threats.
 
 If new information results in the identification of a new threat, the
@@ -1154,23 +912,13 @@ If the professional accountant determines that the identified threats to
 compliance with the fundamental principles are not at an acceptable
 level, the accountant shall address the threats by eliminating them or
 reducing them to an acceptable level. The accountant shall do so by:
-(a)
-
-Eliminating the circumstances, including
+(a) Eliminating the circumstances, including
 relationships, that are creating the threats;
 
-interests
-
-or
-
-(b)
-
-Applying safeguards, where available and capable of being
+interests or (b) Applying safeguards, where available and capable of being
 applied, to reduce the threats to an acceptable level; or
 
-(c)
-
-Declining or ending the specific professional activity.
+(c) Declining or ending the specific professional activity.
 
 Actions to Eliminate Threats
 **120.10 A1**
@@ -1197,14 +945,8 @@ The professional accountant shall form an overall conclusion about
 whether the actions that the accountant takes, or intends to take, to address
 the threats created will eliminate those threats or reduce them to an
 acceptable level. In forming the overall conclusion, the accountant shall:
-(a)
-
-Review any significant judgments made or conclusions reached;
-and
-
-(b)
-
-Use the reasonable and informed third party test.
+(a) Review any significant judgments made or conclusions reached;
+and (b) Use the reasonable and informed third party test.
 
 Other Considerations when Applying the Conceptual Framework
 Bias
@@ -1222,69 +964,47 @@ Addressing Threats
 
 Examples of potential bias to be aware of when exercising professional
 judgment include:
-•
-
-Anchoring bias, which is a tendency to use an initial piece of
+• Anchoring bias, which is a tendency to use an initial piece of
 information as an anchor against which subsequent information
 is inadequately assessed.
 
-•
-
-Automation bias, which is a tendency to favor output generated
+• Automation bias, which is a tendency to favor output generated
 from automated systems, even when human reasoning or
 contradictory information raises questions as to whether such
 output is reliable or fit for purpose.
 
-•
-
-Availability bias, which is a tendency to place more weight on
+• Availability bias, which is a tendency to place more weight on
 events or experiences that immediately come to mind or are
 readily available than on those that are not.
 
-•
-
-Confirmation bias, which is a tendency to place more weight on
+• Confirmation bias, which is a tendency to place more weight on
 information that corroborates an existing belief than information
 that contradicts or casts doubt on that belief.
 
-•
-
-Groupthink, which is a tendency for a group of individuals to
+• Groupthink, which is a tendency for a group of individuals to
 discourage individual creativity and responsibility and as a
 result reach a decision without critical reasoning or
 consideration of alternatives.
 
-•
-
-Overconfidence bias, which is a tendency to overestimate one’s
+• Overconfidence bias, which is a tendency to overestimate one’s
 own ability to make accurate assessments of risk or other
 judgments or decisions.
 
-•
-
-Representation bias, which is a tendency to base an
+• Representation bias, which is a tendency to base an
 understanding on a pattern of experiences, events or beliefs that
 is assumed to be representative.
 
-•
-
-Selective perception, which is a tendency for a person’s
+• Selective perception, which is a tendency for a person’s
 expectations to influence how the person views a particular
 matter or person.
 
 Actions that might mitigate the effect of bias include:
-•
+• Seeking advice from experts to obtain additional input.
 
-Seeking advice from experts to obtain additional input.
-
-•
-
-Consulting with others to ensure appropriate challenge as part of
+• Consulting with others to ensure appropriate challenge as part of
 the evaluation process.
 
-•
-
-Receiving training related to the identification of bias as part of
+• Receiving training related to the identification of bias as part of
 professional development.
 
 Organizational Culture
@@ -1299,46 +1019,31 @@ professional accountant is enhanced when the importance of ethical
 
 The promotion of an ethical culture within an organization is most
 effective when:
-(a)
-
-Leaders and those in managerial roles promote the importance
+(a) Leaders and those in managerial roles promote the importance
 of, and hold themselves and others accountable for
 demonstrating, the ethical values of the organization;
 
-(b)
-
-Appropriate education and training programs, management
+(b) Appropriate education and training programs, management
 processes, and performance evaluation and reward criteria that
 promote an ethical culture are in place;
 
-(c)
-
-Effective policies and procedures are in place to encourage and
+(c) Effective policies and procedures are in place to encourage and
 protect those who report actual or suspected illegal or unethical
 behavior, including whistle-blowers; and
 
-(d)
-
-The organization adheres to ethical values in its dealings with
+(d) The organization adheres to ethical values in its dealings with
 third parties.
 
 Professional accountants are expected to:
-(a)
-
-Encourage and promote an ethics-based culture in their
+(a) Encourage and promote an ethics-based culture in their
 organization, taking into account their position and seniority;
-and
-
-(b)
-
-Exhibit ethical behavior in dealings with individuals with whom,
+and (b) Exhibit ethical behavior in dealings with individuals with whom,
 and entities with which, the accountants, the firm or the
 employing organization has a professional or business
 relationship.
 
 Considerations for Audits, Reviews, Other Assurance and Related Services
-Engagements
-Firm Culture
+Engagements Firm Culture
 **120.14 A1**
 
 ISQM 1 sets out requirements and application material relating to firm
@@ -1360,17 +1065,13 @@ accountant’s organization.
 
 Independence is linked to the fundamental principles of objectivity and
 integrity. It comprises:
-(a)
-
-Independence of mind – the state of mind that permits the
+(a) Independence of mind – the state of mind that permits the
 expression of a conclusion without being affected by influences
 that compromise professional judgment, thereby allowing an
 individual to act with integrity, and exercise objectivity and
 professional skepticism.
 
-(b)
-
-Independence in appearance – the avoidance of facts and
+(b) Independence in appearance – the avoidance of facts and
 circumstances that are so significant that a reasonable and
 informed third party would be likely to conclude that a firm’s or
 an audit or assurance team member’s integrity, objectivity or
@@ -1415,75 +1116,49 @@ described in Section 110 are inter-related concepts.
 In an audit of financial statements, compliance with the fundamental
 principles, individually and collectively, supports the exercise of
 professional skepticism, as shown in the following examples:
-•
-
-Integrity requires the professional accountant to be
+• Integrity requires the professional accountant to be
 straightforward and honest. For example, the accountant
 complies with the principle of integrity by:
-o
-
-Being straightforward and honest when raising concerns
+o Being straightforward and honest when raising concerns
 about a position taken by a client.
 
-o
-
-Pursuing inquiries about inconsistent information and
+o Pursuing inquiries about inconsistent information and
 seeking further audit evidence to address concerns about
 statements that might be materially false or misleading in
 order to make informed decisions about the appropriate
 course of action in the circumstances.
 
-o
-
-Having the strength of character to act appropriately, even
+o Having the strength of character to act appropriately, even
 when facing pressure to do otherwise or when doing so
 might create potential adverse personal or organizational
 consequences. Acting appropriately involves:
-(a)
-
-Standing one’s ground when confronted by
+(a) Standing one’s ground when confronted by
 dilemmas and difficult situations; or
 
-(b)
-
-Challenging others as and when circumstances
-warrant,
-
-in a manner appropriate to the circumstances.
+(b) Challenging others as and when circumstances
+warrant, in a manner appropriate to the circumstances.
 In doing so, the accountant demonstrates the critical assessment
 of audit evidence that contributes to the exercise of professional
 skepticism.
-•
-
-Objectivity requires the professional accountant to exercise
+• Objectivity requires the professional accountant to exercise
 professional or business judgment without being compromised
 by:
-(a)
+(a) Bias;
 
-Bias;
+(b) Conflict of interest; or
 
-(b)
-
-Conflict of interest; or
-
-(c)
-
-Undue influence of, or undue reliance on, individuals,
+(c) Undue influence of, or undue reliance on, individuals,
 organizations, technology or other factors.
 
 For example, the accountant complies with the principle of
 objectivity by:
-(a)
-
-Recognizing circumstances or relationships such as
+(a) Recognizing circumstances or relationships such as
 familiarity with the client, that might compromise the
 accountant’s professional or business judgment; and
 
 **120.16 A2**
 
-(b)
-
-Considering the impact of such circumstances and
+(b) Considering the impact of such circumstances and
 relationships on the accountant’s judgment when
 evaluating the sufficiency and appropriateness of audit
 evidence related to a matter material to the client’s
@@ -1491,29 +1166,19 @@ financial statements.
 
 In doing so, the accountant behaves in a manner that contributes
 to the exercise of professional skepticism.
-•
-
-Professional competence and due care requires the professional
+• Professional competence and due care requires the professional
 accountant to have professional knowledge and skill at the level
 required to ensure the provision of competent professional
 service, and to act diligently in accordance with applicable
 standards, laws and regulations. For example, the accountant
 complies with the principle of professional competence and due
 care by:
-(a)
-
-Applying knowledge that is relevant to a particular
+(a) Applying knowledge that is relevant to a particular
 client’s industry and business activities in order to
 properly identify risks of material misstatement;
 
-(b)
-
-Designing and performing appropriate audit procedures;
-and
-
-(c)
-
-Applying relevant knowledge when critically assessing
+(b) Designing and performing appropriate audit procedures;
+and (c) Applying relevant knowledge when critically assessing
 whether audit evidence is sufficient and appropriate in the
 circumstances.
 
@@ -1560,13 +1225,9 @@ no bearing on the ethical responsibilities placed on the accountant.
 **200.4**
 
 In this Part, the term “professional accountant” refers to:
-(a)
+(a) A professional accountant in business; and
 
-A professional accountant in business; and
-
-(b)
-
-An individual who is a professional accountant in public practice
+(b) An individual who is a professional accountant in public practice
 when performing professional activities pursuant to the
 accountant’s relationship with the accountant’s firm, whether as
 a contractor, employee or owner. More information on when
@@ -1610,22 +1271,14 @@ individuals with whom, and entities with which, the accountant or the
 employing organization has a professional or business relationship in
 accordance with paragraph 120.13 A3. Examples of actions that might
 be taken include the introduction, implementation and oversight of:
-•
+• Ethics education and training programs.
 
-Ethics education and training programs.
-
-•
-
-Management processes and performance evaluation and reward
+• Management processes and performance evaluation and reward
 criteria that promote an ethical culture.
 
-•
+• Ethics and whistle-blowing policies.
 
-Ethics and whistle-blowing policies.
-
-•
-
-Policies and procedures designed to prevent non-compliance
+• Policies and procedures designed to prevent non-compliance
 with laws and regulations.
 
 Identifying Threats
@@ -1637,48 +1290,22 @@ described in paragraph 120.6 A3. The following are examples of facts and
 circumstances within each of those categories that might create threats for
 a professional accountant when undertaking a professional activity:
 
-General
-
-(a)
-
-(b)
-
-Self-interest Threats
-•
-
-A professional accountant holding a financial interest in,
+General (a) (b) Self-interest Threats
+• A professional accountant holding a financial interest in,
 or receiving a loan or guarantee from, the employing
 organization.
 
-•
-
-A professional accountant participating in incentive
+• A professional accountant participating in incentive
 compensation arrangements offered by the employing
 organization.
 
-•
-
-A professional accountant having access to corporate
+• A professional accountant having access to corporate
 assets for personal use.
 
-•
-
-A professional accountant being offered a gift or special
+• A professional accountant being offered a gift or special
 treatment from a supplier of the employing organization.
 
-Self-review Threats
-•
-
-(c)
-
-Advocacy Threats
-•
-
-(d)
-
-(e)
-
-A professional accountant determining the appropriate
+Self-review Threats • (c) Advocacy Threats • (d) (e) A professional accountant determining the appropriate
 accounting treatment for a business combination after
 performing the feasibility study supporting the purchase
 decision.
@@ -1687,38 +1314,25 @@ A professional accountant having the opportunity to
 manipulate information in a prospectus in order to obtain
 favorable financing.
 
-Familiarity Threats
-•
-
-A professional accountant being responsible for the
+Familiarity Threats • A professional accountant being responsible for the
 financial reporting of the employing organization when
 an immediate or close family member employed by the
 organization makes decisions that affect the financial
 reporting of the organization.
 
-•
-
-A professional accountant having a long association with
+• A professional accountant having a long association with
 individuals influencing business decisions.
 
 Intimidation Threats
-•
-
-A professional accountant or immediate or close family
+• A professional accountant or immediate or close family
 member facing the threat of dismissal or replacement
 over a disagreement about:
-o
+o The application of an accounting principle.
 
-The application of an accounting principle.
-
-o
-
-The way in which financial information is to be
+o The way in which financial information is to be
 reported.
 
-•
-
-An individual attempting to influence the decisionmaking process of the professional accountant, for
+• An individual attempting to influence the decisionmaking process of the professional accountant, for
 example with regard to the awarding of contracts or the
 application of an accounting principle.
 
@@ -1728,28 +1342,18 @@ Identifying Threats Associated with the Use of Technology
 The following are examples of facts and circumstances relating to the
 use of technology that might create threats for a professional accountant
 when undertaking a professional activity:
-•
-
-Self-interest Threats
-o
-The data available might not be sufficient for the effective
+• Self-interest Threats
+o The data available might not be sufficient for the effective
 use of the technology.
-o
-The technology might not be appropriate for the purpose
+o The technology might not be appropriate for the purpose
 for which it is to be used.
-o
-The accountant might not have sufficient information and
+o The accountant might not have sufficient information and
 expertise, or access to an expert with sufficient
 understanding, to use and explain the technology and its
 appropriateness for the purpose intended.
 (Ref: Para. 230.2).
 
-•
-
-Self-review Threats
-o
-
-The technology was designed or developed using the
+• Self-review Threats o The technology was designed or developed using the
 knowledge, expertise or judgment of the accountant or
 employing organization.
 
@@ -1771,14 +1375,10 @@ The professional accountant’s evaluation of the level of a threat might
 be impacted by the work environment within the employing
 organization and its operating environment. For example:
 
-•
-
-Leadership that stresses the importance of ethical behavior and
+• Leadership that stresses the importance of ethical behavior and
 the expectation that employees will act in an ethical manner.
 
-•
-
-Policies and procedures to empower and encourage employees
+• Policies and procedures to empower and encourage employees
 to communicate ethics issues that concern them to senior levels
 of management without fear of retribution.
 
@@ -1786,48 +1386,32 @@ of management without fear of retribution.
 
 **200.7 A5**
 
-•
-
-Policies and procedures to implement and monitor the quality of
+• Policies and procedures to implement and monitor the quality of
 employee performance.
 
-•
-
-Systems of corporate oversight or other oversight structures and
+• Systems of corporate oversight or other oversight structures and
 strong internal controls.
 
-•
-
-Recruitment procedures emphasizing the importance of
+• Recruitment procedures emphasizing the importance of
 employing high caliber competent personnel.
 
-•
-
-Timely communication of policies and procedures, including
+• Timely communication of policies and procedures, including
 any changes to them, to all employees, and appropriate training
 and education on such policies and procedures.
 
-•
-
-Ethics and code of conduct policies.
+• Ethics and code of conduct policies.
 
 The professional accountant’s evaluation of the level of a threat
 associated with the use of technology might also be impacted by the
 work environment within the employing organization and its operating
 environment. For example:
-•
-
-Level of corporate oversight and internal controls over the
+• Level of corporate oversight and internal controls over the
 technology.
 
-•
-
-Assessments of the quality and functionality of technology that
+• Assessments of the quality and functionality of technology that
 are undertaken by a third-party.
 
-•
-
-Training that is provided regularly to all relevant employees so
+• Training that is provided regularly to all relevant employees so
 they obtain and maintain the professional competence to
 sufficiently understand, use and explain the technology and its
 appropriateness for the purpose intended.
@@ -1867,13 +1451,9 @@ informed.
 
 In determining with whom to communicate, a professional accountant
 might consider:
-(a)
+(a) The nature and importance of the circumstances; and
 
-The nature and importance of the circumstances; and
-
-(b)
-
-The matter to be communicated.
+(b) The matter to be communicated.
 
 **200.9 A2**
 
@@ -1913,15 +1493,11 @@ to identify, evaluate and address threats.
 A conflict of interest creates threats to compliance with the principle of
 objectivity and might create threats to compliance with the other
 fundamental principles. Such threats might be created when:
-(a)
-
-A professional accountant undertakes a professional activity
+(a) A professional accountant undertakes a professional activity
 related to a particular matter for two or more parties whose
 interests with respect to that matter are in conflict; or
 
-(b)
-
-The interest of a professional accountant with respect to a
+(b) The interest of a professional accountant with respect to a
 particular matter and the interests of a party for whom the
 accountant undertakes a professional activity related to that
 matter are in conflict.
@@ -1944,35 +1520,25 @@ compromise professional or business judgment.
 
 Examples of circumstances that might create a conflict of interest
 include:
-•
-
-Serving in a management or governance position for two
+• Serving in a management or governance position for two
 employing organizations and acquiring confidential information
 from one organization that might be used by the professional
 accountant to the advantage or disadvantage of the other
 organization.
 
-•
-
-Undertaking a professional activity for each of two parties in a
+• Undertaking a professional activity for each of two parties in a
 partnership, where both parties are employing the accountant to
 assist them to dissolve their partnership.
 
-•
-
-Preparing financial information for certain members of
+• Preparing financial information for certain members of
 management of the accountant’s employing organization who
 are seeking to undertake a management buy-out.
 
-•
-
-Being responsible for selecting a vendor for the employing
+• Being responsible for selecting a vendor for the employing
 organization when an immediate family member of the
 accountant might benefit financially from the transaction.
 
-•
-
-Serving in a governance capacity in an employing organization
+• Serving in a governance capacity in an employing organization
 that is approving certain investments for the company where one
 of those investments will increase the value of the investment
 portfolio of the accountant or an immediate family member.
@@ -1986,14 +1552,10 @@ A professional accountant shall take reasonable steps to identify
 circumstances that might create a conflict of interest, and therefore a
 threat to compliance with one or more of the fundamental principles.
 Such steps shall include identifying:
-(a)
-
-The nature of the relevant interests and relationships between the
+(a) The nature of the relevant interests and relationships between the
 parties involved; and
 
-(b)
-
-The activity and its implication for relevant parties.
+(b) The activity and its implication for relevant parties.
 
 A professional accountant shall remain alert to changes over time in the
 nature of the activities, interests and relationships that might create a
@@ -2017,13 +1579,9 @@ related to the matter giving rise to the conflict of interest.
 Examples of actions that might be safeguards to address threats created
 by conflicts of interest include:
 
-•
+• Restructuring or segregating certain responsibilities and duties.
 
-Restructuring or segregating certain responsibilities and duties.
-
-•
-
-Obtaining appropriate oversight, for example, acting under the
+• Obtaining appropriate oversight, for example, acting under the
 supervision of an executive or non-executive director.
 
 Disclosure and Consent
@@ -2031,16 +1589,10 @@ General
 **210.8 A1**
 
 It is generally necessary to:
-(a)
-
-Disclose the nature of the conflict of interest and how any threats
+(a) Disclose the nature of the conflict of interest and how any threats
 created were addressed to the relevant parties, including to the
 appropriate levels within the employing organization affected by
-a conflict; and
-
-(b)
-
-Obtain consent from the relevant parties for the professional
+a conflict; and (b) Obtain consent from the relevant parties for the professional
 accountant to undertake the professional activity when
 safeguards are applied to address the threat.
 
@@ -2056,19 +1608,11 @@ the conflict.
 
 If such disclosure or consent is not in writing, the professional
 accountant is encouraged to document:
-(a)
-
-The nature of the circumstances giving rise to the conflict of
+(a) The nature of the circumstances giving rise to the conflict of
 interest;
 
-(b)
-
-The safeguards applied to address the threats when applicable;
-and
-
-(c)
-
-The consent obtained.
+(b) The safeguards applied to address the threats when applicable;
+and (c) The consent obtained.
 
 Other Considerations
 **210.9 A1**
@@ -2107,17 +1651,11 @@ and outside the organization.
 
 Stakeholders to whom, or for whom, such information is prepared or
 presented, include:
-•
+• Management and those charged with governance.
 
-Management and those charged with governance.
+• Investors and lenders or other creditors.
 
-•
-
-Investors and lenders or other creditors.
-
-•
-
-Regulatory bodies.
+• Regulatory bodies.
 
 This information might assist stakeholders in understanding and
 evaluating aspects of the employing organization’s state of affairs and
@@ -2126,39 +1664,23 @@ include financial and non-financial information that might be made
 public or used for internal purposes.
 Examples include:
 
-•
+• Operating and performance reports.
 
-Operating and performance reports.
+• Decision support analyses.
 
-•
+• Budgets and forecasts.
 
-Decision support analyses.
+• Information provided to the internal and external auditors.
 
-•
+• Risk analyses.
 
-Budgets and forecasts.
-
-•
-
-Information provided to the internal and external auditors.
-
-•
-
-Risk analyses.
-
-•
-
-General and special purpose financial statements.
+• General and special purpose financial statements.
 
 PREPARATION AND PRESENTATION OF INFORMATION
 
-•
+• Tax returns.
 
-Tax returns.
-
-•
-
-Reports filed with regulatory bodies for legal and compliance
+• Reports filed with regulatory bodies for legal and compliance
 purposes.
 
 **220.3 A3**
@@ -2173,49 +1695,29 @@ shall:
 
 **220.4 A1**
 
-(a)
-
-Prepare or present the information in accordance with a relevant
+(a) Prepare or present the information in accordance with a relevant
 reporting framework, where applicable;
 
-(b)
-
-Prepare or present the information in a manner that is intended
+(b) Prepare or present the information in a manner that is intended
 neither to mislead nor to influence contractual or regulatory
 outcomes inappropriately;
 
-(c)
-
-Exercise professional judgment to:
-(i)
-
-Represent the facts accurately and completely in all
+(c) Exercise professional judgment to:
+(i) Represent the facts accurately and completely in all
 material respects;
 
-(ii)
-
-Describe clearly the true nature of business transactions
-or activities; and
-
-(iii)
-
-Classify and record information in a timely and proper
+(ii) Describe clearly the true nature of business transactions
+or activities; and (iii) Classify and record information in a timely and proper
 manner;
 
-(d)
-
-Not omit anything with the intention of rendering the
+(d) Not omit anything with the intention of rendering the
 information misleading or of influencing contractual or
 regulatory outcomes inappropriately;
 
-(e)
-
-Avoid undue influence of, or undue reliance on, individuals,
+(e) Avoid undue influence of, or undue reliance on, individuals,
 organizations or technology; and
 
-(f)
-
-Be aware of the risk of bias.
+(f) Be aware of the risk of bias.
 
 An example of influencing a contractual or regulatory outcome
 inappropriately is using an unrealistic estimate with the intention of
@@ -2236,33 +1738,23 @@ inappropriately.
 
 Examples of ways in which discretion might be misused to achieve
 inappropriate outcomes include:
-•
-
-Determining estimates, for example, determining fair value
+• Determining estimates, for example, determining fair value
 estimates in order to misrepresent profit or loss.
 
-•
-
-Selecting or changing an accounting policy or method among
+• Selecting or changing an accounting policy or method among
 two or more alternatives permitted under the applicable financial
 reporting framework, for example, selecting a policy for
 accounting for long-term contracts in order to misrepresent
 profit or loss.
 
-•
-
-Determining the timing of transactions, for example, timing the
+• Determining the timing of transactions, for example, timing the
 sale of an asset near the end of the fiscal year in order to mislead.
 
-•
-
-Determining the structuring of transactions, for example,
+• Determining the structuring of transactions, for example,
 structuring financing transactions in order to misrepresent assets
 and liabilities or classification of cash flows.
 
-•
-
-Selecting disclosures, for example, omitting or obscuring
+• Selecting disclosures, for example, omitting or obscuring
 information relating to financial or operating risk in order to
 mislead.
 
@@ -2270,17 +1762,11 @@ When performing professional activities, especially those that do not
 require compliance with a relevant reporting framework, the
 professional accountant shall exercise professional judgment to
 identify and consider:
-(a)
+(a) The purpose for which the information is to be used;
 
-The purpose for which the information is to be used;
+(b) The context within which it is given; and
 
-(b)
-
-The context within which it is given; and
-
-(c)
-
-The audience to whom it is addressed.
+(c) The audience to whom it is addressed.
 
 **220.6 A1**
 
@@ -2309,14 +1795,10 @@ set out in paragraph R220.4.
 
 Factors to consider when a professional accountant intends to use the
 work of others include:
-•
-
-The reputation and expertise of, and resources available to, the
+• The reputation and expertise of, and resources available to, the
 other individual or organization.
 
-•
-
-Whether the other individual is subject to applicable
+• Whether the other individual is subject to applicable
 professional and ethics standards.
 
 Such information might be gained from prior association with, or from
@@ -2334,46 +1816,30 @@ set out in paragraph R220.4.
 
 Factors to consider when a professional accountant intends to use the
 output of technology include:
-•
+• The nature of the activity to be performed by the technology.
 
-The nature of the activity to be performed by the technology.
-
-•
-
-The expected use of, or extent of reliance on, the output of the
+• The expected use of, or extent of reliance on, the output of the
 technology.
 
-•
-
-Whether the accountant has the ability, or has access to an expert
+• Whether the accountant has the ability, or has access to an expert
 with the ability, to understand, use and explain the technology
 and its appropriateness for the purpose intended.
 
-•
-
-Whether the technology used has been appropriately tested and
+• Whether the technology used has been appropriately tested and
 evaluated for the purpose intended.
 
-•
-
-Prior experience with the technology and whether its use for
+• Prior experience with the technology and whether its use for
 specific purposes is generally accepted.
 
-•
-
-The employing organization’s oversight of the design,
+• The employing organization’s oversight of the design,
 development, implementation, operation, maintenance,
 monitoring, updating or upgrading of the technology.
 
-•
-
-The controls relating to the use of the technology, including
+• The controls relating to the use of the technology, including
 procedures for authorizing user access to the technology and
 overseeing such use.
 
-•
-
-The appropriateness of the inputs to the technology, including
+• The appropriateness of the inputs to the technology, including
 data and any related decisions, and decisions made by
 individuals in the course of using the technology.
 
@@ -2387,21 +1853,13 @@ matter.
 **220.9 A1**
 
 Actions that might be appropriate include:
-•
-
-•
+• •
 
 **220.9 A2**
 
-•
+• o Having the information corrected.
 
-o
-
-Having the information corrected.
-
-o
-
-If the information has already been disclosed to the
+o If the information has already been disclosed to the
 intended users, informing them of the correct
 information.
 
@@ -2426,27 +1884,17 @@ such individuals to take appropriate action to resolve the matter.
 Such action might include:
 
 Consulting with:
-o
+o A relevant professional body.
 
-A relevant professional body.
-
-o
-
-The internal or external auditor of the employing
+o The internal or external auditor of the employing
 organization.
 
-o
-
-Legal counsel.
+o Legal counsel.
 
 Determining whether any requirements exist to communicate to:
-o
+o Third parties, including users of the information.
 
-Third parties, including users of the information.
-
-o
-
-Regulatory and oversight authorities.
+o Regulatory and oversight authorities.
 
 If after exhausting all feasible options, the professional accountant
 determines that appropriate action has not been taken and there is
@@ -2464,27 +1912,17 @@ Documentation
 **220.11 A1**
 
 The professional accountant is encouraged to document:
-•
+• The facts.
 
-The facts.
-
-•
-
-The accounting principles or other relevant professional
+• The accounting principles or other relevant professional
 standards involved.
 
-•
-
-The communications and parties with whom matters were
+• The communications and parties with whom matters were
 discussed.
 
-•
+• The courses of action considered.
 
-The courses of action considered.
-
-•
-
-How the accountant attempted to address the matter(s).
+• How the accountant attempted to address the matter(s).
 
 Other Considerations
 **220.12 A1**
@@ -2550,37 +1988,23 @@ has:
 
 **230.3 A3**
 
-•
-
-Insufficient time for performing or completing the relevant
+• Insufficient time for performing or completing the relevant
 duties.
 
-•
-
-Incomplete, restricted or otherwise inadequate information for
+• Incomplete, restricted or otherwise inadequate information for
 performing the duties.
 
-•
+• Insufficient experience, training and/or education.
 
-Insufficient experience, training and/or education.
-
-•
-
-Inadequate resources for the performance of the duties.
+• Inadequate resources for the performance of the duties.
 
 Factors that are relevant in evaluating the level of such a threat include:
-•
-
-The extent to which the professional accountant is working with
+• The extent to which the professional accountant is working with
 others.
 
-•
+• The relative seniority of the accountant in the business.
 
-The relative seniority of the accountant in the business.
-
-•
-
-The level of supervision and review applied to the work.
+• The level of supervision and review applied to the work.
 
 ACTING WITH SUFFICIENT EXPERTISE
 
@@ -2589,14 +2013,10 @@ ACTING WITH SUFFICIENT EXPERTISE
 **R230.4**
 
 Examples of actions that might be safeguards to address such a selfinterest threat include:
-•
-
-Obtaining assistance or training from someone with the
+• Obtaining assistance or training from someone with the
 necessary expertise.
 
-•
-
-Ensuring that there is adequate time available for performing the
+• Ensuring that there is adequate time available for performing the
 relevant duties.
 
 If a threat to compliance with the principle of professional competence
@@ -2614,8 +2034,7 @@ to a breach of the principle of professional competence and due care.
 
 FINANCIAL INTERESTS, COMPENSATION AND
 INCENTIVES LINKED TO FINANCIAL REPORTING AND
-DECISION MAKING
-Introduction
+DECISION MAKING Introduction
 **240.1**
 
 Professional accountants are required to comply with the fundamental
@@ -2653,33 +2072,23 @@ Examples of circumstances that might create a self-interest threat
 include situations in which the professional accountant or an immediate
 or close family member:
 
-•
-
-Has a motive and opportunity to manipulate price-sensitive
+• Has a motive and opportunity to manipulate price-sensitive
 information in order to gain financially.
 
-•
-
-Holds a direct or indirect financial interest in the employing
+• Holds a direct or indirect financial interest in the employing
 organization and the value of that financial interest might be
 directly affected by decisions made by the accountant.
 
-•
-
-Is eligible for a profit-related bonus and the value of that bonus
+• Is eligible for a profit-related bonus and the value of that bonus
 might be directly affected by decisions made by the accountant.
 
 **240.3 A3**
 
-•
-
-Holds, directly or indirectly, deferred bonus share rights or share
+• Holds, directly or indirectly, deferred bonus share rights or share
 options in the employing organization, the value of which might
 be affected by decisions made by the accountant.
 
-•
-
-Participates in compensation arrangements which provide
+• Participates in compensation arrangements which provide
 incentives to achieve targets or to support efforts to maximize
 the value of the employing organization’s shares. An example
 of such an arrangement might be through participation in
@@ -2687,34 +2096,24 @@ incentive plans which are linked to certain performance
 conditions being met.
 
 Factors that are relevant in evaluating the level of such a threat include:
-•
-
-The significance of the financial interest. What constitutes a
+• The significance of the financial interest. What constitutes a
 significant financial interest will depend on personal
 circumstances and the materiality of the financial interest to the
 individual.
 
-•
-
-Policies and procedures for a committee independent of
+• Policies and procedures for a committee independent of
 management to determine the level or form of senior
 management remuneration.
 
-•
-
-In accordance with any internal policies, disclosure to those
+• In accordance with any internal policies, disclosure to those
 charged with governance of:
 
 •
 **240.3 A4**
 
-o
+o All relevant interests.
 
-All relevant interests.
-
-o
-
-Any plans to exercise entitlements or trade in relevant
+o Any plans to exercise entitlements or trade in relevant
 shares.
 
 Internal and external audit procedures that are specific to address
@@ -2758,33 +2157,19 @@ intent to improperly influence that individual’s behavior. Inducements
 can range from minor acts of hospitality between business colleagues
 to acts that result in non-compliance with laws and regulations. An
 inducement can take many different forms, for example:
-•
+• Gifts.
 
-Gifts.
+• Hospitality.
 
-•
+• Entertainment.
 
-Hospitality.
+• Political or charitable donations.
 
-•
+• Appeals to friendship and loyalty.
 
-Entertainment.
+• Employment or other commercial opportunities.
 
-•
-
-Political or charitable donations.
-
-•
-
-Appeals to friendship and loyalty.
-
-•
-
-Employment or other commercial opportunities.
-
-•
-
-Preferential treatment, rights or privileges.
+• Preferential treatment, rights or privileges.
 
 Inducements Prohibited by Laws and Regulations
 **R250.5**
@@ -2844,59 +2229,39 @@ the behavior of the recipient or of another individual.
 The determination of whether there is actual or perceived intent to
 improperly influence behavior requires the exercise of professional
 judgment. Relevant factors to consider might include:
-•
-
-The nature, frequency, value and cumulative effect of the
+• The nature, frequency, value and cumulative effect of the
 inducement.
 
-•
-
-Timing of when the inducement is offered relative to any action
+• Timing of when the inducement is offered relative to any action
 or decision that it might influence.
 
-•
-
-Whether the inducement is a customary or cultural practice in
+• Whether the inducement is a customary or cultural practice in
 the circumstances, for example, offering a gift on the occasion
 of a religious holiday or wedding.
 
-•
-
-Whether the inducement is an ancillary part of a professional
+• Whether the inducement is an ancillary part of a professional
 activity, for example, offering or accepting lunch in connection
 with a business meeting.
 
-•
-
-Whether the offer of the inducement is limited to an individual
+• Whether the offer of the inducement is limited to an individual
 recipient or available to a broader group. The broader group
 might be internal or external to the employing organization, such
 as other customers or vendors.
 
-•
-
-The roles and positions of the individuals offering or being
+• The roles and positions of the individuals offering or being
 offered the inducement.
 
-•
-
-Whether the professional accountant knows, or has reason to
+• Whether the professional accountant knows, or has reason to
 believe, that accepting the inducement would breach the policies
 and procedures of the counterparty’s employing organization.
 
-•
-
-The degree of transparency with which the inducement is
+• The degree of transparency with which the inducement is
 offered.
 
-•
-
-Whether the inducement was required or requested by the
+• Whether the inducement was required or requested by the
 recipient.
 
-•
-
-The known previous behavior or reputation of the offeror.
+• The known previous behavior or reputation of the offeror.
 
 Consideration of Further Actions
 **250.10 A1**
@@ -2911,15 +2276,11 @@ met.
 
 Examples of actions that might be safeguards to address such threats
 include:
-•
-
-Informing senior management or those charged with governance
+• Informing senior management or those charged with governance
 of the employing organization of the professional accountant or
 the offeror regarding the offer.
 
-•
-
-Amending or terminating the business relationship with the
+• Amending or terminating the business relationship with the
 offeror.
 
 Inducements with No Intent to Improperly Influence Behavior
@@ -2941,34 +2302,15 @@ Examples of circumstances where offering or accepting such an
 inducement might create threats even if the professional accountant has
 concluded there is no actual or perceived intent to improperly influence
 behavior include:
-•
-
-Self-interest threats
-o
-
-•
-
-is
-
-offered
-
-part-time
-
-Familiarity threats
-o
-
-•
-
-A professional accountant
+• Self-interest threats
+o • is offered part-time Familiarity threats o • A professional accountant
 employment by a vendor.
 
 A professional accountant regularly takes a customer or
 supplier to sporting events.
 
 Intimidation threats
-o
-
-A professional accountant accepts hospitality, the nature
+o A professional accountant accepts hospitality, the nature
 of which could be perceived to be inappropriate were it
 to be publicly disclosed.
 
@@ -2985,13 +2327,9 @@ accepting such an inducement include:
 
 **250.11 A6**
 
-•
+• Declining or not offering the inducement.
 
-Declining or not offering the inducement.
-
-•
-
-Transferring responsibility for any business-related decision
+• Transferring responsibility for any business-related decision
 involving the counterparty to another individual who the
 professional accountant has no reason to believe would be, or
 would be perceived to be, improperly influenced in making the
@@ -2999,41 +2337,29 @@ decision.
 
 Examples of actions that might be safeguards to address such threats
 created by offering or accepting such an inducement include:
-•
-
-Being transparent with senior management or those charged
+• Being transparent with senior management or those charged
 with governance of the employing organization of the
 professional accountant or of the counterparty about offering or
 accepting an inducement.
 
-•
-
-Registering the inducement in a log maintained by the
+• Registering the inducement in a log maintained by the
 employing organization of the accountant or the counterparty.
 
-•
-
-Having an appropriate reviewer, who is not otherwise involved
+• Having an appropriate reviewer, who is not otherwise involved
 in undertaking the professional activity, review any work
 performed or decisions made by the accountant with respect to
 the individual or organization from which the accountant
 accepted the inducement.
 
-•
-
-Donating the inducement to charity after receipt and
+• Donating the inducement to charity after receipt and
 appropriately disclosing the donation, for example, to those
 charged with governance or the individual who offered the
 inducement.
 
-•
-
-Reimbursing the cost of the inducement, such as hospitality,
+• Reimbursing the cost of the inducement, such as hospitality,
 received.
 
-•
-
-As soon as possible, returning the inducement, such as a gift,
+• As soon as possible, returning the inducement, such as a gift,
 after it was initially accepted.
 
 Immediate or Close Family Members
@@ -3042,15 +2368,9 @@ Immediate or Close Family Members
 A professional accountant shall remain alert to potential threats to the
 accountant’s compliance with the fundamental principles created by
 the offering of an inducement:
-(a)
-
-By an immediate or close family member of the accountant to a
+(a) By an immediate or close family member of the accountant to a
 counterparty with whom the accountant has a professional
-relationship; or
-
-(b)
-
-To an immediate or close family member of the accountant by a
+relationship; or (b) To an immediate or close family member of the accountant by a
 counterparty with whom the accountant has a professional
 relationship.
 
@@ -3071,18 +2391,10 @@ whether there is actual or perceived intent to improperly influence the
 behavior of the professional accountant or of the counterparty. Another
 factor that is relevant is the nature or closeness of the relationship,
 between:
-(a)
+(a) The accountant and the immediate or close family member;
 
-The accountant and the immediate or close family member;
-
-(b)
-
-The immediate or close family member and the counterparty;
-and
-
-(c)
-
-The accountant and the counterparty.
+(b) The immediate or close family member and the counterparty;
+and (c) The accountant and the counterparty.
 
 For example, the offer of employment, outside of the normal
 recruitment process, to the spouse of the accountant by a counterparty
@@ -3105,15 +2417,11 @@ Application of the Conceptual Framework
 Where the professional accountant becomes aware of an inducement
 offered in the circumstances addressed in paragraph R250.12, threats
 to compliance with the fundamental principles might be created where:
-(a)
-
-The immediate or close family member offers or accepts the
+(a) The immediate or close family member offers or accepts the
 inducement contrary to the advice of the accountant pursuant to
 paragraph R250.13; or
 
-(b)
-
-The accountant does not have reason to believe an actual or
+(b) The accountant does not have reason to believe an actual or
 perceived intent to improperly influence the behavior of the
 accountant or of the counterparty exists.
 
@@ -3147,8 +2455,7 @@ fundamental principles, the requirements and application material set
 out in Section 270 apply.
 
 ## Section 260 — Responding to Non-compliance with Laws and
-REGULATIONS
-Introduction
+REGULATIONS Introduction
 **260.1**
 
 Professional accountants are required to comply with the fundamental
@@ -3167,15 +2474,11 @@ A professional accountant might encounter or be made aware of noncompliance or s
 professional activities. This section guides the accountant in assessing
 the implications of the matter and the possible courses of action when
 responding to non-compliance or suspected non-compliance with:
-(a)
-
-Laws and regulations generally recognized to have a direct
+(a) Laws and regulations generally recognized to have a direct
 effect on the determination of material amounts and disclosures
 in the employing organization’s financial statements; and
 
-(b)
-
-Other laws and regulations that do not have a direct effect on the
+(b) Other laws and regulations that do not have a direct effect on the
 determination of the amounts and disclosures in the employing
 organization’s financial statements, but compliance with which
 might be fundamental to the operating aspects of the employing
@@ -3190,29 +2493,19 @@ A distinguishing mark of the accountancy profession is its acceptance
 of the responsibility to act in the public interest. When responding to
 non-compliance or suspected non-compliance, the objectives of the
 professional accountant are:
-(a)
-
-To comply with the principles of integrity and professional
+(a) To comply with the principles of integrity and professional
 behavior;
 
-(b)
-
-By alerting management or, where appropriate, those charged
+(b) By alerting management or, where appropriate, those charged
 with governance of the employing organization, to seek to:
 
-(c)
-
-(i)
+(c) (i)
 
 Enable them to rectify, remediate or mitigate the
 consequences of the identified or suspected noncompliance; or
 
-(ii)
-
-Deter the non-compliance where it has not yet occurred;
-and
-
-To take such further action as appropriate in the public interest.
+(ii) Deter the non-compliance where it has not yet occurred;
+and To take such further action as appropriate in the public interest.
 
 Requirements and Application Material
 General
@@ -3226,56 +2519,32 @@ Non-compliance with laws and regulations (“non-compliance”)
 comprises acts of omission or commission, intentional or unintentional,
 which are contrary to the prevailing laws or regulations committed by
 the following parties:
-(a)
+(a) The professional accountant’s employing organization;
 
-The professional accountant’s employing organization;
+(b) Those charged with governance of the employing organization;
 
-(b)
+(c) Management of the employing organization; or
 
-Those charged with governance of the employing organization;
-
-(c)
-
-Management of the employing organization; or
-
-(d)
-
-Other individuals working for or under the direction of the
+(d) Other individuals working for or under the direction of the
 employing organization.
 
 Examples of laws and regulations which this section addresses include
 those that deal with:
-•
+• Fraud, corruption and bribery.
 
-Fraud, corruption and bribery.
+• Money laundering, terrorist financing and proceeds of crime.
 
-•
+• Securities markets and trading.
 
-Money laundering, terrorist financing and proceeds of crime.
+• Banking and other financial products and services.
 
-•
+• Data protection.
 
-Securities markets and trading.
+• Tax and pension liabilities and payments.
 
-•
+• Environmental protection.
 
-Banking and other financial products and services.
-
-•
-
-Data protection.
-
-•
-
-Tax and pension liabilities and payments.
-
-•
-
-Environmental protection.
-
-•
-
-Public health and safety.
+• Public health and safety.
 
 Non-compliance might result in fines, litigation or other consequences
 for the employing organization, potentially materially affecting its
@@ -3298,14 +2567,8 @@ might differ from or go beyond the provisions in this section. When
 encountering such non-compliance or suspected non-compliance, the
 accountant shall obtain an understanding of those legal or regulatory
 provisions and comply with them, including:
-(a)
-
-Any requirement to report the matter to an appropriate authority;
-and
-
-(b)
-
-Any prohibition on alerting the relevant party.
+(a) Any requirement to report the matter to an appropriate authority;
+and (b) Any prohibition on alerting the relevant party.
 
 **260.6 A1**
 
@@ -3328,14 +2591,10 @@ employing organization, its stakeholders and the general public.
 **260.7 A3**
 
 This section does not address:
-(a)
-
-Personal misconduct unrelated to the business activities of the
+(a) Personal misconduct unrelated to the business activities of the
 employing organization; and
 
-(b)
-
-Non-compliance by parties other than those specified in
+(b) Non-compliance by parties other than those specified in
 paragraph 260.5 A1.
 
 The professional accountant might nevertheless find the guidance in
@@ -3351,22 +2610,14 @@ accordance with laws and regulations. Management and those charged
 with governance are also responsible for identifying and addressing any
 non-compliance by:
 
-(a)
+(a) The employing organization;
 
-The employing organization;
-
-(b)
-
-An individual charged with governance of the employing
+(b) An individual charged with governance of the employing
 organization;
 
-(c)
+(c) A member of management; or
 
-A member of management; or
-
-(d)
-
-Other individuals working for or under the direction of the
+(d) Other individuals working for or under the direction of the
 employing organization.
 
 Responsibilities of All Professional Accountants
@@ -3416,19 +2667,11 @@ professional accountant becomes aware of information concerning
 non-compliance or suspected non-compliance, the accountant shall
 obtain an understanding of the matter. This understanding shall
 include:
-(a)
-
-The nature of the non-compliance or suspected non-compliance
+(a) The nature of the non-compliance or suspected non-compliance
 and the circumstances in which it has occurred or might occur;
 
-(b)
-
-The application of the relevant laws and regulations to the
-circumstances; and
-
-(c)
-
-An assessment of the potential consequences to the employing
+(b) The application of the relevant laws and regulations to the
+circumstances; and (c) An assessment of the potential consequences to the employing
 organization, investors, creditors, employees or the wider
 public.
 
@@ -3467,28 +2710,18 @@ as to how to address the matter.
 **R260.14**
 
 The senior professional accountant shall also take appropriate steps to:
-(a)
-
-Have the matter communicated to those charged with
+(a) Have the matter communicated to those charged with
 governance;
 
-(b)
-
-Comply with applicable laws and regulations, including legal or
+(b) Comply with applicable laws and regulations, including legal or
 regulatory provisions governing the reporting of noncompliance or suspected non-compliance to an appropriate
 authority;
 
-(c)
+(c) Have the consequences of the non-compliance or suspected noncompliance rectified, remediated or mitigated;
 
-Have the consequences of the non-compliance or suspected noncompliance rectified, remediated or mitigated;
+(d) Reduce the risk of re-occurrence; and
 
-(d)
-
-Reduce the risk of re-occurrence; and
-
-(e)
-
-Seek to deter the commission of the non-compliance if it has not
+(e) Seek to deter the commission of the non-compliance if it has not
 yet occurred.
 
 **260.14 A1**
@@ -3530,19 +2763,13 @@ Relevant factors to consider in assessing the appropriateness of the
 response of the senior professional accountant’s superiors, if any, and
 those charged with governance include whether:
 
-•
+• The response is timely.
 
-The response is timely.
-
-•
-
-They have taken or authorized appropriate action to seek to
+• They have taken or authorized appropriate action to seek to
 rectify, remediate or mitigate the consequences of the noncompliance, or to avert the non-compliance if it has not yet
 occurred.
 
-•
-
-The matter has been disclosed to an appropriate authority where
+• The matter has been disclosed to an appropriate authority where
 appropriate and, if so, whether the disclosure appears adequate.
 
 **R260.17**
@@ -3558,33 +2785,21 @@ and extent of it, will depend on various factors, including:
 
 **260.17 A2**
 
-•
+• The legal and regulatory framework.
 
-The legal and regulatory framework.
+• The urgency of the situation.
 
-•
-
-The urgency of the situation.
-
-•
-
-The pervasiveness of the matter throughout the employing
+• The pervasiveness of the matter throughout the employing
 organization.
 
-•
-
-Whether the senior professional accountant continues to have
+• Whether the senior professional accountant continues to have
 confidence in the integrity of the accountant’s superiors and
 those charged with governance.
 
-•
-
-Whether the non-compliance or suspected non-compliance is
+• Whether the non-compliance or suspected non-compliance is
 likely to recur.
 
-•
-
-Whether there is credible evidence of actual or potential
+• Whether there is credible evidence of actual or potential
 substantial harm to the interests of the employing organization,
 investors, creditors, employees or the general public.
 
@@ -3592,14 +2807,10 @@ Examples of circumstances that might cause the senior professional
 accountant no longer to have confidence in the integrity of the
 accountant’s superiors and those charged with governance include
 situations where:
-•
-
-The accountant suspects or has evidence of their involvement or
+• The accountant suspects or has evidence of their involvement or
 intended involvement in any non-compliance.
 
-•
-
-Contrary to legal or regulatory requirements, they have not
+• Contrary to legal or regulatory requirements, they have not
 reported, or authorized the reporting of, the matter to an
 appropriate authority within a reasonable period.
 
@@ -3616,21 +2827,15 @@ interest.
 
 Further action that the senior professional accountant might take
 includes:
-•
-
-Informing the management of the parent entity of the matter if
+• Informing the management of the parent entity of the matter if
 the employing organization is a member of a group.
 
 **260.18 A2**
 
-•
-
-Disclosing the matter to an appropriate authority even when
+• Disclosing the matter to an appropriate authority even when
 there is no legal or regulatory requirement to do so.
 
-•
-
-Resigning from the employing organization.
+• Resigning from the employing organization.
 
 Resigning from the employing organization is not a substitute for
 taking other actions that might be needed to achieve the senior
@@ -3644,19 +2849,13 @@ Seeking Advice
 
 As assessment of the matter might involve complex analysis and
 judgments, the senior professional accountant might consider:
-•
+• Consulting internally.
 
-Consulting internally.
-
-•
-
-Obtaining legal advice to understand the accountant’s options
+• Obtaining legal advice to understand the accountant’s options
 and the professional or legal implications of taking any
 particular course of action.
 
-•
-
-Consulting on a confidential basis with a regulatory or
+• Consulting on a confidential basis with a regulatory or
 professional body.
 
 Determining Whether to Disclose the Matter to an Appropriate Authority
@@ -3677,20 +2876,14 @@ or the general public. For example, the senior professional accountant
 might determine that disclosure of the matter to an appropriate
 authority is an appropriate course of action if:
 
-•
-
-The employing organization is engaged in bribery (for example,
+• The employing organization is engaged in bribery (for example,
 of local or foreign government officials for purposes of securing
 large contracts).
 
-•
-
-The employing organization is regulated and the matter is of
+• The employing organization is regulated and the matter is of
 such significance as to threaten its license to operate.
 
-•
-
-The employing organization is listed on a securities exchange
+• The employing organization is listed on a securities exchange
 and the matter might result in adverse consequences to the fair
 
 and orderly market in the employing organization’s securities or
@@ -3700,21 +2893,15 @@ pose a systemic risk to the financial markets.
 
 **R260.21**
 
-•
-
-It is likely that the employing organization would sell products
+• It is likely that the employing organization would sell products
 that are harmful to public health or safety.
 
-•
-
-The employing organization is promoting a scheme to its clients
+• The employing organization is promoting a scheme to its clients
 to assist them in evading taxes.
 
 The determination of whether to make such a disclosure will also
 depend on external factors such as:
-•
-
-Whether there is an appropriate authority that is able to receive
+• Whether there is an appropriate authority that is able to receive
 the information, and cause the matter to be investigated and
 action to be taken. The appropriate authority will depend upon
 the nature of the matter. For example, the appropriate authority
@@ -3722,16 +2909,12 @@ would be a securities regulator in the case of fraudulent financial
 reporting or an environmental protection agency in the case of a
 breach of environmental laws and regulations.
 
-•
-
-Whether there exists robust and credible protection from civil,
+• Whether there exists robust and credible protection from civil,
 criminal or professional liability or retaliation afforded by
 legislation or regulation, such as under whistle-blowing
 legislation or regulation.
 
-•
-
-Whether there are actual or potential threats to the physical
+• Whether there are actual or potential threats to the physical
 safety of the senior professional accountant or other individuals.
 
 If the senior professional accountant determines that disclosure of the
@@ -3762,28 +2945,18 @@ Code.
 In relation to non-compliance or suspected non-compliance that falls
 within the scope of this section, the senior professional accountant is
 encouraged to have the following matters documented:
-•
+• The matter.
 
-The matter.
-
-•
-
-The results of discussions with the accountant’s superiors, if
+• The results of discussions with the accountant’s superiors, if
 any, and those charged with governance and other parties.
 
-•
-
-How the accountant’s superiors, if any, and those charged with
+• How the accountant’s superiors, if any, and those charged with
 governance have responded to the matter.
 
-•
-
-The courses of action the accountant considered, the judgments
+• The courses of action the accountant considered, the judgments
 made and the decisions that were taken.
 
-•
-
-How the accountant is satisfied that the accountant has fulfilled
+• How the accountant is satisfied that the accountant has fulfilled
 the responsibility set out in paragraph R260.17.
 
 Responsibilities of Professional Accountants Other than Senior Professional
@@ -3840,23 +3013,15 @@ Documentation
 In relation to non-compliance or suspected non-compliance that falls
 within the scope of this section, the professional accountant is
 encouraged to have the following matters documented:
-•
+• The matter.
 
-The matter.
-
-•
-
-The results of discussions with the accountant’s superior,
+• The results of discussions with the accountant’s superior,
 management and, where applicable, those charged with
 governance and other parties.
 
-•
+• How the accountant’s superior has responded to the matter.
 
-How the accountant’s superior has responded to the matter.
-
-•
-
-The courses of action the accountant considered, the judgments
+• The courses of action the accountant considered, the judgments
 made and the decisions that were taken.
 
 Introduction
@@ -3883,14 +3048,10 @@ General
 **270.3 A2**
 
 A professional accountant shall not:
-(a)
-
-Allow pressure from others to result in a breach of compliance
+(a) Allow pressure from others to result in a breach of compliance
 with the fundamental principles; or
 
-(b)
-
-Place pressure on others that the accountant knows, or has
+(b) Place pressure on others that the accountant knows, or has
 reason to believe, would result in the other individuals breaching
 the fundamental principles.
 
@@ -3898,28 +3059,18 @@ A professional accountant might face pressure that creates threats to
 compliance with the fundamental principles, for example an
 intimidation threat, when undertaking a professional activity. Pressure
 might be explicit or implicit and might come from:
-•
-
-Within the employing organization, for example, from a
+• Within the employing organization, for example, from a
 colleague or superior.
 
-•
-
-An external individual or organization such as a vendor,
+• An external individual or organization such as a vendor,
 customer or lender.
 
-•
-
-Internal or external targets and expectations.
+• Internal or external targets and expectations.
 
 Examples of pressure that might result in threats to compliance with
 the fundamental principles include:
-•
-
-Pressure related to conflicts of interest:
-o
-
-Pressure from a family member bidding to act as a vendor
+• Pressure related to conflicts of interest:
+o Pressure from a family member bidding to act as a vendor
 to the professional accountant’s employing organization
 to select the family member over another prospective
 vendor.
@@ -3927,95 +3078,59 @@ vendor.
 PRESSURE TO BREACH THE FUNDAMENTAL PRINCIPLES
 
 See also Section 210, Conflicts of Interest.
-•
-
-Pressure to influence preparation or presentation of information:
-o
-
-Pressure to report misleading financial results to meet
+• Pressure to influence preparation or presentation of information:
+o Pressure to report misleading financial results to meet
 investor, analyst or lender expectations.
 
-o
-
-Pressure from elected officials on public sector
+o Pressure from elected officials on public sector
 accountants to misrepresent programs or projects to
 voters.
 
-o
-
-Pressure from colleagues to misstate income, expenditure
+o Pressure from colleagues to misstate income, expenditure
 or rates of return to bias decision-making on capital
 projects and acquisitions.
 
-o
-
-Pressure from superiors to approve or process
+o Pressure from superiors to approve or process
 expenditures that are not legitimate business expenses.
 
-o
-
-Pressure to suppress internal audit reports containing
+o Pressure to suppress internal audit reports containing
 adverse findings.
 
 See also Section 220, Preparation and Presentation of
 Information.
-•
-
-Pressure to act without sufficient expertise or due care:
-o
-
-Pressure from superiors to inappropriately reduce the
+• Pressure to act without sufficient expertise or due care:
+o Pressure from superiors to inappropriately reduce the
 extent of work performed.
 
-o
-
-Pressure from superiors to perform a task without
+o Pressure from superiors to perform a task without
 sufficient skills or training or within unrealistic deadlines.
 
 See also Section 230, Acting with Sufficient Expertise.
-•
-
-Pressure related to financial interests:
-o
-
-Pressure from superiors, colleagues or others, for
+• Pressure related to financial interests:
+o Pressure from superiors, colleagues or others, for
 example, those who might benefit from participation in
 compensation or incentive arrangements to manipulate
 performance indicators.
 
 See also Section 240, Financial Interests, Compensation and
 Incentives Linked to Financial Reporting and Decision Making.
-•
-
-Pressure related to inducements:
-o
-
-Pressure from others, either internal or external to the
+• Pressure related to inducements:
+o Pressure from others, either internal or external to the
 employing organization, to offer inducements to
 influence inappropriately the judgment or decision
 making process of an individual or organization.
 
-o
-
-Pressure from colleagues to accept a bribe or other
+o Pressure from colleagues to accept a bribe or other
 
 See also Section 250, Inducements, Including Gifts and
 Hospitality.
-•
-
-Pressure related to non-compliance with laws and regulations:
-o
-
-Pressure to structure a transaction to evade tax.
+• Pressure related to non-compliance with laws and regulations:
+o Pressure to structure a transaction to evade tax.
 
 See also Section 260, Responding to Non-compliance with Laws
 and Regulations.
-•
-
-Pressure related to level of fees:
-o
-
-Pressure exerted by a professional accountant on another
+• Pressure related to level of fees:
+o Pressure exerted by a professional accountant on another
 professional accountant to provide professional services
 at a fee level that does not allow for sufficient and
 appropriate resources (including human, technological
@@ -4029,19 +3144,13 @@ See also Section 330, Fees and Other Types of Remuneration
 
 Factors that are relevant in evaluating the level of threats created by
 pressure include:
-•
-
-The intent of the individual who is exerting the pressure and the
+• The intent of the individual who is exerting the pressure and the
 nature and extent of the pressure.
 
-•
-
-The application of laws, regulations, and professional standards
+• The application of laws, regulations, and professional standards
 to the circumstances.
 
-•
-
-The culture and leadership of the employing organization
+• The culture and leadership of the employing organization
 including the extent to which they reflect or emphasize the
 importance of ethical behavior and the expectation that
 employees will act ethically. For example, a corporate culture
@@ -4049,9 +3158,7 @@ that tolerates unethical behavior might increase the likelihood
 that the pressure would result in a threat to compliance with the
 fundamental principles.
 
-•
-
-Policies and procedures, if any, that the employing organization
+• Policies and procedures, if any, that the employing organization
 has established, such as ethics or human resources policies that
 address pressure.
 
@@ -4068,55 +3175,31 @@ confidentiality, might include:
 
 **270.3 A5**
 
-•
-
-Discussing the matter with the individual who is exerting the
+• Discussing the matter with the individual who is exerting the
 pressure to seek to resolve it.
 
-•
-
-Discussing the matter with the accountant’s superior, if the
+• Discussing the matter with the accountant’s superior, if the
 superior is not the individual exerting the pressure.
 
-•
-
-Escalating the matter within the employing organization,
+• Escalating the matter within the employing organization,
 including when appropriate, explaining any consequential risks
 to the organization, for example with:
-o
+o Higher levels of management.
 
-Higher levels of management.
+o Internal or external auditors.
 
-o
+o Those charged with governance.
 
-Internal or external auditors.
-
-o
-
-Those charged with governance.
-
-•
-
-Disclosing the matter in line with the employing organization’s
+• Disclosing the matter in line with the employing organization’s
 policies, including ethics and whistleblowing policies, using any
 established mechanism, such as a confidential ethics hotline.
 
-•
-
-Consulting with:
-o
-
-A colleague, superior, human resources personnel, or
+• Consulting with:
+o A colleague, superior, human resources personnel, or
 another professional accountant;
 
-o
-
-Relevant professional or regulatory bodies or industry
-associations; or
-
-o
-
-Legal counsel.
+o Relevant professional or regulatory bodies or industry
+associations; or o Legal counsel.
 
 An example of an action that might eliminate threats created by
 pressure is the professional accountant’s request for a restructure of, or
@@ -4127,22 +3210,14 @@ Documentation
 **270.4 A1**
 
 The professional accountant is encouraged to document:
-•
+• The facts.
 
-The facts.
-
-•
-
-The communications and parties with whom these matters were
+• The communications and parties with whom these matters were
 discussed.
 
-•
+• The courses of action considered.
 
-The courses of action considered.
-
-•
-
-How the matter was addressed.
+• How the matter was addressed.
 
 Section 300 Applying the Conceptual Framework – Professional
 
@@ -4170,25 +3245,17 @@ accountants in public practice are set out in:
 
 **300.3**
 
-•
-
-Part 3 – Professional Accountants in Public Practice, Sections
+• Part 3 – Professional Accountants in Public Practice, Sections
 300 to 399, which applies to all professional accountants in
 public practice, whether they provide assurance services or not.
 
-•
-
-International Independence Standards as follows:
-o
-
-Part 4A – Independence for Audit and Review
+• International Independence Standards as follows:
+o Part 4A – Independence for Audit and Review
 Engagements, Sections 400 to 899, which applies to
 professional accountants in public practice when
 performing audit and review engagements.
 
-o
-
-Part 4B – Independence for Assurance Engagements
+o Part 4B – Independence for Assurance Engagements
 Other than Audit and Review Engagements, Sections 900
 to 999, which applies to professional accountants in
 public practice when performing assurance engagements
@@ -4221,30 +3288,22 @@ professional accountant in public practice include:
 
 **300.5 A2**
 
-•
-
-Facing a conflict of interest when being responsible for selecting
+• Facing a conflict of interest when being responsible for selecting
 a vendor for the firm when an immediate family member of the
 accountant might benefit financially from the contract. The
 requirements and application material set out in Section 210
 apply in these circumstances.
 
-•
-
-Preparing or presenting financial information for the
+• Preparing or presenting financial information for the
 accountant’s client or firm. The requirements and application
 material set out in Section 220 apply in these circumstances.
 
-•
-
-Being offered an inducement such as being regularly offered
+• Being offered an inducement such as being regularly offered
 complimentary tickets to attend sporting events by a supplier of
 the firm. The requirements and application material set out in
 Section 250 apply in these circumstances.
 
-•
-
-Facing pressure from an engagement partner to report
+• Facing pressure from an engagement partner to report
 chargeable hours inaccurately for a client engagement. The
 requirements and application material set out in Section 270
 apply in these circumstances.
@@ -4260,25 +3319,17 @@ and entities with which, the accountant or the firm has a professional or
 business relationship in accordance with paragraph 120.13 A3.
 Examples of actions that might be taken include the introduction,
 implementation and oversight of:
-•
-
-Ethics education and training programs.
+• Ethics education and training programs.
 
 set out in Section 120 to identify, evaluate and address threats to
 compliance with the fundamental principles.
 
-•
-
-Firm processes and performance evaluation and reward criteria
+• Firm processes and performance evaluation and reward criteria
 that promote an ethical culture.
 
-•
+• Ethics and whistle-blowing policies.
 
-Ethics and whistle-blowing policies.
-
-•
-
-Policies and procedures designed to prevent non-compliance
+• Policies and procedures designed to prevent non-compliance
 with laws and regulations.
 
 Identifying Threats
@@ -4290,122 +3341,77 @@ are described in paragraph 120.6 A3. The following are examples of
 facts and circumstances within each of those categories of threats that
 might create threats for a professional accountant when undertaking a
 professional service:
-(a)
+(a) (b)
 
-(b)
-
-(c)
-
-Self-interest Threats
-•
-
-A professional accountant having a direct financial
+(c) Self-interest Threats
+• A professional accountant having a direct financial
 interest in a client.
 
-•
-
-A professional accountant quoting a low fee to obtain a
+• A professional accountant quoting a low fee to obtain a
 new engagement and the fee is so low that it might be
 difficult to perform the professional service in accordance
 with applicable technical and professional standards for
 that price.
 
-•
-
-A professional accountant having a close business
+• A professional accountant having a close business
 relationship with a client.
 
-•
-
-A professional accountant having access to confidential
+• A professional accountant having access to confidential
 information that might be used for personal gain.
 
-•
-
-A professional accountant discovering a significant error
+• A professional accountant discovering a significant error
 when evaluating the results of a previous professional
 service performed by a member of the accountant’s firm.
 
-Self-review Threats
-•
-
-A professional accountant issuing an assurance report on
+Self-review Threats • A professional accountant issuing an assurance report on
 the effectiveness of the operation of financial systems
 after implementing the systems.
 
-•
-
-A professional accountant having prepared the original
+• A professional accountant having prepared the original
 data used to generate records that are the subject matter
 of the assurance engagement.
 
-Advocacy Threats
-•
-
-A professional accountant promoting the interests of, or
+Advocacy Threats • A professional accountant promoting the interests of, or
 shares in, a client.
 
-(d)
+(d) (e)
 
-(e)
-
-•
-
-A professional accountant acting as an advocate on behalf
+• A professional accountant acting as an advocate on behalf
 of a client in litigation or disputes with third parties.
 
-•
-
-A professional accountant lobbying in favor of legislation
+• A professional accountant lobbying in favor of legislation
 on behalf of a client.
 
-Familiarity Threats
-•
-
-A professional accountant having a close or immediate
+Familiarity Threats • A professional accountant having a close or immediate
 family member who is a director or officer of the client.
 
-•
-
-A director or officer of the client, or an employee in a
+• A director or officer of the client, or an employee in a
 position to exert significant influence over the subject
 matter of the engagement, having recently served as the
 engagement partner.
 
-•
-
-An audit team member having a long association with the
+• An audit team member having a long association with the
 audit client.
 
-•
-
-An individual who is being considered to serve as an
+• An individual who is being considered to serve as an
 appropriate reviewer, as a safeguard to address a threat,
 having a close relationship with an individual who
 performed the work.
 
 Intimidation Threats
-•
-
-A professional accountant being threatened with
+• A professional accountant being threatened with
 dismissal from a client engagement or the firm because
 of a disagreement about a professional matter.
 
-•
-
-A professional accountant feeling pressured to agree with
+• A professional accountant feeling pressured to agree with
 the judgment of a client because the client has more
 expertise on the matter in question.
 
-•
-
-A professional accountant being informed that a planned
+• A professional accountant being informed that a planned
 promotion will not occur unless the accountant agrees
 with an inappropriate accounting treatment.
 
-•
-
-A professional accountant having accepted a significant
+• A professional accountant having accepted a significant
 gift from a client and being threatened that acceptance of
 this gift will be made public.
 
@@ -4415,17 +3421,11 @@ Identifying Threats Associated with the Use of Technology
 The following are examples of facts and circumstances relating to the
 use of technology that might create threats for a professional accountant
 when undertaking a professional activity:
-•
-
-Self-interest Threats
-o
-The data available might not be sufficient for the
+• Self-interest Threats
+o The data available might not be sufficient for the
 effective use of the technology.
 
-o
-o
-
-The technology might not be appropriate for the
+o o The technology might not be appropriate for the
 purpose for which it is to be used.
 The accountant might not have sufficient information
 and expertise, or access to an expert with sufficient
@@ -4433,11 +3433,7 @@ understanding, to use and explain the technology and
 its appropriateness for the purpose intended.
 
 (Ref: Para. 230.2).
-•
-
-Self-review Threats
-o
-The technology was designed or developed using the
+• Self-review Threats o The technology was designed or developed using the
 knowledge, expertise or judgment of the accountant or
 the firm.
 
@@ -4450,13 +3446,9 @@ The conditions, policies and procedures described in paragraphs 120.6
 A1 and 120.8 A2 might impact the evaluation of whether a threat to
 compliance with the fundamental principles is at an acceptable level.
 Such conditions, policies and procedures might relate to:
-(a)
+(a) The client and its operating environment; and
 
-The client and its operating environment; and
-
-(b)
-
-The firm and its operating environment.
+(b) The firm and its operating environment.
 
 The professional accountant’s evaluation of the level of a threat is also
 impacted by the nature and scope of the professional service.
@@ -4466,18 +3458,12 @@ The Client and its Operating Environment
 
 The professional accountant’s evaluation of the level of a threat might
 be impacted by whether the client is:
-(a)
-
-An audit client and whether the audit client is a public interest
+(a) An audit client and whether the audit client is a public interest
 entity;
 
-(b)
+(b) An assurance client that is not an audit client; or
 
-An assurance client that is not an audit client; or
-
-(c)
-
-A non-assurance client.
+(c) A non-assurance client.
 
 For example, providing a non-assurance service to an audit client that
 is a public interest entity might be perceived to result in a higher level
@@ -4489,25 +3475,17 @@ The corporate governance structure, including the leadership of a client
 might promote compliance with the fundamental principles.
 Accordingly, a professional accountant’s evaluation of the level of a
 
-•
-
-The client requires appropriate individuals other than
+• The client requires appropriate individuals other than
 management to ratify or approve the appointment of a firm to
 perform an engagement.
 
-•
-
-The client has competent employees with experience and
+• The client has competent employees with experience and
 seniority to make managerial decisions.
 
-•
-
-The client has implemented internal procedures that facilitate
+• The client has implemented internal procedures that facilitate
 objective choices in tendering non-assurance engagements.
 
-•
-
-The client has a corporate governance structure that provides
+• The client has a corporate governance structure that provides
 appropriate oversight and communications regarding the firm’s
 services.
 
@@ -4519,42 +3497,28 @@ The Firm and its Operating Environment
 A professional accountant’s evaluation of the level of a threat might be
 impacted by the work environment within the accountant’s firm and its
 operating environment. For example:
-•
-
-Leadership of the firm that promotes compliance with the
+• Leadership of the firm that promotes compliance with the
 fundamental principles and establishes the expectation that
 assurance team members will act in the public interest.
 
-•
-
-Policies or procedures for establishing and monitoring
+• Policies or procedures for establishing and monitoring
 compliance with the fundamental principles by all personnel.
 
-•
-
-Compensation, performance appraisal and disciplinary policies
+• Compensation, performance appraisal and disciplinary policies
 and procedures that promote compliance with the fundamental
 principles.
 
-•
-
-Management of the reliance on revenue received from a single
+• Management of the reliance on revenue received from a single
 client.
 
-•
-
-The engagement partner having authority within the firm for
+• The engagement partner having authority within the firm for
 decisions concerning compliance with the fundamental
 principles, including any decisions about accepting or providing
 services to a client.
 
-•
+• Educational, training and experience requirements.
 
-Educational, training and experience requirements.
-
-•
-
-Processes to facilitate and address internal and external concerns
+• Processes to facilitate and address internal and external concerns
 or complaints.
 
 The professional accountant’s evaluation of the level of a threat
@@ -4565,19 +3529,13 @@ environment. For example:
 threat might also be impacted by a client’s operating environment. For
 example:
 
-•
-
-Level of corporate oversight and internal controls over the
+• Level of corporate oversight and internal controls over the
 technology.
 
-•
-
-Assessments of the quality and functionality of technology that
+• Assessments of the quality and functionality of technology that
 are undertaken by a third-party.
 
-•
-
-Training that is provided regularly to all relevant employees so
+• Training that is provided regularly to all relevant employees so
 they obtain and maintain the professional competence to
 sufficiently understand, use and explain the technology and its
 appropriateness for the purpose intended.
@@ -4586,13 +3544,9 @@ Consideration of New Information or Changes in Facts and Circumstances
 **300.7 A7**
 
 New information or changes in facts and circumstances might:
-(a)
+(a) Impact the level of a threat; or
 
-Impact the level of a threat; or
-
-(b)
-
-Affect the professional accountant’s conclusions about whether
+(b) Affect the professional accountant’s conclusions about whether
 safeguards applied continue to address identified threats as
 intended.
 
@@ -4605,27 +3559,17 @@ accordingly. (Ref: Paras. R120.9 and R120.10).
 
 Examples of new information or changes in facts and circumstances
 that might impact the level of a threat include:
-•
+• When the scope of a professional service is expanded.
 
-When the scope of a professional service is expanded.
-
-•
-
-When the client becomes a publicly traded entity or acquires
+• When the client becomes a publicly traded entity or acquires
 another business unit.
 
-•
+• When the firm merges with another firm.
 
-When the firm merges with another firm.
-
-•
-
-When the professional accountant is jointly engaged by two
+• When the professional accountant is jointly engaged by two
 clients and a dispute emerges between the two clients.
 
-•
-
-When there is a change in the professional accountant’s personal
+• When there is a change in the professional accountant’s personal
 or immediate family relationships.
 
 Addressing Threats
@@ -4641,39 +3585,27 @@ material for addressing threats that are not at an acceptable level.
 Safeguards vary depending on the facts and circumstances. Examples
 of actions that in certain circumstances might be safeguards to address
 threats include:
-•
-
-Assigning additional time and qualified personnel to required
+• Assigning additional time and qualified personnel to required
 tasks when an engagement has been accepted might address a
 self-interest threat.
 
-•
-
-Having an appropriate reviewer who was not a member of the
+• Having an appropriate reviewer who was not a member of the
 team review the work performed or advise as necessary might
 address a self-review threat.
 
-•
-
-Using different partners and teams with separate reporting lines
+• Using different partners and teams with separate reporting lines
 for the provision of non-assurance services to an assurance client
 might address self-review, advocacy or familiarity threats.
 
-•
-
-Involving another firm to perform or re-perform part of the
+• Involving another firm to perform or re-perform part of the
 engagement might address self-interest, self-review, advocacy,
 familiarity or intimidation threats.
 
-•
-
-Disclosing to clients any referral fees or commission
+• Disclosing to clients any referral fees or commission
 arrangements received for recommending services or products
 might address a self-interest threat.
 
-•
-
-Separating teams when dealing with matters of a confidential
+• Separating teams when dealing with matters of a confidential
 nature might address a self-interest threat.
 
 The remaining sections of Part 3 and International Independence
@@ -4706,13 +3638,9 @@ Examples of Safeguards
 
 In determining with whom to communicate, a professional accountant
 might consider:
-(a)
+(a) The nature and importance of the circumstances; and
 
-The nature and importance of the circumstances; and
-
-(b)
-
-The matter to be communicated.
+(b) The matter to be communicated.
 
 **300.9 A2**
 
@@ -4753,15 +3681,11 @@ fundamental principles. Such threats might be created when:
 
 **310.3**
 
-(a)
-
-A professional accountant provides a professional service
+(a) A professional accountant provides a professional service
 related to a particular matter for two or more clients whose
 interests with respect to that matter are in conflict; or
 
-(b)
-
-The interests of a professional accountant with respect to a
+(b) The interests of a professional accountant with respect to a
 particular matter and the interests of the client for whom the
 accountant provides a professional service related to that matter
 are in conflict.
@@ -4784,62 +3708,42 @@ compromise professional or business judgment.
 Examples of circumstances that might create a conflict of interest
 include:
 
-•
-
-Providing a transaction advisory service to a client seeking to
+• Providing a transaction advisory service to a client seeking to
 acquire an audit client, where the firm has obtained confidential
 information during the course of the audit that might be relevant
 to the transaction.
 
-•
-
-Providing advice to two clients at the same time where the
+• Providing advice to two clients at the same time where the
 clients are competing to acquire the same company and the
 advice might be relevant to the parties’ competitive positions.
 
-•
-
-Providing services to a seller and a buyer in relation to the same
+• Providing services to a seller and a buyer in relation to the same
 transaction.
 
 CONFLICTS OF INTEREST
 
-•
-
-Preparing valuations of assets for two parties who are in an
+• Preparing valuations of assets for two parties who are in an
 adversarial position with respect to the assets.
 
-•
-
-Representing two clients in the same matter who are in a legal
+• Representing two clients in the same matter who are in a legal
 dispute with each other, such as during divorce proceedings, or
 the dissolution of a partnership.
 
-•
-
-In relation to a license agreement, providing an assurance report
+• In relation to a license agreement, providing an assurance report
 for a licensor on the royalties due while advising the licensee on
 the amounts payable.
 
-•
-
-Advising a client to invest in a business in which, for example,
+• Advising a client to invest in a business in which, for example,
 the spouse of the professional accountant has a financial interest.
 
-•
-
-Providing strategic advice to a client on its competitive position
+• Providing strategic advice to a client on its competitive position
 while having a joint venture or similar interest with a major
 competitor of the client.
 
-•
-
-Advising a client on acquiring a business which the firm is also
+• Advising a client on acquiring a business which the firm is also
 interested in acquiring.
 
-•
-
-Advising a client on buying a product or service while having a
+• Advising a client on buying a product or service while having a
 royalty or commission agreement with a potential seller of that
 product or service.
 
@@ -4854,14 +3758,10 @@ relationship, a professional accountant shall take reasonable steps to
 identify circumstances that might create a conflict of interest, and
 therefore a threat to compliance with one or more of the fundamental
 principles. Such steps shall include identifying:
-(a)
-
-The nature of the relevant interests and relationships between the
+(a) The nature of the relevant interests and relationships between the
 parties involved; and
 
-(b)
-
-The service and its implication for relevant parties.
+(b) The service and its implication for relevant parties.
 
 An effective conflict identification process assists a professional
 accountant when taking reasonable steps to identify interests and
@@ -4877,21 +3777,13 @@ address threats created by the conflict of interest.
 
 An effective process to identify actual or potential conflicts of interest
 will take into account factors such as:
-•
+• The nature of the professional services provided.
 
-The nature of the professional services provided.
+• The size of the firm.
 
-•
+• The size and nature of the client base.
 
-The size of the firm.
-
-•
-
-The size and nature of the client base.
-
-•
-
-The structure of the firm, for example, the number and
+• The structure of the firm, for example, the number and
 geographic location of offices.
 
 More information on client acceptance is set out in Section 320,
@@ -4923,17 +3815,11 @@ might exist or arise due to interests and relationships of a network firm.
 
 Factors to consider when identifying interests and relationships
 involving a network firm include:
-•
+• The nature of the professional services provided.
 
-The nature of the professional services provided.
+• The clients served by the network.
 
-•
-
-The clients served by the network.
-
-•
-
-The geographic locations of all relevant parties.
+• The geographic locations of all relevant parties.
 
 Threats Created by Conflicts of Interest
 **310.8 A1**
@@ -4956,48 +3842,25 @@ include:
 
 **310.8 A3**
 
-•
-
-The existence of separate practice areas for specialty functions
+• The existence of separate practice areas for specialty functions
 within the firm, which might act as a barrier to the passing of
 confidential client information between practice areas.
 
-•
+• Policies and procedures to limit access to client files.
 
-Policies and procedures to limit access to client files.
-
-•
-
-Confidentiality agreements signed by personnel and partners of
+• Confidentiality agreements signed by personnel and partners of
 the firm.
 
-•
+• Separation of electronically.
 
-Separation of
-electronically.
+• Specific and dedicated training and communication.
 
-•
-
-Specific and dedicated training and communication.
-
-confidential
-
-information
-
-physically
-
-and
-
-Examples of actions that might be safeguards to address threats created
+confidential information physically and Examples of actions that might be safeguards to address threats created
 by a conflict of interest include:
-•
-
-Having separate teams who are provided with clear policies and
+• Having separate teams who are provided with clear policies and
 procedures on maintaining confidentiality.
 
-•
-
-Having an appropriate reviewer, who is not involved in
+• Having an appropriate reviewer, who is not involved in
 providing the service or otherwise affected by the conflict,
 review the work performed to assess whether the key judgments
 and conclusions are appropriate.
@@ -5018,27 +3881,17 @@ explicit consent are necessary include:
 
 **310.9 A2**
 
-•
+• The circumstances creating the conflict of interest.
 
-The circumstances creating the conflict of interest.
+• The parties that might be affected.
 
-•
+• The nature of the issues that might arise.
 
-The parties that might be affected.
-
-•
-
-The nature of the issues that might arise.
-
-•
-
-The potential for the particular matter to develop in an
+• The potential for the particular matter to develop in an
 unexpected manner.
 
 Disclosure and consent might take different forms, for example:
-•
-
-General disclosure to clients of circumstances where, as is
+• General disclosure to clients of circumstances where, as is
 common commercial practice, the professional accountant does
 
 not provide professional services exclusively to any one client
@@ -5052,51 +3905,33 @@ engagement.
 
 **310.9 A4**
 
-•
-
-Specific disclosure to affected clients of the circumstances of the
+• Specific disclosure to affected clients of the circumstances of the
 particular conflict in sufficient detail to enable the client to make
 an informed decision about the matter and to provide explicit
 consent accordingly. Such disclosure might include a detailed
 presentation of the circumstances and a comprehensive
 explanation of any planned safeguards and the risks involved.
 
-•
-
-Consent might be implied by clients’ conduct in circumstances
+• Consent might be implied by clients’ conduct in circumstances
 where the professional accountant has sufficient evidence to
 conclude that clients know the circumstances at the outset and
 have accepted the conflict of interest if they do not raise an
 objection to the existence of the conflict.
 
 It is generally necessary:
-(a)
-
-To disclose the nature of the conflict of interest and how any
+(a) To disclose the nature of the conflict of interest and how any
 threats created were addressed to clients affected by a conflict of
-interest; and
-
-(b)
-
-To obtain consent of the affected clients to perform the
+interest; and (b) To obtain consent of the affected clients to perform the
 professional services when safeguards are applied to address the
 threat.
 
 If such disclosure or consent is not in writing, the professional
 accountant is encouraged to document:
-(a)
-
-The nature of the circumstances giving rise to the conflict of
+(a) The nature of the circumstances giving rise to the conflict of
 interest;
 
-(b)
-
-The safeguards applied to address the threats when applicable;
-and
-
-(c)
-
-The consent obtained.
+(b) The safeguards applied to address the threats when applicable;
+and (c) The consent obtained.
 
 When Explicit Consent is Refused
 **R310.10**
@@ -5104,18 +3939,13 @@ When Explicit Consent is Refused
 If a professional accountant has determined that explicit consent is
 necessary in accordance with paragraph R310.9 and the client has
 refused to provide consent, the accountant shall either:
-(a)
-
-End or decline to perform professional services that would result
+(a) End or decline to perform professional services that would result
 in the conflict of interest; or
 
-(b)
-
-End relevant relationships or dispose of relevant interests to
+(b) End relevant relationships or dispose of relevant interests to
 eliminate the threat or reduce it to an acceptable level.
 
-Confidentiality
-General
+Confidentiality General
 **R310.11**
 
 A professional accountant shall remain alert to the principle of
@@ -5138,20 +3968,12 @@ When making specific disclosure for the purpose of obtaining explicit
 consent would result in a breach of confidentiality, and such consent
 cannot therefore be obtained, the firm shall only accept or continue an
 engagement if:
-(a)
-
-The firm does not act in an advocacy role for one client in an
+(a) The firm does not act in an advocacy role for one client in an
 adversarial position against another client in the same matter;
 
-(b)
-
-Specific measures are in place to prevent disclosure of
+(b) Specific measures are in place to prevent disclosure of
 confidential information between the teams serving the two
-clients; and
-
-(c)
-
-The firm is satisfied that a reasonable and informed third party
+clients; and (c) The firm is satisfied that a reasonable and informed third party
 would be likely to conclude that it is appropriate for the firm to
 accept or continue the engagement because a restriction on the
 firm’s ability to provide the professional service would produce
@@ -5160,14 +3982,10 @@ relevant third parties.
 
 A breach of confidentiality might arise, for example, when seeking
 consent to perform:
-•
-
-A transaction-related service for a client in a hostile takeover of
+• A transaction-related service for a client in a hostile takeover of
 another client of the firm.
 
-•
-
-A forensic investigation for a client regarding a suspected fraud,
+• A forensic investigation for a client regarding a suspected fraud,
 where the firm has confidential information from its work for
 another client who might be involved in the fraud.
 
@@ -5175,19 +3993,13 @@ another client who might be involved in the fraud.
 
 In the circumstances set out in paragraph R310.12, the professional
 accountant shall document:
-(a)
-
-The nature of the circumstances, including the role that the
+(a) The nature of the circumstances, including the role that the
 accountant is to undertake;
 
-(b)
-
-The specific measures in place to prevent disclosure of
+(b) The specific measures in place to prevent disclosure of
 information between the teams serving the two clients; and
 
-(c)
-
-Why it is appropriate to accept or continue the engagement.
+(c) Why it is appropriate to accept or continue the engagement.
 
 Documentation
 
@@ -5222,15 +4034,11 @@ or other unethical behavior.
 **320.3 A2**
 
 Factors that are relevant in evaluating the level of such a threat include:
-•
-
-Knowledge and understanding of the client, its owners,
+• Knowledge and understanding of the client, its owners,
 management and those charged with governance and business
 activities.
 
-•
-
-The client’s commitment to address the questionable issues, for
+• The client’s commitment to address the questionable issues, for
 example, through improving corporate governance practices or
 internal controls.
 
@@ -5243,66 +4051,42 @@ cannot acquire, the competencies to perform the professional services.
 **320.3 A4**
 
 Factors that are relevant in evaluating the level of such a threat include:
-•
+• An appropriate understanding of:
+o The nature of the client’s business;
 
-An appropriate understanding of:
-o
-
-The nature of the client’s business;
-
-o
-
-The complexity of its operations;
+o The complexity of its operations;
 
 **320.3 A5**
 
-o
+o The requirements of the engagement; and
 
-The requirements of the engagement; and
-
-o
-
-The purpose, nature and scope of the work to be
+o The purpose, nature and scope of the work to be
 performed.
 
-•
+• Knowledge of relevant industries or subject matter.
 
-Knowledge of relevant industries or subject matter.
+• Experience with relevant regulatory or reporting requirements.
 
-•
-
-Experience with relevant regulatory or reporting requirements.
-
-•
-
-Policies and procedures that the firm has implemented, as part
+• Policies and procedures that the firm has implemented, as part
 of a system of quality management in accordance with quality
 management standards such as ISQM 1, that respond to quality
 risks relating to the firm’s ability to perform the engagement in
 accordance with professional standards and applicable legal and
 regulatory requirements.
 
-•
-
-The level of fees and the extent to which they have regard to the
+• The level of fees and the extent to which they have regard to the
 resources required, taking into account the professional
 accountant’s commercial and market priorities.
 
 Examples of actions that might be safeguards to address a self-interest
 threat include:
-•
-
-Assigning sufficient engagement personnel with the necessary
+• Assigning sufficient engagement personnel with the necessary
 competencies.
 
-•
-
-Agreeing on a realistic time frame for the performance of the
+• Agreeing on a realistic time frame for the performance of the
 engagement.
 
-•
-
-Using experts where necessary.
+• Using experts where necessary.
 
 Changes in a Professional Appointment
 General
@@ -5312,18 +4096,10 @@ General
 
 A professional accountant shall determine whether there are any
 reasons for not accepting an engagement when the accountant:
-(a)
+(a) Is asked by a potential client to replace another accountant;
 
-Is asked by a potential client to replace another accountant;
-
-(b)
-
-Considers tendering for an engagement held by another
-accountant; or
-
-(c)
-
-Considers undertaking work that is complementary or additional
+(b) Considers tendering for an engagement held by another
+accountant; or (c) Considers undertaking work that is complementary or additional
 to that of another accountant.
 
 There might be reasons for not accepting an engagement. One such
@@ -5353,9 +4129,7 @@ accepted.
 **320.4 A4**
 
 Examples of actions that might be safeguards to address such a selfinterest threat include:
-•
-
-Asking the existing or predecessor accountant to provide any
+• Asking the existing or predecessor accountant to provide any
 known information of which, in the existing or predecessor
 accountant’s opinion, the proposed accountant needs to be aware
 before deciding whether to accept the engagement. For example,
@@ -5364,9 +4138,7 @@ might indicate disagreements with the existing or predecessor
 accountant that might influence the decision to accept the
 appointment.
 
-•
-
-Obtaining information from other sources such as through
+• Obtaining information from other sources such as through
 inquiries of third parties or background investigations regarding
 senior management or those charged with governance of the
 client.
@@ -5390,14 +4162,8 @@ Communicating with the Proposed Accountant
 When an existing or predecessor accountant is asked to respond to a
 communication from a proposed accountant, the existing or
 predecessor accountant shall:
-(a)
-
-Comply with relevant laws and regulations governing the
-request; and
-
-(b)
-
-Provide any information honestly and unambiguously.
+(a) Comply with relevant laws and regulations governing the
+request; and (b) Provide any information honestly and unambiguously.
 
 **320.7 A1**
 
@@ -5407,14 +4173,10 @@ An existing or predecessor accountant is bound by confidentiality.
 Whether the existing or predecessor accountant is permitted or required
 to discuss the affairs of a client with a proposed accountant will depend
 on the nature of the engagement and:
-(a)
-
-Whether the existing or predecessor accountant has permission
+(a) Whether the existing or predecessor accountant has permission
 from the client for the discussion; and
 
-(b)
-
-The legal and ethics requirements relating to such
+(b) The legal and ethics requirements relating to such
 communications and disclosure, which might vary by
 jurisdiction.
 
@@ -5432,16 +4194,12 @@ which, in the existing or predecessor accountant’s opinion, the
 proposed accountant needs to be aware before deciding whether to
 accept the engagement. Except for the circumstances involving noncompliance or suspected non-compliance with laws and regulations set
 out in paragraphs R360.21 and R360.22:
-(a)
-
-If the client consents to the existing or predecessor accountant
+(a) If the client consents to the existing or predecessor accountant
 disclosing any such facts or other information, the existing or
 predecessor accountant shall provide the information honestly
 and unambiguously; and
 
-(b)
-
-If the client fails or refuses to grant the existing or predecessor
+(b) If the client fails or refuses to grant the existing or predecessor
 accountant permission to discuss the client’s affairs with the
 proposed accountant, the existing or predecessor accountant
 shall disclose this fact to the proposed accountant, who shall
@@ -5473,14 +4231,10 @@ determine whether the use is appropriate for the intended purpose.
 
 Factors to consider when a professional accountant intends to use the
 work of an expert include:
-•
-
-The reputation and expertise of, and the resources available, to
+• The reputation and expertise of, and the resources available, to
 the expert.
 
-•
-
-Whether the expert is subject to applicable professional and
+• Whether the expert is subject to applicable professional and
 ethics standards.
 
 Such information might be gained from prior association with, or from
@@ -5496,40 +4250,26 @@ determine whether the use is appropriate for the intended purpose.
 
 Factors to consider when a professional accountant intends to use the
 output of technology include:
-•
+• The nature of the activity to be performed by the technology.
 
-The nature of the activity to be performed by the technology.
-
-•
-
-The expected use of, or extent of reliance on, the output of the
+• The expected use of, or extent of reliance on, the output of the
 technology.
 
-•
-
-Whether the accountant has the ability, or access to an expert
+• Whether the accountant has the ability, or access to an expert
 with the ability, to understand, use and explain the technology
 and its appropriateness for the purpose intended.
 
-•
-
-Whether the technology used has been appropriately tested and
+• Whether the technology used has been appropriately tested and
 evaluated for the purpose intended.
 
-•
-
-Prior experience with the technology and whether its use for
+• Prior experience with the technology and whether its use for
 specific purposes is generally accepted.
 
-•
-
-The firm’s oversight of the design, development,
+• The firm’s oversight of the design, development,
 implementation, operation, maintenance, monitoring, updating
 or upgrading of the technology.
 
-•
-
-The controls relating to the use of the technology, including
+• The controls relating to the use of the technology, including
 procedures for authorizing user access to the technology and
 overseeing such use.
 
@@ -5585,19 +4325,13 @@ and assumptions relevant to the expression of a professional judgment.
 **321.3 A3**
 
 Examples of actions that might be safeguards to address such a selfinterest threat include:
-•
-
-With the client’s permission, obtaining information from the
+• With the client’s permission, obtaining information from the
 existing or predecessor accountant.
 
-•
-
-Describing the limitations surrounding any opinion in
+• Describing the limitations surrounding any opinion in
 communications with the client.
 
-•
-
-Providing the existing or predecessor accountant with a copy of
+• Providing the existing or predecessor accountant with a copy of
 the opinion.
 
 When Permission to Communicate is Not Provided
@@ -5664,28 +4398,12 @@ The following are examples of circumstances where threats to the
 objectivity of a professional accountant appointed as an engagement
 quality reviewer might be created:
 
-(a)
-
-Self-interest threat
-•
-
-(b)
-
-Self-review threat
-•
-
-(c)
-
-An accountant serving as an engagement quality reviewer
+(a) Self-interest threat
+• (b) Self-review threat • (c) An accountant serving as an engagement quality reviewer
 on an audit engagement after previously serving as the
 engagement partner.
 
-Familiarity threat
-•
-
-(d)
-
-Two engagement partners each serving as an engagement
+Familiarity threat • (d) Two engagement partners each serving as an engagement
 quality reviewer for the other’s engagement.
 
 An accountant serving as an engagement quality reviewer
@@ -5693,10 +4411,7 @@ has a close relationship with or is an immediate family
 member of another individual who is involved in the
 engagement.
 
-Intimidation threat
-•
-
-An accountant serving as an engagement quality reviewer
+Intimidation threat • An accountant serving as an engagement quality reviewer
 for an engagement has a direct reporting line to the
 partner responsible for the engagement.
 
@@ -5706,30 +4421,20 @@ Evaluating Threats
 Factors that are relevant in evaluating the level of threats to the
 objectivity of an individual appointed as an engagement quality
 reviewer include:
-•
+• The role and seniority of the individual.
 
-The role and seniority of the individual.
-
-•
-
-The nature of the individual’s relationship with others involved
+• The nature of the individual’s relationship with others involved
 on the engagement.
 
-•
-
-The length of time the individual was previously involved with
+• The length of time the individual was previously involved with
 the engagement and the individual’s role.
 
-•
-
-When the individual was last involved in the engagement prior
+• When the individual was last involved in the engagement prior
 to being appointed as engagement quality reviewer and any
 subsequent relevant changes to the circumstances of the
 engagement.
 
-•
-
-The nature and complexity of issues that required significant
+• The nature and complexity of issues that required significant
 judgment from the individual in any previous involvement in the
 engagement.
 
@@ -5800,25 +4505,17 @@ Factors that are relevant in evaluating the level of such a threat include:
 
 **330.3 A4**
 
-•
-
-Whether the client is aware of the terms of the engagement and,
+• Whether the client is aware of the terms of the engagement and,
 in particular, the basis on which fees are determined and which
 professional services are covered.
 
-•
-
-Whether the level of the fee is set by an independent third party
+• Whether the level of the fee is set by an independent third party
 such as a regulatory body.
 
 Examples of actions that might be safeguards to address such a selfinterest threat include:
-•
+• Adjusting the level of fees or the scope of the engagement.
 
-Adjusting the level of fees or the scope of the engagement.
-
-•
-
-Having an appropriate reviewer review the work performed.
+• Having an appropriate reviewer review the work performed.
 
 **330.4 A1**
 
@@ -5835,47 +4532,29 @@ Factors that are relevant in evaluating the level of such threats include:
 
 **330.4 A4**
 
-•
+• The nature of the engagement.
 
-The nature of the engagement.
+• The range of possible fee amounts.
 
-•
+• The basis for determining the fee.
 
-The range of possible fee amounts.
-
-•
-
-The basis for determining the fee.
-
-•
-
-Disclosure to intended users of the work performed by the
+• Disclosure to intended users of the work performed by the
 professional accountant and the basis of remuneration.
 
-•
+• Quality management policies and procedures.
 
-Quality management policies and procedures.
-
-•
-
-Whether an independent third party is to review the outcome or
+• Whether an independent third party is to review the outcome or
 result of the transaction.
 
-•
-
-Whether the level of the fee is set by an independent third party
+• Whether the level of the fee is set by an independent third party
 such as a regulatory body.
 
 Examples of actions that might be safeguards to address such a selfinterest threat include:
-•
-
-Having an appropriate reviewer who was not involved in
+• Having an appropriate reviewer who was not involved in
 performing the non-assurance service review the work
 performed by the professional accountant.
 
-•
-
-Obtaining an advance written agreement with the client on the
+• Obtaining an advance written agreement with the client on the
 basis of remuneration.
 
 Requirements and application material related to contingent fees for
@@ -5890,9 +4569,7 @@ and professional competence and due care is created if a professional
 accountant pays or receives a referral fee or receives a commission
 relating to a client. Such referral fees or commissions include, for
 example:
-•
-
-A fee paid to another professional accountant for the purposes
+• A fee paid to another professional accountant for the purposes
 of obtaining new client work when the client continues as a
 client of the existing accountant but requires specialist services
 not offered by that accountant.
@@ -5901,30 +4578,22 @@ Contingent Fees
 
 **330.5 A2**
 
-•
-
-A fee received for referring a continuing client to another
+• A fee received for referring a continuing client to another
 professional accountant or other expert where the existing
 accountant does not provide the specific professional service
 required by the client.
 
-•
-
-A commission received from a third party (for example, a
+• A commission received from a third party (for example, a
 software vendor) in connection with the sale of goods or services
 to a client.
 
 Examples of actions that might be safeguards to address such a selfinterest threat include:
-•
-
-Obtaining an advance agreement from the client for commission
+• Obtaining an advance agreement from the client for commission
 arrangements in connection with the sale by another party of
 goods or services to the client might address a self-interest
 threat.
 
-•
-
-Disclosing to clients any referral fees or commission
+• Disclosing to clients any referral fees or commission
 arrangements paid to, or received from, another professional
 accountant or third party for recommending services or products
 might address a self-interest threat.
@@ -5970,33 +4639,19 @@ intent to improperly influence that individual’s behavior. Inducements
 can range from minor acts of hospitality between professional
 accountants and existing or prospective clients to acts that result in noncompliance with laws and regulations. An inducement can take many
 different forms, for example:
-•
+• Gifts.
 
-Gifts.
+• Hospitality.
 
-•
+• Entertainment.
 
-Hospitality.
+• Political or charitable donations.
 
-•
+• Appeals to friendship and loyalty.
 
-Entertainment.
+• Employment or other commercial opportunities.
 
-•
-
-Political or charitable donations.
-
-•
-
-Appeals to friendship and loyalty.
-
-•
-
-Employment or other commercial opportunities.
-
-•
-
-Preferential treatment, rights or privileges.
+• Preferential treatment, rights or privileges.
 
 INDUCEMENTS, INCLUDING GIFTS AND HOSPITALITY
 
@@ -6056,59 +4711,39 @@ the behavior of the recipient or of another individual.
 The determination of whether there is actual or perceived intent to
 improperly influence behavior requires the exercise of professional
 judgment. Relevant factors to consider might include:
-•
-
-The nature, frequency, value and cumulative effect of the
+• The nature, frequency, value and cumulative effect of the
 inducement.
 
-•
-
-Timing of when the inducement is offered relative to any action
+• Timing of when the inducement is offered relative to any action
 or decision that it might influence.
 
-•
-
-Whether the inducement is a customary or cultural practice in
+• Whether the inducement is a customary or cultural practice in
 the circumstances, for example, offering a gift on the occasion
 of a religious holiday or wedding.
 
-•
-
-Whether the inducement is an ancillary part of a professional
+• Whether the inducement is an ancillary part of a professional
 service, for example, offering or accepting lunch in connection
 with a business meeting.
 
-•
-
-Whether the offer of the inducement is limited to an individual
+• Whether the offer of the inducement is limited to an individual
 recipient or available to a broader group. The broader group
 might be internal or external to the firm, such as other suppliers
 to the client.
 
-•
-
-The roles and positions of the individuals at the firm or the client
+• The roles and positions of the individuals at the firm or the client
 offering or being offered the inducement.
 
-•
-
-Whether the professional accountant knows, or has reason to
+• Whether the professional accountant knows, or has reason to
 believe, that accepting the inducement would breach the policies
 and procedures of the client.
 
-•
-
-The degree of transparency with which the inducement is
+• The degree of transparency with which the inducement is
 offered.
 
-•
-
-Whether the inducement was required or requested by the
+• Whether the inducement was required or requested by the
 recipient.
 
-•
-
-The known previous behavior or reputation of the offeror.
+• The known previous behavior or reputation of the offeror.
 
 Consideration of Further Actions
 **340.10 A1**
@@ -6123,14 +4758,10 @@ met.
 
 Examples of actions that might be safeguards to address such threats
 include:
-•
-
-Informing senior management of the firm or those charged with
+• Informing senior management of the firm or those charged with
 governance of the client regarding the offer.
 
-•
-
-Amending or terminating the business relationship with the
+• Amending or terminating the business relationship with the
 client.
 
 Inducements with No Intent to Improperly Influence Behavior
@@ -6152,19 +4783,8 @@ Examples of circumstances where offering or accepting such an
 inducement might create threats even if the professional accountant has
 concluded there is no actual or perceived intent to improperly influence
 behavior include:
-•
-
-Self-interest threats
-o
-
-•
-
-Familiarity threats
-o
-
-•
-
-A professional accountant is offered hospitality from the
+• Self-interest threats
+o • Familiarity threats o • A professional accountant is offered hospitality from the
 prospective acquirer of a client while providing corporate
 finance services to the client.
 
@@ -6172,9 +4792,7 @@ A professional accountant regularly takes an existing or
 prospective client to sporting events.
 
 Intimidation threats
-o
-
-A professional accountant accepts hospitality from a
+o A professional accountant accepts hospitality from a
 client, the nature of which could be perceived to be
 inappropriate were it to be publicly disclosed.
 
@@ -6191,13 +4809,9 @@ accepting such an inducement include:
 
 **340.11 A6**
 
-•
+• Declining or not offering the inducement.
 
-Declining or not offering the inducement.
-
-•
-
-Transferring responsibility for the provision of any professional
+• Transferring responsibility for the provision of any professional
 services to the client to another individual who the professional
 accountant has no reason to believe would be, or would be
 perceived to be, improperly influenced when providing the
@@ -6205,40 +4819,28 @@ services.
 
 Examples of actions that might be safeguards to address such threats
 created by offering or accepting such an inducement include:
-•
-
-Being transparent with senior management of the firm or of the
+• Being transparent with senior management of the firm or of the
 client about offering or accepting an inducement.
 
-•
-
-Registering the inducement in a log monitored by senior
+• Registering the inducement in a log monitored by senior
 management of the firm or another individual responsible for the
 firm’s ethics compliance or maintained by the client.
 
-•
-
-Having an appropriate reviewer, who is not otherwise involved
+• Having an appropriate reviewer, who is not otherwise involved
 in providing the professional service, review any work
 performed or decisions made by the professional accountant
 with respect to the client from which the accountant accepted the
 inducement.
 
-•
-
-Donating the inducement to charity after receipt and
+• Donating the inducement to charity after receipt and
 appropriately disclosing the donation, for example, to a member
 of senior management of the firm or the individual who offered
 the inducement.
 
-•
-
-Reimbursing the cost of the inducement, such as hospitality,
+• Reimbursing the cost of the inducement, such as hospitality,
 received.
 
-•
-
-As soon as possible, returning the inducement, such as a gift,
+• As soon as possible, returning the inducement, such as a gift,
 after it was initially accepted.
 
 Immediate or Close Family Members
@@ -6247,14 +4849,10 @@ Immediate or Close Family Members
 A professional accountant shall remain alert to potential threats to the
 accountant’s compliance with the fundamental principles created by
 the offering of an inducement:
-(a)
-
-By an immediate or close family member of the accountant to
+(a) By an immediate or close family member of the accountant to
 an existing or prospective client of the accountant.
 
-(b)
-
-To an immediate or close family member of the accountant by
+(b) To an immediate or close family member of the accountant by
 an existing or prospective client of the accountant.
 
 **R340.13**
@@ -6274,18 +4872,12 @@ determining whether there is actual or perceived intent to improperly
 influence the behavior of the professional accountant or of the existing
 or prospective client. Another factor that is relevant is the nature or
 closeness of the relationship, between:
-(a)
+(a) The accountant and the immediate or close family member;
 
-The accountant and the immediate or close family member;
-
-(b)
-
-The immediate or close family member and the existing or
+(b) The immediate or close family member and the existing or
 prospective client; and
 
-(c)
-
-The accountant and the existing or prospective client.
+(c) The accountant and the existing or prospective client.
 
 For example, the offer of employment, outside of the normal
 
@@ -6309,15 +4901,11 @@ Application of the Conceptual Framework
 Where the professional accountant becomes aware of an inducement
 offered in the circumstances addressed in paragraph R340.12, threats
 to compliance with the fundamental principles might be created where:
-(a)
-
-The immediate or close family member offers or accepts the
+(a) The immediate or close family member offers or accepts the
 inducement contrary to the advice of the accountant pursuant to
 paragraph R340.13; or
 
-(b)
-
-The accountant does not have reason to believe an actual or
+(b) The accountant does not have reason to believe an actual or
 perceived intent to improperly influence the behavior of the
 accountant or of the existing or prospective client exists.
 
@@ -6377,13 +4965,9 @@ shall:
 
 **350.4 A1**
 
-(a)
+(a) Make inquiries about the source of the assets; and
 
-Make inquiries about the source of the assets; and
-
-(b)
-
-Consider related legal and regulatory obligations.
+(b) Consider related legal and regulatory obligations.
 
 Inquiries about the source of client assets might reveal, for example,
 that the assets were derived from illegal activities, such as money
@@ -6395,31 +4979,20 @@ After Taking Custody
 
 A professional accountant entrusted with money or other assets
 belonging to others shall:
-(a)
-
-Comply with the laws and regulations relevant to holding and
+(a) Comply with the laws and regulations relevant to holding and
 accounting for the assets;
 
-(b)
+(b) Keep the assets separately from personal or firm assets;
 
-Keep the assets separately from personal or firm assets;
+(c) Use the assets only for the purpose for which they are intended;
+and CUSTODY OF CLIENT ASSETS
 
-(c)
-
-Use the assets only for the purpose for which they are intended;
-and
-
-CUSTODY OF CLIENT ASSETS
-
-(d)
-
-Be ready at all times to account for the assets and any income,
+(d) Be ready at all times to account for the assets and any income,
 dividends, or gains generated, to any individuals entitled to that
 accounting.
 
 RESPONDING TO NON-COMPLIANCE WITH LAWS AND
-REGULATIONS
-Introduction
+REGULATIONS Introduction
 **360.1**
 
 Professional accountants are required to comply with the fundamental
@@ -6438,15 +5011,11 @@ A professional accountant might encounter or be made aware of noncompliance or s
 professional service to a client. This section guides the accountant in
 assessing the implications of the matter and the possible courses of
 action when responding to non-compliance or suspected noncompliance with:
-(a)
-
-Laws and regulations generally recognized to have a direct
+(a) Laws and regulations generally recognized to have a direct
 effect on the determination of material amounts and disclosures
 in the client’s financial statements; and
 
-(b)
-
-Other laws and regulations that do not have a direct effect on the
+(b) Other laws and regulations that do not have a direct effect on the
 determination of the amounts and disclosures in the client’s
 financial statements, but compliance with which might be
 fundamental to the operating aspects of the client’s business, to
@@ -6460,26 +5029,18 @@ A distinguishing mark of the accountancy profession is its acceptance
 of the responsibility to act in the public interest. When responding to
 non-compliance or suspected non-compliance, the objectives of the
 professional accountant are:
-(a)
-
-To comply with the principles of integrity and professional
+(a) To comply with the principles of integrity and professional
 behavior;
 
-(b)
-
-By alerting management or, where appropriate, those charged
+(b) By alerting management or, where appropriate, those charged
 with governance of the client, to seek to:
 
-(c)
-
-(i)
+(c) (i)
 
 Enable them to rectify, remediate or mitigate the
 consequences of the identified or suspected noncompliance; or
 
-(ii)
-
-Deter the commission of the non-compliance where it has
+(ii) Deter the commission of the non-compliance where it has
 not yet occurred; and
 
 To take such further action as appropriate in the public interest.
@@ -6496,55 +5057,31 @@ Non-compliance with laws and regulations (“non-compliance”)
 comprises acts of omission or commission, intentional or unintentional,
 which are contrary to the prevailing laws or regulations committed by
 the following parties:
-(a)
+(a) A client;
 
-A client;
+(b) Those charged with governance of a client;
 
-(b)
+(c) Management of a client; or
 
-Those charged with governance of a client;
-
-(c)
-
-Management of a client; or
-
-(d)
-
-Other individuals working for or under the direction of a client.
+(d) Other individuals working for or under the direction of a client.
 
 Examples of laws and regulations which this section addresses include
 those that deal with:
-•
+• Fraud, corruption and bribery.
 
-Fraud, corruption and bribery.
+• Money laundering, terrorist financing and proceeds of crime.
 
-•
+• Securities markets and trading.
 
-Money laundering, terrorist financing and proceeds of crime.
+• Banking and other financial products and services.
 
-•
+• Data protection.
 
-Securities markets and trading.
+• Tax and pension liabilities and payments.
 
-•
+• Environmental protection.
 
-Banking and other financial products and services.
-
-•
-
-Data protection.
-
-•
-
-Tax and pension liabilities and payments.
-
-•
-
-Environmental protection.
-
-•
-
-Public health and safety.
+• Public health and safety.
 
 Non-compliance might result in fines, litigation or other consequences
 for the client, potentially materially affecting its financial statements.
@@ -6563,14 +5100,8 @@ differ from or go beyond the provisions in this section. When
 encountering such non-compliance or suspected non-compliance, the
 accountant shall obtain an understanding of those legal or regulatory
 provisions and comply with them, including:
-(a)
-
-Any requirement to report the matter to an appropriate authority;
-and
-
-(b)
-
-Any prohibition on alerting the client.
+(a) Any requirement to report the matter to an appropriate authority;
+and (b) Any prohibition on alerting the client.
 
 **360.6 A1**
 
@@ -6593,14 +5124,8 @@ its stakeholders and the general public.
 **360.7 A3**
 
 This section does not address:
-(a)
-
-Personal misconduct unrelated to the business activities of the
-client; and
-
-(b)
-
-Non-compliance by parties other than those specified in
+(a) Personal misconduct unrelated to the business activities of the
+client; and (b) Non-compliance by parties other than those specified in
 paragraph 360.5 A1. This includes, for example, circumstances
 where a professional accountant has been engaged by a client to
 perform a due diligence assignment on a third party entity and
@@ -6622,21 +5147,13 @@ employees or the public.
 
 those charged with governance are also responsible for identifying and
 addressing any non-compliance by:
-(a)
+(a) The client;
 
-The client;
+(b) An individual charged with governance of the entity;
 
-(b)
+(c) A member of management; or
 
-An individual charged with governance of the entity;
-
-(c)
-
-A member of management; or
-
-(d)
-
-Other individuals working for or under the direction of the
+(d) Other individuals working for or under the direction of the
 client.
 
 Responsibilities of All Professional Accountants
@@ -6699,25 +5216,15 @@ matter.
 The appropriate level of management with whom to discuss the matter
 is a question of professional judgment. Relevant factors to consider
 include:
-•
+• The nature and circumstances of the matter.
 
-The nature and circumstances of the matter.
+• The individuals actually or potentially involved.
 
-•
+• The likelihood of collusion.
 
-The individuals actually or potentially involved.
+• The potential consequences of the matter.
 
-•
-
-The likelihood of collusion.
-
-•
-
-The potential consequences of the matter.
-
-•
-
-Whether that level of management is able to investigate the
+• Whether that level of management is able to investigate the
 matter and take appropriate action.
 
 **360.11 A3**
@@ -6745,18 +5252,10 @@ In discussing the non-compliance or suspected non-compliance with
 management and, where appropriate, those charged with governance,
 the professional accountant shall advise them to take appropriate and
 timely actions, if they have not already done so, to:
-(a)
+(a) Rectify, remediate or mitigate the consequences of the noncompliance;
 
-Rectify, remediate or mitigate the consequences of the noncompliance;
-
-(b)
-
-Deter the commission of the non-compliance where it has not
-yet occurred; or
-
-(c)
-
-Disclose the matter to an appropriate authority where required
+(b) Deter the commission of the non-compliance where it has not
+yet occurred; or (c) Disclose the matter to an appropriate authority where required
 by law or regulation or where considered necessary in the public
 interest.
 
@@ -6782,26 +5281,16 @@ The professional accountant shall comply with applicable:
 
 **360.15 A1**
 
-(a)
-
-Laws and regulations, including legal or regulatory provisions
+(a) Laws and regulations, including legal or regulatory provisions
 governing the reporting of non-compliance or suspected noncompliance to an appropriate authority; and
 
-(b)
-
-Requirements under auditing standards, including those relating to:
-•
-
-Identifying and responding to non-compliance, including
+(b) Requirements under auditing standards, including those relating to:
+• Identifying and responding to non-compliance, including
 fraud.
 
-•
+• Communicating with those charged with governance.
 
-Communicating with those charged with governance.
-
-•
-
-Considering the implications of the non-compliance or
+• Considering the implications of the non-compliance or
 suspected non-compliance for the auditor’s report.
 
 Some laws and regulations might stipulate a period within which
@@ -6816,14 +5305,10 @@ suspected non-compliance in either of the following two situations in
 the context of a group, the accountant shall communicate the matter to
 the group engagement partner unless prohibited from doing so by law
 or regulation:
-(a)
-
-The accountant performs audit work related to a component for
+(a) The accountant performs audit work related to a component for
 purposes of the group audit; or
 
-(b)
-
-The accountant is engaged to perform an audit of the financial
+(b) The accountant is engaged to perform an audit of the financial
 statements of a legal entity or business unit that is part of a group
 for purposes other than the group audit, for example, a statutory
 audit.
@@ -6847,14 +5332,8 @@ the professional accountant’s firm or network.
 Where the group engagement partner becomes aware of noncompliance or suspected non-compliance in the course of a group audit,
 the group engagement partner shall consider whether the matter might
 be relevant to:
-(a)
-
-One or more components subject to audit work for purposes of
-the group audit; or
-
-(b)
-
-One or more legal entities or business units that are part of the
+(a) One or more components subject to audit work for purposes of
+the group audit; or (b) One or more legal entities or business units that are part of the
 group and whose financial statements are subject to audit for
 purposes other than the group audit, for example, a statutory
 audit.
@@ -6900,34 +5379,22 @@ governance.
 Relevant factors to consider in assessing the appropriateness of the
 response of management and, where applicable, those charged with
 governance include whether:
-•
+• The response is timely.
 
-The response is timely.
-
-•
-
-The non-compliance or suspected non-compliance has been
+• The non-compliance or suspected non-compliance has been
 adequately investigated.
 
-•
-
-Action has been, or is being, taken to rectify, remediate or
+• Action has been, or is being, taken to rectify, remediate or
 mitigate the consequences of any non-compliance.
 
-•
-
-Action has been, or is being, taken to deter the commission of
+• Action has been, or is being, taken to deter the commission of
 any non-compliance where it has not yet occurred.
 
-•
-
-Appropriate steps have been, or are being, taken to reduce the
+• Appropriate steps have been, or are being, taken to reduce the
 risk of re-occurrence, for example, additional controls or
 training.
 
-•
-
-The non-compliance or suspected non-compliance has been
+• The non-compliance or suspected non-compliance has been
 disclosed to an appropriate authority where appropriate and, if
 so, whether the disclosure appears adequate.
 
@@ -6941,32 +5408,20 @@ if further action is needed in the public interest.
 
 The determination of whether further action is needed, and the nature
 and extent of it, will depend on various factors, including:
-•
+• The legal and regulatory framework.
 
-The legal and regulatory framework.
+• The urgency of the situation.
 
-•
+• The pervasiveness of the matter throughout the client.
 
-The urgency of the situation.
-
-•
-
-The pervasiveness of the matter throughout the client.
-
-•
-
-Whether the professional accountant continues to have
+• Whether the professional accountant continues to have
 confidence in the integrity of management and, where
 applicable, those charged with governance.
 
-•
-
-Whether the non-compliance or suspected non-compliance is
+• Whether the non-compliance or suspected non-compliance is
 likely to recur.
 
-•
-
-Whether there is credible evidence of actual or potential
+• Whether there is credible evidence of actual or potential
 substantial harm to the interests of the entity, investors,
 creditors, employees or the general public.
 
@@ -6976,14 +5431,10 @@ Examples of circumstances that might cause the professional
 accountant no longer to have confidence in the integrity of management
 and, where applicable, those charged with governance include
 situations where:
-•
-
-The accountant suspects or has evidence of their involvement or
+• The accountant suspects or has evidence of their involvement or
 intended involvement in any non-compliance.
 
-•
-
-The accountant is aware that they have knowledge of such noncompliance and, contrary to legal or regulatory requirements,
+• The accountant is aware that they have knowledge of such noncompliance and, contrary to legal or regulatory requirements,
 have not reported, or authorized the reporting of, the matter to
 an appropriate authority within a reasonable period.
 
@@ -6999,14 +5450,10 @@ interest.
 **360.21 A1**
 
 Further action that the professional accountant might take includes:
-•
-
-Disclosing the matter to an appropriate authority even when
+• Disclosing the matter to an appropriate authority even when
 there is no legal or regulatory requirement to do so.
 
-•
-
-Withdrawing from the engagement and the professional
+• Withdrawing from the engagement and the professional
 relationship where permitted by law or regulation.
 
 **360.21 A2**
@@ -7055,19 +5502,13 @@ investigations of management or those charged with governance.
 
 As assessment of the matter might involve complex analysis and
 judgments, the professional accountant might consider:
-•
+• Consulting internally.
 
-Consulting internally.
-
-•
-
-Obtaining legal advice to understand the accountant’s options
+• Obtaining legal advice to understand the accountant’s options
 and the professional or legal implications of taking any
 particular course of action.
 
-•
-
-Consulting on a confidential basis with a regulatory or
+• Consulting on a confidential basis with a regulatory or
 professional body.
 
 Determining Whether to Disclose the Matter to an Appropriate Authority
@@ -7087,26 +5528,18 @@ is or might be caused by the matter to investors, creditors, employees
 or the general public. For example, the professional accountant might
 determine that disclosure of the matter to an appropriate authority is an
 appropriate course of action if:
-•
-
-The entity is engaged in bribery (for example, of local or foreign
+• The entity is engaged in bribery (for example, of local or foreign
 government officials for purposes of securing large contracts).
 
-•
-
-The entity is regulated and the matter is of such significance as
+• The entity is regulated and the matter is of such significance as
 to threaten its license to operate.
 
-•
-
-The entity is listed on a securities exchange and the matter might
+• The entity is listed on a securities exchange and the matter might
 result in adverse consequences to the fair and orderly market in
 the entity’s securities or pose a systemic risk to the financial
 markets.
 
-•
-
-It is likely that the entity would sell products that are harmful to
+• It is likely that the entity would sell products that are harmful to
 public health or safety.
 
 **360.25 A3**
@@ -7118,9 +5551,7 @@ evading taxes.
 
 The determination of whether to make such a disclosure will also
 depend on external factors such as:
-•
-
-Whether there is an appropriate authority that is able to receive
+• Whether there is an appropriate authority that is able to receive
 the information, and cause the matter to be investigated and
 action to be taken. The appropriate authority will depend on the
 nature of the matter. For example, the appropriate authority
@@ -7128,16 +5559,12 @@ would be a securities regulator in the case of fraudulent financial
 reporting or an environmental protection agency in the case of a
 breach of environmental laws and regulations.
 
-•
-
-Whether there exists robust and credible protection from civil,
+• Whether there exists robust and credible protection from civil,
 criminal or professional liability or retaliation afforded by
 legislation or regulation, such as under whistle-blowing
 legislation or regulation.
 
-•
-
-Whether there are actual or potential threats to the physical
+• Whether there are actual or potential threats to the physical
 safety of the professional accountant or other individuals.
 
 If the professional accountant determines that disclosure of the noncompliance or suspected non-compliance to an appropriate authority is
@@ -7163,9 +5590,7 @@ immediately to an appropriate authority in order to prevent or mitigate
 the consequences of such imminent breach. If disclosure is made, that
 disclosure is permitted pursuant to paragraph R114.3 of the Code.
 
-•
-
-Documentation
+• Documentation
 **R360.28**
 
 **360.28 A1**
@@ -7173,43 +5598,31 @@ Documentation
 In relation to non-compliance or suspected non-compliance that falls
 within the scope of this section, the professional accountant shall
 document:
-•
-
-How management and, where applicable, those charged with
+• How management and, where applicable, those charged with
 governance have responded to the matter.
 
-•
-
-The courses of action the accountant considered, the judgments
+• The courses of action the accountant considered, the judgments
 made and the decisions that were taken, having regard to the
 reasonable and informed third party test.
 
-•
-
-How the accountant is satisfied that the accountant has fulfilled
+• How the accountant is satisfied that the accountant has fulfilled
 the responsibility set out in paragraph R360.20.
 
 This documentation is in addition to complying with the documentation
 requirements under applicable auditing standards. ISAs, for example,
 require a professional accountant performing an audit of financial
 statements to:
-•
-
-Prepare documentation sufficient to enable an understanding of
+• Prepare documentation sufficient to enable an understanding of
 significant matters arising during the audit, the conclusions
 reached, and significant professional judgments made in
 reaching those conclusions;
 
-•
-
-Document discussions of significant matters with management,
+• Document discussions of significant matters with management,
 those charged with governance, and others, including the nature
 of the significant matters discussed and when and with whom
 the discussions took place; and
 
-•
-
-Document identified or suspected non-compliance, and the
+• Document identified or suspected non-compliance, and the
 results of discussion with management and, where applicable,
 those charged with governance and other parties outside the
 entity.
@@ -7262,38 +5675,24 @@ matter.
 The appropriate level of management with whom to discuss the matter
 is a question of professional judgment. Relevant factors to consider
 include:
-•
+• The nature and circumstances of the matter.
 
-The nature and circumstances of the matter.
+• The individuals actually or potentially involved.
 
-•
+• The likelihood of collusion.
 
-The individuals actually or potentially involved.
+• The potential consequences of the matter.
 
-•
-
-The likelihood of collusion.
-
-•
-
-The potential consequences of the matter.
-
-•
-
-Whether that level of management is able to investigate the
+• Whether that level of management is able to investigate the
 matter and take appropriate action.
 
 Communicating the Matter to the Entity’s External Auditor
 **R360.31**
 
 If the professional accountant is performing a non-audit service for:
-(a)
+(a) An audit client of the firm; or
 
-An audit client of the firm; or
-
-(b)
-
-A component of an audit client of the firm,
+(b) A component of an audit client of the firm,
 
 the accountant shall communicate the non-compliance or suspected
 non-compliance within the firm, unless prohibited from doing so by
@@ -7305,13 +5704,9 @@ engagement partner.
 **R360.32**
 
 If the professional accountant is performing a non-audit service for:
-(a)
+(a) An audit client of a network firm; or
 
-An audit client of a network firm; or
-
-(b)
-
-A component of an audit client of a network firm,
+(b) A component of an audit client of a network firm,
 
 the accountant shall consider whether to communicate the noncompliance or suspected non-compliance to the network firm. Where
 the communication is made, it shall be made in accordance with the
@@ -7321,13 +5716,9 @@ procedures, it shall be made directly to the audit engagement partner.
 
 If the professional accountant is performing a non-audit service for a
 client that is not:
-(a)
+(a) An audit client of the firm or a network firm; or
 
-An audit client of the firm or a network firm; or
-
-(b)
-
-A component of an audit client of the firm or a network firm,
+(b) A component of an audit client of the firm or a network firm,
 
 the accountant shall consider whether to communicate the noncompliance or suspected non-compliance to the firm that is the client’s
 external auditor, if any.
@@ -7336,30 +5727,20 @@ Relevant Factors to Consider
 
 Factors relevant to considering the communication in accordance with
 paragraphs R360.31 to R360.33 include:
-•
+• Whether doing so would be contrary to law or regulation.
 
-Whether doing so would be contrary to law or regulation.
-
-•
-
-Whether there are restrictions about disclosure imposed by a
+• Whether there are restrictions about disclosure imposed by a
 regulatory agency or prosecutor in an ongoing investigation into
 the non-compliance or suspected non-compliance.
 
-•
-
-Whether the purpose of the engagement is to investigate
+• Whether the purpose of the engagement is to investigate
 potential non-compliance within the entity to enable it to take
 appropriate action.
 
-•
-
-Whether management or those charged with governance have
+• Whether management or those charged with governance have
 already informed the entity’s external auditor about the matter.
 
-•
-
-The likely materiality of the matter to the audit of the client’s
+• The likely materiality of the matter to the audit of the client’s
 financial statements or, where the matter relates to a component
 of a group, its likely materiality to the audit of the group
 financial statements.
@@ -7386,56 +5767,36 @@ depend on factors such as:
 
 **360.36 A3**
 
-•
+• The legal and regulatory framework.
 
-The legal and regulatory framework.
-
-•
-
-The appropriateness and timeliness of the response of
+• The appropriateness and timeliness of the response of
 management and, where applicable, those charged with
 governance.
 
-•
+• The urgency of the situation.
 
-The urgency of the situation.
-
-•
-
-The involvement of management or those charged with
+• The involvement of management or those charged with
 governance in the matter.
 
-•
-
-The likelihood of substantial harm to the interests of the client,
+• The likelihood of substantial harm to the interests of the client,
 investors, creditors, employees or the general public.
 
 Further action by the professional accountant might include:
-•
-
-Disclosing the matter to an appropriate authority even when
+• Disclosing the matter to an appropriate authority even when
 there is no legal or regulatory requirement to do so.
 
-•
-
-Withdrawing from the engagement and the professional
+• Withdrawing from the engagement and the professional
 relationship where permitted by law or regulation.
 
 In considering whether to disclose to an appropriate authority, relevant
 factors to take into account include:
-•
+• Whether doing so would be contrary to law or regulation.
 
-Whether doing so would be contrary to law or regulation.
-
-•
-
-Whether there are restrictions about disclosure imposed by a
+• Whether there are restrictions about disclosure imposed by a
 regulatory agency or prosecutor in an ongoing investigation into
 the non-compliance or suspected non-compliance.
 
-•
-
-Whether the purpose of the engagement is to investigate
+• Whether the purpose of the engagement is to investigate
 potential non-compliance within the entity to enable it to take
 appropriate action.
 
@@ -7471,18 +5832,12 @@ Seeking Advice
 **360.39 A1**
 
 The professional accountant might consider:
-•
+• Consulting internally.
 
-Consulting internally.
-
-•
-
-Obtaining legal advice to understand the professional or legal
+• Obtaining legal advice to understand the professional or legal
 implications of taking any particular course of action.
 
-•
-
-Consulting on a confidential basis with a regulatory or
+• Consulting on a confidential basis with a regulatory or
 professional body.
 
 Documentation
@@ -7491,35 +5846,23 @@ Documentation
 In relation to non-compliance or suspected non-compliance that falls
 within the scope of this section, the professional accountant is
 encouraged to document:
-•
+• The matter.
 
-The matter.
-
-•
-
-The results of discussion with management and, where
+• The results of discussion with management and, where
 applicable, those charged with governance and other parties.
 
-•
-
-How management and, where applicable, those charged with
+• How management and, where applicable, those charged with
 governance have responded to the matter.
 
-•
-
-The courses of action the accountant considered, the judgments
+• The courses of action the accountant considered, the judgments
 made and the decisions that were taken.
 
-•
-
-How the accountant is satisfied that the accountant has fulfilled
+• How the accountant is satisfied that the accountant has fulfilled
 the responsibility set out in paragraph R360.36.
 
 INTERNATIONAL INDEPENDENCE STANDARDS
-(PARTS 4A AND 4B)
-PART 4A – INDEPENDENCE FOR AUDIT AND REVIEW
-ENGAGEMENTS
-Section 400 Applying the Conceptual Framework to Independence for
+(PARTS 4A AND 4B) PART 4A – INDEPENDENCE FOR AUDIT AND REVIEW
+ENGAGEMENTS Section 400 Applying the Conceptual Framework to Independence for
 
 Section 540 Long Association of Personnel (Including Partner Rotation)
 
@@ -7532,8 +5875,7 @@ PART 4A – INDEPENDENCE FOR AUDIT AND REVIEW
 ENGAGEMENTS
 ## Section 400 — Applying the Conceptual Framework to
 INDEPENDENCE FOR AUDIT AND REVIEW ENGAGEMENTS
-Introduction
-General
+Introduction General
 **400.1**
 
 It is in the public interest and required by the Code that professional
@@ -7580,17 +5922,13 @@ relationships.
 
 Independence is linked to the principles of objectivity and integrity. It
 comprises:
-(a)
-
-Independence of mind – the state of mind that permits the
+(a) Independence of mind – the state of mind that permits the
 expression of a conclusion without being affected by influences
 that compromise professional judgment, thereby allowing an
 individual to act with integrity, and exercise objectivity and
 professional skepticism.
 
-(b)
-
-Independence in appearance – the avoidance of facts and
+(b) Independence in appearance – the avoidance of facts and
 circumstances that are so significant that a reasonable and
 informed third party would be likely to conclude that a firm’s,
 or an audit team member’s, integrity, objectivity or professional
@@ -7612,20 +5950,14 @@ application material applicable in a group audit.
 **400.7**
 
 This Part describes:
-(a)
-
-Facts and circumstances, including professional activities,
+(a) Facts and circumstances, including professional activities,
 interests and relationships, that create or might create threats to
 independence;
 
-(b)
-
-Potential actions, including safeguards, that might be
+(b) Potential actions, including safeguards, that might be
 appropriate to address any such threats; and
 
-(c)
-
-Some situations where the threats cannot be eliminated or there
+(c) Some situations where the threats cannot be eliminated or there
 can be no safeguards to reduce them to an acceptable level.
 
 Engagement Team and Audit Team
@@ -7639,15 +5971,11 @@ team members.
 An engagement team for an audit engagement includes all partners and
 staff in the firm who perform audit work on the engagement, and any
 other individuals who perform audit procedures who are from:
-(a)
-
-A network firm; or
+(a) A network firm; or
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
-(b)
-
-A firm that is not a network firm, or another service provider.
+(b) A firm that is not a network firm, or another service provider.
 
 For example, an individual from a component auditor firm who
 performs audit procedures on the financial information of a component
@@ -7667,18 +5995,14 @@ firm, a network firm, or a component auditor firm outside a group
 auditor firm’s network, who assist in the engagement. Depending on
 the role of the individuals, they might be engagement team or audit
 team members. For example:
-•
-
-Individuals with expertise in a specialized area of accounting or
+• Individuals with expertise in a specialized area of accounting or
 auditing who perform audit procedures are engagement team
 members. These include, for example, individuals with expertise
 in accounting for income taxes or in analyzing complex
 information produced by automated tools and techniques for the
 purpose of identifying unusual or unexpected relationships.
 
-•
-
-Individuals within, or engaged by, the firm who have direct
+• Individuals within, or engaged by, the firm who have direct
 influence over the outcome of the audit engagement through
 consultation regarding technical or industry-specific issues,
 transactions or events for the engagement are audit team
@@ -7709,36 +6033,24 @@ financial condition of an entity include:
 
 **400.15**
 
-•
-
-The nature of the business or activities, such as taking on
+• The nature of the business or activities, such as taking on
 financial obligations to the public as part of the entity’s primary
 business.
 
-•
-
-Whether the entity is subject to regulatory supervision designed
+• Whether the entity is subject to regulatory supervision designed
 to provide confidence that the entity will meet its financial
 obligations.
 
-•
+• Size of the entity.
 
-Size of the entity.
-
-•
-
-The importance of the entity to the sector in which it operates
+• The importance of the entity to the sector in which it operates
 including how easily replaceable it is in the event of financial
 failure.
 
-•
-
-Number and nature of stakeholders including investors,
+• Number and nature of stakeholders including investors,
 customers, creditors and employees.
 
-•
-
-The potential systemic impact on other sectors and the economy
+• The potential systemic impact on other sectors and the economy
 as a whole in the event of financial failure of the entity.
 
 Stakeholders have heightened expectations regarding the independence
@@ -7806,49 +6118,29 @@ Determining whether an activity is a management responsibility
 depends on the circumstances and requires the exercise of professional
 judgment. Examples of activities that would be considered a
 management responsibility include:
-•
+• Setting policies and strategic direction.
 
-Setting policies and strategic direction.
+• Hiring or dismissing employees.
 
-•
-
-Hiring or dismissing employees.
-
-•
-
-Directing and taking responsibility for the actions of employees
+• Directing and taking responsibility for the actions of employees
 in relation to the employees’ work for the entity.
 
-•
+• Authorizing transactions.
 
-Authorizing transactions.
+• Controlling or managing bank accounts or investments.
 
-•
-
-Controlling or managing bank accounts or investments.
-
-•
-
-Deciding which recommendations of the firm or network firm
+• Deciding which recommendations of the firm or network firm
 or other third parties to implement.
 
-•
-
-Reporting to those charged with governance on behalf of
+• Reporting to those charged with governance on behalf of
 management.
 
-•
-
-Taking responsibility for:
-o
-
-The preparation and fair presentation of the financial
+• Taking responsibility for:
+o The preparation and fair presentation of the financial
 statements in accordance with the applicable financial
 reporting framework.
 
-o
-
-Designing, implementing, monitoring or maintaining
+o Designing, implementing, monitoring or maintaining
 internal control.
 
 **400.20 A4**
@@ -7866,20 +6158,14 @@ When performing a professional activity for an audit client, the firm
 shall be satisfied that client management makes all judgments and
 decisions that are the proper responsibility of management. This
 includes ensuring that the client’s management:
-(a)
-
-Designates an individual who possesses suitable skill,
+(a) Designates an individual who possesses suitable skill,
 knowledge and experience to be responsible at all times for the
 client’s decisions and to oversee the activities. Such an
 individual, preferably within senior management, would
 understand:
-(i)
+(i) The objectives, nature and results of the activities; and
 
-The objectives, nature and results of the activities; and
-
-(ii)
-
-The respective client and firm or network firm
+(ii) The respective client and firm or network firm
 responsibilities.
 
 However, the individual is not required to possess the expertise
@@ -7887,14 +6173,10 @@ to perform or re-perform the activities.
 
 **400.21 A1**
 
-(b)
-
-Provides oversight of the activities and evaluates the adequacy
+(b) Provides oversight of the activities and evaluates the adequacy
 of the results of the activities performed for the client’s purpose.
 
-(c)
-
-Accepts responsibility for the actions, if any, to be taken arising
+(c) Accepts responsibility for the actions, if any, to be taken arising
 from the results of the activities.
 
 When technology is used in performing a professional activity for an
@@ -7906,25 +6188,15 @@ Public Interest Entities
 
 For the purposes of this Part, a firm shall treat an entity as a public
 interest entity when it falls within any of the following categories:
-(a)
+(a) A publicly traded entity;
 
-A publicly traded entity;
-
-(b)
-
-An entity one of whose main functions is to take deposits from
+(b) An entity one of whose main functions is to take deposits from
 the public;
 
-(c)
+(c) An entity one of whose main functions is to provide insurance
+to the public; or INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
-An entity one of whose main functions is to provide insurance
-to the public; or
-
-INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
-
-(d)
-
-An entity specified as such by law, regulation or professional
+(d) An entity specified as such by law, regulation or professional
 standards to meet the purpose described in paragraph 400.15.
 
 **400.22 A1**
@@ -7955,24 +6227,16 @@ accountants to more explicitly define these categories by, for example:
 
 **400.23 A2**
 
-•
-
-Making reference to specific public markets for trading
+• Making reference to specific public markets for trading
 securities.
 
-•
-
-Making reference to the local law or regulation defining banks
+• Making reference to the local law or regulation defining banks
 or insurance companies.
 
-•
-
-Incorporating exemptions for specific types of entities, such as
+• Incorporating exemptions for specific types of entities, such as
 an entity with mutual ownership.
 
-•
-
-Setting size criteria for certain types of entities.
+• Setting size criteria for certain types of entities.
 
 Paragraph R400.22 (d) anticipates that those bodies responsible for
 setting ethics standards for professional accountants will add categories
@@ -7980,65 +6244,43 @@ of public interest entities to meet the purpose described in paragraph
 400.15, taking into account factors such as those set out in paragraph
 400.14. Depending on the facts and circumstances in a specific
 jurisdiction, such categories could include:
-•
+• Pension funds.
 
-Pension funds.
-
-•
-
-Collective investment vehicles.
+• Collective investment vehicles.
 
 **400.24 A1**
 
-•
-
-Private entities with large numbers of stakeholders (other than
+• Private entities with large numbers of stakeholders (other than
 investors).
 
-•
+• Not-for-profit organizations or governmental entities.
 
-Not-for-profit organizations or governmental entities.
-
-•
-
-Public utilities.
+• Public utilities.
 
 A firm is encouraged to determine whether to treat other entities as
 public interest entities for the purposes of this Part. When making this
 determination, the firm might consider the factors set out in paragraph
 400.14 as well as the following factors:
-•
-
-Whether the entity is likely to become a public interest entity in
+• Whether the entity is likely to become a public interest entity in
 the near future.
 
-•
-
-Whether in similar circumstances, a predecessor firm has applied
+• Whether in similar circumstances, a predecessor firm has applied
 independence requirements for public interest entities to the
 entity.
 
-•
-
-Whether in similar circumstances, the firm has applied
+• Whether in similar circumstances, the firm has applied
 independence requirements for public interest entities to other
 entities.
 
-•
-
-Whether the entity has been specified as not being a public
+• Whether the entity has been specified as not being a public
 interest entity by law, regulation or professional standards.
 
-•
-
-Whether the entity or other stakeholders requested the firm to
+• Whether the entity or other stakeholders requested the firm to
 apply independence requirements for public interest entities to
 the entity and, if so, whether there are any reasons for not
 meeting this request.
 
-•
-
-The entity’s corporate governance arrangements, for example,
+• The entity’s corporate governance arrangements, for example,
 whether those charged with governance are distinct from the
 owners or management.
 
@@ -8079,13 +6321,9 @@ Period During which Independence is Required
 **R400.30**
 
 Independence, as required by this Part, shall be maintained during both:
-(a)
+(a) The engagement period; and
 
-The engagement period; and
-
-(b)
-
-The period covered by the financial statements.
+(b) The period covered by the financial statements.
 
 **400.30 A1**
 
@@ -8104,15 +6342,11 @@ created by:
 
 **400.31 A1**
 
-(a)
-
-Financial or business relationships with the audit client during
+(a) Financial or business relationships with the audit client during
 or after the period covered by the financial statements but before
 accepting the audit engagement; or
 
-(b)
-
-Previous services provided to the audit client by the firm or a
+(b) Previous services provided to the audit client by the firm or a
 network firm.
 
 Threats to independence are created if a non-assurance service was
@@ -8135,18 +6369,12 @@ independence include:
 
 **400.31 A4**
 
-•
-
-Not assigning professionals who performed the non-assurance
+• Not assigning professionals who performed the non-assurance
 service to be members of the engagement team.
 
-•
+• Having an appropriate reviewer review the audit work or nonassurance service as appropriate.
 
-Having an appropriate reviewer review the audit work or nonassurance service as appropriate.
-
-•
-
-Engaging another firm outside of the network to evaluate the
+• Engaging another firm outside of the network to evaluate the
 results of the non-assurance service or having another firm
 outside of the network re-perform the non-assurance service to
 the extent necessary to enable the other firm to take
@@ -8169,19 +6397,11 @@ to which the firm or the network firm has provided a non-assurance
 service prior to such appointment that might create a self-review threat
 in relation to the financial statements on which the firm will express an
 opinion unless:
-(a)
-
-The provision of such service ceases before the commencement
+(a) The provision of such service ceases before the commencement
 of the audit engagement period;
 
-(b)
-
-The firm takes action to address any threats to its independence;
-and
-
-(c)
-
-The firm determines that, in the view of a reasonable and
+(b) The firm takes action to address any threats to its independence;
+and (c) The firm determines that, in the view of a reasonable and
 informed third party, any threats to the firm’s independence have
 been or will be eliminated or reduced to an acceptable level.
 
@@ -8193,31 +6413,21 @@ include:
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
-•
-
-The results of the service had been subject to auditing
+• The results of the service had been subject to auditing
 procedures in the course of the audit of the prior year’s financial
 statements by a predecessor firm.
 
-•
-
-The firm engages a professional accountant, who is not a
+• The firm engages a professional accountant, who is not a
 member of the firm expressing the opinion on the financial
 statements, to perform a review of the first audit engagement
 affected by the self-review threat consistent with the objective
 of an engagement quality review.
 
-•
-
-The public interest entity engages another firm outside of the
+• The public interest entity engages another firm outside of the
 network to:
-(i)
+(i) Evaluate the results of the non-assurance service; or
 
-Evaluate the results of the non-assurance service; or
-
-(ii)
-
-Re-perform the service,
+(ii) Re-perform the service,
 
 to the extent necessary to enable the other firm to take responsibility
 for the result of the service.
@@ -8236,20 +6446,14 @@ firm and those charged with governance of the client regarding
 relationships and other matters that might, in the firm’s opinion,
 reasonably bear on independence. Such communication enables those
 charged with governance to:
-(a)
-
-Consider the firm’s judgments in identifying and evaluating
+(a) Consider the firm’s judgments in identifying and evaluating
 threats;
 
-(b)
-
-Consider how threats have been addressed including the
+(b) Consider how threats have been addressed including the
 appropriateness of safeguards when they are available and
 capable of being applied; and
 
-(c)
-
-Take appropriate action.
+(c) Take appropriate action.
 
 Such an approach can be particularly helpful with respect to
 intimidation and familiarity threats.
@@ -8283,53 +6487,35 @@ firm shall:
 
 **R400.53**
 
-(a)
-
-Exercise professional judgment to determine whether a network
+(a) Exercise professional judgment to determine whether a network
 is created by such a larger structure;
 
-(b)
-
-Consider whether a reasonable and informed third party would
+(b) Consider whether a reasonable and informed third party would
 be likely to conclude that the other firms and entities in the larger
 structure are associated in such a way that a network exists; and
 
-(c)
-
-Apply such judgment consistently throughout such a larger
+(c) Apply such judgment consistently throughout such a larger
 structure.
 
 When determining whether a network is created by a larger structure of
 firms and other entities, a firm shall conclude that a network exists
 when such a larger structure is aimed at co-operation and:
-(a)
-
-It is clearly aimed at profit or cost sharing among the entities
+(a) It is clearly aimed at profit or cost sharing among the entities
 within the structure. (Ref: Para. 400.53 A2);
 
-(b)
-
-The entities within the structure share common ownership,
+(b) The entities within the structure share common ownership,
 control or management. (Ref: Para. 400.53 A3);
 
-(c)
-
-The entities within the structure share common quality
+(c) The entities within the structure share common quality
 management policies and procedures. (Ref: Para. 400.53 A4);
 
-(d)
-
-The entities within the structure share a common business
+(d) The entities within the structure share a common business
 strategy. (Ref: Para. 400.53 A5);
 
-(e)
-
-The entities within the structure share the use of a common brand
+(e) The entities within the structure share the use of a common brand
 name. (Ref: Para. 400.53 A6, 400.53 A7); or
 
-(f)
-
-The entities within the structure share a significant part of
+(f) The entities within the structure share a significant part of
 professional resources. (Ref: Para 400.53 A8, 400.53 A9).
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
@@ -8392,43 +6578,29 @@ created that the firm belongs to a network. (Ref: Para. R400.53(e)).
 **400.53 A8**
 
 Professional resources include:
-•
-
-Common systems that enable firms to exchange information
+• Common systems that enable firms to exchange information
 such as client data, billing and time records.
 
-•
+• Partners and other personnel.
 
-Partners and other personnel.
-
-•
-
-Technical departments that consult on technical or industryspecific issues, transactions or events for assurance
+• Technical departments that consult on technical or industryspecific issues, transactions or events for assurance
 engagements.
 
 **400.53 A9**
 
-•
+• Audit methodology or audit manuals.
 
-Audit methodology or audit manuals.
-
-•
-
-Training courses and facilities. (Ref: Para. R400.53(f)).
+• Training courses and facilities. (Ref: Para. R400.53(f)).
 
 Whether the shared professional resources are significant depends on
 the circumstances. For example:
-•
-
-The shared resources might be limited to common audit
+• The shared resources might be limited to common audit
 methodology or audit manuals, with no exchange of personnel
 or client or market information. In such circumstances, it is
 unlikely that the shared resources would be significant. The
 same applies to a common training endeavor.
 
-•
-
-The shared resources might involve the exchange of personnel
+• The shared resources might involve the exchange of personnel
 or information, such as where personnel are drawn from a shared
 pool, or where a common technical department is created within
 the larger structure to provide participating firms with technical
@@ -8462,15 +6634,9 @@ General Documentation of Independence for Audit and Review Engagements
 A firm shall document conclusions regarding compliance with this
 Part, and the substance of any relevant discussions that support those
 conclusions. In particular:
-(a)
-
-When safeguards are applied to address a threat, the firm shall
+(a) When safeguards are applied to address a threat, the firm shall
 document the nature of the threat and the safeguards in place or
-applied; and
-
-(b)
-
-When a threat required significant analysis and the firm
+applied; and (b) When a threat required significant analysis and the firm
 concluded that the threat was already at an acceptable level, the
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
@@ -8503,32 +6669,20 @@ In the circumstances set out in paragraph 400.70 A1,
 
 **400.72 A1**
 
-(a)
-
-The firm shall identify and evaluate previous and current
+(a) The firm shall identify and evaluate previous and current
 interests and relationships with the related entity that, taking into
 account any actions taken to address the threat, might affect its
 independence and therefore its ability to continue the audit
 engagement after the effective date of the merger or acquisition;
-and
-
-(b)
-
-Subject to paragraph R400.72, the firm shall take steps to end
+and (b) Subject to paragraph R400.72, the firm shall take steps to end
 any interests or relationships that are not permitted by the Code
 by the effective date of the merger or acquisition.
 
 As an exception to paragraph R400.71(b), if the interest or relationship
 cannot reasonably be ended by the effective date of the merger or
 acquisition, the firm shall:
-(a)
-
-Evaluate the threat that is created by the interest or relationship;
-and
-
-(b)
-
-Discuss with those charged with governance the reasons why the
+(a) Evaluate the threat that is created by the interest or relationship;
+and (b) Discuss with those charged with governance the reasons why the
 interest or relationship cannot reasonably be ended by the
 effective date and the evaluation of the level of the threat.
 
@@ -8548,57 +6702,39 @@ transition in an orderly manner to another provider by that date.
 Factors that are relevant in evaluating the level of a threat created by
 mergers and acquisitions when there are interests and relationships that
 cannot reasonably be ended include:
-•
+• The nature and significance of the interest or relationship.
 
-The nature and significance of the interest or relationship.
-
-•
-
-The nature and significance of the related entity relationship (for
+• The nature and significance of the related entity relationship (for
 example, whether the related entity is a subsidiary or parent).
 
-•
-
-The length of time until the interest or relationship can
+• The length of time until the interest or relationship can
 reasonably be ended.
 
 If, following the discussion set out in paragraph R400.72(b), those
 charged with governance request the firm to continue as the auditor, the
 firm shall do so only if:
-(a)
-
-The interest or relationship will be ended as soon as reasonably
+(a) The interest or relationship will be ended as soon as reasonably
 possible but no later than six months after the effective date of
 the merger or acquisition;
 
-(b)
-
-Any individual who has such an interest or relationship,
+(b) Any individual who has such an interest or relationship,
 including one that has arisen through performing a nonassurance service that would not be permitted by Section 600
 and its subsections, will not be a member of the engagement
 team for the audit or the individual responsible for the
 engagement quality review; and
 
-(c)
-
-Transitional measures will be applied, as necessary, and
+(c) Transitional measures will be applied, as necessary, and
 discussed with those charged with governance.
 
 Examples of such transitional measures include:
-•
+• Having a professional accountant review the audit or nonassurance work as appropriate.
 
-Having a professional accountant review the audit or nonassurance work as appropriate.
-
-•
-
-Having a professional accountant, who is not a member of the
+• Having a professional accountant, who is not a member of the
 firm expressing the opinion on the financial statements, perform
 a review that is consistent with the objective of an engagement
 quality review.
 
-•
-
-Engaging another firm to evaluate the results of the nonassurance service or having another firm re-perform the nonassurance service to the extent necessary to enable the other firm
+• Engaging another firm to evaluate the results of the nonassurance service or having another firm re-perform the nonassurance service to the extent necessary to enable the other firm
 to take responsibility for the service.
 
 The firm might have completed a significant amount of work on the
@@ -8611,19 +6747,11 @@ INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
 or relationship identified in paragraph 400.70 A1, the firm shall only
 do so if it:
-(a)
-
-Has evaluated the level of the threat and discussed the results
+(a) Has evaluated the level of the threat and discussed the results
 with those charged with governance;
 
-(b)
-
-Complies with the requirements of paragraph R400.73(b) to (c);
-and
-
-(c)
-
-Ceases to be the auditor no later than the date that the audit report
+(b) Complies with the requirements of paragraph R400.73(b) to (c);
+and (c) Ceases to be the auditor no later than the date that the audit report
 is issued.
 
 If Objectivity Remains Compromised
@@ -8639,24 +6767,14 @@ Documentation
 **R400.76**
 
 The firm shall document:
-(a)
-
-Any interests or relationships identified in paragraph 400.70 A1
+(a) Any interests or relationships identified in paragraph 400.70 A1
 that will not be ended by the effective date of the merger or
 acquisition and the reasons why they will not be ended;
 
-(b)
+(b) The transitional measures applied;
 
-The transitional measures applied;
-
-(c)
-
-The results of the discussion with those charged with
-governance; and
-
-(d)
-
-The reasons why the previous and current interests and
+(c) The results of the discussion with those charged with
+governance; and (d) The reasons why the previous and current interests and
 relationships do not create a threat such that objectivity would
 be compromised.
 
@@ -8667,22 +6785,14 @@ When a Firm Identifies a Breach
 
 If a firm concludes that a breach of a requirement in this Part has
 occurred, the firm shall:
-(a)
-
-End, suspend or eliminate the interest or relationship that created
+(a) End, suspend or eliminate the interest or relationship that created
 the breach and address the consequences of the breach;
 
-(b)
-
-Consider whether any legal or regulatory requirements apply to
+(b) Consider whether any legal or regulatory requirements apply to
 the breach and, if so:
-(i)
+(i) Comply with those requirements; and
 
-Comply with those requirements; and
-
-(ii)
-
-(c)
+(ii) (c)
 
 Consider reporting the breach to a professional or
 regulatory body or oversight authority if such reporting is
@@ -8690,40 +6800,24 @@ common practice or expected in the relevant jurisdiction;
 
 Promptly communicate the breach in accordance with its
 policies and procedures to:
-(i)
+(i) The engagement partner;
 
-The engagement partner;
-
-(ii)
-
-The individual with operational responsibility for
+(ii) The individual with operational responsibility for
 compliance with independence requirements;
 
-(iii)
-
-Other relevant personnel in the firm and, where
+(iii) Other relevant personnel in the firm and, where
 appropriate, the network; and
 
-(iv)
-
-Those subject to the independence requirements in Part
+(iv) Those subject to the independence requirements in Part
 4A who need to take appropriate action;
 
-(d)
-
-Evaluate the significance of the breach and its impact on the
+(d) Evaluate the significance of the breach and its impact on the
 firm’s objectivity and ability to issue an audit report; and
 
-(e)
+(e) Depending on the significance of the breach, determine:
+(i) Whether to end the audit engagement; or
 
-Depending on the significance of the breach, determine:
-(i)
-
-Whether to end the audit engagement; or
-
-(ii)
-
-Whether it is possible to take action that satisfactorily
+(ii) Whether it is possible to take action that satisfactorily
 addresses the consequences of the breach and whether
 such action can be taken and is appropriate in the
 circumstances.
@@ -8745,68 +6839,46 @@ because of the breach.
 The significance and impact of a breach on the firm’s objectivity and
 ability to issue an audit report will depend on factors such as:
 
-•
+• The nature and duration of the breach.
 
-The nature and duration of the breach.
-
-•
-
-The number and nature of any previous breaches with respect to
+• The number and nature of any previous breaches with respect to
 the current audit engagement.
 
-•
-
-Whether an audit team member had knowledge of the interest or
+• Whether an audit team member had knowledge of the interest or
 relationship that created the breach.
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
 **400.80 A3**
 
-•
-
-Whether the individual who created the breach is an audit team
+• Whether the individual who created the breach is an audit team
 member or another individual for whom there are independence
 requirements.
 
-•
-
-If the breach relates to an audit team member, the role of that
+• If the breach relates to an audit team member, the role of that
 individual.
 
-•
-
-If the breach was created by providing a professional service,
+• If the breach was created by providing a professional service,
 the impact of that service, if any, on the accounting records or
 the amounts recorded in the financial statements on which the
 firm will express an opinion.
 
-•
-
-The extent of the self-interest, advocacy, intimidation or other
+• The extent of the self-interest, advocacy, intimidation or other
 threats created by the breach.
 
 Depending upon the significance of the breach, examples of actions
 that the firm might consider to address the breach satisfactorily include:
-•
+• Removing the relevant individual from the audit team.
 
-Removing the relevant individual from the audit team.
-
-•
-
-Using different individuals to conduct an additional review of
+• Using different individuals to conduct an additional review of
 the affected audit work or to re-perform that work to the extent
 necessary.
 
-•
-
-Recommending that the audit client engage another firm to
+• Recommending that the audit client engage another firm to
 review or re-perform the affected audit work to the extent
 necessary.
 
-•
-
-If the breach relates to a non-assurance service that affects the
+• If the breach relates to a non-assurance service that affects the
 accounting records or an amount recorded in the financial
 statements, engaging another firm to evaluate the results of the
 non-assurance service or having another firm re-perform the
@@ -8828,29 +6900,17 @@ comply with any reporting or disclosure requirements.
 If the firm determines that action can be taken to address the
 consequences of the breach satisfactorily, the firm shall discuss with
 those charged with governance:
-(a)
+(a) The significance of the breach, including its nature and duration;
 
-The significance of the breach, including its nature and duration;
+(b) How the breach occurred and how it was identified;
 
-(b)
-
-How the breach occurred and how it was identified;
-
-(c)
-
-The action proposed or taken and why the action will
+(c) The action proposed or taken and why the action will
 satisfactorily address the consequences of the breach and enable
 the firm to issue an audit report;
 
-(d)
-
-The conclusion that, in the firm’s professional judgment,
+(d) The conclusion that, in the firm’s professional judgment,
 objectivity has not been compromised and the rationale for that
-conclusion; and
-
-(e)
-
-Any steps proposed or taken by the firm to reduce or avoid the
+conclusion; and (e) Any steps proposed or taken by the firm to reduce or avoid the
 risk of further breaches occurring.
 
 Such discussion shall take place as soon as possible unless an
@@ -8869,25 +6929,17 @@ charged with governance:
 
 **R400.85**
 
-(a)
-
-All matters discussed in accordance with paragraph R400.82 and
+(a) All matters discussed in accordance with paragraph R400.82 and
 obtain the concurrence of those charged with governance that
 action can be, or has been, taken to satisfactorily address the
 consequences of the breach; and
 
-(b)
-
-A description of:
-(i)
-
-The firm’s policies and procedures relevant to the breach
+(b) A description of:
+(i) The firm’s policies and procedures relevant to the breach
 designed to provide it with reasonable assurance that
 independence is maintained; and
 
-(ii)
-
-Any steps that the firm has taken, or proposes to take, to
+(ii) Any steps that the firm has taken, or proposes to take, to
 reduce or avoid the risk of further breaches occurring.
 
 If those charged with governance do not concur that the action
@@ -8909,15 +6961,11 @@ INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 **R400.87**
 
 The firm shall also:
-(a)
-
-Consider the impact of the breach, if any, on the firm’s
+(a) Consider the impact of the breach, if any, on the firm’s
 objectivity in relation to any previously issued audit reports, and
 the possibility of withdrawing such audit reports; and
 
-(b)
-
-Discuss the matter with those charged with governance.
+(b) Discuss the matter with those charged with governance.
 
 Documentation
 **R400.88**
@@ -8926,37 +6974,21 @@ Documentation
 
 In complying with the requirements in paragraphs R400.80 to R400.87,
 the firm shall document:
-(a)
+(a) The breach;
 
-The breach;
+(b) The actions taken;
 
-(b)
+(c) The key decisions made;
 
-The actions taken;
-
-(c)
-
-The key decisions made;
-
-(d)
-
-All the matters discussed with those charged with governance;
-and
-
-(e)
-
-Any discussions with a professional or regulatory body or
+(d) All the matters discussed with those charged with governance;
+and (e) Any discussions with a professional or regulatory body or
 oversight authority.
 
 If the firm continues with the audit engagement, it shall document:
-(a)
-
-The conclusion that, in the firm’s professional judgment,
+(a) The conclusion that, in the firm’s professional judgment,
 objectivity has not been compromised; and
 
-(b)
-
-The rationale for why the action taken satisfactorily addressed
+(b) The rationale for why the action taken satisfactorily addressed
 the consequences of the breach so that the firm could issue an
 audit report.
 
@@ -9018,27 +7050,19 @@ INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
 Examples of matters the group auditor firm might communicate
 include:
-•
-
-Whether the group audit client is a public interest entity and the
+• Whether the group audit client is a public interest entity and the
 relevant ethical requirements applicable to the group audit
 engagement.
 
-•
-
-The related entities and other components within the group
+• The related entities and other components within the group
 audit client that are relevant to the independence considerations
 applicable to the component auditor firm and the group audit
 team members within, or engaged by, that firm.
 
-•
-
-The period during which the component auditor firm is
+• The period during which the component auditor firm is
 required to be independent.
 
-•
-
-Whether an audit partner who performs work at the component
+• Whether an audit partner who performs work at the component
 for purposes of the group audit is a key audit partner for the
 group audit.
 
@@ -9048,14 +7072,8 @@ auditor has complied with the relevant ethical requirements, including
 those related to independence, that apply to the group audit
 engagement. For the purposes of this section, such a request shall
 include the communication of:
-(a)
-
-Any independence matters that require significant judgment;
-and
-
-(b)
-
-In relation to those matters, the component auditor firm’s
+(a) Any independence matters that require significant judgment;
+and (b) In relation to those matters, the component auditor firm’s
 conclusion whether the threats to its independence are at an
 acceptable level, and the rationale for that conclusion.
 
@@ -9079,18 +7097,12 @@ applicable to the audit team.
 Members of the group audit team within, or engaged by, a component
 auditor firm outside the group auditor firm’s network shall be
 independent of:
-(a)
+(a) The component audit client;
 
-The component audit client;
-
-(b)
-
-The entity on whose group financial statements the group
+(b) The entity on whose group financial statements the group
 auditor firm expresses an opinion; and
 
-(c)
-
-Any entity over which the entity in subparagraph (b) has direct
+(c) Any entity over which the entity in subparagraph (b) has direct
 or indirect control, provided that such entity has direct or
 indirect control over the component audit client,
 
@@ -9113,41 +7125,25 @@ any of the individual’s immediate family members, as applicable, that
 are relevant to the individual’s consideration when complying with
 paragraph R405.7 include:
 
-•
-
-A direct or material indirect financial interest in an entity that
+• A direct or material indirect financial interest in an entity that
 has control over the group audit client if the group audit client is
 material to that entity (see Section 510).
 
-•
-
-A loan or guarantee involving: (see Section 511)
-o
-
-An entity that is not a bank or similar institution unless
+• A loan or guarantee involving: (see Section 511)
+o An entity that is not a bank or similar institution unless
 the loan or guarantee is immaterial; or
 
-o
-
-A bank or similar institution unless the loan or guarantee
+o A bank or similar institution unless the loan or guarantee
 is made under normal lending procedures, terms and
 conditions.
 
-•
-
-A business relationship that is significant or involves a material
+• A business relationship that is significant or involves a material
 financial interest (see Section 520).
 
-•
+• An immediate family member who is: (see Section 521)
+o A director or officer of an entity; or
 
-An immediate family member who is: (see Section 521)
-o
-
-A director or officer of an entity; or
-
-o
-
-An employee in a position to exert significant influence
+o An employee in a position to exert significant influence
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
@@ -9161,13 +7157,9 @@ financial statements.
 
 The individual serving as, or having recently served as: (see
 Section 522 and Section 523)
-o
+o A director or officer of an entity; or
 
-A director or officer of an entity; or
-
-o
-
-An employee in a position to exert significant influence
+o An employee in a position to exert significant influence
 over the preparation of an entity’s accounting records or
 financial statements.
 
@@ -9197,22 +7189,16 @@ All Group Audit Clients
 
 A component auditor firm outside the group auditor firm’s network
 shall:
-(a)
-
-Be independent of the component audit client in accordance with
+(a) Be independent of the component audit client in accordance with
 the requirements set out in this Part that are applicable to a firm
 with respect to all audit clients;
 
-(b)
-
-Apply the relevant requirements in paragraphs R510.4(a),
+(b) Apply the relevant requirements in paragraphs R510.4(a),
 R510.7 and R510.9 with respect to financial interests in the
 entity on whose group financial statements the group auditor
 firm expresses an opinion; and
 
-(c)
-
-Apply the relevant requirements in Section 511 with respect to
+(c) Apply the relevant requirements in Section 511 with respect to
 loans and guarantees involving the entity on whose group
 financial statements the group auditor firm expresses an opinion.
 
@@ -9279,23 +7265,17 @@ INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 Where the group audit client is a public interest entity, a component
 auditor firm outside the group auditor firm’s network is prohibited
 from, for example:
-•
-
-Providing accounting and bookkeeping services to a
+• Providing accounting and bookkeeping services to a
 component audit client that is not a public interest entity (see
 Subsection 601).
 
-•
-
-Designing the information technology system, or an aspect of
+• Designing the information technology system, or an aspect of
 it, for a component audit client that is not a public interest
 entity where such information technology system generates
 information for the component audit client’s accounting
 records or financial statements (see Subsection 606).
 
-•
-
-Acting in an advocacy role for a component audit client that is
+• Acting in an advocacy role for a component audit client that is
 not a public interest entity in resolving a dispute or litigation
 before a tribunal or court (see Subsection 608).
 
@@ -9328,24 +7308,16 @@ The group engagement partner shall determine whether an audit partner
 who performs audit work at a component for purposes of the group
 audit is a key audit partner for the group audit. If so, the group
 engagement partner shall:
-(a)
+(a) Communicate that determination to that individual; and
 
-Communicate that determination to that individual; and
-
-(b)
-
-Indicate:
+(b) Indicate:
 
 **405.18 A1**
 
-(i)
-
-In the case of all group audit clients, that the individual is
+(i) In the case of all group audit clients, that the individual is
 subject to paragraph R411.4, and
 
-(ii)
-
-In the case of group audit clients that are public interest
+(ii) In the case of group audit clients that are public interest
 entities, that the individual is also subject to paragraphs
 R524.6, R540.5(c) and R540.21.
 
@@ -9370,16 +7342,12 @@ another firm to perform audit work as a component auditor firm during
 or after the period covered by the group financial statements, for
 example due to a client merger or acquisition. A threat to the
 component auditor firm’s independence might be created by:
-(a)
-
-Financial or business relationships of the component auditor
+(a) Financial or business relationships of the component auditor
 firm with the component audit client during or after the period
 covered by the group financial statements but before the
 component auditor firm agrees to perform the audit work; or
 
-(b)
-
-Previous services provided to the component audit client by the
+(b) Previous services provided to the component audit client by the
 component auditor firm.
 
 **405.20 A2**
@@ -9439,27 +7407,19 @@ When a Component Auditor Firm Identifies a Breach
 
 If a component auditor firm concludes that a breach of this section has
 occurred, the component auditor firm shall:
-(a)
-
-End, suspend or eliminate the interest or relationship that created
+(a) End, suspend or eliminate the interest or relationship that created
 the breach and address the consequences of the breach;
 
-(b)
-
-Evaluate the significance of the breach and its impact on the
+(b) Evaluate the significance of the breach and its impact on the
 component auditor firm’s objectivity and ability to perform
 audit work for the purposes of the group audit;
 
-(c)
-
-Depending on the significance of the breach, determine whether
+(c) Depending on the significance of the breach, determine whether
 it is possible to take action that satisfactorily addresses the
 consequences of the breach and whether such action can be
 taken and is appropriate in the circumstances; and
 
-(d)
-
-Promptly communicate in writing the breach to the group
+(d) Promptly communicate in writing the breach to the group
 engagement partner, including the component auditor firm’s
 
 assessment of the significance of the breach and any actions
@@ -9478,21 +7438,15 @@ satisfactorily.
 
 Upon receipt of the component auditor firm’s communication of the
 breach, the group engagement partner shall:
-(a)
-
-Review the component auditor firm’s assessment of the
+(a) Review the component auditor firm’s assessment of the
 significance of the breach and its impact on the component
 auditor firm’s objectivity, and any action that can be or has been
 taken to address the consequences of the breach;
 
-(b)
-
-Evaluate the group auditor firm’s ability to use the work of the
+(b) Evaluate the group auditor firm’s ability to use the work of the
 component auditor firm for the purposes of the group audit; and
 
-(c)
-
-Determine the need for any further action.
+(c) Determine the need for any further action.
 
 **R405.25**
 
@@ -9542,24 +7496,16 @@ auditor firm’s network, paragraph R400.84 applies.
 With respect to breaches by a component auditor firm outside the group
 auditor firm’s network, the group auditor firm shall discuss with those
 charged with governance of the group audit client:
-(a)
-
-The component auditor firm’s assessment of the significance
+(a) The component auditor firm’s assessment of the significance
 and impact of the breach on the component auditor firm’s
 objectivity, including the nature and duration of the breach, and
 the action that can be or has been taken; and
 
-(b)
-
-Whether:
-(i)
-
-The action will satisfactorily address, or has addressed,
+(b) Whether:
+(i) The action will satisfactorily address, or has addressed,
 the consequences of the breach; or
 
-(ii)
-
-The group auditor firm will use other means to obtain the
+(ii) The group auditor firm will use other means to obtain the
 necessary audit evidence on the component audit client’s
 financial information.
 
@@ -9651,68 +7597,44 @@ engagement period for the audit.
 Factors that are relevant in evaluating the level of threats created when
 fees for an audit or any other engagement are paid by the audit client
 include:
-•
-
-The level of the fees and the extent to which they have regard to
+• The level of the fees and the extent to which they have regard to
 the resources required, taking into account the firm’s
 commercial and market priorities.
 
-•
-
-Any linkage between fees for the audit and those for services
+• Any linkage between fees for the audit and those for services
 other than audit and the relative size of both elements.
 
-•
-
-The extent of any dependency between the level of the fee for,
+• The extent of any dependency between the level of the fee for,
 and the outcome of, the service.
 
-•
-
-Whether the fee is for services to be provided by the firm or a
+• Whether the fee is for services to be provided by the firm or a
 network firm.
 
-•
-
-The level of the fee in the context of the service to be provided
+• The level of the fee in the context of the service to be provided
 by the firm or a network firm.
 
-•
-
-The operating structure and the compensation arrangements of
+• The operating structure and the compensation arrangements of
 the firm and network firms.
 
-•
-
-The significance of the client, or a third party referring the client,
+• The significance of the client, or a third party referring the client,
 to the firm, network firm, partner or office.
 
-•
-
-The nature of the client, for example whether the client is a
+• The nature of the client, for example whether the client is a
 public interest entity.
 
-•
-
-The relationship of the client to the related entities to which the
+• The relationship of the client to the related entities to which the
 services other than audit are provided, for example when the
 related entity is a sister entity.
 
-•
-
-The involvement of those charged with governance in
+• The involvement of those charged with governance in
 appointing the auditor and agreeing fees, and the apparent
 emphasis they and client management place on the quality of the
 audit and the overall level of the fees.
 
-•
-
-Whether the level of the fee is set by an independent third party,
+• Whether the level of the fee is set by an independent third party,
 such as a regulatory body.
 
-•
-
-Whether the quality of the firm’s audit work is subject to the
+• Whether the quality of the firm’s audit work is subject to the
 review of an independent third party, such as an oversight body.
 
 **410.4 A4**
@@ -9748,26 +7670,18 @@ audit client include:
 
 **410.5 A3**
 
-•
+• The firm’s commercial rationale for the audit fee.
 
-The firm’s commercial rationale for the audit fee.
-
-•
-
-Whether undue pressure has been, or is being, applied by the
+• Whether undue pressure has been, or is being, applied by the
 client to reduce the audit fee.
 
 Examples of actions that might be safeguards to address such threats
 include:
-•
-
-Having an appropriate reviewer who does not take part in the
+• Having an appropriate reviewer who does not take part in the
 audit engagement assess the reasonableness of the fee proposed,
 having regard to the scope and complexity of the engagement.
 
-•
-
-Having an appropriate reviewer who did not take part in the
+• Having an appropriate reviewer who did not take part in the
 audit engagement review the work performed.
 
 Impact of Other Services Provided to an Audit Client
@@ -9812,21 +7726,15 @@ audit engagement.
 A firm or network firm shall not charge directly or indirectly a
 contingent fee for a non-assurance service provided to an audit client,
 if:
-(a)
-
-The fee is charged by the firm expressing the opinion on the
+(a) The fee is charged by the firm expressing the opinion on the
 financial statements and the fee is material or expected to be
 material to that firm;
 
-(b)
-
-The fee is charged by a network firm that participates in a
+(b) The fee is charged by a network firm that participates in a
 significant part of the audit and the fee is material or expected to
 be material to that firm; or
 
-(c)
-
-The outcome of the non-assurance service, and therefore the
+(c) The outcome of the non-assurance service, and therefore the
 amount of the fee, is dependent on a future or contemporary
 judgment related to the audit of a material amount in the
 financial statements.
@@ -9842,38 +7750,26 @@ of the self-interest threat.
 **410.10 A2**
 
 Factors that are relevant in evaluating the level of such a threat include:
-•
+• The range of possible fee amounts.
 
-The range of possible fee amounts.
-
-•
-
-Whether an appropriate authority determines the outcome on
+• Whether an appropriate authority determines the outcome on
 which the contingent fee depends.
 
-•
-
-Disclosure to intended users of the work performed by the firm
+• Disclosure to intended users of the work performed by the firm
 and the basis of remuneration.
 
-•
-
-The nature of the service.
+• The nature of the service.
 
 **410.10 A3**
 
 The effect of the event or transaction on the financial statements.
 
 Examples of actions that might be safeguards to address such a selfinterest threat include:
-•
-
-Having an appropriate reviewer who was not involved in
+• Having an appropriate reviewer who was not involved in
 performing the non-assurance service review the work
 performed.
 
-•
-
-Obtaining an advance written agreement with the client on the
+• Obtaining an advance written agreement with the client on the
 basis of remuneration.
 
 Total Fees – Proportion of Fees for Services Other than Audit to Audit Fee
@@ -9894,45 +7790,29 @@ Factors that are relevant in evaluating the level of such threats include:
 
 **410.11 A3**
 
-•
+• The ratio of fees for services other than audit to the audit fee.
 
-The ratio of fees for services other than audit to the audit fee.
-
-•
-
-The length of time during which a large proportion of fees for
+• The length of time during which a large proportion of fees for
 services other than audit to the audit fee has existed.
 
-•
-
-The nature, scope and purposes of the services other than audit,
+• The nature, scope and purposes of the services other than audit,
 including:
-o
+o Whether they are recurring services.
 
-Whether they are recurring services.
-
-o
-
-Whether law or regulation mandates the services to be
+o Whether law or regulation mandates the services to be
 performed by the firm.
 
 Examples of actions that might be safeguards to address such selfinterest or intimidation threats include:
-•
-
-Having an appropriate reviewer who was not involved in the
+• Having an appropriate reviewer who was not involved in the
 audit or the service other than audit review the relevant audit
 work.
 
-•
-
-Reducing the extent of services other than audit provided to the
+• Reducing the extent of services other than audit provided to the
 audit client.
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
-•
-
-Total Fees – Overdue Fees
+• Total Fees – Overdue Fees
 **410.12 A1**
 
 The level of the self-interest threat might be impacted if fees payable
@@ -9953,41 +7833,27 @@ threat include:
 
 **R410.13**
 
-•
+• The significance of the overdue fees to the firm.
 
-The significance of the overdue fees to the firm.
+• The length of time the fees have been overdue.
 
-•
-
-The length of time the fees have been overdue.
-
-•
-
-The firm’s assessment of the ability and willingness of the audit
+• The firm’s assessment of the ability and willingness of the audit
 client to pay the overdue fees.
 
 Examples of actions that might be safeguards to address such a threat
 include:
-•
+• Obtaining partial payment of overdue fees.
 
-Obtaining partial payment of overdue fees.
-
-•
-
-Having an appropriate reviewer who did not take part in the
+• Having an appropriate reviewer who did not take part in the
 audit engagement review the audit work.
 
 When a significant part of the fees due from an audit client remains
 unpaid for a long time, the firm shall determine:
-(a)
-
-Whether the overdue fees might be equivalent to a loan to the
+(a) Whether the overdue fees might be equivalent to a loan to the
 client, in which case the requirements and application material
 set out in section 511 are applicable; and
 
-(b)
-
-Whether it is appropriate for the firm to be re-appointed or
+(b) Whether it is appropriate for the firm to be re-appointed or
 continue the audit engagement.
 
 Total Fees – Fee Dependency
@@ -10012,35 +7878,23 @@ proportion based on that information if appropriate.
 
 Factors that are relevant in evaluating the level of such self-interest and
 intimidation threats include:
-•
+• The operating structure of the firm.
 
-The operating structure of the firm.
-
-•
-
-Whether the firm is expected to diversify such that any
+• Whether the firm is expected to diversify such that any
 dependence on the audit client is reduced.
 
 Examples of actions that might be safeguards to address such threats
 include:
-•
-
-Having an appropriate reviewer who is not a member of the firm
+• Having an appropriate reviewer who is not a member of the firm
 review the audit work.
 
-•
-
-Reducing the extent of services other than audit provided to the
+• Reducing the extent of services other than audit provided to the
 audit client.
 
-•
-
-Increasing the client base of the firm to reduce dependence on
+• Increasing the client base of the firm to reduce dependence on
 the client.
 
-•
-
-Increasing the extent of services provided to other clients.
+• Increasing the extent of services provided to other clients.
 
 **410.14 A5**
 
@@ -10054,41 +7908,27 @@ Factors that are relevant in evaluating the level of such threats include:
 
 **410.14 A7**
 
-•
-
-The qualitative and quantitative significance of the audit client
+• The qualitative and quantitative significance of the audit client
 to the partner or office.
 
-•
-
-The extent to which the compensation of the partner, or the
+• The extent to which the compensation of the partner, or the
 partners in the office, is dependent upon the fees generated from
 the client.
 
 Examples of actions that might be safeguards to address such selfinterest or intimidation threats include:
-•
-
-Having an appropriate reviewer who was not involved in the
+• Having an appropriate reviewer who was not involved in the
 audit engagement review the audit work.
 
-•
-
-Ensuring that the compensation of the partner is not significantly
+• Ensuring that the compensation of the partner is not significantly
 influenced by the fees generated from the client.
 
-•
-
-Reducing the extent of services other than audit provided by the
+• Reducing the extent of services other than audit provided by the
 partner or office to the audit client.
 
-•
-
-Increasing the client base of the partner or the office to reduce
+• Increasing the client base of the partner or the office to reduce
 dependence on the client.
 
-•
-
-Increasing the extent of services provided by the partner or the
+• Increasing the extent of services provided by the partner or the
 office to other clients.
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
@@ -10101,16 +7941,12 @@ that is not a public interest entity represent, or are likely to represent,
 more than 30% of the total fees received by the firm, the firm shall
 determine whether either of the following actions might be a safeguard
 to reduce the threats created to an acceptable level, and if so, apply it:
-(a)
-
-Prior to the audit opinion being issued on the fifth year’s
+(a) Prior to the audit opinion being issued on the fifth year’s
 financial statements, have a professional accountant, who is not
 a member of the firm expressing the opinion on the financial
 statements, review the fifth year’s audit work; or
 
-(b)
-
-After the audit opinion on the fifth year’s financial statements
+(b) After the audit opinion on the fifth year’s financial statements
 has been issued, and before the audit opinion is issued on the
 sixth year’s financial statements, have a professional accountant,
 who is not a member of the firm expressing the opinion on the
@@ -10131,14 +7967,10 @@ When two or more firms are engaged to conduct an audit of the client’s
 financial statements, the involvement of the other firm in the audit may
 be regarded each year as an action equivalent to that in paragraph
 R410.15 (a), if:
-(a)
-
-The circumstances addressed by paragraph R410.15 apply to
+(a) The circumstances addressed by paragraph R410.15 apply to
 only one of the firms expressing the audit opinion; and
 
-(b)
-
-Each firm performs sufficient work to take full individual
+(b) Each firm performs sufficient work to take full individual
 responsibility for the audit opinion.
 
 Audit Clients that are Public Interest Entities
@@ -10161,14 +7993,10 @@ When two or more firms are engaged to conduct an audit of the client’s
 financial statements, the involvement of the other firm in the audit may
 be regarded each year as an action equivalent to that in paragraph
 R410.18, if:
-(a)
-
-The circumstances addressed by paragraph R410.18 apply to
+(a) The circumstances addressed by paragraph R410.18 apply to
 only one of the firms expressing the audit opinion; and
 
-(b)
-
-Each firm performs sufficient work to take full individual
+(b) Each firm performs sufficient work to take full individual
 responsibility for the audit opinion.
 
 **R410.20**
@@ -10185,15 +8013,11 @@ do so having regard to the public interest, provided that:
 
 **410.21 A1**
 
-(a)
-
-The firm consults with a regulatory or professional body in the
+(a) The firm consults with a regulatory or professional body in the
 relevant jurisdiction and it concurs that having the firm continue
 as the auditor would be in the public interest; and
 
-(b)
-
-Before the audit opinion on the sixth and any subsequent year’s
+(b) Before the audit opinion on the sixth and any subsequent year’s
 financial statements is issued, the firm engages a professional
 accountant, who is not a member of the firm expressing the
 opinion on the financial statements, to perform a pre-issuance
@@ -10204,8 +8028,7 @@ viable alternative firms to carry out the audit engagement, having
 regard to the nature and location of the client’s business.
 
 Transparency of Information Regarding Fees for Audit Clients that are Public
-Interest Entities
-Communication About Fee-related Information with Those Charged with Governance
+Interest Entities Communication About Fee-related Information with Those Charged with Governance
 **410.22 A1**
 
 Communication by the firm of fee-related information (for both audit
@@ -10226,15 +8049,9 @@ Fees for the Audit of the Financial Statements
 Subject to paragraph R410.24, the firm shall communicate in a timely
 manner with those charged with governance of an audit client that is a
 public interest entity:
-(a)
-
-Fees paid or payable to the firm or network firms for the audit
+(a) Fees paid or payable to the firm or network firms for the audit
 of the financial statements on which the firm expresses an
-opinion; and
-
-(b)
-
-Whether the threats created by the level of those fees are at an
+opinion; and (b) Whether the threats created by the level of those fees are at an
 acceptable level, and if not, any actions the firm has taken or
 proposes to take to reduce such threats to an acceptable level.
 
@@ -10244,37 +8061,23 @@ firm expresses an opinion to enable those charged with governance to
 consider the independence of the firm. The nature and extent of matters
 to be communicated will depend on the facts and circumstances and
 might include for example:
-•
-
-Considerations affecting the level of the fees such as:
-o
-
-The scale, complexity and geographic spread of the audit
+• Considerations affecting the level of the fees such as:
+o The scale, complexity and geographic spread of the audit
 client’s operations.
 
-o
-
-The time spent or expected to be spent commensurate
+o The time spent or expected to be spent commensurate
 with the scope and complexity of the audit.
 
-o
-
-The cost of other resources utilized or expended in
+o The cost of other resources utilized or expended in
 performing the audit.
 
-o
-
-The quality of record keeping and processes for financial
+o The quality of record keeping and processes for financial
 statements preparation.
 
-•
-
-Adjustments to the fees quoted or charged during the period of
+• Adjustments to the fees quoted or charged during the period of
 the audit, and the reasons for any such adjustments.
 
-•
-
-Changes to laws and regulations and professional standards
+• Changes to laws and regulations and professional standards
 relevant to the audit that impacted the fees.
 
 **410.23 A2**
@@ -10288,14 +8091,10 @@ As an exception to paragraph R410.23, the firm may determine not to
 communicate the information set out in paragraph R410.23 to those
 charged with governance of an entity that is (directly or indirectly)
 wholly-owned by another public interest entity provided that:
-(a)
-
-The entity is consolidated into group financial statements
+(a) The entity is consolidated into group financial statements
 prepared by that other public interest entity; and
 
-(b)
-
-The firm or a network firm expresses an opinion on those group
+(b) The firm or a network firm expresses an opinion on those group
 financial statements.
 
 Fees for Other Services
@@ -10306,9 +8105,7 @@ Fees for Other Services
 Subject to paragraph R410.27, the firm shall communicate in a timely
 manner with those charged with governance of an audit client that is a
 public interest entity:
-(a)
-
-The fees, other than those disclosed under paragraph R410.23
+(a) The fees, other than those disclosed under paragraph R410.23
 (a), charged to the client for the provision of services by the firm
 or a network firm during the period covered by the financial
 statements on which the firm expresses an opinion. For this
@@ -10317,20 +8114,14 @@ and its related entities over which the client has direct or indirect
 control that are consolidated in the financial statements on which
 the firm will express an opinion; and
 
-(b)
-
-As set out in paragraph 410.11 A1, where the firm has identified
+(b) As set out in paragraph 410.11 A1, where the firm has identified
 that there is an impact on the level of the self-interest threat or
 that there is an intimidation threat to independence created by
 the proportion of fees for services other than audit relative to the
 audit fee:
-(i)
+(i) Whether such threats are at an acceptable level; and
 
-Whether such threats are at an acceptable level; and
-
-(ii)
-
-If not, any actions that the firm has taken or proposes to
+(ii) If not, any actions that the firm has taken or proposes to
 take to reduce such threats to an acceptable level.
 
 The objective of such communication is to provide the background and
@@ -10338,24 +8129,16 @@ context to the fees for other services to enable those charged with
 governance to consider the independence of the firm. The nature and
 extent of matters to be communicated will depend on the facts and
 circumstances and might include for example:
-•
-
-The amount of fees for other services that are required by law or
+• The amount of fees for other services that are required by law or
 regulation.
 
-•
+• The nature of other services provided and their associated fees.
 
-The nature of other services provided and their associated fees.
-
-•
-
-Information on the nature of the services provided under a
+• Information on the nature of the services provided under a
 general policy approved by those charged with governance and
 associated fees.
 
-•
-
-The proportion of fees referred to in paragraph R410.25(a) to the
+• The proportion of fees referred to in paragraph R410.25(a) to the
 aggregate of the fees charged by the firm and network firms for
 the audit of the financial statements on which the firm expresses
 an opinion.
@@ -10381,34 +8164,24 @@ evaluation of the firm’s independence include:
 
 **R410.27**
 
-•
-
-The extent of the audit client’s involvement in the appointment
+• The extent of the audit client’s involvement in the appointment
 of the firm or network firm for the provision of such services,
 including the negotiation of fees.
 
-•
-
-The significance of the fees paid by the other related entities to
+• The significance of the fees paid by the other related entities to
 the firm or a network firm.
 
-•
-
-The proportion of fees from the other related entities to the fees
+• The proportion of fees from the other related entities to the fees
 paid by the client.
 
 As an exception to paragraph R410.25, the firm may determine not to
 communicate the information set out in paragraph R410.25 to those
 charged with governance of an entity that is (directly or indirectly)
 wholly-owned by another public interest entity provided that:
-(a)
-
-The entity is consolidated into group financial statements
+(a) The entity is consolidated into group financial statements
 prepared by that other public interest entity; and
 
-(b)
-
-The firm or a network firm expresses an opinion on those group
+(b) The firm or a network firm expresses an opinion on those group
 financial statements.
 
 Fee Dependency
@@ -10418,19 +8191,11 @@ Where the total fees from an audit client that is a public interest entity
 represent, or are likely to represent, more than 15% of the total fees
 received by the firm, the firm shall communicate with those charged
 with governance:
-(a)
+(a) That fact and whether this situation is likely to continue;
 
-That fact and whether this situation is likely to continue;
-
-(b)
-
-The safeguards applied to address the threats created, including,
+(b) The safeguards applied to address the threats created, including,
 where relevant, the use of a pre-issuance review (Ref: Para
-R410.18); and
-
-(c)
-
-Any proposal to continue as the auditor under paragraph
+R410.18); and (c) Any proposal to continue as the auditor under paragraph
 R410.21.
 
 **410.29 A1**
@@ -10457,35 +8222,25 @@ public interest entity:
 
 **R410.31**
 
-(a)
-
-The benefit to the client’s stakeholders of the client making such
+(a) The benefit to the client’s stakeholders of the client making such
 disclosures that are not required by laws and regulations in a
 manner deemed appropriate, taking into account the timing and
 accessibility of the information; and
 
-(b)
-
-The information that might enhance the users’ understanding of
+(b) The information that might enhance the users’ understanding of
 the fees paid or payable and their impact on the firm’s
 independence.
 
 Examples of information relating to fees that might enhance the users’
 understanding of the fees paid or payable and their impact on the firm’s
 independence include:
-•
-
-Comparative information of the prior year’s fees for audit and
+• Comparative information of the prior year’s fees for audit and
 services other than audit.
 
-•
-
-The nature of services and their associated fees as disclosed
+• The nature of services and their associated fees as disclosed
 under paragraph R410.31(b).
 
-•
-
-Safeguards applied when the total fees from the client represent
+• Safeguards applied when the total fees from the client represent
 or are likely to represent more than 15% of the total fees received
 by the firm.
 
@@ -10493,9 +8248,7 @@ After the discussion with those charged with governance as set out in
 paragraph R410.30, to the extent that the audit client that is a public
 interest entity does not make the relevant disclosure, subject to
 paragraph R410.32, the firm shall publicly disclose:
-(a)
-
-Fees paid or payable to the firm and network firms for the audit
+(a) Fees paid or payable to the firm and network firms for the audit
 of the financial statements on which the firm expresses an
 opinion;
 
@@ -10503,9 +8256,7 @@ INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
 Public Disclosure of Fee-related Information
 
-(b)
-
-Fees, other than those disclosed under (a), charged to the client
+(b) Fees, other than those disclosed under (a), charged to the client
 for the provision of services by the firm or a network firm during
 the period covered by the financial statements on which the firm
 expresses an opinion. For this purpose, such fees shall only
@@ -10514,18 +8265,12 @@ which the client has direct or indirect control that are
 consolidated in the financial statements on which the firm will
 express an opinion;
 
-(c)
-
-Any fees, other than those disclosed under (a) and (b), charged
+(c) Any fees, other than those disclosed under (a) and (b), charged
 to any other related entities over which the audit client has direct
 or indirect control for the provision of services by the firm or a
 network firm when the firm knows, or has reason to believe, that
 such fees are relevant to the evaluation of the firm’s
-independence; and
-
-(d)
-
-If applicable, the fact that the total fees received by the firm from
+independence; and (d) If applicable, the fact that the total fees received by the firm from
 the audit client represent, or are likely to represent, more than
 15% of the total fees received by the firm for two consecutive
 years, and the year that this situation first arose.
@@ -10551,48 +8296,30 @@ information to stakeholders, for example:
 
 **R410.32**
 
-•
+• On the firm’s website.
 
-On the firm’s website.
+• In the firm’s transparency report.
 
-•
+• In an audit quality report.
 
-In the firm’s transparency report.
-
-•
-
-In an audit quality report.
-
-•
-
-Through targeted communication to specific stakeholders, for
+• Through targeted communication to specific stakeholders, for
 example a letter to the shareholders.
 
-•
-
-In the auditor’s report.
+• In the auditor’s report.
 
 As an exception to paragraph R410.31, the firm may determine not to
 publicly disclose the information set out in paragraph R410.31 relating
 to:
-(a)
-
-A parent entity that also prepares group financial statements
+(a) A parent entity that also prepares group financial statements
 
 provided that the firm or a network firm expresses an opinion on
 the group financial statements; or
-(b)
-
-An entity (directly or indirectly) wholly-owned by another
+(b) An entity (directly or indirectly) wholly-owned by another
 public interest entity provided that:
-(i)
-
-The entity is consolidated into group financial statements
+(i) The entity is consolidated into group financial statements
 prepared by that other public interest entity; and
 
-(ii)
-
-The firm or a network firm expresses an opinion on those
+(ii) The firm or a network firm expresses an opinion on those
 group financial statements.
 
 Considerations for Review Clients
@@ -10630,30 +8357,20 @@ General
 When an audit team member for a particular audit client is evaluated
 on or compensated for selling non-assurance services to that audit
 client, the level of the self-interest threat will depend on:
-(a)
-
-What proportion of the compensation or evaluation is based on
+(a) What proportion of the compensation or evaluation is based on
 the sale of such services;
 
-(b)
+(b) The role of the individual on the audit team; and
 
-The role of the individual on the audit team; and
-
-(c)
-
-Whether the sale of such non-assurance services influences
+(c) Whether the sale of such non-assurance services influences
 promotion decisions.
 
 Examples of actions that might eliminate such a self-interest threat
 include:
-•
-
-Revising the compensation plan or evaluation process for that
+• Revising the compensation plan or evaluation process for that
 individual.
 
-•
-
-Removing that individual from the audit team.
+• Removing that individual from the audit team.
 
 **411.3 A3**
 
@@ -10734,13 +8451,9 @@ and create self-interest and intimidation threats.
 **430.3 A2**
 
 Factors that are relevant in evaluating the level of such threats include:
-•
+• The materiality of the litigation.
 
-The materiality of the litigation.
-
-•
-
-Whether the litigation relates to a prior audit engagement.
+• Whether the litigation relates to a prior audit engagement.
 
 **430.3 A3**
 
@@ -10791,17 +8504,11 @@ individual’s immediate family members may be taken into account.
 
 Factors that are relevant in evaluating the level of a self-interest threat
 created by holding a financial interest in an audit client include:
-•
+• The role of the individual holding the financial interest.
 
-The role of the individual holding the financial interest.
+• Whether the financial interest is direct or indirect.
 
-•
-
-Whether the financial interest is direct or indirect.
-
-•
-
-The materiality of the financial interest.
+• The materiality of the financial interest.
 
 Financial Interests Held by the Firm, a Network Firm, Audit Team Members and
 Others
@@ -10809,26 +8516,18 @@ Others
 
 Subject to paragraph R510.5, a direct financial interest or a material
 indirect financial interest in the audit client shall not be held by:
-(a)
+(a) The firm or a network firm;
 
-The firm or a network firm;
-
-(b)
-
-An audit team member, or any of that individual’s immediate
+(b) An audit team member, or any of that individual’s immediate
 family;
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
-(c)
-
-Any other partner in the office in which an engagement partner
+(c) Any other partner in the office in which an engagement partner
 practices in connection with the audit engagement, or any of that
 other partner’s immediate family; or
 
-(d)
-
-Any other partner or managerial employee who provides nonaudit services to the audit client, except for any whose
+(d) Any other partner or managerial employee who provides nonaudit services to the audit client, except for any whose
 involvement is minimal, or any of that individual’s immediate
 family.
 
@@ -10846,16 +8545,12 @@ partner practices in connection with the engagement.
 As an exception to paragraph R510.4, an immediate family member
 identified in subparagraphs R510.4(c) or (d) may hold a direct or
 material indirect financial interest in an audit client, provided that:
-(a)
-
-The family member received the financial interest because of
+(a) The family member received the financial interest because of
 employment rights, for example through pension or share option
 plans, and, when necessary, the firm addresses the threat created
 by the financial interest; and
 
-(b)
-
-The family member disposes of or forfeits the financial interest
+(b) The family member disposes of or forfeits the financial interest
 as soon as practicable when the family member has or obtains
 the right to do so, or in the case of a stock option, when the
 family member obtains the right to exercise the option.
@@ -10874,25 +8569,15 @@ Financial Interests Held as Trustee
 Paragraph R510.4 shall also apply to a financial interest in an audit
 client held in a trust for which the firm, network firm or individual acts
 as trustee, unless:
-(a)
-
-None of the following is a beneficiary of the trust: the trustee,
+(a) None of the following is a beneficiary of the trust: the trustee,
 the audit team member or any of that individual’s immediate
 family, the firm or a network firm;
 
-(b)
-
-The interest in the audit client held by the trust is not material to
+(b) The interest in the audit client held by the trust is not material to
 the trust;
 
-(c)
-
-The trust is not able to exercise significant influence over the
-audit client; and
-
-(d)
-
-None of the following can significantly influence any
+(c) The trust is not able to exercise significant influence over the
+audit client; and (d) None of the following can significantly influence any
 investment decision involving a financial interest in the audit
 client: the trustee, the audit team member or any of that
 individual’s immediate family, the firm or a network firm.
@@ -10905,31 +8590,23 @@ that individual’s immediate family shall not hold a financial
 interest in an entity when an audit client also has a financial
 interest in that entity, unless:
 
-(b)
-
-(i)
+(b) (i)
 
 The financial interests are immaterial to the firm, the
 network firm, the audit team member and that
 individual’s immediate family member and the audit
 client, as applicable; or
 
-(ii)
-
-The audit client cannot exercise significant influence
+(ii) The audit client cannot exercise significant influence
 over the entity.
 
 Before an individual who has a financial interest described in
 paragraph R510.8(a) can become an audit team member, the
 individual or that individual’s immediate family member shall
 either:
-(i)
+(i) Dispose of the interest; or
 
-Dispose of the interest; or
-
-(ii)
-
-Dispose of enough of the interest so that the remaining
+(ii) Dispose of enough of the interest so that the remaining
 interest is no longer material.
 
 Financial Interests Received Unintentionally
@@ -10941,17 +8618,13 @@ direct financial interest or a material indirect financial interest in an
 audit client by way of an inheritance, gift, as a result of a merger or in
 similar circumstances and the interest would not otherwise be permitted
 to be held under this section, then:
-(a)
-
-If the interest is received by the firm or a network firm, or an
+(a) If the interest is received by the firm or a network firm, or an
 audit team member or any of that individual’s immediate family,
 the financial interest shall be disposed of immediately, or
 enough of an indirect financial interest shall be disposed of so
 that the remaining interest is no longer material; or
 
-(b)
-
-(i)
+(b) (i)
 
 If the interest is received by an individual who is not an
 audit team member, or by any of that individual’s
@@ -10962,9 +8635,7 @@ immediate family, the financial interest shall be disposed
 of as soon as possible, or enough of an indirect financial
 interest shall be disposed of so that the remaining interest
 is no longer material; and
-(ii)
-
-Pending the disposal of the financial interest, when
+(ii) Pending the disposal of the financial interest, when
 necessary the firm shall address the threat created.
 
 Financial Interests – Other Circumstances
@@ -10980,22 +8651,14 @@ to have a financial interest in that entity.
 **510.10 A2**
 
 Factors that are relevant in evaluating the level of such threats include:
-•
+• The role of the individual on the audit team.
 
-The role of the individual on the audit team.
+• Whether ownership of the entity is closely or widely held.
 
-•
-
-Whether ownership of the entity is closely or widely held.
-
-•
-
-Whether the interest allows the investor to control or
+• Whether the interest allows the investor to control or
 significantly influence the entity.
 
-•
-
-The materiality of the financial interest.
+• The materiality of the financial interest.
 
 **510.10 A3**
 
@@ -11019,18 +8682,12 @@ indirect financial interest in the audit client.
 **510.10 A6**
 
 Factors that are relevant in evaluating the level of such a threat include:
-•
-
-The nature of the relationship between the audit team member
+• The nature of the relationship between the audit team member
 and the close family member.
 
-•
+• Whether the financial interest is direct or indirect.
 
-Whether the financial interest is direct or indirect.
-
-•
-
-The materiality of the financial interest to the close family
+• The materiality of the financial interest to the close family
 member.
 
 **510.10 A7**
@@ -11039,16 +8696,12 @@ member.
 
 Examples of actions that might eliminate such a self-interest threat
 include:
-•
-
-Having the close family member dispose, as soon as practicable,
+• Having the close family member dispose, as soon as practicable,
 of all of the financial interest or dispose of enough of an indirect
 financial interest so that the remaining interest is no longer
 material.
 
-•
-
-Removing the individual from the audit team.
+• Removing the individual from the audit team.
 
 An example of an action that might be a safeguard to address such a
 self-interest threat is having an appropriate reviewer review the work
@@ -11061,26 +8714,18 @@ Other Individuals
 
 A self-interest threat might be created if an audit team member knows
 that a financial interest in the audit client is held by individuals such as:
-•
-
-Partners and professional employees of the firm or network firm,
+• Partners and professional employees of the firm or network firm,
 apart from those who are specifically not permitted to hold such
 financial interests by paragraph R510.4, or their immediate
 family members.
 
-•
-
-Individuals with a close personal relationship with an audit team
+• Individuals with a close personal relationship with an audit team
 member.
 
 Factors that are relevant in evaluating the level of such a threat include:
-•
+• The firm’s organizational, operating and reporting structure.
 
-The firm’s organizational, operating and reporting structure.
-
-•
-
-The nature of the relationship between the individual and the
+• The nature of the relationship between the individual and the
 audit team member.
 
 **510.10 A11**
@@ -11092,13 +8737,9 @@ the audit team.
 **510.10 A12**
 
 Examples of actions that might be safeguards to address such a selfinterest threat include:
-•
+• Excluding the audit team member from any significant decisionmaking concerning the audit engagement.
 
-Excluding the audit team member from any significant decisionmaking concerning the audit engagement.
-
-•
-
-Having an appropriate reviewer review the work of the audit
+• Having an appropriate reviewer review the work of the audit
 team member.
 
 Retirement Benefit Plan of a Firm or Network Firm
@@ -11139,14 +8780,10 @@ Loans and Guarantees with an Audit Client
 A firm, a network firm, an audit team member, or any of that
 individual’s immediate family shall not make or guarantee a loan to an
 audit client unless the loan or guarantee is immaterial to:
-(a)
-
-The firm, the network firm or the individual making the loan or
+(a) The firm, the network firm or the individual making the loan or
 guarantee, as applicable; and
 
-(b)
-
-The client.
+(b) The client.
 
 Loans and Guarantees with an Audit Client that is a Bank or Similar Institution
 **R511.5**
@@ -11192,14 +8829,10 @@ A firm, a network firm, an audit team member, or any of that
 individual’s immediate family shall not accept a loan from, or have a
 borrowing guaranteed by, an audit client that is not a bank or similar
 institution, unless the loan or guarantee is immaterial to:
-(a)
-
-The firm, the network firm, or the individual receiving the loan
+(a) The firm, the network firm, or the individual receiving the loan
 or guarantee, as applicable; and
 
-(b)
-
-The client.
+(b) The client.
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
@@ -11235,29 +8868,21 @@ relationship or common financial interest include:
 
 **520.3 A3**
 
-•
-
-Having a financial interest in a joint venture with either the client
+• Having a financial interest in a joint venture with either the client
 or a controlling owner, director or officer or other individual
 who performs senior managerial activities for that client.
 
-•
-
-Arrangements to combine one or more services or products of
+• Arrangements to combine one or more services or products of
 the firm or a network firm with one or more services or products
 of the client and to market the package with reference to both
 parties.
 
-•
-
-Arrangements under which the firm or a network firm sells,
+• Arrangements under which the firm or a network firm sells,
 resells, distributes or markets the client’s products or services,
 or the client sells, resells, distributes or markets the firm’s or a
 network firm’s products or services.
 
-•
-
-Arrangements under which the firm or a network firm develops
+• Arrangements under which the firm or a network firm develops
 jointly with the client, products or solutions which one or both
 parties sell or license to third parties.
 
@@ -11289,19 +8914,11 @@ individual’s immediate family shall not have a business relationship
 involving the holding of an interest in a closely-held entity when an
 audit client or a director or officer of the client, or any group thereof,
 also holds an interest in that entity, unless:
-(a)
-
-The business relationship is insignificant to the firm, the network
+(a) The business relationship is insignificant to the firm, the network
 firm, or the individual as applicable, and the client;
 
-(b)
-
-The financial interest is immaterial to the investor or group of
-investors; and
-
-(c)
-
-The financial interest does not give the investor, or group of
+(b) The financial interest is immaterial to the investor or group of
+investors; and (c) The financial interest does not give the investor, or group of
 investors, the ability to control the closely-held entity.
 
 Buying Goods or Services
@@ -11318,13 +8935,9 @@ of such a nature and magnitude that they create a self-interest threat.
 
 Examples of actions that might eliminate such a self-interest threat
 include:
-•
+• Eliminating or reducing the magnitude of the transaction.
 
-Eliminating or reducing the magnitude of the transaction.
-
-•
-
-Removing the individual from the audit team.
+• Removing the individual from the audit team.
 
 Providing, Selling, Reselling or Licensing Technology
 **520.7 A1**
@@ -11334,13 +8947,9 @@ technology:
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
-(a)
+(a) To an audit client; or
 
-To an audit client; or
-
-(b)
-
-To an entity that provides services using such technology to audit
+(b) To an entity that provides services using such technology to audit
 clients of the firm or network firm,
 
 depending on the facts and circumstances, the requirements and
@@ -11373,13 +8982,9 @@ audit client.
 **521.3 A2**
 
 Factors that are relevant in evaluating the level of such threats include:
-•
+• The individual’s responsibilities on the audit team.
 
-The individual’s responsibilities on the audit team.
-
-•
-
-The role of the family member or other individual within the
+• The role of the family member or other individual within the
 client, and the closeness of the relationship.
 
 Immediate Family of an Audit Team Member
@@ -11393,13 +8998,9 @@ position, financial performance or cash flows.
 **521.4 A2**
 
 Factors that are relevant in evaluating the level of such threats include:
-•
+• The position held by the immediate family member.
 
-The position held by the immediate family member.
-
-•
-
-The role of the audit team member.
+• The role of the audit team member.
 
 **521.4 A3**
 
@@ -11421,19 +9022,13 @@ family member.
 
 An individual shall not participate as an audit team member when any
 of that individual’s immediate family:
-(a)
+(a) Is a director or officer of the audit client;
 
-Is a director or officer of the audit client;
-
-(b)
-
-Is an employee in a position to exert significant influence over
+(b) Is an employee in a position to exert significant influence over
 the preparation of the client’s accounting records or the financial
 statements on which the firm will express an opinion; or
 
-(c)
-
-Was in such position during any period covered by the
+(c) Was in such position during any period covered by the
 engagement or the financial statements.
 
 Close Family of an Audit Team Member
@@ -11443,29 +9038,19 @@ Close Family of an Audit Team Member
 
 A self-interest, familiarity or intimidation threat is created when a close
 family member of an audit team member is:
-(a)
+(a) A director or officer of the audit client; or
 
-A director or officer of the audit client; or
-
-(b)
-
-An employee in a position to exert significant influence over the
+(b) An employee in a position to exert significant influence over the
 preparation of the client’s accounting records or the financial
 statements on which the firm will express an opinion.
 
 Factors that are relevant in evaluating the level of such threats include:
-•
-
-The nature of the relationship between the audit team member
+• The nature of the relationship between the audit team member
 and the close family member.
 
-•
+• The position held by the close family member.
 
-The position held by the close family member.
-
-•
-
-The role of the audit team member.
+• The role of the audit team member.
 
 **521.6 A3**
 
@@ -11488,13 +9073,9 @@ An audit team member shall consult in accordance with firm policies
 and procedures if the audit team member has a close relationship with
 an individual who is not an immediate or close family member, but who
 is:
-(a)
+(a) A director or officer of the audit client; or
 
-A director or officer of the audit client; or
-
-(b)
-
-**521.7 A1**
+(b) **521.7 A1**
 
 An employee in a position to exert significant influence over the
 preparation of the client’s accounting records or the financial
@@ -11502,18 +9083,12 @@ statements on which the firm will express an opinion.
 
 Factors that are relevant in evaluating the level of a self-interest,
 familiarity or intimidation threat created by such a relationship include:
-•
-
-The nature of the relationship between the individual and the
+• The nature of the relationship between the individual and the
 audit team member.
 
-•
+• The position the individual holds with the client.
 
-The position the individual holds with the client.
-
-•
-
-The role of the audit team member.
+• The role of the audit team member.
 
 **521.7 A2**
 
@@ -11537,51 +9112,35 @@ Relationships of Partners and Employees of the Firm
 Partners and employees of the firm shall consult in accordance with
 firm policies and procedures if they are aware of a personal or family
 relationship between:
-(a)
-
-A partner or employee of the firm or network firm who is not an
+(a) A partner or employee of the firm or network firm who is not an
 audit team member; and
 
-(b)
-
-A director or officer of the audit client or an employee of the
+(b) A director or officer of the audit client or an employee of the
 audit client in a position to exert significant influence over the
 preparation of the client’s accounting records or the financial
 statements on which the firm will express an opinion.
 
 Factors that are relevant in evaluating the level of a self-interest,
 familiarity or intimidation threat created by such a relationship include:
-•
-
-The nature of the relationship between the partner or employee
+• The nature of the relationship between the partner or employee
 of the firm and the director or officer or employee of the client.
 
-•
-
-The degree of interaction of the partner or employee of the firm
+• The degree of interaction of the partner or employee of the firm
 with the audit team.
 
-•
+• The position of the partner or employee within the firm.
 
-The position of the partner or employee within the firm.
-
-•
-
-The position the individual holds with the client.
+• The position the individual holds with the client.
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
 **521.8 A2**
 
 Examples of actions that might be safeguards to address such selfinterest, familiarity or intimidation threats include:
-•
-
-Structuring the partner’s or employee’s responsibilities to
+• Structuring the partner’s or employee’s responsibilities to
 reduce any potential influence over the audit engagement.
 
-•
-
-Having an appropriate reviewer review the relevant audit work
+• Having an appropriate reviewer review the relevant audit work
 performed.
 
 ## Section 522 — Recent Service with an Audit Client
@@ -11606,13 +9165,9 @@ Service During Period Covered by the Audit Report
 
 The audit team shall not include an individual who, during the period
 covered by the audit report:
-(a)
+(a) Had served as a director or officer of the audit client; or
 
-Had served as a director or officer of the audit client; or
-
-(b)
-
-Was an employee in a position to exert significant influence over
+(b) Was an employee in a position to exert significant influence over
 the preparation of the client’s accounting records or the financial
 statements on which the firm will express an opinion.
 
@@ -11621,13 +9176,9 @@ Service Prior to Period Covered by the Audit Report
 
 A self-interest, self-review or familiarity threat might be created if,
 before the period covered by the audit report, an audit team member:
-(a)
+(a) Had served as a director or officer of the audit client; or
 
-Had served as a director or officer of the audit client; or
-
-(b)
-
-Was an employee in a position to exert significant influence over
+(b) Was an employee in a position to exert significant influence over
 the preparation of the client’s accounting records or financial
 statements on which the firm will express an opinion.
 
@@ -11638,13 +9189,9 @@ engagement.
 **522.4 A2**
 
 Factors that are relevant in evaluating the level of such threats include:
-•
+• The position the individual held with the client.
 
-The position the individual held with the client.
-
-•
-
-The length of time since the individual left the client.
+• The length of time since the individual left the client.
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
@@ -11658,8 +9205,7 @@ self-interest, self-review or familiarity threat is having an appropriate
 reviewer review the work performed by the audit team member.
 
 ## Section 523 — Serving As a Director or Officer of an Audit
-CLIENT
-Introduction
+CLIENT Introduction
 **523.1**
 
 Firms are required to comply with the fundamental principles, be
@@ -11687,18 +9233,12 @@ Service as Company Secretary
 
 A partner or employee of the firm or a network firm shall not serve as
 Company Secretary for an audit client of the firm, unless:
-(a)
-
-This practice is specifically permitted under local law,
+(a) This practice is specifically permitted under local law,
 professional rules or practice;
 
-(b)
+(b) Management makes all relevant decisions; and
 
-Management makes all relevant decisions; and
-
-(c)
-
-The duties and activities performed are limited to those of a
+(c) The duties and activities performed are limited to those of a
 routine and administrative nature, such as preparing minutes and
 maintaining statutory returns.
 
@@ -11712,9 +9252,7 @@ the entity. Therefore, a threat is created if a partner or employee of the
 firm or a network firm serves as Company Secretary for an audit client.
 (More information on providing non-assurance services to an audit
 client is set out in Section 600, Provision of Non-assurance Services to
-an Audit Client.)
-
-INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
+an Audit Client.) INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
 ## Section 524 — Employment with an Audit Client
 Introduction
@@ -11737,13 +9275,9 @@ All Audit Clients
 A familiarity or intimidation threat might be created if any of the
 following individuals have been an audit team member or partner of
 the firm or a network firm:
-•
+• A director or officer of the audit client.
 
-A director or officer of the audit client.
-
-•
-
-An employee in a position to exert significant influence over the
+• An employee in a position to exert significant influence over the
 preparation of the client’s accounting records or the financial
 statements on which the firm will express an opinion.
 
@@ -11752,21 +9286,13 @@ Former Partner or Audit Team Member Restrictions
 
 The firm shall ensure that no significant connection remains between
 the firm or a network firm and:
-(a)
+(a) A former partner who has joined an audit client of the firm; or
 
-A former partner who has joined an audit client of the firm; or
-
-(b)
-
-A former audit team member who has joined the audit client,
+(b) A former audit team member who has joined the audit client,
 if either has joined the audit client as:
-(i)
+(i) A director or officer; or
 
-A director or officer; or
-
-(ii)
-
-An employee in a position to exert significant influence
+(ii) An employee in a position to exert significant influence
 over the preparation of the client’s accounting records or
 the financial statements on which the firm will express an
 opinion.
@@ -11778,11 +9304,9 @@ The individual is not entitled to any benefits or payments from
 the firm or network firm that are not made in accordance with
 fixed pre-determined arrangements;
 Any amount owed to the individual is not material to the firm or
-(b)
-the network firm; and
+(b) the network firm; and
 The individual does not continue to participate or appear to
-(c)
-participate in the firm’s or the network firm’s business or
+(c) participate in the firm’s or the network firm’s business or
 professional activities.
 Even if the requirements of paragraph R524.4 are met, a familiarity or
 intimidation threat might still be created.
@@ -11799,40 +9323,26 @@ becomes an audit client of the firm.
 **524.4 A4**
 
 Factors that are relevant in evaluating the level of such threats include:
-•
+• The position the individual has taken at the client.
 
-The position the individual has taken at the client.
+• Any involvement the individual will have with the audit team.
 
-•
-
-Any involvement the individual will have with the audit team.
-
-•
-
-The length of time since the individual was an audit team
+• The length of time since the individual was an audit team
 member or partner of the firm or network firm.
 
-•
-
-The former position of the individual within the audit team, firm
+• The former position of the individual within the audit team, firm
 or network firm. An example is whether the individual was
 responsible for maintaining regular contact with the client’s
 management or those charged with governance.
 
 Examples of actions that might be safeguards to address such
 familiarity or intimidation threats include:
-•
+• Modifying the audit plan.
 
-Modifying the audit plan.
-
-•
-
-Assigning to the audit team individuals who have sufficient
+• Assigning to the audit team individuals who have sufficient
 experience relative to the individual who has joined the client.
 
-•
-
-Having an appropriate reviewer review the work of the former
+• Having an appropriate reviewer review the work of the former
 audit team member.
 
 Audit Team Members Entering Employment with a Client
@@ -11850,9 +9360,7 @@ will, or might, join the client at some time in the future.
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
-(a)
-
-**524.5 A2**
+(a) **524.5 A2**
 
 An example of an action that might eliminate such a self-interest threat
 is removing the individual from the audit team.
@@ -11870,26 +9378,18 @@ Key Audit Partners
 Subject to paragraph R524.8, if an individual who was a key audit
 partner with respect to an audit client that is a public interest entity joins
 the client as:
-(a)
+(a) A director or officer; or
 
-A director or officer; or
-
-(b)
-
-An employee in a position to exert significant influence over the
+(b) An employee in a position to exert significant influence over the
 preparation of the client’s accounting records or the financial
 statements on which the firm will express an opinion,
 
 independence is compromised unless, subsequent to the individual
 ceasing to be a key audit partner:
-(i)
-
-The audit client has issued audited financial statements covering
+(i) The audit client has issued audited financial statements covering
 a period of not less than twelve months; and
 
-(ii)
-
-The individual was not an audit team member with respect to the
+(ii) The individual was not an audit team member with respect to the
 audit of those financial statements.
 
 Senior or Managing Partner (Chief Executive or Equivalent) of the Firm
@@ -11898,13 +9398,9 @@ Senior or Managing Partner (Chief Executive or Equivalent) of the Firm
 Subject to paragraph R524.8, if an individual who was the Senior or
 Managing Partner (Chief Executive or equivalent) of the firm joins an
 audit client that is a public interest entity as:
-(a)
+(a) A director or officer; or
 
-A director or officer; or
-
-(b)
-
-An employee in a position to exert significant influence over the
+(b) An employee in a position to exert significant influence over the
 preparation of the client’s accounting records or the financial
 statements on which the firm will express an opinion,
 
@@ -11918,28 +9414,20 @@ As an exception to paragraphs R524.6 and R524.7, independence is not
 compromised if the circumstances set out in those paragraphs arise as
 a result of a business combination and:
 
-(a)
-
-The position was not taken in contemplation of the business
+(a) The position was not taken in contemplation of the business
 combination;
 
-(b)
-
-Any benefits or payments due to the former partner from the firm
+(b) Any benefits or payments due to the former partner from the firm
 or a network firm have been settled in full, unless made in
 accordance with fixed pre-determined arrangements and any
 amount owed to the partner is not material to the firm or network
 firm as applicable;
 
-(c)
-
-The former partner does not continue to participate or appear to
+(c) The former partner does not continue to participate or appear to
 participate in the firm’s or network firm’s business or
 professional activities; and
 
-(d)
-
-The firm discusses the former partner’s position held with the
+(d) The firm discusses the former partner’s position held with the
 audit client with those charged with governance.
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
@@ -11966,19 +9454,13 @@ General
 Examples of actions that might be safeguards to address threats created
 by the loan of personnel by a firm or a network firm to an audit client
 include:
-•
-
-Conducting an additional review of the work performed by the
+• Conducting an additional review of the work performed by the
 loaned personnel might address a self-review threat.
 
-•
-
-Not including the loaned personnel as an audit team member
+• Not including the loaned personnel as an audit team member
 might address a familiarity or advocacy threat.
 
-•
-
-Not giving the loaned personnel audit responsibility for any
+• Not giving the loaned personnel audit responsibility for any
 function or activity that the personnel performed during the
 loaned personnel assignment might address a self-review threat.
 
@@ -11993,26 +9475,18 @@ and interests of management, safeguards are often not available.
 
 A firm or network firm shall not loan personnel to an audit client unless
 the firm or network firm is satisfied that:
-(a)
+(a) Such assistance is provided only for a short period of time;
 
-Such assistance is provided only for a short period of time;
-
-(b)
-
-Such personnel will not assume management responsibilities
+(b) Such personnel will not assume management responsibilities
 and the audit client will be responsible for directing and
 supervising the activities of the personnel;
 
-(c)
-
-Any threat to the independence of the firm or network firm
+(c) Any threat to the independence of the firm or network firm
 arising from the professional services undertaken by such
 personnel is eliminated or safeguards are applied to reduce such
 threat to an acceptable level; and
 
-(d)
-
-Such personnel will not undertake or be involved in professional
+(d) Such personnel will not undertake or be involved in professional
 services that the firm or network firm is prohibited from
 performing by the Code.
 
@@ -12041,17 +9515,11 @@ All Audit Clients
 Although an understanding of an audit client and its environment is
 fundamental to audit quality, a familiarity threat might be created as a
 result of an individual’s long association as an audit team member with:
-(a)
+(a) The audit client and its operations;
 
-The audit client and its operations;
+(b) The audit client’s senior management; or
 
-(b)
-
-The audit client’s senior management; or
-
-(c)
-
-The financial statements on which the firm will express an
+(c) The financial statements on which the firm will express an
 opinion or the financial information which forms the basis of the
 financial statements.
 
@@ -12067,60 +9535,40 @@ individual’s judgment inappropriately.
 
 Factors that are relevant to evaluating the level of such familiarity or
 self-interest threats include:
-(a)
-
-In relation to the individual:
-•
-
-The overall length of the individual’s relationship with
+(a) In relation to the individual:
+• The overall length of the individual’s relationship with
 the client, including if such relationship existed while the
 individual was at a prior firm.
 
-•
-
-How long the individual has been an engagement team
+• How long the individual has been an engagement team
 member, and the nature of the roles performed.
 
-(b)
-
-•
+(b) •
 
 The extent to which the work of the individual is directed,
 reviewed and supervised by more senior personnel.
 
-•
-
-The extent to which the individual, due to the individual’s
+• The extent to which the individual, due to the individual’s
 seniority, has the ability to influence the outcome of the
 audit, for example, by making key decisions or directing
 the work of other engagement team members.
 
-•
-
-The closeness of the individual’s personal relationship
+• The closeness of the individual’s personal relationship
 with senior management or those charged with
 governance.
 
-•
-
-The nature, frequency and extent of the interaction
+• The nature, frequency and extent of the interaction
 between the individual and senior management or those
 charged with governance.
 
 In relation to the audit client:
-•
-
-The nature or complexity of the client’s accounting and
+• The nature or complexity of the client’s accounting and
 financial reporting issues and whether they have changed.
 
-•
-
-Whether there have been any recent changes in senior
+• Whether there have been any recent changes in senior
 management or those charged with governance.
 
-•
-
-Whether there have been any structural changes in the
+• Whether there have been any structural changes in the
 client’s organization which impact the nature, frequency
 and extent of interactions the individual might have with
 senior management or those charged with governance.
@@ -12144,19 +9592,13 @@ off the audit team.
 Examples of actions that might be safeguards to address such
 familiarity or self-interest threats include:
 
-•
-
-Changing the role of the individual on the audit team or the
+• Changing the role of the individual on the audit team or the
 nature and extent of the tasks the individual performs.
 
-•
-
-Having an appropriate reviewer who was not an audit team
+• Having an appropriate reviewer who was not an audit team
 member review the work of the individual.
 
-•
-
-Performing regular independent internal or external quality
+• Performing regular independent internal or external quality
 reviews of the engagement.
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
@@ -12166,19 +9608,11 @@ INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 If a firm decides that the level of the threats created can only be
 addressed by rotating the individual off the audit team, the firm shall
 determine an appropriate period during which the individual shall not:
-(a)
+(a) Be a member of the engagement team for the audit engagement;
 
-Be a member of the engagement team for the audit engagement;
-
-(b)
-
-Perform an engagement quality review, or a review consistent
+(b) Perform an engagement quality review, or a review consistent
 with the objective of an engagement quality review, for the
-engagement; or
-
-(c)
-
-Exert direct influence on the outcome of the audit engagement.
+engagement; or (c) Exert direct influence on the outcome of the audit engagement.
 
 The period shall be of sufficient duration to allow the familiarity and
 self-interest threats to be addressed. In the case of a public interest
@@ -12190,18 +9624,12 @@ Subject to paragraphs R540.7 to R540.9, in respect of an audit of a
 public interest entity, an individual shall not act in any of the following
 roles, or a combination of such roles, for a period of more than seven
 cumulative years (the “time-on” period):
-(a)
+(a) The engagement partner;
 
-The engagement partner;
-
-(b)
-
-The individual appointed as responsible for performing the
+(b) The individual appointed as responsible for performing the
 engagement quality review; or
 
-(c)
-
-Any other key audit partner role.
+(c) Any other key audit partner role.
 
 After the time-on period, the individual shall serve a “cooling-off”
 period in accordance with the provisions in paragraphs R540.11 to
@@ -12341,15 +9769,9 @@ during the time-on period, the cooling-off period shall:
 
 **R540.18**
 
-(a)
-
-As an exception to paragraph R540.16, be five consecutive years
+(a) As an exception to paragraph R540.16, be five consecutive years
 where the individual has been the engagement partner for three
-or more years; or
-
-(b)
-
-Be three consecutive years in the case of any other combination.
+or more years; or (b) Be three consecutive years in the case of any other combination.
 
 If the individual acted in any combination of key audit partner roles
 other than those addressed in paragraphs R540.15 to R540.17, the
@@ -12370,40 +9792,28 @@ Restrictions on Activities During the Cooling-off Period
 
 For the duration of the relevant cooling-off period, the individual shall
 not:
-(a)
-
-Be an engagement team member or perform an engagement
+(a) Be an engagement team member or perform an engagement
 quality review, or a review consistent with the objective of an
 engagement quality review for the audit engagement;
 
-(b)
-
-Consult with the engagement team or the client regarding
+(b) Consult with the engagement team or the client regarding
 technical or industry-specific issues, transactions or events
 affecting the audit engagement (other than discussions with the
 engagement team limited to work undertaken or conclusions
 reached in the last year of the individual’s time-on period where
 this remains relevant to the audit);
 
-(c)
-
-Be responsible for leading or coordinating the professional
+(c) Be responsible for leading or coordinating the professional
 services provided by the firm or a network firm to the audit
 client, or overseeing the relationship of the firm or a network
 firm with the audit client; or
 
-(d)
-
-Undertake any other role or activity not referred to above with
+(d) Undertake any other role or activity not referred to above with
 respect to the audit client, including the provision of nonassurance services, that would result in the individual:
-(i)
-
-Having significant or frequent interaction with senior
+(i) Having significant or frequent interaction with senior
 management or those charged with governance; or
 
-(ii)
-
-Exerting direct influence on the outcome of the audit
+(ii) Exerting direct influence on the outcome of the audit
 engagement.
 
 The provisions of paragraph R540.21 are not intended to prevent the
@@ -12416,8 +9826,7 @@ INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 Service at a Prior Firm
 
 ## Section 600 — Provision of Non-assurance Services to an
-AUDIT CLIENT
-Introduction
+AUDIT CLIENT Introduction
 **600.1**
 
 Firms are required to comply with the fundamental principles, be
@@ -12463,29 +9872,18 @@ requirements and application material.
 
 The requirements and application material in this section apply where
 a firm or a network firm:
-(a)
-
-Uses technology to provide a non-assurance service to an audit
-client; or
-
-(b)
-
-Provides, sells, resells or licenses technology resulting in the
+(a) Uses technology to provide a non-assurance service to an audit
+client; or (b) Provides, sells, resells or licenses technology resulting in the
 provision of a non-assurance service by the firm or a network
 firm:
 
-(i)
+(i) To an audit client; or
 
-To an audit client; or
-
-(ii)
-
-To an entity that provides services using such technology
+(ii) To an entity that provides services using such technology
 to audit clients of the firm or network firm.
 
 Requirements and Application Material
-General
-Non-Assurance Services Provisions in Laws or Regulations
+General Non-Assurance Services Provisions in Laws or Regulations
 **600.7 A1**
 
 Paragraphs R100.6 to 100.7 A1 set out requirements and application
@@ -12527,44 +9925,28 @@ Factors that are relevant in identifying the different threats that might
 be created by providing a non-assurance service to an audit client, and
 evaluating the level of such threats include:
 
-•
+• The nature, scope, intended use and purpose of the service.
 
-The nature, scope, intended use and purpose of the service.
-
-•
-
-The manner in which the service will be provided, such as the
+• The manner in which the service will be provided, such as the
 personnel to be involved and their location.
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
-•
-
-The client’s dependency on the service, including the frequency
+• The client’s dependency on the service, including the frequency
 with which the service will be provided.
 
-•
-
-The legal and regulatory environment in which the service is
+• The legal and regulatory environment in which the service is
 provided.
 
-•
+• Whether the client is a public interest entity.
 
-Whether the client is a public interest entity.
-
-•
-
-The level of expertise of the client’s management and employees
+• The level of expertise of the client’s management and employees
 with respect to the type of service provided.
 
-•
-
-The extent to which the client determines significant matters of
+• The extent to which the client determines significant matters of
 judgment. (Ref: Para. R400.20 to R400.21).
 
-•
-
-Whether the outcome of the service will affect the accounting
+• Whether the outcome of the service will affect the accounting
 records or matters reflected in the financial statements on which
 the firm will express an opinion, and, if so:
 
@@ -12572,37 +9954,25 @@ the firm will express an opinion, and, if so:
 
 **600.10 A3**
 
-o
-
-The extent to which the outcome of the service will have
+o The extent to which the outcome of the service will have
 a material effect on the financial statements.
 
-o
-
-The degree of subjectivity involved in determining the
+o The degree of subjectivity involved in determining the
 appropriate amounts or treatment for those matters
 reflected in the financial statements.
 
 The nature and extent of the impact of the service, if any, on the
 systems that generate information that forms a significant part
 of the client’s:
-o
-
-Accounting records or financial statements on which the
+o Accounting records or financial statements on which the
 firm will express an opinion.
 
-o
+o Internal controls over financial reporting.
 
-Internal controls over financial reporting.
-
-•
-
-The degree of reliance that will be placed on the outcome of the
+• The degree of reliance that will be placed on the outcome of the
 service as part of the audit.
 
-•
-
-The fee relating to the provision of the non-assurance service.
+• The fee relating to the provision of the non-assurance service.
 
 Subsections 601 to 610 include examples of additional factors that are
 relevant in identifying threats to independence created by providing
@@ -12653,14 +10023,10 @@ In addition to paragraph 600.10 A2, factors that are relevant in a firm’s
 evaluation of the level of threats to independence created where
 multiple non-assurance services are provided to an audit client might
 include whether:
-•
-
-The combined effect of providing multiple services increases the
+• The combined effect of providing multiple services increases the
 level of threat created by each service assessed individually.
 
-•
-
-The combined effect of providing multiple services increases the
+• The combined effect of providing multiple services increases the
 level of any threat arising from the overall relationship with the
 audit client.
 
@@ -12683,16 +10049,12 @@ Before providing a non-assurance service to an audit client, a firm or a
 network firm shall determine whether the provision of that service
 might create a self-review threat by evaluating whether there is a risk
 that:
-(a)
-
-The results of the service will form part of or affect the
+(a) The results of the service will form part of or affect the
 accounting records, the internal controls over financial
 reporting, or the financial statements on which the firm will
 express an opinion; and
 
-(b)
-
-In the course of the audit of those financial statements on which
+(b) In the course of the audit of those financial statements on which
 the firm will express an opinion, the audit team will evaluate or
 rely on any judgments made or activities performed by the firm
 or network firm when providing the service.
@@ -12730,14 +10092,10 @@ As an exception to paragraph R600.17, a firm or a network firm may
 provide advice and recommendations to an audit client that is a public
 interest entity in relation to information or matters arising in the course
 of an audit provided that the firm:
-(a)
-
-Does not assume a management responsibility (Ref: Para.
+(a) Does not assume a management responsibility (Ref: Para.
 R400.20 and R400.21); and
 
-(b)
-
-**600.18 A1**
+(b) **600.18 A1**
 
 Applies the conceptual framework to identify, evaluate and
 address threats, other than self-review threats, to independence
@@ -12746,36 +10104,23 @@ that might be created by the provision of that advice.
 Examples of advice and recommendations that might be provided in
 relation to information or matters arising in the course of an audit
 include:
-•
-
-Advising on accounting and financial reporting standards or
+• Advising on accounting and financial reporting standards or
 policies and financial statement disclosure requirements.
 
-•
-
-Advising on the appropriateness of financial and accounting
+• Advising on the appropriateness of financial and accounting
 control and the methods used in determining the stated amounts
 in the financial statements and related disclosures.
 
-•
+• Proposing adjusting journal entries arising from audit findings.
 
-Proposing adjusting journal entries arising from audit findings.
-
-•
-
-Discussing findings on internal controls over financial reporting
+• Discussing findings on internal controls over financial reporting
 and processes and recommending improvements.
 
-•
+• Discussing how to resolve account reconciliation problems.
 
-Discussing how to resolve account reconciliation problems.
+• Advising on compliance with group accounting policies.
 
-•
-
-Advising on compliance with group accounting policies.
-
-Addressing Threats
-All Audit Clients
+Addressing Threats All Audit Clients
 **600.19 A1**
 
 Paragraphs R120.10 to 120.10 A2 include a requirement and
@@ -12795,20 +10140,14 @@ the scope of the proposed service.
 Examples of actions that might be safeguards to address such threats
 include:
 
-•
-
-Using professionals who are not audit team members to perform
+• Using professionals who are not audit team members to perform
 the service.
 
-•
-
-Having an appropriate reviewer who was not involved in
+• Having an appropriate reviewer who was not involved in
 providing the service review the audit work or service
 performed.
 
-•
-
-Obtaining pre-clearance of the outcome of the service from an
+• Obtaining pre-clearance of the outcome of the service from an
 appropriate authority (for example, a tax authority).
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
@@ -12819,23 +10158,16 @@ Safeguards might not be available to reduce the threats created by
 providing a non-assurance service to an audit client to an acceptable
 level. In such a situation, the application of the conceptual framework
 requires the firm or network firm to:
-(a)
-
-Adjust the scope of the proposed service to eliminate the
+(a) Adjust the scope of the proposed service to eliminate the
 circumstances that are creating the threats;
 
-(b)
-
-Decline or end the service that creates the threats that cannot be
+(b) Decline or end the service that creates the threats that cannot be
 eliminated or reduced to an acceptable level; or
 
-(c)
-
-End the audit engagement.
+(c) End the audit engagement.
 
 Communication with Those Charged With Governance Regarding Non-Assurance
-Services
-All Audit Clients
+Services All Audit Clients
 **600.20 A1**
 
 Paragraphs 400.40 A1 and 400.40 A2 are relevant to a firm’s
@@ -12861,22 +10193,16 @@ To facilitate compliance with such requirements, a firm might agree
 with those charged with governance of the public interest entity a
 process that addresses when and with whom the firm is to
 communicate. Such a process might:
-•
-
-Establish the procedure for the provision of information about a
+• Establish the procedure for the provision of information about a
 proposed non-assurance service which might be on an individual
 engagement basis, under a general policy, or on any other agreed
 basis.
 
-•
-
-Identify the entities to which the process would apply, which
+• Identify the entities to which the process would apply, which
 might include other public interest entities within the corporate
 structure.
 
-•
-
-Identify any services that can be provided to the entities
+• Identify any services that can be provided to the entities
 identified in paragraph R600.22 without specific approval of
 
 those charged with governance if they agree as a general policy
@@ -12886,59 +10212,37 @@ such threats are created, they would be at an acceptable level.
 
 **R600.22**
 
-•
-
-Establish how those charged with governance of multiple public
+• Establish how those charged with governance of multiple public
 interest entities within the same corporate structure have
 determined that authority for approving services is to be
 allocated.
 
-•
-
-Establish a procedure to be followed where the provision of
+• Establish a procedure to be followed where the provision of
 information necessary for those charged with governance to
 evaluate whether a proposed service might create a threat to the
 firm’s independence is prohibited or limited by professional
 standards, laws or regulations, or might result in the disclosure
 of sensitive or confidential information.
 
-•
-
-Specify how any issues not covered by the process might be
+• Specify how any issues not covered by the process might be
 resolved.
 
 Before a firm that audits the financial statements of a public interest
 entity, or a network firm accepts an engagement to provide a nonassurance service to:
-(A)
+(A) That public interest entity;
 
-That public interest entity;
-
-(B)
-
-Any entity that controls, directly or indirectly, that public
-interest entity; or
-
-(C)
-
-Any entity that is controlled directly or indirectly by that public
-interest entity,
-
-the firm shall, unless already addressed when establishing a process
+(B) Any entity that controls, directly or indirectly, that public
+interest entity; or (C) Any entity that is controlled directly or indirectly by that public
+interest entity, the firm shall, unless already addressed when establishing a process
 agreed with those charged with governance:
-(a)
-
-(b)
+(a) (b)
 
 Inform those charged with governance of the public interest
 entity that the firm has determined that the provision of the
 service:
-(i)
+(i) Is not prohibited; and
 
-Is not prohibited; and
-
-(ii)
-
-Will not create a threat to the firm’s independence as
+(ii) Will not create a threat to the firm’s independence as
 auditor of the public interest entity or that any identified
 threat is at an acceptable level or, if not, will be
 eliminated or reduced to an acceptable level; and
@@ -12958,26 +10262,18 @@ INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
 Examples of information that might be provided to those charged with
 governance of the public interest entity in relation to a particular nonassurance service include:
-•
+• The nature and scope of the service to be provided.
 
-The nature and scope of the service to be provided.
+• The basis and amount of the proposed fee.
 
-•
-
-The basis and amount of the proposed fee.
-
-•
-
-Where the firm has identified any threats to independence that
+• Where the firm has identified any threats to independence that
 might be created by the provision of the proposed service, the
 basis for the firm’s assessment that the threats are at an
 acceptable level or, if not, the actions the firm or network firm
 will take to eliminate or reduce any threats to independence to
 an acceptable level.
 
-•
-
-Whether the combined effect of providing multiple services
+• Whether the combined effect of providing multiple services
 creates threats to independence or changes the level of
 previously identified threats.
 
@@ -12986,17 +10282,11 @@ any of the entities referred to in paragraph R600.22 unless those
 charged with governance of the public interest entity have concurred
 either under a process agreed with those charged with governance or in
 relation to a specific service with:
-(a)
-
-The firm’s conclusion that the provision of the service will not
+(a) The firm’s conclusion that the provision of the service will not
 create a threat to the firm’s independence as auditor of the public
 interest entity, or that any identified threat is at an acceptable
 level or, if not, will be eliminated, or reduced to an acceptable
-level; and
-
-(b)
-
-The provision of that service.
+level; and (b) The provision of that service.
 
 As an exception to paragraphs R600.22 and R600.23, where a firm is
 prohibited by applicable professional standards, laws or regulations
@@ -13005,21 +10295,16 @@ to those charged with governance of the public interest entity, or where
 the provision of such information would result in disclosure of sensitive
 or confidential information, the firm may provide the proposed service
 provided that:
-(a)
-
-The firm provides such information as it is able without
+(a) The firm provides such information as it is able without
 breaching its legal or professional obligations;
 
-(b)
-
-The firm informs those charged with governance of the public
+(b) The firm informs those charged with governance of the public
 interest entity that the provision of the service will not create a
 threat to the firm’s independence from the public interest entity,
 or that any identified threat is at an acceptable level or, if not,
 will be eliminated or reduced to an acceptable level; and
 
-(c)
-**R600.25**
+(c) **R600.25**
 
 Those charged with governance do not disagree with the firm’s
 conclusion in (b).
@@ -13028,17 +10313,11 @@ The firm or the network firm, having taken into account any matters
 raised by those charged with governance of the audit client that is a
 public interest entity or by the entity referred to in paragraph R600.22
 that is the recipient of the proposed service, shall decline the nonassurance service or the firm shall end the audit engagement if:
-(a)
-
-The firm or the network firm is not permitted to provide any
+(a) The firm or the network firm is not permitted to provide any
 information to those charged with governance of the audit client
 that is a public interest entity, unless such a situation is addressed
 in a process agreed in advance with those charged with
-governance; or
-
-(b)
-
-Those charged with governance of an audit client that is a public
+governance; or (b) Those charged with governance of an audit client that is a public
 interest entity disagree with the firm’s conclusion that the
 provision of the service will not create a threat to the firm’s
 independence from the client or that any identified threat is at an
@@ -13053,37 +10332,25 @@ Audit Client that Later Becomes a Public Interest Entity
 A non-assurance service provided, either currently or previously, by a
 firm or a network firm to an audit client compromises the firm’s
 independence when the client becomes a public interest entity unless:
-(a)
-
-The previous non-assurance service complies with the
+(a) The previous non-assurance service complies with the
 provisions of this section that relate to audit clients that are not
 public interest entities;
 
-(b)
-
-Non-assurance services currently in progress that are not
+(b) Non-assurance services currently in progress that are not
 permitted under this section for audit clients that are public
 interest entities are ended before or, if that is not possible, as
 soon as practicable after, the client becomes a public interest
-entity; and
-
-(c)
-
-The firm and those charged with governance of the client that
+entity; and (c) The firm and those charged with governance of the client that
 becomes a public interest entity agree and take further actions to
 address any threats to independence that are not at an acceptable
 level.
 
 Examples of actions that the firm might recommend to the audit client
 include engaging another firm to:
-•
-
-Review or re-perform the affected audit work to the extent
+• Review or re-perform the affected audit work to the extent
 necessary.
 
-•
-
-Evaluate the results of the non-assurance service or re-perform
+• Evaluate the results of the non-assurance service or re-perform
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
@@ -13099,40 +10366,26 @@ R400.20, a firm or a network firm may assume management
 responsibilities or provide certain non-assurance services that would
 otherwise be prohibited to the following related entities of the client on
 whose financial statements the firm will express an opinion:
-(a)
+(a) An entity that has direct or indirect control over the client;
 
-An entity that has direct or indirect control over the client;
-
-(b)
-
-An entity with a direct financial interest in the client if that entity
+(b) An entity with a direct financial interest in the client if that entity
 has significant influence over the client and the interest in the
 client is material to such entity; or
 
-(c)
-
-An entity which is under common control with the client,
+(c) An entity which is under common control with the client,
 
 provided that all of the following conditions are met:
-(i)
-
-The firm or a network firm does not express an opinion
+(i) The firm or a network firm does not express an opinion
 on the financial statements of the related entity;
 
-(ii)
-
-The firm or a network firm does not assume a
+(ii) The firm or a network firm does not assume a
 management responsibility, directly or indirectly, for the
 entity on whose financial statements the firm will express
 an opinion;
 
-(iii)
+(iii) The services do not create a self-review threat; and
 
-The services do not create a self-review threat; and
-
-(iv)
-
-The firm addresses other threats created by providing
+(iv) The firm addresses other threats created by providing
 such services that are not at an acceptable level.
 
 Documentation
@@ -13141,43 +10394,30 @@ Documentation
 Documentation of the firm’s conclusions regarding compliance with
 this section in accordance with paragraphs R400.60 and 400.60 A1
 might include:
-•
-
-Key elements of the firm’s understanding of the nature of the
+• Key elements of the firm’s understanding of the nature of the
 non-assurance service to be provided and whether and how the
 service might impact the financial statements on which the firm
 will express an opinion.
 
-•
-
-The nature of any threat to independence that is created by
+• The nature of any threat to independence that is created by
 providing the service to the audit client, including whether the
 results of the service will be subject to audit procedures.
 
-•
+• The extent of management’s involvement in the provision and
 
-The extent of management’s involvement in the provision and
-
-•
-
-Any safeguards that are applied, or other actions taken to address
+• Any safeguards that are applied, or other actions taken to address
 a threat to independence.
 
-•
-
-The firm’s rationale for determining that the service is not
+• The firm’s rationale for determining that the service is not
 prohibited and that any identified threat to independence is at an
 acceptable level.
 
-•
-
-In relation to the provision of a proposed non-assurance service
+• In relation to the provision of a proposed non-assurance service
 to the entities referred to in paragraph R600.22, the steps taken
 to comply with paragraphs R600.22 to R600.24.
 
 SUBSECTION 601 – ACCOUNTING AND BOOKKEEPING
-SERVICES
-Introduction
+SERVICES Introduction
 **601.1**
 
 In addition to the specific requirements and application material in this
@@ -13192,35 +10432,21 @@ General
 Management is responsible for the preparation and fair presentation of
 the financial statements in accordance with the applicable financial
 reporting framework. These responsibilities include:
-•
-
-Determining accounting policies and the accounting treatment
+• Determining accounting policies and the accounting treatment
 in accordance with those policies.
 
-•
-
-Preparing or changing source documents or originating data, in
+• Preparing or changing source documents or originating data, in
 electronic or other form, evidencing the occurrence of a
 transaction. Examples include:
-o
+o Purchase orders.
 
-Purchase orders.
+o Payroll time records.
 
-o
+o Customer orders.
 
-Payroll time records.
+• Originating or changing journal entries.
 
-o
-
-Customer orders.
-
-•
-
-Originating or changing journal entries.
-
-•
-
-Determining or approving the account classifications of
+• Determining or approving the account classifications of
 transactions.
 
 Description of Service
@@ -13233,30 +10459,19 @@ INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 oversight of the proposed non-assurance service.
 
 services including:
-•
+• Preparing accounting records or financial statements.
 
-Preparing accounting records or financial statements.
+• Recording transactions.
 
-•
+• Providing payroll services.
 
-Recording transactions.
+• Resolving account reconciliation problems.
 
-•
-
-Providing payroll services.
-
-•
-
-Resolving account reconciliation problems.
-
-•
-
-Converting existing financial statements from one financial
+• Converting existing financial statements from one financial
 reporting framework to another.
 
 Potential Threats Arising from the Provision of Accounting and Bookkeeping
-Services
-All Audit Clients
+Services All Audit Clients
 **601.4 A1**
 
 Providing accounting and bookkeeping services to an audit client
@@ -13274,24 +10489,14 @@ a public interest entity accounting and bookkeeping services, including
 preparing financial statements on which the firm will express an
 opinion or financial information which forms the basis of such financial
 statements, unless:
-(a)
+(a) The services are of a routine or mechanical nature; and
 
-The services are of a routine or mechanical nature; and
-
-(b)
-
-The firm addresses any threats that are not at an acceptable level.
+(b) The firm addresses any threats that are not at an acceptable level.
 
 Accounting and bookkeeping services that are routine or mechanical:
-(a)
-
-Involve information, data or material in relation to which the
+(a) Involve information, data or material in relation to which the
 client has made any judgments or decisions that might be
-necessary; and
-
-(b)
-
-Require little or no professional judgment.
+necessary; and (b) Require little or no professional judgment.
 
 **601.5 A2**
 
@@ -13306,34 +10511,22 @@ or judgment of the firm or network firm.
 
 Examples of services, whether manual or automated, that might be
 
-•
+• Preparing payroll calculations or reports based on clientoriginated data for approval and payment by the client.
 
-Preparing payroll calculations or reports based on clientoriginated data for approval and payment by the client.
-
-•
-
-Recording recurring transactions for which amounts are easily
+• Recording recurring transactions for which amounts are easily
 determinable from source documents or originating data, such
 as a utility bill where the client has determined or approved the
 appropriate account classification.
 
-•
-
-Calculating depreciation on fixed assets when the client
+• Calculating depreciation on fixed assets when the client
 determines the accounting policy and estimates of useful life and
 residual values.
 
-•
+• Posting transactions coded by the client to the general ledger.
 
-Posting transactions coded by the client to the general ledger.
+• Posting client-approved entries to the trial balance.
 
-•
-
-Posting client-approved entries to the trial balance.
-
-•
-
-Preparing financial statements based on information in the
+• Preparing financial statements based on information in the
 client-approved trial balance and preparing related notes based
 on client-approved records.
 
@@ -13348,14 +10541,10 @@ Examples of actions that might be safeguards to address a self-review
 threat created when providing accounting and bookkeeping services of
 a routine or mechanical nature to an audit client that is not a public
 interest entity include:
-•
-
-Using professionals who are not audit team members to perform
+• Using professionals who are not audit team members to perform
 the service.
 
-•
-
-Having an appropriate reviewer who was not involved in
+• Having an appropriate reviewer who was not involved in
 providing the service review the audit work or service
 performed.
 
@@ -13376,27 +10565,19 @@ INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
 regarded as routine or mechanical include:
 
-(a)
-
-The audit report on the group financial statements of the public
+(a) The audit report on the group financial statements of the public
 interest entity has been issued;
 
-(b)
-
-The firm or network firm does not assume management
+(b) The firm or network firm does not assume management
 responsibility and applies the conceptual framework to identify,
 evaluate and address threats to independence;
 
-(c)
-
-The firm or network firm does not prepare the accounting
+(c) The firm or network firm does not prepare the accounting
 records underlying the statutory financial statements of the
 related entity and those financial statements are based on client
 approved information; and
 
-(d)
-
-The statutory financial statements of the related entity will not
+(d) The statutory financial statements of the related entity will not
 form the basis of future group financial statements of that public
 interest entity.
 
@@ -13419,21 +10600,13 @@ mechanical tasks within the normal course of operations.
 **602.2 A2**
 
 Examples of administrative services include:
-•
+• Word processing or document formatting.
 
-Word processing or document formatting.
+• Preparing administrative or statutory forms for client approval.
 
-•
+• Submitting such forms as instructed by the client.
 
-Preparing administrative or statutory forms for client approval.
-
-•
-
-Submitting such forms as instructed by the client.
-
-•
-
-Monitoring statutory filing dates and advising an audit client of
+• Monitoring statutory filing dates and advising an audit client of
 those dates.
 
 Potential Threats Arising from the Provision of Administrative Services
@@ -13488,45 +10661,29 @@ Factors that are relevant in identifying self-review or advocacy threats
 created by providing valuation services to an audit client, and
 evaluating the level of such threats include:
 
-•
+• The use and purpose of the valuation report.
 
-The use and purpose of the valuation report.
+• Whether the valuation report will be made public.
 
-•
-
-Whether the valuation report will be made public.
-
-•
-
-The extent to which the valuation methodology is supported by
+• The extent to which the valuation methodology is supported by
 law or regulation, other precedent or established practice.
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
-•
-
-The extent of the client’s involvement in determining and
+• The extent of the client’s involvement in determining and
 approving the valuation methodology and other significant
 matters of judgment.
 
-•
-
-The degree of subjectivity inherent in the item for valuations
+• The degree of subjectivity inherent in the item for valuations
 involving standard or established methodologies.
 
-•
-
-Whether the valuation will have a material effect on the financial
+• Whether the valuation will have a material effect on the financial
 statements.
 
-•
-
-The extent of the disclosures related to the valuation in the
+• The extent of the disclosures related to the valuation in the
 financial statements.
 
-•
-
-The volatility of the amounts involved as a result of dependence
+• The volatility of the amounts involved as a result of dependence
 on future events.
 
 When a self-review threat for an audit client that is a public interest
@@ -13541,26 +10698,18 @@ Audit Clients that are Not Public Interest Entities
 Examples of actions that might be safeguards to address self-review or
 advocacy threats created by providing a valuation service to an audit
 client that is not a public interest entity include:
-•
-
-Using professionals who are not audit team members to perform
+• Using professionals who are not audit team members to perform
 the service might address self-review or advocacy threats.
 
-•
-
-Having an appropriate reviewer who was not involved in
+• Having an appropriate reviewer who was not involved in
 providing the service review the audit work or service performed
 might address a self-review threat.
 
 A firm or a network firm shall not provide a valuation service to an
 audit client that is not a public interest entity if:
-(a)
+(a) The valuation involves a significant degree of subjectivity; and
 
-The valuation involves a significant degree of subjectivity; and
-
-(b)
-
-The valuation will have a material effect on the financial
+(b) The valuation will have a material effect on the financial
 statements on which the firm will express an opinion.
 
 Certain valuations do not involve a significant degree of subjectivity.
@@ -13604,29 +10753,17 @@ Description of Service
 
 Tax services comprise a broad range of services. This subsection deals
 specifically with:
-•
+• Tax return preparation.
 
-Tax return preparation.
+• Tax calculations for the purpose of preparing accounting entries.
 
-•
+• Tax advisory services.
 
-Tax calculations for the purpose of preparing accounting entries.
+• Tax planning services.
 
-•
+• Tax services involving valuations.
 
-Tax advisory services.
-
-•
-
-Tax planning services.
-
-•
-
-Tax services involving valuations.
-
-•
-
-Assistance in the resolution of tax disputes.
+• Assistance in the resolution of tax disputes.
 
 It is possible to consider tax services under broad headings, such as tax
 planning or compliance. However, such services are often interrelated
@@ -13652,23 +10789,15 @@ express an opinion. Such services might also create an advocacy threat.
 Factors that are relevant in identifying self-review or advocacy threats
 created by providing any tax service to an audit client, and evaluating
 the level of such threats include:
-•
+• The particular characteristics of the engagement.
 
-The particular characteristics of the engagement.
+• The level of tax expertise of the client’s employees.
 
-•
-
-The level of tax expertise of the client’s employees.
-
-•
-
-The system by which the tax authorities assess and administer
+• The system by which the tax authorities assess and administer
 the tax in question and the role of the firm or network firm in
 that process.
 
-•
-
-The complexity of the relevant tax regime and the degree of
+• The complexity of the relevant tax regime and the degree of
 judgment necessary in applying it.
 
 All Audit Clients
@@ -13695,20 +10824,14 @@ Description of Service
 **604.5 A1**
 
 Tax return preparation services include:
-•
-
-Assisting clients with their tax reporting obligations by drafting
+• Assisting clients with their tax reporting obligations by drafting
 and compiling information, including the amount of tax due
 (usually on standardized forms) required to be submitted to the
 applicable tax authorities.
 
-•
+• Advising on the tax return treatment of past transactions.
 
-Advising on the tax return treatment of past transactions.
-
-•
-
-Responding on behalf of the audit client to the tax authorities’
+• Responding on behalf of the audit client to the tax authorities’
 requests for additional information and analysis (for example,
 providing explanations of and technical support for the approach
 being taken).
@@ -13719,21 +10842,16 @@ All Audit Clients
 
 Providing tax return preparation services does not usually create a
 threat because:
-(a)
-
-Tax return preparation services are based on historical
+(a) Tax return preparation services are based on historical
 information and principally involve analysis and presentation of
 such historical information under existing tax law, including
 precedents and established practice; and
 
-(b)
-
-Tax returns are subject to whatever review or approval process
+(b) Tax returns are subject to whatever review or approval process
 the tax authority considers appropriate.
 
 B. Tax Calculations for the Purpose of Preparing Accounting
-Entries
-Description of Service
+Entries Description of Service
 **604.7 A1**
 
 Tax calculation services involves the preparation of calculations of
@@ -13764,14 +10882,10 @@ Examples of actions that might be safeguards to address such a selfreview threat
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
-•
-
-Using professionals who are not audit team members to perform
+• Using professionals who are not audit team members to perform
 the service.
 
-•
-
-Having an appropriate reviewer who was not involved in
+• Having an appropriate reviewer who was not involved in
 providing the service review the audit work or service
 performed.
 
@@ -13792,8 +10906,7 @@ tax efficient manner or advising on the application of a tax law or
 regulation.
 
 Potential Threats Arising from the Provision of Tax Advisory and Tax Planning
-Services
-All Audit clients
+Services All Audit clients
 **604.12 A1**
 
 Providing tax advisory and tax planning services to an audit client
@@ -13808,19 +10921,13 @@ Providing tax advisory and tax planning services will not create a selfreview th
 
 **604.12 A3**
 
-(a)
+(a) Are supported by a tax authority or other precedent;
 
-Are supported by a tax authority or other precedent;
-
-(b)
-
-Are based on an established practice (being a practice that has
+(b) Are based on an established practice (being a practice that has
 been commonly used and has not been challenged by the
 relevant tax authority); or
 
-(c)
-
-Have a basis in tax law that the firm is confident is likely to
+(c) Have a basis in tax law that the firm is confident is likely to
 prevail.
 
 In addition to paragraph 604.3 A2, factors that are relevant in
@@ -13828,21 +10935,15 @@ identifying self-review or advocacy threats created by providing tax
 advisory and tax planning services to audit clients, and evaluating the
 level of such threats include:
 
-•
-
-The degree of subjectivity involved in determining the
+• The degree of subjectivity involved in determining the
 appropriate treatment for the tax advice in the financial
 statements.
 
-•
-
-Whether the tax treatment is supported by a ruling or has
+• Whether the tax treatment is supported by a ruling or has
 otherwise been cleared by the tax authority before the
 preparation of the financial statements.
 
-•
-
-The extent to which the outcome of the tax advice might have a
+• The extent to which the outcome of the tax advice might have a
 material effect on the financial statements.
 
 When a self-review threat for an audit client that is a public interest
@@ -13853,15 +10954,9 @@ Treatment or Presentation
 
 A firm or a network firm shall not provide tax advisory and tax
 planning services to an audit client when:
-(a)
-
-The effectiveness of the tax advice depends on a particular
+(a) The effectiveness of the tax advice depends on a particular
 accounting treatment or presentation in the financial statements;
-and
-
-(b)
-
-The audit team has doubt as to the appropriateness of the related
+and (b) The audit team has doubt as to the appropriateness of the related
 accounting treatment or presentation under the relevant financial
 reporting framework.
 
@@ -13871,20 +10966,14 @@ Audit Clients that are Not Public Interest Entities
 Examples of actions that might be safeguards to address self-review or
 advocacy threats created by providing tax advisory and tax planning
 services to an audit client that is not a public interest entity include:
-•
-
-Using professionals who are not audit team members to perform
+• Using professionals who are not audit team members to perform
 the service might address self-review or advocacy threats.
 
-•
-
-Having an appropriate reviewer, who was not involved in
+• Having an appropriate reviewer, who was not involved in
 providing the service, review the audit work or service
 performed might address a self-review threat.
 
-•
-
-Obtaining pre-clearance from the tax authorities might address
+• Obtaining pre-clearance from the tax authorities might address
 self-review or advocacy threats.
 
 Audit Clients that are Public Interest Entities
@@ -13904,14 +10993,10 @@ Advocacy Threats
 Examples of actions that might be safeguards to address an advocacy
 threat created by providing tax advisory and tax planning services to an
 audit client that is a public interest entity include:
-•
-
-Using professionals who are not audit team members to perform
+• Using professionals who are not audit team members to perform
 the service.
 
-•
-
-Obtaining pre-clearance from the tax authorities.
+• Obtaining pre-clearance from the tax authorities.
 
 D. Tax Services Involving Valuations
 Description of Service
@@ -13919,25 +11004,16 @@ Description of Service
 
 The provision of tax services involving valuations might arise in a
 range of circumstances including:
-•
+• Merger and acquisition transactions.
 
-Merger and acquisition transactions.
+• Group restructurings and corporate reorganizations.
 
-•
+• Transfer pricing studies.
 
-Group restructurings and corporate reorganizations.
-
-•
-
-Transfer pricing studies.
-
-•
-
-Stock-based compensation arrangements.
+• Stock-based compensation arrangements.
 
 Potential Threats Arising from the Provision of Tax Services involving
-Valuations
-All Audit Clients
+Valuations All Audit Clients
 **604.17 A1**
 
 Providing a valuation for tax purposes to an audit client might create a
@@ -13951,16 +11027,12 @@ advocacy threat.
 When a firm or a network firm performs a valuation for tax purposes
 to assist an audit client with its tax reporting obligations or for tax
 planning purposes, the result of the valuation might:
-(a)
-
-Have no effect on the accounting records or the financial
+(a) Have no effect on the accounting records or the financial
 statements other than through accounting entries related to tax.
 In such situations, the requirements and application material set
 out in this subsection apply.
 
-(b)
-
-Affect the accounting records or the financial statements in ways
+(b) Affect the accounting records or the financial statements in ways
 not limited to accounting entries related to tax, for example, if
 
 the valuation leads to a revaluation of assets. In such situations,
@@ -13970,14 +11042,10 @@ the requirements and application material set out in subsection
 
 Performing a valuation for tax purposes for an audit client will not
 create a self-review threat if:
-(a)
-
-The underlying assumptions are either established by law or
+(a) The underlying assumptions are either established by law or
 regulation, or are widely accepted; or
 
-(b)
-
-The techniques and methodologies to be used are based on
+(b) The techniques and methodologies to be used are based on
 generally accepted standards or prescribed by law or regulation,
 and the valuation is subject to external review by a tax authority
 or similar regulatory authority.
@@ -14005,37 +11073,25 @@ evaluating the level of such threats:
 
 **604.18 A3**
 
-•
-
-The extent to which the valuation methodology is supported by
+• The extent to which the valuation methodology is supported by
 tax law or regulation, other precedent or established practice.
 
-•
+• The degree of subjectivity inherent in the valuation.
 
-The degree of subjectivity inherent in the valuation.
-
-•
-
-The reliability and extent of the underlying data.
+• The reliability and extent of the underlying data.
 
 Examples of actions that might be safeguards to address such threats
 for an audit client that is not a public interest entity include:
-•
-
-Using professionals who are not audit team members to perform
+• Using professionals who are not audit team members to perform
 the service might address self-review or advocacy threats.
 
-•
-
-Having an appropriate reviewer who was not involved in
+• Having an appropriate reviewer who was not involved in
 providing the service review the audit work or service performed
 might address a self-review threat.
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
-•
-
-Obtaining pre-clearance from the tax authorities might address
+• Obtaining pre-clearance from the tax authorities might address
 self-review or advocacy threats.
 
 Audit Clients that are Public Interest Entities
@@ -14053,14 +11109,10 @@ Advocacy Threats
 Examples of actions that might be safeguards to address an advocacy
 threat created by providing a valuation for tax purposes for an audit
 client that is a public interest entity include:
-•
-
-Using professionals who are not audit team members to perform
+• Using professionals who are not audit team members to perform
 the service.
 
-•
-
-Obtaining pre-clearance from the tax authorities.
+• Obtaining pre-clearance from the tax authorities.
 
 E. Assistance in the Resolution of Tax Disputes
 Description of Service
@@ -14075,8 +11127,7 @@ rejected and either the tax authority or the client refers the matter for
 determination in a formal proceeding before a tribunal or court.
 
 Potential Threats Arising from the Provision of Assistance in the Resolution of
-Tax Disputes
-All Audit Clients
+Tax Disputes All Audit Clients
 **604.21 A1**
 
 Providing assistance in the resolution of a tax dispute to an audit client
@@ -14092,29 +11143,19 @@ relevant in identifying self- review or advocacy threats created by
 assisting an audit client in the resolution of tax disputes, and evaluating
 the level of such threats include:
 
-•
+• The role management plays in the resolution of the dispute.
 
-The role management plays in the resolution of the dispute.
-
-•
-
-The extent to which the outcome of the dispute will have a
+• The extent to which the outcome of the dispute will have a
 material effect on the financial statements on which the firm will
 express an opinion.
 
-•
-
-Whether the firm or network firm provided the advice that is the
+• Whether the firm or network firm provided the advice that is the
 subject of the tax dispute.
 
-•
-
-The extent to which the matter is supported by tax law or
+• The extent to which the matter is supported by tax law or
 regulation, other precedent, or established practice.
 
-•
-
-Whether the proceedings are conducted in public.
+• Whether the proceedings are conducted in public.
 
 When a self-review threat for an audit client that is a public interest
 entity has been identified, paragraph R604.24 applies.
@@ -14124,14 +11165,10 @@ Audit Clients that are Not Public Interest Entities
 Examples of actions that might be safeguards to address self-review or
 advocacy threats created by assisting an audit client that is not a public
 interest entity in the resolution of tax disputes include:
-•
-
-Using professionals who are not audit team members to perform
+• Using professionals who are not audit team members to perform
 the service might address self-review or advocacy threats.
 
-•
-
-Having an appropriate reviewer who was not involved in
+• Having an appropriate reviewer who was not involved in
 providing the service review the audit work or the service
 performed might address a self-review threat.
 
@@ -14152,8 +11189,7 @@ advocacy threat for an audit client that is a public interest entity is using
 professionals who are not audit team members to perform the service.
 
 Resolution of Tax Matters Including Acting as an Advocate Before a Tribunal or
-Court
-Audit Clients that are Not Public Interest Entities
+Court Audit Clients that are Not Public Interest Entities
 **R604.25**
 
 A firm or a network firm shall not provide tax services that involve
@@ -14162,14 +11198,10 @@ INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
 assisting in the resolution of tax disputes to an audit client that is not a
 public interest entity if:
-(a)
-
-The services involve acting as an advocate for the audit client
+(a) The services involve acting as an advocate for the audit client
 before a tribunal or court in the resolution of a tax matter; and
 
-(b)
-
-The amounts involved are material to the financial statements on
+(b) The amounts involved are material to the financial statements on
 which the firm will express an opinion.
 
 Audit Clients that are Public Interest Entities
@@ -14188,18 +11220,12 @@ that is being heard before a tribunal or court, for example:
 
 **604.27 A2**
 
-•
+• Responding to specific requests for information.
 
-Responding to specific requests for information.
-
-•
-
-Providing factual accounts or testimony about the work
+• Providing factual accounts or testimony about the work
 performed.
 
-•
-
-Assisting the client in analyzing the tax issues related to the
+• Assisting the client in analyzing the tax issues related to the
 matter.
 
 What constitutes a “tribunal or court” depends on how tax proceedings
@@ -14222,40 +11248,26 @@ Internal audit services comprise a broad range of activities and might
 involve assisting the audit client in the performance of one or more
 aspects of its internal audit activities. Internal audit activities might
 include:
-•
-
-Monitoring of internal control – reviewing controls, monitoring
+• Monitoring of internal control – reviewing controls, monitoring
 their operation and recommending improvements to them.
 
 **605.2 A2**
 
 Examining financial and operating information by:
-o
-
-Reviewing the means used to identify, measure, classify
+o Reviewing the means used to identify, measure, classify
 and report financial and operating information.
 
-o
-
-Inquiring specifically into individual items including
+o Inquiring specifically into individual items including
 detailed testing of transactions, balances and procedures.
 
-•
-
-Reviewing the economy, efficiency and effectiveness of
+• Reviewing the economy, efficiency and effectiveness of
 operating activities including non-financial activities of an
 entity.
 
-•
+• Reviewing compliance with:
+o Laws, regulations and other external requirements.
 
-Reviewing compliance with:
-o
-
-Laws, regulations and other external requirements.
-
-o
-
-Management policies, directives and other internal
+o Management policies, directives and other internal
 requirements.
 
 The scope and objectives of internal audit activities vary widely and
@@ -14272,47 +11284,25 @@ Service
 Paragraph R400.20 precludes a firm or a network firm from assuming
 a management responsibility. When providing an internal audit service
 to an audit client, the firm shall be satisfied that:
-(a)
-
-The client designates an appropriate and competent resource,
+(a) The client designates an appropriate and competent resource,
 who reports to those charged with governance to:
-(i)
-
-Be responsible at all times for internal audit activities;
-and
-
-(ii)
-
-Acknowledge
-responsibility
-for
-designing,
-implementing, monitoring and maintaining internal
+(i) Be responsible at all times for internal audit activities;
+and (ii) Acknowledge responsibility for designing, implementing, monitoring and maintaining internal
 control;
 
-(b)
-
-The client reviews, assesses and approves the scope, risk and
+(b) The client reviews, assesses and approves the scope, risk and
 frequency of the internal audit services;
 
-(c)
-
-The client evaluates the adequacy of the internal audit services
+(c) The client evaluates the adequacy of the internal audit services
 and the findings resulting from their performance;
 
-(d)
-
-The client evaluates and determines which recommendations
+(d) The client evaluates and determines which recommendations
 resulting from internal audit services to implement and manages
 the implementation process; and
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
-•
-
-(e)
-
-The client reports to those charged with governance the
+• (e) The client reports to those charged with governance the
 significant findings and recommendations resulting from the
 internal audit services.
 
@@ -14327,40 +11317,26 @@ responsibility.
 
 Examples of internal audit services that involve assuming management
 responsibilities include:
-•
-
-Setting internal audit policies or the strategic direction of
+• Setting internal audit policies or the strategic direction of
 internal audit activities.
 
-•
-
-Directing and taking responsibility for the actions of the entity’s
+• Directing and taking responsibility for the actions of the entity’s
 internal audit employees.
 
-•
-
-Deciding which recommendations resulting from internal audit
+• Deciding which recommendations resulting from internal audit
 activities to implement.
 
-•
-
-Reporting the results of the internal audit activities to those
+• Reporting the results of the internal audit activities to those
 charged with governance on behalf of management.
 
-•
-
-Performing procedures that form part of the internal control,
+• Performing procedures that form part of the internal control,
 such as reviewing and approving changes to employee data
 access privileges.
 
-•
-
-Taking responsibility for designing, implementing, monitoring
+• Taking responsibility for designing, implementing, monitoring
 and maintaining internal control.
 
-•
-
-Performing outsourced internal audit services, comprising all or
+• Performing outsourced internal audit services, comprising all or
 a substantial portion of the internal audit function, where the
 firm or network firm is responsible for determining the scope of
 the internal audit work; and might have responsibility for one or
@@ -14388,31 +11364,21 @@ audit service for purposes of the audit engagement without:
 
 **605.4 A3**
 
-(a)
+(a) Appropriately evaluating those results; or
 
-Appropriately evaluating those results; or
-
-(b)
-
-Exercising the same level of professional skepticism as would
+(b) Exercising the same level of professional skepticism as would
 be exercised when the internal audit work is performed by
 individuals who are not members of the firm.
 
 Factors that are relevant in identifying a self-review threat created by
 providing internal audit services to an audit client, and evaluating the
 level of such a threat include:
-•
+• The materiality of the related financial statements amounts.
 
-The materiality of the related financial statements amounts.
-
-•
-
-The risk of misstatement of the assertions related to those
+• The risk of misstatement of the assertions related to those
 financial statement amounts.
 
-•
-
-The degree of reliance that the engagement team will place on
+• The degree of reliance that the engagement team will place on
 the work of the internal audit service.
 
 When a self-review threat for an audit client that is a public interest
@@ -14437,26 +11403,19 @@ R600.17).
 Examples of the services that are prohibited under paragraph R605.6
 include internal audit services that relate to:
 
-•
+• The internal controls over financial reporting.
 
-The internal controls over financial reporting.
-
-•
-
-Financial accounting systems that generate information for the
+• Financial accounting systems that generate information for the
 client’s accounting records or financial statements on which the
 firm will express an opinion.
 
-•
-
-Amounts or disclosures that relate to the financial statements on
+• Amounts or disclosures that relate to the financial statements on
 which the firm will express an opinion.
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
 SUBSECTION 606 – INFORMATION TECHNOLOGY
-SYSTEMS SERVICES
-Introduction
+SYSTEMS SERVICES Introduction
 **606.1**
 
 In addition to the specific requirements and application material in this
@@ -14472,37 +11431,23 @@ Description of Service
 **606.2 A2**
 
 IT systems services comprise a broad range of services including:
-•
+• Designing or developing hardware or software IT systems.
 
-Designing or developing hardware or software IT systems.
-
-•
-
-Implementing IT systems, including installation, configuration,
+• Implementing IT systems, including installation, configuration,
 interfacing, or customization.
 
-•
-
-Operating, maintaining, monitoring, updating or upgrading IT
+• Operating, maintaining, monitoring, updating or upgrading IT
 systems.
 
-•
-
-Collecting or storing data or managing (directly or indirectly)
+• Collecting or storing data or managing (directly or indirectly)
 the hosting of data.
 
 The IT systems might:
-(a)
+(a) Aggregate source data;
 
-Aggregate source data;
+(b) Form part of the internal control over financial reporting; or
 
-(b)
-
-Form part of the internal control over financial reporting; or
-
-(c)
-
-Generate information that affects the accounting records or
+(c) Generate information that affects the accounting records or
 financial statements, including related disclosures.
 
 However, the IT systems might also involve matters that are unrelated
@@ -14515,56 +11460,40 @@ Service
 Paragraph R400.20 precludes a firm or a network firm from assuming
 a management responsibility. When providing IT systems services to
 an audit client, the firm or network firm shall be satisfied that:
-(a)
-
-The client acknowledges its responsibility for establishing and
+(a) The client acknowledges its responsibility for establishing and
 monitoring a system of internal controls;
 
 **606.3 A1**
 
-(b)
-
-The client, through a competent individual (or individuals),
+(b) The client, through a competent individual (or individuals),
 preferably within senior management, makes all management
 decisions that are the proper responsibility of management with
 respect to the design, development, implementation, operation,
 maintenance, monitoring, updating or upgrading of the IT
 systems;
 
-(c)
-
-The client evaluates the adequacy and results of the design,
+(c) The client evaluates the adequacy and results of the design,
 development, implementation, operation, maintenance,
 monitoring, updating or upgrading of the IT system; and
 
-(d)
-
-The client is responsible for operating the IT system and for the
+(d) The client is responsible for operating the IT system and for the
 data it generates and uses.
 
 Examples of IT systems services that result in the assumption of a
 management responsibility include where a firm or a network firm:
-•
-
-•
+• •
 **606.3 A2**
 
 Stores data or manages (directly or indirectly) the hosting of data
 on behalf of the audit client. Such services include:
-○
-
-Acting as the only access to a financial or non-financial
+○ Acting as the only access to a financial or non-financial
 information system of the audit client.
 
-○
-
-Taking custody of or storing the audit client’s data or
+○ Taking custody of or storing the audit client’s data or
 records such that the audit client’s data or records are
 otherwise incomplete.
 
-○
-
-Providing electronic security or back-up services, such
+○ Providing electronic security or back-up services, such
 as business continuity or a disaster recovery function, for
 the audit client’s data or records.
 
@@ -14591,20 +11520,14 @@ INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 Factors that are relevant in identifying a self-review threat created by
 providing an IT systems service to an audit client, and evaluating the
 level of such a threat include:
-•
+• The nature of the service.
 
-The nature of the service.
-
-•
-
-The nature of the client’s IT systems and the extent to which the
+• The nature of the client’s IT systems and the extent to which the
 IT systems service impacts or interacts with the client’s
 accounting records, internal controls over financial reporting or
 financial statements.
 
-•
-
-The degree of reliance that will be placed on the particular IT
+• The degree of reliance that will be placed on the particular IT
 systems as part of the audit.
 
 When a self-review threat for an audit client that is a public interest entity
@@ -14614,20 +11537,14 @@ has been identified, paragraph R606.6 applies.
 Examples of IT systems services that create a self-review threat when
 they form part of or affect an audit client’s accounting records or system
 of internal control over financial reporting include:
-•
-
-Designing, developing, implementing, operating, maintaining,
+• Designing, developing, implementing, operating, maintaining,
 monitoring, updating or upgrading IT systems, including those
 related to cybersecurity.
 
-•
-
-Supporting an audit client’s IT systems, including network and
+• Supporting an audit client’s IT systems, including network and
 software applications.
 
-•
-
-Implementing accounting or financial information reporting
+• Implementing accounting or financial information reporting
 software, whether or not it was developed by the firm or a
 network firm.
 
@@ -14660,23 +11577,15 @@ Description of Service
 **607.2 A1**
 
 Litigation support services might include activities such as:
-•
+• Assisting with document management and retrieval.
 
-Assisting with document management and retrieval.
+• Acting as a witness, including an expert witness.
 
-•
-
-Acting as a witness, including an expert witness.
-
-•
-
-Calculating estimated damages or other amounts that might
+• Calculating estimated damages or other amounts that might
 become receivable or payable as the result of litigation or other
 legal dispute.
 
-•
-
-Forensic or investigative services.
+• Forensic or investigative services.
 
 Potential Threats Arising from the Provision of Litigation Support Services
 All Audit Clients
@@ -14693,18 +11602,12 @@ advocacy threat.
 Factors that are relevant in identifying self-review or advocacy threats
 created by providing litigation support services to an audit client, and
 evaluating the level of such threats include:
-•
-
-The legal and regulatory environment in which the service is
+• The legal and regulatory environment in which the service is
 provided.
 
-•
+• The nature and characteristics of the service.
 
-The nature and characteristics of the service.
-
-•
-
-The extent to which the outcome of the litigation support service
+• The extent to which the outcome of the litigation support service
 might involve estimating, or might affect the estimation of,
 damages or other amounts that might have a material effect on
 the financial statements on which the firm will express an
@@ -14755,21 +11658,16 @@ advocacy threat created by providing a litigation support service to an
 audit client that is a public interest entity is using a professional who
 was not an audit team member to perform the service.
 
-Acting as a Witness
-All Audit Clients
+Acting as a Witness All Audit Clients
 **607.7 A1**
 
 A professional within the firm or the network firm might give evidence
 to a tribunal or court as a witness of fact or as an expert witness.
-(a)
-
-A witness of fact is an individual who gives evidence to a
+(a) A witness of fact is an individual who gives evidence to a
 tribunal or court based on his or her direct knowledge of facts or
 events.
 
-(b)
-
-An expert witness is an individual who gives evidence, including
+(b) An expert witness is an individual who gives evidence, including
 
 opinions on matters, to a tribunal or court based on that
 individual’s expertise.
@@ -14785,29 +11683,17 @@ factual evidence.
 
 The advocacy threat created when acting as an expert witness on behalf
 of an audit client is at an acceptable level if a firm or a network firm is:
-(a)
-
-Appointed by a tribunal or court to act as an expert witness in a
+(a) Appointed by a tribunal or court to act as an expert witness in a
 matter involving a client; or
 
-(b)
-
-Engaged to advise or act as an expert witness in relation to a
+(b) Engaged to advise or act as an expert witness in relation to a
 class action (or an equivalent group representative action)
 provided that:
-(i)
-
-The firm’s audit clients constitute less than 20% of the
+(i) The firm’s audit clients constitute less than 20% of the
 members of the class or group (in number and in value);
 
-(ii)
-
-No audit client is designated to lead the class or group;
-and
-
-(iii)
-
-No audit client is authorized by the class or group to
+(ii) No audit client is designated to lead the class or group;
+and (iii) No audit client is authorized by the class or group to
 determine the nature and scope of the services to be
 provided by the firm or the terms on which such services
 are to be provided.
@@ -14848,27 +11734,17 @@ Description of Service
 
 Legal services are defined as any services for which the individual
 providing the services must either:
-(a)
+(a) Have the required legal training to practice law; or
 
-Have the required legal training to practice law; or
-
-(b)
-
-Be admitted to practice law before the courts of the jurisdiction
+(b) Be admitted to practice law before the courts of the jurisdiction
 in which such services are to be provided.
 
 This subsection deals specifically with:
-•
+• Providing legal advice.
 
-Providing legal advice.
+• Acting as general counsel.
 
-•
-
-Acting as general counsel.
-
-•
-
-Acting in an advocacy role.
+• Acting in an advocacy role.
 
 Potential Threats Arising from Providing Legal Services
 All Audit Clients
@@ -14886,26 +11762,16 @@ Description of Service
 Depending on the jurisdiction, providing legal advice might include a
 wide and diversified range of service areas including both corporate
 and commercial services to audit clients, such as:
-•
+• Contract support.
 
-Contract support.
+• Supporting an audit client in executing a transaction.
 
-•
+• Mergers and acquisitions.
 
-Supporting an audit client in executing a transaction.
-
-•
-
-Mergers and acquisitions.
-
-•
-
-Supporting and assisting an audit client’s internal legal
+• Supporting and assisting an audit client’s internal legal
 department.
 
-•
-
-Legal due diligence and restructuring.
+• Legal due diligence and restructuring.
 
 All Audit Clients
 **608.5 A1**
@@ -14913,14 +11779,10 @@ All Audit Clients
 Factors that are relevant in identifying self-review or advocacy threats
 created by providing legal advice to an audit client, and evaluating the
 level of such threats include:
-•
-
-The materiality of the specific matter in relation to the client’s
+• The materiality of the specific matter in relation to the client’s
 financial statements.
 
-•
-
-The complexity of the legal matter and the degree of judgment
+• The complexity of the legal matter and the degree of judgment
 necessary to provide the service.
 
 When a self-review threat for an audit client that is a public interest
@@ -14930,14 +11792,10 @@ entity has been identified, paragraph R608.7 applies.
 **608.5 A3**
 
 Examples of legal advice that might create a self-review threat include:
-•
-
-Estimating a potential loss arising from a lawsuit for the purpose
+• Estimating a potential loss arising from a lawsuit for the purpose
 of recording a provision in the client’s financial statements.
 
-•
-
-Interpreting provisions in contracts that might give rise to
+• Interpreting provisions in contracts that might give rise to
 liabilities reflected in the client’s financial statements.
 
 Negotiating on behalf of an audit client might create an advocacy threat
@@ -14950,14 +11808,10 @@ Audit Clients that are Not Public Interest Entities
 Examples of actions that might be safeguards to address self-review or
 advocacy threats created by providing legal advice to an audit client
 that is not a public interest entity include:
-•
-
-Using professionals who are not audit team members to perform
+• Using professionals who are not audit team members to perform
 the service might address a self-review or advocacy threat.
 
-•
-
-Having an appropriate reviewer who was not involved in
+• Having an appropriate reviewer who was not involved in
 providing the service review the audit work or the service
 performed might address a self-review threat.
 
@@ -14995,8 +11849,7 @@ position with broad responsibility for the legal affairs of a company.
 
 C. Acting in an Advocacy Role
 Potential Threats Arising from Acting in an Advocacy Role Before a Tribunal or
-Court
-Audit Clients that are Not Public Interest Entities
+Court Audit Clients that are Not Public Interest Entities
 **R608.10**
 
 A firm or a network firm shall not act in an advocacy role for an audit
@@ -15009,14 +11862,10 @@ financial statements on which the firm will express an opinion.
 Examples of actions that might be safeguards to address a self-review
 or advocacy threat created when acting in an advocacy role for an audit
 client that is not a public interest entity include:
-•
-
-Using professionals who are not audit team members to perform
+• Using professionals who are not audit team members to perform
 the service.
 
-•
-
-Having an appropriate reviewer who was not involved in
+• Having an appropriate reviewer who was not involved in
 providing the service review the audit work or the service
 performed.
 
@@ -15041,38 +11890,22 @@ Description of Service
 **609.2 A1**
 
 Recruiting services might include activities such as:
-•
+• Developing a job description.
 
-Developing a job description.
-
-•
-
-Developing a process for identifying and selecting potential
+• Developing a process for identifying and selecting potential
 candidates.
 
-•
+• Searching for or seeking out candidates.
 
-Searching for or seeking out candidates.
+• Screening potential candidates for the role by:
 
-•
-
-Screening potential candidates for the role by:
-
-•
-
-o
-
-Reviewing the professional qualifications or competence
+• o Reviewing the professional qualifications or competence
 of applicants and determining their suitability for the
 position.
 
-o
+o Undertaking reference checks of prospective candidates.
 
-Undertaking reference checks of prospective candidates.
-
-o
-
-Interviewing and selecting suitable candidates and
+o Interviewing and selecting suitable candidates and
 advising on candidates’ competence.
 
 Determining employment terms and negotiating details, such as
@@ -15085,27 +11918,17 @@ Service
 Paragraph R400.20 precludes a firm or a network firm from assuming
 a management responsibility. When providing a recruiting service to
 an audit client, the firm shall be satisfied that:
-(a)
-
-The client assigns the responsibility to make all management
+(a) The client assigns the responsibility to make all management
 decisions with respect to hiring the candidate for the position to
 a competent employee, preferably within senior management;
-and
-
-(b)
-
-The client makes all management decisions with respect to the
+and (b) The client makes all management decisions with respect to the
 hiring process, including:
-•
-
-Determining the suitability of prospective candidates and
+• Determining the suitability of prospective candidates and
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 
 selecting suitable candidates for the position.
-•
-
-Determining employment terms and negotiating details,
+• Determining employment terms and negotiating details,
 such as salary, hours and other compensation.
 
 Potential Threats Arising from Providing Recruiting Services
@@ -15124,32 +11947,22 @@ management responsibility:
 
 **609.4 A4**
 
-•
-
-Reviewing the professional qualifications of a number of
+• Reviewing the professional qualifications of a number of
 applicants and providing advice on their suitability for the
 position.
 
-•
-
-Interviewing candidates and advising on a candidate’s
+• Interviewing candidates and advising on a candidate’s
 competence for financial accounting, administrative or control
 positions.
 
 Factors that are relevant in identifying self-interest, familiarity or
 intimidation threats created by providing recruiting services to an audit
 client, and evaluating the level of such threats include:
-•
+• The nature of the requested assistance.
 
-The nature of the requested assistance.
+• The role of the individual to be recruited.
 
-•
-
-The role of the individual to be recruited.
-
-•
-
-Any conflicts of interest or relationships that might exist
+• Any conflicts of interest or relationships that might exist
 between the candidates and the firm providing the advice or
 service.
 
@@ -15167,31 +11980,19 @@ network firm shall not act as a negotiator on the client’s behalf.
 
 A firm or a network firm shall not provide a recruiting service to an
 audit client if the service relates to:
-(a)
+(a) Searching for or seeking out candidates;
 
-Searching for or seeking out candidates;
+(b) Undertaking reference checks of prospective candidates;
 
-(b)
+(c) Recommending the person to be appointed; or
 
-Undertaking reference checks of prospective candidates;
-
-(c)
-
-Recommending the person to be appointed; or
-
-(d)
-
-Advising on the terms of employment, remuneration or related
+(d) Advising on the terms of employment, remuneration or related
 benefits of a particular candidate,
 
 with respect to the following positions:
-(i)
+(i) A director or officer of the entity; or
 
-A director or officer of the entity; or
-
-(ii)
-
-A member of senior management in a position to exert
+(ii) A member of senior management in a position to exert
 significant influence over the preparation of the client’s
 accounting records or the financial statements on which the firm
 will express an opinion.
@@ -15210,29 +12011,17 @@ Description of Service
 **610.2 A1**
 
 Examples of corporate finance services include:
-•
+• Assisting an audit client in developing corporate strategies.
 
-Assisting an audit client in developing corporate strategies.
+• Identifying possible targets for the audit client to acquire.
 
-•
+• Advising on the potential purchase or disposal price of an asset.
 
-Identifying possible targets for the audit client to acquire.
+• Assisting in finance raising transactions.
 
-•
+• Providing structuring advice.
 
-Advising on the potential purchase or disposal price of an asset.
-
-•
-
-Assisting in finance raising transactions.
-
-•
-
-Providing structuring advice.
-
-•
-
-Providing advice on the structuring of a corporate finance
+• Providing advice on the structuring of a corporate finance
 transaction or on financing arrangements.
 
 Potential Threats Arising from the Provision of Corporate Finance Services
@@ -15252,23 +12041,15 @@ INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 Factors that are relevant in identifying self-review or advocacy threats
 created by providing corporate finance services to an audit client, and
 evaluating the level of such threats include:
-•
-
-The degree of subjectivity involved in determining the
+• The degree of subjectivity involved in determining the
 appropriate treatment for the outcome or consequences of the
 corporate finance advice in the financial statements.
 
-•
-
-The extent to which:
-o
-
-The outcome of the corporate finance advice will directly
+• The extent to which:
+o The outcome of the corporate finance advice will directly
 affect amounts recorded in the financial statements.
 
-o
-
-The outcome of the corporate finance service might have
+o The outcome of the corporate finance service might have
 a material effect on the financial statements.
 
 When a self-review threat for an audit client that is a public interest
@@ -15286,15 +12067,11 @@ instruments.
 
 A firm or a network firm shall not provide advice in relation to
 corporate finance services to an audit client where:
-(a)
-
-The effectiveness of such advice depends on a particular
+(a) The effectiveness of such advice depends on a particular
 accounting treatment or presentation in the financial statements
 on which the firm will express an opinion; and
 
-(b)
-
-The audit team has doubt as to the appropriateness of the related
+(b) The audit team has doubt as to the appropriateness of the related
 accounting treatment or presentation under the relevant financial
 reporting framework.
 
@@ -15304,14 +12081,10 @@ Audit Clients that are Not Public Interest Entities
 Examples of actions that might be safeguards to address self-review or
 advocacy threats created by providing corporate finance services to an
 audit client that is not a public interest entity include:
-•
-
-Using professionals who are not audit team members to perform
+• Using professionals who are not audit team members to perform
 the service might address self-review or advocacy threats.
 
-•
-
-Having an appropriate reviewer who was not involved in
+• Having an appropriate reviewer who was not involved in
 providing the service review the audit work or service performed
 might address a self-review threat.
 
@@ -15366,15 +12139,11 @@ financial statements which includes a restriction on use and
 distribution, the independence requirements set out in Part 4A shall be
 eligible for the modifications that are permitted by this section, but only
 if:
-(a)
-
-The firm communicates with the intended users of the report
+(a) The firm communicates with the intended users of the report
 regarding the modified independence requirements that are to be
 applied in providing the service; and
 
-(b)
-
-The intended users of the report understand the purpose and
+(b) The intended users of the report understand the purpose and
 limitations of the report and explicitly agree to the application of
 the modifications.
 
@@ -15453,30 +12222,22 @@ Family and Personal Relationships
 **R800.10**
 
 When the firm performs an eligible audit engagement:
-(a)
-
-The relevant provisions set out in Sections 510, 511, 520, 521,
+(a) The relevant provisions set out in Sections 510, 511, 520, 521,
 522, 524 and 525 need apply only to the members of the
 engagement team, their immediate family members and, where
 applicable, close family members;
 
-(b)
-
-The firm shall identify, evaluate and address any threats to
+(b) The firm shall identify, evaluate and address any threats to
 independence created by interests and relationships, as set out in
 Sections 510, 511, 520, 521, 522, 524 and 525, between the audit
 client and the following audit team members:
 
-(c)
-
-(i)
+(c) (i)
 
 Those who provide consultation regarding technical or
 industry-specific issues, transactions or events; and
 
-(ii)
-
-Those who perform an engagement quality review, or a
+(ii) Those who perform an engagement quality review, or a
 review consistent with the objective of an engagement
 quality review, for the engagement; and
 
@@ -15529,11 +12290,9 @@ INTERNATIONAL INDEPENDENCE STANDARDS – PART 4A
 Employment with an Audit Client
 
 INTERNATIONAL INDEPENDENCE STANDARDS
-(PARTS 4A AND 4B)
-PART 4B – INDEPENDENCE FOR ASSURANCE
+(PARTS 4A AND 4B) PART 4B – INDEPENDENCE FOR ASSURANCE
 ENGAGEMENTS OTHER THAN AUDIT AND
-REVIEW ENGAGEMENTS
-Section 900 Applying the Conceptual Framework to Independence for
+REVIEW ENGAGEMENTS Section 900 Applying the Conceptual Framework to Independence for
 Assurance Engagements Other than Audit and Review
 
 Section 990 Reports that Include a Restriction on Use and Distribution
@@ -15545,40 +12304,27 @@ REVIEW ENGAGEMENTS
 ## Section 900 — Applying the Conceptual Framework to
 INDEPENDENCE FOR ASSURANCE ENGAGEMENTS
 OTHER THAN AUDIT AND REVIEW ENGAGEMENTS
-Introduction
-General
+Introduction General
 **900.1**
 
 This Part applies to assurance engagements other than audit
 engagements and review engagements. Examples of such engagements
 include:
-•
+• Assurance on an entity’s key performance indicators.
 
-Assurance on an entity’s key performance indicators.
+• Assurance on an entity’s compliance with law or regulation.
 
-•
-
-Assurance on an entity’s compliance with law or regulation.
-
-•
-
-Assurance on performance criteria, such as value for money,
+• Assurance on performance criteria, such as value for money,
 achieved by a public sector body.
 
-•
-
-Assurance on the effectiveness of an entity’s system of internal
+• Assurance on the effectiveness of an entity’s system of internal
 control.
 
-•
-
-Assurance on an entity’s non-financial information, for
+• Assurance on an entity’s non-financial information, for
 example, environmental, social and governance disclosures,
 including greenhouse gas statements.
 
-•
-
-An audit of specific elements, accounts or items of a financial
+• An audit of specific elements, accounts or items of a financial
 statement.
 
 **900.2**
@@ -15615,17 +12361,13 @@ accountant’s activities, interests or relationships.
 
 Independence is linked to the principles of objectivity and integrity. It
 comprises:
-(a)
-
-Independence of mind – the state of mind that permits the
+(a) Independence of mind – the state of mind that permits the
 expression of a conclusion without being affected by influences
 that compromise professional judgment, thereby allowing an
 individual to act with integrity, and exercise objectivity and
 professional skepticism.
 
-(b)
-
-Independence in appearance – the avoidance of facts and
+(b) Independence in appearance – the avoidance of facts and
 circumstances that are so significant that a reasonable and
 informed third party would be likely to conclude that a firm’s or
 an assurance team member’s integrity, objectivity or
@@ -15646,20 +12388,14 @@ as it does to the fundamental principles set out in Section 110.
 **900.6**
 
 This Part describes:
-(a)
-
-Facts and circumstances, including professional activities,
+(a) Facts and circumstances, including professional activities,
 interests and relationships, that create or might create threats to
 independence;
 
-(b)
-
-Potential actions, including safeguards, that might be
+(b) Potential actions, including safeguards, that might be
 appropriate to address any such threats; and
 
-(c)
-
-Some situations where the threats cannot be eliminated or there
+(c) Some situations where the threats cannot be eliminated or there
 can be no safeguards to reduce the threats to an acceptable level.
 
 **900.7**
@@ -15787,69 +12523,43 @@ Determining whether an activity is a management responsibility
 depends on the circumstances and requires the exercise of professional
 judgment. Examples of activities that would be considered a
 management responsibility include:
-•
+• Setting policies and strategic direction.
 
-Setting policies and strategic direction.
+• Hiring or dismissing employees.
 
-•
-
-Hiring or dismissing employees.
-
-•
-
-Directing and taking responsibility for the actions of employees
+• Directing and taking responsibility for the actions of employees
 in relation to the employees’ work for the entity.
 
-•
+• Authorizing transactions.
 
-Authorizing transactions.
+• Controlling or managing bank accounts or investments.
 
-•
-
-Controlling or managing bank accounts or investments.
-
-•
-
-Deciding which recommendations of the firm or other third
+• Deciding which recommendations of the firm or other third
 parties to implement.
 
-•
-
-Reporting to those charged with governance on behalf of
+• Reporting to those charged with governance on behalf of
 management.
 
-•
-
-Taking responsibility for designing, implementing, monitoring
+• Taking responsibility for designing, implementing, monitoring
 and maintaining internal control.
 
 Examples of IT systems services that result in the assumption of a
 management responsibility in relation to the underlying subject matter
 and, in an attestation engagement, the subject matter information of an
 assurance engagement, include where a firm:
-•
-
-•
-
-Stores data or manages (directly or indirectly) the hosting of data
+• • Stores data or manages (directly or indirectly) the hosting of data
 related to the underlying subject matter or subject matter
 information. Such services include:
-o
-
-Acting as the only access to the data or records related to
+o Acting as the only access to the data or records related to
 the underlying subject matter or subject matter
 information.
 
-o
-
-Taking custody of or storing the data or records related to
+o Taking custody of or storing the data or records related to
 the underlying subject matter or subject matter
 information such that the assurance client’s data or
 records are otherwise incomplete.
 
-o
-
-Providing electronic security or back-up services, such as
+o Providing electronic security or back-up services, such as
 business continuity or a disaster recovery function, for the
 assurance client’s data or records related to the underlying
 subject matter or subject matter information.
@@ -15883,35 +12593,23 @@ engagement, the subject matter information of the assurance
 engagement, the firm shall be satisfied that client management makes
 all related judgments and decisions that are the proper responsibility of
 management. This includes ensuring that the client’s management:
-(a)
-
-Designates an individual who possesses suitable skill,
+(a) Designates an individual who possesses suitable skill,
 knowledge and experience to be responsible at all times for the
 client’s decisions and to oversee the activities. Such an
 individual, preferably within senior management, would
 understand:
-(i)
+(i) The objectives, nature and results of the activities; and
 
-The objectives, nature and results of the activities; and
-
-(ii)
-
-The respective client and firm responsibilities.
+(ii) The respective client and firm responsibilities.
 
 However, the individual is not required to possess the expertise
 to perform or re-perform the activities.
 
 **900.14 A1**
 
-(b)
-
-Provides oversight of the activities and evaluates the adequacy
+(b) Provides oversight of the activities and evaluates the adequacy
 of the results of the activity performed for the client’s purpose;
-and
-
-(c)
-
-Accepts responsibility for the actions, if any, to be taken arising
+and (c) Accepts responsibility for the actions, if any, to be taken arising
 from the results of the activities.
 
 When technology is used in performing a professional activity for an
@@ -15936,15 +12634,11 @@ particular responsible party or party taking responsibility for the subject
 matter information would create a threat to independence that is not
 trivial and inconsequential in the context of the subject matter
 information. This determination will take into account factors such as:
-(a)
-
-The materiality of the underlying subject matter or subject
+(a) The materiality of the underlying subject matter or subject
 matter information for which the particular party is responsible
 in the context of the overall assurance engagement.
 
-(b)
-
-The degree of public interest associated with the assurance
+(b) The degree of public interest associated with the assurance
 engagement.
 
 If the firm determines that the threat created by any such interest or
@@ -15978,13 +12672,9 @@ Period During which Independence is Required
 **900.30 A1**
 
 Independence, as required by this Part, shall be maintained during both:
-(a)
+(a) The engagement period; and
 
-The engagement period; and
-
-(b)
-
-The period covered by the subject matter information.
+(b) The period covered by the subject matter information.
 
 The engagement period starts when the engagement team begins to
 perform assurance services with respect to the particular engagement.
@@ -16001,15 +12691,11 @@ If an entity becomes an assurance client during or after the period
 covered by the subject matter information on which the firm will
 express a conclusion, the firm shall determine whether any threats to
 independence are created by:
-(a)
-
-Financial or business relationships with the assurance client
+(a) Financial or business relationships with the assurance client
 during or after the period covered by the subject matter
 information but before accepting the assurance engagement; or
 
-(b)
-
-Previous services provided to the assurance client.
+(b) Previous services provided to the assurance client.
 
 **R900.32**
 
@@ -16030,41 +12716,25 @@ include:
 
 **R900.33**
 
-•
-
-Using professionals who are not assurance team members to
+• Using professionals who are not assurance team members to
 perform the service.
 
-•
-
-Having an appropriate reviewer review the assurance or nonassurance work as appropriate.
+• Having an appropriate reviewer review the assurance or nonassurance work as appropriate.
 
 If a non-assurance service that would not be permitted during the
 engagement period has not been completed and it is not practical to
 complete or end the service before the commencement of professional
 services in connection with the assurance engagement, the firm shall
 only accept the assurance engagement if:
-(a)
-
-The firm is satisfied that:
-(i)
-
-The non-assurance service will be completed within a
+(a) The firm is satisfied that:
+(i) The non-assurance service will be completed within a
 short period of time; or
 
-(ii)
-
-The client has arrangements in place to transition the
+(ii) The client has arrangements in place to transition the
 service to another provider within a short period of time;
 
-(b)
-
-The firm applies safeguards when necessary during the service
-period; and
-
-(c)
-
-The firm discusses the matter with the party engaging the firm
+(b) The firm applies safeguards when necessary during the service
+period; and (c) The firm discusses the matter with the party engaging the firm
 or those charged with governance of the assurance client.
 
 Communication with Those Charged With Governance
@@ -16093,12 +12763,9 @@ A firm shall document conclusions regarding compliance with this
 Part, and the substance of any relevant discussions that support those
 conclusions. In particular:
 When safeguards are applied to address a threat, the firm shall
-(a)
-document the nature of the threat and the safeguards in place or
-applied; and
-When a threat required significant analysis and the firm
-(b)
-concluded that the threat was already at an acceptable level, the
+(a) document the nature of the threat and the safeguards in place or
+applied; and When a threat required significant analysis and the firm
+(b) concluded that the threat was already at an acceptable level, the
 firm shall document the nature of the threat and the rationale for
 the conclusion.
 Documentation provides evidence of the firm’s judgments in forming
@@ -16113,21 +12780,15 @@ When a Firm Identifies a Breach
 
 If a firm concludes that a breach of a requirement in this Part has
 occurred, the firm shall:
-(a)
-
-End, suspend or eliminate the interest or relationship that created
+(a) End, suspend or eliminate the interest or relationship that created
 the breach;
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4B
 
-(b)
-
-Evaluate the significance of the breach and its impact on the
+(b) Evaluate the significance of the breach and its impact on the
 firm’s objectivity and ability to issue an assurance report; and
 
-(c)
-
-Determine whether action can be taken that satisfactorily
+(c) Determine whether action can be taken that satisfactorily
 addresses the consequences of the breach.
 
 In making this determination, the firm shall exercise professional
@@ -16170,36 +12831,22 @@ Documentation
 
 In complying with the requirements in paragraphs R900.50 to R900.53,
 the firm shall document:
-(a)
+(a) The breach;
 
-The breach;
+(b) The actions taken;
 
-(b)
+(c) The key decisions made; and
 
-The actions taken;
-
-(c)
-
-The key decisions made; and
-
-(d)
-
-All the matters discussed with the party that engaged the firm or
+(d) All the matters discussed with the party that engaged the firm or
 those charged with governance.
 
 If the firm continues with the assurance engagement, it shall document:
-(a)
-
-The conclusion that, in the firm’s professional judgment,
+(a) The conclusion that, in the firm’s professional judgment,
 objectivity has not been compromised; and
 
-(b)
-
-The rationale for why the action taken satisfactorily addressed
+(b) The rationale for why the action taken satisfactorily addressed
 the consequences of the breach so that the firm could issue an
-assurance report
-
-INTERNATIONAL INDEPENDENCE STANDARDS – PART 4B
+assurance report INTERNATIONAL INDEPENDENCE STANDARDS – PART 4B
 
 **R900.55**
 
@@ -16240,42 +12887,26 @@ when facts and circumstances change during the engagement period.
 
 Factors that are relevant in evaluating the level of threats created when
 fees are paid by the assurance client include:
-•
-
-The level of the fees for the assurance engagement and the extent
+• The level of the fees for the assurance engagement and the extent
 to which they have regard to the resources required, taking into
 account the firm’s commercial and market priorities.
 
-•
-
-The extent of any dependency between the level of the fee for,
+• The extent of any dependency between the level of the fee for,
 and the outcome of, the service.
 
-•
-
-The level of the fee in the context of the service to be provided
+• The level of the fee in the context of the service to be provided
 by the firm or a network firm.
 
-•
+• The significance of the client to the firm or partner.
 
-The significance of the client to the firm or partner.
+• The nature of the client.
 
-•
+• The nature of the assurance engagement.
 
-The nature of the client.
-
-•
-
-The nature of the assurance engagement.
-
-•
-
-The involvement of those charged with governance in agreeing
+• The involvement of those charged with governance in agreeing
 fees.
 
-•
-
-Whether the level of the fee is set by an independent third party,
+• Whether the level of the fee is set by an independent third party,
 such as a regulatory body.
 
 **905.3 A4**
@@ -16312,28 +12943,20 @@ engagement when paid by the assurance client include:
 
 **905.4 A3**
 
-•
-
-The firm’s commercial rationale for the fee for the assurance
+• The firm’s commercial rationale for the fee for the assurance
 engagement.
 
-•
-
-Whether undue pressure has been, or is being, applied by the
+• Whether undue pressure has been, or is being, applied by the
 client to reduce the fee for the assurance engagement.
 
 Examples of actions that might be safeguards to address such threats
 include:
-•
-
-Having an appropriate reviewer who does not take part in the
+• Having an appropriate reviewer who does not take part in the
 assurance engagement assess the reasonableness of the fee
 proposed, having regard to the scope and complexity of the
 engagement.
 
-•
-
-Having an appropriate reviewer who did not take part in the
+• Having an appropriate reviewer who did not take part in the
 assurance engagement review the work performed.
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4B
@@ -16373,39 +12996,25 @@ Factors that are relevant in evaluating the level of such a threat include:
 
 **905.7 A3**
 
-•
+• The range of possible fee amounts.
 
-The range of possible fee amounts.
-
-•
-
-Whether an appropriate authority determines the outcome on
+• Whether an appropriate authority determines the outcome on
 which the contingent fee depends.
 
-•
-
-Disclosure to intended users of the work performed by the firm
+• Disclosure to intended users of the work performed by the firm
 and the basis of remuneration.
 
-•
+• The nature of the service.
 
-The nature of the service.
-
-•
-
-The effect of the event or transaction on the subject matter
+• The effect of the event or transaction on the subject matter
 information.
 
 Examples of actions that might be safeguards to address such a selfinterest threat include:
-•
-
-Having an appropriate reviewer who was not involved in
+• Having an appropriate reviewer who was not involved in
 performing the non-assurance service review the relevant
 assurance work.
 
-•
-
-Obtaining an advance written agreement with the client on the
+• Obtaining an advance written agreement with the client on the
 basis of remuneration.
 
 **905.8 A1**
@@ -16428,41 +13037,27 @@ threat include:
 
 **R905.9**
 
-•
+• The significance of the overdue fees to the firm.
 
-The significance of the overdue fees to the firm.
+• The length of time the fees have been overdue.
 
-•
-
-The length of time the fees have been overdue.
-
-•
-
-The firm’s assessment of the ability and willingness of the client
+• The firm’s assessment of the ability and willingness of the client
 or other relevant party to pay the overdue fee.
 
 Examples of actions that might be safeguards to address such a threat
 include:
-•
+• Obtaining partial payment of overdue fees.
 
-Obtaining partial payment of overdue fees.
-
-•
-
-Having an appropriate reviewer who did not take part in the
+• Having an appropriate reviewer who did not take part in the
 assurance engagement review the work performed.
 
 When a significant part of the fees due from an assurance client remains
 unpaid for a long time, the firm shall determine:
-(a)
-
-Whether the overdue fees might be equivalent to a loan to the
+(a) Whether the overdue fees might be equivalent to a loan to the
 client, in which case the requirements and application material
 set out in Section 911 are applicable; and
 
-(b)
-
-Whether it is appropriate for the firm to be re-appointed or
+(b) Whether it is appropriate for the firm to be re-appointed or
 continue the assurance engagement.
 
 Total Fees―Fee Dependency
@@ -16498,25 +13093,17 @@ intimidation threats include:
 
 **905.10 A5**
 
-•
+• The operating structure of the firm.
 
-The operating structure of the firm.
-
-•
-
-Where the firm is expected to diversify such that any
+• Where the firm is expected to diversify such that any
 dependence on the assurance client is reduced.
 
 Examples of actions that might be safeguards to address such threats
 include:
-•
-
-Reducing the extent of services other than assurance
+• Reducing the extent of services other than assurance
 engagements provided to the client.
 
-•
-
-Increasing the client base of the firm to reduce dependence on
+• Increasing the client base of the firm to reduce dependence on
 the assurance client.
 
 **905.10 A6**
@@ -16531,30 +13118,20 @@ Factors that are relevant in evaluating the level of such threats include:
 
 **905.10 A8**
 
-•
-
-The qualitative and quantitative significance of the assurance
+• The qualitative and quantitative significance of the assurance
 client to the partner.
 
-•
-
-The extent to which the compensation of the partner is
+• The extent to which the compensation of the partner is
 dependent upon the fees generated from the client.
 
 Examples of actions that might be safeguards to address such a selfinterest or intimidation threat include:
-•
-
-Having an appropriate reviewer who was not an assurance team
+• Having an appropriate reviewer who was not an assurance team
 member review the work.
 
-•
-
-Ensuring that the compensation of the partner is not significantly
+• Ensuring that the compensation of the partner is not significantly
 influenced by the fees generated from the assurance client.
 
-•
-
-Increasing the client base of the partner to reduce dependence on
+• Increasing the client base of the partner to reduce dependence on
 the client.
 
 ## Section 906 — Gifts and Hospitality
@@ -16624,13 +13201,9 @@ disclosures and create self-interest and intimidation threats.
 **907.3 A2**
 
 Factors that are relevant in evaluating the level of such threats include:
-•
+• The materiality of the litigation.
 
-The materiality of the litigation.
-
-•
-
-Whether the litigation relates to a prior assurance engagement.
+• Whether the litigation relates to a prior assurance engagement.
 
 **907.3 A3**
 
@@ -16680,17 +13253,11 @@ individual’s immediate family members may be taken into account.
 
 Factors that are relevant in evaluating the level of a self-interest threat
 created by holding a financial interest in an assurance client include:
-•
+• The role of the individual holding the financial interest.
 
-The role of the individual holding the financial interest.
+• Whether the financial interest is direct or indirect.
 
-•
-
-Whether the financial interest is direct or indirect.
-
-•
-
-The materiality of the financial interest.
+• The materiality of the financial interest.
 
 Financial Interests Held by the Firm, Assurance Team Members and Immediate
 Family
@@ -16698,15 +13265,11 @@ Family
 
 A direct financial interest or a material indirect financial interest in the
 assurance client shall not be held by:
-(a)
-
-The firm; or
+(a) The firm; or
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4B
 
-(b)
-
-An assurance team member or any of that individual’s
+(b) An assurance team member or any of that individual’s
 immediate family.
 
 Financial Interests in an Entity Controlling an Assurance Client
@@ -16722,25 +13285,17 @@ Financial Interests Held as Trustee
 
 Paragraph R910.4 shall also apply to a financial interest in an assurance
 client held in a trust for which the firm or individual acts as trustee unless:
-(a)
-
-None of the following is a beneficiary of the trust: the trustee,
+(a) None of the following is a beneficiary of the trust: the trustee,
 the assurance team member or any of that individual’s
 immediate family, or the firm;
 
-(b)
-
-The interest in the assurance client held by the trust is not
+(b) The interest in the assurance client held by the trust is not
 material to the trust;
 
-(c)
-
-The trust is not able to exercise significant influence over the
+(c) The trust is not able to exercise significant influence over the
 assurance client; and
 
-(d)
-
-None of the following can significantly influence any
+(d) None of the following can significantly influence any
 investment decision involving a financial interest in the
 assurance client: the trustee, the assurance team member or any
 of that individual’s immediate family, or the firm.
@@ -16754,16 +13309,10 @@ indirect financial interest in an assurance client by way of an
 inheritance, gift, as a result of a merger, or in similar circumstances and
 the interest would not otherwise be permitted to be held under this
 section, then:
-(a)
-
-If the interest is received by the firm, the financial interest shall
+(a) If the interest is received by the firm, the financial interest shall
 be disposed of immediately, or enough of an indirect financial
 interest shall be disposed of so that the remaining interest is no
-longer material; or
-
-(b)
-
-If the interest is received by an assurance team member, or by
+longer material; or (b) If the interest is received by an assurance team member, or by
 any of that individual’s immediate family, the individual who
 received the financial interest shall immediately dispose of the
 financial interest, or dispose of enough of an indirect financial
@@ -16782,18 +13331,12 @@ Factors that are relevant in evaluating the level of such a threat include:
 
 **910.8 A3**
 
-•
-
-The nature of the relationship between the assurance team
+• The nature of the relationship between the assurance team
 member and the close family member.
 
-•
+• Whether the financial interest is direct or indirect.
 
-Whether the financial interest is direct or indirect.
-
-•
-
-The materiality of the financial interest to the close family
+• The materiality of the financial interest to the close family
 member.
 
 Examples of actions that might eliminate such a self-interest threat
@@ -16808,8 +13351,7 @@ financial interest so that the remaining interest is no longer
 material.
 
 Removing the individual from the assurance team.
-•
-An example of an action that might be a safeguard to address such a
+• An example of an action that might be a safeguard to address such a
 self-interest threat is having an appropriate reviewer review the work
 of the assurance team member.
 
@@ -16819,15 +13361,11 @@ Other Individuals
 A self-interest threat might be created if an assurance team member
 knows that a financial interest is held in the assurance client by
 individuals such as:
-•
-
-Partners and professional employees of the firm, apart from those
+• Partners and professional employees of the firm, apart from those
 who are specifically not permitted to hold such financial interests
 by paragraph R910.4, or their immediate family members.
 
-•
-
-Individuals with a close personal relationship with an assurance
+• Individuals with a close personal relationship with an assurance
 team member.
 
 **910.8 A6**
@@ -16844,14 +13382,10 @@ INTERNATIONAL INDEPENDENCE STANDARDS – PART 4B
 
 Financial Interests – Other Circumstances
 
-•
-
-Excluding the assurance team member from any significant
+• Excluding the assurance team member from any significant
 decision-making concerning the assurance engagement.
 
-•
-
-Having an appropriate reviewer review the work of the
+• Having an appropriate reviewer review the work of the
 assurance team member.
 
 ## Section 911 — Loans and Guarantees
@@ -16884,14 +13418,8 @@ Loans and Guarantees with an Assurance Client
 A firm, an assurance team member, or any of that individual’s
 immediate family shall not make or guarantee a loan to an assurance
 client unless the loan or guarantee is immaterial to both:
-(a)
-
-The firm or the individual making the loan or guarantee, as
-applicable; and
-
-(b)
-
-The client.
+(a) The firm or the individual making the loan or guarantee, as
+applicable; and (b) The client.
 
 Loans and Guarantees with an Assurance Client that is a Bank or Similar
 Institution
@@ -16940,14 +13468,8 @@ A firm or an assurance team member, or any of that individual’s
 immediate family, shall not accept a loan from, or have a borrowing
 guaranteed by, an assurance client that is not a bank or similar
 institution, unless the loan or guarantee is immaterial to both:
-(a)
-
-The firm, or the individual receiving the loan or guarantee, as
-applicable; and
-
-(b)
-
-The client.
+(a) The firm, or the individual receiving the loan or guarantee, as
+applicable; and (b) The client.
 
 ## Section 920 — Business Relationships
 Introduction
@@ -16981,28 +13503,20 @@ relationship or common financial interest include:
 
 **920.3 A3**
 
-•
-
-Having a financial interest in a joint venture with either the
+• Having a financial interest in a joint venture with either the
 assurance client or a controlling owner, director or officer or
 other individual who performs senior managerial activities for
 that client.
 
-•
-
-Arrangements to combine one or more services or products of
+• Arrangements to combine one or more services or products of
 the firm with one or more services or products of the client and
 to market the package with reference to both parties.
 
-•
-
-Arrangements under which the firm sells, resells, distributes or
+• Arrangements under which the firm sells, resells, distributes or
 markets the client’s products or services, or the client sells,
 resells, distributes or markets the firm’s products or services.
 
-•
-
-Arrangements under which a firm develops jointly with the
+• Arrangements under which a firm develops jointly with the
 client, products or solutions which one or both parties sell or
 license to third parties.
 
@@ -17041,25 +13555,17 @@ of such a nature and magnitude that they create a self-interest threat.
 
 Examples of actions that might eliminate such a self-interest threat
 include:
-•
+• Eliminating or reducing the magnitude of the transaction.
 
-Eliminating or reducing the magnitude of the transaction.
-
-•
-
-Removing the individual from the assurance team.
+• Removing the individual from the assurance team.
 
 Providing, Selling, Reselling or Licensing Technology
 **920.6 A1**
 
 Where a firm provides, sells, resells or licenses technology:
-(a)
+(a) To an assurance client; or
 
-To an assurance client; or
-
-(b)
-
-To an entity that provides services using such technology to
+(b) To an entity that provides services using such technology to
 assurance clients of the firm,
 
 depending on the facts and circumstances, the requirements and
@@ -17092,13 +13598,9 @@ of the assurance client.
 **921.3 A2**
 
 Factors that are relevant in evaluating the level of such threats include:
-•
+• The individual’s responsibilities on the assurance team.
 
-The individual’s responsibilities on the assurance team.
-
-•
-
-The role of the family member or other individual within the
+• The role of the family member or other individual within the
 assurance client, and the closeness of the relationship.
 
 Immediate Family of an Assurance Team Member
@@ -17112,13 +13614,9 @@ underlying subject matter of the assurance engagement.
 **921.4 A2**
 
 Factors that are relevant in evaluating the level of such threats include:
-•
+• The position held by the immediate family member.
 
-The position held by the immediate family member.
-
-•
-
-The role of the assurance team member.
+• The role of the assurance team member.
 
 **921.4 A3**
 
@@ -17140,19 +13638,13 @@ the immediate family member.
 
 An individual shall not participate as an assurance team member when
 any of that individual’s immediate family:
-(a)
+(a) Is a director or officer of the assurance client;
 
-Is a director or officer of the assurance client;
-
-(b)
-
-In an attestation engagement, is an employee in a position to
+(b) In an attestation engagement, is an employee in a position to
 exert significant influence over the subject matter information of
 the assurance engagement; or
 
-(c)
-
-Was in such a position during any period covered by the
+(c) Was in such a position during any period covered by the
 engagement or the subject matter information.
 
 Close Family of an Assurance Team Member
@@ -17162,30 +13654,20 @@ Close Family of an Assurance Team Member
 
 A self-interest, familiarity or intimidation threat is created when a close
 family member of an assurance team member is:
-(a)
+(a) A director or officer of the assurance client; or
 
-A director or officer of the assurance client; or
-
-(b)
-
-An employee in a position to exert significant influence over the
+(b) An employee in a position to exert significant influence over the
 underlying subject matter or, in an attestation engagement, an
 employee in a position to exert significant influence over the
 subject matter information of the assurance engagement.
 
 Factors that are relevant in evaluating the level of such threats include:
-•
-
-The nature of the relationship between the assurance team
+• The nature of the relationship between the assurance team
 member and the close family member.
 
-•
+• The position held by the close family member.
 
-The position held by the close family member.
-
-•
-
-The role of the assurance team member.
+• The role of the assurance team member.
 
 **921.6 A3**
 
@@ -17211,31 +13693,21 @@ member, but who is:
 
 **921.7 A1**
 
-(a)
+(a) A director or officer of the assurance client; or
 
-A director or officer of the assurance client; or
-
-(b)
-
-An employee in a position to exert significant influence over the
+(b) An employee in a position to exert significant influence over the
 underlying subject matter or, in an attestation engagement, an
 employee in a position to exert significant influence over the
 subject matter information of the assurance engagement.
 
 Factors that are relevant in evaluating the level of a self-interest,
 familiarity or intimidation threat created by such relationships include:
-•
-
-The nature of the relationship between the individual and the
+• The nature of the relationship between the individual and the
 assurance team member.
 
-•
+• The position the individual holds with the client.
 
-The position the individual holds with the client.
-
-•
-
-The role of the assurance team member.
+• The role of the assurance team member.
 
 **921.7 A2**
 
@@ -17259,58 +13731,36 @@ Relationships of Partners and Employees of the Firm
 
 A self-interest, familiarity or intimidation threat might be created by a
 personal or family relationship between:
-(a)
-
-A partner or employee of the firm who is not an assurance team
-member; and
-
-(b)
-
-Any of the following individuals at the assurance client:
+(a) A partner or employee of the firm who is not an assurance team
+member; and (b) Any of the following individuals at the assurance client:
 A director or officer;
 
-(ii)
-
-An employee in a position to exert significant influence
+(ii) An employee in a position to exert significant influence
 over the underlying subject matter or, in an attestation
 engagement, an employee in a position to exert
 significant influence over the subject matter information
 of the assurance engagement.
 
 Factors that are relevant in evaluating the level of such threats include:
-•
-
-(i)
-
-The nature of the relationship between the partner or employee
+• (i) The nature of the relationship between the partner or employee
 of the firm and the director or officer or employee of the client.
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4B
 
 **921.8 A3**
 
-•
-
-The degree of interaction of the partner or employee of the firm
+• The degree of interaction of the partner or employee of the firm
 with the assurance team.
 
-•
+• The position of the partner or employee within the firm.
 
-The position of the partner or employee within the firm.
-
-•
-
-The role of the individual within the client.
+• The role of the individual within the client.
 
 Examples of actions that might be safeguards to address such selfinterest, familiarity or intimidation threats include:
-•
-
-Structuring the partner’s or employee’s responsibilities to
+• Structuring the partner’s or employee’s responsibilities to
 reduce any potential influence over the assurance engagement.
 
-•
-
-Having an appropriate reviewer review the relevant assurance
+• Having an appropriate reviewer review the relevant assurance
 work performed.
 
 ## Section 922 — Recent Service with an Assurance Client
@@ -17335,13 +13785,9 @@ Service During the Period Covered by the Assurance Report
 
 The assurance team shall not include an individual who, during the
 period covered by the assurance report:
-(a)
+(a) Had served as a director or officer of the assurance client; or
 
-Had served as a director or officer of the assurance client; or
-
-(b)
-
-Was an employee in a position to exert significant influence over
+(b) Was an employee in a position to exert significant influence over
 the underlying subject matter or, in an attestation engagement,
 an employee in a position to exert significant influence over the
 subject matter information of the assurance engagement.
@@ -17352,13 +13798,9 @@ Service Prior to the Period Covered by the Assurance Report
 A self-interest, self-review or familiarity threat might be created if,
 before the period covered by the assurance report, an assurance team
 member:
-(a)
+(a) Had served as a director or officer of the assurance client; or
 
-Had served as a director or officer of the assurance client; or
-
-(b)
-
-Was an employee in a position to exert significant influence over
+(b) Was an employee in a position to exert significant influence over
 the underlying subject matter or, in an attestation engagement,
 an employee in a position to exert significant influence over the
 subject matter information of the assurance engagement.
@@ -17374,25 +13816,18 @@ INTERNATIONAL INDEPENDENCE STANDARDS – PART 4B
 **922.4 A3**
 
 Factors that are relevant in evaluating the level of such threats include:
-•
+• The position the individual held with the client.
 
-The position the individual held with the client.
+• The length of time since the individual left the client.
 
-•
-
-The length of time since the individual left the client.
-
-•
-
-The role of the assurance team member.
+• The role of the assurance team member.
 
 An example of an action that might be a safeguard to address such a
 self-interest, self-review or familiarity threat is having an appropriate
 reviewer review the work performed by the assurance team member.
 
 ## Section 923 — Serving As a Director or Officer of an
-ASSURANCE CLIENT
-Introduction
+ASSURANCE CLIENT Introduction
 **923.1**
 
 Firms are required to comply with the fundamental principles, be
@@ -17419,18 +13854,12 @@ Service as Company Secretary
 
 A partner or employee of the firm shall not serve as Company Secretary
 for an assurance client of the firm unless:
-(a)
-
-This practice is specifically permitted under local law,
+(a) This practice is specifically permitted under local law,
 professional rules or practice;
 
-(b)
+(b) Management makes all decisions; and
 
-Management makes all decisions; and
-
-(c)
-
-The duties and activities performed are limited to those of a
+(c) The duties and activities performed are limited to those of a
 routine and administrative nature, such as preparing minutes and
 maintaining statutory returns.
 
@@ -17444,9 +13873,7 @@ the entity. Therefore, a threat is created if a partner or employee of the
 firm serves as Company Secretary for an assurance client. (More
 information on providing non-assurance services to an assurance client
 is set out in Section 950, Provision of Non-assurance Services to an
-Assurance Client.)
-
-INTERNATIONAL INDEPENDENCE STANDARDS – PART 4B
+Assurance Client.) INTERNATIONAL INDEPENDENCE STANDARDS – PART 4B
 
 ## Section 924 — Employment with an Assurance Client
 Introduction
@@ -17469,13 +13896,9 @@ General
 A familiarity or intimidation threat might be created if any of the
 following individuals have been an assurance team member or partner
 of the firm:
-•
+• A director or officer of the assurance client.
 
-A director or officer of the assurance client.
-
-•
-
-An employee in a position to exert significant influence over the
+• An employee in a position to exert significant influence over the
 underlying subject matter or, in an attestation engagement, an
 employee in a position to exert significant influence over the
 subject matter information of the assurance engagement.
@@ -17487,13 +13910,9 @@ Former Partner or Assurance Team Member Restrictions
 
 If a former partner has joined an assurance client of the firm or a former
 assurance team member has joined the assurance client as:
-(a)
+(a) A director or officer; or
 
-A director or officer; or
-
-(b)
-
-An employee in a position to exert significant influence over the
+(b) An employee in a position to exert significant influence over the
 underlying subject matter or, in an attestation engagement, an
 employee in a position to exert significant influence over the
 subject matter information of the assurance engagement, the
@@ -17518,52 +13937,34 @@ Factors that are relevant in evaluating the level of such threats include:
 
 **924.4 A4**
 
-•
+• The position the individual has taken at the client.
 
-The position the individual has taken at the client.
-
-•
-
-Any involvement the individual will have with the assurance
+• Any involvement the individual will have with the assurance
 team.
 
-•
-
-The length of time since the individual was an assurance team
+• The length of time since the individual was an assurance team
 member or partner of the firm.
 
-•
-
-The former position of the individual within the assurance team
+• The former position of the individual within the assurance team
 or firm. An example is whether the individual was responsible
 for maintaining regular contact with the client’s management or
 those charged with governance.
 
 Examples of actions that might be safeguards to address such a
 familiarity or intimidation threat include:
-•
-
-Making arrangements such that the individual is not entitled to
+• Making arrangements such that the individual is not entitled to
 any benefits or payments from the firm, unless made in
 accordance with fixed pre-determined arrangements.
 
-•
-
-Making arrangements such that any amount owed to the
+• Making arrangements such that any amount owed to the
 individual is not material to the firm.
 
-•
+• Modifying the plan for the assurance engagement.
 
-Modifying the plan for the assurance engagement.
-
-•
-
-Assigning to the assurance team individuals who have sufficient
+• Assigning to the assurance team individuals who have sufficient
 experience relative to the individual who has joined the client.
 
-•
-
-Having an appropriate reviewer review the work of the former
+• Having an appropriate reviewer review the work of the former
 assurance team member.
 
 Assurance Team Members Entering Employment Negotiations with a Client
@@ -17595,8 +13996,7 @@ significant judgments made by that assurance team member while on
 the team.
 
 ## Section 940 — Long Association of Personnel with an
-ASSURANCE CLIENT
-Introduction
+ASSURANCE CLIENT Introduction
 **940.1**
 
 Firms are required to comply with the fundamental principles, be
@@ -17617,17 +14017,11 @@ General
 
 A familiarity threat might be created as a result of an individual’s long
 association with:
-(a)
+(a) The assurance client;
 
-The assurance client;
+(b) The assurance client’s senior management; or
 
-(b)
-
-The assurance client’s senior management; or
-
-(c)
-
-The underlying subject matter or, in an attestation engagement,
+(c) The underlying subject matter or, in an attestation engagement,
 subject matter information of the assurance engagement.
 
 **940.3 A2**
@@ -17643,49 +14037,33 @@ influence the individual’s judgment inappropriately.
 Factors that are relevant to evaluating the level of such familiarity or
 self-interest threats include:
 
-•
+• The nature of the assurance engagement.
 
-The nature of the assurance engagement.
-
-•
-
-How long the individual has been an assurance team member,
+• How long the individual has been an assurance team member,
 the individual’s seniority on the team, and the nature of the roles
 performed, including if such a relationship existed while the
 individual was at a prior firm.
 
-•
-
-The extent to which the work of the individual is directed,
+• The extent to which the work of the individual is directed,
 reviewed and supervised by more senior personnel.
 
-•
-
-The extent to which the individual, due to the individual’s
+• The extent to which the individual, due to the individual’s
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4B
 
 seniority, has the ability to influence the outcome of the
 assurance engagement, for example, by making key decisions or
 directing the work of other engagement team members.
-•
-
-The closeness of the individual’s personal relationship with the
+• The closeness of the individual’s personal relationship with the
 assurance client or, if relevant, senior management.
 
-•
-
-The nature, frequency and extent of interaction between the
+• The nature, frequency and extent of interaction between the
 individual and the assurance client.
 
-•
-
-Whether the nature or complexity of the underlying subject
+• Whether the nature or complexity of the underlying subject
 matter or subject matter information has changed.
 
-•
-
-Whether there have been any recent changes in the individual or
+• Whether there have been any recent changes in the individual or
 individuals at the assurance client who are responsible for the
 underlying subject matter or, in an attestation engagement, the
 subject matter information or, if relevant, senior management.
@@ -17712,38 +14090,24 @@ familiarity or self-interest threats include:
 
 **R940.4**
 
-•
-
-Changing the role of the individual on the assurance team or the
+• Changing the role of the individual on the assurance team or the
 nature and extent of the tasks the individual performs.
 
-•
-
-Having an appropriate reviewer who was not an assurance team
+• Having an appropriate reviewer who was not an assurance team
 member review the work of the individual.
 
-•
-
-Performing regular independent internal or external quality
+• Performing regular independent internal or external quality
 reviews of the engagement.
 
 If a firm decides that the level of the threats created can only be addressed
 by rotating the individual off the assurance team, the firm shall determine
 an appropriate period during which the individual shall not:
-(a)
-
-Be a member of the engagement team for the assurance
+(a) Be a member of the engagement team for the assurance
 engagement;
 
-(b)
-
-Perform an engagement quality review, or a review consistent
+(b) Perform an engagement quality review, or a review consistent
 with the objective of an engagement quality review, for the
-engagement; or
-
-(c)
-
-Exert direct influence on the outcome of the assurance
+engagement; or (c) Exert direct influence on the outcome of the assurance
 engagement.
 
 The period shall be of sufficient duration to allow the familiarity and
@@ -17752,8 +14116,7 @@ self-interest threats to be addressed.
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4B
 
 ## Section 950 — Provision of Non-assurance Services to
-ASSURANCE CLIENTS
-Introduction
+ASSURANCE CLIENTS Introduction
 **950.1**
 
 Firms are required to comply with the fundamental principles, be
@@ -17789,27 +14152,18 @@ requirements and application material.
 
 The requirements and application material in this section apply where
 a firm:
-(a)
-
-Uses technology to provide a non-assurance service to an
+(a) Uses technology to provide a non-assurance service to an
 assurance client; or
 
-(b)
-
-Provides, sells, resells or licenses technology resulting in the
+(b) Provides, sells, resells or licenses technology resulting in the
 provision of a non-assurance service by the firm:
-(i)
+(i) To an assurance client; or
 
-To an assurance client; or
-
-(ii)
-
-To an entity that provides services using such technology
+(ii) To an entity that provides services using such technology
 to assurance clients of the firm.
 
 Requirements and Application Material
-General
-Risk of Assuming Management Responsibilities When Providing a Non-Assurance
+General Risk of Assuming Management Responsibilities When Providing a Non-Assurance
 Service
 **950.6 A1**
 
@@ -17841,64 +14195,42 @@ Factors that are relevant in identifying and evaluating the different
 threats that might be created by providing a non-assurance service to
 an assurance client include:
 
-•
+• The nature, scope, intended use and purpose of the service.
 
-The nature, scope, intended use and purpose of the service.
-
-•
-
-The manner in which the service will be provided, such as the
+• The manner in which the service will be provided, such as the
 personnel to be involved and their location.
 
-•
-
-The client’s dependency on the service, including the frequency
+• The client’s dependency on the service, including the frequency
 with which the service will be provided.
 
-•
-
-The legal and regulatory environment in which the service is
+• The legal and regulatory environment in which the service is
 provided.
 
-•
+• Whether the client is a public interest entity.
 
-Whether the client is a public interest entity.
-
-•
-
-The level of expertise of the client’s management and employees
+• The level of expertise of the client’s management and employees
 with respect to the type of service provided.
 
-•
-
-Whether the outcome of the service will affect the underlying
+• Whether the outcome of the service will affect the underlying
 subject matter and, in an attestation engagement, matters
 reflected in the subject matter information of the assurance
 engagement, and, if so:
 
 INTERNATIONAL INDEPENDENCE STANDARDS – PART 4B
 
-o
-
-The extent to which the outcome of the service will have
+o The extent to which the outcome of the service will have
 a material effect on the underlying subject matter and, in
 an attestation engagement, the subject matter information
 of the assurance engagement.
 
-o
-
-The extent to which the assurance client determines
+o The extent to which the assurance client determines
 significant matters of judgment (Ref: Para. R900.13 to
 R900.14).
 
-•
-
-The degree of reliance that will be placed on the outcome of the
+• The degree of reliance that will be placed on the outcome of the
 service as part of the assurance engagement.
 
-•
-
-The fee relating to the provision of the non-assurance service.
+• The fee relating to the provision of the non-assurance service.
 
 Materiality in Relation to an Assurance Client’s Information
 **950.9 A1**
@@ -17930,23 +14262,15 @@ which subsequently becomes the subject matter information of an
 assurance engagement. Examples of non-assurance services that might
 create such self-review threats when providing services related to the
 subject matter information of an assurance engagement include:
-•
-
-Developing and preparing prospective information and
+• Developing and preparing prospective information and
 subsequently issuing an assurance report on this information.
 
-•
-
-Performing a valuation that is related to or forms part of the subject
+• Performing a valuation that is related to or forms part of the subject
 matter information of an assurance engagement.
 Designing, developing, implementing, operating, maintaining,
 monitoring, updating or upgrading IT systems or IT controls and
 
-•
-
-•
-
-subsequently undertaking an assurance engagement on a statement
+• • subsequently undertaking an assurance engagement on a statement
 or report prepared about the IT systems or IT controls.
 Designing, developing, implementing, operating, maintaining,
 monitoring, updating or upgrading IT systems and subsequently
@@ -17960,14 +14284,8 @@ Assurance clients that are public interest entities
 Expectations about a firm’s independence are heightened when an
 assurance engagement is undertaken by a firm for a public interest
 entity and the results of that engagement will be:
-(a)
-
-Made available publicly, including to shareholders and other
-stakeholders; or
-
-(b)
-
-Provided to an entity or organization established by law or
+(a) Made available publicly, including to shareholders and other
+stakeholders; or (b) Provided to an entity or organization established by law or
 regulation to oversee the operation of a business sector or
 activity.
 
@@ -18008,14 +14326,10 @@ INTERNATIONAL INDEPENDENCE STANDARDS – PART 4B
 
 Examples of actions that might be safeguards to address such threats
 include:
-•
-
-Using professionals who are not assurance team members to
+• Using professionals who are not assurance team members to
 perform the service.
 
-•
-
-Having an appropriate reviewer who was not involved in
+• Having an appropriate reviewer who was not involved in
 providing the service review the assurance work or service
 performed.
 
@@ -18023,19 +14337,13 @@ Safeguards might not be available to reduce the threat created by
 providing a non-assurance service to an assurance client to an
 acceptable level. In such a situation, the application of the conceptual
 framework requires the firm to:
-(a)
-
-Adjust the scope of the proposed service to eliminate the
+(a) Adjust the scope of the proposed service to eliminate the
 circumstances that are creating the threat;
 
-(b)
-
-Decline or end the service that creates the threat that cannot be
+(b) Decline or end the service that creates the threat that cannot be
 eliminated or reduced to an acceptable level; or
 
-(c)
-
-End the assurance engagement.
+(c) End the assurance engagement.
 
 ## Section 990 — Reports That Include a Restriction on Use and
 DISTRIBUTION (ASSURANCE ENGAGEMENTS OTHER
@@ -18064,15 +14372,11 @@ When a firm intends to issue a report on an assurance engagement
 which includes a restriction on use and distribution, the independence
 requirements set out in Part 4B shall be eligible for the modifications
 that are permitted by this section, but only if:
-(a)
-
-The firm communicates with the intended users of the report
+(a) The firm communicates with the intended users of the report
 regarding the modified independence requirements that are to be
 applied in providing the service; and
 
-(b)
-
-The intended users of the report understand the purpose, subject
+(b) The intended users of the report understand the purpose, subject
 matter information and limitations of the report and explicitly
 agree to the application of the modifications.
 
@@ -18125,31 +14429,21 @@ Personal Relationships
 **R990.7**
 
 When the firm performs an eligible assurance engagement:
-(a)
-
-The relevant provisions set out in Sections 910, 911, 920, 921,
+(a) The relevant provisions set out in Sections 910, 911, 920, 921,
 922 and 924 need apply only to the members of the engagement
 team, and their immediate and close family members;
 
-(b)
-
-The firm shall identify, evaluate and address any threats to
+(b) The firm shall identify, evaluate and address any threats to
 independence created by interests and relationships, as set out in
 Sections 910, 911, 920, 921, 922 and 924, between the assurance
 client and the following assurance team members;
 
-(c)
+(c) **990.7 A1**
 
-**990.7 A1**
-
-(i)
-
-Those who provide consultation regarding technical or
+(i) Those who provide consultation regarding technical or
 industry-specific issues, transactions or events; and
 
-(ii)
-
-Those who perform an engagement quality review, or a
+(ii) Those who perform an engagement quality review, or a
 review consistent with the objective of an engagement
 quality review, for the engagement; and
 
@@ -18182,37 +14476,25 @@ In this Glossary, explanations of defined terms are shown in regular font; itali
 used for explanations of described terms which have a specific meaning in certain parts
 of the Code or for additional explanations of defined terms. References are also
 provided to terms described in the Code.
-Acceptable level
-
-A level at which a professional accountant using the reasonable and
+Acceptable level A level at which a professional accountant using the reasonable and
 informed third party test would likely conclude that the accountant
 complies with the fundamental principles.
 
-Advertising
-
-The communication to the public of information as to the services or
+Advertising The communication to the public of information as to the services or
 skills provided by professional accountants in public practice with a
 view to procuring professional business.
 
-Appropriate
-reviewer
-
-An appropriate reviewer is a professional with the necessary
+Appropriate reviewer An appropriate reviewer is a professional with the necessary
 knowledge, skills, experience and authority to review, in an
 objective manner, the relevant work performed or service
 provided. Such an individual might be a professional accountant.
 This term is described in paragraph 300.8 A4.
 
-Assurance client
-
-The responsible party and also, in an attestation engagement, the
+Assurance client The responsible party and also, in an attestation engagement, the
 party taking responsibility for the subject matter information (who
 might be the same as the responsible party).
 
-Assurance
-engagement
-
-An engagement in which a professional accountant in public practice
+Assurance engagement An engagement in which a professional accountant in public practice
 aims to obtain sufficient appropriate evidence in order to express a
 conclusion designed to enhance the degree of confidence of the
 intended users other than the responsible party about the subject matter
@@ -18223,45 +14505,26 @@ Assurance Framework provides a general description of assurance
 engagements to which International Standards on Auditing (ISAs),
 International Standards on Review Engagements (ISREs) and
 International Standards on Assurance Engagements (ISAEs)
-apply.)
-
-GLOSSARY
-
-In Part 4B, the term ‘assurance engagement’ addresses assurance
+apply.) GLOSSARY In Part 4B, the term ‘assurance engagement’ addresses assurance
 engagements other than audit engagements or review
 engagements.
-Assurance team
-
-Attestation
-engagement
-
-(a)
-
-All members of the engagement team for the assurance
+Assurance team Attestation engagement (a) All members of the engagement team for the assurance
 engagement;
 
-(b)
-
-All others within, or engaged by, the firm who can directly
+(b) All others within, or engaged by, the firm who can directly
 influence the outcome of the assurance engagement,
 including:
-(i)
-
-Those who recommend the compensation of, or who
+(i) Those who recommend the compensation of, or who
 provide direct supervisory, management or other
 oversight of the assurance engagement partner in
 connection with the performance of the assurance
 engagement;
 
-(ii)
-
-Those who provide consultation regarding technical
+(ii) Those who provide consultation regarding technical
 or industry-specific issues, transactions or events
 for the assurance engagement; and
 
-(iii)
-
-Those who perform an engagement quality review,
+(iii) Those who perform an engagement quality review,
 or a review consistent with the objective of an
 engagement quality review, for the engagement.
 
@@ -18276,45 +14539,24 @@ the accountant’s conclusion addresses whether the subject matter
 information is free from material misstatement.
 The accountant’s conclusion may be phrased in terms of:
 
-Audit
+Audit GLOSSARY (i) The underlying subject matter and the applicable criteria;
 
-GLOSSARY
-
-(i)
-
-The underlying subject matter and the applicable criteria;
-
-(ii)
-
-The subject matter information and the applicable criteria;
-or
-
-(iii)
-
-A statement made by the appropriate party.
+(ii) The subject matter information and the applicable criteria;
+or (iii) A statement made by the appropriate party.
 
 In Part 4A, the term “audit” applies equally to “review.”
 
-GLOSSARY
-
-Audit client
-
-An entity in respect of which a firm conducts an audit
+GLOSSARY Audit client An entity in respect of which a firm conducts an audit
 engagement. When the client is a publicly traded entity, in
 accordance with paragraphs R400.22 and R400.23, audit client
 will always include its related entities. When the audit client is not
 a publicly traded entity, audit client includes those related entities
 over which the client has direct or indirect control. (See also
-paragraph R400.27.)
-In Part 4A, the term “audit client” applies equally to “review
-client.”
-In the case of a group audit, see the definition of group audit
+paragraph R400.27.) In Part 4A, the term “audit client” applies equally to “review
+client.” In the case of a group audit, see the definition of group audit
 client.
 
-Audit
-engagement
-
-A reasonable assurance engagement in which a professional
+Audit engagement A reasonable assurance engagement in which a professional
 accountant in public practice expresses an opinion whether
 financial statements are prepared, in all material respects (or give
 a true and fair view or are presented fairly, in all material
@@ -18326,25 +14568,13 @@ regulation.
 In Part 4A, the term “audit engagement” applies equally to
 “review engagement.”
 
-Audit report
-
-In Part 4A, the term “audit report” applies equally to “review
-report.”
-
-Audit team
-
-(a)
-
-All members of the engagement team for the audit
+Audit report In Part 4A, the term “audit report” applies equally to “review
+report.” Audit team (a) All members of the engagement team for the audit
 engagement;
 
-(b)
-
-All others within, or engaged by, the firm who can directly
+(b) All others within, or engaged by, the firm who can directly
 influence the outcome of the audit engagement, including:
-(i)
-
-Those who recommend the compensation of, or who
+(i) Those who recommend the compensation of, or who
 provide direct supervisory, management or other
 oversight of the engagement partner in connection
 with the performance of the audit engagement,
@@ -18353,104 +14583,62 @@ above the engagement partner through to the
 individual who is the firm’s Senior or Managing
 Partner (Chief Executive or equivalent);
 
-(ii)
+(ii) Those who provide consultation regarding technical
 
-Those who provide consultation regarding technical
-
-GLOSSARY
-
-(iii)
-
-(c)
-
-Those who perform an engagement quality review,
+GLOSSARY (iii) (c) Those who perform an engagement quality review,
 or a review consistent with the objective of an
 engagement quality review, for the engagement;
-and
-
-Any other individuals within a network firm who can
+and Any other individuals within a network firm who can
 directly influence the outcome of the audit engagement.
 
 In Part 4A, the term “audit team” applies equally to “review
 team.” In the case of a group audit, see the definition of group
 audit team.
-Close family
+Close family A parent, child or sibling who is not an immediate family member.
 
-A parent, child or sibling who is not an immediate family member.
-
-Component
-
-An entity, business unit, function or business activity, or some
+Component An entity, business unit, function or business activity, or some
 combination thereof, determined by the group auditor for
 purposes of planning and performing audit procedures in a group
 audit.
 
 Component audit A component in respect of which a group auditor firm or
-client
-component auditor firm performs audit work for purposes of a
+client component auditor firm performs audit work for purposes of a
 group audit. When a component is:
-(a)
-
-A legal entity, the component audit client is the entity and
+(a) A legal entity, the component audit client is the entity and
 any related entities over which the entity has direct or
 indirect control; or
 
-(b)
-
-A business unit, function or business activity (or some
+(b) A business unit, function or business activity (or some
 combination thereof), the component audit client is the
 legal entity or entities to which the business unit belongs
 or in which the function or business activity is being
 performed.
 
-Component
-auditor firm
-
-A firm performing audit work related to a component for purposes
+Component auditor firm A firm performing audit work related to a component for purposes
 of a group audit.
 
-Conceptual
-framework
+Conceptual framework This term is described in Section 120.
 
-This term is described in Section 120.
-
-GLOSSARY
-
-GLOSSARY
-
-or industry-specific issues, transactions or events
+GLOSSARY GLOSSARY or industry-specific issues, transactions or events
 for the engagement; and
 
-Confidential
-information
-
-Any information, data or other material in whatever form or
+Confidential information Any information, data or other material in whatever form or
 medium (including written, electronic, visual or oral) that is not
 publicly available.
 
-Contingent fee
-
-A fee calculated on a predetermined basis relating to the outcome
+Contingent fee A fee calculated on a predetermined basis relating to the outcome
 of a transaction or the result of the services performed by the firm.
 A fee that is established by a court or other public authority is not
 a contingent fee.
 
-Cooling-off
-period
-
-This term is described in paragraph R540.5 for the purposes of
+Cooling-off period This term is described in paragraph R540.5 for the purposes of
 paragraphs R540.11 to R540.19.
 
-Criteria
-
-In an assurance engagement, the benchmarks used to measure or
+Criteria In an assurance engagement, the benchmarks used to measure or
 evaluate the underlying subject matter. The “applicable criteria”
 are the criteria used for the particular engagement.
 
-Direct
-engagement
-
-An assurance engagement in which the professional accountant in
+Direct engagement An assurance engagement in which the professional accountant in
 public practice measures or evaluates the underlying subject
 matter against the applicable criteria and the accountant presents
 the resulting subject matter information as part of, or
@@ -18459,23 +14647,11 @@ accountant’s conclusion addresses the reported outcome of the
 measurement or evaluation of the underlying subject matter
 against the criteria.
 
-Direct financial
-interest
+Direct financial interest A financial interest:
 
-A financial interest:
-
-Director or
-officer
-
-(a)
-
-Owned directly by and under the control of an individual
+Director or officer (a) Owned directly by and under the control of an individual
 or entity (including those managed on a discretionary basis
-by others); or
-
-(b)
-
-Beneficially owned through a collective investment
+by others); or (b) Beneficially owned through a collective investment
 vehicle, estate, trust or other intermediary over which the
 individual or entity has control, or the ability to influence
 investment decisions.
@@ -18484,82 +14660,43 @@ Those charged with the governance of an entity, or acting in an
 equivalent capacity, regardless of their title, which might vary
 from jurisdiction to jurisdiction.
 
-GLOSSARY
-
-Eligible audit
-engagement
-
-This term is described in paragraph 800.2 for the purposes of
+GLOSSARY Eligible audit engagement This term is described in paragraph 800.2 for the purposes of
 Section 800.
 
-Eligible
-assurance
-engagement
-
-This term is described in paragraph 990.2 for the purposes of
+Eligible assurance engagement This term is described in paragraph 990.2 for the purposes of
 Section 990.
 
-Engagement
-partner
-
-The partner or other person in the firm who is responsible for the
+Engagement partner The partner or other person in the firm who is responsible for the
 engagement and its performance, and for the report that is issued
 on behalf of the firm, and who, where required, has the
 appropriate authority from a professional, legal or regulatory
 body.
 
-Engagement
-period
-
-The engagement period starts when the audit team begins to perform
+Engagement period The engagement period starts when the audit team begins to perform
 the audit. The engagement period ends when the audit report is
 issued. When the engagement is of a recurring nature, it ends at the
 later of the notification by either party that the professional
 relationship has ended or the issuance of the final audit report.
 
-(Audit and
-Review
-Engagements)
-Engagement
-period
-
-The engagement period starts when the assurance team begins to
+(Audit and Review Engagements) Engagement period The engagement period starts when the assurance team begins to
 perform assurance services with respect to the particular
 engagement. The engagement period ends when the assurance
-(Assurance
-report is issued. When the engagement is of a recurring nature, it
-Engagements
-ends at the later of the notification by either party that the
-Other than Audit
-professional relationship has ended or the issuance of the final
-and Review
-assurance report.
-Engagements)
-Engagement
-quality review
-
-An objective evaluation of the significant judgments made by the
+(Assurance report is issued. When the engagement is of a recurring nature, it
+Engagements ends at the later of the notification by either party that the
+Other than Audit professional relationship has ended or the issuance of the final
+and Review assurance report.
+Engagements) Engagement quality review An objective evaluation of the significant judgments made by the
 engagement team and the conclusions reached thereon, performed
 by the engagement quality reviewer and completed on or before
 the date of the engagement report.
 
-Engagement
-quality reviewer
-
-A partner, other individual in the firm, or an external individual,
+Engagement quality reviewer A partner, other individual in the firm, or an external individual,
 appointed by the firm to perform the engagement quality review.
 
-Engagement
-team
-
-All partners and staff performing the engagement, and any other
+Engagement team All partners and staff performing the engagement, and any other
 individuals who perform procedures on the engagement,
 
-GLOSSARY
-
-GLOSSARY
-
-excluding external experts and internal auditors who provide
+GLOSSARY GLOSSARY excluding external experts and internal auditors who provide
 direct assistance on the engagement.
 In Part 4A, the term “engagement team” refers to individuals
 performing audit or review procedures on the audit or review
@@ -18579,16 +14716,11 @@ using the work of internal auditors, including using internal
 auditors to provide direct assistance on the audit engagement.
 In Part 4B, the term “engagement team” refers to individuals
 performing assurance procedures on the assurance engagement.
-Existing
-accountant
-
-A professional accountant in public practice currently holding an
+Existing accountant A professional accountant in public practice currently holding an
 audit appointment or carrying out accounting, tax, consulting or
 similar professional services for a client.
 
-External expert
-
-An individual (who is not a partner or a member of the
+External expert An individual (who is not a partner or a member of the
 professional staff, including temporary staff, of the firm or a
 network firm) or organization possessing skills, knowledge and
 experience in a field other than accounting or auditing, whose
@@ -18599,15 +14731,10 @@ Financial interest An interest in an equity or other security, debenture, loan o
 debt instrument of an entity, including rights and obligations to
 acquire such an interest and derivatives directly related to such
 interest.
-Financial
-statements
-
-A structured representation of historical financial information,
+Financial statements A structured representation of historical financial information,
 including related notes, intended to communicate an entity’s
 
-GLOSSARY
-
-economic resources or obligations at a point in time or the changes
+GLOSSARY economic resources or obligations at a point in time or the changes
 therein for a period of time in accordance with a financial
 reporting framework. The related notes ordinarily comprise a
 summary of significant accounting policies and other explanatory
@@ -18617,43 +14744,24 @@ example, a balance sheet, or a statement of revenues and
 expenses, and related explanatory notes.
 The term does not refer to specific elements, accounts or items of
 a financial statement.
-Financial
-statements on
-which the firm
-will express an
-opinion
-
-In the case of a single entity, the financial statements of that entity.
+Financial statements on which the firm will express an opinion In the case of a single entity, the financial statements of that entity.
 In the case of consolidated financial statements, also referred to
 as group financial statements, the consolidated financial
 statements.
 
-Firm
-
-(a)
-
-A sole practitioner, partnership or corporation of
+Firm (a) A sole practitioner, partnership or corporation of
 professional accountants;
 
-(b)
-
-An entity that controls such parties, through ownership,
+(b) An entity that controls such parties, through ownership,
 management or other means; and
 
-(c)
-
-An entity controlled by such parties, through ownership,
+(c) An entity controlled by such parties, through ownership,
 management or other means.
 
 Paragraphs 400.4 and 900.3 explain how the word “firm” is used
 to address the responsibility of professional accountants and
 firms for compliance with Parts 4A and 4B, respectively.
-Fundamental
-principles
-
-GLOSSARY
-
-This term is described in paragraph 110.1 A1. Each of the
+Fundamental principles GLOSSARY This term is described in paragraph 110.1 A1. Each of the
 fundamental principles is, in turn, described in the following
 paragraphs:
 Integrity
@@ -18668,29 +14776,16 @@ Professional competence and due care
 
 **R113.1**
 
-Confidentiality
-
-R114.1 to R114.3
-
-Professional behavior
+Confidentiality R114.1 to R114.3 Professional behavior
 
 **R115.1**
 
-GLOSSARY
-
-Group
-
-A reporting entity for which group financial statements are
+GLOSSARY Group A reporting entity for which group financial statements are
 prepared.
 
-Group audit
+Group audit The audit of group financial statements.
 
-The audit of group financial statements.
-
-Group audit
-client
-
-The entity on whose group financial statements the group auditor
+Group audit client The entity on whose group financial statements the group auditor
 firm conducts an audit engagement. When the entity is a publicly
 traded entity, group audit client will always include its related
 entities and any other components at which audit work is
@@ -18700,30 +14795,18 @@ direct or indirect control and any other components at which audit
 work is performed.
 See also paragraph R400.22.
 
-Group auditor
-firm
-
-The firm that expresses the opinion on the group financial
+Group auditor firm The firm that expresses the opinion on the group financial
 statements.
 
-Group audit
-team
-
-(a)
-
-All members of the engagement team for the group audit,
+Group audit team (a) All members of the engagement team for the group audit,
 including individuals within, or engaged by, component
 auditor firms who perform audit procedures related to
 components for purposes of the group audit;
 
-(b)
-
-All others within, or engaged by, the group auditor firm
+(b) All others within, or engaged by, the group auditor firm
 who can directly influence the outcome of the group audit,
 including:
-(i)
-
-Those who recommend the compensation of, or who
+(i) Those who recommend the compensation of, or who
 provide direct supervisory, management or other
 oversight of the group engagement partner in
 connection with the performance of the group audit,
@@ -18732,95 +14815,56 @@ the group engagement partner through to the
 individual who is the firm’s Senior or Managing
 Partner (Chief Executive or equivalent);
 
-(ii)
-
-Those who provide consultation regarding technical or
+(ii) Those who provide consultation regarding technical or
 industry-specific issues, transactions or events for the
-group audit; and
-
-GLOSSARY
-
-(iii)
-
-Those who perform an engagement quality review, or
+group audit; and GLOSSARY (iii) Those who perform an engagement quality review, or
 a review consistent with the objective of an
 engagement quality review, for the group audit;
 
-(c)
-
-Any other individuals within a network firm of the group
+(c) Any other individuals within a network firm of the group
 auditor firm’s network who can directly influence the
 outcome of the group audit; and
 
-(d)
-
-Any other individuals within a component auditor firm
+(d) Any other individuals within a component auditor firm
 outside the group auditor firm’s network who can directly
 influence the outcome of the group audit.
 
-Group
-engagement
-partner
+Group engagement partner The engagement partner who is responsible for the group audit.
 
-The engagement partner who is responsible for the group audit.
-
-Group financial
-statements
-
-Financial statements that include the financial information of
+Group financial statements Financial statements that include the financial information of
 more than one entity or business unit through a consolidation
 process.
 
-Historical
-financial
-information
-
-Information expressed in financial terms in relation to a particular
+Historical financial information Information expressed in financial terms in relation to a particular
 entity, derived primarily from that entity’s accounting system,
 about economic events occurring in past time periods or about
 economic conditions or circumstances at points in time in the past.
 
-Immediate
-family
+Immediate family A spouse (or equivalent) or dependent.
 
-A spouse (or equivalent) or dependent.
+Independence Independence comprises:
 
-Independence
-
-Independence comprises:
-
-GLOSSARY
-
-(a)
-
-Independence of mind – the state of mind that permits the
+GLOSSARY (a) Independence of mind – the state of mind that permits the
 expression of a conclusion without being affected by
 influences that compromise professional judgment,
 thereby allowing an individual to act with integrity, and
 exercise objectivity and professional skepticism.
 
-(b)
-
-Independence in appearance – the avoidance of facts and
+(b) Independence in appearance – the avoidance of facts and
 circumstances that are so significant that a reasonable and
 informed third party would be likely to conclude that a
 firm’s, or an audit or assurance team member’s, integrity,
 objectivity or professional skepticism has been
 compromised.
 
-GLOSSARY
-
-As set out in paragraphs 400.5 and 900.4, references to an
+GLOSSARY As set out in paragraphs 400.5 and 900.4, references to an
 individual or firm being “independent” mean that the individual
 or firm has complied with Parts 4A and 4B, as applicable.
 Indirect financial A financial interest beneficially owned through a collective
-interest
-investment vehicle, estate, trust or other intermediary over which
+interest investment vehicle, estate, trust or other intermediary over which
 the individual or entity has no control or ability to influence
 investment decisions.
-Inducement
-
-An object, situation, or action that is used as a means to
+Inducement An object, situation, or action that is used as a means to
 influence another individual’s behavior, but not necessarily with
 the intent to improperly influence that individual’s behavior.
 Inducements can range from minor acts of hospitality between
@@ -18830,36 +14874,19 @@ clients (for professional accountants in public practice), to acts
 that result in non-compliance with laws and regulations. An
 inducement can take many different forms, for example:
 
-Key audit
-partner
+Key audit partner • Gifts.
 
-•
+• Hospitality.
 
-Gifts.
+• Entertainment.
 
-•
+• Political or charitable donations.
 
-Hospitality.
+• Appeals to friendship and loyalty.
 
-•
+• Employment or other commercial opportunities.
 
-Entertainment.
-
-•
-
-Political or charitable donations.
-
-•
-
-Appeals to friendship and loyalty.
-
-•
-
-Employment or other commercial opportunities.
-
-•
-
-Preferential treatment, rights or privileges.
+• Preferential treatment, rights or privileges.
 
 The engagement partner, the individual responsible for the
 engagement quality review, and other audit partners, if any, on the
@@ -18871,36 +14898,22 @@ upon the circumstances and the role of the individuals on the audit,
 partners for certain components in a group audit such as significant
 subsidiaries or divisions.
 
-GLOSSARY
-
-May
-
-This term is used in the Code to denote permission to take a particular
+GLOSSARY May This term is used in the Code to denote permission to take a particular
 action in certain circumstances, including as an exception to a
 requirement. It is not used to denote possibility.
 
-Might
-
-This term is used in the Code to denote the possibility of a matter
+Might This term is used in the Code to denote the possibility of a matter
 arising, an event occurring or a course of action being taken. The
 term does not ascribe any particular level of possibility or
 likelihood when used in conjunction with a threat, as the
 evaluation of the level of a threat depends on the facts and
 circumstances of any particular matter, event or course of action.
 
-Network
+Network A larger structure:
 
-A larger structure:
+Network firm (a) That is aimed at co-operation; and
 
-Network firm
-
-(a)
-
-That is aimed at co-operation; and
-
-(b)
-
-That is clearly aimed at profit or cost sharing or shares
+(b) That is clearly aimed at profit or cost sharing or shares
 common ownership, control or management, common
 quality management policies and procedures, common
 business strategy, the use of a common brand-name, or a
@@ -18909,87 +14922,45 @@ significant part of professional resources.
 A firm or entity that belongs to a network.
 For further information, see paragraphs 400.50 A1 to 400.54 A1.
 
-Non-compliance
-with laws and
-regulations
-(Professional
-Accountants in
-Business)
-
-Non-compliance with laws and regulations (“non-compliance”)
+Non-compliance with laws and regulations (Professional Accountants in Business) Non-compliance with laws and regulations (“non-compliance”)
 comprises acts of omission or commission, intentional or
 unintentional, which are contrary to the prevailing laws or
 regulations committed by the following parties:
-(a)
+(a) The professional accountant’s employing organization;
 
-The professional accountant’s employing organization;
-
-(b)
-
-Those charged with governance of the employing
+(b) Those charged with governance of the employing
 organization;
 
-(c)
+(c) Management of the employing organization; or
 
-Management of the employing organization; or
-
-(d)
-
-Other individuals working for or under the direction of the
+(d) Other individuals working for or under the direction of the
 employing organization.
 
 This term is described in paragraph 260.5 A1.
 
-GLOSSARY
-
-GLOSSARY
-
-Non-compliance
-with laws and
-regulations
-(Professional
-Accountants in
-Public Practice)
-
-Non-compliance with laws and regulations (“non-compliance”)
+GLOSSARY GLOSSARY Non-compliance with laws and regulations (Professional Accountants in Public Practice) Non-compliance with laws and regulations (“non-compliance”)
 comprises acts of omission or commission, intentional or
 unintentional, which are contrary to the prevailing laws or
 regulations committed by the following parties:
-(a)
+(a) A client;
 
-A client;
+(b) Those charged with governance of a client;
 
-(b)
+(c) Management of a client; or
 
-Those charged with governance of a client;
-
-(c)
-
-Management of a client; or
-
-(d)
-
-Other individuals working for or under the direction of a
+(d) Other individuals working for or under the direction of a
 client.
 
 This term is described in paragraph 360.5 A1.
-Office
-
-A distinct sub-group, whether organized on geographical or
+Office A distinct sub-group, whether organized on geographical or
 practice lines.
 
-Predecessor
-accountant
-
-A professional accountant in public practice who most recently
+Predecessor accountant A professional accountant in public practice who most recently
 held an audit appointment or carried out accounting, tax,
 consulting or similar professional services for a client, where there
 is no existing accountant.
 
-Professional
-accountant
-
-An individual who is a member of an IFAC member body.
+Professional accountant An individual who is a member of an IFAC member body.
 In Part 1, the term “professional accountant” refers to individual
 professional accountants in business and to professional
 accountants in public practice and their firms.
@@ -18998,108 +14969,61 @@ professional accountants in business.
 In Parts 3, 4A and 4B, the term “professional accountant” refers
 to professional accountants in public practice and their firms.
 
-Professional
-accountant in
-business
-
-A professional accountant working in areas such as commerce,
+Professional accountant in business A professional accountant working in areas such as commerce,
 industry, service, the public sector, education, the not-for-profit
 sector, or in regulatory or professional bodies, who might be an
 employee, contractor, partner, director (executive or non-executive),
 owner-manager or volunteer.
 
-Professional
-accountant in
-public practice
-
-A professional accountant, irrespective of functional
+Professional accountant in public practice A professional accountant, irrespective of functional
 classification (for example, audit, tax or consulting) in a firm that
 provides professional services.
 
-GLOSSARY
-
-The term “professional accountant in public practice” is also
+GLOSSARY The term “professional accountant in public practice” is also
 used to refer to a firm of professional accountants in public
 practice.
-Professional
-activity
-
-An activity requiring accountancy or related skills undertaken by
+Professional activity An activity requiring accountancy or related skills undertaken by
 a professional accountant, including accounting, auditing, tax,
 management consulting, and financial management.
 
-Professional
-judgment
-
-Professional judgment involves the application of relevant
+Professional judgment Professional judgment involves the application of relevant
 training, professional knowledge, skill and experience
 commensurate with the facts and circumstances, taking into
 account the nature and scope of the particular professional
 activities, and the interests and relationships involved.
 This term is described in paragraph 120.5 A4.
 
-Professional
-services
+Professional services Professional activities performed for clients.
 
-Professional activities performed for clients.
-
-Proposed
-accountant
-
-A professional accountant in public practice who is considering
+Proposed accountant A professional accountant in public practice who is considering
 accepting an audit appointment or an engagement to perform
 accounting, tax, consulting or similar professional services for a
 prospective client (or in some cases, an existing client).
 
-Public interest
-entity
-
-For the purposes of Part 4A, an entity is a public interest entity
+Public interest entity For the purposes of Part 4A, an entity is a public interest entity
 when it falls within any of the following categories:
-(a)
+(a) A publicly traded entity;
 
-A publicly traded entity;
-
-(b)
-
-An entity one of whose main functions is to take deposits
+(b) An entity one of whose main functions is to take deposits
 from the public;
 
-(c)
-
-An entity one of whose main functions is to provide
+(c) An entity one of whose main functions is to provide
 insurance to the public; or
 
-(d)
-
-An entity specified as such by law, regulation or
+(d) An entity specified as such by law, regulation or
 professional standards to meet the purpose described in
 paragraph 400.15.
 
 The Code provides for the categories to be more explicitly defined
 or added to as described in paragraphs 400.23 A1 and 400.23 A2.
 
-GLOSSARY
-
-GLOSSARY
-
-Publicly traded
-entity
-
-An entity that issues financial instruments that are transferrable and
+GLOSSARY GLOSSARY Publicly traded entity An entity that issues financial instruments that are transferrable and
 traded through a publicly accessible market mechanism, including
 through listing on a stock exchange.
 A listed entity as defined by relevant securities law or regulation is
 an example of a publicly traded entity.
 
-Reasonable and
-informed third
-party
-Reasonable and
-informed third
-party test
-
-The reasonable and informed third party test is a consideration by
+Reasonable and informed third party Reasonable and informed third party test The reasonable and informed third party test is a consideration by
 the professional accountant about whether the same conclusions
 would likely be reached by another party. Such consideration is
 made from the perspective of a reasonable and informed third
@@ -19112,58 +15036,32 @@ the appropriateness of the accountant’s conclusions in an
 impartial manner.
 These terms are described in paragraph 120.5 A9.
 
-Related entity
-
-An entity that has any of the following relationships with the
+Related entity An entity that has any of the following relationships with the
 client:
-(a)
-
-An entity that has direct or indirect control over the client
+(a) An entity that has direct or indirect control over the client
 if the client is material to such entity;
 
-(b)
-
-An entity with a direct financial interest in the client if that
+(b) An entity with a direct financial interest in the client if that
 entity has significant influence over the client and the
 interest in the client is material to such entity;
 
-(c)
-
-An entity over which the client has direct or indirect
+(c) An entity over which the client has direct or indirect
 control;
 
-(d)
-
-An entity in which the client, or an entity related to the
+(d) An entity in which the client, or an entity related to the
 client under (c) above, has a direct financial interest that
 gives it significant influence over such entity and the
 interest is material to the client and its related entity in (c);
-and
-
-(e)
-
-An entity which is under common control with the client (a
+and (e) An entity which is under common control with the client (a
 “sister entity”) if the sister entity and the client are both
 material to the entity that controls both the client and sister
-entity
-
-GLOSSARY
-
-Responsible
-party
-
-In an assurance engagement, the party responsible for the
+entity GLOSSARY Responsible party In an assurance engagement, the party responsible for the
 underlying subject matter.
 
-Review client
-
-An entity in respect of which a firm conducts a review
+Review client An entity in respect of which a firm conducts a review
 engagement.
 
-Review
-engagement
-
-An assurance engagement, conducted in accordance with
+Review engagement An assurance engagement, conducted in accordance with
 International Standards on Review Engagements or equivalent, in
 which a professional accountant in public practice expresses a
 conclusion on whether, on the basis of the procedures which do
@@ -19173,26 +15071,14 @@ accountant to believe that the financial statements are not
 prepared, in all material respects, in accordance with an applicable
 financial reporting framework.
 
-Review team
-
-(a)
-
-All members of the engagement team for the review
-engagement; and
-
-(b)
-
-All others within, or engaged by, the firm who can directly
+Review team (a) All members of the engagement team for the review
+engagement; and (b) All others within, or engaged by, the firm who can directly
 influence the outcome of the review engagement,
 including:
 
-(c)
+(c) GLOSSARY
 
-GLOSSARY
-
-(i)
-
-Those who recommend the compensation of,
+(i) Those who recommend the compensation of,
 or who provide direct supervisory, manage-ment or
 other oversight of the engagement partner in
 connection with the performance of the review
@@ -19201,67 +15087,40 @@ senior levels above the engagement partner through
 to the individual who is the firm’s Senior or
 Managing Partner (Chief Executive or equivalent);
 
-(ii)
-
-Those who provide consultation regarding technical
+(ii) Those who provide consultation regarding technical
 or industry-specific issues, transactions or events
 for the engagement; and
 
-(iii)
-
-Those who perform an engagement quality review,
+(iii) Those who perform an engagement quality review,
 or a review consistent with the objective of an
 engagement quality review, for the engagement;
-and
-
-Any other individuals within a network firm who can
+and Any other individuals within a network firm who can
 directly influence the outcome of the review engagement.
 
-GLOSSARY
-
-Safeguards
-
-Safeguards are actions, individually or in combination, that the
+GLOSSARY Safeguards Safeguards are actions, individually or in combination, that the
 professional accountant takes that effectively reduce threats to
 compliance with the fundamental principles to an acceptable
 level.
 This term is described in paragraph 120.10 A2.
 
-Senior
-professional
-accountant in
-business
-
-Senior professional accountants in business are directors, officers
+Senior professional accountant in business Senior professional accountants in business are directors, officers
 or senior employees able to exert significant influence over, and
 make decisions regarding, the acquisition, deployment and
 control of the employing organization’s human, financial,
 technological, physical and intangible resources.
 This term is described in paragraph 260.11 A1.
 
-Special purpose
-financial
-statements
-
-Financial statements prepared in accordance with a financial
+Special purpose financial statements Financial statements prepared in accordance with a financial
 reporting framework designed to meet the financial information
 needs of specified users.
 
-Subject matter
-information
-
-The outcome of the measurement or evaluation of the underlying
+Subject matter information The outcome of the measurement or evaluation of the underlying
 subject matter against the criteria, i.e., the information that results
 from applying the criteria to the underlying subject matter.
 
-Substantial harm
+Substantial harm This term is described in paragraphs 260.5 A3 and 360.5 A3.
 
-This term is described in paragraphs 260.5 A3 and 360.5 A3.
-
-Those charged
-with governance
-
-The person(s) or organization(s) (for example, a corporate trustee) with
+Those charged with governance The person(s) or organization(s) (for example, a corporate trustee) with
 responsibility for overseeing the strategic direction of the entity and
 obligations related to the accountability of the entity. This includes
 overseeing the financial reporting process. For some entities in some
@@ -19269,9 +15128,7 @@ jurisdictions, those charged with governance might include
 management personnel, for example, executive members of a
 governance board of a private or public sector entity, or an ownermanager.
 
-Threats
-
-This term is described in paragraph 120.6 A3 and includes the
+Threats This term is described in paragraph 120.6 A3 and includes the
 following categories:
 Self interest
 
@@ -19281,9 +15138,7 @@ Self-review
 
 120.6 A3(b)
 
-GLOSSARY
-
-Advocacy
+GLOSSARY Advocacy
 
 120.6 A3(c)
 
@@ -19295,154 +15150,71 @@ Intimidation
 
 120.6 A3(e)
 
-Time-on period
+Time-on period This term is described in paragraph R540.5.
 
-This term is described in paragraph R540.5.
-
-Underlying
-subject matter
-
-The phenomenon that is measured or evaluated by applying
+Underlying subject matter The phenomenon that is measured or evaluated by applying
 criteria.
 
-GLOSSARY
-
-GLOSSARY
-
-LISTS OF ABBREVIATIONS AND STANDARDS
+GLOSSARY GLOSSARY LISTS OF ABBREVIATIONS AND STANDARDS
 REFERRED TO IN THE CODE
 LIST OF ABBREVIATIONS
-Abbreviation
+Abbreviation Explanation Assurance Framework International Framework for Assurance Engagements
 
-Explanation
+CoCo Chartered Professional Accountants of Canada Criteria of
+Control COSO Committee of Sponsoring Organizations of the Treadway
+Commission IAASB International Auditing and Assurance Standards Board
 
-Assurance
-Framework
+IESBA International Ethics Standards Board for Accountants
 
-International Framework for Assurance Engagements
+IFAC International Federation of Accountants
 
-CoCo
+IFEA International Foundation for Ethics and Audit
 
-Chartered Professional Accountants of Canada Criteria of
-Control
+ISAs International Standards on Auditing
 
-COSO
+ISAEs International Standards on Assurance Engagements
 
-Committee of Sponsoring Organizations of the Treadway
-Commission
+ISQMs International Standards on Quality Management
 
-IAASB
+ISREs International Standards on Review Engagements
 
-International Auditing and Assurance Standards Board
+GLOSSARY Standard Full Title ISA 220 (Revised) Quality Management for an Audit of Financial
+Statements ISA 320 Materiality In Planning and Performing an Audit
 
-IESBA
-
-International Ethics Standards Board for Accountants
-
-IFAC
-
-International Federation of Accountants
-
-IFEA
-
-International Foundation for Ethics and Audit
-
-ISAs
-
-International Standards on Auditing
-
-ISAEs
-
-International Standards on Assurance Engagements
-
-ISQMs
-
-International Standards on Quality Management
-
-ISREs
-
-International Standards on Review Engagements
-
-GLOSSARY
-
-Standard
-
-Full Title
-
-ISA 220 (Revised)
-
-Quality Management for an Audit of Financial
-Statements
-
-ISA 320
-
-Materiality In Planning and Performing an Audit
-
-ISA 600 (Revised)
-
-Special Considerations – Audits of Group Financial
+ISA 600 (Revised) Special Considerations – Audits of Group Financial
 Statements (Including the Work of Component
-Auditors)
-
-ISA 610 (Revised 2013)
+Auditors) ISA 610 (Revised 2013)
 
 Using the Work of Internal Auditors
 
-ISA 620
+ISA 620 Using the Work of an Auditor’s Expert
 
-Using the Work of an Auditor’s Expert
-
-ISAE 3000 (Revised)
-
-Assurance Engagements Other than Audits or Reviews
+ISAE 3000 (Revised) Assurance Engagements Other than Audits or Reviews
 of Historical Financial Information
 
-ISQM 1
-
-Quality Management for Firms that Perform Audits or
+ISQM 1 Quality Management for Firms that Perform Audits or
 Reviews of Financial Statements, or Other Assurance
 or Related Services Engagements
 
-ISQM 2
+ISQM 2 Engagement Quality Reviews
 
-Engagement Quality Reviews
+ISRE 2400 (Revised) Engagements to Review Historical Financial
+Statements GLOSSARY GLOSSARY LIST OF STANDARDS REFERRED TO IN THE CODE
 
-ISRE 2400 (Revised)
-
-Engagements to Review Historical Financial
-Statements
-
-GLOSSARY
-
-GLOSSARY
-
-LIST OF STANDARDS REFERRED TO IN THE CODE
-
-EFFECTIVE DATE
-Except for the following revisions which have different effective dates, the Code is
+EFFECTIVE DATE Except for the following revisions which have different effective dates, the Code is
 effective.
-•
-
-Revisions to the PIE definition and related provisions of the Code, as published
+• Revisions to the PIE definition and related provisions of the Code, as published
 on the IESBA website in April 2022: effective for audits of financial statements
 for periods beginning on or after December 15, 2024.
 
-•
-
-Technology-related provisions, as published on the IESBA website in April
+• Technology-related provisions, as published on the IESBA website in April
 2023:
-o
+o Revisions to Parts 1 to 3 will be effective as of December 15, 2024.
 
-Revisions to Parts 1 to 3 will be effective as of December 15, 2024.
-
-o
-
-Revisions to Part 4A will be effective for audits and reviews of financial
+o Revisions to Part 4A will be effective for audits and reviews of financial
 statements for periods beginning on or after December 15, 2024.
 
-o
-
-The conforming and consequential amendments to Part 4B in relation to
+o The conforming and consequential amendments to Part 4B in relation to
 assurance engagements with respect to underlying subject matters
 covering periods of time will be effective for periods beginning on or
 after December 15, 2024; otherwise, these amendments will be effective
@@ -19450,25 +15222,9 @@ as of December 15, 2024.
 
 Early adoption is permitted.
 
-EFFECTIVE DATE
-
-CHANGES TO THE CODE
-
-CONTENTS
-Section 280
-Section 380
-
-CONSEQUENTIAL AMENDMENTS
-Section 321
-
-CHANGES
-
-CHANGES
-
-CHANGES TO THE CODE – TAX PLANNING AND
-RELATED SERVICES
-
-CHANGES TO THE CODE
+EFFECTIVE DATE CHANGES TO THE CODE CONTENTS Section 280 Section 380 CONSEQUENTIAL AMENDMENTS
+Section 321 CHANGES CHANGES CHANGES TO THE CODE – TAX PLANNING AND
+RELATED SERVICES CHANGES TO THE CODE
 
 # Part 2 — Professional Accountants in Business
 [Section 280 will be added after paragraph 270.4 A1]
@@ -19495,8 +15251,7 @@ accountant to comply with relevant tax laws and regulations when
 performing such activities.
 
 Requirements and Application Material
-General
-Professional Accountants’ Public Interest Role in Relation to Tax Planning Activities
+General Professional Accountants’ Public Interest Role in Relation to Tax Planning Activities
 **280.4 A1**
 
 Professional accountants play an important role in tax planning by
@@ -19516,9 +15271,7 @@ professional accountants’ role is to use their expertise and experience
 to assist their employing organizations in achieving their tax planning
 goals and meeting their tax obligations. However, when accountants
 
-CHANGES
-
-provide such assistance, it might involve certain tax minimization
+CHANGES provide such assistance, it might involve certain tax minimization
 arrangements that, although not prohibited by tax laws and
 regulations, might create threats to compliance with the fundamental
 principles.
@@ -19541,55 +15294,33 @@ Examples of such activities include:
 
 **280.5 A3**
 
-CHANGES
-
-•
-
-Advising management on structuring the employing
+CHANGES • Advising management on structuring the employing
 organization’s international operations to minimize its overall
 taxes.
 
-•
-
-Advising on the structuring of transfer pricing arrangements,
+• Advising on the structuring of transfer pricing arrangements,
 taking into account tax-related transfer pricing guidelines.
 
-•
+• Advising management on the utilization of losses in a taxefficient manner for the employing organization.
 
-Advising management on the utilization of losses in a taxefficient manner for the employing organization.
-
-•
-
-Advising the employing organization on the structuring of its
+• Advising the employing organization on the structuring of its
 capital distribution strategy in a tax-efficient manner.
 
-•
-
-Advising management on structuring the employing
+• Advising management on structuring the employing
 organization’s compensation strategy for senior executives to
 optimize the tax benefits for the employing organization.
 
-•
-
-Advising a non-profit employing organization on how to
+• Advising a non-profit employing organization on how to
 structure its business to avoid breaching its non-profit status.
 
-•
-
-Advising management on structuring the employing
+• Advising management on structuring the employing
 organization’s investments to take advantage of tax incentives
 offered by jurisdictions or localities.
 
 Tax planning activities do not include activities that are generally
 referred to as tax compliance or tax preparation, which are activities
 
-CHANGES
-
-CHANGES TO THE CODE
-
-CHANGES TO THE CODE
-
-to assist the employing organization in fulfilling its filing, reporting,
+CHANGES CHANGES TO THE CODE CHANGES TO THE CODE to assist the employing organization in fulfilling its filing, reporting,
 payment and other obligations under tax laws and regulations.
 However, if a tax activity comprises both tax planning and tax
 compliance, the portion that relates to tax planning is covered by this
@@ -19612,24 +15343,16 @@ arrangement.
 **280.6 A2**
 
 Examples of such related activities include:
-•
-
-Assisting the employing organization in resolving a dispute
+• Assisting the employing organization in resolving a dispute
 with the tax authority on the tax planning arrangement
 
-•
-
-Representing the employing organization in administrative or
+• Representing the employing organization in administrative or
 court proceedings regarding the tax planning arrangement.
 
-•
-
-Implementing the tax planning arrangement for the employing
+• Implementing the tax planning arrangement for the employing
 organization.
 
-•
-
-Advising the employing organization on an acquisition where
+• Advising the employing organization on an acquisition where
 the valuation depends on the tax planning arrangement
 established by the target.
 
@@ -19646,11 +15369,7 @@ referred to as anti-avoidance rules, that limit or prohibit certain tax
 planning arrangements, a professional accountant shall obtain an
 understanding of those laws and regulations and advise the employing
 
-CHANGES
-
-CHANGES TO THE CODE
-
-Non-compliance with Tax Laws and Regulations
+CHANGES CHANGES TO THE CODE Non-compliance with Tax Laws and Regulations
 **280.8 A1**
 
 If, in the course of performing a tax planning activity, a professional
@@ -19665,63 +15384,41 @@ Responsibilities of Management and Those Charged with Governance of the
 Employing Organization
 **280.9 A1**
 
-CHANGES
-
-In relation to tax planning, management, with the oversight of those
+CHANGES In relation to tax planning, management, with the oversight of those
 charged with governance, has a number of responsibilities, including:
-•
-
-Ensuring that the employing organization’s tax affairs are
+• Ensuring that the employing organization’s tax affairs are
 conducted in accordance with the relevant tax laws and
 regulations.
 
-•
-
-Maintaining all the books and records and implementing the
+• Maintaining all the books and records and implementing the
 systems of internal control necessary to enable the employing
 organization to fulfill its tax compliance obligations.
 
-•
-
-Engaging experts to advise on relevant aspects of the tax
+• Engaging experts to advise on relevant aspects of the tax
 planning arrangement.
 
-•
-
-Deciding whether to accept and implement the professional
+• Deciding whether to accept and implement the professional
 accountant’s recommendation or advice on a tax planning
 arrangement.
 
-•
-
-Authorizing the submission of the employing organization’s
+• Authorizing the submission of the employing organization’s
 tax returns and dealing with the relevant tax authorities in a
 timely manner.
 
-•
-
-Making such disclosures to the relevant tax authorities as might
+• Making such disclosures to the relevant tax authorities as might
 be required by tax laws and regulations or as might be necessary
 to support a tax position, including details of any tax planning
 arrangements.
 
-CHANGES
-
-organization to comply with them when performing tax planning
+CHANGES organization to comply with them when performing tax planning
 activities.
 
-CHANGES TO THE CODE
-
-•
-
-Making appropriate disclosure of tax strategy, policies or other
+CHANGES TO THE CODE • Making appropriate disclosure of tax strategy, policies or other
 tax-related matters in the financial statements or other relevant
 public documents in accordance with applicable reporting
 requirements.
 
-•
-
-Ensuring that the employing organization’s tax planning
+• Ensuring that the employing organization’s tax planning
 arrangements are consistent with any publicly disclosed tax
 strategy or policies.
 
@@ -19733,14 +15430,8 @@ Responsibilities of All Professional Accountants
 As part of performing a tax planning activity for an employing
 organization, the professional accountant shall obtain an
 understanding of the nature of the tax planning activity, including:
-(a)
-
-The purpose, facts and circumstances of the tax planning
-arrangement; and
-
-(b)
-
-The relevant tax laws and regulations.
+(a) The purpose, facts and circumstances of the tax planning
+arrangement; and (b) The relevant tax laws and regulations.
 
 A professional accountant is expected to apply professional
 competence and due care in accordance with Subsection 113 when
@@ -19771,31 +15462,23 @@ arrangement does not have a credible basis in laws and regulations,
 paragraph R280.12 does not preclude the accountant from explaining
 to the accountant’s immediate superior or other responsible individual
 
-CHANGES
-
-within the employing organization the accountant’s rationale for the
+CHANGES within the employing organization the accountant’s rationale for the
 determination or advising on an alternative arrangement that has a
 credible basis.
 **280.12 A3**
 
 **280.12 A4**
 
-CHANGES
-
-Paragraph R280.12 also does not preclude the professional accountant
+CHANGES Paragraph R280.12 also does not preclude the professional accountant
 from assisting the employing organization to remediate or rectify a tax
 planning arrangement which lacks a credible basis. Such type of
 activity is a related activity as described in paragraphs 280.6 A1 and
 A2. This includes, for example:
-•
-
-Assisting the employing organization to restructure a tax
+• Assisting the employing organization to restructure a tax
 planning arrangement to achieve a credible basis as part of a tax
 dispute resolution activity.
 
-•
-
-Agreeing with the employing organization appropriate changes
+• Agreeing with the employing organization appropriate changes
 to the tax planning arrangement to achieve a credible basis as
 part of representing the employing organization in
 administrative or court proceedings.
@@ -19803,59 +15486,37 @@ administrative or court proceedings.
 Examples of actions that a professional accountant might take to
 determine that there is a credible basis in relation to a particular tax
 planning arrangement include:
-•
-
-Reviewing the relevant facts and circumstances, including the
+• Reviewing the relevant facts and circumstances, including the
 economic purpose and substance of the arrangement.
 
-•
+• Assessing the reasonableness of any assumptions.
 
-Assessing the reasonableness of any assumptions.
+• Reviewing the relevant tax legislation.
 
-•
-
-Reviewing the relevant tax legislation.
-
-•
-
-Reviewing legislative proceedings that discuss the intent of the
+• Reviewing legislative proceedings that discuss the intent of the
 relevant tax legislation.
 
-•
-
-Reviewing relevant literature such as court decisions,
+• Reviewing relevant literature such as court decisions,
 professional or industry journals, and tax authority rulings or
 guidance.
 
-•
-
-Considering whether the basis used for the proposed
+• Considering whether the basis used for the proposed
 arrangement is an established practice that has not been
 challenged by the relevant tax authorities.
 
-•
-
-Considering how likely the proposed arrangement would be
+• Considering how likely the proposed arrangement would be
 accepted by the relevant tax authorities if all the relevant facts
 and circumstances were disclosed.
 
-CHANGES
-
-CHANGES TO THE CODE
-
-CHANGES TO THE CODE
+CHANGES CHANGES TO THE CODE CHANGES TO THE CODE
 
 **R280.13**
 
-•
-
-Consulting with legal counsel or other experts within or outside
+• Consulting with legal counsel or other experts within or outside
 the employing organization regarding what a reasonable
 interpretation of the relevant tax laws and regulations might be.
 
-•
-
-Consulting with the relevant tax authorities, where applicable.
+• Consulting with the relevant tax authorities, where applicable.
 
 If the professional accountant becomes aware of circumstances that
 might impact the previous determination of the credible basis, the
@@ -19899,9 +15560,7 @@ like to pursue, the accountant shall inform management and, if
 appropriate, those charged with governance, of this and explain the
 basis for the accountant’s conclusion.
 
-CHANGES
-
-CHANGES TO THE CODE
+CHANGES CHANGES TO THE CODE
 
 **280.16 A1**
 
@@ -19919,18 +15578,12 @@ the tax benefits derived from the transaction in the different
 jurisdictions.
 Relevant factors the professional accountant might consider in
 determining whether to make such disclosure include:
-•
+• The significance of the tax benefit in the relevant jurisdictions.
 
-The significance of the tax benefit in the relevant jurisdictions.
-
-•
-
-Stakeholders’ perceptions of the employing organization if the
+• Stakeholders’ perceptions of the employing organization if the
 facts and circumstances were known to the stakeholders.
 
-•
-
-Whether there are globally or nationally accepted principles or
+• Whether there are globally or nationally accepted principles or
 practices regarding disclosure of similar situations to the tax
 authorities in the relevant jurisdictions.
 
@@ -19950,68 +15603,38 @@ create threats to compliance with the fundamental principles.
 
 Circumstances that might give rise to uncertainty include:
 
-CHANGES
+CHANGES • Difficulty in establishing an adequate factual basis.
 
-•
+• Difficulty in establishing an adequate basis of assumptions.
 
-Difficulty in establishing an adequate factual basis.
-
-•
-
-Difficulty in establishing an adequate basis of assumptions.
-
-•
-
-Lack of clarity in the tax laws and regulations and their
+• Lack of clarity in the tax laws and regulations and their
 interpretation, including:
 
-CHANGES
+CHANGES Tax Planning Arrangements Involving Multiple Jurisdictions
 
-Tax Planning Arrangements Involving Multiple Jurisdictions
+CHANGES TO THE CODE o Gaps in the tax laws and regulations.
 
-CHANGES TO THE CODE
+o Challenges to previous court rulings.
 
-o
-
-Gaps in the tax laws and regulations.
-
-o
-
-Challenges to previous court rulings.
-
-o
-
-Conflicting tax laws and regulations in different
+o Conflicting tax laws and regulations in different
 jurisdictions in circumstances involving cross-border
 transactions.
 
-o
-
-Innovative business models not addressed by the current
+o Innovative business models not addressed by the current
 tax laws and regulations.
 
-o
-
-Recent court or tax authority rulings or positions that cast
+o Recent court or tax authority rulings or positions that cast
 doubt on similar tax planning arrangements.
 
-o
-
-Complexity in interpreting or applying the tax laws and
+o Complexity in interpreting or applying the tax laws and
 regulations from a technical or legal point of view.
 
-o
+o Lack of a legal precedent, ruling or position.
 
-Lack of a legal precedent, ruling or position.
-
-•
-
-Lack of clarity regarding the economic purpose and substance
+• Lack of clarity regarding the economic purpose and substance
 of the tax planning arrangement.
 
-•
-
-Lack of clarity about the ultimate beneficiaries of the tax
+• Lack of clarity about the ultimate beneficiaries of the tax
 planning arrangement.
 
 **R280.18**
@@ -20024,35 +15647,23 @@ management and, if appropriate, those charged with governance.
 **280.18 A1**
 
 The discussion serves a number of purposes, including:
-•
-
-Explaining the professional accountant’s assessment about how
+• Explaining the professional accountant’s assessment about how
 likely the relevant tax authorities are to have a view that
 supports the tax planning arrangement where there is a lack of
 clarity in the interpretation of the relevant tax laws and
 regulations.
 
-•
-
-Considering any assumptions made when establishing the basis
+• Considering any assumptions made when establishing the basis
 on which the tax planning advice is provided.
 
-•
-
-Obtaining any additional information from management and, if
+• Obtaining any additional information from management and, if
 appropriate, those charged with governance that might reduce
 the uncertainty.
 
-CHANGES
-
-•
-
-Discussing any reputational, commercial or wider economic
+CHANGES • Discussing any reputational, commercial or wider economic
 consequences in pursuing the tax planning arrangement.
 
-•
-
-Discussing potential courses of action to mitigate the possibility
+• Discussing potential courses of action to mitigate the possibility
 of adverse consequences for the employing organization,
 including consideration of disclosure to the relevant tax
 authorities.
@@ -20060,37 +15671,27 @@ authorities.
 Potential Threats Arising from Performing a Tax Planning Activity
 **280.19 A1**
 
-CHANGES
-
-Performing a tax planning activity for an employing organization
+CHANGES Performing a tax planning activity for an employing organization
 might create a self-interest, self-review, advocacy or intimidation
 threat. For example:
-•
-
-A self-review threat might be created when a professional
+• A self-review threat might be created when a professional
 accountant has recently performed a valuation activity for the
 employing organization for tax purposes, the output of which is
 then relied upon or is a key input to a tax planning activity for
 the employing organization.
 
-•
-
-A self-interest threat might be created when a professional
+• A self-interest threat might be created when a professional
 accountant’s career advancement prospects depend on
 developing a creative tax planning arrangement for which the
 interpretation of the relevant tax laws and regulations is
 unclear.
 
-•
-
-A self-interest threat might be created when a professional
+• A self-interest threat might be created when a professional
 accountant participates in an incentive compensation scheme
 impacted by the accountant’s design of a tax planning
 arrangement.
 
-•
-
-A self-interest threat might be created when a professional
+• A self-interest threat might be created when a professional
 accountant is in possession of confidential information
 obtained from the accountant’s involvement in formulating or
 drafting tax policy, laws or regulations for a government
@@ -20098,82 +15699,54 @@ agency and the confidential information would be valuable in
 advising the accountant’s employing organization in its tax
 planning arrangements.
 
-•
-
-Self-interest and advocacy threats might be created when a
+• Self-interest and advocacy threats might be created when a
 professional accountant advocates an employing organization’s
 position in a tax planning arrangement which the accountant
 
-CHANGES
-
-CHANGES TO THE CODE
-
-CHANGES TO THE CODE
-
-previously advised on before a tax authority when there are
+CHANGES CHANGES TO THE CODE CHANGES TO THE CODE previously advised on before a tax authority when there are
 indications that the arrangement might not have a credible basis
 in laws and regulations.
 
 **280.19 A2**
 
-•
-
-Self-interest and intimidation threats might be created when a
+• Self-interest and intimidation threats might be created when a
 dominant owner or leader of the employing organization exerts
 significant influence over the design of a particular tax
 arrangement, in a way that might influence the accountant’s
 determination that there is a credible basis in laws and
 regulations.
 
-•
-
-Self-interest and intimidation threats might be created when a
+• Self-interest and intimidation threats might be created when a
 professional accountant faces potential dismissal over the
 position the employing organization is insisting on pursuing
 regarding a tax planning arrangement.
 
 Factors that are relevant in evaluating the level of such threats include:
-•
-
-The degree of transparency regarding the underlying business
+• The degree of transparency regarding the underlying business
 transaction or circumstances, including, where applicable, the
 identity of the ultimate beneficiaries.
 
-•
-
-Whether the tax planning arrangement has a clear economic
+• Whether the tax planning arrangement has a clear economic
 purpose and substance based on the underlying business
 transaction or circumstances.
 
-•
-
-The nature and complexity of the underlying business
+• The nature and complexity of the underlying business
 transaction or circumstances.
 
-•
-
-The complexity or clarity of the relevant tax laws and
+• The complexity or clarity of the relevant tax laws and
 regulations.
 
-•
-
-Whether the professional accountant knows, or has reason to
+• Whether the professional accountant knows, or has reason to
 believe, that the tax planning arrangement would be contrary to
 the intent of the relevant tax legislation.
 
-•
-
-The number of jurisdictions involved and the nature of their tax
+• The number of jurisdictions involved and the nature of their tax
 regimes.
 
-•
-
-The extent of the professional accountant’s expertise and
+• The extent of the professional accountant’s expertise and
 experience in the relevant tax areas.
 
-•
-
-The significance of the potential tax savings.
+• The significance of the potential tax savings.
 
 CHANGES
 
@@ -20181,126 +15754,82 @@ CHANGES
 
 **280.19 A4**
 
-CHANGES
-
-•
-
-The nature and significance of any incentives offered to the
+CHANGES • The nature and significance of any incentives offered to the
 professional accountant to develop the arrangement.
 
-•
-
-The extent to which the professional accountant is aware that
+• The extent to which the professional accountant is aware that
 the tax planning arrangement reflects an established practice
 that has not been challenged by the relevant tax authorities.
 
-•
-
-Whether there is pressure being exerted on the professional
+• Whether there is pressure being exerted on the professional
 accountant.
 
-•
-
-The degree of urgency in implementing the tax planning
+• The degree of urgency in implementing the tax planning
 arrangement.
 
-•
-
-Whether it is a tax planning arrangement used for multiple
+• Whether it is a tax planning arrangement used for multiple
 clients with little modification for the employing organization’s
 specific circumstances.
 
-•
-
-The organizational culture of the employing organization.
+• The organizational culture of the employing organization.
 
 Examples of actions that might eliminate such threats include:
-•
-
-Advising the employing organization to structure the tax
+• Advising the employing organization to structure the tax
 planning arrangement so that it is consistent with an existing tax
 interpretation or ruling issued by the relevant tax authorities.
 
-•
-
-Obtaining an advance ruling from the relevant tax or other
+• Obtaining an advance ruling from the relevant tax or other
 authorities, where possible.
 
-•
-
-Advising management not to pursue the tax planning
+• Advising management not to pursue the tax planning
 arrangement.
 
 Examples of actions that might be safeguards to address such threats
 include:
-•
+• Establishing the identity of the ultimate beneficiaries.
 
-Establishing the identity of the ultimate beneficiaries.
-
-•
-
-Advising the employing organization to structure the tax
+• Advising the employing organization to structure the tax
 planning arrangement so that it better aligns with the underlying
 economic purpose and substance.
 
-•
-
-Advising the employing organization to structure the tax
+• Advising the employing organization to structure the tax
 planning arrangement based on an established practice that is
 currently not subject to challenge by the relevant tax authorities
 or is known to have been accepted by the relevant tax
 authorities.
 
-CHANGES
-
-CHANGES TO THE CODE
-
-CHANGES TO THE CODE
+CHANGES CHANGES TO THE CODE CHANGES TO THE CODE
 
 **280.19 A5**
 
-•
-
-Consulting with a legal counsel or other expert within or
+• Consulting with a legal counsel or other expert within or
 outside the employing organization in the relevant tax areas.
 
-•
-
-Obtaining an opinion from an appropriately qualified
+• Obtaining an opinion from an appropriately qualified
 professional (such as legal counsel or another professional
 accountant) regarding the interpretation of the relevant tax laws
 and regulations as applied to the particular circumstances.
 
-•
-
-Having a tax expert, who is not otherwise involved in the tax
+• Having a tax expert, who is not otherwise involved in the tax
 planning activity, review any work performed or conclusions
 reached by the professional accountant with respect to the tax
 planning arrangement.
 
-•
-
-Having the employing organization provide full transparency
+• Having the employing organization provide full transparency
 about the tax planning arrangement to the relevant tax
 authorities, including the goals, business and legal aspects, and
 ultimate beneficiaries of the tax planning arrangement.
 
 Examples of steps a professional accountant might take to establish
 the identity of the ultimate beneficiaries include:
-•
-
-Making inquiries of management and others within or outside
+• Making inquiries of management and others within or outside
 the employing organization having regard to the principle of
 confidentiality.
 
-•
-
-Reviewing the employing organization’s tax records, financial
+• Reviewing the employing organization’s tax records, financial
 statements and other relevant corporate records.
 
-•
-
-Researching relevant public records.
+• Researching relevant public records.
 
 Communication of Basis of the Tax Planning Recommendation or Advice
 **R280.20**
@@ -20317,46 +15846,32 @@ If the professional accountant disagrees with the accountant’s
 immediate superior or other responsible individual within the
 employing organization that a tax planning arrangement that the
 
-CHANGES
-
-CHANGES TO THE CODE
+CHANGES CHANGES TO THE CODE
 
 **R280.22**
 
-(a)
-
-Inform the immediate superior or other responsible individual
+(a) Inform the immediate superior or other responsible individual
 within the employing organization, and if appropriate, those
 charged with governance, of the accountant’s assessment;
 
-(b)
-
-Communicate to them the potential consequences of pursuing
+(b) Communicate to them the potential consequences of pursuing
 the arrangement; and
 
-(c)
-
-Advise them not to pursue the arrangement.
+(c) Advise them not to pursue the arrangement.
 
 If the immediate superior or other responsible individual within the
 employing organization decides to pursue the tax planning
 arrangement, despite the professional accountant’s advice to the
 contrary, the accountant shall consider:
-(a)
-
-Taking steps to have the details of the arrangement and the
+(a) Taking steps to have the details of the arrangement and the
 difference of views communicated with the next higher level of
 authority within the employing organization and, if appropriate,
 those charged with governance;
 
-(b)
-
-Advising the employing organization to make full disclosure of
+(b) Advising the employing organization to make full disclosure of
 the arrangement to the relevant tax authorities; and
 
-(c)
-
-Communicating the details of the arrangement and the
+(c) Communicating the details of the arrangement and the
 difference of views to the employing organization’s external
 auditor, if any.
 
@@ -20376,96 +15891,58 @@ or internal whistle-blowing mechanism. Such protocols and
 procedures might allow matters to be reported anonymously through
 designated channels.
 
-CHANGES
-
-CHANGES
-
-employing organization would like to pursue has a credible basis, the
+CHANGES CHANGES employing organization would like to pursue has a credible basis, the
 accountant shall:
 
-CHANGES TO THE CODE
-
-Documentation
+CHANGES TO THE CODE Documentation
 **280.23 A1**
 
 **280.23 A2**
 
 When performing a tax planning activity, a professional accountant is
 encouraged to document on a timely basis:
-•
-
-The purpose, circumstances and substance of the tax planning
+• The purpose, circumstances and substance of the tax planning
 arrangement.
 
-•
+• The identity of the ultimate beneficiaries.
 
-The identity of the ultimate beneficiaries.
+• The nature of any uncertainties.
 
-•
-
-The nature of any uncertainties.
-
-•
-
-The accountant’s analysis, the courses of action considered, the
+• The accountant’s analysis, the courses of action considered, the
 judgments made, and the conclusions reached in advising the
 employing organization on developing the tax planning
 arrangement.
 
-•
-
-The results of discussions with the accountant’s immediate
+• The results of discussions with the accountant’s immediate
 superior and appropriate levels of management, those charged
 with governance and other parties.
 
-•
-
-The response of the accountant’s immediate superior,
+• The response of the accountant’s immediate superior,
 management and, where applicable, those charged with
 governance to the accountant’s advice.
 
-•
-
-Any disagreement with the accountant’s immediate superior,
+• Any disagreement with the accountant’s immediate superior,
 management and, where applicable, those charged with
 governance.
 
 Preparing such documentation assists the accountant to:
-•
-
-Consider the reputational, commercial and wider economic
+• Consider the reputational, commercial and wider economic
 consequences that could arise from the way stakeholders might
 view the arrangement.
 
-•
-
-Develop the accountant’s analysis of the facts, circumstances,
+• Develop the accountant’s analysis of the facts, circumstances,
 relevant tax laws and regulations and any assumptions made or
 changed.
 
-•
-
-Record the basis of the professional judgments at the time they
+• Record the basis of the professional judgments at the time they
 were made or changed.
 
-•
-
-Support the position if the tax planning arrangement is
+• Support the position if the tax planning arrangement is
 challenged by the relevant tax authorities.
 
-CHANGES
-
-CHANGES TO THE CODE
-
-Demonstrate that the accountant has complied with the
+CHANGES CHANGES TO THE CODE Demonstrate that the accountant has complied with the
 provisions in this section.
-CHANGES
-
-•
-
-CHANGES
-
-CHANGES TO THE CODE
+CHANGES • CHANGES CHANGES TO THE CODE
 
 # Part 3 — Professional Accountants in Public Practice
 [Section 380 will be added after paragraph 360.40 A1]
@@ -20493,8 +15970,7 @@ to comply with relevant tax laws and regulations when providing such
 services.
 
 Requirements and Application Material
-General
-Professional Accountants’ Public Interest Role in Relation to Tax Planning Services
+General Professional Accountants’ Public Interest Role in Relation to Tax Planning Services
 **380.4 A1**
 
 Professional accountants play an important role in tax planning by
@@ -20512,9 +15988,7 @@ have a responsibility to pay taxes as determined by the relevant tax
 laws and regulations. In this regard, professional accountants’ role is
 to use their expertise and experience to assist their clients in achieving
 
-CHANGES
-
-their tax planning goals and meeting their tax obligations. However,
+CHANGES their tax planning goals and meeting their tax obligations. However,
 when accountants provide such assistance, it might involve certain tax
 minimization arrangements that, although not prohibited by tax laws
 and regulations, might create threats to compliance with the
@@ -20539,41 +16013,25 @@ of such services include:
 
 **380.5 A3**
 
-CHANGES
-
-•
-
-Advising an individual to structure their tax affairs to achieve
+CHANGES • Advising an individual to structure their tax affairs to achieve
 investment, retirement or estate planning goals.
 
-•
-
-Advising an individual business owner on structuring their
+• Advising an individual business owner on structuring their
 ownership and income from the business to minimize their
 overall taxes.
 
-•
-
-Advising an entity on structuring its international operations to
+• Advising an entity on structuring its international operations to
 minimize its overall taxes.
 
-•
-
-Advising on the structuring of transfer pricing arrangements,
+• Advising on the structuring of transfer pricing arrangements,
 taking into account tax-related transfer pricing guidelines.
 
-•
+• Advising on the utilization of losses in a tax-efficient manner.
 
-Advising on the utilization of losses in a tax-efficient manner.
-
-•
-
-Advising an entity on the structuring of its capital distribution
+• Advising an entity on the structuring of its capital distribution
 strategy in a tax-efficient manner.
 
-•
-
-Advising an entity on structuring its compensation strategy for
+• Advising an entity on structuring its compensation strategy for
 senior executives to optimize the tax benefits.
 
 Tax planning services do not include services that are generally
@@ -20581,13 +16039,7 @@ referred to as tax compliance or tax preparation, which are services to
 assist the client in fulfilling the client’s filing, reporting, payment and
 other obligations under tax laws and regulations. However, if a tax
 
-CHANGES
-
-CHANGES TO THE CODE
-
-CHANGES TO THE CODE
-
-service comprises both tax planning and tax compliance, the portion
+CHANGES CHANGES TO THE CODE CHANGES TO THE CODE service comprises both tax planning and tax compliance, the portion
 that relates to tax planning is covered by this section.
 **380.5 A4**
 
@@ -20605,29 +16057,19 @@ apply to the underlying tax planning arrangement.
 **380.6 A2**
 
 Examples of such related services include:
-•
-
-Assisting the client in resolving a dispute with the tax authority
+• Assisting the client in resolving a dispute with the tax authority
 on the tax planning arrangement.
 
-•
-
-Representing the client in administrative or court proceedings
+• Representing the client in administrative or court proceedings
 regarding the tax planning arrangement.
 
-•
+• Implementing the tax planning arrangement for the client.
 
-Implementing the tax planning arrangement for the client.
-
-•
-
-Advising the client on an acquisition where the valuation
+• Advising the client on an acquisition where the valuation
 depends on the tax planning arrangement established by the
 target.
 
-•
-
-Advising the client on estate planning based on a tax planning
+• Advising the client on estate planning based on a tax planning
 arrangement established for the client’s business.
 
 Compliance with Laws and Regulations
@@ -20644,9 +16086,7 @@ planning arrangements, a professional accountant shall obtain an
 understanding of those laws and regulations and advise the client to
 comply with them when providing tax planning services.
 
-CHANGES
-
-CHANGES TO THE CODE
+CHANGES CHANGES TO THE CODE
 
 **380.8 A1**
 
@@ -20660,67 +16100,43 @@ the requirements and application material set out in Section 360 apply.
 Responsibilities of Management and Those Charged with Governance
 **380.9 A1**
 
-CHANGES
-
-In relation to tax planning, management, with the oversight of those
+CHANGES In relation to tax planning, management, with the oversight of those
 charged with governance, has a number of responsibilities, including:
-•
-
-Ensuring that the client’s tax affairs are conducted in
+• Ensuring that the client’s tax affairs are conducted in
 accordance with the relevant tax laws and regulations.
 
-•
-
-Maintaining all the books and records and implementing the
+• Maintaining all the books and records and implementing the
 systems of internal control necessary to enable the client to
 fulfill its tax compliance obligations.
 
-•
-
-Making available all the facts and other relevant information
+• Making available all the facts and other relevant information
 needed to enable the professional accountant to perform the tax
 planning service.
 
-•
-
-Engaging experts to advise on relevant aspects of the tax
+• Engaging experts to advise on relevant aspects of the tax
 planning arrangement.
 
-•
-
-Deciding whether to accept and implement the professional
+• Deciding whether to accept and implement the professional
 accountant’s recommendation or advice on a tax planning
 arrangement.
 
-•
-
-Authorizing the submission of the client’s tax returns and
+• Authorizing the submission of the client’s tax returns and
 ensuring that any matters raised by the relevant tax authorities
 are addressed in a timely manner.
 
-•
-
-Making such disclosures to the relevant tax authorities as might
+• Making such disclosures to the relevant tax authorities as might
 be required by tax laws and regulations or as might be necessary
 to support a tax position, including details of any tax planning
 arrangements.
 
-•
-
-Making appropriate disclosure of tax strategy, policies or other
+• Making appropriate disclosure of tax strategy, policies or other
 tax-related matters in the financial statements or other relevant
 
-CHANGES
+CHANGES Non-compliance with Tax Laws and Regulations
 
-Non-compliance with Tax Laws and Regulations
-
-CHANGES TO THE CODE
-
-public documents in accordance with applicable reporting
+CHANGES TO THE CODE public documents in accordance with applicable reporting
 requirements.
-•
-
-Ensuring that the client’s tax planning arrangements are
+• Ensuring that the client’s tax planning arrangements are
 consistent with any publicly disclosed tax strategy or policies.
 
 Responsibilities of All Professional Accountants
@@ -20729,20 +16145,12 @@ Responsibilities of All Professional Accountants
 As part of providing a tax planning service, a professional accountant
 shall obtain an understanding of the nature of the engagement,
 including:
-(a)
-
-Knowledge and understanding of the client, its owners,
+(a) Knowledge and understanding of the client, its owners,
 management and those charged with governance, and its
 business activities;
 
-(b)
-
-The purpose, facts and circumstances of the tax planning
-arrangement; and
-
-(c)
-
-The relevant tax laws and regulations.
+(b) The purpose, facts and circumstances of the tax planning
+arrangement; and (c) The relevant tax laws and regulations.
 
 **380.10 A1**
 
@@ -20800,76 +16208,48 @@ paragraphs 380.6 A1 and A2. This includes, for example:
 
 **380.12 A4**
 
-CHANGES
-
-•
-
-Assisting the client to restructure a tax planning arrangement to
+CHANGES • Assisting the client to restructure a tax planning arrangement to
 achieve a credible basis as part of a tax dispute resolution
 service.
 
-•
-
-Agreeing with the client appropriate changes to the tax planning
+• Agreeing with the client appropriate changes to the tax planning
 arrangement to achieve a credible basis as part of representing
 the client in administrative or court proceedings.
 
 Examples of actions that a professional accountant might take to
 determine that there is a credible basis in relation to a particular tax
 planning arrangement include:
-•
-
-Reviewing the relevant facts and circumstances, including the
+• Reviewing the relevant facts and circumstances, including the
 economic purpose and substance of the arrangement.
 
-•
+• Assessing the reasonableness of any assumptions.
 
-Assessing the reasonableness of any assumptions.
+• Reviewing the relevant tax legislation.
 
-•
-
-Reviewing the relevant tax legislation.
-
-•
-
-Reviewing legislative proceedings that discuss the intent of the
+• Reviewing legislative proceedings that discuss the intent of the
 relevant tax legislation.
 
-•
-
-Reviewing relevant literature such as court decisions,
+• Reviewing relevant literature such as court decisions,
 professional or industry journals, and tax authority rulings or
 guidance.
 
-CHANGES
-
-CHANGES TO THE CODE
-
-CHANGES TO THE CODE
+CHANGES CHANGES TO THE CODE CHANGES TO THE CODE
 
 **R380.13**
 
-•
-
-Considering whether the basis used for the proposed
+• Considering whether the basis used for the proposed
 arrangement is an established practice that has not been
 challenged by the relevant tax authorities.
 
-•
-
-Considering how likely the proposed arrangement would be
+• Considering how likely the proposed arrangement would be
 accepted by the relevant tax authorities if all the relevant facts
 and circumstances were disclosed.
 
-•
-
-Consulting with legal counsel or other experts within or outside
+• Consulting with legal counsel or other experts within or outside
 the professional accountant’s firm regarding what a reasonable
 interpretation of the relevant laws and regulations might be.
 
-•
-
-Consulting with the relevant tax authorities, where applicable.
+• Consulting with the relevant tax authorities, where applicable.
 
 If, during the course of the engagement, the professional accountant
 becomes aware of circumstances that might impact the previous
@@ -20932,27 +16312,19 @@ different jurisdictions.
 Relevant factors the professional accountant might consider in
 determining whether to advise the client to make such disclosure
 include:
-•
+• The significance of the tax benefits in the relevant jurisdictions.
 
-The significance of the tax benefits in the relevant jurisdictions.
-
-•
-
-Stakeholders’ perceptions of the client if the facts and
+• Stakeholders’ perceptions of the client if the facts and
 circumstances were known to the stakeholders.
 
-•
-
-Whether there are globally or nationally accepted principles or
+• Whether there are globally or nationally accepted principles or
 practices regarding disclosure of similar situations to the tax
 authorities in the relevant jurisdictions.
 
 Circumstances of Uncertainty
 **380.17 A1**
 
-CHANGES
-
-In determining whether there is a credible basis for the tax planning
+CHANGES In determining whether there is a credible basis for the tax planning
 arrangement, a professional accountant might encounter
 circumstances giving rise to uncertainty as to whether a proposed tax
 planning arrangement will be in compliance with the relevant tax laws
@@ -20961,68 +16333,40 @@ accountant to determine that there is a credible basis in laws and
 regulations for the tax planning arrangement and might, therefore,
 create threats to compliance with the fundamental principles.
 
-CHANGES
-
-CHANGES TO THE CODE
-
-CHANGES TO THE CODE
+CHANGES CHANGES TO THE CODE CHANGES TO THE CODE
 
 **380.17 A2**
 
 Circumstances that might give rise to uncertainty include:
-•
+• Difficulty in establishing an adequate factual basis.
 
-Difficulty in establishing an adequate factual basis.
+• Difficulty in establishing an adequate basis of assumptions.
 
-•
-
-Difficulty in establishing an adequate basis of assumptions.
-
-•
-
-Lack of clarity in the tax laws and regulations and their
+• Lack of clarity in the tax laws and regulations and their
 interpretation, including:
-o
+o Gaps in the tax laws and regulations.
 
-Gaps in the tax laws and regulations.
+o Challenges to previous court rulings.
 
-o
-
-Challenges to previous court rulings.
-
-o
-
-Conflicting tax laws and regulations in different
+o Conflicting tax laws and regulations in different
 jurisdictions in circumstances involving cross-border
 transactions.
 
-o
-
-Innovative business models not addressed by the current
+o Innovative business models not addressed by the current
 tax laws and regulations.
 
-o
-
-Recent court or tax authority rulings or positions that cast
+o Recent court or tax authority rulings or positions that cast
 doubt on similar tax planning arrangements.
 
-o
-
-Complexity in interpreting or applying the tax laws and
+o Complexity in interpreting or applying the tax laws and
 regulations from a technical or legal point of view.
 
-o
+o Lack of a legal precedent, ruling or position.
 
-Lack of a legal precedent, ruling or position.
-
-•
-
-Lack of clarity regarding the economic purpose and substance
+• Lack of clarity regarding the economic purpose and substance
 of the tax planning arrangement.
 
-•
-
-Lack of clarity about the ultimate beneficiaries of the tax
+• Lack of clarity about the ultimate beneficiaries of the tax
 planning arrangement.
 
 **R380.18**
@@ -21034,67 +16378,45 @@ a professional accountant shall discuss the uncertainty with the client.
 **380.18 A1**
 
 The discussion serves a number of purposes, including:
-•
-
-Explaining the professional accountant’s assessment about how
+• Explaining the professional accountant’s assessment about how
 likely the relevant tax authorities are to have a view that
 supports the tax planning arrangement where there is a lack of
 clarity in the interpretation of the relevant tax laws and
 regulations.
 
-CHANGES
-
-•
-
-Considering any assumptions made when establishing the basis
+CHANGES • Considering any assumptions made when establishing the basis
 on which the tax planning advice is provided.
 
-•
-
-Obtaining any additional information from the client that might
+• Obtaining any additional information from the client that might
 reduce the uncertainty.
 
-•
-
-Discussing any reputational, commercial or wider economic
+• Discussing any reputational, commercial or wider economic
 consequences in pursuing the tax planning arrangement.
 
-•
-
-Discussing potential courses of action to mitigate the possibility
+• Discussing potential courses of action to mitigate the possibility
 of adverse consequences for the client, including consideration
 of disclosure to the relevant tax authorities.
 
 Potential Threats Arising from Providing a Tax Planning Service
 **380.19 A1**
 
-CHANGES
-
-Providing a tax planning service to a client might create a self-interest,
+CHANGES Providing a tax planning service to a client might create a self-interest,
 self-review, advocacy or intimidation threat. For example:
-•
-
-A self-review threat might be created when a professional
+• A self-review threat might be created when a professional
 accountant has recently provided a valuation service to a client
 for tax purposes, the output of which is then relied upon or is a
 key input to a tax planning service for the client.
 
-•
-
-A self-interest threat might be created when a professional
+• A self-interest threat might be created when a professional
 accountant has a direct financial interest in a client and the
 accountant is involved in designing a tax planning arrangement
 that has an impact on the client’s financial situation.
 
-•
-
-Self-interest and advocacy threats might be created when a
+• Self-interest and advocacy threats might be created when a
 professional accountant actively promotes a particular tax
 position a client should adopt.
 
-•
-
-A self-interest threat might be created when a professional
+• A self-interest threat might be created when a professional
 accountant is in possession of confidential information
 obtained from the accountant’s involvement in formulating or
 drafting tax policy, laws or regulations for a government
@@ -21102,80 +16424,54 @@ agency and the confidential information would be valuable to
 the accountant in advising other clients on their tax planning
 arrangements.
 
-•
-
-A self-interest threat might be created when a professional
+• A self-interest threat might be created when a professional
 accountant accepts a fee that might be perceived to be excessive
 for an engagement to develop a tax planning arrangement for
 
-CHANGES
-
-CHANGES TO THE CODE
-
-CHANGES TO THE CODE
-
-which the interpretation of the relevant tax laws and regulations
+CHANGES CHANGES TO THE CODE CHANGES TO THE CODE which the interpretation of the relevant tax laws and regulations
 is uncertain or unclear.
 
 **380.19 A2**
 
-•
-
-Self-interest and advocacy threats might be created when a
+• Self-interest and advocacy threats might be created when a
 professional accountant advocates a client’s position in a tax
 planning arrangement which the accountant previously advised
 on before a tax authority when there are indications that the
 arrangement might not have a credible basis in laws and
 regulations.
 
-•
-
-Self-interest and intimidation threats might be created when a
+• Self-interest and intimidation threats might be created when a
 professional accountant provides services to a client who exerts
 significant influence over the design of a particular tax
 arrangement, in a way that might influence the accountant’s
 determination that there is a credible basis for the arrangement
 in laws and regulations.
 
-•
-
-Self-interest and intimidation threats might be created when a
+• Self-interest and intimidation threats might be created when a
 professional accountant is threatened with dismissal from the
 engagement or the accountant’s firm concerning the position a
 client is insisting on pursuing regarding a tax planning
 arrangement.
 
 Factors that are relevant in evaluating the level of such threats include:
-•
-
-The degree of transparency of the client, including, where
+• The degree of transparency of the client, including, where
 applicable, the identity of the ultimate beneficiaries.
 
-•
-
-Whether the tax planning arrangement has a clear economic
+• Whether the tax planning arrangement has a clear economic
 purpose and substance based on the underlying business
 transaction or circumstances.
 
-•
-
-The nature and complexity of the underlying business
+• The nature and complexity of the underlying business
 transaction or circumstances.
 
-•
-
-The complexity or clarity of the relevant tax laws and
+• The complexity or clarity of the relevant tax laws and
 regulations.
 
-•
-
-Whether the professional accountant knows, or has reason to
+• Whether the professional accountant knows, or has reason to
 believe, that the tax planning arrangement would be contrary to
 the intent of the relevant tax legislation.
 
-•
-
-The number of jurisdictions involved and the nature of their tax
+• The number of jurisdictions involved and the nature of their tax
 regimes.
 
 CHANGES
@@ -21184,153 +16480,97 @@ CHANGES
 
 **380.19 A4**
 
-CHANGES
-
-•
-
-The extent of the professional accountant’s expertise and
+CHANGES • The extent of the professional accountant’s expertise and
 experience in the relevant tax areas.
 
-•
+• The significance of the potential tax savings.
 
-The significance of the potential tax savings.
+• The nature and amount of the fee for the tax planning service.
 
-•
-
-The nature and amount of the fee for the tax planning service.
-
-•
-
-The extent to which the professional accountant is aware that
+• The extent to which the professional accountant is aware that
 the tax planning arrangement reflects an established practice
 that has not been challenged by the relevant tax authorities.
 
-•
-
-Whether there is pressure being exerted by the client or another
+• Whether there is pressure being exerted by the client or another
 party on the professional accountant.
 
-•
-
-The degree of urgency in implementing the tax planning
+• The degree of urgency in implementing the tax planning
 arrangement.
 
-•
-
-Whether it is a tax planning arrangement used for multiple
+• Whether it is a tax planning arrangement used for multiple
 clients with little modification for the client’s specific
 circumstances.
 
-•
-
-The known previous behavior or reputation of the client,
+• The known previous behavior or reputation of the client,
 including its organizational culture.
 
 Examples of actions that might eliminate such threats include:
-•
-
-Referring the client to an expert outside the professional
+• Referring the client to an expert outside the professional
 accountant’s firm who has the necessary expertise and
 experience to advise the client on the tax planning arrangement.
 
-•
-
-Advising the client to structure the tax planning arrangement so
+• Advising the client to structure the tax planning arrangement so
 that it is consistent with an existing interpretation or ruling
 issued by the relevant tax authorities.
 
-•
-
-Obtaining an advance ruling from the relevant tax or other
+• Obtaining an advance ruling from the relevant tax or other
 authorities, where possible.
 
-•
-
-Advising the client not to pursue the tax planning arrangement.
+• Advising the client not to pursue the tax planning arrangement.
 
 Examples of actions that might be safeguards to address such threats
 include:
-•
+• Establishing the identity of the ultimate beneficiaries.
 
-Establishing the identity of the ultimate beneficiaries.
-
-•
-
-Advising the client to structure the tax planning arrangement so
+• Advising the client to structure the tax planning arrangement so
 that it better aligns with the underlying economic purpose and
 substance.
 
-CHANGES
-
-CHANGES TO THE CODE
-
-CHANGES TO THE CODE
+CHANGES CHANGES TO THE CODE CHANGES TO THE CODE
 
 **380.19 A5**
 
-•
-
-Advising the client to structure the tax planning arrangement
+• Advising the client to structure the tax planning arrangement
 based on an established practice that is currently not subject to
 challenge by the relevant tax authorities or is known to have
 been accepted by the relevant tax authorities.
 
-•
-
-Consulting with a legal counsel or other expert within or outside
+• Consulting with a legal counsel or other expert within or outside
 the professional accountant’s firm in the relevant tax areas.
 
-•
-
-Obtaining an opinion from an appropriately qualified
+• Obtaining an opinion from an appropriately qualified
 professional (such as legal counsel or another professional
 accountant) regarding the interpretation of the relevant tax laws
 and regulations as applied to the particular circumstances.
 
-•
-
-Having an appropriate reviewer, who is not otherwise involved
+• Having an appropriate reviewer, who is not otherwise involved
 in providing the tax planning service, review any work
 performed or conclusions reached by the professional
 accountant with respect to the tax planning arrangement.
 
-•
-
-Having the client provide full transparency about the tax
+• Having the client provide full transparency about the tax
 planning arrangement to the relevant tax authorities, including
 the goals, business and legal aspects, and ultimate beneficiaries
 of the tax planning arrangement.
 
 Examples of steps a professional accountant might take to establish
 the identity of the ultimate beneficiaries include:
-•
+• Making inquiries of management and others within the client.
 
-Making inquiries of management and others within the client.
-
-•
-
-Making inquiries of others within or outside the firm who have
+• Making inquiries of others within or outside the firm who have
 dealt with the client, having regard to the principle of
 confidentiality.
 
-•
-
-Reviewing the client’s tax records, financial statements and
+• Reviewing the client’s tax records, financial statements and
 other relevant corporate records.
 
-•
-
-Making inquiries of registrars where the client or entities within
+• Making inquiries of registrars where the client or entities within
 its legal structure are incorporated concerning the relevant
 shareholders.
 
-•
+• Researching relevant public records.
 
-Researching relevant public records.
-
-CHANGES
-
-CHANGES TO THE CODE
+CHANGES CHANGES TO THE CODE
 
 **R380.20**
 
@@ -21346,42 +16586,28 @@ Disagreement with the Client
 If the professional accountant disagrees that a tax planning
 arrangement that a client would like to pursue has a credible basis, the
 accountant shall:
-(a)
+(a) Inform the client of the basis of the accountant’s assessment;
 
-Inform the client of the basis of the accountant’s assessment;
-
-(b)
-
-Communicate to the client the potential consequences of
+(b) Communicate to the client the potential consequences of
 pursuing the arrangement; and
 
-(c)
-
-Advise the client not to pursue the arrangement.
+(c) Advise the client not to pursue the arrangement.
 
 If the client decides to pursue the tax planning arrangement despite the
 professional accountant’s advice to the contrary, the accountant shall
 advise the client to:
-(a)
-
-Communicate internally to the appropriate level of
+(a) Communicate internally to the appropriate level of
 management the details of the arrangement and the difference
 of views;
 
-(b)
-
-Consider making full disclosure of the arrangement to the
+(b) Consider making full disclosure of the arrangement to the
 relevant tax authorities; and
 
-(c)
-
-**380.22 A1**
+(c) **380.22 A1**
 
 **R380.23**
 
-CHANGES
-
-Consider communicating the details of the arrangement and the
+CHANGES Consider communicating the details of the arrangement and the
 difference of views to the external auditor, if any.
 As part of communicating the matters set out in paragraphs R380.21
 and R380.22, a professional accountant might consider it appropriate
@@ -21391,26 +16617,18 @@ In light of the client’s response to the professional accountant’s advice,
 the accountant shall consider whether there is a need to withdraw from
 the engagement and the professional relationship.
 
-CHANGES
+CHANGES Communication of Basis of the Tax Planning Recommendation or Advice
 
-Communication of Basis of the Tax Planning Recommendation or Advice
-
-CHANGES TO THE CODE
-
-Tax Planning Products or Arrangements Developed by a Third Party
+CHANGES TO THE CODE Tax Planning Products or Arrangements Developed by a Third Party
 **R380.24**
 
 If a client engages a professional accountant to advise on a tax
 planning product or arrangement developed by a third party, the
 accountant shall:
-(a)
-
-Inform the client of any professional or business relationship
+(a) Inform the client of any professional or business relationship
 the accountant has with the third-party provider; and
 
-(b)
-
-Apply the provisions in this section with respect to the tax
+(b) Apply the provisions in this section with respect to the tax
 planning product or arrangement.
 
 **R380.25**
@@ -21435,85 +16653,50 @@ Documentation
 
 When providing a tax planning service, a professional accountant is
 encouraged to document on a timely basis:
-•
-
-The purpose, circumstances and substance of the tax planning
+• The purpose, circumstances and substance of the tax planning
 arrangement.
 
-•
+• The identity of the ultimate beneficiaries.
 
-The identity of the ultimate beneficiaries.
+• The nature of any uncertainties.
 
-•
-
-The nature of any uncertainties.
-
-•
-
-The accountant’s analysis, the courses of action considered, the
+• The accountant’s analysis, the courses of action considered, the
 judgments made, and the conclusions reached in advising the
 client on the tax planning arrangement.
 
-•
+• The results of discussions with the client and other parties.
 
-The results of discussions with the client and other parties.
+• The client’s response to the accountant’s advice.
 
-•
+• Any disagreement with the client.
 
-The client’s response to the accountant’s advice.
-
-•
-
-Any disagreement with the client.
-
-CHANGES
-
-CHANGES TO THE CODE
-
-CHANGES
-
-Preparing such documentation assists the accountant to:
-•
-
-Consider the reputational, commercial and wider economic
+CHANGES CHANGES TO THE CODE CHANGES Preparing such documentation assists the accountant to:
+• Consider the reputational, commercial and wider economic
 consequences that could arise from the way stakeholders might
 view the arrangement.
 
-•
-
-Develop the accountant’s analysis of the facts, circumstances,
+• Develop the accountant’s analysis of the facts, circumstances,
 relevant tax laws and regulations and any assumptions made or
 changed.
 
-•
-
-Record the basis of the professional judgments at the time they
+• Record the basis of the professional judgments at the time they
 were made or changed.
 
-•
-
-Support the position if the tax planning arrangement is
+• Support the position if the tax planning arrangement is
 challenged by the relevant tax authorities.
 
-•
-
-Demonstrate that the accountant has complied with the
+• Demonstrate that the accountant has complied with the
 provisions in this section.
 
 CHANGES
 
 **380.26 A2**
 
-CHANGES TO THE CODE
-
-CONSEQUENTIAL AMENDMENTS TO THE CODE
+CHANGES TO THE CODE CONSEQUENTIAL AMENDMENTS TO THE CODE
 # Part 3 — Professional Accountants in Public Practice
 ## Section 321 — Second Opinions
-…
-Requirements and Application Material
-General
-…
-[Extant paragraph 321.3 A1 will be replaced by paragraph 321.3 A1 below]
+… Requirements and Application Material
+General … [Extant paragraph 321.3 A1 will be replaced by paragraph 321.3 A1 below]
 **321.3 A1**
 
 A professional accountant might be asked to provide a second opinion
@@ -21532,57 +16715,33 @@ R321.4 below]
 **321.3 A3**
 
 Examples of actions that might be safeguards to address such a selfinterest threat include:
-•
-
-With the client’s permission, obtaining information from the
+• With the client’s permission, obtaining information from the
 existing or predecessor accountant or other service provider.
 
-•
-
-Describing the limitations surrounding
+• Describing the limitations surrounding
 communications with the client.
 
-•
-
-Providing the existing or predecessor accountant or other service
+• Providing the existing or predecessor accountant or other service
 provider with a copy of the opinion.
 
-any
-
-opinion
-
-in
-
-CHANGES
-
-CHANGES TO THE CODE
+any opinion in CHANGES CHANGES TO THE CODE
 
 **R321.4**
 
-CHANGES
-
-If an entity seeking a second opinion from a professional accountant
+CHANGES If an entity seeking a second opinion from a professional accountant
 will not permit the accountant to communicate with the existing or
 predecessor accountant or other service provider, the accountant shall
 determine whether the accountant may provide the second opinion
 sought.
 
-CHANGES
+CHANGES When Permission to Communicate is Not Provided
 
-When Permission to Communicate is Not Provided
-
-CHANGES TO THE CODE
-
-EFFECTIVE DATE OF THE TAX PLANNING AND
+CHANGES TO THE CODE EFFECTIVE DATE OF THE TAX PLANNING AND
 RELATED SERVICES PROVISIONS
-•
-
-Section 280 will be effective for tax planning activities beginning after June 30,
+• Section 280 will be effective for tax planning activities beginning after June 30,
 2025.
 
-•
-
-Section 380 and the consequential amendments to Section 321 will be effective
+• Section 380 and the consequential amendments to Section 321 will be effective
 for tax planning services beginning after June 30, 2025.
 
 Transitional Provision
@@ -21591,9 +16750,6 @@ such services or activities may be continued and be completed under the extant
 provisions of the Code.
 Early adoption is permitted.
 
-CHANGES
-
-529 Fifth Avenue, New York, NY 10017
+CHANGES 529 Fifth Avenue, New York, NY 10017
 T +1 (212) 286-9344 F +1 (212) 286-9570
-www.ifac.org
-ISBN: 978-1-60815-571-2
+www.ifac.org ISBN: 978-1-60815-571-2
