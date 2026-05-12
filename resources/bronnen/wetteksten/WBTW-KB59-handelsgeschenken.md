@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 pass: 22 headings, max sectie 3529 chars. Kleine KB correct verwerkt. Inhoud volledig.'
     layer1:
       status: pass
-      run_id: 20260512-210357
-      run_at: '2026-05-12T21:04:00Z'
+      run_id: 20260512-210639
+      run_at: '2026-05-12T21:06:43Z'
       heading_count: 22
       max_section_chars: 3529
       file_size_chars: 20914

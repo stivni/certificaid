@@ -30,8 +30,8 @@ provenance:
     rationale: "Handcrafted file, geen PDF-artefacten. Maar: rekeningnummers als plain text zonder ##-headings (bv. '66211 Besteding'), structuur is flat-text rekeningstelsel zonder markdown-hiërarchie. 0 headings voor 5338 chars. Voor een MAR (rekeningstelsel) kan dit acceptabel zijn, maar de pagina-aanduidingen ('9 | Minimum Algemeen Rekeningstelsel...') zijn PDF-footer-resten."
     layer1:
       status: pass
-      run_id: 20260512-210357
-      run_at: '2026-05-12T21:03:59Z'
+      run_id: 20260512-210639
+      run_at: '2026-05-12T21:06:41Z'
       heading_count: 0
       max_section_chars: 5338
       file_size_chars: 5338

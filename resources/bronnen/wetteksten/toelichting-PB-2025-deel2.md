@@ -17,48 +17,30 @@ provenance:
       version: '2025'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1fc0dd6
+    pipeline_version: 057ab06-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T20:13:57Z'
+  generated_at: '2026-05-12T21:06:38Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Zelfde patroon als deel1: TOC met losse paginanummers (1 dotted-leader L1 flag). Cover-fragment A6. Secties correct als ## headings. Inhoud leesbaar maar cover-ruis en TOC-artefacten hinderen RAG.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: warn
-      run_id: 20260512-210357
-      run_at: '2026-05-12T21:04:02Z'
+      run_id: 20260512-210658
+      run_at: '2026-05-12T21:06:58Z'
       heading_count: 8
-      max_section_chars: 56550
-      file_size_chars: 187187
+      max_section_chars: 56486
+      file_size_chars: 186798
       flags:
         - name: max_section_size
           status: warn
-          detail: 'langste sectie op ##-niveau: 56550 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          detail: 'langste sectie op ##-niveau: 56486 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
-        - name: no_toc_dots
-          status: warn
-          detail: 1 TOC-stippen-regel(s) gevonden
-          samples:
-            - '................................................................................'
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: 'Zelfde patroon als deel1: TOC met losse paginanummers (1 dotted-leader L1 flag). Cover-fragment A6. Secties correct als ## headings. Inhoud leesbaar maar cover-ruis en TOC-artefacten hinderen RAG.'
-      concrete_problemen:
-        - regel: 55
-          categorie: A6
-          type: scrambled-words
-          voorbeeld: Toelichting\n\nbij deel 2 van de\nvoorbereiding van de aangifte
-        - regel: 1
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: 1 dotted-leader-regel gevonden (L1 flag)
 ---
 
 # Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Deel 2
@@ -77,55 +59,30 @@ Aanslagjaar 2025
  INHOUDSTAFEL
 ALGEMENE INLICHTINGEN
 
-3
-
 VAK XIV - BEROEP EN ONDERNEMINGSNUMMER
 
-5
-
 VAK XV - DIVERSE INKOMSTEN
-
-6
 
 A. Diverse inkomsten van roerende aard
 B. Andere diverse inkomsten
 
-6
-8
-
 VAK XVI - BEZOLDIGINGEN VAN BEDRIJFSLEIDERS
-
-21
 
 VAK XVII - WINST UIT NIJVERHEIDS-, HANDELS- OF
 LANDBOUWONDERNEMINGEN
 
-27
-
 VAK XVIII - BATEN VAN VRIJE BEROEPEN, AMBTEN, POSTEN OF ANDERE
 WINSTGEVENDE BEZIGHEDEN
-
-43
 
 VAK XIX - VERREKENBARE BESTANDDELEN IN VERBAND MET EEN
 ZELFSTANDIGE BEROEPSWERKZAAMHEID
 
-54
-
 VAK XX - BEZOLDIGINGEN VAN MEEWERKENDE ECHTGENOTEN EN
 WETTELIJK SAMENWONENDE PARTNERS
 
-63
-
 VAK XXI - WINST EN BATEN VAN EEN VORIGE BEROEPSWERKZAAMHEID
 
-66
-
 VAK XXII - EERSTE VESTIGING ALS ZELFSTANDIGE
-
-70
-
-2
 
  ALGEMENE INLICHTINGEN
 De voorbereiding van de aangifte (deel 2)
@@ -169,9 +126,6 @@ zijn verkregen en belast in een land waarmee België geen overeenkomst heeft ges
 om dubbele belasting te voorkomen, met uitzondering van:
 - de bezoldigingen van bedrijfsleiders voor werkzaamheden uitgeoefend voor inrichtingen gelegen in het buitenland, die niet op de resultaten van die inrichtingen worden
 toegerekend
-3
-
- -
 
 de inkomsten van roerende goederen en kapitalen gebruikt voor het uitoefenen van
 de beroepswerkzaamheid in inrichtingen in België
@@ -198,8 +152,6 @@ Bedrijfs- of beroepszetel op een ander adres dan uw domicilie
 Als uw bedrijfs- of beroepszetel niet samenvalt met uw domicilie, moet u in vak XVII, 24 respectievelijk in vak XVIII, 23 ook het adres van die zetel vermelden.
 Als u een papieren aangifte indient, moet u dat adres op blz. 4 van die aangifte vermelden.
 
-4
-
 ## Vak XIV - BEROEP EN ONDERNEMINGSNUMMER
 1. Beroep uitgeoefend in 2024
 Vermeld hier nauwkeurig de aard van het beroep dat u in 2024 hebt uitgeoefend (bv.
@@ -214,8 +166,6 @@ Als u btw-plichtige bent, stemt het ondernemingsnummer overeen met uw btw-nummer
 voorafgegaan door het cijfer 0.
 Als u een papieren aangifte indient, moet u uw ondernemingsnummer op de voorpagina
 van die aangifte invullen.
-
-5
 
 ## Vak XV - DIVERSE INKOMSTEN
 A. DIVERSE INKOMSTEN VAN ROERENDE AARD
@@ -253,8 +203,6 @@ hebben ondergaan, mag u die vergoedingen hier vermelden.
 Vermeld de vergoedingen in rubriek 1 tot 4, naargelang de roerende voorheffing
 30, 20, 15 of 5 % bedraagt.
 Het aan te geven bedrag is het brutobedrag verminderd met de eventuele buitenlandse belasting en met de roerende voorheffing.
-
-6
 
  Vak XV
 
@@ -326,7 +274,6 @@ reclamedragers van welke aard ook, op afsluitingen en omheiningen rond onbebouwd
 
 ▲ Opgelet: als de plaatsen roerend zijn, moet u de inkomsten vermelden in
 vak VII, B.
-7
 
  Vak XV
 
@@ -382,8 +329,6 @@ de verhuring van een appartement of kamer
 
 inkomsten van kapitalen en roerende goederen (zie vak VII) zoals de inkomsten uit de verhuring van meubilair
 
-8
-
  Vak XV
 
 •
@@ -428,8 +373,6 @@ Als uw inkomsten uit diensten verleend in het kader van de deeleconomie als dive
 inkomsten belastbaar zijn, moet u het brutobedrag ervan vermelden in rubriek B, 1,
 a, 1 en de ingehouden bedrijfsvoorheffing in rubriek B, 1, a, 2. Op uw fiche(s) 281.29
 vindt u die bedrijfsvoorheffing in vak 7.
-
-9
 
  Vak XV
 
@@ -506,8 +449,6 @@ dan 77,22 euro per dag, desgevallend verhoogd met een terugbetaling
 van de werkelijke verplaatsingskosten per opdrachtgever die niet meer
 bedraagt dan 22,06 euro per dag
 
-11
-
  Vak XV
 
 Als een opdrachtgever een hoger bedrag heeft betaald, met inbegrip van
@@ -555,7 +496,6 @@ twee jaren van uitbetaling. Bij echtgenoten en wettelijk samenwonenden geldt die
 vrijstelling voor elke echtgenoot of partner afzonderlijk.
 Als u in rubriek B, 3 inkomsten van buitenlandse oorsprong hebt vermeld, moet u ook
 de in rubriek B, 3, c gevraagde gegevens invullen. Als u een papieren aangifte indient, moet u die gegevens op blz. 4 van die aangifte vermelden.
-12
 
  Vak XV
 
@@ -595,7 +535,6 @@ aan het bedrag dat werkelijk is betaald of toegekend, verhoogd met de eventueel 
 vak 6, e.
 ▲ Opgelet: het brutobedrag is slechts belastbaar na aftrek van 10 % forfaitaire kosten. Vermeld echter altijd het volledige brutobedrag. De belastingdienst zal het
 kostenforfait automatisch toepassen.
-13
 
  Vak XV
 
@@ -636,7 +575,6 @@ c) overdrachten onder bezwarende titel van gronden van:
 - al dan niet ontvoogde minderjarigen als een gerechtelijke instantie daartoe
 machtiging heeft gegeven
 - personen aan wie een bewindvoerder is toegevoegd volgens de bepalingen
-14
 
  Vak XV
 
@@ -696,8 +634,6 @@ gebouwen
 Algemeen
 Het gaat hier om meerwaarden en verliezen die u bij een overdracht onder bezwa-
 
-15
-
  Vak XV
 
 rende titel hebt verwezenlijkt of geleden op in België gelegen gebouwen of op zakelijke rechten op gebouwen (behalve het recht van erfpacht, het recht van opstal of
@@ -741,7 +677,6 @@ Algemeen
 Houd voor elk overgedragen gebouw of zakelijk recht uw berekening van het nettobedrag van de meerwaarde of het verlies dat u in rubriek B, 7, a of b hebt vermeld,
 ter beschikking van de belastingdienst. Volg bij die berekening het passende schema
 hierna.
-16
 
  Vak XV
 
@@ -814,8 +749,6 @@ m) data:
 2) van verkrijging onder bezwarende titel (eventueel door de
 schenker): .........................................................................................................
 3) van overdracht onder bezwarende titel: ............................................................
-n) ligging van het gebouw: .........................................................................................
-17
 
  Vak XV
 
@@ -882,8 +815,6 @@ hierna zijn uitgevoerd:
 (M) ..............
 .
 
-18
-
  Vak XV
 
 n) totaal K + L + M:
@@ -928,8 +859,6 @@ de verrichting is.
 ▲ Opgelet: als de verrichting niet is gebeurd uit zakelijke overwegingen zoals herstructurering of rationalisering van de activiteiten van de betrokken vennootschappen, kan worden vermoed dat belastingfraude of -ontwijking het hoofddoel of één
 van de hoofddoelen van de verrichting is, tenzij het tegendeel wordt bewezen.
 
-19
-
  Vak XV
 
 De tijdelijke vrijstelling blijft slechts behouden als u kunt bewijzen dat de ontvangen
@@ -962,8 +891,6 @@ van de belangrijkheid van de deelneming voldoet.
 
 Tijdelijke vrijstelling
 De in deze rubriek beoogde meerwaarden op aandelen kunnen tijdelijk worden vrijgesteld onder dezelfde voorwaarden als die vermeld in de uitleg bij rubriek B, 8, onder de titel ‘Tijdelijke vrijstelling’.
-
-20
 
 ## Vak XVI - BEZOLDIGINGEN VAN BEDRIJFSLEIDERS
 Voorafgaande opmerkingen
@@ -1003,7 +930,6 @@ Houd uw berekening van de aangegeven huurinkomsten ter beschikking van de belast
 Onder ‘vervroegd vakantiegeld’ moet hier worden verstaan: het gedeelte van het vakantiegeld dat tijdens het jaar dat een bedrijfsleider tewerkgesteld met een arbeidsovereenkomst zijn werkgever verlaat, is opgebouwd en aan hem wordt betaald (m.a.w. het gedeelte dat pas in 2025 zou zijn betaald als de bedrijfsleider zijn werkgever in 2024 niet
 had verlaten).
 Het vervroegd vakantiegeld vindt u op uw fiche 281.20 naast code 402.
-21
 
  Vak XVI
 
@@ -1043,7 +969,6 @@ op uw fiche(s) 281.20 vindt naast code 418.
 aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermenigvuldigen met
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
-22
 
  Vak XVI
 
@@ -1091,7 +1016,6 @@ artikel 4 van het koninklijk besluit van 23.3.2012 tot oprichting van een Impuls
 de huisartsengeneeskunde en tot vaststelling van de werkingsregels ervan, die u als
 erkend huisarts in 2024 hebt verkregen om u te vestigen in een zogenaamde ‘prioritaire’
 zone, d.w.z. een zone waar nood is aan extra huisartsen.
-23
 
  Vak XVI
 
@@ -1139,7 +1063,6 @@ dan moet u:
 aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermenigvuldigen met
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
-24
 
  Vak XVI
 
@@ -1190,8 +1113,6 @@ Op uw individuele fiches vindt u die bijdragen en premies naast code 421.
 15. Inhoudingen voor de bijzondere bijdrage voor de sociale zekerheid
 Vermeld hier het bedrag dat u op uw fiche 281.20 vindt naast code 409.
 
-25
-
  Vak XVI
 
 16. Bezoldigingen van bedrijfsleiders tewerkgesteld in dienstverband, als
@@ -1233,8 +1154,6 @@ inkomsten van roerende goederen zijn te beschouwen, mag u hier niet vermelden.
 • Houd het bewijs van de inhouding van de roerende voorheffing ter beschikking van
 de belastingdienst.
 
-26
-
 ## Vak XVII - WINST UIT NIJVERHEIDS-, HANDELS- OF LANDBOUWONDERNEMINGEN
 Voorafgaande opmerkingen
 Vergoedingen tot herstel van een tijdelijke winstderving
@@ -1268,8 +1187,6 @@ voorheen afgetrokken kosten van overdracht van bepaalde activa en bepaalde vergo
 
 Voordelen
 In rubriek 1 moet u ook de voordelen van alle aard vermelden die u uit hoofde of ter gelegenheid van de uitoefening van uw beroep hebt verkregen.
-
-27
 
  Vak XVII
 
@@ -1328,7 +1245,6 @@ Vermeld hier de opbrengsten van in uw bedrijf belegde kapitalen en de vergoeding
 voor ontbrekende coupon of ontbrekend lot van in uw bedrijf belegde financiële instrumenten die het voorwerp zijn van een zakelijke-zekerheidsovereenkomst of een lening,
 in de mate dat zij niet van de personenbelasting zijn vrijgesteld.
 U moet die opbrengsten nog verhogen met:
-28
 
  Vak XVII
 
@@ -1380,7 +1296,6 @@ Die herbelegging moet gebeuren:
 tijdperk waarin u de schadevergoeding hebt ontvangen,
 - voor vrijwillig verwezenlijkte meerwaarden: binnen de 2 jaar vanaf 1 januari van
 het kalenderjaar waarin u de meerwaarde hebt verwezenlijkt,
-29
 
  Vak XVII
 
@@ -1421,7 +1336,6 @@ een opgave 276 P bij uw aangifte te voegen. Houd het (de) in artikel 21, § 3, v
 
 ▲ Opgelet: meerwaarden waarvoor u in het belastbare tijdperk van hun verwezenlijking
 vrijstelling hebt gevraagd en waarvoor de herbeleggingstermijn in 2024 is verstreken
-30
 
  Vak XVII
 
@@ -1473,8 +1387,6 @@ niet invult), moet u hier niets invullen.
 Hier moet u onder meer de vergoedingen vermelden die u tijdens de uitoefening van uw
 beroepswerkzaamheid hebt verkregen ter compensatie of naar aanleiding van een handeling die een vermindering van de werkzaamheid of van de winst van uw onderneming
 
-31
-
  Vak XVII
 
 tot gevolg kan hebben (het gaat onder meer om vergoedingen die een handelaar verkrijgt door een overeenkomst waarbij hij zich heeft verbonden om de werkzaamheid van
@@ -1512,7 +1424,6 @@ vermelden in rubriek 6, a.
 slachtoffer zijn van hinder door openbare werken
 • de kapitaal- en interestsubsidies die de bevoegde gewestelijke instellingen, rekening houdend met de Europese reglementering over staatssteun, hebben betaald
 aan landbouwers voor de vestiging en/of voor het aanschaffen of het tot stand
-32
 
  Vak XVII
 
@@ -1551,7 +1462,6 @@ op te nemen in een bijlage bij uw aangifte.
 aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermenigvuldigen met
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
-33
 
  Vak XVII
 
@@ -1600,7 +1510,6 @@ geboren is vóór 1956 en in 2024 geen bovenvermelde activiteit heeft uitgeoefen
 
 In die gevallen mag u de toekenningen aan uw meewerkende echtgenoot of
 wettelijk samenwonende partner echter vermelden in rubriek 16 onder de
-34
 
  Vak XVII
 
@@ -1659,8 +1568,6 @@ gebeurtenissen waarschijnlijk zijn.
 Het is aangewezen om de staat 204.3 bij uw aangifte te voegen.
 Ook de in uw aangegeven winst begrepen waardeverminderingen en voorzieningen op
 
-35
-
  Vak XVII
 
 schuldvorderingen op medecontractanten als gevolg van de vaststelling van een minnelijk akkoord of van de homologatie van een reorganisatieplan die volgens artikel 48,
@@ -1712,7 +1619,6 @@ bruto-uurloon van maximum 11,88 euro, ten opzichte van het aantal personeelslede
 u in 2023 binnen diezelfde loongrenzen tewerkstelde. De vrijstelling mag echter nooit
 meer bedragen dan 7.250 euro per bijkomende personeelseenheid van uw globale personeelsbestand van 2024 ten opzichte van uw globale personeelsbestand van 2023.
 Als u niet per kalenderjaar boekhoudt en uw boekjaar vóór 31 december afsluit, gelden
-36
 
  Vak XVII
 
@@ -1761,8 +1667,6 @@ de mentorpremies van het Brussels Hoofdstedelijk Gewest.
 Die vrijstelling bedraagt in principe 40 % van de als beroepskosten aftrekbare bezoldigingen (met inbegrip van de wettelijke sociale lasten, de werkgeversbijdragen
 en -premies en de andere sociale bijdragen verschuldigd door contractuele verplichtingen) voor de prestaties van een stagiair tijdens zijn praktijkopleiding in de loop van het
 
-37
-
  Vak XVII
 
 opleidingsjaar waarvoor u een stagebonus hebt verkregen. Als u in 2024 een stagebonus hebt verkregen voor de tewerkstelling van een stagiair tijdens het opleidingsjaar van
@@ -1806,7 +1710,6 @@ tot 100 % van de schijf van 0 tot 1.500 euro + 30 % van de schijf van 1.500
 tot 2.600 euro (de begrensde gemiddelde bruto maandelijkse referentiebezoldiging kan dus nooit meer bedragen dan 1.830 euro).
 4de stap: zet die begrensde maandbezoldiging om in een weekbezoldiging
 door het resultaat van de 3de stap te vermenigvuldigen met 3/13.
-38
 
  Vak XVII
 
@@ -1856,7 +1759,6 @@ personenvervoer en voor goederenvervoer’
 •
 
 15,5 % van de aanschaffings- of beleggingswaarde voor:
-39
 
  Vak XVII
 
@@ -1931,7 +1833,6 @@ sociaal statuut van de zelfstandigen heeft onderworpen.
 als u en uw echtgenoot of wettelijk samenwonende partner apart worden belast
 (zie ook de algemene inlichtingen over gehuwden en wettelijk samenwonenden in
 de toelichting bij deel 1). Voor het jaar waarin één van de echtgenoten of wettelijk
-40
 
  Vak XVII
 
@@ -1976,7 +1877,6 @@ bereiken, moet u die inkomsten als zelfstandige in bijberoep of als student-zelf
 aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermenigvuldigen met
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
-41
 
  Vak XVII
 
@@ -1986,8 +1886,6 @@ als zelfstandige, vermeld dan hier het totaal van de in de rubrieken 1, 2, 3,
 activiteit
 U moet deze rubriek alleen invullen als u aanvullende vergoedingen hebt vermeld in
 vak IV, rubriek D, 1, a, 1, a, 1; D, 1, a, 1, c, 1 of D, 1, a, 2 (a, b of c) of een bedrijfstoeslag in vak IV, rubriek E, 2, a, 1 of E, 2, b, 1 van deel 1.
-
-42
 
 ## Vak XVIII - BATEN VAN VRIJE BEROEPEN, AMBTEN, POSTEN OF ANDERE WINSTGEVENDE BEZIGHEDEN
 Voorafgaande opmerkingen
@@ -2021,7 +1919,6 @@ noodzakelijke artistieke bijdrage levert aan een artistieke creatie of uitvoerin
 artistiek-technische en een artistiek-ondersteunende prestatie. Een artistieke bijdrage wordt
 beschouwd als noodzakelijk wanneer zonder deze bijdrage hetzelfde artistieke resultaat niet
 zou worden bereikt.
-43
 
  Vak XVIII
 
@@ -2065,8 +1962,6 @@ de vrijstelling voor sociaal passief ingevolge het eenheidsstatuut (zie de uitle
 dienst zijn getreden (de totale terugneming mag nooit meer bedragen dan de vrijstelling die u voor die werknemers werkelijk hebt verkregen).
 
 ▲ Opgelet: meerwaarden die geheel of gedeeltelijk belastbaar worden, moet u vermelden in rubriek 6.
-
-44
 
  Vak XVIII
 
@@ -2114,7 +2009,6 @@ moet u hier de baten vermelden die u bij de verwezenlijking van een meerwaarde i
 activa waarop u de meerwaarde hebt verwezenlijkt en die u in een vorig aanslagjaar al
 als werkelijke beroepskosten hebt afgetrokken.
 ▲ Opgelet: dat geldt ook voor verwezenlijkte meerwaarden die vrijgesteld zijn.
-45
 
  Vak XVIII
 
@@ -2154,7 +2048,6 @@ die het slachtoffer zijn van hinder door openbare werken zijn vrijgesteld.
 
 9. Sociale bijdragen
 Het gaat hier onder meer om uw persoonlijke bijdragen in het kader van het sociaal statuut van de zelfstandigen.
-46
 
  Vak XVIII
 
@@ -2196,7 +2089,6 @@ ziekte- en invaliditeitsverzekering die minstens gelijkwaardig zijn aan die van 
 aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermenigvuldigen met
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
-47
 
  Vak XVIII
 
@@ -2240,7 +2132,6 @@ aangifte.
 
 Uitgaven voor de huur van onroerende goederen en voor de vestiging of
 overdracht van zakelijke gebruiksrechten op onroerende goederen
-48
 
  Vak XVIII
 
@@ -2294,7 +2185,6 @@ personeelsleden te bepalen.
 bijkomend personeel hebt gevraagd voor aanslagjaar 2024. Als uw gemiddelde personeelsbestand van het jaar 2024 is verminderd ten opzichte van het jaar 2023, moet
 de voorheen toegekende vrijstelling volledig of gedeeltelijk worden teruggenomen. De
 terugname moet u vermelden in rubriek 5 (zie ook de uitleg bij die rubriek).
-49
 
  Vak XVIII
 
@@ -2350,7 +2240,6 @@ werkgeversbijdragen
 
 ‘jaarlijks’: verkregen tijdens de referentieperiode, d.w.z. tijdens het belastbaar tijdperk, in voorkomend geval beperkt tot het aantal maanden waarin
 de werknemer voldeed aan de anciënniteitsvoorwaarde van 5 dienstjaren
-50
 
  Vak XVIII
 
@@ -2450,8 +2339,6 @@ voor één gemeenschappelijke aanslag wordt gekozen (zie ook de uitleg bij vak I
 A, 1, ‘Uw echtgenoot of wettelijk samenwonende partner is overleden in 2024’ en
 bij vak II, A, 2, ‘Deze aangifte gaat over een belastingplichtige die in 2024 overleden is’ in de toelichting bij deel 1).
 
-52
-
  Vak XVIII
 
 •
@@ -2493,7 +2380,6 @@ vak IV, rubriek D, 1, a, 1, a, 1; D, 1, a, 1, c, 1 of D, 1, a, 2 (a, b of c) of 
 aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermenigvuldigen met
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
-53
 
  Vak XIX – VERREKENBARE BESTANDDELEN
 IN VERBAND MET EEN ZELFSTANDIGE
@@ -2541,8 +2427,6 @@ niet in deze rubriek vermelden.
 •
 
 Buitenlandse belasting mag u hier nooit vermelden.
-
-54
 
  Vak XIX
 
@@ -2598,7 +2482,6 @@ verhoging (tot 0,27 euro voor het kalenderjaar 2023 en tot 0,28 euro voor het ka
 aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermenigvuldigen met
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
-55
 
  Vak XIX
 
@@ -2647,8 +2530,6 @@ wordt vergoed.
 Als u in de periode van 1.1.2024 tot 31.12.2024 een verhoging hebt ingevoerd van de
 fietskilometervergoeding die u als werkgever toekent aan werknemers voor hun verplaatsingen per fiets tussen de woonplaats en de plaats van tewerkstelling en u bent onderworpen aan de wet van 5.12.1968 betreffende de collectieve arbeidsovereenkomsten en
 
-56
-
  Vak XIX
 
 de paritaire comités, kunt u onder bepaalde voorwaarden aanspraak maken op dit belastingkrediet.
@@ -2687,7 +2568,6 @@ de 3de stap.
 ▲ Opgelet!
 • Als u in de loop van 2024 het bedrag van de fietskilometervergoeding hebt gewijzigd, moet u het belastingkrediet bepalen in periodes naargelang het bedrag per
 km van de fietskilometervergoeding.
-57
 
  Vak XIX
 
@@ -2738,8 +2618,6 @@ per publicatie en niet op een loutere stijging als gevolg van een toename van de
 de bijkomende verdeelkostprijs heeft uitsluitend betrekking op het geheel of een deel
 van de werkelijk door u als uitgever ten laste genomen verdeelkostprijs.
 
-58
-
  Vak XIX
 
 Het bedrag van het belastingkrediet wordt berekend als volgt:
@@ -2789,7 +2667,6 @@ de verhoogde tussenkomst van de werkgever bedraagt minstens 79,3 %
 •
 
 die verhoging van de tussenkomst van de werkgever in een treinabonnement is vastgelegd in een collectieve arbeidsovereenkomst, arbeidsreglement, of individuele arbeidsovereenkomst en geldt zonder beperking in de tijd
-59
 
  Vak XIX
 
@@ -2844,7 +2721,6 @@ door uw tussenkomst als werkgever die u in 2024 heeft betaald of toegekend
 treinabonnement voor dezelfde periode/duur en dezelfde afstand in tweede
 klasse) te delen door het resultaat van de tweede stap, en vervolgens te vermenigvuldigen met het resultaat van de derde stap.
 Tel daarna alle resultaten van de 4de stap, voor elke tussenkomst van de werkgever in een
-60
 
  Vak XIX
 
@@ -2904,8 +2780,6 @@ voor elke tussenkomst van de werkgever die u in 2024 hebt betaald of toegekend
 en waarvoor u de toepassing van het belastingkrediet vraagt. U kan er echter
 voor opteren om de in punt 1 tot 5 vermelde gegevens waarvoor het verhogingspercentage identiek is, samen op het document te vermelden (zie voor de modali-
 
-61
-
  Vak XIX
 
 teiten artikel 4, § 1,derde lid van het koninklijk besluit van 17.7.2024 met betrekking tot de toepassing van het belastingkrediet voor de verhoging van de tussenkomst van de werkgever in een treinabonnement).
@@ -2919,8 +2793,6 @@ of, in geval van een derdebetalersregeling, de factuur met betrekking tot de tus
 in geval van een tussenkomst in een geïntegreerd vervoerbewijs: de verklaring op eer
 van de werknemer dat hij gewoonlijk gebruik maakt van de trein voor de verplaatsingen tussen zijn woonplaats en zijn plaats van tewerkstelling met vermelding van de
 lengte van het enkel traject dat met de trein wordt afgelegd, uitgedrukt in km.
-
-62
 
 ## Vak XX - BEZOLDIGINGEN VAN MEEWERKENDE ECHTGENOTEN EN WETTELIJK SAMENWONENDE PARTNERS
 Voorafgaande opmerkingen
@@ -2978,7 +2850,6 @@ in het kader van het sociaal statuut van de zelfstandigen.
 Ook het bedrag dat u in 2024 werkelijk aan uw ziekenfonds hebt gestort als persoonlijke
 bijdrage in het kader van de financiële verantwoordelijkheid van de ziekenfondsen, mag
 u hier vermelden.
-63
 
  Vak XX
 
@@ -3017,7 +2888,6 @@ in de zin van artikel 1, § 2, 2°, van het Wetboek van de btw, in Noorwegen, IJ
 aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermenigvuldigen met
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
-64
 
  Vak XX
 
@@ -3039,8 +2909,6 @@ inkomsten van een student-zelfstandige worden beschouwd, moet u hier het bedrag 
 statuut verschuldigd is omdat zijn referte-inkomsten het in die wetgeving bepaalde
 minimumbedrag niet bereiken, moet u die bezoldigingen voor uw prestaties in het kader van de beroepswerkzaamheid in bijberoep of als student-zelfstandige van uw
 echtgenoot of partner vermelden.
-
-65
 
 ## Vak XXI - WINST EN BATEN VAN EEN VORIGE BEROEPSWERKZAAMHEID
 Voorafgaande opmerkingen
@@ -3083,8 +2951,6 @@ naar aanleiding van een gedwongen definitieve stopzetting, of
 als gevolg van het overlijden,
 
 is het afzonderlijk belastbare gedeelte belastbaar tegen 10 % (rubriek 1, a).
-
-66
 
  Vak XXI
 
@@ -3148,8 +3014,6 @@ de premies en betalingen die rechtstreeks zijn toegekend aan landbouwers in het 
 van de steunregelingen ‘rechtstreekse betalingen’ ingesteld door de Europese regelgeving in de landbouwsector. Die premies en betalingen zijn belastbaar tegen 12,5 % en
 moet u vermelden in rubriek 3, a.
 
-67
-
  Vak XXI
 
 Vermeld in rubriek 3, b ook de in artikel 4 van het koninklijk besluit van 23.3.2012 tot oprichting van een Impulsfonds voor de huisartsengeneeskunde en tot vaststelling van de
@@ -3197,8 +3061,6 @@ of naar aanleiding van de stopzetting ervan.
 van activa waarop u een meerwaarde hebt verwezenlijkt, moet u die kosten niet
 hier vermelden, maar in vak XVII, 8, a of in vak XVIII, 10, a.
 
-68
-
  Vak XXI
 
 b) andere dan die vermeld onder a
@@ -3243,8 +3105,6 @@ inkomsten uit die ‘nieuwe’ zelfstandige activiteit
 U moet deze rubriek alleen invullen als u aanvullende vergoedingen hebt vermeld in
 vak IV, rubriek D, 1, a, 1, a, 1; D, 1, a, 1, c, 1 of D, 1, a, 2 (a, b of c) of een bedrijfstoeslag in vak IV, rubriek E, 2, a, 1 of E, 2, b, 1 van deel 1.
 
-69
-
 ## Vak XXII - EERSTE VESTIGING ALS ZELFSTANDIGE
 Als u in 2022, in 2023 of in 2024 voor de eerste maal een zelfstandig beroep als hoofdberoep bent begonnen in de vorm van een eenmanszaak of als zaakvoerder, bestuurder, enz.,
 van een nieuw opgerichte vennootschap en u onderworpen bent aan het sociaal statuut van
@@ -3287,7 +3147,3 @@ bij de toekenning van het identificatienummer van de specialisatie door het Rizi
 276.1 DEEL 2 NED.
 
 bedrijfsrevisor
-
-70
-
- 

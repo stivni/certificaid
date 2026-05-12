@@ -30,8 +30,8 @@ provenance:
     rationale: "L1 pass: 868 headings, max sectie 4092 chars. ###### Art.-headings correct, opgeheven artikels correct als '<Opgeheven...>'. 'BEPALINGEN AAN DE VIER VORIGE HOOFDSTUKKEN GEMEEN' als plain-text is bron-stijl. Inhoud volledig."
     layer1:
       status: pass
-      run_id: 20260512-210357
-      run_at: '2026-05-12T21:03:59Z'
+      run_id: 20260512-210639
+      run_at: '2026-05-12T21:06:41Z'
       heading_count: 868
       max_section_chars: 4092
       file_size_chars: 438617

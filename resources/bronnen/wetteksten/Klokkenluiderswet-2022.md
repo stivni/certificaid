@@ -30,8 +30,8 @@ provenance:
     rationale: "L1 pass: 97 headings, max sectie 7003 chars. Fisconet-bron, 'Bron : ECONOMIE' is Fisconet-header die als plain-text in body staat — kleine artefact maar niet leesbaarheid-schadend. Alle artikels als #### Art. headings correct, inhoud volledig."
     layer1:
       status: pass
-      run_id: 20260512-210357
-      run_at: '2026-05-12T21:03:59Z'
+      run_id: 20260512-210639
+      run_at: '2026-05-12T21:06:41Z'
       heading_count: 97
       max_section_chars: 7003
       file_size_chars: 87816

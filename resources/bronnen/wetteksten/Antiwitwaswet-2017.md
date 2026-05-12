@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 pass: 93 headings, max sectie 4227 chars. Body start bevat korrekte ###### Art.-headings, wisselingsmarkers [1...] zijn Fisconet-stijl en OK. Bijlagen intact als Art. N1-N4 headings. Geen artefacten.'
     layer1:
       status: pass
-      run_id: 20260512-210357
-      run_at: '2026-05-12T21:03:58Z'
+      run_id: 20260512-210639
+      run_at: '2026-05-12T21:06:39Z'
       heading_count: 93
       max_section_chars: 4227
       file_size_chars: 58205

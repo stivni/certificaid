@@ -30,8 +30,8 @@ provenance:
     rationale: 'D2: bestand is vrijwel leeg (207 chars, 0 headings). Slechts titel + één onvolledige zin. PDF-extractie heeft gefaald.'
     layer1:
       status: pass
-      run_id: 20260512-210357
-      run_at: '2026-05-12T21:04:00Z'
+      run_id: 20260512-210639
+      run_at: '2026-05-12T21:06:42Z'
       heading_count: 0
       max_section_chars: 207
       file_size_chars: 207

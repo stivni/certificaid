@@ -30,8 +30,8 @@ provenance:
     rationale: "D2: '(Beeld niet opgenomen om technische redenen...)' op meerdere plaatsen — de forfaitaire grondslagerijen zijn afbeeldingen in de PDF die niet zijn geëxtraheerd. Inhoud ontbreekt grotendeels."
     layer1:
       status: pass
-      run_id: 20260512-210357
-      run_at: '2026-05-12T21:04:00Z'
+      run_id: 20260512-210639
+      run_at: '2026-05-12T21:06:42Z'
       heading_count: 55
       max_section_chars: 2438
       file_size_chars: 21268

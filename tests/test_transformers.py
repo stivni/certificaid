@@ -956,3 +956,87 @@ class TestUnindentPdftotextMargin:
     def test_geregistreerd_in_transformers(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "unindent_pdftotext_margin" in TRANSFORMERS
+
+
+# ─── strip_pdf_page_noise ─────────────────────────────────────────────────────
+
+class TestStripPdfPageNoise:
+    """Strip PDF-paginanummer + dotted-leader artefacten."""
+
+    def test_dotted_leader_toc_line(self):
+        from tools.etl.transformers.strip_pdf_page_noise import strip_pdf_page_noise
+        body = "Body voor.\nVOORWOORD........................9\nBody na."
+        result, _ = strip_pdf_page_noise(body, {})
+        assert "VOORWOORD" not in result
+        assert "Body voor." in result
+        assert "Body na." in result
+
+    def test_standalone_page_number_small(self):
+        from tools.etl.transformers.strip_pdf_page_noise import strip_pdf_page_noise
+        body = "Body voor.\n\n3\n\nBody na."
+        result, _ = strip_pdf_page_noise(body, {})
+        assert "\n3\n" not in result
+        assert "Body voor." in result
+
+    def test_keep_4digit_year(self):
+        """4-cijferige nummers (jaar) blijven staan — NIET strippen."""
+        from tools.etl.transformers.strip_pdf_page_noise import strip_pdf_page_noise
+        body = "Body voor.\n\n2025\n\nBody na."
+        result, _ = strip_pdf_page_noise(body, {})
+        assert "2025" in result
+
+    def test_dash_wrapped_page_number(self):
+        from tools.etl.transformers.strip_pdf_page_noise import strip_pdf_page_noise
+        body = "Body voor.\n\n-3-\n\nBody na."
+        result, _ = strip_pdf_page_noise(body, {})
+        assert "-3-" not in result
+
+    def test_mm_yyyy_stamp(self):
+        from tools.etl.transformers.strip_pdf_page_noise import strip_pdf_page_noise
+        body = "Body voor.\n\n12/2024\n\nBody na."
+        result, _ = strip_pdf_page_noise(body, {})
+        assert "12/2024" not in result
+
+    def test_inline_number_not_stripped(self):
+        """Een paginanummer inline in een zin blijft staan."""
+        from tools.etl.transformers.strip_pdf_page_noise import strip_pdf_page_noise
+        body = "Volgens artikel 3 geldt het volgende."
+        result, _ = strip_pdf_page_noise(body, {})
+        assert result == body
+
+    def test_inline_4digits_not_stripped(self):
+        from tools.etl.transformers.strip_pdf_page_noise import strip_pdf_page_noise
+        body = "In het belastingjaar 2025 geldt het tarief."
+        result, _ = strip_pdf_page_noise(body, {})
+        assert result == body
+
+    def test_multiple_artefacten_in_body(self):
+        from tools.etl.transformers.strip_pdf_page_noise import strip_pdf_page_noise
+        body = (
+            "VOORWOORD.....................9\n"
+            "\n"
+            "Body content 1.\n"
+            "\n"
+            "12\n"
+            "\n"
+            "Body content 2.\n"
+            "\n"
+            "INDEX...........110\n"
+        )
+        result, _ = strip_pdf_page_noise(body, {})
+        assert "VOORWOORD" not in result
+        assert "INDEX" not in result
+        assert "\n12\n" not in result
+        assert "Body content 1." in result
+        assert "Body content 2." in result
+
+    def test_idempotent(self):
+        from tools.etl.transformers.strip_pdf_page_noise import strip_pdf_page_noise
+        body = "VOORWOORD..........9\n\n12\n\nBody."
+        once, _ = strip_pdf_page_noise(body, {})
+        twice, _ = strip_pdf_page_noise(once, {})
+        assert once == twice
+
+    def test_geregistreerd_in_transformers(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "strip_pdf_page_noise" in TRANSFORMERS

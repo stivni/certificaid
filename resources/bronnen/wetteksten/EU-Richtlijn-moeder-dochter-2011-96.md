@@ -30,8 +30,8 @@ provenance:
     rationale: "Bekende issue: font-misclassificatie in de bijlage met vennootschapsvormen — genummerde lijsten (a), b), c)...) lopen samen in lange alinea's zonder markdown-lijst-opmaak. L1 pass: 23 headings. Inhoud aanwezig maar bijlage-opsommingen zijn niet als markdown-lijsten."
     layer1:
       status: pass
-      run_id: 20260512-210357
-      run_at: '2026-05-12T21:03:58Z'
+      run_id: 20260512-210639
+      run_at: '2026-05-12T21:06:40Z'
       heading_count: 23
       max_section_chars: 12245
       file_size_chars: 27798

@@ -73,7 +73,7 @@ DEFAULT_CHAINS: dict[str, list[str]] = {
     # pdftotext_narratief: narratieve praktijkgidsen (Type 3 PDFs) zonder artikel-
     # hiërarchie. inject_headings_narratief detecteert Vak/HOOFDSTUK/Roman/ALLCAPS
     # sectie-patronen specifiek voor deze broncategorie.
-    "pdftotext_narratief":      ["cleanup_basics", "inject_headings_narratief", "emit_frontmatter"],
+    "pdftotext_narratief":      ["cleanup_basics", "unindent_pdftotext_margin", "strip_pdf_page_noise", "inject_headings_narratief", "emit_frontmatter"],
     "custom_wetboek":           ["cleanup_basics", "strip_amendment_overview", "strip_fisconet_artefacts", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],
     "custom_wib92":             ["cleanup_basics", "strip_amendment_overview", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],
     # iesba: structuur (headings, bold para-nummers) al door extractor gedaan;

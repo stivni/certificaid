@@ -17,63 +17,30 @@ provenance:
       version: 31.12.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 6655d4b-dirty
+    pipeline_version: 057ab06-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T20:05:35Z'
+  generated_at: '2026-05-12T21:06:36Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "L1 flags bevestigd: 102 dotted-leader TOC-regels (A2), 1 paginavoettekst '12/2024' (A1). A6 ernstig: volledige alinea gesplitst per woord (regels 89-103: 'Het\\neerste\\nacht\\nhoofdstukken\\nbehandelen\\nde\\ndirecte\\nbelastingen'). Cover-ruisregels bovenaan (FISCAAL MEMENTO 2025, FR-disclaimer midden in NL-tekst). Secties zijn 268556 chars — structureel problematisch voor RAG."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: warn
-      run_id: 20260512-210357
-      run_at: '2026-05-12T21:04:02Z'
+      run_id: 20260512-210657
+      run_at: '2026-05-12T21:06:57Z'
       heading_count: 21
-      max_section_chars: 268556
-      file_size_chars: 1056612
+      max_section_chars: 268109
+      file_size_chars: 1038631
       flags:
         - name: max_section_size
           status: warn
-          detail: 'langste sectie op ##-niveau: 268556 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          detail: 'langste sectie op ##-niveau: 268109 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
-        - name: no_toc_dots
-          status: warn
-          detail: 102 TOC-stippen-regel(s) gevonden
-          samples:
-            - '................................................................................'
-            - '................................................................................'
-            - '................................................................................'
-        - name: no_page_footer
-          status: warn
-          detail: 1 paginavoetregel(s) gevonden
-          samples:
-            - 12/2024
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: "L1 flags bevestigd: 102 dotted-leader TOC-regels (A2), 1 paginavoettekst '12/2024' (A1). A6 ernstig: volledige alinea gesplitst per woord (regels 89-103: 'Het\\neerste\\nacht\\nhoofdstukken\\nbehandelen\\nde\\ndirecte\\nbelastingen'). Cover-ruisregels bovenaan (FISCAAL MEMENTO 2025, FR-disclaimer midden in NL-tekst). Secties zijn 268556 chars — structureel problematisch voor RAG."
-      concrete_problemen:
-        - regel: 89
-          categorie: A6
-          type: scrambled-words
-          voorbeeld: 'Het\n\neerste\n\nacht\n\nhoofdstukken\n\nbehandelen\n\nde\n\ndirecte\n\nbelastingen:'
-        - regel: 157
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: VOORWOORD........................................................................................ 2
-        - regel: 68
-          categorie: A1
-          type: other
-          voorbeeld: Le Mémento fiscal ne peut être considéré comme une circulaire administrative
-        - regel: 74
-          categorie: A1
-          type: form-feed
-          voorbeeld: 12/2024  (pagina-voettekst)
 ---
 
 # Fiscaal Memento 2025 — FOD Financiën (editie 12/2024)
@@ -89,10 +56,7 @@ BELEIDSEXPERTISE EN -ONDERSTEUNING
 Le Mémento fiscal ne peut être considéré comme une circulaire administrative
 et il ne peut donner lieu à aucune action en revendication.
 
-1
-
- FISCAAL MEMENTO
-12/2024
+## FISCAAL MEMENTO
 
 Bijgewerkt op 31.12.2024
 
@@ -174,118 +138,19 @@ worden geraadpleegd op de website van de FOD Financiën.
 Didier Leemans
 Administrateur-Generaal van de Algemene Administratie Beleidsexpertise en -Ondersteuning
 
- INHOUDSTAFEL
-VOORWOORD......................................................................................................................................................... 2
-LIJST VAN AFKORTINGEN ..................................................................................................................................... 8
-CIJFERS PER HOOFDSTUK................................................................................................................................... 12
-HOOFDSTUK 1 DE PERSONENBELASTING (PB) ................................................................................................ 24
-1. WAT IS ER NIEUW? ........................................................................................................................................................... 24
-2. VOORGESCHIEDENIS/HERINNERING: DE PB NA DE 6e STAATSHERVORMING (2014), BASISPRINCIPES
-..................................................................................................................................................................................................... 24
-3. PLAN HOOFDSTUK I: PB .................................................................................................................................................. 27
-4. WIE IS AAN DE BELASTING ONDERWORPEN EN WAAR? .................................................................................... 29
-5. BEPALING VAN HET NETTO-INKOMEN ..................................................................................................................... 30
-6. UITGAVEN DIE RECHT GEVEN OP EEN BELASTINGVOORDEEL ......................................................................... 67
-7. BEREKENING VAN DE BELASTING ............................................................................................................................... 96
-HOOFDSTUK II VENNOOTSCHAPSBELASTING (VEN.B) .................................................................................. 123
-1. BELASTBAAR TIJDPERK EN AANSLAGJAAR ........................................................................................................... 123
-2. WIE IS AAN DE VENNOOTSCHAPSBELASTING ONDERWORPEN? ................................................................. 123
-3. DE GRONDSLAG VAN DE BELASTING ...................................................................................................................... 125
-4. DE BELASTBARE GRONSLAG ..................................................................................................................................... 126
-5. DE 1ste BEWERKING: BEPALING VAN HET FISCAAL RESULTAAT..................................................................... 127
-6. BEREKENING VAN DE BELASTING ............................................................................................................................ 158
-7. BELASTINGKREDIET VOOR ONDERZOEK EN ONTWIKKELING (O&O) ........................................................... 159
-8. VERREKENING VAN DE VOORHEFFINGEN ............................................................................................................ 161
-BIJLAGE 1 DE WINSTPREMIE VOOR DE WERKNEMERS ........................................................................................ 161
-BIJLAGE 2: BIJZONDERE VENNOOTSCHAPSBELASTINGSTELSELS ..................................................................... 164
-HOOFDSTUK III BEPALINGEN DIE GEMEENSCHAPPELIJK ZIJN AAN DE PERSONENBELASTING EN DE
-VENNOOTSCHAPSBELASTING .......................................................................................................................... 170
-1. FISCAAL STELSEL VAN DE AFSCHRIJVINGEN ........................................................................................................ 170
-2. KOSTENCATEGORIEËN WAARVOOR EEN VERHOOGDE AFTREK WORDT TOEGEKEND ......................... 171
-3. INVESTERINGSSTIMULANSEN: DE INVESTERINGSAFTREK ............................................................................. 173
-4. VERHOOGDE KOSTENAFTREK VOOR LAADSTATIONS VOOR ELEKTRISCHE VOERTUIGEN .................. 176
-5. BELASTINGVERMINDERING IN VERBAND MET LAADSTATIONS .................................................................... 177
-6. FISCALE WEERSLAG VAN GEWESTELIJKE STEUNMAATREGELEN ................................................................. 177
+## INHOUDSTAFEL
 
- 7. BELASTINGSTELSEL VAN DE MEERWAARDEN .................................................................................................... 178
-8. DE BELASTINGKREDIETEN .......................................................................................................................................... 181
-9. ANDERE DE BELASTINGKREDIETEN ........................................................................................................................ 182
-HOOFDSTUK IV DE RECHTSPERSONENBELASTING (RPB) ............................................................................. 184
-1. WIE IS AAN DE RECHTSPERSONENBELASTING ONDERWORPEN? ............................................................... 184
-2. BELASTBARE GRONDSLAG EN BEREKENING VAN DE BELASTING ............................................................... 184
-HOOFDSTUK V DE ONROERENDE VOORHEFFING (OV) .................................................................................. 187
-1. DE ONROERENDE VOORHEFFING IN HET VLAAMSE GEWEST ....................................................................... 188
-2. DE ONROERENDE VOORHEFFING IN HET WAALSE GEWEST.......................................................................... 194
-3. DE ONROERENDE VOORHEFFING IN HET BRUSSELSE HOOFDSTEDELIJKE GEWEST ............................ 198
-HOOFDSTUK VI DE ROERENDE VOORHEFFING (RV) ...................................................................................... 202
-1. ALGEMENE INFORMATIE ............................................................................................................................................. 202
-2. DIVIDENDEN .................................................................................................................................................................... 203
-3. INTERESTEN .................................................................................................................................................................... 207
-4. ANDERE ROERENDE INKOMSTEN ............................................................................................................................ 210
-HOOFDSTUK VII DE BEDRIJFSVOORHEFFING (BV) EN DE VOORAFBETALINGEN (VA) ................................ 211
-1. BEREKENING VAN DE BEDRIJFSVOORHEFFING .................................................................................................. 211
-2. VRIJSTELLING VAN DOORSTORTING........................................................................................................................ 211
-3. VOORAFBETALINGEN (VA) .......................................................................................................................................... 212
-HOOFDSTUK VIII IN WERKING ZIJNDE BELGISCHE VERDRAGEN TER VERMIJDING VAN DUBBELE
-BELASTING ......................................................................................................................................................... 213
-HOOFDSTUK IX DE BELASTING OVER DE TOEGEVOEGDE WAARDE (BTW) .................................................. 220
-1. DEFINITIE .......................................................................................................................................................................... 222
-2. DE BTW-PLICHTIGEN .................................................................................................................................................... 222
-3. DE BELASTBARE HANDELINGEN .............................................................................................................................. 223
-4. DE VRIJSTELLINGEN ...................................................................................................................................................... 231
-5. DE MAATSTAF VAN HEFFING ..................................................................................................................................... 237
-6. DE BTW-TARIEVEN ....................................................................................................................................................... 237
-7. DE AFTREK VAN DE BTW (OF AFTREK VAN VOORBELASTING) ...................................................................... 242
-8. DE INDIENING VAN BTW-AANGIFTEN EN DE BETALING VAN DE BELASTING ........................................... 244
-9. DE BIJZONDERE REGELINGEN ................................................................................................................................... 248
-10. ELEKTRONISCHE FACTURERING ............................................................................................................................ 256
+2. VOORGESCHIEDENIS/HERINNERING: DE PB NA DE 6e STAATSHERVORMING (2014), BASISPRINCIPES
+
+## HOOFDSTUK III BEPALINGEN DIE GEMEENSCHAPPELIJK ZIJN AAN DE PERSONENBELASTING EN DE
+
+## HOOFDSTUK VIII IN WERKING ZIJNDE BELGISCHE VERDRAGEN TER VERMIJDING VAN DUBBELE
+
 HOOFDSTUK X DE REGISTRATIE-, HYPOTHEEK- EN GRIFFIERECHTEN EN DE REGISTRATIEBELASTING . 258
 
  1. LOKALISATIE TER BEPALING VAN DE WETGEVING DIE VAN TOEPASSING IS OP DE
-REGISTRATIEPLICHT .......................................................................................................................................................... 261
-2. DE REGISTRATIERECHTEN EN DE REGISTRATIEBELASTING ........................................................................... 262
-3. HET HYPOTHEEKRECHT .............................................................................................................................................. 277
-4. DE GRIFFIERECHTEN .................................................................................................................................................... 278
-HOOFDSTUK XI DE SUCCESSIERECHTEN EN DE ERFBELASTING .................................................................. 279
-1. DE SUCCESSIERECHTEN EN DE ERFBELASTING ................................................................................................. 280
-2. DE JAARLIJKSE TAKS TOT VERGOEDING DER SUCCESSIERECHTEN ............................................................. 294
-HOOFDSTUK XII DE DIVERSE RECHTEN EN TAKSEN ...................................................................................... 295
-1. HET RECHT OP GESCHRIFTEN ................................................................................................................................... 296
-2. DE TAKS OP DE BEURSVERRICHTINGEN................................................................................................................ 297
-3. DE JAARLIJKSE TAKS OP DE VERZEKERINGSVERRICHTINGEN ....................................................................... 300
-4. DE JAARLIJKSE TAKS OP DE WINSTDEELNEMINGEN ......................................................................................... 302
-5. DE TAKS OP HET LANGETERMIJNSPAREN ............................................................................................................ 302
-6. DE BELASTING VOOR AANPLAKKING ...................................................................................................................... 303
-7. DE JAARLIJKSE TAKS OP DE KREDIETINSTELLINGEN ......................................................................................... 304
-8. JAARLIJKSE TAKS OP DE EFFECTENREKENINGEN............................................................................................... 304
-9. DE JAARLIJKSE TAKS OP DE COLLECTIEVE BELEGGINGSINSTELLINGEN ..................................................... 306
-10. DE JAARLIJKSE TAKS OP DE VERZEKERINGSONDERNEMINGEN ................................................................. 306
-11. DE TAKS OP DE INSCHEPING VAN EEN LUCHTVAARTUIG ............................................................................. 307
-HOOFDSTUK XIII DOUANEPROCEDURES BIJ INVOER, UITVOER EN DOUANEVERVOER ............................. 309
-1. INVOERRECHTEN ........................................................................................................................................................... 309
-2. DOUANEREGELINGEN EN GEAUTORISEERDE MARKTDEELNEMER (AEO) ................................................. 310
-3. GEAUTORISEERDE MARKTDEELNEMER (AUTHORISED ECONOMIC OPERATOR (AEO)) ........................ 320
-HOOFDSTUK XIV DE ACCIJNZEN ....................................................................................................................... 322
-1. DEFINITIE .......................................................................................................................................................................... 322
-2. INDELING VAN DE ACCIJNZEN .................................................................................................................................... 322
-3. MAATSTAF VAN HEFFING ........................................................................................................................................... 323
-4. ALGEMENE REGELING INZAKE ACCIJNZEN............................................................................................................ 323
-5. ACCIJNSREGELING VOOR ALCOHOLVRIJE DRANKEN EN KOFFIE ................................................................... 327
-6. CONTROLE ........................................................................................................................................................................ 328
-7. TARIEVEN ......................................................................................................................................................................... 328
-BIJLAGE HOOFDSTUK XIV ................................................................................................................................................. 343
 
- HOOFDSTUK XV DE VERPAKKINGSHEFFING .................................................................................................. 345
-1. ALGEMEEN ....................................................................................................................................................................... 345
-2. TARIEVEN ......................................................................................................................................................................... 345
-HOOFDSTUK XVI DE MET DE INKOMSTENBELASTINGEN GELIJKGESTELDE BELASTINGEN ....................... 347
-1. DE VERKEERSBELASTING (VB) .................................................................................................................................. 348
-2. DE BELASTING OP DE INVERKEERSTELLING (BIV) .............................................................................................. 373
-3. DE KILOMETERHEFFING .............................................................................................................................................. 388
-4. DE BELASTING OP DE SPELEN EN DE WEDDENSCHAPPEN (SW) .................................................................. 392
-5. DE BELASTING OP DE AUTOMATISCHE ONTSPANNINGSTOESTELLEN (AO).............................................. 396
 6. DE BELASTING OP DE WERKNEMERSPARTICIPATIE IN HET KAPITAAL VAN DE VENNOOTSCHAP EN
-OP DE WINSTPREMIE VOOR DE WERKNEMERS ..................................................................................................... 397
 
  LIJST VAN AFKORTINGEN
 AAFisc
@@ -427,7 +292,6 @@ Export Control System
 EEG
 
 Europese Economische Gemeenschap
-8
 
  EER
 
@@ -580,7 +444,6 @@ Nationale Raad van de Coöperatie
 NV
 
 Naamloze vennootschap
-9
 
  O&O
 
@@ -730,7 +593,6 @@ Vennootschapsbelasting
 VKB
 
 Verkeersbelasting (Vlaams Gewest)
-10
 
  VRI
 
@@ -779,8 +641,6 @@ Wetboek van vennootschappen en verenigingen
 ZIV
 
 Ziekte- en invaliditeitsverzekeringuitkeringen
-
-11
 
  CIJFERS PER HOOFDSTUK
 DIRECTE BELASTING
@@ -854,8 +714,6 @@ voorheffing
 
 4.994,2
 
-12
-
  Bedrijfsvoorheffing
 
 59.763,0
@@ -883,7 +741,7 @@ Andere
 
 112,2
 
-## TOTAAL PB
+TOTAAL PB
 
 68.918,3
 
@@ -969,8 +827,6 @@ Voorafbetalingen
 
 20.070,5
 
-13
-
  Kohieren Ven.B,
 
 Ven.B/Nietinwoners
@@ -1042,8 +898,6 @@ Belastinginning
 
 De onroerende voorheffing wordt in de verschillende gewesten niet op dezelfde
 
-14
-
  wijze geheven.
 Sinds 1999 wordt de onroerende voorheffing door het Vlaamse Gewest zelf
 geheven. Sinds 2018 wordt de onroerende voorheffing door het Brusselse
@@ -1112,8 +966,6 @@ belastingontvangsten
 
 Berekeningen op basis van gegevens van het Instituut voor de Nationale
 Rekeningen, Nationale Bank van België.
-
-15
 
  Hoofdstuk VII. Bedrijfsvoorheffing (BV) en voorafbetalingen (VA)
 Wettelijke basis
@@ -1206,7 +1058,6 @@ het belastingtarief
 de belastinggrondslag
 
 de vrijstellingen
-16
 
  Federale overheid
 Begunstigden
@@ -1292,7 +1143,6 @@ Gewoonlijk innen professionele tussenpersonen (notarissen, …) de rechten en ma
 de ontvangsten ervan over aan de federale belastingadministratie. Wat het Vlaamse
 
 Gewest betreft, maken vanaf 2015 deze tussenpersonen de ontvangsten van de
-17
 
  registratiebelasting over aan de Vlaamse belastingadministratie.
 Belastingontvangsten
@@ -1392,8 +1242,6 @@ Wettelijke basis
 
 Wetboek diverse rechten en taksen (WDRT) en de besluiten genomen ter
 uitvoering ervan.
-
-18
 
  Wie bepaalt
 
@@ -1500,7 +1348,6 @@ zijn onder meer opgenomen in:
 - - de wet van 22 december 2009 betreffende de algemene regeling inzake
 accijnzen (BS 31 december 2009);
 - - de wet van 21 december 2009 betreffende het accijnsstelsel van alcoholvrije
-19
 
  dranken en koffie (BS 15 januari 2010);
 - - de programmawet van 27 december 2004 (BS 31 december 2004);
@@ -1599,7 +1446,6 @@ in % van het bbp
 Belastingontvangsten
 in % van de totale
 belastingontvangsten
-20
 
  339,5
 
@@ -1666,7 +1512,6 @@ Kilometerheffing
 spelen
 
 en
-21
 
  weddenschappen
 5. Belasting op
@@ -1752,7 +1597,6 @@ Belastinginning 1. Verkeersbelasting
 Vanaf 2011: Federale Overheidsdienst Financiën (voor het
 Waalse Gewest en het Brusselse Hoofdstedelijke Gewest) en
 Vlaams Gewest.
-22
 
  2.
 
@@ -1827,8 +1671,6 @@ belastingontvangsten
 Berekeningen op basis van gegevens van het Instituut voor de Nationale Rekeningen,
 Nationale Bank van België.
 
-23
-
 ## HOOFDSTUK 1 — DE PERSONENBELASTING (PB)
 Bijgewerkt op 31.12.2024
 
@@ -1897,7 +1739,6 @@ In het kader van de zesde staatshervorming werden een reeks belastingverminderin
 
 de gewesten, die er nu exclusief bevoegd voor zijn. Het gaat om de fiscale stimulansen met betrekking tot de
 verwerving van de eigen woning, de dienstencheques en PWA-cheques, de vernieuwing van woningen in
-24
 
  zones voor positief grootstedelijk beleid, de vernieuwing van tegen een redelijke huurprijs in huur gegeven
 woningen, beveiligingswerken tegen inbraak of brand, onderhoud en restauratie van beschermde
@@ -1956,7 +1797,6 @@ de bedrijfsvoorheffing;
 •
 
 de inning en de invordering van de belastingen.
-25
 
  2.2. UITGEBREID OPCENTIEMENMODEL
 Sinds aanslagjaar 2015 bestaat de PB uit twee grote blokken, namelijk de federale PB en de gewestelijke PB.
@@ -1999,7 +1839,6 @@ Het saldo van de gewestelijke kortingen en belastingverminderingen dat niet kan 
 gewestelijke opcentiemen verhoogd met de gewestelijke belastingvermeerderingen, kan worden
 
 aangerekend op het saldo van de federale PB (na aanrekening van de federale belastingverminderingen). Het
-26
 
  saldo wordt aangerekend op de federale PB die betrekking heeft op de gezamenlijk en afzonderlijk belaste
 inkomsten.
@@ -2042,7 +1881,6 @@ bestanddelen, de aftrekbare kosten en de van belasting vrijgestelde inkomensbest
 De federale overheid blijft exclusief bevoegd voor de vaststelling van het belastbaar inkomen en voor
 het bepalen van wat gezamenlijk of afzonderlijk moet worden belast.
 Dit tweede deel wordt afgerond met de verdeling van de netto-inkomsten tussen echtgenoten.
-27
 
  3) Deel drie (6) gaat over de uitgaven die recht geven op een belastingvoordeel: bepaalde uitgaven zijn
 overgedragen naar de gewesten die er exclusief bevoegd voor zijn geworden in het kader van de
@@ -2080,8 +1918,6 @@ Tabel 1.0
 Algemeen schema van de PB
 Bepaling van de belastbare inkomsten
 
-28
-
  4. WIE IS AAN DE BELASTING ONDERWORPEN EN WAAR?
 De personenbelasting is verschuldigd door de rijksinwoners; dat zijn de personen die in België hun
 woonplaats of, wanneer zij er geen woonplaats hebben, de zetel van hun fortuin hebben gevestigd. Het begrip
@@ -2090,7 +1926,6 @@ De 'woonplaats' is een feitelijke toestand, gekenmerkt door het verblijf of het 
 'zetel van het fortuin' wordt bedoeld de plaats van waaruit de goederen die het fortuin vormen, worden
 beheerd. Het tijdelijk verlaten van het land houdt geen wijziging van woonplaats in.
 Tot bewijs van het tegendeel worden alle natuurlijke personen die in het Rijksregister zijn ingeschreven, als
-29
 
  rijksinwoner beschouwd.
 In principe is het zo dat in de personenbelasting het aanslagjaar X betrekking heeft op het inkomstenjaar dat
@@ -2139,8 +1974,6 @@ buitenland zijn behaald of verkregen. De in dat Wetboek vermelde belastbare inko
 onroerende, roerende, diverse en beroepsinkomsten.
 Voor elk van deze categorieën bestaan er specifieke regels voor de bepaling van het netto-inkomen (inkomen
 na aftrek van kosten en verliezen): deze regels worden hierna beschreven.
-
-30
 
  5.1. ONROERENDE INKOMSTEN
 5.1.1. De algemene regel
@@ -2217,8 +2050,6 @@ Het gebouw wordt verhuurd
 De huuropbrengst, verminderd met 40 % voor
 forfaitaire kosten, MAAR
 
-31
-
  - aan een natuurlijke persoon die het gebruikt
 
 - de kosten mogen niet meer bedragen dan
@@ -2291,7 +2122,6 @@ De belastingplichtige (natuurlijke persoon, rechtspersoon of vennootschap) die h
 
 waarvoor hij huurgelden en -lasten als werkelijke beroepskosten inbrengt, moet bij zijn aangifte de bijlage
 met de volgende inlichtingen voegen:
-32
 
  a.
 
@@ -2346,8 +2176,6 @@ eigenaar, bezitter, erfpachter, opstalhouder of vruchtgebruiker zelf betrekt of 
 volgende redenen: beroepsredenen, redenen van sociale aard, wettelijke of contractuele belemmeringen,
 stand van de bouwwerkzaamheden of van de verbouwingswerkzaamheden.
 
-33
-
  De eigen woning omvat niet het deel van de woning dat tijdens het belastbare tijdperk wordt gebruikt voor
 het uitoefenen van de beroepsactiviteit van de belastingplichtige of van een van zijn gezinsleden. Indien de
 belastingplichtige slechts een gedeelte van de woning zelf betrekt, moet enkel dit gedeelte worden
@@ -2386,7 +2214,6 @@ aan in het buitenland gelegen onroerende goederen.
 Tot de onroerende inkomsten behoren eveneens de sommen verkregen door de vestiging of de overdracht
 
 van een recht van erfpacht, van een recht van opstal of van gelijkaardige onroerende rechten. Sommen
-34
 
  betaald voor de verwerving van dergelijke rechten zijn aftrekbaar, behalve als zij betrekking hebben op de
 eigen woning (in dat geval geldt de gewestelijke belastingvermindering).
@@ -2432,8 +2259,6 @@ en concessie van roerende goederen, inkomsten uit loten van effecten van leninge
 roerende waarden en titels belast als diverse inkomsten.
 De volgende inkomsten worden daarentegen wel onderworpen aan de gewestelijke opcentiemen: inkomsten
 begrepen in lijfrenten en tijdelijke renten, inkomsten uit auteursrechten en de meeste diverse roerende
-
-35
 
  inkomsten (inkomsten uit de onderverhuring of de overdracht van huur van onroerende goederen, inkomsten
 uit de concessie van het recht om reclamedragers op onroerende goederen te plaatsen en opbrengsten uit de
@@ -2502,7 +2327,6 @@ gevestigd in een andere lidstaat van de EER, met een gelijkaardige wetgeving (ar
 de intresten met betrekking tot de eerste schijf van 16.270 euro (per belastingplichtige) uit bepaalde
 leningen die aan startende kmo’s met tussenkomst van een erkend crowdfundingplatform worden
 verleend (art. 21, 13°, WIB 92);
-36
 
  4.
 
@@ -2556,7 +2380,6 @@ wet van 16 december 2022 tot oprichting van de Kunstwerkcommissie en tot verbete
 
 bescherming van kunstwerkers, of in analoge bepalingen of met gelijkaardige gevolgen, genomen door een
 andere lidstaat van de Europese Economische Ruimte. Bij gebrek aan dergelijk attest, of in het kader van de
-37
 
  overdracht of de verlening van een licentie door de erfgenamen of legatarissen, moet de overgedragen of
 verleende licentie bestemd zijn voor mededeling aan het publiek, voor openbare uitvoering of opvoering, of
@@ -2622,8 +2445,6 @@ kostenforfait (art. 4, lid 1, 1°, KB/WIB 92). Dit forfait wordt als volgt berek
 10.000 - 20.000 euro: 25 % (geïndexeerde bedragen voor aanslagjaar 2025, inkomsten 2024: 19.480
 - 38.970 euro)
 
-38
-
  5.2.4.5. Overgangsmaatregelen
 Een overgangsmaatregel bepaalt dat het specifieke auteursrechtregime bedoeld in artikel 17, § 1, 5°, zoals
 het bestond voordat het werd gewijzigd door de programmawet van 26 december 2022, van toepassing blijft
@@ -2685,7 +2506,6 @@ ROYALTY’S, LIJFRENTEN EN TIJDELIJKE RENTEN
 AUTEURSRECHTEN (indien voorwaarden)
 
 15 %
-39
 
  Volledige globalisatie wordt echter toegepast als dat voordeliger is voor de belastingplichtige; enkel in dit
 geval worden de innings- en bewaringskosten afgetrokken.
@@ -2725,7 +2545,6 @@ Circulaire 2021/C/44 - FAQ betreffende de deeleconomie:
 https://eservices.minfin.fgov.be/myminfin-web/pages/public/fisconet/document/d54190d4-916d-45768c77-5c0bf096f047
 
 Er bestaat een specifieke belastingregeling voor de diensten (en dus niet voor de verkoop van goederen) die
-40
 
  een particulier, die niet in het kader van zijn beroepsactiviteit handelt, aan een andere particulier levert door
 tussenkomst van een erkend elektronisch platform. De twee partijen handelen buiten het kader van een
@@ -2768,9 +2587,6 @@ kosten. Op deze vergoedingen wordt een bedrijfsvoorheffing geheven.
 5.3.6. Meerwaarden op gebouwde onroerende goederen
 Deze meerwaarden zijn alleen belastbaar als diverse inkomsten wanneer alle hier volgende voorwaarden zijn
 vervuld:
-41
-
- •
 
 het gebouw is in België gelegen;
 
@@ -2849,7 +2665,6 @@ de verkrijgingsprijs en de kosten van verkrijging;
 •
 
 een herwaardering van dat bedrag met 5 % voor elk volledig jaar dat is verlopen jaar tussen de datum
-42
 
  van verkrijging en de datum van vervreemding;
 •
@@ -2892,7 +2707,6 @@ https://fin.belgium.be/nl/particulieren/belastingaangifte/inkomsten/beroepsinkom
 We onderscheiden zeven categorieën beroepsinkomsten:
 1. bezoldigingen van werknemers;
 2. bezoldigingen van bedrijfsleiders;
-43
 
  3. bezoldigingen van meewerkende echtgenoten (zonder eigen sociaal statuut, dat wil zeggen de
 meewerkende echtgenoten die een beroepsactiviteit uitoefenen die voor hen geen eigen rechten toekent
@@ -2968,7 +2782,6 @@ Opgelet, sommige vergoedingen die betaald worden door een werkgever zijn niet ge
 bezoldiging, want het gaat om de terugbetaling van kosten die aan de functie verbonden zijn. Ze moeten
 
 worden gedragen door de werkgever. Die eigen kosten van de werkgever zijn dus niet belastbaar. Ze zijn
-44
 
  terug te vinden onder punt 1.1.6.2.. Ze moeten worden verantwoord.
 
@@ -3014,7 +2827,6 @@ De CO2-basiscoëfficient bedraagt 5,5 % voor:
 -
 
 een referentie-CO2-uitstoot van 78 g/km (voor kalenderjaar 2024) voor voertuigen met een
-45
 
  benzine-, lpg- of aardgasmotor.
 een referentie-CO2-uitstoot van 65 g/km (voor kalenderjaar 2024) voor voertuigen met een
@@ -3083,7 +2895,6 @@ Meer dan 60 maanden
 21 maart 2022 ingeschreven bij de Dienst voor Inschrijvingen van Voertuigen. Het in aanmerking te nemen
 percentage van de cataloguswaarde bedraagt 100 % van 1 maart 2022 tot 28 februari 2023 en 94 % vanaf
 1 maart 2023.
-46
 
  Voor zogenoemde 'valse hybrides' (voertuigen waarvan de elektrische batterij te weinig vermogen heeft om
 werkelijk in aanmerking te komen bij de berekening van de uitstoot) wordt het belastbare voordeel van alle
@@ -3123,7 +2934,6 @@ De werknemer mag het resterende budget na een eventuele besteding in pijler 1 be
 Pijler 2: duurzame vervoermiddelen en huisvestingskosten
 In die pijler kan de werknemer kiezen uit een hele reeks duurzame vervoermiddelen, zoals een fiets, een
 elektrische motorfiets, het openbaar vervoer, georganiseerd gemeenschappelijk vervoer, een deelauto enz.
-47
 
  Vanaf 01.01.2026 mogen de gemotoriseerde voertuigen die onder carpooling, autodelen en verhuur van
 auto's met chauffeur vallen geen CO2-uitstoot meer hebben..
@@ -3177,8 +2987,6 @@ overdracht onder levenden is niet mogelijk;
 •
 
 het risico van waardevermindering van de aandelen is niet gedekt;
-
-48
 
  de optie moet betrekking hebben op aandelen van de vennootschap ten behoeve waarvan de
 
@@ -3250,8 +3058,6 @@ ligt dan 20 %, wordt de vrijstelling in principe beperkt tot dat percentage.
 
 5.5.4. Gewestelijke steunmaatregelen
 Dit punt wordt uitgewerkt in hoofdstuk III, point 6.
-
-49
 
  5.5.5. Auteursrechten boven een bepaald grensbedrag
 De auteursrechten worden beschouwd als beroepsinkomsten als ze voortvloeien uit een beroepsactiviteit en
@@ -3334,7 +3140,6 @@ afstand niet meer dan 100 km (enkel traject) mag
 bedragen.
 
 de
-50
 
  woonplaats en de werkplek.
 Andere transportwijzen: de vergoeding is vrijgesteld Autokosten zijn aftrekbaar als werkelijke kosten en
@@ -3393,7 +3198,6 @@ dragen en die dus de kosten eigen van de werkgever vormen.
 Vergoedingen die als vergoeding van de kosten eigen van de werkgever worden behandeld, zijn bijvoorbeeld:
 - vergoedingen voor verblijfskosten in België of in het buitenland;
 - kantoorvergoedingen, met name in het kader van COVID;
-51
 
  - vergoedingen gelieerd aan telewerk.
 De werkgever kan deze werkelijk gemaakte kosten vergoeden na het tonen van de nodige bewijsstukken.
@@ -3449,7 +3253,6 @@ De ontslaguitkering die door de RVA betaalbaar is en waarop ontslagen arbeiders 
 1 januari 2014) recht kunnen hebben, is vrijgesteld van belasting en van sociale bijdragen. De vrijstelling is
 van toepassing op de vanaf 1 januari 2012 ontvangen uitkeringen, ‘voor zover de opzegging door de
 werkgever ten vroegste op 1 januari 2012 ter kennis is gebracht’.
-52
 
  Ontslaguitkering en ontslagcompensatievergoeding
 De ontslaguitkering wordt onder bepaalde voorwaarden toegekend aan een arbeider die na
@@ -3533,8 +3336,6 @@ enige ander voordeel;
 arbeidsovereenkomst op sectoraal vlak of op ondernemingsvlak. Bij gebrek aan collectieve
 arbeidsovereenkomst is een schriftelijke individuele overeenkomst vereist.
 
-53
-
  Het totale bedrag van de ecocheques toegekend door de werkgever of de onderneming mag per werknemer
 of bedrijfsleider niet groter zijn dan 250 euro per jaar (artikel 38/1, §4, 6°, WIB 92).
 De lijst van producten en diensten die betaald kunnen worden met die ecocheques is vastgesteld in een cao
@@ -3574,8 +3375,6 @@ worden uitbetaald of toegekend, en dat de bezoldigingen voor de betrokken relanc
 dan de bezoldigingen die volgens de arbeidsovereenkomst, het arbeidsreglement of een collectieve
 arbeidsovereenkomst voor deze uren verschuldigd zouden zijn wanneer zij niet als overuur zouden
 kwalificeren.
-
-54
 
  Het aantal relance-uren waarvoor een vrijstelling wordt verleend, wordt afgetrokken van het aantal overuren
 in de horeca waarvoor krachtens artikel 38, §1, eerste lid, 30°, WIB 92, een vrijstelling kan worden verleend
@@ -3618,7 +3417,6 @@ https://www.socialsecurity.be/employer/instructions/dmfa/nl/latest/instructions/
 ns/calculationbase/flexi_and_overtime_horeca.html
 
 Het flexi-loon en het flexi-vakantiegeld zijn vrijgesteld van belastingen (artikel 38, §1, lid 1, 29°, WIB 92). Er
-55
 
  bestaat ook een sociale vrijstelling. De enige uitzondering hierop is dat de werkgever een bijzondere
 socialezekerheidsbijdrage van 28 % verschuldigd blijft. Vóór 1 januari 2024 bedroeg die bijzondere bijdrage
@@ -3661,7 +3459,6 @@ aan de gewone sociale bijdragen en aan de belastingen.
 
 5.6.10. De pensioenbonus
 Wat is de pensioenbonus en hoe bouwt u die op? | Federale Pensioendienst (fgov.be)
-56
 
  Bij de wet van 25 april 2024 houdende de hervorming van de pensioenen werd een 'pensioenbonussysteem'
 ingevoerd. De pensioenbonus is een aanvullend bedrag bovenop het pensioen, dat kan worden opgebouwd
@@ -3713,7 +3510,6 @@ Om in aanmerking te komen voor de fiscale vrijstelling, geldt een maximumbedrag 
 voor de forfaitaire onkostenvergoedingen (artikel 38, § 4, lid 2, 2°, WIB 92). Voor aanslagjaar 2024 is het
 maximumbedrag van de forfaitaire onkostenvergoeding per dag gelijk aan 147,67 euro per opdrachtgever.
 Dat dagbedrag wordt onder de gewijzigde regeling verlaagd tot 70 euro (jaarlijks te indexeren bedrag
-57
 
  gekoppeld aan het gezondheidsindexcijfer van de maand december 2021). Bovenop die forfaitaire
 onkostenvergoeding mogen voortaan echter ook de werkelijke verplaatsingskosten worden terugbetaald, zij
@@ -3792,7 +3588,6 @@ socialezekerheidsbijdragen; die worden dan afgetrokken om het belastbaar brutobe
 De bijzondere bijdrage voor de sociale zekerheid die eventueel wordt ingehouden op de bezoldigingen van
 werknemers en gelijkgestelden op grond van inkomsten en gezinstoestand heeft geen invloed op de
 berekening van de socialezekerheidsbijdragen, noch op de berekening van de bedrijfsvoorheffing. In
-58
 
  tegenstelling tot andere sociale bijdragen is ze niet aftrekbaar (art. 53, 4°, WIB 92).
 De solidariteitsafhouding op pensioenen, die 0 tot 2 % bedraagt afhankelijk van de hoogte van het totale
@@ -3839,10 +3634,6 @@ gehuurd zijn vanaf 1 juli 2023 tot 31 december 2025, dat wil zeggen zolang de ko
 toepassing is. Dit kan met andere woorden duren tot en met aanslagjaar 2028.
 Naast de reiskosten met betrekking tot het woon-werkverkeer kunnen de werkelijke kosten onder meer
 omvatten:
-
-59
-
- •
 
 uitgaven betreffende onroerende goederen of gedeelten van onroerende goederen die voor het
 uitoefenen van de beroepsactiviteit worden gebruikt: handelsruimten, kantoor van een notaris,
@@ -3929,8 +3720,6 @@ zijn. In dit kader wordt er een vrijwaringsclausule ingevoerd voor voertuigen aa
 1 januari 2018. Op die manier kunnen ze de nieuwe CO2-formule toepassen indien deze gunstiger
 blijkt. In het tegengestelde geval behouden ze de aftrekbaarheid van 75 %.
 
-60
-
  5.8.2.2. Forfaitaire kosten
 https://financien.belgium.be/nl/particulieren/vervoer/aftrek_vervoersonkosten/woonwerkverkeer/forfait_en_werkelijke_kosten
 
@@ -3958,11 +3747,7 @@ op ondergrens
 
 boven die grens
 
-0
-
 7.310,00
-
-0
 
 28,7 %
 
@@ -4002,21 +3787,13 @@ Bijkomend forfait
 
 100 km
 
-75
-
 101 km -
 
 125 km
 
-125
-
 126 km
 
 en meer
-
-175
-
-61
 
  5.8.2.3. Aanrekening van de kosten
 Wanneer de belastbare beroepsinkomsten afzonderlijk belastbare inkomsten (ABI's) bevatten (zoals
@@ -4060,8 +3837,6 @@ https://www.minfin.fgov.be/myminfin-web/pages/public/fisconet/document/e9fa87d3-
 
 Circulaire 2023/C/99 met FAQ over de fiscale vergroening van de mobiliteit op het vlak van de autofiscaliteit
 https://eservices.minfin.fgov.be/myminfin-web/pages/public/fisconet/document/29a26a2e-e1c0-4d36bf5b-29798e5abc43
-
-62
 
  5.8.3.1. Voertuigen die worden aangekocht, geleased of gehuurd vóór 1 juli 2023
 De bestaande aftrekregeling blijft behouden voor voertuigen met een verbrandingsmotor of hybride
@@ -4123,7 +3898,6 @@ aangekocht in 2031: 67,5 % aftrek voor de volledige duur.
 voertuigen.
 
 Circulaire 2023/C/97 met FAQ over de verhoogde kostenaftrek voor laadstations voor elektrische wagens:
-63
 
  https://eservices.minfin.fgov.be/myminfin-web/pages/public/fisconet/document/cf72b053-fbd0-4d87ab2f-2c9178af1cd6
 
@@ -4184,8 +3958,6 @@ Deze aftrek wordt uitgewerkt in hoofdstuk III, punt 2.2.;
 5.8.7. De kosten verbonden aan factureringspakketten
 Deze aftrek wordt uitgewerkt in hoofdstuk III, punt 2.3.;
 
-64
-
  5.8.8. De ondernemingscrèches
 Deze aftrek wordt uitgewerkt in hoofdstuk III, punt 9.1.;
 
@@ -4233,9 +4005,6 @@ Het betreft:
 
 de vrijstelling voor bijkomend personeel tewerkgesteld als diensthoofd van de afdelingen ‘uitvoer’ en
 ‘integrale kwaliteitszorg’;
-65
-
- •
 
 de vrijstelling voor bijkomend personeel in de kmo’s;
 
@@ -4286,8 +4055,6 @@ Het op deze wijze toegekende gedeelte vormt voor diegene die het ontvangt een be
 zelfstandige activiteit. Hierop kunnen eventuele recupereerbare verliezen in mindering gebracht worden,
 wanneer die niet van zijn overige eigen inkomsten konden worden afgetrokken.
 
-66
-
  5.8.12.2. Huwelijksquotiënt
 Het huwelijksquotiënt kan worden toegekend wanneer de beroepsinkomsten van een van de echtgenoten
 niet hoger zijn dan 30 % van het totaal van beider beroepsinkomsten.
@@ -4336,7 +4103,6 @@ Persoonlijke bijdragen voor
 
 x
 x
-67
 
  groepsverzekeringen
 
@@ -4496,7 +4262,6 @@ x
 x
 
 x
-68
 
  belastingvermindering
 
@@ -4613,8 +4378,6 @@ van 9 jaar.
 (***) Zones voor positief grootstedelijk beleid: aangezien het KB tot vastlegging van de zones voor positief grootstedelijk beleid
 niet werd hernieuwd, mag de belastingvermindering in de praktijk niet meer worden toegepast.
 
-69
-
  (****) Gewestelijke belastingvermindering voor bouwsparen: voor vanaf 2015 aangegane leningen, enkel van toepassing in het
 Waals Gewest en in het Brussels Hoofdstedelijk Gewest. In het Brussels Hoofdstedelijk Gewest zijn bouwsparen en
 langetermijnsparen nog mogelijk voor de in 2015 of 2016 aangegane leningen.
@@ -4656,7 +4419,6 @@ Hoofdstedelijk Gewest
 https://eservices.minfin.fgov.be/myminfin-web/pages/public/fisconet/document/7fe68280-3278-40378e59-f2f16687bdbf
 Zie circulaire 2024/C/26 over de belastingvoordelen voor de hypothecaire leningen in het Waals Gewest
 (Bijlagen):
-70
 
  https://eservices.minfin.fgov.be/myminfin-web/pages/public/fisconet/document/77ea2b3b-4936-4955a7e9-84aaa943d6a0
 Zie circulaire 2024/C/25 over de belastingvoordelen voor de hypothecaire leningen in het Vlaams Gewest
@@ -4702,10 +4464,6 @@ na 31 december van het jaar waarin de lening is aangegaan.
 
 Een eerste verhoging wordt toegepast gedurende de eerste tien jaar van de leningsovereenkomst.
 Deze verhoging bedraagt 760 euro.
-
-71
-
- •
 
 Het basisbedrag wordt ook verhoogd wanneer de belastingplichtige minstens drie kinderen ten laste
 heeft op 1 januari van het jaar volgend op het jaar waarin de leningsovereenkomst is aangegaan.
@@ -4759,7 +4517,6 @@ vermenigvuldiging.
 Wanneer het netto belastbaar inkomen hoger dan 101.805 euro ligt (aanslagjaar 2025, inkomsten 2024),
 wordt het basisbedrag van de belastingvermindering teruggebracht tot 0.
 Het basisbedrag van de belastingvermindering wordt met 125 euro verhoogd per kind ten laste op 1 januari
-72
 
  van het aanslagjaar. Een gehandicapt kind wordt voor twee gerekend. De verhoging voor kinderen ten laste
 wordt echter niet toegekend wanneer het netto belastbaar inkomen van de belastingplichtige hoger is dan
@@ -4820,7 +4577,6 @@ Indien een lening wordt aangegaan om een bestaande lening te vervangen, wordt de
 oorspronkelijke lening in aanmerking genomen.
 Indien deze datum vóór 1 januari 2015 valt, blijft het oude systeem bijgevolg van toepassing. Deze
 herfinanciering kan worden uitgevoerd bij iedere binnen de EER gevestigde instelling.
-73
 
  Voor het beheer van hypotheekoverdrachten: Circulaire 2023/C/88 over de Vlaamse fictiebepaling voor
 hypotheekoverdracht met pandwissel:
@@ -4861,7 +4617,6 @@ hebben van 10 jaar;
 overlijden, ten gunste van de persoon die de volle eigendom of het vruchtgebruik van de woning
 verwerft;
 - het contract moet zijn aangegaan bij een instelling die in de EER is gevestigd.
-74
 
  In het kader van de geïntegreerde woonbonus moet de levensverzekering niet uitsluitend dienen voor de
 wedersamenstelling of waarborg van de hypothecaire lening. De bijdragen geven dan recht op de
@@ -4923,8 +4678,6 @@ kapitaalaflossingen en levensverzekeringspremies wordt per echtgenoot beperkt (a
 tot 15 % van de eerste schijf van 2.040 euro (federaal maximumbedrag) / 1.900 euro
 (maximumbedrag in het Vlaams Gewest) / 1.910 euro (maximumbedrag in het Waals Gewest) /
 
-75
-
  2.040 euro (maximumbedrag in het Brussels Hoofdstedelijk Gewest) van de beroepsinkomsten en
 tot 6 % daarboven, met uitsluiting van de afzonderlijk belastbare inkomsten;
 •
@@ -4979,7 +4732,6 @@ Jaar waarin het levensverzekeringscontract is aangegaan
 Basisbedrag van de lening dat recht geeft op de
 belastingvermindering voor bouwsparen
 54.536,58
-76
 
  1999
 
@@ -5037,9 +4789,6 @@ De spaarrekening of spaarverzekering moet geopend of aangegaan zijn door een inw
 de Europese Economische Ruimte, die minstens 18 jaar oud is en jonger is dan 65 jaar, voor een periode van
 minimaal 10 jaar;
 De voordelen moeten bij het aangaan van het contract bedongen zijn:
-77
-
- •
 
 bij leven, ten gunste van de belastingplichtige zelf;
 
@@ -5125,9 +4874,6 @@ overlijden;
 •
 
 de bijdragen moeten door de werkgever op de bezoldigingen worden ingehouden;
-78
-
- •
 
 de bijdragen moeten definitief gestort worden aan een in één van de lidstaten van de Europese
 Economische Ruimte gevestigde verzekeringsonderneming, instelling voor sociale voorzieningen of
@@ -5183,7 +4929,6 @@ hoger voor de voorwaarden).
 Interesten van 'groene leningen' geven ook recht op een belastingvermindering.
 Het gaat om leningen die tussen 1 januari 2009 en 31 december 2011 werden aangegaan om de uitgaven te
 financieren die toen in aanmerking werden genomen voor de belastingvermindering voor energiebesparende
-79
 
  investeringen.
 De belastingvermindering bedraagt 30 % van de werkelijk betaalde intresten, na aftrek van de
@@ -5231,9 +4976,6 @@ belastingvermindering genieten voor de uitgaven die hij daarvoor doet van 1 sept
 Het gaat over uitgaven voor de aankoop in nieuwe staat van een vast laadstation, de plaatsing ervan en de
 keuring van de installatie.
 Het laadstation moet:
-80
-
- •
 
 geplaatst zijn in of in de onmiddellijke nabijheid van de woning; en
 
@@ -5318,7 +5060,6 @@ van het aanslagjaar.;
 •
 
 de uitgaven voor kinderoppas moeten worden betaald ofwel aan instellingen of
-81
 
  opvangvoorzieningen die door de lokale openbare besturen of openbare besturen van de
 gemeenschappen of van de gewesten zijn erkend, ofwel aan kleuterscholen of lagere scholen
@@ -5369,7 +5110,6 @@ De bijkomende belastingvermindering waarvan de belastingplichtige niet effectief
 wordt omgezet in een verrekenbaar en terugbetaalbaar belastingkrediet (artikel 14535, lid 10, WIB 92). Om
 deze bijkomende belastingvermindering te kunnen genieten, mag de belastingplichtige de verhoogde
 belastingvrije som voor kinderen ten laste jonger dan drie jaar niet hebben aangevraagd.
-82
 
  6.2.3.2. Onderhoudsuitkeringen
 https://financien.belgium.be/nl/particulieren/gezin/onderhoudsgeld
@@ -5423,8 +5163,6 @@ echtgenoot (aanslagjaar 2025, inkomsten 2024).
 Wanneer een gemeenschappelijke aanslag wordt gevestigd, wordt de belastingvermindering evenredig
 omgedeeld tussen de echtgenoten naargelang van hun gezamenlijk belastbare inkomsten.
 
-83
-
  6.2.3.4. Bezoldigingen huisbedienden
 Een belastingvermindering van 30 % (art. 14534, WB 92) wordt toegekend voor de bezoldigingen die in het
 belastbaar tijdperk worden betaald of toegekend aan een huisbediende.
@@ -5471,7 +5209,6 @@ voorwaarden rechtstreeks (al dan niet via een crowdfundingsplatform) hebben inge
 aandelen uitgegeven door een startende kmo of op rechten van deelneming van erkende startersfondsen of
 private startersprivaks die op hun beurt (en dus onrechtstreeks) de op die manier opgehaalde sommen
 investeren in nieuwe aandelen uitgegeven door startende kmo’s.
-84
 
  Deze belastingvermindering wordt eveneens toegekend aan de natuurlijke personen die via een
 crowdfundingplatform
@@ -5529,7 +5266,6 @@ https://eservices.minfin.fgov.be/myminfin-web/pages/public/fisconet/document/48c
 
 Er wordt een nieuwe belastingvermindering toegekend voor nieuwe aandelen van groeibedrijven (tax shelter
 scale-up). Deze wordt toegekend vanaf aanslagjaar 2019.
-85
 
  Dit is bepaald in artikel 14526, WIB 92 en artikel 6312/1, KB/WIB 92.
 De belastingvermindering is gelijk aan 30 % van het geïnvesteerde bedrag, na aftrek van de vergoeding van
@@ -5574,7 +5310,6 @@ omgedeeld tussen de echtgenoten naargelang van hun gezamenlijk belastbare inkoms
 https://financien.belgium.be/nl/particulieren/belastingvoordelen/rechtsbijstandsverzekering
 Om de rechtsbijstandsverzekering toegankelijker te maken, werd een belastingvermindering ingevoerd vanaf
 aanslagjaar 2020 voor premies die de belastingplichtige tijdens het belastbare tijdperk werkelijk heeft betaald
-86
 
  voor een individueel gesloten rechtsbijstandsverzekering die voldoet aan bepaalde voorwaarden (het moet
 gaan om een rechtsbijstandsverzekering in de zin van de wet van 4 april 2014 betreffende de verzekeringen).
@@ -5645,8 +5380,6 @@ o
 
 voor de aanslagjaren 2020, 2021, 2023, 2024 en 2025;
 
-87
-
  o
 
 voor aanslagjaar 2022, in de mate dat die 50 bijkomende uren zijn verricht in de periode
@@ -5710,8 +5443,6 @@ De gewestelijke belastingverminderingen worden aangerekend op de gewestelijke op
 verhoogd met de gewestelijke belastingvermeerderingen en verminderd met de gewestelijke
 belastingkortingen. Zij zijn gebonden aan de materiële bevoegdheden van de gewesten.
 
-88
-
  6.3.1. Vastgoedinvesteringen
 6.3.1.1. De belastingvermindering voor enige eigen woning (gewestelijke woonbonus)
 De aftrek voor enige eigen woning is omgezet in een belastingvermindering en de gewesten zijn voortaan
@@ -5754,9 +5485,6 @@ Mogen in aanmerking genomen worden, de uitgaven die tijdens het belastbaar tijdp
 voor de vernieuwing van een woning waarvan de belastingplichtige eigenaar–verhuurder is. Het gebouw
 moet verhuurd worden voor negen jaar via een sociaal verhuurkantoor.
 De vermindering wordt toegekend onder de volgende voorwaarden:
-89
-
- •
 
 de woning is sinds ten minste 15 jaar in gebruik genomen;
 
@@ -5817,7 +5545,6 @@ berekeningsgrondslag wordt rekening gehouden met het gemiddelde van de bedragen 
 31 december van het belastbare tijdperk ter beschikking worden gesteld.
 De vermindering wordt voor het eerst toegekend voor het belastbare tijdperk waarin ten minste een van de
 kredietnemers het onroerend goed bestemt tot hoofdverblijfplaats, en zolang aan die voorwaarde is voldaan.
-90
 
  De belastingvermindering voor renovatieovereenkomsten wordt afgeschaft voor renovatieovereenkomsten
 aangegaan na 31 december 2018.
@@ -5868,10 +5595,6 @@ beroepsactiviteit;
 ze moet zijn betaald aan een plaatselijk werkgelegenheidsagentschap voor prestaties geleverd door
 werknemers met een PWA-contract;
 
-91
-
- •
-
 ter staving van die uitgaven moet de belastingplichtige bij zijn aangifte in de personenbelasting het
 attest voegen dat is vermeld in de reglementering betreffende de PWA's en dat wordt uitgereikt door
 de uitgever van de PWA-cheques/wijkwerkcheques.
@@ -5917,7 +5640,6 @@ echtgenoot ten opzichte van de totale gezamenlijk belastbare inkomsten van beide
 Vlaams decreet van 19 mei 2006 betreffende de winwinlening (BS, 30 juni 2006, 2e editie)
 Besluit van de Vlaamse Regering van 20 juli 2006 houdende uitvoering van het decreet van 19 mei 2006
 betreffende de Winwinlening (BS, 17 augustus 2006)
-92
 
  https://www.vlaio.be/nl/subsidies-financiering/subsidiedatabank/winwinlening
 Dit belastingvoordeel betreft leningen verstrekt door natuurlijke personen aan kleine ondernemingen.
@@ -5979,7 +5701,6 @@ situeren tussen 50 % en 100 % van de wettelijke rentevoet die van kracht is op h
 wordt aangegaan (5,75 % voor het jaar 2024; bijgevolg mag de rentevoet van een winwinlening die in 2024
 wordt aangegaan, tussen 2,875 % en 5,75 % bedragen).
 Het belastingvoordeel wordt toegekend in de vorm van een belastingkrediet (de belastingvermindering werd
-93
 
  formeel in een belastingkrediet omgezet door het Vlaams decreet van 19 december 2014). Dit bestaat uit een
 jaarlijks belastingkrediet berekend op basis van de geleende bedragen en een eventueel eenmalig
@@ -6024,7 +5745,6 @@ een kredietnemer geleend wordt, bedraagt ten hoogste 250.000 euro per kredietnem
 Het belastingkrediet wordt berekend op basis van de geleende bedragen, na aftrek van de toegelaten
 vervroegde terugbetalingen. De berekeningsgrondslag van het belastingkrediet is gelijk aan het rekenkundige
 gemiddelde van alle geleende bedragen, in hoofdsom, die op 1 januari en 31 december van het belastbare
-94
 
  tijdperk zijn uitgeleend. Het belastingkrediet bedraagt 4 % gedurende de eerste vier belastbare tijdperken
 vanaf het tijdperk waarin de lening is aangegaan, en 2,5 % tijdens de eventuele volgende belastbare tijdperken.
@@ -6066,8 +5786,6 @@ Het maximumbedrag dat een onderneming mag ontlenen in het kader van dergelijke l
 met een maximum van 75.000 euro per kredietgever, net zoals voor de winwinlening. Het maximumbedrag
 van het belastingkrediet wordt overigens gespreid over beide systemen (gelijkaardige grensbedragen).
 Cumulatie met federale belastingvoordelen is verboden.
-
-95
 
  7. BEREKENING VAN DE BELASTING
 7.1. ALGEMEEN SCHEMA - FEDERALE EN GEWESTELIJKE PB
@@ -6124,8 +5842,6 @@ kortingen en
 aangerekend op het positieve saldo van het gewest
 belastingverminderingen dat kan
 worden aangerekend op het
-
-96
 
  positieve federale saldo
 = gewestelijke PB (kan negatief
@@ -6190,7 +5906,6 @@ Marginale aanslagvoet
 50 %
 
 Om de hoofdsom te vinden, komen vervolgens de volgende belastingverminderingen in mindering van de
-97
 
  basisbelasting:
 -
@@ -6277,7 +5992,6 @@ euro
 50 %
 
 48.320,00 euro en meer
-98
 
  Voorbeeld (aanslagjaar 2025, inkomsten 2024):
 Een rijksinwoner, werknemer en zonder gezinslasten, heeft in 2024 een belastbaar inkomen ontvangen van
@@ -6343,8 +6057,6 @@ gehandicapt kind ten laste van een belastingplichtige die als alleenstaande word
 ➔ In afwijking van wat voorafgaat, wordt het bedrag, enkel voor de aanslagjaren 2024 en 2025, op
 3.300 euro gebracht (basisbedrag te indexeren; 7.290 euro voor aanslagjaar 2025, inkomsten
 
-99
-
  2024) voor alle kinderen ten laste. Dit is een tijdelijke maatregel die ingevoerd werd door de wet
 van 22 december 2023 houdende diverse fiscale bepalingen.
 
@@ -6403,8 +6115,6 @@ inbegrip van de toeslag voor kinderen jonger dan drie jaar) en die niet verreken
 onvoldoende inkomsten, wordt omgezet in een verrekenbaar en terugbetaalbaar belastingkrediet (met een
 maximum van 550 euro (aanslagjaar 2025, inkomsten 2024) per kind ten laste) (art. 134, § 3, eerste lid en
 § 4, 6°, WIB 92)
-
-100
 
  7.3.1.2. Grensbedrag van nettobestaansmiddelen
 https://financien.belgium.be/nl/particulieren/gezin/personen_ten_laste/nettobestaansmiddelen
@@ -6472,8 +6182,6 @@ Voor elk kind dat jonger is dan drie jaar en voor wie de belastingvermindering v
 niet wordt gevraagd, heeft de belastingplichtige recht op een verhoging van de belastingvrije som van
 720 euro (aanslagjaar 2025, inkomsten 2024).
 
-101
-
  7.3.1.4. Verhoging van de belastingvrije som voor personen die als alleenstaande
 belast worden en die kinderen ten laste hebben
 Een belastingplichtige die als alleenstaande belast wordt en een of meer kinderen ten laste heeft, heeft ook
@@ -6522,7 +6230,6 @@ alleenstaande belastingplichtigen met één of meerdere kind(eren) ten laste: 1.
 echtgenoot van wie de bestaansmiddelen niet meer dan 3.380 euro bedragen: voor het jaar van het
 huwelijk of van de verklaring van wettelijke samenwoning en voor zover de aanslag per
 belastingplichtige wordt gevestigd: 1.920 euro (art. 133, eerste lid, 2°, WIB 92).
-102
 
  In geval van fiscaal co-ouderschap heeft elke als alleenstaande belaste ouder recht op de volledige
 belastingvrije som voor alleenstaande belastingplichtigen met kinderen ten laste.
@@ -6565,7 +6272,6 @@ Voor de wettelijke ziekte- en invaliditeitsuitkeringen werd het bedrag van de aa
 geïntegreerd in het bedrag van de gewone vermindering.
 De belastingvermindering wordt berekend (met uitzondering van de aanvullende vermindering voor
 werkloosheidsuitkeringen) en toegekend per echtgenoot.
-103
 
  De berekening van de gewone en de aanvullende verminderingen gebeurt op basis van een basisbedrag (dat
 normaal gezien jaarlijks wordt geïndexeerd) (A). Dat bedrag wordt achtereenvolgens op de volgende manieren
@@ -6640,7 +6346,6 @@ vermindering ontvangen.
 De beperking (art. 147, eerste lid, 8°, WIB 92) wordt per echtgenoot toegepast op basis van de volgende
 verhouding:
 nettobedrag van de op vermindering recht gevende inkomsten (na toepassing van het huwelijksquotiënt)
-104
 
  totale netto-inkomsten na toepassing van huwelijksquotiënt
 
@@ -6718,8 +6423,6 @@ Minder dan 27.900 euro
 Beperking van de vermindering
 V'= V
 
-105
-
  Van 27.900 euro tot 55.810 euro
 Meer dan 55.810 euro
 
@@ -6784,7 +6487,6 @@ V’= 0
 
 7.4.4. Beperking tot de evenredige belasting
 De vermindering die overblijft na die beperkingen mag in geen geval het deel van de belasting overschrijden
-106
 
  dat zich evenredig verhoudt tot de inkomsten waarvoor ze wordt toegekend. Deze beperking zal bijvoorbeeld
 toegepast worden als de door de belastingplichtige verschuldigde belasting minder bedraagt dan het
@@ -6838,8 +6540,6 @@ tussen:
 
 2° 90 % van het verschil tussen het bedrag van de vervangingsinkomsten en, desgevallend, de
 pensioenen en 19.030 euro (aanslagjaar 2025, inkomsten 2024).
-
-107
 
  De formule is dan ook de volgende: (a – [(b-c)*90 %])* 60 %
 Het bedrag aan belasting Staat dat nog verschuldigd is na toepassing van de bijkomende
@@ -6900,7 +6600,6 @@ achterstallen,
 
 opzeggingsvergoedingen, kapitalen vereffend bij het vervallen van een groepsverzekeringscontract,
 een levensverzekeringscontract of een pensioenplan, en ook gewestelijke tewerkstellingspremies.
-108
 
  Die inkomsten ontsnappen dus aan de samenvoeging en worden belast tegen een bijzonder tarief dat
 hieronder wordt vermeld. Volledige globalisatie (opname van deze inkomsten in het GBI en toepassing van
@@ -6970,8 +6669,6 @@ belangrijke deelnemingen
 33 % als de meerwaarde binnen vijf jaar na verwerving
 wordt verwezenlijkt, 16,5 % in de andere gevallen
 16,5 %
-
-109
 
  7.6.3. Beroepsinkomsten
 In veel gevallen worden de beroepsinkomsten die de afzonderlijke aanslag kunnen genieten, belast tegen een
@@ -7061,7 +6758,6 @@ vervangingsinkomsten.
 In geval van uitbetaling van een kapitaal wordt bij de vereffening van een groepsverzekering een
 afzonderlijke aanslag gevestigd op het uitbetaald kapitaal. Er bestaan verschillende toepassingsregels van de
 belasting naargelang het kapitaal op de ‘normale vervaldatum’ vereffend wordt of eerder.
-110
 
  Onder ‘normale vervaldatum’ wordt verstaan:
 •
@@ -7143,9 +6839,6 @@ De volgende kapitalen worden belast op de vervaldatum van het contract:
 •
 
 kapitalen van schuldsaldoverzekeringen;
-111
-
- •
 
 kapitalen en afkoopwaarden van individuele levensverzekeringscontracten, ten belope van het
 bedrag dat dient voor de wedersamenstelling of waarborg van een hypothecaire lening.
@@ -7173,15 +6866,11 @@ Belastbaar tijdperk (*)
 het kapitaal
 40 jaar en minder
 
-1
-
 van 41 tot 45 jaar:
 
 1,5
 
 van 46 tot 50 jaar
-
-2
 
 van 51 tot 55 jaar
 
@@ -7189,23 +6878,17 @@ van 51 tot 55 jaar
 
 van 56 tot 58 jaar
 
-3
-
 van 59 tot 60 jaar
 
 3,5
 
 van 61 tot 62 jaar
 
-4
-
 van 63 tot 64 jaar
 
 4,5
 
 65 jaar en meer
-
-5
 
 13 jaar
 
@@ -7221,7 +6904,6 @@ het buitenland, wordt ‘hoofdsom’ genoemd.
 De volgende stap is de berekening van de ‘belasting Staat’. Deze laatste wordt berekend door de ‘hoofdsom’
 op te tellen bij de op de afzonderlijk belaste inkomsten verschuldigde belasting en daarna de belasting op de
 ‘roerende inkomstenkorf’ van dit totale bedrag af te trekken.
-112
 
  De belasting Staat wordt vervolgens verdeeld tussen de federale overheid en de gewesten op basis van de
 autonomiefactor (24,957 %). Het aandeel dat aan de federale overheid wordt toegekend (75,043 %), wordt
@@ -7274,7 +6956,6 @@ ten slotte de belastingverminderingen die in een belastingkrediet kunnen worden 
 
 Het gaat om de belastingvermindering voor dienstencheques die in bepaalde gevallen in een belastingkrediet
 kan worden omgezet.
-113
 
  Het ging vroeger eveneens om de gewestelijke woonbonus die onder bepaalde voorwaarden in een
 belastingkrediet kon worden omgezet, en om bepaalde overdrachten van belastingverminderingen voor
@@ -7324,7 +7005,6 @@ bedrijfsvoorheffing).
 
 Opgelet: de aanrekening van de FBB wordt beperkt tot het aandeel van de belasting Staat dat betrekking heeft
 op de beroepsinkomsten.
-114
 
  Het saldo wordt verhoogd met de gemeentelijke opcentiemen.
 Het eventuele overschot van het belastingkrediet met betrekking tot de kinderen ten laste, het eventuele
@@ -7402,9 +7082,6 @@ De voorafbetalingen moesten worden verricht:
 •
 
 voor het eerste kwartaal (VA1), uiterlijk op 10 april 2024,
-115
-
- •
 
 voor het tweede kwartaal (VA2), uiterlijk op 10 juli 2024,
 
@@ -7484,7 +7161,6 @@ de
 berekening van de belastingvermeerdering wegens
 geen of ontoereikende voorafbetalingen, niet lager
 zijn dan 3 %. Het percentage van de vermeerdering
-116
 
  bedraagt bijgevolg minstens 6,75 % (ofwel 2,25*3)
 Waardering van de voorafbetalingen
@@ -7570,7 +7246,6 @@ en de hoogste waarde die ze hebben bereikt aan het einde van één van de drie v
 tijdperken. Het belastingkrediet is beperkt tot 3.750 euro per echtgenoot.
 
 Sinds aanslagjaar 2015 is het belastingkrediet voor zelfstandigen terugbetaalbaar en kan dan ook volledig
-117
 
  worden aangerekend op de ‘totale belasting’ (som van de federale PB en de gewestelijke PB), verhoogd met
 de federale vermeerderingen.
@@ -7619,24 +7294,17 @@ G2
 
 (euro)
 
-0
-
 6.350
-
-0
 
 6.350
 
 8.480
 
 860 x (I-G1)/(G2-G1)
-118
 
  8.480
 
 21.200
-
-700
 
 21.200
 
@@ -7647,8 +7315,6 @@ G2
 27.550
 
 en meer
-
-0
 
 Het belastingkrediet wordt beperkt ten belope van het aandeel van de activiteitsinkomsten in de totale
 nettoberoepsinkomsten.
@@ -7683,8 +7349,6 @@ De bepalingen met betrekking tot de winwinlening worden beschreven in punt 6.3.2
 
 7.10.9. Gewestelijk Waals belastingkrediet lening ‘coup de pouce’
 De bepalingen met betrekking tot de lening ‘coup de pouce’ worden beschreven in punt 6.3.2.3.
-
-119
 
  7.10.10. Vriendenaandeel (Action d'Ami)
 De bepalingen met betrekking tot de lening 'vriendenaandeel' worden beschreven in punt 6.3.2.4.
@@ -7747,8 +7411,6 @@ Dit krediet is verrekenbaar en terugbetaalbaar.
 De wet van 28 december 2023 houdende diverse fiscale bepalingen (art. 30 en volgende) verleent, onder
 bepaalde voorwaarden, een belastingkrediet voor de verhoging van de fietskilometervergoeding die de
 
-120
-
  werkgevers van cao nr. 164 moeten toekennen voor de verplaatsingen per fiets tussen de woonplaats en de
 plaats van tewerkstelling in de periode van 1 mei 2023 tot en met 31 december 2024.
 
@@ -7795,7 +7457,6 @@ laattijdig aangegeven inkomsten.
 7.11.4. Uitzondering
 Bij ontstentenis van de “kwader trouw” kan er worden afgeweken van de belastingverhoging van 10 %. Dit
 gaat om omstandigheden onafhankelijk van de wil van de belastingplichtige, de belastingplichtige heeft de
-121
 
  overtreding begaan zonder het opzet de belasting te ontduiken of zonder kwade trouw. Het moet wel om een
 eerste overtreding van die soort gaan.
@@ -7810,8 +7471,6 @@ aangegeven of laattijdig aangegeven inkomsten.
 7.11.6. Belastingsschalen
 Er zijn vier schalen van belastingschalen, volgens de graad van de overtreding. De schalen gaan van 10 % tot
 200 % afhankelijk van de overtreding.
-
-122
 
 ## HOOFDSTUK II — VENNOOTSCHAPSBELASTING (VEN.B)
 Bijgewerkt op 31.12.2024
@@ -7866,7 +7525,6 @@ ONDERWORPEN?
 Overeenkomstig artikel 179 WIB 92 zijn aan de Ven.B onderworpen, de binnenlandse vennootschappen en de
 organismen voor de financiering van pensioenen bedoeld in artikel 8 van de wet van 27 oktober 2006
 betreffende het toezicht op de instellingen.
-123
 
  Een binnenlandse vennootschap, of "Belgische vennootschap", heeft het karakter van een vennootschap in
 fiscale zin, door onderscheid met de vennootschap als rechtsvorm, gedefinieerd in het Wetboek van
@@ -7927,7 +7585,6 @@ firma of een commanditaire vennootschap bevinden en niet vrijwillig hebben gekoz
 de bosgroeperingen die voldoen aan de voorwaarden bedoeld in artikel 3 van de wet van 6 mei 1999 ter
 bevordering van de oprichting van bosgroeperingsvennootschappen. Deze entiteiten worden niettemin als
 fiscaal transparant beschouwd.
-124
 
  Ten slotte moet worden opgemerkt dat, overeenkomstig artikel 179/1 WIB 92, non-profitorganisaties en
 andere juridische entiteiten die zijn goedgekeurd als "in aanmerking komende productievennootschap” of "in
@@ -7997,7 +7654,6 @@ het bedrag van de belastbare winsten een nettobedrag in fiscale zin is, wat over
 verschil tussen hun brutobedrag en dat van de beroepskosten die zij maken. Laatstgenoemde
 worden bepaald overeenkomstig de bepalingen van de artikelen 49 t.e.m. 66 en 195 t.e.m.
 198, WIB 92.
-125
 
  Met betrekking tot afwijkingen moet worden vermeld:
 •
@@ -8063,7 +7719,6 @@ De belastbare grondslag is dus het definitieve belastbare bedrag van netto-inkom
 grondslag van de belasting. Voor de berekening ervan is het nodig eerst het fiscale resultaat te bepalen,
 
 waaruit een reeks aftrekken worden toegepast om tot de belastbare grondslag te komen. Op sommige
-126
 
  bestanddelen van het fiscale resultaat mag echter geen enkele aftrek aangerekend worden; deze worden
 eerst uit het fiscale resultaat gehaald en vervolgens opnieuw toegevoegd aan de belastbare grondslag na de
@@ -8144,8 +7799,6 @@ Bij het aldus vastgestelde resultaat wordt het bedrag opgeteld van buitenlandse 
 overeenkomstig artikel 185, § 3, eerste of tweede lid, WIB 92, niet kunnen worden gebruikt om de
 belastbare grondslag te verminderen (artikel 206/3, § 2, WIB 92).
 
-127
-
  5.2. RESERVE-BESTANDDELEN DIE DE FISCALE GRONDSLAG
 VORMEN
 In principe is elke winst die in de vennootschap behouden blijft een reserve, ongeacht of deze is geboekt op
@@ -8195,10 +7848,6 @@ hebben op het herwaardeerde deel van de activa;
 niet-verwezenlijkte maar uitgedrukte herwaarderingsmeerwaarden zonder dat wordt voldaan aan
 
 de onschendbaarheidsvoorwaarde;
-
-128
-
- •
 
 kapitaalverminderingen met betrekking tot de herwaarderingsmeerwaarde die eerder in het kapitaal
 
@@ -8250,8 +7899,6 @@ voorheffing van:
 
 De afzonderlijke heffing van 10 % is niet aftrekbaar als beroepskosten voor de betrokken kleine vennootschap.
 
-129
-
  Hoewel beide soorten liquidatiereserves gebaseerd zijn op een gemeenschappelijk principe en aan
 vergelijkbare voorwaarden moeten voldoen, heeft de speciale liquidatiereserve betrekking op de toewijzingen
 van een deel of het geheel van de boekhoudkundige winst na belastingen voor het aanslagjaar 2013 of 2014,
@@ -8296,7 +7943,6 @@ zijn in een andere rubriek dan het eigen vermogen of de voorzieningen voor risic
 voortvloeien uit boekingen die betrekking hebben op eerdere belastbare tijdperken, behalve als de
 belastingplichtige aantoont dat ze zijn opgenomen bij de bepaling van de fiscale resultaten van deze eerdere
 tijdperken. Overeenkomstig artikel 361 WIB 92, zijn deze bedragen eveneens belastbare winsten.
-130
 
  Onder de onderschattingen van activa worden volgens de structuur van de fiscale aangifte de volgende
 gevallen onderscheiden:
@@ -8349,7 +7995,6 @@ dat het karakter van zekere en vaststaande schulden of verliezen heeft gekregen 
 het belastbare tijdperk, maar dat niet betrekking heeft op het betreffende belastbare tijdperk
 (artikel 195/1 WIB 92). Zie hierover ook de "Circulaire 2018/C/43 betreffende de fiscale aftrekbaarheid van
 vooruitbetaalde kosten" van 10 april 2018.
-131
 
  https://www.minfin.fgov.be/myminfin-web/pages/public/fisconet/document/d5666b11-1cdf-40a99e7d-aed5056b5541
 
@@ -8424,7 +8069,6 @@ genoemde belastbare periode;
 deze kosten in mindering worden gebracht op deze vrijgestelde voorziening op het moment dat zij
 
 daadwerkelijk worden gedragen (artikel 26, KB/WIB 92);
-132
 
  5.
 
@@ -8492,7 +8136,6 @@ eerder toegestane afschrijvingen en waardeverminderingen (artikel 44, § 1, 2°,
 De meerwaarden die betrekking hebben op aandelen of deelbewijzen van in België gevestigde of
 
 intra-Europese vennootschappen (artikel 45, § 1, eerste lid, WIB 92):
-133
 
  o
 
@@ -8549,8 +8192,6 @@ paragraaf 3 van dat artikel bedoelde termijnen.
 Daarnaast is het mogelijk vrijstelling te verlenen voor:
 5.3.3.3.3. De meerwaarden op bedrijfsvoertuigen
 Overeenkomstig artikel 44bis, WIB 92 (formulier 276 N);
-
-134
 
  5.3.3.3.4. De meerwaarden op binnenschepen
 Overeenkomstig artikel 44ter, WIB 92 (formulier 276 P).
@@ -8609,7 +8250,6 @@ de
 onaantastbaarheidsvoorwaarde
 
 (artikel 184ter, § 1, WIB 92).
-135
 
  5.3.8. Vrijgestelde winsten behouden in het vermogen van een erkende
 inschakelingsbedrijf
@@ -8668,8 +8308,6 @@ beschouwd
 overeenkomstig
 
 artikel 362, eerste lid, WIB 92, voor het deel dat nog niet in het resultaat is opgenomen;
-
-136
 
  5.3.10.3. het percentage van 20 % van de kosten met betrekking tot elektronische
 facturatieprogramma’s
@@ -8743,7 +8381,6 @@ Deze vrijstelling is niet afhankelijk van het respecteren van de onschendbaarhei
 herinvestering.
 Wanneer dergelijke meerwaarden worden gerealiseerd op aandelen of participaties verkregen door een
 vrijgestelde operatie volgens artikel 45, § 1, eerste lid, 2°, WIB 92, en waarbij de mogelijke inkomsten van de
-137
 
  ingeruilde aandelen of participaties op het moment van de ruil niet in aanmerking komen voor DBI-aftrek, is
 het vrijgestelde bedrag beperkt tot het verschil tussen de realisatieprijs en de werkelijke waarde van de
@@ -8793,7 +8430,6 @@ als niet-aftrekbare kosten (artikel 198, § 1, 7°, WIB 92);
 5.4.1.3. Definitieve vrijstellingen Tax Shelter
 Dit zijn bedragen die definitief zijn vrijgesteld na de uitreiking van een Tax Shelter-attest voor audiovisuele
 werken, podiumwerken of videospellen.
-138
 
  5.4.1.4. Vrijstelling van premies en kapitaal- en rentesubsidies van de gewesten
 (artikelen 193bis, § 1, en 193ter, § 1, WIB 92):
@@ -8846,7 +8482,6 @@ artikel 194sexies WIB 92 worden de winsten vrijgesteld ter hoogte van de totale 
 in artikel 198/1, § 2, WIB 92, die, in toepassing van artikel 198/1, § 1, WIB 92, niet als beroepskosten zijn
 opgenomen in een van de voorgaande belastbare tijdperken en die niet als basis hebben gediend voor de
 huidige vrijstelling.
-139
 
  Deze vrijstelling mag de positieve marge tussen het grensbedrag bedoeld in artikel 198/1, § 3, WIB 92, en de
 financieringskosten bedoeld in artikel 198/1, § 2 WIB 92, niet overschrijden. De vrijstelling kan alleen worden
@@ -8919,10 +8554,6 @@ verlies af te lossen, met uitzondering van kapitaalverminderingen uitgevoerd ove
 regelmatige beslissing van de vennootschap volgens het WVV of, indien de vennootschap niet onder dit
 Wetboek valt, volgens het recht dat op haar van toepassing is;
 
-140
-
- •
-
 de vrijgestelde winsten voortvloeiend uit terugbetalingen (of correcties van geraamde fiscale
 
 schulden) ontvangen tijdens het belastbare tijdperk betreffende belastingen die eerder niet als beroepskosten
@@ -8979,8 +8610,6 @@ van een groepsbijdrage bedoeld in artikel 205/5 WIB 92, overeenkomstig de bepali
 artikel 185, § 4, eerste lid, WIB 92 (deze laatste bepaling wordt toegelicht in de "Circulaire 2020/C/29
 betreffende de aftrek van groepsbijdragen in de vennootschapsbelasting" van 13 februari 2020).
 https://eservices.minfin.fgov.be/myminfin-web/pages/public/fisconet/document/9affb57d-10ab-40e9a40c-4acebed4a314
-
-141
 
  5.5. TOEVOEGING VAN VU
 Artikel 206/1, tweede lid, 2°, WIB 92, bepaalt dat aan het aldus aangepaste bedrag van de reserves de VU
@@ -9055,7 +8684,6 @@ Verworpen zijn:
 •
 
 Bijdragen of premies met betrekking tot collectieve of individuele toezeggingen die bedoeld zijn om
-142
 
  een verlies aan inkomsten te vergoeden (artikel 38, §1, eerste lid, 20°, WIB 92);
 •
@@ -9102,8 +8730,6 @@ worden vermeld (artikel 53/1, WIB 92).
 5.5.4.7. Kosten en uitgaven die de beroepsuitoefening te boven gaan
 Kosten en uitgaven die het redelijkerwijs noodzakelijke niveau voor de beroepsuitoefening te boven gaan
 (artikel 53, 10°, WIB 92).
-
-143
 
  5.5.4.8. Betalingen gedaan aan buitenlandse begunstigden gevestigd in
 belastingparadijzen
@@ -9163,8 +8789,6 @@ De heffing zelf wordt vanaf het aanslagjaar 2021 (dat betrekking heeft op een be
 
 ten vroegste op 1 januari 2020 begint) niet meer als beroepskost aangemerkt.
 
-144
-
  5.5.4.11. Alle andere niet-aftrekbare belastingen
 Dit omvat onder meer de vennootschapsbelasting (inclusief alle afzonderlijke heffingen zoals bedoeld in
 de artikelen 219bis tot 219quinquies, WIB 92), de betalingen (voorafbetalingen) als voorschot op deze
@@ -9214,8 +8838,6 @@ brandstofkosten met betrekking tot het privégebruik van het voertuig door de we
 
 voertuig geheel of gedeeltelijk door de werkgever worden gedragen (artikel 198, § 1, 9°bis, WIB 92);
 
-145
-
  5.5.4.18. De betalingen van minimaal 100.000 euro aan belastingparadijzen
 De betalingen van minimaal 100.000 euro aan belastingparadijzen, opgenomen in de lijsten opgesteld
 door België, de Europese Unie en de OESO en die niet zijn aangegeven of, als ze toch aangegeven zijn,
@@ -9255,8 +8877,6 @@ openbare werken
 Het deel van de compensatievergoedingen toegekend door de gewesten voor openbare werken , bedoeld in
 artikel 67quinquies, WIB 92, dat eerder definitief werd vrijgesteld en wordt terugbetaald aan het betrokken
 gewest (artikel 53, 25°, WIB 92);
-
-146
 
  5.5.4.25. De vergoeding betaald in geval van een interestaftrek-overeenkomst
 De vergoeding betaald in geval van een interestaftrek-overeenkomst bedoeld in artikel 198/1, § 4, vijfde
@@ -9327,8 +8947,6 @@ Deze regel hanteert een brede interpretatie van het begrip "interest" en heeft n
 tussen groepsvennootschappen, maar op alle door de Koning beschreven kosten die economisch
 vergelijkbaar zijn met rente en economisch equivalente bedragen, inclusief interest betaald aan banken.
 
-147
-
  Indien de vennootschap deel uitmaakt van een groep van vennootschappen en zij een interestaftrekovereenkomst heeft gesloten zoals bedoeld in artikel 198/1, § 4, WIB 92, met een andere ingezeten
 vennootschap of met een Belgische inrichting van een buitenlandse vennootschap die gedurende de gehele
 belastbare periode deel uitmaakt van deze groep van vennootschappen en die niet is uitgesloten van de
@@ -9373,7 +8991,7 @@ dien verstande dat het resultaat niet negatief kan zijn:
 𝒌∗𝑬
 100 – (120 - (
 ))
-𝟐
+
 Waarbij:
 E = de CO2-uitstoot, uitgedrukt in g/km;
 k = de coëfficiënt:
@@ -9388,7 +9006,6 @@ o
 o
 
 0,95 in andere gevallen.
-148
 
  Voor "valse hybriden", dat wil zeggen plug-in hybrides met een kleine accucapaciteit (minder dan 0,5 kWh per
 100 kg van het voertuiggewicht) of met een hoge uitstoot (meer dan 50 g CO2 per km), is de te hanteren CO2uitstoot, vanaf 1 januari 2018, die van het "overeenstemmende voertuig" (zoals gedefinieerd in artikel 19,
@@ -9461,8 +9078,6 @@ Het percentage niet-aftrekbaarheid is gelijk aan 100 % minus de verhouding (uitg
 de som van de fiscaal toegelaten afschrijvingen vóór de verkoop, beperkt tot 100 % per belastbaar tijdperk, en
 de som van de boekhoudkundige afschrijvingen over de overeenkomstige belastbare perioden (artikel 66, § 1,
 vijfde lid, WIB 92, verplaatst naar artikel 550, zevende lid, WIB 92, vanaf 1 januari 2026).
-
-149
 
  5.5.4.31. Terugnames van eerdere vrijstellingen of aftrekken
 De terugnames van eerdere vrijstellingen of aftrekken zoals bijvoorbeeld in geval van heropname van:
@@ -9558,7 +9173,6 @@ maatschappelijk vermogen
 
 Overeenkomstig artikel 18, eerste lid, 2°ter, WIB 92, omvatten dividenden ook de toekenningen die worden
 gedaan bij de inkoop van eigen aandelen (opmerking 1). Het tarief van de roerende voorheffing is vastgesteld
-150
 
  op 30 % van de bedragen die als dividend worden aangemerkt door artikel 186 WIB 92, namelijk de
 verwervingsboni.
@@ -9642,7 +9256,6 @@ aanmerking kunnen worden genomen krachtens artikel 185, § 3, eerste of tweede l
 buitenlandse verliezen die niet kunnen worden gebruikt om de belastbare grondslag te verminderen. Deze
 bepaling wordt toegelicht in de “Circulaire 2023/C/103 inzake de fiscale behandeling van buitenlandse
 beroepsverliezen” van 21 december 2023.
-151
 
  https://eservices.minfin.fgov.be/myminfin-web/pages/public/fisconet/document/94283d38-4415-477097d3-0ecb9a6f0c32
 Op deze manier wordt het totale bedrag van de "belastbare gereserveerde winsten" (code 1080 PN van de
@@ -9702,7 +9315,6 @@ afgetrokken:
 1.
 
 De door een overeenkomst vrijgestelde winsten.
-152
 
  2.
 
@@ -9756,7 +9368,6 @@ gedurende een ononderbroken periode van ten minste één jaar werden aangehouden
 5.12. DE VIJFDE BEWERKING: AFTREK VOOR INNOVATIEINKOMSTEN
 Overeenkomstig artikel 207, tweede lid, derde streepje, WIB 92, worden vervolgens de innovatie-inkomsten
 afgetrokken (artikelen 205/1 tot 205/4, WIB 92), tot maximaal het resterende saldo van het belastbare
-153
 
  tijdperk na toepassing van de vierde bewerking. Elk niet-aftrekbaar saldo vanwege een gebrek aan of
 onvoldoende winsten kan worden overgedragen naar volgende belastbare tijdperken.
@@ -9820,10 +9431,6 @@ Licentievergoedingen;
 Vergoedingen die verschuldigd zouden zijn indien de goederen of diensten door een derde zouden
 
 worden geproduceerd of geleverd op basis van een verleende licentie;
-
-154
-
- •
 
 Vergoedingen die verschuldigd zouden zijn indien het productieproces, onlosmakelijk verbonden met
 
@@ -9891,8 +9498,6 @@ Deze eerdere kosten kunnen in één keer worden afgetrokken of lineair worden ge
 opeenvolgende belastbare tijdperken. In bepaalde gevallen kan een inhaalregeling voor deze periode van
 zeven jaar worden toegepast.
 
-155
-
  5.13. DE ZESDE BEWERKING: INVESTERINGSAFTREK (IA)
 Overeenkomstig artikel 207, tweede lid, vierde streepje, WIB 92, wordt vervolgens de investeringsaftrek (IA)
 afgetrokken tot maximaal het resterende saldo van het belastbare tijdperk na toepassing van de vijfde
@@ -9945,8 +9550,6 @@ zogenaamde "korf" (vastgelegd in artikel 207, vijfde lid, WIB 92, geïntroduceer
 volgende aftrek tot 70 % van het bedrag dat het miljoen euro overschrijdt. Bijgevolg vormen 30 % van het saldo
 boven 1 miljoen euro een minimale belastbare grondslag. Merk op dat dit percentage, dat in 2023 tijdelijk
 werd verhoogd tot 60 %, vanaf 1 januari 2024 opnieuw van toepassing is.
-
-156
 
  5.16. DE LAATSTE BEWERKINGEN
 Na toepassing van de korfregel worden de aftrekken van de tweede groep, bedoeld in artikel 207, derde lid,
@@ -10005,7 +9608,6 @@ De overgedragen aftrek voor risicokapitaal bedoeld in artikel 536, eerste en twe
 afgetrokken tot het resterende saldo na toepassing van de 11de bewerking, eventueel beperkt tot 60 % van
 het bedrag dat 1 miljoen euro overschrijdt. Het resterende saldo van 40 % vormt de opnieuw overgedragen
 aftrek voor risicokapitaal bedoeld in de 11de bewerking voor het volgende belastbare tijdperk.
-157
 
  Merk op dat de korfregel voor kleine vennootschappen niet van toepassing is op overgedragen verliezen
 gedurende de eerste vier belastbare tijdperken (artikel 207, zesde lid, WIB 92).
@@ -10054,7 +9656,6 @@ onderneming, een bepaalde minimale bezoldiging toe te kennen. Deze minimale bezo
 
 gelijk zijn aan 45.000 euro, maar indien ze lager is dan 45.000 euro, moet ze minstens gelijk zijn aan de
 belastbare grondslag van het belastbaar tijdperk.
-158
 
  De voorwaarde betreffende de minimale bezoldiging is evenwel niet van toepassing gedurende de eerste vier
 belastbare tijdperken vanaf de oprichting van de kleine vennootschap, behalve in het geval een nieuw
@@ -10100,7 +9701,6 @@ De huidige berekeningsbasis van de investeringsaftrek, nl. de aanschaffings- of 
 vermenigvuldigd met het tarief van de investeringsaftrek, waarbij een onderscheid gemaakt wordt tussen de
 verhoogde investeringsaftrek en de gespreide investeringsaftrek. Het belastingkrediet kan immers in één keer
 of op een gespreide manier worden toegepast.
-159
 
  De aldus bekomen berekeningsbasis wordt vermenigvuldigd met 25 % (nominaal tarief in de
 vennootschapsbelasting).
@@ -10156,8 +9756,6 @@ meer dan 821.450 euro
 
 25 % van de overdracht
 
-160
-
  8. VERREKENING VAN DE VOORHEFFINGEN
 8.1. TERUGBETAALBARE VOORHEFFINGEN
 Zijn verrekenbaar met de Ven.B en terugbetaalbaar:
@@ -10204,8 +9802,6 @@ BIJLAGE 1 DE WINSTPREMIE VOOR DE WERKNEMERS
 Winstpremie voor de werknemers
 In de programmawet van 25 december 2017 werd het belastingstelsel met betrekking tot de
 werknemersparticipatie in het kapitaal en in de winst van hun vennootschap of de groep waarvan hun
-
-161
 
  vennootschap deel uitmaakt (wet van 22 mei 2001) vervangen door de regeling van de winstpremie voor de
 werknemers.
@@ -10255,7 +9851,6 @@ De vennootschap moet, gedurende dezelfde periode, de ontvangen bedragen aanwende
 De bedragen die door de vennootschap worden toegekend in het kader van het participatieplan zijn in beginsel
 niet onderworpen aan de gewone socialezekerheidsbijdragen, ongeacht die werknemers- of
 werkgeversbijdragen zijn.
-162
 
  HET BELASTINGSTELSEL
 De bedragen die door de vennootschap in het kader van het participatieplan worden toegekend, zijn als
@@ -10295,8 +9890,6 @@ de voormelde solidariteitsbijdrage.
 Er wordt een anti-misbruikbepaling voorzien om een verschuiving van een deel van de bezoldiging naar de
 winstpremie te vermijden. De winstpremie mag immers niet worden ingevoerd om bezoldigingen, premies of
 voordelen, ongeacht zij al dan niet onderworpen zijn aan de sociale bijdragen, te vervangen of om te zetten.
-
-163
 
  BIJLAGE 2: BIJZONDERE
 VENNOOTSCHAPSBELASTINGSTELSELS
@@ -10352,7 +9945,6 @@ de nationale wetten van de overeenkomst sluitende staten;
 •
 
 de beschreven verrichting of situatie geen economische substantie heeft in België.
-164
 
  (e)
 
@@ -10397,8 +9989,6 @@ recht die van toepassing zijn op de door de voorafgaande beslissing beoogde situ
 (e) indien blijkt dat de voorafgaande beslissing niet in overeenstemming is met de bepalingen van de
 verdragen, van het gemeenschapsrecht of van het interne recht.
 
-165
-
  Bovendien houdt een voorafgaande beslissing op uitwerking te hebben, wanneer de belangrijkste gevolgen
 van de situatie of de verrichting waarop zij betrekking heeft, gewijzigd zijn door een of meer ermee verband
 houdende of erop volgende elementen die rechtstreeks of onrechtstreeks toe te schrijven zijn aan de
@@ -10440,7 +10030,6 @@ opbrengsten die de GBF verkrijgt, geacht worden rechtstreeks door de belegger te
 een GBF een dividend uitkeert, zal de belegger dus niet meer op dit dividend belast worden, aangezien hij
 al belast zal zijn (via bronbelasting, dan wel via de aangifte personenbelasting) op de dividenden, intresten,
 bepaalde meerwaarden die de GBF ontvangen had (noot 4).
-166
 
  Noot 4: Wanneer ‘ventilatie’ van de inkomsten van de GBF niet mogelijk is en dus ook de belastbare grondslag
 in hoofde van de belegger niet kan worden vastgesteld, zullen in bepaalde gevallen de dividenden die de
@@ -10483,7 +10072,6 @@ DE ORGANISMEN VOOR DE FINANCIERING VAN PENSIOENEN
 In het kader van de Europese Richtlijn betreffende de werkzaamheden van en het toezicht op instellingen voor
 bedrijfspensioenvoorziening (noot 10), moeten pensioenfondsen, pensioenkassen en fondsen voor
 bestaanszekerheid omgevormd worden in organismen voor de financiering van pensioenen (OFP’s).
-167
 
  Noot 10: Richtlijn 2003/41/EG van 03.06.2003.
 De OFP’s worden onderworpen aan de Ven.B maar genieten een bijzonder fiscaal statuut. Hun fiscaal regime
@@ -10526,7 +10114,6 @@ verminderd tarief in bepaalde gevallen (zie infra). Deze voorheffing is een eind
 voorheffing is echter niet verschuldigd op het deel van het uitgekeerde inkomen dat afkomstig is van door de
 private privak gerealiseerde meerwaarden op aandelen of dividenden die onderworpen werden aan een
 roerende voorheffing die niet door de privak kon worden aangerekend. Ook wanneer de privak eigen aandelen
-168
 
  inkoopt, is de inkoopbonus niet onderworpen aan de roerende voorheffing. Hetzelfde geldt voor de
 liquidatiebonus.
@@ -10559,8 +10146,6 @@ Evenzo worden meerwaarden die worden verwezenlijkt op een deelneming in een priv
 
 voor zover de privak het geheel van haar activa heeft belegd in aandelen waarvan de inkomsten recht kunnen
 geven op de aftrek voor DBI of in aandelen van andere private privaks.
-
-169
 
 ## HOOFDSTUK III — BEPALINGEN DIE GEMEENSCHAPPELIJK ZIJN AAN DE PERSONENBELASTING EN DE VENNOOTSCHAPSBELASTING
 Bijgewerkt op 31.12.2024
@@ -10608,7 +10193,6 @@ De eerste afschrijvingsannuïteit kan geboekt worden vanaf het boekjaar waarin d
 Dit bedrag wordt verplicht pro rata temporis berekend op basis van het aantal dagen dat verlopen is sinds de
 
 verwervingsdatum, en dit voor alle vennootschappen, inclusief de kleine vennootschappen in de zin van
-170
 
  artikel 1:24, §§1 tot 6, van het Wetboek van vennootschappen en verenigingen, waarvoor deze verplichting
 eveneens van toepassing is voor de activa verkregen of tot stand gebracht vanaf 2020.
@@ -10655,7 +10239,6 @@ personen) en vrije beroepers).
 2.2. AFTREK VAN KOSTEN OM HET GEBRUIK VAN RIJWIELEN TE
 BEVORDEREN
 Dit is een aftrek ten belope van 120 % van bepaalde kosten gemaakt om het gebruik te bevorderen van een
-171
 
  rijwiel of een speed pedelec door de personeelsleden voor hun verplaatsing tussen hun woonplaats en hun
 plaats van tewerkstelling Het gaat om de kosten die door de werkgever worden gemaakt om een onroerend
@@ -10699,7 +10282,6 @@ kosten, verbonden aan factureringspakketten voor het opstellen, verzenden en ont
 
 facturen in een gestructureerde vorm (artikel 64ter, eerste lid, 1°, WIB 92). Deze vorm maakt de
 automatische, elektronische verwerking ervan mogelijk in het kader van de verplichtingen opgelegd door de
-172
 
  wet van 6 februari 2024 tot wijziging van het Wetboek van de belasting over de toegevoegde waarde en het
 Wetboek van de inkomstenbelastingen 1992.
@@ -10737,7 +10319,6 @@ investeringen en rookafzuig- of verluchtingssystemen in horeca-inrichtingen: 15,
 elektrische laadinfrastructuur voor koolstofemissievrije vrachtwagens:
 * verkregen of tot stand gebracht tussen 01.01.2022 en 31.12.2023: 37 %
 * verkregen of tot stand gebracht tussen 01.01.2024 en 31.12.2024: 31,5 %
-173
 
  - investeringen tot aanmoediging van het hergebruik van verpakkingen van dranken en nijverheidsproducten:
 3%
@@ -10780,8 +10361,6 @@ overgedragen op de winst of baten van de volgende belastbare tijdperken.
 De aftrek van de overgedragen vrijstelling op de winst of baten van elk van de volgende belastbare tijdperken
 mag in geen geval per belastbaar tijdperk meer bedragen dan 1.208.010 euro (geïndexeerd bedrag
 aanslagjaar 2025) of, wanneer het totale bedrag van de overgedragen vrijstelling op het einde van het vorig
-
-174
 
  belastbare tijdperk 4.832.030 euro (geïndexeerd bedrag aanslagjaar 2025) overtreft, 25 % van dat totale
 bedrag (artikel 72, WIB 92).
@@ -10827,8 +10406,6 @@ Specifiek voor digitale vaste activa wordt voorzien in een bijkomende verhoging 
 basisaftrek (software en apparatuur ter ondersteuning van digitale betalings- en facturatiesystemen, digitale
 boekhoudsystemen, digitale CRM-systemen, digitale e-commerce platformsystemen en digitale systemen
 voor de beveiliging van informatie- en communicatietechnologie).
-
-175
 
  3.5.2. Het gerichte spoor: de verhoogde thematische aftrek
 Het gerichte spoor is aan meer voorwaarden gebonden, maar zorgt voor een significant verhoogde aftrek.
@@ -10925,7 +10502,6 @@ de vennootschapsbelasting (zie hoofdstuk II, punt 5.4.1.4).
 Het belastingstelsel dat vóór de door de bovenvermelde wet van 2005 ingevoerde wijzigingen toegepast
 werd, blijft niettemin van toepassing op de oude subsidies en enige gewestelijke steunmaatregel die buiten
 het toepassingsgebied van de vrijstelling valt.
-177
 
  De steunmaatregelen voor de landbouw beogen de premies en de interest- en kapitaalsubsidies die worden
 betaald
@@ -10992,7 +10568,6 @@ belastbare tijdperk waarin de herbeleggingstermijn verstreek. De taxatie geschie
 De vrijstelling van het monetaire gedeelte blijft behouden (De vrijstelling van het monetaire gedeelte is enkel
 van toepassing op meerwaarden verwezenlijkt op vaste activa die ten laatste in 1949 zijn verkregen of tot
 stand gebracht.).
-178
 
  7.2.2. Vrijwillig verwezenlijkte meerwaarden op financiële vaste activa
 Meerwaarden gerealiseerd op vastrentende effecten worden tegen het volle tarief belast.
@@ -11036,7 +10611,6 @@ vermogen van de inbrengende, overgenomen, gesplitste of omgezette vennootschap.
 7.2.3. Gedwongen meerwaarden
 Gedwongen meerwaarden zijn meerwaarden die voortkomen uit vergoedingen ontvangen naar aanleiding
 van een schadegeval, een onteigening, een opeising in eigendom of enige andere gelijkaardige gebeurtenis
-179
 
  die de betrokken natuurlijke persoon of rechtspersoon niet kon voorzien of beletten. Indien die gebeurtenis
 de definitieve stopzetting van de beroepsbezigheid tot gevolg heeft, wordt het stelsel van
@@ -11092,7 +10666,6 @@ indien het gaat om materiële of financiële activa, of om andere aandelen: 16,5
 •
 
 indien het gaat om immateriële activa: 33 % van het deel van de meerwaarde dat het totaal van de
-180
 
  belastbare winsten en verliezen die verkregen zijn in de vier jaren voorafgaand aan de stopzetting, niet te
 boven gaat; het saldo is tegen het volle tarief belastbaar. De aanslagvoet van 16,5 % is van toepassing
@@ -11142,8 +10715,6 @@ nr. 164, die hij toekent voor de verplaatsingen afgelegd in de periode van 1 mei
 voor de fietskilometervergoeding toegekend in toepassing van de cao nr. 164.
 Circulaire 2024/C/46
 https://eservices.minfin.fgov.be/myminfin-web/pages/public/fisconet/document/5c1244fb-ae72-4a75a21f-cded52b8f8c2
-
-181
 
  8.1.2. Belastingkrediet voor de facultatieve verhoging van de
 fietskilometervergoeding
@@ -11207,9 +10778,6 @@ De volgende voorwaarden moeten zijn vervuld:
 de voorziening voor opvang moet worden erkend, gesubsidieerd of toegestaan door Kind en Gezin,
 
 l’Office de la naissance et de l’enfance (ONE) of de regering van de Duitstalige Gemeenschap;
-182
-
- •
 
 de sommen moeten werkingskosten of uitgaven voor uitrusting financieren. Ze mogen de financiële
 
@@ -11258,8 +10826,6 @@ moeilijkheden
 (artikel 2, § 1, 4°/2, WIB 92) zijn op het ogenblik dat de schade werd geleden.
 Teneinde de door Europa voorziene steunplafonds niet te overschrijden, is voorzien in een belastingverhoging
 wanneer de gecumuleerde steun van het gewestelijke en het federale niveau het plafond overstijgt.
-
-183
 
 ## HOOFDSTUK IV — DE RECHTSPERSONENBELASTING (RPB)
 Bijgewerkt op 31.12.2024
@@ -11325,7 +10891,6 @@ enkel:
 •
 
 op het geïndexeerd kadastraal inkomen van hun in België gelegen onroerende goederen, tenzij dit
-184
 
  kadastraal inkomen van onroerende voorheffing is vrijgesteld;
 •
@@ -11409,12 +10974,8 @@ Wanneer aan de RPB onderworpen belastingplichtigen roerende inkomsten of diverse
 roerende aard ontvangen, zonder inhouding van RV, is de RV verschuldigd door de verkrijger van de inkomsten
 zelf.
 
-185
-
  NB: Er bestaat ook een taks tot vergoeding van de successierechten, ook patrimoniumtaks genoemd. Deze
 wordt meer in detail besproken in hoofdstuk 11 onder punt 11.2.
-
-186
 
 ## HOOFDSTUK V — DE ONROERENDE VOORHEFFING (OV)
 Bijgewerkt op 31.12.2024
@@ -11469,7 +11030,6 @@ De bepalingen betreffende de onroerende voorheffing in het Waalse Gewest en in h
 Gewest zijn te vinden in het Wetboek van de Inkomstenbelastingen.
 De onroerende voorheffing is gebaseerd op het geïndexeerde kadastraal inkomen. De indexatiecoëfficiënt
 voor het aanslagjaar 2024 bedraagt 2,1763 tegenover 2,0915 in 2023, een stijging met 4 %.
-187
 
  De aanslagvoet van de onroerende voorheffing omvat het basistarief en de provinciale en gemeentelijke
 opcentiemen. Indien het basistarief 1,25 % bedraagt, zullen 3.000 opcentiemen aldus resulteren in een
@@ -11518,7 +11078,6 @@ van het jaar 1996 te delen door het gemiddelde van de indexcijfers van het jaar 
 
 zijn verworven, voorafgaat; het resultaat is 2,20 voor de inkomsten van het jaar 2024. De toepassing van deze
 coëfficiënt mag evenwel geen aanleiding geven tot een hoger tarief dan dat van het aanslagjaar voordien, met
-188
 
  uitzondering van het aanslagjaar waarin het decreet van 18 november 2016 in werking treedt, waarbij de
 toepassing van de coëfficiënt geen aanleiding mag geven tot een hoger tarief dan 3,97 %.
@@ -11566,8 +11125,6 @@ Voor een onroerend goed met bv. een geïndexeerd KI van 1.500 euro bedraagt de o
 
 Totale onroerende voorheffing aanslagjaar 2024: 643,66 euro
 
-189
-
  1.2.3. Handicap en invaliditeit
 Een vermindering van 20 % wordt verleend aan groot-oorlogsinvaliden.
 De vermindering voor gehandicapten betreft gehandicapte personen (met een graad van handicap van ten
@@ -11610,7 +11167,6 @@ sloop.
 Noot: Vanaf 1 januari 2018 is de ‘stedenbouwkundige vergunning’ vervangen door de ‘omgevingsvergunning
 voor stedenbouwkundige handelingen’.
 Vanaf 1 januari 2022 is het niet meer voldoende dat het onderstaande maximale E-peil wordt gehaald om
-190
 
  van de onderstaande belastingverminderingen te kunnen genieten, maar moet er bij de bouwaanvraag aan
 alle EPB-eisen worden voldaan.
@@ -11676,8 +11232,6 @@ E60 op 1 januari van het aanslagjaar.
 
 Bij overdracht van het onroerend goed wordt de vermindering voor het nog resterende deel van de periode van
 vijf jaar overdragen naar de nieuwe eigenaar.
-
-191
 
  1.3. VRIJSTELLINGEN (EN NULTARIEF) VAN TOEPASSING IN HET
 VLAAMSE GEWEST
@@ -11762,7 +11316,6 @@ gevallen:
 •
 
 wanneer onroerende goederen die voor een “kleinhandelsactiviteit” (ongeacht het winkelpand actief
-192
 
  of verwaarloosd is) worden gebruikt en in een winkelarm gebied gelegen zijn, tot woning worden
 verbouwd;
@@ -11809,7 +11362,6 @@ Tot en met aanslagjaar 2008 (inkomsten 2008) werd een onderscheid gemaakt tussen
 investeringen in materieel en outillage (dat wil zeggen geplaatst op een perceel waar op 1 januari 1998 nog
 geen materieel en outillage voorkwam) en de vervangingsinvesteringen (namelijk de investeringen in nieuw
 materieel en nieuwe outillage om bestaand materieel en outillage te vervangen).
-193
 
  Het KI van de volledig nieuwe investeringen was totaal vrijgesteld van onroerende voorheffing. De
 vervangingsinvesteringen die vóór 1 januari 2008 aanleiding hebben gegeven tot een verhoogd KI in
@@ -11860,8 +11412,6 @@ passiefhuis is. Voor het tweede, derde en vierde aanslagjaar (inkomstenjaar) bed
 tijdelijke bepaling wordt sinds het aanslagjaar 2018 (inkomsten 2018) niet meer toegepast, hoewel ze nog
 vermeld wordt in de wetgeving.
 
-194
-
  2.2. VERMINDERINGEN EN KWIJTSCHELDINGEN (OP GEBOUWDE
 ONROERENDE GOEDEREN)
 Verminderingen en kwijtscheldingen worden enkel op aanvraag toegekend:
@@ -11903,7 +11453,6 @@ De vermindering bedraagt 125 euro per kind ten laste van het gezin en 250 euro v
 persoon ten laste van het gezin, met inbegrip van de gehandicapte echtgenoot, wettelijk samenwonende of
 
 feitelijk samenwonende. Het bedrag van de vermindering wordt gehalveerd voor elk kind onderworpen aan
-195
 
  het gezamenlijke ouderlijke gezag en de huisvesting gelijkmatig verdeeld over twee belastingplichtigen. (mits
 onderling akkoord, of bij gebreke hieraan een rechterlijke beslissing in die zin) Ten slotte wordt er ook een
@@ -11951,7 +11500,6 @@ gepensioneerden;
 •
 
 onroerende goederen die door een vreemde Staat bestemd worden voor de huisvesting van zijn
-196
 
  diplomatieke of consulaire zendingen;
 •
@@ -12015,7 +11563,6 @@ Onder materieel en outillage wordt verstaan alle toestellen, machines en andere 
 
 nijverheids-, handels- of ambachtsbedrijf, met uitsluiting van de lokalen, afdaken en hun onmisbaar
 toebehoren.
-197
 
  Wanneer gebouwde of ongebouwde onroerende goederen materieel of outillage bevatten, wordt daarvoor
 een afzonderlijk kadastraal inkomen vastgesteld door de administratie Opmetingen en Waarderingen
@@ -12074,8 +11621,6 @@ gemeenten, eigendommen van het Woningfonds van de Gezinnen van het Brusselse Hoo
 (b) Materieel en outillage: toestellen, machines en andere installaties die niet kunnen worden verplaatst en worden
 gebruikt door nijverheids-, handels- en ambachtsbedrijven.
 
-198
-
  3.2. VERMINDERINGEN EN PREMIES (OP GEBOUWDE
 ONROERENDE GOEDEREN)
 3.2.1. Vermindering voor bescheiden woning
@@ -12119,8 +11664,6 @@ Vermindering van 20 % voor 2 kinderen ten laste -153,34 euro
 3.2.3. Handicap en invaliditeit
 Er wordt een vermindering van 20 % verleend aan groot-oorlogsinvaliden en gehandicapte personen, voor de
 woning waar de persoon gedomicilieerd is. (art. 257, §3 WIB 92 – BHG)
-
-199
 
  3.2.4. Geklasseerd of op de bewaarlijst ingeschreven onroerend goed
 Er wordt een vermindering van onroerende voorheffing verleend voor een onroerend goed dat volledig onder
@@ -12172,9 +11715,6 @@ direct hiermee verband houdende activiteiten (art. 253, §4, al.1 WIB 92 –BHG)
 zalen, terreinen en pistes die uitsluitend worden gebruikt voor het collectief beoefenen van sport in
 het kader van activiteiten van amateursportclubs en enkel indien er één of meerdere sporten worden
 onderwezen (art. 253, §4, al. 2 WIB 92 – BHG);
-200
-
- •
 
 hospitaal, kliniek, dispensarium, rusthuis, vakantiehuis voor kinderen of gepensioneerden of
 weeshuis. (art. 253, §5 WIB 92 – BHG);
@@ -12214,8 +11754,6 @@ Wanneer gebouwde of ongebouwde onroerende goederen materieel of outillage bevatt
 een afzonderlijk kadastraal inkomen vastgesteld door de administratie van het kadaster (Algemene
 Administratie van de Patrimoniumdocumentatie van de FOD Financiën).
 
-201
-
 ## HOOFDSTUK VI — DE ROERENDE VOORHEFFING (RV)
 Bijgewerkt op 31.12.2024
 
@@ -12254,7 +11792,6 @@ Het tarief van de RV bedraagt eenvormig 30 %, met uitzondering van drie categori
 auteursrechten) .
 De vergoedingen voor ontbrekende coupon zijn belastbaar aan het tarief van de roerende voorheffing dat
 wordt toegepast op de inkomsten waarop deze vergoedingen betrekking hebben.
-202
 
  Verminderde tarieven worden eveneens toegepast op bepaalde dividenden. Het gaat met name om
 dividenden onttrokken aan de liquidatiereserve, dividenden uitgekeerd door GVV overwegend actief in
@@ -12290,8 +11827,6 @@ moedervennootschap, gedurende een ononderbroken periode van minstens één jaar,
 Noot: De toepassing van het stelsel is, in het laatste geval, onderworpen aan een bijkomende voorwaarde: Er
 mag geen beperking gelden wat betreft de uitwisseling van inlichtingen die nodig zijn om uitvoering te geven
 aan de bepalingen van de nationale wetten van de overeenkomstsluitende Staten.
-
-203
 
  2.3. DIVIDENDEN VAN BUITENLANDSE VENNOOTSCHAPPEN
 ONDERWORPEN AAN EEN NORMAAL FISCAAL STELSEL
@@ -12343,7 +11878,6 @@ wordt echter geen RV ingehouden wanneer het een beursgenoteerde vennootschap bet
 
 2.6. LIQUIDATIEBONI
 Er wordt een RV van 30 % ingehouden op de bedragen toegekend ten gevolge van de gehele of gedeeltelijke
-204
 
  verdeling van het maatschappelijk vermogen van een binnenlandse of buitenlandse vennootschap. Het aan
 de RV onderworpen bedrag is het bedrag dat als uitgekeerd dividend wordt gedefinieerd naar aanleiding van
@@ -12394,7 +11928,6 @@ in een lidstaat van de EER, voor zover hun betaling of uitkering het gevolg is v
 
 2.8. BIJZONDERE LIQUIDATIERESERVE – KMO’S
 Het gaat om de uitbreiding van het principe van de aanleg van een liquidatiereserve betreffende de
-205
 
  boekhoudkundige winst na belasting met betrekking tot de aanslagjaren 2013 en 2014, nog steeds ten
 gunste van de kmo’s zoals gedefinieerd in het Wetboek van vennootschappen en verenigingen. Door deze
@@ -12454,7 +11987,6 @@ de aandeelhouders moeten de nieuwe aandelen in volle eigendom en onderbroken van
 kapitaalinbreng behouden.
 
 Noot: Het criterium “kleine vennootschap” op grond van het Wetboek van vennootschappen en verenigingen
-206
 
  moet beoordeeld worden voor het aanslagjaar verbonden aan het belastbaar tijdperk waarin de
 kapitaalinbreng heeft plaatsgevonden.
@@ -12493,7 +12025,6 @@ van het Wetboek van de inkomstenbelastingen 1992 van 27 augustus 1993) en waarva
 hieronder volgt.
 - Opvragingsvoorwaarden van het spaardeposito
 Deze dienen te voorzien in de mogelijkheid voor de bank-depositaris de opvragingen afhankelijk te stellen van
-207
 
  een opzeggingstermijn van vijf kalenderdagen, wanneer zij 1.250 euro overtreffen en ze te beperken tot
 2.500 euro per halve maand.
@@ -12535,7 +12066,6 @@ Bovendien kan in het algemeen niet worden verzaakt aan de inning van de RV (Beha
 en de verkrijger van de inkomsten verbonden vennootschappen zijn, zoals hieronder bedoeld.). Die roerende
 
 voorheffing is verschuldigd ter gelegenheid van de terugbetaling of de terugkoop van het effect door de
-208
 
  uitgever op het verschil tussen de transactieprijs en de uitgifteprijs.
 
@@ -12574,8 +12104,6 @@ Ruimte die er onderworpen zijn aan een wetgeving gelijkaardig aan de bepalingen 
 vennootschappen en verenigingen die van toepassing zijn op de overeenkomstig artikel 8:5 van dat Wetboek
 erkende sociale ondernemingen onder bepaalde voorwaarden (zie artikel 21, eerste lid, 10°, WIB 92)
 
-209
-
  4. ANDERE ROERENDE INKOMSTEN
 4.1. AUTEURSRECHTEN EN NABURIGE RECHTEN
 Artikel 37 van het WIB 92 stelt dat de inkomsten uit auteursrechten worden aangemerkt als
@@ -12608,8 +12136,6 @@ Artikel 171, eerste lid, 2°bis van het WIB 92 voorziet dat afzonderlijk belastb
 a) de inkomsten van auteursrechten die niet worden bedoeld in artikel 37 van het WIB 92.
 b) de eerste schijf die overeenkomt met het bedrag dat niet meer bedraagt dan 30 pct. of 73.070 euro
 (geïndexeerd bedrag aanslagjaar 2025), bedoeld in artikel 37 van het WIB 92.
-
-210
 
 ## HOOFDSTUK VII — DE BEDRIJFSVOORHEFFING (BV) EN DE VOORAFBETALINGEN (VA)
 Bijgewerkt op 31.12.2024
@@ -12644,8 +12170,6 @@ doorgestorte bedrijfsvoorheffing blijft ter beschikking van de werkgever. Dit me
 steun ten gunste van de werkgever. De vrijstelling heeft geen weerslag op de bedrijfsvoorheffing die wordt
 aangerekend op de door verkrijger van de inkomsten verschuldigde belasting.
 https://financien.belgium.be/nl/ondernemingen/personeel_en_loon/bedrijfsvoorheffing/vrijstellingen
-
-211
 
  3. VOORAFBETALINGEN (VA)
 Handelaars, bedrijfsleiders, beoefenaars van vrije beroepen en vennootschappen zijn ertoe gehouden hun
@@ -12692,8 +12216,6 @@ VA4
 
 In de personenbelasting bedraagt de berekeningsbasis voor de vermeerdering 106 % van de totale belasting.
 De uiteindelijke vermeerdering wordt tot 90 % van haar bedrag teruggebracht.
-
-212
 
 ## HOOFDSTUK VIII — IN WERKING ZIJNDE BELGISCHE VERDRAGEN TER VERMIJDING VAN DUBBELE BELASTING
 Bijgewerkt op 31.12.2024
@@ -12884,8 +12406,6 @@ Bosnië
 
 Herzegovina (ex. Joeg.)
 Brazilië
-
-213
 
  In werking zijnde Belgische verdragen ter vermijding van dubbele belasting
 Datum publicatie
@@ -13095,7 +12615,6 @@ Protocol (d)
 01-07-2013
 
 02-08-2013
-214
 
  In werking zijnde Belgische verdragen ter vermijding van dubbele belasting
 
@@ -13325,7 +12844,6 @@ Kirgizië (of Kirgistan) Verdrag
 (ex USSR)
 
 07-01-1992
-215
 
  In werking zijnde Belgische verdragen ter vermijding van dubbele belasting
 
@@ -13543,8 +13061,6 @@ Protocol
 19-08-2017
 
 18-09-2017
-
-216
 
  In werking zijnde Belgische verdragen ter vermijding van dubbele belasting
 
@@ -13791,8 +13307,6 @@ Oostenrijk
 
 Portugal
 
-217
-
  In werking zijnde Belgische verdragen ter vermijding van dubbele belasting
 
 Land
@@ -14030,7 +13544,6 @@ Verdrag
 13-11-1998
 
 14-04-1999
-218
 
  In werking zijnde Belgische verdragen ter vermijding van dubbele belasting
 Datum publicatie
@@ -14145,8 +13658,6 @@ Staatsblad
 Emiraten
 Verenigd Koninkrijk
 
-219
-
 ## HOOFDSTUK IX — DE BELASTING OVER DE TOEGEVOEGDE WAARDE (BTW)
 
 Bijgewerkt op 31.12.2024
@@ -14218,9 +13729,7 @@ Inwerkingtreding op 1 januari 2023):
 •
 
 recht op aftrek volgens het werkelijk gebruik;
-220
 
- •
 •
 
 regeling van de verlegging van heffing wat betreft werk in onroerende staat.
@@ -14305,7 +13814,6 @@ btw-belastingplichtigen;
 
 Wet van 21 maart 2024 tot wijziging van het Wetboek van de belasting over de toegevoegde waarde
 betreffende de bijzondere vrijstellingsregeling van belasting voor kleine ondernemingen (B.S. van
-221
 
  09 april 2024. Inwerkingtreding op 1 mei 2025):
 •
@@ -14359,7 +13867,6 @@ verschil (= de belasting op hun eigen toegevoegde waarde) over aan de Schatkist.
 Het begrip van de btw-belastingplicht wordt geregeld door de artikelen 4 tot 8bis, WBTW.
 Belastingplichtige is eenieder die in de uitoefening van een economische activiteit, geregeld en zelfstandig,
 met of zonder winstoogmerk, hoofdzakelijk of aanvullend, leveringen van goederen of diensten verricht die in
-222
 
  het WBTW zijn omschreven (zie punt 3), ongeacht op welke plaats de economische activiteit wordt
 uitgeoefend (art. 4, WBTW).
@@ -14415,8 +13922,6 @@ de invoer (art. 23 tot 25, WBTW) ;
 
 de intracommunautaire verwerving van goederen (art. 25bis tot 25sexies, WBTW).
 
-223
-
  3.1. DE LEVERING VAN GOEDEREN
 3.1.1. Bedoelde goederen en handelingen
 Onder goederen (art. 9, WBTW) wordt verstaan de lichamelijke goederen, met inbegrip van elektriciteit, gas,
@@ -14455,7 +13960,6 @@ verkocht tegen de oorspronkelijke commercialisatievoorwaarden.
 Wanneer het goed niet wordt verzonden of vervoerd, wordt als plaats van levering aangemerkt de plaats waar
 het goed zich bevindt op het tijdstip van de levering (art. 14, §1, WBTW).
 Wanneer het goed door de leverancier, de afnemer of een derde wordt verzonden of vervoerd, wordt als plaats
-224
 
  van levering aangemerkt de plaats waar het goed zich bevindt op het tijdstip van vertrek van de verzending
 of het vervoer naar de afnemer. In afwijking van wat voorafgaat, wanneer de plaats van vertrek van de
@@ -14501,7 +14005,6 @@ volgende voorwaarden is voldaan:
 aan de belasting zijn onderworpen, of voor enige andere niet-belastingplichtige;
 2° de geleverde goederen zijn geen nieuwe vervoermiddelen en niet gemonteerd of geïnstalleerd, door
 of voor rekening van de leverancier.
-225
 
  Artikel 1, §20, WBTW definieert “afstandsverkopen van uit een derdelandsgebied of een derde land ingevoerde
 goederen” als leveringen van goederen die worden verzonden of vervoerd door of voor rekening van de
@@ -14552,7 +14055,6 @@ gevestigd of zijn woonplaats of gewone verblijfplaats heeft.
 
 Worden eveneens geacht plaats te vinden in de lidstaat van aankomst van de verzending of het vervoer van de
 goederen naar de afnemer:
-226
 
  1° de afstandsverkopen van uit een derdelandsgebied of een derde land ingevoerde goederen in zendingen met
 een intrinsieke waarde van meer dan 150 euro, wanneer de goederen zich op het tijdstip van aankomst van de
@@ -14614,9 +14116,6 @@ de toekenning van het recht op toegang tot inrichtingen voor cultuur, sport of v
 •
 
 radio-, en televisieomroepdiensten en telecommunicatiediensten;
-227
-
- •
 
 de toekenning van het recht van toegang tot verkeerswegen en de erbij behorende kunstwerken;
 
@@ -14688,7 +14187,6 @@ afstanden;
 •
 
 de plaats waar het vervoer plaatsvindt, naar verhouding van de afgelegde afstanden
-228
 
  (goederenvervoer behalve intracommunautair goederenvervoer: voor dat vervoer geldt de plaats van
 vertrek);
@@ -14751,7 +14249,6 @@ Het belastbare feit (art. 22, WBTW) vindt in beginsel plaats op het tijdstip dat
 belasting wordt dan ook opeisbaar.
 Indien een factuur moet worden uitgereikt, is de belasting evenwel opeisbaar op het tijdstip van de uitreiking
 van de factuur, op voorwaarde dat deze factuur is uitgereikt vóór de vijftiende dag van de maand volgend op
-229
 
  het belastbare feit. In bepaalde gevallen (bv. al dan niet gedeeltelijke incassering van de prijs, doorlopende
 diensten of diensten aan publiekrechtelijke lichamen, de overdracht van vouchers) kan een andere regeling
@@ -14820,7 +14317,6 @@ scholen, ziekenhuizen, enz.);
 
 - door een niet-belastingplichtige rechtspersoon;
 en dit binnen de grenzen van een totaalbedrag per kalenderjaar van 11.200 euro (excl. btw). Deze regeling
-230
 
  geldt niet voor nieuwe vervoermiddelen, noch voor accijnsproducten (die hoe dan ook in deze
 omstandigheden aan de btw in België zijn onderworpen, zie verder). De bovengenoemde
@@ -14869,7 +14365,6 @@ van de factuur (art. 25sexies, §2, WBTW).
 4. DE VRIJSTELLINGEN
 Deze vrijstellingen kunnen in twee groepen worden onderverdeeld. Enerzijds zijn er de activiteiten die
 vrijgesteld zijn van de btw, maar die aan degenen die deze activiteiten verrichten niet het recht ontzeggen om
-231
 
  de btw op de aan hen geleverde goederen en diensten, in aftrek te brengen (zie punt 4.1.).
 Anderzijds zijn er de vrijgestelde activiteiten, waarvan de vrijstellingen hoofdzakelijk gesteund zijn op culturele
@@ -14947,10 +14442,6 @@ en van dergelijke toestellen evenals bepaalde aanverwante activiteiten;
 bepaalde leveringen, intracommunautaire verwervingen en invoer van goederen en diensten voor
 diplomatieke en consulaire zendingen en voor bepaalde internationale instellingen;
 
-232
-
- •
-
 de leveringen, intracommunautaire verwervingen en invoer van goud aan de centrale banken.
 
 4.2. ANDERE VRIJSTELLINGEN
@@ -14995,8 +14486,6 @@ artsenijbereidkunde, de kinesitherapie, de verpleegkunde en de paramedische bero
 
 (circulaire nr. 2021/C/114, punt 4.2.1.2.). Een voorwaarde van noodzakelijke kwalificaties wordt gebruikt
 als criterium. Dit is gekoppeld aan het lidmaatschap van een beroepsorganisatie.
-
-233
 
  4.2.1.3. De overige beoefenaars
 De beoefenaars van medische en paramedische beroepen “die niet genieten van een wettelijk of reglementair
@@ -15054,8 +14543,6 @@ het school- of universitair onderwijs, waaronder onderwijs aan kinderen en jonge
 beroepsopleiding of -herscholing, met inbegrip van het verrichten van nauw hiermee
 samenhangende diensten en leveringen van goederen zoals het verschaffen van logies, spijzen en
 dranken en van voor het vrijgestelde onderwijs gebruikt didactisch materiaal, door publiekrechtelijke
-
-234
 
  lichamen of door andere organisaties die daartoe als lichamen met soortgelijke doeleinden worden
 aangemerkt, voor zover voornoemde lichamen niet systematisch het maken van winst beogen en
@@ -15116,7 +14603,6 @@ De wet van 27 december 2021 houdende diverse bepalingen inzake belasting over de
 
 waarde (B.S. van 31 december 2021, ed. 2) heeft, met ingang van 01 juli 2022, deze bepaling vervangen.
 In die bepaling staat nu dat aan de belasting onderworpen is, het verschaffen, voor een periode van minder
-235
 
  dan drie maanden, van gemeubeld logies in hotels, motels en inrichtingen met een soortgelijke functie
 waar gewoonlijk aan betalende gasten onderdak wordt verleend voor een periode van minder dan drie
@@ -15172,8 +14658,6 @@ vastgestelde voorwaarden en beperkingen;
 de levering, intracommunautaire verwerving en invoer van beleggingsgoud onder de voorwaarden
 van art. 44bis, WBTW.
 
-236
-
  5. DE MAATSTAF VAN HEFFING
 De maatstaf van heffing van de btw wordt bepaald in de art. 26 tot 36, WBTW.
 In principe is de maatstaf van heffing van de btw het bedrag dat de tegenpartij van de leverancier van
@@ -15214,7 +14698,6 @@ In tabel A van de bijlage bij het voornoemd koninklijk besluit nr. 20 worden in 
 goederen en diensten opgesomd die onderworpen zijn aan het verlaagd btw-tarief van 6 pct. Dit tarief wordt
 niet toegepast als de in tabel A bedoelde diensten bijkomstig deel uitmaken van een complexe overeenkomst
 die hoofdzakelijk andere diensten tot voorwerp heeft.
-237
 
  Dit zijn met name:
 
@@ -15298,10 +14781,6 @@ verlaagd tarief op dezelfde leveringen toegepast op basis van tijdelijke maatreg
 
 geneesmiddelen en medische hulpmiddelen (rubriek XVII);
 
-238
-
- •
-
 kranten, tijdschriften en boeken met uitzondering van drukwerken die voor reclamedoeleinden
 worden uitgegeven of die hoofdzakelijk bedoeld zijn voor het maken van reclame (rubriek XIX). Vallen
 eveneens onder deze rubriek XIX: kranten, tijdschriften (indien niet onderworpen aan het tarief van
@@ -15375,7 +14854,6 @@ te kamperen (rubriek XXX);
 werk in onroerende staat met betrekking tot privéwoningen van minstens 10 jaar oud, onder
 bepaalde voorwaarden (rubriek XXXI);
 De belastingplichtige die werk in onroerende staat verricht met betrekking tot privéwoningen,
-239
 
  privéwoningen voor gehandicapten en instellingen voor gehandicapten (respectievelijk bedoeld in de
 rubrieken XXXI, XXXII en XXXIII van tabel A van de bijlage bij het koninklijk besluit nr. 20), diende, om
@@ -15444,7 +14922,6 @@ een gebouw en de daarmee gepaard gaande heropbouw van een woning bestemd voor be
 door de bouwheer-natuurlijke persoon tot voorwerp heeft en gelegen is op hetzelfde kadastraal
 perceel als dat gebouw.
 Na de uitvoering van de werken wordt het gebouw op het ogenblik van de eerste
-240
 
  ingebruikneming of eerste inbezitneming, als enige woning en hoofdzakelijk als eigen woning
 gebruikt door de bouwheer-natuurlijke persoon die er zonder uitstel zijn domicilie zal hebben en
@@ -15516,7 +14993,6 @@ vaste brandstoffen (bijvoorbeeld steenkool, bruinkool, cokes, enz.) (rubriek VII
 •
 
 huisvesting in het kader van het sociaal beleid; worden onder andere beoogd, de leveringen van
-241
 
  privéwoningen of woningcomplexen, wanneer deze goederen bestemd zijn voor huisvesting in het
 kader van het sociaal beleid, aan provincies, gemeenten, OCMW’s en sommige andere publiek- of
@@ -15560,8 +15036,6 @@ herziening zijn onderworpen en behoren tot het vermogen van de onderneming van d
 die ook voor andere doeleinden dan voor de economische activiteit van de onderneming gebruikt worden, is
 de aftrek beperkt tot beloop van het gebruik voor de doeleinden van de economische activiteit
 
-242
-
  (art. 45, §1quinquies, WBTW).
 
 7.4. PERSONENWAGENS EN DE LEVERINGEN EN DIENSTEN
@@ -15604,7 +15078,6 @@ Onder "het werkelijk gebruik van de goederen en diensten of een gedeelte daarvan
 bestemming van de goederen en diensten door de belastingplichtige hetzij uitsluitend voor de bedrijfssector
 waarvoor recht op aftrek bestaat, hetzij uitsluitend voor de bedrijfssector waarvoor geen recht op aftrek
 bestaat, dan wel voor die beide bedrijfssectoren samen.
-243
 
  De belastingplichtige past één of meer bijzondere verhoudingsgetallen toe voor de goederen en diensten die
 hij bestemt zowel voor de bedrijfssector waarvoor recht op aftrek bestaat, als voor de bedrijfssector waarvoor
@@ -15645,7 +15118,6 @@ De basis voor deze verplichtingen wordt gelegd in de art. 50 tot en met 55, WBTW
 
 8.1.2. Het identificatienummer
 De administratie belast met de btw kent aan de meeste belastingplichtigen een btw-identificatienummer toe
-244
 
  dat de letters BE bevat (behalve bijvoorbeeld aan die belastingplichtigen die enkel handelingen verrichten die
 hen geen recht op aftrek van btw verlenen). Aan deze belastingplichtigen aan wie zulk een
@@ -15693,7 +15165,6 @@ bedraagt dan dat van de verschuldigde belasting ter zake van de door de belastin
 aangifteperiode verrichte leveringen en diensten, het overschot overgebracht naar het volgende tijdvak.
 Concreet wil dit zeggen dat dit bedrag wordt ingeschreven op de rekening-courant bedoeld in artikel 5 van
 het koninklijk besluit nr. 24 van 29 december 1992 met betrekking tot de voldoening van de belasting over de
-245
 
  toegevoegde waarde, behalve wanneer de belastingplichtige op grond van artikel 76, WBTW de teruggaaf
 ervan aanvraagt. Momenteel geldt het verzoek om teruggaaf voor alle overgedragen overschotten die op de
@@ -15735,7 +15206,6 @@ inkomstenbelastingen 1992 (B.S. van 1 december 2023. Inwerkingtreding op 11 dece
 elke belastingplichtige die via het gebruik van een elektronische interface zoals een marktplaats, platform,
 portaal of soortgelijk middel, leveringen van goederen die in België plaatsvinden faciliteert, tegenover de Staat
 hoofdelijk gehouden is tot voldoening van de op die leveringen verschuldigde belasting met de leverancier die
-246
 
  er krachtens artikel 51, §1, 1°, schuldenaar van is, wanneer deze laatste niet te goeder trouw is of een fout
 of nalatigheid heeft begaan met betrekking tot bepaalde leveringen van goederen.
@@ -15780,7 +15250,6 @@ een eerdere aangifte met betrekking tot de twaalf maanden voorafgaand aan het aa
 betrekking heeft op de niet ingediende aangifte, of wanneer het bedrag 2.100 euro niet bereikt, stelt het
 voorstel van vervangende aangifte het bedrag van de verschuldigde belasting vast op 2.100 euro.
 De belastingplichtige kan, in antwoord op voormelde aangifte, binnen de maand na de kennisgeving van dit
-247
 
  voorstel van vervangende aangifte alsnog zijn periodieke aangifte indienen. In dat geval eindigt de procedure.
 Indien de belastingplichtige nalaat een dergelijke periodieke aangifte in te dienen, stelt de administratie hem
@@ -15825,7 +15294,6 @@ vastgesteld. De aftrek van voorbelasting wordt volgens de gewone regels uitgeoef
 ondernemingen kunnen evenwel opteren voor de normale btw-regeling (zie koninklijk besluit nr. 2, van
 19 december 2018, met betrekking tot de forfaitaire regeling inzake belasting over de toegevoegde waarde).
 Deze bijzondere regeling van forfaitaire grondslagen van aanslag zal niet meer van toepassing zijn vanaf
-248
 
  1 januari 2028.
 Daarnaast bestaat de vrijstellingsregeling van de btw.
@@ -15871,7 +15339,6 @@ verrichten, niet aftrekken;
 Anderzijds zijn een aantal belangrijke nieuwe elementen geïntroduceerd:
 - de regeling staat open voor belastingplichtigen die geen zetel van economische activiteit of vaste inrichting
 hebben in de lidstaat van verbruik, teneinde een gelijke behandeling tussen al dan niet in de lidstaat van
-249
 
  verbruik gevestigde belastingplichtigen te garanderen. Van de mogelijkheid om de regeling al dan niet toe te
 passen, kan per lidstaat gebruik worden gemaakt;
@@ -15935,7 +15402,6 @@ boomkweek;
 •
 
 bosbouw.
-250
 
  In het kader van deze regeling zijn de landbouwondernemingen, voor de handelingen die onder deze regeling
 vallen, niet onderworpen, behalve wanneer het hun intracommunautaire handelingen betreft, aan de
@@ -15988,7 +15454,6 @@ landbouwondernemer.
 
 Artikel 57, §1ter, tweede lid, WBTW somt die handelingen op die de landbouwondernemer in dit kader kan
 uitvoeren. Worden onder meer bedoeld, de levering van landbouwproducten die een andere verwerking dan
-251
 
  primaire verwerking hebben ondergaan, het verrichten van seizoensgebonden werk in onroerende staat, de
 verkoop van de via het bedrijf geproduceerde elektriciteit, de verhuur van bestanddelen van het
@@ -16050,7 +15515,6 @@ alle diensten verleend aan niet-belastingplichtigen. Bovendien is in artikel 58q
 bijzondere regeling ingevoerd die van toepassing is op afstandsverkopen van uit derdelandsgebieden of derde
 landen ingevoerde goederen.
 De btw-aangifte via het éénloketsysteem
-252
 
  Elke belastingplichtige die één van de bijzondere regelingen toepast, of elke tussenpersoon die een
 belastingplichtige vertegenwoordigt die de invoerregeling toepast, is verplicht om voor elk belastingtijdvak
@@ -16096,7 +15560,6 @@ verzending van een herinnering door de lidstaat van identificatie door te geven,
 
 een systematische niet-naleving van de regels die van toepassing zijn op de regeling en zal resulteren in
 uitsluiting van de regeling.
-253
 
  Artikel 58sexies WBTW beoogt de bijzondere regeling voor de aangifte en betaling van de btw bij invoer
 (“invoerregeling” buiten het OSS-systeem).
@@ -16142,7 +15605,6 @@ ondernemingen en het een bedrijfsmiddel betreft;
 belastingplichtige wederverkoper aan de belasting onderworpen is geweest overeenkomstig deze
 bijzondere regeling.
 De maatstaf van heffing wordt gevormd door de winstmarge van de belastingplichtige wederverkoper,
-254
 
  verminderd met het bedrag van de belasting die in de winstmarge is begrepen. Deze winstmarge is gelijk aan
 het verschil tussen de door de belastingplichtige wederverkoper voor het goed gevraagde verkoopprijs en de
@@ -16186,8 +15648,6 @@ bepaalde binnenvaartbedrijven, depothouders van wasserijen, ververijen en stomer
 kleine bedrijven.
 Ten slotte wordt voor een zeer beperkt aantal activiteiten bovendien vrijstelling van btw-registratie verleend,
 o.a. voor bepaalde losse dagbladcorrespondenten.
-
-255
 
  9.5. DE BIJZONDERE BTW-AANGIFTE
 Een bijzondere btw-aangifte moet worden ingediend door de belastingplichtigen die geen periodieke
@@ -16250,12 +15710,9 @@ betrekking tot de factureringsverplichting aan overheidsinstanties die geen bela
 De verplichting om gestructureerde elektronische facturen uit te reiken zal ook niet van toepassing zijn met
 betrekking tot de levering van goederen of diensten aan particulieren voor privégebruik (“B2C” of “businessto-consumer”), ook al zou hiervoor in principe een factureringsplicht gelden op grond van artikel 1 van het
 koninklijk besluit nr. 1.
-256
 
  In tegenstelling tot de vandaag, zal de belastingplichtige voor wie een factuur is bestemd vanaf 1 januari 2026
 niet meer de mogelijkheid hebben om die gestructureerde elektronische facturen te weigeren.
-
-257
 
 ## HOOFDSTUK X — DE REGISTRATIE-, HYPOTHEEK- EN
 
@@ -16312,7 +15769,6 @@ door een eigenaar die van plan is er een ingrijpende energetische renovatie aan 
 van 5 % naar 1 % Naast de voorwaarden die gelden voor de aankoop van een enige eigen woning moet de koper
 zich verbinden tot het uitvoeren van “ingrijpende” energierenovatiewerkzaamheden binnen 6 jaar na het
 ondertekenen van de notariële akte.
-258
 
  Het gaat hierbij om ingrijpende werkzaamheden (isoleren van het dak, plaatsen van hoogrendementsbeglazing,
 isoleren van ten minste 75 % van de buitenschil van de woning, vervangen van het verwarmings-of koelsysteem
@@ -16373,7 +15829,6 @@ Toestand op 1 januari 2024
 In het Vlaamse Gewest
 Vanaf 1 januari 2024 dooft het stelsel van meeneembaarheid volledig uit. Het gunstregime kan vanaf 2024
 enkel nog worden genoten bij wijze van teruggave (naar aanleiding van de vervreemding van de eerste woning
-259
 
  die na 31 december 2023 kan plaatsvinden) op voorwaarde dat de authentieke aankoopakte van eerste
 woning voor 1 januari 2022 en de authentieke aankoopakte van de nieuwe woning uiterlijk op
@@ -16431,7 +15886,6 @@ verwerving van onroerende goederen aangepast in die zin dat het toegekende bedra
 
 bedrag van de belastbare grondslag. De voorwaarden tot het bekomen van het abattement (bv. dat het moet gaan
 om de ververving van een enige, eigen woning in volle eigendom die als hoofdverblijfplaats van de verkrijger zal
-260
 
  worden bestemd) worden niet gewijzigd. De analoge regeling bij aankoop van een bouwgrond of een woning in
 aanbouw of op plan wordt eveneens volgens ditzelfde principe gewijzigd.
@@ -16478,7 +15932,6 @@ worden onderworpen.
 
 1.2. DE OVERDRACHTEN TEN BEZWARENDE TITEL
 De overdrachten ten bezwarende titel van in België gelegen onroerende goederen worden gelokaliseerd op
-261
 
  de plaats waar het onroerend goed gelegen is (behalve een inbreng in vennootschap van een onroerend dat
 geen woning is) Als bij een ruil de onroerende goederen in meerdere gewesten gelegen zijn, wordt het recht
@@ -16538,9 +15991,6 @@ goederen;
 
 onderhandse akten en in het buitenland verleden notariële akten m.b.t. de inbreng van roerende of
 onroerende goederen in een Belgische vennootschap met rechtspersoonlijkheid.
-262
-
- •
 
 de in het buitenland verleden notariële akten die titel vormen voor een schenking onder levenden van
 roerende goederen door een rijksinwoner.
@@ -16586,7 +16036,6 @@ beschreven.
 
 2.1.1.1. Vlaams Gewest
 In het Vlaamse Gewest wordt op bovenvermelde handelingen een verkooprecht van 12 % geheven (zie
-263
 
  art. 2.9.4.1.1., VCF). Er bestaat een stelsel van meeneembaarheid dat in fini wordt uitgelegd en een reeks van
 verminderde tarieven, waarvan de lijst hieronder volgt:
@@ -16651,7 +16100,6 @@ belast met het verkooprecht (art. 2.9.1.0.4. en 2.9.1.0.5., VCF). Er wordt evenw
 gemaakt voor wat de verkrijging voortkomende uit een vennootschap onder firma, een
 commanditaire vennootschap, een besloten vennootschap of een coöperatieve vennootschap
 betreft. Als de betrokken onroerende goederen en de verkrijgende vennoot kwalificeren voor een van
-264
 
  de volgende twee situaties, wordt de verkrijging belast volgens haar gemeenrechtelijke aard:
 1° onroerende goederen die in de vennootschap zijn ingebracht, als ze verkregen zijn door de
@@ -16700,7 +16148,6 @@ twee jaar na de aankoop van de woning (of vijf jaar in geval van aankoop van een
 nieuwe hoofdverblijfplaats bestemt (zie o.a. art. 3.6.0.0.6., VCF). Beide vormen van meeneembaarheid leveren
 hetzelfde belastingvoordeel (maximum 13.000 euro) op.
 Het fiscaal gunstregime van de meeneembaarheid dooft sinds 1 januari 2022 geleidelijk uit. Tijdens een
-265
 
  overgangsperiode van 1 januari 2022 tot en met 31 december 2023 konden kopers nog van het mechanisme
 van de meeneembaarheid onder de vorm van verrekening gebruik maken voor zover de authentieke
@@ -16782,7 +16229,6 @@ aanbouw of een woning op plan (zie art. 46bis, §1, derde lid, W. Reg., Waalse g
 In dit laatstbeschreven geval wordt het bovenvermeld abattement in een aangepaste vorm toegepast, die er
 
 op neerkomt dat alle grensbedragen gedeeld worden door twee, maar dat de bedragen van het abattement
-266
 
  zelf onveranderd blijven.
 Onder “hoofdverblijfplaats” wordt hier verstaan, tenzij tegenbewijs, het adres waarop de verkrijgers zijn
@@ -16831,7 +16277,6 @@ toepassing zijn.
 
 2.1.2. Openbare verkoop van lichamelijke roerende goederen
 Bij de openbare verkoop van lichamelijke roerende goederen wordt een recht van 5% geheven
-267
 
  (art. 77, W. Reg.), berekend op de prijs en de lasten.
 
@@ -16875,7 +16320,6 @@ of uitwerking heeft door de echtscheiding of van een verdeling die volgt op de b
 samenwoning, binnen een termijn van drie jaar, op voorwaarde dat de personen op de dag van de beëindiging
 van de wettelijke samenwoning ten minste een jaar ononderbroken met elkaar wettelijk samenwoonden
 (zie o.a. art. 2.10.4.0.1., VCF).
-268
 
  2.1.6. Inbreng van goederen in kapitaal van Belgische vennootschappen
 Het registratierecht op de inbreng van goederen in Belgische vennootschappen werd op 1 januari 2006 door
@@ -16919,7 +16363,6 @@ In het Vlaamse Gewest wordt een onderscheid gemaakt tussen schenkingen van onroe
 roerende goederen en ondernemingen.
 Voor schenkingen van onroerende goederen wordt op het bruto-aandeel van elk van de begiftigden een
 schenkbelasting geheven, zoals vermeld in de tabellen I en II hieronder.
-269
 
  TABEL I
 Schenkingen van onroerende goederen in rechte lijn en tussen partners
@@ -16937,25 +16380,17 @@ In rechte lijn en tussen partners
 
 150.000
 
-3
-
 150.000,01
 
 250.000
-
-9
 
 250.000,01
 
 450.000
 
-18
-
 450.000,01
 
 en meer
-
-27
 
 TABEL II
 Schenkingen van onroerende goederen tussen alle andere personen
@@ -16973,25 +16408,17 @@ Tussen alle andere personen
 
 150.000
 
-10
-
 150.000,01
 
 250.000
-
-20
 
 250.000,01
 
 450.000
 
-30
-
 450.000,01
 
 en meer
-
-40
 
 De berekening van de belasting gebeurt per begiftigde en per schijf.
 Evenwel worden voor schenkingen van onroerende goederen die in het Vlaamse Gewest gelegen zijn, de
@@ -17025,29 +16452,19 @@ In rechte lijn en tussen partners
 
 150.000
 
-3
-
 250.000,01
 
 450.000
-
-12
 
 150.000,01
 
 250.000
 
-6
-
-270
-
  450.000,01
 
 en meer
 
-18
-
-## TABEL IV
+TABEL IV
 
 Schenkingen van gebouwen onderworpen aan een energetische renovatie of van gebouwen met
 conformiteitsattest die verhuurd worden - schenkingen tussen alle andere personen
@@ -17066,21 +16483,13 @@ Tussen alle andere personen
 150.000
 250.000
 
-9
-
-17
-
 250.000,01
 
 450.000
 
-24
-
 450.000,01
 
 en meer
-
-31
 
 150.000,01
 
@@ -17125,7 +16534,6 @@ genoemde factor.
 Dit abattement wordt enkel toegepast indien er tussen de schenker en de begiftigde nog geen schenkingen
 zijn gebeurd waarbij van deze vermindering van de belastbare grondslag werd genoten.
 Indien het gaat om het tarief van artikel 2.8.4.1.1., §1, VCF (tarief voor schenkingen van onroerende goederen
-271
 
  in het algemeen) kan de begiftigde die een kinderlast heeft van minstens drie kinderen jonger dan 21 jaar,
 aanspraak maken op een vermindering.
@@ -17173,7 +16581,6 @@ vermoeden van inwoning bij de zorgouder;
 gewone adoptie;
 5. Schenkingen tussen ex-partners als er gemeenschappelijke afstammelingen zijn.
 Sommige schenkingen van de volle eigendom, de naakte eigendom of het vruchtgebruik van activa van
-272
 
  familiale ondernemingen of aandelen van familiale vennootschappen zijn van de schenkbelasting vrijgesteld,
 mits aan een hele reeks voorwaarden wordt voldaan. Deze vrijstelling is niet van toepassing op de
@@ -17220,27 +16627,11 @@ samenwonenden
 250.000
 450.000
 
-18
-
 450.000,01
 
 en meer
 
 250.000,01
-
-3
-
-10
-
-9
-
-20
-
-27
-
-40
-
-30
 
 De berekening van het recht gebeurt per begiftigde en per schijf.
 Er wordt verstaan onder:
@@ -17259,7 +16650,6 @@ bepalingen van Boek III, titel Vbis, van het Burgerlijk Wetboek, alsook de perso
 
 van de schenking zijn woonplaats of zijn gewone verblijfplaats bij de schenker had, in de zin van artikel
 4 van het Wetboek Internationaal privaat recht, en zich met hem in een samenwoningsrelatie bevond
-273
 
  overeenkomstig Hoofdstuk IV van hetzelfde Wetboek.
 Voor schenkingen van roerende goederen wordt op het bruto-aandeel van elk der begiftigden de volgende
@@ -17290,8 +16680,6 @@ Art. W. Reg.
 Schenking onroerende goederen
 
 Progressief tarief in schijven van
-
-131
 
 3 tot 40 %
 Schenking roerende goederen in
@@ -17354,8 +16742,6 @@ ha,
 
 resp.
 
-75
-
 en
 
 progressief
@@ -17381,8 +16767,6 @@ loopbaanpacht.
 Vermindering kinderen ten laste
 
 Rechtenvermindering ten gunste
-
-135
 
 van de rechthebbende van 2 %
 met een maximum van 62 EUR
@@ -17420,8 +16804,6 @@ sociale
 5,5 %
 
 140, 1°
-
-274
 
  huisvestingsmaatschappijen
 (soc. Wal. du logement), etc.
@@ -17511,25 +16893,17 @@ tussen samenwonenden
 
 150.000
 
-3
-
 250.000,01
 
 450.000
-
-18
 
 Boven
 
 450.000
 
-27
-
 150.000,01
 
 250.000
-
-9
 
 Onder “samenwonende” wordt verstaan, de persoon die zich in de toestand van wettelijke samenwoning
 bevindt in de zin van titel Vbis van Boek III van het Burgerlijk Wetboek.
@@ -17549,26 +16923,17 @@ Tussen alle andere personen
 
 150.000
 
-10
-275
-
  150.000,01
 
 250.000
-
-20
 
 250.000,01
 
 450.000
 
-30
-
 Boven
 
 450.000
-
-40
 
 Onder "partner" wordt verstaan:
 a)
@@ -17618,7 +16983,6 @@ goederen (art. 2.8.5.0.1., VCF).
 
 2.1.8. Andere verrichtingen
 Bepaalde andere verrichtingen die hier niet vermeld zijn, worden ook onderworpen aan een evenredig
-276
 
  registratierecht (bv. bepaalde vonnissen en arresten).
 Het bedrag van de evenredige rechten mag in geen geval minder bedragen dan het algemeen vast recht (zie
@@ -17672,8 +17036,6 @@ Het hypotheekrecht wordt gevestigd op de inschrijvingen van hypotheken en voorre
 goederen. Het bedraagt 0,3 % van het bedrag in hoofd- en bijkomende sommen waarvoor de inschrijving
 genomen of vernieuwd wordt (met een minimum van 5 euro). Bepaalde inschrijvingen (o.a. ten laste van de
 
-277
-
  Staat) zijn vrijgesteld van hypotheekrecht (art.259 tot 267, W. Reg).
 De betaling van het recht geschiedt voorafgaand aan de inschrijving van hypotheek.
 
@@ -17685,8 +17047,6 @@ van het betreffende document worden geheven. Men onderscheidt het rolrecht (insc
 op de rol), het opstelrecht (op akten van griffiers) en het expeditierecht (op uitgiften, afschriften of uittreksels
 die in de griffies worden afgegeven). Er bestaat een ganse reeks vrijstellingen (art. 268 tot 288bis, W. Reg.).
 Voor de betaling van de rechten zijn verschillende regelingen van toepassing, naar gelang van het geval.
-
-278
 
 ## HOOFDSTUK XI — DE SUCCESSIERECHTEN EN DE ERFBELASTING
 Bijgewerkt op 31.12.2024
@@ -17746,8 +17106,6 @@ o
 De gelijkstelling (onder bepaalde voorwaarden) van feitelijk samenwonenden met echtgenoten en
 wettelijk samenwonenden;
 
-279
-
  o
 
 Versoepeling van de toepassingsvoorwaarden voor de gelijkstelling van welbepaalde niet-verwante
@@ -17797,7 +17155,6 @@ goederen te verwerven of te behouden, zijn uitgesloten uit deze forfaitaire bedr
 worden forfaitair bepaald op 7.655,40 euro, voor overlijdens in 2024 (voor overlijdens in 2023 was dit
 7.356,60 euro) behalve indien de erflater een uitvaartverzekering heeft afgesloten. Het blijft echter mogelijk
 de werkelijke schulden en begrafeniskosten te bewijzen voor de bepaling van de aftrek.
-280
 
  De forfaits worden jaarlijks geïndexeerd; dit zijn de bedragen voor overlijdens in 2024
 Het recht van overgang bij overlijden (in het Vlaamse Gewest: recht van overgang) is een belasting die wordt
@@ -17845,7 +17202,6 @@ schenkbelasting werd toegepast, gelijkgesteld met een bevoordeling die aan de sc
 registratierecht op de schenkingen is onderworpen.
 De tarieven schommelen:
 1. naargelang van de graad van verwantschap tussen de erfgenaam en de erflater;
-281
 
  2. naargelang van het netto-aandeel dat door elk van de erfgenamen wordt ontvangen ( zie noot) en
 3. naargelang van het Gewest aan hetwelk de rechten toekomen. De berekening van de rechten gebeurt in
@@ -17877,19 +17233,13 @@ In rechte lijn en tussen partners
 
 50.000
 
-3
-
 50.000,01
 
 250.000
 
-9
-
 250.000,01
 
 en meer
-
-27
 
 Het netto-aandeel van de rechtverkrijgende partner in de woning die als gezinswoning diende op het ogenblik
 van het overlijden, wordt niet meegerekend in de bepaling van de belastbare nettoverkrijging. Deze vrijstelling
@@ -17909,7 +17259,6 @@ het samenwonen en het voeren van een gemeenschappelijke huishouding met de erfla
 de bedoelde periode van één jaar (resp. drie jaar) tot op de dag van het overlijden, ingevolge overmacht
 onmogelijk is geworden. Een inschrijving in het bevolkingsregister houdt een weerlegbaar vermoeden in
 van ononderbroken samenwoning en van het voeren van een gemeenschappelijke huishouding.
-282
 
  Onder “verkrijgingen in rechte lijn” wordt verstaan:
 1° Verkrijgingen tussen personen die de ene van de andere afstammen, overeenkomstig artikel 4.11, §1 van
@@ -17947,25 +17296,13 @@ Tussen anderen
 
 35.000
 
-25
-
-25
-
 35.000,01
 
 75.000
 
-30
-
-45
-
 75.000,01
 
 en meer
-
-55
-
-55
 
 Onder “belastbaar bedrag” wordt het volgende verstaan:
 •
@@ -17998,7 +17335,6 @@ netto-aandeel van elk van hen;
 indien andere personen erven, wordt tabel II toegepast op de som van de globale netto-aandelen van
 de rechtverkrijgenden van deze groep. De individueel per rechtverkrijgende van deze groep
 verschuldigde rechten worden vervolgens berekend door de globaal door de groep verschuldigde
-283
 
  rechten om te slaan over de betrokken erfgenamen in verhouding tot hun nettoverkrijgingen.
 2.
@@ -18068,8 +17404,6 @@ de erfbelasting een abattement ten gunste van gehandicapte personen. Dit abattem
 abattement wordt eerst toegerekend op het niet-vrijgestelde gedeelte van het netto-onroerend aandeel
 en vervolgens op het niet-vrijgestelde gedeelte van het netto-roerend aandeel (bij uitputting van het
 
-284
-
  netto-onroerend aandeel) en ten slotte (bij uitputting van het netto-roerend aandeel) op de belastbare
 grondslag waarop het verlaagde tarief voor familiale ondernemingen en vennootschappen (zie
 hieronder) van toepassing is. In het geval van verkrijgingen tussen andere personen (Tabel II) bedraagt de
@@ -18117,8 +17451,6 @@ van de vriendenerfenis mogen vragen. De belastingvermindering wordt pro rata ver
 testament meerdere legatarissen vermeld. De belastingvermindering is enkel toepasbaar op natuurlijke
 personen, behalve op de partner en de afstammelingen van de erflater.
 
-285
-
  1.2.2. Nalatenschappen opengevallen in het Waalse Gewest
 1.2.2.1. Algemeen tarief en afbakening van de tariefcategorieën
 De successierechten worden geheven op het netto-aandeel van ieder van de rechthebbenden.
@@ -18137,46 +17469,30 @@ tot (inbegrepen)
 
 12.500
 
-3
-
 12.500,01
 
 25.000
 
-4
-
 25.000,01
 
 50.000
-
-5
 
 50.000,01
 
 100.000
 150.000
 
-7
-
-10
-
 150.000,01
 
 200.000
-
-14
 
 200.000,01
 
 250.000
 
-18
-
 250.000,01
 
 500.000
-
-24
 
 100.000,01
 
@@ -18185,8 +17501,6 @@ Boven
 500.000
 
 en wettelijk samenwonenden
-
-30
 
 Er wordt verstaan onder:
 •
@@ -18217,7 +17531,6 @@ bij overlijden. De bestemming van de woning tot hoofdverblijfplaats van de overl
 blijkt, behoudens bewijs van het tegendeel, uit een uittreksel van het bevolkingsregister of van het
 vreemdelingenregister.
 TABEL II
-286
 
  Nalatenschappen in de zijlijn en tussen niet-verwanten
 Gedeelte van het netto-aandeel in euro
@@ -18241,49 +17554,21 @@ personen
 
 12.500
 
-20
-
-25
-
-30
-
 12.500,01
 
 25.000
-
-25
-
-30
-
-35
 
 25.000,01
 
 75.000
 
-35
-
-40
-
-60
-
 75.000,01
 
 175.000
 
-50
-
-55
-
-80
-
 Boven
 
 175.000
-
-65
-
-70
 
 80(*)
 
@@ -18325,7 +17610,6 @@ voor elk van de kinderen zonder dat zij 62 euro per kind mag overschrijden. Ten 
 echtgenoot of wettelijk samenwonende bedraagt de vermindering 4% per kind dat de leeftijd van 21 jaar
 niet had bereikt bij het openvallen van de nalatenschap, zonder dat deze vermindering 124 euro per kind
 mag overschrijden.
-287
 
  5. Zowel inzake het successierecht als het recht van overgang bij overlijden worden de activa of aandelen
 van bepaalde ondernemingen of vennootschappen die deel uitmaken van de opengevallen nalatenschap,
@@ -18359,40 +17643,26 @@ tot (inbegrepen)
 
 25.000
 
-1
-
 25.000,01
 
 50.000
 
-2
-
 50.000,01
 
 160.000
-
-5
 
 160.000,01
 
 175.000
 250.000
 
-5
-
-12
-
 250.000,01
 
 500.000
 
-24
-
 Boven
 
 500.000
-
-30
 
 175.000,01
 
@@ -18477,42 +17747,27 @@ In rechte lijn en tussen partners
 
 100.000
 
-3
-
 100.000,01
 
 175.000
-
-9
 
 175.000,01
 
 250.000
 
-18
-
 250.000,01
 
 500.000
 
-24
-
 Boven
 
 500.000
-
-8
-
-30
 
 Onder “partner” wordt verstaan, de persoon die op de dag van het openvallen van de nalatenschap
 (art. 48, lid 7, W. Succ., BHG) :
 -
 
 met de erflater gehuwd was ;
-289
-
- -
 
 zich in de toestand van wettelijke samenwoning met de erflater bevindt in de zin van titel Vbis van Boek
 III van het Burgerlijk Wetboek;
@@ -18565,14 +17820,11 @@ in de Europese Economische Ruimte, of wees van een voor België gestorven vader 
 wanneer het adoptief kind, gedurende één jaar zonder onderbreking van de adoptant, of van de adoptant
 en diens partner tezamen, de hulp en verzorging heeft gekregen die kinderen normalerwijze van hun
 ouders krijgen;
-290
-
- -
 
 wanneer de adoptie gedaan werd door een persoon van wie al de afstammelingen voor België gestorven
 zijn.
 
-## TABEL II
+TABEL II
 
 Nalatenschappen tussen broers en zussen (art. 48 W. Succ., BHG)
 Belastingschijven in euro
@@ -18589,31 +17841,21 @@ Tussen broers en zussen
 
 12.500
 
-20
-
 12.500,01
 
 25.000
-
-25
 
 50.000,01
 
 100.000
 
-40
-
 100.000,01
 
 175.000
 
-55
-
 175.000,01
 
 250.000
-
-60
 
 25.000,01
 
@@ -18621,11 +17863,7 @@ Tussen broers en zussen
 
 Boven
 
-30
-
 250.000
-
-65
 
 TABEL III
 Nalatenschappen tussen ooms of tantes en neven of nichten (art. 48 W. Succ., BHG)
@@ -18646,24 +17884,17 @@ tot (inbegrepen)
 
 100.000
 
-35
-
 100.000,01
 
 175.000
-
-60
 
 Boven
 
 175.000
 
-70
-
 nichten
-50
 
-## TABEL IV
+TABEL IV
 
 Nalatenschappen tussen alle andere personen
 Belastingschijven in euro
@@ -18680,8 +17911,6 @@ Tussen alle andere personen
 
 50.000
 
-40
-
 50.000,01
 75.000,01
 
@@ -18689,15 +17918,9 @@ Tussen alle andere personen
 
 175.000
 
-55
-
 Boven
 
 175.000
-
-80
-
-65
 
 Wat de nalatenschappen in rechte lijn, tussen partners en tussen broers en zussen betreft, worden de tarieven
 van Tabel I of Tabel II toegepast op het aandeel van de rechtverkrijgende in de belastbare waarde van de
@@ -18709,7 +17932,6 @@ de samengenomen aandelen van de rechtverkrijgenden in de belastbare waarde van d
 1.2.3.2.1. Vrijstellingen
 1. Er is geen enkel recht van successie of van overgang bij overlijden verschuldigd voor een nalatenschap
 waarvan het zuiver bedrag niet meer dan 1.250 euro bedraagt (art. 54, 2°, W. Succ., BHG).
-291
 
  2. Van de rechten van successie en van overgang bij overlijden worden vrijgesteld de legaten:
 1° aan het Brussels Hoofdstedelijk Gewest;
@@ -18755,8 +17977,6 @@ maatschappij met beperkte aansprakelijkheid, aan de intercommunales van het Brus
 Gewest, aan de stichtingen van openbaar nut, aan de verenigingen zonder winstoogmerk en andere
 rechtspersonen zonder winstoogmerk die de federale erkenning hebben gekregen bedoeld in
 artikel 145/33 van het Wetboek van de Inkomstenbelastingen 1992, de dag van het overlijden of het jaar
-
-292
 
  dat volgt op het overlijden;
 b) tot 25 % voor de legaten aan de verenigingen zonder winstoogmerk, aan de ziekenfondsen of de
@@ -18834,7 +18054,6 @@ nalatenschap. Wanneer de erflater meerdere personen heeft aangewezen, wordt het 
 
 verlaagde tarief van toepassing is verdeeld tussen deze personen afhankelijk van hun aandeel in de
 belastbare waarde van de goederen die ze verkrijgen in de nalatenschap van de erflater (of die in
-293
 
  toepassing van de artikelen 4 tot en met 12 in hun hoofde worden belast aan het successierecht of aan
 het recht van overgang bij overlijden.).
@@ -18870,8 +18089,6 @@ met opgave van de samenstelling en de waarde van de goederen op 1 januari van he
 (art. 151, W. Succ).
 De taks moet worden betaald ten laatste op de datum van het verstrijken van de aangiftetermijn, voorzien
 door art. 151 W. Succ. of tijdens de drie eerste maanden van elk aanslagjaar (art. 153, W. Succ).
-
-294
 
 ## HOOFDSTUK XII — DE DIVERSE RECHTEN EN TAKSEN
 Bijgewerkt op 31.12.2024
@@ -18929,8 +18146,6 @@ grondslag blijft het bestaande tarief ongewijzigd (vanaf 30 december 2023).
 Deze rechten en taksen worden bepaald en geregeld in het Wetboek diverse rechten en taksen (WDRT) en
 de uitvoeringsbesluiten ervan.
 
-295
-
  1. HET RECHT OP GESCHRIFTEN
 https://www.ejustice.just.fgov.be/eli/wet/1927/03/02/1927030201/justel
 Voor zover zij in België zijn opgemaakt, wordt op de volgende akten en geschriften een recht geheven tegen
@@ -18979,7 +18194,6 @@ Wanneer de aan het recht onderworpen bankgeschriften in meerdere dubbels of orig
 opgemaakt, is het recht op elk exemplaar verschuldigd.
 De belasting is verschuldigd door de bank of de beursvennootschap die akten en geschriften die onderworpen
 zijn aan de belasting opmaakt (art. 8, derde lid, WDRT).
-296
 
  1.4. TOEPASSINGSMODALITEITEN
 De bij artikelen 3 tot 7 en 8, 1, WDRT getarifeerde akten en geschriften zijn aan het recht onderworpen van
@@ -19019,7 +18233,6 @@ https://www.minfin.fgov.be/myminfin-web/pages/public/fisconet/document/09a26dc1-
 Zijn onderworpen aan de taks, wanneer ze in België uitgevoerd of aangegaan worden (art. 120, WDRT):
 1° elke vervreemding en verkrijging, ten bezwarende titel, van openbare fondsen;
 2° elke inkoop van eigen aandelen door een beleggingsvennootschap indien deze verrichting slaat op
-297
 
  kapitalisatieaandelen (dit geldt ook in het geval van omzetting in kapitalisatieaandelen vermits een omzetting
 moet ontleed worden in enerzijds een inkoop van aandelen door de beleggingsvennootschap, gevolgd door,
@@ -19090,7 +18303,6 @@ voor inkopen van eigen kapitalisatieaandelen door een beleggingsvennootschap: de
 voor inkopen van kapitalisatieaandelen door collectieve beleggingsinstellingen met Europese vergunning en
 
 collectieve beleggingsinstellingen gevestigd buiten het grondgebied waarop het Verdrag betreffende de
-298
 
  werking van de Europese Unie krachtens zijn artikel 355 van toepassing is: de inventariswaarde van de
 aandelen, zonder aftrek van de forfaitaire vergoeding, doch verminderd met de ingehouden roerende
@@ -19149,8 +18361,6 @@ aangegaan of uitgevoerd (art. 125, §1, WDRT).
 2.2. DE TAKS OP DE REPORTEN
 Deze taks werd bij de wet van 26 januari 2021 opgeheven. De taks was zonder voorwerp geworden als gevolg
 van het verdwijnen van de “reporten”.
-
-299
 
  3. DE JAARLIJKSE TAKS OP DE
 VERZEKERINGSVERRICHTINGEN
@@ -19222,9 +18432,6 @@ de overeenkomsten in het kader van het aanvullend pensioen voor zelfstandigen;
 •
 
 de omzetting van een uitkering uit een levensverzekering in een rente;
-300
-
- •
 
 cascoverzekeringen van zeeschepen en binnenschepen;
 
@@ -19311,8 +18518,6 @@ aangegaan door natuurlijke personen (z.g. schuldsaldoverzekeringen) en verzekeri
 beantwoorden aan de criteria en voorwaarden bepaald in de wet van 26 december 2013 houdende
 diverse bepalingen inzake de thematische volksleningen.
 
-301
-
  3.5. WIE BETAALD?
 Naar gelang van het geval wordt de taks betaald door (art. 177, WDRT):
 1° de verzekeringsonderneming, pensioeninstelling en dergelijke of
@@ -19350,9 +18555,6 @@ winstdeelnemingen (art. 183octies, WDRT).
 
 5. DE TAKS OP HET LANGETERMIJNSPAREN
 De taks op het langetermijnsparen treft (art. 184, WDRT):
-302
-
- •
 
 de individuele levensverzekeringen (gewone en spaarverzekeringen) waarvoor de verzekerde
 genoten heeft van een belastingvermindering (of vrijstelling, vermindering of aftrek inzake
@@ -19412,7 +18614,6 @@ en voor spaartegoeden van spaarrekeningen voor het pensioensparen;
 of afkoopwaarden.
 
 De taks is betaalbaar uiterlijk op de laatste werkdag van de maand die volgt op die waarin het belastbare feit
-3
 
 zich heeft voorgedaan (art. 187 , WDRT).
 Gedurende de jaren 2015 tot 2019 wordt de taks van 8 % versneld geïnd. Gedurende vijf jaar werd er telkens
@@ -19428,7 +18629,6 @@ https://www.minfin.fgov.be/myminfin-web/pages/public/fisconet/document/34e8582e-
 Deze taks wordt geheven op alle plakbrieven met een oppervlakte van meer dan 1 m² die voor het publiek
 zichtbaar zijn evenals op lichtaankondigingen e.d. (art. 188 e.v., WDRT).
 Er is voorzien in een ganse reeks van vrijstellingen, o.a. uithangborden, bepaalde plakbrieven ter uitvoering
-303
 
  van een wet of een rechterlijke beslissing, plakbrieven van de overheid en bepaalde openbare instellingen,
 bepaalde plakbrieven betreffende de eredienst, plakbrieven in kieszaken, enz. (art. 194 en 198, WDRT).
@@ -19466,7 +18666,6 @@ effectenrekeningen die werd vernietigd door het Grondwettelijk Hof op 17 oktober
 Het onderstaande is dus slechts van toepassing vanaf 26 februari 2021, behalve de antimisbruikbepaling die
 uitwerking heeft vanaf 30 oktober 2020, maar deze werd vernietigd door het Grondwettelijk Hof op
 27 oktober 2022 (GwH nr. 2022/138).
-304
 
  De jaarlijkse taks op de effectenrekeningen wordt geheven op:
 •
@@ -19530,8 +18729,6 @@ banken die soortgelijke functies uitoefenen (art 201/4, vierde lid, WDRT).
 In het geval dat er meer taks werd betaald dan verschuldigd was, kan teruggave van het teveel betaalde
 gevraagd worden (art. 201/9/4, eerste lid, WDRT).
 
-305
-
  9. DE JAARLIJKSE TAKS OP DE COLLECTIEVE
 BELEGGINGSINSTELLINGEN
 Zie: https://financien.belgium.be/nl/ondernemingen/overige-belastingen/voor-financiele-instellingen-enverzekeringsondernemingen-1
@@ -19569,7 +18766,6 @@ De taks is verschuldigd op 1 januari van elk jaar en moet uiterlijk op 31 maart 
 taks of het gedeelte van de taks betreft die betrekking heeft op de dividenden wordt in voorkomend geval de
 betalingstermijn verlengd tot de 8e werkdag na de datum van de algemene vergadering waarop over de
 toekenning van de dividenden is beslist (art. 20132, WDRT).
-306
 
  11. DE TAKS OP DE INSCHEPING VAN EEN
 LUCHTVAARTUIG
@@ -19624,9 +18820,6 @@ van toepassing indien de passagier het gebied van de luchthaven, dat een vertrek
 alleen mag betreden met een geldig vervoersbewijs, tussen het moment van aankomst en het
 moment van vertrek niet langer dan 24 uur heeft verlaten.
 Zijn van de taks vrijgesteld:
-307
-
- •
 
 Luchtvaartuigen ingeschreven in het Belgische militaire luchtvaartregister of een gelijkaardig
 buitenlands luchtvaartuig, of worden gebruikt voor Staatsdiensten, zoals politie en douane;
@@ -19661,8 +18854,6 @@ volgend op het kalenderkwartaal waarin de taks verschuldigd wordt een aangifte v
 taks uiterlijk op de laatste werkdag van de maand volgend op die waarin de taks verschuldigd wordt.
 In geval van betaling van een bedrag hoger dan het verschuldigde bedrag wordt het te veel betaalde
 teruggegeven.
-
-308
 
 ## HOOFDSTUK XIII — DOUANEPROCEDURES BIJ INVOER, UITVOER EN DOUANEVERVOER
 Bijgewerkt op 31.12.2024
@@ -19704,7 +18895,6 @@ dienen andere waardebepalingsmethodes in een bepaalde hiërarchische volgorde te
 De maatstaf van heffing voor de berekening van de invoerrechten is meestal de douanewaarde. In
 welbepaalde gevallen gebeurt de berekening op de hoeveelheid, het gewicht, … (specifieke rechten).
 Opmerking: De maatstaf van heffing van de nationale belastingen bij invoer (btw, accijnzen, …) wordt vastgesteld op
-309
 
  basis van de douanewaarde, verhoogd met de bijkomende kosten (vervoer, verzekering, …) tot op de plaats van
 bestemming.
@@ -19751,7 +18941,6 @@ uitvoer.
 2.1.3. Bijzondere regelingen
 Onder bijzondere regeling wordt verstaan:
 a) douanevervoer, inhoudende extern en intern douanevervoer;
-310
 
  b) opslag, inhoudende douane-entrepot en vrije zones;
 c) specifieke bestemming, inhoudende tijdelijke invoer en bijzondere bestemming;
@@ -19807,9 +18996,6 @@ Douanevervoer onder ETD-vereenvoudiging
 •
 
 het carnet ATA (tijdelijke invoer);
-311
-
- •
 
 de aangifte 136F (diplomatieke vrijstellingen);
 
@@ -19869,8 +19055,6 @@ accijns en voldoen aan de bij de invoer voorgeschreven nationale bepalingen.
 Goederen uit derde landen, die bestemd zijn voor de Belgische markt, worden meestal gelijktijdig aangegeven
 voor het vrije verkeer en het verbruik. Uniegoederen daarentegen zijn bij intra-Unieverkeer aan geen enkele
 douaneformaliteit onderworpen: deze bewegingen geschieden als intra-Unieleveringen onder een btw-
-
-312
 
  regeling, tenzij in het kader van het verkeer met de niet-fiscale gebieden waar er wel douaneformaliteiten zijn.
 Bij de intra-Unieverwerving van bepaalde (nieuwe) vervoermiddelen moeten evenwel nog steeds formaliteiten
@@ -19950,7 +19134,6 @@ of 300 of 175 euro (3) (4) (5)
 
 (1) De vrijstellingen worden verleend ongeacht of de goederen in die landen werden aangekocht onder de
 voorwaarden van de binnenlandse markt of met terugbetaling of vrijstelling van de belastingen wegens hun
-313
 
  uitvoer (bv.: aankopen in een taksvrije winkel op een luchthaven).
 (2) De vrijstellingen voor “tabaksproducten” en “alcohol en alcoholische dranken” worden niet verleend aan reizigers
@@ -20021,8 +19204,6 @@ zonder winst, geacht wordt voor commerciële doeleinden te zijn gedaan.
 Onder bepaalde voorwaarden (o.a. ongewijzigde staat van de goederen), op aanvraag van betrokkene, kan bij
 de wederinvoer van goederen definitieve vrijstelling worden verleend.
 
-314
-
  2.5. DOUANEREGELINGEN MET OPSCHORTING VAN RECHTEN EN
 BELASTINGEN BIJ INVOER
 2.5.1. Douanevervoer
@@ -20061,7 +19242,6 @@ Het gemeenschappelijk douanevervoer breidt de regeling Uniedouanevervoer uit voo
 de landen van de Europese Vrijhandelsassociatie (EVA), namelijk Noorwegen, IJsland, Zwitserland en
 Liechtenstein en met Turkije, Noord-Macedonië, Servië,het Verenigd Koninkrijk (met uitzondering van het
 grondgebied van Noord-Ierland, waar het Uniedouanevervoer van toepassing blijft) en Oekraïne.
-315
 
  Vanaf 1 juli 2003 is het New Computerised Transit System (NCTS) verplicht behalve in geval van toepassing
 van de noodprocedure en zijn de T-documenten door elektronische aangiften inzake douanevervoer
@@ -20101,8 +19281,6 @@ EU gebruikte goederen gehele of gedeeltelijke vrijstelling van invoerrechten wor
 in plaats van het “Enig document” eveneens een “ATA-carnet” of andere types van aangiftes (Formulier 302,
 mondeling aangifte, enz.) worden gebruikt.
 
-316
-
  2.5.4. Bijzondere bestemming
 2.5.4.1. Definitie
 De regeling bijzondere bestemming laat toe dat goederen met toepassing van een verlaagd recht of nulrecht
@@ -20139,7 +19317,6 @@ producten in het vrije verkeer worden gebracht met de eigen invoerrechten.
 2.5.5.2. Doel en draagwijdte van de regeling
 Een belangrijk doel van de regeling actieve veredeling is de uitvoer te bevorderen en het op gelijke voet
 plaatsen van Unie-operatoren met hun concurrenten uit derde landen die dezelfde goederen produceren, door
-317
 
  de Unie-operatoren toe te laten derdelandengoederen te verwerken in hun eindproduct zonder
 douanerechten te betalen op de derdelandengoederen waarbij de eindproducten worden uitgevoerd buiten
@@ -20185,7 +19362,6 @@ vrijstelling van de invoerrechten in het vrije verkeer te brengen in de Europese
 
 2.5.6.2. Doel en draagwijdte van de regeling
 De regeling passieve veredeling beantwoordt aan de huidige internationale organisatie van de arbeid die de
-318
 
  vervaardiging van bepaalde goederen toevertrouwt aan een reeks gespecialiseerde ondernemingen in
 verschillende landen. Alhoewel de regeling passieve veredeling de Uniewerknemers benadeelt ten opzichte
@@ -20228,7 +19404,6 @@ Het document dat als ondersteuning voor deze elektronische procedure geldt, is h
 (UGD). Dit heeft voor gevolg dat voor indirecte uitvoer (2 lidstaten zijn betrokken) ECS wordt toegepast. ECS
 laat toe om de uitgang uit het douanegebied van de EU te controleren door elektronische berichten uit te
 wisselen tussen het kantoor van uitvoer en het kantoor van uitgang uit de Europese Unie.
-319
 
  Wanneer PLDA het bericht van vrijgave verstuurt, kan de aangever op basis van dit vrijgavebericht zelf een
 UGD afdrukken of laten afdrukken op het hulpkantoor. Een papieren versie van het UGD dient niet meer te
@@ -20268,7 +19443,6 @@ tot doel de veiligheid van de toeleveringsketen te versterken en tegelijkertijd 
 voor bedrijven die voldoen aan strikte nalevings- en beveiligingscriteria.
 Het AEO-programma bouwt voort op het "SAFE Framework of Standards", dat in juni 2005 door de
 Werelddouaneorganisatie (WDO) is goedgekeurd. Dit kader van normen is ontworpen om de internationale
-320
 
  handel veilig te stellen en te vergemakkelijken door moderne veiligheidsnormen voor de toeleveringsketen
 vast te stellen. Het moedigt nauwe samenwerking tussen douane en bedrijfsleven aan, waardoor een veiliger
@@ -20336,8 +19510,6 @@ Noorwegen, de Verenigde Staten, China en Moldavië.
 Alle informatie betreffende dit statuut is terug te vinden op onderstaande website:
 https://financien.belgium.be/nl/douane_accijnzen/ondernemingen/douane/aeo
 
-321
-
 ## HOOFDSTUK XIV — DE ACCIJNZEN
 Bijgewerkt op 31.12.2024
 Deze belastingen worden vastgesteld en geregeld door verschillende EU-richtlijnen en door de nationale wetgeving.
@@ -20372,7 +19544,6 @@ een (gewone) accijns waarvan de opbrengst uitsluitend bestemd is voor België; d
 accijnsproducten zijn alcoholvrije dranken en koffie.
 c. Voor energieproducten en elektriciteit, alcohol en alcoholhoudende dranken alsmede tabaksfabricaten is
 een Europese richtlijn van kracht houdende een algemene regeling inzake accijns (horizontale richtlijn
-322
 
  genoemd). Tevens zijn er richtlijnen betreffende de structuren en de tarieven van die goederen en
 betreffende de belasting van energieproducten en elektriciteit.
@@ -20412,7 +19583,6 @@ De betaling geschiedt in principe contant op het ogenblik van het ontstaan van d
 
 zekere voorwaarden en na borgstelling kan een krediettermijn worden toegestaan die verschilt naargelang
 van het product.
-323
 
  Deze krediettermijn voor erkende entrepothouders en importeurs loopt voor ethylalcohol en geestrijke dranken,
 bier, stille wijn, mousserende wijn, andere al of niet mousserende gegiste dranken en tussenproducten alsmede voor
@@ -20457,7 +19627,6 @@ ACCIJNSGOEDEREN ONDER SCHORSINGSREGELING
 De productie en de verwerking hier te lande van accijnsgoederen vindt plaats in een belastingentrepot. Ook het
 voorhanden hebben van dergelijke goederen, waarvoor de accijnzen niet werden voldaan, moet in een
 belastingentrepot plaatsvinden.
-324
 
  Een belastingentrepot is iedere plaats waar een erkend entrepothouder bij de bedrijfsuitoefening
 accijnsgoederen – onder bepaalde voorwaarden - onder een accijnsschorsingsregeling produceert, verwerkt,
@@ -20512,8 +19681,6 @@ om tabaksfabricaten te ontvangen die niet voorzien zijn van het Belgisch fiscaal
 De overbrenging van accijnsgoederen onder de accijnsschorsingsregeling geschiedt in principe onder dekking van
 een elektronisch administratief document (e-AD) en volgens een welbepaalde procedure.
 
-325
-
  4.5. OVERBRENGING VAN ACCIJNSGOEDEREN EN
 ACCIJNSHEFFING NA UITSLAG TOT VERBRUIK
 4.5.1. Overbrengingen van dit goederen tussen lidstaten voor commerciële
@@ -20552,8 +19719,6 @@ geleverd aan een particulier in België en het vervoer wordt geregeld door de ve
 
 lidstaat of voor diens rekening, is de accijns verschuldigd door de verkoper gevestigd in de andere lidstaat of
 diens fiscaal vertegenwoordiger in België op het tijdstip van levering van de accijnsgoederen aan de particulier.
-
-326
 
  5. ACCIJNSREGELING VOOR ALCOHOLVRIJE DRANKEN EN
 KOFFIE
@@ -20597,7 +19762,6 @@ handelsdocument waarmee de accijnsproducten kunnen worden geïdentificeerd.
 Op door particulieren voor eigen behoeften verkregen en door hen zelf vervoerde accijnsproducten is geen
 accijns verschuldigd op voorwaarde dat zij werden verkregen volgens de regels voor de binnenlandse markt
 van de lidstaat van verkrijging.
-327
 
  Accijnsproducten kunnen buiten een accijnsinrichting worden vervaardigd uit andere accijnsproducten voor
 zover het bedrag van de accijns op het bekomen accijnsproduct niet meer bedraagt dan het totale bedrag van
@@ -20636,8 +19800,6 @@ naar een andere plaats van dezelfde lidstaat met gebruikmaking van het Belgisch 
 7. TARIEVEN
 Opmerking: sommige van deze tarieven kunnen op zeer korte termijn worden aangepast. De meest recente tarieven
 zijn terug te vinden op Fisconetplus (Accijnstarieven).
-
-328
 
  7.1. ENERGIEPRODUCTEN EN ELEKTRICITEIT
 Richtlijn 2003/96/EG van de Raad van 27 oktober 2003 betreft de communautaire regeling voor de belasting
@@ -20701,25 +19863,15 @@ A. Gelode benzine
 
 4,2925
 
-0
-
 22,8845
 
 3.1. Zakelijk gebruik
-
-0
-
-0
 
 19,5580
 
 19,5580
 
 3.2. Niet-zakelijk gebruik
-
-0
-
-0
 
 19,5580
 
@@ -20736,8 +19888,6 @@ A. Gelode benzine
 18,5920
 
 4,2925
-
-0
 
 22,8845
 
@@ -20775,8 +19925,6 @@ zwavelgehalte van meer dan
 motorbrandstof
 2. Gebruikt als
 
-329
-
  motorbrandstof voor
 industriële en commerciële
 doeleinden (2)
@@ -20784,15 +19932,7 @@ doeleinden (2)
 verwarmingsbrandstof
 3.1. Zakelijk gebruik
 
-0
-
-0
-
 3.2. Niet-zakelijk gebruik
-
-0
-
-0
 
 10,0000 (3)
 +8,6521 (4)
@@ -20836,29 +19976,17 @@ Bijzondere accijns
 
 4,2925
 
-0
-
 22,8845
 
 3.1. Zakelijk gebruik
 
-0
-
-0
-
 3.2. Niet-zakelijk gebruik
-
-0
-
-0
 
 1. Zakelijk gebruik (5)
 
 13,0000
 
 3,3460
-
-0
 
 16,3460
 
@@ -20868,15 +19996,11 @@ Bijzondere accijns
 
 3,3460
 
-0
-
 16,3460
 
 13,0000
 
 3,3460
-
-0
 
 16,3460
 
@@ -20913,32 +20037,16 @@ G. Zware stookolie (euro per
 van elektriciteit
 H. Vloeibaar petroleumgas
 
-330
-
  (euro per 1.000 kg)
 1. Gebruikt als
-
-0
-
-0
-
-0
-
-0
 
 37,1840
 
 7,4953
 
-0
-
 44,6793
 
 3.1. Zakelijk gebruik
-
-0
-
-0
 
 18,6397 (7) of
 
@@ -20949,10 +20057,6 @@ H. Vloeibaar petroleumgas
 18,9097 (8)
 
 3.2. Niet-zakelijk gebruik
-
-0
-
-0
 
 18,6397 (7) of
 
@@ -21003,22 +20107,6 @@ Accijns
 
 Bijzondere accijns
 
-0
-
-0
-
-0
-
-0
-
-0
-
-0
-
-0
-
-0
-
 energie
 
 Totaal
@@ -21035,7 +20123,6 @@ industriële en commerciële
 doeleinden (1)
 
 3. Gebruikt als verwarmingsbrandstof
-331
 
  3a. Zakelijk gebruik
 3a1. Bedrijven met
@@ -21049,15 +20136,11 @@ ii. voor de schijf van
 
 20.000 tot 50.000 MWh:
 
-0
-
 0,66
 
 0,54
 
 1,20
-
-0
 
 0,56
 
@@ -21065,15 +20148,11 @@ ii. voor de schijf van
 
 1,10
 
-0
-
 0,54
 
 0,54
 
 1,08
-
-0
 
 0,42
 
@@ -21081,15 +20160,11 @@ ii. voor de schijf van
 
 0,96
 
-0
-
 0,22
 
 0,54
 
 0,76
-
-0
 
 0,15
 
@@ -21097,15 +20172,11 @@ ii. voor de schijf van
 
 0,69
 
-0
-
 0,66
 
 0,9978
 
 1,6578
-
-0
 
 0,56
 
@@ -21113,15 +20184,11 @@ ii. voor de schijf van
 
 1,5578
 
-0
-
 0,54
 
 0,9978
 
 1,5378
-
-0
 
 0,42
 
@@ -21129,15 +20196,11 @@ ii. voor de schijf van
 
 1,4178
 
-0
-
 0,22
 
 0,9978
 
 1,2178
-
-0
 
 0,15
 
@@ -21145,15 +20208,9 @@ ii. voor de schijf van
 
 1,1478
 
-0
-
 2,77
 
-0
-
 2,77
-
-0
 
 8,23
 
@@ -21161,15 +20218,11 @@ ii. voor de schijf van
 
 9,2278
 
-0
-
 9,2894
 
 0,9978
 
 10,2872
-
-0
 
 8,7577 (2)
 
@@ -21222,8 +20275,6 @@ ii. voor de schijf vanaf
 12 MWh:
 J. Kolen, cokes en bruinkool
 
-332
-
  (euro per 1.000 kg)
 K. Elektriciteit (euro per
 MWh)
@@ -21235,71 +20286,33 @@ nominale spanning > 1 kV, met
 
 inbegrip van een eindgebruiker
 
-0
-
-0
-
-0
-
-0
-
-0
+14,21
 
 14,21
 
-0
-
-14,21
-
-0
+12,09
 
 12,09
 
-0
-
-12,09
-
-0
+11,39
 
 11,39
 
-0
-
-11,39
-
-0
+10,69
 
 10,69
 
-0
-
-10,69
-
-0
+2,73
 
 2,73
 
-0
-
-2,73
-
-0
-
 0,50
 
-0
-
 0,50
-
-0
-
-0
 
 1,9261
 
 1,9261
-
-0
 
 14,21
 
@@ -21307,15 +20320,11 @@ inbegrip van een eindgebruiker
 
 16,1361
 
-0
-
 12,09
 
 1,9261
 
 14,0161
-
-0
 
 11,39
 
@@ -21323,15 +20332,11 @@ inbegrip van een eindgebruiker
 
 13,3161
 
-0
-
 10,69
 
 1,9261
 
 12,6161
-
-0
 
 2,73
 
@@ -21339,19 +20344,13 @@ inbegrip van een eindgebruiker
 
 4,6561
 
-0
-
 0,50
 
 1,9261
 
 2,4261
 
-0
-
 23,62
-
-0
 
 23,62
 
@@ -21400,7 +20399,6 @@ vi. voor de schijf vanaf
 a. beschermde
 residentiële afnemer
 b. andere:
-333
 
  i. voor de schijf van 0 tot 3
 MWh:
@@ -21417,23 +20415,17 @@ v. voor de schijf van 1000 tot
 vi. voor de schijf vanaf 25.000
 MWh:
 
-0
-
 47,48
 
 1,9261
 
 49,4061
 
-0
-
 47,48
 
 1,9261
 
 49,4061
-
-0
 
 45,46
 
@@ -21441,23 +20433,17 @@ MWh:
 
 47,3861
 
-0
-
 44,78
 
 1,9261
 
 46,7061
 
-0
-
 44,11
 
 1,9261
 
 46,0361
-
-0
 
 36,28
 
@@ -21499,7 +20485,6 @@ doeleinden dan als motor- of verwarmingsbrandstof. Doch enkel het gebruik van en
 chemische reductie of elektrolytische en metallurgische procedés wordt als duaal gebruik beschouwd);
 c. elektriciteit die voornamelijk wordt gebruikt voor chemische reductie en elektrolytische en metallurgische
 procedés;
-334
 
  d. energieproducten en elektriciteit gebruikt voor mineralogische procedés;
 e. energieproducten, met uitzondering van zware stookolie, kolen, cokes en bruinkool, en elektriciteit die
@@ -21564,7 +20549,6 @@ k. kolen, cokes, bruinkool en vaste brandstoffen die worden verbruikt door huish
 l. (opgeheven);
 m. (opgeheven);
 n. (opgeheven);
-335
 
  o. (opgeheven)
 p. (opgeheven)
@@ -21628,7 +20612,6 @@ verwaarloosd.
 Het aantal hectolitergraden Plato wordt uitgedrukt in gehele getallen waarbij delen van een hectolitergraad
 Plato worden verwaarloosd.
 Het aantal hectolitergraden Plato is het resultaat van de vermenigvuldiging van het volume te belasten bier
-336
 
  met het aantal graden Plato ervan.
 De totale accijns op 1 liter pils met een dichtheid van 12,5 graden Plato (in dit geval afgerond tot 12 graden
@@ -21712,22 +20695,17 @@ Totaal
 
 Niet-mousserende wijn
 
-0
-
 74,9086
 
 74,9086
 
 Mousserende wijn
 
-0
-
 256,3223
 
 256,3223
 
 (1) 0 euro accijns en 23,9119 euro bijzondere accijns voor om het even welke niet-mousserende en mousserende
-337
 
  wijn met een effectief alcoholvolumegehalte van meer dan 1,2% vol en niet meer dan 8,5% vol.
 Het te belasten volume wordt uitgedrukt in hectoliter en in liter, waarbij delen van een liter worden
@@ -21768,15 +20746,11 @@ Totaal
 
 Niet-mousserende wijn
 
-0
-
 74,9086
 
 74,9086
 
 Mousserende wijn
-
-0
 
 256,3223
 
@@ -21790,7 +20764,6 @@ Het te belasten volume wordt uitgedrukt in hectoliter en in liter, waarbij delen
 verwaarloosd. Wanneer het te belasten volume kleiner is dan een liter, worden de delen van deciliter
 verwaarloosd.
 Voorbeelden:
-338
 
  - De totale accijns op een fles van 0,75 l niet-mousserende perenwijn met een alcoholgehalte van 9 % vol bedraagt:
 0,007 hl x 74,9086 euro/hl = 0,52 euro;
@@ -21870,7 +20843,6 @@ Accijns
 Bijzondere accijns
 
 Totaal
-339
 
  Ethylalcohol
 
@@ -21947,7 +20919,6 @@ minder bedragen dan 105 % van het totaal van deze accijnzen van toepassing op de
 Voor de rooktabak van fijne snede voor het rollen van sigaretten en andere soorten rooktabak mag het totaal van
 de accijns en de bijzondere accijns in geen geval minder bedragen dan 105% van het totaal van deze accijnzen van
 toepassing op de gewogen gemiddelde prijs.
-340
 
  Voor de sigaren mag het totaal van de accijns, de bijzondere accijns en de btw in geen geval minder bedragen dan het
 totaal van deze belastingen van toepassing op de meest gevraagde prijsklasse.
@@ -21989,7 +20960,6 @@ dan 0,5 % vol: 3,7519 euro per hectoliter;
 e) op wijn van de GN-codes 2204 en 2205 waarvan het alcoholvolumegehalte niet meer bedraagt dan
 1,2 % vol: 3,7519 euro per hectoliter;
 f) andere gegiste dranken van de GN-codes 2204 en 2205, alsmede die van de GN-code 2206, waarvan het
-341
 
  alcoholvolumegehalte niet meer bedraagt dan 1,2 % vol: 3,7519 euro per hectoliter;
 g) dranken van de GN-code 2208 waarvan het alcoholvolumegehalte niet meer bedraagt dan 1,2 % vol:
@@ -22030,8 +21000,6 @@ van extracten, essences en concentraten van koffie en op de preparaten op basis 
 Koffie bestemd voor ander industrieel gebruik dan het branden of het vervaardigen van koffie-extracten en
 koffie bestemd om te worden gebruikt voor onderzoek, kwaliteitscontroles en smaaktesten, zijn vrijgesteld
 van accijnzen.
-
-342
 
  BIJLAGE HOOFDSTUK XIV
 Codes van de gecombineerde nomenclatuur (GN) voor alcoholhoudende dranken (codes zoals vastgesteld in
@@ -22103,7 +21071,6 @@ liter
 als 2204 21 10, doch in grotere verpakkingen
 vermout en andere wijn van verse druiven, bereid met aromatische planten of met
 aromatische stoffen
-343
 
  andere gegiste dranken (bv. appelwijn, perenwijn, honigdrank), mengsels van
 
@@ -22131,8 +21098,6 @@ alcohol bevatten
 tafelazijn, natuurlijke of verkregen uit azijnzuur.
 
 (*) vervangen door de huidige GN-codes 2204 21 06, 2204 21 07, 2204 21 08 en 2204 21 09
-
-344
 
 ## HOOFDSTUK XV — DE VERPAKKINGSHEFFING
 Bijgewerkt op 31.12.2024
@@ -22173,10 +21138,6 @@ tenminste zevenmaal hervuld kan worden;
 wordt teruggenomen via een statiegeldstelsel (minstens 0,16 euro voor verpakkingen van meer dan
 0,5 l en 0,08 euro voor verpakkingen van ten hoogste 0,5 l);
 daadwerkelijk opnieuw worden gebruikt.
-
-345
-
- 346
 
 ## HOOFDSTUK XVI — DE MET DE INKOMSTENBELASTINGEN GELIJKGESTELDE BELASTINGEN
 Bijgewerkt op 31.12.2024
@@ -22243,7 +21204,6 @@ toestellen in categorieën. Niet alleen de inhoud van de categorieën wijzigt, o
 •
 
 Vanaf 1 januari 2023 wordt in het Vlaamse Gewest het fiscaal gunstregime van de lichte vrachtauto’s van
-347
 
  het type pick-up en chassis cabine herzien, in die mate dat het toepassingsgebied ervan beperkt wordt tot
 die voertuigen die zijn ingeschreven op naam van een rechtspersoon of een natuurlijke persoon die
@@ -22301,7 +21261,6 @@ toepassing
 Voorafgaande opmerking:
 Sinds 1 januari 2011 is uitsluitend het Vlaamse Gewest bevoegd voor het verzekeren van de dienst van de
 verkeersbelasting voor de natuurlijke personen die aldaar gedomicilieerd zijn of de rechtspersonen die er hun
-348
 
  maatschappelijke zetel hebben.
 Sinds 1 januari 2014 is uitsluitend het Waalse Gewest bevoegd voor het verzekeren van de dienst van de
@@ -22343,8 +21302,6 @@ nl. de voertuigen bestaande uit een volledig van de laadruimte afgesloten enkele
 twee plaatsen mag bevatten, die van de bestuurder niet inbegrepen, en een open laadbak. Deze laadbak
 mag worden afgesloten met een dekzeil, een plat en horizontaal deksel of een opbouw ter bescherming
 van de lading.
-
-349
 
  1.1.1.2. de “pick-ups met dubbele cabine”
 nl. de voertuigen bestaande uit een volledig van de laadruimte afgesloten dubbele cabine die ten hoogste
@@ -22392,7 +21349,6 @@ ziekenauto’s, voertuigen als persoonlijk vervoermiddel gebruikt door groot-oor
 gehandicapten, bepaalde landbouwvoertuigen en aanverwante, voertuigen uitsluitend gebruikt als taxi,
 
 bromfietsen en motorfietsen met een motor met een cilinderinhoud van maximum 250 cm3 (en enkel in het
-350
 
  Waalse Gewest ook bromfietsen en motorfietsen die uitsluitend worden aangedreven door een elektrische
 motor waarvan het maximaal vermogen kleiner is of gelijk is aan 11 Kw), en enkele andere voertuigen van de
@@ -22429,14 +21385,13 @@ Voorbeeld
 Een auto heeft een motor met 4 cilinders van 76 mm uitboring en met een slaglengte van de zuiger van 80 mm. De
 cilinderinhoud is dan gelijk aan 1,5 liter. Het belastbare vermogen, uitgedrukt in pk, is:
 pk = 4 x cilinderinhoud (in liter) + gewicht (in 100 kg)
-4
+
 De tweede term in de formule wordt voor deze auto vervangen door een coëfficiënt die afhangt van de cilinderinhoud.
 Voor 1,5 l cilinderinhoud bedraagt hij 2,00. Het vermogen in pk bedraagt voor deze auto bijgevolg:
 4 x 1,5 + 2,00 = 8,00, dus 8 pk.
 
 1.1.5. Indexering van de tarieven
 Een aantal van de tarieven wordt per 1 juli van elk jaar volgens een bepaalde berekeningswijze aangepast op
-351
 
  grond van de schommelingen van het algemene indexcijfer van de consumptieprijzen (art. 11, WIGB).
 Meer bepaald betreft het de tarieven van de belasting op de volgende voertuigen:
@@ -22471,55 +21426,29 @@ minibussen(art. 9A, WIGB)
 
 91,80
 
-5
-
 114,84 €
-
-6
 
 165,96 €
 
-7
-
 216,84 €
-
-8
 
 268,20 €
 
-10
-
 370,20 €
-
-11
 
 480.36 €
 
-12
-
 590,64 €
-
-14
 
 810,72 €
 
-15
-
 921,00 €
-
-16
 
 1206,24 €
 
-18
-
 1777,20 €
 
-19
-
 2062,08 €
-
-20
 
 2347,56 €
 
@@ -22527,19 +21456,11 @@ per bijkomende pk boven 20 pk
 
 128,04 €
 
-9
-
-13
-
-17
-
 319,56 €
 
 700,56 €
 
 1491,72 €
-
-352
 
  1.1.6.1.1. Waals Gewest : Kampeerwagens (mobilhomes)
 Enkel van toepassing op natuurlijke personen – particulieren
@@ -22559,67 +21480,35 @@ Belasting in euro
 
 36,72
 
-5
-
 45,94
-
-6
 
 66,38
 
-7
-
 86,74
-
-8
 
 107,28
 
-10
-
 148,08
-
-11
 
 192,14
 
-12
-
 236,26
-
-14
 
 324,29
 
-15
-
 368,40
-
-16
 
 482,50
 
-18
-
 710,88
 
-19
-
 824,83
-
-20
 
 939,02
 
 per bijkomende pk boven 20 pk
 
 51,22
-
-9
-
-13
-
-17
 
 127,82
 
@@ -22637,8 +21526,6 @@ rechtzetting betrof van een ongewenst gevolg van een vorige wetswijziging die ev
 Waalse gewest behouden.
 1.1.6.1.2. Brussels hoofdstedelijk Gewest : Kampeerwagens
 Dit tarief is bepaald in artikel 9Abis van het WIGB en wordt als volgt verkregen:
-
-353
 
  19,32 euro (nog te verhogen met de opdeciemen, zie 1.1.9.) per 500 kg maximaal toegelaten totaalgewicht,
 met toepassing van de minimumbelasting van 41,62 euro (45,78 euro met de opdeciemen inbegrepen) voor
@@ -22691,7 +21578,6 @@ wanneer > 10 pk: 4,44 euro per pk + 0,24 euro per pk boven 1Je 0 pk, met een max
 goederen
 
 Indien de maximaal toegelaten massa (MTM) van deze voertuigen 3.500 kg overschrijdt, wordt de belasting
-354
 
  vastgesteld op basis van belastingschalen die rekening houden met de MTM, het aantal assen en de aard van
 de ophanging (luchtvering of als gelijkwaardig erkende vering van de aangedreven assen enerzijds of andere
@@ -22754,7 +21640,6 @@ met andere ophanging;
 met andere ophanging;
 4. Vrachtwagen met vijf assen en een MTM van 30.000 kg: 175 euro indien met luchtvering en 307 euro indien met
 andere ophanging;
-355
 
  5. Tractor met twee assen en oplegger met één as en een MTM van 20.000 kg: 32 euro indien met luchtvering en
 75 euro indien met andere ophanging;
@@ -22837,7 +21722,6 @@ tarieven van 429,20 euro tot 648,79 euro;
 IX.
 
 Motorvoertuig met drie assen en aanhangwagen of oplegger met drie assen: 2 klassen met tarieven van
-356
 
  286,07 euro tot 648,79 euro;
 X.
@@ -22900,7 +21784,6 @@ met luchtvering en 335 euro indien met andere ophanging;
 7. Tractor met drie assen en oplegger met twee assen en een MTM van 43.000 kg: 628 euro indien met luchtvering
 en 929 euro indien met andere ophanging;
 8. Tractor met drie assen en oplegger met drie assen en een MTM van 43.000 kg: 336 euro indien met luchtvering
-357
 
  en 535 euro indien met andere ophanging.
 
@@ -22962,8 +21845,6 @@ motorvoertuigen of samengestelde voertuigen waarvan de maximaal toegelaten massa
 maar minder dan 12 ton bedraagt en die onderworpen zijn aan de kilometerheffing (Brussels Hoofdstedelijk
 Gewest).
 
-358
-
  1.1.7. Belastingverminderingen
 In bepaalde gevallen (art. 14-16, WIGB) en mits aan een aantal nader omschreven voorwaarden wordt
 voldaan, kunnen de volgende soorten belastingvermindering van toepassing zijn:
@@ -23014,7 +21895,6 @@ Gewest en in het Brussels Hoofdstedelijke Gewest, hier enkel voor belastingplich
 vennootschap, een autonoom overheidsbedrijf of een vereniging zonder winstoogmerk zijn die
 
 leasingactiviteiten uitoefent, want de belastingvermindering in kwestie wordt afgeschaft in het Brussels
-359
 
  Hoofdstedelijk Gewest.
 In het Brussels Hoofdstedelijk Gewest wordt een vijfde van de opbrengst van de opdeciem toegewezen aan
@@ -23037,8 +21917,6 @@ Belasting
 
 Cilinderinhoud in
 
-4
-
 100,98
 
 liter
@@ -23051,95 +21929,64 @@ Belasting
 
 2,4 – 2,5
 
-13
-
 770,62
 
 2,8 – 3,0
-
-15
 
 1013,10
 
 3,1 – 3,2
 
-16
-
 1.326,86
 
 liter
-5
 
 126,32
 
 2,6 – 2,7
 
-14
-
 891,79
 
 1,0 – 1,1
 
-6
-
 182,56
 
 1,2 – 1,3
-
-7
 
 238,52
 295,02
 
 3,3 – 3,4
 
-17
-
 1.640,89
 
 1,6 – 1,7
-
-9
 
 351,52
 
 3,5 – 3,6
 
-18
-
 1.954,92
 
 1,8 – 1,9
-
-10
 
 407,22
 
 3,7 – 3,9
 
-19
-
 2.268,29
 
 4,0 – 4,1
-
-20
 
 2.582,32
 
 1,4 – 1,5
 
-8
-
 2,0 – 2,1
-
-11
 
 528,40
 
 2,2 – 2,3
-
-12
 
 649,70
 
@@ -23155,7 +22002,6 @@ Echter wat betreft de motorvoertuigen bestemd voor het vervoer van goederen waar
 toegestane totaalgewicht 3.500 kg niet overschrijdt en die als “lichte vrachtauto’s” bij de DIV zijn
 ingeschreven, is er evenwel een afwijking, aangezien voor deze voertuigen de fiscale definitie van lichte
 vrachtauto geldt (art. 1.1.0.0.2, VCF).
-360
 
  Inzake de verkeersbelasting worden de autovoertuigen “opgevat en gebouwd voor het vervoer van zaken
 waarvan het maximaal toegestane totaalgewicht 3.500 kg niet overschrijdt” fiscaal enkel nog als “lichte
@@ -23202,7 +22048,6 @@ Daarnaast kan als een vorm van overgangsmaatregel de “oude fiscale regeling”
 worden toegepast op voertuigen die pas na 31 december 2022 worden ingeschreven in het repertorium van
 het Directoraat-Generaal Mobiliteit en Verkeersveiligheid, doch enkel indien het voertuig in kwestie vóór
 1 januari 2023 werd besteld en er daarenboven nog aan een aantal administratieve formaliteiten wordt
-361
 
  voldaan.
 Voertuigen die volgens de reglementering van de DIV als lichte vrachtauto zijn ingeschreven en, afhankelijk
@@ -23253,7 +22098,6 @@ Deze vrijstellingen gelden enkel voor wegvoertuigen, lichte vrachtauto’s, lijk
 trekkers (als deze voertuigen niet vallen onder punt 1.2.6.5. hieronder), van natuurlijke personen en andere
 rechtspersonen dan vennootschappen, autonome overheidsbedrijven en verenigingen zonder winstgevend
 doel, met leasingactiviteiten.
-362
 
  Enkel voor wat betreft de toepasbaarheid van de vrijstelling voor wegvoertuigen aangedreven met aardgas, is
 er bovendien vereist, indien deze die na 30 juni 2017 ingeschreven worden in het repertorium van het
@@ -23301,12 +22145,11 @@ Voorbeeld
 Een auto heeft een motor met 4 cilinders van 76 mm uitboring en met een slaglengte van de zuiger van 80 mm. De
 cilinderinhoud is dan gelijk aan 1,5 liter. Het belastbare vermogen, uitgedrukt in pk, is:
 pk = 4 x cilinderinhoud (in liter) + gewicht (in 100 kg).
-4
+
 De tweede term in de formule wordt voor deze auto vervangen door een coëfficiënt die afhangt van de cilinderinhoud.
 Voor 1,5 l cilinderinhoud bedraagt hij 2,00. Het vermogen in pk bedraagt voor deze auto bijgevolg:
 4 x 1,5 + 2,00 = 8,00, dus 8 pk.
 Voor de (sinds 2016) vergroende verkeersbelasting voor personenauto’s, auto’s voor dubbel gebruik en
-363
 
  minibussen worden naast het vermogen van de motor ook de milieukenmerken van het wegvoertuig mee in
 aanmerking genomen. Er wordt een ecobonus dan wel een ecomalus in rekening gebracht in functie van het
@@ -23348,61 +22191,31 @@ Belasting in euro
 
 91,68
 
-5
-
 114,84 €
-
-6
 
 165,96 €
 
-7
-
 216,84 €
-
-8
 
 268,20 €
 
-10
-
 370,08 €
-
-9
 
 319,44 €
 
-364
-
- 11
-
 480.36 €
-
-12
 
 590,52 €
 
-13
-
 700,44 €
-
-15
 
 920,88 €
 
-16
-
 1206,24 €
-
-17
 
 1491,84 €
 
-19
-
 2062,20 €
-
-20
 
 2347,68 €
 
@@ -23410,11 +22223,7 @@ per bijkomende pk boven 20 pk
 
 127,92 €
 
-14
-
 810,72 €
-
-18
 
 1777,32 €
 
@@ -23502,7 +22311,6 @@ Euro 5 of EEV
 
 Als deze gemoduleerde regeling van de verkeersbelasting van toepassing is, geldt de minimumbelasting van
 algemene toepassing (zie punt 1.2.6.7 hieronder) bovendien niet. Er geldt dan een specifieke forfaitaire
-365
 
  minimumbelasting van 52,18 euro (= bedrag zonder opdeciem) (art. 2.2.4.0.1., §2/1, tweede lid, VCF).
 De in dit punt b beschreven vergroende regeling is enkel van toepassing op wegvoertuigen van natuurlijke
@@ -23551,7 +22359,6 @@ met toepassing van de minimumbelasting van 50,12 euro (55,13 euro met de opdecie
 MET EEN MTM VAN TEN HOOGSTE 2500 KG
 
 De belasting is gelijk aan 24,12 euro per 500 kg MTT (bedrag zonder opdeciem), waarbij volgende modulatie
-366
 
  wordt toegepast (art. 2.2.4.0.1, §3/1, VCF):
 Het tarief wordt:
@@ -23680,7 +22487,6 @@ Euro 6
 
 Ook in beide onder 1.2.6.2.2. vermelde gevallen geldt een specifieke forfaitaire minimumbelasting van
 50,12 euro (= bedrag zonder opdeciem, dus 55,13 euro met de opdeciem inbegrepen) (art. 2.2.4.0.1, §3/1,
-367
 
  tweede lid en §3/2, derde lid, VCF).
 1.2.6.2.3. Voertuigen na 31 december 2020 ingeschreven in het repertorium van het DGMV.
@@ -23781,8 +22587,6 @@ verenigingen zonder winstgevend doel, met leasingactiviteiten.
 1.2.6.3. Motorfietsen
 Dit tarief is voorzien in het artikel 2.2.4.0.1., §4, VCF.
 
-368
-
  Eenvormige belasting van 65,04 euro (nog te verhogen met de opdeciem, zie 1.2.9., hetzij 71,54 euro in
 totaal). Indien de cilinderinhoud maximaal 250 cm3 bedraagt, geldt er een vrijstelling van VKB.
 
@@ -23849,7 +22653,6 @@ VI.
 
 Motorvoertuig met twee assen en aanhangwagen of oplegger met drie assen (4 klassen - tarieven
 tussen 370 euro en 700 euro),
-369
 
  VII. Motorvoertuig met drie assen en aanhangwagen of oplegger met hoogstens twee assen (6 klassen –
 tarieven tussen 327 euro en 929 euro),
@@ -23896,7 +22699,6 @@ een auto voor dubbel gebruik, een minibus, een ziekenauto, een motorfiets, een l
 kampeerwagen, een autobus of een autocar.
 Deze vrijstelling geldt enkel voor belastingplichtigen die natuurlijke personen zijn of andere rechtspersonen
 dan een vennootschap, autonoom overheidsbedrijf en vereniging zonder winstgevend doel, met
-370
 
  leasingactiviteiten.
 Opgelet: kampeeraanhangwagens en aanhangwagens die speciaal ontworpen zijn voor het vervoer van één
@@ -23934,34 +22736,22 @@ van
 
 tot
 
-0
-
 1.500
 3.500
-
-120
 
 3.501
 
 7.999
 
-132
-
 8.000
 
 10.999
-
-168
 
 11.000
 
 en meer
 
-264
-
 1.501
-
-84
 
 Deze tarieven moeten nog worden verhoogd met de opdeciem. Zij zijn enkel van toepassing op natuurlijke
 personen en andere rechtspersonen dan vennootschappen, autonome overheidsbedrijven en verenigingen
@@ -23970,8 +22760,6 @@ vrijstelling.
 
 1.2.7. Belastingverminderingen
 Deze bepalingen zijn opgenomen in de artikelen 2.2.5.0.1. tot 2.2.5.0.4. (Artikel 2.2.5.0.2. is opgeheven)
-
-371
 
  In bepaalde gevallen (art. 2.2.5.0.1. e.v., VCF) en mits aan een aantal nader omschreven voorwaarden wordt
 voldaan, kunnen de volgende soorten belastingvermindering van toepassing zijn:
@@ -24021,7 +22809,6 @@ voertuigen uitsluitend gebruikt voor personenvervoer tegen vergoeding krachtens 
 exploitatie van diensten voor ongeregeld vervoer (autocardiensten).
 In tegenstelling tot de andere in de VCF vermelde tarieven omvatten de bedragen voor de motorvoertuigen
 of de samengestelde voertuigen, bestemd voor het vervoer van goederen, waarvan het maximaal toegestane
-372
 
  totaalgewicht 12 ton of meer bedraagt, vermeld in art. 2.2.4.0.1., §6, tweede lid, VCF, reeds de opdeciem.
 Voorbeelden
@@ -24063,7 +22850,6 @@ rechtspersonen die er hun maatschappelijke zetel hebben.
 De belasting op de inverkeerstelling wordt geheven op:
 a. personenauto’s, auto’s voor dubbel gebruik, minibussen en motorfietsen (met inbegrip van de
 motorvoertuigen die in de reglementering van de inschrijving van de motorvoertuigen worden
-373
 
  omschreven/gekwalificeerd als lichte vrachtauto maar die niet aan de fiscale definitie ervan voldoen, zie
 1.1.1. hierboven);
@@ -24109,7 +22895,6 @@ een handicap.
 Voor de wegvoertuigen is de belasting verschuldigd op grond van het vermogen van hun motor, uitgedrukt
 hetzij in fiscale pk, hetzij in kilowatt (kW) (art 97, WIGB).
 Voor de luchtvaartuigen en de boten is de belasting een forfaitair bedrag.
-374
 
  Voor al deze transportmiddelen is de belasting echter ook afhankelijk van de periode die verstreken is na de
 eerste inverkeerstelling.
@@ -24145,8 +22930,6 @@ van 71 tot 85
 
 123,00/148,57
 
-11
-
 van 86 tot 100
 
 495,00/597,91
@@ -24156,8 +22939,6 @@ van 12 tot 14
 van 101 tot 110
 
 867,00/1047,25
-
-15
 
 van 111 tot 120
 
@@ -24198,8 +22979,6 @@ van 71 tot 85
 
 21,53
 
-11
-
 van 86 tot 100
 
 173,25
@@ -24209,8 +22988,6 @@ van 12 tot 14
 van 101 tot 110
 
 303,45
-
-15
 
 van 111 tot 120
 
@@ -24229,8 +23006,6 @@ van 121 tot 155
 43,05
 
 867,30
-
-375
 
  Er dient hierbij nog te worden vermeld, dat om van bovenstaand specifiek verminderd tarief te kunnen
 genieten, de kampeerwagens moeten voldoen aan alle specifieke vereisten en voorwaarden die noodzakelijk
@@ -24349,7 +23124,6 @@ indexatie is niet van toepassing op leasingvoertuigen. Dit is de reden waarom be
 
 zijn. Het eerstgenoemde cijfer is zonder indexatie van toepassing in Wallonië en op leasingvoertuigen in het
 BHG, het tweede cijfer (in vet) is het geïndexeerde tarief die enkel voertuigen ingeschreven in het Brusselse
-376
 
  Gewest op naam van particulieren, zelfstandigen of vennootschappen betreft.
 Vermindering voor voertuigen aangedreven op LPG
@@ -24425,7 +23199,6 @@ percentage van het bedrag
 10%
 74,29 euro(1) geïndexeerd op 01/07/2024
 (eenvormig bedrag)
-377
 
  (1) Het hierboven laatstvermelde tarief geldt enkel in het Brussels Hoofdstedelijk Gewest ingeval van niet-leasing van
 luchtvaartuigen
@@ -24468,7 +23241,6 @@ gelijkgestelde belastingen, van toepassing in het Waalse Gewest.
 Bepalend voor het bedrag van de ecomalus is de uitstootcategorie van het in gebruik genomen voertuig, welke
 wordt vastgesteld aan de hand van de CO2-uitstoot in g/km bepaald volgens de Richtlijn 80/1268/EEG en
 wordt weergegeven in onderstaande tabel I (art. 97quater, §2, 1e lid, WIGB).
-378
 
  TABEL I
 UITSTOOTCATEGORIEËN VOOR DE ECOMALUS
@@ -24478,75 +23250,39 @@ Uitstootcategorie
 
 0 – 98
 
-1
-
 105 – 115
-
-3
 
 116 – 125
 
-4
-
 126 – 135
-
-5
 
 146 – 155
 
-7
-
 156 – 165
-
-8
 
 166 – 175
 
-9
-
 99 – 104
-
-2
 
 136 – 145
 
-6
-
 176 – 185
-
-10
 
 186 – 195
 
-11
-
 196 – 205
-
-12
 
 206 – 215
 
-13
-
 226 – 235
-
-15
 
 236 – 245
 
-16
-
 246 – 255
-
-17
 
 216 – 225
 
-14
-
 Vanaf 256
-
-18
 
 Voor grote gezinnen, dat wil zeggen gezinnen met minstens drie kinderen ten laste, wordt het cijfer van de
 uitstootcategorie van het in gebruik genomen voertuig verminderd met één voor gezinnen met drie kinderen
@@ -24574,8 +23310,6 @@ lager
 
 dan
 
-15
-
 (art. 97quater, §2, 2 lid, WIGB).
 e
 
@@ -24591,52 +23325,14 @@ Ecomalus in euro
 dat onlangs op het grondgebied van het Waalse
 Gewest in gebruik is genomen, na eventuele
 vermindering
-7
-
-100
-
-9
-
-250
-
-10
-
-375
-
-11
-
-500
-
-13
-
-700
-
-8
-
-12
-
-175
-
-600
-379
-
- 14
 
 1.000
 
-15
-
 1.200
-
-16
 
 1.500
 
-18
-
 2.500
-
-17
 
 2.000
 
@@ -24657,53 +23353,12 @@ Ecomalus in euro
 
 Gewest in gebruik is genomen, na eventuele
 vermindering
-7
-
-35
-
-8
 
 61,25
 
-9
-
 87,50
 
-10
-
 131,25
-
-11
-
-175
-
-13
-
-245
-
-14
-
-350
-
-15
-
-420
-
-17
-
-700
-
-18
-
-875
-
-12
-
-16
-
-210
-
-525
 
 Opmerking
 De ecomalus is gelijk aan 0 euro voor de voertuigen die sedert meer dan 30 jaar in het verkeer zijn gesteld en
@@ -24715,7 +23370,6 @@ Voorbeelden
 ecomalus bedraagt 250 euro.
 2. Een groot gezin met vier kinderen ten laste neemt een lpg-autovoertuig met een uitstoot van 210 g/km
 in gebruik. Het betreft categorie 13, in dit geval verminderd tot categorie 10 (= 13 – 2 (groot gezin met
-380
 
  meer dan drie kinderen ten laste) – 1 (lpg-voertuig)). De ecomalus bedraagt 375 euro.
 3. Een groot gezin met vier kinderen ten laste neemt een kampeerwagen met een uitstoot van 210 g/km in
@@ -24756,8 +23410,6 @@ De belasting is evenwel niet verschuldigd bij overdracht tussen echtgenoten of w
 tussen uit de echt gescheiden personen ingevolge de echtscheiding of ex-wettelijk samenwonenden door de
 beëindiging van de wettelijke samenwoning, op voorwaarde dat de overdrager voor dat voertuig of
 luchtvaartuig of die boot de belasting op de inverkeerstelling voordien reeds betaald heeft.
-
-381
 
  2.2.3. Vrijstellingen
 De vrijstellingen worden opgesomd in art. 2.3.6.0.1. tot en met 2.3.6.0.3. VCF. Het gaat om onder meer:
@@ -24800,7 +23452,6 @@ het vermogen van hun motor, uitgedrukt hetzij in fiscale pk, hetzij in kilowatt 
 Voor de luchtvaartuigen en de boten is de belasting een forfaitair bedrag.
 Voor al deze transportmiddelen is de belasting echter ook afhankelijk van de periode die verstreken is na de
 eerste inverkeerstelling.
-382
 
  2.2.5. Tarieven
 Opmerking
@@ -24816,7 +23467,6 @@ repertorium.
 Het betreft hier het repertorium van het Directoraat-generaal Mobiliteit en Verkeersveiligheid Voor deze
 voertuigen, wanneer ze worden geacht in het verkeer te zijn gesteld in het Vlaamse gewest, worden de
 tarieven berekend met behulp van volgende formule (art. 2.3.4.1.2., VCF):
-6
 
 BIV in euro = (((CO2 * f + x)/246) * 4500 + c) * LC waarbij:
 CO2 = CO2-uitstoot van het voertuig in g/km, zoals gemeten tijdens de homologatie ervan volgens de op het
@@ -24888,7 +23538,6 @@ c=
 
 constante (luchtcomponent) in functie van de euronorm (indicatie van de schadelijkheid van de
 uitlaatgassen) en de brandstofsoort van het voertuig, overeenkomstig de volgende tabellen:
-383
 
  Diesel
 
@@ -24993,7 +23642,6 @@ zijn en 1 voor andere voertuigen;
 q=
 
 een factor in functie van de Europese emissienormen voor 2025 en 2030. De waarde q is voor 2025
-384
 
  gelijk aan 1,21 en wordt jaarlijks verhoogd met 0,035;
 LC =
@@ -25130,7 +23778,6 @@ Euro 6
 2.2.5.1.3. Gemeenschappelijke kenmerken van de bepalingen hierboven weergegeven onder 2.2.5.1.1en 2
 De BIV bedraagt nooit minder dan 54,78 euro en nooit meer dan 13.694,25 euro. Voor wegvoertuigen die
 minstens 30 jaar geleden een eerste maal in het verkeer gesteld zijn, bedraagt de BIV forfaitair 54,78 euro.
-385
 
  (art. 2.3.4.1.3., VCF).
 De bedragen van de component “c” (luchtcomponent) en de minimum- en maximumbedragen van de BIV
@@ -25170,8 +23817,6 @@ Van 71 tot 85
 
 123,00
 
-11
-
 Van 86 tot 100
 
 495,00
@@ -25196,8 +23841,6 @@ Boven 17
 Boven 155
 
 4.957,00
-
-15
 
 Indien het vermogen van eenzelfde motor uitgedrukt in fiscale pk en in kW aanleiding geeft tot de heffing van
 een
@@ -25249,8 +23892,6 @@ percentage van het bedrag
 2 jaar tot < 3 jaar
 
 80%
-
-386
 
  4 jaar tot < 5 jaar
 
@@ -25345,8 +23986,6 @@ percentage van het bedrag
 
 80%
 
-387
-
  5 jaar tot < 6 jaar
 
 50%
@@ -25408,7 +24047,6 @@ Voor wat het Brusselse Hoofdstedelijke Gewest betreft, wordt de heffing geregeld
 bedoeld of gebruikt voor vervoer van goederen over de weg, ter vervanging van het Eurovignet.
 Voorafgaande opmerking:
 Elk gewest is afzonderlijk bevoegd voor het heffen van de kilometerheffing op de in dat gewest afgelegde
-388
 
  belastbare voertuigkilometers. Een aantal openbare taken betreffende de kilometerheffing zijn door de drie
 gewesten toevertrouwd aan de interregionale autoriteit “Viapass”. Er werd een DBFMO-overeenkomst afgesloten
@@ -25455,8 +24093,6 @@ Alle wegen binnen het grondgebied worden belast, maar bepaalde wegen hebben een 
 3.3. BELASTBARE GRONDSLAG
 De heffing wordt vastgesteld op basis van het aantal kilometers die door een voertuig worden afgelegd en die
 geregistreerd worden door middel van een elektronische registratievoorziening aan boord van het voertuig.
-
-389
 
  3.4. TARIEVEN
 Het totale bedrag van de kilometerheffing wordt berekend door het tarief, uitgedrukt in eurocent per
@@ -25583,12 +24219,6 @@ Euro 5 (2)
 
 Zev*
 
-0
-
-0
-
-0
-
 0,054
 
 0.156
@@ -25670,7 +24300,6 @@ Euro 1
 0,336
 
 0,373
-390
 
  Euro 2
 
@@ -25729,18 +24358,6 @@ Euro 6 (3)
 0,259
 
 Zev*
-
-0
-
-0
-
-0
-
-0
-
-0
-
-0
 
 Euro 5 (2)
 
@@ -25809,7 +24426,6 @@ Tot 31 december 2017 bedroeg het bedrag van de administratieve geldboete 1.000 e
 1 januari 2018 gelden lagere en gedifferentieerde tarieven voor de administratieve geldboete naargelang de
 
 ernst van de inbreuk en de categorie van de inbreuk en is er tevens een mogelijkheid om boetes te
-391
 
  verminderen bij een eerste inbreuk of goede trouw.
 Als gevolg van de goedkeuring van het decreet van 30 november 2023 tot wijziging van de artikelen 36ter en
@@ -25879,7 +24495,6 @@ Winsten der inzetters (definitie volgt)
 
 Automatische kansspeltoestellen die zich in de Bruto-opbrengst van de spelen:
 kansspelinrichtingen klasse I bevinden in de zin van
-392
 
  de wet van 7 mei 1999 op de kansspelen (casino’s)
 (art. 46, §3, WIGB)
@@ -25973,8 +24588,6 @@ zowel in België als in het buitenland plaatsvinden
 Online-spelen en –weddenschappen waarvan Werkelijke brutomarge die ter gelegenheid van 11%
 de sommen of inleggelden zijn ingezet via het spel of de weddenschap wordt bereikt
 informatiemaatschappij-instrumenten
-
-393
 
  (art. 44bis, WIGB)
 Casinospelen:
@@ -26070,7 +24683,6 @@ van de incasso’s die op het einde van de partijen vastgesteld worden en het sa
 aanvangsvoorschotten en de bijkomende voorschotten, verminderd met de afnemingen tijdens de partijen.
 Voor de met casinospelen gelijkgestelde automatische ontspanningstoestellen bestaat de opbrengst (per
 kansspelinrichting) uit het verschil van de sommen die per toestel worden ingezet, verminderd met de winsten
-394
 
  die voor dat toestel werkelijk verdeeld zijn.
 Voor mediaspelen (kansspelen waarvan de exploitatie gebeurt via de media) wordt de belasting geheven op
@@ -26104,13 +24716,7 @@ tot en met
 
 865.000
 
-33
-
 865.000,01
-
--
-
-44
 
 Voor met casinospelen gelijkgestelde automatische ontspanningstoestellen wordt de belasting geheven per
 schijf zoals vermeld in onderstaande tabel.
@@ -26126,48 +24732,31 @@ tot en met
 
 1.200.000
 
-20
-
 1.200.000,01
 
 2.450.000
-
-25
 
 2.450.000,01
 
 3.700.000
 
-30
-
 3.700.000,01
 
 6.150.000
-
-35
 
 8.650.000,01
 
 12.350.000
 
-45
-
 12.350.000,01
-
--
-
-50
 
 6.150.000,01
 
 8.650.000
 
-40
-
 4.3.4. Vrijstellingen
 Vrijstellingen zijn mogelijk zoals bijvoorbeeld de vrijgestelde loterijen, de duivenprijskampen waarbij
 uitsluitend ingezet wordt door de eigenaars van de ingeschreven duiven, enz. (art. 2.12.6.0.1., VCF).
-395
 
  5. DE BELASTING OP DE AUTOMATISCHE
 ONTSPANNINGSTOESTELLEN (AO)
@@ -26236,7 +24825,6 @@ B
 
 Vanaf 1 januari 2023 is een nieuwe categorie van automatische ontspanningstoestellen van toepassing in het
 Vlaamse Gewest. Voortaan worden de toestellen slechts in vier categorieën onderverdeeld, met name 1 tot
-396
 
  en met 4 (art. 2.13.4.0.1.,VCF).
 Aangezien de kenmerken die bepalend zijn voor de indeling van de automatische ontspanningstoestellen zijn
@@ -26248,19 +24836,11 @@ Categorie
 
 Vlaamse gewest
 
-1
-
 4.752,00
-
-2
 
 594,00
 
-3
-
 65,20
-
-4
 
 0,00
 
@@ -26289,7 +24869,6 @@ vennootschap;
 3° bij winstparticipaties die het voorwerp uitmaken van een investeringsspaarplan (de winstparticipatie
 
 wordt door de werknemers ter beschikking gesteld van de vennootschap in de vorm van een nietachtergestelde lening): het bedrag in speciën toegekend overeenkomstig het jaarlijks participatieplan van
-397
 
  de vennootschap;
 4° de belasting die eventueel ten laste van de schuldenaar van de deelname valt ter ontlasting van de
@@ -26314,8 +24893,6 @@ toegekend en het voorwerp zijn van een niet-achtergestelde lening;
 15 % vallen.
 
 Het tarief van de aanvullende belasting bedraagt 23,29 %.
-
-398
 
  Verantwoordelijke uitgever:
 FOD Financiën

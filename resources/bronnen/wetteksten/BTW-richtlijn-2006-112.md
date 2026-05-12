@@ -30,8 +30,8 @@ provenance:
     rationale: "Bekende issue: concordantietabel onderaan bevat dubbele Art.-headings (bv. '###### Art. 2. van Richtlijn 94/5/EG', '###### Art. 4. van Richtlijn 2002/38/EG') — de concordantietabel-stijl genereert sub-headings in de bijlagen die verwarrend zijn. L1 warn: max sectie 36349 chars. Inhoud verder compleet."
     layer1:
       status: warn
-      run_id: 20260512-210357
-      run_at: '2026-05-12T21:03:58Z'
+      run_id: 20260512-210639
+      run_at: '2026-05-12T21:06:39Z'
       heading_count: 673
       max_section_chars: 36349
       file_size_chars: 222242

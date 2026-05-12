@@ -30,8 +30,8 @@ provenance:
     rationale: "Bekende issue: heading/body volgorde. De overwegingen (1)-(16) staan als plain-tekst paragrafen vóór de eigenlijke artikelen, maar overweging-nummers zijn geen headings. De artikelkopjes (###### Artikel N) zijn correct. Voorts zijn lege headings '###### Artikel 15', '###### Artikel 16' aanwezig zonder body."
     layer1:
       status: pass
-      run_id: 20260512-210357
-      run_at: '2026-05-12T21:03:58Z'
+      run_id: 20260512-210639
+      run_at: '2026-05-12T21:06:40Z'
       heading_count: 16
       max_section_chars: 20441
       file_size_chars: 39810

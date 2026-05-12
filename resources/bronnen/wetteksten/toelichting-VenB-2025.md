@@ -17,47 +17,30 @@ provenance:
       version: '2025'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1fc0dd6
+    pipeline_version: 057ab06-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T20:13:39Z'
+  generated_at: '2026-05-12T21:06:39Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T20:58:28Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Cover-fragment A6 (regels 50-65: 'TOELICHTING\\nbij de\\nAANGIFTE IN DE VENNOOTSCHAPSBELASTING\\n\\nAANSLAGJAAR 2025', '-1-\\n\\nbe\\n\\n•\\n'). Paginanummer '-1-' in body (A1). Bullet '•' als PDF-glyph op regel 67 (C1). Sectie-grootte 48748 chars (L1 warn). Structureel: 22 ## headings aanwezig."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: warn
-      run_id: 20260512-210357
-      run_at: '2026-05-12T21:04:02Z'
+      run_id: 20260512-210658
+      run_at: '2026-05-12T21:06:58Z'
       heading_count: 22
-      max_section_chars: 48748
-      file_size_chars: 247177
+      max_section_chars: 48683
+      file_size_chars: 246794
       flags:
         - name: max_section_size
           status: warn
-          detail: 'langste sectie op ##-niveau: 48748 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          detail: 'langste sectie op ##-niveau: 48683 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T20:58:28Z'
-      rationale: "Cover-fragment A6 (regels 50-65: 'TOELICHTING\\nbij de\\nAANGIFTE IN DE VENNOOTSCHAPSBELASTING\\n\\nAANSLAGJAAR 2025', '-1-\\n\\nbe\\n\\n•\\n'). Paginanummer '-1-' in body (A1). Bullet '•' als PDF-glyph op regel 67 (C1). Sectie-grootte 48748 chars (L1 warn). Structureel: 22 ## headings aanwezig."
-      concrete_problemen:
-        - regel: 63
-          categorie: A1
-          type: form-feed
-          voorbeeld: -1-  (paginanummer in body)
-        - regel: 67
-          categorie: C1
-          type: bullet-glyph
-          voorbeeld: •  (PDF-bullet als glyph)
-        - regel: 50
-          categorie: A6
-          type: scrambled-words
-          voorbeeld: TOELICHTING\nbij de\nAANGIFTE IN DE VENNOOTSCHAPSBELASTING
 ---
 
 # Toelichting bij de aangifte in de vennootschapsbelasting — AJ 2025
@@ -76,8 +59,6 @@ indienen via BIZTAX, behoudens indien u van deze verplichting tot elektronische
 indiening wordt vrijgesteld.
 U vindt BIZTAX op de portaalsite van de FOD Financiën fin.belgium.be onder de
 rubriek E-services of via de website www.biztax.be.
-
--1-
 
 be
 
@@ -159,7 +140,6 @@ WIB
 WVV
 
 (van het) Wetboek van vennootschappen en verenigingen;
--2-
 
  W 31.07.1984
 
@@ -264,7 +244,6 @@ Binnenlandse vennootschap:
 enigerlei vennootschap die in België haar voornaamste inrichting of haar zetel van bestuur of beheer heeft en niet
 van de vennootschapsbelasting is uitgesloten.
 De vennootschap die haar statutaire zetel in België heeft, wordt behoudens tegenbewijs vermoed daar ook haar
--3-
 
  voornaamste inrichting of haar zetel van bestuur of beheer te hebben. Het tegenbewijs wordt enkel aanvaard indien
 er bovendien is aangetoond dat de fiscale woonplaats van de vennootschap in een andere Staat dan België is
@@ -336,8 +315,6 @@ door de FSMA is erkend overeenkomstig Verordening (EU) 2015/760 van het Europees
 Gemeenschappelijk beleggingsfonds:
 onder gemeenschappelijk beleggingsfonds wordt verstaan:
 
--4-
-
  a) het onverdeeld vermogen dat een beheervennootschap van instellingen voor collectieve belegging beheert voor
 rekening van de deelnemers overeenkomstig de bepalingen van de W 03.08.2012 of overeenkomstig analoge
 bepalingen van buitenlands recht;
@@ -405,8 +382,6 @@ art. 182, WIB 92, vermelde verenigingen zonder winstoogmerk en andere rechtspers
 1° alleenstaande of uitzonderlijke verrichtingen;
 2° verrichtingen die bestaan in het beleggen van fondsen ingezameld in het kader van de statutaire opdracht;
 
--5-
-
  3° verrichtingen die bestaan in een bedrijvigheid die slechts bijkomstig op nijverheids-, handels- of landbouwverrichtingen betrekking heeft of niet volgens nijverheids- of handelsmethoden wordt uitgevoerd.
 De aandacht wordt gevestigd op de bepalingen van art. 180, eerste lid, 1°, WIB 92, waardoor bepaalde intercommunales, samenwerkingsverbanden, projectverenigingen, autonome gemeentebedrijven en verenigingen die, in het kader
 van hun maatschappelijk belang, hoofdzakelijk:
@@ -461,7 +436,6 @@ uitgiftepremies en andere bedragen waarop ter gelegenheid van de uitgifte van aa
 Wettelijke reserve / Onbeschikbare reserves / Beschikbare reserves
 Onder deze rubrieken moet telkens het bedrag van de desbetreffende boekhoudkundige reserve(s) worden aangegeven, in voorkomend geval te verminderen met het bedrag van de reserve zoals vermeld in art. 184quater of
 541, WIB 92 dat is geboekt op een afzonderlijke subrekening van die boekhoudkundige reserve(s). Die laatste
--6-
 
  bedragen moeten immers worden aangegeven onder de hierna vermelde rubriek ‘Liquidatiereserve’.
 
@@ -548,7 +522,6 @@ de nog te recupereren of uit te boeken excedenten, moet duidelijk blijken uit de
 Andere onderschattingen van activa en overschattingen van passiva
 Hier zijn bedoeld, enerzijds, onderschattingen van grondstoffen, hulpstoffen, goederen in bewerking, gereed product,
 handelsgoederen, bestellingen in uitvoering, portefeuillewaarden en, in het algemeen, alle niet-afschrijfbare activa en,
--7-
 
  anderzijds, overschattingen van het passief (behoud op het passief van schuldenrekeningen die niet ten belope van het
 ingeschreven bedrag met werkelijke schulden overeenstemmen).
@@ -604,8 +577,6 @@ De belastingneutrale verrichtingen van inbreng, fusie, (gedeeltelijke) splitsing
 behoud in volle eigendom (art. 45, § 1, tweede lid en 192, § 1, zevende en achtste lid, WIB 92).
 In geval van tegeldemaking van aandelen waarop voorheen waardeverminderingen zijn aanvaard, moet de verwezenlijkte meerwaarde in een bijlage aan de aangifte eventueel in twee delen worden gesplitst, enerzijds, het deel dat met
 die waardevermindering overeenstemt en, anderzijds, het overige.
-
--8-
 
  -
 
@@ -677,7 +648,6 @@ minnelijk akkoord
 
 De vrijstelling zoals bedoeld in art. 48/1, WIB 92, zoals het bestond vóór de inwerkingtreding van het tweede en derde
 lid die zijn ingevoegd door art. 49, W 28.12.2023, is definitief indien tijdens het belastbare tijdperk het reorganisatieplan
--9-
 
  of het minnelijk akkoord volledig is uitgevoerd en wordt slechts verleend voor zover enerzijds een afschrift wordt overgelegd van het in het Belgisch Staatsblad bekend gemaakte vonnis dat het reorganisatieplan homologeert of dat het
 minnelijk akkoord vaststelt en anderzijds wordt aangetoond dat dit plan of dit akkoord volledig is uitgevoerd (art. 27/1,
@@ -749,7 +719,6 @@ Hier wordt bedoeld het gedeelte van 80 % van de kosten voor de levering, dat wor
 de kosten die vanaf 01.01.2024 werkelijk worden gedaan of gedragen door zelfstandige dagbladhandels (art. 48, W
 12.05.2024).
 Deze bepaling wordt besproken in de ‘Circulaire 2024/C/69 over het belastingstelsel voor de verdeling van papieren
-- 10 -
 
  publicaties’ van 04.11.2024.
 -
@@ -813,8 +782,6 @@ Het gaat inzonderheid om opnemingen bij overlijden, uittreding of uitsluiting va
 ‘Bijzondere aanslagen met betrekking tot verrichtingen die vóór 01.01.1990 hebben plaatsgevonden’).
 Wanneer die verrichtingen vanaf 01.01.1990 hebben plaatsgevonden, wordt verwezen naar rubriek c ‘Overlijden, uittreding of uitsluiting van een vennoot’ van het vak ‘Uitgekeerde dividenden’.
 
-- 11 -
-
  B. Vrijgestelde gereserveerde winst
 Waardeverminderingen op handelsvorderingen
 Bedoeld zijn de waardeverminderingen op handelsvorderingen, geboekt om het hoofd te bieden aan scherp omschreven verliezen die volgens de aan de gang zijnde gebeurtenissen waarschijnlijk zijn, in zover ze beantwoorden aan de
@@ -870,8 +837,6 @@ tijdperk dat aanvangt vóór 01.01.2020 zijn verwezenlijkt, mits de verkoopprijs
 verwezenlijkt en voor elk van de vijf volgende belastbare tijdperken en dat ten belope van één zesde van hun bedrag
 voor elk van die belastbare tijdperken (opgave 275 K).
 
-- 12 -
-
  Gespreid te belasten meerwaarden op materiële en immateriële vaste activa
 Hier moeten worden vermeld de in art. 47, WIB 92, bedoelde verwezenlijkte meerwaarden op immateriële of materiële
 vaste activa, mits een bedrag gelijk aan de verkregen schadevergoeding of de verkoopwaarde wordt herbelegd in de in
@@ -921,7 +886,6 @@ aj. 1991 vrijwillig verwezenlijkte meerwaarden op bepaalde aandelen, die volgens
 Meerwaarden op bedrijfsvoertuigen
 Hier moeten worden vermeld de volgens art. 44bis, WIB 92, vrijgestelde meerwaarden verwezenlijkt op bedrijfsvoertuigen, mits een bedrag gelijk aan de verkregen schadevergoeding of de verkoopwaarde wordt herbelegd op de in dat
 artikel voorziene wijze en gestelde termijnen (opgave 276 N).
-- 13 -
 
  Meerwaarden op binnenschepen
 Hier moeten worden vermeld de volgens art. 44ter, WIB 92, vrijgestelde meerwaarden, die zijn verwezenlijkt op voor de
@@ -976,7 +940,6 @@ akkoord of van het plan, of tot de intrekking ervan.
 Deze vrijstelling is van toepassing indien tijdens het belastbare tijdperk het vonnis dat het reorganisatieplan homologeert
 of het minnelijk akkoord vaststelt, is gepubliceerd in het Belgisch Staatsblad.
 Deze vrijstelling wordt behouden voor de volgende aj. voor zover de vrijgestelde winst geboekt is en blijft op een afzonderlijke rekening van het passief van de balans en niet tot grondslag dient voor de berekening van enige beloning of
-- 14 -
 
  toekenning en dit tot op de datum waarop het plan of het akkoord volledig is uitgevoerd en voor zover een afschrift van
 het in het Belgisch Staatsblad gepubliceerde vonnis alsook een document waaruit blijkt dat het plan of het akkoord nog
@@ -1039,7 +1002,6 @@ j)
 het gedeelte van 20 % van gedane of gedragen kosten, dat in enig vorig belastbaar tijdperk werd aanvaard boven het
 bedrag van de werkelijk gedane of gedragen kosten, voor bepaalde voertuigen die een uitstoot hebben van 0 gram CO2
 per kilometer in zoverre dat gedeelte op één of meer afzonderlijke rekeningen van het passief geboekt is en blijft en niet
-- 15 -
 
  tot grondslag dient voor de berekening van de jaarlijkse dotatie aan de wettelijke reserve of van enige beloning of toekenning (art. 190bis, WIB 92);
 k) de kapitaalsubsidies of de gedeelten ervan die volgens art. 362, WIB 92, moeten worden aangemerkt als winst van latere
@@ -1100,8 +1062,6 @@ het ‘geraamd bedrag van de belastingschulden’, onder te verdelen in aftrekba
 de tijdens het belastbare tijdperk verkregen terugbetalingen van belastingen, met uitzondering van de gewestelijke
 belastingen, die vroeger bij de verworpen uitgaven zijn gevoegd;
 
-- 16 -
-
  -
 
 de regulariseringen van geraamde belastingschulden.
@@ -1152,7 +1112,6 @@ overheden, zelfs wanneer deze geldboeten niet het karakter van een strafrechteli
 hun bedrag is berekend op basis van een aftrekbare belasting, verbeurdverklaringen en straffen van alle aard, zelfs
 indien die geldboeten of straffen worden opgelopen door een persoon die van de vennootschap bezoldigingen ontvangt
 als vermeld in art. 30, WIB 92, verhogingen van sociale bijdragen, fiscale of sociale regularisatieheffingen, alsook de
-- 17 -
 
  geldsommen zoals bedoeld in art. 216bis van het Wetboek van Strafvordering (art. 53, 6°, WIB 92).
 
@@ -1285,7 +1244,6 @@ Bedoeld zijn, onverminderd de toepassing van de art. 54 en 55, WIB 92:
 
 de betaalde of toegekende interesten van leningen wanneer de werkelijke verkrijger ervan niet onderworpen is aan
 een inkomstenbelasting of voor die inkomsten onderworpen is aan een aanzienlijk gunstigere aanslagregeling dan
-- 19 -
 
  die welke voortvloeit uit de in België toepasselijke bepalingen van gemeen recht en indien, in de mate van die
 overschrijding, het totale bedrag van deze leningen, andere dan obligaties of andere gelijksoortige effecten uitgegeven door een openbaar beroep op het spaarwezen en andere dan leningen toegekend door instellingen bedoeld
@@ -1349,7 +1307,6 @@ Voordelen uit maaltijd-, sport-, cultuur- of ecocheques
 Bedoeld zijn de in art. 38, § 1, eerste lid, 25°, WIB 92, vermelde voordelen uit elektronische maaltijdcheques, sport-,
 cultuur- en ecocheques met uitzondering van de in voorkomend geval tot 2 euro per elektronische maaltijdcheque beperkte tussenkomst van de werkgever of de onderneming in de maaltijdcheques, wanneer die tussenkomst voldoet aan
 de in art. 38/1, WIB 92, gestelde voorwaarden.
-- 20 -
 
  Huur en toegekende huurvoordelen en de toegekende vergoedingen en voordelen met betrekking tot een zakelijk gebruiksrecht op een onroerend goed
 Bedoeld zijn de huurprijs en toegekende huurvoordelen evenals de uit hoofde van een recht van opstal, een recht van
@@ -1396,8 +1353,6 @@ disconto geboekt op niet-afschrijfbare immateriële of materiële vaste activa o
 Terugnemingen van vroegere vrijstellingen
 Deze rubriek slaat inzonderheid op:
 a) de voorheen verleende vrijstelling voor:
-
-- 21 -
 
  -
 
@@ -1454,7 +1409,6 @@ het deel van de in art. 193bis, § 1, tweede lid, en 193ter, § 1, WIB 92, verme
 -
 
 in geval van vrijwillige vervreemding van de in art. 193bis, § 1, tweede lid en 193ter, § 1, WIB 92, bedoelde vaste
-- 22 -
 
  activa, die gedurende de eerste drie jaren van de investering plaatsvindt, wordt het bedrag van de voorheen vrijgestelde winst geacht een winst te zijn van het belastbare tijdperk gedurende hetwelk de vervreemding heeft plaatsgevonden (art. 193bis, § 2 en 193ter, § 2, WIB 92).
 
@@ -1514,7 +1468,6 @@ bankrekeningen die worden beheerd door of aangehouden bij één van deze persone
 -
 
 bankrekeningen die worden beheerd door of aangehouden bij kredietinstellingen gevestigd of met een vaste inrichting in een Staat;
-- 23 -
 
  die op het tijdstip waarop de betaling heeft plaatsgevonden:
 a) ofwel door het Mondiaal Forum inzake transparantie en uitwisseling van inlichtingen in belastingaangelegenheden,
@@ -1569,7 +1522,6 @@ De voorheen, volgens de art. 205/1 tot 205/4, WIB 92, vrijgestelde winst met bet
 art. 205/1, § 2, 2°, vijfde streepje, WIB 92, bedoeld intellectueel eigendomsrecht, wordt volledig teruggenomen wanneer
 de bij die vervreemding verkregen vergoedingen niet binnen een termijn van 5 jaar vanaf de eerste dag van het kalenderjaar waarin die vervreemding heeft plaatsgevonden en uiterlijk bij de stopzetting van de beroepswerkzaamheid werden besteed aan ‘kwalificerende uitgaven’ betreffende een of meerdere andere, in art. 205/1, § 2, 1°, WIB 92, bedoelde
 intellectuele eigendomsrechten (art. 205/4, § 5, WIB 92).
-- 24 -
 
  Het bedrag van die terugneming moet onder deze rubriek worden aangegeven.
 
@@ -1619,7 +1571,6 @@ de fietskilometervergoeding’ van 05.09.2024.
 Verdeelkostprijzen voor de levering van kranten en tijdschriften waarvoor een belastingkrediet
 wordt verleend
 Bedoeld is het gedeelte van de verdeelkostprijzen, gedaan of gedragen vanaf 01.07.2024 tot en met 31.12.2026, voor
-- 25 -
 
  de levering van kranten en tijdschriften, die werkelijk door de vennootschap-uitgeefster ten laste zijn genomen en waarvoor zij de verrekening vraagt van een belastingkrediet (art. 50 en 55, W 12.05.2024; zie ook de rubriek ‘Belastingkrediet
 voor de verdeelkostprijzen voor de levering van kranten en tijdschriften’ van het vak ‘Verrekenbare voorheffingen en
@@ -1674,7 +1625,6 @@ hoe ook genaamd, ongeacht uit welken hoofde en op welke wijze die toekenning pla
 
 de gehele of gedeeltelijke terugbetalingen van kapitaal, met uitzondering van de terugbetalingen die volgens art. 18,
 tweede lid, WIB 92, geacht worden voort te komen uit het gestort kapitaal of van uitgiftepremies en andere bedragen
-- 26 -
 
  waarop ter gelegenheid van de uitgifte van aandelen of winstbewijzen is ingeschreven, die met gestort kapitaal
 worden gelijkgesteld en die zijn verkregen ter uitvoering van een regelmatige beslissing van de vennootschap overeenkomstig het WVV of, indien de vennootschap niet onder dit Wetboek ressorteert, volgens de bepalingen van het
@@ -1735,8 +1685,6 @@ Wanneer het maatschappelijk vermogen wordt verdeeld ten gevolge van ontbinding o
 volgens art. 209, eerste lid, WIB 92, het positieve verschil worden aangegeven tussen de uitkeringen in geld, in effecten
 of in enige andere vorm, en het gerevaloriseerde gestorte kapitaal.
 
-- 27 -
-
  In de in art. 210, § 1, WIB 92, bedoelde gevallen wordt de werkelijke waarde van het maatschappelijk vermogen gelijkgesteld met een bij verdeling van het maatschappelijk vermogen uitgekeerde som.
 Het gedeelte van de verdeling van maatschappelijk vermogen dat voortkomt van een vermindering van de liquidatiereserve zoals bedoeld in art. 184quater, WIB 92, en een vermindering van de bijzondere liquidatiereserve zoals vermeld
 in art. 541, WIB 92, moet op regel 1305 worden vermeld.
@@ -1781,8 +1729,6 @@ zeescheepvaart (art. 116, W 02.08.2002) of uit het beheer van zeeschepen voor re
 W 02.08.2002) is ingewilligd.
 In deze rubriek dient het werkelijk resultaat en niet het forfaitair vastgestelde bedrag aan de hand van de tonnage te
 worden ingeschreven. Het forfaitair vastgestelde bedrag wordt op regel 1461 ingeschreven. Op die forfaitair vastgestelde winst zijn geen aftrekken mogelijk.
-
-- 28 -
 
  Werkelijk resultaat uit activiteiten waarvoor de winst niet wordt vastgesteld op basis van de
 tonnage
@@ -1829,7 +1775,6 @@ regel 1412 (positief of negatief) overgebracht naar regel 1427 (positief of nega
 Verliezen van buitenlandse oorsprong die niet in aanmerking worden genomen om de belastbare grondslag vast te stellen
 Hier moeten worden vermeld (code 1419), de in art. 185, § 3, eerste en tweede lid, WIB 92 vermelde verliezen. Aangezien die verliezen buiten beschouwing blijven om de belastbare grondslag vast te stellen, moeten zij worden toegevoegd
 aan het resultaat na toepassing van het aftrekverbod (regel 1427).
-- 29 -
 
  Deze bepaling wordt besproken in de ‘Circulaire 2023/C/103 over de fiscale behandeling van de buitenlandse beroepsverliezen’ van 21.12.2023.
 
@@ -1880,7 +1825,6 @@ Deze bepaling wordt besproken in de ‘Circulaire 2023/C/103 over de fiscale beh
 Correctie van bepaalde hybridemismatches
 Hier is bedoeld, de aan een vaste inrichting toerekenbare winst die vrijgesteld is op grond van een overeenkomst tot
 het vermijden van dubbele belasting die met een lidstaat van de Europese Unie gesloten werd, indien die winst verwezenlijkt werd in het kader van een hybridemismatch en niet belastbaar is in het rechtsgebied van de vaste inrichting
-- 30 -
 
  omdat deze daar niet als dusdanig als vaste inrichting wordt beschouwd (art. 185, § 1, tweede lid, WIB 92).
 Die winst moet worden afgetrokken van het ‘Bij verdrag vrijgesteld resterend resultaat’ en worden toegevoegd aan het
@@ -1939,7 +1883,6 @@ niet aftrekbaar van de winst van dit tijdperk, of van deze van enig later belast
 Aftrek voor innovatie-inkomsten
 Bedoeld is de in de art. 205/1 tot 205/4, WIB 92, omschreven aftrek voor innovatie-inkomsten van het belastbare tijdperk
 (opgave 275 INNO).
-- 31 -
 
  Wanneer er voor het belastbare tijdperk geen of onvoldoende winst is om de aftrek voor innovatie-inkomsten in mindering te kunnen brengen, kan het voor het belastbare tijdperk niet in mindering gebracht gedeelte overgedragen worden
 naar de volgende belastbare tijdperken.
@@ -1989,8 +1932,6 @@ dat 1.000.000 euro overstijgt (art. 207, vijfde lid, WIB 92, zoals gewijzigd doo
 Indien de vennootschap als een ‘kleine vennootschap’ wordt aangemerkt, is de voormelde beperking niet van toepassing op de in art. 206, WIB 92, vermelde vorige verliezen gedurende de eerste 4 belastbare tijdperken vanaf haar
 oprichting (zie ook het vak ‘Beperking van de aftrekken van de resterende winst’) (art. 207, zesde lid, WIB 92).
 
-- 32 -
-
  Overgedragen definitief belaste inkomsten
 Bedoeld is de van vorige belastbare tijdperken overdraagbare DBI-aftrek die niet kon worden afgetrokken wegens gebrek aan of onvoldoende winst of die, door de toepassing van art. 207, negende en tiende lid, WIB 92, zoals ze bestonden vóór hun opheffing door art. 118 van de programmawet van 26.12.2022, nog niet werkelijk in mindering kon worden
 gebracht (art. 205, § 3, WIB 92, zie ook vak ‘Overdracht aftrek definitief belaste inkomsten’).
@@ -2036,7 +1977,6 @@ oorsprong’ van het vak ‘Uiteenzetting van de winst’).
 De voormelde bepalingen over buitenlandse verliezen worden besproken in de ‘Circulaire 2023/C/103 over de fiscale
 behandeling van de buitenlandse beroepsverliezen’ van 21.12.2023.
 Van de forfaitair vastgestelde belastbare winst uit zeescheepvaart kunnen geen beroepsverliezen worden afgetrokken.
-- 33 -
 
  Het eventuele niet verrekende gedeelte van de verliezen uit zeescheepvaart zoals het bestaat op het ogenblik dat de
 winst uit zeescheepvaart of uit het beheer van zeeschepen voor rekening van derden, voor de eerste keer wordt vastgesteld aan de hand van de tonnage, kan na het verstrijken van de periode waarvoor de winst aldus wordt vastgesteld,
@@ -2098,7 +2038,6 @@ hand van de tonnage
 Bedoeld is de nettowinst die voortkomt uit de volgens art. 119, § 2, vierde, vijfde of zesde lid, W 02.08.2002, belastbaar
 geworden meerwaarden bij toetreding van zeeschepen tot het stelsel van de forfaitaire belasting aan de hand van de
 tonnage. Dat is het bedrag dat wordt overgebracht van regel 1627 van het vak ‘Meerwaarden bij toetreding van zeeschepen tot het stelsel van de forfaitaire belasting aan de hand van de tonnage’ (deel ‘Belastbaar bedrag’).
-- 34 -
 
  -
 
@@ -2183,8 +2122,6 @@ attest kon rechtsgeldig worden afgeleverd;
 de voorheen vrijgestelde winst tax shelter bedraagt meer dan 172 % van de fiscale waarde van het tax shelter attest,
 waardoor het overschot moet worden beschouwd als winst (art. 194ter, § 7, vijfde lid, WIB 92).
 
-- 35 -
-
  Voorheen vrijgestelde winst tax shelter belastbaar tegen 25 %
 Het tarief bedraagt 25 % voor wat betreft de voorheen vrijgestelde winst tax shelter in de loop van een belastbaar
 tijdperk met betrekking tot een aj. waarvoor het in art. 215, WIB 92, vermelde, gewoon tarief van de vennootschapsbelasting 25 % bedroeg, die om één van de volgende redenen belastbaar wordt:
@@ -2242,7 +2179,6 @@ zij op het ogenblik van de erkenning reeds erkend was als vennootschap met vast 
 vastgoed of in niet- genoteerde aandelen, of als gereglementeerde vastgoedvennootschap, of reeds ingeschreven was bij de FOD Financiën als gespecialiseerd vastgoedbeleggingsfonds;
 c) de inschrijving bij de FOD Financiën als gespecialiseerd vastgoedbeleggingsfonds, tenzij zij op het ogenblik van
 de inschrijving reeds door de Autoriteit voor Financiële Diensten en Markten erkend was als vennootschap met
-- 36 -
 
  vast kapitaal voor belegging in vastgoed of in niet-genoteerde aandelen, of als gereglementeerde vastgoedvennootschap;
 d) een fusie of een splitsing zoals vermeld in art. 210, § 1, 1° en 1°bis, WIB 92, waaraan een door de Autoriteit voor
@@ -2288,7 +2224,6 @@ Bedoeld zijn de in art. 219, WIB 92, vermelde niet-verantwoorde kosten, voordele
 of voordelen van alle aard.
 Het betreft:
 1° de volgende kosten:
-- 37 -
 
  a) commissies, makelaarslonen, handels- of andere restorno's, toevallige of niet-toevallige vacatiegelden of erelonen,
 gratificaties, vergoedingen of voordelen van alle aard die voor de verkrijgers al dan niet in België belastbare beroepsinkomsten zijn, behoudens de bezoldigingen van meewerkende echtgenoten;
@@ -2343,8 +2278,6 @@ Wanneer tijdens het belastbare tijdperk een verrichting of een gebeurtenis zoals
 WIB 92, heeft plaatsgevonden, moet hier het bedrag van de hiervoor beoogde belaste reserves worden vermeld.
 Er is geen aanslag verschuldigd bij verrichtingen van de overdracht van reserves of de uitkering van dividenden tussen
 twee vennootschappen zoals vermeld in art. 216, 2°, b), WIB 92 (art. 219bis, § 2, vijfde en zesde lid, WIB 92).
-
-- 38 -
 
  Afzonderlijke aanslag van de belaste reserves ten name van erkende kredietinstellingen, tegen
 het tarief van 28 %
@@ -2412,7 +2345,6 @@ in de art. 210, § 1, 6°, of 211, § 1, zesde lid WIB 92;
 -
 
 in de art. 46, § 1, tweede lid, of 217, eerste lid, 1°, tweede streepje, WIB 92,
-- 39 -
 
  waarbij een vennootschap betrokken is die is ingeschreven als gespecialiseerd vastgoedbeleggingsfonds bij de
 FOD Financiën, wanneer:
@@ -2475,7 +2407,6 @@ VOOR
 Hier moet worden vermeld het gedeelte van het voorheen verleende belastingkrediet voor onderzoek en ontwikkeling
 dat onder de vorm van een aanvullende belasting in toepassing van art. 82, § 3, KB/WIB 92, moet worden terugbetaald
 wanneer de in art. 82, § 2, KB/WIB 92, vermelde verplichting tijdens het belastbare tijdperk niet langer wordt nageleefd
-- 40 -
 
  (d.w.z. wanneer de desbetreffende investeringen tijdens het belastbare tijdperk tot andere doeleinden dan voor onderzoek en ontwikkeling zijn gebruikt).
 
@@ -2535,8 +2466,6 @@ l)
 aan erkende instellingen die zich bezig houden met duurzame ontwikkeling in de zin van de wet van 5 mei 1997
 betreffende de coördinatie van het federale beleid inzake duurzame ontwikkeling of aan gelijkwaardige instellingen
 uit een andere lidstaat van de Europese Economische Ruimte die op een vergelijkbare wijze zijn erkend;
-
-- 41 -
 
  m) aan erkende instellingen voor hulpverlening aan ontwikkelingslanden of aan gelijkwaardige instellingen uit een andere lidstaat van de Europese Economische Ruimte die op een vergelijkbare wijze zijn erkend;
 n) aan erkende verenigingen en instellingen die hulp verlenen aan slachtoffers van zeer grote industriële ongevallen
@@ -2624,8 +2553,6 @@ Bedoeld zijn de in art. 67quinquies, WIB 92, bedoelde inkomenscompensatievergoed
 een inkomenscompensatievergoeding aan zelfstandigen die het slachtoffer zijn van hinder ten gevolge van werken op
 het openbaar domein of volgens andere gewestelijke regelgeving worden toegekend aan ondernemingen die het slachtoffer zijn van hinder ten gevolge van werken op het openbaar domein.
 
-- 42 -
-
  -
 
 Andere niet-belastbare bestanddelen
@@ -2687,8 +2614,6 @@ eigen aandelen of n.a.v. de gehele of gedeeltelijke verdeling van het vermogen v
 2° in zover het een dividend betreft waarop de art. 186, 187 of 209, WIB 92, of gelijkaardige bepalingen naar buitenlands recht zijn toegepast, het positieve verschil tussen de verkregen sommen of de waarde van de ontvangen
 bestanddelen en de aanschaffings- of beleggingsprijs van de aandelen die worden verkregen, terugbetaald of geruild door de vennootschap die ze had uitgegeven, eventueel verhoogd met de desbetreffende voorheen uitgedrukte
 en niet vrijgestelde meerwaarden.
-
-- 43 -
 
  De voormelde inkomsten worden verhoogd met de innings- en bewaringskosten en andere soortgelijke kosten welke
 op die inkomsten zouden zijn afgenomen of aangerekend en met de roerende voorheffing.
@@ -2754,7 +2679,6 @@ in aanmerking komen;
 
 2° dividenden verdeeld door private privaks zoals bedoeld in art. 298, W 19.04.2014, in de mate dat de inkomsten
 voortkomen van gerealiseerde meerwaarden op beleggingen zoals bedoeld in art. 192, § 3, 1° en 2°, WIB 92, of
-- 44 -
 
  dividenden voortkomende van die beleggingen;
 3° verkregen dividenden wegens een rechtstreekse of onrechtstreekse deelneming in een financieringsvennootschap
@@ -2830,8 +2754,6 @@ Die inkomsten worden verleend of toegekend door een vennootschap voor zover ze w
 aanzienlijk gunstiger is dan in België.
 Die uitsluiting is niet van toepassing wanneer:
 
-- 45 -
-
  -
 
 de daadwerkelijk geheven belasting globaal genomen op de winsten die voortkomen uit de buitenlandse inrichting
@@ -2897,8 +2819,6 @@ regels 1635 en 1636, voor andere inkomsten van Belgische oorsprong, andere dan d
 
 regels 1637 en 1638, voor andere inkomsten van buitenlandse oorsprong, andere dan deze vermeld op regel 1643.
 
-- 46 -
-
  Op de regel 1635 zijn ook te vermelden, de inkomsten die voortvloeien uit verrichtingen zoals vermeld in de rubrieken
 ‘Gehele of gedeeltelijke verdeling van maatschappelijk vermogen’ (regels 1511 en 1512) in het vak ‘Bijzondere aanslagen met betrekking tot verrichtingen die vóór 01.01.1990 hebben plaatsgevonden’, namelijk een bedrag gelijk aan het
 meerdere verschil tussen de sommen verkregen in geval van een niet van belasting vrijgestelde gehele of gedeeltelijke
@@ -2946,7 +2866,6 @@ tijdperk.
 Op regel 1703 het bedrag vermelden van de overgedragen DBI-aftrek dat werkelijk wordt afgetrokken tijdens het belastbare tijdperk.
 Op regel 1704 het saldo van de DBI-aftrek vermelden dat overdraagbaar is naar het volgende belastbare tijdperk
 (art. 205, § 3, WIB 92).
-- 47 -
 
  VAK - COMPENSEERBARE VERLIEZEN
 Het bedrag van de vorige beroepsverliezen dat in beginsel voor compensatie in aanmerking komt, vermelden op
@@ -2992,7 +2911,6 @@ Indien de vennootschap een ‘kleine vennootschap’ is, kan zij in beginsel aan
 20 % op de eerste schijf van 100.000 euro (art. 215, tweede lid, WIB 92).
 De volgende vennootschappen die een ‘kleine vennootschap’ zijn, zijn evenwel uitgesloten van het voormelde tarief:
 a) vennootschappen (andere dan overeenkomstig art. 8:4, WVV, erkende coöperatieve vennootschappen) die aandelen bezitten waarvan de beleggingswaarde meer bedraagt dan 50 %, hetzij van de gerevaloriseerde waarde van het
-- 48 -
 
  gestorte kapitaal, hetzij van het gestorte kapitaal verhoogd met de belaste reserves en de geboekte meerwaarden.
 In aanmerking komen de waarde van de aandelen en het bedrag van het gestorte kapitaal, de reserves en de
@@ -3044,8 +2962,6 @@ Op de regels 1816 tot 1819 het overschot aan voorafbetalingen dat in aanmerking 
 van de binnenlandse bijheffing vermelden. Die voorafbetalingen komen overeen met de voorafbetalingen die vermeld
 zijn in het overeenstemmende vak van de aangifte in de binnenlandse bijheffing.
 
-- 49 -
-
  VAK - VERREKENBARE VOORHEFFINGEN EN OVERIGE VERREKENBARE BESTANDDELEN
 In dit vak moeten de verschillende voorheffingen en andere bestanddelen worden vermeld die met de verschuldigde
 vennootschapsbelasting verrekenbaar zijn (zie ook de toelichting bij het vak ‘Definitief belaste inkomsten’, laatste lid).
@@ -3088,7 +3004,6 @@ Te vermelden:
 op regel 1840:
 het totale bedrag van de verrekenbare en terugbetaalbare voorheffingen (totaal van de op regels 1841 tot 1846 en 1859
 ingeschreven bedragen);
-- 50 -
 
  op regel 1841:
 de verrekenbare roerende voorheffing, behalve die bedoeld op Belgische definitief belaste liquidatieboni of boni bij
@@ -3133,8 +3048,6 @@ toegekend in toepassing van de CAO nr. 164’ van 01.07.2024.
 Belastingkrediet voor de facultatieve verhoging van de fietskilometervergoeding voor woonwerkverplaatsingen
 Volgens de art. 18 en 19, W 22.12.2023, kan de vennootschap, onder bepaalde voorwaarden, de verrekening vragen
 van een belastingkrediet voor de facultatieve verhoging van de fietskilometervergoeding voor de woon-werkverplaatsingen die zij toekent voor de verplaatsingen gedaan in de periode van 01.01.2024 tot en met 31.12.2026 (zie ook
-
-- 51 -
 
  rubriek ‘Uitgaven met betrekking tot de facultatieve verhoging van de fietskilometervergoeding voor woon-werkverplaatsingen waarvoor een belastingkrediet wordt verleend’ van het vak ‘Verworpen uitgaven en overige bestanddelen van
 het resultaat’).
@@ -3181,7 +3094,6 @@ overdracht zoals bedoeld in art. 210, § 1, 4°, WIB 92, van de voornaamste inri
 beheer naar een andere lidstaat van de Europese Unie of naar een andere lidstaat van de Europese Economische
 Ruimte waarmee België een van toepassing zijnde overeenkomst heeft die in wederzijdse bijstand voor de invordering voorziet en in de mate dat dit dividend voortvloeit uit de meerwaarden op de ten gevolge van de verrichting
 overgedragen bestanddelen, die aangewend worden en behouden blijven in de fiscale woonplaats van de vennootschap of binnen een buitenlandse inrichting van deze vennootschap die gevestigd zijn in een andere lidstaat van de
-- 52 -
 
  Europese Unie of in een andere lidstaat van de Europese Economische Ruimte waarmee België een van toepassing
 zijnde overeenkomst heeft die in wederzijdse invorderingsbijstand voorziet;
@@ -3243,8 +3155,6 @@ Dit vak heeft als doel te bepalen of een vennootschap al dan niet als een ‘kle
 Het vakje op de regel 1871 aanvinken (in de papieren aangifte moet op die regel ‘JA’ worden vermeld) indien de vennootschap is verbonden met één of meerdere andere vennootschappen in de zin van art. 1:20, WVV, zoals vermeld in
 art. 1:24, § 6, van hetzelfde Wetboek. Indien dat niet het geval is, moet op de regel 1871 niets vermeld worden.
 
-- 53 -
-
  Voor een VZW, stichting of een andere rechtspersoon die op overeenkomstige wijze beantwoordt aan de criteria zoals
 opgenomen in art. 1:24, §§ 1 tot 6, WVV, moet eveneens worden nagegaan of er verbondenheid bestaat in de zin van
 art. 1:20, WVV.
@@ -3300,8 +3210,6 @@ Indien meerdere buitenlandse vennootschappen en/of meerdere buitenlandse inricht
 informatie bevat. Die bijlage moet worden toegevoegd in de rubriek ‘Bijlage met betrekking tot de gecontroleerde buitenlandse ondernemingen als meerdere buitenlandse vennootschappen en/of meerdere buitenlandse inrichtingen moeten worden aangegeven’ van het tabblad 275.1.B van de aangifte.
 Deze bepaling wordt besproken in de ‘Circulaire 2024/C/82 over de gewijzigde CFC-regeling’ van 13.12.2024.
 
-- 54 -
-
  VAK - GROEPSBIJDRAGEOVEREENKOMSTEN
 Hier moet worden vermeld het ondernemingsnummer van elke binnenlandse vennootschap of van elke Belgische inrichting van een buitenlandse vennootschap waarmee de belastingplichtige voor dit aj. een groepsbijdrage overeenkomst heeft afgesloten.
 
@@ -3340,7 +3248,6 @@ die vanaf 01.07.2022 rechtstreeks of onrechtstreeks zijn verricht aan personen, 
 die in art. 307, § 1/2, eerste lid, WIB 92, worden bedoeld indien die betalingen niet zijn aangegeven overeenkomstig
 dat artikel, of als de betalingen toch aangegeven zijn, indien de belastingplichtige niet door alle rechtsmiddelen heeft
 aangetoond dat zij in het kader van werkelijke en oprechte verrichtingen en met personen andere dan artificiële constructies zijn verricht (art. 68, derde lid, W 10.08.2015 zoals ingevoegd door art. 62, W 05.07.2022).
-- 55 -
 
  Beperking van de aftrek van vorige verliezen en van de aftrek voor risicokapitaal die onbeperkt
 werd overgedragen van de vorige belastbare tijdperken, in functie van het minimumbedrag van
@@ -3350,7 +3257,3 @@ MODEL 275.1 Ned.
 
 Het bedrag van de aftrek van vorige verliezen en het bedrag van de aftrek voor risicokapitaal dat onbeperkt werd overgedragen van de vorige belastbare tijdperken, die werkelijk zouden kunnen worden afgetrokken (resp. regels 1436 en
 1443), worden beperkt voor zover en in de mate dat het netto belastbaar inkomen uit de diamanthandel door de toepassing van één of meerdere van die aftrekken minder bedraagt dan 0,55 % van de omzet uit die diamanthandel.
-
-- 56 -
-
- 

@@ -30,8 +30,8 @@ provenance:
     rationale: "F3 naam-mismatch: de file heet 'WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)' maar de body bevat willekeurige Belgisch Staatsblad-content: vakbondsvormingsreglementen, dierenwelzijn KB, KBO-aangifte-regels, Wonen-Vlaanderen vacature-aankondigingen. Max sectie 116180 chars. Verkeerde bron."
     layer1:
       status: warn
-      run_id: 20260512-210357
-      run_at: '2026-05-12T21:04:01Z'
+      run_id: 20260512-210639
+      run_at: '2026-05-12T21:06:43Z'
       heading_count: 352
       max_section_chars: 116180
       file_size_chars: 622737

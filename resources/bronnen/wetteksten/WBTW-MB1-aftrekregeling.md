@@ -27,8 +27,8 @@ provenance:
     rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: kolom-bleed in bijlage-regels. needs-rework.'
     layer1:
       status: warn
-      run_id: 20260512-210357
-      run_at: '2026-05-12T21:04:00Z'
+      run_id: 20260512-210639
+      run_at: '2026-05-12T21:06:43Z'
       heading_count: 3
       max_section_chars: 10770
       file_size_chars: 11543
