@@ -43,31 +43,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:46Z'
+  generated_at: '2026-05-12T23:38:58Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (33 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 32
       max_section_chars: 17772
-      file_size_chars: 49356
+      file_size_chars: 49352
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (33 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2022/09 – Consolidatie bij de horizontale groep (consortium)
 
@@ -89,7 +84,7 @@ Er bestaat een onweerlegbaar[^8] vermoeden dat vennootschappen onder centrale le
 Er bestaat een weerlegbaar vermoeden[^10] dat vennootschappen onder centrale leiding staan wanneer de meerderheid van de stemrechten verbonden aan de aandelen of andere effecten[^11] worden gehouden door dezelfde personen (behoudens wanneer de aandelen of andere effecten worden gehouden door overheden). 
 
 ### Moment waarop de aanwezigheid van de centrale leiding moet worden vastgesteld
-De Commissie heeft zich reeds uitgesproken over de beoordeling van de criteria voor de grootte van een vennootschap[^12]. In haar advies vermeldt de Commissie dat, ingeval de vennootschap met één of meerdere andere vennootschappen is verbonden zoals bedoeld in artikel 1:20 WVV, de beoordeling van de grootte van een vennootschap dient te gebeuren op geconsolideerde of geaggregeerde[^13] basis en dit op balansdatum van het laatst afgesloten boekjaar. In artikel 1:19, § 1 WVV wordt niet expliciet bepaald op welk tijdstip de beoordeling van de aanwezigheid van een centrale leiding moet plaatsvinden. De Richtlijn 2013/34/EU[^14] spreekt zich enkel uit over het geval waarbij de bestuursorganen voor het merendeel bestaan uit dezelfde personen: “[…]* de bestuurs-, de leidinggevende of de toezichthoudende organen van die onderneming en van een of meer andere ondernemingen* […] *gedurende het boekjaar en tot de opstelling van de geconsolideerde financiële overzichten in meerderheid uit dezelfde personen bestaan*”.[^15] 
+De Commissie heeft zich reeds uitgesproken over de beoordeling van de criteria voor de grootte van een vennootschap[^12]. In haar advies vermeldt de Commissie dat, ingeval de vennootschap met één of meerdere andere vennootschappen is verbonden zoals bedoeld in artikel 1:20 WVV, de beoordeling van de grootte van een vennootschap dient te gebeuren op geconsolideerde of geaggregeerde[^13] basis en dit op balansdatum van het laatst afgesloten boekjaar. In artikel 1:19, § 1 WVV wordt niet expliciet bepaald op welk tijdstip de beoordeling van de aanwezigheid van een centrale leiding moet plaatsvinden. De Richtlijn 2013/34/EU[^14] spreekt zich enkel uit over het geval waarbij de bestuursorganen voor het merendeel bestaan uit dezelfde personen: “[…]*de bestuurs-, de leidinggevende of de toezichthoudende organen van die onderneming en van een of meer andere ondernemingen* […] *gedurende het boekjaar en tot de opstelling van de geconsolideerde financiële overzichten in meerderheid uit dezelfde personen bestaan*”.[^15] 
 
 ### Belang voor de opstelling van de statutaire jaarrekening
 Een goed begrip van de definitie van een consortium is ook van belang voor de opstelling van de enkelvoudige jaarrekening. Aandelen of andere effecten die worden aangehouden in een vennootschap waarmee een consortium wordt gevormd, worden op de balans in de enkelvoudige jaarrekening van de deelnemende vennootschap, ongeacht het deelnemingspercentage, vermeld onder de financiële vaste activa bij de “Verbonden ondernemingen”.[^16]
@@ -192,7 +187,7 @@ Artikel 3:24, tweede lid WVV stelt dat elk van de vennootschappen die het consor
 
 De geconsolideerde jaarrekening wordt op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap (artikel 3:109, eerste lid KB WVV). De geconsolideerde jaarrekening kan evenwel op een ander tijdstip worden afgesloten om rekening te houden met de balansdatum van de meeste of van de belangrijkste van de in de consolidatie opgenomen ondernemingen (artikel 3:109, tweede lid KB WVV). 
 
-Uit een samenlezing van de artikelen 3:22 en 3:24 WVV en artikel 3:109, eerste lid KB WVV volgt dat* stricto sensu *meerdere (horizontaal) geconsolideerde jaarrekeningen nodig zijn indien de vennootschappen die het consortium vormen hun jaarrekening niet op dezelfde datum afsluiten. De Commissie is van mening dat de consolidatieplichtige leden van een consortium er zich in dat geval toe kunnen beperken om slechts één geconsolideerde jaarrekening van het consortium op te stellen:
+Uit een samenlezing van de artikelen 3:22 en 3:24 WVV en artikel 3:109, eerste lid KB WVV volgt dat*stricto sensu*meerdere (horizontaal) geconsolideerde jaarrekeningen nodig zijn indien de vennootschappen die het consortium vormen hun jaarrekening niet op dezelfde datum afsluiten. De Commissie is van mening dat de consolidatieplichtige leden van een consortium er zich in dat geval toe kunnen beperken om slechts één geconsolideerde jaarrekening van het consortium op te stellen:
 
 - indien het uiterst moeilijk zou blijken om de actief- en passiefbestanddelen, rechten en verplichtingen van de leden van het consortium[^42], dan wel de opbrengsten en kosten uit de door de (horizontaal) geconsolideerde resultatenrekening bestreken periode[^43] in de geconsolideerde jaarrekening van het consortium op te nemen op de afsluitingsdata van de leden van het consortium of zulks het opstellen van de (horizontaal) geconsolideerde jaarrekening van het consortium uitermate zou vertragen; 
 - mits tussen de balansdatum van de (horizontaal) geconsolideerde jaarrekening van het consortium en de balansdata van de jaarrekeningen van de in de (horizontaal) geconsolideerde jaarrekening opgenomen vennootschappen een periode van maximaal drie maanden ligt. 
@@ -213,7 +208,7 @@ Om te kunnen genieten van voormelde vrijstelling moeten de geconsolideerde jaarr
 ## Consolidatiemethode
 De vennootschappen die het consortium vormen worden in de geconsolideerde jaarrekening opgenomen volgens de methode van de integrale consolidatie. Dit volgt uit een samenlezing van artikel 3:24, tweede lid WVV en artikel 3:124, eerste lid, 1° KB WVV. 
 
-Artikel 3:30, § 2, tweede lid WVV stelt dat in de geconsolideerde jaarrekening van het consortium onder de posten van het eigen vermogen de samengevoegde bedragen die zijn toe te rekenen aan elk van de vennootschappen die het consortium vormen, worden opgenomen. Hierbij worden de bedragen die worden vermeld in de posten van het eigen vermogen van deze vennootschappen samengevoegd en behouden ze hun eigen karakter (beschikbare/onbeschikbare inbreng, kapitaal, uitgiftepremies, herwaarderingsmeerwaarden, reserves of overgedragen resultaat). Wanneer de consolidatiekring kapitaalhoudende en kapitaalloze vennootschappen omvat, voorziet het model van de geconsolideerde jaarrekening beschikbaar gesteld door de NBB dat de bedragen van de posten *Onbeschikbare inbreng*,* Beschikbare inbreng* of *Kapitaal* in de geconsolideerde jaarrekening op aparte posten van de rubriek Inbreng worden vermeld.
+Artikel 3:30, § 2, tweede lid WVV stelt dat in de geconsolideerde jaarrekening van het consortium onder de posten van het eigen vermogen de samengevoegde bedragen die zijn toe te rekenen aan elk van de vennootschappen die het consortium vormen, worden opgenomen. Hierbij worden de bedragen die worden vermeld in de posten van het eigen vermogen van deze vennootschappen samengevoegd en behouden ze hun eigen karakter (beschikbare/onbeschikbare inbreng, kapitaal, uitgiftepremies, herwaarderingsmeerwaarden, reserves of overgedragen resultaat). Wanneer de consolidatiekring kapitaalhoudende en kapitaalloze vennootschappen omvat, voorziet het model van de geconsolideerde jaarrekening beschikbaar gesteld door de NBB dat de bedragen van de posten *Onbeschikbare inbreng*,*Beschikbare inbreng* of *Kapitaal* in de geconsolideerde jaarrekening op aparte posten van de rubriek Inbreng worden vermeld.
 
 Aangezien de geconsolideerde balans van een zuiver consortium een loutere optelling[^50] is van de balansen van de vennootschappen die het consortium vormen, zal er geen sprake zijn van consolidatieverschillen en evenmin van ”belangen van derden”. Met een zuiver consortium wordt hier bedoeld dat geen van de leden van het consortium zelf deelnemingen bezit.
 

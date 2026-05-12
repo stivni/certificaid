@@ -25,39 +25,30 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:05Z'
+  generated_at: '2026-05-12T23:37:17Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:14Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B4: plain-text-header "DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW" (regel 207) zonder ##-prefix. 91 andere headings correct; dit is een ETL-omissie op 1 sectie.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: warn
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:29Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:38Z'
       heading_count: 91
       max_section_chars: 25937
-      file_size_chars: 120969
+      file_size_chars: 120965
       flags:
         - name: max_section_size
           status: warn
           detail: 'langste sectie op ###-niveau: 25937 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:14Z'
-      rationale: 'B4: plain-text-header "DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW" (regel 207) zonder ##-prefix. 91 andere headings correct; dit is een ETL-omissie op 1 sectie.'
-      concrete_problemen:
-        - regel: 207
-          categorie: B4
-          type: allcaps-struct-label
-          voorbeeld: DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW
 ---
 # CBN-advies S100 - Vragen en antwoorden over de sociale balans
 
@@ -438,7 +429,7 @@ Als een onderneming in de praktijk toch statutairen in haar personeelsregister i
 Werknemers wiens toestand niet uitdrukkelijk statutair is geregeld, zijn te beschouwen als werknemers verbonden met een arbeidsovereenkomst.[^57] 
 
 #### Schoolstages
-Een student die in het kader van een schoolstage met het oog op het behalen van het diploma, werkzaam is in een onderneming, heeft normaliter geen contract met die onderneming; hij wordt niet ingeschreven in het personeelsregister van die onderneming en wordt dus niet vermeld in het deel I.A. *Staat van de werknemers ingeschreven in het personeelsregister*; vermits zo'n stage in principe niet bezoldigd is, wordt voor de rubriek 101 -* Aantal daadwerkelijk gepresteerde uren* geen rekening gehouden met het aantal daadwerkelijk door de (school)stagiair gepresteerde uren. Als de onderneming in zo'n geval toch beslist een "(school)stagevergoeding" toe te kennen, vertegenwoordigt deze vergoeding geen bezoldiging op te nemen in de rekening 620 van het genormaliseerd rekeningenstelsel.
+Een student die in het kader van een schoolstage met het oog op het behalen van het diploma, werkzaam is in een onderneming, heeft normaliter geen contract met die onderneming; hij wordt niet ingeschreven in het personeelsregister van die onderneming en wordt dus niet vermeld in het deel I.A. *Staat van de werknemers ingeschreven in het personeelsregister*; vermits zo'n stage in principe niet bezoldigd is, wordt voor de rubriek 101 -*Aantal daadwerkelijk gepresteerde uren* geen rekening gehouden met het aantal daadwerkelijk door de (school)stagiair gepresteerde uren. Als de onderneming in zo'n geval toch beslist een "(school)stagevergoeding" toe te kennen, vertegenwoordigt deze vergoeding geen bezoldiging op te nemen in de rekening 620 van het genormaliseerd rekeningenstelsel.
 
 #### Voltijds conventioneel brugpensioen
 Voltijds conventioneel brugpensioen veronderstelt ontslag door de werkgever, dus beëindiging van de arbeidsovereenkomst (cf. 2.4.2).
@@ -734,7 +725,7 @@ In het tweede geval moet het personeelslid worden beschouwd als deeltijds tewerk
 
 E. Uitzendkrachten
 
-Door de wijzigingen die door het KB betreffende de sociale balans werden aangebracht aan het KB van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen, worden de diensten gepresteerd door uitzendkrachten beschouwd als diensten waarvan de kost wordt geboekt op een subrekening van rekening 61 - *Diensten en diverse goederen*, en niet op de rekening 62 -* Bezoldigingen, sociale lasten en pensioenen*. Er wordt geen onderscheid gemaakt naargelang deze uitzendkrachten al dan niet in het personeelsregister ingeschreven werknemers vervangen.
+Door de wijzigingen die door het KB betreffende de sociale balans werden aangebracht aan het KB van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen, worden de diensten gepresteerd door uitzendkrachten beschouwd als diensten waarvan de kost wordt geboekt op een subrekening van rekening 61 - *Diensten en diverse goederen*, en niet op de rekening 62 -*Bezoldigingen, sociale lasten en pensioenen*. Er wordt geen onderscheid gemaakt naargelang deze uitzendkrachten al dan niet in het personeelsregister ingeschreven werknemers vervangen.
 
 Deze kosten worden vermeld in de rubriek 152 van de sociale balans.
 
@@ -790,7 +781,7 @@ Gelet op de bijzondere modaliteiten van de uitzendarbeid enerzijds, en de gewone
 
 De uitzendbureaus bezorgen normaliter het aantal daadwerkelijk door uitzendkrachten gepresteerde uren aan hun cliënten-gebruikers, die dan de voorgestelde berekening kunnen uitvoeren.
 
-De kosten die aan het uitzendbureau worden betaald, en moeten worden vermeld in de eerste kolom van rubriek 152 worden niet geboekt op de rekening 62 - *Personeelskosten*, maar op de rekening 617 -* Uitzendkrachten en personen ter beschikking gesteld van de onderneming*, die een subrekening is van 61 -* Diensten en diverse goederen*.
+De kosten die aan het uitzendbureau worden betaald, en moeten worden vermeld in de eerste kolom van rubriek 152 worden niet geboekt op de rekening 62 - *Personeelskosten*, maar op de rekening 617 -*Uitzendkrachten en personen ter beschikking gesteld van de onderneming*, die een subrekening is van 61 -*Diensten en diverse goederen*.
 
 Het saldo van deze rekening 617 komt dus overeen met de som van de bedragen die in de sociale balans vermeld worden in de kolommen 1 en 2 van de rubriek 152.
 

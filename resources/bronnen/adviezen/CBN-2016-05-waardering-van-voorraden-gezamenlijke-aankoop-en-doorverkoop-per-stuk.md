@@ -23,31 +23,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:18Z'
+  generated_at: '2026-05-12T23:38:28Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 3
-      max_section_chars: 7244
-      file_size_chars: 10061
+      max_section_chars: 7242
+      file_size_chars: 10059
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2016/5 - Waardering van voorraden: gezamenlijke aankoop en doorverkoop per stuk
 
@@ -80,9 +75,7 @@ Een gelijke verdeling van de aanschaffingsprijs van de partij over de verschille
 
 De enige “objectieve criteria” voor afzonderlijke waardering vloeien vaak voort uit de prijs waaraan de verschillende elementen worden verkocht en de overeenstemmende marge.
 
-Om deze reden dient volgens de Commissie te worden verwezen naar CBN-advies 126/7 waarin specifiek de waardering van de aanschaffingsprijs van de voorraden op 
-
-grond van de verkoopprijs wordt behandeld.
+Om deze reden dient volgens de Commissie te worden verwezen naar CBN-advies 126/7 waarin specifiek de waardering van de aanschaffingsprijs van de voorraden op grond van de verkoopprijs wordt behandeld.
 
 In CBN-advies 126/7 wordt het bijzondere geval behandeld met betrekking tot de boeking van voorraden in de sector van distributiebedrijven en meer bepaald, de toepassing van de zogenaamde “additieve methode”, waarbij de diverse kostenbestanddelen worden toegerekend aan de voorraadrekening omdat ze werden gemaakt om ze op dat ogenblik op die plaats te brengen in de staat waarin zij zich bevinden.[^7] 
 

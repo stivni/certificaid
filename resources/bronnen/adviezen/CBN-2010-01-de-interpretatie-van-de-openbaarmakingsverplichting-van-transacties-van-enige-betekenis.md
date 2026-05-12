@@ -21,31 +21,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:56Z'
+  generated_at: '2026-05-12T23:38:06Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (8 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 7
-      max_section_chars: 9085
-      file_size_chars: 13735
+      max_section_chars: 9083
+      file_size_chars: 13733
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (8 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2010/1 - De interpretatie van de openbaarmakingsverplichting van transacties van enige betekenis met verbonden partijen buiten normale marktvoorwaarden, zoals bepaald in het koninklijk besluit van 10 augustus 2009
 
@@ -86,9 +81,9 @@ De vaststelling of een transactie al dan niet van enige betekenis is, moet teven
 ## Transacties buiten normale marktvoorwaarden
 Vooreerst moet gesteld worden dat de Richtlijn zelf niet voorziet in een omschrijving van deze passus.
 
-Wat betreft transacties *buiten normale marktvoorwaarden* expliciteert de Europese Commissie in het document “European Commission proposal for amending the Accounting Directives - Frequently Asked Questions” in verband met de voorgenomen invoering van deze passus, het volgende: *“Therefore, it is preferable to limit the disclosure to those transactions which have been concluded with the involvement of parties who may potentially have a conflict of interest, in other words transactions not performed at “arm’s length”, i.e. not under normal market conditions.”[^7] *.
+Wat betreft transacties *buiten normale marktvoorwaarden* expliciteert de Europese Commissie in het document “European Commission proposal for amending the Accounting Directives - Frequently Asked Questions” in verband met de voorgenomen invoering van deze passus, het volgende: *“Therefore, it is preferable to limit the disclosure to those transactions which have been concluded with the involvement of parties who may potentially have a conflict of interest, in other words transactions not performed at “arm’s length”, i.e. not under normal market conditions.”[^7]*.
 
-Uit deze passus blijkt dat met *“transacties buiten normale marktvoorwaarden”*, deze worden bedoeld die niet* “at arm’s length”* zijn tot stand gekomen. 
+Uit deze passus blijkt dat met *“transacties buiten normale marktvoorwaarden”*, deze worden bedoeld die niet*“at arm’s length”* zijn tot stand gekomen. 
 
 Het begrip *“onder normale marktvoorwaarden”* is niet nieuw in de Belgische wetgeving. 
 

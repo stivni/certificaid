@@ -37,31 +37,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:50Z'
+  generated_at: '2026-05-12T23:39:01Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 6
-      max_section_chars: 14852
-      file_size_chars: 22711
+      max_section_chars: 14850
+      file_size_chars: 22707
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2024/01 – Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming
 
@@ -110,8 +105,8 @@ Op het ogenblik van de omzetting is het gebouw 510.000 euro meer waard dan de ui
 | Balans na omzetting|
 |---|
 | 2210.0 Gebouwen: aanschaffingswaarde| 990.000| 1319 Overige onbeschikbare reserves| 1.100.000|
-| 2210.8 Gebouwen: latente meerwaarden| 510.000| *1319.0 Overige onbeschikbare reserves*|* 590.000*|
-| 2210.9 Gebouwen: geboekte afschrijvingen| (300.000) | *1319.1 Latente meerwaarden in onbeschikbare reserves*|* 510.000*|
+| 2210.8 Gebouwen: latente meerwaarden| 510.000| *1319.0 Overige onbeschikbare reserves*|*590.000*|
+| 2210.9 Gebouwen: geboekte afschrijvingen| (300.000) | *1319.1 Latente meerwaarden in onbeschikbare reserves*|*510.000*|
 | 5500 Kredietinstellingen: rekening-courant| 100.000 | 44 Handelsschulden| 200.000|
 | | 1.300.000| | 1.300.000|
 
@@ -133,8 +128,8 @@ Op het ogenblik van de omzetting van de VZW in een erkende CVSO bedraagt de werk
 | Balans na omzetting|
 |---|
 | 510x.0 Geldbeleggingen: aanschaffingswaarde| 850.000 | 1319 Overige onbeschikbare reserves| 850.000|
-| 510x.8 Geldbeleggingen: latente meerwaarden| 150.000| *1319.0 Overige onbeschikbare reserves*|* 700.000*|
-| 519x Geldbeleggingen: waardeverminderingen| (50.000) | *1319.1 Latente meerwaarden in onbeschikbare reserves*|* 150.000*|
+| 510x.8 Geldbeleggingen: latente meerwaarden| 150.000| *1319.0 Overige onbeschikbare reserves*|*700.000*|
+| 519x Geldbeleggingen: waardeverminderingen| (50.000) | *1319.1 Latente meerwaarden in onbeschikbare reserves*|*150.000*|
 | 5500 Kredietinstellingen: rekening-courant| 100.000 | 44 Handelsschulden| 200.000|
 | | 1.050.000| | 1.050.000|
 

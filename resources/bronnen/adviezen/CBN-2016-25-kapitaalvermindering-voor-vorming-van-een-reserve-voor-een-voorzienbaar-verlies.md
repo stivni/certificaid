@@ -18,31 +18,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:22Z'
+  generated_at: '2026-05-12T23:38:32Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (12 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 11
-      max_section_chars: 4940
-      file_size_chars: 8500
+      max_section_chars: 4938
+      file_size_chars: 8498
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (12 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2016/25 – Kapitaalvermindering voor vorming van een reserve voor een voorzienbaar verlies
 
@@ -81,9 +76,7 @@ Eerst en vooral moet het voorzienbaar verlies dat de vennootschap wil dekken, wo
 ##### Beperking tot 10 % van het geplaatst kapitaal na kapitaalvermindering (binnen de grenzen van het minimumkapitaal)
 De reserve moet ook, in voorkomend geval, worden beperkt tot 10 % van het geplaatst kapitaal *na kapitaalvermindering*.
 
-Aan de hand van de volgende formules kan het maximale bedrag worden berekend dat als reserve mag worden gevormd om een voorzienbaar verlies te dekken (bovendien moet dit bedrag binnen de grenzen blijven van het minimumkapitaal na afloop van de verrichting).[^9] 
-
-x = maximaal bedrag onbeschikbare reserve om een voorzienbaar verlies te dekken 
+Aan de hand van de volgende formules kan het maximale bedrag worden berekend dat als reserve mag worden gevormd om een voorzienbaar verlies te dekken (bovendien moet dit bedrag binnen de grenzen blijven van het minimumkapitaal na afloop van de verrichting).[^9] x = maximaal bedrag onbeschikbare reserve om een voorzienbaar verlies te dekken 
 
 K = geplaatst kapitaal na kapitaalvermindering zoals volgt uit de authentieke akte tot wijziging van de statuten
 

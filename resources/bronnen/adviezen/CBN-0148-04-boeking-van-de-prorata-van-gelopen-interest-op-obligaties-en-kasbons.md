@@ -32,31 +32,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:41Z'
+  generated_at: '2026-05-12T23:37:51Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:30Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 5
-      max_section_chars: 6724
-      file_size_chars: 11417
+      max_section_chars: 6722
+      file_size_chars: 11415
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN advies 148-4 - Boeking van de prorata van gelopen interest op obligaties en kasbons
 Krachtens de boekhoudwetgeving moeten de kosten en opbrengsten steeds worden toegerekend aan het boekjaar waarop zij betrekking hebben. Artikel 19, vierde lid van het koninklijk besluit van 8 oktober 1976 bepaalt immers dat "er rekening moet worden gehouden met de kosten en de opbrengsten die betrekking hebben op het boekjaar of op voorgaande boekjaren, ongeacht de dag waarop deze kosten en opbrengsten worden betaald of geïnd, ...". 
@@ -68,9 +63,7 @@ Dit beginsel krijgt in het algemeen rekeningenstelsel gestalte met volgende over
 
 492 Toe te rekenen kosten 
 
-493 Over te dragen opbrengsten 
-
-die, naar gelang van het geval, op het actief of het passief in de balans moeten worden geboekt in de "overlopende rekeningen". 
+493 Over te dragen opbrengsten die, naar gelang van het geval, op het actief of het passief in de balans moeten worden geboekt in de "overlopende rekeningen". 
 
 Deze overlopende rekeningen worden in hoofdstuk III in de bijlage bij het koninklijk besluit van 8 oktober 1976 op de jaarrekening van de ondernemingen als volgt gedefinieerd : 
 

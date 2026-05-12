@@ -26,31 +26,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:28Z'
+  generated_at: '2026-05-12T23:38:38Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 5
-      max_section_chars: 16858
-      file_size_chars: 21724
+      max_section_chars: 16850
+      file_size_chars: 21716
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2018/03 – Zetelverplaatsing naar België (inbound) – Verschil in waarderingsregels ten opzichte van het boekhoudkundig referentiestelsel van de Staat van herkomst
 
@@ -115,7 +110,7 @@ De Commissie meent dat een dergelijke uitzondering op het beginsel van de boekho
 
 De Commissie meent dat de daaropvolgende boekhoudkundige herwerkingen rechtstreeks moeten worden uitgevoerd door, desgevallend, naar de keuze van de vennootschap, het kapitaal, de uitgiftepremies, de belastingvrije reserves en/of de beschikbare reserves[^16] te crediteren of te debiteren.[^17] , [^18] 
 
-Indien het verschil in waardering voortvloeit uit een herwaarderingsmeerwaarde, geboekt overeenkomstig het buitenlandse boekhoudrecht die niet mag worden behouden overeenkomstig het Belgische boekhoudrecht (wanneer niet werd voldaan aan de voorwaarden uit artikel 57 of 100 KB W.Venn.[^19]), gebeurt de daaropvolgende boekhoudkundige herwerking evenwel door het debiteren van de rekening 12* Herwaarderingsmeerwaarden *tot een bedrag van het nog niet afgeschreven gedeelte[^20] en/of als de herwaarderingsmeerwaarde in het kapitaal werd opgenomen, door het debiteren van de rekening 10* Kapitaal *voor het nog niet afschreven gedeelte[^21].
+Indien het verschil in waardering voortvloeit uit een herwaarderingsmeerwaarde, geboekt overeenkomstig het buitenlandse boekhoudrecht die niet mag worden behouden overeenkomstig het Belgische boekhoudrecht (wanneer niet werd voldaan aan de voorwaarden uit artikel 57 of 100 KB W.Venn.[^19]), gebeurt de daaropvolgende boekhoudkundige herwerking evenwel door het debiteren van de rekening 12*Herwaarderingsmeerwaarden*tot een bedrag van het nog niet afgeschreven gedeelte[^20] en/of als de herwaarderingsmeerwaarde in het kapitaal werd opgenomen, door het debiteren van de rekening 10*Kapitaal*voor het nog niet afschreven gedeelte[^21].
 
 De Commissie merkt op dat, in een Europese context, de boekhoudkundige herwerkingen zeer beperkt zullen zijn als gevolg van de harmonisering van de waarderingsregels door voornoemde Richtlijn 2013/34/EU.
 
@@ -126,7 +121,7 @@ Er wordt verondersteld dat de Staat van herkomst het *fair value*-model toepast 
 Naar Belgisch boekhoudrecht dient het financieel vast actief in beginsel te worden geboekt tegen aanschaffingswaarde.[^23]
  De vennootschap kan evenwel een herwaarderingsmeerwaarde boeken met naleving van artikel 57 KB W.Venn.
 
-Zou *in casu* niet worden voldaan aan de voorwaarden van artikel 57 KB W.Venn., dan zou het behoud van het financieel vast actief tegen reële waarde in de openingsbalans een schending van het Belgisch boekhoudrecht betekenen. De vennootschap zou bijgevolg, naar mening van de Commissie, de boekwaarde van het financieel vast actief moeten herwerken zodat dit actief wordt geboekt tegen aanschaffingswaarde, namelijk (i) een bedrag boeken op de creditzijde van de relevante rekening van de rubriek 28 *Financiële vaste activa* dat overeenstemt met het verschil tussen de reële waarde van het financieel vast actief en de aanschaffingswaarde ervan en (ii) naar haar keuze[^24] de rekening(en) 10 *Kapitaal*, 11* Uitgiftepremies*, 132* Belastingvrije reserves *en/of 133* Beschikbare reserves* dienovereenkomstig debiteren.
+Zou *in casu* niet worden voldaan aan de voorwaarden van artikel 57 KB W.Venn., dan zou het behoud van het financieel vast actief tegen reële waarde in de openingsbalans een schending van het Belgisch boekhoudrecht betekenen. De vennootschap zou bijgevolg, naar mening van de Commissie, de boekwaarde van het financieel vast actief moeten herwerken zodat dit actief wordt geboekt tegen aanschaffingswaarde, namelijk (i) een bedrag boeken op de creditzijde van de relevante rekening van de rubriek 28 *Financiële vaste activa* dat overeenstemt met het verschil tussen de reële waarde van het financieel vast actief en de aanschaffingswaarde ervan en (ii) naar haar keuze[^24] de rekening(en) 10 *Kapitaal*, 11*Uitgiftepremies*, 132*Belastingvrije reserves*en/of 133*Beschikbare reserves* dienovereenkomstig debiteren.
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 15 januari 2018 ter consultatie werd gepubliceerd op de website van de CBN.
 

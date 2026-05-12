@@ -26,31 +26,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:39Z'
+  generated_at: '2026-05-12T23:38:50Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 3
-      max_section_chars: 2156
-      file_size_chars: 3918
+      max_section_chars: 2155
+      file_size_chars: 3917
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2020/15 – Zetelverplaatsing naar België: model van staat van activa en passiva bij immigrerende vennootschappen
 
@@ -72,7 +67,7 @@ De Commissie is bijgevolg van oordeel dat het de voorkeur wegdraagt de immigrere
 
 De Commissie acht het wenselijk dat de staat van activa en passiva wordt aangevuld met een vermelding van de relevante waarderingsregels, en dat deze waarderingsregels in overeenstemming zijn met de beginselen van het Belgisch boekhoudrecht.
 
-De Commissie verwijst voor het overige naar CBN-advies 2018/03 – *Zetelverplaatsing naar België (inbound) – Verschil in waarderingsregels ten opzichte van het boekhoudkundig referentiestelsel van de Staat van herkomst*, alsook naar CBN-advies 2011/2 –* Zetelverplaatsing naar België van een vennootschap opgericht naar buitenlands recht: gevolgen voor het voeren van de boekhouding en het opstellen van de jaarrekening*. Het standpunt van de Commissie in deze adviezen blijft relevant
+De Commissie verwijst voor het overige naar CBN-advies 2018/03 – *Zetelverplaatsing naar België (inbound) – Verschil in waarderingsregels ten opzichte van het boekhoudkundig referentiestelsel van de Staat van herkomst*, alsook naar CBN-advies 2011/2 –*Zetelverplaatsing naar België van een vennootschap opgericht naar buitenlands recht: gevolgen voor het voeren van de boekhouding en het opstellen van de jaarrekening*. Het standpunt van de Commissie in deze adviezen blijft relevant
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 29 juli 2020 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

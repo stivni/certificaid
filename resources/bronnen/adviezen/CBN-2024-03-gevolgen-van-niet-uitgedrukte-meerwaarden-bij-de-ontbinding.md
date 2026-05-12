@@ -34,35 +34,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:51Z'
+  generated_at: '2026-05-12T23:39:01Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: lege anchor-link met **** (4 asterisken) op regel 38 - ETL-artefact bij rendering van een PDF-hyperlink als markdown. De link bevat geen tekst.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 0
-      max_section_chars: 10403
-      file_size_chars: 10403
+      max_section_chars: 10399
+      file_size_chars: 10399
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: 'D4: lege anchor-link met **** (4 asterisken) op regel 38 - ETL-artefact bij rendering van een PDF-hyperlink als markdown. De link bevat geen tekst.'
-      concrete_problemen:
-        - regel: 38
-          categorie: D4
-          type: unclosed-bold
-          voorbeeld: '****[](https://www.cbn-cnc.be/system/files/...) - lege link met 4 asterisken'
 ---
 # CBN-advies 2024/03 – Gevolgen van niet-uitgedrukte meerwaarden bij de ontbinding
 
@@ -100,7 +91,7 @@ De Commissie is dan ook van oordeel dat de bovenstaande analyse[^16] inzake de b
 
 Aangezien de ontbinding tevens de afsluiting van het boekjaar bij de VZW en IVZW tot gevolg[^17] heeft, zal de Commissie in een later stadium ingaan op de boekhoudkundige gevolgen van de op te stellen jaarrekening voor het boekjaar dat met de datum van de ontbinding van de VZW en de IVZW eindigt[^18].
 
-****[](https://www.cbn-cnc.be/system/files/2024-04/De%20staat%20van%20actief%20en%20passief%20bij%20ontbinding.pdf)**  ** **
+[](https://www.cbn-cnc.be/system/files/2024-04/De%20staat%20van%20actief%20en%20passief%20bij%20ontbinding.pdf)**  ** **
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerpadvies op 11 augustus 2023 ter publieke consultatie werd gepubliceerd op de website van de CBN. Naar aanleiding van de besprekingen die plaatsvonden tijdens een plenaire vergadering van de CBN, publiceert de Commissie een nieuwe versie van CBN-advies 2024/03. De enige wijzigingen die werden aangebracht, zijn de schrapping in de eerste voetnoot van de zinnen m.b.t. de bezwaren van de heer Gerard Goemaere bij de inhoud van het advies, alsook de toevoeging van een alternatieve tekst opgesteld door de heer Goemaere. Dit omdat de Commissie heeft vastgesteld dat een verschil bestaat tussen de Nederlandse en Franse tekst van artikel 7/1, derde lid van het oprichtingsbesluit van 21 oktober 1975 van de CBN. De Nederlandse tekst van dit artikel stelt: “Als een ontwerpadvies of advies wordt goedgekeurd bij meerderheidsstemming, wordt het met redenen omkleed afwijkend standpunt van het betrokken lid of de betrokken leden, met vermelding van zijn of hun naam, opgenomen in het ontwerpadvies of advies en mee gepubliceerd”. De Franse tekst luidt als volgt: “Lorsqu’un projet d’avis ou un avis est adopté à la majorité des voix, la position divergente du membre concerné ou des membres concernés, avec mention du nom de celui-ci ou de ceux-ci, est indiquée dans le projet d’avis ou dans l’avis et est également publiée avec le projet d’avis ou l’avis”. In de Franse tekst ontbreken de woorden “met redenen omkleed”. Vandaar dat de Commissie vooralsnog heeft besloten het afwijkend standpunt van het betrokken lid te publiceren. Klik hier om deze tekst te raadplegen.
 

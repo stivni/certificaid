@@ -37,35 +37,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:52Z'
+  generated_at: '2026-05-12T23:39:03Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B4: "HET LOT VAN EEN VERGETEN ACTIEF OF PASSIEF NA DE SLUITING VAN DE VEREFFENING" (regel 171) is plain-text-header zonder ##-prefix. Overige headings correct aangemaakt.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 13
-      max_section_chars: 20687
-      file_size_chars: 29363
+      max_section_chars: 20685
+      file_size_chars: 29361
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: 'B4: "HET LOT VAN EEN VERGETEN ACTIEF OF PASSIEF NA DE SLUITING VAN DE VEREFFENING" (regel 171) is plain-text-header zonder ##-prefix. Overige headings correct aangemaakt.'
-      concrete_problemen:
-        - regel: 171
-          categorie: B4
-          type: allcaps-struct-label
-          voorbeeld: HET LOT VAN EEN VERGETEN ACTIEF OF PASSIEF NA DE SLUITING VAN DE VEREFFENING
 ---
 # CBN-advies 2024/09 – Verslaggeving bij de heropening van de vereffening van de vennootschappen
 
@@ -202,7 +193,7 @@ Een *deficitaire* vereffening komt hier in principe niet voor.
 
 b. Een vergeten passief
 
-In een *batige* vereffening wordt bij het opduiken van een vergeten passief, de vereffening **niet heropend**. De aandeelhouders van een BV, CV en NV zijn* altijd *aansprakelijk voor de vergeten schuld.10 Ze zullen dus gehouden zijn tot teruggave. Hier is evenmin hoofdelijkheid. Ook hier is hun aansprakelijkheid beperkt tot de terugbetaling van wat zij eerder kregen uitbetaald van hun kapitaalinbreng en de eerder verkregen liquidatiebonus. Zijn ze te goeder trouw, dan kunnen ze zich daarenboven verhalen op de leden van het bestuursorgaan (art. 2:104, §3).
+In een *batige* vereffening wordt bij het opduiken van een vergeten passief, de vereffening **niet heropend**. De aandeelhouders van een BV, CV en NV zijn*altijd*aansprakelijk voor de vergeten schuld.10 Ze zullen dus gehouden zijn tot teruggave. Hier is evenmin hoofdelijkheid. Ook hier is hun aansprakelijkheid beperkt tot de terugbetaling van wat zij eerder kregen uitbetaald van hun kapitaalinbreng en de eerder verkregen liquidatiebonus. Zijn ze te goeder trouw, dan kunnen ze zich daarenboven verhalen op de leden van het bestuursorgaan (art. 2:104, §3).
 
 Een deficitaire vereffening komt hier, zoals gezegd, in principe niet voor.
 

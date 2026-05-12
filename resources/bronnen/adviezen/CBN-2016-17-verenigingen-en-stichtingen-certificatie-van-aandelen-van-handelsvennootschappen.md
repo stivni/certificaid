@@ -33,31 +33,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:20Z'
+  generated_at: '2026-05-12T23:38:30Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 4
       max_section_chars: 4525
-      file_size_chars: 9782
+      file_size_chars: 9781
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2016/17 – Verenigingen en stichtingen: certificatie van aandelen van handelsvennootschappen
 
@@ -81,7 +76,7 @@ De gecertificeerde aandelen zullen aldus niet voorkomen in het genormaliseerd mi
 Mocht uit de certificatieovereenkomst evenwel blijken dat de emittent van de certificaten niet volledig en onherroepelijk afstand heeft gedaan van de economische eigendom van de aandelen ten gunste van de houders van de certificaten, dan moeten de respectievelijke rechten van de bij de verrichting betrokken partijen boekhoudkundig verwerkt worden door rekening te houden met de economische realiteit.[^8] 
 
 Boekhoudkundige verwerking van de opbrengsten en inkomsten van de gecertificeerde aandelen
-Indien de storting van de door de emittent ontvangen bedragen aan de houder van de certificaten onmiddellijk en na een korte periode gebeurt[^9], is de Commissie van oordeel dat de emittent van de certificaten de opbrengsten van de aandelen ontvangt voor rekening van de houder van de certificaten, wat ertoe leidt dat de ontvangen opbrengsten (bruto of netto na voorheffing naargelang deze al of niet wordt ingehouden door de uitkerende vennootschap) in het dagboek[^10] van de emittent, moeten worden geregistreerd, in voorkomend geval na aftrek van eventueel gemaakte kosten. Deze ontvangsten worden ingeschreven onder de post *Andere ontvangsten*. De doorgestorte bedragen worden in het voormelde dagboek ingeschreven onder de post* Andere uitgaven*.
+Indien de storting van de door de emittent ontvangen bedragen aan de houder van de certificaten onmiddellijk en na een korte periode gebeurt[^9], is de Commissie van oordeel dat de emittent van de certificaten de opbrengsten van de aandelen ontvangt voor rekening van de houder van de certificaten, wat ertoe leidt dat de ontvangen opbrengsten (bruto of netto na voorheffing naargelang deze al of niet wordt ingehouden door de uitkerende vennootschap) in het dagboek[^10] van de emittent, moeten worden geregistreerd, in voorkomend geval na aftrek van eventueel gemaakte kosten. Deze ontvangsten worden ingeschreven onder de post *Andere ontvangsten*. De doorgestorte bedragen worden in het voormelde dagboek ingeschreven onder de post*Andere uitgaven*.
 
 Als echter, zoals in de voormelde wet van 15 juli 1998 wordt toegestaan, de partijen andere betalingsmodaliteiten voor de inkomsten zijn overeengekomen (betaling op lange of middellange termijn, eventuele kapitalisatie, enz.), moet de boekhoudkundige verwerking ervan worden bepaald op basis van een onderzoek van de wil van de partijen zoals deze is vastgelegd in de certificatieovereenkomst.
 

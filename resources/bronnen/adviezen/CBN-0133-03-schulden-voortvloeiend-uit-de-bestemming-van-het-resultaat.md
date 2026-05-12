@@ -30,31 +30,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:30Z'
+  generated_at: '2026-05-12T23:37:42Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:15Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:30Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:39Z'
       heading_count: 0
-      max_section_chars: 4039
-      file_size_chars: 4039
+      max_section_chars: 4038
+      file_size_chars: 4038
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:15Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 133/3 - Schulden voortvloeiend uit de bestemming van het resultaat
 
@@ -62,7 +57,7 @@ Dit advies vervangt advies 133/1, verschenen in *Bull. CBN* nr. 9 van december 1
 
 Overeenkomstig artikel 11, eerste lid van het koninklijk besluit van 8 oktober 1976, wordt de balans opgesteld na toewijzing, dit wil zeggen, rekening houdend met de beslissingen tot bestemming van het saldo van de resultatenrekening van het boekjaar en van het overgedragen resultaat. 
 
-Omvat de voorgestelde bestemming van het resultaat ook een uitkering aan vennoten, bestuurders, zaakvoerders of andere rechthebbenden, dan worden de dividenden, tantièmes of uit te keren bedragen op de balans geboekt in de rubriek *Schulden op ten hoogste één jaar*, meer bepaald in rubriek IX, F* Overige schulden*. Voor dergelijke schulden uit de bestemming van het resultaat worden in het algemeen rekeningenstelsel afzonderlijke rekeningen ingericht (rekening 47). 
+Omvat de voorgestelde bestemming van het resultaat ook een uitkering aan vennoten, bestuurders, zaakvoerders of andere rechthebbenden, dan worden de dividenden, tantièmes of uit te keren bedragen op de balans geboekt in de rubriek *Schulden op ten hoogste één jaar*, meer bepaald in rubriek IX, F*Overige schulden*. Voor dergelijke schulden uit de bestemming van het resultaat worden in het algemeen rekeningenstelsel afzonderlijke rekeningen ingericht (rekening 47). 
 
 De vraag is gerezen of in deze rubriek, in deze rekening, het bruto- bedrag moet worden vermeld van deze schulden, waarin de belastingbedragen met betrekking tot deze dividenden en tantièmes zijn begrepen die, in overeenstemming met de bepalingen van het Wetboek der Inkomstenbelastingen, verschuldigd zijn op het ogenblik van de betaalbaarstelling, dan wel het netto-bedrag der dividenden en tantièmes. In het laatste geval worden de hierop verschuldigde belastingen in de jaarrekening geboekt onder de rubriek IX, E, 1 *Belastingen* en in het algemeen rekeningenstelsel op rekening 453 *Ingehouden voorheffingen*. 
 

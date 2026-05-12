@@ -29,31 +29,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:26Z'
+  generated_at: '2026-05-12T23:37:38Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:15Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:29Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:39Z'
       heading_count: 4
       max_section_chars: 12804
-      file_size_chars: 30998
+      file_size_chars: 30993
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:15Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 126/18 - Aanschaffingswaarde bij inbreng in natura1
 
@@ -160,7 +155,7 @@ Ook in het kader van inbrengverrichtingen kan er wel degelijk sprake zijn van ee
 
 In een aantal reacties werd erop gewezen dat het advies rekening zou moeten houden met de hypothese waarin de bedoelde transacties plaatsvinden tussen ondernemingen die tot eenzelfde groep behoren. 
 
-Terzake wordt verwezen naar de standpunten in volgende adviezen: advies 114/3 *Resultaten uit verrichtingen met dochterondernemingen*,* Bull CBN *8, april 1981 en advies 157/2* Realisatiebeginsel (behalve bij fusie)*,* Bull. CBN *26, maart 1991. In deze adviezen wordt er nadrukkelijk op gewezen dat indien de inbrengende vennootschap als gevolg van de inbreng aandeelhouder wordt van de vennootschap waarin de inbreng gebeurt, zij via deze vennootschap en a rato van haar deelnemingspercentage onrechtstreeks nog steeds belang heeft bij de waarde en het rendement van de ingebrachte goederen en de eraan verbonden risico's. 
+Terzake wordt verwezen naar de standpunten in volgende adviezen: advies 114/3 *Resultaten uit verrichtingen met dochterondernemingen*,*Bull CBN*8, april 1981 en advies 157/2*Realisatiebeginsel (behalve bij fusie)*,*Bull. CBN*26, maart 1991. In deze adviezen wordt er nadrukkelijk op gewezen dat indien de inbrengende vennootschap als gevolg van de inbreng aandeelhouder wordt van de vennootschap waarin de inbreng gebeurt, zij via deze vennootschap en a rato van haar deelnemingspercentage onrechtstreeks nog steeds belang heeft bij de waarde en het rendement van de ingebrachte goederen en de eraan verbonden risico's. 
 
 Daarbij werd, wat de enkelvoudige jaarrekening betreft, het volgende onderscheid gemaakt : 
 

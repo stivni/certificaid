@@ -34,31 +34,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:11Z'
+  generated_at: '2026-05-12T23:38:20Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (12 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 11
-      max_section_chars: 12630
-      file_size_chars: 38999
+      max_section_chars: 12629
+      file_size_chars: 38995
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (12 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2013/1 - De boekhoudkundige verwerking van (pseudo-)fusies van verenigingen en stichtingen
 
@@ -71,7 +66,7 @@ Van de verrichtingen bedoeld in artikel 58 van de wet van 27 juni 1921 behandelt
 
 ## Rechtskader voor de verrichting
 Artikel 6 en 6bis van het KB van 19 december 2003 en artikel 58 van de wet van 27 juni 1921
-Het KB van 19 december 2003 bepaalt in het nieuwe artikel 6*bis*, eerste lid, het volgende:* “De verrichtingen als bedoeld in artikel 58 van de wet van 27 juni 1921 betreffende de verenigingen zonder winstoogmerk, de internationale verenigingen zonder winstoogmerk en de stichtingen worden door de betrokken rechtspersonen geboekt overeenkomstig, naargelang het geval, de artikelen 78, § 1 en § 2, 79, 80 of 80bis van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen”*, met andere woorden, volgens de regels inzake boekhoudkundige continuïteit die respectievelijk voor fusies, splitsingen of partiële splitsingen van vennootschappen gelden. 
+Het KB van 19 december 2003 bepaalt in het nieuwe artikel 6*bis*, eerste lid, het volgende:*“De verrichtingen als bedoeld in artikel 58 van de wet van 27 juni 1921 betreffende de verenigingen zonder winstoogmerk, de internationale verenigingen zonder winstoogmerk en de stichtingen worden door de betrokken rechtspersonen geboekt overeenkomstig, naargelang het geval, de artikelen 78, § 1 en § 2, 79, 80 of 80bis van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen”*, met andere woorden, volgens de regels inzake boekhoudkundige continuïteit die respectievelijk voor fusies, splitsingen of partiële splitsingen van vennootschappen gelden. 
 
 Ook artikel 6 van het KB van 19 december 2003 werd gewijzigd om de toepassing van artikel 78, § 1 en § 2, 79, 80 en 80*bis* van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen (hierna: KB W.Venn.) op de verrichtingen bedoeld in artikel 58 van de wet van 27 juni 1921 mogelijk te maken. Het luidt thans als volgt: *“Hoofdstuk II van Titel I van Boek II van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van vennootschappen is van toepassing op verenigingen en stichtingen, met uitzondering van de artikelen 39, 76, paragrafen 3 tot 8 van artikel 78 en artikel 81, mits de aanpassingen en onder de voorwaarden waarin onderhavige titel voorziet.”.*
 
@@ -162,7 +157,7 @@ Het is mogelijk dat een pseudo-fusie tussen een “grote[^7]
 ” vereniging of stichting en een “kleine[^9]
 ” vereniging of stichting wordt verwezenlijkt.
 
-In de veronderstelling dat de inbreng van een algemeenheid wordt verricht door de kleine vereniging of stichting (pseudo-fusie waarbij de kleine vereniging wordt “overgenomen”) ten voordele van de grote of zeer grote (“overnemende”) vereniging of stichting, en gesteld dat de kleine vereniging of stichting niet heeft beslist, zoals bepaald in artikel 15 van het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen (hierna: KB van 26 juni 2003), haar boekhouding te voeren en haar jaarrekening op te stellen overeenkomstig de regels die voor grote verenigingen of stichtingen gelden, worden de regels van artikel 37, § 2 en § 3 van het KB van 19 december 2003 op overeenkomstige wijze toegepast. Zo luidt het voorschrift van artikel 6*bis*, tweede lid, van het KB van 19 december 2003:* “De paragrafen 2 en 3 van artikel 37 van het huidig koninklijk besluit zijn van overeenkomstige toepassing”.*
+In de veronderstelling dat de inbreng van een algemeenheid wordt verricht door de kleine vereniging of stichting (pseudo-fusie waarbij de kleine vereniging wordt “overgenomen”) ten voordele van de grote of zeer grote (“overnemende”) vereniging of stichting, en gesteld dat de kleine vereniging of stichting niet heeft beslist, zoals bepaald in artikel 15 van het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde verenigingen zonder winstoogmerk, internationale verenigingen zonder winstoogmerk en stichtingen (hierna: KB van 26 juni 2003), haar boekhouding te voeren en haar jaarrekening op te stellen overeenkomstig de regels die voor grote verenigingen of stichtingen gelden, worden de regels van artikel 37, § 2 en § 3 van het KB van 19 december 2003 op overeenkomstige wijze toegepast. Zo luidt het voorschrift van artikel 6*bis*, tweede lid, van het KB van 19 december 2003:*“De paragrafen 2 en 3 van artikel 37 van het huidig koninklijk besluit zijn van overeenkomstige toepassing”.*
 
 Wanneer de overdragende (“overgenomen”) vereniging of stichting dus al een boekhouding voert die naar de mening van haar raad van bestuur ten minste overeenstemt met deze die het KB van 19 december 2003 vereist[^10], worden de activa en passiva van de overgedragen algemeenheid in de boekhouding van de verkrijgende (“overnemende”) vereniging of stichting opgenomen tegen de waarde waarvoor zij in de boekhouding van de overdragende vereniging of stichting voorkwamen[^11]. Ook de verschillende bestanddelen van het eigen vermogen van de overdragende vereniging of stichting zullen in de boekhouding van de overnemende vereniging of stichting worden overgenomen.
 
@@ -170,7 +165,7 @@ Het kan eveneens voorkomen dat de “overgenomen” kleine vereniging of stichti
 
 Wanneer de overdragende (“overgenomen”) vereniging of stichting naar de mening van haar raad van bestuur geen boekhouding voert die ten minste overeenstemt met deze die het KB van 19 december 2003 vereist (en haar vermogen niet waardeert met toepassing van de waarderingsregels voor grote of zeer grote verenigingen of stichtingen), worden de overgedragen activa bij de verkrijgende (“overnemende”) vereniging of stichting gewaardeerd tegen de werkelijke waarde of, bij ontstentenis van marktwaarde, tegen de gebruikswaarde die de activa op het ogenblik van de overdracht hebben. Bij ontstentenis van een betrouwbare marktwaarde of gebruikswaarde, worden de activa in de toelichting bij de jaarrekening van de verkrijgende (“overnemende”) vereniging of stichting opgenomen, aangevuld met de vermelding dat er geen betrouwbare marktwaarde of gebruikswaarde aan kan worden gekoppeld[^12].
 
-Wanneer het eigen vermogen van de “overgenomen” vereniging of stichting niet als dusdanig aan de “overnemende” vereniging of stichting wordt overgedragen, zal laatstgenoemde het verschil tussen de waarde van de door de kleine vereniging ingebrachte activa en passiva boeken als *Beginvermogen* (rekening 100). In principe wordt het *Beginvermogen* van een vereniging of stichting niet gewijzigd gedurende haar bestaan en gebeuren latere uitbreidingen langs de post *Permanente financiering*. In het geval van een pseudo-fusie wordt met de opname als* Beginvermogen* uiting gegeven aan het beginsel van boekhoudkundige continuïteit waarop de boekhoudkundige verwerking is gebaseerd. 
+Wanneer het eigen vermogen van de “overgenomen” vereniging of stichting niet als dusdanig aan de “overnemende” vereniging of stichting wordt overgedragen, zal laatstgenoemde het verschil tussen de waarde van de door de kleine vereniging ingebrachte activa en passiva boeken als *Beginvermogen* (rekening 100). In principe wordt het *Beginvermogen* van een vereniging of stichting niet gewijzigd gedurende haar bestaan en gebeuren latere uitbreidingen langs de post *Permanente financiering*. In het geval van een pseudo-fusie wordt met de opname als*Beginvermogen* uiting gegeven aan het beginsel van boekhoudkundige continuïteit waarop de boekhoudkundige verwerking is gebaseerd. 
 
 In het geval dat het de kleine vereniging of stichting is die de inbreng van een algemeenheid verkrijgt (pseudo-fusie waarbij de kleine vereniging of stichting de “overnemende” is) vanwege een grote of zeer grote (“overgenomen”) vereniging of stichting, dan zal die “overnemende” vereniging of stichting tijdens het boekjaar waarin de pseudo-fusie plaatsheeft, de door de wet van 27 juni 1921 vastgestelde criteria om te worden beschouwd als grote of zeer grote vereniging of stichting[^13] overschrijden. Het al dan niet overschrijden van die criteria dient immers op balansdatum te worden nagegaan. In dat geval dient de groot of zeer groot geworden “overnemende” vereniging of stichting voor het boekjaar van de pseudo-fusie haar boekhouding te voeren en haar jaarrekening op te stellen overeenkomstig de voorschriften van de wet van 17 juli 1975 op de boekhouding van de ondernemingen, weliswaar bij KB van 19 december 2003 afgestemd op de aard van de werkzaamheden van verenigingen en stichtingen en hun wettelijk statuut. In dat geval wordt de boekhoudkundige continuïteit toegepast zoals in geval van een pseudo-fusie tussen twee grote verenigingen of stichtingen.
 
@@ -203,7 +198,7 @@ Wanneer de overdragende (“overgenomen”) vereniging of stichting een boekhoud
 Het *Overgedragen verlies* zal bij een pseudo-fusie door overneming in hoofde van de bestaande verkrijgende (“overnemende”) vereniging of stichting worden samengevoegd met een eventueel bestaande *Overgedragen winst* bij de verkrijgende (“overnemende”) vereniging of stichting. Bij een pseudo-fusie door oprichting zal het *Overgedragen verlies* van een overdragende (“overgenomen”) vereniging of stichting in hoofde van de nieuwe vereniging of stichting worden samengevoegd met een eventueel bestaande *Overgedragen winst* van een andere overdragende (“overgenomen”) vereniging of stichting.
 
 ### Negatief beginvermogen
-Wanneer een vereniging of stichting betrokken in de pseudo-fusie een negatief *Beginvermogen[^20]*  heeft, wordt dit samengevoegd met het *Beginvermogen* van de andere entiteit en mag dit niet gecompenseerd worden op het *Overgedragen resultaat*, noch op de* Bestemde fondsen*.
+Wanneer een vereniging of stichting betrokken in de pseudo-fusie een negatief *Beginvermogen[^20]*  heeft, wordt dit samengevoegd met het *Beginvermogen* van de andere entiteit en mag dit niet gecompenseerd worden op het *Overgedragen resultaat*, noch op de*Bestemde fondsen*.
 
 ### Voorzieningen
 Het kan ook voorkomen dat voorzieningen die een entiteit aanlegde, door een pseudo-fusie niet langer een voorwerp hebben en zullen moeten worden teruggenomen.

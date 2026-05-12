@@ -33,31 +33,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:16Z'
+  generated_at: '2026-05-12T23:38:26Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (11 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 10
       max_section_chars: 10342
-      file_size_chars: 18724
+      file_size_chars: 18723
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (11 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2015/6 - Boekhoudkundige verwerking van de liquidatiereserve bedoeld in artikel 541 WIB 92 (Programmawet van 10 augustus 2015) en de bijzondere aanslag op deze liquidatiereserve1
 
@@ -82,7 +77,7 @@ De bijzondere aanslag is een anticipatieve heffing op de boekhoudkundige winst v
 
 De betaalde bijzondere aanslag is definitief verworven door de Staat, kan niet worden verrekend met de vennootschapsbelasting en het eventuele overschot is niet terugbetaalbaar.
 
-Naar analogie met de boeking van de afzonderlijke aanslag op de liquidatiereserve beveelt de Commissie aan om deze bijzondere aanslag te boeken op een passende subrekening van de rekening 67 *Belastingen op het resultaat*, meer bepaald om de rekening 6710* Verschuldigde of gestorte belastingsupplementen* te gebruiken.[^12] 
+Naar analogie met de boeking van de afzonderlijke aanslag op de liquidatiereserve beveelt de Commissie aan om deze bijzondere aanslag te boeken op een passende subrekening van de rekening 67 *Belastingen op het resultaat*, meer bepaald om de rekening 6710*Verschuldigde of gestorte belastingsupplementen* te gebruiken.[^12] 
 
 ### Vorming van de bijzondere liquidatiereserve
 De jaarrekening (waaronder de balans) wordt opgemaakt door en onder de verantwoordelijkheid van het bestuursorgaan dat de jaarrekening ter goedkeuring moet voorleggen aan de algemene vergadering.[^13]

@@ -36,31 +36,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:42Z'
+  generated_at: '2026-05-12T23:38:52Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 6
-      max_section_chars: 8630
-      file_size_chars: 12659
+      max_section_chars: 8628
+      file_size_chars: 12657
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2021/11 – Boekhoudkundige verwerking van COVID-19-tegemoetkomingen en van kosten gemaakt ten gevolge van de gezondheidscrisis
 
@@ -102,7 +97,7 @@ Een onderneming installeert een camera in haar vergaderzalen om de vergaderingen
 | | 2300 | Installaties, machines en uitrusting | 6.250 | |
 | aan | 440 | Leveranciers | | 6.250 |
 
-Bovendien kunnen ondernemingen mogelijks te maken krijgen met aangerekende boetes of schadevergoedingen zoals bijvoorbeeld het betalen van een vertragingsvergoeding als gevolg van het niet naleven van de overeengekomen levertermijn. Deze boetes of schadevergoedingen worden ten laste van het resultaat geboekt via de rekening 643 tot 648 *Diverse bedrijfskoste*n of 664 tot 667* Andere niet-recurrente bedrijfskosten* in het boekjaar waarin de schuldvordering ontstaat.[^10]
+Bovendien kunnen ondernemingen mogelijks te maken krijgen met aangerekende boetes of schadevergoedingen zoals bijvoorbeeld het betalen van een vertragingsvergoeding als gevolg van het niet naleven van de overeengekomen levertermijn. Deze boetes of schadevergoedingen worden ten laste van het resultaat geboekt via de rekening 643 tot 648 *Diverse bedrijfskoste*n of 664 tot 667*Andere niet-recurrente bedrijfskosten* in het boekjaar waarin de schuldvordering ontstaat.[^10]
  Ze moeten gebeurlijk worden voorzien.[^11] 
 
 De verplichte sluiting heeft mogelijks tot gevolg dat ondernemingen een deel van hun voorraden niet langer kunnen gebruiken (bv. als gevolg van het overschrijden van de houdbaarheidsdatum op voedingsproducten). Dit vertaalt zich in de boekhouding via de volgende boekingen:
@@ -136,7 +131,7 @@ Voorts wijst de Commissie erop dat kosten gemaakt in het kader van herstructurer
 ## Gevolgen voor indekkingsverrichtingen naar aanleiding van het wegvallen van onderliggende transacties die in vreemde valuta dienden te worden voldaan
 Tevens werd aan de Commissie de vraag gesteld naar de boekhoudkundige gevolgen wanneer, naar aanleiding van de huidige gezondheidscrisis, een onderliggende (reële) transactie niet plaatsvindt, waardoor de indekkingsverrichting een speculatieve verrichting wordt (wegens het wegvallen van de onderliggende (reële) verplichting tot betaling in vreemde valuta).
 
-De Commissie verwijst in dergelijk geval naar CBN-advies 2010/12 - *De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten*. Op grond van dit CBN-advies[^17] wordt gesteld dat het boekhoudkundig realisatiebeginsel (voorzichtigheidsbeginsel)* in beginsel* voorrang krijgt op het overeenstemmingsprincipe (matching), behalve in het bijzonder geval van een effectieve dekkingsverrichting (of gesloten positie) die de neutralisatie beoogt van prijsschommelingen en/of financiële stromen.
+De Commissie verwijst in dergelijk geval naar CBN-advies 2010/12 - *De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten*. Op grond van dit CBN-advies[^17] wordt gesteld dat het boekhoudkundig realisatiebeginsel (voorzichtigheidsbeginsel)*in beginsel* voorrang krijgt op het overeenstemmingsprincipe (matching), behalve in het bijzonder geval van een effectieve dekkingsverrichting (of gesloten positie) die de neutralisatie beoogt van prijsschommelingen en/of financiële stromen.
 
 Wanneer naar aanleiding van de huidige gezondheidscrisis een onderliggende (reële) transactie niet plaatsvindt, waardoor een indekkingsverrichting een speculatieve verrichting wordt, zal bij de boekhoudkundige verwerking het realisatiebeginsel opnieuw voorrang moeten krijgen op het overeenstemmingsprincipe. Zo nodig zal er voorzichtigheidshalve ook een kost moeten worden erkend indien de speculatieve verrichting een kost zal impliceren voor de onderneming. 
 

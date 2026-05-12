@@ -23,31 +23,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:54Z'
+  generated_at: '2026-05-12T23:38:04Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 6
       max_section_chars: 8218
-      file_size_chars: 25900
+      file_size_chars: 25899
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2009/11 - De boekhoudkundige verwerking van partiële splitsingen Advies van 16 september 2009
 
@@ -59,7 +54,7 @@ In het CBN-advies 166/2 stelt de Commissie voor Boekhoudkundige Normen[^2] het v
 Deze zienswijze is daarenboven gestoeld op het feit dat de wetgever expliciet de bedoeling had om de fiscale behandeling van een partiële splitsing volledig af te stemmen op een gewone splitsing. Om dit te kunnen verwezenlijken, werden bij de invoering van een belastingneutraal regime voor partiële splitsingen door de wet van 16 juli 2001 (B.S. 20 juli 2001) twee wettelijke ficties ingevoerd :
 
 1. de wettelijke fictie van omruiling in artikel 45, §1, derde lid in fine WIB 92 waarbij ten name van een aandeelhouder van de partieel gesplitste vennootschap A, de aandelen A (vóór afsplitsing) als het ware worden geacht te zijn omgeruild tegen diezelfde aandelen A (na afsplitsing) en nieuwe aandelen in de verkrijgende vennootschap B.[^3] 
-2. de wettelijke fictie in artikel 213, derde lid WIB 92 dat ertoe strekt voor diverse bepalingen in het WIB 92 een partiële splitsing gelijk te stellen met een gewone splitsing, nl. *“Wanneer aldus een vennootschap A, ingevolge belastingneutrale afsplitsing, een deel van haar maatschappelijk vermogen overdraagt aan een vennootschap B, wordt, al naargelang de van toepassing zijnde bepaling, de vennootschap A aangemerkt als overgenomen/gesplitste vennootschap of als overnemende/verkrijgende vennootschap, wordt de vennootschap B uiteraard aangemerkt als overnemende/verkrijgende vennootschap en wordt de verrichting zelve aangemerkt als een splitsing.”[^4] * 
+2. de wettelijke fictie in artikel 213, derde lid WIB 92 dat ertoe strekt voor diverse bepalingen in het WIB 92 een partiële splitsing gelijk te stellen met een gewone splitsing, nl. *“Wanneer aldus een vennootschap A, ingevolge belastingneutrale afsplitsing, een deel van haar maatschappelijk vermogen overdraagt aan een vennootschap B, wordt, al naargelang de van toepassing zijnde bepaling, de vennootschap A aangemerkt als overgenomen/gesplitste vennootschap of als overnemende/verkrijgende vennootschap, wordt de vennootschap B uiteraard aangemerkt als overnemende/verkrijgende vennootschap en wordt de verrichting zelve aangemerkt als een splitsing.”[^4]* 
 
 In voornoemd advies werd eveneens opgemerkt dat de regering in de parlementaire voorbereiding van de wet van 16 juli 2001 verklaarde dat zij de nodige initiatieven zou nemen opdat de partiële splitsing op boekhoudkundig vlak volgens het continuïteitsbeginsel zou kunnen worden verwerkt.[^5] 
 

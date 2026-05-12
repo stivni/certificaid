@@ -28,31 +28,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:15Z'
+  generated_at: '2026-05-12T23:38:25Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (11 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 10
-      max_section_chars: 6261
-      file_size_chars: 24362
+      max_section_chars: 6260
+      file_size_chars: 24361
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (11 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2015/1 - Boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder (raamovereenkomsten gesloten vanaf 1 januari 2015)
 
@@ -73,7 +68,7 @@ De wet van 12 mei 2014 heeft eveneens:
 Voor een volledig overzicht van de wijzigingen die door deze wet werden aangebracht in de fiscale regeling met betrekking tot de tax shelter wordt er verwezen naar de Memorie van toelichting bij de wet van 12 mei 2014.[^6] 
 
 ## Kort overzicht van het tax shelter-stelsel
-De *investerende vennootschap*[^7] (hierna: de investeerder) en de* productievennootschap*[^8] (hierna: de producent) sluiten een raamovereenkomst waarin de investeerder zich verbindt een bepaalde som te storten met het oog op het verkrijgen van een tax shelter-attest dat de producent belooft te verstrekken aan de investeerder. De producent meldt deze overeenkomst aan de FOD Financiën binnen de maand na de ondertekening ervan.
+De *investerende vennootschap*[^7] (hierna: de investeerder) en de*productievennootschap*[^8] (hierna: de producent) sluiten een raamovereenkomst waarin de investeerder zich verbindt een bepaalde som te storten met het oog op het verkrijgen van een tax shelter-attest dat de producent belooft te verstrekken aan de investeerder. De producent meldt deze overeenkomst aan de FOD Financiën binnen de maand na de ondertekening ervan.
 
 De investeerder verkrijgt een voorlopige fiscale vrijstelling vanaf het belastbaar tijdperk waarin de raamovereenkomst wordt ondertekend, ten belope van 310 % van de sommen waartoe hij zich heeft verbonden.[^9]
  Het bedrag dat kan worden vrijgesteld is, voor de investeerder, echter per belastbaar tijdperk beperkt tot:

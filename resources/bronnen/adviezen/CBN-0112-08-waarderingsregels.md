@@ -32,31 +32,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:18Z'
+  generated_at: '2026-05-12T23:37:30Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:15Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (1837 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:29Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:39Z'
       heading_count: 0
-      max_section_chars: 1836
-      file_size_chars: 1836
+      max_section_chars: 1834
+      file_size_chars: 1834
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:15Z'
-      rationale: 'Kort advies (1837 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
-      concrete_problemen: []
 ---
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
@@ -66,9 +61,7 @@ Bij onderzoek van een aantal jaarrekeningen neergelegd bij de Balanscentrale, bl
 
 De Commissie is van plan in de toekomst enige aanbevelingen over dit probleem te formuleren na de betrokken personen en ondernemingen hierover geraadpleegd te hebben. 
 
-Toch zou de Commissie met betrekking tot degressieve afschrijvingen een aanbeveling willen geven om op een bondige wijze de uitwerking van het degressieve systeem toe te lichten, om duidelijk het 
-
-onderscheid te laten blijken met andere afschrijvingsvormen. 
+Toch zou de Commissie met betrekking tot degressieve afschrijvingen een aanbeveling willen geven om op een bondige wijze de uitwerking van het degressieve systeem toe te lichten, om duidelijk het onderscheid te laten blijken met andere afschrijvingsvormen. 
 
 Om elke verkeerde interpretatie over het degressieve afschrijvingspercentage te vermijden, raadt de Commissie aan, bij toepassing van een degressief afschrijvingsplan, in de toelichting te vermelden:
 

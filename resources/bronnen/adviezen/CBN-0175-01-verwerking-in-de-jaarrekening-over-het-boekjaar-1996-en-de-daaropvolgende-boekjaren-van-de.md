@@ -35,37 +35,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:52Z'
+  generated_at: '2026-05-12T23:38:01Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'C1: 2 bullet-glyphs (•) als PDF-opsommingsteken. Overige opsommingen gebruiken correct "-".'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:30Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 7
       max_section_chars: 9233
       file_size_chars: 18045
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: 'C1: 2 bullet-glyphs (•) als PDF-opsommingsteken. Overige opsommingen gebruiken correct "-".'
-      concrete_problemen:
-        - categorie: C1
-          type: bullet-glyph
-          voorbeeld: • In het PBEG van 6 augustus 1996 staat een mededeling
-        - categorie: C1
-          type: bullet-glyph
-          voorbeeld: • In haar beschikking van 4 december 1996 kondigt de Europese Commissie aan
 ---
 # CBN-advies 175/1 - Verwerking in de jaarrekening over het boekjaar 1996 en de daaropvolgende boekjaren, van de «Maribel bis en ter»-steun toegekend voor de boekjaren 1993, 1994, 1995 en 1996
 
@@ -94,7 +83,7 @@ Het Verdrag wijdt verschillende bepalingen aan steunmaatregelen van Staten.
 - Tot slot kan de Commissie, wanneer de betrokken Lid-Staat haar beslissing niet volledig zou uitvoeren of geen stappen zou ondernemen om de betrokken steun te recupereren, op twee manieren reageren : hetzij een beroep instellen wegens niet-nakoming op basis van artikel 169, hetzij de procedure toepassen als bedoeld in artikel 93, § 2. 
 
 ## Chronologie van de beslissingen van de Europese Commissie met betrekking tot de «Maribel bis en ter» steun
-• In het PBEG van 6 augustus 1996 staat een mededeling van de Commissie «aan de overige Lid-Staten en overige belanghebbenden inzake de «Maribel bis (ter)»-operatie.» 
+- In het PBEG van 6 augustus 1996 staat een mededeling van de Commissie «aan de overige Lid-Staten en overige belanghebbenden inzake de «Maribel bis (ter)»-operatie.» 
 
 In die mededeling stelt de Commissie het volgende :
 - 
@@ -109,7 +98,7 @@ de Commissie heeft de procedure van artikel 93, lid 2, van het EG-Verdrag ingele
 - 
 
 ten slotte maant de Commissie de Lid-Staten en andere belanghebbenden aan, haar hun opmerkingen over de betrokken maatregelen voor 6 september 1996 kenbaar te maken.
-• In haar beschikking van 4 december 1996 kondigt de Europese Commissie aan dat zij, overeenkomstig artikel 93, lid 2, na afloop van de termijn voor de mededeling van de eventuele opmerkingen van belanghebbenden, haar beslissing zal bevestigen waarbij zij de «Maribel bis (ter)»-steunmaatregelen strijdig verklaart met de voorschriften van artikel 92, lid 1 van het Verdrag. «België dient [overigens] passende maatregelen te nemen om de verhoogde vermindering van de sociale bijdragen (...) ongedaan te maken en dient de illegaal verleende steun bij de ontvangende ondernemingen terug te vorderen (...)»[^1]. Dit is het soort beslissing waarvan sprake in artikel 189 van het Verdrag en is dus «verbindend in al haar onderdelen voor degenen toe wie zij uitdrukkelijk is gericht», met andere woorden, de instellingen van de Belgische Staat. 
+- In haar beschikking van 4 december 1996 kondigt de Europese Commissie aan dat zij, overeenkomstig artikel 93, lid 2, na afloop van de termijn voor de mededeling van de eventuele opmerkingen van belanghebbenden, haar beslissing zal bevestigen waarbij zij de «Maribel bis (ter)»-steunmaatregelen strijdig verklaart met de voorschriften van artikel 92, lid 1 van het Verdrag. «België dient [overigens] passende maatregelen te nemen om de verhoogde vermindering van de sociale bijdragen (...) ongedaan te maken en dient de illegaal verleende steun bij de ontvangende ondernemingen terug te vorderen (...)»[^1]. Dit is het soort beslissing waarvan sprake in artikel 189 van het Verdrag en is dus «verbindend in al haar onderdelen voor degenen toe wie zij uitdrukkelijk is gericht», met andere woorden, de instellingen van de Belgische Staat. 
 
 ## Beknopt overzicht van de beslissingen van de Belgische federale Regering naar aanleiding van de voornoemde beslissing van de Europese Commissie
 De beslissing tot terugvordering uitgesproken door de Commissie, is bindend voor de Staten die dan ook alles in het werk moeten stellen om haar binnen de opgelegde termijn ten uitvoer te leggen. De Staten kunnen daarentegen de wettelijkheid betwisten van beslissingen van de Commissie, op de klassieke manier, namelijk een annulatieberoep instellen bij het Hof van Justitie van de Europese Gemeenschappen; dit beroep heeft evenwel geen schorsende werking en moet worden ingesteld binnen twee maanden na de bekendmaking van de beslissing van de Commissie[^2]. 

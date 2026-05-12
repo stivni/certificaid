@@ -24,31 +24,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:51Z'
+  generated_at: '2026-05-12T23:38:00Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:30Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 3
-      max_section_chars: 3424
-      file_size_chars: 7816
+      max_section_chars: 3422
+      file_size_chars: 7814
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 173/6 - Verrekening van vorderingen en schulden die oorspronkelijk zijn uitgedrukt in munten die overgaan in de euro
 
@@ -76,9 +71,7 @@ De Commissie is bijgevolg van oordeel dat zij zich niet kan uitspreken over de v
 
 Die vervangbaarheid staat daarentegen wel vast voor schulden en vorderingen die met ingang van 1 januari 1999 schulden en vorderingen in euro worden. Zelfs als zij nog in hun oorspronkelijke munt zijn uitgedrukt, zijn zij juridisch en financieel schulden en vorderingen in euro geworden die onderling kunnen worden uitgewisseld tegen de vastgestelde omrekeningskoers, zonder enige onzekerheid of enig risico omtrent de wisselkoers noch noodzaak of zelfs mogelijkheid tot een onderlinge wisselverrichting. 
 
-Daaruit volgt dat er, ten belope van het kleinste van beide bedragen, met ingang van 1 januari 1999 geen wederzijdse vordering en schuld meer bestaan, voor zover die natuurlijk allebei op een vaststaand bedrag sloegen en opeisbaar waren. Die verrekening gebeurt los van het feit of, tijdens de overgangsperiode, de jaarrekening in Belgische frank of in euro wordt uitgedrukt, dan wel of de boekhouding in Belgische frank of in euro wordt gevoerd. Die schulden en vorderingen mogen dus niet 
-
-langer, voor het overeenstemmende bedrag, voorkomen in de balans van de betrokken ondernemingen. 
+Daaruit volgt dat er, ten belope van het kleinste van beide bedragen, met ingang van 1 januari 1999 geen wederzijdse vordering en schuld meer bestaan, voor zover die natuurlijk allebei op een vaststaand bedrag sloegen en opeisbaar waren. Die verrekening gebeurt los van het feit of, tijdens de overgangsperiode, de jaarrekening in Belgische frank of in euro wordt uitgedrukt, dan wel of de boekhouding in Belgische frank of in euro wordt gevoerd. Die schulden en vorderingen mogen dus niet langer, voor het overeenstemmende bedrag, voorkomen in de balans van de betrokken ondernemingen. 
 
 Niettemin moet worden opgemerkt dat de wettelijke schuldvergelijking waarvan sprake in de voornoemde artikelen van het Burgerlijk Wetboek, niet van openbare orde is. Wederzijdse schuldeisers en schuldenaars kunnen dus op rechtsgeldige wijze afspreken hun wederzijdse schulden en vorderingen niet te verrekenen, zelfs al is aan de voorwaarden voor wettelijke schuldvergelijking voldaan. In dat geval moeten die schulden en vorderingen tot hun vervaldag behouden blijven in de boekhouding en de jaarrekening van de betrokken ondernemingen. 
 

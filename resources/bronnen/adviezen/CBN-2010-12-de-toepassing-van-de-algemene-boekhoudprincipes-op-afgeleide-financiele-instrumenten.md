@@ -33,31 +33,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:58Z'
+  generated_at: '2026-05-12T23:38:08Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 6
       max_section_chars: 8985
-      file_size_chars: 17376
+      file_size_chars: 17375
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2010/12 -De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten1 Advies van 8 september 2010
 
@@ -69,7 +64,7 @@ De tijd dat deze producten enkel door professionals werden gebruikt, ligt ver ac
 
 De Richtlijnen 2001/65/EG[^2], 2003/51/EG[^3] en 2006/46/EG[^4] hebben in de Vierde Richtlijn[^5] de mogelijkheid geïntroduceerd om financiële instrumenten, met inbegrip van derivaten (artikels 42*bis* tot 42*septies*), op basis van de reële waarde te waarderen. Deze machtiging (of verplichting naargelang de keuze van de lidstaten) kan volgens de Zevende Richtlijn[^6] beperkt worden tot de geconsolideerde jaarrekening.
 
-Zoals echter wordt uiteengezet in het Verslag aan de Koning bij het koninklijk besluit van 10 augustus 2009[^7], dat de voornoemde Richtlijn 2006/46/EG omzet in Belgisch recht,* “heeft de regering geen gebruik gemaakt van de mogelijkheid geboden door de geciteerde richtlijn om een waardering van financiële instrumenten toe te staan of voor te schrijven samen met de daarmee verband houdende openbaarmakingverplichtingen conform de internationale standaarden voor jaarrekeningen zoals vastgelegd bij Verordening (EG) nr. 1725/2003 van de Commissie van 29 september 2003 (…)”*. De regering is immers van mening dat het op dit moment nog steeds niet opportuun zou zijn om deze mogelijkheid te introduceren in ons nationaal recht.
+Zoals echter wordt uiteengezet in het Verslag aan de Koning bij het koninklijk besluit van 10 augustus 2009[^7], dat de voornoemde Richtlijn 2006/46/EG omzet in Belgisch recht,*“heeft de regering geen gebruik gemaakt van de mogelijkheid geboden door de geciteerde richtlijn om een waardering van financiële instrumenten toe te staan of voor te schrijven samen met de daarmee verband houdende openbaarmakingverplichtingen conform de internationale standaarden voor jaarrekeningen zoals vastgelegd bij Verordening (EG) nr. 1725/2003 van de Commissie van 29 september 2003 (…)”*. De regering is immers van mening dat het op dit moment nog steeds niet opportuun zou zijn om deze mogelijkheid te introduceren in ons nationaal recht.
 
 Bij gebrek aan specifieke regels dient de boekhoudkundige verwerking van afgeleide financiële instrumenten afgeleid te worden van de toepassing van de algemene boekhoudprincipes, opgenomen in de Vierde Richtlijn, die werden omgezet in het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna K.B. W.Venn.).
 

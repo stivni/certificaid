@@ -25,31 +25,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:48Z'
+  generated_at: '2026-05-12T23:37:58Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (47 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:30Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 46
       max_section_chars: 10299
-      file_size_chars: 47110
+      file_size_chars: 47108
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (47 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 169/1 - Verwerking van leningen en ontleningen van effecten in de jaarrekening van ondernemingen
 
@@ -191,9 +186,7 @@ In de andere, ongetwijfeld meest voorkomende gevallen zal de lener van de ontlen
 Voor de ontlener vormen die vergoedingen voor ontbrekende coupons financïele kosten waar hij normaliter een opbrengst tegenover heeft geplaatst, hetzij uit de inning van de coupon voor zijn rekening (waarschijnlijk vrij zeldzaam geval), hetzij uit een renteprorata dat hij van zijn cliënt ontvangt, of een winst uit de terugkoop van het terug te geven effect tegen een lagere koers (ex-coupon). Die kosten moet hij bij de categorie «Diverse financiële kosten» (rekening 657 tot 659) van het genormaliseerd rekeningenstelsel boeken. 
 
 ### Diverse vragen
-De vraag werd gesteld hoe de effectenlening in de jaarrekening van de ondernemingen moet worden 
-
-verwerkt, wanneer : 
+De vraag werd gesteld hoe de effectenlening in de jaarrekening van de ondernemingen moet worden verwerkt, wanneer : 
 
 - bij het verstrijken van de periode waarvoor de lening werd toegekend, de teruggave van een identiek effect als het ontleende effect onmogelijk is omdat de emittent een wijziging in het effect heeft gebracht; 
 - gedurende de periode tussen de lening van het effect en de afgesproken datum voor de teruggave, de houder een recht mag uitoefenen. 

@@ -40,31 +40,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:48Z'
+  generated_at: '2026-05-12T23:39:00Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (30 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 29
-      max_section_chars: 14262
-      file_size_chars: 32460
+      max_section_chars: 14259
+      file_size_chars: 32457
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (30 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2022/13 – Boekhoudkundige verwerking van fusies tussen verenigingen en stichtingen
 
@@ -325,7 +320,7 @@ Sedert de inwerkingtreding van het WVV is het toegestaan om negatieve fondsen va
 | | 20.500| | 20.500|
 
 ### Overgedragen verlies
-Indien de balans van de ontbonden vereniging of stichting vóór de fusie een overgedragen verlies aantoont (rekening 14(1) – *Overgedragen verlies*), kan dit verlies in het kader van de fusie niet worden toegerekend aan het beginvermogen (rekening 100 –* Beginvermogen*). Bij een fusie door overneming wordt het* Overgedragen verlies* van de ontbonden vereniging of stichting opgeteld bij de *Overgedragen winst*, indien aanwezig, van de verkrijgende vereniging of stichting. Bij een fusie door oprichting van een nieuwe vereniging of stichting wordt het* Overgedragen verlies* van de ontbonden vereniging of stichting in hoofde van de nieuwe vereniging of stichting opgeteld bij de *Overgedragen winst*, indien aanwezig, van een andere ontbonden vereniging of stichting.
+Indien de balans van de ontbonden vereniging of stichting vóór de fusie een overgedragen verlies aantoont (rekening 14(1) – *Overgedragen verlies*), kan dit verlies in het kader van de fusie niet worden toegerekend aan het beginvermogen (rekening 100 –*Beginvermogen*). Bij een fusie door overneming wordt het*Overgedragen verlies* van de ontbonden vereniging of stichting opgeteld bij de *Overgedragen winst*, indien aanwezig, van de verkrijgende vereniging of stichting. Bij een fusie door oprichting van een nieuwe vereniging of stichting wordt het*Overgedragen verlies* van de ontbonden vereniging of stichting in hoofde van de nieuwe vereniging of stichting opgeteld bij de *Overgedragen winst*, indien aanwezig, van een andere ontbonden vereniging of stichting.
 
 ### Voorbeeld 4 – Samenvoeging van overgedragen verlies en overgedragen winst
 De balans van vereniging A vertoont een overgedragen verlies van 2.500. Deze vereniging brengt haar volledige vermogen in bij vereniging B die beschikt over een overgedragen winst van 500. De overgedragen winst van B is niet voldoende om het verlies van vereniging A te compenseren. Het bedrag van de verliezen kan evenwel niet worden weggewerkt door het beginvermogen.

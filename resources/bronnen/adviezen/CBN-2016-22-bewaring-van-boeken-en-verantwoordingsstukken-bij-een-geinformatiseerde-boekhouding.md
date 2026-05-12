@@ -29,31 +29,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:22Z'
+  generated_at: '2026-05-12T23:38:31Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (15 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 14
-      max_section_chars: 12610
-      file_size_chars: 24417
+      max_section_chars: 12605
+      file_size_chars: 24412
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (15 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2016/22 - Bewaring van boeken en verantwoordingsstukken bij een geïnformatiseerde boekhouding
 
@@ -112,7 +107,7 @@ Elke boekhoudstaat moet immers gedurende de minimale bewaringstermijn kunnen wor
 
 Gelet op de snelle technologische evolutie in dit domein, onderzoekt de Regering momenteel de mogelijkheid om de minimale bewaringstermijn van tien jaar die is bepaald in de wet van 17 juli 1975 te verminderen .”.[^11] 
 
-Uit de lezing van het verslag aan de Koning bij het KB van 25 januari 2005 en uit de *eis tot behoud van de programma's en systemen waarmee deze bestanden kunnen worden gelezen*[^12], blijkt dat de bedoeling van de wetgever voornamelijk erin bestond de* onveranderlijkheid *en de* toegankelijkheid *te waarborgen van de gegevens gedurende de bewaringstermijn die nu is beperkt tot zeven jaar.
+Uit de lezing van het verslag aan de Koning bij het KB van 25 januari 2005 en uit de *eis tot behoud van de programma's en systemen waarmee deze bestanden kunnen worden gelezen*[^12], blijkt dat de bedoeling van de wetgever voornamelijk erin bestond de*onveranderlijkheid*en de*toegankelijkheid*te waarborgen van de gegevens gedurende de bewaringstermijn die nu is beperkt tot zeven jaar.
 
 Uit de samenlezing van deze bepalingen volgt dat het waarborgen van de *onveranderlijkheid* en *toegankelijkheid* van de gegevens tevens moet gepaard gaan met het waarborgen van de *materiële continuïteit, de regelmatigheid en de onveranderlijkheid van de boekingen* die gepaard gaan met het bijhouden van boeken en dagboeken.
 
@@ -141,7 +136,7 @@ De *onveranderlijkheid* van de boekingen wordt in het boekhoudrecht als volgt om
 
 Het wettelijk voorschrift kan echter niet meteen worden vertaald naar een geïnformatiseerde boekhouding.
 
-Bij een geïnformatiseerde boekhouding stelt zich immers de vraag wat de verplichting tot bewaring* in origineel* en met inachtneming van de *onveranderlijkheid* precies omvat.
+Bij een geïnformatiseerde boekhouding stelt zich immers de vraag wat de verplichting tot bewaring*in origineel* en met inachtneming van de *onveranderlijkheid* precies omvat.
 
 In artikel 9, tweede lid van het voormelde KB van 12 september 1983 wordt de voor het bewaren van de boeken en dagboeken gebruikte *drager* beoogd die de *onveranderlijkheid* en de *toegankelijkheid* van de gegevens die erin geregistreerd zijn, moet verzekeren gedurende de volledige opgelegde bewaringstermijn zoals bedoeld in artikel 9, eerste lid van hetzelfde KB.
 

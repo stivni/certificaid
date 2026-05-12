@@ -37,31 +37,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:29Z'
+  generated_at: '2026-05-12T23:38:39Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 3
-      max_section_chars: 3339
-      file_size_chars: 4909
+      max_section_chars: 3337
+      file_size_chars: 4907
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2018/09 – Tax shelter voor podiumkunsten
 
@@ -82,7 +77,7 @@ Net zoals bij de productie van een audiovisueel werk moet de producent bij de ev
 
 Wanneer de uitgaven die werden gemaakt voor de productie van het podiumwerk in aanmerking komen voor activering zal, net zoals voor een audiovisueel werk, het actief worden geboekt op de rekening 211 *Immateriële vaste activa* en dient een passende afschrijving[^7] te worden toegepast.
 
-Afhankelijk van de wijze waarop de onderneming de uitgaven voor het podiumwerk boekhoudkundig zal verwerken, zullen de door de investeerders ingetekende bedragen, net zoals bij de tax shelterregeling voor audiovisuele werken, worden geboekt met als tegenpost de rekening 15 Kapitaalsubsidies (en 1680* Uitgestelde belastingen*) of de rekening 499* Wachtrekening*.[^8] 
+Afhankelijk van de wijze waarop de onderneming de uitgaven voor het podiumwerk boekhoudkundig zal verwerken, zullen de door de investeerders ingetekende bedragen, net zoals bij de tax shelterregeling voor audiovisuele werken, worden geboekt met als tegenpost de rekening 15 Kapitaalsubsidies (en 1680*Uitgestelde belastingen*) of de rekening 499*Wachtrekening*.[^8] 
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerpadvies op 11 januari 2018 ter publieke consultatie werd gepubliceerd op de website van de CBN
 

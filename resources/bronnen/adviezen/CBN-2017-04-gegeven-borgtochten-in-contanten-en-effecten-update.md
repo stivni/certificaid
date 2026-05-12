@@ -20,31 +20,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:23Z'
+  generated_at: '2026-05-12T23:38:34Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (3 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 2
-      max_section_chars: 1988
-      file_size_chars: 2563
+      max_section_chars: 1987
+      file_size_chars: 2562
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (3 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2017/04 – Gegeven borgtochten in contanten en effecten (update)
 
@@ -58,7 +53,7 @@ Daarnaast werd tevens de zienswijze van de Commissie gevraagd omtrent de boekhou
 ## Conclusie
 In artikel 3:89 van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen en verenigingen wordt bepaald dat borgtochten dienen te worden opgenomen als deel van de financiële vaste activa indien deze borgtochten worden gestort als doorlopende waarborg. Dit impliceert dat ze duurzaam worden aangehouden.
 
-Daarnaast, indien een borg vervalt binnen de 12 maanden lijkt het aangewezen het op te nemen op de rekening 418 *Borgtochten betaald in contanten*. De rekeningen 750* Opbrengsten uit financiële vaste activa* en 751 *Opbrengsten uit vlottende activa* corresponderen respectievelijk met de rekeningen 288 *Borgtochten betaald in contanten* en 418 *Borgtochten betaald in contanten* voor de verwerking van eventuele financiële opbrengsten (interesten of dividenden).
+Daarnaast, indien een borg vervalt binnen de 12 maanden lijkt het aangewezen het op te nemen op de rekening 418 *Borgtochten betaald in contanten*. De rekeningen 750*Opbrengsten uit financiële vaste activa* en 751 *Opbrengsten uit vlottende activa* corresponderen respectievelijk met de rekeningen 288 *Borgtochten betaald in contanten* en 418 *Borgtochten betaald in contanten* voor de verwerking van eventuele financiële opbrengsten (interesten of dividenden).
 
 Op de rekening 288 *Borgtochten betaald in contanten* en 418 *Borgtochten betaald in contanten* kunnen enkel, op basis van de omschrijving, borgtochten worden opgenomen die afgewikkeld worden in contanten (m.a.w. in cash). Het lijkt de Commissie niet aangewezen om een aparte rubriek te voorzien voor borgtochten die worden afgewikkeld in bijvoorbeeld effecten; vandaar zal de Commissie op een gepast ogenblik aan de Regering voorstellen om de omschrijving van de rekeningen 288 *Borgtochten betaald in contanten* en 418 *Borgtochten betaald in contanten* op passende wijze aan te passen. Borgverstrekkers die reeds op heden worden geconfronteerd met de problematiek van gegeven borgtochten in effecten kunnen hiervoor de rekeningen 288 en 418 gebruiken.
 

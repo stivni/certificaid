@@ -31,37 +31,32 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:28Z'
+  generated_at: '2026-05-12T23:37:40Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:15Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (3 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:30Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:39Z'
       heading_count: 2
       max_section_chars: 2628
-      file_size_chars: 4052
+      file_size_chars: 4051
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:15Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (3 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 131/2 - Toevoegingen en onttrekkingen - Boekhoudkundige verwerking
 
 Krachtens het koninklijk besluit van 8 oktober 1976 moeten belastingvrije reserves, dat zijn de gerealiseerde meerwaarden en de winsten die belastingvrij zijn indien ze in het vermogen van de onderneming blijven, in een afzonderlijke rubriek op de passiefzijde van de balans worden geboekt. 
 
-Het schema van de resultatenrekening bevat, onder de rubriek *Winst (verlies) van het boekjaar*, een speciale rubriek* Overboeking naar de belastingvrije reserves*. Daarin opgenomen bedragen worden afgetrokken van het bedrag van de winst (het verlies) van het boekjaar om de te bestemmen winst (het te verwerken verlies) vast te stellen. 
+Het schema van de resultatenrekening bevat, onder de rubriek *Winst (verlies) van het boekjaar*, een speciale rubriek*Overboeking naar de belastingvrije reserves*. Daarin opgenomen bedragen worden afgetrokken van het bedrag van de winst (het verlies) van het boekjaar om de te bestemmen winst (het te verwerken verlies) vast te stellen. 
 
 In dit verband rezen twee vragen : 
 

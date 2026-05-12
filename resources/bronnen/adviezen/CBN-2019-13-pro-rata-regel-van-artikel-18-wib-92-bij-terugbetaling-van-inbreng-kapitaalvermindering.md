@@ -19,31 +19,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:36Z'
+  generated_at: '2026-05-12T23:38:46Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (17 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 16
       max_section_chars: 6156
-      file_size_chars: 22990
+      file_size_chars: 22988
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (17 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2019/13 - Pro rata-regel van artikel 18 WIB 92 bij terugbetaling van inbreng / kapitaalvermindering
 
@@ -123,7 +118,7 @@ Op fiscaal vlak wordt er gehandeld op basis van ‘het gedeelte dat wordt aanger
 
 = 63,6 %
 
-Het gevolg hiervan is een verhoudingsgewijze aanrekening van 255 (400 * 63,6 %) op het gestort kapitaal en de hiermee gelijkgestelde bedragen en van 145 (400 * 36,4 %) op de belaste reserves.
+Het gevolg hiervan is een verhoudingsgewijze aanrekening van 255 (400 *63,6 %) op het gestort kapitaal en de hiermee gelijkgestelde bedragen en van 145 (400* 36,4 %) op de belaste reserves.
 
 | 
 

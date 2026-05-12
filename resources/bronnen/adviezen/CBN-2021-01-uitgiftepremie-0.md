@@ -33,31 +33,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:40Z'
+  generated_at: '2026-05-12T23:38:50Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (11 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 10
-      max_section_chars: 8210
-      file_size_chars: 16088
+      max_section_chars: 8204
+      file_size_chars: 16082
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (11 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
@@ -71,7 +66,7 @@ De hier beoogde uitgiftepremie bestaat uiteraard niet bij de vereniging zonder w
 ## Schema van de jaarrekening en minimumindeling van het algemeen rekeningenstelsel
 De balansschema’s die bij het koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen zijn gevoegd, bepalen voor NV’s, Europese vennootschappen (SE) en Europese coöperatieve vennootschappen (SCE) dat uitgiftepremies worden opgenomen in een afzonderlijke subrubriek binnen post I. Inbreng. Voor andere dan NV’s, SE’s en SCE’s is daarentegen voor de uitgiftepremie geen afzonderlijke subrubriek voorzien in deze schema’s. In antwoord op een opmerking van de Raad van State heeft de Regering verduidelijkt[^3] dat een uitgiftepremie maar zin heeft in een vennootschap met kapitaal. In vennootschappen zonder kapitaal wordt de totale inbreng voor nieuwe aandelen geboekt onder de boekhoudkundige post andere beschikbare of andere onbeschikbare inbreng buiten kapitaal.
 
-De minimumindeling van het algemeen rekeningenstelsel (MAR) werd aangepast[^4] opdat ook passende rekeningen voorhanden zouden zijn voor de inbrengen in kapitaalloze vennootschappen zonder het gebruik van de rekening 100 *Kapitaal*. Daartoe werd de benaming van de 11-rekening uit het MAR gewijzigd in de nieuwe, meer algemene benaming 11* Inbreng buiten kapitaal*. Deze rekening bevat vervolgens de subrekeningen 1100* Uitgiftepremie *en 1110* Uitgiftepremie *naargelang de geboekte uitgiftepremie al dan niet beschikbaar is. 
+De minimumindeling van het algemeen rekeningenstelsel (MAR) werd aangepast[^4] opdat ook passende rekeningen voorhanden zouden zijn voor de inbrengen in kapitaalloze vennootschappen zonder het gebruik van de rekening 100 *Kapitaal*. Daartoe werd de benaming van de 11-rekening uit het MAR gewijzigd in de nieuwe, meer algemene benaming 11*Inbreng buiten kapitaal*. Deze rekening bevat vervolgens de subrekeningen 1100*Uitgiftepremie*en 1110*Uitgiftepremie*naargelang de geboekte uitgiftepremie al dan niet beschikbaar is. 
 
 ## Uitgiftepremie: beschikbare of onbeschikbare inbreng
 Tot vóór de inwerkingtreding van de wet van 17 maart 2019 tot aanpassing van bepaalde federale fiscale bepalingen aan het nieuwe Wetboek van vennootschappen en verenigingen was de statutaire onbeschikbaarheid één van de voorwaarden opdat een uitgiftepremie kon worden aangemerkt als fiscaal gestort kapitaal. Ingevolge de wijziging van artikel 184 WIB 92 door artikel 23 van voormelde wet van 17 maart 2019 geldt deze voorwaarde van onbeschikbaarheid voortaan niet meer[^5]. 
@@ -79,7 +74,7 @@ Tot vóór de inwerkingtreding van de wet van 17 maart 2019 tot aanpassing van b
 Voor veel vennootschappen staat deze onbeschikbaarheid evenwel nog steeds vermeld in de statuten. Zolang de statuten bepalen dat de uitgiftepremies onbeschikbaar zijn, worden deze geboekt op de rekening 1110 *Uitgiftepremie* en worden deze in het schema van de jaarrekening opgenomen als volgt:
 
 - bij de NV, SE en SCE: *I.B.1. Inbreng - Buiten kapitaal – Uitgiftepremies*; 
-- bij de andere dan de NV, SE, SCE:* I.B. Inbreng - Onbeschikbaar*. 
+- bij de andere dan de NV, SE, SCE:*I.B. Inbreng - Onbeschikbaar*. 
 
 ## Uitgiftepremie is geen reserve – aanwending van de uitgiftepremie
 De uitgiftepremie komt neer op een externe inbreng van de aandeelhouders in de onderneming. Precies hierin onderscheidt zij zich van de reserves die in principe[^6] voortvloeien uit door de onderneming gerealiseerde winsten die door haar werden "gereserveerd". Dit fundamentele onderscheid tussen beide noties impliceert dat de boeking op een reserverekening van bedragen welke door de vennoten zijn ingebracht als uitgiftepremie onverenigbaar zou zijn met het KB WVV. Het doet niet ter zake of het nu gaat om aanrekening op de wettelijke reserve, op een onbeschikbare, een belastingvrije dan wel een beschikbare reserve. 

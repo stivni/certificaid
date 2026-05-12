@@ -35,31 +35,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:46Z'
+  generated_at: '2026-05-12T23:38:57Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (10 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 9
-      max_section_chars: 9622
-      file_size_chars: 22668
+      max_section_chars: 9619
+      file_size_chars: 22664
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (10 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2022/08 – Wijziging van het boekhoudkundig referentiestelsel
 
@@ -132,7 +127,7 @@ Deze herwerking kan eveneens een invloed hebben op de uitkeerbare winst.
 
 Neem hierbij het voorbeeld van een actiefbestanddeel dat in overeenstemming met het IFRS referentiestelsel gewaardeerd wordt tegen *fair value through profit or loss*: bij elke jaarafsluiting wordt het actief (of passief) geherwaardeerd tegen de reële waarde ervan en wordt elke wijziging van deze reële waarde rechtstreeks geboekt in de resultatenrekening.
 
-Indien het waarderingsverschil te wijten is aan een herwaarderingsmeerwaarde (bijvoorbeeld als gevolg van waardering tegen reële waarde [*fair value*] zoals in sommige gevallen binnen het IFRS referentiestelsel is toegestaan) geboekt overeenkomstig een ander boekhoudkundige referentiestelsel, en die herwaardering niet mag worden gehandhaafd binnen het Belgisch boekhoudrecht (door niet-naleving van de voorwaarden zoals bepaald in artikel 3:35, § 1 KB WVV), zal de vennootschap de boekhoudkundige herwerking evenwel uitvoeren door de rekening 12 *Herwaarderingsmeerwaarden*[^20] te debiteren ten belope van het nog niet afgeschreven gedeelte en/of indien de herwaarderingsmeerwaarde in het kapitaal werd geïncorporeerd, door rekening 10* Kapitaal*[^21] te debiteren ten belope van het nog niet afgeschreven gedeelte.
+Indien het waarderingsverschil te wijten is aan een herwaarderingsmeerwaarde (bijvoorbeeld als gevolg van waardering tegen reële waarde [*fair value*] zoals in sommige gevallen binnen het IFRS referentiestelsel is toegestaan) geboekt overeenkomstig een ander boekhoudkundige referentiestelsel, en die herwaardering niet mag worden gehandhaafd binnen het Belgisch boekhoudrecht (door niet-naleving van de voorwaarden zoals bepaald in artikel 3:35, § 1 KB WVV), zal de vennootschap de boekhoudkundige herwerking evenwel uitvoeren door de rekening 12 *Herwaarderingsmeerwaarden*[^20] te debiteren ten belope van het nog niet afgeschreven gedeelte en/of indien de herwaarderingsmeerwaarde in het kapitaal werd geïncorporeerd, door rekening 10*Kapitaal*[^21] te debiteren ten belope van het nog niet afgeschreven gedeelte.
 
 ### Voorbeeld 2
 Neem bijvoorbeeld het geval van een deelneming die wordt geboekt onder de financiële vaste activa op de balans van een vennootschap die haar jaarrekening opstelt volgens het IFRS-referentiestelsel en die de *fair value through profit of loss*-waardering toepast voor dit soort activa.
@@ -140,7 +135,7 @@ Stel dat de werkelijke waarde van het financieel vast actief hoger ligt dan de a
 Volgens het Belgisch boekhoudrecht moet het financieel vast actief in beginsel geboekt worden tegen aanschaffingswaarde[^23]. De vennootschap kan, indien er wordt voldaan aan de voorwaarden, een herwaarderingsmeerwaarde boeken overeenkomstig artikel 3:35, § 1 KB WVV. In de veronderstelling dat er in onderhavig geval niet wordt voldaan aan de voorwaarden van artikel 3:35, § 1 KB WVV is het behoud van het financieel vast actief in de openingsbalans tegen werkelijke waarde in strijd met het Belgisch boekhoudrecht.
 Bijgevolg moet de vennootschap de boekwaarde van het financieel vast actief herwerken zodat dit geboekt wordt tegen de initiële aanschaffingswaarde. Deze herwerking kan plaatsvinden door:
 - het bedrag dat overeenstemt met het verschil tussen de werkelijke waarde van het financieel vast actief en de aanschaffingswaarde ervan te crediteren op de passende rekening van rubriek 28 *Financiële vaste activa*; en 
-- één of meerdere van de volgende rekeningen naar keuze[^24] en ten belope van hetzelfde bedrag te debiteren: 10 *Kapitaal*[^25], 11* Uitgiftepremies*, 132* Belastingvrije reserves*, 133* Beschikbare reserves* en/of 14 *Overgedragen winst* of *Overgedragen verlies*. 
+- één of meerdere van de volgende rekeningen naar keuze[^24] en ten belope van hetzelfde bedrag te debiteren: 10 *Kapitaal*[^25], 11*Uitgiftepremies*, 132*Belastingvrije reserves*, 133*Beschikbare reserves* en/of 14 *Overgedragen winst* of *Overgedragen verlies*. 
 
 In het geval waarin het zou gaan om een geldbelegging geboekt tegen werkelijke waarde die uitstijgt boven de aanschaffingswaarde, zal dit verschil sowieso moeten worden afgeboekt vermits naar Belgisch boekhoudrecht[^26] geldbeleggingen moeten worden geboekt volgens het principe ‘*lower of cost or market*’ en in geen geval geherwaardeerd kunnen worden.
 

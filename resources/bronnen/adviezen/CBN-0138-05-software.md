@@ -36,31 +36,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:33Z'
+  generated_at: '2026-05-12T23:37:45Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:15Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (12 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:30Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 11
-      max_section_chars: 4535
-      file_size_chars: 12704
+      max_section_chars: 4529
+      file_size_chars: 12698
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:15Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (12 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 138/5 - Software
 
@@ -146,7 +141,7 @@ Deze criteria kunnen nu toegepast worden op het ontwikkelingsproces van software
 - de programmering en beschrijving en het invoeren van controles (*coding*); 
 - het onderzoek naar de betrouwbaarheid bij het functioneren van het geprogrammeerde concept en naar de effectiviteit van de ingevoerde controles (*testing*); - het onderhoud van het programma en de opleiding van de gebruiker (*maintenance*). 
 
-In dit ontwikkelingsproces zijn het slechts de uitgaven van *coding*,* testing *en - in bepaalde gevallen - van* maintenance *die voor activering in aanmerking komen vanaf het ogenblik waarop de onderneming beslist te investeren in een vaststaand en afgebakend project waarvan de technologische en financiële haalbaarheid is aangetoond. 
+In dit ontwikkelingsproces zijn het slechts de uitgaven van *coding*,*testing*en - in bepaalde gevallen - van*maintenance*die voor activering in aanmerking komen vanaf het ogenblik waarop de onderneming beslist te investeren in een vaststaand en afgebakend project waarvan de technologische en financiële haalbaarheid is aangetoond. 
 
 Uiteraard veronderstelt dit onderscheid tussen kosten die in verband staan met de verschillende fasen van het ontwikkelingsproces, een aangepast rapporteringssysteem met de creatie van verantwoordingsstukken die de activering ondersteunen. 
 
@@ -154,7 +149,7 @@ De uitgaven voor *maintenance* zijn de uitgaven gedaan na voltooiing van het pro
 
 Indien daarentegen een fundamentele wijziging in het programma wordt aangebracht teneinde de toepassing zelf te veranderen of uit te breiden, dan is activering van de ermee gepaard gaande uitgaven wel mogelijk. 
 
-Bij activering worden deze uitgaven opgenomen in de rubriek "concessies, octrooien, licenties, *know-how*, merken en soortgelijke rechten" via het credit van rekening 72* Geactiveerde interne productie*. De aanmaak van software binnen de onderneming is immers een verwerving van* know-how* en wordt derhalve als zodanig geboekt. De geactiveerde uitgaven dienen te worden afgeschreven overeenkomstig het door het bestuursorgaan opgemaakte afschrijvingsplan. 
+Bij activering worden deze uitgaven opgenomen in de rubriek "concessies, octrooien, licenties, *know-how*, merken en soortgelijke rechten" via het credit van rekening 72*Geactiveerde interne productie*. De aanmaak van software binnen de onderneming is immers een verwerving van*know-how* en wordt derhalve als zodanig geboekt. De geactiveerde uitgaven dienen te worden afgeschreven overeenkomstig het door het bestuursorgaan opgemaakte afschrijvingsplan. 
 
 ### B.2 Software bestemd voor commercialisatie
 ### a) *Ten behoeve van derden ontwikkelde specifieke software*

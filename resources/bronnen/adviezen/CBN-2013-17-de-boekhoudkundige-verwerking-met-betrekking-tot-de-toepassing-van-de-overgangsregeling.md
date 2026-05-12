@@ -27,31 +27,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:14Z'
+  generated_at: '2026-05-12T23:38:23Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (24 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 23
       max_section_chars: 4470
-      file_size_chars: 16902
+      file_size_chars: 16899
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (24 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2013/17 - De boekhoudkundige verwerking met betrekking tot de toepassing van de overgangsregeling zoals vermeld in artikel 537 WIB 92
 
@@ -82,9 +77,9 @@ Bij de latere formele kapitaalverhoging zal vervolgens de rekening 489X *Ontvang
 De onmiddellijke creditering van de rekening 489X *Ontvangen voorschotten op kapitaal* is de boekhoudkundige uitdrukking van de onvoorwaardelijke en onherroepelijke beslissing van de aandeelhouder om het verkregen bedrag aan te wenden voor de volstorting van een inbreng in kapitaal[^4].
 
 ### Onmiddellijke inbreng in geld
-De vennootschap kan, op vraag van en mits de onvoorwaardelijke en onherroepelijke beslissing van de aandeelhouder, het netto uit te betalen bedrag rechtstreeks storten op een geblokkeerde rekening van de vennootschap in naam en voor rekening van die aandeelhouder. Indien een uitbetaling heeft plaatsgevonden door storting op deze geblokkeerde bankrekening van de vennootschap, dan wordt de rekening 471 *Dividenden over het boekjaar* gedebiteerd ten opzichte van de creditering van de rekening 5500 *Kredietinstellingen: Rekening-courant*. Vervolgens wordt een rekening 5500X* Kredietinstellingen: geblokkeerde bankrekening* gedebiteerd ten opzichte van een rekening 489X *Ontvangen voorschotten op kapitaal*. 
+De vennootschap kan, op vraag van en mits de onvoorwaardelijke en onherroepelijke beslissing van de aandeelhouder, het netto uit te betalen bedrag rechtstreeks storten op een geblokkeerde rekening van de vennootschap in naam en voor rekening van die aandeelhouder. Indien een uitbetaling heeft plaatsgevonden door storting op deze geblokkeerde bankrekening van de vennootschap, dan wordt de rekening 471 *Dividenden over het boekjaar* gedebiteerd ten opzichte van de creditering van de rekening 5500 *Kredietinstellingen: Rekening-courant*. Vervolgens wordt een rekening 5500X*Kredietinstellingen: geblokkeerde bankrekening* gedebiteerd ten opzichte van een rekening 489X *Ontvangen voorschotten op kapitaal*. 
 
-Bij de latere formele kapitaalverhoging zal vervolgens de rekening 489X O*ntvangen voorschotten op kapitaal* worden gedebiteerd en zal de rekening 100* Geplaatst kapitaal[^5] * gecrediteerd worden.
+Bij de latere formele kapitaalverhoging zal vervolgens de rekening 489X O*ntvangen voorschotten op kapitaal* worden gedebiteerd en zal de rekening 100*Geplaatst kapitaal[^5]* gecrediteerd worden.
 
 Ook hier is de creditering van de rekening 489X *Ontvangen voorschotten op kapitaal* de boekhoudkundige uitdrukking van de onherroepelijke en onvoorwaardelijke beslissing van de aandeelhouder om het verkregen bedrag aan te wenden voor de volstorting van een inbreng in kapitaal.
 

@@ -37,31 +37,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:19Z'
+  generated_at: '2026-05-12T23:38:29Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (13 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 12
       max_section_chars: 10028
-      file_size_chars: 23502
+      file_size_chars: 23501
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (13 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2016/11 - Boekhoudkundige verwerking van de cross currency swap
 
@@ -69,7 +64,7 @@ provenance:
 ### Situering van de cross currency swap
 In het CBN-advies 2010/12 - De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten,[^2] heeft de Commissie besloten om deze algemene boekhoudprincipes voor afgeleide financiële instrumenten te verduidelijken aan de hand van concrete gevallen. Nadat de boekhoudkundige verwerking van de renteswap reeds werd uiteengezet in CBN-advies 2011/18,[^3] zal in onderhavig advies de boekhoudkundige verwerking van de cross *currency* swap worden behandeld.
 
-D. Shirreff omschrijft de cross currency swap als: *“(…) an exchange of debt into another currency until maturity, when repayment is made in the original currency, often at a pre-agreed exchange rate. When two counter parties are swapping equivalent amounts of different currencies a formula is worked out to take account of the interest rate differential and exchange rate differential over the term of the swap. In a classic case, one counterparty with a good US credit rating but poor access to the Swiss franc market agrees to swap a fixed rate dollars for fixed rate Swiss francs, to benefit from the relatively low Swiss franc interest rates. The counter party with good access to the Swiss market is looking for the cheap dollars that the good US credit can provide. The basis of the simplest currency swap is a spot currency transaction between the two counter parties which is reversed at the end of the swap. Each counter party pays interest on the other’s loan as if it were the borrower. The predicted interest and exchange rate differentials in the two currencies are divided into notional annual or semi-annual payments which are netted out between the two parties, usually with the intermediation of a bank.”[^4] *
+D. Shirreff omschrijft de cross currency swap als: *“(…) an exchange of debt into another currency until maturity, when repayment is made in the original currency, often at a pre-agreed exchange rate. When two counter parties are swapping equivalent amounts of different currencies a formula is worked out to take account of the interest rate differential and exchange rate differential over the term of the swap. In a classic case, one counterparty with a good US credit rating but poor access to the Swiss franc market agrees to swap a fixed rate dollars for fixed rate Swiss francs, to benefit from the relatively low Swiss franc interest rates. The counter party with good access to the Swiss market is looking for the cheap dollars that the good US credit can provide. The basis of the simplest currency swap is a spot currency transaction between the two counter parties which is reversed at the end of the swap. Each counter party pays interest on the other’s loan as if it were the borrower. The predicted interest and exchange rate differentials in the two currencies are divided into notional annual or semi-annual payments which are netted out between the two parties, usually with the intermediation of a bank.”[^4]*
 
 De *cross currency swap* komt dus neer op een verrichting waarbij twee partijen overeenkomen om op een bepaald tijdstip geldbedragen op te nemen in twee verschillende valuta. Deze geldbedragen worden bij aanvang van de overeenkomst omgeruild en de uitgewisselde bedragen worden op termijn terugbetaald volgens een bepaald aflossingsschema waarbij er rekening wordt gehouden met de verschuldigde interestbetalingen en de aflossingen van de hoofdsom.[^5] 
 

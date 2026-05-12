@@ -43,31 +43,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:04Z'
+  generated_at: '2026-05-12T23:38:14Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (25 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 24
       max_section_chars: 16399
-      file_size_chars: 51481
+      file_size_chars: 51479
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (25 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2011/14 - Herwaarderingsmeerwaarden
 
@@ -271,14 +266,14 @@ Een vennootschap bezit een gebouw met een boekwaarde van 200.000 euro dat in aan
 | | 121 | Herwaarderingsmeerwaarden op materiële vaste activa | 1.699,5 | |
 | aan | 133 | Beschikbare reserve | | 1.699,5 |
 
-### * Aanwending van herwaarderingsmeerwaarden ter aanzuivering van verliezen*
+### *Aanwending van herwaarderingsmeerwaarden ter aanzuivering van verliezen*
 Zoals hierboven vermeld, moeten de geboekte meerwaarden krachtens artikel 57, § 3 KB W.Venn. rechtstreeks worden toegerekend aan de passiefpost *III.* *Herwaarderingsmeerwaarden*. 
 
 Deze bepaling wijst erop dat een herwaarderingsmeerwaarde in de zin van hogergenoemd artikel 57 KB W.Venn. geen “resultaat” uitmaakt, dat aanleiding kan zijn tot winstbestemming. 
 
 Naar het oordeel van de Commissie is het derhalve principieel uitgesloten dat de bedragen geboekt onder de post *Herwaarderingsmeerwaarden* direct of indirect zouden worden aangewend om bijvoorbeeld geleden verliezen geheel of gedeeltelijk aan te zuiveren.
 
-### * Afschrijving van geherwaardeerde activa*
+### *Afschrijving van geherwaardeerde activa*
 Indien de herwaardering betrekking heeft op materiële vaste activa met een beperkte gebruiksduur, dan wordt op basis van de geherwaardeerde waarde afgeschreven overeenkomstig een afschrijvingsplan dat ertoe strekt de toerekening van de geherwaardeerde waarde te spreiden over de vermoedelijke residuele gebruiksduur van de betrokken activa[^20]. 
 
 Bij herwaardering kan het oorspronkelijke afschrijvingsplan desgevallend worden aangepast om rekening te houden met deze bijkomende afschrijvingsverplichting. Daarbij komt het de onderneming toe te oordelen of de in het oorspronkelijke plan geschatte gebruiksduur van de betrokken activa moet worden gehandhaafd, dan wel gewijzigd. Bij deze beoordeling zal de onderneming de relevante factoren eigen aan het concrete geval toetsen aan haar bestendig toegepaste citeria ter zake van gebruiksduur of nuttigheidsduur, zoals zij deze hoort vast te stellen in het kader van haar waarderingsregels[^21]. In de regel geeft dergelijke aanpassing van het oorspronkelijke afschrijvingsplan als gevolg van een herwaardering geen aanleiding tot een terugneming van afschrijvingen, tenzij de voorwaarden van artikel 64, § 1, derde lid KB W.Venn. zijn vervuld en de onderneming van deze mogelijkheid gebruik maakt. 

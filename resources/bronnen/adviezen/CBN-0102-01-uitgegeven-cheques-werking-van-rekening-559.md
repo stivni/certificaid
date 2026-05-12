@@ -25,31 +25,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:06Z'
+  generated_at: '2026-05-12T23:37:18Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:14Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:29Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:38Z'
       heading_count: 0
-      max_section_chars: 5246
-      file_size_chars: 5246
+      max_section_chars: 5245
+      file_size_chars: 5245
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:14Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies R102/1 - Uitgegeven cheques : werking van rekening 559
 
@@ -63,7 +58,7 @@ Wat de werking van de rekening *Uitgegeven cheques* betreft, werd aan de Commiss
 
 Naar het oordeel van de Commissie heeft de emittent van een cheque het recht om - uiteraard voor zover de nodige provisie voorhanden is - de rekening van zijn schuldeiser te debiteren zodra hij hem de cheque heeft overhandigd. Vanaf het ogenblik dat de beneficiaris de cheque als betaalmiddel heeft ontvangen, kan hij immers nog alleen betaling van de cheque vorderen en niet meer van de onderliggende schuldvordering. Slechts wanneer de cheque niet wordt uitbetaald kan hij opnieuw betaling eisen van zijn onderliggende schuldvordering. 
 
-Een tweede vraag is de volgende. Dienen de uitgegeven cheques in de betrokken rekening heel het jaar door en naargelang van hun uitgifte te worden ingeschreven, of is de onderneming gerechtigd de uitgegeven cheques in haar boeken rechtstreeks aan te rekenen op de rekening *Kredietinstellingen*. In dat laatste geval zou de onderneming de rekening* Uitgegeven cheques* slechts periodiek - desnoods slechts eenmaal per jaar - gebruiken ten einde de rekening *Kredietinstellingen* uit haar boekhouding af te stemmen op haar rekening bij de betrokken kredietinstelling, gelet op het bedrag der nog in omloop zijnde cheques.
+Een tweede vraag is de volgende. Dienen de uitgegeven cheques in de betrokken rekening heel het jaar door en naargelang van hun uitgifte te worden ingeschreven, of is de onderneming gerechtigd de uitgegeven cheques in haar boeken rechtstreeks aan te rekenen op de rekening *Kredietinstellingen*. In dat laatste geval zou de onderneming de rekening*Uitgegeven cheques* slechts periodiek - desnoods slechts eenmaal per jaar - gebruiken ten einde de rekening *Kredietinstellingen* uit haar boekhouding af te stemmen op haar rekening bij de betrokken kredietinstelling, gelet op het bedrag der nog in omloop zijnde cheques.
 
 In de eerste veronderstelling wordt de uitgifte van de cheque op de volgende wijze geboekt : 
 

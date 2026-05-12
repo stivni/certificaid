@@ -22,31 +22,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:30Z'
+  generated_at: '2026-05-12T23:38:40Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (3 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 2
       max_section_chars: 2518
-      file_size_chars: 5159
+      file_size_chars: 5156
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (3 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2018/13 – Provisie aanvullende dagen verlof – Arbeidsduurvermindering
 
@@ -63,9 +58,9 @@ Bij het einde van het contract heeft de uitzendkracht, juridisch gezien, dus ste
 ## Boekhoudkundige verwerking
 Het uitvoeringsbesluit bij het Wetboek van vennootschappen bepaalt dat rekening moet worden gehouden met de kosten die betrekking hebben op het boekjaar, ongeacht de dag waarop deze kosten worden betaald. Ten laste van het boekjaar moeten inzonderheid worden geboekt de bezoldigingen, uitkeringen en andere sociale voordelen die in de loop van een volgend boekjaar zullen worden betaald voor diensten die tijdens het boekjaar of tijdens vorige boekjaren zijn verricht.[^3] 
 
-Gelet op het voorgaande is de Commissie van mening dat, in lijn met het CBN-advies 148/2 -* Vakantiegeld,* de lasten die de onderneming in een volgend boekjaar zal moeten dragen, met name de uitbetaling van het vakantiegeld voor in de loop van het verstreken boekjaar geleverde prestaties, in rekening moeten worden gebracht. Dit gebeurt op het passief van de balans van het boekjaar waarin de prestaties die het recht op vakantiegeld doen ontstaan, zijn verricht.
+Gelet op het voorgaande is de Commissie van mening dat, in lijn met het CBN-advies 148/2 -*Vakantiegeld,* de lasten die de onderneming in een volgend boekjaar zal moeten dragen, met name de uitbetaling van het vakantiegeld voor in de loop van het verstreken boekjaar geleverde prestaties, in rekening moeten worden gebracht. Dit gebeurt op het passief van de balans van het boekjaar waarin de prestaties die het recht op vakantiegeld doen ontstaan, zijn verricht.
 
-Voor werknemers die* in vast dienstverband[^4] * werken, wordt ter voldoening van het door deze werknemers opgebouwde vakantiegeld dat op de balansdatum nog niet werd uitbetaald een provisie geboekt op de rekening 456 *Vakantiegeld*. De verplichting om een dergelijke provisie te boeken, geldt eveneens voor de door de werknemers tijdens het verstreken boekjaar opgebouwde aanvullende vakantiedagen die nog niet werden opgenomen op de balansdatum van het verstreken boekjaar.
+Voor werknemers die*in vast dienstverband[^4]* werken, wordt ter voldoening van het door deze werknemers opgebouwde vakantiegeld dat op de balansdatum nog niet werd uitbetaald een provisie geboekt op de rekening 456 *Vakantiegeld*. De verplichting om een dergelijke provisie te boeken, geldt eveneens voor de door de werknemers tijdens het verstreken boekjaar opgebouwde aanvullende vakantiedagen die nog niet werden opgenomen op de balansdatum van het verstreken boekjaar.
 
 De bezoldiging van een uitzendkracht wordt niet rechtstreeks aan de tewerkgestelde uitzendkracht betaald. De onderneming ontvangt voor de prestaties van een uitzendkracht facturen van een uitzendkantoor. Dergelijke lasten worden geboekt op de rekening 617 *Uitzendkrachten en personen ter beschikking gesteld van de onderneming.* De door deze uitzendkrachten opgebouwde aanvullende vakantiedagen die op de balansdatum nog niet werden gefactureerd door het uitzendkantoor worden in afwachting van de ontvangst van de factuur waarin deze vergoeding vervat zit, geboekt op de rekening 444 *Te ontvangen facturen.* 
 

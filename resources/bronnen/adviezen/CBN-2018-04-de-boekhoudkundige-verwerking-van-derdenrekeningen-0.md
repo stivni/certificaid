@@ -29,31 +29,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:28Z'
+  generated_at: '2026-05-12T23:38:38Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 3
-      max_section_chars: 18599
-      file_size_chars: 20251
+      max_section_chars: 18597
+      file_size_chars: 20249
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2018/04 - De boekhoudkundige verwerking van derdenrekeningen
 
@@ -70,9 +65,7 @@ Zoals verder zal blijken, komt de Commissie tot de conclusie dat deze specifieke
 
 ## Analyse
 Verplichtingen van advocaten, notarissen, gerechtsdeurwaarders en vastgoedmakelaars met betrekking tot het houden van derdenrekeningen
-De derdenrekening, ook wel “kwaliteitsrekening” genoemd, is een rekening waarbij bij de 
-
-tenaamstelling wordt aangegeven dat de titularis de rekening houdt in een bepaalde hoedanigheid of kwaliteit (*qualitate qua[^10]* ).
+De derdenrekening, ook wel “kwaliteitsrekening” genoemd, is een rekening waarbij bij de tenaamstelling wordt aangegeven dat de titularis de rekening houdt in een bepaalde hoedanigheid of kwaliteit (*qualitate qua[^10]* ).
 
 De kwaliteitsrekening vermijdt dat het erop geplaatste geld deel zal uitmaken van het eigen vermogen van de advocaat, notaris, gerechtsdeurwaarder of vastgoedmakelaar. De gelden worden niet in eigen naam en voor eigen rekening gehouden, maar worden beheerd ten voordele van derden. De beroepsbeoefenaar die het geld op een kwaliteitsrekening plaatst, is dus geen eigenaar van deze gelden, wel is hij volmachthebber en heeft hij een inningsbevoegdheid.
 

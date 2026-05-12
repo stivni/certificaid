@@ -35,31 +35,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:04Z'
+  generated_at: '2026-05-12T23:38:14Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (31 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 30
       max_section_chars: 13806
-      file_size_chars: 40766
+      file_size_chars: 40765
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (31 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2011/13 – Overheidssubsidies
 
@@ -147,7 +142,7 @@ Het KB W.Venn. definieert het begrip kapitaalsubsidie niet. Artikel 95 KB W.Venn
 
 Met subsidies die “van overheidswege” worden verkregen, doelde de Regering destijds hoofdzakelijk op de subsidies verstrekt in het kader van de wetgeving op de economische expansie. Het is evenwel evident dat in de boekhouding het begrip kapitaalsubsidie niet mag worden beperkt tot het domein van de economische expansiewetgeving. 
 
-De Commissie wenst te benadrukken dat de kapitaalsubsidies afkomstig moeten zijn van de overheid waaraan door de wetgevende macht de bevoegdheid is toegekend om subsidies te verlenen, en die bovendien de controle uitoefent op het respecteren van de voorwaarden gekoppeld aan het verkrijgen van de subsidie. Bijgevolg mogen kapitaalsubsidies, ontvangen door een onderneming die deel uitmaakt van een groep, en die overgemaakt worden aan een andere entiteit van deze groep, in principe bij deze laatste entiteit niet worden opgenomen onder de post *Kapitaalsubsidies*. Herdistribueren binnen een groep kan slechts leiden tot een opname onder de post* Kapitaalsubsidies*, indien de onderneming die de subsidie overmaakt zelf het recht heeft om middelen ter beschikking te stellen, met andere woorden indien zij voldoet aan de onder hoofdstuk I uiteengezette criteria.
+De Commissie wenst te benadrukken dat de kapitaalsubsidies afkomstig moeten zijn van de overheid waaraan door de wetgevende macht de bevoegdheid is toegekend om subsidies te verlenen, en die bovendien de controle uitoefent op het respecteren van de voorwaarden gekoppeld aan het verkrijgen van de subsidie. Bijgevolg mogen kapitaalsubsidies, ontvangen door een onderneming die deel uitmaakt van een groep, en die overgemaakt worden aan een andere entiteit van deze groep, in principe bij deze laatste entiteit niet worden opgenomen onder de post *Kapitaalsubsidies*. Herdistribueren binnen een groep kan slechts leiden tot een opname onder de post*Kapitaalsubsidies*, indien de onderneming die de subsidie overmaakt zelf het recht heeft om middelen ter beschikking te stellen, met andere woorden indien zij voldoet aan de onder hoofdstuk I uiteengezette criteria.
 
 De kapitaalsubsidies worden geleidelijk afgeboekt via overboeking naar post IV.C. *Andere financiële opbrengsten* van de resultatenrekening, volgens hetzelfde ritme als de afschrijvingen op de vaste activa voor de verwerving waarvan ze werden verkregen of, in voorkomend geval, ten belope van het saldo, bij realisatie of buitengebruikstelling van de betrokken vaste activa[^15].
 

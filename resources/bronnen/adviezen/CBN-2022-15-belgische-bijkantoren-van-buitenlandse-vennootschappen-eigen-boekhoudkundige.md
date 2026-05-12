@@ -45,35 +45,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:49Z'
+  generated_at: '2026-05-12T23:39:00Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: unclosed ** in voetnoot 55 (regel 484) - ETL-artefact bij verwerking van een boekverwijs in cursief.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 39
       max_section_chars: 22466
-      file_size_chars: 65582
+      file_size_chars: 65573
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: 'D4: unclosed ** in voetnoot 55 (regel 484) - ETL-artefact bij verwerking van een boekverwijs in cursief.'
-      concrete_problemen:
-        - regel: 484
-          categorie: D4
-          type: unclosed-bold
-          voorbeeld: '[^55]: ...Succursales de sociétés étrangères en Belgique **"'
 ---
 # CBN-advies 2022/15 – Belgische bijkantoren van buitenlandse vennootschappen: eigen boekhoudkundige verplichtingen (update)
 
@@ -259,7 +250,7 @@ De Commissie wil hierbij benadrukken dat dergelijke bestemming in geen enkel gev
 Volgens de Commissie zou er in het tegenovergestelde geval immers een niet te verantwoorden discriminatie ontstaan tussen vennootschappen naar Belgisch recht, die dan zouden vallen onder de beperking van artikel 3:38, eerste lid KB WVV, en de Belgische bijkantoren van buitenlandse vennootschappen die zouden ontsnappen aan deze beperking in die zin dat het vast actief tot stand zou komen in het buitenland en vervolgens bestemd zou worden voor het Belgische bijkantoor. 
 
 ## Verhouding tussen het moederbedrijf en zijn bijkantoor
-Traditioneel maakt de verhouding tussen het moederbedrijf en zijn bijkantoor het voorwerp uit van een zogenaamde “verbindingsrekening” die voor het moederbedrijf evenwel een andere werking heeft dan voor zijn bijkantoor. Op niveau van het moederbedrijf, heeft de verbindingsrekening de eigenschappen van een *wachtrekening*, terwijl ze voor het bijkantoor dienst doet als* rekening-courant*.[^72] 
+Traditioneel maakt de verhouding tussen het moederbedrijf en zijn bijkantoor het voorwerp uit van een zogenaamde “verbindingsrekening” die voor het moederbedrijf evenwel een andere werking heeft dan voor zijn bijkantoor. Op niveau van het moederbedrijf, heeft de verbindingsrekening de eigenschappen van een *wachtrekening*, terwijl ze voor het bijkantoor dienst doet als*rekening-courant*.[^72] 
 
 Voor wat betreft de interne jaarrekening van de Belgische bijkantoren van buitenlandse vennootschappen wordt onder de rubriek *I. Inbreng* begrepen[^73]: de verbindingsrekening met het vermogen van respectievelijk de exploitant en de zetel die de eigen middelen bevat die de buitenlandse onderneming duurzaam besteedt aan de bedrijfsuitoefening van haar bijkantoren in België[^74].
 
@@ -275,7 +266,7 @@ De verbindingsrekening neemt in hoofde van het moederbedrijf meestal de vorm aan
 #### Gebruik van de rekening door een Belgisch bijkantoor
 Alle geboekte verrichtingen tussen het Belgische bijkantoor en zijn (buitenlands) moederbedrijf worden weergegeven in de interne jaarrekening van het bijkantoor. De boekhouding van het bijkantoor zal dan ook niet moeten worden aangepast wat betreft de uitgevoerde verrichtingen tussen het bijkantoor en zijn (buitenlands) moederbedrijf. Binnen de rekeningen van het bijkantoor fungeert de verbindingsrekening over het algemeen als een rekening-courant en geeft ze de middelen weer die het moederbedrijf ter beschikking stelt van het bijkantoor, hetzij voor de duurzame financiering van de infrastructuur, hetzij voor de courante kasbehoeften. In de boekhouding van het bijkantoor kan de verbindingsrekening zowel een debet- als een creditsaldo vertonen.
 
-Als de rekening-courant een creditsaldo vertoont op de inventarisdatum, wordt dit saldo opgenomen in de interne jaarrekening van het bijkantoor, op rekening 489 *Interne schulden ten aanzien van het moederbedrijf*[^76], 179* Interne schulden ten aanzien van het moederbedrijf*[^77] en/of 100* Verbindingsrekening*. 
+Als de rekening-courant een creditsaldo vertoont op de inventarisdatum, wordt dit saldo opgenomen in de interne jaarrekening van het bijkantoor, op rekening 489 *Interne schulden ten aanzien van het moederbedrijf*[^76], 179*Interne schulden ten aanzien van het moederbedrijf*[^77] en/of 100*Verbindingsrekening*. 
 
 Rekening 100 *Verbindingsrekening* bevat “de eigen middelen […] die […] [het moederbedrijf] duurzaam besteedt aan de bedrijfsuitoefening van haar bijkantoren”[^78] (zie *infra*, randnr. 47) en het saldo wordt opgenomen onder rekeningen 489 en 179. 
 
@@ -283,7 +274,7 @@ Als de rekening-courant een debetsaldo vertoont, met name wanneer het bijkantoor
 
 De Commissie is van oordeel dat, als de vordering bedoeld is om de activiteit van het moederbedrijf duurzaam te steunen, zij mag opgenomen worden bij rekening 2810 *Interne vorderingen ten aanzien van het moederbedrijf*.[^79] 
 
-In het tegenovergestelde geval, worden rekeningen 416 *Interne vorderingen ten aanzien van het moederbedrijf[^80]*  en 2910* Interne vorderingen ten aanzien van het moederbedrijf[^81] * gebruikt.
+In het tegenovergestelde geval, worden rekeningen 416 *Interne vorderingen ten aanzien van het moederbedrijf[^80]*  en 2910*Interne vorderingen ten aanzien van het moederbedrijf[^81]* gebruikt.
 
 Als op de inventarisdatum blijkt dat er in de boekhouding zowel een debiteurs- als crediteurspositie is opgenomen tussen het bijkantoor en het moederbedrijf, dienen deze verrekend te worden ten belope van het allerkleinste bedrag. Bijgevolg bestaat er na afloop van deze verrekening nog één vorderings- of schuldpositie ten belope van het saldo. 
 
@@ -310,7 +301,7 @@ Het bijkantoor behaalt zijn resultaat op naam en voor rekening van de buitenland
 
 Wat het bijkantoor betreft is de bestemming van dit resultaat dus beperkt in de mate dat de bestemming enkel kan uitgevoerd worden namens het moederbedrijf. 
 
-Als het bijkantoor winst behaalt, beveelt de Commissie, boekhoudkundig gezien, in beginsel het gebruik aan van de daartoe gecreëerde rekening 697 *Over te dragen winst aan het moederbedrijf*, en de rekening 489* Interne schuld ten aanzien van het moederbedrijf*. Als het bijkantoor verlies maakt, beveelt de Commissie in beginsel het gebruik aan van de daartoe gecreëerde rekening 797* Over te dragen verlies aan het moederbedrijf *en de rekening 2810* Interne vorderingen ten aanzien van het moederbedrijf*. 
+Als het bijkantoor winst behaalt, beveelt de Commissie, boekhoudkundig gezien, in beginsel het gebruik aan van de daartoe gecreëerde rekening 697 *Over te dragen winst aan het moederbedrijf*, en de rekening 489*Interne schuld ten aanzien van het moederbedrijf*. Als het bijkantoor verlies maakt, beveelt de Commissie in beginsel het gebruik aan van de daartoe gecreëerde rekening 797*Over te dragen verlies aan het moederbedrijf*en de rekening 2810*Interne vorderingen ten aanzien van het moederbedrijf*. 
 
 De Commissie is van oordeel dat het gebruik van rekeningen 489 en 2810 moet primeren[^85] op het gebruik van de rekening 14 *Overgedragen winst (verlies)*. In het geval van overgedragen winst wordt op die manier een interne schuld ten aanzien van het moederbedrijf uitgedrukt, terwijl in het geval van overgedragen verlies een interne vordering ten aanzien van het moederbedrijf wordt geboekt.
 

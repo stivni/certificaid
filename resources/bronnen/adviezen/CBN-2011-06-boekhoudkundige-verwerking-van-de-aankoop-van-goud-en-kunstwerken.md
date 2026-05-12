@@ -33,31 +33,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:01Z'
+  generated_at: '2026-05-12T23:38:12Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (12 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 11
       max_section_chars: 4217
-      file_size_chars: 12611
+      file_size_chars: 12610
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (12 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2011/6 - Boekhoudkundige verwerking van de aankoop van goud en kunstwerken
 
@@ -89,7 +84,7 @@ Voor een gedetailleerd overzicht van de waarderingsbeginselen van toepassing op 
 Indien daarentegen een onderneming haar overtollige liquiditeiten aanwendt voor de aankoop van goud, in de hoop dit op korte of middellange termijn opnieuw te verkopen met het oog op de realisatie van een meerwaarde, beantwoordt deze aankoop eerder aan de definitie van geldbeleggingen. Geldbeleggingen kunnen namelijk omschreven worden als het binnen de onderneming aanwezig, tijdelijk vrij vermogen, dat men een zo goed mogelijke bestemming geeft qua rendement en qua realiseerbaarheid.[^8]
  Beleggingen in goud kunnen dan worden opgenomen in de rubriek VIII.B *Overige beleggingen* van het volledig schema van de balans.
 
-In tegenstelling tot vastrentende effecten, termijndeposito’s en aandelen genereren goudbeleggingen echter geen periodieke opbrengsten. Beleggingen in goud worden om deze reden bij voorkeur geboekt op een subrekening van rubriek 51 *Aandelen*. In het CBN-advies 2010/7* Boekhoudkundige verwerking van de Tax shelter in hoofde van de investeerder* kondigde de Commissie reeds aan dat zij van plan is om aan de Regering voor te stellen de benaming en indeling van rekening 51 aan te passen naar *Aandelen en niet vastrentende beleggingen*.
+In tegenstelling tot vastrentende effecten, termijndeposito’s en aandelen genereren goudbeleggingen echter geen periodieke opbrengsten. Beleggingen in goud worden om deze reden bij voorkeur geboekt op een subrekening van rubriek 51 *Aandelen*. In het CBN-advies 2010/7*Boekhoudkundige verwerking van de Tax shelter in hoofde van de investeerder* kondigde de Commissie reeds aan dat zij van plan is om aan de Regering voor te stellen de benaming en indeling van rekening 51 aan te passen naar *Aandelen en niet vastrentende beleggingen*.
 Geldbeleggingen zijn aan specifieke waarderingsregels onderhevig. Beleggingsgoederen of effecten opgenomen onder de geldbeleggingen worden gewaardeerd tegen aanschaffingswaarde.[^9]
  Bijkomende kosten van aanwerving moeten niet bij de aankoopprijs gevoegd worden maar mogen ten laste worden genomen van de resultatenrekening van het boekjaar in de loop waarvan ze werden aangegaan.[^10] 
 

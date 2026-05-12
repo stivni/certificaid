@@ -21,31 +21,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:56Z'
+  generated_at: '2026-05-12T23:38:06Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 4
       max_section_chars: 1482
-      file_size_chars: 4764
+      file_size_chars: 4763
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2010/2 – De boekhoudkundige verwerking van het stelsel tot gedeeltelijke vrijstelling van betaling van de bedrijfsvoorheffing, zoals geregeld door artikel 275/3 van het Wetboek van de Inkomstenbelastingen 1992 – Update Advies van 10 februari 2010
 
@@ -64,7 +59,7 @@ De Commissie was eveneens van mening dat, indien een deel of het geheel van de b
 ## Wijzigingen van artikel 275/3, § 1, 1ste en 2de lid, WIB 92
 De wet van 21 december 2009 houdende fiscale en diverse bepalingen wijzigt in haar artikelen 12, 13 en 14, artikel 275/3, § 1, 1ste en 2de lid, WIB 92. De aangebrachte wijzigingen laten een eenduidige interpretatie toe van het voormelde artikel 275/3 door een einde te stellen aan de aanhoudende verwarring rond de aanwending van de niet doorgestorte bedrijfsvoorheffing.
 
-Uit de voorbereidende werken bij de wet van 21 december 2009 blijkt immers dat *“ het steeds de bedoeling van de wetgever is geweest te zorgen voor bijkomende investeringen en activiteiten in wetenschappelijk onderzoek, hetgeen uitsluit dat de vrijgekomen sommen worden aangewend om de economische kostprijs van het bestaande onderzoek te drukken”*, hoewel* “de bedoelde instellingen de vrijheid behouden om te beoordelen hoe de vrijgekomen sommen het best geherinvesteerd worden”*.[^3] 
+Uit de voorbereidende werken bij de wet van 21 december 2009 blijkt immers dat *“ het steeds de bedoeling van de wetgever is geweest te zorgen voor bijkomende investeringen en activiteiten in wetenschappelijk onderzoek, hetgeen uitsluit dat de vrijgekomen sommen worden aangewend om de economische kostprijs van het bestaande onderzoek te drukken”*, hoewel*“de bedoelde instellingen de vrijheid behouden om te beoordelen hoe de vrijgekomen sommen het best geherinvesteerd worden”*.[^3] 
 
 Bijgevolg mogen de door deze bepaling bedoelde instellingen de door de vrijstelling vrijgekomen fondsen niet aanwenden voor het verminderen van de kostprijs van het onderzoek dat de vrijstelling van betaling heeft doen ontstaan. 
 

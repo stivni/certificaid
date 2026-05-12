@@ -28,36 +28,31 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:39Z'
+  generated_at: '2026-05-12T23:38:49Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (12 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 11
       max_section_chars: 12987
-      file_size_chars: 24307
+      file_size_chars: 24302
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (12 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2020/13 – Overgang van een kapitaalhoudende coöperatieve vennootschap naar een kapitaalloze vennootschap
 
 ## Inleiding
-Ingevolge de* wet van 23 maart 2019* *tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen* werd het aantal vennootschapsvormen verminderd. Een van de behouden rechtsvormen is de coöperatieve vennootschap (CV). Bij de opstelling van het WVV heeft de wetgever de rechtsvorm van de CV echter opnieuw exclusief voorbehouden voor vennootschappen die een onderneming voeren op basis van het coöperatief gedachtengoed.[^2] 
+Ingevolge de*wet van 23 maart 2019* *tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen* werd het aantal vennootschapsvormen verminderd. Een van de behouden rechtsvormen is de coöperatieve vennootschap (CV). Bij de opstelling van het WVV heeft de wetgever de rechtsvorm van de CV echter opnieuw exclusief voorbehouden voor vennootschappen die een onderneming voeren op basis van het coöperatief gedachtengoed.[^2] 
 
 De rechtsvormen coöperatieve vennootschap met beperkte aansprakelijkheid (CVBA) en coöperatieve vennootschap met onbeperkte aansprakelijkheid (CVOA), gedefinieerd in het Wetboek van vennootschappen (W.Venn.), verdwijnen. De vennootschappen die bestonden op 1 mei 2019 en de rechtsvorm hadden van een CVBA of een CVOA moeten aldus in één van de resterende rechtsvormen worden omgezet of gaan er van rechtswege in over. 
 
@@ -65,7 +60,7 @@ De flexibiliteit die het WVV voorziet voor de besloten vennootschap (BV) heeft t
 
 Onderhavig advies verduidelijkt, in aanvulling op het CBN-advies 2019/14 - *Van een kapitaalhoudende BVBA naar een kapitaalloze BV*, de boekhoudkundige gevolgen voor de CVBA en de CVOA naar aanleiding van hun omvorming van een kapitaalhoudende naar een kapitaalloze vennootschap. 
 
-Het advies behandelt in hoofdzaak Hoofdstuk IV, Afdeling II *Overgangsregeling en inwerkingtreding van de wet van 23 maart 2019 tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen[^3]*  zoals gewijzigd door de artikelen 234 en 235 van de *wet van 28 april 2020 tot omzetting van Richtlijn (EU) 2017/828 van het Europees Parlement en de Raad van 17 mei 2017 tot wijziging van richtlijn 2007/36/EG wat het bevorderen van de langetermijnbetrokkenheid van aandeelhouders betreft, en houdende diverse bepalingen inzake vennootschappen en verenigingen (1)[^4] *. Het advies gaat niet nader in op de omzetting van een vennootschap die plaatsvindt in toepassing van Boek XII* Omzetting van vennootschappen van het Wetboek van vennootschappen* of in toepassing van Boek 14 *Omzetting van vennootschappen, verenigingen en stichtingen* van het WVV.
+Het advies behandelt in hoofdzaak Hoofdstuk IV, Afdeling II *Overgangsregeling en inwerkingtreding van de wet van 23 maart 2019 tot invoering van het Wetboek van vennootschappen en verenigingen en houdende diverse bepalingen[^3]*  zoals gewijzigd door de artikelen 234 en 235 van de *wet van 28 april 2020 tot omzetting van Richtlijn (EU) 2017/828 van het Europees Parlement en de Raad van 17 mei 2017 tot wijziging van richtlijn 2007/36/EG wat het bevorderen van de langetermijnbetrokkenheid van aandeelhouders betreft, en houdende diverse bepalingen inzake vennootschappen en verenigingen (1)[^4]*. Het advies gaat niet nader in op de omzetting van een vennootschap die plaatsvindt in toepassing van Boek XII*Omzetting van vennootschappen van het Wetboek van vennootschappen* of in toepassing van Boek 14 *Omzetting van vennootschappen, verenigingen en stichtingen* van het WVV.
 
 ## Wijziging van de rechtsvorm
 CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV
@@ -94,7 +89,7 @@ Een CVOA die zich op 1 januari 2024 nog niet vrijwillig heeft omgezet, wordt op 
  In dat geval moet het bestuursorgaan ten laatste op 30 juni 2024 de algemene vergadering bijeen roepen met als agenda de aanpassing van de statuten aan de nieuwe rechtsvorm.[^19] 
 
 ## Kapitaal wordt inbreng buiten kapitaal
-Zoals reeds toegelicht door de Commissie in het CBN-advies 2019/14 - *Van een kapitaalhoudende BVBA naar een kapitaalloze BV*, wordt voor de kapitaalloze vennootschappen de rekening 11* Inbreng buiten kapitaal *van de minimum indeling van een rekeningenstelsel (MAR) gebruikt voor de ontvangen of toegekende inbrengen waarbij een onderscheid wordt gemaakt naargelang deze inbreng al dan niet beschikbaar is.
+Zoals reeds toegelicht door de Commissie in het CBN-advies 2019/14 - *Van een kapitaalhoudende BVBA naar een kapitaalloze BV*, wordt voor de kapitaalloze vennootschappen de rekening 11*Inbreng buiten kapitaal*van de minimum indeling van een rekeningenstelsel (MAR) gebruikt voor de ontvangen of toegekende inbrengen waarbij een onderscheid wordt gemaakt naargelang deze inbreng al dan niet beschikbaar is.
 
 CVBA die beantwoordt aan de definitie van een coöperatieve vennootschap in artikel 6:1 WVV
 #### Algemene regel

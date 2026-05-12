@@ -20,31 +20,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:29Z'
+  generated_at: '2026-05-12T23:38:39Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 6
       max_section_chars: 4091
-      file_size_chars: 7889
+      file_size_chars: 7888
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2018/11 – Verkoop van (oplaadbare) betaalkaarten
 
@@ -58,7 +53,7 @@ De vereniging of stichting die een vereenvoudigde boekhouding voert zoals bedoel
 
 De sommen die door een kleine vereniging of stichting worden ontvangen om geplaatst te worden op een betaalkaart, worden aldus onmiddellijk ingeschreven onder de ontvangsten zonder de door de vereniging of stichting te leveren tegenprestatie af te wachten en maken deel uit van de totaliteit van de Ontvangsten op te nemen in het *Genormaliseerd minimaal schema van de Staat van de ontvangsten en uitgaven[^5]* .
 
-In een heel aantal gevallen zijn de bedragen gestort op een betaalkaart terugbetaalbaar wanneer deze bedragen niet worden verbruikt. Wanneer in dergelijk geval de betaalkaart op inventarisdatum nog niet verbruikte sommen bevat, moeten deze sommen opgenomen worden onder de *Andere schulden* in het* Genormaliseerd minimaal schema van de staat van het vermogen* [^6] ,[^7]. 
+In een heel aantal gevallen zijn de bedragen gestort op een betaalkaart terugbetaalbaar wanneer deze bedragen niet worden verbruikt. Wanneer in dergelijk geval de betaalkaart op inventarisdatum nog niet verbruikte sommen bevat, moeten deze sommen opgenomen worden onder de *Andere schulden* in het*Genormaliseerd minimaal schema van de staat van het vermogen* [^6] ,[^7]. 
 
 ## Ondernemingen en niet-kleine verenigingen en stichtingen
 Ondernemingen en verenigingen en stichtingen die hun boekhouding voeren met inachtneming van de regels van het dubbel boekhouden registreren de bedragen die worden ontvangen om een betaalkaart op te laden onmiddellijk als een schuld. Wanneer deze betaalkaart vervolgens wordt gebruikt ter betaling van de aankoop van een goed of een geleverde dienst wordt deze schuldenrekening gedebiteerd en wordt een opbrengst geregistreerd.

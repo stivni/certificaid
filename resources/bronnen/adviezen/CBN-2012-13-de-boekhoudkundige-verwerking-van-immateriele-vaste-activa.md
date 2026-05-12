@@ -44,31 +44,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:09Z'
+  generated_at: '2026-05-12T23:38:19Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (28 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 27
-      max_section_chars: 18846
-      file_size_chars: 30206
+      max_section_chars: 18844
+      file_size_chars: 30204
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (28 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2012/13 – De boekhoudkundige verwerking van immateriële vaste activa
 
@@ -182,7 +177,7 @@ Hierboven onder randnummer 8 werd door de Commissie op uitvoerige wijze uiteenge
 
 De kosten van onderzoek en ontwikkeling worden evenwel slechts op het actief van de balans geboekt voor zover hun kostprijs niet hoger is dan een voorzichtige raming van hun gebruikswaarde of hun toekomstig rendement voor de onderneming (artikel 60, eerste lid KB W.Venn.)[^11]. 
 
-Een onderneming die kosten maakt in het kader van door haar verricht onderzoek moet deze kosten (lonen en wedden - kosten voor het gebruik van materiaal - diensten en diverse goederen, enz.) in beginsel naar hun aard boeken in de resultatenrekening van het boekjaar waarin deze kosten werden gemaakt. Bij het afsluiten van het boekjaar worden de door de onderneming gemaakte kosten van onderzoek en ontwikkeling die beantwoorden aan de door het KB W.Venn. gestelde voorwaarden voor activatie, geactiveerd door het debiteren van de journaalpost “210 *Kosten van onderzoek en ontwikkeling*” en creditering van de journaalpost “72* Geproduceerde vaste activa*”
+Een onderneming die kosten maakt in het kader van door haar verricht onderzoek moet deze kosten (lonen en wedden - kosten voor het gebruik van materiaal - diensten en diverse goederen, enz.) in beginsel naar hun aard boeken in de resultatenrekening van het boekjaar waarin deze kosten werden gemaakt. Bij het afsluiten van het boekjaar worden de door de onderneming gemaakte kosten van onderzoek en ontwikkeling die beantwoorden aan de door het KB W.Venn. gestelde voorwaarden voor activatie, geactiveerd door het debiteren van de journaalpost “210 *Kosten van onderzoek en ontwikkeling*” en creditering van de journaalpost “72*Geproduceerde vaste activa*”
 
 Anderzijds worden de in het kader van dit onderzoek verworven materiële vaste activa (gebouwen, laboratoria, materiaal, enz.), veelal met een beperkte gebruiksduur, volgens de normale regels rechtstreeks op de desbetreffende actiefpost van de materiële vaste activa geboekt en wordt hun kostprijs ten laste genomen via afschrijvingen. 
 
@@ -279,7 +274,7 @@ Artikel 95, § 1, II, lid 4 KB W.Venn. bepaalt dat onder goodwill moet worden ve
 ### Afschrijvingen op goodwill
 Goodwill moet worden afgeschreven volgens een overeenkomstig artikel 28, § 1 KB W.Venn. opgesteld plan (art. 61, § 1, lid 1 KB. W.Venn.). Wanneer goodwill in uitzonderlijke gevallen zou worden afgeschreven over een periode van meer dan vijf jaar, dan moet de betrokken onderneming dit in de toelichting bij de jaarrekening verantwoorden (art. 61, § 1, lid 4 KB W.Venn.). 
 
-Wanneer de prijs bij overname van een onderneming of een bedrijfsafdeling afhangt van de toekomstige omzet van deze bedrijfsafdeling zal elk van de tranches van de prijs worden afgeschreven over de resterende afschrijvingstermijn van de verworven goodwill (zie* supra* onder hfdst. I.B.2.2.). 
+Wanneer de prijs bij overname van een onderneming of een bedrijfsafdeling afhangt van de toekomstige omzet van deze bedrijfsafdeling zal elk van de tranches van de prijs worden afgeschreven over de resterende afschrijvingstermijn van de verworven goodwill (zie*supra* onder hfdst. I.B.2.2.). 
 
 Dit advies vervangt het advies 138/4. 
 

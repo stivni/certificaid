@@ -47,31 +47,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:30Z'
+  generated_at: '2026-05-12T23:37:42Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:15Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (52 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:30Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:39Z'
       heading_count: 51
-      max_section_chars: 15611
-      file_size_chars: 75303
+      max_section_chars: 15610
+      file_size_chars: 75299
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:15Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (52 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 132/7 - Boeking en waardering van voorraden
 
@@ -125,9 +120,7 @@ a) "vaste activa", met andere woorden, de vermogensbestanddelen die bestemd zijn
 - verpakkingen waarop statiegeld wordt of zal worden aangerekend; 
 - katalysatoren; 
 
-b) beleggingseffecten of geldbeleggingen; en
-
-c) overlopende rekeningen
+b) beleggingseffecten of geldbeleggingen; en c) overlopende rekeningen
 
 Conform de voorstelling van de resultatenrekening in artikel 89 KB W.Venn., moet een onderscheid worden gemaakt tussen de kosten die betrekking hebben op : 
 
@@ -364,9 +357,7 @@ totale aanschaffingswaarde van de voorraad vóór de input, plus de aanschaffing
 
 ________________________________________________________________________________________________ 
 
-aantal activa in voorraad vóór de input, plus het aantal activa waaruit de input bestaat
-
-in het tweede geval wordt de gewogen gemiddelde prijs als volgt berekend:
+aantal activa in voorraad vóór de input, plus het aantal activa waaruit de input bestaat in het tweede geval wordt de gewogen gemiddelde prijs als volgt berekend:
 
 totaal aanschaffingswaarde van de voorraad bij het begin van de periode, plus de kostprijs van de tijdens de periode ingekomen voorraden 
 
@@ -440,7 +431,7 @@ Impliceert de toepassing van artikel 69 KB W.Venn. dat in de boekhouding de aans
 
 De vraag is belangrijk in de hypothese als bedoeld in artikel 69, § 1, tweede lid KB W.Venn., waarin de marktprijs opnieuw is gestegen aan het einde van het volgende boekjaar, terwijl de goederen waarop een korting is toegepast, nog steeds in voorraad zijn ? Moet, aan het einde van dat volgende boekjaar, de (actuele) marktprijs worden getoetst aan de oorspronkelijke aanschaffingsprijs dan wel de marktprijs waartegen die goederen in de vorige balans zijn opgenomen ? 
 
-De Commissie is van oordeel dat de voorraden, in beginsel, in de boekhouding moeten worden gehandhaafd tegen aanschaffingsprijs en dat correcties om de nettowaarde van die voorraden terug te brengen tot de marktprijs, in een sub-creditrekening van de rekening *Voorraden* moeten worden geboekt, naar analogie met de *Waardeverminderingen*. De Commissie suggereert het gebruik van rekening 3.6* Aanpassing aan de lagere marktwaarde.* Het bedrag van die subrekening wordt in dit geval elk jaar aangepast in tegenovergestelde zin van de rekening *Voorraadwijzingen*. 
+De Commissie is van oordeel dat de voorraden, in beginsel, in de boekhouding moeten worden gehandhaafd tegen aanschaffingsprijs en dat correcties om de nettowaarde van die voorraden terug te brengen tot de marktprijs, in een sub-creditrekening van de rekening *Voorraden* moeten worden geboekt, naar analogie met de *Waardeverminderingen*. De Commissie suggereert het gebruik van rekening 3.6*Aanpassing aan de lagere marktwaarde.* Het bedrag van die subrekening wordt in dit geval elk jaar aangepast in tegenovergestelde zin van de rekening *Voorraadwijzingen*. 
 
 Indien de onderneming evenwel heeft geopteerd voor de Fifo-methode of de methode van de gewogen gemiddelde prijzen, en voor zover de omloopsnelheid van de voorraad niet uitzonderlijk klein is, leveren beide methodes soortgelijke, ja zelfs identieke resultaten op; de voorraadafnames zullen immers tegen de aangepaste waarde geschieden. De korting van het vorige boekjaar zal de resultatenrekening rechtstreeks beïnvloeden via de rekening *Voorraadwijzigingen*. Als die werkwijze dienstiger blijkt is er, in die gevallen, dan ook geen bezwaar tegen om de aanschaffingsprijs onmiddellijk te vervangen door de lagere marktprijs op balansdatum.
 
@@ -740,7 +731,7 @@ Deze gegevens kunnen voorgesteld worden zoals in volgend schema :
 
 2) Verschil tussen boekwaarde en marktwaarde op balansdatum (zo relevant)
 
-| *Waarde*|* Bedrag*|
+| *Waarde*|*Bedrag*|
 |---|---|
 | Grond- en hulpstoffen| |
 | Goederen in bewerking| |

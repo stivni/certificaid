@@ -29,31 +29,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:10Z'
+  generated_at: '2026-05-12T23:38:20Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (19 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 18
-      max_section_chars: 12511
-      file_size_chars: 22844
+      max_section_chars: 12496
+      file_size_chars: 22829
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (19 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2012/19 - Goederen verworven tegen betaling van een lijfrente
 
@@ -104,9 +99,7 @@ Enerzijds wordt het initiële kapitaal dat nodig is om de rente te betalen, vast
 Anderzijds is het zo dat de gemiddelde levensverwachting van de rechthebbende vermindert wanneer hij ouder wordt, zij het verhoudingsgewijze minder snel. Volgens de meest recente sterftetafels gepubliceerd op de website van de FOD Economie (België 1997-2010) evolueert de gemiddelde levensverwachting als volgt : 
 
 ### op 60 jaar : 20,83 jaar
-op 65 jaar : 17,03 jaar 
-
-op 70 jaar : 13,47 jaar 
+op 65 jaar : 17,03 jaar op 70 jaar : 13,47 jaar 
 
 Bij de raming van het nodige te provisioneren kapitaal op inventarisdatum moet derhalve rekening worden gehouden met deze relatieve verlenging van de vermoedelijke levensduur. 
 
@@ -123,21 +116,15 @@ Aan de hand van een voorbeeld worden bovenstaande principes geïllustreerd.[^5]
 Een onderneming koopt in het jaar N op lijfrente een gebouw, waarin zij op duurzame wijze haar bedrijfsactiviteiten gaat onderbrengen. Daarbij gelden volgende voorwaarden[^6]: 
 
 ### o Afschrijfbaar gedeelte onroerend goed: 80 %
-o Afschrijving: lineair op 20 jaar 
-
-o Rente: jaarlijkse lijfrente van 36.000 euro 
+o Afschrijving: lineair op 20 jaar o Rente: jaarlijkse lijfrente van 36.000 euro 
 
 o Rentevoet: 4,33% 
 
-o Rechthebbende: een man met een leeftijd van 60 jaar op het ogenblik van de transactie 
-
-o Voor de levensverwachting heeft de onderneming beslist om zich te baseren op de sterftetafels gepubliceerd op de website van de FOD Economie (België 1997-2010)
+o Rechthebbende: een man met een leeftijd van 60 jaar op het ogenblik van de transactie o Voor de levensverwachting heeft de onderneming beslist om zich te baseren op de sterftetafels gepubliceerd op de website van de FOD Economie (België 1997-2010)
 
 Het kapitaalbedrag dat noodzakelijk is om de lijfrente te betalen, wordt bekomen door het bedrag van de jaarlijkse lijfrente te vermenigvuldigen met volgende actualisatiefactor:
 
-an/i = 1- (1 + i)-n 
-
-       i
+an/i = 1- (1 + i)-n i
 
 waarbij *n* staat voor de duur van de rente en *i* voor de rentevoet.
 

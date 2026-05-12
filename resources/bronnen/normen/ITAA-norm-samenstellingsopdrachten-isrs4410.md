@@ -25,47 +25,32 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:01Z'
+  generated_at: '2026-05-12T23:37:00Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "C1: bullet-glyphs '•' op meerdere plaatsen (regels 140, 141, 219, 220, 285 etc.). A6: goedkeuringsblok (regels 51–65) is sterk gefragmenteerd — losse zinsdeeltjes zonder begin ('in het bijzonder de artikelen...', 'heeft uitgebracht...', 'gunstig advies uitgebracht te hebben.'). Inhoud verder intact (43 headings)."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232433
-      run_at: '2026-05-12T23:24:34Z'
+      run_id: 20260512-233943
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 43
       max_section_chars: 5513
-      file_size_chars: 46248
+      file_size_chars: 46222
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: "C1: bullet-glyphs '•' op meerdere plaatsen (regels 140, 141, 219, 220, 285 etc.). A6: goedkeuringsblok (regels 51–65) is sterk gefragmenteerd — losse zinsdeeltjes zonder begin ('in het bijzonder de artikelen...', 'heeft uitgebracht...', 'gunstig advies uitgebracht te hebben.'). Inhoud verder intact (43 headings)."
-      concrete_problemen:
-        - regel: 51
-          categorie: A6
-          type: scrambled-words
-          voorbeeld: in het bijzonder de artikelen 3, 5, 6, 62... (mid-zin begin)
-        - regel: 140
-          categorie: C1
-          type: bullet-glyph
-          voorbeeld: • nadere uitleg bevatten van wat een vereiste inhoudt...
 ---
 ## Norm inzake de Samenstellingsopdrachten
 
 in het bijzonder de artikelen 3, 5, 6, 62 en 72.
 
-heeft uitgebracht, wordt de Hoge Raad voor de Economische Beroepen overeenkomstig artikel 80 van
-
-gunstig advies uitgebracht te hebben.
+heeft uitgebracht, wordt de Hoge Raad voor de Economische Beroepen overeenkomstig artikel 80 van gunstig advies uitgebracht te hebben.
 
 Overwegende hetgeen volgt:
 
@@ -73,9 +58,7 @@ Overwegende hetgeen volgt:
 
 en de Accountants (IBA) van technische normen en aanbevelingen, specifiek voor de
 uitoefening van het beroep, is een bevoegdheid van de Raad van het IBA die rechtstreeks
-voortvloeit uit de wettelijke opdracht van het Instituut tot het toezicht op de
-
-accountant en belastingadviseur).
+voortvloeit uit de wettelijke opdracht van het Instituut tot het toezicht op de accountant en belastingadviseur).
 
 2. Het is in het algemeen belang dat in het kader van deze wettelijke opdracht van het IBA beroep
 
@@ -94,35 +77,25 @@ beroepen van accountant en belastingadviseur, kunnen ook gecertificeerd belastin
 
 Auditing and Assurance Standards Board (IAASB), bieden een internationaal erkend
 referentiekader en beantwoorden aan deze vereisten om internationaal erkende en actuele
-normen te ontwikkelen. Deze zijn reeds verplicht, met of zonder nationale aanpassing, in
-
-financiële informatie door te voorzien in de toepassing van procedures, alsook in een betere
+normen te ontwikkelen. Deze zijn reeds verplicht, met of zonder nationale aanpassing, in financiële informatie door te voorzien in de toepassing van procedures, alsook in een betere
 
 accountant en de gecertificeerd belastingadviseur (hierna “de beroepsbeoefenaar”) en in een
 standaardisatie van het verslag van de beroepsbeoefenaar die het begrip ervan bevordert.
 
-5. De ISRS 4410 (herzien)- Samenstellingsopdrachten voldoet aan deze criteria en behandelt meer
-
-in het bijzonder de verantwoordelijkheden van de beroepsbeoefenaar wanneer deze de
+5. De ISRS 4410 (herzien)- Samenstellingsopdrachten voldoet aan deze criteria en behandelt meer in het bijzonder de verantwoordelijkheden van de beroepsbeoefenaar wanneer deze de
 opdracht heeft gekregen om het management bij te staan bij het opstellen en weergeven van
 historische financiële informatie en, in voorkomend geval, financiële informatie anders dan
 historische financiële informatie of niet-financiële informatie, zonder enige zekerheid over die
 informatie te verkrijgen, en overeenkomstig deze ISRS over de opdracht te rapporteren.
 
-6. De ISRS 4410 (herzien) heeft tot doel de beroepsbeoefenaar die een samenstellingsopdracht
-
-toevertrouwd krijgt, een adequaat referentiekader te bieden dat internationaal erkend is en
+6. De ISRS 4410 (herzien) heeft tot doel de beroepsbeoefenaar die een samenstellingsopdracht toevertrouwd krijgt, een adequaat referentiekader te bieden dat internationaal erkend is en
 dat hem toelaat verslag uit te brengen dat aangepast is aan de context van zijn opdracht.
 
 7. Deze norm beoogt de International Standard on Related Services 4410 (ISRS 4410) (herzien) –
 
-Samenstellingsopdrachten, aan te passen aan Belgische specificiteiten1 en van toepassing te
+Samenstellingsopdrachten, aan te passen aan Belgische specificiteiten1 en van toepassing te specificiteiten.
 
-specificiteiten.
-
-8. Deze norm wordt enkel van toepassing gemaakt op samenstellingsopdrachten wanneer de
-
-beroepsbeoefenaar als opdracht heeft gekregen om deze samenstellingsopdracht
+8. Deze norm wordt enkel van toepassing gemaakt op samenstellingsopdrachten wanneer de beroepsbeoefenaar als opdracht heeft gekregen om deze samenstellingsopdracht
 overeenkomstig deze norm uit te voeren. Samenstellingsopdrachten die overeenkomstig deze
 norm worden uitgevoerd worden “Samenstellingsopdrachten” genoemd.
 
@@ -130,28 +103,22 @@ norm worden uitgevoerd worden “Samenstellingsopdrachten” genoemd.
 
 IBA.
 
-10. Deze norm heeft tot doel ervoor te zorgen dat de door de beroepsbeoefenaar uitgevoerde
-
-samenstellingsopdracht voldoet aan een hoog kwaliteitsniveau. Het verslag dat uit dergelijke
+10. Deze norm heeft tot doel ervoor te zorgen dat de door de beroepsbeoefenaar uitgevoerde samenstellingsopdracht voldoet aan een hoog kwaliteitsniveau. Het verslag dat uit dergelijke
 opdracht voortvloeit moet immers altijd het vertrouwen van de gebruiker ervan kunnen
 bevorderen en het algemeen belang nastreven. Verder moet het verslag de beroepsbeoefenaar
 de garantie kunnen bieden dat zijn dossier alle gegevens bevat op basis waarvan hij zijn conclusies kan verantwoorden.
 
-11. Het IBA zal een algemeen voorbeeld van een opdrachtbrief ter beschikking stellen van de
+11. Het IBA zal een algemeen voorbeeld van een opdrachtbrief ter beschikking stellen van de beroepsbeoefenaar.
 
-beroepsbeoefenaar.
-
-12. Deze norm bevat algemene bepalingen, vereisten en toepassingsmodaliteiten. De
-
-beroepsbeoefenaar dient de gehele tekst van deze norm, met inbegrip van de
+12. Deze norm bevat algemene bepalingen, vereisten en toepassingsmodaliteiten. De beroepsbeoefenaar dient de gehele tekst van deze norm, met inbegrip van de
 toepassingsmodaliteiten, na te leven teneinde de doelstellingen te begrijpen en de vereisten
 naar behoren toe te passen. De beroepsbeoefenaar dient in alle gevallen zijn professionele
 oordeelsvorming toe te passen en een professioneel-kritische instelling te handhaven.
 
 uitleg over de vereisten en kunnen:
 
-• nadere uitleg bevatten van wat een vereiste inhoudt of beoogt te omvatten; dit kan onder meer door verwijzing naar wet- of regelgeving;
-• voorbeelden bevatten die in de gegeven omstandigheden van toepassing kunnen zijn.
+- nadere uitleg bevatten van wat een vereiste inhoudt of beoogt te omvatten; dit kan onder meer door verwijzing naar wet- of regelgeving;
+- voorbeelden bevatten die in de gegeven omstandigheden van toepassing kunnen zijn.
 
 1 Zie in het bijzonder betreffende het toepassingsgebied (Par. A3 en Par 5), de ingangsdatum (Par. 16), de
 definities (Par. 18(a), (b), (c), (d), (e), (h), (i), (j), (m), (n), (o)), ethische voorschriften (Par. 22, Par. A13, A15, A17
@@ -229,14 +196,12 @@ kan het nodig zijn om na te gaan of de opdracht moet worden uitgevoerd
 overeenkomstig deze norm. Factoren die aangeven dat het passend kan zijn om
 deze norm toe te passen, met inbegrip van de verslaggeving op grond van deze norm, zijn onder meer het feit of:
 
-• toepassing zijnde wet- of regelgeving vereist is en of de openbaarheid van de financiële informatie vereist is;
-• andere externe partijen dan de beoogde gebruikers van de samengestelde financiële informatie de beroepsbeoefenaar – niet stagiair waarschijnlijk met de financiële informatie zullen
+- toepassing zijnde wet- of regelgeving vereist is en of de openbaarheid van de financiële informatie vereist is;
+- andere externe partijen dan de beoogde gebruikers van de samengestelde financiële informatie de beroepsbeoefenaar – niet stagiair waarschijnlijk met de financiële informatie zullen
 associëren en er een risico bestaat dat de mate van betrokkenheid
 van de beroepsbeoefenaar bij de informatie verkeerd zou worden opgevat, bijvoorbeeld:
 
-o indien de financiële informatie bedoeld is voor gebruik
-
-door andere partijen dan het management of de met governance belaste personen, of als deze kan worden verschaft aan, of verkregen door, partijen die niet de beoogde gebruikers van die informatie zijn; en o indien de naam van de beroepsbeoefenaar met de
+o indien de financiële informatie bedoeld is voor gebruik door andere partijen dan het management of de met governance belaste personen, of als deze kan worden verschaft aan, of verkregen door, partijen die niet de beoogde gebruikers van die informatie zijn; en o indien de naam van de beroepsbeoefenaar met de
 
 financiële informatie wordt geïdentificeerd. (Zie Par. A5)
 
@@ -267,9 +232,7 @@ omvang van zijn betrokkenheid bij de samengestelde financiële informatie. (Zie 
 het management in andere gebieden bij te staan, voorafgaand aan het
 
 7. Aangezien een samenstellingsopdracht geen assuranceopdracht is, wordt van
-de beroepsbeoefenaar – niet stagiair bij een samenstellingsopdracht niet vereist
-
-informatie voor het samenstellen te controleren, of anderszins onderbouwende
+de beroepsbeoefenaar – niet stagiair bij een samenstellingsopdracht niet vereist informatie voor het samenstellen te controleren, of anderszins onderbouwende
 informatie te verzamelen om een controleoordeel of een beoordelingsconclusie
 over het opstellen van de financiële informatie tot uitdrukking te brengen.
 
@@ -295,11 +258,9 @@ verslaggeving die in wet- of regelgeving zijn vastgesteld; of
 (b) voor doeleinden die niet gerelateerd zijn aan verplichte financiële
 verslaggeving onder relevante wet- of regelgeving, bijvoorbeeld financiële informatie:
 
-• die is opgesteld voor het management of de met governance belaste personen op een basis die voor hun
-
-specifieke doeleinden geschikt is (zoals het opstellen van financiële informatie voor intern gebruik);
-• in de vorm van periodieke financiële verslaggeving die voor externe partijen onder een contract of andere vorm van overeenkomst wordt uitgevoerd (zoals financiële informatie die aan een financierende instantie wordt verstrekt om de toekenning of voortzetting van een subsidie te ondersteunen);
-• voor doeleinden in verband met een transactie, bijvoorbeeld om een transactie waarbij de eigendomsstructuur of financieringsstructuur van de entiteit verandert, te ondersteunen (zoals een fusie of een overname).
+- die is opgesteld voor het management of de met governance belaste personen op een basis die voor hun specifieke doeleinden geschikt is (zoals het opstellen van financiële informatie voor intern gebruik);
+- in de vorm van periodieke financiële verslaggeving die voor externe partijen onder een contract of andere vorm van overeenkomst wordt uitgevoerd (zoals financiële informatie die aan een financierende instantie wordt verstrekt om de toekenning of voortzetting van een subsidie te ondersteunen);
+- voor doeleinden in verband met een transactie, bijvoorbeeld om een transactie waarbij de eigendomsstructuur of financieringsstructuur van de entiteit verandert, te ondersteunen (zoals een fusie of een overname).
 
 11. Verschillende stelsels inzake financiële verslaggeving kunnen gebruikt worden
 om financiële informatie op te stellen en weer te geven. Dit kan variëren van
@@ -513,9 +474,7 @@ met inbegrip van het vereiste om relevante ethische voorschriften na te leven; (
 (e) de verantwoordelijkheden van het management voor: (Zie Par. A33- A35)
 
 (i) de financiële informatie, en voor het opstellen en weergeven ervan, in overeenstemming met een stelsel inzake financiële
-verslaggeving dat aanvaardbaar is gelet op het beoogde gebruik
-
-documenten, uitleg en overige informatie die door het management worden verschaft voor de samenstellingsopdracht; en
+verslaggeving dat aanvaardbaar is gelet op het beoogde gebruik documenten, uitleg en overige informatie die door het management worden verschaft voor de samenstellingsopdracht; en
 
 (iii) oordeelsvormingen die bij het opstellen en weergeven van de
 financiële informatie nodig zijn, met inbegrip van die waarvoor de beroepsbeoefenaar – niet stagiair in de loop van de
@@ -540,9 +499,7 @@ herinneren aan de bestaande opdrachtvoorwaarden. (Zie Par. A27)
 
 ## VEREISTEN TOEPASSINGSMODALITEITEN (Zie Par. 28)
 
-28. De beroepsbeoefenaar – niet stagiair dient met het management of, in voorkomend geval, de met governance belaste personen tijdens de samenstellingsopdracht tijdig aangelegenheden betreffende de
-
-samenstellingsopdracht te communiceren. Dit betreft de aangelegenheden die, op
+28. De beroepsbeoefenaar – niet stagiair dient met het management of, in voorkomend geval, de met governance belaste personen tijdens de samenstellingsopdracht tijdig aangelegenheden betreffende de samenstellingsopdracht te communiceren. Dit betreft de aangelegenheden die, op
 grond van professionele oordeelsvorming van de beroepsbeoefenaar – niet
 stagiair, belangrijk genoeg zijn om de aandacht van het management of, in
 voorkomend geval, de met governance belaste personen te verdienen. (Zie Par.
@@ -560,20 +517,18 @@ administratieve systeem en administratieve vastleggingen van de entiteit; en
 
 (b) het van toepassing zijnde stelsel inzake financiële verslaggeving, met
 
-•
+-
 
-• de complexiteit van het stelsel inzake financiële verslaggeving;
-•
+- de complexiteit van het stelsel inzake financiële verslaggeving;
+-
 
 wet- en regelgeving, onder de bepalingen van een contract of
 andere vorm van overeenkomst met derden, of in de context van
 vrijwillige regelingen inzake financiële verslaggeving bestaan;
-• het niveau van ontwikkeling van de management- en governancestructuur van de entiteit met betrekking tot management van en toezicht op de administratieve vastleggingen en financiële verslaggevingssystemen van de
+- het niveau van ontwikkeling van de management- en governancestructuur van de entiteit met betrekking tot management van en toezicht op de administratieve vastleggingen en financiële verslaggevingssystemen van de
 entiteit die het opstellen van de financiële informatie van de entiteit ondersteunen;
-• het niveau van ontwikkeling en complexiteit van de systemen
-
-en daaraan gerelateerde interne beheersingsmaatregelen;
-•
+- het niveau van ontwikkeling en complexiteit van de systemen en daaraan gerelateerde interne beheersingsmaatregelen;
+-
 
 entiteit.
 Het samenstellen van de financiële informatie Het samenstellen van de financiële informatie
@@ -592,9 +547,7 @@ geboden wordt, is het nodig te overleggen zodat het management of, in
 voorkomend geval, de met governance belaste personen inzicht hebben in en
 hun verantwoordelijkheid nemen voor de significante oordeelsvormingen die in de financiële informatie zijn weerspiegeld.
 32. Voorafgaand aan de afronding van de samenstellingsopdracht dient de
-beroepsbeoefenaar – niet stagiair de samengestelde financiële informatie te lezen
-
-het van toepassing zijnde stelsel inzake financiële verslaggeving. (Zie Par. A46)
+beroepsbeoefenaar – niet stagiair de samengestelde financiële informatie te lezen het van toepassing zijnde stelsel inzake financiële verslaggeving. (Zie Par. A46)
 
 A46. De beroepsbeoefenaar – niet stagiair leest de financiële informatie ter
 ondersteuning bij het voldoen aan zijn ethische verplichtingen die voor de samenstellingsopdracht relevant zijn.
@@ -639,9 +592,7 @@ voorkomend geval, de met governance belaste personen een bevestiging te versie v
 (a) significante aangelegenheden die zich tijdens de samenstellingsopdracht voordoen en hoe de beroepsbeoefenaar – niet stagiair hiermee is omgegaan;
 
 (b) een aansluiting van de samengestelde financiële informatie op de
-onderliggende vastleggingen, documenten, uitleg en overige informatie die door het management is verschaft; en
-
-informatie waarvoor het management of, in voorkomend geval, de met
+onderliggende vastleggingen, documenten, uitleg en overige informatie die door het management is verschaft; en informatie waarvoor het management of, in voorkomend geval, de met
 governance belaste personen hun verantwoordelijkheid hebben erkend,
 en het verslag van de beroepsbeoefenaar – niet stagiair. (Zie Par. A72)
 
@@ -694,9 +645,7 @@ bijzondere doeleinden, een toelichtende paragraaf die: (Zie Par. A59–A61 en Pa
 
 (i) het doel beschrijft waarvoor, en, indien nodig, de beoogde
 gebruikers voor wie, de financiële informatie is opgesteld, of een
-verwijzing naar een toelichting in de financiële informatie bevat die deze informatie toelicht; en
-
-de financiële informatie overeenkomstig een stelsel voor bijzondere doeleinden is opgesteld en dat, als gevolg daarvan, de
+verwijzing naar een toelichting in de financiële informatie bevat die deze informatie toelicht; en de financiële informatie overeenkomstig een stelsel voor bijzondere doeleinden is opgesteld en dat, als gevolg daarvan, de
 informatie mogelijk niet voor andere doeleinden geschikt is;
 
 (k) de datum van het verslag van de beroepsbeoefenaar – niet stagiair;
@@ -715,36 +664,30 @@ Bijlage
 
 ## Modellen van samenstellingsverslagen
 
-• Model 1: Samenstellingsverslag bij de jaarrekening
+- Model 1: Samenstellingsverslag bij de jaarrekening
 
-• Model 2: Samenstellingsverslag bij de financiële overzichten
+- Model 2: Samenstellingsverslag bij de financiële overzichten
 
-• Model 3: Samenstellingsverslag bij een liquiditeitsprognose/begroting/cashflow projectie
+- Model 3: Samenstellingsverslag bij een liquiditeitsprognose/begroting/cashflow projectie
 
-• Model 4: Samenstellingsverslag bij een kredietrapportering met prognoses
+- Model 4: Samenstellingsverslag bij een kredietrapportering met prognoses
 
 ## Model 1: Samenstellingsverslag bij de jaarrekening
 
 [Aan de opdrachtgever van Vennootschap ABC]
 
-Wij hebben de bijhorende jaarrekening van Vennootschap ABC per [datum] samengesteld op basis van
-
-resultatenrekening van het boekjaar afgesloten op die datum en de toelichting, met een balanstotaal van €
+Wij hebben de bijhorende jaarrekening van Vennootschap ABC per [datum] samengesteld op basis van resultatenrekening van het boekjaar afgesloten op die datum en de toelichting, met een balanstotaal van €
 en waarvan de resultatenrekening afsluit met een winst [verlies] van het boekjaar van €
 en de toelichting voor het op die datum afgesloten boekjaar.
 
 Wij hebben deze samenstellingsopdracht uitgevoerd overeenkomstig de Norm inzake de Samenstellingsopdrachten.
 
 Wij hebben onze deskundigheid op het gebied van administratieve verwerking en financiële
-rapportering toegepast om u bij te staan bij het opstellen en weergeven van deze jaarrekening en dit
-
-relevante ethische voorschriften nageleefd, met inbegrip van de beginselen van integriteit, objectiviteit, vakbekwaamheid en zorgvuldigheid.
+rapportering toegepast om u bij te staan bij het opstellen en weergeven van deze jaarrekening en dit relevante ethische voorschriften nageleefd, met inbegrip van de beginselen van integriteit, objectiviteit, vakbekwaamheid en zorgvuldigheid.
 
 samenstellen ervan, vallen onder uw verantwoordelijkheid4.
 
-Aangezien een samenstellingsopdracht geen assuranceopdracht is, wordt van ons niet vereist om de
-
-van deze jaarrekening te controleren. Wij hebben geen controle- of beoordelingswerkzaamheden
+Aangezien een samenstellingsopdracht geen assuranceopdracht is, wordt van ons niet vereist om de van deze jaarrekening te controleren. Wij hebben geen controle- of beoordelingswerkzaamheden
 uitgevoerd die ons in staat stellen om een oordeel te geven of een conclusie te trekken met betrekking
 
 [Ons samenstellingsverslag is uitsluitend bestemd voor [te bepalen] en mag niet worden verspreid onder andere partijen.]
@@ -762,9 +705,7 @@ uitgevoerd die ons in staat stellen om een oordeel te geven of een conclusie te 
 [Aan de opdrachtgever van Vennootschap ABC]
 
 Wij hebben de bijhorende financiële overzichten van Vennootschap ABC samengesteld op basis van de
-door u verstrekte informatie. Deze financiële overzichten hebben betrekking op de jaarrekening van
-
-afgesloten op die datum, met een balanstotaal van € en waarvan de
+door u verstrekte informatie. Deze financiële overzichten hebben betrekking op de jaarrekening van afgesloten op die datum, met een balanstotaal van € en waarvan de
 resultatenrekening afsluit met een winst [verlies] van het boekjaar van € , en andere toelichtingen5.
 
 Wij hebben deze samenstellingsopdracht uitgevoerd overeenkomstig de Norm inzake de Samenstellingsopdrachten.
@@ -777,9 +718,7 @@ van integriteit, objectiviteit, vakbekwaamheid en zorgvuldigheid.
 
 samenstellen ervan vallen onder uw verantwoordelijkheid.
 
-Aangezien een samenstellingsopdracht geen assuranceopdracht is, wordt van ons niet vereist om de
-
-van deze financiële overzichten te controleren.
+Aangezien een samenstellingsopdracht geen assuranceopdracht is, wordt van ons niet vereist om de van deze financiële overzichten te controleren.
 Wij hebben geen controle- of beoordelingswerkzaamheden uitgevoerd die ons in staat stellen om een oordeel te geven of een
 
 [Ons samenstellingsverslag is uitsluitend bestemd voor [te bepalen] en mag niet worden verspreid onder andere partijen.]
@@ -807,9 +746,7 @@ deze liquiditeitsprognose/begroting/cashflow projectie in overeenstemming met [h
 zijnde stelsel inzake financiële verslaggeving]. Wij hebben relevante ethische voorschriften nageleefd,
 met inbegrip van de beginselen van integriteit, objectiviteit, vakbekwaamheid en zorgvuldigheid.
 
-Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat relevante informatie en
-
-u ons over alle relevante informatie en veronderstellingen informeert, voor zover bekend op het
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat relevante informatie en u ons over alle relevante informatie en veronderstellingen informeert, voor zover bekend op het
 moment dat de [liquiditeitsprognose/begroting/cashflow projectie] wordt opgesteld. Wij hebben onze
 werkzaamheden, in overeenstemming met de daarvoor geldende regelgeving, dan ook uitgevoerd
 vanuit de veronderstelling dat u aan deze verantwoordelijkheid heeft voldaan.
@@ -855,9 +792,7 @@ veronderstellingen/hypotheses met betrekking tot in de toekomst te ondernemen ac
 verwachte gebeurtenissen. De kans is reëel dat deze verwachte activiteiten en gebeurtenissen niet of
 op andere wijze zullen plaatsvinden. De werkelijkheid kan dan ook in belangrijke mate afwijken van de prognose.
 
-Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de relevante informatie en
-
-over alle relevante informatie en veronderstellingen informeert, voor zover bekend op het moment
+Bij een samenstellingsopdracht bent u er verantwoordelijk voor dat de relevante informatie en over alle relevante informatie en veronderstellingen informeert, voor zover bekend op het moment
 dat [het investeringsprogramma /de prognoses/de begrotingen/de cashflow projectie] wordt
 opgesteld. Wij hebben onze werkzaamheden, in overeenstemming met de daarvoor geldende
 regelgeving, dan ook uitgevoerd vanuit de veronderstelling dat u aan deze verantwoordelijkheid heeft voldaan.

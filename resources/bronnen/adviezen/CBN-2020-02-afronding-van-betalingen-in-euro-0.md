@@ -31,31 +31,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:37Z'
+  generated_at: '2026-05-12T23:38:47Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (11 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 10
       max_section_chars: 5094
-      file_size_chars: 11742
+      file_size_chars: 11740
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (11 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2020/02 – Afronding van betalingen in euro
 
@@ -99,7 +94,7 @@ Het bedrag dat de onderneming die een vereenvoudigde boekhouding voert, inschrij
 ### *Voorbeeld 4*: Betaling in speciën
 Een klant koopt twee artikelen. Het eerste artikel kost 10,04[^17] euro. De prijs van het tweede artikel bedraagt 12,03[^18] euro. Het te betalen bedrag na afronding bedraagt 22,05 euro. De onderneming schrijft in het verkoopdagboek een opbrengst in van 22,05 euro.
 ### Tweede methode
-Voor de ondernemingen die een dubbele boekhouding voeren, splitst het boekhoudregistratiesysteem de verschillende bestanddelen die zijn vermeld op het uitgereikte document. Het eventuele verschil tussen de som van de samenstellende bestanddelen en het totaalbedrag dat het gevolg is van het afrondingsverschil wordt geboekt op rekening 700 *Verkopen en dienstprestaties*. Indien dit afrondingsverschil negatief is, wordt dit verschil geboekt op het debet van rekening 700* Verkopen en dienstprestaties*. Indien dit verschil echter positief is, wordt het verschil geboekt op het credit van rekening 700* Verkopen en dienstprestaties*.
+Voor de ondernemingen die een dubbele boekhouding voeren, splitst het boekhoudregistratiesysteem de verschillende bestanddelen die zijn vermeld op het uitgereikte document. Het eventuele verschil tussen de som van de samenstellende bestanddelen en het totaalbedrag dat het gevolg is van het afrondingsverschil wordt geboekt op rekening 700 *Verkopen en dienstprestaties*. Indien dit afrondingsverschil negatief is, wordt dit verschil geboekt op het debet van rekening 700*Verkopen en dienstprestaties*. Indien dit verschil echter positief is, wordt het verschil geboekt op het credit van rekening 700*Verkopen en dienstprestaties*.
 
 ### *Voorbeeld 5*: Betaling in speciën
 Een klant koopt twee artikelen in een warenhuis. Het eerste artikel kost 9,47 euro waarop een btw-tarief van 6% wordt geheven. De prijs van het tweede artikel bedraagt 9,94 euro waarop 21 % btw wordt geheven. Het te betalen bedrag (na afronding) bedraagt 22,05 euro.

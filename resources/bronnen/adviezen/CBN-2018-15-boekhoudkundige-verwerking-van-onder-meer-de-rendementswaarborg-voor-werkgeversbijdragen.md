@@ -38,31 +38,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:30Z'
+  generated_at: '2026-05-12T23:38:40Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (12 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 11
       max_section_chars: 5024
-      file_size_chars: 23584
+      file_size_chars: 23576
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (12 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2018/15 – Boekhoudkundige verwerking van onder meer de rendementswaarborg voor werkgeversbijdragen in het kader van een aanvullende pensioentoezegging
 
@@ -92,7 +87,7 @@ De rendementswaarborg op de werknemersbijdragen onderscheidt zich in een aantal 
   - geldt sedert 1 januari 1986 voor de aanvullende pensioenen beheerd door een pensioenfonds en sedert 1 januari 1996 voor de aanvullende pensioenen beheerd door een verzekeringsonderneming; 
   - bedroeg 4.75 % tot 1 juli 1999, 3.75 % tot 31 december 2016 en bedraagt 1.75 % sinds 1 januari 2016. 
 
-- De rendementswaarborg op de **werkgever**sbijdragen (artikel 24, § 2 WAP)
+- De rendementswaarborg op de **werkgeversbijdragen (artikel 24, § 2 WAP)
 
   - geldt enkel voor pensioenplannen van het type vaste bijdragen (met of zonder tarief) en van het type cash balance; 
   - wordt berekend onder aftrek van de premie nodig voor een overlijdens- of invaliditeitsverzekering en onder aftrek van een kostenpercentage van maximaal 5 %; 
@@ -179,13 +174,13 @@ De onder 3.1. beschreven externaliseringsprincipes moeten worden toegepast binne
 
 De WAP heeft terzake geen expliciete regeling bepaald. In de Memorie van toelichting bij de WAP worden de toepasselijke principes echter wel als volgt verduidelijkt:
 
-“*… deze twee waarborgen (rendementswaarborg op persoonlijke en werkgeversbijdragen) maken geen deel uit van de verworven reserves. Die garanties dienen niet elk jaar bereikt te worden maar wel op het ogenblik van de uittreding of de pensionering van de aangeslotene of op het ogenblik van de stopzetting van het plan. Dit heeft volgende gevolgen voor de financiering van de waarborgen. *
+“*… deze twee waarborgen (rendementswaarborg op persoonlijke en werkgeversbijdragen) maken geen deel uit van de verworven reserves. Die garanties dienen niet elk jaar bereikt te worden maar wel op het ogenblik van de uittreding of de pensionering van de aangeslotene of op het ogenblik van de stopzetting van het plan. Dit heeft volgende gevolgen voor de financiering van de waarborgen.*
 
 *Voor wat betreft de waarborg van artikel 24, § 1 dient elk jaar nagekeken te worden of de verworven reserves die garantie dekken. In het geval er niet voldoende is, dient het verschil in een egalisatiefonds te worden gestort.*
 
 *Voor wat betreft de waarborg van artikel 24, § 2 is er geen verplichting tot financiering. Het controleren of de verworven reserves minstens gelijk zijn aan de waarborg zal pas gebeuren op het ogenblik van de uittreding of van de pensionering van de aangeslotene of op het ogenblik van de stopzetting van het plan… Het spreekt voor zich dat de uitvoeringsbesluiten, en meer in het bijzonder de regels inzake de minimumfinanciering, zullen worden aangepast om rekening te houden met deze regels…”*[^8]. 
 
-Zoals toegelicht onder 3.1.2. bepalen de hogervermelde uitvoeringsbesluiten dat de rendementswaarborg op de persoonlijke bijdragen steeds moet gefinancierd zijn[^9].* A contrario* kan daaruit worden afgeleid dat dit voor de rendementswaarborg op de werkgeversbijdragen niet het geval is.
+Zoals toegelicht onder 3.1.2. bepalen de hogervermelde uitvoeringsbesluiten dat de rendementswaarborg op de persoonlijke bijdragen steeds moet gefinancierd zijn[^9].*A contrario* kan daaruit worden afgeleid dat dit voor de rendementswaarborg op de werkgeversbijdragen niet het geval is.
 
 In het voorbereidend document bij het sociaal overleg dat voorafging aan de meest recente herziening van de rendementswaarborg door de wet van 18 december 2015 werden deze principes als volgt in herinnering gebracht:
 
@@ -210,11 +205,11 @@ In het voorbereidend document bij het sociaal overleg dat voorafging aan de mees
 7. Voorzieningen moeten onder meer worden gevormd met het oog op de verplichtingen die op de vennootschap rusten inzake rust- en overlevingspensioenen, werkloosheid met bedrijfstoeslag en andere gelijkaardige pensioenen of renten.[^13]
  De Commissie merkt op dat een werkgever als inrichter van een pensioentoezegging in regel haar verplichtingen die uit deze pensioentoezegging voortvloeien geëxternaliseerd zal hebben. De FSMA merkt op dat er geen externaliseringsverplichting geldt voor alle verplichtingen die voortvloeien uit een wettelijke rendementsgarantie. 
 
-**Geen externalisering van* alle *risico’s **
+**Geen externalisering van*alle*risico’s **
 
 8. Indien een werkgever als inrichter van een pensioentoezegging niet alle risico’s met betrekking tot haar pensioenplannen heeft overgedragen aan een pensioeninstelling, moet het bestuursorgaan het behouden risico inschatten. Ten belope van de kosten die dit behouden risico waarschijnlijk met zich zal meebrengen moet een voorziening worden geboekt in de mate dat deze kosten betrekking hebben op het boekjaar of op voorgaande boekjaren. De waardering van deze voorziening zal het voorwerp uitmaken van een later advies of een latere technische nota van de Commissie.
 
-**Externalisering van* alle *risico’s**
+**Externalisering van*alle*risico’s**
 
 9. De Commissie is van mening dat indien de werkgever als inrichter van een pensioentoezegging op basis van een vastgestelde onderfinanciering van de pensioenverplichtingen meent bijkomende stortingen te moeten doen[^14] aan de pensioeninstelling aan wie de pensioentoezegging werd toevertrouwd, de werkgever als inrichter van de pensioentoezegging een voorziening moet boeken indien het bedrag van de bijkomende premiebetaling nog niet is gekend. Indien daarentegen de bijkomende premie gekend is op inventarisdatum, doch nog niet werd betaald, moet een schuld worden uitgedrukt.
 

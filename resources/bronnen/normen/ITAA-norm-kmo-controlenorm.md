@@ -27,43 +27,30 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:00Z'
+  generated_at: '2026-05-12T23:36:59Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'A6: goedkeuringsblok (regels 59–79) is één doorlopende tekst zonder alinea-scheiding. Laag 1 meldt max_section_chars=43684 wat de RAG-chunker dwingt op alinea-grenzen te splitsen. Inhoud groot (74 headings, 145915 chars) maar structureel intact. Dubbele # heading op regel 55 en 57 (twee # H1s). Tekst in goedkeuringsblok is aaneengesloten op lange regels zonder puntkomma-grenzen.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: warn
-      run_id: 20260512-232433
-      run_at: '2026-05-12T23:24:34Z'
+      run_id: 20260512-233943
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 74
-      max_section_chars: 43684
-      file_size_chars: 145915
+      max_section_chars: 43682
+      file_size_chars: 145910
       flags:
         - name: max_section_size
           status: warn
-          detail: 'langste sectie op ##-niveau: 43684 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          detail: 'langste sectie op ##-niveau: 43682 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: 'A6: goedkeuringsblok (regels 59–79) is één doorlopende tekst zonder alinea-scheiding. Laag 1 meldt max_section_chars=43684 wat de RAG-chunker dwingt op alinea-grenzen te splitsen. Inhoud groot (74 headings, 145915 chars) maar structureel intact. Dubbele # heading op regel 55 en 57 (twee # H1s). Tekst in goedkeuringsblok is aaneengesloten op lange regels zonder puntkomma-grenzen.'
-      concrete_problemen:
-        - regel: 55
-          categorie: B3
-          type: other
-          voorbeeld: '# KMO controle norm\n# Norm met betrekking... (dubbele H1)'
-        - regel: 59
-          categorie: A6
-          type: scrambled-words
-          voorbeeld: DE RAAD VAN HET INSTITUUT... Gezien... Gelet op... Gezien... (aaneengesloten)
 ---
 # KMO controle norm
 
@@ -366,9 +353,7 @@ De algehele strategie;
 Het werkprogramma; en
 Alle belangrijke wijzigingen die tijdens de opdracht in de algehele strategie en het werkprogramma zijn aangebracht, alsmede de redenen van dergelijke wijzigingen.
 §46. De documentatie moet aangepast zijn aan de aard en de complexiteit van de opdracht en houdt het toepassen van de professionele oordeelsvorming in (zie onder meer §77 en §1010).
-§47. De beroepsbeoefenaar moet de documentatie bewaren in een dossier en de opmaak van dit dossier tijdig voltooien na de datum van zijn verslag, rekening houdend met de wettelijke verplichtingen die in voorkomend geval aan de betrokken beroepsbeoefenaar worden opgelegd. Na het samenstellen van het definitieve dossier mag de beroepsbeoefenaar geen informatie van welke aard ook uit deze documentatie schrappen of verwijderen vóór het einde van haar
-
-bewaarperiode. Als de beroepsbeoefenaar het toch nodig vindt bestaande documentatie te wijzigen of nieuwe controledocumentatie toe te voegen nadat het definitieve dossier werd samengesteld, moet de beroepsbeoefenaar, ongeacht de aard van de wijzigingen of toevoegingen, de volgende elementen vastleggen: de specifieke redenen voor de wijzigingen of toevoegingen alsook wanneer en door wie ze werden uitgevoerd en nagezien.
+§47. De beroepsbeoefenaar moet de documentatie bewaren in een dossier en de opmaak van dit dossier tijdig voltooien na de datum van zijn verslag, rekening houdend met de wettelijke verplichtingen die in voorkomend geval aan de betrokken beroepsbeoefenaar worden opgelegd. Na het samenstellen van het definitieve dossier mag de beroepsbeoefenaar geen informatie van welke aard ook uit deze documentatie schrappen of verwijderen vóór het einde van haar bewaarperiode. Als de beroepsbeoefenaar het toch nodig vindt bestaande documentatie te wijzigen of nieuwe controledocumentatie toe te voegen nadat het definitieve dossier werd samengesteld, moet de beroepsbeoefenaar, ongeacht de aard van de wijzigingen of toevoegingen, de volgende elementen vastleggen: de specifieke redenen voor de wijzigingen of toevoegingen alsook wanneer en door wie ze werden uitgevoerd en nagezien.
 §48. Het voltooien van de opmaak van het definitieve dossier na de datum van het verslag van de beroepsbeoefenaar is een administratief proces dat geen betrekking heeft op de uitvoering van nieuwe controlewerkzaamheden of op het trekken van nieuwe conclusies.
 §49. De bewaarperiode bedraagt minimaal 5 jaar vanaf ondertekening van het verslag van de beroepsbeoefenaar.
 
@@ -679,9 +664,7 @@ Materialiteit in een beoordeling van financiële overzichten
 §128. De beroepsbeoefenaar dient de materialiteit voor de financiële overzichten als geheel te bepalen en deze materialiteit toe te passen bij het opzetten van de werkzaamheden en bij het evalueren van de resultaten die vanuit die werkzaamheden zijn verkregen.
 §129. De beroepsbeoefenaar dient de materialiteit voor de financiële overzichten als geheel te herzien wanneer hij zich gedurende de uitvoering van de opdracht kennis krijgt van informatie die ertoe zou hebben geleid om aanvankelijk een ander bedrag te bepalen.
 §130. Bij het verkrijgen van voldoende en geschikte assurance-informatie als basis voor een conclusie over de financiële overzichten als geheel, dient de beroepsbeoefenaar cijferanalyses op te zetten en uit te voeren en te verzoeken om inlichtingen:
-om in te spelen op alle elementen die van materieel belang zijn in de financiële overzichten, inclusief toelichtingen; en
-
-om zich te richten op het inspelen op gebieden in de financiële overzichten waar het waarschijnlijk is dat afwijkingen van materieel belang zich voor zullen doen.
+om in te spelen op alle elementen die van materieel belang zijn in de financiële overzichten, inclusief toelichtingen; en om zich te richten op het inspelen op gebieden in de financiële overzichten waar het waarschijnlijk is dat afwijkingen van materieel belang zich voor zullen doen.
 §131. De verzoeken om inlichtingen door de beroepsbeoefenaar bij het management en anderen binnen de “kmo of kleine vzw”, in voorkomend geval, dienen het volgende te omvatten:
 de wijze waarop het management significante schattingen maakt die onder het van toepassing zijnde stelsel inzake financiële verslaggeving vereist zijn;
 het identificeren van verbonden partijen en transacties met verbonden partijen, inclusief het doel van die transacties;
@@ -747,9 +730,7 @@ de kwalitatieve aspecten van de praktijken inzake administratieve verwerking van
 
 ### 4.4.2. Aangepaste conclusie
 §145. De beroepsbeoefenaar dient in de beoordelingsverklaring een aangepaste conclusie tot uitdrukking te brengen over de financiële overzichten als geheel wanneer:
-de beroepsbeoefenaar, op basis van de uitgevoerde werkzaamheden en de verkregen assurance-informatie, bepaalt dat de financiële overzichten een afwijking van materieel belang bevatten; of
-
-de beroepsbeoefenaar niet in staat is om voldoende en geschikte assurance-informatie te verkrijgen met betrekking tot één of meerdere elementen in de financiële overzichten die van materieel belang zijn met betrekking tot de financiële overzichten als geheel.
+de beroepsbeoefenaar, op basis van de uitgevoerde werkzaamheden en de verkregen assurance-informatie, bepaalt dat de financiële overzichten een afwijking van materieel belang bevatten; of de beroepsbeoefenaar niet in staat is om voldoende en geschikte assurance-informatie te verkrijgen met betrekking tot één of meerdere elementen in de financiële overzichten die van materieel belang zijn met betrekking tot de financiële overzichten als geheel.
 
 ### 4.4.3. Financiële overzichten bevatten een afwijking van materieel belang
 §146. Indien de beroepsbeoefenaar bepaalt dat de financiële overzichten een afwijking van materieel belang bevatten, dient de beroepsbeoefenaar het volgende tot uitdrukking te brengen:
@@ -827,9 +808,7 @@ Door het management ingeschakelde deskundige: een persoon of organisatie die des
 Ervaren beroepsbeoefenaar: een beroepsbeoefenaar (binnen of buiten het kantoor) die praktische controle-ervaring bezit en een redelijk begrip heeft van:
 de controleprocessen;
 normen, aanbevelingen en de van toepassing zijnde door wet- en regelgeving gestelde vereisten;
-de omgeving waarin de “kmo of kleine vzw” werkzaam is, en
-
-de controle- en financiële verslaggevingskwesties die relevant zijn voor de sector van de “kmo of kleine vzw”.
+de omgeving waarin de “kmo of kleine vzw” werkzaam is, en de controle- en financiële verslaggevingskwesties die relevant zijn voor de sector van de “kmo of kleine vzw”.
 Externe bevestigingen: assurance-informatie die is verkregen in de vorm van een van een derde partij (de bevestigende partij) afkomstige rechtstreekse schriftelijke reactie op papier, op elektronische of op andere gegevensdragers aan de beroepsbeoefenaar.
 Financiële overzichten: een gestructureerde weergave van historische financiële informatie, met inbegrip van de daarop betrekking hebbende toelichtingen, bedoeld om economische middelen of verplichtingen die een “kmo of kleine vzw” op een zeker tijdstip heeft, of de veranderingen die zich daarin over een tijdsperiode hebben voorgedaan, in overeenstemming met een stelsel inzake financiële verslaggeving te communiceren. De daarop betrekking hebbende toelichtingen omvatten gewoonlijk een overzicht van belangrijke gehanteerde grondslagen voor financiële verslaggeving en andere toelichtingen. De term ‘financiële overzichten’ verwijst gewoonlijk naar een complete set van financiële overzichten zoals vastgelegd door de vereisten van het van toepassing zijnde stelsel inzake financiële verslaggeving, maar kan ook verwijzen naar één enkel financieel overzicht of een tussentijds financieel overzicht.
 Fout: een onopzettelijke handeling die leidt tot een afwijking in de financiële overzichten, inclusief het weglaten van een bedrag of een in de financiële overzichten op te nemen toelichting.
@@ -891,9 +870,7 @@ om de beroepsbeoefenaar te voorzien van:
 
 toegang tot alle informatie waarvan het management en, in voorkomend geval, de met governance belaste personen kennis hebben en die relevant is voor het opstellen van de financiële overzichten, zoals vastleggingen, documentatie en andere aangelegenheden;
 
-aanvullende informatie die de beroepsbeoefenaar aan het management en, in voorkomend geval aan de met governance belaste personen kan vragen voor het doel van de controle; en
-
-onbeperkte toegang tot de personen binnen de “kmo of kleine vzw” van wie de beroepsbeoefenaar vaststelt dat het noodzakelijk is dat van hen assurance- informatie wordt verkregen.
+aanvullende informatie die de beroepsbeoefenaar aan het management en, in voorkomend geval aan de met governance belaste personen kan vragen voor het doel van de controle; en onbeperkte toegang tot de personen binnen de “kmo of kleine vzw” van wie de beroepsbeoefenaar vaststelt dat het noodzakelijk is dat van hen assurance- informatie wordt verkregen.
 Uitvoeringsmaterialiteit: het bedrag of de bedragen die door de beroepsbeoefenaar op een lager materialiteitsniveau dan voor de financiële overzichten als geheel is (zijn) vastgesteld om de waarschijnlijkheid dat het totaal van niet-gecorrigeerde en niet-gedetecteerde afwijkingen het materialiteitsniveau voor de financiële overzichten als geheel overschrijdt, tot een passend laag niveau terug te brengen. Indien van toepassing wordt met uitvoeringsmaterialiteit tevens het bedrag of de bedragen bedoeld die door de beroepsbeoefenaar voor bijzondere transactiestromen, rekeningsaldi of in de financiële overzichten opgenomen toelichtingen op een lager niveau of op lagere niveaus dan het materialiteitsniveau of de materialiteitsniveaus zijn vastgesteld.
 Uitzondering: een reactie waaruit een verschil blijkt tussen informatie waarvan bevestiging is gevraagd of informatie die in de vastleggingen van de “kmo of kleine vzw” is opgenomen, en informatie die door de bevestigende partij wordt verstrekt.
 Van toepassing zijnd stelsel inzake financiële verslaggeving: het stelsel inzake financiële verslaggeving dat door het management of de met governance belaste personen wordt gehanteerd bij het opstellen van de financiële overzichten, dat aanvaardbaar is in het licht van de aard van de “kmo of kleine vzw” en de doelstelling van die financiële overzichten, dan wel dat op grond van wet- of regelgeving is vereist. Het stelsel inzake financiële verslaggeving kan een getrouw-beeld-stelsel zijn, dan wel een compliance-stelsel.

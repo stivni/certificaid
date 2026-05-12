@@ -19,31 +19,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:55Z'
+  generated_at: '2026-05-12T23:38:04Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 4
       max_section_chars: 3481
-      file_size_chars: 7051
+      file_size_chars: 7043
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2009/12 – De sociale balans en de statutaire werknemers
 
@@ -70,7 +65,7 @@ De wet van 24 januari 2003[^6] heeft het KB nr. 5 als volgt gewijzigd:
 - vooreerst werd het personeelsregister afgeschaft en vervangen door het algemeen personeelsregister en het speciaal personeelsregister;[^7] 
 - voorts werd de Koning de mogelijkheid toegekend om werkgevers vrij te stellen van de verplichting een algemeen personeelsregister bij te houden voor de werknemers van wie gegevens doorgegeven zijn aan de Rijksdienst voor Sociale Zekerheid (***RSZ***).[^8] 
 
-Het is binnen deze context dat het KB van 5 november 2002[^9] op 1 januari 2003 van kracht is geworden. Deze heeft de onmiddellijke aangifte van tewerkstelling geïntroduceerd: de *“**D**éclaration** im**médiate/**on**middellijke** a**angifte”* (***DIMONA***), een elektronisch bericht waarin de werkgever iedere aanwerving en iedere uitdiensttreding van een werknemer onmiddellijk meldt aan de RSZ.
+Het is binnen deze context dat het KB van 5 november 2002[^9] op 1 januari 2003 van kracht is geworden. Deze heeft de onmiddellijke aangifte van tewerkstelling geïntroduceerd: de *“**Déclaration** immédiate/**onmiddellijke** aangifte”* (***DIMONA***), een elektronisch bericht waarin de werkgever iedere aanwerving en iedere uitdiensttreding van een werknemer onmiddellijk meldt aan de RSZ.
 
 Het toepassingsgebied van de DIMONA-verplichting is zeer ruim en stelt gelijk met de werknemers “*personen die, anders dan krachtens een arbeidsovereenkomst, arbeid verrichten onder het gezag van een ander persoon*”[^10]. Van het toepassingsgebied zijn enkel uitzonderlijke categorieën van werknemers uitgesloten zoals mijnwerkers, zeelieden ter koopvaardij, werknemers die occasionele arbeid verrichten, werknemers die arbeidsprestaties verrichten in het kader van een PWA-arbeidsovereenkomst, vrijwilligers...[^11] 
 

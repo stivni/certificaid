@@ -52,31 +52,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:50Z'
+  generated_at: '2026-05-12T23:39:01Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (40 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 39
       max_section_chars: 20175
-      file_size_chars: 47291
+      file_size_chars: 47287
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (40 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2024/02 – Belgische bijkantoren van buitenlandse verenigingen en stichtingen: toepassing van het Belgisch boekhoudrecht – begrip ‘bijkantoor’ – publicatieplicht – eigen boekhoudkundige verplichtingen
 
@@ -247,7 +242,7 @@ De Commissie ontleedt hieronder de boekhoudkundige gevolgen van de bestaande ver
 ### Gebruik van de relatierekening of rekening-courant door een Belgisch bijkantoor
 Alle geboekte verrichtingen tussen het Belgisch bijkantoor en zijn (buitenlands) moederbedrijf zullen worden weergegeven in de interne jaarrekening van het bijkantoor. De boekhouding van het bijkantoor zal dan ook niet moeten worden aangepast wat betreft de uitgevoerde verrichtingen tussen het bijkantoor en zijn (buitenlands) moederbedrijf. Binnen de rekeningen van het bijkantoor fungeert de relatierekening over het algemeen als een rekening-courant en geeft ze de middelen weer die het moederbedrijf ter beschikking stelt van het bijkantoor, hetzij voor de duurzame financiering van de infrastructuur, hetzij voor de courante kasbehoeften. In de boekhouding van het bijkantoor kan de relatierekening zowel een debet- als een creditsaldo vertonen.
 
-Als de rekening-courant een creditsaldo vertoont op de inventarisdatum, wordt dit saldo opgenomen in de interne jaarrekening van het bijkantoor, bij rekeningen 489 *Interne schulden ten aanzien van het moederbedrijf*[^64] en/of 179* Interne schulden ten aanzien van het moederbedrijf[^65] * afhankelijk of het een schuld is op respectievelijk minder of meer dan één jaar.
+Als de rekening-courant een creditsaldo vertoont op de inventarisdatum, wordt dit saldo opgenomen in de interne jaarrekening van het bijkantoor, bij rekeningen 489 *Interne schulden ten aanzien van het moederbedrijf*[^64] en/of 179*Interne schulden ten aanzien van het moederbedrijf[^65]* afhankelijk of het een schuld is op respectievelijk minder of meer dan één jaar.
 
 Als de rekening-courant een debetsaldo vertoont, met name wanneer het bijkantoor een vordering heeft uitstaan op zijn moederbedrijf, wordt dat debetsaldo een actiefbestanddeel van het bijkantoor. 
 
@@ -262,7 +257,7 @@ Het bijkantoor behaalt zijn resultaat op naam en voor rekening van de buitenland
 
 De bestemming van dit resultaat wat het bijkantoor betreft is dus beperkt voor zover de bestemming enkel kan uitgevoerd worden voor rekening van het moederbedrijf. 
 
-Als het bijkantoor winst behaalt, beveelt de Commissie, boekhoudkundig gezien, het gebruik aan van daartoe gecreëerde rekening 697 *Over te dragen winst aan het moederbedrijf*, en rekening 489* Interne schuld ten aanzien van het moederbedrijf*; als het bijkantoor verlies maakt, beveelt de Commissie het gebruik aan van daartoe gecreëerde rekening 797* Over te dragen verlies aan het moederbedrijf* en rekening 2810 *Interne vorderingen ten aanzien van het moederbedrijf*. 
+Als het bijkantoor winst behaalt, beveelt de Commissie, boekhoudkundig gezien, het gebruik aan van daartoe gecreëerde rekening 697 *Over te dragen winst aan het moederbedrijf*, en rekening 489*Interne schuld ten aanzien van het moederbedrijf*; als het bijkantoor verlies maakt, beveelt de Commissie het gebruik aan van daartoe gecreëerde rekening 797*Over te dragen verlies aan het moederbedrijf* en rekening 2810 *Interne vorderingen ten aanzien van het moederbedrijf*. 
 
 De Commissie is van oordeel dat het gebruik van rekeningen 489 en 2810 moet primeren op het gebruik van rekening 14 *Overgedragen winst (verlies)*. In het geval van overgedragen winst wordt op die manier een interne schuld ten aanzien van het moederbedrijf uitgedrukt, terwijl in het geval van overgedragen verlies een interne vordering ten aanzien van het moederbedrijf wordt geboekt.
 

@@ -35,31 +35,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:33Z'
+  generated_at: '2026-05-12T23:38:43Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (20 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 19
-      max_section_chars: 11270
-      file_size_chars: 24716
+      max_section_chars: 11268
+      file_size_chars: 24714
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (20 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2019/01 – Dividenduitkering en kapitaalvermindering in natura
 
@@ -76,7 +71,7 @@ Vennootschapsrechtelijk is de situatie waarbij het bevoegde vennootschapsorgaan 
 
 ## Dividenduitkering in natura
 De jaarrekening van een vennootschap wordt opgesteld rekening houdend met de beslissingen tot bestemming van het te bestemmen resultaat.[^5]
- Indien de voorgestelde bestemming van het resultaat ook een uitkering van dividenden omvat, dan worden deze dividenden op de balans geboekt in de rubriek IX.F *Overige schulden*. Voor dergelijke schulden uit de bestemming van het resultaat worden in de minimumindeling van het algemeen rekeningstelsel afzonderlijke rekeningen voorzien (rekening 47* Schulden uit de bestemming van het resultaat*). De bedragen op deze rekeningen worden geboekt voor hun bruto-bedrag, dus zonder aftrek van belastingen of voorheffingen.[^6]
+ Indien de voorgestelde bestemming van het resultaat ook een uitkering van dividenden omvat, dan worden deze dividenden op de balans geboekt in de rubriek IX.F *Overige schulden*. Voor dergelijke schulden uit de bestemming van het resultaat worden in de minimumindeling van het algemeen rekeningstelsel afzonderlijke rekeningen voorzien (rekening 47*Schulden uit de bestemming van het resultaat*). De bedragen op deze rekeningen worden geboekt voor hun bruto-bedrag, dus zonder aftrek van belastingen of voorheffingen.[^6]
  Indien het bevoegde orgaan een dividend in natura heeft toegekend moet voor de boekhoudkundige verwerking bij de resultaatbestemming dit toegekende dividend worden gewaardeerd teneinde de jaarrekening op te stellen. 
 
 Wat betreft de boekhoudkundige verwerking van interimdividenden en tussentijdse dividenden wordt verwezen naar het CBN-advies 2009/1 - *Interimdividend versus tussentijds dividend*.
@@ -94,7 +89,7 @@ In hoofde van de uitkerende vennootschap wordt de meerwaarde of de minderwaarde 
 In hoofde van de verkrijgende onderneming stemt de aanschaffingswaarde van het ontvangen goed overeen met de waarde van het ontvangen goed op het ogenblik van de toekenning bij een toekenning in natura of op het ogenblik van de inbetalinggeving.
 
 ## Kapitaalvermindering in natura
-In het CBN-advies 151/2 – *Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves*, behandelt de Commissie de boekhoudkundige verwerking van een kapitaalvermindering in hoofde van een onderneming-aandeelhouder. In voormeld advies wordt een onderscheid gemaakt naargelang de aangehouden aandelen kwalificeren als geldbelegging (rekening 51 *Aandelen*) dan wel als deelneming (rekening 28* Financiële vaste activa*).
+In het CBN-advies 151/2 – *Toerekening door de aandeelhouder van een terugbetaling van kapitaal of een uitgiftepremie of van een uitkering van reserves*, behandelt de Commissie de boekhoudkundige verwerking van een kapitaalvermindering in hoofde van een onderneming-aandeelhouder. In voormeld advies wordt een onderscheid gemaakt naargelang de aangehouden aandelen kwalificeren als geldbelegging (rekening 51 *Aandelen*) dan wel als deelneming (rekening 28*Financiële vaste activa*).
 
 Indien de aandelen in hoofde van de aandeelhouder als geldbelegging kwalificeren, wordt, ongeacht de fiscale kwalificatie, het uit een kapitaalvermindering ontvangen bedrag in mindering geboekt van de aanschaffingswaarde van deze aandelen. Indien het ontvangen bedrag van de kapitaalvermindering de boekwaarde zou overstijgen, wordt het saldo als een financiële opbrengst geboekt.
 

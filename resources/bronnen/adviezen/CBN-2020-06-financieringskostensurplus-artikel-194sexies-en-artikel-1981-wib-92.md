@@ -17,31 +17,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:37Z'
+  generated_at: '2026-05-12T23:38:48Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (38 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 37
-      max_section_chars: 20526
-      file_size_chars: 29994
+      max_section_chars: 20525
+      file_size_chars: 29990
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (38 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2020/06 – Financieringskostensurplus (artikel 194sexies en artikel 198/1 WIB 92)
 
@@ -104,16 +99,16 @@ De interestaftrekovereenkomst wordt gesloten na afsluiting van het boekjaar (N).
 
 De partijen kunnen de interestaftrekovereenkomst echter ook vóór afsluiting van boekjaar N hebben gesloten. In dit geval moet hier rekening mee worden gehouden bij het bepalen van de geraamde belastingen voor boekjaar N.
 
-De Commissie is van mening dat de vergoeding op twee verschillende wijzen kan worden geboekt wanneer de interestaftrekovereenkomst in boekjaar N+1 werd gesloten. In de eerste plaats zal de vennootschap bij afsluiting van boekjaar N haar fiscale lasten beoordelen en deze geraamde belastingschuld van boekjaar N boeken door debitering van rekening 6702 *Geraamde belastingen* met als tegenpost rekening 4500* Belgische winstbelastingen*[^30]. Vervolgens moet in de loop van het volgende boekjaar (N+1)[^31] rekening 4500* Belgische winstbelastingen* gedebiteerd worden met als tegenpost de boeking van een schuld aan de groepsvennootschap waarmee de interestaftrekovereenkomst werd gesloten.
+De Commissie is van mening dat de vergoeding op twee verschillende wijzen kan worden geboekt wanneer de interestaftrekovereenkomst in boekjaar N+1 werd gesloten. In de eerste plaats zal de vennootschap bij afsluiting van boekjaar N haar fiscale lasten beoordelen en deze geraamde belastingschuld van boekjaar N boeken door debitering van rekening 6702 *Geraamde belastingen* met als tegenpost rekening 4500*Belgische winstbelastingen*[^30]. Vervolgens moet in de loop van het volgende boekjaar (N+1)[^31] rekening 4500*Belgische winstbelastingen* gedebiteerd worden met als tegenpost de boeking van een schuld aan de groepsvennootschap waarmee de interestaftrekovereenkomst werd gesloten.
 
-De vergoeding kan eveneens als volgt worden geboekt: de vergoeding wordt in boekjaar N+1 geboekt door debitering van rekening 668 *Andere niet-recurrente financiële kosten* met als tegenpost rekening 489 *Andere diverse schulden*[^32]. Bovendien zal de vennootschap eveneens een “belastingvermindering”[^33] boeken door debitering van rekening 4500* Belgische winstbelastingen* met als tegenpost rekening 769 *Andere niet-recurrente financiële opbrengsten: overdracht van het financieringskostensurplus*.
+De vergoeding kan eveneens als volgt worden geboekt: de vergoeding wordt in boekjaar N+1 geboekt door debitering van rekening 668 *Andere niet-recurrente financiële kosten* met als tegenpost rekening 489 *Andere diverse schulden*[^32]. Bovendien zal de vennootschap eveneens een “belastingvermindering”[^33] boeken door debitering van rekening 4500*Belgische winstbelastingen* met als tegenpost rekening 769 *Andere niet-recurrente financiële opbrengsten: overdracht van het financieringskostensurplus*.
 
 Indien de overeenkomst in boekjaar N werd gesloten, zal de vennootschap die de niet-benutte aftrekcapaciteit ontvangt in de geraamde belastingen meteen rekening houden met de belastingvermindering. De vergoeding zal tijdens dit boekjaar (N) worden geboekt op rekening 668 *Andere niet-recurrente financiële kosten* met als tegenpost rekening 489 *Diverse schulden*.
 
 ###### In hoofde van de ontvanger van de vergoeding
 In hoofde van de ontvanger van de vergoeding vormt het ontvangen bedrag in principe de compensatie van de aanwending van een actieve belastinglatentie. Zoals eerder vermeld in dit advies wordt een actieve belastinglatentie nooit aan de actiefzijde van de balans geboekt.
 
-Deze vergoeding is aldus niet het gevolg van een voorheen reeds betaalde belasting en kan niet als belasting worden gekwalificeerd. De ontvangen vergoeding kan niet worden geboekt als een regularisering van voorheen betaalde belastingen en wordt dus niet geboekt op de rekening 77 *Regularisering van belastingen en terugneming van fiscale voorzieningen*. De vergoeding wordt daarentegen geboekt op de rekening 769* Andere niet-recurrente financiële opbrengsten: overdracht van het financieringskostensurplus*[^34]. 
+Deze vergoeding is aldus niet het gevolg van een voorheen reeds betaalde belasting en kan niet als belasting worden gekwalificeerd. De ontvangen vergoeding kan niet worden geboekt als een regularisering van voorheen betaalde belastingen en wordt dus niet geboekt op de rekening 77 *Regularisering van belastingen en terugneming van fiscale voorzieningen*. De vergoeding wordt daarentegen geboekt op de rekening 769*Andere niet-recurrente financiële opbrengsten: overdracht van het financieringskostensurplus*[^34]. 
 
 Zoals hierboven reeds werd vermeld, kan de interestaftrekovereenkomst zowel in boekjaar N als in boekjaar N+1 worden gesloten. Of de boeking van de vergoeding in de jaarrekening van boekjaar N of in die van boekjaar N+1 gebeurt, zal afhangen van het boekjaar waarin de overeenkomst werd gesloten.
 

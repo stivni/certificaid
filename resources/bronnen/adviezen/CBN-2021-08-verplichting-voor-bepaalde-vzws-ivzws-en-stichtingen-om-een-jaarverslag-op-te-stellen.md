@@ -31,31 +31,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:41Z'
+  generated_at: '2026-05-12T23:38:52Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (15 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 14
       max_section_chars: 8186
-      file_size_chars: 16784
+      file_size_chars: 16782
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (15 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2021/08 – Verplichting voor bepaalde VZW’s, IVZW’s en stichtingen om een jaarverslag op te stellen
 
@@ -101,7 +96,7 @@ Indien een andere dan een kleine VZW, IVZW of stichting tot een “*opt-in*” h
 
 ### Voorbeeld 2
 Een VZW[^12] die op 6 januari 2006 werd opgericht met een boekjaar gelijk aan het kalenderjaar, beslist op 1 juni 2019 de bepalingen van het WVV voortijdig toe te passen.
-Naar aanleiding van die “*opt-in*” zijn de bepalingen van het WVV van toepassing vanaf de dag van de bekendmaking van de statutenwijziging in de* Bijlagen bij het Belgisch Staatsblad*. Op balansdatum van het laatst afgesloten boekjaar (31 december 2019) zag de VZW er als volgt uit:
+Naar aanleiding van die “*opt-in*” zijn de bepalingen van het WVV van toepassing vanaf de dag van de bekendmaking van de statutenwijziging in de*Bijlagen bij het Belgisch Staatsblad*. Op balansdatum van het laatst afgesloten boekjaar (31 december 2019) zag de VZW er als volgt uit:
 - jaargemiddelde van het aantal werknemers: 55; 
 
 - jaaromzet, exclusief belasting over de toegevoegde waarde: 5.500.000 euro; 
@@ -118,7 +113,7 @@ Bovendien moeten de cijfers van de twee voorgaande boekjaren (2017 en 2018) in r
 Aangezien de VZW een kleine VZW is overeenkomstig artikel 1:28, § 1 WVV, moet het bestuursorgaan geen jaarverslag opstellen en gelijktijdig neerleggen met de jaarrekening over het boekjaar 2019.
 ### Voorbeeld 3
 Een VZW[^14] die op 1 september 2005 is opgericht, beslist op 5 mei 2019 tot een “*opt-in*”. Deze VZW voert een boekhouding anders dan per kalenderjaar, namelijk van 1 september N tot 31 augustus N+1.
-Naar aanleiding van die “*opt-in*” zijn de bepalingen van het WVV van toepassing vanaf de dag van de bekendmaking van de statutenwijziging in de* Bijlagen bij het Belgisch Staatsblad*. Op balansdatum van het laatst afgesloten boekjaar[^15], zijnde op 31 augustus 2019, zag de VZW er als volgt uit:
+Naar aanleiding van die “*opt-in*” zijn de bepalingen van het WVV van toepassing vanaf de dag van de bekendmaking van de statutenwijziging in de*Bijlagen bij het Belgisch Staatsblad*. Op balansdatum van het laatst afgesloten boekjaar[^15], zijnde op 31 augustus 2019, zag de VZW er als volgt uit:
 - jaargemiddelde van het aantal werknemers: 50; 
 
 - jaaromzet, exclusief belasting over de toegevoegde waarde: 10.000.000 euro; 

@@ -25,43 +25,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:00Z'
+  generated_at: '2026-05-12T23:36:59Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "C1: bullet-glyphs '•' op regels 413–442 i.p.v. '-' bullets. A6: goedkeuringsblok (regels 53–59) is gefragmenteerd in losse zinsdeeltjes. Ontwerp-status op regel 49 ('Ontwerp') is een stuk brondocument-metadata dat midden in de body staat. Inhoud anders intact (122 headings)."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232433
-      run_at: '2026-05-12T23:24:34Z'
+      run_id: 20260512-233943
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 122
       max_section_chars: 2986
-      file_size_chars: 94171
+      file_size_chars: 94095
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: "C1: bullet-glyphs '•' op regels 413–442 i.p.v. '-' bullets. A6: goedkeuringsblok (regels 53–59) is gefragmenteerd in losse zinsdeeltjes. Ontwerp-status op regel 49 ('Ontwerp') is een stuk brondocument-metadata dat midden in de body staat. Inhoud anders intact (122 headings)."
-      concrete_problemen:
-        - regel: 49
-          categorie: A1
-          type: other
-          voorbeeld: Ontwerp (brondocument-status als plain text body-regel)
-        - regel: 413
-          categorie: C1
-          type: bullet-glyph
-          voorbeeld: • de identificatie van de beroepsbeoefenaar...
-        - regel: 53
-          categorie: A6
-          type: scrambled-words
-          voorbeeld: BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien...\nbetreft;\nGezien het ontwerp...
 ---
 Ontwerp
 
@@ -138,14 +121,10 @@ dit kan onder meer door verwijzing naar wet- of regelgeving;
 ## VERZOEK TOT GOEDKEURING OKTOBER 2025 2/64
 
 HEBBEN OP HUN ZITTING VAN 5 SEPTEMBER 2025 (IBR) EN 7 OKTOBER (IBA) DE HIERNAVOLGENDE NORM AANGENOMEN.
-Goedkeuring van onderhavige norm
-
-minister bevoegd voor Economie.
+Goedkeuring van onderhavige norm minister bevoegd voor Economie.
 
 Overeenkomstig artikel 31, §1, 5de en 6de lid van de wet van 7 december 2016 tot organisatie van het
-beroep van en het publiek toezicht op de bedrijfsrevisoren, werd het Instituut gehoord en heeft deze laatste
-
-voor de Economische Beroepen tot herformulering van deze norm op basis van zijn eigen opmerkingen, de
+beroep van en het publiek toezicht op de bedrijfsrevisoren, werd het Instituut gehoord en heeft deze laatste voor de Economische Beroepen tot herformulering van deze norm op basis van zijn eigen opmerkingen, de
 
 van onderhavige norm aangenomen. Overeenkomstig artikel 80 van de wet van 17 maart 2019 betreffende
 
@@ -221,9 +200,7 @@ minstens totdat de rechtspraak of wetgeving hieromtrent meer duidelijkheid schep
 
 ## VEREISTEN TOEPASSINGSMODALITEITEN
 
-4. Deze norm treedt in werking voor de verslagen die drie maanden na de datum
-
-van publicatie in het Belgisch Staatsblad van het bericht tot goedkeuring van de minister die bevoegd is voor Economie zijn uitgebracht.
+4. Deze norm treedt in werking voor de verslagen die drie maanden na de datum van publicatie in het Belgisch Staatsblad van het bericht tot goedkeuring van de minister die bevoegd is voor Economie zijn uitgebracht.
 
 5. Vanaf deze datum van inwerkingtreding worden de normen van 4 oktober
 2002 inzake het verslag op te stellen bij de omzetting van een entiteit opgeheven.
@@ -268,9 +245,7 @@ h. “VZW”: de vereniging zonder winstoogmerk (art. 1:6, §2 WVV); i.
 o het wetboek van Economisch recht, artikel III.83 e.v. o het KB/WVV; o het WVV.
 - Inzake het opstellen van de jaarrekening betreft dit het WVV (art.
 3:1) en het uitvoeringsbesluit op het WVV van 29 april 2019. een specifiek boekhoudkundig referentiestelsel.
-(xiii) “afwijking(en) van materieel belang”: afwijkingen, met inbegrip van
-
-weglatingen, worden geacht van materieel belang te zijn indien van hen,
+(xiii) “afwijking(en) van materieel belang”: afwijkingen, met inbegrip van weglatingen, worden geacht van materieel belang te zijn indien van hen,
 afzonderlijk of gezamenlijk, redelijkerwijs kan worden verwacht dat zij de beslissing beïnvloeden omtrent de goedkeuring van het
 omzettingsvoorstel door de aandeelhouders die is genomen op basis
 beroepsbeoefenaar is een kwestie van professionele oordeelsvorming
@@ -281,19 +256,13 @@ activa en passiva, indien aanwezig, die niet geïdentificeerd zijn als gevolg va
 onderbouwende informatie te verkrijgen. Onder gevolgen met een
 diepgaande invloed vallen die gevolgen die, naar het oordeel van de beroepsbeoefenaar:
 
-a. zich niet beperken tot specifieke onderdelen, rekeningen of
-
-elementen van de staat van activa en passiva; b. indien ze zich daartoe wel beperken, een deel van materieel belang
+a. zich niet beperken tot specifieke onderdelen, rekeningen of elementen van de staat van activa en passiva; b. indien ze zich daartoe wel beperken, een deel van materieel belang
 van de staat van activa en passiva vertegenwoordigen of zouden kunnen vertegenwoordigen; of
-c. met betrekking tot toelichtingen, van fundamenteel belang zijn
-
-voor het begrip van gebruikers van de staat van activa en passiva ;
+c. met betrekking tot toelichtingen, van fundamenteel belang zijn voor het begrip van gebruikers van de staat van activa en passiva ;
 
 ## OPENBARE RAADPLEGING JUNI 2025 10/64
 
-(xv) “beoordeling”: de opdracht beoogd door onderhavige norm is een
-
-assurance-opdracht die als doel heeft een beperkte mate van zekerheid ISRE 2410 of de gemeenschappelijke KMO-norm;
+(xv) “beoordeling”: de opdracht beoogd door onderhavige norm is een assurance-opdracht die als doel heeft een beperkte mate van zekerheid ISRE 2410 of de gemeenschappelijke KMO-norm;
 (xvi) “ISRE 2410”: de Internationale standaard voor beoordelingsopdracht
 2410 – Beoordeling van tussentijdse financiële informatie, uitgevoerd norm van 21 juni 2018 inzake de toepassing in België van de
 Internationale controlestandaarden (ISA’s), zoals geformuleerd door
@@ -327,36 +296,26 @@ betreft, om te verklaren of, naar zijn mening, de geldelijke vergoeding al dan n
 
 ## II. Algemene bepalingen II.1. Deontologische beginselen VEREISTEN TOEPASSINGSMODALITEITEN
 
-8. De bedrijfsrevisor dient de deontologische beginselen na te leven zoals
-
-vastgesteld door de wet van 7 december 2016.
+8. De bedrijfsrevisor dient de deontologische beginselen na te leven zoals vastgesteld door de wet van 7 december 2016.
 
 De gecertificeerd accountant dient de deontologische beginselen na te leven
 zoals vastgesteld door de wet van 17 maart 2019 en het Koninklijk Besluit van
 9 december 2019 zoals bedoeld in artikel 49 van Hoofdstuk 6 van deze wet.
 
-9. De beroepsbeoefenaar dient de in België van kracht zijnde wetgeving en
-
-regelgeving na te leven die van toepassing is in het kader van zijn opdracht.
+9. De beroepsbeoefenaar dient de in België van kracht zijnde wetgeving en regelgeving na te leven die van toepassing is in het kader van zijn opdracht.
 (Par. A5)
 
 ## OPENBARE RAADPLEGING JUNI 2025 12/64
 
-10. De beroepsbeoefenaar dient over een intern kwaliteitsbeheersingssysteem te
-
-beschikken zodat wordt verzekerd dat de opdracht uitgevoerd wordt
+10. De beroepsbeoefenaar dient over een intern kwaliteitsbeheersingssysteem te beschikken zodat wordt verzekerd dat de opdracht uitgevoerd wordt
 overeenkomstig de wettelijke en regelgevende bepalingen en de vereisten inzake verslaggeving.
 
 Dit kwaliteitsbeheersingssysteem wordt opgezet in overeenstemming met de
 respectieve normen die van toepassing zijn binnen elk instituut en die zijn goedgekeurd volgens de wettelijk voorziene procedure.
 
-11. In de entiteiten waar een commissaris werd aangesteld, wordt hij van
+11. In de entiteiten waar een commissaris werd aangesteld, wordt hij van rechtswege met deze beoordelingsopdracht belast. (par. A7)
 
-rechtswege met deze beoordelingsopdracht belast. (par. A7)
-
-12. Alvorens deze opdracht te aanvaarden en in het kader van de cliëntidentificatie
-
-dient de beroepsbeoefenaar, die niet de commissaris is, zich ervan te
+12. Alvorens deze opdracht te aanvaarden en in het kader van de cliëntidentificatie dient de beroepsbeoefenaar, die niet de commissaris is, zich ervan te
 vergewissen of deze entiteit voldaan heeft aan de wettelijke verplichting om
 een commissaris aan te stellen krachtens de artikelen 3:47,  3:51 of 3:73 juncto 1:24 en 3:72 WVV.
 
@@ -370,9 +329,7 @@ Gelet op het risico op strafbare deelneming aan het misdrijf, vermeld in artikel
 onthouden van het aanvaarden of voortzetten van deze opdracht bij elke
 entiteit die weigert een commissaris aan te stellen terwijl zij hiertoe wettelijk verplicht is.
 
-13. Alvorens deze opdracht te aanvaarden, gaat de beroepsbeoefenaar bij de
-
-entiteit na of een andere beroepsbeoefenaar in de loop van de voorafgaande
+13. Alvorens deze opdracht te aanvaarden, gaat de beroepsbeoefenaar bij de entiteit na of een andere beroepsbeoefenaar in de loop van de voorafgaande
 twaalf maanden, belast is of werd met deze opdracht bij dezelfde entiteit. (par.
 A9)
 
@@ -381,15 +338,11 @@ bepalingen regelen de opvolging tussen leden van eenzelfde Instituut.
 
 ## OPENBARE RAADPLEGING JUNI 2025 14/64
 
-14. Op uitdrukkelijke vraag van het bestuursorgaan en met de toelating van de
-
-algemene vergadering, dient de beroepsbeoefenaar, die niet de commissaris stichting het bestuursorgaan, bij te wonen.
+14. Op uitdrukkelijke vraag van het bestuursorgaan en met de toelating van de algemene vergadering, dient de beroepsbeoefenaar, die niet de commissaris stichting het bestuursorgaan, bij te wonen.
 
 ## II.2. Aard van de opdracht VEREISTEN TOEPASSINGSMODALITEITEN
 
-15. De opdracht van de beroepsbeoefenaar bestaat erin de staat van activa en
-
-passiva, opgesteld door en onder verantwoordelijkheid van het bestuursorgaan,
+15. De opdracht van de beroepsbeoefenaar bestaat erin de staat van activa en passiva, opgesteld door en onder verantwoordelijkheid van het bestuursorgaan,
 in alle van materieel belang zijnde opzichten, te beoordelen en verslag uit te
 brengen over de staat van activa en passiva waarin hij inzonderheid vermeldt of het nettoactief, in alle van materieel belang zijnde opzichten, is overgewaardeerd.
 
@@ -423,12 +376,10 @@ aan een bedrijfsrevisor of een gecertificeerd accountant en uitgevoerd wordt bij
 
 ## II.3. Opdrachtbrief VEREISTEN TOEPASSINGSMODALITEITEN
 
-19. Voorafgaand aan de uitvoering van de opdracht dient de beroepsbeoefenaar
+19. Voorafgaand aan de uitvoering van de opdracht dient de beroepsbeoefenaar van het bestuursorgaan een opdrachtbrief te verkrijgen. (par. A12)
 
-van het bestuursorgaan een opdrachtbrief te verkrijgen. (par. A12)
-
-• de identificatie van de beroepsbeoefenaar en van zijn hoedanigheid (commissaris, bedrijfsrevisor, gecertificeerd accountant);
-• • de beschrijving van de opdracht, rekening houdend met de volgende aspecten:
+- de identificatie van de beroepsbeoefenaar en van zijn hoedanigheid (commissaris, bedrijfsrevisor, gecertificeerd accountant);
+- • de beschrijving van de opdracht, rekening houdend met de volgende aspecten:
 
 o opdracht; o een vermelding van de opstelling van een schriftelijk verslag houdende de resultaten van de opdracht; o een verwijzing naar onderhavige norm;
 
@@ -436,14 +387,14 @@ o opdracht; o een vermelding van de opstelling van een schriftelijk verslag houd
 
 o het feit dat het verslag uitsluitend zal worden opgesteld ingevolge
 artikel(en) 14:4 of 14:21 van het WVV, dat de verspreiding ervan beperkt is tot het beoogd gebruik.
-• de verantwoordelijkheden van de beroepsbeoefenaar, met inbegrip van, onder andere:
+- de verantwoordelijkheden van de beroepsbeoefenaar, met inbegrip van, onder andere:
 
 o het nazicht van het omzettingsvoorstel; o verslag uitbrengen over de staat van activa en passiva opgesteld door het bestuursorgaan; o aanduiden of het netto-actief is overgewaardeerd; o wanneer de verrichting een grensoverschrijdende verrichting
 (emigratie) betreft:
 
  geldelijke vergoeding;
  geldelijke vergoeding vast te stellen.
-• de verantwoordelijkheden van het bestuursorgaan, met inbegrip van, onder andere:
+- de verantwoordelijkheden van het bestuursorgaan, met inbegrip van, onder andere:
 
 o een verwijzing naar de verplichting om  toegang te verschaffen tot
 alle informatie en personen die voor de uitvoering van de opdracht relevant is of zijn; o
@@ -456,7 +407,7 @@ veronderstellingen die aan de grondslag liggen van het vaststellen van de geldel
 
 ## OPENBARE RAADPLEGING JUNI 2025 17/64
 
-•
+-
 
 Zoals bepaald in paragraaf A6 van onderhavige norm is de algemene norm van
 toepassing op alle opdrachten toevertrouwd door een onderneming aan de
@@ -464,9 +415,7 @@ bedrijfsrevisor van toepassing voor bedrijfsrevisoren, die onder meer vereisten 
 
 ## II.4. Documentatie VEREISTEN TOEPASSINGSMODALITEITEN
 
-20. Bij de uitvoering van zijn opdracht dient de beroepsbeoefenaar van het
-
-bestuursorgaan de nodige gegevens te verkrijgen en te documenteren, die
+20. Bij de uitvoering van zijn opdracht dient de beroepsbeoefenaar van het bestuursorgaan de nodige gegevens te verkrijgen en te documenteren, die
 kunnen dienen om de werkzaamheden die hij heeft verricht te onderbouwen.
 
 21. Het dossier dient onder andere documentatie te bevatten omtrent:
@@ -477,12 +426,8 @@ kunnen dienen om de werkzaamheden die hij heeft verricht te onderbouwen.
 onderhavige norm en de van toepassing zijnde door wet- en regelgeving gestelde eisen na te leven;
 4. de staat van activa en passiva zoals opgesteld door het bestuursorgaan;
 5. de berekening van het nettoactief door het bestuursorgaan;
-6. de resultaten die uit de werkzaamheden zijn verkregen, alsmede de
-
-conclusies van de beroepsbeoefenaar die zijn gevormd op basis van die resultaten;
-7. de significante aangelegenheden voortgekomen uit de opdracht, de daaruit
-
-door de beroepsbeoefenaar getrokken conclusies en significante
+6. de resultaten die uit de werkzaamheden zijn verkregen, alsmede de conclusies van de beroepsbeoefenaar die zijn gevormd op basis van die resultaten;
+7. de significante aangelegenheden voortgekomen uit de opdracht, de daaruit door de beroepsbeoefenaar getrokken conclusies en significante
 professionele oordelen die zijn gevormd om tot die conclusies te komen;
 8. het ondertekende verslag van het bestuursorgaan met betrekking tot de omzetting of het ontwerpverslag;
 9. de notariële ontwerpakte;
@@ -501,14 +446,10 @@ volgens welke de geldelijke vergoeding is vastgesteld (zie ook par. 51)
 
 ## III. Uit te voeren werkzaamheden teneinde het verslag bij de omzetting op te stellen
 
-22.  De beroepsbeoefenaar dient vooraf kennis te nemen van de essentiële
-
-kenmerken van de voorgenomen verrichting.
+22.  De beroepsbeoefenaar dient vooraf kennis te nemen van de essentiële kenmerken van de voorgenomen verrichting.
 De voorafgaande omstandigheden waarin de verrichting plaatsvindt (par. A16-A17).
 
-23. De beroepsbeoefenaar dient inzicht te verkrijgen in de entiteit en haar
-
-omgeving, evenals in het toepasselijke boekhoudkundig referentiestelsel, om
+23. De beroepsbeoefenaar dient inzicht te verkrijgen in de entiteit en haar omgeving, evenals in het toepasselijke boekhoudkundig referentiestelsel, om
 materieel belang zouden kunnen bevatten, en die dus een basis vormen om
 procedures te definiëren die moeten worden uitgevoerd met betrekking tot
 deze aspecten. In de entiteiten waar er geen commissaris is dient de
@@ -525,26 +466,20 @@ werkzaamheden te bepalen, onder andere zijn inzicht in het proces van financiël
 belangrijkste risico’s eigen aan de entiteit of aan haar activiteit die van
 aard zijn de staat van activa en passiva op betekenisvolle wijze te beïnvloeden.
 
-25. Indien de beroepsbeoefenaar de commissaris is en deze naar aanleiding van
-
-zijn kennisname van het verslag van het bestuursorgaan, feiten of
+25. Indien de beroepsbeoefenaar de commissaris is en deze naar aanleiding van zijn kennisname van het verslag van het bestuursorgaan, feiten of
 vermeldingen zou vaststellen die een inbreuk betekenen op het WVV, dient hij
 in het kader van zijn commissarismandaat ook de paragrafen 99 tot en met
 101 van de bijkomende norm bij de in België van toepassing zijnde ISA’s toe te passen.
 
 ## III.1. Uit te voeren werkzaamheden betreffende de staat van activa en passiva VEREISTEN TOEPASSINGSMODALITEITEN
 
-26. De beroepsbeoefenaar dient na te gaan of het bestuursorgaan een staat van
-
-activa en passiva heeft opgesteld overeenkomstig het van toepassing zijnde
+26. De beroepsbeoefenaar dient na te gaan of het bestuursorgaan een staat van activa en passiva heeft opgesteld overeenkomstig het van toepassing zijnde
 
 ## OPENBARE RAADPLEGING JUNI 2025 20/64
 
 boekhoudkundig referentiestelsel. De staat van activa en passiva dient om het nettoactief te bepalen. (par A18-A24)
 
-27. De beroepsbeoefenaar dient in het kader van zijn beoordelingsopdracht
-
-bijzondere aandacht te besteden aan het feit dat, om de staat van activa en
+27. De beroepsbeoefenaar dient in het kader van zijn beoordelingsopdracht bijzondere aandacht te besteden aan het feit dat, om de staat van activa en
 passiva op te stellen en het nettoactief te bepalen, het bestuursorgaan dient te beschikken over de nodige procedures inzake het financieel
 rapporteringsproces met inbegrip van de processen betreffende de
 afsluitingsboekingen opdat, eveneens in het geval van een tussentijdse staat
@@ -564,9 +499,7 @@ IV. Uit te voeren werkzaamheden teneinde de verslaggeving bij de grensoverschrij
 
 ## VEREISTEN TOEPASSINGSMODALITEITEN
 
-28. Teneinde verslag uit te brengen over het grensoverschrijdende omzetting dient
-
-de beroepsbeoefenaar de werkzaamheden uit te voeren zoals voorzien voor de
+28. Teneinde verslag uit te brengen over het grensoverschrijdende omzetting dient de beroepsbeoefenaar de werkzaamheden uit te voeren zoals voorzien voor de
 opdracht bij omzetting (zie sectie III van onderhavige norm met betrekking tot
 de uit te voeren werkzaamheden teneinde het verslag bij de omzetting) (par.
 A25-A26).
@@ -637,32 +570,24 @@ uittredende aandeelhouders (de uitbetaling van het scheidingsaandeel) relevant e
 
 ## OPENBARE RAADPLEGING JUNI 2025 30/64
 
-38. De omvang van de werkzaamheden is afhankelijk van de activiteiten, de
-
-onderliggende waarderingen. Die componenten kunnen betrekking hebben op
+38. De omvang van de werkzaamheden is afhankelijk van de activiteiten, de onderliggende waarderingen. Die componenten kunnen betrekking hebben op
 het eigen vermogen of op andere historische financiële informatie en/of op toekomstgerichte financiële informatie.
 
-39. De beroepsbeoefenaar dient de waarderingsmethoden te identificeren die
-
-vergoeding bepalen.
+39. De beroepsbeoefenaar dient de waarderingsmethoden te identificeren die vergoeding bepalen.
 A38. Een waarderingsmethode zal in principe aanvaardbaar zijn, wanneer zij
 door de wetenschappelijke of beroepsliteratuur algemeen wordt aanvaard,
 of wanneer zij voor het voorliggend geval in het bijzonder is geschikt en
 naar behoren is gerechtvaardigd in het licht van de economische situatie
 van de entiteit. De waarderingsmethoden dienen geschikt te zijn, met het
 oog op het bereiken van de meest relevante geldelijke en redelijke vergoeding.
-40. Bij het beoordelen van de relevantie van  historische boekhoudgegevens, dient
-
-werden weerhouden. De beroepsbeoefenaar dient na te gaan of elke
+40. Bij het beoordelen van de relevantie van  historische boekhoudgegevens, dient werden weerhouden. De beroepsbeoefenaar dient na te gaan of elke
 waarderingsmethode of de tussen partijen overeengekomen waardering in het gegeven geval passend is (par. A37 -A38).
 
 de beroepsbeoefenaar, op grond van zijn professionele oordeelsvorming, de
 aard van de uit te voeren werkzaamheden te bepalen teneinde te bepalen of de
 gebruikte historische financiële informatie als basis kan dienen voor de berekening van de geldelijke vergoeding (par. A39-A40).
 
-41. De beroepsbeoefenaar dient het betrekkelijk gewicht dat bij de vaststelling van
-
-de in aanmerking genomen waarde aan elke methode is gehecht te beoordelen
+41. De beroepsbeoefenaar dient het betrekkelijk gewicht dat bij de vaststelling van de in aanmerking genomen waarde aan elke methode is gehecht te beoordelen
 
 ## OPENBARE RAADPLEGING JUNI 2025 31/64
 
@@ -672,9 +597,7 @@ IV. 3. Specifieke uit te voeren werkzaamheden wanneer er toekomstgerichte financ
 
 ## VEREISTEN TOEPASSINGSMODALITEITEN
 
-42. In bepaalde gevallen kan het bestuursorgaan gebruikgemaakt hebben van
-
-toekomstgerichte financiële informatie bij het vaststellen van de geldelijke
+42. In bepaalde gevallen kan het bestuursorgaan gebruikgemaakt hebben van toekomstgerichte financiële informatie bij het vaststellen van de geldelijke
 vergoeding. Een van de eigenschappen van toekomstgerichte financiële
 informatie is dat ze verwijzen naar acties en gebeurtenissen die nog niet
 hebben plaatsgevonden en die misschien niet zullen plaatsvinden. (par. A42)
@@ -685,17 +608,13 @@ doelstelling van de opdracht, teneinde te bepalen of de gebruikte
 toekomstgerichte financiële informatie als basis kan dienen voor de
 berekening van de geldelijke vergoeding die relevant en redelijk is.
 
-43. De beroepsbeoefenaar dient voldoende kennis van de bedrijfsactiviteiten van
-
-de entiteit te hebben teneinde te kunnen beoordelen of rekening is gehouden
+43. De beroepsbeoefenaar dient voldoende kennis van de bedrijfsactiviteiten van de entiteit te hebben teneinde te kunnen beoordelen of rekening is gehouden
 met alle relevante veronderstellingen die voor het opstellen van de
 toekomstgerichte financiële informatie van belang zijn. (par. A43)
 
 ## OPENBARE RAADPLEGING JUNI 2025 32/64
 
-44. In het kader van deze opdracht en wanneer de geldelijke vergoeding is
-
-gebaseerd op prognoses, dient de beroepsbeoefenaar de toekomstgerichte informatie te onderzoeken teneinde vast te stellen dat:
+44. In het kader van deze opdracht en wanneer de geldelijke vergoeding is gebaseerd op prognoses, dient de beroepsbeoefenaar de toekomstgerichte informatie te onderzoeken teneinde vast te stellen dat:
 
 liggende best mogelijke schattingen (“best estimate assumptions”)
 in het verslag van het bestuursorgaan niet onredelijk zijn en, in
@@ -708,9 +627,7 @@ belang op passende wijze zijn toegelicht in het verslag van het
 bestuursorgaan met inbegrip van een duidelijke vermelding of het
 best mogelijke schattingen (“best estimate assumptions”) en/of
 “theoretische assumpties” (“hypothetical assumptions”) betreft;
-d. in voorkomend geval, de toekomstgerichte financiële informatie
-
-opgesteld is op dezelfde basis als de historische financiële informatie, met toepassing van adequate grondslagen voor
+d. in voorkomend geval, de toekomstgerichte financiële informatie opgesteld is op dezelfde basis als de historische financiële informatie, met toepassing van adequate grondslagen voor
 financiële verslaggeving. Deze grondslagen zullen in principe
 dezelfde zijn als deze die worden gehanteerd voor het opstellen
 van de jaarrekening, behoudens in het geval van een adequate
@@ -721,16 +638,12 @@ verantwoording in het verslag van het bestuursorgaan. In dit
 laatste geval zal aldus elke wijziging in de gehanteerde grondslagen voor financiële verslaggeving sedert de laatst
 uitgebrachte jaarrekening worden toegelicht, alsook de redenen financiële informatie.
 
-45. De beroepsbeoefenaar dient te beoordelen in welke mate het steunen op de
-
-historische financiële informatie van de entiteit gerechtvaardigd is en dient, op
+45. De beroepsbeoefenaar dient te beoordelen in welke mate het steunen op de historische financiële informatie van de entiteit gerechtvaardigd is en dient, op
 werkzaamheden te bepalen, in voorkomend geval, met de aard van een audit,
 teneinde te bepalen of de gebruikte historische financiële informatie als basis
 kan dienen voor de toekomstgerichte financiële informatie.  (par. A45-A47)
 
-46. In de mate dat er wordt gesteund op toekomstgerichte financiële informatie,
-
-dient de beroepsbeoefenaar bij het bepalen van de aard, de timing en de omvang te betrekken:
+46. In de mate dat er wordt gesteund op toekomstgerichte financiële informatie, dient de beroepsbeoefenaar bij het bepalen van de aard, de timing en de omvang te betrekken:
 
 (a) de kans op afwijkingen van materieel belang;
 (b) de opgedane kennis bij eerdere opdrachten;
@@ -740,9 +653,7 @@ dient de beroepsbeoefenaar bij het bepalen van de aard, de timing en de omvang t
 door subjectieve factoren van de kant van het bestuursorgaan; en
 (d) het adequaat zijn en betrouwbaarheid van de onderliggende gegevens.
 
-47. De beroepsbeoefenaar dient de herkomst en de betrouwbaarheid van de
-
-informatie te beoordelen die ten grondslag ligt aan de best mogelijke
+47. De beroepsbeoefenaar dient de herkomst en de betrouwbaarheid van de informatie te beoordelen die ten grondslag ligt aan de best mogelijke
 schattingen in het verslag van het bestuursorgaan. Voldoende en geschikte
 informatie over de onderbouwing van dergelijke veronderstellingen kan worden
 ontleend aan interne en/of externe bronnen, met inbegrip van een beoordeling
@@ -752,11 +663,11 @@ de beroepsbeoefenaar te beoordelen of de veronderstellingen zijn gebaseerd op
 48. Hoewel de omvang van de te verkrijgen onderbouwende informatie over het voornemen van het bestuursorgaan een kwestie van professionele
 oordeelsvorming is, dient de beroepsbeoefenaar volgende werkzaamheden uit te voeren, voor zover van toepassing:
 
-• een beoordeling van de uitvoering door het bestuursorgaan van zijn in het verleden uitgesproken intenties;
-• een beoordeling van schriftelijke plannen en andere documentatie, met
+- een beoordeling van de uitvoering door het bestuursorgaan van zijn in het verleden uitgesproken intenties;
+- een beoordeling van schriftelijke plannen en andere documentatie, met
 inbegrip van, indien van toepassing, formeel goedgekeurde budgetten, autorisaties of notulen;
-• een verzoek om inlichtingen bij het bestuursorgaan omtrent zijn redenen voor een bepaalde handeling;
-• een evaluatie van gebeurtenissen die zich hebben voorgedaan tussen de •
+- een verzoek om inlichtingen bij het bestuursorgaan omtrent zijn redenen voor een bepaalde handeling;
+- een evaluatie van gebeurtenissen die zich hebben voorgedaan tussen de •
 handeling uit te voeren gegeven de economische omstandigheden van de
 entiteit, met inbegrip van de implicaties van haar bestaande verbintenissen.
 49. De beroepsbeoefenaar dient bij het evalueren van de redelijkheid van de in het
@@ -766,19 +677,17 @@ verslag van het bestuursorgaan gehanteerde veronderstellingen die ten
 
 grondslag liggen aan schattingen van de reële waarde onder meer rekening te houden met de volgende punten:
 
-• indien relevant, of en, zo ja, hoe het bestuursorgaan marktspecifieke inputs heeft opgenomen in de ontwikkeling van veronderstellingen;
-• of de veronderstellingen consistent zijn met waarneembare marktomstandigheden en met de kenmerken van het actief dat of de verplichting die tegen reële waarde wordt gewaardeerd;
-• of de bronnen van veronderstellingen van marktpartijen relevant en
+- indien relevant, of en, zo ja, hoe het bestuursorgaan marktspecifieke inputs heeft opgenomen in de ontwikkeling van veronderstellingen;
+- of de veronderstellingen consistent zijn met waarneembare marktomstandigheden en met de kenmerken van het actief dat of de verplichting die tegen reële waarde wordt gewaardeerd;
+- of de bronnen van veronderstellingen van marktpartijen relevant en
 betrouwbaar zijn, alsmede hoe het bestuursorgaan de te hanteren
 veronderstellingen heeft gekozen als er verschillende veronderstellingen van marktpartijen bestaan;
-• indien passend, of en, zo ja, op welke wijze het bestuursorgaan rekening
+- indien passend, of en, zo ja, op welke wijze het bestuursorgaan rekening
 heeft gehouden met gehanteerde veronderstellingen in, of informatie over, vergelijkbare transacties, activa of verplichtingen.
 
 (par. A49-A51)
 
-50. De beroepsbeoefenaar dient de periode waarop de toekomstgerichte
-
-financiële informatie betrekking heeft te beoordelen. De beroepsbeoefenaar
+50. De beroepsbeoefenaar dient de periode waarop de toekomstgerichte financiële informatie betrekking heeft te beoordelen. De beroepsbeoefenaar
 dient zich ervan te vergewissen dat de datum vermeld is waarop de
 toekomstgerichte financiële informatie werd opgesteld. Het bestuursorgaan
 moet bevestigen dat de veronderstellingen tot op die datum aanvaardbaar zijn,
@@ -791,22 +700,14 @@ zelfs al zouden de onderliggende gegevens in een eerdere tijdsperiode zijn verza
 
 ## VEREISTEN TOEPASSINGSMODALITEITEN
 
-51. De beroepsbeoefenaar dient de nodige schriftelijke bevestigingen van het
-
-bestuursorgaan te verkrijgen. De te verkrijgen bevestigingen zijn afhankelijk
+51. De beroepsbeoefenaar dient de nodige schriftelijke bevestigingen van het bestuursorgaan te verkrijgen. De te verkrijgen bevestigingen zijn afhankelijk
 van de omstandigheden en worden aangepast aan de aard van de opdracht.
 (par. A53, zie ook par. 21)
 
-52. Indien het bestuursorgaan één of meer van de gevraagde schriftelijke
+52. Indien het bestuursorgaan één of meer van de gevraagde schriftelijke bevestigingen niet verschaft, dient de beroepsbeoefenaar:
 
-bevestigingen niet verschaft, dient de beroepsbeoefenaar:
-
-(a) In voorkomend geval de aangelegenheid met het bestuursorgaan te
-
-bespreken;
-(b) De integriteit van het bestuursorgaan te herevalueren, en dient hij het effect
-
-schriftelijke) bevestigingen in het algemeen te evalueren; en
+(a) In voorkomend geval de aangelegenheid met het bestuursorgaan te bespreken;
+(b) De integriteit van het bestuursorgaan te herevalueren, en dient hij het effect schriftelijke) bevestigingen in het algemeen te evalueren; en
 (c) De passende actie te ondernemen, met inbegrip van het bepalen van het mogelijke effect op de conclusie in zijn verslag.
 
 53. De beroepsbeoefenaar dient een onthouding te formuleren indien:
@@ -814,9 +715,7 @@ schriftelijke) bevestigingen in het algemeen te evalueren; en
 (a) de beroepsbeoefenaar concludeert dat er voldoende twijfel bestaat over de
 integriteit van het bestuursorgaan omdat en in zover dat de verkregen
 schriftelijke bevestigingen niet betrouwbaar zijn (par. A54); of
-(b) het bestuursorgaan geen enkele van de gevraagde bevestiging heeft
-
-verschaft.
+(b) het bestuursorgaan geen enkele van de gevraagde bevestiging heeft verschaft.
 
 ## OPENBARE RAADPLEGING JUNI 2025 37/64
 
@@ -824,27 +723,19 @@ verschaft.
 
 ## VEREISTEN TOEPASSINGSMODALITEITEN
 
-54. Bij het vormen van de conclusie over de staat van activa en passiva dient de
-
-beroepsbeoefenaar, naar aanleiding van zijn werkzaamheden, een beperkte mate van zekerheid te verkrijgen over de vraag of:
+54. Bij het vormen van de conclusie over de staat van activa en passiva dient de beroepsbeoefenaar, naar aanleiding van zijn werkzaamheden, een beperkte mate van zekerheid te verkrijgen over de vraag of:
 
 (i) de staat van activa en passiva, in alle van materieel belang zijnde opzichten, is opgesteld conform het boekhoudkundig referentiestelsel; en (ii)
 het nettoactief in alle van materieel belang zijnde opzichten is overgewaardeerd.
 
-55. De conclusie van de beroepsbeoefenaar dient de vorm aan te nemen van een
-
-conclusie zonder voorbehoud of een aangepaste conclusie, zijnde:
+55. De conclusie van de beroepsbeoefenaar dient de vorm aan te nemen van een conclusie zonder voorbehoud of een aangepaste conclusie, zijnde:
 
 - een conclusie met voorbehoud;
 - een afkeurende conclusie; of - een onthouding van conclusie.
 
-56. Als de beroepsbeoefenaar verwacht zijn conclusie aan te passen, dient hij de
+56. Als de beroepsbeoefenaar verwacht zijn conclusie aan te passen, dient hij de aanpassing hebben geleid aan het bestuursorgaan mee te delen.
 
-aanpassing hebben geleid aan het bestuursorgaan mee te delen.
-
-57. Wanneer het nettoactief kleiner is dan het in de staat van activa en passiva
-
-opgenomen kapitaal, dan dient het verschil tussen het nettoactief en het in de
+57. Wanneer het nettoactief kleiner is dan het in de staat van activa en passiva opgenomen kapitaal, dan dient het verschil tussen het nettoactief en het in de
 staat van activa en passiva opgenomen kapitaal, vermeerderd met alle
 reserves die krachtens de wet of de statuten niet mogen worden uitgekeerd
 (art. 14:3, tweede lid juncto art. 14:4, tweede lid WVV), vermeld te worden in de
@@ -855,17 +746,13 @@ passiva niet besluit met het verschil dan dient de beroepsbeoefenaar in zijn
 
 conclusie te vermelden dat de staat van activa en passiva niet besluit met het verschil zoals vereist door artikel 14:4 WVV. (par. A55)
 
-58. De beroepsbeoefenaar dient een conclusie zonder voorbehoud over de staat
-
-van activa en passiva te formuleren wanneer hij, op grond van de uitgevoerde
+58. De beroepsbeoefenaar dient een conclusie zonder voorbehoud over de staat van activa en passiva te formuleren wanneer hij, op grond van de uitgevoerde
 werkzaamheden, een beperkte mate van zekerheid heeft verkregen teneinde
 te kunnen concluderen dat er niets onder zijn aandacht is gekomen dat hem
 ertoe leidt te veronderstellen dat de staat van activa en passiva niet, in alle van materieel belang zijnde opzichten, in overeenstemming met de
 boekhoudreglementering is opgesteld en dat het nettoactief, in alle van materieel belang zijnde opzichten,  is overgewaardeerd .
 
-59. De beroepsbeoefenaar dient een conclusie met voorbehoud of een afkeurende
-
-conclusie te formuleren wanneer hij, op basis van de uitgevoerde
+59. De beroepsbeoefenaar dient een conclusie met voorbehoud of een afkeurende conclusie te formuleren wanneer hij, op basis van de uitgevoerde
 werkzaamheden en de verkregen onderbouwende informatie, vaststelt dat de
 staat van activa en passiva een afwijking van materieel belang (zie par. A23) bevat.
 
@@ -873,18 +760,14 @@ staat van activa en passiva een afwijking van materieel belang (zie par. A23) be
 heden), die aanleiding geven tot de conclusie met voorbehoud, van materieel
 belang, maar niet van diepgaande invloed zijn op de staat van activa en passiva.
 
-61. De beroepsbeoefenaar dient een afkeurende conclusie te formuleren wanneer
-
-geeft (geven) tot de afkeurende conclusie, zowel van materieel belang als van
+61. De beroepsbeoefenaar dient een afkeurende conclusie te formuleren wanneer geeft (geven) tot de afkeurende conclusie, zowel van materieel belang als van
 
 ## OPENBARE RAADPLEGING JUNI 2025 39/64
 
 diepgaande invloed zijn op de staat van activa en passiva en het nettoactief,
 in alle van materieel belang zijnde opzichten, overgewaardeerd is.
 
-62. De beroepsbeoefenaar dient een onthouding van conclusie te formuleren
-
-indien:
+62. De beroepsbeoefenaar dient een onthouding van conclusie te formuleren indien:
 
 - hij niet in staat is geweest om voldoende onderbouwende informatie te verkrijgen om zijn beoordeling uit te voeren; of - de onzekerheden een te groot deel van deze informatie
 beïnvloeden, zodat hij geen conclusie kan vormen betreffende het nettoactief.
@@ -893,56 +776,40 @@ overschrijdende omzetting
 
 ## VEREISTEN TOEPASSINGSMODALITEITEN
 
-63. Wanneer de beroepsbeoefenaar op grond van zijn werkzaamheden een
-
-conclusie zonder voorbehoud formuleert, dient hij aan te geven dat niets
+63. Wanneer de beroepsbeoefenaar op grond van zijn werkzaamheden een conclusie zonder voorbehoud formuleert, dient hij aan te geven dat niets
 onder zijn aandacht is gekomen dat hem ertoe aanzet van mening te zijn dat:
-• de geldelijke vergoeding, in alle van materieel belang zijnde opzichten, niet relevant en redelijk is; en dat •
+- de geldelijke vergoeding, in alle van materieel belang zijnde opzichten, niet relevant en redelijk is; en dat •
 de gebruikte waarderingsmethoden door het bestuursorgaan, in alle van materieel belang zijnde opzichten, niet passend zijn.
 
-64. De conclusie van de beroepsbeoefenaar over de relevantie en het redelijk
-
-karakter van de geldelijke vergoeding dient de vorm aan te nemen van een
+64. De conclusie van de beroepsbeoefenaar over de relevantie en het redelijk karakter van de geldelijke vergoeding dient de vorm aan te nemen van een
 conclusie zonder voorbehoud of, een aangepaste conclusie, zijnde :
 
 - een afkeurende conclusie; of - een onthouding van conclusie.
 
-65. Als de beroepsbeoefenaar verwacht zijn conclusie aan te passen, dient hij de
-
-aanpassing hebben geleid aan het bestuursorgaan mee te delen.
+65. Als de beroepsbeoefenaar verwacht zijn conclusie aan te passen, dient hij de aanpassing hebben geleid aan het bestuursorgaan mee te delen.
 
 ## OPENBARE RAADPLEGING JUNI 2025 40/64
 
-66. De beroepsbeoefenaar dient een afkeurende conclusie tot uitdrukking te
-
-brengen ten aanzien van de geldelijke vergoeding wanneer hij, op grond van
+66. De beroepsbeoefenaar dient een afkeurende conclusie tot uitdrukking te brengen ten aanzien van de geldelijke vergoeding wanneer hij, op grond van
 de uitgevoerde werkzaamheden, concludeert dat één of meerdere van de
 methoden als niet redelijk en niet passend moeten worden beschouwd, of wanneer zij op niet correcte wijze werd(en) toegepast.
 
-67. Een afkeurende conclusie wordt ook tot uitdrukking gebracht in het geval dat
-
-de beroepsbeoefenaar een van materieel belang zijnde onzekerheid
+67. Een afkeurende conclusie wordt ook tot uitdrukking gebracht in het geval dat de beroepsbeoefenaar een van materieel belang zijnde onzekerheid
 identificeert waarmee geen rekening werd gehouden bij het vaststellen van de
 geldelijke vergoeding, voor zover deze onzekerheid tevens van materieel belang is voor de geldelijke vergoeding.
 
-68. De beroepsbeoefenaar dient een onthouding van conclusie te formuleren
-
-indien:
+68. De beroepsbeoefenaar dient een onthouding van conclusie te formuleren indien:
 - hij niet in staat is geweest om voldoende onderbouwende informatie te waarderingsmethoden; of -
 de onzekerheden een te groot deel van deze informatie beïnvloeden of
 waarmee wegens het aleatoir karakter ervan geen rekening kon worden gehouden, zodat hij geen conclusie kan vormen. (par. A56).
 
 ## VI.3. Verslag VEREISTEN TOEPASSINGSMODALITEITEN
 
-69. De beroepsbeoefenaar dient een schriftelijk verslag op te stellen naar
-
-aanleiding van zijn werkzaamheden door gebruik te maken van de modelverslagen gehecht aan onderhavige norm (bijlage 3).
+69. De beroepsbeoefenaar dient een schriftelijk verslag op te stellen naar aanleiding van zijn werkzaamheden door gebruik te maken van de modelverslagen gehecht aan onderhavige norm (bijlage 3).
 
 70. Het verslag dient te worden gericht aan de algemene vergadering, of in het geval van een stichting aan het bestuursorgaan.
 
-71. Het verslag dient, in onderscheiden secties met passende titel, volgende
-
-elementen te vermelden:
+71. Het verslag dient, in onderscheiden secties met passende titel, volgende elementen te vermelden:
 
 ## OPENBARE RAADPLEGING JUNI 2025 41/64
 
@@ -959,25 +826,17 @@ betreft,: een beschrijving van de verantwoordelijkheden van het
 inherente beperkingen van de reikwijdte van de beoordeling worden aangegeven;
 (g) de conclusie van de beroepsbeoefenaar, waarbij een beperkte mate van zekerheid wordt verstrekt;
 (h) de basis voor de conclusie van de beroepsbeoefenaar, waarbij wordt verwezen naar onderhavige norm;
-(i) in voorkomend geval, een paragraaf ter benadrukking van bepaalde
-
-aangelegenheden of een paragraaf inzake overige aangelegenheden; (par.
+(i) in voorkomend geval, een paragraaf ter benadrukking van bepaalde aangelegenheden of een paragraaf inzake overige aangelegenheden; (par.
 A59)
-(j) een vermelding dat het verslag werd opgesteld in uitvoering van het
-
-toepasselijk wetsartikel en niet mag gebruikt worden voor andere doeleinden (par. A60).
+(j) een vermelding dat het verslag werd opgesteld in uitvoering van het toepasselijk wetsartikel en niet mag gebruikt worden voor andere doeleinden (par. A60).
 
 Het verslag dient te worden gedagtekend en ondertekend door de beroepsbeoefenaar.
 
 ## OPENBARE RAADPLEGING JUNI 2025 42/64
 
-72. De beroepsbeoefenaar dient de staat van activa en passiva, zoals toegevoegd
+72. De beroepsbeoefenaar dient de staat van activa en passiva, zoals toegevoegd bij het omzettingsvoorstel en die hij beoordeeld heeft, te voegen bij zijn verslag of op te nemen in zijn verslag.
 
-bij het omzettingsvoorstel en die hij beoordeeld heeft, te voegen bij zijn verslag of op te nemen in zijn verslag.
-
-73. In de sectie “verantwoordelijkheden van de beroepsbeoefenaar” dient de
-
-beroepsbeoefenaar aan te geven dat zijn werkzaamheden zijn uitgevoerd
+73. In de sectie “verantwoordelijkheden van de beroepsbeoefenaar” dient de beroepsbeoefenaar aan te geven dat zijn werkzaamheden zijn uitgevoerd
 overeenkomstig onderhavige norm en er inzonderheid op gericht zijn na te
 gaan of er geen elementen zijn waaruit blijkt dat het nettoactief, zoals dat blijkt
 uit de staat van activa en passiva, opgemaakt door het bestuursorgaan van de
@@ -996,9 +855,7 @@ vergoeding, in alle van materieel belang zijnde opzichten, niet relevant en rede
 impact van de niet-gecorrigeerde afwijkingen van materieel belang die per
 saldo aanleiding geven tot de overwaardering van het nettoactief. (par. A61)
 
-76. Bij de omzetting van een entiteit, opgericht in één van de rechtsvormen
-
-vennootschap met een andere rechtsvorm of in een (I)VZW, de omzetting van
+76. Bij de omzetting van een entiteit, opgericht in één van de rechtsvormen vennootschap met een andere rechtsvorm of in een (I)VZW, de omzetting van
 een VZW in een erkende CVSO of een CV erkend als SO, de omzetting van een
 VZW in een (I)VZW en omgekeerd, de omzetting van een stichting en de emigratie van een in dit wetboek geregelde vennootschap met
 vereniging of stichting dient de beroepsbeoefenaar zijn verslag over te maken
@@ -1010,9 +867,7 @@ deze wettelijke termijn te eerbiedigen, dient hij dat te vermelden in zijn versl
 aan de algemene vergadering of, ingeval van een stichting, het
 bestuursorgaan, met melding, in voorkomend geval, van de wijze waarop zijn werkzaamheden daardoor zijn beïnvloed.
 
-77. De beroepsbeoefenaar die het bestaan vaststelt van een inbreuk op de
-
-bepalingen van het Wetboek van economisch recht, artikel III.83 e.v., de
+77. De beroepsbeoefenaar die het bestaan vaststelt van een inbreuk op de bepalingen van het Wetboek van economisch recht, artikel III.83 e.v., de
 statuten, het WVV of het uitvoeringsbesluit op het WVV van 29 april 2019,
 dient, onverminderd formele aspecten van ondergeschikt belang en indien
 deze een directe invloed heeft op de verrichting, hiervan melding te maken in
@@ -1020,9 +875,7 @@ zijn verslag, behoudens wanneer die inbreuk het voorwerp zou uitmaken van een ge
 
 ## Indien de beroepsbeoefenaar de commissaris is, dient hij in het kader van zijn
 
-78. De beroepsbeoefenaar dient in de sectie “basis voor de conclusie” de waarde
-
-die aan het nettoactief werd weerhouden te vermelden. Hij dient ook de wijze
+78. De beroepsbeoefenaar dient in de sectie “basis voor de conclusie” de waarde die aan het nettoactief werd weerhouden te vermelden. Hij dient ook de wijze
 van berekening van het nettoactief te vermelden, teneinde te bepalen of deze niet is overgewaardeerd.
 
 79. Wanneer de verrichting een grensoverschrijdende verrichting (emigratie)
@@ -1031,9 +884,7 @@ betreft, dient de beroepsbeoefenaar in de sectie “basis voor de conclusie” d
 Hij dient ook de wijze van berekening van de geldelijke vergoeding te
 vermelden, teneinde te bepalen of deze relevant en redelijk is.
 
-80. Indien de beroepsbeoefenaar overeenkomstig paragraaf 53 van onderhavige
-
-norm een onthouding van conclusie formuleert, dient hij de sectie betreffende
+80. Indien de beroepsbeoefenaar overeenkomstig paragraaf 53 van onderhavige norm een onthouding van conclusie formuleert, dient hij de sectie betreffende
 zijn verantwoordelijkheden aan te passen door aan te geven dat hij niet in staat
 is geweest om voldoende onderbouwende informatie te verkrijgen nodig voor
 
@@ -1050,9 +901,7 @@ hij niet in staat is geweest om voldoende onderbouwde informatie te verkrijgen
 voor het formuleren van een conclusie over de geldelijke vergoeding of dat de
 onzekerheden een te groot deel van deze informatie beïnvloeden.
 
-82. Wanneer de beroepsbeoefenaar op grond van zijn werkzaamheden een
-
-afkeurende conclusie of een onthouding van conclusie formuleert, dient hij in
+82. Wanneer de beroepsbeoefenaar op grond van zijn werkzaamheden een afkeurende conclusie of een onthouding van conclusie formuleert, dient hij in
 aangelegenheden die hebben geleid tot een aanpassing van zijn conclusie.
 
 83. Wanneer de verrichting een grensoverschrijdende verrichting (emigratie)
@@ -1061,9 +910,7 @@ betreft en de beroepsbeoefenaar op grond van zijn werkzaamheden een
 afkeurende conclusie of een onthouding van conclusie formuleert, dient hij in
 aangelegenheden die hebben geleid tot een aanpassing van zijn conclusie..
 
-84. Als de beroepsbeoefenaar in de loop van zijn werkzaamheden kennis krijgt
-
-die een betekenisvol effect kunnen hebben op de staat van activa en passiva
+84. Als de beroepsbeoefenaar in de loop van zijn werkzaamheden kennis krijgt die een betekenisvol effect kunnen hebben op de staat van activa en passiva
 of het bedrag van het nettoactief, dan dient hij de impact ervan op zijn conclusie over de staat van activa en passiva te beoordelen.
 
 ## OPENBARE RAADPLEGING JUNI 2025 45/64
@@ -1097,14 +944,10 @@ Geachte mevrouw, Geachte heer,
 
 [Bedrijfsrevisor/Gecertificeerd accountant:
 U hebt ons in onze hoedanigheid van bedrijfsrevisor/gecertificeerd accountant aangesteld om, overeenkomstig [artikelen [14:4, 14:21, 14:32,
-14:47, 14:57 ; 14:67, 14:74] van het Wetboek van vennootschappen en verenigingen, het verslag over de
-
-van de geldelijke vergoeding], zoals opgenomen in het [omzettingsvoorstel] en over het passend zijn van de toegepaste waarderingsmethoden op te stellen.
+14:47, 14:57 ; 14:67, 14:74] van het Wetboek van vennootschappen en verenigingen, het verslag over de van de geldelijke vergoeding], zoals opgenomen in het [omzettingsvoorstel] en over het passend zijn van de toegepaste waarderingsmethoden op te stellen.
 
 [xx/xx/202x] als commissaris van de vennootschap benoemd. In die hoedanigheid zijn wij ook
-verantwoordelijk voor het opstellen van het verslag over de staat van activa en passiva opgesteld door
-
-in het [omzettingsvoorstel] en over het passend zijn van de toegepaste waarderingsmethoden
+verantwoordelijk voor het opstellen van het verslag over de staat van activa en passiva opgesteld door in het [omzettingsvoorstel] en over het passend zijn van de toegepaste waarderingsmethoden
 
 Wij verstrekken u deze brief ter bevestiging van ons begrip van de voorwaarden en doelstellingen van de ons toevertrouwde opdracht.
 
@@ -1172,9 +1015,7 @@ gecertificeerd accountant bij de omzetting van een rechtsvorm
 een [rechtsvorm kapitaalhoudende entiteit (4)] naar een [rechtsvorm kapitaalloze vennootschap]
 
 Overeenkomstig artikel [XX] van het Wetboek van vennootschappen en verenigingen brengen wij in onze
-hoedanigheid van [commissaris] [bedrijfsrevisor / gecertificeerd accountant] het verslag uit gericht aan
-
-passiva in het kader van de nationale omzetting van [rechtsvorm kapitaalhoudende entiteit] [X] naar [rechtsvorm kapitaalloze vennootschap] [Y].
+hoedanigheid van [commissaris] [bedrijfsrevisor / gecertificeerd accountant] het verslag uit gericht aan passiva in het kader van de nationale omzetting van [rechtsvorm kapitaalhoudende entiteit] [X] naar [rechtsvorm kapitaalloze vennootschap] [Y].
 Wij werden voor deze opdracht door het bestuursorgaan aangesteld op datum van XX en hebben de
 beoordeling uitgevoerd van de hierbij gevoegde staat van activa en passiva per xx/xx/xx van de
 
@@ -1289,13 +1130,9 @@ Bijlagen bij het verslag [Ondertekende staat van activa en passiva, met inbegrip
 [rechtsvorm kapitaalloze vennootschap] [X] naar [rechtsvorm kapitaalhoudende entiteit (9)] [Y]
 
 Overeenkomstig artikel [XX] van het Wetboek van vennootschappen en verenigingen brengen wij in onze
-hoedanigheid van [commissaris] [bedrijfsrevisor / gecertificeerd accountant] het verslag uit gericht aan
-
-en passiva in het kader van de nationale omzetting van [rechtsvorm kapitaalloze vennootschap] [X] naar [rechtsvorm kapitaalhoudende entiteit [7]] [Y].
+hoedanigheid van [commissaris] [bedrijfsrevisor / gecertificeerd accountant] het verslag uit gericht aan en passiva in het kader van de nationale omzetting van [rechtsvorm kapitaalloze vennootschap] [X] naar [rechtsvorm kapitaalhoudende entiteit [7]] [Y].
 Wij werden voor deze opdracht door het bestuursorgaan [of ingeval van een vennootschap onder firma
-en een commanditaire vennootschap door de algemene vergadering (art. 14:4 WW) ] aangesteld op
-
-opgesteld in overeenstemming met het van toepassing zijnde boekhoudkundig referentiestelsel.
+en een commanditaire vennootschap door de algemene vergadering (art. 14:4 WW) ] aangesteld op opgesteld in overeenstemming met het van toepassing zijnde boekhoudkundig referentiestelsel.
 
 ## Conclusie
 
@@ -1402,9 +1239,7 @@ Bijlagen bij het verslag [Ondertekende staat van activa en passiva, met inbegrip
 een [rechtsvorm kapitaalhoudende entiteit (14)] naar een [rechtsvorm kapitaalhoudende entiteit]
 
 Overeenkomstig artikel [XX] van het Wetboek van vennootschappen en verenigingen brengen wij in onze
-hoedanigheid van [commissaris] [bedrijfsrevisor / gecertificeerd accountant] het verslag uit gericht aan
-
-passiva in het kader van de nationale omzetting van [rechtsvorm kapitaalhoudende entiteit] [X] naar [rechtsvorm kapitaalhoudende entiteit] [Y].
+hoedanigheid van [commissaris] [bedrijfsrevisor / gecertificeerd accountant] het verslag uit gericht aan passiva in het kader van de nationale omzetting van [rechtsvorm kapitaalhoudende entiteit] [X] naar [rechtsvorm kapitaalhoudende entiteit] [Y].
 Wij werden voor deze opdracht door het bestuursorgaan aangesteld op datum van XX en hebben de
 beoordeling uitgevoerd van de hierbij gevoegde staat van activa en passiva per xx/xx/xx van de
 
@@ -1518,13 +1353,9 @@ Bijlagen bij het verslag [Ondertekende staat van activa en passiva, met inbegrip
 een [rechtsvorm kapitaalloze vennootschap] naar een [rechtsvorm kapitaalloze vennootschap] [Y]
 
 Overeenkomstig artikel [XX] van het Wetboek van vennootschappen en verenigingen brengen wij in onze
-hoedanigheid van [commissaris] [bedrijfsrevisor / gecertificeerd accountant] het verslag uit gericht aan
-
-activa en passiva in het kader van de nationale omzetting van [rechtsvorm kapitaalloze vennootschap] [X] naar [rechtsvorm kapitaalloze vennootschap] [Y].
+hoedanigheid van [commissaris] [bedrijfsrevisor / gecertificeerd accountant] het verslag uit gericht aan activa en passiva in het kader van de nationale omzetting van [rechtsvorm kapitaalloze vennootschap] [X] naar [rechtsvorm kapitaalloze vennootschap] [Y].
 Wij werden voor deze opdracht door het bestuursorgaan [of ingeval van een vennootschap onder firma
-en een commanditaire vennootschap door de algemene vergadering (art. 14:4 WW)] aangesteld op
-
-opgesteld in overeenstemming met het van toepassing zijnde boekhoudkundig referentiestelsel.
+en een commanditaire vennootschap door de algemene vergadering (art. 14:4 WW)] aangesteld op opgesteld in overeenstemming met het van toepassing zijnde boekhoudkundig referentiestelsel.
 
 ## Conclusie
 
@@ -1653,12 +1484,12 @@ niet mogen worden uitgekeerd. Het verschil bedraagt [BEDRAG] EUR.
 Conclusie met beperkte mate van zekerheid betreffende de geldelijke vergoeding
 Op basis van onze werkzaamheden, is niets onder onze aandacht gekomen dat ons ertoe aanzet van mening te zijn dat:
 
-• de gebruikte waarderingsmethoden door het bestuursorgaan, zoals aangenomen in het
+- de gebruikte waarderingsmethoden door het bestuursorgaan, zoals aangenomen in het
 omzettingsvoorstel, in alle van materieel belang zijnde opzichten, niet passend zijn;
-•
+-
 
 methoden is gehecht, in alle van materieel belang zijnde opzichten, niet relevant en redelijk is.
-• de geldelijke vergoeding voor houders van aandelen [en/of winstbewijzen], in alle van materieel belang zijnde opzichten, niet relevant en redelijk is;
+- de geldelijke vergoeding voor houders van aandelen [en/of winstbewijzen], in alle van materieel belang zijnde opzichten, niet relevant en redelijk is;
 
 vergoeding
 

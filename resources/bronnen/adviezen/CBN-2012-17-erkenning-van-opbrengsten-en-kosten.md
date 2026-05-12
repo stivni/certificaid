@@ -23,31 +23,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:10Z'
+  generated_at: '2026-05-12T23:38:20Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (8 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 7
-      max_section_chars: 6345
-      file_size_chars: 15738
+      max_section_chars: 6343
+      file_size_chars: 15736
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (8 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2012/17 - Erkenning van opbrengsten en kosten
 
@@ -116,7 +111,7 @@ Naar het oordeel van de CBN moet de opbrengst die voortvloeit uit de verkoop van
 
 De kosten van het jaar X die rechtstreeks voortvloeien uit de organisatie van het concert zullen worden geboekt in het jaar X maar worden overgedragen naar het jaar X+1 via de overlopende rekening van het actief 490 *Over te dragen kosten.*
 
-In het jaar X+1 wordt de opbrengst uit de verkoop van de plaatsen daadwerkelijk geboekt (door debet van de rekening 493* Over te dragen opbrengsten*) alsook de kosten die worden gemaakt om het concert te organiseren, in het jaar X (door credit van de rekening 490* Over te dragen kosten*) en in het jaar X+1.
+In het jaar X+1 wordt de opbrengst uit de verkoop van de plaatsen daadwerkelijk geboekt (door debet van de rekening 493*Over te dragen opbrengsten*) alsook de kosten die worden gemaakt om het concert te organiseren, in het jaar X (door credit van de rekening 490*Over te dragen kosten*) en in het jaar X+1.
 
 Laten we ook het geval beschouwen waarin een onderneming in het jaar X voor 5 jaar het uitsluitend gebruik overdraagt van een merk waarvan zij eigenaar is. Merk op dat dit merk niet wordt opgenomen in de activa van de balans van de onderneming.
 

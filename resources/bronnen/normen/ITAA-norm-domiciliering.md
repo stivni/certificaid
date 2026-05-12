@@ -25,43 +25,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:21:59Z'
+  generated_at: '2026-05-12T23:36:58Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "G3: Inline voetnoten op regels 162–169: '2', '© ITAA...', '3', '© ITAA...' zijn pagina-header/footer en voetnoot-content van de bron-PDF die midden in de body-tekst terecht zijn gekomen. Concrete nummers (2, 3, 4) plus copyright-footer door de body. Dit is een ETL-artefact (pagina-overgang niet gefilterd)."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232433
-      run_at: '2026-05-12T23:24:34Z'
+      run_id: 20260512-233943
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 4
-      max_section_chars: 7012
-      file_size_chars: 12696
+      max_section_chars: 6911
+      file_size_chars: 12393
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: "G3: Inline voetnoten op regels 162–169: '2', '© ITAA...', '3', '© ITAA...' zijn pagina-header/footer en voetnoot-content van de bron-PDF die midden in de body-tekst terecht zijn gekomen. Concrete nummers (2, 3, 4) plus copyright-footer door de body. Dit is een ETL-artefact (pagina-overgang niet gefilterd)."
-      concrete_problemen:
-        - regel: 162
-          categorie: G3
-          type: other
-          voorbeeld: 2\n  Hieronder wordt verstaan... 3 Artikel 2,12°... 4 Artikel 2,3°...
-        - regel: 167
-          categorie: A1
-          type: form-feed
-          voorbeeld: 3\n© ITAA – Norm betreffende... (pagina-footer midden in body)
-        - regel: 219
-          categorie: A1
-          type: form-feed
-          voorbeeld: 5\n    Conform artikel III.16... (pagina-footer)
 ---
                    ITAA
             INSTITUTE FOR TAX
@@ -124,11 +107,8 @@ DE ACTIVITEIT VAN DOMICILIËRING
     Conform deze bepaling, is de Raad van het Instituut bevoegd voor het uitvaardigen en openbaar
     maken van technische normen en aanbevelingen, specifiek voor de uitoefening van het beroep.
 
-1
     Conform de wet van 29 maart 2018 tot registratie van dienstenverleners aan vennootschappen.
 
-2
-© ITAA – Norm betreffende de verenigbaarheid van de activiteit van domiciliëring van entiteiten,
 goedgekeurd door de raad van 2 juli 2024.
     Dergelijke normen zijn bindend en worden in het Nederlands, het Frans en zo mogelijk in het Duits
     openbaar gemaakt op de website van het Instituut.
@@ -176,13 +156,10 @@ goedgekeurd door de raad van 2 juli 2024.
     viteiten onder artikelen 3 en 6 van de wet van 17 maart 2019, uit met respect voor de verplichtingen
     voortvloeiende uit de antiwitwaswetgeving en haar uitvoeringsbesluiten.
 
-2
   Hieronder wordt verstaan het deelnemen aan de effectieve transactie van de aan- of verkoop van de aandelen en niet de
 juridische bijstand in het kader hiervan. 3 Artikel 2,12° van de wet van 17 maart 2019 betreffende de beroepen van accountant
 en belastingadviseur. 4 Artikel 2,3° van de wet van 17 maart 2019 betreffende de beroepen van accountant en belastingadviseur.
 
-3
-© ITAA – Norm betreffende de verenigbaarheid van de activiteit van domiciliëring van entiteiten,
 goedgekeurd door de raad van 2 juli 2024.
     3) Voorwaarden eigen aan de domiciliëringsopdracht zoals omschreven in de definities onder 2°
     b) en c)
@@ -233,9 +210,6 @@ goedgekeurd door de raad van 2 juli 2024.
     adres van een accountant of belastingconsulent wordt opgeheven op de datum van de inwerking-
     treding van deze norm.
 
-5
     Conform artikel III.16 Wetboek van Economisch Recht.
 
-4
-© ITAA – Norm betreffende de verenigbaarheid van de activiteit van domiciliëring van entiteiten,
 goedgekeurd door de raad van 2 juli 2024.

@@ -18,31 +18,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:08Z'
+  generated_at: '2026-05-12T23:38:18Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 6
-      max_section_chars: 3283
-      file_size_chars: 10963
+      max_section_chars: 3282
+      file_size_chars: 10961
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2012/10 - Te verwaarlozen betekenis
 
@@ -55,7 +50,7 @@ Artikel 2 van de richtlijn 2009/49/EG werd in de Belgische wetgeving omgezet via
 
 De wet van 22 maart 2012 wijzigt artikel 110 van het Wetboek van Vennootschappen (hierna: W.Venn.): 
 
-“*Elke moedervennootschap moet een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening opstellen indien zij, alleen of gezamenlijk, één of meer dochterondernemingen controleert.”. *
+“*Elke moedervennootschap moet een geconsolideerde jaarrekening en een jaarverslag over de geconsolideerde jaarrekening opstellen indien zij, alleen of gezamenlijk, één of meer dochterondernemingen controleert.”.*
 
 Artikel 3 van de wet van 22 maart 2012 voegt meer bepaald aan dit artikel een tweede lid toe: 
 *"Een moedervennootschap die alleen maar dochterondernemingen heeft die, gelet op de beoordeling van het geconsolideerd vermogen, de geconsolideerde financiële positie of het geconsolideerd resultaat, individueel en tezamen, slechts van te verwaarlozen betekenis zijn, wordt vrijgesteld van de verplichting voorzien in het eerste lid.”.*
@@ -65,7 +60,7 @@ Een moedervennootschap dient derhalve vanaf 22 april 2012[^5] te worden vrijgest
 Aan de Commissie voor Boekhoudkundige Normen werd gevraagd om advies over het begrip “van te verwaarlozen betekenis” te geven en in het bijzonder de criteria te bepalen die de onderneming in overweging moet nemen voor de interpretatie ervan[^6].
 
 ## Artikel 107 van het koninklijk besluit van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (hierna: KB W.Venn.)
-Wat de afbakening van de consolidatiekring betreft, voorziet artikel 107, 1° van het KB W.Venn. nu reeds dat onder bepaalde voorwaarden een dochteronderneming buiten de consolidatie mag worden gelaten: *“indien zij slechts van te verwaarlozen betekenis is en haar opneming geen betekenis zou hebben voor de beoordeling van het geconsolideerd vermogen, de geconsolideerde financiële positie of het geconsolideerd resultaat; indien meer dochterondernemingen aan deze voorwaarde voldoen, mag van deze mogelijkheid slechts gebruik worden gemaakt indien zij tezamen aan de gestelde voorwaarde voldoen;”[^7]. *
+Wat de afbakening van de consolidatiekring betreft, voorziet artikel 107, 1° van het KB W.Venn. nu reeds dat onder bepaalde voorwaarden een dochteronderneming buiten de consolidatie mag worden gelaten: *“indien zij slechts van te verwaarlozen betekenis is en haar opneming geen betekenis zou hebben voor de beoordeling van het geconsolideerd vermogen, de geconsolideerde financiële positie of het geconsolideerd resultaat; indien meer dochterondernemingen aan deze voorwaarde voldoen, mag van deze mogelijkheid slechts gebruik worden gemaakt indien zij tezamen aan de gestelde voorwaarde voldoen;”[^7].*
 
 De wet van 22 maart 2012 wijzigt hierdoor weinig aan de bestaande toepassing in het Belgisch recht. Het begrip “van te verwaarlozen betekenis” is niet nieuw en wordt reeds jaren gebruikt in het Belgisch jaarrekeningenrecht. De geconsolideerde jaarrekening van een moedervennootschap met alleen maar dochterondernemingen van te verwaarlozen betekenis, bevatte ook vóór de wet van 22 maart 2012 geen informatie betreffende dergelijke dochterondernemingen. De moedervennootschap motiveerde dit als dusdanig in de toelichting van haar geconsolideerde jaarrekening[^8]. Het is steeds de verantwoordelijkheid van het bestuursorgaan van de moedervennootschap om het begrip “van te verwaarlozen betekenis” een concrete invulling te geven. 
 

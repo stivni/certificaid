@@ -18,31 +18,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:27Z'
+  generated_at: '2026-05-12T23:38:37Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (18 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 17
-      max_section_chars: 11063
-      file_size_chars: 20404
+      max_section_chars: 11061
+      file_size_chars: 20402
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (18 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2017/16 – Onbeperkt aansprakelijke vennoot: vermeldingen in de jaarrekening
 
@@ -71,7 +66,7 @@ Artikel 100, § 2 W.Venn. stelt evenwel de vennootschappen die deze informatie r
 - gebruik maken van het verkort schema of het microschema en deze informatie vrijwillig opnemen in de toelichting bij hun jaarrekening. 
 
 ## Overzicht van de te verstrekken gegevens
-De te verstrekken gegevens die door vennootschappen moeten worden openbaar gemaakt met betrekking tot de ondernemingen waarvoor zij onbeperkt aansprakelijk zijn, staan vermeld in artikel 100 W.Venn. en artikel 91 KB W.Venn. Deze gegevens bestaan enerzijds uit een lijst van de ondernemingen waarvoor onbeperkte aansprakelijkheid geldt (zie *infra*, punt A) en anderzijds de jaarrekening van diezelfde ondernemingen (zie* infra*, punt B). Beide artikelen bevatten tevens een aantal uitsluitingen op deze laatste openbaarmakingsverplichting (zie* infra*, punt C).
+De te verstrekken gegevens die door vennootschappen moeten worden openbaar gemaakt met betrekking tot de ondernemingen waarvoor zij onbeperkt aansprakelijk zijn, staan vermeld in artikel 100 W.Venn. en artikel 91 KB W.Venn. Deze gegevens bestaan enerzijds uit een lijst van de ondernemingen waarvoor onbeperkte aansprakelijkheid geldt (zie *infra*, punt A) en anderzijds de jaarrekening van diezelfde ondernemingen (zie*infra*, punt B). Beide artikelen bevatten tevens een aantal uitsluitingen op deze laatste openbaarmakingsverplichting (zie*infra*, punt C).
 
 ### Lijst van ondernemingen waarvoor onbeperkte aansprakelijkheid geldt
 De ondernemingen waarvoor de vennootschap onbeperkt aansprakelijk is, dienen te worden opgenomen in een lijst die moet worden gepubliceerd. De lijst van ondernemingen waarvoor de vennootschap onbeperkt aansprakelijk is, bevat voor elk van deze ondernemingen volgende gegevens: de naam, de zetel, de rechtsvorm en het ondernemingsnummer dat haar werd toegekend door de Kruispuntbank van Ondernemingen. De verplichting tot vermelding van het ondernemingsnummer geldt enkel indien het een Belgische onderneming betreft.[^9] 

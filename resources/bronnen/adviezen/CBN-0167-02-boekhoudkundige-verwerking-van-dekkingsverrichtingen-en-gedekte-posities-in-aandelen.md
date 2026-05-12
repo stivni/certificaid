@@ -40,35 +40,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:48Z'
+  generated_at: '2026-05-12T23:37:57Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: *N**iet in de balans opgenomen rechten en verplichtingen* op regel 22 - ETL-artefact: N is fout gescraped als * + ** mixing, veroorzaakt door inconsistent italic rendering.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:30Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 29
-      max_section_chars: 22789
-      file_size_chars: 39959
+      max_section_chars: 22781
+      file_size_chars: 39949
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: 'D4: *N**iet in de balans opgenomen rechten en verplichtingen* op regel 22 - ETL-artefact: N is fout gescraped als * + ** mixing, veroorzaakt door inconsistent italic rendering.'
-      concrete_problemen:
-        - regel: 22
-          categorie: D4
-          type: unclosed-bold
-          voorbeeld: '*N**iet in de balans opgenomen rechten en verplichtingen*'
 ---
 # Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen (Err., Bull. CBN, nr. 30, februari 1993, p. 8)
 
@@ -90,7 +81,7 @@ In die context dient te worden bepaald :
 
 De Commissie meent dat de voorkeur moet gaan naar de tweede visie. Belangrijk in dit verband is te wijzen op het voorschrift van artikel 18, tweede lid van het K.B. van 8 oktober 1976, dat voorziet in een uitzondering op het beginsel van de afzonderlijke waardering van elk vermogensbestanddeel, "voor actief bestanddelen met volkomen identieke technische of juridische kenmerken". In dit geval mogen globale waardeverminderingen worden toegepast. 
 
-Dit expliciete beginsel voor identieke actief bestanddelen kan evenwel volkomen logisch worden toegepast wanneer een zelfde bestanddeel in verschillende actiefposten van de jaarrekening en/of in de rekeningen *N**iet in de balans opgenomen rechten en verplichtingen* voorkomt. De voorwaarde is uiteraard dat deze diverse in de jaarrekening uitgedrukte relaties betrekking hebben op bestanddelen met volkomen identieke technische of juridische kenmerken.
+Dit expliciete beginsel voor identieke actief bestanddelen kan evenwel volkomen logisch worden toegepast wanneer een zelfde bestanddeel in verschillende actiefposten van de jaarrekening en/of in de rekeningen *Niet in de balans opgenomen rechten en verplichtingen* voorkomt. De voorwaarde is uiteraard dat deze diverse in de jaarrekening uitgedrukte relaties betrekking hebben op bestanddelen met volkomen identieke technische of juridische kenmerken.
 
 Naast dit argument dat steunt op het beginsel van voornoemd artikel 18 van het KB van 8 oktober 1976 is er nog een andere vaststelling. Aangezien het hier gaat om verrichtingen in tegengestelde zin op een zelfde onderliggend actief, zal de waarde van deze tegoeden, rechten en verplichtingen grotendeels in tegengestelde zin evolueren, zelfs al verloopt deze evolutie in de ene en de andere zin niet volkomen gelijk. Op grond van het vereiste getrouwe beeld in verband met het vermogen en de resultaten moet het uitgedrukte resultaat rekening houden met het neutraliserend effect van deze diverse verrichtingen
 
@@ -175,9 +166,7 @@ Dat is inzonderheid het geval indien de onderneming :
 
 	dat zij op termijn vast heeft verkocht. 
 
-een call-optie bezit om zich te dekken tegen een stijging van het onderliggende effect 
-
-dat zij op termijn vast heeft verkocht.
+een call-optie bezit om zich te dekken tegen een stijging van het onderliggende effect dat zij op termijn vast heeft verkocht.
 
 - in het geval a), wanneer de uitoefenprijs hoger ligt dan de koers van het onderliggende effect op de vervaldag van de optie; 
 - in het geval b), wanneer de uitoefenprijs lager ligt dan de koers van het onderliggende effect op de vervaldag van de optie. 
@@ -261,7 +250,7 @@ Afhankelijk van de periode ziet het resultaat er als volgt uit:
 | | | | | + 860| |
 | 100 x (0 - 3,4)| | | - 340| | |
 
-| **Samengevoegde werkelijke****** **resultaten**| | | | | |
+| **Samengevoegde werkelijke **resultaten**| | | | | |
 |---|---|---|---|---|---|
 | Vóór de dekkingsverrichting| + 160| -| -| -| + 160|
 | Sedert de dekkingsverrichting| - 2.410| + 2.050| - 530| + 1.520| - 890|

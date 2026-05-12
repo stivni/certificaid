@@ -26,31 +26,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:13Z'
+  generated_at: '2026-05-12T23:37:27Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:15Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:29Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:39Z'
       heading_count: 3
-      max_section_chars: 6782
-      file_size_chars: 12805
+      max_section_chars: 6780
+      file_size_chars: 12803
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:15Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 108/2 - Aanvragen tot afwijking : overzicht
 
@@ -99,9 +94,7 @@ De kwetsbaarheid van de onderneming werd beoordeeld volgens van elkaar verschill
 - om een onderneming die haar activiteiten uitoefent op zeer concurrerende markten, of om een onderneming die haar activiteiten uitoefent op sterk gesloten markten of zelfs op markten gekenmerkt door een toestand van monopolie of oligopolie; 
 - om een kleine onderneming, voornamelijk wanneer één der criteria waarin voorzien wordt door artikel 39 van het koninklijk besluit van 8 oktober 1976 overschreden werd, of integendeel, om een grote onderneming. 
 
-In de gevallen waarin de afwijking werd toegekend, bestond ze uit de samenvoeging van bepaalde rubrieken uit de exploitatierekening. Ze werd echter afhankelijk gemaakt van de mededeling aan de Nationale Bank van België - Balanscentrale, met het oog op de statistische verwerking, van 
-
-het bedrag der verschillende samengevoegde rubrieken.
+In de gevallen waarin de afwijking werd toegekend, bestond ze uit de samenvoeging van bepaalde rubrieken uit de exploitatierekening. Ze werd echter afhankelijk gemaakt van de mededeling aan de Nationale Bank van België - Balanscentrale, met het oog op de statistische verwerking, van het bedrag der verschillende samengevoegde rubrieken.
 
 Aan drie ondernemingen werd toegelaten bepaalde aangehouden participaties niet te vermelden in de balans of in de toelichting bij de jaarrekening. Om te vermijden dat de jaarrekening, op dit punt, misleidend zou zijn, werd deze toelating gebonden aan de voorwaarde dat de identiteitsvermelding van deze participaties zou vervangen worden door de vermelding «andere participaties», vergezeld van hun boekwaarde.
 

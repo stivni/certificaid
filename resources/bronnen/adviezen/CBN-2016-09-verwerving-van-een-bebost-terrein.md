@@ -19,31 +19,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:19Z'
+  generated_at: '2026-05-12T23:38:28Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 3
-      max_section_chars: 1428
-      file_size_chars: 3326
+      max_section_chars: 1427
+      file_size_chars: 3325
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2016/9 – Verwerving van een bebost terrein
 
@@ -66,7 +61,7 @@ NV XYZ betaalt 150 EUR voor een bebost terrein waarvan 1/3 van de aanschaffingsw
 | aan | 489 | Andere diverse schulden | | 150 |
 
 ## Aankoop bebost terrein zonder vervreemding terrein na houtkap
-In het geval dat de vennootschap een bebost terrein aankoopt en op het ogenblik van de verwerving niet de intentie heeft om het ontbost terrein te vervreemden, is de Commissie van oordeel dat enkel de houtcomponent mag worden verwerkt als goederen in bewerking. De terreincomponent zal worden geboekt op de rekening 220 *Terreinen*. Indien de vennootschap beslist na de houtkap het terrein toch te vervreemden zal enkel een overboeking naar rekening 26* Overige materiële vaste activa* noodzakelijk zijn.
+In het geval dat de vennootschap een bebost terrein aankoopt en op het ogenblik van de verwerving niet de intentie heeft om het ontbost terrein te vervreemden, is de Commissie van oordeel dat enkel de houtcomponent mag worden verwerkt als goederen in bewerking. De terreincomponent zal worden geboekt op de rekening 220 *Terreinen*. Indien de vennootschap beslist na de houtkap het terrein toch te vervreemden zal enkel een overboeking naar rekening 26*Overige materiële vaste activa* noodzakelijk zijn.
 
 *Voorbeeld*
 

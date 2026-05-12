@@ -33,31 +33,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:53Z'
+  generated_at: '2026-05-12T23:38:02Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (9 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 8
       max_section_chars: 17578
-      file_size_chars: 35737
+      file_size_chars: 35736
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (9 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 178/1 - Advies met betrekking tot de jaarrekeningrechtelijke aspecten van de certificatie van aandelen van handelsvennootschappen1
 
@@ -204,7 +199,7 @@ Het behoort inderdaad tot de essentie van het certificaat dat het in de toekomst
 
 Mocht uit de certificatieovereenkomst evenwel blijken dat de emittent van de certificaten niet volledig en onherroepelijk afstand heeft gedaan van de economische eigendom van de aandelen ten gunste van de houders van de certificaten, dan moeten de respectievelijke rechten van de bij de verrichting betrokken partijen boekhoudkundig verwerkt worden door rekening te houden met de economische realiteit[^21].
 
-De Commissie is van oordeel dat de gecertificeerde aandelen en de certificaten moeten geboekt worden in de post die het best beantwoordt aan de gecreëerde toestand en de bedoeling van de partijen. De certificaten zullen dan ook meestal[^22] geboekt worden in de posten *Deelnemingen*,* Andere financiële vaste activa* of *Geldbeleggingen* afhankelijk van de band die de houder van de certificaten tot stand wenst te brengen met de vennootschap waarvan de aandelen zijn gecertificeerd.
+De Commissie is van oordeel dat de gecertificeerde aandelen en de certificaten moeten geboekt worden in de post die het best beantwoordt aan de gecreëerde toestand en de bedoeling van de partijen. De certificaten zullen dan ook meestal[^22] geboekt worden in de posten *Deelnemingen*,*Andere financiële vaste activa* of *Geldbeleggingen* afhankelijk van de band die de houder van de certificaten tot stand wenst te brengen met de vennootschap waarvan de aandelen zijn gecertificeerd.
 
 De gecertificeerde aandelen zelf zullen in de regel[^23] buiten de balans worden geboekt in de rekening "Goederen en waarden gehouden voor rekening of ten bate en voor risico van derden".
 

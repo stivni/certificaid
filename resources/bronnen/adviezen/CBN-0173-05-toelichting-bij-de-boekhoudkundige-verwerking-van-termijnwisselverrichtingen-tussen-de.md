@@ -38,37 +38,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:50Z'
+  generated_at: '2026-05-12T23:38:00Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'C1: 2 bullet-glyphs (•) in tabel-context. ETL bullet-promotion fix heeft dit bestand niet volledig gecorrigeerd.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:30Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 3
       max_section_chars: 7317
       file_size_chars: 11710
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: 'C1: 2 bullet-glyphs (•) in tabel-context. ETL bullet-promotion fix heeft dit bestand niet volledig gecorrigeerd.'
-      concrete_problemen:
-        - categorie: C1
-          type: bullet-glyph
-          voorbeeld: • in 1998 voor een bedrag van 2 872,3
-        - categorie: C1
-          type: bullet-glyph
-          voorbeeld: • in 1999 voor een bedrag van (15.000)
 ---
 # CBN-advies 173/5 - Toelichting bij de boekhoudkundige verwerking van termijnwisselverrichtingen tussen de munten van Lid-Staten van de Muntunie
 
@@ -172,9 +161,9 @@ Dit komt neer op een totaalresultaat (met inbegrip van de samenstellende delen �
 |---|
 | 15.000| |
 
-• in 1998 voor een bedrag van 2 872,3 
+- in 1998 voor een bedrag van 2 872,3 
 
-• in 1999 voor een bedrag van (15.000)
+- in 1999 voor een bedrag van (15.000)
 
 [^1]: Advies 173/1 «Boekhoudrechtelijke aspecten i.v.m. de overschakeling op de euro», Bulletin nr. 37, januari 1997.
 

@@ -21,31 +21,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:32Z'
+  generated_at: '2026-05-12T23:38:42Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (8 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 7
       max_section_chars: 4774
-      file_size_chars: 14226
+      file_size_chars: 14225
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (8 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2018/24 – Duolegaat – Vereniging en stichting
 
@@ -59,7 +54,7 @@ Bij het *klassieke duolegaat* wordt de nalatenschap volledig toebedeeld aan het 
 - een bedrag over te maken aan de verre erfgenaam of derde; en 
 - de verschuldigde successierechten op dit bedrag te betalen. 
 
-Bij een *klassiek duolegaat* is het goede doel er, als algemeen legataris, toe gehouden om onder meer de aangifte van nalatenschap in te dienen en is zij ook verantwoordelijk voor het beheer en de vereffening van de nalatenschap, i.c. het overmaken van het bedrag dat als last is opgenomen. Om tegemoet te komen aan de nadelen ten gevolge van het leggen van deze taken en verantwoordelijkheden bij het begunstigde goede doel, als algemeen legataris, werd de techniek uitgewerkt van het *omgekeerde duolegaat*. Bij een* omgekeerd duolegaat* wordt het begunstigde verre familielid of de begunstigde derde de algemene legataris en deze heeft aldus de verplichting (last) om het bepaalde of bepaalbare bedrag over te maken aan het betreffende goede doel dat tevens de successierechten moet voldoen die rusten op het algemeen legaat.
+Bij een *klassiek duolegaat* is het goede doel er, als algemeen legataris, toe gehouden om onder meer de aangifte van nalatenschap in te dienen en is zij ook verantwoordelijk voor het beheer en de vereffening van de nalatenschap, i.c. het overmaken van het bedrag dat als last is opgenomen. Om tegemoet te komen aan de nadelen ten gevolge van het leggen van deze taken en verantwoordelijkheden bij het begunstigde goede doel, als algemeen legataris, werd de techniek uitgewerkt van het *omgekeerde duolegaat*. Bij een*omgekeerd duolegaat* wordt het begunstigde verre familielid of de begunstigde derde de algemene legataris en deze heeft aldus de verplichting (last) om het bepaalde of bepaalbare bedrag over te maken aan het betreffende goede doel dat tevens de successierechten moet voldoen die rusten op het algemeen legaat.
 
 ## Boekhoudkundige verwerking in hoofde van een kleine vereniging of stichting
 ### Duolegaat in geld

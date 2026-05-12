@@ -28,43 +28,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:21:59Z'
+  generated_at: '2026-05-12T23:36:58Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A2/B6: Inhoudstafel op regel 127–128 is een onvolledig TOC-fragment ('Inhoudstafel' + enkel bijlage-verwijzing, geen paginanummers of dotted-leaders maar wel TOC-rest in de body). Sectietitels binnen §§ (bijv. 'Definities', 'Toepassingsgebied ratione personae', 'Interne procedures') staan als plain-text op regel 133/257/347 in plaats van als ##/###-headings. Inhoud inhoudelijk volledig."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232433
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233943
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 14
       max_section_chars: 8503
-      file_size_chars: 42385
+      file_size_chars: 42379
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: "A2/B6: Inhoudstafel op regel 127–128 is een onvolledig TOC-fragment ('Inhoudstafel' + enkel bijlage-verwijzing, geen paginanummers of dotted-leaders maar wel TOC-rest in de body). Sectietitels binnen §§ (bijv. 'Definities', 'Toepassingsgebied ratione personae', 'Interne procedures') staan als plain-text op regel 133/257/347 in plaats van als ##/###-headings. Inhoud inhoudelijk volledig."
-      concrete_problemen:
-        - regel: 127
-          categorie: A3
-          type: other
-          voorbeeld: 'Inhoudstafel\n\nBIJLAGE I: Variabelen... (onvolledig TOC-fragment)'
-        - regel: 133
-          categorie: B5
-          type: other
-          voorbeeld: 'Definities (plain text, geen ## heading)'
-        - regel: 257
-          categorie: B5
-          type: other
-          voorbeeld: 'Toepassingsgebied ratione personae (plain text, geen ## heading)'
 ---
   Norm van het Instituut van de Accountants en de Belastingconsulenten d.d. 31
 maart 2020 inzake de toepassing van de wet van 18 september 2017 tot voorkoming
@@ -257,9 +240,7 @@ uitvoeren in opdracht van de beroepsbeoefenaar;
 
 19° “ netwerk”: de grotere structuur waartoe een beroepsbeoefenaar of kantoor behoort:
 
-     a)    die op samenwerking is gericht; en
-
-     b)    die duidelijk is gericht op winst- of kostendeling, of het delen van
+     a)    die op samenwerking is gericht; en b)    die duidelijk is gericht op winst- of kostendeling, of het delen van
            gemeenschappelijke eigendom, zeggenschap of bestuur, een
            gemeenschappelijk beleid en procedures inzake kwaliteitsbeheersing, een
            gemeenschappelijke     bedrijfsstrategie, het   gebruik     van     een

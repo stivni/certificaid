@@ -672,10 +672,14 @@ def convert_collection_item(
         print(f"  ⚠️  {source_name}: lege body — skip")
         return None
 
-    # 3. Cleanup
+    # 3. Transform via transformer-chain (DEFAULT_CHAINS van de extract-method)
     cleanup_steps = _COLLECTION_CLEANUP.get(collection_name, [])
-    if cleanup_steps:
-        body = run_pipeline(body, steps=cleanup_steps, preserve_frontmatter=False)
+    chain = DEFAULT_CHAINS.get(method_key, _DEFAULT_CHAIN_FALLBACK)
+    # apply_chain gebruikt de frontmatter-dict om _cleanup_steps door te geven
+    # aan cleanup_basics. We gebruiken een lokale dict zodat existing_fm niet
+    # vervuild wordt; de nieuwe frontmatter wordt later in stap 4 gebouwd.
+    chain_fm: dict = {"_cleanup_steps": cleanup_steps} if cleanup_steps else {}
+    body, _ = apply_chain(body, chain_fm, [c for c in chain if c != "emit_frontmatter"])
 
     # 4. Bouw nieuwe frontmatter (KEEP bestaande velden, ADD chunk + bron_rol)
     chunk_cfg = _COLLECTION_CHUNK.get(collection_name, {"level": 2, "type": "##"})

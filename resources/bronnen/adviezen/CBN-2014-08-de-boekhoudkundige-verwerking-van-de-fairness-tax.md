@@ -18,36 +18,31 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:15Z'
+  generated_at: '2026-05-12T23:38:25Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (3 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 2
       max_section_chars: 1140
-      file_size_chars: 2389
+      file_size_chars: 2388
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (3 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2014/8 – De boekhoudkundige verwerking van de Fairness Tax
 
 ## Algemeen
-Aan de Commissie werd de vraag gesteld in welk boekjaar de afzonderlijke aanslag vermeld in artikel 219ter van het Wetboek van de inkomstenbelastingen 1992 (*WIB 92*) en artikel 233, derde lid, WIB 92 (hierna* Fairness Tax*) moet worden geboekt[^2].
+Aan de Commissie werd de vraag gesteld in welk boekjaar de afzonderlijke aanslag vermeld in artikel 219ter van het Wetboek van de inkomstenbelastingen 1992 (*WIB 92*) en artikel 233, derde lid, WIB 92 (hierna*Fairness Tax*) moet worden geboekt[^2].
 
 De *Fairness Tax* is een afzonderlijke aanslag in de vennootschapsbelasting of in de belasting niet-inwoners van 5,15% op uitgekeerde winsten die niet effectief zijn belast omwille van de aftrek voor risicokapitaal en/of overgedragen verliezen. Hoewel de *Fairness Tax* een afzonderlijke aanslag is die los staat van, en in voorkomend geval bovenop de andere aanslag of aanslagen komt die overeenkomstig andere bepalingen van het WIB 92 of in voorkomend geval in uitvoering van bijzondere wetsbepalingen verschuldigd zijn[^3], wordt de *Fairness Tax* ingekohierd samen met de vennootschapsbelasting respectievelijk de belasting niet-inwoners en is de *Fairness Tax* onderworpen aan de gewone regels van voorafbetalingen[^4].
 

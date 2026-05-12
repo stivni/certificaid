@@ -26,31 +26,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:53Z'
+  generated_at: '2026-05-12T23:38:03Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 0
-      max_section_chars: 2306
-      file_size_chars: 2306
+      max_section_chars: 2305
+      file_size_chars: 2305
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 180/1 - Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde opleidingscheques
 
@@ -58,7 +53,7 @@ Het besluit van de Vlaamse regering van 14 december 2001 en het ministerieel bes
 
 Naar het oordeel van de Commissie voor Boekhoudkundige Normen dienen deze opleidingscheques als volgt verwerkt te worden in de jaarrekening van de vennootschap die ze aankoopt.
 
-Bij aankoop boekt de vennootschap de opleidingscheque als een actief in post IX van de activa: *Liquide middelen*. De tussenkomst van de Vlaamse overheid in de aankoopprijs ervan (15 euro) wordt geboekt als een opbrengst in post I,D van de resultatenrekening:* Andere bedrijfsopbrengsten*.
+Bij aankoop boekt de vennootschap de opleidingscheque als een actief in post IX van de activa: *Liquide middelen*. De tussenkomst van de Vlaamse overheid in de aankoopprijs ervan (15 euro) wordt geboekt als een opbrengst in post I,D van de resultatenrekening:*Andere bedrijfsopbrengsten*.
 
 Na het volgen van de gekozen opleiding wordt de door de opleidingsverstrekker aangerekende prijs ten laste genomen.De geactiveerde opleidingscheque wordt afgeboekt wanneer hij als betaalmiddel wordt gebruikt.
 

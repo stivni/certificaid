@@ -31,31 +31,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:13Z'
+  generated_at: '2026-05-12T23:38:23Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (16 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 15
-      max_section_chars: 14713
-      file_size_chars: 20297
+      max_section_chars: 14709
+      file_size_chars: 20293
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (16 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2013/14 – De boekhoudkundige verwerking van de uitgestelde belastingen bij gerealiseerde meerwaarden waarvoor de uitgestelde-belastingregeling geldt en bij kapitaalsubsidies
 
@@ -98,7 +93,7 @@ Voor alle verrekenbare tijdelijke verschillen moet een uitgestelde belastingvord
 
 #### De initial recognition exception
 ## Ontstaan bij eerste opname van een actief- of passiefbestanddeel of goodwill
-De* initial recognition exception* vindt haar oorsprong in een achterhaalde benadering voor de bepaling van uitgestelde belastingen (de* income statement approach*). 
+De*initial recognition exception* vindt haar oorsprong in een achterhaalde benadering voor de bepaling van uitgestelde belastingen (de*income statement approach*). 
 
 Het is immers perfect mogelijk dat de boekwaarde van een actiefbestanddeel hoger of lager is dan de fiscale waarde ervan en er dus onmiddellijk bij de eerste opname een tijdelijk verschil ontstaat hetgeen aanleiding zou geven tot de uitdrukking van uitgestelde belastingen hierop. 
 
@@ -148,9 +143,7 @@ a) of de entiteit voldoende belastbare tijdelijke verschillen heeft die dezelfde
 
 b) of het waarschijnlijk is dat de entiteit fiscale winsten zal hebben vóór de niet-gecompenseerde fiscale verliezen of ongebruikte fiscaal verrekenbare tegoeden verlopen; 
 
-c) of de niet-gecompenseerde fiscale verliezen het gevolg zijn van aanwijsbare oorzaken die zich waarschijnlijk niet zullen herhalen; en 
-
-d) of planning van de fiscale winst mogelijk is zodat de entiteit fiscale winst kan genereren in de periode waarin de niet-gecompenseerde fiscale verliezen of ongebruikte fiscaal verrekenbare tegoeden kunnen worden aangewend.
+c) of de niet-gecompenseerde fiscale verliezen het gevolg zijn van aanwijsbare oorzaken die zich waarschijnlijk niet zullen herhalen; en d) of planning van de fiscale winst mogelijk is zodat de entiteit fiscale winst kan genereren in de periode waarin de niet-gecompenseerde fiscale verliezen of ongebruikte fiscaal verrekenbare tegoeden kunnen worden aangewend.
 
 In zoverre het niet waarschijnlijk is dat er fiscale winst beschikbaar zal zijn waarmee de niet-gecompenseerde fiscale verliezen of ongebruikte fiscaal verrekenbare tegoeden kunnen worden verrekend, wordt de uitgestelde belastingvordering niet opgenomen.
 

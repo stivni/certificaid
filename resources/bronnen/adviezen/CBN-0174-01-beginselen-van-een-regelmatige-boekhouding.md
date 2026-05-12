@@ -42,31 +42,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:51Z'
+  generated_at: '2026-05-12T23:38:01Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (25 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:30Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 24
       max_section_chars: 14286
-      file_size_chars: 64321
+      file_size_chars: 64319
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (25 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 174/1 - Beginselen van een regelmatige boekhouding
 
@@ -96,9 +91,7 @@ In de uiteindelijke versie van de vierde richtlijn heeft, onder invloed van een 
 
 Aangezien de boekhouding als bewijsmiddel wordt erkend, niet alleen contra maar ook pro de onderneming die boekhoudt, is het normaal dat de wetgever een aantal vereisten formuleert omtrent de intrinsieke kwaliteiten die een bedrijfsboekhouding moet bezitten. 
 
-Toch moet men vaststellen dat bepaalde regels en vooral de technische normen uit de boekhoudwet, in een 
-
-totaal andere context dan de huidige zijn uitgewerkt dan wel overgenomen uit vroegere wetgevingen. Door de wet van 1 juli 1983 werd de boekhoudwet echter aangepast met het oog op nieuwe evoluties, meer bepaald met verwijzing naar de op computer gevoerde boekhoudingen. 
+Toch moet men vaststellen dat bepaalde regels en vooral de technische normen uit de boekhoudwet, in een totaal andere context dan de huidige zijn uitgewerkt dan wel overgenomen uit vroegere wetgevingen. Door de wet van 1 juli 1983 werd de boekhoudwet echter aangepast met het oog op nieuwe evoluties, meer bepaald met verwijzing naar de op computer gevoerde boekhoudingen. 
 
 Behalve bij het begin van de inwerkingtreding van de wet, hadden de vragen en problemen die aan de Commissie werden voorgelegd, alsook de adviezen die zij uitbracht, meer te maken met het uitdrukken van situaties en transacties in de boekhoudstaten, dan met de regelmatigheid van de boekhouding en de beginselen van een regelmatige boekhouding. 
 

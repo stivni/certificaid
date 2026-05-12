@@ -21,36 +21,31 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:22Z'
+  generated_at: '2026-05-12T23:38:32Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 3
       max_section_chars: 4921
-      file_size_chars: 10985
+      file_size_chars: 10959
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2016/24 – Uitzonderlijke resultaten: wijzigingen door het koninklijk besluit van 18 december 2015
 
 ## Inleiding
-Het koninklijk besluit van 18 december 2015 tot omzetting van Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG en 83/349/EEG van de Raad[^2], heeft een aantal wijzigingen aangebracht aan het schema van de resultatenrekening, meer bepaald aan de weergave van de uitzonderlijke resultaten. De uitzonderlijke resultaten worden geschrapt als afzonderlijke rubriek van de resultatenrekening en worden ondergebracht onder de bedrijfsresultaten dan wel de financiële resultaten. Ze worden voortaan aangeduid als *niet-recurrente resultaten*, evenwel zonder dat op inhoudelijk vlak,* i.e. *met betrekking tot de kwalificatie, een wijziging plaatsvindt.[^3] 
+Het koninklijk besluit van 18 december 2015 tot omzetting van Richtlijn 2013/34/EU van 26 juni 2013 van het Europees Parlement en van de Raad betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen, tot wijziging van Richtlijn 2006/43/EG van het Europees Parlement en de Raad en tot intrekking van Richtlijnen 78/660/EEG en 83/349/EEG van de Raad[^2], heeft een aantal wijzigingen aangebracht aan het schema van de resultatenrekening, meer bepaald aan de weergave van de uitzonderlijke resultaten. De uitzonderlijke resultaten worden geschrapt als afzonderlijke rubriek van de resultatenrekening en worden ondergebracht onder de bedrijfsresultaten dan wel de financiële resultaten. Ze worden voortaan aangeduid als *niet-recurrente resultaten*, evenwel zonder dat op inhoudelijk vlak,*i.e.*met betrekking tot de kwalificatie, een wijziging plaatsvindt.[^3] 
 
 De Commissie beoogt in onderhavig advies de wijzigingen met betrekking tot de uitzonderlijke resultaten te verduidelijken voor de boekjaren die aanvangen na 31 december 2015.
 
@@ -72,34 +67,34 @@ Herstructureringskosten kunnen van verschillende aard zijn: uitzonderlijke afsch
 
 | **Niet-recurrente bedrijfsopbrengsten**|
 |---|
-| *7600*|* Terugneming van afschrijvingen op immateriële vaste activa*|
-| *7601*|* Terugneming van afschrijvingen op materiële vaste activa*|
-| *7620*|* Terugneming van voorzieningen voor niet-recurrente bedrijfsrisico’s en kosten*|
-| *7630*|* Meerwaarde op de realisatie van immateriële en materiële vaste activa*|
-| *764 > 768*|* Andere niet-recurrente bedrijfsopbrengsten *|
+| *7600*|*Terugneming van afschrijvingen op immateriële vaste activa*|
+| *7601*|*Terugneming van afschrijvingen op materiële vaste activa*|
+| *7620*|*Terugneming van voorzieningen voor niet-recurrente bedrijfsrisico’s en kosten*|
+| *7630*|*Meerwaarde op de realisatie van immateriële en materiële vaste activa*|
+| *764 > 768*|*Andere niet-recurrente bedrijfsopbrengsten*|
 | **Niet-recurrente bedrijfskosten** |
-| *6600*|* Niet-recurrente afschrijvingen en waardeverminderingen op oprichtingskosten*|
-| *6601*|* Niet-recurrente afschrijvingen en waardeverminderingen op immateriële vaste activa*|
-| *6602*|* Niet-recurrente afschrijvingen en waardeverminderingen op materiële vaste activa*|
-| *6620*|* Voorzieningen voor niet-recurrente bedrijfsrisico’s en kosten*|
+| *6600*|*Niet-recurrente afschrijvingen en waardeverminderingen op oprichtingskosten*|
+| *6601*|*Niet-recurrente afschrijvingen en waardeverminderingen op immateriële vaste activa*|
+| *6602*|*Niet-recurrente afschrijvingen en waardeverminderingen op materiële vaste activa*|
+| *6620*|*Voorzieningen voor niet-recurrente bedrijfsrisico’s en kosten*|
 | | *66200 Toevoeging*|
 | | *66201 Besteding (-)*|
-| *6630*|* Minderwaarde op de realisatie van immateriële en materiële vaste activa*|
-| *664 > 667*|* Andere niet-recurrente bedrijfskosten*|
-| *6690*|* Als herstructureringskosten geactiveerde niet-recurrente bedrijfskosten (-)*|
+| *6630*|*Minderwaarde op de realisatie van immateriële en materiële vaste activa*|
+| *664 > 667*|*Andere niet-recurrente bedrijfskosten*|
+| *6690*|*Als herstructureringskosten geactiveerde niet-recurrente bedrijfskosten (-)*|
 | **Niet-recurrente financiële opbrengsten**|
-| *761*|* Terugneming van waardeverminderingen op financiële vaste activa*|
-| *7621*|*  Terugneming van voorzieningen voor niet-recurrente financiële risico’s en kosten*|
-| *7631*|* Meerwaarde op de realisatie van financiële vaste activa*|
-| *769*|* Andere niet-recurrente financiële opbrengsten*|
+| *761*|*Terugneming van waardeverminderingen op financiële vaste activa*|
+| *7621*|*Terugneming van voorzieningen voor niet-recurrente financiële risico’s en kosten*|
+| *7631*|*Meerwaarde op de realisatie van financiële vaste activa*|
+| *769*|*Andere niet-recurrente financiële opbrengsten*|
 | **Niet-recurrente financiële kosten** |
-| *661*|* Waardeverminderingen op financiële vaste activa (toevoeging)*|
-| *6621*|* Voorzieningen voor niet-recurrente financiële risico’s en kosten*|
+| *661*|*Waardeverminderingen op financiële vaste activa (toevoeging)*|
+| *6621*|*Voorzieningen voor niet-recurrente financiële risico’s en kosten*|
 | | *66210 Toevoeging*|
 | | *66211 Besteding (-)*|
-| *6631*|* Minderwaarde op de realisatie van financiële vaste activa*|
-| *668*|* Andere niet-recurrente financiële kosten*|
-| *6691*|* Als herstructureringskosten geactiveerde niet-recurrente financiële kosten (-) *|
+| *6631*|*Minderwaarde op de realisatie van financiële vaste activa*|
+| *668*|*Andere niet-recurrente financiële kosten*|
+| *6691*|*Als herstructureringskosten geactiveerde niet-recurrente financiële kosten (-)*|
 
 ## Vermelding in de toelichting
 Ook in de toelichting van zowel het volledig[^13] als het verkort schema[^14] van de jaarrekening moeten voortaan het bedrag en de aard van de opbrengsten en kosten van uitzonderlijke omvang of uitzonderlijke mate van voorkomen worden opgenomen op een meer opgedeelde wijze aangepast aan de structuur waarop deze in het aangepaste schema van de resultatenrekening zijn opgenomen onder de niet-recurrente bedrijfs- of financiële resultaten.[^15]

@@ -24,31 +24,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:26Z'
+  generated_at: '2026-05-12T23:38:36Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 3
-      max_section_chars: 4116
-      file_size_chars: 8609
+      max_section_chars: 4115
+      file_size_chars: 8608
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2017/15 – Transacties onder gemeenschappelijke leiding (Common control transactions) (update)
 
@@ -113,7 +108,7 @@ Zowel voor de berekening op geconsolideerde basis als voor de berekening op geag
 
 Zoals aangegeven onder randnummer 5 heeft België er niet voor geopteerd om de lidstaatoptie omtrent *pooling of interest* toe te passen. Echter kan het erkende positieve consolidatieverschil vanuit een bedrijfseconomisch standpunt niet gejustifieerd worden in de geconsolideerde jaarrekening. De Commissie is dan ook van oordeel dat op basis van artikel 3:131, § 1, tweede lid KB WVV dit positief consolidatieverschil onmiddellijk dient te worden afgeschreven daar het niet economisch verantwoord is om deze te handhaven in de geconsolideerde balans.[^8] 
 
-Het lijkt de Commissie aangewezen om deze afschrijvingskost in de geconsolideerde jaarrekening op grond van artikel 1:131, § 1, derde lid KB WVV onder de *Niet-recurrente bedrijfskosten* of *Niet-recurrente financiële kosten* te presenteren alsook een toelichting rond de verwerkingswijze van* common control* transactie te verstrekken.
+Het lijkt de Commissie aangewezen om deze afschrijvingskost in de geconsolideerde jaarrekening op grond van artikel 1:131, § 1, derde lid KB WVV onder de *Niet-recurrente bedrijfskosten* of *Niet-recurrente financiële kosten* te presenteren alsook een toelichting rond de verwerkingswijze van*common control* transactie te verstrekken.
 
 [^1]: Onderhavig advies is tot stand gekomen nadat een ontwerp van het advies op 13 juni 2017 ter consultatie werd gepubliceerd op de website van de CBN.
 

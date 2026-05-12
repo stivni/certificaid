@@ -24,31 +24,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:16Z'
+  generated_at: '2026-05-12T23:38:26Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (62 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 61
       max_section_chars: 15183
-      file_size_chars: 75449
+      file_size_chars: 75448
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (62 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2015/5 - Zakelijke rechten op onroerende goederen: vruchtgebruik - opstalrecht - erfpachtrecht - erfdienstbaarheid
 
@@ -248,7 +243,7 @@ Als gevolg van het voornamelijk tijdelijke karakter van het vruchtgebruik, zal d
 
 De Commissie meent dat het verantwoord kan zijn het actief te herwaarderen naarmate de eindtermijn van het vruchtgebruik nadert. De Commissie wenst te benadrukken dat een dergelijke herwaardering niet verplicht is.
 
-Bij de verwerving van de blote eigendom werd de aanschaffingswaarde van de blote eigendom geboekt op de rekening 26 *Andere materiële vaste activa*. Bij afloop van het vruchtgebruik zal in principe een overboeking plaatsvinden naar de rekeningen van rubriek* III.A Terreinen en gebouwen.*
+Bij de verwerving van de blote eigendom werd de aanschaffingswaarde van de blote eigendom geboekt op de rekening 26 *Andere materiële vaste activa*. Bij afloop van het vruchtgebruik zal in principe een overboeking plaatsvinden naar de rekeningen van rubriek*III.A Terreinen en gebouwen.*
 
 Nadat het vruchtgebruik afloopt, zal de aanschaffingswaarde van het goed met een beperkte gebruiksduur[^25] worden afgeschreven over de nog resterende gebruiksduur van het betrokken goed. Dit is de resterende termijn tussen de normale gebruiksduur van het betrokken goed en de duur van het vruchtgebruik. 
 

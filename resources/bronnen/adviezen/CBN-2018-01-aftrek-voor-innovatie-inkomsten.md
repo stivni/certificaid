@@ -38,31 +38,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:27Z'
+  generated_at: '2026-05-12T23:38:37Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (15 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 14
-      max_section_chars: 10601
-      file_size_chars: 16304
+      max_section_chars: 10598
+      file_size_chars: 16301
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (15 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2018/01 – Aftrek voor innovatie-inkomsten
 
@@ -124,7 +119,7 @@ Wanneer nadien het intellectueel eigendomsrecht effectief is ontstaan en de tijd
  Een rechtstreekse overboeking van de belastingvrije reserves naar de beschikbare reserves houdt echter in dat het bedrag dat overeenstemt met de definitieve vrijstelling nooit wordt opgenomen in het te bestemmen resultaat. Om die reden is de Commissie van mening dat het meer aangewezen is de rekening 132 *Belastingvrije reserves* te debiteren en de rekening 789 *Onttrekkingen aan de belastingvrije reserves* te crediteren en vervolgens een bestemming te geven aan het aldus bekomen resultaat.
 
 ### Het intellectueel eigendomsrecht wordt niet bekomen
-Wanneer de aanvraag voor het bekomen van het intellectueel eigendomsrecht is beëindigd zonder dat een intellectueel eigendomsrecht werd bekomen, wordt de voorheen aangelegde belastingvrije reserve belastbaar. De belastingvrije reserve kan rechtstreeks worden overgeboekt van de rekening 132* Belastingvrije reserves *naar de rekening 133* Beschikbare reserves*.[^26]
+Wanneer de aanvraag voor het bekomen van het intellectueel eigendomsrecht is beëindigd zonder dat een intellectueel eigendomsrecht werd bekomen, wordt de voorheen aangelegde belastingvrije reserve belastbaar. De belastingvrije reserve kan rechtstreeks worden overgeboekt van de rekening 132*Belastingvrije reserves*naar de rekening 133*Beschikbare reserves*.[^26]
  Een rechtstreekse overboeking van de belastingvrije reserves naar de beschikbare reserves houdt echter in dat het bedrag van de voorheen vrijgestelde reserve nooit wordt opgenomen in het te bestemmen resultaat. Om die reden is de Commissie van mening dat het meer aangewezen is de rekening 132 *Belastingvrije reserves* te debiteren en de rekening 789 *Onttrekkingen aan de belastingvrije reserves* te crediteren en vervolgens een bestemming te geven aan het aldus bekomen resultaat.
 
 ### Toelichting

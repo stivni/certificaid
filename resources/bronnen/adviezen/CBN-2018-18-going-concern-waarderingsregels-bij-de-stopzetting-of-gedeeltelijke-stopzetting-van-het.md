@@ -38,31 +38,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:31Z'
+  generated_at: '2026-05-12T23:38:41Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (15 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 14
       max_section_chars: 9149
-      file_size_chars: 24666
+      file_size_chars: 24664
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (15 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2018/18 – Going concern - Waarderingsregels bij de stopzetting of gedeeltelijke stopzetting van het bedrijf van een onderneming
 
@@ -89,7 +84,7 @@ De eerste situatie waarin een onderneming vrijwillig, al dan niet ingevolge een 
 ## Vrijwillige ontbinding van een vennootschap
 De beslissing tot ontbinding van een vennootschap heeft niet steeds de onmiddellijke stopzetting van het geheel of een deel van de activiteiten van de vennootschap tot gevolg. Dergelijke verderzetting van de activiteiten blijkt ook expliciet uit de wettelijke verslaggevingsverplichtingen die het bestuursorgaan heeft bij het opmaken van een ontbindingsvoorstel. Het bestuursorgaan heeft de verplichting om aan het ontbindingsvoorstel, dat moet worden voorgelegd aan de algemene vergadering die over de ontbinding beslist, een staat van activa en passiva te voegen die niet meer dan drie maanden voordien is vastgesteld en is opgemaakt volgens de bepalingen van het KB W.Venn.[^9] 
 
-Het W.Venn. stelt hierbij expliciet: “*voor de gevallen waarin de vennootschap besluit haar activiteiten te beëindigen of indien niet langer kan worden uitgegaan dat de vennootschap haar bedrijf zal verderzetten, wordt voornoemde staat, behoudens met redenen omklede afwijking, opgesteld conform de waarderingsregels vastgesteld ter uitvoering van artikel 92[^10] *”. In het CBN-advies 2011/8 -* Verslaggeving bij ontbinding en vereffening* heeft de Commissie er reeds op gewezen dat het bestuursorgaan kan verantwoorden dat bij de ontbinding van de vennootschap een waardering in discontinuïteit op grond van artikel 28, § 2 KB W.Venn. niet wordt toegepast op het geheel of een deel van de boekhoudposten. Dit zou bijvoorbeeld het geval kunnen zijn als bepaalde onderdelen van de activiteiten nog zouden worden voortgezet gedurende verschillende jaren. Het bestuursorgaan zou ook kunnen verantwoorden dat geen enkele correctie wordt aangebracht op grond van artikel 28, § 2 KB W.Venn. als de reële mogelijkheid bestaat dat de ontbinding tot geen gehele of gedeeltelijke economische discontinuïteit van de activiteit zal leiden, bv. wanneer ernstige vooruitzichten bestaan van overdracht van het geheel of een deel van de exploitatie aan een andere onderneming die de exploitatie zal voortzetten. Deze afwijking van artikel 28, § 2 KB W.Venn. moet uiteraard worden verantwoord in de toelichting.[^11] 
+Het W.Venn. stelt hierbij expliciet: “*voor de gevallen waarin de vennootschap besluit haar activiteiten te beëindigen of indien niet langer kan worden uitgegaan dat de vennootschap haar bedrijf zal verderzetten, wordt voornoemde staat, behoudens met redenen omklede afwijking, opgesteld conform de waarderingsregels vastgesteld ter uitvoering van artikel 92[^10]*”. In het CBN-advies 2011/8 -*Verslaggeving bij ontbinding en vereffening* heeft de Commissie er reeds op gewezen dat het bestuursorgaan kan verantwoorden dat bij de ontbinding van de vennootschap een waardering in discontinuïteit op grond van artikel 28, § 2 KB W.Venn. niet wordt toegepast op het geheel of een deel van de boekhoudposten. Dit zou bijvoorbeeld het geval kunnen zijn als bepaalde onderdelen van de activiteiten nog zouden worden voortgezet gedurende verschillende jaren. Het bestuursorgaan zou ook kunnen verantwoorden dat geen enkele correctie wordt aangebracht op grond van artikel 28, § 2 KB W.Venn. als de reële mogelijkheid bestaat dat de ontbinding tot geen gehele of gedeeltelijke economische discontinuïteit van de activiteit zal leiden, bv. wanneer ernstige vooruitzichten bestaan van overdracht van het geheel of een deel van de exploitatie aan een andere onderneming die de exploitatie zal voortzetten. Deze afwijking van artikel 28, § 2 KB W.Venn. moet uiteraard worden verantwoord in de toelichting.[^11] 
 
 ### Stopzetting van het bedrijf om andere redenen
 Naast de vrijwillige stopzetting van het bedrijf, een bedrijfsonderdeel of een vestiging kan zich de situatie voordoen dat de onderneming haar waarderingsregels moet aanpassen doordat “*er niet meer kan van worden uitgegaan dat de* [onderneming] *haar bedrijf zal voortzetten*”[^12] en de onderneming zich aldus in een situatie van discontinuïteit bevindt. Hier is het minder duidelijk wanneer deze situatie van discontinuïteit precies optreedt.

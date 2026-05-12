@@ -30,36 +30,31 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:56Z'
+  generated_at: '2026-05-12T23:38:06Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 5
       max_section_chars: 4265
-      file_size_chars: 10637
+      file_size_chars: 10636
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2009/16 Omrekening van kapitaal bij grensoverschrijdende fusies
 
 ## INLEIDING
-De Belgische wetgever heeft de grensoverschrijdende fusie, voorzien in de Tiende Richtlijn[^1], geregeld in de wet van 8 juni 2008[^2], door de invoering van een nieuwe titel “Titel V*bis*.* Bijzondere regels inzake de grensoverschrijdende fusies en gelijkgestelde verrichtingen*” in Boek XI van het Wetboek van Vennootschappen. De Tiende Richtlijn is van toepassing op fusies van kapitaalvennootschappen, opgericht in overeenstemming met de wetgeving van een Europese lidstaat en die hun statutaire zetel, hoofdbestuur of hoofdvestiging binnen de Europese Gemeenschap hebben, indien ten minste twee daarvan onder de wetgeving van verschillende lidstaten ressorteren[^3]. De bepalingen inzake interne fusies van Boek XI *Herstructurering van vennootschappen* van het Wetboek van Vennootschappen blijven evenwel, behoudens uitdrukkelijke afwijking, van toepassing op grensoverschrijdende fusies[^4].
+De Belgische wetgever heeft de grensoverschrijdende fusie, voorzien in de Tiende Richtlijn[^1], geregeld in de wet van 8 juni 2008[^2], door de invoering van een nieuwe titel “Titel V*bis*.*Bijzondere regels inzake de grensoverschrijdende fusies en gelijkgestelde verrichtingen*” in Boek XI van het Wetboek van Vennootschappen. De Tiende Richtlijn is van toepassing op fusies van kapitaalvennootschappen, opgericht in overeenstemming met de wetgeving van een Europese lidstaat en die hun statutaire zetel, hoofdbestuur of hoofdvestiging binnen de Europese Gemeenschap hebben, indien ten minste twee daarvan onder de wetgeving van verschillende lidstaten ressorteren[^3]. De bepalingen inzake interne fusies van Boek XI *Herstructurering van vennootschappen* van het Wetboek van Vennootschappen blijven evenwel, behoudens uitdrukkelijke afwijking, van toepassing op grensoverschrijdende fusies[^4].
 
 Aan de Commissie wordt in deze context de casus voorgelegd van een grensoverschrijdende fusie waarbij een Belgische vennootschap een vennootschap overneemt die gevestigd is in een lidstaat die niet tot de eurozone behoort. Bij deze fusie werd voorzien dat het kapitaal van de overnemende Belgische vennootschap gelijk is aan de som van het kapitaal van beide vennootschappen vóór de fusie.
 

@@ -29,31 +29,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:11Z'
+  generated_at: '2026-05-12T23:38:21Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (3 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 2
-      max_section_chars: 4028
-      file_size_chars: 6856
+      max_section_chars: 4026
+      file_size_chars: 6854
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (3 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2013/2 – Het gebruik van de rekening 15 Kapitaalsubsidies door grote en zeer grote verenigingen en stichtingen
 
@@ -68,9 +63,9 @@ Voor subsidies die werden verkregen voor investeringen in vaste activa wordt een
 
 Wat betreft de subsidies die verkregen zijn voor de investering in vaste activa met een onbeperkte gebruiksduur (hetzij in contanten, hetzij in natura), wordt de subsidie geboekt op de passiefpost I. *Fondsen van de vereniging*. Een dergelijke subsidie wordt gelijkgesteld met een permanente bron van vermogen die aldus niet gespreid in resultaat wordt genomen, maar rechtstreeks wordt toegevoegd aan de fondsen van de vereniging. 
 
-De subsidies verkregen voor de investering in vaste activa met een beperkte gebruiksduur (hetzij in contanten, hetzij in natura) worden geboekt op de passiefpost VI. *Kapitaalsubsidies*. De inresultaatname van de kapitaalsubsidie loopt parallel met de afschrijvingen van de vaste activa voor de verwerving waarvan de subsidie werd verkregen middels de rekening 736* Kapitaal- en intrestsubsidies*.
+De subsidies verkregen voor de investering in vaste activa met een beperkte gebruiksduur (hetzij in contanten, hetzij in natura) worden geboekt op de passiefpost VI. *Kapitaalsubsidies*. De inresultaatname van de kapitaalsubsidie loopt parallel met de afschrijvingen van de vaste activa voor de verwerving waarvan de subsidie werd verkregen middels de rekening 736*Kapitaal- en intrestsubsidies*.
 
-Voormeld koninklijk besluit van 18 december 2012 heeft tevens twee nieuwe opbrengstrekeningen geïntroduceerd: de rekening 737 *Exploitatiesubsidies* en de rekening 738 *Compenserende bedragen ter vermindering van de loonkost*. Voor wat betreft het gebruik van deze rekeningen verwijst de Commissie naar het advies 2010/16* Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen.*
+Voormeld koninklijk besluit van 18 december 2012 heeft tevens twee nieuwe opbrengstrekeningen geïntroduceerd: de rekening 737 *Exploitatiesubsidies* en de rekening 738 *Compenserende bedragen ter vermindering van de loonkost*. Voor wat betreft het gebruik van deze rekeningen verwijst de Commissie naar het advies 2010/16*Boekhoudkundige verwerking van subsidies, schenkingen en legaten, toegekend in contanten, in de jaarrekening van begunstigde grote en zeer grote verenigingen en stichtingen.*
 
 ## Voorbeelden
 Een vzw betrekt een van derden gehuurd gebouw. De overheid kent jaarlijks aan deze vzw een subsidie in contanten toe ter dekking van deze huurkosten. Aangezien de subsidie enkel strekt tot de financiering van de lopende werkingskosten van het boekjaar waarin de subsidie werd bekomen, kan deze subsidie niet worden aangemerkt als een ondersteuning die op lange termijn het vermogen van de vzw beïnvloedt. Dergelijke subsidie wordt geboekt op de rekening 737 *Exploitatiesubsidies*. 

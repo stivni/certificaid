@@ -30,31 +30,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:30Z'
+  generated_at: '2026-05-12T23:38:40Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (43 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 42
-      max_section_chars: 21144
-      file_size_chars: 45079
+      max_section_chars: 21138
+      file_size_chars: 45073
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (43 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
@@ -83,7 +78,7 @@ Aldus worden op deze rekening de betaalde voorafbetalingen geboekt die door de o
 
 Worden eveneens op deze rekening geboekt de roerende voorheffingen die werden ingehouden op de door de onderneming ontvangen roerende inkomsten en verrekend worden met de verschuldigde winstbelasting ongeacht of deze voorheffing al dan niet terugbetaalbaar[^9] is.
 
-Een niet-verrekenbare ingehouden voorheffing wordt niet op een 67-rekening geboekt. De Commissie neemt hierbij als voorbeeld de onroerende voorheffing die in het verleden in bepaalde gevallen verrekenbaar was. Het met de winstbelasting verrekenbare gedeelte van de verschuldigde onroerende voorheffing werd geboekt op de rekening 6700 *Verschuldigde of gestorte belastingen en voorheffingen*. Het niet-verrekenbare gedeelte van de onroerende voorheffing wordt geboekt op de rekening 640* Bedrijfsbelastingen*. Als tweede voorbeeld neemt de Commissie de situatie waarbij een vennootschap beslist om bij een kapitaalvermindering die fiscaal al dan niet gedeeltelijk wordt aangemerkt als een dividend, de verschuldigde roerende voorheffing, na brutering[^10], zelf ten laste te nemen. Deze ten laste genomen roerende voorheffing wordt geboekt op de rekening 64 *Andere bedrijfskosten*.
+Een niet-verrekenbare ingehouden voorheffing wordt niet op een 67-rekening geboekt. De Commissie neemt hierbij als voorbeeld de onroerende voorheffing die in het verleden in bepaalde gevallen verrekenbaar was. Het met de winstbelasting verrekenbare gedeelte van de verschuldigde onroerende voorheffing werd geboekt op de rekening 6700 *Verschuldigde of gestorte belastingen en voorheffingen*. Het niet-verrekenbare gedeelte van de onroerende voorheffing wordt geboekt op de rekening 640*Bedrijfsbelastingen*. Als tweede voorbeeld neemt de Commissie de situatie waarbij een vennootschap beslist om bij een kapitaalvermindering die fiscaal al dan niet gedeeltelijk wordt aangemerkt als een dividend, de verschuldigde roerende voorheffing, na brutering[^10], zelf ten laste te nemen. Deze ten laste genomen roerende voorheffing wordt geboekt op de rekening 64 *Andere bedrijfskosten*.
 
 Andere, minder courante voorbeelden van kosten die worden geboekt op deze rekening zijn de uitgaven in het kader van een *tax shelter*regeling. De Commissie heeft afzonderlijke adviezen uitgebracht wat betreft de boekhoudkundige verwerking van dergelijke kosten.[^11] 
 
@@ -95,7 +90,7 @@ Op deze rekening worden eveneens de gestorte voorafbetalingen geboekt die naar e
 #### Rekening 6702 Geraamde belastingen
 Op de rekening 6702 *Geraamde belastingen* wordt het positieve verschil geboekt tussen het geraamde bedrag van de verschuldigde belastingen op de winst van het boekjaar en het bedrag van de voorafbetalingen en de verrekenbare bestanddelen. De tegenpost van deze rekening is in principe de schuldenrekening 450 *Geraamd bedrag der belastingschulden*. De raming van de belasting vindt plaats op basis van de regels die van toepassing zijn voor het met het boekjaar overeenstemmende aanslagjaar.
 
-Wegens het ontbreken binnen de minimumindeling van een algemeen rekeningenstelstel (M.A.R.)[^16] van een specifieke, afzonderlijke rekening voor de boeking van een voorziening voor belastingen op de winst van het boekjaar worden op deze rekening ook de bedragen geboekt die ten laste van het resultaat van het boekjaar worden geboekt als voorziening voor te betalen belastingen over de winst van het boekjaar waarover betwisting bestaat of zou door de onderneming daartoe een rekening 6703* Gevormde fiscale voorziening* kunnen worden gecreëerd. De tegenpost van deze rekening is de rekening 161* Voorzieningen voor belastingen*.
+Wegens het ontbreken binnen de minimumindeling van een algemeen rekeningenstelstel (M.A.R.)[^16] van een specifieke, afzonderlijke rekening voor de boeking van een voorziening voor belastingen op de winst van het boekjaar worden op deze rekening ook de bedragen geboekt die ten laste van het resultaat van het boekjaar worden geboekt als voorziening voor te betalen belastingen over de winst van het boekjaar waarover betwisting bestaat of zou door de onderneming daartoe een rekening 6703*Gevormde fiscale voorziening* kunnen worden gecreëerd. De tegenpost van deze rekening is de rekening 161*Voorzieningen voor belastingen*.
 
 ### Belgische belastingen op het resultaat van vorige boekjaren
 #### Rekening 6710 Verschuldigde of gestorte belastingsupplementen
@@ -110,7 +105,7 @@ De rekening 6711 *Geraamde belastingsupplementen* wordt gebruikt voor de boeking
 De rekening 6712 *Gevormde fiscale voorzieningen* wordt gebruikt voor de vorming van een voorziening voor de waarschijnlijke fiscale kost van een nakende belastingheffing op de winst waarvan het bestuursorgaan van mening is dat deze al dan niet gedeeltelijk ten onrechte is maar toch een fiscale kost met zich zal meebrengen.
 
 ### Buitenlandse belastingen op het resultaat
-Naar analogie met wat geldt voor de Belgische winstbelastingen voorziet de minimumindeling van het algemeen rekeningenstelsel[^17] ook voor de buitenlandse belastingen die geheven worden op de winst in afzonderlijke rekeningen naargelang het belastingen betreft op de winst van het huidige boekjaar (rekening 672 *Buitenlandse belastingen op het resultaat van het boekjaar*) of op de winst van een voorgaand boekjaar (rekening 673* Buitenlandse belastingen op het resultaat van vorige boekjaren*).
+Naar analogie met wat geldt voor de Belgische winstbelastingen voorziet de minimumindeling van het algemeen rekeningenstelsel[^17] ook voor de buitenlandse belastingen die geheven worden op de winst in afzonderlijke rekeningen naargelang het belastingen betreft op de winst van het huidige boekjaar (rekening 672 *Buitenlandse belastingen op het resultaat van het boekjaar*) of op de winst van een voorgaand boekjaar (rekening 673*Buitenlandse belastingen op het resultaat van vorige boekjaren*).
 
 Rekening 77 Regularisering van belastingen en terugneming van fiscale voorzieningen
 De subrekeningen van de rekening 77 *Regularisering van belastingen en terugneming van fiscale voorzieningen* worden gebruikt voor de verkregen, vastgestelde of geraamde regularisering, al dan niet ingevolge een ambtshalve ontheffing, van belastingen die tijdens een vorig boekjaar ten laste werden genomen. Zoals hiervoor reeds blijkt wordt de regularisering van belastingen die tijdens het huidig boekjaar ten laste worden genomen, geboekt door het crediteren van een 67-rekening. De effectief te gebruiken rekening van de minimumindeling van het algemeen rekeningstelsel binnen deze 77-rekeningen spreekt voor zich.
@@ -118,7 +113,7 @@ De subrekeningen van de rekening 77 *Regularisering van belastingen en terugnemi
 ## Betwiste fiscale aanslag
 De Commissie is van mening dat de fiscale schuld moet worden opgenomen op het passief van de balans en in de resultatenrekening van zodra zij door de inkohiering ontstaat. Door de inkohiering ontstaat immers in hoofde van de onderneming een schuld die onmiddellijk of op korte termijn opeisbaar en bevoorrecht is. Slechts indien de aanslag onbetwistbaar nietig is (bijvoorbeeld wegens een vormgebrek) of volkomen ongegrond is (bijvoorbeeld wegens een materiële vergissing) zou de niet-vermelding hiervan onder de passiva verdedigbaar kunnen zijn.
 
-Indien de onderneming een bezwaar indient (of een ambtshalve ontheffing aanvraagt), moet de vennootschap dit in haar boekhouding op een passende wijze verwerken. De Commissie benadrukt hierbij dat de inschrijving op de balans van het ingestelde bezwaar of verhaal als activum (door de boeking van een vordering of eventueel een debitering van een schuldenrekening, i.c. een daartoe gecreëerde subrekening 4529 *Betwiste belastingen*) een verantwoorde waardering van deze* vordering *vereist die met de nodige omzichtigheid[^18] moet gebeuren. Zoals blijkt uit de voorgaande zin zal dergelijke vordering niet noodzakelijk, of zelfs meestal niet, overeenstemmen met het bedrag van de gevraagde ontheffing. Indien de ontheffing uiterst twijfelachtig is, kan geen terugvordering worden geboekt.
+Indien de onderneming een bezwaar indient (of een ambtshalve ontheffing aanvraagt), moet de vennootschap dit in haar boekhouding op een passende wijze verwerken. De Commissie benadrukt hierbij dat de inschrijving op de balans van het ingestelde bezwaar of verhaal als activum (door de boeking van een vordering of eventueel een debitering van een schuldenrekening, i.c. een daartoe gecreëerde subrekening 4529 *Betwiste belastingen*) een verantwoorde waardering van deze*vordering*vereist die met de nodige omzichtigheid[^18] moet gebeuren. Zoals blijkt uit de voorgaande zin zal dergelijke vordering niet noodzakelijk, of zelfs meestal niet, overeenstemmen met het bedrag van de gevraagde ontheffing. Indien de ontheffing uiterst twijfelachtig is, kan geen terugvordering worden geboekt.
 
 ## Bijkomende aanslag na balansdatum
 Indien een onderneming na de afsluiting van het boekjaar en vóór het opmaken van de jaarrekening door de raad van bestuur een belangrijke bijkomende aanslag ontvangt die betrekking heeft op de inkomsten betreffende vorige boekjaren moet deze bijkomende aanslag volgens de Commissie in de jaarrekening van de onderneming worden opgenomen.

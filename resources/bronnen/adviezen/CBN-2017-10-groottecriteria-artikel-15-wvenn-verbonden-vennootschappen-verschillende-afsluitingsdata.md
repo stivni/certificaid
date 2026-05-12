@@ -28,31 +28,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:24Z'
+  generated_at: '2026-05-12T23:38:36Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 3
       max_section_chars: 7248
-      file_size_chars: 10730
+      file_size_chars: 10729
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2017/10 – Groottecriteria artikel 15 W.Venn. – Verbonden vennootschappen – Verschillende afsluitingsdata - Wijziging van consolidatiekring
 
@@ -69,7 +64,7 @@ De beoordeling van de groottecriteria vindt plaats op de balansdatum van de venn
 
 ## In aanmerking te nemen balansdata
 Wanneer de balansdata van de verbonden vennootschappen van elkaar verschillen, vindt de beoordeling van de groottecriteria plaats op basis van de laatst opgemaakte jaarrekeningen van de verbonden vennootschappen.[^6]
- Met de* laatst opgemaakte jaarrekening* kan uitsluitend worden bedoeld de *jaarrekening met betrekking tot het laatst afgesloten boekjaar*.
+ Met de*laatst opgemaakte jaarrekening* kan uitsluitend worden bedoeld de *jaarrekening met betrekking tot het laatst afgesloten boekjaar*.
 
 ***Voorbeeld*** 
 

@@ -31,31 +31,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:08Z'
+  generated_at: '2026-05-12T23:38:18Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (20 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 19
       max_section_chars: 15306
-      file_size_chars: 28728
+      file_size_chars: 28726
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (20 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2012/7 - De boekhoudkundige verwerking van de tax shelter in hoofde van de investeerder Advies van 17 april 2012
 
@@ -79,7 +74,7 @@ De wet voorziet daarenboven in een aantal andere voorwaarden die meer bepaald be
 - de partijen kunnen aan de investeerder een optie toekennen die hem toelaat om na afloop van de wettelijke termijn van onoverdraagbaarheid van maximaal 18 maanden (en minder indien de film wordt afgewerkt alvorens deze termijn afloopt) [^12] zijn rechten op het werk te verkopen voor een vooraf afgesproken prijs; 
 - de investeerder dient de vrijgestelde winst op een afzonderlijke rekening van het passief van zijn balans te boeken. Deze winst kan niet tot grondslag dienen voor de berekening van enige beloning of toekenning (“onaantastbaarheidsvoorwaarde”)[^13]. 
 
-Deze voorwaarden dienen nageleefd te worden gedurende de volledige fase van tijdelijke vrijstelling van de winst[^14] (met betrekking tot dit begrip van tijdelijke vrijstelling zie *infra*, nr. 6). Indien deze voorwaarden daadwerkelijk worden nageleefd, dienen zij opgenomen te worden in attesten waardoor nadien een definitieve vrijstelling van de winst bekomen kan worden (zie* infra*, nr. 7).
+Deze voorwaarden dienen nageleefd te worden gedurende de volledige fase van tijdelijke vrijstelling van de winst[^14] (met betrekking tot dit begrip van tijdelijke vrijstelling zie *infra*, nr. 6). Indien deze voorwaarden daadwerkelijk worden nageleefd, dienen zij opgenomen te worden in attesten waardoor nadien een definitieve vrijstelling van de winst bekomen kan worden (zie*infra*, nr. 7).
 
 Als tegenprestatie voor zijn investering, verkrijgt de investeerder productie- en exploitatierechten van het werk (met name het gedeelte dat in de praktijk het “equity-deel” wordt genoemd). In het kader van de lening ontvangt hij tevens een vorderingsrecht jegens de productievennootschap[^15]. Wat de rechten betreft die verbonden zijn aan de productie en de exploitatie van het werk, wordt in dit advies enkel het bijzondere, maar het in de praktijk meest voorkomende geval behandeld waarbij de rechten enkel betrekking hebben op een deel van de netto-opbrengst die het werk oplevert. Deze rechten worden meestal APNI-rechten genoemd (aandeel van de producent in de netto-inkomsten). 
 
@@ -126,7 +121,7 @@ De Commissie meent dat een investering in de tax shelter niet tot doel heeft om 
 
 De vennootschap die investeert in een in aanmerking komend werk, ondersteunt namelijk vaak een specifiek project met name de productie van desbetreffend werk en niet de algemene werking van de productievennootschap. Het betreft een specifieke investering die meestal vreemd is aan de eigen bedrijfsuitoefening van de investerende vennootschap en die beperkt is in de tijd. De tax shelter-bepalingen vereisen geen enkel stabiel verband van financiële, industriële of commerciële aard tussen de investeerder en de productievennootschap. 
 
-De opbrengstrechten worden gekwalificeerd als vlottende actiefbestanddelen die worden geboekt onder de geldbeleggingen (rubriek VIII.B. Overige beleggingen). Aangezien de opbrengstrechten noch aan vastrentende effecten noch aan termijndeposito’s kunnen worden gelijkgesteld, dienen zij bij voorkeur te worden geboekt op een subrekening 51 Aandelen. De Commissie is van plan om aan de Regering voor te stellen om de benaming en indeling van rekening 51 te wijzigen in * Aandelen en geldbeleggingen andere dan vastrentende beleggingen.*
+De opbrengstrechten worden gekwalificeerd als vlottende actiefbestanddelen die worden geboekt onder de geldbeleggingen (rubriek VIII.B. Overige beleggingen). Aangezien de opbrengstrechten noch aan vastrentende effecten noch aan termijndeposito’s kunnen worden gelijkgesteld, dienen zij bij voorkeur te worden geboekt op een subrekening 51 Aandelen. De Commissie is van plan om aan de Regering voor te stellen om de benaming en indeling van rekening 51 te wijzigen in *Aandelen en geldbeleggingen andere dan vastrentende beleggingen.*
 
 Te verrichten boekingen tijdens de verschillende fasen van het vrijstellingsmechanisme van de tax shelter
 De volgende analyse wordt geïllustreerd door een voorbeeld waarbij een investerende vennootschap een investering doet ten belope van 100, waarvan 40 in de vorm van leningen en 60 in de vorm van verwerving van de rechten op het in aanmerking komend werk.

@@ -32,31 +32,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:25Z'
+  generated_at: '2026-05-12T23:38:36Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 4
-      max_section_chars: 4757
-      file_size_chars: 8356
+      max_section_chars: 4756
+      file_size_chars: 8355
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2017/11 – Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening
 
@@ -85,7 +80,7 @@ De invulling van het begrip reële waarde werd opgenomen in artikel 97, B, KB W.
 
 Artikel 97, B, KB W.Venn. maakt een onderscheid tussen afgeleide financiële instrumenten en financiële instrumenten. Op basis van het CBN-advies 2010/12 – De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten[^10], wordt dit onderscheid als volgt uiteengezet:
 
-“Het dynamisch karakter van de internationale financiële markten heeft tot gevolg dat vandaag de dag niet enkel gebruik wordt gemaakt van de klassieke primaire financiële instrumenten zoals aandelen en obligaties, maar ook van verschillende soorten afgeleide financiële instrumenten, zoals gestandaardiseerde en niet-gestandaardiseerde termijncontracten (*futures*), opties en* swaps*.”.
+“Het dynamisch karakter van de internationale financiële markten heeft tot gevolg dat vandaag de dag niet enkel gebruik wordt gemaakt van de klassieke primaire financiële instrumenten zoals aandelen en obligaties, maar ook van verschillende soorten afgeleide financiële instrumenten, zoals gestandaardiseerde en niet-gestandaardiseerde termijncontracten (*futures*), opties en*swaps*.”.
 
 De samenlezing van artikel 97, B, KB W.Venn. en de beginselen van CBN-advies 2010/12 doen besluiten dat een financieel vast activum niet valt onder de definitie van een financieel instrument conform het Belgische boekhoudrecht.[^11]
  Dit leidt er vervolgens toe dat de beginselen van artikel 97, B, KB W. Venn. omtrent de invulling van het begrip reële waarde geen toepassing kennen voor de toelichtingsvereisten uit artikel 91, XX, tweede lid KB W.Venn. Als gevolg hiervan bestaat er geen conceptuele definitie voor de invulling van het begrip reële waarde specifiek voor de toelichtingsvereisten onder artikel 91, XX, tweede lid KB W.Venn.

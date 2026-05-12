@@ -41,31 +41,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:44Z'
+  generated_at: '2026-05-12T23:38:54Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (10 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 9
-      max_section_chars: 7854
-      file_size_chars: 24326
+      max_section_chars: 7851
+      file_size_chars: 24323
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (10 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2022/01 – Fusies en splitsingen van vennootschappen met een negatief nettoactief
 
@@ -77,7 +72,7 @@ In onderhavig advies buigt de Commissie zich eerst over de mogelijkheid om derge
 ## Probleemstelling en analyse
 Net zoals de derde en zesde Europese richtlijn betreffende fusies en splitsingen van naamloze vennootschappen[^2],[^3] waarvan zij de omzetting naar Belgisch recht moest verzekeren, bevat de wet van 29 juni 1993 tot wijziging, wat de fusies en splitsingen van vennootschappen betreft, van de wetten op de handelsvennootschappen, gecoördineerd op 30 november 1935[^4] (hierna: de wet van 29 juni 1993) geen enkele bepaling die vennootschappen met een boekhoudkundig negatief nettoactief verbiedt om deel te nemen aan een fusie of splitsing.
 
-De rechtsleer bleef evenwel verdeeld wat betreft de uitvoerbaarheid van dergelijke verrichtingen wegens het standpunt dat werd ingenomen in de memorie van toelichting bij de wet van 29 juni 1993. Hierin werd opgenomen dat de verrichting waarbij een vennootschap zonder nettoactief door een andere vennootschap werd overgenomen, niet als een fusie kon worden aangemerkt omwille van volgende reden: “*Bij een dergelijke verrichting worden de aandeelhouders of vennoten van de overgenomen vennootschap* […]* geen aandeelhouders of vennoten van de overnemende vennootschap aangezien in dat geval het kapitaal *[of de inbreng]* van de overnemende vennootschap niet wordt verhoogd*”[^5] ,[^6]. Deze redenering was op dezelfde wijze van toepassing op splitsingen[^7], alsook op partiële splitsingen, die later in het Belgisch recht werden geïntroduceerd[^8], aangezien een aandelenruil eveneens een essentieel onderdeel uitmaakte van de definitie van dergelijke verrichting[^9].
+De rechtsleer bleef evenwel verdeeld wat betreft de uitvoerbaarheid van dergelijke verrichtingen wegens het standpunt dat werd ingenomen in de memorie van toelichting bij de wet van 29 juni 1993. Hierin werd opgenomen dat de verrichting waarbij een vennootschap zonder nettoactief door een andere vennootschap werd overgenomen, niet als een fusie kon worden aangemerkt omwille van volgende reden: “*Bij een dergelijke verrichting worden de aandeelhouders of vennoten van de overgenomen vennootschap* […]*geen aandeelhouders of vennoten van de overnemende vennootschap aangezien in dat geval het kapitaal*[of de inbreng]*van de overnemende vennootschap niet wordt verhoogd*”[^5] ,[^6]. Deze redenering was op dezelfde wijze van toepassing op splitsingen[^7], alsook op partiële splitsingen, die later in het Belgisch recht werden geïntroduceerd[^8], aangezien een aandelenruil eveneens een essentieel onderdeel uitmaakte van de definitie van dergelijke verrichting[^9].
 
 Nadien werd deze problematiek noch in het Wetboek van Vennootschappen, noch in het Wetboek van vennootschappen en verenigingen verder verduidelijkt.
 

@@ -53,31 +53,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:33Z'
+  generated_at: '2026-05-12T23:38:43Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (41 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 40
       max_section_chars: 16397
-      file_size_chars: 80013
+      file_size_chars: 80011
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (41 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
@@ -93,7 +88,7 @@ De beslissing om een voorziening voor risico’s of kosten aan te leggen is een 
 
 De Commissie benadrukt hierbij dat de voorzieningen voor risico’s en kosten moeten voldoen aan de eisen van voorzichtigheid, oprechtheid en goede trouw.[^7] 
 
-Met onderhavig advies verduidelijkt de Commissie de vorming, de besteding en de terugname van voorzieningen en worden een aantal algemene principes dienaangaande in herinnering gebracht. Behoudens expliciet anders vermeld, geldt onderhavig advies eveneens voor *grote*[^8]* ondernemingen* en *grote*[^9]* verenigingen en stichtingen*. Het advies gaat niet in op de behandeling van de voorzieningen naar aanleiding van een fusie/splitsing/inbreng.
+Met onderhavig advies verduidelijkt de Commissie de vorming, de besteding en de terugname van voorzieningen en worden een aantal algemene principes dienaangaande in herinnering gebracht. Behoudens expliciet anders vermeld, geldt onderhavig advies eveneens voor *grote*[^8]*ondernemingen* en *grote*[^9]*verenigingen en stichtingen*. Het advies gaat niet in op de behandeling van de voorzieningen naar aanleiding van een fusie/splitsing/inbreng.
 
 ## Juridische basis
 De verplichting tot vorming van voorzieningen vloeit voort uit artikel 33, eerste lid van het koninklijk besluit tot uitvoering van het Wetboek van vennootschappen (hierna: KB W.Venn.). Dit artikel stelt dat er rekening moet worden gehouden met alle voorzienbare risico's, mogelijke verliezen en ontwaardingen, ontstaan tijdens het boekjaar waarop de jaarrekening betrekking heeft of tijdens voorgaande boekjaren, zelfs indien deze risico's, verliezen of ontwaardingen slechts gekend zijn tussen de balansdatum en het ogenblik waarop de jaarrekening door het bestuursorgaan van de vennootschap wordt opgesteld. In de gevallen waarin, bij gebreke aan objectieve beoordelingscriteria, de waardering van de voorzienbare risico's, de mogelijke verliezen en de ontwaardingen onvermijdelijk aleatoir is, wordt hiervan melding gemaakt in de toelichting, wanneer de betrokken bedragen rekening houdend met de doelstelling van artikel 24, eerste lid KB W.Venn., belangrijk zijn.

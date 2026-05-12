@@ -28,51 +28,30 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:21:59Z'
+  generated_at: '2026-05-12T23:36:58Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A7: titel en intro-paragraaf (regels 52–69) zijn over meerdere korte regels gebroken — de titel is gesplitst over 3 regels en de intro-paragraaf heeft een ontbrekende zinsaanzet op regel 67 ('om een nieuwe norm...' begint mid-zin, begin van de zin ontbreekt). A2: Inhoudstafel (regels 73–128) bevat dotted-leader resten ('---- ... ---- 4'). Structureel verder intact."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232433
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233943
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 6
-      max_section_chars: 11377
-      file_size_chars: 25088
+      max_section_chars: 11376
+      file_size_chars: 25083
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: "A7: titel en intro-paragraaf (regels 52–69) zijn over meerdere korte regels gebroken — de titel is gesplitst over 3 regels en de intro-paragraaf heeft een ontbrekende zinsaanzet op regel 67 ('om een nieuwe norm...' begint mid-zin, begin van de zin ontbreekt). A2: Inhoudstafel (regels 73–128) bevat dotted-leader resten ('---- ... ---- 4'). Structureel verder intact."
-      concrete_problemen:
-        - regel: 52
-          categorie: A6
-          type: scrambled-words
-          voorbeeld: Geconsolideerde tekst...\ntoepassing van de wet...\nvoorkoming van het...
-        - regel: 67
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: "om een nieuwe norm, maar een samensmelting... (ontbreekt: 'Het gaat niet')"
-        - regel: 74
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: ALGEMENE BEPALINGEN ------...------- 4
 ---
-Geconsolideerde tekst door het Instituut van de Belastingadviseurs en de Accountants (ITAA) van de norm van het IAB en de richtlijn van het BIBF inzake de
+Geconsolideerde tekst door het Instituut van de Belastingadviseurs en de Accountants (ITAA) van de norm van het IAB en de richtlijn van het BIBF inzake de toepassing van de wet van 18 september 2017 tot
 
-toepassing van de wet van 18 september 2017 tot
-
-voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het
-
-gebruik van contanten
+voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten
 
 Op 31 maart 2020 hebben de Nationale Raad van het Beroepsinstituut van Boekhouders-Fiscalisten
 respectievelijk een richtlijn en een norm goedgekeurd inzake de toepassing van de wet van 18
@@ -184,9 +163,7 @@ b) voor de geconsolideerde tekst van de norm van het IAB en de richtlijn van het
 
 19° “ netwerk”: de grotere structuur waartoe een beroepsbeoefenaar of kantoor behoort:
 
-a) die op samenwerking is gericht; en
-
-b) die duidelijk is gericht op winst- of kostendeling, of het delen van gemeenschappelijke eigendom, zeggenschap of bestuur, een gemeenschappelijk beleid en procedures inzake kwaliteitsbeheersing, een gemeenschappelijke bedrijfsstrategie, het gebruik van een gemeenschappelijke merknaam of een aanzienlijk deel van de bedrijfsmiddelen.
+a) die op samenwerking is gericht; en b) die duidelijk is gericht op winst- of kostendeling, of het delen van gemeenschappelijke eigendom, zeggenschap of bestuur, een gemeenschappelijk beleid en procedures inzake kwaliteitsbeheersing, een gemeenschappelijke bedrijfsstrategie, het gebruik van een gemeenschappelijke merknaam of een aanzienlijk deel van de bedrijfsmiddelen.
 
 20° “CFI”: de Cel voor financiële informatieverwerking bedoeld in artikel 76 van de Wet.
 
@@ -321,9 +298,7 @@ Voor zover nodig, verwijzen de beroepsbeoefenaars naar de mededelingen van hun r
 BIJLAGEN
 
 financiering van terrorisme en tot beperking van het gebruik van contanten maken integraal deel uit van
-de Wet. Ze zijn hieronder opgenomen en maken dus ook integraal deel uit van deze geconsolideerde
-
-verwezen wordt, wordt uitdrukkelijk vermeld dat het om artikelen van de betrokken bijlage gaat.
+de Wet. Ze zijn hieronder opgenomen en maken dus ook integraal deel uit van deze geconsolideerde verwezen wordt, wordt uitdrukkelijk vermeld dat het om artikelen van de betrokken bijlage gaat.
 
 ## Bijlage I. Variabelen ten minste in overweging te nemen in de integrale risicobeoordeling
 
@@ -413,9 +388,7 @@ beoordelingen, gedetailleerde evaluatierapporten, of gepubliceerde follow-uprapp
 
 b) landen die volgens geloofwaardige bronnen significante niveaus van corruptie of andere criminele activiteit hebben;
 
-a) landen waarvoor sancties, embargo's of soortgelijke maatregelen gelden die
-
-b) landen die financiering of ondersteuning verschaffen voor terroristische activiteiten, of
+a) landen waarvoor sancties, embargo's of soortgelijke maatregelen gelden die b) landen die financiering of ondersteuning verschaffen voor terroristische activiteiten, of
 op het grondgebied waarvan als terroristisch aangemerkte organisaties actief zijn.
 
 BIJLAGE IV: Beslissingsbomen ter illustratie Elk kantoor is ertoe gehouden een methodologie vast te leggen teneinde de gedragslijnen, procedures

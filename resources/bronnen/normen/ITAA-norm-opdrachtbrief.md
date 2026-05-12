@@ -25,46 +25,32 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:01Z'
+  generated_at: '2026-05-12T23:37:00Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A1/G1: pagina-residu op regels 50–53: '    OPDRACHTBRIEF', '1', '    Inhoud', '            2) Specifieke regels...' — dit zijn pagina-koptekst, paginanummer en TOC-fragment van de bron-PDF die voor de echte body staan. Regel 54 begint '2' (paginanummer). Eigenlijke inhoud start pas op regel 55. 18 headings correct aanwezig."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232433
-      run_at: '2026-05-12T23:24:34Z'
+      run_id: 20260512-233943
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 18
-      max_section_chars: 5311
-      file_size_chars: 24353
+      max_section_chars: 5307
+      file_size_chars: 24326
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: "A1/G1: pagina-residu op regels 50–53: '    OPDRACHTBRIEF', '1', '    Inhoud', '            2) Specifieke regels...' — dit zijn pagina-koptekst, paginanummer en TOC-fragment van de bron-PDF die voor de echte body staan. Regel 54 begint '2' (paginanummer). Eigenlijke inhoud start pas op regel 55. 18 headings correct aanwezig."
-      concrete_problemen:
-        - regel: 50
-          categorie: A1
-          type: form-feed
-          voorbeeld: '    OPDRACHTBRIEF\n1\n    Inhoud\n            2) Specifieke regels...'
-        - regel: 54
-          categorie: A1
-          type: form-feed
-          voorbeeld: 2 (paginanummer als standalone regel)
 ---
     OPDRACHTBRIEF
 
-1
     Inhoud
             2) Specifieke regels bij de uitvoering van de opdrachten die voorbehouden zijn aan gecertificeerde
-2
+
 Alhoewel de verplichting om een opdrachtbrief met de cliënt af te sluiten al jaren bestaat, werd
 er slechts eind 2019 een Koninklijk besluit 1 uitgevaardigd die de nadere regels bij het afsluiten
 van een opdrachtbrief nader bepaalt (IAB).
@@ -120,14 +106,11 @@ Indien de aandelen van een erkende vennootschap worden overgenomen, dient u geen
 opdrachtbrief op te stellen. Dezelfde rechtspersoon blijft immers de opdracht uitoefenen. De
 vennootschap kan een nieuwe vertegenwoordiger-natuurlijke persoon aanstellen.
 
-1 KB van 9 december 2019 tot vastlegging van een reglement inzake de kwaliteitstoetsing van de externe leden van het Instituut van de
+1 KB van 9 december 2019 tot vastlegging van een reglement inzake de kwaliteitstoetsing van de externe leden van het Instituut van de accountants en de belastingconsulenten en tot nadere regeling van het gebruik van de opdrachtbrief (hierna uitvoeringsbesluit)
 
-accountants en de belastingconsulenten en tot nadere regeling van het gebruik van de opdrachtbrief (hierna uitvoeringsbesluit)
-2
   WER -art.III 74.tot III 77. In geval van inbreuk: strafrechtelijke sanctie : 26 tot 10.000€ WER – art.XV-70 en
 XV -77-7°
 
-3
 Indien er cliënteel wordt overgenomen dan komt er, gelet op het intuitu personae karakter van
 de opdracht van de beroepsbeoefenaar, een volledige nieuwe overeenkomst tot stand dewelke
 de instemming van de cliënt vereist.
@@ -188,7 +171,6 @@ leggen welke bijdragen aan een zorgvuldige uitoefening van de opdracht zoals bij
 
 3 Vennoot, zaakvoerder of bestuurder, ITAA extern beroepsbeoefenaar - Art.42 Wet 17/03/2019
 
-4
           Gelet op de verantwoordelijkheid die Boek XX van het Wetboek van Economisch Recht legt bij
           de beroepsbeoefenaars inzake de opsporing van ondernemingen in moeilijkheden, kan in de
           opdrachtbrief worden voorzien dat de cliënt de beroepsbeoefenaar op de hoogte moet brengen
@@ -249,8 +231,6 @@ bepaalde prestaties vereist zijn.
 
 4 Artikel 44 van de wet van 17 maart 2019.
 
-5
-
 ## 8. Bewaring van de stukken
 De opdrachtbrief dient aan te geven waar de stukken en bescheiden zullen worden bewaard. Dit
 dient te worden afgestemd op de werkwijze die gehanteerd wordt bij de aanlevering van de
@@ -306,7 +286,6 @@ gedurende een bepaalde periode bijvoorbeeld worden opgevangen.
 
 5 In de mate dat de lastgeving die de basis vormt van de handtekeningsbevoegdheid of wettelijke beperkingen dit niet verhinderen.
 
-6
 Om praktische redenen kan de vertegenwoordiger van de rechtspersoon bijvoorbeeld ook zijn
 handtekening delegeren aan de vertegenwoordiger-natuurlijke persoon, in het geval dat deze laatste
 zelf de rechtspersoon niet kan vertegenwoordigen 6.
@@ -352,7 +331,6 @@ melding van beide hoedanigheden.
 6 Bijvoorbeeld: als de vertegenwoordiger-natuurlijke persoon weliswaar bestuurder is van een rechtspersoon-NV, maar geen individuele
 vertegenwoordigingsbevoegdheid bezit ten aanzien van deze rechtspersoon-NV.
 
-7
      3) Delegatie van handtekeningsbevoegdheid
 Ook de natuurlijk persoon-vertegenwoordiger kan in principe zijn handtekening overdragen.
 
@@ -400,7 +378,6 @@ overleg met zijn cliënt, een opdrachtbrief opmaakt. In de praktijk blijkt de vo
 ondertekening van de opdrachtbrief niet altijd even evident (bijvoorbeeld indien er dringend prestaties
 moeten verricht worden ter vrijwaring van de rechten van de cliënt).
 
-8
 Degelijke situatie mag niet toe te rekenen zijn aan de beroepsbeoefenaar zelf die dit naar alle
 redelijkheid zal moeten kunnen verantwoorden bij een eventueel deontologisch onderzoek.
 
@@ -455,11 +432,10 @@ wijze boekhoudkundige en/of fiscale activiteiten te verrichten voor derden.
        gecertificeerd accountants
 
 7 Artikel 42 van de wet van 17 maart 2019 betreffende de accountants en de belastingadviseurs
-8
+
     Bijvoorbeeld bij het indienen van de fiscale aangifte via Tax-on-web.
 9 Artikel 16 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants
 
-9
         De vertegenwoordiger-natuurlijke persoon kan zijn handtekening niet delegeren in het kader van
         opdrachten die voorbehouden zijn aan gecertificeerd accountants 10.
 
@@ -487,8 +463,6 @@ wijze boekhoudkundige en/of fiscale activiteiten te verrichten voor derden.
 
 10 Artikel 16 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants
 11 Artikel 17 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants
-12
+
      Artikel 17 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants
 13 Artikel 17 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants
-
-10

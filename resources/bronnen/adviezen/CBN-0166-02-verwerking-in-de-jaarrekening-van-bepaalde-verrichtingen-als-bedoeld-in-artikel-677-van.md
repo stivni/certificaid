@@ -36,37 +36,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:48Z'
+  generated_at: '2026-05-12T23:37:57Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'C1: 2 bullet-glyphs (•) als PDF-opsommingsteken i.p.v. markdown-conventie (-). Overige opsommingen gebruiken correct "-".'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:30Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 0
       max_section_chars: 7812
       file_size_chars: 7812
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: 'C1: 2 bullet-glyphs (•) als PDF-opsommingsteken i.p.v. markdown-conventie (-). Overige opsommingen gebruiken correct "-".'
-      concrete_problemen:
-        - categorie: C1
-          type: bullet-glyph
-          voorbeeld: • als een inbreng gevolgd door een uitkering in natura
-        - categorie: C1
-          type: bullet-glyph
-          voorbeeld: • als een splitsing met specifieke kenmerken
 ---
 # CBN-advies 166/2 - Verwerking in de jaarrekening van bepaalde verrichtingen als bedoeld in artikel 677 van het Wetboek van vennootschappen1
 
@@ -80,9 +69,9 @@ Tot nu toe handelt immers geen enkele bepaling van het koninklijk besluit van 30
 
 De Commissie is van oordeel dat een afsplitsing - conceptueel - op twee manieren kan worden geïnterpreteerd : 
 
-• als een inbreng gevolgd door een uitkering in natura aan de aandeelhouders van de aandelen ontvangen als vergoeding voor de inbreng, of 
+- als een inbreng gevolgd door een uitkering in natura aan de aandeelhouders van de aandelen ontvangen als vergoeding voor de inbreng, of 
 
-• als een splitsing met specifieke kenmerken 
+- als een splitsing met specifieke kenmerken 
 
 De tweede benadering geniet de voorkeur. Met artikel 677 van het Wetboek van vennootschappen heeft de wetgever dergelijke verrichtingen immers duidelijk een specifiek karakter, sui generis, willen geven en de terzake geldende wettelijke regeling willen afstemmen op die voor splitsingen. 
 

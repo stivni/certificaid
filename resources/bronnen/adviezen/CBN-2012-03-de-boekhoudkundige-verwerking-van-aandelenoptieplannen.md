@@ -21,31 +21,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:07Z'
+  generated_at: '2026-05-12T23:38:17Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (13 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 12
-      max_section_chars: 10639
-      file_size_chars: 24014
+      max_section_chars: 10636
+      file_size_chars: 24009
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (13 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2012/3 – De boekhoudkundige verwerking van aandelenoptieplannen
 
@@ -66,7 +61,7 @@ Een put-optie geeft aan de houder het recht om over te gaan tot de verkoop van e
 
 In het kader van de werkgever-werknemer relatie zal er in hoofde van de werknemer een call-optie bestaan. De verkoopbelofte van de werkgever zal de werknemer ertoe aanzetten om aandeelhouder in de vennootschap-werkgever te worden.
 
-Het verkrijgen van een optie wordt vaak gekoppeld aan zogenaamde prestatiegerelateerde opschortende voorwaarden[^4], bijvoorbeeld een minimale periode van tewerkstelling. De periode waarbinnen deze voorwaarden moeten vervuld worden, wordt binnen de internationale financiële rapporteringspraktijk de “*vesting periode*” genoemd. Vanaf het ogenblik dat de opties* gevested *zijn*,* zijn deze verworven en kunnen deze uitgeoefend worden binnen de uitoefenperiode. Het is mogelijk dat de uitoefenperiode niet onmiddellijk aansluit op de *“vesting periode”* maar een tijdspanne wordt voorzien waarbinnen de opties niet kunnen uitgeoefend worden ook al werden deze na de *“vesting periode”* reeds definitief verworven. Tevens kunnen verschillende uitoefenperioden voorzien worden. Deze verschillende perioden worden in het volgende schema geïllustreerd: 
+Het verkrijgen van een optie wordt vaak gekoppeld aan zogenaamde prestatiegerelateerde opschortende voorwaarden[^4], bijvoorbeeld een minimale periode van tewerkstelling. De periode waarbinnen deze voorwaarden moeten vervuld worden, wordt binnen de internationale financiële rapporteringspraktijk de “*vesting periode*” genoemd. Vanaf het ogenblik dat de opties*gevested*zijn*,* zijn deze verworven en kunnen deze uitgeoefend worden binnen de uitoefenperiode. Het is mogelijk dat de uitoefenperiode niet onmiddellijk aansluit op de *“vesting periode”* maar een tijdspanne wordt voorzien waarbinnen de opties niet kunnen uitgeoefend worden ook al werden deze na de *“vesting periode”* reeds definitief verworven. Tevens kunnen verschillende uitoefenperioden voorzien worden. Deze verschillende perioden worden in het volgende schema geïllustreerd: 
 
 ## De uitgifte van aandelenopties
 De Optiewet stelt ondermeer dat de begunstigden alle personen zijn die direct of indirect bij de werking van een onderneming betrokken zijn en opties kunnen ontvangen wegens of naar aanleiding van de beroepswerkzaamheid[^5]. Dit betekent dat zowel werknemers, bedrijfsleiders als zelfstandigen onder het toepassingsgebied vallen[^6].
@@ -86,7 +81,7 @@ De kost, zijnde het toekomstig prijsverschil bij uitoefening, zal worden geregis
 
 Daarnaast bevestigt de Commissie in haar advies 173/1 *Overschakeling op de euro: boek-houdrechtelijke aspecten[^10] dat alle opbrengsten* en kosten van het boekjaar of van de voorgaande boekjaren (ingeval niet in voorgaande boekjaren in resultaat genomen), worden uitgedrukt in de resultatenrekening van het boekjaar (respectievelijk onder de opbrengsten en de kosten); anderzijds mogen opbrengsten en kosten van latere boekjaren niet aan het lopende boekjaar worden toegerekend; zij moeten worden verbonden aan het boekjaar waarop zij betrekking hebben.
 
-In tegenstelling tot de erkenning als kost bestaan er tevens indekkingsstrategieën dewelke conform de principes van [advies 2010/12](De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten)* De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten[^11] * dienen te worden verwerkt (bv. de aankoop van identieke call-opties die een effectieve dekking beogen).
+In tegenstelling tot de erkenning als kost bestaan er tevens indekkingsstrategieën dewelke conform de principes van [advies 2010/12](De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten)*De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten[^11]* dienen te worden verwerkt (bv. de aankoop van identieke call-opties die een effectieve dekking beogen).
 
 Daarenboven zou een vennootschap ook kunnen opteren zich in te dekken door eigen aandelen voorafgaandelijk in te kopen dewelke dan op het ogenblik van het lichten van de optie kunnen aangeboden worden aan de optiehouder. 
 
@@ -103,7 +98,7 @@ De proratering wordt toegepast om de evolutie van de verwachte koers bij uitoefe
 
 Deze voorziening vertegenwoordigt m.a.w. de bij uitoefening te realiseren minderwaarde bij verkoop van de aandelen, zijnde het verschil tussen de uitoefenprijs van de opties en de marktprijs van de onderliggende aandelen, dewelke de werkgever al dan niet reeds fysiek in haar bezit heeft.
 
-Indien de verwachte beurskoers van het onderliggend aandeel op het eerste moment van mogelijke uitoefening, bij de toekenning of daaropvolgend, lager is dan de uitoefenprijs van de optie, dan zal de uitoefening van laatstgenoemde normaliter niet plaatsvinden. Derhalve is de aanleg van een voorziening niet mogelijk (m.a.w. de opties zijn dan * “out of the money”*).* *
+Indien de verwachte beurskoers van het onderliggend aandeel op het eerste moment van mogelijke uitoefening, bij de toekenning of daaropvolgend, lager is dan de uitoefenprijs van de optie, dan zal de uitoefening van laatstgenoemde normaliter niet plaatsvinden. Derhalve is de aanleg van een voorziening niet mogelijk (m.a.w. de opties zijn dan *“out of the money”*).* *
 
 Voor wat betreft de niet-beursgenoteerde ondernemingen, zal de waarde worden vastgesteld in functie van de verwachte reële waarde[^13] van het onderliggend aandeel bij verwachte uitoefening op het ogenblik van de toekenning van de opties. Dit betekent dat, indien de opties “*in the money*” zijn, een voorziening wordt opgebouwd, gespreid over de periode tussen het moment van toekenning van de opties en het eerste moment van mogelijke uitoefening, voor het verschil tussen de uitoefenprijs van de opties en de verwachte reële waarde van de onderliggende aandelen bij het eerste moment van mogelijke uitoefening. Ook bij deze ondernemingen, is de aanleg van een voorziening om dezelfde reden uitgesloten indien de verwachte reële waarde van het aandeel op het eerste moment van mogelijke uitoefening, bij de toekenning van de optie of daaropvolgend, lager is dan de uitoefenprijs van de optie.
 

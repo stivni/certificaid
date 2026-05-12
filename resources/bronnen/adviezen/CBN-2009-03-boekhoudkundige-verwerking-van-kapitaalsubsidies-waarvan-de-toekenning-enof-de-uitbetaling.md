@@ -25,35 +25,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:53Z'
+  generated_at: '2026-05-12T23:38:03Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: *** drievoudig asterisk voor "Boekingen" op regel 177 - ETL-bug waarbij bold+italic mix resulteert in unclosed marker. Leestbaarheid van tabeltitels aangetast.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 16
-      max_section_chars: 11774
-      file_size_chars: 19614
+      max_section_chars: 11773
+      file_size_chars: 19613
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: 'D4: *** drievoudig asterisk voor "Boekingen" op regel 177 - ETL-bug waarbij bold+italic mix resulteert in unclosed marker. Leestbaarheid van tabeltitels aangetast.'
-      concrete_problemen:
-        - regel: 177
-          categorie: D4
-          type: unclosed-bold
-          voorbeeld: '***Boekingen tijdens het eerste jaar (t) - drievoudig * marker'
 ---
 # CBN-advies 2009/3 - Boekhoudkundige verwerking van kapitaalsubsidies waarvan de toekenning en/of de uitbetaling over verschillende jaren wordt gespreid
 
@@ -148,7 +139,7 @@ De kapitaalsubsidie – die overeenstemt met de som van de uit te betalen bedrag
 
 In het voorliggende geval financiert de subsidie 35% van de investering. 70% van de investering wordt afgeschreven over 33 jaar (tegen een afschrijvingspercentage van 3%), 20% over 20 jaar (tegen een afschrijvingspercentage van 5%) en 10% over 10 jaar (tegen een afschrijvingspercentage van 10%).
 
-Onderstaande tabel 1 geeft per jaar de inresultaatneming van de kapitaalsubsidie weer. De bedragen in de tabel werden gecorrigeerd om rekening te houden met de investeringsdatum (1 april) en de afschrijving* pro rata temporis* tijdens het eerste boekjaar.
+Onderstaande tabel 1 geeft per jaar de inresultaatneming van de kapitaalsubsidie weer. De bedragen in de tabel werden gecorrigeerd om rekening te houden met de investeringsdatum (1 april) en de afschrijving*pro rata temporis* tijdens het eerste boekjaar.
 
 De te ontvangen subsidie wordt a rato van 75% opgenomen in de rubriek *Kapitaalsubsidies* en a rato van 25%[^10] in de rubriek *Uitgestelde belastingen*.
 

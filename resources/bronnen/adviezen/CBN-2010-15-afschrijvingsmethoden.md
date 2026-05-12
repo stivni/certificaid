@@ -34,36 +34,31 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:58Z'
+  generated_at: '2026-05-12T23:38:08Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (14 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 13
       max_section_chars: 6417
-      file_size_chars: 23537
+      file_size_chars: 23535
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (14 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2010/15 - Afschrijvingsmethoden Advies van 6 oktober 2010
 
 ## Inleiding
-Bij de vaste activa worden die vermogensbestanddelen ingedeeld die bestemd zijn om duurzaam voor de bedrijfsuitoefening te worden gebruikt[^1]. Men kan ook zeggen dat vaste activa worden *ge*bruikt, waartegenover vlottende activa worden* ver*bruikt. Vele vaste activa hebben echter een beperkte economische levensduur. Beperkte economische levensduur duidt op een tenietgaan in de tijd van het nut van het vast actief als ondernemingsmiddel. De daling van het nut wordt stelselmatig uitgedrukt via afschrijvingen. Afschrijvingen dienen om de kost van investeringen met beperkte levensduur gespreid ten laste te nemen.
+Bij de vaste activa worden die vermogensbestanddelen ingedeeld die bestemd zijn om duurzaam voor de bedrijfsuitoefening te worden gebruikt[^1]. Men kan ook zeggen dat vaste activa worden *ge*bruikt, waartegenover vlottende activa worden*ver*bruikt. Vele vaste activa hebben echter een beperkte economische levensduur. Beperkte economische levensduur duidt op een tenietgaan in de tijd van het nut van het vast actief als ondernemingsmiddel. De daling van het nut wordt stelselmatig uitgedrukt via afschrijvingen. Afschrijvingen dienen om de kost van investeringen met beperkte levensduur gespreid ten laste te nemen.
 
 ## Waarderingsregels
 ### Algemeen
@@ -178,7 +173,7 @@ Bij afschrijvingen volgens zuivere bedrijfsdrukte wordt de levensduur van het ac
 
 - *Gemengde bedrijfsdrukte*  
 
-De basis voor de afschrijvingen is dubbel bij deze afschrijvingsmethode. Het actief wordt gelijkmatig naar gebruik afgeschreven, voor zover dit gebruik leidt tot een afschrijving die hoger is dan het* pro rata* van het gebruik over de maximale duurtijd. Is het kwantitatief gebruik over een tijdsperiode lager dan dat pro rata, dan zal men de tijd als basis voor de afschrijving nemen. 
+De basis voor de afschrijvingen is dubbel bij deze afschrijvingsmethode. Het actief wordt gelijkmatig naar gebruik afgeschreven, voor zover dit gebruik leidt tot een afschrijving die hoger is dan het*pro rata* van het gebruik over de maximale duurtijd. Is het kwantitatief gebruik over een tijdsperiode lager dan dat pro rata, dan zal men de tijd als basis voor de afschrijving nemen. 
 
 De afschrijvingsannuïteit is met andere woorden minstens gelijk aan de lineaire afschrijvingsannuïteit naar tijd.
 

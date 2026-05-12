@@ -19,31 +19,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:54Z'
+  generated_at: '2026-05-12T23:38:03Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 3
-      max_section_chars: 3332
-      file_size_chars: 6243
+      max_section_chars: 3331
+      file_size_chars: 6242
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2009/4 - Model van ongesplitst dagboek zoals bedoeld in artikel 2 van het koninklijk besluit van 26 juni 2003 betreffende de vereenvoudigde boekhouding van bepaalde VZW’s, stichtingen en IVZW’s
 
@@ -59,7 +54,7 @@ Met deze wijziging is gevolg gegeven aan een aantal concrete vragen in verband m
 
 De schrapping van het woord « minimaal » in artikel 2 en bijlage A van het besluit biedt, naar het advies van de Commissie, meer soepelheid omdat zo de mogelijkheid ontstaat om het ongesplitste dagboek niet alleen complexer maar ook eenvoudiger te maken, zoals bij voorbeeld door de kolommen weg te laten die voor het voeren van de boekhouding van die verenigingen helemaal niet dienstig zijn.
 
-Die wijziging strookt overigens met het Verslag aan de Koning dat het voornoemde koninklijk besluit van 26 juni 2003 voorafgaat. Dit verslag stelt inderdaad dat het ongesplitste dagboek "*kan en moet […] in vele gevallen worden aangepast opdat de boekhouding zou aangepast zijn aan de aard en de omvang van de activiteiten van de vereniging of de stichting"*, zolang het dagboek beperkt is tot* "de registratie van de verrichtingen met betrekking tot de mutaties in contant geld of op de rekeningen en aldus het voor die verenigingen en de stichtingen vastgestelde basisbeginsel in acht neemt"*. De wijziging die met het besluit van 15 september 2006 wordt ingevoerd, is dus wel degelijk in overeenstemming met de geest van het koninklijk besluit van 26 juni 2003.
+Die wijziging strookt overigens met het Verslag aan de Koning dat het voornoemde koninklijk besluit van 26 juni 2003 voorafgaat. Dit verslag stelt inderdaad dat het ongesplitste dagboek "*kan en moet […] in vele gevallen worden aangepast opdat de boekhouding zou aangepast zijn aan de aard en de omvang van de activiteiten van de vereniging of de stichting"*, zolang het dagboek beperkt is tot*"de registratie van de verrichtingen met betrekking tot de mutaties in contant geld of op de rekeningen en aldus het voor die verenigingen en de stichtingen vastgestelde basisbeginsel in acht neemt"*. De wijziging die met het besluit van 15 september 2006 wordt ingevoerd, is dus wel degelijk in overeenstemming met de geest van het koninklijk besluit van 26 juni 2003.
 
 Wat de handhaving betreft van het woord "minimaal" in artikel 12 en 13 alsook in bijlage B en C van het besluit, die handhaving is verantwoord gelet op de specifieke aard van de staat van inkomsten en uitgaven (bijlage B bij het besluit) en van de toelichting met onder andere de vermogensstaat (bijlage C bij het besluit). Deze bijlagen horen bij de jaarrekening die een andere finaliteit heeft dan het ongesplitste dagboek. De jaarrekening moet immers door de betrokken verenigingen en stichtingen openbaar worden gemaakt. De handhaving van het woord "minimaal" heeft tot doel duidelijke, betrouwbare en vergelijkbare jaarrekeningen voor te stellen. Het feit dat bepaalde jaarrekeningposten leeg kunnen blijven, betekent niet dat zij zouden mogen worden weggelaten, want voor een lezer van die financiële staten is die informatie *in se* pertinent.
 

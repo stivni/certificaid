@@ -33,31 +33,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:22Z'
+  generated_at: '2026-05-12T23:37:34Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:15Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (3 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:29Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:39Z'
       heading_count: 2
       max_section_chars: 2775
-      file_size_chars: 6794
+      file_size_chars: 6789
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:15Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (3 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 120/4 - Overheidsfondsen
 
@@ -87,7 +82,7 @@ In de schema's van de vierde richtlijn van de Commissie van de Europese Gemeensc
 ## II. ONDERNEMINGEN WAAROP HET BESLUIT VAN 8 OKTOBER 1976 NIET TOEPASSELIJK IS
 In de ondernemingen uit de financiële sector, waarop het besluit van 8 oktober 1976 niet toepasselijk is, hebben overheidsfondsen een ander kenmerk, verbonden aan de aard van het bedrijf. In deze ondernemingen vormen zij meestal de in bepaalde gevallen wettelijk verplichte tegenwaarde van verbintenissen tegenover derden voortvloeiend uit technische voorzieningen of wiskundige voorzieningen (verzekeringsondernemingen), spaarfondsen (spaarkassen) of cliëntendeposito's (banken en openbare kredietinstellingen). Bij deze ondernemingen gaat het er niet om tijdelijke geldoverschotten te beleggen, doch hoofdzakelijk om een tegenwaarde te vormen voor verbintenissen tegenover derden. 
 
-Terzake bepaalt het koninklijk besluit van 12 november 1979 betreffende de jaarrekening van de verzekeringsondernemingen, dat vastrentende effecten worden gerangschikt in twee aparte rubrieken : enerzijds de rubriek V. *Onroerende goederen en effecten bestemd voor belegging* B. *Roerende waarden,* 2.* Vastrentende effecten; *anderzijds de rubriek IX.* Thesauriebeleggingen *A.* Genoteerde vastrentende effecten* of B. *Overige*. 
+Terzake bepaalt het koninklijk besluit van 12 november 1979 betreffende de jaarrekening van de verzekeringsondernemingen, dat vastrentende effecten worden gerangschikt in twee aparte rubrieken : enerzijds de rubriek V. *Onroerende goederen en effecten bestemd voor belegging* B. *Roerende waarden,* 2.*Vastrentende effecten;*anderzijds de rubriek IX.*Thesauriebeleggingen*A.*Genoteerde vastrentende effecten* of B. *Overige*. 
 
 Volgens de omschrijvingen in dit besluit bevat de rubriek V.B.2. *Vastrentende effecten* de vastrentende effecten, andere dan deze die geklasseerd worden onder de *Thesauriebeleggingen*. In verband hiermee zegt het besluit dat onder : 
 

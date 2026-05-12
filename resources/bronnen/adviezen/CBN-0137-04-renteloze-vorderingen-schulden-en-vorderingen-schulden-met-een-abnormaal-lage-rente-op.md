@@ -27,35 +27,30 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:32Z'
+  generated_at: '2026-05-12T23:37:44Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:15Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (15 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:30Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 14
-      max_section_chars: 7692
-      file_size_chars: 8349
+      max_section_chars: 7689
+      file_size_chars: 8346
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:15Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (15 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 137/4 - Renteloze vorderingen (schulden) en vorderingen (schulden) met een abnormaal lage rente, op meer dan één jaar
 
-Overeenkomstig artikel 27*bis*, § 2, eerste lid,* litt*. c) van het koninklijk besluit van 8 oktober 1976 wordt bij boeking voor haar nominale waarde van een vordering op meer dan één jaar, een disconto geboekt wanneer het gaat om een renteloze vordering of een vordering met een abnormaal lage rente. Dit disconto wordt in de overlopende rekeningen van het passief geboekt en pro rata temporis in resultaat genomen.
+Overeenkomstig artikel 27*bis*, § 2, eerste lid,*litt*. c) van het koninklijk besluit van 8 oktober 1976 wordt bij boeking voor haar nominale waarde van een vordering op meer dan één jaar, een disconto geboekt wanneer het gaat om een renteloze vordering of een vordering met een abnormaal lage rente. Dit disconto wordt in de overlopende rekeningen van het passief geboekt en pro rata temporis in resultaat genomen.
 
 Artikel 27*bis*, § 4, stelt dat deze bepaling op overeenkomstige wijze van toepassing is op de renteloze schulden en schulden met een abnormaal lage rente op meer dan één jaar. 
 
@@ -94,9 +89,7 @@ Het besluit bepaalt niet uitdrukkelijk onder welke rubriek het disconto aan het 
 
 Wanneer de vordering (schuld) verband houdt met hetzij als opbrengsten (kosten) in de resultatenrekening opgenomen bedragen, hetzij de prijs van de overdracht (aanschaffing) van vaste activa, dan dient het disconto te worden beschouwd als een regularisatie van het betrokken resultaat of als een vermindering van de overdracht- of aanschaffingsprijs van het betrokken actief. 
 
-Ingeval het ontbreken van een interestvergoeding op een vordering het gevolg is van een gerechtelijk akkoord, dan wordt het disconto beschouwd als een waardevermindering op de vordering en als 
-
-zodanig geboekt. Indien een onderneming in het kader van een gerechtelijk akkoord het voordeel van een renteloze schuld bekomt, vertegenwoordigt het disconto een uitzonderlijk resultaat (764 tot 769 Andere uitzonderlijke opbrengsten). 
+Ingeval het ontbreken van een interestvergoeding op een vordering het gevolg is van een gerechtelijk akkoord, dan wordt het disconto beschouwd als een waardevermindering op de vordering en als zodanig geboekt. Indien een onderneming in het kader van een gerechtelijk akkoord het voordeel van een renteloze schuld bekomt, vertegenwoordigt het disconto een uitzonderlijk resultaat (764 tot 769 Andere uitzonderlijke opbrengsten). 
 
 ### Het disconto wordt pro rata temporis in resultaat genomen
 De toepassing van de actuariële methode voor de berekening van het disconto impliceert dat de toekomstige inresultaatneming volgens dezelfde methode plaatsvindt. Zij veronderstelt aldus een heractualisering van de toekomstige kasstromen op elke balansdatum. Deze heractualisering dient te geschieden tegen de oorspronkelijke actualisatievoet en niet tegen de marktrente op balansdatum. 

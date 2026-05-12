@@ -32,42 +32,37 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:27Z'
+  generated_at: '2026-05-12T23:38:37Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 0
-      max_section_chars: 9631
-      file_size_chars: 9631
+      max_section_chars: 9628
+      file_size_chars: 9628
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2017/18 – Afschrijving van materiële vaste activa in aanbouw en vooruitbetalingen - Inresultaatname van kapitaalsubsidies
 
 De Commissie voor Boekhoudkundige Normen werd gevraagd naar de boekhoudkundige verwerking van de volgende verrichting: een onderneming beslist een gebouw te laten bouwen voor een totaal investeringsbedrag van 800.000 euro (het gebouw). Het gebouw zal over 33 jaar worden afgeschreven. Op 31 december 20X0 werden er reeds werken gefactureerd ten bedrage van 120.000 euro, namelijk 15 % van het totaal investeringsbedrag. De onderneming komt hiervoor in aanmerking voor een subsidie van een totaalbedrag van 500.000 euro bij het Vlaams Infrastructuurfonds voor Persoonsgebonden Aangelegenheden (VIPA).[^2]
- Een eerste schijf van 125.000 euro werd uitbetaald in 20X0,* i.e.* 25 % van het totaalbedrag van de subsidie die eventueel zal worden toegekend door het VIPA.
+ Een eerste schijf van 125.000 euro werd uitbetaald in 20X0,*i.e.* 25 % van het totaalbedrag van de subsidie die eventueel zal worden toegekend door het VIPA.
 
 In onderhavig advies wordt de boekhoudkundige verwerking van het reeds gefactureerde gedeelte van de werken behandeld, alsook de inresultaatname van de subsidieschijf ontvangen in 20X0.[^3] 
 
 Voor het overige verwijst de Commissie naar CBN-advies 2011/13 omtrent overheidssubsidies[^4] en CBN-advies 2009/3 over de boekhoudkundige verwerking van kapitaalsubsidies waarvan de toekenning en/of de uitbetaling over verschillende jaren wordt gespreid[^5].
 
-Bij ontvangst van de subsidie van 125.000 euro dient de onderneming dit bedrag op te nemen op rekening 15 *Kapitaalsubsidies*. Op de afsluitingsdatum van boekjaar 20X0 moet de onderneming de onvoltooide werken die reeds werden gefactureerd tijdens het boekjaar (120.000 euro) boeken op rekening 27* Vaste activa in aanbouw en vooruitbetalingen.*
+Bij ontvangst van de subsidie van 125.000 euro dient de onderneming dit bedrag op te nemen op rekening 15 *Kapitaalsubsidies*. Op de afsluitingsdatum van boekjaar 20X0 moet de onderneming de onvoltooide werken die reeds werden gefactureerd tijdens het boekjaar (120.000 euro) boeken op rekening 27*Vaste activa in aanbouw en vooruitbetalingen.*
 
 Bij de afsluiting van boekjaar 20X0 ligt de ontvangen subsidie (125.000 euro) dus hoger dan het geboekte investeringsbedrag (120.000 euro). Op het ogenblik dat de subsidie volledig zal zijn ontvangen (500.000 euro) en dat de investering volledig is uitgevoerd (800.000 euro), zal de subsidie slechts 62,5 % vertegenwoordigen van de totale aanschaffingswaarde van de vaste activa waarvoor de subsidie werd ontvangen (het gebouw).
 
@@ -90,7 +85,7 @@ De mening van de Commissie berust op de volgende gronden:
 
 - Uit de *ratio legis* van deze bepaling blijkt dat de geleidelijke inresultaatname van de subsidie niet hoger mag zijn dan het bedrag van de geboekte afschrijvingen op de vaste activa voor de verwerving waarvan ze werden verkregen. 
 
-	Onder de regeling van het koninklijk besluit van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen verliep deze *geleidelijke afboeking “volgens een passend plan* [...],* via aanrekening op de resultatenrekening, door uitdrukkelijke aftrek* [...] *van de afschrijvingen op de vaste activa voor de verwerving waarvan* [de subsidies] *werden bekomen* [...][^9]
+	Onder de regeling van het koninklijk besluit van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen verliep deze *geleidelijke afboeking “volgens een passend plan* [...],*via aanrekening op de resultatenrekening, door uitdrukkelijke aftrek* [...] *van de afschrijvingen op de vaste activa voor de verwerving waarvan* [de subsidies] *werden bekomen* [...][^9]
 ” (eigen onderlijning). 
 
 	Het koninklijk besluit van 12 september 1983 tot wijziging van het koninklijk besluit van 8 oktober 1976 met betrekking tot de jaarrekening van de ondernemingen, dat de huidige regeling heeft ingevoerd[^10], had niet tot doel deze beperking af te schaffen, maar wel om het volgende te verduidelijken: “Kapitaalsubsidies worden voortaan toegerekend aan de financiële resultaten, zoals de interestsubsidies.”[^11]. 

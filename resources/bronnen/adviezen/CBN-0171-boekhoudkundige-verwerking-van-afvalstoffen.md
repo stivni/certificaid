@@ -27,31 +27,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:49Z'
+  generated_at: '2026-05-12T23:37:59Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:30Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 6
-      max_section_chars: 10337
-      file_size_chars: 12009
+      max_section_chars: 10335
+      file_size_chars: 12007
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN advies 171 - Boekhoudkundige verwerking van afvalstoffen
 Aan de Commissie werd gevraagd hoe de produktie, de ophaling, de vernietiging, de verwerking of de recyclage van afvalstoffen alsook de exploitatie van stortplaatsen in de jaarrekening van ondernemingen moeten worden verwerkt. De ondernemingen, zoals trouwens ook de overheid, worden immers met steeds grotere afvalverwerkingsproblemen geconfronteerd. De Commissie heeft derhalve beslist daaraan een algemeen advies te wijden. 
@@ -185,8 +180,6 @@ Indien de activiteit op andermans terrein wordt verricht, houden de bepalingen v
 
 Indien de activiteit op een eigen terrein wordt verricht, rijst de vraag of, los van de te vormen voorzieningen in verband met de verplichtingen inzake milieubescherming, waardeverminderingen moeten worden geboekt die verband houden met de minderwaarde die voor het terrein voortvloeit uit de exploitatie van de stortplaats dan wel of het aangewezen is voorzieningen te vormen voor de sanering van het terrein. 
 
-Het antwoord op die vraag zal afhangen van feitelijke elementen. Indien de ontwaarding van het terrein ingevolg de exploitatie van de stortplaats de aanschaffingswaarde van het terrein niet kan overstijgen, is de eerste benadering verantwoord. Indien de exploitatie daarentegen het terrein een negatieve waarde kan bezorgen - wat ongetwijfeld vaak het geval zal zijn - zal enkel voor de tweede benadering kunnen worden 
-
-geopteerd.
+Het antwoord op die vraag zal afhangen van feitelijke elementen. Indien de ontwaarding van het terrein ingevolg de exploitatie van de stortplaats de aanschaffingswaarde van het terrein niet kan overstijgen, is de eerste benadering verantwoord. Indien de exploitatie daarentegen het terrein een negatieve waarde kan bezorgen - wat ongetwijfeld vaak het geval zal zijn - zal enkel voor de tweede benadering kunnen worden geopteerd.
 
 [^1]: Dit heeft geen betrekking op de produkten of het deel van de produkten waarvan de economische cyclus niet daadwerkelijk is voltooid aan het einde van de boekhoudperiode. Zo zal bijvoorbeeld, indien voor het vervoer van de afvalstoffen een andere overeenkomst werd gesloten of een andere vergoeding werd afgesproken dan voor hun aanschaffing, moet de vergoeding voor het vervoer als definitief verworven worden beschouwd zodra de afvalstoffen zijn vervoerd en zal zij niet kunnen worden overgedragen ten belope van het bedrag van de op die datum opgeslagen afvalstoffen.

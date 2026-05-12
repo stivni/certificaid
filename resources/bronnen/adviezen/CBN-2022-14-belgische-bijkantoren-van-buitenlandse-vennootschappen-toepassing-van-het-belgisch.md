@@ -40,35 +40,30 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:49Z'
+  generated_at: '2026-05-12T23:39:00Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (24 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: warn
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 23
       max_section_chars: 26807
-      file_size_chars: 56224
+      file_size_chars: 56222
       flags:
         - name: max_section_size
           status: warn
           detail: 'langste sectie op ####-niveau: 26807 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (24 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2022/14 - Belgische bijkantoren van buitenlandse vennootschappen: toepassing van het Belgisch boekhoudrecht - begrip “bijkantoor” – publicatieplicht (update)
 
@@ -119,9 +114,7 @@ Volgens het Hof[^28] vereist het autonoom begrip van bijkantoor de vier volgende
 
 Het Hof heeft beslist dat er geen sprake is van onderworpenheid aan de leiding en het toezicht van het moederbedrijf:
 
-“wanneer de vertegenwoordiger ‘zijn werkzaamheid en zijn arbeidstijd in wezen vrij kan 
-
-organiseren’ [...] zonder daarbij aan de instructies van het moederbedrijf te zijn gebonden; wanneer het hem vrij staat verscheidene firma's te vertegenwoordigen die bij de [productie] en verkoop van gelijke of soortgelijke [producten] met elkaar in concurrentie staan, en wanneer hij niet daadwerkelijk betrokken is bij de afwikkeling en uitvoering van de overeenkomsten, doch zich in wezen ertoe beperkt bestellingen door te geven aan de door hem vertegenwoordigde ondernemer”[^29]. 
+“wanneer de vertegenwoordiger ‘zijn werkzaamheid en zijn arbeidstijd in wezen vrij kan organiseren’ [...] zonder daarbij aan de instructies van het moederbedrijf te zijn gebonden; wanneer het hem vrij staat verscheidene firma's te vertegenwoordigen die bij de [productie] en verkoop van gelijke of soortgelijke [producten] met elkaar in concurrentie staan, en wanneer hij niet daadwerkelijk betrokken is bij de afwikkeling en uitvoering van de overeenkomsten, doch zich in wezen ertoe beperkt bestellingen door te geven aan de door hem vertegenwoordigde ondernemer”[^29]. 
 
 ##### Rechtspraak van het Hof van Cassatie
 et Hof van Cassatie heeft zich vóór het HvJ-EU op gelijkaardige wijze uitgesproken. 

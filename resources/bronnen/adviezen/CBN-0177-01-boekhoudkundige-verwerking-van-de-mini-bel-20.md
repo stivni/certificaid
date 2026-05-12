@@ -40,31 +40,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:52Z'
+  generated_at: '2026-05-12T23:38:02Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (13 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 12
       max_section_chars: 6856
-      file_size_chars: 19941
+      file_size_chars: 19940
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (13 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 177/1 - Boekhoudkundige verwerking van de mini BEL-20
 
@@ -122,7 +117,7 @@ In de meeste gevallen zal het sluiten van de positie aanleiding geven tot een ve
 
 Eventueel vroeger geboekte waardeverminderingen dienen bij het sluiten van de positie ofwel te worden tegengeboekt ofwel te worden teruggenomen in de mate waarin de uitoefenprijs zich situeert tussen de aanschaffingswaarde en de netto-boekwaarde. 
 
-Indien de IPU zou worden uitgeoefend door levering aan de houder van de aandelen uit de korf die de index vertegenwoordigen, dient de aanschaffingswaarde van de geleverde aandelen bepaald te worden op basis van hun koersen bij het sluiten van de positie. De verkregen aandelen worden in de passende actiefpost geboekt (hetzij bij de *Geldbeleggingen*, hetzij bij de* Financiële vaste activa*). Het verschil tussen de beurswaarde van de verkregen aandelen en de aanschaffingswaarde van de IPU wordt op dezelfde wijze en in dezelfde post in resultaat genomen als bij de vereffening in contanten.
+Indien de IPU zou worden uitgeoefend door levering aan de houder van de aandelen uit de korf die de index vertegenwoordigen, dient de aanschaffingswaarde van de geleverde aandelen bepaald te worden op basis van hun koersen bij het sluiten van de positie. De verkregen aandelen worden in de passende actiefpost geboekt (hetzij bij de *Geldbeleggingen*, hetzij bij de*Financiële vaste activa*). Het verschil tussen de beurswaarde van de verkregen aandelen en de aanschaffingswaarde van de IPU wordt op dezelfde wijze en in dezelfde post in resultaat genomen als bij de vereffening in contanten.
 
 ### In de rekeningen van de emittent
 Zodra de IPU wordt verkocht, ontvangt de emittent de volledige waarde van het door hem uitgegeven recht. Hij kan ten aanzien van de IPU-houder geen enkel ander recht laten gelden. 

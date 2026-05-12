@@ -28,31 +28,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:10Z'
+  generated_at: '2026-05-12T23:38:20Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (33 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 32
-      max_section_chars: 19855
-      file_size_chars: 39012
+      max_section_chars: 19854
+      file_size_chars: 39011
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (33 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN advies 2012/18 – De boekhoudkundige verwerking van aandelenopties (als zodanig)
 
@@ -102,7 +97,7 @@ Over het algemeen koopt iemand een put als hij verwacht:
 - dat op de vervaldag de koers van het effect lager zal liggen dan de uitoefenprijs min de optiepremie; tegelijkertijd wil hij zijn risico beperken tot de optiepremie, zo de koers op de vervaldag hoger zou liggen dan de uitoefenprijs min de optiepremie (of: “out of the money”, *cfr.* infra), 
 - of dat hij de optie vóór de vervaldag met winst zal kunnen verkopen aan een operator die bij voorbeeld een extra prijsdaling verwacht. 
 
-Meestal zal de houder de put uitoefenen als de marktwaarde van het beleggingseffect kleiner is dan de uitoefenprijs op het ogenblik of op de uiterste datum waarop de optie mag worden uitgeoefend (de optie is dan “in the money”, *cfr*.* infra*). 
+Meestal zal de houder de put uitoefenen als de marktwaarde van het beleggingseffect kleiner is dan de uitoefenprijs op het ogenblik of op de uiterste datum waarop de optie mag worden uitgeoefend (de optie is dan “in the money”, *cfr*.*infra*). 
 
 #### Rechten en verplichtingen van de optieschrijver
 De schrijver van een (call- of put-) optie heeft geen keuze: op verzoek van de optiehouder moet hij het onderliggend actief leveren of kopen. In ruil voor deze verbintenis betaalt de optiekoper bij de toekenning van de optie meestal een premie aan de optieschrijver. 

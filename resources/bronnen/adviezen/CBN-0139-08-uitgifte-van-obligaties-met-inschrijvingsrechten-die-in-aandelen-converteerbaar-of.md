@@ -33,37 +33,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:37Z'
+  generated_at: '2026-05-12T23:37:47Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:15Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'C1: 5 bullet-glyphs (•) in de body als PDF-opsommingsteken i.p.v. markdown-conventie (-). ETL bullet-promotion fix heeft dit bestand gemist.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:30Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 10
       max_section_chars: 10968
       file_size_chars: 21954
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:15Z'
-      rationale: 'C1: 5 bullet-glyphs (•) in de body als PDF-opsommingsteken i.p.v. markdown-conventie (-). ETL bullet-promotion fix heeft dit bestand gemist.'
-      concrete_problemen:
-        - categorie: C1
-          type: bullet-glyph
-          voorbeeld: • Als dit bedrag wordt vergeleken met de geactualiseerde waarde
-        - categorie: C1
-          type: bullet-glyph
-          voorbeeld: '• Dat bedrag kan ook worden verkregen :'
 ---
 # CBN-advies 139/8 - Uitgifte van obligaties met inschrijvingsrechten die in aandelen converteerbaar of terugbetaalbaar zijn, en van aandelen waaraan het recht is gekoppeld om in te schrijven op later uit te geven aandelen
 
@@ -113,17 +102,17 @@ Er wordt een obligatielening ten belope van 1 000 000 uitgegeven met een looptij
 ### 40.000 + 40.000 + 40.000 + 40.000 + 40.000 = 168.494
 (1,06) (1,06)2 (1,06)3 (1,06)4 (1,06)5 
 
-• Als dit bedrag wordt vergeleken met de geactualiseerde waarde van de effectieve rente van de lening, namelijk :
+- Als dit bedrag wordt vergeleken met de geactualiseerde waarde van de effectieve rente van de lening, namelijk :
 ### 60.000 + 60.000 + 60.000 + 60.000 + 60.000 = 252.742
  (1,06) (1,06)2 (1,06)3 (1,06)4 (1,06)5 
 
 bedraagt het verschil tussen beide bedragen 84.248 (252.742 - 168.494) en stemt het (in geactualiseerde vorm) overeen met het renteverschil.
-• Dat bedrag kan ook worden verkregen :
+- Dat bedrag kan ook worden verkregen :
 1. door de geactualiseerde waarde, tegen marktrente, van de «hoofdsom»- en de «rente»-component van de lening bij elkaar op te tellen : 747 258 + 168 494 = 915 752; 
 2. en dat bedrag af te trekken van de nominale waarde van de lening : 1.000.000 - 915.752 = 84.248 
 
-• De geactualiseerde waarde - tegen marktrente, op het ogenblik van de uitgifte - bedraagt dus 915 752 en moet, naar gelang van het geval, worden geboekt in post 1710 van het genormaliseerd rekeningenstelsel «Converteerbare [obligatie]lening» of 1711 «Niet-converteerbare [obligatie]lening». Het saldo van het bedrag waarop de schuldeisers-obligatiehouders hebben ingeschreven, namelijk 84 248, wordt op zijn beurt geboekt in post 11 «Uitgiftepremie».
-• De tabel over het actuarieel rendement ziet er als volgt uit :
+- De geactualiseerde waarde - tegen marktrente, op het ogenblik van de uitgifte - bedraagt dus 915 752 en moet, naar gelang van het geval, worden geboekt in post 1710 van het genormaliseerd rekeningenstelsel «Converteerbare [obligatie]lening» of 1711 «Niet-converteerbare [obligatie]lening». Het saldo van het bedrag waarop de schuldeisers-obligatiehouders hebben ingeschreven, namelijk 84 248, wordt op zijn beurt geboekt in post 11 «Uitgiftepremie».
+- De tabel over het actuarieel rendement ziet er als volgt uit :
 | **Jaar**|** Hoofdsom**|** Coupon (rentelast van 4%)**|** Afschrijving van het renteverschil**|** Totale rentlast**|
 |---|---|---|---|---|
 | **Jaar x+1**| 915.752| 40.000| 14.945| 54.945|
@@ -134,7 +123,7 @@ bedraagt het verschil tussen beide bedragen 84.248 (252.742 - 168.494) en stemt 
 | | **1.000.000**| |** 84.248**| |
 | | M.a.w. de wedersamenstelling van het na 5 jaar aan de schuldeisers-obligatiehouders terug te betalen kapitaal| | M.a.w. het bedrag van het renteverschil| |
 
-• Tot slot kan het boekingsschema met betrekking tot de uitgifte van die obligatielening met inschrijvingsrechten als volgt worden samengevat :
+- Tot slot kan het boekingsschema met betrekking tot de uitgifte van die obligatielening met inschrijvingsrechten als volgt worden samengevat :
 a) Bij de uitgifte van de lening :
 
 | | Rekening | Omschrijving | Debet | Credit |

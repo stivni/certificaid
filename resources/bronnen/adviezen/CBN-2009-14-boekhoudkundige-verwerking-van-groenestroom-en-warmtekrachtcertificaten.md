@@ -26,35 +26,30 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:55Z'
+  generated_at: '2026-05-12T23:38:05Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (33 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: warn
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 32
       max_section_chars: 30135
-      file_size_chars: 71678
+      file_size_chars: 71677
       flags:
         - name: max_section_size
           status: warn
           detail: 'langste sectie op ###-niveau: 30135 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (33 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2009/14 - Boekhoudkundige verwerking van groenestroom- en warmtekrachtcertificaten
 
@@ -240,7 +235,7 @@ Alhoewel er grote gelijkenissen zijn met advies 179/1 *Boekhoudkundige verwerkin
 ### Boekhoudkundige verwerking bij de producent
 De toekenning van de groenestroomcertificaten[^122] betreft een soort van tegemoetkoming van de overheid voor de aanzienlijke investering verricht door de producent ter productie van energie uit hernieuwbare energiebronnen[^123].
 
-De certificaten vormen, zoals tevens in het eerder verschenen advies 179/1[^124] werd gesteld, een soort van betaalmiddel en kunnen worden beschouwd als onlichamelijk roerende zakelijke rechten[^125] of roerende rechten van immateriële aard[^126]. Gezien de omschrijving die art. 95 K.B. W.Venn. geeft aan de inhoud van de post *Immateriële vaste activa*, lijkt het de Commissie aangewezen de aan de producent toegekende certificaten onder de* Immateriële vaste activa* op te nemen. Hiertoe kan de in advies 179/1 voorgestelde rekening ‘2140[^127]
+De certificaten vormen, zoals tevens in het eerder verschenen advies 179/1[^124] werd gesteld, een soort van betaalmiddel en kunnen worden beschouwd als onlichamelijk roerende zakelijke rechten[^125] of roerende rechten van immateriële aard[^126]. Gezien de omschrijving die art. 95 K.B. W.Venn. geeft aan de inhoud van de post *Immateriële vaste activa*, lijkt het de Commissie aangewezen de aan de producent toegekende certificaten onder de*Immateriële vaste activa* op te nemen. Hiertoe kan de in advies 179/1 voorgestelde rekening ‘2140[^127]
 ’ eventueel verder worden onderverdeeld.
 
 Op moment van toekenning van de certificaten (maandelijks) door de gewestelijke regulator aan de producent, worden deze certificaten in de boekhouding van de producent opgenomen aan aanschaffingswaarde[^128]. Het voorzichtigheidsprincipe[^129] in acht nemende, kan de minimumsteun die de netbeheerder zou betalen in het kader van zijn verplichte overname worden beschouwd als de aanschaffingswaarde, aangezien dit de waarde betreft waartegen de producent de certificaten steeds kan realiseren. Op hetzelfde moment wordt dit bedrag opgenomen onder de *Overige Opbrengsten*. Op deze manier worden de opbrengsten in resultaat genomen in de periode waarin ook de productiekosten worden gedragen (overeenstemmingsprincipe).

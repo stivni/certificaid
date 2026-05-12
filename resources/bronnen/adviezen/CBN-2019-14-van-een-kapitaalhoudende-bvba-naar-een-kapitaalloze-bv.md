@@ -27,31 +27,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:36Z'
+  generated_at: '2026-05-12T23:38:46Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (13 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 12
       max_section_chars: 5782
-      file_size_chars: 13831
+      file_size_chars: 13827
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (13 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2019/14 – Van een kapitaalhoudende BVBA naar een kapitaalloze BV
 
@@ -61,7 +56,7 @@ Met de wet van 23 maart 2019 tot invoering van het Wetboek van vennootschappen e
 Met onderhavig advies verduidelijkt de Commissie de wijze waarop een inbreng buiten kapitaal[^3] boekhoudkundig moet worden verwerkt. Hierbij wordt in het bijzonder aandacht besteed aan de overgang van een BVBA mét een kapitaal naar een kapitaalloze BV. Onderhavig advies heeft geen betrekking op de boekhoudkundige verwerking van de inbreng in een (I)VZW of een stichting.
 
 ## Nieuwe benaming en onderverdeling van de rekening 11 *Inbreng buiten kapitaal*
-De minimumindeling van het algemeen rekeningenstelsel (hierna: MAR) werd aangepast[^4] opdat passende rekeningen voorhanden zouden zijn voor de inbrengen in kapitaalloze vennootschappen zonder het gebruik van de rekening 100 *Kapitaal*. Voor kapitaalhoudende[^5] vennootschappen blijft het gebruik van de rekening 100* Kapitaal *en de rekening 101* Niet-opgevraagd kapitaal* ongewijzigd.
+De minimumindeling van het algemeen rekeningenstelsel (hierna: MAR) werd aangepast[^4] opdat passende rekeningen voorhanden zouden zijn voor de inbrengen in kapitaalloze vennootschappen zonder het gebruik van de rekening 100 *Kapitaal*. Voor kapitaalhoudende[^5] vennootschappen blijft het gebruik van de rekening 100*Kapitaal*en de rekening 101*Niet-opgevraagd kapitaal* ongewijzigd.
 
 Voor de kapitaalloze boekhoudplichtige ondernemingen, andere dan de (I)VZW’s en de stichtingen, wordt voortaan de rekening 11 van het MAR gebruikt voor de ontvangen of toegekende inbrengen. De rekening 11 heeft een nieuwe benaming gekregen - *Inbreng buiten kapitaal* - en wordt verder onderverdeeld als volgt:
 
@@ -86,7 +81,7 @@ Een BV opgericht na 1 mei 2019 heeft geen kapitaal. De rubriek I. *Inbreng* beva
  Een verhoging van de inbreng kan echter ook plaatsvinden zonder uitgifte van bijkomende aandelen. In dergelijk geval heeft de verhoging van de inbreng niet noodzakelijk een statutenwijziging tot gevolg.[^9]
  In dat geval aanvaardt de algemene vergadering de verhoging van de inbreng zonder uitgifte van nieuwe aandelen bij een gewoon meerderheidsbesluit. Dit besluit wordt vastgesteld bij authentieke akte[^10], doch zonder dat daaraan bijzondere bekendmakingsverplichtingen zijn verbonden aangezien dergelijke verrichting geen nadeel aan derden kan toebrengen en in de jaarrekening van de vennootschap moet worden weergegeven.[^11] 
 
-Het ingebrachte eigen vermogen, bij oprichting of bij een latere verhoging van de inbreng, wordt in principe geboekt onder 110 *Beschikbare inbreng buiten kapitaal* en meer in het bijzonder op de rekening 1109 *Andere*. Wanneer het ingebrachte eigen vermogen krachtens de statuten onbeschikbaar is, wordt het ingebrachte vermogen evenwel geboekt op de passende subrekening van de rekening 111* Onbeschikbare inbreng buiten kapitaal*.
+Het ingebrachte eigen vermogen, bij oprichting of bij een latere verhoging van de inbreng, wordt in principe geboekt onder 110 *Beschikbare inbreng buiten kapitaal* en meer in het bijzonder op de rekening 1109 *Andere*. Wanneer het ingebrachte eigen vermogen krachtens de statuten onbeschikbaar is, wordt het ingebrachte vermogen evenwel geboekt op de passende subrekening van de rekening 111*Onbeschikbare inbreng buiten kapitaal*.
 
 Behoudens andersluidende statutaire bepalingen wordt het ingebrachte vermogen onmiddellijk volledig volstort.[^12]
  In voorkomend geval wordt het niet-opgevraagde gedeelte geboekt op het debet van een overeenstemmende subrekening van de rekening waarop het ingebrachte vermogen wordt geboekt. Op deze wijze wordt het in de jaarrekening uitgedrukte eigen vermogen gecorrigeerd met de bedragen die nog niet werden opgevraagd. De vordering op de aandeelhouder die slechts opeisbaar wordt vanaf de opvraging door het bestuursorgaan wordt aldus op een correcte wijze in de boekhouding opgenomen. Deze boekings- en voorstellingswijze is volledig in overeenstemming met het reeds gekende gebruik van de rekening 101 *Niet-opgevraagd kapitaal* bij een kapitaalhoudende vennootschap.[^13]

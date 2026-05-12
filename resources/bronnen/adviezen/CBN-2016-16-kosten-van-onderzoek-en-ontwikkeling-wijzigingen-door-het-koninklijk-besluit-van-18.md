@@ -32,31 +32,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:20Z'
+  generated_at: '2026-05-12T23:38:30Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (11 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 10
-      max_section_chars: 10099
-      file_size_chars: 17035
+      max_section_chars: 10098
+      file_size_chars: 17033
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (11 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2016/16 – Kosten van onderzoek en ontwikkeling: wijzigingen door het koninklijk besluit van 18 december 2015
 
@@ -86,7 +81,7 @@ Wanneer niet aan deze voorwaarden is voldaan, impliceert dit dat het investering
 
 ## Kosten van onderzoek gemaakt tijdens een boekjaar dat aanvangt na 31 december 2015
 ### Toepassingsgebied
-Voor kosten gemaakt tijdens het boekjaar dat aanvangt op 1 januari 2016 of later moet rekening worden gehouden met de voorwaarde die Richtlijn 2013/34/EU (cfr. *supra*) stelt, namelijk dat kosten van onderzoek niet meer op de balans mogen voorkomen. Het voormelde koninklijk besluit van 18 december 2015 wijzigt dan ook de inhoud van de rubriek* Immateriële vaste activa* in die zin.
+Voor kosten gemaakt tijdens het boekjaar dat aanvangt op 1 januari 2016 of later moet rekening worden gehouden met de voorwaarde die Richtlijn 2013/34/EU (cfr. *supra*) stelt, namelijk dat kosten van onderzoek niet meer op de balans mogen voorkomen. Het voormelde koninklijk besluit van 18 december 2015 wijzigt dan ook de inhoud van de rubriek*Immateriële vaste activa* in die zin.
 
 Onder “onderzoek” moet worden verstaan, de originele, systematisch uitgevoerde werkzaamheden, in de hoop inzicht te verkrijgen en nieuwe wetenschappelijke of technische kennis te verwerven.[^8] 
 
@@ -149,7 +144,7 @@ De kostprijs om een immaterieel actief intern te genereren, zoals salarissen en 
 ### Vermeldingen in de toelichting
 In het volledig schema (VOL 6.2.2) moeten ondernemingen een gedetailleerde opgave doen van de kosten van onderzoek en ontwikkeling die worden geactiveerd. Bovendien geldt voor deze vennootschappen de verplichting om in het jaarverslag informatie toe te voegen omtrent de werkzaamheden op het gebied van onderzoek en ontwikkeling (verplichting op basis van artikel 96, § 1, 4° W.Venn. en artikel 100, 6° W.Venn.).
 
-In het verkort schema (VKT 6.1.1) wordt een globaal overzicht gegeven van de immateriële vaste activa die worden geboekt op de rekening 21 *Immateriële vaste activa*. Voor kleine vennootschappen geldt geen verplichting om een verdere opsplitsing mee te delen van de immateriële vaste activa zodat de kosten van onderzoek en ontwikkeling, geboekt op rekening 210* Kosten van onderzoek en ontwikkeling*, niet afzonderlijk terug te vinden zijn in de gepubliceerde jaarrekening. De vennootschappen die een jaarrekening opstellen volgens het verkort schema moeten in de toelichting wel het bedrag vermelden van de onder de immateriële vaste activa opgenomen kosten van onderzoek en ontwikkeling (artikel 60 KB W.Venn.). Met betrekking tot de kosten van onderzoek en ontwikkeling die onmiddellijk in kosten werden genomen, geldt voor kleine vennootschappen geen verplichting gelijkaardig aan de verplichting vermeld in artikel 96, § 1, 4° W.Venn. en artikel 100, 6° W.Venn.
+In het verkort schema (VKT 6.1.1) wordt een globaal overzicht gegeven van de immateriële vaste activa die worden geboekt op de rekening 21 *Immateriële vaste activa*. Voor kleine vennootschappen geldt geen verplichting om een verdere opsplitsing mee te delen van de immateriële vaste activa zodat de kosten van onderzoek en ontwikkeling, geboekt op rekening 210*Kosten van onderzoek en ontwikkeling*, niet afzonderlijk terug te vinden zijn in de gepubliceerde jaarrekening. De vennootschappen die een jaarrekening opstellen volgens het verkort schema moeten in de toelichting wel het bedrag vermelden van de onder de immateriële vaste activa opgenomen kosten van onderzoek en ontwikkeling (artikel 60 KB W.Venn.). Met betrekking tot de kosten van onderzoek en ontwikkeling die onmiddellijk in kosten werden genomen, geldt voor kleine vennootschappen geen verplichting gelijkaardig aan de verplichting vermeld in artikel 96, § 1, 4° W.Venn. en artikel 100, 6° W.Venn.
 
 Indien gebruik wordt gemaakt van de regeling vermeld in het Verslag aan de Koning (cfr. voetnoot 5 van onderhavig advies) is het, hoewel daaromtrent geen expliciete verplichting is opgenomen in het koninklijk besluit, volgens de Commissie hoogst aangewezen om de aanschaffingswaarde en geboekte afschrijving afzonderlijk te vermelden in de toelichting teneinde de band te verduidelijken tussen de in de boekhouding opgenomen bedragen (aanschaffingswaarde – geboekte afschrijving) en de weergave ervan in de jaarrekening.
 

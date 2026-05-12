@@ -28,39 +28,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:21:59Z'
+  generated_at: '2026-05-12T23:36:58Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Zelfde patroon als aww-reglement: sectietitels binnen hoofdsecties staan als plain-text in de body i.p.v. als ###-headings (bijv. 'Definities', 'Toepassingsgebied ratione personae', 'Interne procedures', 'Clientacceptatiebeleid' etc.). A6: titel op regels 52–55 is over meerdere regels gebroken. Inhoud otherwise compleet."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232433
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233943
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 16
       max_section_chars: 8493
-      file_size_chars: 42872
+      file_size_chars: 42866
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: "Zelfde patroon als aww-reglement: sectietitels binnen hoofdsecties staan als plain-text in de body i.p.v. als ###-headings (bijv. 'Definities', 'Toepassingsgebied ratione personae', 'Interne procedures', 'Clientacceptatiebeleid' etc.). A6: titel op regels 52–55 is over meerdere regels gebroken. Inhoud otherwise compleet."
-      concrete_problemen:
-        - regel: 52
-          categorie: A6
-          type: scrambled-words
-          voorbeeld: Richtlijn...\n     van 31 maart 2020...\n     2017 tot voorkoming...
-        - regel: 133
-          categorie: B5
-          type: other
-          voorbeeld: 'Definities (plain-text i.p.v. ### heading in body)'
 ---
 Richtlijn van het Beroepsinstituut van erkende Boekhouders en Fiscalisten
      van 31 maart 2020 inzake de toepassing van de wet van 18 september
@@ -273,9 +260,7 @@ namelijk:
 19° “ netwerk”: de grotere structuur waartoe een beroepsbeoefenaar of kantoor
       behoort:
 
-     a)   die op samenwerking is gericht; en
-
-     b)   die duidelijk is gericht op winst- of kostendeling, of het delen van
+     a)   die op samenwerking is gericht; en b)   die duidelijk is gericht op winst- of kostendeling, of het delen van
           gemeenschappelijke eigendom, zeggenschap of bestuur, een
           gemeenschappelijk         beleid      en     procedures       inzake
              kwaliteitsbeheersing, een gemeenschappelijke bedrijfsstrategie, het

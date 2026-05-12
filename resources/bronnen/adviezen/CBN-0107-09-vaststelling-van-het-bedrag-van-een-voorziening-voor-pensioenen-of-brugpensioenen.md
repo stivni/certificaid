@@ -35,37 +35,32 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:12Z'
+  generated_at: '2026-05-12T23:37:26Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:14Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:29Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:39Z'
       heading_count: 0
-      max_section_chars: 2214
-      file_size_chars: 2214
+      max_section_chars: 2213
+      file_size_chars: 2213
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:14Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 107/9 - Vaststelling van het bedrag van een voorziening voor pensioenen of brugpensioenen
 
 Een onderneming heeft de Commissie gevraagd hoe het bedrag moet worden vastgesteld van een voorziening tot dekking van pensioenverplichtingen of brugpensioenen en, inzonderheid, of artikel 27*bis*, § 2 van het koninklijk besluit van 8 oktober 1976 ter zake van toepassing is. Dit artikel over renteloze of abnormaal laag rentende schulden en vorderingen op meer dan één jaar, bepaalt dat zij voor hun nominale waarde in de balans moeten worden opgenomen en dat tegelijkertijd het disconto op deze schulden en vorderingen, berekend tegen de geldende marktrente, in de overlopende rekeningen respectievelijk van het actief of van het passief, moet worden geboekt.
 
-De Commissie heeft er in de eerste plaats op gewezen dat artikel 27*bis*, § 2 enkel slaat op vorderingen en schulden en derhalve niet van toepassing is op pensioenverplichtingen die op het passief van de balans in de post* Voorzieningen voor risico's en kosten* moeten worden geboekt.
+De Commissie heeft er in de eerste plaats op gewezen dat artikel 27*bis*, § 2 enkel slaat op vorderingen en schulden en derhalve niet van toepassing is op pensioenverplichtingen die op het passief van de balans in de post*Voorzieningen voor risico's en kosten* moeten worden geboekt.
 
 Het bedrag van de nodige voorziening moet in elk geval rekening houden met het sterfterisico, enerzijds, en met de factor rente, anderzijds. Wat deze laatste factor betreft, zullen de datum waarop de kost moet worden betaald en de spreiding ervan uiteraard een weerslag hebben, via actualisatie, bij de rechtstreekse waardering van de te vormen voorziening, indien deze datum meer dan een jaar verwijderd is. Voor de berekeningsmodaliteiten van deze voorziening wordt in het Verslag aan de Koning bij het koninklijk besluit van 6 november 1987[^1] tot wijziging van het jaarrekeningbesluit van 8 oktober 1976, verwezen naar het koninklijk besluit van 15 mei 1985 betreffende de activiteiten van de private voorzorgsinstellingen.
 

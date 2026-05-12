@@ -59,35 +59,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:43Z'
+  generated_at: '2026-05-12T23:37:52Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B4: plain-text-header in all-caps op regel 236 zonder ##-prefix. Overige structuur correct; dit is een ETL-omissie op 1 sectietitel.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:30Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 49
       max_section_chars: 16370
-      file_size_chars: 105765
+      file_size_chars: 105762
       flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: 'B4: plain-text-header in all-caps op regel 236 zonder ##-prefix. Overige structuur correct; dit is een ETL-omissie op 1 sectietitel.'
-      concrete_problemen:
-        - regel: 236
-          categorie: B4
-          type: allcaps-struct-label
-          voorbeeld: WAARDEVERMINDERINGEN OP MONETAIRE ACTIVA IN DEVIEZEN EN REGULARISERING VAN MONETAIRE POSTEN IN DEVIEZEN
 ---
 # CBN-advies 152/1 - Boekingen van deviezenverrichtingen en verwerking van tegoeden en verplichtingen in deviezen in de jaarrekening
 
@@ -521,9 +512,7 @@ Het niet gelopen pro rata van report of deport wordt uitgesteld via de overlopen
 
 Het volgende boekjaar worden de overgedragen opbrengsten uit het voorgaande boekjaar *pro rata temporis* als volgt in resultaat genomen : 
 
-493 Over te dragen opbrengsten 
-
-aan 756 Diverse financiële opbrengsten 
+493 Over te dragen opbrengsten aan 756 Diverse financiële opbrengsten 
 
 Afwikkeling van de verrichting :
 Bij de afwikkeling van de verrichting worden de gekochte of geleverde deviezen in Belgische franken omgerekend volgens de geldende modaliteiten voor de omrekening van contant gekochte of geleverde deviezen.
@@ -542,7 +531,7 @@ In dit geval wordt slechts een resultaat uitgedrukt ten belope van het (geprorat
 | | 55 | Bank FRF | 6.295.000 | |
 | | 756 | Diverse financiële opbrengsten | 15.334 | |
 
-- *De gekochte of verkochte deviezen worden geboekt tegen de geldende omrekeningskoers op de dag van de afwikkeling van de termijnverrichting. In dit geval wordt het verschil tussen deze omrekeningskoers en de in de koers van de termijnverrichting begrepen contantkoers, als wisselresultaat uitgedrukt. * 
+- *De gekochte of verkochte deviezen worden geboekt tegen de geldende omrekeningskoers op de dag van de afwikkeling van de termijnverrichting. In dit geval wordt het verschil tussen deze omrekeningskoers en de in de koers van de termijnverrichting begrepen contantkoers, als wisselresultaat uitgedrukt.* 
 
 In voornoemd voorbeeld is de boeking als volgt, tegen een omrekeningskoers voor de FRF van 6,278 BEF : 
 

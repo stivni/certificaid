@@ -20,31 +20,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:31Z'
+  generated_at: '2026-05-12T23:38:41Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 3
       max_section_chars: 3421
-      file_size_chars: 6464
+      file_size_chars: 6463
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2018/19 – Boekhoudkundige verwerking van winstpremies
 
@@ -58,7 +53,7 @@ Sinds 1 januari 2018 kunnen de vennootschappen beslissen een deel of het geheel 
 
 Deze winstpremie kan worden gedefinieerd als “*[een] premie die wordt toegekend in speciën indien de vennootschap of de groep waarvan de vennootschap deel uitmaakt[^6], een deel of het geheel van de winst van het boekjaar wenst toe te kennen aan de werknemers[^7], met uitzondering van de bedrijfsleiders[^8], waarvan de specifieke modaliteiten overeenstemmen met de voorschriften van de wet van 22 mei 2001 en opgenomen zijn in een beslissing van de gewone of buitengewone algemene vergadering*”[^9].
 
-De premie “*mag niet worden ingevoerd ter vervanging of omzetting van loon, premies, voordelen in natura of om het even welk voordeel, of aanvulling van al wat voorafgaat* [...]”[^10]. Bovendien mag “*het totaalbedrag van de deelnames in de winst,* [...]* bij afsluiting van het boekjaar, de limiet van 30 % van de totale brutoloonmassa niet overschrijden*”[^11].
+De premie “*mag niet worden ingevoerd ter vervanging of omzetting van loon, premies, voordelen in natura of om het even welk voordeel, of aanvulling van al wat voorafgaat* [...]”[^10]. Bovendien mag “*het totaalbedrag van de deelnames in de winst,* [...]*bij afsluiting van het boekjaar, de limiet van 30 % van de totale brutoloonmassa niet overschrijden*”[^11].
 
 Er bestaan twee types winstpremies. De identieke winstpremie is een “*premie waarvan het bedrag gelijk is voor alle werknemers of waarvan het bedrag overeenkomt met een gelijk percentage van het loon van alle werknemers*”. De gecategoriseerde winstpremie is een “*premie waarvan de hoogte van het bedrag afhankelijk is van de verdeelsleutel die wordt toegepast op basis van objectieve criteria*”[^12].
 

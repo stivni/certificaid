@@ -26,31 +26,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:21:59Z'
+  generated_at: '2026-05-12T23:37:13Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:14Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (54 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:28Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:38Z'
       heading_count: 53
-      max_section_chars: 16269
-      file_size_chars: 82159
+      max_section_chars: 16267
+      file_size_chars: 82148
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:14Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (54 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # ADVIES 3-3 - INZAKE DE BOEKHOUDKUNDIGE VERWERKING VAN VERRICHTINGEN VAN TIJDELIJKE HANDELSVENNOOTSCHAPPEN
 ## INLEIDING
@@ -112,7 +107,7 @@ Dit advies schetst de krachtlijnen van de wijze waarop verrichtingen van een ge�
 ## AFZONDERLIJKE BOEKHOUDING VOOR EEN TIJDELIJKE HANDELSVENNOOTSCHAP ?
 Een eerste, vaak gestelde vraag is in hoeverre de naleving van artikel 3, derde lid van de boekhoudwet vereist dat voor een tijdelijke handelsvennootschap een afzonderlijke boekhouding wordt gevoerd.
 
-De Memorie van Toelichting bij de oorspronkelijke wet van 17 juli 1975 op de boekhouding van de ondernemingen stelt: «* De in tijdelijke verenigingen of in deelnemingsvereniging gevoerde activiteiten zullen naar luidt het derde lid van artikel 3 geboekt moeten worden in afzonderlijke rekeningen, gehouden door de zaakvoerder(s) van de vereniging ». *
+De Memorie van Toelichting bij de oorspronkelijke wet van 17 juli 1975 op de boekhouding van de ondernemingen stelt: «*De in tijdelijke verenigingen of in deelnemingsvereniging gevoerde activiteiten zullen naar luidt het derde lid van artikel 3 geboekt moeten worden in afzonderlijke rekeningen, gehouden door de zaakvoerder(s) van de vereniging ».*
 
 De Memorie van Toelichting lijkt op het eerste gezicht voldoende expliciet : de activiteiten van de tijdelijke handelsvennootschap worden verwerkt in afzonderlijke rekeningen. Maar dit veronderstelt daarom nog niet dat er een afzonderlijke boekhouding wordt gevoerd. De zaakvoerder-boekhouder kan immers binnen het bestaande rekeningenstelsel van de onderneming een reeks aparte rekeningen creëren waarin de verrichtingen van de tijdelijke handelsvennootschap worden verwerkt. 
 
@@ -131,7 +126,7 @@ In de praktijk stelt men tevens vast dat de verrichtingen van geïntegreerde tij
 
 ## INTEGRATIE VAN DE REKENINGEN VAN EEN TIJDELIJKE HANDELSVENNOOTSCHAP IN DE REKENINGEN VAN DE GEASSOCIEERDE ONDERNEMINGEN
 ### Frequentie en volledigheid van de integratie
-De Memorie van Toelichting bij de wet van 17 juli 1975 vermeldt in dit verband:* “(...) Daaruit volgt dat deze verrichtingen hoewel voor gemeenschappelijke rekening uitgevoerd, niet door de andere vennoten oorspronkelijk in hun boekhouding dienen te worden opgenomen. Deze laatsten zullen de tijdelijke of deelnemingsvereniging in hun boekhouding mogen beschouwen als een afzonderlijke juridische entiteit. In hun inventaris en jaarrekeningen zullen ze echter hun deel moeten vermelden in de bruto-tegoeden en –verbintenissen van de vereniging en in de resultaten daarvan (...)”.*
+De Memorie van Toelichting bij de wet van 17 juli 1975 vermeldt in dit verband:*“(...) Daaruit volgt dat deze verrichtingen hoewel voor gemeenschappelijke rekening uitgevoerd, niet door de andere vennoten oorspronkelijk in hun boekhouding dienen te worden opgenomen. Deze laatsten zullen de tijdelijke of deelnemingsvereniging in hun boekhouding mogen beschouwen als een afzonderlijke juridische entiteit. In hun inventaris en jaarrekeningen zullen ze echter hun deel moeten vermelden in de bruto-tegoeden en –verbintenissen van de vereniging en in de resultaten daarvan (...)”.*
 
 Uit deze passage zou men kunnen afleiden dat de wetgever via artikel 3, derde lid van de wet van 17 juli 1975, de partners slechts de verplichting wilde opleggen om het vermogen en het resultaat van de tijdelijke handelsvennootschap in de jaarrekening uit te drukken (balans en resultatenrekening) en bijgevolg dat deze transcriptie slechts eens per jaar of eventueel eens om de zes maanden zou kunnen geschieden voor de deelgenoten voor wie een semestriële rapportering geldt.
 
@@ -372,7 +367,7 @@ Nochtans kan de integratie van het resultaat wel worden aanvaard in de uitzonder
 #### De eenvoudige integratie van kosten en opbrengsten
 De eenvoudige integratie van de kosten en opbrengsten bestaat erin dat de deelgenoot in zijn eigen resultatenrekening diens aandeel opneemt in het totaal van de kosten enerzijds en in het totaal van de opbrengsten anderzijds.
 
-Er is hier geen sprake van compensatie tussen kosten en opbrengsten. Nochtans geeft ook hier de resultatenrekening geen passend beeld omdat de kosten in hun geheel worden ondergebracht in één enkele rubriek (meestal de rubriek *“andere bedrijfskosten”*, maar dit kan ook de rubriek* “60” of “61”* zijn) terwijl het aandeel in de opbrengsten wordt ondergebracht in de rubriek Omzet of in de rubriek *Andere bedrijfsopbrengsten.* 
+Er is hier geen sprake van compensatie tussen kosten en opbrengsten. Nochtans geeft ook hier de resultatenrekening geen passend beeld omdat de kosten in hun geheel worden ondergebracht in één enkele rubriek (meestal de rubriek *“andere bedrijfskosten”*, maar dit kan ook de rubriek*“60” of “61”* zijn) terwijl het aandeel in de opbrengsten wordt ondergebracht in de rubriek Omzet of in de rubriek *Andere bedrijfsopbrengsten.* 
 
 Vooral langs de kostenzijde stuit deze werkwijze op bezwaren, omdat deze techniek leidt tot het artificieel opkrikken van de toegevoegde waarde. De groepering van alle kosten van de tijdelijke handelsvennootschap in de rubriek “64” leidt er immers toe dat kosten van intermediair verbruik (zoals de kosten van onderaanneming, van aankoop van goederen en van diensten) worden ondergebracht onder de andere bedrijfskosten en aldus worden beschouwd als een component van de toegevoegde waarde.
 
@@ -613,7 +608,7 @@ De problematiek van de waarderingsregels bij tijdelijke handelsvennootschappen h
 
 De waardering binnen een tijdelijke handelsvennootschap kan in theorie gebeuren volgens de regels bepaald in het contract van tijdelijke handelsvennootschap, of via de keuze van de zaakvoerder van de tijdelijke handelsvennootschap die voor de boekhouding instaat. De praktijk leert dat de waarderingsbeginselen zelden formeel in het contract van tijdelijke handelsvennootschap worden vastgelegd. Dat wordt overgelaten aan de zaakvoerder die zijn eigen waarderingsprincipes toepast, die evenwel meestal niet overeenstemmen met die van de andere deelgenoten. Voor hen vormt dit natuurlijk een probleem : zij moeten deze regels afstemmen op hun eigen waarderingsregels en de verkregen gegevens herwerken bij integratie.
 
-Maar zulke herwerkingen kunnen zeer delicaat zijn, vooral wanneer ze leiden tot een toename van kosten of een vermindering van opbrengsten. Ook op het vlak van de winstopname geeft dit problemen. Als voorbeeld geldt de verwarring die kan ontstaan wanneer het contract van tijdelijke handelsvennootschap de voorkeur geeft aan de *percentage of completion method*, terwijl de winstopname bij de deelgenoot gebeurt volgens de* completed contract method*.
+Maar zulke herwerkingen kunnen zeer delicaat zijn, vooral wanneer ze leiden tot een toename van kosten of een vermindering van opbrengsten. Ook op het vlak van de winstopname geeft dit problemen. Als voorbeeld geldt de verwarring die kan ontstaan wanneer het contract van tijdelijke handelsvennootschap de voorkeur geeft aan de *percentage of completion method*, terwijl de winstopname bij de deelgenoot gebeurt volgens de*completed contract method*.
 
 Bovendien vereisen deze onderlinge afstemmingen bijkomend administratief werk : de boekingen in verband met afschrijvingen, waardeverminderingen en voorzieningen moeten worden geëlimineerd en vervolgens vervangen worden door nieuwe.
 
@@ -631,7 +626,7 @@ De toepassing van deze methode steunt op de vijf volgende principes:
 
 Dit principe houdt in dat in de betrokken financiële staten geen afschrijvingen, waardeverminderingen of voorzieningen worden geboekt.
 
-De zaakvoerder die instaat voor de boekhouding verschaft met behulp van de interne* rapportering* bestemd voor de andere leden van de tijdelijke handelsvennootschap alle nuttige financiële, economische, administratieve en juridische inlichtingen die dienstig zijn om hen in staat te stellen, elk voor zich, de passende afschrijvingen, waardeverminderingen en voorzieningen te boeken.
+De zaakvoerder die instaat voor de boekhouding verschaft met behulp van de interne*rapportering* bestemd voor de andere leden van de tijdelijke handelsvennootschap alle nuttige financiële, economische, administratieve en juridische inlichtingen die dienstig zijn om hen in staat te stellen, elk voor zich, de passende afschrijvingen, waardeverminderingen en voorzieningen te boeken.
 
 | 
 
@@ -662,7 +657,7 @@ De volledige bedrijfseconomische aansluiting tussen deze twee balansposten[^11] 
 
 Volgens het Belgisch boekhoudrecht worden in de passiefrubriek 46 immers de *Ontvangen vooruitbetalingen op bestellingen* uitgedrukt zonder rekening te houden met het feit of deze geïnde en/of gefactureerde bedragen overeenstemmen met het economisch gerealiseerde omzetcijfer.
 
-Een zuiver financiële voorschotfactuur, waar geen prestaties tegenover staan, komt dus terecht in de* rubriek “46”* maar heeft geen uitstaans met het economisch gerealiseerde omzetcijfer.
+Een zuiver financiële voorschotfactuur, waar geen prestaties tegenover staan, komt dus terecht in de*rubriek “46”* maar heeft geen uitstaans met het economisch gerealiseerde omzetcijfer.
 
 Volgens de hoger uiteengezette benadering dient de rubriek 46 gecorrigeerd te worden om het economisch gerealiseerde omzetcijfer uit te drukken. Zulke correctie kan erin bestaan het overschot[^12] over te boeken naar de handelsschulden[^13], of het tekort[^14] te corrigeren door een op te stellen factuur op te nemen in de boeken.
 
@@ -685,7 +680,7 @@ De doorrekening van de financiële resultaten is eerder een praktische aangelege
 
 Het lijkt passend dat alle financiële resultaten op een zelfde wijze worden behandeld. Dit houdt in dat deze verrekening zal slaan op alle financiële opbrengsten en kosten, zodat de rubrieken “65” en “75” als het ware op nul worden geplaatst. 
 
-| **Vijfde principe: De toepassing van het waarderingsprincipe* « Lower of Cost or Market » *wordt overgelaten aan de individuele partners.**|
+| **Vijfde principe: De toepassing van het waarderingsprincipe*« Lower of Cost or Market »*wordt overgelaten aan de individuele partners.**|
 |---|
 
 In het kader van het beheer van het project zullen de verantwoordelijken periodiek de technische kostprijs moeten toetsen aan de technische verkoopprijs.
@@ -738,7 +733,7 @@ Indien alle partners het erover eens zijn om de financiële opbrengsten en koste
 
 | 
 
-**Vijfde principe: De toepassing van het waarderingsprincipe* Lower of Cost or Market* wordt toegewezen aan het bestuur van de tijdelijke handelsvennootschap.**
+**Vijfde principe: De toepassing van het waarderingsprincipe*Lower of Cost or Market* wordt toegewezen aan het bestuur van de tijdelijke handelsvennootschap.**
 
  |
 
@@ -816,7 +811,7 @@ Deze bepaling strekt ertoe het volledig karakter van de jaarrekening te bewerkst
 
 Daarbij kan een onderscheid worden gemaakt tussen twee benaderingen:
 
-De eerste benadering is een de* minimis* benadering die erin bestaat enkel de samengevoegde financiële informatie te verstrekken, te weten: 
+De eerste benadering is een de*minimis* benadering die erin bestaat enkel de samengevoegde financiële informatie te verstrekken, te weten: 
 
 - op balansniveau: het samengevoegde bedrag van de courante activa en passiva, alsook het samengevoegd bedrag van de lange-termijn activa en lange-termijnpassiva; 
 

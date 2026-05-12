@@ -25,39 +25,30 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:54Z'
+  generated_at: '2026-05-12T23:38:04Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: mixing van * en ** markers rond geciteerde wettekst op regel 454. ETL-artefact bij rendering van geciteerde wettekst met italic. L1 warn voor max_section_size (27912 chars) is acceptabel (auto-split door chunker).'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: warn
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 43
-      max_section_chars: 27912
-      file_size_chars: 107708
+      max_section_chars: 27911
+      file_size_chars: 107705
       flags:
         - name: max_section_size
           status: warn
-          detail: 'langste sectie op ###-niveau: 27912 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          detail: 'langste sectie op ###-niveau: 27911 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: 'D4: mixing van * en ** markers rond geciteerde wettekst op regel 454. ETL-artefact bij rendering van geciteerde wettekst met italic. L1 warn voor max_section_size (27912 chars) is acceptabel (auto-split door chunker).'
-      concrete_problemen:
-        - regel: 454
-          categorie: D4
-          type: unclosed-bold
-          voorbeeld: § 18. *"Voorzieningen...artikel 20, lid 1[^75] **,
 ---
 # CBN-advies 2009/9 - Boekhoudkundige gevolgen van de aanvaardingsplicht inzake afgedankte elektrische en elektronische apparaten
 
@@ -127,7 +118,7 @@ In Vlarea II wordt de aanvaardingsplicht met betrekking tot AEEA specifiek behan
 2. Medische hulpmiddelen (met uitzondering van alle geïmplanteerde en geïnfecteerde producten); 
 3. Automaten. 
 
-De EEA bedoeld onder 3° worden beschouwd als zijnde *professionele EEA*, deze opgenomen onder 1° en 2° betreffen* huishoudelijke EEA*. Het is bij afdanking m.a.w. van belang te kijken naar de aard van het afgedankte product en niet wie het product afdankt. Zo zal een afgedankte deskcomputer steeds huishoudelijke EEA vormen, ongeacht of een particulier of een onderneming deze afdankt. Deze deskcomputer is dus steeds huishoudelijke AEEA, maar behoort tot de huishoudelijke afvalstoffen indien hij door een particulier wordt afgedankt of tot de bedrijfsafvalstoffen behoort indien hij door een onderneming wordt afgedankt. Dit betekent dat alle wettelijke verplichtingen met betrekking tot de inzameling, opslag en verwerking overeenkomstig hun respectievelijke catalogering als huishoudelijke dan wel als bedrijfsafvalstoffen dienen gevolgd te worden.
+De EEA bedoeld onder 3° worden beschouwd als zijnde *professionele EEA*, deze opgenomen onder 1° en 2° betreffen*huishoudelijke EEA*. Het is bij afdanking m.a.w. van belang te kijken naar de aard van het afgedankte product en niet wie het product afdankt. Zo zal een afgedankte deskcomputer steeds huishoudelijke EEA vormen, ongeacht of een particulier of een onderneming deze afdankt. Deze deskcomputer is dus steeds huishoudelijke AEEA, maar behoort tot de huishoudelijke afvalstoffen indien hij door een particulier wordt afgedankt of tot de bedrijfsafvalstoffen behoort indien hij door een onderneming wordt afgedankt. Dit betekent dat alle wettelijke verplichtingen met betrekking tot de inzameling, opslag en verwerking overeenkomstig hun respectievelijke catalogering als huishoudelijke dan wel als bedrijfsafvalstoffen dienen gevolgd te worden.
 
 Het inzamelsysteem georganiseerd in opdracht van het beheersorganisme (*cf.* *infra*) houdt rekening met deze juridische bepalingen. Zo kan een huishouden gebruik maken van de voor de huishoudelijke AEEA voorbehouden inzamelkanalen: eindverkopers, containerparken voor huishoudelijke afvalstoffen en kringloopcentra. Een bedrijf kan voor de inzameling van huishoudelijke AEEA o.a. gebruik maken van eindverkopers, KMO-containerparken of indien het een grotere hoeveelheid huishoudelijke AEEA betreft een eenmalige ophaling laten uitvoeren door het beheersorganisme.
 
@@ -459,7 +450,7 @@ Krachtens artikel 33 K.B. W.Venn. wordt bij het opstellen van de jaarrekening �
 Luidens art. 25, § 1, K.B. W.Venn. moet “*de jaarrekening duidelijk worden opgesteld en stelselmatig weergeven, enerzijds, de aard en het bedrag, op de dag waarop het boekjaar wordt afgesloten, van de bezittingen en rechten van de vennootschap, van haar schulden en verplichtingen evenals van haar eigen middelen, en anderzijds, voor het op die dag afgesloten boekjaar, de aard en het bedrag van haar kosten en haar opbrengsten.*
 
 #### Relevante adviezen Commissie voor Boekhoudkundige Normen
-**Advies 107/7* Risico's en verliezen waarvan de waardering aleatoir is* (Bulletin nr. 21 van C.B.N., januari 1988, p. 18-20)**
+**Advies 107/7*Risico's en verliezen waarvan de waardering aleatoir is* (Bulletin nr. 21 van C.B.N., januari 1988, p. 18-20)**
 
 De Commissie bepaalt in haar advies 107/7 dat de termen *onvermijdelijk aleatoire waardering* erop duiden dat de omvang van een wel omschreven, voorzienbaar risico of verlies niet alleen onzeker is, maar dat deze onzekere omvang bovendien volstrekt “onbepaalbaar” is bij gebreke aan objectieve beoordelingscriteria. Aangezien geen voorzieningen kunnen worden aangelegd voor voorzienbare of waarschijnlijke risico's of verliezen waarvan de grootte volstrekt onbepaalbaar is, is in dergelijke hypothese de onderneming ervan vrijgesteld een voorziening ten laste van de resultatenrekening te vormen, wat haar uiteraard niet ontslaat van een passende vermelding in de toelichting.
 
@@ -467,7 +458,7 @@ Toch wijst de Commissie erop dat, indien op balansdatum naar het oordeel van de 
 
 In zo'n geval is de Commissie integendeel van oordeel dat een voorziening moet worden gevormd ten minste ten belope van het kleinste geschatte bedrag. Aansluitend daarbij kan het aangewezen zijn - indien de betrokken bedragen belangrijk zijn - in de toelichting de aard van het betrokken risico evenals de mogelijkheid dat het verlies hoger kan uitvallen, te vermelden.
 
-**Advies 128/3* Bijkomende aanslag na balansdatum* (Bulletin nr. 10 van C.B.N., april 1983, p. 12)**
+**Advies 128/3*Bijkomende aanslag na balansdatum* (Bulletin nr. 10 van C.B.N., april 1983, p. 12)**
 
 Het betreft hier de vraag hoe een betwiste fiscale aanslag betreffende vorige boekjaren moet worden geboekt wanneer de inkohiering van de belasting en de betekening van de aanslag plaatsvinden na de balansdatum.
 

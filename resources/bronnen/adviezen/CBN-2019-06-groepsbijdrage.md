@@ -23,31 +23,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:34Z'
+  generated_at: '2026-05-12T23:38:44Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (13 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 12
       max_section_chars: 4494
-      file_size_chars: 13860
+      file_size_chars: 13857
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (13 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN
 
@@ -85,12 +80,12 @@ De rekening 67 *Belastingen op het resultaat* wordt gebruikt voor alle uitgaven 
 
 In de meeste gevallen wordt de groepsbijdrage-overeenkomst slechts gesloten na de afsluiting van het boekjaar (N). De groepsbijdrage-overeenkomst is in regel dus een overeenkomst die moet worden verwerkt in het volgende boekjaar (N+1). Aldus worden op de inventarisdatum van het boekjaar N de geraamde belastingen geboekt zonder rekening te houden met een groepsbijdrage-overeenkomst die in een volgend boekjaar wordt gesloten.
 
-Naar de mening van de Commissie wordt de groepsbijdrage-overeenkomst boekhoudkundig als volgt verwerkt: de geraamde belastingschuld wordt in het boekjaar N geboekt door een debitering van de rekening 6702 *Geraamde belastingen*[^14] met als tegenpost de rekening 4500* Belgische winstbelastingen*. In het volgende boekjaar (N+1), bij de afsluiting van de groepsbijdrage-overeenkomst, wordt vervolgens de rekening 4500* Belgische winstbelastingen* gedebiteerd met als tegenpost de boeking van een schuld aan de groepsvennootschap waarmee de groepsbijdrage-overeenkomst werd gesloten.[^15] 
+Naar de mening van de Commissie wordt de groepsbijdrage-overeenkomst boekhoudkundig als volgt verwerkt: de geraamde belastingschuld wordt in het boekjaar N geboekt door een debitering van de rekening 6702 *Geraamde belastingen*[^14] met als tegenpost de rekening 4500*Belgische winstbelastingen*. In het volgende boekjaar (N+1), bij de afsluiting van de groepsbijdrage-overeenkomst, wordt vervolgens de rekening 4500*Belgische winstbelastingen* gedebiteerd met als tegenpost de boeking van een schuld aan de groepsvennootschap waarmee de groepsbijdrage-overeenkomst werd gesloten.[^15] 
 
 ### In hoofde van de ontvanger van de vergoeding voor de groepsbijdrage
 In hoofde van de ontvanger van de vergoeding vormt het ontvangen bedrag, in principe, de vergoeding voor de aanwending van een actieve belastinglatentie. Een actieve belastinglatentie wordt in het Belgisch boekhoudrecht echter niet als een actiefbestanddeel uitgedrukt op de balans. Bovendien is de vergoeding niet in functie van het bedrag van het fiscale verlies van de vennootschap die de vergoeding ontvangt doch uitsluitend in functie van de belastingbesparing door de vennootschap die de *aftrek van de groepsbijdrage* toepast. In praktijk bestaat zelfs de mogelijkheid dat de vennootschap die als tegenpartij optreedt van de vennootschap die de aftrek van de groepsbijdrage toepast, haar belastbare basis verhoogt en daardoor onmiddellijk belasting moet betalen.
 
-De ontvangen (of te ontvangen) vergoeding is aldus niet het gevolg van een voorheen reeds betaalde belasting noch aan te merken als een belastingkrediet. Bijgevolg kan de ontvangen vergoeding niet worden geboekt als een regularisering van voorheen betaalde belasting en wordt deze niet geboekt op de rekening 77 *Regularisering van belastingen en terugneming van fiscale voorzieningen*. De vergoeding wordt geboekt op de rekening 764* Andere niet-recurrente bedrijfsopbrengsten*.
+De ontvangen (of te ontvangen) vergoeding is aldus niet het gevolg van een voorheen reeds betaalde belasting noch aan te merken als een belastingkrediet. Bijgevolg kan de ontvangen vergoeding niet worden geboekt als een regularisering van voorheen betaalde belasting en wordt deze niet geboekt op de rekening 77 *Regularisering van belastingen en terugneming van fiscale voorzieningen*. De vergoeding wordt geboekt op de rekening 764*Andere niet-recurrente bedrijfsopbrengsten*.
 
 ## Voorbeelden
 De binnenlandse vennootschappen A en B, die beiden hun boekjaar afsluiten op 31/12/N voldoen aan de voorwaarden om de aftrek van de groepsbijdrage toe te passen.

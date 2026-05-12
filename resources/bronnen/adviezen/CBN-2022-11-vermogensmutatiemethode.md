@@ -28,31 +28,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:47Z'
+  generated_at: '2026-05-12T23:38:59Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (75 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 74
-      max_section_chars: 16784
-      file_size_chars: 63534
+      max_section_chars: 16781
+      file_size_chars: 63472
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (75 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2022/11 – Vermogensmutatiemethode
 
@@ -122,16 +117,16 @@ Neem bijvoorbeeld vennootschappen X en Y waarvan de balansen op 31.12.20X0 als v
 ## Vennootschap X – Enkelvoudige balans op 31.12.20X0
 | ACTIVA PASSIVA|
 |---|
-| *Materiële vaste activa*| 15.000|* Eigen vermogen*| |
+| *Materiële vaste activa*| 15.000|*Eigen vermogen*| |
 | *Financiële vaste activa*| | Kapitaal| 30.000|
 | Deelneming in vennootschap Z| 10.000| Reserves| 14.000|
-| *Andere activa*| 34.000|* Schulden *| 15.000|
+| *Andere activa*| 34.000|*Schulden*| 15.000|
 | **Totaal**|** 59.000**|** Totaal**|** 59.000**|
 
 ## Vennootschap Y – Enkelvoudige balans op 31.12.20X0
 | ACTIVA PASSIVA|
 |---|
-| *Materiële vaste activa*| 10.000|* Eigen vermogen*| |
+| *Materiële vaste activa*| 10.000|*Eigen vermogen*| |
 | *Financiële vaste activa*| 2.000| Kapitaal| 8.000|
 | *Andere activa*| 4.500| Reserves| 4.500|
 | | | *Schulden* | 4.000|
@@ -144,7 +139,7 @@ De balansen van vennootschappen X en Y worden op 31.12.20X1 als volgt opgesteld:
 ## Vennootschap X – Enkelvoudige balans op 31.12.20X1
 | ACTIVA PASSIVA|
 |---|
-| *Materiële vaste activa*| 15.000|* Eigen vermogen*| |
+| *Materiële vaste activa*| 15.000|*Eigen vermogen*| |
 | *Financiële vaste activa*| | Kapitaal| 30.000|
 | Deelneming in vennootschap Y| 4.000| Reserves| 15.000[^30] |
 | Deelneming in vennootschap Z| 10.000| *Schulden*| 15.000|
@@ -154,7 +149,7 @@ De balansen van vennootschappen X en Y worden op 31.12.20X1 als volgt opgesteld:
 ## Vennootschap Y – Enkelvoudige balans op 31.12.20X1
 | ACTIVA PASSIVA|
 |---|
-| *Materiële vaste activa*| 10.000|* Eigen vermogen*| |
+| *Materiële vaste activa*| 10.000|*Eigen vermogen*| |
 | *Financiële vaste activa*| 2.000| Kapitaal| 8.000|
 | *Andere activa*| 5.000[^32] | Reserves| 5.000[^33] |
 | | | *Schulden* | 4.000|
@@ -217,7 +212,7 @@ Hypothese 1: vennootschap Y maakt in het volgende boekjaar (20X2) 1.500 euro win
 ## Vennootschap X – Enkelvoudige balans op 31.12.20X2
 | ACTIVA PASSIVA|
 |---|
-| *Materiële vaste activa*| 15.000|* Eigen vermogen*| |
+| *Materiële vaste activa*| 15.000|*Eigen vermogen*| |
 | *Financiële vaste activa*| | Kapitaal| 30.000|
 | Deelneming in vennootschap Y| 4.000| Reserves| 15.000|
 | Deelneming in vennootschap Z| 10.000| *Schulden*| 15.000|
@@ -227,7 +222,7 @@ Hypothese 1: vennootschap Y maakt in het volgende boekjaar (20X2) 1.500 euro win
 ## Vennootschap Y – Enkelvoudige balans op 31.12.20X2
 | ACTIVA PASSIVA|
 |---|
-| *Materiële vaste activa*| 10.000|* Eigen vermogen*| |
+| *Materiële vaste activa*| 10.000|*Eigen vermogen*| |
 | *Financiële vaste activa*| 2.000| Kapitaal| 8.000|
 | *Andere activa*| 6.500| Reserves| 5.000|
 | | | Resultaat van het boekjaar| 1.500|
@@ -281,7 +276,7 @@ Hypothese 2: vennootschap Y maakt tijdens het volgende boekjaar een verlies van 
 ## Vennootschap X – Enkelvoudige balans op 31.12.20X2
 | ACTIVA PASSIVA|
 |---|
-| *Materiële vaste activa*| 15.000|* Eigen vermogen*| |
+| *Materiële vaste activa*| 15.000|*Eigen vermogen*| |
 | *Financiële vaste activa*| | Kapitaal| 30.000|
 | Deelneming in vennootschap Y| 4.000| Reserves| 15.000|
 | Deelneming in vennootschap Z| 10.000| *Schulden*| 15.000|
@@ -291,7 +286,7 @@ Hypothese 2: vennootschap Y maakt tijdens het volgende boekjaar een verlies van 
 ## Vennootschap Y – Enkelvoudige balans op 31.12.20X2
 | ACTIVA PASSIVA|
 |---|
-| *Materiële vaste activa*| 10.000|* Eigen vermogen*| |
+| *Materiële vaste activa*| 10.000|*Eigen vermogen*| |
 | *Financiële vaste activa*| 2.000| Kapitaal| 8.000|
 | *Andere activa*| 3.500| Reserves| 5.000|
 | | | Resultaat van het boekjaar| (1.500)|
@@ -354,7 +349,7 @@ Hypothese 3: gedurende het boekjaar dat volgt, lijdt vennootschap Y een verlies 
 ## Vennootschap X – Enkelvoudige balans op 31.12.20X2
 | ACTIVA PASSIVA|
 |---|
-| *Materiële vaste activa*| 15.000|* Eigen vermogen*| |
+| *Materiële vaste activa*| 15.000|*Eigen vermogen*| |
 | *Financiële vaste activa*| | Kapitaal| 30.000|
 | Deelneming in vennootschap Y| 4.000| Reserves| 15.000|
 | Deelneming in vennootschap Z| 10.000| *Schulden*| 15.000|
@@ -364,7 +359,7 @@ Hypothese 3: gedurende het boekjaar dat volgt, lijdt vennootschap Y een verlies 
 ## Vennootschap Y – Enkelvoudige balans op 31.12.20X2
 | ACTIVA PASSIVA|
 |---|
-| *Materiële vaste activa*| 1.900|* Eigen vermogen*| |
+| *Materiële vaste activa*| 1.900|*Eigen vermogen*| |
 | *Financiële vaste activa*| 0| Kapitaal| 8.000|
 | *Andere activa*| 100| Reserves| 5.000|
 | | | Resultaat van het boekjaar| (15.000)|
@@ -431,17 +426,17 @@ Veronderstel dat vennootschap M op 1 maart 20X0 4.000 euro investeert om 20 % va
 ## Vennootschap M – Enkelvoudige balans op 31.12.20X0
 | ACTIVA PASSIVA|
 |---|
-| *Materiële vaste activa*| 26.000|* Eigen vermogen*| |
+| *Materiële vaste activa*| 26.000|*Eigen vermogen*| |
 | *Financiële vaste activa*| | Kapitaal| 30.000|
 | Deelneming in vennootschap Y| 4.000| Reserves| 15.000|
 | Deelneming in vennootschap Z| 10.000| Resultaat van het boekjaar| 400|
-| *Andere activa*| 20.000|* Schulden*| 14.600|
+| *Andere activa*| 20.000|*Schulden*| 14.600|
 | **Totaal**|** 60.000**|** Totaal**|** 60.000**|
 
 ## Vennootschap F – Enkelvoudige balans op 31.12.20X0
 | ACTIVA PASSIVA|
 |---|
-| *Materiële vaste activa*| 17.000|* Eigen vermogen*| |
+| *Materiële vaste activa*| 17.000|*Eigen vermogen*| |
 | *Financiële vaste activa*| 2.000| Kapitaal| 20.000|
 | *Andere activa*| 6.500| Resultaat van het boekjaar| 1.500|
 | | | *Schulden* | 4.000|
@@ -450,7 +445,7 @@ Veronderstel dat vennootschap M op 1 maart 20X0 4.000 euro investeert om 20 % va
 ## Balans opgesteld door vennootschap M op 31.12.20X0, na toepassing van de vermogensmutatiemethode en vóór consolidatie van de vennootschap Z
 | ACTIVA PASSIVA|
 |---|
-| *Materiële vaste activa*| 26.000|* Eigen vermogen*| |
+| *Materiële vaste activa*| 26.000|*Eigen vermogen*| |
 | *Financiële vaste activa*| | Kapitaal| 30.000|
 | Deelneming in vennootschap Z| 10.000| Reserves| 15.700[^55] |
 | Vennootschappen waarop vermogensmutatie is toegepast| 4.300[^56] | *Schulden*| 14.600|
@@ -486,11 +481,11 @@ In de loop van 20X1 behalen vennootschappen M en F respectievelijk een resultaat
 ## Vennootschap M – Enkelvoudige balans op 31.12.20X1
 | ACTIVA PASSIVA|
 |---|
-| *Materiële vaste activa*| 26.000|* Eigen vermogen*| |
+| *Materiële vaste activa*| 26.000|*Eigen vermogen*| |
 | *Financiële vaste activa*| | Kapitaal| 30.000|
 | Deelneming in vennootschap F| 4.000| Reserves| 15.400[^57] |
 | Deelneming in vennootschap Z| 10.000| Resultaat van het boekjaar| 500|
-| *Andere activa*| 20.500|*  Schulden*| 14.600|
+| *Andere activa*| 20.500|*Schulden*| 14.600|
 | **Totaal**|** 60.500**|** Totaal**|** 60.500**|
 
 ## Vennootschap F – Enkelvoudige balans op 31.12.20X1
@@ -505,7 +500,7 @@ In de loop van 20X1 behalen vennootschappen M en F respectievelijk een resultaat
 ## Balans opgesteld door vennootschap M op 31.12.20X1, na toepassing van de vermogensmutatiemethode en vóór consolidatie van de vennootschap Z
 | ACTIVA PASSIVA|
 |---|
-| *Materiële vaste activa*| 26.000|* Eigen vermogen*| |
+| *Materiële vaste activa*| 26.000|*Eigen vermogen*| |
 | *Financiële vaste activa*| | Kapitaal| 30.000|
 | Deelneming in vennootschap Z| 10.000| Reserves| 16.400[^58] |
 | Vennootschappen waarop vermogensmutatie is toegepast| 4.500[^59] | *Schulden*| 14.600|
@@ -549,11 +544,11 @@ Volgende boekingen worden uitgevoerd in de enkelvoudige jaarrekening van X:
 ## Vennootschap M – Enkelvoudige balans op 31.12.20X2
 | ACTIVA PASSIVA|
 |---|
-| *Materiële vaste activa*| 26.000|* Eigen vermogen*| |
+| *Materiële vaste activa*| 26.000|*Eigen vermogen*| |
 | *Financiële vaste activa*| | Kapitaal| 30.000|
 | Deelneming in vennootschap Z| 10.000| Reserves| 15.900[^60] |
 | *Andere activa*| 26.000[^61] | Resultaat van het boekjaar| 1.500[^62] |
-| | | * Schulden*| 14.600|
+| | | *Schulden*| 14.600|
 | **Totaal**|** 62.000**|** Totaal**|** 62.000**|
 
 De Commissie beperkt zich in dit voorbeeld tot de verkoop van de aandelen van vennootschap F. Er wordt verondersteld dat de moederonderneming M nog andere dochterondernemingen (Z) heeft waarover zij een controle uitoefent en dus nog steeds gehouden is tot de opmaak van een geconsolideerde jaarrekening. 
@@ -564,10 +559,10 @@ De ‘geconsolideerde’ balans kan als volgt worden weergegeven:
 
 | ACTIVA PASSIVA|
 |---|
-| *Materiële vaste activa*| 26.000|* Eigen vermogen*| |
+| *Materiële vaste activa*| 26.000|*Eigen vermogen*| |
 | *Financiële vaste activa*| | Kapitaal| 30.000|
 | Deelnemingen in vennootschap Z| 10.000| Reserves| 17.400|
-| *Andere activa*| 26.000|* Schulden *| 14.600|
+| *Andere activa*| 26.000|*Schulden*| 14.600|
 | **Totaal**|** 62.000**|** Totaal**|** 62.000**|
 
 In deze situatie is de Commissie van oordeel dat het volledige bedrag van het aandeel in het resultaat van vennootschap F dat werd opgenomen in de geconsolideerde jaarrekening van vennootschap M, in mindering moet worden gebracht van het geconsolideerde resultaat als gevolg van de verkoop van deze deelneming.[^65] 
@@ -655,8 +650,8 @@ Na de verwerving van de aandelen van vennootschap B wordt de enkelvoudige balans
 |---|
 | (Positieve) consolidatieverschillen[^71] | 290| Kapitaal| 1.500|
 | Terreinen | 660| Geconsolideerde reserves[^72] | 3.100|
-| Financiële vaste activa| | *Reserves vennootschap A*|* 300*|
-| Verbonden ondernemingen| 3.000| *Resultaat vennootschap A*|* 2.800*|
+| Financiële vaste activa| | *Reserves vennootschap A*|*300*|
+| Verbonden ondernemingen| 3.000| *Resultaat vennootschap A*|*2.800*|
 | Ondernemingen waarmee een deelnemingsverhouding bestaat| 210[^73] | Leveranciers| 1.160|
 | Liquide middelen| 1.600[^74] | | |
 | **Totaal**|** 5.760**|** Totaal**|** 5.760**|
@@ -677,10 +672,10 @@ Tijdens de periode van 1 december 20X1 tot 31 december 20X1 heeft vennootschap B
 |---|
 | Consolidatieverschillen| 232[^77] | Kapitaal| 1.500|
 | Terreinen | 660| Geconsolideerde reserves| 3.122|
-| Financiële vaste activa| | *Reserves vennootschap A*|* 300*|
-| Verbonden ondernemingen| 3.000| *Resultaat vennootschap A*|* 2.800*|
-| Vennootschappen waarop vermogensmutatie is toegepast| 290[^78] | *Resultaat vennootschap B*|* 80*|
-| Liquide middelen| 1.600| *Afschrijving consolidatieverschil*|* -58[^79] *|
+| Financiële vaste activa| | *Reserves vennootschap A*|*300*|
+| Verbonden ondernemingen| 3.000| *Resultaat vennootschap A*|*2.800*|
+| Vennootschappen waarop vermogensmutatie is toegepast| 290[^78] | *Resultaat vennootschap B*|*80*|
+| Liquide middelen| 1.600| *Afschrijving consolidatieverschil*|*-58[^79]*|
 | | | Leveranciers| 1.160|
 | **Totaal**|** 5.782**|** Totaal**|** 5.782**|
 
@@ -742,10 +737,10 @@ Bij het opmaken van de geconsolideerde jaarrekening van vennootschap A moet de d
 |---|
 | Consolidatieverschillen| 174[^86] | Kapitaal| 1.500|
 | Terreinen | 1.660| Geconsolideerde reserves| 3.624|
-| Financiële vaste activa| | *Reserves vennootschap A*|* 3.100*|
-| Verbonden ondernemingen| 3.000| *Resultaat vennootschap A*|* 500*|
-| Vennootschappen waarop vermogensmutatie is toegepast| 350[^87] | *Resultaat vennootschap B*|* 140[^88] *|
-| Liquide middelen| 1.100| *Afschrijving consolidatieverschil*|* -116[^89] *|
+| Financiële vaste activa| | *Reserves vennootschap A*|*3.100*|
+| Verbonden ondernemingen| 3.000| *Resultaat vennootschap A*|*500*|
+| Vennootschappen waarop vermogensmutatie is toegepast| 350[^87] | *Resultaat vennootschap B*|*140[^88]*|
+| Liquide middelen| 1.100| *Afschrijving consolidatieverschil*|*-116[^89]*|
 | | | Leveranciers| 1.160|
 | **Totaal**|** 6.284**|** Totaal**|** 6.284**|
 
@@ -806,10 +801,10 @@ Bij het opmaken van de geconsolideerde jaarrekening van vennootschap A moet de d
 |---|
 | Consolidatieverschillen| 174[^96] | Kapitaal| 1.500|
 | Terreinen | 510| Geconsolideerde reserves| 3.704|
-| Financiële vaste activa| | *Reserves vennootschap A*|* 3.100*|
-| Verbonden ondernemingen| 3.000| *Resultaat vennootschap A*|* 540[^97] *|
+| Financiële vaste activa| | *Reserves vennootschap A*|*3.100*|
+| Verbonden ondernemingen| 3.000| *Resultaat vennootschap A*|*540[^97]*|
 | Vennootschappen waarop vermogensmutatie is toegepast| 380[^98] | *Resultaat vennootschap B[^99]* | *180[^100]* |
-| Liquide middelen| 2.300| *Afschrijving consolidatieverschil*|* -116[^101] *|
+| Liquide middelen| 2.300| *Afschrijving consolidatieverschil*|*-116[^101]*|
 | | | Leveranciers| 1.160|
 | **Totaal**|** 6.364**|** Totaal**|** 6.364**|
 
@@ -882,10 +877,10 @@ Bij de consolidatie moet het bedrag van de door A ontvangen dividenden (20) word
 |---|
 | Consolidatieverschillen| 174| Kapitaal| 1.500|
 | Terreinen | 660| Geconsolideerde reserves| 3.744|
-| Financiële vaste activa| | *Reserves vennootschap A*|* 3.100*|
-| Verbonden ondernemingen| 3.000| *Resultaat vennootschap A*|* 580[^106] *|
-| Vennootschappen waarop vermogensmutatie is toegepast| 370[^107] | *Resultaat vennootschap B*|* 180[^108] *|
-| Liquide middelen| 2.200| *Afschrijving consolidatieverschil*|* -116[^109] *|
+| Financiële vaste activa| | *Reserves vennootschap A*|*3.100*|
+| Verbonden ondernemingen| 3.000| *Resultaat vennootschap A*|*580[^106]*|
+| Vennootschappen waarop vermogensmutatie is toegepast| 370[^107] | *Resultaat vennootschap B*|*180[^108]*|
+| Liquide middelen| 2.200| *Afschrijving consolidatieverschil*|*-116[^109]*|
 | | | Leveranciers| 1.160|
 | **Totaal**|** 6.404**|** Totaal**|** 6.404**|
 
@@ -955,10 +950,10 @@ Bij de consolidatie wordt het volledige aandeel in het resultaat van vennootscha
 |---|
 | Consolidatieverschillen| 174| Kapitaal| 1.500|
 | Terreinen | 660| Geconsolideerde reserves| 3.764|
-| Financiële vaste activa| | *Reserves vennootschap A*|* 3.100*|
-| Verbonden ondernemingen| 3.000| *Resultaat vennootschap A*|* 600*|
+| Financiële vaste activa| | *Reserves vennootschap A*|*3.100*|
+| Verbonden ondernemingen| 3.000| *Resultaat vennootschap A*|*600*|
 | Vennootschappen waarop vermogensmutatie is toegepast| 390[^113] | *Resultaat vennootschap B[^114]* | *180[^115]* |
-| Liquide middelen| 2.200| *Afschrijving consolidatieverschil*|* -116[^116] *|
+| Liquide middelen| 2.200| *Afschrijving consolidatieverschil*|*-116[^116]*|
 | | | Leveranciers| 1.160|
 | **Totaal**|** 6.424**|** Totaal**|** 6.424**|
 
@@ -1020,10 +1015,10 @@ Bij de consolidatie moet de waarde van de deelneming waarop vermogensmutatie is 
 |---|
 | Consolidatieverschillen| 116| Kapitaal| 1.500|
 | Terreinen | 660| Geconsolideerde reserves| 4.326|
-| Financiële vaste activa| | *Reserves vennootschap A*|* 3.700*|
-| Verbonden ondernemingen| 3.000| *Resultaat vennootschap A*|* 540[^122] *|
+| Financiële vaste activa| | *Reserves vennootschap A*|*3.700*|
+| Verbonden ondernemingen| 3.000| *Resultaat vennootschap A*|*540[^122]*|
 | Vennootschappen waarop vermogensmutatie is toegepast| 410[^123] | *Resultaat vennootschap B[^124]* | *260[^125]* |
-| Liquide middelen| 2.800| *Afschrijving consolidatieverschil*|* -174[^126] *|
+| Liquide middelen| 2.800| *Afschrijving consolidatieverschil*|*-174[^126]*|
 | | | Leveranciers| 1.160|
 | **Totaal**|** 6.986**|** Totaal**|** 6.986**|
 
@@ -1094,10 +1089,10 @@ Bij de consolidatie heeft de verhoging van de rubriek "Vennootschappen waarop ve
 |---|
 | Consolidatieverschillen| 174| Kapitaal| 1.500|
 | Terreinen | 660| Geconsolideerde reserves| 3.904|
-| Financiële vaste activa| | *Reserves vennootschap A*|* 3.100*|
-| Verbonden ondernemingen| 3.000| *Resultaat vennootschap A*|* 700*|
+| Financiële vaste activa| | *Reserves vennootschap A*|*3.100*|
+| Verbonden ondernemingen| 3.000| *Resultaat vennootschap A*|*700*|
 | Vennootschappen waarop vermogensmutatie is toegepast| 430[^130] | *Resultaat vennootschap B[^131]* | *180[^132]* |
-| Liquide middelen| 2.300| *Afschrijving consolidatieverschil*|* -116*|
+| Liquide middelen| 2.300| *Afschrijving consolidatieverschil*|*-116*|
 | | | *Aandeel herwaarderingsmeerwaarden B*| 40|
 | | | Leveranciers| 1.160|
 | **Totaal**|** 6.566**|** Totaal**|** 6.564**|

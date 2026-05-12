@@ -22,31 +22,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:05Z'
+  generated_at: '2026-05-12T23:38:15Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (20 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 19
       max_section_chars: 9480
-      file_size_chars: 36076
+      file_size_chars: 36075
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (20 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2011/18 – De boekhoudkundige verwerking van de renteswap (Interest Rate Swap)
 
@@ -348,7 +343,7 @@ Daarentegen dient aan het einde van de periode (zelfs) geen (negatieve) schommel
 De boekingen zijn dus gelijkaardig aan deze die werden toegepast op het vorige geval (zie III.C). 
 
 ### De IRS als indekkingsverrichting van een toekomstige schuld
-Een onderneming kan een prospectieve IRS (*forward starting swap*) afsluiten teneinde een schuld in te dekken (tegen vaste of variabele rentevoet) die ze in de toekomst zal moeten aflossen. In dit geval beginnen de interesten op de swap pas in de toekomst te lopen en worden er dus geen intresten tussen de contractdatum (*contract date*) van de IRS en de* value date* van de IRS (zijnde de datum waarop de intresten op de swap beginnen te lopen) in de resultatenrekening erkend. De IRS wordt echter wel opgenomen in de orderekeningen. Zolang het aangaan van de toekomstige schuld waarschijnlijk blijft, moet er geen voorziening worden geboekt in het geval van een eventueel latente minderwaarde op de IRS. Indien het daarentegen niet meer waarschijnlijk is dat de schuld zal worden aangegaan, dient de IRS verwerkt te worden als een speculatieve verrichting. 
+Een onderneming kan een prospectieve IRS (*forward starting swap*) afsluiten teneinde een schuld in te dekken (tegen vaste of variabele rentevoet) die ze in de toekomst zal moeten aflossen. In dit geval beginnen de interesten op de swap pas in de toekomst te lopen en worden er dus geen intresten tussen de contractdatum (*contract date*) van de IRS en de*value date* van de IRS (zijnde de datum waarop de intresten op de swap beginnen te lopen) in de resultatenrekening erkend. De IRS wordt echter wel opgenomen in de orderekeningen. Zolang het aangaan van de toekomstige schuld waarschijnlijk blijft, moet er geen voorziening worden geboekt in het geval van een eventueel latente minderwaarde op de IRS. Indien het daarentegen niet meer waarschijnlijk is dat de schuld zal worden aangegaan, dient de IRS verwerkt te worden als een speculatieve verrichting. 
 
 Eenmaal de schuld wordt opgenomen, zal de onderneming zich in één van de twee voorgaande situaties (geval III.C of III.D) bevinden en zal ze de IRS dienovereenkomstig verwerken. 
 

@@ -26,31 +26,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:53Z'
+  generated_at: '2026-05-12T23:38:02Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (10 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 9
       max_section_chars: 9184
-      file_size_chars: 25265
+      file_size_chars: 25262
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (10 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # Boekhoudkundige verwerking van broeikasgasemissierechten
 (Update november 2008)
@@ -138,9 +133,9 @@ De IASB heeft op 2 december 2004 de *Interpretation 3 Emission Rights* uitgevaar
 - Volgens de IFRIC (BC 33) beantwoordt de boete die eventueel verschuldigd is op grond van het omgezette Europese systeem, aan de voorwaarden van een voorziening in de zin van de norm IAS 37 en moet zij ten opzichte van de verplichting tot inlevering van emissierechten, afzonderlijk worden verwerkt. 
 - De gegevens die in de toelichting bij de jaarrekening moeten worden opgenomen, dienen met toepassing van de normen IAS 1, 20, 37 en 38 (IFRIC BC 35) te worden vastgesteld. 
 
-Bij de* Interpretation 3 Emission Rights* worden ook voorbeelden gegeven. 
+Bij de*Interpretation 3 Emission Rights* worden ook voorbeelden gegeven. 
 
-In verband met de* Interpretation 3 Emission Rights* werden een aantal kritieken geformuleerd.
+In verband met de*Interpretation 3 Emission Rights* werden een aantal kritieken geformuleerd.
 
 In zijn advies van 6 mei 2005 aan de Europese Commissie om de *Interpretation 3 Emission Rights* niet goed te keuren, stipte de EFRAG onder meer aan dat een gelijktijdige toepassing van verschillende normen en derhalve de invoering van verschillende waarderings- en voorstellingsregels voor diverse bestanddelen, een mismatch tot gevolg heeft, zowel op het vlak van de waardering, aangezien bepaalde bestanddelen tegen kostprijs en andere tegen hun reële waarde zullen worden gewaardeerd, als op het vlak van de voorstelling, omdat bepaalde winsten en verliezen in de resultatenrekening zullen worden opgenomen, terwijl andere bestanddelen in het eigen vermogen worden opgenomen.
 
@@ -154,7 +149,7 @@ Volgens deze op het Belgische jaarrekeningrecht gebaseerde methode:
 - worden de toegewezen of verkregen emissierechten geboekt als immateriële vaste activa. 
 
 Weliswaar blijkt de juridische kwalificatie van broeikasgasemissierechten[^14] nog steeds betwist:
-Voor de enen gaat het om een eigendomsrecht op een plaats in het luchtruim waar een ton broeikasgas wordt uitgestoten[^15], voor anderen om de wijze waarop een schuld wordt betaald die door het systeem in het leven is geroepen en die enkel kan worden voldaan met behulp van emissierechten, die dus een soort van betaalmiddel vormen waarvan het bevrijdend karakter enkel geldt voor een welbepaalde schuld, zij het met een vaste speculatieve waarde[^16], onlichamelijke roerende zakelijke rechten[^17] of ook nog,* sui generis* rechten en roerende rechten van immateriële aard[^18].
+Voor de enen gaat het om een eigendomsrecht op een plaats in het luchtruim waar een ton broeikasgas wordt uitgestoten[^15], voor anderen om de wijze waarop een schuld wordt betaald die door het systeem in het leven is geroepen en die enkel kan worden voldaan met behulp van emissierechten, die dus een soort van betaalmiddel vormen waarvan het bevrijdend karakter enkel geldt voor een welbepaalde schuld, zij het met een vaste speculatieve waarde[^16], onlichamelijke roerende zakelijke rechten[^17] of ook nog,*sui generis* rechten en roerende rechten van immateriële aard[^18].
 
 Bij gebrek evenwel aan een andere balanspost die beter geschikt is om de specifieke aard en de functie van emissierechten weer te geven en omdat met name de omschrijving die artikel 95 van het Koninklijk Besluit van 30 januari 2001 tot uitvoering an het Wetboek van Vennootschappen geeft aan de inhoud van de post *Immateriële vaste activa*, er lijkt op te wijzen dat daarin ook emissierechten mogen worden opgenomen, is de Commissie van oordeel dat, in de huidige stand van het Belgisch jaarrekeningrecht, toegewezen of verkregen emissierechten in een afzonderlijke rekening onder de immateriële vaste activa horen te worden geboekt (2140).
 - worden de emissierechten, wanneer zij op de markt zijn verkregen, gewaardeerd tegen hun aanschaffingswaarde. Werden zij verkregen tegen een lagere waarde dan hun reële waarde (bij voorbeeld kosteloos), dan moeten zij worden gewaardeerd tegen hun reële waarde, waarbij het verschil tussen de aanschaffingsprijs en de reële prijs wordt geboekt bij de *Overige opbrengsten.* De inresultaatneming van deze opbrengst wordt zonodig op balansdatum uitgesteld via de overlopende rekeningen, om zo overeenstemming te verkrijgen met de effectieve uitstoot. 

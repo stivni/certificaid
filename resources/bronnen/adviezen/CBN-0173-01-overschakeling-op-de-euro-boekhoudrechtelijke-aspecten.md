@@ -36,31 +36,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:50Z'
+  generated_at: '2026-05-12T23:37:59Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (18 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:30Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 17
       max_section_chars: 18015
-      file_size_chars: 46301
+      file_size_chars: 46299
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (18 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 173/1 - Overschakeling op de euro: boekhoudrechtelijke aspecten
 
@@ -257,9 +252,7 @@ Bij de invoering van de Euro verdwijnt de Ecu. Tenzij anders overeengekomen komt
 Omrekeningsverschillen met betrekking tot monetaire posten in de munt van een land dat geen lid is van de Muntunie
 Voor tegoeden en verplichtingen in dergelijke munten spelen bij de invoering van de Euro twee factoren :
 
-enerzijds, de evolutie van de wisselkoers van deze munten ten opzichte van de nationale munt vóór de invoering van de Euro, 
-
-anderzijds, de vaststelling van de koers voor de omrekening van de nationale munt in Euro. 
+enerzijds, de evolutie van de wisselkoers van deze munten ten opzichte van de nationale munt vóór de invoering van de Euro, anderzijds, de vaststelling van de koers voor de omrekening van de nationale munt in Euro. 
 
 Vermits deze tweede factor geen aanleiding geeft tot wisselkoersverschillen, heeft alleen de eerste bij de invoering van de Euro, een invloed op de resultaten. Achteraf zullen die munten blijven evolueren in verhouding tot de Euro.
 

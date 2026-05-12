@@ -22,31 +22,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:46Z'
+  generated_at: '2026-05-12T23:38:59Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (20 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 19
-      max_section_chars: 8454
-      file_size_chars: 25785
+      max_section_chars: 8453
+      file_size_chars: 25779
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (20 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2022/10 – Boekhoudkundige verwerking van interesten en andere bedragen verschuldigd wegens betalingsachterstand
 
@@ -106,14 +101,14 @@ Vooreerst moet er in het bijzonder aandacht geschonken worden aan de recente wet
 
 Rekening houdende met de duidelijk uitgesproken wil van de wetgever, moet de interest worden beschouwd als zeker en is deze verschuldigd van rechtswege zodra de betalingstermijn is verstreken. Bijgevolg is de Commissie van oordeel dat de interesten en forfaitaire vergoedingen in hoofde van de schuldenaar in kosten moeten worden genomen vanaf de eerste dag na de vervaldag van de betaling.[^20] 
 
-Te rekenen vanaf het ogenblik waarop deze bedragen moeten worden opgenomen in de boekhouding, moet er in hoofde van de schuldenaar een schuld worden geboekt op rekening 440 *Leveranciers*. Als tegenboeking worden de bedragen in resultaat genomen op rekening 6500* Rente, commissies en kosten verbonden aan schulden*[^21] of op rekening 668* Andere niet-recurrente financiële kosten*[^22].[^23] 
+Te rekenen vanaf het ogenblik waarop deze bedragen moeten worden opgenomen in de boekhouding, moet er in hoofde van de schuldenaar een schuld worden geboekt op rekening 440 *Leveranciers*. Als tegenboeking worden de bedragen in resultaat genomen op rekening 6500*Rente, commissies en kosten verbonden aan schulden*[^21] of op rekening 668*Andere niet-recurrente financiële kosten*[^22].[^23] 
 
 Voor wat betreft de schuldeiser wordt er in herinnering gebracht dat artikel 3:11, tweede lid KB WVV uitdrukkelijk bepaalt dat de opbrengsten niet in de boekhouding mogen worden opgenomen wanneer de effectieve inning ervan onzeker is. De opname van een opbrengst in de boekhouding moet bijgevolg steeds plaatsvinden met inachtneming van een voorzichtigheidslogica[^24]. In dit opzicht kan de inresultaatname door de schuldeiser van de bedragen verschuldigd wegens betalingsachterstand niet op automatische wijze worden uitgevoerd, zoals bij de schuldenaar wel het geval is. De opname van een opbrengst vereist dus steeds grote omzichtigheid.
 
 Indien de schuldenaar bijvoorbeeld dubieus is en de effectieve inning van de interesten of andere bedragen die ontegensprekelijk verschuldigd zijn, onzeker is of in het gedrang komt, mogen gelet op de situatie van de schuldenaar deze interesten of bedragen in dergelijk geval niet als opbrengsten worden geboekt in de resultatenrekening.[^25]
  Deze bedragen mogen slechts in resultaat worden genomen vanaf het ogenblik waarop – op basis van de vereisten van voorzichtigheid, eerlijkheid en goede trouw – hun effectieve inning opnieuw zeker wordt.
 
-Te rekenen vanaf het ogenblik waarop deze bedragen moeten worden opgenomen in de boekhouding, dient de leverancier de interestvordering te boeken op rekening 400 *Handelsdebiteuren*, met als tegenboeking een inresultaatname op rekening 751[^26]* Opbrengsten uit vlottende activa*[^27] of op rekening 769* Andere niet-recurrente financiële opbrengsten*[^28].
+Te rekenen vanaf het ogenblik waarop deze bedragen moeten worden opgenomen in de boekhouding, dient de leverancier de interestvordering te boeken op rekening 400 *Handelsdebiteuren*, met als tegenboeking een inresultaatname op rekening 751[^26]*Opbrengsten uit vlottende activa*[^27] of op rekening 769*Andere niet-recurrente financiële opbrengsten*[^28].
 
 Specifieke overwegingen betreffende de boekhoudkundige verwerking van facturen met een kredietbeperkingstoeslag
 Zoals eerder vermeld, kan de boeking van facturen met een kredietbeperkingstoeslag moeilijkheden met zich meebrengen daar het bedrag van de kredietbeperkingstoeslag, wegens uiteenlopende redenen, over het algemeen inbegrepen is in het totaalbedrag van de factuur (*cf.* randnummer 12 van onderhavig advies). Nadat de Commissie een vraag mocht ontvangen rond deze kwestie, wordt hieronder de boekhoudkundige verwerking weergegeven die in deze gevallen moet worden toegepast.
@@ -164,7 +159,7 @@ Volgende boekingen moeten door de koper worden uitgevoerd[^33]:
 
 Indien de vervaldatum van de kredietbeperkingstoeslag vóór de effectieve betaaldatum valt, is de Commissie van oordeel dat de boekhoudkundige verwerking van deze kredietbeperkingstoeslag moet worden gelijkgesteld met deze van een financiële korting.
 
-Hieruit blijkt dat bij ontvangst van de factuur het totaalbedrag zoals vermeld op de factuur in de boekhouding moet worden opgenomen. Bij betaling van de factuur vóór de vervaldatum van de kredietbeperkingstoeslag, moet de boekhoudkundige verwerking worden toegepast die algemeen ook aanvaard wordt voor financiële kortingen. In dit geval zal de leverancier een kost moeten boeken op rekening 657 tot 658 *Diverse financiële kosten*[^34] en zal de klant een opbrengst boeken op rekening 756 tot 759* Diverse financiële opbrengsten*.
+Hieruit blijkt dat bij ontvangst van de factuur het totaalbedrag zoals vermeld op de factuur in de boekhouding moet worden opgenomen. Bij betaling van de factuur vóór de vervaldatum van de kredietbeperkingstoeslag, moet de boekhoudkundige verwerking worden toegepast die algemeen ook aanvaard wordt voor financiële kortingen. In dit geval zal de leverancier een kost moeten boeken op rekening 657 tot 658 *Diverse financiële kosten*[^34] en zal de klant een opbrengst boeken op rekening 756 tot 759*Diverse financiële opbrengsten*.
 
 ### Voorbeeld 2
 Op een factuur van de aankoop van handelsgoederen ter waarde van 400 euro, staat vermeld dat de klant 60 dagen de tijd heeft om de betaling uit te voeren. Bovendien wordt er bepaald dat indien de klant na 30 dagen nog steeds niet betaald heeft, deze een kredietbeperkingstoeslag ter waarde van 10 EUR verschuldigd is.
@@ -203,7 +198,7 @@ De fiscale en sociale schulden zijn hierop een uitzondering. De Staat heeft geen
 ### De kredietbeperkingstoeslag
 De leverancier kan een kredietbeperkingstoeslag[^38] voorzien. Deze is dan in het factuurbedrag inbegrepen[^39]. Zowel de schuldeiser als de schuldenaar zijn vrij deze te boeken of niet. Niet boeken zal wellicht de algemene regel zijn. Voor de schuldenaar is de meest praktische oplossing te anticiperen op zijn eigen later betalingsgedrag. Is hij voornemens de factuur te betalen vóór de vervaldag, dan is hij de kredietbeperkingstoeslag niet verschuldigd en mag hij die in mindering brengen van het factuurbedrag. Er is dan ook geen enkele reden om hem te boeken. Is hij voornemens te betalen nà de vervaldag, dan kan hij beter meteen ook de kredietbeperkingstoeslag boeken.
 
-**Onderhavig advies vervangt CBN-advies 137/7 –* Interesten op vorderingen*.**
+**Onderhavig advies vervangt CBN-advies 137/7 –*Interesten op vorderingen*.**
 
 [^1]: Onderhavig advies is tot stand gekomen nadat het ontwerpadvies op 13 augustus 2021 ter publieke consultatie werd gepubliceerd op de website van de CBN.
 

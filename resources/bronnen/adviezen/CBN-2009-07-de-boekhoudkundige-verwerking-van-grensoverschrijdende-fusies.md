@@ -35,31 +35,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:54Z'
+  generated_at: '2026-05-12T23:38:03Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (3 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 2
-      max_section_chars: 18684
-      file_size_chars: 22591
+      max_section_chars: 18681
+      file_size_chars: 22588
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (3 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2009/7 - De boekhoudkundige verwerking van grensoverschrijdende fusies Advies van 15 juli 2009
 
@@ -288,7 +283,7 @@ Na de fusie zal de balans van A er als volgt uitzien:
 |---|
 | Vaste activa (230 + 5.500)| 5.730| Kapitaal (2.000 + 3.000 x 10%)| 2.300|
 | Vlottende activa (6.800 + 9.500)| 16.300| Belastingvrije reserves (1.500 + 1.650 x 10%[^10] + **535[^11]** )| 2.200|
-| | | Beschikbare reserves 4.500 + (7.000 – 1.650) x 10% - **535**12| 4.500|
+| | | Beschikbare reserves 4.500 + (7.000 – 1.650) x 10% - **53512| 4.500|
 | | | Overgedragen winst[^12] | 6.030|
 | | | Voorzieningen (900 + 1.000)| 1.900|
 | | | Schulden (1.100 + 4.000)| 5.100|
@@ -301,7 +296,7 @@ Aangezien in dit voorbeeld de andere dan de belastingvrije reserves van de Belgi
 | | 689 | Overboeking naar de belastingvrije reserves | 950 | |
 | aan | 132 | Belastingvrije reserves | | 950 |
 
-Naar analogie van het gestelde in het CBN advies 2009/6 (zie voorbeeld 6) is de Commissie om redenen van praktische aard van mening dat de volledige wedersamenstelling van de belastingvrije reserves van de Belgische inrichting van de buitenlandse vennootschap ook lastens het resultaat mag gebeuren zonder artikel 78, § 6,* in fine*, KB W.Venn. toe te passen.
+Naar analogie van het gestelde in het CBN advies 2009/6 (zie voorbeeld 6) is de Commissie om redenen van praktische aard van mening dat de volledige wedersamenstelling van de belastingvrije reserves van de Belgische inrichting van de buitenlandse vennootschap ook lastens het resultaat mag gebeuren zonder artikel 78, § 6,*in fine*, KB W.Venn. toe te passen.
 
 De openingsbalans na de fusie is dan als volgt :
 

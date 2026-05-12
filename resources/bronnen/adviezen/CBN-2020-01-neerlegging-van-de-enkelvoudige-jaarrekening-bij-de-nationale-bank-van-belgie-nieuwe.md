@@ -39,31 +39,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:36Z'
+  generated_at: '2026-05-12T23:38:47Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (14 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 13
-      max_section_chars: 9478
-      file_size_chars: 22895
+      max_section_chars: 9473
+      file_size_chars: 22890
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (14 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2020/01 – Neerlegging van de enkelvoudige jaarrekening bij de Nationale Bank van België: nieuwe modellen van de jaarrekening
 
@@ -163,7 +158,7 @@ De wijzigingen aan de schema’s voor de VZW’s, IVZW’s en stichtingen zoals 
 ### Gebruik van de ‘oude’ XBRL-modellen van de jaarrekening
 Mogelijks zijn de nieuwe modellen van de Nationale Bank van België van de jaarrekening in het gewenste format nog niet beschikbaar op het ogenblik dat de nieuwe bepalingen wel al van toepassing zijn bij de neerlegging van de jaarrekening van een vennootschap, VZW, IVZW of stichting. Maken vennootschappen, in afwachting van de nieuwe modellen in de gewenste format voor de neerlegging van de jaarrekening nog gebruik van de ‘oude’ XBRL-modellen van de jaarrekening, dan rijzen een aantal vragen. 
 
-Voornamelijk voor kapitaalloze vennootschappen stelt zich bijvoorbeeld de vraag hoe ze de rubriek van het eigen vermogen moeten invullen wanneer zij van rechtswege geen kapitaal meer hebben. De Commissie is van oordeel dat, gezien het feit dat er boekhoudtechnisch wel al een overboeking zal zijn gebeurd naar de rekening 1119 *Andere onbeschikbare inbreng buiten kapitaal*, de kapitaalloze vennootschap het saldo van het bedrag van de codes 100* Kapitaal *en 101* Niet-opgevraagd Kapitaal (-) *in een dergelijk ‘oud’ model van de jaarrekening kan opnemen onder de code 11* Uitgiftepremies*, mits de nodige, passende uitleg in de toelichting. In deze toelichting wordt bijkomend vermeld in hoeverre het over onbeschikbare dan wel beschikbare inbreng gaat[^35]. Het bedrag opgenomen op de rekening 130 *Wettelijke reserves* kan dan in geval van het gebruik van het ‘oude’ model van de jaarrekening, voorlopig onder de code 130 *Wettelijke reserve* worden behouden.[^36] 
+Voornamelijk voor kapitaalloze vennootschappen stelt zich bijvoorbeeld de vraag hoe ze de rubriek van het eigen vermogen moeten invullen wanneer zij van rechtswege geen kapitaal meer hebben. De Commissie is van oordeel dat, gezien het feit dat er boekhoudtechnisch wel al een overboeking zal zijn gebeurd naar de rekening 1119 *Andere onbeschikbare inbreng buiten kapitaal*, de kapitaalloze vennootschap het saldo van het bedrag van de codes 100*Kapitaal*en 101*Niet-opgevraagd Kapitaal (-)*in een dergelijk ‘oud’ model van de jaarrekening kan opnemen onder de code 11*Uitgiftepremies*, mits de nodige, passende uitleg in de toelichting. In deze toelichting wordt bijkomend vermeld in hoeverre het over onbeschikbare dan wel beschikbare inbreng gaat[^35]. Het bedrag opgenomen op de rekening 130 *Wettelijke reserves* kan dan in geval van het gebruik van het ‘oude’ model van de jaarrekening, voorlopig onder de code 130 *Wettelijke reserve* worden behouden.[^36] 
 
 Bijkomend rijst de vraag onder welke rubrieken deze bedragen vervolgens in de kolom van het vorig boekjaar moeten worden opgenomen. De Commissie acht het raadzaam om, ten einde een vergelijking mogelijk te maken enerzijds en met oog op de leesbaarheid van de jaarrekening anderzijds, ook in de kolom ‘vorig boekjaar’ de desbetreffende cijfers onder de codes 11 *Uitgiftepremies* en 130 *Wettelijke reserves* op te nemen mits aanduiding op het identificatieblad van deze jaarrekening dat de cijfers met betrekking tot vorig boekjaar niet identiek zijn met die welke eerder openbaar werden gemaakt. 
 

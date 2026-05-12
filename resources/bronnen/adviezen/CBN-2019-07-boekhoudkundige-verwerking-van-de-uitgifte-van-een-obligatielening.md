@@ -26,31 +26,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:34Z'
+  generated_at: '2026-05-12T23:38:44Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (37 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:42Z'
       heading_count: 36
       max_section_chars: 4795
-      file_size_chars: 20320
+      file_size_chars: 20315
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (37 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2019/07 – Boekhoudkundige verwerking van de uitgifte van een obligatielening
 
@@ -107,12 +102,12 @@ De vennootschap-emittent kent de inschrijver een vordering toe waarvan de uitgif
 #### Uitgifte onder pari en terugbetaling tegen pari-waarde
 Het bedrag (of uitgifteprijs) dat gestort is door de inschrijver is kleiner dan de nominale waarde.
 
-*Voorbeeld*: uitgifte tegen 97,50 %. Voor een nominale waarde van 10.000.000 EUR, moeten de inschrijvers slechts 9.750.000 EUR betalen. Zo ontstaat er een* uitgiftepremie *van 2,50 %.
+*Voorbeeld*: uitgifte tegen 97,50 %. Voor een nominale waarde van 10.000.000 EUR, moeten de inschrijvers slechts 9.750.000 EUR betalen. Zo ontstaat er een*uitgiftepremie*van 2,50 %.
 
 #### Uitgifte tegen pari-waarde en terugbetaling boven pari
 De terugbetalingswaarde (op de vervaldag) van de a pari uitgegeven obligatie ligt hoger dan de nominale waarde.
 
-*Voorbeeld*: uitgifte tegen 100 % en terugbetaling tegen 102,50 %. Voor een nominale waarde van 10.000.000 EUR krijgen de inschrijvers 10.250.000 EUR terug op de vervaldag. Zo ontstaat er een* terugbetalingspremie* van 2,50 %.
+*Voorbeeld*: uitgifte tegen 100 % en terugbetaling tegen 102,50 %. Voor een nominale waarde van 10.000.000 EUR krijgen de inschrijvers 10.250.000 EUR terug op de vervaldag. Zo ontstaat er een*terugbetalingspremie* van 2,50 %.
 
 #### Uitgifte onder pari en terugbetaling boven pari
 De terugbetalingswaarde van de uitgegeven obligatie ligt hoger dan de nominale waarde, die op haar beurt hoger ligt dan de uitgifteprijs.
@@ -373,7 +368,7 @@ Overeenkomstig lid 3, 1° van artikel 3:51 KB WVV neemt de vennootschap het vers
 
 [^10]: De tenlasteneming van de uitgiftekosten van leningen is onderworpen aan de voorschriften van artikelen 195/1 en 196 WIB92. De kosten zijn beperkt tot 9/72 [1/6 * 9/12] van 210.000 EUR [125.000 EUR + 85.000 EUR].
 
-[^11]: Toerekening van de rentelasten aan het boekjaar. 5.000.000 * 2,875% * [9/12].
+[^11]: Toerekening van de rentelasten aan het boekjaar. 5.000.000 *2,875%* [9/12].
 
 [^12]: Inresultaatname van de prorata van opbrengsten die betrekking hebben op de uitgiftepremie: [5.100.000 – 5.000.000] / 6 = 16.667,67 EUR. 9/12 van 16.666,67 EUR bedraagt 12.500 EUR.
 

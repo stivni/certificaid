@@ -30,31 +30,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:52Z'
+  generated_at: '2026-05-12T23:39:03Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:18Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:33Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:43Z'
       heading_count: 5
-      max_section_chars: 9108
-      file_size_chars: 23493
+      max_section_chars: 9107
+      file_size_chars: 23492
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:18Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # Aanbevelingen inzake de gelijkwaardigheid van boekhoud- en jaarrekeningregels opgelegd door sectorale regelgevingen met de gemeenrechtelijke boekhoud- en jaarrekeningregels voor vzw’s, ivzw’s en stichtingen
 ## Januari 2007
@@ -86,7 +81,7 @@ De gelijkwaardigheidsproblematiek speelt dus – althans in theorie – een rol 
 
 De CBN-werkgroep "Not for profit & public sector accounting" heeft, zonder volledigheid te claimen, zowat 70 sectoren geïdentificeerd waarvoor bijzondere regels gelden voor het houden van de boekhouding en/of het opstellen van de jaarrekening. Deze wildgroei van bijzondere boekhoudkundige regelgevingen in de meest diverse activiteitsgebieden van het (gesubsidieerde) verenigingsleven is waarschijnlijk grotendeels toe te schrijven niet zozeer aan de intrinsieke “specificiteit” van de betrokken sectoren, maar aan de omstandigheid dat de wet van 27 juni 1921 gedurende meer dan 80 jaar géén of haast geen boekhoudkundige verplichtingen bepaalde ten aanzien van de verenigingen, zodat er géén gemeen recht inzake de boekhouding en de jaarrekening van VZW’s en stichtingen bestond. Het is pas met de wet van 2 mei 2002 en in het bijzonder met de uitvoeringsbesluiten van 26 juni 2003 en 19 december 2003 dat een gemeen recht inzake boekhouding en jaarrekening van verenigingen en stichtingen werd tot stand gebracht.
 
-Noch de wetgever, noch de Regering hebben een lijst opgesteld van sectoren waar de problematiek van de gelijkwaardigheid rijst of waar de boekhoudkundige verplichtingen gelijkwaardig zijn aan de wettelijke regels. Het verslag aan de Koning dat het voornoemde koninklijk besluit van 19 december 2003 voorafgaat, zegt integendeel daarover het volgende “*Het is bijgevolg de taak van de bestuursorganen van deze verenigingen en stichtingen om, aan de hand van de aanwijzingen geformuleerd door de Commissie voor boekhoudkundige normen, op hun verantwoordelijkheid en onder het toezicht van de optredende commissaris na te gaan of de bijzondere boekhoudkundige verplichtingen waaraan zij onderworpen zijn, ten minste gelijkwaardig zijn aan die welke krachtens de wet van toepassing zouden zijn. Over het algemeen vloeit deze gelijkwaardigheid niet voort uit het loutere gegeven dat de vereniging of de stichting voor het verkrijgen van subsidies verplicht wordt boekhoudkundige inlichtingen te verschaffen aan de subsidiërende overheid." *
+Noch de wetgever, noch de Regering hebben een lijst opgesteld van sectoren waar de problematiek van de gelijkwaardigheid rijst of waar de boekhoudkundige verplichtingen gelijkwaardig zijn aan de wettelijke regels. Het verslag aan de Koning dat het voornoemde koninklijk besluit van 19 december 2003 voorafgaat, zegt integendeel daarover het volgende “*Het is bijgevolg de taak van de bestuursorganen van deze verenigingen en stichtingen om, aan de hand van de aanwijzingen geformuleerd door de Commissie voor boekhoudkundige normen, op hun verantwoordelijkheid en onder het toezicht van de optredende commissaris na te gaan of de bijzondere boekhoudkundige verplichtingen waaraan zij onderworpen zijn, ten minste gelijkwaardig zijn aan die welke krachtens de wet van toepassing zouden zijn. Over het algemeen vloeit deze gelijkwaardigheid niet voort uit het loutere gegeven dat de vereniging of de stichting voor het verkrijgen van subsidies verplicht wordt boekhoudkundige inlichtingen te verschaffen aan de subsidiërende overheid."*
 
 De betrokken sectoren vindt men zowel op het federale, gewestelijke als gemeenschapsniveau terug. Ze hebben te maken met zeer gevarieerde bevoegdheden, zoals de gezondheidszorg (ziekenhuizen, interbedrijfsgeneeskundige diensten, gehandicaptenhulp …), de sociale secretariaten, de pensioenfondsen, het toerisme, de jeugdbijstand, de cultuur, de sociale hulpverlening, het onderwijs, de sport, de milieubescherming, de politieke partijen…
 

@@ -29,31 +29,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:13Z'
+  generated_at: '2026-05-12T23:38:23Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:17Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:32Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 4
       max_section_chars: 5541
-      file_size_chars: 14688
+      file_size_chars: 14686
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:17Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2013/16 – Toelichting omtrent het niet-gebruik van de waarderingsgregels op basis van de waarde in het economisch verkeer voor de financiële instrumenten
 
@@ -86,7 +81,7 @@ De Commissie wenst er tevens op te wijzen dat de Richtlijn 2001/65/EG bepaalt da
 De Commissie beveelt dan ook aan dat, indien de bepaling van de reële waarde voor afgeleide financiële instrumenten (*infra*) werd gebaseerd op niet rechtstreeks waarneembare veronderstellingen, deze veronderstellingen dienen te worden opgenomen in de vrije toelichtingen van de jaarrekening voor zover deze veronderstellingen significant zouden zijn. 
 
 ## Waardering tegen de waarde in het economisch verkeer of reële waarde bij speculatieve transacties
-Uit de algemeen geldende waarderingsregels alsook uit de samenlezing van het CBN-advies 2010/12 – De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten[^11] en het CBN-advies 2011/18 – De boekhoudkundige verwerking van de renteswap (*Interest rate swap*)[^12] kan worden besloten dat in een Belgische context slechts kan worden rekening gehouden met de reële waarde bij de waardering van afgeleide financiële instrumenten die deel uitmaken van een* speculatieve verrichting[^13] *.
+Uit de algemeen geldende waarderingsregels alsook uit de samenlezing van het CBN-advies 2010/12 – De toepassing van de algemene boekhoudprincipes op afgeleide financiële instrumenten[^11] en het CBN-advies 2011/18 – De boekhoudkundige verwerking van de renteswap (*Interest rate swap*)[^12] kan worden besloten dat in een Belgische context slechts kan worden rekening gehouden met de reële waarde bij de waardering van afgeleide financiële instrumenten die deel uitmaken van een*speculatieve verrichting[^13]*.
 
 Immers in het geval een effectieve dekking of gesloten positie (*cash flow hedge* of *fair value hedge*), ongeacht het type afgeleid financieel instrument, is de waardering tegen reële waarde uitgesloten[^14].
 

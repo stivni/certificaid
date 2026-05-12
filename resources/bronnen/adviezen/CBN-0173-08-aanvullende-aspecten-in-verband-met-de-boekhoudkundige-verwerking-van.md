@@ -23,31 +23,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:22:51Z'
+  generated_at: '2026-05-12T23:38:01Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:30Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:40Z'
       heading_count: 6
-      max_section_chars: 7186
-      file_size_chars: 15991
+      max_section_chars: 7181
+      file_size_chars: 15986
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 173/8 - Aanvullende aspecten in verband met de boekhoudkundige verwerking van afrondingsverschillen bij conversie
 
@@ -124,7 +119,7 @@ Vennootschap A besluit haar boekhouding op 1 mei 1999 op de euro over te schakel
 | 6302| Afschrijvingen op materiële vaste activa| 48| | 1,19| |
 | | | | | | |
 | 70| Omzet| | 1146| | 28,41|
-| | | *2871*|* 2871*|* 71,17*|* 71,18*|
+| | | *2871*|*2871*|*71,17*|*71,18*|
 
 ### Overschakeling van de boekhouding op de euro op 1/5/99
 ### A. Afsluiting van de boekhouding in BEF
@@ -157,9 +152,7 @@ Vennootschap A besluit haar boekhouding op 1 mei 1999 op de euro over te schakel
 | | 70 | Omzet | 28,41 | |
 | | 71,18 | 71,18 | | |
 
-Ondernemingen naar Belgisch recht hebben tijdens de gehele duur van de overgangsperiode of een gedeelte 
-
-ervan ook de mogelijkheid, overeenkomstig punt C van advies 173/1[^4] om hun boekhouding verder in nationale munt te blijven voeren en bij de afsluiting van elk boekjaar, de cijfers van de proef- en saldibalans waaruit de balans en de resultatenrekening en de gegevens van de toelichting voortvloeien, in euro om te rekenen, zonder toevoeging noch weglating. 
+Ondernemingen naar Belgisch recht hebben tijdens de gehele duur van de overgangsperiode of een gedeelte ervan ook de mogelijkheid, overeenkomstig punt C van advies 173/1[^4] om hun boekhouding verder in nationale munt te blijven voeren en bij de afsluiting van elk boekjaar, de cijfers van de proef- en saldibalans waaruit de balans en de resultatenrekening en de gegevens van de toelichting voortvloeien, in euro om te rekenen, zonder toevoeging noch weglating. 
 
 Maakt een vennootschap dergelijke keuze, dan zou de opstelling van de verschillende betrokken jaarrekeningen in EUR tot conversieafrondingsverschillen tussen de aktief- en passieftotalen kunnen leiden. In die veronderstelling mag dit verschil niet worden ingeschreven op rekening 65/75 maar op de de meest aangewezen balansrubriek.
 

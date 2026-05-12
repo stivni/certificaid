@@ -19,31 +19,26 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f1177ef
+    pipeline_version: b4eac1f-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:23:07Z'
+  generated_at: '2026-05-12T23:38:17Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:30:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (10 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
       status: pass
-      run_id: 20260512-232428
-      run_at: '2026-05-12T23:24:31Z'
+      run_id: 20260512-233938
+      run_at: '2026-05-12T23:39:41Z'
       heading_count: 9
       max_section_chars: 7131
-      file_size_chars: 16320
+      file_size_chars: 16318
       flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:30:16Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (10 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
 ---
 # CBN-advies 2012/4 - De boekhoudkundige verwerking van de inbeslagname in hoofde van de beslagen schuldenaar Advies van 11 januari 2012
 
@@ -98,7 +93,7 @@ Zolang de toewijzing in het kader van de openbare verkoop niet heeft plaatsgevon
 
 Het risico van de procedure tot inbeslagname voor de onderneming dient geval per geval beoordeeld te worden in functie van de impact op het vermogen, de financiële positie of de resultaten van de onderneming. Hiertoe zijn het bedrag van de schuld en de waarde van het beslagen goed waardevolle indicatoren. 
 
-Indien de procedure tot gedwongen tenuitvoerlegging een aanzienlijk risico inhoudt voor de financiële positie van de onderneming, dient dit door de onderneming boekhoudkundig verwerkt te worden via de rekening 09* Diverse rechten en verplichtingen *ten belope van het bedrag van de schuldvordering waarvan de tenuitvoerlegging vereist is en dient ze vermeld te worden in de toelichting voorbehouden aan de niet in de balans opgenomen rechten en verplichtingen onder de rubriek *Andere belangrijke verplichtingen.[^26]*  De Commissie raadt bovendien aan om het uitvoerend beslag te vermelden in het jaarverslag volgens de grootte van de impact ervan op de onderneming. 
+Indien de procedure tot gedwongen tenuitvoerlegging een aanzienlijk risico inhoudt voor de financiële positie van de onderneming, dient dit door de onderneming boekhoudkundig verwerkt te worden via de rekening 09*Diverse rechten en verplichtingen*ten belope van het bedrag van de schuldvordering waarvan de tenuitvoerlegging vereist is en dient ze vermeld te worden in de toelichting voorbehouden aan de niet in de balans opgenomen rechten en verplichtingen onder de rubriek *Andere belangrijke verplichtingen.[^26]*  De Commissie raadt bovendien aan om het uitvoerend beslag te vermelden in het jaarverslag volgens de grootte van de impact ervan op de onderneming. 
 
 Het komt bovendien toe aan het bestuursorgaan om, indien nodig, een uitzonderlijke afschrijving te boeken zodat de boekwaarde van het goed wordt teruggebracht tot de potentiële realisatiewaarde van het goed bij een openbare verkoop.
 
