@@ -48,13 +48,14 @@ def _safe(value) -> str:
     return str(value).replace('"', '\\"')
 
 
-def _build_frontmatter_block(frontmatter: dict) -> str:
-    """Bouw een YAML-frontmatter-blok uit de frontmatter-dict.
+def _build_yaml_only_block(frontmatter: dict) -> str:
+    """Bouw alleen het YAML-frontmatter-blok (eindigt op '\\n---\\n').
 
-    Leest de velden die door `build_initial_frontmatter` in convert.py zijn
-    ingesteld en serialiseert ze in hetzelfde format.
+    Bevat geen intro-content (# titel, *Bijgewerkt...*). Wordt gebruikt door
+    emit_frontmatter zodat update_frontmatter_chunk het chunk-blok kan invoegen
+    vóórdat de intro-content wordt toegevoegd.
 
-    Returns het volledige frontmatter-blok inclusief `---` delimiters.
+    Returns het frontmatter-blok inclusief `---` delimiters, eindigend op `\\n---\\n`.
     """
     tags = frontmatter.get("tags", [])
     tags_str = _format_tags(tags)
@@ -63,7 +64,6 @@ def _build_frontmatter_block(frontmatter: dict) -> str:
     bijgewerkt = _safe(frontmatter.get("bijgewerkt", ""))
     bron_rol = frontmatter.get("bron_rol")
     bron_label = frontmatter.get("bron", "onbekend")
-    titel = frontmatter.get("titel") or wet_full
 
     fm_lines = [
         "---",
@@ -79,13 +79,24 @@ def _build_frontmatter_block(frontmatter: dict) -> str:
         f'bron: "{bron_label}"',
         "---",
         "",
+    ])
+    return "\n".join(fm_lines)
+
+
+def _build_intro_block(frontmatter: dict) -> str:
+    """Bouw de intro-sectie (# titel + *Bijgewerkt...*) die na de frontmatter komt."""
+    wet_full = frontmatter.get("wet", "")
+    bijgewerkt = _safe(frontmatter.get("bijgewerkt", ""))
+    titel = frontmatter.get("titel") or wet_full
+
+    intro_lines = [
         f"# {titel}",
         "",
         f"*Bijgewerkt tot en met {bijgewerkt} — gecoördineerde versie.*",
         "",
         "",
-    ])
-    return "\n".join(fm_lines)
+    ]
+    return "\n".join(intro_lines)
 
 
 def emit_frontmatter(body: str, frontmatter: dict) -> tuple[str, dict]:
@@ -100,19 +111,26 @@ def emit_frontmatter(body: str, frontmatter: dict) -> tuple[str, dict]:
     """
     # Haal interne velden op en verwijder ze
     chunk_level = frontmatter.pop("_chunk_level", 2)
-    chunk_type = frontmatter.pop("_chunk_type", "##")
+    chunk_type = frontmatter.pop("_chunk_type", "Art.")
     sub_strategy = frontmatter.pop("_sub_strategy", None)
     frontmatter.pop("_chunk_info", None)  # logging-info, niet serialiseren
 
-    # Bouw het frontmatter-blok
-    fm_block = _build_frontmatter_block(frontmatter)
+    # Bouw het pure YAML-blok (eindigt op \n---\n) zodat update_frontmatter_chunk
+    # het chunk-blok correct kan invoegen vóór de intro-content.
+    yaml_block = _build_yaml_only_block(frontmatter)
 
     # Voeg chunk-blok toe via de bestaande helper
-    fm_block_with_chunk = update_frontmatter_chunk(
-        fm_block, chunk_level, chunk_type=chunk_type, sub_strategy=sub_strategy,
+    yaml_block_with_chunk = update_frontmatter_chunk(
+        yaml_block, chunk_level, chunk_type=chunk_type, sub_strategy=sub_strategy,
     )
 
-    # Combineer frontmatter + body
-    full_text = fm_block_with_chunk + body.lstrip("\n")
+    # Bouw intro-content (# titel + *Bijgewerkt...*)
+    intro = _build_intro_block(frontmatter)
+
+    # Combineer frontmatter + intro + body.
+    # yaml_block_with_chunk eindigt op '\n---\n'; de originele build_initial_frontmatter
+    # plaatst een extra lege regel tussen frontmatter-sluiter en # H1, dus we voegen
+    # '\n' toe zodat het resultaat '\n---\n\n# titel' wordt (identiek aan origineel).
+    full_text = yaml_block_with_chunk + "\n" + intro + body.lstrip("\n")
 
     return full_text, {}
