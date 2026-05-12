@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T16:08:56Z'
+    confirmed_by: subagent-unspecified
+    rationale: "B3: duplicate heading '## betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde' op regel 50 (fragment van de richtlijntitel). B7/A7: in de concordantietabel aan het einde staan headings als '## Art. 2. van   Richtlijn   94/5/EG' (spaced-letter, ook op 4438/4444/4448) — dit zijn ruis-headings uit de concordantietabel. Sommige overwegingsnummers (5-9, 17-23) ontbreken in de overwegingenreeks (sprong van (4) naar (10)), wat een extractiefout of source-artefact is. Verder inhoudelijk grotendeels compleet."
     layer1:
       status: warn
       run_id: 20260512-160242
@@ -41,6 +41,23 @@ provenance:
           detail: 'langste sectie op ######-niveau: 36349 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-unspecified
+      run_at: '2026-05-12T16:08:56Z'
+      rationale: "B3: duplicate heading '## betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde' op regel 50 (fragment van de richtlijntitel). B7/A7: in de concordantietabel aan het einde staan headings als '## Art. 2. van   Richtlijn   94/5/EG' (spaced-letter, ook op 4438/4444/4448) — dit zijn ruis-headings uit de concordantietabel. Sommige overwegingsnummers (5-9, 17-23) ontbreken in de overwegingenreeks (sprong van (4) naar (10)), wat een extractiefout of source-artefact is. Verder inhoudelijk grotendeels compleet."
+      concrete_problemen:
+        - regel: 50
+          categorie: B3
+          type: other
+          voorbeeld: '## betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde'
+        - regel: 4438
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: '###### Art. 2. van   Richtlijn   94/5/EG'
+        - regel: 72
+          categorie: D2
+          type: missing-section
+          voorbeeld: Overwegingen (5) t/m (9) ontbreken; sprong van (4) naar (10)
 ---
 
 # Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T16:08:56Z'
+    confirmed_by: subagent-unspecified
+    rationale: "A9/A1: PB-koptekst op regel 46 ('Nr . L 326 / 40 Publikatieblad van de Europese Gemeenschappen 21 . 11 . 86') is niet weggefiltered. A7: scrambled heading op regel 154 ('## Art. 17. ,   lid   4 ,   laatste   z^in ,   van   Richtlijn   77 / 388 / EEG   en') — dit is een gebroken artikelverwijzing die als ## heading is terechtgekomen met OCR-fout ('z^in' i.p.v. 'zin'). A6: uitgebreide spaced-letter ruis door gehele body (regelreferenties zoals '77 / 388 / EEG', afgebroken woorden 'grond  gebied', 'woon  plaats'). B3: lege heading '## plichtigen' op regel 82 is fragment van richtlijnhoofding."
     layer1:
       status: pass
       run_id: 20260512-160242
@@ -37,6 +37,27 @@ provenance:
       file_size_chars: 8026
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-unspecified
+      run_at: '2026-05-12T16:08:56Z'
+      rationale: "A9/A1: PB-koptekst op regel 46 ('Nr . L 326 / 40 Publikatieblad van de Europese Gemeenschappen 21 . 11 . 86') is niet weggefiltered. A7: scrambled heading op regel 154 ('## Art. 17. ,   lid   4 ,   laatste   z^in ,   van   Richtlijn   77 / 388 / EEG   en') — dit is een gebroken artikelverwijzing die als ## heading is terechtgekomen met OCR-fout ('z^in' i.p.v. 'zin'). A6: uitgebreide spaced-letter ruis door gehele body (regelreferenties zoals '77 / 388 / EEG', afgebroken woorden 'grond  gebied', 'woon  plaats'). B3: lege heading '## plichtigen' op regel 82 is fragment van richtlijnhoofding."
+      concrete_problemen:
+        - regel: 46
+          categorie: A1
+          type: form-feed
+          voorbeeld: Nr . L 326 / 40 Publikatieblad van de Europese Gemeenschappen 21 . 11 . 86
+        - regel: 82
+          categorie: B3
+          type: other
+          voorbeeld: '## plichtigen'
+        - regel: 154
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: '## Art. 17. ,   lid   4 ,   laatste   z^in ,   van   Richtlijn   77 / 388 / EEG   en'
+        - regel: 100
+          categorie: A6
+          type: other
+          voorbeeld: op het betrokken grond  gebied noch de zetel van zijn bedrijfsuitoefening
 ---
 
 # Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen

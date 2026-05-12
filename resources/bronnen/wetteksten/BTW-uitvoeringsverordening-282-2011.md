@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T16:08:56Z'
+    confirmed_by: subagent-unspecified
+    rationale: Geen EUR-Lex markers, geen TOC-fragmenten, geen PB-kopteksten. 84 artikelheadings goed gestructureerd. Structuurlabels (ONDERWERP, TOEPASSINGSGEBIED, BELASTINGPLICHTIGEN) als plain-text tussenkopjes zijn inherent aan de EUR-bron en zijn niet storend voor RAG. Inhoud volledig en leesbaar.
     layer1:
       status: pass
       run_id: 20260512-160242
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 74977
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-unspecified
+      run_at: '2026-05-12T16:08:56Z'
+      rationale: Geen EUR-Lex markers, geen TOC-fragmenten, geen PB-kopteksten. 84 artikelheadings goed gestructureerd. Structuurlabels (ONDERWERP, TOEPASSINGSGEBIED, BELASTINGPLICHTIGEN) als plain-text tussenkopjes zijn inherent aan de EUR-bron en zijn niet storend voor RAG. Inhoud volledig en leesbaar.
+      concrete_problemen: []
 ---
 
 # Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG

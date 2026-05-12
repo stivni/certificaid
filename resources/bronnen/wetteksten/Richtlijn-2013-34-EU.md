@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T16:08:56Z'
+    confirmed_by: subagent-unspecified
+    rationale: "A1: 23 EUR-Lex amendment/rectification markers (►M1-M7, ►C1-C3, ▼C1, ▼C3) aanwezig in body — dit zijn niet-weggefiltreerde EUR-Lex opmaak-codes. Bijv. '▼C1  2) deelneming...' op r138, '►C1 beleggingen ◄' inline in bijlagen. Laag-1 heeft terecht max_section_size warn (32624 chars). Inhoud anderszins zeer compleet (100 artikelen, bijlagen)."
     layer1:
       status: warn
       run_id: 20260512-160243
@@ -41,6 +41,23 @@ provenance:
           detail: 'langste sectie op ######-niveau: 32624 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-unspecified
+      run_at: '2026-05-12T16:08:56Z'
+      rationale: "A1: 23 EUR-Lex amendment/rectification markers (►M1-M7, ►C1-C3, ▼C1, ▼C3) aanwezig in body — dit zijn niet-weggefiltreerde EUR-Lex opmaak-codes. Bijv. '▼C1  2) deelneming...' op r138, '►C1 beleggingen ◄' inline in bijlagen. Laag-1 heeft terecht max_section_size warn (32624 chars). Inhoud anderszins zeer compleet (100 artikelen, bijlagen)."
+      concrete_problemen:
+        - regel: 64
+          categorie: A1
+          type: form-feed
+          voorbeeld: ► M1  Richtlijn 2014/95/EU van het Europees Parlement en de Raad van  22 oktober 2014  L 330  1  15.11.2014
+        - regel: 138
+          categorie: A1
+          type: form-feed
+          voorbeeld: '▼C1  2) deelneming: de al dan niet in certificaten belichaamde rechten...'
+        - regel: 452
+          categorie: A1
+          type: form-feed
+          voorbeeld: ►C1 beleggingen ◄, worden berekend op basis van gewogen gemid- delde prijzen
 ---
 
 # Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T16:08:56Z'
+    confirmed_by: subagent-unspecified
+    rationale: Geen Fisconet-artefacten. 43 artikelheadings. De standalone '#### Art. 7', '#### Art. 14', '#### Art. 31' headings in de slotbepalingen (r262-281) zijn overgangsbepalingen waar de artikelnummers als verwijzingen dienen — dit is source-opmaak van de wet. Inhoud volledig.
     layer1:
       status: pass
       run_id: 20260512-160243
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 29697
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-unspecified
+      run_at: '2026-05-12T16:08:56Z'
+      rationale: Geen Fisconet-artefacten. 43 artikelheadings. De standalone '#### Art. 7', '#### Art. 14', '#### Art. 31' headings in de slotbepalingen (r262-281) zijn overgangsbepalingen waar de artikelnummers als verwijzingen dienen — dit is source-opmaak van de wet. Inhoud volledig.
+      concrete_problemen: []
 ---
 
 # Wet voorafgaande beslissingen in fiscale zaken

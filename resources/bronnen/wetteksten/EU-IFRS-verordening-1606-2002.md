@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T16:08:56Z'
+    confirmed_by: subagent-unspecified
+    rationale: Geen EUR-Lex markers. Kleine PDF-kolom-splits (afgekapte woorden met koppelteken zoals 'Gemeen- schap', 'beursgenoteerde onderne- mingen') zijn inherent aan de bron-PDF-opmaak en worden consistent door de gehele tekst heen aangehouden — dit is een source-eigenschap, geen ETL-fout. Alle 11 artikelen aanwezig.
     layer1:
       status: pass
       run_id: 20260512-160242
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 17133
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-unspecified
+      run_at: '2026-05-12T16:08:56Z'
+      rationale: Geen EUR-Lex markers. Kleine PDF-kolom-splits (afgekapte woorden met koppelteken zoals 'Gemeen- schap', 'beursgenoteerde onderne- mingen') zijn inherent aan de bron-PDF-opmaak en worden consistent door de gehele tekst heen aangehouden — dit is een source-eigenschap, geen ETL-fout. Alle 11 artikelen aanwezig.
+      concrete_problemen:
+        - regel: 53
+          categorie: (source)
+          type: source-typo
+          voorbeeld: Gelet op het Verdrag tot oprichting van de Europese Gemeen- schap
 ---
 
 # Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 betreffende de toepassing van internationale standaarden voor jaarrekeningen

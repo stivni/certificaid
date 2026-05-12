@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T16:08:56Z'
+    confirmed_by: subagent-unspecified
+    rationale: "D2: Art. 2 (definities) is onvolledig geëxtraheerd — de body begint midden in Art. 2 bij definitie 4 ('referentie-interestvoet'), en definities 1-3 ontbreken ('handelstransactie', 'overheidsinstantie', en eerste definitie met verwijzing naar 'Richtlijn 2004/17/EG'). Dit is een extractietruncatie van de eerste pagina."
     layer1:
       status: pass
       run_id: 20260512-160243
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 15067
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-unspecified
+      run_at: '2026-05-12T16:08:56Z'
+      rationale: "D2: Art. 2 (definities) is onvolledig geëxtraheerd — de body begint midden in Art. 2 bij definitie 4 ('referentie-interestvoet'), en definities 1-3 ontbreken ('handelstransactie', 'overheidsinstantie', en eerste definitie met verwijzing naar 'Richtlijn 2004/17/EG'). Dit is een extractietruncatie van de eerste pagina."
+      concrete_problemen:
+        - regel: 48
+          categorie: D2
+          type: missing-section
+          voorbeeld: "Body start: 'Richtlijn 2004/17/EG en in artikel 1, lid 9...' — dit is midden Art. 2 definitie 3; definities 1-3 ontbreken"
 ---
 
 # Wet betalingsachterstand handelstransacties

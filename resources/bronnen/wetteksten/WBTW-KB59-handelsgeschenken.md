@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T16:08:56Z'
+    confirmed_by: subagent-unspecified
+    rationale: Geen Fisconet-artefacten. 22 artikelheadings correct gestructureerd. HOOFDSTUK/Afdeling hiërarchie aanwezig. Wijzigingshistorie consistent.
     layer1:
       status: pass
       run_id: 20260512-160243
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 20911
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-unspecified
+      run_at: '2026-05-12T16:08:56Z'
+      rationale: Geen Fisconet-artefacten. 22 artikelheadings correct gestructureerd. HOOFDSTUK/Afdeling hiërarchie aanwezig. Wijzigingshistorie consistent.
+      concrete_problemen: []
 ---
 
 # BTW KB nr. 59 — Handelsgeschenken

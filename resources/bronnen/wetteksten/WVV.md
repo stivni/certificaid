@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T16:08:56Z'
+    confirmed_by: subagent-unspecified
+    rationale: 'D2: Boeken 1-7 van het WVV ontbreken volledig — het document begint bij Art. 7:231 (opgeheven) en omvat slechts Boeken 8-18. De kern van het WVV (Boek 2 algemene bepalingen, Boek 3 maatschapsvormen, Boek 4 VOF/CommV, Boek 5 BV, Boek 6 CV, Boek 7 NV) is afwezig. Dit is vermoedelijk een incomplete PDF-extractie. Inhoud van Boeken 8-18 is wel correct gestructureerd (318 artikelen, 511 headings).'
     layer1:
       status: pass
       run_id: 20260512-160243
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 279216
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-unspecified
+      run_at: '2026-05-12T16:08:56Z'
+      rationale: 'D2: Boeken 1-7 van het WVV ontbreken volledig — het document begint bij Art. 7:231 (opgeheven) en omvat slechts Boeken 8-18. De kern van het WVV (Boek 2 algemene bepalingen, Boek 3 maatschapsvormen, Boek 4 VOF/CommV, Boek 5 BV, Boek 6 CV, Boek 7 NV) is afwezig. Dit is vermoedelijk een incomplete PDF-extractie. Inhoud van Boeken 8-18 is wel correct gestructureerd (318 artikelen, 511 headings).'
+      concrete_problemen:
+        - regel: 46
+          categorie: D2
+          type: missing-section
+          voorbeeld: 'Document start: Art. 7:231 — Boeken 1-7 (Art. 1:1 t/m 7:230) volledig afwezig'
 ---
 
 # Wetboek van vennootschappen en verenigingen 23/03/2019

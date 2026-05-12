@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T16:08:56Z'
+    confirmed_by: subagent-unspecified
+    rationale: Geen EUR-Lex markers. Alle 11 artikelen aanwezig en goed gestructureerd. Kleine PDF-koppeltekensplits (bv. 'interca- laire') zijn source-kenmerken. Definities van interest en royalty's, verbonden ondernemingen, en overgangsbepalingen volledig aanwezig.
     layer1:
       status: pass
       run_id: 20260512-160243
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 23049
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-unspecified
+      run_at: '2026-05-12T16:08:56Z'
+      rationale: Geen EUR-Lex markers. Alle 11 artikelen aanwezig en goed gestructureerd. Kleine PDF-koppeltekensplits (bv. 'interca- laire') zijn source-kenmerken. Definities van interest en royalty's, verbonden ondernemingen, en overgangsbepalingen volledig aanwezig.
+      concrete_problemen: []
 ---
 
 # Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten

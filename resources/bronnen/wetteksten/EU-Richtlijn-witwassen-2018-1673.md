@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T16:08:56Z'
+    confirmed_by: subagent-unspecified
+    rationale: "B5/B1: De heading-structuur is omgekeerd — artikelbody staat voor de artikelheading. Artikelen 4-16 worden als losse ###### headings vermeld na de samengebalde body-tekst van meerdere artikelen: bijv. de tekst van Art. 4-6 staat op r220-236, daarna komen de ####### headings 'Artikel 4 — Medeplichtigheid', 'Artikel 5 — Sancties', 'Artikel 6 — Verzwarende omstandigheden'. Dit is een extractor-artefact waarbij de heading na de body terechtkwam. Inhoud wel compleet."
     layer1:
       status: pass
       run_id: 20260512-160243
@@ -37,6 +37,19 @@ provenance:
       file_size_chars: 39810
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-unspecified
+      run_at: '2026-05-12T16:08:56Z'
+      rationale: "B5/B1: De heading-structuur is omgekeerd — artikelbody staat voor de artikelheading. Artikelen 4-16 worden als losse ###### headings vermeld na de samengebalde body-tekst van meerdere artikelen: bijv. de tekst van Art. 4-6 staat op r220-236, daarna komen de ####### headings 'Artikel 4 — Medeplichtigheid', 'Artikel 5 — Sancties', 'Artikel 6 — Verzwarende omstandigheden'. Dit is een extractor-artefact waarbij de heading na de body terechtkwam. Inhoud wel compleet."
+      concrete_problemen:
+        - regel: 220
+          categorie: B5
+          type: other
+          voorbeeld: Artikel 4 Medeplichtigheid, uitlokking en poging (als heading NADER de body)
+        - regel: 242
+          categorie: B5
+          type: other
+          voorbeeld: Art. 4-16 headings staan ACHTER de bijbehorende body-tekst i.p.v. ervoor
 ---
 
 # Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld

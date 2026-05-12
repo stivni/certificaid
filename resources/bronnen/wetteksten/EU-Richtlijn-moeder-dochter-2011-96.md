@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T16:08:56Z'
+    confirmed_by: subagent-unspecified
+    rationale: "Geen EUR-Lex markers. Kleine ## heading-fragmenten ('## RICHTLIJN 2011/96/EU VAN DE RAAD' op r72-74) zijn preambuletekst. Alle 11 artikelen aanwezig. Bijlagen I (vennootschapslijsten per lidstaat) en II volledig aanwezig. PDF-koppeltekensplits zijn source-kenmerken."
     layer1:
       status: pass
       run_id: 20260512-160243
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 27798
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-unspecified
+      run_at: '2026-05-12T16:08:56Z'
+      rationale: "Geen EUR-Lex markers. Kleine ## heading-fragmenten ('## RICHTLIJN 2011/96/EU VAN DE RAAD' op r72-74) zijn preambuletekst. Alle 11 artikelen aanwezig. Bijlagen I (vennootschapslijsten per lidstaat) en II volledig aanwezig. PDF-koppeltekensplits zijn source-kenmerken."
+      concrete_problemen:
+        - regel: 72
+          categorie: B4
+          type: other
+          voorbeeld: '## RICHTLIJN 2011/96/EU VAN DE RAAD'
 ---
 
 # Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemeenschappelijke fiscale regeling voor moedermaatschappijen en dochterondernemingen uit verschillende lidstaten

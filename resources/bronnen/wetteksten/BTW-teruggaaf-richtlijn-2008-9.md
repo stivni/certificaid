@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T16:08:56Z'
+    confirmed_by: subagent-unspecified
+    rationale: "A1: EUR-Lex amendment-header op regel 58 ('► M1  Richtlijn 2010/66/EU van de Raad van 14 oktober 2010  L 275  1  20.10.2010') is niet weggefiltered — dit is een EUR-Lex tabel-rij, geen wetinhoud. Inhoud zelf (Art. 1-31) volledig aanwezig en goed gestructureerd. Verder geen noemenswaardige ETL-artefacten."
     layer1:
       status: pass
       run_id: 20260512-160242
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 23507
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-unspecified
+      run_at: '2026-05-12T16:08:56Z'
+      rationale: "A1: EUR-Lex amendment-header op regel 58 ('► M1  Richtlijn 2010/66/EU van de Raad van 14 oktober 2010  L 275  1  20.10.2010') is niet weggefiltered — dit is een EUR-Lex tabel-rij, geen wetinhoud. Inhoud zelf (Art. 1-31) volledig aanwezig en goed gestructureerd. Verder geen noemenswaardige ETL-artefacten."
+      concrete_problemen:
+        - regel: 58
+          categorie: A1
+          type: form-feed
+          voorbeeld: ► M1  Richtlijn 2010/66/EU van de Raad van 14 oktober 2010  L 275  1  20.10.2010
 ---
 
 # Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Richtlijn 2006/112/EG vastgestelde teruggaaf van btw aan belastingplichtigen die niet in de lidstaat van teruggaaf maar in een andere lidstaat gevestigd zijn
