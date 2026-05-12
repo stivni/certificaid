@@ -35,12 +35,36 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:58:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'A7/B4: de inhoudstafel (regels 67-124) is gerenderd als dotted-leader TOC met dash-gescheiden titels en paginanummers als onderdeel van de body (niet als heading-blok). Bovendien zijn secties 2-6 gefragmenteerd: tekst van secties 2.4, 2.5, 3.3, 3.7, 4.3, 5.3, 6 staat als losse alinea-blokken zonder sectie-heading erboven (B5 pattern), wat wijst op kolom-extractie waarbij sectie-labels verloren zijn gegaan. Inhoud zelf is inhoudelijk aanwezig maar structurele hiaten maken RAG-chunking onbetrouwbaar.'
     layer1:
+      status: pass
+      run_id: 20260512-235514
+      run_at: '2026-05-12T23:55:14Z'
+      heading_count: 6
+      max_section_chars: 11376
+      file_size_chars: 25083
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:58:43Z'
+      rationale: 'A7/B4: de inhoudstafel (regels 67-124) is gerenderd als dotted-leader TOC met dash-gescheiden titels en paginanummers als onderdeel van de body (niet als heading-blok). Bovendien zijn secties 2-6 gefragmenteerd: tekst van secties 2.4, 2.5, 3.3, 3.7, 4.3, 5.3, 6 staat als losse alinea-blokken zonder sectie-heading erboven (B5 pattern), wat wijst op kolom-extractie waarbij sectie-labels verloren zijn gegaan. Inhoud zelf is inhoudelijk aanwezig maar structurele hiaten maken RAG-chunking onbetrouwbaar.'
+      concrete_problemen:
+        - regel: 67
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: ALGEMENE BEPALINGEN ------...------- 4
+        - regel: 173
+          categorie: B5
+          type: other
+          voorbeeld: bedoelde functie door die persoon zelf uitgeoefend. (sectie 2.1 ontbreekt als heading)
+        - regel: 204
+          categorie: B5
+          type: other
+          voorbeeld: 3.3. (geen heading; secties 3.1 en 3.2 ontbreken ook)
 ---
 Geconsolideerde tekst door het Instituut van de Belastingadviseurs en de Accountants (ITAA) van de norm van het IAB en de richtlijn van het BIBF inzake de toepassing van de wet van 18 september 2017 tot
 

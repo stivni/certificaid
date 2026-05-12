@@ -32,12 +32,36 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:58:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A6: de preambule (regels 49-112) heeft spurious line-breaks door de unindent-fix die leading spaces heeft verwijderd maar de per-visuele-regel-opsplitsing heeft behouden. Regels als ' Procedurereglement voor het opleggen van maatregelen' (r49), ' Beslissing van de Raad d.d.' (r52) en de overweging-blokken staan als losse regels zonder markdown-structuur. De articulaire inhoud (Art. 1-9 als ## headings) is correct. De preambule-fragmentatie maakt de context voor RAG-chunks van Art. 1 onleesbaar."
     layer1:
+      status: pass
+      run_id: 20260512-235514
+      run_at: '2026-05-12T23:55:14Z'
+      heading_count: 9
+      max_section_chars: 3778
+      file_size_chars: 12745
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:58:43Z'
+      rationale: "A6: de preambule (regels 49-112) heeft spurious line-breaks door de unindent-fix die leading spaces heeft verwijderd maar de per-visuele-regel-opsplitsing heeft behouden. Regels als ' Procedurereglement voor het opleggen van maatregelen' (r49), ' Beslissing van de Raad d.d.' (r52) en de overweging-blokken staan als losse regels zonder markdown-structuur. De articulaire inhoud (Art. 1-9 als ## headings) is correct. De preambule-fragmentatie maakt de context voor RAG-chunks van Art. 1 onleesbaar."
+      concrete_problemen:
+        - regel: 49
+          categorie: A6
+          type: other
+          voorbeeld: '  Procedurereglement voor het opleggen van maatregelen\nin het kader van artikel 118'
+        - regel: 113
+          categorie: B4
+          type: other
+          voorbeeld: 'Definities (plain text, geen ## heading)'
+        - regel: 138
+          categorie: B4
+          type: other
+          voorbeeld: 'Onderzoek (plain text, geen ## heading)'
 ---
   Procedurereglement voor het opleggen van maatregelen
 in het kader van artikel 118, §1 van de antiwitwaswet

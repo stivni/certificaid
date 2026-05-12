@@ -32,12 +32,36 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:58:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A7: de preambule is zwaar gefragmenteerd door kolom-extractie: 'BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien artikel 31, § 1...' (r53), zinnen eindigen abrupt op 'waarnaar zal worden omgezet.' (r98), 'kunnen:' (r105), 'de vereisten en kunnen:' (r112) zonder vervolgzin. B7/A2: de inhoudstafel (r132-150) staat als Romeinse-nummerlijst zonder body-text, met afgekapte titels ('I.\\nII.\\nIV. Uit te voeren werkzaamheden...' — sectie III ontbreekt). Meerdere overweging-items (3)-(6) zijn onvolledig. Kern-norm-tekst (vanaf de articulaire secties) is vermoedelijk volledig maar de preambule en inleiding zijn onbetrouwbaar."
     layer1:
+      status: pass
+      run_id: 20260512-235514
+      run_at: '2026-05-12T23:55:14Z'
+      heading_count: 58
+      max_section_chars: 7165
+      file_size_chars: 91313
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:58:43Z'
+      rationale: "A7: de preambule is zwaar gefragmenteerd door kolom-extractie: 'BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien artikel 31, § 1...' (r53), zinnen eindigen abrupt op 'waarnaar zal worden omgezet.' (r98), 'kunnen:' (r105), 'de vereisten en kunnen:' (r112) zonder vervolgzin. B7/A2: de inhoudstafel (r132-150) staat als Romeinse-nummerlijst zonder body-text, met afgekapte titels ('I.\\nII.\\nIV. Uit te voeren werkzaamheden...' — sectie III ontbreekt). Meerdere overweging-items (3)-(6) zijn onvolledig. Kern-norm-tekst (vanaf de articulaire secties) is vermoedelijk volledig maar de preambule en inleiding zijn onbetrouwbaar."
+      concrete_problemen:
+        - regel: 53
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien artikel 31, § 1 van de wet van 7 december 2016
+        - regel: 132
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: I.\nII.\nIV. Uit te voeren werkzaamheden... (sectie III ontbreekt)
+        - regel: 98
+          categorie: D1
+          type: abrupt-cutoff
+          voorbeeld: Alvorens tot de omzetting wordt besloten, maakt het bestuursorgaan een staat van activa en passiva op. waarnaar zal worden omgezet.
 ---
 Ontwerp
 

@@ -35,12 +35,40 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:58:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4: regel 133-134 bevat een gefragmenteerde TOC-aanzet ('Inhoud\\nOrganisatie van de beroepsbeoefenaar wat de compliancefuncties betreft . 7') als plain text. A2: dotted-leader paginanummer ('. 7') in TOC-rest. B3: heading '## 3. Algemene risicobeoordeling beroepsbeoefenaar' op r406 is afgekapt (ontbreekt 'op te maken door de'); '## Bijlage I. Variabelen...' en '## 3. Algemene risicobeoordeling...' dubbel aanwezig (r136-140 als TOC-fragment + r406 als echte heading). A8: r263 toont 'die op samenwerking is gericht; en b)   die duidelijk is gericht...' op één regel — kolom-extractie-artefact. Kern-inhoud aanwezig maar structurele ruis vereist rework."
     layer1:
+      status: pass
+      run_id: 20260512-235514
+      run_at: '2026-05-12T23:55:14Z'
+      heading_count: 16
+      max_section_chars: 8077
+      file_size_chars: 41090
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:58:43Z'
+      rationale: "B4: regel 133-134 bevat een gefragmenteerde TOC-aanzet ('Inhoud\\nOrganisatie van de beroepsbeoefenaar wat de compliancefuncties betreft . 7') als plain text. A2: dotted-leader paginanummer ('. 7') in TOC-rest. B3: heading '## 3. Algemene risicobeoordeling beroepsbeoefenaar' op r406 is afgekapt (ontbreekt 'op te maken door de'); '## Bijlage I. Variabelen...' en '## 3. Algemene risicobeoordeling...' dubbel aanwezig (r136-140 als TOC-fragment + r406 als echte heading). A8: r263 toont 'die op samenwerking is gericht; en b)   die duidelijk is gericht...' op één regel — kolom-extractie-artefact. Kern-inhoud aanwezig maar structurele ruis vereist rework."
+      concrete_problemen:
+        - regel: 133
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: Organisatie van de beroepsbeoefenaar wat de compliancefuncties betreft . 7
+        - regel: 136
+          categorie: B7
+          type: dotted-leader
+          voorbeeld: '## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar\nNakoming'
+        - regel: 406
+          categorie: B1
+          type: other
+          voorbeeld: '## 3. Algemene    risicobeoordeling beroepsbeoefenaar (afgekapt)'
+        - regel: 263
+          categorie: A8
+          type: column-bleed
+          voorbeeld: die op samenwerking is gericht; en b)   die duidelijk is gericht op winst-
 ---
 Richtlijn van het Beroepsinstituut van erkende Boekhouders en Fiscalisten
  van 31 maart 2020 inzake de toepassing van de wet van 18 september

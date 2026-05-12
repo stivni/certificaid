@@ -34,12 +34,28 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:58:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Groot document (145910 chars, 74 headings) maar structureel solide na de unindent-fix. Preambule volledig aanwezig, inhoudstafel als ##-headings met sub-items (acceptabel), inhoud van §1-§93+ volledig leesbaar. Laag-1 meldt max_section_size warn (43682 chars) maar dit is een chunker-issue, geen extractie-fout. Voetnoten staan inline na de betrokken paragraaf (1-5 numeriek) wat consistent is. Geen kolom-bleed, form-feed of scrambled text aangetroffen bij steekproef van preambule, art. 1-3 en bijlagen.'
     layer1:
+      status: warn
+      run_id: 20260512-235514
+      run_at: '2026-05-12T23:55:14Z'
+      heading_count: 74
+      max_section_chars: 43682
+      file_size_chars: 145910
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 43682 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:58:43Z'
+      rationale: 'Groot document (145910 chars, 74 headings) maar structureel solide na de unindent-fix. Preambule volledig aanwezig, inhoudstafel als ##-headings met sub-items (acceptabel), inhoud van §1-§93+ volledig leesbaar. Laag-1 meldt max_section_size warn (43682 chars) maar dit is een chunker-issue, geen extractie-fout. Voetnoten staan inline na de betrokken paragraaf (1-5 numeriek) wat consistent is. Geen kolom-bleed, form-feed of scrambled text aangetroffen bij steekproef van preambule, art. 1-3 en bijlagen.'
+      concrete_problemen: []
 ---
 # KMO controle norm
 

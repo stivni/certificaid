@@ -33,12 +33,36 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:58:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A7/B5: de preambule (r50-62) is sterk gefragmenteerd — zinnen zijn afgekapt midden in een zin door kolom-extractie: 'BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien artikel 31...' staat los, 'Instituut van de Bedrijfsrevisoren op 20 december 2019 en voorgelegd aan...' staat zonder context. A2: de inhoudstafel (r119-131) staat als plain-text blok met Romeinse cijfers zonder body-tekst. B3: '## Toepassingsgebied' en '## VEREISTEN TOEPASSINGSMODALITEITEN' zijn twee keer aanwezig (r132-134 en r147-148) als dubbele headings. Ondanks 64 headings en grote omvang is de extractie-kwaliteit van de preambule en inhoudstafel-blokken onvoldoende voor betrouwbare RAG-indexering."
     layer1:
+      status: pass
+      run_id: 20260512-235514
+      run_at: '2026-05-12T23:55:14Z'
+      heading_count: 64
+      max_section_chars: 5808
+      file_size_chars: 69299
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:58:43Z'
+      rationale: "A7/B5: de preambule (r50-62) is sterk gefragmenteerd — zinnen zijn afgekapt midden in een zin door kolom-extractie: 'BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien artikel 31...' staat los, 'Instituut van de Bedrijfsrevisoren op 20 december 2019 en voorgelegd aan...' staat zonder context. A2: de inhoudstafel (r119-131) staat als plain-text blok met Romeinse cijfers zonder body-tekst. B3: '## Toepassingsgebied' en '## VEREISTEN TOEPASSINGSMODALITEITEN' zijn twee keer aanwezig (r132-134 en r147-148) als dubbele headings. Ondanks 64 headings en grote omvang is de extractie-kwaliteit van de preambule en inhoudstafel-blokken onvoldoende voor betrouwbare RAG-indexering."
+      concrete_problemen:
+        - regel: 54
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien artikel 31, § 1 van de wet van 7 december 2016
+        - regel: 119
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: I.\nII.\nIII.\nUit te voeren werkzaamheden teneinde...
+        - regel: 132
+          categorie: B3
+          type: other
+          voorbeeld: '## Toepassingsgebied (dubbele heading aanwezig)'
 ---
 Norm inzake de opdracht van de beroepsbeoefenaar in het kader van de beoordeling van het getrouw en voldoende zijn van de financiële en boekhoudkundige gegevens opgenomen in het verslag van het
 
