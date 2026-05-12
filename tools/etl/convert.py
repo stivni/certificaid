@@ -70,6 +70,10 @@ from tools.etl.transformers import apply_chain  # noqa: E402
 
 DEFAULT_CHAINS: dict[str, list[str]] = {
     "pdftotext_ejustice":       ["cleanup_basics", "strip_amendment_overview", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],
+    # pdftotext_narratief: narratieve praktijkgidsen (Type 3 PDFs) zonder artikel-
+    # hiërarchie. inject_headings_narratief detecteert Vak/HOOFDSTUK/Roman/ALLCAPS
+    # sectie-patronen specifiek voor deze broncategorie.
+    "pdftotext_narratief":      ["cleanup_basics", "inject_headings_narratief", "emit_frontmatter"],
     "custom_wetboek":           ["cleanup_basics", "strip_amendment_overview", "strip_fisconet_artefacts", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],
     "custom_wib92":             ["cleanup_basics", "strip_amendment_overview", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "emit_frontmatter"],
     # iesba: structuur (headings, bold para-nummers) al door extractor gedaan;
@@ -137,6 +141,7 @@ def _get_sub_strategy(cfg: dict) -> str | None:
 
 _BRON_LABEL_PER_METHOD = {
     "pdftotext_ejustice": "ejustice.just.fgov.be (gecoördineerde versie)",
+    "pdftotext_narratief": "ejustice.just.fgov.be (gecoördineerde versie)",
     "custom_wetboek": "Fisconetplus.be (officieuze gecoördineerde versie)",
     "custom_wib92": "Fisconet (officieuze gecoördineerde versie)",
     "justel_html": "www.ejustice.just.fgov.be (Justel, gecoördineerde versie)",
@@ -306,6 +311,9 @@ def _cleanup_steps_for(cfg: dict, method: str) -> list[str]:
     - justel_html / justel_bs_bilingual: extractor levert al schone tekst;
       we beperken cleanup tot collapse_blank_lines.
     """
+    if method == "pdftotext_narratief":
+        # Narratieve gidsen: minimale cleanup + inject_headings_narratief via chain.
+        return ["normalize_whitespace", "collapse_blank_lines"] + list(cfg.get("cleanup", []))
     if method == "pdftotext_ejustice":
         params = (cfg.get("extract") or {}).get("params") or {}
         if params.get("simple_mode"):

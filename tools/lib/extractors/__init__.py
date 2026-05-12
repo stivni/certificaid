@@ -33,6 +33,7 @@ from . import (
     md_passthrough,
     pdftotext_compilatie_btw,
     pdftotext_ejustice,
+    pdftotext_narratief,
     pymupdf_wetboek,
 )
 
@@ -43,6 +44,7 @@ ExtractFn = Callable[[dict, str], "str | dict[str, str]"]
 
 METHOD_HANDLERS: dict[str, ExtractFn] = {
     "pdftotext_ejustice": pdftotext_ejustice.extract,
+    "pdftotext_narratief": pdftotext_narratief.extract,
     "custom_wetboek": custom_wetboek.extract,
     "custom_wib92": custom_wib92.extract,
     "iesba": iesba.extract,
