@@ -24,6 +24,7 @@ from tools.etl.transformers.unindent_pdftotext_margin import unindent_pdftotext_
 from tools.etl.transformers.strip_pdf_page_noise import strip_pdf_page_noise
 from tools.etl.transformers.merge_pdf_paragraph_breaks import merge_pdf_paragraph_breaks
 from tools.etl.transformers.merge_broken_sentences import merge_broken_sentences
+from tools.etl.transformers.fix_italic_spacing import fix_italic_spacing
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
@@ -40,6 +41,7 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "strip_pdf_page_noise": strip_pdf_page_noise,
     "merge_pdf_paragraph_breaks": merge_pdf_paragraph_breaks,
     "merge_broken_sentences": merge_broken_sentences,
+    "fix_italic_spacing": fix_italic_spacing,
 }
 
 

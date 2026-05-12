@@ -1314,3 +1314,80 @@ class TestMergeBrokenSentences:
     def test_geregistreerd_in_transformers(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "merge_broken_sentences" in TRANSFORMERS
+
+
+# ─── fix_italic_spacing (D4 in CBN-adviezen) ──────────────────────────────────
+
+class TestFixItalicSpacing:
+    """Strip whitespace adjacent to italic-markers."""
+
+    def test_trailing_space_before_closing(self):
+        from tools.etl.transformers.fix_italic_spacing import fix_italic_spacing
+        body = "Een woord *Solidariteitsfonds * blijft italic."
+        result, _ = fix_italic_spacing(body, {})
+        assert result == "Een woord *Solidariteitsfonds* blijft italic."
+
+    def test_leading_space_after_opening(self):
+        from tools.etl.transformers.fix_italic_spacing import fix_italic_spacing
+        body = "Voor * Financieringsfonds* geldt..."
+        result, _ = fix_italic_spacing(body, {})
+        assert result == "Voor *Financieringsfonds* geldt..."
+
+    def test_both_sides(self):
+        from tools.etl.transformers.fix_italic_spacing import fix_italic_spacing
+        body = "Het gaat over * testing * resultaten."
+        result, _ = fix_italic_spacing(body, {})
+        assert result == "Het gaat over *testing* resultaten."
+
+    def test_multiple_italic_pairs(self):
+        from tools.etl.transformers.fix_italic_spacing import fix_italic_spacing
+        body = "*Voorrang * van het *boekhoudkundig realisatiebeginsel * op *het overeenstemmingsprincipe *."
+        result, _ = fix_italic_spacing(body, {})
+        # Elk pair heeft geen trailing space binnen het italic-marker-pair
+        assert "*Voorrang*" in result
+        assert "*boekhoudkundig realisatiebeginsel*" in result
+        assert "*het overeenstemmingsprincipe*" in result
+        # En geen ` *` (space VOOR closing) overgebleven — dat is wat we wilden fixen
+        assert " *." not in result
+        assert " * " not in result.replace(" *and", "skipped")
+
+    def test_no_change_when_well_formed(self):
+        from tools.etl.transformers.fix_italic_spacing import fix_italic_spacing
+        body = "Een *welgevormde* italic blijft *intact*."
+        result, _ = fix_italic_spacing(body, {})
+        assert result == body
+
+    def test_bold_not_affected(self):
+        """Bold `**foo **` blijft onaangetast (alleen italic `*` wordt gefixed)."""
+        from tools.etl.transformers.fix_italic_spacing import fix_italic_spacing
+        body = "Een **bold met trailing space ** blijft zo."
+        result, _ = fix_italic_spacing(body, {})
+        assert "**bold met trailing space **" in result
+
+    def test_list_marker_not_affected(self):
+        """List-marker `* item` aan begin regel is geen italic — niet aanraken."""
+        from tools.etl.transformers.fix_italic_spacing import fix_italic_spacing
+        body = "Lijst:\n* item 1\n* item 2"
+        result, _ = fix_italic_spacing(body, {})
+        # list-markers blijven (newline + * + space)
+        assert "\n* item 1" in result
+        assert "\n* item 2" in result
+
+    def test_multiline_italic_not_merged(self):
+        """Italic spanning newlines wordt NIET aangeraakt (riskant)."""
+        from tools.etl.transformers.fix_italic_spacing import fix_italic_spacing
+        body = "*Lijn 1\n\nLijn 2*"
+        result, _ = fix_italic_spacing(body, {})
+        # Niet samengevoegd
+        assert "\n\n" in result
+
+    def test_idempotent(self):
+        from tools.etl.transformers.fix_italic_spacing import fix_italic_spacing
+        body = "*Solidariteitsfonds * of *Financieringsfonds *."
+        once, _ = fix_italic_spacing(body, {})
+        twice, _ = fix_italic_spacing(once, {})
+        assert once == twice
+
+    def test_geregistreerd_in_transformers(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "fix_italic_spacing" in TRANSFORMERS
