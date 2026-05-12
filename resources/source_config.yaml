@@ -121,14 +121,11 @@ sources:
     bijgewerkt: "03.04.2026"
     wet: Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF)
     titel: Vlaamse Codex Fiscaliteit (VCF)
-    col_x: 0
-    # col_w=310 is empirisch sweet spot voor VCF body: capture volledige NL-
-    # kolom zonder FR-fragmenten (gemeten op page 50). Default in extractor.
-    col_w: 310
-    start_page: 30
     status: volledig
     extract:
-      method: custom_wetboek
+      method: pymupdf_wetboek
+      params:
+        column_filter: nl
   Registratierechten-federaal:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/Registratierechten-federaal.pdf
@@ -140,13 +137,11 @@ sources:
     bijgewerkt: "01.04.2026"
     wet: Wetboek der Registratie-, Hypotheek- en Griffierechten — federaal
     titel: Registratierechten — federaal
-    col_x: 0
-    # col_w=310 is default; mogelijk aanpassen na nadere kolom-analyse.
-    col_w: 310
-    start_page: 8
     status: volledig
     extract:
-      method: custom_wetboek
+      method: pymupdf_wetboek
+      params:
+        column_filter: nl
   Registratierechten-Brussel:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/Registratierechten-Brussel.pdf
