@@ -25,10 +25,10 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 5972bb1
+    pipeline_version: 5972bb1-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:52:56Z'
+  generated_at: '2026-05-12T23:54:26Z'
   stale: false
   stale_reason:
   trust:
@@ -39,10 +39,10 @@ provenance:
     layer1:
     layer2:
 ---
-    OPDRACHTBRIEF
+OPDRACHTBRIEF
 
-    Inhoud
-            2) Specifieke regels bij de uitvoering van de opdrachten die voorbehouden zijn aan gecertificeerde
+Inhoud
+        2) Specifieke regels bij de uitvoering van de opdrachten die voorbehouden zijn aan gecertificeerde
 
 Alhoewel de verplichting om een opdrachtbrief met de cliënt af te sluiten al jaren bestaat, werd
 er slechts eind 2019 een Koninklijk besluit 1 uitgevaardigd die de nadere regels bij het afsluiten
@@ -150,26 +150,26 @@ Is dit niet het geval dan zal een nieuwe opdrachtbrief of minstens een addendum 
 moeten worden opgemaakt.
 
 ## 4. Verplichtingen van de partijen
-     1) Langs de zijde van de cliënt
+ 1) Langs de zijde van de cliënt
 De opdrachtbrief biedt de mogelijkheid om bepaalde verplichtingen langs de zijde van de cliënt op te
 leggen welke bijdragen aan een zorgvuldige uitoefening van de opdracht zoals bijvoorbeeld:
-     -    De tijdige overhandiging van de nodige documenten
+ -    De tijdige overhandiging van de nodige documenten
 
-          Het is aan te raden in de opdrachtbrief te voorzien welke documenten binnen welke termijn
-          moeten worden ter beschikking gesteld voor een zorgvuldige uitoefening van de opdracht.
-          Dergelijke clausule zal van belang zijn naar aansprakelijkheid toe als de opdracht laattijdig werd
-          uitgevoerd omwille van de laattijdige aanlevering van de stukken.
+      Het is aan te raden in de opdrachtbrief te voorzien welke documenten binnen welke termijn
+      moeten worden ter beschikking gesteld voor een zorgvuldige uitoefening van de opdracht.
+      Dergelijke clausule zal van belang zijn naar aansprakelijkheid toe als de opdracht laattijdig werd
+      uitgevoerd omwille van de laattijdige aanlevering van de stukken.
 
-     -    Spontane melding van een betalingsverzuim
+ -    Spontane melding van een betalingsverzuim
 
 3 Vennoot, zaakvoerder of bestuurder, ITAA extern beroepsbeoefenaar - Art.42 Wet 17/03/2019
 
-          Gelet op de verantwoordelijkheid die Boek XX van het Wetboek van Economisch Recht legt bij
-          de beroepsbeoefenaars inzake de opsporing van ondernemingen in moeilijkheden, kan in de
-          opdrachtbrief worden voorzien dat de cliënt de beroepsbeoefenaar op de hoogte moet brengen
-          van elke betalingsachterstand, zodat deze de knipperlichten tijdig kan detecteren.
+      Gelet op de verantwoordelijkheid die Boek XX van het Wetboek van Economisch Recht legt bij
+      de beroepsbeoefenaars inzake de opsporing van ondernemingen in moeilijkheden, kan in de
+      opdrachtbrief worden voorzien dat de cliënt de beroepsbeoefenaar op de hoogte moet brengen
+      van elke betalingsachterstand, zodat deze de knipperlichten tijdig kan detecteren.
 
-     2) Langs de zijde van de beroepsbeoefenaar
+ 2) Langs de zijde van de beroepsbeoefenaar
 Hier kan bijvoorbeeld verwezen worden naar de verplichting in hoofde van de beroepsbeoefenaar om
 het beroepsgeheim te respecteren en de wettelijke uitzonderingen erop nader te duiden (bijvoorbeeld
 in het kader van Antiwitwaswetgeving en DAC6- reglementering).
@@ -181,7 +181,7 @@ opzet of met het oogmerk te schaden. Evenmin bij opdrachten voorbehouden aan gec
 accountants 4.
 
 ## 6. Einde van de overeenkomst
-     1) Beëindigingsmodaliteiten en opzegtermijn
+ 1) Beëindigingsmodaliteiten en opzegtermijn
 De opdrachtbrief dient te voorzien in de wijze waarop deze wordt beëindigd.
 
 In de meeste gevallen is de overeenkomst van onbepaalde duur en wordt er via de opdrachtbrief
@@ -191,12 +191,12 @@ oordelen of de opzegtermijn redelijk te verantwoorden is.
 Wat betreft de duurtijd van de opzeggingstermijn heeft de Commissie van beroep (oud- IAB) reeds
 geoordeeld dat door het stipuleren van een opzegtermijn van 6 of 12 maanden in de algemene
 voorwaarden, het lid “faalde in zijn plicht van waardigheid en eerlijkheid”.
-     2)   Opzegvergoeding
+ 2)   Opzegvergoeding
 De opdrachtbrief kan voorzien in een vervangende schadevergoeding wanneer de opzegtermijn niet
 wordt nageleefd. Ook hier wordt, net zoals bij de duurtijd van de opzegtermijn, aangeraden om de
 nodige redelijkheid aan de dag te leggen.
 
-     3) Situaties die een onmiddellijke beëindiging van de overeenkomst verantwoorden
+ 3) Situaties die een onmiddellijke beëindiging van de overeenkomst verantwoorden
 Het is aangeraden in de opdrachtbrief te bepalen in welke gevallen de beroepsbeoefenaar de
 mogelijkheid heeft om de overeenkomst te beëindigen zonder dat een opzegtermijn moet gerespecteerd
 worden.
@@ -254,18 +254,18 @@ duiden” onder zijn vennoten, zaakvoerders of bestuurders, die de hoedanigheid 
 uit te voeren.
 
 2. De ondertekening door de rechtspersoon-beroepsbeoefenaar
-     1) Wie vertegenwoordigt de rechtspersoon-beroepsbeoefenaar?
+ 1) Wie vertegenwoordigt de rechtspersoon-beroepsbeoefenaar?
 De rechtspersoon die partij is bij de opdrachtbrief, wordt vertegenwoordigd op basis van de algemene
 regels van vertegenwoordiging van een rechtspersoon. In de regel gebeurt dit door de organen van
 vertegenwoordiging van de rechtspersoon.
 
-     2) De vertegenwoordiger van de rechtspersoon moet geen beroepsbeoefenaar zijn
+ 2) De vertegenwoordiger van de rechtspersoon moet geen beroepsbeoefenaar zijn
 Het is voldoende dat de opdrachtbrief wordt ondertekend door een persoon of door personen die de
 rechtspersoon geldig kunnen vertegenwoordigen. De persoon of personen die de opdrachtbrief namens
 de rechtspersoon ondertekenen, moeten niet noodzakelijk de hoedanigheid van beroepsbeoefenaar
 hebben.
 
-     3) Delegatie van handtekeningsbevoegdheid
+ 3) Delegatie van handtekeningsbevoegdheid
 In principe kan de vertegenwoordiger van de rechtspersoon zijn handtekeningsbevoegdheid overdragen
 aan een andere persoon, en dit overeenkomstig de gemeenrechtelijke regels van delegatie van
 handtekeningsbevoegdheid 5.
@@ -283,20 +283,20 @@ Om praktische redenen kan de vertegenwoordiger van de rechtspersoon bijvoorbeeld
 handtekening delegeren aan de vertegenwoordiger-natuurlijke persoon, in het geval dat deze laatste
 zelf de rechtspersoon niet kan vertegenwoordigen 6.
 
-       RECHTSPERSOON
-    -BEROEPSBEOEFENAAR
-      Vertegenwoordiger
+   RECHTSPERSOON
+-BEROEPSBEOEFENAAR
+  Vertegenwoordiger
 
-    VERTEGENWOORDIG                                       OPDRACHT-
-     ER - NATUURLIJKE                                                                                   CLIËNT
-                                                            BRIEF
-          PERSOON
+VERTEGENWOORDIG                                       OPDRACHT-
+ ER - NATUURLIJKE                                                                                   CLIËNT
+                                                        BRIEF
+      PERSOON
 
 In dit geval ondertekent één persoon met twee hoedanigheden: deze van vertegenwoordiger-natuurlijk
 persoon en deze van (vertegenwoordiger van) de rechtspersoon-beroepsbeoefenaar.
 
 3. De ondertekening door de vertegenwoordiger-natuurlijke persoon
-     1) Wie is de vertegenwoordiger-natuurlijke persoon?
+ 1) Wie is de vertegenwoordiger-natuurlijke persoon?
 Deze vertegenwoordiger is een natuurlijke persoon die de hoedanigheid heeft om de opdracht uit te
 voeren.
 Voor deze vertegenwoordiger gelden dezelfde voorwaarden en dezelfde tuchtrechtelijke
@@ -305,26 +305,26 @@ aansprakelijkheid als wanneer hij die opdracht in eigen naam en voor eigen reken
 De vertegenwoordiger-natuurlijke persoon staat in voor de uitvoering van de opdracht in naam en voor
 rekening van de rechtspersoon.
 
-     2) De vertegenwoordiger-natuurlijke persoon = vertegenwoordiger rechtspersoon
+ 2) De vertegenwoordiger-natuurlijke persoon = vertegenwoordiger rechtspersoon
 Als de vertegenwoordiger van de rechtspersoon, die namens de vennootschap ondertekent, ook de
 beroepsbeoefenaar is die zal instaan voor de uitvoering ervan, volstaat uiteraard één handtekening met
 melding van beide hoedanigheden.
 
-       RECHTSPERSOON
-    -BEROEPSBEOEFENAAR
-      Vertegenwoordiger
+   RECHTSPERSOON
+-BEROEPSBEOEFENAAR
+  Vertegenwoordiger
 
-                                                              OPDRACHT-                                 CLIËNT
-                                                                BRIEF
+                                                          OPDRACHT-                                 CLIËNT
+                                                            BRIEF
 
-    VERTEGENWOORDIG
-     ER - NATUURLIJKE
-          PERSOON
+VERTEGENWOORDIG
+ ER - NATUURLIJKE
+      PERSOON
 
 6 Bijvoorbeeld: als de vertegenwoordiger-natuurlijke persoon weliswaar bestuurder is van een rechtspersoon-NV, maar geen individuele
 vertegenwoordigingsbevoegdheid bezit ten aanzien van deze rechtspersoon-NV.
 
-     3) Delegatie van handtekeningsbevoegdheid
+ 3) Delegatie van handtekeningsbevoegdheid
 Ook de natuurlijk persoon-vertegenwoordiger kan in principe zijn handtekening overdragen.
 
 Om praktische redenen kan hij zijn handtekeningsbevoegdheid bijvoorbeeld delegeren aan de
@@ -334,14 +334,14 @@ voor de uitvoering van zijn opdracht beroep wenst doen.
 
 Delegatie van handtekening aan de vertegenwoordiger van de rechtspersoon:
 
-      RECHTSPERSOON
-    -BEROEPSBEOEFENAAR                        OPDRACHT-
-                                                BRIEF                                 CLIËNT
-     Vertegenwoordiger
+  RECHTSPERSOON
+-BEROEPSBEOEFENAAR                        OPDRACHT-
+                                            BRIEF                                 CLIËNT
+ Vertegenwoordiger
 
-    VERTEGENWOORDIG
-     ER - NATUURLIJKE
-          PERSOON
+VERTEGENWOORDIG
+ ER - NATUURLIJKE
+      PERSOON
 
 In dat geval ondertekent de vertegenwoordiger van de rechtspersoon de opdrachtbrief ook in naam en
 voor rekening van de vertegenwoordiger-natuurlijk persoon.
@@ -401,7 +401,7 @@ te hebben van zijn cliënt. Met het oog op de transparantie ten aanzien van de c
 aangewezen dat dit uitdrukkelijk opgenomen wordt in de opdrachtbrief.
 
 ## 3. Uitvoering van de opdracht
-        1) Bijstand en vertegenwoordiging bij de uitvoering van opdrachten
+    1) Bijstand en vertegenwoordiging bij de uitvoering van opdrachten
 De vertegenwoordiger-natuurlijke persoon van de rechtspersoon draagt de eindverantwoordelijkheid
 voor de uitvoering van de opdracht.
 
@@ -412,50 +412,50 @@ vertegenwoordiger-natuurlijke persoon zich laten leiden door zijn professioneel 
 onderaannemers moeten bovendien vanzelfsprekend de hoedanigheid bezitten om op zelfstandige
 wijze boekhoudkundige en/of fiscale activiteiten te verrichten voor derden.
 
-        2) Specifieke regels bij de uitvoering van de opdrachten die voorbehouden zijn aan gecertificeerde
-           accountants
-    a. Schriftelijke aantekening van de aard van de verrichte werkzaamheden bij opdrachten die
-       voorbehouden zijn aan gecertificeerd accountants
+    2) Specifieke regels bij de uitvoering van de opdrachten die voorbehouden zijn aan gecertificeerde
+       accountants
+a. Schriftelijke aantekening van de aard van de verrichte werkzaamheden bij opdrachten die
+   voorbehouden zijn aan gecertificeerd accountants
 
-         De beroepsbeoefenaar moet schriftelijk aantekening houden of doen houden van de aard van de
-         door hem of zijn medewerkers verrichte werkzaamheden zodat een getrouwe weergave van de
-         uitvoering van de opdracht kan verkregen worden 9.
+     De beroepsbeoefenaar moet schriftelijk aantekening houden of doen houden van de aard van de
+     door hem of zijn medewerkers verrichte werkzaamheden zodat een getrouwe weergave van de
+     uitvoering van de opdracht kan verkregen worden 9.
 
-    b. Geen delegatie van handtekeningsbevoegdheid bij opdrachten die voorbehouden zijn aan
-       gecertificeerd accountants
+b. Geen delegatie van handtekeningsbevoegdheid bij opdrachten die voorbehouden zijn aan
+   gecertificeerd accountants
 
 7 Artikel 42 van de wet van 17 maart 2019 betreffende de accountants en de belastingadviseurs
 
-    Bijvoorbeeld bij het indienen van de fiscale aangifte via Tax-on-web.
+Bijvoorbeeld bij het indienen van de fiscale aangifte via Tax-on-web.
 9 Artikel 16 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants
 
-        De vertegenwoordiger-natuurlijke persoon kan zijn handtekening niet delegeren in het kader van
-        opdrachten die voorbehouden zijn aan gecertificeerd accountants 10.
+    De vertegenwoordiger-natuurlijke persoon kan zijn handtekening niet delegeren in het kader van
+    opdrachten die voorbehouden zijn aan gecertificeerd accountants 10.
 
-        Bij opdrachten die voorbehouden zijn aan gecertificeerd accountants draagt de vertegenwoordiger-
-        natuurlijke persoon dan ook niet enkel de deontologische verantwoordelijkheid in de zin van artikel
-        42 van de Wet, maar dient hij ook zelf tot ondertekening van de verklaring, certificering of verslag
-        over te gaan.
+    Bij opdrachten die voorbehouden zijn aan gecertificeerd accountants draagt de vertegenwoordiger-
+    natuurlijke persoon dan ook niet enkel de deontologische verantwoordelijkheid in de zin van artikel
+    42 van de Wet, maar dient hij ook zelf tot ondertekening van de verklaring, certificering of verslag
+    over te gaan.
 
  c.     Bijstand door een andere gecertificeerde accountant, door zijn stagiairs of door zijn vaste
-        medewerkers
+    medewerkers
 
-        De vertegenwoordiger-natuurlijke persoon kan zich bij de uitvoering van opdrachten die
-        voorbehouden zijn aan gecertificeerde accountants, enkel laten bijstaan door een andere
-        gecertificeerde accountant of een persoon die in het buitenland een gelijkwaardige hoedanigheid
-        bezit, door zijn stagiairs of door zijn vaste medewerkers 11. Daarnaast kan hij onder zijn eigen
-        verantwoordelijkheid ook beroep doen op diensten van een onafhankelijk deskundige uit een
-        andere discipline 12.
+    De vertegenwoordiger-natuurlijke persoon kan zich bij de uitvoering van opdrachten die
+    voorbehouden zijn aan gecertificeerde accountants, enkel laten bijstaan door een andere
+    gecertificeerde accountant of een persoon die in het buitenland een gelijkwaardige hoedanigheid
+    bezit, door zijn stagiairs of door zijn vaste medewerkers 11. Daarnaast kan hij onder zijn eigen
+    verantwoordelijkheid ook beroep doen op diensten van een onafhankelijk deskundige uit een
+    andere discipline 12.
 
  d. Verbod op overdracht van essentiële elementen van een aan gecertificeerd accountants
-    voorbehouden opdracht
+voorbehouden opdracht
 
-        De vertegenwoordiger-natuurlijke persoon kan geen essentiële elementen van een aan de
-        gecertificeerd accountant voorbehouden opdrachten overdragen, tenzij in uitzonderlijke
-        omstandigheden. In dat geval moet hij dit ook schriftelijke motiveren 13.
+    De vertegenwoordiger-natuurlijke persoon kan geen essentiële elementen van een aan de
+    gecertificeerd accountant voorbehouden opdrachten overdragen, tenzij in uitzonderlijke
+    omstandigheden. In dat geval moet hij dit ook schriftelijke motiveren 13.
 
 10 Artikel 16 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants
 11 Artikel 17 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants
 
-     Artikel 17 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants
+ Artikel 17 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants
 13 Artikel 17 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants

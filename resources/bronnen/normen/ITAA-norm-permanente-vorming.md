@@ -27,10 +27,10 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 5972bb1
+    pipeline_version: 5972bb1-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:52:56Z'
+  generated_at: '2026-05-12T23:54:26Z'
   stale: false
   stale_reason:
   trust:
@@ -41,8 +41,8 @@ provenance:
     layer1:
     layer2:
 ---
-          Norm met betrekking tot
-          de permanente vorming goedgekeurd door de Raad van 1 december 2020.
+      Norm met betrekking tot
+      de permanente vorming goedgekeurd door de Raad van 1 december 2020.
 INHOUDSTAFEL
 
 goedgekeurd door de Raad van 1 december 2020.
@@ -56,7 +56,7 @@ HEEFT DE RAAD VAN HET INSTITUUT VAN DE BELASTINGADVISEURS EN DE ACCOUNTANTS
 OP ZIJN ZITTING VAN 1 DECEMBER 2020 DE HIERNAVOLGENDE NORM AANGENOMEN,
 SAMEN MET DE BIJLAGEN.
 
-                                  NORM PERMANENTE VORMING
+                              NORM PERMANENTE VORMING
 
 ## Artikel 1 - Definities
 
@@ -133,10 +133,10 @@ goedgekeurd door de Raad van 1 december 2020.
  Het lid van het Instituut stelt zijn programma permanente vorming vrij op.
 
  De vormingsactiviteiten van het lid van het Instituut:
-     - zijn verifieerbaar en meetbaar;
-     - hebben betrekking op vakgebieden die direct en specifiek verband houden met de
-        beroepsactiviteiten van een lid van het Instituut;
-     - dragen bij tot een betere organisatie van het kantoor en/of van zijn werkzaamheden.
+ - zijn verifieerbaar en meetbaar;
+ - hebben betrekking op vakgebieden die direct en specifiek verband houden met de
+    beroepsactiviteiten van een lid van het Instituut;
+ - dragen bij tot een betere organisatie van het kantoor en/of van zijn werkzaamheden.
 
  De gevolgde uren moeten gespreid zijn over meerdere vakgebieden.
 
@@ -144,46 +144,46 @@ goedgekeurd door de Raad van 1 december 2020.
 
  Volgende vakgebieden worden geacht relevant te zijn:
 
-         Aandachtsgebied 1: Vakgebieden gericht op het instandhouden van een hoog
-         competentieniveau, noodzakelijk voor de uitvoering van de opdrachten zoals voorzien in de
-         artikelen 3 en 6 van de Beroepenwet:
+     Aandachtsgebied 1: Vakgebieden gericht op het instandhouden van een hoog
+     competentieniveau, noodzakelijk voor de uitvoering van de opdrachten zoals voorzien in de
+     artikelen 3 en 6 van de Beroepenwet:
 
-         1. Algemeen boekhouden;
-         2. Boekhoudrecht en jaarrekeningenrecht;
-         3. Analyse en kritische beoordeling van de jaarrekening;
-         4. Geconsolideerde jaarrekeningen en wetgeving inzake geconsolideerde jaarrekeningen;
-         5. De Europese wetgeving en de internationale normen inzake boekhouding;
-         6. Externe controle
-         7. Interne controle
-         8. Analytische boekhouding en management accounting;
-         9. Financiële analyse en fundamentele principes van financieel bedrijfsbeheer;
-         10. Fiscaal recht;
-         11. Personenbelasting;
-         12. Vennootschapsbelasting;
-         13. Belasting over de toegevoegde waarde;
-         14. Fiscale procedure;
+     1. Algemeen boekhouden;
+     2. Boekhoudrecht en jaarrekeningenrecht;
+     3. Analyse en kritische beoordeling van de jaarrekening;
+     4. Geconsolideerde jaarrekeningen en wetgeving inzake geconsolideerde jaarrekeningen;
+     5. De Europese wetgeving en de internationale normen inzake boekhouding;
+     6. Externe controle
+     7. Interne controle
+     8. Analytische boekhouding en management accounting;
+     9. Financiële analyse en fundamentele principes van financieel bedrijfsbeheer;
+     10. Fiscaal recht;
+     11. Personenbelasting;
+     12. Vennootschapsbelasting;
+     13. Belasting over de toegevoegde waarde;
+     14. Fiscale procedure;
 
 goedgekeurd door de Raad van 1 december 2020.
-           15. Registratie- en successierechten;
-           16. Regionale en lokale belastingen;
-           17. Europees en internationaal fiscaal recht;
-           18. Vennootschaps- en verenigingsrecht;
-           19. Ondernemingsrecht, economisch recht en insolventierecht;
-           20. Burgerlijk recht;
-           21. Arbeids- en sociale zekerheidsrecht;
-           22. Beroepsnormen betreffende de wettelijke en contractuele opdrachten voorbehouden
-               aan de gecertificeerde accountants;
-           23. Informaticatoepassingen en digitale processen met betrekking tot de activiteiten van
-               een lid van het Instituut;
-           24. Andere vakgebieden die direct en specifiek verband houden met de
-               beroepswerkzaamheden van een lid van het Instituut.
+       15. Registratie- en successierechten;
+       16. Regionale en lokale belastingen;
+       17. Europees en internationaal fiscaal recht;
+       18. Vennootschaps- en verenigingsrecht;
+       19. Ondernemingsrecht, economisch recht en insolventierecht;
+       20. Burgerlijk recht;
+       21. Arbeids- en sociale zekerheidsrecht;
+       22. Beroepsnormen betreffende de wettelijke en contractuele opdrachten voorbehouden
+           aan de gecertificeerde accountants;
+       23. Informaticatoepassingen en digitale processen met betrekking tot de activiteiten van
+           een lid van het Instituut;
+       24. Andere vakgebieden die direct en specifiek verband houden met de
+           beroepswerkzaamheden van een lid van het Instituut.
 
-           Aandachtsgebied 2: Deontologie met betrekking tot het beroep, evenals de
-           antiwitwaswetgeving
+       Aandachtsgebied 2: Deontologie met betrekking tot het beroep, evenals de
+       antiwitwaswetgeving
 
-           Aandachtsgebied 3: Beroepsrelevante sociale vaardigheden en management skills
+       Aandachtsgebied 3: Beroepsrelevante sociale vaardigheden en management skills
 
-           Aandachtsgebied 4: Organisatie van het kantoor
+       Aandachtsgebied 4: Organisatie van het kantoor
 
  Het lid van het Instituut moet ervoor zorgen dat hij, met het oog op zijn beroepsactiviteiten, een goed
  evenwicht behoudt tussen de verschillende aandachtsgebieden.
@@ -197,8 +197,8 @@ goedgekeurd door de Raad van 1 december 2020.
 
  1° het deelnemen aan seminaries, studiedagen en/of opleidingscycli die:
 
-           a) worden georganiseerd door erkende vormingsoperatoren.
-           b) erkend zijn als erkende vormingsactiviteiten.
+       a) worden georganiseerd door erkende vormingsoperatoren.
+       b) erkend zijn als erkende vormingsactiviteiten.
 
  2° het doceren aan erkende instellingen die diploma’s of titels afleveren zoals bedoeld in artikel 12
  van de Beroepenwet, andere erkende instellingen van hoger onderwijs of universiteiten, in België of
@@ -219,8 +219,8 @@ goedgekeurd door de Raad van 1 december 2020.
  met betrekking tot technische of technologische tools die nuttig zijn voor het beroep en inzoverre de
  vormingsactiviteiten voldoen aan de volgende criteria:
 
-     -     zij duren minimaal 45 minuten;
-     -     zij hebben duidelijke opleidingsdoelen ten aanzien van de relevante vakgebieden.
+ -     zij duren minimaal 45 minuten;
+ -     zij hebben duidelijke opleidingsdoelen ten aanzien van de relevante vakgebieden.
 
 goedgekeurd door de Raad van 1 december 2020.
  §2. Een seminarie, een studiedag, een vormingscyclus of een vorming op afstand over een relevant
@@ -230,11 +230,11 @@ goedgekeurd door de Raad van 1 december 2020.
 
  Daartoe dient het lid van het Instituut een dossier in, dat volgende stukken en/of inlichtingen bevat:
 
-     a) de identiteit van de organisator;
-     b) het programma en de inhoud van de vorming. Dit programma beschrijft duidelijk de
-        relevante vakgebieden, alsook de hieraan bestede uren;
-     c) het afgeleverde aanwezigheidsattest;
-     d) het cursusmateriaal dat aan de deelnemers werd afgegeven.
+ a) de identiteit van de organisator;
+ b) het programma en de inhoud van de vorming. Dit programma beschrijft duidelijk de
+    relevante vakgebieden, alsook de hieraan bestede uren;
+ c) het afgeleverde aanwezigheidsattest;
+ d) het cursusmateriaal dat aan de deelnemers werd afgegeven.
 
  De vorming op afstand die niet voldoet aan de criteria voorzien in artikel 7, 4° van deze norm kan in
  aanmerking genomen worden als vormingsactiviteit van categorie A, voorzover zij door het Instituut
@@ -261,10 +261,10 @@ goedgekeurd door de Raad van 1 december 2020.
  4° De vorming op afstand, zoals voorzien in artikel 6, §1, 3° van deze norm, komt enkel in
  aanmerking als vormingsactiviteit van categorie A, voorzover:
 
-     a) ze minimaal 30 minuten duurt;
-     b) ze een ingebouwde controle bevat dat de cursist alle onderdelen doorloopt alvorens dat hij
-        toegang krijgt tot de afsluitende toets;
-     c) ze een afsluitende toets bevat.
+ a) ze minimaal 30 minuten duurt;
+ b) ze een ingebouwde controle bevat dat de cursist alle onderdelen doorloopt alvorens dat hij
+    toegang krijgt tot de afsluitende toets;
+ c) ze een afsluitende toets bevat.
 
  5° De vorming op afstand, zoals voorzien in artikel 6, §1, 3° van deze norm, die niet voldoet aan de
  voorwaarden voorzien in 3° van dit artikel, komt in aanmerking als vormingsactiviteit van categorie
@@ -297,28 +297,28 @@ goedgekeurd door de Raad van 1 december 2020.
  op de door de stagiair van het Instituut aangegeven gevolgde permanente vorming.
 
  Deze kan op de volgende manieren worden uitgevoerd:
-    a) door de verificatie van het jaarlijks verslag permanente vorming;
-    b) door het nazicht van de verantwoordingsstukken zoals het vormingsattest;
-    c) voor de vormingsactiviteiten voorzien in artikel 6, §1, 2° van deze norm, moet het lid van het
-        Instituut een attest bekomen van de derde partij voor wie hij een cursus of conferentie heeft
-        gegeven. Voor het geval dat hij dit niet kan voorleggen, moet hij de voor de cursus of
-        conferentie gebruikte hulpmiddelen of elk ander bewijsmiddel bewaren.
+a) door de verificatie van het jaarlijks verslag permanente vorming;
+b) door het nazicht van de verantwoordingsstukken zoals het vormingsattest;
+c) voor de vormingsactiviteiten voorzien in artikel 6, §1, 2° van deze norm, moet het lid van het
+    Instituut een attest bekomen van de derde partij voor wie hij een cursus of conferentie heeft
+    gegeven. Voor het geval dat hij dit niet kan voorleggen, moet hij de voor de cursus of
+    conferentie gebruikte hulpmiddelen of elk ander bewijsmiddel bewaren.
 
  Het voorleggen van deze stukken kan op elk ogenblik opgevraagd worden, in het bijzonder in de
  volgende gevallen:
 
-     a) als het jaarlijkse verslag niet werd ingediend binnen de vooropgestelde termijn;
-     b) als een gerede twijfel kan opgeworpen worden betreffende de waarheidsgetrouwheid van
-        de inhoud van het jaarlijkse verslag;
-     c) in het kader van een tuchtonderzoek;
-     d) in het kader van de kwaliteitstoetsing;
-     e) in het kader van een periodieke controle door het Instituut op de permanente vorming,
-        uitgevoerd op de wijze door de Raad bepaald.
+ a) als het jaarlijkse verslag niet werd ingediend binnen de vooropgestelde termijn;
+ b) als een gerede twijfel kan opgeworpen worden betreffende de waarheidsgetrouwheid van
+    de inhoud van het jaarlijkse verslag;
+ c) in het kader van een tuchtonderzoek;
+ d) in het kader van de kwaliteitstoetsing;
+ e) in het kader van een periodieke controle door het Instituut op de permanente vorming,
+    uitgevoerd op de wijze door de Raad bepaald.
 
-     Betreffende het te respecteren aantal uren na een driejarige periode, zoals voorzien in artikel 3
-     van deze norm, zal de controle jaarlijks uitgevoerd worden op basis van de drie laatste, verlopen
-     kalenderjaren. Betreffende de te respecteren uren per kalenderjaar, zoals voorzien in artikel 3
-     van deze norm, zal de controle worden uitgevoerd op basis van het afgelopen kalenderjaar.
+ Betreffende het te respecteren aantal uren na een driejarige periode, zoals voorzien in artikel 3
+ van deze norm, zal de controle jaarlijks uitgevoerd worden op basis van de drie laatste, verlopen
+ kalenderjaren. Betreffende de te respecteren uren per kalenderjaar, zoals voorzien in artikel 3
+ van deze norm, zal de controle worden uitgevoerd op basis van het afgelopen kalenderjaar.
 
 ## Artikel 10 - Begeleiding
 
@@ -360,20 +360,20 @@ goedgekeurd door de Raad van 1 december 2020.
 
  De Cel Permanente Vorming is paritair samengesteld uit:
 
-     -   een voorzitter en een ondervoorzitter, elk van een andere taalrol, waarvan één de
-         hoedanigheid bezit van gecertificeerd accountant of gecertificeerd belastingadviseur en één
-         de hoedanigheid bezit van (fiscaal) accountant.
-     -   twee leden, elk van een andere taalrol, waarvan één de hoedanigheid bezit van
-         gecertificeerd accountant of gecertificeerd belastingadviseur en één de hoedanigheid bezit
-         van (fiscaal) accountant.
+ -   een voorzitter en een ondervoorzitter, elk van een andere taalrol, waarvan één de
+     hoedanigheid bezit van gecertificeerd accountant of gecertificeerd belastingadviseur en één
+     de hoedanigheid bezit van (fiscaal) accountant.
+ -   twee leden, elk van een andere taalrol, waarvan één de hoedanigheid bezit van
+     gecertificeerd accountant of gecertificeerd belastingadviseur en één de hoedanigheid bezit
+     van (fiscaal) accountant.
 
  De kandidatuur van de volgende personen wordt niet in aanmerking genomen:
 
-     -   het lid van het Instituut zetelend als effectief of plaatsvervangend lid in de tuchtorganen
-         (Tuchtcommissie en Commissie van beroep);
-     -   de leden die, overeenkomstig de toepasselijke regelgeving, niet verkiesbaar zijn als lid van
-         de Raad;
-     -   de commissarissen van het Instituut.
+ -   het lid van het Instituut zetelend als effectief of plaatsvervangend lid in de tuchtorganen
+     (Tuchtcommissie en Commissie van beroep);
+ -   de leden die, overeenkomstig de toepasselijke regelgeving, niet verkiesbaar zijn als lid van
+     de Raad;
+ -   de commissarissen van het Instituut.
 
  Zij wordt in haar werkzaamheden bijgestaan door de diensten van het Instituut.
 
@@ -398,74 +398,74 @@ goedgekeurd door de Raad van 1 december 2020.
 
  De huidige tekst vervangt en heft op:
 
-     -   de Norm permanente vorming, goedgekeurd door de Raad van het IAB van 3 september
-         2012
-     -   de richtlijn betreffende de permanente vorming van de Raad van de erkende boekhouders
-         (- fiscalisten) en de stagiairs boekhouders (-fiscalisten)van 19 mei 2006.
+ -   de Norm permanente vorming, goedgekeurd door de Raad van het IAB van 3 september
+     2012
+ -   de richtlijn betreffende de permanente vorming van de Raad van de erkende boekhouders
+     (- fiscalisten) en de stagiairs boekhouders (-fiscalisten)van 19 mei 2006.
 
 goedgekeurd door de Raad van 1 december 2020.
-         BIJLAGE 1: Administratieve erkenningsprocedure van vormingsoperatoren en
-                                    vormingsactiviteiten
+     BIJLAGE 1: Administratieve erkenningsprocedure van vormingsoperatoren en
+                                vormingsactiviteiten
 
-                                    Punt 1 - Vormingsactiviteiten
+                                Punt 1 - Vormingsactiviteiten
 
  Volgende vormingsactiviteiten komen in aanmerking voor het programma permanente vorming van
  de leden van het Instituut:
 
-     1) Vormingsactiviteiten, georganiseerd door erkende vormingsoperatoren
-     2) Erkende vormingsactiviteiten
+ 1) Vormingsactiviteiten, georganiseerd door erkende vormingsoperatoren
+ 2) Erkende vormingsactiviteiten
 
-                               Punt 2 - Erkende vormingsoperatoren
+                           Punt 2 - Erkende vormingsoperatoren
 
  1) Volgende vormingsoperatoren          worden     van    rechtswege     beschouwd      als      erkende
-    vormingsoperatoren:
+vormingsoperatoren:
 
-     (a) het Instituut, IBR, het Informatiecentrum voor het Bedrijfsrevisoraat (ICCI), soortgelijke
-         buitenlandse beroepsorganisaties en de hiermee verbonden organisaties;
-     (b) elke internationale beroeps- of wetenschappelijke organisatie waarvan het Instituut lid is;
-     (c) de overheid, de erkende instellingen die diploma’s of titels afleveren zoals bedoeld in artikel
-         12 van de Beroepenwet, andere erkende instellingen van hoger onderwijs en universiteiten,
-         in België of in het buitenland.
+ (a) het Instituut, IBR, het Informatiecentrum voor het Bedrijfsrevisoraat (ICCI), soortgelijke
+     buitenlandse beroepsorganisaties en de hiermee verbonden organisaties;
+ (b) elke internationale beroeps- of wetenschappelijke organisatie waarvan het Instituut lid is;
+ (c) de overheid, de erkende instellingen die diploma’s of titels afleveren zoals bedoeld in artikel
+     12 van de Beroepenwet, andere erkende instellingen van hoger onderwijs en universiteiten,
+     in België of in het buitenland.
 
  2) Elke natuurlijke persoon of onderneming die op regelmatige basis vormingsactiviteiten organiseert
-    met betrekking tot voor het lid van het Instituut relevante vakgebieden en die een permanente
-    structuur van vorming heeft ontwikkeld, kan door het Instituut als vormingsoperator worden
-    erkend.
+met betrekking tot voor het lid van het Instituut relevante vakgebieden en die een permanente
+structuur van vorming heeft ontwikkeld, kan door het Instituut als vormingsoperator worden
+erkend.
 
-     Het bestaan van een permanente structuur van vorming wordt geval per geval door het Instituut
-     beoordeeld.
+ Het bestaan van een permanente structuur van vorming wordt geval per geval door het Instituut
+ beoordeeld.
 
-     Volgende criteria worden in aanmerking genomen, zonder dat een van hen doorslaggevend is:
+ Volgende criteria worden in aanmerking genomen, zonder dat een van hen doorslaggevend is:
 
-                - de aanwezigheid van personen die beschikken over een specifieke deskundigheid in
-                  vormingen;
-                - het aanwenden van de geschikte materiële middelen en personen voor de
-                  organisatie van vormingen;
-                - een beroep doen op externe sprekers;
-                - het vormingsaanbod;
-                - de toegankelijkheid van de vormingen voor derden;
-                - de grootte van de groep voor wie de vormingen bestemd zijn;
-                - elke andere aanwijzing die borg staat voor de kwaliteit en het professionalisme van
-                  de vormingen.
+            - de aanwezigheid van personen die beschikken over een specifieke deskundigheid in
+              vormingen;
+            - het aanwenden van de geschikte materiële middelen en personen voor de
+              organisatie van vormingen;
+            - een beroep doen op externe sprekers;
+            - het vormingsaanbod;
+            - de toegankelijkheid van de vormingen voor derden;
+            - de grootte van de groep voor wie de vormingen bestemd zijn;
+            - elke andere aanwijzing die borg staat voor de kwaliteit en het professionalisme van
+              de vormingen.
 
 goedgekeurd door de Raad van 1 december 2020.
-                              Punt 3 - Erkenning vormingsoperatoren
+                          Punt 3 - Erkenning vormingsoperatoren
 
  De aanvraag tot erkenning als vormingsoperator, moet bij het Instituut worden ingediend en vergezeld
  zijn van een erkenningsdossier dat volgende documenten en inlichtingen bevat:
 
-     1) de identiteit en het inschrijvingsnummer van de aanvrager in het KBO, voor zover dit niet
-        reeds werd overgemaakt aan het Instituut;
-     2) een verklaring met betrekking tot de relevante vakgebieden die behandeld zullen worden;
-     3) een beschrijving van de organisatie van de vormingen (bijvoorbeeld de materiële middelen,
-        het tijdschema, de werking van de inschrijvingen, de aflevering van attesten, de evaluatie van
-        de vormingen);
-     4) een beschrijving van de materiële en personeelsmiddelen die ingezet worden in de
-        permanente structuur van vorming, alsmede van haar werking;
-     5) het model van het aanwezigheidsattest;
-     6) de verbintenis om zich te onderwerpen aan de controle van het Instituut, zoals bepaald door
-        punt 7 van deze bijlage, met inbegrip van het overmaken van het cursusmateriaal op haar
-        verzoek.
+ 1) de identiteit en het inschrijvingsnummer van de aanvrager in het KBO, voor zover dit niet
+    reeds werd overgemaakt aan het Instituut;
+ 2) een verklaring met betrekking tot de relevante vakgebieden die behandeld zullen worden;
+ 3) een beschrijving van de organisatie van de vormingen (bijvoorbeeld de materiële middelen,
+    het tijdschema, de werking van de inschrijvingen, de aflevering van attesten, de evaluatie van
+    de vormingen);
+ 4) een beschrijving van de materiële en personeelsmiddelen die ingezet worden in de
+    permanente structuur van vorming, alsmede van haar werking;
+ 5) het model van het aanwezigheidsattest;
+ 6) de verbintenis om zich te onderwerpen aan de controle van het Instituut, zoals bepaald door
+    punt 7 van deze bijlage, met inbegrip van het overmaken van het cursusmateriaal op haar
+    verzoek.
 
  Het indienen van een aanvraag tot erkenning als vormingsoperator brengt de verplichting met zich
  mee tot betaling van het door de Raad van het Instituut vastgelegde dossierrecht.
@@ -478,60 +478,60 @@ goedgekeurd door de Raad van 1 december 2020.
  er tussen de Raad en de vormingsoperator een overeenkomst gesloten, die de wederzijdse rechten
  en plichten van het Instituut en de vormingsoperator weergeeft, waaronder:
 
-     1) de plicht voor de vormingsoperator om de vormingsactiviteiten overeenkomstig de
-        bepalingen van huidige norm te organiseren;
-     2) de plicht voor de vormingsoperator om zich te onderwerpen aan de controle van het Instituut,
-        zoals bepaald door punt 7 van deze bijlage, met inbegrip van het overmaken van het
-        cursusmateriaal op haar verzoek.
-     3) de plicht voor de vormingsoperator om geen attest af te leveren voor een vorming die niet
-        voorafgaandelijk medegedeeld is.
-     4) de plicht voor de vormingsoperator om de vormingstijd waarheidsgetrouw op het
-        aanwezigheidsattest te vermelden;
-     5) de plicht voor de vormingsoperator om de aanwezigheidsattesten aan het Instituut te
-        bezorgen, op de door de Raad van het Instituut vastgelegde wijze.
+ 1) de plicht voor de vormingsoperator om de vormingsactiviteiten overeenkomstig de
+    bepalingen van huidige norm te organiseren;
+ 2) de plicht voor de vormingsoperator om zich te onderwerpen aan de controle van het Instituut,
+    zoals bepaald door punt 7 van deze bijlage, met inbegrip van het overmaken van het
+    cursusmateriaal op haar verzoek.
+ 3) de plicht voor de vormingsoperator om geen attest af te leveren voor een vorming die niet
+    voorafgaandelijk medegedeeld is.
+ 4) de plicht voor de vormingsoperator om de vormingstijd waarheidsgetrouw op het
+    aanwezigheidsattest te vermelden;
+ 5) de plicht voor de vormingsoperator om de aanwezigheidsattesten aan het Instituut te
+    bezorgen, op de door de Raad van het Instituut vastgelegde wijze.
 
  De erkenning geldt voor een periode van drie jaar en is hernieuwbaar op eenvoudig verzoek.
 
 goedgekeurd door de Raad van 1 december 2020.
-                    Punt 4 - Procedure tot erkenning van vormingsactiviteiten
+                Punt 4 - Procedure tot erkenning van vormingsactiviteiten
 
  1) Elke vormingsactiviteit die een relevant vakgebied behandelt, kan als vormingsactiviteit worden
-    erkend, onder de volgende voorwaarden:
+erkend, onder de volgende voorwaarden:
 
-     De erkenning wordt voorafgaandelijk door de organisator aangevraagd door middel van een
-     erkenningsdossier dat volgende stukken en inlichtingen bevat:
+ De erkenning wordt voorafgaandelijk door de organisator aangevraagd door middel van een
+ erkenningsdossier dat volgende stukken en inlichtingen bevat:
 
-     a) de identiteit en het inschrijvingsnummer van de organisator in het KBO, voor zover dit niet
-        reeds werd overgemaakt aan het Instituut;
-     b) het programma en de inhoud van de vorming. Dit programma beschrijft duidelijk de relevante
-        vakgebieden, alsook de hieraan bestede uren;
-     c) een beschrijving van de organisatie van de vorming (bijvoorbeeld de materiële middelen, de
-        werking van de inschrijvingen, de aflevering van attesten, de evaluatie van de vorming);
-     d) het model van het aanwezigheidsattest;
-     e) de verbintenis om zich te onderwerpen aan de controle van het
-        Instituut, zoals bepaald door punt 7 van deze bijlage, met inbegrip van het overmaken van
-        het cursusmateriaal op haar verzoek.
+ a) de identiteit en het inschrijvingsnummer van de organisator in het KBO, voor zover dit niet
+    reeds werd overgemaakt aan het Instituut;
+ b) het programma en de inhoud van de vorming. Dit programma beschrijft duidelijk de relevante
+    vakgebieden, alsook de hieraan bestede uren;
+ c) een beschrijving van de organisatie van de vorming (bijvoorbeeld de materiële middelen, de
+    werking van de inschrijvingen, de aflevering van attesten, de evaluatie van de vorming);
+ d) het model van het aanwezigheidsattest;
+ e) de verbintenis om zich te onderwerpen aan de controle van het
+    Instituut, zoals bepaald door punt 7 van deze bijlage, met inbegrip van het overmaken van
+    het cursusmateriaal op haar verzoek.
 
-     Het indienen van de aanvraag tot erkenning brengt de verplichting met zich mee tot betaling van
-     het door de Raad van het Instituut vastgelegde dossierrecht.
+ Het indienen van de aanvraag tot erkenning brengt de verplichting met zich mee tot betaling van
+ het door de Raad van het Instituut vastgelegde dossierrecht.
 
-     Het volledige dossier dient ten laatste twee maanden voor het plaatsvinden van de geplande
-     activiteit te worden ingediend. De aanvrager draagt de bewijslast van de verzending van het
-     dossier.
+ Het volledige dossier dient ten laatste twee maanden voor het plaatsvinden van de geplande
+ activiteit te worden ingediend. De aanvrager draagt de bewijslast van de verzending van het
+ dossier.
 
-     De Raad van het Instituut deelt haar beslissing uiterlijk vijftien dagen voor het plaatsvinden van
-     de activiteit aan de organisator mee. Bij gebrek hieraan wordt de activiteit als een erkende
-     vormingsactiviteit beschouwd.
+ De Raad van het Instituut deelt haar beslissing uiterlijk vijftien dagen voor het plaatsvinden van
+ de activiteit aan de organisator mee. Bij gebrek hieraan wordt de activiteit als een erkende
+ vormingsactiviteit beschouwd.
 
   2) In de mate dat de sprekers van een vormingsactiviteit, die een relevant vakgebied behandelt,
-     geregistreerde opleiders zijn, wordt de activiteit als een erkende vormingsactiviteit beschouwd.
-     Het volledige dossier, zoals bedoeld in het vorig lid, dient ter kennisgeving een week voor het
-     plaatsvinden van de geplande activiteit te worden ingediend bij het Instituut. De aanvrager draagt
-     de bewijslast van de verzending van het dossier. Het indienen van het dossier brengt de
-     verplichting met zich mee tot betaling van het door de Raad van het Instituut vastgelegde
-     dossierrecht.
+ geregistreerde opleiders zijn, wordt de activiteit als een erkende vormingsactiviteit beschouwd.
+ Het volledige dossier, zoals bedoeld in het vorig lid, dient ter kennisgeving een week voor het
+ plaatsvinden van de geplande activiteit te worden ingediend bij het Instituut. De aanvrager draagt
+ de bewijslast van de verzending van het dossier. Het indienen van het dossier brengt de
+ verplichting met zich mee tot betaling van het door de Raad van het Instituut vastgelegde
+ dossierrecht.
 
-                                  Punt 5 - Geregistreerde opleiders
+                              Punt 5 - Geregistreerde opleiders
 
  Opleiders kunnen voor een periode van drie jaar geregistreerd worden door de Raad van het Instituut
  op basis van een dossier dat aantoont dat de opleider voldoet aan de voorwaarden opgesomd in
@@ -543,29 +543,29 @@ goedgekeurd door de Raad van 1 december 2020.
  De Raad van het Instituut behoudt zich het recht voor om, op grond van een gemotiveerde beslissing,
  op elk moment de erkenning in te trekken van een geregistreerde opleider.
 
-                               Punt 6 - Publicatie vormingsactiviteiten
+                           Punt 6 - Publicatie vormingsactiviteiten
 
  De vorming die voor permanente vorming in aanmerking komt, kan door toedoen van de verstrekker
  van de erkende vorming zelf op de website www.itaa.be geplaatst worden nadat hij een paswoord
  ontving vanwege het Instituut.
 
 goedgekeurd door de Raad van 1 december 2020.
-                             Punt 7 - Controle op de vormingsactiviteit
+                         Punt 7 - Controle op de vormingsactiviteit
 
  De controle door het Instituut, houdt in dat de vertegenwoordiger(s) die door de Raad van het Instituut
  werden aangesteld:
 
-     1) het recht op kosteloze toegang hebben en deelneming krijg(t)(en) tot elk(e) seminarie,
-        studiedag, vormingscyclus of vorming op afstand;
-     2) zich door de organisator de informatie en documenten kan (kunnen) doen overhandigen die
-        aantonen dat de organisatie van de vorming overeenkomstig onderhavige norm gebeurt.
+ 1) het recht op kosteloze toegang hebben en deelneming krijg(t)(en) tot elk(e) seminarie,
+    studiedag, vormingscyclus of vorming op afstand;
+ 2) zich door de organisator de informatie en documenten kan (kunnen) doen overhandigen die
+    aantonen dat de organisatie van de vorming overeenkomstig onderhavige norm gebeurt.
 
  De Raad van het Instituut behoudt zich het recht voor, op grond van een gemotiveerde beslissing, op
  elk moment de erkenning in te trekken van een vormingsoperator en/of vormingsactiviteit.
 
  Dergelijke intrekking heeft enkel gevolg voor de toekomst.
 
-                                   Punt 8 - Raad van het Instituut
+                               Punt 8 - Raad van het Instituut
 
  Overeenkomstig artikel 74 van de Beroepenwet, kan de Raad van het Instituut haar opdrachten, zoals
  voorzien in punt 3 en punt 4 van deze norm, toewijzen aan het Uitvoerend Comité, als bedoeld in
@@ -574,33 +574,33 @@ goedgekeurd door de Raad van 1 december 2020.
  Overeenkomstig artikel 77 van de Beroepenwet, stelt de Raad de administratieve kosten vast die
  worden aangerekend voor de behandeling van de dossiers.
 
-                   Punt 9 - Verbintenissen aangegaan door het IAB en het BIBF
+               Punt 9 - Verbintenissen aangegaan door het IAB en het BIBF
 
  Het Instituut treedt in de rechten en verplichtingen van het IAB en het BIBF, met inbegrip van
  verbintenissen aangegaan ten aanzien van de erkenning van vormingsactiviteiten en de erkenning
  van vormingsoperatoren, dit ten belope van de duurtijd van de verbintenis.
 
 goedgekeurd door de Raad van 1 december 2020.
-         BIJLAGE 2: Schema administratieve procedure erkenning vormingsactiviteiten
+     BIJLAGE 2: Schema administratieve procedure erkenning vormingsactiviteiten
 
-         Erkende                           Geregistreerde
-                                                                                 Procedure
-     vormingsoperator?                       opleider?
+     Erkende                           Geregistreerde
+                                                                             Procedure
+ vormingsoperator?                       opleider?
 
-                                                                                Automatisch
-                JA                                 JA
-                                                                                  erkend
+                                                                            Automatisch
+            JA                                 JA
+                                                                              erkend
 
-                                                                                Automatisch
-                JA                                NEE
-                                                                                  erkend
+                                                                            Automatisch
+            JA                                NEE
+                                                                              erkend
 
-                                                                                Automatisch
-              NEEN                                JA
-                                                                                  erkend
+                                                                            Automatisch
+          NEEN                                JA
+                                                                              erkend
 
-                                                                              Erkenning door
-              NEEN                               NEEN
-                                                                                  RAAD
+                                                                          Erkenning door
+          NEEN                               NEEN
+                                                                              RAAD
 
 goedgekeurd door de Raad van 1 december 2020.

@@ -25,10 +25,10 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 5972bb1
+    pipeline_version: 5972bb1-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:52:54Z'
+  generated_at: '2026-05-12T23:54:24Z'
   stale: false
   stale_reason:
   trust:
@@ -40,7 +40,7 @@ provenance:
     layer2:
 ---
   Procedurereglement voor het opleggen van maatregelen
-    in het kader van artikel 118, §1 van de antiwitwaswet
+in het kader van artikel 118, §1 van de antiwitwaswet
 
  Beslissing van de Raad d.d. 2 februari 2021
 
@@ -148,14 +148,14 @@ zetel of naar de verblijfplaats van de betrokken persoon als bedoeld in artikel 
 Gerechtelijk Wetboek, per e-mail met ontvangstbevestiging dan wel op enige andere
 gelijkwaardige digitale wijze.
 De betrokkene wordt geïnformeerd van:
-    1. de feiten die de betrokkene ten laste gelegd worden;
-    2. het recht om binnen een termijn van dertig dagen zijn verweermiddelen schriftelijk
-        op elektronische wijze in te dienen;
-    3. de mogelijkheid tot inzage van het dossier, alsmede het adres en de openingsuren
-        van de dienst waar hij hiervoor terecht kan;
-    4. het recht om een verzoek tot wraking van een lid van de raad in te dienen, indien
-        hij twijfels heeft over diens onpartijdigheid. De raad beslist over dit verzoek bij
-        gemotiveerde beslissing.
+1. de feiten die de betrokkene ten laste gelegd worden;
+2. het recht om binnen een termijn van dertig dagen zijn verweermiddelen schriftelijk
+    op elektronische wijze in te dienen;
+3. de mogelijkheid tot inzage van het dossier, alsmede het adres en de openingsuren
+    van de dienst waar hij hiervoor terecht kan;
+4. het recht om een verzoek tot wraking van een lid van de raad in te dienen, indien
+    hij twijfels heeft over diens onpartijdigheid. De raad beslist over dit verzoek bij
+    gemotiveerde beslissing.
 
 2.3. De betrokkene kan zich tijdens het onderzoek laten bijstaan door de advocaat van zijn
 keuze.
@@ -199,14 +199,14 @@ intrekking van de hoedanigheid van (interne) accountant, (interne) fiscaal accou
 3.2. Bij het vaststellen van de maatregelen, houdt de Raad rekening met de volgende
 omstandigheden:
 
-        1° de ernst en de duur van de inbreuken;
-        2° de mate van verantwoordelijkheid van de betrokken onderworpen entiteit;
-        3° het voordeel of de winst die de inbreuken eventueel opleveren voor de
-        betrokken onderworpen entiteit, voor zover deze kunnen worden bepaald;
-        4° de schade dat derden eventueel hebben geleden door deze inbreuken, voor
-        zover dit kan worden bepaald;
-        5°de mate van medewerking van de betrokken onderworpen entiteit met de Raad;
-        6° eventuele vroegere inbreuken die gepleegd zijn door de betrokkene.
+    1° de ernst en de duur van de inbreuken;
+    2° de mate van verantwoordelijkheid van de betrokken onderworpen entiteit;
+    3° het voordeel of de winst die de inbreuken eventueel opleveren voor de
+    betrokken onderworpen entiteit, voor zover deze kunnen worden bepaald;
+    4° de schade dat derden eventueel hebben geleden door deze inbreuken, voor
+    zover dit kan worden bepaald;
+    5°de mate van medewerking van de betrokken onderworpen entiteit met de Raad;
+    6° eventuele vroegere inbreuken die gepleegd zijn door de betrokkene.
 
 Kennisgeving van de beslissing van de Raad
 
@@ -234,19 +234,19 @@ persoonsgegevens van de betrokkene, door de Raad als onevenredig wordt beschouwd
 na een beoordeling per geval van de evenredigheid van de bekendmaking van die
 gegevens, beslist de Raad als volgt:
 
-        1° uitstel van de bekendmaking van de beslissing totdat de redenen voor niet-
-        bekendmaking ophouden te bestaan;
-        2° anonieme bekendmaking van de beslissing, indien een dergelijke anonieme
-        bekendmaking een doeltreffende bescherming van de betrokken
-        persoonsgegevens waarborgt; in dat geval kan de bekendmaking van relevante
-        gegevens worden uitgesteld gedurende een redelijke termijn indien wordt verwacht
-        dat de redenen voor bekendmaking op anonieme basis binnen die termijn zullen
-        vervallen;
+    1° uitstel van de bekendmaking van de beslissing totdat de redenen voor niet-
+    bekendmaking ophouden te bestaan;
+    2° anonieme bekendmaking van de beslissing, indien een dergelijke anonieme
+    bekendmaking een doeltreffende bescherming van de betrokken
+    persoonsgegevens waarborgt; in dat geval kan de bekendmaking van relevante
+    gegevens worden uitgesteld gedurende een redelijke termijn indien wordt verwacht
+    dat de redenen voor bekendmaking op anonieme basis binnen die termijn zullen
+    vervallen;
 
-        3° niet-bekendmaking indien de onder 1° en 2° vermelde mogelijkheden als
-        ontoereikend worden beschouwd om te waarborgen dat de bekendmaking van de
-        beslissing evenredig is ten aanzien van toezichtmaatregelen die als van geringe
-        aard worden beschouwd.
+    3° niet-bekendmaking indien de onder 1° en 2° vermelde mogelijkheden als
+    ontoereikend worden beschouwd om te waarborgen dat de bekendmaking van de
+    beslissing evenredig is ten aanzien van toezichtmaatregelen die als van geringe
+    aard worden beschouwd.
 
 5.4. Indien een beroep is ingesteld tegen de beslissing wordt die informatie en alle latere
 informatie over de uitkomst van dat beroep onmiddellijk op de website van het Instituut

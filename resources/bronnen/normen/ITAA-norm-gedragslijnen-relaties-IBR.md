@@ -24,10 +24,10 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 5972bb1
+    pipeline_version: 5972bb1-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:52:55Z'
+  generated_at: '2026-05-12T23:54:24Z'
   stale: false
   stale_reason:
   trust:
@@ -62,11 +62,11 @@ maken aan de Hoge Raad voor de Economische Beroepen ,"
 
 Dat deze beslissing respectievelijk werd genomen door:
 
-    de Nationale Raad van het Beroepsinstituut van erkende Boekhouders en Fisalisten op
-    24 september 2004 ,"
-    de Raad van het Instituut der Bedrijfsrevisoren op 29 oktober 2004 ,"
-    de Raad van het Instituut van de Accountants en de Belastingconsulenten op 6 december
-    2004,"
+de Nationale Raad van het Beroepsinstituut van erkende Boekhouders en Fisalisten op
+24 september 2004 ,"
+de Raad van het Instituut der Bedrijfsrevisoren op 29 oktober 2004 ,"
+de Raad van het Instituut van de Accountants en de Belastingconsulenten op 6 december
+2004,"
 
 Dat rekening werd gehouden met het advies van 19 juli 2005 van de Hoge Raad voor de
 Economische Beroepen betreffende deze gedragslijnen ,"
@@ -82,10 +82,10 @@ tussen het IDAC (thans IAB) en het IBR, vervangen;
 
 Dat deze gedragslijnen werden goedgekeurd door:
 
-     de Nationale Raad van het Beroepsinstituut van Erkende Boekhouders en Fiscalisten op
-     21 maart 2008
-     de Raad van het Instituut van de Bedrijfsrevisoren op 11 april 2008
-     de Raad van het Instituut van de Accountants en de Belastingconsulenten op 5 mei 2008
+ de Nationale Raad van het Beroepsinstituut van Erkende Boekhouders en Fiscalisten op
+ 21 maart 2008
+ de Raad van het Instituut van de Bedrijfsrevisoren op 11 april 2008
+ de Raad van het Instituut van de Accountants en de Belastingconsulenten op 5 mei 2008
 
 Dat deze gedragslijnen van kracht worden op 1 juni 2008;
 

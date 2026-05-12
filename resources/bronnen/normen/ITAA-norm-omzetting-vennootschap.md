@@ -25,10 +25,10 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 5972bb1
+    pipeline_version: 5972bb1-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:52:56Z'
+  generated_at: '2026-05-12T23:54:25Z'
   stale: false
   stale_reason:
   trust:
