@@ -1,12 +1,15 @@
 ---
-bijgewerkt: 11.09.2002
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-bron_rol: normatief
+tags: ["1.2", "1.5"]
+itaa-lex-sectie: ""
+wet: "Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 betreffende de toepassing van internationale standaarden voor jaarrekeningen"
+bron_rol: "normatief"
+status: "beschikbaar"
+bijgewerkt: "11.09.2002"
+bron: "onbekend"
 chunk:
   level: 2
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: ''
 provenance:
   inputs:
     - id: resources/raw/wetteksten/EU-IFRS-verordening-1606-2002.pdf
@@ -14,67 +17,23 @@ provenance:
       version: 11.09.2002
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: f9ce762
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:56:15Z'
+  generated_at: '2026-05-12T15:58:13Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A1: koptekstregel van het Publicatieblad niet verwijderd op r.53, 91, 115, 177 ('11.9.2002 L 243/1 Publicatieblad van de Europese Gemeenschappen NL'). A7: de volgorde van art.8 en art.9 is verstoord — het handtekeningblok 'Gedaan te Brussel, 19 juli 2002 / Voor het Europees Parlement / De voorzitter / P. COX' (r.199-205) staat tussen art.8 en art.9, wat een kolom-extractiefout suggereert. A6: spurious woordbreuken in overweging-blokken ('actie- plan', 'beschrij- ving', 'communi- taire', r.71-119). F2: bron_rol is 'normatief' maar andere EU-verordeningen in dezelfde map hebben 'itaa_lex'; inhoudelijk correct voor een verordening maar inconsistent met de rest van de batch."
-    layer1:
-      file_size_chars: 17409
-      flags: []
-      heading_count: 11
-      max_section_chars: 11461
-      run_at: '2026-05-11T16:52:50Z'
-      run_id: 20260511-165250
-      status: pass
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "A1: koptekstregel van het Publicatieblad niet verwijderd op r.53, 91, 115, 177 ('11.9.2002 L 243/1 Publicatieblad van de Europese Gemeenschappen NL'). A7: de volgorde van art.8 en art.9 is verstoord — het handtekeningblok 'Gedaan te Brussel, 19 juli 2002 / Voor het Europees Parlement / De voorzitter / P. COX' (r.199-205) staat tussen art.8 en art.9, wat een kolom-extractiefout suggereert. A6: spurious woordbreuken in overweging-blokken ('actie- plan', 'beschrij- ving', 'communi- taire', r.71-119). F2: bron_rol is 'normatief' maar andere EU-verordeningen in dezelfde map hebben 'itaa_lex'; inhoudelijk correct voor een verordening maar inconsistent met de rest van de batch."
-      concrete_problemen:
-        - regel: 53
-          categorie: A1
-          type: form-feed
-          voorbeeld: 11.9.2002 L 243/1 Publicatieblad van de Europese Gemeenschappen NL
-        - regel: 91
-          categorie: A1
-          type: form-feed
-          voorbeeld: 11.9.2002 L 243/2 Publicatieblad van de Europese Gemeenschappen NL
-        - regel: 115
-          categorie: A1
-          type: form-feed
-          voorbeeld: 11.9.2002 L 243/3 Publicatieblad van de Europese Gemeenschappen NL
-        - regel: 177
-          categorie: A1
-          type: form-feed
-          voorbeeld: 11.9.2002 L 243/4 Publicatieblad van de Europese Gemeenschappen NL
-        - regel: 199
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: "Gedaan te Brussel, 19 juli 2002.\n\nVoor het Europees Parlement\n\nDe voorzitter\n\nP. COX\n\n###### Artikel 9"
-        - regel: 143
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: 3, van Richtlijn 83/349/EEG en het Europees openbaar belang dienen, en
-status: beschikbaar
-tags:
-  - '1.2'
-  - '1.5'
-wet: Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 betreffende de toepassing van internationale standaarden voor jaarrekeningen
----
+    status: unreviewed
+    confirmed_at:
+    
+    rationale:
+    
+    layer2:---
 
 # Verordening (EG) nr. 1606/2002 van het Europees Parlement en de Raad van 19 juli 2002 betreffende de toepassing van internationale standaarden voor jaarrekeningen
 
 *Bijgewerkt tot en met 11.09.2002 — gecoördineerde versie.*
-
-11.9.2002 L 243/1 Publicatieblad van de Europese Gemeenschappen NL
 
 VERORDENING (EG) Nr. 1606/2002 VAN HET EUROPEES PARLEMENT EN DE RAAD
 
@@ -98,8 +57,6 @@ Overwegende hetgeen volgt:
 
 (3) Richtlijn 78/660/EEG van de Raad van 25 juli 1978 betreffende de jaarrekening van bepaalde vennootschaps- vormen ( 4 ), Richtlijn 83/349/EEG van de Raad van 13 juni 1983 betreffende de geconsolideerde jaarreke- ning ( 5 ), Richtlijn 86/635/EEG van de Raad van 8 december 1986 betreffende de jaarrekening en
 
-I
-
 (Besluiten waarvan de publicatie voorwaarde is voor de toepassing)
 
 van 19 juli 2002
@@ -111,8 +68,6 @@ de geconsolideerde jaarrekening van banken en andere financiële instellingen ( 
 (5) Voor het concurrentievermogen van de communautaire kapitaalmarkten is het van belang dat de standaarden die in Europa worden gehanteerd voor de financiële verslag- legging, worden afgestemd op de internationale stan- daarden voor jaarrekeningen die algemeen kunnen worden gehanteerd bij grensoverschrijdende transacties of wereldwijde beursnoteringen.
 
 (6) Op 13 juni 2000 heeft de Commissie haar mededeling „Strategie van de EU inzake financiële verslaglegging: verdere maatregelen” gepubliceerd, waarin wordt voorge- steld dat alle beursgenoteerde communautaire onderne- mingen uiterlijk in 2005 hun geconsolideerde jaarreke- ning opstellen overeenkomstig een enkel stelsel van
-
-11.9.2002 L 243/2 Publicatieblad van de Europese Gemeenschappen NL
 
 standaarden voor jaarrekeningen, namelijk de Internati- onal Accounting Standards (IAS).
 
@@ -135,8 +90,6 @@ ningen, een forum zijn om te discussiëren, na te denken en informatie uit te wi
 (14) Om een gedachtewisseling te vergemakkelijken en de lidstaten in staat te stellen hun standpunten te coördi- neren, moet de Commissie het Regelgevend Comité voor financiële verslaglegging op gezette tijden informatie verstrekken over feitelijke projecten, discussiestukken, samenvattingen van bepaalde kwesties en ontwerp- uiteenzettingen van de IASB en over de technische werk- zaamheden die daaruit voortvloeien voor het technisch comité. Het is eveneens van belang dat, indien de Commissie voornemens is geen goedkeuring van een internationale standaard voor jaarrekeningen voor te stellen, het regelgevend comité voor financiële verslagleg- ging in een vroeg stadium hiervan op de hoogte wordt gebracht.
 
 (15) Bij haar beraadslagingen en bij het bepalen van stand- punten ten aanzien van stukken en nota's (papers) die door de IASB in het kader van de ontwikkeling van inter- nationale standaarden voor jaarrekeningen (IFRS en SIC- IFRIC) zijn opgesteld, zal de Commissie rekening houden met het feit dat concurrentienadelen moeten worden voorkomen voor de Europese ondernemingen die actief zijn op de wereldmarkt, alsmede, zoveel mogelijk, met de standpunten die door de delegaties in het Regelgevend Comité voor financiële verslaglegging naar voren hebben gebracht. De Commissie zal in de organen van de IASB vertegenwoordigd zijn.
-
-11.9.2002 L 243/3 Publicatieblad van de Europese Gemeenschappen NL
 
 (17) Voorts moeten de lidstaten de toepassing van sommige bepalingen tot 2007 kunnen uitstellen voor onderne- mingen die zowel in de Gemeenschap als op een geregle- menteerde markt van een derde land beursgenoteerd zijn, en die reeds een ander stelsel van internationaal aanvaarde standaarden toepassen als de primaire basis voor hun geconsolideerde rekeningen, alsmede voor ondernemingen die alleen beursgenoteerde obligaties hebben. Niettemin is het van cruciaal belang dat uiterlijk in 2007 een enkel stelsel van algemene standaarden voor jaarrekeningen, de IAS, geldt voor alle communautaire ondernemingen die op een gereglementeerde markt in de Gemeenschap beursgenoteerd zijn.
 
@@ -197,8 +150,6 @@ Comité-procedure
 1. De Commissie wordt bijgestaan door een regelgevend comité voor financiële verslaglegging, hierna „het comité” te noemen.
 
 2. In de gevallen waarin naar dit lid wordt verwezen, zijn de artikelen 5 en 7 van Besluit 1999/468/EG van toepassing, met inachtneming van artikel 8 van dat besluit.
-
-11.9.2002 L 243/4 Publicatieblad van de Europese Gemeenschappen NL
 
 De in artikel 5, lid 6, van Besluit 1999/468/EG bedoelde termijn wordt vastgesteld op drie maanden.
 

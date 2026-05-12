@@ -1,12 +1,15 @@
 ---
-bijgewerkt: 01.10.2010
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["VI.A", "2.4"]
+itaa-lex-sectie: "VI.A"
+wet: "Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Richtlijn 2006/112/EG vastgestelde teruggaaf van btw aan belastingplichtigen die niet in de lidstaat van teruggaaf maar in een andere lidstaat gevestigd zijn"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "01.10.2010"
+bron: "onbekend"
 chunk:
   level: 2
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: VI.A
 provenance:
   inputs:
     - id: resources/raw/wetteksten/BTW-teruggaaf-richtlijn-2008-9.pdf
@@ -14,61 +17,19 @@ provenance:
       version: 01.10.2010
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: f9ce762
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:56:14Z'
+  generated_at: '2026-05-12T15:58:12Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A1: amendment-markeringen (►B, ▼B, ►M1, ▼B) zijn PDF-navigatiemarkeringen van de gecoördineerde versie die niet verwijderd zijn (r.55, 71, 101, 129, 163, etc.) — deze staan her en der door de body en zijn geen wettekst. A6: spurious woordbreuken in de overweging-blokken: 'omzet belasting' (r.91), 'be lastingplichtigen' (r.91), 'ge bracht' (r.122) — PDF-regelbreuk midden in woorden. Artikel 16 is een lege heading zonder content (r.273-274). Artikel 8 lid 2 ontbreekt item f) — de nummering springt van e) naar g) (r.203)."
-    layer1:
-      file_size_chars: 23561
-      flags: []
-      heading_count: 31
-      max_section_chars: 4116
-      run_at: '2026-05-11T16:52:50Z'
-      run_id: 20260511-165250
-      status: pass
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "A1: amendment-markeringen (►B, ▼B, ►M1, ▼B) zijn PDF-navigatiemarkeringen van de gecoördineerde versie die niet verwijderd zijn (r.55, 71, 101, 129, 163, etc.) — deze staan her en der door de body en zijn geen wettekst. A6: spurious woordbreuken in de overweging-blokken: 'omzet belasting' (r.91), 'be lastingplichtigen' (r.91), 'ge bracht' (r.122) — PDF-regelbreuk midden in woorden. Artikel 16 is een lege heading zonder content (r.273-274). Artikel 8 lid 2 ontbreekt item f) — de nummering springt van e) naar g) (r.203)."
-      concrete_problemen:
-        - regel: 55
-          categorie: A1
-          type: form-feed
-          voorbeeld: ►B  RICHTLIJN 2008/9/EG VAN DE RAAD
-        - regel: 71
-          categorie: A1
-          type: form-feed
-          voorbeeld: ▼B
-        - regel: 101
-          categorie: A1
-          type: form-feed
-          voorbeeld: ▼B
-        - regel: 273
-          categorie: B1
-          type: other
-          voorbeeld: "###### Artikel 16\n\n▼B\n\n###### Artikel 17"
-        - regel: 91
-          categorie: A6
-          type: other
-          voorbeeld: omzet belasting — Regeling voor de teruggaaf van de belasting over de toegevoegde waarde aan niet in het binnenland gevestigde be lastingplichtigen
-        - regel: 203
-          categorie: D2
-          type: missing-section
-          voorbeeld: e) de maatstaf van heffing... f) [ontbreekt] g) indien van toepassing, het overeenkomstig artikel 6...
-status: beschikbaar
-tags:
-  - VI.A
-  - '2.4'
-wet: Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Richtlijn 2006/112/EG vastgestelde teruggaaf van btw aan belastingplichtigen die niet in de lidstaat van teruggaaf maar in een andere lidstaat gevestigd zijn
----
+    status: unreviewed
+    confirmed_at:
+    
+    rationale:
+    
+    layer2:---
 
 # Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Richtlijn 2006/112/EG vastgestelde teruggaaf van btw aan belastingplichtigen die niet in de lidstaat van teruggaaf maar in een andere lidstaat gevestigd zijn
 
@@ -76,7 +37,7 @@ wet: Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften v
 
 Dit document vormt slechts een documentatiehulpmiddel en verschĳnt buiten de verantwoordelĳkheid van de instellingen
 
-►B  RICHTLIJN 2008/9/EG VAN DE RAAD
+RICHTLIJN 2008/9/EG VAN DE RAAD
 
 van 12 februari 2008
 
@@ -91,8 +52,6 @@ Gewĳzigd bĳ:
 Publicatieblad
 
 nr.  blz.  datum
-
-▼B
 
 RICHTLIJN 2008/9/EG VAN DE RAAD
 
@@ -122,8 +81,6 @@ Overwegende hetgeen volgt:
 
 (5)  Aangezien de doelstellingen van deze richtlijn niet voldoende  door de lidstaten kunnen worden verwezenlijkt en derhalve, van wege de omvang van de maatregel, beter door de Gemeenschap  kunnen worden verwezenlijkt, kan de Gemeenschap, overeen komstig het in artikel 5 van het Verdrag neergelegde subsidiari teitsbeginsel, maatregelen nemen.  Overeenkomstig  het  in
 
-▼B
-
 hetzelfde artikel neergelegde evenredigheidsbeginsel, gaat deze  richtlijn niet verder dan wat nodig is om deze doelstellingen te  verwezenlijken.
 
 (6)  Overeenkomstig punt 34 van het Interinstitutioneel Akkoord „Be ter wetgeven” ( 1 ) worden de lidstaten ertoe aangespoord voor  zichzelf en in het belang van de Gemeenschap hun eigen tabellen  op te stellen, die voor zover mogelijk het verband weergeven  tussen de richtlijnen en de omzettingsmaatregelen, en deze open baar te maken.
@@ -149,8 +106,6 @@ Voor de toepassing van deze richtlijn wordt verstaan onder:
 4. teruggaafverzoek: het verzoek om teruggaaf van de aan de niet in de  lidstaat van teruggaaf gevestigde belastingplichtige in rekening ge brachte btw ter zake van de voor genoemde belastingplichtige door  andere belastingplichtigen in deze lidstaat verrichte diensten of goe derenleveringen, of ter zake van de invoer van goederen in deze  lidstaat;
 
 5. aanvrager: de niet in de lidstaat van teruggaaf gevestigde belasting plichtige die het teruggaafverzoek doet.
-
-▼B
 
 ###### Artikel 3
 
@@ -183,8 +138,6 @@ b) handelingen, waarvan de afnemer overeenkomstig de artikelen 194  tot en met 1
 Onverminderd artikel 6 wordt voor de toepassing van deze richtlijn het  recht op teruggaaf van voorbelasting bepaald overeenkomstig Richtlijn  2006/112/EG, als toegepast in de lidstaat van teruggaaf.
 
 ###### Artikel 6
-
-▼B
 
 Wanneer een niet in de lidstaat van teruggaaf gevestigde belastingplich tige in de lidstaat waar hij gevestigd is, zowel handelingen verricht die  in die lidstaat een recht op aftrek doen ontstaan, als handelingen die in  die lidstaat geen recht op aftrek doen ontstaan, kan van het overeen komstig artikel 5 voor teruggaaf in aanmerking komende bedrag slechts  dat gedeelte van de btw door de lidstaat van teruggaaf worden terug gegeven dat overeenkomstig artikel 173 van Richtlijn 2006/112/EG,  zoals toegepast door de lidstaat van vestiging, aan eerstgenoemde han delingen kan worden toegerekend.
 
@@ -221,8 +174,6 @@ c) behalve in het geval van invoer, het landencodenummer van de lid staat van te
 d) de datum en het nummer van de factuur of het invoerdocument;
 
 e) de maatstaf van heffing en het bedrag aan btw, uitgedrukt in de  munteenheid van de lidstaat van teruggaaf;
-
-▼B
 
 g) indien van toepassing, het overeenkomstig artikel 6 berekende pro  rata, uitgedrukt in procenten;
 
@@ -264,8 +215,6 @@ De lidstaat van teruggaaf kan, onverminderd de krachtens artikel 20  verlangde g
 
 De lidstaat van teruggaaf kan verlangen dat de aanvrager zijn beroeps activiteit omschrijft aan de hand van de geharmoniseerde codes die  worden bepaald volgens artikel 34 bis, lid 3, tweede alinea, van Ver ordening (EG) nr. 1798/2003 van de Raad ( 1 ).
 
-▼B
-
 ###### Artikel 12
 
 De lidstaat van teruggaaf kan specificeren welke taal of talen door de  aanvrager moeten worden gebruikt voor het verstrekken van de gege vens in het teruggaafverzoek of van mogelijke andere aanvullende ge gevens die moeten worden verstrekt.
@@ -290,13 +239,11 @@ b) de invoer van goederen die gedurende het teruggaaftijdvak heeft  plaatsgevond
 
 1.  Het teruggaafverzoek moet uiterlijk 30 september van het kalen derjaar volgend op het teruggaaftijdvak bij de lidstaat van vestiging  worden ingediend. Het teruggaafverzoek geldt alleen als ingediend in dien de aanvrager alle in de artikelen 8, 9 en 11 verlangde gegevens  verstrekt heeft.
 
-▼M1  Teruggaafverzoeken betreffende teruggaaftijdvakken in 2009 moeten  uiterlijk op 31 maart 2011 bij de lidstaat van vestiging worden inge diend.
+Teruggaafverzoeken betreffende teruggaaftijdvakken in 2009 moeten  uiterlijk op 31 maart 2011 bij de lidstaat van vestiging worden inge diend.
 
-▼B  2.  De lidstaat van vestiging stuurt de aanvrager onverwijld langs  elektronische weg een bevestiging van ontvangst.
+2.  De lidstaat van vestiging stuurt de aanvrager onverwijld langs  elektronische weg een bevestiging van ontvangst.
 
 ###### Artikel 16
-
-▼B
 
 ###### Artikel 17
 
@@ -328,8 +275,6 @@ d) valt onder de gemeenschappelijke forfaitaire regeling voor land bouwproducent
 
 1.  Ingeval de lidstaat van teruggaaf meent niet alle dienstige infor matie te hebben ontvangen om met betrekking tot het geheel of een deel  van het teruggaafverzoek een beschikking te kunnen geven, kan hij  binnen de in artikel 19, lid 2, genoemde termijn van vier maanden,  langs elektronische weg in het bijzonder de aanvrager of de lidstaat  van vestiging om aanvullende gegevens verzoeken. Indien de aanvul lende gegevens worden opgevraagd bij een andere persoon dan de  aanvrager of de bevoegde autoriteiten van een lidstaat, wordt alleen  langs elektronische weg om gegevens verzocht indien de bestemmeling  van het verzoek over de desbetreffende apparatuur beschikt.
 
-▼B
-
 De overeenkomstig dit lid verlangde gegevens kunnen het overleggen  van het origineel of een afschrift van de factuur of het invoerdocument  omvatten wanneer de lidstaat van teruggaaf op goede gronden het be staan van een bepaalde vordering betwijfelt. In dat geval zijn de drem pelnormen van artikel 10 niet van toepassing.
 
 2.  De krachtens lid 1 gevraagde gegevens moeten binnen een maand  na ontvangst van het verzoek om informatie door de bestemmeling van  het verzoek aan de lidstaat van teruggaaf worden verstrekt.
@@ -352,8 +297,6 @@ Wanneer de lidstaat van teruggaaf verdere aanvullende gegevens ver langt, stelt 
 
 2.  De aanvrager kan bij de bevoegde autoriteiten van de lidstaat van  teruggaaf rechtsmiddelen instellen tegen een beschikking tot afwijzing  van een teruggaafverzoek, in de vorm en binnen de termijnen die gelden  voor het instellen van rechtsmiddelen door in de lidstaat van teruggaaf  gevestigde personen.
 
-▼B
-
 ###### Artikel 24
 
 1.  Wanneer teruggaaf op frauduleuze of anderszins onrechtmatige  wijze is verkregen, gaat de lidstaat van teruggaaf over tot invordering  van de ten onrechte betaalde bedragen en van eventuele boeten en  interesten opgelegd volgens de in de lidstaat van teruggaaf geldende  procedure, onverminderd de bepalingen inzake wederzijdse bijstand  ter invordering van de belasting over de toegevoegde waarde.
@@ -375,8 +318,6 @@ De eerste alinea is niet van toepassing indien de aanvrager de gevraagde  aanvul
 1.  De rente wordt berekend vanaf de dag volgende op de laatste dag  waarop de teruggaaf volgens artikel 22, lid 1, had moeten plaatsvinden  tot de dag waarop de teruggaaf daadwerkelijk plaatsvindt.
 
 2.  Als rentevoet geldt de krachtens het nationale recht van de lidstaat  van teruggaaf met betrekking tot teruggaaf van de btw aan in die lidstaat  gevestigde belastingplichtigen geldende rentevoet.
-
-▼B
 
 ###### Artikel 28
 

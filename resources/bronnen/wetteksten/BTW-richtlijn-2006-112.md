@@ -1,11 +1,15 @@
 ---
-bijgewerkt: 11.12.2006
-bron: ejustice.just.fgov.be (gecoördineerde versie)
+tags: ["VI.A", "2.4"]
+itaa-lex-sectie: "VI.A"
+wet: "Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "11.12.2006"
+bron: "onbekend"
 chunk:
   level: 6
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: VI.A
 provenance:
   inputs:
     - id: resources/raw/wetteksten/BTW-richtlijn-2006-112.pdf
@@ -13,79 +17,25 @@ provenance:
       version: 11.12.2006
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: f9ce762
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:56:14Z'
+  generated_at: '2026-05-12T15:58:11Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Ernstige kolom-scramble door het hele document: tekst van twee PDF-kolommen loopt door elkaar (A7/A8). Artt. 12-13 tonen lid-nummers uit verkeerde kolom ingevoegd voor het verkeerde artikel (r.664-686: 'Elektriciteit, gas, warmte...' = lid 1 van art.14 staat na lid 3 van art.12). Art.9 mist eerste deel van lid 1 (r.636 begint midden in de zin). Meerdere artikelen hebben lege headings (art.15, 16, 17, 27, 28, 29 staan als losse lege headings). Koptekst-residu voor minstens twee keer. Spurious woordbreuken overal ('gemeen- schap', 'belasting- plichtige', 'mededin- gingsvoorwaarden'). Layer1-flag max_section_size (35876 chars) bevestigt de problematische structuur."
-    layer1:
-      file_size_chars: 357916
-      flags:
-        - detail: 'langste sectie op ######-niveau: 35876 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          name: max_section_size
-          samples: []
-          status: warn
-      heading_count: 824
-      max_section_chars: 35876
-      run_at: '2026-05-11T16:52:50Z'
-      run_id: 20260511-165250
-      status: warn
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "Ernstige kolom-scramble door het hele document: tekst van twee PDF-kolommen loopt door elkaar (A7/A8). Artt. 12-13 tonen lid-nummers uit verkeerde kolom ingevoegd voor het verkeerde artikel (r.664-686: 'Elektriciteit, gas, warmte...' = lid 1 van art.14 staat na lid 3 van art.12). Art.9 mist eerste deel van lid 1 (r.636 begint midden in de zin). Meerdere artikelen hebben lege headings (art.15, 16, 17, 27, 28, 29 staan als losse lege headings). Koptekst-residu voor minstens twee keer. Spurious woordbreuken overal ('gemeen- schap', 'belasting- plichtige', 'mededin- gingsvoorwaarden'). Layer1-flag max_section_size (35876 chars) bevestigt de problematische structuur."
-      concrete_problemen:
-        - regel: 140
-          categorie: A8
-          type: column-bleed
-          voorbeeld: betrokken ondernemingen om in „ het zwarte circuit " te verdw ĳ nen, respectievel ĳ k in dat circuit te bl ĳ ven
-        - regel: 664
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: 1. Elektriciteit, gas, warmte, koude en soortgelijke zaken worden met „ lichamelijke zaken " gelijkgesteld.
-        - regel: 668
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: '2. De lidstaten kunnen als lichamelijke zaken beschouwen: [gevolgd door opsomming die bij art.15 hoort, maar staat in art.13-blok]'
-        - regel: 714
-          categorie: B1
-          type: other
-          voorbeeld: "###### Artikel 15\n\n###### Artikel 16\n\n###### Artikel 17"
-        - regel: 636
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: uitoefening van vrije of daarmede gelijkgestelde beroepen. Als economische activiteit...
-        - regel: 690
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: 1. Met een levering van goederen onder bezwarende titel wordt gelijkgesteld, de overbrenging...
-        - regel: 696
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: Als „ overbrenging naar een andere lidstaat " wordt beschouwd iedere verzending...
-        - regel: 774
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: '## Art. 19. is   op   overeenkomstige   wijze   van   toepassing   op diensten.'
-status: beschikbaar
-tags:
-  - VI.A
-  - '2.4'
-wet: Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde
----
+    status: unreviewed
+    confirmed_at:
+    
+    rationale:
+    
+    layer2:---
 
 # Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde
 
 *Bijgewerkt tot en met 11.12.2006 — gecoördineerde versie.*
 
-betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde
+## betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde
 
 DE RAAD VAN DE EUROPESE UNIE,
 
@@ -97,7 +47,7 @@ Gezien het advies van het Europees Parlement,
 
 Gezien het advies van het Europees Economisch en Sociaal Comité,
 
-Overwegende hetgeen volgt:
+## Overwegende hetgeen volgt:
 
 (1) Richtlijn 77/388/EEG van de Raad van 17 mei 1977 betreffende de harmonisatie van de wetgevingen der lidstaten inzake omzetbelasting — Gemeenschappelijk stelsel van belasting over de toegevoegde waarde: uniforme grondslag ( 1 ) is herhaaldelijk en ingrijpend gewijzigd. Nu deze richtlijn opnieuw wordt gewijzigd, dient ter wille van de duidelijkheid van de tekst tot herschikking van deze richtlijn te worden overgegaan.
 
@@ -106,26 +56,6 @@ Overwegende hetgeen volgt:
 (3) Een heldere en rationele presentatie van de bepalingen, overeenkomstig het beginsel van betere regelgeving, vergt dat de structuur en de formulering van de richtlijn worden herschikt, waarbij evenwel in principe geen materiële wijzigingen in de bestaande wetgeving worden aangebracht. Niettemin moet een gering aantal materiële wijzigingen die inherent zijn aan de herschikkingsexercitie, in de tekst worden aangebracht. De wijzigingen in kwestie zijn limitatief vermeld in de bepalingen betreffende omzetting en inwerkingtreding.
 
 (4) Het verwezenlijken van de doelstelling een interne markt in te stellen vooronderstelt dat in de lidstaten wetgevingen inzake omzetbelasting worden toegepast die de
-
-I
-
-(Besluiten waarvan de publicatie voorwaarde is voor de toepassing)
-
-RICHTLIJN 2006/112/EG VAN DE RAAD
-
-van 28 november 2006
-
-mededingingsvoorwaarden niet vervalsen en het vrije verkeer van goederen en diensten niet belemmeren. Het is derhalve noodzakelijk om door middel van een stelsel van belasting over de toegevoegde waarde (BTW) een harmo- nisatie van de wetgevingen inzake omzetbelasting tot stand te brengen die ten doel heeft, de factoren die de mededin- gingsvoorwaarden op nationaal of op communautair niveau zouden kunnen vervalsen, zoveel mogelijk uit te schakelen.
-
-(5) Een BTW-stelsel verkrijgt de grootste mate van eenvoud en neutraliteit wanneer de belasting zo algemeen mogelijk wordt geheven en het toepassingsgebied ervan alle fasen van de productie en de distributie, zomede het verrichten van diensten omvat. Het is derhalve in het belang van de interne markt en van de lidstaten een gemeenschappelijk stelsel te aanvaarden dat tevens op de kleinhandelsfase wordt toegepast.
-
-(6) Het is noodzakelijk fasegewijs te werk te gaan, omdat de harmonisatie van de omzetbelastingen in de lidstaten tot wijzigingen in de belastingstructuur leidt en merkbare gevolgen heeft op budgettair, economisch en sociaal terrein.
-
-(7) Het gemeenschappelijke BTW-stelsel moet — zelfs indien de tarieven en vrijstellingen niet volledig worden geharmo- niseerd — uiteindelijk mededingingsneutraal zijn in die zin dat op het grondgebied van elke lidstaat op soortgelijke goederen en diensten dezelfde belastingdruk rust, ongeacht de lengte van de productie- en distributieketen.
-
-(8) Krachtens Besluit 2000/597/EG, Euratom van de Raad van 29 september 2000 betreffende het stelsel van eigen middelen van de Europese Gemeenschappen ( 3 ) wordt de begroting van de Gemeenschappen, onverminderd de andere ontvangsten, in haar geheel gefinancierd uit de eigen middelen van de Gemeenschappen. Deze middelen omvatten onder meer de ontvangsten uit de BTW, verkregen door toepassing van een gemeenschappelijk percentage op een grondslag die op uniforme wijze volgens communautaire voorschriften wordt vastgesteld.
-
-(9) Een overgangsperiode is noodzakelijk om de nationale wetgevingen op bepaalde terreinen geleidelijk te kunnen aanpassen.
 
 (10) Gedurende deze overgangsperiode moeten de intracommu- nautaire handelingen die worden verricht door andere belastingplichtigen dan vrijgestelde belastingplichtigen, in de lidstaten van bestemming worden belast op basis van de tarieven en voorwaarden van die lidstaten.
 
@@ -140,16 +70,6 @@ mededingingsvoorwaarden niet vervalsen en het vrije verkeer van goederen en dien
 (15) Ter vergemakkelijking van het intracommunautaire verkeer op het terrein van bewerkingen van roerende lichamelijke zaken is het dienstig belastingregels terzake vast te stellen wanneer die bewerkingen worden verricht voor afnemers die voor BTW-doeleinden geïdentificeerd zijn in een andere lidstaat dan die waar de dienst daadwerkelijk wordt verricht.
 
 (16) Het is dienstig vervoer dat op het grondgebied van een lidstaat wordt verricht, wanneer het rechtstreeks verband houdt met tussen lidstaten verricht vervoer, gelijk te stellen aan intracommunautair goederenvervoer, teneinde niet alleen de belastingbeginselen en -regels voor deze binnen- landse vervoerdiensten te vereenvoudigen, maar ook die welke van toepassing zijn op de daarmee samenhangende diensten alsmede op de diensten welke worden verricht door tussenpersonen die bij het verrichten van deze verschillende diensten bemiddelen.
-
-(18) De definitie van de plaats van belastingheffing voor bepaalde handelingen aan boord van een schip, vliegtuig of trein bij vervoer van passagiers binnen de Gemeenschap, dient te worden gepreciseerd.
-
-(19) Gas en elektriciteit worden voor BTW-doeleinden als goederen beschouwd. Het is evenwel bijzonder moeilijk de plaats van levering te bepalen. Teneinde dubbele heffing of niet-heffing van de belasting te voorkomen en een echte interne markt tot stand te brengen, dient als plaats van levering van gas via het aardgasdistributiesysteem en van elektriciteit, voordat de goederen het stadium van het eindverbruik bereiken, derhalve te worden aangemerkt de plaats waar de afnemer de zetel van zijn bedrijfsuitoefening heeft gevestigd. De levering van gas en elektriciteit in het stadium van het eindverbruik, door de handelaar en de distributeur aan de eindverbruiker, moet worden belast op de plaats waar de afnemer daadwerkelijk het gebruik en verbruik van de goederen heeft.
-
-(20) Wanneer de algemene regel dat diensten worden belast in de lidstaat waar de dienstverrichter gevestigd is, wordt toegepast op de verhuur van roerende lichamelijke zaken, kan dit tot aanzienlijke verstoringen van de mededinging leiden wanneer de verhuurder en de huurder gevestigd zijn in verschillende lidstaten en de belastingtarieven in die lidstaten verschillen. Er dient derhalve te worden bepaald dat de plaats van een dienst de plaats is waar de huurder de zetel van zijn bedrijfsuitoefening of een vaste inrichting heeft gevestigd waarvoor de dienst is verricht, of bij gebreke van een dergelijke zetel of vaste inrichting, zijn woonplaats of zijn gebruikelijke verblijfplaats.
-
-(21) Wat de verhuur van vervoermiddelen betreft, dient de algemene regel echter, om redenen van controletechnische aard, strikt te worden toegepast door als plaats van deze dienst de plaats aan te merken waar de dienstverrichter gevestigd is.
-
-(22) Alle telecommunicatiediensten waarvan in de Gemeen- schap gebruik wordt gemaakt, dienen te worden belast, teneinde verstoringen van de mededinging op dat gebied te voorkomen. Telecommunicatiediensten verricht voor in de Gemeenschap gevestigde belastingplichtigen of voor in een derde land gevestigde afnemers moeten te dien einde in beginsel worden belast op de plaats waar de afnemer van de diensten gevestigd is. Teneinde een uniforme belasting- heffing te garanderen van telecommunicatiediensten die door in derdelandsgebieden of in derde landen gevestigde belastingplichtigen worden verricht voor in de Gemeen- schap gevestigde niet-belastingplichtigen en waarvan het werkelijke gebruik en de werkelijke exploitatie in de Gemeenschap geschieden, zouden de lidstaten evenwel in beginsel moeten bepalen dat de plaats van de dienst binnen de Gemeenschap gelegen is.
 
 (24) De begrippen „ belastbaar feit ” en „ verschuldigheid van de belasting ” moeten worden geharmoniseerd, opdat de toepassing en de latere wijzigingen van het gemeenschap- pelijk BTW-stelsel in alle lidstaten op hetzelfde tijdstip ingaan.
 
@@ -168,22 +88,6 @@ mededingingsvoorwaarden niet vervalsen en het vrije verkeer van goederen en dien
 (31) Tijdens de overgangsperiode moeten bepaalde afwijkingen inzake aantal en hoogte van de tarieven mogelijk zijn.
 
 (32) Voor een beter begrip van het effect van de verlaagde tarieven is een evaluatierapport van de Commissie over het effect van de verlaagde tarieven op lokale diensten, met name wat het scheppen van werkgelegenheid, de econo- mische groei en de goede werking van de interne markt betreft, noodzakelijk.
-
-betrokken ondernemingen om in „ het zwarte circuit ” te verdw ĳ nen, respectievel ĳ k in dat circuit te bl ĳ ven, minder groot kunnen maken.
-
-(34) Een dergel ĳ ke tariefverlaging is echter voor de goede werking van de interne markt en voor de neutraliteit van de belasting niet zonder gevaar. Het is derhalve zaak in een machtigingsprocedure te voorzien waarb ĳ een dergel ĳ ke tariefverlaging wordt toegestaan voor een periode die lang genoeg is om het effect van de verlaagde tarieven op lokale diensten te kunnen beoordelen. Ook is het nodig om het toepassingsgebied van een dergel ĳ ke maatregel strikt te definiëren, opdat het controleerbare en beperkte kader ervan behouden bl ĳ ft.
-
-(35) Met het oog op een vergelijkbare inning van de eigen middelen in alle lidstaten dient een gemeenschappelijke lijst van vrijstellingen te worden vastgesteld.
-
-(36) Ten voordele van zowel de tot voldoening van de belasting gehouden personen als de bevoegde overheidsdiensten zouden de regels voor de heffing van de BTW op bepaalde intracommunautaire leveringen en verwervingen van accijnsproducten moeten worden afgestemd op de aan- gifteprocedures en -verplichtingen voor verzendingen van deze producten naar een andere lidstaat voorgeschreven bij Richtlijn 92/12/EEG van de Raad van 25 februari 1992 betreffende de algemene regeling voor accijnsproducten, het voorhanden hebben en het verkeer daarvan en de controles daarop ( 1 ).
-
-(37) De levering van gas via het aardgasdistributiesysteem of van elektriciteit wordt belast op de plaats waar de afnemer gevestigd is. Teneinde dubbele heffing te voorkomen, dient de invoer van dergelijke producten derhalve van BTW te worden vrijgesteld.
-
-(38) Voor de in het binnenlandse verkeer belastbare handelingen in verband met intracommunautair handelsverkeer van goederen dat in de overgangsperiode wordt verricht door belastingplichtigen die niet zijn gevestigd op het grond- gebied van de lidstaat van de intracommunautaire ver- werving van de goederen, kettingtransacties daaronder begrepen, moeten vereenvoudigingsmaatregelen worden genomen ter waarborging van een gelijkwaardige behande- ling in alle lidstaten. Daartoe dienen de bepalingen betreffende de regeling van de belastingheffing en betref- fende degene die tot voldoening van de belasting uit hoofde van deze handelingen gehouden is, te worden geharmoni- seerd. Goederen die bestemd zijn om in het kleinhandels- stadium te worden geleverd, dienen evenwel in beginsel van deze regelingen te worden uitgesloten.
-
-(39) De aftrekregelingen moeten worden geharmoniseerd voor zover hiervan invloed uitgaat op het werkelijke niveau van inning, en de berekening van het pro rata voor de toepassing van de aftrek moet in alle lidstaten op overeenkomstige wijze geschieden.
-
-(40) De regeling die voorziet in de herziening van de aftrek voor investeringsgoederen gedurende de levensduur van dat goed, rekening houdende met het werkelijke gebruik, dient
 
 ook te kunnen worden toegepast op bepaalde diensten die het karakter van een investeringsgoed hebben.
 
@@ -204,22 +108,6 @@ ook te kunnen worden toegepast op bepaalde diensten die het karakter van een inv
 (48) Het noodzakelijke streven naar een verlichting van de administratieve en statistische formaliteiten van de onder- nemingen, met name de kleine en middelgrote onder- nemingen, moet worden verzoend met de toepassing van efficiënte controlemaatregelen en met de zowel om economische als om fiscale redenen onontbeerlijke hand- having van de kwaliteit van de communautaire statistische instrumenten.
 
 (49) Ten aanzien van kleine ondernemingen moeten de lidstaten hun bijzondere regelingen kunnen behouden, zulks over- eenkomstig gemeenschappelijke voorschriften en met het oog op een verdergaande harmonisatie.
-
-gebrachte toegevoegde waarde, moeten worden vastgesteld met het oog op de inning van de eigen middelen.
-
-(51) Er dient een communautaire belastingregeling te worden vastgesteld die van toepassing is op het gebied van gebruikte goederen, kunstvoorwerpen, antiquiteiten en voorwerpen voor verzamelingen, en die erop gericht is dubbele heffing van de belasting en verstoring van de mededinging tussen belastingplichtigen te vermijden.
-
-(52) De toepassing van de normale belastingregeling op goud hindert in ernstige mate het gebruik van goud voor beleggingsdoeleinden, zodat de toepassing van een bij- zondere belastingregeling te rechtvaardigen is, ook ter versterking van de internationale concurrentiepositie van de communautaire goudmarkt.
-
-(53) Leveringen van goud voor beleggingsdoeleinden stemmen naar hun aard overeen met andere financiële beleggingen die BTW-vrijstelling genieten. Belastingvrijstelling blijkt derhalve de meest aangewezen fiscale behandeling voor goudleveringen te zijn.
-
-(54) Gouden munten waarvan de waarde in hoofdzaak overeenkomt met de prijs van het daarin vervatte goud dienen ook onder de definitie van beleggingsgoud te vallen. Uit overwegingen van transparantie en rechtszekerheid moet jaarlijks een lijst worden opgesteld van de munten die onder de regeling voor beleggingsgoud vallen, zodat handelaren in gouden munten zekerheid wordt geboden. Onverminderd deze lijst kan de vrijstelling ook gelden voor munten die niet op deze lijst zijn vermeld, maar die aan de criteria van deze richtlijn voldoen.
-
-(55) Teneinde belastingfraude te voorkomen en tevens de lasten in verband met de financiering van de levering van goud met ten minste een bepaalde zuiverheid te verlichten, is het gerechtvaardigd de lidstaten toe te staan de afnemer aan te wijzen als degene die tot voldoening van de belasting is gehouden.
-
-(56) Om het voor ondernemers die langs elektronische weg diensten verrichten en die noch in de Gemeenschap gevestigd zijn noch in de Gemeenschap voor BTW- doeleinden moeten zijn geïdentificeerd, eenvoudiger te maken om aan de belastingverplichtingen te voldoen, moet een bijzondere regeling worden vastgesteld. Door toepas- sing van deze regeling kan een ondernemer die dergelijke diensten langs elektronische weg in de Gemeenschap aanbiedt aan niet-belastingplichtigen, indien hij niet anders- zins voor BTW-doeleinden in de Gemeenschap is geïden- tificeerd, kiezen voor identificatie in slechts één lidstaat.
-
-(57) Het is wenselijk dat de bepalingen betreffende radio- en televisieomroepdiensten en bepaalde langs elektronische weg verrichte diensten slechts voor een tijdelijke periode worden aangenomen en binnen afzienbare tijd opnieuw worden bezien in het licht van de opgedane ervaring.
 
 (59) De lidstaten moeten, met inachtneming van bepaalde beperkingen en voorwaarden, bijzondere van deze richtlijn afwijkende maatregelen kunnen treffen of handhaven, teneinde de belastingheffing te vereenvoudigen of bepaalde vormen van belastingfraude of belastingontwijking te voorkomen.
 
@@ -266,16 +154,6 @@ gebrachte toegevoegde waarde, moeten worden vastgesteld met het oog op de inning
 #### Afdeling 1 - Algemene regel
 
 #### Afdeling 2 - Bijzondere bepalingen
-
-(64) Gelet op het beperkte toepassingsgebied van de uitvoerings- maatregelen dient te worden bepaald dat deze maatregelen door de Raad op voorstel van de Commissie met eenparigheid van stemmen worden vastgesteld.
-
-(65) Daar de doelstellingen van deze richtlijn om boven- genoemde redenen niet voldoende door de lidstaten kunnen worden verwezenlijkt en derhalve beter door de Gemeenschap kunnen worden verwezenlijkt, kan de Gemeenschap, overeenkomstig het in artikel 5 van het Verdrag neergelegde subsidiariteitsbeginsel, maatregelen nemen. Overeenkomstig het in hetzelfde artikel neergelegde evenredigheidsbeginsel gaat deze richtlijn niet verder dan nodig is om deze doelstellingen te verwezenlijken.
-
-(66) De verplichting tot omzetting van deze richtlijn in nationaal recht dient te worden beperkt tot de bepalingen die ten opzichte van de vorige richtlijnen materieel zijn gewijzigd. De verplichting tot omzetting van de ongewij- zigde bepalingen vloeit voort uit de eerdere richtlijnen.
-
-(67) Deze richtlijn dient de verplichtingen van de lidstaten met betrekking tot de in bijlage X, deel B, genoemde termijnen voor omzetting in nationaal recht van de aldaar genoemde richtlijnen onverlet te laten,
-
-HEEFT DE VOLGENDE RICHTLIJN VASTGESTELD:
 
 ##### Onderafdeling 2 - Diensten met betrekking tot onroerende goederen
 
@@ -547,31 +425,13 @@ Het gemeenschappelijke BTW-stelsel wordt toegepast tot en met de kleinhandelsfas
 
 ###### Artikel 2
 
-1. De volgende handelingen zijn aan de BTW onderworpen:
+## 1. De volgende handelingen zijn aan de BTW onderworpen:
 
 a) de leveringen van goederen, die binnen het grondgebied van een lidstaat door een als zodanig handelende belasting- plichtige onder bezwarende titel worden verricht;
 
 b) de intracommunautaire verwervingen van goederen die binnen het grondgebied van een lidstaat onder bezwarende titel worden verricht:
 
 i) door een als zodanig handelende belastingplichtige of door een niet-belastingplichtige rechtspersoon, wan- neer de verkoper een als zodanig handelende belas- tingplichtige is die noch onder de in de artikelen 282 tot en met 292 bedoelde vrijstellingsregeling voor kleine ondernemingen, noch onder artikel 33 of artikel 36 valt;
-
-iii) wanneer het accijnsproducten betreft uit hoofde waarvan de accijnsrechten binnen het grondgebied van de lidstaat verschuldigd zijn krachtens Richt- lijn 92/12/EEG, door een belastingplichtige of door een niet-belastingplichtige rechtspersoon van wie de andere verwervingen uit hoofde van artikel 3, lid 1, niet aan de BTW zijn onderworpen;
-
-c) de diensten die binnen het grondgebied van een lidstaat door een als zodanig handelende belastingplichtige onder bezwarende titel worden verricht;
-
-d) de invoer van goederen.
-
-2. a) Voor de toepassing van lid 1, onder b), punt ii), worden als „ vervoermiddelen ” beschouwd, de volgende voor het personen- of goederenvervoer bestemde vervoermiddelen:
-
-i) landvoertuigen die zijn uitgerust met een motor van meer dan 48 cc cilinderinhoud of met een vermogen van meer dan 7,2 kilowatt;
-
-ii) schepen met een lengte van meer dan 7,5 meter, met uitzondering van schepen voor de vaart op volle zee waarmee personenvervoer tegen betaling plaatsvindt of die voor de uitoefening van enigerlei industriële, handels- of visserijactiviteit worden gebruikt, van reddingsboten en schepen voor hulpverlening op zee en van schepen voor de kustvisserij;
-
-iii) luchtvaartuigen met een totaal opstijggewicht van meer dan 1 550 kg, met uitzondering van lucht- vaartuigen welke door luchtvaartmaatschappijen worden gebruikt die zich hoofdzakelijk toeleggen op het betaalde internationale vervoer.
-
-b) Deze vervoermiddelen worden in de volgende gevallen beschouwd als „ nieuw ” :
-
-i) voor gemotoriseerde landvoertuigen, wanneer de levering binnen zes maanden na de eerste ingebruik- neming plaatsvindt of wanneer het voertuig niet meer dan 6 000 km heeft afgelegd;
 
 iii) voor luchtvaartuigen, wanneer de levering binnen drie maanden na de eerste ingebruikneming plaats- vindt of wanneer het luchtvaartuig niet meer dan 40 uur heeft gevlogen.
 
@@ -596,36 +456,6 @@ b) het totale bedrag van de intracommunautaire verwervingen van goederen heeft i
 De maximumwaarde die als referentiepunt dient, is het totale bedrag van de intracommunautaire verwervingen van goederen als bedoeld in lid 1, onder b), de BTW die is verschuldigd of voldaan in de lidstaat van vertrek van de verzending of het vervoer van de goederen niet inbegrepen.
 
 3. De lidstaten verlenen de belastingplichtigen en de niet- belastingplichtige rechtspersonen die voor de toepassing van lid 1, onder b), in aanmerking komen, het recht voor de in artikel 2, lid 1, onder b), punt i), omschreven algemene regeling te kiezen.
-
-###### Artikel 4
-
-Naast de in artikel 3 bedoelde handelingen zijn ook de volgende handelingen niet aan BTW onderworpen:
-
-a) de intracommunautaire verwervingen van gebruikte goe- deren, kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten zoals omschreven in artikel 311, lid 1, punten 1) tot en met 4), wanneer de verkoper een als zodanig handelende belastingplichtige wederverkoper is en het verworven goed in de lidstaat van vertrek van de verzending of het vervoer aan de BTW is onderworpen overeenkomstig de in de artikelen 312 tot en met 325 vastgestelde winstmargeregeling;
-
-b) de intracommunautaire verwervingen van gebruikte ver- voermiddelen, zoals omschreven in artikel 327, lid 3, wanneer de verkoper een als zodanig handelende belasting- plichtige wederverkoper is en het verworven gebruikte vervoermiddel in de lidstaat van vertrek van de verzending of het vervoer aan de BTW is onderworpen overeenkomstig de overgangsregeling voor gebruikte vervoermiddelen;
-
-c) de intracommunautaire verwervingen van gebruikte goe- deren, kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten zoals omschreven in artikel 311, lid 1, punten 1) tot en met 4), wanneer de verkoper een als zodanig handelende organisator van openbare veilingen is en het verworven goed in de lidstaat van vertrek van de verzending of het vervoer aan de BTW is onderworpen overeenkomstig de bijzondere regeling voor openbare veilingen.
-
-GEOGRAFISCH TOEPASSINGSGEBIED
-
-###### Artikel 5
-
-Voor de toepassing van deze richtlijn wordt verstaan onder:
-
-1) „ Gemeenschap ” en „ grondgebied van de Gemeenschap ” : het geheel van de grondgebieden van de lidstaten als omschreven in punt 2);
-
-2) „ lidstaat ” en „ grondgebied van een lidstaat ” : het grondgebied van iedere lidstaat van de Gemeenschap waarop het Verdrag houdende oprichting van de Europese Gemeenschap overeenkomstig zijn artikel 299 van toepassing is, met uitzondering van het (de) in artikel 6 van deze richtlijn genoemde gebied(en);
-
-3) „ derdelandsgebieden ” : de gebieden die in artikel 6 zijn genoemd;
-
-4) „ derde land ” : elke staat of elk grondgebied waarop het Verdrag niet van toepassing is.
-
-###### Artikel 6
-
-1. Deze richtlijn is niet van toepassing op de volgende gebieden die deel uitmaken van het douanegebied van de Gemeenschap:
-
-a) de berg Athos;
 
 c) de Franse overzeese departementen;
 
@@ -665,32 +495,6 @@ BELASTINGPLICHTIGEN
 
 1. Als „ belastingplichtige ” wordt beschouwd eenieder die, op ongeacht welke plaats, zelfstandig een economische activiteit verricht, ongeacht het oogmerk of het resultaat van die activiteit.
 
-uitoefening van vrije of daarmede gelijkgestelde beroepen. Als economische activiteit wordt in het bijzonder beschouwd de exploitatie van een lichamelijke of onlichamelijke zaak om er duurzaam opbrengst uit te verkrijgen.
-
-2. Naast de in lid 1 bedoelde personen wordt als belasting- plichtige beschouwd eenieder die incidenteel een nieuw vervoer- middel levert dat door de verkoper, door de afnemer, of voor hun rekening, buiten het grondgebied van een lidstaat maar binnen het grondgebied van de Gemeenschap naar de afnemer wordt verzonden of vervoerd.
-
-###### Artikel 10
-
-De in artikel 9, lid 1, bedoelde voorwaarde dat de economische activiteit zelfstandig moet worden verricht, sluit loontrekkenden en andere personen van de belastingheffing uit, voor zover zij met hun werkgever een arbeidsovereenkomst hebben aangegaan of enige andere juridische band hebben waaruit een verhouding van ondergeschiktheid ontstaat ten aanzien van de arbeids- en bezoldigingsvoorwaarden en de verantwoordelijkheid van de werkgever.
-
-###### Artikel 11
-
-Na raadpleging van het raadgevend Comité voor de Belasting op de toegevoegde waarde ( „ BTW-comité ” ) kan elke lidstaat personen die binnen het grondgebied van deze lidstaat gevestigd zijn en die juridisch gezien zelfstandig zijn, doch financieel, economisch en organisatorisch nauw met elkaar verbonden zijn, tezamen als één belastingplichtige aanmerken.
-
-Een lidstaat die de in de eerste alinea bedoelde mogelijkheid toepast, kan alle maatregelen vaststellen die nodig zijn om belastingfraude en -ontwijking met gebruikmaking van deze bepaling te voorkomen.
-
-###### Artikel 12
-
-1. De lidstaten kunnen als belastingplichtige aanmerken eenieder die incidenteel een handeling verricht in verband met de in artikel 9, lid 1, tweede alinea, bedoelde werkzaamheden, met name een van de volgende handelingen:
-
-a) de levering van een gebouw of een gedeelte van een gebouw en het bijbehorende terrein vóór de eerste ingebruikneming;
-
-b) de levering van een bouwterrein.
-
-2. Voor de toepassing van lid 1, onder a), wordt als „ gebouw ” beschouwd ieder bouwwerk dat vast met de grond is verbonden.
-
-De lidstaten kunnen de voorwaarden voor de toepassing van het in lid 1, onder a), bedoelde criterium op de verbouwing van gebouwen, alsmede het begrip „ bijbehorend terrein ” bepalen.
-
 3. Voor de toepassing van lid 1, onder b), wordt als „ bouw- terrein ” beschouwd, de door de lidstaten als zodanig omschreven al dan niet bouwrijp gemaakte terreinen.
 
 ###### Artikel 13
@@ -705,7 +509,7 @@ De publiekrechtelijke lichamen worden in elk geval als belasting- plichtige besc
 
 BELASTBARE HANDELINGEN
 
-Levering van goederen
+## Levering van goederen
 
 ###### Artikel 14
 
@@ -718,36 +522,6 @@ a) de eigendomsovergang van een goed tegen betaling van een vergoeding, ingevolg
 b) de afgifte van een goed ingevolge een overeenkomst volgens welke een goed gedurende een bepaalde periode in huur wordt gegeven of ingevolge een overeenkomst tot koop en verkoop op afbetaling, in beide gevallen onder het beding dat normaal het goed uiterlijk bij de betaling van de laatste termijn in eigendom wordt verkregen;
 
 c) de overdracht van een goed ingevolge een overeenkomst tot koop of verkoop in commissie.
-
-###### Artikel 15
-
-1. Elektriciteit, gas, warmte, koude en soortgelijke zaken worden met „ lichamelijke zaken ” gelijkgesteld.
-
-2. De lidstaten kunnen als lichamelijke zaken beschouwen:
-
-a) bepaalde rechten op onroerende goederen;
-
-b) de zakelijke rechten die de rechthebbende de bevoegdheid verschaffen een onroerend goed te gebruiken;
-
-c) de deelbewijzen en aandelen waarvan het bezit rechtens of in feite recht geven op de eigendom of het genot van een onroerend goed of een deel daarvan.
-
-###### Artikel 16
-
-Met een levering van goederen onder bezwarende titel wordt gelijkgesteld, het door een belastingplichtige aan zijn bedrijf onttrekken van een goed voor eigen privédoeleinden of voor privédoeleinden van zijn personeel, of dat hij om niet verstrekt of, meer in het algemeen, voor andere dan bedrijfsdoeleinden bestemt, ingeval met betrekking tot dat goed of de bestanddelen daarvan recht op volledige of gedeeltelijke aftrek van de BTW is ontstaan.
-
-Met een levering van goederen onder bezwarende titel worden niet gelijkgesteld, onttrekkingen van goederen om voor bedrijfs- doeleinden te dienen als geschenken van geringe waarde of als monster.
-
-###### Artikel 17
-
-1. Met een levering van goederen onder bezwarende titel wordt gelijkgesteld, de overbrenging door een belastingplichtige van een goed van zijn bedrijf naar een andere lidstaat.
-
-Als „ overbrenging naar een andere lidstaat ” wordt beschouwd iedere verzending of ieder vervoer van een roerende lichamelijke zaak voor bedrijfsdoeleinden, door of voor rekening van de belastingplichtige, buiten het grondgebied van de lidstaat waar het goed zich bevindt, maar binnen de Gemeenschap.
-
-2. Als overbrenging naar een andere lidstaat wordt niet beschouwd, de verzending of het vervoer van een goed voor zover het daarbij om een van de volgende handelingen gaat:
-
-a) de levering van dat goed door de belastingplichtige binnen het grondgebied van de lidstaat van aankomst van de verzending of het vervoer, onder de in artikel 33 gestelde voorwaarden;
-
-b) de levering van dat goed, dat door of voor rekening van de leverancier moet worden geïnstalleerd of gemonteerd, door de belastingplichtige binnen het grondgebied van de lidstaat van aankomst van de verzending of het vervoer, onder de in artikel 36 gestelde voorwaarden;
 
 d) de levering van gas via het aardgasdistributiesysteem of de levering van elektriciteit, onder de in de artikelen 38 en 39 gestelde voorwaarden;
 
@@ -769,31 +543,11 @@ a) het door een belastingplichtige voor bedrijfsdoeleinden bestemmen van een goe
 
 b) het door een belastingplichtige voor een niet-belaste sector van zijn bedrijfsuitoefening bestemmen van een goed, voor zover bij de verwerving van dat goed of bij de bestemming ervan overeenkomstig punt a) recht op volledige of gedeeltelijke aftrek van de BTW is ontstaan;
 
-###### Artikel 19
-
-De lidstaten kunnen, in geval van overgang van het geheel of een gedeelte van een algemeenheid van goederen onder bezwarende titel, om niet of in de vorm van een inbreng in een vennootschap, zich op het standpunt stellen dat geen levering van goederen heeft plaatsgevonden en dat degene op wie de goederen overgaan, in de plaats treedt van de overdrager.
-
-De lidstaten kunnen de nodige maatregelen nemen om verstoringen van de mededinging te voorkomen ingeval degene op wie de goederen overgaan, niet volledig belastingplichtig is. Zij kunnen ook alle maatregelen vaststellen die nodig zijn om belastingfraude en -ontwijking met gebruikmaking van dit artikel te voorkomen.
-
-Intracommunautaire verwerving van goederen
-
-###### Artikel 20
-
-Als „ intracommunautaire verwerving van goederen ” wordt beschouwd het verkrijgen van de macht om als eigenaar te beschikken over een roerende lichamelijke zaak die door de verkoper of de afnemer, of voor hun rekening, met als bestemming de afnemer is verzonden of vervoerd naar een andere lidstaat dan de lidstaat van vertrek van de verzending of het vervoer van het goed.
-
-Wanneer door een niet-belastingplichtige rechtspersoon verwor- ven goederen uit een derdelandsgebied of een derde land worden verzonden of vervoerd en door deze niet-belastingplichtige rechtspersoon worden ingevoerd in een andere lidstaat dan die van aankomst van de verzending of het vervoer, worden de goederen geacht te zijn verzonden of vervoerd vanuit de lidstaat van invoer. Deze lidstaat verleent aan de importeur die uit hoofde van artikel 201 is aangewezen of erkend als de tot voldoening van de belasting gehouden persoon, teruggaaf van de uit hoofde van de invoer betaalde BTW, voorzover de importeur aantoont dat zijn verwerving in de lidstaat van aankomst van de verzending of het vervoer van de goederen aan de BTW onderworpen is geweest.
-
-###### Artikel 21
-
-Met een intracommunautaire verwerving van goederen onder bezwarende titel wordt gelijkgesteld het door een belasting- plichtige voor bedrijfsdoeleinden bestemmen van een goed dat door of voor rekening van de belastingplichtige wordt verzonden of vervoerd vanuit een andere lidstaat waar het is vervaardigd, gewonnen, bewerkt, aangekocht, verworven in de zin van artikel 2, lid 1, onder b), of door de belastingplichtige in het kader van zijn bedrijf in die andere lidstaat is ingevoerd.
-
-###### Artikel 22
-
 ###### Artikel 23
 
 De lidstaten nemen maatregelen om ervoor te zorgen dat als intracommunautaire verwerving van goederen worden beschouwd de handelingen die, indien zij op hun grondgebied door een als zodanig handelende belastingplichtige zouden zijn verricht, als levering van goederen zouden zijn aangemerkt.
 
-Diensten
+## Diensten
 
 ###### Artikel 24
 
@@ -803,7 +557,7 @@ Diensten
 
 ###### Artikel 25
 
-Een dienst kan onder meer een van de volgende handelingen zijn:
+## Een dienst kan onder meer een van de volgende handelingen zijn:
 
 a) de overdracht van een onlichamelijke zaak, ongeacht of deze al dan niet in een titel is belichaamd;
 
@@ -813,7 +567,7 @@ c) het verrichten van een dienst op grond van een vordering door of namens de ov
 
 ###### Artikel 26
 
-1. Met diensten verricht onder bezwarende titel worden de volgende handelingen gelijkgesteld:
+## 1. Met diensten verricht onder bezwarende titel worden de volgende handelingen gelijkgesteld:
 
 a) het gebruiken van een tot het bedrijf behorend goed voor privédoeleinden van de belastingplichtige of van zijn personeel, of, meer in het algemeen, voor andere dan bedrijfsdoeleinden, wanneer voor dit goed recht op volledige of gedeeltelijke aftrek van de BTW is ontstaan;
 
@@ -822,42 +576,6 @@ b) het om niet verrichten van diensten door de belasting- plichtige voor eigen p
 2. De lidstaten kunnen van lid 1 afwijken, mits deze afwijking niet tot verstoring van de mededinging leidt.
 
 ###### Artikel 27
-
-dienst, voorzover hij, ingeval een dergelijke dienst door een andere belastingplichtige zou zijn verricht, geen recht op volledige aftrek van de BTW zou hebben.
-
-###### Artikel 28
-
-Wanneer door tussenkomst van een belastingplichtige, hande- lend op eigen naam, maar voor rekening van een ander, een dienst wordt verricht, wordt de betrokken belastingplichtige geacht deze dienst zelf te hebben afgenomen en te hebben verricht.
-
-###### Artikel 29
-
-###### Art. 19. is   op   overeenkomstige   wijze   van   toepassing   op
-
-diensten.
-
-Invoer van goederen
-
-###### Artikel 30
-
-Als „ invoer van goederen ” wordt beschouwd het binnenbrengen in de Gemeenschap van een goed dat zich niet in het vrije verkeer bevindt in de zin van artikel 24 van het Verdrag.
-
-Naast het in de eerste alinea bedoelde geval wordt als invoer van goederen beschouwd het binnenbrengen in de Gemeenschap van een goed dat zich in het vrije verkeer bevindt, uit een derdelandsgebied dat deel uitmaakt van het douanegebied van de Gemeenschap.
-
-PLAATS VAN DE BELASTBARE HANDELINGEN
-
-Plaats van levering van goederen
-
-Lever ing van goederen zonder ver voer
-
-###### Artikel 31
-
-Ingeval het goed niet wordt verzonden of vervoerd, wordt als plaats van levering aangemerkt de plaats waar het goed zich op het tijdstip van de levering bevindt.
-
-Lever ing van goederen met ver voer
-
-###### Artikel 32
-
-Ingeval het goed door de leverancier, door de afnemer of door een derde wordt verzonden of vervoerd, wordt als plaats van levering aangemerkt de plaats waar het goed zich op het tijdstip van vertrek van de verzending of het vervoer naar de afnemer bevindt.
 
 van de belasting gehouden persoon, alsmede de plaats van daaropvolgende leveringen geacht in de lidstaat van invoer van de goederen te liggen.
 
@@ -883,30 +601,6 @@ c) het totale bedrag, de BTW niet inbegrepen, van de onder de voorwaarden van ar
 
 2. De lidstaat binnen het grondgebied waarvan de goederen zich bevinden op het tijdstip van aankomst van de verzending of het vervoer naar de afnemer, mag het in lid 1 genoemde maximumbedrag beperken tot EUR 35 000 of de tegenwaarde daarvan in de nationale munteenheid, wanneer deze lidstaat vreest dat het maximum van EUR 100 000 tot ernstige verstoring van de mededinging zou leiden.
 
-overheidsinstanties van de lidstaat van vertrek van de verzending of het vervoer van de goederen daarvan in kennis te stellen.
-
-3. De Commissie dient zo spoedig mogelijk bij de Raad een verslag in over de werking van het in lid 2 genoemde bijzondere maximum van EUR 35 000 en doet dit in voorkomend geval vergezeld gaan van passende voorstellen.
-
-4. De lidstaat binnen het grondgebied waarvan de goederen zich op het tijdstip van vertrek van de verzending of het vervoer bevinden, verleent de belastingplichtigen die leveringen van goederen verrichten welke in aanmerking kunnen komen voor het bepaalde in lid 1, het recht ervoor te kiezen dat de plaats van deze leveringen wordt bepaald overeenkomstig artikel 33.
-
-De betrokken lidstaten stellen de nadere regels vast voor de uitoefening van het in de eerste alinea bedoelde keuzerecht, dat in ieder geval voor een periode van twee kalenderjaren geldt.
-
-###### Artikel 35
-
-De artikelen 33 en 34 zijn niet van toepassing op de leveringen van gebruikte goederen, kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten, zoals omschreven in artikel 311, lid 1, punten 1) tot en met 4), noch op leveringen van gebruikte vervoermiddelen als omschreven in artikel 327, lid 3, die aan de BTW zijn onderworpen overeenkomstig de toepasselijke bij- zondere regelingen.
-
-###### Artikel 36
-
-Ingeval het door de leverancier, door de afnemer of door een derde verzonden of vervoerde goed door of voor rekening van de leverancier wordt geïnstalleerd of gemonteerd, met of zonder beproeven van het geïnstalleerde of gemonteerde goed, wordt als plaats van de levering aangemerkt de plaats waar de installatie of de montage geschiedt.
-
-Wanneer de installatie of de montage plaatsvindt in een andere lidstaat dan die van de leverancier, treft de lidstaat op het grondgebied waarvan de installatie of de montage plaatsvindt, de nodige maatregelen om dubbele belastingheffing in deze lidstaat te voorkomen.
-
-Lever ing van goederen aan boord van een schip, vliegtuig of trein
-
-###### Artikel 37
-
-1. Ingeval de levering van goederen plaatsvindt aan boord van een schip, vliegtuig of trein en tijdens het in de Gemeenschap verrichte gedeelte van een passagiersvervoer, wordt als plaats van deze levering aangemerkt de plaats van vertrek van het passagiersvervoer.
-
 Als „ plaats van vertrek van een passagiersvervoer ” wordt beschouwd het eerste punt in de Gemeenschap waar passagiers aan boord kunnen komen, eventueel na een tussenstop buiten de Gemeenschap.
 
 Als „ plaats van aankomst van een passagiersvervoer ” wordt beschouwd het laatste punt in de Gemeenschap waar passagiers die binnen de Gemeenschap aan boord zijn gekomen, van boord kunnen gaan, eventueel vóór een tussenstop buiten de Gemeen- schap.
@@ -917,7 +611,7 @@ Ingeval het een heen- en terugreis betreft, wordt de terugreis als een afzonderl
 
 Totdat de in de eerste alinea bedoelde voorstellen zijn aangenomen, kunnen de lidstaten leveringen van voor verbruik aan boord bestemde goederen waarvan de plaats van belasting- heffing overeenkomstig lid 1 wordt vastgesteld, vrijstellen of blijven vrijstellen, met recht op aftrek van voorbelasting.
 
-Lever ing van goederen via distr ibutiesystemen
+## Lever ing van goederen via distr ibutiesystemen
 
 ###### Artikel 38
 
@@ -929,33 +623,7 @@ Lever ing van goederen via distr ibutiesystemen
 
 In het geval van een levering van gas via het aardgasdistributie- systeem of van elektriciteit die niet wordt bestreken door artikel 38, wordt als plaats van deze levering aangemerkt, de plaats waar de afnemer het werkelijke gebruik en verbruik van de goederen heeft.
 
-Plaats van een intracommunautaire verwerving van goederen
-
-###### Artikel 40
-
-Als plaats van een intracommunautaire verwerving van goederen wordt aangemerkt de plaats waar de goederen zich bevinden op het tijdstip van aankomst van de verzending of van het vervoer naar de afnemer.
-
-###### Artikel 41
-
-Onverminderd artikel 41 wordt als plaats van een intracommu- nautaire verwerving van goederen als bedoeld in artikel 2, lid 1, onder b), punt i), aangemerkt het grondgebied van de lidstaat die het BTW-identificatienummer heeft toegekend waaronder de afnemer deze verwerving heeft verricht, voor zover de afnemer niet aantoont dat de BTW op deze verwerving is geheven overeenkomstig artikel 40.
-
-Indien op de verwerving uit hoofde van artikel 40 BTW wordt geheven in de lidstaat van aankomst van de verzending of van het vervoer van de goederen, nadat de BTW erop is geheven op grond van de eerste alinea, wordt de maatstaf van heffing dienovereenkomstig verlaagd in de lidstaat die het BTW- identificatienummer heeft toegekend waaronder de afnemer deze verwerving heeft verricht.
-
-###### Artikel 42
-
-Artikel 41, eerste alinea, is niet van toepassing en de intracommunautaire verwerving van goederen wordt geacht overeenkomstig artikel 40 aan de BTW te zijn onderworpen wanneer de volgende voorwaarden vervuld zijn:
-
-a) de afnemer toont aan deze verwerving te hebben verricht met het oog op een daaropvolgende levering binnen het grondgebied van de overeenkomstig artikel 40 bepaalde lidstaat, waarvoor degene voor wie deze levering bestemd is, overeenkomstig artikel 197 is aangewezen als de tot voldoening van de belasting gehouden persoon;
-
-b) de afnemer heeft voldaan aan de in artikel 265 bedoelde verplichtingen inzake de indiening van de aldaar bedoelde lijst.
-
-Plaats van een dienst
-
-Algemene regel
-
-###### Artikel 43
-
-Bijzondere bepalingen
+## Bijzondere bepalingen
 
 Diensten van tussenpersonen
 
@@ -985,36 +653,6 @@ Wanneer echter intracommunautaire goederenvervoerdiensten worden verricht voor a
 
 ###### Artikel 48
 
-plaats van aankomst op het grondgebied van twee verschillende lidstaten gelegen zijn.
-
-Als „ plaats van vertrek ” wordt beschouwd de plaats waar het goederenvervoer daadwerkelijk begint, zonder rekening te houden met de trajecten die worden afgelegd om zich naar de plaats te begeven waar de goederen zich bevinden.
-
-Als „ plaats van aankomst ” wordt beschouwd de plaats waar het goederenvervoer daadwerkelijk eindigt.
-
-###### Artikel 49
-
-Met intracommunautair goederenvervoer wordt gelijkgesteld goederenvervoer waarvan de plaats van vertrek en die van aankomst binnen het grondgebied van eenzelfde lidstaat zijn gelegen, wanneer dit vervoer rechtstreeks samenhangt met goederenvervoer waarvan de plaats van vertrek en die van aankomst binnen het grondgebied van twee verschillende lidstaten zijn gelegen.
-
-###### Artikel 50
-
-De plaats van diensten verricht door een in naam en voor rekening van een ander handelende tussenpersoon, indien hij bemiddelt bij het verrichten van intracommunautaire goederen- vervoerdiensten, is de plaats van vertrek van het vervoer.
-
-Wanneer echter de afnemer van de door de tussenpersoon verrichte dienst voor BTW-doeleinden is geïdentificeerd in een andere lidstaat dan de lidstaat van vertrek van het vervoer, wordt de plaats van de door de tussenpersoon verrichte dienst geacht te zijn gelegen binnen het grondgebied van de lidstaat die aan de afnemer het BTW-identificatienummer heeft toegekend waar- onder de dienst voor hem is verricht.
-
-###### Artikel 51
-
-De lidstaten behoeven het gedeelte van het intracommunautaire goederenvervoer dat overeenkomt met de trajecten die zijn afgelegd over wateren die niet tot het grondgebied van de Gemeenschap behoren, niet aan de BTW te onderwerpen.
-
-Culturele en soor tgelijke diensten, diensten die samenhangen met ver voer of betrekking hebben op roerende lichamelijke zaken
-
-###### Artikel 52
-
-De plaats van de volgende diensten is de plaats waar die diensten daadwerkelijk worden verricht:
-
-a) culturele, artistieke, sportieve, wetenschappelijke, onder- wijs-, amusements- of soortgelijke activiteiten, met inbegrip van die van de organisatoren van dergelijke activiteiten, alsmede in voorkomend geval, van daarmee samenhan- gende diensten;
-
-b) activiteiten die met vervoer samenhangen, zoals laden, lossen, intern vervoer en soortgelijke activiteiten;
-
 ###### Artikel 53
 
 In afwijking van artikel 52, punt b), wordt de plaats van diensten in verband met activiteiten die samenhangen met intracommu- nautair goederenvervoer, verricht voor afnemers die voor BTW- doeleinden zijn geïdentificeerd in een andere lidstaat dan die op het grondgebied waarvan de activiteiten daadwerkelijk worden verricht, geacht te zijn gelegen binnen het grondgebied van de lidstaat die aan de afnemer het BTW-identificatienummer heeft toegekend waaronder de dienst voor hem is verricht.
@@ -1039,34 +677,6 @@ Diverse diensten
 
 a) de overdracht en het verlenen van auteursrechten, octrooien, licentierechten, fabrieks- en handelsmerken, en andere soortgelijke rechten;
 
-c) diensten verricht door raadgevende personen, ingenieurs, adviesbureaus, advocaten, accountants en andere soortge- lijke diensten, alsmede informatieverwerking en informa- tieverschaffing;
-
-d) de verbintenis een beroepsactiviteit of een in dit lid vermeld recht geheel of gedeeltelijk niet uit te oefenen;
-
-e) bank-, financiële en verzekeringsverrichtingen met inbegrip van herverzekeringsverrichtingen en met uitzondering van de verhuur van safeloketten;
-
-f) het beschikbaar stellen van personeel;
-
-g) de verhuur van roerende lichamelijke zaken, met uitzonde- ring van alle vervoermiddelen;
-
-h) het bieden van toegang tot aardgas- en elektriciteits- distributiesystemen alsmede het verrichten van transport - en transmissiediensten via deze systemen en het verrichten van andere daarmee rechtstreeks verbonden diensten;
-
-i) telecommunicatiediensten;
-
-j) radio- en televisieomroepdiensten;
-
-k) langs elektronische weg verrichte diensten, en met name de in bijlage II bedoelde diensten;
-
-l) de diensten verricht door een in naam en voor rekening van een ander handelende tussenpersoon wanneer hij bemiddelt bij het verrichten van de in dit lid bedoelde diensten.
-
-2. Het feit dat een dienstverrichter en zijn afnemer via elektronische post communiceren, betekent op zich niet dat de verrichte dienst een elektronische dienst is in de zin van lid 1, punt k).
-
-3. Lid 1, punten j) en k), en lid 2 zijn van toepassing tot en met 31 december 2006.
-
-###### Artikel 57
-
-1. Ingeval de in artikel 56, lid 1, punt k), bedoelde diensten worden verricht voor een niet-belastingplichtige die in een lidstaat is gevestigd of er zijn woonplaats of zijn gebruikelijke verblijfplaats heeft, door een belastingplichtige die de zetel van zijn bedrijfsuitoefening buiten de Gemeenschap heeft gevestigd of daar over een vaste inrichting beschikt van waaruit de dienst wordt verricht of die, bij gebreke van een dergelijke zetel of vaste inrichting, zijn woonplaats of gebruikelijke verblijfplaats buiten de Gemeenschap heeft, is de plaats van deze dienst de plaats waar de niet-belastingplichtige gevestigd is of zijn woonplaats of gebruikelijke verblijfplaats heeft.
-
 Cr iter ium inzake werkelijk gebr uik en werkelijke exploitatie
 
 ###### Artikel 58
@@ -1085,43 +695,13 @@ Deze bepaling geldt echter niet voor de in artikel 56, lid 1, punt k), bedoelde 
 
 2. Tot en met 31 december 2006 passen de lidstaten artikel 58, punt b), toe op de in artikel 56, lid 1, punt j), bedoelde radio- en televisieomroepdiensten welke worden verricht voor niet-belas- tingplichtigen die in een lidstaat gevestigd zijn of er hun woonplaats of gebruikelijke verblijfplaats hebben, door een belastingplichtige die de zetel van zijn bedrijfsuitoefening buiten de Gemeenschap heeft gevestigd of daar over een vaste inrichting beschikt van waaruit de diensten worden verricht, of die, bij gebreke van een dergelijke zetel of vaste inrichting, zijn woonplaats of gebruikelijke verblijfplaats buiten de Gemeen- schap heeft.
 
-Plaats van invoer van goederen
+## Plaats van invoer van goederen
 
 ###### Artikel 60
 
 De invoer van goederen vindt plaats in de lidstaat binnen het grondgebied waarvan het goed zich ten tijde van het binnen- komen in de Gemeenschap bevindt.
 
 ###### Artikel 61
-
-regelingen of situaties, onder een regeling voor tijdelijke invoer met volledige vrijstelling van invoerrechten of onder een regeling voor extern douanevervoer wordt geplaatst, de invoer van dat goed plaats in de lidstaat op het grondgebied waarvan het goed aan die regelingen of situaties wordt onttrokken.
-
-Wanneer een goed dat zich in het vrije verkeer bevindt, vanaf het binnenbrengen ervan in de Gemeenschap onder een van de in de artikelen 276 en 277 bedoelde regelingen of situaties wordt geplaatst, vindt de invoer van dat goed plaats in de lidstaat binnen het grondgebied waarvan het goed aan die regelingen of situaties wordt onttrokken.
-
-BELASTBAAR FEIT EN VERSCHULDIGDHEID VAN DE BELASTING
-
-Algemene bepalingen
-
-###### Artikel 62
-
-Voor de toepassing van deze richtlijn:
-
-1) wordt onder „ belastbaar feit ” verstaan het feit waardoor de wettelijke voorwaarden, vereist voor het verschuldigd worden van de belasting, worden vervuld;
-
-2) wordt de belasting geacht „ verschuldigd te zijn ” wanneer de schatkist krachtens de wet de belasting met ingang van een bepaald tijdstip van de belastingplichtige kan vorderen, ook al kan de betaling daarvan worden uitgesteld.
-
-Goederenleveringen en diensten
-
-###### Artikel 63
-
-Het belastbare feit vindt plaats en de belasting wordt verschul- digd op het tijdstip waarop de goederenleveringen of de diensten worden verricht.
-
-###### Artikel 64
-
-1. Wanneer zij aanleiding geven tot opeenvolgende afrekenin- gen of betalingen worden goederenleveringen, met uitzondering van de leveringen van goederen die gedurende een bepaalde periode in huur worden gegeven of op afbetaling worden verkocht als bedoeld in artikel 14, lid 2, punt b), en diensten geacht te zijn verricht bij het verstrijken van de periode waarop deze afrekeningen of betalingen betrekking hebben.
-
-2. De lidstaten kunnen bepalen dat in bepaalde gevallen goederenleveringen en diensten die gedurende een zekere periode doorlopend worden verricht, worden geacht ten minste eenmaal per jaar te zijn voltooid.
-
-###### Artikel 65
 
 ###### Artikel 66
 
@@ -1139,7 +719,7 @@ c) wanneer de factuur niet of niet tijdig wordt uitgereikt, binnen een bepaalde 
 
 2. In afwijking van lid 1 wordt de belasting verschuldigd bij de uitreiking van de in artikel 220 bedoelde factuur wanneer deze factuur is uitgereikt vóór de 15e van de maand volgende op die waarin het belastbare feit zich heeft voorgedaan.
 
-Intracommunautaire verwerving van goederen
+## Intracommunautaire verwerving van goederen
 
 ###### Artikel 68
 
@@ -1153,35 +733,9 @@ De intracommunautaire verwerving van goederen wordt geacht te zijn verricht op h
 
 2. In afwijking van lid 1 wordt de belasting verschuldigd bij de uitreiking van de in artikel 220 bedoelde factuur wanneer deze factuur is uitgereikt vóór de 15e van de maand volgende op die waarin het belastbare feit zich heeft voorgedaan.
 
-Invoer van goederen
+## Invoer van goederen
 
 ###### Artikel 70
-
-###### Artikel 71
-
-1. Wanneer goederen vanaf het binnenbrengen ervan in de Gemeenschap onder een van de in de artikelen 156, 276 en 277 bedoelde regelingen of situaties, onder een regeling voor tijdelijk invoer met volledig vrijstelling van invoerrechten of onder een regeling voor extern douanevervoer worden geplaatst, vindt het belastbare feit pas plaats en wordt de belasting pas verschuldigd op het tijdstip waarop de goederen aan die regelingen of situaties worden onttrokken.
-
-Wanneer de ingevoerde goederen echter onderworpen zijn aan invoerrechten, aan landbouwheffingen of aan heffingen van gelijke werking die zijn ingesteld in het kader van een gemeenschappelijk beleid, vindt het belastbare feit plaats en wordt de belasting verschuldigd op het tijdstip waarop het belastbare feit en het verschuldigd worden ter zake van deze rechten zich voordoen.
-
-2. In de gevallen waarin de ingevoerde goederen niet aan een van de in lid 1, tweede alinea, bedoelde rechten zijn onderworpen, passen de lidstaten met betrekking tot het belastbare feit en het verschuldigd worden van de belasting de geldende bepalingen inzake invoerrechten toe.
-
-MAATSTAF VAN HEFFING
-
-Definitie
-
-###### Artikel 72
-
-Voor de toepassing van deze richtlijn wordt als „ normale waarde ” beschouwd het volledige bedrag dat een afnemer, om de desbetreffende goederen of diensten op dat tijdstip te verkrijgen, in dezelfde handelsfase als waarin de goederenlevering of de dienst wordt verricht, op het tijdstip van die verrichting en bij vrije mededinging zou moeten betalen aan een zelfstandige leverancier of dienstverrichter op het grondgebied van de lidstaat waar de verrichting belastbaar is.
-
-Indien geen vergelijkbare verrichting voorhanden is, wordt onder „ normale waarde ” het volgende verstaan:
-
-1) met betrekking tot goederen, een waarde die niet lager is dan de aankoopprijs van de goederen of van soortgelijke goederen of, indien er geen aankoopprijs is, dan de kostprijs, berekend op het tijdstip waarop de levering wordt verricht;
-
-2) met betrekking tot diensten, een waarde die niet lager is dan de door de belastingplichtige voor het verrichten van de dienst gemaakte uitgaven.
-
-Goederenleveringen en diensten
-
-###### Artikel 73
 
 afnemer of van een derde, met inbegrip van subsidies die rechtstreeks met de prijs van deze handelingen verband houden.
 
@@ -1203,7 +757,7 @@ Voor de door een belastingplichtige voor bedrijfsdoeleinden verrichte diensten, 
 
 ###### Artikel 78
 
-In de maatstaf van heffing moeten de volgende elementen worden opgenomen:
+## In de maatstaf van heffing moeten de volgende elementen worden opgenomen:
 
 a) belastingen, rechten en heffingen, met uitzondering van de BTW zelf;
 
@@ -1213,31 +767,9 @@ Voor de toepassing van punt b) van de eerste alinea mogen de lidstaten uitgaven 
 
 ###### Artikel 79
 
-In de maatstaf van heffing worden de volgende elementen niet opgenomen:
+## In de maatstaf van heffing worden de volgende elementen niet opgenomen:
 
 a) prijsverminderingen wegens korting voor vooruitbetaling;
-
-c) door een belastingplichtige van de afnemer als terugbetaling van in naam en voor rekening van laatstgenoemden gemaakte kosten ontvangen bedragen die in de boekhou- ding van de belastingplichtige als doorlopende posten voorkomen.
-
-De belastingplichtige moet het werkelijke bedrag van de in de eerste alinea punt c), bedoelde kosten verantwoorden en mag de eventueel daarop drukkende BTW niet in aftrek brengen.
-
-###### Artikel 80
-
-1. Om belastingfraude en belastingontwijking te voorkomen, kunnen de lidstaten in de volgende gevallen bepalen dat voor goederenleveringen of diensten waarbij familiale of andere nauwe persoonlijke, bestuurlijke, eigendoms-, lidmaatschaps-, financiële of juridische banden zoals omschreven door de lidstaat bestaan, de maatstaf van heffing de normale waarde is:
-
-a) wanneer de tegenprestatie lager is dan de normale waarde en de afnemer geen volledig recht op aftrek uit hoofde van de artikelen 167 tot en met 171 en 173 tot en met 177 heeft;
-
-b) wanneer de tegenprestatie lager is dan de normale waarde, degene die de handeling verricht geen volledig recht op aftrek uit hoofde van de artikelen 167 tot en met 171 en 173 tot en met 177 heeft en de handeling uit hoofde van de artikelen 132, 135, 136, 371, 375, 367 en 377, artikel 378, lid 2, of artikel 379, lid 2, en de artikelen 380 tot en met 390, is vrijgesteld;
-
-c) wanneer de tegenprestatie hoger is dan de normale waarde en degene die de handeling verricht geen volledig recht op aftrek uit hoofde van de artikelen 167 tot en met 171 en 173 tot en met 177 heeft.
-
-Voor de toepassing van de eerste alinea kan een dienstverband tussen werkgever en werknemer, het gezin van de werknemer of andere personen die nauwe banden met hem hebben, als nauwe betrekkingen gelden.
-
-2. Wanneer zij gebruik maken van de in lid 1 bedoelde mogelijkheid, kunnen de lidstaten de categorieën van leveran- ciers, dienstverrichters of afnemers waarop de maatregelen van toepassing zijn, omschrijven.
-
-3. De lidstaten stellen het BTW-Comité in kennis van de nationale maatregelen die zij uit hoofde van lid 1 hebben genomen indien het geen maatregelen betreft die voor 13 augustus 2006 door de Raad overeenkomstig artikel 27, leden 1 tot en met 4, van Richtlijn 77/388/EEG zijn toegestaan en uit hoofde van genoemd lid 1 worden verlengd.
-
-###### Artikel 81
 
 Het in de eerste alinea bedoelde gedeelte wordt op zodanige wijze vastgesteld dat de aldus verschuldigde BTW ten minste gelijk is aan 5 % van het overeenkomstig de artikelen 73, 74, 76, 78 en 79 vastgestelde bedrag.
 
@@ -1245,7 +777,7 @@ Het in de eerste alinea bedoelde gedeelte wordt op zodanige wijze vastgesteld da
 
 De lidstaten kunnen bepalen dat in de maatstaf van heffing voor goederenleveringen en diensten de waarde moet worden opgenomen van vrijgesteld beleggingsgoud in de zin van artikel 346, dat door de afnemer ter beschikking is gesteld om voor verwerking te worden gebruikt en dat als gevolg van die verwerking zijn status van vrijgesteld beleggingsgoud verliest wanneer die goederenlevering of die dienst wordt verricht. De te hanteren waarde is de normale waarde van het beleggingsgoud op het tijdstip waarop die goederenlevering of die dienst wordt verricht.
 
-Intracommunautaire verwerving van goederen
+## Intracommunautaire verwerving van goederen
 
 ###### Artikel 83
 
@@ -1257,37 +789,11 @@ Voor de intracommunautaire verwerving van goederen bestaat de maatstaf van heffi
 
 2. Wanneer de afnemer na het tijdstip waarop de intracom- munautaire verwerving van goederen plaatsvindt, teruggaaf verkrijgt van de in de lidstaat van vertrek van de verzending of het vervoer van de goederen voldane accijns, wordt de maatstaf van heffing dienovereenkomstig verlaagd in de lidstaat binnen het grondgebied waarvan de verwerving heeft plaatsgevonden.
 
-Invoer van goederen
+## Invoer van goederen
 
 ###### Artikel 85
 
-###### Artikel 86
-
-1. In de maatstaf van heffing moeten de volgende elementen worden opgenomen, voorzover zij niet reeds daarin zijn begrepen:
-
-a) de buiten de lidstaat van invoer verschuldigde rechten, heffingen en andere belastingen, alsmede die welke ter zake van de invoer verschuldigd zijn, met uitzondering van de te heffen BTW;
-
-b) de bijkomende kosten, zoals de kosten van commissie, verpakking, vervoer en verzekering, tot de eerste plaats van bestemming binnen het grondgebied van de lidstaat van invoer, alsmede de kosten die voortvloeien uit het vervoer naar een andere plaats van bestemming in de Gemeen- schap, indien deze plaats bekend is op het tijdstip waarop het belastbare feit plaatsvindt.
-
-2. Voor de toepassing van lid 1, eerste alinea, punt b), wordt onder „ eerste plaats van bestemming ” verstaan de plaats die genoemd is in de vrachtbrief of een ander document waaronder de goederen in de lidstaat van invoer binnenkomen. Bij gebreke van deze vermelding wordt de eerste plaats van bestemming geacht de plaats te zijn waar de eerste overlading van de goederen in de lidstaat van invoer geschiedt.
-
-###### Artikel 87
-
-In de maatstaf van heffing worden de volgende elementen niet opgenomen:
-
-a) prijsverminderingen wegens korting voor vooruitbetaling;
-
-b) aan de afnemer toegekende prijskortingen en -rabatten die zijn verkregen op het tijdstip waarop de invoer wordt verricht.
-
-###### Artikel 88
-
-Voor tijdelijk uit de Gemeenschap uitgevoerde goederen die, na buiten de Gemeenschap een herstelling, bewerking, verwerking of aanpassing te hebben ondergaan, wederom worden ingevoerd, treffen de lidstaten maatregelen teneinde te verzekeren dat de voor de verkregen goederen geldende behandeling met betrek- king tot de BTW dezelfde is als die welke op de betrokken goederen zou zijn toegepast indien vorengenoemde handelingen op hun grondgebied zouden zijn verricht.
-
-###### Artikel 89
-
-De lidstaten die op 1 januari 1993 geen gebruik hebben gemaakt van de mogelijkheid uit hoofde van artikel 98 een verlaagd tarief toe te passen, kunnen bepalen dat bij de invoer van kunst- voorwerpen, voorwerpen voor verzamelingen en antiquiteiten zoals omschreven in artikel 311, lid 1, punten 2), 3) en 4), de maatstaf van heffing gelijk is aan een gedeelte van het overeenkomstig de artikelen 85, 86 en 87 vastgestelde bedrag.
-
-Diverse bepalingen
+## Diverse bepalingen
 
 ###### Artikel 90
 
@@ -1305,7 +811,7 @@ Voor sommige van de in de eerste alinea bedoelde handelingen of voor sommige cat
 
 ###### Artikel 92
 
-Wat het statiegeld voor retouremballage betreft, kunnen de lidstaten het volgende bepalen:
+## Wat het statiegeld voor retouremballage betreft, kunnen de lidstaten het volgende bepalen:
 
 a) hetzij het statiegeld van de maatstaf van heffing uitsluiten door de nodige maatregelen te nemen opdat de maatstaf wordt herzien wanneer de emballage niet wordt teruggeven;
 
@@ -1313,47 +819,9 @@ b) hetzij het statiegeld in de maatstaf van heffing opnemen door de nodige maatr
 
 TARIEVEN
 
-Toepassing van de tarieven
+## Toepassing van de tarieven
 
 ###### Artikel 93
-
-In de volgende gevallen is het toe te passen tarief echter het tarief dat van kracht is op het tijdstip waarop de belasting verschuldigd wordt:
-
-a) de gevallen, bedoeld in de artikelen 65 en 66;
-
-b) de intracommunautaire verwerving van goederen;
-
-c) de gevallen van invoer van goederen bedoeld in artikel 71, lid 1, tweede alinea, en lid 2.
-
-###### Artikel 94
-
-1. Het op de intracommunautaire verwerving van goederen toe te passen tarief is het tarief dat binnen het grondgebied van de lidstaat op de levering van eenzelfde goed wordt toegepast.
-
-2. Onverminderd de in artikel 103, lid 1, bepaalde mogelijk- heid een verlaagd tarief toe te passen op de invoer van kunstvoorwerpen, voorwerpen voor verzamelingen en antiqui- teiten, is het bij invoer van goederen toe te passen tarief het tarief dat binnen het grondgebied van de lidstaat op de levering van eenzelfde goed wordt toegepast.
-
-###### Artikel 95
-
-Bij tariefwijzigingen kunnen de lidstaten in de in de artikelen 65 en 66 bedoelde gevallen tot herziening overgaan, teneinde rekening te houden met het tarief geldend op het waarop de goederenleveringen of de diensten worden verricht.
-
-De lidstaten kunnen bovendien elke passende overgangsmaat- regel treffen.
-
-Structuur en hoogte van de tarieven
-
-Nor maal t ar ief
-
-###### Artikel 96
-
-De lidstaten passen een normaal BTW-tarief toe, dat door elke lidstaat wordt vastgesteld op een percentage van de maatstaf van heffing, dat voor goederenleveringen en voor diensten gelijk is.
-
-###### Artikel 97
-
-1. Vanaf 1 januari 2006 tot en met 31 december 2010 mag het normale tarief niet lager z ĳ n dan 15 %.
-
-2. De Raad besluit overeenkomstig artikel 93 van het Verdrag over de hoogte van het na 31 december 2010 geldende normale tarief.
-
-Verlaagde t ar ieven
-
-###### Artikel 98
 
 2. De verlaagde tarieven zijn uitsluitend van toepassing op de goederenleveringen en de diensten die tot de in b ĳ lage III genoemde categorieën behoren.
 
@@ -1377,45 +845,11 @@ De Raad kan overeenkomstig artikel 93 van het Verdrag besluiten wijzigingen aan 
 
 De Commissie legt uiterlijk op 30 juni 2007 aan het Europees Parlement en aan de Raad een algemeen evaluatieverslag voor over het effect van de verlaagde tarieven op lokale diensten, inclusief restauratie, waarin met name aandacht wordt geschon- ken aan het scheppen van werkgelegenheid, de economische groei en de goede werking van de interne markt, en dat gebaseerd is op een studie van een onafhankelijke economische- reflectiegroep.
 
-Bijzondere bepalingen
+## Bijzondere bepalingen
 
 ###### Artikel 102
 
 De lidstaten kunnen voor de levering van aardgas, elektriciteit en stadsverwarming een verlaagd tarief toepassen, mits er geen gevaar voor verstoring van de mededinging bestaat.
-
-###### Artikel 103
-
-1. De lidstaten kunnen bepalen dat het verlaagde tarief dat, of een van de verlaagde tarieven die, zij overeenkomstig de artikelen 98 en 99 toepassen, eveneens van toepassing is op de invoer van kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten, zoals omschreven in artikel 311, lid 1, punten 2), 3) en 4).
-
-2. Wanneer zij van de in lid 1 bedoelde mogelijkheid gebruikmaken, kunnen de lidstaten het verlaagde tarief eveneens toepassen op de volgende handelingen:
-
-a) leveringen van kunstvoorwerpen die door de maker of diens rechthebbenden worden verricht;
-
-b) leveringen van kunstvoorwerpen die incidenteel worden verricht door een andere belastingplichtige dan een belastingplichtige wederverkoper wanneer de kunstvoor- werpen door deze belastingplichtige zelf zijn ingevoerd of hem zijn geleverd door de maker of diens rechthebbenden, of te zijnen gunste het recht op volledige aftrek van de BTW hebben doen ontstaan.
-
-###### Artikel 104
-
-Oostenrijk mag in de gemeenten Jungholz en Mittelberg (Kleines Walsertal) een tweede normaal tarief toepassen dat lager ligt dan het overeenkomstige tarief dat in de rest van Oostenrijk wordt toegepast, maar dat niet minder dan 15 % mag bedragen.
-
-###### Artikel 105
-
-Portugal mag op de handelingen in de autonome gebieden van de Azoren en Madeira en op de rechtstreekse invoer in deze gebieden lagere tarieven toepassen dan die welke op het vasteland gelden.
-
-Tijdelijke bepalingen voor bepaalde arbeidsintensieve diensten
-
-###### Artikel 106
-
-De lidstaten kunnen door de Raad op voorstel van de Commissie met eenparigheid van stemmen worden gemachtigd om uiterlijk tot en met 31 december 2010 de in artikel 98 bedoelde verlaagde tarieven toe te passen op de in b ĳ lage IV genoemde diensten.
-
-De verlaagde tarieven mogen worden toegepast op diensten behorende tot ten hoogste twee van de in bijlage IV genoemde categorieën.
-
-In uitzonderl ĳ ke gevallen mag het een lidstaat worden toegestaan het verlaagde tarief toe te passen op diensten behorende tot drie van de bovenbedoelde categorieën.
-
-###### Artikel 107
-
-De in artikel 106 bedoelde diensten moeten de volgende voorwaarden vervullen:
-
-a) arbeidsintensief z ĳ n;
 
 c) hoofdzakel ĳ k lokaal z ĳ n en niet tot verstoring van de mededinging leiden.
 
@@ -1431,7 +865,7 @@ b) de gegevens waaruit bl ĳ kt dat de in artikel 107 genoemde voorwaarden vervu
 
 c) de gegevens waaruit de budgettaire kosten van de voorgenomen maatregel bl ĳ ken.
 
-Bijzondere bepalingen van toepassing tot de invoering van de definitieve regeling
+## Bijzondere bepalingen van toepassing tot de invoering van de definitieve regeling
 
 ###### Artikel 109
 
@@ -1448,36 +882,6 @@ De in de eerste alinea bedoelde vrijstellingen en verlaagde tarieven moeten in o
 Onder de in artikel 110, tweede alinea, gestelde voorwaarden mogen vrijstellingen met recht op aftrek van voorbelasting in de volgende gevallen toegepast blijven worden:
 
 a) door Finland op abonnementen van dagbladen en tijd- schriften en op het vervaardigen van drukwerk voor de leden van verenigingen voor algemeen welzijn;
-
-###### Artikel 112
-
-Indien artikel 106 in Ierland tot verstoring van de mededinging leidt bij de levering van energie voor verwarming en verlichting, kan de Commissie op uitdrukkelijk verzoek van Ierland aan die lidstaat toestaan voor die leveringen een verlaagd tarief toe te passen overeenkomstig de artikelen 95 en 96.
-
-Ierland doet in het in de eerste alinea bedoelde geval zijn verzoek aan de Commissie vergezeld gaan van alle nodige informatie. Indien de Commissie binnen drie maanden na ontvangst van het verzoek geen besluit heeft genomen, wordt Ierland geacht toestemming te hebben gekregen de voorgestelde verlaagde tarieven toe te passen.
-
-###### Artikel 113
-
-De lidstaten die op 1 januari 1991 in overeenstemming met het Gemeenschapsrecht met betrekking tot andere dan de in bijlage III genoemde goederen en diensten vrijstellingen met recht op aftrek van voorbelasting verleenden of verlaagde tarieven toepasten die onder het in artikel 99 vastgestelde minimum liggen, mogen voor de levering van die goederen of voor die diensten overeenkomstig artikel 98 een verlaagd tarief of een van de twee verlaagde tarieven toepassen.
-
-###### Artikel 114
-
-1. De lidstaten die op 1 januari 1993 verplicht waren hun op 1 januari 1991 geldende normale tarief met meer dan 2 % te verhogen, mogen voor goederenleveringen en diensten van de in bijlage III genoemde categorieën, een verlaagd tarief toepassen dat onder het in artikel 99 bepaalde minimum ligt.
-
-Voorts mogen de in de eerste alinea bedoelde lidstaten een dergelijk tarief hanteren voor restauratie, kinderkleding en -schoeisel en huisvesting.
-
-2. De lidstaten mogen op grond van lid 1 geen vrijstellingen met recht op aftrek van voorbelasting invoeren.
-
-###### Artikel 115
-
-De lidstaten die op 1 januari 1991 een verlaagd tarief toepasten voor restauratie, kinderkleding en -schoeisel en huisvesting, mogen op die goederenleveringen en diensten een verlaagd tarief blijven toepassen.
-
-###### Artikel 116
-
-Portugal mag een van de twee in artikel 98 bedoelde verlaagde tarieven toepassen voor restauratie, op voorwaarde dat dit tarief niet lager ligt dan 12 %.
-
-###### Artikel 117
-
-1. Voor de toepassing van artikel 115 mag Oostenrijk een verlaagd tarief blijven toepassen voor restauratie.
 
 ###### Artikel 118
 
@@ -1503,41 +907,11 @@ Voor de toepassing van de eerste alinea wordt onder „ oplevering van een werk 
 
 De lidstaten mogen een verlaagd tarief toepassen op leveringen van levende planten en andere producten van de bloementeelt, met inbegrip van bollen, wortelen en dergelijke, snijbloemen en snijgroen, alsmede op leveringen van brandhout.
 
-Tijdelijke bepalingen
+## Tijdelijke bepalingen
 
 ###### Artikel 123
 
 Tsjechië mag tot en met 31 december 2007 een verlaagd tarief van ten minste 5 % blijven toepassen op de volgende handelin- gen:
-
-warmwaterproductie, met uitzondering van grondstoffen voor het opwekken van warmte-energie;
-
-b) de levering van bouwwerkzaamheden voor huisvesting die niet in het kader van sociaal beleid worden verricht, met uitsluiting van bouwmaterialen.
-
-###### Artikel 124
-
-Estland mag tot en met 30 juni 2007 een verlaagd tarief van ten minste 5 % blijven toepassen op de levering van warmte-energie aan natuurlijke personen, woningverenigingen, kerken, congre- gaties en door de staat, plattelandsgemeenten of steden gefinancierde instellingen of rechtspersonen, alsmede op de verkoop aan natuurlijke personen van turf, brandstofbriketten, kolen en brandhout.
-
-###### Artikel 125
-
-1. Cyprus mag tot en met 31 december 2007 een vrijstelling met recht op aftrek van voorbelasting blijven toepassen op geneesmiddelen en levensmiddelen voor menselijke consumptie, met uitzondering van roomijs, ijslollies, bevroren yoghurt, waterijs en soortgelijke producten, en voor hartige snacks (aardappelchips/-sticks, „ puffs ” (gepofte aardappelbrokjes) en soortgelijke producten die zonder verdere bereiding worden verpakt voor menselijke consumptie).
-
-2. Cyprus mag een verlaagd tarief van ten minste 5 % blijven toepassen op restaurantdiensten, tot en met 31 december 2007 of tot de invoering van de in artikel 402 bedoelde definitieve regeling, naargelang welke datum eerder valt.
-
-###### Artikel 126
-
-Hongarije mag een verlaagd tarief van ten minste 12 % blijven toepassen op de volgende handelingen:
-
-a) tot en met 31 december 2007 op de levering van kolen, steenkool en cokes, brandhout en houtskool, alsmede op de levering van stadsverwarmingsdiensten;
-
-b) tot en met 31 december 2007 of tot de invoering van de in artikel 402 bedoelde definitieve regeling, naargelang welke datum eerder valt, op restauratie en in horecabedrijven verkochte levensmiddelen.
-
-###### Artikel 127
-
-Malta mag tot 1 januari 2010 een vrijstelling met aftrek van voorbelasting blijven toepassen op de levering van levens- middelen voor menselijke consumptie en van geneesmiddelen.
-
-###### Artikel 128
-
-1. Polen mag tot en met 31 december 2007 een vrijstelling met recht op aftrek van voorbelasting toepassen op de levering van bepaalde categorieën boeken en gespecialiseerde tijdschriften.
 
 3. Polen mag tot en met 30 april 2008 een verlaagd tarief van ten minste 3 % blijven toepassen op de levering van levens- middelen bedoeld in bijlage III, punt 1.
 
@@ -1561,33 +935,9 @@ b) tot en met 31 december 2008 op de levering van warmte- energie aan huishouden
 
 VRIJSTELLINGEN
 
-Algemene bepalingen
+## Algemene bepalingen
 
 ###### Artikel 131
-
-Vrijstellingen voor bepaalde activiteiten van algemeen belang
-
-###### Artikel 132
-
-1. De lidstaten verlenen vrijstelling voor de volgende handelin- gen:
-
-a) de door openbare postdiensten verrichte diensten en daarmee gepaard gaande goederenleveringen, met uitzon- dering van personenvervoer en telecommunicatiediensten;
-
-b) ziekenhuisverpleging en medische verzorging, alsmede de handelingen die daarmede nauw samenhangen, door publiekrechtelijke lichamen of, onder sociale voorwaarden die vergelijkbaar zijn met die welke gelden voor genoemde lichamen, door ziekenhuizen, centra voor medische verzor- ging en diagnose en andere naar behoren erkende inrichtingen van dezelfde aard;
-
-c) medische verzorging in het kader van de uitoefening van medische en paramedische beroepen als omschreven door de betrokken lidstaat;
-
-d) de levering van menselijke organen, menselijk bloed en moedermelk;
-
-e) de door tandtechnici in het kader van de uitoefening van hun beroep verrichte diensten, alsmede de levering van tandprothesen door tandartsen en tandtechnici;
-
-f) diensten verricht door zelfstandige groeperingen van personen die een activiteit uitoefenen welke is vrijgesteld of waarvoor zij niet belastingplichtig zijn, teneinde aan hun leden de diensten te verlenen die direct nodig zijn voor de uitoefening van voornoemde activiteit, wanneer die groeperingen van hun leden enkel terugbetaling vorderen van hun aandeel in de gezamenlijke uitgaven, mits deze vrijstelling niet tot verstoring van de mededinging kan leiden;
-
-g) diensten en goederenleveringen welke nauw samenhangen met maatschappelijk werk en met de sociale zekerheid, waaronder begrepen die welke worden verricht door bejaardentehuizen, door publiekrechtelijke lichamen of door andere organisaties die door de betrokken lidstaat als instellingen van sociale aard worden erkend;
-
-h) diensten en goederenleveringen welke nauw samenhangen met de bescherming van kinderen en jongeren en welke worden verricht door publiekrechtelijke lichamen of door andere organisaties die door de betrokken lidstaat als instellingen van sociale aard worden erkend;
-
-i) onderwijs aan kinderen of jongeren, school- of universitair onderwijs, beroepsopleiding of -herscholing, met inbegrip van de diensten en goederenleveringen welke hiermede nauw samenhangen, door publiekrechtelijke lichamen die daartoe zijn ingesteld of door andere organisaties die door de betrokken lidstaat als lichamen met soortgelijke doel- einden worden erkend;
 
 k) beschikbaarstelling van personeel door religieuze of levens- beschouwelijke instellingen voor de in de punten b), g), h) en i), bedoelde werkzaamheden en met het oog op de verlening van geestelijke bijstand;
 
@@ -1611,34 +961,6 @@ De lidstaten kunnen de verlening van elk der in artikel 132, lid 1, punten b), g
 
 a) de instellingen mogen niet systematisch het maken van winst beogen; eventuele winsten mogen niet worden uitgekeerd, maar moeten worden aangewend voor de instandhouding of verbetering van de diensten die worden verricht;
 
-c) de instellingen moeten prijzen toepassen die zijn goed- gekeurd door de overheid, of prijzen die niet hoger liggen dan de goedgekeurde prijzen, of, voor handelingen waar- voor geen goedkeuring van prijzen plaatsvindt, prijzen die lager zijn dan die welke voor soortgelijke aan de BTW onderworpen handelingen in rekening worden gebracht door commerciële ondernemingen;
-
-d) de vrijstellingen mogen niet tot verstoring van de mededin- ging leiden ten nadele van belastingplichtige commerciële ondernemingen.
-
-De lidstaten die krachtens bijlage E van Richtlijn 77/388/EEG van de Raad op 1 januari 1989 de in artikel 132, lid 1, punten m) en n), bedoelde handelingen aan BTW onderwierpen, mogen de in de eerste alinea, punt d), vermelde voorwaarden ook toepassen wanneer vrijstelling wordt verleend voor de genoemde diensten of goederenleveringen, verricht door publiekrechtelijke lichamen.
-
-###### Artikel 134
-
-Goederenleveringen en diensten zijn in de volgende gevallen van de in artikel 132, lid 1, punten b), g), h), i), l), m) en n), bedoelde vrijstellingen uitgesloten:
-
-a) wanneer zij niet onontbeerlijk zijn voor het verrichten van de vrijgestelde handelingen;
-
-b) wanneer zij in hoofdzaak ertoe strekken aan de instelling extra opbrengsten te verschaffen door de uitvoering van handelingen welke worden verricht in rechtstreekse mede- dinging met aan de BTW onderworpen handelingen van commerciële ondernemingen.
-
-Vrijstellingen ten gunste van andere activiteiten
-
-###### Artikel 135
-
-1. De lidstaten verlenen vrijstelling voor de volgende handelin- gen:
-
-a) handelingen ter zake van verzekering en herverzekering met inbegrip van daarmee samenhangende diensten, ver- richt door assurantiemakelaars en verzekeringstussenperso- nen;
-
-b) de verlening van kredieten en de bemiddeling inzake kredieten, alsmede het beheer van kredieten door degene die deze heeft verleend;
-
-c) de bemiddeling bij en het aangaan van borgtochten en andere zekerheids- en garantieverbintenissen, alsmede het beheer van kredietgaranties door degene die het krediet heeft verleend;
-
-d) handelingen, bemiddeling daaronder begrepen, betreffende deposito's, rekening-courantverkeer, betalingen, overmakin- gen, schuldvorderingen, cheques en andere handelspapieren met uitzondering van de inning van schuldvorderingen;
-
 verzamelobject zijn, namelijk gouden, zilveren of uit een ander metaal geslagen munten, alsmede biljetten, die normaal niet als wettig betaalmiddel worden gebruikt of die een numismatische waarde hebben;
 
 f) handelingen, bemiddeling daaronder begrepen, uitgezon- derd bewaring en beheer, inzake aandelen, deelnemingen in vennootschappen of verenigingen, obligaties en andere waardepapieren, met uitzondering van documenten die goederen vertegenwoordigen en van de in artikel 16, lid 2, bedoelde rechten of effecten;
@@ -1655,7 +977,7 @@ k) de levering van onbebouwde onroerende goederen, met uitzondering van de in ar
 
 l) de verhuur en verpachting van onroerende goederen.
 
-2. De volgende handelingen zijn van de in lid 1, punt l), geregelde vrijstelling uitgesloten:
+## 2. De volgende handelingen zijn van de in lid 1, punt l), geregelde vrijstelling uitgesloten:
 
 a) het verstrekken van accommodatie, als omschreven in de wetgeving der lidstaten, in het hotelbedrijf of in sectoren met een soortgelijke functie, met inbegrip van de verhuur- accommodatie in vakantiekampen of op kampeerterreinen;
 
@@ -1669,37 +991,9 @@ De lidstaten kunnen nog andere handelingen van de toepassing van de in lid 1, pu
 
 ###### Artikel 136
 
-De lidstaten verlenen vrijstelling voor de volgende handelingen:
+## De lidstaten verlenen vrijstelling voor de volgende handelingen:
 
 a) leveringen van goederen die uitsluitend zijn gebruikt voor een activiteit die krachtens de artikelen 132, 135, 371, 375, 376 en 377, artikel 378, lid 2, artikel 379, lid 2, en de artikelen 380 tot en met 390 is vrijgesteld, wanneer voor deze goederen geen recht op aftrek is genoten;
-
-###### Artikel 137
-
-1. De lidstaten kunnen aan de belastingplichtigen het recht verlenen voor belastingheffing ter zake van de volgende handelingen te kiezen:
-
-a) de financiële handelingen bedoeld in artikel 135, lid 1, punten b) tot en met g);
-
-b) de levering van een gebouw of een gedeelte ervan en van het bijbehorende terrein, met uitzondering van de in artikel 12, lid 1, punt a), bedoelde levering;
-
-c) de levering van onbebouwde onroerende goederen, met uitzondering van de in artikel 12, lid 1, punt b), bedoelde levering van een bouwterrein;
-
-d) de verhuur en verpachting van onroerende goederen.
-
-2. De lidstaten stellen de bepalingen voor de uitoefening van het in lid 1 bedoelde keuzerecht vast.
-
-De lidstaten kunnen de omvang van dit keuzerecht beperken.
-
-Vrijstellingen met betrekking tot intracommunautaire handelingen
-
-Vr ijs tellingen voor lever ing van goederen
-
-###### Artikel 138
-
-1. De lidstaten verlenen vrijstelling voor de levering van goederen, door of voor rekening van de verkoper of de afnemer verzonden of vervoerd naar een plaats buiten hun respectieve grondgebied, maar binnen de Gemeenschap, welke wordt verricht voor een andere belastingplichtige of voor een niet- belastingplichtige rechtspersoon die als zodanig handelt in een andere lidstaat dan de lidstaat van vertrek van de verzending of het vervoer van de goederen.
-
-2. Behalve voor de in lid 1 bedoelde goederenleveringen verlenen de lidstaten vrijstelling voor de volgende handelingen:
-
-a) de levering van nieuwe vervoermiddelen, door of voor rekening van de verkoper of de afnemer met als bestem- ming de afnemer verzonden of vervoerd naar een plaats buiten hun respectieve grondgebied maar binnen de Gemeenschap, welke wordt verricht voor belastingplichti- gen of voor niet-belastingplichtige rechtspersonen wier intracommunautaire verwervingen van goederen uit hoofde van artikel 3, lid 1, niet aan de BTW zijn onderworpen, of voor elke andere niet-belastingplichtige;
 
 belastingplichtige rechtspersonen wier intracommunautaire verwervingen van andere goederen dan accijnsproducten, uit hoofde van artikel 3, lid 1, niet aan de BTW zijn onderworpen wanneer de verzending of het vervoer van deze producten plaatsvindt overeenkomstig artikel 7, leden 4 en 5, of artikel 16 van Richtlijn 92/12/EEG;
 
@@ -1717,39 +1011,17 @@ De vrijstelling is evenmin van toepassing op de goederenlevering welke wordt ver
 
 De in artikel 138, lid 1, en lid 2, onder c), geregelde vrijstelling is niet van toepassing op de levering van gebruikte vervoer- middelen als omschreven in artikel 327, lid 3, die overeenkom- stig de overgangsregeling voor gebruikte vervoermiddelen aan de BTW zijn onderworpen.
 
-Vr ijstellingen voor intracommunautaire ver wer vingen van goederen
+## Vr ijstellingen voor intracommunautaire ver wer vingen van goederen
 
 ###### Artikel 140
 
-De lidstaten verlenen vrijstelling voor de volgende handelingen:
+## De lidstaten verlenen vrijstelling voor de volgende handelingen:
 
-b) de intracommunautaire verwerving van goederen waarvan de invoer in ieder geval op grond van artikel 143, punten a), b) en c), en e) tot en met l), is vrijgesteld;
-
-c) de intracommunautaire verwerving van goederen waarvoor de afnemer van de goederen op grond van de artikelen 170 en 171 in ieder geval recht heeft op volledige teruggaaf van de BTW die krachtens artikel 2, lid 1, onder b), verschuldigd zou zijn.
-
-###### Artikel 141
-
-Elke lidstaat treft bijzondere maatregelen om de intracommu- nautaire verwerving van goederen die overeenkomstig artikel 40 binnen zijn grondgebied wordt verricht, niet aan de BTW te onderwerpen indien de volgende voorwaarden vervuld zijn:
-
-a) de verwerving van goederen wordt verricht door een niet in die lidstaat gevestigde, maar in een andere lidstaat voor BTW-doeleinden geïdentificeerde belastingplichtige;
-
-b) de verwerving van goederen wordt verricht met het oog op een daaropvolgende levering van deze goederen in diezelfde lidstaat door de in punt a) bedoelde belastingplichtige;
-
-c) de aldus door de in punt a) bedoelde belastingplichtige verworven goederen worden rechtstreeks vanuit een andere lidstaat dan die waarin hij voor BTW-doeleinden geïden- tificeerd is, verzonden of vervoerd naar degene voor wie hij de daaropvolgende levering verricht;
-
-d) degene voor wie de daaropvolgende levering bestemd is, is een andere belastingplichtige of een niet-belastingplichtige rechtspersoon, die in diezelfde lidstaat voor BTW-doel- einden is geïdentificeerd;
-
-e) de in punt d) bedoelde persoon voor wie de volgende levering is bestemd, is overeenkomstig artikel 197 aange- wezen als degene die is gehouden tot voldoening van de belasting, verschuldigd uit hoofde van de levering welke is verricht door de belastingplichtige die niet gevestigd is in de lidstaat waar de belasting is verschuldigd.
-
-Vr ijstellingen voor bepaalde ver voerdiensten
-
-###### Artikel 142
-
-Vrijstellingen bij invoer
+## Vrijstellingen bij invoer
 
 ###### Artikel 143
 
-De lidstaten verlenen vrijstelling voor de volgende handelingen:
+## De lidstaten verlenen vrijstelling voor de volgende handelingen:
 
 a) de definitieve invoer van goederen waarvan de levering door belastingplichtigen in ieder geval op hun respectieve grondgebied is vrijgesteld;
 
@@ -1765,35 +1037,11 @@ f) de invoer van goederen in het kader van de diplomatieke en consulaire betrekk
 
 g) de invoer van goederen verricht door internationale instellingen die als zodanig door de overheid van de lidstaat waar zij zijn gevestigd, zijn erkend, alsmede door de leden van deze instellingen, zulks binnen de beperkingen en onder de voorwaarden die zijn vastgesteld bij de inter- nationale verdragen tot oprichting van deze instellingen of bij de vestigingsovereenkomsten;
 
-h) de invoer van goederen verricht in de lidstaten die partij zijn bij het Noord-Atlantische Verdrag, door de strijd- krachten van de andere staten die partij bij dat verdrag zijn, ten behoeve van deze strijdkrachten of het hen bege- leidende burgerpersoneel of voor de bevoorrading van hun messes of kantines, voor zover deze strijdkrachten deel- nemen aan de gemeenschappelijke defensie-inspanning;
-
-i) de invoer van goederen door de strijdkrachten van het Verenigd Koninkrijk die op Cyprus zijn gestationeerd overeenkomstig het Verdrag betreffende de oprichting van de Republiek Cyprus van 16 augustus 1960, ten behoeve van de strijdkrachten of het hen begeleidende burger- personeel of voor de bevoorrading van hun messes of kantines;
-
-j) de invoer in havens, door zeevisserijbedrijven, van visserijproducten, niet be- of verwerkt of nadat deze met het oog op de afzet een bederfwerende behandeling hebben ondergaan, en die nog niet zijn geleverd;
-
-k) de invoer van goud door de centrale banken;
-
-l) de invoer van gas via het aardgasdistributiesysteem, of de invoer van elektriciteit.
-
-###### Artikel 144
-
-De lidstaten verlenen vrijstelling voor de diensten die betrekking hebben op de invoer van goederen en waarvan de waarde overeenkomstig artikel 86, lid 1, onder b), in de maatstaf van heffing is opgenomen.
-
-###### Artikel 145
-
-1. De Commissie dient, indien nodig, zo spoedig mogelijk voorstellen in bij de Raad om de werkingssfeer en de uitvoering van de in de artikelen 143 en 144 geregelde vrijstellingen nader te bepalen.
-
-2. Totdat de in lid 1 bedoelde uitvoeringsbepalingen in werking treden, kunnen de lidstaten hun geldende nationale voorschriften blijven toepassen.
-
-De lidstaten kunnen hun nationale voorschriften aanpassen, teneinde verstoring van de mededinging te beperken en met name gevallen van niet-heffing of dubbele heffing van belasting in de Gemeenschap te vermijden.
-
-De lidstaten kunnen de administratieve procedures gebruiken die zij het meest geschikt achten om tot vrijstelling te komen.
-
-Vrijstellingen bij uitvoer
+## Vrijstellingen bij uitvoer
 
 ###### Artikel 146
 
-1. De lidstaten verlenen vrijstelling voor de volgende handelin- gen:
+## 1. De lidstaten verlenen vrijstelling voor de volgende handelin- gen:
 
 a) de levering van goederen die door of voor rekening van de verkoper worden verzonden of vervoerd naar een plaats buiten de Gemeenschap;
 
@@ -1815,30 +1063,6 @@ a) de reiziger is niet in de Gemeenschap gevestigd;
 
 b) de goederen worden naar een plaats buiten de Gemeen- schap vervoerd vóór het einde van de derde maand volgende op die waarin de levering geschiedde;
 
-De lidstaten mogen evenwel een levering waarvan het totale bedrag lager is dan het in de eerste alinea, punt c), genoemde bedrag, van belasting vrijstellen.
-
-2. Voor de toepassing van lid 1 wordt onder „ reiziger die niet in de Gemeenschap is gevestigd ” verstaan een reiziger wiens woonplaats of gebruikelijke verblijfplaats niet in de Gemeen- schap is gelegen. In dat geval wordt onder „ woonplaats of gebruikelijke verblijfplaats ” verstaan de plaats die als zodanig is vermeld op het paspoort, de identiteitskaart of enig ander document dat door de lidstaat op het grondgebied waarvan de levering wordt verricht, als identiteitsbewijs wordt erkend.
-
-Het bewijs van de uitvoer wordt geleverd door middel van de factuur, of van een in de plaats daarvan komend bewijsstuk, voorzien van het visum van het douanekantoor van uitgang uit de Gemeenschap.
-
-Elke lidstaat verstrekt aan de Commissie een specimen van de stempels die hij voor het afgeven van het in de tweede alinea bedoelde visum gebruikt. De Commissie stelt de belastingauto- riteiten van de andere lidstaten van deze informatie in kennis.
-
-Vrijstellingen met betrekking tot internationaal vervoer
-
-###### Artikel 148
-
-De lidstaten verlenen vrijstelling voor de volgende handelingen:
-
-a) de levering van goederen, bestemd voor de bevoorrading van schepen voor de vaart op volle zee waarmee passagiersvervoer tegen betaling plaatsvindt of die worden gebruikt voor de uitoefening van een industriële, handels- of visserijactiviteit alsmede van reddingsboten en schepen voor hulpverlening op zee of schepen voor de kustvisserij, behalve, wat de laatstgenoemde schepen betreft, de scheepsvoorraden;
-
-b) de levering van goederen, bestemd voor de bevoorrading van oorlogsschepen vallende onder GN-code 8906 10 00, die hun grondgebied verlaten met als bestemming een haven of een ankerplaats buiten de lidstaat;
-
-c) de levering, de verbouwing, de reparatie, het onderhoud, de bevrachting en de verhuur van de in punt a) bedoelde schepen, alsmede de levering, de verhuur, de reparatie en het onderhoud van de voorwerpen — met inbegrip van uitrusting voor de visserij — die met deze schepen vast verbonden zijn of die voor hun exploitatie dienen;
-
-d) andere dan de in punt c) bedoelde diensten die voor de rechtstreekse behoeften van de in punt a) bedoelde schepen en hun lading worden verricht;
-
-e) de levering van goederen, bestemd voor de bevoorrading van de luchtvaartuigen welke worden gebruikt door luchtvaartmaatschappijen die zich hoofdzakelijk op het betaalde internationale vervoer toeleggen;
-
 deze luchtvaartuigen vast verbonden zijn of die voor hun exploitatie dienen;
 
 g) andere dan de in punt f) bedoelde diensten, die voor de rechtstreekse behoeften van de in punt e) bedoelde luchtvaartuigen en hun lading worden verricht.
@@ -1853,11 +1077,11 @@ Portugal mag het vervoer over zee en door de lucht tussen de eilanden die de aut
 
 2. Totdat de in lid 1 bedoelde bepalingen in werking treden, kunnen de lidstaten de draagwijdte van de in artikel 148, punten a) en b), geregelde vrijstellingen beperken.
 
-Vrijstellingen voor bepaalde met uitvoer gelijkgestelde handelingen
+## Vrijstellingen voor bepaalde met uitvoer gelijkgestelde handelingen
 
 ###### Artikel 151
 
-1. De lidstaten verlenen vrijstelling voor de volgende handelin- gen:
+## 1. De lidstaten verlenen vrijstelling voor de volgende handelin- gen:
 
 a) goederenleveringen en diensten verricht in het kader van de diplomatieke en consulaire betrekkingen;
 
@@ -1867,37 +1091,9 @@ c) goederenleveringen en diensten verricht in de lidstaten die partij zijn bij h
 
 d) goederenleveringen en diensten verricht voor een andere lidstaat, bestemd voor de strijdkrachten van andere staten die partij zijn bij het Noord-Atlantische Verdrag dan de lidstaat van bestemming zelf, ten behoeve van deze strijdkrachten of het hen begeleidende burgerpersoneel of voor de bevoorrading van hun messes of kantines, voor zover deze strijdkrachten deelnemen aan de gemeenschap- pelijke defensie-inspanning;
 
-ten behoeve van de strijdkrachten of het hen begeleidende burgerpersoneel of voor de bevoorrading van hun messes of kantines.
-
-De in de eerste alinea geregelde vrijstellingen zijn van toepassing met inachtneming van de door de lidstaat van ontvangst vastgestelde beperkingen, totdat een uniforme belastingregeling is vastgesteld.
-
-2. Voor goederen die niet worden verzonden of vervoerd naar een plaats buiten de lidstaat waar de levering van deze goederen wordt verricht, evenals voor diensten, kan de vrijstelling worden verleend in de vorm van teruggaaf van de BTW.
-
-###### Artikel 152
-
-De lidstaten verlenen vrijstelling voor de levering van goud aan de centrale banken.
-
-Vrijstellingen voor door tussenpersonen verrichte diensten
-
-###### Artikel 153
-
-De lidstaten verlenen vrijstelling voor de diensten van tussen- personen die handelen in naam en voor rekening van derden, wanneer hun diensten betrekking hebben op de in de hoofd- stukken 6, 7 en 8 bedoelde handelingen of op buiten de Gemeenschap verrichte handelingen.
-
-De in de eerste alinea bedoelde vrijstelling is niet van toepassing op reisbureaus wanneer zij in naam en voor rekening van de reiziger diensten verrichten die in andere lidstaten plaatsvinden.
-
-Vrijstellingen voor handelingen met betrekking tot het internationale goederenverkeer
-
-Douane- en andere entrepots en soor tgelijke regelingen
-
-###### Artikel 154
-
-Voor de toepassing van deze afdeling worden onder andere entrepots dan douane-entrepots verstaan, wat accijnsproducten betreft, de als belastingentrepots in de zin van artikel 4, onder b), van Richtlijn 92/12/EEG aangemerkte plaatsen, en wat andere goederen dan accijnsproducten betreft, de als zodanig door de lidstaten aangemerkte plaatsen.
-
-###### Artikel 155
-
 ###### Artikel 156
 
-1. De lidstaten kunnen vrijstelling verlenen voor de volgende handelingen:
+## 1. De lidstaten kunnen vrijstelling verlenen voor de volgende handelingen:
 
 a) de levering van goederen die bestemd zijn om bij de douane te worden aangebracht en, in voorkomend geval, in tijdelijke opslag te worden geplaatst;
 
@@ -1913,7 +1109,7 @@ e) de levering van goederen die bestemd zijn om in de territoriale zee te worden
 
 ###### Artikel 157
 
-1. De lidstaten kunnen vrijstelling verlenen voor de volgende handelingen:
+## 1. De lidstaten kunnen vrijstelling verlenen voor de volgende handelingen:
 
 a) de invoer van goederen die onder een ander stelsel van entrepots dan dat van douane-entrepots worden geplaatst;
 
@@ -1926,34 +1122,6 @@ b) de levering van goederen die op hun grondgebied onder een ander stelsel van e
 1. In afwijking van artikel 157, lid 2, kunnen de lidstaten in de volgende gevallen een ander stelsel van entrepots dan dat van douane-entrepots invoeren:
 
 a) indien de goederen bestemd zijn voor verkooppunten voor belastingvrije verkoop, met het oog op de levering van goederen welke worden meegenomen in de persoonlijke bagage van reizigers die zich door middel van een vlucht of zeereis naar een derdelandsgebied of een derde land begeven, wanneer die levering overeenkomstig artikel 146, lid 1, punt b), is vrijgesteld;
-
-vliegtuig of schip tijdens een vlucht of zeereis waarvan de plaats van aankomst buiten de Gemeenschap is gelegen;
-
-c) indien de goederen bestemd zijn voor belastingplichtigen, met het oog op leveringen die worden verricht met vrijstelling van BTW overeenkomstig artikel 151.
-
-2. Indien de lidstaten gebruik maken van de in lid 1, punt a), bedoelde mogelijkheid tot vrijstelling, treffen zij de nodige maatregelen om een juiste en eenvoudige toepassing van deze vrijstelling te verzekeren en elke vorm van fraude, ontwijking en misbruik te voorkomen.
-
-3. Voor de toepassing van lid 1, punt a), wordt onder „ verkooppunt voor belastingvrije verkoop ” verstaan elke in een luchthaven of haven gelegen inrichting die aan de door de bevoegde overheidsinstanties gestelde voorwaarden voldoet.
-
-###### Artikel 159
-
-De lidstaten kunnen vrijstelling verlenen voor de diensten die samenhangen met de in artikel 156, artikel 1527 lid 1, onder b), en artikel 158 bedoelde goederenleveringen.
-
-###### Artikel 160
-
-1. De lidstaten kunnen vrijstelling verlenen voor de volgende handelingen:
-
-a) goederenleveringen en diensten verricht op de in arti- kel 156, lid 1, genoemde plaatsen met handhaving op hun grondgebied van een van de in dat lid genoemde situaties;
-
-b) goederenleveringen en diensten verricht op de in artikel 157, lid 1, onder b), en artikel 158 genoemde plaatsen met handhaving op hun grondgebied van een van de in artikel 157, lid 1, onder b), of in artikel 158, lid 1, genoemde situaties.
-
-2. De lidstaten die voor handelingen die in een douane- entrepot worden verricht, gebruikmaken van de in lid 1, punt a), bepaalde mogelijkheid, nemen de nodige maatregelen om te voorzien in andere stelsels van entrepots dan dat van douane- entrepots die de toepassing van lid 1, punt b), mogelijk maken op dezelfde handelingen met betrekking tot in bijlage V opgenomen goederen, welke in die andere entrepots dan douane-entrepots worden verricht.
-
-###### Artikel 161
-
-De lidstaten kunnen vrijstelling verlenen voor de volgende goederenleveringen en de daarop betrekking hebbende diensten:
-
-a) de levering van goederen bedoeld in artikel 30, eerste alinea, die nog onderworpen zijn aan een regeling voor tijdelijke invoer met volledige vrijstelling van invoerrechten of aan een regeling voor extern douanevervoer;
 
 ###### Artikel 162
 
@@ -1979,39 +1147,9 @@ b) de diensten in verband met de uitvoeractiviteit van de betreffende belastingp
 
 De lidstaten kunnen een gemeenschappelijke grens vaststellen voor het bedrag van de vrijstellingen die zij op grond van artikel 164 verlenen.
 
-Gemeenschappelijke bepaling met betrekking tot de afdelingen 1 en 2
+## Gemeenschappelijke bepaling met betrekking tot de afdelingen 1 en 2
 
 ###### Artikel 166
-
-AFTREK
-
-Ontstaan en omvang van het recht op aftrek
-
-###### Artikel 167
-
-Het recht op aftrek ontstaat op het tijdstip waarop de aftrekbare belasting verschuldigd wordt.
-
-###### Artikel 168
-
-Voor zover de goederen en diensten worden gebruikt voor de belaste handelingen van een belastingplichtige, is deze gerechtigd in de lidstaat waar hij deze handelingen verricht, van het door hem verschuldigde belastingbedrag de volgende bedragen af te trekken:
-
-a) de BTW die in die lidstaat verschuldigd of voldaan is voor de goederenleveringen of de diensten die een andere belastingplichtige voor hem heeft verricht;
-
-b) de BTW die verschuldigd is voor overeenkomstig artikel 18, punt a), en artikel 27 met goederenleveringen of met diensten gelijkgestelde handelingen;
-
-c) de BTW die verschuldigd is voor de intracommunautaire verwervingen van goederen overeenkomstig artikel 2, lid 1, onder b), punt i);
-
-d) de BTW die verschuldigd is voor overeenkomstig de artikelen 21 en 22 met intracommunautaire verwerving gelijkgestelde handelingen;
-
-e) de BTW die verschuldigd of voldaan is voor de in die lidstaat ingevoerde goederen.
-
-###### Artikel 169
-
-Naast de in artikel 168 bedoelde aftrek heeft de belastingplichtige recht op aftrek van de in dat artikel bedoelde BTW, voorzover de goederen en de diensten worden gebruikt voor de volgende handelingen:
-
-a) door de belastingplichtige buiten de lidstaat waar de belasting verschuldigd of voldaan is verrichte handelingen in verband met de in artikel 9, lid 1, tweede alinea, bedoelde werkzaamheden, waarvoor recht op aftrek zou ontstaan indien zij in die lidstaat zouden zijn verricht;
-
-b) door de belastingplichtige verrichte handelingen waarvoor overeenkomstig de artikelen 138, 142 en 144, de artikelen 146 tot en met 149, de artikelen 151, 152, 153 en 156, artikel 157, lid 1, onder b), de artikelen 158 tot en met 161 en artikel 164 vrijstelling is verleend;
 
 ###### Artikel 170
 
@@ -2033,35 +1171,9 @@ De in artikel 1 van Richtlijn 86/560/EEG bedoelde belasting- plichtigen die in d
 
 3. De Richtlijnen 79/1072/EEG en 86/560/EEG zijn niet van toepassing op goederenleveringen waarvoor krachtens artikel 138 vrijstelling is verleend of kan worden verleend indien de aldus geleverde goederen door of voor rekening van de afnemer worden verzonden of vervoerd.
 
-###### Artikel 172
-
-1. Eenieder die als belastingplichtige wordt beschouwd op grond van het feit dat hij incidenteel de levering van een nieuw vervoermiddel verricht onder de in artikel 138, lid 1 en lid 2, onder a), gestelde voorwaarden is gerechtigd, in de lidstaat waar de levering wordt verricht, de BTW die in de aankoopprijs begrepen is of die wegens de invoer of de intracommunautaire verwerving van het vervoermiddel voldaan, af te trekken binnen de grenzen of ten belope van het bedrag van de belasting dat hij verschuldigd zou zijn indien voor de levering geen vrijstelling gold.
-
-Het recht op aftrek ontstaat pas en kan pas worden uitgeoefend op het tijdstip van de levering van het nieuwe vervoermiddel.
-
-2. De lidstaten stellen nadere regels voor de toepassing van lid 1 vast.
-
-Evenredige aftrek
-
-###### Artikel 173
-
-1. Voor goederen en diensten die door een belastingplichtige zowel worden gebruikt voor de in de artikelen 168, 169 en 170 bedoelde handelingen, waarvoor recht op aftrek bestaat, als voor handelingen waarvoor geen recht op aftrek bestaat, wordt aftrek slechts toegestaan voor het gedeelte van de BTW dat evenredig is aan het bedrag van de eerstbedoelde handelingen (evenredige aftrek).
-
-Het aftrekbare gedeelte wordt overeenkomstig de artikelen 174 en 175 bepaald voor het totaal van de door de belastingplichtige verrichte handelingen.
-
-2. De lidstaten kunnen de volgende maatregelen nemen:
-
-a) de belastingplichtige toestaan een aftrekbaar gedeelte te bepalen voor iedere sector van zijn bedrijfsuitoefening, indien voor ieder van deze sectoren een aparte boekhou- ding wordt gevoerd;
-
-b) de belastingplichtige verplichten voor iedere sector van zijn bedrijfsuitoefening een aftrekbaar gedeelte te bepalen en voor ieder van deze sectoren een aparte boekhouding te voeren;
-
-c) de belastingplichtige toestaan of ertoe verplichten de aftrek toe te passen volgens het gebruik van de goederen en diensten of van een deel daarvan;
-
-d) de belastingplichtige toestaan of ertoe verplichten de aftrek toe te passen volgens de in lid 1, eerste alinea, vastgestelde regel voor alle goederen en diensten die zijn gebruikt voor alle daarin bedoelde handelingen;
-
 ###### Artikel 174
 
-1. Het aftrekbare gedeelte is de uitkomst van een breuk, waarvan:
+## 1. Het aftrekbare gedeelte is de uitkomst van een breuk, waarvan:
 
 a) de teller bestaat uit het totale bedrag van de per jaar berekende omzet, de BTW niet inbegrepen, met betrekking tot handelingen waarvoor overeenkomstig de artikelen 168 en 169 recht op aftrek bestaat, en
 
@@ -2086,32 +1198,6 @@ c) de omzet met betrekking tot de in artikel 135, lid 1, punten b) tot en met g)
 2. De voorlopige aftrek voor een bepaald jaar is gelijk aan de aftrek die op grond van de handelingen van het voorgaande jaar is berekend. Indien een dergelijke basis ontbreekt of niet relevant is, wordt de aftrek door de belastingplichtige onder toezicht van de belastingdiensten aan de hand van zijn eigen prognoses voorlopig geraamd.
 
 De lidstaten kunnen evenwel hun op 1 januari 1979 geldende regeling dan wel, voor de lidstaten die na die datum tot de Gemeenschap zijn toegetreden, hun op de datum van hun toetreding geldende regeling handhaven.
-
-Beperkingen van het recht op aftrek
-
-###### Artikel 170
-
-De Raad bepaalt op voorstel van de Commissie met eenparigheid van stemmen voor welke uitgaven geen recht op aftrek van de BTW bestaat. In ieder geval zijn uitgaven zonder strikt profes- sioneel karakter, zoals weelde-uitgaven en uitgaven voor ont- spanning of representatie, van het recht op aftrek uitgesloten.
-
-Totdat de in de eerste alinea bedoelde bepalingen in werking treden, kunnen de lidstaten elke uitsluiting handhaven waarin hun wetgeving op 1 januari 1979 dan wel, voor de lidstaten die na die datum tot de Gemeenschap zijn toegetreden, op de datum van hun toetreding voorzag.
-
-###### Artikel 177
-
-Na raadpleging van het BTW-Comité kan elke lidstaat om conjuncturele redenen investeringsgoederen of andere goederen geheel of gedeeltelijk van de aftrekregeling uitsluiten.
-
-Teneinde gelijke mededingingsvoorwaarden te behouden, kun- nen de lidstaten in plaats van de aftrek te weigeren, de door de belastingplichtige zelf vervaardigde of door hem in de Gemeen- schap aangekochte dan wel door hem ingevoerde gelijksoortige goederen zodanig belasten dat deze belasting het bedrag van de BTW op de verwerving van soortgelijke goederen niet overschrijdt.
-
-Wijze van uitoefening van het recht op aftrek
-
-###### Artikel 178
-
-Om zijn recht op aftrek te kunnen uitoefenen, moet de belastingplichtige aan de volgende voorwaarden voldoen:
-
-a) voor de in artikel 168, punt a), bedoelde aftrek met betrekking tot goederenleveringen en diensten: in het bezit zijn van een overeenkomstig de artikelen 220 tot en met 236 en de artikelen 238, 239 en 240 opgestelde factuur;
-
-b) voor de in artikel 168, punt b), bedoelde aftrek met betrekking tot met goederenleveringen en diensten gelijk- gestelde handelingen: de door elke lidstaat voorgeschreven formaliteiten vervullen;
-
-c) voor de in artikel 168, punt c), bedoelde aftrek met betrekking tot intracommunautaire verwerving van goede- ren: op de in artikel 250 bedoelde BTW-aangifte alle gegevens hebben vermeld die nodig zijn om het bedrag van de wegens zijn verwerving van goederen verschuldigde BTW vast te stellen, en in het bezit zijn van een overeenkomstig de artikelen 220 tot en met 236 opgestelde factuur;
 
 e) voor de in artikel 168, punt e), bedoelde aftrek met betrekking tot invoer van goederen: in het bezit zijn van een document waaruit de invoer blijkt en waarin hij wordt aangeduid als degene voor wie de invoer bestemd is of als de importeur, en waarin het bedrag van de verschuldigde BTW wordt vermeld of op grond waarvan dat bedrag kan worden berekend;
 
@@ -2141,41 +1227,9 @@ Indien voor een bepaald belastingtijdvak het bedrag van de aftrek groter is dan 
 
 De lidstaten kunnen evenwel bepalen dat het bedrag van het overschot niet naar een volgend tijdvak wordt overgebracht, of niet wordt teruggegeven, indien dit bedrag onbeduidend is.
 
-Herziening van de aftrek
+## Herziening van de aftrek
 
 ###### Artikel 184
-
-###### Artikel 185
-
-1. De herziening vindt met name plaats indien zich na de BTW-aangifte wijzigingen hebben voorgedaan in de elementen die voor het bepalen van het bedrag van de aftrek in aanmerking zijn genomen, bijvoorbeeld in geval van geannuleerde aankopen of verkregen rabatten.
-
-2. In afwijking van lid 1 vindt geen herziening plaats voor handelingen die geheel of gedeeltelijk onbetaald zijn gebleven, in geval van naar behoren bewezen en aangetoonde vernietiging, verlies of diefstal, alsmede in geval van de in artikel 16 bedoelde onttrekking voor het verstrekken van geschenken van geringe waarde en van monsters.
-
-In geval van geheel of gedeeltelijk onbetaald gebleven handelin- gen en in geval van diefstal, kunnen de lidstaten evenwel herziening eisen.
-
-###### Artikel 186
-
-De lidstaten stellen nadere regels voor de toepassing van de artikelen 184 en 185 vast.
-
-###### Artikel 187
-
-1. Voor investeringsgoederen wordt de herziening gespreid over een periode van vijf jaar, het jaar van verkrijging of vervaardiging der goederen daaronder begrepen.
-
-De lidstaten kunnen evenwel de herziening baseren op een periode van vijf volle jaren te rekenen vanaf de ingebruikneming van de goederen.
-
-Voor onroerende investeringsgoederen kan de herzienings- periode tot maximaal twintig jaar worden verlengd.
-
-2. Voor elk jaar heeft de herziening slechts betrekking op eenvijfde deel, of, indien de herzieningsperiode is verlengd, op het overeenkomstige gedeelte van de BTW op de investerings- goederen.
-
-De in de eerste alinea bedoelde herziening geschiedt op basis van de wijzigingen in het recht op aftrek die zich in de loop van de volgende jaren ten opzichte van het jaar van verkrijging, vervaardiging of, in voorkomend geval, eerste gebruik van de goederen hebben voorgedaan.
-
-###### Artikel 188
-
-1. Investeringsgoederen die gedurende de herzieningsperiode worden geleverd, worden tot het verstrijken van de herzienings- periode beschouwd als investeringsgoederen die voor een economische activiteit van de belastingplichtige worden gebruikt.
-
-De economische activiteit wordt geacht volledig belast te zijn indien de levering van het investeringsgoed belast is.
-
-De economische activiteit wordt geacht volledig vrijgesteld te zijn indien de levering van het investeringsgoed vrijgesteld is.
 
 de afnemer een belastingplichtige is die de betrokken investe- ringsgoederen uitsluitend gebruikt voor handelingen waarvoor de BTW in aftrek mag worden gebracht.
 
@@ -2205,41 +1259,11 @@ Bij overgang van een normale belastingregeling naar een bijzondere regeling, of 
 
 VERPLICHTINGEN VAN DE BELASTINGPLICHTIGEN EN VAN BEPAALDE NIET – BELASTINGPLICHTIGE PERSONEN
 
-Verplichting tot betaling
+## Verplichting tot betaling
 
-Tegenover de schatkist tot voldoening van de belasting gehouden personen
+## Tegenover de schatkist tot voldoening van de belasting gehouden personen
 
 ###### Artikel 193
-
-###### Artikel 194
-
-1. In het geval dat de belastbare goederenlevering of de belastbare dienst wordt verricht door een belastingplichtige die niet gevestigd is in de lidstaat waar de BTW verschuldigd is, kunnen de lidstaten bepalen dat de tot voldoening van de belasting gehouden persoon degene is voor wie de goederenleve- ring of de dienst wordt verricht.
-
-2. De lidstaten stellen de voorwaarden voor de toepassing van lid 1 vast.
-
-###### Artikel 195
-
-De BTW is verschuldigd door de voor BTW-doeleinden in de lidstaat waar de belasting verschuldigd is geïdentificeerde afnemer aan wie de goederen worden geleverd onder de in de artikelen 38 of 39 bepaalde voorwaarden, wanneer deze leveringen worden verricht door een niet in die lidstaat gevestigde belastingplichtige.
-
-###### Artikel 196
-
-De BTW is verschuldigd door de belastingplichtige afnemer van een in artikel 56 bedoelde dienst, of door de voor BTW- doeleinden in de lidstaat waar de belasting verschuldigd is geïdentificeerde afnemer van een onder de artikelen 44, 47, 50, 53, 54 en 55 vallende dienst wanneer de dienst door een niet in die lidstaat gevestigde belastingplichtige wordt verricht.
-
-###### Artikel 197
-
-1. De BTW is verschuldigd door degene voor wie de goederenlevering bestemd is wanneer aan de volgende voor- waarden vervuld zijn:
-
-a) de belastbare handeling is een goederenlevering die onder de voorwaarden van artikel 141 wordt verricht;
-
-b) degene voor wie de levering bestemd is, is een andere belastingplichtige of een niet-belastingplichtige rechtsper- soon, die voor BTW-doeleinden is geïdentificeerd in de lidstaat waar de levering wordt verricht;
-
-c) de factuur welke is uitgereikt door de belastingplichtige die niet gevestigd is in de lidstaat van degene voor wie de levering bestemd is, is opgesteld overeenkomstig de artikelen 220 tot en met 236.
-
-2. In het geval dat overeenkomstig artikel 204 een fiscaal vertegenwoordiger wordt aangewezen als de tot voldoening van de belasting gehouden persoon, kunnen de lidstaten een afwijking van lid 1 van dit artikel toestaan.
-
-###### Artikel 198
-
-1. Wanneer uit hoofde van artikel 344 belasting wordt geheven over specifieke handelingen met betrekking tot beleggingsgoud tussen een lid van een gereglementeerde goudmarkt en een andere belastingplichtige die geen lid is van die markt, wijzen de lidstaten de afnemer aan als de tot voldoening van de belasting gehouden persoon.
 
 identificeren in de lidstaat waar de belasting verschuldigd is, vervult de verkoper de fiscale verplichtingen namens de afnemer, overeenkomstig de voorschriften van die lidstaat.
 
@@ -2267,35 +1291,7 @@ g) de levering van onroerend goed dat in een openbare verkoop op grond van een e
 
 2. Wanneer zij gebruik maken van de mogelijkheid die lid 1 biedt, kunnen de lidstaten de goederenleveringen en diensten die eronder vallen, omschrijven, alsook de categorieën van leveran- ciers en dienstverrichters of afnemers waarop deze maatregelen van toepassing kunnen zijn.
 
-3. Voor de toepassing van lid 1 kunnen de lidstaten de volgende maatregelen nemen:
-
-goederen of diensten overeenkomstig artikel 2 worden beschouwd, voor alle in lid 1 bedoelde voor hem verrichte diensten als belastingplichtige wordt aangemerkt;
-
-b) bepalen dat een niet-belastingplichtige publiekrechtelijke instelling met betrekking tot de overeenkomstig lid 1, punten e), f) en g) afgenomen goederenleveringen of diensten als belastingplichtige wordt aangemerkt.
-
-4. De lidstaten stellen het BTW-Comité in kennis van de nationale maatregelen die zij uit hoofde van lid 1 hebben genomen indien het geen maatregelen betreft die voor 13 augustus 2006 door de Raad overeenkomstig artikel 27, leden 1 tot en met 4, van Richtlijn 77/388/EEG zijn toegestaan en uit hoofde van die bepaling worden verlengd.
-
-###### Artikel 200
-
-De BTW is verschuldigd door eenieder die een belastbare intracommunautaire verwerving van goederen verricht.
-
-###### Artikel 201
-
-Bij invoer is de BTW verschuldigd door degene(n) die de lidstaat van invoer als de tot voldoening van de belasting gehouden personen heeft aangewezen of erkend.
-
-###### Artikel 202
-
-De BTW is verschuldigd door degene door wiens toedoen de goederen worden onttrokken aan de in de artikelen 156, 157, 158, 160 en 161 genoemde regelingen of situaties.
-
-###### Artikel 203
-
-De BTW is verschuldigd door eenieder die deze belasting op een factuur vermeldt.
-
-###### Artikel 204
-
-1. Wanneer bij de toepassing van de artikelen 193 tot en met 197 en de artikelen 199 en 200 de tot voldoening van de belasting gehouden persoon een belastingplichtige is die niet is gevestigd in de lidstaat waar de BTW verschuldigd is, kunnen de lidstaten hem de mogelijkheid geven een fiscaal vertegenwoor- diger aan te wijzen als tot voldoening van de belasting gehouden persoon.
-
-In het geval dat de belastbare handeling wordt verricht door een belastingplichtige die niet in de lidstaat is gevestigd waar de BTW verschuldigd is, en er met het land van het hoofdkantoor of de vestiging van deze belastingplichtige geen rechtsinstrument inzake wederzijdse bijstand bestaat waarvan de strekking gelijk is aan die van Richtlijn 76/308/EEG ( 1 ) en
+## 3. Voor de toepassing van lid 1 kunnen de lidstaten de volgende maatregelen nemen:
 
 Verordening (EG) nr. 1798/2003 ( 1 ), kunnen de lidstaten bepalen dat een door deze belastingplichtige aangewezen fiscaal verte- genwoordiger tot voldoening van de belasting wordt gehouden.
 
@@ -2307,7 +1303,7 @@ De lidstaten kunnen de in de tweede alinea bedoelde mogelijk- heid echter niet t
 
 In de in de artikelen 193 tot en met 200 en 202, 203 en 204 bedoelde situaties kunnen de lidstaten bepalen dat een andere persoon dan degene die tot voldoening van de belasting is gehouden, hoofdelijk verplicht is de BTW te voldoen.
 
-Wijze van bet aling
+## Wijze van bet aling
 
 ###### Artikel 206
 
@@ -2322,38 +1318,6 @@ De lidstaten treffen voorts de nodige maatregelen opdat de personen die overeenk
 ###### Artikel 208
 
 De lidstaten die overeenkomstig artikel 198, lid 1, de afnemer van beleggingsgoud als de tot voldoening van de belasting gehouden persoon aanwijzen of gebruik maken van de in artikel 198, lid 2, geboden mogelijkheid om de afnemer van goud, halffabrikaten of beleggingsgoud als omschreven in artikel 344, lid 1, als de tot voldoening van de belasting gehouden persoon aan te wijzen, treffen de nodige maatregelen opdat die afnemer de in deze afdeling vastgestelde betalings- verplichtingen nakomt.
-
-###### Artikel 209
-
-De lidstaten treffen de nodige maatregelen opdat niet-belasting- plichtige rechtspersonen die gehouden zijn tot voldoening van de belasting welke verschuldigd is wegens de in artikel 2, lid 1, onder b), punt i), bedoelde intracommunautaire verwerving van goederen, de in deze afdeling vastgestelde betalingsverplichtingen nakomen.
-
-###### Artikel 210
-
-De lidstaten stellen nadere regels vast met betrekking tot de betaling ter zake van de in artikel 2, lid 1, onder b), punt ii), bedoelde intracommunautaire verwerving van nieuwe vervoer- middelen en de in artikel 2, lid 1, onder b), punt iii), bedoelde intracommunautaire verwerving van accijnsproducten.
-
-###### Artikel 211
-
-De lidstaten stellen nadere regels vast met betrekking tot de betaling ter zake van de invoer van goederen.
-
-De lidstaten kunnen in het bijzonder bepalen dat met betrekking tot de invoer van goederen die wordt verricht door belasting- plichtigen of tot betaling van de belasting gehouden personen, of door bepaalde categorieën daarvan, de wegens de invoer verschuldigde BTW niet hoeft te worden betaald op het tijdstip van de invoer, mits deze belasting als zodanig wordt vermeld in de overeenkomstig artikel 250 opgestelde BTW-aangifte.
-
-###### Artikel 212
-
-De lidstaten kunnen de belastingplichtigen vrijstellen van de betaling van de verschuldigde BTW wanneer het bedrag daarvan onbeduidend is.
-
-Identificatie
-
-###### Artikel 213
-
-1. Iedere belastingplichtige moet opgave doen van het begin, de wijziging en de beëindiging van zijn activiteit als belasting- plichtige.
-
-De lidstaten staan onder door hen vast te stellen voorwaarden toe dat de aangifte langs elektronische weg geschiedt en kunnen dit ook verplicht stellen.
-
-2. Onverminderd lid 1, eerste alinea, moet iedere belasting- plichtige of niet-belastingplichtige rechtspersoon die intracom- munautaire verwervingen van goederen verricht welke niet op grond van artikel 3, lid 1, aan de BTW zijn onderworpen, melden dat hij dergelijke verwervingen verricht, indien de in dat artikel gestelde voorwaarden om deze verwervingen niet aan de BTW te onderwerpen niet meer vervuld zijn.
-
-###### Artikel 214
-
-1. De lidstaten treffen de nodige maatregelen voor de identificatie onder een individueel nummer van de volgende personen:
 
 goederenleveringen of diensten verricht welke recht op aftrek doen ontstaan, andere dan de goederenleveringen of de diensten waarvoor overeenkomstig de artikelen 194 tot en met 197 en artikel 199 uitsluitend de afnemer of degene voor wie de goederen of de diensten bestemd zijn, de BTW verschuldigd is;
 
@@ -2373,49 +1337,17 @@ Griekenland is evenwel gerechtigd het prefix EL te hanteren.
 
 De lidstaten treffen de nodige maatregelen opdat hun identifica- tiesysteem de in artikel 214 bedoelde belastingplichtigen kan onderscheiden en aldus de juiste toepassing van de in artikel 402 bedoelde overgangsregeling voor de belastingheffing op intra- communautaire handelingen verzekert.
 
-Facturering
+## Facturering
 
-Def initie
+## Def initie
 
 ###### Artikel 217
 
 Voor de toepassing van dit hoofdstuk wordt onder „ langs elektronische weg verzenden ” verstaan het verzenden of ter beschikking stellen van gegevens aan de geadresseerde door middel van elektronische apparatuur voor gegevensverwerking (inclusief digitale compressie) en gegevensopslag, met gebruik- making van draden, radio, optische of andere elektromagnetische middelen.
 
-Het beg r ip factuur
+## Het beg r ip factuur
 
 ###### Artikel 218
-
-formaat dat aan de in dit hoofdstuk vastgestelde voorwaarden voldoet.
-
-###### Artikel 219
-
-Ieder document of bericht dat wijzigingen aanbrengt in en specifiek en ondubbelzinnig verwijst naar de oorspronkelijke factuur, geldt als factuur.
-
-Uitreiking van facturen
-
-###### Artikel 220
-
-Iedere belastingplichtige zorgt ervoor dat door hemzelf, door de afnemer of, in zijn naam en voor zijn rekening, door een derde, in de volgende gevallen een factuur wordt uitgereikt:
-
-1) de goederenleveringen of de diensten die hij heeft verricht voor een andere belastingplichtige of een niet-belasting- plichtige rechtspersoon;
-
-2) de in artikel 33 bedoelde levering van goederen;
-
-3) de levering van goederen, verricht onder de in artikel 138 gestelde voorwaarden;
-
-4) de vooruitbetalingen die aan hem worden gedaan voordat een van de in de punten 1), 2) en 3) bedoelde leveringen van goederen is verricht;
-
-5) de vooruitbetalingen die door een andere belastingplichtige of door een niet-belastingplichtige rechtspersoon aan hem worden gedaan voordat de dienst is verricht.
-
-###### Artikel 221
-
-1. De lidstaten kunnen de belastingplichtige de verplichting opleggen een factuur uit te reiken voor andere dan de in artikel 220 bedoelde goederenleveringen of diensten die hij op hun grondgebied heeft verricht.
-
-De lidstaten kunnen voor de in de eerste alinea bedoelde facturen minder verplichtingen opleggen dan die welke in de artike- len 226, 230, 233, 244 en 246 zijn opgenomen.
-
-2. De lidstaten kunnen de belastingplichtige van de in artikel 220 vastgestelde factureringsplicht ontheffen voor de op hun grondgebied verrichte goederenleveringen of diensten die, al dan niet met recht op aftrek van voorbelasting, overeenkomstig de artikelen 110 en 111, artikel 125, lid 1, artikel 127, artikel 128, lid 1, de artikelen 132, 135, 136, 371, 375, 376 en 377, artikel 378, lid 2, artikel 379, lid 2, en de artikelen 380 tot en met 390 vrijgesteld zijn.
-
-###### Artikel 222
 
 ###### Artikel 223
 
@@ -2435,7 +1367,7 @@ De in de eerste alinea bedoelde voorwaarden moeten in ieder geval altijd dezelfd
 
 De lidstaten kunnen de belastingplichtigen die op hun grond- gebied goederenleveringen of diensten verrichten, specifieke voorwaarden opleggen in het geval dat de derde, of de afnemer, die de facturen uitreikt, gevestigd is in een land waarmee geen rechtsinstrument inzake wederzijdse bijstand bestaat waarvan de strekking gelijk is aan die van Richtlijn 76/308/EEG en Verordening (EG) nr. 1798/2003.
 
-Inhoud van de facturen
+## Inhoud van de facturen
 
 ###### Artikel 226
 
@@ -2444,32 +1376,6 @@ Onverminderd de bijzondere bepalingen van deze richtlijn zijn voor BTW-doeleinde
 1) de datum van uitreiking van de factuur;
 
 2) een opeenvolgend nummer, met één of meer reeksen, waardoor de factuur eenduidig wordt geïdentificeerd;
-
-4) het in artikel 214 bedoelde BTW-identificatienummer van de afnemer waaronder hij een goederenlevering of een dienst heeft afgenomen waarvoor hij tot voldoening van de belasting is gehouden of waaronder hij een in artikel 138 bedoelde goederenlevering heeft afgenomen;
-
-5) de volledige naam en het volledige adres van de belasting- plichtige en zijn afnemer;
-
-6) de hoeveelheid en de aard van de geleverde goederen of de omvang en de aard van de verrichte diensten;
-
-7) de datum waarop de goederenlevering of de dienst heeft plaatsgevonden of voltooid is of de datum waarop de in artikel 220, punten 4) en 5), bedoelde vooruitbetaling is gedaan, voor zover die datum vastgesteld is en verschilt van de uitreikingsdatum van de factuur;
-
-8) de maatstaf van heffing voor elk tarief of elke vrijstelling, de eenheidsprijs, BTW niet inbegrepen, evenals de eventuele vooruitbetalingskortingen, prijskortingen en -rabatten indien die niet in de eenheidsprijs zijn begrepen;
-
-9) het toegepaste BTW-tarief;
-
-10) het te betalen BTW-bedrag, tenzij er een bijzondere regeling van toepassing is waarvoor deze richtlijn die vermelding uitsluit;
-
-11) in geval van een vrijstelling of wanneer de afnemer tot voldoening van de belasting is gehouden, een verwijzing naar de toepasselijke bepaling in deze richtlijn of naar de overeenkomstige nationale bepaling of enige andere vermelding dat de goederenlevering of de diensten zijn vrijgesteld of onder de toepassing van de verleggings- regeling vallen;
-
-12) in geval van levering van een nieuw vervoermiddel onder de in artikel 138, lid 1 en lid 2, onder a), gestelde voorwaarden, de in artikel 2, lid 2, tweede alinea, bedoelde gegevens;
-
-13) wanneer de bijzondere regeling voor reisbureaus wordt gehanteerd, een verwijzing naar artikel 306 of de overeenkomstige nationale bepalingen of enige andere vermelding dat deze regeling is toegepast;
-
-14) wanneer een van de bijzondere regelingen voor gebruikte goederen, kunstvoorwerpen, voorwerpen voor verzamelin- gen of antiquiteiten wordt gehanteerd, een verwijzing naar artikel 313, artikel 326 of artikel 333, of de overeenkom- stige nationale bepalingen of enige andere vermelding dat een van deze regelingen is toegepast;
-
-15) wanneer degene die tot voldoening van de belasting gehouden is, een fiscaal vertegenwoordiger is in de zin van artikel 204, het in artikel 214 bedoelde BTW- identificatienummer van deze fiscaal vertegenwoordiger, samen met zijn volledige naam en adres.
-
-###### Artikel 227
 
 bedoelde gevallen het in artikel 214 bedoelde BTW-identificatie- nummer van hun afnemer te vermelden.
 
@@ -2497,7 +1403,7 @@ Ter controle kunnen de lidstaten een vertaling eisen in hun nationale taal van d
 
 De lidstaten mogen de belastingplichtigen die op hun grond- gebied goederenleveringen of diensten verrichten, geen andere verplichtingen of formaliteiten opleggen betreffende het gebruik van een systeem voor elektronische verzending of terbeschik- kingstelling van facturen.
 
-Verzenden van facturen langs elektronische weg
+## Verzenden van facturen langs elektronische weg
 
 ###### Artikel 232
 
@@ -2515,17 +1421,7 @@ a) een geavanceerde elektronische handtekening in de zin van artikel 2, punt 2),
 
 b) een elektronische uitwisseling van gegevens (EDI), zoals gedefinieerd in artikel 2 van Aanbeveling 1994/820/EG van de Commissie van 19 oktober 1994 betreffende de juridische aspecten van de elektronische uitwisseling van gegevens ( 2 ), wanneer het akkoord betreffende deze uit- wisseling in het gebruik van procedures voorziet die de
 
-authenticiteit van de oorsprong en de integriteit van de gegevens waarborgen.
-
-###### Artikel 234
-
-###### Artikel 235
-
-###### Artikel 236
-
-###### Artikel 237
-
-Vereenvoudigingsmaatregelen
+## Vereenvoudigingsmaatregelen
 
 ###### Artikel 238
 
@@ -2535,7 +1431,7 @@ a) wanneer het bedrag van de factuur onbeduidend is;
 
 b) wanneer de handels- of administratieve praktijken van de betrokken bedrijfssector of de technische voorwaarden waaronder die facturen uitgereikt worden, de naleving van alle in de artikelen 226 en 230 bedoelde verplichtingen bemoeilijken.
 
-2. De facturen moeten in ieder geval de volgende vermeldingen bevatten:
+## 2. De facturen moeten in ieder geval de volgende vermeldingen bevatten:
 
 a) de datum van uitreiking van de factuur;
 
@@ -2554,32 +1450,6 @@ Ingeval de lidstaten gebruikmaken van de in artikel 272, lid 1, eerste alinea, p
 ###### Artikel 240
 
 Wanneer het BTW-identificatienummer aan de belastingplichtige is toegekend, kunnen de lidstaten die van de in artikel 272, lid 1, eerste alinea, punt b), bedoelde mogelijkheid gebruik maken, bovendien bepalen dat op de factuur het volgende wordt vermeld:
-
-2) voor andere goederenleveringen of diensten alleen het fiscaal registratienummer van de verrichter van de goederenleveringen of de diensten, dan wel alleen het BTW-identificatienummer.
-
-Boekhouding
-
-Def initie
-
-###### Artikel 241
-
-Voor de toepassing van dit hoofdstuk wordt onder „ bewaren van een factuur langs elektronische weg ” verstaan, het bewaren van gegevens door middel van elektronische apparatuur voor gegevensverwerking (inclusief digitale compressie) en gegevens- opslag, met gebruikmaking van draden, radio, optische of andere elektromagnetische middelen.
-
-Algemene ver plichtingen
-
-###### Artikel 242
-
-Iedere belastingplichtige moet een boekhouding voeren die voldoende gegevens bevat om de toepassing van de BTW en de controle daarop door de belastingadministratie mogelijk te maken.
-
-###### Artikel 243
-
-1. Iedere belastingplichtige moet een register bijhouden van de goederen die door hemzelf of voor zijn rekening zijn verzonden of vervoerd buiten het grondgebied van de lidstaat van vertrek, maar binnen de Gemeenschap, ten behoeve van de in artikel 17, lid 2, punten f), g) en h), bedoelde handelingen bestaande uit werkzaamheden betreffende die goederen of uit het tijdelijke gebruik ervan.
-
-2. Iedere belastingplichtige moet een boekhouding voeren die voldoende gegevens bevat om de goederen te kunnen identifi- ceren die vanuit een andere lidstaat naar hem verzonden zijn door of voor rekening van een in die andere lidstaat voor BTW- doeleinden geïdentificeerde belastingplichtige en die het voor- werp zijn van de in artikel 52, punt c), bedoelde diensten bestaande uit expertises of werkzaamheden betreffende die goederen.
-
-Specif ieke ver plichtingen ten aanzien van het bewaren van facturen
-
-###### Artikel 244
 
 ###### Artikel 245
 
@@ -2604,30 +1474,6 @@ De gegevens op de in artikel 233, lid 1, tweede alinea, bedoelde facturen mogen 
 3. De in lid 1 bedoelde lidstaat kan bijzondere voorwaarden stellen met het oog op het verbieden of beperken van de bewaring van de facturen in een land waarmee geen rechts- instrument inzake wederzijdse bijstand bestaat waarvan de strekking gelijk is aan die van Richtlijn 76/308/EEG en Verordening (EG) nr. 1798/2003 of inzake het in artikel 249 bedoelde recht van elektronische toegang, downloading en gebruik.
 
 ###### Artikel 248
-
-Recht van toegang tot elektronisch bewaarde facturen in een andere lidst aat
-
-###### Artikel 249
-
-Wanneer een belastingplichtige de door hem verzonden of ontvangen facturen elektronisch bewaart waarbij een on – linetoegang tot de gegevens wordt gewaarborgd, en de plaats van bewaring in een andere lidstaat gelegen is dan de lidstaat waar hij is gevestigd, hebben de bevoegde autoriteiten van de lidstaat waar deze belastingplichtige gevestigd is met het oog op de toepassing van deze richtlijn het recht van elektronische toegang tot alsmede downloading en gebruik van deze facturen binnen de grenzen bepaald bij de regelgeving van de lidstaat van vestiging van de belastingplichtige, en voorzover deze lidstaat de facturen nodig heeft voor controledoeleinden.
-
-Aangiften
-
-###### Artikel 250
-
-1. Iedere belastingplichtige moet een BTW-aangifte indienen waarop alle gegevens staan die nodig zijn om het bedrag van de verschuldigde belasting en van de aftrek vast te stellen, daarbij inbegrepen, voorzover zulks voor de vaststelling van de grondslag nodig is, het totale bedrag van de handelingen waarop deze belasting en deze aftrek betrekking hebben, alsmede het bedrag van de vrijgestelde handelingen.
-
-2. De lidstaten staan onder door hen te stellen voorwaarden toe dat de in lid 1 bedoelde BTW-aangifte langs elektronische weg wordt ingediend en mogen dit ook verplicht stellen.
-
-###### Artikel 251
-
-Behalve de in artikel 242 bedoelde gegevens moeten in de BTW – aangifte betreffende een bepaald belastingtijdvak de volgende gegevens vermeld zijn:
-
-a) het totale bedrag, de BTW niet inbegrepen, van de in artikel 138 bedoelde goederenleveringen uit hoofde waar- van de belasting in de loop van dit belastingtijdvak verschuldigd is geworden;
-
-b) het totale bedrag, de BTW niet inbegrepen, van de in artikel 33 en artikel 36, eerste alinea, bedoelde goederen- leveringen die binnen het grondgebied van een andere lidstaat zijn verricht en uit hoofde waarvan de belasting in de loop van dit belastingtijdvak verschuldigd is geworden, indien de plaats van vertrek van de verzending of het vervoer van de goederen is gelegen in de lidstaat waar de aangifte moet worden ingediend;
-
-c) het totale bedrag, de BTW niet inbegrepen, van de intracommunautaire verwervingen van goederen en van de krachtens de artikelen 21 en 22 bedoelde daarmee gelijkgestelde handelingen, verricht in de lidstaat waar de aangifte moet worden ingediend, en uit hoofde waarvan de belasting in de loop van dit belastingtijdvak verschuldigd is geworden;
 
 goederenleveringen die zijn verricht in de lidstaat waar de aangifte moet worden ingediend, en uit hoofde waarvan de belasting in de loop van dit belastingtijdvak verschuldigd is geworden, wanneer de plaats van vertrek van de verzending of het vervoer van de goederen op het grondgebied van een andere lidstaat is gelegen;
 
@@ -2655,45 +1501,13 @@ De lidstaten die overeenkomstig artikel 198, lid 1, de afnemer van beleggingsgou
 
 ###### Artikel 256
 
-zijn gehouden, de in dit hoofdstuk vastgestelde verplichtingen inzake aangifte nakomen.
-
-###### Artikel 257
-
-De lidstaten treffen de nodige maatregelen opdat niet-belasting- plichtige rechtspersonen die zijn gehouden tot voldoening van de belasting welke verschuldigd is uit hoofde van de in artikel 2, lid 1, onder b), punt i), bedoelde intracommunautaire verwervin- gen van goederen, voldoen aan de in dit hoofdstuk vastgestelde verplichtingen inzake aangifte.
-
-###### Artikel 258
-
-De lidstaten stellen nadere regels vast met betrekking tot de aangifte ter zake van de in artikel 2, lid 1, onder b), punt ii), bedoelde intracommunautaire verwervingen van nieuwe ver- voermiddelen en de in artikel 2, lid 1, onder b), punt iii), bedoelde intracommunautaire verwervingen van accijnsproduc- ten.
-
-###### Artikel 259
-
-De lidstaten kunnen verlangen dat personen die de in artikel 2, lid 1, onder b), punt ii), bedoelde intracommunautaire verwervingen van nieuwe vervoermiddelen verrichten, bij het indienen van de BTW-aangifte alle gegevens verstrekken die noodzakelijk zijn voor de toepassing van de BTW en voor de controle daarop door de belastingdienst.
-
-###### Artikel 260
-
-De lidstaten stellen nadere regels vast betreffende de aangifte ter zake van de invoer van goederen.
-
-###### Artikel 261
-
-1. De lidstaten kunnen verlangen dat de belastingplichtige een aangifte indient betreffende alle in het voorgaande jaar verrichte handelingen met daarin alle in de artikelen 250 en 251 bedoelde gegevens. In die aangifte moeten tevens alle gegevens staan die nodig zijn voor eventuele herzieningen.
-
-2. De lidstaten staan onder door hen te stellen voorwaarden toe dat de in lid 1 bedoelde aangifte langs elektronische weg worden ingediend en mogen dit ook verplicht stellen.
-
-Lijsten
-
-###### Artikel 262
-
-Iedere voor BTW-doeleinden geïdentificeerde belastingplichtige moet een lijst indienen van de voor BTW-doeleinden geïden- tificeerde afnemers aan wie hij goederen heeft geleverd onder de in artikel 138, lid 1, en lid 2, onder c), gestelde voorwaarden, alsmede van de voor BTW-doeleinden geïdentificeerde personen voor wie de goederen waarop de in artikel 42 bedoelde intracommunautaire verwervingen betrekking hebben, bestemd zijn.
-
-###### Artikel 263
-
 De lidstaten kunnen evenwel bepalen dat de lijsten maandelijks worden ingediend.
 
 2. De lidstaten staan onder door hen te stellen voorwaarden toe dat de in lid 1 bedoelde lijsten langs elektronische weg worden ingediend en mogen dit ook verplicht stellen.
 
 ###### Artikel 264
 
-1. Op de lijst worden de volgende gegevens vermeld:
+## 1. Op de lijst worden de volgende gegevens vermeld:
 
 a) het nummer waaronder de belastingplichtige voor BTW- doeleinden is geïdentificeerd in de lidstaat waar de lijst moet worden ingediend, en waaronder hij goederenleveringen heeft verricht onder de in artikel 138, lid 1, gestelde voorwaarden;
 
@@ -2717,32 +1531,6 @@ Het in lid 1, punt f), bedoelde bedrag wordt opgegeven voor het kalenderkwartaal
 
 a) het nummer waaronder hij voor BTW-doeleinden in die lidstaat is geïdentificeerd en waaronder hij de verwerving en de daaropvolgende goederenlevering heeft verricht;
 
-is, in de lidstaat van aankomst van de verzending of het vervoer van de goederen is geïdentificeerd;
-
-c) voor elk van degenen voor wie de daaropvolgende levering bestemd is, het totale bedrag, de BTW niet inbegrepen, van de door de belastingplichtige in de lidstaat van aankomst van de verzending of het vervoer van de goederen verrichte leveringen.
-
-2. Het in lid 1, punt c), bedoelde bedrag wordt opgegeven voor het kalenderkwartaal waarin de belasting verschuldigd is geworden.
-
-###### Artikel 266
-
-In afwijking van de artikelen 264 en 265 kunnen de lidstaten bepalen dat de lijsten meer gegevens bevatten.
-
-###### Artikel 267
-
-De lidstaten treffen de nodige maatregelen opdat de personen die overeenkomstig de artikelen 194 en 204, worden geacht in plaats van een niet op hun grondgebied gevestigde belastingplichtige tot voldoening van de belasting te zijn gehouden, de in dit hoofdstuk vastgestelde verplichting inzake de indiening van lijsten nakomen.
-
-###### Artikel 268
-
-De lidstaten kunnen verlangen dat belastingplichtigen die op hun grondgebied intracommunautaire verwervingen van goederen of de krachtens de artikelen 21 en 22 daarmee gelijkgestelde handelingen verrichten, gespecificeerde aangiften over deze verwervingen indienen, met dien verstande dat dergelijke aangiften niet voor tijdvakken van minder dan een maand mogen worden verlangd.
-
-###### Artikel 269
-
-De Raad kan op voorstel van de Commissie met eenparigheid van stemmen elke lidstaat machtigen de in de artikelen 270 en 271 bepaalde bijzondere maatregelen in te voeren om de in dit hoofdstuk vastgestelde verplichtingen inzake de indiening van lijsten te vereenvoudigen. Deze maatregelen mogen de betrouw- baarheid van de controle op de intracommunautaire handelingen niet verminderen.
-
-###### Artikel 270
-
-Uit hoofde van de in artikel 269 bedoelde machtiging kunnen de lidstaten de belastingplichtigen toestaan een lijst over een periode van een jaar in te dienen waarin voor elke afnemer aan wie de belastingplichtige onder de in artikel 138, lid 1 en lid 2, onder c), gestelde voorwaarden goederen heeft geleverd het nummer wordt vermeld waaronder deze in een andere lidstaat voor BTW- doeleinden is geïdentificeerd, wanneer de belastingplichtige aan de volgende drie voorwaarden voldoet:
-
 b) het jaarlijkse totale bedrag, de BTW niet inbegrepen, van de goederenleveringen die hij verricht onder de in artikel 138 gestelde voorwaarden bedraagt niet meer dan EUR 15 000 of de tegenwaarde daarvan in de nationale munteenheid;
 
 c) de goederenleveringen die hij verricht onder de in artikel 138 gestelde voorwaarden zijn geen leveringen van nieuwe vervoermiddelen.
@@ -2757,7 +1545,7 @@ b) het jaarlijkse totale bedrag, de BTW niet inbegrepen, van de goederenlevering
 
 c) de goederenleveringen die hij verricht onder de in artikel 138 gestelde voorwaarden zijn geen leveringen van nieuwe vervoermiddelen.
 
-Diverse bepalingen
+## Diverse bepalingen
 
 ###### Artikel 272
 
@@ -2773,41 +1561,15 @@ d) de belastingplichtigen die in aanmerking komen voor de in de artikelen 282 to
 
 e) de belastingplichtigen die voor de forfaitaire regeling voor landbouwproducenten in aanmerking komen.
 
-artikelen 220 tot en met 236 en de artikelen 238, 239 en 240 vastgestelde verplichtingen inzake facturering.
-
-2. Wanneer de lidstaten van de in lid 1, eerste alinea, punt e), bedoelde mogelijkheid gebruikmaken, nemen zij de nodige maatregelen voor een juiste toepassing van de overgangsregeling voor de belastingheffing op intracommunautaire handelingen.
-
-3. De lidstaten kunnen andere dan de in lid 1 bedoelde belastingplichtigen ontheffing verlenen van bepaalde van de in artikel 242 bedoelde boekhoudkundige verplichtingen.
-
-###### Artikel 273
-
-De lidstaten kunnen, onder voorbehoud van gelijke behandeling van door belastingplichtigen verrichte binnenlandse handelingen en handelingen tussen de lidstaten, andere verplichtingen voorschrijven die zij noodzakelijk achten ter waarborging van de juiste inning van de BTW en ter voorkoming van fraude, mits deze verplichtingen in het handelsverkeer tussen de lidstaten geen aanleiding geven tot formaliteiten in verband met een grensoverschrijding.
-
-De in de eerste alinea geboden mogelijkheid mag niet worden benut voor het opleggen van extra verplichtingen naast de in hoofdstuk 3 vastgestelde verplichtingen inzake facturering.
-
-Verplichtingen ter zake van bepaalde invoer- en uitvoerhandelingen
-
-Invoerhandelingen
-
-###### Artikel 274
-
-De artikelen 275, 276 en 277 zijn van toepassing op invoerhandelingen die betrekking hebben op goederen in het vrije verkeer welke de Gemeenschap worden binnengebracht vanuit een derdelandsgebied dat deel uitmaakt van het douane- gebied van de Gemeenschap.
-
-###### Artikel 275
-
-De formaliteiten betreffende de invoer van de in artikel 274 bedoelde goederen zijn dezelfde als die welke zijn bepaald in de geldende communautaire douanebepalingen betreffende de invoer van goederen in het douanegebied van de Gemeenschap.
-
-###### Artikel 276
-
 ###### Artikel 277
 
 Wanneer de in artikel 274 bedoelde goederen zich op het moment van het binnenbrengen ervan in de Gemeenschap bevinden in een van de situaties waardoor zij, indien zij ingevoerd waren in de zin van artikel 30, eerste alinea, in aanmerking konden komen voor een van de in artikel 156 bedoelde regelingen of situaties of voor een regeling van tijdelijke invoer met volledige vrijstelling van invoerrechten, nemen de lidstaten de maatregelen om ervoor te zorgen dat deze goederen onder dezelfde voorwaarden in de Gemeenschap kunnen verblijven als die welke voor de toepassing van die regelingen of situaties gelden.
 
 De in deze afdeling vastgestelde vrijstellingen en verminderingen zijn van toepassing op door kleine ondernemingen verrichte goederenleveringen en diensten.
 
-1. De volgende handelingen zijn van de in deze afdeling vastgestelde regeling uitgesloten:
+## 1. De volgende handelingen zijn van de in deze afdeling vastgestelde regeling uitgesloten:
 
-Uitvoerhandelingen
+## Uitvoerhandelingen
 
 a) de in artikel 12 bedoelde incidenteel verrichte handelingen;
 
@@ -2833,27 +1595,11 @@ Voor goederen die tijdelijk uit de Gemeenschap worden uitge- voerd met het oog o
 
 BIJZONDERE REGELINGEN
 
-Bijzondere regeling voor kleine ondernemingen
+## Bijzondere regeling voor kleine ondernemingen
 
-Vereenvoudigde bepalingen inzake belastin gheff ing en belastinginning
+## Vereenvoudigde bepalingen inzake belastin gheff ing en belastinginning
 
 ###### Artikel 281
-
-Vr ijs tellingen of deg ressieve ver minder ingen
-
-###### Artikel 282
-
-###### Artikel 283
-
-###### Artikel 284
-
-2. De lidstaten die op 17 mei 1977 een vrijstelling van belasting toekenden aan belastingplichtigen met een jaaromzet die minder bedroeg dan de tegenwaarde van 5 000 Europese rekeneenheden in de nationale munteenheid tegen de omrekeningskoers geldend op die datum, mogen die vrijstelling verhogen tot EUR 5 000.
-
-De lidstaten die degressieve verminderingen van de belasting toepasten, mogen noch de bovengrens van die verminderingen verhogen, noch de voorwaarden voor de toekenning daarvan gunstiger maken.
-
-###### Artikel 285
-
-De lidstaten die geen gebruik hebben gemaakt van de in artikel 14 van Richtlijn 67/228/EEG gegeven mogelijkheid, mogen vrijstelling van belasting toekennen aan belastingplichti- gen met een jaaromzet welke ten hoogste gelijk is aan EUR 5 000 of de tegenwaarde van dit bedrag in de nationale munteenheid.
 
 De in de eerste alinea bedoelde lidstaten kunnen een degressieve belastingvermindering toekennen aan belastingplichtigen wier jaaromzet het plafond overschrijdt dat deze lidstaten voor de toepassing van de vrijstelling hebben vastgesteld.
 
@@ -2895,35 +1641,7 @@ De lidstaten die na 1 januari 1978 zijn toegetreden, kunnen een vrijstelling van
 
 15) Slovenië: EUR 25 000;
 
-###### Artikel 288
-
-De omzet die als maatstaf dient voor de toepassing van de in deze afdeling vastgestelde regeling, wordt gevormd door de volgende bedragen, de BTW niet inbegrepen:
-
-1) het bedrag van de goederenleveringen en de diensten, voor zover deze belast zijn;
-
-2) het bedrag van de handelingen die krachtens de artike- len 110 en 111, artikel 125, lid 1, artikel 127 en artikel 128, lid 1, zijn vrijgesteld met recht op aftrek van voorbelasting;
-
-3) het bedrag van de krachtens de artikelen 146 tot en met 149 en de artikelen 151, 152 en 153 vrijgestelde handelingen;
-
-4) het bedrag van handelingen met betrekking tot onroerende goederen, financiële handelingen als bedoeld in artikel 135, lid 1, punten b) tot en met g), en verzekeringsdiensten, tenzij die handelingen met ander handelingen samen- hangende handelingen zijn.
-
-De overdracht van lichamelijke of onlichamelijke investerings- goederen van de onderneming wordt evenwel niet in aanmerking genomen voor de vaststelling van de omzet.
-
-###### Artikel 289
-
-De belastingplichtigen voor wie vrijstelling van belasting geldt, hebben geen recht op aftrek van BTW overeenkomstig de artikelen 167 tot en met 171 en de artikelen 173 tot en met 177 en mogen de BTW evenmin op hun facturen vermelden.
-
-###### Artikel 290
-
-De belastingplichtigen die in aanmerking kunnen komen voor vrijstelling van belasting, kunnen kiezen hetzij voor toepassing van de normale BTW-regeling, hetzij voor toepassing van de in artikel 281 bedoelde vereenvoudigde regelingen. In dit geval gelden voor hen de degressieve belastingverminderingen waarin de nationale wetgeving voorziet.
-
-###### Artikel 291
-
-De belastingplichtigen voor wie degressieve belastingverminde- ring geldt, worden, behoudens de toepassing van artikel 281, beschouwd als belastingplichtigen vallende onder de normale BTW-regeling.
-
-###### Artikel 292
-
-Verslag en herziening
+## Verslag en herziening
 
 ###### Artikel 293
 
@@ -2939,11 +1657,11 @@ De Commissie brengt aan de Raad, op grond van de van de lidstaten verkregen gege
 
 De Raad bepaalt overeenkomstig artikel 93 van het Verdrag of in het kader van de definitieve regeling een bijzondere regeling voor kleine ondernemingen nodig is, en neemt, in voorkomend geval, tevens een beslissing over de gemeenschappelijke grenzen en toepassingsvoorwaarden van de genoemde bijzondere regeling.
 
-Gemeenschappelijke forfaitaire regeling voor landbouwproducenten
+## Gemeenschappelijke forfaitaire regeling voor landbouwproducenten
 
 ###### Artikel 295
 
-1. Voor de toepassing van dit hoofdstuk wordt verstaan onder:
+## 1. Voor de toepassing van dit hoofdstuk wordt verstaan onder:
 
 1) landbouwproducent: de belastingplichtige die zijn werk- zaamheid uitoefent in het kader van een landbouw-, bosbouw- of visserijbedrijf;
 
@@ -2954,30 +1672,6 @@ Gemeenschappelijke forfaitaire regeling voor landbouwproducenten
 4) landbouwproducten: de goederen die door de landbouw-, bosbouw- of visserijbedrijven van elke lidstaat worden voortgebracht door middel van de in bijlage VI vermelde werkzaamheden;
 
 5) agrarische diensten: de diensten, met name de in bijlage VIII genoemde, die worden verricht door een landbouwprodu- cent met gebruikmaking van zijn arbeidskrachten of de normale uitrusting van zijn landbouw-, bosbouw- of visserijbedrijf en die normaliter tot de verwezenlijking van de landbouwproductie bijdragen;
-
-de forfaitaire regeling vallende landbouw-, bosbouw- en visserijbedrijven gezamenlijk van elke lidstaat, voor zover deze belasting door een landbouwproducent die onder de normale BTW-regeling valt, overeenkomstig de artike- len 167, 168 en 169 en de artikelen 173 tot en met 177 zou kunnen worden afgetrokken;
-
-7) forfaitaire compensatiepercentages: de percentages die de lidstaten overeenkomstig in de artikelen 297, 298 en 299 vaststellen en die zij toepassen in de in artikel 300 bedoelde gevallen teneinde de forfaitair belaste landbouwers in aanmerking te doen komen voor een forfaitaire compen- satie voor de BTW-voordruk;
-
-8) forfaitaire compensatie: het bedrag dat voortvloeit uit de toepassing van het forfaitaire compensatiepercentage op de omzet van de forfaitair belaste landbouwer in de in artikel 300 bedoelde gevallen.
-
-2. De verwerking door een landbouwproducent van de in hoofdzaak uit zijn landbouwproductie afkomstige producten, verricht met behulp van de middelen die normaal in de landbouw-, bosbouw- of visserijbedrijven worden gebezigd, wordt gelijkgesteld met de in bijlage VII genoemde landbouw- productiewerkzaamheden.
-
-###### Artikel 296
-
-1. De lidstaten kunnen ten aanzien van landbouwproducenten voor wie de toepassing van de normale BTW-regeling of, in voorkomend geval, van de bijzondere regeling van hoofdstuk 1, op moeilijkheden zou stuiten, overeenkomstig het bepaalde in dit hoofdstuk een forfaitaire regeling toepassen ter compensatie van de BTW die is betaald over de aankopen van goederen en diensten van de forfaitair belaste landbouwers.
-
-2. Iedere lidstaat kan bepaalde categorieën landbouwprodu- centen, alsmede landbouwproducenten voor wie de toepassing van de normale BTW-regeling of, in voorkomend geval, van de in artikel 281 bedoelde vereenvoudigde regels geen administratieve moeilijkheden oplevert, van de forfaitaire regeling uitsluiten.
-
-3. Iedere forfaitair belaste landbouwer heeft het recht te kiezen voor toepassing van de normale BTW-regeling of, in voor- komend geval, van de in artikel 281 bedoelde vereenvoudigde regels, met inachtneming van de door elke lidstaat gestelde nadere regels en voorwaarden.
-
-###### Artikel 297
-
-De lidstaten stellen, voorzover nodig, forfaitaire compensatie- percentages vast. Zij kunnen gedifferentieerde forfaitaire com- pensatiepercentages vaststellen voor de bosbouw, de verschillende deelsectoren van de landbouw en de visserij.
-
-De lidstaten brengen de uit hoofde van de eerste alinea vastgestelde forfaitaire compensatiepercentages, voordat zij worden toegepast, ter kennis van de Commissie.
-
-###### Artikel 298
 
 De percentages mogen naar boven of naar beneden op een half punt worden afgerond. De lidstaten kunnen deze percentages ook tot nihil terugbrengen.
 
@@ -3007,28 +1701,6 @@ Wanneer een forfaitair belaste landbouwer een forfaitaire compensatie geniet, he
 
 ###### Artikel 303
 
-2. De lidstaten kennen aan de afnemer terugbetaling toe van het bedrag aan forfaitaire compensatie dat hij uit hoofde van een van de volgende handelingen heeft betaald:
-
-a) de landbouwproductenleveringen die onder de in arti- kel 138 gestelde voorwaarden worden verricht voor een belastingplichtige afnemer, of een niet-belastingplichtige rechtspersoon, die als zodanig handelt in een andere lidstaat binnen het grondgebied waarvan zijn intracommunautaire verwervingen van goederen overeenkomstig artikel 2, lid 1, onder b), aan de BTW zijn onderworpen;
-
-b) de landbouwproductenleveringen die onder de in de artikelen 146, 147, 148 en 156, artikel 157, lid 1, onder b), en de artikelen 158, 160 en 161 gestelde voorwaarden worden verricht voor een belastingplichtige afnemer die buiten de Gemeenschap is gevestigd, voor zover deze landbouwproducten door de afnemer worden gebruikt ten behoeve van zijn in artikel 169, punten a) en b), bedoelde handelingen of zijn diensten die worden geacht te worden verricht binnen het grondgebied van de lidstaat waar de afnemer is gevestigd, en waarvoor de belasting overeen- komstig artikel 196 alleen door de afnemer verschuldigd is;
-
-c) de agrarische diensten die worden verricht voor een binnen de Gemeenschap maar in een andere lidstaat gevestigde belastingplichtige afnemer of voor een buiten de Gemeen- schap gevestigde belastingplichtige afnemer, voor zover deze diensten door de afnemer worden gebruikt ten behoeve van zijn in artikel 169, punten a) en b), bedoelde handelingen of van zijn diensten die worden geacht te worden verricht binnen het grondgebied van de lidstaat waar de afnemer is gevestigd, en waarvoor de belasting overeenkomstig artikel 196 alleen door de afnemer verschuldigd is.
-
-3. De lidstaten stellen de nadere regels voor de in lid 2 bedoelde terugbetalingen vast. Zij kunnen met name de Richtlijnen 79/1072/EEG en 86/560/EEG toepassen.
-
-###### Artikel 304
-
-De lidstaten nemen alle nodige maatregelen om de uitbetaling van de forfaitaire compensaties aan de forfaitair belaste land- bouwers doeltreffend te kunnen controleren.
-
-###### Artikel 305
-
-Wanneer de lidstaten deze forfaitaire regeling toepassen, treffen zij alle nodige maatregelen om ervoor te zorgen dat leveringen van landbouwproducten tussen lidstaten, verricht onder de in artikel 33 bedoelde voorwaarden, ongeacht of zij worden verricht door een forfaitair belaste landbouwer of door een andere belastingplichtige, op identieke wijze worden belast.
-
-Bijzondere regeling voor reisbureaus
-
-###### Artikel 306
-
 Deze bijzondere regeling is niet van toepassing op reisbureaus die alleen handelen als tussenpersoon en waarop artikel 79, eerste alinea, punt c), van toepassing is om de maatstaf van heffing te berekenen.
 
 2. Voor de toepassing van dit hoofdstuk worden reisorganisa- toren (tour-operators) als reisbureaus beschouwd.
@@ -3051,37 +1723,13 @@ Indien de in de eerste alinea bedoelde handelingen zowel binnen als buiten de Ge
 
 ###### Artikel 310
 
-Bijzondere regelingen voor gebruikte goederen, kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten
-
-Def inities
-
-###### Artikel 311
-
-1. Voor de toepassing van dit hoofdstuk, en onverminderd andere communautaire bepalingen, wordt verstaan onder:
-
-1) „ gebruikte goederen ” : roerende lichamelijke zaken die in de staat waarin zij verkeren of na herstelling opnieuw kunnen worden gebruikt, andere dan kunstvoorwerpen, voorwer- pen voor verzamelingen en antiquiteiten, en andere dan edele metalen of edelstenen als omschreven door de lidstaten;
-
-2) „ kunstvoorwerpen ” : de in bijlage IX, deel A, genoemde goederen;
-
-3) „ voorwerpen voor verzamelingen ” : de in bijlage IX, deel B, genoemde goederen;
-
-4) „ antiquiteiten ” : de in bijlage IX, deel C, genoemde goederen;
-
-5) „ belastingplichtige wederverkoper ” : elke belastingplichtige die in het kader van zijn economische activiteit gebruikte goederen, kunstvoorwerpen, voorwerpen voor verzamelin- gen of antiquiteiten koopt, voor bedrijfsdoeleinden bestemt dan wel invoert met het oog op wederverkoop, ongeacht of deze belastingplichtige handelt voor eigen rekening dan wel, ingevolge een overeenkomst tot aan- of verkoop in commissie, voor rekening van een derde;
-
-6) „ organisator van een openbare veiling ” : elke belasting- plichtige die in het kader van zijn economische activiteit op een openbare veiling een goed aanbiedt voor overdracht aan de meestbiedende;
-
-7) „ opdrachtgever van een organisator van een openbare veiling ” : elke persoon die een goed overdraagt aan een organisator van een openbare veiling ingevolge een overeenkomst tot verkoop in commissie.
-
-2. De lidstaten behoeven de in bijlage IX, deel A, punten 5, 6 en 7, genoemde voorwerpen niet als kunstvoorwerpen te beschou- wen.
-
-Bijzondere regeling voor belastin gplichtige weder verkopers
+## Bijzondere regeling voor belastin gplichtige weder verkopers
 
 Winstmargeregeling
 
 ###### Artikel 312
 
-Voor de toepassing van deze onderafdeling wordt verstaan onder:
+## Voor de toepassing van deze onderafdeling wordt verstaan onder:
 
 1) „ verkoopprijs ” : alles wat de tegenprestatie uitmaakt die een belastingplichtige wederverkoper verkrijgt of moet verkrij- gen van de afnemer of een derde, met inbegrip van subsidies die rechtstreeks verband houden met de hande- ling, belastingen, rechten, heffingen en bijkomende kosten zoals kosten van commissie, verpakking, vervoer en verzekering die de belastingplichtige wederverkoper de afnemer in rekening brengt, echter met uitsluiting van de in artikel 79 bedoelde bedragen;
 
@@ -3103,39 +1751,9 @@ b) een andere belastingplichtige, voor zover de levering van het goed door deze 
 
 c) een andere belastingplichtige, voor zover de levering van het goed door deze andere belastingplichtige in aanmerking komt voor de in de artikelen 282 tot en met 292 bedoelde vrijstellingsregeling voor kleine ondernemingen en het gaat om een investeringsgoed;
 
-wederverkoper overeenkomstig deze bijzondere regeling aan de BTW onderworpen is geweest.
-
-###### Artikel 315
-
-De maatstaf van heffing voor de in artikel 314 bedoelde goederenleveringen is de winstmarge van de belastingplichtige wederverkoper, verminderd met het bedrag van de BTW die voor de winstmarge zelf geldt.
-
-De winstmarge van de belastingplichtige wederverkoper is gelijk aan het verschil tussen de door de belastingplichtige weder- verkoper voor het goed gevraagde verkoopprijs en de aankoop- prijs.
-
-###### Artikel 316
-
-1. De lidstaten verlenen de belastingplichtige wederverkopers het recht te kiezen voor toepassing van de winstmargeregeling op de leveringen van de volgende goederen:
-
-a) kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten die zij zelf hebben ingevoerd;
-
-b) kunstvoorwerpen die aan hen geleverd zijn door de maker of diens rechthebbenden;
-
-c) kunstvoorwerpen die aan hen geleverd zijn door een andere belastingplichtige dan een belastingplichtige wederverkoper, wanneer die levering aan het verlaagde tarief uit hoofde van artikel 103 onderworpen is.
-
-2. De lidstaten stellen nadere regels vast inzake de uitoefening van het in lid 1 gegeven keuzerecht, dat in ieder geval gedurende een periode van ten minste twee kalenderjaren van kracht is.
-
-###### Artikel 317
-
-Wanneer een belastingplichtige wederverkoper het in artikel 316 bedoelde keuzerecht uitoefent, wordt de maatstaf van heffing overeenkomstig artikel 315 vastgesteld.
-
-Voor de leveringen van kunstvoorwerpen, voorwerpen voor verzamelingen of antiquiteiten die door de belastingplichtige wederverkoper zelf zijn ingevoerd, is de voor de berekening van de winstmarge in aanmerking te nemen verkoopprijs gelijk aan de overeenkomstig de artikelen 85 tot en met 89 vastgestelde maatstaf van heffing bij invoer, vermeerderd met de bij invoer verschuldigde of betaalde BTW.
-
-###### Artikel 318
-
-1. Teneinde de inning van de belasting te vereenvoudigen, kunnen de lidstaten na raadpleging van het BTW-Comité, voor bepaalde handelingen of voor bepaalde categorieën belasting- plichtige wederverkopers bepalen dat de maatstaf van heffing voor leveringen van goederen die onderworpen zijn aan de winstmargeregeling, wordt vastgesteld voor ieder belastingtijdvak uit hoofde waarvan de belastingplichtige wederverkoper de in artikel 250 bedoelde BTW-aangifte moet indienen.
-
 wederverkoper, verminderd met het bedrag van de BTW op diezelfde winstmarge.
 
-2. De totale winstmarge is gelijk aan het verschil tussen de volgende twee bedragen:
+## 2. De totale winstmarge is gelijk aan het verschil tussen de volgende twee bedragen:
 
 a) het totale bedrag van de goederenleveringen die onder- worpen zijn aan de winstmargeregeling en die gedurende het belastingtijdvak door de belastingplichtige wederver- koper verricht zijn, dit wil zeggen de som van de verkoopprijzen;
 
@@ -3156,38 +1774,6 @@ De belastingplichtige wederverkoper die de normale BTW- regeling toepast op de l
 2. Het recht op aftrek ontstaat op het tijdstip waarop de belasting verschuldigd wordt voor de levering waarvoor de belastingplichtige wederverkoper voor de normale BTW-regeling kiest.
 
 ###### Artikel 321
-
-###### Artikel 322
-
-Voor zover de goederen worden gebruikt ten behoeve van zijn aan de winstmargeregeling onderworpen leveringen mag de belastingplichtige wederverkoper van de door hem verschuldigde belasting de volgende bedragen niet aftrekken:
-
-a) de BTW die verschuldigd of voldaan is voor kunst- voorwerpen, voorwerpen voor verzamelingen of antiqui- teiten die hij zelf heeft ingevoerd;
-
-b) de BTW die verschuldigd of voldaan is voor aan hem geleverde of te leveren kunstvoorwerpen door de maker of diens rechthebbenden;
-
-c) de BTW die verschuldigd of voldaan is voor aan hem geleverde of te leveren kunstvoorwerpen door een andere belastingplichtige dan een belastingplichtige wederverkoper.
-
-###### Artikel 323
-
-De belastingplichtige mag de BTW die verschuldigd of voldaan is voor aan hem geleverde of te leveren goederen door een belastingplichtige wederverkoper, niet aftrekken van de door hem verschuldigde belasting, voorzover de levering van deze goederen door de belastingsplichtige wederverkoper aan de winstmargeregeling is onderworpen.
-
-###### Artikel 324
-
-De belastingplichtige wederverkoper die zowel de normale BTW- regeling als de winstmargeregeling toepast, moet de transacties voor elk van deze regelingen afzonderlijk in zijn boekhouding bijhouden, overeenkomstig de door de lidstaten vastgestelde bepalingen.
-
-###### Artikel 325
-
-De belastingplichtige wederverkoper mag op de door hem uitgereikte factuur de BTW over de goederenleveringen waarop hij de winstmargeregeling toepast, niet afzonderlijk vermelden.
-
-Overgangsregeling voor gebr uikte ver voer middelen
-
-###### Artikel 326
-
-De lidstaten die op 31 december 1992 een andere bijzondere belastingregeling toepasten op de levering van gebruikte ver- voermiddelen door belastingplichtige wederverkopers dan de winstmargeregeling, kunnen die regeling tot de invoering van de in artikel 402 bedoelde definitieve regeling blijven toepassen, voorzover zij voldoet, of zodanig is aangepast dat zij voldoet, aan de in deze onderafdeling gestelde voorwaarden.
-
-Denemarken mag een bijzondere regeling als bedoeld in de eerste alinea invoeren.
-
-###### Artikel 327
 
 2. Deze overgangsregeling is niet van toepassing op de leveringen van nieuwe vervoermiddelen die worden verricht onder de in artikel 138 , lid 1 en lid 2, onder a), gestelde voorwaarden.
 
@@ -3214,32 +1800,6 @@ De voor elke in artikel 327, lid 1, bedoelde levering van vervoermiddelen versch
 De lidstaten kunnen bepalen dat, indien de levering aan de winstmargeregeling onderworpen zou zijn geweest, deze winst- marge niet lager mag zijn dan 10 % van de verkoopprijs in de zin van artikel 312, punt 1).
 
 ###### Artikel 331
-
-###### Artikel 332
-
-De belastingplichtige wederverkoper mag op de door hem uitgereikte factuur de BTW over de leveringen waarop hij deze overgangsregeling toepast, niet afzonderlijk vermelden.
-
-Bijzondere regeling voor verkoop op openbare veilingen
-
-###### Artikel 333
-
-1. De lidstaten mogen, overeenkomstig het bepaalde in deze afdeling, een bijzondere regeling toepassen voor de belasting- heffing over de door een organisator van openbare veilingen gemaakte winstmarge op leveringen van gebruikte goederen, kunstvoorwerpen, voorwerpen voor verzamelingen en antiqui- teiten, welke deze organisator die handelt in eigen naam en voor rekening van de in artikel 334 bedoelde personen, verricht krachtens een overeenkomst tot verkoop in commissie ter openbare veiling van deze goederen.
-
-2. De in lid 1 bedoelde regeling is niet van toepassing op leveringen van nieuwe vervoermiddelen die worden verricht onder de in artikel 138, lid 1 en lid 2, onder a), gestelde voorwaarden.
-
-###### Artikel 334
-
-Deze bijzondere regeling is van toepassing op leveringen door een organisator van openbare veilingen die handelt in eigen naam en voor rekening van een van de volgende personen:
-
-a) een niet-belastingplichtige;
-
-b) een andere belastingplichtige, voor zover de levering van het goed door deze belastingplichtige krachtens een overeenkomst tot verkoop in commissie verricht, overeen- komstig artikel 136 is vrijgesteld;
-
-c) een andere belastingplichtige, voor zover de levering van het goed door deze belastingplichtige, krachtens een overeenkomst tot verkoop in commissie verricht, in aanmerking komt voor de in de artikelen 282 tot en met 292 bedoelde vrijstellingsregeling voor kleine ondernemin- gen en een investeringsgoed betreft;
-
-d) een belastingplichtige wederverkoper, voor zover de leve- ring van het goed door deze belastingplichtige weder- verkoper, krachtens een overeenkomst tot verkoop in commissie verricht, is onderworpen aan de BTW overeen- komstig de winstmargeregeling.
-
-###### Artikel 335
 
 ###### Artikel 336
 
@@ -3279,34 +1839,6 @@ Op de door de organisator van de openbare veiling uitgereikte factuur mag de BTW
 
 1. De organisator van de openbare veiling aan wie het goed is overgedragen krachtens een overeenkomst tot verkoop in commissie op een openbare veiling, verstrekt aan zijn opdracht- gever een verslag.
 
-dat wil zeggen de veilingprijs van het goed, verminderd met het bedrag van de van de opdrachtgever ontvangen of te ontvangen commissie.
-
-2. Het overeenkomstig lid 1 opgestelde verslag doet dienst als de factuur die de opdrachtgever, wanneer hij een belasting- plichtige is, overeenkomstig artikel 220 aan de organisator van de openbare veiling moet uitreiken.
-
-###### Artikel 341
-
-De lidstaten die de in deze afdeling vastgestelde regeling toepassen, passen deze ook toe op de leveringen van gebruikte vervoermiddelen als omschreven in artikel 327, lid 3, door een organisator van openbare veilingen die handelt in eigen naam ingevolge een overeenkomst tot verkoop in commissie op een openbare veiling van deze goederen voor rekening van een belastingplichtige wederverkoper, voorzover dezelfde leveringen door deze belastingplichtige wederverkoper overeenkomstig de overgangsregeling voor gebruikte vervoermiddelen aan de BTW zouden zijn onderworpen.
-
-Maatregelen ter voorkoming van verstor ing van de mededinging en fraude
-
-###### Artikel 342
-
-De lidstaten kunnen maatregelen treffen betreffende het recht op aftrek van de BTW om te voorkomen dat de belastingplichtige wederverkopers op wie een van de in afdeling 2 vastgestelde regelingen van toepassing is, ongerechtvaardigde voordelen genieten, dan wel ongerechtvaardigde schade lijden.
-
-###### Artikel 343
-
-De Raad kan op voorstel van de Commissie met eenparigheid van stemmen elke lidstaat machtigen bijzondere maatregelen ter bestrijding van fraude te treffen, waarin wordt bepaald dat de uit hoofde van de winstmargeregeling verschuldigde BTW niet lager mag zijn dan het belastingbedrag dat verschuldigd zou zijn indien de winstmarge gelijk was aan een bepaald percentage van de verkoopprijs.
-
-Bij de vaststelling van het percentage van de verkoopprijs wordt rekening gehouden met de normale winstmarges van de economische subjecten in de betrokken sector.
-
-Bijzondere regeling voor beleggingsgoud
-
-Algemene bepalingen
-
-###### Artikel 344
-
-1. Onverminderd andere bepalingen van het Gemeenschaps- recht wordt voor de toepassing van deze richtlijn als „ beleg- gingsgoud ” beschouwd:
-
 2) gouden munten die een zuiverheid van ten minste 900/ 1 000 hebben, na 1800 zijn geslagen, in het land van oorsprong als wettig betaalmiddel fungeren of hebben gefungeerd en normaal worden verkocht voor een prijs die de openmarktwaarde van het in de munten vervatte goud niet met meer dan 80 % overschrijdt.
 
 2. De lidstaten kunnen kleine staven of plaatjes met een gewicht van ten hoogste 1 gram uitsluiten van deze bijzondere regeling.
@@ -3317,7 +1849,7 @@ Algemene bepalingen
 
 Vanaf 1999 deelt elke lidstaat de Commissie, vóór 1 juli van elk jaar, mee welke munten die aan de in artikel 344, lid 1, punt 2), genoemde criteria voldoen, in die lidstaat worden verhandeld. Vóór 1 december van elk jaar publiceert de Commissie in de reeks C van het Publicatieblad van de Europese Unie de volledige lijst van deze munten. De in de gepubliceerde lijst opgenomen munten worden geacht aan deze criteria te voldoen gedurende het gehele jaar waarvoor de lijst wordt gepubliceerd.
 
-Vr ijstelling van de belastin g
+## Vr ijstelling van de belastin g
 
 ###### Artikel 346
 
@@ -3327,43 +1859,13 @@ De lidstaten verlenen vrijstelling van de BTW voor de levering, de intracommunau
 
 De lidstaten verlenen vrijstelling voor de diensten van agenten die optreden in naam en voor rekening van een ander wanneer zij betrokken zijn bij de levering van beleggingsgoud voor hun principaal.
 
-Recht om voor belastin gheff ing te kiezen
+## Recht om voor belastin gheff ing te kiezen
 
 ###### Artikel 348
 
 De lidstaten verlenen belastingplichtigen die beleggingsgoud produceren of goud omzetten in beleggingsgoud, het recht te kiezen voor belastingheffing over de leveringen van beleggings- goud aan een andere belastingplichtige welke anders uit hoofde van artikel 346 zouden zijn vrijgesteld.
 
 ###### Artikel 349
-
-van goud in de vorm van de in artikel 344, lid 1, punt 1), bedoelde staven of plaatjes aan een andere belastingplichtige welke anders uit hoofde van artikel 346 zouden zijn vrijgesteld.
-
-2. De lidstaten kunnen het toepassingsgebied van het in lid 1 bedoelde keuzerecht beperken.
-
-###### Artikel 350
-
-Indien de leverancier het recht overeenkomstig de artikelen 348 en 349 voor belastingheffing te kiezen, heeft uitgeoefend, verlenen de lidstaten de agent het recht, voor belastingheffing over de in artikel 347 bedoelde diensten te kiezen.
-
-###### Artikel 351
-
-De lidstaten stellen de nadere bepalingen voor de uitoefening van de in deze afdeling geregelde keuzerechten vast en stellen de Commissie ervan in kennis.
-
-Handelingen op een gereglementeerde goudmarkt
-
-###### Artikel 352
-
-Iedere lidstaat kan, na raadpleging van het BTW-Comité, specifieke handelingen met betrekking tot beleggingsgoud welke in die lidstaat plaatsvinden tussen belastingplichtigen die lid zijn van een door de betrokken lidstaat gereglementeerde goudmarkt, of tussen een lid van een door de betrokken lidstaat gereglementeerde goudmarkt en een andere belastingplichtige die geen lid is van die markt, aan de BTW onderwerpen. De lidstaat mag leveringen die worden verricht onder de in artikel 138 gestelde voorwaarden en de uitvoer van beleggings- goud echter niet aan de BTW onderwerpen.
-
-###### Artikel 353
-
-De lidstaten die uit hoofde van artikel 352 belasting heffen over de handelingen tussen belastingplichtigen die lid zijn van een gereglementeerde goudmarkt, staan eenvoudigheidshalve toe dat de te innen belasting wordt opgeschort en verlenen de belastingplichtigen ontheffing van de boekhoudingsvereisten inzake de BTW.
-
-Bijzondere rechten en ver plichtingen van handelaren in beleggingsgoud
-
-###### Artikel 354
-
-Wanneer zijn daaropvolgende levering van beleggingsgoud krachtens dit hoofdstuk vrijgesteld is, heeft de belastingplichtige recht op aftrek van de volgende bedragen:
-
-a) de BTW die verschuldigd of voldaan is met betrekking tot beleggingsgoud dat hem is geleverd door een persoon die het in de artikelen 348 en 349 bedoelde keuzerecht heeft uitgeoefend of dat hem overeenkomstig afdeling 4 is geleverd;
 
 beleggingsgoud dat vervolgens door hem of in zijn naam wordt omgezet in beleggingsgoud;
 
@@ -3385,7 +1887,7 @@ De handelaren bewaren de in de eerste alinea bedoelde informatie gedurende ten m
 
 Bijzondere regeling voor niet in de Gemeenschap gevestigde belastingplichtigen die langs elektronische weg diensten verrichten voor niet-belastingplichtigen
 
-Algemene bepalingen
+## Algemene bepalingen
 
 ###### Artikel 357
 
@@ -3393,41 +1895,9 @@ Dit hoofdstuk is van toepassing tot en met 31 december 2006.
 
 ###### Artikel 358
 
-Onverminderd andere communautaire bepalingen wordt voor de toepassing van dit hoofdstuk verstaan onder:
+## Onverminderd andere communautaire bepalingen wordt voor de toepassing van dit hoofdstuk verstaan onder:
 
 1) „ niet in de Gemeenschap gevestigde belastingplichtige ” : een belastingplichtige die de zetel van zijn bedrijfsuitoefening niet op het grondgebied van de Gemeenschap heeft
-
-gevestigd noch daar over een vaste inrichting beschikt, en ook niet anderszins uit hoofde van artikel 214 geïden- tificeerd moet zijn;
-
-2) „ elektronische diensten ” en „ langs elektronische weg verrichte diensten ” : de diensten bedoeld in artikel 56, lid 1, punt k);
-
-3) „ lidstaat van identificatie ” : de lidstaat die de niet in de Gemeenschap gevestigde belastingplichtige verkiest te contacteren om opgave te doen van het begin van zijn activiteit als belastingplichtige op het grondgebied van de Gemeenschap overeenkomstig dit hoofdstuk;
-
-4) „ lidstaat van verbruik ” : de lidstaat waar de elektronische diensten worden geacht plaats te vinden overeenkomstig artikel 57;
-
-5) „ BTW – aangifte ” : de aangifte die alle gegevens omvat die nodig zijn om het bedrag van de in elke lidstaat verschuldigde BTW vast te stellen.
-
-Bijzondere regeling voor langs elektronische weg ver r ichte diensten
-
-###### Artikel 359
-
-De lidstaten staan toe dat een niet in de Gemeenschap gevestigde belastingplichtige die elektronische diensten verricht voor een niet – belastingplichtige die in een lidstaat gevestigd is of er zijn woonplaats of zijn gebruikelijke verblijfplaats heeft, gebruik- maakt van deze bijzondere regeling. Deze regeling is van toepassing op alle aldus in de Gemeenschap verrichte diensten.
-
-###### Artikel 360
-
-De niet in de Gemeenschap gevestigde belastingplichtige moet aan de lidstaat van identificatie opgave doen van het begin of de beëindiging van zijn activiteit als belastingplichtige, alsook van wijziging ervan in die mate dat hij niet langer aan de voorwaarden voldoet om van deze bijzondere regeling gebruik te mogen maken. Deze opgave gebeurt langs elektronische weg.
-
-###### Artikel 361
-
-1. De mededeling die de niet in de Gemeenschap gevestigde belastingplichtige aan de lidstaat van identificatie doet wanneer zijn belastbare activiteiten beginnen, bevat de volgende bijzon- derheden voor de identificatie:
-
-a) de naam;
-
-b) het postadres;
-
-c) de elektronische adressen, met inbegrip van websites;
-
-d) in voorkomend geval, het nationale belastingnummer;
 
 2. De niet in de Gemeenschap gevestigde belastingplichtige doet de lidstaat van identificatie mededeling van eventuele wijzigingen in de verstrekte informatie.
 
@@ -3461,36 +1931,6 @@ De BTW-aangifte bevat het identificatienummer en, voor elke lidstaat van verbrui
 
 De lidstaten die de euro niet hebben aangenomen, kunnen eisen dat de BTW-aangifte in hun nationale munteenheid luidt. Indien de diensten in een andere munteenheid luiden, hanteert de niet in de Gemeenschap gevestigde belastingplichtige bij het invullen van de BTW-aangifte de wisselkoers die gold op de laatste dag van het belastingtijdvak.
 
-###### Artikel 367
-
-De niet in de Gemeenschap gevestigde belastingplichtige voldoet de BTW op het moment dat de BTW-aangifte wordt ingediend.
-
-De belasting moet worden overgemaakt naar een door de lidstaat van identificatie opgegeven bankrekening in euro. De lidstaten die de euro niet hebben aangenomen, kunnen eisen dat de betaling wordt overgemaakt naar een bankrekening in hun eigen munteenheid.
-
-###### Artikel 368
-
-De niet in de Gemeenschap gevestigde belastingplichtige die van deze bijzondere regeling gebruikmaakt, past in de aangifte geen aftrek van BTW uit hoofde van artikel 168 van deze richtlijn toe. Niettegenstaande artikel 1, lid 1, van Richtlijn 86/560/EEG, wordt deze belastingplichtige teruggaaf verleend overeenkomstig die richtlijn. Artikel 2, leden 2 en 3, en artikel 4, lid 2, van Richtlijn 86/560/EEG zijn niet van toepassing op de teruggaaf die verband houdt met de onder deze bijzondere regeling vallende elektronische diensten.
-
-###### Artikel 369
-
-1. De niet in de Gemeenschap gevestigde belastingplichtige voert van alle handelingen waarop deze bijzondere regeling van toepassing is, een boekhouding die voldoende gegevens moet bevatten om de belastingadministratie van de lidstaat van verbruik in staat te stellen de juistheid van de BTW-aangifte te bepalen.
-
-2. Desgevraagd moet de in lid 1 bedoelde boekhouding langs elektronische weg aan de lidstaat van identificatie en aan de lidstaat van verbruik beschikbaar worden gesteld.
-
-De boekhouding wordt bewaard gedurende tien jaar na afloop van het jaar waarin de handeling is verricht.
-
-AFWIJKINGEN
-
-Afwijkingen van toepassing tot de invoering van de definitieve regeling
-
-Afwijkingen voor de st aten die op 1 januar i 1978 lid waren van de Gemeenschap
-
-###### Artikel 370
-
-De lidstaten die op 1 januari 1978 de in de lijst van bijlage IX, deel A, genoemde handelingen belastten, mogen deze blijven belasten.
-
-###### Artikel 371
-
 ###### Artikel 372
 
 De lidstaten die op 1 januari 1978 bepalingen toepasten waarbij wordt afgeweken van het beginsel van onmiddellijke aftrek bedoeld in artikel 179, eerste alinea, mogen deze bepalingen blijven toepassen.
@@ -3509,7 +1949,7 @@ In afwijking van de artikelen 169 en 309 mogen de lidstaten die op 1 januari 197
 
 Zweden mag onder de voorwaarden die in deze lidstaat op de datum van zijn toetreding bestonden, de in bijlage X, deel B, punt 2, vermelde diensten verricht door auteurs, kunstenaars en vertolkers van kunstwerken, alsmede de in bijlage X, deel B, punten 1, 9 en 10, vermelde handelingen blijven vrijstellen, zolang dezelfde vrijstellingen worden toegepast in een van de lidstaten die op 31 december 1994 lid van de Gemeenschap waren.
 
-Afwijkingen voor de st aten die na 1 januar i 1978 tot de Gemeenschap zijn toegetreden
+## Afwijkingen voor de st aten die na 1 januar i 1978 tot de Gemeenschap zijn toegetreden
 
 ###### Artikel 375
 
@@ -3538,16 +1978,6 @@ Cyprus mag, zolang dezelfde vrijstelling wordt toegepast in één van de lidstat
 a) de in bijlage X, deel B, punten 5 en 9, vermelde handelingen;
 
 a) leveringen van bouwterreinen omschreven in bijlage X, deel B, punt 9, tot en met 31 december 2007;
-
-###### Artikel 379
-
-###### Artikel 380
-
-###### Artikel 381
-
-###### Artikel 382
-
-###### Artikel 383
 
 ###### Artikel 384
 
@@ -3581,34 +2011,6 @@ Polen mag, onder de voorwaarden die in deze lidstaat op de datum van zijn toetre
 
 ###### Artikel 389
 
-voor internationaal personenvervoer omschreven in bijlage X, deel B, punt 10, zolang dezelfde vrijstelling wordt toegepast in één van de lidstaten die op 30 april 2004 lid van de Gemeenschap waren.
-
-###### Artikel 390
-
-Slowakije mag, onder de voorwaarden die in deze lidstaat op de datum van zijn toetreding bestonden, vrijstelling blijven verlenen voor internationaal personenvervoer omschreven in bijlage X, deel B, punt 10, zolang dezelfde vrijstelling wordt toegepast in één van de lidstaten die op 30 april 2004 lid van de Gemeenschap waren.
-
-Gemeenschappelijke bepalingen met betrekking tot de afdelingen 1 en 2
-
-###### Artikel 391
-
-De lidstaten die vrijstelling verlenen voor de in de artikelen 371, 375, 376 en 377, artikel 378, lid 2, artikel 379, lid 2, en de artikelen 380 tot en met 383 bedoelde handelingen, mogen de belastingplichtigen het recht verlenen voor belastingheffing ter zake van deze handelingen te kiezen.
-
-###### Artikel 392
-
-De lidstaten mogen bepalen dat voor de leveringen van gebouwen en bouwterreinen welke met het oog op wederver- koop zijn gekocht door een belastingplichtige die voor die aankoop geen recht op aftrek heeft gehad, de maatstaf van heffing het verschil tussen de verkoopprijs en de aankoopprijs is.
-
-###### Artikel 393
-
-1. Teneinde de overgang naar de in artikel 402 bedoelde definitieve regeling te vergemakkelijken, beziet de Raad, aan de hand van een verslag van de Commissie, de toestand met betrekking tot de in de afdelingen 1 en 2 vastgestelde afwijkingen opnieuw en beslist overeenkomstig artikel 93 van het Verdrag over de eventuele intrekking van deze afwijkingen of sommige daarvan.
-
-2. In de definitieve regeling zal het personenvervoer in de lidstaat van vertrek worden belast voor het binnen de Gemeen- schap afgelegde traject, volgens door de Raad overeenkomstig artikel 93 van het Verdrag vast te stellen nadere bepalingen.
-
-Afwijkingen waarvoor machtiging is verleend
-
-Vereenvoudigingsmaatregelen en maatregelen ter voorkoming van belastin gfraude en -ontwijking
-
-###### Artikel 394
-
 hebben gesteld en onder voorbehoud dat de vereenvoudigings- maatregelen voldoen aan de in artikel 395, lid 1, tweede alinea, omschreven voorwaarde.
 
 ###### Artikel 395
@@ -3625,7 +2027,7 @@ Zodra de Commissie over alle gegevens beschikt die zij nodig acht voor de beoord
 
 4. De in de leden 2 en 3 vastgestelde procedure moet in ieder geval worden voltooid binnen acht maanden na ontvangst van het verzoek door de Commissie.
 
-Inter nationale overeenkoms ten
+## Inter nationale overeenkoms ten
 
 ###### Artikel 396
 
@@ -3633,43 +2035,11 @@ Inter nationale overeenkoms ten
 
 2. De lidstaat die een overeenkomst als bedoeld in lid 1 wil sluiten, dient een verzoek in bij de Commissie en verschaft haar alle nodige gegevens. Wanneer de Commissie meent niet over alle nodige gegevens te beschikken, neemt zij binnen twee maanden na ontvangst van het verzoek contact op met de betrokken lidstaat en deelt zij hem mede welke aanvullende gegevens vereist zijn.
 
-3. Binnen drie maanden na toezending van de in lid 2, tweede alinea, bedoelde gegevens legt de Commissie de Raad hetzij een passend voorstel voor, hetzij, wanneer zij bezwaren heeft tegen het verzoek om een afwijking, een mededeling waarin zij deze bezwaren toelicht.
-
-4. De in de leden 2 en 3 vastgestelde procedure moet in ieder geval worden voltooid binnen acht maanden na ontvangst van het verzoek door de Commissie.
-
-DIVERSE BEPALINGEN
-
-Uitvoeringsmaatregelen
-
-###### Artikel 397
-
-De Raad stelt op voorstel van de Commissie met eenparigheid van stemmen de nodige maatregelen ter uitvoering van deze richtlijn vast.
-
-BTW-Comité
-
-###### Artikel 398
-
-1. Er wordt een raadgevend comité voor de belasting over de toegevoegde waarde ingesteld, „ BTW-Comité ” genoemd.
-
-2. Het BTW-Comité is samengesteld uit vertegenwoordigers van de lidstaten en van de Commissie.
-
-Het comité staat onder voorzitterschap van een vertegenwoor- diger van de Commissie.
-
-De Commissie is belast met het secretariaat van het comité.
-
-3. Het BTW-Comité stelt zijn reglement van orde vast.
-
-4. Naast de punten die volgens deze richtlijn aan raadpleging onderworpen zijn, onderzoekt het BTW-Comité de aangelegen- heden die door zijn voorzitter op diens initiatief of op verzoek van een vertegenwoordiger van een lidstaat aan de orde worden gesteld en die betrekking hebben op de toepassing van de communautaire bepalingen inzake de BTW.
-
-Omrekeningskoers
-
-###### Artikel 399
-
 ###### Artikel 400
 
 Bij de omrekening van de in artikel 399 bedoelde bedragen in de nationale munteenheid mogen de lidstaten de uit die omrekening voortvloeiende bedragen met maximaal 10 % naar boven of beneden afronden.
 
-Andere belastingen, rechten en heffingen
+## Andere belastingen, rechten en heffingen
 
 ###### Artikel 401
 
@@ -3677,7 +2047,7 @@ Onverminderd andere communautaire bepalingen vormen de bepalingen van deze richt
 
 SLOTBEPALINGEN
 
-Overgangsregeling voor de belastingheffing in het handelsverkeer tussen de lidstaten
+## Overgangsregeling voor de belastingheffing in het handelsverkeer tussen de lidstaten
 
 ###### Artikel 402
 
@@ -3690,40 +2060,6 @@ Overgangsregeling voor de belastingheffing in het handelsverkeer tussen de lidst
 De Raad stelt overeenkomstig artikel 93 van het Verdrag passende richtlijnen vast met het oog op de aanvulling van het gemeenschappelijke BTW-stelsel en met name de geleidelijke beperking of intrekking van de afwijkingen van dit stelsel.
 
 ###### Artikel 404
-
-Overgangsmaatregelen in het kader van de toetreding tot de Europese Unie
-
-###### Artikel 405
-
-Voor de toepassing van dit hoofdstuk wordt verstaan onder:
-
-1) „ Gemeenschap ” : het grondgebied van de Gemeenschap als omschreven in artikel 5, punt 1), vóór de toetreding van de nieuwe lidstaten;
-
-2) „ nieuwe lidstaten ” : het grondgebied van de lidstaten die op 1 januari 1995 tot de Europese Unie zijn toegetreden, als omschreven voor elk van deze lidstaten in artikel 5, punt 2);
-
-3) „ uitgebreide Gemeenschap ” : het grondgebied van de Gemeenschap als omschreven in artikel 5, punt 1), na de toetreding van de nieuwe lidstaten.
-
-###### Artikel 406
-
-De bepalingen die van toepassing waren op het tijdstip dat een goed onder een regeling voor tijdelijke invoer met volledige vrijstelling van invoerrechten, onder een van de in artikel 156 bedoelde regelingen of situaties, of onder vergelijkbare regelingen of situaties in één van de nieuwe lidstaten werd geplaatst, blijven van toepassing totdat het goed na de datum van toetreding aan de regeling of de situatie wordt onttrokken, indien de volgende voorwaarden vervuld zijn:
-
-a) het goed is vóór de datum van toetreding in de Gemeen- schap of in een van de nieuwe lidstaten binnengebracht;
-
-b) het goed is bij het binnenbrengen ervan in de Gemeenschap of in een van de nieuwe lidstaten onder de regeling of situatie geplaatst;
-
-c) het goed is niet vóór de datum van toetreding aan deze regeling of situatie onttrokken.
-
-###### Artikel 407
-
-De bepalingen die van toepassing waren op het tijdstip dat een goed onder een regeling voor douanevervoer werd geplaatst, blijven van toepassing totdat het goed na de datum van toetreding aan de regeling wordt onttrokken, indien de volgende voorwaarden vervuld zijn:
-
-a) het goed is vóór de datum van toetreding onder een regeling voor douanevervoer geplaatst;
-
-b) het goed is niet vóór de datum van toetreding aan de regeling onttrokken.
-
-###### Artikel 408
-
-1. Met de invoer van een goed waarvan wordt aangetoond dat het zich in het vrije verkeer in een van de nieuwe lidstaten of in de Gemeenschap bevond, wordt gelijkgesteld:
 
 onder de in artikel 406 vermelde voorwaarden werd geplaatst;
 
@@ -3752,46 +2088,6 @@ a) het ingevoerde goed wordt verzonden of vervoerd naar een plaats buiten de uit
 b) het in de zin van artikel 408, lid 1, punt a), ingevoerde goed is geen vervoermiddel en wordt herverzonden of vervoerd naar de lidstaat waaruit het werd uitgevoerd en naar degene die het heeft uitgevoerd;
 
 c) het in de zin van artikel 408, lid 1, punt a), ingevoerde goed is een vervoermiddel dat vóór de datum van toetreding
-
-onder de algemene belastingvoorwaarden van de binnen- landse markt van een van de nieuwe lidstaten of een van de lidstaten van de Gemeenschap werd verworven of inge- voerd, of waarvoor, uit hoofde van de uitvoer ervan, geen vrijstelling of teruggaaf van de BTW werd verleend.
-
-2. De in lid 1, onder c), bedoelde voorwaarde wordt geacht te zijn vervuld in de volgende gevallen:
-
-a) de periode hussen de eerste ingebruikneming van het vervoermiddel en de dahern van toetrebing tot de Europese Unie is langer dan acht iaar;
-
-b) het bedrag van de belasting die uit hoofde van de invoer verschuldigd zou zijn, is te verwaarlozen.
-
-Omzetting en inwerkingtreding
-
-###### Artikel 411
-
-1. Richtlijn 67/227/EEG en Richtlijn 77/388/EEG worden ingetrokken, onverminderd de verplichtingen van de lidstaten met betrekking tot de in bijlage XI, deel B, aangegeven termijnen voor de omzetting en de uitvoering van deze richtlijnen.
-
-2. Verwijzingen naar de ingetrokken richtlijnen gelden als verwijzingen naar deze richtlijn en worden gelezen volgens de concordantietabel in bijlage XII.
-
-###### Artikel 412
-
-1. De lidstaten doen de nodige wettelijke en bestuursrechtelijke bepalingen in werking treden om uiterlijk op 1 januari 2008 aan artikel 2, lid 3, artikel 44, artikel 59, lid 1, artikel 399, en bijlage III, punt 18, van deze richtlijn te voldoen. Zij delen de Commissie de tekst van die bepalingen mede, alsmede een tabel ter weergave van het verband tussen die bepalingen en deze richtlijn.
-
-Wanneer de lidstaten die bepalingen aannemen, wordt in de bepalingen zelf of bij de officiële bekendmaking daarvan naar deze richtlijn verwezen. De regels voor de verwijzing worden vastgesteld door de lidstaten.
-
-2. De lidstaten delen de Commissie de tekst van de belang- rijkste bepalingen van intern recht mee die zij op het onder deze richtlijn vallende gebied vaststellen.
-
-###### Artikel 413
-
-Deze richtlijn treedt in werking op 1 januari 2007.
-
-###### Artikel 414
-
-Deze richtlijn is gericht tot de lidstaten.
-
-Gedaan te Brussel, 28 november 2006.
-
-Voor de Raad
-
-De voorzitter
-
-E. HEINÄLUOMA
 
 BIJLAGE I
 
@@ -4079,8 +2375,6 @@ Antiquiteiten
 
 Andere voorwerpen dan kunstvoorwerpen en voorwerpen voor verzamelingen, ouder dan 100 jaar (GN-code 9706 00 00).
 
-## DEEL B
-
 BIJLAGE X
 
 LIJST VAN HANDELINGEN WAARVOOR DE IN DE ARTIKELEN 370 EN 371 EN DE ARTIKELEN 375 TOT EN MET 390 BEDOELDE AFWIJKINGEN GELDEN
@@ -4222,8 +2516,6 @@ Termijnen voor de omzetting in nationaal recht
 (bedoeld in artikel 411)
 
 Richtlijn Omzettingstermijn
-
-## DEEL B
 
 Richtlijn Omzettingstermijn
 
@@ -5477,12 +3769,6 @@ streepje, dat artikel 16, lid 1, vervangt
 
 — lid 1, eerste alinea, B, eerste alinea, onder e), tweede alinea, tweede streepje, tweede volzin
 
-###### Artikel 154
-
-###### Artikel 154
-
-Artikel 157, lid 2
-
 Richtlijn 67/227/EEG Richtlijn 77/388/EEG Wijzigingsrichtlijnen Andere besluiten Deze richtlijn
 
 — lid 1, eerste alinea, B, eerste alinea, onder e), derde alinea, eerste streepje
@@ -5530,10 +3816,6 @@ en met vijfde streepje Artikel 141, onder a) tot en met e)
 ###### Art. 28. quinquies,   lid   1,   eerste   en
 
 tweede volzin Artikel 68, eerste en tweede alinea
-
-—
-
-Artikel 158, lid 1, onder a), b) en c)
 
 ###### Art. 28. quinquies,   lid   4,   eerste   en
 
@@ -6155,132 +4437,4 @@ Artikel 56, lid 3 Artikel 57, lid 2 Artikel 357
 
 —
 
-Bijlage VIII, deel II, onder 2), a), van de Toetredingsakte van Griekenland Artikel 287, onder 1)
-
-Bijlage VIII, deel II, onder 2), b), van de Toetredingsakte van Griekenland Artikel 375
-
-Artikel 287, onder 2) en 3)
-
-Bijlage XXXII, deel IV, onder 3), a), eerste en tweede streepje, van de Toetredings- akte van Spanje en Portugal
-
-Bijlage XXXII, deel IV, onder 3), b), eerste alinea, van de Toetredingsakte van Spanje en Portugal
-
-###### Artikel 377
-
-###### Artikel 104
-
-Artikel 287, onder 4)
-
-Bijlage XV, deel IX, onder 2), c), eerste alinea, van de Toetredingsakte van Oostenrijk, Finland en Zweden
-
-Artikel 117, lid 1
-
-Bijlage XV, deel IX, onder 2), f), eerste alinea, van de Toetredingsakte van Oostenrijk, Finland en Zweden
-
-###### Artikel 119
-
-Bijlage XV, deel IX, onder 2), g), eerste alinea, van de Toetredingsakte van Oostenrijk, Finland en Zweden
-
-Artikel 378, lid 1
-
-Bijlage XV, deel IX, onder 2), h), eerste alinea, eerste en tweede streepje, van de Toetredingsakte van Oostenrijk, Finland en Zweden
-
-—
-
-Bijlage XV, deel IX, onder 2), i), eerste alinea, eerste streepje, van de Toetre- dingsakte van Oostenrijk, Finland en Zweden
-
-Artikel 378, lid 2, onder a) en b)
-
-Bijlage XV, deel IX, onder 2), i), eerste alinea, tweede en derde streepje, van de Toetredingsakte van Oostenrijk, Finland en Zweden
-
-Artikel 287, onder 5)
-
-Bijlage XV, deel IX, onder 2), j), van de Toetredingsakte van Oostenrijk, Finland en Zweden
-
-Artikel 111, onder a)
-
-Bijlage XV, deel IX, onder 2), l), eerste alinea, van de Toetredingsakte van Oostenrijk, Finland en Zweden
-
-Bijlage XV, deel IX, onder 2), m), eerste alinea, van de Toetredingsakte van Oostenrijk, Finland en Zweden
-
-Artikel 379, lid 1
-
-Artikel 379, lid 2
-
-Bijlage XV, deel IX, onder 2), n), eerste alinea, eerste en tweede streepje, van de Toetredingsakte van Oostenrijk, Finland en Zweden
-
-###### Artikel 253
-
-Bijlage XV, deel IX, onder 2), x), eerste streepje, van de Toetredingsakte van Oostenrijk, Finland en Zweden
-
-Artikel 287, onder 6)
-
-Bijlage XV, deel IX, onder 2), x), tweede streepje, van de Toetredingsakte van Oostenrijk, Finland en Zweden
-
 Richtlijn 67/227/EEG Richtlijn 77/388/EEG Wijzigingsrichtlijnen Andere besluiten Deze richtlijn
-
-Artikel 111, onder b)
-
-Bijlage XV, deel IX, onder 2), z), eerste alinea, van de Toetredingsakte van Oostenrijk, Finland en Zweden
-
-###### Artikel 380
-
-Bijlage XV, deel IX, onder 2), aa), eerste alinea, eerste en tweede streepje, van de Toetredingsakte van Oostenrijk, Finland en Zweden
-
-Protocol nr. 2 van de Toetredingsakte van Oostenrijk, Finland en Zweden Artikel 6, lid 1, onder d)
-
-###### Artikel 123
-
-Bijlage V, lid 5, onder 1), a), van de Toetredingsakte van Tsjechië, Estland, Cyprus, Letland, Litouwen, Hongarije, Malta, Polen, Slovenië en Slowakije
-
-Bijlage V, lid 5, onder 1), b), van de Toetredingsakte van 2003 Artikel 381
-
-Bijlage VI, lid 7, onder 1), a), van de Toetredingsakte van 2003 Artikel 124
-
-Bijlage VI, lid 7, onder 1), b), van de Toetredingsakte van 2003 Artikel 382
-
-Artikel 125, leden 1 en 2
-
-Bijlage VII, lid 7, onder 1), eerste en tweede alinea, van de Toetredingsakte van 2003
-
-Bijlage VIII, lid 7, onder 1), derde alinea, van de Toetredingsakte van 2003 —
-
-Bijlage VII, lid 7, onder 1), vierde alinea, van de Toetredingsakte van 2003 Artikel 383, onder a)
-
-Bijlage VII, lid 7, onder 1), vijfde alinea, van de Toetredingsakte van 2003 —
-
-Bijlage VII, lid 7, onder 1), zesde alinea, van de Toetredingsakte van 2003 Artikel 383, onder b)
-
-Bijlage VIII, lid 7, onder 1), a), van de Toetredingsakte van 2003 —
-
-Bijlage VIII, lid 7, onder 1), b), tweede alinea, van de Toetredingsakte van 2003 Artikel 384, onder a)
-
-Bijlage VIII, lid 7, onder 1), derde alinea, van de Toetredingsakte van 2003 Artikel 384, onder b)
-
-Bijlage X, lid 7, onder 1), a), onder i) en ii), van de Toetredingsakte van 2003 Artikel 126, onder a) en b)
-
-Bijlage X, lid 7, onder 1) c), van de Toetredingsakte van 2003 Artikel 386
-
-Bijlage XI, lid 7, onder 1), van de Toetredingsakte van 2003 Artikel 127
-
-Bijlage XI, lid 7, onder 2), a), van de Toetredingsakte van 2003 Artikel 387, onder c)
-
-Bijlage XI, lid 7, onder 2), b), van de Toetredingsakte van 2003 Artikel 387, onder a)
-
-Bijlage XI, lid 7, onder 2), c), van de Toetredingsakte van 2003 Artikel 387, onder b)
-
-Bijlage XII, lid 9, onder 1), a), van de Toetredingsakte van 2003 Artikel 128, leden 1 en 2
-
-Bijlage XII, lid 9, onder 1), b), van de Toetredingsakte van 2003 Artikel 128, leden 3, 4 en 5
-
-Bijlage XII, lid 9, onder 2), van de Toetredingsakte van 2003 Artikel 388
-
-Bijlage XIII, lid 9, onder 1), a), van de Toetredingsakte van 2003 Artikel 129, leden 1 en 2
-
-Bijlage XIII, lid 9, onder 1), b), van de Toetredingsakte van 2003 Artikel 389
-
-Bijlage XIV, lid 7, eerste alinea, van de Toetredingsakte van 2003 Artikel 130, onder a) en b)
-
-Bijlage XIV, lid 7, tweede alinea, van de Toetredingsakte van 2003 —
-
-Bijlage XIV, lid 7, derde alinea, van de Toetredingsakte van 2003 Artikel 390

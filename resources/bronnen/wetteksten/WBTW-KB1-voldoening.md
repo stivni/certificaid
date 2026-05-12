@@ -1,12 +1,15 @@
 ---
-bijgewerkt: '2024'
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["VI.B", "2.4"]
+itaa-lex-sectie: "VI.B"
+wet: "K.B. nr. 1, 29 december 1992, met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "2024"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 4
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: VI.B
 provenance:
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB1-voldoening.pdf
@@ -14,110 +17,25 @@ provenance:
       version: '2024'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: f9ce762
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:24Z'
+  generated_at: '2026-05-12T15:58:18Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A7/B5: de eerste 90 regels tonen een dislocated inhoudsopgave-fragment (Titel, Art. 4, Afdeling 3-6, Art. 13ter/13quater, Hoofdstuk II-V, Art. 30bis/31-33, Bijlagen) die door 2-kolom extractie vóór de eigenlijke wettekst is terechtgekomen. De echte wettige tekst begint pas op regel 91 ('Eerste hoofdstuk. - Facturering'). Verder: D3: verspreid door de tekst staan wijzigingsmarkeringen als '(1)<KB 2012-12-19/03, art. 3, 033; Inwerkingtreding : 01-01-2013>' inline in de body, niet als voetnoten. Op regel 356-364 staan verwijzingen naar KB-nummers en inwerkingtreding-datums midden in de paragraaftekst (restes van voetnootopmaak)."
-    layer1:
-      file_size_chars: 109660
-      flags: []
-      heading_count: 62
-      max_section_chars: 9652
-      run_at: '2026-05-11T13:40:47Z'
-      run_id: 20260511-134044
-      status: pass
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "A7/B5: de eerste 90 regels tonen een dislocated inhoudsopgave-fragment (Titel, Art. 4, Afdeling 3-6, Art. 13ter/13quater, Hoofdstuk II-V, Art. 30bis/31-33, Bijlagen) die door 2-kolom extractie vóór de eigenlijke wettekst is terechtgekomen. De echte wettige tekst begint pas op regel 91 ('Eerste hoofdstuk. - Facturering'). Verder: D3: verspreid door de tekst staan wijzigingsmarkeringen als '(1)<KB 2012-12-19/03, art. 3, 033; Inwerkingtreding : 01-01-2013>' inline in de body, niet als voetnoten. Op regel 356-364 staan verwijzingen naar KB-nummers en inwerkingtreding-datums midden in de paragraaftekst (restes van voetnootopmaak)."
-      concrete_problemen:
-        - regel: 53
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: "Titel\n\n29 DECEMBER 1992. - Koninklijk besluit nr. 1 ... [TOC-fragment bovenaan body]"
-        - regel: 59
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: '#### Art. 4 [losse verwijzing zonder inhoud, onderdeel dislocated TOC]'
-        - regel: 61
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: '### Afdeling 3. [1 - Vermeldingen]1 [TOC-regel bovenaan vóór eigenlijke tekst]'
-        - regel: 83
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: '#### Art. 30bis, 31-33 [samengevatte art-ref als heading in TOC-fragment]'
-        - regel: 115
-          categorie: D3
-          type: other
-          voorbeeld: '(1)<KB 2012-12-19/03, art. 3, 033; Inwerkingtreding : 01-01-2013> [inline wijzigingsmarkering na artikel-inhoud]'
-        - regel: 356
-          categorie: D3
-          type: other
-          voorbeeld: '<KB 1998-11-26/42, art. 2, 008; Inwerkingtreding : 01-01-1999> <KB 2000-07- [midden in alinea, afgebroken]'
-        - regel: 357
-          categorie: D1
-          type: abrupt-cutoff
-          voorbeeld: '20/63, art. 6, 012; Inwerkingtreding : 01-01-2002> [onvolledige KB-referentie over regelgrens]'
-status: beschikbaar
-tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 1, 29 december 1992, met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde
----
+    status: unreviewed
+    confirmed_at:
+    
+    rationale:
+    
+    layer2:---
 
 # BTW KB nr. 1 — Voldoening
 
 *Bijgewerkt tot en met 2024 — gecoördineerde versie.*
 
-Titel
-
 29 DECEMBER 1992. - Koninklijk besluit nr. 1 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde.
-
-Bron : FINANCIEN
-
-#### Art. 4
-
-### Afdeling 3. [1 - Vermeldingen]1
-
-#### Art. 5
-
-### Afdeling 4. [1 - Andere verplichtingen]1
-
-### Afdeling 5. [1 - Vereenvoudigde facturen]1
-
-### Afdeling 6. [1 Gestructureerde elektronische facturen]1
-
-#### Art. 13ter, 13quater
-
-## Hoofdstuk II. - De boekhouding.
-
-## Hoofdstuk III. [1 - Periodieke aangifte, vervangende aangifte en bijzondere aangifte]1
-
-## HOOFDSTUK IIIbis. [1 - Schuldenaar van de belasting]1
-
-## Hoofdstuk IV. - Andere verplichtingen.
-
-## HOOFDSTUK V. [1 - Tijdelijke bepaling]1
-
-#### Art. 30bis, 31-33
-
-Bijlagen.
-
-#### Art. N1-N4
-
-Tekst
-
-Eerste hoofdstuk. - [1 Facturering]1
-(1)<KB 2012-12-19/03, art. 1, 033; Inwerkingtreding : 01-01-2013>
 
 ### Afdeling 1. [1 - Uit te reiken facturen en op te stellen stukken]1
 

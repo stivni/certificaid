@@ -1,12 +1,15 @@
 ---
-bijgewerkt: 12.11.2018
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-bron_rol: normatief
+tags: ["1.2", "4.0"]
+itaa-lex-sectie: ""
+wet: "Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld"
+bron_rol: "normatief"
+status: "beschikbaar"
+bijgewerkt: "12.11.2018"
+bron: "onbekend"
 chunk:
   level: 2
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: ''
 provenance:
   inputs:
     - id: resources/raw/wetteksten/EU-Richtlijn-witwassen-2018-1673.pdf
@@ -14,65 +17,19 @@ provenance:
       version: 12.11.2018
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: f9ce762
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:56:15Z'
+  generated_at: '2026-05-12T15:58:16Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A7/B5: de heading-structuur is ernstig verward door 2-kolom extractie. Artikel-titels staan ACHTER de artikelinhoud in plaats van ervoor: zo staat de body-tekst van Art. 4 t/m Art. 10 op regels 227-311, terwijl de bijbehorende ###### headings ('Artikel 4. Medeplichtigheid...', 'Artikel 5. Sancties...') pas op regels 249-325 verschijnen — de opmaak-kolom rechts met de korte artikel-titels is later in de body ingevoerd dan de inhoud-kolom links. Dit maakt de structuur onleesbaar voor RAG."
-    layer1:
-      file_size_chars: 39811
-      flags: []
-      heading_count: 16
-      max_section_chars: 20441
-      run_at: '2026-05-11T16:52:50Z'
-      run_id: 20260511-165250
-      status: pass
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "A7/B5: de heading-structuur is ernstig verward door 2-kolom extractie. Artikel-titels staan ACHTER de artikelinhoud in plaats van ervoor: zo staat de body-tekst van Art. 4 t/m Art. 10 op regels 227-311, terwijl de bijbehorende ###### headings ('Artikel 4. Medeplichtigheid...', 'Artikel 5. Sancties...') pas op regels 249-325 verschijnen — de opmaak-kolom rechts met de korte artikel-titels is later in de body ingevoerd dan de inhoud-kolom links. Dit maakt de structuur onleesbaar voor RAG."
-      concrete_problemen:
-        - regel: 227
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: 1. De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat de hierna genoemde omstandigheden... [dit is Art. 6 inhoud, maar Art. 6 heading staat pas op r.257]
-        - regel: 233
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: 1. De lidstaten nemen de nodige maatregelen... [Art. 7 inhoud voor heading Art. 7 op r.261]
-        - regel: 245
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: 1. De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat rechtspersonen aansprakelijk kunnen worden gesteld... [Art. 7 body voor heading]
-        - regel: 249
-          categorie: B5
-          type: other
-          voorbeeld: '###### Artikel 4 Medeplichtigheid, uitlokking en poging [heading na content van Art.4]'
-        - regel: 273
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat een rechtspersoon... [Art. 8 body voor heading op r.315]
-        - regel: 327
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: 1. Elke lidstaat neemt de nodige maatregelen om zijn rechtsmacht te vestigen... [Art. 10 body voor heading op r.323]
-        - regel: 349
-          categorie: B5
-          type: other
-          voorbeeld: '###### Artikel 11 Onderzoeksmiddelen [heading na body-tekst van Art.11 op r.327]'
-status: beschikbaar
-tags:
-  - '1.2'
-  - '4.0'
-wet: Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld
----
+    status: unreviewed
+    confirmed_at:
+    
+    rationale:
+    
+    layer2:---
 
 # Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld
 

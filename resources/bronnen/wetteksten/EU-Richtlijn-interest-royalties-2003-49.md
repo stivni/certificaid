@@ -1,12 +1,15 @@
 ---
-bijgewerkt: 26.06.2003
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["X", "2.8"]
+itaa-lex-sectie: "X"
+wet: "Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "26.06.2003"
+bron: "onbekend"
 chunk:
   level: 2
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: X
 provenance:
   inputs:
     - id: resources/raw/wetteksten/EU-Richtlijn-interest-royalties-2003-49.pdf
@@ -14,79 +17,23 @@ provenance:
       version: 26.06.2003
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: f9ce762
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:56:15Z'
+  generated_at: '2026-05-12T15:58:15Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A1: paginakoppen van het Publicatieblad ('26.6.2003 L 157/49 Publicatieblad van de Europese Unie NL', idem /50, /51, /52, /53, /54) staan als plain-text regels in de body verspreid — klassiek PDF-kolom-artefact. A7: de aanhef-tekst op regel 55 ('betreffende een gemeenschappelijke belastingregeling ...') is een duplicaat van de H1-titel: bij 2-kolom extractie is de richtlijn-koptekst na de pagina-header opnieuw binnengelopen. Verder is artikel 1 lid 2 volledig ontbrekend (spring van lid 1 naar lid 3 op regel 105)."
-    layer1:
-      file_size_chars: 23404
-      flags: []
-      heading_count: 11
-      max_section_chars: 6633
-      run_at: '2026-05-11T16:52:50Z'
-      run_id: 20260511-165250
-      status: pass
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "A1: paginakoppen van het Publicatieblad ('26.6.2003 L 157/49 Publicatieblad van de Europese Unie NL', idem /50, /51, /52, /53, /54) staan als plain-text regels in de body verspreid — klassiek PDF-kolom-artefact. A7: de aanhef-tekst op regel 55 ('betreffende een gemeenschappelijke belastingregeling ...') is een duplicaat van de H1-titel: bij 2-kolom extractie is de richtlijn-koptekst na de pagina-header opnieuw binnengelopen. Verder is artikel 1 lid 2 volledig ontbrekend (spring van lid 1 naar lid 3 op regel 105)."
-      concrete_problemen:
-        - regel: 53
-          categorie: A1
-          type: form-feed
-          voorbeeld: 26.6.2003 L 157/49 Publicatieblad van de Europese Unie NL
-        - regel: 55
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's...
-        - regel: 83
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: "RICHTLIJN 2003/49/EG VAN DE RAAD\n\nvan 3 juni 2003\n\nbron of door aanslag wordt geïnd..."
-        - regel: 103
-          categorie: A1
-          type: form-feed
-          voorbeeld: 26.6.2003 L 157/50 Publicatieblad van de Europese Unie NL
-        - regel: 105
-          categorie: D2
-          type: missing-section
-          voorbeeld: Artikel 1 lid 2 ontbreekt volledig (spring van lid 1 naar lid 3)
-        - regel: 139
-          categorie: A1
-          type: form-feed
-          voorbeeld: 26.6.2003 L 157/51 Publicatieblad van de Europese Unie NL
-        - regel: 211
-          categorie: A1
-          type: form-feed
-          voorbeeld: 26.6.2003 L 157/52 Publicatieblad van de Europese Unie NL
-        - regel: 269
-          categorie: A1
-          type: form-feed
-          voorbeeld: 26.6.2003 L 157/53 Publicatieblad van de Europese Unie NL
-        - regel: 307
-          categorie: A1
-          type: form-feed
-          voorbeeld: 26.6.2003 L 157/54 Publicatieblad van de Europese Unie NL
-status: beschikbaar
-tags:
-  - X
-  - '2.8'
-wet: Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten
----
+    status: unreviewed
+    confirmed_at:
+    
+    rationale:
+    
+    layer2:---
 
 # Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten
 
 *Bijgewerkt tot en met 26.06.2003 — gecoördineerde versie.*
-
-26.6.2003 L 157/49 Publicatieblad van de Europese Unie NL
 
 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten
 
@@ -136,8 +83,6 @@ Werkingssfeer en procedure
 
 1. Uitkeringen van interest of royalty's die ontstaan in een lidstaat, worden vrijgesteld van alle belastingen in die bronstaat (door inhouding dan wel door aanslag), op voorwaarde dat een onderneming van een andere lidstaat, of een in een andere lidstaat gelegen vaste inrichting van een onderneming van een lidstaat, de uiteindelijk gerechtigde tot de interest of de royalty's is.
 
-26.6.2003 L 157/50 Publicatieblad van de Europese Unie NL
-
 3. Een vaste inrichting wordt alleen als uitbetaler van inte- rest of royalty's behandeld voorzover de betrokken uitkeringen voor die vaste inrichting in de lidstaat waar zij gelegen is, een aftrekbare bedrijfsuitgave vormen.
 
 4. Een onderneming van een lidstaat wordt alleen als uitein- delijk gerechtigde tot interest of royalty's behandeld indien zij de betrokken uitkeringen te eigen gunste ontvangt, en niet als bemiddelende instantie, bijvoorbeeld als tussenpersoon, trustee of gemachtigde van een derde.
@@ -171,8 +116,6 @@ c) een verklaring dat de voorwaarden van artikel 3, onder a), punt iii), voor de
 d) een verklaring dat de ontvangende onderneming houdster is van een minimumdeelneming dan wel van een minimum- percentage van de stemrechten overeenkomstig artikel 3, onder b);
 
 e) de vermelding hoelang die deelneming of stemrechten bestaan.
-
-26.6.2003 L 157/51 Publicatieblad van de Europese Unie NL
 
 14. Indien de voorwaarden voor vrijstelling niet langer vervuld zijn, meldt de ontvangende onderneming of vaste inrichting dit onverwijld aan de uitbetalende onderneming of vaste inrichting en, indien de bronstaat dit eist, aan de bevoegde autoriteit van die staat.
 
@@ -244,8 +187,6 @@ De deelnemingen mogen enkel ondernemingen betreffen die binnen de Gemeenschap ge
 
 De lidstaten hebben echter de mogelijkheid om het crite- rium van een minimumdeelneming in het kapitaal te vervangen door dat van een minimumpercentage van de stemrechten;
 
-26.6.2003 L 157/52 Publicatieblad van de Europese Unie NL
-
 ###### Artikel 4
 
 Uitsluiting van niet als interest of royalty's aan te merken uitkeringen
@@ -302,8 +243,6 @@ b) het gedeelte van de belasting over de inkomsten van de onderneming of vaste i
 
 Uitvoering
 
-26.6.2003 L 157/53 Publicatieblad van de Europese Unie NL
-
 Wanneer de lidstaten deze bepalingen aannemen, wordt in die bepalingen naar de onderhavige richtlijn verwezen of wordt hiernaar verwezen bij de officiële bekendmaking van die bepa- lingen. De regels voor deze verwijzing worden vastgesteld door de lidstaten.
 
 2. De lidstaten delen de Commissie de tekst van de belang- rijkste bepalingen van intern recht mee die zij op het onder deze richtlijn vallende gebied vaststellen. In deze mededeling verstrekken de lidstaten een concordantietabel, waaruit blijkt welke vastgestelde nationale bepalingen overeenkomen met de bepalingen van deze richtlijn.
@@ -339,8 +278,6 @@ Voor de Raad
 De voorzitter
 
 N. CHRISTODOULAKIS
-
-26.6.2003 L 157/54 Publicatieblad van de Europese Unie NL
 
 Lijst van ondernemingen die onder artikel 3, onder a), van de richtlijn vallen
 

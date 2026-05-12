@@ -1,12 +1,15 @@
 ---
-bijgewerkt: 23.03.2011
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["VI.A", "2.4"]
+itaa-lex-sectie: "VI.A"
+wet: "Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "23.03.2011"
+bron: "onbekend"
 chunk:
-  level: 5
+  level: 3
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: VI.A
 provenance:
   inputs:
     - id: resources/raw/wetteksten/BTW-uitvoeringsverordening-282-2011.pdf
@@ -14,61 +17,19 @@ provenance:
       version: 23.03.2011
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: f9ce762
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:56:14Z'
+  generated_at: '2026-05-12T15:58:13Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B4/B5: structuurlabels zoals 'ONDERWERP', 'TOEPASSINGSGEBIED', 'BELASTINGPLICHTIGEN', 'BELASTBARE HANDELINGEN', 'PLAATS VAN BELASTBARE HANDELINGEN' staan als plain-text regels zonder heading-prefix (r.177, 183-185, 211-213, 219-221, 295-298, etc.) — een mens zou deze als ## headings typen. A7: de bijlage-headings 'O n d e r a f d e l i n g 1', 'S t a t u s v a n d e a f n e m e r' etc. (r.375-377) zijn lettergespacieerd als PDF-artefact. B5: 'Art. 33. van Richtlijn 2006/112/EG wijzigt echter wel de' (r.347) en 'Art. 7. van de onderhavige verordening' (r.825) zijn als heading gemarkeerd maar zijn eigenlijk cross-references midden in tekst. De transponeringstabel (bijlage IV, r.955-1052) toont kolom-alignment met spacing-artefacten ('## Hoofdstuk I  Hoofdstuk I')."
-    layer1:
-      file_size_chars: 76490
-      flags: []
-      heading_count: 84
-      max_section_chars: 17230
-      run_at: '2026-05-11T16:52:50Z'
-      run_id: 20260511-165250
-      status: pass
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "B4/B5: structuurlabels zoals 'ONDERWERP', 'TOEPASSINGSGEBIED', 'BELASTINGPLICHTIGEN', 'BELASTBARE HANDELINGEN', 'PLAATS VAN BELASTBARE HANDELINGEN' staan als plain-text regels zonder heading-prefix (r.177, 183-185, 211-213, 219-221, 295-298, etc.) — een mens zou deze als ## headings typen. A7: de bijlage-headings 'O n d e r a f d e l i n g 1', 'S t a t u s v a n d e a f n e m e r' etc. (r.375-377) zijn lettergespacieerd als PDF-artefact. B5: 'Art. 33. van Richtlijn 2006/112/EG wijzigt echter wel de' (r.347) en 'Art. 7. van de onderhavige verordening' (r.825) zijn als heading gemarkeerd maar zijn eigenlijk cross-references midden in tekst. De transponeringstabel (bijlage IV, r.955-1052) toont kolom-alignment met spacing-artefacten ('## Hoofdstuk I  Hoofdstuk I')."
-      concrete_problemen:
-        - regel: 177
-          categorie: B4
-          type: other
-          voorbeeld: ONDERWERP
-        - regel: 211
-          categorie: B4
-          type: other
-          voorbeeld: "BELASTINGPLICHTIGEN\n\n(TITEL III VAN RICHTLIJN 2006/112/EG)"
-        - regel: 375
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: "O n d e r a f d e l i n g 1\n\nS t a t u s v a n d e a f n e m e r"
-        - regel: 347
-          categorie: B5
-          type: other
-          voorbeeld: '### Art. 33. van Richtlijn 2006/112/EG wijzigt echter wel de'
-        - regel: 957
-          categorie: C3
-          type: pseudo-table
-          voorbeeld: '## Hoofdstuk I  Hoofdstuk I'
-        - regel: 825
-          categorie: B5
-          type: other
-          voorbeeld: '### Art. 7. van de onderhavige verordening'
-status: beschikbaar
-tags:
-  - VI.A
-  - '2.4'
-wet: Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG
----
+    status: unreviewed
+    confirmed_at:
+    
+    rationale:
+    
+    layer2:---
 
 # Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoering van Richtlijn 2006/112/EG
 
@@ -93,8 +54,6 @@ Overwegende hetgeen volgt:
 (2)  Richtlijn 2006/112/EG behelst voorschriften voor de btw  die in bepaalde gevallen ruimte laten voor interpretatie  door de lidstaten. De vaststelling van gemeenschappelijke  maatregelen ter uitvoering van Richtlijn 2006/112/EG  zou moeten leiden tot een toepassing van het btw-stelsel  die meer overeenstemt met het doel van de interne markt  in de gevallen waarin bij de toepassing verschillen optre den of zouden kunnen optreden die onverenigbaar zijn  met de goede werking van die interne markt. Deze uit voeringsmaatregelen zijn slechts wettelijk bindend vanaf  de datum van inwerkingtreding van deze verordening en  doen geen afbreuk aan de geldigheid van de voordien  door de lidstaten vastgestelde wetgeving, noch van de  interpretatie die door deze lidstaten voor die datum is  gehanteerd.
 
 ( 1 ) PB L 347 van 11.12.2006, blz. 1.  ( 2 ) PB L 288 van 29.10.2005, blz. 1.  ( 3 ) PB L 44 van 20.2.2008, blz. 11.
-
-II
 
 (Niet-wetgevingshandelingen)
 
@@ -396,10 +355,6 @@ Plaats van een dienst
 
 (Artikelen 43 tot en met 59 van richtlijn 2006/112/EG)
 
-O n d e r a f d e l i n g 1
-
-S t a t u s v a n d e a f n e m e r
-
 ###### Artikel 17
 
 1.  Wanneer de plaats van een dienst afhangt van het al dan  niet belastingplichtig zijn van de afnemer, wordt de status van  de afnemer bepaald op basis van de artikelen 9 tot en met 13  en artikel 43 van Richtlijn 2006/112/EG.
@@ -424,10 +379,6 @@ a) indien hij van de afnemer een verklaring verkrijgt die is  afgegeven door de 
 
 b) indien hij, wanneer de afnemer niet in het bezit is van die  verklaring, beschikt over het btw-nummer, of een soortgelijk  bedrijvenidentificatienummer dat aan de afnemer is toege kend door diens land van vestiging of enig ander bewijs  waaruit blijkt dat de afnemer een belastingplichtige is en  mits hij controles van een redelijke omvang verricht van  de juistheid van de door de afnemer verstrekte informatie,  met behulp van in het handelsverkeer normale veiligheids maatregelen, zoals maatregelen inzake identiteits- en beta lingscontroles.
 
-O n d e r a f d e l i n g 2
-
-H o e d a n i g h e i d v a n d e a f n e m e r
-
 ###### Artikel 19
 
 Voor de toepassing van de regels inzake de plaats van een  dienst opgenomen in de artikelen 44 en 45 van Richtlijn  2006/112/EG wordt een belastingplichtige, of een als een be lastingplichtige te beschouwen niet-belastingplichtige rechtsper soon, die uitsluitend voor privégebruik, inclusief privégebruik  van zijn personeel, diensten afneemt als een niet-belastingplich tige aangemerkt.
@@ -437,10 +388,6 @@ Voor de toepassing van de regels inzake de plaats van een  dienst opgenomen in d
 Tenzij hij beschikt over tegengestelde informatie, bijvoorbeeld  op grond van de aard van de verrichte diensten, kan de dienst verrichter ervan uitgaan dat de diensten voor de bedrijfsdoel einden van de afnemer bestemd zijn, indien de afnemer hem  voor de handeling in kwestie diens individuele btw-identificatie nummer heeft meegedeeld.
 
 Eenzelfde dienst die zowel voor privégebruik, inclusief privé gebruik van het personeel van de afnemer, als voor diens be drijfsdoeleinden bestemd is, valt uitsluitend onder artikel 44 van  Richtlijn 2006/112/EG, op voorwaarde dat er geen misbruik is.
-
-O n d e r a f d e l i n g 3
-
-P l a a t s v a n v e s t i g i n g v a n d e a f n e m e r
 
 ###### Artikel 20
 
@@ -480,17 +427,9 @@ Wanneer niet overeenkomstig de eerste en de tweede alinea van  het onderhavige l
 
 2.  Wanneer onder de artikelen 58 en 59 van Richtlijn  2006/112/EG vallende diensten worden verricht voor een  niet-belastingplichtige die in meer dan één land gevestigd is of  zijn woonplaats in één land en zijn gebruikelijke verblijfplaats in  een ander land heeft, wordt bij de plaatsbepaling van die dien sten voorrang gegeven aan de plaats die het beste garandeert dat  die diensten worden belast op de plaats van het werkelijke  verbruik.
 
-O n d e r a f d e l i n g 4
-
-G e m e e n s c h a p p e l i j k e b e p a l i n g b e t r e f f e n d e  d e b e p a l i n g v a n d e s t a t u s , d e h o e d a n i g h e i d  e n d e p l a a t s v a n v e s t i g i n g v a n d e a f n e m e r
-
 ###### Artikel 25
 
 Voor de toepassing van de regels betreffende de plaats van een  dienst worden alleen de omstandigheden in aanmerking geno men die heersen op het tijdstip waarop het belastbare feit  plaatsvindt. Latere wijzigingen in het gebruik van de verrichte  dienst hebben geen invloed op de plaatsbepaling, op voor waarde dat er geen misbruik is.
-
-O n d e r a f d e l i n g 5
-
-P l a a t s v a n e e n d i e n s t k r a c h t e n s d e h o o f d  r e g e l s
 
 ###### Artikel 26
 
@@ -508,10 +447,6 @@ Diensten die worden verricht in het kader van uitvaartverzor ging, vallen voor z
 
 Onverminderd artikel 41 van deze verordening valt de vertaling  van teksten onder de artikelen 44 en 45 van Richtlijn  2006/112/EG.
 
-O n d e r a f d e l i n g 6
-
-D i e n s t e n v a n t u s s e n p e r s o n e n
-
 ###### Artikel 30
 
 Onder diensten van tussenpersonen zoals bedoeld in artikel 46  van Richtlijn 2006/112/EG worden verstaan de diensten
@@ -527,10 +462,6 @@ Door in naam en voor rekening van een ander handelende  tussenpersonen verrichte
 a) artikel 44 van Richtlijn 2006/112/EG indien zij worden ver richt voor een belastingplichtige of voor een als belasting plichtige  te  beschouwen  niet-belastingplichtige  rechts-  persoon;
 
 b) artikel 46 van die richtlijn indien zij worden verricht voor  een niet-belastingplichtige.
-
-O n d e r a f d e l i n g 7
-
-C u l t u r e l e , a r t i s t i e k e , s p o r t i e v e , w e t e n  s c h a p p e l i j k e , o n d e r w i j s - , a m u s e m e n t s - o f  s o o r t g e l i j k e d i e n s t e n
 
 ###### Artikel 32
 
@@ -552,17 +483,9 @@ De in artikel 53 van Richtlijn 2006/112/EG bedoelde samen hangende diensten omva
 
 Die samenhangende diensten omvatten met name het gebruik  van vestiaires of sanitaire voorzieningen maar niet de loutere  diensten van tussenpersonen met betrekking tot de verkoop van  toegangsbiljetten.
 
-O n d e r a f d e l i n g 8
-
-M e t v e r v o e r s a m e n h a n g e n d e d i e n s t e n , e x  p e r t i s e s o f w e r k z a a m h e d e n m e t b e t r e k  k i n g t o t r o e r e n d e z a k e n
-
 ###### Artikel 34
 
 Behalve wanneer de geassembleerde goederen deel gaan uitma ken van onroerende goederen, wordt de plaats van een voor een  niet-belastingplichtige verrichte dienst, die er uitsluitend in be staat dat een belastingplichtige de diverse onderdelen van een  machine, die hem alle door zijn afnemer zijn bezorgd, assem bleert, vastgesteld overeenkomstig artikel 54 van Richtlijn  2006/112/EG.
-
-O n d e r a f d e l i n g 9
-
-H e t  v e r s t r e k k e n  v a n  r e s t a u r a n t -  e n  c a t e r i n g d i e n s t e n ,  a a n  b o o r d  v a n  e e n  v e r v o e r m i d d e l
 
 ###### Artikel 35
 
@@ -577,10 +500,6 @@ Restaurantdiensten en cateringdiensten die buiten een dergelijk  gedeelte maar o
 ###### Artikel 37
 
 De plaats van een in de Gemeenschap verrichte restaurantdienst  of cateringdienst die deels binnen een in de Gemeenschap ver richt gedeelte van een passagiersvervoer wordt verricht en deels  buiten een dergelijke gedeelte maar op het grondgebied van een  lidstaat, wordt geheel en al bepaald volgens de regels voor het  bepalen van de plaats van een dienst die bij de aanvang van de  verrichting van de restaurantdienst of cateringdienst van toepas sing zijn.
-
-O n d e r a f d e l i n g 1 0
-
-V e r h u u r v a n v e r v o e r m i d d e l e n
 
 ###### Artikel 38
 
@@ -627,10 +546,6 @@ De duur van contracten van kortdurende verhuur die voor afgaan aan een verhuurco
 ###### Artikel 40
 
 De plaats waar het vervoermiddel daadwerkelijk ter beschikking  wordt gesteld van de afnemer als bedoeld in artikel 56, lid 1,  van Richtlijn 2006/112/EG, is de plaats waar de afnemer of een  voor zijn rekening handelende derde, het fysiek in bezit neemt.
-
-O n d e r a f d e l i n g 1 1
-
-D i e n s t e n  v o o r  n i e t - b e l a s t i n g p l i c h t i g e n  b u i t e n d e g e m e e n s c h a p
 
 ###### Artikel 41
 

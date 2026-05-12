@@ -1,12 +1,15 @@
 ---
-bijgewerkt: 21.11.1986
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["VI.A", "2.4"]
+itaa-lex-sectie: "VI.A"
+wet: "Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "21.11.1986"
+bron: "onbekend"
 chunk:
   level: 2
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: VI.A
 provenance:
   inputs:
     - id: resources/raw/wetteksten/BTW-dertiende-richtlijn-1986.pdf
@@ -14,61 +17,19 @@ provenance:
       version: 21.11.1986
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: f9ce762
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:56:12Z'
+  generated_at: '2026-05-12T15:58:10Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A1: koptekst van het Publicatieblad op regels 53 en 119 niet verwijderd (datumregel + 'Nr. L 326 / 40'). A7: de titel van de richtlijn is over twee aparte headings verspreid — '## ( Besluiten waarvan de publikatie niet voorwaarde is voor de toepassing )' (r.55) en '## plichtigen' (r.91) zijn fragmenten van de documentstructuur die niet als echte headings horen te verschijnen; de officiële richtlijntitel staat los van zijn eigen opschrift. A6: Spurious woordbreuken door de hele body: 'harmonisatie van de wetge  vingen' (r.65), 'omze  tbelasting' (r.65), 'Comi  té' (r.73), 'Lid  Staten' (meerdere plaatsen) — PDF-regelbreuk midden in woorden. B1: heading '## plichtigen' (r.91) is een naamloos fragment."
-    layer1:
-      file_size_chars: 8031
-      flags: []
-      heading_count: 11
-      max_section_chars: 2439
-      run_at: '2026-05-11T16:52:50Z'
-      run_id: 20260511-165250
-      status: pass
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "A1: koptekst van het Publicatieblad op regels 53 en 119 niet verwijderd (datumregel + 'Nr. L 326 / 40'). A7: de titel van de richtlijn is over twee aparte headings verspreid — '## ( Besluiten waarvan de publikatie niet voorwaarde is voor de toepassing )' (r.55) en '## plichtigen' (r.91) zijn fragmenten van de documentstructuur die niet als echte headings horen te verschijnen; de officiële richtlijntitel staat los van zijn eigen opschrift. A6: Spurious woordbreuken door de hele body: 'harmonisatie van de wetge  vingen' (r.65), 'omze  tbelasting' (r.65), 'Comi  té' (r.73), 'Lid  Staten' (meerdere plaatsen) — PDF-regelbreuk midden in woorden. B1: heading '## plichtigen' (r.91) is een naamloos fragment."
-      concrete_problemen:
-        - regel: 53
-          categorie: A1
-          type: form-feed
-          voorbeeld: Nr . L 326 / 40 Publikatieblad van de Europese Gemeenschappen 21 . 11 . 86
-        - regel: 119
-          categorie: A1
-          type: form-feed
-          voorbeeld: 21 . 11 . 86 Publikatieblad van de Europese Gemeenschappen Nr . L 326 / 41
-        - regel: 55
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: '## ( Besluiten waarvan de publikatie niet voorwaarde is voor de toepassing )'
-        - regel: 91
-          categorie: B1
-          type: scrambled-words
-          voorbeeld: '## plichtigen'
-        - regel: 65
-          categorie: A6
-          type: other
-          voorbeeld: harmonisatie van de wetge  vingen der Lid-Staten inzake omzetbelasting — Gemeen  schappelijk
-        - regel: 163
-          categorie: B5
-          type: scrambled-words
-          voorbeeld: '## Art. 17. ,   lid   4 ,   laatste   z^in ,   van   Richtlijn   77 / 388 / EEG   en'
-status: beschikbaar
-tags:
-  - VI.A
-  - '2.4'
-wet: Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen
----
+    status: unreviewed
+    confirmed_at:
+    
+    rationale:
+    
+    layer2:---
 
 # Dertiende Richtlijn 86/560/EEG van de Raad inzake de teruggaaf van btw aan niet in de Gemeenschap gevestigde belastingplichtigen
 
@@ -103,8 +64,6 @@ Overwegende dat een evenwichtige ontwikkeling van de handelsbetrekkingen van de 
 (') PB nr . L 145 van 13 . 6 . 1977 , blz . 1 . ( 2 ) PB nr . C 223 van 27 . 8 . 1982 , blz . 5 en
 
 PB nr . C 196 van 23 . 7 . 1983 , blz . 6 . ( 3 ) PB nr . C 161 van 20 . 6 . 1983 , blz . 111 . ( 4 ) PB nr . C 176 van 4 . 7 . 1983 , blz . 22 . H PB nr . L 331 van 27 . 12 . 1979 , blz . 11 .
-
-II
 
 RAAD
 

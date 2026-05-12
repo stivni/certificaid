@@ -1,12 +1,15 @@
 ---
-bijgewerkt: 25.11.2009
-bron: ejustice.just.fgov.be (gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["X", "2.8"]
+itaa-lex-sectie: "X"
+wet: "Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "25.11.2009"
+bron: "onbekend"
 chunk:
-  level: 3
+  level: 2
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: X
 provenance:
   inputs:
     - id: resources/raw/wetteksten/EU-Richtlijn-fusie-2009-133.pdf
@@ -14,61 +17,19 @@ provenance:
       version: 25.11.2009
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: f9ce762
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:56:15Z'
+  generated_at: '2026-05-12T15:58:14Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A7: meerdere definitie-items in art.2 staan als heading met '## '-prefix i.p.v. als gewone paragrafentekst (r.115-168: '## a) fusie: de rechtshandeling waarbij:', '## iii) de activa en passiva...', '## d) inbreng van activa:', etc.) — dit zijn kolom-extractie-artefacten waarbij definitie-labels uit de linkerkolom als heading zijn geïnterpreteerd. Hetzelfde in art.3 (r.169-177), art.12-13 (r.275-292). Concordantietabel (bijlage III, r.565-603) toont '## Art. 10. bis', '## Art. 11', '## Art. 10. ter', '## Art. 12' als losse headings die kolom-bleed van de twee concordantikolommen zijn. A6: spurious woordbreuken in overweging-blokken ('vennoot- schappen', 'belasting- fraude')."
-    layer1:
-      file_size_chars: 43990
-      flags: []
-      heading_count: 49
-      max_section_chars: 11863
-      run_at: '2026-05-11T16:52:50Z'
-      run_id: 20260511-165250
-      status: pass
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "A7: meerdere definitie-items in art.2 staan als heading met '## '-prefix i.p.v. als gewone paragrafentekst (r.115-168: '## a) fusie: de rechtshandeling waarbij:', '## iii) de activa en passiva...', '## d) inbreng van activa:', etc.) — dit zijn kolom-extractie-artefacten waarbij definitie-labels uit de linkerkolom als heading zijn geïnterpreteerd. Hetzelfde in art.3 (r.169-177), art.12-13 (r.275-292). Concordantietabel (bijlage III, r.565-603) toont '## Art. 10. bis', '## Art. 11', '## Art. 10. ter', '## Art. 12' als losse headings die kolom-bleed van de twee concordantikolommen zijn. A6: spurious woordbreuken in overweging-blokken ('vennoot- schappen', 'belasting- fraude')."
-      concrete_problemen:
-        - regel: 115
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: '## Elke lidstaat past de in deze richtlijn opgenomen bepalingen toe  op:'
-        - regel: 117
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: '## a) fusies, splitsingen, gedeeltelijke splitsingen, inbreng van ac'
-        - regel: 125
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: '## Voor de toepassing van deze richtlijn wordt verstaan onder:'
-        - regel: 127
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: '## a) „fusie": de rechtshandeling waarbij:'
-        - regel: 565
-          categorie: A8
-          type: column-bleed
-          voorbeeld: "## Art. 10. bis\n\n## Art. 11\n\n## Art. 10. ter\n\n## Art. 12"
-        - regel: 275
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: "## 1.  Wanneer:\n\n## a) een SE of een SCE haar statutaire zetel van een lidstaat naar  een andere lidstaat verplaatst, of"
-status: beschikbaar
-tags:
-  - X
-  - '2.8'
-wet: Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)
----
+    status: unreviewed
+    confirmed_at:
+    
+    rationale:
+    
+    layer2:---
 
 # Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)
 

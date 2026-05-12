@@ -1,12 +1,15 @@
 ---
-bijgewerkt: '2022'
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["VI.B", "2.4"]
+itaa-lex-sectie: "VI.B"
+wet: "K.B. nr. 2bis, 15 mei 2022, tot vaststelling van de forfaitaire grondslagen van aanslag voor caféhouders"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "2022"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 4
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: VI.B
 provenance:
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB2bis-cafehouders.pdf
@@ -14,113 +17,25 @@ provenance:
       version: '2022'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: f9ce762
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:24Z'
+  generated_at: '2026-05-12T15:58:18Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A3/B2: De inhoudsopgave (TOC) bovenaan (regels 60-108) herhaalt alle artikel-headings en afdeling-titels zonder body-tekst — dit is een TOC-fragment dat door de extractor als heading-blok in de body terechtkwam. Heading-hiërarchie springt: '#### Art. 11' op regel 60 verschijnt vóór '## HOOFDSTUK 3.' op regel 62 (B2). A6: regel 238-240 heeft een spurious line-break ('flessen van twee derde liter: per fles twee consumpties... en\\n\\neen halve consumptie'). Eigenlijke body (vanaf HOOFDSTUK 1, regel 112) is wel volledig en correct."
-    layer1:
-      file_size_chars: 21327
-      flags: []
-      heading_count: 56
-      max_section_chars: 2438
-      run_at: '2026-05-11T13:40:47Z'
-      run_id: 20260511-134044
-      status: pass
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "A3/B2: De inhoudsopgave (TOC) bovenaan (regels 60-108) herhaalt alle artikel-headings en afdeling-titels zonder body-tekst — dit is een TOC-fragment dat door de extractor als heading-blok in de body terechtkwam. Heading-hiërarchie springt: '#### Art. 11' op regel 60 verschijnt vóór '## HOOFDSTUK 3.' op regel 62 (B2). A6: regel 238-240 heeft een spurious line-break ('flessen van twee derde liter: per fles twee consumpties... en\\n\\neen halve consumptie'). Eigenlijke body (vanaf HOOFDSTUK 1, regel 112) is wel volledig en correct."
-      concrete_problemen:
-        - regel: 60
-          categorie: A3
-          type: other
-          voorbeeld: "#### Art. 11\n\n## HOOFDSTUK 3. - Berekeningswijze... (TOC-fragment vóór eigenlijke body)"
-        - regel: 60
-          categorie: B2
-          type: other
-          voorbeeld: '#### Art. 11 vóór ## HOOFDSTUK 3 — hiërarchie springt van #### naar ##'
-        - regel: 238
-          categorie: A6
-          type: other
-          voorbeeld: "per fles twee consumpties in glazen van drieëndertig centiliter of twee en\n\neen halve consumptie"
-status: beschikbaar
-tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 2bis, 15 mei 2022, tot vaststelling van de forfaitaire grondslagen van aanslag voor caféhouders
----
+    status: unreviewed
+    confirmed_at:
+    
+    rationale:
+    
+    layer2:---
 
 # BTW KB nr. 2bis — Forfaitaire grondslagen caféhouders
 
 *Bijgewerkt tot en met 2022 — gecoördineerde versie.*
 
-Titel
-
 15 MEI 2022. - Koninklijk besluit nr. 2bis tot vaststelling van de forfaitaire grondslagen van aanslag inzake de belasting over de toegevoegde waarde voor caféhouders en kleine caféhouders
-
-Bron : FINANCIEN
-
-#### Art. 11
-
-## HOOFDSTUK 3. - Berekeningswijze van de forfaitaire grondslagen van aanslag inzake btw voor de caféhouders
-
-#### Art. 12
-
-### Afdeling 1. - Bier in vaten
-
-### Afdeling 2. - Flessenbier
-
-#### Art. 16
-
-### Afdeling 3. - Waters, limonade, coladranken, melkdranken, vruchten- en groentesappen
-
-#### Art. 17
-
-### Afdeling 4. - Wijnen, aperitieven, portowijnen en sterke dranken
-
-#### Art. 18
-
-### Afdeling 5. - Koffie
-
-#### Art. 19
-
-### Afdeling 6. - Thee
-
-#### Art. 20
-
-### Afdeling 7. - Bouillon
-
-#### Art. 21
-
-### Afdeling 8. - Ingekochte vooraf bereide soepen
-
-#### Art. 22
-
-### Afdeling 9. - Kleine niet door de caféhouder bereide eetwaren en gekookte eieren
-
-#### Art. 23
-
-### Afdeling 10. - Frisdranken en spuitwater getapt door middel van post- of premixinstallaties
-
-#### Art. 24
-
-## HOOFDSTUK 4. - Gemeenschappelijke bepalingen voor de caféhouders en de kleine caféhouders
-
-## HOOFDSTUK 5. - Slotbepalingen BIJLAGEN.
-
-#### Art. N1-N5
-
-Tekst
-
-## HOOFDSTUK 1. - Algemene bepalingen
 
 #### Art. 1
 

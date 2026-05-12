@@ -1,12 +1,15 @@
 ---
-bijgewerkt: 03.07.1978
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["XVI"]
+itaa-lex-sectie: "XVI"
+wet: "Wet 3 juli 1978 betreffende de arbeidsovereenkomsten"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "03.07.1978"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 5
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: XVI
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Wet-arbeidsovereenkomsten-1978.pdf
@@ -14,128 +17,27 @@ provenance:
       version: 03.07.1978
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: f9ce762
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:49Z'
+  generated_at: '2026-05-12T15:58:19Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere B4/A7-problemen: (1) op regel 52 staat 'Titel' als plain text, gevolgd door regel 54 met de wetsnaam opnieuw — dit is een TOC-artefact vóór de echte tekst. Op regel 98 staat 'Tekst' als plain-text scheidingslabel. (2) Regels 58–96 zijn een compact dubbele inhoudstafel (TOC-fragment) vóór de eigenlijke body — een typisch extractie-artefact (A3). (3) 'Art. 1.Deze' op regel 104 toont een samengevoegde heading+body (het artikel-nummer is gecombineerd met het begin van de wettekst, wat de heading leesbaarheid breekt — B5-variant). (4) Meerdere zinsfragmenten als zelfstandige regel: regel 128 'processen en technieken...', regel 146 'met het bewaren...', regel 308 'maand vanaf de datum...', regel 369 'is gestort of op zijn loon ingehouden.', regels 637–699 meerdere losse zinsstukken die duidelijk continue met een vorige sectie verbonden waren — A6 spurious line-breaks mid-sentence. Laag-1 status pass maar de ETL heeft zichtbare extractie-sporen achtergelaten."
-    layer1:
-      file_size_chars: 255432
-      flags: []
-      heading_count: 209
-      max_section_chars: 22805
-      run_at: '2026-05-11T13:40:50Z'
-      run_id: 20260511-134044
-      status: pass
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "Meerdere B4/A7-problemen: (1) op regel 52 staat 'Titel' als plain text, gevolgd door regel 54 met de wetsnaam opnieuw — dit is een TOC-artefact vóór de echte tekst. Op regel 98 staat 'Tekst' als plain-text scheidingslabel. (2) Regels 58–96 zijn een compact dubbele inhoudstafel (TOC-fragment) vóór de eigenlijke body — een typisch extractie-artefact (A3). (3) 'Art. 1.Deze' op regel 104 toont een samengevoegde heading+body (het artikel-nummer is gecombineerd met het begin van de wettekst, wat de heading leesbaarheid breekt — B5-variant). (4) Meerdere zinsfragmenten als zelfstandige regel: regel 128 'processen en technieken...', regel 146 'met het bewaren...', regel 308 'maand vanaf de datum...', regel 369 'is gestort of op zijn loon ingehouden.', regels 637–699 meerdere losse zinsstukken die duidelijk continue met een vorige sectie verbonden waren — A6 spurious line-breaks mid-sentence. Laag-1 status pass maar de ETL heeft zichtbare extractie-sporen achtergelaten."
-      concrete_problemen:
-        - regel: 52
-          categorie: B4
-          type: other
-          voorbeeld: Titel
-        - regel: 54
-          categorie: A3
-          type: other
-          voorbeeld: 3 JULI 1978. - Wet betreffende de arbeidsovereenkomsten.
-        - regel: 58
-          categorie: A3
-          type: other
-          voorbeeld: '#### Afdeling 2. [TOC-fragment vóór eigenlijke body, loopt tot regel 96]'
-        - regel: 98
-          categorie: B4
-          type: other
-          voorbeeld: Tekst
-        - regel: 104
-          categorie: B5
-          type: other
-          voorbeeld: '##### Art. 1.Deze'
-        - regel: 128
-          categorie: A6
-          type: other
-          voorbeeld: processen en technieken aan de hand waarvan een elektronische handtekening kan worden...
-        - regel: 308
-          categorie: A6
-          type: other
-          voorbeeld: maand vanaf de datum van beëindiging van de overeenkomst het gebruiksrecht terug te vragen...
-        - regel: 637
-          categorie: A6
-          type: other
-          voorbeeld: opzeggingstermijn ter kennis werd gegeven.]1
-        - regel: 640
-          categorie: A6
-          type: other
-          voorbeeld: 'vastgesteld op :'
-status: beschikbaar
-tags:
-  - XVI
-wet: Wet 3 juli 1978 betreffende de arbeidsovereenkomsten
----
+    status: unreviewed
+    confirmed_at:
+    
+    rationale:
+    
+    layer2:---
 
 # Wet arbeidsovereenkomsten 1978
 
 *Bijgewerkt tot en met 03.07.1978 — gecoördineerde versie.*
 
-Titel
-
 3 JULI 1978. - Wet betreffende de arbeidsovereenkomsten.
 
 Nota :           art. 3bis-3ter gewijzigd met ingang op een onbepaalde datum bij W 2018-01-15/02, art. 11 en 18;
-
-#### Afdeling 2.
-
-## TITEL III. _ DE ARBEIDSOVEREENKOMST VOOR BEDIENDEN.
-
-### HOOFDSTUK I. _ Algemene bepalingen.
-
-### HOOFDSTUK II. _ Loonregeling bij schorsing van de uitvoering van de overeenkomst.
-
-#### HOOFDSTUK II/1. - [1 Regeling van schorsing van de uitvoering van de overeenkomst en regeling van gedeeltelijke arbeid]1
-
-#### Afdeling 1. - [1 Toepassingsgebied]1
-
-#### Afdeling 2. - [1 Regeling van volledige schorsing van de uitvoering van de overeenkomst en regeling van gedeeltelijke arbeid]1
-
-### HOOFDSTUK III. _ Einde van de overeenkomst.
-
-#### Afdeling 1. - [1 ...]1
-
-#### Afdeling 2.
-
-## TITEL IV. _ DE ARBEIDSOVEREENKOMST VOOR HANDELSVERTEGENWOORDIGERS.
-
-## TITEL V. _ DE ARBEIDSOVEREENKOMST VOOR DIENSTBODEN.
-
-### HOOFDSTUK I. _ Algemene bepalingen.
-
-### HOOFDSTUK II. _ Verplichtingen der partijen.
-
-### HOOFDSTUK III. _ Schorsing van de uitvoering van de overeenkomst.
-
-### HOOFDSTUK IV. _ Einde van de overeenkomst.
-
-## TITEL VI. _ DE OVEREENKOMST VOOR TEWERKSTELLING VAN HUISARBEIDERS
-
-##### Art. 119.1-119.12
-
-## TITEL VII. _ (Oude TITEL VI) DE OVEREENKOMST VOOR TEWERKSTELLING VAN STUDENTEN.
-
-## TITEL VIII. _ (oude TITEL VII) SLOTBEPALINGEN.
-
-Tekst
-
-## TITEL I. _ DE ARBEIDSOVEREENKOMST IN HET ALGEMEEN.
-
-### HOOFDSTUK I. _ Algemene bepalingen.
 
 ##### Art. 1.Deze
 

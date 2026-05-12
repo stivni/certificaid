@@ -1,12 +1,15 @@
 ---
-bijgewerkt: '2020'
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["VI.B", "2.4"]
+itaa-lex-sectie: "VI.B"
+wet: "K.B. nr. 59, 18 mei 2020, met betrekking tot de onttrekking van handelsgeschenken van geringe waarde"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "2020"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 4
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: VI.B
 provenance:
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-KB59-handelsgeschenken.pdf
@@ -14,79 +17,25 @@ provenance:
       version: '2020'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: f9ce762
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:24Z'
+  generated_at: '2026-05-12T15:58:19Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B2: de heading-hiërarchie springt van `####` (Art. 1 op regel 60) onmiddellijk naar `##` (HOOFDSTUK 2 op regel 62) en daarna `###` (Afdeling 1 op regel 64), wat een omgekeerde en inconsistente niveau-volgorde geeft. Bovendien verschijnt `#### Art. 1` tweemaal (regels 60 en 76): eenmaal vóór HOOFDSTUK 2 en de inhoudsopgave-blokken, en dan opnieuw na HOOFDSTUK 1 — typisch TOC-dubbeling (A3). B4: de regels 53–58 bevatten 'Titel', de lange titelregel en 'Bron : FINANCIEN' als plain-text structuurlabels zonder heading-prefix."
-    layer1:
-      file_size_chars: 21054
-      flags: []
-      heading_count: 23
-      max_section_chars: 3529
-      run_at: '2026-05-11T13:40:48Z'
-      run_id: 20260511-134044
-      status: pass
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "B2: de heading-hiërarchie springt van `####` (Art. 1 op regel 60) onmiddellijk naar `##` (HOOFDSTUK 2 op regel 62) en daarna `###` (Afdeling 1 op regel 64), wat een omgekeerde en inconsistente niveau-volgorde geeft. Bovendien verschijnt `#### Art. 1` tweemaal (regels 60 en 76): eenmaal vóór HOOFDSTUK 2 en de inhoudsopgave-blokken, en dan opnieuw na HOOFDSTUK 1 — typisch TOC-dubbeling (A3). B4: de regels 53–58 bevatten 'Titel', de lange titelregel en 'Bron : FINANCIEN' als plain-text structuurlabels zonder heading-prefix."
-      concrete_problemen:
-        - regel: 53
-          categorie: B4
-          type: other
-          voorbeeld: "Titel\n\n18 MEI 2020. - Koninklijk besluit nr. 59..."
-        - regel: 58
-          categorie: B4
-          type: other
-          voorbeeld: 'Bron : FINANCIEN'
-        - regel: 60
-          categorie: A3
-          type: other
-          voorbeeld: '#### Art. 1  (verschijnt tweemaal: r.60 en r.76)'
-        - regel: 60
-          categorie: B2
-          type: other
-          voorbeeld: '#### Art. 1 → ## HOOFDSTUK 2 → ### Afdeling 1 (omgekeerde hiërarchie)'
-status: beschikbaar
-tags:
-  - VI.B
-  - '2.4'
-wet: K.B. nr. 59, 18 mei 2020, met betrekking tot de onttrekking van handelsgeschenken van geringe waarde
----
+    status: unreviewed
+    confirmed_at:
+    
+    rationale:
+    
+    layer2:---
 
 # BTW KB nr. 59 — Handelsgeschenken
 
 *Bijgewerkt tot en met 2020 — gecoördineerde versie.*
 
-Titel
-
 18 MEI 2020. - Koninklijk besluit nr. 59 met betrekking tot de onttrekking van handelsgeschenken van geringe waarde en de onttrekking voor liefdadigheidsdoeleinden van voedingsmiddelen en levensnoodzakelijke nietvoedingsmiddelen andere dan goederen die op duurzame wijze kunnen worden gebruikt, wat de belasting over de toegevoegde waarde betreft
-
-Bron : FINANCIEN
-
-#### Art. 1
-
-## HOOFDSTUK 2. - De onttrekkingen van goederen met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
-
-### Afdeling 1. - De onttrekkingen van voedingsmiddelen met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
-
-### Afdeling 2. - De onttrekkingen van levensnoodzakelijke niet-voedingsmiddelen andere dan goederen die op duurzame wijze kunnen worden gebruikt, met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
-
-### Afdeling 3. - Toepasselijke verplichtingen voor verdeelplatforms in het kader van de onttrekkingen van voedingsmiddelen en levensnoodzakelijke niet-voedingsmiddelen andere dan goederen die op duurzame wijze kunnen worden gebruikt, met het oog op het verstrekken ervan voor liefdadigheidsdoeleinden
-
-## HOOFDSTUK 3. - Slotbepalingen
-
-Tekst
-
-## HOOFDSTUK 1. - De onttrekkingen van goederen met het oog op het verstrekken van handelsgeschenken van geringe waarde
 
 #### Art. 1
 

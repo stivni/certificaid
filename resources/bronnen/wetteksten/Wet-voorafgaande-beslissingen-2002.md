@@ -1,12 +1,15 @@
 ---
-bijgewerkt: 24.12.2002
-bron: Fisconetplus.be (officieuze gecoördineerde versie)
-bron_rol: itaa_lex
+tags: ["I", "2.1"]
+itaa-lex-sectie: "I"
+wet: "Wet 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelastingen en tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "24.12.2002"
+bron: "Fisconetplus.be (officieuze gecoördineerde versie)"
 chunk:
   level: 4
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: I
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Wet-voorafgaande-beslissingen-2002.pdf
@@ -14,93 +17,25 @@ provenance:
       version: 24.12.2002
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: f9ce762
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:50Z'
+  generated_at: '2026-05-12T15:58:20Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Meerdere B4/A3-problemen: regel 53 'Titel' en regel 58 'Bron : FINANCIEN' als plain-text labels. Regels 61–76 vormen een TOC-fragment (TITEL II–V met artikelverwijzingen) vóór de eigenlijke wettekst die op regel 78 herstart (A3). Op regel 76 staat '#### Art. 31' als heading in het TOC-gedeelte, terwijl de echte Art. 31 ook later voorkomt op regel 313 — dit is een duplicaat heading (B3). Bovendien staat de inhoudstafel op regel 63–74 vóór de eigenlijke titeltekst op regel 78: de body begint dus dubbel (TOC + echte tekst) wat typisch is voor Fisconet-PDF-extractie. Op regel 327 een losse 'Art. 7' heading zonder context die eigenlijk de opmerking 'Art. 7 treedt in werking...' is (B1-variant: heading zonder zinvolle tekst in heading zelf)."
-    layer1:
-      file_size_chars: 29902
-      flags: []
-      heading_count: 46
-      max_section_chars: 4243
-      run_at: '2026-05-11T13:40:50Z'
-      run_id: 20260511-134044
-      status: pass
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "Meerdere B4/A3-problemen: regel 53 'Titel' en regel 58 'Bron : FINANCIEN' als plain-text labels. Regels 61–76 vormen een TOC-fragment (TITEL II–V met artikelverwijzingen) vóór de eigenlijke wettekst die op regel 78 herstart (A3). Op regel 76 staat '#### Art. 31' als heading in het TOC-gedeelte, terwijl de echte Art. 31 ook later voorkomt op regel 313 — dit is een duplicaat heading (B3). Bovendien staat de inhoudstafel op regel 63–74 vóór de eigenlijke titeltekst op regel 78: de body begint dus dubbel (TOC + echte tekst) wat typisch is voor Fisconet-PDF-extractie. Op regel 327 een losse 'Art. 7' heading zonder context die eigenlijk de opmerking 'Art. 7 treedt in werking...' is (B1-variant: heading zonder zinvolle tekst in heading zelf)."
-      concrete_problemen:
-        - regel: 53
-          categorie: B4
-          type: other
-          voorbeeld: Titel
-        - regel: 58
-          categorie: B4
-          type: other
-          voorbeeld: 'Bron : FINANCIEN'
-        - regel: 61
-          categorie: A3
-          type: other
-          voorbeeld: '## TITEL II. - Wetboek van de inkomstenbelastingen 1992. [TOC-fragment, loopt t/m regel 76]'
-        - regel: 72
-          categorie: B3
-          type: other
-          voorbeeld: '#### Art. 31 [duplicate: staat ook in TOC én in body op r313]'
-        - regel: 327
-          categorie: B1
-          type: other
-          voorbeeld: "#### Art. 7 [losse heading, gevolgd door zin 'is van toepassing op...' zonder heading-tekst]"
-status: beschikbaar
-tags:
-  - I
-  - '2.1'
-wet: Wet 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelastingen en tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken
----
+    status: unreviewed
+    confirmed_at:
+    
+    rationale:
+    
+    layer2:---
 
 # Wet voorafgaande beslissingen in fiscale zaken
 
 *Bijgewerkt tot en met 24.12.2002 — gecoördineerde versie.*
 
-Titel
-
 24 DECEMBER 2002. - Wet tot wijziging van de vennootschapsregeling inzake inkomstenbelastingen en tot instelling van een systeem van voorafgaande beslissingen in fiscale zaken.
-
-Bron : FINANCIEN
-
-#### Art. 1
-
-## TITEL II. - Wetboek van de inkomstenbelastingen 1992.
-
-## TITEL III. - Voorafgaande beslissingen in fiscale zaken.
-
-## TITEL IV. - Diverse bepalingen.
-
-### HOOFDSTUK 1. - Wijziging van het koninklijk besluit nr. 187 van 30 december 1982 betreffende de oprichting van coördinatiecentra en van de wet van 11 april 1983 houdende fiscale en begrotingsbepalingen.
-
-### HOOFDSTUK 2. - Actieplan dat tot doel heeft een doeltreffende inning van de vennootschapsbelasting te waarborgen.
-
-#### Art. 31
-
-## TITEL V. - Inwerkingtreding en overgangsbepalingen.
-
-Tekst
-
-## TITEL I. - Algemene bepaling.
-
-#### Art. 1
-
-Deze wet regelt een aangelegenheid als bedoeld in artikel 78 van de Grondwet.
-
-## TITEL II. - Wetboek van de inkomstenbelastingen 1992.
 
 #### Art. 2
 

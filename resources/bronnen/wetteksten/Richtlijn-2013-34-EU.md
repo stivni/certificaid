@@ -1,11 +1,15 @@
 ---
-bijgewerkt: 28.05.2024
-bron: ejustice.just.fgov.be (gecoördineerde versie)
+tags: ["XIII", "1.1", "1.2"]
+itaa-lex-sectie: "XIII"
+wet: "Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "28.05.2024"
+bron: "onbekend"
 chunk:
   level: 3
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: XIII
 provenance:
   inputs:
     - id: resources/raw/wetteksten/Richtlijn-2013-34-EU.pdf
@@ -13,74 +17,19 @@ provenance:
       version: 28.05.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: f9ce762
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:56:15Z'
+  generated_at: '2026-05-12T15:58:17Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-11T16:56:58Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Layer 1 meldt terecht max_section_size warn (31271 chars). Daarnaast: A1: de `▼B`, `▼M1`, `▼M4`, `▼C1` etc. wijzigingsmarkeerders van EUR-Lex zijn als plain-text overal door de body verspreid — dit zijn geen markdown-conventies maar EUR-Lex-specifieke notaties die een mens nooit zo zou typen. A7: op meerdere plaatsen ontbreken leden van artikelen (bv. Art. 1 lid 2, Art. 3 lid 9, Art. 4 lid 2 die abrupt worden afgeknipt door een `▼M4`-marker gevolgd door een nieuw tekstblok). B5: 'Art. 19. bis' en 'Art. 29. quater' zijn als ### headings gemarkeerd (inconsistent met ###### voor andere artikelen). Art. 3 lid 4 op regel 237 (grote ondernemingen) mist de netto-omzetdrempel (enkel balanstotaal en personeelsbestand aanwezig)."
-    layer1:
-      file_size_chars: 281757
-      flags:
-        - detail: 'langste sectie op ###-niveau: 31271 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          name: max_section_size
-          samples: []
-          status: warn
-      heading_count: 163
-      max_section_chars: 31271
-      run_at: '2026-05-11T13:40:46Z'
-      run_id: 20260511-134044
-      status: warn
-    layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T16:56:58Z'
-      rationale: "Layer 1 meldt terecht max_section_size warn (31271 chars). Daarnaast: A1: de `▼B`, `▼M1`, `▼M4`, `▼C1` etc. wijzigingsmarkeerders van EUR-Lex zijn als plain-text overal door de body verspreid — dit zijn geen markdown-conventies maar EUR-Lex-specifieke notaties die een mens nooit zo zou typen. A7: op meerdere plaatsen ontbreken leden van artikelen (bv. Art. 1 lid 2, Art. 3 lid 9, Art. 4 lid 2 die abrupt worden afgeknipt door een `▼M4`-marker gevolgd door een nieuw tekstblok). B5: 'Art. 19. bis' en 'Art. 29. quater' zijn als ### headings gemarkeerd (inconsistent met ###### voor andere artikelen). Art. 3 lid 4 op regel 237 (grote ondernemingen) mist de netto-omzetdrempel (enkel balanstotaal en personeelsbestand aanwezig)."
-      concrete_problemen:
-        - regel: 61
-          categorie: A1
-          type: form-feed
-          voorbeeld: ►B  RICHTLIJN 2013/34/EU VAN HET EUROPEES PARLEMENT EN VAN DE RAAD
-        - regel: 73
-          categorie: A1
-          type: form-feed
-          voorbeeld: ► M1  Richtlijn 2014/95/EU ... L 330  1  15.11.2014
-        - regel: 93
-          categorie: A1
-          type: form-feed
-          voorbeeld: ▼B [EUR-Lex versie-markering als plain-text door body verspreid]
-        - regel: 121
-          categorie: A1
-          type: other
-          voorbeeld: ▼M4 [herhaald door heel document als plain-text markering]
-        - regel: 237
-          categorie: D2
-          type: missing-section
-          voorbeeld: 'Art. 3 lid 4 grote ondernemingen: ontbreekt netto-omzetdrempel (b); spring van a naar c'
-        - regel: 732
-          categorie: B2
-          type: other
-          voorbeeld: '### Art. 19. bis [### ipv ###### voor artikelheading; inconsistent met rest]'
-        - regel: 1410
-          categorie: B2
-          type: other
-          voorbeeld: '### Art. 29. quater [### ipv ###### voor artikelheading]'
-        - regel: 1434
-          categorie: B5
-          type: other
-          voorbeeld: '### Art. 3. van Gedelegeerde Verordening (EU) 2018/815 [verordening-verwijzing als ###-heading]'
-status: beschikbaar
-tags:
-  - XIII
-  - '1.1'
-  - '1.2'
-wet: Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen
----
+    status: unreviewed
+    confirmed_at:
+    
+    rationale:
+    
+    layer2:---
 
 # Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013 betreffende de jaarlijkse financiële overzichten, geconsolideerde financiële overzichten en aanverwante verslagen van bepaalde ondernemingsvormen
 
@@ -88,7 +37,7 @@ wet: Richtlijn 2013/34/EU van het Europees Parlement en de Raad van 26 juni 2013
 
 Onderstaande tekst dient louter ter informatie en is juridisch niet bindend. De EU-instellingen zijn niet aansprakelijk voor  de inhoud. Alleen de besluiten die zijn gepubliceerd in het Publicatieblad van de Europese Unie (te raadplegen in EUR-Lex)  zijn authentiek. Deze officiële versies zijn rechtstreeks toegankelijk via de links in dit document
 
-►B  RICHTLIJN 2013/34/EU VAN HET EUROPEES PARLEMENT EN VAN DE RAAD
+RICHTLIJN 2013/34/EU VAN HET EUROPEES PARLEMENT EN VAN DE RAAD
 
 van 26 juni 2013
 
@@ -120,8 +69,6 @@ Publicatieblad
 
 nr.  blz.  datum
 
-▼B
-
 RICHTLIJN 2013/34/EU VAN HET EUROPEES PARLEMENT  EN VAN DE RAAD
 
 van 26 juni 2013
@@ -146,9 +93,7 @@ i) die een in bijlage I genoemde rechtsvormen hebben; of
 
 ii) die niet onder het recht van een lidstaat vallen maar een rechts vorm hebben die vergelijkbaar is met de in bijlage I genoemde  rechtsvormen.
 
-▼M3  1 bis.  De coördinatiemaatregelen die in de artikelen 48 bis tot en met  48 sexies en artikel 51 worden voorgeschreven, zijn ook van toepassing  op de wettelijke en bestuursrechtelijke bepalingen van de lidstaten met  betrekking tot bijkantoren die in een lidstaat zijn opgericht door een  onderneming die niet onder het recht van een lidstaat valt, maar een  rechtsvorm heeft die vergelijkbaar is met een van de in bijlage I ge noemde ondernemingsvormen. Artikel 2 is van toepassing op deze bij kantoren voor zover de artikelen 48 bis tot en met 48 sexies en arti kel 51 van toepassing zijn op dergelijke bijkantoren.
-
-▼M4
+1 bis.  De coördinatiemaatregelen die in de artikelen 48 bis tot en met  48 sexies en artikel 51 worden voorgeschreven, zijn ook van toepassing  op de wettelijke en bestuursrechtelijke bepalingen van de lidstaten met  betrekking tot bijkantoren die in een lidstaat zijn opgericht door een  onderneming die niet onder het recht van een lidstaat valt, maar een  rechtsvorm heeft die vergelijkbaar is met een van de in bijlage I ge noemde ondernemingsvormen. Artikel 2 is van toepassing op deze bij kantoren voor zover de artikelen 48 bis tot en met 48 sexies en arti kel 51 van toepassing zijn op dergelijke bijkantoren.
 
 3.  De in de artikelen 19 bis, 29 bis, 29 quinquies, 30 en 33, arti kel 34, lid 1, tweede alinea, punt a bis), artikel 34, leden 2 en 3, en  artikel 51 van deze richtlijn voorgeschreven coördinatiemaatregelen zijn  ook van toepassing op de wettelijke en bestuursrechtelijke bepalingen  van de lidstaten die betrekking hebben op de volgende ondernemingen,  ongeacht hun rechtsvorm, op voorwaarde dat het daarbij grote onder nemingen of kleine en middelgrote ondernemingen, met uitzondering  van micro-ondernemingen, die organisaties van openbaar belang betreft  als gedefinieerd in artikel 2, punt 1, a), van deze richtlijn:
 
@@ -162,8 +107,6 @@ De lidstaten kunnen ervoor kiezen de in de eerste alinea van dit lid  bedoelde c
 
 5.  De in de artikelen 40 bis tot en met 40 quinquies voorgeschreven  coördinatiemaatregelen zijn ook van toepassing op de wet- en regelge ving en bestuursrechtelijke bepalingen van de lidstaten betreffende  dochterondernemingen en bijkantoren van ondernemingen die niet on der het recht van een lidstaat vallen, maar waarvan de rechtsvorm  vergelijkbaar is met de in bijlage I genoemde ondernemingsvormen.
 
-▼B
-
 ###### Artikel 2
 
 Definities
@@ -171,8 +114,6 @@ Definities
 Voor de toepassing van deze richtlijn wordt verstaan onder:
 
 1) „organisaties van openbaar belang”: ondernemingen die onder het  toepassingsgebied van artikel 1 vallen en die
-
-▼B
 
 a) onder het recht van een lidstaat vallen en waarvan de effecten  zijn toegelaten tot de handel op een gereglementeerde markt  van een lidstaat in de zin van artikel 4, lid 1, punt 14), van  Richtlijn 2004/39/EG van het Europees Parlement en de Raad  van 21 april 2004 betreffende markten voor financiële instru menten ( 1 ),
 
@@ -184,17 +125,15 @@ d) door de lidstaten zijn aangemerkt als organisaties van openbaar  belang, bijv
 
 ▼C1  2) „deelneming”: de al dan niet in certificaten belichaamde rechten in  het kapitaal van andere ondernemingen, die, door het scheppen van  een duurzame band met die andere ondernemingen, ertoe strekken  de eigen bedrijfsuitoefening van de onderneming die deze rechten  bezit, te bevorderen. Er bestaat een vermoeden van deelneming  wanneer het door een onderneming gehouden deel van het kapitaal  van een andere onderneming een door de lidstaten vastgestelde  drempelwaarde, die lager is dan of gelijk is aan 20 %, overschrijdt;
 
-▼B  3) „verbonden partij”: dezelfde betekenis als in de internationale stan daarden voor jaarrekeningen zoals die zijn goedgekeurd overeen komstig Verordening (EG) nr. 1606/2002 van het Europees Parle ment en de Raad van 19 juli 2002 betreffende de toepassing van  internationale standaarden voor jaarrekeningen ( 4 );
+3) „verbonden partij”: dezelfde betekenis als in de internationale stan daarden voor jaarrekeningen zoals die zijn goedgekeurd overeen komstig Verordening (EG) nr. 1606/2002 van het Europees Parle ment en de Raad van 19 juli 2002 betreffende de toepassing van  internationale standaarden voor jaarrekeningen ( 4 );
 
 4) „vaste activa”: de vermogensbestanddelen die bestemd zijn om  duurzaam voor de bedrijfsuitoefening te worden gebruikt;
 
-▼M4  5) „netto-omzet”: het bedrag met betrekking tot de verkoop van goe deren en de verlening van diensten, na aftrek van kortingen en  belasting over de toegevoegde waarde en andere rechtstreeks met  de omzet verbonden belastingen; voor de in artikel 1, lid 3, eerste  alinea, punt a), van deze richtlijn bedoelde verzekeringsonder nemingen wordt “netto-omzet” echter gedefinieerd overeenkomstig  artikel 35 en artikel 66, punt 2, van Richtlijn 91/674/EEG van de
-
-▼M4
+5) „netto-omzet”: het bedrag met betrekking tot de verkoop van goe deren en de verlening van diensten, na aftrek van kortingen en  belasting over de toegevoegde waarde en andere rechtstreeks met  de omzet verbonden belastingen; voor de in artikel 1, lid 3, eerste  alinea, punt a), van deze richtlijn bedoelde verzekeringsonder nemingen wordt “netto-omzet” echter gedefinieerd overeenkomstig  artikel 35 en artikel 66, punt 2, van Richtlijn 91/674/EEG van de
 
 Raad ( 1 ); voor de in artikel 1, lid 3, eerste alinea, punt b), van deze  richtlijn bedoelde kredietinstellingen wordt “netto-omzet” gedefi nieerd overeenkomstig artikel 43, lid 2, punt c) van Richtlijn  86/635/EEG van de Raad ( 2 ), en voor binnen het toepassingsgebied  van artikel 40 bis, lid 1, van deze richtlijn vallende ondernemingen  wordt onder “netto-omzet” verstaan de inkomsten zoals gedefini eerd bij of in de zin van het kader voor financiële verslaglegging  op basis waarvan de financiële overzichten van de onderneming  worden opgesteld;
 
-▼B  6) „aanschaffingsprijs ”: de te betalen prijs en alle bijkomende kosten,  verminderd met incidentele verlagingen van de verwervingskosten;
+6) „aanschaffingsprijs ”: de te betalen prijs en alle bijkomende kosten,  verminderd met incidentele verlagingen van de verwervingskosten;
 
 7) „vervaardigingskosten ”: de aanschaffingsprijs van grondstoffen,  hulpstoffen en andere kosten die rechtstreeks toe te rekenen zijn  aan het product in kwestie. De lidstaten staan toe of schrijven voor  dat een redelijk deel van de op de productieperiode betrekking  hebbende vaste of variabele algemene kosten die slechts indirect  aan de het product in kwestie kunnen worden toegerekend, aan de  vervaardigingskosten worden toegevoegd. Distributiekosten wor den niet meegerekend;
 
@@ -210,8 +149,6 @@ Raad ( 1 ); voor de in artikel 1, lid 3, eerste alinea, punt b), van deze  richt
 
 13) „geassocieerde onderneming”: een onderneming waarin een andere  onderneming een deelneming heeft en op wiens bestuur en finan cieel beleid die andere onderneming een invloed van betekenis  uitoefent. Er bestaat een vermoeden dat een onderneming invloed  van betekenis uitoefent op een andere onderneming wanneer de  eerste onderneming 20 % of meer van de stemrechten van de aan deelhouders van of de deelnemers in die andere onderneming be zit;
 
-▼B
-
 14) „beleggingsonderneming ”:
 
 a) ondernemingen die uitsluitend ten doel hebben hun middelen in  verschillende roerende, onroerende of andere waarden te beleg gen, met als enig oogmerk de beleggingsrisico's te spreiden en  de resultaten van het beheer van hun vermogen aan hun aan deelhouders ten goede te laten komen;
@@ -222,7 +159,7 @@ b) met beleggingsondernemingen met vast kapitaal geassocieerde  ondernemingen wa
 
 16) „materieel belang”: de hoedanigheid van informatie waarvan rede lijkerwijze kan worden verwacht dat de weglating of onjuiste ver melding ervan de beslissingen die een gebruiker op basis van de  financiële overzichten van een onderneming neemt, zou kunnen  beïnvloeden. Het materieel belang van afzonderlijke posten wordt  beoordeeld in de context van andere gelijkaardige posten;
 
-▼M4  17) „duurzaamheidskwesties ”: ecologische, sociale en mensenrechten,  en governancefactoren, waaronder duurzaamheidsfactoren zoals ge definieerd in artikel 2, punt 24), van Verordening (EU) 2019/2088;
+17) „duurzaamheidskwesties ”: ecologische, sociale en mensenrechten,  en governancefactoren, waaronder duurzaamheidsfactoren zoals ge definieerd in artikel 2, punt 24), van Verordening (EU) 2019/2088;
 
 18) „duurzaamheidsrapportering ”: verslaglegging van informatie met  betrekking tot duurzaamheidskwesties overeenkomstig de artikelen  19 bis, 29 bis en 29 quinquies;
 
@@ -230,75 +167,69 @@ b) met beleggingsondernemingen met vast kapitaal geassocieerde  ondernemingen wa
 
 20) „onafhankelijke verlener van assurancediensten ”: een conformiteits beoordelingsinstantie  die  overeenkomstig  Verordening  (EG)  nr. 765/2008 van het Europees Parlement en de Raad ( 1 ) geaccre diteerd is voor de in artikel 34, lid 1, tweede alinea, punt a bis),  van deze richtlijn bedoelde specifieke conformiteitsbeoordelings activiteit.
 
-▼B
-
 ###### Artikel 3
 
 Categorieën van ondernemingen en groepen
 
 1.  Wanneer zij gebruik maken van één of meer van de keuzemoge lijkheden in artikel 36, omschrijven de lidstaten micro-ondernemingen  als ondernemingen die op de balansdatum de grensbedragen voor ten  minste twee van de drie volgende criteria niet overschrijden:
 
-▼M6  a) balanstotaal: 450 000 EUR;
+a) balanstotaal: 450 000 EUR;
 
 b) netto-omzet: 900 000 EUR;
 
-▼B  c) gemiddeld personeelsbestand gedurende het boekjaar: 10.
+c) gemiddeld personeelsbestand gedurende het boekjaar: 10.
 
 2.  Kleine ondernemingen zijn ondernemingen die op de balansdatum  de grensbedragen voor ten minste twee van de volgende drie criteria  niet overschrijden:
 
-▼M6  a) balanstotaal: 5 000 000 EUR;
+a) balanstotaal: 5 000 000 EUR;
 
 b) netto-omzet: 10 000 000 EUR;
 
-▼B  c) gemiddeld personeelsbestand gedurende het boekjaar: 50.
+c) gemiddeld personeelsbestand gedurende het boekjaar: 50.
 
-▼M6  De lidstaten kunnen drempelwaarden bepalen die de drempelwaarden in  de punten a) en b) van de eerste alinea overschrijden. De drempel waarden mogen evenwel niet hoger zijn dan 7 500 000 EUR voor het  balanstotaal en 15 000 000 EUR voor de netto-omzet.
+De lidstaten kunnen drempelwaarden bepalen die de drempelwaarden in  de punten a) en b) van de eerste alinea overschrijden. De drempel waarden mogen evenwel niet hoger zijn dan 7 500 000 EUR voor het  balanstotaal en 15 000 000 EUR voor de netto-omzet.
 
-▼B  3.  Middelgrote ondernemingen zijn ondernemingen die geen micro-  ondernemingen of kleine ondernemingen zijn en die op de balansdatum  de grensbedragen voor ten minste twee van de volgende drie criteria  niet overschrijden:
+3.  Middelgrote ondernemingen zijn ondernemingen die geen micro-  ondernemingen of kleine ondernemingen zijn en die op de balansdatum  de grensbedragen voor ten minste twee van de volgende drie criteria  niet overschrijden:
 
-▼M6  a) balanstotaal: 25 000 000 EUR;
+a) balanstotaal: 25 000 000 EUR;
 
 b) netto-omzet: 50 000 000 EUR;
 
-▼B  c) gemiddeld personeelsbestand gedurende het boekjaar: 250.
+c) gemiddeld personeelsbestand gedurende het boekjaar: 250.
 
 4.  Grote ondernemingen zijn ondernemingen die op de balansdatum  ten minste twee van de volgende drie criteria overschrijden:
 
-▼M6  a) balanstotaal: 25 000 000 EUR;
-
-▼B
+a) balanstotaal: 25 000 000 EUR;
 
 c) gemiddeld personeelsbestand gedurende het boekjaar: 250.
 
 5.  Kleine groepen zijn groepen bestaande uit in een consolidatie op  te nemen moeder- en dochterondernemingen die, op geconsolideerde  basis, op de balansdatum van de moederonderneming de grensbedragen  voor ten minste twee van de volgende drie criteria niet overschrijden:
 
-▼M6  a) balanstotaal: 5 000 000 EUR;
+a) balanstotaal: 5 000 000 EUR;
 
 b) netto-omzet: 10 000 000 EUR;
 
-▼B  c) gemiddeld personeelsbestand gedurende het boekjaar: 50.
+c) gemiddeld personeelsbestand gedurende het boekjaar: 50.
 
-▼M6  De lidstaten kunnen drempelwaarden bepalen die de drempelwaarden in  de punten a) en b) van de eerste alinea overschrijden. De drempel waarden mogen evenwel niet hoger zijn dan 7 500 000 EUR voor het  balanstotaal en 15 000 000 EUR voor de netto-omzet.
+De lidstaten kunnen drempelwaarden bepalen die de drempelwaarden in  de punten a) en b) van de eerste alinea overschrijden. De drempel waarden mogen evenwel niet hoger zijn dan 7 500 000 EUR voor het  balanstotaal en 15 000 000 EUR voor de netto-omzet.
 
-▼B  6.  Middelgrote groepen zijn groepen, andere dan kleine groepen, die  bestaan uit in een consolidatie op te nemen moeder- en dochteronder nemingen die, op geconsolideerde basis, op de balansdatum van de  moederonderneming de grensbedragen voor ten minste twee van de  volgende drie criteria niet overschrijden:
+6.  Middelgrote groepen zijn groepen, andere dan kleine groepen, die  bestaan uit in een consolidatie op te nemen moeder- en dochteronder nemingen die, op geconsolideerde basis, op de balansdatum van de  moederonderneming de grensbedragen voor ten minste twee van de  volgende drie criteria niet overschrijden:
 
-▼M6  a) balanstotaal: 25 000 000 EUR;
+a) balanstotaal: 25 000 000 EUR;
 
 b) netto-omzet: 50 000 000 EUR;
 
-▼B  c) gemiddeld personeelsbestand gedurende het boekjaar: 250.
+c) gemiddeld personeelsbestand gedurende het boekjaar: 250.
 
 7.  Grote groepen zijn groepen bestaande uit in een consolidatie op te  nemen moeder- en dochterondernemingen die, op geconsolideerde ba sis, op de balansdatum van de moederonderneming de grensbedragen  voor ten minste twee van de volgende drie criteria overschrijden:
 
-▼M6  a) balanstotaal: 25 000 000 EUR;
+a) balanstotaal: 25 000 000 EUR;
 
 b) netto-omzet: 50 000 000 EUR;
 
-▼B  c) gemiddeld personeelsbestand gedurende het boekjaar: 250.
+c) gemiddeld personeelsbestand gedurende het boekjaar: 250.
 
 8.  De lidstaten staan toe dat de in artikel 24, lid 3, bedoelde ver rekening en elke uit artikel 24, lid 7, voortvloeiende weglating niet  worden verricht wanneer in de leden 5 tot en met 7 genoemde grens bedragen worden berekend. In dergelijke gevallen worden de grens bedragen betreffende het balanstotaal en de netto-omzet vermeerderd  met 20 %.
-
-▼B
 
 Voor de omzetting in de nationale munteenheid van de lidstaten die de  euro niet hebben ingevoerd, mogen de bedragen in euro die zijn vast gesteld in de leden 1, 3, 4, 6 en 7 met niet meer dan 5 % worden  vermeerderd of verminderd om in de nationale munteenheid ronde  bedragen te verkrijgen.
 
@@ -320,8 +251,6 @@ Algemene bepalingen
 
 De lidstaten kunnen voorschrijven dat ondernemingen, andere dan  kleine ondernemingen, in de jaarlijkse financiële overzichten naast de  in de eerste alinea bedoelde stukken andere overzichten opnemen.
 
-▼B
-
 3.  De jaarlijkse financiële overzichten geven een getrouw beeld van  de activa, de passiva, de financiële positie en de winst of het verlies  van de onderneming. Indien de toepassing van deze richtlijn niet vol doende is om een getrouw beeld te geven van de activa, de passiva, de  financiële positie en de winst of het verlies van de onderneming, wordt  in de toelichting bij de financiële overzichten dergelijke bijkomende  informatie verstrekt die met het oog op de naleving van dat voorschrift  noodzakelijk is.
 
 4.  Indien in uitzonderlijke gevallen blijkt dat toepassing van een  bepaling van deze richtlijn onverenigbaar is met de in lid 3 vastgelegde  verplichting, blijft die bepaling buiten toepassing opdat een getrouw  beeld van de activa, de passiva, de financiële positie en de winst of  het verlies van de onderneming wordt gegeven. In de toelichting bij de  financiële overzichten wordt in voorkomend geval, onder opgave van  redenen, vermeld dat een bepaling buiten toepassing is gebleven, en  welke invloed dat heeft gehad op de activa, de passiva, de financiële  positie en de winst of het verlies van de onderneming.
@@ -339,8 +268,6 @@ De lidstaten kunnen bepalen wat onder dergelijke uitzonderlijke geval len wordt 
 ###### Artikel 5
 
 Algemene rapporteringsverplichting
-
-▼B
 
 ###### Artikel 6
 
@@ -374,8 +301,6 @@ i) in de financiële overzichten opgenomen posten worden volgens het  beginsel v
 
 j) de voorschriften van deze richtlijn inzake opname, waardering, pre sentatie, vermelding en consolidatie behoeven niet te worden nage leefd indien het nalevingseffect niet van materieel belang is.
 
-▼B
-
 3.  De lidstaten kunnen ondernemingen vrijstelling verlenen van de  voorschriften van lid 1, punt h).
 
 4.  De lidstaten kunnen de toepassing van lid 1, punt j), beperken tot  presentatie en vermelding van informatie.
@@ -395,8 +320,6 @@ De herwaarderingsreserve kan te allen tijde geheel of ten dele in ka pitaal word
 De herwaarderingsreserve wordt verminderd indien de daarvoor gere serveerde bedragen niet meer noodzakelijk zijn voor de toepassing van  de waardering tegen geherwaardeerde bedragen in de verslaglegging.  De lidstaten kunnen regels vaststellen voor het gebruik van de her waarderingsreserve, met dien verstande dat er slechts bedragen uit de  herwaarderingsreserve aan de winst-en-verliesrekening mogen worden  toegevoegd indien de overgeboekte bedragen hetzij als kosten in de  winst-en-verliesrekening zijn opgenomen hetzij betrekking hebben op  een daadwerkelijk gerealiseerde waardevermeerdering. Uit de herwaar deringsreserve mogen noch rechtstreeks noch onrechtstreeks bedragen  worden uitgekeerd, tenzij zij overeenstemmen met een gerealiseerde  waardevermeerdering.
 
 Behalve in de in de tweede en derde alinea van dit lid genoemde  gevallen, mag de herwaarderingsreserve niet worden verminderd.
-
-▼B
 
 ###### Artikel 8
 
@@ -430,8 +353,6 @@ a) tot de vervaldag aangehouden niet-afgeleide financiële instrumenten;
 
 b) door de onderneming verstrekte leningen, respectievelijk te innen  vorderingen die geen deel uitmaken van de handelsportefeuille; en
 
-▼B
-
 5.  In afwijking van artikel 6, lid 1, punt i), kunnen de lidstaten  toestaan dat activa of passiva die in het kader van een reëlewaardehed ge-accountingsysteem als afgedekte post worden aangemerkt, of wel omschreven onderdelen van die activa en passiva, worden gewaardeerd  tegen het specifieke volgens dat reëlewaardehedge-accountingsysteem  vereiste bedrag.
 
 6.  In afwijking van de leden 3 en 4, kunnen de lidstaten toestaan of  eisen dat de opname, waardering en vermelding van financiële instru menten gebeurt volgens de overeenkomstig Verordening (EG) nr.  1606/2002 goedgekeurde internationale standaarden voor jaarrekenin gen.
@@ -450,8 +371,6 @@ a) het opgenomen instrument is een afdekkingsinstrument in het kader  van een �
 
 b) de waardeverandering houdt verband met een wisselkoersverschil  dat voortvloeit uit een monetaire post die deel uitmaakt van de  netto-investering van een onderneming in een buitenlandse entiteit.
 
-▼B
-
 9.  Niettegenstaande artikel 6, lid 1, punt c), kunnen de lidstaten  toestaan of voorschrijven dat alle ondernemingen, of bepaalde catego rieën ondernemingen, die activa, andere dan financiële instrumenten,  tegen de reële waarde waarderen, waardeveranderingen in de winst-en-  verliesrekening opnemen.
 
 BALANS EN WINST-EN-VERLIESREKENING
@@ -469,8 +388,6 @@ Algemene bepalingen betreffende de balans en de winst-en-  verliesrekening
 Lidstaten kunnen toestaan of voorschrijven dat met Arabische cijfers  aangeduide posten van de balans en de winst - en verliesrekening  worden samengevoegd wanneer hun bedrag niet van materieel belang  is voor het geven van een getrouw beeld van de activa, de passiva, de  financiële positie en de winst of het verlies van de onderneming, of  indien die samenvoeging de duidelijkheid ten goede komt, mits de  aldus samengevoegde posten in de toelichting bij de financiële over zichten afzonderlijk worden vermeld.
 
 4.  In afwijking van leden 2 en 3 van dit artikel, kunnen de lidstaten  een onderneming beperken in haar mogelijkheden om van in de bij lagen III tot VI vastgestelde indelingen af te wijken voor zover dit  noodzakelijk is met het oog op het indienen van financiële overzichten  langs elektronische weg.
-
-▼B
 
 6.  De lidstaten kunnen toestaan of voorschrijven dat de indelingen  van de balans en van de winst-en-verliesrekening worden aangepast  teneinde de bestemming van winst en de verwerking van het verlies  op te nemen.
 
@@ -498,8 +415,6 @@ De lidstaten kunnen toestaan of voorschrijven dat alle ondernemingen  of bepaald
 
 Bijzondere voorschriften betreffende bepaalde balansposten
 
-▼B
-
 2.  Eigen aandelen en aandelen in verbonden ondernemingen worden  uitsluitend onder de daartoe voorgeschreven posten opgenomen.
 
 3.  Bepaalde vermogensbestanddelen worden op grond van hun be stemming ingedeeld bij de vaste of bij de vlottende activa.
@@ -522,8 +437,6 @@ d) de waardering tegen de lagere waarde als bedoeld in de punten a) en  b) mag n
 
 De waardering tegen de lagere waarde als bedoeld in de eerste alinea  mag niet worden voortgezet wanneer de redenen voor de waardecor recties niet langer bestaan.
 
-▼B
-
 9.  De lidstaten kunnen toestaan dat de aanschaffingsprijs of vervaar digingskosten van voorraden van goederen van dezelfde soort, alsmede  van  alle  vervangbare  bestanddelen  met  inbegrip  van  ►C1 beleggingen ◄, worden berekend op basis van gewogen gemid delde prijzen of volgens de methode „first in, first out” (FIFO), de me thode „last in, first out” (LIFO), dan wel een methode die overeenkomt  met de algemeen aanvaarde praktijk.
 
 10.  Indien het op een schuld af te lossen bedrag hoger is dan het  ontvangen bedrag, kunnen de lidstaten toestaan of voorschrijven dat het  verschil wordt geactiveerd. Het moet afzonderlijk in de balans of in de  toelichting bij de financiële overzichten worden vermeld. Van dit ver schil moet jaarlijks een redelijk gedeelte worden afgeschreven en het  moet uiterlijk ten tijde van de aflossing van de schuld volledig afge schreven zijn.
@@ -541,8 +454,6 @@ In uitzonderlijke gevallen kunnen de lidstaten een afwijking van de  derde en vi
 12.  De voorzieningen vormen een dekking voor naar hun aard dui delijk omschreven verplichtingen die op de balansdatum als waarschijn lijk of als vaststaand worden beschouwd, doch waarvan niet bekend is  in welke omvang of wanneer zij zullen ontstaan.
 
 De lidstaten kunnen ook toestaan dat er voorzieningen worden aange legd die beogen een dekking te vormen voor naar hun aard duidelijk  omschreven kosten die op de balansdatum als waarschijnlijk of als  vaststaand worden beschouwd, doch waarvan niet bekend is in welke  omvang of wanneer zij zullen ontstaan.
-
-▼B
 
 ###### Artikel 13
 
@@ -562,7 +473,7 @@ a) de in bijlage III bij post D II onder „Activa” en bij post C onder  „Ei
 
 ▼C3  b) de in bijlage IV bij post D II tussen haakjes vereiste informatie.
 
-▼B  2.  De lidstaten kunnen toestaan dat kleine en middelgrote onder nemingen een verkorte winst-en-verliesrekening opstellen binnen de  volgende grenzen:
+2.  De lidstaten kunnen toestaan dat kleine en middelgrote onder nemingen een verkorte winst-en-verliesrekening opstellen binnen de  volgende grenzen:
 
 a) in bijlage V kunnen de posten 1 tot en met 5 in een post „Bruto-  omzetresultaat” worden samengevoegd;
 
@@ -573,8 +484,6 @@ TOELICHTINGEN BIJ DE FINANCIËLE OVERZICHTEN
 ###### Artikel 15
 
 Algemene bepalingen betreffende de toelichtingen bij de financiële  overzichten
-
-▼B
 
 ###### Artikel 16
 
@@ -603,8 +512,6 @@ iv) een overzicht van de verschuivingen gedurende het boekjaar in  de reëlewaar
 d) het totaalbedrag van alle financiële verplichtingen, garanties of on voorziene gebeurtenissen die niet in de balans zijn opgenomen, met  opgave van de aard en vorm van alle zakelijke zekerheden die zijn  gesteld; verplichtingen inzake pensioenen en verplichtingen jegens  verbonden of geassocieerde ondernemingen worden afzonderlijk  vermeld;
 
 e) het bedrag van de aan de leden van de bestuurs-, leidinggevende en  toezichthoudende organen verleende voorschotten en kredieten, met  vermelding van de interestvoet, de belangrijkste voorwaarden en de  eventuele afgeloste of afgeschreven bedragen of bedragen waarvan  werd afgezien, alsmede de ten behoeve van de betrokken personen  aangegane garantieverplichtingen van welke aard ook, met opgave  van een totaalbedrag voor elke genoemde groep;
-
-▼B
 
 g) het bedrag van de schulden van de onderneming met een resterende  looptijd van meer dan vijf jaar, alsmede het bedrag van alle schul den van de onderneming waarvoor de onderneming zakelijke zeker heid heeft gesteld, met opgave van de aard en vorm van deze  zekerheid; en
 
@@ -638,8 +545,6 @@ v) verschuivingen in gecumuleerde waardecorrecties met betrek king tot mutaties 
 
 vi) indien de rente overeenkomstig artikel 12, lid 8, wordt geacti veerd, het in de loop van het boekjaar geactiveerde bedrag;
 
-▼B
-
 c) indien financiële instrumenten tegen de aanschaffingsprijs of ver vaardigingskosten worden gewaardeerd:
 
 i) voor iedere categorie afgeleide financiële instrumenten:
@@ -664,8 +569,6 @@ f) indien in de balans een voorziening voor uitgestelde belastingen is  opgenome
 
 ▼C3  g) naam en zetel van elk van de ondernemingen waarin de onder neming, hetzij zelf hetzij via een persoon die in eigen naam,  maar voor rekening van de onderneming handelt, een deelneming  heeft, met opgave van het aandeel in het kapitaal, alsmede het  bedrag van het eigen vermogen en van het resultaat over het meest  recente boekjaar van de betrokken onderneming waarvoor financi ële overzichten zijn vastgesteld; de vermelding van het eigen ver mogen en van het resultaat mag worden weggelaten indien de  betrokken onderneming haar balans niet openbaar maakt en de  onderneming geen zeggenschap heeft over de betrokken onder neming.
 
-▼B
-
 waarop de informatie betrekking heeft. De lidstaten kunnen het  weglaten van deze informatie afhankelijk stellen van de toestemming  van overheid of rechter. Het achterwege laten van deze informatie  wordt in de toelichting bij de financiële overzichten vermeld;
 
 h) het aantal en de nominale waarde of, bij gebreke hiervan, de frac tiewaarde van de tijdens het boekjaar binnen de grenzen van het  maatschappelijk kapitaal geplaatste aandelen, onverminderd het be paalde betreffende het bedrag van dat kapitaal in artikel 2, punt e),  van Richtlijn 2009/101/EG of in artikel 2, punten c) en d), van  Richtlijn 2012/30/EU;
@@ -687,8 +590,6 @@ o) het voorstel tot bestemming van winst of verwerking van verlies of,  indien v
 p) de aard en het zakelijke doel van de regelingen van de onder neming die niet in de balans zijn opgenomen, en de financiële  gevolgen van deze regelingen voor de onderneming, mits de risico's  of voordelen die uit dergelijke regelingen voortvloeien van materi eel belang zijn en voor zover de rapportering van dergelijke risico's  of voordelen noodzakelijk is voor de beoordeling van de financiële  positie van de onderneming;
 
 q) de aard en de financiële gevolgen van materiële gebeurtenissen die  zich na de balansdatum hebben voorgedaan en die niet in de winst-  en-verliesrekening of balans worden weergegeven; en
-
-▼B
 
 De lidstaten kunnen toestaan of voorschrijven dat alleen transacties  met verbonden partijen die niet onder normale marktvoorwaarden  zijn verricht, worden vermeld.
 
@@ -716,8 +617,6 @@ Bijkomende  vermeldingen  voor  grote  ondernemingen  en  organisaties van openb
 
 a) de netto-omzet gesplitst naar categorieën van bedrijfsactiviteiten en  naar geografische markten, voor zover deze categorieën en markten  vanuit het oogpunt van de organisatie van de verkoop van goederen  en de verlening van diensten onderling aanzienlijke verschillen te  zien geven; en
 
-▼B
-
 2.  De lidstaten kunnen toestaan dat de informatie bedoeld in lid 1,  punt a), wordt weggelaten indien het vermelden ervan ernstig nadeel  aan de onderneming kan berokkenen. De lidstaten kunnen het achter wege laten van deze informatie afhankelijk stellen van de toestemming  van overheid of rechter. Het achterwege laten van deze informatie  wordt in de toelichting bij de financiële overzichten vermeld.
 
 3.  De lidstaten kunnen bepalen dat lid 1, punt b), niet van toepassing  is op de jaarlijkse financiële overzichten van een onderneming indien  die onderneming in de uit hoofde van artikel 22 op te stellen geconsoli deerde financiële overzichten is opgenomen, mits die informatie in de  toelichting bij de geconsolideerde financiële overzichten staat.
@@ -734,9 +633,9 @@ Het overzicht bevat een evenwichtige en volledige analyse van de  ontwikkeling e
 
 In de mate waarin zulks noodzakelijk is voor een goed begrip van de  ontwikkeling, resultaten of positie van de onderneming omvat de ana lyse zowel financiële als, waar zulks passend wordt geacht, niet-finan ciële essentiële prestatie-indicatoren die betrekking hebben op de spe cifieke bedrijfsactiviteit, met inbegrip van informatie betreffende mi lieu- en personeelsaangelegenheden. In de analyse omvat het bestuurs verslag, in voorkomend geval, verwijzingen naar en aanvullende uitleg  betreffende de bedragen in de jaarlijkse financiële overzichten.
 
-▼M4  Grote ondernemingen en kleine en middelgrote ondernemingen, met  uitzondering van micro-ondernemingen, die organisaties van openbaar  belang zijn zoals gedefinieerd in artikel 2, punt 1), a), rapporteren over  de essentiële immateriële middelen en lichten toe hoe het bedrijfsmodel  van de onderneming fundamenteel afhankelijk is van die middelen en  hoe die middelen een bron voor de waardecreatie van de onderneming  zijn.
+Grote ondernemingen en kleine en middelgrote ondernemingen, met  uitzondering van micro-ondernemingen, die organisaties van openbaar  belang zijn zoals gedefinieerd in artikel 2, punt 1), a), rapporteren over  de essentiële immateriële middelen en lichten toe hoe het bedrijfsmodel  van de onderneming fundamenteel afhankelijk is van die middelen en  hoe die middelen een bron voor de waardecreatie van de onderneming  zijn.
 
-▼B  2.  Het bestuursverslag bevat ook informatie omtrent:
+2.  Het bestuursverslag bevat ook informatie omtrent:
 
 a) de verwachte ontwikkeling van de onderneming;
 
@@ -746,8 +645,6 @@ c) de in artikel 24, lid 2, van Richtlijn 2012/30/EU voorgeschreven  gegevens me
 
 d) het bestaan van bijkantoren van de onderneming; en
 
-▼B
-
 i) de doelstellingen en het beleid van de onderneming inzake het  beheer van financiële risico's, met inbegrip van haar beleid voor  de afdekking van alle belangrijke soorten voorgenomen trans acties waarvoor hedge accounting wordt toegepast; en
 
 ii) het door de onderneming gelopen prijsrisico, kredietrisico, liqui diteitsrisico en kasstroomrisico.
@@ -755,8 +652,6 @@ ii) het door de onderneming gelopen prijsrisico, kredietrisico, liqui diteitsris
 3.  De lidstaten kunnen kleine ondernemingen vrijstellen van de ver plichting om bestuursverslagen op te stellen, op voorwaarde dat zij  verlangen dat de in artikel 24, lid 2, van Richtlijn 2012/30/EU bedoelde  informatie over het verkrijgen door een onderneming van eigen aan delen in de toelichting bij de financiële overzichten wordt vermeld.
 
 4.  De lidstaten kunnen kleine en middelgrote ondernemingen vrij stellen van de in lid 1, derde alinea, vervatte verplichting, voor zover  die verplichting betrekking heeft op niet-financiële informatie.
-
-▼M4
 
 ### Art. 19. bis
 
@@ -773,8 +668,6 @@ a) een korte beschrijving van het bedrijfsmodel en de strategie van de  ondernem
 i) de veerkracht van het bedrijfsmodel en de strategie van de  onderneming ten aanzien van risico’s in verband met duurzaam heidskwesties;
 
 ii) de kansen voor de onderneming op het gebied van duurzaam heidskwesties;
-
-▼M4
 
 van de Verenigde Naties inzake klimaatverandering op 12 de cember 2015 aangenomen Overeenkomst van Parijs (“de Over eenkomst van Parijs”) en de doelstelling om uiterlijk in 2050  klimaatneutraliteit te bereiken zoals vastgesteld in Verordening  (EU) 2021/1119 van het Europees Parlement en de Raad ( 1 ), en  in voorkomend geval de blootstelling van de onderneming aan  steenkool-, olie- en gasgerelateerde activiteiten;
 
@@ -796,8 +689,6 @@ i)  de door de onderneming toegepaste passende zorgvuldigheids procedure ten aan
 
 ii) de belangrijkste feitelijke of potentiële negatieve effecten die  verband houden met de eigen activiteiten en met de waardeke ten van de onderneming, met inbegrip van haar producten en  diensten, haar zakelijke betrekkingen en haar toeleveringsketen,  welke activiteiten zijn ondernomen voor het in kaart brengen en  monitoren van die effecten en van andere negatieve effecten die  de onderneming op grond van andere vereisten van de Unie met  betrekking tot het uitvoeren van een passende zorgvuldigheids procedure verplicht is in kaart te brengen;
 
-▼M4
-
 iii) alle door de onderneming genomen maatregelen om feitelijke of  potentiële negatieve effecten te voorkomen, te beperken, te ver helpen of te beëindigen, en het resultaat van dergelijke maat regelen;
 
 g) een beschrijving van de voornaamste risico’s voor de onderneming  met betrekking tot duurzaamheidskwesties, met inbegrip van een  beschrijving van de belangrijkste afhankelijkheden van de onder neming van die kwesties, en hoe de onderneming die risico’s be heert;
@@ -813,8 +704,6 @@ Gedurende de eerste drie jaar van de toepassing van de door de lid staten overee
 De in de leden 1 en 2 bedoelde informatie bevat, in voorkomend geval,  tevens verwijzingen naar en aanvullende uitleg over de andere infor matie die overeenkomstig artikel 19 in het bestuursverslag is opge nomen en de bedragen die in de jaarlijkse financiële overzichten zijn  vermeld.
 
 De lidstaten kunnen toestaan dat informatie betreffende ophanden  zijnde ontwikkelingen of zaken waarover wordt onderhandeld, in uit zonderlijke gevallen wordt weggelaten indien naar de behoorlijk ge rechtvaardigde opvatting van de leden van de bestuurs-, leidinggevende  en toezichthoudende organen, handelend binnen het kader van de hun  krachtens het nationaal recht toegewezen bevoegdheden en met collec tieve verantwoordelijkheid voor dat standpunt, de openbaarmaking van  dergelijke informatie ernstige schade zou toebrengen aan de commer ciële positie van de onderneming, mits het weglaten van die informatie  niet in de weg staat aan een getrouw en evenwichtig begrip van de  ontwikkeling, de resultaten en de positie van de onderneming alsmede  van de effecten van haar activiteiten.
-
-▼M4
 
 4.  Ondernemingen rapporteren de in de leden 1, 2 en 3 van dit  artikel bedoelde informatie overeenkomstig de op grond van arti kel 29 ter vastgestelde duurzaamheidsrapporteringsstandaarden.
 
@@ -836,8 +725,6 @@ Kleine en middelgrote ondernemingen, kleine en niet-complexe instel lingen, en v
 
 7.  Voor boekjaren die aanvangen vóór 1 januari 2028 kunnen kleine  en middelgrote ondernemingen die organisaties van openbaar belang  zijn zoals gedefinieerd in artikel 2, punt 1), a), in afwijking van lid 1  van dit artikel besluiten de in lid 1 van dit artikel bedoelde informatie  niet in hun bestuursverslag op te nemen. In dergelijke gevallen geeft de  onderneming in haar bestuursverslag niettemin kort aan waarom de  duurzaamheidsrapportering niet is verstrekt.
 
-▼M4
-
 8.  Ondernemingen die aan de in de leden 1 tot en met 4 van dit  artikel bepaalde vereisten voldoen en ondernemingen die een beroep  doen op de in lid 6 van dit artikel bedoelde afwijking, worden geacht  aan het vereiste van artikel 19, lid 1, derde alinea, te hebben voldaan.
 
 9.  Op voorwaarde dat aan de in de tweede alinea van dit lid be paalde vereisten is voldaan, is een onderneming die een dochteronder neming is, vrijgesteld van de in de leden 1 tot en met 4 van dit artikel  bepaalde verplichtingen (de “vrijgestelde dochteronderneming ”), indien  een dergelijke onderneming en haar dochterondernemingen opgenomen  zijn in het overeenkomstig de artikelen 29 en 29 bis opgestelde gecon solideerde bestuursverslag van een moederonderneming. Een onder neming die een dochteronderneming is van een in een derde land  gevestigde moederonderneming wordt eveneens vrijgesteld van de in  de leden 1 tot en met 4 van dit artikel bepaalde verplichtingen indien  een dergelijke onderneming en haar dochterondernemingen zijn opge nomen in de geconsolideerde duurzaamheidsrapportering van die in een  derde land gevestigde moederonderneming en indien die geconsoli deerde duurzaamheidsrapportering is uitgevoerd overeenkomstig de in  artikel 29 ter vastgestelde duurzaamheidsrapporteringsstandaarden of op  een wijze die gelijkwaardig is aan die standaarden, zoals bepaald over eenkomstig een op grond van artikel 23, lid 4, derde alinea, van Richt lijn 2004/109/EG van het Europees Parlement en de Raad ( 1 ) vast gestelde uitvoeringshandeling inzake de gelijkwaardigheid van duur zaamheidsrapporteringsstandaarden.
@@ -852,8 +739,6 @@ ii) de weblinks naar het geconsolideerde bestuursverslag van de  moederondernemi
 
 iii) de mededeling dat de onderneming is vrijgesteld van de in de  leden 1 tot en met 4 van dit artikel bepaalde verplichtingen;
 
-▼M4
-
 b) indien de moederonderneming in een derde land is gevestigd, wor den haar geconsolideerde duurzaamheidsrapportering en het assuran ceoordeel over de geconsolideerde duurzaamheidsrapportering dat is  uitgebracht door één of meerdere personen of kantoren die uit  hoofde het recht waaronder die moederonderneming valt gerechtigd  is een oordeel over de assurance van duurzaamheidsrapportering uit  te brengen, overeenkomstig artikel 30 van deze richtlijn gepubli ceerd, overeenkomstig het recht van de lidstaat waaronder de vrij gestelde dochteronderneming valt;
 
 c) indien de moederonderneming in een derde land is gevestigd, wordt  de in artikel 8 van Verordening (EU) 2020/852 van het Europees  Parlement en de Raad ( 1 ) bedoelde informatieverschaffing over de  activiteiten van de vrijgestelde dochteronderneming die in de Unie  is gevestigd, en haar dochterondernemingen, opgenomen in het be stuursverslag van de vrijgestelde dochteronderneming of in de ge consolideerde duurzaamheidsrapportering die door de in een derde  land gevestigde moederonderneming is uitgevoerd.
@@ -866,11 +751,7 @@ Voor de toepassing van de eerste alinea van dit lid, en indien artikel 10  van V
 
 Voor de toepassing van de eerste alinea van dit lid worden in artikel 1,  lid 3, punt a), van deze richtlijn bedoelde verzekeringsondernemingen  die op basis van de in artikel 212, lid 1, punt c), ii), van Richtlijn  2009/138/EG bedoelde financiële banden deel uitmaken van een groep,  waarop overeenkomstig artikel 213, lid 2, punten a), b) en c), van die  richtlijn op groepsniveau toezicht wordt uitgeoefend, beschouwd als  dochterondernemingen van de moederonderneming van die groep.
 
-▼M4
-
 10.  De bij lid 9 verleende vrijstelling is ook van toepassing op  organisaties van openbaar belang voor wie de vereisten van dit artikel  gelden, met uitzondering van grote ondernemingen die organisaties van  openbaar belang zijn zoals gedefinieerd in artikel 2, punt 1), a), van  deze richtlijn.
-
-▼B
 
 ###### Artikel 20
 
@@ -898,13 +779,11 @@ e) tenzij het verstrekken van die informatie reeds volledig volgens het  nationa
 
 f) de samenstelling en de werking van het leidinggevend, het toezicht houdend en het bestuursorgaan, alsmede van de comités van die  organen; en
 
-▼M4
-
 g) een beschrijving van het diversiteitsbeleid dat wordt gevoerd met  betrekking tot de bestuurs-, leidinggevende en toezichthoudende or ganen van de onderneming met betrekking tot geslacht en andere  aspecten, zoals leeftijd, handicap of achtergrond inzake opleiding en  beroepservaring, de doelstellingen van dat diversiteitsbeleid, de  wijze van uitvoering van dat beleid en de resultaten in de verslag periode. Indien op dit gebied geen beleid wordt gevoerd, wordt in  de verklaring uiteengezet waarom dat het geval is.
 
 Ondernemingen die onder artikel 19 bis vallen, worden geacht aan de  verplichting van punt g) van de eerste alinea van dit lid te voldoen  indien zij de uit hoofde van dat punt vereiste informatie opnemen in  hun duurzaamheidsrapportering en een verwijzing daarnaar opnemen in  hun verklaring inzake corporate governance.
 
-▼B  2.  De lidstaten kunnen toestaan dat de in lid 1 verlangde informatie  wordt opgenomen in:
+2.  De lidstaten kunnen toestaan dat de in lid 1 verlangde informatie  wordt opgenomen in:
 
 a) een afzonderlijk verslag dat samen met het bestuursverslag op de in  artikel 30 beschreven wijze openbaar wordt gemaakt; of
 
@@ -912,11 +791,9 @@ b) een document dat op de website van de onderneming voor het  publiek beschikba
 
 Indien de in lid 1, punt d), verlangde informatie in het bestuursverslag  beschikbaar wordt gesteld, kan het in punt a) bedoelde afzonderlijk  verslag of het in punt b) bedoelde document, respectievelijk, kruisver wijzingen naar het bestuursverslag bevatten.
 
-▼M1  3.  De wettelijke auditor of het auditkantoor geeft overeenkomstig  artikel 34, lid 1, tweede alinea, een oordeel over de krachtens lid 1,  punten c) en d), van dit artikel opgestelde informatie en controleert of  de in lid 1, punten a), b), e), f), en g), van dit artikel bedoelde infor matie is verstrekt.
+3.  De wettelijke auditor of het auditkantoor geeft overeenkomstig  artikel 34, lid 1, tweede alinea, een oordeel over de krachtens lid 1,  punten c) en d), van dit artikel opgestelde informatie en controleert of  de in lid 1, punten a), b), e), f), en g), van dit artikel bedoelde infor matie is verstrekt.
 
 4.  De lidstaten kunnen de in lid 1 bedoelde ondernemingen die  alleen effecten, andere dan aandelen, hebben uitgegeven die zijn toe gelaten tot de handel op een gereglementeerde markt in de zin van  artikel 4, lid 1, punt 14), van Richtlijn 2004/39/EG, vrijstelling ver lenen van de toepassing van lid 1, punten a), b), e), f) en g), van dit  artikel, tenzij die ondernemingen aandelen hebben uitgegeven die wor den verhandeld in een multilaterale handelsfaciliteit in de zin van ar tikel 4, lid 1, punt 15), van Richtlijn 2004/39/EG.
-
-▼B
 
 GECONSOLIDEERDE FINANCIËLE OVERZICHTEN EN VERSLAGEN
 
@@ -945,8 +822,6 @@ d) aandeelhouder van of vennoot in een onderneming is en:
 i) een meerderheid van de leden van het bestuurs -, het leidingge vend of het toezichthoudend orgaan van die onderneming (een  dochteronderneming) die gedurende het boekjaar, gedurende het  voorafgaande boekjaar en tot aan de opstelling van de geconsoli deerde financiële overzichten in functie zijn, werden benoemd,  enkel door de uitoefening van haar stemrechten, of
 
 ii) op grond van een overeenkomst met andere aandeelhouders van  of vennoten in die onderneming (een dochteronderneming), als  enige de meerderheid van de stemrechten van de aandeelhouders  van of vennoten in die onderneming beheerst. De lidstaten kun nen nadere eisen betreffende vorm en inhoud van die overeen komst vaststellen.
-
-▼B
 
 Subpunt i) is evenwel niet van toepassing indien een derde partij tegen over die onderneming de in de punten a), b) of c) bedoelde rechten  heeft.
 
@@ -978,8 +853,6 @@ a) die onderneming en een of meer andere ondernemingen waarmee  niet een in lid 
 
 i) een met die onderneming gesloten overeenkomst, of
 
-▼B
-
 b) de bestuurs-, de leidinggevende of de toezichthoudende organen van  die onderneming en van een of meer andere ondernemingen waar mee niet een in lid 1 of in lid 2 beschreven betrekking bestaat,  gedurende het boekjaar en tot de opstelling van de geconsolideerde  financiële overzichten in meerderheid uit dezelfde personen bestaan.
 
 8.  Indien een lidstaat van de in lid 7 bedoelde mogelijkheid gebruik  maakt, worden de in dat lid beschreven ondernemingen en al hun  dochterondernemingen in de consolidatie opgenomen indien een of  meer van die ondernemingen een van de in bijlage I of bijlage II  genoemde rechtsvormen heeft.
@@ -1000,17 +873,15 @@ Vrijstellingen van consolidatie
 
 3.  Niettegenstaande de leden 1 en 2 van dit artikel verleent een  lidstaat in de volgende gevallen aan elke onder het nationale recht  van die lidstaat vallende moederonderneming (de vrijgestelde onder neming) die ook een dochteronderneming is, met inbegrip van een  organisatie van openbaar belang, tenzij deze organisatie van openbaar  belang onder artikel 2, punt 1, onderdeel a), valt, vrijstelling van de  verplichting om geconsolideerde financiële overzichten en een gecon solideerd bestuursverslag op te stellen, indien haar eigen moederonder neming onder het recht van een lidstaat valt en:
 
-▼B
-
 b) de moederonderneming van de vrijgestelde onderneming ten minste  90 % van de aandelen van de vrijgestelde onderneming in bezit  heeft en de overige aandeelhouders van of vennoten in de vrij gestelde onderneming het gebruik van de vrijstelling hebben goed gekeurd.
 
 4.  Voor de in lid 3 bedoelde vrijstellingen wordt aan alle volgende  voorwaarden voldaan:
 
 a) de vrijgestelde onderneming en, onverminderd lid 9, al haar dochter ondernemingen worden geconsolideerd in de financiële overzichten  van een groter geheel van ondernemingen waarvan de moederonder neming onder het recht van een lidstaat valt;
 
-▼M4  b) de in punt a) bedoelde geconsolideerde financiële overzichten en het  geconsolideerde bestuursverslag van het grotere geheel van onder nemingen worden door de moederonderneming van dat geheel van  ondernemingen opgesteld overeenkomstig het recht van de lidstaat  waaronder die moederonderneming valt, conform deze richtlijn, met  uitzondering van de vereisten van artikel 29 bis, of conform de  internationale standaarden voor jaarrekeningen die overeenkomstig  Verordening (EG) nr. 1606/2002 zijn goedgekeurd;
+b) de in punt a) bedoelde geconsolideerde financiële overzichten en het  geconsolideerde bestuursverslag van het grotere geheel van onder nemingen worden door de moederonderneming van dat geheel van  ondernemingen opgesteld overeenkomstig het recht van de lidstaat  waaronder die moederonderneming valt, conform deze richtlijn, met  uitzondering van de vereisten van artikel 29 bis, of conform de  internationale standaarden voor jaarrekeningen die overeenkomstig  Verordening (EG) nr. 1606/2002 zijn goedgekeurd;
 
-▼B  c) met betrekking tot de vrijgestelde onderneming worden de volgende  stukken, op de wijze als voorgeschreven bij het recht van de lidstaat  waaronder de vrijgestelde onderneming valt, overeenkomstig arti kel 30 openbaar gemaakt:
+c) met betrekking tot de vrijgestelde onderneming worden de volgende  stukken, op de wijze als voorgeschreven bij het recht van de lidstaat  waaronder de vrijgestelde onderneming valt, overeenkomstig arti kel 30 openbaar gemaakt:
 
 i) de in punt a) bedoelde geconsolideerde financiële overzichten en  het in punt b) bedoelde geconsolideerde bestuursverslag,
 
@@ -1025,8 +896,6 @@ d) in de toelichting bij de jaarlijkse financiële overzichten van de vrij geste
 i) de naam en de zetel van de moederonderneming die de in punt  a) bedoelde geconsolideerde financiële overzichten opstelt; en
 
 ii) de vrijstelling van de verplichting om geconsolideerde financiële  overzichten en een geconsolideerd bestuursverslag op te stellen.
-
-▼B
 
 a) de aandeelhouders van of deelnemers in de vrijgestelde onder neming die een minimumpercentage van het geplaatste kapitaal  van die onderneming bezitten, niet uiterlijk zes maanden voor het  eind van het boekjaar om de opstelling van geconsolideerde finan ciële overzichten hebben verzocht;
 
@@ -1050,19 +919,17 @@ a) ter voorlichting van de werknemers of van hun vertegenwoordigers;  of
 
 b) door overheid of rechter voor eigen kennisneming.
 
-▼B
-
 a) de vrijgestelde onderneming en, onverminderd lid 9, al haar dochter ondernemingen worden geconsolideerd in de financiële overzichten  van een groter geheel van ondernemingen;
 
 b) de in punt a) bedoelde geconsolideerde financiële overzichten en, in  voorkomend geval, het geconsolideerde bestuursverslag worden op gesteld:
 
-▼M4  i) conform deze richtlijn, met uitzondering van de vereisten van  artikel 29 bis,
+i) conform deze richtlijn, met uitzondering van de vereisten van  artikel 29 bis,
 
-▼B  ii) conform de internationale standaarden voor jaarrekeningen die  op grond van Verordening (EG) nr. 1606/2002 zijn vastgesteld,
+ii) conform de internationale standaarden voor jaarrekeningen die  op grond van Verordening (EG) nr. 1606/2002 zijn vastgesteld,
 
-▼M4  iii) op een wijze die gelijkwaardig is met de geconsolideerde finan ciële overzichten en geconsolideerde bestuursverslagen die con form deze richtlijn, met uitzondering van de vereisten van ar tikel 29 bis, zijn opgesteld, of
+iii) op een wijze die gelijkwaardig is met de geconsolideerde finan ciële overzichten en geconsolideerde bestuursverslagen die con form deze richtlijn, met uitzondering van de vereisten van ar tikel 29 bis, zijn opgesteld, of
 
-▼B  iv) op een wijze die gelijkwaardig is met de internationale standaar den voor jaarrekeningen die overeenkomstig Verordening (EG)  nr. 1569/2007 van de Commissie van 21 december 2007 waarbij  ter uitvoering van de Richtlijnen 2003/71/EG en 2004/109/EG  van het Europees Parlement en de Raad een mechanisme wordt  opgezet voor het nemen van een besluit over de gelijkwaardig heid van standaarden voor jaarrekeningen die door effectenuit gevende instellingen van derde landen worden toegepast ( 1 ) zijn  goedgekeurd;
+iv) op een wijze die gelijkwaardig is met de internationale standaar den voor jaarrekeningen die overeenkomstig Verordening (EG)  nr. 1569/2007 van de Commissie van 21 december 2007 waarbij  ter uitvoering van de Richtlijnen 2003/71/EG en 2004/109/EG  van het Europees Parlement en de Raad een mechanisme wordt  opgezet voor het nemen van een besluit over de gelijkwaardig heid van standaarden voor jaarrekeningen die door effectenuit gevende instellingen van derde landen worden toegepast ( 1 ) zijn  goedgekeurd;
 
 c) de in punt a) bedoelde geconsolideerde financiële overzichten zijn  gecontroleerd door een of meer wettelijke auditors of auditkantoren  die bevoegd zijn tot controle van de financiële overzichten krachtens  het nationale recht waaronder de onderneming valt die die overzich ten heeft opgesteld.
 
@@ -1079,8 +946,6 @@ c) ingrijpende en langdurige beperkingen bemoeilijken in wezenlijke  mate:
 i) de moederonderneming in de uitoefening van haar rechten ten  aanzien van het vermogen of in de uitoefening van het bestuur  over deze onderneming; of
 
 ii) de uitoefening van de centrale leiding over die onderneming,  indien er met die onderneming een van de in artikel 22, lid 7,  omschreven betrekkingen bestaat.
-
-▼B
 
 10.  Onverminderd artikel 6, lid 1, onder b), artikel 21 en leden 1 en  2 van dit artikel, wordt een moederonderneming, ook als deze een  organisatie van openbaar belang is, vrijgesteld van de in artikel 22  opgelegde verplichting indien:
 
@@ -1106,8 +971,6 @@ c) eventuele verschillen die overblijven na de toepassing van punt a) of  die vo
 
 d) de gebruikte methoden om de waarde van de goodwill te berekenen  en eventuele significante waardeveranderingen ten opzichte van het  voorgaande boekjaar worden uiteengezet in de toelichting bij de  financiële overzichten;
 
-▼B
-
 f) negatieve goodwill mag slechts naar de geconsolideerde winst-en-  verliesrekening worden overgeboekt indien een dergelijke verwer king strookt met de in hoofdstuk 2 neergelegde beginselen.
 
 4.  Indien aandelen in de consolidatie opgenomen dochteronder nemingen worden gehouden door personen, andere dan die onder nemingen, wordt het aan die aandelen toe te rekenen bedrag afzonder lijk, als minderheidsbelangen, in de geconsolideerde balans vermeld.
@@ -1132,8 +995,6 @@ a) daarvan onder opgave van redenen melding wordt gemaakt in de  toelichting bij
 
 b) er rekening wordt gehouden met of melding wordt gemaakt van  belangrijke gebeurtenissen die zich met betrekking tot de activa  en passiva, de financiële positie of de winst of het verlies van een  in een consolidatie opgenomen onderneming hebben voorgedaan  tussen de balansdatum van die onderneming en de datum van af sluiting van de geconsolideerde balans; en
 
-▼B
-
 9.  Indien het bestand van de in de consolidatie opgenomen onder nemingen in de loop van het boekjaar een aanmerkelijke wijziging  heeft ondergaan, bevatten de geconsolideerde financiële overzichten  inlichtingen die een zinvolle vergelijking van de achtereenvolgende  geconsolideerde financiële overzichten mogelijk maken. Aan deze ver plichting kan worden voldaan met de opstelling van een aangepaste  vergelijkende balans en een aangepaste vergelijkende winst-en-verlies rekening.
 
 10.  De in de geconsolideerde financiële overzichten opgenomen ac tiva en passiva worden op een uniforme grondslag overeenkomstig  hoofdstuk 2 gewaardeerd.
@@ -1153,8 +1014,6 @@ Bedrijfscombinaties binnen een groep
 1.  De lidstaten kunnen toestaan of voorschrijven dat de boekwaarden  van aandelen in het kapitaal van een in een consolidatie opgenomen  onderneming slechts worden verrekend met het daarin belichaamde deel  van het kapitaal, op voorwaarde dat de uiteindelijke zeggenschap over  de ondernemingen in de bedrijfscombinatie door dezelfde partij wordt  uitgeoefend, zowel voor als na de bedrijfscombinatie, en die zeggen schap niet tijdelijk is.
 
 2.  Eventuele uit de toepassing van lid 1 voortvloeiende verschillen  worden, naar gelang van het geval, aan de geconsolideerde reserves  toegevoegd dan wel daarop in mindering gebracht.
-
-▼B
 
 ###### Artikel 26
 
@@ -1180,8 +1039,6 @@ De lidstaten kunnen de toepassing van één of meer van de opties  bepaald onder
 
 Bovendien kunnen de lidstaten voor de toepassing van het bepaalde  onder a) of b) toestaan of voorschrijven dat het verschil wordt berekend  per de datum van verkrijging van de aandelen of, bij verkrijging op  verschillende data, per de datum waarop de onderneming een geasso cieerde onderneming is geworden.
 
-▼B
-
 methoden. Indien die herwaardering niet heeft plaatsgevonden, wordt dat  in de toelichting bij de geconsolideerde financiële overzichten vermeld.  De lidstaten kunnen dergelijke herwaardering eisen.
 
 4.  De in lid 2, onder a), bedoelde boekwaarde of het in lid 2, onder  b), bedoelde bedrag dat overeenkomt met een deel van het eigen ver mogen van de geassocieerde onderneming, wordt verhoogd of vermin derd met het bedrag van de tijdens het boekjaar opgetreden waardever andering van het deel van het eigen vermogen van de geassocieerde  onderneming dat deze deelneming belichaamt; dit bedrag wordt ver minderd met het bedrag van de dividenden die op deze deelneming  betrekking hebben.
@@ -1203,8 +1060,6 @@ Toelichting bij de geconsolideerde financiële overzichten
 1.  Naast de informatie die op grond van andere bepalingen van deze  richtlijn wordt verlangd, wordt in de toelichting bij de geconsolideerde  financiële overzichten, op een wijze die de beoordeling van de finan ciële positie van het geheel van de in de consolidatie opgenomen  ondernemingen vergemakkelijkt, met inachtneming van de aanpassin gen die noodzakelijk zijn wegens de eigen kenmerken van de gecon solideerde financiële overzichten in vergelijking met de jaarlijkse finan ciële overzichten, de in artikelen 16, 17 en 18 verlangde informatie  vermeld, met inbegrip van het volgende:
 
 a) bij vermelding van transacties tussen verbonden partijen worden  transacties tussen in de consolidatie opgenomen verbonden partijen  die bij consolidatie worden weggelaten, niet vermeld;
-
-▼B
 
 c) bij vermelding van de bedragen van de aan leden van het bestuurs-,  het leidinggevend en het toezichthoudend orgaan verleende bezoldi gingen, voorschotten en kredieten, worden alleen de door de moe deronderneming en haar dochterondernemingen aan leden van het  bestuurs-, het leidinggevend en het toezichthoudend orgaan van de  moederonderneming verleende bedragen vermeld.
 
@@ -1228,8 +1083,6 @@ d) met betrekking tot elk van de ondernemingen, behoudens de in de  punten a), b
 
 i) de naam en de zetel van die ondernemingen,
 
-▼B
-
 iii) het bedrag van het eigen vermogen en van het resultaat over het  meest recente boekjaar van de betrokken onderneming waarvoor  financiële overzichten zijn vastgesteld.
 
 De vermelding van het eigen vermogen en van het resultaat mag ook  achterwege blijven indien de betrokken onderneming haar balans niet  openbaar maakt.
@@ -1247,8 +1100,6 @@ Het geconsolideerde bestuursverslag
 a) bij opgave van de gegevens van de verkregen eigen aandelen ver meldt het geconsolideerde bestuursverslag het aantal en de nominale  waarde of, bij gebreke hiervan, de fractiewaarde van alle aandelen  in de moederonderneming die worden gehouden door die moeder onderneming, door dochterondernemingen van die moederonder neming of door een persoon die in eigen naam maar voor rekening  van een of meer van die ondernemingen handelt. De lidstaten kun nen toestaan of voorschrijven dat die bijzonderheden in de toelich ting bij de geconsolideerde financiële overzichten worden verstrekt;
 
 b) bij opgave van de interne controle- en risicobeheersystemen ver meldt de verklaring inzake corporate governance de belangrijkste  kenmerken van de interne controles en risicobeheersystemen voor  het geheel van de in de consolidatie opgenomen ondernemingen.
-
-▼M4
 
 ### Art. 29. bis
 
@@ -1274,8 +1125,6 @@ v) de wijze waarop de strategie van de groep ten aanzien van  duurzaamheidskwest
 
 b) een beschrijving van de door de groep vastgestelde tijdsgebonden  doelstellingen met betrekking tot duurzaamheidskwesties, waar onder, indien van toepassing, de absolute broeikasgasemissiereduc tiedoelstellingen voor tenminste 2030 en 2050, een beschrijving van  de vooruitgang die de groep heeft geboekt bij het bereiken van die  doelstellingen, en een verklaring die duidelijk maakt of de doel stellingen ten aanzien van milieufactoren van de groep gefundeerd  zijn op overtuigend wetenschappelijk bewijs;
 
-▼M4
-
 d) een beschrijving van het beleid van de groep met betrekking tot  duurzaamheidskwesties;
 
 e) informatie over het bestaan van stimuleringsregelingen in verband  met duurzaamheidskwesties die aan leden van de bestuurs-, leiding gevende en toezichthoudende organen worden aangeboden;
@@ -1296,8 +1145,6 @@ Moederondernemingen brengen verslag uit over het uitgevoerde proces  om de infor
 
 3.  De in de leden 1 en 2 bedoelde informatie bevat, in voorkomend  geval, informatie over de eigen activiteiten en over de waardeketen van  de groep, met inbegrip van haar eigen activiteiten, haar producten en  diensten, haar zakelijke betrekkingen en haar toeleveringsketen.
 
-▼M4
-
 De in de leden 1 en 2 bedoelde informatie bevat, in voorkomend geval,  tevens verwijzingen naar en aanvullende uitleg over andere informatie  die overeenkomstig artikel 29 van deze richtlijn in het geconsolideerde  bestuursverslag is opgenomen en de bedragen die in de geconsolideerde  financiële overzichten zijn vermeld.
 
 De lidstaten kunnen toestaan dat informatie betreffende ophanden  zijnde ontwikkelingen of zaken waarover wordt onderhandeld, in uit zonderlijke gevallen wordt weggelaten indien naar de behoorlijk ge rechtvaardigde opvatting van de leden van de bestuurs-, leidinggevende  en toezichthoudende organen, handelend binnen het kader van de hun  krachtens het nationaal recht toegewezen bevoegdheden en met collec tieve verantwoordelijkheid voor dat standpunt, de openbaarmaking van  dergelijke informatie ernstige schade zou toebrengen aan de commer ciële positie van de groep, mits het weglaten van die informatie niet in  de weg staat aan een getrouw en evenwichtig begrip van de ontwikke ling, de resultaten en de positie van de groep alsmede van de effecten  van haar activiteiten.
@@ -1312,8 +1159,6 @@ Ondernemingen vermelden welke in de consolidatie opgenomen doch terondernemingen
 
 7.  Een moederonderneming die aan de in de leden 1 tot en met 5  van dit artikel bepaalde vereisten voldoet, wordt geacht aan de ver eisten van artikel 19, lid 1, derde alinea, en artikel 19 bis te hebben  voldaan.
 
-▼M4
-
 Een moederonderneming die een dochteronderneming is van een in een  derde land gevestigde moederonderneming wordt eveneens vrijgesteld  van de in de leden 1 tot en met 5 van dit artikel bepaalde verplichtingen  indien een dergelijke onderneming en haar dochterondernemingen zijn  opgenomen in de geconsolideerde duurzaamheidsrapportering van die in  een derde land gevestigde moederonderneming en indien die geconsoli deerde duurzaamheidsrapportering is uitgevoerd overeenkomstig de in  artikel 29 ter vastgestelde duurzaamheidsrapporteringsstandaarden of op  een wijze die gelijkwaardig is aan die duurzaamheidsrapporteringsstan daarden, zoals bepaald overeenkomstig een op grond van artikel 23, lid 4,  derde alinea, van Richtlijn 2004/109/EG vastgestelde uitvoeringshan deling inzake de gelijkwaardigheid van duurzaamheidsrapporteringsstan daarden.
 
 Aan de bij alinea 1 verleende vrijstelling zijn de volgende voorwaarden  verbonden:
@@ -1327,8 +1172,6 @@ ii) de weblinks naar het geconsolideerde bestuursverslag van de  moederondernemi
 iii) de mededeling dat de moederonderneming is vrijgesteld van de  in de leden 1 tot en met 5 van dit artikel bepaalde verplichtin gen;
 
 b) indien de moederonderneming in een derde land is gevestigd, wor den haar geconsolideerde duurzaamheidsrapportering en het assuran ceoordeel dat is uitgebracht door één of meerdere personen of kan toren die uit hoofde van het nationale recht waaronder de moeder onderneming valt gerechtigd zijn een oordeel over de assurance van  duurzaamheidsrapportering af te geven, overeenkomstig artikel 30  gepubliceerd, overeenkomstig het recht van de lidstaat waaronder de  vrijgestelde dochteronderneming valt;
-
-▼M4
 
 De lidstaat onder wiens nationaal recht de vrijgestelde moederonder neming valt, kan eisen dat het geconsolideerde bestuursverslag of, in  voorkomend geval, de geconsolideerde duurzaamheidsrapportering van  de moederonderneming wordt gepubliceerd in een taal die door die  lidstaat aanvaard wordt, en dat wordt voorzien in eventueel benodigde  vertalingen naar die taal. Elke niet-gewaarmerkte vertaling bevat een  verklaring in die zin.
 
@@ -1348,27 +1191,23 @@ DUURZAAMHEIDSRAPPORTERINGSSTANDAARDEN
 
 Duurzaamheidsrapporteringsstandaarden
 
-▼M4
-
 In de in de eerste alinea van dit lid bedoelde gedelegeerde handelingen  specificeert de Commissie uiterlijk voor 30 juni 2023 welke informatie  ondernemingen overeenkomstig artikel 19 bis, leden 1 en 2, en in voor komend geval artikel 29 bis, leden 1 en 2, moeten rapporteren. Die  informatie zal ten minste de informatie omvatten die beantwoordt aan  de behoeften van financiëlemarktdeelnemers waarop de informatiever schaffingsverplichtingen van Verordening (EU) 2019/2088 van toepas sing zijn met het oog op hun naleving van die verplichtingen.
 
-In de in de eerste alinea bedoelde gedelegeerde handelingen specificeert  de Commissie uiterlijk voor ►M7 30 juni 2026 ◄:
+In de in de eerste alinea bedoelde gedelegeerde handelingen specificeert  de Commissie uiterlijk voor  30 juni 2026 ◄:
 
 i) aanvullende informatie die ondernemingen moeten rapporteren met  betrekking tot de in artikel 19 bis, lid 2, genoemde duurzaamheids kwesties en rapporteringsgebieden, indien nodig;
 
 ii) informatie die ondernemingen moeten rapporteren die specifiek is  voor de sector waarin zij actief zijn.
 
-▼M7  De Commissie streeft ernaar gedelegeerde handelingen vast te stellen  met acht van de in de derde alinea, punt ii), bedoelde duurzaamheids rapporteringsstandaarden zodra die klaar zijn.
+De Commissie streeft ernaar gedelegeerde handelingen vast te stellen  met acht van de in de derde alinea, punt ii), bedoelde duurzaamheids rapporteringsstandaarden zodra die klaar zijn.
 
-▼M4  De rapporteringsvoorschriften die zijn vastgelegd in de in de eerste  alinea bedoelde gedelegeerde handelingen treden niet eerder in werking  dan vier maanden die handelingen door de Commissie zijn vastgesteld.
+De rapporteringsvoorschriften die zijn vastgelegd in de in de eerste  alinea bedoelde gedelegeerde handelingen treden niet eerder in werking  dan vier maanden die handelingen door de Commissie zijn vastgesteld.
 
 Bij de vaststelling van gedelegeerde handelingen tot specificering van  de uit hoofde van punt ii) van de derde alinea vereiste informatie  besteedt de Commissie bijzondere aandacht aan de omvang van de  risico’s en effecten met betrekking tot duurzaamheidskwesties voor  elke sector, rekening houdend met het feit dat risico’s en effecten  voor sommige sectoren groter zijn dan voor andere.
 
 De Commissie evalueert ten minste om de drie jaar na de datum van  toepassing de op grond van dit artikel vastgestelde gedelegeerde han delingen, rekening houdend met het technisch advies van de European  Financial Reporting Advisory Group (EFRAG), en wijzigt indien nodig  die gedelegeerde handelingen om rekening te houden met relevante  ontwikkelingen, waaronder ontwikkelingen met betrekking tot inter nationale standaarden.
 
 De Commissie raadpleegt minstens één keer per jaar het Europees  Parlement, en raadpleegt de in artikel 24 van Verordening (EU)  2020/852 bedoelde deskundigengroep van de lidstaten inzake duurzame  financiering samen met het in artikel 6 van Verordening (EG)  nr. 1606/2002 bedoelde regelgevend comité voor financiële verslagge ving over het werkprogramma van de EFRAG ten aanzien van de  ontwikkeling van duurzaamheidsrapporteringsstandaarden.
-
-▼M4
 
 De duurzaamheidsrapporteringsstandaarden specificeren, rekening hou dend met het onderwerp van een specifieke duurzaamheidsrapporte ringsstandaard:
 
@@ -1394,8 +1233,6 @@ ii) arbeidsomstandigheden, met inbegrip van baanzekerheid, ar beidstijden, toere
 
 iii) eerbiediging van de mensenrechten, fundamentele vrijheden, de mocratische beginselen en normen die zijn vastgelegd in het  Internationaal Statuut van de Rechten van de Mens en andere  belangrijke mensenrechtenverdragen van de VN, zoals het VN-  Verdrag inzake de rechten van personen met een handicap, de  VN-Verklaring over de rechten van inheemse volken, de ver klaring van de Internationale Arbeidsorganisatie betreffende de  fundamentele principes en rechten op het werk, en de funda mentele verdragen van de Internationale Arbeidsorganisatie, en  het Europees Verdrag tot bescherming van de rechten van de  mens en de fundamentele vrijheden, het Europees Sociaal Hand vest en het Handvest van de grondrechten van de Europese  Unie;
 
-▼M4
-
 i) de rol van de bestuurs-, leidinggevende en toezichthoudende  organen van de onderneming ten aanzien van duurzaamheids kwesties, en hun samenstelling, en de daarin aanwezige deskun digheid en vaardigheden met betrekking tot het vervullen van  die rol ofwel de toegang die deze organen hebben tot dergelijke  deskundigheid en vaardigheden;
 
 ii) de belangrijkste kenmerken van de interne controle- en risico beheersingssystemen van de onderneming, in verband met het  duurzaamheidsrapporterings- en besluitvormingsproces;
@@ -1414,8 +1251,6 @@ De eerste alinea doet geen afbreuk aan de vereisten van de Unie voor  ondernemin
 
 5.  Bij de vaststelling van gedelegeerde handelingen op grond van  lid 1 houdt de Commissie zoveel mogelijk rekening met:
 
-▼M4
-
 b) de informatie die financiëlemarktdeelnemers nodig hebben om hun  informatieverschaffingsverplichtingen uit hoofde van Verordening  (EU) 2019/2088 en de op grond van die verordening vastgestelde  gedelegeerde handelingen na te leven;
 
 c) de criteria, indicatoren en methodologieën die staan beschreven in  de op grond van Verordening (EU) 2020/852 vastgestelde gedele geerde handelingen, met inbegrip van de technische screeningcrite ria die zijn vastgesteld op grond van artikel 10, lid 3, artikel 11,  lid 3, artikel 12, lid 2, artikel 13, lid 2, artikel 14, lid 2, en artikel 15,  lid 2, van die verordening en de rapporteringsvereisten die staan  beschreven in de op grond van artikel 8 van die verordening vast gestelde gedelegeerde handeling;
@@ -1427,8 +1262,6 @@ e) de openbaarmakingen die zijn gespecificeerd in de uitvoeringshan delingen die
 f) Aanbeveling 2013/179/EU van de Commissie ( 4 );
 
 g) Richtlijn 2003/87/EG van het Europees Parlement en de Raad ( 5 );
-
-▼M4
 
 h) Verordening (EU) 2021/1119;
 
@@ -1458,15 +1291,11 @@ Uniform elektronisch verslagleggingsformaat
 
 1.  Ondernemingen die moeten voldoen aan de vereisten van arti kel 19 bis van deze richtlijn stellen hun bestuursverslag op in het in
 
-▼M4
-
 ### Art. 3. van Gedelegeerde Verordening (EU) 2018/815 van de Commis­
 
 sie ( 1 ) gespecificeerde elektronisch verslagleggingsformaat en markeren  hun duurzaamheidsrapportering, met inbegrip van de in artikel 8 van  Verordening (EU) 2020/852 bedoelde openbaarmakingen, overeenkom stig het in die gedelegeerde verordening gespecificeerde elektronische  verslagleggingsformaat.
 
 2.  Moederondernemingen die moeten voldoen aan de vereisten van  artikel 29 bis stellen hun geconsolideerde bestuursverslag op in het in  artikel 3 van Gedelegeerde Verordening (EU) 2019/815 gespecificeerde  elektronisch verslagleggingsformaat en markeren hun duurzaamheids rapportering, met inbegrip van de in artikel 8 van Verordening (EU)  2020/852 bedoelde openbaarmakingen, overeenkomstig het in die ge delegeerde verordening gespecificeerde elektronische verslagleggings formaat.
-
-▼B
 
 OPENBAARMAKING
 
@@ -1474,7 +1303,7 @@ OPENBAARMAKING
 
 Algemeen voorschrift voor openbaarmaking
 
-▼M4  1.  De lidstaten zien erop toe dat ondernemingen de jaarlijkse finan ciële overzichten en het bestuursverslag, na overeenkomstig de daar voor geldende regels te zijn goedgekeurd, en, indien van toepassing, in  het in artikel 29 quinquies van deze richtlijn bedoelde elektronische  verslagleggingsformaat, samen met het in artikel 34 van deze richtlijn  bedoelde oordeel en de verklaring van de wettelijke auditor of het  auditkantoor, binnen een redelijke termijn van niet meer dan 12 maan den na balansdatum openbaar maken op de wijze die in de wetgeving  van elke lidstaat overeenkomstig hoofdstuk III van titel I van Richtlijn  (EU) 2017/1132 van het Europees Parlement en de Raad ( 2 ) is vast gesteld.
+1.  De lidstaten zien erop toe dat ondernemingen de jaarlijkse finan ciële overzichten en het bestuursverslag, na overeenkomstig de daar voor geldende regels te zijn goedgekeurd, en, indien van toepassing, in  het in artikel 29 quinquies van deze richtlijn bedoelde elektronische  verslagleggingsformaat, samen met het in artikel 34 van deze richtlijn  bedoelde oordeel en de verklaring van de wettelijke auditor of het  auditkantoor, binnen een redelijke termijn van niet meer dan 12 maan den na balansdatum openbaar maken op de wijze die in de wetgeving  van elke lidstaat overeenkomstig hoofdstuk III van titel I van Richtlijn  (EU) 2017/1132 van het Europees Parlement en de Raad ( 2 ) is vast gesteld.
 
 De lidstaten kunnen van ondernemingen waarop de artikelen 19 bis  en 29 bis van toepassing zijn, eisen dat zij het bestuursverslag kosteloos  op hun website openbaar maken. Wanneer een onderneming niet over  een website beschikt, kunnen de lidstaten van hen eisen dat zij op  verzoek een schriftelijke kopie van hun bestuursverslag ter beschikking  stellen.
 
@@ -1482,11 +1311,9 @@ Indien een onafhankelijke verlener van assurancediensten het in arti kel 34, lid
 
 De lidstaten kunnen ondernemingen echter vrijstellen van de verplich ting om het bestuursverslag openbaar te maken, indien op verzoek  gemakkelijk een volledig of gedeeltelijk afschrift kan worden verkregen  tegen een prijs die de daaraan verbonden administratieve lasten niet  overstijgt.
 
-▼M4
-
 De in de vierde alinea van dit lid vastgelegde vrijstelling is niet van  toepassing op ondernemingen voor wie in de artikelen 19 bis en 29 bis  vastgelegde duurzaamheidsrapporteringsvereisten gelden.
 
-▼B  2.  De lidstaten kunnen een in bijlage II vermelde onderneming  waarop de bij deze richtlijn voorgeschreven coördinatiemaatregelen  op grond van artikel 1, lid 1, punt b), van toepassing zijn, vrijstellen  van de verplichting haar financiële overzichten overeenkomstig artikel 3  van Richtlijn 2009/101/EG openbaar te maken wanneer zij deze finan ciële overzichten op haar zetel ter beschikking van het publiek houdt,  indien:
+2.  De lidstaten kunnen een in bijlage II vermelde onderneming  waarop de bij deze richtlijn voorgeschreven coördinatiemaatregelen  op grond van artikel 1, lid 1, punt b), van toepassing zijn, vrijstellen  van de verplichting haar financiële overzichten overeenkomstig artikel 3  van Richtlijn 2009/101/EG openbaar te maken wanneer zij deze finan ciële overzichten op haar zetel ter beschikking van het publiek houdt,  indien:
 
 a) alle onbeperkt aansprakelijke vennoten van de betrokken onder neming, ondernemingen zijn als bedoeld in bijlage I naar het recht  van andere lidstaten dan die waaronder de betrokken onderneming  valt, en geen van deze ondernemingen de financiële overzichten van  de betrokken onderneming samen met haar eigen financiële over zichten openbaar maakt;
 
@@ -1505,8 +1332,6 @@ Vereenvoudigingen voor kleine en middelgrote ondernemingen
 1.  De lidstaten kunnen kleine ondernemingen vrijstellen van de ver plichting om hun winst-en-verliesrekeningen en hun bestuursverslagen  openbaar te maken.
 
 2.  De lidstaten kunnen middelgrote ondernemingen toestaan om:
-
-▼B
 
 i) de posten C I 3, C II 1, 2, 3 en 4, C III 1, 2, 3 en 4, D II 2, 3 en  6, en D III 1 en 2 onder „Activa” en C 1, 2, 6, 7 en 9 onder  „Eigen vermogen en passiva” van bijlage III;
 
@@ -1534,29 +1359,23 @@ b) het register waar de financiële overzichten overeenkomstig artikel 3  van Ri
 
 c) of de wettelijke auditor of het auditkantoor een onvoorwaardelijk  goedkeurend controleoordeel, een controleoordeel met voorbehoud  of een afkeurend controleoordeel heeft geformuleerd dan wel geen  oordeel heeft kunnen formuleren;
 
-▼B
-
 ###### Artikel 33
 
 Verantwoordelijkheid en aansprakelijkheid voor het opstellen en  openbaar  maken  van  de  financiële  overzichten  en  het  bestuursverslag
 
-▼M4  1.  De lidstaten zorgen ervoor dat de leden van de bestuurs-, leiding gevende en toezichthoudende organen van een onderneming, handelend  binnen het kader van de hun krachtens het nationale recht toegewezen  bevoegdheden, collectief de verantwoordelijkheid hebben ervoor te zor gen dat de volgende documenten worden opgesteld en openbaar ge maakt overeenkomstig de eisen van deze richtlijn en, in voorkomend  geval, op grond van de internationale standaarden voor jaarrekeningen  die zijn goedgekeurd op grond van Verordening (EG) nr. 1606/2002,  Gedelegeerde Verordening (EU) 2019/815, de in artikel 29 ter of  29 quater van deze richtlijn bedoelde duurzaamheidsrapporteringsstan daarden en de vereisten van artikel 29 quinquies van deze richtlijn:
+1.  De lidstaten zorgen ervoor dat de leden van de bestuurs-, leiding gevende en toezichthoudende organen van een onderneming, handelend  binnen het kader van de hun krachtens het nationale recht toegewezen  bevoegdheden, collectief de verantwoordelijkheid hebben ervoor te zor gen dat de volgende documenten worden opgesteld en openbaar ge maakt overeenkomstig de eisen van deze richtlijn en, in voorkomend  geval, op grond van de internationale standaarden voor jaarrekeningen  die zijn goedgekeurd op grond van Verordening (EG) nr. 1606/2002,  Gedelegeerde Verordening (EU) 2019/815, de in artikel 29 ter of  29 quater van deze richtlijn bedoelde duurzaamheidsrapporteringsstan daarden en de vereisten van artikel 29 quinquies van deze richtlijn:
 
 a) de jaarlijkse financiële overzichten, het bestuursverslag en de ver klaring inzake corporate governance indien deze afzonderlijk wordt  opgesteld, en
 
 b) de geconsolideerde financiële overzichten, de geconsolideerde be stuursverslagen en de geconsolideerde verklaring inzake corporate  governance indien deze afzonderlijk wordt opgesteld.
 
-▼B  2.  De lidstaten zorgen ervoor dat hun wettelijke en bestuursrechte lijke bepalingen inzake aansprakelijkheid wegens schending van de in  de lid 1 bedoelde verplichtingen, ten minste jegens de onderneming,  van toepassing zijn op de leden van het bestuurs-, het leidinggevend en  het toezichthoudend orgaan van de ondernemingen.
-
-▼M5
+2.  De lidstaten zorgen ervoor dat hun wettelijke en bestuursrechte lijke bepalingen inzake aansprakelijkheid wegens schending van de in  de lid 1 bedoelde verplichtingen, ten minste jegens de onderneming,  van toepassing zijn op de leden van het bestuurs-, het leidinggevend en  het toezichthoudend orgaan van de ondernemingen.
 
 ### Art. 33. bis
 
 Toegankelijkheid  van informatie op het Europees centraal  toegangspunt
 
 1.  Met ingang van 10 januari 2028 dragen de lidstaten er zorg voor  dat, wanneer de in artikel 19 bis, artikel 29 bis en artikel 40 bis van  deze richtlijn bedoelde ondernemingen de bestuursverslagen en gecon solideerde bestuursverslagen, inclusief voor beide verslagen de in ar tikel 8 van Verordening (EU) 2020/852 vereiste informatie, alsook de  jaarlijkse financiële overzichten, geconsolideerde financiële verklarin gen, controleverklaringen, verzekeringsverslagen, duurzaamheidsrap porteringen betreffende ondernemingen uit derde landen en gerelateerde  verzekeringsverslagen, de in artikel 40 bis, lid 2, vierde alinea, van  deze richtlijn bedoelde verklaring, de verslagen over betalingen aan  overheden en de in artikel 30, artikel 40 quinquies en artikel 45 van  deze richtlijn bedoelde geconsolideerde verslagen over betalingen aan  overheden openbaar maken, zij die verklaringen en verslagen op het zelfde tijdstip indienen bij de in lid 4 van dit artikel bedoelde verzame lende instantie met het oog op het toegankelijk maken ervan op het uit  hoofde van Verordening (EU) 2023/2859 van het Europees Parlement  en de Raad ( 1 ) opgerichte Europees centraal toegangspunt (European  Single Access Point — ESAP).
-
-▼M5
 
 De lidstaten zien erop toe dat de informatie aan de volgende vereisten  voldoet:
 
@@ -1578,8 +1397,6 @@ vi) een vermelding of de informatie persoonsgegevens bevat.
 
 2.  Indien een onderneming de in lid 1 van dit artikel bedoelde in formatie op grond van artikel 23 bis van Richtlijn 2004/109/EG bij een  officieel aangewezen mechanisme heeft ingediend om die informatie  toegankelijk te maken op het ESAP, wordt die onderneming geacht  aan haar verplichtingen uit hoofde van lid 1 van dit artikel te hebben  voldaan, op voorwaarde dat die informatie aan alle in lid 1 van dit  artikel vastgelegde vereisten inzake metadata voldoet.
 
-▼M5
-
 4.  Uiterlijk op 9 januari 2028 wijzen de lidstaten, voor het op het  ESAP toegankelijk maken van de in lid 1 van dit artikel bedoelde  informatie, ten minste één verzamelende instantie zoals gedefinieerd  in artikel 2, punt 2), van Verordening (EU) 2023/2859 aan, en stellen  zij de ESMA daarvan in kennis.
 
 5.  Om ervoor te zorgen dat de overeenkomstig lid 1 ingediende  informatie efficiënt wordt verzameld en beheerd, wordt aan de Com missie de bevoegdheid toegekend om uitvoeringsmaatregelen vast te  stellen tot nadere vaststelling van:
@@ -1592,11 +1409,7 @@ c) de informatie waarvoor een machinaal leesbaar formaat vereist is en  de vraag
 
 6.  Indien nodig stelt de Commissie richtsnoeren op om te garanderen  dat de overeenkomstig lid 5, punt a), ingediende metadata correct zijn.
 
-▼B
-
-▼M4  CONTROLE EN ASSURANCE VAN DUURZAAMHEIDSRAPPORTE RING
-
-▼B
+CONTROLE EN ASSURANCE VAN DUURZAAMHEIDSRAPPORTE RING
 
 ###### Artikel 34
 
@@ -1610,15 +1423,13 @@ a)  een oordeel geven over:
 
 i) of het bestuursverslag strookt met de financiële overzichten  voor hetzelfde boekjaar; en
 
-▼M4
-
 a bis) indien van toepassing, op basis van een assuranceopdracht met  een beperkte mate van zekerheid een oordeel geven over de  overeenstemming van de duurzaamheidsrapportering met de ver eisten van deze richtlijn, waaronder de overeenstemming van de  duurzaamheidsrapportering met de op grond van artikel 29 ter of  artikel 29 quater vastgestelde duurzaamheidsrapporteringsstan daarden, het door de onderneming uitgevoerde proces om de  op grond van die duurzaamheidsrapporteringsstandaarden gerap porteerde informatie vast te stellen, en de naleving van het ver eiste om de duurzaamheidsrapportering te markeren overeen komstig artikel 29 quinquies, en over de naleving van de in  artikel 8 van Verordening (EU) 2020/852 bepaalde rapporte ringsvereisten;
 
-▼B  b)  verklaren of er, in het licht van de tijdens de controle verkregen  kennis en begrip omtrent de onderneming en haar omgeving,  materiële onjuistheden in het bestuursverslag zijn vastgesteld,  met opgave van de aard van deze onjuistheden.
+b)  verklaren of er, in het licht van de tijdens de controle verkregen  kennis en begrip omtrent de onderneming en haar omgeving,  materiële onjuistheden in het bestuursverslag zijn vastgesteld,  met opgave van de aard van deze onjuistheden.
 
 2.  De eerste alinea van lid 1 is van overeenkomstige toepassing met  betrekking tot geconsolideerde financiële overzichten. De tweede alinea  van lid 1 is van overeenkomstige toepassing met betrekking tot gecon solideerde financiële overzichten en geconsolideerde bestuursverslagen.
 
-▼M4  3.  De lidstaten kunnen toestaan dat een andere wettelijke auditor of  een ander auditkantoor dan de auditor die of het kantoor dat de wette lijke controle van de jaarlijkse financiële overzichten verricht, het in  lid 1, tweede alinea, punt a bis), bedoelde oordeel uitbrengt.
+3.  De lidstaten kunnen toestaan dat een andere wettelijke auditor of  een ander auditkantoor dan de auditor die of het kantoor dat de wette lijke controle van de jaarlijkse financiële overzichten verricht, het in  lid 1, tweede alinea, punt a bis), bedoelde oordeel uitbrengt.
 
 4.  De lidstaten kunnen toestaan dat een onafhankelijke op hun  grondgebied gevestigde verlener van assurancediensten het in lid 1,  tweede alinea, punt a bis), bedoelde oordeel uitbrengt mits een derge lijke onafhankelijke verlener van assurancediensten wat betreft de as surance van duurzaamheidsrapportering zoals gedefinieerd in artikel 2,  punt 22, van Richtlijn 2006/43/EG van het Europees Parlement en de  Raad ( 1 ) voldoet aan vereisten die gelijkwaardig zijn aan de vereisten  van die richtlijn, met name de vereisten inzake:
 
@@ -1629,8 +1440,6 @@ b) permanente scholing;
 c) kwaliteitsborgingsstelsels;
 
 d) beroepsethiek, onafhankelijkheid, objectiviteit, vertrouwelijkheid en  beroepsgeheim;
-
-▼M4
 
 e) benoeming en ontslag;
 
@@ -1652,8 +1461,6 @@ Indien een lidstaat op grond van de eerste alinea besluit een onafhan kelijke ve
 
 5.  Met ingang van 6 januari 2027 staat een lidstaat die gebruik heeft  gemaakt van de in lid 4 bepaalde keuzemogelijkheid (de “lidstaat van  ontvangst”) toe dat in een andere lidstaat (de “lidstaat van herkomst”)  gevestigde onafhankelijke verleners van assurancediensten de assurance  van duurzaamheidsrapportering uitvoeren.
 
-▼M4
-
 Indien de lidstaat van ontvangst besluit toezicht te houden op de assu rance van duurzaamheidsrapportering die op zijn grondgebied wordt  uitgevoerd door onafhankelijke verleners van assurancediensten die in  een andere lidstaat zijn geregistreerd, moet de lidstaat van ontvangst:
 
 a) geen strengere eisen of aansprakelijkheid opleggen aan dergelijke  onafhankelijke verleners van assurancediensten dan die welke krach tens de nationale wetgeving voor assurancediensten voor duurzaam heidsrapportering vereist zijn voor de onafhankelijke verleners van  assurancediensten of auditors die in die lidstaat van ontvangst zijn  gevestigd, en
@@ -1661,8 +1468,6 @@ a) geen strengere eisen of aansprakelijkheid opleggen aan dergelijke  onafhankel
 b) andere lidstaten in kennis stellen van zijn besluit om toezicht te  houden op de assurance van duurzaamheidsrapportering door in  andere lidstaten gevestigde onafhankelijke verleners van assurance diensten.
 
 6.  De lidstaten zorgen ervoor dat indien een onderneming krachtens  het Unierecht verplicht is elementen van haar duurzaamheidsrapporte ring te laten verifiëren door een geaccrediteerde onafhankelijke derde,  het verslag van de geaccrediteerde onafhankelijke derde beschikbaar  wordt gesteld hetzij als bijlage bij het bestuursverslag, hetzij op een  andere openbaar toegankelijke manier.
-
-▼B
 
 ###### Artikel 35
 
@@ -1690,8 +1495,6 @@ ii) in voorkomend geval, of de jaarlijkse financiële overzichten  aan de wettel
 
 Indien de wettelijke auditor geen controle-oordeel kan uitspre ken, bevat de controleverklaring een verklaring van oordeel sonthouding;
 
-▼B
-
 e) Het oordeel en de verklaring, zoals bedoeld in artikel 34, lid 1,  tweede alinea, van Richtlijn 2013/34/EU van het Europees Par lement en van de Raad van 26 juni 2013 betreffende de jaar lijkse financiële overzichten, geconsolideerde financiële over zichten en aanverwante verslagen van bepaalde ondernemings vormen, tot wijziging van Richtlijn 2006/43/EG van het Euro pees Parlement en de Raad en tot intrekking van Richtlijnen  78/660/EEG en 83/349/EEG van de Raad (*).
 
 2.  De controleverklaring wordt door de wettelijke auditor onder tekend en gedagtekend. Indien de wettelijke controle wordt uitge voerd door een auditkantoor, wordt de controleverklaring onder tekend door ten minste de wettelijke auditor(s) die namens het  auditkantoor de wettelijke controle heeft (hebben) verricht. In uit zonderlijke omstandigheden kunnen de lidstaten bepalen dat deze  handtekening niet openbaar hoeft te worden gemaakt indien dit tot  een onmiddellijke en aanzienlijke bedreiging voor de persoonlijke  veiligheid van enige persoon zou kunnen leiden. De naam/namen  van de betrokken persoon (personen) is (zijn) in ieder geval bij de  bevoegde autoriteiten bekend.
@@ -1709,8 +1512,6 @@ Vrijstellingen voor micro-ondernemingen
 1.  De lidstaten kunnen micro-ondernemingen vrijstellen van enkele  of alle van de volgende verplichtingen:
 
 a) de verplichting om opgave te doen van „overlopende posten” aan de  actiefzijde en van „overlopende posten” aan de passiefzijde. Indien  een lidstaat gebruik maakt van die geboden mogelijkheid, kan hij  deze ondernemingen toestaan, doch alleen voor de overige kosten  als bedoeld in lid 2, punt b), subpunt vi), van dit artikel, om af te  wijken van artikel 6, lid 1, punt d), wat betreft de opname van  „overlopende posten” aan de actiefzijde en van „overlopende pos ten” aan de passiefzijde in de balans, op voorwaarde dat in de  toelichting bij de financiële overzichten of, overeenkomstig punt  b) van dit lid, onderaan de balans daarvan melding wordt gemaakt;
-
-▼B
 
 c) de verplichting om overeenkomstig hoofdstuk 5 van deze richtlijn  een bestuursverslag op te stellen, op voorwaarde dat de in artikel 24,  lid 2, van Richtlijn 2012/30/EU voorgeschreven informatie in de  toelichting bij de financiële overzichten of, overeenkomstig punt  b) van dit lid, onderaan de balans wordt vermeld;
 
@@ -1740,8 +1541,6 @@ viii) resultaat.
 
 3.  De lidstaten staan niet toe of schrijven niet voor dat artikel 8  wordt toegepast op een micro-onderneming die gebruik maakt van  enige van de in de leden 1 en 2 van dit artikel geboden vrijstellingen.
 
-▼B
-
 5.  Indien lid 1, punt a), van dit artikel van toepassing is, bestaat het  in artikel 3, lid 1, punt a), bedoelde balanstotaal hetzij uit de activa  bedoeld onder de posten A tot en met D onder „Activa” in bijlage III,  hetzij uit de activa bedoeld onder de posten A tot en met D in bijlage  IV.
 
 6.  Onverminderd dit artikel, zorgen de lidstaten ervoor dat micro-  ondernemingen anderszins als kleine ondernemingen worden be schouwd.
@@ -1765,8 +1564,6 @@ Niettegenstaande  het bepaalde  in Richtlijnen  2009/101/EG  en  2012/30/EU is e
 3) de moederonderneming heeft zich garant verklaard voor de door de  dochteronderneming aangegane verplichtingen;
 
 4) de in de punten 2) en 3) bedoelde verklaringen worden door de  dochteronderneming openbaar gemaakt op de wijze die in de wet geving van de lidstaat overeenkomstig hoofdstuk 2 van Richtlijn  2009/101/EG is vastgesteld;
-
-▼B
 
 5) de dochteronderneming is opgenomen in de geconsolideerde finan ciële overzichten die door de moederonderneming overeenkomstig  deze richtlijn worden opgesteld;
 
@@ -1794,8 +1591,6 @@ i) een onbeperkt aansprakelijke vennoot, of
 
 ii) indien de betrokken onderneming is opgenomen in de geconsoli deerde financiële overzichten van een groter geheel van onder nemingen die overeenkomstig deze richtlijn zijn opgesteld, ge controleerd en openbaar gemaakt, een moederonderneming die  onder het recht van een lidstaat valt. Deze vrijstelling wordt in  de toelichting bij de geconsolideerde financiële overzichten ver meld.
 
-▼B
-
 ###### Artikel 39
 
 Vrijstelling met betrekking tot de winst-en-verliesrekening voor  moederondernemingen die geconsolideerde financiële overzichten  opstellen
@@ -1806,7 +1601,7 @@ Een lidstaat is niet gehouden de voorschriften van deze richtlijn betref fende d
 
 ▼C3  2) de vrijstelling wordt vermeld in de toelichting bij de door de moe deronderneming opgestelde jaarlijkse financiële overzichten;
 
-▼B  3) de vrijstelling wordt vermeld in de toelichting bij de door de moe deronderneming opgestelde geconsolideerde financiële overzichten;  en
+3) de vrijstelling wordt vermeld in de toelichting bij de door de moe deronderneming opgestelde geconsolideerde financiële overzichten;  en
 
 4) de winst of het verlies van de moederonderneming, berekend over eenkomstig deze richtlijn, wordt in diens balans vermeld.
 
@@ -1816,8 +1611,6 @@ Beperking van vrijstellingen voor organisaties van openbaar belang
 
 Tenzij in deze richtlijn uitdrukkelijk anders is bepaald, stellen de lid staten de vereenvoudigingen en vrijstellingen waarin deze richtlijn  voorziet, niet ter beschikking van organisaties van openbaar belang.  Een organisatie van openbaar belang wordt als grote onderneming be handeld, ongeacht het balanstotaal, de netto-omzet en het gemiddelde  personeelsbestand gedurende het boekjaar.
 
-▼M4
-
 ## HOOFDSTUK 9 BIS
 
 RAPPORTERING BETREFFENDE ONDERNEMINGEN UIT DERDE  LANDEN
@@ -1825,8 +1618,6 @@ RAPPORTERING BETREFFENDE ONDERNEMINGEN UIT DERDE  LANDEN
 ### Art. 40. bis
 
 Duurzaamheidsrapportering betreffende ondernemingen uit derde  landen
-
-▼M4
 
 De eerste alinea is alleen van toepassing op grote dochterondernemin gen en op kleine en middelgrote dochterondernemingen, met uitzon dering van micro-ondernemingen, die organisaties van openbaar belang  zijn zoals gedefinieerd in artikel 2, punt 1), a).
 
@@ -1842,8 +1633,6 @@ De lidstaten kunnen eisen dat de in de eerste en derde alinea bedoelde  dochtero
 
 In afwijking van de eerste alinea van dit lid kan het in lid 1 van dit  artikel bedoelde duurzaamheidsverslag worden opgesteld overeenkom stig de op grond van artikel 29 ter vastgestelde duurzaamheidsrappor teringsstandaarden of op een wijze die gelijkwaardig is aan die duur zaamheidsrapporteringsstandaarden, zoals bepaald overeenkomstig een  op grond van artikel 23, lid 4, derde alinea, van Richtlijn 2004/109/EG  vastgestelde uitvoeringshandeling.
 
-▼M4
-
 Indien niet alle vereiste informatie wordt verstrekt, stelt de dochter onderneming of het in lid 1 bedoelde bijkantoor het in lid 1 bedoelde  duurzaamheidsverslag op, publiceert het en maakt het toegankelijk met  alle beschikbare, verworven of verkregen informatie, en geeft het een  verklaring af waaruit blijkt dat de onderneming uit het derde land de  nodige informatie niet ter beschikking heeft gesteld.
 
 3.  De lidstaten eisen dat het in lid 1 bedoelde duurzaamheidsverslag  vergezeld moet gaan van een assuranceoordeel, uitgebracht door een of  meer personen of ondernemingen die uit hoofde van het nationale recht  van de onderneming uit het derde land of van een lidstaat gerechtigd  zijn een oordeel over de assurance van duurzaamheidsrapportering af te  geven.
@@ -1856,13 +1645,11 @@ Indien de onderneming uit het derde land het assuranceoordeel niet  overeenkomst
 
 Duuzaamheidsrapporteringsstandaarden voor ondernemingen uit  derde landen
 
-De Commissie stelt uiterlijk voor ►M7 30 juni 2026 ◄ overeenkom stig artikel 49 een gedelegeerde handeling vast ter aanvulling van deze  richtlijn om te voorzien in duurzaamheidsrapporteringsstandaarden voor  ondernemingen uit derde landen waarin wordt gespecificeerd welke  informatie in de in artikel 40 bis bedoelde duurzaamheidsverslagen  moet worden opgenomen.
+De Commissie stelt uiterlijk voor  30 juni 2026 ◄ overeenkom stig artikel 49 een gedelegeerde handeling vast ter aanvulling van deze  richtlijn om te voorzien in duurzaamheidsrapporteringsstandaarden voor  ondernemingen uit derde landen waarin wordt gespecificeerd welke  informatie in de in artikel 40 bis bedoelde duurzaamheidsverslagen  moet worden opgenomen.
 
 ### Art. 40. quater
 
 Verantwoordelijkheid  voor  het  opstellen,  publiceren  en  toegankelijk maken van het duurzaamheidsverslag betreffende  ondernemingen uit derde landen
-
-▼M4
 
 De lidstaten bepalen dat de leden van de bestuurs-, leidinggevende en  toezichthoudende organen van de in artikel 40 bis bedoelde dochter ondernemingen collectief verantwoordelijk zijn voor het waarborgen,  naar hun beste weten en vermogen, dat hun duurzaamheidsverslag  wordt opgesteld overeenkomstig artikel 40 bis en dat dat verslag wordt  gepubliceerd en toegankelijk wordt gemaakt overeenkomstig arti kel 40 quinquies.
 
@@ -1874,8 +1661,6 @@ Openbaarmaking
 
 2.  Indien het duurzaamheidsverslag samen met het assuranceoordeel  en, in voorkomend geval, met de overeenkomstig lid 1 van dit artikel  gepubliceerde verklaring niet kosteloos openbaar worden gemaakt op  de website van het in artikel 16 van Richtlijn (EU) 2017/1132 bedoelde  register, zorgen de lidstaten ervoor dat het duurzaamheidsverslag, het  assuranceoordeel en, in voorkomend geval, de door de ondernemingen  overeenkomstig lid 1 van dit artikel gepubliceerde verklaring kosteloos  openbaar worden gemaakt in ten minste één van de officiële talen van  de Unie, uiterlijk twaalf maanden na de balansdatum van het boekjaar  waarvoor het verslag is opgesteld, op de website van de dochteronder neming of het bijkantoor als bedoeld in artikel 40 bis, lid 1, van deze  richtlijn.
 
-▼B
-
 VERSLAG VAN BETALINGEN AAN OVERHEDEN
 
 ###### Artikel 41
@@ -1885,8 +1670,6 @@ Definities inzake het rapporteren van betalingen aan overheden
 Voor de toepassing van dit hoofdstuk wordt verstaan onder:
 
 1) „onderneming actief in de winningsindustrie ”: een onderneming met  activiteiten op het gebied van de exploratie, prospectie, opsporing,  ontwikkeling en winning van mineralen, aardolie, aardgas en andere  stoffen, binnen de economische activiteiten die vallen onder sectie  B, afdelingen 05 tot 08, van bijlage I bij Verordening (EG) nr.  1893/2006 van het Europees Parlement en de Raad van 20 december  2006 tot vaststelling van de statistische classificatie van economi sche activiteiten NACE Rev. 2 ( 1 );
-
-▼B
 
 2) „onderneming actief in de houtkap van oerbossen”: een onder neming met activiteiten die vallen onder sectie A, afdeling 02,  Groep 02.2, van bijlage I bij Verordening (EG) nr. 1893/2006, in  oerbossen;
 
@@ -1917,8 +1700,6 @@ Ondernemingen die betalingen aan overheden moeten rapporteren
 1.  De lidstaten schrijven grote ondernemingen en alle organisaties  van openbaar belang die actief zijn in de winningsindustrie of in de  houtkap van oerbossen voor om jaarlijks een verslag over betalingen  aan overheden op te stellen en openbaar te maken.
 
 2.  Die verplichting geldt niet voor onder het recht van een lidstaat  vallende ondernemingen die een dochteronderneming of moederonder neming zijn indien beide van de onderstaande voorwaarden vervuld  zijn:
-
-▼B
 
 b) de door een dergelijke onderneming aan overheden verrichte beta lingen zijn opgenomen in het geconsolideerde verslag over betalin gen aan overheden dat overeenkomstig artikel 44 door die moeder onderneming wordt opgesteld.
 
@@ -1952,8 +1733,6 @@ b) afronding op honderdtallen.
 
 Geconsolideerd verslag van betalingen aan overheden
 
-▼B
-
 verrichte betalingen aan overheden, indien die onderneming (een moe deronderneming) gehouden is geconsolideerde financiële overzichten  op te stellen volgens het bepaalde in artikel 22, leden 1 tot en met 6.
 
 Een moederonderneming wordt geacht actief te zijn in de winnings industrie of in de houtkap van oerbossen indien een of meer van haar  dochterondernemingen actief zijn in de winningsindustrie of in de hout kap van oerbossen.
@@ -1981,8 +1760,6 @@ Bovengenoemde vrijstellingen gelden enkel wanneer zij tevens ten be hoeve van de
 ###### Artikel 45
 
 Openbaarmaking
-
-▼B
 
 2.  De lidstaten zorgen ervoor dat de leden van de verantwoordelijke  organen van een onderneming die handelen binnen het kader van de  hun krachtens het nationale recht toegewezen bevoegdheden, ervoor  verantwoordelijk zijn dat het verslag over betalingen aan overheden  naar hun beste weten en vermogen overeenkomstig deze richtlijn wordt  opgesteld en openbaar wordt gemaakt.
 
@@ -2022,8 +1799,6 @@ b) blijven overigens beperkt tot criteria ter vergemakkelijking van een  rechtst
 
 Toepassing van de gelijkwaardigheidscriteria
 
-▼B
-
 ###### Artikel 48
 
 Evaluatie
@@ -2034,11 +1809,9 @@ In de evaluatie wordt rekening gehouden met internationale ontwikke lingen, meer
 
 Het verslag wordt, indien nodig samen met een wetgevingsvoorstel, aan  het Europees Parlement en de Raad voorgelegd. In dat verslag wordt  ingegaan op de vraag of de verslagleggingsverplichtingen moeten wor den uitgebreid tot andere bedrijfssectoren en of het verslag over beta lingen aan overheden moet worden gecontroleerd. Voorts wordt in het  verslag aandacht besteed aan de rapportering van aanvullende informa tie over het gemiddelde aantal werknemers, het gebruik van onderaan nemers en eventuele geldboeten die per land worden opgelegd.
 
-▼M1  In het verslag wordt, rekening houdend met de ontwikkelingen in de  OESO en de resultaten van aanverwante Europese initiatieven, ook  ingegaan op de mogelijkheid om voor grote ondernemingen een ver plichting in te voeren om jaarlijks voor elke lidstaat en elk derde land  waarin zij werkzaam zijn een rapportage per land te maken die min stens informatie bevat over geboekte winsten, betaalde winstbelastingen  en ontvangen overheidssubsidies.
+In het verslag wordt, rekening houdend met de ontwikkelingen in de  OESO en de resultaten van aanverwante Europese initiatieven, ook  ingegaan op de mogelijkheid om voor grote ondernemingen een ver plichting in te voeren om jaarlijks voor elke lidstaat en elk derde land  waarin zij werkzaam zijn een rapportage per land te maken die min stens informatie bevat over geboekte winsten, betaalde winstbelastingen  en ontvangen overheidssubsidies.
 
-▼B  Voorts wordt in het verslag nagegaan of het haalbaar is alle emittenten  in de Unie ertoe te verplichten om bij de inkoop van mineralen een due  diligence-onderzoek te verrichten, teneinde zich ervan te verzekeren dat  de bevoorradingsketens niet gelieerd zijn aan partijen bij een conflict en  dat zij de EITI- en OESO-aanbevelingen over een verantwoord beheer  van de bevoorradingsketen in acht nemen.
-
-▼M3
+Voorts wordt in het verslag nagegaan of het haalbaar is alle emittenten  in de Unie ertoe te verplichten om bij de inkoop van mineralen een due  diligence-onderzoek te verrichten, teneinde zich ervan te verzekeren dat  de bevoorradingsketens niet gelieerd zijn aan partijen bij een conflict en  dat zij de EITI- en OESO-aanbevelingen over een verantwoord beheer  van de bevoorradingsketen in acht nemen.
 
 ## HOOFDSTUK 10 BIS
 
@@ -2051,8 +1824,6 @@ Definities betreffende de verslaglegging inzake informatie over de  winstbelasti
 1.  Voor de toepassing van dit hoofdstuk wordt verstaan onder:
 
 1) “uiteindelijke moederonderneming ”: een onderneming die de gecon solideerde financiële overzichten opstelt van het grootste geheel van  ondernemingen;
-
-▼M3
 
 3) “fiscale jurisdictie”: een jurisdictie van een staat of van een niet-  staat die fiscale autonomie heeft wat de vennootschapsbelasting  betreft;
 
@@ -2076,8 +1847,6 @@ De lidstaten verplichten de onder hun nationaal recht vallende op zich zelf staa
 
 De lidstaten bepalen dat een op zichzelf staande onderneming niet  langer aan in de derde alinea bedoelde verslagleggingsverplichtingen  onderworpen is wanneer de totale inkomsten op haar balansdatum voor  elk van de laatste twee opeenvolgende boekjaren blijkens haar financi ële overzichten minder dan 750 000 000 EUR bedroegen.
 
-▼M3
-
 3.  De lidstaten bepalen dat de regel in lid 1 van dit artikel niet van  toepassing is op op zichzelf staande ondernemingen en uiteindelijke  moederondernemingen indien die ondernemingen of hun verbonden  ondernemingen, overeenkomstig artikel 89 van Richtlijn 2013/36/EU  van het Europees Parlement en de Raad ( 1 ), een verslag openbaar ma ken dat informatie bevat over al hun activiteiten en, in het geval van  uiteindelijke moederondernemingen, over alle activiteiten van alle ver bonden ondernemingen die in de geconsolideerde financiële overzichten  zijn opgenomen.
 
 4.  De lidstaten verplichten respectievelijk in artikel 3, leden 3 en 4,  bedoelde middelgrote en grote dochterondernemingen die onder hun  nationaal recht vallen en onder zeggenschap staan van een uiteindelijke  moederonderneming die niet onder het recht van een lidstaat valt en  waarvan de totale geconsolideerde inkomsten op haar balansdatum voor  elk van de laatste twee opeenvolgende boekjaren blijkens haar gecon solideerde  financiële  overzichten  meer  bedroegen  dan  750 000 000 EUR, om met betrekking tot het laatste van die meest  recente twee opeenvolgende boekjaren een verslag inzake informatie  over de winstbelasting betreffende die uiteindelijke moederonder neming te publiceren en toegankelijk te maken.
@@ -2089,8 +1858,6 @@ De lidstaten bepalen dat middelgrote en grote dochterondernemingen  niet langer 
 5.  De lidstaten verplichten bijkantoren die op hun grondgebied zijn  opgericht door niet onder het recht van een lidstaat vallende onder nemingen, om met betrekking tot het laatste van de meest recente  twee opeenvolgende boekjaren een verslag inzake informatie over de  winstbelasting betreffende de uiteindelijke moederonderneming of de in  de zesde alinea, punt a), bedoelde op zichzelf staande onderneming  bedoeld in de zesde alinea, punt a), te publiceren en toegankelijk te  maken.
 
 Indien die informatie of dat verslag niet beschikbaar is, verzoekt (ver zoeken) de persoon (personen) die is (zijn) belast met de in arti kel 48 sexies, lid 2, bedoelde openbaarmakingsformaliteiten de uitein delijke moederonderneming of de in de zesde alinea, punt a), van dit lid  bedoelde op zichzelf staande onderneming om alle informatie die hij  (zij) nodig heeft (hebben) om zich van zijn (hun) verplichtingen te  kwijten.
-
-▼M3
 
 Indien niet alle vereiste informatie wordt verstrekt, zorgt het bijkantoor  voor het opstellen, de publicatie en de toegankelijkheid van een verslag  inzake informatie over de winstbelasting, dat alle informatie bevat  waarover het beschikt c.q. die het verworven of verkregen heeft, en  een verklaring om aan te geven dat de uiteindelijke moederonder neming of de op zichzelf staande onderneming de nodige informatie  niet beschikbaar heeft gesteld.
 
@@ -2114,8 +1881,6 @@ i)  op de website van die uiteindelijke moederonderneming of die  op zichzelf st
 
 ii) in ten minste een van de officiële talen van de Unie;
 
-▼M3
-
 b) het verslag vermeldt de naam en het hoofdkantoor van een enkele  onder het recht van een lidstaat vallende dochteronderneming of de  naam en het adres van een enkel onder het recht van een lidstaat  vallend bijkantoor die, respectievelijk dat, overeenkomstig arti kel 48 quinquies, lid 1, een verslag heeft gepubliceerd.
 
 7.  De lidstaten schrijven voor dat dochterondernemingen of bijkan toren die niet onder de bepalingen van de leden 4 en 5 van dit artikel  vallen, een verslag inzake informatie over de winstbelasting publiceren  en toegankelijk maken indien die dochterondernemingen of bijkantoren  slechts dienen om de verslagleggingsverplichtingen in dit hoofdstuk te  omzeilen.
@@ -2138,11 +1903,9 @@ d) inkomsten, die worden berekend als:
 
 ▼C2  i) de som van de netto-omzet, overige bedrijfsopbrengsten, op brengsten uit deelnemingen, exclusief van verbonden onder nemingen ontvangen dividenden, opbrengsten uit andere beleg gingen en leningen die tot de vaste activa behoren, overige ren tebaten en soortgelijke opbrengsten, als genoemd in de bijlagen V  en VI bij deze richtlijn, of
 
-▼M3  ii) de inkomsten als gedefinieerd door het stelsel voor financiële  verslaglegging op basis waarvan de financiële overzichten wor den opgesteld, exclusief waardecorrecties en van verbonden on dernemingen ontvangen dividenden;
+ii) de inkomsten als gedefinieerd door het stelsel voor financiële  verslaglegging op basis waarvan de financiële overzichten wor den opgesteld, exclusief waardecorrecties en van verbonden on dernemingen ontvangen dividenden;
 
 e) het bedrag van de winst of het verlies vóór winstbelasting;
-
-▼M3
 
 g) het bedrag van de winstbelasting betaald op kasmiddelenbasis, te  berekenen als het bedrag van de winstbelasting die ondernemingen  en bijkantoren in de betrokken fiscale jurisdictie tijdens het betrok ken boekjaar hebben betaald, en
 
@@ -2166,8 +1929,6 @@ Het verslag inzake informatie over de winstbelasting geeft ook de in  lid 2 of l
 
 Het verslag inzake informatie over de winstbelasting geeft ook de in  lid 2 of lid 3 bedoelde informatie voor andere fiscale jurisdicties op  geaggregeerde basis weer.
 
-▼M3
-
 De informatie wordt aan elke betrokken fiscale jurisdictie toegewezen  op basis van vestiging, het bestaan van een vaste inrichting of per manente bedrijfsactiviteiten die, vanwege de activiteiten van de groep  of de op zichzelf staande onderneming, in die fiscale jurisdictie onder worpen kunnen zijn aan winstbelastingen.
 
 Indien de activiteiten van meerdere verbonden ondernemingen binnen  één fiscale jurisdictie aan winstbelasting onderworpen kunnen zijn, is  de aan die fiscale jurisdictie toegewezen informatie de som van de  informatie over die activiteiten van elke verbonden onderneming en  hun bijkantoren in die fiscale jurisdictie.
@@ -2185,8 +1946,6 @@ De lidstaten zorgen ervoor dat in lid 5 van dit artikel bedoelde infor matie in 
 8.  De in het verslag inzake informatie over de winstbelasting ge bruikte munteenheid is de munteenheid waarin de geconsolideerde fi nanciële overzichten van de uiteindelijke moederonderneming of de  jaarlijkse financiële overzichten van de op zichzelf staande onder neming worden gepresenteerd. De lidstaten mogen niet eisen dat dit  verslag in een andere munteenheid wordt gepubliceerd dan de munt eenheid die in de financiële overzichten wordt gebruikt.
 
 In het geval vermeld in artikel 48 ter, lid 4, tweede alinea, is de in het  verslag inzake informatie over de winstbelasting gebruikte munteenheid  evenwel die waarin de dochteronderneming haar jaarlijkse financiële  overzichten publiceert.
-
-▼M3
 
 De in artikel 48 ter, leden 4 en 5, genoemde drempelwaarden worden  omgezet in een bedrag van dezelfde waarde in de nationale munteen heid van de betrokken derde landen door toepassing van de wisselkoers  op 21 december 2021, afgerond op het dichtstbijzijnde duizendtal.
 
@@ -2209,8 +1968,6 @@ c) het bijkantoor, de onderneming die het bijkantoor heeft opgericht of  een ver
 3.  De lidstaten mogen ondernemingen vrijstellen van de toepassing  van de regels in lid 2 van dit artikel indien het overeenkomstig lid 1  van dit artikel gepubliceerde verslag inzake informatie over de winst belasting gelijktijdig gratis voor iedere binnen de Unie gevestigde derde  in een machineleesbaar formaat voor elektronische verslaglegging toe gankelijk wordt gemaakt op de website van het in artikel 16 van Richt lijn (EU) 2017/1132 bedoelde register. De website van de in lid 2 van  dit artikel bedoelde ondernemingen en bijkantoren bevat informatie  over die vrijstelling en een verwijzing naar de website van het betrok ken register.
 
 4.  Het in artikel 48 ter, leden 1, 4, 5, 6 en 7, bedoelde verslag, en in  voorkomend geval, de in leden 4 en 5 van dat artikel bedoelde ver klaring, blijven minstens vijf opeenvolgende jaren toegankelijk op de  betrokken website.
-
-▼M3
 
 ### Art. 48. sexies
 
@@ -2236,13 +1993,9 @@ De lidstaten zorgen ervoor dat de wettelijke en bestuursrechtelijke be palingen 
 
 Evaluatieclausule
 
-▼M3
-
 groepen, als omschreven in artikel 3, lid 4 respectievelijk lid 7, en of de  bij artikel 48 quater vastgestelde inhoud van het verslag inzake informa tie over de winstbelasting met aanvullende gegevens moet worden uit gebreid. In dat verslag beoordeelt de Commissie ook het effect van de  presentatie van de fiscale informatie op geaggregeerde basis voor fiscale  jurisdicties in derde landen, als bepaald in artikel 48 quater, lid 5, en van  de tijdelijke weglating van gegevens, als bepaald in artikel 48 quater,  lid 6, op de doeltreffendheid van deze richtlijn.
 
 De Commissie brengt hierover verslag uit aan het Europees Parlement  en de Raad, in voorkomend geval vergezeld van een wetgevingsvoor stel.
-
-▼M4  HOOFDSTUK 11
 
 OVERGANGS- EN SLOTBEPALINGEN
 
@@ -2258,21 +2011,19 @@ Tot 6 januari 2030 staan de lidstaten toe dat de in de eerste alinea van  dit li
 
 3.  De in lid 1 van dit artikel bedoelde geconsolideerde duurzaam heidsrapportering wordt gepubliceerd overeenkomstig artikel 30.
 
-▼B
-
 ###### Artikel 49
 
 Uitoefening van gedelegeerde bevoegdheden
 
 1.  De bevoegdheid om gedelegeerde handelingen vast te stellen,  wordt aan de Commissie toegekend onder de in dit artikel neergelegde  voorwaarden.
 
-▼M4  2.  De in artikel 1, lid 2, artikel 3, lid 13, de artikelen 29 ter, 29 qua ter, en 40 ter en artikel 46, lid 2, bedoelde bevoegdheid om gedele geerde handelingen vast te stellen, wordt aan de Commissie toegekend  voor een periode van vijf jaar vanaf 5 januari 2023. De Commissie stelt  uiterlijk negen maanden voor het einde van de termijn van vijf jaar een  verslag op over de bevoegdheidsdelegatie. De bevoegdheidsdelegatie  wordt stilzwijgend met termijnen van dezelfde duur verlengd, tenzij  het Europees Parlement of de Raad zich uiterlijk drie maanden voor  het einde van elke termijn tegen deze verlenging verzet.
+2.  De in artikel 1, lid 2, artikel 3, lid 13, de artikelen 29 ter, 29 qua ter, en 40 ter en artikel 46, lid 2, bedoelde bevoegdheid om gedele geerde handelingen vast te stellen, wordt aan de Commissie toegekend  voor een periode van vijf jaar vanaf 5 januari 2023. De Commissie stelt  uiterlijk negen maanden voor het einde van de termijn van vijf jaar een  verslag op over de bevoegdheidsdelegatie. De bevoegdheidsdelegatie  wordt stilzwijgend met termijnen van dezelfde duur verlengd, tenzij  het Europees Parlement of de Raad zich uiterlijk drie maanden voor  het einde van elke termijn tegen deze verlenging verzet.
 
 3.  Het Europees Parlement of de Raad kan de in artikel 1, lid 2,  artikel 3, lid 13, de artikelen 29 ter, 29 quater, en 40 ter en artikel 46,  lid 2, bedoelde bevoegdheidsdelegatie te allen tijde intrekken. Het be sluit tot intrekking beëindigt de delegatie van de in dat besluit ge noemde bevoegdheid. Het wordt van kracht op de dag na die van de  bekendmaking ervan in het Publicatieblad van de Europese Unie of op  een daarin genoemde latere datum. Het laat de geldigheid van de reeds  van kracht zijnde gedelegeerde handelingen onverlet.
 
-▼M3  3 bis.  Vóór de vaststelling van een gedelegeerde handeling raad pleegt de Commissie de door elke lidstaat aangewezen deskundigen  overeenkomstig de beginselen die zijn neergelegd in het Interinstituti oneel Akkoord van 13 april 2016 over beter wetgeven ( 1 ).
+3 bis.  Vóór de vaststelling van een gedelegeerde handeling raad pleegt de Commissie de door elke lidstaat aangewezen deskundigen  overeenkomstig de beginselen die zijn neergelegd in het Interinstituti oneel Akkoord van 13 april 2016 over beter wetgeven ( 1 ).
 
-▼M4  3 ter.  Bij de vaststelling van gedelegeerde handelingen op grond van  de artikelen 29 ter en 29 quater houdt de Commissie rekening met het  technische advies van de EFRAG, op voorwaarde dat:
+3 ter.  Bij de vaststelling van gedelegeerde handelingen op grond van  de artikelen 29 ter en 29 quater houdt de Commissie rekening met het  technische advies van de EFRAG, op voorwaarde dat:
 
 a) een dergelijk advies tot stand is gekomen volgens geijkte procedu res, onder publiek toezicht en op transparante wijze, met deskundig heid en een evenwichtige deelname van relevante belanghebbenden,  en met voldoende overheidsfinanciering om de onafhankelijkheid  ervan te waarborgen, en op basis van een werkprogramma waarover  de Commissie is geraadpleegd;
 
@@ -2281,8 +2032,6 @@ b) een dergelijk advies vergezeld gaat van kosten-batenanalyses die een  beoorde
 c) een dergelijk advies vergezeld gaat van een uitleg over de wijze  waarop rekening is gehouden met de in artikel 29 ter, lid 5, ge noemde elementen;
 
 d) deelname op technisch niveau aan de werkzaamheden van de  EFRAG gebaseerd is op deskundigheid op het gebied van duur zaamheidsrapportering en niet afhankelijk is van een financiële bij drage.
-
-▼M4
 
 De punten a) en d) doen geen afbreuk aan de deelname van overheids instanties en nationale standaardiseringsorganisaties aan de technische  werkzaamheden van de EFRAG.
 
@@ -2294,17 +2043,13 @@ De Commissie verzoekt de Europese Autoriteit voor effecten en mark ten (ESMA), d
 
 De Commissie raadpleegt tevens het Europees Milieuagentschap, het  Bureau van de Europese Unie voor de grondrechten, de Europese Cen trale Bank, het Comité van Europese auditorstoezichthouders en het  platform voor duurzame financiën dat krachtens artikel 20 van Ver ordening (EU) 2020/852 is opgericht, over het door de EFRAG ver strekte technische advies voordat de in de artikelen 29 ter en 29 quater  van deze richtlijn bedoelde gedelegeerde handelingen worden vast gesteld. Wanneer een van die organen besluit een advies in te dienen,  gebeurt dit binnen twee maanden na de datum waarop het door de  Commissie is geraadpleegd.
 
-▼B  4.  Zodra de Commissie een gedelegeerde handeling heeft vast gesteld, doet zij daarvan gelijktijdig kennisgeving aan het Europees  Parlement en aan de Raad.
+4.  Zodra de Commissie een gedelegeerde handeling heeft vast gesteld, doet zij daarvan gelijktijdig kennisgeving aan het Europees  Parlement en aan de Raad.
 
-▼M4  5.  Een op grond van artikel 1, lid 2, artikel 3, lid 13, artikelen 29 ter,  29 quater en 40 ter, en artikel 46, lid 2, vastgestelde gedelegeerde han deling treedt alleen in werking indien het Europees Parlement noch de  Raad daartegen binnen een termijn van twee maanden na de kennisge ving van de handeling aan het Europees Parlement en de Raad bezwaar  heeft gemaakt, of indien zowel het Europees Parlement als de Raad  voor het verstrijken van die termijn de Commissie heeft meegedeeld  daartegen geen bezwaar te zullen maken. Die termijn wordt op initiatief  van het Europees Parlement of de Raad met twee maanden verlengd.
-
-▼B
+5.  Een op grond van artikel 1, lid 2, artikel 3, lid 13, artikelen 29 ter,  29 quater en 40 ter, en artikel 46, lid 2, vastgestelde gedelegeerde han deling treedt alleen in werking indien het Europees Parlement noch de  Raad daartegen binnen een termijn van twee maanden na de kennisge ving van de handeling aan het Europees Parlement en de Raad bezwaar  heeft gemaakt, of indien zowel het Europees Parlement als de Raad  voor het verstrijken van die termijn de Commissie heeft meegedeeld  daartegen geen bezwaar te zullen maken. Die termijn wordt op initiatief  van het Europees Parlement of de Raad met twee maanden verlengd.
 
 ###### Artikel 50
 
 Comitéprocedure
-
-▼B
 
 2.  Wanneer naar dit lid wordt verwezen, is artikel 5 van Verorde ning (EU) nr. 182/2011 van toepassing.
 
@@ -2332,8 +2077,6 @@ De lidstaten kunnen bepalen dat de in de eerste alinea bedoelde bepa lingen eers
 
 Wanneer de lidstaten die bepalingen vaststellen, wordt in die bepalin gen zelf of bij de officiële bekendmaking daarvan naar deze richtlijn  verwezen. De regels voor die verwijzing worden vastgesteld door de  lidstaten.
 
-▼B
-
 ###### Artikel 54
 
 Inwerkingtreding
@@ -2345,8 +2088,6 @@ Deze richtlijn treedt in werking op de twintigste dag na die van de  bekendmakin
 Adressaten
 
 Deze richtlijn is gericht tot de lidstaten.
-
-▼B
 
 BIJLAGE I
 
@@ -2392,11 +2133,11 @@ la sociedad anónima, la sociedad comanditaria por acciones, la sociedad de  res
 
 la société anonyme, la société en commandite par actions, la société à res ponsabilité limitée, la société par actions simplifiée;
 
-▼M2  — In Kroatië:
+— In Kroatië:
 
 dioničko društvo, društvo s ograničenom odgovornošću;
 
-▼B  — Italië:
+— Italië:
 
 la società per azioni, la società in accomandita per azioni, la società a  responsabilità limitata;
 
@@ -2405,8 +2146,6 @@ la società per azioni, la società in accomandita per azioni, la società a  re
 Δημόσιες εταιρείες περιορισμένης ευθύνης με μετοχές ή με εγγύηση,  ιδιωτικές εταιρείες περιορισμένης ευθύνης με μετοχές ή με εγγύηση;
 
 — Letland:
-
-▼B
 
 — Litouwen:
 
@@ -2466,8 +2205,6 @@ aktiebolag;
 
 public companies limited by shares or by guarantee, private companies li mited by shares or by guarantee.
 
-▼B
-
 BIJLAGE II
 
 RECHTSVORMEN  VAN  ONDERNEMINGEN,  BEDOELD  IN  ARTIKEL 1, LID 1, ONDER B)
@@ -2512,11 +2249,11 @@ sociedad colectiva, sociedad en comandita simple;
 
 la société en nom collectif, la société en commandite simple;
 
-▼M2  — In Kroatië:
+— In Kroatië:
 
 javno trgovačko društvo, komanditno društvo, gospodarsko interesno  udruženje;
 
-▼B  — Italië:
+— Italië:
 
 la società in nome collettivo, la società in accomandita semplice;
 
@@ -2533,8 +2270,6 @@ pilnsabiedrība, komandītsabiedrība;
 tikrosios ūkinės bendrijos, komanditinės ūkinės bendrijos;
 
 — Luxemburg:
-
-▼B
 
 — Hongarije:
 
@@ -2583,8 +2318,6 @@ handelsbolag, kommanditbolag;
 — Verenigd Koninkrijk:
 
 partnerships, limited partnerships, unlimited companies.
-
-▼B
 
 BIJLAGE III
 
@@ -2639,8 +2372,6 @@ III. Financiële vaste activa
 4. Leningen verstrekt aan ondernemingen waarmee een deelnemings verhouding bestaat.
 
 5. ►C1 Beleggingen ◄ die tot de vaste activa behoren.
-
-▼B
 
 D. Vlottende activa
 
@@ -2698,8 +2429,6 @@ III. Herwaarderingsreserve
 
 IV. Reserves
 
-▼B
-
 2. Reserve voor eigen aandelen, voor zover het nationale recht de vor ming van deze reserve voorschrijft, onverminderd het bepaalde in  artikel 24, lid 1, onder b), van Richtlijn 2012/30/EU.
 
 3. Statutaire reserves.
@@ -2743,8 +2472,6 @@ C. Schulden
 D. Overlopende posten
 
 (Tenzij overlopende posten overeenkomstig het nationale recht onder post C  9 onder „Schulden” moeten worden opgenomen.)
-
-▼B
 
 BIJLAGE IV
 
@@ -2806,8 +2533,6 @@ I.  Voorraden
 
 1. Grondstoffen en hulpstoffen.
 
-▼B
-
 3. Gereed product en handelsvoorraden.
 
 4. Vooruitbetalingen.
@@ -2859,8 +2584,6 @@ F.  Schulden: bedrag van de schulden met een resterende looptijd van ten  hoogst
 7. Schulden aan ondernemingen waarmee een deelnemingsverhouding be staat.
 
 8. Overige schulden, waaronder belastingschulden en schulden bij instel lingen voor sociale zekerheid.
-
-▼B
 
 G. Vlottende activa
 
@@ -2922,8 +2645,6 @@ IV. Reserves
 
 V. Overgedragen resultaten
 
-▼B
-
 BIJLAGE V
 
 INDELING VAN DE WINST-EN-VERLIESREKENING - NAAR AARD  VAN DE KOSTEN, ZOALS BEPAALD IN ARTIKEL 13
@@ -2970,8 +2691,6 @@ b) Waardecorrecties op vlottende activa, voor zover deze de in de onder neming g
 
 17. Resultaat van het boekjaar.
 
-▼B
-
 BIJLAGE VI
 
 INDELING  VAN  DE  WINST-EN-VERLIESREKENING  -  NAAR  FUNCTIE VAN DE KOSTEN, ZOALS BEPAALD IN ARTIKEL 13
@@ -3005,8 +2724,6 @@ INDELING  VAN  DE  WINST-EN-VERLIESREKENING  -  NAAR  FUNCTIE VAN DE KOSTEN, ZOA
 14. Overige belastingen, niet opgenomen onder posten 1 tot en met 13.
 
 15. Resultaat van het boekjaar.
-
-▼B
 
 BIJLAGE VII
 
@@ -3071,8 +2788,6 @@ Artikel 9, punt B)  —  Bijlage III, punt B)
 Artikel 9, punt C)  —  Bijlage III, punt C)
 
 Artikel 9, punt D)  —  Bijlage III, punt D)
-
-▼B
 
 Richtlijn 78/660/EEG  Richtlijn 83/349/EEG  Deze richtlijn
 
@@ -3148,8 +2863,6 @@ Artikel 23, punten 1 t/m15  —  Bijlage V, punten 1 t/m15
 
 Artikel 23, punten 16 t/m 19  —  —
 
-▼B
-
 Richtlijn 78/660/EEG  Richtlijn 83/349/EEG  Deze richtlijn
 
 Artikel 24  —  —
@@ -3213,8 +2926,6 @@ Artikel 35, lid 1, punt c)  Artikel 12, lid 6
 Artikel 35, lid 1, punt d)  Artikel 17, lid 1, punt b)
 
 Artikel 35, lid 2  —  Artikel 2, punt 6
-
-▼B
 
 Richtlijn 78/660/EEG  Richtlijn 83/349/EEG  Deze richtlijn
 
@@ -3304,8 +3015,6 @@ Artikel 43, lid 1, punt 2),  tweede alinea  —  Artikel 17, lid 1, punt k)
 
 Artikel 43, lid 1, punt 3)  —  Artikel 17, lid 1, punt h)
 
-▼B
-
 Richtlijn 78/660/EEG  Richtlijn 83/349/EEG  Deze richtlijn
 
 Artikel 43, lid 1, punt 5)  —  Artikel 17, lid 1, punt j)
@@ -3379,8 +3088,6 @@ Artikel 50  —  Artikel 17, lid 1, punt o)
 Artikel 51, lid 1  —  Artikel 34, lid 1
 
 Artikel 51, lid 2  —  —
-
-▼B
 
 Richtlijn 78/660/EEG  Richtlijn 83/349/EEG  Deze richtlijn
 
@@ -3462,8 +3169,6 @@ Artikel 62  —  Artikel 55
 
 —  Artikel 7, lid 2  Artikel 23, lid 4
 
-▼B
-
 Richtlijn 78/660/EEG  Richtlijn 83/349/EEG  Deze richtlijn
 
 —  Artikel 8  Artikel 23, lid 5
@@ -3536,8 +3241,6 @@ Artikel 12, lid 3  Artikel 22, lid 9
 
 —  Artikel 29, lid 5  Artikel 24, lid 14
 
-▼B
-
 Richtlijn 78/660/EEG  Richtlijn 83/349/EEG  Deze richtlijn
 
 —  Artikel 30, lid 2  —
@@ -3599,8 +3302,6 @@ Richtlijn 78/660/EEG  Richtlijn 83/349/EEG  Deze richtlijn
 —  Artikel 36, lid 2, punt a)  —
 
 —  Artikel 36, lid 2, punten b)  en c)  Artikel 19, lid 2, punten b) en c)
-
-▼B
 
 Richtlijn 78/660/EEG  Richtlijn 83/349/EEG  Deze richtlijn
 
