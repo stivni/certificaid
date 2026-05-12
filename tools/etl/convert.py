@@ -2,11 +2,16 @@
 In-process orchestrator voor de Certificaid bronnen-ETL (ADR-005 §2).
 
 Pipeline per bron:
-    extract → cleanup → headings → frontmatter → staging-output
+    extract → transform-chain → staging-output
 
 De extract-stap delegeert naar `tools/lib/extractors/<method>.py` op basis van
-`extract.method` in `resources/source_config.yaml`. Cleanup en
-heading-injection zijn gedeeld (`tools/lib/cleanup.py`, `tools/lib/headings.py`).
+`extract.method` in `resources/source_config.yaml`. De transform-stap loopt
+via `tools/etl/transformers/` (ADR-005 §4): een chain van transformer-functies
+die elk `(body, frontmatter) -> (body, frontmatter)` implementeren.
+
+Default chains per extract-method staan in DEFAULT_CHAINS. Een bron kan via
+`transform_chain:` in source_config.yaml een eigen chain forceren (toekomstig,
+bij source_config-restructure, ADR-005 §2).
 
 Output landt in `data/etl-staging/<source_name>.md` — NIET in
 `resources/bronnen/wetteksten/`. Dat blijft de huidige goedgekeurde set; staging
@@ -50,6 +55,33 @@ from tools.lib.provenance import (  # noqa: E402
     Trust,
     read_provenance,
 )
+from tools.etl.transformers import apply_chain  # noqa: E402
+
+
+# ─── Default transformer-chains per extract-method (ADR-005 §4) ───────────────
+#
+# Elke chain is een geordende lijst van transformer-namen (zie
+# tools/etl/transformers/TRANSFORMERS). De waarden volgen de afgesproken
+# structuur uit de taakomschrijving. Bij een onbekende method geldt de fallback.
+#
+# Toekomstig (source_config-restructure, ADR-005 §2): chains worden uit
+# `resources/source_config.yaml` gelezen onder `extractors:.<method>.transform_chain`.
+# Tot die tijd zijn ze hier hardcoded als interim-oplossing.
+
+DEFAULT_CHAINS: dict[str, list[str]] = {
+    "pdftotext_ejustice":       ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
+    "custom_wetboek":           ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
+    "custom_wib92":             ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
+    "justel_html":              ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
+    "justel_change_lg":         ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
+    "justel_bs_bilingual":      ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
+    "pymupdf_wetboek":          ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
+    "cbn_advies":               ["cleanup_basics", "emit_frontmatter"],
+    "extract_norm":             ["cleanup_basics", "emit_frontmatter"],
+    "pdftotext_compilatie_btw": ["cleanup_basics", "inject_headings_wettekst", "emit_frontmatter"],
+}
+
+_DEFAULT_CHAIN_FALLBACK: list[str] = ["cleanup_basics", "emit_frontmatter"]
 
 
 # ─── Config laden ─────────────────────────────────────────────────────────────
@@ -172,6 +204,43 @@ def build_initial_frontmatter(cfg: dict, source_name: str, method: str,
         "",
     ])
     return "\n".join(fm_lines)
+
+
+def _build_frontmatter_dict(cfg: dict, source_name: str, method: str,
+                            overrides: dict | None = None) -> dict:
+    """Bouw een plain frontmatter-dict voor gebruik in de transformer-chain.
+
+    Analoog aan `build_initial_frontmatter` maar geeft een dict terug in
+    plaats van een YAML-string, zodat transformers er vlot op kunnen werken.
+
+    `overrides` volgt dezelfde semantiek als in `build_initial_frontmatter`.
+    """
+    overrides = overrides or {}
+
+    def _pick(key, default=None):
+        if key in overrides:
+            return overrides[key]
+        return cfg.get(key, default)
+
+    tags = _pick("tags", [])
+    itaa_sectie = _pick("itaa_sectie", "")
+    wet_full = _pick("wet", source_name)
+    titel = _pick("titel") or wet_full
+    bijgewerkt = _pick("bijgewerkt", "")
+    bron_rol = cfg.get("bron_rol")
+    bron_label = _BRON_LABEL_PER_METHOD.get(method, "onbekend")
+
+    fm: dict = {
+        "tags": tags,
+        "itaa_sectie": itaa_sectie,
+        "wet": wet_full,
+        "titel": titel,
+        "bijgewerkt": bijgewerkt,
+        "bron": bron_label,
+    }
+    if bron_rol:
+        fm["bron_rol"] = bron_rol
+    return fm
 
 
 # ─── Provenance ───────────────────────────────────────────────────────────────
@@ -299,6 +368,9 @@ def convert_one(source_name: str, *, dry_run: bool = False,
     print(f"  → Extractie via lib.extractors.{method}")
     extracted = handler(cfg, source_name)
 
+    # Bepaal de transformer-chain voor deze method.
+    chain = DEFAULT_CHAINS.get(method, _DEFAULT_CHAIN_FALLBACK)
+
     # ─── 1-op-N pad: compilatie-handler retourneert dict ──────────────────
     if method in COMPILATIE_METHODS or isinstance(extracted, dict):
         if not isinstance(extracted, dict):
@@ -325,24 +397,33 @@ def convert_one(source_name: str, *, dry_run: bool = False,
                 elif "extra_metadata" in split_meta and k in split_meta["extra_metadata"]:
                     overrides[k] = split_meta["extra_metadata"][k]
 
-            text = build_initial_frontmatter(
-                cfg, source_name, method, overrides=overrides,
-            ) + body.lstrip("\n")
-            # ADR-006 §4.2: split-niveau sub_strategy override (bv. WBTW-KB22
-            # binnen WBTW-KBs) of bron-niveau extract.params.sub_strategy
+            # ADR-006 §4.2: split-niveau sub_strategy override of bron-niveau
             split_sub = (split_meta or {}).get("sub_strategy")
             sub_strategy = split_sub or _get_sub_strategy(cfg)
-            text, info = process_wettekst(text, sub_strategy=sub_strategy)
+
+            # Bouw frontmatter-dict + voeg interne orchestrator-velden toe
+            frontmatter = _build_frontmatter_dict(cfg, source_name, method, overrides=overrides)
+            frontmatter["_cleanup_steps"] = _cleanup_steps_for(cfg, method)
+            frontmatter["_sub_strategy"] = sub_strategy
+
+            # Voer de transformer-chain uit; emit_frontmatter produceert de volledige tekst
+            text, _ = apply_chain(body, frontmatter, chain)
+
+            # Haal chunk-info op voor logging (gezet door inject_headings_wettekst als in chain)
+            info = frontmatter.get("_chunk_info") or {}
 
             if not dry_run:
                 STAGING_DIR.mkdir(parents=True, exist_ok=True)
                 staging_path.write_text(text, encoding="utf-8")
                 _attach_provenance(staging_path, cfg, source_name, method)
-                print(
-                    f"    ✓ {basename}  ranks={info['ranks']} "
-                    f"reduced={info['reduced_ranks']} "
-                    f"chunk.level={info['chunk_level']}"
-                )
+                if info:
+                    print(
+                        f"    ✓ {basename}  ranks={info.get('ranks', '?')} "
+                        f"reduced={info.get('reduced_ranks', '?')} "
+                        f"chunk.level={info.get('chunk_level', '?')}"
+                    )
+                else:
+                    print(f"    ✓ {basename}")
             else:
                 print(f"    (dry-run) {basename} — {len(text):,} tekens")
             last_path = staging_path
@@ -352,27 +433,28 @@ def convert_one(source_name: str, *, dry_run: bool = False,
     # ─── 1-op-1 pad: handler retourneert string ───────────────────────────
     raw_text = extracted
 
-    # 2. Cleanup op de body (frontmatter komt erna; preserve_frontmatter=False
-    #    omdat we nog geen frontmatter hebben).
-    steps = _cleanup_steps_for(cfg, method)
-    if steps:
-        print(f"  → Cleanup: {steps}")
-        raw_text = run_pipeline(raw_text, steps=steps, preserve_frontmatter=False)
+    # Bouw frontmatter-dict + voeg interne orchestrator-velden toe.
+    # De cleanup-stappen en sub_strategy worden als `_`-prefixed sleutels
+    # doorgegeven aan de transformer-chain (cleanup_basics en
+    # inject_headings_wettekst lezen deze en verwijderen ze daarna).
+    frontmatter = _build_frontmatter_dict(cfg, source_name, method)
+    frontmatter["_cleanup_steps"] = _cleanup_steps_for(cfg, method)
+    frontmatter["_sub_strategy"] = _get_sub_strategy(cfg)
 
-    # 3. Bouw frontmatter + intro-paragraaf + body. De intro (`# wet`-H1 en
-    #    *Bijgewerkt tot* regel) staat nadrukkelijk NA cleanup, omdat ejustice-
-    #    cleanup-stappen (bv. remove_toc_ejustice) de H1 anders zouden strippen.
-    text = build_initial_frontmatter(cfg, source_name, method) + raw_text.lstrip("\n")
+    print(f"  → Transform-chain: {chain}")
 
-    # 4. Heading-injection + chunk-blok in frontmatter
-    sub_strategy = _get_sub_strategy(cfg)
-    text, info = process_wettekst(text, sub_strategy=sub_strategy)
-    print(
-        f"  → Headings: ranks={info['ranks']} reduced={info['reduced_ranks']} "
-        f"chunk.level={info['chunk_level']} conversies={info['n_conversies']}"
-    )
+    # Voer de transformer-chain uit.
+    # Na emit_frontmatter bevat `text` de volledige staging-MD
+    # (YAML-frontmatter + intro + body). De geretourneerde frontmatter is leeg.
+    text, _ = apply_chain(raw_text, frontmatter, chain)
 
-    # 5. Schrijven naar staging
+    # Haal logging-info op uit de frontmatter-dict die door de chain is gevuld.
+    # Omdat emit_frontmatter de dict leegt, moet inject_headings_wettekst de
+    # info al vóór emit_frontmatter in _chunk_info hebben gezet — dat doet hij.
+    # Na apply_chain is de dict leeg; info lezen we direct uit de chain-output
+    # door de _chunk_info uit de (reeds-geleegde) dict niet te gebruiken.
+    # Alternatief: logging inline in de transformer. Voorlopig: geen chunk-info
+    # in het 1-op-1 logging-pad na wiring (non-functional, dus OK).
     staging_path = STAGING_DIR / f"{source_name}.md"
 
     if not dry_run:
