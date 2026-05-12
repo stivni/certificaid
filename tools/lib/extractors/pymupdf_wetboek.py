@@ -196,10 +196,11 @@ def _detect_heading_levels(blocks: list[Block]) -> dict[float, int]:
 
 _ART_HEAD_RE = re.compile(
     # Belgisch art-num: `Art. 5`, `Art. 5bis`, `Art. 5/2`, ofwel
-    # `Art.XV.125`, `Art. XV.125/4/1` (WER-stijl met roman-prefix)
+    # `Art.XV.125`, `Art. XV.125/4/1` (WER-stijl met roman-prefix), ofwel
+    # `Art. 1:5`, `Art. 18:8` (WVV-stijl met BOEK:ARTIKEL-notatie).
     r"^\s*(Art(?:ikel)?\.?)\s*"
     r"(?:[IVXLCDM]+\.?\s*)?"          # optioneel romeins boek/titel-prefix
-    r"\d+(?:[\./]\d+)*"                # nummer, eventueel met /N segmenten
+    r"\d+(?:[\./:]\d+)*"               # nummer met /N of :N segmenten
     r"(?:bis|ter|quater|quinquies|sexies|septies)?"
     r"\s*\.?\s*$",
     re.I,
@@ -209,7 +210,7 @@ _ART_HEAD_RE = re.compile(
 _ART_INLINE_RE = re.compile(
     r"^\s*(Art(?:ikel)?\.?)\s*"
     r"((?:[IVXLCDM]+\.?\s*)?"
-    r"\d+(?:[\./]\d+)*"
+    r"\d+(?:[\./:]\d+)*"               # ook : voor WVV-notatie (1:5, 18:8)
     r"(?:bis|ter|quater|quinquies|sexies|septies)?)"
     r"\s*[\.\s]\s*(.+?)$",
     re.I,
