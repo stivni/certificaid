@@ -67,3 +67,82 @@ def test_promote_italic_preserves_legitimate_bold():
     md = "\n**Boekhoudkundige verwerking**\n\nBody.\n"
     result = _promote_implicit_headings(md)
     assert "## Boekhoudkundige verwerking" in result
+
+
+# ─── E2: <br> binnen tabel-cel renders als spatie (CBN-0103/1 pattern) ────────
+
+def test_br_inside_td_becomes_space():
+    """REGRESSIE-FIX (CBN-0103/1): `<br>` binnen `<td>` is visuele wrapping,
+    geen functionele line-break. Vervang met spatie zodat tabel-rij op één
+    regel staat (markdown-tabel-parser werkt).
+    """
+    from tools.lib.cbn_advies_html import parse_html
+    html = (
+        '<html><body><main>'
+        '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt '
+        'ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco '
+        'laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.</p>'
+        '<table><tbody><tr>'
+        '<td>&lt; Verhoogde<br />criteria</td>'
+        '<td>Tweede cel</td>'
+        '</tr></tbody></table>'
+        '</main></body></html>'
+    )
+    body = parse_html(html).get('body', '')
+    # Tabel-rij moet op één regel staan
+    for line in body.split('\n'):
+        if '|' in line and 'Verhoogde' in line:
+            # De rij met "Verhoogde" moet ook "criteria" bevatten — niet gesplitst
+            assert 'criteria' in line, f"<br> in td brak rij: {line!r}"
+            assert '\n' not in line  # by definition van split('\n')
+            return
+    raise AssertionError("Geen tabel-rij met 'Verhoogde' gevonden in body")
+
+
+def test_br_outside_table_keeps_linebreak():
+    """`<br>` BUITEN een tabel-cel blijft een markdown line-break (`  \\n`)."""
+    from tools.lib.cbn_advies_html import parse_html
+    html = (
+        '<html><body><main>'
+        '<p>Lijn 1<br/>Lijn 2 na br met genoeg tekst om de 200-char trigger te halen — '
+        'lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt '
+        'ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud.</p>'
+        '</main></body></html>'
+    )
+    body = parse_html(html).get('body', '')
+    # Lijn 1 + line-break + Lijn 2 moet op verschillende regels staan
+    assert 'Lijn 1' in body
+    assert 'Lijn 2' in body
+    # Tussen Lijn 1 en Lijn 2 moet een newline staan
+    idx1 = body.find('Lijn 1')
+    idx2 = body.find('Lijn 2')
+    between = body[idx1:idx2]
+    assert '\n' in between, f"Geen line-break na <br> buiten td: {between!r}"
+
+
+def test_html_indentation_in_cell_not_extra_pipes():
+    """HTML-indentatie (newlines+tabs tussen tags) BINNEN een cell mag geen
+    extra pipes of broken rows opleveren.
+    """
+    from tools.lib.cbn_advies_html import parse_html
+    html = (
+        '<html><body><main>'
+        '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt '
+        'ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation.</p>'
+        '<table><tbody>'
+        '<tr>\n'
+        '    <td>Eerste cel</td>\n'
+        '    <td>Tweede cel</td>\n'
+        '    <td>Derde cel</td>\n'
+        '</tr>'
+        '</tbody></table>'
+        '</main></body></html>'
+    )
+    body = parse_html(html).get('body', '')
+    # Tabel-rij telt 3 cellen → 4 pipes (open + 3 separators).
+    for line in body.split('\n'):
+        if 'Eerste cel' in line and '|' in line:
+            n_pipes = line.count('|')
+            assert n_pipes == 4, f"Verwacht 4 pipes voor 3 cellen, kreeg {n_pipes}: {line!r}"
+            return
+    raise AssertionError("Geen rij met 'Eerste cel' gevonden")

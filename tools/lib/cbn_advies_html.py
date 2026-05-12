@@ -88,6 +88,11 @@ class _CBNAdviceParser(HTMLParser):
         # post-detect-fix waarbij we een bold-only <p> achteraf promoveren
         # naar een ## heading.
         self._p_start_idx: int | None = None
+        # Tabel-context: gebruikt om <br> binnen td/th als spatie te behandelen
+        # (visuele wrap, geen semantische break) en om whitespace-only data
+        # tussen </td> en <td> te negeren.
+        self._in_table_cell: bool = False
+        self._in_table_row: bool = False
 
     # ── helpers ──────────────────────────────────────────────────────────────
 
@@ -203,7 +208,10 @@ class _CBNAdviceParser(HTMLParser):
             self._flush('*')
 
         elif tag == 'br':
-            self._flush('  \n')
+            if self._in_table_cell:
+                self._flush(' ')  # visuele wrap in cell, geen semantische break
+            else:
+                self._flush('  \n')
 
         elif tag == 'hr':
             self._ensure_nl(2)
@@ -245,8 +253,10 @@ class _CBNAdviceParser(HTMLParser):
         elif tag == 'tr':
             if self._pending_nl == 0 and self.result:
                 self.result.append('\n')
+            self._in_table_row = True
 
         elif tag in ('th', 'td'):
+            self._in_table_cell = True
             self._flush('| ')
 
     def handle_endtag(self, tag):
@@ -329,7 +339,13 @@ class _CBNAdviceParser(HTMLParser):
                 self.list_stack.pop()
             self._ensure_nl(2)
         elif tag in ('th', 'td'):
-            self._flush(' |')
+            # Geen close-pipe per cel: de closing-pipe wordt aan </tr> emit.
+            # Per-cel `' |'` levert dubbele pipes op tussen cellen (`| A || B |`).
+            self._in_table_cell = False
+        elif tag == 'tr':
+            # Closing pipe van de rij (eenmaal, niet per cel).
+            self._flush('|')
+            self._in_table_row = False
         elif tag == 'table':
             self._ensure_nl(2)
 
@@ -348,6 +364,19 @@ class _CBNAdviceParser(HTMLParser):
             return
 
         text = data
+
+        # Tabel-context: tussen </td> en <td> binnen tr is whitespace-only
+        # data (HTML-indentatie). Die mag geen extra pipes/spaces injecteren.
+        if self._in_table_row and not self._in_table_cell and not text.strip():
+            return
+
+        # Binnen een td/th: collapse newlines/tabs naar spaties (geen
+        # semantische breaks in cell-content; markdown-tabel-rij moet op
+        # één regel staan).
+        if self._in_table_cell:
+            text = re.sub(r"[\n\t]+", " ", text)
+            text = re.sub(r"  +", " ", text)
+
         if text.strip():
             self._flush(text)
         elif self.result and not self.result[-1].endswith('\n'):
