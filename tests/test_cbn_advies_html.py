@@ -69,6 +69,59 @@ def test_promote_italic_preserves_legitimate_bold():
     assert "## Boekhoudkundige verwerking" in result
 
 
+# ─── B4-SP2: bold Boeking-headings promotie ──────────────────────────────────
+
+def test_promote_bold_boeking_short():
+    """B4-SP2: '**Boeking eerste jaar**' (19 chars, onder 20-char drempel) moet
+    als ## heading worden gepromoveerd — dit zijn subsectie-labels in CBN-adviezen
+    die de ETL als bold uitlevert i.p.v. als heading.
+
+    Voorbeeld: CBN-2013-06 r.66 '**Boeking eerste jaar**' staat naast
+    '## Boeking in het jaar...' — inconsistente behandeling is ETL-artefact.
+    """
+    md = (
+        "Body tekst.\n"
+        "\n"
+        "**Boeking eerste jaar**\n"
+        "\n"
+        "| | Rekening | Omschrijving | Debet | Credit |\n"
+        "|---|----------|--------------|-------|--------|\n"
+        "| | 640 | Bedrijfsbelastingen | 1,75 | |\n"
+    )
+    result = _promote_implicit_headings(md)
+    assert "## Boeking eerste jaar" in result
+    assert "**Boeking eerste jaar**" not in result
+
+
+def test_promote_bold_boeking_with_footnote_in_text():
+    """B4-SP2: 'Boeking op datum[^N]...' met ingebedde footnote-ref mag ook
+    gepromoveerd worden — de footnote-marker maakt het geen zin.
+
+    Voorbeeld: CBN-2016-13 r.102 '**Boeking op 31/03/2013 (...25[^10] procent)**'
+    """
+    md = (
+        "Body.\n"
+        "\n"
+        "**Boeking op 31/03/2013 (tarief roerende voorheffing bedraagt 25[^10] procent)**\n"
+        "\n"
+        "| | col | Debet | Credit |\n"
+        "|---|-----|-------|--------|\n"
+        "| | 520 | 201 | |\n"
+    )
+    result = _promote_implicit_headings(md)
+    assert "## Boeking op 31/03/2013" in result
+    assert "**Boeking op 31/03/2013" not in result
+
+
+def test_promote_bold_boeking_not_mid_paragraph():
+    """B4-SP2: bold Boeking-tekst MIDDEN in een alinea (geen blank lines rondom)
+    mag NIET gepromoveerd worden — het is inline emphasis.
+    """
+    md = "Zie **boeking eerste jaar** hieronder voor details.\n"
+    result = _promote_implicit_headings(md)
+    assert "## " not in result
+
+
 # ─── E2: <br> binnen tabel-cel renders als spatie (CBN-0103/1 pattern) ────────
 
 def test_br_inside_td_becomes_space():

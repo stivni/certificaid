@@ -709,6 +709,10 @@ _IMPLICIT_HEADING_PATTERNS = [
         re.IGNORECASE,
     ),
     re.compile(r'^\s*\*\*(\d+(?:\.\d+)*\.?\s+[^\*\n]{4,80}?)\*\*\s*$'),
+    # B4-SP2: bold boeking-labels zijn subsectie-headings in CBN-adviezen.
+    # De 20-char drempel van _BOLD_TITLE_STANDALONE dekt "Boeking eerste jaar"
+    # (19 chars) niet — vang expliciete Boeking-patronen hier op.
+    re.compile(r'^\s*\*\*(Boeking\s+[^\*\n]{3,}?)\*\*\s*$', re.IGNORECASE),
 ]
 
 _BOLD_TITLE_STANDALONE = re.compile(r'^\s*\*\*([^\*\n]{20,}?)\*\*\s*$')
