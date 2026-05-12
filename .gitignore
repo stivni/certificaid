@@ -14,6 +14,9 @@ node_modules/
 # OS
 .DS_Store
 
+# Claude Code local state (worktrees, session data, etc.)
+.claude/
+
 # Resources — bulk raw downloads (PDFs, txt, xlsx, ...)
 # Alleen de bulk-mappen worden geignoreerd; hand-curated raw inputs
 # (voorbeeldexamens, andere/) blijven tracked omdat ze niet auto-fetchable zijn.
