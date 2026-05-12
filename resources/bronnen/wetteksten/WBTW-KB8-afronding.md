@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Layer1 pass. Klein KB, 4 artikelen, H2 per artikel. Bijw.-lijn (L83) is updatetabelrest — cosmetisch. Inhoud volledig.
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 2705
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:20:00Z'
+      rationale: Layer1 pass. Klein KB, 4 artikelen, H2 per artikel. Bijw.-lijn (L83) is updatetabelrest — cosmetisch. Inhoud volledig.
+      concrete_problemen:
+        - regel: 83
+          categorie: A1
+          type: form-feed
+          voorbeeld: Bijw. 01 / 01.01.2012 30.12.2011 Volledige uitgave
 ---
 
 # K.B. nr. 8 van 12 maart 1970, tot vaststelling van de wijze van afronding van de verschuldigde, de aftrekbare of de voor teruggaaf vatbare belasting over de toegevoegde waarde

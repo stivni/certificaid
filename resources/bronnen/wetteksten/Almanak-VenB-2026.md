@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'A8: massale kolom-bleed — 886 regels met >300 chars, max 4859 chars per regel. Twee PDF-kolommen zijn horizontaal samengevoegd. Structuur H3-headings aanwezig maar lichaamstekst onbruikbaar door kolom-bleed.'
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -37,6 +37,19 @@ provenance:
       file_size_chars: 893772
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:19:59Z'
+      rationale: 'A8: massale kolom-bleed — 886 regels met >300 chars, max 4859 chars per regel. Twee PDF-kolommen zijn horizontaal samengevoegd. Structuur H3-headings aanwezig maar lichaamstekst onbruikbaar door kolom-bleed.'
+      concrete_problemen:
+        - regel: 86
+          categorie: A8
+          type: column-bleed
+          voorbeeld: '4859-char regel (langste): twee kolommen samengevoegd'
+        - regel: 48
+          categorie: A8
+          type: column-bleed
+          voorbeeld: 442-char regel in body
 ---
 
 # Almanak Vennootschapsbelasting 2026 — ITAA / Larcier-Intersentia

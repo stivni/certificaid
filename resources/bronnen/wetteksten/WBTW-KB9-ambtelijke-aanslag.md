@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Layer1 pass. Klein KB, 4 artikelen, H2 per artikel, schone extractie, geen artefacten.
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 2266
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:20:00Z'
+      rationale: Layer1 pass. Klein KB, 4 artikelen, H2 per artikel, schone extractie, geen artefacten.
+      concrete_problemen: []
 ---
 
 # K.B. nr. 9 van 12 december 1970, met betrekking tot de ambtelijke aanslag inzake belasting over de toegevoegde waarde

@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Layer1 pass. 32 headings over H2/H3-niveaus, lange regels zijn gewone wetsartikeltekst (geen kolom-bleed), geen spurious line-breaks in body, inhoud volledig.
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 43324
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:19:59Z'
+      rationale: Layer1 pass. 32 headings over H2/H3-niveaus, lange regels zijn gewone wetsartikeltekst (geen kolom-bleed), geen spurious line-breaks in body, inhoud volledig.
+      concrete_problemen: []
 ---
 
 # K.B. nr. 3 van 10 december 1969, met betrekking tot de aftrekken voor de toepassing van de belasting over de toegevoegde waarde

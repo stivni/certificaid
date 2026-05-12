@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Layer1 pass. 8 H2-headings, schone extractie, inhoud volledig.
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 5624
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:20:00Z'
+      rationale: Layer1 pass. 8 H2-headings, schone extractie, inhoud volledig.
+      concrete_problemen: []
 ---
 
 # K.B. nr. 39 van 17 oktober 1980, tot regeling van de toepassingsmodaliteiten van artikel 93duodecies van het Wetboek van de belasting over de toegevoegde waarde

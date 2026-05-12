@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Layer1 pass. Body is schoon: H2-headings per artikel, geen spurious line-breaks. Bijlage-vermelding aan het einde (L149) is de officiële aanhef van de bijlage — inhoud ervan ontbreekt maar dit is een bijlage-formulier dat niet als KB-tekst telt. Geen ETL-artefacten.'
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 10250
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:19:59Z'
+      rationale: 'Layer1 pass. Body is schoon: H2-headings per artikel, geen spurious line-breaks. Bijlage-vermelding aan het einde (L149) is de officiële aanhef van de bijlage — inhoud ervan ontbreekt maar dit is een bijlage-formulier dat niet als KB-tekst telt. Geen ETL-artefacten.'
+      concrete_problemen:
+        - regel: 149
+          categorie: D2
+          type: abrupt-cutoff
+          voorbeeld: Bijlage (bijlage-formulier inhoud niet ge-extraheerd)
 ---
 
 # K.B. van 4 april 2014, betreffende de verificatie van het regelmatig aanwezig zijn van motorvoertuigen

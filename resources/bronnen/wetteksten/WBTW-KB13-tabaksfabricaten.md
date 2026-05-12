@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Layer1 pass. Klein KB, 5 artikelen, H2 per artikel, schone extractie.
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 2549
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:19:59Z'
+      rationale: Layer1 pass. Klein KB, 5 artikelen, H2 per artikel, schone extractie.
+      concrete_problemen: []
 ---
 
 # K.B. nr. 13 van 29 december 1992, met betrekking tot de regeling voor tabaksfabricaten op het stuk van de belasting over de toegevoegde waarde

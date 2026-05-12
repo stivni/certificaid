@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Layer1 pass. 9 H2-headings. Bijw.-regels (L103-107) zijn updatetabelrests — cosmetisch. Inhoud volledig.
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 5742
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:20:00Z'
+      rationale: Layer1 pass. 9 H2-headings. Bijw.-regels (L103-107) zijn updatetabelrests — cosmetisch. Inhoud volledig.
+      concrete_problemen:
+        - regel: 103
+          categorie: A1
+          type: form-feed
+          voorbeeld: Bijw. 01 / 01.01.2012 - Volledige uitgave
 ---
 
 # K.B. nr. 51 van 14 april 1993, met betrekking tot de vereenvoudigingsregeling voor intracommunautaire verwerving van accijnsprodukten op het stuk van de belasting over de toegevoegde waarde

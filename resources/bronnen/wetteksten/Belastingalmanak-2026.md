@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'A8: zwaarste kolom-bleed in de set — 1881 regels >300 chars, max 10986 chars per regel. Layer1 signaleerde al TOC-stippen (1 hit) en paginavoetregels. Twee PDF-kolommen zijn systematisch samengevoegd. Vrijwel onbruikbaar voor RAG tot ETL fixed.'
     layer1:
       status: warn
       run_id: 20260512-210639
@@ -51,6 +51,19 @@ provenance:
           samples:
             - 1351/2351
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:19:59Z'
+      rationale: 'A8: zwaarste kolom-bleed in de set — 1881 regels >300 chars, max 10986 chars per regel. Layer1 signaleerde al TOC-stippen (1 hit) en paginavoetregels. Twee PDF-kolommen zijn systematisch samengevoegd. Vrijwel onbruikbaar voor RAG tot ETL fixed.'
+      concrete_problemen:
+        - regel: 4204
+          categorie: A8
+          type: column-bleed
+          voorbeeld: '10986-char regel (max): massale kolom-bleed'
+        - regel: 59
+          categorie: A8
+          type: column-bleed
+          voorbeeld: § 1, 14°, WIB 92)...De vennootschap mag na de stortingde natuurlijke persoon...
 ---
 
 # Belastingalmanak 2026 — ITAA / Larcier-Intersentia

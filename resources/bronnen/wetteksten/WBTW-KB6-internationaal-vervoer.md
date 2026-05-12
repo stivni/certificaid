@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Layer1 pass. 7 H2-headings. Bijw.-lijn (L96) is updatetabelrest — cosmetisch. Inhoud volledig.
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -37,6 +37,15 @@ provenance:
       file_size_chars: 3821
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:20:00Z'
+      rationale: Layer1 pass. 7 H2-headings. Bijw.-lijn (L96) is updatetabelrest — cosmetisch. Inhoud volledig.
+      concrete_problemen:
+        - regel: 96
+          categorie: A1
+          type: form-feed
+          voorbeeld: Bijw. 01 / 01.01.2012 30.12.2011 Volledige uitgave
 ---
 
 # K.B. nr. 6 van 27 december 1977, met betrekking tot de vrijstellingen ten aanzien van internationaal vervoer, zee- en binnenschepen en luchtvaartuigen, op het stuk van de belasting over de toegevoegde waarde

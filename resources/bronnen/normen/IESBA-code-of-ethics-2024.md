@@ -24,12 +24,37 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4/B5: 621 plain-text subkopjes ('Introduction', 'Requirements and Application Material', 'General', 'SUBSECTION 111 – INTEGRITY', ...) die allen als heading hadden moeten worden ge-extraheerd. A6: 911 spurious line-breaks in body (PDF-kolom per visuele regel afgekapt, niet per logische zin). Structuur H1/H2 aanwezig maar subkopjes ontbreken volledig als markdown-headings."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:19:59Z'
+      rationale: "B4/B5: 621 plain-text subkopjes ('Introduction', 'Requirements and Application Material', 'General', 'SUBSECTION 111 – INTEGRITY', ...) die allen als heading hadden moeten worden ge-extraheerd. A6: 911 spurious line-breaks in body (PDF-kolom per visuele regel afgekapt, niet per logische zin). Structuur H1/H2 aanwezig maar subkopjes ontbreken volledig als markdown-headings."
+      concrete_problemen:
+        - regel: 41
+          categorie: B4
+          type: other
+          voorbeeld: Introduction
+        - regel: 88
+          categorie: B4
+          type: other
+          voorbeeld: Requirements and Application Material
+        - regel: 264
+          categorie: B4
+          type: other
+          voorbeeld: SUBSECTION 111 – INTEGRITY
+        - regel: 85
+          categorie: A6
+          type: other
+          voorbeeld: and, for audits and other assurance engagements, threats to | independence.
+        - regel: 1308
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: Self-review Threats • (c) Advocacy Threats • (d) (e) A professional accountant de
 ---
 
 # IESBA-code-of-ethics-2024

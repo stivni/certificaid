@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Layer1 warn (max_section_size). B4: 59 ALL_CAPS plain-text sectietitels. A6: 82 spurious line-breaks. Zelfde patroon als deel1: 8 H2-headings voor vakken, sub-rubrieken als plain text.'
     layer1:
       status: warn
       run_id: 20260512-210658
@@ -41,6 +41,19 @@ provenance:
           detail: 'langste sectie op ##-niveau: 56486 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:20:00Z'
+      rationale: 'Layer1 warn (max_section_size). B4: 59 ALL_CAPS plain-text sectietitels. A6: 82 spurious line-breaks. Zelfde patroon als deel1: 8 H2-headings voor vakken, sub-rubrieken als plain text.'
+      concrete_problemen:
+        - regel: 155
+          categorie: B4
+          type: other
+          voorbeeld: VAK XIV - BEROEP EN ONDERNEMINGSNUMMER (plain text in TOC)
+        - regel: 3147
+          categorie: A1
+          type: other
+          voorbeeld: 276.1 DEEL 2 NED. (paginakopreferentie)
 ---
 
 # Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Deel 2

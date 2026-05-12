@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Layer1 pass. 11 H2-headings. Bijw./pg.-regels (L137-140) zijn updatetabel-artefacten — cosmetisch, geen impact op inhoud. Art.1-12 volledig aanwezig.
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -37,6 +37,19 @@ provenance:
       file_size_chars: 13607
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:20:00Z'
+      rationale: Layer1 pass. 11 H2-headings. Bijw./pg.-regels (L137-140) zijn updatetabel-artefacten — cosmetisch, geen impact op inhoud. Art.1-12 volledig aanwezig.
+      concrete_problemen:
+        - regel: 137
+          categorie: A1
+          type: form-feed
+          voorbeeld: Bijw. 01 / 01.01.2012 - Volledige uitgave
+        - regel: 140
+          categorie: A1
+          type: other
+          voorbeeld: '- pg. Bijw./1 - Bijw. 02 - pg. Bijl./1'
 ---
 
 # K.B. nr. 47 van 25 februari 1996, tot regeling van de controle van de voldoening van de BTW verschuldigd ter zake van de levering, intracommunautaire verwerving en invoer van vervoermiddelen, in de zin van artikel 8bis, § 2, 1°, van het Wetboek

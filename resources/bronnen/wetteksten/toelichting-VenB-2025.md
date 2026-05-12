@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Layer1 warn (max_section_size). B4: 46 ALL_CAPS plain-text sectietitels ('AANGIFTE IN DE VENNOOTSCHAPSBELASTING', 'AANSLAGJAAR 2025', 'VOORAFGAANDE OPMERKINGEN', ...). 22 H2-headings aanwezig voor de vakken maar sub-rubrieken ontbreken als heading. A6: 2 echte hits (minimaal). 21 regels >300 chars — lange regels maar geen kolom-bleed (gewone wettekstzinnen)."
     layer1:
       status: warn
       run_id: 20260512-210658
@@ -41,6 +41,19 @@ provenance:
           detail: 'langste sectie op ##-niveau: 48683 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:20:00Z'
+      rationale: "Layer1 warn (max_section_size). B4: 46 ALL_CAPS plain-text sectietitels ('AANGIFTE IN DE VENNOOTSCHAPSBELASTING', 'AANSLAGJAAR 2025', 'VOORAFGAANDE OPMERKINGEN', ...). 22 H2-headings aanwezig voor de vakken maar sub-rubrieken ontbreken als heading. A6: 2 echte hits (minimaal). 21 regels >300 chars — lange regels maar geen kolom-bleed (gewone wettekstzinnen)."
+      concrete_problemen:
+        - regel: 52
+          categorie: B4
+          type: other
+          voorbeeld: AANGIFTE IN DE VENNOOTSCHAPSBELASTING
+        - regel: 89
+          categorie: B4
+          type: other
+          voorbeeld: VOORAFGAANDE OPMERKINGEN
 ---
 
 # Toelichting bij de aangifte in de vennootschapsbelasting — AJ 2025

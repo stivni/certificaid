@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Layer1 pass. 18 headings over H2/H3, goed gelaagd, geen spurious line-breaks in body. Tabellen A-J aanwezig als gestructureerde lijsten.
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 45216
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:20:00Z'
+      rationale: Layer1 pass. 18 headings over H2/H3, goed gelaagd, geen spurious line-breaks in body. Tabellen A-J aanwezig als gestructureerde lijsten.
+      concrete_problemen: []
 ---
 
 # K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde

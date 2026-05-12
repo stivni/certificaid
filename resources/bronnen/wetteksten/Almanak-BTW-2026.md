@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A8: massale kolom-bleed — 1324 regels met >300 chars, max 5312 chars per regel. Twee PDF-kolommen zijn horizontaal samengevoegd in één lange tekstregel. Inhoud is aanwezig maar onleesbaar/onchunkbaar door kolom-bleed. Layer1 geeft onterecht 'pass' (herkent geen lange regels)."
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -37,6 +37,19 @@ provenance:
       file_size_chars: 1464178
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:19:59Z'
+      rationale: "A8: massale kolom-bleed — 1324 regels met >300 chars, max 5312 chars per regel. Twee PDF-kolommen zijn horizontaal samengevoegd in één lange tekstregel. Inhoud is aanwezig maar onleesbaar/onchunkbaar door kolom-bleed. Layer1 geeft onterecht 'pass' (herkent geen lange regels)."
+      concrete_problemen:
+        - regel: 46
+          categorie: A8
+          type: column-bleed
+          voorbeeld: '1007-char regel: twee kolommen samengevoegd'
+        - regel: 60
+          categorie: A8
+          type: column-bleed
+          voorbeeld: '§ 1, 14°, WIB 92), wordt als volgt gedefinieerd:  De vennootschap mag na de stor...'
 ---
 
 # Almanak BTW 2026 — ITAA / Larcier-Intersentia

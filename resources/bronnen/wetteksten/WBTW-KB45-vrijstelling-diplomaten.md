@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Layer1 pass. Klein KB. Bijw.-regels (L76-80) bevatten updatetabel met opheffingshistoriek — dit is broninhoud, niet ETL-artefact. Inhoud volledig.
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 2691
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:20:00Z'
+      rationale: Layer1 pass. Klein KB. Bijw.-regels (L76-80) bevatten updatetabel met opheffingshistoriek — dit is broninhoud, niet ETL-artefact. Inhoud volledig.
+      concrete_problemen: []
 ---
 
 # K.B. nr. 45 van 14 april 1993, met betrekking tot de vrijstelling op het stuk van de belasting over de toegevoegde waarde ten aanzien van de kans- en geldspelen

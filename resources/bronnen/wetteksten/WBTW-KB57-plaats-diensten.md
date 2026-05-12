@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Layer1 pass. 3 H2-headings. Page-header artefacten (L73: 'KB57 (2017) pg. 1 Plaats van de dienst'; L81: 'KB57 (2017) pg. Bijw/1') zijn paginakopresten — cosmetisch. Bijw.-updatetabel (L79) is broninhoud. Art.1-3 volledig."
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -37,6 +37,19 @@ provenance:
       file_size_chars: 3344
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:20:00Z'
+      rationale: "Layer1 pass. 3 H2-headings. Page-header artefacten (L73: 'KB57 (2017) pg. 1 Plaats van de dienst'; L81: 'KB57 (2017) pg. Bijw/1') zijn paginakopresten — cosmetisch. Bijw.-updatetabel (L79) is broninhoud. Art.1-3 volledig."
+      concrete_problemen:
+        - regel: 73
+          categorie: A1
+          type: form-feed
+          voorbeeld: ' KB57 (2017) pg. 1 Plaats van de dienst'
+        - regel: 81
+          categorie: A1
+          type: form-feed
+          voorbeeld: ' KB57 (2017) pg. Bijw/1 Plaats van de dienst'
 ---
 
 # K.B. nr. 57, van 31.10.2017 met betrekking tot de plaats van diensten in functie van hun werkelijke gebruik of hun werkelijke exploitatie inzake belasting over de toegevoegde waarde wat goederenvervoerdiensten en ermee samenhangende diensten betreft

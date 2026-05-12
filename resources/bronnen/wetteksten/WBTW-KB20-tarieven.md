@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Layer1 warn enkel door section-size (de bijlage TABEL A/B/C is inherent lang). Body is schoon: H3-per-artikel, Tabel A/B/C correct gelabeld, klein TOC met dotted leaders (L160-162) is de officiële inhoudsopgave van de bijlage — acceptabel. A1: 2 dotted-leader regels in TOC van bijlage, geen structuurprobleem.'
     layer1:
       status: warn
       run_id: 20260512-210639
@@ -41,6 +41,15 @@ provenance:
           detail: 'langste sectie op ###-niveau: 94903 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:19:59Z'
+      rationale: 'Layer1 warn enkel door section-size (de bijlage TABEL A/B/C is inherent lang). Body is schoon: H3-per-artikel, Tabel A/B/C correct gelabeld, klein TOC met dotted leaders (L160-162) is de officiële inhoudsopgave van de bijlage — acceptabel. A1: 2 dotted-leader regels in TOC van bijlage, geen structuurprobleem.'
+      concrete_problemen:
+        - regel: 160
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: Tabel B – Goederen en diensten onderworpen aan het tarief van 12 pct. ......... IV/1
 ---
 
 # K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven

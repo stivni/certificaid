@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A1: 147 paginavoetregels '© Larcier-Intersentia, Het zakboekje voor de zelfstandige 2026 XX' verspreid door de body (elke ~40 regels). C1: 218 bullet-glyphs (•) in body. Bijkomend: speciale Unicode-ligatures (ﬃ, ﬀ) uit PDF door heel document. Ondanks goede H1/H2/H3-structuur maken de persistente paginavoetregels dit needs-rework."
     layer1:
       status: warn
       run_id: 20260512-210639
@@ -41,6 +41,23 @@ provenance:
           detail: 'langste sectie op ##-niveau: 117119 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:19:59Z'
+      rationale: "A1: 147 paginavoetregels '© Larcier-Intersentia, Het zakboekje voor de zelfstandige 2026 XX' verspreid door de body (elke ~40 regels). C1: 218 bullet-glyphs (•) in body. Bijkomend: speciale Unicode-ligatures (ﬃ, ﬀ) uit PDF door heel document. Ondanks goede H1/H2/H3-structuur maken de persistente paginavoetregels dit needs-rework."
+      concrete_problemen:
+        - regel: 67
+          categorie: A1
+          type: form-feed
+          voorbeeld: © Larcier-Intersentia, Het zakboekje voor de zelfstandige 2026 35
+        - regel: 111
+          categorie: A1
+          type: form-feed
+          voorbeeld: '  36 © Larcier-Intersentia, Het zakboekje voor de zelfstandige 2026'
+        - regel: 59
+          categorie: C1
+          type: bullet-glyph
+          voorbeeld: • behoren tot het onroerend erfgoed...
 ---
 
 # Cijfers & tarieven 2026 — ITAA

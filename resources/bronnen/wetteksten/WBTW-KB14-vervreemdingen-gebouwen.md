@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Layer1 pass. H2-headings per artikel, geen artefacten, inhoud compleet.
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 6677
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:19:59Z'
+      rationale: Layer1 pass. H2-headings per artikel, geen artefacten, inhoud compleet.
+      concrete_problemen: []
 ---
 
 # K.B. nr. 14 van 3 juni 1970, met betrekking tot de vervreemdingen van gebouwen, gedeelten van gebouwen en het bijhorende terrein

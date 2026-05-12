@@ -24,12 +24,25 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A8: 186 regels combineren NL en FR paragrafen op één regel (officieuze bilingue bron). Bovendien zijn NL-paragrafen intern gefragmenteerd met inline witruimte ('bestaat uit een volledig van de laadruimte afgesloten  enkele cabine die...' — dubbele spaties als kolom-separator). Inhoud volledig aanwezig."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:19:59Z'
+      rationale: "A8: 186 regels combineren NL en FR paragrafen op één regel (officieuze bilingue bron). Bovendien zijn NL-paragrafen intern gefragmenteerd met inline witruimte ('bestaat uit een volledig van de laadruimte afgesloten  enkele cabine die...' — dubbele spaties als kolom-separator). Inhoud volledig aanwezig."
+      concrete_problemen:
+        - regel: 131
+          categorie: A8
+          type: column-bleed
+          voorbeeld: a) bestaat uit een volledig van de laadruimte afgesloten  enkele cabine die...
+        - regel: 135
+          categorie: A8
+          type: column-bleed
+          voorbeeld: b) comprend une cabine double comportant six places  au maximum, celle du conducteur...
 ---
 
 # Vlaamse Codex Fiscaliteit (VCF)

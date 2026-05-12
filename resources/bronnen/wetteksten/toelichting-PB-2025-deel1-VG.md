@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Layer1 warn (max_section_size). B4: 124 ALL_CAPS plain-text sectietitels in TOC + body ('ALGEMENE INLICHTINGEN', 'VAK I - BANKREKENING EN TELEFOONNUMMER(S)', ...) die als headings hadden moeten worden geëxtraheerd. A6: 90 spurious line-breaks in body. De 13 H2-headings dekken de vakken, maar sub-rubrieken missen als heading."
     layer1:
       status: warn
       run_id: 20260512-210658
@@ -41,6 +41,23 @@ provenance:
           detail: 'langste sectie op ##-niveau: 102771 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:20:00Z'
+      rationale: "Layer1 warn (max_section_size). B4: 124 ALL_CAPS plain-text sectietitels in TOC + body ('ALGEMENE INLICHTINGEN', 'VAK I - BANKREKENING EN TELEFOONNUMMER(S)', ...) die als headings hadden moeten worden geëxtraheerd. A6: 90 spurious line-breaks in body. De 13 H2-headings dekken de vakken, maar sub-rubrieken missen als heading."
+      concrete_problemen:
+        - regel: 62
+          categorie: B4
+          type: other
+          voorbeeld: ALGEMENE INLICHTINGEN
+        - regel: 64
+          categorie: B4
+          type: other
+          voorbeeld: VAK I - BANKREKENING EN TELEFOONNUMMER(S)
+        - regel: 52
+          categorie: A6
+          type: other
+          voorbeeld: bij deel 1 van de | voorbereiding van de aangifte
 ---
 
 # Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Vlaams Gewest

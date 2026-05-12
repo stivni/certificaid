@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Layer1 pass, geen flags. Body leest als schone wettekst: H2-headings per artikel, geen spurious line-breaks, geen TOC-dots, geen Bijw.-artefacten. Inhoud compleet (Art.1-9 + bijlagen).'
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 11177
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:19:59Z'
+      rationale: 'Layer1 pass, geen flags. Body leest als schone wettekst: H2-headings per artikel, geen spurious line-breaks, geen TOC-dots, geen Bijw.-artefacten. Inhoud compleet (Art.1-9 + bijlagen).'
+      concrete_problemen: []
 ---
 
 # K.B. 1 oktober 2013 met betrekking tot de toepassingsmodaliteiten ten aanzien van de certificatie van een geregistreerd kassasysteem in de horecasector

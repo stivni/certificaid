@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Layer1 pass. 11 headings over H2/H3, schone extractie. Bijlage-aanhef ontbreekt maar bijlage-formulier is niet in compilatie — Art.1-8 volledig. Geen artefacten.
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 9509
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:20:00Z'
+      rationale: Layer1 pass. 11 headings over H2/H3, schone extractie. Bijlage-aanhef ontbreekt maar bijlage-formulier is niet in compilatie — Art.1-8 volledig. Geen artefacten.
+      concrete_problemen: []
 ---
 
 # K.B. nr. 52 van 11 december 2019, met betrekking tot de bewijsregeling inzake de vrijstellingen betreffende de intracommunautaire leveringen van goederen en de ermee gelijkgestelde handelingen en met betrekking tot de vrijstelling van intracommunautaire verwervingen van goederen en de ermee gelijkgestelde handelingen, op het stuk van de belasting over de toegevoegde waarde

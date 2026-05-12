@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A1: 73 paginakop/-voetregel-artefacten ('Belastinggids 2025 • XX' / 'XX • Belastinggids 2025') verspreid door body (elke ~40 regels). A6: 96 spurious line-breaks in body (zinnen afgekapt per visuele PDF-regel). C1: 305 bullet-glyphs (•) gebruikt — dit zijn echter echte opsommingsbullets uit de bron, niet PDF-glyphs. Paginakoppen zijn ETL-artefact."
     layer1:
       status: warn
       run_id: 20260512-210657
@@ -41,6 +41,23 @@ provenance:
           detail: 'langste sectie op ##-niveau: 89695 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:20:00Z'
+      rationale: "A1: 73 paginakop/-voetregel-artefacten ('Belastinggids 2025 • XX' / 'XX • Belastinggids 2025') verspreid door body (elke ~40 regels). A6: 96 spurious line-breaks in body (zinnen afgekapt per visuele PDF-regel). C1: 305 bullet-glyphs (•) gebruikt — dit zijn echter echte opsommingsbullets uit de bron, niet PDF-glyphs. Paginakoppen zijn ETL-artefact."
+      concrete_problemen:
+        - regel: 64
+          categorie: A1
+          type: form-feed
+          voorbeeld: Belastinggids 2025 • 3
+        - regel: 86
+          categorie: A1
+          type: form-feed
+          voorbeeld: 6 • Belastinggids 2025
+        - regel: 548
+          categorie: A6
+          type: other
+          voorbeeld: b.2 Werkelijke beroepskosten | b.2.1 Kosten voor auto en motorvoertu
 ---
 
 # Belastinggids 2025 — ACLVB

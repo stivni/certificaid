@@ -24,12 +24,29 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A2: 86 TOC-stippen-regels in inhoudstafel (L67-251). A8: 76 regels in body combineren NL en FR tekst op één regel (officieuze bilingue bron: 'Het kantoor mag ze niet langer houden dan nodig is.  Le bureau ne peut les retenir au-delà du temps nécessaire.'). A1: 'INWERKINGTREDING  ENTREE EN VIGUEUR' gecombineerd op één regel. Inhoud zelf compleet (Art.1-322)."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:19:59Z'
+      rationale: "A2: 86 TOC-stippen-regels in inhoudstafel (L67-251). A8: 76 regels in body combineren NL en FR tekst op één regel (officieuze bilingue bron: 'Het kantoor mag ze niet langer houden dan nodig is.  Le bureau ne peut les retenir au-delà du temps nécessaire.'). A1: 'INWERKINGTREDING  ENTREE EN VIGUEUR' gecombineerd op één regel. Inhoud zelf compleet (Art.1-322)."
+      concrete_problemen:
+        - regel: 67
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: '## TITEL I - REGISTRATIERECHT...............'
+        - regel: 527
+          categorie: A8
+          type: column-bleed
+          voorbeeld: Het kantoor mag ze niet langer houden dan nodig is.  Le bureau ne peut les retenir au-delà...
+        - regel: 17027
+          categorie: A1
+          type: other
+          voorbeeld: INWERKINGTREDING  ENTREE EN VIGUEUR
 ---
 
 # Registratierechten — federaal

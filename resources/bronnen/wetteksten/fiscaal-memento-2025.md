@@ -24,12 +24,33 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Geen layer1. B4: 345 ALL_CAPS plain-text sectietitels ('HOOFDSTUK 1 DE PERSONENBELASTING', '1. WAT IS ER NIEUW?', ...) die allemaal als headings hadden moeten worden geëxtraheerd — slechts 4 headings in 17k-regel document. A6: 174 spurious line-breaks. G2: 790 bullet-glyphs (➢, •) in body. Structuur volledig afwezig op markdown-niveau."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:20:00Z'
+      rationale: "Geen layer1. B4: 345 ALL_CAPS plain-text sectietitels ('HOOFDSTUK 1 DE PERSONENBELASTING', '1. WAT IS ER NIEUW?', ...) die allemaal als headings hadden moeten worden geëxtraheerd — slechts 4 headings in 17k-regel document. A6: 174 spurious line-breaks. G2: 790 bullet-glyphs (➢, •) in body. Structuur volledig afwezig op markdown-niveau."
+      concrete_problemen:
+        - regel: 882
+          categorie: B4
+          type: other
+          voorbeeld: HOOFDSTUK 1 DE PERSONENBELASTING (PB)
+        - regel: 885
+          categorie: B4
+          type: other
+          voorbeeld: 1. WAT IS ER NIEUW?
+        - regel: 85
+          categorie: G2
+          type: bullet-glyph
+          voorbeeld: ➢ https://www.vlaanderen.be/vlaamse-belastingdienst
+        - regel: 557
+          categorie: A6
+          type: other
+          voorbeeld: Belastingontvangsten 2023 Belastingontvangsten in % | in miljoenen euro van het bbp
 ---
 
 # Fiscaal Memento 2025 — FOD Financiën (editie 12/2024)

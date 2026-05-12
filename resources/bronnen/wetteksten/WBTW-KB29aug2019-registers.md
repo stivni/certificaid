@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Layer1 pass. Kort KB (3 artikelen). De Bijw.-regels (L63-69) zijn een lijst van 'recent opgeheven KBs' die onderdeel zijn van de officiële bron-tekst, niet een ETL-artefact. Schone extractie.
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -37,6 +37,11 @@ provenance:
       file_size_chars: 2347
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:19:59Z'
+      rationale: Layer1 pass. Kort KB (3 artikelen). De Bijw.-regels (L63-69) zijn een lijst van 'recent opgeheven KBs' die onderdeel zijn van de officiële bron-tekst, niet een ETL-artefact. Schone extractie.
+      concrete_problemen: []
 ---
 
 # K.B. van 29 augustus 2019, tot uitvoering van artikel 85, § 2, derde lid van het Wetboek van de belasting over de toegevoegde waarde met betrekking tot de opmaak van innings- en invorderingsregisters
