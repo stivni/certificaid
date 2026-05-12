@@ -25,47 +25,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 5972bb1
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:37:00Z'
+  generated_at: '2026-05-12T23:52:56Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:49:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "C3/B5: document begint met een ingesprongen 'OPDRACHTBRIEF' title-blok (4 spaties) en een inhoudsopgave-fragment als plain-tekst (regel 52). Body heeft subkopjes als plain-text ('Wettelijke verplichting', 'Enkele inhoudelijke aspecten van de opdrachtbrief', regel 65 en 118) die als heading hadden moeten worden geëxtraheerd. 18 H2-headings zijn correct."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-233943
-      run_at: '2026-05-12T23:39:43Z'
-      heading_count: 18
-      max_section_chars: 5307
-      file_size_chars: 24326
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: "C3/B5: document begint met een ingesprongen 'OPDRACHTBRIEF' title-blok (4 spaties) en een inhoudsopgave-fragment als plain-tekst (regel 52). Body heeft subkopjes als plain-text ('Wettelijke verplichting', 'Enkele inhoudelijke aspecten van de opdrachtbrief', regel 65 en 118) die als heading hadden moeten worden geëxtraheerd. 18 H2-headings zijn correct."
-      concrete_problemen:
-        - regel: 49
-          categorie: C3
-          type: pseudo-table
-          voorbeeld: '    OPDRACHTBRIEF (4-spaties ingesprongen title — geen H1 prefix)'
-        - regel: 52
-          categorie: A3
-          type: other
-          voorbeeld: '    Inhoud (plain-text TOC-fragment met 4-spaties indent)'
-        - regel: 65
-          categorie: B5
-          type: other
-          voorbeeld: 'Wettelijke verplichting (plain-text subkopje zonder ##-prefix)'
-        - regel: 118
-          categorie: B5
-          type: other
-          voorbeeld: Enkele inhoudelijke aspecten van de opdrachtbrief (plain-text subkopje)
 ---
     OPDRACHTBRIEF
 

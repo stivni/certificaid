@@ -24,43 +24,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 5972bb1
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:36:59Z'
+  generated_at: '2026-05-12T23:52:55Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:49:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A6/B5: body-tekst is over meerdere paragrafen verspreid met afgekapte zinnen midden in de overweging-punten. Regel 57: '...cliëntenbestand en evenredig met de complexiteit van de opdrachten die hij uitvoert.' is een zin die halverwege begint. Regel 97: grote zinsfragmenten gecombineerd op 1 regel (PDF-reflow-bug). 6 H2-headings aanwezig maar preamble heeft structuurproblemen."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-233943
-      run_at: '2026-05-12T23:39:43Z'
-      heading_count: 6
-      max_section_chars: 5101
-      file_size_chars: 13159
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: "A6/B5: body-tekst is over meerdere paragrafen verspreid met afgekapte zinnen midden in de overweging-punten. Regel 57: '...cliëntenbestand en evenredig met de complexiteit van de opdrachten die hij uitvoert.' is een zin die halverwege begint. Regel 97: grote zinsfragmenten gecombineerd op 1 regel (PDF-reflow-bug). 6 H2-headings aanwezig maar preamble heeft structuurproblemen."
-      concrete_problemen:
-        - regel: 57
-          categorie: A6
-          type: scrambled-words
-          voorbeeld: '...cliëntenbestand en evenredig met de complexiteit... (begin midden in zin)'
-        - regel: 97
-          categorie: A6
-          type: scrambled-words
-          voorbeeld: bij schrijven van 22 het begrip 'level playing field' in het kader van... (jumble)
-        - regel: 121
-          categorie: A6
-          type: scrambled-words
-          voorbeeld: a. die gericht is op samenwerking; en b. die duidelijk gericht is... (twee bullet-items op 1 regel)
 ---
 ## NORM ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT
 

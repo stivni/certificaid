@@ -34,43 +34,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 5972bb1
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:36:58Z'
+  generated_at: '2026-05-12T23:52:54Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:49:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B2/A3: document begint met 13 plain-text TOC-vragen (regels 63-75) die de inhoudsopgave als body-tekst bevatten zonder ##-prefix. Dit is een TOC-fragment dat als plain text is neergelaten in plaats van verwijderd of als heading behandeld te worden. De echte secties staan daarna als ### headings — dus het is een dubbeling. Verder is de body inhoudelijk compleet en goed leesbaar.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-233943
-      run_at: '2026-05-12T23:39:43Z'
-      heading_count: 24
-      max_section_chars: 23480
-      file_size_chars: 39047
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: 'B2/A3: document begint met 13 plain-text TOC-vragen (regels 63-75) die de inhoudsopgave als body-tekst bevatten zonder ##-prefix. Dit is een TOC-fragment dat als plain text is neergelaten in plaats van verwijderd of als heading behandeld te worden. De echte secties staan daarna als ### headings — dus het is een dubbeling. Verder is de body inhoudelijk compleet en goed leesbaar.'
-      concrete_problemen:
-        - regel: 63
-          categorie: A3
-          type: other
-          voorbeeld: Wat is de rechtsgrondslag van het beroepsgeheim?
-        - regel: 64
-          categorie: A3
-          type: other
-          voorbeeld: Wat is de reden van bestaan van het beroepsgeheim?
-        - regel: 80
-          categorie: B2
-          type: other
-          voorbeeld: '### 2. Wat is de reden van bestaan... (begin op ###-niveau zonder ##-ouder)'
 ---
 # Het beroepsgeheim van de accountant en de belastingadviseur
 

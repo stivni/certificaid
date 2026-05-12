@@ -27,47 +27,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 5972bb1
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:36:59Z'
+  generated_at: '2026-05-12T23:52:55Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:49:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'B2/B3: 13 H1-headings waarvan 2 directe duplicates (## INHOUDSTAFEL, ## 1. INLEIDING versus # 1. INLEIDING — beide niveaus aanwezig). Document heeft TOC als # INHOUDSTAFEL heading. A6: 11 spurious line-breaks in body (korte regels die niet eindigen op leesteken gevolgd door lowercase). Layer1 meldt warn (max_section_chars 43682). Inhoud is compleet maar structuur is multi-niveau inconsistent.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: warn
-      run_id: 20260512-233943
-      run_at: '2026-05-12T23:39:43Z'
-      heading_count: 74
-      max_section_chars: 43682
-      file_size_chars: 145910
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 43682 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: 'B2/B3: 13 H1-headings waarvan 2 directe duplicates (## INHOUDSTAFEL, ## 1. INLEIDING versus # 1. INLEIDING — beide niveaus aanwezig). Document heeft TOC als # INHOUDSTAFEL heading. A6: 11 spurious line-breaks in body (korte regels die niet eindigen op leesteken gevolgd door lowercase). Layer1 meldt warn (max_section_chars 43682). Inhoud is compleet maar structuur is multi-niveau inconsistent.'
-      concrete_problemen:
-        - regel: 57
-          categorie: B2
-          type: other
-          voorbeeld: '# Norm met betrekking tot... (tweede H1 direct na eerste H1 op regel 55)'
-        - regel: 29
-          categorie: B2
-          type: other
-          voorbeeld: '# INHOUDSTAFEL (H1 voor TOC — had geen heading moeten zijn)'
-        - regel: 108
-          categorie: B2
-          type: other
-          voorbeeld: '# 1. INLEIDING (H1 en ## 1. INLEIDING beiden aanwezig — duplicate niveau)'
 ---
 # KMO controle norm
 

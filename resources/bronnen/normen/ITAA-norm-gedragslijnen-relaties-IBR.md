@@ -24,47 +24,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 5972bb1
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:36:59Z'
+  generated_at: '2026-05-12T23:52:55Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:49:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B4/B5: document heeft 0 ## headings (layer1 heading_count = 0) terwijl 7 secties met naam aanwezig zijn ('Definities', 'Eerste principe', 'Tweede principe', ...) als plain-text regels. Deze zijn herkenbare secties die headings moesten worden. OCR-artifact op regel 106: 'WIe' ipv 'wie' (kleine letters-verwarring) — source-typo. Inhoud is compleet maar volledig ongestructureerd als markdown."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-233943
-      run_at: '2026-05-12T23:39:43Z'
-      heading_count: 0
-      max_section_chars: 7570
-      file_size_chars: 7570
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: "B4/B5: document heeft 0 ## headings (layer1 heading_count = 0) terwijl 7 secties met naam aanwezig zijn ('Definities', 'Eerste principe', 'Tweede principe', ...) als plain-text regels. Deze zijn herkenbare secties die headings moesten worden. OCR-artifact op regel 106: 'WIe' ipv 'wie' (kleine letters-verwarring) — source-typo. Inhoud is compleet maar volledig ongestructureerd als markdown."
-      concrete_problemen:
-        - regel: 99
-          categorie: B4
-          type: other
-          voorbeeld: 'Definities (plain-text sectie-label zonder ## prefix)'
-        - regel: 119
-          categorie: B4
-          type: other
-          voorbeeld: Eerste principe - Aanvaarding van een controleopdracht (plain-text)
-        - regel: 126
-          categorie: B4
-          type: other
-          voorbeeld: Tweede principe - Aanvaarding van een raadgevende opdracht (plain-text)
-        - regel: 116
-          categorie: A9
-          type: ocr-confusion
-          voorbeeld: de 'entiteit' is de rechtspersoon of natuurlijke persoon voor WIe een opdracht
 ---
 GEDRAGSLIJNEN INZAKE DE BEROEPSRELATlES TUSSEN DE LEDEN VAN
 HET IBR, HET IAB EN HET BIBF

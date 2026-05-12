@@ -1514,6 +1514,26 @@ class TestStripItaaNormFooters:
         twice, _ = strip_itaa_norm_footers(once, {})
         assert once == twice
 
+    def test_heading_with_page_marker_stripped(self):
+        """B7-patroon: `## TITLE ... N/M` page-footer foutief als heading."""
+        from tools.etl.transformers.strip_itaa_norm_footers import strip_itaa_norm_footers
+        body = (
+            "Body voor.\n"
+            "## VERZOEK TOT GOEDKEURING OKTOBER 2025 12/64\n"
+            "Body na.\n"
+        )
+        result, _ = strip_itaa_norm_footers(body, {})
+        assert "VERZOEK TOT GOEDKEURING" not in result
+        assert "Body voor." in result
+        assert "Body na." in result
+
+    def test_legitimate_heading_not_stripped(self):
+        """Een normale `## Title` zonder paginanummer-suffix blijft."""
+        from tools.etl.transformers.strip_itaa_norm_footers import strip_itaa_norm_footers
+        body = "## Hoofdstuk 1. Algemene bepalingen\n"
+        result, _ = strip_itaa_norm_footers(body, {})
+        assert result == body
+
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "strip_itaa_norm_footers" in TRANSFORMERS

@@ -27,43 +27,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 5972bb1
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:37:00Z'
+  generated_at: '2026-05-12T23:52:56Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:49:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B3/A7: heading op regel 53 is truncated ('## Norm inzake de opdracht van de beroepsbeoefenaar bij de ontbinding en') — de rest ('vereffening van vennootschappen') staat eronder als nieuwe paragraaf. Preamble-tekst op regels 57-124 heeft A6-patronen: zinsfragmenten als losse paragrafen ('betreft;', 'uitgebracht.', 'België.'). Body-text is inhoudelijk compleet met 62 H2-headings maar de structurele inconsistenties verstoren chunking."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-233943
-      run_at: '2026-05-12T23:39:43Z'
-      heading_count: 62
-      max_section_chars: 5416
-      file_size_chars: 62953
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: "B3/A7: heading op regel 53 is truncated ('## Norm inzake de opdracht van de beroepsbeoefenaar bij de ontbinding en') — de rest ('vereffening van vennootschappen') staat eronder als nieuwe paragraaf. Preamble-tekst op regels 57-124 heeft A6-patronen: zinsfragmenten als losse paragrafen ('betreft;', 'uitgebracht.', 'België.'). Body-text is inhoudelijk compleet met 62 H2-headings maar de structurele inconsistenties verstoren chunking."
-      concrete_problemen:
-        - regel: 53
-          categorie: B1
-          type: scrambled-words
-          voorbeeld: '## Norm inzake de opdracht van de beroepsbeoefenaar bij de ontbinding en (truncated heading)'
-        - regel: 59
-          categorie: A6
-          type: scrambled-words
-          voorbeeld: betreft; (los zinsfragment als eigen paragraaf — PDF-extractie-artefact)
-        - regel: 112
-          categorie: A6
-          type: scrambled-words
-          voorbeeld: Goedkeuring van onderhavige norm de minister bevoegd voor Economie. (samengevoegd)
 ---
 Ontwerp
 

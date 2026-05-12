@@ -27,39 +27,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 5972bb1
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:37:00Z'
+  generated_at: '2026-05-12T23:52:56Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:49:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'E1/C3: Bijlage 2 (regels 591-612) bevat een ASCII-art tabel als spatie-alignment (vier kolommen: Erkende vormingsoperator? | Geregistreerde opleider? | Procedure — elk uitgespreid via 20+ spaties). Layer1 pass zonder flags maar ASCII-tabel is een duidelijk ETL-artefact. Verder is de body van hoge kwaliteit: 15 H2-headings correct, inhoud volledig.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-233943
-      run_at: '2026-05-12T23:39:43Z'
-      heading_count: 15
-      max_section_chars: 11786
-      file_size_chars: 30497
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: 'E1/C3: Bijlage 2 (regels 591-612) bevat een ASCII-art tabel als spatie-alignment (vier kolommen: Erkende vormingsoperator? | Geregistreerde opleider? | Procedure — elk uitgespreid via 20+ spaties). Layer1 pass zonder flags maar ASCII-tabel is een duidelijk ETL-artefact. Verder is de body van hoge kwaliteit: 15 H2-headings correct, inhoud volledig.'
-      concrete_problemen:
-        - regel: 593
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: '         Erkende                           Geregistreerde (ASCII-tabel via spaties)'
-        - regel: 598
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: '                JA                                 JA                   Automatisch erkend'
 ---
           Norm met betrekking tot
           de permanente vorming goedgekeurd door de Raad van 1 december 2020.

@@ -26,47 +26,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f-dirty
+    pipeline_version: 5972bb1
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:36:59Z'
+  generated_at: '2026-05-12T23:52:55Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:49:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B3/B7: 10 duplicate headings '## VEREISTEN TOEPASSINGSMODALITEITEN' verspreid door het document, 2 duplicate '## Uitgifte van nieuwe'. B7: heading '## Communicatie met het management en de met governance belaste personen . 34 Het' (regel 143) bevat een TOC-paginanummer-rest. Introductietekst is gesplitst (body start is afgekapt midden in een zin). A6: meerdere afgekapte zinnen in de preamble."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-233943
-      run_at: '2026-05-12T23:39:43Z'
-      heading_count: 67
-      max_section_chars: 5808
-      file_size_chars: 69422
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: "B3/B7: 10 duplicate headings '## VEREISTEN TOEPASSINGSMODALITEITEN' verspreid door het document, 2 duplicate '## Uitgifte van nieuwe'. B7: heading '## Communicatie met het management en de met governance belaste personen . 34 Het' (regel 143) bevat een TOC-paginanummer-rest. Introductietekst is gesplitst (body start is afgekapt midden in een zin). A6: meerdere afgekapte zinnen in de preamble."
-      concrete_problemen:
-        - regel: 143
-          categorie: B7
-          type: dotted-leader
-          voorbeeld: '## Communicatie... . 34 Het (TOC-paginanummer in heading)'
-        - regel: 55
-          categorie: B3
-          type: other
-          voorbeeld: '## VEREISTEN TOEPASSINGSMODALITEITEN (10x herhaald als duplicate heading)'
-        - regel: 51
-          categorie: A6
-          type: scrambled-words
-          voorbeeld: Norm inzake de opdracht van de beroepsbeoefenaar... (r50-51 split)
-        - regel: 52
-          categorie: D1
-          type: abrupt-cutoff
-          voorbeeld: bestuursorgaan (Wetboek van vennootschappen en verenigingen) (abrupt start)
 ---
 Norm inzake de opdracht van de beroepsbeoefenaar in het kader van de beoordeling van het getrouw en voldoende zijn van de financiële en boekhoudkundige gegevens opgenomen in het verslag van het
 
@@ -799,8 +771,6 @@ voorkeurrecht
 
 die niet tot het personeel behoren
 
-## Openbare raadpleging juli 2024 38/54
-
 ## Wijziging van de rechten verbonden met de soorten Geen afwijking
 
 van aandelen OF niet- proportionele uitgifte mogelijk
@@ -835,8 +805,6 @@ obligaties of inschrijvingsrechten mogelijk
 
 (7:180;5:122)
 
-## Openbare raadpleging juli 2024 39/54
-
 inschrijvingsrechten noodzakelijk is.
 Rood betreft de gevallen waarin een afwijking op de tussenkomst en het verslag van de beroepsbeoefenaar en het bestuursorgaan onmogelijk zijn. Groen
 vertegenwoordigt het geval waar een dergelijke afwijking wel mogelijk is.
@@ -846,8 +814,6 @@ Zwart staat voor de specifieke bijkomende vermelding bij de opdracht in het kade
 
 nieuwe aandelen.
 Het geheel in stippellijn rechts betekent dat alle verslagen zich in één enkel verslag mogen bevinden.
-
-## Openbare raadpleging juli 2024 40/54
 
 ## Bijlage 3 – Voorbeeld van opdrachtbrief te verkrijgen door de
 
