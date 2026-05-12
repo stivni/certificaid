@@ -44,10 +44,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:49:47Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (16 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -57,6 +57,11 @@ provenance:
       file_size_chars: 15654
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:49:47Z'
+      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (16 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      concrete_problemen: []
 ---
 # CBN-advies 2020/09 – Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris
 

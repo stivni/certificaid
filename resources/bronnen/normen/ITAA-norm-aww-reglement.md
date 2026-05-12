@@ -35,10 +35,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'C3/A6: body heeft systematisch ingesprongen overwegingen (2-8 spaties) voor de preambule-tekst (regels 51-129) en de genummerde subpunten (1°, 2°, ...) staan als ingesprongen blokken in plaats van als markdown-lijsten. De ## Bijlage-headings zijn correct, maar de kerntekst is doorgehusseld met grote inspringing-patronen die PDF-kolom-opmaak weerspiegelen.'
     layer1:
       status: pass
       run_id: 20260512-233943
@@ -48,6 +48,23 @@ provenance:
       file_size_chars: 42379
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:49:43Z'
+      rationale: 'C3/A6: body heeft systematisch ingesprongen overwegingen (2-8 spaties) voor de preambule-tekst (regels 51-129) en de genummerde subpunten (1°, 2°, ...) staan als ingesprongen blokken in plaats van als markdown-lijsten. De ## Bijlage-headings zijn correct, maar de kerntekst is doorgehusseld met grote inspringing-patronen die PDF-kolom-opmaak weerspiegelen.'
+      concrete_problemen:
+        - regel: 52
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '  Norm van het Instituut van de Accountants... (2-spaties indent)'
+        - regel: 61
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '  (1)   De wet van 18 september 2017... (2+spaties indent met getal)'
+        - regel: 84
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '        -     de risicoanalyse... (8-spaties indent bullet)'
 ---
   Norm van het Instituut van de Accountants en de Belastingconsulenten d.d. 31
 maart 2020 inzake de toepassing van de wet van 18 september 2017 tot voorkoming

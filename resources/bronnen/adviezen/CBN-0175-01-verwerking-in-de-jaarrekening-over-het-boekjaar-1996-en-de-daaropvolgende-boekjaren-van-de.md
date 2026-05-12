@@ -42,10 +42,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'C1: 2 bullet-glyphs (•) als PDF-opsommingsteken. Overige opsommingen gebruiken correct "-".'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -55,6 +55,17 @@ provenance:
       file_size_chars: 18045
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:49:45Z'
+      rationale: 'C1: 2 bullet-glyphs (•) als PDF-opsommingsteken. Overige opsommingen gebruiken correct "-".'
+      concrete_problemen:
+        - categorie: C1
+          type: bullet-glyph
+          voorbeeld: • In het PBEG van 6 augustus 1996 staat een mededeling
+        - categorie: C1
+          type: bullet-glyph
+          voorbeeld: • In haar beschikking van 4 december 1996 kondigt de Europese Commissie aan
 ---
 # CBN-advies 175/1 - Verwerking in de jaarrekening over het boekjaar 1996 en de daaropvolgende boekjaren, van de «Maribel bis en ter»-steun toegekend voor de boekjaren 1993, 1994, 1995 en 1996
 

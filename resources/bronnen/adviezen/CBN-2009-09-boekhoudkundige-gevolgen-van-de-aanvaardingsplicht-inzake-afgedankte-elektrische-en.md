@@ -32,10 +32,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'D4: mixing van * en ** markers rond geciteerde wettekst op regel 454. ETL-artefact bij rendering van geciteerde wettekst met italic. L1 warn voor max_section_size (27912 chars) is acceptabel (auto-split door chunker).'
     layer1:
       status: warn
       run_id: 20260512-233938
@@ -49,6 +49,15 @@ provenance:
           detail: 'langste sectie op ###-niveau: 27911 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:49:45Z'
+      rationale: 'D4: mixing van * en ** markers rond geciteerde wettekst op regel 454. ETL-artefact bij rendering van geciteerde wettekst met italic. L1 warn voor max_section_size (27912 chars) is acceptabel (auto-split door chunker).'
+      concrete_problemen:
+        - regel: 454
+          categorie: D4
+          type: unclosed-bold
+          voorbeeld: § 18. *"Voorzieningen...artikel 20, lid 1[^75] **,
 ---
 # CBN-advies 2009/9 - Boekhoudkundige gevolgen van de aanvaardingsplicht inzake afgedankte elektrische en elektronische apparaten
 

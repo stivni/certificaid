@@ -32,10 +32,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B7: alle 122 H2-headings zijn paginanummer-referenties ('## VERZOEK TOT GOEDKEURING OKTOBER 2025 1/64', '2/64', ...'64/64'). Dit zijn geen echte sectiehoofdingen maar pagina-titels die als heading zijn geëxtraheerd uit de PDF-pageheder. B5: echte normatieve secties ('Toepassingsgebied', 'Vereisten', 'Definities') bestaan wel in de body maar zonder ##-prefix. Structuur fundamenteel onbruikbaar voor RAG."
     layer1:
       status: pass
       run_id: 20260512-233943
@@ -45,6 +45,23 @@ provenance:
       file_size_chars: 94095
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:49:43Z'
+      rationale: "B7: alle 122 H2-headings zijn paginanummer-referenties ('## VERZOEK TOT GOEDKEURING OKTOBER 2025 1/64', '2/64', ...'64/64'). Dit zijn geen echte sectiehoofdingen maar pagina-titels die als heading zijn geëxtraheerd uit de PDF-pageheder. B5: echte normatieve secties ('Toepassingsgebied', 'Vereisten', 'Definities') bestaan wel in de body maar zonder ##-prefix. Structuur fundamenteel onbruikbaar voor RAG."
+      concrete_problemen:
+        - regel: 49
+          categorie: B7
+          type: other
+          voorbeeld: '## VERZOEK TOT GOEDKEURING OKTOBER 2025 1/64 (paginanummer als heading)'
+        - regel: 50
+          categorie: B7
+          type: other
+          voorbeeld: '## VERZOEK TOT GOEDKEURING OKTOBER 2025 2/64 (122 zulke headings)'
+        - regel: 59
+          categorie: B5
+          type: other
+          voorbeeld: betreft; (loose fragment — echte sectionering ontbreekt als heading)
 ---
 Ontwerp
 

@@ -35,10 +35,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A2/B7: TOC bevat dotted-leaders ('ALGEMENE BEPALINGEN ---...--- 4', 'DEFINITIES ---...--- 4') als body-tekst op regels 69-125. B4: TOC-secties staan als all-caps plain text zonder ##-prefix. A6: introtekst op regel 1 is abrupt afgekapt ('...van de n') — eerste zin gesplitst over twee paragrafen (r1 en r3). Body is inhoudelijk compleet maar TOC met dashes is storend voor RAG."
     layer1:
       status: pass
       run_id: 20260512-233943
@@ -48,6 +48,27 @@ provenance:
       file_size_chars: 25083
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:49:43Z'
+      rationale: "A2/B7: TOC bevat dotted-leaders ('ALGEMENE BEPALINGEN ---...--- 4', 'DEFINITIES ---...--- 4') als body-tekst op regels 69-125. B4: TOC-secties staan als all-caps plain text zonder ##-prefix. A6: introtekst op regel 1 is abrupt afgekapt ('...van de n') — eerste zin gesplitst over twee paragrafen (r1 en r3). Body is inhoudelijk compleet maar TOC met dashes is storend voor RAG."
+      concrete_problemen:
+        - regel: 70
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: ALGEMENE BEPALINGEN ---------------------------------------------------------------
+        - regel: 71
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: DEFINITIES -------------------------------------------------------------------------
+        - regel: 1
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: Geconsolideerde tekst door het Instituut... van de n (split over 2 paragrafen)
+        - regel: 69
+          categorie: B4
+          type: other
+          voorbeeld: 'ALGEMENE BEPALINGEN (plain-text TOC label zonder ## prefix)'
 ---
 Geconsolideerde tekst door het Instituut van de Belastingadviseurs en de Accountants (ITAA) van de norm van het IAB en de richtlijn van het BIBF inzake de toepassing van de wet van 18 september 2017 tot
 

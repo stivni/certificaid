@@ -32,10 +32,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (9 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -45,6 +45,11 @@ provenance:
       file_size_chars: 20249
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:49:45Z'
+      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (9 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      concrete_problemen: []
 ---
 # CBN-advies 2012/9 – De boekhoudkundige verwerking van de verwerving van een vast actief voor een variabele prijs die afhankelijk is van een toekomstige en onzekere gebeurtenis die een rechtstreeks verband houdt met het nut dat het verworven actief heeft voor de vennootschap (update)
 

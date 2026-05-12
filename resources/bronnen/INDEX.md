@@ -9,9 +9,9 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
 | Wetteksten | 133 | 103 | — | 28 | 2 | — |
-| Normen | 19 | 8 | — | 9 | 2 | — |
+| Normen | 19 | 4 | — | 14 | 1 | — |
 | Adviezen | 436 | 420 | — | 16 | — | — |
-| **Totaal** | **588** | 531 | — | 53 | 4 | — |
+| **Totaal** | **588** | 527 | — | 58 | 3 | — |
 
 ## Wetteksten (133)
 
@@ -155,25 +155,25 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Bestand | Trust | L1 | L2 | Confirmed-by | Titel |
 |---|---|---|---|---|---|
-| `ITAA-deontologie-beroepsgeheim.md` | ❌ rejected | pass | rejected | subagent-sonnet-4-6 | ITAA-deontologie-beroepsgeheim |
 | `ITAA-deontologische-code.md` | ❌ rejected | warn | rejected | subagent-sonnet-4-6 | ITAA-deontologische-code |
-| `IESBA-code-of-ethics-2024.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | IESBA-code-of-ethics-2024 |
-| `ITAA-norm-aww-geconsolideerd.md` | ⚠️ needs-rework | fail | needs-rework | subagent-sonnet-4-6 | ITAA-norm-aww-geconsolideerd |
+| `IESBA-code-of-ethics-2024.md` | ⚠️ needs-rework | fail | needs-rework | subagent-sonnet-4-6 | IESBA-code-of-ethics-2024 |
+| `ITAA-norm-aww-geconsolideerd.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | ITAA-norm-aww-geconsolideerd |
+| `ITAA-norm-aww-reglement.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | ITAA-norm-aww-reglement |
 | `ITAA-norm-aww-richtlijn-bibf.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | ITAA-norm-aww-richtlijn-bibf |
-| `ITAA-norm-effectennorm.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | ITAA-norm-effectennorm |
+| `ITAA-norm-domiciliering.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | ITAA-norm-domiciliering |
+| `ITAA-norm-effectennorm.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | ITAA-norm-effectennorm |
 | `ITAA-norm-gedragslijnen-relaties-IBR.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | ITAA-norm-gedragslijnen-relaties-IBR |
 | `ITAA-norm-intern-kwaliteitsmanagement.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | ITAA-norm-intern-kwaliteitsmanagement |
-| `ITAA-norm-omzetting-vennootschap.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | ITAA-norm-omzetting-vennootschap |
-| `ITAA-norm-ontbinding-vereffening.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | ITAA-norm-ontbinding-vereffening |
-| `ITAA-norm-samenstellingsopdrachten-isrs4410.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | ITAA-norm-samenstellingsopdrachten-isrs4410 |
+| `ITAA-norm-kmo-controlenorm.md` | ⚠️ needs-rework | warn | needs-rework | subagent-sonnet-4-6 | ITAA-norm-kmo-controlenorm |
+| `ITAA-norm-omzetting-vennootschap.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | ITAA-norm-omzetting-vennootschap |
+| `ITAA-norm-ontbinding-vereffening.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | ITAA-norm-ontbinding-vereffening |
+| `ITAA-norm-opdrachtbrief.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | ITAA-norm-opdrachtbrief |
+| `ITAA-norm-permanente-vorming.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | ITAA-norm-permanente-vorming |
+| `ITAA-norm-samenstellingsopdrachten-isrs4410.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | ITAA-norm-samenstellingsopdrachten-isrs4410 |
+| `ITAA-deontologie-beroepsgeheim.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | ITAA-deontologie-beroepsgeheim |
 | `ITAA-norm-algemene-controlenorm.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | ITAA-norm-algemene-controlenorm |
 | `ITAA-norm-aww-procedurereglement.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | ITAA-norm-aww-procedurereglement |
-| `ITAA-norm-aww-reglement.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | ITAA-norm-aww-reglement |
-| `ITAA-norm-domiciliering.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | ITAA-norm-domiciliering |
 | `ITAA-norm-fusie-splitsing.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | ITAA-norm-fusie-splitsing |
-| `ITAA-norm-kmo-controlenorm.md` | ✅ trusted | warn | trusted | subagent-sonnet-4-6 | ITAA-norm-kmo-controlenorm |
-| `ITAA-norm-opdrachtbrief.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | ITAA-norm-opdrachtbrief |
-| `ITAA-norm-permanente-vorming.md` | ✅ trusted | pass | trusted | subagent-sonnet-4-6 | ITAA-norm-permanente-vorming |
 
 ## Adviezen (436)
 

@@ -35,10 +35,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'C3: systematisch ingesprongen tekst voor preambule en subpunten (2-8 spaties), identiek patroon als AWW-reglement. Overwegingen (1)-(10) en subpunten staan als ingesprongen blokken. 16 H2-headings zijn correct. Het is inhoudelijk compleet maar de PDF-extractie heeft de opmaak via inspringing bewaard in plaats van via markdown-lijsten.'
     layer1:
       status: pass
       run_id: 20260512-233943
@@ -48,6 +48,23 @@ provenance:
       file_size_chars: 42866
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:49:43Z'
+      rationale: 'C3: systematisch ingesprongen tekst voor preambule en subpunten (2-8 spaties), identiek patroon als AWW-reglement. Overwegingen (1)-(10) en subpunten staan als ingesprongen blokken. 16 H2-headings zijn correct. Het is inhoudelijk compleet maar de PDF-extractie heeft de opmaak via inspringing bewaard in plaats van via markdown-lijsten.'
+      concrete_problemen:
+        - regel: 52
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: Richtlijn van het Beroepsinstituut... (niet-ingesprongen maar abrupt afgekapt)
+        - regel: 61
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '  (1)   De wet van 18 september 2017... (2-spaties + tabs indent)'
+        - regel: 86
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '        -    de risicoanalyse... (8-spaties indent bullet)'
 ---
 Richtlijn van het Beroepsinstituut van erkende Boekhouders en Fiscalisten
      van 31 maart 2020 inzake de toepassing van de wet van 18 september

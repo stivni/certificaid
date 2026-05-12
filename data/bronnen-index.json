@@ -2022,7 +2022,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": null,
+      "layer1_status": "fail",
       "layer2_status": "needs-rework"
     },
     {
@@ -2037,10 +2037,10 @@
         "deontologie",
         "beroepsgeheim"
       ],
-      "trust_status": "rejected",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "rejected"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "ITAA-deontologische-code.md",
@@ -2087,7 +2087,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "fail",
+      "layer1_status": "pass",
       "layer2_status": "needs-rework"
     },
     {
@@ -2115,10 +2115,10 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "ITAA-norm-aww-richtlijn-bibf.md",
@@ -2145,10 +2145,10 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "ITAA-norm-effectennorm.md",
@@ -2162,7 +2162,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": "pass",
       "layer2_status": "needs-rework"
     },
     {
@@ -2220,10 +2220,10 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "ITAA-norm-omzetting-vennootschap.md",
@@ -2237,7 +2237,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": "pass",
       "layer2_status": "needs-rework"
     },
     {
@@ -2252,7 +2252,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": "pass",
       "layer2_status": "needs-rework"
     },
     {
@@ -2265,10 +2265,10 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "ITAA-norm-permanente-vorming.md",
@@ -2280,10 +2280,10 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "ITAA-norm-samenstellingsopdrachten-isrs4410.md",
@@ -2297,7 +2297,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": "pass",
       "layer2_status": "needs-rework"
     },
     {

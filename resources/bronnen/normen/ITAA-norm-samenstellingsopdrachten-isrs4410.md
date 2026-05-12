@@ -32,10 +32,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B7/A6: heading op regel 143 bevat TOC-paginanummer ('## Communicatie met het management en de met governance belaste personen . 34 Het'). Preamble (regels 51-128) heeft A6-patronen: afgekapte zinnen die als losse paragrafen staan ('in het bijzonder de artikelen 3, 5, 6, 62 en 72.', 'uitleg over de vereisten...'). 43 H2-headings aanwezig; inhoud compleet."
     layer1:
       status: pass
       run_id: 20260512-233943
@@ -45,6 +45,23 @@ provenance:
       file_size_chars: 46222
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:49:43Z'
+      rationale: "B7/A6: heading op regel 143 bevat TOC-paginanummer ('## Communicatie met het management en de met governance belaste personen . 34 Het'). Preamble (regels 51-128) heeft A6-patronen: afgekapte zinnen die als losse paragrafen staan ('in het bijzonder de artikelen 3, 5, 6, 62 en 72.', 'uitleg over de vereisten...'). 43 H2-headings aanwezig; inhoud compleet."
+      concrete_problemen:
+        - regel: 143
+          categorie: B7
+          type: dotted-leader
+          voorbeeld: '## Communicatie met het management... . 34 Het (TOC-paginanummer in heading)'
+        - regel: 51
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: in het bijzonder de artikelen 3, 5, 6, 62 en 72. (los fragment)
+        - regel: 96
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: specificiteiten. (abrupt los eindfragment van afgekapte zin)
 ---
 ## Norm inzake de Samenstellingsopdrachten
 

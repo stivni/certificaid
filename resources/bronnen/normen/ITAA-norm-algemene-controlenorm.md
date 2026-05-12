@@ -33,10 +33,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'B5/C3: body begint direct na de frontmatter zonder H1-heading en de lijstitems binnen de secties zijn als plain tekst ingesprongen zonder markdown-bullets (regels 55-58, 63-66). De normatieve tekst is inhoudelijk compleet maar de opsommingen zijn pseudo-lijsten met nieuwe regels zonder - prefix. Bestand is kort (7565 chars) maar de structuur is onvolledig.'
     layer1:
       status: pass
       run_id: 20260512-233943
@@ -46,6 +46,23 @@ provenance:
       file_size_chars: 7565
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:49:43Z'
+      rationale: 'B5/C3: body begint direct na de frontmatter zonder H1-heading en de lijstitems binnen de secties zijn als plain tekst ingesprongen zonder markdown-bullets (regels 55-58, 63-66). De normatieve tekst is inhoudelijk compleet maar de opsommingen zijn pseudo-lijsten met nieuwe regels zonder - prefix. Bestand is kort (7565 chars) maar de structuur is onvolledig.'
+      concrete_problemen:
+        - regel: 55
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: door de wettekst die zijn opdracht omschrijft... (ingesproken zonder - prefix)
+        - regel: 56
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: door de overeenkomst die de accountant met zijn cliënt heeft afgesloten;
+        - regel: 59
+          categorie: B5
+          type: other
+          voorbeeld: '## 2. Verslag (heading OK) maar voorafgaande lijstitems als plain body-regels'
 ---
 # Algemene controlenorm (Besl. Raad d.d. 30 september 1991)
 

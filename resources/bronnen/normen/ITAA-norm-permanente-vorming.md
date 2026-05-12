@@ -34,10 +34,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'E1/C3: Bijlage 2 (regels 591-612) bevat een ASCII-art tabel als spatie-alignment (vier kolommen: Erkende vormingsoperator? | Geregistreerde opleider? | Procedure — elk uitgespreid via 20+ spaties). Layer1 pass zonder flags maar ASCII-tabel is een duidelijk ETL-artefact. Verder is de body van hoge kwaliteit: 15 H2-headings correct, inhoud volledig.'
     layer1:
       status: pass
       run_id: 20260512-233943
@@ -47,6 +47,19 @@ provenance:
       file_size_chars: 30497
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:49:43Z'
+      rationale: 'E1/C3: Bijlage 2 (regels 591-612) bevat een ASCII-art tabel als spatie-alignment (vier kolommen: Erkende vormingsoperator? | Geregistreerde opleider? | Procedure — elk uitgespreid via 20+ spaties). Layer1 pass zonder flags maar ASCII-tabel is een duidelijk ETL-artefact. Verder is de body van hoge kwaliteit: 15 H2-headings correct, inhoud volledig.'
+      concrete_problemen:
+        - regel: 593
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: '         Erkende                           Geregistreerde (ASCII-tabel via spaties)'
+        - regel: 598
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: '                JA                                 JA                   Automatisch erkend'
 ---
           Norm met betrekking tot
           de permanente vorming goedgekeurd door de Raad van 1 december 2020.

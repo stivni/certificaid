@@ -32,10 +32,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'C3/A6: document begint met ingesprongen tekst (2-4 spaties indent) voor de titel en de preambule-overwegingen, die als plain-text-blok op 1 spatie ingesprongen zijn in de body. Dit zijn PDF-extractie-artefacten: 70 ingesprongen regels. De ## Artikel-headings zijn correct, maar de preamble-tekst vóór het eerste artikel is ongestructureerd en ingesprongen als pseudo-blok.'
     layer1:
       status: pass
       run_id: 20260512-233943
@@ -45,6 +45,23 @@ provenance:
       file_size_chars: 12861
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:49:43Z'
+      rationale: 'C3/A6: document begint met ingesprongen tekst (2-4 spaties indent) voor de titel en de preambule-overwegingen, die als plain-text-blok op 1 spatie ingesprongen zijn in de body. Dit zijn PDF-extractie-artefacten: 70 ingesprongen regels. De ## Artikel-headings zijn correct, maar de preamble-tekst vóór het eerste artikel is ongestructureerd en ingesprongen als pseudo-blok.'
+      concrete_problemen:
+        - regel: 49
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '  Procedurereglement voor het opleggen van maatregelen (2-spaties indent)'
+        - regel: 51
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: ' Beslissing van de Raad d.d. 2 februari 2021 (1-spatie indent)'
+        - regel: 54
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: ' Gelet op de wet van 18 september 2017... (1-spatie indent, 70 zulke regels)'
 ---
   Procedurereglement voor het opleggen van maatregelen
     in het kader van artikel 118, §1 van de antiwitwaswet

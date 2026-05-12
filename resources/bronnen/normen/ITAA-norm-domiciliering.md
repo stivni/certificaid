@@ -32,10 +32,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "C3/B5: document begint met een ingesprongen ITAA-logo-blok als plain text (regels 49-63) — dat is een PDF-extractie-artefact van de kopbladzijde. Vervolgens zijn de definitie-subpunten (1°-4°) en de voorwaarden als 4-spaties ingesprongen blokken (regels 80-159). strip_itaa_norm_footers heeft de voettekst niet volledig weggeknipt: 'goedgekeurd door de raad van 2 juli 2024.' staat nog als losstaande regel (regel 112 en einde)."
     layer1:
       status: pass
       run_id: 20260512-233943
@@ -45,6 +45,27 @@ provenance:
       file_size_chars: 12393
       flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:49:43Z'
+      rationale: "C3/B5: document begint met een ingesprongen ITAA-logo-blok als plain text (regels 49-63) — dat is een PDF-extractie-artefact van de kopbladzijde. Vervolgens zijn de definitie-subpunten (1°-4°) en de voorwaarden als 4-spaties ingesprongen blokken (regels 80-159). strip_itaa_norm_footers heeft de voettekst niet volledig weggeknipt: 'goedgekeurd door de raad van 2 juli 2024.' staat nog als losstaande regel (regel 112 en einde)."
+      concrete_problemen:
+        - regel: 49
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '                   ITAA (logo-blok plain text, ASCII-centrering)'
+        - regel: 50
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '            INSTITUTE FOR TAX (centrering via spaties)'
+        - regel: 81
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '    a)     Deelnemen aan de aan- of verkoop van aandelen... (4-spaties)'
+        - regel: 112
+          categorie: A1
+          type: form-feed
+          voorbeeld: goedgekeurd door de raad van 2 juli 2024. (resterende footer-regel)
 ---
                    ITAA
             INSTITUTE FOR TAX

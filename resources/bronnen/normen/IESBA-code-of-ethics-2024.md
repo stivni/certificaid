@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4/B5: 794 plain-text subkopjes ('Introduction', 'Requirements and Application Material', 'SUBSECTION 111 – INTEGRITY', 'General', ...) die als heading hadden moeten worden ge-extraheerd. A6: 5923 spurious line-breaks in body (PDF-kolom per visuele regel afgekapt). normalize_bullet_glyphs heeft de meeste • bullets (nu ~28 resterende) gedeeltelijk aangepakt, maar structuurproblemen B4/A6 zijn te groot voor vertrouwen. Layer1 meldt fail (max_section_chars 86168)."
     layer1:
       status: fail
       run_id: 20260512-233943
@@ -45,6 +45,31 @@ provenance:
           detail: 'langste sectie op ##-niveau: 86168 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
           samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:49:43Z'
+      rationale: "B4/B5: 794 plain-text subkopjes ('Introduction', 'Requirements and Application Material', 'SUBSECTION 111 – INTEGRITY', 'General', ...) die als heading hadden moeten worden ge-extraheerd. A6: 5923 spurious line-breaks in body (PDF-kolom per visuele regel afgekapt). normalize_bullet_glyphs heeft de meeste • bullets (nu ~28 resterende) gedeeltelijk aangepakt, maar structuurproblemen B4/A6 zijn te groot voor vertrouwen. Layer1 meldt fail (max_section_chars 86168)."
+      concrete_problemen:
+        - regel: 56
+          categorie: B4
+          type: other
+          voorbeeld: Introduction
+        - regel: 88
+          categorie: B4
+          type: other
+          voorbeeld: Requirements and Application Material
+        - regel: 264
+          categorie: B4
+          type: other
+          voorbeeld: SUBSECTION 111 – INTEGRITY
+        - regel: 59
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: A distinguishing mark of the accountancy profession is its acceptance
+        - regel: 760
+          categorie: C1
+          type: bullet-glyph
+          voorbeeld: '- • (resterende bullet-glyph na gedeeltelijke fix)'
 ---
 
 # IESBA-code-of-ethics-2024

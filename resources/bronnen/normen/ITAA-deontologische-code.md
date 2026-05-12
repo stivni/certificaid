@@ -35,9 +35,9 @@ provenance:
   stale_reason:
   trust:
     status: rejected
-    confirmed_at: '2026-05-11T11:41:58Z'
+    confirmed_at: '2026-05-12T23:49:43Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Expliciete placeholder: het bestand bevat bewust geen inhoud en waarschuwt dat het NIET mag worden gevuld met een zelf-geconstrueerde samenvatting. Body bestaat uit instructies voor het ophalen van het echte document (drie zoekstrategieën + vervolgstappen). Laag 1 bevestigt: file_size = 1149 chars, heading_count = 3 (de instructie-headings). Niet geschikt voor RAG totdat de echte norm beschikbaar is.'
+    rationale: 'Expliciete placeholder: het bestand bevat bewust geen inhoud en waarschuwt dat het NIET mag worden gevuld met een zelf-geconstrueerde samenvatting. Body bestaat uit instructies voor het ophalen van het echte document. Niet geschikt voor RAG totdat de echte norm beschikbaar is. Status was reeds rejected in eerdere L2-run (subagent-sonnet-4-6 2026-05-11) — conform die beoordeling.'
     layer1:
       status: warn
       run_id: 20260512-233943
@@ -53,13 +53,13 @@ provenance:
     layer2:
       status: rejected
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-11T11:41:58Z'
-      rationale: 'Expliciete placeholder: het bestand bevat bewust geen inhoud en waarschuwt dat het NIET mag worden gevuld met een zelf-geconstrueerde samenvatting. Body bestaat uit instructies voor het ophalen van het echte document (drie zoekstrategieën + vervolgstappen). Laag 1 bevestigt: file_size = 1149 chars, heading_count = 3 (de instructie-headings). Niet geschikt voor RAG totdat de echte norm beschikbaar is.'
+      run_at: '2026-05-12T23:49:43Z'
+      rationale: 'Expliciete placeholder: het bestand bevat bewust geen inhoud en waarschuwt dat het NIET mag worden gevuld met een zelf-geconstrueerde samenvatting. Body bestaat uit instructies voor het ophalen van het echte document. Niet geschikt voor RAG totdat de echte norm beschikbaar is. Status was reeds rejected in eerdere L2-run (subagent-sonnet-4-6 2026-05-11) — conform die beoordeling.'
       concrete_problemen:
-        - regel: 61
+        - regel: 65
           categorie: D2
           type: missing-section
-          voorbeeld: "'⚠️ Placeholder — inhoud ontbreekt. Dit bestand mag NIET worden gevuld met een zelf geconstrueerde samenvatting.'"
+          voorbeeld: ⚠️ Placeholder — inhoud ontbreekt. Dit bestand mag NIET worden gevuld met een zelf geconstrueerde samenvatting.
 ---
 
 ⚠️ **Placeholder — inhoud ontbreekt. Dit bestand mag NIET worden gevuld met een zelf geconstrueerde samenvatting.**

@@ -40,10 +40,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -53,6 +53,11 @@ provenance:
       file_size_chars: 8397
       flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-12T23:49:44Z'
+      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      concrete_problemen: []
 ---
 # CBN advies 126-16 - Aanschaffingswaarde van de aandelen ontvangen naar aanleiding van een in het buitenland verwezenlijkte fusie
 Een vennootschap naar Belgisch recht (onderworpen aan de bepalingen van het koninklijk besluit van 8 oktober 1976) bezit aandelen van een in een andere Lid-Staat van de Europese Unie gevestigde vennootschap. Deze vennootschap wordt via een fusie door overneming, opgeslorpt door een andere, eveneens in die Lid-Staat gevestigde vennootschap. De fusie wordt verwezenlijkt overeenkomstig de nationale maatregelen getroffen in het kader van de omzetting van de derde EG-richtlijn betreffende fusies van naamloze vennootschappen. De Belgische vennootschap ontvangt aandelen van de overnemende buitenlandse vennootschap, in ruil voor haar aandelen in de overgenomen vennootschap. 
