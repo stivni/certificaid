@@ -95,11 +95,8 @@ class Trust:
     - needs-rework: ETL-fix nodig voor we het in de index willen
     - rejected:   structureel niet bruikbaar; weglaten
 
-    Vervallen velden (2026-05-11 — migratie_trust_schema_2026_05_11.py):
-      qa_version, agent_verdict_at, sample_pick, sample_reviewed_at,
-      sample_reviewed_by, layer1_5_diff, layer2_content.
-    from_dict() negeert deze velden (forward-compat) zodat bronnen die nog
-    niet gemigreerd zijn geen crash veroorzaken.
+    from_dict() negeert onbekende velden (forward-compat) zodat legacy bronnen
+    uit oude git-revisions geen crash veroorzaken.
     """
     status: str = "unreviewed"
     confirmed_at: Optional[str] = None
@@ -118,12 +115,7 @@ class Trust:
 
     @classmethod
     def from_dict(cls, data: dict) -> "Trust":
-        """Lees Trust uit dict; onbekende/vervallen velden worden genegeerd.
-
-        Verouderde velden die genegeerd worden (backwards-compat voor niet-gemigreerde
-        bronnen): qa_version, agent_verdict_at, sample_pick, sample_reviewed_at,
-        sample_reviewed_by, layer1_5_diff, layer2_content.
-        """
+        """Lees Trust uit dict; onbekende velden worden genegeerd (forward-compat)."""
         known = {f for f in cls.__dataclass_fields__}
         return cls(**{k: v for k, v in data.items() if k in known})
 
@@ -347,8 +339,8 @@ def mark_trust(
 ) -> Trust:
     """Update het trust-blok op een bron-MD. Schrijft naar provenance.trust.
 
-    Vereist dat het bestand al een provenance-blok heeft (run
-    `tools/etl/backfill_trust_unreviewed.py` of `tools/etl/add_provenance.py` eerst).
+    Vereist dat het bestand al een provenance-blok heeft (geproduceerd door
+    `convert.py` of `tools/etl/add_provenance.py`).
 
     Trust-regel (ADR-004): status=trusted is alleen geldig als:
       (a) confirmed_by == "human", of
@@ -362,7 +354,7 @@ def mark_trust(
     if prov is None:
         raise ValueError(
             f"{path}: geen provenance-blok aanwezig. "
-            f"Run eerst tools/etl/backfill_trust_unreviewed.py of add_provenance.py."
+            f"Run eerst convert.py of tools/etl/add_provenance.py."
         )
     # Behoud bestaande layer1/layer2-data; update alleen top-level trust-velden.
     existing = prov.trust or Trust()
@@ -417,7 +409,7 @@ def write_layer2(
     if prov is None:
         raise ValueError(
             f"{path}: geen provenance-blok aanwezig. "
-            f"Run eerst tools/etl/backfill_trust_unreviewed.py of add_provenance.py."
+            f"Run eerst convert.py of tools/etl/add_provenance.py."
         )
     existing = prov.trust or Trust()
 

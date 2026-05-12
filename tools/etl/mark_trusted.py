@@ -19,7 +19,7 @@ Twee modi:
 
 Achtergrond:
   - Trust-statussen: unreviewed | trusted | needs-rework | rejected
-  - Default-state via `tools/etl/backfill_trust_unreviewed.py`
+  - Default-state komt uit `convert.py` (zet `unreviewed` bij elke nieuwe bron)
   - Filter in `tools/rag/rag_index.py` selecteert default `status == "trusted"`
 
 Voorbeelden:

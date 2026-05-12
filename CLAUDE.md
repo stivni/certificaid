@@ -50,6 +50,8 @@ Deze regels gelden bij elke sessie en elke agent:
 
 8. **Geen afkortingen in code, docs en schema's.** Volledige namen overal: `programmaonderdeel` (niet `PO`), `kenniselement` (niet `TDK`), enzovoort. Geldt voor bestandsnamen, veldnamen, mapnamen, ADR-titels en commit-messages. In een gesprek met de gebruiker zijn afkortingen wél OK — daar gaat snelheid boven volledigheid.
 
+9. **Geen leftovers — ongebruikte code weg.** Scripts, modules, tests, frontmatter-velden en docstring-verwijzingen die geen functie meer hebben gaan weg (`git rm`), niet "voor later". One-off migratie- en backfill-scripts worden verwijderd zodra ze hun werk gedaan hebben. ADRs en docstrings die naar verwijderde code refereren worden in dezelfde commit bijgewerkt. Bij twijfel: kort vragen, anders weg.
+
 ---
 
 ## Technisch
