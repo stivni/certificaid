@@ -26,10 +26,18 @@ provenance:
   trust:
     status: unreviewed
     confirmed_at:
-    
+    confirmed_by: default
     rationale:
-    
-    layer2:---
+    layer1:
+      status: pass
+      run_id: 20260512-160243
+      run_at: '2026-05-12T16:02:43Z'
+      heading_count: 11
+      max_section_chars: 6515
+      file_size_chars: 23049
+      flags: []
+    layer2:
+---
 
 # Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke belastingregeling inzake uitkeringen van interest en royalty's tussen verbonden ondernemingen van verschillende lidstaten
 

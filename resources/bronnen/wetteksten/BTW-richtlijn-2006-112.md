@@ -26,10 +26,22 @@ provenance:
   trust:
     status: unreviewed
     confirmed_at:
-    
+    confirmed_by: default
     rationale:
-    
-    layer2:---
+    layer1:
+      status: warn
+      run_id: 20260512-160242
+      run_at: '2026-05-12T16:02:42Z'
+      heading_count: 673
+      max_section_chars: 36349
+      file_size_chars: 222242
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ######-niveau: 36349 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+    layer2:
+---
 
 # Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde
 

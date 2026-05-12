@@ -26,10 +26,18 @@ provenance:
   trust:
     status: unreviewed
     confirmed_at:
-    
+    confirmed_by: default
     rationale:
-    
-    layer2:---
+    layer1:
+      status: pass
+      run_id: 20260512-160243
+      run_at: '2026-05-12T16:02:43Z'
+      heading_count: 23
+      max_section_chars: 12245
+      file_size_chars: 27798
+      flags: []
+    layer2:
+---
 
 # Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemeenschappelijke fiscale regeling voor moedermaatschappijen en dochterondernemingen uit verschillende lidstaten
 

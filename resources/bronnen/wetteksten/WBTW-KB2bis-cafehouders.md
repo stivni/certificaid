@@ -26,10 +26,18 @@ provenance:
   trust:
     status: unreviewed
     confirmed_at:
-    
+    confirmed_by: default
     rationale:
-    
-    layer2:---
+    layer1:
+      status: pass
+      run_id: 20260512-160243
+      run_at: '2026-05-12T16:02:43Z'
+      heading_count: 55
+      max_section_chars: 2438
+      file_size_chars: 21266
+      flags: []
+    layer2:
+---
 
 # BTW KB nr. 2bis — Forfaitaire grondslagen caféhouders
 

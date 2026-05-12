@@ -26,10 +26,18 @@ provenance:
   trust:
     status: unreviewed
     confirmed_at:
-    
+    confirmed_by: default
     rationale:
-    
-    layer2:---
+    layer1:
+      status: pass
+      run_id: 20260512-160243
+      run_at: '2026-05-12T16:02:43Z'
+      heading_count: 511
+      max_section_chars: 7220
+      file_size_chars: 279216
+      flags: []
+    layer2:
+---
 
 # Wetboek van vennootschappen en verenigingen 23/03/2019
 

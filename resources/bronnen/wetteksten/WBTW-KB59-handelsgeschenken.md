@@ -26,10 +26,18 @@ provenance:
   trust:
     status: unreviewed
     confirmed_at:
-    
+    confirmed_by: default
     rationale:
-    
-    layer2:---
+    layer1:
+      status: pass
+      run_id: 20260512-160243
+      run_at: '2026-05-12T16:02:43Z'
+      heading_count: 22
+      max_section_chars: 3529
+      file_size_chars: 20911
+      flags: []
+    layer2:
+---
 
 # BTW KB nr. 59 — Handelsgeschenken
 

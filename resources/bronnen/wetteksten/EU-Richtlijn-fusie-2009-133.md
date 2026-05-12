@@ -26,10 +26,18 @@ provenance:
   trust:
     status: unreviewed
     confirmed_at:
-    
+    confirmed_by: default
     rationale:
-    
-    layer2:---
+    layer1:
+      status: pass
+      run_id: 20260512-160242
+      run_at: '2026-05-12T16:02:42Z'
+      heading_count: 49
+      max_section_chars: 11862
+      file_size_chars: 43989
+      flags: []
+    layer2:
+---
 
 # Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)
 

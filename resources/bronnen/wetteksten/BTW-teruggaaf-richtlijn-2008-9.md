@@ -26,10 +26,18 @@ provenance:
   trust:
     status: unreviewed
     confirmed_at:
-    
+    confirmed_by: default
     rationale:
-    
-    layer2:---
+    layer1:
+      status: pass
+      run_id: 20260512-160242
+      run_at: '2026-05-12T16:02:42Z'
+      heading_count: 31
+      max_section_chars: 4104
+      file_size_chars: 23507
+      flags: []
+    layer2:
+---
 
 # Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Richtlijn 2006/112/EG vastgestelde teruggaaf van btw aan belastingplichtigen die niet in de lidstaat van teruggaaf maar in een andere lidstaat gevestigd zijn
 
