@@ -33,7 +33,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:19:09Z'
+    confirmed_at: '2026-05-13T13:24:40Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen ETL-artefacten. 9 article-headings correct. Intro-blok (regels 49–112) bevat de preambule als plain-text-alinea's — dit is conform de bron-layout van dit reglement. Geen dotted-leaders, form-feeds of column-bleed. Inhoud volledig (art. 1–9 aanwezig).
     layer1:
@@ -47,7 +47,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:09Z'
+      run_at: '2026-05-13T13:24:40Z'
       rationale: Geen ETL-artefacten. 9 article-headings correct. Intro-blok (regels 49–112) bevat de preambule als plain-text-alinea's — dit is conform de bron-layout van dit reglement. Geen dotted-leaders, form-feeds of column-bleed. Inhoud volledig (art. 1–9 aanwezig).
       concrete_problemen: []
 ---

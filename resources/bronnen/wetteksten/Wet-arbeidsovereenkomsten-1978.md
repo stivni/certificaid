@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:19:15Z'
+    confirmed_at: '2026-05-13T13:24:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen Fisconet-artefacten. 207 artikelheadings in correcte hiërarchie. Groot document (255k chars) maar geen structurele problemen. Wijzigingshistorie consistent aanwezig. Art. 138 correct als slotartikel.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:15Z'
+      run_at: '2026-05-13T13:24:46Z'
       rationale: Geen Fisconet-artefacten. 207 artikelheadings in correcte hiërarchie. Groot document (255k chars) maar geen structurele problemen. Wijzigingshistorie consistent aanwezig. Art. 138 correct als slotartikel.
       concrete_problemen: []
 ---

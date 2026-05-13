@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: rejected
-    confirmed_at: '2026-05-13T13:19:30Z'
+    confirmed_at: '2026-05-13T13:25:02Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Source-level mismatch (categorie source): de PDF achter dit bestand bevat NIET WER Boek VIII (Kwaliteit van producten en diensten — boekhoudnormen), maar een verzameling ongerelateerde teksten — CAO Paritair Subcomité metaalhandel, dierenbescherming-besluiten, milieuwetgeving, etc. Het bestand heeft 7665 regels, 263 ##### Art-headings, met TITEL II/III/IV en HOOFDSTUK I/II/III/IV-V volledig herhaald in NL+FR door elkaar (column-bleed). Structurele issues uit eerdere QA (dubbele Art. 2-headings, NL+FR-alternatie, CHAPITRE I er / HOOFDSTUK I dubbel) blijven bestaan. Source-PDF moet vervangen worden door de echte WER Boek VIII (boekhoudnormen, art. VIII.1 t/m VIII.30 ongeveer). Geen ETL-fix kan dit redden — het is de verkeerde brontekst. Niet trustbaar voor retrieval. (source)'
     layer1:
     layer2:
       status: rejected
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:30Z'
+      run_at: '2026-05-13T13:25:02Z'
       rationale: 'Source-level mismatch (categorie source): de PDF achter dit bestand bevat NIET WER Boek VIII (Kwaliteit van producten en diensten — boekhoudnormen), maar een verzameling ongerelateerde teksten — CAO Paritair Subcomité metaalhandel, dierenbescherming-besluiten, milieuwetgeving, etc. Het bestand heeft 7665 regels, 263 ##### Art-headings, met TITEL II/III/IV en HOOFDSTUK I/II/III/IV-V volledig herhaald in NL+FR door elkaar (column-bleed). Structurele issues uit eerdere QA (dubbele Art. 2-headings, NL+FR-alternatie, CHAPITRE I er / HOOFDSTUK I dubbel) blijven bestaan. Source-PDF moet vervangen worden door de echte WER Boek VIII (boekhoudnormen, art. VIII.1 t/m VIII.30 ongeveer). Geen ETL-fix kan dit redden — het is de verkeerde brontekst. Niet trustbaar voor retrieval. (source)'
       concrete_problemen:
         - 'Volledige content-mismatch: PDF is geen WER Boek VIII maar ratjetoe van CAO/dieren/milieu/AOR-teksten (categorie source)'

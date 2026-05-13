@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:21:02Z'
+    confirmed_at: '2026-05-13T13:25:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Concord region-fallback strip is succesvol toegepast: alle eerder aanwezige fake '###### Art. <num>' headings in Bijlage XII - CONCORDANTIETABEL (regio na regel 3055) zijn gedemoteerd naar plain text. Grep op '^###### Art\\.' geeft 0 hits. De hoofdtekst body (Art. 1-414) blijft volledig intact: 205 '###### Artikel <num>'-headings staan nog overeind (sample Art. 1 op regel ~430, ## TITEL I t/m XV en ## Deel A/B / Bijlage IX/X/XI structuur ongewijzigd). De concordantietabel-inhoud is leesbaar als doorlopende tekst en vervuilt de heading-structuur niet langer, wat de hiërarchie-sprong (TITEL ## → Artikel ######) elders herstelt zonder false-positive artikel-anchors voor RAG-chunking te creëren."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:21:02Z'
+      run_at: '2026-05-13T13:25:03Z'
       rationale: "Concord region-fallback strip is succesvol toegepast: alle eerder aanwezige fake '###### Art. <num>' headings in Bijlage XII - CONCORDANTIETABEL (regio na regel 3055) zijn gedemoteerd naar plain text. Grep op '^###### Art\\.' geeft 0 hits. De hoofdtekst body (Art. 1-414) blijft volledig intact: 205 '###### Artikel <num>'-headings staan nog overeind (sample Art. 1 op regel ~430, ## TITEL I t/m XV en ## Deel A/B / Bijlage IX/X/XI structuur ongewijzigd). De concordantietabel-inhoud is leesbaar als doorlopende tekst en vervuilt de heading-structuur niet langer, wat de hiërarchie-sprong (TITEL ## → Artikel ######) elders herstelt zonder false-positive artikel-anchors voor RAG-chunking te creëren."
       concrete_problemen:
         - Concordantietabel-inhoud in Bijlage XII (regels ~3050-3140) is nog steeds rauw uit PDF gevallen en bevat afgebroken zinnen ('Art. 24. bis, eerste alinea, eerste tot en' / 'met twaalfde streepje Artikel 287...') — lage retrieval-waarde, maar nu wel correct als body-text en niet als heading.

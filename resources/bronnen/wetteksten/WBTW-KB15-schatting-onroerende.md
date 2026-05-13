@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: e62521a
+    pipeline_version: f4076ba
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:11:06Z'
+  generated_at: '2026-05-13T13:23:59Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:19:30Z'
+    confirmed_at: '2026-05-13T13:25:02Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "ETL-fixes (EERSTE HOOFDSTUK → HOOFDSTUK I, plus normalize_artikel_to_art) hebben de eerder geconstateerde structuurinconsistentie opgelost. HOOFDSTUK I en HOOFDSTUK II staan beide nu als ## headings (regel 75 en 205), Afdeling 1 en 2 zijn ### headings, alle artikelen zijn #### Art. N. De eerder gesignaleerde spurious linebreaks rond 'Art.\\n13', 'Art.\\n17', 'Art.\\n20' zijn opgelost. Resterende issues zijn klein: drietalige eed-formules (regel 152) staan nog als run-on prose i.p.v. list-structuur, en 'hetWetboek' (regel 160 ontbreekt — nu inline) is een source-glue. Body/content-ratio is hoog, artikelhiërarchie consistent. Ziet eruit als wettekst die je van nul kan herschrijven."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:30Z'
+      run_at: '2026-05-13T13:25:02Z'
       rationale: "ETL-fixes (EERSTE HOOFDSTUK → HOOFDSTUK I, plus normalize_artikel_to_art) hebben de eerder geconstateerde structuurinconsistentie opgelost. HOOFDSTUK I en HOOFDSTUK II staan beide nu als ## headings (regel 75 en 205), Afdeling 1 en 2 zijn ### headings, alle artikelen zijn #### Art. N. De eerder gesignaleerde spurious linebreaks rond 'Art.\\n13', 'Art.\\n17', 'Art.\\n20' zijn opgelost. Resterende issues zijn klein: drietalige eed-formules (regel 152) staan nog als run-on prose i.p.v. list-structuur, en 'hetWetboek' (regel 160 ontbreekt — nu inline) is een source-glue. Body/content-ratio is hoog, artikelhiërarchie consistent. Ziet eruit als wettekst die je van nul kan herschrijven."
       concrete_problemen:
         - "Regel 152: drietalige eed-formules ('Ik zweer...' / 'Je jure...' / 'Ich schwöre...') als run-on prose i.p.v. list — minor, semantiek blijft duidelijk"

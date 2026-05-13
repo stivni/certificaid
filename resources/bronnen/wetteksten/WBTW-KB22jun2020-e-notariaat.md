@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: rejected
-    confirmed_at: '2026-05-13T13:19:30Z'
+    confirmed_at: '2026-05-13T13:25:02Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "(source) De bron-PDF heeft een lege body: na de titel staat 1 onvolledige zin die mid-woord afbreekt op 'van het'. file_size≈207 chars, 0 artikel-headings. Geen ETL-verbetering kan dit verhelpen — de KB-PDF op fisconetplus is corrupt of er is een verkeerd bestand opgeslagen. Niet bruikbaar voor RAG."
     layer1:
     layer2:
       status: rejected
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:30Z'
+      run_at: '2026-05-13T13:25:02Z'
       rationale: "(source) De bron-PDF heeft een lege body: na de titel staat 1 onvolledige zin die mid-woord afbreekt op 'van het'. file_size≈207 chars, 0 artikel-headings. Geen ETL-verbetering kan dit verhelpen — de KB-PDF op fisconetplus is corrupt of er is een verkeerd bestand opgeslagen. Niet bruikbaar voor RAG."
       concrete_problemen:
         - (source) PDF-body breekt af na 'van het' — alle artikelinhoud ontbreekt.

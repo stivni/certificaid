@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: e62521a
+    pipeline_version: f4076ba
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:11:07Z'
+  generated_at: '2026-05-13T13:24:00Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:19:29Z'
+    confirmed_at: '2026-05-13T13:25:02Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "ETL-transformers hebben de Fisconet running-header (regel 73 'KB57 (2017) pg. 1 Plaats van de dienst') en de 'Lijst van de bijwerkingen' appendix succesvol verwijderd. Bestand eindigt nu schoon op Art. 3 met 'De minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.' Heading-hierarchie (H1 + ## Art. 1-3) consistent, elke artikel-heading gevolgd door wijzigingstoelichting tussen haakjes. De eerder gesignaleerde linebreak in '§ 2. ... in paragraaf 1, eerste lid,\\n1° en 2° bedoelde diensten' is typische wettelijke opmaak en niet storend voor de lezer."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:29Z'
+      run_at: '2026-05-13T13:25:02Z'
       rationale: "ETL-transformers hebben de Fisconet running-header (regel 73 'KB57 (2017) pg. 1 Plaats van de dienst') en de 'Lijst van de bijwerkingen' appendix succesvol verwijderd. Bestand eindigt nu schoon op Art. 3 met 'De minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.' Heading-hierarchie (H1 + ## Art. 1-3) consistent, elke artikel-heading gevolgd door wijzigingstoelichting tussen haakjes. De eerder gesignaleerde linebreak in '§ 2. ... in paragraaf 1, eerste lid,\\n1° en 2° bedoelde diensten' is typische wettelijke opmaak en niet storend voor de lezer."
       concrete_problemen: []
 ---

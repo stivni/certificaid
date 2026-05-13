@@ -43,8 +43,41 @@ _TOC_HEADING_RE = re.compile(
 )
 
 
+# Multi-line variant: heading-regel zonder Art-range, next non-blank line eindigt
+# met `Art. N - M` of `Art. Nbis`. Strip beide regels.
+_HEADING_PREFIX_RE = re.compile(
+    r"^(?P<prefix>#{2,6})\s+"
+    r"(?:AFDELING|Onderafdeling|Hoofdstuk|HOOFDSTUK|Afdeling)\s+\d+\w*\."
+)
+_ART_RANGE_LINE_RE = re.compile(
+    r".*\bArt\.\s+\d+\w*(?:\s*[-–]\s*\d+\w*)?\s*$",
+)
+
+
 def strip_toc_headings_with_art_range(body: str, frontmatter: dict) -> tuple[str, dict]:
-    """Strip heading-regels eindigend met 'Art. N - M' (TOC-entries)."""
+    """Strip heading-regels eindigend met 'Art. N - M' (TOC-entries).
+
+    Twee patronen:
+    1. Single-line: heading-regel met Art-range op zelfde regel.
+    2. Multi-line: heading + next-line eindigt met Art-range (wrapped TOC).
+    """
+    # Single-line strip
     new_body = _TOC_HEADING_RE.sub("", body)
+
+    # Multi-line strip
+    lines = new_body.split("\n")
+    out: list[str] = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if _HEADING_PREFIX_RE.match(line) and i + 1 < len(lines):
+            next_line = lines[i + 1]
+            if _ART_RANGE_LINE_RE.match(next_line) and next_line.strip():
+                # Skip heading + continuation-with-art-range
+                i += 2
+                continue
+        out.append(line)
+        i += 1
+    new_body = "\n".join(out)
     new_body = re.sub(r"\n{3,}", "\n\n", new_body)
     return new_body, frontmatter

@@ -34,7 +34,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:19:21Z'
+    confirmed_at: '2026-05-13T13:24:53Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen U+2010-dashes, geen HTML-entities, geen duplicate headings. Kleine typefouten ('verichten' r55, 'reed' r57) zijn aanwezig in de brontekst en niet ETL-geïnduceerd; ze zijn consistent met de historische taal van het advies (1981). Inhoud volledig, geen afgekapte zinnen, geen structuurproblemen.
     layer1:
@@ -48,7 +48,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:21Z'
+      run_at: '2026-05-13T13:24:53Z'
       rationale: Geen U+2010-dashes, geen HTML-entities, geen duplicate headings. Kleine typefouten ('verichten' r55, 'reed' r57) zijn aanwezig in de brontekst en niet ETL-geïnduceerd; ze zijn consistent met de historische taal van het advies (1981). Inhoud volledig, geen afgekapte zinnen, geen structuurproblemen.
       concrete_problemen:
         - regel: 55

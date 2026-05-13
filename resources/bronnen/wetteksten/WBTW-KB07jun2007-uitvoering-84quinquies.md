@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: e62521a
+    pipeline_version: f4076ba
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:11:07Z'
+  generated_at: '2026-05-13T13:24:00Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:19:28Z'
+    confirmed_at: '2026-05-13T13:25:01Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Kleine schone KB: 6 Art.-headings consistent, alle artikelen hebben heading + commentaarblok + body, geen PDF-artefacten zichtbaar. Source-typo's afwezig."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:28Z'
+      run_at: '2026-05-13T13:25:01Z'
       rationale: "Kleine schone KB: 6 Art.-headings consistent, alle artikelen hebben heading + commentaarblok + body, geen PDF-artefacten zichtbaar. Source-typo's afwezig."
       concrete_problemen: []
 ---

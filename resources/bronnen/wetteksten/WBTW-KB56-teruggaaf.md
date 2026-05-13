@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:19:09Z'
+    confirmed_at: '2026-05-13T13:24:40Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 pass: 52 headings, max sectie 2999 chars. Nieuwe KB (2022) correct verwerkt met #### Art.-headings. Inhoud volledig.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:09Z'
+      run_at: '2026-05-13T13:24:40Z'
       rationale: 'L1 pass: 52 headings, max sectie 2999 chars. Nieuwe KB (2022) correct verwerkt met #### Art.-headings. Inhoud volledig.'
       concrete_problemen: []
 ---

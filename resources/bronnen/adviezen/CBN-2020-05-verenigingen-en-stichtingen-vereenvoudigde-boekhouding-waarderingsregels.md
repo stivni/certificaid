@@ -41,7 +41,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:19:25Z'
+    confirmed_at: '2026-05-13T13:24:57Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Inhoud volledig en goed gestructureerd. Eén minor D4-issue: '*Relevantie *' (regel 88) heeft een spatie vóór de sluitende '*', artefact van HTML-extractie. Dit is cosmetisch en raakt de leesbaarheid niet. Alle overige italic-labels correct."
     layer1:
@@ -55,7 +55,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:25Z'
+      run_at: '2026-05-13T13:24:57Z'
       rationale: "Inhoud volledig en goed gestructureerd. Eén minor D4-issue: '*Relevantie *' (regel 88) heeft een spatie vóór de sluitende '*', artefact van HTML-extractie. Dit is cosmetisch en raakt de leesbaarheid niet. Alle overige italic-labels correct."
       concrete_problemen:
         - regel: 88

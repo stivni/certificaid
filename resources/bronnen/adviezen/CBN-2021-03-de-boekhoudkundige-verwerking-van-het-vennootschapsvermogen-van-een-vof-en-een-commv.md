@@ -30,7 +30,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:19:27Z'
+    confirmed_at: '2026-05-13T13:24:59Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Zeer kort advies (4062 tekens) zonder tussensecties — dit weerspiegelt het originele document dat enkel een # titel heeft en dan doorlopende tekst. Geen PDF-artefacten. Rekeningnamen gecursiveerd als *Onbeschikbare inbreng buiten kapitaal* en *Beschikbare inbreng buiten kapitaal* — hier zonder trailing spatie, schoon. Voetnoten [^1]-[^4] correct. Inhoud volledig voor een kort standpuntadvies.'
     layer1:
@@ -44,7 +44,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:27Z'
+      run_at: '2026-05-13T13:24:59Z'
       rationale: 'Zeer kort advies (4062 tekens) zonder tussensecties — dit weerspiegelt het originele document dat enkel een # titel heeft en dan doorlopende tekst. Geen PDF-artefacten. Rekeningnamen gecursiveerd als *Onbeschikbare inbreng buiten kapitaal* en *Beschikbare inbreng buiten kapitaal* — hier zonder trailing spatie, schoon. Voetnoten [^1]-[^4] correct. Inhoud volledig voor een kort standpuntadvies.'
       concrete_problemen: []
 ---

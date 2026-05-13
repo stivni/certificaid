@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: e62521a
+    pipeline_version: f4076ba
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:11:06Z'
+  generated_at: '2026-05-13T13:23:59Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T13:22:50Z'
+    confirmed_at: '2026-05-13T13:25:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "De sticky-mode strip_inline_footnote_block fix was niet relevant voor dit bestand — het hoofdprobleem (TOC-blok niet gestript) blijft volledig onveranderd. Regels 55-69 bevatten nog steeds het TOC-blok: '## AFDELING 1. Betalingen op de rekeningen van btw-ontvangsten' (regel 55-56) met daaronder '### Onderafdeling 1.' t/m '### Onderafdeling 4.' met artikel-ranges ('Art. 1 - 8', 'Art. 9 - 13', 'Art. 13bis') en spurious linebreaks midden in de headings ('Inning en\\nInvordering' regel 61-62; 'Mini One Stop Shop\\n- VAT BE' regel 64-65). Regel 69 bevat de Franstalige leak 'Disposition temporaire Art. 13ter'. Regels 71-80 dupliceren Afdeling 1 + Onderafdeling 1 als full sections direct na het TOC-blok (Afdeling 1 verschijnt op regel 55 EN 71; Onderafdeling 1 op 58 EN 78). Plus smart-quote mismatch op regels 65/67 (opent met \" sluit met ”). Dit blijft retrieval-schadelijk: zoekers naar 'Onderafdeling 1 BTW-Ontvangsten' krijgen twee chunks waarvan één leeg (alleen heading + artikel-range), wat het signaal verdunt."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:22:50Z'
+      run_at: '2026-05-13T13:25:03Z'
       rationale: "De sticky-mode strip_inline_footnote_block fix was niet relevant voor dit bestand — het hoofdprobleem (TOC-blok niet gestript) blijft volledig onveranderd. Regels 55-69 bevatten nog steeds het TOC-blok: '## AFDELING 1. Betalingen op de rekeningen van btw-ontvangsten' (regel 55-56) met daaronder '### Onderafdeling 1.' t/m '### Onderafdeling 4.' met artikel-ranges ('Art. 1 - 8', 'Art. 9 - 13', 'Art. 13bis') en spurious linebreaks midden in de headings ('Inning en\\nInvordering' regel 61-62; 'Mini One Stop Shop\\n- VAT BE' regel 64-65). Regel 69 bevat de Franstalige leak 'Disposition temporaire Art. 13ter'. Regels 71-80 dupliceren Afdeling 1 + Onderafdeling 1 als full sections direct na het TOC-blok (Afdeling 1 verschijnt op regel 55 EN 71; Onderafdeling 1 op 58 EN 78). Plus smart-quote mismatch op regels 65/67 (opent met \" sluit met ”). Dit blijft retrieval-schadelijk: zoekers naar 'Onderafdeling 1 BTW-Ontvangsten' krijgen twee chunks waarvan één leeg (alleen heading + artikel-range), wat het signaal verdunt."
       concrete_problemen:
         - 'Regels 55-69: TOC-blok niet gestript — Afdeling 1 + Onderafdelingen 1–4 staan als headings met enkel artikel-ranges, geen content'
@@ -54,15 +54,6 @@ Laatstelijk gewijzigd met ingang van 01.01.2020 (KB 09.12.2019, B.S. 16.12.2019 
 
 ## AFDELING 1. Betalingen op de rekeningen van "btw-ontvangsten"
 Brussel, "Inning en Invordering", "Mini One Stop Shop - btw BE" en "btw on E-Services".
-
-### Onderafdeling 1. Betaling op de postrekening van "BTW-Ontvangsten"
-Brussel Art. 1 - 8
-
-### Onderafdeling 2. Betaling op de financiële rekening van "Inning en
-Invordering". Art. 9 - 13
-
-### Onderafdeling 3. Betaling op de postrekening van "Mini One Stop Shop
-- VAT BE” Art. 13bis
 
 ### Onderafdeling 4. Betaling op de postrekening van "VAT on E-Services”
 

@@ -47,7 +47,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:19:18Z'
+    confirmed_at: '2026-05-13T13:24:49Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen A- of B-categorie artefacten gevonden. Tabellen (regels 114-148) zijn correct opgemaakt met pipe-syntax én separator-rijen. Heading-hiërarchie klopt: # titel, ## secties, ### subsecties. Voetnoten [^1]–[^35] zijn aanwezig; [^19], [^20], [^21] staan in het voetnoetenblok maar ontbreken als anker in de body — dit zijn waarschijnlijk voetnoten bij de journaalposten die de scraper niet heeft opgepikt, maar het is een beperkte imperfectie zonder leesbaarheidsimpact. Geen OCR-verwarring, geen form-feeds, geen kolom-bleed. Inhoud compleet: Inleiding, wettekst art. 2:138 integraal geciteerd, twee voorbeelden met journaalboekingen.'
     layer1:
@@ -61,7 +61,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:18Z'
+      run_at: '2026-05-13T13:24:49Z'
       rationale: 'Geen A- of B-categorie artefacten gevonden. Tabellen (regels 114-148) zijn correct opgemaakt met pipe-syntax én separator-rijen. Heading-hiërarchie klopt: # titel, ## secties, ### subsecties. Voetnoten [^1]–[^35] zijn aanwezig; [^19], [^20], [^21] staan in het voetnoetenblok maar ontbreken als anker in de body — dit zijn waarschijnlijk voetnoten bij de journaalposten die de scraper niet heeft opgepikt, maar het is een beperkte imperfectie zonder leesbaarheidsimpact. Geen OCR-verwarring, geen form-feeds, geen kolom-bleed. Inhoud compleet: Inleiding, wettekst art. 2:138 integraal geciteerd, twee voorbeelden met journaalboekingen.'
       concrete_problemen:
         - regel: 204

@@ -40,7 +40,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:19:17Z'
+    confirmed_at: '2026-05-13T13:24:48Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel staat slechts eenmaal (r61). Geen andere artefacten gevonden: geen form-feeds, geen spurious line-breaks, geen TOC-residu, geen unicode-problemen, geen afgekapte zinnen. Voetnoten [^1] en [^2] correct aanwezig en gelinkt. Inhoud volledig (5 alinea's, beide vragen beantwoord)."
     layer1:
@@ -54,7 +54,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:17Z'
+      run_at: '2026-05-13T13:24:48Z'
       rationale: "B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel staat slechts eenmaal (r61). Geen andere artefacten gevonden: geen form-feeds, geen spurious line-breaks, geen TOC-residu, geen unicode-problemen, geen afgekapte zinnen. Voetnoten [^1] en [^2] correct aanwezig en gelinkt. Inhoud volledig (5 alinea's, beide vragen beantwoord)."
       concrete_problemen: []
 ---

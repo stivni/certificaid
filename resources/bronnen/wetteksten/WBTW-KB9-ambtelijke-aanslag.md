@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: e62521a
+    pipeline_version: f4076ba
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:11:06Z'
+  generated_at: '2026-05-13T13:23:59Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:19:29Z'
+    confirmed_at: '2026-05-13T13:25:01Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Korte KB met 4 artikelen. Geen footer-artefact, schone heading-hierarchie, amendment-markers consistent. Eindigt netjes op Art. 4. Buitenstaander zou dit als handgeschreven markdown kunnen lezen.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:29Z'
+      run_at: '2026-05-13T13:25:01Z'
       rationale: Korte KB met 4 artikelen. Geen footer-artefact, schone heading-hierarchie, amendment-markers consistent. Eindigt netjes op Art. 4. Buitenstaander zou dit als handgeschreven markdown kunnen lezen.
       concrete_problemen: []
 ---

@@ -46,7 +46,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:19:16Z'
+    confirmed_at: '2026-05-13T13:24:47Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: '14 headings correct gestructureerd met drie niveaus (##, ###, ####). Volledige inhoud in drie hoofddelen (overzicht, boekhoudkundige verwerking, fiscale documentatie). Italic-markeringen voor accountingsrekeningen correct gesloten. Alle 34 voetnoten aanwezig en correct gedefinieerd. Geen PDF-artefacten aangetroffen.'
     layer1:
@@ -60,7 +60,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:16Z'
+      run_at: '2026-05-13T13:24:47Z'
       rationale: '14 headings correct gestructureerd met drie niveaus (##, ###, ####). Volledige inhoud in drie hoofddelen (overzicht, boekhoudkundige verwerking, fiscale documentatie). Italic-markeringen voor accountingsrekeningen correct gesloten. Alle 34 voetnoten aanwezig en correct gedefinieerd. Geen PDF-artefacten aangetroffen.'
       concrete_problemen: []
 ---

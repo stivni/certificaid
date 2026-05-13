@@ -42,7 +42,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:19:20Z'
+    confirmed_at: '2026-05-13T13:24:52Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Laag-1 pass, geen flags. Drie ## headings met volledige titels, voetnoten [^1]–[^2] intact, inhoud compleet (verwijst correct naar advies 175/1 en bespreekt de afwikkeling). Geen artefacten zichtbaar.'
     layer1:
@@ -56,7 +56,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:20Z'
+      run_at: '2026-05-13T13:24:52Z'
       rationale: 'Laag-1 pass, geen flags. Drie ## headings met volledige titels, voetnoten [^1]–[^2] intact, inhoud compleet (verwijst correct naar advies 175/1 en bespreekt de afwikkeling). Geen artefacten zichtbaar.'
       concrete_problemen: []
 ---

@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: e62521a
+    pipeline_version: f4076ba
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:11:06Z'
+  generated_at: '2026-05-13T13:23:59Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:19:29Z'
+    confirmed_at: '2026-05-13T13:25:02Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Groot bestand (445 regels, 23 artikelen + afdelingen). Goede hiërarchische structuur: H1 → ## AFDELING I-VI → ### Art. 1-23 met sub-bis/ter/quater. Wijzigingstoelichting bovenaan elke artikel, lijstmarkers 1°-7° consistent, §-paragraaf-structuur duidelijk. Eerder gesignaleerde minor issues (§ alleen op aparte regel bij artikel-overgangen, footnote-marker (1)/(2) inline) zijn typische wettekst-conventies en geen ETL-artefacten die de leesbaarheid breken. Geen TOC-pollutie, geen running-headers, geen Fisconet-footer. Voor een buitenstaander leest dit als een nette wettekst-compilatie.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:29Z'
+      run_at: '2026-05-13T13:25:02Z'
       rationale: 'Groot bestand (445 regels, 23 artikelen + afdelingen). Goede hiërarchische structuur: H1 → ## AFDELING I-VI → ### Art. 1-23 met sub-bis/ter/quater. Wijzigingstoelichting bovenaan elke artikel, lijstmarkers 1°-7° consistent, §-paragraaf-structuur duidelijk. Eerder gesignaleerde minor issues (§ alleen op aparte regel bij artikel-overgangen, footnote-marker (1)/(2) inline) zijn typische wettekst-conventies en geen ETL-artefacten die de leesbaarheid breken. Geen TOC-pollutie, geen running-headers, geen Fisconet-footer. Voor een buitenstaander leest dit als een nette wettekst-compilatie.'
       concrete_problemen:
         - Sub-strategy frontmatter-veld is leeg (chunk.sub_strategy:) — niet retrieval-blokkerend

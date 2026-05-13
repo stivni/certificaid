@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: e62521a
+    pipeline_version: f4076ba
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:11:07Z'
+  generated_at: '2026-05-13T13:24:00Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:19:30Z'
+    confirmed_at: '2026-05-13T13:25:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "De recente ETL-fixes lossen de hoofdproblemen uit de vorige QA-ronde op. De integrale opgeheven 2009-versie onder kop 'Bijlage' (vroeger regels 227-326) is volledig verwijderd — het bestand eindigt nu correct op Art. 17 (regel 220). De Fisconet page-headers ('KB50-Bijlage pg. Bijl./1...') zijn weg. De TOC-duplicatie van Hoofdstuk 1/2/3 is opgelost door strip_leading_toc_heading_block. Er resteert enkel een minor: woord-concat-bugs ('btweenheid' regel 148; 'BTWidentificatienummer' op meerdere plaatsen; 'BTWeenheid' regel 301) en lichte kapitalisatie-inconsistentie ('Hoofdstuk 1' vs 'HOOFDSTUK 2'/'HOOFDSTUK 3'). Deze zijn source-typo's die geen retrieval-blocker zijn — markeren als (source) is voldoende. Klaar voor RAG-index."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:30Z'
+      run_at: '2026-05-13T13:25:03Z'
       rationale: "De recente ETL-fixes lossen de hoofdproblemen uit de vorige QA-ronde op. De integrale opgeheven 2009-versie onder kop 'Bijlage' (vroeger regels 227-326) is volledig verwijderd — het bestand eindigt nu correct op Art. 17 (regel 220). De Fisconet page-headers ('KB50-Bijlage pg. Bijl./1...') zijn weg. De TOC-duplicatie van Hoofdstuk 1/2/3 is opgelost door strip_leading_toc_heading_block. Er resteert enkel een minor: woord-concat-bugs ('btweenheid' regel 148; 'BTWidentificatienummer' op meerdere plaatsen; 'BTWeenheid' regel 301) en lichte kapitalisatie-inconsistentie ('Hoofdstuk 1' vs 'HOOFDSTUK 2'/'HOOFDSTUK 3'). Deze zijn source-typo's die geen retrieval-blocker zijn — markeren als (source) is voldoende. Klaar voor RAG-index."
       concrete_problemen:
         - "Word-concat-bugs blijven: 'btweenheid' (regel 148), 'BTWidentificatienummer', 'BTWeenheid' — source-typo, classificeren als (source)"
