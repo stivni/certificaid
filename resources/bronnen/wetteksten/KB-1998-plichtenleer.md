@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:08Z'
+    confirmed_at: '2026-05-13T12:41:04Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 pass: 46 headings, max sectie 1690 chars. HTML-bron (Justel legacy), headings als ### Art. N correct. Inhoud volledig van plichtenleer KB. Geen artefacten.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:08Z'
+      run_at: '2026-05-13T12:41:04Z'
       rationale: 'L1 pass: 46 headings, max sectie 1690 chars. HTML-bron (Justel legacy), headings als ### Art. N correct. Inhoud volledig van plichtenleer KB. Geen artefacten.'
       concrete_problemen: []
 ---

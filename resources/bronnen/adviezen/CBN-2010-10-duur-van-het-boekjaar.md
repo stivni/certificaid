@@ -41,7 +41,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:21Z'
+    confirmed_at: '2026-05-13T12:41:17Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Ronde-2-verdict (B2 geen headings + A4 Unicode HYPHEN) herbeoordeeld op huidige body. Heading_count=0 is correct voor dit korte advies — de CBN-bronpagina bevat geen expliciete sectieopdeling en het document is één vloeiende argumentatieve tekst van ~650 woorden. Geen ETL-artefact. De A4-claim (U+2010 in body) is onjuist: body r74 gebruikt ASCII koppelteken U+002D; U+2010 komt alleen voor in de frontmatter-rationale-tekst van de vorige review. Geen andere ETL-problemen gevonden.'
     layer1:
@@ -55,7 +55,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:21Z'
+      run_at: '2026-05-13T12:41:17Z'
       rationale: 'Ronde-2-verdict (B2 geen headings + A4 Unicode HYPHEN) herbeoordeeld op huidige body. Heading_count=0 is correct voor dit korte advies — de CBN-bronpagina bevat geen expliciete sectieopdeling en het document is één vloeiende argumentatieve tekst van ~650 woorden. Geen ETL-artefact. De A4-claim (U+2010 in body) is onjuist: body r74 gebruikt ASCII koppelteken U+002D; U+2010 komt alleen voor in de frontmatter-rationale-tekst van de vorige review. Geen andere ETL-problemen gevonden.'
       concrete_problemen: []
 ---

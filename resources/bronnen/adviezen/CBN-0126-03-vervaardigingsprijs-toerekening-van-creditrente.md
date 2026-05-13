@@ -39,7 +39,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:17Z'
+    confirmed_at: '2026-05-13T12:41:12Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Vorige Laag-2-ronde flagde D4 (italic niet gesloten op L73 en L79), maar bij her-lezing van de actuele body sluiten beide italic-spans correct: 'via de rubriek *Wijziging in de voorraad ... in uitvoering*, zonder' en '*Wijziging in de bestellingen in uitvoering* (717)' — de asterisk staat vóór de spatie/komma. Scraper-fix heeft dit opgelost. Inhoud volledig, voetnoot correct, geen andere artefacten."
     layer1:
@@ -53,7 +53,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:17Z'
+      run_at: '2026-05-13T12:41:12Z'
       rationale: "Vorige Laag-2-ronde flagde D4 (italic niet gesloten op L73 en L79), maar bij her-lezing van de actuele body sluiten beide italic-spans correct: 'via de rubriek *Wijziging in de voorraad ... in uitvoering*, zonder' en '*Wijziging in de bestellingen in uitvoering* (717)' — de asterisk staat vóór de spatie/komma. Scraper-fix heeft dit opgelost. Inhoud volledig, voetnoot correct, geen andere artefacten."
       concrete_problemen: []
 ---

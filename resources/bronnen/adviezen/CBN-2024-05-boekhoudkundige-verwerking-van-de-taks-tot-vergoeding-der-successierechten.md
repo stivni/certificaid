@@ -46,7 +46,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:24Z'
+    confirmed_at: '2026-05-13T12:41:21Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Zeer kort advies (~5500 chars, 4 headings). Geen extractie-artefacten. Inhoud volledig voor het onderwerp (toepassingsgebied, grondslag, boekhoudkundige verwerking). Voetnoten [^1]–[^8] volledig. Geen tabellen, geen TOC.
     layer1:
@@ -60,7 +60,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:24Z'
+      run_at: '2026-05-13T12:41:21Z'
       rationale: Zeer kort advies (~5500 chars, 4 headings). Geen extractie-artefacten. Inhoud volledig voor het onderwerp (toepassingsgebied, grondslag, boekhoudkundige verwerking). Voetnoten [^1]–[^8] volledig. Geen tabellen, geen TOC.
       concrete_problemen: []
 ---

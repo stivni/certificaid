@@ -43,7 +43,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:18Z'
+    confirmed_at: '2026-05-13T12:41:14Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Prior layer2 verdict (needs-rework, D4) is onjuist: '1987[^1] tot wijziging van het jaarrekeningbesluit...' staat volledig inline op regel 70 — geen gebroken newline. Voetnoot [^1] heeft definitie op regel 76. Body is volledig, geen artefacten aangetroffen."
     layer1:
@@ -57,7 +57,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:18Z'
+      run_at: '2026-05-13T12:41:14Z'
       rationale: "Prior layer2 verdict (needs-rework, D4) is onjuist: '1987[^1] tot wijziging van het jaarrekeningbesluit...' staat volledig inline op regel 70 — geen gebroken newline. Voetnoot [^1] heeft definitie op regel 76. Body is volledig, geen artefacten aangetroffen."
       concrete_problemen: []
 ---

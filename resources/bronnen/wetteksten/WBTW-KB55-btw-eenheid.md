@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5
+    pipeline_version: 68215a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:35:30Z'
+  generated_at: '2026-05-13T12:40:38Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:30Z'
+    confirmed_at: '2026-05-13T12:41:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Lange, complexe wet (9 art, 14kB) met diepe § §-structuur. Markdown is over het geheel volledig en logisch. Inline-redactionele noot in Art. 6 § 3 ([red.: '...']) is een legitieme editorial mark uit source, geen ETL-artefact. Lijstmarkers 1°-3° en bullet-streepjes consistent. Een paar streepjes (-) in Art. 1 § 1 worden inline gebruikt i.p.v. verticale lijst, maar dat is leesbaar en source-conform."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:30Z'
+      run_at: '2026-05-13T12:41:24Z'
       rationale: "Lange, complexe wet (9 art, 14kB) met diepe § §-structuur. Markdown is over het geheel volledig en logisch. Inline-redactionele noot in Art. 6 § 3 ([red.: '...']) is een legitieme editorial mark uit source, geen ETL-artefact. Lijstmarkers 1°-3° en bullet-streepjes consistent. Een paar streepjes (-) in Art. 1 § 1 worden inline gebruikt i.p.v. verticale lijst, maar dat is leesbaar en source-conform."
       concrete_problemen:
         - In Art. 1 § 1 worden bullets '- ... or - ...' inline gehouden i.p.v. als markdown-lijst weergegeven — leesbaar, source-conform
@@ -125,9 +125,7 @@ Deze uittreding krijgt uitwerking vanaf de eerste dag van de maand volgend op de
 
 § 1. Er is van rechtswege uittreding van een lid uit de BTW eenheid in het geval van een insolvabiliteitprocedure.
 
-§ 2. De voormelde uittreding heeft uitwerking vanaf het tijdstip van aanvang van de insolvabiliteitprocedure. Ze wordt binnen de 15 dagen na deze uittreding per aangetekend schrijven ter kennis gebracht door de vertegenwoordiger van de BTW-eenheid aan het controlekantoor dat bevoegd is voor de belasting over de toegevoegde waarde waaronder de BTW eenheid ressorteert. Deze kennisgeving
-
-geldt ten aanzien van de BTW-eenheid als aangifte van wijziging van werkzaamheid zoals bedoeld in artikel 53, § 1, eerste lid van het Wetboek.
+§ 2. De voormelde uittreding heeft uitwerking vanaf het tijdstip van aanvang van de insolvabiliteitprocedure. Ze wordt binnen de 15 dagen na deze uittreding per aangetekend schrijven ter kennis gebracht door de vertegenwoordiger van de BTW-eenheid aan het controlekantoor dat bevoegd is voor de belasting over de toegevoegde waarde waaronder de BTW eenheid ressorteert. Deze kennisgeving geldt ten aanzien van de BTW-eenheid als aangifte van wijziging van werkzaamheid zoals bedoeld in artikel 53, § 1, eerste lid van het Wetboek.
 
 § 3. In geval van uittreding van de vertegenwoordiger van de BTW-eenheid, moet vanaf het tijdstip van deze uittreding in zijn vervanging worden voorzien. In de vervanging moet ook worden voorzien in het geval van stopzetting van de lastgeving aan de vertegenwoordiger van de BTW-eenheid. De vervanging moet binnen de 15 dagen volgend op de uittreding of de stopzetting door de nieuwe vertegenwoordiger van de BTW-eenheid per aangetekend schrijven ter kennis worden gebracht aan het controlekantoor van de belasting over de toegevoegde waarde waaronder de BTW-eenheid ressorteert ingevolge de vervanging van de vertegenwoordiger van de BTW-eenheid. Deze kennisgeving geldt ten aanzien van de BTW-eenheid als aangifte van wijziging van werkzaamheid zoals bedoeld in artikel 53, § 1, 1° [red.: “artikel 53, § 1, eerste lid, 1°] van het Wetboek.
 

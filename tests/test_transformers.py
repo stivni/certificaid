@@ -2165,3 +2165,51 @@ class TestStripLeadingTocHeadingBlock:
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "strip_leading_toc_heading_block" in TRANSFORMERS
+
+
+class TestFixPdfSlashLossInArticleHeadings:
+    def test_kb4_pattern(self):
+        from tools.etl.transformers.fix_pdf_slash_loss_in_article_headings import fix_pdf_slash_loss_in_article_headings
+        body = (
+            "## Art. 81\n"
+            "(De tekst van KB nr. 4, artikel 8/1, § 2, eerste lid, 4°, ...)\n"
+            "§ 1. Wanneer ...\n"
+        )
+        result, _ = fix_pdf_slash_loss_in_article_headings(body, {})
+        assert "## Art. 8/1" in result
+        assert "## Art. 81" not in result
+
+    def test_no_slash_reference_no_rewrite(self):
+        from tools.etl.transformers.fix_pdf_slash_loss_in_article_headings import fix_pdf_slash_loss_in_article_headings
+        body = (
+            "## Art. 81\n"
+            "(Tekst van KB nr. X, artikel 81 derde lid, ...)\n"
+            "Body zonder slash-referentie.\n"
+        )
+        result, _ = fix_pdf_slash_loss_in_article_headings(body, {})
+        # Geen slash in body → heading blijft Art. 81
+        assert "## Art. 81" in result
+        assert "## Art. 8/1" not in result
+
+    def test_three_digit_pattern(self):
+        from tools.etl.transformers.fix_pdf_slash_loss_in_article_headings import fix_pdf_slash_loss_in_article_headings
+        body = (
+            "## Art. 125\n"
+            "Volgens artikel 12/5 van de wet, geldt...\n"
+        )
+        result, _ = fix_pdf_slash_loss_in_article_headings(body, {})
+        assert "## Art. 12/5" in result
+
+    def test_idempotent(self):
+        from tools.etl.transformers.fix_pdf_slash_loss_in_article_headings import fix_pdf_slash_loss_in_article_headings
+        body = (
+            "## Art. 81\nartikel 8/1, § 2\n"
+            "## Art. 82\nartikel 8/2 voor de tweede\n"
+        )
+        once, _ = fix_pdf_slash_loss_in_article_headings(body, {})
+        twice, _ = fix_pdf_slash_loss_in_article_headings(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "fix_pdf_slash_loss_in_article_headings" in TRANSFORMERS

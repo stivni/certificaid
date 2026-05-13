@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5
+    pipeline_version: 68215a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:35:30Z'
+  generated_at: '2026-05-13T12:40:37Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:36:29Z'
+    confirmed_at: '2026-05-13T12:41:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: merge_article_reference_wraps heeft niet ingegrepen op de meest opvallende artefacten. Het TOC-blok aan het begin (regels 56-78) met artikel-ranges 'Art. 1 - 8', 'Art. 9 - 13' als plain text blijft staan, gevolgd door duplicate hoofdstuk-/onderafdeling-headings (regels 80-88) — dat is compilatie-bleed. De Franse string 'Disposition temporaire' (regel 70) midden in NL-content is een bilingue-leak die direct opvalt. Spurious linebreaks midden in heading-tekst ('Inning en\nInvordering', regels 62-63; 'Mini One Stop Shop\n- VAT BE', regels 65-66) zijn niet gerepareerd. Inconsistente kapitalisatie 'AFDELING' vs 'Onderafdeling'.
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:29Z'
+      run_at: '2026-05-13T12:41:24Z'
       rationale: merge_article_reference_wraps heeft niet ingegrepen op de meest opvallende artefacten. Het TOC-blok aan het begin (regels 56-78) met artikel-ranges 'Art. 1 - 8', 'Art. 9 - 13' als plain text blijft staan, gevolgd door duplicate hoofdstuk-/onderafdeling-headings (regels 80-88) — dat is compilatie-bleed. De Franse string 'Disposition temporaire' (regel 70) midden in NL-content is een bilingue-leak die direct opvalt. Spurious linebreaks midden in heading-tekst ('Inning en\nInvordering', regels 62-63; 'Mini One Stop Shop\n- VAT BE', regels 65-66) zijn niet gerepareerd. Inconsistente kapitalisatie 'AFDELING' vs 'Onderafdeling'.
       concrete_problemen:
         - "Regel 70: Franse plain-text 'Disposition temporaire Art. 13ter' tussen NL-content — bilingue residu"
@@ -144,9 +144,7 @@ a) het bedrag van de in artikel 1, 1° tot 3° bedoelde belasting, nalatigheidsi
 
 b) de bedragen die aan de belastingplichtige werden teruggegeven overeenkomstig artikel 7 van dit besluit.
 
-§ 2. Door of vanwege de Minister van Financiën kan onder de voorwaarden die zij bepalen, worden beslist dat andere dan de onder § 1 van dit artikel vermelde verrichtingen in de rekening-courant worden geboekt als een door de belastingplichtige verschuldigd bedrag van belasting over de toegevoegde waarde, fiscale geldboeten, nalatigheidsinteresten en kosten, als
-
-een verrichting gelijkgesteld met een betaling bedoeld in artikel 2 van dit besluit of als een verbetering van verrichtingen die vroeger reeds werden geboekt.
+§ 2. Door of vanwege de Minister van Financiën kan onder de voorwaarden die zij bepalen, worden beslist dat andere dan de onder § 1 van dit artikel vermelde verrichtingen in de rekening-courant worden geboekt als een door de belastingplichtige verschuldigd bedrag van belasting over de toegevoegde waarde, fiscale geldboeten, nalatigheidsinteresten en kosten, als een verrichting gelijkgesteld met een betaling bedoeld in artikel 2 van dit besluit of als een verbetering van verrichtingen die vroeger reeds werden geboekt.
 
 § 3. Alleen het BTW-identificatienummer dat voorkomt op het formulier dat werd bezorgd door de administratie of in de gestructureerde mededeling ter kennis gebracht door de administratie bepaalt, voor de betaling op de postrekening nr. 679-2003000-47, de belastingplichtige wiens rekening-courant moet worden gecrediteerd.
 
@@ -226,9 +224,7 @@ Betaling op de postrekening van "Mini One Stop Shop - VAT BE”.
 #### Art. 13bis
 (De tekst van KB nr. 24, artikel 13bis, werd vervangen met ingang van 01.01.2015 (Art. 7, KB 05.07.2015, B.S. 10.07.2015, pg. 45614))
 
-De betaling van de belasting bedoeld in de artikelen 58ter, § 5, derde lid en 58quater, § 5, vierde lid, van het Wetboek waarvan de opeisbaarheid blijkt uit de aangifte bedoeld in de
-
-artikelen 58ter, § 5 en 58quater, § 5, van het Wetboek wordt gedaan op de postrekening BE78 6792 0036 2186 van "Mini One Stop Shop - VAT BE".
+De betaling van de belasting bedoeld in de artikelen 58ter, § 5, derde lid en 58quater, § 5, vierde lid, van het Wetboek waarvan de opeisbaarheid blijkt uit de aangifte bedoeld in de artikelen 58ter, § 5 en 58quater, § 5, van het Wetboek wordt gedaan op de postrekening BE78 6792 0036 2186 van "Mini One Stop Shop - VAT BE".
 
 De betaling door de belastingschuldige op de postrekening BE78 6792 0036 2186 van "Mini One Stop Shop - VAT BE" wordt gedaan door storting of overschrijving met vermelding van de gestructureerde mededeling die hem werd ter kennis gebracht door de administratie. Zij heeft uitwerking op de datum bepaald overeenkomstig artikel 4, § 1.
 

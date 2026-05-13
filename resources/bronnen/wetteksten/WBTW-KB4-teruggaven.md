@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5
+    pipeline_version: 68215a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:35:29Z'
+  generated_at: '2026-05-13T12:40:36Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:36:29Z'
+    confirmed_at: '2026-05-13T12:41:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Significante PDF-extractie-artefacten blijven. Artikel-nummering klopt niet: '## Art. 81' (regel 134), '## Art. 82' (regel 211), '## Art. 83' (regel 220) — dit zijn in werkelijkheid Art. 8/1, 8/2, 8/3, want amendment-blok refereert expliciet 'KB nr. 4, artikel 8/1, § 2'. De heading-extractie negeert de slash. Regel 153: 'btwtarief' zonder koppelteken (uitbreiding fix_pdftotext_glue_bugs heeft dit niet gevangen). Regel 244: 'artikel. 9' met eigenaardige punt. Lange Art. 8/1-paragrafen met mid-sentence linebreaks (regels 161, 188-190)."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:29Z'
+      run_at: '2026-05-13T12:41:24Z'
       rationale: "Significante PDF-extractie-artefacten blijven. Artikel-nummering klopt niet: '## Art. 81' (regel 134), '## Art. 82' (regel 211), '## Art. 83' (regel 220) — dit zijn in werkelijkheid Art. 8/1, 8/2, 8/3, want amendment-blok refereert expliciet 'KB nr. 4, artikel 8/1, § 2'. De heading-extractie negeert de slash. Regel 153: 'btwtarief' zonder koppelteken (uitbreiding fix_pdftotext_glue_bugs heeft dit niet gevangen). Regel 244: 'artikel. 9' met eigenaardige punt. Lange Art. 8/1-paragrafen met mid-sentence linebreaks (regels 161, 188-190)."
       concrete_problemen:
         - "Regels 134, 211, 220: '## Art. 81/82/83' zijn in werkelijkheid Art. 8/1, 8/2, 8/3 (slash genegeerd in heading-extractie)"
@@ -129,7 +129,7 @@ De vordering tot teruggaaf van die belasting, nalatigheidsinteresten en geldboet
 
 De krachtens artikel 5 bij wijze van toerekening terug te geven belasting wordt, ten aanzien van de belastingplichtige die gehouden is de in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde aangifte in te dienen, gevoegd bij de belasting waarvoor het recht op aftrek wordt uitgeoefend overeenkomstig artikel 4 van het koninklijk besluit nr. 3 met betrekking tot de aftrekregeling voor de toepassing van de belasting over de toegevoegde waarde.
 
-## Art. 81
+## Art. 8/1
 (De tekst van KB nr. 4, artikel 8/1, § 2, eerste lid, 4°, werd hersteld; tweede lid, werd vervangen; § 3, derde lid, werd gewijzigd; § 5, zesde lid, werd gewijzigd; § 5, achtste lid, werd vervangen en § 5 werd aangevuld met een lid, met ingang van 01.01.2020 (Art. 1, KB 29.08.2019, B.S. 05.09.2019, pg. 84332). En § 3, tweede en vierde lid, werden gewijzigd, eveneens met ingang van 01.01.2020 (Art. 29, KB 09.12.2019, B.S. 16.12.2019 – Ed. 2, pg. 113850))
 
 § 1. Wanneer volgens de gegevens van de in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde aangifte, het eindresultaat een door de Staat verschuldigd bedrag is, wordt dat bedrag naar het volgende aangiftetijdvak overgebracht.
@@ -148,9 +148,7 @@ b) leveringen van goederen en diensten heeft verricht welke van de belasting zij
 
 c) leveringen van goederen en diensten heeft verricht waarvoor de belasting verschuldigd is door de medecontractant overeenkomstig de artikelen 51, § 2, eerste lid, 5° en 51, § 4, van het Wetboek;
 
-d) leveringen van goederen en diensten heeft verricht waarvoor het verlaagd btw-tarief van toepassing is overeenkomstig de rubrieken XXXI, XXXII, XXXIII, XXXVI, XXXVII, XXXVIII en XL van tabel A van de bijlage bij het koninklijk besluit nr. 20 van 20 juli 1970 tot vaststelling van de tarieven van de belasting over de
-
-toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven;
+d) leveringen van goederen en diensten heeft verricht waarvoor het verlaagd btw-tarief van toepassing is overeenkomstig de rubrieken XXXI, XXXII, XXXIII, XXXVI, XXXVII, XXXVIII en XL van tabel A van de bijlage bij het koninklijk besluit nr. 20 van 20 juli 1970 tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven;
 
 e) leveringen van goederen en diensten heeft verricht die in het buitenland plaatsvinden voor zover het overschot voortvloeit uit de voorfinanciering van de belasting geheven op deze goederen en diensten.
 
@@ -164,9 +162,7 @@ Indien de in het eerste lid bedoelde belastingschuld in hoofde van de administra
 
 De ordonnancering of de verrichting gelijkgesteld met een betaling, geschiedt uiterlijk de derde maand volgend op het tijdvak waarop de kwartaalaangifte of de aangifte van de laatste maand van dit kwartaal betrekking heeft. Ze geschiedt evenwel uiterlijk de tweede maand volgend op het tijdvak waarop de maandaangifte betrekking heeft in de gevallen bedoeld in paragraaf 2, eerste lid, 3° en 4°.
 
-Indien de in het eerste lid bedoelde belastingschuld in het voordeel van de administratie geen schuldvordering vormt die geheel of gedeeltelijk zeker, opeisbaar en vaststaand is, wat onder meer het geval is wanneer ze wordt betwist of wanneer ze werd opgenomen in een innings- en invorderingsregister bedoeld in artikel 85 van het Wetboek, waarvan de tenuitvoerlegging werd gestuit door de vordering in rechte bedoeld in artikel 19, § 2, eerste lid van het Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen, wordt het belastingkrediet tot het beloop van de schuldvordering van de administratie ingehouden. Deze
-
-inhouding geldt als bewarend beslag onder derden tot het geschil definitief wordt beëindigd op administratieve wijze of bij wijze van een in kracht van gewijsde gegaan vonnis of arrest. Voor de toepassing van deze inhouding wordt de voorwaarde vereist door artikel 1413 van het Gerechtelijk Wetboek geacht te zijn vervuld.
+Indien de in het eerste lid bedoelde belastingschuld in het voordeel van de administratie geen schuldvordering vormt die geheel of gedeeltelijk zeker, opeisbaar en vaststaand is, wat onder meer het geval is wanneer ze wordt betwist of wanneer ze werd opgenomen in een innings- en invorderingsregister bedoeld in artikel 85 van het Wetboek, waarvan de tenuitvoerlegging werd gestuit door de vordering in rechte bedoeld in artikel 19, § 2, eerste lid van het Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen, wordt het belastingkrediet tot het beloop van de schuldvordering van de administratie ingehouden. Deze inhouding geldt als bewarend beslag onder derden tot het geschil definitief wordt beëindigd op administratieve wijze of bij wijze van een in kracht van gewijsde gegaan vonnis of arrest. Voor de toepassing van deze inhouding wordt de voorwaarde vereist door artikel 1413 van het Gerechtelijk Wetboek geacht te zijn vervuld.
 
 Indien ten aanzien van een voor teruggaaf vatbaar overschot dat blijkt uit de aangifte als bedoeld in artikel 53, § 1, eerste lid, 2° , van het Wetboek en waarvoor de belastingplichtige al dan niet voor de teruggaaf heeft geopteerd, hetzij ernstige vermoedens, hetzij bewijzen bestaan dat de voormelde aangifte of de aangiften voor daaraan voorafgaande perioden gegevens bevatten die onjuist zijn en een belastingschuld in het vooruitzicht stellen zonder dat een daadwerkelijke bepaling ervan vóór het tijdstip van de genoemde ordonnancering of de verrichting gelijkgesteld met een betaling kan geschieden, heeft de ordonnancering van dit overschot of de overbrenging ervan naar het volgend aangiftetijdvak niet plaats en wordt het belastingkrediet ingehouden teneinde de administratie toe te laten de waarachtigheid van die gegevens na te gaan.
 
@@ -206,7 +202,7 @@ Indien de vergunning, die werd afgeleverd, werd verkregen op grond van een onjui
 
 De administratie kan eveneens tijdelijk of definitief het recht op teruggaaf bedoeld in paragraaf 2, eerste lid, 4°, intrekken indien die werd verkregen op grond van een onjuiste verklaring, indien de belastingplichtige de door het Wetboek en door de besluiten genomen ter uitvoering ervan opgelegde verplichtingen niet nakomt of in het geval bedoeld in paragraaf 3, vijfde lid.
 
-## Art. 82
+## Art. 8/2
 (De tekst van KB nr. 4, artikel 8/2, eerste lid, werd gewijzigd met ingang van 01.04.2019 (Art. 3, KB 17.03.2019, B.S. 08.04.2019, pg. 35699). Dit besluit (KB 17.03.2019) is niet van toepassing op het dwangbevel dat werd kennisgegeven of betekend vóór de datum van zijn inwerkingtreding – 01.04.2019 (Art. 23, KB 17.03.2019))
 
 Indien de bijzondere rekening, die bijgehouden wordt overeenkomstig artikel 8 § 1, van het koninklijk besluit nr. 24 met betrekking tot de voldoening van de belasting over de toegevoegde waarde, sluit met een overschot in het voordeel van de belastingplichtige, wordt dat overschot, zonder onderscheid naargelang de belastingplichtige al dan niet geopteerd heeft voor de teruggaaf bedoeld in artikel 8/1, § 2, naargelang van het geval, toegerekend of ingehouden met toepassing van de regelen vervat in artikel 8/1, § 3, tot beloop van de belastingschuld die aan te zuiveren is op het tijdstip van de ordonnancering van het overschot overeenkomstig het koninklijk besluit van 17 juli 1991 houdende coördinatie van de wetten op de Rijkscomptabiliteit of op dat tijdstip de verrichting gelijkgesteld met een betaling, wanneer de belastingplichtige op dat tijdstip uit hoofde van de belasting over de toegevoegde waarde, belasting, geldboeten, nalatigheidsinteresten of bijkomende kosten verschuldigd is.
@@ -215,7 +211,7 @@ Na aanwending tot het passend beloop van de belastingschuld wordt het overblijve
 
 De termijnen inzake ordonnancering voorzien in artikel 8/1, § 3, derde lid, zijn niet van toepassing op de teruggaaf bedoeld in onderhavig artikel.
 
-## Art. 83
+## Art. 8/3
 (De tekst van KB nr. 4, artikel 8/3, derde en vijfde lid, werd gewijzigd met ingang van 01.01.2020 (Art. 30, KB 09.12.2019, B.S. 16.12.2019 – Ed. 2, pg. 113850))
 
 Wanneer volgens de gegevens van de aangifte bedoeld in artikel 53ter, 1°, van het Wetboek het eindresultaat een door de Staat verschuldigd bedrag is, wordt dat bedrag aan de belastingplichtige of de niet-belastingplichtige rechtspersoon teruggegeven. De ondertekende aangifte geldt als aanvraag tot teruggaaf.
@@ -226,9 +222,7 @@ Indien de onder in het tweede lid bedoelde belastingschuld, in hoofde van de adm
 
 De ordonnancering geschiedt uiterlijk de derde maand volgend op het aangiftetijdvak waarop de aangifte bedoeld in artikel 53ter, 1°, van het Wetboek betrekking heeft.
 
-Indien de in het tweede lid bedoelde belastingschuld in het voordeel van de administratie geen schuldvordering vormt die geheel of gedeeltelijk zeker, opeisbaar of vaststaand is, wat onder meer het geval is wanneer ze wordt betwist of wanneer ze werd opgenomen in een innings- en invorderingsregister bedoeld in artikel 85 van het Wetboek, waarvan de tenuitvoerlegging werd
-
-gestuit door de vordering in rechte bedoeld in artikel 19, § 2, eerste lid van het Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen, wordt het belastingkrediet tot het beloop van de schuldvordering van de administratie ingehouden. Deze inhouding geldt als bewarend beslag onder derden tot het geschil definitief wordt beëindigd op administratieve wijze of bij wijze van een in kracht van gewijsde gegaan vonnis of arrest. Voor de toepassing van deze inhouding wordt de voorwaarde vereist door artikel 1413 van het Gerechtelijk Wetboek geacht te zijn vervuld.
+Indien de in het tweede lid bedoelde belastingschuld in het voordeel van de administratie geen schuldvordering vormt die geheel of gedeeltelijk zeker, opeisbaar of vaststaand is, wat onder meer het geval is wanneer ze wordt betwist of wanneer ze werd opgenomen in een innings- en invorderingsregister bedoeld in artikel 85 van het Wetboek, waarvan de tenuitvoerlegging werd gestuit door de vordering in rechte bedoeld in artikel 19, § 2, eerste lid van het Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen, wordt het belastingkrediet tot het beloop van de schuldvordering van de administratie ingehouden. Deze inhouding geldt als bewarend beslag onder derden tot het geschil definitief wordt beëindigd op administratieve wijze of bij wijze van een in kracht van gewijsde gegaan vonnis of arrest. Voor de toepassing van deze inhouding wordt de voorwaarde vereist door artikel 1413 van het Gerechtelijk Wetboek geacht te zijn vervuld.
 
 Indien ten aanzien van een voor teruggaaf vatbaar overschot dat blijkt uit de aangifte als bedoeld in artikel 53ter, 1°, van het Wetboek, hetzij ernstige vermoedens, hetzij bewijzen bestaan dat de voormelde aangifte of de aangiften voor daaraan voorafgaande perioden gegevens bevatten die onjuist zijn of dat aangiften niet werden ingediend en deze vermoedens of bewijzen een belastingschuld in het vooruitzicht stellen zonder dat een daadwerkelijke bepaling ervan vóór het tijdstip van de hierboven genoemde ordonnancering kan geschieden, heeft de ordonnancering van dit overschot niet plaats en wordt het belastingkrediet ingehouden teneinde de administratie toe te laten de waarachtigheid van die gegevens na te gaan.
 
@@ -245,9 +239,7 @@ De regels vermeld in het achtste tot het twaalfde lid van artikel 8/1, § 3, zij
 
 De teruggaaf is afhankelijk van het bewijs van de betaling van de belasting.
 
-§ 2. Wanneer de rechthebbende op teruggaaf een buiten de Gemeenschap gevestigde belastingplichtige is die in België niet voor BTW-doeleinden is geïdentificeerd of een nietbelastingplichtige rechtspersoon die niet in België is gevestigd en er geen belastbare handelingen verricht andere dan de intracommunautaire verwerving van nieuwe vervoermiddelen als bedoeld in artikel 8bis, § 2, van het Wetboek, moet hij een aanvraag tot teruggaaf
-
-indienen bij het hoofd van het Centraal BTW-kantoor voor buitenlandse belastingplichtigen. De aanvraag moet bij die ambtenaar toekomen, in drie exemplaren, uiterlijk op 30 september van het kalenderjaar volgend op het tijdvak waarop het teruggaafverzoek betrekking heeft. Op de aanvraag tot teruggaaf wordt niet ingegaan indien zij betrekking heeft op een bedrag van minder dan 25 euro.
+§ 2. Wanneer de rechthebbende op teruggaaf een buiten de Gemeenschap gevestigde belastingplichtige is die in België niet voor BTW-doeleinden is geïdentificeerd of een nietbelastingplichtige rechtspersoon die niet in België is gevestigd en er geen belastbare handelingen verricht andere dan de intracommunautaire verwerving van nieuwe vervoermiddelen als bedoeld in artikel 8bis, § 2, van het Wetboek, moet hij een aanvraag tot teruggaaf indienen bij het hoofd van het Centraal BTW-kantoor voor buitenlandse belastingplichtigen. De aanvraag moet bij die ambtenaar toekomen, in drie exemplaren, uiterlijk op 30 september van het kalenderjaar volgend op het tijdvak waarop het teruggaafverzoek betrekking heeft. Op de aanvraag tot teruggaaf wordt niet ingegaan indien zij betrekking heeft op een bedrag van minder dan 25 euro.
 
 § 3. Om teruggaaf van de belasting te verkrijgen moet de niet op het grondgebied van de Gemeenschap gevestigde belastingplichtige die gebruik maakt van de in artikel 58ter van het Wetboek bedoelde bijzondere regeling, een aanvraag tot teruggaaf indienen bij het hoofd van het Centraal btw-kantoor voor buitenlandse belastingplichtigen.
 

@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5
+    pipeline_version: 68215a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:35:30Z'
+  generated_at: '2026-05-13T12:40:37Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:36:28Z'
+    confirmed_at: '2026-05-13T12:41:23Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Net als KB41 zware kolom-bleed in de hele bijlage: 2-koloms PDF-tabel (overtreding | boete) is in plain text gemerged. Voorbeelden: 'B. Laattijdig indienen 100 EUR per aangifte en per maand vertraging1 met een maximum...' (regel 89). De boete-bedragen kleven aan de overtredingsbeschrijving. Geen pipe-syntax. Bijlage is daardoor onbruikbaar voor retrieval als gestructureerde data."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:28Z'
+      run_at: '2026-05-13T12:41:23Z'
       rationale: "Net als KB41 zware kolom-bleed in de hele bijlage: 2-koloms PDF-tabel (overtreding | boete) is in plain text gemerged. Voorbeelden: 'B. Laattijdig indienen 100 EUR per aangifte en per maand vertraging1 met een maximum...' (regel 89). De boete-bedragen kleven aan de overtredingsbeschrijving. Geen pipe-syntax. Bijlage is daardoor onbruikbaar voor retrieval als gestructureerde data."
       concrete_problemen:
         - 'Hele bijlage (regels 81-351) is kolom-bleed: overtreding en bijhorende boete staan zonder scheiding op zelfde regel'
@@ -149,9 +149,7 @@ b) Vertraging van maximum 9 maanden - nihil-lijst: 150 EUR
 
 c) vertraging van meer dan 9 maanden 3.000 EUR per lijst
 
-C. Onregelmatigheden
-
-a) ontbrekende gegevens 150 EUR per ontbrekend gegeven met een maximum van 1.350 EUR
+C. Onregelmatigheden a) ontbrekende gegevens 150 EUR per ontbrekend gegeven met een maximum van 1.350 EUR
 
 b) verkeerde gegevens
 - de juiste gegevens worden 25 EUR per verkeerd gegeven met meegedeeld binnen de twee een minimum van 50 EUR en een maanden volgend op de datum van maximum van 750 EUR werkelijke indiening - andere gevallen 50 EUR per verkeerd gegeven met een maximum van 1.200 EUR
@@ -172,9 +170,7 @@ b) vertraging van maximum 6 maanden - deel 1 : 75 EUR per te vermelden persoon -
 c) vertraging van meer dan 6 maanden - deel 1 : 3.000 EUR
 - deel 2 : 1.500 EUR
 
-C. Onregelmatigheden
-
-a) Ontbrekende gegevens - deel 1 : 150 EUR per ontbrekend gegeven
+C. Onregelmatigheden a) Ontbrekende gegevens - deel 1 : 150 EUR per ontbrekend gegeven
 - deel 2 : 50 EUR per ontbrekend gegeven met een maximum van 1.350 EUR
 
 b) Verkeerde gegevens
@@ -193,17 +189,13 @@ A. Niet indienen 3.000 EUR per document
 
 B. Laattijdig indienen Per document :
 
-a) vertraging van maximum 2 maanden 25 EUR per te vermelden levering
-
-met een minimum van 75 EUR en een maximum van 1.500 EUR
+a) vertraging van maximum 2 maanden 25 EUR per te vermelden levering met een minimum van 75 EUR en een maximum van 1.500 EUR
 
 b) vertraging van maximum 6 maanden 75 EUR per te vermelden levering met een minimum van 225 EUR en een maximum van 2.250 EUR
 
 c) vertraging van meer dan 6 maanden 3.000 EUR per document
 
-C. Onregelmatigheden
-
-a) Ontbrekende gegevens 150 EUR per ontbrekend gegeven met een maximum van 1.350 EUR
+C. Onregelmatigheden a) Ontbrekende gegevens 150 EUR per ontbrekend gegeven met een maximum van 1.350 EUR
 
 b) Verkeerde gegevens
 - de juiste gegevens werden 25 EUR per verkeerd gegeven met opgenomen in de volgende in te een minimum van 50 EUR en een dienen lijst maximum van 750 EUR

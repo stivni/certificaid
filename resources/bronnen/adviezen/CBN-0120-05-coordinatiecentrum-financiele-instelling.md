@@ -29,7 +29,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:25Z'
+    confirmed_at: '2026-05-13T12:41:21Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen artefacten gevonden in body of frontmatter. Korte advies-tekst (1580 tekens) met twee alinea's, correct als lopende proza gepresenteerd, geen headings nodig. Laag-1 pass correct. Frontmatter volledig en consistent met inhoud.
     layer1:
@@ -43,7 +43,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:25Z'
+      run_at: '2026-05-13T12:41:21Z'
       rationale: Geen artefacten gevonden in body of frontmatter. Korte advies-tekst (1580 tekens) met twee alinea's, correct als lopende proza gepresenteerd, geen headings nodig. Laag-1 pass correct. Frontmatter volledig en consistent met inhoud.
       concrete_problemen: []
 ---

@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5
+    pipeline_version: 68215a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:35:30Z'
+  generated_at: '2026-05-13T12:40:37Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:28Z'
+    confirmed_at: '2026-05-13T12:41:23Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Korte, schone KB-tekst. Heading-hiërarchie consistent (## Art. 1 t/m 10), amendment-headers in italics tussen haakjes per artikel. Geen PDF-artefacten, geen scrambled volgorde, geen running headers. Frontmatter klopt met body-titel.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:28Z'
+      run_at: '2026-05-13T12:41:23Z'
       rationale: Korte, schone KB-tekst. Heading-hiërarchie consistent (## Art. 1 t/m 10), amendment-headers in italics tussen haakjes per artikel. Geen PDF-artefacten, geen scrambled volgorde, geen running headers. Frontmatter klopt met body-titel.
       concrete_problemen: []
 ---
@@ -88,9 +88,7 @@ Wanneer de in het vorige lid bedoelde persoon het vervoermiddel op zijn naam wen
 (De tekst van KB nr. 46, artikel 7, is van toepassing met ingang van 01.12.1994 (Art.25, KB 22.11.1994))
 
 De in artikel 1 bedoelde bijzondere aangifte moet worden ingediend vóór het verstrijken van de maand die volgt op deze waarin het belastbaar feit plaatsvindt.
-Wanneer het vervoermiddel een luchtvaartuig of landvoertuig is waarvoor overeenkomstig de reglementering betreffende de luchtvaart of de inschrijving van motorvoertuigen een inschrijvingsbewijs moet worden aangevraagd, of wanneer het een schip is waarvoor een vlaggebrief wordt aangevraagd, dient de bijzondere aangifte te worden ingediend vóór de
-
-indiening van de aanvraag om inschrijving of uitreiking van de vlaggebrief, doch binnen de in het eerste lid bedoelde termijn.
+Wanneer het vervoermiddel een luchtvaartuig of landvoertuig is waarvoor overeenkomstig de reglementering betreffende de luchtvaart of de inschrijving van motorvoertuigen een inschrijvingsbewijs moet worden aangevraagd, of wanneer het een schip is waarvoor een vlaggebrief wordt aangevraagd, dient de bijzondere aangifte te worden ingediend vóór de indiening van de aanvraag om inschrijving of uitreiking van de vlaggebrief, doch binnen de in het eerste lid bedoelde termijn.
 
 ## Art. 8
 (De tekst van KB nr. 46, artikel 8, is van toepassing met ingang van 01.12.1994 (Art.26, KB 22.11.1994))

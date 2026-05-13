@@ -27,7 +27,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:18Z'
+    confirmed_at: '2026-05-13T12:41:14Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Kort maar volledig zelfstandig advies (449 chars): twee bullets die de behandeling van afgezonderde warranten correct beschrijven. Geen ETL-artefacten, geen afgekapte zinnen. Heading gebruikt '139-4' (koppelteken) i.p.v. '139/4' (slash) — dit is een bronkeuze, geen ETL-bug. Inhoud volledig voor wat dit advies beoogt."
     layer1:
@@ -41,7 +41,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:18Z'
+      run_at: '2026-05-13T12:41:14Z'
       rationale: "Kort maar volledig zelfstandig advies (449 chars): twee bullets die de behandeling van afgezonderde warranten correct beschrijven. Geen ETL-artefacten, geen afgekapte zinnen. Heading gebruikt '139-4' (koppelteken) i.p.v. '139/4' (slash) — dit is een bronkeuze, geen ETL-bug. Inhoud volledig voor wat dit advies beoogt."
       concrete_problemen: []
 ---

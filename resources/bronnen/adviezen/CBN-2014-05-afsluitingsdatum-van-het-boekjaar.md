@@ -27,7 +27,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:21Z'
+    confirmed_at: '2026-05-13T12:41:17Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct, tekst leest als mens-geschreven markdown. Kort en inhoudelijk volledig advies.
     layer1:
@@ -41,7 +41,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:21Z'
+      run_at: '2026-05-13T12:41:17Z'
       rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct, tekst leest als mens-geschreven markdown. Kort en inhoudelijk volledig advies.
       concrete_problemen: []
 ---

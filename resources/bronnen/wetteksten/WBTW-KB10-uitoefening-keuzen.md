@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5
+    pipeline_version: 68215a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:35:29Z'
+  generated_at: '2026-05-13T12:40:36Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:36:29Z'
+    confirmed_at: '2026-05-13T12:41:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Structuur OK maar meerdere problemen blijven. Regel 73: 'belasting over de toegevoegde waaronder hij ressorteert' — afgekapte zin, ontbrekend 'waarde' (source-typo of ETL?). Regel 98-99: 'koninklijk besluit nr.\\n4,' — spurious linebreak in referentie. Regel 120-121: 'artikel 51, § 2, eerste lid,\\n1°,' — spurious linebreak in artikel-referentie. Pattern komt herhaaldelijk voor; merge_article_reference_wraps heeft deze niet gevangen."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:29Z'
+      run_at: '2026-05-13T12:41:24Z'
       rationale: "Structuur OK maar meerdere problemen blijven. Regel 73: 'belasting over de toegevoegde waaronder hij ressorteert' — afgekapte zin, ontbrekend 'waarde' (source-typo of ETL?). Regel 98-99: 'koninklijk besluit nr.\\n4,' — spurious linebreak in referentie. Regel 120-121: 'artikel 51, § 2, eerste lid,\\n1°,' — spurious linebreak in artikel-referentie. Pattern komt herhaaldelijk voor; merge_article_reference_wraps heeft deze niet gevangen."
       concrete_problemen:
         - "Regel 73: 'belasting over de toegevoegde waaronder' — ontbrekend 'waarde' (afgekapte zin)"
@@ -68,9 +68,7 @@ Indien de aangever niet in België is gevestigd en hij geen aansprakelijke verte
 
 Wordt ontheven van de verplichting tot aangifte bedoeld in het eerste lid, de persoon die in de uitoefening van zijn economische activiteit uitsluitend handelingen verricht die bij toepassing van artikel 44 van het Wetboek zijn vrijgesteld en die hem geen recht op aftrek verlenen met uitzondering van de zelfstandige groeperingen van personen bedoeld in artikel 44, § 2bis, van het Wetboek.
 
-De in artikel 44, § 2bis, van het Wetboek bedoelde zelfstandige groepering van personen is er overeenkomstig artikel 44, § 2bis, derde en vierde lid, van het Wetboek eveneens toe gehouden binnen de maand die volgt op de aanvang van haar activiteit aan de bevoegde dienst van de administratie belast met de belasting over de toegevoegde waarde op papier of in elektronisch
-
-formaat een lijst voor te leggen met de naam, rechtsvorm, adres, ondernemingsnummer en de aard van de activiteit van haar leden.
+De in artikel 44, § 2bis, van het Wetboek bedoelde zelfstandige groepering van personen is er overeenkomstig artikel 44, § 2bis, derde en vierde lid, van het Wetboek eveneens toe gehouden binnen de maand die volgt op de aanvang van haar activiteit aan de bevoegde dienst van de administratie belast met de belasting over de toegevoegde waarde op papier of in elektronisch formaat een lijst voor te leggen met de naam, rechtsvorm, adres, ondernemingsnummer en de aard van de activiteit van haar leden.
 
 ## Art. 2
 (In de tekst van KB nr. 10, artikel 2, werd tussen het eerste en het tweede lid, een nieuw lid ingevoegd met ingang van 05.12.2019 (Art. 9, KB 07.11.2019, B.S. 25.11.2019, pg. 108072))
@@ -120,9 +118,7 @@ De praktische toepassingsmodaliteiten van het eerste en tweede lid worden gerege
 ## Art. 7
 (De tekst van KB nr. 10, artikel 7, eerste lid, werd gewijzigd met ingang van 22.07.2019 (Art. 5, KB 28.06.2019, B.S. 12.07.2019, pg. 70370))
 
-Iedere belastingplichtige, die leveringen van goederen verricht als bedoeld in artikel 15, § 2, eerste lid, 1°, van het Wetboek, waarvan het bedrag tijdens het voorafgaande kalenderjaar of, op het tijdstip van de levering tijdens het lopende kalenderjaar, de drempel niet overschrijdt zoals die bij toepassing van artikel 34 van de richtlijn 2006/112/EG van de Raad van 28 november 2006, door de lidstaat van aankomst van de verzending of het vervoer naar de koper
-
-is vastgesteld en die ervoor kiest dat de plaats van deze leveringen van goederen wordt bepaald overeenkomstig artikel 15, § 2, eerste lid, van het Wetboek, moet hiervan de bevoegde ambtenaar van de dienst van de administratie waaronder hij ressorteert op de hoogte brengen bij ter post aangetekende brief.
+Iedere belastingplichtige, die leveringen van goederen verricht als bedoeld in artikel 15, § 2, eerste lid, 1°, van het Wetboek, waarvan het bedrag tijdens het voorafgaande kalenderjaar of, op het tijdstip van de levering tijdens het lopende kalenderjaar, de drempel niet overschrijdt zoals die bij toepassing van artikel 34 van de richtlijn 2006/112/EG van de Raad van 28 november 2006, door de lidstaat van aankomst van de verzending of het vervoer naar de koper is vastgesteld en die ervoor kiest dat de plaats van deze leveringen van goederen wordt bepaald overeenkomstig artikel 15, § 2, eerste lid, van het Wetboek, moet hiervan de bevoegde ambtenaar van de dienst van de administratie waaronder hij ressorteert op de hoogte brengen bij ter post aangetekende brief.
 
 Deze brief moet vermelden:
 

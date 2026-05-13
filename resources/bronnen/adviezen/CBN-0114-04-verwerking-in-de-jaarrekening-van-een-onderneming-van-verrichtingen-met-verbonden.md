@@ -42,7 +42,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:23Z'
+    confirmed_at: '2026-05-13T12:41:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Kort advies (1778 chars), één alinea-blok + één voetnoot. Geen detecteerbare extractie-artefacten in alle categorieën A–G. Italieken (*de jure*, *de facto*) correct geopend en gesloten. Enige en-dash in frontmatter staat in een gerelateerd-advies-titel (niet in de body) en is niet problematisch. Inhoud compleet.
     layer1:
@@ -56,7 +56,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:23Z'
+      run_at: '2026-05-13T12:41:19Z'
       rationale: Kort advies (1778 chars), één alinea-blok + één voetnoot. Geen detecteerbare extractie-artefacten in alle categorieën A–G. Italieken (*de jure*, *de facto*) correct geopend en gesloten. Enige en-dash in frontmatter staat in een gerelateerd-advies-titel (niet in de body) en is niet problematisch. Inhoud compleet.
       concrete_problemen: []
 ---

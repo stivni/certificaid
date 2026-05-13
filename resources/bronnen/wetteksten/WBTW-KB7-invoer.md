@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5
+    pipeline_version: 68215a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:35:29Z'
+  generated_at: '2026-05-13T12:40:36Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:36:29Z'
+    confirmed_at: '2026-05-13T12:41:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Hoofdtekst (47 artikelen verspreid over 6 hoofdstukken) is structureel sterk en de fix_pdftotext_glue_bugs uitbreiding heeft 'btwidentificatienummer' aangepakt (regel 855 toont nu correct 'btw-identificatienummer'). Echter regel 855 (Art. 39 §1) bevat nog steeds de afgekapte zin '...artikel 39bis, eerste lid, 4°, van het Bovendien is...' — ontbrekend woord (waarschijnlijk 'Wetboek.') tussen 'het' en 'Bovendien'. Bijlage (regels 1083-1106) heeft nog zware table-bleed: GN-codes en omschrijvingen versmolten zonder pipe-syntax. Regels 968-994 en 1021-1034 hebben tabak/alcohol/koffie pseudo-tabel-bleed met hoeveelheden midden in lopende tekst."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:29Z'
+      run_at: '2026-05-13T12:41:24Z'
       rationale: "Hoofdtekst (47 artikelen verspreid over 6 hoofdstukken) is structureel sterk en de fix_pdftotext_glue_bugs uitbreiding heeft 'btwidentificatienummer' aangepakt (regel 855 toont nu correct 'btw-identificatienummer'). Echter regel 855 (Art. 39 §1) bevat nog steeds de afgekapte zin '...artikel 39bis, eerste lid, 4°, van het Bovendien is...' — ontbrekend woord (waarschijnlijk 'Wetboek.') tussen 'het' en 'Bovendien'. Bijlage (regels 1083-1106) heeft nog zware table-bleed: GN-codes en omschrijvingen versmolten zonder pipe-syntax. Regels 968-994 en 1021-1034 hebben tabak/alcohol/koffie pseudo-tabel-bleed met hoeveelheden midden in lopende tekst."
       concrete_problemen:
         - "Regel 855: 'van het Bovendien is...' — afgekapte zin in Art. 39 §1"
@@ -539,9 +539,7 @@ In de overige gevallen mag het uitlenen, verhuren of overdragen pas plaatsvinden
 
 § 6. De in paragraaf 1 bedoelde instellingen of organisaties die niet langer voldoen aan de voorwaarden voor vrijstelling, of die een met vrijstelling ingevoerd voorwerp voor andere doeleinden willen gebruiken dan die bedoeld in voornoemde paragraaf, dienen de administratie daarvan in kennis te stellen.
 
-Voorwerpen die in het bezit blijven van de instellingen of organisaties die niet langer voldoen aan de voorwaarden om voor vrijstelling in aanmerking te komen, zijn onderworpen aan de toepassing van de belasting, tegen het tarief dat van kracht is op de datum waarop genoemde
-
-voorwaarden niet langer worden vervuld en over de op diezelfde datum vastgestelde maatstaf van heffing.
+Voorwerpen die in het bezit blijven van de instellingen of organisaties die niet langer voldoen aan de voorwaarden om voor vrijstelling in aanmerking te komen, zijn onderworpen aan de toepassing van de belasting, tegen het tarief dat van kracht is op de datum waarop genoemde voorwaarden niet langer worden vervuld en over de op diezelfde datum vastgestelde maatstaf van heffing.
 
 Voorwerpen die door de instelling of organisatie die vrijstelling geniet worden gebruikt voor andere doeleinden dan bedoeld in paragraaf 3 zijn onderworpen aan de toepassing van de belasting, tegen het tarief dat van kracht is op de datum waarop zij voor een ander gebruik worden bestemd en over de op diezelfde datum vastgestelde maatstaf van heffing.
 
@@ -756,9 +754,7 @@ De belanghebbende kan evenwel, met toestemming en onder toezicht van de administ
 3° "normale reservoirs":
 
 a) de door de fabrikant blijvend in of aan alle motorvoertuigen van hetzelfde type als het betrokken voertuig aangebrachte reservoirs, waarvan de blijvende inrichting het rechtstreekse verbruik van brandstof mogelijk maakt, zowel voor de voortbeweging van de voertuigen als, in voorkomend geval, voor de werking, tijdens het vervoer, van koel- en andere systemen alsmede de gasreservoirs die zijn aangebracht in motorvoertuigen en die het rechtstreekse verbruik van gas als brandstof mogelijk maken, en de op andere systemen aangesloten reservoirs waarmee die voertuigen eventueel zijn uitgerust;
-b) de door de fabrikant blijvend in of aan alle containers van hetzelfde type als de betrokken container aangebrachte reservoirs, waarvan de blijvende inrichting het rechtstreekse verbruik van de brandstof mogelijk maakt voor de werking,
-
-gedurende het vervoer, van koel- en andere systemen waarmee de containers voor speciale doeleinden zijn uitgerust;
+b) de door de fabrikant blijvend in of aan alle containers van hetzelfde type als de betrokken container aangebrachte reservoirs, waarvan de blijvende inrichting het rechtstreekse verbruik van de brandstof mogelijk maakt voor de werking, gedurende het vervoer, van koel- en andere systemen waarmee de containers voor speciale doeleinden zijn uitgerust;
 
 4° "container voor speciale doeleinden", alle containers die zijn uitgerust met inrichtingen die speciaal zijn aangepast voor koelsystemen, systemen voor zuurstoftoevoer, thermische isolatiesystemen of andere systemen.
 
@@ -815,9 +811,7 @@ Vrijstelling van de belasting wordt verleend voor de definitieve invoer van:
 
 22° voorwerpen welke deel uitmaken van verzamelingen en kunstvoorwerpen van opvoedkundige, wetenschappelijke of culturele aard, die niet voor de verkoop zijn bestemd en die worden ingevoerd door musea, kunstgalerijen en andere instellingen die door de Minister van Financiën of zijn gemachtigde toestemming hebben verkregen om deze voorwerpen met vrijstelling in te voeren mits de betrokken voorwerpen om niet worden ingevoerd of, indien invoer geschiedt onder bezwarende titel, dat deze voorwerpen niet door een belastingplichtige worden geleverd;
 
-23° officiële publicaties die het uitdrukkingsmiddel vormen van de overheid van het land of gebied van uitvoer, internationale organisaties en publiekrechtelijke lichamen en instellingen, gevestigd in het land of gebied van uitvoer, alsmede drukwerk dat wordt verspreid ter gelegenheid van de verkiezingen van het Europees Parlement of ter
-
-gelegenheid van nationale verkiezingen die worden georganiseerd vanuit het land van oorsprong door als zodanig in de lidstaten officieel erkende buitenlandse politieke organisaties, voor zover over die publicaties en dat drukwerk in het land of gebied van uitvoer belasting is geheven en zij niet bij uitvoer ontlast zijn;
+23° officiële publicaties die het uitdrukkingsmiddel vormen van de overheid van het land of gebied van uitvoer, internationale organisaties en publiekrechtelijke lichamen en instellingen, gevestigd in het land of gebied van uitvoer, alsmede drukwerk dat wordt verspreid ter gelegenheid van de verkiezingen van het Europees Parlement of ter gelegenheid van nationale verkiezingen die worden georganiseerd vanuit het land van oorsprong door als zodanig in de lidstaten officieel erkende buitenlandse politieke organisaties, voor zover over die publicaties en dat drukwerk in het land of gebied van uitvoer belasting is geheven en zij niet bij uitvoer ontlast zijn;
 
 24° materialen van uiteenlopende aard, zoals kabels, stro, doek, papier, karton, hout en plastic, die worden gebruikt voor het stuwen en de bescherming, met inbegrip van thermische bescherming, van goederen tijdens het vervoer naar het grondgebied van de Gemeenschap mits deze materialen normaliter niet in aanmerking komen om opnieuw te worden gebruikt en de tegenwaarde ervan, overeenkomstig artikel 34 van het Wetboek, deel uitmaakt van de maatstaf van heffing van die goederen;
 
@@ -972,9 +966,7 @@ a) tabaksprodukten:
 - rooktabak 250 gram of
 - een combinatie van tabaksproducten, mits de som van de percentages die van de afzonderlijke vrijstellingen worden gebruikt, niet meer dan 100 pct. bedraagt
 
-b) niet mousserende wijnen in totaal 4 liter
-
-c) bier in totaal 16 liter
+b) niet mousserende wijnen in totaal 4 liter c) bier in totaal 16 liter
 
 d) alcohol en alcoholhoudende dranken andere dan nietmousserende wijnen en bier: - met een alcoholgehalte van meer dan 22 % vol.; niet in totaal 1 liter gedenatureerde ethylalcohol van 80 % vol. en hoger of met een alcoholgehalte van maximaal 22 % vol.; in totaal 2 liter of - een combinatie van alcohol en alcoholhoudende dranken andere dan niet-mousserende wijn en bier, mits de som van de percentages die van de afzonderlijke vrijstellingen worden gebruikt, niet meer dan 100 pct. bedraagt;
 
@@ -984,13 +976,9 @@ a) tabaksprodukten:
 - sigaretten 40 stuks of
 - cigarillo's (sigaren die per stuk niet meer dan 3 gram 20 stuks wegen) of - sigaren 10 stuks of - rooktabak 50 gram of - een combinatie van tabaksproducten, mits de som van de percentages die van de afzonderlijke vrijstellingen worden gebruikt, niet meer dan 100 pct. bedraagt
 
-b) niet mousserende wijnen in totaal 2 liter
+b) niet mousserende wijnen in totaal 2 liter c) bier in totaal 8 liter
 
-c) bier in totaal 8 liter
-
-d) alcohol en alcoholhoudende dranken andere dan nietmousserende wijnen en bier: - met een alcoholgehalte van meer dan 22 % vol.; niet in totaal 0,25 liter gedenatureerde ethylalcohol van 80 % vol. en hoger of
-
-met een alcoholgehalte van maximaal 22 % vol.; in totaal 0,5 liter
+d) alcohol en alcoholhoudende dranken andere dan nietmousserende wijnen en bier: - met een alcoholgehalte van meer dan 22 % vol.; niet in totaal 0,25 liter gedenatureerde ethylalcohol van 80 % vol. en hoger of met een alcoholgehalte van maximaal 22 % vol.; in totaal 0,5 liter
 - of een combinatie van alcohol en alcoholhoudende dranken andere dan niet-mousserende wijn en bier, mits de som van de percentages die van de afzonderlijke vrijstellingen worden gebruikt, niet meer dan 100 pct. bedraagt;
 
 4° voor elke soort motorvoertuig wordt vrijstelling verleend voor de brandstof die zich in het normale reservoir van dat voertuig bevindt, alsmede voor een maximale hoeveelheid van tien liter brandstof in een draagbaar reservoir.
@@ -1020,16 +1008,12 @@ Het overvliegen van een grondgebied zonder landing wordt niet als een reis over 
 
 §3 Voor de hierna vermelde goederen geldt § 2 slechts met inachtneming van de volgende kwantitatieve beperkingen:
 
-a) tabaksprodukten: sigaretten 50 stuks of
-
-cigarillo's (sigaren die per stuk niet meer dan 3 gram 25 stuks wegen) of sigaren 10 stuks of rooktabak 50 gram
+a) tabaksprodukten: sigaretten 50 stuks of cigarillo's (sigaren die per stuk niet meer dan 3 gram 25 stuks wegen) of sigaren 10 stuks of rooktabak 50 gram
 
 b) alcohol en alcoholische dranken:
 - gedistilleerde en alcoholhoudendel dranken, met een 1 fles van het alcoholgehalte van meer dan 22 % vol.; niet gebruikelijke type gedenatureerde ethylalcohol van 80 % vol. en hoger (tot 1 liter) of gedistilleerde en alcoholhoudende dranken, aperitieven op 1 fles van het basis van wijn of van alcohol, tafia, saké of soortgelijke gebruikelijke type dranken met een alcoholgehalte van ten hoogste 22 % (tot 1 liter) vol.; mousserende wijnen, likeurwijnen of - niet-mousserende wijnen 2 liter
 
-c) parfum 50 gram en toiletwater 0,25 liter of 8 ons
-
-d) koffie 500 gram of koffie-extracten en -essences 200 gram
+c) parfum 50 gram en toiletwater 0,25 liter of 8 ons d) koffie 500 gram of koffie-extracten en -essences 200 gram
 
 e) thee 100 gram of thee-extracten en -essences 40 gram.
 
@@ -1080,9 +1064,7 @@ Onze Minister van Financiën is belast met de uitvoering van dit besluit.
 Materiaal bedoeld in artikel 36, 21°, van het besluit
 
 Code van het Tarief Omschrijving van invoerrechten
-3704 00 Fotografische platen, film, papier, karton en textiel, belicht doch niet ontwikkeld: ex 3704 00 10 - Platen en film: - cinematografische films, positief, van opvoedkundige, wetenschappelijke of culturele aard
-
-ex 3705 Fotografische platen en film, belicht en ontwikkeld, andere dan cinematografische film: - van opvoedkundige, wetenschappelijke of culturele aard
+3704 00 Fotografische platen, film, papier, karton en textiel, belicht doch niet ontwikkeld: ex 3704 00 10 - Platen en film: - cinematografische films, positief, van opvoedkundige, wetenschappelijke of culturele aard ex 3705 Fotografische platen en film, belicht en ontwikkeld, andere dan cinematografische film: - van opvoedkundige, wetenschappelijke of culturele aard
 
 3706 Cinematografische film, belicht en ontwikkeld, waarop al dan niet geluid is vastgelegd of waarop uitsluitend geluid is vastgelegd: 3706 10 - met een breedte van 35 mm of meer: -- andere: ex 3706 10 99 --- andere positieve: - filmjournaals (al dan niet met geluid) die gebeurtenissen vertonen welke op het moment van invoer actueel zijn en waarvan ten hoogste twee kopieën per onderwerp voor reproduktiedoeleinden worden ingevoerd - archieffilms (al dan niet met geluid) bestemd om aan nieuwsfilms te worden toegevoegd - ontspanningsfilms die vooral voor kinderen en jongeren geschikt zijn - elders genoemd noch elders onder begrepen, van opvoedkundige, wetenschappelijke of culturele aard 3706 90 - andere: -- andere:
 --- andere positieve: ex 3706 90 51 - filmjournaals (al dan niet met geluid) die ex 3706 90 91 gebeurtenissen vertonen welke op het moment ex 3706 90 99 van invoer actueel zijn en waarvan ten hoogste twee kopieën per onderwerp voor reproduktiedoeleinden worden ingevoerd - archieffilms (al dan niet met geluid) bestemd om aan nieuwsfilms te worden toegevoegd - ontspanningsfilms die vooral voor kinderen en jongeren geschikt zijn - elders genoemd, noch elders onder begrepen, van opvoedkundige, wetenschappelijke of culturele aard
@@ -1096,9 +1078,7 @@ ex 3705 Fotografische platen en film, belicht en ontwikkeld, andere dan cinemato
 van opvoedkundige, wetenschappelijke of culturele aard
 - wandplaten uitsluitend bestemd voor demonstratie- en onderwijsdoeleinden
 
-ex 8524 Grammofoonplaten, banden en andere dragers voor het opnemen van geluid of voor dergelijke doeleinden, waarop is opgenomen, galvanische vormen en matrijzen voor het maken van platen daaronder begrepen, andere dan de goederen bedoeld bij hoofdstuk 37 van het Tarief van invoerrechten: - van opvoedkundige, wetenschappelijke of culturele aard
-
-ex 9023 00 Instrumenten, apparaten, toestellen en modellen, bestemd voor het geven van demonstraties (bijvoorbeeld voor onderwijs of voor (tentoonstellingen), niet bruikbaar voor andere doeleinden: - modellen, maquettes en wandkaarten van opvoedkundige, wetenschappelijke of culturele aard, uitsluitend bestemd voor demonstratie- en onderwijsdoeleinden - verkleinde visuele maquettes of modellen van abstracte vormen zoals molecuulstructuren of wiskunde-formules
+ex 8524 Grammofoonplaten, banden en andere dragers voor het opnemen van geluid of voor dergelijke doeleinden, waarop is opgenomen, galvanische vormen en matrijzen voor het maken van platen daaronder begrepen, andere dan de goederen bedoeld bij hoofdstuk 37 van het Tarief van invoerrechten: - van opvoedkundige, wetenschappelijke of culturele aard ex 9023 00 Instrumenten, apparaten, toestellen en modellen, bestemd voor het geven van demonstraties (bijvoorbeeld voor onderwijs of voor (tentoonstellingen), niet bruikbaar voor andere doeleinden: - modellen, maquettes en wandkaarten van opvoedkundige, wetenschappelijke of culturele aard, uitsluitend bestemd voor demonstratie- en onderwijsdoeleinden - verkleinde visuele maquettes of modellen van abstracte vormen zoals molecuulstructuren of wiskunde-formules
 
 Diversen Hologrammen voor projectie met laserstraal
 Multimediaseries

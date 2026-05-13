@@ -33,7 +33,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:16Z'
+    confirmed_at: '2026-05-13T12:41:10Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen detecteerbare ETL-artefacten. Heading-hiërarchie correct (## en ###), voetnoten volledig en gekoppeld via [^n], lijsten met standaard markdown-bullets, geen spurious line-breaks of OCR-issues. Een buitenstaander zou dit voor mens-geschreven markdown houden.'
     layer1:
@@ -47,7 +47,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:16Z'
+      run_at: '2026-05-13T12:41:10Z'
       rationale: 'Geen detecteerbare ETL-artefacten. Heading-hiërarchie correct (## en ###), voetnoten volledig en gekoppeld via [^n], lijsten met standaard markdown-bullets, geen spurious line-breaks of OCR-issues. Een buitenstaander zou dit voor mens-geschreven markdown houden.'
       concrete_problemen: []
 ---

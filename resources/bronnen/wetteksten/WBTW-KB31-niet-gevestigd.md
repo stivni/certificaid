@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5
+    pipeline_version: 68215a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:35:30Z'
+  generated_at: '2026-05-13T12:40:37Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:29Z'
+    confirmed_at: '2026-05-13T12:41:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "fix_pdftotext_glue_bugs heeft de eerder gevlagde concat-bugs opgelost: 'BTW-identificatienummer' (regels 70, 79, 81, 106), 'douane-entrepot' met koppelteken (regels 66, 88, 90, 92, 94, 96), 'geïdentificeerd' zonder ligaturen, en 'in artikel 2' (regel 170) met spatie. Geen ﬁ/ﬂ ligaturen meer zichtbaar. Hoofdtekst leest natuurlijk; alle artikelen Art. 1-9 als ##-headings met §-structuur intact. De source-typo 'KB nr. 31, artikel, derde lid' (regel 110, ontbrekend artikelnummer) blijft maar is vermoedelijk een bron-fout en niet ETL-gerelateerd. Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streepje-spatie residu — minor cosmetic."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:29Z'
+      run_at: '2026-05-13T12:41:24Z'
       rationale: "fix_pdftotext_glue_bugs heeft de eerder gevlagde concat-bugs opgelost: 'BTW-identificatienummer' (regels 70, 79, 81, 106), 'douane-entrepot' met koppelteken (regels 66, 88, 90, 92, 94, 96), 'geïdentificeerd' zonder ligaturen, en 'in artikel 2' (regel 170) met spatie. Geen ﬁ/ﬂ ligaturen meer zichtbaar. Hoofdtekst leest natuurlijk; alle artikelen Art. 1-9 als ##-headings met §-structuur intact. De source-typo 'KB nr. 31, artikel, derde lid' (regel 110, ontbrekend artikelnummer) blijft maar is vermoedelijk een bron-fout en niet ETL-gerelateerd. Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streepje-spatie residu — minor cosmetic."
       concrete_problemen:
         - "Frontmatter `wet:` veld: 'toepassings- modaliteiten' bevat streep+spatie residu (cosmetic)"
@@ -148,9 +148,7 @@ Door of vanwege de Minister van Financiën kunnen, in voorkomend geval, andere w
 
 Het in het eerste lid bedoelde stuk moet de datum waarop het is opgesteld bevatten, een verwijzing naar de inschrijving in de boekhouding van de medecontractant, de vermeldingen bedoeld in artikel 9, § 2, 2°, 3°, 5°, 6° en 7°, van het koninklijk besluit nr. 1 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde, evenals de datum van de levering van de goederen of van de voltooiing van de dienst en, in de in artikel 53, § 2, eerste lid, 4°, van het Wetboek bedoelde gevallen, de datum waarop de belasting opeisbaar wordt, of, indien de datum niet nauwkeurig kan worden bepaald, het tijdvak waarin de handeling is verricht.
 
-§ 3. Wanneer de persoon voor de in § 1, eerste lid, 2°, bedoelde voldoening de in artikel 53ter, 1°, van het Wetboek bedoelde aangifte een eerste maal moet indienen en hij nog niet
-
-voor de belasting over de toegevoegde waarde is geïdentificeerd bij toepassing van artikel 50 van het Wetboek, dient hij zich vooraf kenbaar te maken bij het controlekantoor van de belasting over de toegevoegde waarde dat bevoegd is voor de plaats waar hij gevestigd is.
+§ 3. Wanneer de persoon voor de in § 1, eerste lid, 2°, bedoelde voldoening de in artikel 53ter, 1°, van het Wetboek bedoelde aangifte een eerste maal moet indienen en hij nog niet voor de belasting over de toegevoegde waarde is geïdentificeerd bij toepassing van artikel 50 van het Wetboek, dient hij zich vooraf kenbaar te maken bij het controlekantoor van de belasting over de toegevoegde waarde dat bevoegd is voor de plaats waar hij gevestigd is.
 
 De persoon bedoeld in § 1, eerste lid, 3°, is eveneens gehouden zich vóór elke storting of overschrijving kenbaar te maken bij het controlekantoor van de BTW dat bevoegd is voor de plaats waar hij gevestigd is.
 

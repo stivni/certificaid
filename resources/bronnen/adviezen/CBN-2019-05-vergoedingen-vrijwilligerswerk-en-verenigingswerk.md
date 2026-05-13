@@ -29,7 +29,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:23Z'
+    confirmed_at: '2026-05-13T12:41:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Kort advies, volledig schoon. Vier headings correct (H1 > H2). Geen artefacten, geen broken italics, geen TOC-fragmenten, geen open-brackets. Voetnoten [^1]–[^8] aanwezig en gesloten. Inhoud volledig.
     layer1:
@@ -43,7 +43,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:23Z'
+      run_at: '2026-05-13T12:41:19Z'
       rationale: Kort advies, volledig schoon. Vier headings correct (H1 > H2). Geen artefacten, geen broken italics, geen TOC-fragmenten, geen open-brackets. Voetnoten [^1]–[^8] aanwezig en gesloten. Inhoud volledig.
       concrete_problemen: []
 ---

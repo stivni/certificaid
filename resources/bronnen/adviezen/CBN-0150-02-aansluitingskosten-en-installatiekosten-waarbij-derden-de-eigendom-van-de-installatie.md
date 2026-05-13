@@ -35,7 +35,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:24Z'
+    confirmed_at: '2026-05-13T12:41:20Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Zeer korte bron (1170 tekens) zonder subkoppen (heading_count: 0, conform Laag-1). Inhoud volledig in één alinea, geen artefacten detecteerbaar in categorieën A-G. Taal vloeiend, geen afgekapte zinnen, geen HTML-entiteiten, geen malformed opmaak.'
     layer1:
@@ -49,7 +49,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:24Z'
+      run_at: '2026-05-13T12:41:20Z'
       rationale: 'Zeer korte bron (1170 tekens) zonder subkoppen (heading_count: 0, conform Laag-1). Inhoud volledig in één alinea, geen artefacten detecteerbaar in categorieën A-G. Taal vloeiend, geen afgekapte zinnen, geen HTML-entiteiten, geen malformed opmaak.'
       concrete_problemen: []
 ---

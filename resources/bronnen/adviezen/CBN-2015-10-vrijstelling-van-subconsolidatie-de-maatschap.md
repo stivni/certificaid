@@ -41,7 +41,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:22Z'
+    confirmed_at: '2026-05-13T12:41:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Compact advies (3751 chars, 4 headings), geen extractie-artefacten aangetroffen. Voetnoten [^1]–[^7] volledig gedefinieerd. Heading-hiërarchie correct (# → ## zonder sprongen). Tekst leest als mens-geschreven markdown.'
     layer1:
@@ -55,7 +55,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:22Z'
+      run_at: '2026-05-13T12:41:19Z'
       rationale: 'Compact advies (3751 chars, 4 headings), geen extractie-artefacten aangetroffen. Voetnoten [^1]–[^7] volledig gedefinieerd. Heading-hiërarchie correct (# → ## zonder sprongen). Tekst leest als mens-geschreven markdown.'
       concrete_problemen: []
 ---

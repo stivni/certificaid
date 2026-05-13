@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5
+    pipeline_version: 68215a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:35:29Z'
+  generated_at: '2026-05-13T12:40:37Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:36:28Z'
+    confirmed_at: '2026-05-13T12:41:23Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Grootste bron in batch (108k chars) met meerdere structuurproblemen die de ETL moet oplossen. Layer1 vlagt al max_section_size (>24k). Tabel A/B/C-rubrieken (Romeinse cijfers I.–XL.) staan als plain text in plaats van als sub-headings, waardoor één enorme sectie ontstaat. TOC-fragmenten met dotted leaders ('Goederen aan 6 pct. ......... II/1') zijn niet opgeschoond. Structuurlabels 'TABEL A', 'TABEL B', 'TABEL C', 'GOEDEREN', 'DIENSTEN', 'BIJLAGE', 'Tijdelijke bepalingen', 'Eerste afdeling' staan als plain text zonder ##-prefix. Recap-blok aan het einde dupliceert de rubriekenlijst en lijkt op TOC-residu."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:28Z'
+      run_at: '2026-05-13T12:41:23Z'
       rationale: "Grootste bron in batch (108k chars) met meerdere structuurproblemen die de ETL moet oplossen. Layer1 vlagt al max_section_size (>24k). Tabel A/B/C-rubrieken (Romeinse cijfers I.–XL.) staan als plain text in plaats van als sub-headings, waardoor één enorme sectie ontstaat. TOC-fragmenten met dotted leaders ('Goederen aan 6 pct. ......... II/1') zijn niet opgeschoond. Structuurlabels 'TABEL A', 'TABEL B', 'TABEL C', 'GOEDEREN', 'DIENSTEN', 'BIJLAGE', 'Tijdelijke bepalingen', 'Eerste afdeling' staan als plain text zonder ##-prefix. Recap-blok aan het einde dupliceert de rubriekenlijst en lijkt op TOC-residu."
       concrete_problemen:
         - "Dotted-leader TOC-residu op regel 158: 'Goederen aan 6 pct. ......... II/1 Diensten aan 6 pct. ......... III/1'"
@@ -753,9 +753,7 @@ X. Huisvesting in het kader van het sociaal beleid
 (De tekst van KB nr. 20, Tabel B, rubriek X, § 1, C), werd vervangen met ingang van 01.01.2019 (Art. 13, W 14.10.2018, B.S. 25.10.2018, pg. 81448. Erratum B.S. 30.11.2018, pg. 91362))
 
 § 1. Het verlaagd tarief van 12 pct., is van toepassing op:
-A) de leveringen van nagenoemde goederen bedoeld in artikel 1, § 9, van het Wetboek alsook de vestigingen, overdrachten en wederoverdrachten van zakelijke rechten op zulke goederen die
-
-niet overeenkomstig artikel 44, § 3, 1°, van het Wetboek van de belasting zijn vrijgesteld, wanneer die goederen bestemd zijn voor de huisvesting in het kader van het sociaal beleid:
+A) de leveringen van nagenoemde goederen bedoeld in artikel 1, § 9, van het Wetboek alsook de vestigingen, overdrachten en wederoverdrachten van zakelijke rechten op zulke goederen die niet overeenkomstig artikel 44, § 3, 1°, van het Wetboek van de belasting zijn vrijgesteld, wanneer die goederen bestemd zijn voor de huisvesting in het kader van het sociaal beleid:
 a) privé-woningen die worden geleverd en gefactureerd aan de provincies, de intercommunales, de gemeenten, de intercommunale openbare centra voor maatschappelijk welzijn, de openbare centra voor maatschappelijk welzijn en de gemengde holdingmaatschappijen waarin de overheid een meerderheid heeft, en die door deze instellingen of maatschappijen worden bestemd om […] te worden verhuurd;
 b) privé-woningen die worden geleverd en gefactureerd aan de openbare centra voor maatschappelijk welzijn en die door deze centra worden bestemd om […] te worden verkocht;
 c) privé-woningen die […] worden geleverd en gefactureerd door de openbare centra voor maatschappelijk welzijn;

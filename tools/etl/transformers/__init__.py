@@ -38,6 +38,7 @@ from tools.etl.transformers.fix_pdftotext_glue_bugs import fix_pdftotext_glue_bu
 from tools.etl.transformers.promote_wettekst_section_labels import promote_wettekst_section_labels
 from tools.etl.transformers.normalize_artikel_to_art import normalize_artikel_to_art
 from tools.etl.transformers.strip_leading_toc_heading_block import strip_leading_toc_heading_block
+from tools.etl.transformers.fix_pdf_slash_loss_in_article_headings import fix_pdf_slash_loss_in_article_headings
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
@@ -68,6 +69,7 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "promote_wettekst_section_labels": promote_wettekst_section_labels,
     "normalize_artikel_to_art": normalize_artikel_to_art,
     "strip_leading_toc_heading_block": strip_leading_toc_heading_block,
+    "fix_pdf_slash_loss_in_article_headings": fix_pdf_slash_loss_in_article_headings,
 }
 
 

@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5
+    pipeline_version: 68215a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:35:30Z'
+  generated_at: '2026-05-13T12:40:37Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:36:28Z'
+    confirmed_at: '2026-05-13T12:41:23Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Zware kolom-bleed door de hele bijlage (Tabellen A-J). Originele PDF heeft een 2-koloms structuur: links de overtredingsbeschrijving, rechts het percentage/boete. De extractie heeft kolomstrooien afwisselend gemerged, met als resultaat scrambled zinnen zoals 'A) belasting en voorschotten waarvan de per maand vertraging (1), een opeisbaarheid blijkt uit de maand- of percentage gelijk aan dat van kwartaalaangiften en belasting waarvan de de nalatigheidsinterest dat is opeisbaarheid blijkt uit de jaaraangiften bepaald in artikel 91, § 1, van het...' (regel 143). Dat is onbruikbaar voor retrieval en evident niet-mens-geschreven. Dit is veruit het zwaarste geval van de batch."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:28Z'
+      run_at: '2026-05-13T12:41:23Z'
       rationale: "Zware kolom-bleed door de hele bijlage (Tabellen A-J). Originele PDF heeft een 2-koloms structuur: links de overtredingsbeschrijving, rechts het percentage/boete. De extractie heeft kolomstrooien afwisselend gemerged, met als resultaat scrambled zinnen zoals 'A) belasting en voorschotten waarvan de per maand vertraging (1), een opeisbaarheid blijkt uit de maand- of percentage gelijk aan dat van kwartaalaangiften en belasting waarvan de de nalatigheidsinterest dat is opeisbaarheid blijkt uit de jaaraangiften bepaald in artikel 91, § 1, van het...' (regel 143). Dat is onbruikbaar voor retrieval en evident niet-mens-geschreven. Dit is veruit het zwaarste geval van de batch."
       concrete_problemen:
         - 'Kolom-bleed in heel TABEL A (regels 137-408): elke rij heeft beschrijving + tarief door elkaar gehusseld zonder pipe-syntax'
@@ -315,9 +315,7 @@ De vergunninghouder voldoet niet aan het verzoek van de controlerende ambtenaar 
 
 3° de uitvoer heeft niet plaats binnen de in de vergunning gestelde termijn of de goederen werden vóór het verstrijken van die termijn uit het entrepot ander dan douane-entrepot geslagen met een ander doel dan de uitvoer :
 
-a) de houder van de vergunning 10 pct. van de te regulariseren heeft de regularisatie gedaan in belasting overeenstemming met de voorwaarden van de vergunning
-
-b) de houder van de vergunning 20 pct. van de te regulariseren heeft op het tijdstip van de belasting controle de verplicht geworden regularisatie nog niet uitgevoerd
+a) de houder van de vergunning 10 pct. van de te regulariseren heeft de regularisatie gedaan in belasting overeenstemming met de voorwaarden van de vergunning b) de houder van de vergunning 20 pct. van de te regulariseren heeft op het tijdstip van de belasting controle de verplicht geworden regularisatie nog niet uitgevoerd
 
 4. Overtredingen in verband met de toepassing van de vergunning beoogd in artikel 14 van het koninklijk besluit nr. 18 van 27 december 1977 met betrekking tot de vrijstellingen ten aanzien van de uitvoer van goederen en diensten, op het stuk van de belasting over de toegevoegde waarde, ter uitvoering van artikel 39, § 3, van het Wetboek.
 
@@ -355,15 +353,11 @@ B. Het vergelijkingsregister of de boekhouding die 10 pct. van de belasting voor
 
 C. De goederen, die met vrijstelling van de belasting ingevoerd zijn om een loonbewerking te ondergaan, zijn niet uitgevoerd binnen de door de vergunning bepaalde termijn :
 
-1° de houder van de vergunning is een belastingplichtige die gehouden is tot indiening van periodieke btw-aangiften en
-
-a) heeft een regularisatie gedaan in 1 pct. van de belasting overeenstemming met de waarvan de vrijstelling bij voorwaarden van de vergunning invoer is verkregen
+1° de houder van de vergunning is een belastingplichtige die gehouden is tot indiening van periodieke btw-aangiften en a) heeft een regularisatie gedaan in 1 pct. van de belasting overeenstemming met de waarvan de vrijstelling bij voorwaarden van de vergunning invoer is verkregen
 
 b) heeft op het tijdstip van de 3 pct. van de belasting controle nog niet de verplicht waarvan de vrijstelling bij geworden regularisatie uitgevoerd invoer is verkregen
 
-2° de houder van de vergunning is een niet-belastingplichtige of een belastingplichtige die niet gehouden is tot indiening van periodieke btw-aangiften en
-
-a) heeft een regularisatie gedaan in 10 pct. van de belasting overeenstemming met de waarvan de vrijstelling bij voorwaarden van de vergunning invoer is verkregen
+2° de houder van de vergunning is een niet-belastingplichtige of een belastingplichtige die niet gehouden is tot indiening van periodieke btw-aangiften en a) heeft een regularisatie gedaan in 10 pct. van de belasting overeenstemming met de waarvan de vrijstelling bij voorwaarden van de vergunning invoer is verkregen
 
 b) heeft op het tijdstip van de 20 pct. van de belasting controle nog niet de verplicht waarvan de vrijstelling bij geworden regularisatie uitgevoerd invoer is verkregen
 
@@ -375,9 +369,7 @@ XIII. Overtredingen inzake de toepassing van artikel 42, § 3, 8°, van het Wetb
 
 A. Op de vergunning is aanspraak gemaakt voor 10 pct. van de belasting handelingen waarvoor ze niet van toepassing is waarvan de vrijstelling ten onrechte is verkregen
 
-B. Het vergelijkingsregister of de boekhouding die 20 pct. van de belasting ter controle van de vrijstelling wordt waarvan de vrijstelling is voorgeschreven is niet gehouden of is verkregen gehouden op zodanige wijze dat deze controle zeer moeilijk is. De vergunninghouder voldoet niet aan het verzoek van de controlerende ambtenaar om het register of de boekhouding binnen een redelijke termijn aan te leggen of
-
-aan te passen
+B. Het vergelijkingsregister of de boekhouding die 20 pct. van de belasting ter controle van de vrijstelling wordt waarvan de vrijstelling is voorgeschreven is niet gehouden of is verkregen gehouden op zodanige wijze dat deze controle zeer moeilijk is. De vergunninghouder voldoet niet aan het verzoek van de controlerende ambtenaar om het register of de boekhouding binnen een redelijke termijn aan te leggen of aan te passen
 
 C. De goederen worden niet uitgevoerd binnen de in de vergunning bepaalde termijn en
 

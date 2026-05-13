@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5
+    pipeline_version: 68215a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:35:29Z'
+  generated_at: '2026-05-13T12:40:37Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:28Z'
+    confirmed_at: '2026-05-13T12:41:23Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Volledige tekst (22 artikelen, 5 hoofdstukken), correcte heading-hierarchie #/##/###/####. TOC met hoofdstukken/afdelingen aan het begin is intrinsiek aan dit type wettekst en wordt herhaald als secties. Bracketed wijziging-markers consistent gebruikt.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:28Z'
+      run_at: '2026-05-13T12:41:23Z'
       rationale: 'Volledige tekst (22 artikelen, 5 hoofdstukken), correcte heading-hierarchie #/##/###/####. TOC met hoofdstukken/afdelingen aan het begin is intrinsiek aan dit type wettekst en wordt herhaald als secties. Bracketed wijziging-markers consistent gebruikt.'
       concrete_problemen:
         - 'Lichte inconsistentie: HOOFDSTUK-titels worden tweemaal weergegeven (eenmaal in TOC, eenmaal als sectie-header) maar zonder dubbele heading-conflict'
@@ -96,9 +96,7 @@ De verkoper van de goederen moet te allen tijde in het bezit zijn van alle stukk
 Voor de landvoertuigen in de zin van artikel 8bis, § 2, 1°, van het Wetboek, die het voorwerp uitmaken van een levering onder de voorwaarden van artikel 39, § 1, 1° of 2°, van het Wetboek, en waarvoor bij de Dienst voor Inschrijving van de Voertuigen (DIV) een aanvraag om inschrijving wordt ingediend, moet de uitvoer plaatsvinden uiterlijk op het einde van de derde maand volgend op deze van de inschrijving.
 
 Voor deze voertuigen kan enkel een tijdelijke nummerplaat evenals een bijhorend inschrijvingsbewijs dat voorzien is van een bijzondere vermelding inzake het fiscaal statuut van het voertuig, worden aangevraagd.
-Voor de landvoertuigen in de zin van artikel 8bis, § 2, 1°, van het Wetboek, die het voorwerp uitmaken van een levering onder de voorwaarden van artikel 39, § 1, 1° of 2°, van het Wetboek
-
-en waarvoor, overeenkomstig de reglementering betreffende de inschrijving van motorvoertuigen, formaliteiten dienen te worden nagekomen die het communautair karakter van deze voertuigen vastleggen, dient in het geval deze voertuigen niet het voorwerp uitmaken van enige aanvraag om inschrijving, de verkoper daarvan kennis te geven aan de Dienst van de douane gevestigd bij de Dienst voor Inschrijving van de Voertuigen (DIV) op de door of vanwege de Minister van Financiën voorgeschreven wijze.
+Voor de landvoertuigen in de zin van artikel 8bis, § 2, 1°, van het Wetboek, die het voorwerp uitmaken van een levering onder de voorwaarden van artikel 39, § 1, 1° of 2°, van het Wetboek en waarvoor, overeenkomstig de reglementering betreffende de inschrijving van motorvoertuigen, formaliteiten dienen te worden nagekomen die het communautair karakter van deze voertuigen vastleggen, dient in het geval deze voertuigen niet het voorwerp uitmaken van enige aanvraag om inschrijving, de verkoper daarvan kennis te geven aan de Dienst van de douane gevestigd bij de Dienst voor Inschrijving van de Voertuigen (DIV) op de door of vanwege de Minister van Financiën voorgeschreven wijze.
 
 ### AFDELING 2
   Goederen afgehaald door de niet in België gevestigde koper of voor zijn rekening. Vrijstelling ingesteld bij artikel 39, § 1, 2°, van het Wetboek.

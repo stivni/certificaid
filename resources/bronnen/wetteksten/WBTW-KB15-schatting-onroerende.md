@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5
+    pipeline_version: 68215a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:35:29Z'
+  generated_at: '2026-05-13T12:40:37Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:29Z'
+    confirmed_at: '2026-05-13T12:41:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "ETL-fixes (EERSTE HOOFDSTUK → HOOFDSTUK I, plus normalize_artikel_to_art) hebben de eerder geconstateerde structuurinconsistentie opgelost. HOOFDSTUK I en HOOFDSTUK II staan beide nu als ## headings (regel 75 en 205), Afdeling 1 en 2 zijn ### headings, alle artikelen zijn #### Art. N. De eerder gesignaleerde spurious linebreaks rond 'Art.\\n13', 'Art.\\n17', 'Art.\\n20' zijn opgelost. Resterende issues zijn klein: drietalige eed-formules (regel 152) staan nog als run-on prose i.p.v. list-structuur, en 'hetWetboek' (regel 160 ontbreekt — nu inline) is een source-glue. Body/content-ratio is hoog, artikelhiërarchie consistent. Ziet eruit als wettekst die je van nul kan herschrijven."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:29Z'
+      run_at: '2026-05-13T12:41:24Z'
       rationale: "ETL-fixes (EERSTE HOOFDSTUK → HOOFDSTUK I, plus normalize_artikel_to_art) hebben de eerder geconstateerde structuurinconsistentie opgelost. HOOFDSTUK I en HOOFDSTUK II staan beide nu als ## headings (regel 75 en 205), Afdeling 1 en 2 zijn ### headings, alle artikelen zijn #### Art. N. De eerder gesignaleerde spurious linebreaks rond 'Art.\\n13', 'Art.\\n17', 'Art.\\n20' zijn opgelost. Resterende issues zijn klein: drietalige eed-formules (regel 152) staan nog als run-on prose i.p.v. list-structuur, en 'hetWetboek' (regel 160 ontbreekt — nu inline) is een source-glue. Body/content-ratio is hoog, artikelhiërarchie consistent. Ziet eruit als wettekst die je van nul kan herschrijven."
       concrete_problemen:
         - "Regel 152: drietalige eed-formules ('Ik zweer...' / 'Je jure...' / 'Ich schwöre...') als run-on prose i.p.v. list — minor, semantiek blijft duidelijk"
@@ -73,9 +73,7 @@ In alle andere gevallen moet van de vordering tot schatting kennis worden gegeve
 (De tekst van KB nr. 15, artikel 3, werd vervangen met ingang van 01.01.2011. (Art. 15, KB 19.12.2010, B.S. 24.12.2010))
 
 In de vordering tot schatting zijn vermeld : de te schatten goederen, de door de administratie geschatte normale waarde, het bedrag van de door de administratie gevorderde belasting en geldboete, alsmede het tijdstip waarop de deskundigen zich moeten plaatsen om de normale waarde van deze goederen te bepalen. Dat tijdstip is de datum van de overeenkomst.
-Wanneer een belastingplichtige voor een niet gesplitste prijs een gebouw of een gedeelte van een gebouw en het bijhorende terrein met voldoening van de belasting vervreemdt samen met een andere
-
-grond dan het bijhorende terrein, vermeldt de vordering tot schatting bovendien de waarde van respectievelijk het gebouw of een gedeelte van het gebouw en van het bijhorende terrein, en van de andere grond dan het bijhorende terrein, zoals geschat overeenkomstig de artikelen 30 en 36, § 1, a), van het Wetboek.
+Wanneer een belastingplichtige voor een niet gesplitste prijs een gebouw of een gedeelte van een gebouw en het bijhorende terrein met voldoening van de belasting vervreemdt samen met een andere grond dan het bijhorende terrein, vermeldt de vordering tot schatting bovendien de waarde van respectievelijk het gebouw of een gedeelte van het gebouw en van het bijhorende terrein, en van de andere grond dan het bijhorende terrein, zoals geschat overeenkomstig de artikelen 30 en 36, § 1, a), van het Wetboek.
 
 #### Art. 4
 (De tekst van KB nr. 15, artikel 4 is van toepassing met ingang van 01.01.1971 (Art.98, KB 03.07.1969))

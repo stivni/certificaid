@@ -40,7 +40,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:23Z'
+    confirmed_at: '2026-05-13T12:41:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Zeer kort advies (1415 tekens) zonder headings, inhoud volledig en correct afgesloten met duidelijke conclusie. Geen HTML-entities in body of frontmatter, geen ongewone unicode, geen extractie-artefacten. Layer1 pass bevestigd.
     layer1:
@@ -54,7 +54,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:23Z'
+      run_at: '2026-05-13T12:41:19Z'
       rationale: Zeer kort advies (1415 tekens) zonder headings, inhoud volledig en correct afgesloten met duidelijke conclusie. Geen HTML-entities in body of frontmatter, geen ongewone unicode, geen extractie-artefacten. Layer1 pass bevestigd.
       concrete_problemen: []
 ---

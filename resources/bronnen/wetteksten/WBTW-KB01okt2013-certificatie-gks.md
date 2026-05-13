@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5
+    pipeline_version: 68215a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:35:31Z'
+  generated_at: '2026-05-13T12:40:38Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:28Z'
+    confirmed_at: '2026-05-13T12:41:23Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Schone conversie: 9 Art.-headings consistent op ## niveau, paragrafen § 1/§ 2/§ 3 als plain text in body (standaard Belgische wetstijl), genummerde 1°/2°/... lijsten correct, geen form-feed of dotted-leaders. Eén voetnoot (1) midden-prose maar dat is brontypografie.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:28Z'
+      run_at: '2026-05-13T12:41:23Z'
       rationale: 'Schone conversie: 9 Art.-headings consistent op ## niveau, paragrafen § 1/§ 2/§ 3 als plain text in body (standaard Belgische wetstijl), genummerde 1°/2°/... lijsten correct, geen form-feed of dotted-leaders. Eén voetnoot (1) midden-prose maar dat is brontypografie.'
       concrete_problemen:
         - regel: 75
@@ -101,9 +101,7 @@ Wanneer de bevoegde dienst van de FOD Financiën vaststelt dat de producent of d
 Indien binnen de twee maanden na de datum van ontvangst van de in het tweede lid bedoelde kennisgeving niet is voldaan aan de voormelde bepalingen, kan de bevoegde dienst van de FOD Financiën het aan de producent of de invoerder uitgereikte certificaat, na onderzoek en het horen van de betrokken partijen, intrekken.
 
 § 2. Iedere verdeler dient zich voorafgaandelijk bij de bevoegde dienst van de FOD Financiën als dusdanig kenbaar te maken. Hij dient zijn gegevens, zijn btw-identificatienummer, de plaats van opslag, het adres van de verdeel- en verkooppunten alsook een korte omschrijving van de referenties en producten mee te delen.
-Naast de in artikel 4, tweede lid, van bovenbedoelde wet opgesomde inlichtingen, is de verdeler ertoe gehouden om binnen de tien dagen, voor elke verrichte levering of verhuur van een gecertificeerd
-
-kassasysteem of een fiscale data module, de bevoegde dienst van de FOD Financiën de datum van de handeling en het btw-identificatienummer van de klant mee te delen. Hij dient de plaats waar het kassasysteem of de fiscale datamodule wordt opgesteld precies te identificeren, met name door vermelding van het uithangbord, het adres en het betrokken lokaal.
+Naast de in artikel 4, tweede lid, van bovenbedoelde wet opgesomde inlichtingen, is de verdeler ertoe gehouden om binnen de tien dagen, voor elke verrichte levering of verhuur van een gecertificeerd kassasysteem of een fiscale data module, de bevoegde dienst van de FOD Financiën de datum van de handeling en het btw-identificatienummer van de klant mee te delen. Hij dient de plaats waar het kassasysteem of de fiscale datamodule wordt opgesteld precies te identificeren, met name door vermelding van het uithangbord, het adres en het betrokken lokaal.
 
 ## Art. 6
 

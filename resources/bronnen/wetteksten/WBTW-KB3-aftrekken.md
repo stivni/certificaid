@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5
+    pipeline_version: 68215a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:35:29Z'
+  generated_at: '2026-05-13T12:40:36Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:29Z'
+    confirmed_at: '2026-05-13T12:41:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Groot bestand (445 regels, 23 artikelen + afdelingen). Goede hiërarchische structuur: H1 → ## AFDELING I-VI → ### Art. 1-23 met sub-bis/ter/quater. Wijzigingstoelichting bovenaan elke artikel, lijstmarkers 1°-7° consistent, §-paragraaf-structuur duidelijk. Eerder gesignaleerde minor issues (§ alleen op aparte regel bij artikel-overgangen, footnote-marker (1)/(2) inline) zijn typische wettekst-conventies en geen ETL-artefacten die de leesbaarheid breken. Geen TOC-pollutie, geen running-headers, geen Fisconet-footer. Voor een buitenstaander leest dit als een nette wettekst-compilatie.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:29Z'
+      run_at: '2026-05-13T12:41:24Z'
       rationale: 'Groot bestand (445 regels, 23 artikelen + afdelingen). Goede hiërarchische structuur: H1 → ## AFDELING I-VI → ### Art. 1-23 met sub-bis/ter/quater. Wijzigingstoelichting bovenaan elke artikel, lijstmarkers 1°-7° consistent, §-paragraaf-structuur duidelijk. Eerder gesignaleerde minor issues (§ alleen op aparte regel bij artikel-overgangen, footnote-marker (1)/(2) inline) zijn typische wettekst-conventies en geen ETL-artefacten die de leesbaarheid breken. Geen TOC-pollutie, geen running-headers, geen Fisconet-footer. Voor een buitenstaander leest dit als een nette wettekst-compilatie.'
       concrete_problemen:
         - Sub-strategy frontmatter-veld is leeg (chunk.sub_strategy:) — niet retrieval-blokkerend
@@ -89,9 +89,7 @@ Het recht op aftrek ontstaat:
 
 1° ten aanzien van de belasting geheven van de aan hem geleverde goederen en verleende diensten, in het bezit zijn van een factuur uitgereikt overeenkomstig de artikelen 53, § 2 en 53decies, § 2, van het Wetboek waarop de vermeldingen voorkomen bedoeld in artikel 5, § 1, van het koninklijk besluit nr. 1 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde;
 
-2° ten aanzien van de belasting geheven van een handeling die hij verricht voor de behoeften van zijn economische activiteit en die wordt gelijkgesteld met een levering door artikel 12, § 1, eerste lid, 3° en 4° van het Wetboek, of met een dienst door artikel 19, § 2, eerste lid, 1°, of § 3, van het Wetboek, het in artikel 3 van het koninklijk besluit nr. 1,
-
-met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde bedoelde stuk opmaken en de verschuldigde belasting opnemen in de aangifte met betrekking tot het tijdvak waarin ze opeisbaar wordt;
+2° ten aanzien van de belasting geheven van een handeling die hij verricht voor de behoeften van zijn economische activiteit en die wordt gelijkgesteld met een levering door artikel 12, § 1, eerste lid, 3° en 4° van het Wetboek, of met een dienst door artikel 19, § 2, eerste lid, 1°, of § 3, van het Wetboek, het in artikel 3 van het koninklijk besluit nr. 1, met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde bedoelde stuk opmaken en de verschuldigde belasting opnemen in de aangifte met betrekking tot het tijdvak waarin ze opeisbaar wordt;
 
 3° ten aanzien van de belasting geheven van de andere invoeren dan die bedoeld onder 4°, in het bezit zijn van een invoerdocument dat hem als geadresseerde aanwijst en dat de betaling van de belasting vaststelt;
 
@@ -107,9 +105,7 @@ met betrekking tot de regeling voor de voldoening van de belasting over de toege
 ### Art. 4
 (De tekst van KB nr. 3, artikel 4 is van toepassing met ingang van 07.07.2003 (Art. 1, KB 16.06.2003, B.S. 27.06.2003))
 
-De belastingplichtige oefent zijn recht op aftrek globaal uit door op het totaalbedrag van de belasting verschuldigd voor een aangiftetijdvak, het totaalbedrag toe te rekenen van de
-
-belasting waarvoor het recht op aftrek tijdens hetzelfde tijdvak is ontstaan en uitgeoefend kan worden krachtens artikel 3.
+De belastingplichtige oefent zijn recht op aftrek globaal uit door op het totaalbedrag van de belasting verschuldigd voor een aangiftetijdvak, het totaalbedrag toe te rekenen van de belasting waarvoor het recht op aftrek tijdens hetzelfde tijdvak is ontstaan en uitgeoefend kan worden krachtens artikel 3.
 
 Wanneer de formaliteiten waaraan het uitoefenen van het recht op aftrek onderworpen is, niet tijdig worden vervuld en, in het bijzonder, wanneer de in artikel 3, § 1, 1°, bedoelde factuur werd uitgereikt na het verstrijken van de termijn voorgeschreven door artikel 4, § 1, van het koninklijk besluit nr. 1 van 29 december 1992, wordt dat recht uitgeoefend in de aangifte met betrekking tot het tijdvak waarin de formaliteiten worden vervuld of in een aangifte betreffende een volgend tijdvak, ingediend vóór het verstrijken van het derde kalenderjaar volgend op dat waarin de af te trekken belasting opeisbaar is geworden.
 

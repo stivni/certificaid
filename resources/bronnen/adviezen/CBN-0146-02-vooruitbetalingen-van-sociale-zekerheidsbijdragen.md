@@ -40,7 +40,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:23Z'
+    confirmed_at: '2026-05-13T12:41:20Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Zeer kort advies (1776 chars), 3 voetnoten volledig gedefinieerd. Geen artefacten, geen structuurfouten.
     layer1:
@@ -54,7 +54,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:23Z'
+      run_at: '2026-05-13T12:41:20Z'
       rationale: Zeer kort advies (1776 chars), 3 voetnoten volledig gedefinieerd. Geen artefacten, geen structuurfouten.
       concrete_problemen: []
 ---

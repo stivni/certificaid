@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:36:29Z'
+    confirmed_at: '2026-05-13T12:41:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "_ARTIKEL_PLAIN_TITLE_RE heeft inline 'Artikel N.' headings correct genormaliseerd naar ###### Art. N (Art. 5, 6, 7, 8, 9, 10, 11, 12, 46, 64, 86 staan nu als headings). Echter twee structurele issues blijven onopgelost: (1) BTW-codes pseudo-tabel op regels 207-218 toont scrambled kolom-bleed van een PDF-tabel ('BTW- BTW- CODE TAUX DE' / 'BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA') — onbruikbaar als tabel; (2) `## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\\nGEREGISTREERD KASSASYSTEEM` heeft spurious linebreak midden in heading (regels 199-200). Beide zijn duidelijke ETL-artefacten die een buitenstaander direct opvalt — komen niet voor in een van-nul-geschreven wettekst."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:29Z'
+      run_at: '2026-05-13T12:41:24Z'
       rationale: "_ARTIKEL_PLAIN_TITLE_RE heeft inline 'Artikel N.' headings correct genormaliseerd naar ###### Art. N (Art. 5, 6, 7, 8, 9, 10, 11, 12, 46, 64, 86 staan nu als headings). Echter twee structurele issues blijven onopgelost: (1) BTW-codes pseudo-tabel op regels 207-218 toont scrambled kolom-bleed van een PDF-tabel ('BTW- BTW- CODE TAUX DE' / 'BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA') — onbruikbaar als tabel; (2) `## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\\nGEREGISTREERD KASSASYSTEEM` heeft spurious linebreak midden in heading (regels 199-200). Beide zijn duidelijke ETL-artefacten die een buitenstaander direct opvalt — komen niet voor in een van-nul-geschreven wettekst."
       concrete_problemen:
         - 'Regels 207-218: BTW-codes pseudo-tabel als scrambled column-bleed (categorie A8 + E)'

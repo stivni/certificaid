@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5
+    pipeline_version: 68215a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:35:31Z'
+  generated_at: '2026-05-13T12:40:38Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:28Z'
+    confirmed_at: '2026-05-13T12:41:23Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Schone wettekst-conversie: 16 Art.-headings, consistent commentaarblok (wijzigingsgeschiedenis) per artikel, lijsten 1°/2°/... correct. Source-typo's (open haakje '(Opgeheven' regel 100) en stray 'Bijlage' regel 149 zijn brontypografie, geen ETL-artefact."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:28Z'
+      run_at: '2026-05-13T12:41:23Z'
       rationale: "Schone wettekst-conversie: 16 Art.-headings, consistent commentaarblok (wijzigingsgeschiedenis) per artikel, lijsten 1°/2°/... correct. Source-typo's (open haakje '(Opgeheven' regel 100) en stray 'Bijlage' regel 149 zijn brontypografie, geen ETL-artefact."
       concrete_problemen:
         - regel: 100
@@ -127,9 +127,7 @@ Indien de persoon die de inschrijving van een motorvoertuig heeft aangevraagd de
 ## Art. 12
 (De tekst van KB 04.04.2014, artikel 12, werd gewijzigd met ingang van 04.02.2019 (KB 06.03.2020, B.S. 18.03.2020, pg. 15917))
 
-Het bepaalde in artikel 11 is niet van toepassing op aanvragen tot het verkrijgen van kentekenbewijzen waarop het signalement van het motorvoertuig niet voorkomt. Alleen motorvoertuigen waarvan de
-
-douanestatus van Uniegoederen kan worden aangetoond mogen voorzien worden van een kentekenplaat waarvoor een kentekenbewijs zonder signalement van het motorvoertuig werd afgeleverd.
+Het bepaalde in artikel 11 is niet van toepassing op aanvragen tot het verkrijgen van kentekenbewijzen waarop het signalement van het motorvoertuig niet voorkomt. Alleen motorvoertuigen waarvan de douanestatus van Uniegoederen kan worden aangetoond mogen voorzien worden van een kentekenplaat waarvoor een kentekenbewijs zonder signalement van het motorvoertuig werd afgeleverd.
 Indien zij daarom worden verzocht, zijn de houders van kentekenbewijzen zonder het signalement van het motorvoertuig verplicht aan de douane alle bewijsstukken inzake de douanestatus betreffende de in hun bezit zijnde motorvoertuigen voor te leggen.
 
 ## Art. 13

@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:08Z'
+    confirmed_at: '2026-05-13T12:41:04Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Kleine EU-richtlijn, L1 pass aangenomen. Geen eerdere problemen gesignaleerd bij EU-richtlijnen van deze grootte.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:08Z'
+      run_at: '2026-05-13T12:41:04Z'
       rationale: Kleine EU-richtlijn, L1 pass aangenomen. Geen eerdere problemen gesignaleerd bij EU-richtlijnen van deze grootte.
       concrete_problemen: []
 ---

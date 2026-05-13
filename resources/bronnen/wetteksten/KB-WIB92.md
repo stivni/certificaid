@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:08Z'
+    confirmed_at: '2026-05-13T12:41:04Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 pass: 35 headings, max sectie 3077 chars. Kleine KB met artikels correct als ## Art. headings. Concordantietabel onderaan als plain-text tabel correct. Geen artefacten.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:08Z'
+      run_at: '2026-05-13T12:41:04Z'
       rationale: 'L1 pass: 35 headings, max sectie 3077 chars. Kleine KB met artikels correct als ## Art. headings. Concordantietabel onderaan als plain-text tabel correct. Geen artefacten.'
       concrete_problemen: []
 ---

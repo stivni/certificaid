@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5
+    pipeline_version: 68215a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:35:30Z'
+  generated_at: '2026-05-13T12:40:37Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:28Z'
+    confirmed_at: '2026-05-13T12:41:23Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Korte KB van 9 artikelen, schone heading-hierarchie ## Art., volledige tekst aanwezig, alle bracketed wijzigings-markers correct gesloten. Bijlage-referentie aan het einde is summier (model van formulier dat in PDF als beeld zit) maar storend is dit niet.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:28Z'
+      run_at: '2026-05-13T12:41:23Z'
       rationale: 'Korte KB van 9 artikelen, schone heading-hierarchie ## Art., volledige tekst aanwezig, alle bracketed wijzigings-markers correct gesloten. Bijlage-referentie aan het einde is summier (model van formulier dat in PDF als beeld zit) maar storend is dit niet.'
       concrete_problemen:
         - "Slotregel 'Bijlage / jaarlijkse lijst van de BTW-belastingplichtige afnemers' is plain text zonder ##-heading — minor"
@@ -113,6 +113,4 @@ Dit besluit treedt in werking op 1 januari 2010.
 
 De Minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.
 
-## Bijlage
-
-jaarlijkse lijst van de BTW-belastingplichtige afnemers
+Bijlage jaarlijkse lijst van de BTW-belastingplichtige afnemers

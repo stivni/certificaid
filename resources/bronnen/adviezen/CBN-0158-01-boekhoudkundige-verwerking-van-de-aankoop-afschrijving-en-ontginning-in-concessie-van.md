@@ -30,7 +30,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:36:28Z'
+    confirmed_at: '2026-05-13T12:41:22Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Schoon document: ## / ### heading-hiërarchie correct (eigendom → aanschaffingswaarde / afschrijving / herwaardering → concessie), voetnoot aanwezig en correct, geen form-feeds, geen OCR-fouten, geen duplicate content. Inhoud volledig en goed leesbaar.'
     layer1:
@@ -44,7 +44,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:36:28Z'
+      run_at: '2026-05-13T12:41:22Z'
       rationale: 'Schoon document: ## / ### heading-hiërarchie correct (eigendom → aanschaffingswaarde / afschrijving / herwaardering → concessie), voetnoot aanwezig en correct, geen form-feeds, geen OCR-fouten, geen duplicate content. Inhoud volledig en goed leesbaar.'
       concrete_problemen: []
 ---
