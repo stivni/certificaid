@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:58:05Z'
+  generated_at: '2026-05-13T11:04:30Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T10:59:56Z'
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Compact (4 art). Heldere H1 + ## Art. structuur. Lijstmarkers 1°-3° (met '2° ...' als bewust schrappingsmarker in Art. 2) consistent. Geen footers, geen TOC, geen leftover-appendix."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:56Z'
+      run_at: '2026-05-13T11:05:03Z'
       rationale: "Compact (4 art). Heldere H1 + ## Art. structuur. Lijstmarkers 1°-3° (met '2° ...' als bewust schrappingsmarker in Art. 2) consistent. Geen footers, geen TOC, geen leftover-appendix."
       concrete_problemen: []
 ---
@@ -46,8 +46,7 @@ Koninklijk besluit nr. 8, van 12 maart 1970, tot vaststelling van de wijze van a
 (officieuze coördinatie)
 
 ## Art. 1
-(De tekst van KB nr. 8, artikel 1 is van toepassing met ingang van 01.01.2004. (Art.
-14, KB 20.02.2004, B.S. 27.02.2004))
+(De tekst van KB nr. 8, artikel 1 is van toepassing met ingang van 01.01.2004. (Art. 14, KB 20.02.2004, B.S. 27.02.2004))
 
 Wanneer het bedrag van de verschuldigde belasting een fractie van een euro met meer dan twee decimalen bevat, moet die fractie op de hogere of op de lagere cent worden afgerond, naargelang de derde decimaal 5 bereikt of 5 niet bereikt.
 Die afronding wordt verricht :

@@ -1765,3 +1765,55 @@ class TestStripEmptyTrailingHeadings:
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "strip_empty_trailing_headings" in TRANSFORMERS
+
+
+class TestMergeArticleReferenceWraps:
+    def test_artikel_num_to_section(self):
+        from tools.etl.transformers.merge_article_reference_wraps import merge_article_reference_wraps
+        body = "bedoeld in artikel 53,\n§ 1, eerste lid, 2°, van het Wetboek"
+        result, _ = merge_article_reference_wraps(body, {})
+        assert "artikel 53, § 1" in result
+        assert "\n§" not in result
+
+    def test_artikel_to_num(self):
+        from tools.etl.transformers.merge_article_reference_wraps import merge_article_reference_wraps
+        body = "overeenkomstig artikel\n6. De minister"
+        result, _ = merge_article_reference_wraps(body, {})
+        assert "artikel 6." in result
+
+    def test_section_to_ordinal(self):
+        from tools.etl.transformers.merge_article_reference_wraps import merge_article_reference_wraps
+        body = "bedoeld in § 2,\n7° van dit besluit"
+        result, _ = merge_article_reference_wraps(body, {})
+        assert "§ 2, 7°" in result
+
+    def test_artikel_bis(self):
+        from tools.etl.transformers.merge_article_reference_wraps import merge_article_reference_wraps
+        body = "artikel 8bis,\n§ 2 van het Wetboek"
+        result, _ = merge_article_reference_wraps(body, {})
+        assert "artikel 8bis, § 2" in result
+
+    def test_no_merge_unrelated(self):
+        """Een gewone zin-einde gevolgd door nieuwe zin: GEEN merge."""
+        from tools.etl.transformers.merge_article_reference_wraps import merge_article_reference_wraps
+        body = "De wet treedt in werking.\nDe minister tekent."
+        result, _ = merge_article_reference_wraps(body, {})
+        assert result == body
+
+    def test_no_merge_heading(self):
+        from tools.etl.transformers.merge_article_reference_wraps import merge_article_reference_wraps
+        body = "Verwijzing naar artikel 5.\n## Art. 6\nBody."
+        result, _ = merge_article_reference_wraps(body, {})
+        # `artikel 5.\n## Art.` — pattern \1=artikel, \2= '## Art.' niet \d → geen merge
+        assert "## Art. 6" in result
+
+    def test_idempotent(self):
+        from tools.etl.transformers.merge_article_reference_wraps import merge_article_reference_wraps
+        body = "artikel 53,\n§ 1, ... artikel\n6. Iets"
+        once, _ = merge_article_reference_wraps(body, {})
+        twice, _ = merge_article_reference_wraps(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "merge_article_reference_wraps" in TRANSFORMERS

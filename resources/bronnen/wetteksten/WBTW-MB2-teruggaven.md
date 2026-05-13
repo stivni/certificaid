@@ -17,29 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:41Z'
+  generated_at: '2026-05-13T11:04:32Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Korte, schone tekst met heldere ## Art.-structuur en correct genummerde sublijsten. Geen artefacten.'
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:40Z'
-      heading_count: 3
-      max_section_chars: 1177
-      file_size_chars: 2157
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
+      run_at: '2026-05-13T11:05:03Z'
       rationale: 'Korte, schone tekst met heldere ## Art.-structuur en correct genummerde sublijsten. Geen artefacten.'
       concrete_problemen: []
 ---

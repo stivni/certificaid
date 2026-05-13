@@ -17,29 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:41Z'
+  generated_at: '2026-05-13T11:04:32Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Schone structuur met twee ## Art.-headings; de parenthetische wijzigingsnoot direct onder Art. 1 is gebruikelijk in officieuze coordinaties en niet artefactueel.'
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:40Z'
-      heading_count: 2
-      max_section_chars: 1490
-      file_size_chars: 2514
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
+      run_at: '2026-05-13T11:05:03Z'
       rationale: 'Schone structuur met twee ## Art.-headings; de parenthetische wijzigingsnoot direct onder Art. 1 is gebruikelijk in officieuze coordinaties en niet artefactueel.'
       concrete_problemen: []
 ---

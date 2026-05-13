@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:58:05Z'
+  generated_at: '2026-05-13T11:04:29Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Significante PDF-extractie-artefacten: artikel-nummering klopt niet (## Art. 81, ## Art. 82, ## Art. 83 op regels 130, 208, 217 - dit zijn in werkelijkheid de artikelen 8/1, 8/2 en 8/3, want de amendment-context spreekt over 'artikel 8/1, § 2' enz.). De heading-extractie heeft de slash genegeerd. Verder PDF-afbrekingsfouten: 'BTWidentificatienummer', 'btwtarief', 'btwaangifte', 'niet-belastingplichtige' soms inconsistent. Diverse zinnen-onderbrekingen door witregel."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
+      run_at: '2026-05-13T11:05:03Z'
       rationale: "Significante PDF-extractie-artefacten: artikel-nummering klopt niet (## Art. 81, ## Art. 82, ## Art. 83 op regels 130, 208, 217 - dit zijn in werkelijkheid de artikelen 8/1, 8/2 en 8/3, want de amendment-context spreekt over 'artikel 8/1, § 2' enz.). De heading-extractie heeft de slash genegeerd. Verder PDF-afbrekingsfouten: 'BTWidentificatienummer', 'btwtarief', 'btwaangifte', 'niet-belastingplichtige' soms inconsistent. Diverse zinnen-onderbrekingen door witregel."
       concrete_problemen:
         - "Heading-fout: '## Art. 81' (regel 130) is in werkelijkheid Art. 8/1 - zie amendment-blok 'KB nr. 4, artikel 8/1, § 2'. Idem Art. 82=8/2, Art. 83=8/3"
@@ -172,8 +172,7 @@ inhouding geldt als bewarend beslag onder derden tot het geschil definitief word
 
 Indien ten aanzien van een voor teruggaaf vatbaar overschot dat blijkt uit de aangifte als bedoeld in artikel 53, § 1, eerste lid, 2° , van het Wetboek en waarvoor de belastingplichtige al dan niet voor de teruggaaf heeft geopteerd, hetzij ernstige vermoedens, hetzij bewijzen bestaan dat de voormelde aangifte of de aangiften voor daaraan voorafgaande perioden gegevens bevatten die onjuist zijn en een belastingschuld in het vooruitzicht stellen zonder dat een daadwerkelijke bepaling ervan vóór het tijdstip van de genoemde ordonnancering of de verrichting gelijkgesteld met een betaling kan geschieden, heeft de ordonnancering van dit overschot of de overbrenging ervan naar het volgend aangiftetijdvak niet plaats en wordt het belastingkrediet ingehouden teneinde de administratie toe te laten de waarachtigheid van die gegevens na te gaan.
 
-De ernstige vermoedens of bewijzen bedoeld in het vorige lid, die de belastingschuld aantonen of helpen aantonen, dienen te worden gerechtvaardigd in processen-verbaal conform artikel 59,
-§ 1, van het Wetboek en worden per aangetekende brief vooraf ter kennis gebracht van de belastingplichtige.
+De ernstige vermoedens of bewijzen bedoeld in het vorige lid, die de belastingschuld aantonen of helpen aantonen, dienen te worden gerechtvaardigd in processen-verbaal conform artikel 59, § 1, van het Wetboek en worden per aangetekende brief vooraf ter kennis gebracht van de belastingplichtige.
 
 De inhouding bedoeld in het vierde en het vijfde lid geldt als bewarend beslag onder derden tot op het ogenblik dat het bewijs vervat in de in het vorige lid bedoelde processen-verbaal is weerlegd, of tot op het ogenblik dat de waarachtigheid van de handelingen blijkt uit gegevens verkregen overeenkomstig de procedures van de door de Europese Gemeenschappen uitgevaardigde reglementering inzake het uitwisselen van inlichtingen tussen de Lid-Staten van de Gemeenschap. Voor de toepassing van deze inhouding wordt de voorwaarde vereist door artikel 1413 van het Gerechtelijk Wetboek geacht te zijn vervuld.
 
@@ -235,8 +234,7 @@ gestuit door de vordering in rechte bedoeld in artikel 19, § 2, eerste lid van 
 
 Indien ten aanzien van een voor teruggaaf vatbaar overschot dat blijkt uit de aangifte als bedoeld in artikel 53ter, 1°, van het Wetboek, hetzij ernstige vermoedens, hetzij bewijzen bestaan dat de voormelde aangifte of de aangiften voor daaraan voorafgaande perioden gegevens bevatten die onjuist zijn of dat aangiften niet werden ingediend en deze vermoedens of bewijzen een belastingschuld in het vooruitzicht stellen zonder dat een daadwerkelijke bepaling ervan vóór het tijdstip van de hierboven genoemde ordonnancering kan geschieden, heeft de ordonnancering van dit overschot niet plaats en wordt het belastingkrediet ingehouden teneinde de administratie toe te laten de waarachtigheid van die gegevens na te gaan.
 
-De in het vorige lid vermelde ernstige vermoedens of bewijzen die de belastingschuld aantonen of helpen aantonen, dienen te worden gerechtvaardigd in processen-verbaal conform artikel 59,
-§ 1, van het Wetboek. Deze processen-verbaal worden per aangetekende brief vooraf ter kennis gebracht van de belastingplichtige of de niet-belastingplichtige rechtspersoon.
+De in het vorige lid vermelde ernstige vermoedens of bewijzen die de belastingschuld aantonen of helpen aantonen, dienen te worden gerechtvaardigd in processen-verbaal conform artikel 59, § 1, van het Wetboek. Deze processen-verbaal worden per aangetekende brief vooraf ter kennis gebracht van de belastingplichtige of de niet-belastingplichtige rechtspersoon.
 
 De inhouding bedoeld in het vijfde en het zesde lid geldt als bewarend beslag onder derden tot op het ogenblik dat het bewijs van de in het vorige lid bedoelde processen-verbaal is weerlegd of tot op het ogenblik dat de waarachtigheid van de handelingen blijkt uit gegevens verkregen overeenkomstig de procedures van de door de Europese Gemeenschappen uitgevaardigde reglementering inzake het uitwisselen van inlichtingen tussen de Lid-Staten van de Gemeenschap. Voor de toepassing van deze inhouding wordt de voorwaarde vereist door artikel 1413 van het Gerechtelijk Wetboek geacht te zijn vervuld.
 

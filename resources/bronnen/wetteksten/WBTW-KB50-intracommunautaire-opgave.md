@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:58:06Z'
+  generated_at: '2026-05-13T11:04:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Bestand bevat twee opeenvolgende versies van KB nr. 50 (de 2019-versie en daaronder de oude 2009-versie als 'Bijlage'), wat een buitenstaander zou herkennen als compilatie-bleed: het is geen bijlage in juridische zin maar de voorafgaande, opgeheven versie die in de Fisconet-PDF na de actuele tekst stond. Bovendien staat onderaan 'KB50-Bijlage pg. Bijl./1 ... pg. Bijl./2' (regels 341-343), expliciete page-tags. Hoofdstuk-headings 'HOOFDSTUK 2' / 'HOOFDSTUK 3' (regels 148, 207) gebruiken all-caps terwijl 'Hoofdstuk 1' (regel 57) niet — inconsistent. TOC-blok regels 50-55 dupliceert hoofdstukken zonder body."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
+      run_at: '2026-05-13T11:05:03Z'
       rationale: "Bestand bevat twee opeenvolgende versies van KB nr. 50 (de 2019-versie en daaronder de oude 2009-versie als 'Bijlage'), wat een buitenstaander zou herkennen als compilatie-bleed: het is geen bijlage in juridische zin maar de voorafgaande, opgeheven versie die in de Fisconet-PDF na de actuele tekst stond. Bovendien staat onderaan 'KB50-Bijlage pg. Bijl./1 ... pg. Bijl./2' (regels 341-343), expliciete page-tags. Hoofdstuk-headings 'HOOFDSTUK 2' / 'HOOFDSTUK 3' (regels 148, 207) gebruiken all-caps terwijl 'Hoofdstuk 1' (regel 57) niet — inconsistent. TOC-blok regels 50-55 dupliceert hoofdstukken zonder body."
       concrete_problemen:
         - "Regels 226-335: integrale opgenomen oude KB-50-2009 onder kop 'Bijlage' — dit is geen wettelijke bijlage maar de opgeheven voorgangerversie"
@@ -127,8 +127,7 @@ Wanneer een in het eerste lid bedoelde belastingplichtige die hoedanigheid verli
 
 § 2. De belastingplichtigen en de leden van een btw-eenheid in de zin van artikel 4, § 2, van het Wetboek, zijn vrijgesteld van de verplichting tot indiening langs elektronische weg zolang zij of in voorkomend geval de persoon die gemachtigd is deel 1 van dergelijke opgaven namens hen in te dienen, niet over de nodige geïnformatiseerde middelen beschikken om aan deze verplichting te voldoen.
 
-§ 3. De belastingplichtigen die niet gehouden zijn tot de indiening van de in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde aangifte en de leden van een btw-eenheid in de zin van artikel 4,
-§ 2, van het Wetboek die niet gehouden is tot de indiening van deze aangifte, maken de keuze deel 1 van de intracommunautaire opgave hetzij elektronisch, hetzij op papier in te dienen.
+§ 3. De belastingplichtigen die niet gehouden zijn tot de indiening van de in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde aangifte en de leden van een btw-eenheid in de zin van artikel 4, § 2, van het Wetboek die niet gehouden is tot de indiening van deze aangifte, maken de keuze deel 1 van de intracommunautaire opgave hetzij elektronisch, hetzij op papier in te dienen.
 
 § 4. De belastingplichtigen en de leden van een btw-eenheid in de zin van artikel 4, § 2, van het Wetboek:
 
@@ -249,27 +248,23 @@ c) de leveringen van goederen als bedoeld in 1°, d) ;
 d) de diensten als bedoeld in 1°, e) .
 
 ### Art. 2
-(De tekst van KB nr. 50, artikel 2, werd gewijzigd met ingang van 16.05.2014. (Art.
-33, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
+(De tekst van KB nr. 50, artikel 2, werd gewijzigd met ingang van 16.05.2014. (Art. 33, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
 Het aan te geven bedrag als bedoeld in artikel 1, 2°, a) tot d), wordt voorafgegaan door een vermelding die verschillend is naargelang de categorie van de handelingen en die wordt bepaald door de administratie.
 Indien meerdere bedragen moeten worden opgenomen voor een- zelfde persoon, dient voor ieder aangegeven bedrag zijn in artikel 1, 1°, bedoeld identificatienummer te worden vermeld.
 
 ### Art. 3
-(De tekst van KB nr. 50, artikel 3, werd ingevoerd met ingang van 01.01.2010. (Art.
-3, KB 09.12.2009, B.S. 17.12.2009))
+(De tekst van KB nr. 50, artikel 3, werd ingevoerd met ingang van 01.01.2010. (Art. 3, KB 09.12.2009, B.S. 17.12.2009))
 
 In de gevallen als bedoeld in artikel 77, § 1, 1° tot 6°, van het Wetboek, moeten de in artikel 1, 2° bedoelde bedragen tot het passende beloop worden herzien. Het bedrag van de herziening wordt opgenomen in de intracommunautaire opgave met betrekking tot het tijdvak waarin een stuk wordt uitgereikt dat de herziening van de maatstaf van heffing ter kennis brengt.
 
 ### Art. 4
-(De tekst van KB nr. 50, artikel 4, werd ingevoerd met ingang van 01.01.2010. (Art.
-4, KB 09.12.2009, B.S. 17.12.2009))
+(De tekst van KB nr. 50, artikel 4, werd ingevoerd met ingang van 01.01.2010. (Art. 4, KB 09.12.2009, B.S. 17.12.2009))
 
 Wanneer na het indienen van de intracommunautaire opgave, de belastingplichtige of het lid van een BTW-eenheid in de zin van artikel 4, § 2, van het Wetboek, bedoeld in artikel 1, vaststelt dat de opgave een materiële vergissing bevat, dient hij in de eerste opgave na het tijdstip waarop hij die vergissing vaststelt, een correctie op te nemen volgens een procedure die door of vanwege de Minister van Financiën wordt bepaald Onder materiële vergissing wordt verstaan elke vergissing die geen aanleiding geeft tot het uitreiken van een stuk dat de herziening van de maatstaf van heffing ter kennis brengt.
 
 ### Art. 5
-(De tekst van KB nr. 50, artikel 5, werd ingevoerd met ingang van 01.01.2010. (Art.
-5, KB 09.12.2009, B.S. 17.12.2009))
+(De tekst van KB nr. 50, artikel 5, werd ingevoerd met ingang van 01.01.2010. (Art. 5, KB 09.12.2009, B.S. 17.12.2009))
 
 § 1. In afwijking van artikel 1 kan de intracommunautaire opgave voor elk kalenderkwartaal worden ingediend uiterlijk de twintigste van de maand volgend op het tijdvak waarop ze betrekking heeft, wanneer het driemaandelijks totaalbedrag van de leveringen van goederen als bedoeld in artikel 1, 2°, a), b) en c), niet meer dan 50.000 euro bedraagt, noch in de loop van het betrokken kalenderkwar- taal, noch in de loop van elk van de vier verstreken kalenderkwartalen.
 Deze afwijking is slechts van toepassing voor de belastingplichtigen die de in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde aangifte driemaandelijks indienen en voor degenen die deze aangifte niet moeten indienen, alsook voor de leden van een btw-eenheid in de zin van artikel 4, § 2, van het Wetboek die deze aangifte driemaandelijks indient of die deze aangifte niet moet indienen.
@@ -296,44 +291,37 @@ Wetboek die niet gehouden is tot de indiening van deze aangifte, maken de keuze 
 § 5. De toepassingsmodaliteiten van dit artikel worden geregeld door of vanwege de Minister van Financiën.
 
 ### Art. 7
-(De tekst van KB nr. 50, artikel 7, werd ingevoerd met ingang van 01.01.2010. (Art.
-7, KB 09.12.2009, B.S. 17.12.2009))
+(De tekst van KB nr. 50, artikel 7, werd ingevoerd met ingang van 01.01.2010. (Art. 7, KB 09.12.2009, B.S. 17.12.2009))
 
 De intracommunautaire opgave moet niet worden ingediend wanneer er geen enkel van de gegevens als bedoeld in de artikelen 1, 3 en 4 moet worden opgenomen.
 
 ### Art. 8
-(De tekst van KB nr. 50, artikel 8, werd ingevoerd met ingang van 01.01.2010. (Art.
-8, KB 09.12.2009, B.S. 17.12.2009))
+(De tekst van KB nr. 50, artikel 8, werd ingevoerd met ingang van 01.01.2010. (Art. 8, KB 09.12.2009, B.S. 17.12.2009))
 
 De in artikel 53sexies, § 1, van het Wetboek bedoelde belastingplichtigen en leden van een BTWeenheid in de zin van artikel 4, § 2, van het Wetboek houden klantenrekeningen of alle andere stukken om te kunnen voldoen aan de voorschriften van dit besluit en aan het toezicht op de naleving ervan.
 
 ### Art. 9
-(De tekst van KB nr. 50, artikel 9, werd ingevoerd met ingang van 01.01.2010. (Art.
-9, KB 09.12.2009, B.S. 17.12.2009))
+(De tekst van KB nr. 50, artikel 9, werd ingevoerd met ingang van 01.01.2010. (Art. 9, KB 09.12.2009, B.S. 17.12.2009))
 
 Het bedrag van 50.000 euro bedoeld in artikel 5 wordt tot 31 december 2011 op 100.000 euro gebracht.
 
 ### Art. 10
-(De tekst van KB nr. 50, artikel 10, werd ingevoerd met ingang van 01.01.2010. (Art.
-10, KB 09.12.2009, B.S. 17.12.2009))
+(De tekst van KB nr. 50, artikel 10, werd ingevoerd met ingang van 01.01.2010. (Art. 10, KB 09.12.2009, B.S. 17.12.2009))
 
 Dit koninklijk besluit voorziet in de omzetting van de punten 9 en 10 van de richtlijn 2008/8/EG van de Raad van 12 februari 2008 tot wijziging van Richtlijn 2006/112/EG wat betreft de plaats van een dienst en van de richtlijn 2008/117/EG van de Raad van 16 december 2008 tot wijziging van Richtlijn 2006/112/EG betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde ter bestrijding van de belastingfraude in het intracommunautaire verkeer.
 
 ### Art. 11
-(De tekst van KB nr. 50, artikel 11, werd ingevoerd met ingang van 01.01.2010. (Art.
-11, KB 09.12.2009, B.S. 17.12.2009))
+(De tekst van KB nr. 50, artikel 11, werd ingevoerd met ingang van 01.01.2010. (Art. 11, KB 09.12.2009, B.S. 17.12.2009))
 
 Dit besluit vervangt het koninklijk besluit nr. 50 van 29 december 1992 tot regeling van de toepassingsmodaliteiten van artikel 53sexies, § 1, van het Wetboek van de belasting over de toegevoegde waarde.
 
 ### Art. 12
-(De tekst van KB nr. 50, artikel 12, werd ingevoerd met ingang van 01.01.2010. (Art.
-12, KB 09.12.2009, B.S. 17.12.2009))
+(De tekst van KB nr. 50, artikel 12, werd ingevoerd met ingang van 01.01.2010. (Art. 12, KB 09.12.2009, B.S. 17.12.2009))
 
 Dit besluit treedt in werking op 1 januari 2010.
 
 ### Art. 13
-(De tekst van KB nr. 50, artikel 13, werd ingevoerd met ingang van 01.01.2010. (Art.
-13, KB 09.12.2009, B.S. 17.12.2009))
+(De tekst van KB nr. 50, artikel 13, werd ingevoerd met ingang van 01.01.2010. (Art. 13, KB 09.12.2009, B.S. 17.12.2009))
 
 De Minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.
 

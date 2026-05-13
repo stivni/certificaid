@@ -17,26 +17,24 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:58:06Z'
+  generated_at: '2026-05-13T11:04:30Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T10:59:42Z'
+    status: trusted
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Klein bestand, grotendeels schoon, maar percentage-aanduidingen worden inconsistent weergegeven ('18 pct.', '6 pct.', '8 pct.', '13 pct.') wat OK is, maar er ontbreekt witregel tussen items 1°-4° in Art. 1 niet (regels 56-59 - die staan op aparte regels). De header 'KB nr. 35 - Lijst van de bijwerkingen' ontbreekt hier gelukkig, maar de bestandstructuur is bondig genoeg en formaat is OK. Het issue is voornamelijk dat de body-intro (regels 48-50) drie aparte regels heeft die in PDF één blok waren ('(Uitvoering...)' / '(Officieuze coördinatie)' / 'Laatstelijk gewijzigd...') zonder duidelijke structuur. Borderline trusted, maar gezien beleid 'bij twijfel needs-rework' kies ik dat.
+    rationale: 'Compact KB (4 artikelen). H1 + 4× ## Art., consistent gevolgd door wijzigingstoelichting. Lijst 1°-4° met percentages (18/6/8/13 pct.) clean op aparte regels. Body-intro op regels 48-50 staat in 3 aparte regels maar dat is typisch Fisconet-style (Uitvoering / Officieuze coördinatie / Laatstelijk gewijzigd) en niet storend. Lange compound-zin in Art. 1 (1°) is wettelijke stijl, geen ETL-artefact. Geen footer, geen TOC, geen running-headers.'
     layer1:
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
-      rationale: Klein bestand, grotendeels schoon, maar percentage-aanduidingen worden inconsistent weergegeven ('18 pct.', '6 pct.', '8 pct.', '13 pct.') wat OK is, maar er ontbreekt witregel tussen items 1°-4° in Art. 1 niet (regels 56-59 - die staan op aparte regels). De header 'KB nr. 35 - Lijst van de bijwerkingen' ontbreekt hier gelukkig, maar de bestandstructuur is bondig genoeg en formaat is OK. Het issue is voornamelijk dat de body-intro (regels 48-50) drie aparte regels heeft die in PDF één blok waren ('(Uitvoering...)' / '(Officieuze coördinatie)' / 'Laatstelijk gewijzigd...') zonder duidelijke structuur. Borderline trusted, maar gezien beleid 'bij twijfel needs-rework' kies ik dat.
-      concrete_problemen:
-        - Body-intro regels 48-50 zijn drie aparte one-liners zonder context-grouping
-        - In Art. 1 (1°) één heel lange compound-zin met verspreide haakjes-bijzinnen - moeilijk leesbaar maar wettelijke stijl
+      run_at: '2026-05-13T11:05:03Z'
+      rationale: 'Compact KB (4 artikelen). H1 + 4× ## Art., consistent gevolgd door wijzigingstoelichting. Lijst 1°-4° met percentages (18/6/8/13 pct.) clean op aparte regels. Body-intro op regels 48-50 staat in 3 aparte regels maar dat is typisch Fisconet-style (Uitvoering / Officieuze coördinatie / Laatstelijk gewijzigd) en niet storend. Lange compound-zin in Art. 1 (1°) is wettelijke stijl, geen ETL-artefact. Geen footer, geen TOC, geen running-headers.'
+      concrete_problemen: []
 ---
 
 # K.B. nr. 35 van 28 december 1999, tot invoering van een forfaitaire maatstaf van heffing van de belasting over de toegevoegde waarde op de winstmarge van reisbureaus

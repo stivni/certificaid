@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:58:05Z'
+  generated_at: '2026-05-13T11:04:30Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_at: '2026-05-13T11:05:02Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Inconsistente HOOFDSTUK-structuur (categorie B2): 'EERSTE HOOFDSTUK' op regel 49-51 als plain text in all-caps zonder ## prefix, terwijl 'HOOFDSTUK II' op regel 183 wél als ## heading staat. Afdeling 1 als ### maar afdeling 2 ook als ### — OK. Daarnaast eed-formules (regel 129) als run-on prose i.p.v. blockquote/list, en meerdere spurious linebreaks in annotaties ('Art.\\n13,' regel 97-98, 'Art.\\n17,' regel 122-123, 'Art.\\n20,' regel 200-201)."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
+      run_at: '2026-05-13T11:05:02Z'
       rationale: "Inconsistente HOOFDSTUK-structuur (categorie B2): 'EERSTE HOOFDSTUK' op regel 49-51 als plain text in all-caps zonder ## prefix, terwijl 'HOOFDSTUK II' op regel 183 wél als ## heading staat. Afdeling 1 als ### maar afdeling 2 ook als ### — OK. Daarnaast eed-formules (regel 129) als run-on prose i.p.v. blockquote/list, en meerdere spurious linebreaks in annotaties ('Art.\\n13,' regel 97-98, 'Art.\\n17,' regel 122-123, 'Art.\\n20,' regel 200-201)."
       concrete_problemen:
         - regel: 49
@@ -83,8 +83,7 @@ Vervreemdingen van goederen bedoeld in artikel 1, § 9, van het Wetboek.
 (Het opschrift van afdeling 1 van hoofdstuk 1, van KB nr. 15, werd vervangen met ingang van 01.01.2011. (Art. 12, KB 19.12.2010, B.S. 24.12.2010))
 
 #### Art. 1
-(De tekst van KB nr. 15, artikel 1, werd vervangen met ingang van 01.01.2011. (Art.
-13, KB 19.12.2010, B.S. 24.12.2010))
+(De tekst van KB nr. 15, artikel 1, werd vervangen met ingang van 01.01.2011. (Art. 13, KB 19.12.2010, B.S. 24.12.2010))
 
 Wanneer de administratie de deskundige schatting vordert waarin artikel 59, § 2, van het Wetboek voorziet voor het bepalen van de normale waarde van goederen bedoeld in artikel 1, § 9, van hetzelfde Wetboek in het door artikel 36, § 1, a), van dit Wetboek bedoelde geval, wordt ze ingeleid bij een vordering waarvan kennis wordt gegeven door de ontvanger der registratie in wiens ambtsgebied de voornoemde goederen zijn gelegen aan de verkrijger van de bedoelde goederen, hierna « tegenpartij » genoemd.
 
@@ -97,8 +96,7 @@ In alle andere gevallen moet van de vordering tot schatting kennis worden gegeve
 § 2. De schatting kan niet meer door de ontvanger worden gevorderd wanneer reeds een vordering tot schatting werd ingeleid overeenkomstig artikel 19 van dit besluit.
 
 #### Art. 3
-(De tekst van KB nr. 15, artikel 3, werd vervangen met ingang van 01.01.2011. (Art.
-15, KB 19.12.2010, B.S. 24.12.2010))
+(De tekst van KB nr. 15, artikel 3, werd vervangen met ingang van 01.01.2011. (Art. 15, KB 19.12.2010, B.S. 24.12.2010))
 
 In de vordering tot schatting zijn vermeld : de te schatten goederen, de door de administratie geschatte normale waarde, het bedrag van de door de administratie gevorderde belasting en geldboete, alsmede het tijdstip waarop de deskundigen zich moeten plaatsen om de normale waarde van deze goederen te bepalen. Dat tijdstip is de datum van de overeenkomst.
 Wanneer een belastingplichtige voor een niet gesplitste prijs een gebouw of een gedeelte van een gebouw en het bijhorende terrein met voldoening van de belasting vervreemdt samen met een andere
@@ -145,8 +143,7 @@ Bij de ontvangst van die kennisgeving laten de deskundigen zowel aan de ontvange
 Van ieder stuk dat door een van de partijen aan de deskundigen wordt medegedeeld moet meteen door haar aan de andere partij, bij ter post aangetekend schrijven, een afschrift worden gezonden.
 
 #### Art. 9
-(De tekst van KB nr. 15, artikel 9, werd gewijzigd met ingang van 01.01.2011. (Art.
-17, KB 19.12.2010, B.S. 24.12.2010))
+(De tekst van KB nr. 15, artikel 9, werd gewijzigd met ingang van 01.01.2011. (Art. 17, KB 19.12.2010, B.S. 24.12.2010))
 
 De deskundige of, in voorkomend geval, de drie gezamenlijk optredende deskundigen gaan de normale waarde na die het in de vordering tot schatting vermelde goederen hebben op het erin vermelde tijdstip.
 In het geval bedoeld in artikel 3, tweede lid, gaan ze bovendien de verkoopwaarde na van de andere grond dan het bijhorende terrein, alsmede de verkoopwaarde van het geheel van de vervreemde goederen.
@@ -180,8 +177,7 @@ De invordering geschiedt op basis van een innings- en invorderingsregister op de
 Werk in onroerende staat.
 
 #### Art. 14
-(De tekst van KB nr. 15, artikel 14, werd vervangen met ingang van 01.01.2011. (Art.
-18, KB 19.12.2010, B.S. 24.12.2010))
+(De tekst van KB nr. 15, artikel 14, werd vervangen met ingang van 01.01.2011. (Art. 18, KB 19.12.2010, B.S. 24.12.2010))
 
 § 1. Wanneer voor het bepalen van de normale waarde van de in de artikelen 19, § 2, eerste lid, 1° en 36, § 1, b), van het Wetboek bedoelde diensten, de deskundige schatting, waarin artikel 59, § 2, van hetzelfde Wetboek voorziet, door de administratie wordt gevorderd, wordt ze ingeleid bij een vordering waarvan kennis wordt gegeven door het hoofd van het controlekantoor in het ambtsgebied waarvan het goed bedoeld in artikel 1, § 9, 1°, van hetWetboek is gelegen waarop de diensten betrekking hebben :
 1° aan de opdrachtgever aan wie de diensten werden verstrekt;
@@ -223,8 +219,7 @@ De schatting kan niet meer worden gevorderd wanneer de administratie reeds de vo
 De in artikel 18 bedoelde deskundige schatting wordt ingeleid door een vordering waarvan kennis wordt gegeven aan de ambtenaar aangewezen in de artikelen 1 of 14, naar gelang van het geval.
 
 #### Art. 20
-(De tekst van KB nr. 15, artikel 20, werd gewijzigd met ingang van 01.01.2011. (Art.
-20, KB 19.12.2010, B.S. 24.12.2010))
+(De tekst van KB nr. 15, artikel 20, werd gewijzigd met ingang van 01.01.2011. (Art. 20, KB 19.12.2010, B.S. 24.12.2010))
 
 In de vordering tot schatting zijn vermeld : de te schatten goederen of de te schatten diensten en het tijdstip waarop de deskundigen zich overeenkomstig de artikelen 3 en 16 moeten plaatsen om de schatting te doen.
 

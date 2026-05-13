@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:58:05Z'
+  generated_at: '2026-05-13T11:04:30Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Korte KB van 9 artikelen, schone heading-hierarchie ## Art., volledige tekst aanwezig, alle bracketed wijzigings-markers correct gesloten. Bijlage-referentie aan het einde is summier (model van formulier dat in PDF als beeld zit) maar storend is dit niet.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
+      run_at: '2026-05-13T11:05:03Z'
       rationale: 'Korte KB van 9 artikelen, schone heading-hierarchie ## Art., volledige tekst aanwezig, alle bracketed wijzigings-markers correct gesloten. Bijlage-referentie aan het einde is summier (model van formulier dat in PDF als beeld zit) maar storend is dit niet.'
       concrete_problemen:
         - "Slotregel 'Bijlage / jaarlijkse lijst van de BTW-belastingplichtige afnemers' is plain text zonder ##-heading — minor"
@@ -77,8 +77,7 @@ Zij zijn vrijgesteld van de verplichting tot indiening langs elektronische weg z
 § 4. De toepassingsmodaliteiten van onderhavig artikel worden geregeld door of vanwege de Minister van Financiën.
 
 ## Art. 3
-(De tekst van KB nr. 23, artikel 3, werd vervangen met ingang van 01.04.2014. (Art.
-10, KB 27.11.2014, B.S. 08.12.2014 – Ed. 3, pg. 100135))
+(De tekst van KB nr. 23, artikel 3, werd vervangen met ingang van 01.04.2014. (Art. 10, KB 27.11.2014, B.S. 08.12.2014 – Ed. 3, pg. 100135))
 
 De belastingplichtigen die op 31 december van het jaar waarop de in artikel 1 bedoelde lijst betrekking heeft, genieten van de vrijstellingsregeling van belasting bepaald door artikel 56bis van het Wetboek in het voordeel van kleine ondernemingen, zijn gehouden die lijst aan te vullen met een verklaring die vermeldt :
 1° het bedrag van de omzet gerealiseerd in de loop van het kalenderjaar waarop deze lijst betrekking heeft, berekend overeenkomstig artikel 56bis, § 4, van het Wetboek;

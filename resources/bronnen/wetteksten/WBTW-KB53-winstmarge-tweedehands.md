@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:58:06Z'
+  generated_at: '2026-05-13T11:04:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Inhoudelijk volledig en heading-hiërarchie OK, maar op verschillende plaatsen worden amendment-haakjes onderbroken door een linebreak (bv. regel 103-104, 109-110, 119-120, 124-125): '(De tekst van KB nr. 53, artikel 8, werd vervangen met ingang van 01.01.2013 (Art.\\n46, KB 30.04.2013...)'. Dit is typische pdftotext-line-wrap die buitenstaander direct zou opvallen. Ook regel 75-76: '... artikel 58, § 4,\\n4°, ...' — afgebroken verwijzing."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
+      run_at: '2026-05-13T11:05:03Z'
       rationale: "Inhoudelijk volledig en heading-hiërarchie OK, maar op verschillende plaatsen worden amendment-haakjes onderbroken door een linebreak (bv. regel 103-104, 109-110, 119-120, 124-125): '(De tekst van KB nr. 53, artikel 8, werd vervangen met ingang van 01.01.2013 (Art.\\n46, KB 30.04.2013...)'. Dit is typische pdftotext-line-wrap die buitenstaander direct zou opvallen. Ook regel 75-76: '... artikel 58, § 4,\\n4°, ...' — afgebroken verwijzing."
       concrete_problemen:
         - "Meerdere amendment-headers afgebroken midden tussen 'Art.' en nummer: regels 103-104, 109-110, 119-120, 124-125 (steeds 'Art.\\nN, KB ...')"
@@ -74,8 +74,7 @@ De belastingplichtige wederverkoper dient jaarlijks een inventaris op te maken v
 De maatstaf van heffing voor leveringen van goederen waarop hetzelfde tarief van de belasting van toepassing is, is de totale winstmarge van de belastingplichtige wederverkoper, verminderd met het bedrag van de belasting die in dezelfde winstmarge is begrepen.
 
 De totale winstmarge voor elk aangiftetijdvak, uitgezonderd voor het laatste aangiftetijdvak van het jaar, is gelijk aan het verschil tussen : - het totale bedrag van de leveringen van goederen die onderworpen zijn aan de bijzondere regeling van belastingheffing over de winstmarge en die tijdens het tijdvak door de belastingplichtige wederverkoper verricht zijn; dat bedrag is gelijk aan het totaal van de verkoopprijzen;
-- en het totale bedrag van de door de belastingplichtige wederverkoper tijdens het tijdvak verrichte aankopen van goederen bedoeld in artikel 58, § 4, 2°, van het Wetboek, waarvan de leveringen door personen of belastingplichtigen vermeld in die bepaling voldoen aan de voorwaarden gesteld in die bepaling en, indien van het keuzerecht bedoeld in artikel 58, § 4,
-4°, van het Wetboek, gebruik wordt gemaakt, van goederen gekocht of ingevoerd in de omstandigheden bedoeld in die laatste bepaling; dat bedrag is gelijk aan het totaal van de aankoopprijzen.
+- en het totale bedrag van de door de belastingplichtige wederverkoper tijdens het tijdvak verrichte aankopen van goederen bedoeld in artikel 58, § 4, 2°, van het Wetboek, waarvan de leveringen door personen of belastingplichtigen vermeld in die bepaling voldoen aan de voorwaarden gesteld in die bepaling en, indien van het keuzerecht bedoeld in artikel 58, § 4, 4°, van het Wetboek, gebruik wordt gemaakt, van goederen gekocht of ingevoerd in de omstandigheden bedoeld in die laatste bepaling; dat bedrag is gelijk aan het totaal van de aankoopprijzen.
 De totale winstmarge voor het laatste aangiftetijdvak van het jaar is gelijk aan het verschil tussen : - het totale bedrag van de verkoopprijzen van de leveringen van goederen die onderworpen zijn aan de bijzondere regeling van belastingheffing over de winstmarge en die tijdens het jaar door de belastingplichtige wederverkoper zijn verricht;
 - en het totale bedrag van de aankoopprijzen van de goederen die tijdens hetzelfde jaar door de belastingplichtige wederverkoper met toepassing van de bijzondere regeling van belastingheffing over de winstmarge zijn geleverd, verhoogd met het bedrag van de winstmarges die reeds werden aangegeven voor de vorige aangiftetijdvakken van hetzelfde jaar.
 Indien de totale winstmarge met betrekking tot het laatste aangiftetijdvak van het jaar een negatieve marge is, doet dit geen recht op overdracht van die marge naar een volgend jaar ontstaan.
@@ -102,14 +101,12 @@ De overeenkomstig het eerste lid gemaakte keuze gaat in op de datum van de afgif
 Indien de belastingplichtige wederverkoper zowel de normale regeling van de belasting als de bijzondere regeling van belastingheffing over de winstmarge toepast, moet hij de handelingen verricht onder de normale regeling van de belasting en de handelingen verricht onder de bijzondere regeling van belastingheffing over de winstmarge afzonderlijk in zijn boekhouding bijhouden, volgens de door of vanwege de Minister van Financiën vastgestelde modaliteiten.
 
 ## Art. 8
-(De tekst van KB nr. 53, artikel 8, werd vervangen met ingang van 01.01.2013 (Art.
-46, KB 30.04.2013, B.S. 08.05.2013, pg. 26764))
+(De tekst van KB nr. 53, artikel 8, werd vervangen met ingang van 01.01.2013 (Art. 46, KB 30.04.2013, B.S. 08.05.2013, pg. 26764))
 
 Op de facturen of op de als zodanig geldende stukken die de belastingplichtige wederverkoper uitreikt voor de leveringen van goederen die hij onderwerpt aan de bijzondere regeling van belastingheffing over de winstmarge dient de volgende vermelding te worden aangebracht : "Bijzondere regeling - gebruikte goederen", of "Bijzondere regeling - kunstvoorwerpen" of "Bijzondere regeling - voorwerpen voor verzamelingen of antiquiteiten".
 
 ## Art. 9
-(De tekst van Kb nr. 53, artikel 9, is van toepassing met ingang van 01.01.2004 (Art.
-31, KB 20.02.2004, B.S. 27.02.2004))
+(De tekst van Kb nr. 53, artikel 9, is van toepassing met ingang van 01.01.2004 (Art. 31, KB 20.02.2004, B.S. 27.02.2004))
 
 In afwijking van artikel 15, § 4, van het koninklijk besluit nr. 1 van 29 december 1992, is een afzonderlijke inschrijving in het dagboek van ontvangsten noodzakelijk, met vermelding van de aard van de verkochte goederen, van de ontvangsten die voortkomen van elke door de belastingplichtige wederverkoper aan de bijzondere regeling van belastingheffing over de winstmarge onderworpen levering waarvoor hij niet verplicht is een factuur uit te reiken en waarvoor hij geen factuur heeft uitgereikt.
 

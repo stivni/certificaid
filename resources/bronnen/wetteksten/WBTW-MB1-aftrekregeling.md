@@ -17,36 +17,30 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:41Z'
+  generated_at: '2026-05-13T11:04:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Zware ETL-artefact: regels 46-130 (85 regels!) bevatten de volledige cover, TOC en lijst van alle MB's uit de WBTW-MB-compilatie PDF, ingevoegd vóór de eigenlijke MB-1 tekst die pas op regel 131 begint. Buitenstaander zou meteen zien dat dit een compilatie-extract is. De TOC bevat ook PDF-bullet-glyphs ('*'), onderstreepte placeholders ('_____'), en scrambled tekstfragmenten zoals 'controle Bijw. 01/01.01.2012 op de toepassing van de belasting...' met bijwerkingsmarkers mid-zin."
+    rationale: "Massieve ETL-bleed onveranderd: regels 56-140 (85 regels) bevatten de complete compilatie-cover ('BELASTING OVER DE TOEGEVOEGDE WAARDE', 'Federale Overheidsdienst FINANCIEN', contact-email) plus de volledige TOC van alle 25+ MB's met PDF-glyph-bullets ' * ', onderstreepte placeholders '_____' en 'Bijw. XX/datum' kolom-bleed midden in beschrijvingen. De eigenlijke MB-1 wettekst begint pas op regel 141 en is slechts 16 regels lang. De drie nieuwe transformers raken dit volume aan pre-tekst-pollutie niet (niet 'Lijst van de bijwerkingen', niet running-header met pg.-formaat, niet lege heading)."
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:40Z'
-      heading_count: 3
-      max_section_chars: 9133
-      file_size_chars: 9891
-      flags: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
-      rationale: "Zware ETL-artefact: regels 46-130 (85 regels!) bevatten de volledige cover, TOC en lijst van alle MB's uit de WBTW-MB-compilatie PDF, ingevoegd vóór de eigenlijke MB-1 tekst die pas op regel 131 begint. Buitenstaander zou meteen zien dat dit een compilatie-extract is. De TOC bevat ook PDF-bullet-glyphs ('*'), onderstreepte placeholders ('_____'), en scrambled tekstfragmenten zoals 'controle Bijw. 01/01.01.2012 op de toepassing van de belasting...' met bijwerkingsmarkers mid-zin."
+      run_at: '2026-05-13T11:05:03Z'
+      rationale: "Massieve ETL-bleed onveranderd: regels 56-140 (85 regels) bevatten de complete compilatie-cover ('BELASTING OVER DE TOEGEVOEGDE WAARDE', 'Federale Overheidsdienst FINANCIEN', contact-email) plus de volledige TOC van alle 25+ MB's met PDF-glyph-bullets ' * ', onderstreepte placeholders '_____' en 'Bijw. XX/datum' kolom-bleed midden in beschrijvingen. De eigenlijke MB-1 wettekst begint pas op regel 141 en is slechts 16 regels lang. De drie nieuwe transformers raken dit volume aan pre-tekst-pollutie niet (niet 'Lijst van de bijwerkingen', niet running-header met pg.-formaat, niet lege heading)."
       concrete_problemen:
-        - "Regels 46-130: complete compilation-cover + TOC van alle 25+ MB's voor de eigenlijke wettekst"
-        - Onderstrepingen '_____' als placeholders in TOC (regel 75-118)
-        - Bijwerkingsmarkers ('Bijw. 01/01.01.2012') midden in TOC-regels
-        - PDF-bullet-glyphs (' * ') zonder markdown-conversie
-        - Eigenlijke MB-1 tekst is slechts 16 regels (133-147) versus 85 regels TOC-pollutie ervóór
+        - "Regels 56-78: compilatie-cover ('BELASTING OVER DE TOEGEVOEGDE WAARDE', 'Federale Overheidsdienst FINANCIEN', 'contact : comments.kms@minfin.fed.be') als plain text vóór de wettekst"
+        - "Regels 79-139: complete 'Lijst van de ministeriële besluiten' (25 MB's) met PDF-bullet-glyphs ' * '"
+        - "Regels 85-121: onderstreepte placeholders '_____' midden in TOC-regels"
+        - "Regels 81, 83, 91, 101-105, 123, 126-132, 134, 137, 139: bijwerkingsmarkers 'Bijw. XX/datum' kolom-bleed midden in beschrijvingen"
+        - Regel 141 bevat de eigenlijke MB-titel als plain text ipv heading, gevolgd door 'Officieuze coördinatie - Laatstelijk gewijzigd...' op één lange regel
+        - 'Body/content-ratio: 85 regels pollutie versus 16 regels eigenlijke wettekst'
 ---
 
 # M.B. nr. 1 van 2 september 1980, met betrekking tot de aftrekregeling voor de toepassing van de belasting over de toegevoegde waarde
@@ -131,8 +125,7 @@ Lijst van de ministeriële besluiten
 
  * Ministerieel besluit, van 28 oktober 2009, tot bepaling van het model der Recent opgeheven berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies 06.07.2020 van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992
 
- * Ministerieel besluit, van 16 juli 2019, tot aanduiding van de ambtenaren Bijw. 01/02.08.2019 die in de functie van adviseur-generaal zitting hebben in de beroepscommissie zoals bedoeld in artikel 66, § 2 van het wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen en dat aan die beroepscommissie de machtiging geeft om op te treden als beroepscommissie zoals bedoeld in artikel 84octies,
-§ 2, van het wetboek van de belasting over de toegevoegde waarde en als beroepscommissie zoals bedoeld in artikel 413quinquies, § 2, van het wetboek van de inkomstenbelastingen 1992
+ * Ministerieel besluit, van 16 juli 2019, tot aanduiding van de ambtenaren Bijw. 01/02.08.2019 die in de functie van adviseur-generaal zitting hebben in de beroepscommissie zoals bedoeld in artikel 66, § 2 van het wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen en dat aan die beroepscommissie de machtiging geeft om op te treden als beroepscommissie zoals bedoeld in artikel 84octies, § 2, van het wetboek van de belasting over de toegevoegde waarde en als beroepscommissie zoals bedoeld in artikel 413quinquies, § 2, van het wetboek van de inkomstenbelastingen 1992
 
  * Ministerieel besluit, van 17 maart 2023, met betrekking tot de Bijw. 01/01.04.2023 vaststelling van de modaliteiten voor het bijhouden van een elektronisch dagboek van ontvangsten en van een centralisatiedagboek enerzijds en de bewaring en de integriteit van de inhoud van de elektronische kastickets anderzijds, alsmede de modaliteiten voor de bewaring van de financiële rapporten
 

@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:58:05Z'
+  generated_at: '2026-05-13T11:04:30Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Grootste bron in batch (108k chars) met meerdere structuurproblemen die de ETL moet oplossen. Layer1 vlagt al max_section_size (>24k). Tabel A/B/C-rubrieken (Romeinse cijfers I.–XL.) staan als plain text in plaats van als sub-headings, waardoor één enorme sectie ontstaat. TOC-fragmenten met dotted leaders ('Goederen aan 6 pct. ......... II/1') zijn niet opgeschoond. Structuurlabels 'TABEL A', 'TABEL B', 'TABEL C', 'GOEDEREN', 'DIENSTEN', 'BIJLAGE', 'Tijdelijke bepalingen', 'Eerste afdeling' staan als plain text zonder ##-prefix. Recap-blok aan het einde dupliceert de rubriekenlijst en lijkt op TOC-residu."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
+      run_at: '2026-05-13T11:05:03Z'
       rationale: "Grootste bron in batch (108k chars) met meerdere structuurproblemen die de ETL moet oplossen. Layer1 vlagt al max_section_size (>24k). Tabel A/B/C-rubrieken (Romeinse cijfers I.–XL.) staan als plain text in plaats van als sub-headings, waardoor één enorme sectie ontstaat. TOC-fragmenten met dotted leaders ('Goederen aan 6 pct. ......... II/1') zijn niet opgeschoond. Structuurlabels 'TABEL A', 'TABEL B', 'TABEL C', 'GOEDEREN', 'DIENSTEN', 'BIJLAGE', 'Tijdelijke bepalingen', 'Eerste afdeling' staan als plain text zonder ##-prefix. Recap-blok aan het einde dupliceert de rubriekenlijst en lijkt op TOC-residu."
       concrete_problemen:
         - "Dotted-leader TOC-residu op regel 158: 'Goederen aan 6 pct. ......... II/1 Diensten aan 6 pct. ......... III/1'"
@@ -130,8 +130,7 @@ Indien de bouwheer of verkrijger tijdens de hierboven genoemde periode wijziging
 § 4. Het verlaagd tarief van zes percent is in geen geval van toepassing op:
 1° werk in onroerende staat en andere onroerende handelingen die geen betrekking hebben op de eigenlijke woning, zoals bebouwingswerkzaamheden, tuinaanleg en het oprichten van afsluitingen;
 2° werk in onroerende staat en andere onroerende handelingen die tot voorwerp hebben de bestanddelen of een gedeelte van de bestanddelen van zwembaden, sauna’s, midgetgolfbanen, tennisterreinen en dergelijke installaties;
-3° werk in onroerende staat en andere onroerende handelingen opgesomd in rubriek XXXI, § 3,
-3° tot 6°, van tabel A van de bijlage bij dit besluit, die betrekking hebben op een gebouw dat reeds het voorwerp heeft uitgemaakt van een onder paragraaf 2 bedoelde handeling met toepassing van het verlaagd tarief van zes percent.
+3° werk in onroerende staat en andere onroerende handelingen opgesomd in rubriek XXXI, § 3, 3° tot 6°, van tabel A van de bijlage bij dit besluit, die betrekking hebben op een gebouw dat reeds het voorwerp heeft uitgemaakt van een onder paragraaf 2 bedoelde handeling met toepassing van het verlaagd tarief van zes percent.
 
 ### Art. 1sexies
 
@@ -747,8 +746,7 @@ Steenkool en van steenkool vervaardigde vaste brandstoffen; bruinkool en geperst
 
 IX. Betaaltelevisie.
 
-(De tekst van KB nr. 20, Tabel B, IX, werd opgeheven met ingang van 01.01.2012 (Art.
-55,W 28.12.2011, B.S. 30.12.2011))
+(De tekst van KB nr. 20, Tabel B, IX, werd opgeheven met ingang van 01.01.2012 (Art. 55,W 28.12.2011, B.S. 30.12.2011))
 
 X. Huisvesting in het kader van het sociaal beleid
 
@@ -780,8 +778,7 @@ XI. Huisvesting in het kader van het sociaal beleid - Privé-initiatief
 
 (De tekst van KB nr. 20, Tabel B, rubriek XI, § 3, werd vervangen met ingang van 01.01.2019 (Art. 14, W 14.10.2018, B.S. 25.10.2018, pg. 81448. Erratum 30.11.2018, pg. 91362))
 
-§ 1. Het verlaagd tarief van 12 %. is van toepassing op de leveringen van de nagenoemde goederen bedoeld in artikel 1, § 9, van het Wetboek, en op de vestigingen, overdrachten en wederoverdrachten van zakelijke rechten op zulke goederen, die niet overeenkomstig artikel 44, § 3,
-1°, van het Wetboek, van de belasting zijn vrijgesteld, wanneer die goederen bestemd zijn voor de huisvesting in het kader van het sociaal beleid:
+§ 1. Het verlaagd tarief van 12 %. is van toepassing op de leveringen van de nagenoemde goederen bedoeld in artikel 1, § 9, van het Wetboek, en op de vestigingen, overdrachten en wederoverdrachten van zakelijke rechten op zulke goederen, die niet overeenkomstig artikel 44, § 3, 1°, van het Wetboek, van de belasting zijn vrijgesteld, wanneer die goederen bestemd zijn voor de huisvesting in het kader van het sociaal beleid:
 1° de privéwoningen die worden verhuurd aan navolgende publiekrechtelijke of privaatrechtelijke rechtspersonen en die door hen worden bestemd om te worden verhuurd:
 
 a) de provincies, de autonome provinciebedrijven en de provinciale extern verzelfstandigde agentschappen;

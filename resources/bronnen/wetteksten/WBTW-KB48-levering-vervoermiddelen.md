@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:58:06Z'
+  generated_at: '2026-05-13T11:04:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Tekst is grotendeels OK, maar bevat verschillende afgebroken zinnen midden in artikelen (linebreaks zonder syntactische reden) en samengeplakte woorden 'hetWetboek' (regel 67) — typische pdftotext-confusion. Art. 4bis-melding van opheffing is OK maar de afbrekingen ondermijnen mens-geschreven indruk.
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
+      run_at: '2026-05-13T11:05:03Z'
       rationale: Tekst is grotendeels OK, maar bevat verschillende afgebroken zinnen midden in artikelen (linebreaks zonder syntactische reden) en samengeplakte woorden 'hetWetboek' (regel 67) — typische pdftotext-confusion. Art. 4bis-melding van opheffing is OK maar de afbrekingen ondermijnen mens-geschreven indruk.
       concrete_problemen:
         - "Regel 67: 'van hetWetboek' (ontbrekende spatie) — pdftotext spacing-bug"
@@ -54,8 +54,7 @@ Koninklijk besluit nr. 48, van 29 december 1992, met betrekking tot de levering 
 ## Art. 1
 (De tekst van KB nr. 48, artikel 1, tweede lid, werd ingevoegd met ingang van 08.03.2010, (Art. 2, KB 21.02.2010, B.S. 26.02.2010))
 
-Iedere belastingplichtige die niet gehouden is tot het indienen van de aangifte bedoeld in artikel 53,
-§ 1, eerste lid, 2°, van het Wetboek, moet voor elke levering van een nieuw vervoermiddel in de zin van artikel 8bis, § 2, van het Wetboek, die hij verricht binnen de voorwaarden van artikel 39bis van het Wetboek, aangifte doen op het controlekantoor van de belasting over de toegevoegde waarde in het ambtsgebied waarvan hij zijn woonplaats of zijn maatschappelijke zetel heeft.
+Iedere belastingplichtige die niet gehouden is tot het indienen van de aangifte bedoeld in artikel 53, § 1, eerste lid, 2°, van het Wetboek, moet voor elke levering van een nieuw vervoermiddel in de zin van artikel 8bis, § 2, van het Wetboek, die hij verricht binnen de voorwaarden van artikel 39bis van het Wetboek, aangifte doen op het controlekantoor van de belasting over de toegevoegde waarde in het ambtsgebied waarvan hij zijn woonplaats of zijn maatschappelijke zetel heeft.
 Het lid van een btw-eenheid in de zin van artikel 4, § 2, van het Wetboek die niet gehouden is tot het indienen van de aangifte bedoeld in artikel 53, § 1, eerste lid, 2°, van het Wetboek, moet eveneens binnen de voorwaarden en overeenkomstig de modaliteiten bepaald in het eerste lid, aangifte doen voor elke levering van een dergelijk nieuw vervoermiddel.
 
 ## Art. 2
@@ -120,8 +119,7 @@ Dit bewijs kan worden geleverd op de wijze bepaald door of vanwege de Minister v
 ## Art. 7
 (De tekst van KB nr. 48, artikel 7, derde lid, is van toepassing met ingang van 07.07.2003. (Art. 12, KB 16.06.2003, B.S. 27.06.2003))
 
-De in artikel 1 bedoelde belastingplichtige recupereert, bij wijze van teruggaaf, de belasting waarvan het recht op aftrek is ontstaan overeenkomstig artikel 5 en kan worden uitgeoefend overeenkomstig artikel
-6.
+De in artikel 1 bedoelde belastingplichtige recupereert, bij wijze van teruggaaf, de belasting waarvan het recht op aftrek is ontstaan overeenkomstig artikel 5 en kan worden uitgeoefend overeenkomstig artikel 6.
 Wanneer op het tijdstip van het indienen van de in artikel 1 bedoelde aangifte de in artikel 6 bedoelde voorwaarden vervuld zijn, geldt de aangifte als aanvraag om teruggaaf.
 De aanvraag om teruggaaf moet worden ingediend vóór het verstrijken van het derde kalenderjaar volgend op dat waarin de oorzaak van de teruggaaf zich heeft voorgedaan, ofwel bij het hoofd van het controlekantoor van de belasting over de toegevoegde waarde in het ambtsgebied waarin de belastingplichtige zijn woonplaats of zijn maatschappelijke zetel heeft indien hij gehouden is tot het indienen van de aangifte bedoeld in artikel 53ter, 1°, van het Wetboek, ofwel bij de overeenkomstig artikel 9 van het koninklijk besluit nr. 4 van 29 december 1969 bevoegde ambtenaar indien hij een andere in artikel 1 bedoelde belastingplichtige is.
 De teruggaaf gebeurt overeenkomstig artikel 12, § 2, van het koninklijk besluit nr. 4 van 29 december 1969.

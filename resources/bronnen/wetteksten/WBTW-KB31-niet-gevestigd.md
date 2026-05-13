@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:58:06Z'
+  generated_at: '2026-05-13T11:04:30Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Inhoudelijk consistent en goed gestructureerd, maar bevat PDF-extractie-artefacten: § 2./3./4. paragraaf-markeringen losgekoppeld op aparte regels (regels 60-61), aaneengeklonken woorden door PDF-afbreking ('BTWidentificatienummer', 'BTWkantoor', 'douaneentrepot' op meerdere plaatsen), en in de titel-frontmatter 'toepassings- modaliteiten' met overgebleven trailing dash. Verder Art. 3 amendment-blok: 'KB nr. 31, artikel, derde lid' - een ontbrekend artikelnummer (waarschijnlijk 'artikel 3')."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
+      run_at: '2026-05-13T11:05:03Z'
       rationale: "Inhoudelijk consistent en goed gestructureerd, maar bevat PDF-extractie-artefacten: § 2./3./4. paragraaf-markeringen losgekoppeld op aparte regels (regels 60-61), aaneengeklonken woorden door PDF-afbreking ('BTWidentificatienummer', 'BTWkantoor', 'douaneentrepot' op meerdere plaatsen), en in de titel-frontmatter 'toepassings- modaliteiten' met overgebleven trailing dash. Verder Art. 3 amendment-blok: 'KB nr. 31, artikel, derde lid' - een ontbrekend artikelnummer (waarschijnlijk 'artikel 3')."
       concrete_problemen:
         - "PDF-afbrekingsfouten zonder spatie: 'BTWidentificatienummer' (regel 67, 73), 'BTWkantoor' (regel 99), 'douaneentrepot' / 'douane-entrepot' inconsistent (regels 87, 89-91), 'geïdentiﬁceerd' met ligatuur fi (regel 167)"
@@ -61,8 +61,7 @@ Laatstelijk gewijzigd, met ingang van 05.12.2019 (KB 07.11.2019, B.S. 25.11.2019
 
 1° goederen te leveren of diensten te verrichten, andere dan die waarvoor overeenkomstig artikel 51, § 2, eerste lid, 1°, 2°, 5° en 6°, van het Wetboek de belasting verschuldigd is door de medecontractant;
 
-2° goederen in te voeren, een intracommunautaire verwerving van goederen of een handeling te verrichten waarvoor hij schuldenaar is van de belasting krachtens artikel 51,
-§ 2, eerste lid, 3° en 4°, van het Wetboek;
+2° goederen in te voeren, een intracommunautaire verwerving van goederen of een handeling te verrichten waarvoor hij schuldenaar is van de belasting krachtens artikel 51, § 2, eerste lid, 3° en 4°, van het Wetboek;
 
 3° een handeling te verrichten van plaatsing van goederen onder een andere regeling van entrepot dan douane-entrepot die niet aan de belasting is onderworpen.
 

@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:58:06Z'
+  generated_at: '2026-05-13T11:04:31Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T10:59:56Z'
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 9 art met wijzigingsblokken. Tekst is volledig, lijstmarkers consistent. Spelling 'accijnsprodukten' is source-original (oude spelling) — onder '(source)'-uitzondering OK. Geen footers, geen TOC, geen scrambled volgorde.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:56Z'
+      run_at: '2026-05-13T11:05:03Z'
       rationale: 9 art met wijzigingsblokken. Tekst is volledig, lijstmarkers consistent. Spelling 'accijnsprodukten' is source-original (oude spelling) — onder '(source)'-uitzondering OK. Geen footers, geen TOC, geen scrambled volgorde.
       concrete_problemen:
         - Oude spelling 'accijnsprodukten' (source-original, geen ETL-fout)
@@ -49,8 +49,7 @@ Koninklijk besluit nr. 51, van 14 april 1993, met betrekking tot de vereenvoudig
 ## Art. 1
 (De tekst van KB nr. 51, artikel 1, eerste lid, werd gewijzigd met ingang van 22.07.2019 (KB 28.06.2019, B.S. 12.07.2019, pg. 70370). Technische aanpassingen betreffende de communautaire wetgeving)
 
-Belastingplichtigen of niet-belastingplichtige rechtspersonen op wie de afwijking bepaald in artikel 25ter, § 1, tweede lid, 2°, van het Wetboek, toepasselijk is en die de belasting verschuldigd zijn ingevolge de intracommunautaire verwervingen onder bezwarende titel van accijnsprodukten beoogd in artikel 1, § 6,
-4°, van het Wetboek, met uitzondering van tabaksfabricaten, en die verzonden of vervoerd zijn overeenkomstig artikel 33 van de Richtlijn 2008/118/EG, moeten de verschuldigde belasting, die opeisbaar is op hetzelfde tijdstip als de accijns of de controleretributie, betalen aan de bevoegde ontvanger der accijnzen.
+Belastingplichtigen of niet-belastingplichtige rechtspersonen op wie de afwijking bepaald in artikel 25ter, § 1, tweede lid, 2°, van het Wetboek, toepasselijk is en die de belasting verschuldigd zijn ingevolge de intracommunautaire verwervingen onder bezwarende titel van accijnsprodukten beoogd in artikel 1, § 6, 4°, van het Wetboek, met uitzondering van tabaksfabricaten, en die verzonden of vervoerd zijn overeenkomstig artikel 33 van de Richtlijn 2008/118/EG, moeten de verschuldigde belasting, die opeisbaar is op hetzelfde tijdstip als de accijns of de controleretributie, betalen aan de bevoegde ontvanger der accijnzen.
 Door of vanwege de Minister van Financiën kan, in de gevallen en onder de voorwaarden door of namens hem te bepalen, voor de voldoening van de belasting een termijn worden toegestaan die niet langer mag zijn dan de termijn toegestaan voor de voldoening van de accijns.
 
 ## Art. 2

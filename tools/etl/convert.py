@@ -88,7 +88,7 @@ DEFAULT_CHAINS: dict[str, list[str]] = {
     "pymupdf_wetboek":          ["cleanup_basics", "strip_amendment_overview", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "strip_empty_trailing_headings", "emit_frontmatter"],
     "cbn_advies":               ["cleanup_basics", "merge_broken_sentences", "fix_italic_spacing", "fix_bold_italic_mixing", "normalize_bullet_glyphs", "emit_frontmatter"],
     "extract_norm":             ["cleanup_basics", "unindent_pdftotext_margin", "strip_pdf_page_noise", "strip_itaa_norm_footers", "merge_broken_sentences", "fix_italic_spacing", "normalize_bullet_glyphs", "promote_norm_section_labels", "emit_frontmatter"],
-    "pdftotext_compilatie_btw": ["cleanup_basics", "unindent_pdftotext_margin", "strip_running_page_headers", "strip_kb_bijwerkingen", "strip_compilatie_appendix", "strip_amendment_overview", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "strip_empty_trailing_headings", "emit_frontmatter"],
+    "pdftotext_compilatie_btw": ["cleanup_basics", "unindent_pdftotext_margin", "strip_running_page_headers", "strip_kb_bijwerkingen", "strip_compilatie_appendix", "strip_amendment_overview", "fix_stuck_art_number", "merge_article_reference_wraps", "inject_headings_wettekst", "split_merged_headings", "strip_empty_trailing_headings", "emit_frontmatter"],
     # md_passthrough: handgemaakte markdown-bronnen. Lichte cleanup + page-header
     # strip voor bronnen die uit een PDF/print-bron zijn gekopieerd (bv. MAR-vzw).
     "md_passthrough":           ["cleanup_basics", "strip_running_page_headers", "emit_frontmatter"],

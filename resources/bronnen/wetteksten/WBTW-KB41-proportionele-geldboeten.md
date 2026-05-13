@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:58:06Z'
+  generated_at: '2026-05-13T11:04:30Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Zware kolom-bleed door de hele bijlage (Tabellen A-J). Originele PDF heeft een 2-koloms structuur: links de overtredingsbeschrijving, rechts het percentage/boete. De extractie heeft kolomstrooien afwisselend gemerged, met als resultaat scrambled zinnen zoals 'A) belasting en voorschotten waarvan de per maand vertraging (1), een opeisbaarheid blijkt uit de maand- of percentage gelijk aan dat van kwartaalaangiften en belasting waarvan de de nalatigheidsinterest dat is opeisbaarheid blijkt uit de jaaraangiften bepaald in artikel 91, § 1, van het...' (regel 143). Dat is onbruikbaar voor retrieval en evident niet-mens-geschreven. Dit is veruit het zwaarste geval van de batch."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
+      run_at: '2026-05-13T11:05:03Z'
       rationale: "Zware kolom-bleed door de hele bijlage (Tabellen A-J). Originele PDF heeft een 2-koloms structuur: links de overtredingsbeschrijving, rechts het percentage/boete. De extractie heeft kolomstrooien afwisselend gemerged, met als resultaat scrambled zinnen zoals 'A) belasting en voorschotten waarvan de per maand vertraging (1), een opeisbaarheid blijkt uit de maand- of percentage gelijk aan dat van kwartaalaangiften en belasting waarvan de de nalatigheidsinterest dat is opeisbaarheid blijkt uit de jaaraangiften bepaald in artikel 91, § 1, van het...' (regel 143). Dat is onbruikbaar voor retrieval en evident niet-mens-geschreven. Dit is veruit het zwaarste geval van de batch."
       concrete_problemen:
         - 'Kolom-bleed in heel TABEL A (regels 137-408): elke rij heeft beschrijving + tarief door elkaar gehusseld zonder pipe-syntax'
@@ -60,11 +60,9 @@ Laatstelijk gewijzigd, met ingang van 01.04.2019 bij:
 De schaal voor de vermindering van de proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde is bepaald :
 1° voor overtredingen begaan vóór 1 november 1993 in tabel A, en voor overtredingen begaan na 31 oktober 1993 in tabel G van de bijlage bij dit besluit, ten aanzien van overtredingen beoogd in artikel 70, § 1, van het Wetboek van de belasting over de toegevoegde waarde ;
 2° voor overtredingen begaan vóór 1 november 1993 in tabel B, en voor overtredingen begaan na 31 oktober 1993 in tabel H van de bijlage bij dit besluit, ten aanzien van overtredingen beoogd in artikel 70, § 1bis, van hetzelfde Wetboek ;
-3° in tabel C van de bijlage bij dit besluit, ten aanzien van overtredingen beoogd in artikel 70,
-§ 2, van hetzelfde Wetboek ;
+3° in tabel C van de bijlage bij dit besluit, ten aanzien van overtredingen beoogd in artikel 70, § 2, van hetzelfde Wetboek ;
 4° voor overtredingen begaan vóór 1 november 1993 in tabel D, en voor overtredingen begaan na 31 oktober 1993 in tabel I van de bijlage bij dit besluit, ten aanzien van overtredingen beoogd in artikel 70, § 3, van hetzelfde Wetboek ;
-5° in tabel E van de bijlage bij dit besluit, ten aanzien van overtredingen beoogd in artikel 70,
-§ 5, van hetzelfde Wetboek ;
+5° in tabel E van de bijlage bij dit besluit, ten aanzien van overtredingen beoogd in artikel 70, § 5, van hetzelfde Wetboek ;
 6° voor overtredingen begaan vóór 1 november 1993 in tabel F, en voor overtredingen begaan na 31 oktober 1993 in tabel J van de bijlage bij dit besluit, ten aanzien van overtredingen beoogd in artikel 71 van hetzelfde Wetboek.
 De in de tabellen A tot J van de bijlage bij dit besluit opgenomen schaal is echter niet van toepassing ten aanzien van overtredingen begaan met het oogmerk de belasting te ontduiken of de ontduiking ervan mogelijk te maken.
 
@@ -549,8 +547,7 @@ VI. Terug te storten belasting wegens het niet overleggen van 10 pct. van de ter
 
 VII. 1. Ten onrechte toepassen van artikel 25ter, § 1, tweede 10 pct. van de verschuldigde lid, 1°, van het Wetboek belasting
 
-2. Overtredingen begaan bij de toepassing van artikel
-39bis, 39ter en 42, §§ 1, 2 en 3, 1° tot 6°, van het
+2. Overtredingen begaan bij de toepassing van artikel 39bis, 39ter en 42, §§ 1, 2 en 3, 1° tot 6°, van het
 Wetboek.
 
 A) Vrijstelling ten onrechte toegepast of 10 pct. van de verschuldigde ingeroepen belasting

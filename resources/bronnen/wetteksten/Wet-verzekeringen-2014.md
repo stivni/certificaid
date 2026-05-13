@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T11:05:58Z'
+    confirmed_by: human
+    rationale: Trailing empty '## Art.' heading gestript door strip_empty_trailing_headings; body volledig en correct.
     layer1:
       status: warn
       run_id: 20260513-105636

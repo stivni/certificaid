@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:58:06Z'
+  generated_at: '2026-05-13T11:04:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Hoofdtekst is goed, maar regel 57 toont een hoofdstuk-titel onder ## HOOFDSTUK 1 met twee leading spaces (indentation-artefact: '  Bewijsregeling inzake...'), wat geen mens-geschreven markdown is. Art. 3 §3 bevat midden in een opsomming een onverwachte linebreak en alleenstaande lijst-streepjes (regel 78-79). Inconsistent: ## HOOFDSTUK 1/2/3 all-caps zonder volgnummer-puntje terwijl in body steeds 'hoofdstuk' wordt verwezen."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
+      run_at: '2026-05-13T11:05:03Z'
       rationale: "Hoofdtekst is goed, maar regel 57 toont een hoofdstuk-titel onder ## HOOFDSTUK 1 met twee leading spaces (indentation-artefact: '  Bewijsregeling inzake...'), wat geen mens-geschreven markdown is. Art. 3 §3 bevat midden in een opsomming een onverwachte linebreak en alleenstaande lijst-streepjes (regel 78-79). Inconsistent: ## HOOFDSTUK 1/2/3 all-caps zonder volgnummer-puntje terwijl in body steeds 'hoofdstuk' wordt verwezen."
       concrete_problemen:
         - "Regel 57: '  Bewijsregeling inzake de vrijstellingen...' — twee leading spaces direct na ## HOOFDSTUK 1 heading, typisch pdftotext-indentation"

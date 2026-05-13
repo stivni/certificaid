@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:58:05Z'
+  generated_at: '2026-05-13T11:04:30Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_at: '2026-05-13T11:05:02Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Schone wettekst: 7 Art.-headings consistent, body intact, genummerde lijsten 1°/2°/... correct. Eén spurious linebreak (regel 74-75 'artikel 9,\\n§ 2,') maar minor en in wettelijke referentie. Acceptable."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
+      run_at: '2026-05-13T11:05:02Z'
       rationale: "Schone wettekst: 7 Art.-headings consistent, body intact, genummerde lijsten 1°/2°/... correct. Eén spurious linebreak (regel 74-75 'artikel 9,\\n§ 2,') maar minor en in wettelijke referentie. Acceptable."
       concrete_problemen:
         - regel: 74
@@ -77,8 +77,7 @@ De belastingplichtige ressorteert onder het controlekantoor in het ambtsgebied w
 ## Art. 4
 (De tekst van KB nr. 14, artikel 4, eerste lid, werd gewijzigd met ingang van 27.05.2019 (Art. 8, KB 12.05.2019, B.S. 27.05.2019, Ed. 1, pg. 50443))
 
-De belastingplichtige bedoeld in artikel 1 kan van de verschuldigde belasting over de in dat artikel bedoelde handelingen in aftrek brengen, de belasting geheven van handelingen omschreven in artikel 9,
-§ 2, tweede lid, van het koninklijk besluit nr. 3 met betrekking tot de aftrekregeling voor de toepassing van de belasting over de toegevoegde waarde, evenals de belasting geheven van de goederen en diensten die rechtstreeks samenhangen met deze handeling.
+De belastingplichtige bedoeld in artikel 1 kan van de verschuldigde belasting over de in dat artikel bedoelde handelingen in aftrek brengen, de belasting geheven van handelingen omschreven in artikel 9, § 2, tweede lid, van het koninklijk besluit nr. 3 met betrekking tot de aftrekregeling voor de toepassing van de belasting over de toegevoegde waarde, evenals de belasting geheven van de goederen en diensten die rechtstreeks samenhangen met deze handeling.
 Ten aanzien van de belasting die betaald of verschuldigd is vóór het in artikel 2, tweede lid, bepaalde tijdstip, ontstaat het recht op aftrek, in afwijking van artikel 2 van het koninklijk besluit nr. 3, pas op dat tijdstip.
 Om zijn recht op aftrek te kunnen uitoefenen moet de belastingplichtige, op het tijdstip waarop hij de in artikel 2 bedoelde aangifte indient, in het bezit zijn van de in artikel 3 van het koninklijk besluit nr. 3 bedoelde facturen of stukken.
 

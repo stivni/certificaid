@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:58:05Z'
+  generated_at: '2026-05-13T11:04:30Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Heeft een uitgebreide TOC bij start met afdelings- en artikel-ranges ('Art. 1 - 8', 'Art. 9 - 13', 'Art. 13bis') die als plain text dwars door de heading-hierarchie staan. Het TOC-blok bevat ook spurious linebreaks waardoor headings over twee regels lopen ('Betalingen op de rekeningen van "btw-ontvangsten"\nBrussel', 'Onderafdeling 2. Betaling op de financiële rekening van "Inning en\nInvordering"'). Bovendien staat een Franse string 'Disposition temporaire' (regel 66) ongetag'd midden in een NL-tekst — dit is een ETL-leak van de bilingue bron.
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
+      run_at: '2026-05-13T11:05:03Z'
       rationale: Heeft een uitgebreide TOC bij start met afdelings- en artikel-ranges ('Art. 1 - 8', 'Art. 9 - 13', 'Art. 13bis') die als plain text dwars door de heading-hierarchie staan. Het TOC-blok bevat ook spurious linebreaks waardoor headings over twee regels lopen ('Betalingen op de rekeningen van "btw-ontvangsten"\nBrussel', 'Onderafdeling 2. Betaling op de financiële rekening van "Inning en\nInvordering"'). Bovendien staat een Franse string 'Disposition temporaire' (regel 66) ongetag'd midden in een NL-tekst — dit is een ETL-leak van de bilingue bron.
       concrete_problemen:
         - Franse plain-text fragment 'Disposition temporaire' (regel 66) tussen NL-content — bilingue residu

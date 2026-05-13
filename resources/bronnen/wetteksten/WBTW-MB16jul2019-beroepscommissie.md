@@ -17,29 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:42Z'
+  generated_at: '2026-05-13T11:04:32Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Schone markdown met consistente ## Art. N-headings, intacte officiele coordinatie-header en correct opgemaakte namenlijst. Geen ETL-artefacten.'
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:40Z'
-      heading_count: 5
-      max_section_chars: 2007
-      file_size_chars: 4434
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
+      run_at: '2026-05-13T11:05:03Z'
       rationale: 'Schone markdown met consistente ## Art. N-headings, intacte officiele coordinatie-header en correct opgemaakte namenlijst. Geen ETL-artefacten.'
       concrete_problemen: []
 ---
@@ -85,8 +78,7 @@ De Beroepscommissie samengesteld zoals bepaald in de artikelen 1 en 2, treedt op
 
 ## Art. 4
 
-Het ministerieel besluit van 21 mei 2019 tot aanduiding van de ambtenaren die in de functie van adviseurgeneraal zitting hebben in de beroepscommissie zoals bedoeld in artikel 84octies, § 2 van het wetboek van de belasting over de toegevoegde waarde en in de beroepscommissie zoals bedoeld in artikel 413quinquies,
-§ 2 van het wetboek van de inkomstenbelastingen 1992, wordt opgeheven.
+Het ministerieel besluit van 21 mei 2019 tot aanduiding van de ambtenaren die in de functie van adviseurgeneraal zitting hebben in de beroepscommissie zoals bedoeld in artikel 84octies, § 2 van het wetboek van de belasting over de toegevoegde waarde en in de beroepscommissie zoals bedoeld in artikel 413quinquies, § 2 van het wetboek van de inkomstenbelastingen 1992, wordt opgeheven.
 
 ## Art. 5
 

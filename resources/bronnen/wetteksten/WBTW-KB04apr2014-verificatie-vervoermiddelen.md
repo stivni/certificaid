@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:58:06Z'
+  generated_at: '2026-05-13T11:04:31Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_at: '2026-05-13T11:05:02Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Schone wettekst-conversie: 16 Art.-headings, consistent commentaarblok (wijzigingsgeschiedenis) per artikel, lijsten 1°/2°/... correct. Source-typo's (open haakje '(Opgeheven' regel 100) en stray 'Bijlage' regel 149 zijn brontypografie, geen ETL-artefact."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
+      run_at: '2026-05-13T11:05:02Z'
       rationale: "Schone wettekst-conversie: 16 Art.-headings, consistent commentaarblok (wijzigingsgeschiedenis) per artikel, lijsten 1°/2°/... correct. Source-typo's (open haakje '(Opgeheven' regel 100) en stray 'Bijlage' regel 149 zijn brontypografie, geen ETL-artefact."
       concrete_problemen:
         - regel: 100

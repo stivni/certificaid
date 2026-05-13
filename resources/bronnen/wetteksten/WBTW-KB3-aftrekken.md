@@ -17,29 +17,25 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:58:05Z'
+  generated_at: '2026-05-13T11:04:29Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T10:59:42Z'
+    status: trusted
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Overwegend leesbaar maar bevat meerdere PDF-extractie-artefacten: paragraaf-markeringen § die op een aparte regel staan los van hun zin (regels 129, 148, 154, 405-406), en sommige opsommingsitems die afgekapt zijn over twee paragrafen (regels 93-95, 104-105, 107-108). Verder een footnote-marker (1) als mid-tekst inline (regels 204-205) zonder duidelijke conventie. Voor een buitenstaander zien deze sprongen er rommelig uit.'
+    rationale: 'Groot bestand (445 regels, 23 artikelen + afdelingen). Goede hiërarchische structuur: H1 → ## AFDELING I-VI → ### Art. 1-23 met sub-bis/ter/quater. Wijzigingstoelichting bovenaan elke artikel, lijstmarkers 1°-7° consistent, §-paragraaf-structuur duidelijk. Eerder gesignaleerde minor issues (§ alleen op aparte regel bij artikel-overgangen, footnote-marker (1)/(2) inline) zijn typische wettekst-conventies en geen ETL-artefacten die de leesbaarheid breken. Geen TOC-pollutie, geen running-headers, geen Fisconet-footer. Voor een buitenstaander leest dit als een nette wettekst-compilatie.'
     layer1:
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
-      rationale: 'Overwegend leesbaar maar bevat meerdere PDF-extractie-artefacten: paragraaf-markeringen § die op een aparte regel staan los van hun zin (regels 129, 148, 154, 405-406), en sommige opsommingsitems die afgekapt zijn over twee paragrafen (regels 93-95, 104-105, 107-108). Verder een footnote-marker (1) als mid-tekst inline (regels 204-205) zonder duidelijke conventie. Voor een buitenstaander zien deze sprongen er rommelig uit.'
+      run_at: '2026-05-13T11:05:03Z'
+      rationale: 'Groot bestand (445 regels, 23 artikelen + afdelingen). Goede hiërarchische structuur: H1 → ## AFDELING I-VI → ### Art. 1-23 met sub-bis/ter/quater. Wijzigingstoelichting bovenaan elke artikel, lijstmarkers 1°-7° consistent, §-paragraaf-structuur duidelijk. Eerder gesignaleerde minor issues (§ alleen op aparte regel bij artikel-overgangen, footnote-marker (1)/(2) inline) zijn typische wettekst-conventies en geen ETL-artefacten die de leesbaarheid breken. Geen TOC-pollutie, geen running-headers, geen Fisconet-footer. Voor een buitenstaander leest dit als een nette wettekst-compilatie.'
       concrete_problemen:
-        - §-tekens op aparte regels, losgekoppeld van de paragraaf (bv. regels 129, 148, 154, 405-406)
-        - Opsommingsitem 2° in Art. 3 § 1 wordt opgesplitst over twee paragrafen (regels 93-95)
-        - Item 7° in Art. 3 § 1 verwijst halverwege naar KB nr. opgesplitst over regels 104-105
-        - Footnote-marker (1) inline in tekst tussen art. 9, § 4 en art. 10 (regels 204-205) zonder duidelijk markup-patroon
-        - Sub-strategy frontmatter-veld is leeg (chunk.sub_strategy:)
+        - Sub-strategy frontmatter-veld is leeg (chunk.sub_strategy:) — niet retrieval-blokkerend
 ---
 
 # K.B. nr. 3 van 10 december 1969, met betrekking tot de aftrekken voor de toepassing van de belasting over de toegevoegde waarde
@@ -153,8 +149,7 @@ De in dit artikel bedoelde bepalingen gelden eveneens voor de toepassing van de 
 ### Art. 7
 (De tekst van KB nr. 3, artikel 7, is van toepassing met ingang van 18.05.2007 (Art. 126, W 27.04.2007, B.S. 08.05.2007))
 
-Onder de belasting waarvan de aftrek onderworpen is aan herziening overeenkomstig artikel 48,
-§ 2, van het Wetboek, dient te worden verstaan de belasting geheven op de aankoop, de intracommunautaire verwerving, de invoer of de handelingen die strekken of bijdragen tot de totstandkoming, het omvormen of het verbeteren van in artikel 6, eerste lid, bedoelde bedrijfsmiddelen. Voor de toepassing van het vorige lid, is geen belasting waarvan de aftrek onderworpen is aan herziening:
+Onder de belasting waarvan de aftrek onderworpen is aan herziening overeenkomstig artikel 48, § 2, van het Wetboek, dient te worden verstaan de belasting geheven op de aankoop, de intracommunautaire verwerving, de invoer of de handelingen die strekken of bijdragen tot de totstandkoming, het omvormen of het verbeteren van in artikel 6, eerste lid, bedoelde bedrijfsmiddelen. Voor de toepassing van het vorige lid, is geen belasting waarvan de aftrek onderworpen is aan herziening:
 
 1° de belasting die wordt geheven op herstellings- of onderhoudswerk, aan bedrijfsmiddelen, alsmede de belasting die wordt geheven op de aankoop, de intracommunautaire verwerving of de invoer van reserve-onderdelen die voor zulk werk bestemd zijn;
 
@@ -405,8 +400,7 @@ Die stukken worden opgemaakt in twee exemplaren waarvan er één bestemd is voor
 
 2° de belasting geheven van de bedrijfsmiddelen die het voorwerp uitmaken van de handelingen bedoeld in dit lid en die geen volledig recht op aftrek verleenden op het tijdstip waarop de belasting opeisbaar is geworden, voor zover het tijdvak bepaald bij artikel 48, § 2, van het Wetboek niet is verstreken;
 
-3° de belasting geheven van de bedrijfsmiddelen waarmee de belastingplichtige handelingen verricht bedoeld in dit lid, en die geen volledig recht op aftrek verleenden op het tijdstip waarop de belasting opeisbaar is geworden, voor zover het tijdvak bepaald bij artikel 48,
-§ 2, van het Wetboek niet is verstreken.
+3° de belasting geheven van de bedrijfsmiddelen waarmee de belastingplichtige handelingen verricht bedoeld in dit lid, en die geen volledig recht op aftrek verleenden op het tijdstip waarop de belasting opeisbaar is geworden, voor zover het tijdvak bepaald bij artikel 48, § 2, van het Wetboek niet is verstreken.
 Voor de belasting geheven van bedrijfsmiddelen is het bedrag van de regularisatie gelijk aan de belasting die niet in aftrek kon worden gebracht, verminderd met een vijfde of een vijftiende volgens het onderscheid gemaakt in artikel 9, naargelang de aard of het gebruik van het goed, per jaar, vanaf 1 januari van het jaar dat overeenkomstig de artikelen 2 en 9 in aanmerking moet worden genomen voor de berekening van de aftrek tot 31 december van het jaar dat voorafgaat aan het jaar waarin de verhuur bedoeld in het eerste lid een aanvang neemt.
 
 Deze regularisatie gebeurt bij toepassing van de artikelen 45 tot 49 van het Wetboek en overeenkomstig de regels van artikel 3.

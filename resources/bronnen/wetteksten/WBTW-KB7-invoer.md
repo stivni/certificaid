@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775
+    pipeline_version: d4b4775-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:58:05Z'
+  generated_at: '2026-05-13T11:04:30Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_at: '2026-05-13T11:05:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Hoofdtekst is goed: hoofdstukken, secties, artikelen consistent geformatteerd. Maar Bijlage (regels 1077-1104) bevat zware PDF-table-bleed: 'Code van het Tarief' en 'Omschrijving' kolommen door elkaar, fragmentarische zinnen, GN-codes en omschrijvingen versmolten ('3704 00 Fotografische platen, film, ...'), regels 1086-1087 bevatten meervoudige codes vermengd met tekst zonder structuur. Ook regels 978, 984, 990-993, 1022-1033 (lijstjes in Art. 43-44) hebben pseudo-tabel-bleed (hoeveelheden voor tabak/alcohol)."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:59:42Z'
+      run_at: '2026-05-13T11:05:03Z'
       rationale: "Hoofdtekst is goed: hoofdstukken, secties, artikelen consistent geformatteerd. Maar Bijlage (regels 1077-1104) bevat zware PDF-table-bleed: 'Code van het Tarief' en 'Omschrijving' kolommen door elkaar, fragmentarische zinnen, GN-codes en omschrijvingen versmolten ('3704 00 Fotografische platen, film, ...'), regels 1086-1087 bevatten meervoudige codes vermengd met tekst zonder structuur. Ook regels 978, 984, 990-993, 1022-1033 (lijstjes in Art. 43-44) hebben pseudo-tabel-bleed (hoeveelheden voor tabak/alcohol)."
       concrete_problemen:
         - 'Bijlage (regels 1077-1104): GN-codes en omschrijvingen versmolten zonder tabel-structuur'
@@ -872,8 +872,7 @@ De wederingevoerde goederen moeten eigendom gebleven zijn van degene die er eige
 
 #### Art. 41
 
-(De tekst van KB nr. 7, artikel 41, § 3, werd vervangen en de Nederlandse tekst van § 4,
-2°, werd gewijzigd met ingang van 05.12.2019 (Art. 7, KB 07.11.2019, B.S. 25.11.2019))
+(De tekst van KB nr. 7, artikel 41, § 3, werd vervangen en de Nederlandse tekst van § 4, 2°, werd gewijzigd met ingang van 05.12.2019 (Art. 7, KB 07.11.2019, B.S. 25.11.2019))
 
 § 1. Gedeeltelijke vrijstelling van de belasting wordt verleend voor de invoer van de hierna vermelde goederen:
 
