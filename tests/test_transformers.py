@@ -2595,3 +2595,42 @@ class TestReorderHeadingCluster:
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "reorder_heading_cluster" in TRANSFORMERS
+
+
+class TestSplitLongArtHeading:
+    def test_kb21_pattern(self):
+        from tools.etl.transformers.split_long_art_heading import split_long_art_heading
+        body = (
+            "#### Art. 1. Boekhoudplichtige ondernemingen die een onderneming\n"
+            "\n"
+            "zijn in de zin van artikel I.1, eerste lid, (a) of (c) van het Wetboek\n"
+        )
+        result, _ = split_long_art_heading(body, {})
+        assert "#### Art. 1\n" in result
+        assert "Boekhoudplichtige ondernemingen die een onderneming" in result
+        # Geen meer "#### Art. 1. Boekhoudplichtige" als heading
+        assert "#### Art. 1. Boekhoudplichtige" not in result
+
+    def test_short_title_kept(self):
+        from tools.etl.transformers.split_long_art_heading import split_long_art_heading
+        body = "#### Art. 5. Definities.\nBody.\n"
+        result, _ = split_long_art_heading(body, {})
+        # Title eindigt met punt → echte titel, niet splitten
+        assert "#### Art. 5. Definities." in result
+
+    def test_no_long_text_kept(self):
+        from tools.etl.transformers.split_long_art_heading import split_long_art_heading
+        body = "#### Art. 7\nBody hier.\n"
+        result, _ = split_long_art_heading(body, {})
+        assert result == body
+
+    def test_idempotent(self):
+        from tools.etl.transformers.split_long_art_heading import split_long_art_heading
+        body = "#### Art. 1. Boekhoudplichtige ondernemingen die een onderneming\n\nzijn in de zin van...\n"
+        once, _ = split_long_art_heading(body, {})
+        twice, _ = split_long_art_heading(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "split_long_art_heading" in TRANSFORMERS

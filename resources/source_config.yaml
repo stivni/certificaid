@@ -1159,8 +1159,11 @@ sources:
         force_columns: 2
         column_filter: nl
         # PDF is BS-dump 30.10.2018 (388 pages) — KB 21-10-2018 zit op pp. 42-46.
-        page_start: 42
+        # Page 42-43 begint bevat Verslag aan de Koning; section_start skipt
+        # naar de eigenlijke KB-titel.
+        page_start: 43
         page_end: 46
+        section_start: "21 OKTOBER 2018\\..+Koninklijk besluit tot uitvoering"
         nl_col_x: 0
   BW-boek1-algemene-bepalingen:
     bron_rol: itaa_lex
@@ -1522,8 +1525,9 @@ sources:
     extract:
       method: pymupdf_wetboek
       params:
-        force_columns: 2
-        column_filter: both
+        # PDF heeft 1-column layout — eerder stond force_columns: 2 wat de
+        # body-before-heading scramble veroorzaakte.
+        force_columns: 1
         mode: eu_richtlijn
   KB-voorafgaande-beslissingen-art22-2003:
     bron_rol: normatief

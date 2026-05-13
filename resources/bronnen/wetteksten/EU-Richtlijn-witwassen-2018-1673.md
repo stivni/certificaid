@@ -20,7 +20,7 @@ provenance:
     pipeline_version: 5080c593
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:45:08Z'
+  generated_at: '2026-05-13T14:08:37Z'
   stale: false
   stale_reason:
   trust:
@@ -208,13 +208,25 @@ c) de in de leden 1 en 2 bedoelde strafbare feiten ook betrekking hebben op voor
 
 5.  De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat de in lid 1, onder a) en onder b), bedoelde  gedragingen strafbaar worden gesteld indien zij worden gepleegd door personen die de criminele activiteit waaruit het  voorwerp is verkregen, hebben gepleegd of hierbij waren betrokken.
 
+###### Artikel 4
+
+Medeplichtigheid, uitlokking en poging
+
 De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat medeplichtigheid aan, uitlokking van en poging tot  het plegen van een in artikel 3, leden 1 en 5, bedoeld feit strafbaar worden gesteld.
+
+###### Artikel 5
+
+Sancties voor natuurlijke personen
 
 1.  De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat de in de artikelen 3 en 4 bedoelde strafbare  feiten kunnen worden bestraft met doeltreffende, evenredige en afschrikkende strafrechtelijke sancties.
 
 2.  De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat de in artikel 3, leden 1 en 5, bedoelde strafbare  feiten strafbaar worden gesteld met een maximumgevangenisstraf van ten minste vier jaar.
 
 3.  Daarnaast nemen de lidstaten de nodige maatregelen om ervoor te zorgen dat natuurlijke personen die strafbare  feiten als bedoeld in de artikelen 3 en 4, hebben gepleegd, waar nodig, onderworpen worden aan aanvullende sancties of  maatregelen.
+
+###### Artikel 6
+
+Verzwarende omstandigheden
 
 1.  De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat de hierna genoemde omstandigheden met  betrekking tot de in artikel 3, leden 1 en 5, en artikel 4 bedoelde strafbare feiten als verzwarende omstandigheid worden  beschouwd wanneer:
 
@@ -228,25 +240,13 @@ a) het witgewassen voorwerp heeft een aanzienlijke waarde, of
 
 b) het witgewassen voorwerp is afkomstig van een van de in artikel 2, punt 1), onder a) tot en met e) en h), bedoelde  strafbare feiten.
 
-1.  De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat rechtspersonen aansprakelijk kunnen worden  gesteld voor alle in artikel 3, leden 1 en 5, en artikel 4 genoemde strafbare feiten die in hun voordeel zijn gepleegd door  personen die individueel dan wel als lid van een orgaan van de rechtspersoon optreden en die in de rechtspersoon een  leidende functie bekleden op grond van:
-
-a) een bevoegdheid om de rechtspersoon te vertegenwoordigen;
-
-###### Artikel 4
-
-Medeplichtigheid, uitlokking en poging
-
-###### Artikel 5
-
-Sancties voor natuurlijke personen
-
-###### Artikel 6
-
-Verzwarende omstandigheden
-
 ###### Artikel 7
 
 Aansprakelijkheid van rechtspersonen
+
+1.  De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat rechtspersonen aansprakelijk kunnen worden  gesteld voor alle in artikel 3, leden 1 en 5, en artikel 4 genoemde strafbare feiten die in hun voordeel zijn gepleegd door  personen die individueel dan wel als lid van een orgaan van de rechtspersoon optreden en die in de rechtspersoon een  leidende functie bekleden op grond van:
+
+a) een bevoegdheid om de rechtspersoon te vertegenwoordigen;
 
 b) een bevoegdheid om namens de rechtspersoon beslissingen te nemen, of
 
@@ -255,6 +255,10 @@ c) een bevoegdheid om binnen de rechtspersoon controle uit te oefenen.
 2.  De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat rechtspersonen aansprakelijk kunnen worden  gesteld indien als gevolg van een gebrek aan toezicht of controle door een in lid 1 van dit artikel bedoelde persoon, een  van de in artikel 3, leden 1 en 5, en artikel 4 genoemde strafbare feiten kon worden gepleegd ten voordele van die  rechtspersoon door een persoon die onder diens gezag staat.
 
 3.  De aansprakelijkheid van rechtspersonen krachtens de leden 1 en 2 van dit artikel staat niet in de weg van straf rechtelijke vervolging van natuurlijke personen die een van de in artikel 3, leden 1 en 5, en artikel 4 bedoelde strafbare  feiten plegen, daartoe aanzetten of eraan medeplichtig zijn.
+
+###### Artikel 8
+
+Sancties voor rechtspersonen
 
 De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat een rechtspersoon die op grond van artikel 7  aansprakelijk is gesteld, kan worden gestraft met doeltreffende, evenredige en afschrikkende sancties, waaronder al dan  niet strafrechtelijke geldboeten en eventuele andere sancties, zoals:
 
@@ -270,7 +274,15 @@ e) een rechterlijk bevel tot liquidatie;
 
 f) tijdelijke of permanente sluiting van vestigingen die zijn gebruikt voor het plegen van het strafbare feit.
 
+###### Artikel 9
+
+Confiscatie
+
 De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat hun bevoegde autoriteiten in overeenstemming met  Richtlijn 2014/42/EU in voorkomend geval de opbrengsten van en de hulpmiddelen die werden gebruikt of bestemd  waren om te worden gebruikt bij het plegen of het bijdragen aan het plegen van een van de in deze richtlijn genoemde  strafbare feiten, bevriezen of in beslag nemen.
+
+###### Artikel 10
+
+Rechtsmacht
 
 1.  Elke lidstaat neemt de nodige maatregelen om zijn rechtsmacht te vestigen ten aanzien van de in de artikelen 3 en 4  bedoelde strafbare feiten, indien:
 
@@ -298,19 +310,13 @@ d) het grondgebied waarop de dader werd aangetroffen.
 
 In voorkomend geval wordt de zaak overeenkomstig artikel 12 van Kaderbesluit 2009/948/JBZ naar Eurojust verwezen.
 
-###### Artikel 8
+###### Artikel 11
 
-Sancties voor rechtspersonen
-
-###### Artikel 9
-
-Confiscatie
-
-###### Artikel 10
-
-Rechtsmacht
+Onderzoeksmiddelen
 
 De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat doeltreffende onderzoeksmiddelen, zoals die welke  worden gebruikt bij de bestrijding van georganiseerde of andere zware criminaliteit, ter beschikking staan van personen,  eenheden of diensten die bevoegd zijn voor het onderzoeken of vervolgen van de in artikel 3, leden 1 en 5, en artikel 4  bedoelde strafbare feiten.
+
+###### Artikel 12
 
 Vervanging van een aantal bepalingen van Kaderbesluit 2001/500/JBZ
 
@@ -318,47 +324,41 @@ Deze richtlijn komt in de plaats van artikel 1, onder b), en artikel 2 van Kader
 
 Voor de lidstaten die gebonden zijn door deze richtlijn, gelden verwijzingen naar de bepalingen in het eerste lid van het  Kaderbesluit 2001/500/JBZ als verwijzingen naar deze richtlijn.
 
+###### Artikel 13
+
+Omzetting
+
 1.  De lidstaten doen de nodige wettelijke en bestuursrechtelijke bepalingen in werking treden om uiterlijk 3 december  2020 aan deze richtlijn te voldoen. Zij delen de Commissie de tekst van die bepalingen onverwijld mee.
 
 Wanneer de lidstaten die bepalingen aannemen, wordt in die bepalingen zelf of bij de officiële bekendmaking daarvan  naar deze richtlijn verwezen. De regels voor de verwijzing worden vastgesteld door de lidstaten.
 
 2.  De lidstaten delen de Commissie de tekst van de belangrijkste bepalingen van intern recht mede die zij op het onder  deze richtlijn vallende gebied vaststellen.
 
-De Commissie dient uiterlijk 3 december 2022 een verslag in bij het Europees Parlement en de Raad waarin wordt  beoordeeld in hoeverre de lidstaten de nodige maatregelen hebben genomen om aan deze richtlijn te voldoen.
-
-Voorts dient de Commissie uiterlijk 3 december 2023 een verslag in bij het Europees Parlement en de Raad waarin een  beoordeling wordt verricht van de toegevoegde waarde van deze richtlijn voor de bestrijding van het witwassen van geld  alsmede van de gevolgen van deze richtlijn voor de fundamentele rechten en vrijheden. Indien nodig dient de Commissie  op basis van dit verslag een wetgevingsvoorstel in tot wijziging van deze richtlijn. Daarbij houdt de Commissie rekening  met de door de lidstaten verstrekte informatie.
-
-Deze richtlijn treedt in werking op de twintigste dag na die van de bekendmaking ervan in het Publicatieblad van de  Europese Unie .
-
-Deze richtlijn is gericht tot de lidstaten overeenkomstig de Verdragen.
-
-Gedaan te Straatsburg, 23 oktober 2018.
-
-Voor het Europees Parlement
-
-###### Artikel 11
-
-Onderzoeksmiddelen
-
-###### Artikel 12
-
-###### Artikel 13
-
-Omzetting
-
 ###### Artikel 14
 
 Verslaglegging
+
+De Commissie dient uiterlijk 3 december 2022 een verslag in bij het Europees Parlement en de Raad waarin wordt  beoordeeld in hoeverre de lidstaten de nodige maatregelen hebben genomen om aan deze richtlijn te voldoen.
+
+Voorts dient de Commissie uiterlijk 3 december 2023 een verslag in bij het Europees Parlement en de Raad waarin een  beoordeling wordt verricht van de toegevoegde waarde van deze richtlijn voor de bestrijding van het witwassen van geld  alsmede van de gevolgen van deze richtlijn voor de fundamentele rechten en vrijheden. Indien nodig dient de Commissie  op basis van dit verslag een wetgevingsvoorstel in tot wijziging van deze richtlijn. Daarbij houdt de Commissie rekening  met de door de lidstaten verstrekte informatie.
 
 ###### Artikel 15
 
 ## Inwerkingtreding
 
+Deze richtlijn treedt in werking op de twintigste dag na die van de bekendmaking ervan in het Publicatieblad van de  Europese Unie .
+
 ###### Artikel 16
 
 Adressaten
 
+Deze richtlijn is gericht tot de lidstaten overeenkomstig de Verdragen.
+
+Gedaan te Straatsburg, 23 oktober 2018.
+
 Voor de Raad
+
+Voor het Europees Parlement
 
 De voorzitter
 
