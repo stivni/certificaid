@@ -17,31 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 06a7e51-dirty
+    pipeline_version: 7158f47-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:03:28Z'
+  generated_at: '2026-05-13T10:46:01Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:19:59Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Layer1 pass. 32 headings over H2/H3-niveaus, lange regels zijn gewone wetsartikeltekst (geen kolom-bleed), geen spurious line-breaks in body, inhoud volledig.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:42Z'
-      heading_count: 32
-      max_section_chars: 4554
-      file_size_chars: 43324
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:19:59Z'
-      rationale: Layer1 pass. 32 headings over H2/H3-niveaus, lange regels zijn gewone wetsartikeltekst (geen kolom-bleed), geen spurious line-breaks in body, inhoud volledig.
-      concrete_problemen: []
 ---
 
 # K.B. nr. 3 van 10 december 1969, met betrekking tot de aftrekken voor de toepassing van de belasting over de toegevoegde waarde

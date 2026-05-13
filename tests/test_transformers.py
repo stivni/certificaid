@@ -1584,3 +1584,43 @@ class TestPromoteNormSectionLabels:
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "promote_norm_section_labels" in TRANSFORMERS
+
+
+# ─── strip_running_page_headers ───────────────────────────────────────────────
+
+class TestStripRunningPageHeaders:
+    def test_pipe_title_pattern(self):
+        from tools.etl.transformers.strip_running_page_headers import strip_running_page_headers
+        body = "Body.\n9 | Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen\nMeer.\n"
+        result, _ = strip_running_page_headers(body, {})
+        assert "Minimum Algemeen Rekeningstelsel (MAR)" not in result
+        assert "Body." in result
+
+    def test_kb_page_marker(self):
+        from tools.etl.transformers.strip_running_page_headers import strip_running_page_headers
+        body = "Body.\n                                                 - KB nr. 13 / 1 -\nMeer.\n"
+        result, _ = strip_running_page_headers(body, {})
+        assert "KB nr. 13 / 1" not in result
+
+    def test_mb_page_marker(self):
+        from tools.etl.transformers.strip_running_page_headers import strip_running_page_headers
+        body = "  - M.B. nr. 7 / 12 -\nBody.\n"
+        result, _ = strip_running_page_headers(body, {})
+        assert "M.B. nr. 7" not in result
+
+    def test_legitimate_text_not_stripped(self):
+        from tools.etl.transformers.strip_running_page_headers import strip_running_page_headers
+        body = "Conform KB nr. 13 wordt het volgende bepaald.\nDe pagina 9 toont een tabel.\n"
+        result, _ = strip_running_page_headers(body, {})
+        assert result == body
+
+    def test_idempotent(self):
+        from tools.etl.transformers.strip_running_page_headers import strip_running_page_headers
+        body = "9 | Title\n- KB nr. 1 / 5 -\nBody.\n"
+        once, _ = strip_running_page_headers(body, {})
+        twice, _ = strip_running_page_headers(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "strip_running_page_headers" in TRANSFORMERS

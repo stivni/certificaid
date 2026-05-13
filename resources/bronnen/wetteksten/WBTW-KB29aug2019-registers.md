@@ -17,31 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 06a7e51-dirty
+    pipeline_version: 7158f47-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:03:30Z'
+  generated_at: '2026-05-13T10:46:03Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:19:59Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Layer1 pass. Kort KB (3 artikelen). De Bijw.-regels (L63-69) zijn een lijst van 'recent opgeheven KBs' die onderdeel zijn van de officiële bron-tekst, niet een ETL-artefact. Schone extractie.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:42Z'
-      heading_count: 3
-      max_section_chars: 1234
-      file_size_chars: 2347
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:19:59Z'
-      rationale: Layer1 pass. Kort KB (3 artikelen). De Bijw.-regels (L63-69) zijn een lijst van 'recent opgeheven KBs' die onderdeel zijn van de officiële bron-tekst, niet een ETL-artefact. Schone extractie.
-      concrete_problemen: []
 ---
 
 # K.B. van 29 augustus 2019, tot uitvoering van artikel 85, § 2, derde lid van het Wetboek van de belasting over de toegevoegde waarde met betrekking tot de opmaak van innings- en invorderingsregisters

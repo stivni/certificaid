@@ -17,31 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 06a7e51-dirty
+    pipeline_version: 7158f47-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:03:30Z'
+  generated_at: '2026-05-13T10:46:03Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:20:00Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Layer1 pass. 12 H2-headings, schone extractie, inhoud volledig.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:42Z'
-      heading_count: 12
-      max_section_chars: 2703
-      file_size_chars: 9924
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:20:00Z'
-      rationale: Layer1 pass. 12 H2-headings, schone extractie, inhoud volledig.
-      concrete_problemen: []
 ---
 
 # K.B. nr. 53 van 23 december 1994, met betrekking tot de bijzondere regeling van belastingheffing over de winstmarge voor gebruikte goederen, kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten

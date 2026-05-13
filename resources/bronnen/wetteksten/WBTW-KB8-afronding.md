@@ -17,35 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 06a7e51-dirty
+    pipeline_version: 7158f47-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:03:28Z'
+  generated_at: '2026-05-13T10:46:01Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:20:00Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Layer1 pass. Klein KB, 4 artikelen, H2 per artikel. Bijw.-lijn (L83) is updatetabelrest — cosmetisch. Inhoud volledig.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:43Z'
-      heading_count: 4
-      max_section_chars: 1024
-      file_size_chars: 2705
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:20:00Z'
-      rationale: Layer1 pass. Klein KB, 4 artikelen, H2 per artikel. Bijw.-lijn (L83) is updatetabelrest — cosmetisch. Inhoud volledig.
-      concrete_problemen:
-        - regel: 83
-          categorie: A1
-          type: form-feed
-          voorbeeld: Bijw. 01 / 01.01.2012 30.12.2011 Volledige uitgave
 ---
 
 # K.B. nr. 8 van 12 maart 1970, tot vaststelling van de wijze van afronding van de verschuldigde, de aftrekbare of de voor teruggaaf vatbare belasting over de toegevoegde waarde

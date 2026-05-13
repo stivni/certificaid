@@ -1,12 +1,15 @@
 ---
-bijgewerkt: 28.10.2009
-bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
-bron_rol: itaa_lex
+tags: ["VI.C", "2.4"]
+itaa-lex-sectie: "VI.C"
+wet: "M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "28.10.2009"
+bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
 chunk:
   level: 2
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: VI.C
 provenance:
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
@@ -14,85 +17,52 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: 7158f47-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:24Z'
+  generated_at: '2026-05-13T10:45:50Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-13T10:38:29Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Body volledig schoon: Art. 1-5 met correcte ## headings, opheffingsinfo aanwezig, bijlagen (3 stuks) als plain 'Bijlage 1/2/3' vermeld (bijlagen zijn afbeeldingen in originele PDF — geen ETL-bug). L1 pass, geen flags. Eerdere rationale 'compilatie-artefacten aanwezig' was incorrect."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:43Z'
-      heading_count: 5
-      max_section_chars: 1371
-      file_size_chars: 2461
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:38:29Z'
-      rationale: "Body volledig schoon: Art. 1-5 met correcte ## headings, opheffingsinfo aanwezig, bijlagen (3 stuks) als plain 'Bijlage 1/2/3' vermeld (bijlagen zijn afbeeldingen in originele PDF — geen ETL-bug). L1 pass, geen flags. Eerdere rationale 'compilatie-artefacten aanwezig' was incorrect."
-      concrete_problemen: []
-status: beschikbaar
-tags:
-  - VI.C
-  - '2.4'
-wet: M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992
 ---
 
 # M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992
 
 *Bijgewerkt tot en met 28.10.2009 — gecoördineerde versie.*
 
-Ministerieel besluit, van 28 oktober 2009, tot bepaling van het model der
-berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies
-van het Wetboek van de belasting over de toegevoegde waarde en in de
-artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992
-Uitvoering van de artikelen 93ter en 93quinquies van het Btw-Wetboek.
+Ministerieel besluit, van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992 Uitvoering van de artikelen 93ter en 93quinquies van het Btw-Wetboek.
 Officieuze coördinatie
 
-       Dit ministerieel besluit werd opgeheven met ingang van 06.07.2020 bij:
-       22 JUNI 2020 - Koninklijk besluit tot uitvoering van de artikelen 93ter tot 93quinquies van het
-       wetboek van de belasting over de toegevoegde waarde, de artikelen 412bis, 433 tot 435 van het
-       wetboek van de inkomstenbelastingen 1992, de artikelen 35 tot 37, 43 tot 45 en 47 van het
-       wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen
-       en de artikelen 157 tot 159 en 161 van de programmawet (i) van 29 maart 2012, inzake het e-
-       notariaat (B.S. 26.06.2020, pg. 47298, Numac : 2019041722)
+Dit ministerieel besluit werd opgeheven met ingang van 06.07.2020 bij: 22 JUNI 2020 - Koninklijk besluit tot uitvoering van de artikelen 93ter tot 93quinquies van het wetboek van de belasting over de toegevoegde waarde, de artikelen 412bis, 433 tot 435 van het wetboek van de inkomstenbelastingen 1992, de artikelen 35 tot 37, 43 tot 45 en 47 van het wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen en de artikelen 157 tot 159 en 161 van de programmawet (i) van 29 maart 2012, inzake het enotariaat (B.S. 26.06.2020, pg. 47298, Numac : 2019041722)
 
 ## Art. 1
 
-De berichten bedoeld in de artikelen 93ter van het BTW-Wetboek en 433 WIB 92 worden opgemaakt
-overeenkomstig het model dat voorkomt in bijlage 1 bij dit besluit.
+De berichten bedoeld in de artikelen 93ter van het BTW-Wetboek en 433 WIB 92 worden opgemaakt overeenkomstig het model dat voorkomt in bijlage 1 bij dit besluit.
 
 ## Art. 2
 
-De berichten bedoeld in de artikelen 93ter van het BTW-Wetboek en 433 WIB 92 en die een schip of een
-vaartuig tot voorwerp hebben worden opgemaakt overeenkomstig het model dat voorkomt in bijlage 2 bij dit
-besluit.
+De berichten bedoeld in de artikelen 93ter van het BTW-Wetboek en 433 WIB 92 en die een schip of een vaartuig tot voorwerp hebben worden opgemaakt overeenkomstig het model dat voorkomt in bijlage 2 bij dit besluit.
 
 ## Art. 3
 
-De kennisgevingen bedoeld in de artikelen 93quinquies van het BTW-Wetboek en 435 WIB 92 worden
-opgemaakt overeenkomstig het model dat voorkomt in bijlage 3 bij dit besluit.
+De kennisgevingen bedoeld in de artikelen 93quinquies van het BTW-Wetboek en 435 WIB 92 worden opgemaakt overeenkomstig het model dat voorkomt in bijlage 3 bij dit besluit.
 
 ## Art. 4
 
-Het ministerieel besluit van 26 februari 2007 tot bepaling van het model der berichten en kennisgevingen als
-bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde
-en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992 wordt opgeheven.
+Het ministerieel besluit van 26 februari 2007 tot bepaling van het model der berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992 wordt opgeheven.
 
 ## Art. 5
 
 Dit besluit treedt in werking op 15 november 2009.
 
-                             Bijlage 1
+Bijlage 1
 
-                             Bijlage 2
+Bijlage 2
 
-                             Bijlage 3
+Bijlage 3

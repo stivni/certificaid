@@ -17,35 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 06a7e51-dirty
+    pipeline_version: 7158f47-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:03:29Z'
+  generated_at: '2026-05-13T10:46:01Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:19:59Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Layer1 pass. Klein KB, 5 artikelen. Bijw.-lijn aan einde (L86) is een updatetabel-rester — cosmetisch maar miniem. Inhoud volledig, geen structuurproblemen.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:42Z'
-      heading_count: 5
-      max_section_chars: 1263
-      file_size_chars: 3703
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:19:59Z'
-      rationale: Layer1 pass. Klein KB, 5 artikelen. Bijw.-lijn aan einde (L86) is een updatetabel-rester — cosmetisch maar miniem. Inhoud volledig, geen structuurproblemen.
-      concrete_problemen:
-        - regel: 86
-          categorie: A1
-          type: form-feed
-          voorbeeld: Bijw. 01 / 01.01.2012 30.12.2011 Volledige uitgave
 ---
 
 # K.B. nr. 16 van 3 juni 1970, met betrekking tot de toepassing van de belasting over de toegevoegde waarde inzake de verkoop van vis, schaal-, schelp- en weekdieren in de gemeentelijke vismijn

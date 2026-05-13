@@ -17,31 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 06a7e51-dirty
+    pipeline_version: 7158f47-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:03:29Z'
+  generated_at: '2026-05-13T10:46:01Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:19:59Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Layer1 pass. 26 headings over H2/H3/H4-niveaus, goed gelaagd, geen spurious line-breaks of TOC-artefacten in body.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:42Z'
-      heading_count: 26
-      max_section_chars: 1279
-      file_size_chars: 15936
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:19:59Z'
-      rationale: Layer1 pass. 26 headings over H2/H3/H4-niveaus, goed gelaagd, geen spurious line-breaks of TOC-artefacten in body.
-      concrete_problemen: []
 ---
 
 # K.B. nr. 15 van 3 juni 1970, tot regeling van de schattings- procedure waarin artikel 59, § 2, van het Wetboek van de belasting over de toegevoegde waarde voorziet

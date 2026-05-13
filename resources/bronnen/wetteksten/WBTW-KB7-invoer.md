@@ -17,31 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 06a7e51-dirty
+    pipeline_version: 7158f47-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:03:28Z'
+  generated_at: '2026-05-13T10:46:01Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:20:00Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Layer1 pass. 61 headings over H2/H3/H4, goed gelaagd. Lange regels zijn uitgebreide wetsartikelen (geen kolom-bleed). Geen spurious line-breaks in body. Inhoud volledig.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:43Z'
-      heading_count: 61
-      max_section_chars: 8098
-      file_size_chars: 99608
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:20:00Z'
-      rationale: Layer1 pass. 61 headings over H2/H3/H4, goed gelaagd. Lange regels zijn uitgebreide wetsartikelen (geen kolom-bleed). Geen spurious line-breaks in body. Inhoud volledig.
-      concrete_problemen: []
 ---
 
 # K.B. nr. 7 van 29 december 1992, met betrekking tot de invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde

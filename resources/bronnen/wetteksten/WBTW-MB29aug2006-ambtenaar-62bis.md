@@ -1,12 +1,15 @@
 ---
-bijgewerkt: 29.08.2006
-bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
-bron_rol: itaa_lex
+tags: ["VI.C", "2.4"]
+itaa-lex-sectie: "VI.C"
+wet: "M.B. van 29 augustus 2006, tot aanduiding van de ambtenaar bedoeld in artikel 62bis van het Wetboek van de belasting over de toegevoegde waarde en in artikel 318 van het Wetboek van de inkomstenbelastingen 1992"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "29.08.2006"
+bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
 chunk:
   level: 2
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: VI.C
 provenance:
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
@@ -14,62 +17,37 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: 7158f47-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:24Z'
+  generated_at: '2026-05-13T10:45:50Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T19:27:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Eerder beoordeeld als trusted door subagent-sonnet-4-6.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:43Z'
-      heading_count: 3
-      max_section_chars: 668
-      file_size_chars: 1325
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:16Z'
-      rationale: Eerder beoordeeld als trusted door subagent-sonnet-4-6.
-      concrete_problemen: []
-status: beschikbaar
-tags:
-  - VI.C
-  - '2.4'
-wet: M.B. van 29 augustus 2006, tot aanduiding van de ambtenaar bedoeld in artikel 62bis van het Wetboek van de belasting over de toegevoegde waarde en in artikel 318 van het Wetboek van de inkomstenbelastingen 1992
 ---
 
 # M.B. van 29 augustus 2006, tot aanduiding van de ambtenaar bedoeld in artikel 62bis van het Wetboek van de belasting over de toegevoegde waarde en in artikel 318 van het Wetboek van de inkomstenbelastingen 1992
 
 *Bijgewerkt tot en met 29.08.2006 — gecoördineerde versie.*
 
-Ministerieel besluit, van 29 augustus 2006, tot aanduiding van de ambtenaar
-bedoeld in artikel 62bis van het Wetboek van de belasting over de toegevoegde
-waarde en in artikel 318 van het Wetboek van de inkomstenbelastingen 1992
-Uitvoering van artikel 62bis van het Btw-Wetboek.
-Officieuze coördinatie, nr. 2 - Laatstelijk gewijzigd met ingang van 16.04.2012 (MB 05.07.2012,
-B.S. 13.07.2012)
+Ministerieel besluit, van 29 augustus 2006, tot aanduiding van de ambtenaar bedoeld in artikel 62bis van het Wetboek van de belasting over de toegevoegde waarde en in artikel 318 van het Wetboek van de inkomstenbelastingen 1992 Uitvoering van artikel 62bis van het Btw-Wetboek.
+Officieuze coördinatie, nr. 2 - Laatstelijk gewijzigd met ingang van 16.04.2012 (MB 05.07.2012, B.S. 13.07.2012)
 
 ## Art. 1
-(De tekst van MB 29.08.2006, artikel 1, werd gewijzigd met ingang van 16.04.2012 (MB 05.07.2012,
-B.S. 13.07.2012))
+(De tekst van MB 29.08.2006, artikel 1, werd gewijzigd met ingang van 16.04.2012 (MB 05.07.2012, B.S. 13.07.2012))
 
-De ambtenaar bedoeld in artikel 62bis van het Wetboek van de belasting over de toegevoegde waarde is de
-directeur van de dienst die bevoegd is voor het nazicht van de juiste toepassing van de belasting.
+De ambtenaar bedoeld in artikel 62bis van het Wetboek van de belasting over de toegevoegde waarde is de directeur van de dienst die bevoegd is voor het nazicht van de juiste toepassing van de belasting.
 
 ## Art. 2
 
-De ambtenaar bedoeld in artikel 318 van het Wetboek van de inkomstenbelastingen 1992 is de directeur van
-de directe belastingen waaronder de dienst die het onderzoek heeft verricht ressorteert.
+De ambtenaar bedoeld in artikel 318 van het Wetboek van de inkomstenbelastingen 1992 is de directeur van de directe belastingen waaronder de dienst die het onderzoek heeft verricht ressorteert.
 
 ## Art. 3
 
-Dit besluit heeft uitwerking met ingang van de dag waarop het in het Belgisch Staatsblad wordt
-bekendgemaakt.
+Dit besluit heeft uitwerking met ingang van de dag waarop het in het Belgisch Staatsblad wordt bekendgemaakt.

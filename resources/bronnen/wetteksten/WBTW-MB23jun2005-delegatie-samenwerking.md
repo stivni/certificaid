@@ -1,12 +1,15 @@
 ---
-bijgewerkt: 23.06.2005
-bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
-bron_rol: itaa_lex
+tags: ["VI.C", "2.4"]
+itaa-lex-sectie: "VI.C"
+wet: "M.B. van 23 juni 2005, met betrekking tot de delegatie van de bevoegde autoriteit inzake de administratieve samenwerking op het gebied van de belasting over de toegevoegde waarde"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "23.06.2005"
+bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
 chunk:
   level: 2
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: VI.C
 provenance:
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
@@ -14,62 +17,28 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: 7158f47-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:24Z'
+  generated_at: '2026-05-13T10:45:50Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T10:38:29Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: 'Enig artikel' staat als plain-text regel (regel 59) zonder ##/###-prefix. De wet bestaat uit één artikel en de structuur-indicator hoort een heading te zijn. Verder is de compilatie-intro (regels 53-57) als plain text opgenomen zonder heading. Body-inhoud is volledig aanwezig in één alinea."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:43Z'
-      heading_count: 0
-      max_section_chars: 1201
-      file_size_chars: 1201
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:38:29Z'
-      rationale: "B5: 'Enig artikel' staat als plain-text regel (regel 59) zonder ##/###-prefix. De wet bestaat uit één artikel en de structuur-indicator hoort een heading te zijn. Verder is de compilatie-intro (regels 53-57) als plain text opgenomen zonder heading. Body-inhoud is volledig aanwezig in één alinea."
-      concrete_problemen:
-        - regel: 59
-          categorie: B5
-          type: other
-          voorbeeld: '                                             Enig artikel'
-        - regel: 53
-          categorie: B4
-          type: other
-          voorbeeld: Ministerieel besluit, van 23 juni 2005... (compilatie plain-text herhaling van titel als intro)
-status: beschikbaar
-tags:
-  - VI.C
-  - '2.4'
-wet: M.B. van 23 juni 2005, met betrekking tot de delegatie van de bevoegde autoriteit inzake de administratieve samenwerking op het gebied van de belasting over de toegevoegde waarde
 ---
 
 # M.B. van 23 juni 2005, met betrekking tot de delegatie van de bevoegde autoriteit inzake de administratieve samenwerking op het gebied van de belasting over de toegevoegde waarde
 
 *Bijgewerkt tot en met 23.06.2005 — gecoördineerde versie.*
 
-Ministerieel besluit, van 23 juni 2005, met betrekking tot de delegatie van de
-bevoegde autoriteit inzake de administratieve samenwerking op het gebied van
-de belasting over de toegevoegde waarde
-Officieuze coördinatie, nr. 2 – Laatstelijk gewijzigd met ingang van 13.05.2010 (MB 27.04.2010,
-B.S. 03.05.2010)
+Ministerieel besluit, van 23 juni 2005, met betrekking tot de delegatie van de bevoegde autoriteit inzake de administratieve samenwerking op het gebied van de belasting over de toegevoegde waarde Officieuze coördinatie, nr. 2 – Laatstelijk gewijzigd met ingang van 13.05.2010 (MB 27.04.2010, B.S. 03.05.2010)
 
-                                             Enig artikel
-(De tekst van het enig artikel werd gewijzigd met ingang van 13.05.2010 (MB 27.04.2010,
-B.S. 03.05.2010))
+Enig artikel
+(De tekst van het enig artikel werd gewijzigd met ingang van 13.05.2010 (MB 27.04.2010, B.S. 03.05.2010))
 
-Voor de toepassing van de bepalingen van de Verordening (EG) nr. 1798/2003 van de Raad van 7 oktober
-2003 betreffende de administratieve samenwerking op het gebied van de belasting over de toegevoegde
-waarde, wordt de door artikel 2, eerste lid, van deze Verordening aan de Minister van Financiën toegestane
-bevoegde autoriteit gedelegeerd aan de Voorzitter van het Directiecomité, met mogelijkheid tot overdracht
-van die volmacht aan de door hem aangeduide diensten of ambtenaren.
+Voor de toepassing van de bepalingen van de Verordening (EG) nr. 1798/2003 van de Raad van 7 oktober 2003 betreffende de administratieve samenwerking op het gebied van de belasting over de toegevoegde waarde, wordt de door artikel 2, eerste lid, van deze Verordening aan de Minister van Financiën toegestane bevoegde autoriteit gedelegeerd aan de Voorzitter van het Directiecomité, met mogelijkheid tot overdracht van die volmacht aan de door hem aangeduide diensten of ambtenaren.

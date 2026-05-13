@@ -1,12 +1,15 @@
 ---
-bijgewerkt: 04.03.1993
-bron: Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)
-bron_rol: itaa_lex
+tags: ["VI.C", "2.4"]
+itaa-lex-sectie: "VI.C"
+wet: "M.B. nr. 6 van 4 maart 1993, waarbij uitstel wordt verleend voor de voldoening van de ter zake van de invoer van goederen verschuldigde belasting over de toegevoegde waarde"
+bron_rol: "itaa_lex"
+status: "beschikbaar"
+bijgewerkt: "04.03.1993"
+bron: "Afgesplitst uit Fisconet-compilatie (pdftotext_compilatie_btw)"
 chunk:
   level: 2
+  type: "Art."
   sub_strategy:
-  type: Art.
-itaa-lex-sectie: VI.C
 provenance:
   inputs:
     - id: resources/raw/wetteksten/btw-kbs/WBTW-MB-compilatie.pdf
@@ -14,69 +17,43 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 11f9196
+    pipeline_version: 7158f47-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-11T16:34:24Z'
+  generated_at: '2026-05-13T10:45:49Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T19:27:16Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Eerder beoordeeld als trusted door subagent-sonnet-4-6.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:43Z'
-      heading_count: 4
-      max_section_chars: 671
-      file_size_chars: 1744
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:16Z'
-      rationale: Eerder beoordeeld als trusted door subagent-sonnet-4-6.
-      concrete_problemen: []
-status: beschikbaar
-tags:
-  - VI.C
-  - '2.4'
-wet: M.B. nr. 6 van 4 maart 1993, waarbij uitstel wordt verleend voor de voldoening van de ter zake van de invoer van goederen verschuldigde belasting over de toegevoegde waarde
 ---
 
 # M.B. nr. 6 van 4 maart 1993, waarbij uitstel wordt verleend voor de voldoening van de ter zake van de invoer van goederen verschuldigde belasting over de toegevoegde waarde
 
 *Bijgewerkt tot en met 04.03.1993 — gecoördineerde versie.*
 
-Ministerieel besluit nr. 6, van 4 maart 1993, waarbij uitstel wordt verleend voor
-de voldoening van de ter zake van de invoer van goederen verschuldigde
-belasting over de toegevoegde waarde
-Uitvoering van artikel 52 van het Wetboek en van artikel 5 van het koninklijk besluit nr. 7.
+Ministerieel besluit nr. 6, van 4 maart 1993, waarbij uitstel wordt verleend voor de voldoening van de ter zake van de invoer van goederen verschuldigde belasting over de toegevoegde waarde Uitvoering van artikel 52 van het Wetboek en van artikel 5 van het koninklijk besluit nr. 7.
 Officieuze coördinatie
 
 ## Art. 1
 
-De voldoening van de ter zake van de invoer van goederen verschuldigde belasting aan de ontvanger der
-douane mag worden uitgesteld tot de donderdag van de week volgend op die waarin de aangifte is geschied.
+De voldoening van de ter zake van de invoer van goederen verschuldigde belasting aan de ontvanger der douane mag worden uitgesteld tot de donderdag van de week volgend op die waarin de aangifte is geschied.
 
 ## Art. 2
 
 Elke persoon die uitstel van betaling wenst te genieten moet :
-a)    een schriftelijke aanvraag richten aan de ontvanger der douane;
-b)    een voldoende borgtocht storten of een andere zekerheid stellen volgens de regelen die inzake
-      invoerrecht gelden;
-c)    in vak B van het document bedoeld in artikel 9 van het koninklijk besluit nr. 7 met betrekking tot de
-      invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde de vermelding
-      "Uitstel" of "Uitstel van betaling" aanbrengen;
-d)    de betalingen verrichten door storting of overschrijving op de postrekening van de ontvanger der
-      douane of met een gekruiste check.
+a) een schriftelijke aanvraag richten aan de ontvanger der douane;
+b) een voldoende borgtocht storten of een andere zekerheid stellen volgens de regelen die inzake invoerrecht gelden;
+c) in vak B van het document bedoeld in artikel 9 van het koninklijk besluit nr. 7 met betrekking tot de invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde de vermelding "Uitstel" of "Uitstel van betaling" aanbrengen;
+d) de betalingen verrichten door storting of overschrijving op de postrekening van de ontvanger der douane of met een gekruiste check.
 
 ## Art. 3
 
-Dit besluit vervangt het ministerieel besluit nr. 6 van 9 december 1970 waarbij uitstel wordt verleend voor de
-voldoening van de ter zake van de invoer van goederen verschuldigde belasting over de toegevoegde waarde.
+Dit besluit vervangt het ministerieel besluit nr. 6 van 9 december 1970 waarbij uitstel wordt verleend voor de voldoening van de ter zake van de invoer van goederen verschuldigde belasting over de toegevoegde waarde.
 
 ## Art. 4
 

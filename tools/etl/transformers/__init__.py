@@ -29,6 +29,7 @@ from tools.etl.transformers.normalize_bullet_glyphs import normalize_bullet_glyp
 from tools.etl.transformers.fix_bold_italic_mixing import fix_bold_italic_mixing
 from tools.etl.transformers.strip_itaa_norm_footers import strip_itaa_norm_footers
 from tools.etl.transformers.promote_norm_section_labels import promote_norm_section_labels
+from tools.etl.transformers.strip_running_page_headers import strip_running_page_headers
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
@@ -50,6 +51,7 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "fix_bold_italic_mixing": fix_bold_italic_mixing,
     "strip_itaa_norm_footers": strip_itaa_norm_footers,
     "promote_norm_section_labels": promote_norm_section_labels,
+    "strip_running_page_headers": strip_running_page_headers,
 }
 
 

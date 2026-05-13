@@ -17,39 +17,19 @@ provenance:
       version: '2023'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: 7158f47-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:15:24Z'
+  generated_at: '2026-05-13T10:45:29Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T10:38:29Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A1: pagina-indicatoren '9 | Minimum Algemeen Rekeningstelsel...' (regels 63, 89, 119, 134) zijn PDF-voetregels die als plain text in de body zijn opgenomen. Handcrafted file, geen PDF-artefacten in de eigenlijke inhoud. De flat-text structuur van rekeningnummers zonder headings is inherent aan het MAR-document. Zonder de paginaindicatoren zou de bron trusted zijn."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:41Z'
-      heading_count: 0
-      max_section_chars: 5338
-      file_size_chars: 5338
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:38:29Z'
-      rationale: "A1: pagina-indicatoren '9 | Minimum Algemeen Rekeningstelsel...' (regels 63, 89, 119, 134) zijn PDF-voetregels die als plain text in de body zijn opgenomen. Handcrafted file, geen PDF-artefacten in de eigenlijke inhoud. De flat-text structuur van rekeningnummers zonder headings is inherent aan het MAR-document. Zonder de paginaindicatoren zou de bron trusted zijn."
-      concrete_problemen:
-        - regel: 63
-          categorie: A1
-          type: form-feed
-          voorbeeld: 9 | Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen
-        - regel: 89
-          categorie: A1
-          type: form-feed
-          voorbeeld: 10 | Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen
 ---
 
 # Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW)
@@ -59,8 +39,6 @@ provenance:
 66211
 Besteding (-)
 Schenkingen worden niet langer opgedeeld in met of zonder terugnemingsrecht. Dit maakt een wezenlijk verschil bij de interpretatie van de rekeningen, dus ook hier zou onze suggestie zijn om de opdeling te behouden zoals die bestond (6431 voor schenkingen met terugnemingsrecht, 6432 voor schenkingen zonder terugnemingsrecht).
-
-9 | Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen
 
 Minderwaarden op de realisatie van vaste activa
 Minderwaarden op de realisatie van immateriële en materiële vaste activa Minderwaarden op de realisatie van financiële vaste activa 664-66Andere niet-recurrente bedrijfskosten 668 Andere niet-recurrente financiële kosten 669 Als herstructureringskosten geactiveerde niet-recurrente kosten Als herstructureringskosten geactiveerde niet-recurrente bedrijfskosten (-) Als herstructureringskosten geactiveerde niet-recurrente financiële kosten (-)
@@ -85,8 +63,6 @@ Opbrengsten
 712 In de voorraad goederen in bewerking
 713 In de voorraad gereed product
 In de klasse 67 worden geen rekeningen of categorieën voorzien waarop de rechtspersonenbelasting of de taks ter vergoeding van de successierechten kunnen geboekt worden. Geen van beide is namelijk een “belasting op het resultaat”. Onze suggestie hier is om deze zelf te voorzien: 674 voor de rechtspersonenbelasting en 675 voor de taks ter vergoeding van de successierechten.
-
-10 | Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen
 
 In de voorraad onroerende goederen bestemd voor verkoop
 In de bestellingen in uitvoering
@@ -116,8 +92,6 @@ Toegerekende winst
 Schenkingen worden niet langer opgedeeld in met of zonder terugnemingsrecht. Dit maakt een wezenlijk verschil bij de interpretatie van de rekeningen, dus ook hier zou onze suggestie zijn om de opdeling te behouden zoals die bestond (7311 voor schenkingen met terugnemingsrecht en 7312 voor schenkingen zonder terugnemingsrecht).
 Legaten worden niet langer opgedeeld in met of zonder terugnemingsrecht. Dit maakt een wezenlijk verschil bij de interpretatie van de rekeningen, dus ook hier zou onze suggestie zijn om de opdeling te behouden zoals die bestond (7321 voor legaten met terugnemingsrecht en 7322 voor legaten zonder terugnemingsrecht).
 
-11 | Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen
-
 Meerwaarde op de realisatie van immateriële en materiële vaste activa
 Meerwaarde op de realisatie van financiële vaste activa
 764-76Andere niet-recurrente bedrijfsopbrengsten
@@ -131,4 +105,3 @@ Meerwaarde op de realisatie van financiële vaste activa
 
 Dit MAR werd opgesteld o.b.v. het koninklijk besluit van 21 oktober 2018.
 
-12 | Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen

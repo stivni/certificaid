@@ -17,35 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 06a7e51-dirty
+    pipeline_version: 7158f47-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:03:30Z'
+  generated_at: '2026-05-13T10:46:03Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:19:59Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Layer1 pass. Body is schoon: H2-headings per artikel, geen spurious line-breaks. Bijlage-vermelding aan het einde (L149) is de officiële aanhef van de bijlage — inhoud ervan ontbreekt maar dit is een bijlage-formulier dat niet als KB-tekst telt. Geen ETL-artefacten.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:42Z'
-      heading_count: 16
-      max_section_chars: 1368
-      file_size_chars: 10250
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:19:59Z'
-      rationale: 'Layer1 pass. Body is schoon: H2-headings per artikel, geen spurious line-breaks. Bijlage-vermelding aan het einde (L149) is de officiële aanhef van de bijlage — inhoud ervan ontbreekt maar dit is een bijlage-formulier dat niet als KB-tekst telt. Geen ETL-artefacten.'
-      concrete_problemen:
-        - regel: 149
-          categorie: D2
-          type: abrupt-cutoff
-          voorbeeld: Bijlage (bijlage-formulier inhoud niet ge-extraheerd)
 ---
 
 # K.B. van 4 april 2014, betreffende de verificatie van het regelmatig aanwezig zijn van motorvoertuigen
