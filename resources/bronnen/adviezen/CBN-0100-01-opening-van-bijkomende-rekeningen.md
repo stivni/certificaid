@@ -25,7 +25,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:15Z'
+    confirmed_at: '2026-05-13T12:36:21Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Eén aaneengesloten tekstblok zonder headings (heading_count=0, correct voor dit korte advies). Genummerde opsomming (1. t/m 4.) is consistent en correct. Geen PDF-artefacten, geen onzichtbare unicode, geen afgekapte zinnen. Ziet er uit als mens-geschreven markdown.
     layer1:
@@ -39,7 +39,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:15Z'
+      run_at: '2026-05-13T12:36:21Z'
       rationale: Eén aaneengesloten tekstblok zonder headings (heading_count=0, correct voor dit korte advies). Genummerde opsomming (1. t/m 4.) is consistent en correct. Geen PDF-artefacten, geen onzichtbare unicode, geen afgekapte zinnen. Ziet er uit als mens-geschreven markdown.
       concrete_problemen: []
 ---

@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:09Z'
+    confirmed_at: '2026-05-13T12:36:16Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Geen EUR-Lex markers. Kleine ## heading-fragmenten ('## RICHTLIJN 2011/96/EU VAN DE RAAD' op r72-74) zijn preambuletekst. Alle 11 artikelen aanwezig. Bijlagen I (vennootschapslijsten per lidstaat) en II volledig aanwezig. PDF-koppeltekensplits zijn source-kenmerken."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:09Z'
+      run_at: '2026-05-13T12:36:16Z'
       rationale: "Geen EUR-Lex markers. Kleine ## heading-fragmenten ('## RICHTLIJN 2011/96/EU VAN DE RAAD' op r72-74) zijn preambuletekst. Alle 11 artikelen aanwezig. Bijlagen I (vennootschapslijsten per lidstaat) en II volledig aanwezig. PDF-koppeltekensplits zijn source-kenmerken."
       concrete_problemen:
         - regel: 72

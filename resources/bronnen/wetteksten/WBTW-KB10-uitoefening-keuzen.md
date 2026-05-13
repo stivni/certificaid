@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 68215a5
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:24:30Z'
+  generated_at: '2026-05-13T12:35:29Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:32:21Z'
+    confirmed_at: '2026-05-13T12:36:29Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Structuur OK maar meerdere problemen blijven. Regel 73: 'belasting over de toegevoegde waaronder hij ressorteert' — afgekapte zin, ontbrekend 'waarde' (source-typo of ETL?). Regel 98-99: 'koninklijk besluit nr.\\n4,' — spurious linebreak in referentie. Regel 120-121: 'artikel 51, § 2, eerste lid,\\n1°,' — spurious linebreak in artikel-referentie. Pattern komt herhaaldelijk voor; merge_article_reference_wraps heeft deze niet gevangen."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:21Z'
+      run_at: '2026-05-13T12:36:29Z'
       rationale: "Structuur OK maar meerdere problemen blijven. Regel 73: 'belasting over de toegevoegde waaronder hij ressorteert' — afgekapte zin, ontbrekend 'waarde' (source-typo of ETL?). Regel 98-99: 'koninklijk besluit nr.\\n4,' — spurious linebreak in referentie. Regel 120-121: 'artikel 51, § 2, eerste lid,\\n1°,' — spurious linebreak in artikel-referentie. Pattern komt herhaaldelijk voor; merge_article_reference_wraps heeft deze niet gevangen."
       concrete_problemen:
         - "Regel 73: 'belasting over de toegevoegde waaronder' — ontbrekend 'waarde' (afgekapte zin)"
@@ -83,8 +83,7 @@ Elke belastingplichtige die recht heeft op de teruggaaf bedoeld in artikel 81 va
 
 Iedere wijziging van de bankgegevens die overeenkomstig het tweede lid of artikel 1 aan de administratie werd meegedeeld, moet gebeuren volgens de modaliteiten voorzien in het eerste lid.
 
-Voor de teruggaaf van het overschot bedoeld in artikel 81 van voornoemd koninklijk besluit nr.
-4, heeft deze wijziging uitwerking op de eerste dag van de tweede maand die volgt op het tijdvak waarop het overschot betrekking heeft, wanneer deze wijziging wordt ingediend voor het einde van de maand volgend op datzelfde tijdvak.
+Voor de teruggaaf van het overschot bedoeld in artikel 81 van voornoemd koninklijk besluit nr. 4, heeft deze wijziging uitwerking op de eerste dag van de tweede maand die volgt op het tijdvak waarop het overschot betrekking heeft, wanneer deze wijziging wordt ingediend voor het einde van de maand volgend op datzelfde tijdvak.
 
 In de door hen te bepalen gevallen kan door of vanwege de Minister van Financiën ontheffing worden verleend van de verplichting tot aangifte bedoeld in het eerste lid.
 
@@ -105,8 +104,7 @@ Die keuze gaat in op de datum van indiening van de verklaring bedoeld in het eer
 ## Art. 5
 (De tekst van KB nr. 10, artikel 5, werd gewijzigd met ingang van 22.07.2019 (Art. 3, KB 28.06.2019, B.S. 12.07.2019, pg. 70370))
 
-Voorafgaandelijk aan de eerste dienst waarvoor hij bij toepassing van artikel 51, § 2, eerste lid,
-1°, van het Wetboek schuldenaar wordt van de belasting over de toegevoegde waarde, moet elke belastingplichtige bedoeld in artikel 53 bis, § 2 van het Wetboek daarvan aangifte doen bij de bevoegde dienst van de administratie waaronder hij ressorteert.
+Voorafgaandelijk aan de eerste dienst waarvoor hij bij toepassing van artikel 51, § 2, eerste lid, 1°, van het Wetboek schuldenaar wordt van de belasting over de toegevoegde waarde, moet elke belastingplichtige bedoeld in artikel 53 bis, § 2 van het Wetboek daarvan aangifte doen bij de bevoegde dienst van de administratie waaronder hij ressorteert.
 
 ## Art. 6
 (De tekst van KB nr. 10, artikel 6, werd vervangen met ingang van 01.01.2020 (KB 28.06.2019, B.S. 12.07.2019, pg. 70370))

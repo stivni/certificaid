@@ -38,7 +38,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:16Z'
+    confirmed_at: '2026-05-13T12:36:23Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Advies van 3814 tekens zonder interne headings — inhoudelijk correct als doorlopende redenering. Vier coherente alinea's, volledig en afgerond. Geen artefacten, geen spurious breaks, geen Unicode-resten. Frontmatter consistent met inhoud.
     layer1:
@@ -52,7 +52,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:16Z'
+      run_at: '2026-05-13T12:36:23Z'
       rationale: Advies van 3814 tekens zonder interne headings — inhoudelijk correct als doorlopende redenering. Vier coherente alinea's, volledig en afgerond. Geen artefacten, geen spurious breaks, geen Unicode-resten. Frontmatter consistent met inhoud.
       concrete_problemen: []
 ---

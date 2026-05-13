@@ -25,32 +25,21 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:27:07Z'
+    confirmed_at: '2026-05-13T12:36:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A1/A2: Lange inhoudstafel (regels 60-386) met dotted leaders is als ## / ### / #### / ##### headings in de body opgenomen, waardoor de TOC verdubbelt met de echte body-secties. A1: Pagina-footers 'NL', 'Publicatieblad van de Europese Unie' en 'L 347/x' staan als losse regels verspreid door de body (226 NL/L347-regels geteld). B2: Hiërarchiesprong: body-artikelen starten op ###### terwijl TITEL op ### staat. Inhoud is overigens volledig en leesbaar NL."
+    rationale: 'Running-headers (NL / L 347/x / Publicatieblad) zijn verdwenen — A1 is opgelost. Dotted leaders zijn verdwenen — A2 is opgelost. MAAR de TOC-strip-transformer heeft de TOC NIET aangepakt: regels 144-432 bevatten de volledige inhoudsopgave als geneste markdown-headings (## TITEL I t/m XV, ### Hoofdstuk, #### Afdeling, ##### Onderafdeling, BIJLAGE I-XII) zonder body-tekst — daarna pas (regel 432+) start de echte body. Resultaat: elke TITEL/Hoofdstuk-heading verschijnt twee keer in het document (TOC + body), wat dubbele chunks en gefragmenteerde retrieval oplevert. Vermoedelijk staat de TOC niet aan het begin van het bestand (overwegingen (1)-(63) komen ervóór), zodat de transformer niet triggert.'
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:27:07Z'
-      rationale: "A1/A2: Lange inhoudstafel (regels 60-386) met dotted leaders is als ## / ### / #### / ##### headings in de body opgenomen, waardoor de TOC verdubbelt met de echte body-secties. A1: Pagina-footers 'NL', 'Publicatieblad van de Europese Unie' en 'L 347/x' staan als losse regels verspreid door de body (226 NL/L347-regels geteld). B2: Hiërarchiesprong: body-artikelen starten op ###### terwijl TITEL op ### staat. Inhoud is overigens volledig en leesbaar NL."
+      run_at: '2026-05-13T12:36:30Z'
+      rationale: 'Running-headers (NL / L 347/x / Publicatieblad) zijn verdwenen — A1 is opgelost. Dotted leaders zijn verdwenen — A2 is opgelost. MAAR de TOC-strip-transformer heeft de TOC NIET aangepakt: regels 144-432 bevatten de volledige inhoudsopgave als geneste markdown-headings (## TITEL I t/m XV, ### Hoofdstuk, #### Afdeling, ##### Onderafdeling, BIJLAGE I-XII) zonder body-tekst — daarna pas (regel 432+) start de echte body. Resultaat: elke TITEL/Hoofdstuk-heading verschijnt twee keer in het document (TOC + body), wat dubbele chunks en gefragmenteerde retrieval oplevert. Vermoedelijk staat de TOC niet aan het begin van het bestand (overwegingen (1)-(63) komen ervóór), zodat de transformer niet triggert.'
       concrete_problemen:
-        - regel: 61
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: '### TITEL I - VOORWERP EN TOEPASSINGSGEBIED . . . . . . . . . . . . . . .'
-        - regel: 99
-          categorie: A1
-          type: form-feed
-          voorbeeld: "L 347/6\n\nNL\n\nPublicatieblad van de Europese Unie"
-        - regel: 387
-          categorie: A3
-          type: other
-          voorbeeld: iii) — los tekstfragment tussen TOC en body (concordantietabel-residu)
-        - regel: 392
-          categorie: B2
-          type: other
-          voorbeeld: '### TITEL I (body) → ###### Art. 1: sprong van ### naar ###### zonder tussenniveaus'
+        - 'Regels 144-432: volledige TOC als geneste markdown-headings zonder body (TITEL I-XV / Hoofdstuk / Afdeling / Onderafdeling / BIJLAGE I-XII). Elke heading verschijnt opnieuw in de body — dubbele chunks bij RAG.'
+        - "Regel 432: 'VOORWERP EN TOEPASSINGSGEBIED' als plain-text (geen heading) — body-TITEL I mist eigen heading."
+        - "Regel 60: '## betreffende het gemeenschappelijke stelsel...' — ondertitel ten onrechte als H2 in plaats van plain text/cursief."
+        - 'Hiërarchie-sprong: lichaamsartikelen ###### Art. terwijl TITELs op ## staan (overslaan ### #### #####).'
+        - "Artikel-headings op regel 3066+ tonen artefact: '###### Art. 24. bis, eerste alinea, eerste tot en' — concordantietabel-residu of artikel-titel-vervuiling."
 ---
 
 # Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde

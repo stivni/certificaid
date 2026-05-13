@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:20Z'
+    confirmed_at: '2026-05-13T12:36:29Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Zeer korte MB met 2 artikelen. Schone heading-hierarchie, geen footer-artefact, geen TOC-pollutie. Inleiding bondig, artikelen helder. Buitenstaander zou dit als handgeschreven markdown lezen.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:20Z'
+      run_at: '2026-05-13T12:36:29Z'
       rationale: Zeer korte MB met 2 artikelen. Schone heading-hierarchie, geen footer-artefact, geen TOC-pollutie. Inleiding bondig, artikelen helder. Buitenstaander zou dit als handgeschreven markdown lezen.
       concrete_problemen: []
 ---

@@ -50,7 +50,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:18Z'
+    confirmed_at: '2026-05-13T12:36:25Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Alle drie categorieën (A t/m G) schoon. Drie headings correct genesteld, inhoud volledig (inleiding, rubriek-inhoud, waarderingsregels), 12 voetnootdefinities aanwezig, geen artefacten, geen orphan-footnotes, geen malformed italic. Compacte maar complete bron.
     layer1:
@@ -64,7 +64,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:18Z'
+      run_at: '2026-05-13T12:36:25Z'
       rationale: Alle drie categorieën (A t/m G) schoon. Drie headings correct genesteld, inhoud volledig (inleiding, rubriek-inhoud, waarderingsregels), 12 voetnootdefinities aanwezig, geen artefacten, geen orphan-footnotes, geen malformed italic. Compacte maar complete bron.
       concrete_problemen: []
 ---

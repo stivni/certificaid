@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 68215a5
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:24:29Z'
+  generated_at: '2026-05-13T12:35:29Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:21Z'
+    confirmed_at: '2026-05-13T12:36:29Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Groot bestand (445 regels, 23 artikelen + afdelingen). Goede hiërarchische structuur: H1 → ## AFDELING I-VI → ### Art. 1-23 met sub-bis/ter/quater. Wijzigingstoelichting bovenaan elke artikel, lijstmarkers 1°-7° consistent, §-paragraaf-structuur duidelijk. Eerder gesignaleerde minor issues (§ alleen op aparte regel bij artikel-overgangen, footnote-marker (1)/(2) inline) zijn typische wettekst-conventies en geen ETL-artefacten die de leesbaarheid breken. Geen TOC-pollutie, geen running-headers, geen Fisconet-footer. Voor een buitenstaander leest dit als een nette wettekst-compilatie.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:21Z'
+      run_at: '2026-05-13T12:36:29Z'
       rationale: 'Groot bestand (445 regels, 23 artikelen + afdelingen). Goede hiërarchische structuur: H1 → ## AFDELING I-VI → ### Art. 1-23 met sub-bis/ter/quater. Wijzigingstoelichting bovenaan elke artikel, lijstmarkers 1°-7° consistent, §-paragraaf-structuur duidelijk. Eerder gesignaleerde minor issues (§ alleen op aparte regel bij artikel-overgangen, footnote-marker (1)/(2) inline) zijn typische wettekst-conventies en geen ETL-artefacten die de leesbaarheid breken. Geen TOC-pollutie, geen running-headers, geen Fisconet-footer. Voor een buitenstaander leest dit als een nette wettekst-compilatie.'
       concrete_problemen:
         - Sub-strategy frontmatter-veld is leeg (chunk.sub_strategy:) — niet retrieval-blokkerend
@@ -100,11 +100,9 @@ met betrekking tot de regeling voor de voldoening van de belasting over de toege
 5° ten aanzien van de belasting geheven van intracommunautaire verwervingen van goederen, in het bezit zijn van een factuur uitgereikt overeenkomstig de wettelijke bepalingen die van kracht zijn in de lidstaat van waaruit die goederen zijn verzonden of vervoerd, of bij gebreke van een dergelijk factuur, het stuk bedoeld in artikel 9, § 1, van het koninklijk besluit nr. 1 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde en hetzij de verschuldigde belasting opnemen in de aangifte met betrekking tot het tijdvak waarin ze opeisbaar wordt, hetzij in de gevallen bedoeld in de artikelen 1 en 2 van het koninklijk besluit nr. 46 tot regeling van de aangifte van de intracommunautaire verwerving van vervoermiddelen en van de betaling van de ter zake verschuldigde BTW in het bezit zijn van de in artikel 1 van genoemd besluit bedoelde bijzondere aangifte;
 6° ten aanzien van de belasting geheven van een handeling die de belastingplichtige verricht voor de behoeften van zijn economische activiteit en die met een intracommunautaire verwerving wordt gelijkgesteld door artikel 25quater van het Wetboek, in het bezit zijn van het transfertdocument opgesteld overeenkomstig de wettelijke bepalingen die van kracht zijn in de lidstaat van waaruit deze goederen zijn verzonden of vervoerd of bij gebreke ervan, het in artikel 9, § 3, van het koninklijk besluit nr. 1 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde bedoelde stuk en de verschuldigde belasting opnemen in de aangifte met betrekking tot het tijdvak waarin ze opeisbaar wordt;
 
-7° ten aanzien van de belasting geheven van de handelingen waarvoor hij, bij toepassing van artikel 51, § 2, eerste lid, 1°, 2°, 5° en 6° of § 4, of van artikel 55, § 6, van het Wetboek, ertoe gehouden is zelf de opeisbare belasting te voldoen, in het bezit zijn van een factuur uitgereikt overeenkomstig de artikelen 53, § 2 en 53decies, § 2, van het Wetboek of, bij gebreke van een dergelijke factuur, van het bedoelde stuk in artikel 9, § 1, van het koninklijk besluit nr. 1 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde of in artikel 5, § 2, van het koninklijk besluit nr.
-31 van 2 april 2002 met betrekking tot de toepassingsmodaliteiten van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen en de verschuldigde belasting opnemen in de aangifte met betrekking tot het tijdvak waarin ze opeisbaar wordt.
+7° ten aanzien van de belasting geheven van de handelingen waarvoor hij, bij toepassing van artikel 51, § 2, eerste lid, 1°, 2°, 5° en 6° of § 4, of van artikel 55, § 6, van het Wetboek, ertoe gehouden is zelf de opeisbare belasting te voldoen, in het bezit zijn van een factuur uitgereikt overeenkomstig de artikelen 53, § 2 en 53decies, § 2, van het Wetboek of, bij gebreke van een dergelijke factuur, van het bedoelde stuk in artikel 9, § 1, van het koninklijk besluit nr. 1 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde of in artikel 5, § 2, van het koninklijk besluit nr. 31 van 2 april 2002 met betrekking tot de toepassingsmodaliteiten van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen en de verschuldigde belasting opnemen in de aangifte met betrekking tot het tijdvak waarin ze opeisbaar wordt.
 
-§ 2. In afwijking van § 1 kan in de gevallen bedoeld in artikel 13 van het koninklijk besluit nr.
-1 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde, de aftrek worden verricht met inachtneming van de door of vanwege de Minister van Financiën gestelde voorwaarden.
+§ 2. In afwijking van § 1 kan in de gevallen bedoeld in artikel 13 van het koninklijk besluit nr. 1 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde, de aftrek worden verricht met inachtneming van de door of vanwege de Minister van Financiën gestelde voorwaarden.
 
 ### Art. 4
 (De tekst van KB nr. 3, artikel 4 is van toepassing met ingang van 07.07.2003 (Art. 1, KB 16.06.2003, B.S. 27.06.2003))

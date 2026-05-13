@@ -24,21 +24,20 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:32:20Z'
+    status: rejected
+    confirmed_at: '2026-05-13T12:36:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bestand is feitelijk leeg na de header: de body bevat 1 onvolledige zin die mid-woord afbreekt ('22 JUNI 2020. - Koninklijk besluit tot uitvoering van de artikelen 2, derde lid, 2quater en 8, tweede lid, van het'). Layer1 meldt heading_count: 0 en file_size_chars: 207. Het hele bronartefact is corrupt of de extractie heeft gefaald. Geen enkel artikel is geëxtraheerd."
+    rationale: "(source) De bron-PDF heeft een lege body: na de titel staat 1 onvolledige zin die mid-woord afbreekt op 'van het'. file_size≈207 chars, 0 artikel-headings. Geen ETL-verbetering kan dit verhelpen — de KB-PDF op fisconetplus is corrupt of er is een verkeerd bestand opgeslagen. Niet bruikbaar voor RAG."
     layer1:
     layer2:
-      status: needs-rework
+      status: rejected
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:20Z'
-      rationale: "Bestand is feitelijk leeg na de header: de body bevat 1 onvolledige zin die mid-woord afbreekt ('22 JUNI 2020. - Koninklijk besluit tot uitvoering van de artikelen 2, derde lid, 2quater en 8, tweede lid, van het'). Layer1 meldt heading_count: 0 en file_size_chars: 207. Het hele bronartefact is corrupt of de extractie heeft gefaald. Geen enkel artikel is geëxtraheerd."
+      run_at: '2026-05-13T12:36:30Z'
+      rationale: "(source) De bron-PDF heeft een lege body: na de titel staat 1 onvolledige zin die mid-woord afbreekt op 'van het'. file_size≈207 chars, 0 artikel-headings. Geen ETL-verbetering kan dit verhelpen — de KB-PDF op fisconetplus is corrupt of er is een verkeerd bestand opgeslagen. Niet bruikbaar voor RAG."
       concrete_problemen:
-        - 'Bestand heeft 0 ## Art.-headings — heading_count: 0 in layer1'
-        - Body bestaat uit 1 onvolledige zin die mid-woord afbreekt na 'van het'
-        - 'file_size_chars: 207 — alle wetsinhoud ontbreekt'
-        - 'Bron is daarmee onbruikbaar voor RAG: geen content om te indexeren'
+        - (source) PDF-body breekt af na 'van het' — alle artikelinhoud ontbreekt.
+        - 0 artikel-headings, file_size_chars=207.
+        - Geen enkele norm/regel uit het KB e-notariaat is geëxtraheerd.
 ---
 
 # BTW KB 22/06/2020 — E-notariaat

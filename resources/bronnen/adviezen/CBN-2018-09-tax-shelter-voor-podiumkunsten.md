@@ -45,7 +45,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:17Z'
+    confirmed_at: '2026-05-13T12:36:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen ETL-artefacten gevonden. Kort advies (3 headings, heading_count klopt) met correcte structuur, complete voetnoten [^1] t/m [^8], en inhoud volledig (inleiding + verwerking investeerder + verwerking producent). Geen malformed italic, geen TOC-residu, geen gebroken zinnen.
     layer1:
@@ -59,7 +59,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:17Z'
+      run_at: '2026-05-13T12:36:24Z'
       rationale: Geen ETL-artefacten gevonden. Kort advies (3 headings, heading_count klopt) met correcte structuur, complete voetnoten [^1] t/m [^8], en inhoud volledig (inleiding + verwerking investeerder + verwerking producent). Geen malformed italic, geen TOC-residu, geen gebroken zinnen.
       concrete_problemen: []
 ---

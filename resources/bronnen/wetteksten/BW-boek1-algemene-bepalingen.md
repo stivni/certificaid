@@ -24,21 +24,20 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:26:47Z'
+    status: rejected
+    confirmed_at: '2026-05-13T12:36:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D2: het bestand bevat vrijwel geen artikelinhoud — enkel frontmatter + één titellijn + één cursieve subkop (51 regels, 114 chars body). Laag-1 geeft heading_count=0 en file_size_chars=114. De wet 'Burgerlijk Wetboek — Boek 1 — Algemene bepalingen' heeft artikkels (o.a. Art.1 t/m Art.34 in de BW-structuur); de PDF is vermoedelijk niet of leeg geconverteerd. Dit is een extractie-failure, niet een source-fout."
+    rationale: '(source) De bron-PDF bevat enkel de titel — er is geen artikelinhoud om te indexeren. Body = 1 titellijn + 1 cursieve subkop, file ~2 kB. Geen extractie-fout maar source-defect: de PDF is leeg of niet-bruikbaar. Niet bruikbaar voor RAG. Geen ETL-verbetering kan dit oplossen — een nieuwe PDF-bron is nodig.'
     layer1:
     layer2:
-      status: needs-rework
+      status: rejected
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:26:47Z'
-      rationale: "D2: het bestand bevat vrijwel geen artikelinhoud — enkel frontmatter + één titellijn + één cursieve subkop (51 regels, 114 chars body). Laag-1 geeft heading_count=0 en file_size_chars=114. De wet 'Burgerlijk Wetboek — Boek 1 — Algemene bepalingen' heeft artikkels (o.a. Art.1 t/m Art.34 in de BW-structuur); de PDF is vermoedelijk niet of leeg geconverteerd. Dit is een extractie-failure, niet een source-fout."
+      run_at: '2026-05-13T12:36:30Z'
+      rationale: '(source) De bron-PDF bevat enkel de titel — er is geen artikelinhoud om te indexeren. Body = 1 titellijn + 1 cursieve subkop, file ~2 kB. Geen extractie-fout maar source-defect: de PDF is leeg of niet-bruikbaar. Niet bruikbaar voor RAG. Geen ETL-verbetering kan dit oplossen — een nieuwe PDF-bron is nodig.'
       concrete_problemen:
-        - regel: 49
-          categorie: B4
-          type: missing-section
-          voorbeeld: '# Burgerlijk Wetboek — Boek 1 — Algemene bepalingen\n\n*Bijgewerkt...*\n[EOF]'
+        - (source) PDF bevat geen artikelinhoud — body is leeg na header.
+        - 0 artikel-headings, heading_count=0, file_size_chars≈114.
+        - Burgerlijk Wetboek Boek 1 heeft Art. 1 t/m ~Art. 34 die volledig ontbreken.
 ---
 
 # Burgerlijk Wetboek — Boek 1 — Algemene bepalingen

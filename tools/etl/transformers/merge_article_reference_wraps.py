@@ -43,10 +43,23 @@ _SECTION_BREAK_ORDINAL_RE = re.compile(
     r"(§\s*\d+,)\n(\s*\d+°)",
 )
 
+# `lid,\n7°` of `eerste lid,\n7°` → `lid, 7°`
+_LID_BREAK_ORDINAL_RE = re.compile(
+    r"(\blid,)\n(\s*\d+°)",
+)
+
+# `koninklijk besluit nr.\n4,` of `KB nr.\n4,` → ` nr. 4,`
+_NR_BREAK_NUMBER_RE = re.compile(
+    r"((?:koninklijk\s+besluit|KB|MB|wet)\s+nr\.)\n(\s*\d+,?)",
+    re.I,
+)
+
 
 def merge_article_reference_wraps(body: str, frontmatter: dict) -> tuple[str, dict]:
     """Merge pdftotext-linewraps in artikel-/§-verwijzingen."""
     new_body = _ARTIKEL_NUM_BREAK_SECTION_RE.sub(r"\1 \2", body)
     new_body = _ARTIKEL_BREAK_NUM_RE.sub(r"\1 \2", new_body)
     new_body = _SECTION_BREAK_ORDINAL_RE.sub(r"\1 \2", new_body)
+    new_body = _LID_BREAK_ORDINAL_RE.sub(r"\1 \2", new_body)
+    new_body = _NR_BREAK_NUMBER_RE.sub(r"\1 \2", new_body)
     return new_body, frontmatter

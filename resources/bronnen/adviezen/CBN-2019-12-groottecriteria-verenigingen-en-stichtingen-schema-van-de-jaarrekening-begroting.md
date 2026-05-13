@@ -53,7 +53,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:17Z'
+    confirmed_at: '2026-05-13T12:36:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Inhoud volledig en goed gestructureerd. Kleine cosmetische onnauwkeurigheid: de 'Schematische voorstelling'-sectie (regels 250-255) bevat drie plain-text regels die de structuur van de bijlagen weergeven, maar dit is inhoudelijk bedoeld als opsomming, niet als headings. Geen structurele extractie-artefacten."
     layer1:
@@ -67,7 +67,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:17Z'
+      run_at: '2026-05-13T12:36:24Z'
       rationale: "Inhoud volledig en goed gestructureerd. Kleine cosmetische onnauwkeurigheid: de 'Schematische voorstelling'-sectie (regels 250-255) bevat drie plain-text regels die de structuur van de bijlagen weergeven, maar dit is inhoudelijk bedoeld als opsomming, niet als headings. Geen structurele extractie-artefacten."
       concrete_problemen:
         - regel: 251

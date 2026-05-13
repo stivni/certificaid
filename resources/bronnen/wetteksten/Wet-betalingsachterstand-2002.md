@@ -24,33 +24,20 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:27:02Z'
+    status: rejected
+    confirmed_at: '2026-05-13T12:36:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B5: Minstens 9 van de 15 artikelen fuseren heading en eerste zin op één regel (bv. regel 63 '### Art. 1.Deze wet regelt...', regel 88 '### Art. 4.[1 § 1. Indien er...', regel 102 '### Art. 5.[1 [2 Indien de schuldeiser...'). De afkapping tussen heading en body is volledig verloren gegaan — het patroon is stelselmatig. Art. 10, 11, 12 en 15 zijn correct (heading op aparte regel), maar de meerderheid is fout. Verdere inhoud (5 hoofdstukken, 15 artikelen) is compleet."
+    rationale: "(source) De bron-PDF start mid-alinea: regel 62 begint met 'Richtlijn 2004/17/EG en in artikel 1, lid 9, van Richtlijn 2004/18/EG, ongeacht het voorwerp of de waarde van de opdracht;]1 4. \" referentie-interestvoet \"...' — Art. 1 en Art. 2 ontbreken volledig (geen heading, geen body). De wet zelf is grotendeels aanwezig (Art. 3-15, 5 hoofdstukken), maar opening met begripsbepalingen ontbreekt. Daarnaast is B5 (fuseren heading + eerste zin: 'Art. 1.Deze wet regelt...', 'Art. 3. Deze\\nwet...') een tweede ETL-probleem dat niet door deze ETL-iteratie is opgelost. Combinatie source-defect + niet-gefixte parser-bug → niet bruikbaar voor RAG zonder herbouw met andere source."
     layer1:
     layer2:
-      status: needs-rework
+      status: rejected
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:27:02Z'
-      rationale: "B5: Minstens 9 van de 15 artikelen fuseren heading en eerste zin op één regel (bv. regel 63 '### Art. 1.Deze wet regelt...', regel 88 '### Art. 4.[1 § 1. Indien er...', regel 102 '### Art. 5.[1 [2 Indien de schuldeiser...'). De afkapping tussen heading en body is volledig verloren gegaan — het patroon is stelselmatig. Art. 10, 11, 12 en 15 zijn correct (heading op aparte regel), maar de meerderheid is fout. Verdere inhoud (5 hoofdstukken, 15 artikelen) is compleet."
+      run_at: '2026-05-13T12:36:30Z'
+      rationale: "(source) De bron-PDF start mid-alinea: regel 62 begint met 'Richtlijn 2004/17/EG en in artikel 1, lid 9, van Richtlijn 2004/18/EG, ongeacht het voorwerp of de waarde van de opdracht;]1 4. \" referentie-interestvoet \"...' — Art. 1 en Art. 2 ontbreken volledig (geen heading, geen body). De wet zelf is grotendeels aanwezig (Art. 3-15, 5 hoofdstukken), maar opening met begripsbepalingen ontbreekt. Daarnaast is B5 (fuseren heading + eerste zin: 'Art. 1.Deze wet regelt...', 'Art. 3. Deze\\nwet...') een tweede ETL-probleem dat niet door deze ETL-iteratie is opgelost. Combinatie source-defect + niet-gefixte parser-bug → niet bruikbaar voor RAG zonder herbouw met andere source."
       concrete_problemen:
-        - regel: 63
-          categorie: B5
-          type: other
-          voorbeeld: '### Art. 1.Deze wet regelt een aangelegenheid als bedoeld in artikel 78...'
-        - regel: 88
-          categorie: B5
-          type: other
-          voorbeeld: '### Art. 4.[1 § 1. Indien er in de overeenkomst geen datum of termijn...'
-        - regel: 102
-          categorie: B5
-          type: other
-          voorbeeld: '### Art. 5.[1 [2 Indien de schuldeiser zijn contractuele en wettelijke...'
-        - regel: 108
-          categorie: B5
-          type: other
-          voorbeeld: '### Art. 7.Contractuele bedingen die afwijken van de bepalingen...'
+        - (source) Source start mid-alinea op regel 62 — Art. 1, Art. 2 en de aanhef ontbreken volledig.
+        - "B5 niet opgelost: meerdere artikel-headings fuseren met body-tekst op één regel (regel 67 '### Art. 3. Deze\\nwet is van toepassing...', regel 98 '### Art. 7. Contractuele\\nbedingen...', regel 109 '### Art. 8. De\\nvoorzitter...', regel 116 '### Art. 9. De\\nvordering...', regel 147 '### Art. 14. Deze\\nwet...')."
+        - Definitielijst (Art. 2) compleet afwezig, terwijl het de begrippen 'overheidsinstantie', 'handelstransactie', 'onderneming' definieert — kritiek voor retrieval.
 ---
 
 # Wet betalingsachterstand handelstransacties

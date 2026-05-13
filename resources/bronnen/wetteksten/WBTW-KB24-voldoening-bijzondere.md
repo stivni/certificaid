@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 68215a5
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:24:30Z'
+  generated_at: '2026-05-13T12:35:30Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:32:21Z'
+    confirmed_at: '2026-05-13T12:36:29Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: merge_article_reference_wraps heeft niet ingegrepen op de meest opvallende artefacten. Het TOC-blok aan het begin (regels 56-78) met artikel-ranges 'Art. 1 - 8', 'Art. 9 - 13' als plain text blijft staan, gevolgd door duplicate hoofdstuk-/onderafdeling-headings (regels 80-88) — dat is compilatie-bleed. De Franse string 'Disposition temporaire' (regel 70) midden in NL-content is een bilingue-leak die direct opvalt. Spurious linebreaks midden in heading-tekst ('Inning en\nInvordering', regels 62-63; 'Mini One Stop Shop\n- VAT BE', regels 65-66) zijn niet gerepareerd. Inconsistente kapitalisatie 'AFDELING' vs 'Onderafdeling'.
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:21Z'
+      run_at: '2026-05-13T12:36:29Z'
       rationale: merge_article_reference_wraps heeft niet ingegrepen op de meest opvallende artefacten. Het TOC-blok aan het begin (regels 56-78) met artikel-ranges 'Art. 1 - 8', 'Art. 9 - 13' als plain text blijft staan, gevolgd door duplicate hoofdstuk-/onderafdeling-headings (regels 80-88) — dat is compilatie-bleed. De Franse string 'Disposition temporaire' (regel 70) midden in NL-content is een bilingue-leak die direct opvalt. Spurious linebreaks midden in heading-tekst ('Inning en\nInvordering', regels 62-63; 'Mini One Stop Shop\n- VAT BE', regels 65-66) zijn niet gerepareerd. Inconsistente kapitalisatie 'AFDELING' vs 'Onderafdeling'.
       concrete_problemen:
         - "Regel 70: Franse plain-text 'Disposition temporaire Art. 13ter' tussen NL-content — bilingue residu"
@@ -96,8 +96,7 @@ Onder voorbehoud van de toepassing van de artikelen 8, § 1, en 10, 1°/1 van di
 
 3° de fiscale geldboeten en de nalatigheidsinteresten verschuldigd overeenkomstig artikel 91, § 1 van het Wetboek, voor het te laat betalen van de belasting waarvan de opeisbaarheid uit diezelfde aangifte blijkt;
 
-4° het voorschot waarvan de opeisbaarheid blijkt uit artikel 19 van het koninklijk besluit nr.
-1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde.
+4° het voorschot waarvan de opeisbaarheid blijkt uit artikel 19 van het koninklijk besluit nr. 1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde.
 
 #### Art. 2
 (De tekst van KB nr. 24, artikel 2, is van toepassing met ingang van 01.01.1999 (Art.1, KB 12.11.1998))

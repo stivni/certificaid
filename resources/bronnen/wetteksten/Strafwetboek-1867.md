@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:13Z'
+    confirmed_at: '2026-05-13T12:36:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Laag-1 meldt geen flags (status: pass). Body is inhoudelijk volledig: Boek 1 (Art. 1-100ter) en Boek 2 (Art. 101-566) aanwezig, correct als ###### Art. N headings, met wetgevingshistoriek in <W ...>-noten per artikel. Geen kolom-bleed, geen OCR-verwarringen, geen form-feed resten. Wijzigingsnotities zoals <W 2003-01-23/42, art. 89> zijn consistent en opzettelijk onderdeel van de Fisconet-coördinatie. Art. 7bis, 30bis, 34bis, 34quinquies, 37bis, 41bis, 50bis, 100ter en andere lege headings (enkel het Art.-nummer, geen body) zijn conformEen een kenmerk van de wetsbron zelf waar de artikelinhoud volledig opgeheven is — dit is source-eigenaardigheid, geen ETL-bug.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:13Z'
+      run_at: '2026-05-13T12:36:19Z'
       rationale: 'Laag-1 meldt geen flags (status: pass). Body is inhoudelijk volledig: Boek 1 (Art. 1-100ter) en Boek 2 (Art. 101-566) aanwezig, correct als ###### Art. N headings, met wetgevingshistoriek in <W ...>-noten per artikel. Geen kolom-bleed, geen OCR-verwarringen, geen form-feed resten. Wijzigingsnotities zoals <W 2003-01-23/42, art. 89> zijn consistent en opzettelijk onderdeel van de Fisconet-coördinatie. Art. 7bis, 30bis, 34bis, 34quinquies, 37bis, 41bis, 50bis, 100ter en andere lege headings (enkel het Art.-nummer, geen body) zijn conformEen een kenmerk van de wetsbron zelf waar de artikelinhoud volledig opgeheven is — dit is source-eigenaardigheid, geen ETL-bug.'
       concrete_problemen:
         - regel: 103

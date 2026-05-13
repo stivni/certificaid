@@ -39,7 +39,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:16Z'
+    confirmed_at: '2026-05-13T12:36:23Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Advies in vraag-antwoord formaat (parlementaire vraag + Ministerantwoord). Geen headings — correct voor dit formaat. Twee voetnoten aanwezig en gedefineerd. Geen artefacten, geen spurious breaks. Cursivering van 'Antwoord van de Minister van Economische Zaken' op regel 71 correct als aanduiding van het citaat-kader.
     layer1:
@@ -53,7 +53,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:16Z'
+      run_at: '2026-05-13T12:36:23Z'
       rationale: Advies in vraag-antwoord formaat (parlementaire vraag + Ministerantwoord). Geen headings — correct voor dit formaat. Twee voetnoten aanwezig en gedefineerd. Geen artefacten, geen spurious breaks. Cursivering van 'Antwoord van de Minister van Economische Zaken' op regel 71 correct als aanduiding van het citaat-kader.
       concrete_problemen: []
 ---

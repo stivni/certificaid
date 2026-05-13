@@ -43,7 +43,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:10Z'
+    confirmed_at: '2026-05-13T12:36:16Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Volledig schone extractie. Drie headings (H1 titel + H2 voor de twee sub-vragen a/b) zijn wat minimaal maar weerspiegelen de bronstructuur van dit korte advies. Alle vier voetnoten correct als markdown [^n]-definitie onderaan. Geen PDF-artefacten, geen broken tables, geen truncatie.
     layer1:
@@ -57,7 +57,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:10Z'
+      run_at: '2026-05-13T12:36:16Z'
       rationale: Volledig schone extractie. Drie headings (H1 titel + H2 voor de twee sub-vragen a/b) zijn wat minimaal maar weerspiegelen de bronstructuur van dit korte advies. Alle vier voetnoten correct als markdown [^n]-definitie onderaan. Geen PDF-artefacten, geen broken tables, geen truncatie.
       concrete_problemen: []
 ---

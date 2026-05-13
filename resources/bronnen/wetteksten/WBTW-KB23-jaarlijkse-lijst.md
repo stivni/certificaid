@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 68215a5
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:24:30Z'
+  generated_at: '2026-05-13T12:35:30Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:20Z'
+    confirmed_at: '2026-05-13T12:36:28Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Korte KB van 9 artikelen, schone heading-hierarchie ## Art., volledige tekst aanwezig, alle bracketed wijzigings-markers correct gesloten. Bijlage-referentie aan het einde is summier (model van formulier dat in PDF als beeld zit) maar storend is dit niet.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:20Z'
+      run_at: '2026-05-13T12:36:28Z'
       rationale: 'Korte KB van 9 artikelen, schone heading-hierarchie ## Art., volledige tekst aanwezig, alle bracketed wijzigings-markers correct gesloten. Bijlage-referentie aan het einde is summier (model van formulier dat in PDF als beeld zit) maar storend is dit niet.'
       concrete_problemen:
         - "Slotregel 'Bijlage / jaarlijkse lijst van de BTW-belastingplichtige afnemers' is plain text zonder ##-heading — minor"

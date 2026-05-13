@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:20Z'
+    confirmed_at: '2026-05-13T12:36:29Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Schone structuur met twee ## Art.-headings; de parenthetische wijzigingsnoot direct onder Art. 1 is gebruikelijk in officieuze coordinaties en niet artefactueel.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:20Z'
+      run_at: '2026-05-13T12:36:29Z'
       rationale: 'Schone structuur met twee ## Art.-headings; de parenthetische wijzigingsnoot direct onder Art. 1 is gebruikelijk in officieuze coordinaties en niet artefactueel.'
       concrete_problemen: []
 ---

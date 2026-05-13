@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:09Z'
+    confirmed_at: '2026-05-13T12:36:16Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen EUR-Lex markers. Alle 11 artikelen aanwezig en goed gestructureerd. Kleine PDF-koppeltekensplits (bv. 'interca- laire') zijn source-kenmerken. Definities van interest en royalty's, verbonden ondernemingen, en overgangsbepalingen volledig aanwezig.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:09Z'
+      run_at: '2026-05-13T12:36:16Z'
       rationale: Geen EUR-Lex markers. Alle 11 artikelen aanwezig en goed gestructureerd. Kleine PDF-koppeltekensplits (bv. 'interca- laire') zijn source-kenmerken. Definities van interest en royalty's, verbonden ondernemingen, en overgangsbepalingen volledig aanwezig.
       concrete_problemen: []
 ---

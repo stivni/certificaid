@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:32:34Z'
+    confirmed_at: '2026-05-13T12:36:29Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "promote_wettekst_section_labels heeft 'Bijlage 1/2/3' correct gepromoot naar ## headings, maar de bijlagen blijven leeg (regels 71-75). Voor RAG levert dit drie nutteloze section-ankers zonder body op — duidelijk ETL-artefact dat een van-nul-auteur niet zou produceren. Daarnaast: dit MB is sinds 06.07.2020 opgeheven (regel 49 vermeldt het opheffings-KB van 22.06.2020). Geen kerncontent (de modelberichten zelf) — alleen 5 verwijzings-artikelen. ETL-fix nodig: strip_empty_trailing_headings, óf de bijlagen-content uit de PDF herextractieën. Bij twijfel → needs-rework."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:34Z'
+      run_at: '2026-05-13T12:36:29Z'
       rationale: "promote_wettekst_section_labels heeft 'Bijlage 1/2/3' correct gepromoot naar ## headings, maar de bijlagen blijven leeg (regels 71-75). Voor RAG levert dit drie nutteloze section-ankers zonder body op — duidelijk ETL-artefact dat een van-nul-auteur niet zou produceren. Daarnaast: dit MB is sinds 06.07.2020 opgeheven (regel 49 vermeldt het opheffings-KB van 22.06.2020). Geen kerncontent (de modelberichten zelf) — alleen 5 verwijzings-artikelen. ETL-fix nodig: strip_empty_trailing_headings, óf de bijlagen-content uit de PDF herextractieën. Bij twijfel → needs-rework."
       concrete_problemen:
         - "Regels 71, 73, 75: '## Bijlage 1', '## Bijlage 2', '## Bijlage 3' zonder body — lege section-ankers"

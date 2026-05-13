@@ -30,7 +30,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:13Z'
+    confirmed_at: '2026-05-13T12:36:18Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen artefacten gevonden in alle categorieën A–G. Headings correct hiërarchisch (4 niveaus consistent). Journaalboekingen correct in pipe-tabel syntax. 39 voetnoten volledig aanwezig. Afwijkend standpunt correct als eigen sectie opgenomen. Een buitenstaander zou dit voor mens-geschreven houden.
     layer1:
@@ -44,7 +44,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:13Z'
+      run_at: '2026-05-13T12:36:18Z'
       rationale: Geen artefacten gevonden in alle categorieën A–G. Headings correct hiërarchisch (4 niveaus consistent). Journaalboekingen correct in pipe-tabel syntax. 39 voetnoten volledig aanwezig. Afwijkend standpunt correct als eigen sectie opgenomen. Een buitenstaander zou dit voor mens-geschreven houden.
       concrete_problemen: []
 ---

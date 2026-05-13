@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:21Z'
+    confirmed_at: '2026-05-13T12:36:29Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: promote_wettekst_section_labels heeft 'Enig artikel' op regel 48 succesvol gepromoot naar '## Enig artikel' heading. Bestand bevat nu een retrieval-anker voor de centrale bepaling. Hoofdtekst (1 artikel) is volledig en schoon. Geen PDF-extractie-artefacten. Frontmatter klopt.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:21Z'
+      run_at: '2026-05-13T12:36:29Z'
       rationale: promote_wettekst_section_labels heeft 'Enig artikel' op regel 48 succesvol gepromoot naar '## Enig artikel' heading. Bestand bevat nu een retrieval-anker voor de centrale bepaling. Hoofdtekst (1 artikel) is volledig en schoon. Geen PDF-extractie-artefacten. Frontmatter klopt.
       concrete_problemen: []
 ---

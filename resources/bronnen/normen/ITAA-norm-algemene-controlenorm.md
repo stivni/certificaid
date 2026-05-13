@@ -34,7 +34,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:03Z'
+    confirmed_at: '2026-05-13T12:36:08Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen ETL-artefacten. 7 headings correct, inhoud volledig. Opsommingen als plain-text (zonder bullets) zijn conform de bronopmaak van deze beknopte 1991-norm. Geen form-feeds, OCR-fouten of column-bleed.
     layer1:
@@ -48,7 +48,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:03Z'
+      run_at: '2026-05-13T12:36:08Z'
       rationale: Geen ETL-artefacten. 7 headings correct, inhoud volledig. Opsommingen als plain-text (zonder bullets) zijn conform de bronopmaak van deze beknopte 1991-norm. Geen form-feeds, OCR-fouten of column-bleed.
       concrete_problemen: []
 ---

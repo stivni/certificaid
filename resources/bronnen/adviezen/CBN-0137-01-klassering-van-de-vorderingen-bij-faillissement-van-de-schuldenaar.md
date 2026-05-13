@@ -38,7 +38,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:11Z'
+    confirmed_at: '2026-05-13T12:36:17Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Korte proza-tekst (2109 chars, vier paragrafen, heading_count 0). Geen headings nodig voor dit korte advies. Geen artefacten gevonden: geen spurious line-breaks, geen onzichtbare unicode, geen OCR-fouten, geen afgekapte zinnen. Inhoud volledig: vraagstelling, verwijzing artikel 450 Faillissementswet, CBN-conclusie over klassering en aanvullende opmerking over toelichting.'
     layer1:
@@ -52,7 +52,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:11Z'
+      run_at: '2026-05-13T12:36:17Z'
       rationale: 'Korte proza-tekst (2109 chars, vier paragrafen, heading_count 0). Geen headings nodig voor dit korte advies. Geen artefacten gevonden: geen spurious line-breaks, geen onzichtbare unicode, geen OCR-fouten, geen afgekapte zinnen. Inhoud volledig: vraagstelling, verwijzing artikel 450 Faillissementswet, CBN-conclusie over klassering en aanvullende opmerking over toelichting.'
       concrete_problemen: []
 ---

@@ -30,7 +30,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:18Z'
+    confirmed_at: '2026-05-13T12:36:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen ETL-artefacten. Proza correct, italics (*Niet-converteerbare achtergestelde leningen*) correct gesloten. Inhoud volledig: CPC-kenmerken, eigen-vermogensclassificatie en omzettingsregel aanwezig.'
     layer1:
@@ -44,7 +44,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:18Z'
+      run_at: '2026-05-13T12:36:24Z'
       rationale: 'Geen ETL-artefacten. Proza correct, italics (*Niet-converteerbare achtergestelde leningen*) correct gesloten. Inhoud volledig: CPC-kenmerken, eigen-vermogensclassificatie en omzettingsregel aanwezig.'
       concrete_problemen: []
 ---

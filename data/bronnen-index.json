@@ -11,10 +11,10 @@
         "XIX",
         "4.0"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": "default",
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": null,
-      "layer2_status": null
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Almanak-BTW-2026.md",
@@ -129,10 +129,10 @@
         "XI",
         "3.1"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "rejected",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": null,
-      "layer2_status": "needs-rework"
+      "layer2_status": "rejected"
     },
     {
       "bestand": "BW-boek2-relatievermogensrecht.md",
@@ -998,10 +998,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "rejected",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": null,
-      "layer2_status": "needs-rework"
+      "layer2_status": "rejected"
     },
     {
       "bestand": "WBTW-KB23-jaarlijkse-lijst.md",
@@ -1840,10 +1840,10 @@
       "tags": [
         "XIV"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "rejected",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": null,
-      "layer2_status": "needs-rework"
+      "layer2_status": "rejected"
     },
     {
       "bestand": "Wet-verzekeringen-2014.md",

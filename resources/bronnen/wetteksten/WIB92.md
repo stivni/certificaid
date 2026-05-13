@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:04Z'
+    confirmed_at: '2026-05-13T12:36:08Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 warn: 1093 headings, max sectie 68112 chars (chunker auto-split). ###### Art.-headings correct, Fisconet-stijl. Inhoud volledig inclusief tijdelijke bepalingen Art. 552. Geen ETL-artefacten.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:04Z'
+      run_at: '2026-05-13T12:36:08Z'
       rationale: 'L1 warn: 1093 headings, max sectie 68112 chars (chunker auto-split). ###### Art.-headings correct, Fisconet-stijl. Inhoud volledig inclusief tijdelijke bepalingen Art. 552. Geen ETL-artefacten.'
       concrete_problemen: []
 ---

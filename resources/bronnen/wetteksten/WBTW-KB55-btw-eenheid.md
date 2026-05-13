@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 68215a5
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:24:31Z'
+  generated_at: '2026-05-13T12:35:30Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:32:21Z'
+    confirmed_at: '2026-05-13T12:36:30Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Lange, complexe wet (9 art, 14kB) met diepe § §-structuur. Markdown is over het geheel volledig en logisch. Inline-redactionele noot in Art. 6 § 3 ([red.: '...']) is een legitieme editorial mark uit source, geen ETL-artefact. Lijstmarkers 1°-3° en bullet-streepjes consistent. Een paar streepjes (-) in Art. 1 § 1 worden inline gebruikt i.p.v. verticale lijst, maar dat is leesbaar en source-conform."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:32:21Z'
+      run_at: '2026-05-13T12:36:30Z'
       rationale: "Lange, complexe wet (9 art, 14kB) met diepe § §-structuur. Markdown is over het geheel volledig en logisch. Inline-redactionele noot in Art. 6 § 3 ([red.: '...']) is een legitieme editorial mark uit source, geen ETL-artefact. Lijstmarkers 1°-3° en bullet-streepjes consistent. Een paar streepjes (-) in Art. 1 § 1 worden inline gebruikt i.p.v. verticale lijst, maar dat is leesbaar en source-conform."
       concrete_problemen:
         - In Art. 1 § 1 worden bullets '- ... or - ...' inline gehouden i.p.v. als markdown-lijst weergegeven — leesbaar, source-conform
@@ -71,8 +71,7 @@ Als een lid van een BTW-eenheid een rechtstreekse deelneming verwerft van meer d
 Een belastingplichtige bedoeld in artikel 1, § 2, moet lid worden van de BTW-eenheid voor dezelfde periode.
 
 § 2. De vertegenwoordiger van de BTW-eenheid is gehouden krachtens volmacht, in naam en voor rekening van de leden van de BTW-eenheid, een gemotiveerd verzoek in te dienen bij het controlekantoor dat bevoegd is voor de belasting over de toegevoegde waarde waaronder hij ressorteert.
-Dit verzoek is slechts geldig ingediend als het alle elementen bevat en vergezeld gaat van alle stukken die moeten aantonen dat de in artikel 1, § 1 vermelde voorwaarden zijn vervuld. Het verzoek geldt als aangifte van aanvang van werkzaamheid van de BTW-eenheid zoals bedoeld in artikel 53, § 1, eerste lid,
-1°, van het Wetboek. De vertegenwoordiger van de BTW-eenheid kan niettemin, in hetzelfde verzoek, ter zelfder tijd voorstellen om één of meerdere belastingplichtigen zoals bedoeld in artikel 1, § 2, uit de BTW-eenheid uit te sluiten.
+Dit verzoek is slechts geldig ingediend als het alle elementen bevat en vergezeld gaat van alle stukken die moeten aantonen dat de in artikel 1, § 1 vermelde voorwaarden zijn vervuld. Het verzoek geldt als aangifte van aanvang van werkzaamheid van de BTW-eenheid zoals bedoeld in artikel 53, § 1, eerste lid, 1°, van het Wetboek. De vertegenwoordiger van de BTW-eenheid kan niettemin, in hetzelfde verzoek, ter zelfder tijd voorstellen om één of meerdere belastingplichtigen zoals bedoeld in artikel 1, § 2, uit de BTW-eenheid uit te sluiten.
 
 § 3. Wanneer het hoofd van het in § 2 bedoeld controlekantoor vaststelt dat de BTW-eenheid niet of niet geheel voldoet aan de in artikel 1, § 1 bedoelde voorwaarden, of bij verwerping van het in § 2, tweede lid bedoeld verzoek tot uitsluiting, deelt hij zulks mee aan de vertegenwoordiger van de BTW-eenheid binnen de maand na de geldige indiening van het in § 2 bedoeld verzoek middels een schriftelijke en met reden omklede beslissing.
 
