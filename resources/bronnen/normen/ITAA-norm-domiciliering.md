@@ -32,12 +32,32 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A7/B4: het document opent met een ASCII-logo-blok (regels 49-56) — 'ITAA / INSTITUTE FOR TAX / ADVISORS & ACCOUNTANTS' als gestapelde regels in body, gevolgd door 'NORM BETREFFENDE / DE VERENIGBAARHEID VAN / DE ACTIVITEIT VAN DOMICILIËRING' — dit zijn all-caps titellabels als plain text, typisch van een PDF header die niet is opgekuist. Verder: Secties I-IV correct als ## headings. Voetnoten 1-5 in body als inline tekst zonder definitie-blok (r159-161 en r213). Inhoud inhoudelijk volledig."
     layer1:
+      status: pass
+      run_id: 20260513-000913
+      run_at: '2026-05-13T00:09:13Z'
+      heading_count: 4
+      max_section_chars: 6607
+      file_size_chars: 11825
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T00:12:30Z'
+      rationale: "A7/B4: het document opent met een ASCII-logo-blok (regels 49-56) — 'ITAA / INSTITUTE FOR TAX / ADVISORS & ACCOUNTANTS' als gestapelde regels in body, gevolgd door 'NORM BETREFFENDE / DE VERENIGBAARHEID VAN / DE ACTIVITEIT VAN DOMICILIËRING' — dit zijn all-caps titellabels als plain text, typisch van een PDF header die niet is opgekuist. Verder: Secties I-IV correct als ## headings. Voetnoten 1-5 in body als inline tekst zonder definitie-blok (r159-161 en r213). Inhoud inhoudelijk volledig."
+      concrete_problemen:
+        - regel: 49
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "               ITAA\n        INSTITUTE FOR TAX\n     ADVISORS & ACCOUNTANTS (ASCII-logo als plain text)"
+        - regel: 159
+          categorie: D3
+          type: other
+          voorbeeld: 'Hieronder wordt verstaan het deelnemen... (inline voetnoot 2 in body r159-161 zonder [^2]: definitie)'
 ---
                ITAA
         INSTITUTE FOR TAX

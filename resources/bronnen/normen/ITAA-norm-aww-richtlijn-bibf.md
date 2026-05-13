@@ -35,12 +35,32 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Laag-1 pass zonder flags. BIBF-richtlijn (17 secties, 41093 chars): structuur grotendeels intact als ## headings. Inhoudstafel op r133-134 als plain tekst (analoog aan AWW-reglement) — marginaal. Section heading 3 heeft afgekorte weergave '## 3. Algemene risicobeoordeling beroepsbeoefenaar' (r406) — te kort maar de inhoud volgt correct. Bijlagen I-IV volledig. Inhoud compleet en coherent."
     layer1:
+      status: pass
+      run_id: 20260513-000913
+      run_at: '2026-05-13T00:09:13Z'
+      heading_count: 17
+      max_section_chars: 8077
+      file_size_chars: 41093
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T00:12:30Z'
+      rationale: "Laag-1 pass zonder flags. BIBF-richtlijn (17 secties, 41093 chars): structuur grotendeels intact als ## headings. Inhoudstafel op r133-134 als plain tekst (analoog aan AWW-reglement) — marginaal. Section heading 3 heeft afgekorte weergave '## 3. Algemene risicobeoordeling beroepsbeoefenaar' (r406) — te kort maar de inhoud volgt correct. Bijlagen I-IV volledig. Inhoud compleet en coherent."
+      concrete_problemen:
+        - regel: 133
+          categorie: A2
+          type: other
+          voorbeeld: 'Inhoud (TOC plain tekst, r133-134) zonder ## — marginaal'
+        - regel: 406
+          categorie: B1
+          type: other
+          voorbeeld: '## 3. Algemene    risicobeoordeling beroepsbeoefenaar (woordspatie + afgekapte titel tov AWW-reglement)'
 ---
 Richtlijn van het Beroepsinstituut van erkende Boekhouders en Fiscalisten
  van 31 maart 2020 inzake de toepassing van de wet van 18 september

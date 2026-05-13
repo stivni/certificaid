@@ -32,12 +32,36 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4: 16 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als standalone heading — identiek patroon als effectennorm/omzetting/ontbinding (twee-kolom kolomkop als heading). A6: preamble (r49-100) met afgebroken zinnen. TOC-fragment op r119-131 als plain text (gedeeltelijk). Structuur van de genummerde secties (I-VI + bijlagen) verder aanwezig."
     layer1:
+      status: pass
+      run_id: 20260513-000913
+      run_at: '2026-05-13T00:09:13Z'
+      heading_count: 43
+      max_section_chars: 5513
+      file_size_chars: 46222
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T00:12:30Z'
+      rationale: "B4: 16 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als standalone heading — identiek patroon als effectennorm/omzetting/ontbinding (twee-kolom kolomkop als heading). A6: preamble (r49-100) met afgebroken zinnen. TOC-fragment op r119-131 als plain text (gedeeltelijk). Structuur van de genummerde secties (I-VI + bijlagen) verder aanwezig."
+      concrete_problemen:
+        - regel: 49
+          categorie: B4
+          type: other
+          voorbeeld: '## Norm inzake de Samenstellingsopdrachten (heading start OK) maar preamble r51-100 bevat afgebroken zinnen'
+        - regel: 134
+          categorie: B4
+          type: other
+          voorbeeld: '## VEREISTEN TOEPASSINGSMODALITEITEN (kolomkop als heading, 16x herhaald)'
+        - regel: 51
+          categorie: A6
+          type: other
+          voorbeeld: in het bijzonder de artikelen 3, 5, 6, 62 en 72. (afgekapte preamble-zin)
 ---
 ## Norm inzake de Samenstellingsopdrachten
 

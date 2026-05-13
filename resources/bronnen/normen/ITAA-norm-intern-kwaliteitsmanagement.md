@@ -31,12 +31,36 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A6/B5: de preamble (r50-99) bevat fragmentarische tekst met afgebroken zinnen door kolom-extractie (bv. 'belastingadviseur, en in het bijzonder de artikelen 3, 5, 6, 62 en 72 voor wat het' op r50 eindigt mid-zin). B4: 'CABINET' als all-caps label op r141 zonder ## prefix. B4: 'KANTOORNIVEAU' op r148 als standalone label. A6: r57 eindigt mid-zin 'cliëntenbestand en evenredig met de complexiteit van de opdrachten die hij uitvoert.' — zin begint elders. Secties als ## headings aanwezig maar de preamble is substantieel aangetast."
     layer1:
+      status: pass
+      run_id: 20260513-000913
+      run_at: '2026-05-13T00:09:13Z'
+      heading_count: 8
+      max_section_chars: 3781
+      file_size_chars: 13164
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T00:12:30Z'
+      rationale: "A6/B5: de preamble (r50-99) bevat fragmentarische tekst met afgebroken zinnen door kolom-extractie (bv. 'belastingadviseur, en in het bijzonder de artikelen 3, 5, 6, 62 en 72 voor wat het' op r50 eindigt mid-zin). B4: 'CABINET' als all-caps label op r141 zonder ## prefix. B4: 'KANTOORNIVEAU' op r148 als standalone label. A6: r57 eindigt mid-zin 'cliëntenbestand en evenredig met de complexiteit van de opdrachten die hij uitvoert.' — zin begint elders. Secties als ## headings aanwezig maar de preamble is substantieel aangetast."
+      concrete_problemen:
+        - regel: 50
+          categorie: A6
+          type: other
+          voorbeeld: belastingadviseur, en in het bijzonder de artikelen 3, 5, 6, 62 en 72 voor wat het (zin afgekapt mid-phrase)
+        - regel: 141
+          categorie: B4
+          type: other
+          voorbeeld: 'CABINET (all-caps label na ## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP)'
+        - regel: 148
+          categorie: B4
+          type: other
+          voorbeeld: KANTOORNIVEAU (standalone label als continuation van heading op r139-141)
 ---
 ## NORM ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT
 

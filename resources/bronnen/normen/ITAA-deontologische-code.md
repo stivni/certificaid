@@ -40,8 +40,8 @@ provenance:
     rationale: 'Expliciete placeholder: het bestand bevat bewust geen inhoud en waarschuwt dat het NIET mag worden gevuld met een zelf-geconstrueerde samenvatting. Body bestaat uit instructies voor het ophalen van het echte document. Niet geschikt voor RAG totdat de echte norm beschikbaar is. Status was reeds rejected in eerdere L2-run (subagent-sonnet-4-6 2026-05-11) — conform die beoordeling.'
     layer1:
       status: warn
-      run_id: 20260512-235514
-      run_at: '2026-05-12T23:55:14Z'
+      run_id: 20260513-000913
+      run_at: '2026-05-13T00:09:13Z'
       heading_count: 3
       max_section_chars: 395
       file_size_chars: 1149

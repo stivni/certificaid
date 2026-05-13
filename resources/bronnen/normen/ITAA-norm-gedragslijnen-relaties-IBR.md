@@ -31,12 +31,28 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Laag-1 pass zonder flags. Korte norm (2 headings, 7539 chars): 'Overwegende' en 'Definities' als ## headings, gevolgd door 6 principes als plain-text subsecties (Eerste principe, Tweede principe, ...). Dit is consistent met de bron-opmaak — de 6 principes zijn geen aparte headings maar running text. Inhoud volledig (6 principes aanwezig). Geen extractie-artefacten."
     layer1:
+      status: pass
+      run_id: 20260513-000913
+      run_at: '2026-05-13T00:09:13Z'
+      heading_count: 2
+      max_section_chars: 5041
+      file_size_chars: 7539
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T00:12:30Z'
+      rationale: "Laag-1 pass zonder flags. Korte norm (2 headings, 7539 chars): 'Overwegende' en 'Definities' als ## headings, gevolgd door 6 principes als plain-text subsecties (Eerste principe, Tweede principe, ...). Dit is consistent met de bron-opmaak — de 6 principes zijn geen aparte headings maar running text. Inhoud volledig (6 principes aanwezig). Geen extractie-artefacten."
+      concrete_problemen:
+        - regel: 120
+          categorie: B4
+          type: other
+          voorbeeld: 'Eerste principe - Aanvaarding van een controleopdracht (als plain text sectielabel, niet ## heading — marginaal)'
 ---
 GEDRAGSLIJNEN INZAKE DE BEROEPSRELATlES TUSSEN DE LEDEN VAN
 HET IBR, HET IAB EN HET BIBF

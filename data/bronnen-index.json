@@ -2115,10 +2115,10 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "ITAA-norm-aww-richtlijn-bibf.md",
@@ -2130,10 +2130,10 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "ITAA-norm-domiciliering.md",
@@ -2190,10 +2190,10 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "ITAA-norm-intern-kwaliteitsmanagement.md",
@@ -2280,10 +2280,10 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "ITAA-norm-samenstellingsopdrachten-isrs4410.md",

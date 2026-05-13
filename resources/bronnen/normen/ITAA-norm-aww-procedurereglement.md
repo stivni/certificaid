@@ -32,12 +32,28 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Laag-1 pass zonder flags. Procedurereglement (10 artikelen, 12748 chars): artikelen correct als ## Artikel N headings. Preamble en overweging als plain text voor het eerste artikel — conform de juridische opmaak van de bron. Inhoud volledig (art. 1-9 + definitie). Geen extractie-artefacten zichtbaar; voetnoten 1-2 in body correct gelinkt.'
     layer1:
+      status: pass
+      run_id: 20260513-000913
+      run_at: '2026-05-13T00:09:13Z'
+      heading_count: 10
+      max_section_chars: 3778
+      file_size_chars: 12748
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T00:12:30Z'
+      rationale: 'Laag-1 pass zonder flags. Procedurereglement (10 artikelen, 12748 chars): artikelen correct als ## Artikel N headings. Preamble en overweging als plain text voor het eerste artikel — conform de juridische opmaak van de bron. Inhoud volledig (art. 1-9 + definitie). Geen extractie-artefacten zichtbaar; voetnoten 1-2 in body correct gelinkt.'
+      concrete_problemen:
+        - regel: 113
+          categorie: B4
+          type: other
+          voorbeeld: 'Definities (als plain-text sectielabel voor ## Artikel 1, maar inhoud volgt direct — marginaal)'
 ---
   Procedurereglement voor het opleggen van maatregelen
 in het kader van artikel 118, §1 van de antiwitwaswet

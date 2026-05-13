@@ -41,12 +41,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Laag-1 pass zonder flags. Inhoud volledig: 13 vragen + antwoorden, uitgebreide voetnotenapparaat, alle deelthema's aanwezig. Heading-structuur: ### (genummerd) voor de 13 thema's, ####/##### voor sub-secties — logisch en consistent. Geen A/B/C-artefacten; voetnoten correct als [1]...[67] in body met volledige definitie onderaan. Leest als mens-geschreven."
     layer1:
+      status: pass
+      run_id: 20260513-000913
+      run_at: '2026-05-13T00:09:13Z'
+      heading_count: 24
+      max_section_chars: 23480
+      file_size_chars: 39047
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T00:12:30Z'
+      rationale: "Laag-1 pass zonder flags. Inhoud volledig: 13 vragen + antwoorden, uitgebreide voetnotenapparaat, alle deelthema's aanwezig. Heading-structuur: ### (genummerd) voor de 13 thema's, ####/##### voor sub-secties — logisch en consistent. Geen A/B/C-artefacten; voetnoten correct als [1]...[67] in body met volledige definitie onderaan. Leest als mens-geschreven."
+      concrete_problemen: []
 ---
 # Het beroepsgeheim van de accountant en de belastingadviseur
 

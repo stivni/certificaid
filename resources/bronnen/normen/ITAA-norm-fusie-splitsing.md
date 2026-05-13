@@ -33,8 +33,8 @@ provenance:
     rationale: 'Identieke beoordeling als vorige L2-run (2026-05-11, subagent-sonnet-4-6): Laag-1 pass zonder flags. Inhoud volledig en logisch gestructureerd met 4 hoofdsecties (Overwegingen, Toepassingsgebied, Controlewerkzaamheden, Inhoud verslag) als ## headings. Markdown-tabel in Bijlage valide pipe-syntax. File werd NIET herconverteerd door b4eac1f (nog altijd pipeline c2f5cc2) — beoordeling blijft geldig.'
     layer1:
       status: pass
-      run_id: 20260512-235514
-      run_at: '2026-05-12T23:55:14Z'
+      run_id: 20260513-000913
+      run_at: '2026-05-13T00:09:13Z'
       heading_count: 19
       max_section_chars: 6809
       file_size_chars: 54266

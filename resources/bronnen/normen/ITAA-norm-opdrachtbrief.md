@@ -32,12 +32,32 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4/A7: het document opent (r49-53) met een TOC-fragment als plain text ('Inhoud / 2) Specifieke regels bij de uitvoering van de opdrachten die voorbehouden zijn aan gecertificeerde') — dit is een afgebroken TOC-item in de body. A7: op r293-302 staan pseudo-diagram-blokken voor de opdrachtbrief-ondertekening (RECHTSPERSOON-BEROEPSBEOEFENAAR / Vertegenwoordiger / VERTEGENWOORDIG / ER - NATUURLIJKE / PERSOON) — PDF-diagram weergegeven als scrambled text. Secties als ## headings aanwezig. Voetnoten inline (geen definitie-blok)."
     layer1:
+      status: pass
+      run_id: 20260513-000913
+      run_at: '2026-05-13T00:09:13Z'
+      heading_count: 20
+      max_section_chars: 5195
+      file_size_chars: 24032
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T00:12:30Z'
+      rationale: "B4/A7: het document opent (r49-53) met een TOC-fragment als plain text ('Inhoud / 2) Specifieke regels bij de uitvoering van de opdrachten die voorbehouden zijn aan gecertificeerde') — dit is een afgebroken TOC-item in de body. A7: op r293-302 staan pseudo-diagram-blokken voor de opdrachtbrief-ondertekening (RECHTSPERSOON-BEROEPSBEOEFENAAR / Vertegenwoordiger / VERTEGENWOORDIG / ER - NATUURLIJKE / PERSOON) — PDF-diagram weergegeven als scrambled text. Secties als ## headings aanwezig. Voetnoten inline (geen definitie-blok)."
+      concrete_problemen:
+        - regel: 49
+          categorie: A2
+          type: other
+          voorbeeld: "Inhoud\n        2) Specifieke regels bij de uitvoering... (TOC-fragment in body)"
+        - regel: 293
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "   RECHTSPERSOON\n-BEROEPSBEOEFENAAR\n  Vertegenwoordiger\n\nVERTEGENWOORDIG                                       OPDRACHT-\n ER - NATUURLIJKE ... (PDF-diagram)"
 ---
 ## OPDRACHTBRIEF
 

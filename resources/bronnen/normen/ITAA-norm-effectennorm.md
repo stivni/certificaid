@@ -33,12 +33,36 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4: 10 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als standalone heading (r134, r148, r201, r264, etc.) — dit is een artefact van de twee-kolom lay-out van de bron waarbij 'VEREISTEN' en 'TOEPASSINGSMODALITEITEN' de twee kolomkoppen zijn die als heading zijn geëxtraheerd. Ook bevat de inhoudstafel (r119-131) dotted-leader resten. A6: meerdere afgebroken zinnen in de preamble (r54-117) door kolom-extractie. Heading-hiërarchie verder intact voor de genummerde secties."
     layer1:
+      status: pass
+      run_id: 20260513-000913
+      run_at: '2026-05-13T00:09:13Z'
+      heading_count: 64
+      max_section_chars: 5808
+      file_size_chars: 69299
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T00:12:30Z'
+      rationale: "B4: 10 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als standalone heading (r134, r148, r201, r264, etc.) — dit is een artefact van de twee-kolom lay-out van de bron waarbij 'VEREISTEN' en 'TOEPASSINGSMODALITEITEN' de twee kolomkoppen zijn die als heading zijn geëxtraheerd. Ook bevat de inhoudstafel (r119-131) dotted-leader resten. A6: meerdere afgebroken zinnen in de preamble (r54-117) door kolom-extractie. Heading-hiërarchie verder intact voor de genummerde secties."
+      concrete_problemen:
+        - regel: 134
+          categorie: B4
+          type: other
+          voorbeeld: '## VEREISTEN TOEPASSINGSMODALITEITEN (kolomkop geëxtraheerd als heading, 10x herhaald)'
+        - regel: 54
+          categorie: A6
+          type: other
+          voorbeeld: BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien artikel 31... (afgekapte aanhef preamble)
+        - regel: 119
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: Bijlage 3 – Voorbeeld van opdrachtbrief te verkrijgen door de bedrijfsrevisor/commissaris  41
 ---
 Norm inzake de opdracht van de beroepsbeoefenaar in het kader van de beoordeling van het getrouw en voldoende zijn van de financiële en boekhoudkundige gegevens opgenomen in het verslag van het
 

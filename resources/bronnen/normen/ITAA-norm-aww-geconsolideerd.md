@@ -35,12 +35,36 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "A2: inhoudstafel met dotted-leader TOC (regels 70-124) staat in de body met paginanummers en dashes als dotted leaders (bv. 'DEFINITIES --------- 4'). A7/B4: sectie 4 heeft geen ## heading maar alleen een nummerlabel '4.' (r88) gevolgd door de titel 'CLIENTACCEPTATIEBELEID' als ALL-CAPS plain text (r90) in de TOC — section 4-body begint abrupt op r236 zonder heading. Structuur van secties 1-3 intact als ## headings maar sectie 4-5 body mist heading. Inhoud verder substantieel aanwezig."
     layer1:
+      status: pass
+      run_id: 20260513-000913
+      run_at: '2026-05-13T00:09:13Z'
+      heading_count: 6
+      max_section_chars: 11376
+      file_size_chars: 25083
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T00:12:30Z'
+      rationale: "A2: inhoudstafel met dotted-leader TOC (regels 70-124) staat in de body met paginanummers en dashes als dotted leaders (bv. 'DEFINITIES --------- 4'). A7/B4: sectie 4 heeft geen ## heading maar alleen een nummerlabel '4.' (r88) gevolgd door de titel 'CLIENTACCEPTATIEBELEID' als ALL-CAPS plain text (r90) in de TOC — section 4-body begint abrupt op r236 zonder heading. Structuur van secties 1-3 intact als ## headings maar sectie 4-5 body mist heading. Inhoud verder substantieel aanwezig."
+      concrete_problemen:
+        - regel: 70
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: DEFINITIES ------------------------------------------------------------------------------------------------------------------------------------ 4
+        - regel: 88
+          categorie: B4
+          type: other
+          voorbeeld: "4.\n\nCLIENTACCEPTATIEBELEID ---- 8 (all-caps plain text i.p.v. ## heading)"
+        - regel: 236
+          categorie: B5
+          type: other
+          voorbeeld: 4.2. (artikel-nummer in body zonder heading prefix)
 ---
 Geconsolideerde tekst door het Instituut van de Belastingadviseurs en de Accountants (ITAA) van de norm van het IAB en de richtlijn van het BIBF inzake de toepassing van de wet van 18 september 2017 tot
 

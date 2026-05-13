@@ -34,12 +34,40 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Laag-1 warn (max_section_size 43682 > 24000). Inhoudstafel (r83-160) aanwezig als ## headings maar leidt tot duplicaat-structuur met het document zelf (TOC-headings + body-headings). Drie # headings (r55, r57, r83, r162, r209) i.p.v. ## — hiërarchie # → ## → ### is inconsistent (B2) met de rest. De warn op max_section_size is reëel: een sectie van 43682 chars overschrijdt de RAG-grens significant. Inhoud inhoudelijk volledig.'
     layer1:
+      status: warn
+      run_id: 20260513-000913
+      run_at: '2026-05-13T00:09:13Z'
+      heading_count: 74
+      max_section_chars: 43682
+      file_size_chars: 145910
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 43682 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T00:12:30Z'
+      rationale: 'Laag-1 warn (max_section_size 43682 > 24000). Inhoudstafel (r83-160) aanwezig als ## headings maar leidt tot duplicaat-structuur met het document zelf (TOC-headings + body-headings). Drie # headings (r55, r57, r83, r162, r209) i.p.v. ## — hiërarchie # → ## → ### is inconsistent (B2) met de rest. De warn op max_section_size is reëel: een sectie van 43682 chars overschrijdt de RAG-grens significant. Inhoud inhoudelijk volledig.'
+      concrete_problemen:
+        - regel: 83
+          categorie: B3
+          type: other
+          voorbeeld: '# INHOUDSTAFEL (als # heading gevolgd door ## inhoud — duplicaat heading-boom)'
+        - regel: 55
+          categorie: B2
+          type: other
+          voorbeeld: '# KMO controle norm (tweede # H1 naast bestandsname heading)'
+        - regel: 44
+          categorie: B4
+          type: other
+          voorbeeld: 'layer1.max_section_chars: 43682 > 24000 — mega-sectie overschrijdt RAG-grens'
 ---
 # KMO controle norm
 

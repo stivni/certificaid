@@ -34,12 +34,36 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4: 16 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als standalone heading — zelfde twee-kolom extractie-artefact als effectennorm en omzetting-vennootschap. A6: preamble afgebroken zinnen (r57-63). Heading '## Norm inzake de opdracht van de beroepsbeoefenaar bij de ontbinding en' (r53) eindigt mid-zin met de vervolgtitel 'vereffening van vennootschappen' op r55 als plain text — gesplitste heading. Structuur van de genummerde secties verder aanwezig."
     layer1:
+      status: pass
+      run_id: 20260513-000913
+      run_at: '2026-05-13T00:09:13Z'
+      heading_count: 62
+      max_section_chars: 5416
+      file_size_chars: 62953
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T00:12:30Z'
+      rationale: "B4: 16 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als standalone heading — zelfde twee-kolom extractie-artefact als effectennorm en omzetting-vennootschap. A6: preamble afgebroken zinnen (r57-63). Heading '## Norm inzake de opdracht van de beroepsbeoefenaar bij de ontbinding en' (r53) eindigt mid-zin met de vervolgtitel 'vereffening van vennootschappen' op r55 als plain text — gesplitste heading. Structuur van de genummerde secties verder aanwezig."
+      concrete_problemen:
+        - regel: 139
+          categorie: B4
+          type: other
+          voorbeeld: '## VEREISTEN TOEPASSINGSMODALITEITEN (kolomkop als heading, 16x herhaald)'
+        - regel: 53
+          categorie: B1
+          type: other
+          voorbeeld: '## Norm inzake de opdracht van de beroepsbeoefenaar bij de ontbinding en (heading eindigt mid-zin)'
+        - regel: 57
+          categorie: A6
+          type: other
+          voorbeeld: BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien artikel 31... (afgekapte aanhef preamble)
 ---
 Ontwerp
 

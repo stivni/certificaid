@@ -34,12 +34,28 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Laag-1 pass zonder flags. Norm permanente vorming (15 artikelen + 2 bijlagen, 29729 chars): artikelen correct als ## headings. Inhoud volledig — definities, rechtsgrond, uren (Art. 3-7), verslag (Art. 8-9), begeleiding (Art. 10), sanctie (Art. 11-13), overgang (Art. 14-15), bijlagen 1-2. Herhaald 'goedgekeurd door de raad van 1 december 2020' als plain text (r55, r114, r173, etc.) — dit is een bron-artefact van de PDF maar het is consistent en storend niet voor RAG."
     layer1:
+      status: pass
+      run_id: 20260513-000913
+      run_at: '2026-05-13T00:09:13Z'
+      heading_count: 15
+      max_section_chars: 11346
+      file_size_chars: 29729
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T00:12:30Z'
+      rationale: "Laag-1 pass zonder flags. Norm permanente vorming (15 artikelen + 2 bijlagen, 29729 chars): artikelen correct als ## headings. Inhoud volledig — definities, rechtsgrond, uren (Art. 3-7), verslag (Art. 8-9), begeleiding (Art. 10), sanctie (Art. 11-13), overgang (Art. 14-15), bijlagen 1-2. Herhaald 'goedgekeurd door de raad van 1 december 2020' als plain text (r55, r114, r173, etc.) — dit is een bron-artefact van de PDF maar het is consistent en storend niet voor RAG."
+      concrete_problemen:
+        - regel: 55
+          categorie: A1
+          type: other
+          voorbeeld: goedgekeurd door de raad van 1 december 2020. (herhaald als footer-artefact op 8 plaatsen)
 ---
       Norm met betrekking tot
       de permanente vorming goedgekeurd door de Raad van 1 december 2020.

@@ -32,12 +32,36 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "B4: 10 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als standalone heading — identiek patroon als effectennorm (twee-kolom lay-out kolomkop geëxtraheerd als heading). A6: preamble (r53-120) bevat afgebroken zinnen door kolom-extractie. Heading 'Ontwerp' op r49 als plain text zonder ##. Heading '## II. Algemene bepalingen II.1. Deontologische beginselen VEREISTEN TOEPASSINGSMODALITEITEN' (r273) — meerdere labels samengeperst in één heading. Bijlagen aanwezig."
     layer1:
+      status: pass
+      run_id: 20260513-000913
+      run_at: '2026-05-13T00:09:13Z'
+      heading_count: 58
+      max_section_chars: 7165
+      file_size_chars: 91313
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T00:12:30Z'
+      rationale: "B4: 10 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als standalone heading — identiek patroon als effectennorm (twee-kolom lay-out kolomkop geëxtraheerd als heading). A6: preamble (r53-120) bevat afgebroken zinnen door kolom-extractie. Heading 'Ontwerp' op r49 als plain text zonder ##. Heading '## II. Algemene bepalingen II.1. Deontologische beginselen VEREISTEN TOEPASSINGSMODALITEITEN' (r273) — meerdere labels samengeperst in één heading. Bijlagen aanwezig."
+      concrete_problemen:
+        - regel: 155
+          categorie: B4
+          type: other
+          voorbeeld: '## VEREISTEN TOEPASSINGSMODALITEITEN (kolomkop als heading, 10x herhaald)'
+        - regel: 49
+          categorie: B4
+          type: other
+          voorbeeld: 'Ontwerp (plain text prefix zonder ## voor de norm-titel)'
+        - regel: 53
+          categorie: A6
+          type: other
+          voorbeeld: BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien artikel 31... (afgekapte aanhef)
 ---
 Ontwerp
 

@@ -30,8 +30,8 @@ provenance:
     rationale: "B4/B5: 794 plain-text subkopjes ('Introduction', 'Requirements and Application Material', 'SUBSECTION 111 – INTEGRITY', 'General', ...) die als heading hadden moeten worden ge-extraheerd. A6: 5923 spurious line-breaks in body (PDF-kolom per visuele regel afgekapt). normalize_bullet_glyphs heeft de meeste • bullets (nu ~28 resterende) gedeeltelijk aangepakt, maar structuurproblemen B4/A6 zijn te groot voor vertrouwen. Layer1 meldt fail (max_section_chars 86168)."
     layer1:
       status: fail
-      run_id: 20260512-235514
-      run_at: '2026-05-12T23:55:14Z'
+      run_id: 20260513-000913
+      run_at: '2026-05-13T00:09:13Z'
       heading_count: 42
       max_section_chars: 86168
       file_size_chars: 637277

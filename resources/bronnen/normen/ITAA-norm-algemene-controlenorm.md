@@ -33,12 +33,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Laag-1 pass zonder flags. Kleine norm (7 secties, 7565 chars): structuur compleet als ## headings (1 Inleiding t/m 7 Commissie van Toezicht). Geen extractie-artefacten. Opsommingen correct als plain text per Belgische norm-stijl. Inhoud intact en coherent.'
     layer1:
+      status: pass
+      run_id: 20260513-000913
+      run_at: '2026-05-13T00:09:13Z'
+      heading_count: 7
+      max_section_chars: 1978
+      file_size_chars: 7565
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T00:12:30Z'
+      rationale: 'Laag-1 pass zonder flags. Kleine norm (7 secties, 7565 chars): structuur compleet als ## headings (1 Inleiding t/m 7 Commissie van Toezicht). Geen extractie-artefacten. Opsommingen correct als plain text per Belgische norm-stijl. Inhoud intact en coherent.'
+      concrete_problemen: []
 ---
 # Algemene controlenorm (Besl. Raad d.d. 30 september 1991)
 
