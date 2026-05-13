@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:25Z'
+    confirmed_at: '2026-05-13T13:19:29Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: MB met 5 artikelen (incl. 3bis). Schone heading-hierarchie, amendment-markers consistent. Opheffings-melding (regel 51) over MB 22.06.2020 is integraal en logisch geplaatst. Geen TOC- of footer-pollutie. Buitenstaander zou dit als handgeschreven markdown lezen.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:25Z'
+      run_at: '2026-05-13T13:19:29Z'
       rationale: MB met 5 artikelen (incl. 3bis). Schone heading-hierarchie, amendment-markers consistent. Opheffings-melding (regel 51) over MB 22.06.2020 is integraal en logisch geplaatst. Geen TOC- of footer-pollutie. Buitenstaander zou dit als handgeschreven markdown lezen.
       concrete_problemen: []
 ---

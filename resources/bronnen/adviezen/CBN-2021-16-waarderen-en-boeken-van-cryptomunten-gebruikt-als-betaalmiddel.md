@@ -37,7 +37,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:23Z'
+    confirmed_at: '2026-05-13T13:19:27Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Geen extractie-artefacten. De italic-hits uit de analyse zijn false positives: '*blockchain*', '*Liquide middelen*', '*Overige vorderingen*' zijn correcte markdown-italics zonder spaties. Twee headings correct, inhoud volledig, alle vier voetnootdefinities aanwezig. Compact maar compleet advies."
     layer1:
@@ -51,7 +51,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:23Z'
+      run_at: '2026-05-13T13:19:27Z'
       rationale: "Geen extractie-artefacten. De italic-hits uit de analyse zijn false positives: '*blockchain*', '*Liquide middelen*', '*Overige vorderingen*' zijn correcte markdown-italics zonder spaties. Twee headings correct, inhoud volledig, alle vier voetnootdefinities aanwezig. Compact maar compleet advies."
       concrete_problemen: []
 ---

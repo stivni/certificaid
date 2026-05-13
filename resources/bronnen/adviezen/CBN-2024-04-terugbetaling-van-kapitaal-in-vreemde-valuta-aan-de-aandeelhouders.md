@@ -45,7 +45,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:21Z'
+    confirmed_at: '2026-05-13T13:19:26Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig. Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen TOC-residu, geen malformed bold/italic.'
     layer1:
@@ -59,7 +59,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:21Z'
+      run_at: '2026-05-13T13:19:26Z'
       rationale: 'Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig. Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen TOC-residu, geen malformed bold/italic.'
       concrete_problemen: []
 ---

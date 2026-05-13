@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:24Z'
+    confirmed_at: '2026-05-13T13:19:28Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Schone wettekst: 7 Art.-headings consistent, body intact, genummerde lijsten 1°/2°/... correct. Eén spurious linebreak (regel 74-75 'artikel 9,\\n§ 2,') maar minor en in wettelijke referentie. Acceptable."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:24Z'
+      run_at: '2026-05-13T13:19:28Z'
       rationale: "Schone wettekst: 7 Art.-headings consistent, body intact, genummerde lijsten 1°/2°/... correct. Eén spurious linebreak (regel 74-75 'artikel 9,\\n§ 2,') maar minor en in wettelijke referentie. Acceptable."
       concrete_problemen:
         - regel: 74

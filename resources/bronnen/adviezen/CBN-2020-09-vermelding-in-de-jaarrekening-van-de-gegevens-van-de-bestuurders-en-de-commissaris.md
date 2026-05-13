@@ -45,7 +45,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:23Z'
+    confirmed_at: '2026-05-13T13:19:27Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen extractie-artefacten of structuurproblemen aangetroffen. Heading-hiërarchie (H1 → H2 → H3 → H4 → H5) correct en consistent. Vier concrete voorbeelden aanwezig. Sectie voor VZW's/IVZW's/stichtingen volledig. Geen TOC-resten, geen OCR-verwarring, geen pseudo-tabellen, geen afgekapte zinnen. Voetnoten 1-22 intact.
     layer1:
@@ -59,7 +59,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:23Z'
+      run_at: '2026-05-13T13:19:27Z'
       rationale: Geen extractie-artefacten of structuurproblemen aangetroffen. Heading-hiërarchie (H1 → H2 → H3 → H4 → H5) correct en consistent. Vier concrete voorbeelden aanwezig. Sectie voor VZW's/IVZW's/stichtingen volledig. Geen TOC-resten, geen OCR-verwarring, geen pseudo-tabellen, geen afgekapte zinnen. Voetnoten 1-22 intact.
       concrete_problemen: []
 ---

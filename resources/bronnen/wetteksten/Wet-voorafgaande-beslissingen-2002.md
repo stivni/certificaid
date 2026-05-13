@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:12Z'
+    confirmed_at: '2026-05-13T13:19:15Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen Fisconet-artefacten. 43 artikelheadings. De standalone '#### Art. 7', '#### Art. 14', '#### Art. 31' headings in de slotbepalingen (r262-281) zijn overgangsbepalingen waar de artikelnummers als verwijzingen dienen — dit is source-opmaak van de wet. Inhoud volledig.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:12Z'
+      run_at: '2026-05-13T13:19:15Z'
       rationale: Geen Fisconet-artefacten. 43 artikelheadings. De standalone '#### Art. 7', '#### Art. 14', '#### Art. 31' headings in de slotbepalingen (r262-281) zijn overgangsbepalingen waar de artikelnummers als verwijzingen dienen — dit is source-opmaak van de wet. Inhoud volledig.
       concrete_problemen: []
 ---

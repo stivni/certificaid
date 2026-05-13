@@ -36,7 +36,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:17Z'
+    confirmed_at: '2026-05-13T13:19:20Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 8 headings met correcte hiërarchie (H1, H2, H3). Footnotes [^1]–[^18] aanwezig en gedefinieerd. Voetnoot [^4] is inhoudelijk zeer lang maar dit is de letterlijke tekst van art. 73 KB W.Venn. — geen artefact. Geen extractiesporen.
     layer1:
@@ -50,7 +50,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:17Z'
+      run_at: '2026-05-13T13:19:20Z'
       rationale: 8 headings met correcte hiërarchie (H1, H2, H3). Footnotes [^1]–[^18] aanwezig en gedefinieerd. Voetnoot [^4] is inhoudelijk zeer lang maar dit is de letterlijke tekst van art. 73 KB W.Venn. — geen artefact. Geen extractiesporen.
       concrete_problemen: []
 ---

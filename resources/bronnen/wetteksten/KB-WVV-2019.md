@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:06Z'
+    confirmed_at: '2026-05-13T13:19:09Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "L1 pass: 331 headings, max sectie 4645 chars. ###### Art.-headings correct, TITEL/AFDELING-structuur aanwezig. 'Beeld niet opgenomen'-meldingen zijn bron-artefact (bijlagen als afbeelding). Inhoud volledig."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:06Z'
+      run_at: '2026-05-13T13:19:09Z'
       rationale: "L1 pass: 331 headings, max sectie 4645 chars. ###### Art.-headings correct, TITEL/AFDELING-structuur aanwezig. 'Beeld niet opgenomen'-meldingen zijn bron-artefact (bijlagen als afbeelding). Inhoud volledig."
       concrete_problemen: []
 ---

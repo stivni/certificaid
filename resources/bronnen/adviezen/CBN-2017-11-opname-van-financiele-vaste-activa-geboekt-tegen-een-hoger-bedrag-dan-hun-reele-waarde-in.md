@@ -40,7 +40,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:13Z'
+    confirmed_at: '2026-05-13T13:19:16Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Vier ## headings, alle inhoud compleet, voetnoten [^1]-[^12] correct gedefinieerd. Lijn 93 start met '11.' als randnummer-verwijzing — dit is authentieke CBN-stijl voor randnummers, geen extractie-bug. Geen form-feeds, geen broken italic, geen column-bleed aangetroffen."
     layer1:
@@ -54,7 +54,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:13Z'
+      run_at: '2026-05-13T13:19:16Z'
       rationale: "Vier ## headings, alle inhoud compleet, voetnoten [^1]-[^12] correct gedefinieerd. Lijn 93 start met '11.' als randnummer-verwijzing — dit is authentieke CBN-stijl voor randnummers, geen extractie-bug. Geen form-feeds, geen broken italic, geen column-bleed aangetroffen."
       concrete_problemen: []
 ---

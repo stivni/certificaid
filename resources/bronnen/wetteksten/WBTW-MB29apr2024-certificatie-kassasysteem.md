@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T13:15:26Z'
+    confirmed_at: '2026-05-13T13:19:30Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "De recente ETL-fixes (slash-loss + merge_broken_sentences) raken de twee structurele problemen van dit bestand niet aan. (1) Regels 128-129: '## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\\nGEREGISTREERD KASSASYSTEEM' is gesplitst over twee regels door een spurious linebreak — markdown rendert dit als heading 'TITEL II...' met losse zin daaronder. (2) Regels 204-218: de btw-codes-tabel toont scrambled kolom-bleed waarbij NL-kolom-headers en FR-kolom-headers door elkaar staan ('BTW- BTW- CODE TAUX DE' / 'BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA' / 'CODE TARIEF TVA TVA') — onbruikbaar als tabel, en de inhoud is ernaast versplinterd over meerdere regels ('A Hoog 21 % A Haut 21 %' lezen als bilingue duplicaten). Een van-nul-schrijver zou nooit dit gebroken heading + scrambled tabel produceren."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:26Z'
+      run_at: '2026-05-13T13:19:30Z'
       rationale: "De recente ETL-fixes (slash-loss + merge_broken_sentences) raken de twee structurele problemen van dit bestand niet aan. (1) Regels 128-129: '## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\\nGEREGISTREERD KASSASYSTEEM' is gesplitst over twee regels door een spurious linebreak — markdown rendert dit als heading 'TITEL II...' met losse zin daaronder. (2) Regels 204-218: de btw-codes-tabel toont scrambled kolom-bleed waarbij NL-kolom-headers en FR-kolom-headers door elkaar staan ('BTW- BTW- CODE TAUX DE' / 'BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA' / 'CODE TARIEF TVA TVA') — onbruikbaar als tabel, en de inhoud is ernaast versplinterd over meerdere regels ('A Hoog 21 % A Haut 21 %' lezen als bilingue duplicaten). Een van-nul-schrijver zou nooit dit gebroken heading + scrambled tabel produceren."
       concrete_problemen:
         - "Regels 128-129: '## TITEL II...' heading gebroken over twee regels door spurious linebreak"

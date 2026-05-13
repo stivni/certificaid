@@ -35,7 +35,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:13Z'
+    confirmed_at: '2026-05-13T13:19:17Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Bug B3 (duplicate heading) is opgelost: body bevat één heading '# CBN advies 103 - Omzet - Tussenpersonen'. Inhoud is volledig (uitgebreide analyse van makelaar/mandataris/commissionair). Geen artefacten, geen unicode-issues, geen broken markup. Ziet eruit als mens-geschreven."
     layer1:
@@ -49,7 +49,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:13Z'
+      run_at: '2026-05-13T13:19:17Z'
       rationale: "Bug B3 (duplicate heading) is opgelost: body bevat één heading '# CBN advies 103 - Omzet - Tussenpersonen'. Inhoud is volledig (uitgebreide analyse van makelaar/mandataris/commissionair). Geen artefacten, geen unicode-issues, geen broken markup. Ziet eruit als mens-geschreven."
       concrete_problemen: []
 ---

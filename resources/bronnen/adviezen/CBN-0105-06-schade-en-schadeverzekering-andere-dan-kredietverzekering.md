@@ -26,7 +26,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:19Z'
+    confirmed_at: '2026-05-13T13:19:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Geen artefacten. Bestand is inhoudelijk volledig (vier alinea's die alle gevallen uit het advies behandelen). De `mec. nr.`-referenties zijn plain text in de body maar dat is correct: dit zijn geen URLs, maar rekeningnummer-aanduidingen uit het origineel. Italic-markup correct gesloten."
     layer1:
@@ -40,7 +40,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:19Z'
+      run_at: '2026-05-13T13:19:24Z'
       rationale: "Geen artefacten. Bestand is inhoudelijk volledig (vier alinea's die alle gevallen uit het advies behandelen). De `mec. nr.`-referenties zijn plain text in de body maar dat is correct: dit zijn geen URLs, maar rekeningnummer-aanduidingen uit het origineel. Italic-markup correct gesloten."
       concrete_problemen: []
 ---

@@ -37,7 +37,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:14Z'
+    confirmed_at: '2026-05-13T13:19:18Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: D4-probleem uit vorig verdict ('*Uitgestelde belastingen *' met trailing space) is niet aanwezig in het huidige bestand — italic correct gesloten na scraper-fix. Inhoud volledig met 5 genummerde boekingsstappen en 3 correct gedefinieerde voetnoten. Geen andere ETL-artefacten zichtbaar.
     layer1:
@@ -51,7 +51,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:14Z'
+      run_at: '2026-05-13T13:19:18Z'
       rationale: D4-probleem uit vorig verdict ('*Uitgestelde belastingen *' met trailing space) is niet aanwezig in het huidige bestand — italic correct gesloten na scraper-fix. Inhoud volledig met 5 genummerde boekingsstappen en 3 correct gedefinieerde voetnoten. Geen andere ETL-artefacten zichtbaar.
       concrete_problemen: []
 ---

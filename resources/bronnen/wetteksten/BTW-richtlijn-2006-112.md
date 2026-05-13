@@ -17,22 +17,22 @@ provenance:
       version: 11.12.2006
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: e62521a-dirty
+    pipeline_version: f4076ba
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:14:40Z'
+  generated_at: '2026-05-13T13:18:44Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T13:15:26Z'
+    confirmed_at: '2026-05-13T13:19:30Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Running-headers (NL / L 347/x / Publicatieblad) zijn verdwenen — A1 is opgelost. Dotted leaders zijn verdwenen — A2 is opgelost. MAAR de TOC-strip-transformer heeft de TOC NIET aangepakt: regels 144-432 bevatten de volledige inhoudsopgave als geneste markdown-headings (## TITEL I t/m XV, ### Hoofdstuk, #### Afdeling, ##### Onderafdeling, BIJLAGE I-XII) zonder body-tekst — daarna pas (regel 432+) start de echte body. Resultaat: elke TITEL/Hoofdstuk-heading verschijnt twee keer in het document (TOC + body), wat dubbele chunks en gefragmenteerde retrieval oplevert. Vermoedelijk staat de TOC niet aan het begin van het bestand (overwegingen (1)-(63) komen ervóór), zodat de transformer niet triggert.'
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:26Z'
+      run_at: '2026-05-13T13:19:30Z'
       rationale: 'Running-headers (NL / L 347/x / Publicatieblad) zijn verdwenen — A1 is opgelost. Dotted leaders zijn verdwenen — A2 is opgelost. MAAR de TOC-strip-transformer heeft de TOC NIET aangepakt: regels 144-432 bevatten de volledige inhoudsopgave als geneste markdown-headings (## TITEL I t/m XV, ### Hoofdstuk, #### Afdeling, ##### Onderafdeling, BIJLAGE I-XII) zonder body-tekst — daarna pas (regel 432+) start de echte body. Resultaat: elke TITEL/Hoofdstuk-heading verschijnt twee keer in het document (TOC + body), wat dubbele chunks en gefragmenteerde retrieval oplevert. Vermoedelijk staat de TOC niet aan het begin van het bestand (overwegingen (1)-(63) komen ervóór), zodat de transformer niet triggert.'
       concrete_problemen:
         - 'Regels 144-432: volledige TOC als geneste markdown-headings zonder body (TITEL I-XV / Hoofdstuk / Afdeling / Onderafdeling / BIJLAGE I-XII). Elke heading verschijnt opnieuw in de body — dubbele chunks bij RAG.'
@@ -3128,7 +3128,7 @@ Artikel 313, lid 1
 
 Art. 26. bis,   B,   lid   2
 
-###### Art. 314
+Art. 314
 
 Art. 26. bis, B, lid 2, eerste en tweede
 
@@ -3140,7 +3140,7 @@ eerste en tweede volzin Artikel 315, eerste en tweede alinea
 
 Art. 26. bis,   B,   lid   3,   tweede   alinea
 
-###### Art. 312
+Art. 312
 
 Art. 26. bis,   B,   lid   3,   tweede   alinea,
 
@@ -3164,15 +3164,15 @@ eerste en tweede volzin Artikel 317, eerste en tweede alinea
 
 Art. 26. bis,   B,   lid   5
 
-###### Art. 321
+Art. 321
 
 Art. 26. bis,   B,   lid   6
 
-###### Art. 323
+Art. 323
 
 Art. 26. bis,   B,   lid   7
 
-###### Art. 322
+Art. 322
 
 Art. 26. bis, B, lid 7, onder a), b) en c)
 
@@ -3180,11 +3180,11 @@ Artikel 322, onder a), b) en c)
 
 Art. 26. bis,   B,   lid   8
 
-###### Art. 324
+Art. 324
 
 Art. 26. bis,   B,   lid   9
 
-###### Art. 325
+Art. 325
 
 Art. 26. bis,   B,   lid   10,   eerste   en
 
@@ -3200,7 +3200,7 @@ Artikel 318, lid 3
 
 Art. 26. bis,   B,   lid   11,   eerste   alinea
 
-###### Art. 319
+Art. 319
 
 Art. 26. bis,   B,   lid   11,   tweede   alinea,
 
@@ -3230,7 +3230,7 @@ streepje Artikel 336, onder a) en b)
 
 Art. 26. bis,   C,   lid   3
 
-###### Art. 337
+Art. 337
 
 Art. 26. bis,   C,   lid   4,   eerste   alinea,
 
@@ -3258,7 +3258,7 @@ Artikel 338, tweede alinea
 
 Art. 26. bis,   C,   lid   7
 
-###### Art. 335
+Art. 335
 
 Art. 26. bis,   D,   inleidende   zin
 
@@ -3290,19 +3290,19 @@ Artikel 344, lid 3
 
 Art. 26. ter,   A,   derde   alinea
 
-###### Art. 345
+Art. 345
 
 Art. 26. ter,   B,   eerste   alinea
 
-###### Art. 346
+Art. 346
 
 Art. 26. ter,   B,   tweede   alinea
 
-###### Art. 347
+Art. 347
 
 Art. 26. ter,   C,   eerste   alinea
 
-###### Art. 348
+Art. 348
 
 Art. 26. ter,   C,   tweede   alinea,   eerste
 
@@ -3310,11 +3310,11 @@ en tweede volzin Artikel 349, leden 1 en 2
 
 Art. 26. ter,   C,   derde   alinea
 
-###### Art. 350
+Art. 350
 
 Art. 26. ter,   C,   vierde   alinea
 
-###### Art. 351
+Art. 351
 
 Art. 26. ter, D, lid 1, onder a), b) en c)
 
@@ -3322,7 +3322,7 @@ Artikel 354, onder a), b) en c)
 
 Art. 26. ter,   D,   lid   2
 
-###### Art. 355
+Art. 355
 
 Art. 26. ter, E, eerste en tweede alinea
 
@@ -3342,7 +3342,7 @@ Artikelen 208 en 255
 
 Art. 26. ter,   G,   lid   1,   eerste   alinea
 
-###### Art. 352
+Art. 352
 
 Art. 26. ter,   G,   lid   1,   tweede   alinea
 
@@ -3350,7 +3350,7 @@ Art. 26. ter,   G,   lid   1,   tweede   alinea
 
 Art. 26. ter,   G,   lid   2,   onder   a)
 
-###### Art. 353
+Art. 353
 
 Art. 26. ter,   G,   lid   2,   onder   b),   eerste
 
@@ -3362,11 +3362,11 @@ e) Artikel 358, onder 1) tot en met 5)
 
 Art. 26. quater,   B,   lid   1
 
-###### Art. 359
+Art. 359
 
 Art. 26. quater,   B,   lid   2,   eerste   alinea
 
-###### Art. 360
+Art. 360
 
 Art. 26. quater, B, lid 2, tweede alinea,
 
@@ -3392,11 +3392,11 @@ en met d) Artikel 363, onder a) tot en met d)
 
 Art. 26. quater,   B,   lid   5,   eerste   alinea
 
-###### Art. 364
+Art. 364
 
 Art. 26. quater, B, lid 5, tweede alinea
 
-###### Art. 365
+Art. 365
 
 Art. 26. quater,   B,   lid   6,   eerste   volzin
 
@@ -3420,7 +3420,7 @@ derde volzin Artikel 367, tweede alinea
 
 Art. 26. quater,   B,   lid   8
 
-###### Art. 368
+Art. 368
 
 Art. 26. quater,   B,   lid   9,   eerste   volzin
 
@@ -3620,19 +3620,19 @@ alinea Artikel 17, lid 3
 
 Art. 28. bis,   lid   6,   eerste   alinea
 
-###### Art. 21
+Art. 21
 
 Art. 28. bis,   lid   6,   tweede   alinea
 
-###### Art. 22
+Art. 22
 
 Art. 28. bis,   lid   7
 
-###### Art. 23
+Art. 23
 
 Art. 28. ter,   A,   lid   1
 
-###### Art. 40
+Art. 40
 
 Art. 28. ter, A, lid 2, eerste en tweede
 
@@ -3694,11 +3694,11 @@ Artikel 47, eerste en tweede alinea
 
 Art. 28. ter,   C,   lid   4
 
-###### Art. 51
+Art. 51
 
 Art. 28. ter,   D
 
-###### Art. 53
+Art. 53
 
 Art. 28. ter,   E,   lid   1,   eerste   en   tweede
 
@@ -3718,7 +3718,7 @@ Artikel 55, eerste en tweede alinea
 
 Art. 28. quater,   A,   inleidende   zin
 
-###### Art. 131
+Art. 131
 
 Art. 28. quater,   A,   onder   a),   tweede
 
@@ -3742,7 +3742,7 @@ Artikel 138, lid 2, onder c)
 
 Art. 28. quater,   B,   inleidende   zin
 
-###### Art. 131
+Art. 131
 
 Art. 28. quater,   B,   onder   a),   b)   en   c)
 
@@ -3750,7 +3750,7 @@ Artikel 140, onder a), b) en c)
 
 Art. 28. quater,   C
 
-###### Art. 142
+Art. 142
 
 Art. 28. quater,   D,   eerste   alinea
 
@@ -3758,7 +3758,7 @@ Artikel 143, onder d)
 
 Art. 28. quater,   D,   tweede   alinea
 
-###### Art. 131
+Art. 131
 
 Art. 28. quater,   E,   punt   1,   eerste
 
@@ -3834,7 +3834,7 @@ tweede alinea Artikel 67, leden 1 en 2
 
 Art. 28. sexies,   lid   1,   eerste   alinea
 
-###### Art. 83
+Art. 83
 
 Art. 28. sexies,   lid   1,   tweede   alinea,
 
@@ -3842,7 +3842,7 @@ eerste en tweede volzin Artikel 84, leden 1 en 2
 
 Art. 28. sexies,   lid   2
 
-###### Art. 76
+Art. 76
 
 Art. 28. sexies,   lid   3
 
@@ -4216,7 +4216,7 @@ tweede volzin Artikel 327, lid 2
 
 Art. 28. sexdecies,   lid   1,   onder   b)
 
-###### Art. 328
+Art. 328
 
 Art. 28. sexdecies,   lid   1,   onder   c),
 
@@ -4224,11 +4224,11 @@ eerste, tweede en derde streepje Artikel 329, onder a), b) en c)
 
 Art. 28. sexdecies,   lid   1,   onder   e)
 
-###### Art. 332
+Art. 332
 
 Art. 28. sexdecies,   lid   1,   onder   f)
 
-###### Art. 331
+Art. 331
 
 Art. 28. sexdecies,   lid   1,   onder   g)
 
@@ -4244,7 +4244,7 @@ Artikel 326, tweede alinea
 
 Art. 28. sexdecies,   lid   3
 
-###### Art. 341
+Art. 341
 
 Art. 28. sexdecies,   lid   4
 
@@ -4256,7 +4256,7 @@ tweede en derde streepje Artikel 405, onder 1), 2) en 3)
 
 Art. 28. septdecies,   lid   2
 
-###### Art. 406
+Art. 406
 
 Art. 28. septdecies,   eerste   alinea,
 
@@ -4276,7 +4276,7 @@ tweede streepje Artikel 408, lid 2, onder a) en b)
 
 Art. 28. septdecies,   lid   6
 
-###### Art. 409
+Art. 409
 
 Art. 28. septdecies, lid 7, eerste alinea,
 
@@ -4294,7 +4294,7 @@ Artikel 29, leden 1 tot en met 4 Artikel 398, leden 1 tot en met 4
 
 Art. 29. bis
 
-###### Art. 397
+Art. 397
 
 Artikel 30, lid 1 Artikel 396, lid 1
 
@@ -4316,31 +4316,31 @@ Artikel 33, lid 2 Artikel 2, lid 3
 
 Art. 33. bis,   lid   1,   inleidende   zin
 
-###### Art. 274
+Art. 274
 
 Art. 33. bis,   lid   1,   onder   a)
 
-###### Art. 275
+Art. 275
 
 Art. 33. bis,   lid   1,   onder   b)
 
-###### Art. 276
+Art. 276
 
 Art. 33. bis,   lid   1,   onder   c)
 
-###### Art. 277
+Art. 277
 
 Art. 33. bis,   lid   2,   inleidende   zin
 
-###### Art. 278
+Art. 278
 
 Art. 33. bis,   lid   2,   onder   a)
 
-###### Art. 279
+Art. 279
 
 Art. 33. bis,   lid   2,   onder   b)
 
-###### Art. 280
+Art. 280
 
 Artikel 34 Artikel 404
 
@@ -4436,7 +4436,7 @@ Artikel 1, onder 1), tweede alinea, van Richtlijn 89/465/EEG Artikel 133, tweede
 
 Art. 2. van   Richtlijn   94/5/EG
 
-###### Art. 342
+Art. 342
 
 Artikel 3, eerste en tweede volzin, van Richtlijn 94/5/EG Artikel 343, eerste en tweede alinea
 

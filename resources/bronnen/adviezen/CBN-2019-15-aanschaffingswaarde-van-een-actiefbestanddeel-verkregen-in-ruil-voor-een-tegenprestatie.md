@@ -33,7 +33,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:20Z'
+    confirmed_at: '2026-05-13T13:19:25Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Inhoud volledig en correct gestructureerd. Twee minor D4-issues: '*Vennootschap A *' (regel 128) en '*Op de datum waarop de voornaamste prestatie...[^11] *' (regel 130) hebben een spatie vóór de sluitende '*', wat duidt op een trailing-space extractie-artefact. Dit raakt leesbaarheid niet maar is on-natuurlijk voor mens-geschreven markdown. Voorts een lege footnote-referentie ' [^12]' (regel 132) die als lege alinea verschijnt."
     layer1:
@@ -47,7 +47,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:20Z'
+      run_at: '2026-05-13T13:19:25Z'
       rationale: "Inhoud volledig en correct gestructureerd. Twee minor D4-issues: '*Vennootschap A *' (regel 128) en '*Op de datum waarop de voornaamste prestatie...[^11] *' (regel 130) hebben een spatie vóór de sluitende '*', wat duidt op een trailing-space extractie-artefact. Dit raakt leesbaarheid niet maar is on-natuurlijk voor mens-geschreven markdown. Voorts een lege footnote-referentie ' [^12]' (regel 132) die als lege alinea verschijnt."
       concrete_problemen:
         - regel: 128

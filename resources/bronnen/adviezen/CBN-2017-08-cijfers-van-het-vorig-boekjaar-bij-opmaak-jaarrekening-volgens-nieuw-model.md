@@ -32,7 +32,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:12Z'
+    confirmed_at: '2026-05-13T13:19:16Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Kort advies (4k chars, 2 headings). Volledig schoon: inleiding en kern correct gestructureerd. Voetnoten [^1]–[^6] aanwezig en verankerd. Geen ETL-artefacten.'
     layer1:
@@ -46,7 +46,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:12Z'
+      run_at: '2026-05-13T13:19:16Z'
       rationale: 'Kort advies (4k chars, 2 headings). Volledig schoon: inleiding en kern correct gestructureerd. Voetnoten [^1]–[^6] aanwezig en verankerd. Geen ETL-artefacten.'
       concrete_problemen: []
 ---

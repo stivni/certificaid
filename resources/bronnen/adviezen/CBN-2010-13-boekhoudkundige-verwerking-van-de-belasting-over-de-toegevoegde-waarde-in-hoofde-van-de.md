@@ -37,7 +37,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:13Z'
+    confirmed_at: '2026-05-13T13:19:17Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Na scraper-fixes zijn de eerder gemelde zwevende voetnootankers ([^14], [^15], [^16][^17]) niet meer aanwezig in de huidige versie — de body is schoon. Heading-structuur correct (H1 + 4 ## secties). Alle voorbeeldboekingen in pipe-tabellen. Kleinere restpunten: r90 mist een punt aan het einde van een zin ('worden geacht door de btw-eenheid te worden verwezenlijkt' — geen punt) en r170 heeft 'aangesproken wordenvoor' (ontbrekende spatie), maar dit zijn cosmetische haarscheurtjes die leesbaarheid niet raken. Inhoud volledig."
     layer1:
@@ -51,7 +51,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:13Z'
+      run_at: '2026-05-13T13:19:17Z'
       rationale: "Na scraper-fixes zijn de eerder gemelde zwevende voetnootankers ([^14], [^15], [^16][^17]) niet meer aanwezig in de huidige versie — de body is schoon. Heading-structuur correct (H1 + 4 ## secties). Alle voorbeeldboekingen in pipe-tabellen. Kleinere restpunten: r90 mist een punt aan het einde van een zin ('worden geacht door de btw-eenheid te worden verwezenlijkt' — geen punt) en r170 heeft 'aangesproken wordenvoor' (ontbrekende spatie), maar dit zijn cosmetische haarscheurtjes die leesbaarheid niet raken. Inhoud volledig."
       concrete_problemen:
         - regel: 90

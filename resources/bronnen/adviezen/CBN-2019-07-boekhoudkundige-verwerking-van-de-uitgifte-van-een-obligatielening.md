@@ -34,7 +34,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:23Z'
+    confirmed_at: '2026-05-13T13:19:28Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Na re-scrape met scraper-fixes is het TOC-artefact (A3, regels 53–99 in de vorige versie) verdwenen. De body begint direct met `## Inleiding` na de frontmatter. Geen TOC-blok zichtbaar. Structuur volledig correct: 36 headings correct hiërarchisch gelaagd (#, ##, ###, ####), alle boekingstabellen in pipe-syntax, voetnoten [^1]–[^17] correct gedefinieerd. Geen artefacten uit categorieën A–G gevonden.'
     layer1:
@@ -48,7 +48,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:23Z'
+      run_at: '2026-05-13T13:19:28Z'
       rationale: 'Na re-scrape met scraper-fixes is het TOC-artefact (A3, regels 53–99 in de vorige versie) verdwenen. De body begint direct met `## Inleiding` na de frontmatter. Geen TOC-blok zichtbaar. Structuur volledig correct: 36 headings correct hiërarchisch gelaagd (#, ##, ###, ####), alle boekingstabellen in pipe-syntax, voetnoten [^1]–[^17] correct gedefinieerd. Geen artefacten uit categorieën A–G gevonden.'
       concrete_problemen: []
 ---

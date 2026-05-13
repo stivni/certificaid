@@ -27,7 +27,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:24Z'
+    confirmed_at: '2026-05-13T13:19:28Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Regel 65: 'Volgens boekingen geven een beeld van de relaties...' is grammaticaal incorrect ('Volgende' ontbreekt). Gezien de HTML-bron (geen PDF/OCR) is dit hoogstwaarschijnlijk een source-typo op de CBN-website zelf — per de source-typo-uitzondering geen grond voor needs-rework. De vier boekhoudschema's in markdown pipe-syntax zijn intact en structureel correct; lege Debet/Credit-kolommen zijn inhoudelijk intentioneel. Geen andere artefacten."
     layer1:
@@ -41,7 +41,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:24Z'
+      run_at: '2026-05-13T13:19:28Z'
       rationale: "Regel 65: 'Volgens boekingen geven een beeld van de relaties...' is grammaticaal incorrect ('Volgende' ontbreekt). Gezien de HTML-bron (geen PDF/OCR) is dit hoogstwaarschijnlijk een source-typo op de CBN-website zelf — per de source-typo-uitzondering geen grond voor needs-rework. De vier boekhoudschema's in markdown pipe-syntax zijn intact en structureel correct; lege Debet/Credit-kolommen zijn inhoudelijk intentioneel. Geen andere artefacten."
       concrete_problemen:
         - regel: 65

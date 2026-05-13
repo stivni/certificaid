@@ -41,7 +41,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:20Z'
+    confirmed_at: '2026-05-13T13:19:26Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Laag 1: pass, geen flags. Volledige lezing: geen PDF-artefacten. Heading-hiërarchie correct (#, ##, ###), voetnoten [^1]–[^20] volledig gedefinieerd en inline correct gerefereerd. Tabellen afwezig (niet nodig). Inhoud compleet en afgerond.'
     layer1:
@@ -55,7 +55,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:20Z'
+      run_at: '2026-05-13T13:19:26Z'
       rationale: 'Laag 1: pass, geen flags. Volledige lezing: geen PDF-artefacten. Heading-hiërarchie correct (#, ##, ###), voetnoten [^1]–[^20] volledig gedefinieerd en inline correct gerefereerd. Tabellen afwezig (niet nodig). Inhoud compleet en afgerond.'
       concrete_problemen: []
 ---

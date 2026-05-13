@@ -45,8 +45,33 @@ _CONCORD_HEADING_RE = re.compile(
 )
 
 
+_CONCORDANTIETABEL_SECTION_RE = re.compile(
+    r"^(?:#{1,6}\s+)?(?:BIJLAGE\s+(?:XI{1,2}|[IVX]+)|Bijlage\s+(?:XI{1,2}|[IVX]+))\s*\n+"
+    r"(?:#{1,6}\s+)?CONCORDANTIETABEL\b",
+    re.M | re.I,
+)
+_ANY_ART_HEADING_RE = re.compile(
+    r"^(#{1,6})\s+(Art\.\s+\d+\w*.*)$",
+    re.M,
+)
+
+
 def strip_concord_table_headings(body: str, frontmatter: dict) -> tuple[str, dict]:
-    """Demote concord-table 'headings' naar plain text."""
-    # Verwijder heading-prefix; behoud heading-tekst als plain text
+    """Demote concord-table 'headings' naar plain text.
+
+    Twee strategieën:
+    1. Pattern-match: heading met expliciete concord-keywords (bis,
+       lid N, alinea, van Richtlijn, eerste, ...).
+    2. Region-match: alles binnen 'Bijlage XII / CONCORDANTIETABEL'
+       sectie tot einde body — demote ALLE Art-headings naar plain text.
+    """
     new_body = _CONCORD_HEADING_RE.sub(r"\2", body)
+    # Region-based: vind start van CONCORDANTIETABEL sectie
+    m = _CONCORDANTIETABEL_SECTION_RE.search(new_body)
+    if m:
+        head = new_body[:m.start()]
+        tail = new_body[m.start():]
+        # In de tail: demote alle ## Art. N headings naar plain text
+        tail = _ANY_ART_HEADING_RE.sub(r"\2", tail)
+        new_body = head + tail
     return new_body, frontmatter

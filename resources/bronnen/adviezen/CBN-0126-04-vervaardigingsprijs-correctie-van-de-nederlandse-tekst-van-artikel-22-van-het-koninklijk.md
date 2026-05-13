@@ -26,7 +26,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:19Z'
+    confirmed_at: '2026-05-13T13:19:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Kort advies (2095 tekens, geen headings), inhoud volledig en coherent afgesloten. Geen extractie-artefacten gevonden: geen HTML-entities, geen ongewone unicode, geen spurious line-breaks. Layer1 pass zonder flags bevestigd.'
     layer1:
@@ -40,7 +40,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:19Z'
+      run_at: '2026-05-13T13:19:24Z'
       rationale: 'Kort advies (2095 tekens, geen headings), inhoud volledig en coherent afgesloten. Geen extractie-artefacten gevonden: geen HTML-entities, geen ongewone unicode, geen spurious line-breaks. Layer1 pass zonder flags bevestigd.'
       concrete_problemen: []
 ---

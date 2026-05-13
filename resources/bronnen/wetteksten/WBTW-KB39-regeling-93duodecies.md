@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T13:15:26Z'
+    confirmed_at: '2026-05-13T13:19:30Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "De nieuwe strip_inline_footnote_block heeft de false-positive '## Art. 139:' heading succesvol verwijderd (geen heading-anker meer voor footnote-residu). Echter: de orphan opsommingsitems '1°', '5°', '6°' (regels 75-77) staan nog steeds als pseudo-content tussen Art. 3, eerste lid (regels 71-73) en het echte vervolg op regel 79 ('Er moet evenwel een nieuw attest...'). Dit blijft retrievaal-schadelijk omdat Art. 3 inhoudelijk gesplitst is door tekst uit W 13.04.2019 die niets met KB nr. 39 te maken heeft. Partial fix is onvoldoende; de orphan-items moeten ook gestript worden. Plus: KB is sinds 01.01.2020 opgeheven (regel 54)."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:26Z'
+      run_at: '2026-05-13T13:19:30Z'
       rationale: "De nieuwe strip_inline_footnote_block heeft de false-positive '## Art. 139:' heading succesvol verwijderd (geen heading-anker meer voor footnote-residu). Echter: de orphan opsommingsitems '1°', '5°', '6°' (regels 75-77) staan nog steeds als pseudo-content tussen Art. 3, eerste lid (regels 71-73) en het echte vervolg op regel 79 ('Er moet evenwel een nieuw attest...'). Dit blijft retrievaal-schadelijk omdat Art. 3 inhoudelijk gesplitst is door tekst uit W 13.04.2019 die niets met KB nr. 39 te maken heeft. Partial fix is onvoldoende; de orphan-items moeten ook gestript worden. Plus: KB is sinds 01.01.2020 opgeheven (regel 54)."
       concrete_problemen:
         - "Regels 75-77: orphan opsommingsitems '1° op het administratieve dwangbevel...', '5° op fiscale schuldvorderingen...', '6° op fiscale en niet-fiscale schuldvorderingen...' — footnote-residu van W 13.04.2019, niet KB nr. 39"

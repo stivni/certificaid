@@ -43,7 +43,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:17Z'
+    confirmed_at: '2026-05-13T13:19:20Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Ronde-2-verdict (needs-rework E2/A6 gebroken tabelrij) is niet meer van toepassing op de huidige body: alle 14+ tabellen zijn correct afgesloten met sluitende pipes, geen losse '9.500'-regel buiten tabelcontext. Alle voetnoten ([^1]–[^14]) gedefinieerd en gerefereerd. Twee ## headings, geen TOC-fragment, geen OCR-artefacten."
     layer1:
@@ -57,7 +57,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:17Z'
+      run_at: '2026-05-13T13:19:20Z'
       rationale: "Ronde-2-verdict (needs-rework E2/A6 gebroken tabelrij) is niet meer van toepassing op de huidige body: alle 14+ tabellen zijn correct afgesloten met sluitende pipes, geen losse '9.500'-regel buiten tabelcontext. Alle voetnoten ([^1]–[^14]) gedefinieerd en gerefereerd. Twee ## headings, geen TOC-fragment, geen OCR-artefacten."
       concrete_problemen: []
 ---

@@ -35,7 +35,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:20Z'
+    confirmed_at: '2026-05-13T13:19:25Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen extractie-artefacten. Heading-hiërarchie correct, rekeningschema correct als ingesprongen blok, journaalboekingen als pipe-tabellen goed weergegeven. Inhoud compleet van inleiding tot opt-in en statutenaanpassing.
     layer1:
@@ -49,7 +49,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:20Z'
+      run_at: '2026-05-13T13:19:25Z'
       rationale: Geen extractie-artefacten. Heading-hiërarchie correct, rekeningschema correct als ingesprongen blok, journaalboekingen als pipe-tabellen goed weergegeven. Inhoud compleet van inleiding tot opt-in en statutenaanpassing.
       concrete_problemen: []
 ---

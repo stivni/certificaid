@@ -25,7 +25,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:17Z'
+    confirmed_at: '2026-05-13T13:19:20Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Eerder gemelde D4 (spatie voor sluitende asterisk op regels 60 en 63) is een source-typo: de CBN-website formatteert geciteerde wetteksten als italic met een spatie voor de sluiting — een mens die de HTML opent ziet hetzelfde. Geen echte ETL-artefacten (categorieën A-G) aanwezig. Document is compact (5053 chars, 2 headings), inhoudelijk volledig, alle 6 voetnoten correct.'
     layer1:
@@ -39,7 +39,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:17Z'
+      run_at: '2026-05-13T13:19:20Z'
       rationale: 'Eerder gemelde D4 (spatie voor sluitende asterisk op regels 60 en 63) is een source-typo: de CBN-website formatteert geciteerde wetteksten als italic met een spatie voor de sluiting — een mens die de HTML opent ziet hetzelfde. Geen echte ETL-artefacten (categorieën A-G) aanwezig. Document is compact (5053 chars, 2 headings), inhoudelijk volledig, alle 6 voetnoten correct.'
       concrete_problemen:
         - regel: 60

@@ -30,7 +30,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:12Z'
+    confirmed_at: '2026-05-13T13:19:15Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen ETL-artefacten aangetroffen. Genummerde paragrafen (1, 2, 3) zijn inhoudelijk correct gestructureerd. Voetnoten [^1] en [^2] zijn aanwezig en correct geankerd. Herhaling van de titel op L49 na de H1 is een scraper-eigenaardigheid maar niet leesbaarheidsschadelijk en waarschijnlijk afkomstig van de bronpagina.
     layer1:
@@ -44,7 +44,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:12Z'
+      run_at: '2026-05-13T13:19:15Z'
       rationale: Geen ETL-artefacten aangetroffen. Genummerde paragrafen (1, 2, 3) zijn inhoudelijk correct gestructureerd. Voetnoten [^1] en [^2] zijn aanwezig en correct geankerd. Herhaling van de titel op L49 na de H1 is een scraper-eigenaardigheid maar niet leesbaarheidsschadelijk en waarschijnlijk afkomstig van de bronpagina.
       concrete_problemen: []
 ---

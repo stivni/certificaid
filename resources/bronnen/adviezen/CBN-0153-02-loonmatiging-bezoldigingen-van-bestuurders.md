@@ -45,7 +45,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:15:21Z'
+    confirmed_at: '2026-05-13T13:19:26Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Bron volledig gelezen (3943 tekens, heading_count: 0, Laag-1 pass). Drie journaalboekingstabellen correct als pipe-tables. Drie voetnoten correct gedefinieerd. Geen artefacten in categorieën A-G. Inhoud volledig: juridische context + voorkeur-boekingswijze + boekingen voor alle scenario's aanwezig."
     layer1:
@@ -59,7 +59,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:15:21Z'
+      run_at: '2026-05-13T13:19:26Z'
       rationale: "Bron volledig gelezen (3943 tekens, heading_count: 0, Laag-1 pass). Drie journaalboekingstabellen correct als pipe-tables. Drie voetnoten correct gedefinieerd. Geen artefacten in categorieën A-G. Inhoud volledig: juridische context + voorkeur-boekingswijze + boekingen voor alle scenario's aanwezig."
       concrete_problemen: []
 ---
