@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T13:11:54Z'
+    confirmed_at: '2026-05-13T13:15:26Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "De relaxed strip_leading_toc_heading_block heeft hier NIET getriggered — het TOC-blok regels 55-77 staat er volledig nog: '### Onderafdeling 1. ... Art. 1 - 8' met spurious linebreaks ('Inning en\\nInvordering' regels 62-63; 'Mini One Stop Shop\\n- VAT BE' regels 65-66), gevolgd door 'Disposition temporaire Art. 13ter' (regel 70) als Franse leak, gevolgd door volledige duplicatie van Afdeling 1 + Onderafdelingen op regels 72-80. De duplicate-evidence is er duidelijk (Afdeling 1 verschijnt op regel 56 EN 72; Onderafdeling 1 op 59 EN 79), maar de transformer herkent de TOC-headings niet als gelijke titel omdat de TOC-variant artikel-ranges achteraan plakt ('Art. 1 - 8') en spurious linebreaks heeft. Dit blijft de meest schadelijke kwaliteitsfout van het bestand. Plus: smart-quote mismatch ('VAT BE' regel 66 opent met \" sluit met ”) en kapitalisatie-mix ('## AFDELING 1' all-caps regel 56 vs '## AFDELING 1' regel 72)."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:11:54Z'
+      run_at: '2026-05-13T13:15:26Z'
       rationale: "De relaxed strip_leading_toc_heading_block heeft hier NIET getriggered — het TOC-blok regels 55-77 staat er volledig nog: '### Onderafdeling 1. ... Art. 1 - 8' met spurious linebreaks ('Inning en\\nInvordering' regels 62-63; 'Mini One Stop Shop\\n- VAT BE' regels 65-66), gevolgd door 'Disposition temporaire Art. 13ter' (regel 70) als Franse leak, gevolgd door volledige duplicatie van Afdeling 1 + Onderafdelingen op regels 72-80. De duplicate-evidence is er duidelijk (Afdeling 1 verschijnt op regel 56 EN 72; Onderafdeling 1 op 59 EN 79), maar de transformer herkent de TOC-headings niet als gelijke titel omdat de TOC-variant artikel-ranges achteraan plakt ('Art. 1 - 8') en spurious linebreaks heeft. Dit blijft de meest schadelijke kwaliteitsfout van het bestand. Plus: smart-quote mismatch ('VAT BE' regel 66 opent met \" sluit met ”) en kapitalisatie-mix ('## AFDELING 1' all-caps regel 56 vs '## AFDELING 1' regel 72)."
       concrete_problemen:
         - 'Regels 55-77: TOC-blok niet gestript door relaxed strip_leading_toc_heading_block — Afdeling 1 en Onderafdelingen 1–4 staan twee keer'

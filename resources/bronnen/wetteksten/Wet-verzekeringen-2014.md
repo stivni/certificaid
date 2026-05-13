@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:11:40Z'
+    confirmed_at: '2026-05-13T13:15:13Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Laag-1 meldt max_section_size warn (32357 chars in één sectie), maar dat is een chunker-attentie, geen inhoudelijk ETL-defect. De markdown zelf is structureel correct: ## DEEL / ### TITEL / #### HOOFDSTUK / ###### Art. gelaagd en consistent. Structuurlabels als 'Doel', 'Toepassingsgebied', 'Definities' staan als **bold** (niet als plain text), wat acceptabel is als stylistisch alternatief voor sub-headings in een definitie-zware wet. Geen TOC-residu, geen form-feeds, geen OCR-artefacten, geen spurious line-breaks. Amendment-brackets [ ... ] zijn open-en-dicht. Inhoud volledig: Deel 1–4 aanwezig, definities Art. 5 volledig met 60+ genummerde items. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:11:40Z'
+      run_at: '2026-05-13T13:15:13Z'
       rationale: "Laag-1 meldt max_section_size warn (32357 chars in één sectie), maar dat is een chunker-attentie, geen inhoudelijk ETL-defect. De markdown zelf is structureel correct: ## DEEL / ### TITEL / #### HOOFDSTUK / ###### Art. gelaagd en consistent. Structuurlabels als 'Doel', 'Toepassingsgebied', 'Definities' staan als **bold** (niet als plain text), wat acceptabel is als stylistisch alternatief voor sub-headings in een definitie-zware wet. Geen TOC-residu, geen form-feeds, geen OCR-artefacten, geen spurious line-breaks. Amendment-brackets [ ... ] zijn open-en-dicht. Inhoud volledig: Deel 1–4 aanwezig, definities Art. 5 volledig met 60+ genummerde items. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien."
       concrete_problemen: []
 ---

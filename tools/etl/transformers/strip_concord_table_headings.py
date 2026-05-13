@@ -25,16 +25,23 @@ from __future__ import annotations
 
 import re
 
-# Heading met `Art. N.` (punt na nummer) gevolgd door iets dat niet een
-# blanke regel is — concord-table pattern.
-_CONCORD_HEADING_RE = re.compile(
-    r"^(#{1,6})\s+(Art\.\s+\d+\.\s+\S.*)$",
-    re.M,
+# Concord-keyword-list: woorden die in een echte heading niet voorkomen
+# (typisch concord-tabel suffixen).
+_CONCORD_KEYWORDS = (
+    r"(?:septdecies|undecies|duodecies|terdecies|quaterdecies|"
+    r"quindecies|sexdecies|septdecies|octodecies|novodecies|vicies|"
+    r"septies|octies|nonies|decies|"
+    r"bis|ter|quater|quinquies|sexies|"
+    r"lid\s+\d+|alinea|inleidende\s+zin|"
+    r"onder\s+\w\)|streepje|"
+    r"van\s+Richtlijn|van\s+richtlijn|"
+    r"eerste|tweede|derde|vierde|vijfde|zesde|zevende|achtste|negende|tiende)"
 )
-# Heading met `Art. N,` (komma na nummer) — ook concord-style.
-_CONCORD_COMMA_RE = re.compile(
-    r"^(#{1,6})\s+(Art\.\s+\d+,\s+\S.*)$",
-    re.M,
+
+# Heading met `Art. N. <concord-keyword>` of `Art. N, <concord-keyword>`.
+_CONCORD_HEADING_RE = re.compile(
+    r"^(#{1,6})\s+(Art\.\s+\d+\w*[\.,]\s+" + _CONCORD_KEYWORDS + r".*)$",
+    re.M | re.I,
 )
 
 
@@ -42,5 +49,4 @@ def strip_concord_table_headings(body: str, frontmatter: dict) -> tuple[str, dic
     """Demote concord-table 'headings' naar plain text."""
     # Verwijder heading-prefix; behoud heading-tekst als plain text
     new_body = _CONCORD_HEADING_RE.sub(r"\2", body)
-    new_body = _CONCORD_COMMA_RE.sub(r"\2", new_body)
     return new_body, frontmatter

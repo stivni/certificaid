@@ -39,7 +39,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:11:52Z'
+    confirmed_at: '2026-05-13T13:15:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Geen ETL-artefacten aangetroffen. Vijf voorbeelden met tabellen correct in markdown pipe-syntax. Heading-hiërarchie correct (## > ### > #### > #####). Twee kleine spaties-voor-italic-openers op regels 114 en 132 ('in de* Bijlagen*') zijn waarschijnlijk source-typos (consistent op CBN-website), geen reden voor needs-rework. Inhoud volledig: toepassingsgebied, voorbeelden 1-5, vrijwillige opstelling — alle 22 voetnoten aanwezig."
     layer1:
@@ -53,7 +53,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:11:52Z'
+      run_at: '2026-05-13T13:15:24Z'
       rationale: "Geen ETL-artefacten aangetroffen. Vijf voorbeelden met tabellen correct in markdown pipe-syntax. Heading-hiërarchie correct (## > ### > #### > #####). Twee kleine spaties-voor-italic-openers op regels 114 en 132 ('in de* Bijlagen*') zijn waarschijnlijk source-typos (consistent op CBN-website), geen reden voor needs-rework. Inhoud volledig: toepassingsgebied, voorbeelden 1-5, vrijwillige opstelling — alle 22 voetnoten aanwezig."
       concrete_problemen:
         - regel: 114

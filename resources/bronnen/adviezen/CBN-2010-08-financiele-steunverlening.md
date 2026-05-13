@@ -30,7 +30,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:11:46Z'
+    confirmed_at: '2026-05-13T13:15:18Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen extractie-artefacten. Twee ## secties correct opgemaakt, journaalpost-tabellen in pipe-syntax aanwezig en compleet, voetnoten [^1]–[^10] volledig gedefinieerd. Inhoud sluit logisch af. Geen invisible unicode, geen HTML-entities, geen broken tables.'
     layer1:
@@ -44,7 +44,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:11:46Z'
+      run_at: '2026-05-13T13:15:18Z'
       rationale: 'Geen extractie-artefacten. Twee ## secties correct opgemaakt, journaalpost-tabellen in pipe-syntax aanwezig en compleet, voetnoten [^1]–[^10] volledig gedefinieerd. Inhoud sluit logisch af. Geen invisible unicode, geen HTML-entities, geen broken tables.'
       concrete_problemen: []
 ---

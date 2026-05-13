@@ -30,7 +30,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:11:48Z'
+    confirmed_at: '2026-05-13T13:15:21Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Klein advies (4261 chars, 3 headings), volledig leesbaar en inhoudelijk compleet. Tabellen correct in pipe-syntax met header en separator. Footnotes aanwezig en correct gekoppeld ([^1] en [^2]). De boldgedrukte tussentitels 'In hoofde van vennootschap B/A' zonder ##-prefix reflecteren de originele tekststructuur en zijn niet storend voor retrieval."
     layer1:
@@ -44,7 +44,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:11:48Z'
+      run_at: '2026-05-13T13:15:21Z'
       rationale: "Klein advies (4261 chars, 3 headings), volledig leesbaar en inhoudelijk compleet. Tabellen correct in pipe-syntax met header en separator. Footnotes aanwezig en correct gekoppeld ([^1] en [^2]). De boldgedrukte tussentitels 'In hoofde van vennootschap B/A' zonder ##-prefix reflecteren de originele tekststructuur en zijn niet storend voor retrieval."
       concrete_problemen: []
 ---

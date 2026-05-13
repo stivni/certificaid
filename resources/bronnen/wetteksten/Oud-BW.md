@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:11:32Z'
+    confirmed_at: '2026-05-13T13:15:06Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "L1 warn: 3706 headings, max sectie 29650 chars (chunker auto-split). ###### Art.-headings correct, opgeheven artikels als '<Opgeheven...>' zijn Fisconet-stijl. Inhoud volledig inclusief BW boek 8 afdeling 5."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:11:32Z'
+      run_at: '2026-05-13T13:15:06Z'
       rationale: "L1 warn: 3706 headings, max sectie 29650 chars (chunker auto-split). ###### Art.-headings correct, opgeheven artikels als '<Opgeheven...>' zijn Fisconet-stijl. Inhoud volledig inclusief BW boek 8 afdeling 5."
       concrete_problemen: []
 ---

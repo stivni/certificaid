@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:11:53Z'
+    confirmed_at: '2026-05-13T13:15:25Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Substantieel verbeterd door merge_article_reference_wraps. Alle eerder gevlagde 'Art.\nN, KB ...' linewraps in amendment-headers (regels 103-104, 109-110, 119-120, 124-125 uit vorige QA) zijn nu correct als enkele regel weergegeven. Ook de 'artikel 58, § 4,\n4°' wrap is opgelost (nu inline op regel 77). De resterende 'KB nr. 53, artikel 1' op regel 124 (in Art. 12-context) is een source-typo en valt onder de (source)-uitzondering. De pseudo-tabel-streepjes in Art. 2/3 zijn legitieme bullet-lijsten, geen ETL-artefact.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:11:53Z'
+      run_at: '2026-05-13T13:15:25Z'
       rationale: Substantieel verbeterd door merge_article_reference_wraps. Alle eerder gevlagde 'Art.\nN, KB ...' linewraps in amendment-headers (regels 103-104, 109-110, 119-120, 124-125 uit vorige QA) zijn nu correct als enkele regel weergegeven. Ook de 'artikel 58, § 4,\n4°' wrap is opgelost (nu inline op regel 77). De resterende 'KB nr. 53, artikel 1' op regel 124 (in Art. 12-context) is een source-typo en valt onder de (source)-uitzondering. De pseudo-tabel-streepjes in Art. 2/3 zijn legitieme bullet-lijsten, geen ETL-artefact.
       concrete_problemen:
         - "Regel 124: 'KB nr. 53, artikel 1' in Art. 12-amendment-blok — source-typo (zou 'artikel 12' moeten zijn), valt onder (source)-uitzondering"

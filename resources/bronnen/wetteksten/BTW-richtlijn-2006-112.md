@@ -17,22 +17,22 @@ provenance:
       version: 11.12.2006
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: e62521a-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:25:03Z'
+  generated_at: '2026-05-13T13:14:40Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T13:11:53Z'
+    confirmed_at: '2026-05-13T13:15:26Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Running-headers (NL / L 347/x / Publicatieblad) zijn verdwenen — A1 is opgelost. Dotted leaders zijn verdwenen — A2 is opgelost. MAAR de TOC-strip-transformer heeft de TOC NIET aangepakt: regels 144-432 bevatten de volledige inhoudsopgave als geneste markdown-headings (## TITEL I t/m XV, ### Hoofdstuk, #### Afdeling, ##### Onderafdeling, BIJLAGE I-XII) zonder body-tekst — daarna pas (regel 432+) start de echte body. Resultaat: elke TITEL/Hoofdstuk-heading verschijnt twee keer in het document (TOC + body), wat dubbele chunks en gefragmenteerde retrieval oplevert. Vermoedelijk staat de TOC niet aan het begin van het bestand (overwegingen (1)-(63) komen ervóór), zodat de transformer niet triggert.'
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:11:53Z'
+      run_at: '2026-05-13T13:15:26Z'
       rationale: 'Running-headers (NL / L 347/x / Publicatieblad) zijn verdwenen — A1 is opgelost. Dotted leaders zijn verdwenen — A2 is opgelost. MAAR de TOC-strip-transformer heeft de TOC NIET aangepakt: regels 144-432 bevatten de volledige inhoudsopgave als geneste markdown-headings (## TITEL I t/m XV, ### Hoofdstuk, #### Afdeling, ##### Onderafdeling, BIJLAGE I-XII) zonder body-tekst — daarna pas (regel 432+) start de echte body. Resultaat: elke TITEL/Hoofdstuk-heading verschijnt twee keer in het document (TOC + body), wat dubbele chunks en gefragmenteerde retrieval oplevert. Vermoedelijk staat de TOC niet aan het begin van het bestand (overwegingen (1)-(63) komen ervóór), zodat de transformer niet triggert.'
       concrete_problemen:
         - 'Regels 144-432: volledige TOC als geneste markdown-headings zonder body (TITEL I-XV / Hoofdstuk / Afdeling / Onderafdeling / BIJLAGE I-XII). Elke heading verschijnt opnieuw in de body — dubbele chunks bij RAG.'
@@ -2056,7 +2056,7 @@ Bij de omrekening van de in artikel 399 bedoelde bedragen in de nationale muntee
 
 Onverminderd andere communautaire bepalingen vormen de bepalingen van deze richtlijn geen beletsel voor de handhaving of invoering door een lidstaat van belastingen op verzekerings- overeenkomsten en op spelen en weddenschappen, alsmede van accijnzen, registratierechten en, meer in het algemeen, van alle belastingen, rechten en heffingen die niet het karakter van een omzetbelasting bezitten, mits de heffing van deze belastingen, rechten en heffingen in het verkeer tussen de lidstaten geen aanleiding geeft tot formaliteiten in verband met grensoverschrij- ding.
 
-SLOTBEPALINGEN
+## SLOTBEPALINGEN
 
 ## Overgangsregeling voor de belastingheffing in het handelsverkeer tussen de lidstaten
 
@@ -3052,7 +3052,7 @@ Artikel 24, lid 8, onder a), b) en c) Artikel 293, onder 1), 2) en 3)
 
 Artikel 24, lid 9 Artikel 294
 
-###### Art. 24. bis, eerste alinea, eerste tot en
+Art. 24. bis, eerste alinea, eerste tot en
 
 met twaalfde streepje Artikel 287, onder 7) tot en met 16)
 
@@ -3098,339 +3098,339 @@ Artikel 26, lid 3, eerste en tweede volzin Artikel 309, eerste en tweede alinea
 
 Artikel 26, lid 4 Artikel 310
 
-###### Art. 26. bis, A, onder a), eerste alinea
+Art. 26. bis, A, onder a), eerste alinea
 
 Artikel 311, lid 1, onder 2)
 
-###### Art. 26. bis,   A,   onder   a),   tweede
+Art. 26. bis,   A,   onder   a),   tweede
 
 alinea Artikel 311, lid 2
 
-###### Art. 26. bis,   A,   onder   b)   en   c)
+Art. 26. bis,   A,   onder   b)   en   c)
 
 Artikel 311, lid 1, onder 3) en 4)
 
-###### Art. 26. bis,   A,   onder   d)
+Art. 26. bis,   A,   onder   d)
 
 Artikel 311, lid 1, onder 1)
 
-###### Art. 26. bis,   A,   onder   e)   en   f)
+Art. 26. bis,   A,   onder   e)   en   f)
 
 Artikel 311, lid 1, onder 5) en 6)
 
-###### Art. 26. bis,   A,   onder   g),   eerste   en
+Art. 26. bis,   A,   onder   g),   eerste   en
 
 tweede streepje Artikel 311, lid 3
 
-###### Art. 26. bis,   B,   lid   1
+Art. 26. bis,   B,   lid   1
 
 Artikel 313, lid 1
 
-###### Art. 26. bis,   B,   lid   2
+Art. 26. bis,   B,   lid   2
 
 ###### Art. 314
 
-###### Art. 26. bis, B, lid 2, eerste en tweede
+Art. 26. bis, B, lid 2, eerste en tweede
 
 streepje Artikel 314, onder a) tot en met d)
 
-###### Art. 26. bis,   B,   lid   3,   eerste   alinea,
+Art. 26. bis,   B,   lid   3,   eerste   alinea,
 
 eerste en tweede volzin Artikel 315, eerste en tweede alinea
 
-###### Art. 26. bis,   B,   lid   3,   tweede   alinea
+Art. 26. bis,   B,   lid   3,   tweede   alinea
 
 ###### Art. 312
 
-###### Art. 26. bis,   B,   lid   3,   tweede   alinea,
+Art. 26. bis,   B,   lid   3,   tweede   alinea,
 
 eerste en tweede streepje Artikel 312, onder 1) en 2)
 
-###### Art. 26. bis,   B,   lid   4,   eerste   alinea
+Art. 26. bis,   B,   lid   4,   eerste   alinea
 
 Artikel 316, lid 1
 
-###### Art. 26. bis,   B,   lid   4,   eerste   alinea,
+Art. 26. bis,   B,   lid   4,   eerste   alinea,
 
 onder a), b) en c) Artikel 316, lid 1, onder a), b) en c)
 
-###### Art. 26. bis,   B,   lid   4,   tweede   alinea
+Art. 26. bis,   B,   lid   4,   tweede   alinea
 
 Artikel 316, lid 2
 
-###### Art. 26. bis,   B,   lid   4,   derde   alinea,
+Art. 26. bis,   B,   lid   4,   derde   alinea,
 
 eerste en tweede volzin Artikel 317, eerste en tweede alinea
 
-###### Art. 26. bis,   B,   lid   5
+Art. 26. bis,   B,   lid   5
 
 ###### Art. 321
 
-###### Art. 26. bis,   B,   lid   6
+Art. 26. bis,   B,   lid   6
 
 ###### Art. 323
 
-###### Art. 26. bis,   B,   lid   7
+Art. 26. bis,   B,   lid   7
 
 ###### Art. 322
 
-###### Art. 26. bis, B, lid 7, onder a), b) en c)
+Art. 26. bis, B, lid 7, onder a), b) en c)
 
 Artikel 322, onder a), b) en c)
 
-###### Art. 26. bis,   B,   lid   8
+Art. 26. bis,   B,   lid   8
 
 ###### Art. 324
 
-###### Art. 26. bis,   B,   lid   9
+Art. 26. bis,   B,   lid   9
 
 ###### Art. 325
 
-###### Art. 26. bis,   B,   lid   10,   eerste   en
+Art. 26. bis,   B,   lid   10,   eerste   en
 
 tweede alinea Artikel 318, lid 1, eerste en tweede alinea
 
-###### Art. 26. bis,   B,   lid   10,   derde   alinea,
+Art. 26. bis,   B,   lid   10,   derde   alinea,
 
 eerste en tweede streepje Artikel 318, lid 2, onder a) en b)
 
-###### Art. 26. bis,   B,   lid   10,   vierde   alinea
+Art. 26. bis,   B,   lid   10,   vierde   alinea
 
 Artikel 318, lid 3
 
-###### Art. 26. bis,   B,   lid   11,   eerste   alinea
+Art. 26. bis,   B,   lid   11,   eerste   alinea
 
 ###### Art. 319
 
-###### Art. 26. bis,   B,   lid   11,   tweede   alinea,
+Art. 26. bis,   B,   lid   11,   tweede   alinea,
 
 onder a) Artikel 320, lid 1, eerste alinea
 
 Richtlijn 67/227/EEG Richtlijn 77/388/EEG Wijzigingsrichtlijnen Andere besluiten Deze richtlijn
 
-###### Art. 26. bis,   B,   lid   11,   tweede   alinea,
+Art. 26. bis,   B,   lid   11,   tweede   alinea,
 
 onder b) en c) Artikel 320, lid 1, tweede alinea
 
-###### Art. 26. bis,   B,   lid   11,   derde   alinea
+Art. 26. bis,   B,   lid   11,   derde   alinea
 
 Artikel 320, lid 2
 
-###### Art. 26. bis,   C,   lid   1,   inleidende   zin
+Art. 26. bis,   C,   lid   1,   inleidende   zin
 
 Artikel 333, lid 1 Artikel 334
 
-###### Art. 26. bis, C, lid 1, eerste tot en met
+Art. 26. bis, C, lid 1, eerste tot en met
 
 vierde streepje Artikel 334, onder a) tot en met d)
 
-###### Art. 26. bis, C, lid 2, eerste en tweede
+Art. 26. bis, C, lid 2, eerste en tweede
 
 streepje Artikel 336, onder a) en b)
 
-###### Art. 26. bis,   C,   lid   3
+Art. 26. bis,   C,   lid   3
 
 ###### Art. 337
 
-###### Art. 26. bis,   C,   lid   4,   eerste   alinea,
+Art. 26. bis,   C,   lid   4,   eerste   alinea,
 
 eerste, tweede en derde streepje Artikel 339, eerste alinea, onder a), b) en c)
 
-###### Art. 26. bis,   C,   lid   4,   tweede   alinea
+Art. 26. bis,   C,   lid   4,   tweede   alinea
 
 Artikel 339, tweede alinea
 
-###### Art. 26. bis, C, lid 5, eerste en tweede
+Art. 26. bis, C, lid 5, eerste en tweede
 
 alinea Artikel 340, lid 1, eerste en tweede alinea
 
-###### Art. 26. bis,   C,   lid   5,   derde   alinea
+Art. 26. bis,   C,   lid   5,   derde   alinea
 
 Artikel 340, lid 2
 
-###### Art. 26. bis,   C,   lid   6,   eerste   alinea,
+Art. 26. bis,   C,   lid   6,   eerste   alinea,
 
 eerste en tweede streepje Artikel 338, eerste alinea, onder a) en b)
 
-###### Art. 26. bis,   C,   lid   6,   tweede   alinea
+Art. 26. bis,   C,   lid   6,   tweede   alinea
 
 Artikel 338, tweede alinea
 
-###### Art. 26. bis,   C,   lid   7
+Art. 26. bis,   C,   lid   7
 
 ###### Art. 335
 
-###### Art. 26. bis,   D,   inleidende   zin
+Art. 26. bis,   D,   inleidende   zin
 
 —
 
-###### Art. 26. bis,   D,   onder   a)
+Art. 26. bis,   D,   onder   a)
 
 Artikel 313, lid 2 Artikel 333, lid 2
 
-###### Art. 26. bis,   D,   onder   b)
+Art. 26. bis,   D,   onder   b)
 
 Artikel 4, onder a) en c)
 
-###### Art. 26. bis,   D,   onder   c)
+Art. 26. bis,   D,   onder   c)
 
 Artikel 35 Artikel 139, lid 3, eerste alinea
 
-###### Art. 26. ter,   A,   eerste alinea,   onder   i),
+Art. 26. ter,   A,   eerste alinea,   onder   i),
 
 eerste volzin Artikel 344, lid 1, onder 1)
 
-###### Art. 26. ter,   A,   eerste alinea,   onder   i),
+Art. 26. ter,   A,   eerste alinea,   onder   i),
 
 tweede volzin Artikel 344, lid 2
 
-###### Art. 26. ter,   A,   tweede   alinea
+Art. 26. ter,   A,   tweede   alinea
 
 Artikel 344, lid 3
 
-###### Art. 26. ter,   A,   derde   alinea
+Art. 26. ter,   A,   derde   alinea
 
 ###### Art. 345
 
-###### Art. 26. ter,   B,   eerste   alinea
+Art. 26. ter,   B,   eerste   alinea
 
 ###### Art. 346
 
-###### Art. 26. ter,   B,   tweede   alinea
+Art. 26. ter,   B,   tweede   alinea
 
 ###### Art. 347
 
-###### Art. 26. ter,   C,   eerste   alinea
+Art. 26. ter,   C,   eerste   alinea
 
 ###### Art. 348
 
-###### Art. 26. ter,   C,   tweede   alinea,   eerste
+Art. 26. ter,   C,   tweede   alinea,   eerste
 
 en tweede volzin Artikel 349, leden 1 en 2
 
-###### Art. 26. ter,   C,   derde   alinea
+Art. 26. ter,   C,   derde   alinea
 
 ###### Art. 350
 
-###### Art. 26. ter,   C,   vierde   alinea
+Art. 26. ter,   C,   vierde   alinea
 
 ###### Art. 351
 
-###### Art. 26. ter, D, lid 1, onder a), b) en c)
+Art. 26. ter, D, lid 1, onder a), b) en c)
 
 Artikel 354, onder a), b) en c)
 
-###### Art. 26. ter,   D,   lid   2
+Art. 26. ter,   D,   lid   2
 
 ###### Art. 355
 
-###### Art. 26. ter, E, eerste en tweede alinea
+Art. 26. ter, E, eerste en tweede alinea
 
 Artikel 356, lid 1, eerste en tweede alinea
 
-###### Art. 26. ter,   E,   derde   en   vierde   alinea
+Art. 26. ter,   E,   derde   en   vierde   alinea
 
 Artikel 356, leden 2 en 3
 
-###### Art. 26. ter,   F,   eerste   volzin
+Art. 26. ter,   F,   eerste   volzin
 
 Artikel 198, leden 2 en 3
 
-###### Art. 26. ter,   F,   tweede   volzin
+Art. 26. ter,   F,   tweede   volzin
 
 Artikelen 208 en 255
 
-###### Art. 26. ter,   G,   lid   1,   eerste   alinea
+Art. 26. ter,   G,   lid   1,   eerste   alinea
 
 ###### Art. 352
 
-###### Art. 26. ter,   G,   lid   1,   tweede   alinea
+Art. 26. ter,   G,   lid   1,   tweede   alinea
 
 —
 
-###### Art. 26. ter,   G,   lid   2,   onder   a)
+Art. 26. ter,   G,   lid   2,   onder   a)
 
 ###### Art. 353
 
-###### Art. 26. ter,   G,   lid   2,   onder   b),   eerste
+Art. 26. ter,   G,   lid   2,   onder   b),   eerste
 
 en tweede volzin Artikel 198, leden 1 en 3
 
-###### Art. 26. quater, A, onder a) tot en met
+Art. 26. quater, A, onder a) tot en met
 
 e) Artikel 358, onder 1) tot en met 5)
 
-###### Art. 26. quater,   B,   lid   1
+Art. 26. quater,   B,   lid   1
 
 ###### Art. 359
 
-###### Art. 26. quater,   B,   lid   2,   eerste   alinea
+Art. 26. quater,   B,   lid   2,   eerste   alinea
 
 ###### Art. 360
 
-###### Art. 26. quater, B, lid 2, tweede alinea,
+Art. 26. quater, B, lid 2, tweede alinea,
 
 eerste deel van eerste volzin Artikel 361, lid 1
 
-###### Art. 26. quater, B, lid 2, tweede alinea,
+Art. 26. quater, B, lid 2, tweede alinea,
 
 tweede deel van eerste volzin Artikel 361, lid 1, onder a) tot en met e)
 
 Richtlijn 67/227/EEG Richtlijn 77/388/EEG Wijzigingsrichtlijnen Andere besluiten Deze richtlijn
 
-###### Art. 26. quater, B, lid 2, tweede alinea,
+Art. 26. quater, B, lid 2, tweede alinea,
 
 tweede volzin Artikel 361, lid 2
 
-###### Art. 26. quater,   B,   lid   3,   eerste   en
+Art. 26. quater,   B,   lid   3,   eerste   en
 
 tweede alinea Artikel 362
 
-###### Art. 26. quater,   B,   lid   4,   onder   a)   tot
+Art. 26. quater,   B,   lid   4,   onder   a)   tot
 
 en met d) Artikel 363, onder a) tot en met d)
 
-###### Art. 26. quater,   B,   lid   5,   eerste   alinea
+Art. 26. quater,   B,   lid   5,   eerste   alinea
 
 ###### Art. 364
 
-###### Art. 26. quater, B, lid 5, tweede alinea
+Art. 26. quater, B, lid 5, tweede alinea
 
 ###### Art. 365
 
-###### Art. 26. quater,   B,   lid   6,   eerste   volzin
+Art. 26. quater,   B,   lid   6,   eerste   volzin
 
 Artikel 366, lid 1, eerste alinea
 
-###### Art. 26. quater,   B,   lid   6,   tweede   en
+Art. 26. quater,   B,   lid   6,   tweede   en
 
 derde volzin Artikel 366, lid 1, tweede alinea
 
-###### Art. 26. quater, B, lid 6, vierde   volzin
+Art. 26. quater, B, lid 6, vierde   volzin
 
 Artikel 366, lid 2
 
-###### Art. 26. quater,   B,   lid   7,   eerste   volzin
+Art. 26. quater,   B,   lid   7,   eerste   volzin
 
 Artikel 367, eerste alinea
 
-###### Art. 26. quater,   B,   lid   7,   tweede   en
+Art. 26. quater,   B,   lid   7,   tweede   en
 
 derde volzin Artikel 367, tweede alinea
 
-###### Art. 26. quater,   B,   lid   8
+Art. 26. quater,   B,   lid   8
 
 ###### Art. 368
 
-###### Art. 26. quater,   B,   lid   9,   eerste   volzin
+Art. 26. quater,   B,   lid   9,   eerste   volzin
 
 Artikel 369, lid 1
 
-###### Art. 26. quater,   B,   lid   9,   tweede   en
+Art. 26. quater,   B,   lid   9,   tweede   en
 
 derde volzin Artikel 369, lid 2, eerste en tweede alinea
 
-###### Art. 26. quater,   B,   lid   10
+Art. 26. quater,   B,   lid   10
 
 Artikel 204, lid 1, derde alinea
 
@@ -3510,257 +3510,257 @@ Artikel 28, lid 6, vierde alinea, onder a), b) en c) Artikel 108, onder a), b) e
 
 Artikel 28, lid 6, vijfde en zesde alinea —
 
-###### Art. 28. bis,   lid   1,   inleidende   zin
+Art. 28. bis,   lid   1,   inleidende   zin
 
 Artikel 2, lid 1
 
-###### Art. 28. bis,   lid   1,   onder   a),   eerste
+Art. 28. bis,   lid   1,   onder   a),   eerste
 
 alinea Artikel 2, lid 1, onder b), i)
 
-###### Art. 28. bis,   lid   1,   onder   a),   tweede
+Art. 28. bis,   lid   1,   onder   a),   tweede
 
 alinea Artikel 3, lid 1
 
-###### Art. 28. bis,   lid   1,   onder   a),   derde
+Art. 28. bis,   lid   1,   onder   a),   derde
 
 alinea Artikel 3, lid 3
 
-###### Art. 28. bis,   lid   1,   onder   b)
+Art. 28. bis,   lid   1,   onder   b)
 
 Artikel 2, lid 1, onder b), ii)
 
-###### Art. 28. bis,   lid   1,   onder   c)
+Art. 28. bis,   lid   1,   onder   c)
 
 Artikel 3, lid 1, onder b), iii)
 
-###### Art. 28. bis,   lid   1   bis,   onder   a)
+Art. 28. bis,   lid   1   bis,   onder   a)
 
 Artikel 3, lid 1, onder a)
 
-###### Art. 28. bis, lid 1 bis, onder b), eerste
+Art. 28. bis, lid 1 bis, onder b), eerste
 
 alinea, eerste streepje Artikel 3, lid 1, onder b)
 
-###### Art. 28. bis, lid 1 bis, onder b), eerste
+Art. 28. bis, lid 1 bis, onder b), eerste
 
 alinea, tweede en derde streepje Artikel 3, lid 2, eerste alinea, onder a) en b)
 
-###### Art. 28. bis,   lid   1   bis,   onder   b),
+Art. 28. bis,   lid   1   bis,   onder   b),
 
 tweede alinea Artikel 3, lid 2, tweede alinea
 
-###### Art. 28. bis,   lid   2,   inleidende   zin
+Art. 28. bis,   lid   2,   inleidende   zin
 
 —
 
-###### Art. 28. bis,   lid   2,   onder   a)
+Art. 28. bis,   lid   2,   onder   a)
 
 Artikel 2, lid 2, eerste alinea, onder a), b) en c)
 
-###### Art. 28. bis,   lid   2,   onder   b),   eerste
+Art. 28. bis,   lid   2,   onder   b),   eerste
 
 alinea Artikel 2, lid 2, tweede alinea
 
-###### Art. 28. bis,   lid   2,   onder   b),   tweede
+Art. 28. bis,   lid   2,   onder   b),   tweede
 
 alinea Artikel 2, lid 2, derde alinea
 
-###### Art. 28. bis,   lid   3,   eerste   en   tweede
+Art. 28. bis,   lid   3,   eerste   en   tweede
 
 alinea Artikel 20, eerste en tweede alinea
 
-###### Art. 28. bis,   lid   4,   eerste   alinea
+Art. 28. bis,   lid   4,   eerste   alinea
 
 Artikel 9, lid 2
 
-###### Art. 28. bis,   lid   4,   tweede   alinea,
+Art. 28. bis,   lid   4,   tweede   alinea,
 
 eerste streepje Artikel 172, lid 1, tweede alinea
 
-###### Art. 28. bis,   lid   4,   tweede   alinea,
+Art. 28. bis,   lid   4,   tweede   alinea,
 
 tweede streepje Artikel 172, lid 1, eerste alinea
 
-###### Art. 28. bis,   lid   4,   derde   alinea
+Art. 28. bis,   lid   4,   derde   alinea
 
 Artikel 172, lid 2
 
-###### Art. 28. bis,   lid   5,   onder   b),   eerste
+Art. 28. bis,   lid   5,   onder   b),   eerste
 
 alinea Artikel 17, lid 1, eerste alinea
 
-###### Art. 28. bis,   lid   5,   onder   b),   tweede
+Art. 28. bis,   lid   5,   onder   b),   tweede
 
 alinea Artikel 17, lid 1, tweede alinea, en lid 2, inleidende zin
 
-###### Art. 28. bis,   lid   5,   onder   b),   tweede
+Art. 28. bis,   lid   5,   onder   b),   tweede
 
 alinea, eerste streepje Artikel 17, lid 2, onder a) en b)
 
-###### Art. 28. bis,   lid   5,   onder   b),   tweede
+Art. 28. bis,   lid   5,   onder   b),   tweede
 
 alinea, tweede streepje Artikel 17, lid 2, onder c)
 
-###### Art. 28. bis,   lid   5,   onder   b),   tweede
+Art. 28. bis,   lid   5,   onder   b),   tweede
 
 alinea, derde streepje Artikel 17, lid 2, onder e)
 
-###### Art. 28. bis,   lid   5,   onder   b),   tweede
+Art. 28. bis,   lid   5,   onder   b),   tweede
 
 alinea, vijfde, zesde en zevende streepje Artikel 17, lid 2, onder f), g) en h)
 
-###### Art. 28. bis,   lid   5,   onder   b),   tweede
+Art. 28. bis,   lid   5,   onder   b),   tweede
 
 alinea, achtste streepje Artikel 17, lid 2, onder d)
 
-###### Art. 28. bis,   lid   5,   onder   b),   derde
+Art. 28. bis,   lid   5,   onder   b),   derde
 
 alinea Artikel 17, lid 3
 
-###### Art. 28. bis,   lid   6,   eerste   alinea
+Art. 28. bis,   lid   6,   eerste   alinea
 
 ###### Art. 21
 
-###### Art. 28. bis,   lid   6,   tweede   alinea
+Art. 28. bis,   lid   6,   tweede   alinea
 
 ###### Art. 22
 
-###### Art. 28. bis,   lid   7
+Art. 28. bis,   lid   7
 
 ###### Art. 23
 
-###### Art. 28. ter,   A,   lid   1
+Art. 28. ter,   A,   lid   1
 
 ###### Art. 40
 
-###### Art. 28. ter, A, lid 2, eerste en tweede
+Art. 28. ter, A, lid 2, eerste en tweede
 
 alinea Artikel 41, eerste en tweede alinea
 
-###### Art. 28. ter,   A,   lid   2,   derde   alinea,
+Art. 28. ter,   A,   lid   2,   derde   alinea,
 
 eerste en tweede streepje Artikel 42, onder a) en b)
 
 Richtlijn 67/227/EEG Richtlijn 77/388/EEG Wijzigingsrichtlijnen Andere besluiten Deze richtlijn
 
-###### Art. 28. ter,   B,   lid   1,   eerste   alinea,
+Art. 28. ter,   B,   lid   1,   eerste   alinea,
 
 eerste en tweede streepje Artikel 33, lid 1, onder a) en b)
 
-###### Art. 28. ter,   B,   lid   1,   tweede   alinea
+Art. 28. ter,   B,   lid   1,   tweede   alinea
 
 Artikel 33, lid 2
 
-###### Art. 28. ter,   B,   lid   2,   eerste   alinea
+Art. 28. ter,   B,   lid   2,   eerste   alinea
 
 Artikel 34, lid 1, onder a)
 
-###### Art. 28. ter,   B,   lid   2,   eerste   alinea,
+Art. 28. ter,   B,   lid   2,   eerste   alinea,
 
 eerste en tweede streepje Artikel 34, lid 1, onder b) en c)
 
-###### Art. 28. ter,   B,   lid   2,   tweede   alinea,
+Art. 28. ter,   B,   lid   2,   tweede   alinea,
 
 eerste en tweede volzin Artikel 34, lid 2, eerste en tweede alinea
 
-###### Art. 28. ter,   B,   lid   2,   derde   alinea,
+Art. 28. ter,   B,   lid   2,   derde   alinea,
 
 eerste volzin Artikel 34, lid 3
 
-###### Art. 28. ter,   B,   lid   2,   derde   alinea,
+Art. 28. ter,   B,   lid   2,   derde   alinea,
 
 tweede en derde volzin —
 
-###### Art. 28. ter,   B, lid 3, eerste en   tweede
+Art. 28. ter,   B, lid 3, eerste en   tweede
 
 alinea Artikel 34, lid 4, eerste en tweede alinea
 
-###### Art. 28. ter,   C,   lid   1,   eerste   streepje,
+Art. 28. ter,   C,   lid   1,   eerste   streepje,
 
 eerste alinea Artikel 48, eerste alinea
 
-###### Art. 28. ter,   C,   lid   1,   eerste   streepje,
+Art. 28. ter,   C,   lid   1,   eerste   streepje,
 
 tweede alinea Artikel 49
 
-###### Art. 28. ter,   C,   lid   1,   tweede   en   derde
+Art. 28. ter,   C,   lid   1,   tweede   en   derde
 
 streepje Artikel 48, tweede en derde alinea
 
-###### Art. 28. ter,   C,   leden   2   en   3
+Art. 28. ter,   C,   leden   2   en   3
 
 Artikel 47, eerste en tweede alinea
 
-###### Art. 28. ter,   C,   lid   4
+Art. 28. ter,   C,   lid   4
 
 ###### Art. 51
 
-###### Art. 28. ter,   D
+Art. 28. ter,   D
 
 ###### Art. 53
 
-###### Art. 28. ter,   E,   lid   1,   eerste   en   tweede
+Art. 28. ter,   E,   lid   1,   eerste   en   tweede
 
 alinea Artikel 50, eerste en tweede alinea
 
-###### Art. 28. ter,   E,   lid   2,   eerste en   tweede
+Art. 28. ter,   E,   lid   2,   eerste en   tweede
 
 alinea Artikel 54, eerste en tweede alinea
 
-###### Art. 28. ter,   E,   lid   3,   eerste en   tweede
+Art. 28. ter,   E,   lid   3,   eerste en   tweede
 
 alinea Artikel 44, eerste en tweede alinea
 
-###### Art. 28. ter, F, eerste en tweede alinea
+Art. 28. ter, F, eerste en tweede alinea
 
 Artikel 55, eerste en tweede alinea
 
-###### Art. 28. quater,   A,   inleidende   zin
+Art. 28. quater,   A,   inleidende   zin
 
 ###### Art. 131
 
-###### Art. 28. quater,   A,   onder   a),   tweede
+Art. 28. quater,   A,   onder   a),   tweede
 
 alinea Artikel 139, lid 1, eerste en tweede alinea
 
-###### Art. 28. quater,   A,   onder   b)
+Art. 28. quater,   A,   onder   b)
 
 Artikel 138, lid 2, onder a)
 
-###### Art. 28. quater,   A,   onder   c),   eerste
+Art. 28. quater,   A,   onder   c),   eerste
 
 alinea Artikel 138, lid 2, onder b)
 
-###### Art. 28. quater,   A,   onder   c),   tweede
+Art. 28. quater,   A,   onder   c),   tweede
 
 alinea Artikel 139, lid 2
 
-###### Art. 28. quater,   A,   onder   d)
+Art. 28. quater,   A,   onder   d)
 
 Artikel 138, lid 2, onder c)
 
-###### Art. 28. quater,   B,   inleidende   zin
+Art. 28. quater,   B,   inleidende   zin
 
 ###### Art. 131
 
-###### Art. 28. quater,   B,   onder   a),   b)   en   c)
+Art. 28. quater,   B,   onder   a),   b)   en   c)
 
 Artikel 140, onder a), b) en c)
 
-###### Art. 28. quater,   C
+Art. 28. quater,   C
 
 ###### Art. 142
 
-###### Art. 28. quater,   D,   eerste   alinea
+Art. 28. quater,   D,   eerste   alinea
 
 Artikel 143, onder d)
 
-###### Art. 28. quater,   D,   tweede   alinea
+Art. 28. quater,   D,   tweede   alinea
 
 ###### Art. 131
 
-###### Art. 28. quater,   E,   punt   1,   eerste
+Art. 28. quater,   E,   punt   1,   eerste
 
 streepje, dat artikel 16, lid 1, vervangt
 
@@ -3800,19 +3800,19 @@ Richtlijn 67/227/EEG Richtlijn 77/388/EEG Wijzigingsrichtlijnen Andere besluiten
 
 — lid 1, derde alinea Artikel 163
 
-###### Art. 28. quater,   E,   onder   1),   tweede
+Art. 28. quater,   E,   onder   1),   tweede
 
 streepje, dat lid 1 bis in artikel 16, invoegt
 
 — lid 1 bis Artikel 162
 
-###### Art. 28. quater,   E,   onder   2),   eerste
+Art. 28. quater,   E,   onder   2),   eerste
 
 streepje, dat artikel 16, lid 2, wijzigt
 
 — lid 2, eerste alinea Artikel 164, lid 1
 
-###### Art. 28. quater,   E,   onder   2),   tweede
+Art. 28. quater,   E,   onder   2),   tweede
 
 streepje, dat de tweede en derde alinea in artikel 16, lid 2, invoegt
 
@@ -3820,39 +3820,39 @@ streepje, dat de tweede en derde alinea in artikel 16, lid 2, invoegt
 
 — lid 2, derde alinea Artikel 165
 
-###### Art. 28. quater, E, onder 3), eerste tot
+Art. 28. quater, E, onder 3), eerste tot
 
 en met vijfde streepje Artikel 141, onder a) tot en met e)
 
-###### Art. 28. quinquies,   lid   1,   eerste   en
+Art. 28. quinquies,   lid   1,   eerste   en
 
 tweede volzin Artikel 68, eerste en tweede alinea
 
-###### Art. 28. quinquies,   lid   4,   eerste   en
+Art. 28. quinquies,   lid   4,   eerste   en
 
 tweede alinea Artikel 67, leden 1 en 2
 
-###### Art. 28. sexies,   lid   1,   eerste   alinea
+Art. 28. sexies,   lid   1,   eerste   alinea
 
 ###### Art. 83
 
-###### Art. 28. sexies,   lid   1,   tweede   alinea,
+Art. 28. sexies,   lid   1,   tweede   alinea,
 
 eerste en tweede volzin Artikel 84, leden 1 en 2
 
-###### Art. 28. sexies,   lid   2
+Art. 28. sexies,   lid   2
 
 ###### Art. 76
 
-###### Art. 28. sexies,   lid   3
+Art. 28. sexies,   lid   3
 
 Artikel 93, tweede alinea, onder b)
 
-###### Art. 28. sexies,   lid   4
+Art. 28. sexies,   lid   4
 
 Artikel 94, lid 1
 
-###### Art. 28. septies,   onder   1),   dat   arti-
+Art. 28. septies,   onder   1),   dat   arti-
 
 kel 17, leden 2, 3 en 4, vervangt
 
@@ -3876,7 +3876,7 @@ kel 17, leden 2, 3 en 4, vervangt
 
 — lid 4, tweede alinea, onder c) Artikel 171, lid 3
 
-###### Art. 28. septies,   onder   2),   dat   arti-
+Art. 28. septies,   onder   2),   dat   arti-
 
 kel 18, lid 1, vervangt
 
@@ -3892,7 +3892,7 @@ kel 18, lid 1, vervangt
 
 Richtlijn 67/227/EEG Richtlijn 77/388/EEG Wijzigingsrichtlijnen Andere besluiten Deze richtlijn
 
-###### Art. 28. septies, onder 3), dat lid 3 bis
+Art. 28. septies, onder 3), dat lid 3 bis
 
 in artikel 18 invoegt
 
@@ -3900,7 +3900,7 @@ in artikel 18 invoegt
 
 — lid 3 bis, tweede deel van volzin Artikel 182
 
-###### Art. 28. octies, dat artikel 21 vervangt
+Art. 28. octies, dat artikel 21 vervangt
 
 — lid 1, onder a), eerste alinea Artikel 193
 
@@ -3934,7 +3934,7 @@ in artikel 18 invoegt
 
 — lid 4 Artikel 201
 
-###### Art. 28. nonies,   dat   artikel   21   ver-
+Art. 28. nonies,   dat   artikel   21   ver-
 
 vangt
 
@@ -4124,19 +4124,19 @@ Richtlijn 67/227/EEG Richtlijn 77/388/EEG Wijzigingsrichtlijnen Andere besluiten
 
 — lid 12, onder b), eerste, tweede en derde streepje Artikel 271, onder a), b) en c)
 
-###### Art. 28. decies,   dat   de derde alinea in
+Art. 28. decies,   dat   de derde alinea in
 
 artikel 23, lid 3, invoegt
 
 — lid 3, derde alinea Artikel 283, lid 1, onder b) en c)
 
-###### Art. 28. undecies,   onder   1),   dat   de
+Art. 28. undecies,   onder   1),   dat   de
 
 tweede alinea in artikel 25, lid 4, invoegt
 
 — lid 4, tweede alinea Artikel 272, lid 2
 
-###### Art. 28. undecies,   onder   2),   dat
+Art. 28. undecies,   onder   2),   dat
 
 artikel 25, leden 5 en 6, vervangt
 
@@ -4156,143 +4156,143 @@ Richtlijn 67/227/EEG Richtlijn 77/388/EEG Wijzigingsrichtlijnen Andere besluiten
 
 — lid 6, onder b) Artikel 301, lid 1
 
-###### Art. 28. undecies,   onder   3),   dat   de
+Art. 28. undecies,   onder   3),   dat   de
 
 tweede alinea in artikel 25, lid 9, invoegt
 
 — lid 9, tweede alinea Artikel 305
 
-###### Art. 28. duodecies,   onder   1),   eerste
+Art. 28. duodecies,   onder   1),   eerste
 
 alinea —
 
-###### Art. 28. duodecies,   onder   1),   tweede
+Art. 28. duodecies,   onder   1),   tweede
 
 alinea, onder a) Artikel 158, lid 3
 
-###### Art. 28. duodecies,   onder   1),   tweede
+Art. 28. duodecies,   onder   1),   tweede
 
 alinea, onder b) en c) —
 
-###### Art. 28. duodecies, onder 2), 3) en 4)
+Art. 28. duodecies, onder 2), 3) en 4)
 
 —
 
-###### Art. 28. duodecies,   onder   5)
+Art. 28. duodecies,   onder   5)
 
 Artikel 158, lid 2
 
-###### Art. 28. terdecies,   eerste   alinea
+Art. 28. terdecies,   eerste   alinea
 
 —
 
-###### Art. 28. terdecies,   tweede   en   derde
+Art. 28. terdecies,   tweede   en   derde
 
 alinea Artikel 402, leden 1 en 2
 
-###### Art. 28. terdecies,   vierde   alinea
+Art. 28. terdecies,   vierde   alinea
 
 —
 
-###### Art. 28. quaterdecies
+Art. 28. quaterdecies
 
 Artikel 399, eerste alinea
 
-###### Art. 28. quindecies
+Art. 28. quindecies
 
 —
 
-###### Art. 28. sexdecies,   lid   1,   inleidende
+Art. 28. sexdecies,   lid   1,   inleidende
 
 zin Artikel 326, eerste alinea
 
-###### Art. 28. sexdecies,   lid   1,   onder   a),
+Art. 28. sexdecies,   lid   1,   onder   a),
 
 eerste volzin Artikel 327, leden 1 en 3
 
-###### Art. 28. sexdecies,   lid   1,   onder   a),
+Art. 28. sexdecies,   lid   1,   onder   a),
 
 tweede volzin Artikel 327, lid 2
 
-###### Art. 28. sexdecies,   lid   1,   onder   b)
+Art. 28. sexdecies,   lid   1,   onder   b)
 
 ###### Art. 328
 
-###### Art. 28. sexdecies,   lid   1,   onder   c),
+Art. 28. sexdecies,   lid   1,   onder   c),
 
 eerste, tweede en derde streepje Artikel 329, onder a), b) en c)
 
-###### Art. 28. sexdecies,   lid   1,   onder   e)
+Art. 28. sexdecies,   lid   1,   onder   e)
 
 ###### Art. 332
 
-###### Art. 28. sexdecies,   lid   1,   onder   f)
+Art. 28. sexdecies,   lid   1,   onder   f)
 
 ###### Art. 331
 
-###### Art. 28. sexdecies,   lid   1,   onder   g)
+Art. 28. sexdecies,   lid   1,   onder   g)
 
 Artikel 4, onder b)
 
-###### Art. 28. sexdecies,   lid   1,   onder   h)
+Art. 28. sexdecies,   lid   1,   onder   h)
 
 Artikel 35 Artikel 139, lid 3, tweede alinea
 
-###### Art. 28. sexdecies,   lid   2
+Art. 28. sexdecies,   lid   2
 
 Artikel 326, tweede alinea
 
-###### Art. 28. sexdecies,   lid   3
+Art. 28. sexdecies,   lid   3
 
 ###### Art. 341
 
-###### Art. 28. sexdecies,   lid   4
+Art. 28. sexdecies,   lid   4
 
 —
 
-###### Art. 28. septdecies,   lid   1,   eerste,
+Art. 28. septdecies,   lid   1,   eerste,
 
 tweede en derde streepje Artikel 405, onder 1), 2) en 3)
 
-###### Art. 28. septdecies,   lid   2
+Art. 28. septdecies,   lid   2
 
 ###### Art. 406
 
-###### Art. 28. septdecies,   eerste   alinea,
+Art. 28. septdecies,   eerste   alinea,
 
 eerste en tweede streepje Artikel 407, onder a) en b)
 
-###### Art. 28. septdecies,   lid   3,   tweede
+Art. 28. septdecies,   lid   3,   tweede
 
 alinea —
 
-###### Art. 28. septdecies, lid 4, onder a) tot
+Art. 28. septdecies, lid 4, onder a) tot
 
 en met d) Artikel 408, lid 1, onder a) tot en met d)
 
-###### Art. 28. septdecies,   lid   5,   eerste   en
+Art. 28. septdecies,   lid   5,   eerste   en
 
 tweede streepje Artikel 408, lid 2, onder a) en b)
 
-###### Art. 28. septdecies,   lid   6
+Art. 28. septdecies,   lid   6
 
 ###### Art. 409
 
-###### Art. 28. septdecies, lid 7, eerste alinea,
+Art. 28. septdecies, lid 7, eerste alinea,
 
 onder a), b) en c) Artikel 410, lid 1, onder a), b) en c)
 
-###### Art. 28. septdecies,   lid   7,   tweede
+Art. 28. septdecies,   lid   7,   tweede
 
 alinea, eerste streepje —
 
-###### Art. 28. septdecies,   lid   7,   tweede
+Art. 28. septdecies,   lid   7,   tweede
 
 alinea, tweede en derde streepje Artikel 410, lid 2, onder a) en b)
 
 Artikel 29, leden 1 tot en met 4 Artikel 398, leden 1 tot en met 4
 
-###### Art. 29. bis
+Art. 29. bis
 
 ###### Art. 397
 
@@ -4314,31 +4314,31 @@ Artikel 33, lid 1 Artikel 401
 
 Artikel 33, lid 2 Artikel 2, lid 3
 
-###### Art. 33. bis,   lid   1,   inleidende   zin
+Art. 33. bis,   lid   1,   inleidende   zin
 
 ###### Art. 274
 
-###### Art. 33. bis,   lid   1,   onder   a)
+Art. 33. bis,   lid   1,   onder   a)
 
 ###### Art. 275
 
-###### Art. 33. bis,   lid   1,   onder   b)
+Art. 33. bis,   lid   1,   onder   b)
 
 ###### Art. 276
 
-###### Art. 33. bis,   lid   1,   onder   c)
+Art. 33. bis,   lid   1,   onder   c)
 
 ###### Art. 277
 
-###### Art. 33. bis,   lid   2,   inleidende   zin
+Art. 33. bis,   lid   2,   inleidende   zin
 
 ###### Art. 278
 
-###### Art. 33. bis,   lid   2,   onder   a)
+Art. 33. bis,   lid   2,   onder   a)
 
 ###### Art. 279
 
-###### Art. 33. bis,   lid   2,   onder   b)
+Art. 33. bis,   lid   2,   onder   b)
 
 ###### Art. 280
 
@@ -4434,17 +4434,17 @@ Bijlage M, onder a) tot en met f) Bijlage VI, onder 1) tot en met 6)
 
 Artikel 1, onder 1), tweede alinea, van Richtlijn 89/465/EEG Artikel 133, tweede alinea
 
-###### Art. 2. van   Richtlijn   94/5/EG
+Art. 2. van   Richtlijn   94/5/EG
 
 ###### Art. 342
 
 Artikel 3, eerste en tweede volzin, van Richtlijn 94/5/EG Artikel 343, eerste en tweede alinea
 
-###### Art. 4. van   Richtlijn   2002/38/EG
+Art. 4. van   Richtlijn   2002/38/EG
 
 Artikel 56, lid 3 Artikel 57, lid 2 Artikel 357
 
-###### Art. 5. van   Richtlijn   2002/38/EG
+Art. 5. van   Richtlijn   2002/38/EG
 
 —
 

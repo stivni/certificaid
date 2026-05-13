@@ -29,7 +29,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:11:40Z'
+    confirmed_at: '2026-05-13T13:15:12Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Kort en schoon advies (4765 chars, 4 headings). Trefwoorden-sectie als ## heading aanwezig. Vier voetnoten correct geformatteerd. Geciteerde wetsartikelen in cursief correct gemarkeerd. Geen artefacten.'
     layer1:
@@ -43,7 +43,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:11:40Z'
+      run_at: '2026-05-13T13:15:12Z'
       rationale: 'Kort en schoon advies (4765 chars, 4 headings). Trefwoorden-sectie als ## heading aanwezig. Vier voetnoten correct geformatteerd. Geciteerde wetsartikelen in cursief correct gemarkeerd. Geen artefacten.'
       concrete_problemen: []
 ---

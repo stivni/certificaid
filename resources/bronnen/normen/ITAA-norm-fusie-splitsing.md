@@ -28,7 +28,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:11:46Z'
+    confirmed_at: '2026-05-13T13:15:18Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Laag-1 pass zonder flags. Inhoud volledig en logisch gestructureerd: 4 hoofdsecties (Overwegingen, Toepassingsgebied, Controlewerkzaamheden, Inhoud van het verslag) elk met coherente subsecties als ## headings. Voetnoten correct onderaan secties als genummerde lijstregels. Markdown-tabel in Bijlage valide pipe-syntax. Geen zichtbare PDF-artefacten, OCR-fouten, column-bleed of broken lines.'
     layer1:
@@ -42,7 +42,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:11:46Z'
+      run_at: '2026-05-13T13:15:18Z'
       rationale: 'Laag-1 pass zonder flags. Inhoud volledig en logisch gestructureerd: 4 hoofdsecties (Overwegingen, Toepassingsgebied, Controlewerkzaamheden, Inhoud van het verslag) elk met coherente subsecties als ## headings. Voetnoten correct onderaan secties als genummerde lijstregels. Markdown-tabel in Bijlage valide pipe-syntax. Geen zichtbare PDF-artefacten, OCR-fouten, column-bleed of broken lines.'
       concrete_problemen:
         - regel: 96

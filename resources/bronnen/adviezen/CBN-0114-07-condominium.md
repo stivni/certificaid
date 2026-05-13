@@ -29,7 +29,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:11:42Z'
+    confirmed_at: '2026-05-13T13:15:14Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Vorige L2 flagde een en-dash in een H1-heading, maar de werkelijke H1 in de body is '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' — geen dash aanwezig. Body bestaat uit vier schone alinea's (2203 chars), geen italics, geen voetnoten nodig, geen extractie-artefacten. Inhoud compleet en coherent.
     layer1:
@@ -43,7 +43,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:11:42Z'
+      run_at: '2026-05-13T13:15:14Z'
       rationale: Vorige L2 flagde een en-dash in een H1-heading, maar de werkelijke H1 in de body is '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' — geen dash aanwezig. Body bestaat uit vier schone alinea's (2203 chars), geen italics, geen voetnoten nodig, geen extractie-artefacten. Inhoud compleet en coherent.
       concrete_problemen: []
 ---

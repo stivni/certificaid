@@ -30,7 +30,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:11:42Z'
+    confirmed_at: '2026-05-13T13:15:14Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel 'CBN advies 100 - Omzet – Begrip' staat slechts eenmaal (r51). Geen andere artefacten gevonden. Inhoud volledig: definitie omzetcijfer correct geciteerd, voetnoot [^1] aanwezig en correct gelinkt. Em-dash in de titel (Omzet – Begrip) is typografisch correct voor de CBN-huisstijl."
     layer1:
@@ -44,7 +44,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:11:42Z'
+      run_at: '2026-05-13T13:15:14Z'
       rationale: "B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel 'CBN advies 100 - Omzet – Begrip' staat slechts eenmaal (r51). Geen andere artefacten gevonden. Inhoud volledig: definitie omzetcijfer correct geciteerd, voetnoot [^1] aanwezig en correct gelinkt. Em-dash in de titel (Omzet – Begrip) is typografisch correct voor de CBN-huisstijl."
       concrete_problemen: []
 ---

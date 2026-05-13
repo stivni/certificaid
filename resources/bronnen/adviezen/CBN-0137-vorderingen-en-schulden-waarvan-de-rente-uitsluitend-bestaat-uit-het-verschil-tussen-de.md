@@ -38,7 +38,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:11:42Z'
+    confirmed_at: '2026-05-13T13:15:14Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Vorige verdict (B3 duplicate) was onjuist: de body bevat slechts één H1 (regel 63) en daarna aaneengesloten proza zonder verdere headings. Geen ETL-artefacten, geen afgekapte zinnen, italics correct (*bis*, *cf*). Inhoud volledig voor dit advies uit 1986 dat geen voetnoten bevat.'
     layer1:
@@ -52,7 +52,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:11:42Z'
+      run_at: '2026-05-13T13:15:14Z'
       rationale: 'Vorige verdict (B3 duplicate) was onjuist: de body bevat slechts één H1 (regel 63) en daarna aaneengesloten proza zonder verdere headings. Geen ETL-artefacten, geen afgekapte zinnen, italics correct (*bis*, *cf*). Inhoud volledig voor dit advies uit 1986 dat geen voetnoten bevat.'
       concrete_problemen: []
 ---
