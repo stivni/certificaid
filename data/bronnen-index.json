@@ -397,6 +397,25 @@
       "layer2_status": "trusted"
     },
     {
+      "bestand": "KB-2017-plichtenleer-bibf.md",
+      "bron_rol": "wettekst",
+      "stem": "KB-2017-plichtenleer-bibf",
+      "titel": "Koninklijk besluit van 18 juli 2017 tot goedkeuring van het reglement van plichtenleer van het Beroepsinstituut van erkende Boekhouders en Fiscalisten (BIBF)",
+      "korte_naam": "KB 2017 plichtenleer bibf",
+      "tags": [
+        "XXI",
+        "4.0",
+        "ethiek",
+        "deontologie",
+        "plichtenleer",
+        "bibf"
+      ],
+      "trust_status": "trusted",
+      "trust_confirmed_by": "human",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
       "bestand": "KB-21-10-2018.md",
       "bron_rol": "wettekst",
       "stem": "KB-21-10-2018",
@@ -2011,24 +2030,6 @@
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
       "layer2_status": "trusted"
-    },
-    {
-      "bestand": "ITAA-deontologische-code.md",
-      "bron_rol": "norm",
-      "stem": "ITAA-deontologische-code",
-      "titel": "ITAA-deontologische-code",
-      "korte_naam": "ITAA deontologische code",
-      "tags": [
-        "norm",
-        "itaa",
-        "deontologie",
-        "plichtenleer",
-        "ethiek"
-      ],
-      "trust_status": "rejected",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
-      "layer2_status": "rejected"
     },
     {
       "bestand": "ITAA-norm-algemene-controlenorm.md",

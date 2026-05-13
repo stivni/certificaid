@@ -991,49 +991,39 @@ sources:
       Landingspagina: https://www.ethicsboard.org/publications/2024-handbook-international-code-ethics-professional-accountants
     extract:
       method: iesba
-  ITAA-deontologische-code:
-    bron_rol: interpretatief
-    raw: ""
-    output: resources/bronnen/normen/ITAA-deontologische-code.md
-    itaa_sectie: "XXI"
-    tags: ["XXI", "4.0", "ethiek", "deontologie", "plichtenleer"]
-    bijgewerkt: ""
-    status: nieuw
-    note: >
-      ITAA heeft GEEN één-document deontologische code. De plichtenleer voor
-      ITAA-leden bestaat uit losse flarden:
-        - Wet-ITAA-2019 (gehad) — art. 120 (beroepsgeheim) + algemene beroepsregels
-        - Sw. art. 458 (beroepsgeheim, strafrechtelijke onderbouwing)
-        - ITAA-deontologie-beroepsgeheim.md (gehad, BeExcellent Q&A-formaat)
-        - KB 1 maart 1998 — "Reglement plichtenleer der accountants" (oude IAB)
-          Status BeExcellent (article/1063): STUB met alleen titel, geen body.
-          Status Justel/ejustice: niet vrij beschikbaar in machine-leesbare
-          vorm via standaard URLs (numac/cn-zoek geeft geen resultaat).
-          Bron-PDF zou via Belgisch Staatsblad-archief van 17.03.1998 moeten,
-          of via een collega's privé-archief.
-        - KB 14 januari 2021 — "Plichtenleer BIBF" (oude BIBF-versie, op BeExcellent)
-      Aanbevolen: NIET invullen met geconstrueerde samenvatting. Voor de RAG
-      volstaat de combinatie Wet-ITAA-2019 + Beroepsgeheim-norm voor de
-      essentiële deontologische principes.
-    extract:
-      method: handcrafted
-      params:
-        reden: Geen één-document deontologische code beschikbaar; ITAA-plichtenleer
-          is gefragmenteerd over Wet-ITAA-2019, Sw. art. 458, Beroepsgeheim-norm
-          en oude KBs (1998 IAB / 2021 BIBF). Laatste twee zijn deels niet vrij
-          toegankelijk; voor RAG-doel volstaan de andere bronnen.
+  # ITAA-deontologische-code als 'unified document' bestaat niet — wordt
+  # vervangen door verzameling van losse plichtenleer-bronnen die elk de
+  # actuele regels bevatten. Zie:
+  #   - KB-1998-plichtenleer.md (oude IAB-plichtenleer)
+  #   - KB-2017-plichtenleer-bibf.md (oude BIBF-plichtenleer)
+  #   - ITAA-deontologie-beroepsgeheim.md (BeExcellent Q&A)
+  #   - Wet-ITAA-2019.md (art. 120 beroepsgeheim + algemene beroepsregels)
+  #   - Strafwetboek2024-boek2.md (Sw. art. 458 beroepsgeheim)
   KB-1998-plichtenleer:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/KB-1998-plichtenleer.html
     output: resources/bronnen/wetteksten/KB-1998-plichtenleer.md
     itaa_sectie: "XXI"
-    tags: ["XXI", "4.0", "ethiek", "deontologie", "plichtenleer"]
+    tags: ["XXI", "4.0", "ethiek", "deontologie", "plichtenleer", "iab"]
     bijgewerkt: "01.03.1998"
     wet: "Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants"
     status: nieuw
-    note: "Oude IAB-plichtenleer; gedeeltelijk vervangen door Wet-ITAA-2019. Geconsolideerde Justel-tekst (cn=1998030133, numac=1998016071)."
+    note: "Oude IAB-plichtenleer voor accountants; voor ex-IAB-leden binnen ITAA grotendeels gehandhaafd voor zover niet strijdig met Wet-ITAA-2019. Geconsolideerde Justel-tekst (cn=1998030133, numac=1998016071)."
     extract:
       method: justel_change_lg
+  KB-2017-plichtenleer-bibf:
+    bron_rol: itaa_lex
+    raw: resources/raw/wetteksten/KB-2017-plichtenleer-bibf.pdf
+    output: resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md
+    itaa_sectie: "XXI"
+    tags: ["XXI", "4.0", "ethiek", "deontologie", "plichtenleer", "bibf"]
+    bijgewerkt: "18.07.2017"
+    wet: "Koninklijk besluit van 18 juli 2017 tot goedkeuring van het reglement van plichtenleer van het Beroepsinstituut van erkende Boekhouders en Fiscalisten (BIBF)"
+    bron: "CSPE-HREB.be — KB van 18.07.2017 (BS 14.08.2017)"
+    status: nieuw
+    note: "Oude BIBF-plichtenleer voor erkende boekhouders en fiscalisten; voor ex-BIBF-leden binnen ITAA grotendeels gehandhaafd voor zover niet strijdig met Wet-ITAA-2019. ITAA werkt aan nieuw KB Deontologie ter unificatie."
+    extract:
+      method: pdftotext_ejustice
   Wetboek-Invordering:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/Wetboek-Invordering.pdf

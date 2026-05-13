@@ -8,12 +8,12 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 131 | 120 | — | 11 | — | — |
-| Normen | 19 | 4 | — | 14 | 1 | — |
+| Wetteksten | 132 | 121 | — | 11 | — | — |
+| Normen | 18 | 4 | — | 14 | — | — |
 | Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **586** | 546 | — | 39 | 1 | — |
+| **Totaal** | **586** | 547 | — | 39 | — | — |
 
-## Wetteksten (131)
+## Wetteksten (132)
 
 | Bestand | Trust | L1 | L2 | Confirmed-by | Titel |
 |---|---|---|---|---|---|
@@ -52,6 +52,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `EU-Richtlijn-moeder-dochter-2011-96.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemeenschappelijke… |
 | `EU-Richtlijn-witwassen-2018-1673.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inza… |
 | `KB-1998-plichtenleer.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer… |
+| `KB-2017-plichtenleer-bibf.md` | ✅ trusted | — | — | human | Koninklijk besluit van 18 juli 2017 tot goedkeuring van het reglement van plichtenleer … |
 | `KB-21-10-2018.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Koninklijk besluit van 21 oktober 2018 houdende de boekhoudkundige verplichtingen van o… |
 | `KB-voorafgaande-beslissingen-art22-2003.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. 17 januari 2003 tot uitvoering van artikel 22, tweede lid, van de wet van 24 decem… |
 | `KB-voorafgaande-beslissingen-art26-2003.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december 2002 tot … |
@@ -149,11 +150,10 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WVV.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek van vennootschappen en verenigingen 23/03/2019 |
 | `X-oeso-model-verdrag.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | X-oeso-model-verdrag |
 
-## Normen (19)
+## Normen (18)
 
 | Bestand | Trust | L1 | L2 | Confirmed-by | Titel |
 |---|---|---|---|---|---|
-| `ITAA-deontologische-code.md` | ❌ rejected | warn | rejected | subagent-sonnet-4-6 | ITAA-deontologische-code |
 | `IESBA-code-of-ethics-2024.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | IESBA-code-of-ethics-2024 |
 | `ITAA-norm-aww-geconsolideerd.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | ITAA-norm-aww-geconsolideerd |
 | `ITAA-norm-aww-reglement.md` | ⚠️ needs-rework | pass | needs-rework | subagent-sonnet-4-6 | ITAA-norm-aww-reglement |
