@@ -1537,3 +1537,50 @@ class TestStripItaaNormFooters:
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "strip_itaa_norm_footers" in TRANSFORMERS
+
+
+# ─── promote_norm_section_labels (B4 normen) ──────────────────────────────────
+
+class TestPromoteNormSectionLabels:
+    def test_definitions_promoted(self):
+        from tools.etl.transformers.promote_norm_section_labels import promote_norm_section_labels
+        body = "Body.\n\nDefinities\n\n1.1 In deze norm wordt verstaan onder..."
+        result, _ = promote_norm_section_labels(body, {})
+        assert "## Definities" in result
+
+    def test_overwegende_with_colon(self):
+        from tools.etl.transformers.promote_norm_section_labels import promote_norm_section_labels
+        body = "Body.\n\nOverwegende:\n\nDat het IBA dit toezicht houdt..."
+        result, _ = promote_norm_section_labels(body, {})
+        assert "## Overwegende" in result
+
+    def test_eerste_principe(self):
+        from tools.etl.transformers.promote_norm_section_labels import promote_norm_section_labels
+        body = "Body.\n\nEerste principe\n\nDe accountant respecteert..."
+        result, _ = promote_norm_section_labels(body, {})
+        assert "## Eerste principe" in result
+
+    def test_inline_definitions_not_promoted(self):
+        """`Definities` midden in een zin blijft."""
+        from tools.etl.transformers.promote_norm_section_labels import promote_norm_section_labels
+        body = "Zie de Definities hieronder voor uitleg."
+        result, _ = promote_norm_section_labels(body, {})
+        assert result == body
+
+    def test_unknown_label_not_promoted(self):
+        """Een random regel niet in whitelist blijft plain."""
+        from tools.etl.transformers.promote_norm_section_labels import promote_norm_section_labels
+        body = "Body.\n\nRandom Tekst Hier\n\nMeer body."
+        result, _ = promote_norm_section_labels(body, {})
+        assert "## Random Tekst Hier" not in result
+
+    def test_idempotent(self):
+        from tools.etl.transformers.promote_norm_section_labels import promote_norm_section_labels
+        body = "Body.\n\nDefinities\n\nMeer.\n"
+        once, _ = promote_norm_section_labels(body, {})
+        twice, _ = promote_norm_section_labels(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "promote_norm_section_labels" in TRANSFORMERS

@@ -34,31 +34,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 5972bb1-dirty
+    pipeline_version: 66b51a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:54:24Z'
+  generated_at: '2026-05-13T00:08:07Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:58:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Inhoud volledig en coherent: 13 genummerde vragen als ###-headings, body-tekst vloeiend als alinea's, voetnoten correct genummerd [1]-[67] als blokken onderaan. Geen PDF-artefacten zichtbaar na de unindent-fix. Enige aanmerking is dat de introductie (regels 63-76) een niet-gestructureerde lijst van vragen bevat zonder heading of bullet-syntax, maar dit is een faithfull weergave van de bron-HTML."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-235514
-      run_at: '2026-05-12T23:55:14Z'
-      heading_count: 24
-      max_section_chars: 23480
-      file_size_chars: 39047
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:58:43Z'
-      rationale: "Inhoud volledig en coherent: 13 genummerde vragen als ###-headings, body-tekst vloeiend als alinea's, voetnoten correct genummerd [1]-[67] als blokken onderaan. Geen PDF-artefacten zichtbaar na de unindent-fix. Enige aanmerking is dat de introductie (regels 63-76) een niet-gestructureerde lijst van vragen bevat zonder heading of bullet-syntax, maar dit is een faithfull weergave van de bron-HTML."
-      concrete_problemen: []
 ---
 # Het beroepsgeheim van de accountant en de belastingadviseur
 

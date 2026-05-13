@@ -27,39 +27,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 5972bb1-dirty
+    pipeline_version: 66b51a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:54:26Z'
+  generated_at: '2026-05-13T00:08:09Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:58:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Document goed gestructureerd: Art. 1-15 als ## headings, bijlagen als aparte secties. Enige cosmetische issues: (1) 'INHOUDSTAFEL' op r53 als plain text (maar TOC-content ontbreekt, enkel de label); (2) het label 'goedgekeurd door de Raad van 1 december 2020.' herhaalt zich 9 maal als standalone regel — dit is een letterlijke weergave van een footer-stempel in de bron-PDF. Gezien het een source-document-fout betreft (footer mee-extractie), telt dit niet als reden voor needs-rework. Inhoud volledig inclusief bijlagen met erkenningsprocedure."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-235514
-      run_at: '2026-05-12T23:55:14Z'
-      heading_count: 15
-      max_section_chars: 11346
-      file_size_chars: 29729
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:58:43Z'
-      rationale: "Document goed gestructureerd: Art. 1-15 als ## headings, bijlagen als aparte secties. Enige cosmetische issues: (1) 'INHOUDSTAFEL' op r53 als plain text (maar TOC-content ontbreekt, enkel de label); (2) het label 'goedgekeurd door de Raad van 1 december 2020.' herhaalt zich 9 maal als standalone regel — dit is een letterlijke weergave van een footer-stempel in de bron-PDF. Gezien het een source-document-fout betreft (footer mee-extractie), telt dit niet als reden voor needs-rework. Inhoud volledig inclusief bijlagen met erkenningsprocedure."
-      concrete_problemen:
-        - regel: 53
-          categorie: B4
-          type: other
-          voorbeeld: INHOUDSTAFEL (plain text, geen heading, maar TOC-content absent)
-        - regel: 55
-          categorie: A1
-          type: form-feed
-          voorbeeld: goedgekeurd door de Raad van 1 december 2020. (footer-stempel, herhaald 9x)
 ---
       Norm met betrekking tot
       de permanente vorming goedgekeurd door de Raad van 1 december 2020.

@@ -25,39 +25,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 5972bb1-dirty
+    pipeline_version: 66b51a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:54:24Z'
+  generated_at: '2026-05-13T00:08:07Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:58:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B4: de titelpagina-blok (regels 49-57) staat als plain text met lettertype-imitaties ('ITAA / INSTITUTE FOR TAX / ADVISORS & ACCOUNTANTS' en 'NORM BETREFFENDE / DE VERENIGBAARHEID...') zonder heading-prefix — typisch PDF-coverpage-artefact. D3: voetnoten 2-5 staan inline midden in de body (r159-161) als doorlopende zin i.p.v. eindnoten. De secties I-IV als ## headings zijn correct, maar de cover-blok en inline voetnoten zijn ETL-artefacten die rework vereisen."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-235514
-      run_at: '2026-05-12T23:55:14Z'
-      heading_count: 4
-      max_section_chars: 6607
-      file_size_chars: 11825
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:58:43Z'
-      rationale: "B4: de titelpagina-blok (regels 49-57) staat als plain text met lettertype-imitaties ('ITAA / INSTITUTE FOR TAX / ADVISORS & ACCOUNTANTS' en 'NORM BETREFFENDE / DE VERENIGBAARHEID...') zonder heading-prefix — typisch PDF-coverpage-artefact. D3: voetnoten 2-5 staan inline midden in de body (r159-161) als doorlopende zin i.p.v. eindnoten. De secties I-IV als ## headings zijn correct, maar de cover-blok en inline voetnoten zijn ETL-artefacten die rework vereisen."
-      concrete_problemen:
-        - regel: 49
-          categorie: B4
-          type: other
-          voorbeeld: '               ITAA\n        INSTITUTE FOR TAX\n     ADVISORS & ACCOUNTANTS'
-        - regel: 159
-          categorie: D3
-          type: other
-          voorbeeld: Hieronder wordt verstaan het deelnemen... 3 Artikel 2,12°... 4 Artikel 2,3°...
 ---
                ITAA
         INSTITUTE FOR TAX

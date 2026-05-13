@@ -24,49 +24,25 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 5972bb1-dirty
+    pipeline_version: 66b51a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:54:24Z'
+  generated_at: '2026-05-13T00:08:08Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:58:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A7: de preambule (regels 50-100) is zwaar gefragmenteerd door kolom-extractie. Zinnen zijn afgekapt: 'Inleiding RAAD VAN HET INSTITUUT VAN DE BELASTINGADVISEURS EN DE ACCOUNTANTS, belastingadviseur, en in het bijzonder...' (r50) is midden in een zin. Meerdere alinea's eindigen abrupt zonder rondbreker (r57: 'zijn cliëntenbestand en evenredig met de complexiteit...', r63: 'tot vastlegging van een reglement inzake de kwaliteitstoetsing de belastingconsulenten...'). B4: 'CABINET Doelstelling' (r141) en 'KANTOORNIVEAU' (r148) staan als plain text labels. Regel 221: '## Fin des relations clients' is een Franse heading midden in een Nederlandstalig document — taalbleed-artefact. D2: de bewijs-van-verzekering en GBC-sectie (r13) zijn afgekapt."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-235514
-      run_at: '2026-05-12T23:55:14Z'
-      heading_count: 6
-      max_section_chars: 5101
-      file_size_chars: 13159
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:58:43Z'
-      rationale: "A7: de preambule (regels 50-100) is zwaar gefragmenteerd door kolom-extractie. Zinnen zijn afgekapt: 'Inleiding RAAD VAN HET INSTITUUT VAN DE BELASTINGADVISEURS EN DE ACCOUNTANTS, belastingadviseur, en in het bijzonder...' (r50) is midden in een zin. Meerdere alinea's eindigen abrupt zonder rondbreker (r57: 'zijn cliëntenbestand en evenredig met de complexiteit...', r63: 'tot vastlegging van een reglement inzake de kwaliteitstoetsing de belastingconsulenten...'). B4: 'CABINET Doelstelling' (r141) en 'KANTOORNIVEAU' (r148) staan als plain text labels. Regel 221: '## Fin des relations clients' is een Franse heading midden in een Nederlandstalig document — taalbleed-artefact. D2: de bewijs-van-verzekering en GBC-sectie (r13) zijn afgekapt."
-      concrete_problemen:
-        - regel: 50
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: Inleiding RAAD VAN HET INSTITUUT VAN DE BELASTINGADVISEURS EN DE ACCOUNTANTS, belastingadviseur
-        - regel: 141
-          categorie: B4
-          type: other
-          voorbeeld: CABINET Doelstelling (plain text structuurlabel)
-        - regel: 221
-          categorie: A8
-          type: column-bleed
-          voorbeeld: '## Fin des relations clients\n\ndemande. (FR-tekst in NL-document)'
 ---
 ## NORM ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT
 
 Inleiding RAAD VAN HET INSTITUUT VAN DE BELASTINGADVISEURS EN DE ACCOUNTANTS, belastingadviseur, en in het bijzonder de artikelen 3, 5, 6, 62 en 72 voor wat het
 
-Overwegende:
+## Overwegende
 
 - dat alle beroepsbeoefenaars hun beroepsactiviteit uitoefenen met toepassing van het wettelijk, normatief en reglementair
 kader dat op hen van toepassing is (artikel 36, §1 van de wet van 17 maart 2019);
@@ -115,7 +91,7 @@ precisering omtrent het begrip “level playing field”. Bij schrijven van 22 h
 
 vereisten van intern kwaliteitsmanagement op kantoorniveau, het Deel 1 van de aan de Hoge Raad bezorgde ontwerpnorm waarover een gunstig advies werd verleend door deze Hoge Raad.
 
-Definities
+## Definities
 
 Beroepsbeoefenaar: de persoon bedoeld in artikel 2, 3° van de wet van 17 maart
 2019 betreffende de beroepen van accountant en belastingadviseur.

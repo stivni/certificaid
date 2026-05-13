@@ -25,43 +25,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 5972bb1-dirty
+    pipeline_version: 66b51a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:54:26Z'
+  generated_at: '2026-05-13T00:08:09Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:58:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A7: preambule sterk gefragmenteerd (r51: 'in het bijzonder de artikelen 3, 5, 6, 62 en 72.' — openingszin mist; r53: 'heeft uitgebracht, wordt de Hoge Raad...' zonder context; r58: 'Accountants (IBA) van technische normen...' midden in zin). Overweging 1-4 zijn inkompleet of afgekapt (r58-88). A2: de heading '## Norm inzake de Samenstellingsopdrachten' staat op r49 maar de body die onmiddellijk volgt is context-loos (r51: 'in het bijzonder de artikelen...'). Dit is het typische patroon van een gemeenschappelijke IBR/IBA norm waarbij de IBR-kop en de ITAA-kop door de extractor worden samengevoegd maar context verliest. Kern-norm-tekst (43 headings) is vermoedelijk compleet maar preambule onbetrouwbaar."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-235514
-      run_at: '2026-05-12T23:55:14Z'
-      heading_count: 43
-      max_section_chars: 5513
-      file_size_chars: 46222
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:58:43Z'
-      rationale: "A7: preambule sterk gefragmenteerd (r51: 'in het bijzonder de artikelen 3, 5, 6, 62 en 72.' — openingszin mist; r53: 'heeft uitgebracht, wordt de Hoge Raad...' zonder context; r58: 'Accountants (IBA) van technische normen...' midden in zin). Overweging 1-4 zijn inkompleet of afgekapt (r58-88). A2: de heading '## Norm inzake de Samenstellingsopdrachten' staat op r49 maar de body die onmiddellijk volgt is context-loos (r51: 'in het bijzonder de artikelen...'). Dit is het typische patroon van een gemeenschappelijke IBR/IBA norm waarbij de IBR-kop en de ITAA-kop door de extractor worden samengevoegd maar context verliest. Kern-norm-tekst (43 headings) is vermoedelijk compleet maar preambule onbetrouwbaar."
-      concrete_problemen:
-        - regel: 51
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: in het bijzonder de artikelen 3, 5, 6, 62 en 72. (openingszin afgekapt)
-        - regel: 53
-          categorie: D1
-          type: abrupt-cutoff
-          voorbeeld: heeft uitgebracht, wordt de Hoge Raad voor de Economische Beroepen overeenkomstig artikel 80
-        - regel: 67
-          categorie: D1
-          type: abrupt-cutoff
-          voorbeeld: Dit erkend referentiekader dient een hoog kwaliteitsniveau te verzekeren.
 ---
 ## Norm inzake de Samenstellingsopdrachten
 

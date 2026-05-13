@@ -24,52 +24,24 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 5972bb1-dirty
+    pipeline_version: 66b51a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:54:24Z'
+  generated_at: '2026-05-13T00:08:08Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:58:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B4: het volledige document heeft 0 headings (layer1.heading_count=0) terwijl het 6 benoemde principes + definities bevat die als headings hadden moeten worden opgemaakt. Titels als 'Eerste principe - Aanvaarding van een controleopdracht' (r119), 'Tweede principe - ...' (r126), 'Derde principe - ...' (r136), enz. staan als plain text zonder ##-prefix. B4: ook 'Definities' (r99) is plain text. Zonder headings is RAG-chunking structuurloos. Document-inhoud zelf is volledig en leesbaar."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-235514
-      run_at: '2026-05-12T23:55:14Z'
-      heading_count: 0
-      max_section_chars: 7534
-      file_size_chars: 7534
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:58:43Z'
-      rationale: "B4: het volledige document heeft 0 headings (layer1.heading_count=0) terwijl het 6 benoemde principes + definities bevat die als headings hadden moeten worden opgemaakt. Titels als 'Eerste principe - Aanvaarding van een controleopdracht' (r119), 'Tweede principe - ...' (r126), 'Derde principe - ...' (r136), enz. staan als plain text zonder ##-prefix. B4: ook 'Definities' (r99) is plain text. Zonder headings is RAG-chunking structuurloos. Document-inhoud zelf is volledig en leesbaar."
-      concrete_problemen:
-        - regel: 99
-          categorie: B4
-          type: other
-          voorbeeld: 'Definities (plain text, geen ## heading)'
-        - regel: 119
-          categorie: B4
-          type: other
-          voorbeeld: Eerste principe - Aanvaarding van een controleopdracht (plain text)
-        - regel: 126
-          categorie: B4
-          type: other
-          voorbeeld: Tweede principe - Aanvaarding van een raadgevende opdracht (plain text)
-        - regel: 136
-          categorie: B4
-          type: other
-          voorbeeld: Derde principe - Meningsverschil (plain text)
 ---
 GEDRAGSLIJNEN INZAKE DE BEROEPSRELATlES TUSSEN DE LEDEN VAN
 HET IBR, HET IAB EN HET BIBF
 
-Overwegende:
+## Overwegende
 
 Dat de drie Instituten duidelijk hun wil hebben uitgedrukt om de evenwichtige
 interprofessionele relaties tussen hun leden te promoten ,"
@@ -117,7 +89,7 @@ Dat deze gedragslijnen werden goedgekeurd door:
 
 Dat deze gedragslijnen van kracht worden op 1 juni 2008;
 
-Definities
+## Definities
 
 De woorden "leden van een ander Instituut" verwijzen naar de leden van het IBR, het IAB en
 het BIBF.

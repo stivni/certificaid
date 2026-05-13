@@ -25,45 +25,21 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 5972bb1-dirty
+    pipeline_version: 66b51a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:54:26Z'
+  generated_at: '2026-05-13T00:08:09Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:58:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A3/B4: er is een pseudo-inhoudstafel als plain text op r51-52 ('Inhoud / 2) Specifieke regels...') zonder heading. B4: de section-labels 'Wettelijke verplichting', 'Enkele inhoudelijke aspecten van de opdrachtbrief' en 'De ondertekening van de opdrachtbrief' en 'Uitvoering van de opdrachtbrief' staan als plain-text labels, niet als ## headings, terwijl er wel ## headings zijn voor de genummerde subsecties. Dit creëert een inconsistente heading-hiërarchie. G3: voetnoten 1-13 staan gedeeltelijk inline midden in de body (r109-111, r172, r232, r331, r434-437, r464-468) i.p.v. als eindnoten."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-235514
-      run_at: '2026-05-12T23:55:14Z'
-      heading_count: 18
-      max_section_chars: 5195
-      file_size_chars: 24026
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:58:43Z'
-      rationale: "A3/B4: er is een pseudo-inhoudstafel als plain text op r51-52 ('Inhoud / 2) Specifieke regels...') zonder heading. B4: de section-labels 'Wettelijke verplichting', 'Enkele inhoudelijke aspecten van de opdrachtbrief' en 'De ondertekening van de opdrachtbrief' en 'Uitvoering van de opdrachtbrief' staan als plain-text labels, niet als ## headings, terwijl er wel ## headings zijn voor de genummerde subsecties. Dit creëert een inconsistente heading-hiërarchie. G3: voetnoten 1-13 staan gedeeltelijk inline midden in de body (r109-111, r172, r232, r331, r434-437, r464-468) i.p.v. als eindnoten."
-      concrete_problemen:
-        - regel: 51
-          categorie: A3
-          type: other
-          voorbeeld: Inhoud\n        2) Specifieke regels bij de uitvoering... (TOC-fragment)
-        - regel: 65
-          categorie: B4
-          type: other
-          voorbeeld: Wettelijke verplichting (plain text sectielabel)
-        - regel: 109
-          categorie: G3
-          type: other
-          voorbeeld: 1 KB van 9 december 2019... WER -art.III 74... (inline voetnoot midden in tekst)
 ---
-OPDRACHTBRIEF
+## OPDRACHTBRIEF
 
 Inhoud
         2) Specifieke regels bij de uitvoering van de opdrachten die voorbehouden zijn aan gecertificeerde
@@ -79,7 +55,7 @@ Met deze nota wil het Instituut een antwoord geven op deze bezorgdheden, door de
 informatie en tools aan te reiken die toelaten deze regelgeving op een correcte wijze na te leven
 op een wijze die te verzoenen valt met hun kantoororganisatie.
 
-Wettelijke verplichting
+## Wettelijke verplichting
 
 ## 1. Algemeen
 De opdrachtbrief is al sinds 21 september 2017 een wettelijke verplichting voor alle

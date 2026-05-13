@@ -27,43 +27,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 5972bb1-dirty
+    pipeline_version: 66b51a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:54:25Z'
+  generated_at: '2026-05-13T00:08:09Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:58:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A7: zelfde patroon als omzetting-norm: preambule sterk gefragmenteerd (r53: 'BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien artikel 31...', r59: 'betreft;' als losse regel, r75: slotzin begint met '(vrijwillige ontbinding)...' zonder context, r91: 'en vereffening van (I)VZW's zal worden behandeld in een afzonderlijke norm.' staat als lost fragment). Overweging (4) en (5) zijn afgekapt (r92: 'waarvoor de opdracht wordt uitgevoerd...' zonder opening). Kern-norm zelf is vermoedelijk volledig (62 headings). De eerste heading start correct als '## Norm inzake de opdracht...' (r53) maar de preambule-fragmentatie maakt de context onbetrouwbaar."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-235514
-      run_at: '2026-05-12T23:55:14Z'
-      heading_count: 62
-      max_section_chars: 5416
-      file_size_chars: 62953
-      flags: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:58:43Z'
-      rationale: "A7: zelfde patroon als omzetting-norm: preambule sterk gefragmenteerd (r53: 'BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien artikel 31...', r59: 'betreft;' als losse regel, r75: slotzin begint met '(vrijwillige ontbinding)...' zonder context, r91: 'en vereffening van (I)VZW's zal worden behandeld in een afzonderlijke norm.' staat als lost fragment). Overweging (4) en (5) zijn afgekapt (r92: 'waarvoor de opdracht wordt uitgevoerd...' zonder opening). Kern-norm zelf is vermoedelijk volledig (62 headings). De eerste heading start correct als '## Norm inzake de opdracht...' (r53) maar de preambule-fragmentatie maakt de context onbetrouwbaar."
-      concrete_problemen:
-        - regel: 53
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien artikel 31, § 1 van de wet van 7 december 2016
-        - regel: 75
-          categorie: D1
-          type: abrupt-cutoff
-          voorbeeld: (vrijwillige ontbinding) en 2:80 (onmiddellijke sluiting van de vereffening).
-        - regel: 92
-          categorie: D1
-          type: abrupt-cutoff
-          voorbeeld: waarvoor de opdracht wordt uitgevoerd en van de verrichting. Naargelang van de omstandigheden,
 ---
 Ontwerp
 

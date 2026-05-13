@@ -26,35 +26,19 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 5972bb1-dirty
+    pipeline_version: 66b51a5-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:54:24Z'
+  generated_at: '2026-05-13T00:08:07Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T23:58:43Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort document (7565 chars, 7 headings), volledig leesbaar. Alle 7 secties als ##-headings, inhoud compleet inclusief art. 1-7. Geen artefacten zichtbaar. Bullet-achtige opsommingen staan als plain text zonder -prefix maar dat reflecteert de bron-HTML-structuur.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260512-235514
-      run_at: '2026-05-12T23:55:14Z'
-      heading_count: 7
-      max_section_chars: 1978
-      file_size_chars: 7565
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:58:43Z'
-      rationale: 'Kort document (7565 chars, 7 headings), volledig leesbaar. Alle 7 secties als ##-headings, inhoud compleet inclusief art. 1-7. Geen artefacten zichtbaar. Bullet-achtige opsommingen staan als plain text zonder -prefix maar dat reflecteert de bron-HTML-structuur.'
-      concrete_problemen:
-        - regel: 54
-          categorie: C1
-          type: other
-          voorbeeld: door de wettekst die zijn opdracht omschrijft en die de vorm van de controle bepaalt;
 ---
 # Algemene controlenorm (Besl. Raad d.d. 30 september 1991)
 
