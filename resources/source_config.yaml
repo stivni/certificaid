@@ -983,28 +983,8 @@ sources:
       params:
         bilingual: true
         nl_col_x: 0
-  WER-Boek-VIII-normalisatie:
-    bron_rol: itaa_lex
-    raw: resources/raw/wetteksten/WER-Boek-VIII-normalisatie.pdf
-    output: resources/bronnen/wetteksten/WER-Boek-VIII-normalisatie.md
-    itaa_sectie: "XIII"
-    tags: ["XIII", "1.4"]
-    bijgewerkt: "24.12.2025"
-    wet: "WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)"
-    nl_col_x: 0
-    cleanup: [remove_toc_ejustice, remove_french_blocks, remove_inline_metadata, ensure_article_headings]
-    status: volledig
-    extract:
-      method: pymupdf_wetboek
-      params:
-        force_columns: 2
-        # NL is in deze BS-publicatie op de RECHTER kolom — gebruik 'fr' filter
-        # (kolom 1 = rechts) als work-around voor de extractor-aanname dat
-        # NL altijd links staat.
-        column_filter: fr
-        # PDF is BS-publicatie van 29.03.2013 (214 pages) — Boek VIII zit op pp. 10-18.
-        page_start: 10
-        page_end: 18
+  # WER-Boek-VIII-normalisatie verwijderd: redundant met WER.md (trusted) dat
+  # de volledige WER bevat inclusief BOEK VIII vanaf regel 6703.
   Wet-ITAA-2019:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/Wet-ITAA-2019.pdf

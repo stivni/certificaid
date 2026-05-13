@@ -1,5 +1,5 @@
 {
-  "n_bronnen": 588,
+  "n_bronnen": 587,
   "bronnen": [
     {
       "bestand": "AVG-wet-2018.md",
@@ -1723,21 +1723,6 @@
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": null,
       "layer2_status": "trusted"
-    },
-    {
-      "bestand": "WER-Boek-VIII-normalisatie.md",
-      "bron_rol": "wettekst",
-      "stem": "WER-Boek-VIII-normalisatie",
-      "titel": "WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)",
-      "korte_naam": "WER Boek VIII normalisatie",
-      "tags": [
-        "XIII",
-        "1.4"
-      ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "human",
-      "layer1_status": null,
-      "layer2_status": null
     },
     {
       "bestand": "WER.md",

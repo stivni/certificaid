@@ -8,12 +8,12 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 133 | 118 | — | 11 | 4 | — |
+| Wetteksten | 132 | 117 | — | 11 | 4 | — |
 | Normen | 19 | 4 | — | 14 | 1 | — |
 | Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **588** | 544 | — | 39 | 5 | — |
+| **Totaal** | **587** | 543 | — | 39 | 5 | — |
 
-## Wetteksten (133)
+## Wetteksten (132)
 
 | Bestand | Trust | L1 | L2 | Confirmed-by | Titel |
 |---|---|---|---|---|---|
@@ -138,7 +138,6 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WBTW-MB6-uitstel-invoer.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | M.B. nr. 6 van 4 maart 1993, waarbij uitstel wordt verleend voor de voldoening van de t… |
 | `WBTW.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 3 juli 1969 tot invoering van het Wetboek van de belasting over de toegevoegde waar… |
 | `WDRT.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek Diverse Rechten en Taksen |
-| `WER-Boek-VIII-normalisatie.md` | ✅ trusted | — | — | human | WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen) |
 | `WER.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek van Economisch Recht |
 | `Wet-arbeidsovereenkomsten-1978.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 3 juli 1978 betreffende de arbeidsovereenkomsten |
 | `Wet-beroepskwalificaties-2008.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van … |
