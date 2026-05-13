@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:07Z'
+    confirmed_at: '2026-05-13T13:11:32Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 warn: 378 headings, max sectie 57698 chars, kolom-bleed 1 geval. Kolom-bleed is minimaal en in bijlagen/concordantietabellen. Hoofd-artikelinhoud correct. Inhoud volledig.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:07Z'
+      run_at: '2026-05-13T13:11:32Z'
       rationale: 'L1 warn: 378 headings, max sectie 57698 chars, kolom-bleed 1 geval. Kolom-bleed is minimaal en in bijlagen/concordantietabellen. Hoofd-artikelinhoud correct. Inhoud volledig.'
       concrete_problemen:
         - regel:

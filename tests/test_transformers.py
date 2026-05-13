@@ -2422,3 +2422,35 @@ class TestStripInlineFootnoteBlock:
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "strip_inline_footnote_block" in TRANSFORMERS
+
+
+class TestStripConcordTableHeadings:
+    def test_septdecies_pattern(self):
+        from tools.etl.transformers.strip_concord_table_headings import strip_concord_table_headings
+        body = "###### Art. 28. septdecies, eerste alinea,\n"
+        result, _ = strip_concord_table_headings(body, {})
+        assert "###### " not in result
+        assert "Art. 28. septdecies, eerste alinea," in result
+
+    def test_van_richtlijn(self):
+        from tools.etl.transformers.strip_concord_table_headings import strip_concord_table_headings
+        body = "###### Art. 2. van Richtlijn 94/5/EG\n"
+        result, _ = strip_concord_table_headings(body, {})
+        assert result.strip() == "Art. 2. van Richtlijn 94/5/EG"
+
+    def test_real_heading_kept(self):
+        from tools.etl.transformers.strip_concord_table_headings import strip_concord_table_headings
+        body = "## Art. 5\nBody.\n#### Art. 10bis\nMeer body.\n"
+        result, _ = strip_concord_table_headings(body, {})
+        assert result == body
+
+    def test_idempotent(self):
+        from tools.etl.transformers.strip_concord_table_headings import strip_concord_table_headings
+        body = "###### Art. 28. septdecies, lid 1\n###### Art. 1, onder 1)\n## Art. 5\n"
+        once, _ = strip_concord_table_headings(body, {})
+        twice, _ = strip_concord_table_headings(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "strip_concord_table_headings" in TRANSFORMERS

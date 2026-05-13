@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: rejected
-    confirmed_at: '2026-05-13T13:08:27Z'
+    confirmed_at: '2026-05-13T13:11:53Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: '(source) De bron-PDF bevat enkel de titel — er is geen artikelinhoud om te indexeren. Body = 1 titellijn + 1 cursieve subkop, file ~2 kB. Geen extractie-fout maar source-defect: de PDF is leeg of niet-bruikbaar. Niet bruikbaar voor RAG. Geen ETL-verbetering kan dit oplossen — een nieuwe PDF-bron is nodig.'
     layer1:
     layer2:
       status: rejected
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:27Z'
+      run_at: '2026-05-13T13:11:53Z'
       rationale: '(source) De bron-PDF bevat enkel de titel — er is geen artikelinhoud om te indexeren. Body = 1 titellijn + 1 cursieve subkop, file ~2 kB. Geen extractie-fout maar source-defect: de PDF is leeg of niet-bruikbaar. Niet bruikbaar voor RAG. Geen ETL-verbetering kan dit oplossen — een nieuwe PDF-bron is nodig.'
       concrete_problemen:
         - (source) PDF bevat geen artikelinhoud — body is leeg na header.

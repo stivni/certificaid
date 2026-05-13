@@ -43,7 +43,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:25Z'
+    confirmed_at: '2026-05-13T13:11:51Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen extractie-artefacten gevonden. Alle 12 headings correct genummerd en tekstueel volledig. Pipe-tabellen correct opgebouwd door het hele document. Alle voetnoten [^1]-[^9] correct gedefinieerd onderaan. Geen form-feeds, TOC-resten, OCR-verwarringen of broken table rows.
     layer1:
@@ -57,7 +57,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:25Z'
+      run_at: '2026-05-13T13:11:51Z'
       rationale: Geen extractie-artefacten gevonden. Alle 12 headings correct genummerd en tekstueel volledig. Pipe-tabellen correct opgebouwd door het hele document. Alle voetnoten [^1]-[^9] correct gedefinieerd onderaan. Geen form-feeds, TOC-resten, OCR-verwarringen of broken table rows.
       concrete_problemen: []
 ---

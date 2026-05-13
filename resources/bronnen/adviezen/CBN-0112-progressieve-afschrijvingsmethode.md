@@ -40,7 +40,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:15Z'
+    confirmed_at: '2026-05-13T13:11:42Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Prior layer2 verdict (needs-rework, B3 duplicate headings op L57 en L59) is onjuist: die regelnummers vallen in de frontmatter. De body heeft slechts één H1-heading op regel 65. De heading-tekst 'CBN advies 112/5' mist een koppelteken na 'CBN' vergeleken met de conventie, maar dit is cosmetisch. Geen ETL-artefacten in de body aangetroffen."
     layer1:
@@ -54,7 +54,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:15Z'
+      run_at: '2026-05-13T13:11:42Z'
       rationale: "Prior layer2 verdict (needs-rework, B3 duplicate headings op L57 en L59) is onjuist: die regelnummers vallen in de frontmatter. De body heeft slechts één H1-heading op regel 65. De heading-tekst 'CBN advies 112/5' mist een koppelteken na 'CBN' vergeleken met de conventie, maar dit is cosmetisch. Geen ETL-artefacten in de body aangetroffen."
       concrete_problemen: []
 ---

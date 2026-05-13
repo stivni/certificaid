@@ -36,7 +36,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:17Z'
+    confirmed_at: '2026-05-13T13:11:44Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Ronde-2-verdict (D4 malformed italic op r157 en r159) is niet langer gegrond als ETL-bug: '740*' is de Belgische ARS-notatie voor een subrekening (740* = rekening 740 en onderrubrieken), en '150 *Kapitaalsubsidie*' is correct markdown italic. De patroon op r146 '...rekening 740* Bedrijfssubsidies en compenserende bedragen*[^17]' leest als italic-opener na 740 en sluit correct op bedragen — dit is een source-document asterisk-notatie, geen ETL-artefact (source-typo-uitzondering). Geen andere ETL-problemen aangetroffen."
     layer1:
@@ -50,7 +50,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:17Z'
+      run_at: '2026-05-13T13:11:44Z'
       rationale: "Ronde-2-verdict (D4 malformed italic op r157 en r159) is niet langer gegrond als ETL-bug: '740*' is de Belgische ARS-notatie voor een subrekening (740* = rekening 740 en onderrubrieken), en '150 *Kapitaalsubsidie*' is correct markdown italic. De patroon op r146 '...rekening 740* Bedrijfssubsidies en compenserende bedragen*[^17]' leest als italic-opener na 740 en sluit correct op bedragen — dit is een source-document asterisk-notatie, geen ETL-artefact (source-typo-uitzondering). Geen andere ETL-problemen aangetroffen."
       concrete_problemen:
         - regel: 146

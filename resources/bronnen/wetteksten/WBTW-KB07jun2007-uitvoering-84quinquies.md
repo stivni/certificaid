@@ -20,19 +20,19 @@ provenance:
     pipeline_version: e62521a
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:07:12Z'
+  generated_at: '2026-05-13T13:11:07Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:26Z'
+    confirmed_at: '2026-05-13T13:11:52Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Kleine schone KB: 6 Art.-headings consistent, alle artikelen hebben heading + commentaarblok + body, geen PDF-artefacten zichtbaar. Source-typo's afwezig."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:26Z'
+      run_at: '2026-05-13T13:11:52Z'
       rationale: "Kleine schone KB: 6 Art.-headings consistent, alle artikelen hebben heading + commentaarblok + body, geen PDF-artefacten zichtbaar. Source-typo's afwezig."
       concrete_problemen: []
 ---

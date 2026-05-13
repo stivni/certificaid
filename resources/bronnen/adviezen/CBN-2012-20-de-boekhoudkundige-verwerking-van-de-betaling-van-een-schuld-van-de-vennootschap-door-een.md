@@ -28,7 +28,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:18Z'
+    confirmed_at: '2026-05-13T13:11:45Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Zeer kort advies (3489 chars) zonder subkopjes — dat weerspiegelt de bron: de originele tekst heeft geen subsecties. Geen artefacten gevonden; voetnoten correct; proza correct afgerond. Heading_count=0 is conform de bron.'
     layer1:
@@ -42,7 +42,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:18Z'
+      run_at: '2026-05-13T13:11:45Z'
       rationale: 'Zeer kort advies (3489 chars) zonder subkopjes — dat weerspiegelt de bron: de originele tekst heeft geen subsecties. Geen artefacten gevonden; voetnoten correct; proza correct afgerond. Heading_count=0 is conform de bron.'
       concrete_problemen: []
 ---

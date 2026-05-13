@@ -20,19 +20,19 @@ provenance:
     pipeline_version: e62521a
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:07:11Z'
+  generated_at: '2026-05-13T13:11:06Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:26Z'
+    confirmed_at: '2026-05-13T13:11:52Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Klein schoon KB: 5 Art.-headings, alle artikelen volledig, geen scrambled tekst of spurious linebreaks. Source-typo 'tabaksfabrikaten' vs 'tabaksfabricaten' in titel-vs-body is brontypografie."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:26Z'
+      run_at: '2026-05-13T13:11:52Z'
       rationale: "Klein schoon KB: 5 Art.-headings, alle artikelen volledig, geen scrambled tekst of spurious linebreaks. Source-typo 'tabaksfabrikaten' vs 'tabaksfabricaten' in titel-vs-body is brontypografie."
       concrete_problemen:
         - regel: 42

@@ -20,19 +20,19 @@ provenance:
     pipeline_version: e62521a
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:07:11Z'
+  generated_at: '2026-05-13T13:11:06Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:26Z'
+    confirmed_at: '2026-05-13T13:11:52Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Volledige tekst (22 artikelen, 5 hoofdstukken), correcte heading-hierarchie #/##/###/####. TOC met hoofdstukken/afdelingen aan het begin is intrinsiek aan dit type wettekst en wordt herhaald als secties. Bracketed wijziging-markers consistent gebruikt.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:26Z'
+      run_at: '2026-05-13T13:11:52Z'
       rationale: 'Volledige tekst (22 artikelen, 5 hoofdstukken), correcte heading-hierarchie #/##/###/####. TOC met hoofdstukken/afdelingen aan het begin is intrinsiek aan dit type wettekst en wordt herhaald als secties. Bracketed wijziging-markers consistent gebruikt.'
       concrete_problemen:
         - 'Lichte inconsistentie: HOOFDSTUK-titels worden tweemaal weergegeven (eenmaal in TOC, eenmaal als sectie-header) maar zonder dubbele heading-conflict'

@@ -20,19 +20,19 @@ provenance:
     pipeline_version: e62521a
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:07:12Z'
+  generated_at: '2026-05-13T13:11:07Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:27Z'
+    confirmed_at: '2026-05-13T13:11:53Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "fix_pdftotext_glue_bugs heeft de eerder gevlagde concat-bugs opgelost: 'BTW-identificatienummer' (regels 70, 79, 81, 106), 'douane-entrepot' met koppelteken (regels 66, 88, 90, 92, 94, 96), 'geïdentificeerd' zonder ligaturen, en 'in artikel 2' (regel 170) met spatie. Geen ﬁ/ﬂ ligaturen meer zichtbaar. Hoofdtekst leest natuurlijk; alle artikelen Art. 1-9 als ##-headings met §-structuur intact. De source-typo 'KB nr. 31, artikel, derde lid' (regel 110, ontbrekend artikelnummer) blijft maar is vermoedelijk een bron-fout en niet ETL-gerelateerd. Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streepje-spatie residu — minor cosmetic."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:27Z'
+      run_at: '2026-05-13T13:11:53Z'
       rationale: "fix_pdftotext_glue_bugs heeft de eerder gevlagde concat-bugs opgelost: 'BTW-identificatienummer' (regels 70, 79, 81, 106), 'douane-entrepot' met koppelteken (regels 66, 88, 90, 92, 94, 96), 'geïdentificeerd' zonder ligaturen, en 'in artikel 2' (regel 170) met spatie. Geen ﬁ/ﬂ ligaturen meer zichtbaar. Hoofdtekst leest natuurlijk; alle artikelen Art. 1-9 als ##-headings met §-structuur intact. De source-typo 'KB nr. 31, artikel, derde lid' (regel 110, ontbrekend artikelnummer) blijft maar is vermoedelijk een bron-fout en niet ETL-gerelateerd. Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streepje-spatie residu — minor cosmetic."
       concrete_problemen:
         - "Frontmatter `wet:` veld: 'toepassings- modaliteiten' bevat streep+spatie residu (cosmetic)"

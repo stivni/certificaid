@@ -60,7 +60,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:12Z'
+    confirmed_at: '2026-05-13T13:11:39Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (40 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
     layer1:
@@ -74,7 +74,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:12Z'
+      run_at: '2026-05-13T13:11:39Z'
       rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (40 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
       concrete_problemen: []
 ---

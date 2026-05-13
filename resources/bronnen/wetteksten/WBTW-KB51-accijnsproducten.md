@@ -20,19 +20,19 @@ provenance:
     pipeline_version: e62521a
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:07:12Z'
+  generated_at: '2026-05-13T13:11:07Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:28Z'
+    confirmed_at: '2026-05-13T13:11:54Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 9 art met wijzigingsblokken. Tekst is volledig, lijstmarkers consistent. Spelling 'accijnsprodukten' is source-original (oude spelling) — onder '(source)'-uitzondering OK. Geen footers, geen TOC, geen scrambled volgorde.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:28Z'
+      run_at: '2026-05-13T13:11:54Z'
       rationale: 9 art met wijzigingsblokken. Tekst is volledig, lijstmarkers consistent. Spelling 'accijnsprodukten' is source-original (oude spelling) — onder '(source)'-uitzondering OK. Geen footers, geen TOC, geen scrambled volgorde.
       concrete_problemen:
         - Oude spelling 'accijnsprodukten' (source-original, geen ETL-fout)

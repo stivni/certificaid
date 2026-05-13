@@ -20,19 +20,19 @@ provenance:
     pipeline_version: e62521a
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:07:11Z'
+  generated_at: '2026-05-13T13:11:06Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:27Z'
+    confirmed_at: '2026-05-13T13:11:53Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Kort 5-artikel KB. fix_pdftotext_glue_bugs uitbreiding heeft de eerdere spurious linebreaks 'Art.\\n15,' en 'Art.\\n19,' gefixed: regels 56 en 61 tonen nu 'Art. 15,' en 'Art. 19,' op één regel. Body en frontmatter zijn schoon, heading-hiërarchie consistent. Geen overige PDF-artefacten."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:27Z'
+      run_at: '2026-05-13T13:11:53Z'
       rationale: "Kort 5-artikel KB. fix_pdftotext_glue_bugs uitbreiding heeft de eerdere spurious linebreaks 'Art.\\n15,' en 'Art.\\n19,' gefixed: regels 56 en 61 tonen nu 'Art. 15,' en 'Art. 19,' op één regel. Body en frontmatter zijn schoon, heading-hiërarchie consistent. Geen overige PDF-artefacten."
       concrete_problemen: []
 ---

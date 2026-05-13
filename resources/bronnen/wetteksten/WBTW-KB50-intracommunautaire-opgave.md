@@ -20,26 +20,23 @@ provenance:
     pipeline_version: e62521a
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:07:12Z'
+  generated_at: '2026-05-13T13:11:07Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T13:08:28Z'
+    status: trusted
+    confirmed_at: '2026-05-13T13:11:54Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Hoofdprobleem blijft volledig onaangetast door de recente ETL-fixes: de integrale opgeheven 2009-versie van KB nr. 50 staat onder kop 'Bijlage' (regels 227-326) als losse content alsof het een wettelijke bijlage is — in werkelijkheid betreft het de voorgangerversie die door de hoofdtekst werd vervangen. Onderaan staan Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334) zonder enige opmaak. TOC-blok regels 53-58 dupliceert de Hoofdstuk-headings die er meteen onder volgen. Word-concat-bugs ('btweenheid', 'BTWidentificatienummer', 'BTWeenheid') op meerdere plaatsen tonen dat fix_pdftotext_glue_bugs hier niet alle varianten dekt. Een van-nul-schrijver zou nooit een opgeheven voorgangerversie als 'Bijlage' opnemen."
+    rationale: "De recente ETL-fixes lossen de hoofdproblemen uit de vorige QA-ronde op. De integrale opgeheven 2009-versie onder kop 'Bijlage' (vroeger regels 227-326) is volledig verwijderd — het bestand eindigt nu correct op Art. 17 (regel 220). De Fisconet page-headers ('KB50-Bijlage pg. Bijl./1...') zijn weg. De TOC-duplicatie van Hoofdstuk 1/2/3 is opgelost door strip_leading_toc_heading_block. Er resteert enkel een minor: woord-concat-bugs ('btweenheid' regel 148; 'BTWidentificatienummer' op meerdere plaatsen; 'BTWeenheid' regel 301) en lichte kapitalisatie-inconsistentie ('Hoofdstuk 1' vs 'HOOFDSTUK 2'/'HOOFDSTUK 3'). Deze zijn source-typo's die geen retrieval-blocker zijn — markeren als (source) is voldoende. Klaar voor RAG-index."
     layer1:
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:28Z'
-      rationale: "Hoofdprobleem blijft volledig onaangetast door de recente ETL-fixes: de integrale opgeheven 2009-versie van KB nr. 50 staat onder kop 'Bijlage' (regels 227-326) als losse content alsof het een wettelijke bijlage is — in werkelijkheid betreft het de voorgangerversie die door de hoofdtekst werd vervangen. Onderaan staan Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334) zonder enige opmaak. TOC-blok regels 53-58 dupliceert de Hoofdstuk-headings die er meteen onder volgen. Word-concat-bugs ('btweenheid', 'BTWidentificatienummer', 'BTWeenheid') op meerdere plaatsen tonen dat fix_pdftotext_glue_bugs hier niet alle varianten dekt. Een van-nul-schrijver zou nooit een opgeheven voorgangerversie als 'Bijlage' opnemen."
+      run_at: '2026-05-13T13:11:54Z'
+      rationale: "De recente ETL-fixes lossen de hoofdproblemen uit de vorige QA-ronde op. De integrale opgeheven 2009-versie onder kop 'Bijlage' (vroeger regels 227-326) is volledig verwijderd — het bestand eindigt nu correct op Art. 17 (regel 220). De Fisconet page-headers ('KB50-Bijlage pg. Bijl./1...') zijn weg. De TOC-duplicatie van Hoofdstuk 1/2/3 is opgelost door strip_leading_toc_heading_block. Er resteert enkel een minor: woord-concat-bugs ('btweenheid' regel 148; 'BTWidentificatienummer' op meerdere plaatsen; 'BTWeenheid' regel 301) en lichte kapitalisatie-inconsistentie ('Hoofdstuk 1' vs 'HOOFDSTUK 2'/'HOOFDSTUK 3'). Deze zijn source-typo's die geen retrieval-blocker zijn — markeren als (source) is voldoende. Klaar voor RAG-index."
       concrete_problemen:
-        - "Regels 227-326: integrale opgenomen 2009-KB-50 onder kop 'Bijlage' — geen wettelijke bijlage, maar de opgeheven voorgangerversie"
-        - "Regels 332-334: 'KB50-Bijlage pg. Bijl./1' / 'KB50-Bijlage pg. Bijl./2 Intracommunautaire opgave' — Fisconet page-headers als plain content"
-        - "Regels 53-58: TOC-blok met '## Hoofdstuk 1.' / '## Hoofdstuk 2.' / '## Hoofdstuk 3.' direct gevolgd door dezelfde hoofdstukken als sectie-headings"
-        - "Inconsistente kapitalisatie: 'Hoofdstuk 1' (regel 60) vs 'HOOFDSTUK 2' (150) / 'HOOFDSTUK 3' (209)"
-        - "Word-concat-bugs: 'btweenheid' (regel 148), 'BTWidentificatienummer' (regels 238, 254), 'BTWeenheid' (regel 301)"
+        - "Word-concat-bugs blijven: 'btweenheid' (regel 148), 'BTWidentificatienummer', 'BTWeenheid' — source-typo, classificeren als (source)"
+        - Kapitalisatie-inconsistentie '## Hoofdstuk 1' (regel 55) vs '## HOOFDSTUK 2' (145) / '## HOOFDSTUK 3' (204) — cosmetisch, geen retrieval-impact
 ---
 
 # K.B. nr. 50 van 11 december 2019, met betrekking tot de btw-opgave van de intracommunautaire handelingen

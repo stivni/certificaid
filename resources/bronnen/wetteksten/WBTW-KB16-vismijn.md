@@ -20,19 +20,19 @@ provenance:
     pipeline_version: e62521a
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:07:11Z'
+  generated_at: '2026-05-13T13:11:06Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:26Z'
+    confirmed_at: '2026-05-13T13:11:52Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Korte KB van 5 artikelen, zuivere heading-hierarchie (#, ##), bracketed amendment-aanduidingen consistent gesloten, geen PDF-artefacten in de body. Alleen het slotblok 'Lijst van de bijwerkingen' is gevolg van TOC/bijwerkingstabel maar valt niet onder de ETL-checklist en is informatief."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:26Z'
+      run_at: '2026-05-13T13:11:52Z'
       rationale: "Korte KB van 5 artikelen, zuivere heading-hierarchie (#, ##), bracketed amendment-aanduidingen consistent gesloten, geen PDF-artefacten in de body. Alleen het slotblok 'Lijst van de bijwerkingen' is gevolg van TOC/bijwerkingstabel maar valt niet onder de ETL-checklist en is informatief."
       concrete_problemen:
         - Slotregel 'Bijw. 01 / 01.01.2012 30.12.2011 Volledige uitgave' is residu uit bijwerkingstabel zonder eigen heading; minor, niet blokkerend

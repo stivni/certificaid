@@ -34,7 +34,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:17Z'
+    confirmed_at: '2026-05-13T13:11:44Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Ronde-3 herlezing: geen TOC-fragment of '--'-restant meer aanwezig in de body. De structuur is correct met ## en ### headings, drie boekingstabellen in pipe-syntax, alle 31 voetnoten intact. Inhoud volledig: BV en CV uittreding/uitsluiting procedures en boekhoudkundige verwerking. Geen ETL-artefacten aangetroffen in de volledige tekst."
     layer1:
@@ -48,7 +48,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:17Z'
+      run_at: '2026-05-13T13:11:44Z'
       rationale: "Ronde-3 herlezing: geen TOC-fragment of '--'-restant meer aanwezig in de body. De structuur is correct met ## en ### headings, drie boekingstabellen in pipe-syntax, alle 31 voetnoten intact. Inhoud volledig: BV en CV uittreding/uitsluiting procedures en boekhoudkundige verwerking. Geen ETL-artefacten aangetroffen in de volledige tekst."
       concrete_problemen: []
 ---

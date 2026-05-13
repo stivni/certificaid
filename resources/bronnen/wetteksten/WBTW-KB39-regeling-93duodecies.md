@@ -20,25 +20,24 @@ provenance:
     pipeline_version: e62521a
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:07:12Z'
+  generated_at: '2026-05-13T13:11:07Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T13:08:27Z'
+    confirmed_at: '2026-05-13T13:11:54Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Footnote-bleed in Art. 3 (regels 74-78) niet opgelost door huidige ETL-fixes. De inhoudelijke tekst van Art. 138 (1°, 5°, 6° opsommingen) en Art. 139 (van een andere wet — vermoedelijk W 13.04.2019) staat als pseudo-content middenin Art. 3. Regel 78 toont '## Art. 139: De Koning kan...' wat een echte heading-anker krijgt — schadelijk voor RAG omdat het lijkt op een artikel van KB nr. 39 zelf, maar het is footnote-residu uit een andere wet. Pas op regel 80 begint het echte Art. 3-vervolg ('Er moet evenwel een nieuw attest...'). Plus: dit KB is sinds 01.01.2020 opgeheven (regel 53). Bij twijfel → needs-rework."
+    rationale: "De nieuwe strip_inline_footnote_block heeft de false-positive '## Art. 139:' heading succesvol verwijderd (geen heading-anker meer voor footnote-residu). Echter: de orphan opsommingsitems '1°', '5°', '6°' (regels 75-77) staan nog steeds als pseudo-content tussen Art. 3, eerste lid (regels 71-73) en het echte vervolg op regel 79 ('Er moet evenwel een nieuw attest...'). Dit blijft retrievaal-schadelijk omdat Art. 3 inhoudelijk gesplitst is door tekst uit W 13.04.2019 die niets met KB nr. 39 te maken heeft. Partial fix is onvoldoende; de orphan-items moeten ook gestript worden. Plus: KB is sinds 01.01.2020 opgeheven (regel 54)."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:27Z'
-      rationale: "Footnote-bleed in Art. 3 (regels 74-78) niet opgelost door huidige ETL-fixes. De inhoudelijke tekst van Art. 138 (1°, 5°, 6° opsommingen) en Art. 139 (van een andere wet — vermoedelijk W 13.04.2019) staat als pseudo-content middenin Art. 3. Regel 78 toont '## Art. 139: De Koning kan...' wat een echte heading-anker krijgt — schadelijk voor RAG omdat het lijkt op een artikel van KB nr. 39 zelf, maar het is footnote-residu uit een andere wet. Pas op regel 80 begint het echte Art. 3-vervolg ('Er moet evenwel een nieuw attest...'). Plus: dit KB is sinds 01.01.2020 opgeheven (regel 53). Bij twijfel → needs-rework."
+      run_at: '2026-05-13T13:11:54Z'
+      rationale: "De nieuwe strip_inline_footnote_block heeft de false-positive '## Art. 139:' heading succesvol verwijderd (geen heading-anker meer voor footnote-residu). Echter: de orphan opsommingsitems '1°', '5°', '6°' (regels 75-77) staan nog steeds als pseudo-content tussen Art. 3, eerste lid (regels 71-73) en het echte vervolg op regel 79 ('Er moet evenwel een nieuw attest...'). Dit blijft retrievaal-schadelijk omdat Art. 3 inhoudelijk gesplitst is door tekst uit W 13.04.2019 die niets met KB nr. 39 te maken heeft. Partial fix is onvoldoende; de orphan-items moeten ook gestript worden. Plus: KB is sinds 01.01.2020 opgeheven (regel 54)."
       concrete_problemen:
-        - 'Regels 74-78: footnote-bleed van W 13.04.2019 Art. 138/139 wordt tussen Art. 3-tekst gerenderd'
-        - "Regel 78: '## Art. 139: De Koning kan...' krijgt heading-anker — false-positive artikel"
-        - 'Regel 80: echte Art. 3-vervolg pas na footnote-injectie — split tekst'
-        - KB sinds 01.01.2020 opgeheven (regel 53)
+        - "Regels 75-77: orphan opsommingsitems '1° op het administratieve dwangbevel...', '5° op fiscale schuldvorderingen...', '6° op fiscale en niet-fiscale schuldvorderingen...' — footnote-residu van W 13.04.2019, niet KB nr. 39"
+        - 'Art. 3-tekst is gesplitst: eerste lid (regel 71-73), dan footnote-residu (75-77), dan echte vervolg-zin op regel 79 — retrieval-chunk wordt vervuild'
+        - 'KB sinds 01.01.2020 opgeheven (regel 54): bron is historisch, niet meer toepasselijk voor het examen'
 ---
 
 # K.B. nr. 39 van 17 oktober 1980, tot regeling van de toepassingsmodaliteiten van artikel 93duodecies van het Wetboek van de belasting over de toegevoegde waarde
@@ -71,10 +70,6 @@ Het attest bedoeld in artikel 93duodecies van het Wetboek wordt uitgereikt nadat
 Per krediet, lening of voorschot, waarvoor een voordeel inzake economische expansie is aangevraagd, moeten de kredietinstellingen en -organismen bedoeld in artikel 93duodecies van het Wetboek, in principe, in het bezit zijn van slechts één attest.
 
 De datum van uitreiking van dat attest mag niet vroeger zijn dan één maand voor de datum van de aanvraag tot verkrijging van het voordeel, noch later dan deze datum.
-
-1° op het administratieve dwangbevel inzake belasting over de toegevoegde waarde dat ter kennis werd gebracht of werd betekend voor de datum van haar inwerkingtreding;
-5° op fiscale en niet-fiscale schuldvorderingen opgenomen in een kohier, een bijzonder kohier of een inningsen invorderingsregister, uitvoerbaar verklaard voor de datum van haar inwerkingtreding;
-6° op fiscale en niet-fiscale schuldvorderingen, andere dan deze waarvan de inning en de invordering verzekerd zijn in toepassing van de wet van 21 februari 2003 tot oprichting van een Dienst voor alimentatievorderingen bij de FOD Financiën, die het voorwerp hebben uitgemaakt van een in kracht van gewijsde getreden rechterlijke beslissing houdende veroordeling tot hun betaling, voor de datum van haar inwerkingtreding.
 
 Er moet evenwel een nieuw attest worden overgelegd wanneer de beslissing tot toekenning van het voordeel niet is genomen binnen zes maanden te rekenen van de datum van het attest.
 

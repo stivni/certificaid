@@ -28,7 +28,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:19Z'
+    confirmed_at: '2026-05-13T13:11:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Extreem korte bron (700 chars, 2 alinea's, geen headings buiten de paginatitel). Laag-1 pass. Geen detecteerbare extractie-artefacten: geen HTML-entities, geen gebroken zinnen na footnote-markers, geen unicode-artefacten. De inhoud is volledig en afgerond — dit advies is inhoudelijk kort van aard."
     layer1:
@@ -42,7 +42,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:19Z'
+      run_at: '2026-05-13T13:11:46Z'
       rationale: "Extreem korte bron (700 chars, 2 alinea's, geen headings buiten de paginatitel). Laag-1 pass. Geen detecteerbare extractie-artefacten: geen HTML-entities, geen gebroken zinnen na footnote-markers, geen unicode-artefacten. De inhoud is volledig en afgerond — dit advies is inhoudelijk kort van aard."
       concrete_problemen: []
 ---

@@ -8,10 +8,10 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 133 | 108 | — | 18 | 7 | — |
+| Wetteksten | 133 | 109 | — | 17 | 7 | — |
 | Normen | 19 | 4 | — | 14 | 1 | — |
 | Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **588** | 534 | — | 46 | 8 | — |
+| **Totaal** | **588** | 535 | — | 45 | 8 | — |
 
 ## Wetteksten (133)
 
@@ -40,7 +40,6 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WBTW-KB39-regeling-93duodecies.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 39 van 17 oktober 1980, tot regeling van de toepassingsmodaliteiten van artike… |
 | `WBTW-KB41-proportionele-geldboeten.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele f… |
 | `WBTW-KB44-geldboeten.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 44 van 9 juli 2012, tot vaststelling van het bedrag van de niet-proportionele … |
-| `WBTW-KB50-intracommunautaire-opgave.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 50 van 11 december 2019, met betrekking tot de btw-opgave van de intracommunau… |
 | `WBTW-MB29apr2024-certificatie-kassasysteem.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certifica… |
 | `aangifte-PB-2025-bezoldigingen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-bezoldigingen |
 | `aangifte-PB-2025-stopzetting.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-stopzetting |
@@ -112,6 +111,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WBTW-KB46-intracommunautaire-aangifte.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 46 van 29 december 1992, tot regeling van de aangifte van de intracommunautair… |
 | `WBTW-KB47-controle-vervoermiddelen-1996.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 47 van 25 februari 1996, tot regeling van de controle van de voldoening van de… |
 | `WBTW-KB48-levering-vervoermiddelen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 48 van 29 december 1992, met betrekking tot de levering van vervoermiddelen in… |
+| `WBTW-KB50-intracommunautaire-opgave.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 50 van 11 december 2019, met betrekking tot de btw-opgave van de intracommunau… |
 | `WBTW-KB51-accijnsproducten.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 51 van 14 april 1993, met betrekking tot de vereenvoudigingsregeling voor intr… |
 | `WBTW-KB52-intracommunautaire-vrijstellingen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 52 van 11 december 2019, met betrekking tot de bewijsregeling inzake de vrijst… |
 | `WBTW-KB53-winstmarge-tweedehands.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 53 van 23 december 1994, met betrekking tot de bijzondere regeling van belasti… |

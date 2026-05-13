@@ -41,7 +41,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:13Z'
+    confirmed_at: '2026-05-13T13:11:40Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen ETL-artefacten aangetroffen. Heading-hiërarchie is H1 → H3 (twee secties I en II) — passend voor dit advies zonder tussenliggende niveaus in het brondocument. Genummerde lijst correct (1. 2. 3.). Italics consequent correct gesloten voor rubrieknamen. Content compleet: beide secties (ondernemingen met/zonder besluit 8 okt 1976) volledig aanwezig.'
     layer1:
@@ -55,7 +55,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:13Z'
+      run_at: '2026-05-13T13:11:40Z'
       rationale: 'Geen ETL-artefacten aangetroffen. Heading-hiërarchie is H1 → H3 (twee secties I en II) — passend voor dit advies zonder tussenliggende niveaus in het brondocument. Genummerde lijst correct (1. 2. 3.). Italics consequent correct gesloten voor rubrieknamen. Content compleet: beide secties (ondernemingen met/zonder besluit 8 okt 1976) volledig aanwezig.'
       concrete_problemen: []
 ---

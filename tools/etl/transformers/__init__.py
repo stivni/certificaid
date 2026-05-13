@@ -44,6 +44,7 @@ from tools.etl.transformers.strip_opgeheven_kb_appendix import strip_opgeheven_k
 from tools.etl.transformers.merge_wrapped_headings import merge_wrapped_headings
 from tools.etl.transformers.strip_toc_headings_with_art_range import strip_toc_headings_with_art_range
 from tools.etl.transformers.strip_inline_footnote_block import strip_inline_footnote_block
+from tools.etl.transformers.strip_concord_table_headings import strip_concord_table_headings
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
@@ -80,6 +81,7 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "merge_wrapped_headings": merge_wrapped_headings,
     "strip_toc_headings_with_art_range": strip_toc_headings_with_art_range,
     "strip_inline_footnote_block": strip_inline_footnote_block,
+    "strip_concord_table_headings": strip_concord_table_headings,
 }
 
 

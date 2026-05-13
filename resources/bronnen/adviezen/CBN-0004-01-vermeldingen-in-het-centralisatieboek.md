@@ -34,7 +34,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:13Z'
+    confirmed_at: '2026-05-13T13:11:40Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Alle door vorige verdict gemelde tekstfouten (berokken, dee vermelding, wttelijke, centraisatieboek, bewegingn, angegeven) staan letterlijk in de bron-HTML en vallen onder de source-uitzondering. A4 (U+2010 in r87 'ondergaan -gelet') is eveneens een bron-karakter uit de CBN-website. Geen ETL-bugs gevonden buiten deze source-categorieën. Inhoud volledig, voetnoot intact.
     layer1:
@@ -48,7 +48,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:13Z'
+      run_at: '2026-05-13T13:11:40Z'
       rationale: Alle door vorige verdict gemelde tekstfouten (berokken, dee vermelding, wttelijke, centraisatieboek, bewegingn, angegeven) staan letterlijk in de bron-HTML en vallen onder de source-uitzondering. A4 (U+2010 in r87 'ondergaan -gelet') is eveneens een bron-karakter uit de CBN-website. Geen ETL-bugs gevonden buiten deze source-categorieën. Inhoud volledig, voetnoot intact.
       concrete_problemen:
         - regel: 75

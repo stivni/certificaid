@@ -31,7 +31,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:14Z'
+    confirmed_at: '2026-05-13T13:11:41Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Bug B3 (duplicate heading) is opgelost: de body bevat slechts één heading '# CBN advies 102 - Omzet - Verkopen CIF (Cost, Insurance, Freight)'. Inhoud is volledig (twee alineas, correct afgerond). Geen andere artefacten."
     layer1:
@@ -45,7 +45,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:14Z'
+      run_at: '2026-05-13T13:11:41Z'
       rationale: "Bug B3 (duplicate heading) is opgelost: de body bevat slechts één heading '# CBN advies 102 - Omzet - Verkopen CIF (Cost, Insurance, Freight)'. Inhoud is volledig (twee alineas, correct afgerond). Geen andere artefacten."
       concrete_problemen: []
 ---

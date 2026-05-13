@@ -20,19 +20,19 @@ provenance:
     pipeline_version: e62521a
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:07:12Z'
+  generated_at: '2026-05-13T13:11:07Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:26Z'
+    confirmed_at: '2026-05-13T13:11:52Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Korte, schone KB-tekst. Heading-hiërarchie consistent (## Art. 1 t/m 10), amendment-headers in italics tussen haakjes per artikel. Geen PDF-artefacten, geen scrambled volgorde, geen running headers. Frontmatter klopt met body-titel.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:26Z'
+      run_at: '2026-05-13T13:11:52Z'
       rationale: Korte, schone KB-tekst. Heading-hiërarchie consistent (## Art. 1 t/m 10), amendment-headers in italics tussen haakjes per artikel. Geen PDF-artefacten, geen scrambled volgorde, geen running headers. Frontmatter klopt met body-titel.
       concrete_problemen: []
 ---

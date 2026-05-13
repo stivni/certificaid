@@ -35,7 +35,13 @@ _FAKE_ART_HEADING_WITH_COLON_RE = re.compile(
 
 
 def strip_inline_footnote_block(body: str, frontmatter: dict) -> tuple[str, dict]:
-    """Strip inline footnote-block: voetnoot-start + nummered items + fake-heading."""
+    """Strip inline footnote-block: voetnoot-start + nummered items + fake-heading.
+
+    Sticky footnote-mode: zodra (N) Art. M: gevonden, strip alle volgende
+    nummered items (Nº), fake-headings (## Art. N: title) en blanke regels
+    daartussen, tot een echte body-paragraaf (begint met hoofdletter,
+    geen heading-prefix, geen numbered item).
+    """
     lines = body.split("\n")
     out: list[str] = []
     in_footnote = False
@@ -44,23 +50,23 @@ def strip_inline_footnote_block(body: str, frontmatter: dict) -> tuple[str, dict
             in_footnote = True
             continue  # strip
         if in_footnote:
-            # Continue strippen zolang de regel deel uitmaakt van de footnote.
-            if not line.strip():
-                # Blanco regel → einde footnote-blok.
-                in_footnote = False
-                out.append(line)
+            stripped = line.strip()
+            if not stripped:
+                # Blanco regel — sticky: blijf in footnote-mode.
                 continue
             if _NUMBERED_ITEM_RE.match(line) or _FAKE_ART_HEADING_WITH_COLON_RE.match(line):
                 continue  # strip
-            # Andere niet-blanco regel → einde footnote (we hadden eerder
-            # gestopt bij een blanco, dus dit is een continuation van item).
-            # Wees conservatief: strip ALLEEN als dit eruit ziet als een
-            # vervolg van een numbered-item (geen heading, niet-hoofdletter).
-            if line.lstrip()[:1].islower() or line.lstrip()[:1] in "(":
-                continue  # strip
-            # Anders: stop hier, keep
-            in_footnote = False
-            out.append(line)
+            # Echte body-regel (begint met hoofdletter, geen heading) → einde footnote.
+            if line.lstrip()[:1].isupper() and not line.lstrip().startswith("#"):
+                in_footnote = False
+                out.append(line)
+                continue
+            # Heading (echte) → einde footnote.
+            if line.lstrip().startswith("#") and not _FAKE_ART_HEADING_WITH_COLON_RE.match(line):
+                in_footnote = False
+                out.append(line)
+                continue
+            # Continuation van item (lowercase) → strip
             continue
         # Strip ook geïsoleerde fake-promoted Art-heading (## Art. N: title)
         if _FAKE_ART_HEADING_WITH_COLON_RE.match(line):

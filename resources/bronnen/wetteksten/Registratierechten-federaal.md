@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:08:28Z'
+    confirmed_at: '2026-05-13T13:11:53Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Frontmatter volledig (Wetboek registratie- hypotheek- griffierechten, bron_rol itaa_lex, bijgewerkt 01.04.2026, SHA-256 768b6255..., pipeline 7b2b73e). Bilingue-detectie van 87 naar 2 fragmenten — ruim binnen cosmetische tolerantie. Hiërarchie correct (TITEL/Hoofdstuk/Afdeling/Artikel met ###### voor artikels). NL-body is consistent en volledig.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:08:28Z'
+      run_at: '2026-05-13T13:11:53Z'
       rationale: 'Frontmatter volledig (Wetboek registratie- hypotheek- griffierechten, bron_rol itaa_lex, bijgewerkt 01.04.2026, SHA-256 768b6255..., pipeline 7b2b73e). Bilingue-detectie van 87 naar 2 fragmenten — ruim binnen cosmetische tolerantie. Hiërarchie correct (TITEL/Hoofdstuk/Afdeling/Artikel met ###### voor artikels). NL-body is consistent en volledig.'
       concrete_problemen:
         - Header-blok regels 39-61 bevat tweetalige titels en FR-KB-referentie (Arrêté royal n 64, Code des droits d'enregistrement...). Cosmetisch front-matter, niet blokkerend; raakt alleen embeddings van het allereerste chunk.
