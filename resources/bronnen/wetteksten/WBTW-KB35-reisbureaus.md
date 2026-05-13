@@ -20,16 +20,21 @@ provenance:
     pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:47:03Z'
+  generated_at: '2026-05-13T12:53:29Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T12:54:22Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Compact KB (4 artikelen). H1 + 4× ## Art., consistent gevolgd door wijzigingstoelichting. Lijst 1°-4° met percentages (18/6/8/13 pct.) clean op aparte regels. Body-intro op regels 48-50 staat in 3 aparte regels maar dat is typisch Fisconet-style (Uitvoering / Officieuze coördinatie / Laatstelijk gewijzigd) en niet storend. Lange compound-zin in Art. 1 (1°) is wettelijke stijl, geen ETL-artefact. Geen footer, geen TOC, geen running-headers.'
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:54:22Z'
+      rationale: 'Compact KB (4 artikelen). H1 + 4× ## Art., consistent gevolgd door wijzigingstoelichting. Lijst 1°-4° met percentages (18/6/8/13 pct.) clean op aparte regels. Body-intro op regels 48-50 staat in 3 aparte regels maar dat is typisch Fisconet-style (Uitvoering / Officieuze coördinatie / Laatstelijk gewijzigd) en niet storend. Lange compound-zin in Art. 1 (1°) is wettelijke stijl, geen ETL-artefact. Geen footer, geen TOC, geen running-headers.'
+      concrete_problemen: []
 ---
 
 # K.B. nr. 35 van 28 december 1999, tot invoering van een forfaitaire maatstaf van heffing van de belasting over de toegevoegde waarde op de winstmarge van reisbureaus

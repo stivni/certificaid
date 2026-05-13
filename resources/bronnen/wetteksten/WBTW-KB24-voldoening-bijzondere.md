@@ -20,16 +20,27 @@ provenance:
     pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:47:03Z'
+  generated_at: '2026-05-13T12:53:29Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T12:54:23Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "De recente ETL-fixes (fix_pdf_slash_loss_in_article_headings + merge_broken_sentences) raken de hoofdproblemen van dit bestand niet aan. Het bestand opent met een TOC-blok (regels 55-77) waar onderafdeling-headings worden geïntroduceerd als '### Onderafdeling 1. ... Art. 1 - 8' met spurious linebreaks midden in heading-tekst ('Inning en\\nInvordering' regels 61-62; 'Mini One Stop Shop\\n- VAT BE' regels 64-65); direct daarna worden dezelfde Afdelingen/Onderafdelingen opnieuw geïntroduceerd als full sections (regels 79-87). Compilatie-bleed: Franse plain-text 'Disposition temporaire Art. 13ter' op regel 69 midden in NL-content. Smart-quote mismatch (' ... ' opent met \" maar sluit met ”). Een buitenstaander die deze bron van nul zou schrijven zou nooit dit TOC + duplicate headings produceren."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:54:23Z'
+      rationale: "De recente ETL-fixes (fix_pdf_slash_loss_in_article_headings + merge_broken_sentences) raken de hoofdproblemen van dit bestand niet aan. Het bestand opent met een TOC-blok (regels 55-77) waar onderafdeling-headings worden geïntroduceerd als '### Onderafdeling 1. ... Art. 1 - 8' met spurious linebreaks midden in heading-tekst ('Inning en\\nInvordering' regels 61-62; 'Mini One Stop Shop\\n- VAT BE' regels 64-65); direct daarna worden dezelfde Afdelingen/Onderafdelingen opnieuw geïntroduceerd als full sections (regels 79-87). Compilatie-bleed: Franse plain-text 'Disposition temporaire Art. 13ter' op regel 69 midden in NL-content. Smart-quote mismatch (' ... ' opent met \" maar sluit met ”). Een buitenstaander die deze bron van nul zou schrijven zou nooit dit TOC + duplicate headings produceren."
+      concrete_problemen:
+        - 'Regels 55-77: TOC-achtig blok met Onderafdeling-headings met artikel-ranges als plain text'
+        - 'Regels 79-87: dezelfde Afdelingen/Onderafdelingen opnieuw geïntroduceerd na het TOC-blok → duplicate headings'
+        - "Regels 61-62, 64-65, 67: spurious linebreaks midden in onderafdeling-headings ('Inning en\\nInvordering', 'Mini One Stop Shop\\n- VAT BE')"
+        - "Regel 69: 'Disposition temporaire Art. 13ter' — Franse plain-text-leak midden in NL-content (bilingue-residu)"
+        - "Smart-quote inconsistentie: 'VAT BE' opent met \" maar sluit met ”"
+        - "Inconsistente kapitalisatie: '## AFDELING 1' (all-caps) vs '### Onderafdeling 1' (kleine letters)"
 ---
 
 # K.B. nr. 24 van 29 december 1992, met betrekking tot de voldoening van de belasting over de toegevoegde waarde

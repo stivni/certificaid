@@ -20,16 +20,23 @@ provenance:
     pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:47:03Z'
+  generated_at: '2026-05-13T12:53:30Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T12:54:23Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "fix_pdftotext_glue_bugs heeft 'van hetWetboek' op regel 66 niet ondubbelzinnig gecorrigeerd (zie regel 66: 'van hetWetboek' staat er nog), maar dit is één geïsoleerde concat-bug en marginaal. De eerder gevlagde linewraps zijn opgelost. Hoofdtekst leest natuurlijk, alle artikelen 1-9 (incl. Art. 4bis als opgeheven-stub) consistent geformatteerd, lijst-structuur a)-c) in Art. 3 §1 correct. De lege witregel tussen 'a) voor de landvoertuigen' en 'b) voor schepen' (regel 74-75) blijft een kleine cosmetic. Net trusted: één resterende concat-bug niet voldoende voor needs-rework."
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:54:23Z'
+      rationale: "fix_pdftotext_glue_bugs heeft 'van hetWetboek' op regel 66 niet ondubbelzinnig gecorrigeerd (zie regel 66: 'van hetWetboek' staat er nog), maar dit is één geïsoleerde concat-bug en marginaal. De eerder gevlagde linewraps zijn opgelost. Hoofdtekst leest natuurlijk, alle artikelen 1-9 (incl. Art. 4bis als opgeheven-stub) consistent geformatteerd, lijst-structuur a)-c) in Art. 3 §1 correct. De lege witregel tussen 'a) voor de landvoertuigen' en 'b) voor schepen' (regel 74-75) blijft een kleine cosmetic. Net trusted: één resterende concat-bug niet voldoende voor needs-rework."
+      concrete_problemen:
+        - "Regel 66: 'van hetWetboek' (ontbrekende spatie) — fix_pdftotext_glue_bugs heeft deze specifieke variant niet gevangen"
+        - 'Regel 74-75: lege regel binnen één enumeratielijst tussen a) en b)'
 ---
 
 # K.B. nr. 48 van 29 december 1992, met betrekking tot de levering van vervoermiddelen in de zin van artikel 8bis, § 2, 1°, van het Btw- Wetboek, verricht binnen de voorwaarden van artikel 39bis van het Btw- Wetboek

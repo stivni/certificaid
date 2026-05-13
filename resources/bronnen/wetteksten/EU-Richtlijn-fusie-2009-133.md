@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:41:09Z'
+    confirmed_at: '2026-05-13T12:54:07Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Geen EUR-Lex markers. De ## headings voor Richtlijnfragmenten (bijv. '## RICHTLIJN 2009/133/EG VAN DE RAAD' op r68-70) zijn ruis-headings uit de preambuletekst maar verstoren de structuur minimaal. Definities, artikelen en bijlagen volledig aanwezig. Kleine PDF-koppeltekensplits (bv. 'vennootschap- pen') zijn source-kenmerken."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:09Z'
+      run_at: '2026-05-13T12:54:07Z'
       rationale: "Geen EUR-Lex markers. De ## headings voor Richtlijnfragmenten (bijv. '## RICHTLIJN 2009/133/EG VAN DE RAAD' op r68-70) zijn ruis-headings uit de preambuletekst maar verstoren de structuur minimaal. Definities, artikelen en bijlagen volledig aanwezig. Kleine PDF-koppeltekensplits (bv. 'vennootschap- pen') zijn source-kenmerken."
       concrete_problemen:
         - regel: 68

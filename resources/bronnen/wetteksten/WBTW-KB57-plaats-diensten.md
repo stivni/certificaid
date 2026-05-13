@@ -20,16 +20,21 @@ provenance:
     pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:47:04Z'
+  generated_at: '2026-05-13T12:53:30Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T12:54:22Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "ETL-transformers hebben de Fisconet running-header (regel 73 'KB57 (2017) pg. 1 Plaats van de dienst') en de 'Lijst van de bijwerkingen' appendix succesvol verwijderd. Bestand eindigt nu schoon op Art. 3 met 'De minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.' Heading-hierarchie (H1 + ## Art. 1-3) consistent, elke artikel-heading gevolgd door wijzigingstoelichting tussen haakjes. De eerder gesignaleerde linebreak in '§ 2. ... in paragraaf 1, eerste lid,\\n1° en 2° bedoelde diensten' is typische wettelijke opmaak en niet storend voor de lezer."
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:54:22Z'
+      rationale: "ETL-transformers hebben de Fisconet running-header (regel 73 'KB57 (2017) pg. 1 Plaats van de dienst') en de 'Lijst van de bijwerkingen' appendix succesvol verwijderd. Bestand eindigt nu schoon op Art. 3 met 'De minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.' Heading-hierarchie (H1 + ## Art. 1-3) consistent, elke artikel-heading gevolgd door wijzigingstoelichting tussen haakjes. De eerder gesignaleerde linebreak in '§ 2. ... in paragraaf 1, eerste lid,\\n1° en 2° bedoelde diensten' is typische wettelijke opmaak en niet storend voor de lezer."
+      concrete_problemen: []
 ---
 
 # K.B. nr. 57, van 31.10.2017 met betrekking tot de plaats van diensten in functie van hun werkelijke gebruik of hun werkelijke exploitatie inzake belasting over de toegevoegde waarde wat goederenvervoerdiensten en ermee samenhangende diensten betreft

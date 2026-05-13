@@ -42,7 +42,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:41:04Z'
+    confirmed_at: '2026-05-13T12:53:59Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen ETL-artefacten aangetroffen. 24 headings correct genest (###/####/#####). Voetnoten [1]–[67] volledig correct als markdown-links onderaan. Inhoud compleet: alle 13 vragen behandeld. Body clean, geen form-feeds, geen column-bleed.'
     layer1:
@@ -56,7 +56,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:04Z'
+      run_at: '2026-05-13T12:53:59Z'
       rationale: 'Geen ETL-artefacten aangetroffen. 24 headings correct genest (###/####/#####). Voetnoten [1]–[67] volledig correct als markdown-links onderaan. Inhoud compleet: alle 13 vragen behandeld. Body clean, geen form-feeds, geen column-bleed.'
       concrete_problemen: []
 ---

@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:41:04Z'
+    confirmed_at: '2026-05-13T12:53:59Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 pass: 79 headings, max sectie 703 chars. Wijzigingswet met Art.-headings als #### Art. N correct. Inhoud zijn wijzigingsbepalingen, volledig intact.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:04Z'
+      run_at: '2026-05-13T12:53:59Z'
       rationale: 'L1 pass: 79 headings, max sectie 703 chars. Wijzigingswet met Art.-headings als #### Art. N correct. Inhoud zijn wijzigingsbepalingen, volledig intact.'
       concrete_problemen: []
 ---

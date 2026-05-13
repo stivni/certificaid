@@ -20,16 +20,27 @@ provenance:
     pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:47:03Z'
+  generated_at: '2026-05-13T12:53:29Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T12:54:21Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Grootste bron in batch (108k chars) met meerdere structuurproblemen die de ETL moet oplossen. Layer1 vlagt al max_section_size (>24k). Tabel A/B/C-rubrieken (Romeinse cijfers I.–XL.) staan als plain text in plaats van als sub-headings, waardoor één enorme sectie ontstaat. TOC-fragmenten met dotted leaders ('Goederen aan 6 pct. ......... II/1') zijn niet opgeschoond. Structuurlabels 'TABEL A', 'TABEL B', 'TABEL C', 'GOEDEREN', 'DIENSTEN', 'BIJLAGE', 'Tijdelijke bepalingen', 'Eerste afdeling' staan als plain text zonder ##-prefix. Recap-blok aan het einde dupliceert de rubriekenlijst en lijkt op TOC-residu."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:54:21Z'
+      rationale: "Grootste bron in batch (108k chars) met meerdere structuurproblemen die de ETL moet oplossen. Layer1 vlagt al max_section_size (>24k). Tabel A/B/C-rubrieken (Romeinse cijfers I.–XL.) staan als plain text in plaats van als sub-headings, waardoor één enorme sectie ontstaat. TOC-fragmenten met dotted leaders ('Goederen aan 6 pct. ......... II/1') zijn niet opgeschoond. Structuurlabels 'TABEL A', 'TABEL B', 'TABEL C', 'GOEDEREN', 'DIENSTEN', 'BIJLAGE', 'Tijdelijke bepalingen', 'Eerste afdeling' staan als plain text zonder ##-prefix. Recap-blok aan het einde dupliceert de rubriekenlijst en lijkt op TOC-residu."
+      concrete_problemen:
+        - "Dotted-leader TOC-residu op regel 158: 'Goederen aan 6 pct. ......... II/1 Diensten aan 6 pct. ......... III/1'"
+        - Structuurlabels 'TABEL A', 'GOEDEREN', 'DIENSTEN', 'BIJLAGE', 'Tijdelijke bepalingen', 'Eerste afdeling', 'XXIII.', 'XXIV.', ... staan als plain text i.p.v. markdown-headings
+        - Eén sectie van 94903 chars (layer1 warn) — chunker moet auto-splitten via split_long_chunk maar betere ETL-headings zouden dit oplossen
+        - Recap aan het einde (regels 894-943) is TOC-achtige duplicatie van rubrieken — onduidelijk of bedoeld of residu
+        - Spurious linebreaks midden in sectienummers, bv. '6°,\n van tabel A' (regels 92-93, 99-100, 133-134, 384-385)
+        - Heading van Afdeling II onder rubriek XXII verschijnt wel als '## Afdeling II - Onderdelen...' (regel 397) maar 'Eerste afdeling. - Automobielen...' (regel 364) is plain text — inconsistentie binnen één rubriek
 ---
 
 # K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven
@@ -149,7 +160,7 @@ Tabel B – Goederen en diensten onderworpen aan het tarief van 12 pct. ........
 
 Tabel C – Goederen en diensten onderworpen aan het tarief van 0 pct. ..................................... V/1
 
-TABEL A
+## Tabel A
 Goederen en diensten onderworpen aan het tarief van 6 pct.
 
 ## GOEDEREN
@@ -349,7 +360,7 @@ XXII. Automobielen voor personenvervoer voor invaliden. Onderdelen, uitrustingss
 
 (De tekst van KB nr. 20, TABEL A, XXII, afdeling 1, § 5, 4° lid, werd vervangen met ingang van 25.05.2019 (Art. 16, W 02.05.2019, B.S. 15.05.2019, pg. 46586))
 
-Eerste afdeling. - Automobielen voor personenvervoer voor invaliden.
+## AFDELING I — Automobielen voor personenvervoer voor invaliden
 
 § 1. Mits voldaan is aan de hierna gestelde voorwaarden en onder voorbehoud van de regularisatie voorzien in § 5, is het verlaagd tarief van 6 pct. van toepassing op automobielen voor personenvervoer langs de weg, welke worden ingevoerd, intracommunautair verworven of hier te lande verkregen door een der nagenoemde personen om door hen als persoonlijk vervoermiddel te worden gebruikt:
 1° militaire en burgerlijke oorlogsinvaliden, die een invaliditeitspensioen van ten minste 50 pct. genieten;

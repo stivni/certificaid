@@ -20,16 +20,28 @@ provenance:
     pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:47:03Z'
+  generated_at: '2026-05-13T12:53:29Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T12:54:22Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Zware kolom-bleed door de hele bijlage (Tabellen A-J). Originele PDF heeft een 2-koloms structuur: links de overtredingsbeschrijving, rechts het percentage/boete. De extractie heeft kolomstrooien afwisselend gemerged, met als resultaat scrambled zinnen zoals 'A) belasting en voorschotten waarvan de per maand vertraging (1), een opeisbaarheid blijkt uit de maand- of percentage gelijk aan dat van kwartaalaangiften en belasting waarvan de de nalatigheidsinterest dat is opeisbaarheid blijkt uit de jaaraangiften bepaald in artikel 91, § 1, van het...' (regel 143). Dat is onbruikbaar voor retrieval en evident niet-mens-geschreven. Dit is veruit het zwaarste geval van de batch."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:54:22Z'
+      rationale: "Zware kolom-bleed door de hele bijlage (Tabellen A-J). Originele PDF heeft een 2-koloms structuur: links de overtredingsbeschrijving, rechts het percentage/boete. De extractie heeft kolomstrooien afwisselend gemerged, met als resultaat scrambled zinnen zoals 'A) belasting en voorschotten waarvan de per maand vertraging (1), een opeisbaarheid blijkt uit de maand- of percentage gelijk aan dat van kwartaalaangiften en belasting waarvan de de nalatigheidsinterest dat is opeisbaarheid blijkt uit de jaaraangiften bepaald in artikel 91, § 1, van het...' (regel 143). Dat is onbruikbaar voor retrieval en evident niet-mens-geschreven. Dit is veruit het zwaarste geval van de batch."
+      concrete_problemen:
+        - 'Kolom-bleed in heel TABEL A (regels 137-408): elke rij heeft beschrijving + tarief door elkaar gehusseld zonder pipe-syntax'
+        - "Voorbeeld scrambled regel 143-145: 'A) belasting en voorschotten waarvan de per maand vertraging (1), een opeisbaarheid blijkt uit de maand- of percentage gelijk aan dat van...'"
+        - 'Idem TABEL G (regels 487-700) en alle andere tabellen: zelfde 2-koloms scramble'
+        - TOC bovenaan (regels 95-127) lijst alle tabellen op met sub-afdelingen die later opnieuw verschijnen als '## Afdeling 1', '## Afdeling 2' - misleidende heading-hiërarchie
+        - "## Afdeling 1 verschijnt zonder body (regel 97) net na 'TABEL A:' titel - geen pipe-tabel maar enkel een rij met de tarief-cellen die als plain text doorlopen"
+        - Volledig ontbreken van pipe-tabel markdown; PDF-bullets zoals '- minder dan of gelijk aan 10.000 F nihil' (regel 168) zien er uit als list maar zijn eigenlijk tabel-rijen
+        - Vraagteken bij Art. 2 (regel 67) - alleen amendment-blok, geen body (oorspronkelijk opgeheven, OK)
 ---
 
 # K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde
@@ -124,7 +136,7 @@ TABEL J: Geldboeten voor overtredingen beoogd in artikel 71 van het wetboek
 GELDBOETEN VAN TOEPASSING VOOR DE OVERTREDINGEN
 BEOOGD IN ARTIKEL 70, § 1, VAN HET WETBOEK
 
-Eerste afdeling. - Binnenlandse verrichtingen.
+## AFDELING I — Binnenlandse verrichtingen
 (KB nr. 41, Tabel A, afdeling 1, I, 1. A) en 2. B), werden gewijzigd met ingang van 01.04.2019 (KB 17.03.2019, B.S. 08.04.2019, pg. 35699))
 
 I. Niet-betaling en niet-tijdige betaling van de belasting of van de voorschotten waarvan de opeisbaarheid blijkt uit de ingediende periodieke btw-aangiften of uit het opstellen van de bijzondere rekening.
@@ -469,7 +481,7 @@ Vermelding op de bij uitvoer of tot staving ervan overgelegde 10 pct. van de ove
 GELDBOETEN VAN TOEPASSING VOOR DE OVERTREDINGEN
 BEOOGD IN ARTIKEL 70, § 1, VAN HET WETBOEK
 
-Eerste afdeling.- Binnenlandse en intracommunautaire verrichtingen.
+## AFDELING I — Binnenlandse en intracommunautaire verrichtingen
 (KB nr. 41, Tabel G, afdeling 1, I, werd gewijzigd met ingang van 01.04.2019 (KB 17.03.2019, B.S. 08.04.2019, pg. 35699))
 
 I. Niet-betaling en niet-tijdige betaling van de belasting of van per maand vertraging (5), een de voorschotten waarvan de opeisbaarheid blijkt uit de percentage gelijk aan dat van ingediende periodieke aangifte bedoeld in artikel 53, § 1, de nalatigheidsinterest dat is eerste lid, 2°, van het Wetboek, of uit het opstellen van de bepaald in artikel 91, § 1, van bijzondere rekening. het Wetboek, te berekenen over het verschuldigde of nog verschuldigde bedrag

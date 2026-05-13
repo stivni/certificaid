@@ -20,16 +20,22 @@ provenance:
     pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:47:03Z'
+  generated_at: '2026-05-13T12:53:30Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T12:54:24Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Langere tekst (11 art, 13kB) met § §-structuur. Markdown is volledig en logisch: H1, ## Art. 1-11, met wijzigingsblok + wetstekst per artikel. Lijstmarkers consistent (1°, 2°, etc.), § §-paragrafen netjes. De openingsparen zonder afsluitende ')' op meerdere plekken (Art. 3, 4, 5, 7) zijn source-glitches uit Fisconet en kunnen blijven onder de '(source)'-uitzondering."
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:54:24Z'
+      rationale: "Langere tekst (11 art, 13kB) met § §-structuur. Markdown is volledig en logisch: H1, ## Art. 1-11, met wijzigingsblok + wetstekst per artikel. Lijstmarkers consistent (1°, 2°, etc.), § §-paragrafen netjes. De openingsparen zonder afsluitende ')' op meerdere plekken (Art. 3, 4, 5, 7) zijn source-glitches uit Fisconet en kunnen blijven onder de '(source)'-uitzondering."
+      concrete_problemen:
+        - Meerdere openingsparen zonder afsluiter in wijzigingsbloks (Art. 3/4/5/7) — source-glitch, niet ETL
 ---
 
 # K.B. nr. 47 van 25 februari 1996, tot regeling van de controle van de voldoening van de BTW verschuldigd ter zake van de levering, intracommunautaire verwerving en invoer van vervoermiddelen, in de zin van artikel 8bis, § 2, 1°, van het Wetboek

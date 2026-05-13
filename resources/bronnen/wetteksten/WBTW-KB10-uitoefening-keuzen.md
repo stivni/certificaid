@@ -20,16 +20,22 @@ provenance:
     pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:47:02Z'
+  generated_at: '2026-05-13T12:53:28Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T12:54:23Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "ETL-fix merge_broken_sentences heeft de eerder gerapporteerde spurious linebreaks gefixt: 'koninklijk besluit nr. 4' staat nu op één regel (regels 65, 80, 84), en 'artikel 51, § 2, eerste lid, 1°' is volledig samengevoegd op regel 105. De enige resterende afwijking is 'belasting over de toegevoegde waaronder' op regel 61 — dit is een echte source-typo in de PDF (ontbrekend woord 'waarde'), waarvoor de instructies expliciet zeggen dat status trusted blijft met (source) markering. Structuur (10 artikelen, amendment-blokken correct geplaatst) leest als een van-nul-geschreven wettekst."
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:54:23Z'
+      rationale: "ETL-fix merge_broken_sentences heeft de eerder gerapporteerde spurious linebreaks gefixt: 'koninklijk besluit nr. 4' staat nu op één regel (regels 65, 80, 84), en 'artikel 51, § 2, eerste lid, 1°' is volledig samengevoegd op regel 105. De enige resterende afwijking is 'belasting over de toegevoegde waaronder' op regel 61 — dit is een echte source-typo in de PDF (ontbrekend woord 'waarde'), waarvoor de instructies expliciet zeggen dat status trusted blijft met (source) markering. Structuur (10 artikelen, amendment-blokken correct geplaatst) leest als een van-nul-geschreven wettekst."
+      concrete_problemen:
+        - "Regel 61: 'belasting over de toegevoegde waaronder' — source-typo, ontbrekend 'waarde' in originele PDF (geen ETL-bug)"
 ---
 
 # K.B. nr. 10 van 29 december 1992, met betrekking tot de uitoefeningsmodaliteiten van de keuzen, bedoeld in de artikelen 15, § 2, derde lid, 21bis, § 2, 9°, vierde lid, 25ter, § 1, tweede lid, 2°, tweede lid en 44, § 3, 2°, d), van het Wetboek van de belasting over de toegevoegde waarde, de aangiften van aanvang, wijziging, stopzetting van activiteit en de voorafgaande kennisgevingen inzake de belasting over de toegevoegde waarde

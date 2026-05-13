@@ -38,7 +38,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:41:23Z'
+    confirmed_at: '2026-05-13T12:54:21Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Alle categorieën schoon. Inhoud volledig: 14 headings, 6 voorbeelden, balans- en journaaltabellen correct in markdown-pipe-syntax, voetnoten [^1]-[^19] aanwezig en gesloten. Geen PDF-artefacten, TOC-fragmenten, OCR-verwarring of structuurbugs gevonden.'
     layer1:
@@ -52,7 +52,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:23Z'
+      run_at: '2026-05-13T12:54:21Z'
       rationale: 'Alle categorieën schoon. Inhoud volledig: 14 headings, 6 voorbeelden, balans- en journaaltabellen correct in markdown-pipe-syntax, voetnoten [^1]-[^19] aanwezig en gesloten. Geen PDF-artefacten, TOC-fragmenten, OCR-verwarring of structuurbugs gevonden.'
       concrete_problemen: []
 ---

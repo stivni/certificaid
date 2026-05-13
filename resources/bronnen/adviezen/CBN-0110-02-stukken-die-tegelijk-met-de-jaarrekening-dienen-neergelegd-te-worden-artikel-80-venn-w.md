@@ -31,7 +31,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:41:10Z'
+    confirmed_at: '2026-05-13T12:54:07Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen artefacten aangetroffen in categorieën A-G. Body is volledig proza zonder headings (correct voor dit korte advies), genummerde lijsten gebruikt correct '1.', '2.', '3.' formaat, voetnoten [^1]–[^3] correct gedefinieerd. Frontmatter themas clean zonder HTML-entiteiten.
     layer1:
@@ -45,7 +45,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:10Z'
+      run_at: '2026-05-13T12:54:07Z'
       rationale: Geen artefacten aangetroffen in categorieën A-G. Body is volledig proza zonder headings (correct voor dit korte advies), genummerde lijsten gebruikt correct '1.', '2.', '3.' formaat, voetnoten [^1]–[^3] correct gedefinieerd. Frontmatter themas clean zonder HTML-entiteiten.
       concrete_problemen: []
 ---

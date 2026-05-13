@@ -27,7 +27,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:41:18Z'
+    confirmed_at: '2026-05-13T12:54:14Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen merkbare extractie-artefacten. Heading-hiërarchie (##, ###) correct en proportioneel. Voetnoten 1-14 aanwezig en volledig. Tabel op regel 113-117 is afwijkend opgemaakt maar leesbaar als pseudo-tabel voor een balansoverzicht. Inhoud compleet.'
     layer1:
@@ -41,7 +41,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:18Z'
+      run_at: '2026-05-13T12:54:14Z'
       rationale: 'Geen merkbare extractie-artefacten. Heading-hiërarchie (##, ###) correct en proportioneel. Voetnoten 1-14 aanwezig en volledig. Tabel op regel 113-117 is afwijkend opgemaakt maar leesbaar als pseudo-tabel voor een balansoverzicht. Inhoud compleet.'
       concrete_problemen: []
 ---

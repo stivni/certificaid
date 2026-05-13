@@ -20,16 +20,25 @@ provenance:
     pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:47:02Z'
+  generated_at: '2026-05-13T12:53:29Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T12:54:21Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Klein schoon KB: 5 Art.-headings, alle artikelen volledig, geen scrambled tekst of spurious linebreaks. Source-typo 'tabaksfabrikaten' vs 'tabaksfabricaten' in titel-vs-body is brontypografie."
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:54:21Z'
+      rationale: "Klein schoon KB: 5 Art.-headings, alle artikelen volledig, geen scrambled tekst of spurious linebreaks. Source-typo 'tabaksfabrikaten' vs 'tabaksfabricaten' in titel-vs-body is brontypografie."
+      concrete_problemen:
+        - regel: 42
+          categorie: (source)
+          type: source-spelling inconsistentie
+          voorbeeld: Titel zegt 'tabaksfabricaten' maar body gebruikt 'tabaksfabrikaten' — bron-eigen variatie
 ---
 
 # K.B. nr. 13 van 29 december 1992, met betrekking tot de regeling voor tabaksfabricaten op het stuk van de belasting over de toegevoegde waarde

@@ -39,7 +39,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:41:13Z'
+    confirmed_at: '2026-05-13T12:54:09Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen extractie-artefacten gevonden. Heading-hiërarchie (##/###/####/#####/######) correct en volledig opgebouwd. Alle journaalboekingstabellen correct pipe-syntax met |---| separator. Beide scenario's (meerwaarde + kapitaalsubsidie) voor alle boekjaren (20X1, 20X2, 20X4) inhoudelijk compleet aanwezig. Voetnoten correct gematcht.
     layer1:
@@ -53,7 +53,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:13Z'
+      run_at: '2026-05-13T12:54:09Z'
       rationale: Geen extractie-artefacten gevonden. Heading-hiërarchie (##/###/####/#####/######) correct en volledig opgebouwd. Alle journaalboekingstabellen correct pipe-syntax met |---| separator. Beide scenario's (meerwaarde + kapitaalsubsidie) voor alle boekjaren (20X1, 20X2, 20X4) inhoudelijk compleet aanwezig. Voetnoten correct gematcht.
       concrete_problemen: []
 ---

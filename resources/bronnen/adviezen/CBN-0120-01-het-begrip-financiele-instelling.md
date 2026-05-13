@@ -33,7 +33,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:41:13Z'
+    confirmed_at: '2026-05-13T12:54:09Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Vorige L2 flagde D4 broken italic op regel 59 ('*Thesauriebeleggingen *en'), maar de werkelijke body toont '*Thesauriebeleggingen*' correct gesloten op alle vier plaatsen (regels 56, 62). Geen spatie voor sluitende asterisk aangetroffen. Body kort (2614 chars), vijf alinea's, twee voetnoten correct. Geen artefacten.
     layer1:
@@ -47,7 +47,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:13Z'
+      run_at: '2026-05-13T12:54:09Z'
       rationale: Vorige L2 flagde D4 broken italic op regel 59 ('*Thesauriebeleggingen *en'), maar de werkelijke body toont '*Thesauriebeleggingen*' correct gesloten op alle vier plaatsen (regels 56, 62). Geen spatie voor sluitende asterisk aangetroffen. Body kort (2614 chars), vijf alinea's, twee voetnoten correct. Geen artefacten.
       concrete_problemen: []
 ---

@@ -20,16 +20,21 @@ provenance:
     pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:47:02Z'
+  generated_at: '2026-05-13T12:53:28Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T12:54:22Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Korte KB met 4 artikelen. Geen footer-artefact, schone heading-hierarchie, amendment-markers consistent. Eindigt netjes op Art. 4. Buitenstaander zou dit als handgeschreven markdown kunnen lezen.
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:54:22Z'
+      rationale: Korte KB met 4 artikelen. Geen footer-artefact, schone heading-hierarchie, amendment-markers consistent. Eindigt netjes op Art. 4. Buitenstaander zou dit als handgeschreven markdown kunnen lezen.
+      concrete_problemen: []
 ---
 
 # K.B. nr. 9 van 12 december 1970, met betrekking tot de ambtelijke aanslag inzake belasting over de toegevoegde waarde

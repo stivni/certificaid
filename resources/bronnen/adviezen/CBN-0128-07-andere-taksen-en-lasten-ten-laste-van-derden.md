@@ -39,7 +39,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:41:18Z'
+    confirmed_at: '2026-05-13T12:54:13Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Kort advies (947 chars), één aaneensluitende alinea zonder structuurelementen. Geen detecteerbare artefacten: geen unicode-anomalieën, geen broken markdown, geen heading-issues. Inhoud sluit aan bij titel. Laag 1 pass zonder flags.'
     layer1:
@@ -53,7 +53,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:18Z'
+      run_at: '2026-05-13T12:54:13Z'
       rationale: 'Kort advies (947 chars), één aaneensluitende alinea zonder structuurelementen. Geen detecteerbare artefacten: geen unicode-anomalieën, geen broken markdown, geen heading-issues. Inhoud sluit aan bij titel. Laag 1 pass zonder flags.'
       concrete_problemen: []
 ---

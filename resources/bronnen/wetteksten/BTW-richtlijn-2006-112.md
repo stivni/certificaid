@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:41:24Z'
+    confirmed_at: '2026-05-13T12:54:23Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Running-headers (NL / L 347/x / Publicatieblad) zijn verdwenen — A1 is opgelost. Dotted leaders zijn verdwenen — A2 is opgelost. MAAR de TOC-strip-transformer heeft de TOC NIET aangepakt: regels 144-432 bevatten de volledige inhoudsopgave als geneste markdown-headings (## TITEL I t/m XV, ### Hoofdstuk, #### Afdeling, ##### Onderafdeling, BIJLAGE I-XII) zonder body-tekst — daarna pas (regel 432+) start de echte body. Resultaat: elke TITEL/Hoofdstuk-heading verschijnt twee keer in het document (TOC + body), wat dubbele chunks en gefragmenteerde retrieval oplevert. Vermoedelijk staat de TOC niet aan het begin van het bestand (overwegingen (1)-(63) komen ervóór), zodat de transformer niet triggert.'
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:24Z'
+      run_at: '2026-05-13T12:54:23Z'
       rationale: 'Running-headers (NL / L 347/x / Publicatieblad) zijn verdwenen — A1 is opgelost. Dotted leaders zijn verdwenen — A2 is opgelost. MAAR de TOC-strip-transformer heeft de TOC NIET aangepakt: regels 144-432 bevatten de volledige inhoudsopgave als geneste markdown-headings (## TITEL I t/m XV, ### Hoofdstuk, #### Afdeling, ##### Onderafdeling, BIJLAGE I-XII) zonder body-tekst — daarna pas (regel 432+) start de echte body. Resultaat: elke TITEL/Hoofdstuk-heading verschijnt twee keer in het document (TOC + body), wat dubbele chunks en gefragmenteerde retrieval oplevert. Vermoedelijk staat de TOC niet aan het begin van het bestand (overwegingen (1)-(63) komen ervóór), zodat de transformer niet triggert.'
       concrete_problemen:
         - 'Regels 144-432: volledige TOC als geneste markdown-headings zonder body (TITEL I-XV / Hoofdstuk / Afdeling / Onderafdeling / BIJLAGE I-XII). Elke heading verschijnt opnieuw in de body — dubbele chunks bij RAG.'

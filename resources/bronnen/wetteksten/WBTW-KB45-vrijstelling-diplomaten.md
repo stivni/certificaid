@@ -20,16 +20,23 @@ provenance:
     pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:47:03Z'
+  generated_at: '2026-05-13T12:53:30Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T12:54:24Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Compact KB (3 art) met belangrijk historisch opheffings-/vernietigingsblok in de preambule. Inhoud volledig en leesbaar; markdown-structuur netjes (H1 + ## Art.). Bestandsnaam suggereert diplomaten, maar inhoud betreft kans- en geldspelen — frontmatter en wet-titel matchen wel (kans- en geldspelen), dus dit is enkel een misleidende filename, geen content-defect.'
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:54:24Z'
+      rationale: 'Compact KB (3 art) met belangrijk historisch opheffings-/vernietigingsblok in de preambule. Inhoud volledig en leesbaar; markdown-structuur netjes (H1 + ## Art.). Bestandsnaam suggereert diplomaten, maar inhoud betreft kans- en geldspelen — frontmatter en wet-titel matchen wel (kans- en geldspelen), dus dit is enkel een misleidende filename, geen content-defect.'
+      concrete_problemen:
+        - Filename WBTW-KB45-vrijstelling-diplomaten.md komt niet overeen met inhoud (kans- en geldspelen). Inhoudelijk geen blokker, maar verdient een rename-fix op een later moment.
+        - Eén openingsparen zonder afsluitende ')' rond opheffingsblok (regel 50-53) — source-glitch, geen ETL-fout
 ---
 
 # K.B. nr. 45 van 14 april 1993, met betrekking tot de vrijstelling op het stuk van de belasting over de toegevoegde waarde ten aanzien van de kans- en geldspelen

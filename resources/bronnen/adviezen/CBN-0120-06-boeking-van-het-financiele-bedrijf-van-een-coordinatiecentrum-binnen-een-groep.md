@@ -32,7 +32,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:41:13Z'
+    confirmed_at: '2026-05-13T12:54:09Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Vorige L2 flagde D4 broken italic op regels 53 en 57 ('*Bull. CBN *nr.'), maar de werkelijke body toont '*Bull. CBN*' correct gesloten op regels 61 en 65 — scraper-fix D4 heeft gewerkt. Body is kort (1910 chars), drie alinea's, voetnoot [^1] correct. Geen extractie-artefacten.
     layer1:
@@ -46,7 +46,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:13Z'
+      run_at: '2026-05-13T12:54:09Z'
       rationale: Vorige L2 flagde D4 broken italic op regels 53 en 57 ('*Bull. CBN *nr.'), maar de werkelijke body toont '*Bull. CBN*' correct gesloten op regels 61 en 65 — scraper-fix D4 heeft gewerkt. Body is kort (1910 chars), drie alinea's, voetnoot [^1] correct. Geen extractie-artefacten.
       concrete_problemen: []
 ---

@@ -20,16 +20,22 @@ provenance:
     pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:47:02Z'
+  generated_at: '2026-05-13T12:53:29Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T12:54:21Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Korte KB van 5 artikelen, zuivere heading-hierarchie (#, ##), bracketed amendment-aanduidingen consistent gesloten, geen PDF-artefacten in de body. Alleen het slotblok 'Lijst van de bijwerkingen' is gevolg van TOC/bijwerkingstabel maar valt niet onder de ETL-checklist en is informatief."
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:54:21Z'
+      rationale: "Korte KB van 5 artikelen, zuivere heading-hierarchie (#, ##), bracketed amendment-aanduidingen consistent gesloten, geen PDF-artefacten in de body. Alleen het slotblok 'Lijst van de bijwerkingen' is gevolg van TOC/bijwerkingstabel maar valt niet onder de ETL-checklist en is informatief."
+      concrete_problemen:
+        - Slotregel 'Bijw. 01 / 01.01.2012 30.12.2011 Volledige uitgave' is residu uit bijwerkingstabel zonder eigen heading; minor, niet blokkerend
 ---
 
 # K.B. nr. 16 van 3 juni 1970, met betrekking tot de toepassing van de belasting over de toegevoegde waarde inzake de verkoop van vis, schaal-, schelp- en weekdieren in de gemeentelijke vismijn

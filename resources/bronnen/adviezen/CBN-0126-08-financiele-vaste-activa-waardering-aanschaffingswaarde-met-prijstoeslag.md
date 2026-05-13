@@ -42,7 +42,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:41:19Z'
+    confirmed_at: '2026-05-13T12:54:15Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'All-caps section headings op regels 76 en 84 zijn de originele stijl van het CBN-advies (Belgische wettekst-conventie) en staan correct als ## heading — dit is geen ETL-bug maar de bronstijl. Footnotes correct als [^1]/[^2]/[^3] markdown. Inhoud volledig, geen HTML-entities, geen ongewone unicode, geen extractie-artefacten.'
     layer1:
@@ -56,7 +56,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:19Z'
+      run_at: '2026-05-13T12:54:15Z'
       rationale: 'All-caps section headings op regels 76 en 84 zijn de originele stijl van het CBN-advies (Belgische wettekst-conventie) en staan correct als ## heading — dit is geen ETL-bug maar de bronstijl. Footnotes correct als [^1]/[^2]/[^3] markdown. Inhoud volledig, geen HTML-entities, geen ongewone unicode, geen extractie-artefacten.'
       concrete_problemen: []
 ---

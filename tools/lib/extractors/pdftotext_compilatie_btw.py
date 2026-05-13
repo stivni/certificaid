@@ -110,6 +110,11 @@ _ARTIKEL_PLAIN_TITLE_RE = re.compile(
 _EERSTE_AFD_RE = re.compile(
     r"^[ \t]+(" + "|".join(_AFDELING_WORDS) + r")\s+AFDELING\s*\.?\s*$"
 )
+# Title-case variant: "Eerste afdeling. - Title text" (komt voor in KB20-tarieven)
+_EERSTE_AFD_TITLE_RE = re.compile(
+    r"^[ \t]*(" + "|".join(_AFDELING_WORDS) + r")\s+afdeling\.?\s*(?:[\-–—]\s*(?P<title>\S.{1,120}))?\s*$",
+    re.I,
+)
 _EERSTE_HOOFDSTUK_RE = re.compile(
     r"^[ \t]*(" + "|".join(_AFDELING_WORDS) + r")\s+HOOFDSTUK\s*\.?\s*$"
 )
@@ -153,6 +158,12 @@ def _normalize_afdeling_and_artikel(body: str) -> str:
         if m_word:
             roman = _AFDELING_WORDS[m_word.group(1).upper()]
             out.append(f"AFDELING {roman}")
+            continue
+        m_afd_title = _EERSTE_AFD_TITLE_RE.match(ln)
+        if m_afd_title:
+            roman = _AFDELING_WORDS[m_afd_title.group(1).upper()]
+            title = (m_afd_title.group("title") or "").strip().rstrip(".")
+            out.append(f"AFDELING {roman}" + (f" — {title}" if title else ""))
             continue
         m_hk = _EERSTE_HOOFDSTUK_RE.match(ln)
         if m_hk:

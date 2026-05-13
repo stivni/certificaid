@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:41:18Z'
+    confirmed_at: '2026-05-13T12:54:14Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Dit bestand is manueel aangemaakt (pipeline: manual-import) en ziet er als zodanig uit: alle tabellen zijn in correcte pipe-syntax, headings zijn logisch hiërarchisch, inhoud is volledig en intern consistent. Geen zichtbare PDF-extractieartefacten. De informatienotitie over overlappende code 1271-87 (A.21 en F.3) is een bewuste redactionele keuze, geen artefact. Frontmatter matcht de inhoud.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:18Z'
+      run_at: '2026-05-13T12:54:14Z'
       rationale: 'Dit bestand is manueel aangemaakt (pipeline: manual-import) en ziet er als zodanig uit: alle tabellen zijn in correcte pipe-syntax, headings zijn logisch hiërarchisch, inhoud is volledig en intern consistent. Geen zichtbare PDF-extractieartefacten. De informatienotitie over overlappende code 1271-87 (A.21 en F.3) is een bewuste redactionele keuze, geen artefact. Frontmatter matcht de inhoud.'
       concrete_problemen: []
 ---

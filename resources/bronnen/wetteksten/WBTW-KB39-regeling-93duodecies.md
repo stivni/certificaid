@@ -20,16 +20,25 @@ provenance:
     pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:47:03Z'
+  generated_at: '2026-05-13T12:53:29Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T12:54:23Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Footnote-bleed in Art. 3 (regels 74-78) niet opgelost door huidige ETL-fixes. De inhoudelijke tekst van Art. 138 (1°, 5°, 6° opsommingen) en Art. 139 (van een andere wet — vermoedelijk W 13.04.2019) staat als pseudo-content middenin Art. 3. Regel 78 toont '## Art. 139: De Koning kan...' wat een echte heading-anker krijgt — schadelijk voor RAG omdat het lijkt op een artikel van KB nr. 39 zelf, maar het is footnote-residu uit een andere wet. Pas op regel 80 begint het echte Art. 3-vervolg ('Er moet evenwel een nieuw attest...'). Plus: dit KB is sinds 01.01.2020 opgeheven (regel 53). Bij twijfel → needs-rework."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:54:23Z'
+      rationale: "Footnote-bleed in Art. 3 (regels 74-78) niet opgelost door huidige ETL-fixes. De inhoudelijke tekst van Art. 138 (1°, 5°, 6° opsommingen) en Art. 139 (van een andere wet — vermoedelijk W 13.04.2019) staat als pseudo-content middenin Art. 3. Regel 78 toont '## Art. 139: De Koning kan...' wat een echte heading-anker krijgt — schadelijk voor RAG omdat het lijkt op een artikel van KB nr. 39 zelf, maar het is footnote-residu uit een andere wet. Pas op regel 80 begint het echte Art. 3-vervolg ('Er moet evenwel een nieuw attest...'). Plus: dit KB is sinds 01.01.2020 opgeheven (regel 53). Bij twijfel → needs-rework."
+      concrete_problemen:
+        - 'Regels 74-78: footnote-bleed van W 13.04.2019 Art. 138/139 wordt tussen Art. 3-tekst gerenderd'
+        - "Regel 78: '## Art. 139: De Koning kan...' krijgt heading-anker — false-positive artikel"
+        - 'Regel 80: echte Art. 3-vervolg pas na footnote-injectie — split tekst'
+        - KB sinds 01.01.2020 opgeheven (regel 53)
 ---
 
 # K.B. nr. 39 van 17 oktober 1980, tot regeling van de toepassingsmodaliteiten van artikel 93duodecies van het Wetboek van de belasting over de toegevoegde waarde

@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:41:24Z'
+    confirmed_at: '2026-05-13T12:54:22Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Schone structuur met vier ## Art.-headings en correcte a)/b)/c)/d)-sublijst in Art. 2. Geen artefacten.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:24Z'
+      run_at: '2026-05-13T12:54:22Z'
       rationale: 'Schone structuur met vier ## Art.-headings en correcte a)/b)/c)/d)-sublijst in Art. 2. Geen artefacten.'
       concrete_problemen: []
 ---

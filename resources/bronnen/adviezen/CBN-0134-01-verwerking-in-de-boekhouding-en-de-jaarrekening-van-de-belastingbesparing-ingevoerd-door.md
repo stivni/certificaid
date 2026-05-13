@@ -34,7 +34,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:41:21Z'
+    confirmed_at: '2026-05-13T12:54:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Kort advies (2658 tekens), enkel lopende tekst zonder voetnoten of tabellen. Geen extractie-artefacten aangetroffen. Inhoud volledig en afgerond.
     layer1:
@@ -48,7 +48,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:21Z'
+      run_at: '2026-05-13T12:54:19Z'
       rationale: Kort advies (2658 tekens), enkel lopende tekst zonder voetnoten of tabellen. Geen extractie-artefacten aangetroffen. Inhoud volledig en afgerond.
       concrete_problemen: []
 ---

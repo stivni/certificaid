@@ -20,16 +20,21 @@ provenance:
     pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:47:02Z'
+  generated_at: '2026-05-13T12:53:28Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T12:54:24Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Compact en volledig (7 art). H1 + ## Art. 1-7 + § §-paragrafen in Art. 3. Lijstmarkers 1°-3° in Art. 4 netjes. Geen footers, geen TOC, geen glyphs. Leest als een door een mens geschreven samenvatting.'
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:54:24Z'
+      rationale: 'Compact en volledig (7 art). H1 + ## Art. 1-7 + § §-paragrafen in Art. 3. Lijstmarkers 1°-3° in Art. 4 netjes. Geen footers, geen TOC, geen glyphs. Leest als een door een mens geschreven samenvatting.'
+      concrete_problemen: []
 ---
 
 # K.B. nr. 6 van 27 december 1977, met betrekking tot de vrijstellingen ten aanzien van internationaal vervoer, zee- en binnenschepen en luchtvaartuigen, op het stuk van de belasting over de toegevoegde waarde

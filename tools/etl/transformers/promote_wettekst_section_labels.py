@@ -46,8 +46,14 @@ def promote_wettekst_section_labels(body: str, frontmatter: dict) -> tuple[str, 
         if m:
             prev_blank = (i == 0 or not lines[i - 1].strip())
             # next-line: blank OF amendment-annotation `(...)` (Belgische wettekst-stijl)
+            # Voor TABEL-labels: ook OK als next-line een beschrijvende ondertitel is
+            # (start met hoofdletter — "Goederen en diensten...", etc.)
             next_line = lines[i + 1].strip() if i + 1 < len(lines) else ""
-            next_ok = (not next_line) or next_line.startswith("(")
+            label_lower = m.group("label").lower()
+            if label_lower.startswith("tabel") or label_lower in ("goederen", "diensten"):
+                next_ok = True  # relax voor TABEL/GOEDEREN/DIENSTEN — descriptive subtitle vaak op next line
+            else:
+                next_ok = (not next_line) or next_line.startswith("(")
             if prev_blank and next_ok:
                 label = m.group("label").strip()
                 # Normaliseer "enig artikel" → "Enig artikel"

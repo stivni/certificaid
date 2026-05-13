@@ -37,7 +37,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:41:18Z'
+    confirmed_at: '2026-05-13T12:54:13Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen artefacten gevonden. Kort advies (6860 chars) met twee correcte H2-kopjes. Voetnoten correct. Drie beschrijvende voorbeelden als lopende tekst, geen tabellen nodig. Inhoud compleet.
     layer1:
@@ -51,7 +51,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:18Z'
+      run_at: '2026-05-13T12:54:13Z'
       rationale: Geen artefacten gevonden. Kort advies (6860 chars) met twee correcte H2-kopjes. Voetnoten correct. Drie beschrijvende voorbeelden als lopende tekst, geen tabellen nodig. Inhoud compleet.
       concrete_problemen: []
 ---

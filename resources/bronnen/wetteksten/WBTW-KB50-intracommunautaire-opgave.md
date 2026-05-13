@@ -20,16 +20,26 @@ provenance:
     pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:47:03Z'
+  generated_at: '2026-05-13T12:53:30Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T12:54:23Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Hoofdprobleem blijft volledig onaangetast door de recente ETL-fixes: de integrale opgeheven 2009-versie van KB nr. 50 staat onder kop 'Bijlage' (regels 227-326) als losse content alsof het een wettelijke bijlage is — in werkelijkheid betreft het de voorgangerversie die door de hoofdtekst werd vervangen. Onderaan staan Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334) zonder enige opmaak. TOC-blok regels 53-58 dupliceert de Hoofdstuk-headings die er meteen onder volgen. Word-concat-bugs ('btweenheid', 'BTWidentificatienummer', 'BTWeenheid') op meerdere plaatsen tonen dat fix_pdftotext_glue_bugs hier niet alle varianten dekt. Een van-nul-schrijver zou nooit een opgeheven voorgangerversie als 'Bijlage' opnemen."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:54:23Z'
+      rationale: "Hoofdprobleem blijft volledig onaangetast door de recente ETL-fixes: de integrale opgeheven 2009-versie van KB nr. 50 staat onder kop 'Bijlage' (regels 227-326) als losse content alsof het een wettelijke bijlage is — in werkelijkheid betreft het de voorgangerversie die door de hoofdtekst werd vervangen. Onderaan staan Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334) zonder enige opmaak. TOC-blok regels 53-58 dupliceert de Hoofdstuk-headings die er meteen onder volgen. Word-concat-bugs ('btweenheid', 'BTWidentificatienummer', 'BTWeenheid') op meerdere plaatsen tonen dat fix_pdftotext_glue_bugs hier niet alle varianten dekt. Een van-nul-schrijver zou nooit een opgeheven voorgangerversie als 'Bijlage' opnemen."
+      concrete_problemen:
+        - "Regels 227-326: integrale opgenomen 2009-KB-50 onder kop 'Bijlage' — geen wettelijke bijlage, maar de opgeheven voorgangerversie"
+        - "Regels 332-334: 'KB50-Bijlage pg. Bijl./1' / 'KB50-Bijlage pg. Bijl./2 Intracommunautaire opgave' — Fisconet page-headers als plain content"
+        - "Regels 53-58: TOC-blok met '## Hoofdstuk 1.' / '## Hoofdstuk 2.' / '## Hoofdstuk 3.' direct gevolgd door dezelfde hoofdstukken als sectie-headings"
+        - "Inconsistente kapitalisatie: 'Hoofdstuk 1' (regel 60) vs 'HOOFDSTUK 2' (150) / 'HOOFDSTUK 3' (209)"
+        - "Word-concat-bugs: 'btweenheid' (regel 148), 'BTWidentificatienummer' (regels 238, 254), 'BTWeenheid' (regel 301)"
 ---
 
 # K.B. nr. 50 van 11 december 2019, met betrekking tot de btw-opgave van de intracommunautaire handelingen

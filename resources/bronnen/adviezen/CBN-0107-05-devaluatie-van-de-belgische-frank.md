@@ -25,7 +25,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:41:14Z'
+    confirmed_at: '2026-05-13T12:54:09Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Prior layer2 verdict (needs-rework, D4) is onjuist: de [^1]-marker op regel 54 staat inline in de zin ('artikel 77 W. Venn.[^1] waardoor...') op dezelfde regel — geen gebroken newline in de body. De voetnoot heeft een correcte definitie op regel 56. Body is volledig, geen headings verwacht voor een korte advies-nota, geen andere artefacten aangetroffen."
     layer1:
@@ -39,7 +39,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:14Z'
+      run_at: '2026-05-13T12:54:09Z'
       rationale: "Prior layer2 verdict (needs-rework, D4) is onjuist: de [^1]-marker op regel 54 staat inline in de zin ('artikel 77 W. Venn.[^1] waardoor...') op dezelfde regel — geen gebroken newline in de body. De voetnoot heeft een correcte definitie op regel 56. Body is volledig, geen headings verwacht voor een korte advies-nota, geen andere artefacten aangetroffen."
       concrete_problemen: []
 ---

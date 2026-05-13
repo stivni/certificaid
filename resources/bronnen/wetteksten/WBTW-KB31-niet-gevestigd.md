@@ -20,16 +20,23 @@ provenance:
     pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:47:03Z'
+  generated_at: '2026-05-13T12:53:29Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T12:54:23Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "fix_pdftotext_glue_bugs heeft de eerder gevlagde concat-bugs opgelost: 'BTW-identificatienummer' (regels 70, 79, 81, 106), 'douane-entrepot' met koppelteken (regels 66, 88, 90, 92, 94, 96), 'geïdentificeerd' zonder ligaturen, en 'in artikel 2' (regel 170) met spatie. Geen ﬁ/ﬂ ligaturen meer zichtbaar. Hoofdtekst leest natuurlijk; alle artikelen Art. 1-9 als ##-headings met §-structuur intact. De source-typo 'KB nr. 31, artikel, derde lid' (regel 110, ontbrekend artikelnummer) blijft maar is vermoedelijk een bron-fout en niet ETL-gerelateerd. Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streepje-spatie residu — minor cosmetic."
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:54:23Z'
+      rationale: "fix_pdftotext_glue_bugs heeft de eerder gevlagde concat-bugs opgelost: 'BTW-identificatienummer' (regels 70, 79, 81, 106), 'douane-entrepot' met koppelteken (regels 66, 88, 90, 92, 94, 96), 'geïdentificeerd' zonder ligaturen, en 'in artikel 2' (regel 170) met spatie. Geen ﬁ/ﬂ ligaturen meer zichtbaar. Hoofdtekst leest natuurlijk; alle artikelen Art. 1-9 als ##-headings met §-structuur intact. De source-typo 'KB nr. 31, artikel, derde lid' (regel 110, ontbrekend artikelnummer) blijft maar is vermoedelijk een bron-fout en niet ETL-gerelateerd. Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streepje-spatie residu — minor cosmetic."
+      concrete_problemen:
+        - "Frontmatter `wet:` veld: 'toepassings- modaliteiten' bevat streep+spatie residu (cosmetic)"
+        - "Regel 110: 'KB nr. 31, artikel, derde lid' — vermoedelijk source-typo, ontbrekend artikelnummer"
 ---
 
 # K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen
