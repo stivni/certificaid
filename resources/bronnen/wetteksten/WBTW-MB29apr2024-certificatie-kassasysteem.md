@@ -24,20 +24,18 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T13:34:50Z'
+    status: trusted
+    confirmed_at: '2026-05-13T13:40:13Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "De recente ETL-fixes (slash-loss + merge_broken_sentences) raken de twee structurele problemen van dit bestand niet aan. (1) Regels 128-129: '## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\\nGEREGISTREERD KASSASYSTEEM' is gesplitst over twee regels door een spurious linebreak — markdown rendert dit als heading 'TITEL II...' met losse zin daaronder. (2) Regels 204-218: de btw-codes-tabel toont scrambled kolom-bleed waarbij NL-kolom-headers en FR-kolom-headers door elkaar staan ('BTW- BTW- CODE TAUX DE' / 'BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA' / 'CODE TARIEF TVA TVA') — onbruikbaar als tabel, en de inhoud is ernaast versplinterd over meerdere regels ('A Hoog 21 % A Haut 21 %' lezen als bilingue duplicaten). Een van-nul-schrijver zou nooit dit gebroken heading + scrambled tabel produceren."
+    rationale: "De twee vorige blokkers zijn opgelost of vallen onder de bilingue-PDF source-uitzondering. (1) De TITEL II-heading op regel 128 is door merge_wrapped_headings correct samengevoegd tot één regel: '## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN GEREGISTREERD KASSASYSTEEM'. (2) De btw-codes-tabel (regels 203-216) toont nog steeds bilingue NL/FR-kolom-bleed (BTW-CODE/CODE TVA, BTW-TARIEF/TAUX, OMSCHRIJVING/DESCRIPTION, met 5 codes A-D + X tweetalig naast elkaar) — dit is een source-extractie-issue van de bilingue Fisconet-PDF en valt onder de expliciet door de gebruiker meegegeven uitzondering. De rest van het bestand is consistent gestructureerd: frontmatter compleet met provenance/trust-blok, TITEL I-V correct als ## headings, HOOFDSTUK 1-3 als ### headings, Afdeling 1-5 als #### headings, Onderafdeling 1-9 als ##### headings, en alle artikelen 1 t/m 132 als ###### Art. N met optionele cursieve titel. Footers/running headers afwezig. Inhoudelijk loopt het document logisch door zonder gebroken zinnen of verloren slashes."
     layer1:
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:34:50Z'
-      rationale: "De recente ETL-fixes (slash-loss + merge_broken_sentences) raken de twee structurele problemen van dit bestand niet aan. (1) Regels 128-129: '## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\\nGEREGISTREERD KASSASYSTEEM' is gesplitst over twee regels door een spurious linebreak — markdown rendert dit als heading 'TITEL II...' met losse zin daaronder. (2) Regels 204-218: de btw-codes-tabel toont scrambled kolom-bleed waarbij NL-kolom-headers en FR-kolom-headers door elkaar staan ('BTW- BTW- CODE TAUX DE' / 'BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA' / 'CODE TARIEF TVA TVA') — onbruikbaar als tabel, en de inhoud is ernaast versplinterd over meerdere regels ('A Hoog 21 % A Haut 21 %' lezen als bilingue duplicaten). Een van-nul-schrijver zou nooit dit gebroken heading + scrambled tabel produceren."
+      run_at: '2026-05-13T13:40:13Z'
+      rationale: "De twee vorige blokkers zijn opgelost of vallen onder de bilingue-PDF source-uitzondering. (1) De TITEL II-heading op regel 128 is door merge_wrapped_headings correct samengevoegd tot één regel: '## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN GEREGISTREERD KASSASYSTEEM'. (2) De btw-codes-tabel (regels 203-216) toont nog steeds bilingue NL/FR-kolom-bleed (BTW-CODE/CODE TVA, BTW-TARIEF/TAUX, OMSCHRIJVING/DESCRIPTION, met 5 codes A-D + X tweetalig naast elkaar) — dit is een source-extractie-issue van de bilingue Fisconet-PDF en valt onder de expliciet door de gebruiker meegegeven uitzondering. De rest van het bestand is consistent gestructureerd: frontmatter compleet met provenance/trust-blok, TITEL I-V correct als ## headings, HOOFDSTUK 1-3 als ### headings, Afdeling 1-5 als #### headings, Onderafdeling 1-9 als ##### headings, en alle artikelen 1 t/m 132 als ###### Art. N met optionele cursieve titel. Footers/running headers afwezig. Inhoudelijk loopt het document logisch door zonder gebroken zinnen of verloren slashes."
       concrete_problemen:
-        - "Regels 128-129: '## TITEL II...' heading gebroken over twee regels door spurious linebreak"
-        - 'Regels 204-218: btw-codes-tabel met scrambled kolom-bleed NL/FR door elkaar — onbruikbaar als markdown-tabel'
-        - 'Regels 207-217: tabel-content versplinterd over meerdere regels met dubbele rijen NL+FR per code (A/B/C/D/X)'
+        - 'Regels 203-216: btw-codes-tabel toont bilingue NL/FR-kolom-bleed uit source-PDF — bekende source-uitzondering, niet ETL-bug, kan eventueel een (source) markering krijgen in de markdown'
 ---
 
 # M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem

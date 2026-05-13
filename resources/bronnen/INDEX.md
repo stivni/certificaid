@@ -8,10 +8,10 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 133 | 113 | — | 13 | 7 | — |
+| Wetteksten | 133 | 114 | — | 12 | 7 | — |
 | Normen | 19 | 4 | — | 14 | 1 | — |
 | Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **588** | 539 | — | 41 | 8 | — |
+| **Totaal** | **588** | 540 | — | 40 | 8 | — |
 
 ## Wetteksten (133)
 
@@ -36,7 +36,6 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `toelichting-VenB-2025.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de vennootschapsbelasting — AJ 2025 |
 | `WBTW-KB41-proportionele-geldboeten.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele f… |
 | `WBTW-KB44-geldboeten.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 44 van 9 juli 2012, tot vaststelling van het bedrag van de niet-proportionele … |
-| `WBTW-MB29apr2024-certificatie-kassasysteem.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certifica… |
 | `aangifte-PB-2025-bezoldigingen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-bezoldigingen |
 | `aangifte-PB-2025-stopzetting.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-stopzetting |
 | `Antiwitwaswet-2017.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van … |
@@ -136,6 +135,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WBTW-MB20dec2001-diensten-indiening-documenten.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | M.B. van 20 december 2001, met betrekking tot de diensten waar de documenten bedoeld in… |
 | `WBTW-MB23jun2005-delegatie-samenwerking.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | M.B. van 23 juni 2005, met betrekking tot de delegatie van de bevoegde autoriteit inzak… |
 | `WBTW-MB26feb2007-elektronische-notificaties.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | M.B. van 26 februari 2007, met betrekking tot de aanduiding van de dienst bevoegd voor … |
+| `WBTW-MB29apr2024-certificatie-kassasysteem.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certifica… |
 | `WBTW-MB29aug2006-ambtenaar-62bis.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | M.B. van 29 augustus 2006, tot aanduiding van de ambtenaar bedoeld in artikel 62bis van… |
 | `WBTW-MB6-uitstel-invoer.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | M.B. nr. 6 van 4 maart 1993, waarbij uitstel wordt verleend voor de voldoening van de t… |
 | `WBTW.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 3 juli 1969 tot invoering van het Wetboek van de belasting over de toegevoegde waar… |
