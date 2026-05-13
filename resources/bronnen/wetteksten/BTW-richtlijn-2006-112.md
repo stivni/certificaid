@@ -25,9 +25,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T19:27:14Z'
+    confirmed_at: '2026-05-13T10:38:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bekende issue: concordantietabel onderaan bevat dubbele Art.-headings (bv. '###### Art. 2. van Richtlijn 94/5/EG', '###### Art. 4. van Richtlijn 2002/38/EG') — de concordantietabel-stijl genereert sub-headings in de bijlagen die verwarrend zijn. L1 warn: max sectie 36349 chars. Inhoud verder compleet."
+    rationale: "B3: concordantietabel aan het einde van het document (ca. regel 4300+) genereert art.-headings zoals '###### Art. 1, onder 1), tweede alinea, van Richtlijn 89/465/EEG' — dit zijn concordantie-tabelrijen die als headings worden geïnterpreteerd, wat de heading-boom vervuilt. L1 warn: max sectie 36349 chars (chunker vangt dit op). Inhoud van de eigenlijke richtlijn is volledig aanwezig."
     layer1:
       status: warn
       run_id: 20260512-210639
@@ -43,13 +43,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:14Z'
-      rationale: "Bekende issue: concordantietabel onderaan bevat dubbele Art.-headings (bv. '###### Art. 2. van Richtlijn 94/5/EG', '###### Art. 4. van Richtlijn 2002/38/EG') — de concordantietabel-stijl genereert sub-headings in de bijlagen die verwarrend zijn. L1 warn: max sectie 36349 chars. Inhoud verder compleet."
+      run_at: '2026-05-13T10:38:29Z'
+      rationale: "B3: concordantietabel aan het einde van het document (ca. regel 4300+) genereert art.-headings zoals '###### Art. 1, onder 1), tweede alinea, van Richtlijn 89/465/EEG' — dit zijn concordantie-tabelrijen die als headings worden geïnterpreteerd, wat de heading-boom vervuilt. L1 warn: max sectie 36349 chars (chunker vangt dit op). Inhoud van de eigenlijke richtlijn is volledig aanwezig."
       concrete_problemen:
-        - regel:
+        - regel: 4445
           categorie: B3
           type: other
-          voorbeeld: '###### Art. 2. van   Richtlijn   94/5/EG — dubbele heading in concordantietabel'
+          voorbeeld: Artikel 1, onder 1), tweede alinea, van Richtlijn 89/465/EEG — concordantietabel-rij als heading
 ---
 
 # Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde

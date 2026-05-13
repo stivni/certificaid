@@ -25,24 +25,24 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_at: '2026-05-13T10:38:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A2: 86 TOC-stippen-regels in inhoudstafel (L67-251). A8: 76 regels in body combineren NL en FR tekst op één regel (officieuze bilingue bron: 'Het kantoor mag ze niet langer houden dan nodig is.  Le bureau ne peut les retenir au-delà du temps nécessaire.'). A1: 'INWERKINGTREDING  ENTREE EN VIGUEUR' gecombineerd op één regel. Inhoud zelf compleet (Art.1-322)."
+    rationale: "A2+A8+A1 bevestigd. A2: TOC met dotted-leaders (regels 67-251). A8: NL+FR tekst op één regel door bilingue bron-PDF (bv. regel 544: 'Het kantoor mag ze niet langer houden dan nodig is.  Le bureau ne peut les retenir au-delà du temps nécessaire.'). A1: titels gecombineerd als 'INWERKINGTREDING  ENTREE EN VIGUEUR' (regel 17027). Structureel probleem van bilingue PDF-bron — ETL kan NL-alleen-versie extraheren als die beschikbaar is."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:19:59Z'
-      rationale: "A2: 86 TOC-stippen-regels in inhoudstafel (L67-251). A8: 76 regels in body combineren NL en FR tekst op één regel (officieuze bilingue bron: 'Het kantoor mag ze niet langer houden dan nodig is.  Le bureau ne peut les retenir au-delà du temps nécessaire.'). A1: 'INWERKINGTREDING  ENTREE EN VIGUEUR' gecombineerd op één regel. Inhoud zelf compleet (Art.1-322)."
+      run_at: '2026-05-13T10:38:29Z'
+      rationale: "A2+A8+A1 bevestigd. A2: TOC met dotted-leaders (regels 67-251). A8: NL+FR tekst op één regel door bilingue bron-PDF (bv. regel 544: 'Het kantoor mag ze niet langer houden dan nodig is.  Le bureau ne peut les retenir au-delà du temps nécessaire.'). A1: titels gecombineerd als 'INWERKINGTREDING  ENTREE EN VIGUEUR' (regel 17027). Structureel probleem van bilingue PDF-bron — ETL kan NL-alleen-versie extraheren als die beschikbaar is."
       concrete_problemen:
         - regel: 67
           categorie: A2
           type: dotted-leader
-          voorbeeld: '## TITEL I - REGISTRATIERECHT...............'
-        - regel: 527
+          voorbeeld: '## TITEL I - REGISTRATIERECHT.............'
+        - regel: 544
           categorie: A8
           type: column-bleed
-          voorbeeld: Het kantoor mag ze niet langer houden dan nodig is.  Le bureau ne peut les retenir au-delà...
+          voorbeeld: Het kantoor mag ze niet langer houden dan nodig is.  Le bureau ne peut les retenir au-delà du temps nécessaire.
         - regel: 17027
           categorie: A1
           type: other

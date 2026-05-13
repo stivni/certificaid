@@ -22,9 +22,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_at: '2026-05-13T10:38:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+    rationale: "B5: Artikelen 5-12 ('Artikel 5. Event Normal' t/m 'Artikel 12. Event Invoice', regels 207-267) staan als gecentreerde plain-text regels zonder ##/######-prefix. Deze hadden headings moeten zijn. C3: pseudo-tabel voor BTW-codes (regels 300-313) met space-alignment en twee parallelle kolommen (NL/FR) als pseudo-tabel — A8/C3-artefact uit tweekolomige PDF-pagina."
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -36,9 +36,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:16Z'
-      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
-      concrete_problemen: []
+      run_at: '2026-05-13T10:38:29Z'
+      rationale: "B5: Artikelen 5-12 ('Artikel 5. Event Normal' t/m 'Artikel 12. Event Invoice', regels 207-267) staan als gecentreerde plain-text regels zonder ##/######-prefix. Deze hadden headings moeten zijn. C3: pseudo-tabel voor BTW-codes (regels 300-313) met space-alignment en twee parallelle kolommen (NL/FR) als pseudo-tabel — A8/C3-artefact uit tweekolomige PDF-pagina."
+      concrete_problemen:
+        - regel: 207
+          categorie: B5
+          type: other
+          voorbeeld: '                                      Artikel 5. Event Normal'
+        - regel: 300
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: BTW-                                             BTW-         CODE\n             BTW-TARIEF OMSCHRIJVING...
+        - regel: 300
+          categorie: A8
+          type: column-bleed
+          voorbeeld: A            Hoog                                21 %         A           Haut                                  21 %
 status: beschikbaar
 tags:
   - VI.C

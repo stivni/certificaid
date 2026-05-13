@@ -25,9 +25,9 @@ provenance:
   stale_reason:
   trust:
     status: rejected
-    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_at: '2026-05-13T10:38:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "F3 naam-mismatch: de file heet 'WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)' maar de body bevat willekeurige Belgisch Staatsblad-content: vakbondsvormingsreglementen, dierenwelzijn KB, KBO-aangifte-regels, Wonen-Vlaanderen vacature-aankondigingen. Max sectie 116180 chars. Verkeerde bron."
+    rationale: 'Bevestigd rejected: naam-mismatch F3. Body bevat vakbondsvormingsreglementen, dierenwelzijn KB, KBO-aangifte-regels, Wonen-Vlaanderen vacatures — niet de boekhoudnormen van WER Boek VIII. Max sectie 116180 chars. Verkeerde bron-PDF.'
     layer1:
       status: warn
       run_id: 20260512-210639
@@ -43,17 +43,13 @@ provenance:
     layer2:
       status: rejected
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:16Z'
-      rationale: "F3 naam-mismatch: de file heet 'WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)' maar de body bevat willekeurige Belgisch Staatsblad-content: vakbondsvormingsreglementen, dierenwelzijn KB, KBO-aangifte-regels, Wonen-Vlaanderen vacature-aankondigingen. Max sectie 116180 chars. Verkeerde bron."
+      run_at: '2026-05-13T10:38:29Z'
+      rationale: 'Bevestigd rejected: naam-mismatch F3. Body bevat vakbondsvormingsreglementen, dierenwelzijn KB, KBO-aangifte-regels, Wonen-Vlaanderen vacatures — niet de boekhoudnormen van WER Boek VIII. Max sectie 116180 chars. Verkeerde bron-PDF.'
       concrete_problemen:
         - regel: 74
           categorie: F3
           type: naam-mismatch
-          voorbeeld: '### HOOFDSTUK I. — Toepassingsgebied (vakbondsvorming — niet WER Boek VIII boekhoudnormen)'
-        - regel: 1414
-          categorie: F3
-          type: naam-mismatch
-          voorbeeld: '### HOOFDSTUK 1. — Definities (KBO-aangifte regels)'
+          voorbeeld: '### HOOFDSTUK I. — Toepassingsgebied (vakbondsvorming KB)'
 ---
 
 # WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)

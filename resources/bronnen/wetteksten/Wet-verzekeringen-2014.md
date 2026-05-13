@@ -25,9 +25,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_at: '2026-05-13T10:38:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "L1 warn: 201 headings, max sectie 32357 chars. Tail bevat een lege heading '## Art.' zonder nummer of titel — B1/B3 artefact. De body start mid-§2 (bron-artefact). Verder inhoud aanwezig."
+    rationale: "B1/B3 bevestigd: lege '## Art.' heading aan het einde van het bestand (na de laatste paragraaf). Max sectie 32357 chars (chunker vangt dit op). De body start volledig (Art. 1 aanwezig). Overigens is de structuur (## DEEL / ###### Art.) correct. Enkelvoudig artefact onderaan."
     layer1:
       status: warn
       run_id: 20260512-210639
@@ -43,13 +43,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:16Z'
-      rationale: "L1 warn: 201 headings, max sectie 32357 chars. Tail bevat een lege heading '## Art.' zonder nummer of titel — B1/B3 artefact. De body start mid-§2 (bron-artefact). Verder inhoud aanwezig."
+      run_at: '2026-05-13T10:38:29Z'
+      rationale: "B1/B3 bevestigd: lege '## Art.' heading aan het einde van het bestand (na de laatste paragraaf). Max sectie 32357 chars (chunker vangt dit op). De body start volledig (Art. 1 aanwezig). Overigens is de structuur (## DEEL / ###### Art.) correct. Enkelvoudig artefact onderaan."
       concrete_problemen:
-        - regel:
+        - regel: -1
           categorie: B3
           type: other
-          voorbeeld: '## Art. (lege heading zonder nummer onderaan)'
+          voorbeeld: '## Art. (lege heading zonder nummer of titel op laatste regel)'
 ---
 
 # Wet 4 april 2014 betreffende de verzekeringen

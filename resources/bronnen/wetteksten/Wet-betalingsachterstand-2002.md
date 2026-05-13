@@ -25,9 +25,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_at: '2026-05-13T10:38:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bekende issue: D1 Art. 2 getrunceerd — de file start pas bij '1° van de ontvangst...' midden in Art. 4 § 1 (of Art. 2 oud), Art. 1 en begin Art. 2 ontbreken. Geen heading voor het eerste artikel zichtbaar."
+    rationale: "D1+D2 bevestigd: de body begint mid-alinea bij de definitie van 'basisherfinancieringstransactie' (regel 57) — Art. 1 en het begin van Art. 2 ontbreken. Art. 3 start ook midden in tekst ('Art. 3. Deze wet...'). De headings Art. 3-15 zijn aanwezig. Bovendien: Art. 3, 4, 5, 6, 7, 8, 9, 14 bevatten de art.-tekst als onderdeel van de heading-tekst ('### Art. 3. Deze' / '### Art. 8. De') — B1-artefact waarbij de eerste zin van het artikel mee in de heading-tekst werd opgenomen."
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -39,13 +39,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:16Z'
-      rationale: "Bekende issue: D1 Art. 2 getrunceerd — de file start pas bij '1° van de ontvangst...' midden in Art. 4 § 1 (of Art. 2 oud), Art. 1 en begin Art. 2 ontbreken. Geen heading voor het eerste artikel zichtbaar."
+      run_at: '2026-05-13T10:38:29Z'
+      rationale: "D1+D2 bevestigd: de body begint mid-alinea bij de definitie van 'basisherfinancieringstransactie' (regel 57) — Art. 1 en het begin van Art. 2 ontbreken. Art. 3 start ook midden in tekst ('Art. 3. Deze wet...'). De headings Art. 3-15 zijn aanwezig. Bovendien: Art. 3, 4, 5, 6, 7, 8, 9, 14 bevatten de art.-tekst als onderdeel van de heading-tekst ('### Art. 3. Deze' / '### Art. 8. De') — B1-artefact waarbij de eerste zin van het artikel mee in de heading-tekst werd opgenomen."
       concrete_problemen:
-        - regel: 47
-          categorie: D1
+        - regel: 57
+          categorie: D2
           type: abrupt-cutoff
-          voorbeeld: Body start met '1° van de ontvangst door de schuldenaar...' zonder Art. 1 heading
+          voorbeeld: Body start met 'Richtlijn 2004/17/EG...' midden in Art. 1 definitie — Art. 1 en eerste deel Art. 2 ontbreken
+        - regel: 62
+          categorie: B1
+          type: other
+          voorbeeld: '### Art. 3. Deze (eerste zin van Art. 3 als onderdeel van heading)'
 ---
 
 # Wet betalingsachterstand handelstransacties

@@ -25,21 +25,21 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_at: '2026-05-13T10:38:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A8: 186 regels combineren NL en FR paragrafen op één regel (officieuze bilingue bron). Bovendien zijn NL-paragrafen intern gefragmenteerd met inline witruimte ('bestaat uit een volledig van de laadruimte afgesloten  enkele cabine die...' — dubbele spaties als kolom-separator). Inhoud volledig aanwezig."
+    rationale: 'A8 bevestigd: regels 144-148 tonen NL en FR tekst door elkaar (artikel 1.1.0.0.2 definitie voertuigen: NL-tekst gevolgd door FR-tekst van dezelfde bepaling op aansluitende regels). Dubbele spaties als kolom-separator zichtbaar. Bilingue bron-PDF-issue. Artikelinhoud voor de rest aanwezig.'
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:19:59Z'
-      rationale: "A8: 186 regels combineren NL en FR paragrafen op één regel (officieuze bilingue bron). Bovendien zijn NL-paragrafen intern gefragmenteerd met inline witruimte ('bestaat uit een volledig van de laadruimte afgesloten  enkele cabine die...' — dubbele spaties als kolom-separator). Inhoud volledig aanwezig."
+      run_at: '2026-05-13T10:38:29Z'
+      rationale: 'A8 bevestigd: regels 144-148 tonen NL en FR tekst door elkaar (artikel 1.1.0.0.2 definitie voertuigen: NL-tekst gevolgd door FR-tekst van dezelfde bepaling op aansluitende regels). Dubbele spaties als kolom-separator zichtbaar. Bilingue bron-PDF-issue. Artikelinhoud voor de rest aanwezig.'
       concrete_problemen:
-        - regel: 131
+        - regel: 144
           categorie: A8
           type: column-bleed
-          voorbeeld: a) bestaat uit een volledig van de laadruimte afgesloten  enkele cabine die...
-        - regel: 135
+          voorbeeld: a) bestaat uit een volledig van de laadruimte afgesloten  enkele cabine...
+        - regel: 148
           categorie: A8
           type: column-bleed
           voorbeeld: b) comprend une cabine double comportant six places  au maximum, celle du conducteur...

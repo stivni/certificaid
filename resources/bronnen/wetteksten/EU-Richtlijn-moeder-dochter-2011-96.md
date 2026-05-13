@@ -25,9 +25,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_at: '2026-05-13T10:38:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bekende issue: font-misclassificatie in de bijlage met vennootschapsvormen — genummerde lijsten (a), b), c)...) lopen samen in lange alinea's zonder markdown-lijst-opmaak. L1 pass: 23 headings. Inhoud aanwezig maar bijlage-opsommingen zijn niet als markdown-lijsten."
+    rationale: "C2: Bijlage I (vennootschapsvormen, regels 229-285) bevat de opsomming a) t/m ab) als doorlopende proza-alinea's per land, niet als markdown-lijsten. Het zijn technisch genummerde items die als aparte alinea's moeten staan. Voorts: dubbele witruimte in overwegingen (intra-zin woordbreuk van PDF-kolomopmaak: 'moeder- maatschappijen', 'kleindochteronder- neming'). Artikelen 1-11 correct geëxtraheerd."
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -39,13 +39,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
-      rationale: "Bekende issue: font-misclassificatie in de bijlage met vennootschapsvormen — genummerde lijsten (a), b), c)...) lopen samen in lange alinea's zonder markdown-lijst-opmaak. L1 pass: 23 headings. Inhoud aanwezig maar bijlage-opsommingen zijn niet als markdown-lijsten."
+      run_at: '2026-05-13T10:38:29Z'
+      rationale: "C2: Bijlage I (vennootschapsvormen, regels 229-285) bevat de opsomming a) t/m ab) als doorlopende proza-alinea's per land, niet als markdown-lijsten. Het zijn technisch genummerde items die als aparte alinea's moeten staan. Voorts: dubbele witruimte in overwegingen (intra-zin woordbreuk van PDF-kolomopmaak: 'moeder- maatschappijen', 'kleindochteronder- neming'). Artikelen 1-11 correct geëxtraheerd."
       concrete_problemen:
-        - regel:
+        - regel: 229
           categorie: C2
           type: other
-          voorbeeld: b) De vennootschappen naar Belgisch recht, geheten... (opsomming niet als markdown lijst)
+          voorbeeld: a) De vennootschappen opgericht overeenkomstig Verordening (EG)... (lang proza, geen markdown-lijst-item)
+        - regel: 73
+          categorie: A6
+          type: other
+          voorbeeld: moeder- maatschappijen...  dochteronder- neming (intra-woord kolombreuk uit PDF)
 ---
 
 # Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemeenschappelijke fiscale regeling voor moedermaatschappijen en dochterondernemingen uit verschillende lidstaten

@@ -25,9 +25,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_at: '2026-05-13T10:38:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D2: '(Beeld niet opgenomen om technische redenen...)' op meerdere plaatsen — de forfaitaire grondslagerijen zijn afbeeldingen in de PDF die niet zijn geëxtraheerd. Inhoud ontbreekt grotendeels."
+    rationale: "D2 gedeeltelijk bevestigd: de eigenlijke wet-body (Art. 1-33) is volledig en schoon geëxtraheerd. Maar de bijlagen (Art. N1-N5, regels 307-330) bevatten '(Beeld niet opgenomen om technische redenen...)' — de forfaitaire tabellen zijn afbeeldingen in de originele PDF. Eerdere rationale 'inhoud ontbreekt grotendeels' was te streng: de regelgevende tekst is volledig aanwezig, enkel de bijlagetabellen (rekenvormen) ontbreken."
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -39,13 +39,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
-      rationale: "D2: '(Beeld niet opgenomen om technische redenen...)' op meerdere plaatsen — de forfaitaire grondslagerijen zijn afbeeldingen in de PDF die niet zijn geëxtraheerd. Inhoud ontbreekt grotendeels."
+      run_at: '2026-05-13T10:38:29Z'
+      rationale: "D2 gedeeltelijk bevestigd: de eigenlijke wet-body (Art. 1-33) is volledig en schoon geëxtraheerd. Maar de bijlagen (Art. N1-N5, regels 307-330) bevatten '(Beeld niet opgenomen om technische redenen...)' — de forfaitaire tabellen zijn afbeeldingen in de originele PDF. Eerdere rationale 'inhoud ontbreekt grotendeels' was te streng: de regelgevende tekst is volledig aanwezig, enkel de bijlagetabellen (rekenvormen) ontbreken."
       concrete_problemen:
-        - regel:
+        - regel: 308
           categorie: D2
           type: other
-          voorbeeld: (Beeld niet opgenomen om technische redenen, zie B.St. van 25-05-2022, p. 44822)
+          voorbeeld: (Beeld niet opgenomen om technische redenen, zie B.St. van 25-05-2022, p. 44809)
 ---
 
 # BTW KB nr. 2bis — Forfaitaire grondslagen caféhouders

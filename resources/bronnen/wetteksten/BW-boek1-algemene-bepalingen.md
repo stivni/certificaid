@@ -25,9 +25,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_at: '2026-05-13T10:38:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D2: bestand is vrijwel leeg (115 chars, 0 headings, geen inhoud buiten de titel). De PDF bevat enkel een introductie/titelblad zonder eigenlijke artikelinhoud. Structureel leeg voor RAG-doeleinden.'
+    rationale: 'D2 bevestigd: bestand bevat enkel H1-titel + italic datum-lijn (115 chars totaal). BW Boek 1 Algemene bepalingen bevat slechts een titelblad in de PDF zonder eigenlijke artikelinhoud. Structureel leeg voor RAG. Bron-PDF-issue, niet ETL-fout.'
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -39,13 +39,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
-      rationale: 'D2: bestand is vrijwel leeg (115 chars, 0 headings, geen inhoud buiten de titel). De PDF bevat enkel een introductie/titelblad zonder eigenlijke artikelinhoud. Structureel leeg voor RAG-doeleinden.'
+      run_at: '2026-05-13T10:38:29Z'
+      rationale: 'D2 bevestigd: bestand bevat enkel H1-titel + italic datum-lijn (115 chars totaal). BW Boek 1 Algemene bepalingen bevat slechts een titelblad in de PDF zonder eigenlijke artikelinhoud. Structureel leeg voor RAG. Bron-PDF-issue, niet ETL-fout.'
       concrete_problemen:
         - regel: 1
           categorie: D2
           type: abrupt-cutoff
-          voorbeeld: Bestand heeft enkel H1 titel + italic datum — 0 headings, 115 chars
+          voorbeeld: Bestand eindigt na H1 + italic datum — geen artikelen
 ---
 
 # Burgerlijk Wetboek — Boek 1 — Algemene bepalingen

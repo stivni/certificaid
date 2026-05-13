@@ -22,9 +22,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_at: '2026-05-13T10:38:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: kolom-bleed in bijlage-regels. needs-rework.'
+    rationale: "De compilatie-header en TOC (regels 59-234) zijn nog aanwezig: Fisconet-kop, logo-tekst, 'Lijst van de ministeriële besluiten' met right-aligned update-datums (A8: pseudo-kolom alignment). strip_compilatie_appendix heeft dit blok niet verwijderd — het staat vóór de eigenlijke wet (Art. 1-3 vanaf regel 235). A8-flag van L1 klopt: regels 54 en 162 zijn compilatie-TOC-regels met grote witruimte als kolom-separator."
     layer1:
       status: warn
       run_id: 20260512-210639
@@ -42,13 +42,25 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:16Z'
-      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: kolom-bleed in bijlage-regels. needs-rework.'
+      run_at: '2026-05-13T10:38:29Z'
+      rationale: "De compilatie-header en TOC (regels 59-234) zijn nog aanwezig: Fisconet-kop, logo-tekst, 'Lijst van de ministeriële besluiten' met right-aligned update-datums (A8: pseudo-kolom alignment). strip_compilatie_appendix heeft dit blok niet verwijderd — het staat vóór de eigenlijke wet (Art. 1-3 vanaf regel 235). A8-flag van L1 klopt: regels 54 en 162 zijn compilatie-TOC-regels met grote witruimte als kolom-separator."
       concrete_problemen:
-        - regel: 54
+        - regel: 59
+          categorie: A1
+          type: other
+          voorbeeld: BELASTING OVER DE TOEGEVOEGDE WAARDE\nMINISTERIËLE BESLUITEN\nBIJGEWERKT TOT EN MET HET MB VAN 29.04.2024
+        - regel: 70
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: '              Federale\n              Overheidsdienst\n              FINANCIEN'
+        - regel: 90
           categorie: A8
           type: column-bleed
-          voorbeeld: '*   Ministerieel besluit nr. 6, van 4 maart 1993...                        Bijw. 01/01.01.2012'
+          voorbeeld: FOD Financiën (AA BEO)                            www.fisconetplus.be             Btw Ministeriële besluiten – 01.04.2023
+        - regel: 94
+          categorie: A8
+          type: column-bleed
+          voorbeeld: '*   Ministerieel besluit nr. 1, ...                    Bijw. 02/09.12.2013'
 status: beschikbaar
 tags:
   - VI.C

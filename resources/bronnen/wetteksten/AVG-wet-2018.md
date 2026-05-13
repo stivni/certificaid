@@ -25,24 +25,24 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_at: '2026-05-13T10:38:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'A3: TOC-fragment (lines 41-370) bevat heading-structuur zonder lichaamstekst — structuurniveaus zijn gedupliceerd als kale koppenlijst vóór de eigenlijke wettekst die pas bij TITEL 1 (L372) begint. B2: hiërarchie springt direct van H1 (L35) naar H6-Art (L41) zonder tussenliggende niveaus. Inhoud zelf (Art.6–286) is correct geëxtraheerd.'
+    rationale: 'A3+B2 bevestigd: regels 54-346 bevatten een TOC-structuur van kale headings (###### Art. 24, ## TITEL 2, etc.) zonder lichaamstekst. De eigenlijke wettekst begint pas op regel 348. Hierdoor zijn structuurniveaus gedupliceerd en springt de hiërarchie direct van H1 naar H6. Eigenlijke body (Art. 1-286) is volledig aanwezig.'
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:19:59Z'
-      rationale: 'A3: TOC-fragment (lines 41-370) bevat heading-structuur zonder lichaamstekst — structuurniveaus zijn gedupliceerd als kale koppenlijst vóór de eigenlijke wettekst die pas bij TITEL 1 (L372) begint. B2: hiërarchie springt direct van H1 (L35) naar H6-Art (L41) zonder tussenliggende niveaus. Inhoud zelf (Art.6–286) is correct geëxtraheerd.'
+      run_at: '2026-05-13T10:38:29Z'
+      rationale: 'A3+B2 bevestigd: regels 54-346 bevatten een TOC-structuur van kale headings (###### Art. 24, ## TITEL 2, etc.) zonder lichaamstekst. De eigenlijke wettekst begint pas op regel 348. Hierdoor zijn structuurniveaus gedupliceerd en springt de hiërarchie direct van H1 naar H6. Eigenlijke body (Art. 1-286) is volledig aanwezig.'
       concrete_problemen:
-        - regel: 41
+        - regel: 54
           categorie: A3
           type: other
-          voorbeeld: '###### Art. 24 (kale TOC-heading, geen lichaamstekst)'
+          voorbeeld: '###### Art. 24 (kale TOC-heading zonder lichaamstekst, vóór de eigenlijke wet)'
         - regel: 35
           categorie: B2
           type: other
-          voorbeeld: '# Belgische AVG-uitvoeringswet 2018 → ###### Art. 24 (H1→H6 jump)'
+          voorbeeld: 'H1 (titel) → direct ###### Art. 24 (H6) zonder H2-H5 ertussen'
 ---
 
 # Belgische AVG-uitvoeringswet 2018

@@ -25,9 +25,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_at: '2026-05-13T10:38:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Handcrafted file, geen PDF-artefacten. Maar: rekeningnummers als plain text zonder ##-headings (bv. '66211 Besteding'), structuur is flat-text rekeningstelsel zonder markdown-hiërarchie. 0 headings voor 5338 chars. Voor een MAR (rekeningstelsel) kan dit acceptabel zijn, maar de pagina-aanduidingen ('9 | Minimum Algemeen Rekeningstelsel...') zijn PDF-footer-resten."
+    rationale: "A1: pagina-indicatoren '9 | Minimum Algemeen Rekeningstelsel...' (regels 63, 89, 119, 134) zijn PDF-voetregels die als plain text in de body zijn opgenomen. Handcrafted file, geen PDF-artefacten in de eigenlijke inhoud. De flat-text structuur van rekeningnummers zonder headings is inherent aan het MAR-document. Zonder de paginaindicatoren zou de bron trusted zijn."
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -39,17 +39,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
-      rationale: "Handcrafted file, geen PDF-artefacten. Maar: rekeningnummers als plain text zonder ##-headings (bv. '66211 Besteding'), structuur is flat-text rekeningstelsel zonder markdown-hiërarchie. 0 headings voor 5338 chars. Voor een MAR (rekeningstelsel) kan dit acceptabel zijn, maar de pagina-aanduidingen ('9 | Minimum Algemeen Rekeningstelsel...') zijn PDF-footer-resten."
+      run_at: '2026-05-13T10:38:29Z'
+      rationale: "A1: pagina-indicatoren '9 | Minimum Algemeen Rekeningstelsel...' (regels 63, 89, 119, 134) zijn PDF-voetregels die als plain text in de body zijn opgenomen. Handcrafted file, geen PDF-artefacten in de eigenlijke inhoud. De flat-text structuur van rekeningnummers zonder headings is inherent aan het MAR-document. Zonder de paginaindicatoren zou de bron trusted zijn."
       concrete_problemen:
-        - regel:
+        - regel: 63
           categorie: A1
           type: form-feed
-          voorbeeld: 9 | Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen (pagina-indicator)
-        - regel:
-          categorie: B4
-          type: other
-          voorbeeld: 66211 Besteding (-) als plain-text, niet als heading
+          voorbeeld: 9 | Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen
+        - regel: 89
+          categorie: A1
+          type: form-feed
+          voorbeeld: 10 | Minimum Algemeen Rekeningstelsel (MAR) voor verenigingen en stichtingen
 ---
 
 # Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW)

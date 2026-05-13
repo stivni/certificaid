@@ -25,9 +25,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_at: '2026-05-13T10:38:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D2: bestand is vrijwel leeg (207 chars, 0 headings). Slechts titel + één onvolledige zin. PDF-extractie heeft gefaald.'
+    rationale: 'D2 bevestigd: bestand bevat enkel H1-titel + halve openingszin (207 chars). PDF-extractie gefaald — het KB bevat ca. 50 artikelen maar niets is geëxtraheerd. Bron-PDF is waarschijnlijk beschermd of slecht opgemaakt.'
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -39,13 +39,13 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
-      rationale: 'D2: bestand is vrijwel leeg (207 chars, 0 headings). Slechts titel + één onvolledige zin. PDF-extractie heeft gefaald.'
+      run_at: '2026-05-13T10:38:29Z'
+      rationale: 'D2 bevestigd: bestand bevat enkel H1-titel + halve openingszin (207 chars). PDF-extractie gefaald — het KB bevat ca. 50 artikelen maar niets is geëxtraheerd. Bron-PDF is waarschijnlijk beschermd of slecht opgemaakt.'
       concrete_problemen:
-        - regel: 1
+        - regel: 55
           categorie: D2
           type: abrupt-cutoff
-          voorbeeld: 0 headings, 207 chars — bestand leeg behalve titel
+          voorbeeld: 22 JUNI 2020. - Koninklijk besluit tot uitvoering van de artikelen 2, derde lid, 2quater en 8, tweede lid, van het (afgekapt)
 ---
 
 # BTW KB 22/06/2020 — E-notariaat

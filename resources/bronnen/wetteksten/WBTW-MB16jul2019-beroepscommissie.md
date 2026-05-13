@@ -21,10 +21,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T19:27:16Z'
+    status: trusted
+    confirmed_at: '2026-05-13T10:38:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+    rationale: "Body volledig schoon na strip_compilatie_appendix: geen compilatie-artefacten, geen pagina-scheidingen, geen kolom-bleed. Art. 1-5 met correcte ## headings. De extra witruimte op regel 98 ('adviseur-generaal ad  interim   van    het regionaal') is een bron-artefact uit de PDF-opmaak van de namenlijst, geen ETL-bug. Eerdere rationale 'compilatie-artefacten aanwezig' was incorrect — huidige body bevat deze niet meer."
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -34,10 +34,10 @@ provenance:
       file_size_chars: 4604
       flags: []
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:16Z'
-      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+      run_at: '2026-05-13T10:38:29Z'
+      rationale: "Body volledig schoon na strip_compilatie_appendix: geen compilatie-artefacten, geen pagina-scheidingen, geen kolom-bleed. Art. 1-5 met correcte ## headings. De extra witruimte op regel 98 ('adviseur-generaal ad  interim   van    het regionaal') is een bron-artefact uit de PDF-opmaak van de namenlijst, geen ETL-bug. Eerdere rationale 'compilatie-artefacten aanwezig' was incorrect — huidige body bevat deze niet meer."
       concrete_problemen: []
 status: beschikbaar
 tags:

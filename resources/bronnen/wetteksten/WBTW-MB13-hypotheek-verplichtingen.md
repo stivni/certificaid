@@ -22,9 +22,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_at: '2026-05-13T10:38:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+    rationale: "A1: pagina-indicatoren '- KB nr. 13 / 1 -' (regel 96) en '- KB nr. 13 / 2 -' (regel 127) zijn PDF-paginanummer-artefacten die als plain-text midden in de body staan. Voorts is de compilatie-intro-alinea (regels 53-71: lange MB-titel als plain text + opheffingsnotitie als ingesprongen blok) niet als heading of gestructureerde sectie opgemaakt. L1 pass terecht, inhoud overigens compleet."
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -36,9 +36,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:16Z'
-      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
-      concrete_problemen: []
+      run_at: '2026-05-13T10:38:29Z'
+      rationale: "A1: pagina-indicatoren '- KB nr. 13 / 1 -' (regel 96) en '- KB nr. 13 / 2 -' (regel 127) zijn PDF-paginanummer-artefacten die als plain-text midden in de body staan. Voorts is de compilatie-intro-alinea (regels 53-71: lange MB-titel als plain text + opheffingsnotitie als ingesprongen blok) niet als heading of gestructureerde sectie opgemaakt. L1 pass terecht, inhoud overigens compleet."
+      concrete_problemen:
+        - regel: 96
+          categorie: A1
+          type: other
+          voorbeeld: '                                                 - KB nr. 13 / 1 -'
+        - regel: 127
+          categorie: A1
+          type: other
+          voorbeeld: '                                              - KB nr. 13 / 2 -'
 status: beschikbaar
 tags:
   - VI.C

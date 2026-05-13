@@ -22,9 +22,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_at: '2026-05-13T10:38:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
+    rationale: "B5: 'Enig artikel' staat als plain-text regel (regel 59) zonder ##/###-prefix. De wet bestaat uit één artikel en de structuur-indicator hoort een heading te zijn. Verder is de compilatie-intro (regels 53-57) als plain text opgenomen zonder heading. Body-inhoud is volledig aanwezig in één alinea."
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -36,9 +36,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:16Z'
-      rationale: 'Eerder beoordeeld door subagent-sonnet-4-6: compilatie-artefacten aanwezig.'
-      concrete_problemen: []
+      run_at: '2026-05-13T10:38:29Z'
+      rationale: "B5: 'Enig artikel' staat als plain-text regel (regel 59) zonder ##/###-prefix. De wet bestaat uit één artikel en de structuur-indicator hoort een heading te zijn. Verder is de compilatie-intro (regels 53-57) als plain text opgenomen zonder heading. Body-inhoud is volledig aanwezig in één alinea."
+      concrete_problemen:
+        - regel: 59
+          categorie: B5
+          type: other
+          voorbeeld: '                                             Enig artikel'
+        - regel: 53
+          categorie: B4
+          type: other
+          voorbeeld: Ministerieel besluit, van 23 juni 2005... (compilatie plain-text herhaling van titel als intro)
 status: beschikbaar
 tags:
   - VI.C

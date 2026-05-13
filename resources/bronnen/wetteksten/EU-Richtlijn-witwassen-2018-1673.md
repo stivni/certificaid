@@ -25,9 +25,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_at: '2026-05-13T10:38:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bekende issue: heading/body volgorde. De overwegingen (1)-(16) staan als plain-tekst paragrafen vóór de eigenlijke artikelen, maar overweging-nummers zijn geen headings. De artikelkopjes (###### Artikel N) zijn correct. Voorts zijn lege headings '###### Artikel 15', '###### Artikel 16' aanwezig zonder body."
+    rationale: "Ernstige structuurproblemen: de body van Art. 4-7 (sancties, verzwarende omstandigheden, aansprakelijkheid) verschijnt als anonieme paragrafen VÓÓR de bijhorende heading-regels (regels 233-293 bevatten body zonder heading, daarna volgen de headings op regels 255-293). Art. 12, 13, 14, 15, 16 zijn kale headings zonder body. Bovendien is de body van Art. 4, 5, 6 midden in de flow versprongen. Eerdere rationale onderschatte de ernst: dit is geen louter 'overweging-nummers zonder heading' maar structureel door elkaar."
     layer1:
       status: pass
       run_id: 20260512-210639
@@ -39,17 +39,21 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
-      rationale: "Bekende issue: heading/body volgorde. De overwegingen (1)-(16) staan als plain-tekst paragrafen vóór de eigenlijke artikelen, maar overweging-nummers zijn geen headings. De artikelkopjes (###### Artikel N) zijn correct. Voorts zijn lege headings '###### Artikel 15', '###### Artikel 16' aanwezig zonder body."
+      run_at: '2026-05-13T10:38:29Z'
+      rationale: "Ernstige structuurproblemen: de body van Art. 4-7 (sancties, verzwarende omstandigheden, aansprakelijkheid) verschijnt als anonieme paragrafen VÓÓR de bijhorende heading-regels (regels 233-293 bevatten body zonder heading, daarna volgen de headings op regels 255-293). Art. 12, 13, 14, 15, 16 zijn kale headings zonder body. Bovendien is de body van Art. 4, 5, 6 midden in de flow versprongen. Eerdere rationale onderschatte de ernst: dit is geen louter 'overweging-nummers zonder heading' maar structureel door elkaar."
       concrete_problemen:
-        - regel:
+        - regel: 233
+          categorie: B5
+          type: other
+          voorbeeld: Anonieme alinea '1. De lidstaten nemen de nodige maatregelen...' zonder voorafgaande heading (body van Art. 5)
+        - regel: 255
           categorie: B3
           type: other
-          voorbeeld: '###### Artikel 15\n\n###### Artikel 16 (lege headings zonder body)'
-        - regel:
-          categorie: B4
+          voorbeeld: '###### Artikel 4 heading AFTER its body text has already appeared on line 231'
+        - regel: 363
+          categorie: B3
           type: other
-          voorbeeld: Overwegingen (1)-(16) als plain-text paragrafen in plaats van headings
+          voorbeeld: '###### Artikel 12 (kale heading, geen body)'
 ---
 
 # Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld
