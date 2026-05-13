@@ -1313,10 +1313,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": null,
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB54-entrepot.md",
@@ -1855,8 +1855,8 @@
         "2.6",
         "1.2"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": "default",
+      "trust_status": "trusted",
+      "trust_confirmed_by": "human",
       "layer1_status": "warn",
       "layer2_status": null
     },

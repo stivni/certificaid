@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T11:05:02Z'
+    confirmed_at: '2026-05-13T11:13:05Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Schone wettekst-conversie: 16 Art.-headings, consistent commentaarblok (wijzigingsgeschiedenis) per artikel, lijsten 1°/2°/... correct. Source-typo's (open haakje '(Opgeheven' regel 100) en stray 'Bijlage' regel 149 zijn brontypografie, geen ETL-artefact."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:05:02Z'
+      run_at: '2026-05-13T11:13:05Z'
       rationale: "Schone wettekst-conversie: 16 Art.-headings, consistent commentaarblok (wijzigingsgeschiedenis) per artikel, lijsten 1°/2°/... correct. Source-typo's (open haakje '(Opgeheven' regel 100) en stray 'Bijlage' regel 149 zijn brontypografie, geen ETL-artefact."
       concrete_problemen:
         - regel: 100

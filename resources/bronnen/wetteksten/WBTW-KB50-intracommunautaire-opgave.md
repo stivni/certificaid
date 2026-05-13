@@ -25,21 +25,21 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:05:03Z'
+    confirmed_at: '2026-05-13T11:13:06Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bestand bevat twee opeenvolgende versies van KB nr. 50 (de 2019-versie en daaronder de oude 2009-versie als 'Bijlage'), wat een buitenstaander zou herkennen als compilatie-bleed: het is geen bijlage in juridische zin maar de voorafgaande, opgeheven versie die in de Fisconet-PDF na de actuele tekst stond. Bovendien staat onderaan 'KB50-Bijlage pg. Bijl./1 ... pg. Bijl./2' (regels 341-343), expliciete page-tags. Hoofdstuk-headings 'HOOFDSTUK 2' / 'HOOFDSTUK 3' (regels 148, 207) gebruiken all-caps terwijl 'Hoofdstuk 1' (regel 57) niet — inconsistent. TOC-blok regels 50-55 dupliceert hoofdstukken zonder body."
+    rationale: "merge_article_reference_wraps heeft niet ingegrepen op het hoofdprobleem: het bestand bevat onder de kop 'Bijlage' (regels 227 e.v.) de volledige opgeheven 2009-versie van KB nr. 50 als losse content, terwijl de 2019-versie als hoofdtekst staat. Dit is compilatie-bleed uit de Fisconet-PDF, geen wettelijke bijlage. Onderaan staan ook Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334). Inconsistente hoofdstuk-kapitalisatie ('Hoofdstuk 1' vs 'HOOFDSTUK 2'/'HOOFDSTUK 3'). TOC-achtig blok regels 53-58 dupliceert headings."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:05:03Z'
-      rationale: "Bestand bevat twee opeenvolgende versies van KB nr. 50 (de 2019-versie en daaronder de oude 2009-versie als 'Bijlage'), wat een buitenstaander zou herkennen als compilatie-bleed: het is geen bijlage in juridische zin maar de voorafgaande, opgeheven versie die in de Fisconet-PDF na de actuele tekst stond. Bovendien staat onderaan 'KB50-Bijlage pg. Bijl./1 ... pg. Bijl./2' (regels 341-343), expliciete page-tags. Hoofdstuk-headings 'HOOFDSTUK 2' / 'HOOFDSTUK 3' (regels 148, 207) gebruiken all-caps terwijl 'Hoofdstuk 1' (regel 57) niet — inconsistent. TOC-blok regels 50-55 dupliceert hoofdstukken zonder body."
+      run_at: '2026-05-13T11:13:06Z'
+      rationale: "merge_article_reference_wraps heeft niet ingegrepen op het hoofdprobleem: het bestand bevat onder de kop 'Bijlage' (regels 227 e.v.) de volledige opgeheven 2009-versie van KB nr. 50 als losse content, terwijl de 2019-versie als hoofdtekst staat. Dit is compilatie-bleed uit de Fisconet-PDF, geen wettelijke bijlage. Onderaan staan ook Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334). Inconsistente hoofdstuk-kapitalisatie ('Hoofdstuk 1' vs 'HOOFDSTUK 2'/'HOOFDSTUK 3'). TOC-achtig blok regels 53-58 dupliceert headings."
       concrete_problemen:
-        - "Regels 226-335: integrale opgenomen oude KB-50-2009 onder kop 'Bijlage' — dit is geen wettelijke bijlage maar de opgeheven voorgangerversie"
-        - "Regels 341-343: 'KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave' / 'KB50-Bijlage pg. Bijl./2 Intracommunautaire opgave' — Fisconet page-headers als plain content"
-        - "Regels 50-55: TOC-achtig blok met '## Hoofdstuk 1.' / '## Hoofdstuk 2.' / '## Hoofdstuk 3.' direct gevolgd door hetzelfde 'Hoofdstuk 1' als sectie-heading — dubbele headings"
-        - "Inconsistente kapitalisatie: 'Hoofdstuk 1' (regel 57) vs 'HOOFDSTUK 2' (148) / 'HOOFDSTUK 3' (207)"
-        - "Frontmatter 'bijgewerkt: 11.12.2019' dekt de 2019-versie niet de oude 2009-versie die ook in body staat"
+        - "Regels 227-326: integrale opgenomen oude KB-50-2009 onder 'Bijlage' — geen wettelijke bijlage maar opgeheven voorgangerversie"
+        - "Regels 332-334: 'KB50-Bijlage pg. Bijl./1' / 'KB50-Bijlage pg. Bijl./2 Intracommunautaire opgave' — Fisconet page-headers als plain content"
+        - "Regels 53-58: TOC-blok met '## Hoofdstuk 1.' / '## Hoofdstuk 2.' / '## Hoofdstuk 3.' direct gevolgd door dezelfde hoofdstukken als sectie-headings — duplicate headings"
+        - "Inconsistente kapitalisatie: 'Hoofdstuk 1' (regel 60) vs 'HOOFDSTUK 2' (150) / 'HOOFDSTUK 3' (209)"
+        - "Word-concat-bugs in body: 'btweenheid' (regel 148), 'BTWidentificatienummer' / 'BTWidenti­ﬁcatienummer' (regels 238, 254), 'BTWkantoor', 'BTWeenheid' (regel 301)"
 ---
 
 # K.B. nr. 50 van 11 december 2019, met betrekking tot de btw-opgave van de intracommunautaire handelingen

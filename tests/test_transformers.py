@@ -1817,3 +1817,88 @@ class TestMergeArticleReferenceWraps:
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "merge_article_reference_wraps" in TRANSFORMERS
+
+
+class TestStripMbCompilatieCover:
+    _cover = (
+        "BELASTING OVER DE TOEGEVOEGDE WAARDE\n"
+        "\n"
+        "MINISTERIËLE BESLUITEN\n"
+        "BIJGEWERKT TOT EN MET HET MB VAN 29.04.2024\n"
+        "\n"
+        "Federale\n"
+        "Overheidsdienst\n"
+        "FINANCIEN\n"
+        "\n"
+        "contact : comments.kms@minfin.fed.be\n"
+        "\n"
+        "Lijst van de ministeriële besluiten\n"
+        "\n"
+        " * Ministerieel besluit nr. 1, van 2 september 1980, met betrekking tot de aftrekregeling\n"
+        " * Ministerieel besluit nr. 2, van 21 december 2010, met betrekking tot de teruggaven\n"
+        " * Ministerieel besluit nr. 3, van 24 november 1970, Maandelijkse voorschotten\n"
+    )
+    _content = (
+        "\n"
+        "Officieuze coördinatie\n"
+        "\n"
+        "## Art. 1\n"
+        "Inhoud van het artikel.\n"
+    )
+
+    def test_strip_cover_basic(self):
+        from tools.etl.transformers.strip_mb_compilatie_cover import strip_mb_compilatie_cover
+        body = self._cover + self._content
+        result, _ = strip_mb_compilatie_cover(body, {})
+        assert "Lijst van de ministeriële besluiten" not in result
+        assert "Ministerieel besluit nr. 1, van 2 september 1980" not in result
+        assert "Federale" not in result
+        assert "comments.kms@minfin" not in result
+        assert "Officieuze coördinatie" in result
+        assert "## Art. 1" in result
+
+    def test_no_cover_passthrough(self):
+        from tools.etl.transformers.strip_mb_compilatie_cover import strip_mb_compilatie_cover
+        body = "## Art. 1\nGewone wettekst zonder cover.\n"
+        result, _ = strip_mb_compilatie_cover(body, {})
+        assert result == body
+
+    def test_single_bullet_no_strip(self):
+        """Slechts één bullet → géén cover-context, niet strippen."""
+        from tools.etl.transformers.strip_mb_compilatie_cover import strip_mb_compilatie_cover
+        body = (
+            "Lijst van de ministeriële besluiten\n"
+            " * Ministerieel besluit nr. 1, van 2 september 1980, voor referentie\n"
+            "Body verder.\n"
+        )
+        result, _ = strip_mb_compilatie_cover(body, {})
+        assert result == body  # geen strip — slechts 1 bullet
+
+    def test_idempotent(self):
+        from tools.etl.transformers.strip_mb_compilatie_cover import strip_mb_compilatie_cover
+        body = self._cover + self._content
+        once, _ = strip_mb_compilatie_cover(body, {})
+        twice, _ = strip_mb_compilatie_cover(once, {})
+        assert once == twice
+
+    def test_kb_variant(self):
+        from tools.etl.transformers.strip_mb_compilatie_cover import strip_mb_compilatie_cover
+        body = (
+            "BELASTING OVER DE TOEGEVOEGDE WAARDE\n"
+            "KONINKLIJKE BESLUITEN\n"
+            "\n"
+            "Lijst van de koninklijke besluiten\n"
+            "\n"
+            " * Koninklijk besluit nr. 1, van 29 december 1992, voldoening\n"
+            " * Koninklijk besluit nr. 2, van 19 december 2010, ...\n"
+            "\n"
+            "## Art. 1\nBody.\n"
+        )
+        result, _ = strip_mb_compilatie_cover(body, {})
+        assert "Lijst van de koninklijke besluiten" not in result
+        assert "Koninklijk besluit nr. 1" not in result
+        assert "## Art. 1" in result
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "strip_mb_compilatie_cover" in TRANSFORMERS

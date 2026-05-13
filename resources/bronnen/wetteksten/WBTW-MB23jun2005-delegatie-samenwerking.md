@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775-dirty
+    pipeline_version: 60ab55b-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:04:32Z'
+  generated_at: '2026-05-13T11:12:47Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:05:03Z'
+    confirmed_at: '2026-05-13T11:13:05Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "'Enig artikel' staat als plain text (regel 48) en niet als heading. Layer1 heading_count is dan ook 0. Dit is een structureel ETL-issue: een buitenstaander herkent dit niet als de centrale (en enige) bepaling van het MB, en RAG-chunking zal hier slecht op werken."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:05:03Z'
+      run_at: '2026-05-13T11:13:05Z'
       rationale: "'Enig artikel' staat als plain text (regel 48) en niet als heading. Layer1 heading_count is dan ook 0. Dit is een structureel ETL-issue: een buitenstaander herkent dit niet als de centrale (en enige) bepaling van het MB, en RAG-chunking zal hier slecht op werken."
       concrete_problemen:
         - "'Enig artikel' op regel 48 is plain text i.p.v. ## Enig artikel (checklist B: 'Enig artikel' als plain-text ipv heading)"

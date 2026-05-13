@@ -24,21 +24,18 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T11:05:03Z'
+    status: trusted
+    confirmed_at: '2026-05-13T11:13:06Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Inhoudelijk volledig en heading-hiërarchie OK, maar op verschillende plaatsen worden amendment-haakjes onderbroken door een linebreak (bv. regel 103-104, 109-110, 119-120, 124-125): '(De tekst van KB nr. 53, artikel 8, werd vervangen met ingang van 01.01.2013 (Art.\\n46, KB 30.04.2013...)'. Dit is typische pdftotext-line-wrap die buitenstaander direct zou opvallen. Ook regel 75-76: '... artikel 58, § 4,\\n4°, ...' — afgebroken verwijzing."
+    rationale: Substantieel verbeterd door merge_article_reference_wraps. Alle eerder gevlagde 'Art.\nN, KB ...' linewraps in amendment-headers (regels 103-104, 109-110, 119-120, 124-125 uit vorige QA) zijn nu correct als enkele regel weergegeven. Ook de 'artikel 58, § 4,\n4°' wrap is opgelost (nu inline op regel 77). De resterende 'KB nr. 53, artikel 1' op regel 124 (in Art. 12-context) is een source-typo en valt onder de (source)-uitzondering. De pseudo-tabel-streepjes in Art. 2/3 zijn legitieme bullet-lijsten, geen ETL-artefact.
     layer1:
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:05:03Z'
-      rationale: "Inhoudelijk volledig en heading-hiërarchie OK, maar op verschillende plaatsen worden amendment-haakjes onderbroken door een linebreak (bv. regel 103-104, 109-110, 119-120, 124-125): '(De tekst van KB nr. 53, artikel 8, werd vervangen met ingang van 01.01.2013 (Art.\\n46, KB 30.04.2013...)'. Dit is typische pdftotext-line-wrap die buitenstaander direct zou opvallen. Ook regel 75-76: '... artikel 58, § 4,\\n4°, ...' — afgebroken verwijzing."
+      run_at: '2026-05-13T11:13:06Z'
+      rationale: Substantieel verbeterd door merge_article_reference_wraps. Alle eerder gevlagde 'Art.\nN, KB ...' linewraps in amendment-headers (regels 103-104, 109-110, 119-120, 124-125 uit vorige QA) zijn nu correct als enkele regel weergegeven. Ook de 'artikel 58, § 4,\n4°' wrap is opgelost (nu inline op regel 77). De resterende 'KB nr. 53, artikel 1' op regel 124 (in Art. 12-context) is een source-typo en valt onder de (source)-uitzondering. De pseudo-tabel-streepjes in Art. 2/3 zijn legitieme bullet-lijsten, geen ETL-artefact.
       concrete_problemen:
-        - "Meerdere amendment-headers afgebroken midden tussen 'Art.' en nummer: regels 103-104, 109-110, 119-120, 124-125 (steeds 'Art.\\nN, KB ...')"
-        - "Regel 75-76: '... artikel 58, § 4,\\n4°, van het Wetboek' — artikelnummer-verwijzing over linebreak"
-        - "Regel 124: 'KB nr. 53, artikel 1' in Art. 12-context (vermoedelijk source-typo: zou artikel 12 moeten zijn) — past in (source) maar zonder review onzeker"
-        - Lijst van streepjes in Art. 2 §2 (regel 64-65) gemengd met inline dubbele aanhalingstekens '"verkoopprijs" :' — leesbaar maar lay-out van een pseudo-tabel
+        - "Regel 124: 'KB nr. 53, artikel 1' in Art. 12-amendment-blok — source-typo (zou 'artikel 12' moeten zijn), valt onder (source)-uitzondering"
 ---
 
 # K.B. nr. 53 van 23 december 1994, met betrekking tot de bijzondere regeling van belastingheffing over de winstmarge voor gebruikte goederen, kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten

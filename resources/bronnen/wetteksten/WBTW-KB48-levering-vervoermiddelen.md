@@ -25,21 +25,18 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:05:03Z'
+    confirmed_at: '2026-05-13T11:13:06Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Tekst is grotendeels OK, maar bevat verschillende afgebroken zinnen midden in artikelen (linebreaks zonder syntactische reden) en samengeplakte woorden 'hetWetboek' (regel 67) — typische pdftotext-confusion. Art. 4bis-melding van opheffing is OK maar de afbrekingen ondermijnen mens-geschreven indruk.
+    rationale: Artikel-/§-linewraps die in vorige QA werden gevlagd (regel 54-55 'artikel 53,\n§ 1...' en regel 120-121 'artikel\n6.') zijn nu opgelost door merge_article_reference_wraps. Echter het word-concat-artefact 'hetWetboek' op regel 69 (missing space tussen 'het' en 'Wetboek') is een aparte pdftotext-bug die niet door deze transformer wordt aangepakt en nog altijd direct opvalt voor een buitenstaander. Ook de onnatuurlijke witregel tussen 'a)' en 'b)' in de enumeratielijst (regel 76-78) blijft staan.
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:05:03Z'
-      rationale: Tekst is grotendeels OK, maar bevat verschillende afgebroken zinnen midden in artikelen (linebreaks zonder syntactische reden) en samengeplakte woorden 'hetWetboek' (regel 67) — typische pdftotext-confusion. Art. 4bis-melding van opheffing is OK maar de afbrekingen ondermijnen mens-geschreven indruk.
+      run_at: '2026-05-13T11:13:06Z'
+      rationale: Artikel-/§-linewraps die in vorige QA werden gevlagd (regel 54-55 'artikel 53,\n§ 1...' en regel 120-121 'artikel\n6.') zijn nu opgelost door merge_article_reference_wraps. Echter het word-concat-artefact 'hetWetboek' op regel 69 (missing space tussen 'het' en 'Wetboek') is een aparte pdftotext-bug die niet door deze transformer wordt aangepakt en nog altijd direct opvalt voor een buitenstaander. Ook de onnatuurlijke witregel tussen 'a)' en 'b)' in de enumeratielijst (regel 76-78) blijft staan.
       concrete_problemen:
-        - "Regel 67: 'van hetWetboek' (ontbrekende spatie) — pdftotext spacing-bug"
-        - "Regel 54-55: zin afgebroken na 'artikel 53,' met nieuwe paragraaf '§ 1, eerste lid...' — kolom/lineflow-break midden zin"
-        - "Regel 75-76: 'a) voor de landvoertuigen: ...' gevolgd door lege regel en dan 'b) voor schepen: ...' — onnatuurlijke witregel binnen één enumeratielijst"
-        - "Regel 105-106: '01.01.2004.\\n(Art. 28, ...)' — datum gescheiden van bron-citatie door linebreak"
-        - "Regel 120-121: '... overeenkomstig artikel\\n6.' — artikelverwijzing midden zin afgebroken"
+        - "Regel 69: 'van hetWetboek' (ontbrekende spatie) — pdftotext word-concat-bug, niet opgelost door merge_article_reference_wraps"
+        - "Regel 76-78: lege regel binnen één enumeratielijst tussen 'a) voor de landvoertuigen' en 'b) voor schepen'"
 ---
 
 # K.B. nr. 48 van 29 december 1992, met betrekking tot de levering van vervoermiddelen in de zin van artikel 8bis, § 2, 1°, van het Btw- Wetboek, verricht binnen de voorwaarden van artikel 39bis van het Btw- Wetboek

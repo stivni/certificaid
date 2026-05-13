@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775-dirty
+    pipeline_version: 60ab55b-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:04:32Z'
+  generated_at: '2026-05-13T11:12:47Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T11:05:03Z'
+    confirmed_at: '2026-05-13T11:13:05Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Zeer korte MB met 2 artikelen. Schone heading-hierarchie, geen footer-artefact, geen TOC-pollutie. Inleiding bondig, artikelen helder. Buitenstaander zou dit als handgeschreven markdown lezen.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:05:03Z'
+      run_at: '2026-05-13T11:13:05Z'
       rationale: Zeer korte MB met 2 artikelen. Schone heading-hierarchie, geen footer-artefact, geen TOC-pollutie. Inleiding bondig, artikelen helder. Buitenstaander zou dit als handgeschreven markdown lezen.
       concrete_problemen: []
 ---

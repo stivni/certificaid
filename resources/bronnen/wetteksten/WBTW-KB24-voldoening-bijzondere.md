@@ -25,22 +25,21 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:05:03Z'
+    confirmed_at: '2026-05-13T11:13:06Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Heeft een uitgebreide TOC bij start met afdelings- en artikel-ranges ('Art. 1 - 8', 'Art. 9 - 13', 'Art. 13bis') die als plain text dwars door de heading-hierarchie staan. Het TOC-blok bevat ook spurious linebreaks waardoor headings over twee regels lopen ('Betalingen op de rekeningen van "btw-ontvangsten"\nBrussel', 'Onderafdeling 2. Betaling op de financiële rekening van "Inning en\nInvordering"'). Bovendien staat een Franse string 'Disposition temporaire' (regel 66) ongetag'd midden in een NL-tekst — dit is een ETL-leak van de bilingue bron.
+    rationale: merge_article_reference_wraps heeft niet ingegrepen op de meest opvallende artefacten. Het TOC-blok aan het begin (regels 56-78) met artikel-ranges 'Art. 1 - 8', 'Art. 9 - 13' als plain text blijft staan, gevolgd door duplicate hoofdstuk-/onderafdeling-headings (regels 80-88) — dat is compilatie-bleed. De Franse string 'Disposition temporaire' (regel 70) midden in NL-content is een bilingue-leak die direct opvalt. Spurious linebreaks midden in heading-tekst ('Inning en\nInvordering', regels 62-63; 'Mini One Stop Shop\n- VAT BE', regels 65-66) zijn niet gerepareerd. Inconsistente kapitalisatie 'AFDELING' vs 'Onderafdeling'.
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:05:03Z'
-      rationale: Heeft een uitgebreide TOC bij start met afdelings- en artikel-ranges ('Art. 1 - 8', 'Art. 9 - 13', 'Art. 13bis') die als plain text dwars door de heading-hierarchie staan. Het TOC-blok bevat ook spurious linebreaks waardoor headings over twee regels lopen ('Betalingen op de rekeningen van "btw-ontvangsten"\nBrussel', 'Onderafdeling 2. Betaling op de financiële rekening van "Inning en\nInvordering"'). Bovendien staat een Franse string 'Disposition temporaire' (regel 66) ongetag'd midden in een NL-tekst — dit is een ETL-leak van de bilingue bron.
+      run_at: '2026-05-13T11:13:06Z'
+      rationale: merge_article_reference_wraps heeft niet ingegrepen op de meest opvallende artefacten. Het TOC-blok aan het begin (regels 56-78) met artikel-ranges 'Art. 1 - 8', 'Art. 9 - 13' als plain text blijft staan, gevolgd door duplicate hoofdstuk-/onderafdeling-headings (regels 80-88) — dat is compilatie-bleed. De Franse string 'Disposition temporaire' (regel 70) midden in NL-content is een bilingue-leak die direct opvalt. Spurious linebreaks midden in heading-tekst ('Inning en\nInvordering', regels 62-63; 'Mini One Stop Shop\n- VAT BE', regels 65-66) zijn niet gerepareerd. Inconsistente kapitalisatie 'AFDELING' vs 'Onderafdeling'.
       concrete_problemen:
-        - Franse plain-text fragment 'Disposition temporaire' (regel 66) tussen NL-content — bilingue residu
-        - "Spurious linebreaks midden in heading-tekst: '\"Inning en\\nInvordering\"' (regels 58-59), '\"Mini One Stop Shop\\n- VAT BE\"' (regels 61-62), 'Brussel,\\n\"Inning en Invordering\"' (regels 53-54)"
-        - "Smart-quote inconsistentie: 'VAT BE' opent met \" maar sluit met ” (regels 62, 64) — OCR/PDF-glyph artefact"
-        - TOC-blok aan begin (regels 52-74) bevat artikel-ranges 'Art. 1 - 8', 'Art. 9 - 13' als plain text i.p.v. echte navigatiemarkup
-        - "Mid-paragraaf linebreaks in artikel-content: '8(1)', '8(2)' en dubbele linebreaks tussen alinea's op tal van plaatsen (regel 87-95)"
-        - "'AFDELING'/'Onderafdeling' staan inconsistent — soms als ## of ###, soms als plain text in TOC"
+        - "Regel 70: Franse plain-text 'Disposition temporaire Art. 13ter' tussen NL-content — bilingue residu"
+        - 'Regels 56-78: TOC-blok met artikel-ranges als plain text + duplicate headings die hetzelfde opnieuw introduceren'
+        - "Regels 62-63, 65-66, 68: spurious linebreaks midden in onderafdeling-headings ('Inning en\\nInvordering', 'Mini One Stop Shop\\n- VAT BE')"
+        - "Smart-quote inconsistentie: 'VAT BE' opent met \" maar sluit met ” (regels 66, 68)"
+        - 'Inconsistente capitalisatie: ## AFDELING (all-caps) vs ### Onderafdeling (kleine letters)'
 ---
 
 # K.B. nr. 24 van 29 december 1992, met betrekking tot de voldoening van de belasting over de toegevoegde waarde

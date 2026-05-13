@@ -25,22 +25,22 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:05:03Z'
+    confirmed_at: '2026-05-13T11:13:06Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Inhoudelijk consistent en goed gestructureerd, maar bevat PDF-extractie-artefacten: § 2./3./4. paragraaf-markeringen losgekoppeld op aparte regels (regels 60-61), aaneengeklonken woorden door PDF-afbreking ('BTWidentificatienummer', 'BTWkantoor', 'douaneentrepot' op meerdere plaatsen), en in de titel-frontmatter 'toepassings- modaliteiten' met overgebleven trailing dash. Verder Art. 3 amendment-blok: 'KB nr. 31, artikel, derde lid' - een ontbrekend artikelnummer (waarschijnlijk 'artikel 3')."
+    rationale: "merge_article_reference_wraps heeft de hoofdtekst niet zichtbaar verbeterd voor de gevlagde problemen. De PDF-word-concat-bugs blijven: 'BTWidentificatienummer' (regels 70, 106), 'BTWkantoor' (regel 102), 'douaneentrepot' inconsistent met 'douane-entrepot' (regels 88, 90, 92, 94, 96), 'inartikel' (regel 170). Ligatuur 'ﬁ' in 'geïdentiﬁceerd' (regels 170, 171) is OCR/extractie-artefact. In Art. 3 amendment-blok ontbreekt het artikelnummer: 'KB nr. 31, artikel, derde lid' (regel 110). Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streep+spatie residu uit PDF-afbreking."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:05:03Z'
-      rationale: "Inhoudelijk consistent en goed gestructureerd, maar bevat PDF-extractie-artefacten: § 2./3./4. paragraaf-markeringen losgekoppeld op aparte regels (regels 60-61), aaneengeklonken woorden door PDF-afbreking ('BTWidentificatienummer', 'BTWkantoor', 'douaneentrepot' op meerdere plaatsen), en in de titel-frontmatter 'toepassings- modaliteiten' met overgebleven trailing dash. Verder Art. 3 amendment-blok: 'KB nr. 31, artikel, derde lid' - een ontbrekend artikelnummer (waarschijnlijk 'artikel 3')."
+      run_at: '2026-05-13T11:13:06Z'
+      rationale: "merge_article_reference_wraps heeft de hoofdtekst niet zichtbaar verbeterd voor de gevlagde problemen. De PDF-word-concat-bugs blijven: 'BTWidentificatienummer' (regels 70, 106), 'BTWkantoor' (regel 102), 'douaneentrepot' inconsistent met 'douane-entrepot' (regels 88, 90, 92, 94, 96), 'inartikel' (regel 170). Ligatuur 'ﬁ' in 'geïdentiﬁceerd' (regels 170, 171) is OCR/extractie-artefact. In Art. 3 amendment-blok ontbreekt het artikelnummer: 'KB nr. 31, artikel, derde lid' (regel 110). Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streep+spatie residu uit PDF-afbreking."
       concrete_problemen:
-        - "PDF-afbrekingsfouten zonder spatie: 'BTWidentificatienummer' (regel 67, 73), 'BTWkantoor' (regel 99), 'douaneentrepot' / 'douane-entrepot' inconsistent (regels 87, 89-91), 'geïdentiﬁceerd' met ligatuur fi (regel 167)"
-        - § 2. en § 3. paragraaf-markeringen op aparte regel (regels 60-61)
-        - "In Art. 3 amendment-blok ontbreekt artikelnummer: 'KB nr. 31, artikel, derde lid' (regel 107)"
-        - Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streep+spatie residu uit PDF-afbreking
-        - 'Inconsistente formatting: bij Art. 1 / Art. 2 / Art. 3 / Art. 5 / Art. 6 / Art. 7 / Art. 9 staat een lege regel tussen heading en amendment-blok, bij Art. 4 / Art. 8 niet'
-        - Ligatuur 'fi' in 'geïdentiﬁceerd' (regel 167) - OCR/extractie-artefact
+        - "Regels 70, 106: 'BTWidentificatienummer' — pdftotext concat zonder spatie"
+        - "Regel 102: 'BTWkantoor' / regel 301-context: 'BTWeenheid' — pdftotext concat zonder spatie"
+        - "Regels 88, 90, 92, 94, 96: 'douaneentrepot' (zonder koppelteken) — pdftotext concat"
+        - "Regel 110: 'KB nr. 31, artikel, derde lid' — ontbrekend artikelnummer in amendment-blok (vermoedelijk source-typo, maar onbevestigd)"
+        - "Regel 170: 'inartikel 2' (concat) en ligatuur 'ﬁ' in 'geïdentiﬁceerd' — OCR/glyph-artefact"
+        - Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streep+spatie residu
 ---
 
 # K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen

@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T11:05:03Z'
+    confirmed_at: '2026-05-13T11:13:05Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Korte KB met 3 artikelen. Headings consistent (## Art. 1/2/3). Genummerde lijsten (1° t/m 8°) goed geformatteerd. Geen footer-restanten, geen kolom-bleed, geen scrambled text. Buitenstaander zou dit voor handgeschreven markdown kunnen aanzien.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:05:03Z'
+      run_at: '2026-05-13T11:13:05Z'
       rationale: Korte KB met 3 artikelen. Headings consistent (## Art. 1/2/3). Genummerde lijsten (1° t/m 8°) goed geformatteerd. Geen footer-restanten, geen kolom-bleed, geen scrambled text. Buitenstaander zou dit voor handgeschreven markdown kunnen aanzien.
       concrete_problemen: []
 ---

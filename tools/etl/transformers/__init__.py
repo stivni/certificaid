@@ -33,6 +33,7 @@ from tools.etl.transformers.strip_running_page_headers import strip_running_page
 from tools.etl.transformers.strip_kb_bijwerkingen import strip_kb_bijwerkingen
 from tools.etl.transformers.strip_empty_trailing_headings import strip_empty_trailing_headings
 from tools.etl.transformers.merge_article_reference_wraps import merge_article_reference_wraps
+from tools.etl.transformers.strip_mb_compilatie_cover import strip_mb_compilatie_cover
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
@@ -58,6 +59,7 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "strip_kb_bijwerkingen": strip_kb_bijwerkingen,
     "strip_empty_trailing_headings": strip_empty_trailing_headings,
     "merge_article_reference_wraps": merge_article_reference_wraps,
+    "strip_mb_compilatie_cover": strip_mb_compilatie_cover,
 }
 
 

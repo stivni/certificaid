@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775-dirty
+    pipeline_version: 60ab55b-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:04:32Z'
+  generated_at: '2026-05-13T11:12:47Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:05:03Z'
+    confirmed_at: '2026-05-13T11:13:05Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Massieve ETL-bleed onveranderd: regels 56-140 (85 regels) bevatten de complete compilatie-cover ('BELASTING OVER DE TOEGEVOEGDE WAARDE', 'Federale Overheidsdienst FINANCIEN', contact-email) plus de volledige TOC van alle 25+ MB's met PDF-glyph-bullets ' * ', onderstreepte placeholders '_____' en 'Bijw. XX/datum' kolom-bleed midden in beschrijvingen. De eigenlijke MB-1 wettekst begint pas op regel 141 en is slechts 16 regels lang. De drie nieuwe transformers raken dit volume aan pre-tekst-pollutie niet (niet 'Lijst van de bijwerkingen', niet running-header met pg.-formaat, niet lege heading)."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:05:03Z'
+      run_at: '2026-05-13T11:13:05Z'
       rationale: "Massieve ETL-bleed onveranderd: regels 56-140 (85 regels) bevatten de complete compilatie-cover ('BELASTING OVER DE TOEGEVOEGDE WAARDE', 'Federale Overheidsdienst FINANCIEN', contact-email) plus de volledige TOC van alle 25+ MB's met PDF-glyph-bullets ' * ', onderstreepte placeholders '_____' en 'Bijw. XX/datum' kolom-bleed midden in beschrijvingen. De eigenlijke MB-1 wettekst begint pas op regel 141 en is slechts 16 regels lang. De drie nieuwe transformers raken dit volume aan pre-tekst-pollutie niet (niet 'Lijst van de bijwerkingen', niet running-header met pg.-formaat, niet lege heading)."
       concrete_problemen:
         - "Regels 56-78: compilatie-cover ('BELASTING OVER DE TOEGEVOEGDE WAARDE', 'Federale Overheidsdienst FINANCIEN', 'contact : comments.kms@minfin.fed.be') als plain text vóór de wettekst"
@@ -47,74 +47,6 @@ provenance:
 
 *Bijgewerkt tot en met 02.09.1980 — gecoördineerde versie.*
 
-BELASTING OVER DE TOEGEVOEGDE WAARDE
-
-MINISTERIËLE BESLUITEN
-BIJGEWERKT TOT EN MET HET MB VAN 29.04.2024 (B.S., 24.05.2024)
-
-Federale
-Overheidsdienst
-FINANCIEN
-
-Algemene Administratie voor
-Beleidsexpertise en -Ondersteuning
-
-contact : comments.kms@minfin.fed.be
-
-BELASTING OVER DE TOEGEVOEGDE WAARDE
-
-Ministeriële besluiten
-Actuele teksten, verzameling op 03.06.2024
-
-Laatstelijk gewijzigd bij:
-
-   29 APRIL 2024 - Ministerieel besluit betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem (B.S. 24.05.2024, pg. 64885, Numac: 2024004476)
-
-Lijst van de ministeriële besluiten
-
- * Ministerieel besluit nr. 1, van 2 september 1980, met betrekking tot de Bijw. 02/09.12.2013 aftrekregeling voor de toepassing van de belasting over de toegevoegde waarde
-
- * Ministerieel besluit nr. 2, van 21 december 2010, met betrekking tot de Bijw. 01/01.01.2012 teruggaven inzake belasting over de toegevoegde waarde
-
- * Ministerieel besluit nr. 3, van 24 november 1970, Maandelijkse voorschotten te _____ voldoen door de belastingplichtigen die gehouden zijn tot het indienen van kwartaalaangiften (Opgeheven, bij MB 04.03.1993)
-
- * Ministerieel besluit nr. 4, van 9 december 1970, tot vaststelling van het forfaitair _____ tarief van de belasting over de toegevoegde waarde toepasselijk op de invoer van goederen in kleine zendingen of in de bagage van reizigers (Opgeheven)
-
- * Ministerieel besluit nr. 5, van 9 december 1970, met betrekking tot het gebruik _____ in sommige douanekantoren van een zegelmachine voor de voldoening van de belasting over de toegevoegde waarde (Opgeheven)
-
- * Ministerieel besluit nr. 6, van 4 maart 1993, waarbij uitstel wordt Bijw. 01/01.01.2012 verleend voor de voldoening van de ter zake van de invoer van goederen verschuldigde belasting over de toegevoegde waarde
-
- * Ministerieel besluit nr. 7, van 27 januari 1971, met betrekking tot de voldoening _____ van de belasting over de toegevoegde waarde inzake invoer
-
- * Ministerieel besluit nr. 8, van 12 april 1972, met betrekking tot de vrijstelling van _____ de belasting over de toegevoegde waarde in het internationale reizigersverkeer
-
- * Ministerieel besluit nr. 9, van 22 februari 1999, met betrekking tot de teruggaaf _____ aan de belastingplichtigen van het creditsaldo van de ter voldoening van de BTW geopende rekening-courant (Opgeheven, bij MB 15.04.2009)
-
- * Ministerieel besluit nr. 10, van 27 oktober 1972, met betrekking tot de _____ vaststelling van de datum van inwerkingtreding van de teruggaafprocedure van de belasting over de toegevoegde waarde bedoeld in de artikelen 9 tot 11 van het ministerieel besluit nr. 9 van 25 april 1972 (Vervallen)
-
- * Ministerieel besluit nr. 11, van 3 november 1972, met betrekking tot de Bijw. 01/01.01.2012 controle op de toepassing van de belasting over de toegevoegde waarde ten aanzien van de facturen betreffende oprichting van gebouwen
-
- * Ministerieel besluit nr. 12, van 28 augustus 1973, met betrekking tot de Bijw. 01/01.01.2012 automatische weegtoestellen te gebruiken in slachthuizen voor de toepassing van de belasting over de toegevoegde waarde
-
- * Ministerieel besluit nr. 13, van 4 maart 1993, met betrekking tot de Recent opgeheven verplichtingen waartoe een belastingplichtige of een lid van een btw-eenheid in 06.07.2020 de zin van artikel 4, § 2, van het Wetboek van de belasting over de toegevoegde waarde, eigenaar van een voor hypotheek vatbaar goed of van een gedeelte ervan of houder van een zakelijk recht op een dergelijk goed of op een gedeelte ervan, gehouden is (Opgeheven bij MB 22.06.2020)
-
- * Ministerieel besluit nr. 14 van 17 oktober 1980 met betrekking tot de _____ inschrijving van de wettelijke hypotheek tot zekerheid van de voldoening van de belasting over de toegevoegde waarde, van de interesten en van de kosten verschuldigd aan de Schatkist (Opgeheven bij MB 28.02.2019)
-
- * Ministerieel besluit nr. 15, van 17 oktober 1980, tot bepaling van de modellen _____ van de berichten bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde (Opgeheven, bij MB 18.12.2001)
-
- * Ministerieel besluit nr. 16, van 29 september 1982, houdende vaststelling van _____ de biezondere modaliteiten waarvan de toepassing van het verminderde tarief van de belasting over de toegevoegde waarde voor brandstoffen geleverd en gefactureerd, tussen 1 oktober 1982 en 30 juni 1983, aan landbouwondernemers, afhankelijk wordt gesteld (Vervallen)
-
- * Ministerieel besluit nr. 17, van 9 februari 1984, tot regeling van de vrijstellingen _____ bij de invoer van goederen bedoeld in lijst I, A, gevoegd bij het koninklijk besluit nr. 7 van 27 december 1977 met betrekking tot de invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde
-
- * Ministerieel besluit nr. 18, van 30 juni 1984, met betrekking tot de opgave _____ waarvan gebruik wordt gemaakt bij invoer en bij uitvoer over de Belgisch-Luxemburgse grens of de Belgisch-Nederlandse grens
-
- * Ministerieel besluit nr. 19, van 10 januari 1987, met betrekking tot de _____ maandelijkse voorschotten te voldoen door de belastingplichtigen die gehouden zijn tot het indienen van jaaraangiften voor de toepassing van de belasting over de toegevoegde waarde (Opgeheven, bij MB 04.03.1993)
-
- * Ministerieel besluit nr. 20, van 22 december 1995, tot vaststelling van de _____ bijzondere voorwaarden en modaliteiten voor de toepassing van het verlaagd tarief van de BTW van 12 pct. in de sector van de sociale privé-woningen (Vervallen)
-
- * Ministerieel besluit nr. 21, van 5 mei 1999, tot regeling van de toepassings- _____ modaliteiten van de rubrieken XXIIIbis en XXXV van tabel A van de bijlage bij het koninklijk besluit nr. 20 van 20 juli 1970 (Opgeheven, bij KB 20.09.2000)
-
- * Ministerieel besluit, van 20 december 2001, met betrekking tot de Bijw. 02/26.05.2015 diensten waar de documenten bedoeld in de artikelen 53, § 1, eerste lid,
 2°, 53ter, 1°, 53quinquies en 53sexies van het Wetboek van de belasting over de toegevoegde waarde moeten worden ingediend
 
  * Ministerieel besluit, van 23 juni 2005, met betrekking tot de delegatie Bijw. 01/01.01.2012 van de bevoegde autoriteit inzake de administratieve samenwerking op het gebied van de belasting over de toegevoegde waarde

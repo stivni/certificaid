@@ -25,19 +25,20 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:05:03Z'
+    confirmed_at: '2026-05-13T11:13:06Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Hoofdtekst is goed, maar regel 57 toont een hoofdstuk-titel onder ## HOOFDSTUK 1 met twee leading spaces (indentation-artefact: '  Bewijsregeling inzake...'), wat geen mens-geschreven markdown is. Art. 3 §3 bevat midden in een opsomming een onverwachte linebreak en alleenstaande lijst-streepjes (regel 78-79). Inconsistent: ## HOOFDSTUK 1/2/3 all-caps zonder volgnummer-puntje terwijl in body steeds 'hoofdstuk' wordt verwezen."
+    rationale: merge_article_reference_wraps heeft de hoofdtekst niet gewijzigd. Op regel 58 staat na '## HOOFDSTUK 1' nog steeds de hoofdstuk-titel met twee leading spaces ('  Bewijsregeling inzake...'), een pdftotext-indentation-artefact. In Art. 3, §3 (regel 79) begint een opsomming met '- een bestemmingsdocument...' direct na een dubbele punt midden in de zin, met de rest van de opsomming op de volgende regel — onnatuurlijke breakpoint. Frontmatter B.S.-datum '23.12.2009' (regel 52) terwijl het KB van 2019 is, blijft een onverklaarde source-typo.
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:05:03Z'
-      rationale: "Hoofdtekst is goed, maar regel 57 toont een hoofdstuk-titel onder ## HOOFDSTUK 1 met twee leading spaces (indentation-artefact: '  Bewijsregeling inzake...'), wat geen mens-geschreven markdown is. Art. 3 §3 bevat midden in een opsomming een onverwachte linebreak en alleenstaande lijst-streepjes (regel 78-79). Inconsistent: ## HOOFDSTUK 1/2/3 all-caps zonder volgnummer-puntje terwijl in body steeds 'hoofdstuk' wordt verwezen."
+      run_at: '2026-05-13T11:13:06Z'
+      rationale: merge_article_reference_wraps heeft de hoofdtekst niet gewijzigd. Op regel 58 staat na '## HOOFDSTUK 1' nog steeds de hoofdstuk-titel met twee leading spaces ('  Bewijsregeling inzake...'), een pdftotext-indentation-artefact. In Art. 3, §3 (regel 79) begint een opsomming met '- een bestemmingsdocument...' direct na een dubbele punt midden in de zin, met de rest van de opsomming op de volgende regel — onnatuurlijke breakpoint. Frontmatter B.S.-datum '23.12.2009' (regel 52) terwijl het KB van 2019 is, blijft een onverklaarde source-typo.
       concrete_problemen:
-        - "Regel 57: '  Bewijsregeling inzake de vrijstellingen...' — twee leading spaces direct na ## HOOFDSTUK 1 heading, typisch pdftotext-indentation"
-        - "Regel 78-79: enumeratie met '- een bestemmingsdocument...' midden in lopende zin gestart — afgebroken paragraaf"
-        - "Frontmatter B.S.-datum in body inconsistent: '23.12.2009' (regel 51) terwijl KB van 2019 is — vermoedelijk source-typo maar dan zou status 'trusted (source)' moeten zijn; gezien overige issues blijft needs-rework"
+        - "Regel 58: '  Bewijsregeling inzake de vrijstellingen...' — twee leading spaces direct na ## HOOFDSTUK 1, pdftotext-indentation"
+        - "Regel 79-80: enumeratie met '- een bestemmingsdocument...' midden in lopende zin, lijst-streepjes op aparte regels"
+        - "Inconsistente hoofdstuk-headings: '## HOOFDSTUK 1' (all-caps zonder punt) terwijl in body 'hoofdstuk' lowercase staat"
+        - "Frontmatter-/body-discrepantie: B.S.-datum '23.12.2009' voor een KB van 2019 (source-typo onbevestigd)"
 ---
 
 # K.B. nr. 52 van 11 december 2019, met betrekking tot de bewijsregeling inzake de vrijstellingen betreffende de intracommunautaire leveringen van goederen en de ermee gelijkgestelde handelingen en met betrekking tot de vrijstelling van intracommunautaire verwervingen van goederen en de ermee gelijkgestelde handelingen, op het stuk van de belasting over de toegevoegde waarde
