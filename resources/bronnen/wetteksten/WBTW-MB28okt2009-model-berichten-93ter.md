@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:21:10Z'
+    confirmed_at: '2026-05-13T11:23:37Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Hoofdtekst (Art. 1-5) is schoon. Echter regels 72, 74, 76 bevatten nog steeds drie plain-text labels 'Bijlage 1', 'Bijlage 2', 'Bijlage 3' zonder ##-prefix en zonder inhoud. De huidige transformers (strip_mb_compilatie_cover, fix_pdftotext_glue_bugs) raken dit specifieke 'Bijlage N'-trailing-label-patroon niet. Een buitenstaander ziet drie naakte 'Bijlage' regels onderaan zonder content — duidelijk onafgemaakt."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:21:10Z'
+      run_at: '2026-05-13T11:23:37Z'
       rationale: "Hoofdtekst (Art. 1-5) is schoon. Echter regels 72, 74, 76 bevatten nog steeds drie plain-text labels 'Bijlage 1', 'Bijlage 2', 'Bijlage 3' zonder ##-prefix en zonder inhoud. De huidige transformers (strip_mb_compilatie_cover, fix_pdftotext_glue_bugs) raken dit specifieke 'Bijlage N'-trailing-label-patroon niet. Een buitenstaander ziet drie naakte 'Bijlage' regels onderaan zonder content — duidelijk onafgemaakt."
       concrete_problemen:
         - "Regels 72, 74, 76: 'Bijlage 1', 'Bijlage 2', 'Bijlage 3' als plain-text labels zonder ##-prefix en zonder content"

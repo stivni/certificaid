@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 4126295-dirty
+    pipeline_version: b893061
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:20:57Z'
+  generated_at: '2026-05-13T11:23:22Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T11:21:10Z'
+    confirmed_at: '2026-05-13T11:23:37Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Compact en volledig (7 art). H1 + ## Art. 1-7 + § §-paragrafen in Art. 3. Lijstmarkers 1°-3° in Art. 4 netjes. Geen footers, geen TOC, geen glyphs. Leest als een door een mens geschreven samenvatting.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:21:10Z'
+      run_at: '2026-05-13T11:23:37Z'
       rationale: 'Compact en volledig (7 art). H1 + ## Art. 1-7 + § §-paragrafen in Art. 3. Lijstmarkers 1°-3° in Art. 4 netjes. Geen footers, geen TOC, geen glyphs. Leest als een door een mens geschreven samenvatting.'
       concrete_problemen: []
 ---

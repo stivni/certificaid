@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:21:10Z'
+    confirmed_at: '2026-05-13T11:23:37Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "'Enig artikel' staat nog steeds als plain text (regel 48) en niet als ## Enig artikel heading. Bestand heeft geen enkele heading-anker voor de centrale bepaling. De huidige transformers pakken dit niet aan: noch strip_mb_compilatie_cover noch fix_pdftotext_glue_bugs voegt 'Enig artikel' als heading in. Voor RAG-chunking is dit een structureel probleem — er is geen sectie-anker voor de enige inhoudelijke bepaling van het MB."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:21:10Z'
+      run_at: '2026-05-13T11:23:37Z'
       rationale: "'Enig artikel' staat nog steeds als plain text (regel 48) en niet als ## Enig artikel heading. Bestand heeft geen enkele heading-anker voor de centrale bepaling. De huidige transformers pakken dit niet aan: noch strip_mb_compilatie_cover noch fix_pdftotext_glue_bugs voegt 'Enig artikel' als heading in. Voor RAG-chunking is dit een structureel probleem — er is geen sectie-anker voor de enige inhoudelijke bepaling van het MB."
       concrete_problemen:
         - "Regel 48: 'Enig artikel' als plain text i.p.v. '## Enig artikel' heading"

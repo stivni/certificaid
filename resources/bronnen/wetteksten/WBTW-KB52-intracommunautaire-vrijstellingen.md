@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 4126295-dirty
+    pipeline_version: b893061
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:20:58Z'
+  generated_at: '2026-05-13T11:23:24Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:21:10Z'
+    confirmed_at: '2026-05-13T11:23:36Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: merge_article_reference_wraps heeft de hoofdtekst niet gewijzigd. Op regel 58 staat na '## HOOFDSTUK 1' nog steeds de hoofdstuk-titel met twee leading spaces ('  Bewijsregeling inzake...'), een pdftotext-indentation-artefact. In Art. 3, §3 (regel 79) begint een opsomming met '- een bestemmingsdocument...' direct na een dubbele punt midden in de zin, met de rest van de opsomming op de volgende regel — onnatuurlijke breakpoint. Frontmatter B.S.-datum '23.12.2009' (regel 52) terwijl het KB van 2019 is, blijft een onverklaarde source-typo.
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:21:10Z'
+      run_at: '2026-05-13T11:23:36Z'
       rationale: merge_article_reference_wraps heeft de hoofdtekst niet gewijzigd. Op regel 58 staat na '## HOOFDSTUK 1' nog steeds de hoofdstuk-titel met twee leading spaces ('  Bewijsregeling inzake...'), een pdftotext-indentation-artefact. In Art. 3, §3 (regel 79) begint een opsomming met '- een bestemmingsdocument...' direct na een dubbele punt midden in de zin, met de rest van de opsomming op de volgende regel — onnatuurlijke breakpoint. Frontmatter B.S.-datum '23.12.2009' (regel 52) terwijl het KB van 2019 is, blijft een onverklaarde source-typo.
       concrete_problemen:
         - "Regel 58: '  Bewijsregeling inzake de vrijstellingen...' — twee leading spaces direct na ## HOOFDSTUK 1, pdftotext-indentation"

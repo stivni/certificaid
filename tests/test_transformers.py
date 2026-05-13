@@ -1720,6 +1720,31 @@ class TestStripKbBijwerkingen:
         twice, _ = strip_kb_bijwerkingen(once, {})
         assert once == twice
 
+    def test_recent_opgeheven_kb(self):
+        from tools.etl.transformers.strip_kb_bijwerkingen import strip_kb_bijwerkingen
+        body = (
+            "Art. 3. De minister voert uit.\n"
+            "\n"
+            "Recent opgeheven of vervangen koninklijke besluiten.\n"
+            "\n"
+            "* Koninklijk besluit nr. 39, ... (Opgeheven bij W 13.04.2019)\n"
+            "* Koninklijk besluit nr. 47, ... (Opgeheven bij KB 28.06.2019)\n"
+        )
+        result, _ = strip_kb_bijwerkingen(body, {})
+        assert "Recent opgeheven" not in result
+        assert "Koninklijk besluit nr. 39" not in result
+        assert "Art. 3." in result
+
+    def test_recent_opgeheven_mb(self):
+        from tools.etl.transformers.strip_kb_bijwerkingen import strip_kb_bijwerkingen
+        body = (
+            "Slot.\n"
+            "Recent opgeheven of vervangen ministeriële besluiten.\n"
+            "* MB nr. 3, ... (Opgeheven)\n"
+        )
+        result, _ = strip_kb_bijwerkingen(body, {})
+        assert "Recent opgeheven" not in result
+
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "strip_kb_bijwerkingen" in TRANSFORMERS

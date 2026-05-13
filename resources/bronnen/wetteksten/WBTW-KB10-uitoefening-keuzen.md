@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 4126295-dirty
+    pipeline_version: b893061
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:20:57Z'
+  generated_at: '2026-05-13T11:23:23Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:21:09Z'
+    confirmed_at: '2026-05-13T11:23:36Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Structuur grotendeels OK, maar meerdere spurious linebreaks midden-zin (categorie A2) in wijzigingsannotaties: 'Art.\\nN,' wordt over twee regels gesplitst. Daarnaast regel 84-85 splitst 'koninklijk besluit nr.\\n4,' midden in een referentie. Hoewel klein, repeat pattern — buitenstaander zou dit als PDF-residu herkennen."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:21:09Z'
+      run_at: '2026-05-13T11:23:36Z'
       rationale: "Structuur grotendeels OK, maar meerdere spurious linebreaks midden-zin (categorie A2) in wijzigingsannotaties: 'Art.\\nN,' wordt over twee regels gesplitst. Daarnaast regel 84-85 splitst 'koninklijk besluit nr.\\n4,' midden in een referentie. Hoewel klein, repeat pattern — buitenstaander zou dit als PDF-residu herkennen."
       concrete_problemen:
         - regel: 50

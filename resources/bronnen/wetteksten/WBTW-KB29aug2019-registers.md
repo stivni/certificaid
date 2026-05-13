@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 4126295-dirty
+    pipeline_version: b893061
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:20:59Z'
+  generated_at: '2026-05-13T11:23:24Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:21:10Z'
+    confirmed_at: '2026-05-13T11:23:37Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Hoofdtekst (Art. 1-3) is schoon. Echter regels 65-73 bevatten nog steeds 'Recent opgeheven of vervangen koninklijke besluiten' als plain text plus 4 kolom-bleed regels waar 'Bijw. 04/01.01.2020', 'Bijw. 03/12.07.2019', '(Opgeheven)', '(vervangen)' midden in de KB-omschrijvingen staan ingebed. Dit was een meerkoloms-tabel in de PDF die verkeerd is geconcateneerd. strip_mb_compilatie_cover en fix_pdftotext_glue_bugs raken dit specifieke artefact niet. Source-typo 'cöordinatie' op regel 50 blijft (categorie source). Body/content-ratio is goed maar de appendix is een duidelijk ETL-artefact.
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:21:10Z'
+      run_at: '2026-05-13T11:23:37Z'
       rationale: Hoofdtekst (Art. 1-3) is schoon. Echter regels 65-73 bevatten nog steeds 'Recent opgeheven of vervangen koninklijke besluiten' als plain text plus 4 kolom-bleed regels waar 'Bijw. 04/01.01.2020', 'Bijw. 03/12.07.2019', '(Opgeheven)', '(vervangen)' midden in de KB-omschrijvingen staan ingebed. Dit was een meerkoloms-tabel in de PDF die verkeerd is geconcateneerd. strip_mb_compilatie_cover en fix_pdftotext_glue_bugs raken dit specifieke artefact niet. Source-typo 'cöordinatie' op regel 50 blijft (categorie source). Body/content-ratio is goed maar de appendix is een duidelijk ETL-artefact.
       concrete_problemen:
         - "Regels 67, 69, 71, 73: kolom-bleed met 'Bijw. XX/datum' en '(Opgeheven)'/'(vervangen)' midden in zinnen"
@@ -58,13 +58,3 @@ Dit besluit treedt in werking de dag waarop het in het Belgisch Staatsblad wordt
 ## Art. 3
 
 De minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.
-
-Recent opgeheven of vervangen koninklijke besluiten.
-
-* Koninklijk besluit nr. 39, van 17 oktober 1980, tot regeling van de Bijw. 04/01.01.2020 toepassingsmodaliteiten van artikel 93duodecies van het Wetboek van de (Opgeheven) belasting over de toegevoegde waarde. (Opgeheven bij W 13.04.2019)
-
-* Koninklijk besluit nr. 47, van 25 februari 1996, tot regeling van de controle Bijw. 03/12.07.2019 van de voldoening van de BTW verschuldigd ter zake van de levering, (Opgeheven) intracommunautaire verwerving en invoer van vervoermiddelen, in de zin van artikel 8bis, § 2, 1°, van het Wetboek. (Opgeheven bij KB 28.06.2019)
-
-* Koninklijk besluit nr. 50, van 9 december 2009, met betrekking tot de BTW- Bijw. 03/01.01.2020 opgave van de intracommunautaire handelingen. (vervangen)
-
-* Koninklijk besluit nr. 52, van 29 december 1992, met betrekking tot de Bijw. 02/01.01.2020 vrijstellingen betreffende de intracommunautaire leveringen van goederen en (vervangen)- de ermee gelijkgestelde handelingen, alsook betreffende de intracommunautaire verwervingen van goederen, op het stuk van de belasting over de toegevoegde waarde. (Vervangen bij KB 11.12.2019)

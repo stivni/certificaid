@@ -34,19 +34,35 @@ _BIJWERKINGEN_HEADER_RE = re.compile(
     re.I | re.M,
 )
 
+# 'Recent opgeheven of vervangen (koninklijke|ministeriële) besluiten.'
+# Fisconet-appendix met lijst van recente repeals/replacements als bullet-list.
+_RECENT_OPGEHEVEN_HEADER_RE = re.compile(
+    r"^\s*Recent\s+opgeheven\s+of\s+vervangen\s+"
+    r"(?:koninklijke|ministeriële)\s+besluiten\s*\.?\s*$",
+    re.I | re.M,
+)
+
 
 def strip_kb_bijwerkingen(body: str, frontmatter: dict) -> tuple[str, dict]:
-    """Strip de 'Lijst van de bijwerkingen'-appendix tot einde body.
+    """Strip Fisconet-appendices tot einde body.
 
-    Snijdt body af bij de eerste 'Lijst van de bijwerkingen'-regel (incl. zelf).
-    Verwijdert ook voorafgaande `---`-separator en trailing blanks.
+    Patronen:
+    1. 'Lijst van de bijwerkingen' — bijwerk-metadata (datums + pagina's).
+    2. 'Recent opgeheven of vervangen koninklijke/ministeriële besluiten' —
+       lijst van recente repeals/replacements als bullet-list met kolom-bleed.
+
+    Snijdt body af bij de eerste match (incl. zelf). Verwijdert ook
+    voorafgaande `---`-separator en trailing blanks.
     """
-    m = _BIJWERKINGEN_HEADER_RE.search(body)
-    if not m:
+    candidates: list[int] = []
+    for pat in (_BIJWERKINGEN_HEADER_RE, _RECENT_OPGEHEVEN_HEADER_RE):
+        m = pat.search(body)
+        if m:
+            candidates.append(m.start())
+    if not candidates:
         return body, frontmatter
-    # Snijd af op start van de header-regel.
-    new_body = body[: m.start()]
-    # Trailing whitespace + lone `--`/`---` separator opruimen.
+    cut = min(candidates)
+    new_body = body[: cut]
     new_body = re.sub(r"(?:\n\s*-{2,}\s*)+\s*$", "", new_body)
     new_body = new_body.rstrip() + "\n"
     return new_body, frontmatter

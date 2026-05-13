@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 4126295-dirty
+    pipeline_version: b893061
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:20:58Z'
+  generated_at: '2026-05-13T11:23:23Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:21:10Z'
+    confirmed_at: '2026-05-13T11:23:36Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Bestand bevat een opgeheven KB. Inhoudelijk OK maar voetnoot (1) wordt mid-tekst geïnjecteerd tussen Art. 3 en het tweede deel van Art. 3 (regels 73-79): 'Art. 138... 1°... 5°... 6°... ## Art. 139: De Koning kan...' - die '## Art. 139' is een PDF-doorkruising van een footnote met de werkelijke heading-structuur. Daarna gaat de Art. 3 tekst verder met 'Er moet evenwel een nieuw attest...'. Dit is een duidelijke kolom-/footnote-bleed."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:21:10Z'
+      run_at: '2026-05-13T11:23:36Z'
       rationale: "Bestand bevat een opgeheven KB. Inhoudelijk OK maar voetnoot (1) wordt mid-tekst geïnjecteerd tussen Art. 3 en het tweede deel van Art. 3 (regels 73-79): 'Art. 138... 1°... 5°... 6°... ## Art. 139: De Koning kan...' - die '## Art. 139' is een PDF-doorkruising van een footnote met de werkelijke heading-structuur. Daarna gaat de Art. 3 tekst verder met 'Er moet evenwel een nieuw attest...'. Dit is een duidelijke kolom-/footnote-bleed."
       concrete_problemen:
         - "Footnote (1) doorkruist Art. 3 inhoudelijk (regels 73-79); 'Art. 138' en 'Art. 139' opgenomen als footnote-residu maar 'Art. 139' krijgt zelfs een ## heading (regel 77) wat niet klopt"
