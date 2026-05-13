@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775-dirty
+    pipeline_version: 04e910e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:04:29Z'
+  generated_at: '2026-05-13T11:16:44Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T11:13:05Z'
+    confirmed_at: '2026-05-13T11:17:05Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Groot bestand (445 regels, 23 artikelen + afdelingen). Goede hiërarchische structuur: H1 → ## AFDELING I-VI → ### Art. 1-23 met sub-bis/ter/quater. Wijzigingstoelichting bovenaan elke artikel, lijstmarkers 1°-7° consistent, §-paragraaf-structuur duidelijk. Eerder gesignaleerde minor issues (§ alleen op aparte regel bij artikel-overgangen, footnote-marker (1)/(2) inline) zijn typische wettekst-conventies en geen ETL-artefacten die de leesbaarheid breken. Geen TOC-pollutie, geen running-headers, geen Fisconet-footer. Voor een buitenstaander leest dit als een nette wettekst-compilatie.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:13:05Z'
+      run_at: '2026-05-13T11:17:05Z'
       rationale: 'Groot bestand (445 regels, 23 artikelen + afdelingen). Goede hiërarchische structuur: H1 → ## AFDELING I-VI → ### Art. 1-23 met sub-bis/ter/quater. Wijzigingstoelichting bovenaan elke artikel, lijstmarkers 1°-7° consistent, §-paragraaf-structuur duidelijk. Eerder gesignaleerde minor issues (§ alleen op aparte regel bij artikel-overgangen, footnote-marker (1)/(2) inline) zijn typische wettekst-conventies en geen ETL-artefacten die de leesbaarheid breken. Geen TOC-pollutie, geen running-headers, geen Fisconet-footer. Voor een buitenstaander leest dit als een nette wettekst-compilatie.'
       concrete_problemen:
         - Sub-strategy frontmatter-veld is leeg (chunk.sub_strategy:) — niet retrieval-blokkerend
@@ -80,7 +80,7 @@ Het recht op aftrek ontstaat:
 
 6° ten aanzien van de belasting die verschuldigd is of voldaan wordt in de omstandigheden bedoeld in artikel 58, § 4, 7°, tweede lid, van het Wetboek, op het tijdstip bepaald in artikel 58, § 4, 7°, derde lid, van het Wetboek;
 
-7° ten aanzien van de belasting geheven van een handeling bedoeld in artikel 7, § 3, van het koninklijk besluit nr. 54 met betrekking tot de andere regeling van entrepot dan douaneentrepot bedoeld in artikel 39quater van het Wetboek van de belasting over de toegevoegde waarde, op het tijdstip waarop die belasting opeisbaar wordt krachtens artikel 9 van datzelfde besluit.
+7° ten aanzien van de belasting geheven van een handeling bedoeld in artikel 7, § 3, van het koninklijk besluit nr. 54 met betrekking tot de andere regeling van entrepot dan douane-entrepot bedoeld in artikel 39quater van het Wetboek van de belasting over de toegevoegde waarde, op het tijdstip waarop die belasting opeisbaar wordt krachtens artikel 9 van datzelfde besluit.
 
 ### Art. 3
 (De tekst van KB nr. 3, artikel 3, § 1, 1° en 7°, werd gewijzigd met ingang van 07.01.2016 (Art. 4, KB 18.12.2015, B.S. 28.12.2015, Ed. 2, p. 79604))

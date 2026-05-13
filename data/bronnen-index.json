@@ -1000,7 +1000,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {

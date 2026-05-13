@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775-dirty
+    pipeline_version: 04e910e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:04:31Z'
+  generated_at: '2026-05-13T11:16:45Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T11:13:06Z'
+    confirmed_at: '2026-05-13T11:17:05Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Substantieel verbeterd door merge_article_reference_wraps. Alle eerder gevlagde 'Art.\nN, KB ...' linewraps in amendment-headers (regels 103-104, 109-110, 119-120, 124-125 uit vorige QA) zijn nu correct als enkele regel weergegeven. Ook de 'artikel 58, § 4,\n4°' wrap is opgelost (nu inline op regel 77). De resterende 'KB nr. 53, artikel 1' op regel 124 (in Art. 12-context) is een source-typo en valt onder de (source)-uitzondering. De pseudo-tabel-streepjes in Art. 2/3 zijn legitieme bullet-lijsten, geen ETL-artefact.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:13:06Z'
+      run_at: '2026-05-13T11:17:05Z'
       rationale: Substantieel verbeterd door merge_article_reference_wraps. Alle eerder gevlagde 'Art.\nN, KB ...' linewraps in amendment-headers (regels 103-104, 109-110, 119-120, 124-125 uit vorige QA) zijn nu correct als enkele regel weergegeven. Ook de 'artikel 58, § 4,\n4°' wrap is opgelost (nu inline op regel 77). De resterende 'KB nr. 53, artikel 1' op regel 124 (in Art. 12-context) is een source-typo en valt onder de (source)-uitzondering. De pseudo-tabel-streepjes in Art. 2/3 zijn legitieme bullet-lijsten, geen ETL-artefact.
       concrete_problemen:
         - "Regel 124: 'KB nr. 53, artikel 1' in Art. 12-amendment-blok — source-typo (zou 'artikel 12' moeten zijn), valt onder (source)-uitzondering"

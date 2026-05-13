@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775-dirty
+    pipeline_version: 04e910e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:04:31Z'
+  generated_at: '2026-05-13T11:16:45Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:13:06Z'
+    confirmed_at: '2026-05-13T11:17:05Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Artikel-/§-linewraps die in vorige QA werden gevlagd (regel 54-55 'artikel 53,\n§ 1...' en regel 120-121 'artikel\n6.') zijn nu opgelost door merge_article_reference_wraps. Echter het word-concat-artefact 'hetWetboek' op regel 69 (missing space tussen 'het' en 'Wetboek') is een aparte pdftotext-bug die niet door deze transformer wordt aangepakt en nog altijd direct opvalt voor een buitenstaander. Ook de onnatuurlijke witregel tussen 'a)' en 'b)' in de enumeratielijst (regel 76-78) blijft staan.
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:13:06Z'
+      run_at: '2026-05-13T11:17:05Z'
       rationale: Artikel-/§-linewraps die in vorige QA werden gevlagd (regel 54-55 'artikel 53,\n§ 1...' en regel 120-121 'artikel\n6.') zijn nu opgelost door merge_article_reference_wraps. Echter het word-concat-artefact 'hetWetboek' op regel 69 (missing space tussen 'het' en 'Wetboek') is een aparte pdftotext-bug die niet door deze transformer wordt aangepakt en nog altijd direct opvalt voor een buitenstaander. Ook de onnatuurlijke witregel tussen 'a)' en 'b)' in de enumeratielijst (regel 76-78) blijft staan.
       concrete_problemen:
         - "Regel 69: 'van hetWetboek' (ontbrekende spatie) — pdftotext word-concat-bug, niet opgelost door merge_article_reference_wraps"

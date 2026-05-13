@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775-dirty
+    pipeline_version: 04e910e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:04:30Z'
+  generated_at: '2026-05-13T11:16:44Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:13:05Z'
+    confirmed_at: '2026-05-13T11:17:04Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Inconsistente HOOFDSTUK-structuur (categorie B2): 'EERSTE HOOFDSTUK' op regel 49-51 als plain text in all-caps zonder ## prefix, terwijl 'HOOFDSTUK II' op regel 183 wél als ## heading staat. Afdeling 1 als ### maar afdeling 2 ook als ### — OK. Daarnaast eed-formules (regel 129) als run-on prose i.p.v. blockquote/list, en meerdere spurious linebreaks in annotaties ('Art.\\n13,' regel 97-98, 'Art.\\n17,' regel 122-123, 'Art.\\n20,' regel 200-201)."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:13:05Z'
+      run_at: '2026-05-13T11:17:04Z'
       rationale: "Inconsistente HOOFDSTUK-structuur (categorie B2): 'EERSTE HOOFDSTUK' op regel 49-51 als plain text in all-caps zonder ## prefix, terwijl 'HOOFDSTUK II' op regel 183 wél als ## heading staat. Afdeling 1 als ### maar afdeling 2 ook als ### — OK. Daarnaast eed-formules (regel 129) als run-on prose i.p.v. blockquote/list, en meerdere spurious linebreaks in annotaties ('Art.\\n13,' regel 97-98, 'Art.\\n17,' regel 122-123, 'Art.\\n20,' regel 200-201)."
       concrete_problemen:
         - regel: 49

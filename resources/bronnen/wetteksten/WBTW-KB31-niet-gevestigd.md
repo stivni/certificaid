@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775-dirty
+    pipeline_version: 04e910e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:04:30Z'
+  generated_at: '2026-05-13T11:16:45Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:13:06Z'
+    confirmed_at: '2026-05-13T11:17:05Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "merge_article_reference_wraps heeft de hoofdtekst niet zichtbaar verbeterd voor de gevlagde problemen. De PDF-word-concat-bugs blijven: 'BTWidentificatienummer' (regels 70, 106), 'BTWkantoor' (regel 102), 'douaneentrepot' inconsistent met 'douane-entrepot' (regels 88, 90, 92, 94, 96), 'inartikel' (regel 170). Ligatuur 'ﬁ' in 'geïdentiﬁceerd' (regels 170, 171) is OCR/extractie-artefact. In Art. 3 amendment-blok ontbreekt het artikelnummer: 'KB nr. 31, artikel, derde lid' (regel 110). Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streep+spatie residu uit PDF-afbreking."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:13:06Z'
+      run_at: '2026-05-13T11:17:05Z'
       rationale: "merge_article_reference_wraps heeft de hoofdtekst niet zichtbaar verbeterd voor de gevlagde problemen. De PDF-word-concat-bugs blijven: 'BTWidentificatienummer' (regels 70, 106), 'BTWkantoor' (regel 102), 'douaneentrepot' inconsistent met 'douane-entrepot' (regels 88, 90, 92, 94, 96), 'inartikel' (regel 170). Ligatuur 'ﬁ' in 'geïdentiﬁceerd' (regels 170, 171) is OCR/extractie-artefact. In Art. 3 amendment-blok ontbreekt het artikelnummer: 'KB nr. 31, artikel, derde lid' (regel 110). Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streep+spatie residu uit PDF-afbreking."
       concrete_problemen:
         - "Regels 70, 106: 'BTWidentificatienummer' — pdftotext concat zonder spatie"
@@ -78,7 +78,7 @@ Dit verzoek vergezelt de aangifte van aanvang van werkzaamheid voorgeschreven do
 Het Centraal BTW-kantoor voor buitenlandse belastingplichtigen geeft de niet in België gevestigde belastingplichtige en de aansprakelijke vertegenwoordiger kennis van de erkenning.
 Tegelijkertijd, in de mate waarin de belastingplichtige niet reeds voor BTW-doeleinden is geïdentificeerd in België, deelt het Centraal kantoor hem, evenals aan zijn aansprakelijke vertegenwoordiger, ook het identificatienummer voor de belasting over de toegevoegde waarde mee dat hem is toegekend.
 
-§ 3. Wanneer een niet in België gevestigde belastingplichtige, aan wie een BTWidentificatienummer werd toegekend, de erkenning van zijn aansprakelijke vertegenwoordiger wil schrappen doch zijn werkzaamheid hier te lande voortzet, of zijn aansprakelijke vertegenwoordiger wil vervangen door een andere, dient hij hiervan aangifte te doen bij het Centraal BTW-kantoor voor buitenlandse belastingplichtigen. De verantwoordelijkheid van de aansprakelijke vertegenwoordiger waarvan de erkenning is afgeschaft, of die wordt vervangen, is onder deze omstandigheden beperkt tot de handelingen verricht door de niet in België gevestigde belastingplichtige tot de datum van aanvaarding door de administratie van het verzoek dat het voorwerp uitmaakt van deze aangifte.
+§ 3. Wanneer een niet in België gevestigde belastingplichtige, aan wie een BTW-identificatienummer werd toegekend, de erkenning van zijn aansprakelijke vertegenwoordiger wil schrappen doch zijn werkzaamheid hier te lande voortzet, of zijn aansprakelijke vertegenwoordiger wil vervangen door een andere, dient hij hiervan aangifte te doen bij het Centraal BTW-kantoor voor buitenlandse belastingplichtigen. De verantwoordelijkheid van de aansprakelijke vertegenwoordiger waarvan de erkenning is afgeschaft, of die wordt vervangen, is onder deze omstandigheden beperkt tot de handelingen verricht door de niet in België gevestigde belastingplichtige tot de datum van aanvaarding door de administratie van het verzoek dat het voorwerp uitmaakt van deze aangifte.
 
 ## Art. 2
 
@@ -87,23 +87,23 @@ Tegelijkertijd, in de mate waarin de belastingplichtige niet reeds voor BTW-doel
 § 1. De niet in België gevestigde belastingplichtige die er niet voor BTW-doeleinden is geïdentificeerd overeenkomstig artikel 50, § 1, eerste lid, 3° van het Wetboek kan, wanneer hij uitsluitend hier te lande hiernavermelde handelingen verricht en onder de voorwaarden en modaliteiten bepaald in het huidig besluit, vertegenwoordigd worden door een persoon die door of vanwege de Minister van Financiën vooraf erkend is :
 1° wanneer hij schuldenaar is van de belasting ingevolge invoeren van goederen in België die niet geplaatst zijn onder een andere regeling van entrepot dan douane-entrepot, in de mate waarin de invoer is geschied met het oog op een volgende levering van dezelfde goederen;
 
-2° wanneer hij schuldenaar is van de belasting ingevolge handelingen bedoeld in artikel 39quater, § 1, eerste lid, 1° en 3°, van het Wetboek, of wanneer hij een handeling verricht van plaatsing van goederen onder een andere regeling van entrepot dan douaneentrepot die niet aan de belasting is onderworpen;
+2° wanneer hij schuldenaar is van de belasting ingevolge handelingen bedoeld in artikel 39quater, § 1, eerste lid, 1° en 3°, van het Wetboek, of wanneer hij een handeling verricht van plaatsing van goederen onder een andere regeling van entrepot dan douane-entrepot die niet aan de belasting is onderworpen;
 
-3° wanneer hij de goederen onttrekt aan een andere regeling van entrepot dan douaneentrepot, bedoeld in artikel 39quater van het Wetboek;
+3° wanneer hij de goederen onttrekt aan een andere regeling van entrepot dan douane-entrepot, bedoeld in artikel 39quater van het Wetboek;
 
-4° wanneer hij een intracommunautaire verwerving van goederen of een krachtens artikel 25quater, § 1, van het Wetboek daarmee gelijkgestelde handeling verricht en die goederen niet geplaatst zijn onder een andere regeling van entrepot dan douaneentrepot, in de mate waarin de intracommunautaire verwerving van goederen of de daarmee gelijkgestelde handeling is geschied met het oog op een volgende levering van dezelfde goederen vrijgesteld bij artikel 39, § 1, 1° en 2°, van het Wetboek;
+4° wanneer hij een intracommunautaire verwerving van goederen of een krachtens artikel 25quater, § 1, van het Wetboek daarmee gelijkgestelde handeling verricht en die goederen niet geplaatst zijn onder een andere regeling van entrepot dan douane-entrepot, in de mate waarin de intracommunautaire verwerving van goederen of de daarmee gelijkgestelde handeling is geschied met het oog op een volgende levering van dezelfde goederen vrijgesteld bij artikel 39, § 1, 1° en 2°, van het Wetboek;
 
-5° wanneer hij een intracommunautaire verwerving van goederen of een krachtens artikel 25quater, § 1, van het Wetboek daarmee gelijkgestelde handeling verricht en die goederen niet geplaatst zijn onder een andere regeling van entrepot dan douaneentrepot, met uitzondering van elke andere handeling onderworpen aan de belasting in België. Door of namens de Minister van Financiën kan worden afgeweken van deze uitzondering in de gevallen en volgens de regels die hij bepaalt.
+5° wanneer hij een intracommunautaire verwerving van goederen of een krachtens artikel 25quater, § 1, van het Wetboek daarmee gelijkgestelde handeling verricht en die goederen niet geplaatst zijn onder een andere regeling van entrepot dan douane-entrepot, met uitzondering van elke andere handeling onderworpen aan de belasting in België. Door of namens de Minister van Financiën kan worden afgeweken van deze uitzondering in de gevallen en volgens de regels die hij bepaalt.
 
 Door of vanwege de Minister van Financiën kan de erkenning beperkt worden tot de categorieën van personen die hij bepaalt.
 
 § 2. De persoon die een erkenning wil verkrijgen om niet in België gevestigde belastingplichtigen te vertegenwoordigen die uitsluitend in § 1 bedoelde handelingen verrichten, richt een verzoek aan het Centraal BTW-kantoor voor buitenlandse belastingplichtigen.
 
-Bij de erkenning van deze persoon, kent het Centraal BTW-kantoor voor buitenlandse belastingplichtigen twee globale BTW-identificatienummers toe die verschillen naargelang die handelingen bedoeld zijn, hetzij in 1°, hetzij in 2° tot 5°, van die paragraaf. Het Centraal BTWkantoor voor buitenlandse belastingplichtigen stelt de erkende persoon hiervan in kennis.
+Bij de erkenning van deze persoon, kent het Centraal BTW-kantoor voor buitenlandse belastingplichtigen twee globale BTW-identificatienummers toe die verschillen naargelang die handelingen bedoeld zijn, hetzij in 1°, hetzij in 2° tot 5°, van die paragraaf. Het Centraal BTW-kantoor voor buitenlandse belastingplichtigen stelt de erkende persoon hiervan in kennis.
 
 Door of vanwege de Minister van Financiën worden de gebruiksvoorwaarden van de nummers bedoeld in het voorgaande lid bepaald.
 
-§ 3. De vooraf erkende persoon bedoeld in § 1, eerste lid, wordt in de plaats gesteld van zijn lastgever ten aanzien van alle rechten die aan laatstgenoemde zijn verleend of van alle verplichtingen die hem zijn opgelegd door of ter uitvoering van dit Wetboek voor de handelingen die hij verricht of die hem hier te lande worden verstrekt onder het globale BTWidentificatienummer.
+§ 3. De vooraf erkende persoon bedoeld in § 1, eerste lid, wordt in de plaats gesteld van zijn lastgever ten aanzien van alle rechten die aan laatstgenoemde zijn verleend of van alle verplichtingen die hem zijn opgelegd door of ter uitvoering van dit Wetboek voor de handelingen die hij verricht of die hem hier te lande worden verstrekt onder het globale BTW-identificatienummer.
 
 ## Art. 3
 
@@ -161,13 +161,13 @@ De persoon bedoeld in § 1, eerste lid, 3°, is eveneens gehouden zich vóór el
 ## Art. 6
 (Een nieuw artikel 6 werd ingevoegd met ingang van 01.01.2010 (Art. 24, KB 09.12.2009, B.S. 17.12.2009, Ed. 2) – De tekst van het oude artikel 6, werd tegelijkertijd de nieuwe tekst van artikel 7, met dezelfde datum van inwerkingtreding.)
 
-De in een andere lidstaat dan België gevestigde belastingplichtige die in België niet voor BTWdoeleinden is geïdentificeerd, kan teruggaaf verkrijgen van de belasting die geheven is van de hem geleverde goederen, van de hem verstrekte diensten en van de door hem verrichte invoeren hier te lande, volgens de bepalingen en de modaliteiten voorzien in het koninklijk besluit nr. 56 met betrekking tot de teruggaaf inzake belasting over de toegevoegde waarde aan belastingplichtigen gevestigd in een andere lidstaat dan de lidstaat van teruggaaf.
+De in een andere lidstaat dan België gevestigde belastingplichtige die in België niet voor BTW-doeleinden is geïdentificeerd, kan teruggaaf verkrijgen van de belasting die geheven is van de hem geleverde goederen, van de hem verstrekte diensten en van de door hem verrichte invoeren hier te lande, volgens de bepalingen en de modaliteiten voorzien in het koninklijk besluit nr. 56 met betrekking tot de teruggaaf inzake belasting over de toegevoegde waarde aan belastingplichtigen gevestigd in een andere lidstaat dan de lidstaat van teruggaaf.
 
 ## Art. 7
 
 (De tekst van KB nr. 31, artikel 7, werd met ingang van 01.01.2010, vervangen door de tekst van het oude artikel 6. (Art. 24, KB 09.12.2009, B.S. 17.12.2009, Ed. 2) - Tegelijkertijd werd artikel 7, § 1, vervangen met dezelfde datum van inwerkingtreding. (Art. 25, KB 09.12.2009, B.S. 17.12.2009, Ed. 2) – Daarnaast werd artikel 7, § 2, eerste lid, gewijzigd met dezelfde datum van inwerkingtreding (Art. 2, KB 22.03.2010, B.S. 30.03.2010))
 
-§ 1. De buiten de Gemeenschap gevestigde belastingplichtige die in België niet voor BTWdoeleinden is geïdentiﬁceerd, kan teruggaaf verkrijgen van de belasting die geheven is van de hem geleverde goederen, van de hem verstrekte diensten en van de door hem verrichte invoeren hier te lande, mits een aanvraag tot teruggaaf wordt ingediend bij het hoofd van het Centraal BTW-kantoor voor buitenlandse belastingplichtigen. Nochtans kan hij geen teruggaaf krijgen van de belasting die geheven is van de handelingen die hij heeft verricht of die hem werden verstrekt hier te lande onder het globale BTW-identiﬁcatienummer dat overeenkomstig artikel 50, § 3, van het Wetboek, werd toegekend aan een vooraf erkende persoon bedoeld inartikel 2, § 1.
+§ 1. De buiten de Gemeenschap gevestigde belastingplichtige die in België niet voor BTW-doeleinden is geïdentificeerd, kan teruggaaf verkrijgen van de belasting die geheven is van de hem geleverde goederen, van de hem verstrekte diensten en van de door hem verrichte invoeren hier te lande, mits een aanvraag tot teruggaaf wordt ingediend bij het hoofd van het Centraal BTW-kantoor voor buitenlandse belastingplichtigen. Nochtans kan hij geen teruggaaf krijgen van de belasting die geheven is van de handelingen die hij heeft verricht of die hem werden verstrekt hier te lande onder het globale BTW-identificatienummer dat overeenkomstig artikel 50, § 3, van het Wetboek, werd toegekend aan een vooraf erkende persoon bedoeld in artikel 2, § 1.
 
 § 2. De aanvraag moet bij de in § 1 bedoelde ambtenaar toekomen, in drie exemplaren, uiterlijk op 30 september van het kalenderjaar volgend op het tijdvak waarop het teruggaafverzoek betrekking heeft.
 

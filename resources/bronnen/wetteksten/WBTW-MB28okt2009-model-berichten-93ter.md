@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 60ab55b-dirty
+    pipeline_version: 04e910e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:12:47Z'
+  generated_at: '2026-05-13T11:16:47Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:13:05Z'
+    confirmed_at: '2026-05-13T11:17:05Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Hoofdtekst (Art. 1-5) is schoon, maar regels 78-82 bevatten nog steeds drie plain-text labels 'Bijlage 1' / 'Bijlage 2' / 'Bijlage 3' zonder ##-heading en zonder inhoud. De bijlagen (modelformulieren) zijn niet meegekomen uit de PDF maar de labels wel — dit oogt onafgemaakt en is bovendien inhoudelijk problematisch: het MB-doel is precies om deze modelberichten voor te schrijven, en zonder bijlagen mist de bron zijn kerncontent. De drie nieuwe transformers raken dit specifieke artefact niet — strip_empty_trailing_headings werkt op '## Art.' patronen, niet op plain-text 'Bijlage' labels."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:13:05Z'
+      run_at: '2026-05-13T11:17:05Z'
       rationale: "Hoofdtekst (Art. 1-5) is schoon, maar regels 78-82 bevatten nog steeds drie plain-text labels 'Bijlage 1' / 'Bijlage 2' / 'Bijlage 3' zonder ##-heading en zonder inhoud. De bijlagen (modelformulieren) zijn niet meegekomen uit de PDF maar de labels wel — dit oogt onafgemaakt en is bovendien inhoudelijk problematisch: het MB-doel is precies om deze modelberichten voor te schrijven, en zonder bijlagen mist de bron zijn kerncontent. De drie nieuwe transformers raken dit specifieke artefact niet — strip_empty_trailing_headings werkt op '## Art.' patronen, niet op plain-text 'Bijlage' labels."
       concrete_problemen:
         - "Regels 78, 80, 82: 'Bijlage 1', 'Bijlage 2', 'Bijlage 3' als plain-text labels zonder ##-prefix"

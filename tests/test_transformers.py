@@ -1902,3 +1902,69 @@ class TestStripMbCompilatieCover:
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "strip_mb_compilatie_cover" in TRANSFORMERS
+
+
+class TestFixPdftotextGlueBugs:
+    def test_ligature_fi(self):
+        from tools.etl.transformers.fix_pdftotext_glue_bugs import fix_pdftotext_glue_bugs
+        body = "geïdentiﬁceerd voor de BTW"
+        result, _ = fix_pdftotext_glue_bugs(body, {})
+        assert "geïdentificeerd" in result
+        assert "ﬁ" not in result
+
+    def test_ligature_fl(self):
+        from tools.etl.transformers.fix_pdftotext_glue_bugs import fix_pdftotext_glue_bugs
+        body = "inﬂatie"
+        result, _ = fix_pdftotext_glue_bugs(body, {})
+        assert "inflatie" in result
+
+    def test_btw_concat(self):
+        from tools.etl.transformers.fix_pdftotext_glue_bugs import fix_pdftotext_glue_bugs
+        body = "het BTWidentificatienummer wordt toegekend"
+        result, _ = fix_pdftotext_glue_bugs(body, {})
+        assert "BTW-identificatienummer" in result
+        assert "BTWidentificatienummer" not in result
+
+    def test_btw_doeleinden(self):
+        from tools.etl.transformers.fix_pdftotext_glue_bugs import fix_pdftotext_glue_bugs
+        body = "voor BTWdoeleinden geïdentificeerd"
+        result, _ = fix_pdftotext_glue_bugs(body, {})
+        assert "BTW-doeleinden" in result
+
+    def test_douaneentrepot(self):
+        from tools.etl.transformers.fix_pdftotext_glue_bugs import fix_pdftotext_glue_bugs
+        body = "een douaneentrepot is geen entrepot"
+        result, _ = fix_pdftotext_glue_bugs(body, {})
+        assert "douane-entrepot" in result
+        # 'geen entrepot' blijft ongemoeid
+        assert "geen entrepot" in result
+
+    def test_inartikel(self):
+        from tools.etl.transformers.fix_pdftotext_glue_bugs import fix_pdftotext_glue_bugs
+        body = "bedoeld inartikel 5"
+        result, _ = fix_pdftotext_glue_bugs(body, {})
+        assert "in artikel 5" in result
+        assert "inartikel" not in result
+
+    def test_section_en_concat(self):
+        from tools.etl.transformers.fix_pdftotext_glue_bugs import fix_pdftotext_glue_bugs
+        body = "§ 1en § 2 van het Wetboek"
+        result, _ = fix_pdftotext_glue_bugs(body, {})
+        assert "§ 1 en § 2" in result
+
+    def test_no_change_passthrough(self):
+        from tools.etl.transformers.fix_pdftotext_glue_bugs import fix_pdftotext_glue_bugs
+        body = "Gewone tekst zonder concat-bugs of ligaturen.\n"
+        result, _ = fix_pdftotext_glue_bugs(body, {})
+        assert result == body
+
+    def test_idempotent(self):
+        from tools.etl.transformers.fix_pdftotext_glue_bugs import fix_pdftotext_glue_bugs
+        body = "BTWidentificatienummer en BTWdoeleinden inﬁltratie"
+        once, _ = fix_pdftotext_glue_bugs(body, {})
+        twice, _ = fix_pdftotext_glue_bugs(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "fix_pdftotext_glue_bugs" in TRANSFORMERS

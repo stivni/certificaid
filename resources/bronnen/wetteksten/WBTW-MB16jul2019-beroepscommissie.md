@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 60ab55b-dirty
+    pipeline_version: 04e910e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:12:47Z'
+  generated_at: '2026-05-13T11:16:47Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T11:13:05Z'
+    confirmed_at: '2026-05-13T11:17:04Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Schone markdown met consistente ## Art. N-headings, intacte officiele coordinatie-header en correct opgemaakte namenlijst. Geen ETL-artefacten.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:13:05Z'
+      run_at: '2026-05-13T11:17:04Z'
       rationale: 'Schone markdown met consistente ## Art. N-headings, intacte officiele coordinatie-header en correct opgemaakte namenlijst. Geen ETL-artefacten.'
       concrete_problemen: []
 ---

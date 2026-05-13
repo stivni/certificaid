@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775-dirty
+    pipeline_version: 04e910e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:04:30Z'
+  generated_at: '2026-05-13T11:16:45Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T11:13:05Z'
+    confirmed_at: '2026-05-13T11:17:04Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Korte KB van 9 artikelen, schone heading-hierarchie ## Art., volledige tekst aanwezig, alle bracketed wijzigings-markers correct gesloten. Bijlage-referentie aan het einde is summier (model van formulier dat in PDF als beeld zit) maar storend is dit niet.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:13:05Z'
+      run_at: '2026-05-13T11:17:04Z'
       rationale: 'Korte KB van 9 artikelen, schone heading-hierarchie ## Art., volledige tekst aanwezig, alle bracketed wijzigings-markers correct gesloten. Bijlage-referentie aan het einde is summier (model van formulier dat in PDF als beeld zit) maar storend is dit niet.'
       concrete_problemen:
         - "Slotregel 'Bijlage / jaarlijkse lijst van de BTW-belastingplichtige afnemers' is plain text zonder ##-heading — minor"
@@ -51,7 +51,7 @@ Koninklijk besluit nr. 23 van 9 december 2009 met betrekking tot de jaarlijkse l
 (De tekst van KB nr. 23, artikel 1, § 1, eerste lid, werd gewijzigd met ingang van 16.05.2014. (Art. 20, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
 § 1. De personen bedoeld in artikel 53quinquies van het Wetboek, zijn gehouden ieder jaar vóór 31 maart bij de administratie belast met de belasting over de toegevoegde waarde een lijst in te dienen, waarin voor iedere afnemer die krachtens artikel 50 van het Wetboek voor BTW-doeleinden moet geïdentificeerd zijn, behalve voor de niet-belastingplichtige rechtspersonen en voor de belastingplichtige afnemers die uitsluitend handelingen verrichten die krachtens artikel 44 van het Wetboek zijn vrijgesteld, en aan wie zij goederen hebben geleverd of diensten hebben verstrekt in de loop van het vorige jaar, de volgende gegevens voorkomen :
-1° het BTW-identificatienummer van die belastingplichtige afnemer of het sub-BTWidentificatienummer van alle afnemers die lid zijn van een BTW-eenheid in de zin van artikel 4, § 2, van het Wetboek;
+1° het BTW-identificatienummer van die belastingplichtige afnemer of het sub-BTW-identificatienummer van alle afnemers die lid zijn van een BTW-eenheid in de zin van artikel 4, § 2, van het Wetboek;
 2° het totale bedrag, exclusief belasting, van de goederen die hem werden geleverd en van de hem verstrekte diensten;
 3° het totale bedrag van de aan hem in rekening gebrachte belasting.
 Wanneer geen enkele door de lijst beoogde handeling wordt verricht, zijn de in het eerste lid bedoelde personen gehouden de administratie hiervan in kennis te stellen volgens de door of vanwege de Minister van Financiën vastgestelde modaliteiten.
@@ -65,7 +65,7 @@ Wanneer een lid van een BTW-eenheid in de zin van artikel 4, § 2, van het Wetbo
 ## Art. 2
 (De tekst van KB nr. 23, artikel 2, § 3, 1°, werd gewijzigd met ingang van 16.05.2014. (Art. 20, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
-§ 1. De personen bedoeld in artikel 53quinquies van het Wetboek die gehouden zijn tot de indiening van de in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde aangifte, alsook de leden van een BTWeenheid bedoeld in artikel 50, § 1, eerste lid, 6°, van het Wetboek, moeten de lijst langs elektronische weg indienen.
+§ 1. De personen bedoeld in artikel 53quinquies van het Wetboek die gehouden zijn tot de indiening van de in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde aangifte, alsook de leden van een BTW-eenheid bedoeld in artikel 50, § 1, eerste lid, 6°, van het Wetboek, moeten de lijst langs elektronische weg indienen.
 Zij zijn vrijgesteld van de verplichting tot indiening langs elektronische weg zolang zij en in voorkomend geval de persoon die gemachtigd is de bedoelde lijst namens hen in te dienen, niet over de nodige geïnformatiseerde middelen beschikken om aan deze verplichting te voldoen.
 
 § 2. De personen bedoeld in artikel 53quinquies van het Wetboek die niet gehouden zijn tot de indiening van de in artikel 53, § 1, eerste lid, 2°, van het Wetboek bedoelde aangifte, met uitzondering van de leden van een BTW-eenheid bedoeld in paragraaf 1, eerste lid, hebben de keuze om de in artikel 1 bedoelde lijst langs elektronische weg dan wel op papier in te dienen.

@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775-dirty
+    pipeline_version: 04e910e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:04:31Z'
+  generated_at: '2026-05-13T11:16:45Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:13:06Z'
+    confirmed_at: '2026-05-13T11:17:05Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "merge_article_reference_wraps heeft niet ingegrepen op het hoofdprobleem: het bestand bevat onder de kop 'Bijlage' (regels 227 e.v.) de volledige opgeheven 2009-versie van KB nr. 50 als losse content, terwijl de 2019-versie als hoofdtekst staat. Dit is compilatie-bleed uit de Fisconet-PDF, geen wettelijke bijlage. Onderaan staan ook Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334). Inconsistente hoofdstuk-kapitalisatie ('Hoofdstuk 1' vs 'HOOFDSTUK 2'/'HOOFDSTUK 3'). TOC-achtig blok regels 53-58 dupliceert headings."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:13:06Z'
+      run_at: '2026-05-13T11:17:05Z'
       rationale: "merge_article_reference_wraps heeft niet ingegrepen op het hoofdprobleem: het bestand bevat onder de kop 'Bijlage' (regels 227 e.v.) de volledige opgeheven 2009-versie van KB nr. 50 als losse content, terwijl de 2019-versie als hoofdtekst staat. Dit is compilatie-bleed uit de Fisconet-PDF, geen wettelijke bijlage. Onderaan staan ook Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334). Inconsistente hoofdstuk-kapitalisatie ('Hoofdstuk 1' vs 'HOOFDSTUK 2'/'HOOFDSTUK 3'). TOC-achtig blok regels 53-58 dupliceert headings."
       concrete_problemen:
         - "Regels 227-326: integrale opgenomen oude KB-50-2009 onder 'Bijlage' — geen wettelijke bijlage maar opgeheven voorgangerversie"
@@ -235,7 +235,7 @@ Dit koninklijk besluit werd vervangen met ingang van 01.01.2020 door het Koninkl
 (De tekst van KB nr. 50, artikel 1, inleidende zin, werd gewijzigd met ingang van 16.05.2014. (Art. 32, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
 De belastingplichtigen en de leden van een BTW-eenheid in de zin van artikel 4, § 2, van het Wetboek, bedoeld in artikel 53sexies, § 1, van het Wetboek, moeten uiterlijk de twintigste van iedere kalendermaand bij de administratie belast met de belasting over de toegevoegde waarde een btw-opgave van de intracommunautaire handelingen, hierna « intracommunautaire opgave » genoemd, indienen waarin de volgende gegevens voorkomen:
-1° het BTW-identiﬁcatienummer van :
+1° het BTW-identificatienummer van :
 a) iedere afnemer waaronder goederen aan hem zijn geleverd met vrijstelling van de belasting bij toepassing van artikel 39bis, eerste lid, 1°, van het Wetboek en waarvoor de belasting in de loop van de verstreken kalendermaand opeisbaar is geworden;
 b) de belastingplichtige, toegekend door de lidstaat van aankomst van de verzending of het vervoer van de goederen, in het geval van leveringen van goederen als bedoeld in artikel 39bis, eerste lid, 4°, van het Wetboek en waarvoor de belasting in de loop van de verstreken kalendermaand opeisbaar is geworden;
 c) het lid van een BTW-eenheid, toegekend door de lidstaat van aankomst van de verzending of het vervoer van de goederen, in het geval van leveringen van goederen als bedoeld in artikel 39bis, eerste lid, 4°, van het Wetboek en waarvoor de belasting in de loop van de verstreken kalendermaand opeisbaar is geworden;
@@ -298,7 +298,7 @@ De intracommunautaire opgave moet niet worden ingediend wanneer er geen enkel va
 ### Art. 8
 (De tekst van KB nr. 50, artikel 8, werd ingevoerd met ingang van 01.01.2010. (Art. 8, KB 09.12.2009, B.S. 17.12.2009))
 
-De in artikel 53sexies, § 1, van het Wetboek bedoelde belastingplichtigen en leden van een BTWeenheid in de zin van artikel 4, § 2, van het Wetboek houden klantenrekeningen of alle andere stukken om te kunnen voldoen aan de voorschriften van dit besluit en aan het toezicht op de naleving ervan.
+De in artikel 53sexies, § 1, van het Wetboek bedoelde belastingplichtigen en leden van een BTW-eenheid in de zin van artikel 4, § 2, van het Wetboek houden klantenrekeningen of alle andere stukken om te kunnen voldoen aan de voorschriften van dit besluit en aan het toezicht op de naleving ervan.
 
 ### Art. 9
 (De tekst van KB nr. 50, artikel 9, werd ingevoerd met ingang van 01.01.2010. (Art. 9, KB 09.12.2009, B.S. 17.12.2009))

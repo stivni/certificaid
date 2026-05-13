@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775-dirty
+    pipeline_version: 04e910e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:04:30Z'
+  generated_at: '2026-05-13T11:16:45Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:13:05Z'
+    confirmed_at: '2026-05-13T11:17:04Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Net als KB41 zware kolom-bleed in de hele bijlage: 2-koloms PDF-tabel (overtreding | boete) is in plain text gemerged. Voorbeelden: 'B. Laattijdig indienen 100 EUR per aangifte en per maand vertraging1 met een maximum...' (regel 89). De boete-bedragen kleven aan de overtredingsbeschrijving. Geen pipe-syntax. Bijlage is daardoor onbruikbaar voor retrieval als gestructureerde data."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:13:05Z'
+      run_at: '2026-05-13T11:17:04Z'
       rationale: "Net als KB41 zware kolom-bleed in de hele bijlage: 2-koloms PDF-tabel (overtreding | boete) is in plain text gemerged. Voorbeelden: 'B. Laattijdig indienen 100 EUR per aangifte en per maand vertraging1 met een maximum...' (regel 89). De boete-bedragen kleven aan de overtredingsbeschrijving. Geen pipe-syntax. Bijlage is daardoor onbruikbaar voor retrieval als gestructureerde data."
       concrete_problemen:
         - 'Hele bijlage (regels 81-351) is kolom-bleed: overtreding en bijhorende boete staan zonder scheiding op zelfde regel'
@@ -70,7 +70,7 @@ De overtredingen worden aangemerkt als eerste overtreding indien dezelfde overtr
 ### Art. 4
 (De tekst van KB nr. 44, dd. 09.07.2012, artikel 4, is van toepassing met ingang van 01.07.2012 (Art. 4, KB 09.07.2012, B.S. 17.07.2012))
 
-Dit besluit vervangt het koninklijk besluit nr. 44 van 21 oktober 1993 tot vaststelling van het bedrag van de niet-proportionele ﬁscale geldboeten op het stuk van de belasting over de toegevoegde waarde.
+Dit besluit vervangt het koninklijk besluit nr. 44 van 21 oktober 1993 tot vaststelling van het bedrag van de niet-proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde.
 
 ### Art. 5
 (De tekst van KB nr. 44, dd. 09.07.2012, artikel 5, is van toepassing met ingang van 01.07.2012 (Art. 5, KB 09.07.2012, B.S. 17.07.2012))

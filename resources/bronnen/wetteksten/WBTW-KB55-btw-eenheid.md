@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775-dirty
+    pipeline_version: 04e910e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:04:31Z'
+  generated_at: '2026-05-13T11:16:45Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T11:13:06Z'
+    confirmed_at: '2026-05-13T11:17:05Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Lange, complexe wet (9 art, 14kB) met diepe § §-structuur. Markdown is over het geheel volledig en logisch. Inline-redactionele noot in Art. 6 § 3 ([red.: '...']) is een legitieme editorial mark uit source, geen ETL-artefact. Lijstmarkers 1°-3° en bullet-streepjes consistent. Een paar streepjes (-) in Art. 1 § 1 worden inline gebruikt i.p.v. verticale lijst, maar dat is leesbaar en source-conform."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:13:06Z'
+      run_at: '2026-05-13T11:17:05Z'
       rationale: "Lange, complexe wet (9 art, 14kB) met diepe § §-structuur. Markdown is over het geheel volledig en logisch. Inline-redactionele noot in Art. 6 § 3 ([red.: '...']) is een legitieme editorial mark uit source, geen ETL-artefact. Lijstmarkers 1°-3° en bullet-streepjes consistent. Een paar streepjes (-) in Art. 1 § 1 worden inline gebruikt i.p.v. verticale lijst, maar dat is leesbaar en source-conform."
       concrete_problemen:
         - In Art. 1 § 1 worden bullets '- ... or - ...' inline gehouden i.p.v. als markdown-lijst weergegeven — leesbaar, source-conform
@@ -58,7 +58,7 @@ In hoofde van andere personen dan rechtspersonen met een in aandelen vertegenwoo
 
 § 3. Het geheel van de belastingplichtigen die samen aangemerkt worden als één belastingplichtige zoals bedoeld in § 1 wordt, voor de toepassing van dit koninklijk besluit, BTW-eenheid genoemd.
 Een belastingplichtige die deel uitmaakt van een BTW-eenheid, wordt voor de toepassing van dit koninklijk besluit, lid van een BTW-eenheid genoemd.
-De leden van de BTW-eenheid duiden één van hen aan om in hun naam en voor hun rekening de rechten en verplichtingen van de BTW-eenheid vermeld in het Wetboek en de uitvoeringsbesluiten uit te oefenen. Dit lid wordt voor de toepassing van dit koninklijk besluit, de vertegenwoordiger van de BTWeenheid genoemd.
+De leden van de BTW-eenheid duiden één van hen aan om in hun naam en voor hun rekening de rechten en verplichtingen van de BTW-eenheid vermeld in het Wetboek en de uitvoeringsbesluiten uit te oefenen. Dit lid wordt voor de toepassing van dit koninklijk besluit, de vertegenwoordiger van de BTW-eenheid genoemd.
 
 § 4. Een belastingplichtige kan slechts lid zijn van één enkele BTW-eenheid.
 Als een lid van een BTW-eenheid een rechtstreekse deelneming verwerft van meer dan 50 pct. in een belastingplichtige die reeds lid is van een andere BTW-eenheid, is laatstgenoemde belastingplichtige niet langer lid van de BTW-eenheid waartoe hij behoorde en wordt hij lid van de BTW-eenheid waartoe de belastingplichtige behoort die hem voor meer dan 50 pct. in zijn bezit heeft, behoudens indien zij kunnen aantonen, overeenkomstig § 2, dat zij organisatorisch, economisch of omwille van andere omstandigheden niet met elkaar verbonden zijn of kunnen zijn.
@@ -72,7 +72,7 @@ Een belastingplichtige bedoeld in artikel 1, § 2, moet lid worden van de BTW-ee
 
 § 2. De vertegenwoordiger van de BTW-eenheid is gehouden krachtens volmacht, in naam en voor rekening van de leden van de BTW-eenheid, een gemotiveerd verzoek in te dienen bij het controlekantoor dat bevoegd is voor de belasting over de toegevoegde waarde waaronder hij ressorteert.
 Dit verzoek is slechts geldig ingediend als het alle elementen bevat en vergezeld gaat van alle stukken die moeten aantonen dat de in artikel 1, § 1 vermelde voorwaarden zijn vervuld. Het verzoek geldt als aangifte van aanvang van werkzaamheid van de BTW-eenheid zoals bedoeld in artikel 53, § 1, eerste lid,
-1°, van het Wetboek. De vertegenwoordiger van de BTW-eenheid kan niettemin, in hetzelfde verzoek, ter zelfder tijd voorstellen om één of meerdere belastingplichtigen zoals bedoeld in artikel 1, § 2, uit de BTWeenheid uit te sluiten.
+1°, van het Wetboek. De vertegenwoordiger van de BTW-eenheid kan niettemin, in hetzelfde verzoek, ter zelfder tijd voorstellen om één of meerdere belastingplichtigen zoals bedoeld in artikel 1, § 2, uit de BTW-eenheid uit te sluiten.
 
 § 3. Wanneer het hoofd van het in § 2 bedoeld controlekantoor vaststelt dat de BTW-eenheid niet of niet geheel voldoet aan de in artikel 1, § 1 bedoelde voorwaarden, of bij verwerping van het in § 2, tweede lid bedoeld verzoek tot uitsluiting, deelt hij zulks mee aan de vertegenwoordiger van de BTW-eenheid binnen de maand na de geldige indiening van het in § 2 bedoeld verzoek middels een schriftelijke en met reden omklede beslissing.
 
@@ -93,7 +93,7 @@ Dit verzoek wordt ingediend door de vertegenwoordiger van de BTW-eenheid die opt
 (De tekst van KB nr. 55, artikel 4, is van toepassing met ingang van 01.04.2007.
 (Art. 4, KB 09.03.2007, B.S. 15.03.2007))
 
-§ 1. In geval van toetreding tot de BTW-eenheid na de aanvang van de werkzaamheden van de BTWeenheid van een belastingplichtige andere dan deze bedoeld in artikel 1, § 2, is de vertegenwoordiger van de BTW-eenheid gehouden krachtens volmacht, die geldt als optie om tot de BTW-eenheid toe te treden in naam en voor rekening van het toetredend lid, een gemotiveerd verzoek in te dienen bij het controlekantoor dat bevoegd is voor de belasting over de toegevoegde waarde waaronder hij ressorteert.
+§ 1. In geval van toetreding tot de BTW-eenheid na de aanvang van de werkzaamheden van de BTW-eenheid van een belastingplichtige andere dan deze bedoeld in artikel 1, § 2, is de vertegenwoordiger van de BTW-eenheid gehouden krachtens volmacht, die geldt als optie om tot de BTW-eenheid toe te treden in naam en voor rekening van het toetredend lid, een gemotiveerd verzoek in te dienen bij het controlekantoor dat bevoegd is voor de belasting over de toegevoegde waarde waaronder hij ressorteert.
 Dit verzoek is slechts geldig ingediend als het alle elementen bevat en vergezeld gaat van alle stukken die moeten aantonen dat de in artikel 1, § 1 vermelde voorwaarden zijn vervuld.
 
 Het verzoek geldt als aangifte van wijziging van werkzaamheid van de BTW-eenheid zoals bedoeld in artikel 53, § 1, eerste lid, 1°, van het Wetboek. Deze optie geldt tenminste tot en met 31 december van het derde jaar volgend op het tijdstip bedoeld in § 3.
@@ -101,8 +101,8 @@ Het verzoek geldt als aangifte van wijziging van werkzaamheid van de BTW-eenheid
 § 2. In geval dat een belastingplichtige bedoeld in artikel 1, § 2, gehouden is van een BTW-eenheid deel uit te maken, na de aanvang van de werkzaamheden van de BTW-eenheid, is de vertegenwoordiger van de BTW-eenheid gehouden het controlekantoor dat bevoegd is voor de belasting over de toegevoegde waarde waaronder hij ressorteert te informeren. Deze kennisgeving geldt als aangifte van wijziging van werkzaamheid van de BTW-eenheid zoals bedoeld in artikel 53, § 1, eerste lid, 1°, van het Wetboek.
 De vertegenwoordiger van de BTW-eenheid kan niettemin, op basis van een gemotiveerd verzoek, terzelfder tijd voorstellen om de belastingplichtige zoals bedoeld in artikel 1, § 2, uit de BTW-eenheid uit te sluiten.
 
-§ 3. Wanneer het hoofd van het in het § 1en § 2, eerste lid, bedoeld controlekantoor vaststelt dat het nieuw lid niet voldoet aan de in artikel 1, § 1 bedoelde voorwaarden, of bij verwerping van het in § 2, tweede lid, bedoeld verzoek tot uitsluiting, deelt hij zulks mee aan de vertegenwoordiger van de BTWeenheid binnen de maand na de geldige indiening van het in § 1of § 2, tweede lid, bedoeld verzoek middels een schriftelijke en met reden omklede beslissing.
-Als het hoofd van het in § 1en § 2, eerste lid bedoeld controlekantoor vaststelt dat voldaan is aan de in artikel 1, § 1 bedoelde voorwaarden of dat niet voldaan is aan de voorwaarden met betrekking tot het in
+§ 3. Wanneer het hoofd van het in het § 1 en § 2, eerste lid, bedoeld controlekantoor vaststelt dat het nieuw lid niet voldoet aan de in artikel 1, § 1 bedoelde voorwaarden, of bij verwerping van het in § 2, tweede lid, bedoeld verzoek tot uitsluiting, deelt hij zulks mee aan de vertegenwoordiger van de BTW-eenheid binnen de maand na de geldige indiening van het in § 1of § 2, tweede lid, bedoeld verzoek middels een schriftelijke en met reden omklede beslissing.
+Als het hoofd van het in § 1 en § 2, eerste lid bedoeld controlekantoor vaststelt dat voldaan is aan de in artikel 1, § 1 bedoelde voorwaarden of dat niet voldaan is aan de voorwaarden met betrekking tot het in
 § 2, tweede lid, bedoeld verzoek tot uitsluiting, treedt het nieuw lid toe tot de BTW-eenheid vanaf de eerste dag van de maand volgend op het verstrijken van de in het, eerste lid, bedoelde termijn.
 
 § 4. De belastingplichtige die toetreedt tot de BTW-eenheid brengt het controlekantoor dat bevoegd is voor de belasting over de toegevoegde waarde waaronder hij ressorteert hiervan op de hoogte in de loop van de maand waarin hij overeenkomstig § 3, tweede lid, geacht wordt toe te treden tot de BTW-eenheid.

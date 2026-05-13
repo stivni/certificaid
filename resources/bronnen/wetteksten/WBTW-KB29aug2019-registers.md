@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775-dirty
+    pipeline_version: 04e910e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:04:31Z'
+  generated_at: '2026-05-13T11:16:46Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:13:05Z'
+    confirmed_at: '2026-05-13T11:17:05Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Hoofdtekst (3 artikelen) is schoon, maar het 'Recent opgeheven of vervangen koninklijke besluiten' overzicht onderaan (regels 63-71) bevat nog steeds kolom-bleed artefacten: 'Bijw. 04/01.01.2020', 'Bijw. 03/12.07.2019', '(Opgeheven)', '(vervangen)' staan midden in beschrijvingen ingebed alsof het lopende tekst is. Dit was duidelijk een meerkoloms-tabel in de PDF die verkeerd is geconcateneerd. De drie nieuwe transformers raken dit specifieke artefact niet (geen running-header, geen 'Bijwerkingen'-appendix, geen lege Art.-heading)."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:13:05Z'
+      run_at: '2026-05-13T11:17:05Z'
       rationale: "Hoofdtekst (3 artikelen) is schoon, maar het 'Recent opgeheven of vervangen koninklijke besluiten' overzicht onderaan (regels 63-71) bevat nog steeds kolom-bleed artefacten: 'Bijw. 04/01.01.2020', 'Bijw. 03/12.07.2019', '(Opgeheven)', '(vervangen)' staan midden in beschrijvingen ingebed alsof het lopende tekst is. Dit was duidelijk een meerkoloms-tabel in de PDF die verkeerd is geconcateneerd. De drie nieuwe transformers raken dit specifieke artefact niet (geen running-header, geen 'Bijwerkingen'-appendix, geen lege Art.-heading)."
       concrete_problemen:
         - "Regel 65: 'Koninklijk besluit nr. 39, van 17 oktober 1980, tot regeling van de Bijw. 04/01.01.2020 toepassingsmodaliteiten van artikel 93duodecies van het Wetboek van de (Opgeheven) belasting over de toegevoegde waarde.' — kolom-bleed midden in zin"

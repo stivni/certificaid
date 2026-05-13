@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775-dirty
+    pipeline_version: 04e910e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:04:30Z'
+  generated_at: '2026-05-13T11:16:44Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:13:05Z'
+    confirmed_at: '2026-05-13T11:17:04Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Hoofdtekst is goed: hoofdstukken, secties, artikelen consistent geformatteerd. Maar Bijlage (regels 1077-1104) bevat zware PDF-table-bleed: 'Code van het Tarief' en 'Omschrijving' kolommen door elkaar, fragmentarische zinnen, GN-codes en omschrijvingen versmolten ('3704 00 Fotografische platen, film, ...'), regels 1086-1087 bevatten meervoudige codes vermengd met tekst zonder structuur. Ook regels 978, 984, 990-993, 1022-1033 (lijstjes in Art. 43-44) hebben pseudo-tabel-bleed (hoeveelheden voor tabak/alcohol)."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:13:05Z'
+      run_at: '2026-05-13T11:17:04Z'
       rationale: "Hoofdtekst is goed: hoofdstukken, secties, artikelen consistent geformatteerd. Maar Bijlage (regels 1077-1104) bevat zware PDF-table-bleed: 'Code van het Tarief' en 'Omschrijving' kolommen door elkaar, fragmentarische zinnen, GN-codes en omschrijvingen versmolten ('3704 00 Fotografische platen, film, ...'), regels 1086-1087 bevatten meervoudige codes vermengd met tekst zonder structuur. Ook regels 978, 984, 990-993, 1022-1033 (lijstjes in Art. 43-44) hebben pseudo-tabel-bleed (hoeveelheden voor tabak/alcohol)."
       concrete_problemen:
         - 'Bijlage (regels 1077-1104): GN-codes en omschrijvingen versmolten zonder tabel-structuur'
@@ -191,7 +191,7 @@ Deze personen kunnen in geen geval van deze aansprakelijkheid worden ontslagen i
 
 Voor iedere geadresseerde moet afzonderlijk een aangifte worden opgemaakt. Die aangifte vermeldt benevens de naam, het adres en eventueel het BTW-identificatienummer van de geadresseerde in België, ook alle gegevens welke nodig zijn voor de heffing van de belasting.
 
-Wanneer de geadresseerde een BTW-eenheid is in de zin van artikel 4, § 2, van het Wetboek, moet die aangifte, in afwijking van het bepaalde in het vorige lid, de naam, het adres en het in artikel 50, § 1, eerste lid, 6°, of § 2, tweede lid, van het Wetboek bedoelde sub-BTWidentificatienummer van het betrokken lid dat de invoer verricht vermelden, alsook alle gegevens die nodig zijn voor de heffing van de belasting.
+Wanneer de geadresseerde een BTW-eenheid is in de zin van artikel 4, § 2, van het Wetboek, moet die aangifte, in afwijking van het bepaalde in het vorige lid, de naam, het adres en het in artikel 50, § 1, eerste lid, 6°, of § 2, tweede lid, van het Wetboek bedoelde sub-BTW-identificatienummer van het betrokken lid dat de invoer verricht vermelden, alsook alle gegevens die nodig zijn voor de heffing van de belasting.
 
 § 2. Wanneer de invoer plaatsvindt met vrijstelling van de belasting of met voldoening van de belasting tegen een tarief dat lager is dan het hoogste dat voor het ingevoerde goed verschuldigd kan zijn, moet de aangever in de aangifte de wettelijke, reglementaire of administratieve bepaling vermelden waarbij de vrijstelling of de voldoening van de belasting tegen een lager tarief wordt geregeld.
 
@@ -851,7 +851,7 @@ Vrijstelling ingesteld bij artikel 40, § 1, 1°, d, van het Wetboek.
 
 § 1. De invoer van goederen bedoeld in artikel 40, § 1, 1°, d, van het Wetboek is van de belasting vrijgesteld mits naleving van de voorwaarden bedoeld onder de artikelen 1 tot en met 3 en de volgende voorwaarden.
 
-In de gevallen waar de invoer van goederen gevolgd wordt door een levering van die goederen die is vrijgesteld bij toepassing van artikel 39bis, eerste lid, 1° en 4°, van hetWetboek, moet de aangifte voor het verbruik, benevens de vermeldingen bedoeld in artikel 9, het btwidentiﬁcatienummer vermelden dat in een andere lidstaat werd toegekend aan de klant aan wie de goederen overeenkomstig artikel 39bis, eerste lid, 1°, van het Wetboek worden geleverd door de geadresseerde of het btw-identiﬁcatienummer, toegekend aan de geadresseerde in de lidstaat van aankomst van de verzending of het vervoer van de goederen, indien deze het voorwerp uitmaken van een overbrenging overeenkomstig artikel 39bis, eerste lid, 4°, van het Bovendien is de geadresseerde op het ogenblik van de aangifte voor het verbruik gehouden, op vraag van de bevoegde autoriteiten, het bewijs te leveren dat de ingevoerde goederen bestemd zijn om vanuit België te worden vervoerd of verzonden naar een andere lidstaat.
+In de gevallen waar de invoer van goederen gevolgd wordt door een levering van die goederen die is vrijgesteld bij toepassing van artikel 39bis, eerste lid, 1° en 4°, van hetWetboek, moet de aangifte voor het verbruik, benevens de vermeldingen bedoeld in artikel 9, het btwidentificatienummer vermelden dat in een andere lidstaat werd toegekend aan de klant aan wie de goederen overeenkomstig artikel 39bis, eerste lid, 1°, van het Wetboek worden geleverd door de geadresseerde of het btw-identificatienummer, toegekend aan de geadresseerde in de lidstaat van aankomst van de verzending of het vervoer van de goederen, indien deze het voorwerp uitmaken van een overbrenging overeenkomstig artikel 39bis, eerste lid, 4°, van het Bovendien is de geadresseerde op het ogenblik van de aangifte voor het verbruik gehouden, op vraag van de bevoegde autoriteiten, het bewijs te leveren dat de ingevoerde goederen bestemd zijn om vanuit België te worden vervoerd of verzonden naar een andere lidstaat.
 
 § 2. Door de Minister van Financiën of zijn gemachtigde worden de modaliteiten bepaald voor de toepassing van dit artikel.
 
@@ -928,7 +928,7 @@ Vrijstelling ingesteld bij artikel 40, § 4, van het Wetboek.
 #### Art. 43
 (De tekst van KB nr. 7, artikel 43, werd vervangen met ingang van 01.12.2008 (Art. 2, KB 10.12.2008, B.S. 19.12.2008, en errata B.S. 30.01.2009))
 
-§ 1. Gehele vrijstelling van de belasting wordt verleend voor de deﬁnitieve invoer van de goederen die deel uitmaken van de persoonlijke bagage van reizigers.
+§ 1. Gehele vrijstelling van de belasting wordt verleend voor de definitieve invoer van de goederen die deel uitmaken van de persoonlijke bagage van reizigers.
 
 Onder ″persoonlijke bagage″ wordt verstaan alle bagage die de reiziger bij zijn aankomst bij de douane kan aangeven, alsmede de bagage die hij later bij de douane aangeeft, mits hij kan bewijzen dat deze bij zijn vertrek als begeleide bagage was ingeschreven bij de maatschappij die zijn vervoer heeft verzorgd. Andere dan in paragraaf 2, 4°, bedoelde brandstof wordt niet beschouwd als persoonlijke bagage.
 

@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 60ab55b-dirty
+    pipeline_version: 04e910e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:12:47Z'
+  generated_at: '2026-05-13T11:16:46Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:13:05Z'
+    confirmed_at: '2026-05-13T11:17:05Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Massieve ETL-bleed onveranderd: regels 56-140 (85 regels) bevatten de complete compilatie-cover ('BELASTING OVER DE TOEGEVOEGDE WAARDE', 'Federale Overheidsdienst FINANCIEN', contact-email) plus de volledige TOC van alle 25+ MB's met PDF-glyph-bullets ' * ', onderstreepte placeholders '_____' en 'Bijw. XX/datum' kolom-bleed midden in beschrijvingen. De eigenlijke MB-1 wettekst begint pas op regel 141 en is slechts 16 regels lang. De drie nieuwe transformers raken dit volume aan pre-tekst-pollutie niet (niet 'Lijst van de bijwerkingen', niet running-header met pg.-formaat, niet lege heading)."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:13:05Z'
+      run_at: '2026-05-13T11:17:05Z'
       rationale: "Massieve ETL-bleed onveranderd: regels 56-140 (85 regels) bevatten de complete compilatie-cover ('BELASTING OVER DE TOEGEVOEGDE WAARDE', 'Federale Overheidsdienst FINANCIEN', contact-email) plus de volledige TOC van alle 25+ MB's met PDF-glyph-bullets ' * ', onderstreepte placeholders '_____' en 'Bijw. XX/datum' kolom-bleed midden in beschrijvingen. De eigenlijke MB-1 wettekst begint pas op regel 141 en is slechts 16 regels lang. De drie nieuwe transformers raken dit volume aan pre-tekst-pollutie niet (niet 'Lijst van de bijwerkingen', niet running-header met pg.-formaat, niet lege heading)."
       concrete_problemen:
         - "Regels 56-78: compilatie-cover ('BELASTING OVER DE TOEGEVOEGDE WAARDE', 'Federale Overheidsdienst FINANCIEN', 'contact : comments.kms@minfin.fed.be') als plain text vóór de wettekst"

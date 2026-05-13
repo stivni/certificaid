@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775-dirty
+    pipeline_version: 04e910e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:04:30Z'
+  generated_at: '2026-05-13T11:16:44Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:13:05Z'
+    confirmed_at: '2026-05-13T11:17:04Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Kort 5-artikel KB. Spurious linebreaks in wijzigingsannotaties (regel 50-51 'Art.\n15,' en regel 56-57 'Art.\n19,') — kleine maar zichtbare ETL-residu. Body zelf is schoon. Borderline, maar consistente patroon over meerdere KBs is een ETL-issue waard om te fixen.
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:13:05Z'
+      run_at: '2026-05-13T11:17:04Z'
       rationale: Kort 5-artikel KB. Spurious linebreaks in wijzigingsannotaties (regel 50-51 'Art.\n15,' en regel 56-57 'Art.\n19,') — kleine maar zichtbare ETL-residu. Body zelf is schoon. Borderline, maar consistente patroon over meerdere KBs is een ETL-issue waard om te fixen.
       concrete_problemen:
         - regel: 50

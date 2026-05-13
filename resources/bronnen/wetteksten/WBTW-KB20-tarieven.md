@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775-dirty
+    pipeline_version: 04e910e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:04:30Z'
+  generated_at: '2026-05-13T11:16:44Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:13:05Z'
+    confirmed_at: '2026-05-13T11:17:04Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Grootste bron in batch (108k chars) met meerdere structuurproblemen die de ETL moet oplossen. Layer1 vlagt al max_section_size (>24k). Tabel A/B/C-rubrieken (Romeinse cijfers I.–XL.) staan als plain text in plaats van als sub-headings, waardoor één enorme sectie ontstaat. TOC-fragmenten met dotted leaders ('Goederen aan 6 pct. ......... II/1') zijn niet opgeschoond. Structuurlabels 'TABEL A', 'TABEL B', 'TABEL C', 'GOEDEREN', 'DIENSTEN', 'BIJLAGE', 'Tijdelijke bepalingen', 'Eerste afdeling' staan als plain text zonder ##-prefix. Recap-blok aan het einde dupliceert de rubriekenlijst en lijkt op TOC-residu."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:13:05Z'
+      run_at: '2026-05-13T11:17:04Z'
       rationale: "Grootste bron in batch (108k chars) met meerdere structuurproblemen die de ETL moet oplossen. Layer1 vlagt al max_section_size (>24k). Tabel A/B/C-rubrieken (Romeinse cijfers I.–XL.) staan als plain text in plaats van als sub-headings, waardoor één enorme sectie ontstaat. TOC-fragmenten met dotted leaders ('Goederen aan 6 pct. ......... II/1') zijn niet opgeschoond. Structuurlabels 'TABEL A', 'TABEL B', 'TABEL C', 'GOEDEREN', 'DIENSTEN', 'BIJLAGE', 'Tijdelijke bepalingen', 'Eerste afdeling' staan als plain text zonder ##-prefix. Recap-blok aan het einde dupliceert de rubriekenlijst en lijkt op TOC-residu."
       concrete_problemen:
         - "Dotted-leader TOC-residu op regel 158: 'Goederen aan 6 pct. ......... II/1 Diensten aan 6 pct. ......... III/1'"
@@ -547,7 +547,7 @@ c) een vereniging zonder winstoogmerk of een coöperatieve vennootschap erkend a
 1° werk in onroerende staat en de andere onroerende handelingen die geen betrekking hebben op de eigenlijke woning, zoals bebouwingswerkzaamheden, tuinaanleg en oprichten van afsluitingen;
 2° werk in onroerende staat en andere onroerende handelingen die tot voorwerp hebben de bestanddelen of een gedeelte van de bestanddelen van zwembaden, sauna's, midgetgolfbanen, tennisterreinen en dergelijke installaties.
 
-§ 3. Het verlaagd tarief is eveneens van toepassing op de leveringen van goederen bedoeld in artikel 1, § 9, van het Wetboek alsook op de vestigingen, overdrachten en wederoverdrachten van zakelijke rechten op zulke goederen die niet overeenkomstig artikel 44, § 3, 1°, van het Wetboek van de belasting zijn vrijgesteld, wanneer die goederen: - speciﬁek zijn aangepast om door een gehandicapte als privé-woning te worden gebruikt;
+§ 3. Het verlaagd tarief is eveneens van toepassing op de leveringen van goederen bedoeld in artikel 1, § 9, van het Wetboek alsook op de vestigingen, overdrachten en wederoverdrachten van zakelijke rechten op zulke goederen die niet overeenkomstig artikel 44, § 3, 1°, van het Wetboek van de belasting zijn vrijgesteld, wanneer die goederen: - specifiek zijn aangepast om door een gehandicapte als privé-woning te worden gebruikt;
 - worden geleverd en gefactureerd aan de instellingen of maatschappijen bedoeld in paragraaf 1, 1°;
 - en bestemd zijn om te worden verhuurd door deze instellingen of maatschappijen aan gehandicapten bedoeld in paragraaf 1, 3°.
 
@@ -697,7 +697,7 @@ XXXIX. Kleine hersteldiensten
 
 (KB nr. 20, Tabel A, rubriek XXXIX, werd ingevoegd met ingang van 01.07.2011 (Art. 27, W 04.07.2011, B.S. 19.07.2011))
 
-1. De herstelling van ﬁetsen.
+1. De herstelling van fietsen.
 2. De herstelling van schoeisel en lederwaren.
 3. De herstelling en het vermaken van kleding en huishoudlinnen.
 

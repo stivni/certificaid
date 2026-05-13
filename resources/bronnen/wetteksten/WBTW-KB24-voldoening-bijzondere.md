@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d4b4775-dirty
+    pipeline_version: 04e910e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:04:30Z'
+  generated_at: '2026-05-13T11:16:45Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:13:06Z'
+    confirmed_at: '2026-05-13T11:17:05Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: merge_article_reference_wraps heeft niet ingegrepen op de meest opvallende artefacten. Het TOC-blok aan het begin (regels 56-78) met artikel-ranges 'Art. 1 - 8', 'Art. 9 - 13' als plain text blijft staan, gevolgd door duplicate hoofdstuk-/onderafdeling-headings (regels 80-88) — dat is compilatie-bleed. De Franse string 'Disposition temporaire' (regel 70) midden in NL-content is een bilingue-leak die direct opvalt. Spurious linebreaks midden in heading-tekst ('Inning en\nInvordering', regels 62-63; 'Mini One Stop Shop\n- VAT BE', regels 65-66) zijn niet gerepareerd. Inconsistente kapitalisatie 'AFDELING' vs 'Onderafdeling'.
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:13:06Z'
+      run_at: '2026-05-13T11:17:05Z'
       rationale: merge_article_reference_wraps heeft niet ingegrepen op de meest opvallende artefacten. Het TOC-blok aan het begin (regels 56-78) met artikel-ranges 'Art. 1 - 8', 'Art. 9 - 13' als plain text blijft staan, gevolgd door duplicate hoofdstuk-/onderafdeling-headings (regels 80-88) — dat is compilatie-bleed. De Franse string 'Disposition temporaire' (regel 70) midden in NL-content is een bilingue-leak die direct opvalt. Spurious linebreaks midden in heading-tekst ('Inning en\nInvordering', regels 62-63; 'Mini One Stop Shop\n- VAT BE', regels 65-66) zijn niet gerepareerd. Inconsistente kapitalisatie 'AFDELING' vs 'Onderafdeling'.
       concrete_problemen:
         - "Regel 70: Franse plain-text 'Disposition temporaire Art. 13ter' tussen NL-content — bilingue residu"
@@ -151,7 +151,7 @@ een verrichting gelijkgesteld met een betaling bedoeld in artikel 2 van dit besl
 
 § 3. Alleen het BTW-identificatienummer dat voorkomt op het formulier dat werd bezorgd door de administratie of in de gestructureerde mededeling ter kennis gebracht door de administratie bepaalt, voor de betaling op de postrekening nr. 679-2003000-47, de belastingplichtige wiens rekening-courant moet worden gecrediteerd.
 
-Iedere betaling op de postrekening nr. 679-2003000-47 met vermelding van het BTWidentificatienummer van een belastingplichtige die periodieke aangiften moet indienen, wordt, niettegenstaande elke strijdige verklaring, geacht te zijn gedaan om te worden ingeschreven op de rekening-courant van die belastingplichtige.
+Iedere betaling op de postrekening nr. 679-2003000-47 met vermelding van het BTW-identificatienummer van een belastingplichtige die periodieke aangiften moet indienen, wordt, niettegenstaande elke strijdige verklaring, geacht te zijn gedaan om te worden ingeschreven op de rekening-courant van die belastingplichtige.
 
 #### Art. 6
 (De tekst van KB nr. 24, artikel 6, eerste lid, werd gewijzigd met ingang van 01.04.2019 (Art. 12, KB 17.03.2019, B.S. 08.04.2019, pg. 35699). Dit besluit (KB 17.03.2019) is niet van toepassing op het dwangbevel dat werd kennisgegeven of betekend vóór de datum van zijn inwerkingtreding – 01.04.2019 (Art. 23, KB 17.03.2019))
