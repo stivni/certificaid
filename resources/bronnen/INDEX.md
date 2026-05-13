@@ -8,16 +8,15 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 130 | 118 | — | 11 | 1 | — |
+| Wetteksten | 131 | 120 | — | 11 | — | — |
 | Normen | 19 | 4 | — | 14 | 1 | — |
 | Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **585** | 544 | — | 39 | 2 | — |
+| **Totaal** | **586** | 546 | — | 39 | 1 | — |
 
-## Wetteksten (130)
+## Wetteksten (131)
 
 | Bestand | Trust | L1 | L2 | Confirmed-by | Titel |
 |---|---|---|---|---|---|
-| `MAR-vzw.md` | ❌ rejected | — | rejected | subagent-sonnet-4-6 | Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW) |
 | `Almanak-BTW-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Almanak BTW 2026 — ITAA / Larcier-Intersentia |
 | `Almanak-VenB-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Almanak Vennootschapsbelasting 2026 — ITAA / Larcier-Intersentia |
 | `Belastingalmanak-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Belastingalmanak 2026 — ITAA / Larcier-Intersentia |
@@ -59,6 +58,8 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `KB-WIB92.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen 1992 (KB/… |
 | `KB-WVV-2019.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Koninklijk besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen… |
 | `Klokkenluiderswet-2022.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 28 november 2022 betreffende de bescherming van melders van inbreuken op het Unie- … |
+| `MAR-ondernemingen.md` | ✅ trusted | — | — | human | Minimum Algemeen Rekeningstelsel voor boekhoudplichtige ondernemingen (KB 21.10.2018 Bi… |
+| `MAR-vzw.md` | ✅ trusted | — | — | human | Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW) |
 | `MIGB-Brussel.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Brussels Hoofds… |
 | `MIGB-Vlaanderen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Vlaams Gewest |
 | `MIGB-Wallonie.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek van de met de inkomstenbelastingen gelijkgestelde belastingen — Waals Gewest |

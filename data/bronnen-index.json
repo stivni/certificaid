@@ -1,5 +1,5 @@
 {
-  "n_bronnen": 585,
+  "n_bronnen": 586,
   "bronnen": [
     {
       "bestand": "AVG-wet-2018.md",
@@ -490,6 +490,21 @@
       "layer2_status": "trusted"
     },
     {
+      "bestand": "MAR-ondernemingen.md",
+      "bron_rol": "wettekst",
+      "stem": "MAR-ondernemingen",
+      "titel": "Minimum Algemeen Rekeningstelsel voor boekhoudplichtige ondernemingen (KB 21.10.2018 Bijlage 1)",
+      "korte_naam": "MAR ondernemingen",
+      "tags": [
+        "1.1",
+        "1.2"
+      ],
+      "trust_status": "trusted",
+      "trust_confirmed_by": "human",
+      "layer1_status": null,
+      "layer2_status": null
+    },
+    {
       "bestand": "MAR-vzw.md",
       "bron_rol": "wettekst",
       "stem": "MAR-vzw",
@@ -499,10 +514,10 @@
         "1.1",
         "1.2"
       ],
-      "trust_status": "rejected",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "trusted",
+      "trust_confirmed_by": "human",
       "layer1_status": null,
-      "layer2_status": "rejected"
+      "layer2_status": null
     },
     {
       "bestand": "MIGB-Brussel.md",

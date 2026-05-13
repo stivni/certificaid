@@ -1592,13 +1592,26 @@ sources:
       method: pdftotext_narratief
   MAR-vzw:
     bron_rol: normatief
-    raw: resources/raw/handcrafted/MAR-vzw.md
+    raw: resources/raw/wetteksten/MAR-vzw.md
     output: resources/bronnen/wetteksten/MAR-vzw.md
     tags: ["1.1", "1.2"]
     bijgewerkt: "2023"
     wet: "Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW)"
+    bron: "SBB (https://www.sbb.be/sites/default/files/inline-files/MAR.pdf) — KB 21.10.2018 Bijlage 3"
     status: volledig
-    note: "MAR voor vzw/ivzw/stichtingen. MAR voor ondernemingen zit in KB-21-10-2018.md"
+    note: "MAR voor vzw/ivzw/stichtingen. Raw .md gegenereerd via `pdftotext -layout` op SBB-PDF. MAR voor ondernemingen zit in MAR-ondernemingen.md"
+    extract:
+      method: md_passthrough
+  MAR-ondernemingen:
+    bron_rol: normatief
+    raw: resources/raw/wetteksten/MAR-ondernemingen.md
+    output: resources/bronnen/wetteksten/MAR-ondernemingen.md
+    tags: ["1.1", "1.2"]
+    bijgewerkt: "2018"
+    wet: "Minimum Algemeen Rekeningstelsel voor boekhoudplichtige ondernemingen (KB 21.10.2018 Bijlage 1)"
+    bron: "Deloitte Fiduciaire — Vereenvoudigd Rekeningstelsel obv KB 12.09.1983 (structuur grotendeels identiek aan KB 21.10.2018 Bijlage 1)"
+    status: volledig
+    note: "MAR voor ondernemingen (BV, NV, ...). Raw .md gegenereerd via `pdftotext -layout` op Deloitte-PDF. Voor vzw/ivzw/stichtingen zie MAR-vzw.md"
     extract:
       method: md_passthrough
   fiscaal-memento-2025:
