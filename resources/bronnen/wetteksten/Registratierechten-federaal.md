@@ -17,30 +17,19 @@ provenance:
       version: 01.04.2026
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1ee4517-dirty
+    pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:44:13Z'
+  generated_at: '2026-05-13T12:48:46Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:47:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Strip_french_bilingue_bleed heeft veel maar niet alle FR-tekst weggewerkt. Er resteren nog ~6 inline NL+2spaces+FR-bleeds (o.a. r.1145, 9893, 11855, 13697, 16867) waarbij de FR-vertaling van een NL-zin op dezelfde regel staat. Daarnaast bevat de header-sectie (r.39-66) volledige bilingue NL/FR-paren (titels, KB-citaten, INHOUDSTAFEL / TABLE DES MATIÈRES). Frans-trigger op patroon '/  ' geeft 3 hits — beperkt. Overall: niet ernstig genoeg om volledig blokkerend te zijn maar embeddings worden voor de getroffen artikelen wel verdund. Sterke punten: heading-hiërarchie OK, art.-nummering intact, frontmatter compleet, geen running headers/page-numbers. Aanbeveling: scraper-regex uitbreiden naar 'Aux fins du', 'Pour l\\'exécution du', 'Dans les cas' en bilingue header-block strippen vóór trusted."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:47:21Z'
-      rationale: "Strip_french_bilingue_bleed heeft veel maar niet alle FR-tekst weggewerkt. Er resteren nog ~6 inline NL+2spaces+FR-bleeds (o.a. r.1145, 9893, 11855, 13697, 16867) waarbij de FR-vertaling van een NL-zin op dezelfde regel staat. Daarnaast bevat de header-sectie (r.39-66) volledige bilingue NL/FR-paren (titels, KB-citaten, INHOUDSTAFEL / TABLE DES MATIÈRES). Frans-trigger op patroon '/  ' geeft 3 hits — beperkt. Overall: niet ernstig genoeg om volledig blokkerend te zijn maar embeddings worden voor de getroffen artikelen wel verdund. Sterke punten: heading-hiërarchie OK, art.-nummering intact, frontmatter compleet, geen running headers/page-numbers. Aanbeveling: scraper-regex uitbreiden naar 'Aux fins du', 'Pour l\\'exécution du', 'Dans les cas' en bilingue header-block strippen vóór trusted."
-      concrete_problemen:
-        - "Bilingue header-blok r.39-66: 'WETBOEK DER REGISTRATIE...' direct gevolgd door 'CODE DES DROITS...', 'Federale wetgeving' / 'Législation Fédérale', INHOUDSTAFEL / TABLE DES MATIÈRES — niet door strip_french_bilingue_bleed afgevangen"
-        - "r.1145: '3° In de in artikelen 74 en 75 bedoelde gevallen.  3  Dans les cas visés aux articles 74 et 75.' — FR-zin niet gestript (marker 'Dans les' i.p.v. 'Dans le')"
-        - "r.9893: 'De Koning kan ter uitvoering van dit hoofdstuk:  Pour l\\'exécution du présent chapitre, le Roi peut déterminer :' — FR-bleed niet gestript"
-        - "r.11855 + r.13697: '§ 2. Voor de toepassing van dit artikel wordt verstaan onder:  § 2. Aux fins du présent article, on entend par :' — duplicaat-bleed"
-        - "r.16867: 'De vonnissen en arresten zijn vrij van expeditierecht.  Les jugements et arrêts sont exemptés du droit de greffe' — FR-bleed"
-        - "r.11863: '2° \"lidstaat\": een lidstaat van de Europese Unie;  2° « Etat membre » : un Etat membre de l\\'Union Européenne ;' — FR-bleed in opsomming"
 ---
 
 # Registratierechten — federaal
@@ -3883,7 +3872,7 @@ van een vennootschap, bij wijze van fusie, splitsing of anderszins, in
 
 een of meer nieuwe of bestaande vennootschappen.
 
-Deze bepaling is evenwel slechts toepasselijk op voorwaarde:  Cette disposition n’est toutefois applicable qu’à condition :
+Deze bepaling is evenwel slechts toepasselijk op voorwaarde:
 
 2° a) dat de rechtshandeling door artikel 12:7 van het Wetboek van
 
@@ -4557,7 +4546,7 @@ onder b: het totale bedrag van de belasting over de voorgaande
 
 gedeelten.
 
-TABEL I
+## Tabel I
 
 Gedeelte van de schenking
 
@@ -7389,7 +7378,7 @@ gestraft.
 
 ed. 1). Tekst van toepassing vanaf 17.08.2020 (art. -))
 
-Van voorgaand artikel wordt afgeweken ten aanzien van:  Il est dérogé à l’article précédent en ce qui concerne :
+Van voorgaand artikel wordt afgeweken ten aanzien van:
 
 1° De uitgiften van akten, verleden voor notarissen of bestuurlijke
 
@@ -9901,7 +9890,7 @@ persoonsgegevens nagestreefde doelstelling.
 
 toepassing vanaf 08.06.2024 (art. -))
 
-De Koning kan ter uitvoering van dit hoofdstuk:  Pour l'exécution du présent chapitre, le Roi peut déterminer :
+De Koning kan ter uitvoering van dit hoofdstuk:
 
 of in de registers van de Kruispuntbank van de sociale zekerheid of in
 
@@ -11231,7 +11220,7 @@ rekenen van den dag waarop zij aan den Staat verworven zijn;
 
 en boeten, na twee jaar, te rekenen van den dag der betaling.
 
-Die verjaringen worden gestuit overeenkomstig artikel 217 1 en 217 2 .  Ces prescriptions sont interrompues conformément aux articles 217 1
+Die verjaringen worden gestuit overeenkomstig artikel 217 1 en 217 2 .
 
 Verjaring voor het invorderen der in debet vereffende rechten
 
@@ -13223,7 +13212,7 @@ nationale recht van de ontvangende lidstaat met betrekking tot
 
 soortgelijke inlichtingen voorziet.
 
-Deze inlichtingen mogen worden gebruikt:  Ces informations peuvent servir :
+Deze inlichtingen mogen worden gebruikt:
 
 1° voor de vaststelling, de toepassing en de handhaving van het
 
@@ -15069,7 +15058,7 @@ nationale recht van de ontvangende lidstaat met betrekking tot
 
 soortgelijke inlichtingen voorziet.
 
-Deze inlichtingen mogen worden gebruikt:  Ces informations peuvent servir :
+Deze inlichtingen mogen worden gebruikt:
 
 1° voor de vaststelling, de toepassing en de handhaving van het
 

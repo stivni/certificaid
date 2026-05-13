@@ -17,34 +17,19 @@ provenance:
       version: 03.04.2026
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 1ee4517-dirty
+    pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:44:10Z'
+  generated_at: '2026-05-13T12:48:42Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:47:21Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Strip_french_bilingue_bleed schiet hier substantieel tekort. Er resteren 163 regels beginnend met '/  ' die FR-tabel/-rubrieken bevatten (Pourcentage, Euronorme, Niveau E, etc.) en minstens 16 inline of standalone FR-paragrafen ('Le présent paragraphe...', 'conformément à l\\'alinéa 1er...', 'Pour l\\'application du présent article...', '§ 2. Les exequaturs de...', volledige FR-blokken in art. 5321, 5659, 5741, 5825, 8533, 8647, 9505, 10303, 12179, 12185). Bij r.1085-1091 en r.1123-1127 staan complete NL- én FR-paragrafen als losse blokken na elkaar — dit verdunt embeddings voor artikel 2.2.4.0.x significant. RAG-impact: hoog voor titel 2 hoofdstuk 4 (kilometerheffing/inverkeerstelling). Aanbeveling: needs-rework; scraper moet '/  '-prefix-regels en alle volledige FR-blokken (geïdentificeerd via taaldetectie of marker-set 'Le présent', 'Pour l\\'application', 'conformément', 'Dans le cas', 'Sont exemptes', 'Les exequaturs') verwijderen."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:47:21Z'
-      rationale: "Strip_french_bilingue_bleed schiet hier substantieel tekort. Er resteren 163 regels beginnend met '/  ' die FR-tabel/-rubrieken bevatten (Pourcentage, Euronorme, Niveau E, etc.) en minstens 16 inline of standalone FR-paragrafen ('Le présent paragraphe...', 'conformément à l\\'alinéa 1er...', 'Pour l\\'application du présent article...', '§ 2. Les exequaturs de...', volledige FR-blokken in art. 5321, 5659, 5741, 5825, 8533, 8647, 9505, 10303, 12179, 12185). Bij r.1085-1091 en r.1123-1127 staan complete NL- én FR-paragrafen als losse blokken na elkaar — dit verdunt embeddings voor artikel 2.2.4.0.x significant. RAG-impact: hoog voor titel 2 hoofdstuk 4 (kilometerheffing/inverkeerstelling). Aanbeveling: needs-rework; scraper moet '/  '-prefix-regels en alle volledige FR-blokken (geïdentificeerd via taaldetectie of marker-set 'Le présent', 'Pour l\\'application', 'conformément', 'Dans le cas', 'Sont exemptes', 'Les exequaturs') verwijderen."
-      concrete_problemen:
-        - 163 regels beginnend met '/  ' (Pourcentage, Euronorme, FR tariefcategorieën rond art. 2.2.4.0.x) niet gestript
-        - "r.1087, 1125: 'Le présent paragraphe s\\'applique uniquement aux véhicules...' — volledige FR-paragrafen als losse blokken"
-        - "r.1083, 1121: 'conformément à l\\'alinéa 1er, s\\'élève à 40 euros au minimum.' — orphan FR-zin"
-        - 'r.1091, 1127, 1131, 1135: volledige FR §-paragrafen (§ 3/2, § 3/3, a) majoré) als losse blokken na NL-versie'
-        - "r.135: NL-zin eindigend met 'b) comprend une cabine double comportant...' — FR-bleed na 2 spaces in kerndefinitie"
-        - 'r.4637, 5659, 5741, 5825, 9505, 10303: substantiële FR-blokken vermengd in NL artikel-tekst — kruisreferenties naar federaal Wetboek Registratie'
-        - 'r.5321: lange FR-paragraaf over donatie-tarief tussen NL-tekst'
-        - "r.8533, 8647: '9° de registratiebelasting :  9° aux impôt d\\'enregistrement :' en 'Dans le cas, cité dans...' — FR-bleeds"
-        - "r.12179, 12185: 'Dans l\\'article du même décret...' / 'Dans le chapitre VIII, section 2...' — slot-bepalingen FR niet gestript"
-        - 'r.7193, 1219: korte inline NL+2spaces+FR bleeds'
 ---
 
 # Vlaamse Codex Fiscaliteit (VCF)
@@ -499,13 +484,7 @@ E-peil ingrijpende  energetische renovatie
 
 omgevingsvergunning voor stedenbouwkundige
 
-/  Niveau E constructions
-
 handelingen
-
-/  Niveau E rénovation  énergétique substantielle
-
-/  date de la demande d’autorisation urbanistique ou  de permis d'environnement pour actes urbanistiques
 
 nouvelles
 
@@ -513,31 +492,21 @@ vanaf 1 januari 2013 tot en met 31 december 2013
 
 E50  /
 
-/  du 1 janvier 2013 au 31 décembre 2013
-
 vanaf 1 januari 2014 tot en met 31 december 2015
 
 E40  /
-
-/  du 1 janvier 2014 au 31 décembre 2015
 
 vanaf 1 januari 2016 tot en met 30 september 2016
 
 E30  /
 
-/  du 1 janvier 2016 au 30 septembre 2016
-
 vanaf 1 oktober 2016 tot en met 31 december 2019
 
 E30  E90
 
-/  du 1 octobre 2016 au 31 décembre 2019
-
 vanaf 1 januari 2020 tot en met 31 december 2021
 
 E30  /
-
-/  du 1 janvier 2020 au 31 décembre 2021
 
 vanaf 1 januari 2022 tot en met 31 december 2022 /
 
@@ -557,29 +526,17 @@ E-peil ingrijpende  energetische renovatie
 
 omgevingsvergunning voor stedenbouwkundige
 
-/  Niveau E constructions
-
 handelingen
 
-/  Niveau E rénovation  énergétique substantielle
-
-/  date de la demande d’autorisation urbanistique ou  de permis d'environnement pour actes urbanistiques
-
 nouvelles
-
-/  du 1 janvier 2013 au 31 décembre 2014
 
 vanaf 1 januari 2015 tot en met 31 december 2015
 
 E30  /
 
-/  du 1 janvier 2015 au 31 décembre 2015
-
 vanaf 1 januari 2016 tot en met 30 september 2016  E20  /  du 1 janvier 2016 au 30 septembre 2016  vanaf 1 oktober 2016 tot en met 31 december 2021
 
 E20  E60
-
-/  du 1 octobre 2016 au 31 décembre 2021
 
 vanaf 1 januari 2022 tot en met 31 december 2022 /
 
@@ -588,8 +545,6 @@ E10  E60
 du 1 janvier 2022 au 31 décembre 2022
 
 vanaf 1 januari 2023 tot en met 30 september 2025  / à partir du 1er janvier 2023 jusqu'au 30 septembre
-
-/  E60
 
 6° 50% van de onroerende voorheffing gedurende vijf  jaar voor gebouwde onroerende goederen waarvoor de  aanvraag  van  een  omgevingsvergunning  voor  stedenbouwkundige handelingen vanaf 1 januari 2023  tot en met 30 september 2025 is ingediend en die na  herbouw of gedeeltelijke herbouw op 1 januari van het  aanslagjaar een E-peil hebben van ten hoogste E20;
 
@@ -907,10 +862,6 @@ De belasting wordt, naargelang van het geval,  vastgesteld op basis van het verm
 
 cilinderboring in millimeter tot en met
 
-/  alésage des cylindres en millimètres jusqu'à
-
-/  coefficient  69  6000  70  5887  71  5777  72  5672  73  5570  74  5471  75  5376  76  5284  77  5194  78  5108  79  5024  80  4943  81  4864  82  4788  83  4714  84  4642  85  4572  86  4504  87  4438  88  4373  89  4310  90 en meer
-
 /  90 et plus
 
 Voor de voertuigen waarvan de motor met zware olie  wordt aangedreven en die uitsluitend worden gebruikt  voor het bezoldigd vervoer van personen krachtens een  machtiging  uitgereikt  voor  de  exploitatie  van  autocardiensten, ter uitvoering van de besluitwet van 30  december 1946 betreffende het bezoldigd vervoer van  personen over de weg met autobussen en met autocars,  wordt de coëfficiënt k vastgesteld als volgt:
@@ -963,8 +914,6 @@ cilinderinhoud of nuttig volume van de
 
 verbrandingskamers, in liter
 
-/  cylindrée ou volume utile des chambres de combustion,
-
 en litres
 
 tot en met 0,9  jusqu'à 0,9 inclusivement  1,50  1 tot met 1,2  1 à 1,2 inclusivement  1,75  1,3 tot en met 1,5  1,3 à 1,5 inclusivement  2,00  1,6 en 1,7  1,6 et 1,7  2,25  1,8 en 1,9  1,8 et 1,9  2,50  2 en 2,1  2 et 2,1  2,75  2,2 en 2,3  2,2 et 2,3  3,00  2,4 tot en met 2,6  2,4 à 2,6 inclusivement  3,25  2,7 tot en met 3,3  2,7 à 3,3 inclusivement  3,50  3,4 tot en met 3,9  3,4 à 3,9 inclusivement  3,75  4 tot en met 4,9  4 à 4,9 inclusivement  4,00  5 tot met 5,9  5 à 5,9 inclusivement  4,50  6 en meer  6 et plus  5,00
@@ -1003,15 +952,9 @@ aantal pk
 
 totaalbedrag van de belasting in euro
 
-/  montant total de la taxe en euros  4 en minder / 4 et moins  69,72  5  87,24  6  126,12  7  164,76  8  203,76  9  242,64  10  281,16  11  364,92  12  448,56  13  532,08  14  615,84  15  699,48  16  916,20  17  1133,16  18  1350,00  19  1566,36  20  1783,20  meer dan 20
-
-/  nombre de ch
-
 1783,20 verhoogd met 97,20 per pk boven 20
 
 /  1783,20 majoré de 97,20 par ch supérieur à 20
-
-/  plus de 20
 
 1° in functie van de CO2-uitstoot van het voertuig,  gemeten tijdens de homologatie ervan volgens de op het  moment van de eerste inschrijving geldende Europese  regelgeving, wordt het tarief
 
@@ -1023,19 +966,11 @@ b) verminderd met 0,30% voor iedere gram CO2-  uitstoot per kilometer onder 122 
 
 Euronorm
 
-/  Euronorme
-
 euro 0  30 %  50 %  euro 1  10 %  40 %  euro 2  5 %  35 %  euro 3  0 %  30 %  euro 3 + roetfilter
-
-/  euro 3 + filtre à particules
 
 euro 4  - 12,5 %  25 %  euro 4 + roetfilter
 
-/  euro 4 + filtre à particules
-
 euro 5 of EEV
-
-/  euro 5 ou EEV
 
 euro 6  - 15 %  15 %
 
@@ -1069,27 +1004,17 @@ Euronorm
 
 Benzine en andere brandstoffen
 
-/  Essence et autres carburants
-
-/  Euronorme
-
 Diesel
 
 euro 0  30 %  50 %  euro 1  10 %  40 %  euro 2  5 %  35 %  euro 3  0 %  30 %  euro 3 + roetfilter
-
-/  euro 3 + filtre à particules
 
 /  25 %
 
 euro 4  - 12,5 %  25 %  euro 4 + roetfilter
 
-/  euro 4 + filtre à particules
-
 /  17,5 %
 
 euro 5 of EEV
-
-/  euro 5 ou EEV
 
 - 15 %  17,5 %
 
@@ -1109,23 +1034,13 @@ Euronorm
 
 Percentage
 
-/  Pourcentage  euro 0  35 %  euro 1  25 %  euro 2  20 %  euro 3  15 %  euro 3 + roetfilter
-
-/  Euronorme
-
-/  euro 3 + filtre à particules
-
 10 %
 
 euro 4  10 %  euro 3 + roetfilter
 
-/  euro 4 + filtre à particules
-
 2,5 %
 
 euro 5 of EEV
-
-/  euro 5 ou EEV
 
 2,5 %
 
@@ -1163,12 +1078,6 @@ Als het belastbaar vermogen 10 fiscale paardenkracht te  boven gaat, wordt de be
 
 aantal pk
 
-/  montant total de la taxe en euros  11  51,48  12  59,04  13  67,08  14  75,60  15  84,60  16  94,08  17  104,04  18  114,48  19  125,40  20  136,80  21  148,68  22  161,04  23  173,88  24  187,20  25  201,00  26  215,28  27  230,04  28  245,28  29  261,00  30  277,20  31  293,88  32  311,04  33  328,68
-
-/  nombre de ch
-
-/  plus de 44  549,12 majoré de 12,48 par ch supérieur à 44
-
 § 6. Voor de motorvoertuigen of de samengestelde  voertuigen, bestemd voor het vervoer van goederen,  waarvan het maximaal toegestane totaalgewicht 3,5 ton  overschrijdt, maar minder bedraagt dan 12 ton, bedraagt  de belasting 0 euro.
 
 Voor de motorvoertuigen of de samengestelde  voertuigen, bestemd voor het vervoer van goederen,  waarvan het maximaal toegestane totaalgewicht 12 ton  of meer bedraagt, wordt de belasting, afhankelijk van het  aantal assen van het voertuig en de aard van de  ophanging, berekend volgens de volgende bepalingen en  tabellen :
@@ -1179,11 +1088,7 @@ MOTORVOERTUIGEN
 
 aantal assen en MTT (in ton)
 
-/  nombre d'essieux et MMA (en tonnes)
-
 gelijk aan of meer dan
-
-/  égale à ou supérieur à
 
 2 assen / 2 essieux  12  13  0  31  13  14  31  86  14  15  86  121  15  121  274  3 assen / 3 essieux
 
@@ -1209,11 +1114,7 @@ SAMENSTELLEN)
 
 aantal assen en MTT (in ton)
 
-/  nombre d'essieux et MMA (en tonnes)
-
 Gelijk aan of meer dan
-
-/  égal ou supérieur à
 
 2 + 1 assen / 2 + 1 essieux  12  14  0  14  16  0  16  18  0  14  18  20  14  32  20  22  32  75  22  23  75  97  23  25  97  175  25  175  307  2 + 2 assen / 2 + 2 essieux  23  25  30  70
 
@@ -1243,8 +1144,6 @@ Dans les montants visés aux tableaux dans l'alinéa deux,  2.2.4.0.5, § 2, ali
 
 MTT in kg totaalbedrag van de belasting in euro
 
-/  montant total de la taxe en euros  van / de  tot en met
-
 0  1500  84  1501  3500  120  3501  7999  132  8000  10.999  168  11.000  > 11.000  264
 
 Deze bepaling is alleen van toepassing op natuurlijke  personen  en  andere  rechtspersonen  dan  vennootschappen, autonome overheidsbedrijven en
@@ -1255,7 +1154,7 @@ De kampeerwagens vallen buiten de toepassing van  artikel 2.2.6.0.1, § 1, eerst
 
 § 9. Voor alle voertuigen als vermeld in dit artikel, met  uitzondering van deze, vermeld in paragraaf 4 en  paragraaf 6, die uitsluitend aangedreven worden door  een elektrische motor of door waterstof en die na 31  december 2025 worden ingeschreven in het repertorium  van het Directoraat-generaal Mobiliteit en  Verkeersveiligheid, bedraagt de belasting 93,60 euro.
 
-Deze bepaling geldt voor voertuigen van:  Cette disposition s'applique aux véhicules :
+Deze bepaling geldt voor voertuigen van:
 
 1° vennootschappen, autonome overheidsbedrijven en  verenigingen zonder winstgevend doel, met  leasingactiviteiten;
 
@@ -1361,37 +1260,21 @@ Datum van de eerste inschrijving van het voertuig in het
 
 binnenland of in het buitenland
 
-/  Date de première inscription du véhicule en Belgique ou
-
 à l'étranger
 
 tot en met 31 december 1993
 
-/  jusqu'au 31 décembre 1993 inclus
-
 vanaf 1 januari 1994 tot en met 31 december 1996
-
-/  du 1er janvier 1994 au 31 décembre 1996 inclus
 
 vanaf 1 januari 1997 tot en met 31 december 2000
 
-/  du 1er janvier 1997 au 31 décembre 2000 inclus
-
 vanaf 1 januari 2001 tot en met 31 december 2005
-
-/  du 1 janvier 2001 au 31 décembre 2005 inclus
 
 vanaf 1 januari 2006 tot en met 31 december 2010
 
-/  du 1er janvier 2006 au 31 décembre 2010 inclus
-
 vanaf 1 januari 2011 tot en met 31 augustus 2015
 
-/  du 1er janvier 2011 au 31 août 2015 inclus
-
 vanaf 1 september 2015
-
-/  à partir du 1er septembre 2015
 
 ---- historiek ----  ---- historique ----
 
@@ -1409,17 +1292,9 @@ Cilinderinhoud in cc
 
 Euronorm
 
-/  Type de carburant
-
-/  Cylindrée en cc
-
-/  Euronorme  6  5  4  3  2  1  0  Emissions de CO2 en g/km
-
 minder dan 1 400
 
 Benzine en andere
-
-/  moins de 1 400
 
 117  125  140  150  164  173  175
 
@@ -1433,17 +1308,11 @@ en diesel
 
 150  159  172  185  200  211  213
 
-/  Essence et autres  carburants, à l'exception  de gaz naturel et du diesel
-
 meer dan 2 000
-
-/  plus de 2 000
 
 228  238  247  259  279  295  297
 
 minder dan 1 400
-
-/  moins de 1 400
 
 98  103  120  116  125  132  133
 
@@ -1457,13 +1326,9 @@ Diesel
 
 meer dan 2 000
 
-/  plus de 2 000
-
 159  169  201  199  214  226  228
 
 minder dan 1 400
-
-/  moins de 1 400
 
 94  100  112  120  131  139  140
 
@@ -1471,15 +1336,11 @@ Aardgas
 
 1 400 tot en met 2 000
 
-/  Gaz naturel
-
 /  1 400 jusqu'à 2 000
 
 120  127  138  148  160  169  171
 
 meer dan 2 000
-
-/  plus de 2 000
 
 182  190  198  207  223  236  238
 
@@ -1555,19 +1416,13 @@ constante
 
 Parameter_CC
 
-/  Paramètre_CC
-
 2.9316  -403.6269  -126.9417  -102.5352  -8617.6901
 
 Parameter_KW
 
-/  Paramètre_KW
-
 53.6921  -817.4980  56.3978  -1333.5261  -8710.9573
 
 Parameter_FPK
-
-/  Paramètre_FPK
 
 5.0617  -96.0669  27.1787  -229.5888  -606.3489
 
@@ -2003,13 +1858,9 @@ f = 1 voor andere wegvoertuigen;  f = 1 pour les autres voitures routiers ;
 
 Brandstofsoort
 
-/  Type de carburant
-
 Diesel
 
 Benzine, en andere brandstoffen
-
-/  Essence, et autres carburants
 
 euro 6  20,61
 
@@ -2020,8 +1871,6 @@ euro 6  20,61
 ouderdom van het wegvoertuig op basis van de datum van de eerste inschrijving ervan, in het
 
 binnenland of in het buitenland, vermeld op het inschrijvingsbewijs
-
-/  ancienneté du véhicule sur la base de la date de sa première immatriculation, en Belgique ou à
 
 l'étranger, mentionnée sur le certificat d'immatriculation
 
@@ -2165,10 +2014,6 @@ datum van de eerste inschrijving van het wegvoertuig in het binnenland of in het
 
 Euronorm
 
-/  date de la première immatriculation du véhicule routier en Belgique ou à l'étranger
-
-/  Euronorme  tot en met 31 december 1993  jusqu'au 31 décembre 1993 inclus  euro 0  vanaf 1 januari 1994 tot en met 31 december
-
 du 1er janvier 1994 au 31 décembre 1996
 
 inclus  euro 1
@@ -2207,15 +2052,7 @@ cilinderinhoud in cc
 
 Euronorm
 
-/  type de carburant
-
-/  cylindrée en cc
-
-/  Euronorme  6  5  4  3  2  1  0  CO2-emissies in g/km
-
 minder dan 1400
-
-/  moins de 1400
 
 117  125  140  150  164  173  175
 
@@ -2227,21 +2064,15 @@ van diesel en aardgas
 
 /  1400 à 2000 inclusivement
 
-/  essence et autres carburants, à  l'exception du diesel et du gaz
-
 150  159  172  185  200  211  213
 
 meer dan 2000
 
 naturel
 
-/  plus de 2000
-
 228  238  247  259  279  295  297
 
 minder dan 1400
-
-/  moins de 1400
 
 98  103  120  116  125  132  133
 
@@ -2255,13 +2086,9 @@ diesel
 
 meer dan 2000
 
-/  plus de 2000
-
 159  169  201  199  214  226  228
 
 minder dan 1400
-
-/  moins de 1400
 
 94  100  112  120  131  139  140
 
@@ -2269,15 +2096,11 @@ minder dan 1400
 
 aardgas
 
-/  gaz naturel
-
 /  1400 à 2000 inclusivement
 
 120  127  138  148  160  169  171
 
 meer dan 2000
-
-/  plus de 2000
 
 182  190  198  207  223  236  238
 
@@ -2467,27 +2290,15 @@ dan de wegvoertuigen, vermeld in artikel 2.3.4.1.1
 
 aantal pk
 
-/  montant total de la taxe en euros  8 en minder
-
-/  nombre de ch
-
 /  8 et moins
 
 9 tot en met 10
 
-/  de 9 à 10
-
 12 tot en met 14
-
-/  de 12 à 14
 
 16 tot en met 17
 
-/  de 16 à 17
-
 meer dan 17
-
-/  plus de 17
 
 Als het vermogen van eenzelfde motor, uitgedrukt in  fiscale paardenkracht (pk) en in kilowatt (kW),  aanleiding geeft tot de heffing van een verschillend  belastingbedrag, is de belasting voor het hoogste bedrag  verschuldigd;
 
@@ -2885,8 +2696,6 @@ Als de EURO-emissieklasse van het voertuig niet  bekend is, wordt die parameter 
 
 emissienorm op boorddocumenten
 
-/  norme d’émission dans documents
-
 de bord
 
 prélèvement kilométrique  Fase I / Stage I  Euro I  Fase II / Stage II  Euro II  Fase IIIa / Stage IIIa  Tier 3  Euro III  Fase IIIb / Stage IIIb  Tier 4i  Euro V  Fase IV / Stage IV  Tier 4  Euro VI
@@ -2896,8 +2705,6 @@ b) lorsqu’aucune norme d’émission, exprimée en «  Stage » ou en « Tier 
 b) als er geen emissienorm, uitgedrukt in "Fase" of in  "Tier", is vermeld op de boorddocumenten van het  voertuig, conform de volgende tabel:
 
 datum van eerste inschrijving van het voertuig in het binnen- of
-
-/  date de première immatriculation du véhicule dans le pays ou à l’étranger
 
 prélèvement kilométrique  vanaf 1 januari 1999 tot en met 31
 
@@ -2922,8 +2729,6 @@ vanaf 1 januari 2014  à partir du 1er janvier 2014  Euro VI
 2° voor vrachtwagens en andere voertuigen dan de  voertuigen, vermeld in punt 1°, als er geen emissienorm  is vermeld op de boorddocumenten van het voertuig:
 
 datum van eerste inschrijving van het voertuig in het binnen- of
-
-/  date de première immatriculation du véhicule dans le pays ou à
 
 prélèvement kilométrique  vanaf 1 oktober 1993 tot en met 30
 
@@ -3287,35 +3092,21 @@ voorgaande gedeelte in euro
 
 euro
 
-/  pourcentage qui s'applique à la
-
-/  montant total de la taxe sur la partie
-
-/  tranche du revenu cadastral en euros
-
 précédente en euros  tot en met 12.350
 
 ## partie correspondante
-
-/  jusqu'à 12.350 inclus
 
 168  /
 
 van 12.351 tot en met 37.150
 
-/  de 12.351 à 37.150
-
 140  20.748
 
 van 37.151 tot en met 74.350
 
-/  de 37.151 à 74.350
-
 112  55.468
 
 vanaf 74.351
-
-/  à partir de 74.351
 
 84  97.132
 
@@ -3995,8 +3786,6 @@ In afwijking van artikel 2.7.3.3.1 wordt de belastbare  waarde van de goederen d
 
 Leeftijdscoëfficiënt
 
-/  Coefficient d'âge
-
 /  âge de celui sur la tête de qui la rente est créée  18  ≤ 20  17  > 20-30  16  > 30-40  14  > 40-50  13  > 50-55  11  > 55-60  9,5  > 60-65  8  > 65-70  6  > 70-75  4  > 75-80  2  > 80
 
 6° voor het op het hoofd van een derde gevestigde  vruchtgebruik : de jaarlijkse opbrengst van de goederen,  berekend tegen 4% van de waarde van de volle  eigendom, te vermenigvuldigen met het cijfer, vermeld  in punt 5° ;
@@ -4231,15 +4020,9 @@ tekst is in werking getreden op 1 januari 2015 (art. 325)
 
 TABEL I : tarief voor een verkrijging in rechte lijn en tussen partners
 
-/  A Schijf in euro
-
-/  A tranche en euros
-
 Vanaf
 
 tot en met
-
-/  A partir de
 
 sur les tranches  précédentes en euro  0,01  50.000  3  50.000,01  250.000  9  1.500  250.000,01  27  19.500  0,01  50.000  3
 
@@ -4249,15 +4032,9 @@ TABEL II : tarief voor een andere verkrijging dan de verkrijgingen, vermeld in t
 
 A Schijf in euro
 
-/  A Tranche en euros
-
 Vanaf
 
 tot en met
-
-/  A partir de
-
-/  jusqu'à
 
 0,01  35.000  25  35.000,01  75.000  30  45  8.750  75.000,01  55  20.750  26.750
 
@@ -5019,9 +4796,7 @@ tekst is in werking getreden op 1 januari 2015 (art. 325)
 
 § 1. De schenkbelasting voor de schenkingen van  onroerende goederen wordt berekend volgens het tarief,  vermeld in de onderstaande tabellen :
 
-TABEL I
-
-/  tranche de la donation
+## Tabel I
 
 tarief, toepasselijk op het  overeenstemmende gedeelte in
 
@@ -5031,30 +4806,16 @@ A schijf in euro
 
 kolom A, in %
 
-/  A tranche en euros
-
-/  tarif applicable à la tranche  correspondante figurant dans la
-
-/  montant total de la taxe sur les  tranches précédentes, en euros
-
 colonne A, en %
 
 Vanaf
 
 tot en met
-
-/  A partir de
-
-/  à  0,01  150.000  3  -  150.000,01  250.000  9  4500  250.000,01  450.000  18  13.500  450.000,01  27  49.500
 
 TABEL II
 
 tarief tussen alle andere personen
 
-/  tarif entre toutes les autres personnes  gedeelte van de schenking
-
-/  tranche de la donation
-
 tarief, toepasselijk op het  overeenstemmende gedeelte in
 
 totaalbedrag van de belasting over  de voorgaan- de gedeelten, in euro
@@ -5063,21 +4824,11 @@ A schijf in euro
 
 kolom A, in %
 
-/  A tranche en euros
-
-/  tarif applicable à la tranche  correspondante figurant dans la
-
-/  montant total de la taxe sur les  tranches précédentes, en euros
-
 colonne A, en %
 
 Vanaf
 
 tot en met
-
-/  A partir de
-
-/  à  0,01  150.000  10  -  150.000,01  250.000  20  15.000  250.000,01  450.000  30  35.000  450.000,01  40  95.000
 
 § 2. Het tarief van de schenkbelasting voor de  schenkingen van roerende goederen bedraagt :
 
@@ -5167,15 +4918,9 @@ TABEL I verkrijging in rechte lijn en tussen partners
 
 gedeelte van de schenking A Schijf in euro
 
-/  A tranche en euros
-
 Vanaf
 
 tot en met
-
-/  A partir de
-
-/  jusqu'à
 
 0,01  12.500  1  -  12.500,01  25.000  2  125  25.000,01  50.000  3  375  50.000,01  100.000  5  1.125  100.000,01  150.000  8  3.625  150.000,01  200.000  14  7.625  200.000,01  250.000  18  14.625  250.000,01  500.000  24  23.625  500.000,01  30  83.625
 
@@ -5183,11 +4928,7 @@ TABEL II tarief tussen broers en zussen
 
 gedeelte van de schenking A Schijf in euro
 
-/  A tranche en euros
-
 Vanaf
-
-/  A partir de
 
 0,01  150.000  10  -  150.000,01  175.000  50  15.000  175.000,01  65  27.500
 
@@ -5195,11 +4936,7 @@ TABEL III tarief tussen ooms, tantes, neven en nichten
 
 gedeelte van de schenking A Schijf in euro
 
-/  A tranche en euros
-
 Vanaf
-
-/  A partir de
 
 0,01  150.000  10  -
 
@@ -5207,11 +4944,7 @@ TABEL IV tarief tussen alle andere personen
 
 gedeelte van de schenking A Schijf in euro
 
-/  A tranche en euros
-
 Vanaf
-
-/  A partir de
 
 0,01  150.000  10  -  150.000,01  175.000  65  15.000  175.000,01  80  31.250
 
@@ -5271,17 +5004,9 @@ overeenstemmende  gedeelte in kolom A, in %
 
 euro
 
-/  tarif applicable à la tranche
-
-/  montant total de la taxe sur
-
 Vanaf
 
 tot en met
-
-/  A partir de
-
-/  à
 
 correspondante figurant  dans la colonne A, en %
 
@@ -5299,25 +5024,15 @@ totaalbedrag van de
 
 tarief, toepasselijk op het
 
-/  A tranche en euros
-
 belasting over de  voorgaan- de gedeelten, in
 
 overeenstemmende  gedeelte in kolom A, in %
 
 euro
 
-/  tarif applicable à la tranche
-
-/  montant total de la taxe sur
-
 Vanaf
 
 tot en met
-
-/  A partir de
-
-/  à
 
 correspondante figurant  dans la colonne A, en %
 
@@ -7407,11 +7122,7 @@ taxe est levée sur :  1° het bedrag van de sommen of inleggelden die ingezet  
 
 A. schijf in euro
 
-/  A. tranche en euros
-
 Vanaf
-
-/  à partir de
 
 0,01  865.000  33  865.000,01  44  285.450
 
@@ -7420,8 +7131,6 @@ Vanaf
 3° het percentage in de volgende tabel dat overeenstemt  met de schijf van de opbrengst voor de met casinospelen  gelijkgestelde automatische ontspanningstoestellen,  vermeld in artikel 2.13.6.0.1, 2°:
 
 A. schijf in euro  tarief toepasselijk op het
-
-/  A. tranche en euros
 
 vanaf  tot en met
 
@@ -7566,10 +7275,6 @@ La taxe est calculée sur la base du tarif par année  calendaire, visé dans le
 De belasting wordt berekend volgens het tarief per  kalenderjaar, vermeld in de volgende tabel:
 
 categorie van het toestel
-
-/  tarif en euro  1  4.600  2  500  3  55  4  0
-
-/  catégorie de l’appareil
 
 Een vierde van de belasting, vermeld in het eerste lid, is  verschuldigd voor elk kwartaal waarin een automatisch  ontspanningstoestel is opgesteld.
 
@@ -11345,8 +11050,6 @@ De administratieve geldboete, vermeld in het tweede lid,  wordt berekend volgens
 
 Categorie van  de overtreding
 
-/  Catégorie  d'infraction
-
 euros)  A  -manipulatie van de  boordapparatuur;  -vervalsing van de voertuigdocumenten  die nodig zijn om het maximaal  toegestane totaalgewicht en de euro- emissieklasse van het voertuig te  bepalen;
 
 B  -er is geen boordapparatuur voor België  aan boord van het voertuig;  -er is geen  dienstverleningsovereenkomst afgesloten  voor het betrokken voertuig;
@@ -11429,23 +11132,13 @@ Als iemand verschillende overtredingen als vermeld in  het eerste lid gepleegd h
 
 ogenblik van indiening na het verstrijken van de aangiftetermijn
 
-/  moment de l'introduction après l'échéance du délai de la déclaration
-
 Vanaf
-
-/  jusqu'au dernier jour de  dag 1  maand 5  5  maand 6  maand 11  10  maand 12  maand 17  15  maand 18  20
-
-/  à partir de
 
 § 2. Als met toepassing van artikel 3.3.1.0.7 de  aangiftetermijn is verlengd, is elke persoon die tot de  aangifte gehouden is, in afwijking van paragraaf 1 een  belastingverhoging verschuldigd, conform de  onderstaande tabel :
 
 déclaration est prolongé, toute personne qui est tenue  d'introduire  une  déclaration, en  dérogation  au  paragraphe 1er, est redevable d'une majoration d'impôt,  conformément au tableau ci-dessous :  ogenblik van indiening na het verstrijken van de aangiftetermijn
 
-/  moment de l'introduction après l'échéance du délai de la déclaration
-
 Vanaf
-
-/  à partir de
 
 Als  met  toepassing  van  artikel  3.3.1.0.7  de  aangiftetermijn is verlengd, en de aangifte niet binnen de  toegestane verlengingstermijn wordt ingediend, wordt  paragraaf 1 opnieuw van toepassing.
 
@@ -11488,8 +11181,6 @@ Als wordt vastgesteld dat de aangegeven waarde van de  aangegeven  goederen  te 
 verhouding van het tekort in % ten opzichte van de aangegeven waarde van
 
 aanvullende rechten  /  rapport du manque en % par rapport à la valeur déclarée du bien
-
-/  majoration d'impôt en %  des droits complémentaires  Vanaf / De  Tot 10  25  5  25  50  10  50  100  15  100  20
 
 In  afwijking  van  het  eerste  lid,  wordt  de  belastingverhoging verminderd tot de helft van het  percentage van de verschuldigde aanvullende rechten,  vermeld in het eerste lid, als een erfgenaam, legataris of  begiftigde uit eigen beweging, en binnen tien maanden  na hetzij het overlijden, hetzij de start van de  aangiftetermijn zoals berekend overeenkomstig artikel  3.3.1.0.6, derde of vierde lid, voor een goed dat in  afwijking van artikel 3.3.1.0.8 voor een te lage waarde  was opgenomen in de aangifte, alsnog een hogere  waarde aangeeft.
 
@@ -11594,8 +11285,6 @@ Une augmentation de l’impôt de 50 % des droits  complémentaires  en  matièr
 S'il est constaté que la valeur qui est indiquée ou le prix  qui est indiqué pour le calcul de impôt d’enregistrement  est trop faible, une majoration d'impôt est due  conformément au tableau ci-dessous :
 
 Als wordt vastgesteld dat de waarde die aangegeven is  of de prijs die opgegeven is voor de berekening van de  registratiebelasting, te laag is, is een belastingverhoging  verschuldigd, conform de onderstaande tabel :
-
-/  rapport du manque en % par rapport à la valeur indiquée du bien
 
 complémentaires  Vanaf / De  Tot 10  25  5  25  50  10  50  100  15  100  20
 

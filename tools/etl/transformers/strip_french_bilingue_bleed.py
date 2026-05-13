@@ -36,6 +36,7 @@ _FR_MARKERS = (
     r"Article\s+\d+",  # FR "Article" (NL gebruikt "Artikel")
     r"L['']article\b",
     r"Pour\s+l['']application\b",
+    r"Pour\s+l['']exécution\b",
     r"Au\s+sens\s+du\b",
     r"L['']exécution\b",
     r"Sont\s+considérées\b",
@@ -43,8 +44,20 @@ _FR_MARKERS = (
     r"En\s+vertu\s+de\b",
     r"Par\s+dérogation\b",
     r"Conformément\s+à\b",
-    r"Aux\s+fins\b",
+    r"Aux?\s+fins\b",
     r"Le\s+Roi\b",  # "Le Roi" = "De Koning"
+    r"Lorsque\s+\S+",  # FR conditional
+    r"Sont\s+considérés\b",
+    r"Il\s+(?:est|n'est)\b",
+    r"Cette\s+(?:loi|disposition)\b",
+    r"Ces\s+\S+",
+    r"Par\s+\S+",  # Par décret, Par arrêté, ...
+    r"Les\s+\S+\s+(?:de|du|des|à|au)\b",  # Les modalités de ...
+)
+
+# FR-tabel-continuation rij: regel begint met '/  ' gevolgd door FR-content.
+_FR_TABLE_ROW_RE = re.compile(
+    r"^\s*/\s+[A-Za-zéàèîôûïüç']",
 )
 
 # Regel met 2+ spaties gevolgd door FR-marker.
@@ -60,6 +73,9 @@ def strip_french_bilingue_bleed(body: str, frontmatter: dict) -> tuple[str, dict
     """
     out_lines: list[str] = []
     for line in body.split("\n"):
+        # FR-tabel-rij (regel begint met '/  FR-tekst') — strip volledig.
+        if _FR_TABLE_ROW_RE.match(line):
+            continue
         m = _BILINGUE_PATTERN.match(line)
         if m:
             nl_part = m.group(1).rstrip()
