@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:34:50Z'
+    confirmed_at: '2026-05-13T13:45:36Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Hoofdtekst (47 artikelen verdeeld over 6 hoofdstukken) is structureel sterk: 'btw-identificatienummer' is correct gefixt door fix_pdftotext_glue_bugs (regel 848). De afgekapte zin 'overbrenging overeenkomstig artikel 39bis, eerste lid, 4°, van het Bovendien is...' op regel 848 ontbreekt vermoedelijk 'Wetboek.' — gezien de zin direct logisch doorloopt ('Bovendien' begint nieuwe zin) is dit een echte source-typo in de Fisconet-PDF (vergelijkbaar met de KB10 'waarde'-typo). De Bijlage (regels 1066-1085) en de tabaks-/alcohol-/koffie-vrijstellingen (regels 961-1018) hebben PDF-table-bleed: hoeveelheden zijn versmolten met productomschrijvingen zonder pipe-tabel-syntax. Echter de content blijft leesbaar voor RAG-retrieval — alle bedragen en hoeveelheden zijn aanwezig, alleen niet als markdown-tabel. Dit is een bron-eigenschap (Fisconet bewaart pseudo-tabellen) en geen structureel ETL-falen."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:34:50Z'
+      run_at: '2026-05-13T13:45:36Z'
       rationale: "Hoofdtekst (47 artikelen verdeeld over 6 hoofdstukken) is structureel sterk: 'btw-identificatienummer' is correct gefixt door fix_pdftotext_glue_bugs (regel 848). De afgekapte zin 'overbrenging overeenkomstig artikel 39bis, eerste lid, 4°, van het Bovendien is...' op regel 848 ontbreekt vermoedelijk 'Wetboek.' — gezien de zin direct logisch doorloopt ('Bovendien' begint nieuwe zin) is dit een echte source-typo in de Fisconet-PDF (vergelijkbaar met de KB10 'waarde'-typo). De Bijlage (regels 1066-1085) en de tabaks-/alcohol-/koffie-vrijstellingen (regels 961-1018) hebben PDF-table-bleed: hoeveelheden zijn versmolten met productomschrijvingen zonder pipe-tabel-syntax. Echter de content blijft leesbaar voor RAG-retrieval — alle bedragen en hoeveelheden zijn aanwezig, alleen niet als markdown-tabel. Dit is een bron-eigenschap (Fisconet bewaart pseudo-tabellen) en geen structureel ETL-falen."
       concrete_problemen:
         - "Regel 848 (Art. 39 §1): 'van het Bovendien is...' — afgekapte zin, vermoedelijk ontbrekend 'Wetboek.' (source-typo)"

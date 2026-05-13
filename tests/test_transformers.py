@@ -2531,3 +2531,67 @@ class TestPromoteRomanRubrieken:
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "promote_roman_rubrieken" in TRANSFORMERS
+
+
+class TestReorderHeadingCluster:
+    def test_eu_witwassen_pattern(self):
+        from tools.etl.transformers.reorder_heading_cluster import reorder_heading_cluster
+        body = (
+            "Body Art. 3.\n"
+            "\n"
+            "Art4 body paragraph hier.\n"
+            "\n"
+            "Art5 body paragraph hier.\n"
+            "\n"
+            "Art6 body paragraph hier.\n"
+            "\n"
+            "Art7 body paragraph hier.\n"
+            "\n"
+            "###### Artikel 4\n"
+            "\n"
+            "Medeplichtigheid\n"
+            "\n"
+            "###### Artikel 5\n"
+            "\n"
+            "Sancties\n"
+            "\n"
+            "###### Artikel 6\n"
+            "\n"
+            "Verzwarende\n"
+            "\n"
+            "###### Artikel 7\n"
+            "\n"
+            "Aansprakelijkheid\n"
+            "\n"
+            "Continuation.\n"
+        )
+        result, _ = reorder_heading_cluster(body, {})
+        # Headings nu voor hun body
+        assert "###### Artikel 4 — Medeplichtigheid" in result
+        assert "###### Artikel 5 — Sancties" in result
+        assert "###### Artikel 6 — Verzwarende" in result
+        assert "###### Artikel 7 — Aansprakelijkheid" in result
+        # En het cluster aan het einde is weg
+        idx_art4 = result.index("Artikel 4")
+        idx_art4body = result.index("Art4 body")
+        assert idx_art4 < idx_art4body
+
+    def test_no_cluster_passthrough(self):
+        from tools.etl.transformers.reorder_heading_cluster import reorder_heading_cluster
+        body = "###### Artikel 1\nBody\n\n###### Artikel 2\nMore body.\n"
+        result, _ = reorder_heading_cluster(body, {})
+        assert result == body
+
+    def test_idempotent(self):
+        from tools.etl.transformers.reorder_heading_cluster import reorder_heading_cluster
+        body = (
+            "A body\n\nB body\n\nC body\n\n"
+            "###### Artikel 4\n\nA\n\n###### Artikel 5\n\nB\n\n###### Artikel 6\n\nC\n\nMore.\n"
+        )
+        once, _ = reorder_heading_cluster(body, {})
+        twice, _ = reorder_heading_cluster(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "reorder_heading_cluster" in TRANSFORMERS

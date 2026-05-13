@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:34:50Z'
+    confirmed_at: '2026-05-13T13:45:36Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Het TOC-duplicatie-probleem is volledig opgelost: regels 55-69 (oud TOC-blok met '## AFDELING 1' + '### Onderafdeling 1-4' met enkel artikel-ranges) zijn gestript. De echte sectie-headings staan nu op hun juiste plaats (Afdeling 1 op r57, Afdeling 2 op r223, Afdeling 3 op r242, Afdeling 4 op r258, Afdeling 5 op r277) met de bijbehorende content en wijzigingshistoriek. Onderafdelingen 1-4 staan op hun juiste plek binnen Afdeling 1, gevolgd door hun artikelen. De spurious linebreaks midden in headings ('Inning en\\nInvordering', 'Mini One Stop Shop\\n- VAT BE') zijn verdwenen. Geen duplicaten meer. Alle 24 artikelen (Art. 1 t/m Art. 24, plus Art. 13bis en Art. 13ter) aanwezig met juiste structuur. Het resterende fragment 'Disposition temporaire Art. 13ter' op regel 55 is een Franstalig leak-fragment van 36 karakters — valt binnen de uitzondering (cosmetisch <50 chars, geen retrieval-impact omdat het geen valide heading is en als losstaande zin embedt). Resterende issues zijn puur cosmetisch (smart-quote-stijl-inconsistentie op r198/236/238, dubbele spatie op r259) en hebben geen impact op retrieval-kwaliteit of inhoudelijke betrouwbaarheid."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:34:50Z'
+      run_at: '2026-05-13T13:45:36Z'
       rationale: "Het TOC-duplicatie-probleem is volledig opgelost: regels 55-69 (oud TOC-blok met '## AFDELING 1' + '### Onderafdeling 1-4' met enkel artikel-ranges) zijn gestript. De echte sectie-headings staan nu op hun juiste plaats (Afdeling 1 op r57, Afdeling 2 op r223, Afdeling 3 op r242, Afdeling 4 op r258, Afdeling 5 op r277) met de bijbehorende content en wijzigingshistoriek. Onderafdelingen 1-4 staan op hun juiste plek binnen Afdeling 1, gevolgd door hun artikelen. De spurious linebreaks midden in headings ('Inning en\\nInvordering', 'Mini One Stop Shop\\n- VAT BE') zijn verdwenen. Geen duplicaten meer. Alle 24 artikelen (Art. 1 t/m Art. 24, plus Art. 13bis en Art. 13ter) aanwezig met juiste structuur. Het resterende fragment 'Disposition temporaire Art. 13ter' op regel 55 is een Franstalig leak-fragment van 36 karakters — valt binnen de uitzondering (cosmetisch <50 chars, geen retrieval-impact omdat het geen valide heading is en als losstaande zin embedt). Resterende issues zijn puur cosmetisch (smart-quote-stijl-inconsistentie op r198/236/238, dubbele spatie op r259) en hebben geen impact op retrieval-kwaliteit of inhoudelijke betrouwbaarheid."
       concrete_problemen:
         - "Regel 55: 'Disposition temporaire Art. 13ter' — Franstalig leak-fragment (36 chars, cosmetisch — valt binnen uitzondering)"

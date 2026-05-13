@@ -34,7 +34,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:34:45Z'
+    confirmed_at: '2026-05-13T13:45:31Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Laag 1: pass, heading_count 0 — correct want het is een korte procedurenota die na de H1-titel enkel doorlopende proza bevat zonder tussenkoppen (inhoud rechtvaardigt dit). Één voetnoot [^1] correct gedefinieerd en gerefereerd. Geen extractie-artefacten. Inhoud compleet en afgerond.'
     layer1:
@@ -48,7 +48,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:34:45Z'
+      run_at: '2026-05-13T13:45:31Z'
       rationale: 'Laag 1: pass, heading_count 0 — correct want het is een korte procedurenota die na de H1-titel enkel doorlopende proza bevat zonder tussenkoppen (inhoud rechtvaardigt dit). Één voetnoot [^1] correct gedefinieerd en gerefereerd. Geen extractie-artefacten. Inhoud compleet en afgerond.'
       concrete_problemen: []
 ---

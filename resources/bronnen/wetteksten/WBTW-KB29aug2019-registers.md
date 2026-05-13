@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:34:49Z'
+    confirmed_at: '2026-05-13T13:45:35Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "strip_kb_bijwerkingen heeft de 'Recent opgeheven of vervangen koninklijke besluiten' appendix volledig verwijderd (vroeger regels 65-73). Bestand is nu 60 regels schoon: enkel hoofdtekst van een KB met 3 artikelen, alle als ## Art. heading. Geen kolom-bleed meer, geen plain-text appendix. Source-typo 'cöordinatie' op regel 47 blijft (categorie source). Ziet eruit als een nieuw geschreven KB-stub."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:34:49Z'
+      run_at: '2026-05-13T13:45:35Z'
       rationale: "strip_kb_bijwerkingen heeft de 'Recent opgeheven of vervangen koninklijke besluiten' appendix volledig verwijderd (vroeger regels 65-73). Bestand is nu 60 regels schoon: enkel hoofdtekst van een KB met 3 artikelen, alle als ## Art. heading. Geen kolom-bleed meer, geen plain-text appendix. Source-typo 'cöordinatie' op regel 47 blijft (categorie source). Ziet eruit als een nieuw geschreven KB-stub."
       concrete_problemen:
         - "Regel 47: 'cöordinatie' OCR-typo (categorie source)"

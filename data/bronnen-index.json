@@ -373,10 +373,10 @@
         "1.2",
         "4.0"
       ],
-      "trust_status": "needs-rework",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": "default",
       "layer1_status": null,
-      "layer2_status": "needs-rework"
+      "layer2_status": null
     },
     {
       "bestand": "KB-1998-plichtenleer.md",

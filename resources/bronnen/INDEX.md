@@ -8,10 +8,10 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 133 | 114 | — | 12 | 7 | — |
+| Wetteksten | 133 | 114 | 1 | 11 | 7 | — |
 | Normen | 19 | 4 | — | 14 | 1 | — |
 | Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **588** | 540 | — | 40 | 8 | — |
+| **Totaal** | **588** | 540 | 1 | 39 | 8 | — |
 
 ## Wetteksten (133)
 
@@ -29,13 +29,13 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `Belastingalmanak-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Belastingalmanak 2026 — ITAA / Larcier-Intersentia |
 | `belastinggids-aclvb-2025.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Belastinggids 2025 — ACLVB |
 | `Cijfers-Tarieven-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Cijfers & tarieven 2026 — ITAA |
-| `EU-Richtlijn-witwassen-2018-1673.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inza… |
 | `fiscaal-memento-2025.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Fiscaal Memento 2025 — FOD Financiën (editie 12/2024) |
 | `toelichting-PB-2025-deel1-VG.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Vlaams Gewest |
 | `toelichting-PB-2025-deel2.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Deel 2 |
 | `toelichting-VenB-2025.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de vennootschapsbelasting — AJ 2025 |
 | `WBTW-KB41-proportionele-geldboeten.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele f… |
 | `WBTW-KB44-geldboeten.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 44 van 9 juli 2012, tot vaststelling van het bedrag van de niet-proportionele … |
+| `EU-Richtlijn-witwassen-2018-1673.md` | ◻️ unreviewed | — | — | default | Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inza… |
 | `aangifte-PB-2025-bezoldigingen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-bezoldigingen |
 | `aangifte-PB-2025-stopzetting.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-stopzetting |
 | `Antiwitwaswet-2017.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van … |

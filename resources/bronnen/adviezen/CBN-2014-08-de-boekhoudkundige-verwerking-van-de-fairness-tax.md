@@ -26,7 +26,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:34:44Z'
+    confirmed_at: '2026-05-13T13:45:29Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Kort advies (2393 chars, 2 headings), geen extractie-artefacten aangetroffen. Voetnoten [^1]–[^6] volledig gedefinieerd en correct geankerd. Markdown ziet er mens-geschreven uit.
     layer1:
@@ -40,7 +40,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:34:44Z'
+      run_at: '2026-05-13T13:45:29Z'
       rationale: Kort advies (2393 chars, 2 headings), geen extractie-artefacten aangetroffen. Voetnoten [^1]–[^6] volledig gedefinieerd en correct geankerd. Markdown ziet er mens-geschreven uit.
       concrete_problemen: []
 ---

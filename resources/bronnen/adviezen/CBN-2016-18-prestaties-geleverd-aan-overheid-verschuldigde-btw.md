@@ -25,7 +25,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:34:41Z'
+    confirmed_at: '2026-05-13T13:45:26Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Kort, helder advies zonder artefacten. Twee ##-headings, acht voetnoten allemaal correct. Geen structuur- of opmaakproblemen.'
     layer1:
@@ -39,7 +39,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:34:41Z'
+      run_at: '2026-05-13T13:45:26Z'
       rationale: 'Kort, helder advies zonder artefacten. Twee ##-headings, acht voetnoten allemaal correct. Geen structuur- of opmaakproblemen.'
       concrete_problemen: []
 ---

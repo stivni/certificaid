@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:34:48Z'
+    confirmed_at: '2026-05-13T13:45:35Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Korte KB met 4 artikelen. Geen footer-artefact, schone heading-hierarchie, amendment-markers consistent. Eindigt netjes op Art. 4. Buitenstaander zou dit als handgeschreven markdown kunnen lezen.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:34:48Z'
+      run_at: '2026-05-13T13:45:35Z'
       rationale: Korte KB met 4 artikelen. Geen footer-artefact, schone heading-hierarchie, amendment-markers consistent. Eindigt netjes op Art. 4. Buitenstaander zou dit als handgeschreven markdown kunnen lezen.
       concrete_problemen: []
 ---

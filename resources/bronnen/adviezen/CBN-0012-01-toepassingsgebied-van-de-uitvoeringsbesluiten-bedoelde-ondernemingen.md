@@ -28,7 +28,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:34:35Z'
+    confirmed_at: '2026-05-13T13:45:21Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Enige door vorige verdict gemelde issue: 'oger is dan 25 miljoen frank' (r53, moet 'hoger' zijn) — source-typo letterlijk in bron-HTML. A6-bug (zin gesplitst) is verholpen. Inhoud volledig, voetnoot correct. Geen ETL-bugs aangetroffen."
     layer1:
@@ -42,7 +42,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:34:35Z'
+      run_at: '2026-05-13T13:45:21Z'
       rationale: "Enige door vorige verdict gemelde issue: 'oger is dan 25 miljoen frank' (r53, moet 'hoger' zijn) — source-typo letterlijk in bron-HTML. A6-bug (zin gesplitst) is verholpen. Inhoud volledig, voetnoot correct. Geen ETL-bugs aangetroffen."
       concrete_problemen:
         - regel: 53

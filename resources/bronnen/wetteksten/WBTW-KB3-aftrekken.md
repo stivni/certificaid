@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:34:49Z'
+    confirmed_at: '2026-05-13T13:45:35Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Groot bestand (445 regels, 23 artikelen + afdelingen). Goede hiërarchische structuur: H1 → ## AFDELING I-VI → ### Art. 1-23 met sub-bis/ter/quater. Wijzigingstoelichting bovenaan elke artikel, lijstmarkers 1°-7° consistent, §-paragraaf-structuur duidelijk. Eerder gesignaleerde minor issues (§ alleen op aparte regel bij artikel-overgangen, footnote-marker (1)/(2) inline) zijn typische wettekst-conventies en geen ETL-artefacten die de leesbaarheid breken. Geen TOC-pollutie, geen running-headers, geen Fisconet-footer. Voor een buitenstaander leest dit als een nette wettekst-compilatie.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:34:49Z'
+      run_at: '2026-05-13T13:45:35Z'
       rationale: 'Groot bestand (445 regels, 23 artikelen + afdelingen). Goede hiërarchische structuur: H1 → ## AFDELING I-VI → ### Art. 1-23 met sub-bis/ter/quater. Wijzigingstoelichting bovenaan elke artikel, lijstmarkers 1°-7° consistent, §-paragraaf-structuur duidelijk. Eerder gesignaleerde minor issues (§ alleen op aparte regel bij artikel-overgangen, footnote-marker (1)/(2) inline) zijn typische wettekst-conventies en geen ETL-artefacten die de leesbaarheid breken. Geen TOC-pollutie, geen running-headers, geen Fisconet-footer. Voor een buitenstaander leest dit als een nette wettekst-compilatie.'
       concrete_problemen:
         - Sub-strategy frontmatter-veld is leeg (chunk.sub_strategy:) — niet retrieval-blokkerend

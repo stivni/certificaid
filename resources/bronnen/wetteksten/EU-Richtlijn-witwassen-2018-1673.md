@@ -17,52 +17,19 @@ provenance:
       version: 12.11.2018
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 5080c593
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:25:13Z'
+  generated_at: '2026-05-13T13:45:08Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:26:35Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A7/B5: de heading-structuur is ernstig verward door 2-kolom extractie. Artikel-titels staan ACHTER de artikelinhoud in plaats van ervoor: zo staat de body-tekst van Art. 4 t/m Art. 10 op regels 227-311, terwijl de bijbehorende ###### headings ('Artikel 4. Medeplichtigheid...', 'Artikel 5. Sancties...') pas op regels 249-325 verschijnen — de opmaak-kolom rechts met de korte artikel-titels is later in de body ingevoerd dan de inhoud-kolom links. Dit maakt de structuur onleesbaar voor RAG."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:26:35Z'
-      rationale: "A7/B5: de heading-structuur is ernstig verward door 2-kolom extractie. Artikel-titels staan ACHTER de artikelinhoud in plaats van ervoor: zo staat de body-tekst van Art. 4 t/m Art. 10 op regels 227-311, terwijl de bijbehorende ###### headings ('Artikel 4. Medeplichtigheid...', 'Artikel 5. Sancties...') pas op regels 249-325 verschijnen — de opmaak-kolom rechts met de korte artikel-titels is later in de body ingevoerd dan de inhoud-kolom links. Dit maakt de structuur onleesbaar voor RAG."
-      concrete_problemen:
-        - regel: 227
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: 1. De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat de hierna genoemde omstandigheden... [dit is Art. 6 inhoud, maar Art. 6 heading staat pas op r.257]
-        - regel: 233
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: 1. De lidstaten nemen de nodige maatregelen... [Art. 7 inhoud voor heading Art. 7 op r.261]
-        - regel: 245
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: 1. De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat rechtspersonen aansprakelijk kunnen worden gesteld... [Art. 7 body voor heading]
-        - regel: 249
-          categorie: B5
-          type: other
-          voorbeeld: '###### Artikel 4 Medeplichtigheid, uitlokking en poging [heading na content van Art.4]'
-        - regel: 273
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat een rechtspersoon... [Art. 8 body voor heading op r.315]
-        - regel: 327
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: 1. Elke lidstaat neemt de nodige maatregelen om zijn rechtsmacht te vestigen... [Art. 10 body voor heading op r.323]
-        - regel: 349
-          categorie: B5
-          type: other
-          voorbeeld: '###### Artikel 11 Onderzoeksmiddelen [heading na body-tekst van Art.11 op r.327]'
 ---
 
 # Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld
@@ -385,7 +352,7 @@ Verslaglegging
 
 ###### Artikel 15
 
-Inwerkingtreding
+## Inwerkingtreding
 
 ###### Artikel 16
 

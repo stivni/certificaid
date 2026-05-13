@@ -47,7 +47,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:34:36Z'
+    confirmed_at: '2026-05-13T13:45:22Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Vorige D4-issue (*Voorraadwijziging * met spatie vóór asterisk) is gefixeerd — body toont nu correct *Voorraadwijziging* (bv. 6096) zonder trailing space. Vier inhoudelijke secties volledig aanwezig, voetnoot [^1] correct gelinkt.
     layer1:
@@ -61,7 +61,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:34:36Z'
+      run_at: '2026-05-13T13:45:22Z'
       rationale: Vorige D4-issue (*Voorraadwijziging * met spatie vóór asterisk) is gefixeerd — body toont nu correct *Voorraadwijziging* (bv. 6096) zonder trailing space. Vier inhoudelijke secties volledig aanwezig, voetnoot [^1] correct gelinkt.
       concrete_problemen: []
 ---

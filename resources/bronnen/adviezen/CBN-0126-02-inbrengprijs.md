@@ -40,7 +40,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:34:37Z'
+    confirmed_at: '2026-05-13T13:45:23Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Vorige L2 flagde D4 broken italic op regel 61 ('*Oprichtingskosten *als'), maar de werkelijke body toont '*Oprichtingskosten* als *Kosten van oprichting en kapitaalverhoging*' correct gesloten — scraper-fix D4 effectief. Body kort (1653 chars), twee alinea's, drie voetnoten correct. Geen extractie-artefacten.
     layer1:
@@ -54,7 +54,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:34:37Z'
+      run_at: '2026-05-13T13:45:23Z'
       rationale: Vorige L2 flagde D4 broken italic op regel 61 ('*Oprichtingskosten *als'), maar de werkelijke body toont '*Oprichtingskosten* als *Kosten van oprichting en kapitaalverhoging*' correct gesloten — scraper-fix D4 effectief. Body kort (1653 chars), twee alinea's, drie voetnoten correct. Geen extractie-artefacten.
       concrete_problemen: []
 ---

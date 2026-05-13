@@ -29,7 +29,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:34:43Z'
+    confirmed_at: '2026-05-13T13:45:28Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen ETL-artefacten gevonden: geen U+2010-dashes, geen HTML-entities, geen duplicate headings, geen typefouten. Body volledig en logisch; voetnoot correct. Inhoud beantwoordt aan de bestandsnaam. Ziet eruit als schone markdown.'
     layer1:
@@ -43,7 +43,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:34:43Z'
+      run_at: '2026-05-13T13:45:28Z'
       rationale: 'Geen ETL-artefacten gevonden: geen U+2010-dashes, geen HTML-entities, geen duplicate headings, geen typefouten. Body volledig en logisch; voetnoot correct. Inhoud beantwoordt aan de bestandsnaam. Ziet eruit als schone markdown.'
       concrete_problemen: []
 ---

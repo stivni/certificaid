@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:34:30Z'
+    confirmed_at: '2026-05-13T13:45:15Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "L1 pass: 1129 headings, max sectie 11482 chars. ###### Art.-headings correct voor alle strafbepalingen. '#### Art. 119. Deze wet...' is bron-stijl (geen ruimte in origineel). Inhoud volledig."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:34:30Z'
+      run_at: '2026-05-13T13:45:15Z'
       rationale: "L1 pass: 1129 headings, max sectie 11482 chars. ###### Art.-headings correct voor alle strafbepalingen. '#### Art. 119. Deze wet...' is bron-stijl (geen ruimte in origineel). Inhoud volledig."
       concrete_problemen: []
 ---

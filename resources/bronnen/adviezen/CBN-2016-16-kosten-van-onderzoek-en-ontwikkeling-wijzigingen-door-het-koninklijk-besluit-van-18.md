@@ -40,7 +40,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:34:44Z'
+    confirmed_at: '2026-05-13T13:45:29Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Kwalitatief sterk bestand. Tien headings correct genest over drie niveaus. Voetnoten [^1]–[^12] volledig gedefinieerd. Geen tabellen (correct voor dit type advies). Tekst doorlopend en coherent. Geen extractie-artefacten, TOC-residu, form-feed of malformed italic aangetroffen. Inhoud volledig: algemene principes, kosten van onderzoek, kosten van ontwikkeling en overgangsbepaling alle aanwezig.'
     layer1:
@@ -54,7 +54,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:34:44Z'
+      run_at: '2026-05-13T13:45:29Z'
       rationale: 'Kwalitatief sterk bestand. Tien headings correct genest over drie niveaus. Voetnoten [^1]–[^12] volledig gedefinieerd. Geen tabellen (correct voor dit type advies). Tekst doorlopend en coherent. Geen extractie-artefacten, TOC-residu, form-feed of malformed italic aangetroffen. Inhoud volledig: algemene principes, kosten van onderzoek, kosten van ontwikkeling en overgangsbepaling alle aanwezig.'
       concrete_problemen: []
 ---

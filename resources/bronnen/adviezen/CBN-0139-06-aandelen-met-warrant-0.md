@@ -41,7 +41,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:34:44Z'
+    confirmed_at: '2026-05-13T13:45:30Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen artefacten gevonden in categorie A-G. Advies is kort maar volledig: één alinea die duidelijk uitlegt waarom de actuariële methode van 139/5 niet geldt en welke alternatieve aanpak (marktvoorwaarden) van toepassing is. Laag-1 pass, heading_count 0 is correct voor een paragraaf-only advies.'
     layer1:
@@ -55,7 +55,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:34:44Z'
+      run_at: '2026-05-13T13:45:30Z'
       rationale: 'Geen artefacten gevonden in categorie A-G. Advies is kort maar volledig: één alinea die duidelijk uitlegt waarom de actuariële methode van 139/5 niet geldt en welke alternatieve aanpak (marktvoorwaarden) van toepassing is. Laag-1 pass, heading_count 0 is correct voor een paragraaf-only advies.'
       concrete_problemen: []
 ---

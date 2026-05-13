@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:34:50Z'
+    confirmed_at: '2026-05-13T13:45:36Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Lange, complexe wet (9 art, 14kB) met diepe § §-structuur. Markdown is over het geheel volledig en logisch. Inline-redactionele noot in Art. 6 § 3 ([red.: '...']) is een legitieme editorial mark uit source, geen ETL-artefact. Lijstmarkers 1°-3° en bullet-streepjes consistent. Een paar streepjes (-) in Art. 1 § 1 worden inline gebruikt i.p.v. verticale lijst, maar dat is leesbaar en source-conform."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:34:50Z'
+      run_at: '2026-05-13T13:45:36Z'
       rationale: "Lange, complexe wet (9 art, 14kB) met diepe § §-structuur. Markdown is over het geheel volledig en logisch. Inline-redactionele noot in Art. 6 § 3 ([red.: '...']) is een legitieme editorial mark uit source, geen ETL-artefact. Lijstmarkers 1°-3° en bullet-streepjes consistent. Een paar streepjes (-) in Art. 1 § 1 worden inline gebruikt i.p.v. verticale lijst, maar dat is leesbaar en source-conform."
       concrete_problemen:
         - In Art. 1 § 1 worden bullets '- ... or - ...' inline gehouden i.p.v. als markdown-lijst weergegeven — leesbaar, source-conform
