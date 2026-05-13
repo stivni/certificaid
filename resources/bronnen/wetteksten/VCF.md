@@ -17,52 +17,19 @@ provenance:
       version: 03.04.2026
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 1ee4517-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:24:11Z'
+  generated_at: '2026-05-13T12:44:10Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:26:46Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "A8: pervasief kolom-bleed door het volledige document — vrijwel elke paragraaf van elke alinea heeft een Franse kolom-fragment aan het einde van de regel (patroon: 'NL-tekst      FR-fragment'). Dit is een twee-kolom PDF-extractiefout die het gehele bestand onleesbaar maakt voor RAG. Voorbeelden op regels 78–145 (Art. 1.1.0.0.2 definities), 571–593 (Art. 2.1.5.0.1), 630–693 (Art. 2.1.5.0.2) en door de volledige rest van het document."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:26:46Z'
-      rationale: "A8: pervasief kolom-bleed door het volledige document — vrijwel elke paragraaf van elke alinea heeft een Franse kolom-fragment aan het einde van de regel (patroon: 'NL-tekst      FR-fragment'). Dit is een twee-kolom PDF-extractiefout die het gehele bestand onleesbaar maakt voor RAG. Voorbeelden op regels 78–145 (Art. 1.1.0.0.2 definities), 571–593 (Art. 2.1.5.0.1), 630–693 (Art. 2.1.5.0.2) en door de volledige rest van het document."
-      concrete_problemen:
-        - regel: 72
-          categorie: A8
-          type: column-bleed
-          voorbeeld: Deze codex regelt een gewestaangelegenheid.               L
-        - regel: 78
-          categorie: A8
-          type: column-bleed
-          voorbeeld: hoofdsom waarop deze codex van toepassing is, in          a voorkomend geval...
-        - regel: 571
-          categorie: A8
-          type: column-bleed
-          voorbeeld: 5° 100% van de onroerende voorheffing gedurende vijf        5 jaar voor gebouwde onroerende goederen waarvoor de          p
-        - regel: 586
-          categorie: A8
-          type: column-bleed
-          voorbeeld: De termijn van tien jaar, vermeld in het eerste lid, 1° tot   L en met 3°, neemt een aanvang...
-        - regel: 630
-          categorie: A8
-          type: column-bleed
-          voorbeeld: '§ 1. Op aanvraag van de belastingschuldige wordt :          §'
-        - regel: 569
-          categorie: E1
-          type: pseudo-table
-          voorbeeld: datum aanvraag stedenbouwkundige vergunning...   N / date de la demande d'autorisation urbanistique...
-        - regel: 154
-          categorie: A8
-          type: column-bleed
-          voorbeeld: '28° Wetboek van Successierechten : het wetboek van 31 maart 1936 der Succes|Upsierechten.'
 ---
 
 # Vlaamse Codex Fiscaliteit (VCF)
@@ -147,7 +114,7 @@ In deze codex wordt verstaan onder :
 
 28° Wetboek van Successierechten : het wetboek van 31  maart 1936 der Succes|Upsierechten.
 
-In titel 2, hoofdstuk 1, wordt verstaan onder :  Dans le titre 2, chapitre 1 er , on entend par :
+In titel 2, hoofdstuk 1, wordt verstaan onder :
 
 1° persoon met een handicap : de als gehandicapt  aangemerkte personen, vermeld in artikel 135, eerste lid, 1°,  van het federale WIB 92;
 
@@ -155,7 +122,7 @@ In titel 2, hoofdstuk 1, wordt verstaan onder :  Dans le titre 2, chapitre 1 er 
 
 3° grensarbeider : de persoon die in de grensstreek van een  buurland werkt en die volgens het bevolkingsregister op 1  januari van het aanslagjaar zijn woonplaats heeft in de  grensstreek van België, waarnaar hij gewoonlijk dagelijks  of ten minste eenmaal per week terugkeert.
 
-In titel 2, hoofdstuk 2, wordt verstaan onder :  Dans le titre 2, chapitre 2, on entend par :
+In titel 2, hoofdstuk 2, wordt verstaan onder :
 
 1° stoom- of motorvoertuigen : de motorvoertuigen,  omschreven in de reglementering voor de inschrijving van  motorvoertuigen en de aanhangwagens, de stoom- of  motorvaartuigen en -boten en, in het algemeen, alle stoom-  of motorvervoermiddelen tot voortbeweging, alsook de  aanhangwagens en opleggers ervan;
 
@@ -189,7 +156,7 @@ La résidence habituelle d'une personne dont les attaches  professionnelles sont
 
 8° vennootschap: in afwijking van het eerste lid, 21°, een  vennootschap  als  vermeld  in  het  Wetboek  van  vennootschappen en verenigingen.
 
-In titel 2, hoofdstuk 3, wordt verstaan onder :  Dans le titre 2, chapitre 3, on entend par :
+In titel 2, hoofdstuk 3, wordt verstaan onder :
 
 1° wegvoertuigen : de personenauto's, auto's voor dubbel  gebruik, minibussen en motorfietsen, zoals die voertuigen  zijn omschreven in de reglementering van de inschrijving  van de motorvoertuigen en de aanhangwagens en zoals ze  worden verstaan in de zin van de laatste zin van punt 2° van  het vorige lid, voor zover die voertuigen voorzien zijn van  of voorzien moeten zijn van een andere nummerplaat dan  een in het kader van de bedoelde regeling uitgereikte  proefrittenplaat, handelaarsplaat of tijdelijke plaat die geen  internationale kentekenplaat is;
 
@@ -255,7 +222,7 @@ e)  een  verkrijging  tussen  ex-partners  als  er  gemeenschappelijke afstammel
 
 De definitie van kinderen, vermeld in het eerste lid, 12°, en  de definitie van vennootschappen, vermeld in het eerste lid,  21°, gelden niet voor de toepassing van  hoofdstuk 7 en hoofdstuk 8 van titel 2.
 
-La définition d'enfants figurant au premier alinéa, 12°,  et la définition de sociétés, figurant au premier alinéa,  21°, ne sont pas valables pour l'application du chapitre  7 et du chapitre 8 du titre 2.  In titel 2, hoofdstuk 7,wordt verstaan onder :  Dans le titre 2, chapitre 7, on entend par :
+La définition d'enfants figurant au premier alinéa, 12°,  et la définition de sociétés, figurant au premier alinéa,  21°, ne sont pas valables pour l'application du chapitre  7 et du chapitre 8 du titre 2.  In titel 2, hoofdstuk 7,wordt verstaan onder :
 
 1° aanvullende rechten : de erfbelasting, geheven omdat de  voorwaarden voor een verlaagd tarief, een vermindering of  een vrijstelling niet vervuld zijn, of wegens de toepassing  van artikel 3.3.1.0.6, artikel 3.17.0.0.2, of van artikel  2.7.7.0.1 in geval van een onjuiste of onvolledige aangifte  of een aangifte die niet binnen de termijn is ingediend;
 
@@ -889,7 +856,7 @@ Overeenkomstig artikel 3 van het federale Wetboek van  23 november 1965 van de m
 
 § 2. De belasting ontstaat ten aanzien van de natuurlijke  persoon of rechtspersoon die vermeld is of vermeld moet  zijn op het inschrijvingsbewijs zolang een voertuig op  naam van die persoon is ingeschreven of ingeschreven  moet zijn in het repertorium van het Directoraat-  generaal Mobiliteit en Verkeersveiligheid. De bedoelde  voertuigen zijn de personenauto's, de auto's voor dubbel  gebruik, de trage auto's voor dubbel gebruik, de  minibussen, de ziekenauto's, de motorfietsen, de  motorfietsen-driewielers, de motorfietsen-vierwielers,
 
-Deze paragraaf is niet van toepassing op :  Le présent paragraphe ne s'applique pas :
+Deze paragraaf is niet van toepassing op :
 
 1° de voertuigen van alle aard die niet worden bedoeld  in het eerste lid;
 
@@ -3611,7 +3578,7 @@ Wanneer een overledene gehuwd was onder een stelsel  van gemeenschap, gelden de 
 
 De persoon, vermeld in dit artikel, wordt vermoed  kosteloos te ontvangen, behoudens tegenbewijs. Dit  tegenbewijs kan niet worden geleverd door aan te tonen  dat het contract werd geschonken aan deze persoon.
 
-Dit artikel is niet van toepassing op :  Le présent article n'est pas applicable :  1° de sommen, renten of waarden die verkregen zijn  ingevolge een beding dat aan de schenkbelasting of het  registratierecht op de schenkingen onder de levenden is  onderworpen;
+Dit artikel is niet van toepassing op :
 
 2° de renten en kapitalen die gevestigd zijn ter uitvoering  van een wettelijke verplichting;
 

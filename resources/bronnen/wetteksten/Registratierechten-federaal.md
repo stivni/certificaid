@@ -17,40 +17,19 @@ provenance:
       version: 01.04.2026
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 1ee4517-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:24:14Z'
+  generated_at: '2026-05-13T12:44:13Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:27:05Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Ernstige A8 kolom-bleed doorheen het hele corpus: elke artikeltekst bevat NL-tekst en FR-tekst naast elkaar op dezelfde regel (twee-kolom PDF-layout). Dit maakt elke chunk onleesbaar voor RAG — de zinnen zijn doorheen elkaar: 'De aanbieding ter registratie van ... La présentation à l'enregistrement des ...'. Laag-1 meldt 3 bevestigde kolom-bleed samples, maar de eigenlijke omvang is structureel (elk artikel, niet incidenteel). B4: plain-text structuurlabels ontbreken `#`-prefix. Alle overige structuurproblemen zijn identiek aan Brussel/Waals."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:27:05Z'
-      rationale: "Ernstige A8 kolom-bleed doorheen het hele corpus: elke artikeltekst bevat NL-tekst en FR-tekst naast elkaar op dezelfde regel (twee-kolom PDF-layout). Dit maakt elke chunk onleesbaar voor RAG — de zinnen zijn doorheen elkaar: 'De aanbieding ter registratie van ... La présentation à l'enregistrement des ...'. Laag-1 meldt 3 bevestigde kolom-bleed samples, maar de eigenlijke omvang is structureel (elk artikel, niet incidenteel). B4: plain-text structuurlabels ontbreken `#`-prefix. Alle overige structuurproblemen zijn identiek aan Brussel/Waals."
-      concrete_problemen:
-        - regel: 63
-          categorie: A8
-          type: column-bleed
-          voorbeeld: EN GRIFFIERECHTEN                                                      D'HYPOTHEQUE ET DE GREFFE
-        - regel: 79
-          categorie: A8
-          type: column-bleed
-          voorbeeld: Registratie is een formaliteit bestaande in het afschrijven, ontleden of        L'enregistrement est une formalité qui consiste dans la copie,
-        - regel: 132
-          categorie: A8
-          type: column-bleed
-          voorbeeld: Wordt, voor de toepassing van dit wetboek, met een aan een                        Po schorsende voorwaarde...
-        - regel: 75
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: (TOC-regels met paginanummers aanwezig in body, zelfde patroon als Brussel/Waals)
 ---
 
 # Registratierechten — federaal
@@ -9629,7 +9608,7 @@ de Staat, de gefedereerde entiteiten, de provincies, de gemeenten of
 
 de openbare instellingen toebehoren.
 
-De Koning kan bepalen:  Le Roi peut déterminer :
+De Koning kan bepalen:
 
 1° de nadere regels van deze kennisgeving en de vermelding, als de
 
@@ -17049,4 +17028,4 @@ INWERKINGTREDING  ENTREE EN VIGUEUR
 
 ###### Artikel 322
 
-Dit besluit treedt in werking op 1 Februari 1940.  Le présent arrêté entrera en vigueur le 1 er février 1940.
+Dit besluit treedt in werking op 1 Februari 1940.

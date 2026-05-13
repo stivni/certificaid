@@ -2213,3 +2213,43 @@ class TestFixPdfSlashLossInArticleHeadings:
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "fix_pdf_slash_loss_in_article_headings" in TRANSFORMERS
+
+
+class TestStripFrenchBilingueBleed:
+    def test_dans_le_strip(self):
+        from tools.etl.transformers.strip_french_bilingue_bleed import strip_french_bilingue_bleed
+        body = "In titel 2, hoofdstuk 2, wordt verstaan onder :  Dans le titre 2, chapitre 2, on entend par :\n"
+        result, _ = strip_french_bilingue_bleed(body, {})
+        assert "Dans le" not in result
+        assert "In titel 2, hoofdstuk 2, wordt verstaan onder :" in result
+
+    def test_le_present_strip(self):
+        from tools.etl.transformers.strip_french_bilingue_bleed import strip_french_bilingue_bleed
+        body = "Deze paragraaf is niet van toepassing op :  Le présent paragraphe ne s'applique pas :\n"
+        result, _ = strip_french_bilingue_bleed(body, {})
+        assert "Le présent" not in result
+        assert "Deze paragraaf" in result
+
+    def test_la_presente_strip(self):
+        from tools.etl.transformers.strip_french_bilingue_bleed import strip_french_bilingue_bleed
+        body = "Deze wet is van toepassing op het Vlaamse Gewest.  La présente loi s'applique à la Région flamande.\n"
+        result, _ = strip_french_bilingue_bleed(body, {})
+        assert "La présente" not in result
+        assert "Deze wet is van toepassing" in result
+
+    def test_no_fr_marker_passthrough(self):
+        from tools.etl.transformers.strip_french_bilingue_bleed import strip_french_bilingue_bleed
+        body = "Een NL-zin zonder FR-vertaling.\nNog een NL-regel.\n"
+        result, _ = strip_french_bilingue_bleed(body, {})
+        assert result == body
+
+    def test_only_double_space_no_marker(self):
+        """Twee spaties zonder FR-marker → niet strippen."""
+        from tools.etl.transformers.strip_french_bilingue_bleed import strip_french_bilingue_bleed
+        body = "Een zin met  dubbele spatie maar geen FR.\n"
+        result, _ = strip_french_bilingue_bleed(body, {})
+        assert result == body
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "strip_french_bilingue_bleed" in TRANSFORMERS

@@ -39,6 +39,7 @@ from tools.etl.transformers.promote_wettekst_section_labels import promote_wette
 from tools.etl.transformers.normalize_artikel_to_art import normalize_artikel_to_art
 from tools.etl.transformers.strip_leading_toc_heading_block import strip_leading_toc_heading_block
 from tools.etl.transformers.fix_pdf_slash_loss_in_article_headings import fix_pdf_slash_loss_in_article_headings
+from tools.etl.transformers.strip_french_bilingue_bleed import strip_french_bilingue_bleed
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
@@ -70,6 +71,7 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "normalize_artikel_to_art": normalize_artikel_to_art,
     "strip_leading_toc_heading_block": strip_leading_toc_heading_block,
     "fix_pdf_slash_loss_in_article_headings": fix_pdf_slash_loss_in_article_headings,
+    "strip_french_bilingue_bleed": strip_french_bilingue_bleed,
 }
 
 
