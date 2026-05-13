@@ -2454,3 +2454,43 @@ class TestStripConcordTableHeadings:
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "strip_concord_table_headings" in TRANSFORMERS
+
+
+class TestStripDuplicateTocHeadings:
+    def test_kb24_pattern(self):
+        from tools.etl.transformers.strip_duplicate_toc_headings import strip_duplicate_toc_headings
+        body = "## Intro\n\n" + "Body intro.\n\n" + "## AFDELING 1. Betalingen op de rekeningen\n"
+        body += "Brussel, ...\n\n"
+        body += "### Onderafdeling 4. Betaling VAT\n\n"
+        body += "## AFDELING 1\n"
+        body += "Echte content\n"
+        # Pad to >20 lines
+        body += "\n".join(f"line {i}" for i in range(20))
+        result, _ = strip_duplicate_toc_headings(body, {})
+        # eerste AFDELING 1 (met titel) gestript, tweede (echte) blijft
+        assert result.count("## AFDELING 1") == 1
+        assert "Echte content" in result
+
+    def test_no_duplicate_no_strip(self):
+        from tools.etl.transformers.strip_duplicate_toc_headings import strip_duplicate_toc_headings
+        body = "## AFDELING 1. Title\nBody.\n" + "\n".join(f"line {i}" for i in range(30))
+        result, _ = strip_duplicate_toc_headings(body, {})
+        # Geen duplicaat → niet strippen
+        assert "## AFDELING 1. Title" in result
+
+    def test_short_body_passthrough(self):
+        from tools.etl.transformers.strip_duplicate_toc_headings import strip_duplicate_toc_headings
+        body = "## AFDELING 1\nKort\n"  # <20 lines
+        result, _ = strip_duplicate_toc_headings(body, {})
+        assert result == body
+
+    def test_idempotent(self):
+        from tools.etl.transformers.strip_duplicate_toc_headings import strip_duplicate_toc_headings
+        body = "## AFDELING 1. Title\nWrap\n\n## AFDELING 1\nReal\n" + "\n".join(f"line {i}" for i in range(20))
+        once, _ = strip_duplicate_toc_headings(body, {})
+        twice, _ = strip_duplicate_toc_headings(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "strip_duplicate_toc_headings" in TRANSFORMERS

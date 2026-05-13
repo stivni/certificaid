@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:24:50Z'
+    confirmed_at: '2026-05-13T13:29:43Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Laag-1 meldt geen flags (status: pass, 140 headings, max_section_chars 5220). Body bevat de volledige wettekst van de Wet van 29.02.2024 tot invoering van Boek I: Hoofdstukken 1-5, Boek I Art. 1-78 (materieel strafrecht), Wijzigingsbepalingen (Afdeling 1-7), Opheffingsbepalingen en Overgangsbepalingen. Geen kolom-bleed, geen form-feed, geen OCR-artefacten. Art. 32-33 heading zonder body (Strafwetboek2024-specifieke structuur) is source-conform — ze bevatten '(…)' opheving in het brondocument. De amendment-markers [1 ... ]1 zijn consistent open-en-dicht. Enige opmerking: Art. 85 begintekst op regel 285 bevat een 'Boek I. -' heading met lege body — dit is een extractie-eigenaardigheid van Fisconet waarbij de boektitel als afzonderlijk artikel genummerd staat."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:24:50Z'
+      run_at: '2026-05-13T13:29:43Z'
       rationale: "Laag-1 meldt geen flags (status: pass, 140 headings, max_section_chars 5220). Body bevat de volledige wettekst van de Wet van 29.02.2024 tot invoering van Boek I: Hoofdstukken 1-5, Boek I Art. 1-78 (materieel strafrecht), Wijzigingsbepalingen (Afdeling 1-7), Opheffingsbepalingen en Overgangsbepalingen. Geen kolom-bleed, geen form-feed, geen OCR-artefacten. Art. 32-33 heading zonder body (Strafwetboek2024-specifieke structuur) is source-conform — ze bevatten '(…)' opheving in het brondocument. De amendment-markers [1 ... ]1 zijn consistent open-en-dicht. Enige opmerking: Art. 85 begintekst op regel 285 bevat een 'Boek I. -' heading met lege body — dit is een extractie-eigenaardigheid van Fisconet waarbij de boektitel als afzonderlijk artikel genummerd staat."
       concrete_problemen:
         - regel: 85

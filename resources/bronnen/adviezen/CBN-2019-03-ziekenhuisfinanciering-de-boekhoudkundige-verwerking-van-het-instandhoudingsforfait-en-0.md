@@ -42,7 +42,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:24:55Z'
+    confirmed_at: '2026-05-13T13:29:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen extractie-artefacten gevonden. Italics correct gesloten (*instandhoudingsforfait*, *strategisch forfait*, *herconditioneringswerken*). Headings hiërarchisch correct (H1 > H2 > H3). Voetnoten [^1]–[^11] volledig. Inhoud compleet (beschrijving subsidies, boekhoudkundige verwerking). Laag-1: pass, geen flags.'
     layer1:
@@ -56,7 +56,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:24:55Z'
+      run_at: '2026-05-13T13:29:46Z'
       rationale: 'Geen extractie-artefacten gevonden. Italics correct gesloten (*instandhoudingsforfait*, *strategisch forfait*, *herconditioneringswerken*). Headings hiërarchisch correct (H1 > H2 > H3). Voetnoten [^1]–[^11] volledig. Inhoud compleet (beschrijving subsidies, boekhoudkundige verwerking). Laag-1: pass, geen flags.'
       concrete_problemen: []
 ---

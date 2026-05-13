@@ -42,7 +42,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:24:56Z'
+    confirmed_at: '2026-05-13T13:29:46Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Korte bron (2634 tekens) zonder headings — dat klopt: het advies is één doorlopende alinea's-tekst. Geen artefacten: geen lege headings, geen Unicode-resten, geen spurious breaks. Frontmatter volledig en consistent met inhoud. Voetnoten ontbreken (het origineel heeft er ook geen). Leesbaar als mens-geschreven tekst."
     layer1:
@@ -56,7 +56,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:24:56Z'
+      run_at: '2026-05-13T13:29:46Z'
       rationale: "Korte bron (2634 tekens) zonder headings — dat klopt: het advies is één doorlopende alinea's-tekst. Geen artefacten: geen lege headings, geen Unicode-resten, geen spurious breaks. Frontmatter volledig en consistent met inhoud. Voetnoten ontbreken (het origineel heeft er ook geen). Leesbaar als mens-geschreven tekst."
       concrete_problemen: []
 ---

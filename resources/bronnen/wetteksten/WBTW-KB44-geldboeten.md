@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f4076ba
+    pipeline_version: f4076ba-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:24:00Z'
+  generated_at: '2026-05-13T13:28:59Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T13:25:01Z'
+    confirmed_at: '2026-05-13T13:29:51Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Net als KB41 zware kolom-bleed in de hele bijlage: 2-koloms PDF-tabel (overtreding | boete) is in plain text gemerged. Voorbeelden: 'B. Laattijdig indienen 100 EUR per aangifte en per maand vertraging1 met een maximum...' (regel 89). De boete-bedragen kleven aan de overtredingsbeschrijving. Geen pipe-syntax. Bijlage is daardoor onbruikbaar voor retrieval als gestructureerde data."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:25:01Z'
+      run_at: '2026-05-13T13:29:51Z'
       rationale: "Net als KB41 zware kolom-bleed in de hele bijlage: 2-koloms PDF-tabel (overtreding | boete) is in plain text gemerged. Voorbeelden: 'B. Laattijdig indienen 100 EUR per aangifte en per maand vertraging1 met een maximum...' (regel 89). De boete-bedragen kleven aan de overtredingsbeschrijving. Geen pipe-syntax. Bijlage is daardoor onbruikbaar voor retrieval als gestructureerde data."
       concrete_problemen:
         - 'Hele bijlage (regels 81-351) is kolom-bleed: overtreding en bijhorende boete staan zonder scheiding op zelfde regel'

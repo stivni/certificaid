@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f4076ba
+    pipeline_version: f4076ba-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:23:59Z'
+  generated_at: '2026-05-13T13:28:58Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:25:01Z'
+    confirmed_at: '2026-05-13T13:29:51Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Volledige tekst (22 artikelen, 5 hoofdstukken), correcte heading-hierarchie #/##/###/####. TOC met hoofdstukken/afdelingen aan het begin is intrinsiek aan dit type wettekst en wordt herhaald als secties. Bracketed wijziging-markers consistent gebruikt.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:25:01Z'
+      run_at: '2026-05-13T13:29:51Z'
       rationale: 'Volledige tekst (22 artikelen, 5 hoofdstukken), correcte heading-hierarchie #/##/###/####. TOC met hoofdstukken/afdelingen aan het begin is intrinsiek aan dit type wettekst en wordt herhaald als secties. Bracketed wijziging-markers consistent gebruikt.'
       concrete_problemen:
         - 'Lichte inconsistentie: HOOFDSTUK-titels worden tweemaal weergegeven (eenmaal in TOC, eenmaal als sectie-header) maar zonder dubbele heading-conflict'
@@ -49,24 +49,6 @@ Koninklijk besluit nr. 18, van 29 december 1992, met betrekking tot de vrijstell
 
 (Officieuze coördinatie)
 Laatstelijk gewijzigd, met ingang van 01.01.2020 (KB 07.11.2019, B.S. 20.11.2019, pg. 106949
-
-## HOOFDSTUK I: Vrijstelling ingesteld bij artikel 39, § 1, van het Wetboek.
-
-### Afdeling 1: Uitvoer van goederen door of voor rekening van de verkoper. Vrijstelling ingesteld bij artikel 39, § 1, 1°, van het Wetboek.
-
-### Afdeling 2: Goederen afgehaald door de niet in België gevestigde koper of voor zijn rekening. Vrijstelling ingesteld bij artikel 39, § 1, 2°, van het Wetboek.
-
-### Afdeling 3: Diensten. Vrijstelling ingesteld bij artikel 39, § 1, 3°, van het Wetboek.
-
-### Afdeling 4: Goederen uit te voeren in de persoonlijke bagage van de reizigers. Vrijstelling ingesteld bij artikel 39, § 1, 4°, van het Wetboek.
-
-## HOOFDSTUK II: Vrijstelling ingesteld bij artikel 39, § 2, van het Wetboek.
-
-## HOOFDSTUK III: Algemene bepaling betreffende de hoofdstukken I en II.
-
-## HOOFDSTUK IV: Vrijstelling ingesteld bij artikel 40, § 1, 3°, van het Wetboek.
-
-## HOOFDSTUK V: Algemene bepalingen.
 
 ## HOOFDSTUK I
 Vrijstelling ingesteld bij artikel 39, § 1, van het Wetboek.

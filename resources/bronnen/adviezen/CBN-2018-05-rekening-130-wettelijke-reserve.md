@@ -35,7 +35,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:24:57Z'
+    confirmed_at: '2026-05-13T13:29:47Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen ETL-artefacten gevonden. Heading-structuur correct (##, ###), tabellen in pipe-syntax correct opgemaakt, voetnoten [^1] t/m [^12] volledig gedefinieerd. Inhoud compleet: vorming reservefonds, incorporatie, afname en andere verminderingen.'
     layer1:
@@ -49,7 +49,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:24:57Z'
+      run_at: '2026-05-13T13:29:47Z'
       rationale: 'Geen ETL-artefacten gevonden. Heading-structuur correct (##, ###), tabellen in pipe-syntax correct opgemaakt, voetnoten [^1] t/m [^12] volledig gedefinieerd. Inhoud compleet: vorming reservefonds, incorporatie, afname en andere verminderingen.'
       concrete_problemen: []
 ---

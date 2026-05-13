@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f4076ba
+    pipeline_version: f4076ba-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:23:59Z'
+  generated_at: '2026-05-13T13:28:57Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:25:03Z'
+    confirmed_at: '2026-05-13T13:29:52Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "ETL-fix fix_pdf_slash_loss_in_article_headings heeft de hoofdkritiek opgelost: '## Art. 81', '## Art. 82', '## Art. 83' zijn nu correct '## Art. 8/1' (regel 132), '## Art. 8/2' (regel 205), '## Art. 8/3' (regel 214) — slash hersteld via amendment-blok-referenties. Ook 'btwtarief' is nu correct 'btw-tarief' op regel 151. De Art. 8/1-paragrafen lezen schoon zonder mid-zin breuk. Enige resterende afwijking is 'artikel. 9' met overbodige punt op regel 236 in het amendment-blok — dit is bron-typo (Fisconet) en irrelevant voor RAG-retrieval omdat het in het amendment-metablok staat. Structuur 16 artikelen + 8/1-8/3 leest als coherente wettekst."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:25:03Z'
+      run_at: '2026-05-13T13:29:52Z'
       rationale: "ETL-fix fix_pdf_slash_loss_in_article_headings heeft de hoofdkritiek opgelost: '## Art. 81', '## Art. 82', '## Art. 83' zijn nu correct '## Art. 8/1' (regel 132), '## Art. 8/2' (regel 205), '## Art. 8/3' (regel 214) — slash hersteld via amendment-blok-referenties. Ook 'btwtarief' is nu correct 'btw-tarief' op regel 151. De Art. 8/1-paragrafen lezen schoon zonder mid-zin breuk. Enige resterende afwijking is 'artikel. 9' met overbodige punt op regel 236 in het amendment-blok — dit is bron-typo (Fisconet) en irrelevant voor RAG-retrieval omdat het in het amendment-metablok staat. Structuur 16 artikelen + 8/1-8/3 leest als coherente wettekst."
       concrete_problemen:
         - "Regel 236: 'KB nr. 4, artikel. 9, § 3' — overbodige punt na 'artikel' in amendment-blok (waarschijnlijk source-typo)"

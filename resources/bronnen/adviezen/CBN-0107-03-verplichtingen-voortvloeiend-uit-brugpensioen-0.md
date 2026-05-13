@@ -41,7 +41,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:24:47Z'
+    confirmed_at: '2026-05-13T13:29:39Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Bug D4 (voetnootmarker [^1] op eigen regel met leading spatie) is opgelost: body regel 64 toont 'In een vorig advies[^1] onderstreepte de Commissie dat...' correct inline. Inhoud volledig. Geen andere artefacten."
     layer1:
@@ -55,7 +55,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:24:47Z'
+      run_at: '2026-05-13T13:29:39Z'
       rationale: "Bug D4 (voetnootmarker [^1] op eigen regel met leading spatie) is opgelost: body regel 64 toont 'In een vorig advies[^1] onderstreepte de Commissie dat...' correct inline. Inhoud volledig. Geen andere artefacten."
       concrete_problemen: []
 ---

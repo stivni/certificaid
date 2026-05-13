@@ -38,7 +38,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:24:52Z'
+    confirmed_at: '2026-05-13T13:29:45Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Volledig leesbaar advies zonder detecteerbare artefacten. Twee alinea's met heldere redenering, één footnote [^1] correct gedefinieerd. Geen heading-hiërarchie vereist (één blok tekst). Geen unicode-problemen, geen broken markdown.
     layer1:
@@ -52,7 +52,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:24:52Z'
+      run_at: '2026-05-13T13:29:45Z'
       rationale: Volledig leesbaar advies zonder detecteerbare artefacten. Twee alinea's met heldere redenering, één footnote [^1] correct gedefinieerd. Geen heading-hiërarchie vereist (één blok tekst). Geen unicode-problemen, geen broken markdown.
       concrete_problemen: []
 ---

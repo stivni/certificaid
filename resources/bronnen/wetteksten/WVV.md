@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:24:40Z'
+    confirmed_at: '2026-05-13T13:29:31Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 pass: 534 headings, max sectie 7220 chars. ###### Art.-headings correct per de ETL-fix (318 Art-headings + 120 structuurheadings). TITEL 3 Fiscale bepalingen correct. Geen artefacten.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:24:40Z'
+      run_at: '2026-05-13T13:29:31Z'
       rationale: 'L1 pass: 534 headings, max sectie 7220 chars. ###### Art.-headings correct per de ETL-fix (318 Art-headings + 120 structuurheadings). TITEL 3 Fiscale bepalingen correct. Geen artefacten.'
       concrete_problemen: []
 ---

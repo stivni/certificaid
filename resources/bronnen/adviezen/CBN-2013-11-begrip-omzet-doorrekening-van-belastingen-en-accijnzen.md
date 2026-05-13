@@ -33,7 +33,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:24:51Z'
+    confirmed_at: '2026-05-13T13:29:44Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 3 duidelijke H2-secties, alle footnotes correct gemarkeerd en gedefinieerd ([^1]–[^3]). Geen extractie-artefacten. Tekst leest als mens-geschreven markdown.
     layer1:
@@ -47,7 +47,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:24:51Z'
+      run_at: '2026-05-13T13:29:44Z'
       rationale: 3 duidelijke H2-secties, alle footnotes correct gemarkeerd en gedefinieerd ([^1]–[^3]). Geen extractie-artefacten. Tekst leest als mens-geschreven markdown.
       concrete_problemen: []
 ---

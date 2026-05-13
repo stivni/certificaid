@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: f4076ba
+    pipeline_version: f4076ba-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:23:59Z'
+  generated_at: '2026-05-13T13:28:57Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:25:03Z'
+    confirmed_at: '2026-05-13T13:29:52Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Hoofdtekst (47 artikelen verdeeld over 6 hoofdstukken) is structureel sterk: 'btw-identificatienummer' is correct gefixt door fix_pdftotext_glue_bugs (regel 848). De afgekapte zin 'overbrenging overeenkomstig artikel 39bis, eerste lid, 4°, van het Bovendien is...' op regel 848 ontbreekt vermoedelijk 'Wetboek.' — gezien de zin direct logisch doorloopt ('Bovendien' begint nieuwe zin) is dit een echte source-typo in de Fisconet-PDF (vergelijkbaar met de KB10 'waarde'-typo). De Bijlage (regels 1066-1085) en de tabaks-/alcohol-/koffie-vrijstellingen (regels 961-1018) hebben PDF-table-bleed: hoeveelheden zijn versmolten met productomschrijvingen zonder pipe-tabel-syntax. Echter de content blijft leesbaar voor RAG-retrieval — alle bedragen en hoeveelheden zijn aanwezig, alleen niet als markdown-tabel. Dit is een bron-eigenschap (Fisconet bewaart pseudo-tabellen) en geen structureel ETL-falen."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:25:03Z'
+      run_at: '2026-05-13T13:29:52Z'
       rationale: "Hoofdtekst (47 artikelen verdeeld over 6 hoofdstukken) is structureel sterk: 'btw-identificatienummer' is correct gefixt door fix_pdftotext_glue_bugs (regel 848). De afgekapte zin 'overbrenging overeenkomstig artikel 39bis, eerste lid, 4°, van het Bovendien is...' op regel 848 ontbreekt vermoedelijk 'Wetboek.' — gezien de zin direct logisch doorloopt ('Bovendien' begint nieuwe zin) is dit een echte source-typo in de Fisconet-PDF (vergelijkbaar met de KB10 'waarde'-typo). De Bijlage (regels 1066-1085) en de tabaks-/alcohol-/koffie-vrijstellingen (regels 961-1018) hebben PDF-table-bleed: hoeveelheden zijn versmolten met productomschrijvingen zonder pipe-tabel-syntax. Echter de content blijft leesbaar voor RAG-retrieval — alle bedragen en hoeveelheden zijn aanwezig, alleen niet als markdown-tabel. Dit is een bron-eigenschap (Fisconet bewaart pseudo-tabellen) en geen structureel ETL-falen."
       concrete_problemen:
         - "Regel 848 (Art. 39 §1): 'van het Bovendien is...' — afgekapte zin, vermoedelijk ontbrekend 'Wetboek.' (source-typo)"

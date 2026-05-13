@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:25:02Z'
+    confirmed_at: '2026-05-13T13:29:52Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'De leading TOC-strip-transformer heeft uitstekend werk geleverd: het bestand start direct met VOORAFGAANDE TITEL → Art. 1 zonder TOC-residu. Hoofdstructuur ## TITEL 1-4 / ### ONDERTITEL / #### HOOFDSTUK / ###### Art. is consistent en correct hiërarchisch. 286 artikel-headings, ~290 # totaal, geen running headers, geen page-footers, geen dotted leaders. Body leest als één gecoördineerde wet. Wetsinhoud kompleet (TITEL 1 t/m 4, alle ondertitels). Klein artefact regel 126/130 (alinea begint met klein letter, lijkt een page-break-restant), maar niet structureel — geen blocker voor RAG.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:25:02Z'
+      run_at: '2026-05-13T13:29:52Z'
       rationale: 'De leading TOC-strip-transformer heeft uitstekend werk geleverd: het bestand start direct met VOORAFGAANDE TITEL → Art. 1 zonder TOC-residu. Hoofdstructuur ## TITEL 1-4 / ### ONDERTITEL / #### HOOFDSTUK / ###### Art. is consistent en correct hiërarchisch. 286 artikel-headings, ~290 # totaal, geen running headers, geen page-footers, geen dotted leaders. Body leest als één gecoördineerde wet. Wetsinhoud kompleet (TITEL 1 t/m 4, alle ondertitels). Klein artefact regel 126/130 (alinea begint met klein letter, lijkt een page-break-restant), maar niet structureel — geen blocker voor RAG.'
       concrete_problemen:
         - "Regel 126 en 130: alinea's beginnen met kleine letter ('elektronische communicatie...' / 'communicatie en onverminderd...') — vermoedelijk page-break-residu waarbij eerste woorden van de zin verloren gingen. Kleine inhoudslek; niet structureel."

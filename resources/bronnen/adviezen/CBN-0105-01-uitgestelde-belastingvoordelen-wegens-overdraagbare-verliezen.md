@@ -43,7 +43,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:24:46Z'
+    confirmed_at: '2026-05-13T13:29:36Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'De B2-bug (bold-markup in headings ## **De Belgische regelgeving** en ## **Buitenlandse regelgeving**) die Ronde 1 rapporteerde is opgelost door de scraper-fixes: regels 105 en 113 tonen nu clean headings zonder **bold**. Geen andere artefacten aangetroffen in categorieën A-G. Voetnoten [^1]–[^5] volledig gedefinieerd, inhoud compleet.'
     layer1:
@@ -57,7 +57,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:24:46Z'
+      run_at: '2026-05-13T13:29:36Z'
       rationale: 'De B2-bug (bold-markup in headings ## **De Belgische regelgeving** en ## **Buitenlandse regelgeving**) die Ronde 1 rapporteerde is opgelost door de scraper-fixes: regels 105 en 113 tonen nu clean headings zonder **bold**. Geen andere artefacten aangetroffen in categorieën A-G. Voetnoten [^1]–[^5] volledig gedefinieerd, inhoud compleet.'
       concrete_problemen: []
 ---
