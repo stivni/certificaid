@@ -24,20 +24,18 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:28:37Z'
+    status: trusted
+    confirmed_at: '2026-05-13T12:32:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Hoofdtekst (Art. 1-3) is schoon. Echter regels 65-73 bevatten nog steeds 'Recent opgeheven of vervangen koninklijke besluiten' als plain text plus 4 kolom-bleed regels waar 'Bijw. 04/01.01.2020', 'Bijw. 03/12.07.2019', '(Opgeheven)', '(vervangen)' midden in de KB-omschrijvingen staan ingebed. Dit was een meerkoloms-tabel in de PDF die verkeerd is geconcateneerd. strip_mb_compilatie_cover en fix_pdftotext_glue_bugs raken dit specifieke artefact niet. Source-typo 'cöordinatie' op regel 50 blijft (categorie source). Body/content-ratio is goed maar de appendix is een duidelijk ETL-artefact.
+    rationale: "strip_kb_bijwerkingen heeft de 'Recent opgeheven of vervangen koninklijke besluiten' appendix volledig verwijderd (vroeger regels 65-73). Bestand is nu 60 regels schoon: enkel hoofdtekst van een KB met 3 artikelen, alle als ## Art. heading. Geen kolom-bleed meer, geen plain-text appendix. Source-typo 'cöordinatie' op regel 47 blijft (categorie source). Ziet eruit als een nieuw geschreven KB-stub."
     layer1:
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:37Z'
-      rationale: Hoofdtekst (Art. 1-3) is schoon. Echter regels 65-73 bevatten nog steeds 'Recent opgeheven of vervangen koninklijke besluiten' als plain text plus 4 kolom-bleed regels waar 'Bijw. 04/01.01.2020', 'Bijw. 03/12.07.2019', '(Opgeheven)', '(vervangen)' midden in de KB-omschrijvingen staan ingebed. Dit was een meerkoloms-tabel in de PDF die verkeerd is geconcateneerd. strip_mb_compilatie_cover en fix_pdftotext_glue_bugs raken dit specifieke artefact niet. Source-typo 'cöordinatie' op regel 50 blijft (categorie source). Body/content-ratio is goed maar de appendix is een duidelijk ETL-artefact.
+      run_at: '2026-05-13T12:32:34Z'
+      rationale: "strip_kb_bijwerkingen heeft de 'Recent opgeheven of vervangen koninklijke besluiten' appendix volledig verwijderd (vroeger regels 65-73). Bestand is nu 60 regels schoon: enkel hoofdtekst van een KB met 3 artikelen, alle als ## Art. heading. Geen kolom-bleed meer, geen plain-text appendix. Source-typo 'cöordinatie' op regel 47 blijft (categorie source). Ziet eruit als een nieuw geschreven KB-stub."
       concrete_problemen:
-        - "Regels 67, 69, 71, 73: kolom-bleed met 'Bijw. XX/datum' en '(Opgeheven)'/'(vervangen)' midden in zinnen"
-        - "Regel 65: 'Recent opgeheven of vervangen koninklijke besluiten.' als plain text zonder ##-heading"
-        - "Regel 50: 'Officieuze cöordinatie' bevat OCR-typo (vermoedelijk source)"
+        - "Regel 47: 'cöordinatie' OCR-typo (categorie source)"
 ---
 
 # K.B. van 29 augustus 2019, tot uitvoering van artikel 85, § 2, derde lid van het Wetboek van de belasting over de toegevoegde waarde met betrekking tot de opmaak van innings- en invorderingsregisters

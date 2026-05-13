@@ -46,7 +46,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:28:31Z'
+    confirmed_at: '2026-05-13T12:32:15Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Kort advies (1430 chars), geen headings nodig. Rekeningnamen correct gecursiveerd. Geen duplicaten, geen structuurproblemen, geen artefacten. Sluit logisch af.
     layer1:
@@ -60,7 +60,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:31Z'
+      run_at: '2026-05-13T12:32:15Z'
       rationale: Kort advies (1430 chars), geen headings nodig. Rekeningnamen correct gecursiveerd. Geen duplicaten, geen structuurproblemen, geen artefacten. Sluit logisch af.
       concrete_problemen: []
 ---

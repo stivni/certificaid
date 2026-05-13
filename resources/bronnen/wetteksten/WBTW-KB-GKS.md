@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:28:29Z'
+    confirmed_at: '2026-05-13T12:32:13Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Kort bestand (4 artikelen + Art. 2bis, Art. 3, Art. 4). Laag-1 pass, geen flags. Body is clean: geen form-feed, geen pseudo-tabellen, geen OCR-fouten. Amendement-markers [1 … ]1, [2 … ]2, [3 … ]3 correct gesloten. Art. 1 heeft een opvallende structuur (de inhoud staat feitelijk in de buurt van de inleiding vóór ## Art. 2), maar dit is een eigenaardigheid van de wettekst zelf (TOEKOMSTIG RECHT-blok met verwijzing naar eerdere versie) en geen ETL-artefact.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:29Z'
+      run_at: '2026-05-13T12:32:13Z'
       rationale: 'Kort bestand (4 artikelen + Art. 2bis, Art. 3, Art. 4). Laag-1 pass, geen flags. Body is clean: geen form-feed, geen pseudo-tabellen, geen OCR-fouten. Amendement-markers [1 … ]1, [2 … ]2, [3 … ]3 correct gesloten. Art. 1 heeft een opvallende structuur (de inhoud staat feitelijk in de buurt van de inleiding vóór ## Art. 2), maar dit is een eigenaardigheid van de wettekst zelf (TOEKOMSTIG RECHT-blok met verwijzing naar eerdere versie) en geen ETL-artefact.'
       concrete_problemen: []
 ---

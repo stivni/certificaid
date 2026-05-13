@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:28:37Z'
+    confirmed_at: '2026-05-13T12:32:21Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Structuur OK maar meerdere problemen blijven. Regel 73: 'belasting over de toegevoegde waaronder hij ressorteert' — afgekapte zin, ontbrekend 'waarde' (source-typo of ETL?). Regel 98-99: 'koninklijk besluit nr.\\n4,' — spurious linebreak in referentie. Regel 120-121: 'artikel 51, § 2, eerste lid,\\n1°,' — spurious linebreak in artikel-referentie. Pattern komt herhaaldelijk voor; merge_article_reference_wraps heeft deze niet gevangen."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:37Z'
+      run_at: '2026-05-13T12:32:21Z'
       rationale: "Structuur OK maar meerdere problemen blijven. Regel 73: 'belasting over de toegevoegde waaronder hij ressorteert' — afgekapte zin, ontbrekend 'waarde' (source-typo of ETL?). Regel 98-99: 'koninklijk besluit nr.\\n4,' — spurious linebreak in referentie. Regel 120-121: 'artikel 51, § 2, eerste lid,\\n1°,' — spurious linebreak in artikel-referentie. Pattern komt herhaaldelijk voor; merge_article_reference_wraps heeft deze niet gevangen."
       concrete_problemen:
         - "Regel 73: 'belasting over de toegevoegde waaronder' — ontbrekend 'waarde' (afgekapte zin)"

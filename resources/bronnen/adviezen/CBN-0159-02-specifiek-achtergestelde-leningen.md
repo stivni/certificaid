@@ -30,7 +30,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:28:33Z'
+    confirmed_at: '2026-05-13T12:32:18Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen ETL-artefacten. Italics voor '*Achtergestelde leningen*' en '*Niet-converteerbare achtergestelde leningen*' correct gesloten. Voetnoot correct gelinkt. Inhoud volledig en coherent.
     layer1:
@@ -44,7 +44,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:33Z'
+      run_at: '2026-05-13T12:32:18Z'
       rationale: Geen ETL-artefacten. Italics voor '*Achtergestelde leningen*' en '*Niet-converteerbare achtergestelde leningen*' correct gesloten. Voetnoot correct gelinkt. Inhoud volledig en coherent.
       concrete_problemen: []
 ---

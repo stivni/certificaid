@@ -8,19 +8,19 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 133 | 99 | — | 33 | 1 | — |
+| Wetteksten | 133 | 102 | 1 | 28 | 2 | — |
 | Normen | 19 | 4 | — | 14 | 1 | — |
 | Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **588** | 525 | — | 61 | 2 | — |
+| **Totaal** | **588** | 528 | 1 | 56 | 3 | — |
 
 ## Wetteksten (133)
 
 | Bestand | Trust | L1 | L2 | Confirmed-by | Titel |
 |---|---|---|---|---|---|
 | `KB-21-10-2018.md` | ❌ rejected | — | rejected | subagent-sonnet-4-6 | Koninklijk besluit van 21 oktober 2018 houdende de boekhoudkundige verplichtingen van o… |
+| `WER-Boek-VIII-normalisatie.md` | ❌ rejected | — | rejected | subagent-sonnet-4-6 | WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen) |
 | `Almanak-BTW-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Almanak BTW 2026 — ITAA / Larcier-Intersentia |
 | `Almanak-VenB-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Almanak Vennootschapsbelasting 2026 — ITAA / Larcier-Intersentia |
-| `AVG-wet-2018.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot… |
 | `Belastingalmanak-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Belastingalmanak 2026 — ITAA / Larcier-Intersentia |
 | `belastinggids-aclvb-2025.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Belastinggids 2025 — ACLVB |
 | `BTW-richtlijn-2006-112.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belast… |
@@ -35,22 +35,19 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `toelichting-VenB-2025.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de vennootschapsbelasting — AJ 2025 |
 | `VCF.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit (VCF) |
 | `WBTW-KB10-uitoefening-keuzen.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 10 van 29 december 1992, met betrekking tot de uitoefeningsmodaliteiten van de… |
-| `WBTW-KB15-schatting-onroerende.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 15 van 3 juni 1970, tot regeling van de schattings- procedure waarin artikel 5… |
 | `WBTW-KB20-tarieven.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting over de… |
 | `WBTW-KB22jun2020-e-notariaat.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. 22 juni 2020 tot uitvoering van art. 93ter WBTW, art. 412bis en 433–435 WIB92 en a… |
 | `WBTW-KB24-voldoening-bijzondere.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 24 van 29 december 1992, met betrekking tot de voldoening van de belasting ove… |
-| `WBTW-KB29aug2019-registers.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. van 29 augustus 2019, tot uitvoering van artikel 85, § 2, derde lid van het Wetboe… |
 | `WBTW-KB39-regeling-93duodecies.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 39 van 17 oktober 1980, tot regeling van de toepassingsmodaliteiten van artike… |
 | `WBTW-KB4-teruggaven.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over… |
 | `WBTW-KB41-proportionele-geldboeten.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele f… |
 | `WBTW-KB44-geldboeten.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 44 van 9 juli 2012, tot vaststelling van het bedrag van de niet-proportionele … |
 | `WBTW-KB50-intracommunautaire-opgave.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 50 van 11 december 2019, met betrekking tot de btw-opgave van de intracommunau… |
-| `WBTW-KB52-intracommunautaire-vrijstellingen.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 52 van 11 december 2019, met betrekking tot de bewijsregeling inzake de vrijst… |
 | `WBTW-KB7-invoer.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 7 van 29 december 1992, met betrekking tot de invoer van goederen voor de toep… |
 | `WBTW-MB28okt2009-model-berichten-93ter.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen al… |
 | `WBTW-MB29apr2024-certificatie-kassasysteem.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certifica… |
-| `WER-Boek-VIII-normalisatie.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen) |
 | `Wet-betalingsachterstand-2002.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelst… |
+| `AVG-wet-2018.md` | ◻️ unreviewed | — | — | default | Wet 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot… |
 | `aangifte-PB-2025-bezoldigingen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-bezoldigingen |
 | `aangifte-PB-2025-stopzetting.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-stopzetting |
 | `Antiwitwaswet-2017.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van … |
@@ -98,6 +95,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WBTW-KB11-verleggen-maatstaf.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 11 van 29 december 1992, met betrekking tot de toepassing van de belasting ove… |
 | `WBTW-KB13-tabaksfabricaten.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 13 van 29 december 1992, met betrekking tot de regeling voor tabaksfabricaten … |
 | `WBTW-KB14-vervreemdingen-gebouwen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 14 van 3 juni 1970, met betrekking tot de vervreemdingen van gebouwen, gedeelt… |
+| `WBTW-KB15-schatting-onroerende.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 15 van 3 juni 1970, tot regeling van de schattings- procedure waarin artikel 5… |
 | `WBTW-KB16-vismijn.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 16 van 3 juni 1970, met betrekking tot de toepassing van de belasting over de … |
 | `WBTW-KB18-uitvoer-vrijstellingen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 18 van 29 december 1992, met betrekking tot de vrijstellingen ten aanzien van … |
 | `WBTW-KB19-kleine-ondernemingen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 19, 15 december 2024, met betrekking tot de vrijstellingsregeling van belastin… |
@@ -105,6 +103,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WBTW-KB22-landbouwondernemers.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 22 van 15 september 1970, met betrekking tot de biezondere regeling voor landb… |
 | `WBTW-KB23-jaarlijkse-lijst.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 23 van 9 december 2009, met betrekking tot de jaarlijkse lijst van de BTW-bela… |
 | `WBTW-KB27-vlees-slachtdieren.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 27 van 26 juni 1973, met betrekking tot de regeling voor de voldoening van de … |
+| `WBTW-KB29aug2019-registers.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. van 29 augustus 2019, tot uitvoering van artikel 85, § 2, derde lid van het Wetboe… |
 | `WBTW-KB2bis-cafehouders.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 2bis, 15 mei 2022, tot vaststelling van de forfaitaire grondslagen van aanslag… |
 | `WBTW-KB3-aftrekken.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 3 van 10 december 1969, met betrekking tot de aftrekken voor de toepassing van… |
 | `WBTW-KB30-financieringshuur.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 30 van 29 december 1992, met betrekking tot de toepassing van de belasting ove… |
@@ -115,6 +114,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WBTW-KB47-controle-vervoermiddelen-1996.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 47 van 25 februari 1996, tot regeling van de controle van de voldoening van de… |
 | `WBTW-KB48-levering-vervoermiddelen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 48 van 29 december 1992, met betrekking tot de levering van vervoermiddelen in… |
 | `WBTW-KB51-accijnsproducten.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 51 van 14 april 1993, met betrekking tot de vereenvoudigingsregeling voor intr… |
+| `WBTW-KB52-intracommunautaire-vrijstellingen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 52 van 11 december 2019, met betrekking tot de bewijsregeling inzake de vrijst… |
 | `WBTW-KB53-winstmarge-tweedehands.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 53 van 23 december 1994, met betrekking tot de bijzondere regeling van belasti… |
 | `WBTW-KB54-entrepot.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 54, 21 december 2023, met betrekking tot de andere regeling van entrepot dan d… |
 | `WBTW-KB55-btw-eenheid.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 55 van 9 maart 2007, met betrekking tot de regeling voor belastingplichtingen … |

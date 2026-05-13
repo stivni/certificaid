@@ -39,7 +39,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:28:26Z'
+    confirmed_at: '2026-05-13T12:32:09Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Lang advies (16k chars) met genummerde voorbeelden en tabellen. Pipe-tabellen correct gerenderd. Heading-hiërarchie consistent (## voor secties en gevallen). Voetnoten [^1]–[^28] volledig. Geen ETL-artefacten.
     layer1:
@@ -53,7 +53,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:26Z'
+      run_at: '2026-05-13T12:32:09Z'
       rationale: Lang advies (16k chars) met genummerde voorbeelden en tabellen. Pipe-tabellen correct gerenderd. Heading-hiërarchie consistent (## voor secties en gevallen). Voetnoten [^1]–[^28] volledig. Geen ETL-artefacten.
       concrete_problemen: []
 ---

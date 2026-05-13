@@ -25,19 +25,20 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:28:37Z'
+    confirmed_at: '2026-05-13T12:32:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Bestand bevat opgeheven KB (1980, opgeheven 01.01.2020). Inhoudelijk OK maar voetnoot (1) doorkruist Art. 3 inhoudelijk (regels 74-78): 'Art. 138... 1°... 5°... 6°... ## Art. 139: De Koning kan...'. Die '## Art. 139' is een PDF-doorkruising van een footnote en krijgt een eigen heading-anker — schadelijk voor retrieval want lijkt op een echt artikel. Daarna pas op regel 80 het Art. 3-vervolg ('Er moet evenwel een nieuw attest...'). Geen ETL-fix gedaan voor footnote-bleed."
+    rationale: "Footnote-bleed in Art. 3 (regels 74-78) niet opgelost door huidige ETL-fixes. De inhoudelijke tekst van Art. 138 (1°, 5°, 6° opsommingen) en Art. 139 (van een andere wet — vermoedelijk W 13.04.2019) staat als pseudo-content middenin Art. 3. Regel 78 toont '## Art. 139: De Koning kan...' wat een echte heading-anker krijgt — schadelijk voor RAG omdat het lijkt op een artikel van KB nr. 39 zelf, maar het is footnote-residu uit een andere wet. Pas op regel 80 begint het echte Art. 3-vervolg ('Er moet evenwel een nieuw attest...'). Plus: dit KB is sinds 01.01.2020 opgeheven (regel 53). Bij twijfel → needs-rework."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:37Z'
-      rationale: "Bestand bevat opgeheven KB (1980, opgeheven 01.01.2020). Inhoudelijk OK maar voetnoot (1) doorkruist Art. 3 inhoudelijk (regels 74-78): 'Art. 138... 1°... 5°... 6°... ## Art. 139: De Koning kan...'. Die '## Art. 139' is een PDF-doorkruising van een footnote en krijgt een eigen heading-anker — schadelijk voor retrieval want lijkt op een echt artikel. Daarna pas op regel 80 het Art. 3-vervolg ('Er moet evenwel een nieuw attest...'). Geen ETL-fix gedaan voor footnote-bleed."
+      run_at: '2026-05-13T12:32:34Z'
+      rationale: "Footnote-bleed in Art. 3 (regels 74-78) niet opgelost door huidige ETL-fixes. De inhoudelijke tekst van Art. 138 (1°, 5°, 6° opsommingen) en Art. 139 (van een andere wet — vermoedelijk W 13.04.2019) staat als pseudo-content middenin Art. 3. Regel 78 toont '## Art. 139: De Koning kan...' wat een echte heading-anker krijgt — schadelijk voor RAG omdat het lijkt op een artikel van KB nr. 39 zelf, maar het is footnote-residu uit een andere wet. Pas op regel 80 begint het echte Art. 3-vervolg ('Er moet evenwel een nieuw attest...'). Plus: dit KB is sinds 01.01.2020 opgeheven (regel 53). Bij twijfel → needs-rework."
       concrete_problemen:
-        - 'Regels 74-78: footnote-bleed in Art. 3 — Art. 138/139 als fake content tussen Art. 3-tekst'
-        - "Regel 78: '## Art. 139: De Koning kan...' is footnote-residu maar krijgt heading-anker"
-        - 'Regel 80: echte Art. 3-vervolg verschijnt pas na footnote-injectie'
+        - 'Regels 74-78: footnote-bleed van W 13.04.2019 Art. 138/139 wordt tussen Art. 3-tekst gerenderd'
+        - "Regel 78: '## Art. 139: De Koning kan...' krijgt heading-anker — false-positive artikel"
+        - 'Regel 80: echte Art. 3-vervolg pas na footnote-injectie — split tekst'
+        - KB sinds 01.01.2020 opgeheven (regel 53)
 ---
 
 # K.B. nr. 39 van 17 oktober 1980, tot regeling van de toepassingsmodaliteiten van artikel 93duodecies van het Wetboek van de belasting over de toegevoegde waarde

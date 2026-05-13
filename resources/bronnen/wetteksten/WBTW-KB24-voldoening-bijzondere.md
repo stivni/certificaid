@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:28:36Z'
+    confirmed_at: '2026-05-13T12:32:21Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: merge_article_reference_wraps heeft niet ingegrepen op de meest opvallende artefacten. Het TOC-blok aan het begin (regels 56-78) met artikel-ranges 'Art. 1 - 8', 'Art. 9 - 13' als plain text blijft staan, gevolgd door duplicate hoofdstuk-/onderafdeling-headings (regels 80-88) — dat is compilatie-bleed. De Franse string 'Disposition temporaire' (regel 70) midden in NL-content is een bilingue-leak die direct opvalt. Spurious linebreaks midden in heading-tekst ('Inning en\nInvordering', regels 62-63; 'Mini One Stop Shop\n- VAT BE', regels 65-66) zijn niet gerepareerd. Inconsistente kapitalisatie 'AFDELING' vs 'Onderafdeling'.
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:36Z'
+      run_at: '2026-05-13T12:32:21Z'
       rationale: merge_article_reference_wraps heeft niet ingegrepen op de meest opvallende artefacten. Het TOC-blok aan het begin (regels 56-78) met artikel-ranges 'Art. 1 - 8', 'Art. 9 - 13' als plain text blijft staan, gevolgd door duplicate hoofdstuk-/onderafdeling-headings (regels 80-88) — dat is compilatie-bleed. De Franse string 'Disposition temporaire' (regel 70) midden in NL-content is een bilingue-leak die direct opvalt. Spurious linebreaks midden in heading-tekst ('Inning en\nInvordering', regels 62-63; 'Mini One Stop Shop\n- VAT BE', regels 65-66) zijn niet gerepareerd. Inconsistente kapitalisatie 'AFDELING' vs 'Onderafdeling'.
       concrete_problemen:
         - "Regel 70: Franse plain-text 'Disposition temporaire Art. 13ter' tussen NL-content — bilingue residu"

@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:28:36Z'
+    confirmed_at: '2026-05-13T12:32:20Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Bestand is feitelijk leeg na de header: de body bevat 1 onvolledige zin die mid-woord afbreekt ('22 JUNI 2020. - Koninklijk besluit tot uitvoering van de artikelen 2, derde lid, 2quater en 8, tweede lid, van het'). Layer1 meldt heading_count: 0 en file_size_chars: 207. Het hele bronartefact is corrupt of de extractie heeft gefaald. Geen enkel artikel is geëxtraheerd."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:36Z'
+      run_at: '2026-05-13T12:32:20Z'
       rationale: "Bestand is feitelijk leeg na de header: de body bevat 1 onvolledige zin die mid-woord afbreekt ('22 JUNI 2020. - Koninklijk besluit tot uitvoering van de artikelen 2, derde lid, 2quater en 8, tweede lid, van het'). Layer1 meldt heading_count: 0 en file_size_chars: 207. Het hele bronartefact is corrupt of de extractie heeft gefaald. Geen enkel artikel is geëxtraheerd."
       concrete_problemen:
         - 'Bestand heeft 0 ## Art.-headings — heading_count: 0 in layer1'

@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:28:37Z'
+    confirmed_at: '2026-05-13T12:32:21Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Hoofdtekst (47 artikelen verspreid over 6 hoofdstukken) is structureel sterk en de fix_pdftotext_glue_bugs uitbreiding heeft 'btwidentificatienummer' aangepakt (regel 855 toont nu correct 'btw-identificatienummer'). Echter regel 855 (Art. 39 §1) bevat nog steeds de afgekapte zin '...artikel 39bis, eerste lid, 4°, van het Bovendien is...' — ontbrekend woord (waarschijnlijk 'Wetboek.') tussen 'het' en 'Bovendien'. Bijlage (regels 1083-1106) heeft nog zware table-bleed: GN-codes en omschrijvingen versmolten zonder pipe-syntax. Regels 968-994 en 1021-1034 hebben tabak/alcohol/koffie pseudo-tabel-bleed met hoeveelheden midden in lopende tekst."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:37Z'
+      run_at: '2026-05-13T12:32:21Z'
       rationale: "Hoofdtekst (47 artikelen verspreid over 6 hoofdstukken) is structureel sterk en de fix_pdftotext_glue_bugs uitbreiding heeft 'btwidentificatienummer' aangepakt (regel 855 toont nu correct 'btw-identificatienummer'). Echter regel 855 (Art. 39 §1) bevat nog steeds de afgekapte zin '...artikel 39bis, eerste lid, 4°, van het Bovendien is...' — ontbrekend woord (waarschijnlijk 'Wetboek.') tussen 'het' en 'Bovendien'. Bijlage (regels 1083-1106) heeft nog zware table-bleed: GN-codes en omschrijvingen versmolten zonder pipe-syntax. Regels 968-994 en 1021-1034 hebben tabak/alcohol/koffie pseudo-tabel-bleed met hoeveelheden midden in lopende tekst."
       concrete_problemen:
         - "Regel 855: 'van het Bovendien is...' — afgekapte zin in Art. 39 §1"

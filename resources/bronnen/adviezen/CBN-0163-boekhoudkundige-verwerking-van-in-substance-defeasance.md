@@ -28,7 +28,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:28:33Z'
+    confirmed_at: '2026-05-13T12:32:18Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen ETL-artefacten. Proza coherent, geen OCR-fouten, geen malformed markdown. Inhoud volledig: techniek beschreven, juridische analyse en conclusie aanwezig. Geen subheadings nodig voor dit korte advies.'
     layer1:
@@ -42,7 +42,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:33Z'
+      run_at: '2026-05-13T12:32:18Z'
       rationale: 'Geen ETL-artefacten. Proza coherent, geen OCR-fouten, geen malformed markdown. Inhoud volledig: techniek beschreven, juridische analyse en conclusie aanwezig. Geen subheadings nodig voor dit korte advies.'
       concrete_problemen: []
 ---

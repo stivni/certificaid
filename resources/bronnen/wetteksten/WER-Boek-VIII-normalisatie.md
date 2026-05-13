@@ -24,33 +24,23 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:26:36Z'
+    status: rejected
+    confirmed_at: '2026-05-13T12:32:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A8: het bestand bevat systematische kolom-bleed van de NL+FR tweetalige bron: vanaf regel 60 wisselen NL- en FR-artikelversies elkaar af als aparte ##### headings met identieke nummers ('Art. 2' tweemaal, 'Art. 1' tweemaal, enz.), wat een column-extraction-fout is. B1: veel headings bevatten enkel een artikelnummer gevolgd door een FR-zin als heading-tekst (bv. `##### Art. 2. Le ministre qui a l'Emploi dans ses attributions est chargé de`). B3: identieke heading `#### CHAPITRE I er` en `### HOOFDSTUK I` voor dezelfde sectie, plus dubbele `Art. 2`-headings. Layer1 meldde max_section_size warn (351006 chars) wat bevestigt dat de structuur niet chunker-vriendelijk is."
+    rationale: 'Source-level mismatch (categorie source): de PDF achter dit bestand bevat NIET WER Boek VIII (Kwaliteit van producten en diensten — boekhoudnormen), maar een verzameling ongerelateerde teksten — CAO Paritair Subcomité metaalhandel, dierenbescherming-besluiten, milieuwetgeving, etc. Het bestand heeft 7665 regels, 263 ##### Art-headings, met TITEL II/III/IV en HOOFDSTUK I/II/III/IV-V volledig herhaald in NL+FR door elkaar (column-bleed). Structurele issues uit eerdere QA (dubbele Art. 2-headings, NL+FR-alternatie, CHAPITRE I er / HOOFDSTUK I dubbel) blijven bestaan. Source-PDF moet vervangen worden door de echte WER Boek VIII (boekhoudnormen, art. VIII.1 t/m VIII.30 ongeveer). Geen ETL-fix kan dit redden — het is de verkeerde brontekst. Niet trustbaar voor retrieval. (source)'
     layer1:
     layer2:
-      status: needs-rework
+      status: rejected
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:26:36Z'
-      rationale: "A8: het bestand bevat systematische kolom-bleed van de NL+FR tweetalige bron: vanaf regel 60 wisselen NL- en FR-artikelversies elkaar af als aparte ##### headings met identieke nummers ('Art. 2' tweemaal, 'Art. 1' tweemaal, enz.), wat een column-extraction-fout is. B1: veel headings bevatten enkel een artikelnummer gevolgd door een FR-zin als heading-tekst (bv. `##### Art. 2. Le ministre qui a l'Emploi dans ses attributions est chargé de`). B3: identieke heading `#### CHAPITRE I er` en `### HOOFDSTUK I` voor dezelfde sectie, plus dubbele `Art. 2`-headings. Layer1 meldde max_section_size warn (351006 chars) wat bevestigt dat de structuur niet chunker-vriendelijk is."
+      run_at: '2026-05-13T12:32:34Z'
+      rationale: 'Source-level mismatch (categorie source): de PDF achter dit bestand bevat NIET WER Boek VIII (Kwaliteit van producten en diensten — boekhoudnormen), maar een verzameling ongerelateerde teksten — CAO Paritair Subcomité metaalhandel, dierenbescherming-besluiten, milieuwetgeving, etc. Het bestand heeft 7665 regels, 263 ##### Art-headings, met TITEL II/III/IV en HOOFDSTUK I/II/III/IV-V volledig herhaald in NL+FR door elkaar (column-bleed). Structurele issues uit eerdere QA (dubbele Art. 2-headings, NL+FR-alternatie, CHAPITRE I er / HOOFDSTUK I dubbel) blijven bestaan. Source-PDF moet vervangen worden door de echte WER Boek VIII (boekhoudnormen, art. VIII.1 t/m VIII.30 ongeveer). Geen ETL-fix kan dit redden — het is de verkeerde brontekst. Niet trustbaar voor retrieval. (source)'
       concrete_problemen:
-        - regel: 60
-          categorie: A8
-          type: column-bleed
-          voorbeeld: '##### Art. 2. Le ministre... / ##### Art. 2. De minister... (NL+FR door elkaar)'
-        - regel: 107
-          categorie: B3
-          type: other
-          voorbeeld: '#### CHAPITRE I er . en ### HOOFDSTUK I. voor dezelfde sectie'
-        - regel: 113
-          categorie: B1
-          type: other
-          voorbeeld: '##### Art. 1. Deze   collectieve   arbeidsovereenkomst   is   van   toepassing'
-        - regel: 113
-          categorie: C3
-          type: pseudo-table
-          voorbeeld: op de werkgevers   en   werklieden   van   de   ondernemingen (extra spaties als uitlijning)
+        - 'Volledige content-mismatch: PDF is geen WER Boek VIII maar ratjetoe van CAO/dieren/milieu/AOR-teksten (categorie source)'
+        - 'Regel 60+: NL+FR column-bleed met dubbele Art. 2 / Art. 1 / Art. 2 headings'
+        - "Regel 107: identieke '#### CHAPITRE I er' en '### HOOFDSTUK I' voor dezelfde sectie"
+        - "Regel 113: '##### Art. 1. Deze   collectieve   arbeidsovereenkomst...' (extra spaties als column-uitlijning, categorie C3)"
+        - max_section_size 351006 chars — niet chunker-vriendelijk
+        - Boekhoudnormen-content (de feitelijke WER Boek VIII) ontbreekt volledig
 ---
 
 # WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)

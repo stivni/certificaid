@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:28:19Z'
+    confirmed_at: '2026-05-13T12:32:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 warn: 232 headings, max sectie 31069 chars (chunker auto-split). Headings als ##### Art. N correct. Definities-blok met lange omschrijvingen is bron-stijl. Geen ETL-artefacten.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:19Z'
+      run_at: '2026-05-13T12:32:03Z'
       rationale: 'L1 warn: 232 headings, max sectie 31069 chars (chunker auto-split). Headings als ##### Art. N correct. Definities-blok met lange omschrijvingen is bron-stijl. Geen ETL-artefacten.'
       concrete_problemen: []
 ---

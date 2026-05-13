@@ -34,7 +34,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:28:34Z'
+    confirmed_at: '2026-05-13T12:32:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen artefacten. Vijf logische ## headings, Latijnse termen correct gecursiveerd. Alle voetnoten [^1]-[^19] aanwezig en correct. Inhoud volledig (goedkeuring, neerlegging, laattijdige neerlegging, voorbeeld).'
     layer1:
@@ -48,7 +48,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:34Z'
+      run_at: '2026-05-13T12:32:19Z'
       rationale: 'Geen artefacten. Vijf logische ## headings, Latijnse termen correct gecursiveerd. Alle voetnoten [^1]-[^19] aanwezig en correct. Inhoud volledig (goedkeuring, neerlegging, laattijdige neerlegging, voorbeeld).'
       concrete_problemen: []
 ---

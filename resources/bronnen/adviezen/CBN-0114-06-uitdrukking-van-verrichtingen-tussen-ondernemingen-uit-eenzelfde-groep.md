@@ -38,7 +38,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:28:32Z'
+    confirmed_at: '2026-05-13T12:32:17Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Kort advies (1999 chars), vier alinea's + één voetnoot. Geen extractie-artefacten in categorieën A–G. Heading correct als H1. Geen italic-problemen, geen broken bullets, geen spurious line-breaks. Inhoud volledig conform verwacht advies-patroon.
     layer1:
@@ -52,7 +52,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:32Z'
+      run_at: '2026-05-13T12:32:17Z'
       rationale: Kort advies (1999 chars), vier alinea's + één voetnoot. Geen extractie-artefacten in categorieën A–G. Heading correct als H1. Geen italic-problemen, geen broken bullets, geen spurious line-breaks. Inhoud volledig conform verwacht advies-patroon.
       concrete_problemen: []
 ---

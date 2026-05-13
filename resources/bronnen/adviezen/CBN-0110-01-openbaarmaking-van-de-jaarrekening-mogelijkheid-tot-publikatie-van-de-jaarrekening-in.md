@@ -39,7 +39,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:28:32Z'
+    confirmed_at: '2026-05-13T12:32:16Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Advies van 3325 tekens zonder interne headings — past bij de doorlopende betoog-structuur. Eén voetnoot [^1] aanwezig en gedefineerd. Geen artefacten, geen spurious breaks, geen Unicode-resten. Tekst vloeit logisch van paragraaf tot paragraaf.
     layer1:
@@ -53,7 +53,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:32Z'
+      run_at: '2026-05-13T12:32:16Z'
       rationale: Advies van 3325 tekens zonder interne headings — past bij de doorlopende betoog-structuur. Eén voetnoot [^1] aanwezig en gedefineerd. Geen artefacten, geen spurious breaks, geen Unicode-resten. Tekst vloeit logisch van paragraaf tot paragraaf.
       concrete_problemen: []
 ---

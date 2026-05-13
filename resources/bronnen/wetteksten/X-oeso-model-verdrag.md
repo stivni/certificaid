@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:28:19Z'
+    confirmed_at: '2026-05-13T12:32:04Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Handcrafted file, L1 pass: 40 headings, max sectie 8296 chars. OESO-modelverdrag correct als Engelstalige markdown. Inhoud compleet.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:19Z'
+      run_at: '2026-05-13T12:32:04Z'
       rationale: 'Handcrafted file, L1 pass: 40 headings, max sectie 8296 chars. OESO-modelverdrag correct als Engelstalige markdown. Inhoud compleet.'
       concrete_problemen: []
 ---

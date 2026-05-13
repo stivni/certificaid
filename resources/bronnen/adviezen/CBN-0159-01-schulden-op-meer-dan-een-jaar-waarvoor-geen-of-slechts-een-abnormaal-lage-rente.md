@@ -35,7 +35,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:28:33Z'
+    confirmed_at: '2026-05-13T12:32:17Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Geen zichtbare ETL-artefacten. Italics voor 'artikel 27*bis*' en '25*bis*' zijn Belgische wetgevingsstijl (geen malformed markdown). Voetnoten correct gelinkt. Genummerde lijst (1./2.) en bulletlijst correct. Inhoud volledig: vraag, boekhoudkundig antwoord met cijfervoorbeeld en fiscaal-rechtelijk commentaar aanwezig."
     layer1:
@@ -49,7 +49,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:33Z'
+      run_at: '2026-05-13T12:32:17Z'
       rationale: "Geen zichtbare ETL-artefacten. Italics voor 'artikel 27*bis*' en '25*bis*' zijn Belgische wetgevingsstijl (geen malformed markdown). Voetnoten correct gelinkt. Genummerde lijst (1./2.) en bulletlijst correct. Inhoud volledig: vraag, boekhoudkundig antwoord met cijfervoorbeeld en fiscaal-rechtelijk commentaar aanwezig."
       concrete_problemen: []
 ---

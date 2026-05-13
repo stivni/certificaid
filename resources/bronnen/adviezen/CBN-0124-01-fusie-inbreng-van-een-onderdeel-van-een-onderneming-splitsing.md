@@ -42,7 +42,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:28:34Z'
+    confirmed_at: '2026-05-13T12:32:18Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Korte advies-tekst (2090 tekens), volledig en zonder artefacten. Geen headings nodig (één doorlopende redenering). Frontmatter consistent. Laag-1 pass correct.
     layer1:
@@ -56,7 +56,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:34Z'
+      run_at: '2026-05-13T12:32:18Z'
       rationale: Korte advies-tekst (2090 tekens), volledig en zonder artefacten. Geen headings nodig (één doorlopende redenering). Frontmatter consistent. Laag-1 pass correct.
       concrete_problemen: []
 ---

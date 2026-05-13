@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:28:37Z'
+    confirmed_at: '2026-05-13T12:32:21Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 9 art met wijzigingsblokken. Tekst is volledig, lijstmarkers consistent. Spelling 'accijnsprodukten' is source-original (oude spelling) — onder '(source)'-uitzondering OK. Geen footers, geen TOC, geen scrambled volgorde.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:37Z'
+      run_at: '2026-05-13T12:32:21Z'
       rationale: 9 art met wijzigingsblokken. Tekst is volledig, lijstmarkers consistent. Spelling 'accijnsprodukten' is source-original (oude spelling) — onder '(source)'-uitzondering OK. Geen footers, geen TOC, geen scrambled volgorde.
       concrete_problemen:
         - Oude spelling 'accijnsprodukten' (source-original, geen ETL-fout)

@@ -26,7 +26,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:28:26Z'
+    confirmed_at: '2026-05-13T12:32:09Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Alle door vorige verdict gemelde problemen zijn source-typos: 'gebruikeljke' (r63), 'rekeningenstelel' (r68), 'ee volledige' (r67) staan in de bron-HTML. De woordduplicatie in [^2] ('van het koninklijk besluit van het koninklijk besluit', r75) is eveneens een fout in de officiële CBN-tekst. Geen ETL-artefacten (A-G) aangetroffen buiten deze source-categorie. Bullet op r65 correct op één regel. Inhoud volledig."
     layer1:
@@ -40,7 +40,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:26Z'
+      run_at: '2026-05-13T12:32:09Z'
       rationale: "Alle door vorige verdict gemelde problemen zijn source-typos: 'gebruikeljke' (r63), 'rekeningenstelel' (r68), 'ee volledige' (r67) staan in de bron-HTML. De woordduplicatie in [^2] ('van het koninklijk besluit van het koninklijk besluit', r75) is eveneens een fout in de officiële CBN-tekst. Geen ETL-artefacten (A-G) aangetroffen buiten deze source-categorie. Bullet op r65 correct op één regel. Inhoud volledig."
       concrete_problemen:
         - regel: 63

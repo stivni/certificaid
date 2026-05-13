@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:28:25Z'
+    confirmed_at: '2026-05-13T12:32:09Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen Fisconet-artefacten. 22 artikelheadings correct gestructureerd. HOOFDSTUK/Afdeling hiërarchie aanwezig. Wijzigingshistorie consistent.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:25Z'
+      run_at: '2026-05-13T12:32:09Z'
       rationale: Geen Fisconet-artefacten. 22 artikelheadings correct gestructureerd. HOOFDSTUK/Afdeling hiërarchie aanwezig. Wijzigingshistorie consistent.
       concrete_problemen: []
 ---

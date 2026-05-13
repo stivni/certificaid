@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:28:36Z'
+    confirmed_at: '2026-05-13T12:32:20Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Korte KB van 9 artikelen, schone heading-hierarchie ## Art., volledige tekst aanwezig, alle bracketed wijzigings-markers correct gesloten. Bijlage-referentie aan het einde is summier (model van formulier dat in PDF als beeld zit) maar storend is dit niet.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:36Z'
+      run_at: '2026-05-13T12:32:20Z'
       rationale: 'Korte KB van 9 artikelen, schone heading-hierarchie ## Art., volledige tekst aanwezig, alle bracketed wijzigings-markers correct gesloten. Bijlage-referentie aan het einde is summier (model van formulier dat in PDF als beeld zit) maar storend is dit niet.'
       concrete_problemen:
         - "Slotregel 'Bijlage / jaarlijkse lijst van de BTW-belastingplichtige afnemers' is plain text zonder ##-heading — minor"

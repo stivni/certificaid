@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:28:37Z'
+    confirmed_at: '2026-05-13T12:32:21Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Compact KB (4 artikelen). Heldere heading-hierarchie (H1 + ## Art. 1-4), elke artikel-heading gevolgd door wijzigingstoelichting tussen haakjes en daarna de wetstekst. Lijstmarkers 1°-4° consistent. Geen footers, geen TOC-leaders, geen scrambled tekst. Eén minimale source-glitch ('nieteigendomsoverdragend' samengevoegd) maar dit is geen ETL-artefact maar source-typo."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:37Z'
+      run_at: '2026-05-13T12:32:21Z'
       rationale: "Compact KB (4 artikelen). Heldere heading-hierarchie (H1 + ## Art. 1-4), elke artikel-heading gevolgd door wijzigingstoelichting tussen haakjes en daarna de wetstekst. Lijstmarkers 1°-4° consistent. Geen footers, geen TOC-leaders, geen scrambled tekst. Eén minimale source-glitch ('nieteigendomsoverdragend' samengevoegd) maar dit is geen ETL-artefact maar source-typo."
       concrete_problemen: []
 ---

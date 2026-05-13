@@ -24,45 +24,19 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:28:36Z'
+    status: trusted
+    confirmed_at: '2026-05-13T12:32:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Inconsistente HOOFDSTUK-structuur (categorie B2): 'EERSTE HOOFDSTUK' op regel 49-51 als plain text in all-caps zonder ## prefix, terwijl 'HOOFDSTUK II' op regel 183 wél als ## heading staat. Afdeling 1 als ### maar afdeling 2 ook als ### — OK. Daarnaast eed-formules (regel 129) als run-on prose i.p.v. blockquote/list, en meerdere spurious linebreaks in annotaties ('Art.\\n13,' regel 97-98, 'Art.\\n17,' regel 122-123, 'Art.\\n20,' regel 200-201)."
+    rationale: "ETL-fixes (EERSTE HOOFDSTUK → HOOFDSTUK I, plus normalize_artikel_to_art) hebben de eerder geconstateerde structuurinconsistentie opgelost. HOOFDSTUK I en HOOFDSTUK II staan beide nu als ## headings (regel 75 en 205), Afdeling 1 en 2 zijn ### headings, alle artikelen zijn #### Art. N. De eerder gesignaleerde spurious linebreaks rond 'Art.\\n13', 'Art.\\n17', 'Art.\\n20' zijn opgelost. Resterende issues zijn klein: drietalige eed-formules (regel 152) staan nog als run-on prose i.p.v. list-structuur, en 'hetWetboek' (regel 160 ontbreekt — nu inline) is een source-glue. Body/content-ratio is hoog, artikelhiërarchie consistent. Ziet eruit als wettekst die je van nul kan herschrijven."
     layer1:
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:36Z'
-      rationale: "Inconsistente HOOFDSTUK-structuur (categorie B2): 'EERSTE HOOFDSTUK' op regel 49-51 als plain text in all-caps zonder ## prefix, terwijl 'HOOFDSTUK II' op regel 183 wél als ## heading staat. Afdeling 1 als ### maar afdeling 2 ook als ### — OK. Daarnaast eed-formules (regel 129) als run-on prose i.p.v. blockquote/list, en meerdere spurious linebreaks in annotaties ('Art.\\n13,' regel 97-98, 'Art.\\n17,' regel 122-123, 'Art.\\n20,' regel 200-201)."
+      run_at: '2026-05-13T12:32:34Z'
+      rationale: "ETL-fixes (EERSTE HOOFDSTUK → HOOFDSTUK I, plus normalize_artikel_to_art) hebben de eerder geconstateerde structuurinconsistentie opgelost. HOOFDSTUK I en HOOFDSTUK II staan beide nu als ## headings (regel 75 en 205), Afdeling 1 en 2 zijn ### headings, alle artikelen zijn #### Art. N. De eerder gesignaleerde spurious linebreaks rond 'Art.\\n13', 'Art.\\n17', 'Art.\\n20' zijn opgelost. Resterende issues zijn klein: drietalige eed-formules (regel 152) staan nog als run-on prose i.p.v. list-structuur, en 'hetWetboek' (regel 160 ontbreekt — nu inline) is een source-glue. Body/content-ratio is hoog, artikelhiërarchie consistent. Ziet eruit als wettekst die je van nul kan herschrijven."
       concrete_problemen:
-        - regel: 49
-          categorie: B2
-          type: all-caps structuurlabel zonder heading-prefix
-          voorbeeld: "'EERSTE HOOFDSTUK\\nDOOR DE ADMINISTRATIE BELAST MET DE BELASTING OVER DE\\nTOEGEVOEGDE WAARDE INGESTELDE VORDERING TOT SCHATTING.' — geen ## ervoor terwijl HOOFDSTUK II op regel 183 wél ## heeft"
-        - regel: 129
-          categorie: C2
-          type: eed-formules als run-on prose
-          voorbeeld: "'- \"Ik zweer ...\" of : - \"Je jure ...\" of : - \"Ich schwöre ...\" De minuut van het verslag wordt neergelegd...' — drietalig eed-blok + vervolg-zin allemaal op één regel, geen list-structuur"
-        - regel: 97
-          categorie: A2
-          type: spurious linebreak
-          voorbeeld: "'(Art.\\n17, KB 24.01.2015, ...)' over regel 97-98"
-        - regel: 122
-          categorie: A2
-          type: spurious linebreak
-          voorbeeld: "'(Art.\\n17, KB 19.12.2010, ...)' over regel 122-123"
-        - regel: 200
-          categorie: A2
-          type: spurious linebreak
-          voorbeeld: "'(Art.\\n20, KB 19.12.2010, ...)' over regel 200-201"
-        - regel: 160
-          categorie: A4
-          type: spatie ontbreekt
-          voorbeeld: "'van hetWetboek' (hetWetboek zonder spatie)"
-        - regel: 56
-          categorie: B2
-          type: 'lege ### Afdeling 1 zonder body'
-          voorbeeld: "'### Afdeling 1\\nVervreemdingen van goederen ...' — heading direct gevolgd door annotatie en dan #### Art. 1"
+        - "Regel 152: drietalige eed-formules ('Ik zweer...' / 'Je jure...' / 'Ich schwöre...') als run-on prose i.p.v. list — minor, semantiek blijft duidelijk"
+        - Spatie-glue 'hetWetboek' is source-PDF artefact (categorie source)
 ---
 
 # K.B. nr. 15 van 3 juni 1970, tot regeling van de schattings- procedure waarin artikel 59, § 2, van het Wetboek van de belasting over de toegevoegde waarde voorziet

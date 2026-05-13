@@ -25,18 +25,19 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:28:37Z'
+    confirmed_at: '2026-05-13T12:32:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: promote_wettekst_section_labels heeft 'Bijlage 1/2/3' op regels 72, 74, 76 succesvol gepromoot naar '## Bijlage N' headings. Maar de bijlagen blijven volledig leeg — er staat geen content onder. Voor RAG levert dit drie nutteloze section-ankers zonder body op. Een buitenstaander ziet drie naakte 'Bijlage'-headings onderaan; duidelijk onafgemaakt. Een strip_empty_trailing_headings transformer ontbreekt nog, of de bijlagen-inhoud moet alsnog uit de PDF worden meegenomen.
+    rationale: "promote_wettekst_section_labels heeft 'Bijlage 1/2/3' correct gepromoot naar ## headings, maar de bijlagen blijven leeg (regels 71-75). Voor RAG levert dit drie nutteloze section-ankers zonder body op — duidelijk ETL-artefact dat een van-nul-auteur niet zou produceren. Daarnaast: dit MB is sinds 06.07.2020 opgeheven (regel 49 vermeldt het opheffings-KB van 22.06.2020). Geen kerncontent (de modelberichten zelf) — alleen 5 verwijzings-artikelen. ETL-fix nodig: strip_empty_trailing_headings, óf de bijlagen-content uit de PDF herextractieën. Bij twijfel → needs-rework."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:37Z'
-      rationale: promote_wettekst_section_labels heeft 'Bijlage 1/2/3' op regels 72, 74, 76 succesvol gepromoot naar '## Bijlage N' headings. Maar de bijlagen blijven volledig leeg — er staat geen content onder. Voor RAG levert dit drie nutteloze section-ankers zonder body op. Een buitenstaander ziet drie naakte 'Bijlage'-headings onderaan; duidelijk onafgemaakt. Een strip_empty_trailing_headings transformer ontbreekt nog, of de bijlagen-inhoud moet alsnog uit de PDF worden meegenomen.
+      run_at: '2026-05-13T12:32:34Z'
+      rationale: "promote_wettekst_section_labels heeft 'Bijlage 1/2/3' correct gepromoot naar ## headings, maar de bijlagen blijven leeg (regels 71-75). Voor RAG levert dit drie nutteloze section-ankers zonder body op — duidelijk ETL-artefact dat een van-nul-auteur niet zou produceren. Daarnaast: dit MB is sinds 06.07.2020 opgeheven (regel 49 vermeldt het opheffings-KB van 22.06.2020). Geen kerncontent (de modelberichten zelf) — alleen 5 verwijzings-artikelen. ETL-fix nodig: strip_empty_trailing_headings, óf de bijlagen-content uit de PDF herextractieën. Bij twijfel → needs-rework."
       concrete_problemen:
-        - "Regels 72, 74, 76: '## Bijlage 1', '## Bijlage 2', '## Bijlage 3' zonder content eronder — lege section-ankers"
-        - Bijlagen-content (modelberichten 93ter/93quinquies en 433/435) ontbreekt — kerncontent van het MB
+        - "Regels 71, 73, 75: '## Bijlage 1', '## Bijlage 2', '## Bijlage 3' zonder body — lege section-ankers"
+        - Kerncontent van het MB (modelberichten 93ter/93quinquies + 433/435) ontbreekt volledig
+        - MB sinds 06.07.2020 opgeheven (vermeld in regel 49); status 'beschikbaar' is technisch correct maar relevantie laag
 ---
 
 # M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992

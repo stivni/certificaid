@@ -11,10 +11,10 @@
         "XIX",
         "4.0"
       ],
-      "trust_status": "needs-rework",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": "default",
       "layer1_status": null,
-      "layer2_status": "needs-rework"
+      "layer2_status": null
     },
     {
       "bestand": "Almanak-BTW-2026.md",
@@ -893,10 +893,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": null,
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB16-vismijn.md",
@@ -1058,10 +1058,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": null,
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB2bis-cafehouders.md",
@@ -1298,10 +1298,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": null,
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB53-winstmarge-tweedehands.md",
@@ -1734,10 +1734,10 @@
         "XIII",
         "1.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "rejected",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": null,
-      "layer2_status": "needs-rework"
+      "layer2_status": "rejected"
     },
     {
       "bestand": "WER.md",

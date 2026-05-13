@@ -43,7 +43,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:28:26Z'
+    confirmed_at: '2026-05-13T12:32:09Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Kort advies (5k chars), volledig schoon. Vier ##-secties correct benoemd, voetnoten [^1]–[^7] volledig gekoppeld, geen artefacten in categorie A t/m G. Inhoud compleet (inleiding, vraagstelling, toepasselijke standaard, vrijstelling).'
     layer1:
@@ -57,7 +57,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:26Z'
+      run_at: '2026-05-13T12:32:09Z'
       rationale: 'Kort advies (5k chars), volledig schoon. Vier ##-secties correct benoemd, voetnoten [^1]–[^7] volledig gekoppeld, geen artefacten in categorie A t/m G. Inhoud compleet (inleiding, vraagstelling, toepasselijke standaard, vrijstelling).'
       concrete_problemen: []
 ---

@@ -25,20 +25,19 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:28:36Z'
+    confirmed_at: '2026-05-13T12:32:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Inconsistente heading-stijl: meeste artikelen als '###### Art. N' maar artikelen 5-12, 46, 64, 86 en 132 staan als plain text 'Artikel N.' midden in de prose (checklist B). Daarnaast een gedegenereerde pseudo-tabel voor de btw-codes (regels 203-216) met scrambled kolommen en multi-line cellen (checklist E + checklist A column-bleed). Dit is duidelijk ETL-residu."
+    rationale: "_ARTIKEL_PLAIN_TITLE_RE heeft inline 'Artikel N.' headings correct genormaliseerd naar ###### Art. N (Art. 5, 6, 7, 8, 9, 10, 11, 12, 46, 64, 86 staan nu als headings). Echter twee structurele issues blijven onopgelost: (1) BTW-codes pseudo-tabel op regels 207-218 toont scrambled kolom-bleed van een PDF-tabel ('BTW- BTW- CODE TAUX DE' / 'BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA') — onbruikbaar als tabel; (2) `## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\\nGEREGISTREERD KASSASYSTEEM` heeft spurious linebreak midden in heading (regels 199-200). Beide zijn duidelijke ETL-artefacten die een buitenstaander direct opvalt — komen niet voor in een van-nul-geschreven wettekst."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:28:36Z'
-      rationale: "Inconsistente heading-stijl: meeste artikelen als '###### Art. N' maar artikelen 5-12, 46, 64, 86 en 132 staan als plain text 'Artikel N.' midden in de prose (checklist B). Daarnaast een gedegenereerde pseudo-tabel voor de btw-codes (regels 203-216) met scrambled kolommen en multi-line cellen (checklist E + checklist A column-bleed). Dit is duidelijk ETL-residu."
+      run_at: '2026-05-13T12:32:34Z'
+      rationale: "_ARTIKEL_PLAIN_TITLE_RE heeft inline 'Artikel N.' headings correct genormaliseerd naar ###### Art. N (Art. 5, 6, 7, 8, 9, 10, 11, 12, 46, 64, 86 staan nu als headings). Echter twee structurele issues blijven onopgelost: (1) BTW-codes pseudo-tabel op regels 207-218 toont scrambled kolom-bleed van een PDF-tabel ('BTW- BTW- CODE TAUX DE' / 'BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA') — onbruikbaar als tabel; (2) `## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\\nGEREGISTREERD KASSASYSTEEM` heeft spurious linebreak midden in heading (regels 199-200). Beide zijn duidelijke ETL-artefacten die een buitenstaander direct opvalt — komen niet voor in een van-nul-geschreven wettekst."
       concrete_problemen:
-        - "Heading-inconsistentie: 'Artikel 5. Event Normal' (regel 142), 'Artikel 6.' (147), 'Artikel 7.' (156), 'Artikel 8.' (159), 'Artikel 9.' (162), 'Artikel 10.' (165), 'Artikel 11.' (168), 'Artikel 12.' (176), 'Artikel 46.' (343), 'Artikel 64.' (435), 'Artikel 86' (572), 'Artikel 132.' (886) staan als plain text terwijl andere artikelen ###### gebruiken"
-        - "BTW-tarieventabel (regels 203-216) is geen pipe-tabel maar kolom-bleed van een PDF-tabel: 'BTW- BTW- CODE TAUX DE' en 'BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA' verspreid over 4 regels — onbruikbaar als tabel (checklist E + A)"
-        - TITEL II-heading (regel 127-128) loopt over twee regels door spurious linebreak midden in koptekst (checklist A)
-        - Section 'Bevoegde dienst FOD Financien' (regels 90-92) heeft adres-blok zonder duidelijke afbakening — leest als prose maar is contactblok
+        - 'Regels 207-218: BTW-codes pseudo-tabel als scrambled column-bleed (categorie A8 + E)'
+        - "Regels 199-200: '## TITEL II...' heading gebroken over twee regels door spurious linebreak (categorie A2/B1)"
+        - "Regel 792: 'Artikel 2bis van het koninklijk besluit...' in body (geen heading, dus correct als plain text — false positive in vorige QA-ronde)"
 ---
 
 # M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem

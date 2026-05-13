@@ -2092,3 +2092,76 @@ class TestNormalizeArtikelToArt:
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "normalize_artikel_to_art" in TRANSFORMERS
+
+
+class TestStripLeadingTocHeadingBlock:
+    def test_avg_wet_pattern(self):
+        from tools.etl.transformers.strip_leading_toc_heading_block import strip_leading_toc_heading_block
+        # Maak een mini-TOC met 18 headings
+        toc_headings = "\n".join(f"###### Art. {n}" for n in range(1, 19))
+        body = (
+            "# Wet bescherming persoonsgegevens\n"
+            "\n"
+            "*Bijgewerkt tot en met 30.07.2018*\n"
+            "\n"
+            "30 JULI 2018. - Wet betreffende ...\n"
+            "\n"
+            + toc_headings + "\n"
+            "\n"
+            "Tekst\n"
+            "\n"
+            "VOORAFGAANDE TITEL. - Inleidende bepalingen\n"
+            "\n"
+            "###### Art. 1\n"
+            "Deze wet regelt ...\n"
+        )
+        result, _ = strip_leading_toc_heading_block(body, {})
+        # TOC moet weg
+        assert "###### Art. 18" not in result
+        # Maar de echte Art. 1 (in body) moet blijven
+        assert "Deze wet regelt" in result
+        assert "VOORAFGAANDE TITEL" in result
+
+    def test_no_toc_passthrough(self):
+        from tools.etl.transformers.strip_leading_toc_heading_block import strip_leading_toc_heading_block
+        body = (
+            "# Titel\n"
+            "\n"
+            "*Bijgewerkt*\n"
+            "\n"
+            "## Art. 1\n"
+            "Inhoud van artikel 1.\n"
+            "## Art. 2\n"
+            "Inhoud van artikel 2.\n"
+        )
+        result, _ = strip_leading_toc_heading_block(body, {})
+        # Geen kale TOC-block (alleen 2 headings, beide met body) → geen strip
+        assert result == body
+
+    def test_small_heading_cluster_not_stripped(self):
+        from tools.etl.transformers.strip_leading_toc_heading_block import strip_leading_toc_heading_block
+        # Slechts 5 headings zonder body → onder de drempel
+        body = (
+            "# Titel\n\n"
+            "*Intro*\n\n"
+            "## Section 1\n\n## Section 2\n\n## Section 3\n\n## Section 4\n\n## Section 5\n"
+            "\nReal body starts here.\n"
+        )
+        result, _ = strip_leading_toc_heading_block(body, {})
+        # Niet gestript (slechts 5 < 15)
+        assert "## Section 5" in result
+
+    def test_idempotent(self):
+        from tools.etl.transformers.strip_leading_toc_heading_block import strip_leading_toc_heading_block
+        toc = "\n".join(f"###### Art. {n}" for n in range(1, 17))
+        body = (
+            "# Titel\n*Intro*\n\n"
+            + toc + "\n\nTekst\n\nArt. 1 body.\n"
+        )
+        once, _ = strip_leading_toc_heading_block(body, {})
+        twice, _ = strip_leading_toc_heading_block(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "strip_leading_toc_heading_block" in TRANSFORMERS
