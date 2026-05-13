@@ -1621,6 +1621,22 @@ class TestStripRunningPageHeaders:
         twice, _ = strip_running_page_headers(once, {})
         assert once == twice
 
+    def test_kb_pg_title_pattern(self):
+        from tools.etl.transformers.strip_running_page_headers import strip_running_page_headers
+        body = "Slot.\n KB57 (2017) pg. 1 Plaats van de dienst\n"
+        result, _ = strip_running_page_headers(body, {})
+        assert "KB57" not in result or "Plaats van de dienst" not in result
+        # Both should be gone
+        assert "pg. 1" not in result
+
+    def test_kb_pg_bijw_pattern(self):
+        from tools.etl.transformers.strip_running_page_headers import strip_running_page_headers
+        body = "Body.\n KB57 (2017) pg. Bijw/1 Plaats van de dienst\nVolgende.\n"
+        result, _ = strip_running_page_headers(body, {})
+        assert "Bijw/1" not in result
+        assert "Body." in result
+        assert "Volgende." in result
+
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "strip_running_page_headers" in TRANSFORMERS

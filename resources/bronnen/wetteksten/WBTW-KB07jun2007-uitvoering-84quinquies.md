@@ -17,19 +17,24 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:40Z'
+  generated_at: '2026-05-13T10:58:06Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Kleine schone KB: 6 Art.-headings consistent, alle artikelen hebben heading + commentaarblok + body, geen PDF-artefacten zichtbaar. Source-typo's afwezig."
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: "Kleine schone KB: 6 Art.-headings consistent, alle artikelen hebben heading + commentaarblok + body, geen PDF-artefacten zichtbaar. Source-typo's afwezig."
+      concrete_problemen: []
 ---
 
 # K.B. van 7 juni 2007, tot uitvoering van de artikelen 84quinquies tot 84decies van het Wetboek van de belasting over de toegevoegde waarde

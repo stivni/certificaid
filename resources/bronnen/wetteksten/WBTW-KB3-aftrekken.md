@@ -17,19 +17,29 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:38Z'
+  generated_at: '2026-05-13T10:58:05Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Overwegend leesbaar maar bevat meerdere PDF-extractie-artefacten: paragraaf-markeringen § die op een aparte regel staan los van hun zin (regels 129, 148, 154, 405-406), en sommige opsommingsitems die afgekapt zijn over twee paragrafen (regels 93-95, 104-105, 107-108). Verder een footnote-marker (1) als mid-tekst inline (regels 204-205) zonder duidelijke conventie. Voor een buitenstaander zien deze sprongen er rommelig uit.'
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: 'Overwegend leesbaar maar bevat meerdere PDF-extractie-artefacten: paragraaf-markeringen § die op een aparte regel staan los van hun zin (regels 129, 148, 154, 405-406), en sommige opsommingsitems die afgekapt zijn over twee paragrafen (regels 93-95, 104-105, 107-108). Verder een footnote-marker (1) als mid-tekst inline (regels 204-205) zonder duidelijke conventie. Voor een buitenstaander zien deze sprongen er rommelig uit.'
+      concrete_problemen:
+        - §-tekens op aparte regels, losgekoppeld van de paragraaf (bv. regels 129, 148, 154, 405-406)
+        - Opsommingsitem 2° in Art. 3 § 1 wordt opgesplitst over twee paragrafen (regels 93-95)
+        - Item 7° in Art. 3 § 1 verwijst halverwege naar KB nr. opgesplitst over regels 104-105
+        - Footnote-marker (1) inline in tekst tussen art. 9, § 4 en art. 10 (regels 204-205) zonder duidelijk markup-patroon
+        - Sub-strategy frontmatter-veld is leeg (chunk.sub_strategy:)
 ---
 
 # K.B. nr. 3 van 10 december 1969, met betrekking tot de aftrekken voor de toepassing van de belasting over de toegevoegde waarde

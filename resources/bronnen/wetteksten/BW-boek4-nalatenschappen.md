@@ -30,8 +30,8 @@ provenance:
     rationale: "L1 pass: 268 headings, max sectie 3258 chars. Heading-hiërarchie correct als ##### Art. N met beschrijvende namen. Afdelingen als 'Ondertitel' zijn plain-text tussenkopjes maar dit is bron-stijl (BW). Inhoud volledig, geen ETL-artefacten."
     layer1:
       status: pass
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:39Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:37Z'
       heading_count: 268
       max_section_chars: 3258
       file_size_chars: 167953

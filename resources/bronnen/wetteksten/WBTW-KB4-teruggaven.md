@@ -17,19 +17,30 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:38Z'
+  generated_at: '2026-05-13T10:58:05Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Significante PDF-extractie-artefacten: artikel-nummering klopt niet (## Art. 81, ## Art. 82, ## Art. 83 op regels 130, 208, 217 - dit zijn in werkelijkheid de artikelen 8/1, 8/2 en 8/3, want de amendment-context spreekt over 'artikel 8/1, § 2' enz.). De heading-extractie heeft de slash genegeerd. Verder PDF-afbrekingsfouten: 'BTWidentificatienummer', 'btwtarief', 'btwaangifte', 'niet-belastingplichtige' soms inconsistent. Diverse zinnen-onderbrekingen door witregel."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: "Significante PDF-extractie-artefacten: artikel-nummering klopt niet (## Art. 81, ## Art. 82, ## Art. 83 op regels 130, 208, 217 - dit zijn in werkelijkheid de artikelen 8/1, 8/2 en 8/3, want de amendment-context spreekt over 'artikel 8/1, § 2' enz.). De heading-extractie heeft de slash genegeerd. Verder PDF-afbrekingsfouten: 'BTWidentificatienummer', 'btwtarief', 'btwaangifte', 'niet-belastingplichtige' soms inconsistent. Diverse zinnen-onderbrekingen door witregel."
+      concrete_problemen:
+        - "Heading-fout: '## Art. 81' (regel 130) is in werkelijkheid Art. 8/1 - zie amendment-blok 'KB nr. 4, artikel 8/1, § 2'. Idem Art. 82=8/2, Art. 83=8/3"
+        - "PDF-afbrekingsfouten zonder spatie: 'btwtarief' (regel 149), 'btwaangifte' (regel 249 in andere bestanden), 'BTWidentificatienummer', 'nietbelastingplichtige' (regel 248)"
+        - Mid-zin breaks tussen § 3, derde lid en het slot van Art. 6 ('In afwijking...')
+        - 'Lange Art. 81-paragrafen (max_section_chars: 15545) kunnen wijzen op slechte chunking'
+        - In Art. 4 § 1 4° begint paragraaf met '4° in geval van teruggaaf' - OK qua content maar de hele afwerking strekt zich uit met mid-sentence linebreaks
+        - Art. 9 amendment-tekst regel 242 schrijft 'artikel. 9' met eigenaardige punt
 ---
 
 # K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde

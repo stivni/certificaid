@@ -30,8 +30,8 @@ provenance:
     rationale: "A2+A8+A1 bevestigd. A2: TOC met dotted-leaders (regels 67-251). A8: NL+FR tekst op één regel door bilingue bron-PDF (bv. regel 544: 'Het kantoor mag ze niet langer houden dan nodig is.  Le bureau ne peut les retenir au-delà du temps nécessaire.'). A1: titels gecombineerd als 'INWERKINGTREDING  ENTREE EN VIGUEUR' (regel 17027). Structureel probleem van bilingue PDF-bron — ETL kan NL-alleen-versie extraheren als die beschikbaar is."
     layer1:
       status: warn
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:41Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:38Z'
       heading_count: 625
       max_section_chars: 55446
       file_size_chars: 498657

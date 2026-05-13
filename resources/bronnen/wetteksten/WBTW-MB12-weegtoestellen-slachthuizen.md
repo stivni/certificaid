@@ -24,12 +24,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Korte MB met 2 artikelen. Geen TOC- of footer-artefact. Art. 1 bevat een opsomming met losse '-' bullets (regels 56-63) waar ' - de naam en het adres ...' midden in een prozaregel aansluit op een lopende zin ('de afdrukinrichting ... de volgende inlichtingen afdrukken: - de naam ...'), maar dat is een aanvaardbare lijst-conversie. Geen kolom-bleed of scrambled tekst."
     layer1:
+      status: pass
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:40Z'
+      heading_count: 2
+      max_section_chars: 1520
+      file_size_chars: 2141
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: "Korte MB met 2 artikelen. Geen TOC- of footer-artefact. Art. 1 bevat een opsomming met losse '-' bullets (regels 56-63) waar ' - de naam en het adres ...' midden in een prozaregel aansluit op een lopende zin ('de afdrukinrichting ... de volgende inlichtingen afdrukken: - de naam ...'), maar dat is een aanvaardbare lijst-conversie. Geen kolom-bleed of scrambled tekst."
+      concrete_problemen: []
 ---
 
 # M.B. nr. 12 van 28 augustus 1973, met betrekking tot de automatische weegtoestellen te gebruiken in slachthuizen voor de toepassing van de belasting over de toegevoegde waarde

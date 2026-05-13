@@ -17,19 +17,28 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:38Z'
+  generated_at: '2026-05-13T10:58:05Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Hoofdtekst is goed: hoofdstukken, secties, artikelen consistent geformatteerd. Maar Bijlage (regels 1077-1104) bevat zware PDF-table-bleed: 'Code van het Tarief' en 'Omschrijving' kolommen door elkaar, fragmentarische zinnen, GN-codes en omschrijvingen versmolten ('3704 00 Fotografische platen, film, ...'), regels 1086-1087 bevatten meervoudige codes vermengd met tekst zonder structuur. Ook regels 978, 984, 990-993, 1022-1033 (lijstjes in Art. 43-44) hebben pseudo-tabel-bleed (hoeveelheden voor tabak/alcohol)."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: "Hoofdtekst is goed: hoofdstukken, secties, artikelen consistent geformatteerd. Maar Bijlage (regels 1077-1104) bevat zware PDF-table-bleed: 'Code van het Tarief' en 'Omschrijving' kolommen door elkaar, fragmentarische zinnen, GN-codes en omschrijvingen versmolten ('3704 00 Fotografische platen, film, ...'), regels 1086-1087 bevatten meervoudige codes vermengd met tekst zonder structuur. Ook regels 978, 984, 990-993, 1022-1033 (lijstjes in Art. 43-44) hebben pseudo-tabel-bleed (hoeveelheden voor tabak/alcohol)."
+      concrete_problemen:
+        - 'Bijlage (regels 1077-1104): GN-codes en omschrijvingen versmolten zonder tabel-structuur'
+        - "Regels 978, 984, 990-993: alcoholtarief-tabel met losse '-' bullets en samengeperste hoeveelheden"
+        - "Regels 1022-1034: kleine zendingen-tabel met categorieën door elkaar (sigaretten/cigarillo's/sigaren in dezelfde regel)"
+        - "Artikel 39 §1 (regel 852): afgebroken zin 'van het Bovendien is...' — ontbrekend woord/scrambled na 'Wetboek'"
 ---
 
 # K.B. nr. 7 van 29 december 1992, met betrekking tot de invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde

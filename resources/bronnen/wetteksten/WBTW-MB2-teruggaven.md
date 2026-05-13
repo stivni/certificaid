@@ -24,12 +24,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Korte, schone tekst met heldere ## Art.-structuur en correct genummerde sublijsten. Geen artefacten.'
     layer1:
+      status: pass
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:40Z'
+      heading_count: 3
+      max_section_chars: 1177
+      file_size_chars: 2157
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: 'Korte, schone tekst met heldere ## Art.-structuur en correct genummerde sublijsten. Geen artefacten.'
+      concrete_problemen: []
 ---
 
 # M.B. nr. 2 van 21 december 2010, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde

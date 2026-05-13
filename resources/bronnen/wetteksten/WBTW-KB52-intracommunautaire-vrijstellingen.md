@@ -17,19 +17,27 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:40Z'
+  generated_at: '2026-05-13T10:58:06Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Hoofdtekst is goed, maar regel 57 toont een hoofdstuk-titel onder ## HOOFDSTUK 1 met twee leading spaces (indentation-artefact: '  Bewijsregeling inzake...'), wat geen mens-geschreven markdown is. Art. 3 §3 bevat midden in een opsomming een onverwachte linebreak en alleenstaande lijst-streepjes (regel 78-79). Inconsistent: ## HOOFDSTUK 1/2/3 all-caps zonder volgnummer-puntje terwijl in body steeds 'hoofdstuk' wordt verwezen."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: "Hoofdtekst is goed, maar regel 57 toont een hoofdstuk-titel onder ## HOOFDSTUK 1 met twee leading spaces (indentation-artefact: '  Bewijsregeling inzake...'), wat geen mens-geschreven markdown is. Art. 3 §3 bevat midden in een opsomming een onverwachte linebreak en alleenstaande lijst-streepjes (regel 78-79). Inconsistent: ## HOOFDSTUK 1/2/3 all-caps zonder volgnummer-puntje terwijl in body steeds 'hoofdstuk' wordt verwezen."
+      concrete_problemen:
+        - "Regel 57: '  Bewijsregeling inzake de vrijstellingen...' — twee leading spaces direct na ## HOOFDSTUK 1 heading, typisch pdftotext-indentation"
+        - "Regel 78-79: enumeratie met '- een bestemmingsdocument...' midden in lopende zin gestart — afgebroken paragraaf"
+        - "Frontmatter B.S.-datum in body inconsistent: '23.12.2009' (regel 51) terwijl KB van 2019 is — vermoedelijk source-typo maar dan zou status 'trusted (source)' moeten zijn; gezien overige issues blijft needs-rework"
 ---
 
 # K.B. nr. 52 van 11 december 2019, met betrekking tot de bewijsregeling inzake de vrijstellingen betreffende de intracommunautaire leveringen van goederen en de ermee gelijkgestelde handelingen en met betrekking tot de vrijstelling van intracommunautaire verwervingen van goederen en de ermee gelijkgestelde handelingen, op het stuk van de belasting over de toegevoegde waarde

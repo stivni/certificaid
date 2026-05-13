@@ -30,8 +30,8 @@ provenance:
     rationale: "Layer1 warn (max_section_size). B4: 46 ALL_CAPS plain-text sectietitels ('AANGIFTE IN DE VENNOOTSCHAPSBELASTING', 'AANSLAGJAAR 2025', 'VOORAFGAANDE OPMERKINGEN', ...). 22 H2-headings aanwezig voor de vakken maar sub-rubrieken ontbreken als heading. A6: 2 echte hits (minimaal). 21 regels >300 chars — lange regels maar geen kolom-bleed (gewone wettekstzinnen)."
     layer1:
       status: warn
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:45Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:41Z'
       heading_count: 22
       max_section_chars: 48683
       file_size_chars: 246794

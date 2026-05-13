@@ -17,19 +17,29 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:39Z'
+  generated_at: '2026-05-13T10:58:06Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Tekst is grotendeels OK, maar bevat verschillende afgebroken zinnen midden in artikelen (linebreaks zonder syntactische reden) en samengeplakte woorden 'hetWetboek' (regel 67) — typische pdftotext-confusion. Art. 4bis-melding van opheffing is OK maar de afbrekingen ondermijnen mens-geschreven indruk.
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: Tekst is grotendeels OK, maar bevat verschillende afgebroken zinnen midden in artikelen (linebreaks zonder syntactische reden) en samengeplakte woorden 'hetWetboek' (regel 67) — typische pdftotext-confusion. Art. 4bis-melding van opheffing is OK maar de afbrekingen ondermijnen mens-geschreven indruk.
+      concrete_problemen:
+        - "Regel 67: 'van hetWetboek' (ontbrekende spatie) — pdftotext spacing-bug"
+        - "Regel 54-55: zin afgebroken na 'artikel 53,' met nieuwe paragraaf '§ 1, eerste lid...' — kolom/lineflow-break midden zin"
+        - "Regel 75-76: 'a) voor de landvoertuigen: ...' gevolgd door lege regel en dan 'b) voor schepen: ...' — onnatuurlijke witregel binnen één enumeratielijst"
+        - "Regel 105-106: '01.01.2004.\\n(Art. 28, ...)' — datum gescheiden van bron-citatie door linebreak"
+        - "Regel 120-121: '... overeenkomstig artikel\\n6.' — artikelverwijzing midden zin afgebroken"
 ---
 
 # K.B. nr. 48 van 29 december 1992, met betrekking tot de levering van vervoermiddelen in de zin van artikel 8bis, § 2, 1°, van het Btw- Wetboek, verricht binnen de voorwaarden van artikel 39bis van het Btw- Wetboek

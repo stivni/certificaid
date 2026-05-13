@@ -17,19 +17,28 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:40Z'
+  generated_at: '2026-05-13T10:58:06Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Korte KB, hoofdtekst is OK, maar bestand bevat duidelijke ETL-bleed onderaan: regel 73 'KB57 (2017) pg. 1 Plaats van de dienst' (running-header met page-nummer) en regels 75-79 met 'Lijst van de bijwerkingen' tabel. Daarnaast Art. 2 §1 (regel 59-60) breekt '1° en 2°' over een linebreak."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: "Korte KB, hoofdtekst is OK, maar bestand bevat duidelijke ETL-bleed onderaan: regel 73 'KB57 (2017) pg. 1 Plaats van de dienst' (running-header met page-nummer) en regels 75-79 met 'Lijst van de bijwerkingen' tabel. Daarnaast Art. 2 §1 (regel 59-60) breekt '1° en 2°' over een linebreak."
+      concrete_problemen:
+        - "Regel 73: ' KB57 (2017) pg. 1 Plaats van de dienst' — Fisconet running-header met page-nummer als plain text, leading space"
+        - "Regels 75-79: 'KB nr. 57 (2017) - Lijst van de bijwerkingen' / 'Bijwerking Te vervangen pagina's' / 'Bijw. 01 / 13.11.2017' — page-management metadata"
+        - "Regel 81: 'KB57 (2017) pg. Bijw/1 Plaats van de dienst' — tweede running-header"
+        - "Regel 59-60: '... in paragraaf 1, eerste lid,\\n1° en 2° bedoelde diensten ...' — verwijzing afgebroken over linebreak"
 ---
 
 # K.B. nr. 57, van 31.10.2017 met betrekking tot de plaats van diensten in functie van hun werkelijke gebruik of hun werkelijke exploitatie inzake belasting over de toegevoegde waarde wat goederenvervoerdiensten en ermee samenhangende diensten betreft
@@ -62,5 +71,3 @@ Het koninklijk besluit nr. 57 van 17 maart 2010 met betrekking tot de plaats van
 (De tekst van KB nr. 57 (2017), artikel 3, is van toepassing vanaf 23.11.2017 (Art. 3, KB 31.10.2017, B.S. 13.11.2017, pg. 98505))
 
 De minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.
-
- KB57 (2017) pg. 1 Plaats van de dienst

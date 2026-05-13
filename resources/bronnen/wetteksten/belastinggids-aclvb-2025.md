@@ -30,8 +30,8 @@ provenance:
     rationale: "A1: 73 paginakop/-voetregel-artefacten ('Belastinggids 2025 • XX' / 'XX • Belastinggids 2025') verspreid door body (elke ~40 regels). A6: 96 spurious line-breaks in body (zinnen afgekapt per visuele PDF-regel). C1: 305 bullet-glyphs (•) gebruikt — dit zijn echter echte opsommingsbullets uit de bron, niet PDF-glyphs. Paginakoppen zijn ETL-artefact."
     layer1:
       status: warn
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:44Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:41Z'
       heading_count: 5
       max_section_chars: 89695
       file_size_chars: 135339

@@ -24,12 +24,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T10:59:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Schone korte tekst, drie ## Art.-headings, intacte wijzigingsmarker. Geen artefacten.'
     layer1:
+      status: pass
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:40Z'
+      heading_count: 3
+      max_section_chars: 668
+      file_size_chars: 1325
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:43Z'
+      rationale: 'Schone korte tekst, drie ## Art.-headings, intacte wijzigingsmarker. Geen artefacten.'
+      concrete_problemen: []
 ---
 
 # M.B. van 29 augustus 2006, tot aanduiding van de ambtenaar bedoeld in artikel 62bis van het Wetboek van de belasting over de toegevoegde waarde en in artikel 318 van het Wetboek van de inkomstenbelastingen 1992

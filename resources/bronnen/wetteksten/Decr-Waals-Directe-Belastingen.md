@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 warn: 232 headings, max sectie 31069 chars (chunker auto-split). Headings als ##### Art. N correct. Definities-blok met lange omschrijvingen is bron-stijl. Geen ETL-artefacten.'
     layer1:
       status: warn
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:40Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:37Z'
       heading_count: 232
       max_section_chars: 31069
       file_size_chars: 333930

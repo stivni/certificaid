@@ -30,8 +30,8 @@ provenance:
     rationale: "Ernstige structuurproblemen: de body van Art. 4-7 (sancties, verzwarende omstandigheden, aansprakelijkheid) verschijnt als anonieme paragrafen VÓÓR de bijhorende heading-regels (regels 233-293 bevatten body zonder heading, daarna volgen de headings op regels 255-293). Art. 12, 13, 14, 15, 16 zijn kale headings zonder body. Bovendien is de body van Art. 4, 5, 6 midden in de flow versprongen. Eerdere rationale onderschatte de ernst: dit is geen louter 'overweging-nummers zonder heading' maar structureel door elkaar."
     layer1:
       status: pass
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:40Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:37Z'
       heading_count: 16
       max_section_chars: 20441
       file_size_chars: 39810

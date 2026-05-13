@@ -24,12 +24,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T10:59:43Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Schone structuur met vier ## Art.-headings en correcte a)/b)/c)/d)-sublijst in Art. 2. Geen artefacten.'
     layer1:
+      status: pass
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:40Z'
+      heading_count: 4
+      max_section_chars: 635
+      file_size_chars: 1708
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:43Z'
+      rationale: 'Schone structuur met vier ## Art.-headings en correcte a)/b)/c)/d)-sublijst in Art. 2. Geen artefacten.'
+      concrete_problemen: []
 ---
 
 # M.B. nr. 6 van 4 maart 1993, waarbij uitstel wordt verleend voor de voldoening van de ter zake van de invoer van goederen verschuldigde belasting over de toegevoegde waarde

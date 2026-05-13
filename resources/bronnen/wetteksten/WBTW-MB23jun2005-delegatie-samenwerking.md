@@ -24,12 +24,26 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "'Enig artikel' staat als plain text (regel 48) en niet als heading. Layer1 heading_count is dan ook 0. Dit is een structureel ETL-issue: een buitenstaander herkent dit niet als de centrale (en enige) bepaling van het MB, en RAG-chunking zal hier slecht op werken."
     layer1:
+      status: pass
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:40Z'
+      heading_count: 0
+      max_section_chars: 1156
+      file_size_chars: 1156
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: "'Enig artikel' staat als plain text (regel 48) en niet als heading. Layer1 heading_count is dan ook 0. Dit is een structureel ETL-issue: een buitenstaander herkent dit niet als de centrale (en enige) bepaling van het MB, en RAG-chunking zal hier slecht op werken."
+      concrete_problemen:
+        - "'Enig artikel' op regel 48 is plain text i.p.v. ## Enig artikel (checklist B: 'Enig artikel' als plain-text ipv heading)"
+        - Bestand bevat 0 headings volgens layer1.heading_count — er is geen enkel section-anker voor retrieval
 ---
 
 # M.B. van 23 juni 2005, met betrekking tot de delegatie van de bevoegde autoriteit inzake de administratieve samenwerking op het gebied van de belasting over de toegevoegde waarde

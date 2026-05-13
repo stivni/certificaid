@@ -17,19 +17,30 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:39Z'
+  generated_at: '2026-05-13T10:58:06Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Inhoudelijk consistent en goed gestructureerd, maar bevat PDF-extractie-artefacten: § 2./3./4. paragraaf-markeringen losgekoppeld op aparte regels (regels 60-61), aaneengeklonken woorden door PDF-afbreking ('BTWidentificatienummer', 'BTWkantoor', 'douaneentrepot' op meerdere plaatsen), en in de titel-frontmatter 'toepassings- modaliteiten' met overgebleven trailing dash. Verder Art. 3 amendment-blok: 'KB nr. 31, artikel, derde lid' - een ontbrekend artikelnummer (waarschijnlijk 'artikel 3')."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: "Inhoudelijk consistent en goed gestructureerd, maar bevat PDF-extractie-artefacten: § 2./3./4. paragraaf-markeringen losgekoppeld op aparte regels (regels 60-61), aaneengeklonken woorden door PDF-afbreking ('BTWidentificatienummer', 'BTWkantoor', 'douaneentrepot' op meerdere plaatsen), en in de titel-frontmatter 'toepassings- modaliteiten' met overgebleven trailing dash. Verder Art. 3 amendment-blok: 'KB nr. 31, artikel, derde lid' - een ontbrekend artikelnummer (waarschijnlijk 'artikel 3')."
+      concrete_problemen:
+        - "PDF-afbrekingsfouten zonder spatie: 'BTWidentificatienummer' (regel 67, 73), 'BTWkantoor' (regel 99), 'douaneentrepot' / 'douane-entrepot' inconsistent (regels 87, 89-91), 'geïdentiﬁceerd' met ligatuur fi (regel 167)"
+        - § 2. en § 3. paragraaf-markeringen op aparte regel (regels 60-61)
+        - "In Art. 3 amendment-blok ontbreekt artikelnummer: 'KB nr. 31, artikel, derde lid' (regel 107)"
+        - Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streep+spatie residu uit PDF-afbreking
+        - 'Inconsistente formatting: bij Art. 1 / Art. 2 / Art. 3 / Art. 5 / Art. 6 / Art. 7 / Art. 9 staat een lege regel tussen heading en amendment-blok, bij Art. 4 / Art. 8 niet'
+        - Ligatuur 'fi' in 'geïdentiﬁceerd' (regel 167) - OCR/extractie-artefact
 ---
 
 # K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen

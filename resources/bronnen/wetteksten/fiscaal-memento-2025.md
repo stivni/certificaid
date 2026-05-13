@@ -30,8 +30,8 @@ provenance:
     rationale: "Geen layer1. B4: 345 ALL_CAPS plain-text sectietitels ('HOOFDSTUK 1 DE PERSONENBELASTING', '1. WAT IS ER NIEUW?', ...) die allemaal als headings hadden moeten worden geëxtraheerd — slechts 4 headings in 17k-regel document. A6: 174 spurious line-breaks. G2: 790 bullet-glyphs (➢, •) in body. Structuur volledig afwezig op markdown-niveau."
     layer1:
       status: warn
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:45Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:41Z'
       heading_count: 4
       max_section_chars: 659945
       file_size_chars: 1034808

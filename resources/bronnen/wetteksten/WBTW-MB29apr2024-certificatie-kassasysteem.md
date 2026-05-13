@@ -24,12 +24,28 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Inconsistente heading-stijl: meeste artikelen als '###### Art. N' maar artikelen 5-12, 46, 64, 86 en 132 staan als plain text 'Artikel N.' midden in de prose (checklist B). Daarnaast een gedegenereerde pseudo-tabel voor de btw-codes (regels 203-216) met scrambled kolommen en multi-line cellen (checklist E + checklist A column-bleed). Dit is duidelijk ETL-residu."
     layer1:
+      status: pass
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:40Z'
+      heading_count: 181
+      max_section_chars: 5409
+      file_size_chars: 79261
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: "Inconsistente heading-stijl: meeste artikelen als '###### Art. N' maar artikelen 5-12, 46, 64, 86 en 132 staan als plain text 'Artikel N.' midden in de prose (checklist B). Daarnaast een gedegenereerde pseudo-tabel voor de btw-codes (regels 203-216) met scrambled kolommen en multi-line cellen (checklist E + checklist A column-bleed). Dit is duidelijk ETL-residu."
+      concrete_problemen:
+        - "Heading-inconsistentie: 'Artikel 5. Event Normal' (regel 142), 'Artikel 6.' (147), 'Artikel 7.' (156), 'Artikel 8.' (159), 'Artikel 9.' (162), 'Artikel 10.' (165), 'Artikel 11.' (168), 'Artikel 12.' (176), 'Artikel 46.' (343), 'Artikel 64.' (435), 'Artikel 86' (572), 'Artikel 132.' (886) staan als plain text terwijl andere artikelen ###### gebruiken"
+        - "BTW-tarieventabel (regels 203-216) is geen pipe-tabel maar kolom-bleed van een PDF-tabel: 'BTW- BTW- CODE TAUX DE' en 'BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA' verspreid over 4 regels — onbruikbaar als tabel (checklist E + A)"
+        - TITEL II-heading (regel 127-128) loopt over twee regels door spurious linebreak midden in koptekst (checklist A)
+        - Section 'Bevoegde dienst FOD Financien' (regels 90-92) heeft adres-blok zonder duidelijke afbakening — leest als prose maar is contactblok
 ---
 
 # M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem

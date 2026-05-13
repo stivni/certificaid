@@ -32,10 +32,19 @@ _KB_MB_PAGE_MARKER_RE = re.compile(
     re.M | re.I,
 )
 
+# `KB57 (2017) pg. 1 Plaats van de dienst` / `MB7 pg. Bijw/2 Iets`
+# Bron-id (KB/MB + nummer, optioneel met jaartal) gevolgd door `pg. N` (of
+# `pg. Bijw/N`) en een herhalende titel. Komt voor onderaan WBTW-KB-pagina's.
+_KB_MB_PG_TITLE_RE = re.compile(
+    r"^\s*(?:KB|MB|M\.B\.|K\.B\.)\s*\d+(?:\s*\(\d{4}\))?\s+pg\.\s+\S+\s+.+$",
+    re.M | re.I,
+)
+
 
 def strip_running_page_headers(body: str, frontmatter: dict) -> tuple[str, dict]:
     """Strip running-page-header regels (paginanr + herhaalde titel)."""
     new_body = _PG_PIPE_TITLE_RE.sub("", body)
     new_body = _KB_MB_PAGE_MARKER_RE.sub("", new_body)
+    new_body = _KB_MB_PG_TITLE_RE.sub("", new_body)
     new_body = re.sub(r"\n{3,}", "\n\n", new_body)
     return new_body, frontmatter

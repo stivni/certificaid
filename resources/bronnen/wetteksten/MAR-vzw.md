@@ -25,13 +25,13 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T10:52:07Z'
+    confirmed_at: '2026-05-13T10:59:42Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Ernstige PDF-extractie-artefacten (categorie A/B): geen heading-structuur (heading_count=0), rekening-codes en omschrijvingen door elkaar gegooid, meerdere rekeningen gemerged op één regel, geen tabel-structuur voor het rekeningstelsel. Buitenstaander herkent dit onmiddellijk als kapot-geconverteerde PDF.'
     layer1:
       status: pass
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:40Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:38Z'
       heading_count: 0
       max_section_chars: 5028
       file_size_chars: 5028
@@ -39,7 +39,7 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:52:07Z'
+      run_at: '2026-05-13T10:59:42Z'
       rationale: 'Ernstige PDF-extractie-artefacten (categorie A/B): geen heading-structuur (heading_count=0), rekening-codes en omschrijvingen door elkaar gegooid, meerdere rekeningen gemerged op één regel, geen tabel-structuur voor het rekeningstelsel. Buitenstaander herkent dit onmiddellijk als kapot-geconverteerde PDF.'
       concrete_problemen:
         - regel: 46

@@ -29,6 +29,17 @@ provenance:
     confirmed_by: default
     rationale:
     layer1:
+      status: warn
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:41Z'
+      heading_count: 200
+      max_section_chars: 32357
+      file_size_chars: 195422
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ######-niveau: 32357 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
 ---
 

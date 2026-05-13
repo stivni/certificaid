@@ -24,12 +24,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Schone markdown met consistente ## Art. N-headings, intacte officiele coordinatie-header en correct opgemaakte namenlijst. Geen ETL-artefacten.'
     layer1:
+      status: pass
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:40Z'
+      heading_count: 5
+      max_section_chars: 2007
+      file_size_chars: 4434
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: 'Schone markdown met consistente ## Art. N-headings, intacte officiele coordinatie-header en correct opgemaakte namenlijst. Geen ETL-artefacten.'
+      concrete_problemen: []
 ---
 
 # M.B. van 16 juli 2019, tot aanduiding van de ambtenaren die in de functie van adviseur-generaal zitting hebben in de beroepscommissie zoals bedoeld in artikel 66, § 2 van het wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen

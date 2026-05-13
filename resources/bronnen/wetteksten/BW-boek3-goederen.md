@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 pass: 55 headings, max sectie 1767 chars. Wijzigingswet met correct headings. Body start is ongebruikelijk (§2 midden in een wijzigingsbepaling) maar dit is een bron-artefact (de PDF bevat de wetstekst zo). Inhoud volledig.'
     layer1:
       status: pass
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:39Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:37Z'
       heading_count: 55
       max_section_chars: 1767
       file_size_chars: 15881

@@ -30,8 +30,8 @@ provenance:
     rationale: "A8: massale kolom-bleed — 1324 regels met >300 chars, max 5312 chars per regel. Twee PDF-kolommen zijn horizontaal samengevoegd in één lange tekstregel. Inhoud is aanwezig maar onleesbaar/onchunkbaar door kolom-bleed. Layer1 geeft onterecht 'pass' (herkent geen lange regels)."
     layer1:
       status: pass
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:39Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:36Z'
       heading_count: 305
       max_section_chars: 15658
       file_size_chars: 1464178

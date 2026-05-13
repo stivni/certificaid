@@ -17,19 +17,28 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:40Z'
+  generated_at: '2026-05-13T10:58:06Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Schone conversie: 9 Art.-headings consistent op ## niveau, paragrafen § 1/§ 2/§ 3 als plain text in body (standaard Belgische wetstijl), genummerde 1°/2°/... lijsten correct, geen form-feed of dotted-leaders. Eén voetnoot (1) midden-prose maar dat is brontypografie.'
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: 'Schone conversie: 9 Art.-headings consistent op ## niveau, paragrafen § 1/§ 2/§ 3 als plain text in body (standaard Belgische wetstijl), genummerde 1°/2°/... lijsten correct, geen form-feed of dotted-leaders. Eén voetnoot (1) midden-prose maar dat is brontypografie.'
+      concrete_problemen:
+        - regel: 75
+          categorie: G
+          type: voetnoot-content mid-prose
+          voorbeeld: (1) De regering heeft beslist ... — staat tussen Art. 3 § 1 en § 1's vervolg; bron-eigen voetnoot-positionering, geen ETL-bug
 ---
 
 # K.B. 1 oktober 2013 met betrekking tot de toepassingsmodaliteiten ten aanzien van de certificatie van een geregistreerd kassasysteem in de horecasector

@@ -30,8 +30,8 @@ provenance:
     rationale: "D2 gedeeltelijk bevestigd: de eigenlijke wet-body (Art. 1-33) is volledig en schoon geëxtraheerd. Maar de bijlagen (Art. N1-N5, regels 307-330) bevatten '(Beeld niet opgenomen om technische redenen...)' — de forfaitaire tabellen zijn afbeeldingen in de originele PDF. Eerdere rationale 'inhoud ontbreekt grotendeels' was te streng: de regelgevende tekst is volledig aanwezig, enkel de bijlagetabellen (rekenvormen) ontbreken."
     layer1:
       status: pass
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:41Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:39Z'
       heading_count: 55
       max_section_chars: 2438
       file_size_chars: 21268

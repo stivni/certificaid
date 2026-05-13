@@ -17,19 +17,28 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:40Z'
+  generated_at: '2026-05-13T10:58:06Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Inhoudelijk volledig en heading-hiërarchie OK, maar op verschillende plaatsen worden amendment-haakjes onderbroken door een linebreak (bv. regel 103-104, 109-110, 119-120, 124-125): '(De tekst van KB nr. 53, artikel 8, werd vervangen met ingang van 01.01.2013 (Art.\\n46, KB 30.04.2013...)'. Dit is typische pdftotext-line-wrap die buitenstaander direct zou opvallen. Ook regel 75-76: '... artikel 58, § 4,\\n4°, ...' — afgebroken verwijzing."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: "Inhoudelijk volledig en heading-hiërarchie OK, maar op verschillende plaatsen worden amendment-haakjes onderbroken door een linebreak (bv. regel 103-104, 109-110, 119-120, 124-125): '(De tekst van KB nr. 53, artikel 8, werd vervangen met ingang van 01.01.2013 (Art.\\n46, KB 30.04.2013...)'. Dit is typische pdftotext-line-wrap die buitenstaander direct zou opvallen. Ook regel 75-76: '... artikel 58, § 4,\\n4°, ...' — afgebroken verwijzing."
+      concrete_problemen:
+        - "Meerdere amendment-headers afgebroken midden tussen 'Art.' en nummer: regels 103-104, 109-110, 119-120, 124-125 (steeds 'Art.\\nN, KB ...')"
+        - "Regel 75-76: '... artikel 58, § 4,\\n4°, van het Wetboek' — artikelnummer-verwijzing over linebreak"
+        - "Regel 124: 'KB nr. 53, artikel 1' in Art. 12-context (vermoedelijk source-typo: zou artikel 12 moeten zijn) — past in (source) maar zonder review onzeker"
+        - Lijst van streepjes in Art. 2 §2 (regel 64-65) gemengd met inline dubbele aanhalingstekens '"verkoopprijs" :' — leesbaar maar lay-out van een pseudo-tabel
 ---
 
 # K.B. nr. 53 van 23 december 1994, met betrekking tot de bijzondere regeling van belastingheffing over de winstmarge voor gebruikte goederen, kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten

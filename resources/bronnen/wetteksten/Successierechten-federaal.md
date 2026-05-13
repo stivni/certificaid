@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 warn: 382 headings, max sectie 58436 chars (chunker auto-split). ##### Art.-headings correct. Inhoud volledig.'
     layer1:
       status: warn
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:41Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:39Z'
       heading_count: 382
       max_section_chars: 58436
       file_size_chars: 377110

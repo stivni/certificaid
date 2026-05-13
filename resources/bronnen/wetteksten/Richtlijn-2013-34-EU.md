@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 warn: 100 headings, max sectie 32574 chars (chunker auto-split). Headings correct als ###### Artikel N. EU PB-formatting in body (spurious hyphens) zijn bron-stijl. Inhoud volledig.'
     layer1:
       status: warn
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:41Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:38Z'
       heading_count: 100
       max_section_chars: 32574
       file_size_chars: 249511

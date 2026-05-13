@@ -17,19 +17,40 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:39Z'
+  generated_at: '2026-05-13T10:58:05Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Structuur grotendeels OK, maar meerdere spurious linebreaks midden-zin (categorie A2) in wijzigingsannotaties: 'Art.\\nN,' wordt over twee regels gesplitst. Daarnaast regel 84-85 splitst 'koninklijk besluit nr.\\n4,' midden in een referentie. Hoewel klein, repeat pattern — buitenstaander zou dit als PDF-residu herkennen."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: "Structuur grotendeels OK, maar meerdere spurious linebreaks midden-zin (categorie A2) in wijzigingsannotaties: 'Art.\\nN,' wordt over twee regels gesplitst. Daarnaast regel 84-85 splitst 'koninklijk besluit nr.\\n4,' midden in een referentie. Hoewel klein, repeat pattern — buitenstaander zou dit als PDF-residu herkennen."
+      concrete_problemen:
+        - regel: 50
+          categorie: A2
+          type: spurious linebreak mid-zin
+          voorbeeld: "'(De tekst van KB nr. 10, artikel 1, vijfde lid werd vervangen en een zesde lid, werd ingevoegd met ingang van 05.12.2019 (Art. 8, KB 07.11.2019, B.S. 25.11.2019, pg. 108072))' — body OK; maar elders Art.\\n#"
+        - regel: 84
+          categorie: A2
+          type: spurious linebreak
+          voorbeeld: "'... voornoemd koninklijk besluit nr.\\n4, heeft deze wijziging uitwerking...' (regel 84 eindigt op 'nr.', regel 85 begint met '4,')"
+        - regel: 106
+          categorie: A2
+          type: spurious linebreak in artikel-referentie
+          voorbeeld: "'bij toepassing van artikel 51, § 2, eerste lid,\\n1°, van het Wetboek' (regel 106-107)"
+        - regel: 59
+          categorie: A6
+          type: afgebroken zin source-typo
+          voorbeeld: "'belasting over de toegevoegde waaronder hij ressorteert' (ontbrekende 'waarde')"
 ---
 
 # K.B. nr. 10 van 29 december 1992, met betrekking tot de uitoefeningsmodaliteiten van de keuzen, bedoeld in de artikelen 15, § 2, derde lid, 21bis, § 2, 9°, vierde lid, 25ter, § 1, tweede lid, 2°, tweede lid en 44, § 3, 2°, d), van het Wetboek van de belasting over de toegevoegde waarde, de aangiften van aanvang, wijziging, stopzetting van activiteit en de voorafgaande kennisgevingen inzake de belasting over de toegevoegde waarde

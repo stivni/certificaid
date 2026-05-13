@@ -17,19 +17,26 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:39Z'
+  generated_at: '2026-05-13T10:58:06Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Klein bestand, grotendeels schoon, maar percentage-aanduidingen worden inconsistent weergegeven ('18 pct.', '6 pct.', '8 pct.', '13 pct.') wat OK is, maar er ontbreekt witregel tussen items 1°-4° in Art. 1 niet (regels 56-59 - die staan op aparte regels). De header 'KB nr. 35 - Lijst van de bijwerkingen' ontbreekt hier gelukkig, maar de bestandstructuur is bondig genoeg en formaat is OK. Het issue is voornamelijk dat de body-intro (regels 48-50) drie aparte regels heeft die in PDF één blok waren ('(Uitvoering...)' / '(Officieuze coördinatie)' / 'Laatstelijk gewijzigd...') zonder duidelijke structuur. Borderline trusted, maar gezien beleid 'bij twijfel needs-rework' kies ik dat.
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: Klein bestand, grotendeels schoon, maar percentage-aanduidingen worden inconsistent weergegeven ('18 pct.', '6 pct.', '8 pct.', '13 pct.') wat OK is, maar er ontbreekt witregel tussen items 1°-4° in Art. 1 niet (regels 56-59 - die staan op aparte regels). De header 'KB nr. 35 - Lijst van de bijwerkingen' ontbreekt hier gelukkig, maar de bestandstructuur is bondig genoeg en formaat is OK. Het issue is voornamelijk dat de body-intro (regels 48-50) drie aparte regels heeft die in PDF één blok waren ('(Uitvoering...)' / '(Officieuze coördinatie)' / 'Laatstelijk gewijzigd...') zonder duidelijke structuur. Borderline trusted, maar gezien beleid 'bij twijfel needs-rework' kies ik dat.
+      concrete_problemen:
+        - Body-intro regels 48-50 zijn drie aparte one-liners zonder context-grouping
+        - In Art. 1 (1°) één heel lange compound-zin met verspreide haakjes-bijzinnen - moeilijk leesbaar maar wettelijke stijl
 ---
 
 # K.B. nr. 35 van 28 december 1999, tot invoering van een forfaitaire maatstaf van heffing van de belasting over de toegevoegde waarde op de winstmarge van reisbureaus

@@ -24,12 +24,26 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Bijlage 1, Bijlage 2 en Bijlage 3 staan onderaan als plain-text labels (regels 71-75) zonder ## prefix en zonder inhoud — duidelijk ETL-artefact: de bijlagen (modelformulieren) zijn niet meegekomen uit de PDF maar de labels wel. Dit oogt onafgemaakt voor een lezer.'
     layer1:
+      status: pass
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:40Z'
+      heading_count: 5
+      max_section_chars: 1320
+      file_size_chars: 2323
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: 'Bijlage 1, Bijlage 2 en Bijlage 3 staan onderaan als plain-text labels (regels 71-75) zonder ## prefix en zonder inhoud — duidelijk ETL-artefact: de bijlagen (modelformulieren) zijn niet meegekomen uit de PDF maar de labels wel. Dit oogt onafgemaakt voor een lezer.'
+      concrete_problemen:
+        - "Plain-text structuurlabels 'Bijlage 1/2/3' op regels 71/73/75 zonder ##-prefix (checklist B)"
+        - 'Bijlagen-inhoud (modelberichten) ontbreekt geheel — het MB-doel is precies dit model voor te schrijven; zonder bijlagen mist de bron zijn kerninhoud (checklist D: ontbrekende secties)'
 ---
 
 # M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992

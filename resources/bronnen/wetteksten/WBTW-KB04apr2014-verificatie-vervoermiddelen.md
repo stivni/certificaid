@@ -17,19 +17,32 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:40Z'
+  generated_at: '2026-05-13T10:58:06Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Schone wettekst-conversie: 16 Art.-headings, consistent commentaarblok (wijzigingsgeschiedenis) per artikel, lijsten 1°/2°/... correct. Source-typo's (open haakje '(Opgeheven' regel 100) en stray 'Bijlage' regel 149 zijn brontypografie, geen ETL-artefact."
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: "Schone wettekst-conversie: 16 Art.-headings, consistent commentaarblok (wijzigingsgeschiedenis) per artikel, lijsten 1°/2°/... correct. Source-typo's (open haakje '(Opgeheven' regel 100) en stray 'Bijlage' regel 149 zijn brontypografie, geen ETL-artefact."
+      concrete_problemen:
+        - regel: 100
+          categorie: (source)
+          type: source-typo open haakje
+          voorbeeld: "'(Opgeheven' — open paren never closed, vermoedelijk in originele PDF zo"
+        - regel: 149
+          categorie: (source)
+          type: lege sectie 'Bijlage'
+          voorbeeld: Naked 'Bijlage' op regel 149 zonder content; in PDF wellicht aparte bijlage die niet meegescraped is
 ---
 
 # K.B. van 4 april 2014, betreffende de verificatie van het regelmatig aanwezig zijn van motorvoertuigen

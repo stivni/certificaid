@@ -17,19 +17,24 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:40Z'
+  generated_at: '2026-05-13T10:58:06Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Korte KB met 3 artikelen. Headings consistent (## Art. 1/2/3). Genummerde lijsten (1° t/m 8°) goed geformatteerd. Geen footer-restanten, geen kolom-bleed, geen scrambled text. Buitenstaander zou dit voor handgeschreven markdown kunnen aanzien.
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: Korte KB met 3 artikelen. Headings consistent (## Art. 1/2/3). Genummerde lijsten (1° t/m 8°) goed geformatteerd. Geen footer-restanten, geen kolom-bleed, geen scrambled text. Buitenstaander zou dit voor handgeschreven markdown kunnen aanzien.
+      concrete_problemen: []
 ---
 
 # K.B. nr. 58 van 28 mei 2019, met betrekking tot de mededeling van de inlichtingen inzake de pas opgerichte gebouwen voor de toepassing van de belasting over de toegevoegde waarde

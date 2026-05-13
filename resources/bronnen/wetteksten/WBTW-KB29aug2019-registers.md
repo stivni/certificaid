@@ -17,19 +17,28 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:40Z'
+  generated_at: '2026-05-13T10:58:06Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Zeer korte KB (3 artikelen) is qua hoofd-content schoon, maar bevat aan het einde een 'Recent opgeheven of vervangen koninklijke besluiten' lijst met duidelijke kolom-bleed artefacten uit een bijwerkings-/overzichtstabel: 'Bijw. 04/01.01.2020', 'Bijw. 03/12.07.2019', '(Opgeheven)', '(Vervangen bij KB 11.12.2019)' staan ingebed midden in zinnen alsof het lopende tekst is. Dit was duidelijk een meerkoloms-overzicht in de PDF dat verkeerd is samengeplakt."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: "Zeer korte KB (3 artikelen) is qua hoofd-content schoon, maar bevat aan het einde een 'Recent opgeheven of vervangen koninklijke besluiten' lijst met duidelijke kolom-bleed artefacten uit een bijwerkings-/overzichtstabel: 'Bijw. 04/01.01.2020', 'Bijw. 03/12.07.2019', '(Opgeheven)', '(Vervangen bij KB 11.12.2019)' staan ingebed midden in zinnen alsof het lopende tekst is. Dit was duidelijk een meerkoloms-overzicht in de PDF dat verkeerd is samengeplakt."
+      concrete_problemen:
+        - "Kolom-bleed in slotlijst: 'Koninklijk besluit nr. 39, van 17 oktober 1980, tot regeling van de Bijw. 04/01.01.2020 toepassingsmodaliteiten van artikel 93duodecies van het Wetboek van de (Opgeheven) belasting over de toegevoegde waarde.' (regel 63) — datums en status-labels uit andere kolommen zitten midden in de besluit-omschrijving"
+        - Gelijkaardig kolom-bleed voor KB 47 (regel 65), KB 50 (regel 67), KB 52 (regel 69)
+        - "'Recent opgeheven of vervangen koninklijke besluiten.' (regel 61) staat als plain text zonder eigen heading"
+        - "'Officieuze cöordinatie' bevat OCR-typo ('cöordinatie' i.p.v. 'coördinatie') in regel 46 — mogelijk source, mogelijk OCR-confusion"
 ---
 
 # K.B. van 29 augustus 2019, tot uitvoering van artikel 85, § 2, derde lid van het Wetboek van de belasting over de toegevoegde waarde met betrekking tot de opmaak van innings- en invorderingsregisters

@@ -17,19 +17,30 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:39Z'
+  generated_at: '2026-05-13T10:58:05Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Heeft een uitgebreide TOC bij start met afdelings- en artikel-ranges ('Art. 1 - 8', 'Art. 9 - 13', 'Art. 13bis') die als plain text dwars door de heading-hierarchie staan. Het TOC-blok bevat ook spurious linebreaks waardoor headings over twee regels lopen ('Betalingen op de rekeningen van "btw-ontvangsten"\nBrussel', 'Onderafdeling 2. Betaling op de financiële rekening van "Inning en\nInvordering"'). Bovendien staat een Franse string 'Disposition temporaire' (regel 66) ongetag'd midden in een NL-tekst — dit is een ETL-leak van de bilingue bron.
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: Heeft een uitgebreide TOC bij start met afdelings- en artikel-ranges ('Art. 1 - 8', 'Art. 9 - 13', 'Art. 13bis') die als plain text dwars door de heading-hierarchie staan. Het TOC-blok bevat ook spurious linebreaks waardoor headings over twee regels lopen ('Betalingen op de rekeningen van "btw-ontvangsten"\nBrussel', 'Onderafdeling 2. Betaling op de financiële rekening van "Inning en\nInvordering"'). Bovendien staat een Franse string 'Disposition temporaire' (regel 66) ongetag'd midden in een NL-tekst — dit is een ETL-leak van de bilingue bron.
+      concrete_problemen:
+        - Franse plain-text fragment 'Disposition temporaire' (regel 66) tussen NL-content — bilingue residu
+        - "Spurious linebreaks midden in heading-tekst: '\"Inning en\\nInvordering\"' (regels 58-59), '\"Mini One Stop Shop\\n- VAT BE\"' (regels 61-62), 'Brussel,\\n\"Inning en Invordering\"' (regels 53-54)"
+        - "Smart-quote inconsistentie: 'VAT BE' opent met \" maar sluit met ” (regels 62, 64) — OCR/PDF-glyph artefact"
+        - TOC-blok aan begin (regels 52-74) bevat artikel-ranges 'Art. 1 - 8', 'Art. 9 - 13' als plain text i.p.v. echte navigatiemarkup
+        - "Mid-paragraaf linebreaks in artikel-content: '8(1)', '8(2)' en dubbele linebreaks tussen alinea's op tal van plaatsen (regel 87-95)"
+        - "'AFDELING'/'Onderafdeling' staan inconsistent — soms als ## of ###, soms als plain text in TOC"
 ---
 
 # K.B. nr. 24 van 29 december 1992, met betrekking tot de voldoening van de belasting over de toegevoegde waarde

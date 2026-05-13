@@ -24,12 +24,29 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Zware ETL-artefact: regels 46-130 (85 regels!) bevatten de volledige cover, TOC en lijst van alle MB's uit de WBTW-MB-compilatie PDF, ingevoegd vóór de eigenlijke MB-1 tekst die pas op regel 131 begint. Buitenstaander zou meteen zien dat dit een compilatie-extract is. De TOC bevat ook PDF-bullet-glyphs ('*'), onderstreepte placeholders ('_____'), en scrambled tekstfragmenten zoals 'controle Bijw. 01/01.01.2012 op de toepassing van de belasting...' met bijwerkingsmarkers mid-zin."
     layer1:
+      status: pass
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:40Z'
+      heading_count: 3
+      max_section_chars: 9133
+      file_size_chars: 9891
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: "Zware ETL-artefact: regels 46-130 (85 regels!) bevatten de volledige cover, TOC en lijst van alle MB's uit de WBTW-MB-compilatie PDF, ingevoegd vóór de eigenlijke MB-1 tekst die pas op regel 131 begint. Buitenstaander zou meteen zien dat dit een compilatie-extract is. De TOC bevat ook PDF-bullet-glyphs ('*'), onderstreepte placeholders ('_____'), en scrambled tekstfragmenten zoals 'controle Bijw. 01/01.01.2012 op de toepassing van de belasting...' met bijwerkingsmarkers mid-zin."
+      concrete_problemen:
+        - "Regels 46-130: complete compilation-cover + TOC van alle 25+ MB's voor de eigenlijke wettekst"
+        - Onderstrepingen '_____' als placeholders in TOC (regel 75-118)
+        - Bijwerkingsmarkers ('Bijw. 01/01.01.2012') midden in TOC-regels
+        - PDF-bullet-glyphs (' * ') zonder markdown-conversie
+        - Eigenlijke MB-1 tekst is slechts 16 regels (133-147) versus 85 regels TOC-pollutie ervóór
 ---
 
 # M.B. nr. 1 van 2 september 1980, met betrekking tot de aftrekregeling voor de toepassing van de belasting over de toegevoegde waarde

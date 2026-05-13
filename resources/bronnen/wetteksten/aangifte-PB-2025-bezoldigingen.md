@@ -30,8 +30,8 @@ provenance:
     rationale: 'Handcrafted file, L1 pass: 9 headings, max sectie 3541 chars. Markdown-tabellen correct als pipe-syntax. Inhoud compleet.'
     layer1:
       status: pass
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:44Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:41Z'
       heading_count: 9
       max_section_chars: 3541
       file_size_chars: 10226

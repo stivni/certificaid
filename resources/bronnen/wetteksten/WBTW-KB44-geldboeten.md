@@ -17,19 +17,30 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:39Z'
+  generated_at: '2026-05-13T10:58:06Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Net als KB41 zware kolom-bleed in de hele bijlage: 2-koloms PDF-tabel (overtreding | boete) is in plain text gemerged. Voorbeelden: 'B. Laattijdig indienen 100 EUR per aangifte en per maand vertraging1 met een maximum...' (regel 89). De boete-bedragen kleven aan de overtredingsbeschrijving. Geen pipe-syntax. Bijlage is daardoor onbruikbaar voor retrieval als gestructureerde data."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: "Net als KB41 zware kolom-bleed in de hele bijlage: 2-koloms PDF-tabel (overtreding | boete) is in plain text gemerged. Voorbeelden: 'B. Laattijdig indienen 100 EUR per aangifte en per maand vertraging1 met een maximum...' (regel 89). De boete-bedragen kleven aan de overtredingsbeschrijving. Geen pipe-syntax. Bijlage is daardoor onbruikbaar voor retrieval als gestructureerde data."
+      concrete_problemen:
+        - 'Hele bijlage (regels 81-351) is kolom-bleed: overtreding en bijhorende boete staan zonder scheiding op zelfde regel'
+        - "Voorbeeld regel 89: 'B. Laattijdig indienen 100 EUR per aangifte en per maand vertraging1 met een maximum van 1.000 EUR'"
+        - "Bullet-lijsten in tabel-cellen ('Per aangifte: - Louter toevallige onregelmatigheden: 80 EUR') merged op één regel"
+        - Footnote-marker '1' (regel 89) zonder superscript-conventie, vermengd met cijfer in tekst
+        - Heading 'Bovenaan Pg Bijl./5' (regel 282) is running header die meedoet - duidelijke PDF-artefact midden in een tabel-cel
+        - "Inconsistente bullets: regels 230-239 hebben zowel '*' als '-' als list-markers in elkaar geweven"
 ---
 
 # K.B. nr. 44 van 9 juli 2012, tot vaststelling van het bedrag van de niet-proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde

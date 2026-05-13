@@ -17,19 +17,32 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:39Z'
+  generated_at: '2026-05-13T10:58:05Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Kort 5-artikel KB. Spurious linebreaks in wijzigingsannotaties (regel 50-51 'Art.\n15,' en regel 56-57 'Art.\n19,') — kleine maar zichtbare ETL-residu. Body zelf is schoon. Borderline, maar consistente patroon over meerdere KBs is een ETL-issue waard om te fixen.
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: Kort 5-artikel KB. Spurious linebreaks in wijzigingsannotaties (regel 50-51 'Art.\n15,' en regel 56-57 'Art.\n19,') — kleine maar zichtbare ETL-residu. Body zelf is schoon. Borderline, maar consistente patroon over meerdere KBs is een ETL-issue waard om te fixen.
+      concrete_problemen:
+        - regel: 50
+          categorie: A2
+          type: spurious linebreak in annotatie
+          voorbeeld: "'(De tekst van KB nr. 11, artikel 1, werd gewijzigd met ingang van 16.05.2014 (Art.\\n15, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))'"
+        - regel: 56
+          categorie: A2
+          type: spurious linebreak in annotatie
+          voorbeeld: "'(De tekst van KB nr. 11, artikel 2 is van toepassing met ingang van 01.04.2007. (Art.\\n19, KB 17.05.2007, B.S. 31.05.2007))'"
 ---
 
 # K.B. nr. 11 van 29 december 1992, met betrekking tot de toepassing van de belasting over de toegevoegde waarde

@@ -30,8 +30,8 @@ provenance:
     rationale: 'A8 bevestigd: regels 144-148 tonen NL en FR tekst door elkaar (artikel 1.1.0.0.2 definitie voertuigen: NL-tekst gevolgd door FR-tekst van dezelfde bepaling op aansluitende regels). Dubbele spaties als kolom-separator zichtbaar. Bilingue bron-PDF-issue. Artikelinhoud voor de rest aanwezig.'
     layer1:
       status: warn
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:41Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:39Z'
       heading_count: 837
       max_section_chars: 35991
       file_size_chars: 921662

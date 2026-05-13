@@ -17,19 +17,25 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:40Z'
+  generated_at: '2026-05-13T10:58:06Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T10:59:56Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Lange, complexe wet (9 art, 14kB) met diepe § §-structuur. Markdown is over het geheel volledig en logisch. Inline-redactionele noot in Art. 6 § 3 ([red.: '...']) is een legitieme editorial mark uit source, geen ETL-artefact. Lijstmarkers 1°-3° en bullet-streepjes consistent. Een paar streepjes (-) in Art. 1 § 1 worden inline gebruikt i.p.v. verticale lijst, maar dat is leesbaar en source-conform."
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:56Z'
+      rationale: "Lange, complexe wet (9 art, 14kB) met diepe § §-structuur. Markdown is over het geheel volledig en logisch. Inline-redactionele noot in Art. 6 § 3 ([red.: '...']) is een legitieme editorial mark uit source, geen ETL-artefact. Lijstmarkers 1°-3° en bullet-streepjes consistent. Een paar streepjes (-) in Art. 1 § 1 worden inline gebruikt i.p.v. verticale lijst, maar dat is leesbaar en source-conform."
+      concrete_problemen:
+        - In Art. 1 § 1 worden bullets '- ... or - ...' inline gehouden i.p.v. als markdown-lijst weergegeven — leesbaar, source-conform
 ---
 
 # K.B. nr. 55 van 9 maart 2007, met betrekking tot de regeling voor belastingplichtingen die een BTW-eenheid vormen

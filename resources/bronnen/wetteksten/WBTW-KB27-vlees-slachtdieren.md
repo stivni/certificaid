@@ -17,19 +17,27 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:39Z'
+  generated_at: '2026-05-13T10:58:06Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "13 artikelen volledig, schone ## Art. heading-hierarchie, geen TOC-residu, geen dotted-leaders. 'biezondere' (regel 120) is consistente source-spelling uit 1973. Eén mid-zin linebreak in art 1 wijzigings-marker ('B.S.\\n20.02.2015' regels 49-50) is een minor PDF-artefact. Art 12 toont op regel 132 een licht corrupte wijzigings-marker (geen sluithaakje voor de body begint), maar inhoudelijk klopt het."
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: "13 artikelen volledig, schone ## Art. heading-hierarchie, geen TOC-residu, geen dotted-leaders. 'biezondere' (regel 120) is consistente source-spelling uit 1973. Eén mid-zin linebreak in art 1 wijzigings-marker ('B.S.\\n20.02.2015' regels 49-50) is een minor PDF-artefact. Art 12 toont op regel 132 een licht corrupte wijzigings-marker (geen sluithaakje voor de body begint), maar inhoudelijk klopt het."
+      concrete_problemen:
+        - "Mid-string linebreak in wijzigings-markers: '(Art. 26, KB 24.01.2015, B.S.\\n20.02.2015 – Ed. 2, pg. 13872)' (regels 49-50) en gelijkaardig regels 91-92"
+        - Art 12 wijzigings-marker (regel 133) opent met '(De tekst van KB nr. 27, artikel 12 is opgeheven' zonder afsluithaakje, dan begint nieuwe paragraaf — onduidelijk of dit een geschoonde wijzigings-marker is of een ETL-glitch
+        - "'biezondere' source-spelling consistent met origineel"
 ---
 
 # K.B. nr. 27 van 26 juni 1973, met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde, ten aanzien van vlees van slachtdieren

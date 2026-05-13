@@ -24,12 +24,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Schone structuur met twee ## Art.-headings; de parenthetische wijzigingsnoot direct onder Art. 1 is gebruikelijk in officieuze coordinaties en niet artefactueel.'
     layer1:
+      status: pass
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:40Z'
+      heading_count: 2
+      max_section_chars: 1490
+      file_size_chars: 2514
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: 'Schone structuur met twee ## Art.-headings; de parenthetische wijzigingsnoot direct onder Art. 1 is gebruikelijk in officieuze coordinaties en niet artefactueel.'
+      concrete_problemen: []
 ---
 
 # M.B. van 20 december 2001, met betrekking tot de diensten waar de documenten bedoeld in de artikelen 53, § 1, eerste lid, 2°, 53ter, 1°, 53quinquies en 53sexies van het Wetboek van de belasting over de toegevoegde waarde moeten worden ingediend

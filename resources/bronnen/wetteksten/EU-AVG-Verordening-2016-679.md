@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 pass. EU-verordening met correcte ###### Art.-headings. Inhoud volledig aanwezig.'
     layer1:
       status: warn
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:40Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:37Z'
       heading_count: 110
       max_section_chars: 180369
       file_size_chars: 394723

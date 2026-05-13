@@ -24,12 +24,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Drie schone ## Art.-headings, correct opheffings-blok en intacte tekst. Geen artefacten.'
     layer1:
+      status: pass
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:40Z'
+      heading_count: 3
+      max_section_chars: 1499
+      file_size_chars: 2473
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: 'Drie schone ## Art.-headings, correct opheffings-blok en intacte tekst. Geen artefacten.'
+      concrete_problemen: []
 ---
 
 # M.B. van 26 februari 2007, met betrekking tot de aanduiding van de dienst bevoegd voor het ontvangen van de berichten en het afleveren van de ontvangstmeldingen in het kader van het systeem van elektronische notificaties tussen de FOD Financiën en bepaalde ministeriële officieren, openbare ambtenaren en andere personen

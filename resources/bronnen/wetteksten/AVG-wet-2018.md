@@ -30,8 +30,8 @@ provenance:
     rationale: 'A3+B2 bevestigd: regels 54-346 bevatten een TOC-structuur van kale headings (###### Art. 24, ## TITEL 2, etc.) zonder lichaamstekst. De eigenlijke wettekst begint pas op regel 348. Hierdoor zijn structuurniveaus gedupliceerd en springt de hiërarchie direct van H1 naar H6. Eigenlijke body (Art. 1-286) is volledig aanwezig.'
     layer1:
       status: pass
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:38Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:36Z'
       heading_count: 545
       max_section_chars: 8309
       file_size_chars: 303219

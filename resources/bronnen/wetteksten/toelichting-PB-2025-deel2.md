@@ -30,8 +30,8 @@ provenance:
     rationale: 'Layer1 warn (max_section_size). B4: 59 ALL_CAPS plain-text sectietitels. A6: 82 spurious line-breaks. Zelfde patroon als deel1: 8 H2-headings voor vakken, sub-rubrieken als plain text.'
     layer1:
       status: warn
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:45Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:41Z'
       heading_count: 8
       max_section_chars: 56486
       file_size_chars: 186798

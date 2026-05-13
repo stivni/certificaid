@@ -17,19 +17,29 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: d4b4775
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:40Z'
+  generated_at: '2026-05-13T10:58:06Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Bestand bevat twee opeenvolgende versies van KB nr. 50 (de 2019-versie en daaronder de oude 2009-versie als 'Bijlage'), wat een buitenstaander zou herkennen als compilatie-bleed: het is geen bijlage in juridische zin maar de voorafgaande, opgeheven versie die in de Fisconet-PDF na de actuele tekst stond. Bovendien staat onderaan 'KB50-Bijlage pg. Bijl./1 ... pg. Bijl./2' (regels 341-343), expliciete page-tags. Hoofdstuk-headings 'HOOFDSTUK 2' / 'HOOFDSTUK 3' (regels 148, 207) gebruiken all-caps terwijl 'Hoofdstuk 1' (regel 57) niet — inconsistent. TOC-blok regels 50-55 dupliceert hoofdstukken zonder body."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: "Bestand bevat twee opeenvolgende versies van KB nr. 50 (de 2019-versie en daaronder de oude 2009-versie als 'Bijlage'), wat een buitenstaander zou herkennen als compilatie-bleed: het is geen bijlage in juridische zin maar de voorafgaande, opgeheven versie die in de Fisconet-PDF na de actuele tekst stond. Bovendien staat onderaan 'KB50-Bijlage pg. Bijl./1 ... pg. Bijl./2' (regels 341-343), expliciete page-tags. Hoofdstuk-headings 'HOOFDSTUK 2' / 'HOOFDSTUK 3' (regels 148, 207) gebruiken all-caps terwijl 'Hoofdstuk 1' (regel 57) niet — inconsistent. TOC-blok regels 50-55 dupliceert hoofdstukken zonder body."
+      concrete_problemen:
+        - "Regels 226-335: integrale opgenomen oude KB-50-2009 onder kop 'Bijlage' — dit is geen wettelijke bijlage maar de opgeheven voorgangerversie"
+        - "Regels 341-343: 'KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave' / 'KB50-Bijlage pg. Bijl./2 Intracommunautaire opgave' — Fisconet page-headers als plain content"
+        - "Regels 50-55: TOC-achtig blok met '## Hoofdstuk 1.' / '## Hoofdstuk 2.' / '## Hoofdstuk 3.' direct gevolgd door hetzelfde 'Hoofdstuk 1' als sectie-heading — dubbele headings"
+        - "Inconsistente kapitalisatie: 'Hoofdstuk 1' (regel 57) vs 'HOOFDSTUK 2' (148) / 'HOOFDSTUK 3' (207)"
+        - "Frontmatter 'bijgewerkt: 11.12.2019' dekt de 2019-versie niet de oude 2009-versie die ook in body staat"
 ---
 
 # K.B. nr. 50 van 11 december 2019, met betrekking tot de btw-opgave van de intracommunautaire handelingen

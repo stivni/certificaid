@@ -30,8 +30,8 @@ provenance:
     rationale: 'A8: massale kolom-bleed — 886 regels met >300 chars, max 4859 chars per regel. Twee PDF-kolommen zijn horizontaal samengevoegd. Structuur H3-headings aanwezig maar lichaamstekst onbruikbaar door kolom-bleed.'
     layer1:
       status: pass
-      run_id: 20260513-104838
-      run_at: '2026-05-13T10:48:39Z'
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:36Z'
       heading_count: 187
       max_section_chars: 14543
       file_size_chars: 893772

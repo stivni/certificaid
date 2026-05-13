@@ -775,7 +775,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -790,7 +790,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -805,7 +805,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -835,7 +835,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -850,7 +850,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -865,7 +865,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -880,7 +880,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -895,7 +895,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -910,7 +910,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -925,7 +925,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -970,7 +970,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -985,7 +985,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1015,7 +1015,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1030,7 +1030,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1045,7 +1045,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1060,7 +1060,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1090,7 +1090,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1103,10 +1103,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer1_status": null,
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB31-niet-gevestigd.md",
@@ -1120,7 +1120,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1135,7 +1135,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1150,7 +1150,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1165,7 +1165,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1180,7 +1180,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1195,7 +1195,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1208,10 +1208,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer1_status": null,
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB46-intracommunautaire-aangifte.md",
@@ -1225,7 +1225,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1238,10 +1238,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer1_status": null,
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB48-levering-vervoermiddelen.md",
@@ -1255,7 +1255,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1270,7 +1270,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1283,10 +1283,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer1_status": null,
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB52-intracommunautaire-vrijstellingen.md",
@@ -1300,7 +1300,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1315,7 +1315,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1343,10 +1343,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer1_status": null,
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB56-teruggaaf.md",
@@ -1375,7 +1375,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1390,7 +1390,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1418,10 +1418,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer1_status": null,
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB7-invoer.md",
@@ -1435,7 +1435,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1448,10 +1448,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer1_status": null,
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB9-ambtelijke-aanslag.md",
@@ -1465,7 +1465,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1855,10 +1855,10 @@
         "2.6",
         "1.2"
       ],
-      "trust_status": "needs-rework",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": "default",
       "layer1_status": "warn",
-      "layer2_status": "needs-rework"
+      "layer2_status": null
     },
     {
       "bestand": "Wet-voorafgaande-beslissingen-2002.md",

@@ -24,12 +24,24 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T10:59:42Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Zeer korte MB met 2 artikelen. Schone heading-hierarchie, geen footer-artefact, geen TOC-pollutie. Inleiding bondig, artikelen helder. Buitenstaander zou dit als handgeschreven markdown lezen.
     layer1:
+      status: pass
+      run_id: 20260513-105636
+      run_at: '2026-05-13T10:56:40Z'
+      heading_count: 2
+      max_section_chars: 537
+      file_size_chars: 816
+      flags: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:59:42Z'
+      rationale: Zeer korte MB met 2 artikelen. Schone heading-hierarchie, geen footer-artefact, geen TOC-pollutie. Inleiding bondig, artikelen helder. Buitenstaander zou dit als handgeschreven markdown lezen.
+      concrete_problemen: []
 ---
 
 # M.B. nr. 11 van 3 november 1972, met betrekking tot de controle op de toepassing van de belasting over de toegevoegde waarde ten aanzien van de facturen betreffende oprichting van gebouwen
