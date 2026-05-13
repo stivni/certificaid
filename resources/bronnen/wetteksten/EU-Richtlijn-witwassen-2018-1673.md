@@ -24,12 +24,17 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T14:14:18Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: Laag-2 trusted door subagent-sonnet-4-6
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T14:14:18Z'
+      rationale:
+      concrete_problemen: []
 ---
 
 # Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inzake de strafrechtelijke bestrijding van het witwassen van geld

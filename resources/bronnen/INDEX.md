@@ -8,10 +8,10 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 133 | 115 | 2 | 11 | 5 | — |
+| Wetteksten | 133 | 118 | — | 11 | 4 | — |
 | Normen | 19 | 4 | — | 14 | 1 | — |
 | Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **588** | 541 | 2 | 39 | 6 | — |
+| **Totaal** | **588** | 544 | — | 39 | 5 | — |
 
 ## Wetteksten (133)
 
@@ -21,7 +21,6 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `MAR-vzw.md` | ❌ rejected | — | rejected | subagent-sonnet-4-6 | Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW) |
 | `WBTW-KB22jun2020-e-notariaat.md` | ❌ rejected | — | rejected | subagent-sonnet-4-6 | K.B. 22 juni 2020 tot uitvoering van art. 93ter WBTW, art. 412bis en 433–435 WIB92 en a… |
 | `WBTW-MB28okt2009-model-berichten-93ter.md` | ❌ rejected | — | rejected | subagent-sonnet-4-6 | M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen al… |
-| `Wet-betalingsachterstand-2002.md` | ❌ rejected | — | rejected | subagent-sonnet-4-6 | Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelst… |
 | `Almanak-BTW-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Almanak BTW 2026 — ITAA / Larcier-Intersentia |
 | `Almanak-VenB-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Almanak Vennootschapsbelasting 2026 — ITAA / Larcier-Intersentia |
 | `Belastingalmanak-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Belastingalmanak 2026 — ITAA / Larcier-Intersentia |
@@ -33,8 +32,6 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `toelichting-VenB-2025.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de vennootschapsbelasting — AJ 2025 |
 | `WBTW-KB41-proportionele-geldboeten.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele f… |
 | `WBTW-KB44-geldboeten.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 44 van 9 juli 2012, tot vaststelling van het bedrag van de niet-proportionele … |
-| `EU-Richtlijn-witwassen-2018-1673.md` | ◻️ unreviewed | — | — | default | Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inza… |
-| `KB-21-10-2018.md` | ◻️ unreviewed | — | — | default | Koninklijk besluit van 21 oktober 2018 houdende de boekhoudkundige verplichtingen van o… |
 | `aangifte-PB-2025-bezoldigingen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-bezoldigingen |
 | `aangifte-PB-2025-stopzetting.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-stopzetting |
 | `Antiwitwaswet-2017.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van … |
@@ -56,7 +53,9 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `EU-Richtlijn-fusie-2009-133.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke… |
 | `EU-Richtlijn-interest-royalties-2003-49.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Richtlijn 2003/49/EG van de Raad van 3 juni 2003 betreffende een gemeenschappelijke bel… |
 | `EU-Richtlijn-moeder-dochter-2011-96.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemeenschappelijke… |
+| `EU-Richtlijn-witwassen-2018-1673.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inza… |
 | `KB-1998-plichtenleer.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Koninklijk besluit van 1 maart 1998 tot vaststelling van het reglement van plichtenleer… |
+| `KB-21-10-2018.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Koninklijk besluit van 21 oktober 2018 houdende de boekhoudkundige verplichtingen van o… |
 | `KB-voorafgaande-beslissingen-art22-2003.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. 17 januari 2003 tot uitvoering van artikel 22, tweede lid, van de wet van 24 decem… |
 | `KB-voorafgaande-beslissingen-art26-2003.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. 30 januari 2003 tot uitvoering van artikel 26 van de wet van 24 december 2002 tot … |
 | `KB-WIB92.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Koninklijk besluit tot uitvoering van het Wetboek van de Inkomstenbelastingen 1992 (KB/… |
@@ -143,6 +142,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WER.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek van Economisch Recht |
 | `Wet-arbeidsovereenkomsten-1978.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 3 juli 1978 betreffende de arbeidsovereenkomsten |
 | `Wet-beroepskwalificaties-2008.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van … |
+| `Wet-betalingsachterstand-2002.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelst… |
 | `Wet-ITAA-2019.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Acco… |
 | `Wet-verzekeringen-2014.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 4 april 2014 betreffende de verzekeringen |
 | `Wet-voorafgaande-beslissingen-2002.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 24 december 2002 tot wijziging van de vennootschapsregeling inzake inkomstenbelasti… |

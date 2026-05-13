@@ -373,10 +373,10 @@
         "1.2",
         "4.0"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": "default",
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": null,
-      "layer2_status": null
+      "layer2_status": "trusted"
     },
     {
       "bestand": "KB-1998-plichtenleer.md",
@@ -408,10 +408,10 @@
         "1.2",
         "1.3"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": "default",
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": null,
-      "layer2_status": null
+      "layer2_status": "trusted"
     },
     {
       "bestand": "KB-WIB92.md",
@@ -1840,10 +1840,10 @@
       "tags": [
         "XIV"
       ],
-      "trust_status": "rejected",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": null,
-      "layer2_status": "rejected"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Wet-verzekeringen-2014.md",
