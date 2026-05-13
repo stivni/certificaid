@@ -17,30 +17,26 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 04e910e-dirty
+    pipeline_version: 4126295-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:16:45Z'
+  generated_at: '2026-05-13T11:20:58Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T11:17:05Z'
+    status: trusted
+    confirmed_at: '2026-05-13T11:21:10Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "merge_article_reference_wraps heeft de hoofdtekst niet zichtbaar verbeterd voor de gevlagde problemen. De PDF-word-concat-bugs blijven: 'BTWidentificatienummer' (regels 70, 106), 'BTWkantoor' (regel 102), 'douaneentrepot' inconsistent met 'douane-entrepot' (regels 88, 90, 92, 94, 96), 'inartikel' (regel 170). Ligatuur 'ﬁ' in 'geïdentiﬁceerd' (regels 170, 171) is OCR/extractie-artefact. In Art. 3 amendment-blok ontbreekt het artikelnummer: 'KB nr. 31, artikel, derde lid' (regel 110). Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streep+spatie residu uit PDF-afbreking."
+    rationale: "fix_pdftotext_glue_bugs heeft de eerder gevlagde concat-bugs opgelost: 'BTW-identificatienummer' (regels 70, 79, 81, 106), 'douane-entrepot' met koppelteken (regels 66, 88, 90, 92, 94, 96), 'geïdentificeerd' zonder ligaturen, en 'in artikel 2' (regel 170) met spatie. Geen ﬁ/ﬂ ligaturen meer zichtbaar. Hoofdtekst leest natuurlijk; alle artikelen Art. 1-9 als ##-headings met §-structuur intact. De source-typo 'KB nr. 31, artikel, derde lid' (regel 110, ontbrekend artikelnummer) blijft maar is vermoedelijk een bron-fout en niet ETL-gerelateerd. Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streepje-spatie residu — minor cosmetic."
     layer1:
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:17:05Z'
-      rationale: "merge_article_reference_wraps heeft de hoofdtekst niet zichtbaar verbeterd voor de gevlagde problemen. De PDF-word-concat-bugs blijven: 'BTWidentificatienummer' (regels 70, 106), 'BTWkantoor' (regel 102), 'douaneentrepot' inconsistent met 'douane-entrepot' (regels 88, 90, 92, 94, 96), 'inartikel' (regel 170). Ligatuur 'ﬁ' in 'geïdentiﬁceerd' (regels 170, 171) is OCR/extractie-artefact. In Art. 3 amendment-blok ontbreekt het artikelnummer: 'KB nr. 31, artikel, derde lid' (regel 110). Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streep+spatie residu uit PDF-afbreking."
+      run_at: '2026-05-13T11:21:10Z'
+      rationale: "fix_pdftotext_glue_bugs heeft de eerder gevlagde concat-bugs opgelost: 'BTW-identificatienummer' (regels 70, 79, 81, 106), 'douane-entrepot' met koppelteken (regels 66, 88, 90, 92, 94, 96), 'geïdentificeerd' zonder ligaturen, en 'in artikel 2' (regel 170) met spatie. Geen ﬁ/ﬂ ligaturen meer zichtbaar. Hoofdtekst leest natuurlijk; alle artikelen Art. 1-9 als ##-headings met §-structuur intact. De source-typo 'KB nr. 31, artikel, derde lid' (regel 110, ontbrekend artikelnummer) blijft maar is vermoedelijk een bron-fout en niet ETL-gerelateerd. Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streepje-spatie residu — minor cosmetic."
       concrete_problemen:
-        - "Regels 70, 106: 'BTWidentificatienummer' — pdftotext concat zonder spatie"
-        - "Regel 102: 'BTWkantoor' / regel 301-context: 'BTWeenheid' — pdftotext concat zonder spatie"
-        - "Regels 88, 90, 92, 94, 96: 'douaneentrepot' (zonder koppelteken) — pdftotext concat"
-        - "Regel 110: 'KB nr. 31, artikel, derde lid' — ontbrekend artikelnummer in amendment-blok (vermoedelijk source-typo, maar onbevestigd)"
-        - "Regel 170: 'inartikel 2' (concat) en ligatuur 'ﬁ' in 'geïdentiﬁceerd' — OCR/glyph-artefact"
-        - Frontmatter `wet:` veld bevat 'toepassings- modaliteiten' met streep+spatie residu
+        - "Frontmatter `wet:` veld: 'toepassings- modaliteiten' bevat streep+spatie residu (cosmetic)"
+        - "Regel 110: 'KB nr. 31, artikel, derde lid' — vermoedelijk source-typo, ontbrekend artikelnummer"
 ---
 
 # K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten van de belasting over de toegevoegde waarde ten aanzien van de handelingen verricht door niet in België gevestigde belastingplichtigen

@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 04e910e-dirty
+    pipeline_version: 4126295-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:16:44Z'
+  generated_at: '2026-05-13T11:20:57Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:17:04Z'
+    confirmed_at: '2026-05-13T11:21:10Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Significante PDF-extractie-artefacten: artikel-nummering klopt niet (## Art. 81, ## Art. 82, ## Art. 83 op regels 130, 208, 217 - dit zijn in werkelijkheid de artikelen 8/1, 8/2 en 8/3, want de amendment-context spreekt over 'artikel 8/1, § 2' enz.). De heading-extractie heeft de slash genegeerd. Verder PDF-afbrekingsfouten: 'BTWidentificatienummer', 'btwtarief', 'btwaangifte', 'niet-belastingplichtige' soms inconsistent. Diverse zinnen-onderbrekingen door witregel."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:17:04Z'
+      run_at: '2026-05-13T11:21:10Z'
       rationale: "Significante PDF-extractie-artefacten: artikel-nummering klopt niet (## Art. 81, ## Art. 82, ## Art. 83 op regels 130, 208, 217 - dit zijn in werkelijkheid de artikelen 8/1, 8/2 en 8/3, want de amendment-context spreekt over 'artikel 8/1, § 2' enz.). De heading-extractie heeft de slash genegeerd. Verder PDF-afbrekingsfouten: 'BTWidentificatienummer', 'btwtarief', 'btwaangifte', 'niet-belastingplichtige' soms inconsistent. Diverse zinnen-onderbrekingen door witregel."
       concrete_problemen:
         - "Heading-fout: '## Art. 81' (regel 130) is in werkelijkheid Art. 8/1 - zie amendment-blok 'KB nr. 4, artikel 8/1, § 2'. Idem Art. 82=8/2, Art. 83=8/3"

@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 04e910e-dirty
+    pipeline_version: 4126295-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:16:46Z'
+  generated_at: '2026-05-13T11:20:59Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T11:17:04Z'
+    confirmed_at: '2026-05-13T11:21:09Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Schone wettekst-conversie: 16 Art.-headings, consistent commentaarblok (wijzigingsgeschiedenis) per artikel, lijsten 1°/2°/... correct. Source-typo's (open haakje '(Opgeheven' regel 100) en stray 'Bijlage' regel 149 zijn brontypografie, geen ETL-artefact."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:17:04Z'
+      run_at: '2026-05-13T11:21:09Z'
       rationale: "Schone wettekst-conversie: 16 Art.-headings, consistent commentaarblok (wijzigingsgeschiedenis) per artikel, lijsten 1°/2°/... correct. Source-typo's (open haakje '(Opgeheven' regel 100) en stray 'Bijlage' regel 149 zijn brontypografie, geen ETL-artefact."
       concrete_problemen:
         - regel: 100
@@ -151,5 +151,3 @@ Dit besluit treedt in werking de dag waarop het in het Belgisch Staatsblad wordt
 (De tekst van KB 04.04.2014, artikel 16, is van toepassing met ingang van 07.05.2014 (KB 04.04.2014, B.S. 07.05.2014, pg. 36551)
 
 Onze minister die Financiën onder zijn bevoegdheid heeft en Onze minister die Mobiliteit en Vervoer onder zijn bevoegdheid heeft, zijn ieder wat hem betreft, belast met de uitvoering van dit besluit.
-
-Bijlage

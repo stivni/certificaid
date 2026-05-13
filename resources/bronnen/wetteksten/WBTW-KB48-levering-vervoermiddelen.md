@@ -17,26 +17,26 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 04e910e-dirty
+    pipeline_version: 4126295-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:16:45Z'
+  generated_at: '2026-05-13T11:20:58Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T11:17:05Z'
+    status: trusted
+    confirmed_at: '2026-05-13T11:21:10Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Artikel-/§-linewraps die in vorige QA werden gevlagd (regel 54-55 'artikel 53,\n§ 1...' en regel 120-121 'artikel\n6.') zijn nu opgelost door merge_article_reference_wraps. Echter het word-concat-artefact 'hetWetboek' op regel 69 (missing space tussen 'het' en 'Wetboek') is een aparte pdftotext-bug die niet door deze transformer wordt aangepakt en nog altijd direct opvalt voor een buitenstaander. Ook de onnatuurlijke witregel tussen 'a)' en 'b)' in de enumeratielijst (regel 76-78) blijft staan.
+    rationale: "fix_pdftotext_glue_bugs heeft 'van hetWetboek' op regel 66 niet ondubbelzinnig gecorrigeerd (zie regel 66: 'van hetWetboek' staat er nog), maar dit is één geïsoleerde concat-bug en marginaal. De eerder gevlagde linewraps zijn opgelost. Hoofdtekst leest natuurlijk, alle artikelen 1-9 (incl. Art. 4bis als opgeheven-stub) consistent geformatteerd, lijst-structuur a)-c) in Art. 3 §1 correct. De lege witregel tussen 'a) voor de landvoertuigen' en 'b) voor schepen' (regel 74-75) blijft een kleine cosmetic. Net trusted: één resterende concat-bug niet voldoende voor needs-rework."
     layer1:
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:17:05Z'
-      rationale: Artikel-/§-linewraps die in vorige QA werden gevlagd (regel 54-55 'artikel 53,\n§ 1...' en regel 120-121 'artikel\n6.') zijn nu opgelost door merge_article_reference_wraps. Echter het word-concat-artefact 'hetWetboek' op regel 69 (missing space tussen 'het' en 'Wetboek') is een aparte pdftotext-bug die niet door deze transformer wordt aangepakt en nog altijd direct opvalt voor een buitenstaander. Ook de onnatuurlijke witregel tussen 'a)' en 'b)' in de enumeratielijst (regel 76-78) blijft staan.
+      run_at: '2026-05-13T11:21:10Z'
+      rationale: "fix_pdftotext_glue_bugs heeft 'van hetWetboek' op regel 66 niet ondubbelzinnig gecorrigeerd (zie regel 66: 'van hetWetboek' staat er nog), maar dit is één geïsoleerde concat-bug en marginaal. De eerder gevlagde linewraps zijn opgelost. Hoofdtekst leest natuurlijk, alle artikelen 1-9 (incl. Art. 4bis als opgeheven-stub) consistent geformatteerd, lijst-structuur a)-c) in Art. 3 §1 correct. De lege witregel tussen 'a) voor de landvoertuigen' en 'b) voor schepen' (regel 74-75) blijft een kleine cosmetic. Net trusted: één resterende concat-bug niet voldoende voor needs-rework."
       concrete_problemen:
-        - "Regel 69: 'van hetWetboek' (ontbrekende spatie) — pdftotext word-concat-bug, niet opgelost door merge_article_reference_wraps"
-        - "Regel 76-78: lege regel binnen één enumeratielijst tussen 'a) voor de landvoertuigen' en 'b) voor schepen'"
+        - "Regel 66: 'van hetWetboek' (ontbrekende spatie) — fix_pdftotext_glue_bugs heeft deze specifieke variant niet gevangen"
+        - 'Regel 74-75: lege regel binnen één enumeratielijst tussen a) en b)'
 ---
 
 # K.B. nr. 48 van 29 december 1992, met betrekking tot de levering van vervoermiddelen in de zin van artikel 8bis, § 2, 1°, van het Btw- Wetboek, verricht binnen de voorwaarden van artikel 39bis van het Btw- Wetboek
@@ -63,7 +63,7 @@ Ze moet worden ingediend op het controlekantoor van de belasting over de toegevo
 ## Art. 3
 (De tekst van KB nr. 48, artikel 3, § 1, inleidende zin, werd gewijzigd met ingang van 16.05.2014, (Art. 31, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))
 
-§ 1. De belastingplichtigen en de leden van een btw-eenheid in de zin van artikel 4, § 2, van het Wetboek, gehouden tot het indienen van de aangifte bedoeld in artikel 53, § 1, eerste lid, 2°, van hetWetboek, moeten voor ieder kalenderkwartaal tijdens hetwelk zij één of meerdere intracommunautaire leveringen van nieuwe vervoermiddelen in de zin van artikel 8bis, § 2, van het Wetboek verrichten, binnen de voorwaarden van artikel 39bis,2°, van het Wetboek, de administratie belast met de belasting over de toegevoegde waarde daarvan inlichten uiterlijk de twintigste van de maand die volgt op het kalenderkwartaal waarop ze betrekking heeft door middel van een lijst die de volgende inlichtingen bevat :
+§ 1. De belastingplichtigen en de leden van een btw-eenheid in de zin van artikel 4, § 2, van het Wetboek, gehouden tot het indienen van de aangifte bedoeld in artikel 53, § 1, eerste lid, 2°, van het Wetboek, moeten voor ieder kalenderkwartaal tijdens hetwelk zij één of meerdere intracommunautaire leveringen van nieuwe vervoermiddelen in de zin van artikel 8bis, § 2, van het Wetboek verrichten, binnen de voorwaarden van artikel 39bis,2°, van het Wetboek, de administratie belast met de belasting over de toegevoegde waarde daarvan inlichten uiterlijk de twintigste van de maand die volgt op het kalenderkwartaal waarop ze betrekking heeft door middel van een lijst die de volgende inlichtingen bevat :
 1° de naam of de maatschappelijke benaming van de leverancier van de goederen, het adres van zijn administratieve of maatschappelijke zetel, en zijn in artikel 50 van het Wetboek bedoeld btw-identificatienummer;
 2° de datum van de factuur en het volgnummer waaronder deze is ingeschreven in het uitgaand factuurboek;
 3° de lidstaat van bestemming;

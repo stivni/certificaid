@@ -49,6 +49,15 @@ _CONCAT_FIXES: list[tuple[re.Pattern[str], str]] = [
     (re.compile(r"\bBTWeenheid\b"), "BTW-eenheid"),
     (re.compile(r"\bBTWaangifte\b"), "BTW-aangifte"),
     (re.compile(r"\bBTWplichtige\b"), "BTW-plichtige"),
+    # Lowercase btw-prefix concats (komt voor in KB7)
+    (re.compile(r"\bbtwidentificatienummer\b"), "btw-identificatienummer"),
+    (re.compile(r"\bbtwdoeleinden\b"), "btw-doeleinden"),
+    (re.compile(r"\bbtwkantoor\b"), "btw-kantoor"),
+    # het + Wetboek/Wet (komt voor in KB48)
+    (re.compile(r"\bhetWetboek\b"), "het Wetboek"),
+    (re.compile(r"\bhetWetboek\.", flags=0), "het Wetboek."),
+    (re.compile(r"\bvanhet\b"), "van het"),
+    (re.compile(r"\binhet\b"), "in het"),
     # douane-prefix concats
     (re.compile(r"\bdouaneentrepot\b"), "douane-entrepot"),
     (re.compile(r"\bdouaneagent\b"), "douane-agent"),

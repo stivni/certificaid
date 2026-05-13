@@ -17,28 +17,29 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 04e910e-dirty
+    pipeline_version: 4126295-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:16:44Z'
+  generated_at: '2026-05-13T11:20:57Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:17:04Z'
+    confirmed_at: '2026-05-13T11:21:10Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Hoofdtekst is goed: hoofdstukken, secties, artikelen consistent geformatteerd. Maar Bijlage (regels 1077-1104) bevat zware PDF-table-bleed: 'Code van het Tarief' en 'Omschrijving' kolommen door elkaar, fragmentarische zinnen, GN-codes en omschrijvingen versmolten ('3704 00 Fotografische platen, film, ...'), regels 1086-1087 bevatten meervoudige codes vermengd met tekst zonder structuur. Ook regels 978, 984, 990-993, 1022-1033 (lijstjes in Art. 43-44) hebben pseudo-tabel-bleed (hoeveelheden voor tabak/alcohol)."
+    rationale: "Hoofdtekst (47 artikelen verspreid over 6 hoofdstukken) is structureel sterk: hoofdstukken als ## HOOFDSTUK, afdelingen als ### AFDELING, artikelen als #### Art. — drie-niveaus hierarchie consistent. Echter regels 1078-1105 bevatten nog steeds zware PDF-table-bleed in de Bijlage ('Code van het Tarief / Omschrijving' met GN-codes en omschrijvingen versmolten). Regels 968-994 (Art. 43 §2 3°) en 1021-1034 (Art. 44 §3) hebben pseudo-tabel-bleed voor tabak/alcohol/koffie hoeveelheden waar getallen midden in omschrijvingen staan. Regel 854 (Art. 39 §1): 'van het Bovendien is...' is een afgekapte zin (ontbrekend 'Wetboek' tussen 'het' en 'Bovendien'). fix_pdftotext_glue_bugs heeft ergens 'btwidentificatienummer' (regel 854) niet gevangen. Geen ﬁ/ﬂ ligaturen meer."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:17:04Z'
-      rationale: "Hoofdtekst is goed: hoofdstukken, secties, artikelen consistent geformatteerd. Maar Bijlage (regels 1077-1104) bevat zware PDF-table-bleed: 'Code van het Tarief' en 'Omschrijving' kolommen door elkaar, fragmentarische zinnen, GN-codes en omschrijvingen versmolten ('3704 00 Fotografische platen, film, ...'), regels 1086-1087 bevatten meervoudige codes vermengd met tekst zonder structuur. Ook regels 978, 984, 990-993, 1022-1033 (lijstjes in Art. 43-44) hebben pseudo-tabel-bleed (hoeveelheden voor tabak/alcohol)."
+      run_at: '2026-05-13T11:21:10Z'
+      rationale: "Hoofdtekst (47 artikelen verspreid over 6 hoofdstukken) is structureel sterk: hoofdstukken als ## HOOFDSTUK, afdelingen als ### AFDELING, artikelen als #### Art. — drie-niveaus hierarchie consistent. Echter regels 1078-1105 bevatten nog steeds zware PDF-table-bleed in de Bijlage ('Code van het Tarief / Omschrijving' met GN-codes en omschrijvingen versmolten). Regels 968-994 (Art. 43 §2 3°) en 1021-1034 (Art. 44 §3) hebben pseudo-tabel-bleed voor tabak/alcohol/koffie hoeveelheden waar getallen midden in omschrijvingen staan. Regel 854 (Art. 39 §1): 'van het Bovendien is...' is een afgekapte zin (ontbrekend 'Wetboek' tussen 'het' en 'Bovendien'). fix_pdftotext_glue_bugs heeft ergens 'btwidentificatienummer' (regel 854) niet gevangen. Geen ﬁ/ﬂ ligaturen meer."
       concrete_problemen:
-        - 'Bijlage (regels 1077-1104): GN-codes en omschrijvingen versmolten zonder tabel-structuur'
-        - "Regels 978, 984, 990-993: alcoholtarief-tabel met losse '-' bullets en samengeperste hoeveelheden"
-        - "Regels 1022-1034: kleine zendingen-tabel met categorieën door elkaar (sigaretten/cigarillo's/sigaren in dezelfde regel)"
-        - "Artikel 39 §1 (regel 852): afgebroken zin 'van het Bovendien is...' — ontbrekend woord/scrambled na 'Wetboek'"
+        - 'Regels 1082-1105 (Bijlage): GN-codes en omschrijvingen versmolten zonder tabel-structuur'
+        - "Regels 968-994 (Art. 43 §2 3°): tabaksprodukten/alcohol-tabel met losse '-' bullets en samengeperste hoeveelheden in lopende tekst"
+        - "Regels 1021-1034 (Art. 44 §3): kleine zendingen-tabel met categorieën door elkaar (sigaretten/cigarillo's/sigaren in één regel)"
+        - "Regel 854: 'van het Bovendien is...' — afgekapte zin, ontbrekend woord (mogelijk 'Wetboek') na 'het'"
+        - "Regel 854: 'btwidentificatienummer' — pdftotext concat niet door fix_pdftotext_glue_bugs gevangen"
 ---
 
 # K.B. nr. 7 van 29 december 1992, met betrekking tot de invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde
@@ -851,7 +852,7 @@ Vrijstelling ingesteld bij artikel 40, § 1, 1°, d, van het Wetboek.
 
 § 1. De invoer van goederen bedoeld in artikel 40, § 1, 1°, d, van het Wetboek is van de belasting vrijgesteld mits naleving van de voorwaarden bedoeld onder de artikelen 1 tot en met 3 en de volgende voorwaarden.
 
-In de gevallen waar de invoer van goederen gevolgd wordt door een levering van die goederen die is vrijgesteld bij toepassing van artikel 39bis, eerste lid, 1° en 4°, van hetWetboek, moet de aangifte voor het verbruik, benevens de vermeldingen bedoeld in artikel 9, het btwidentificatienummer vermelden dat in een andere lidstaat werd toegekend aan de klant aan wie de goederen overeenkomstig artikel 39bis, eerste lid, 1°, van het Wetboek worden geleverd door de geadresseerde of het btw-identificatienummer, toegekend aan de geadresseerde in de lidstaat van aankomst van de verzending of het vervoer van de goederen, indien deze het voorwerp uitmaken van een overbrenging overeenkomstig artikel 39bis, eerste lid, 4°, van het Bovendien is de geadresseerde op het ogenblik van de aangifte voor het verbruik gehouden, op vraag van de bevoegde autoriteiten, het bewijs te leveren dat de ingevoerde goederen bestemd zijn om vanuit België te worden vervoerd of verzonden naar een andere lidstaat.
+In de gevallen waar de invoer van goederen gevolgd wordt door een levering van die goederen die is vrijgesteld bij toepassing van artikel 39bis, eerste lid, 1° en 4°, van het Wetboek, moet de aangifte voor het verbruik, benevens de vermeldingen bedoeld in artikel 9, het btw-identificatienummer vermelden dat in een andere lidstaat werd toegekend aan de klant aan wie de goederen overeenkomstig artikel 39bis, eerste lid, 1°, van het Wetboek worden geleverd door de geadresseerde of het btw-identificatienummer, toegekend aan de geadresseerde in de lidstaat van aankomst van de verzending of het vervoer van de goederen, indien deze het voorwerp uitmaken van een overbrenging overeenkomstig artikel 39bis, eerste lid, 4°, van het Bovendien is de geadresseerde op het ogenblik van de aangifte voor het verbruik gehouden, op vraag van de bevoegde autoriteiten, het bewijs te leveren dat de ingevoerde goederen bestemd zijn om vanuit België te worden vervoerd of verzonden naar een andere lidstaat.
 
 § 2. Door de Minister van Financiën of zijn gemachtigde worden de modaliteiten bepaald voor de toepassing van dit artikel.
 
@@ -1075,7 +1076,7 @@ Dit besluit treedt in werking op 1 januari 1993.
 
 Onze Minister van Financiën is belast met de uitvoering van dit besluit.
 
-Bijlage
+## Bijlage
 
 Materiaal bedoeld in artikel 36, 21°, van het besluit
 

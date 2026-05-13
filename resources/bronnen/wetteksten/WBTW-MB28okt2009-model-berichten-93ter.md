@@ -17,27 +17,27 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 04e910e-dirty
+    pipeline_version: 4126295-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:16:47Z'
+  generated_at: '2026-05-13T11:20:55Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:17:05Z'
+    confirmed_at: '2026-05-13T11:21:10Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Hoofdtekst (Art. 1-5) is schoon, maar regels 78-82 bevatten nog steeds drie plain-text labels 'Bijlage 1' / 'Bijlage 2' / 'Bijlage 3' zonder ##-heading en zonder inhoud. De bijlagen (modelformulieren) zijn niet meegekomen uit de PDF maar de labels wel — dit oogt onafgemaakt en is bovendien inhoudelijk problematisch: het MB-doel is precies om deze modelberichten voor te schrijven, en zonder bijlagen mist de bron zijn kerncontent. De drie nieuwe transformers raken dit specifieke artefact niet — strip_empty_trailing_headings werkt op '## Art.' patronen, niet op plain-text 'Bijlage' labels."
+    rationale: "Hoofdtekst (Art. 1-5) is schoon. Echter regels 72, 74, 76 bevatten nog steeds drie plain-text labels 'Bijlage 1', 'Bijlage 2', 'Bijlage 3' zonder ##-prefix en zonder inhoud. De huidige transformers (strip_mb_compilatie_cover, fix_pdftotext_glue_bugs) raken dit specifieke 'Bijlage N'-trailing-label-patroon niet. Een buitenstaander ziet drie naakte 'Bijlage' regels onderaan zonder content — duidelijk onafgemaakt."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:17:05Z'
-      rationale: "Hoofdtekst (Art. 1-5) is schoon, maar regels 78-82 bevatten nog steeds drie plain-text labels 'Bijlage 1' / 'Bijlage 2' / 'Bijlage 3' zonder ##-heading en zonder inhoud. De bijlagen (modelformulieren) zijn niet meegekomen uit de PDF maar de labels wel — dit oogt onafgemaakt en is bovendien inhoudelijk problematisch: het MB-doel is precies om deze modelberichten voor te schrijven, en zonder bijlagen mist de bron zijn kerncontent. De drie nieuwe transformers raken dit specifieke artefact niet — strip_empty_trailing_headings werkt op '## Art.' patronen, niet op plain-text 'Bijlage' labels."
+      run_at: '2026-05-13T11:21:10Z'
+      rationale: "Hoofdtekst (Art. 1-5) is schoon. Echter regels 72, 74, 76 bevatten nog steeds drie plain-text labels 'Bijlage 1', 'Bijlage 2', 'Bijlage 3' zonder ##-prefix en zonder inhoud. De huidige transformers (strip_mb_compilatie_cover, fix_pdftotext_glue_bugs) raken dit specifieke 'Bijlage N'-trailing-label-patroon niet. Een buitenstaander ziet drie naakte 'Bijlage' regels onderaan zonder content — duidelijk onafgemaakt."
       concrete_problemen:
-        - "Regels 78, 80, 82: 'Bijlage 1', 'Bijlage 2', 'Bijlage 3' als plain-text labels zonder ##-prefix"
-        - Bijlagen-inhoud (modelberichten 93ter/93quinquies en 433/435) ontbreekt volledig — kerncontent van het MB
-        - "Lege trailing-labels zouden door strip_empty_trailing_headings opgeruimd moeten worden (uitbreiding nodig: ook 'Bijlage N' patroon)"
+        - "Regels 72, 74, 76: 'Bijlage 1', 'Bijlage 2', 'Bijlage 3' als plain-text labels zonder ##-prefix en zonder content"
+        - Bijlagen-inhoud (modelberichten 93ter/93quinquies en 433/435) ontbreekt — kerncontent van het MB
+        - "Uitbreiding strip_empty_trailing_headings nodig: ook 'Bijlage N' patroon afvangen"
 ---
 
 # M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992
@@ -69,8 +69,8 @@ Het ministerieel besluit van 26 februari 2007 tot bepaling van het model der ber
 
 Dit besluit treedt in werking op 15 november 2009.
 
-Bijlage 1
+## Bijlage 1
 
-Bijlage 2
+## Bijlage 2
 
-Bijlage 3
+## Bijlage 3

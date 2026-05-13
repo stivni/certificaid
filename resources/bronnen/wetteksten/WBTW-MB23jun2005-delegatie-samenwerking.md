@@ -17,26 +17,26 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 04e910e-dirty
+    pipeline_version: 4126295-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:16:47Z'
+  generated_at: '2026-05-13T11:20:55Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:17:04Z'
+    confirmed_at: '2026-05-13T11:21:10Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "'Enig artikel' staat als plain text (regel 48) en niet als heading. Layer1 heading_count is dan ook 0. Dit is een structureel ETL-issue: een buitenstaander herkent dit niet als de centrale (en enige) bepaling van het MB, en RAG-chunking zal hier slecht op werken."
+    rationale: "'Enig artikel' staat nog steeds als plain text (regel 48) en niet als ## Enig artikel heading. Bestand heeft geen enkele heading-anker voor de centrale bepaling. De huidige transformers pakken dit niet aan: noch strip_mb_compilatie_cover noch fix_pdftotext_glue_bugs voegt 'Enig artikel' als heading in. Voor RAG-chunking is dit een structureel probleem — er is geen sectie-anker voor de enige inhoudelijke bepaling van het MB."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:17:04Z'
-      rationale: "'Enig artikel' staat als plain text (regel 48) en niet als heading. Layer1 heading_count is dan ook 0. Dit is een structureel ETL-issue: een buitenstaander herkent dit niet als de centrale (en enige) bepaling van het MB, en RAG-chunking zal hier slecht op werken."
+      run_at: '2026-05-13T11:21:10Z'
+      rationale: "'Enig artikel' staat nog steeds als plain text (regel 48) en niet als ## Enig artikel heading. Bestand heeft geen enkele heading-anker voor de centrale bepaling. De huidige transformers pakken dit niet aan: noch strip_mb_compilatie_cover noch fix_pdftotext_glue_bugs voegt 'Enig artikel' als heading in. Voor RAG-chunking is dit een structureel probleem — er is geen sectie-anker voor de enige inhoudelijke bepaling van het MB."
       concrete_problemen:
-        - "'Enig artikel' op regel 48 is plain text i.p.v. ## Enig artikel (checklist B: 'Enig artikel' als plain-text ipv heading)"
-        - Bestand bevat 0 headings volgens layer1.heading_count — er is geen enkel section-anker voor retrieval
+        - "Regel 48: 'Enig artikel' als plain text i.p.v. '## Enig artikel' heading"
+        - 'Bestand bevat 0 ## headings — geen retrieval-anker voor de centrale bepaling'
 ---
 
 # M.B. van 23 juni 2005, met betrekking tot de delegatie van de bevoegde autoriteit inzake de administratieve samenwerking op het gebied van de belasting over de toegevoegde waarde
@@ -45,7 +45,7 @@ provenance:
 
 Ministerieel besluit, van 23 juni 2005, met betrekking tot de delegatie van de bevoegde autoriteit inzake de administratieve samenwerking op het gebied van de belasting over de toegevoegde waarde Officieuze coördinatie, nr. 2 – Laatstelijk gewijzigd met ingang van 13.05.2010 (MB 27.04.2010, B.S. 03.05.2010)
 
-Enig artikel
+## Enig artikel
 (De tekst van het enig artikel werd gewijzigd met ingang van 13.05.2010 (MB 27.04.2010, B.S. 03.05.2010))
 
 Voor de toepassing van de bepalingen van de Verordening (EG) nr. 1798/2003 van de Raad van 7 oktober 2003 betreffende de administratieve samenwerking op het gebied van de belasting over de toegevoegde waarde, wordt de door artikel 2, eerste lid, van deze Verordening aan de Minister van Financiën toegestane bevoegde autoriteit gedelegeerd aan de Voorzitter van het Directiecomité, met mogelijkheid tot overdracht van die volmacht aan de door hem aangeduide diensten of ambtenaren.

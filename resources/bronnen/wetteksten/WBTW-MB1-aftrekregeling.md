@@ -17,30 +17,25 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 04e910e-dirty
+    pipeline_version: 4126295-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:16:46Z'
+  generated_at: '2026-05-13T11:20:55Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T11:17:05Z'
+    status: trusted
+    confirmed_at: '2026-05-13T11:21:10Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Massieve ETL-bleed onveranderd: regels 56-140 (85 regels) bevatten de complete compilatie-cover ('BELASTING OVER DE TOEGEVOEGDE WAARDE', 'Federale Overheidsdienst FINANCIEN', contact-email) plus de volledige TOC van alle 25+ MB's met PDF-glyph-bullets ' * ', onderstreepte placeholders '_____' en 'Bijw. XX/datum' kolom-bleed midden in beschrijvingen. De eigenlijke MB-1 wettekst begint pas op regel 141 en is slechts 16 regels lang. De drie nieuwe transformers raken dit volume aan pre-tekst-pollutie niet (niet 'Lijst van de bijwerkingen', niet running-header met pg.-formaat, niet lege heading)."
+    rationale: "strip_mb_compilatie_cover heeft alle eerder gevlagde pollutie verwijderd: de 85-regel cover ('BELASTING OVER DE TOEGEVOEGDE WAARDE', 'Federale Overheidsdienst FINANCIEN'), de complete TOC met PDF-bullet-glyphs ' * ' en de 'Bijw. XX/datum' kolom-bleed zijn weg. De resterende file is een schone MB-1 wettekst (Art. 1-3) met heldere headings. fix_pdftotext_glue_bugs heeft tegelijk de body verbeterd. Body/content-ratio is nu volledig content. Een buitenstaander zou dit als mens-geschreven herkennen."
     layer1:
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:17:05Z'
-      rationale: "Massieve ETL-bleed onveranderd: regels 56-140 (85 regels) bevatten de complete compilatie-cover ('BELASTING OVER DE TOEGEVOEGDE WAARDE', 'Federale Overheidsdienst FINANCIEN', contact-email) plus de volledige TOC van alle 25+ MB's met PDF-glyph-bullets ' * ', onderstreepte placeholders '_____' en 'Bijw. XX/datum' kolom-bleed midden in beschrijvingen. De eigenlijke MB-1 wettekst begint pas op regel 141 en is slechts 16 regels lang. De drie nieuwe transformers raken dit volume aan pre-tekst-pollutie niet (niet 'Lijst van de bijwerkingen', niet running-header met pg.-formaat, niet lege heading)."
+      run_at: '2026-05-13T11:21:10Z'
+      rationale: "strip_mb_compilatie_cover heeft alle eerder gevlagde pollutie verwijderd: de 85-regel cover ('BELASTING OVER DE TOEGEVOEGDE WAARDE', 'Federale Overheidsdienst FINANCIEN'), de complete TOC met PDF-bullet-glyphs ' * ' en de 'Bijw. XX/datum' kolom-bleed zijn weg. De resterende file is een schone MB-1 wettekst (Art. 1-3) met heldere headings. fix_pdftotext_glue_bugs heeft tegelijk de body verbeterd. Body/content-ratio is nu volledig content. Een buitenstaander zou dit als mens-geschreven herkennen."
       concrete_problemen:
-        - "Regels 56-78: compilatie-cover ('BELASTING OVER DE TOEGEVOEGDE WAARDE', 'Federale Overheidsdienst FINANCIEN', 'contact : comments.kms@minfin.fed.be') als plain text vóór de wettekst"
-        - "Regels 79-139: complete 'Lijst van de ministeriële besluiten' (25 MB's) met PDF-bullet-glyphs ' * '"
-        - "Regels 85-121: onderstreepte placeholders '_____' midden in TOC-regels"
-        - "Regels 81, 83, 91, 101-105, 123, 126-132, 134, 137, 139: bijwerkingsmarkers 'Bijw. XX/datum' kolom-bleed midden in beschrijvingen"
-        - Regel 141 bevat de eigenlijke MB-titel als plain text ipv heading, gevolgd door 'Officieuze coördinatie - Laatstelijk gewijzigd...' op één lange regel
-        - 'Body/content-ratio: 85 regels pollutie versus 16 regels eigenlijke wettekst'
+        - Regel 50 bevat een afgekapte zinsfragment '2°, 53ter, 1°, 53quinquies en 53sexies van het Wetboek...' vóór de eerste Art.-heading — restje uit de oude pre-tekst maar nu klein en marginaal
 ---
 
 # M.B. nr. 1 van 2 september 1980, met betrekking tot de aftrekregeling voor de toepassing van de belasting over de toegevoegde waarde

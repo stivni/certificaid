@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 04e910e-dirty
+    pipeline_version: 4126295-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:16:47Z'
+  generated_at: '2026-05-13T11:20:55Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:17:04Z'
+    confirmed_at: '2026-05-13T11:21:10Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Inconsistente heading-stijl: meeste artikelen als '###### Art. N' maar artikelen 5-12, 46, 64, 86 en 132 staan als plain text 'Artikel N.' midden in de prose (checklist B). Daarnaast een gedegenereerde pseudo-tabel voor de btw-codes (regels 203-216) met scrambled kolommen en multi-line cellen (checklist E + checklist A column-bleed). Dit is duidelijk ETL-residu."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:17:04Z'
+      run_at: '2026-05-13T11:21:10Z'
       rationale: "Inconsistente heading-stijl: meeste artikelen als '###### Art. N' maar artikelen 5-12, 46, 64, 86 en 132 staan als plain text 'Artikel N.' midden in de prose (checklist B). Daarnaast een gedegenereerde pseudo-tabel voor de btw-codes (regels 203-216) met scrambled kolommen en multi-line cellen (checklist E + checklist A column-bleed). Dit is duidelijk ETL-residu."
       concrete_problemen:
         - "Heading-inconsistentie: 'Artikel 5. Event Normal' (regel 142), 'Artikel 6.' (147), 'Artikel 7.' (156), 'Artikel 8.' (159), 'Artikel 9.' (162), 'Artikel 10.' (165), 'Artikel 11.' (168), 'Artikel 12.' (176), 'Artikel 46.' (343), 'Artikel 64.' (435), 'Artikel 86' (572), 'Artikel 132.' (886) staan als plain text terwijl andere artikelen ###### gebruiken"

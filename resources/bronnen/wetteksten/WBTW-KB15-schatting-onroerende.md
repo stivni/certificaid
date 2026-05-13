@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 04e910e-dirty
+    pipeline_version: 4126295-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:16:44Z'
+  generated_at: '2026-05-13T11:20:57Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:17:04Z'
+    confirmed_at: '2026-05-13T11:21:09Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Inconsistente HOOFDSTUK-structuur (categorie B2): 'EERSTE HOOFDSTUK' op regel 49-51 als plain text in all-caps zonder ## prefix, terwijl 'HOOFDSTUK II' op regel 183 wél als ## heading staat. Afdeling 1 als ### maar afdeling 2 ook als ### — OK. Daarnaast eed-formules (regel 129) als run-on prose i.p.v. blockquote/list, en meerdere spurious linebreaks in annotaties ('Art.\\n13,' regel 97-98, 'Art.\\n17,' regel 122-123, 'Art.\\n20,' regel 200-201)."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:17:04Z'
+      run_at: '2026-05-13T11:21:09Z'
       rationale: "Inconsistente HOOFDSTUK-structuur (categorie B2): 'EERSTE HOOFDSTUK' op regel 49-51 als plain text in all-caps zonder ## prefix, terwijl 'HOOFDSTUK II' op regel 183 wél als ## heading staat. Afdeling 1 als ### maar afdeling 2 ook als ### — OK. Daarnaast eed-formules (regel 129) als run-on prose i.p.v. blockquote/list, en meerdere spurious linebreaks in annotaties ('Art.\\n13,' regel 97-98, 'Art.\\n17,' regel 122-123, 'Art.\\n20,' regel 200-201)."
       concrete_problemen:
         - regel: 49
@@ -179,7 +179,7 @@ Werk in onroerende staat.
 #### Art. 14
 (De tekst van KB nr. 15, artikel 14, werd vervangen met ingang van 01.01.2011. (Art. 18, KB 19.12.2010, B.S. 24.12.2010))
 
-§ 1. Wanneer voor het bepalen van de normale waarde van de in de artikelen 19, § 2, eerste lid, 1° en 36, § 1, b), van het Wetboek bedoelde diensten, de deskundige schatting, waarin artikel 59, § 2, van hetzelfde Wetboek voorziet, door de administratie wordt gevorderd, wordt ze ingeleid bij een vordering waarvan kennis wordt gegeven door het hoofd van het controlekantoor in het ambtsgebied waarvan het goed bedoeld in artikel 1, § 9, 1°, van hetWetboek is gelegen waarop de diensten betrekking hebben :
+§ 1. Wanneer voor het bepalen van de normale waarde van de in de artikelen 19, § 2, eerste lid, 1° en 36, § 1, b), van het Wetboek bedoelde diensten, de deskundige schatting, waarin artikel 59, § 2, van hetzelfde Wetboek voorziet, door de administratie wordt gevorderd, wordt ze ingeleid bij een vordering waarvan kennis wordt gegeven door het hoofd van het controlekantoor in het ambtsgebied waarvan het goed bedoeld in artikel 1, § 9, 1°, van het Wetboek is gelegen waarop de diensten betrekking hebben :
 1° aan de opdrachtgever aan wie de diensten werden verstrekt;
 2° aan de belastingplichtige in het geval bedoeld in artikel 19, § 2, eerste lid, 1°, van het Wetboek.
 

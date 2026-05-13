@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 04e910e-dirty
+    pipeline_version: 4126295-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:16:45Z'
+  generated_at: '2026-05-13T11:20:58Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:17:04Z'
+    confirmed_at: '2026-05-13T11:21:10Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Zware kolom-bleed door de hele bijlage (Tabellen A-J). Originele PDF heeft een 2-koloms structuur: links de overtredingsbeschrijving, rechts het percentage/boete. De extractie heeft kolomstrooien afwisselend gemerged, met als resultaat scrambled zinnen zoals 'A) belasting en voorschotten waarvan de per maand vertraging (1), een opeisbaarheid blijkt uit de maand- of percentage gelijk aan dat van kwartaalaangiften en belasting waarvan de de nalatigheidsinterest dat is opeisbaarheid blijkt uit de jaaraangiften bepaald in artikel 91, § 1, van het...' (regel 143). Dat is onbruikbaar voor retrieval en evident niet-mens-geschreven. Dit is veruit het zwaarste geval van de batch."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:17:04Z'
+      run_at: '2026-05-13T11:21:10Z'
       rationale: "Zware kolom-bleed door de hele bijlage (Tabellen A-J). Originele PDF heeft een 2-koloms structuur: links de overtredingsbeschrijving, rechts het percentage/boete. De extractie heeft kolomstrooien afwisselend gemerged, met als resultaat scrambled zinnen zoals 'A) belasting en voorschotten waarvan de per maand vertraging (1), een opeisbaarheid blijkt uit de maand- of percentage gelijk aan dat van kwartaalaangiften en belasting waarvan de de nalatigheidsinterest dat is opeisbaarheid blijkt uit de jaaraangiften bepaald in artikel 91, § 1, van het...' (regel 143). Dat is onbruikbaar voor retrieval en evident niet-mens-geschreven. Dit is veruit het zwaarste geval van de batch."
       concrete_problemen:
         - 'Kolom-bleed in heel TABEL A (regels 137-408): elke rij heeft beschrijving + tarief door elkaar gehusseld zonder pipe-syntax'
@@ -93,7 +93,7 @@ Dit besluit treedt in werking op 1 februari 1987.
 
 Onze Minister van Financiën is belast met de uitvoering van dit besluit.
 
-Bijlage
+## Bijlage
 
 TABEL A: Geldboeten voor overtredingen beoogd in artikel 70, § 1, van het wetboek
 
@@ -129,7 +129,7 @@ TABEL I: Geldboeten voor overtredingen beoogd in artikel 70, § 3, van het wetbo
 
 TABEL J: Geldboeten voor overtredingen beoogd in artikel 71 van het wetboek
 
-BIJLAGE
+## Bijlage
 
 TABEL A
 

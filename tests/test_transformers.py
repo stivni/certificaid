@@ -1968,3 +1968,54 @@ class TestFixPdftotextGlueBugs:
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "fix_pdftotext_glue_bugs" in TRANSFORMERS
+
+
+class TestPromoteWettekstSectionLabels:
+    def test_enig_artikel(self):
+        from tools.etl.transformers.promote_wettekst_section_labels import promote_wettekst_section_labels
+        body = "Inleiding.\n\nEnig artikel\n\nDe minister beslist.\n"
+        result, _ = promote_wettekst_section_labels(body, {})
+        assert "## Enig artikel" in result
+        assert "\nEnig artikel\n" not in result
+
+    def test_bijlage_with_number(self):
+        from tools.etl.transformers.promote_wettekst_section_labels import promote_wettekst_section_labels
+        body = "Slot.\n\nBijlage 1\n\nDeze bijlage bevat\n"
+        result, _ = promote_wettekst_section_labels(body, {})
+        assert "## Bijlage 1" in result
+
+    def test_bijlage_roman(self):
+        from tools.etl.transformers.promote_wettekst_section_labels import promote_wettekst_section_labels
+        body = "Slot.\n\nBijlage II\n\nInhoud\n"
+        result, _ = promote_wettekst_section_labels(body, {})
+        assert "## Bijlage II" in result
+
+    def test_bijlage_n1_norm_style(self):
+        from tools.etl.transformers.promote_wettekst_section_labels import promote_wettekst_section_labels
+        body = "Slot.\n\nBijlage N1\n\nForfaitaire tabel\n"
+        result, _ = promote_wettekst_section_labels(body, {})
+        assert "## Bijlage N1" in result
+
+    def test_inline_not_promoted(self):
+        from tools.etl.transformers.promote_wettekst_section_labels import promote_wettekst_section_labels
+        body = "Zie Bijlage 1 voor details.\n"
+        result, _ = promote_wettekst_section_labels(body, {})
+        assert result == body
+
+    def test_not_paragraph_isolated(self):
+        from tools.etl.transformers.promote_wettekst_section_labels import promote_wettekst_section_labels
+        body = "Inhoud.\nBijlage 1\nDirect erop volgend.\n"
+        result, _ = promote_wettekst_section_labels(body, {})
+        # Geen blank-lines rondom → niet promoveren
+        assert "## Bijlage" not in result
+
+    def test_idempotent(self):
+        from tools.etl.transformers.promote_wettekst_section_labels import promote_wettekst_section_labels
+        body = "X.\n\nEnig artikel\n\nY.\n"
+        once, _ = promote_wettekst_section_labels(body, {})
+        twice, _ = promote_wettekst_section_labels(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "promote_wettekst_section_labels" in TRANSFORMERS

@@ -35,6 +35,7 @@ from tools.etl.transformers.strip_empty_trailing_headings import strip_empty_tra
 from tools.etl.transformers.merge_article_reference_wraps import merge_article_reference_wraps
 from tools.etl.transformers.strip_mb_compilatie_cover import strip_mb_compilatie_cover
 from tools.etl.transformers.fix_pdftotext_glue_bugs import fix_pdftotext_glue_bugs
+from tools.etl.transformers.promote_wettekst_section_labels import promote_wettekst_section_labels
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
@@ -62,6 +63,7 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "merge_article_reference_wraps": merge_article_reference_wraps,
     "strip_mb_compilatie_cover": strip_mb_compilatie_cover,
     "fix_pdftotext_glue_bugs": fix_pdftotext_glue_bugs,
+    "promote_wettekst_section_labels": promote_wettekst_section_labels,
 }
 
 

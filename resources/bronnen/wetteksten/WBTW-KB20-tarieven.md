@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 04e910e-dirty
+    pipeline_version: 4126295-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:16:44Z'
+  generated_at: '2026-05-13T11:20:58Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:17:04Z'
+    confirmed_at: '2026-05-13T11:21:09Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Grootste bron in batch (108k chars) met meerdere structuurproblemen die de ETL moet oplossen. Layer1 vlagt al max_section_size (>24k). Tabel A/B/C-rubrieken (Romeinse cijfers I.–XL.) staan als plain text in plaats van als sub-headings, waardoor één enorme sectie ontstaat. TOC-fragmenten met dotted leaders ('Goederen aan 6 pct. ......... II/1') zijn niet opgeschoond. Structuurlabels 'TABEL A', 'TABEL B', 'TABEL C', 'GOEDEREN', 'DIENSTEN', 'BIJLAGE', 'Tijdelijke bepalingen', 'Eerste afdeling' staan als plain text zonder ##-prefix. Recap-blok aan het einde dupliceert de rubriekenlijst en lijkt op TOC-residu."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:17:04Z'
+      run_at: '2026-05-13T11:21:09Z'
       rationale: "Grootste bron in batch (108k chars) met meerdere structuurproblemen die de ETL moet oplossen. Layer1 vlagt al max_section_size (>24k). Tabel A/B/C-rubrieken (Romeinse cijfers I.–XL.) staan als plain text in plaats van als sub-headings, waardoor één enorme sectie ontstaat. TOC-fragmenten met dotted leaders ('Goederen aan 6 pct. ......... II/1') zijn niet opgeschoond. Structuurlabels 'TABEL A', 'TABEL B', 'TABEL C', 'GOEDEREN', 'DIENSTEN', 'BIJLAGE', 'Tijdelijke bepalingen', 'Eerste afdeling' staan als plain text zonder ##-prefix. Recap-blok aan het einde dupliceert de rubriekenlijst en lijkt op TOC-residu."
       concrete_problemen:
         - "Dotted-leader TOC-residu op regel 158: 'Goederen aan 6 pct. ......... II/1 Diensten aan 6 pct. ......... III/1'"
@@ -151,7 +151,7 @@ Dit besluit treedt in werking op dezelfde datum als de wet van 3 juli 1969 tot i
 
 Onze Minister van Financiën is belast met de uitvoering van dit besluit.
 
-BIJLAGE
+## Bijlage
 
 Tabel A – Goederen en diensten onderworpen aan het tarief van 6 pct.
 Goederen aan 6 pct. ......................................................................................... II/1 Diensten aan 6 pct. .......................................................................................... III/1
