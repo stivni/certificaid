@@ -321,7 +321,7 @@ sources:
     titel: Wet betalingsachterstand handelstransacties
     status: volledig
     extract:
-      method: custom_wetboek
+      method: pdftotext_ejustice
   Wet-arbeidsovereenkomsten-1978:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/Wet-arbeidsovereenkomsten-1978.pdf
