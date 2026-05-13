@@ -408,10 +408,10 @@
         "1.2",
         "1.3"
       ],
-      "trust_status": "rejected",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": "default",
       "layer1_status": null,
-      "layer2_status": "rejected"
+      "layer2_status": null
     },
     {
       "bestand": "KB-WIB92.md",
@@ -1734,10 +1734,10 @@
         "XIII",
         "1.4"
       ],
-      "trust_status": "rejected",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "trusted",
+      "trust_confirmed_by": "human",
       "layer1_status": null,
-      "layer2_status": "rejected"
+      "layer2_status": null
     },
     {
       "bestand": "WER.md",

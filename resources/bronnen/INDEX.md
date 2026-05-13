@@ -8,21 +8,19 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 133 | 114 | 1 | 11 | 7 | — |
+| Wetteksten | 133 | 115 | 2 | 11 | 5 | — |
 | Normen | 19 | 4 | — | 14 | 1 | — |
 | Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **588** | 540 | 1 | 39 | 8 | — |
+| **Totaal** | **588** | 541 | 2 | 39 | 6 | — |
 
 ## Wetteksten (133)
 
 | Bestand | Trust | L1 | L2 | Confirmed-by | Titel |
 |---|---|---|---|---|---|
 | `BW-boek1-algemene-bepalingen.md` | ❌ rejected | — | rejected | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 1 — Algemene bepalingen |
-| `KB-21-10-2018.md` | ❌ rejected | — | rejected | subagent-sonnet-4-6 | Koninklijk besluit van 21 oktober 2018 houdende de boekhoudkundige verplichtingen van o… |
 | `MAR-vzw.md` | ❌ rejected | — | rejected | subagent-sonnet-4-6 | Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW) |
 | `WBTW-KB22jun2020-e-notariaat.md` | ❌ rejected | — | rejected | subagent-sonnet-4-6 | K.B. 22 juni 2020 tot uitvoering van art. 93ter WBTW, art. 412bis en 433–435 WIB92 en a… |
 | `WBTW-MB28okt2009-model-berichten-93ter.md` | ❌ rejected | — | rejected | subagent-sonnet-4-6 | M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen al… |
-| `WER-Boek-VIII-normalisatie.md` | ❌ rejected | — | rejected | subagent-sonnet-4-6 | WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen) |
 | `Wet-betalingsachterstand-2002.md` | ❌ rejected | — | rejected | subagent-sonnet-4-6 | Wet 2 augustus 2002 betreffende de bestrijding van de betalingsachterstand bij handelst… |
 | `Almanak-BTW-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Almanak BTW 2026 — ITAA / Larcier-Intersentia |
 | `Almanak-VenB-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Almanak Vennootschapsbelasting 2026 — ITAA / Larcier-Intersentia |
@@ -36,6 +34,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WBTW-KB41-proportionele-geldboeten.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele f… |
 | `WBTW-KB44-geldboeten.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 44 van 9 juli 2012, tot vaststelling van het bedrag van de niet-proportionele … |
 | `EU-Richtlijn-witwassen-2018-1673.md` | ◻️ unreviewed | — | — | default | Richtlijn (EU) 2018/1673 van het Europees Parlement en de Raad van 23 oktober 2018 inza… |
+| `KB-21-10-2018.md` | ◻️ unreviewed | — | — | default | Koninklijk besluit van 21 oktober 2018 houdende de boekhoudkundige verplichtingen van o… |
 | `aangifte-PB-2025-bezoldigingen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-bezoldigingen |
 | `aangifte-PB-2025-stopzetting.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | aangifte-PB-2025-stopzetting |
 | `Antiwitwaswet-2017.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van … |
@@ -140,6 +139,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WBTW-MB6-uitstel-invoer.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | M.B. nr. 6 van 4 maart 1993, waarbij uitstel wordt verleend voor de voldoening van de t… |
 | `WBTW.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 3 juli 1969 tot invoering van het Wetboek van de belasting over de toegevoegde waar… |
 | `WDRT.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek Diverse Rechten en Taksen |
+| `WER-Boek-VIII-normalisatie.md` | ✅ trusted | — | — | human | WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen) |
 | `WER.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wetboek van Economisch Recht |
 | `Wet-arbeidsovereenkomsten-1978.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 3 juli 1978 betreffende de arbeidsovereenkomsten |
 | `Wet-beroepskwalificaties-2008.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Wet 12 februari 2008 tot instelling van een nieuw algemeen kader voor de erkenning van … |

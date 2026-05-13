@@ -24,10 +24,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T14:01:36Z'
+    confirmed_by: human
+    rationale: Extractor-fix met page_start/page_end + column_filter:fr levert WER Boek VIII content correct geëxtraheerd (BOEK I definities + BOEK VIII Art. VIII.3-VIII.56). L2 approved.
     layer1:
     layer2:
 ---

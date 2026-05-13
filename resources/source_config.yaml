@@ -1152,11 +1152,15 @@ sources:
     wet: "Koninklijk besluit van 21 oktober 2018 houdende de boekhoudkundige verplichtingen van ondernemers"
     nl_col_x: 0
     cleanup: [remove_toc_ejustice, remove_french_blocks, remove_inline_metadata, ensure_article_headings]
-    status: toc_only
+    status: volledig
     extract:
       method: pymupdf_wetboek
       params:
-        bilingual: true
+        force_columns: 2
+        column_filter: nl
+        # PDF is BS-dump 30.10.2018 (388 pages) — KB 21-10-2018 zit op pp. 42-46.
+        page_start: 42
+        page_end: 46
         nl_col_x: 0
   BW-boek1-algemene-bepalingen:
     bron_rol: itaa_lex
