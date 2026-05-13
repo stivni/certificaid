@@ -24,22 +24,21 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T13:29:53Z'
+    status: trusted
+    confirmed_at: '2026-05-13T13:31:22Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "De sticky-mode strip_inline_footnote_block fix was niet relevant voor dit bestand — het hoofdprobleem (TOC-blok niet gestript) blijft volledig onveranderd. Regels 55-69 bevatten nog steeds het TOC-blok: '## AFDELING 1. Betalingen op de rekeningen van btw-ontvangsten' (regel 55-56) met daaronder '### Onderafdeling 1.' t/m '### Onderafdeling 4.' met artikel-ranges ('Art. 1 - 8', 'Art. 9 - 13', 'Art. 13bis') en spurious linebreaks midden in de headings ('Inning en\\nInvordering' regel 61-62; 'Mini One Stop Shop\\n- VAT BE' regel 64-65). Regel 69 bevat de Franstalige leak 'Disposition temporaire Art. 13ter'. Regels 71-80 dupliceren Afdeling 1 + Onderafdeling 1 als full sections direct na het TOC-blok (Afdeling 1 verschijnt op regel 55 EN 71; Onderafdeling 1 op 58 EN 78). Plus smart-quote mismatch op regels 65/67 (opent met \" sluit met ”). Dit blijft retrieval-schadelijk: zoekers naar 'Onderafdeling 1 BTW-Ontvangsten' krijgen twee chunks waarvan één leeg (alleen heading + artikel-range), wat het signaal verdunt."
+    rationale: "Het TOC-duplicatie-probleem is volledig opgelost: regels 55-69 (oud TOC-blok met '## AFDELING 1' + '### Onderafdeling 1-4' met enkel artikel-ranges) zijn gestript. De echte sectie-headings staan nu op hun juiste plaats (Afdeling 1 op r57, Afdeling 2 op r223, Afdeling 3 op r242, Afdeling 4 op r258, Afdeling 5 op r277) met de bijbehorende content en wijzigingshistoriek. Onderafdelingen 1-4 staan op hun juiste plek binnen Afdeling 1, gevolgd door hun artikelen. De spurious linebreaks midden in headings ('Inning en\\nInvordering', 'Mini One Stop Shop\\n- VAT BE') zijn verdwenen. Geen duplicaten meer. Alle 24 artikelen (Art. 1 t/m Art. 24, plus Art. 13bis en Art. 13ter) aanwezig met juiste structuur. Het resterende fragment 'Disposition temporaire Art. 13ter' op regel 55 is een Franstalig leak-fragment van 36 karakters — valt binnen de uitzondering (cosmetisch <50 chars, geen retrieval-impact omdat het geen valide heading is en als losstaande zin embedt). Resterende issues zijn puur cosmetisch (smart-quote-stijl-inconsistentie op r198/236/238, dubbele spatie op r259) en hebben geen impact op retrieval-kwaliteit of inhoudelijke betrouwbaarheid."
     layer1:
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:29:53Z'
-      rationale: "De sticky-mode strip_inline_footnote_block fix was niet relevant voor dit bestand — het hoofdprobleem (TOC-blok niet gestript) blijft volledig onveranderd. Regels 55-69 bevatten nog steeds het TOC-blok: '## AFDELING 1. Betalingen op de rekeningen van btw-ontvangsten' (regel 55-56) met daaronder '### Onderafdeling 1.' t/m '### Onderafdeling 4.' met artikel-ranges ('Art. 1 - 8', 'Art. 9 - 13', 'Art. 13bis') en spurious linebreaks midden in de headings ('Inning en\\nInvordering' regel 61-62; 'Mini One Stop Shop\\n- VAT BE' regel 64-65). Regel 69 bevat de Franstalige leak 'Disposition temporaire Art. 13ter'. Regels 71-80 dupliceren Afdeling 1 + Onderafdeling 1 als full sections direct na het TOC-blok (Afdeling 1 verschijnt op regel 55 EN 71; Onderafdeling 1 op 58 EN 78). Plus smart-quote mismatch op regels 65/67 (opent met \" sluit met ”). Dit blijft retrieval-schadelijk: zoekers naar 'Onderafdeling 1 BTW-Ontvangsten' krijgen twee chunks waarvan één leeg (alleen heading + artikel-range), wat het signaal verdunt."
+      run_at: '2026-05-13T13:31:22Z'
+      rationale: "Het TOC-duplicatie-probleem is volledig opgelost: regels 55-69 (oud TOC-blok met '## AFDELING 1' + '### Onderafdeling 1-4' met enkel artikel-ranges) zijn gestript. De echte sectie-headings staan nu op hun juiste plaats (Afdeling 1 op r57, Afdeling 2 op r223, Afdeling 3 op r242, Afdeling 4 op r258, Afdeling 5 op r277) met de bijbehorende content en wijzigingshistoriek. Onderafdelingen 1-4 staan op hun juiste plek binnen Afdeling 1, gevolgd door hun artikelen. De spurious linebreaks midden in headings ('Inning en\\nInvordering', 'Mini One Stop Shop\\n- VAT BE') zijn verdwenen. Geen duplicaten meer. Alle 24 artikelen (Art. 1 t/m Art. 24, plus Art. 13bis en Art. 13ter) aanwezig met juiste structuur. Het resterende fragment 'Disposition temporaire Art. 13ter' op regel 55 is een Franstalig leak-fragment van 36 karakters — valt binnen de uitzondering (cosmetisch <50 chars, geen retrieval-impact omdat het geen valide heading is en als losstaande zin embedt). Resterende issues zijn puur cosmetisch (smart-quote-stijl-inconsistentie op r198/236/238, dubbele spatie op r259) en hebben geen impact op retrieval-kwaliteit of inhoudelijke betrouwbaarheid."
       concrete_problemen:
-        - 'Regels 55-69: TOC-blok niet gestript — Afdeling 1 + Onderafdelingen 1–4 staan als headings met enkel artikel-ranges, geen content'
-        - "Regels 61-62, 64-65: spurious linebreaks midden in Onderafdeling-headings ('Inning en\\nInvordering'; 'Mini One Stop Shop\\n- VAT BE')"
-        - "Regel 69: 'Disposition temporaire Art. 13ter' — Franstalig fragment midden in Nederlandstalige content (compilatie-bleed)"
-        - 'Regels 71-80: duplicatie van Afdeling 1 + Onderafdeling 1 als full sections direct na het TOC-blok'
-        - "Regels 65/67: smart-quote inconsistentie (opent met \", sluit met ” in 'Mini One Stop Shop - VAT BE')"
+        - "Regel 55: 'Disposition temporaire Art. 13ter' — Franstalig leak-fragment (36 chars, cosmetisch — valt binnen uitzondering)"
+        - "Regel 198: smart-quote inconsistentie 'Mini One Stop Shop - VAT BE”' (opent met \", sluit met ”) — cosmetisch"
+        - "Regels 236/238: gebruik van ″ (double prime) i.p.v. reguliere quotes voor 'contant betaald' en 'uitstel van betaling' — cosmetisch"
+        - "Regel 259: leidende spatie na '## AFDELING 4' header — cosmetisch"
 ---
 
 # K.B. nr. 24 van 29 december 1992, met betrekking tot de voldoening van de belasting over de toegevoegde waarde
