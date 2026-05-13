@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:15Z'
+    confirmed_at: '2026-05-13T15:23:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 pass: 72 headings, max sectie 7781 chars. #### Art.-headings correct, GEWESTELIJKE varianten correct als Art. 10_WAALS_GEWEST. Inhoud volledig.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:15Z'
+      run_at: '2026-05-13T15:23:19Z'
       rationale: 'L1 pass: 72 headings, max sectie 7781 chars. #### Art.-headings correct, GEWESTELIJKE varianten correct als Art. 10_WAALS_GEWEST. Inhoud volledig.'
       concrete_problemen: []
 ---

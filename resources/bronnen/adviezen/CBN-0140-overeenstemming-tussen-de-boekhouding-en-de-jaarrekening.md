@@ -30,7 +30,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:31Z'
+    confirmed_at: '2026-05-13T15:23:34Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Korte advies-tekst (3388 chars), één sectie, geen headings nodig. Alle 4 voetnoten correct gedefinieerd en gerefereerd. Geen PDF-artefacten, geen structuurfouten.
     layer1:
@@ -44,7 +44,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:31Z'
+      run_at: '2026-05-13T15:23:34Z'
       rationale: Korte advies-tekst (3388 chars), één sectie, geen headings nodig. Alle 4 voetnoten correct gedefinieerd en gerefereerd. Geen PDF-artefacten, geen structuurfouten.
       concrete_problemen: []
 ---

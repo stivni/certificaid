@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7b2b73e-dirty
+    pipeline_version: 4eaec39e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:58:49Z'
+  generated_at: '2026-05-13T15:18:58Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:35Z'
+    confirmed_at: '2026-05-13T15:23:38Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Drie schone ## Art.-headings, correct opheffings-blok en intacte tekst. Geen artefacten.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:35Z'
+      run_at: '2026-05-13T15:23:38Z'
       rationale: 'Drie schone ## Art.-headings, correct opheffings-blok en intacte tekst. Geen artefacten.'
       concrete_problemen: []
 ---

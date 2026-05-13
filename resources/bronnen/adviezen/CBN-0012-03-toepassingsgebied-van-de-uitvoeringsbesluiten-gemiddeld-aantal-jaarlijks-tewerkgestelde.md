@@ -27,7 +27,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:22Z'
+    confirmed_at: '2026-05-13T15:23:26Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel staat slechts eenmaal (r52). De lichte '[^1] ,[^2]' spatie-voor-komma (r56) is een marginale opmaakafwijking die geen inhoudelijke of structurele impact heeft. Geen verdere artefacten: body volledig, drie voetnoten correct geformateerd, logische opbouw."
     layer1:
@@ -41,7 +41,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:22Z'
+      run_at: '2026-05-13T15:23:26Z'
       rationale: "B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel staat slechts eenmaal (r52). De lichte '[^1] ,[^2]' spatie-voor-komma (r56) is een marginale opmaakafwijking die geen inhoudelijke of structurele impact heeft. Geen verdere artefacten: body volledig, drie voetnoten correct geformateerd, logische opbouw."
       concrete_problemen:
         - regel: 56

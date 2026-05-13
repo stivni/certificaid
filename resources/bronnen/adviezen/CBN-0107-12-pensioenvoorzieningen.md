@@ -30,7 +30,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:25Z'
+    confirmed_at: '2026-05-13T15:23:29Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "De enige eerder gerapporteerde issue (A5: en-dash '–' in H1-heading) is een source-karakter: analyse van het corpus toont dat 145 CBN-adviezen dezelfde '–' separator gebruiken in de H1-heading — dit is het dominante patroon van de CBN-website, geen ETL-inconsistentie. Body-tekst is volledig clean, inhoud compleet, voetnoot [^1] correct."
     layer1:
@@ -44,7 +44,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:25Z'
+      run_at: '2026-05-13T15:23:29Z'
       rationale: "De enige eerder gerapporteerde issue (A5: en-dash '–' in H1-heading) is een source-karakter: analyse van het corpus toont dat 145 CBN-adviezen dezelfde '–' separator gebruiken in de H1-heading — dit is het dominante patroon van de CBN-website, geen ETL-inconsistentie. Body-tekst is volledig clean, inhoud compleet, voetnoot [^1] correct."
       concrete_problemen:
         - regel: 51

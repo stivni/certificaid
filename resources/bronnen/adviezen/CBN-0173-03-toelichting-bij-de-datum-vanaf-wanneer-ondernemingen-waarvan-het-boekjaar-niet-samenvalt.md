@@ -40,7 +40,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:32Z'
+    confirmed_at: '2026-05-13T15:23:35Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Zeer kort advies (1045 chars) met één alinea + voetnoot. Heading_count: 0 — correct want geen substructuur. Inhoud volledig, geen artefacten. Zou voor mens-geschreven doorgaan.'
     layer1:
@@ -54,7 +54,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:32Z'
+      run_at: '2026-05-13T15:23:35Z'
       rationale: 'Zeer kort advies (1045 chars) met één alinea + voetnoot. Heading_count: 0 — correct want geen substructuur. Inhoud volledig, geen artefacten. Zou voor mens-geschreven doorgaan.'
       concrete_problemen: []
 ---

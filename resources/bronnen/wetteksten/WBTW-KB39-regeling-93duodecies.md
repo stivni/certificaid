@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:36Z'
+    confirmed_at: '2026-05-13T15:23:39Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "De nieuwe sticky-mode strip_inline_footnote_block heeft het probleem opgelost: de orphan opsommingsitems '1°', '5°', '6°' die layer1 als footnote-residu signaleerde tussen Art. 3 eerste lid en het echte vervolg zijn nu volledig gestript. Art. 3 (regels 70-74) leest nu als drie samenhangende paragrafen: eerste lid over één-attest-principe, tweede lid over uitreikingsdatum (max één maand voor aanvraag), derde lid over nieuw attest na zes maanden. De false-positive '## Art. 139:' heading uit eerdere ronde is ook al weg. Structuur Art. 1–7 met inwerkingtreding-annotaties is correct. Opheffing per 01.01.2020 (regel 53-55) is correct gedocumenteerde wettelijke status — geen kwaliteitsprobleem maar historische context."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:36Z'
+      run_at: '2026-05-13T15:23:39Z'
       rationale: "De nieuwe sticky-mode strip_inline_footnote_block heeft het probleem opgelost: de orphan opsommingsitems '1°', '5°', '6°' die layer1 als footnote-residu signaleerde tussen Art. 3 eerste lid en het echte vervolg zijn nu volledig gestript. Art. 3 (regels 70-74) leest nu als drie samenhangende paragrafen: eerste lid over één-attest-principe, tweede lid over uitreikingsdatum (max één maand voor aanvraag), derde lid over nieuw attest na zes maanden. De false-positive '## Art. 139:' heading uit eerdere ronde is ook al weg. Structuur Art. 1–7 met inwerkingtreding-annotaties is correct. Opheffing per 01.01.2020 (regel 53-55) is correct gedocumenteerde wettelijke status — geen kwaliteitsprobleem maar historische context."
       concrete_problemen:
         - KB opgeheven per 01.01.2020 (regel 53-55) — historische bron, retrieval-impact afhankelijk van examen-scope (geen tekstkwaliteitsfout)

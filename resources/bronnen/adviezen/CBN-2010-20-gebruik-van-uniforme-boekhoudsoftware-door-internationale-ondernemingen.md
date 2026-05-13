@@ -44,7 +44,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:32Z'
+    confirmed_at: '2026-05-13T15:23:35Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Vijf headings correct hiërarchisch. Voetnoten 1–15 volledig. Geen inhoudsopgave als plain text in body, geen malformed italic, geen extractie-artefacten zichtbaar. Langere secties (max 11034 chars) lopen vloeiend door zonder spurious breaks.
     layer1:
@@ -58,7 +58,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:32Z'
+      run_at: '2026-05-13T15:23:35Z'
       rationale: Vijf headings correct hiërarchisch. Voetnoten 1–15 volledig. Geen inhoudsopgave als plain text in body, geen malformed italic, geen extractie-artefacten zichtbaar. Langere secties (max 11034 chars) lopen vloeiend door zonder spurious breaks.
       concrete_problemen: []
 ---

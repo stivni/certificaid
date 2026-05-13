@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:20Z'
+    confirmed_at: '2026-05-13T15:23:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Geen TOC-fragmenten, geen 'Bron: FINANCIEN' footer, geen Fisconet-artefacten. 62 artikelheadings in correcte hiërarchie (###/####). Wijzigingshistorie in (1)<KB...> stijl consistent aanwezig. Volledig document van KB nr. 1."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:20Z'
+      run_at: '2026-05-13T15:23:24Z'
       rationale: "Geen TOC-fragmenten, geen 'Bron: FINANCIEN' footer, geen Fisconet-artefacten. 62 artikelheadings in correcte hiërarchie (###/####). Wijzigingshistorie in (1)<KB...> stijl consistent aanwezig. Volledig document van KB nr. 1."
       concrete_problemen: []
 ---

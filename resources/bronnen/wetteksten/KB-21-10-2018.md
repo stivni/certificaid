@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T14:14:18Z'
+    confirmed_at: '2026-05-13T15:24:49Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Laag-2 trusted door subagent-sonnet-4-6
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T14:14:18Z'
+      run_at: '2026-05-13T15:24:49Z'
       rationale:
       concrete_problemen: []
 ---

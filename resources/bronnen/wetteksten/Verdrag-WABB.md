@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:15Z'
+    confirmed_at: '2026-05-13T15:23:18Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 pass: 32 headings, max sectie 4826 chars. Internationaal verdrag, headings als ## Art. correct. Bijlagen als plain-text opsommingen zijn bron-stijl. Inhoud volledig inclusief bijlagen A/B/C.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:15Z'
+      run_at: '2026-05-13T15:23:18Z'
       rationale: 'L1 pass: 32 headings, max sectie 4826 chars. Internationaal verdrag, headings als ## Art. correct. Bijlagen als plain-text opsommingen zijn bron-stijl. Inhoud volledig inclusief bijlagen A/B/C.'
       concrete_problemen: []
 ---

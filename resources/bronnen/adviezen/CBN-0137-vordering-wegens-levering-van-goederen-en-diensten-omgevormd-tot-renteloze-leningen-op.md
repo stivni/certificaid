@@ -45,7 +45,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:21Z'
+    confirmed_at: '2026-05-13T15:23:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Inhoudelijk volledig advies zonder ETL-artefacten. Heading 'Advies van december 1998' terwijl de frontmatter datum '1988-12-23' toont — dit is een inconsistentie die ook in de bron-HTML aanwezig zal zijn (source-typo) en telt niet als needs-rework. Beide voetnoten correct als [^1] en [^2] geformatteerd. Geen A-G problemen.
     layer1:
@@ -59,7 +59,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:21Z'
+      run_at: '2026-05-13T15:23:24Z'
       rationale: Inhoudelijk volledig advies zonder ETL-artefacten. Heading 'Advies van december 1998' terwijl de frontmatter datum '1988-12-23' toont — dit is een inconsistentie die ook in de bron-HTML aanwezig zal zijn (source-typo) en telt niet als needs-rework. Beide voetnoten correct als [^1] en [^2] geformatteerd. Geen A-G problemen.
       concrete_problemen:
         - regel: 64

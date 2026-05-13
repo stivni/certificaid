@@ -35,7 +35,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:23Z'
+    confirmed_at: '2026-05-13T15:23:27Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: '5 headings correct aanwezig (##, ###). Structuur volledig: Autonoom uitgegeven warrants → kosteloos + onder bezwarende titel, Uitgegeven warrants verbonden aan aandelen, Converteerbare obligaties. Inhoud compleet. Geen ETL-artefacten zichtbaar.'
     layer1:
@@ -49,7 +49,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:23Z'
+      run_at: '2026-05-13T15:23:27Z'
       rationale: '5 headings correct aanwezig (##, ###). Structuur volledig: Autonoom uitgegeven warrants → kosteloos + onder bezwarende titel, Uitgegeven warrants verbonden aan aandelen, Converteerbare obligaties. Inhoud compleet. Geen ETL-artefacten zichtbaar.'
       concrete_problemen: []
 ---

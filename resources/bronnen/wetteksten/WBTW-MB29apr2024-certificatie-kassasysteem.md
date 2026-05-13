@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7b2b73e-dirty
+    pipeline_version: 4eaec39e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:58:49Z'
+  generated_at: '2026-05-13T15:18:58Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:36Z'
+    confirmed_at: '2026-05-13T15:24:15Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "De twee vorige blokkers zijn opgelost of vallen onder de bilingue-PDF source-uitzondering. (1) De TITEL II-heading op regel 128 is door merge_wrapped_headings correct samengevoegd tot één regel: '## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN GEREGISTREERD KASSASYSTEEM'. (2) De btw-codes-tabel (regels 203-216) toont nog steeds bilingue NL/FR-kolom-bleed (BTW-CODE/CODE TVA, BTW-TARIEF/TAUX, OMSCHRIJVING/DESCRIPTION, met 5 codes A-D + X tweetalig naast elkaar) — dit is een source-extractie-issue van de bilingue Fisconet-PDF en valt onder de expliciet door de gebruiker meegegeven uitzondering. De rest van het bestand is consistent gestructureerd: frontmatter compleet met provenance/trust-blok, TITEL I-V correct als ## headings, HOOFDSTUK 1-3 als ### headings, Afdeling 1-5 als #### headings, Onderafdeling 1-9 als ##### headings, en alle artikelen 1 t/m 132 als ###### Art. N met optionele cursieve titel. Footers/running headers afwezig. Inhoudelijk loopt het document logisch door zonder gebroken zinnen of verloren slashes."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:36Z'
+      run_at: '2026-05-13T15:24:15Z'
       rationale: "De twee vorige blokkers zijn opgelost of vallen onder de bilingue-PDF source-uitzondering. (1) De TITEL II-heading op regel 128 is door merge_wrapped_headings correct samengevoegd tot één regel: '## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN GEREGISTREERD KASSASYSTEEM'. (2) De btw-codes-tabel (regels 203-216) toont nog steeds bilingue NL/FR-kolom-bleed (BTW-CODE/CODE TVA, BTW-TARIEF/TAUX, OMSCHRIJVING/DESCRIPTION, met 5 codes A-D + X tweetalig naast elkaar) — dit is een source-extractie-issue van de bilingue Fisconet-PDF en valt onder de expliciet door de gebruiker meegegeven uitzondering. De rest van het bestand is consistent gestructureerd: frontmatter compleet met provenance/trust-blok, TITEL I-V correct als ## headings, HOOFDSTUK 1-3 als ### headings, Afdeling 1-5 als #### headings, Onderafdeling 1-9 als ##### headings, en alle artikelen 1 t/m 132 als ###### Art. N met optionele cursieve titel. Footers/running headers afwezig. Inhoudelijk loopt het document logisch door zonder gebroken zinnen of verloren slashes."
       concrete_problemen:
         - 'Regels 203-216: btw-codes-tabel toont bilingue NL/FR-kolom-bleed uit source-PDF — bekende source-uitzondering, niet ETL-bug, kan eventueel een (source) markering krijgen in de markdown'

@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:36Z'
+    confirmed_at: '2026-05-13T15:23:39Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "De recente ETL-fixes lossen de hoofdproblemen uit de vorige QA-ronde op. De integrale opgeheven 2009-versie onder kop 'Bijlage' (vroeger regels 227-326) is volledig verwijderd — het bestand eindigt nu correct op Art. 17 (regel 220). De Fisconet page-headers ('KB50-Bijlage pg. Bijl./1...') zijn weg. De TOC-duplicatie van Hoofdstuk 1/2/3 is opgelost door strip_leading_toc_heading_block. Er resteert enkel een minor: woord-concat-bugs ('btweenheid' regel 148; 'BTWidentificatienummer' op meerdere plaatsen; 'BTWeenheid' regel 301) en lichte kapitalisatie-inconsistentie ('Hoofdstuk 1' vs 'HOOFDSTUK 2'/'HOOFDSTUK 3'). Deze zijn source-typo's die geen retrieval-blocker zijn — markeren als (source) is voldoende. Klaar voor RAG-index."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:36Z'
+      run_at: '2026-05-13T15:23:39Z'
       rationale: "De recente ETL-fixes lossen de hoofdproblemen uit de vorige QA-ronde op. De integrale opgeheven 2009-versie onder kop 'Bijlage' (vroeger regels 227-326) is volledig verwijderd — het bestand eindigt nu correct op Art. 17 (regel 220). De Fisconet page-headers ('KB50-Bijlage pg. Bijl./1...') zijn weg. De TOC-duplicatie van Hoofdstuk 1/2/3 is opgelost door strip_leading_toc_heading_block. Er resteert enkel een minor: woord-concat-bugs ('btweenheid' regel 148; 'BTWidentificatienummer' op meerdere plaatsen; 'BTWeenheid' regel 301) en lichte kapitalisatie-inconsistentie ('Hoofdstuk 1' vs 'HOOFDSTUK 2'/'HOOFDSTUK 3'). Deze zijn source-typo's die geen retrieval-blocker zijn — markeren als (source) is voldoende. Klaar voor RAG-index."
       concrete_problemen:
         - "Word-concat-bugs blijven: 'btweenheid' (regel 148), 'BTWidentificatienummer', 'BTWeenheid' — source-typo, classificeren als (source)"

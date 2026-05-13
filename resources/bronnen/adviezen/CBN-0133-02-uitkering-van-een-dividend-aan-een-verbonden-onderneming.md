@@ -41,7 +41,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:28Z'
+    confirmed_at: '2026-05-13T15:23:32Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Kort advies (1288 chars), twee alinea's. Geen detecteerbare artefacten van welke categorie dan ook. Italic-spans afwezig (geen rekening-namen gecursiveerd). Frontmatter klopt. Laag 1 pass zonder flags.
     layer1:
@@ -55,7 +55,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:28Z'
+      run_at: '2026-05-13T15:23:32Z'
       rationale: Kort advies (1288 chars), twee alinea's. Geen detecteerbare artefacten van welke categorie dan ook. Italic-spans afwezig (geen rekening-namen gecursiveerd). Frontmatter klopt. Laag 1 pass zonder flags.
       concrete_problemen: []
 ---

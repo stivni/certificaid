@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:20Z'
+    confirmed_at: '2026-05-13T15:23:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen EUR-Lex markers. Kleine PDF-kolom-splits (afgekapte woorden met koppelteken zoals 'Gemeen- schap', 'beursgenoteerde onderne- mingen') zijn inherent aan de bron-PDF-opmaak en worden consistent door de gehele tekst heen aangehouden — dit is een source-eigenschap, geen ETL-fout. Alle 11 artikelen aanwezig.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:20Z'
+      run_at: '2026-05-13T15:23:24Z'
       rationale: Geen EUR-Lex markers. Kleine PDF-kolom-splits (afgekapte woorden met koppelteken zoals 'Gemeen- schap', 'beursgenoteerde onderne- mingen') zijn inherent aan de bron-PDF-opmaak en worden consistent door de gehele tekst heen aangehouden — dit is een source-eigenschap, geen ETL-fout. Alle 11 artikelen aanwezig.
       concrete_problemen:
         - regel: 53

@@ -38,7 +38,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:27Z'
+    confirmed_at: '2026-05-13T15:23:31Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Laag 1 meldt heading_count=0 en file_size_chars=1298: het advies is inhoudelijk een enkelvoudige paragraaf zonder secties, wat overeenkomt met het originele CBN-advies (één antwoord, geen onderverdelingen). Geen extractie-artefacten, geen broken formatting, footnotes ontbreken terecht. Volledig en afgerond.'
     layer1:
@@ -52,7 +52,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:27Z'
+      run_at: '2026-05-13T15:23:31Z'
       rationale: 'Laag 1 meldt heading_count=0 en file_size_chars=1298: het advies is inhoudelijk een enkelvoudige paragraaf zonder secties, wat overeenkomt met het originele CBN-advies (één antwoord, geen onderverdelingen). Geen extractie-artefacten, geen broken formatting, footnotes ontbreken terecht. Volledig en afgerond.'
       concrete_problemen: []
 ---

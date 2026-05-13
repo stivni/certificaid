@@ -26,7 +26,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:33Z'
+    confirmed_at: '2026-05-13T15:23:36Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Vorig verdict (needs-rework A3) was fout: regel 89 is een echte ## heading 'CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting...' — een afzonderlijk advies dat als sectie in de body staat, niet een duplicate TOC-blob. Document is volledig schoon: 6 correcte headings, alle voetnoten [^1]–[^12] aanwezig en gedefinieerd, geen form-feeds, geen onzichtbare unicode, geen column-bleed."
     layer1:
@@ -40,7 +40,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:33Z'
+      run_at: '2026-05-13T15:23:36Z'
       rationale: "Vorig verdict (needs-rework A3) was fout: regel 89 is een echte ## heading 'CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting...' — een afzonderlijk advies dat als sectie in de body staat, niet een duplicate TOC-blob. Document is volledig schoon: 6 correcte headings, alle voetnoten [^1]–[^12] aanwezig en gedefinieerd, geen form-feeds, geen onzichtbare unicode, geen column-bleed."
       concrete_problemen: []
 ---

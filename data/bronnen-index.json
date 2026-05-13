@@ -1,5 +1,5 @@
 {
-  "n_bronnen": 587,
+  "n_bronnen": 585,
   "bronnen": [
     {
       "bestand": "AVG-wet-2018.md",
@@ -129,8 +129,8 @@
         "XI",
         "3.1"
       ],
-      "trust_status": "rejected",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "trust_status": "trusted",
+      "trust_confirmed_by": "human",
       "layer1_status": null,
       "layer2_status": "rejected"
     },
@@ -989,21 +989,6 @@
       "layer2_status": "trusted"
     },
     {
-      "bestand": "WBTW-KB22jun2020-e-notariaat.md",
-      "bron_rol": "wettekst",
-      "stem": "WBTW-KB22jun2020-e-notariaat",
-      "titel": "K.B. 22 juni 2020 tot uitvoering van art. 93ter WBTW, art. 412bis en 433–435 WIB92 en art. 35–37, 43–45 en 47 Wetboek Invordering inzake het e-notariaat",
-      "korte_naam": "WBTW KB22jun2020 e notariaat",
-      "tags": [
-        "VI.B",
-        "2.4"
-      ],
-      "trust_status": "rejected",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": null,
-      "layer2_status": "rejected"
-    },
-    {
       "bestand": "WBTW-KB23-jaarlijkse-lijst.md",
       "bron_rol": "wettekst",
       "stem": "WBTW-KB23-jaarlijkse-lijst",
@@ -1632,21 +1617,6 @@
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": null,
       "layer2_status": "trusted"
-    },
-    {
-      "bestand": "WBTW-MB28okt2009-model-berichten-93ter.md",
-      "bron_rol": "wettekst",
-      "stem": "WBTW-MB28okt2009-model-berichten-93ter",
-      "titel": "M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992",
-      "korte_naam": "WBTW MB28okt2009 model berichten 93ter",
-      "tags": [
-        "VI.C",
-        "2.4"
-      ],
-      "trust_status": "rejected",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": null,
-      "layer2_status": "rejected"
     },
     {
       "bestand": "WBTW-MB29apr2024-certificatie-kassasysteem.md",

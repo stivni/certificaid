@@ -8,19 +8,16 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 132 | 117 | — | 11 | 4 | — |
+| Wetteksten | 130 | 118 | — | 11 | 1 | — |
 | Normen | 19 | 4 | — | 14 | 1 | — |
 | Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **587** | 543 | — | 39 | 5 | — |
+| **Totaal** | **585** | 544 | — | 39 | 2 | — |
 
-## Wetteksten (132)
+## Wetteksten (130)
 
 | Bestand | Trust | L1 | L2 | Confirmed-by | Titel |
 |---|---|---|---|---|---|
-| `BW-boek1-algemene-bepalingen.md` | ❌ rejected | — | rejected | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 1 — Algemene bepalingen |
 | `MAR-vzw.md` | ❌ rejected | — | rejected | subagent-sonnet-4-6 | Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW) |
-| `WBTW-KB22jun2020-e-notariaat.md` | ❌ rejected | — | rejected | subagent-sonnet-4-6 | K.B. 22 juni 2020 tot uitvoering van art. 93ter WBTW, art. 412bis en 433–435 WIB92 en a… |
-| `WBTW-MB28okt2009-model-berichten-93ter.md` | ❌ rejected | — | rejected | subagent-sonnet-4-6 | M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen al… |
 | `Almanak-BTW-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Almanak BTW 2026 — ITAA / Larcier-Intersentia |
 | `Almanak-VenB-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Almanak Vennootschapsbelasting 2026 — ITAA / Larcier-Intersentia |
 | `Belastingalmanak-2026.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Belastingalmanak 2026 — ITAA / Larcier-Intersentia |
@@ -41,6 +38,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `BTW-richtlijn-2006-112.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belast… |
 | `BTW-teruggaaf-richtlijn-2008-9.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Richtlijn 2008/9/EG van de Raad tot vaststelling van nadere voorschriften voor de in Ri… |
 | `BTW-uitvoeringsverordening-282-2011.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Uitvoeringsverordening (EU) nr. 282/2011 van de Raad houdende maatregelen ter uitvoerin… |
+| `BW-boek1-algemene-bepalingen.md` | ✅ trusted | — | rejected | human | Burgerlijk Wetboek — Boek 1 — Algemene bepalingen |
 | `BW-boek2-relatievermogensrecht.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 2 — Relatievermogensrecht |
 | `BW-boek3-goederen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 3 — Goederen |
 | `BW-boek4-nalatenschappen.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | Burgerlijk Wetboek — Boek 4 — Nalatenschappen, schenkingen en testamenten |

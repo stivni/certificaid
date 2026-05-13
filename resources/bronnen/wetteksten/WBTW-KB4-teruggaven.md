@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:36Z'
+    confirmed_at: '2026-05-13T15:23:39Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "ETL-fix fix_pdf_slash_loss_in_article_headings heeft de hoofdkritiek opgelost: '## Art. 81', '## Art. 82', '## Art. 83' zijn nu correct '## Art. 8/1' (regel 132), '## Art. 8/2' (regel 205), '## Art. 8/3' (regel 214) — slash hersteld via amendment-blok-referenties. Ook 'btwtarief' is nu correct 'btw-tarief' op regel 151. De Art. 8/1-paragrafen lezen schoon zonder mid-zin breuk. Enige resterende afwijking is 'artikel. 9' met overbodige punt op regel 236 in het amendment-blok — dit is bron-typo (Fisconet) en irrelevant voor RAG-retrieval omdat het in het amendment-metablok staat. Structuur 16 artikelen + 8/1-8/3 leest als coherente wettekst."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:36Z'
+      run_at: '2026-05-13T15:23:39Z'
       rationale: "ETL-fix fix_pdf_slash_loss_in_article_headings heeft de hoofdkritiek opgelost: '## Art. 81', '## Art. 82', '## Art. 83' zijn nu correct '## Art. 8/1' (regel 132), '## Art. 8/2' (regel 205), '## Art. 8/3' (regel 214) — slash hersteld via amendment-blok-referenties. Ook 'btwtarief' is nu correct 'btw-tarief' op regel 151. De Art. 8/1-paragrafen lezen schoon zonder mid-zin breuk. Enige resterende afwijking is 'artikel. 9' met overbodige punt op regel 236 in het amendment-blok — dit is bron-typo (Fisconet) en irrelevant voor RAG-retrieval omdat het in het amendment-metablok staat. Structuur 16 artikelen + 8/1-8/3 leest als coherente wettekst."
       concrete_problemen:
         - "Regel 236: 'KB nr. 4, artikel. 9, § 3' — overbodige punt na 'artikel' in amendment-blok (waarschijnlijk source-typo)"

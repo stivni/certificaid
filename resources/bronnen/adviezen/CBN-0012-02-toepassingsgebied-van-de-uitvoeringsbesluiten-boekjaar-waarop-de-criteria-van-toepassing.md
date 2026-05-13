@@ -37,7 +37,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:21Z'
+    confirmed_at: '2026-05-13T15:23:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Alle door vorige verdict gemelde tekstfouten (inzae, ter uitvering, cjfers, interpretate) zijn source-typos uit de bron-HTML. De twee aparte alinea's voor de verouderd-notitie (r72-74) weerspiegelen de CBN-website-structuur — geen ETL-artefact. A4-status onbevestigd maar geen ETL-wijziging relevant. Inhoud volledig aanwezig.
     layer1:
@@ -51,7 +51,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:21Z'
+      run_at: '2026-05-13T15:23:24Z'
       rationale: Alle door vorige verdict gemelde tekstfouten (inzae, ter uitvering, cjfers, interpretate) zijn source-typos uit de bron-HTML. De twee aparte alinea's voor de verouderd-notitie (r72-74) weerspiegelen de CBN-website-structuur — geen ETL-artefact. A4-status onbevestigd maar geen ETL-wijziging relevant. Inhoud volledig aanwezig.
       concrete_problemen:
         - regel: 76

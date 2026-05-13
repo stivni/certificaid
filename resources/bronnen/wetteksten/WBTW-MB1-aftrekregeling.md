@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7b2b73e-dirty
+    pipeline_version: 4eaec39e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:58:48Z'
+  generated_at: '2026-05-13T15:18:57Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:35Z'
+    confirmed_at: '2026-05-13T15:23:38Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "strip_mb_compilatie_cover heeft alle eerder gevlagde pollutie verwijderd: de 85-regel cover ('BELASTING OVER DE TOEGEVOEGDE WAARDE', 'Federale Overheidsdienst FINANCIEN'), de complete TOC met PDF-bullet-glyphs ' * ' en de 'Bijw. XX/datum' kolom-bleed zijn weg. De resterende file is een schone MB-1 wettekst (Art. 1-3) met heldere headings. fix_pdftotext_glue_bugs heeft tegelijk de body verbeterd. Body/content-ratio is nu volledig content. Een buitenstaander zou dit als mens-geschreven herkennen."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:35Z'
+      run_at: '2026-05-13T15:23:38Z'
       rationale: "strip_mb_compilatie_cover heeft alle eerder gevlagde pollutie verwijderd: de 85-regel cover ('BELASTING OVER DE TOEGEVOEGDE WAARDE', 'Federale Overheidsdienst FINANCIEN'), de complete TOC met PDF-bullet-glyphs ' * ' en de 'Bijw. XX/datum' kolom-bleed zijn weg. De resterende file is een schone MB-1 wettekst (Art. 1-3) met heldere headings. fix_pdftotext_glue_bugs heeft tegelijk de body verbeterd. Body/content-ratio is nu volledig content. Een buitenstaander zou dit als mens-geschreven herkennen."
       concrete_problemen:
         - Regel 50 bevat een afgekapte zinsfragment '2°, 53ter, 1°, 53quinquies en 53sexies van het Wetboek...' vóór de eerste Art.-heading — restje uit de oude pre-tekst maar nu klein en marginaal

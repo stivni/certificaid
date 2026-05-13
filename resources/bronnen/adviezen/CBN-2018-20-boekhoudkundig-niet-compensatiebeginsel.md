@@ -26,7 +26,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:27Z'
+    confirmed_at: '2026-05-13T15:23:31Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, vier ## headings correct aanwezig, alle 12 voetnoten volledig en verankerd. Geen tabellen. Inhoud compleet.'
     layer1:
@@ -40,7 +40,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:27Z'
+      run_at: '2026-05-13T15:23:31Z'
       rationale: 'Geen significante artefacten gevonden. Tekst is vloeiend leesbaar, vier ## headings correct aanwezig, alle 12 voetnoten volledig en verankerd. Geen tabellen. Inhoud compleet.'
       concrete_problemen: []
 ---

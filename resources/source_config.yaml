@@ -496,21 +496,8 @@ sources:
     status: volledig
     extract:
       method: custom_wetboek
-  WBTW-KB22jun2020-e-notariaat:
-    bron_rol: itaa_lex
-    raw: resources/raw/wetteksten/btw-kbs/WBTW-KB22jun2020-e-notariaat.pdf
-    mode: nl
-    output: resources/bronnen/wetteksten/WBTW-KB22jun2020-e-notariaat.md
-    content: content/bronnen/wetteksten/VIB-wbtw-kb22jun2020.md
-    itaa_sectie: "VI.B"
-    tags: ["VI.B", "2.4"]
-    bijgewerkt: "2020"
-    wet: K.B. 22 juni 2020 tot uitvoering van art. 93ter WBTW, art. 412bis en 433–435 WIB92 en art. 35–37, 43–45 en 47 
-      Wetboek Invordering inzake het e-notariaat
-    titel: BTW KB 22/06/2020 — E-notariaat
-    status: volledig
-    extract:
-      method: custom_wetboek
+  # WBTW-KB22jun2020-e-notariaat verwijderd: KB is opgeheven per 10-03-2025
+  # (zie <KB 2025-01-31/18, art. 15, 002; Inwerkingtreding : 10-03-2025>).
   WBTW-KBs:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/btw-kbs/WBTW-KB-compilatie.pdf
@@ -892,14 +879,8 @@ sources:
         tags: ["VI.C", "2.4"]
         itaa_sectie: "VI.C"
         bijgewerkt: "26.02.2007"
-      - kb_id: "28.10.2009"
-        output: resources/bronnen/wetteksten/WBTW-MB28okt2009-model-berichten-93ter.md
-        wet: M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen als bedoeld in de
-          artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen
-          433 en 435 van het Wetboek van de inkomstenbelastingen 1992
-        tags: ["VI.C", "2.4"]
-        itaa_sectie: "VI.C"
-        bijgewerkt: "28.10.2009"
+      # MB28okt2009 verwijderd: opgeheven sinds 06.07.2020 + bijlagen zijn
+      # images in source-PDF (niet extraheerbaar zonder OCR).
       - kb_id: "16.07.2019"
         output: resources/bronnen/wetteksten/WBTW-MB16jul2019-beroepscommissie.md
         wet: M.B. van 16 juli 2019, tot aanduiding van de ambtenaren die in de functie van adviseur-generaal zitting
@@ -1156,7 +1137,7 @@ sources:
     cleanup: [remove_french_lines, ensure_article_headings]
     status: volledig
     extract:
-      method: pymupdf_wetboek
+      method: pdftotext_ejustice
   BW-boek2-relatievermogensrecht:
     bron_rol: itaa_lex
     raw: resources/raw/wetteksten/BW-boek2-relatievermogensrecht.pdf

@@ -58,12 +58,19 @@ class SplitConfig:
             gebruikt als sleutel in de output-dict, niet om naar te schrijven.
         wet: volledige wetnaam (info-veld voor de caller).
         extra_metadata: vrije bag voor extra frontmatter-info bij de caller.
+        skip: wanneer True, slaat de splitter deze split over. Bedoeld voor
+            KBs/MBs waarvan een betere individuele bron beschikbaar is (bv.
+            JUSTEL-PDF) waardoor de compilatie-versie geskipt moet worden
+            zodat we geen dubbele wetteksten in de RAG-index krijgen.
+        skip_reason: optionele toelichting waarom deze split skip is.
     """
 
     kb_id: str
     output: str
     wet: str
     extra_metadata: dict = field(default_factory=dict)
+    skip: bool = False
+    skip_reason: str = ""
 
 
 def detect_compilatie_boundaries(

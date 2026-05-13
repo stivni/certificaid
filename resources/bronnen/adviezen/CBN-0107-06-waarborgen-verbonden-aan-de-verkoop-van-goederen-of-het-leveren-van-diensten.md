@@ -38,7 +38,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:28Z'
+    confirmed_at: '2026-05-13T15:23:32Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Laag-1 pass (3060 chars). Geen extractie-artefacten: prose vloeit door zonder gebroken regels, geen HTML-entities, geen unicode-problemen. Italic correct op *Voorzieningen* en *Besteding van voorzieningen* (regel 69). Inhoud volledig en goed gestructureerd als lopende tekst.'
     layer1:
@@ -52,7 +52,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:28Z'
+      run_at: '2026-05-13T15:23:32Z'
       rationale: 'Laag-1 pass (3060 chars). Geen extractie-artefacten: prose vloeit door zonder gebroken regels, geen HTML-entities, geen unicode-problemen. Italic correct op *Voorzieningen* en *Besteding van voorzieningen* (regel 69). Inhoud volledig en goed gestructureerd als lopende tekst.'
       concrete_problemen: []
 ---

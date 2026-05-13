@@ -31,7 +31,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:32Z'
+    confirmed_at: '2026-05-13T15:23:35Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen significante artefacten. Drie situaties (koper-rekening, verkoper-rekening, notaris-rekening) helder als ### headings. Alle boekingstabellen in markdown pipe-syntax. Lege Debet/Credit cellen in de ordererekenings-tabellen zijn intentioneel (bedragen zijn situatie-afhankelijk). Voetnoten 1-34 aanwezig. Inhoud compleet.'
     layer1:
@@ -45,7 +45,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:32Z'
+      run_at: '2026-05-13T15:23:35Z'
       rationale: 'Geen significante artefacten. Drie situaties (koper-rekening, verkoper-rekening, notaris-rekening) helder als ### headings. Alle boekingstabellen in markdown pipe-syntax. Lege Debet/Credit cellen in de ordererekenings-tabellen zijn intentioneel (bedragen zijn situatie-afhankelijk). Voetnoten 1-34 aanwezig. Inhoud compleet.'
       concrete_problemen: []
 ---

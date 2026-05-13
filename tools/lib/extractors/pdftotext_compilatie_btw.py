@@ -268,6 +268,8 @@ def _build_splits(cfg: dict) -> list[SplitConfig]:
                 extra[k] = s[k]
         splits.append(SplitConfig(
             kb_id=kb_id, output=output, wet=wet, extra_metadata=extra,
+            skip=bool(s.get("skip", False)),
+            skip_reason=str(s.get("skip_reason", "")),
         ))
     return splits
 
@@ -313,7 +315,18 @@ def extract_compilatie(cfg: dict, source_name: str) -> dict[str, str]:
     # `_clean_body` schrapt ze achteraf per split.
     text = _pdftotext_layout(str(raw_path))
     raw_splits = split_btw_compilatie(text, splits, kind=kind)
-    return {out: _clean_body(body) if body else "" for out, body in raw_splits.items()}
+    # Skip-filter: splits met skip=True worden niet in output meegenomen.
+    # Bedoeld voor KBs waarvan een betere individuele bron beschikbaar is —
+    # voorkomt dubbele wetteksten in de RAG-index.
+    skipped_outputs = {s.output for s in splits if s.skip}
+    if skipped_outputs:
+        for out in skipped_outputs:
+            print(f"  → Skip compilatie-split: {out}")
+    return {
+        out: _clean_body(body) if body else ""
+        for out, body in raw_splits.items()
+        if out not in skipped_outputs
+    }
 
 
 # Alias voor consistente naming met andere extractors.

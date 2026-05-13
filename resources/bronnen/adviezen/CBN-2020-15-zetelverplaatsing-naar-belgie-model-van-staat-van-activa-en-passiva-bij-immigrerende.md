@@ -34,7 +34,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:32Z'
+    confirmed_at: '2026-05-13T15:23:35Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Kort advies (3923 tekens, 2 headings) maar inhoudelijk compleet voor zijn doel: een standpuntbepaling over een specifieke vraag van de NBB. Geen PDF-artefacten. Voetnoten [^1]-[^2] correct opgemaakt. Wettelijke citaten correct ingesprongen.'
     layer1:
@@ -48,7 +48,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:32Z'
+      run_at: '2026-05-13T15:23:35Z'
       rationale: 'Kort advies (3923 tekens, 2 headings) maar inhoudelijk compleet voor zijn doel: een standpuntbepaling over een specifieke vraag van de NBB. Geen PDF-artefacten. Voetnoten [^1]-[^2] correct opgemaakt. Wettelijke citaten correct ingesprongen.'
       concrete_problemen: []
 ---

@@ -25,15 +25,15 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:45:36Z'
+    confirmed_at: '2026-05-13T15:23:38Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 9 art met wijzigingsblokken. Tekst is volledig, lijstmarkers consistent. Spelling 'accijnsprodukten' is source-original (oude spelling) — onder '(source)'-uitzondering OK. Geen footers, geen TOC, geen scrambled volgorde.
+    rationale: Reeds eerder trusted bevonden, ongewijzigd. 9 artikelen met wijzigingsblokken, tekst volledig, lijstmarkers consistent. Oude spelling 'accijnsprodukten' is source-original.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:45:36Z'
-      rationale: 9 art met wijzigingsblokken. Tekst is volledig, lijstmarkers consistent. Spelling 'accijnsprodukten' is source-original (oude spelling) — onder '(source)'-uitzondering OK. Geen footers, geen TOC, geen scrambled volgorde.
+      run_at: '2026-05-13T15:23:38Z'
+      rationale: Reeds eerder trusted bevonden, ongewijzigd. 9 artikelen met wijzigingsblokken, tekst volledig, lijstmarkers consistent. Oude spelling 'accijnsprodukten' is source-original.
       concrete_problemen:
         - Oude spelling 'accijnsprodukten' (source-original, geen ETL-fout)
 ---

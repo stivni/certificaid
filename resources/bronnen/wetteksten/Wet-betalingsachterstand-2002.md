@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T14:09:08Z'
+    confirmed_at: '2026-05-13T15:24:16Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Switch van custom_wetboek naar pdftotext_ejustice levert een schone, volledige NL-tekst op. Heading-hierarchie is correct en consistent: H1 voor de wet-titel, H2 voor de vier HOOFDSTUKKEN (I. Algemene bepalingen, II. Betalingsachterstand bij handelstransacties, III. Vordering tot staking, IV. Slotbepalingen), H3 voor alle 15 artikelen (Art. 1 t/m Art. 15, inclusief Art. 3/1 met opheffingsnotitie). De typische ejustice-coordinatie-markers ([1 ... ]1, [2 ... ]2, etc.) zijn correct bewaard en de bijbehorende wijzigings-voetnoten staan onder elk artikel binnen een '----------'-blok met W/KB-referenties + inwerkingtredingsdatum. Geen tweetalige leak, geen running headers, geen TOC-duplicaten. Frontmatter is correct (itaa-lex-sectie XIV, bron_rol itaa_lex, provenance met pdf-sha256). Inhoudelijke kerntermen (referentie-interestvoet, forfaitaire 40 euro vergoeding, 30/60 kalenderdagen, beroepsregulerende overheid) staan op de juiste plaats en zijn integraal aanwezig."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T14:09:08Z'
+      run_at: '2026-05-13T15:24:16Z'
       rationale: "Switch van custom_wetboek naar pdftotext_ejustice levert een schone, volledige NL-tekst op. Heading-hierarchie is correct en consistent: H1 voor de wet-titel, H2 voor de vier HOOFDSTUKKEN (I. Algemene bepalingen, II. Betalingsachterstand bij handelstransacties, III. Vordering tot staking, IV. Slotbepalingen), H3 voor alle 15 artikelen (Art. 1 t/m Art. 15, inclusief Art. 3/1 met opheffingsnotitie). De typische ejustice-coordinatie-markers ([1 ... ]1, [2 ... ]2, etc.) zijn correct bewaard en de bijbehorende wijzigings-voetnoten staan onder elk artikel binnen een '----------'-blok met W/KB-referenties + inwerkingtredingsdatum. Geen tweetalige leak, geen running headers, geen TOC-duplicaten. Frontmatter is correct (itaa-lex-sectie XIV, bron_rol itaa_lex, provenance met pdf-sha256). Inhoudelijke kerntermen (referentie-interestvoet, forfaitaire 40 euro vergoeding, 30/60 kalenderdagen, beroepsregulerende overheid) staan op de juiste plaats en zijn integraal aanwezig."
       concrete_problemen:
         - "Frontmatter: 'bron: ejustice.just.fgov.be (gecoordineerde versie)' is correct maar generiek - kon eventueel een fisconet-/ejustice-stable-link bevatten (cosmetisch, geen retrieval-impact)"
