@@ -42,7 +42,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:05:23Z'
+    confirmed_at: '2026-05-13T13:08:18Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen significante artefacten gevonden. De heading-hiërarchie is correct en consistent over een lang en complex advies. Alle wetsartikelen zijn volledig geciteerd. Pipe-tabellen voor balansoverzichten zijn correct opgemaakt. Voetnoten compleet.
     layer1:
@@ -56,7 +56,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:05:23Z'
+      run_at: '2026-05-13T13:08:18Z'
       rationale: Geen significante artefacten gevonden. De heading-hiërarchie is correct en consistent over een lang en complex advies. Alle wetsartikelen zijn volledig geciteerd. Pipe-tabellen voor balansoverzichten zijn correct opgemaakt. Voetnoten compleet.
       concrete_problemen: []
 ---

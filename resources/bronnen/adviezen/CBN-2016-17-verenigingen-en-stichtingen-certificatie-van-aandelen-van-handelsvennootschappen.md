@@ -41,7 +41,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:05:23Z'
+    confirmed_at: '2026-05-13T13:08:17Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Alle categorieën schoon. Drie niveaus headings (##, ###) correct gebruikt; 14 voetnoten volledig gedefinieerd; geen extractie-artefacten, geen gebroken opmaak. De en-dash in de titel is consistent en intentioneel.'
     layer1:
@@ -55,7 +55,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:05:23Z'
+      run_at: '2026-05-13T13:08:17Z'
       rationale: 'Alle categorieën schoon. Drie niveaus headings (##, ###) correct gebruikt; 14 voetnoten volledig gedefinieerd; geen extractie-artefacten, geen gebroken opmaak. De en-dash in de titel is consistent en intentioneel.'
       concrete_problemen: []
 ---

@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d1d6417-dirty
+    pipeline_version: e62521a
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:04:44Z'
+  generated_at: '2026-05-13T13:07:12Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T13:05:30Z'
+    confirmed_at: '2026-05-13T13:08:27Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Footnote-bleed in Art. 3 (regels 74-78) niet opgelost door huidige ETL-fixes. De inhoudelijke tekst van Art. 138 (1°, 5°, 6° opsommingen) en Art. 139 (van een andere wet — vermoedelijk W 13.04.2019) staat als pseudo-content middenin Art. 3. Regel 78 toont '## Art. 139: De Koning kan...' wat een echte heading-anker krijgt — schadelijk voor RAG omdat het lijkt op een artikel van KB nr. 39 zelf, maar het is footnote-residu uit een andere wet. Pas op regel 80 begint het echte Art. 3-vervolg ('Er moet evenwel een nieuw attest...'). Plus: dit KB is sinds 01.01.2020 opgeheven (regel 53). Bij twijfel → needs-rework."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:05:30Z'
+      run_at: '2026-05-13T13:08:27Z'
       rationale: "Footnote-bleed in Art. 3 (regels 74-78) niet opgelost door huidige ETL-fixes. De inhoudelijke tekst van Art. 138 (1°, 5°, 6° opsommingen) en Art. 139 (van een andere wet — vermoedelijk W 13.04.2019) staat als pseudo-content middenin Art. 3. Regel 78 toont '## Art. 139: De Koning kan...' wat een echte heading-anker krijgt — schadelijk voor RAG omdat het lijkt op een artikel van KB nr. 39 zelf, maar het is footnote-residu uit een andere wet. Pas op regel 80 begint het echte Art. 3-vervolg ('Er moet evenwel een nieuw attest...'). Plus: dit KB is sinds 01.01.2020 opgeheven (regel 53). Bij twijfel → needs-rework."
       concrete_problemen:
         - 'Regels 74-78: footnote-bleed van W 13.04.2019 Art. 138/139 wordt tussen Art. 3-tekst gerenderd'

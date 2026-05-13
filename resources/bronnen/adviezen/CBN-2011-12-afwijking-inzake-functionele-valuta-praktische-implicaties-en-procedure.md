@@ -51,7 +51,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:05:20Z'
+    confirmed_at: '2026-05-13T13:08:16Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r70-72 TOC) is niet bevestigd: de body bevat geen plain-text inhoudsopgave; de vier ## headings (Inleiding, Omrekening..., Afwijkingsaanvragen..., Aanvragen tot verlenging...) volgen direct zonder tussenliggend TOC-blok. Voetnoten 1-9 zijn volledig gedefinieerd en gerefereerd. Geen tabellen, geen OCR-problemen, geen broken markup.'
     layer1:
@@ -65,7 +65,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:05:20Z'
+      run_at: '2026-05-13T13:08:16Z'
       rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r70-72 TOC) is niet bevestigd: de body bevat geen plain-text inhoudsopgave; de vier ## headings (Inleiding, Omrekening..., Afwijkingsaanvragen..., Aanvragen tot verlenging...) volgen direct zonder tussenliggend TOC-blok. Voetnoten 1-9 zijn volledig gedefinieerd en gerefereerd. Geen tabellen, geen OCR-problemen, geen broken markup.'
       concrete_problemen: []
 ---

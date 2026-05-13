@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d1d6417-dirty
+    pipeline_version: e62521a
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:04:44Z'
+  generated_at: '2026-05-13T13:07:12Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T13:05:30Z'
+    confirmed_at: '2026-05-13T13:08:28Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Hoofdprobleem blijft volledig onaangetast door de recente ETL-fixes: de integrale opgeheven 2009-versie van KB nr. 50 staat onder kop 'Bijlage' (regels 227-326) als losse content alsof het een wettelijke bijlage is — in werkelijkheid betreft het de voorgangerversie die door de hoofdtekst werd vervangen. Onderaan staan Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334) zonder enige opmaak. TOC-blok regels 53-58 dupliceert de Hoofdstuk-headings die er meteen onder volgen. Word-concat-bugs ('btweenheid', 'BTWidentificatienummer', 'BTWeenheid') op meerdere plaatsen tonen dat fix_pdftotext_glue_bugs hier niet alle varianten dekt. Een van-nul-schrijver zou nooit een opgeheven voorgangerversie als 'Bijlage' opnemen."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:05:30Z'
+      run_at: '2026-05-13T13:08:28Z'
       rationale: "Hoofdprobleem blijft volledig onaangetast door de recente ETL-fixes: de integrale opgeheven 2009-versie van KB nr. 50 staat onder kop 'Bijlage' (regels 227-326) als losse content alsof het een wettelijke bijlage is — in werkelijkheid betreft het de voorgangerversie die door de hoofdtekst werd vervangen. Onderaan staan Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334) zonder enige opmaak. TOC-blok regels 53-58 dupliceert de Hoofdstuk-headings die er meteen onder volgen. Word-concat-bugs ('btweenheid', 'BTWidentificatienummer', 'BTWeenheid') op meerdere plaatsen tonen dat fix_pdftotext_glue_bugs hier niet alle varianten dekt. Een van-nul-schrijver zou nooit een opgeheven voorgangerversie als 'Bijlage' opnemen."
       concrete_problemen:
         - "Regels 227-326: integrale opgenomen 2009-KB-50 onder kop 'Bijlage' — geen wettelijke bijlage, maar de opgeheven voorgangerversie"
@@ -50,11 +50,6 @@ Koninklijk besluit nr. 50, van 11 december 2019 met betrekking tot de btw-opgave
 
 Dit Koninklijk besluit vervangt het Koninklijk besluit nr. 50, van 9 december 2009, met betrekking tot de BTW-opgave van de intracommunautaire handelingen.
 
-## Hoofdstuk 1. Deel 1 van de opgave met betrekking tot de intracommunautaire leveringen en diensten
-
-## Hoofdstuk 2. Deel 2 van de opgave met betrekking tot de intracommunautaire handelingen
-
-## Hoofdstuk 3. Slotbepalingen
 Bijlage: Btw-opgave van de intracommunautaire handelingen
 
 ## Hoofdstuk 1

@@ -28,7 +28,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:05:23Z'
+    confirmed_at: '2026-05-13T13:08:18Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen artefacten gevonden. Tekst is vloeiend, headings correct, voetnoten volledig aanwezig en verankerd. De enige boekhoudkundige tabel is correct in markdown pipe-syntax. Inhoud compleet en niet afgesneden.
     layer1:
@@ -42,7 +42,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:05:23Z'
+      run_at: '2026-05-13T13:08:18Z'
       rationale: Geen artefacten gevonden. Tekst is vloeiend, headings correct, voetnoten volledig aanwezig en verankerd. De enige boekhoudkundige tabel is correct in markdown pipe-syntax. Inhoud compleet en niet afgesneden.
       concrete_problemen: []
 ---

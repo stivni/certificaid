@@ -33,7 +33,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:05:15Z'
+    confirmed_at: '2026-05-13T13:08:14Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Korte maar volledige proza-tekst (6967 chars, één sectie). Geen headings nodig voor dit formaat — het advies is één aaneengesloten redenering. Geen A- of B-categorie-artefacten gevonden: geen spurious line-breaks, geen onzichtbare unicode, geen OCR-fouten, geen afgekapte zinnen. Inhoud sluit logisch af met de conclusie over artikel 43 KB W.Venn.'
     layer1:
@@ -47,7 +47,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:05:15Z'
+      run_at: '2026-05-13T13:08:14Z'
       rationale: 'Korte maar volledige proza-tekst (6967 chars, één sectie). Geen headings nodig voor dit formaat — het advies is één aaneengesloten redenering. Geen A- of B-categorie-artefacten gevonden: geen spurious line-breaks, geen onzichtbare unicode, geen OCR-fouten, geen afgekapte zinnen. Inhoud sluit logisch af met de conclusie over artikel 43 KB W.Venn.'
       concrete_problemen: []
 ---

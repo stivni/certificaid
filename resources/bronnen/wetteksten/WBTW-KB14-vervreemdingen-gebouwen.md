@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d1d6417-dirty
+    pipeline_version: e62521a
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:04:43Z'
+  generated_at: '2026-05-13T13:07:11Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:05:29Z'
+    confirmed_at: '2026-05-13T13:08:26Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Schone wettekst: 7 Art.-headings consistent, body intact, genummerde lijsten 1°/2°/... correct. Eén spurious linebreak (regel 74-75 'artikel 9,\\n§ 2,') maar minor en in wettelijke referentie. Acceptable."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:05:29Z'
+      run_at: '2026-05-13T13:08:26Z'
       rationale: "Schone wettekst: 7 Art.-headings consistent, body intact, genummerde lijsten 1°/2°/... correct. Eén spurious linebreak (regel 74-75 'artikel 9,\\n§ 2,') maar minor en in wettelijke referentie. Acceptable."
       concrete_problemen:
         - regel: 74

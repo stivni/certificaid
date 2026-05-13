@@ -42,7 +42,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:05:27Z'
+    confirmed_at: '2026-05-13T13:08:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Drie ## headings correct. Voetnoten 1–7 volledig. Geen inhoudsopgave als plain text, geen extractie-artefacten. Inhoud beknopt maar compleet voor dit advies.'
     layer1:
@@ -56,7 +56,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:05:27Z'
+      run_at: '2026-05-13T13:08:24Z'
       rationale: 'Drie ## headings correct. Voetnoten 1–7 volledig. Geen inhoudsopgave als plain text, geen extractie-artefacten. Inhoud beknopt maar compleet voor dit advies.'
       concrete_problemen: []
 ---

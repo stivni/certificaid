@@ -98,8 +98,29 @@ def strip_leading_toc_heading_block(body: str, frontmatter: dict) -> tuple[str, 
         # Non-heading non-blank → einde TOC-block
         break
 
-    if heading_count < 15:
+    # Tolerantie:
+    # - ≥15 headings: altijd strippen (AVG-wet 290 TOC-headings)
+    # - 3-14 headings: alleen strippen als ALLE headings hetzelfde level hebben
+    #   EN er een echte duplicaat van de eerste heading-titel volgt later in body.
+    if heading_count < 3:
         return body, frontmatter
+    if heading_count < 15:
+        # Verifieer dat alle headings hetzelfde level hebben (TOC-style)
+        heading_lines = [lines[k] for k in range(toc_start, toc_end) if _HEADING_RE.match(lines[k])]
+        if not heading_lines:
+            return body, frontmatter
+        first_prefix = heading_lines[0].split()[0]  # bv. '##'
+        if not all(h.split()[0] == first_prefix for h in heading_lines):
+            return body, frontmatter
+        # En een duplicaat (zelfde prefix + nummer) bestaat later in body
+        rest = "\n".join(lines[toc_end:])
+        # Match eerste heading-label (bv. 'Hoofdstuk 1' uit '## Hoofdstuk 1. Title')
+        m_first = re.match(r"^#{1,6}\s+(\S+\s+\S+)", heading_lines[0])
+        if not m_first:
+            return body, frontmatter
+        label = m_first.group(1).rstrip(".")
+        if not re.search(rf"^#{{1,6}}\s+{re.escape(label)}\b", rest, re.M):
+            return body, frontmatter
 
     # Strip [toc_start..toc_end). Behoud blanks rondom voor leesbaarheid.
     new_lines = lines[:toc_start] + [""] + lines[toc_end:]

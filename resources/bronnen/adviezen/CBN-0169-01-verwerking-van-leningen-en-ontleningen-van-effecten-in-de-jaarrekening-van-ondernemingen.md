@@ -33,7 +33,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:05:14Z'
+    confirmed_at: '2026-05-13T13:08:13Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Structuur en tabellen zijn overwegend correct voor dit omvangrijke advies (47k chars, 44 headings). De drie gevonden tekstuele afwijkingen zijn source-typo's: 'effectenverordening' (2x) en 'mogeljkheid' zijn schrijffouten die al in de gepubliceerde HTML-brontekst staan; '16.13.199n' is eveneens een typefout in het originele document. Geen ETL-artefacten (A-G) gevonden die reparatie vereisen."
     layer1:
@@ -47,7 +47,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:05:14Z'
+      run_at: '2026-05-13T13:08:13Z'
       rationale: "Structuur en tabellen zijn overwegend correct voor dit omvangrijke advies (47k chars, 44 headings). De drie gevonden tekstuele afwijkingen zijn source-typo's: 'effectenverordening' (2x) en 'mogeljkheid' zijn schrijffouten die al in de gepubliceerde HTML-brontekst staan; '16.13.199n' is eveneens een typefout in het originele document. Geen ETL-artefacten (A-G) gevonden die reparatie vereisen."
       concrete_problemen:
         - regel: 237

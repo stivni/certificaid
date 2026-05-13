@@ -37,7 +37,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:05:28Z'
+    confirmed_at: '2026-05-13T13:08:26Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Inhoud volledig en structureel correct. 6 headings, alle tabellen in pipe-syntax, voetnoten [^1]-[^17] aanwezig. Op regel 179 staat 'Overdragen resultaat' (ontbreekt 'd' achteraan) — dit is een source-typo in de originele CBN-tekst, geen ETL-bug. Geen verdere artefacten.
     layer1:
@@ -51,7 +51,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:05:28Z'
+      run_at: '2026-05-13T13:08:26Z'
       rationale: Inhoud volledig en structureel correct. 6 headings, alle tabellen in pipe-syntax, voetnoten [^1]-[^17] aanwezig. Op regel 179 staat 'Overdragen resultaat' (ontbreekt 'd' achteraan) — dit is een source-typo in de originele CBN-tekst, geen ETL-bug. Geen verdere artefacten.
       concrete_problemen:
         - regel: 179

@@ -25,7 +25,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:05:25Z'
+    confirmed_at: '2026-05-13T13:08:22Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen artefacten. Bestand bevat één coherente alinea-advies (1 858 chars) zonder headings — logisch voor een kort CBN-advies uit 1977. Frontmatter klopt, geen unicode-issues, geen HTML-entities.
     layer1:
@@ -39,7 +39,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:05:25Z'
+      run_at: '2026-05-13T13:08:22Z'
       rationale: Geen artefacten. Bestand bevat één coherente alinea-advies (1 858 chars) zonder headings — logisch voor een kort CBN-advies uit 1977. Frontmatter klopt, geen unicode-issues, geen HTML-entities.
       concrete_problemen: []
 ---

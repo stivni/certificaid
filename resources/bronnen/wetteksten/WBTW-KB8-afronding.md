@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d1d6417-dirty
+    pipeline_version: e62521a
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:04:43Z'
+  generated_at: '2026-05-13T13:07:11Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:05:31Z'
+    confirmed_at: '2026-05-13T13:08:28Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Compact (4 art). Heldere H1 + ## Art. structuur. Lijstmarkers 1°-3° (met '2° ...' als bewust schrappingsmarker in Art. 2) consistent. Geen footers, geen TOC, geen leftover-appendix."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:05:31Z'
+      run_at: '2026-05-13T13:08:28Z'
       rationale: "Compact (4 art). Heldere H1 + ## Art. structuur. Lijstmarkers 1°-3° (met '2° ...' als bewust schrappingsmarker in Art. 2) consistent. Geen footers, geen TOC, geen leftover-appendix."
       concrete_problemen: []
 ---

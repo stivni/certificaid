@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:05:14Z'
+    confirmed_at: '2026-05-13T13:08:13Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Geen EUR-Lex markers, geen TOC-fragmenten, geen PB-kopteksten. 84 artikelheadings goed gestructureerd. Structuurlabels (ONDERWERP, TOEPASSINGSGEBIED, BELASTINGPLICHTIGEN) als plain-text tussenkopjes zijn inherent aan de EUR-bron en zijn niet storend voor RAG. Inhoud volledig en leesbaar.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:05:14Z'
+      run_at: '2026-05-13T13:08:13Z'
       rationale: Geen EUR-Lex markers, geen TOC-fragmenten, geen PB-kopteksten. 84 artikelheadings goed gestructureerd. Structuurlabels (ONDERWERP, TOEPASSINGSGEBIED, BELASTINGPLICHTIGEN) als plain-text tussenkopjes zijn inherent aan de EUR-bron en zijn niet storend voor RAG. Inhoud volledig en leesbaar.
       concrete_problemen: []
 ---

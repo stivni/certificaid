@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: d1d6417-dirty
+    pipeline_version: e62521a
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:04:45Z'
+  generated_at: '2026-05-13T13:07:13Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:05:30Z'
+    confirmed_at: '2026-05-13T13:08:27Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "strip_kb_bijwerkingen heeft de 'Recent opgeheven of vervangen koninklijke besluiten' appendix volledig verwijderd (vroeger regels 65-73). Bestand is nu 60 regels schoon: enkel hoofdtekst van een KB met 3 artikelen, alle als ## Art. heading. Geen kolom-bleed meer, geen plain-text appendix. Source-typo 'cöordinatie' op regel 47 blijft (categorie source). Ziet eruit als een nieuw geschreven KB-stub."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:05:30Z'
+      run_at: '2026-05-13T13:08:27Z'
       rationale: "strip_kb_bijwerkingen heeft de 'Recent opgeheven of vervangen koninklijke besluiten' appendix volledig verwijderd (vroeger regels 65-73). Bestand is nu 60 regels schoon: enkel hoofdtekst van een KB met 3 artikelen, alle als ## Art. heading. Geen kolom-bleed meer, geen plain-text appendix. Source-typo 'cöordinatie' op regel 47 blijft (categorie source). Ziet eruit als een nieuw geschreven KB-stub."
       concrete_problemen:
         - "Regel 47: 'cöordinatie' OCR-typo (categorie source)"
