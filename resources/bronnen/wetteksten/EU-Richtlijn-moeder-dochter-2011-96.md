@@ -30,8 +30,8 @@ provenance:
     rationale: "C2: Bijlage I (vennootschapsvormen, regels 229-285) bevat de opsomming a) t/m ab) als doorlopende proza-alinea's per land, niet als markdown-lijsten. Het zijn technisch genummerde items die als aparte alinea's moeten staan. Voorts: dubbele witruimte in overwegingen (intra-zin woordbreuk van PDF-kolomopmaak: 'moeder- maatschappijen', 'kleindochteronder- neming'). Artikelen 1-11 correct geëxtraheerd."
     layer1:
       status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:40Z'
+      run_id: 20260513-104838
+      run_at: '2026-05-13T10:48:40Z'
       heading_count: 23
       max_section_chars: 12245
       file_size_chars: 27798

@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 pass: 2895 headings, max sectie 21231 chars. Groot WER-document correct verwerkt met ###### Art.-headings. Inhoud volledig. BIJLAGE correct als Art. N heading.'
     layer1:
       status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:43Z'
+      run_id: 20260513-104838
+      run_at: '2026-05-13T10:48:44Z'
       heading_count: 2895
       max_section_chars: 21231
       file_size_chars: 2275473

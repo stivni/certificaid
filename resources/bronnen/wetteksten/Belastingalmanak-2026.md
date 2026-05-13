@@ -30,8 +30,8 @@ provenance:
     rationale: 'A8: zwaarste kolom-bleed in de set — 1881 regels >300 chars, max 10986 chars per regel. Layer1 signaleerde al TOC-stippen (1 hit) en paginavoetregels. Twee PDF-kolommen zijn systematisch samengevoegd. Vrijwel onbruikbaar voor RAG tot ETL fixed.'
     layer1:
       status: warn
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:40Z'
+      run_id: 20260513-104838
+      run_at: '2026-05-13T10:48:39Z'
       heading_count: 5
       max_section_chars: 1535748
       file_size_chars: 2343527

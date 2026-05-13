@@ -17,10 +17,10 @@ provenance:
       version: '2020'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7158f47-dirty
+    pipeline_version: dbf933a-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:46:03Z'
+  generated_at: '2026-05-13T10:54:03Z'
   stale: false
   stale_reason:
   trust:

@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 warn: 378 headings, max sectie 57698 chars, kolom-bleed 1 geval. Kolom-bleed is minimaal en in bijlagen/concordantietabellen. Hoofd-artikelinhoud correct. Inhoud volledig.'
     layer1:
       status: warn
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:42Z'
+      run_id: 20260513-104838
+      run_at: '2026-05-13T10:48:41Z'
       heading_count: 378
       max_section_chars: 57698
       file_size_chars: 466340

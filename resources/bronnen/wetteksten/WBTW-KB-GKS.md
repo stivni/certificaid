@@ -30,8 +30,8 @@ provenance:
     rationale: "L1 pass: 4 headings, max sectie 2847 chars. Kleine KB correct verwerkt met ## Art. headings. 'TOEKOMSTIG RECHT.' marker is bron-stijl. Inhoud volledig."
     layer1:
       status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:42Z'
+      run_id: 20260513-104838
+      run_at: '2026-05-13T10:48:41Z'
       heading_count: 4
       max_section_chars: 2847
       file_size_chars: 5654

@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 pass: 139 headings, max sectie 5219 chars. Nieuw strafwetboek correct verwerkt, #### Art.-headings correct, HOOFDSTUK/AFDELING structuur aanwezig. Inhoud volledig.'
     layer1:
       status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:41Z'
+      run_id: 20260513-104838
+      run_at: '2026-05-13T10:48:41Z'
       heading_count: 139
       max_section_chars: 5219
       file_size_chars: 74849

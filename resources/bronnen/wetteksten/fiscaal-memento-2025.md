@@ -29,6 +29,17 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: "Geen layer1. B4: 345 ALL_CAPS plain-text sectietitels ('HOOFDSTUK 1 DE PERSONENBELASTING', '1. WAT IS ER NIEUW?', ...) die allemaal als headings hadden moeten worden geëxtraheerd — slechts 4 headings in 17k-regel document. A6: 174 spurious line-breaks. G2: 790 bullet-glyphs (➢, •) in body. Structuur volledig afwezig op markdown-niveau."
     layer1:
+      status: warn
+      run_id: 20260513-104838
+      run_at: '2026-05-13T10:48:45Z'
+      heading_count: 4
+      max_section_chars: 659945
+      file_size_chars: 1034808
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ##-niveau: 659945 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6

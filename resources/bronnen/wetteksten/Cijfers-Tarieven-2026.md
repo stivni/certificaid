@@ -30,8 +30,8 @@ provenance:
     rationale: "A1: 147 paginavoetregels '© Larcier-Intersentia, Het zakboekje voor de zelfstandige 2026 XX' verspreid door de body (elke ~40 regels). C1: 218 bullet-glyphs (•) in body. Bijkomend: speciale Unicode-ligatures (ﬃ, ﬀ) uit PDF door heel document. Ondanks goede H1/H2/H3-structuur maken de persistente paginavoetregels dit needs-rework."
     layer1:
       status: warn
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:40Z'
+      run_id: 20260513-104838
+      run_at: '2026-05-13T10:48:39Z'
       heading_count: 18
       max_section_chars: 117119
       file_size_chars: 281394

@@ -30,6 +30,8 @@ from tools.etl.transformers.fix_bold_italic_mixing import fix_bold_italic_mixing
 from tools.etl.transformers.strip_itaa_norm_footers import strip_itaa_norm_footers
 from tools.etl.transformers.promote_norm_section_labels import promote_norm_section_labels
 from tools.etl.transformers.strip_running_page_headers import strip_running_page_headers
+from tools.etl.transformers.strip_kb_bijwerkingen import strip_kb_bijwerkingen
+from tools.etl.transformers.strip_empty_trailing_headings import strip_empty_trailing_headings
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
@@ -52,6 +54,8 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "strip_itaa_norm_footers": strip_itaa_norm_footers,
     "promote_norm_section_labels": promote_norm_section_labels,
     "strip_running_page_headers": strip_running_page_headers,
+    "strip_kb_bijwerkingen": strip_kb_bijwerkingen,
+    "strip_empty_trailing_headings": strip_empty_trailing_headings,
 }
 
 

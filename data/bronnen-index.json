@@ -13,7 +13,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": null,
+      "layer1_status": "pass",
       "layer2_status": "needs-rework"
     },
     {
@@ -610,7 +610,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": null,
+      "layer1_status": "warn",
       "layer2_status": "needs-rework"
     },
     {
@@ -729,7 +729,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": null,
+      "layer1_status": "warn",
       "layer2_status": "needs-rework"
     },
     {
@@ -833,10 +833,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB11-verleggen-maatstaf.md",
@@ -848,10 +848,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB13-tabaksfabricaten.md",
@@ -893,10 +893,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB16-vismijn.md",
@@ -968,10 +968,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "warn",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB22-landbouwondernemers.md",
@@ -1028,10 +1028,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB27-vlees-slachtdieren.md",
@@ -1058,10 +1058,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB2bis-cafehouders.md",
@@ -1088,10 +1088,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB30-financieringshuur.md",
@@ -1103,10 +1103,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB31-niet-gevestigd.md",
@@ -1118,10 +1118,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB35-reisbureaus.md",
@@ -1133,10 +1133,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB39-regeling-93duodecies.md",
@@ -1148,10 +1148,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB4-teruggaven.md",
@@ -1163,10 +1163,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB41-proportionele-geldboeten.md",
@@ -1178,10 +1178,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB44-geldboeten.md",
@@ -1193,10 +1193,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB45-vrijstelling-diplomaten.md",
@@ -1208,10 +1208,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB46-intracommunautaire-aangifte.md",
@@ -1238,10 +1238,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB48-levering-vervoermiddelen.md",
@@ -1253,10 +1253,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB50-intracommunautaire-opgave.md",
@@ -1268,10 +1268,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB51-accijnsproducten.md",
@@ -1283,10 +1283,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB52-intracommunautaire-vrijstellingen.md",
@@ -1298,10 +1298,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB53-winstmarge-tweedehands.md",
@@ -1313,10 +1313,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB54-entrepot.md",
@@ -1343,10 +1343,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB56-teruggaaf.md",
@@ -1373,10 +1373,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB58-mededeling-pas-opgerichte.md",
@@ -1418,10 +1418,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB7-invoer.md",
@@ -1433,10 +1433,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB8-afronding.md",
@@ -1448,10 +1448,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WBTW-KB9-ambtelijke-aanslag.md",
@@ -1510,7 +1510,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": "pass",
       "layer2_status": "needs-rework"
     },
     {
@@ -1553,10 +1553,10 @@
         "VI.C",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-MB16jul2019-beroepscommissie.md",
@@ -1568,10 +1568,10 @@
         "VI.C",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-MB2-teruggaven.md",
@@ -1598,10 +1598,10 @@
         "VI.C",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-MB23jun2005-delegatie-samenwerking.md",
@@ -1960,7 +1960,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": null,
+      "layer1_status": "warn",
       "layer2_status": "needs-rework"
     },
     {

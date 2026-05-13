@@ -17,39 +17,19 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: dbf933a-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:15:21Z'
+  generated_at: '2026-05-13T10:55:37Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T10:38:29Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "B1/B3 bevestigd: lege '## Art.' heading aan het einde van het bestand (na de laatste paragraaf). Max sectie 32357 chars (chunker vangt dit op). De body start volledig (Art. 1 aanwezig). Overigens is de structuur (## DEEL / ###### Art.) correct. Enkelvoudig artefact onderaan."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: warn
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:44Z'
-      heading_count: 201
-      max_section_chars: 32357
-      file_size_chars: 195430
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ######-niveau: 32357 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:38:29Z'
-      rationale: "B1/B3 bevestigd: lege '## Art.' heading aan het einde van het bestand (na de laatste paragraaf). Max sectie 32357 chars (chunker vangt dit op). De body start volledig (Art. 1 aanwezig). Overigens is de structuur (## DEEL / ###### Art.) correct. Enkelvoudig artefact onderaan."
-      concrete_problemen:
-        - regel: -1
-          categorie: B3
-          type: other
-          voorbeeld: '## Art. (lege heading zonder nummer of titel op laatste regel)'
 ---
 
 # Wet 4 april 2014 betreffende de verzekeringen
@@ -2196,5 +2176,3 @@ Deze paragraaf is niet van toepassing op de eenvoudige risico's die de Koning ov
 § 9. Verzoeken van de verzekeraar in verband met documenten en inlichtingen die hem in staat moeten stellen om te bepalen of het schadegeval dat zich voordeed door de waarborg gedekt is, alsook om het bedrag van de verzekeringsprestatie te bepalen, moeten redelijk en relevant zijn.
 
 § 10. De voorstellen tot voorschot mogen in geen geval een kwijting voor saldo van rekening bevatten, zelfs geen gedeeltelijke kwijting.]
-
-## Art.

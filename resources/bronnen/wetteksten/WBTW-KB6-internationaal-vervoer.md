@@ -17,10 +17,10 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7158f47-dirty
+    pipeline_version: dbf933a-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:46:01Z'
+  generated_at: '2026-05-13T10:55:38Z'
   stale: false
   stale_reason:
   trust:
@@ -81,9 +81,3 @@ Dit besluit treedt in werking op 1 januari 1978.
 (De tekst van KB nr. 6, artikel 7 is van toepassing met ingang van 01.01.1978 (KB 27.12.1977))
 
 Onze Minister van Financiën is belast met de uitvoering van dit besluit.
-
-KB nr. 6 - Lijst van de bijwerkingen
-
-Bijwerking t.e.m. B.S. van Te vervangen pagina’s
-
-Bijw. 01 / 01.01.2012 30.12.2011 Volledige uitgave

@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 pass: 534 headings, max sectie 7220 chars. ###### Art.-headings correct per de ETL-fix (318 Art-headings + 120 structuurheadings). TITEL 3 Fiscale bepalingen correct. Geen artefacten.'
     layer1:
       status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:44Z'
+      run_id: 20260513-104838
+      run_at: '2026-05-13T10:48:44Z'
       heading_count: 534
       max_section_chars: 7220
       file_size_chars: 279324

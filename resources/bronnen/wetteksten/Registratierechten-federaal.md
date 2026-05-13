@@ -29,6 +29,24 @@ provenance:
     confirmed_by: subagent-sonnet-4-6
     rationale: "A2+A8+A1 bevestigd. A2: TOC met dotted-leaders (regels 67-251). A8: NL+FR tekst op één regel door bilingue bron-PDF (bv. regel 544: 'Het kantoor mag ze niet langer houden dan nodig is.  Le bureau ne peut les retenir au-delà du temps nécessaire.'). A1: titels gecombineerd als 'INWERKINGTREDING  ENTREE EN VIGUEUR' (regel 17027). Structureel probleem van bilingue PDF-bron — ETL kan NL-alleen-versie extraheren als die beschikbaar is."
     layer1:
+      status: warn
+      run_id: 20260513-104838
+      run_at: '2026-05-13T10:48:41Z'
+      heading_count: 625
+      max_section_chars: 55446
+      file_size_chars: 498657
+      flags:
+        - name: max_section_size
+          status: warn
+          detail: 'langste sectie op ######-niveau: 55446 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
+          samples: []
+        - name: no_toc_dots
+          status: warn
+          detail: 86 TOC-stippen-regel(s) gevonden
+          samples:
+            - '................................................................................'
+            - '................................................................................'
+            - '................................................................................'
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6

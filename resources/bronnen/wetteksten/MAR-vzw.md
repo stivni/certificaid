@@ -24,12 +24,56 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T10:52:07Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'Ernstige PDF-extractie-artefacten (categorie A/B): geen heading-structuur (heading_count=0), rekening-codes en omschrijvingen door elkaar gegooid, meerdere rekeningen gemerged op één regel, geen tabel-structuur voor het rekeningstelsel. Buitenstaander herkent dit onmiddellijk als kapot-geconverteerde PDF.'
     layer1:
+      status: pass
+      run_id: 20260513-104838
+      run_at: '2026-05-13T10:48:40Z'
+      heading_count: 0
+      max_section_chars: 5028
+      file_size_chars: 5028
+      flags: []
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T10:52:07Z'
+      rationale: 'Ernstige PDF-extractie-artefacten (categorie A/B): geen heading-structuur (heading_count=0), rekening-codes en omschrijvingen door elkaar gegooid, meerdere rekeningen gemerged op één regel, geen tabel-structuur voor het rekeningstelsel. Buitenstaander herkent dit onmiddellijk als kapot-geconverteerde PDF.'
+      concrete_problemen:
+        - regel: 46
+          categorie: B1
+          type: ontbrekende heading-hiërarchie
+          voorbeeld: "Geen ## of ### per rekeningklasse; '7. Opbrengsten' staat als plain text op regel 62-64"
+        - regel: 51
+          categorie: A4
+          type: scrambled tekst / merged rekeningen
+          voorbeeld: "'Minderwaarden op de realisatie van financiële vaste activa 664-66Andere niet-recurrente bedrijfskosten 668 Andere niet-recurrente financiële kosten 669 ...' — meerdere rekening-codes en omschrijvingen op één regel"
+        - regel: 55
+          categorie: A4
+          type: merged accounts
+          voorbeeld: "'Verschuldigde of gestorte belastingen en voorheffingen ... 671 Belgische belastingen op het resultaat van vorige boekjaren ...' — 670-673 in één blok"
+        - regel: 67
+          categorie: A4
+          type: rekening-code afgekapt
+          voorbeeld: "'700-70Verkopen en dienstprestaties' (ontbrekende cijfer/spatie)"
+        - regel: 69
+          categorie: A6
+          type: OCR-typo bron
+          voorbeeld: "'Wijzigingen n de voorraad' (i ontbreekt — vermoedelijk ETL niet source)"
+        - regel: 88
+          categorie: A4
+          type: merged rekeningcode
+          voorbeeld: "'743-74Diverse bedrijfsopbrengsten'"
+        - regel: 97
+          categorie: A4
+          type: rekeningen + paragrafen gemerged
+          voorbeeld: "'760 Terugneming van afschrijvingen ... 761 ... 762 ... 763 ...' allemaal op één regel"
+        - regel: 46
+          categorie: B1
+          type: structuurlabel als plain text
+          voorbeeld: "'66211 / Besteding (-)' losse regels zonder heading-context"
 ---
 
 # Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW)

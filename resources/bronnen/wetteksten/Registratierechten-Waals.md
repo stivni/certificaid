@@ -30,8 +30,8 @@ provenance:
     rationale: "L1 warn: 544 headings, max sectie 58101 chars. ###### Art.-headings correct. Tail bevat '**\\n*' — kleine artefact maar niet leesbaarheid-schadend."
     layer1:
       status: warn
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:41Z'
+      run_id: 20260513-104838
+      run_at: '2026-05-13T10:48:40Z'
       heading_count: 544
       max_section_chars: 58101
       file_size_chars: 593919

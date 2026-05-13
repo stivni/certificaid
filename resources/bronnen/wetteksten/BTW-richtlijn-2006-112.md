@@ -30,8 +30,8 @@ provenance:
     rationale: "B3: concordantietabel aan het einde van het document (ca. regel 4300+) genereert art.-headings zoals '###### Art. 1, onder 1), tweede alinea, van Richtlijn 89/465/EEG' — dit zijn concordantie-tabelrijen die als headings worden geïnterpreteerd, wat de heading-boom vervuilt. L1 warn: max sectie 36349 chars (chunker vangt dit op). Inhoud van de eigenlijke richtlijn is volledig aanwezig."
     layer1:
       status: warn
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:39Z'
+      run_id: 20260513-104838
+      run_at: '2026-05-13T10:48:39Z'
       heading_count: 673
       max_section_chars: 36349
       file_size_chars: 222242

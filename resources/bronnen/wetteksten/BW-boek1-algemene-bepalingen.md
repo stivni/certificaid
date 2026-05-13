@@ -30,8 +30,8 @@ provenance:
     rationale: 'D2 bevestigd: bestand bevat enkel H1-titel + italic datum-lijn (115 chars totaal). BW Boek 1 Algemene bepalingen bevat slechts een titelblad in de PDF zonder eigenlijke artikelinhoud. Structureel leeg voor RAG. Bron-PDF-issue, niet ETL-fout.'
     layer1:
       status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:39Z'
+      run_id: 20260513-104838
+      run_at: '2026-05-13T10:48:39Z'
       heading_count: 0
       max_section_chars: 115
       file_size_chars: 115

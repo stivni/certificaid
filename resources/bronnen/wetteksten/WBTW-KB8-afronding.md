@@ -17,10 +17,10 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7158f47-dirty
+    pipeline_version: dbf933a-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:46:01Z'
+  generated_at: '2026-05-13T10:55:39Z'
   stale: false
   stale_reason:
   trust:
@@ -68,9 +68,3 @@ Dit besluit treedt in werking op dezelfde datum als de wet van 3 juli 1969 tot i
 (De tekst van KB nr. 8, artikel 4 is van toepassing met ingang van 01.01.1971 (KB 12.03.1970))
 
 Onze Minister van Financiën is belast met de uitvoering van dit besluit.
-
-KB nr. 8 - Lijst van de bijwerkingen
-
-Bijwerking t.e.m. B.S. van Te vervangen pagina’s
-
-Bijw. 01 / 01.01.2012 30.12.2011 Volledige uitgave

@@ -17,10 +17,10 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7158f47-dirty
+    pipeline_version: dbf933a-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:46:03Z'
+  generated_at: '2026-05-13T10:55:40Z'
   stale: false
   stale_reason:
   trust:
@@ -149,9 +149,3 @@ Dit besluit treedt in werking op 1 april 2007.
 (Art. 9, KB 09.03.2007, B.S. 15.03.2007))
 
 Onze Minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.
-
-KB nr. 55 - Lijst van de bijwerkingen
-
-Bijwerking t.e.m. B.S. van Te vervangen pagina’s
-
-Bijw. 01 / 01.01.2012 30.12.2011 Volledige uitgave

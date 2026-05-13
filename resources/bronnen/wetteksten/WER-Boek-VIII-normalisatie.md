@@ -30,8 +30,8 @@ provenance:
     rationale: 'Bevestigd rejected: naam-mismatch F3. Body bevat vakbondsvormingsreglementen, dierenwelzijn KB, KBO-aangifte-regels, Wonen-Vlaanderen vacatures — niet de boekhoudnormen van WER Boek VIII. Max sectie 116180 chars. Verkeerde bron-PDF.'
     layer1:
       status: warn
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:43Z'
+      run_id: 20260513-104838
+      run_at: '2026-05-13T10:48:43Z'
       heading_count: 352
       max_section_chars: 116180
       file_size_chars: 622737

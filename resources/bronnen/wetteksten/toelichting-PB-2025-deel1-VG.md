@@ -30,8 +30,8 @@ provenance:
     rationale: "Layer1 warn (max_section_size). B4: 124 ALL_CAPS plain-text sectietitels in TOC + body ('ALGEMENE INLICHTINGEN', 'VAK I - BANKREKENING EN TELEFOONNUMMER(S)', ...) die als headings hadden moeten worden geëxtraheerd. A6: 90 spurious line-breaks in body. De 13 H2-headings dekken de vakken, maar sub-rubrieken missen als heading."
     layer1:
       status: warn
-      run_id: 20260512-210658
-      run_at: '2026-05-12T21:06:58Z'
+      run_id: 20260513-104838
+      run_at: '2026-05-13T10:48:45Z'
       heading_count: 13
       max_section_chars: 102771
       file_size_chars: 357646

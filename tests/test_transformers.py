@@ -1624,3 +1624,128 @@ class TestStripRunningPageHeaders:
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "strip_running_page_headers" in TRANSFORMERS
+
+
+class TestStripKbBijwerkingen:
+    def test_basic_appendix_stripped(self):
+        from tools.etl.transformers.strip_kb_bijwerkingen import strip_kb_bijwerkingen
+        body = (
+            "Art. 1. De minister van Financiën is belast met de uitvoering.\n"
+            "\n"
+            "Lijst van de bijwerkingen\n"
+            "\n"
+            "Bijwerking Te vervangen pagina's\n"
+            "\n"
+            "Bijw. 01 / 01.01.2012 - Volledige uitgave\n"
+            "Bijw. 02 / 20.02.2015 - pg. 1 - Bijw. 02 - pg. 1\n"
+        )
+        result, _ = strip_kb_bijwerkingen(body, {})
+        assert "Lijst van de bijwerkingen" not in result
+        assert "Bijw. 01" not in result
+        assert "Te vervangen" not in result
+        assert "Art. 1. De minister" in result
+
+    def test_prefixed_with_kb_nr(self):
+        from tools.etl.transformers.strip_kb_bijwerkingen import strip_kb_bijwerkingen
+        body = (
+            "Body.\n\n"
+            "KB nr. 30 - Lijst van de bijwerkingen\n\n"
+            "Bijwerking t.e.m. B.S. van Te vervangen pagina's\n"
+            "Bijw. 01 / 01.01.2012 30.12.2011 Volledige uitgave\n"
+        )
+        result, _ = strip_kb_bijwerkingen(body, {})
+        assert "Lijst van de bijwerkingen" not in result
+        assert "Bijw. 01" not in result
+        assert result.endswith("Body.\n")
+
+    def test_prefixed_with_year(self):
+        from tools.etl.transformers.strip_kb_bijwerkingen import strip_kb_bijwerkingen
+        body = (
+            "Slot.\n"
+            "KB nr. 57 (2017) - Lijst van de bijwerkingen\n"
+            "\n"
+            "Bijw. 01 / 13.11.2017 - Volledige uitgave\n"
+        )
+        result, _ = strip_kb_bijwerkingen(body, {})
+        assert "Lijst van de bijwerkingen" not in result
+        assert "Bijw. 01" not in result
+
+    def test_no_appendix_passthrough(self):
+        from tools.etl.transformers.strip_kb_bijwerkingen import strip_kb_bijwerkingen
+        body = "Een gewone wettekst zonder appendix.\nDe minister tekent.\n"
+        result, _ = strip_kb_bijwerkingen(body, {})
+        assert result == body
+
+    def test_legitimate_mention_not_stripped(self):
+        """De zin 'lijst van de bijwerkingen' mid-zin met andere context blijft."""
+        from tools.etl.transformers.strip_kb_bijwerkingen import strip_kb_bijwerkingen
+        body = "De administratie publiceert een lijst van de bijwerkingen in de bijlage. Volgens art. 5."
+        result, _ = strip_kb_bijwerkingen(body, {})
+        # Mid-line text wordt niet gestript (anchor ^...$)
+        assert result == body
+
+    def test_strips_trailing_separator(self):
+        from tools.etl.transformers.strip_kb_bijwerkingen import strip_kb_bijwerkingen
+        body = (
+            "Art. 1.\n\n"
+            "--\n\n"
+            "Lijst van de bijwerkingen\n\n"
+            "Bijw. 01\n"
+        )
+        result, _ = strip_kb_bijwerkingen(body, {})
+        assert "--" not in result
+        assert "Lijst" not in result
+        assert result.rstrip().endswith("Art. 1.")
+
+    def test_idempotent(self):
+        from tools.etl.transformers.strip_kb_bijwerkingen import strip_kb_bijwerkingen
+        body = "Body.\n\nLijst van de bijwerkingen\n\nBijw. 01 / ...\n"
+        once, _ = strip_kb_bijwerkingen(body, {})
+        twice, _ = strip_kb_bijwerkingen(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "strip_kb_bijwerkingen" in TRANSFORMERS
+
+
+class TestStripEmptyTrailingHeadings:
+    def test_strip_lone_art_heading(self):
+        from tools.etl.transformers.strip_empty_trailing_headings import strip_empty_trailing_headings
+        body = "Body inhoud.\n\n## Art.\n"
+        result, _ = strip_empty_trailing_headings(body, {})
+        assert "## Art." not in result
+        assert "Body inhoud." in result
+
+    def test_strip_multiple_empty_headings(self):
+        from tools.etl.transformers.strip_empty_trailing_headings import strip_empty_trailing_headings
+        body = "Body.\n\n## HOOFDSTUK\n\n## Art.\n"
+        result, _ = strip_empty_trailing_headings(body, {})
+        assert "## Art." not in result
+        assert "## HOOFDSTUK" not in result
+        assert "Body." in result
+
+    def test_keep_heading_with_content(self):
+        from tools.etl.transformers.strip_empty_trailing_headings import strip_empty_trailing_headings
+        body = "## Art. 5\n\nInhoud van het artikel.\n"
+        result, _ = strip_empty_trailing_headings(body, {})
+        assert result == body
+
+    def test_keep_heading_mid_body(self):
+        """Lege heading midden in body wordt NIET gestript — alleen trailing."""
+        from tools.etl.transformers.strip_empty_trailing_headings import strip_empty_trailing_headings
+        body = "## Art.\n\nVolgende inhoud.\n"
+        result, _ = strip_empty_trailing_headings(body, {})
+        # body bevat content erna, dus heading blijft staan
+        assert "## Art." in result
+
+    def test_idempotent(self):
+        from tools.etl.transformers.strip_empty_trailing_headings import strip_empty_trailing_headings
+        body = "Body.\n\n## Art.\n"
+        once, _ = strip_empty_trailing_headings(body, {})
+        twice, _ = strip_empty_trailing_headings(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "strip_empty_trailing_headings" in TRANSFORMERS

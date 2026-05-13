@@ -27,8 +27,8 @@ provenance:
     rationale: 'Eerder beoordeeld als trusted door subagent-sonnet-4-6: 135 headings, max sectie 2386 chars. Compilatiebestand correct verwerkt.'
     layer1:
       status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:43Z'
+      run_id: 20260513-104838
+      run_at: '2026-05-13T10:48:42Z'
       heading_count: 135
       max_section_chars: 2386
       file_size_chars: 52317

@@ -30,8 +30,8 @@ provenance:
     rationale: 'L1 pass: 32 headings, max sectie 4826 chars. Internationaal verdrag, headings als ## Art. correct. Bijlagen als plain-text opsommingen zijn bron-stijl. Inhoud volledig inclusief bijlagen A/B/C.'
     layer1:
       status: pass
-      run_id: 20260512-210639
-      run_at: '2026-05-12T21:06:42Z'
+      run_id: 20260513-104838
+      run_at: '2026-05-13T10:48:41Z'
       heading_count: 32
       max_section_chars: 4826
       file_size_chars: 40782
