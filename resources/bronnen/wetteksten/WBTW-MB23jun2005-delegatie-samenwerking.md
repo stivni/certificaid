@@ -17,26 +17,24 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 4126295-dirty
+    pipeline_version: b893061
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:20:55Z'
+  generated_at: '2026-05-13T11:26:39Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T11:23:37Z'
+    status: trusted
+    confirmed_at: '2026-05-13T11:27:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "'Enig artikel' staat nog steeds als plain text (regel 48) en niet als ## Enig artikel heading. Bestand heeft geen enkele heading-anker voor de centrale bepaling. De huidige transformers pakken dit niet aan: noch strip_mb_compilatie_cover noch fix_pdftotext_glue_bugs voegt 'Enig artikel' als heading in. Voor RAG-chunking is dit een structureel probleem — er is geen sectie-anker voor de enige inhoudelijke bepaling van het MB."
+    rationale: promote_wettekst_section_labels heeft 'Enig artikel' op regel 48 succesvol gepromoot naar '## Enig artikel' heading. Bestand bevat nu een retrieval-anker voor de centrale bepaling. Hoofdtekst (1 artikel) is volledig en schoon. Geen PDF-extractie-artefacten. Frontmatter klopt.
     layer1:
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:23:37Z'
-      rationale: "'Enig artikel' staat nog steeds als plain text (regel 48) en niet als ## Enig artikel heading. Bestand heeft geen enkele heading-anker voor de centrale bepaling. De huidige transformers pakken dit niet aan: noch strip_mb_compilatie_cover noch fix_pdftotext_glue_bugs voegt 'Enig artikel' als heading in. Voor RAG-chunking is dit een structureel probleem — er is geen sectie-anker voor de enige inhoudelijke bepaling van het MB."
-      concrete_problemen:
-        - "Regel 48: 'Enig artikel' als plain text i.p.v. '## Enig artikel' heading"
-        - 'Bestand bevat 0 ## headings — geen retrieval-anker voor de centrale bepaling'
+      run_at: '2026-05-13T11:27:21Z'
+      rationale: promote_wettekst_section_labels heeft 'Enig artikel' op regel 48 succesvol gepromoot naar '## Enig artikel' heading. Bestand bevat nu een retrieval-anker voor de centrale bepaling. Hoofdtekst (1 artikel) is volledig en schoon. Geen PDF-extractie-artefacten. Frontmatter klopt.
+      concrete_problemen: []
 ---
 
 # M.B. van 23 juni 2005, met betrekking tot de delegatie van de bevoegde autoriteit inzake de administratieve samenwerking op het gebied van de belasting over de toegevoegde waarde

@@ -20,29 +20,21 @@ provenance:
     pipeline_version: b893061
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:23:23Z'
+  generated_at: '2026-05-13T11:26:36Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T11:23:36Z'
+    status: trusted
+    confirmed_at: '2026-05-13T11:27:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Kort 5-artikel KB. Spurious linebreaks in wijzigingsannotaties (regel 50-51 'Art.\n15,' en regel 56-57 'Art.\n19,') — kleine maar zichtbare ETL-residu. Body zelf is schoon. Borderline, maar consistente patroon over meerdere KBs is een ETL-issue waard om te fixen.
+    rationale: "Kort 5-artikel KB. fix_pdftotext_glue_bugs uitbreiding heeft de eerdere spurious linebreaks 'Art.\\n15,' en 'Art.\\n19,' gefixed: regels 56 en 61 tonen nu 'Art. 15,' en 'Art. 19,' op één regel. Body en frontmatter zijn schoon, heading-hiërarchie consistent. Geen overige PDF-artefacten."
     layer1:
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:23:36Z'
-      rationale: Kort 5-artikel KB. Spurious linebreaks in wijzigingsannotaties (regel 50-51 'Art.\n15,' en regel 56-57 'Art.\n19,') — kleine maar zichtbare ETL-residu. Body zelf is schoon. Borderline, maar consistente patroon over meerdere KBs is een ETL-issue waard om te fixen.
-      concrete_problemen:
-        - regel: 50
-          categorie: A2
-          type: spurious linebreak in annotatie
-          voorbeeld: "'(De tekst van KB nr. 11, artikel 1, werd gewijzigd met ingang van 16.05.2014 (Art.\\n15, KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872))'"
-        - regel: 56
-          categorie: A2
-          type: spurious linebreak in annotatie
-          voorbeeld: "'(De tekst van KB nr. 11, artikel 2 is van toepassing met ingang van 01.04.2007. (Art.\\n19, KB 17.05.2007, B.S. 31.05.2007))'"
+      run_at: '2026-05-13T11:27:21Z'
+      rationale: "Kort 5-artikel KB. fix_pdftotext_glue_bugs uitbreiding heeft de eerdere spurious linebreaks 'Art.\\n15,' en 'Art.\\n19,' gefixed: regels 56 en 61 tonen nu 'Art. 15,' en 'Art. 19,' op één regel. Body en frontmatter zijn schoon, heading-hiërarchie consistent. Geen overige PDF-artefacten."
+      concrete_problemen: []
 ---
 
 # K.B. nr. 11 van 29 december 1992, met betrekking tot de toepassing van de belasting over de toegevoegde waarde

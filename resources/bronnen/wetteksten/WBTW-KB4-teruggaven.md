@@ -20,27 +20,25 @@ provenance:
     pipeline_version: b893061
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:23:22Z'
+  generated_at: '2026-05-13T11:26:36Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:23:36Z'
+    confirmed_at: '2026-05-13T11:27:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Significante PDF-extractie-artefacten: artikel-nummering klopt niet (## Art. 81, ## Art. 82, ## Art. 83 op regels 130, 208, 217 - dit zijn in werkelijkheid de artikelen 8/1, 8/2 en 8/3, want de amendment-context spreekt over 'artikel 8/1, § 2' enz.). De heading-extractie heeft de slash genegeerd. Verder PDF-afbrekingsfouten: 'BTWidentificatienummer', 'btwtarief', 'btwaangifte', 'niet-belastingplichtige' soms inconsistent. Diverse zinnen-onderbrekingen door witregel."
+    rationale: "Significante PDF-extractie-artefacten blijven. Artikel-nummering klopt niet: '## Art. 81' (regel 134), '## Art. 82' (regel 211), '## Art. 83' (regel 220) — dit zijn in werkelijkheid Art. 8/1, 8/2, 8/3, want amendment-blok refereert expliciet 'KB nr. 4, artikel 8/1, § 2'. De heading-extractie negeert de slash. Regel 153: 'btwtarief' zonder koppelteken (uitbreiding fix_pdftotext_glue_bugs heeft dit niet gevangen). Regel 244: 'artikel. 9' met eigenaardige punt. Lange Art. 8/1-paragrafen met mid-sentence linebreaks (regels 161, 188-190)."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:23:36Z'
-      rationale: "Significante PDF-extractie-artefacten: artikel-nummering klopt niet (## Art. 81, ## Art. 82, ## Art. 83 op regels 130, 208, 217 - dit zijn in werkelijkheid de artikelen 8/1, 8/2 en 8/3, want de amendment-context spreekt over 'artikel 8/1, § 2' enz.). De heading-extractie heeft de slash genegeerd. Verder PDF-afbrekingsfouten: 'BTWidentificatienummer', 'btwtarief', 'btwaangifte', 'niet-belastingplichtige' soms inconsistent. Diverse zinnen-onderbrekingen door witregel."
+      run_at: '2026-05-13T11:27:21Z'
+      rationale: "Significante PDF-extractie-artefacten blijven. Artikel-nummering klopt niet: '## Art. 81' (regel 134), '## Art. 82' (regel 211), '## Art. 83' (regel 220) — dit zijn in werkelijkheid Art. 8/1, 8/2, 8/3, want amendment-blok refereert expliciet 'KB nr. 4, artikel 8/1, § 2'. De heading-extractie negeert de slash. Regel 153: 'btwtarief' zonder koppelteken (uitbreiding fix_pdftotext_glue_bugs heeft dit niet gevangen). Regel 244: 'artikel. 9' met eigenaardige punt. Lange Art. 8/1-paragrafen met mid-sentence linebreaks (regels 161, 188-190)."
       concrete_problemen:
-        - "Heading-fout: '## Art. 81' (regel 130) is in werkelijkheid Art. 8/1 - zie amendment-blok 'KB nr. 4, artikel 8/1, § 2'. Idem Art. 82=8/2, Art. 83=8/3"
-        - "PDF-afbrekingsfouten zonder spatie: 'btwtarief' (regel 149), 'btwaangifte' (regel 249 in andere bestanden), 'BTWidentificatienummer', 'nietbelastingplichtige' (regel 248)"
-        - Mid-zin breaks tussen § 3, derde lid en het slot van Art. 6 ('In afwijking...')
-        - 'Lange Art. 81-paragrafen (max_section_chars: 15545) kunnen wijzen op slechte chunking'
-        - In Art. 4 § 1 4° begint paragraaf met '4° in geval van teruggaaf' - OK qua content maar de hele afwerking strekt zich uit met mid-sentence linebreaks
-        - Art. 9 amendment-tekst regel 242 schrijft 'artikel. 9' met eigenaardige punt
+        - "Regels 134, 211, 220: '## Art. 81/82/83' zijn in werkelijkheid Art. 8/1, 8/2, 8/3 (slash genegeerd in heading-extractie)"
+        - "Regel 153: 'btwtarief' zonder koppelteken (fix_pdftotext_glue_bugs miste dit)"
+        - "Regel 244: 'artikel. 9' met overbodige punt"
+        - "Regels 188-190: 'in artikel 53, § 1, eerste lid, 2°, van het\\n\\nWetboek bedoelde aangifte' — spurious linebreak mid-zin"
 ---
 
 # K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde
@@ -150,7 +148,7 @@ b) leveringen van goederen en diensten heeft verricht welke van de belasting zij
 
 c) leveringen van goederen en diensten heeft verricht waarvoor de belasting verschuldigd is door de medecontractant overeenkomstig de artikelen 51, § 2, eerste lid, 5° en 51, § 4, van het Wetboek;
 
-d) leveringen van goederen en diensten heeft verricht waarvoor het verlaagd btwtarief van toepassing is overeenkomstig de rubrieken XXXI, XXXII, XXXIII, XXXVI, XXXVII, XXXVIII en XL van tabel A van de bijlage bij het koninklijk besluit nr. 20 van 20 juli 1970 tot vaststelling van de tarieven van de belasting over de
+d) leveringen van goederen en diensten heeft verricht waarvoor het verlaagd btw-tarief van toepassing is overeenkomstig de rubrieken XXXI, XXXII, XXXIII, XXXVI, XXXVII, XXXVIII en XL van tabel A van de bijlage bij het koninklijk besluit nr. 20 van 20 juli 1970 tot vaststelling van de tarieven van de belasting over de
 
 toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven;
 

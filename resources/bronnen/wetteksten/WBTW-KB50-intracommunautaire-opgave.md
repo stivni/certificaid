@@ -20,19 +20,19 @@ provenance:
     pipeline_version: b893061
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:23:24Z'
+  generated_at: '2026-05-13T11:26:38Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:23:36Z'
+    confirmed_at: '2026-05-13T11:27:20Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "merge_article_reference_wraps heeft niet ingegrepen op het hoofdprobleem: het bestand bevat onder de kop 'Bijlage' (regels 227 e.v.) de volledige opgeheven 2009-versie van KB nr. 50 als losse content, terwijl de 2019-versie als hoofdtekst staat. Dit is compilatie-bleed uit de Fisconet-PDF, geen wettelijke bijlage. Onderaan staan ook Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334). Inconsistente hoofdstuk-kapitalisatie ('Hoofdstuk 1' vs 'HOOFDSTUK 2'/'HOOFDSTUK 3'). TOC-achtig blok regels 53-58 dupliceert headings."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:23:36Z'
+      run_at: '2026-05-13T11:27:20Z'
       rationale: "merge_article_reference_wraps heeft niet ingegrepen op het hoofdprobleem: het bestand bevat onder de kop 'Bijlage' (regels 227 e.v.) de volledige opgeheven 2009-versie van KB nr. 50 als losse content, terwijl de 2019-versie als hoofdtekst staat. Dit is compilatie-bleed uit de Fisconet-PDF, geen wettelijke bijlage. Onderaan staan ook Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334). Inconsistente hoofdstuk-kapitalisatie ('Hoofdstuk 1' vs 'HOOFDSTUK 2'/'HOOFDSTUK 3'). TOC-achtig blok regels 53-58 dupliceert headings."
       concrete_problemen:
         - "Regels 227-326: integrale opgenomen oude KB-50-2009 onder 'Bijlage' — geen wettelijke bijlage maar opgeheven voorgangerversie"
@@ -145,7 +145,7 @@ Deel 1 van de intracommunautaire opgave moet niet worden ingediend wanneer er ge
 ### Art. 8
 (De tekst van K.B. nr. 50 (2019), artikel 8, werd ingevoerd met ingang van 01.01.2020 (B.S. 23.12.2019, pg. 116117))
 
-De in artikel 53sexies, § 1, van het Wetboek bedoelde belastingplichtigen en leden van een btweenheid in de zin van artikel 4, § 2, van het Wetboek houden klantenrekeningen of alle andere documenten om te kunnen voldoen aan de voorschriften van de artikelen 1 tot 7 en aan het toezicht op de naleving ervan, zoals, per klant, een dubbel van alle facturen die zij uitreiken of documenten die betrekking hebben op de handelingen die in deel 1 van de opgave moeten worden vermeld.
+De in artikel 53sexies, § 1, van het Wetboek bedoelde belastingplichtigen en leden van een btw-eenheid in de zin van artikel 4, § 2, van het Wetboek houden klantenrekeningen of alle andere documenten om te kunnen voldoen aan de voorschriften van de artikelen 1 tot 7 en aan het toezicht op de naleving ervan, zoals, per klant, een dubbel van alle facturen die zij uitreiken of documenten die betrekking hebben op de handelingen die in deel 1 van de opgave moeten worden vermeld.
 
 ## HOOFDSTUK 2
 Deel 2 van de opgave met betrekking tot de intracommunautaire handelingen
@@ -227,7 +227,7 @@ De minister bevoegd voor Financiën is belast met de uitvoering van dit besluit.
 Bijlage
 Btw-opgave van de intracommunautaire handelingen
 
-Koninklijk besluit nr. 50 van 9 december 2009 met betrekking tot de BTWopgave van de intracommunautaire handelingen (Uitvoering van de artikelen 53sexies, § 1, 53octies, § 1, en 57, § 7, van het Wetboek) (Officieuze coördinatie) Gewijzigd met ingang van 16.05.2014 (KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872)
+Koninklijk besluit nr. 50 van 9 december 2009 met betrekking tot de BTW-opgave van de intracommunautaire handelingen (Uitvoering van de artikelen 53sexies, § 1, 53octies, § 1, en 57, § 7, van het Wetboek) (Officieuze coördinatie) Gewijzigd met ingang van 16.05.2014 (KB 24.01.2015, B.S. 20.02.2015 – Ed. 2, pg. 13872)
 
 Dit koninklijk besluit werd vervangen met ingang van 01.01.2020 door het Koninklijk besluit nr. 50, van 11 december 2019 met betrekking tot de btw-opgave van de intracommunautaire handelingen
 

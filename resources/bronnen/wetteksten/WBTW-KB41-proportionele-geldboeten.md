@@ -20,19 +20,19 @@ provenance:
     pipeline_version: b893061
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:23:23Z'
+  generated_at: '2026-05-13T11:26:37Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:23:36Z'
+    confirmed_at: '2026-05-13T11:27:20Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Zware kolom-bleed door de hele bijlage (Tabellen A-J). Originele PDF heeft een 2-koloms structuur: links de overtredingsbeschrijving, rechts het percentage/boete. De extractie heeft kolomstrooien afwisselend gemerged, met als resultaat scrambled zinnen zoals 'A) belasting en voorschotten waarvan de per maand vertraging (1), een opeisbaarheid blijkt uit de maand- of percentage gelijk aan dat van kwartaalaangiften en belasting waarvan de de nalatigheidsinterest dat is opeisbaarheid blijkt uit de jaaraangiften bepaald in artikel 91, § 1, van het...' (regel 143). Dat is onbruikbaar voor retrieval en evident niet-mens-geschreven. Dit is veruit het zwaarste geval van de batch."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:23:36Z'
+      run_at: '2026-05-13T11:27:20Z'
       rationale: "Zware kolom-bleed door de hele bijlage (Tabellen A-J). Originele PDF heeft een 2-koloms structuur: links de overtredingsbeschrijving, rechts het percentage/boete. De extractie heeft kolomstrooien afwisselend gemerged, met als resultaat scrambled zinnen zoals 'A) belasting en voorschotten waarvan de per maand vertraging (1), een opeisbaarheid blijkt uit de maand- of percentage gelijk aan dat van kwartaalaangiften en belasting waarvan de de nalatigheidsinterest dat is opeisbaarheid blijkt uit de jaaraangiften bepaald in artikel 91, § 1, van het...' (regel 143). Dat is onbruikbaar voor retrieval en evident niet-mens-geschreven. Dit is veruit het zwaarste geval van de batch."
       concrete_problemen:
         - 'Kolom-bleed in heel TABEL A (regels 137-408): elke rij heeft beschrijving + tarief door elkaar gehusseld zonder pipe-syntax'
@@ -178,7 +178,7 @@ III. Ten onrechte toepassen van artikel 17bis van het in rubriek II 20 pct. van 
 
 IV. Onjuistheden vastgesteld bij het nazicht van de boekhouding met betrekking tot de inhoud ervan ;
 
-niet-betaling van de belasting vastgesteld naar aanleiding van een controle bij belastingplichtigen die hun periodieke btwaangiften niet indienen.
+niet-betaling van de belasting vastgesteld naar aanleiding van een controle bij belastingplichtigen die hun periodieke btw-aangiften niet indienen.
 
 Het bedrag van de verschuldigde belasting voor een controleperiode van één jaar (2) is :
 
@@ -249,7 +249,7 @@ C. Andere vergissingen, inzonderheid betreffende :
 
 9. Overtredingen ten aanzien van de regeling van de verlegging van de heffing beoogd in artikel 4, § 3, of in artikel 7 van het koninklijk besluit nr. 7 van 27 december 1977 met betrekking tot de invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde.
 
-A. Overtredingen in verband met het opnemen 10 pct. van de verschuldigde van de belasting verschuldigd voor de belasting aangegeven goederen in de periodieke btwaangifte
+A. Overtredingen in verband met het opnemen 10 pct. van de verschuldigde van de belasting verschuldigd voor de belasting aangegeven goederen in de periodieke btw-aangifte
 
 B. Niet-tijdige betaling van de vooruit te betalen belasting :
 
@@ -620,7 +620,7 @@ B) Andere overtredingen zie tabel I, 1
 
 A) Overtredingen in verband met het ten onrechte 5 pct. van de belasting toepassen of inroepen van de verleggings- waarvoor de verleggingsregeling regeling onrechtmatig werd toegepast of ingeroepen
 
-B) Overtredingen in verband met het opnemen van de belasting verschuldigd voor de aangegeven goederen in de periodieke btwaangifte.
+B) Overtredingen in verband met het opnemen van de belasting verschuldigd voor de aangegeven goederen in de periodieke btw-aangifte.
 
 1° De verschuldigde belasting is volledig 50 EUR voor het geheel van de aftrekbaar overtredingen vastgesteld tijdens eenzelfde controle
 

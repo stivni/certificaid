@@ -848,10 +848,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": null,
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB13-tabaksfabricaten.md",
@@ -1328,10 +1328,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "trusted",
-      "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "trust_status": "unreviewed",
+      "trust_confirmed_by": "default",
+      "layer1_status": null,
+      "layer2_status": null
     },
     {
       "bestand": "WBTW-KB55-btw-eenheid.md",
@@ -1613,10 +1613,10 @@
         "VI.C",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": null,
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-MB26feb2007-elektronische-notificaties.md",

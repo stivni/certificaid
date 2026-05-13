@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 4126295-dirty
+    pipeline_version: b893061
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:20:55Z'
+  generated_at: '2026-05-13T11:26:40Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:23:36Z'
+    confirmed_at: '2026-05-13T11:27:20Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Inconsistente heading-stijl: meeste artikelen als '###### Art. N' maar artikelen 5-12, 46, 64, 86 en 132 staan als plain text 'Artikel N.' midden in de prose (checklist B). Daarnaast een gedegenereerde pseudo-tabel voor de btw-codes (regels 203-216) met scrambled kolommen en multi-line cellen (checklist E + checklist A column-bleed). Dit is duidelijk ETL-residu."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:23:36Z'
+      run_at: '2026-05-13T11:27:20Z'
       rationale: "Inconsistente heading-stijl: meeste artikelen als '###### Art. N' maar artikelen 5-12, 46, 64, 86 en 132 staan als plain text 'Artikel N.' midden in de prose (checklist B). Daarnaast een gedegenereerde pseudo-tabel voor de btw-codes (regels 203-216) met scrambled kolommen en multi-line cellen (checklist E + checklist A column-bleed). Dit is duidelijk ETL-residu."
       concrete_problemen:
         - "Heading-inconsistentie: 'Artikel 5. Event Normal' (regel 142), 'Artikel 6.' (147), 'Artikel 7.' (156), 'Artikel 8.' (159), 'Artikel 9.' (162), 'Artikel 10.' (165), 'Artikel 11.' (168), 'Artikel 12.' (176), 'Artikel 46.' (343), 'Artikel 64.' (435), 'Artikel 86' (572), 'Artikel 132.' (886) staan als plain text terwijl andere artikelen ###### gebruiken"
@@ -273,7 +273,7 @@ k. de vermelding van de referentie van het eerste en laatste erin opgenomen even
 ##### Onderafdeling 6. - Facturen aangemaakt met het kassasysteem
 
 ###### Art. 31
-Het kassasysteem kan bijkomend voorzien in de mogelijkheid om facturen uit te reiken. Deze factuur dient als event Invoice te worden verzonden naar FDM. Een factuur kan pas aangemaakt worden nadat een btwkasticket (event N) is aangemaakt.
+Het kassasysteem kan bijkomend voorzien in de mogelijkheid om facturen uit te reiken. Deze factuur dient als event Invoice te worden verzonden naar FDM. Een factuur kan pas aangemaakt worden nadat een btw-kasticket (event N) is aangemaakt.
 Indien deze modaliteit is voorzien op het kassasysteem, dan maakt deze integraal deel uit van de certificatieprocedure, ongeacht het formaat of de vorm van deze factuur.
 
 ###### Art. 32
@@ -311,7 +311,7 @@ Wanneer een event Normal van het type REFUND (artikel 5, 3° ) plaatsvindt, dan 
 Wanneer het kassasysteem voorziet in een functie voor het afdrukken of genereren van training- en/of pro forma en/of kopietickets, dan moeten deze tickets duidelijk te onderscheiden zijn van het btw-kasticket.
 Hiervoor dient respectievelijk de benaming TRAINING, PRO FORMA of KOPIE duidelijk op het ticket te worden aangebracht.
 Een rekeningoverzicht draagt bijkomend duidelijk leesbaar de vermelding "VOORLOPIGE REKENING".
-Op alle afdrukken die door het kassasysteem worden geproduceerd, ongeacht hun benaming die geen btwkasticket zijn, zoals voorzien in artikel 1, 8°, dient onderaan de volgende tekst in hoofdletters afgedrukt te worden: "DIT IS GEEN GELDIG btw KASTICKET".
+Op alle afdrukken die door het kassasysteem worden geproduceerd, ongeacht hun benaming die geen btw-kasticket zijn, zoals voorzien in artikel 1, 8°, dient onderaan de volgende tekst in hoofdletters afgedrukt te worden: "DIT IS GEEN GELDIG btw KASTICKET".
 
 ##### Onderafdeling 9. - Afronding van betalingen
 

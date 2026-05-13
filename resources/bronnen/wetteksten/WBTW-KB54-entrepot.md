@@ -17,38 +17,26 @@ provenance:
       version: '2023'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:14:18Z'
+  generated_at: '2026-05-13T11:27:07Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-12T19:27:15Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 'L1 pass: 6 headings, max sectie 11791 chars. Kleine KB correct verwerkt. Inhoud aanwezig.'
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:39Z'
-      heading_count: 6
-      max_section_chars: 11791
-      file_size_chars: 18262
-      flags: []
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
-      rationale: 'L1 pass: 6 headings, max sectie 11791 chars. Kleine KB correct verwerkt. Inhoud aanwezig.'
-      concrete_problemen: []
 ---
 
 # BTW KB nr. 54 — Entrepot (art. 39quater)
 
 *Bijgewerkt tot en met 2023 — gecoördineerde versie.*
 
-21 DECEMBER 2023. - Koninklijk besluit nr. 54 met betrekking tot de andere regeling van entrepot dan douaneentrepot bedoeld in artikel 39quater van het Wetboek van de belasting over de toegevoegde waarde
+21 DECEMBER 2023. - Koninklijk besluit nr. 54 met betrekking tot de andere regeling van entrepot dan douane-entrepot bedoeld in artikel 39quater van het Wetboek van de belasting over de toegevoegde waarde
 
 1° de naam, het adres en het in artikel 50 van het Wetboek bedoelde btw-identificatienummer van de aanvrager of, in voorkomend geval, het overeenkomstig artikel 55, § 3, tweede lid, van het Wetboek toegekende globale btw-identificatienummer, waaronder hij niet in België gevestigde belastingplichtigen vertegenwoordigt die handelingen verrichten in het kader van deze btw-regeling;
 2° de hoedanigheid van de aanvrager;
@@ -72,10 +60,10 @@ Wanneer de goederen worden uitgeslagen in de in artikel 39quater, § 5, derde li
 1° de naam, het adres en het in artikel 50 van het Wetboek bedoelde btw-identificatienummer of, in voorkomend geval, het nationaal fiscaal nummer van de eigenaar van de goederen of, in voorkomend geval, het globale btw-identificatienummer toegekend aan de vooraf erkende persoon die overeenkomstig artikel 55, § 3, tweede lid, van het Wetboek de eigenaar van de goederen vertegenwoordigt;
 2° de naam, het adres en het in artikel 50 van het Wetboek bedoelde btw-identificatienummer van de houder van de in artikel 3 bedoelde vergunning;
 3° het nummer van de vergunning van het entrepot waaruit de goederen worden uitgeslagen;
-4° indien de goederen worden overgebracht naar een ander in België gelegen ander entrepot dan douaneentrepot en de plaatsing in dat entrepot toegelaten is, het nummer van de in artikel 3 bedoelde vergunning van het entrepot waarin de goederen worden geplaatst;
+4° indien de goederen worden overgebracht naar een ander in België gelegen ander entrepot dan douane-entrepot en de plaatsing in dat entrepot toegelaten is, het nummer van de in artikel 3 bedoelde vergunning van het entrepot waarin de goederen worden geplaatst;
 5° een omschrijving van de aard, de hoeveelheid en de waarde van de goederen.
 Wanneer de goederen worden geplaatst onder de andere regeling van entrepot dan douane-entrepot ingevolge een binnenlandse overbrenging van goederen in België, los van enige handelstransactie, stelt de eigenaar van de goederen een bijzonder stuk op dat de volgende vermeldingen bevat:
-1° de naam, het adres en het in artikel 50 van het Wetboek bedoelde btw-identificatienummer of desgevallend het nationaal fiscaal nummer van de eigenaar van de goederen of, in voorkomend geval, het globale btwidentificatienummer toegekend aan de vooraf erkende persoon die overeenkomstig artikel 55, § 3, tweede lid, van het Wetboek de eigenaar van de goederen vertegenwoordigt;
+1° de naam, het adres en het in artikel 50 van het Wetboek bedoelde btw-identificatienummer of desgevallend het nationaal fiscaal nummer van de eigenaar van de goederen of, in voorkomend geval, het globale btw-identificatienummer toegekend aan de vooraf erkende persoon die overeenkomstig artikel 55, § 3, tweede lid, van het Wetboek de eigenaar van de goederen vertegenwoordigt;
 2° de naam, het adres en het in artikel 50 van het Wetboek bedoelde btw-identificatienummer van de houder van de in artikel 3 bedoelde vergunning;
 3° het nummer van de vergunning van het entrepot waarin de goederen worden opgeslagen;
 4° een omschrijving van de aard, de hoeveelheid en de waarde van de goederen.
@@ -84,11 +72,11 @@ Wanneer de goederen worden geplaatst onder de andere regeling van entrepot dan d
 
 § 1. De houder van de in artikel 3 bedoelde vergunning leeft de volgende verplichtingen na:
 1° de identificatiegegevens kennen van de persoon die de goederen onder de andere regeling van entrepot dan douane-entrepot plaatst en van de persoon die die goederen aan die regeling onttrekt;
-2° een opslagdocument opstellen op het tijdstip dat de goederen in het entrepot worden geplaatst, dit document overhandigen aan de persoon die de goederen onder de andere regeling van entrepot dan douaneentrepot plaatst en een dubbel ervan bewaren dat hij bij de in de bepaling onder 6°, a) tot en met e), bedoelde dubbels voegt;
+2° een opslagdocument opstellen op het tijdstip dat de goederen in het entrepot worden geplaatst, dit document overhandigen aan de persoon die de goederen onder de andere regeling van entrepot dan douane-entrepot plaatst en een dubbel ervan bewaren dat hij bij de in de bepaling onder 6°, a) tot en met e), bedoelde dubbels voegt;
 3° voor elke opslagplaats een register houden van de in de bepaling onder 2° bedoelde opslagdocumenten waarin de opslagdocumenten van de goederen onverwijld en in chronologische volgorde worden ingeschreven en, in voorkomend geval, een centralisatieopgave van die registers;
 4° een uitslagdocument opstellen op het tijdstip dat de goederen uit het entrepot worden uitgeslagen, dit
 
-document overhandigen aan de persoon die de goederen aan de andere regeling van entrepot dan douaneentrepot onttrekt en een dubbel ervan bewaren dat hij bij de in de bepaling onder 6°, f) tot en met h), bedoelde dubbels voegt;
+document overhandigen aan de persoon die de goederen aan de andere regeling van entrepot dan douane-entrepot onttrekt en een dubbel ervan bewaren dat hij bij de in de bepaling onder 6°, f) tot en met h), bedoelde dubbels voegt;
 5° voor elke opslagplaats een register houden van de in de bepaling onder 4° bedoelde uitslagdocumenten waarin de uitslagdocumenten van de goederen onverwijld en in chronologische volgorde worden ingeschreven en, in voorkomend geval, een centralisatieopgave van die registers;
 6° een dubbel bewaren van:
 a) het invoerdocument wanneer de opslag plaatsvindt ingevolge een invoer in België;
@@ -143,7 +131,7 @@ De in paragraaf 1, 7°, bedoelde voorraadfiches bevatten minstens de volgende ge
 7° een omschrijving van de in het entrepot aan de goederen verrichte diensten;
 8° het saldo van de goederen in voorraad.
 § 3. Wanneer de plaatsing van de goederen onder de andere regeling van entrepot dan douane-entrepot het gevolg is van een levering in het binnenland, vermeldt de door de leverancier uitgereikte factuur naast de in artikel 5, § 1, van het koninklijk besluit nr. 1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde bedoelde gegevens, de naam, het adres, het in artikel 50 van het Wetboek bedoelde btw-identificatienummer van de vergunninghouder en het nummer van de in artikel 3 bedoelde vergunning entrepot ander dan douane-entrepot waar de goederen zullen worden opgeslagen en bevat, in plaats van de vermelding van de tarieven en het bedrag van de verschuldigde belasting, de vermelding: "Regeling btw-entrepot - Artikel 39quater, § 1, eerste lid, 1°, van het Wetboek - btw opeisbaar in hoofde van de medecontractant - artikel 51, § 2, eerste lid, 3°, van het Wetboek".
-Bij een levering van goederen die zich onder de andere regeling van entrepot dan douane-entrepot bevinden met handhaving van die regeling, vermeldt de door de leverancier uitgereikte factuur, naast de in artikel 5, § 1, van het koninklijk besluit nr. 1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde bedoelde gegevens, de naam, het adres, het in artikel 50 van het Wetboek bedoelde btw-identificatienummer van de vergunninghouder en het nummer van de in artikel 3 bedoelde vergunning entrepot ander dan douane-entrepot waar de goederen zullen worden opgeslagen en bevat, in plaats van de vermelding van de tarieven en de verschuldigde belasting, de vermelding: "Regeling btwentrepot - Artikel 39quater, § 1, eerste lid, 2°, van het Wetboek - btw opeisbaar in hoofde van de medecontractant - artikel 51, § 2, eerste lid, 3°, van het Wetboek".
+Bij een levering van goederen die zich onder de andere regeling van entrepot dan douane-entrepot bevinden met handhaving van die regeling, vermeldt de door de leverancier uitgereikte factuur, naast de in artikel 5, § 1, van het koninklijk besluit nr. 1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde bedoelde gegevens, de naam, het adres, het in artikel 50 van het Wetboek bedoelde btw-identificatienummer van de vergunninghouder en het nummer van de in artikel 3 bedoelde vergunning entrepot ander dan douane-entrepot waar de goederen zullen worden opgeslagen en bevat, in plaats van de vermelding van de tarieven en de verschuldigde belasting, de vermelding: "Regeling btw-entrepot - Artikel 39quater, § 1, eerste lid, 2°, van het Wetboek - btw opeisbaar in hoofde van de medecontractant - artikel 51, § 2, eerste lid, 3°, van het Wetboek".
 Bij krachtens artikel 39quater, § 1, 3°, van het Wetboek vrijgestelde diensten, vermeldt de door de dienstverrichter uitgereikte factuur, naast de in artikel 5, § 1, van het koninklijk besluit nr. 1 van 29 december 1992 met betrekking tot de regeling voor de voldoening van de belasting over de toegevoegde waarde bedoelde gegevens, de naam, het adres, het in artikel 50 van het Wetboek bedoelde btw-identificatienummer van de vergunninghouder en het nummer van de in artikel 3 bedoelde vergunning entrepot ander dan douane-entrepot waar de goederen zullen worden opgeslagen en bevat, in plaats van de vermelding van de tarieven en de verschuldigde belasting, de vermelding: "Regeling btw-entrepot. - Artikel 39quater, § 1, eerste lid, 3°, van het Wetboek - btw opeisbaar in hoofde van de medecontractant - artikel 51, § 2, eerste lid, 3°, van het Wetboek".
 
 ## Art. 6

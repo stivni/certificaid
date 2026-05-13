@@ -17,27 +17,26 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 4126295-dirty
+    pipeline_version: b893061
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:20:55Z'
+  generated_at: '2026-05-13T11:26:40Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:23:37Z'
+    confirmed_at: '2026-05-13T11:27:21Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Hoofdtekst (Art. 1-5) is schoon. Echter regels 72, 74, 76 bevatten nog steeds drie plain-text labels 'Bijlage 1', 'Bijlage 2', 'Bijlage 3' zonder ##-prefix en zonder inhoud. De huidige transformers (strip_mb_compilatie_cover, fix_pdftotext_glue_bugs) raken dit specifieke 'Bijlage N'-trailing-label-patroon niet. Een buitenstaander ziet drie naakte 'Bijlage' regels onderaan zonder content — duidelijk onafgemaakt."
+    rationale: promote_wettekst_section_labels heeft 'Bijlage 1/2/3' op regels 72, 74, 76 succesvol gepromoot naar '## Bijlage N' headings. Maar de bijlagen blijven volledig leeg — er staat geen content onder. Voor RAG levert dit drie nutteloze section-ankers zonder body op. Een buitenstaander ziet drie naakte 'Bijlage'-headings onderaan; duidelijk onafgemaakt. Een strip_empty_trailing_headings transformer ontbreekt nog, of de bijlagen-inhoud moet alsnog uit de PDF worden meegenomen.
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:23:37Z'
-      rationale: "Hoofdtekst (Art. 1-5) is schoon. Echter regels 72, 74, 76 bevatten nog steeds drie plain-text labels 'Bijlage 1', 'Bijlage 2', 'Bijlage 3' zonder ##-prefix en zonder inhoud. De huidige transformers (strip_mb_compilatie_cover, fix_pdftotext_glue_bugs) raken dit specifieke 'Bijlage N'-trailing-label-patroon niet. Een buitenstaander ziet drie naakte 'Bijlage' regels onderaan zonder content — duidelijk onafgemaakt."
+      run_at: '2026-05-13T11:27:21Z'
+      rationale: promote_wettekst_section_labels heeft 'Bijlage 1/2/3' op regels 72, 74, 76 succesvol gepromoot naar '## Bijlage N' headings. Maar de bijlagen blijven volledig leeg — er staat geen content onder. Voor RAG levert dit drie nutteloze section-ankers zonder body op. Een buitenstaander ziet drie naakte 'Bijlage'-headings onderaan; duidelijk onafgemaakt. Een strip_empty_trailing_headings transformer ontbreekt nog, of de bijlagen-inhoud moet alsnog uit de PDF worden meegenomen.
       concrete_problemen:
-        - "Regels 72, 74, 76: 'Bijlage 1', 'Bijlage 2', 'Bijlage 3' als plain-text labels zonder ##-prefix en zonder content"
-        - Bijlagen-inhoud (modelberichten 93ter/93quinquies en 433/435) ontbreekt — kerncontent van het MB
-        - "Uitbreiding strip_empty_trailing_headings nodig: ook 'Bijlage N' patroon afvangen"
+        - "Regels 72, 74, 76: '## Bijlage 1', '## Bijlage 2', '## Bijlage 3' zonder content eronder — lege section-ankers"
+        - Bijlagen-content (modelberichten 93ter/93quinquies en 433/435) ontbreekt — kerncontent van het MB
 ---
 
 # M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992
