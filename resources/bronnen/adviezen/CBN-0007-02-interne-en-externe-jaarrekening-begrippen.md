@@ -28,7 +28,7 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:26:26Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'D4: gecombineerde bold/italic marker op regel 56 (*Bull. **CBN* nr. 2) is fout gesloten door ETL; mixing van inline formatting. Verder schoon advies.'
     layer1:
@@ -42,7 +42,7 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
+      run_at: '2026-05-13T12:26:26Z'
       rationale: 'D4: gecombineerde bold/italic marker op regel 56 (*Bull. **CBN* nr. 2) is fout gesloten door ETL; mixing van inline formatting. Verder schoon advies.'
       concrete_problemen:
         - regel: 56

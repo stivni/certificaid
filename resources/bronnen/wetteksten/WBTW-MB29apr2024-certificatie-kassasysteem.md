@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:26:40Z'
+  generated_at: '2026-05-13T12:24:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:27:20Z'
+    confirmed_at: '2026-05-13T12:28:36Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Inconsistente heading-stijl: meeste artikelen als '###### Art. N' maar artikelen 5-12, 46, 64, 86 en 132 staan als plain text 'Artikel N.' midden in de prose (checklist B). Daarnaast een gedegenereerde pseudo-tabel voor de btw-codes (regels 203-216) met scrambled kolommen en multi-line cellen (checklist E + checklist A column-bleed). Dit is duidelijk ETL-residu."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:27:20Z'
+      run_at: '2026-05-13T12:28:36Z'
       rationale: "Inconsistente heading-stijl: meeste artikelen als '###### Art. N' maar artikelen 5-12, 46, 64, 86 en 132 staan als plain text 'Artikel N.' midden in de prose (checklist B). Daarnaast een gedegenereerde pseudo-tabel voor de btw-codes (regels 203-216) met scrambled kolommen en multi-line cellen (checklist E + checklist A column-bleed). Dit is duidelijk ETL-residu."
       concrete_problemen:
         - "Heading-inconsistentie: 'Artikel 5. Event Normal' (regel 142), 'Artikel 6.' (147), 'Artikel 7.' (156), 'Artikel 8.' (159), 'Artikel 9.' (162), 'Artikel 10.' (165), 'Artikel 11.' (168), 'Artikel 12.' (176), 'Artikel 46.' (343), 'Artikel 64.' (435), 'Artikel 86' (572), 'Artikel 132.' (886) staan als plain text terwijl andere artikelen ###### gebruiken"
@@ -141,12 +141,12 @@ Een geregistreerd kassasysteem zoals bedoeld in artikel 2 van de wet van 30 juli
 ###### Art. 4
 Het kassasysteem dient minimaal in staat te zijn volgende events te genereren: - Normal (N) - Financial (F) - Social (S) - Report (R) Indien het kassasysteem eveneens voorziet in de events: - Pro Forma (P), - Invoice (I), - Training (T) - Copy (C) moeten hiervoor de technische eisen zoals vermeld in dit besluit worden nageleefd.
 
-Artikel 5. Event Normal
+###### Art. 5 — Event Normal
 1° Een event dat wordt aangemaakt bij het beëindigen van de registratie van een verkooptransactie en altijd resulteert in de aanmaak van een btw-kasticket, zoals bedoeld in artikel 2, punt 4 van het koninklijk besluit van 30 december 2009, tot het bepalen van de definitie en de voorwaarden waaraan een geregistreerd kassasysteem moet voldoen en artikel 21bis van het koninklijk besluit nr. 1 tot voldoening van de btw.
 2° Een boeking als event Normal bevat enkel de geregistreerde productlijnen waarop ze betrekking heeft in chronologische volgorde en met inbegrip van correcties en prijswijzigingen gekoppeld aan de correcte productlijn.
 3° Wanneer een btw-kasticket enkel negatieve productlijnen bevat wordt de vermelding 'REFUND' aangebracht. Ingeval dit een volledige terugname van een eerder uitgereikt btw-kasticket betreft wordt bijkomend de verwijzing naar het oorspronkelijke btw-kasticket opgenomen.
 
-Artikel 6. Event Pro Forma
+###### Art. 6 — Event Pro Forma
 Een event Pro Forma wordt in één van de volgende situaties aangemaakt: a. een registratie waarbij het volledige kassasysteem zich in een pro forma modus bevindt; b. elke boeking binnen een functionaliteit die een registratie tijdelijk kan onderbreken, pauzeren en hervatten; c. het aanmaken van een rekeningoverzicht.
 Met Pro Forma Modus wordt bedoeld de loutere illustratieve registraties, waarbij het kassasysteem registraties kan uitvoeren, zonder de verkoopresultaten te beïnvloeden.
 Bij een onderbroken verkoop worden de betreffende deeltransacties (boekingen) geregistreerd als Event Pro Forma. Deze registraties moeten finaal resulteren in een event Normal.
@@ -155,19 +155,19 @@ Het rekeningoverzicht dient een overzicht van de geboekte orders en/of het te be
 Elke onderbroken verkoopregistratie, behalve het doorboeken van een tafel naar een globale hotelrekening, dient finaal te resulteren in een event Normal.
 Afdrukken van onder punt b. hierboven bedoelde boekingen, onder gelijk welke vorm, mogen geen bedragen bevatten.
 
-Artikel 7. Event Training
+###### Art. 7 — Event Training
 Alle registraties die aangemaakt worden terwijl ofwel het kassasysteem ofwel de gebruiker zich in een trainingmodus bevindt.
 
-Artikel 8. Event Copy
+###### Art. 8 — Event Copy
 Een kopie van een eerder aangemaakt event. Hierbij wordt steeds de referentie naar het oorspronkelijke event opgegeven. Er mag een kopie aangemaakt worden van volgende events: Normal, Pro Forma, Invoice, Social, Financial en Report.
 
-Artikel 9. Event Social
+###### Art. 9 — Event Social
 De registratie van start- of einduur van de aanwezigheid op de arbeidsplek van een personeelslid.
 
-Artikel 10. Event Report
+###### Art. 10 — Event Report
 Het aanmaken van fiscale rapporten met betrekking tot de omzet of de gebruikers met gegevens afkomstig van het kassasysteem en de FDM zoals beschreven in de artikelen. 21 tot en met 30.
 
-Artikel 11. Event Financial
+###### Art. 11 — Event Financial
 De registratie van financiële verrichtingen die niet als omzet inzake btw worden beschouwd en betrekking hebben op één van de volgende situaties: - de input in speciën;
 - de output in speciën;
 
@@ -175,7 +175,7 @@ De registratie van financiële verrichtingen die niet als omzet inzake btw worde
 - de betaling van eerder uitgereikte btw-kasticket;
 - de correcties van foutief geregistreerde betaalwijzen na afsluiting.
 
-Artikel 12. Event Invoice
+###### Art. 12 — Event Invoice
 Het event waarbij een factuur, bedoeld in artikel 53, § 2, eerste lid, van het Wetboek van de belasting over de toegevoegde waarde, van één (of meerdere) eerder uitgereikt(e) btw-kasticket(s) wordt aangemaakt.
 
 ###### Art. 13
@@ -342,7 +342,9 @@ Een kassasysteem mag geen mogelijkheid bieden om de instellingen (parameters), o
 
 #### Afdeling 3. - Identificatie van het kassasysteem
 
-Artikel 46. Elk kassasysteem moet voorzien zijn van een modelaanduiding en een productienummer. Dit productienummer moet een uniek nummer zijn waarmee zowel het kassasysteem als de producent ervan éénduidig wordt geïdentificeerd. Het productienummer wordt als volgt opgebouwd: CXXXNNNPPPPPP waarbij: - CXXX = identificatienummer producent van een kassasysteem (op aanvraag verstrekt door de administratie);
+###### Art. 46
+
+Elk kassasysteem moet voorzien zijn van een modelaanduiding en een productienummer. Dit productienummer moet een uniek nummer zijn waarmee zowel het kassasysteem als de producent ervan éénduidig wordt geïdentificeerd. Het productienummer wordt als volgt opgebouwd: CXXXNNNPPPPPP waarbij: - CXXX = identificatienummer producent van een kassasysteem (op aanvraag verstrekt door de administratie);
 - NNN = volgnummer, door de administratie toegekend aan het model;
 - PPPPPPP = alfanumeriek uniek productienummer (gebaseerd op serienummer of licentiesleutel).
 Dit unieke productienummer moet op elk opgesteld kassasysteem duidelijk zichtbaar zijn of op eenvoudige manier raadpleegbaar zijn (procedure voor te leggen door de producent).
@@ -434,7 +436,9 @@ De FDM moet berichten van het kassasysteem kunnen ontvangen, valideren en beantw
 
 ##### Onderafdeling 1. - Tellers
 
-Artikel 64. De FDM bevat minimaal volgende tellers, die bij ondertekening van de inhoud van de betreffende events worden geüpdatet: - aantal events Normal;
+###### Art. 64
+
+De FDM bevat minimaal volgende tellers, die bij ondertekening van de inhoud van de betreffende events worden geüpdatet: - aantal events Normal;
 - aantal events Pro Forma;
 - aantal events Invoice;
 - aantal events Financial;
@@ -571,7 +575,7 @@ De user interface van de FDM mag:
 
 ##### Onderafdeling 3. - User interface - configuratie
 
-Artikel 86
+###### Art. 86
 Hieronder worden zowel de configuratie van de netwerkverbinding met het kassasysteem als deze met de servers van de FOD Financiën bedoeld.
 
 ##### Onderafdeling 4. - Cyberbeveiliging
@@ -885,4 +889,6 @@ Het niet registreren van onderdelen van het geregistreerd kassasysteem door prod
 
 ## TITEL V. - SLOTBEPALINGEN
 
-Artikel 132. Dit besluit vervangt Circulaire AAFisc Nr. 33/2016 (E.T. 124.747) van 8 november 2016 (Belgisch Staatsblad 16 januari 2017).
+###### Art. 132
+
+Dit besluit vervangt Circulaire AAFisc Nr. 33/2016 (E.T. 124.747) van 8 november 2016 (Belgisch Staatsblad 16 januari 2017).

@@ -34,9 +34,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:28:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Laag-1 pass, heading_count 0 klopt: het advies is één doorlopend tekstblok zonder expliciete secties (zo ook in het origineel — kort advies van één paragraaf). Inhoud volledig, geen artefacten, geen voetnoten nodig, geen bullets. Eén typ-artefact ('daaarentegen' met drie a's op regel 61) maar dat is waarschijnlijk originele tekst."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -48,9 +48,13 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:30Z'
+      rationale: "Laag-1 pass, heading_count 0 klopt: het advies is één doorlopend tekstblok zonder expliciete secties (zo ook in het origineel — kort advies van één paragraaf). Inhoud volledig, geen artefacten, geen voetnoten nodig, geen bullets. Eén typ-artefact ('daaarentegen' met drie a's op regel 61) maar dat is waarschijnlijk originele tekst."
+      concrete_problemen:
+        - regel: 61
+          categorie: D1
+          type: other
+          voorbeeld: wanneer daaarentegen de aankoop (driemaal 'a' — vermoedelijk tikfout in origineel)
 ---
 # CBN-advies 180/1 - Verwerking in de jaarrekening van de door de Vlaamse regering gecreëerde opleidingscheques
 

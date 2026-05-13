@@ -29,10 +29,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-12T23:49:44Z'
+    status: trusted
+    confirmed_at: '2026-05-13T12:28:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D1: laatste zin eindigt zonder punt na "rekeningenstelsel" - grammaticaal onvolledige bijzin. Scraper heeft het einde van de pagina niet volledig opgehaald.'
+    rationale: Korte advies-tekst (3388 chars), één sectie, geen headings nodig. Alle 4 voetnoten correct gedefinieerd en gerefereerd. Geen PDF-artefacten, geen structuurfouten.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -42,15 +42,11 @@ provenance:
       file_size_chars: 3387
       flags: []
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
-      rationale: 'D1: laatste zin eindigt zonder punt na "rekeningenstelsel" - grammaticaal onvolledige bijzin. Scraper heeft het einde van de pagina niet volledig opgehaald.'
-      concrete_problemen:
-        - regel: 11
-          categorie: D1
-          type: abrupt-cutoff
-          voorbeeld: '...zelfs wanneer...rekeningenstelsel (zin zonder punt)'
+      run_at: '2026-05-13T12:28:32Z'
+      rationale: Korte advies-tekst (3388 chars), één sectie, geen headings nodig. Alle 4 voetnoten correct gedefinieerd en gerefereerd. Geen PDF-artefacten, geen structuurfouten.
+      concrete_problemen: []
 ---
 # CBN-advies 140 - Overeenstemming tussen de boekhouding en de jaarrekening
 

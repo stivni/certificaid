@@ -36,9 +36,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:47Z'
+    confirmed_at: '2026-05-13T12:28:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (15 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Ronde-1-verdict (needs-rework voor A3 TOC op regels 55-71) is na re-scrape niet langer van toepassing: het huidige bestand begint direct met `## Algemeen` op regel 67 zonder enige TOC-blok ervoor. Heading-hiërarchie (H1 → H2 → H3) is correct en consistent. Geen extractie-artefacten aangetroffen in categorieën A-G. Inhoud volledig: definities, verduidelijkingen, overgangsbepalingen, voorbeelden en 22 voetnoten.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -50,8 +50,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:47Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (15 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:34Z'
+      rationale: 'Ronde-1-verdict (needs-rework voor A3 TOC op regels 55-71) is na re-scrape niet langer van toepassing: het huidige bestand begint direct met `## Algemeen` op regel 67 zonder enige TOC-blok ervoor. Heading-hiërarchie (H1 → H2 → H3) is correct en consistent. Geen extractie-artefacten aangetroffen in categorieën A-G. Inhoud volledig: definities, verduidelijkingen, overgangsbepalingen, voorbeelden en 22 voetnoten.'
       concrete_problemen: []
 ---
 # CBN-advies 2019/09 – Boekhoudplichtige onderneming

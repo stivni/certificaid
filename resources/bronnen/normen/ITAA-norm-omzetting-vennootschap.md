@@ -33,9 +33,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_at: '2026-05-13T12:27:03Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B4: 10 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als standalone heading — identiek patroon als effectennorm (twee-kolom lay-out kolomkop geëxtraheerd als heading). A6: preamble (r53-120) bevat afgebroken zinnen door kolom-extractie. Heading 'Ontwerp' op r49 als plain text zonder ##. Heading '## II. Algemene bepalingen II.1. Deontologische beginselen VEREISTEN TOEPASSINGSMODALITEITEN' (r273) — meerdere labels samengeperst in één heading. Bijlagen aanwezig."
+    rationale: "Laag-1 warn: 29 TOC-stippelregels aanwezig — geconfirmeerd in body (INHOUDSTAFEL L199-281 met dotted-leaders). Tweekoloms-extract leidt tot structurele problemen: kolom 'A.' (toepassingsmodaliteiten) en de vereiste-kolom lopen door elkaar, waardoor alinea's beginnen met 'A.' of 'A1.' als aparte regels (B4/A7). Sectie IV ('Uit te voeren werkzaamheden teneinde de verslaggeving bij de grensoverschrijdende omzetting') staat niet als ## heading (alleen IV.1, IV.2, IV.3 staan in body als plain-text). Page-footers 'OPENBARE RAADPLEGING JUNI 2025 X/64' herhaald in body. Ondanks de grote omvang (153k chars) is de inhoud grotendeels compleet."
     layer1:
       status: pass
       run_id: 20260513-000913
@@ -47,21 +47,33 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T00:12:30Z'
-      rationale: "B4: 10 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als standalone heading — identiek patroon als effectennorm (twee-kolom lay-out kolomkop geëxtraheerd als heading). A6: preamble (r53-120) bevat afgebroken zinnen door kolom-extractie. Heading 'Ontwerp' op r49 als plain text zonder ##. Heading '## II. Algemene bepalingen II.1. Deontologische beginselen VEREISTEN TOEPASSINGSMODALITEITEN' (r273) — meerdere labels samengeperst in één heading. Bijlagen aanwezig."
+      run_at: '2026-05-13T12:27:03Z'
+      rationale: "Laag-1 warn: 29 TOC-stippelregels aanwezig — geconfirmeerd in body (INHOUDSTAFEL L199-281 met dotted-leaders). Tweekoloms-extract leidt tot structurele problemen: kolom 'A.' (toepassingsmodaliteiten) en de vereiste-kolom lopen door elkaar, waardoor alinea's beginnen met 'A.' of 'A1.' als aparte regels (B4/A7). Sectie IV ('Uit te voeren werkzaamheden teneinde de verslaggeving bij de grensoverschrijdende omzetting') staat niet als ## heading (alleen IV.1, IV.2, IV.3 staan in body als plain-text). Page-footers 'OPENBARE RAADPLEGING JUNI 2025 X/64' herhaald in body. Ondanks de grote omvang (153k chars) is de inhoud grotendeels compleet."
       concrete_problemen:
-        - regel: 155
+        - regel: 201
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: "'Toepassingsgebied .............................................................................................................  6'"
+        - regel: 1237
+          categorie: A1
+          type: form-feed
+          voorbeeld: "'OPENBARE RAADPLEGING JUNI 2025  36/64' embedded in body (herhaald meerdere keren)"
+        - regel: 1023
           categorie: B4
           type: other
-          voorbeeld: '## VEREISTEN TOEPASSINGSMODALITEITEN (kolomkop als heading, 10x herhaald)'
-        - regel: 49
+          voorbeeld: "'III. Uit te voeren werkzaamheden teneinde het verslag bij de omzetting op te stellen' — als plain text, geen ## prefix"
+        - regel: 1323
           categorie: B4
           type: other
-          voorbeeld: 'Ontwerp (plain text prefix zonder ## voor de norm-titel)'
-        - regel: 53
-          categorie: A6
-          type: other
-          voorbeeld: BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien artikel 31... (afgekapte aanhef)
+          voorbeeld: "'IV. Uit te voeren werkzaamheden teneinde de verslaggeving bij de grensoverschrijdende omzetting te doen' — plain text, niet als ##"
+        - regel: 297
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "'A. omzettingen mogelijk:\\nA. –\\neen vennootschap...' — kolom-prefix 'A.' verspreid door opsommingen"
+        - regel: 360
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "'A. getrouw en voldoende zijn van de financiële en boekhoudkundige gegevens\\nopgenomen in het verslag van het bestuursorgaan (Wetboek van\\nvennootschappen\\nen\\nverenigingen)\\ndienen\\ntoe\\nte\\npassen.' — kolom-extract"
 ---
 Ontwerp
 

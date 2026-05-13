@@ -45,7 +45,7 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:49:48Z'
+    confirmed_at: '2026-05-13T12:26:31Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'B4: "HET LOT VAN EEN VERGETEN ACTIEF OF PASSIEF NA DE SLUITING VAN DE VEREFFENING" (regel 171) is plain-text-header zonder ##-prefix. Overige headings correct aangemaakt.'
     layer1:
@@ -59,7 +59,7 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:48Z'
+      run_at: '2026-05-13T12:26:31Z'
       rationale: 'B4: "HET LOT VAN EEN VERGETEN ACTIEF OF PASSIEF NA DE SLUITING VAN DE VEREFFENING" (regel 171) is plain-text-header zonder ##-prefix. Overige headings correct aangemaakt.'
       concrete_problemen:
         - regel: 171

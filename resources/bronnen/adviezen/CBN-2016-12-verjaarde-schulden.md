@@ -25,9 +25,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:46Z'
+    confirmed_at: '2026-05-13T12:28:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Schoon bestand zonder extractie-artefacten. Vijf headings correct genest, voetnoten [^1]–[^15] volledig aanwezig en correct gerefereerd. Tekst doorlopend zonder spurious line-breaks. Geen tabellen aanwezig (niet vereist voor dit type advies). Inhoud compleet: burgerrechtelijke bepalingen + twee boekhoudkundige scenario's behandeld."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -39,8 +39,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:46Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:31Z'
+      rationale: "Schoon bestand zonder extractie-artefacten. Vijf headings correct genest, voetnoten [^1]–[^15] volledig aanwezig en correct gerefereerd. Tekst doorlopend zonder spurious line-breaks. Geen tabellen aanwezig (niet vereist voor dit type advies). Inhoud compleet: burgerrechtelijke bepalingen + twee boekhoudkundige scenario's behandeld."
       concrete_problemen: []
 ---
 # CBN-advies 2016/12 - Verjaarde schulden

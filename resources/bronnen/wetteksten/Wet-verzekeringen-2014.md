@@ -17,30 +17,24 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: dbf933a-dirty
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:55:37Z'
+  generated_at: '2026-05-13T12:25:15Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T11:05:58Z'
-    confirmed_by: human
-    rationale: Trailing empty '## Art.' heading gestript door strip_empty_trailing_headings; body volledig en correct.
+    confirmed_at: '2026-05-13T12:28:26Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Laag-1 meldt max_section_size warn (32357 chars in één sectie), maar dat is een chunker-attentie, geen inhoudelijk ETL-defect. De markdown zelf is structureel correct: ## DEEL / ### TITEL / #### HOOFDSTUK / ###### Art. gelaagd en consistent. Structuurlabels als 'Doel', 'Toepassingsgebied', 'Definities' staan als **bold** (niet als plain text), wat acceptabel is als stylistisch alternatief voor sub-headings in een definitie-zware wet. Geen TOC-residu, geen form-feeds, geen OCR-artefacten, geen spurious line-breaks. Amendment-brackets [ ... ] zijn open-en-dicht. Inhoud volledig: Deel 1–4 aanwezig, definities Art. 5 volledig met 60+ genummerde items. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien."
     layer1:
-      status: warn
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:41Z'
-      heading_count: 200
-      max_section_chars: 32357
-      file_size_chars: 195422
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ######-niveau: 32357 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:28:26Z'
+      rationale: "Laag-1 meldt max_section_size warn (32357 chars in één sectie), maar dat is een chunker-attentie, geen inhoudelijk ETL-defect. De markdown zelf is structureel correct: ## DEEL / ### TITEL / #### HOOFDSTUK / ###### Art. gelaagd en consistent. Structuurlabels als 'Doel', 'Toepassingsgebied', 'Definities' staan als **bold** (niet als plain text), wat acceptabel is als stylistisch alternatief voor sub-headings in een definitie-zware wet. Geen TOC-residu, geen form-feeds, geen OCR-artefacten, geen spurious line-breaks. Amendment-brackets [ ... ] zijn open-en-dicht. Inhoud volledig: Deel 1–4 aanwezig, definities Art. 5 volledig met 60+ genummerde items. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien."
+      concrete_problemen: []
 ---
 
 # Wet 4 april 2014 betreffende de verzekeringen

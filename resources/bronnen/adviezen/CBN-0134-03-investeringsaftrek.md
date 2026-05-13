@@ -36,9 +36,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_at: '2026-05-13T12:28:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (1526 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    rationale: Zeer kort advies (1527 tekens), één alinea + voetnoot. Geen artefacten. Inhoud volledig en afgerond.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -50,8 +50,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
-      rationale: 'Kort advies (1526 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+      run_at: '2026-05-13T12:28:34Z'
+      rationale: Zeer kort advies (1527 tekens), één alinea + voetnoot. Geen artefacten. Inhoud volledig en afgerond.
       concrete_problemen: []
 ---
 # CBN-advies 134/3 - Investeringsaftrek

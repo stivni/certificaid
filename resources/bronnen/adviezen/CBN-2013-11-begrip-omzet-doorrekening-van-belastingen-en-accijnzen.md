@@ -33,9 +33,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:46Z'
+    confirmed_at: '2026-05-13T12:28:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 3 duidelijke H2-secties, alle footnotes correct gemarkeerd en gedefinieerd ([^1]–[^3]). Geen extractie-artefacten. Tekst leest als mens-geschreven markdown.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -47,8 +47,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:46Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:30Z'
+      rationale: 3 duidelijke H2-secties, alle footnotes correct gemarkeerd en gedefinieerd ([^1]–[^3]). Geen extractie-artefacten. Tekst leest als mens-geschreven markdown.
       concrete_problemen: []
 ---
 # CBN-advies 2013/11 - Begrip “omzet”: doorrekening van belastingen en accijnzen

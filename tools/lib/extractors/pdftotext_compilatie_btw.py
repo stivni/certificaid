@@ -103,8 +103,15 @@ _ART_BIS_SUFFIX = (
 _ARTIKEL_PLAIN_RE = re.compile(
     rf"^[ \t]+Artikel\s+(\d+(?:{_ART_BIS_SUFFIX})?(?:/\d+)?)\s*\.?\s*$"
 )
+# Variant met titel-suffix: "Artikel 5. Event Normal", "Artikel 12. Event Invoice"
+_ARTIKEL_PLAIN_TITLE_RE = re.compile(
+    rf"^[ \t]*Artikel\s+(\d+(?:{_ART_BIS_SUFFIX})?(?:/\d+)?)\.\s+(\S.{{1,80}})$"
+)
 _EERSTE_AFD_RE = re.compile(
     r"^[ \t]+(" + "|".join(_AFDELING_WORDS) + r")\s+AFDELING\s*\.?\s*$"
+)
+_EERSTE_HOOFDSTUK_RE = re.compile(
+    r"^[ \t]*(" + "|".join(_AFDELING_WORDS) + r")\s+HOOFDSTUK\s*\.?\s*$"
 )
 _AFDELING_RE = re.compile(
     r"^(?:#{1,4}\s+)?AFDELING\.?\s+([IVXLCDM]+)\b\.?\s*(.*)$"
@@ -147,6 +154,11 @@ def _normalize_afdeling_and_artikel(body: str) -> str:
             roman = _AFDELING_WORDS[m_word.group(1).upper()]
             out.append(f"AFDELING {roman}")
             continue
+        m_hk = _EERSTE_HOOFDSTUK_RE.match(ln)
+        if m_hk:
+            roman = _AFDELING_WORDS[m_hk.group(1).upper()]
+            out.append(f"HOOFDSTUK {roman}")
+            continue
         m_afd = _AFDELING_RE.match(ln)
         if m_afd and not _is_toc_line(ln):
             roman = m_afd.group(1)
@@ -156,6 +168,13 @@ def _normalize_afdeling_and_artikel(body: str) -> str:
         m_art = _ARTIKEL_PLAIN_RE.match(ln)
         if m_art:
             out.append(f"Art. {m_art.group(1)}")
+            continue
+        m_art_title = _ARTIKEL_PLAIN_TITLE_RE.match(ln)
+        if m_art_title:
+            # `Artikel 5. Event Normal` → `Art. 5 — Event Normal`
+            num = m_art_title.group(1)
+            title = m_art_title.group(2).strip().rstrip(".")
+            out.append(f"Art. {num} — {title}")
             continue
         out.append(ln)
     return "\n".join(out)

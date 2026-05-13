@@ -33,9 +33,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:27Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (497 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    rationale: "Bug D4 (gebroken italic '*Kredietinstellingen *') is opgelost: body regel 56 toont correct gesloten '*Kredietinstellingen*'. Het advies is inhoudelijk volledig (één kernparagraaf), geen artefacten zichtbaar. Schoon genoeg om voor mens-geschreven door te gaan."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -47,8 +47,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: 'Kort advies (497 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+      run_at: '2026-05-13T12:28:27Z'
+      rationale: "Bug D4 (gebroken italic '*Kredietinstellingen *') is opgelost: body regel 56 toont correct gesloten '*Kredietinstellingen*'. Het advies is inhoudelijk volledig (één kernparagraaf), geen artefacten zichtbaar. Schoon genoeg om voor mens-geschreven door te gaan."
       concrete_problemen: []
 ---
 # CBN-advies R102/3 - Te innen cheques : rekening 53

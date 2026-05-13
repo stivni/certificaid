@@ -17,39 +17,40 @@ provenance:
       version: 11.12.2006
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:15:01Z'
+  generated_at: '2026-05-13T12:25:03Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T10:38:29Z'
+    confirmed_at: '2026-05-13T12:27:07Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B3: concordantietabel aan het einde van het document (ca. regel 4300+) genereert art.-headings zoals '###### Art. 1, onder 1), tweede alinea, van Richtlijn 89/465/EEG' — dit zijn concordantie-tabelrijen die als headings worden geïnterpreteerd, wat de heading-boom vervuilt. L1 warn: max sectie 36349 chars (chunker vangt dit op). Inhoud van de eigenlijke richtlijn is volledig aanwezig."
+    rationale: "A1/A2: Lange inhoudstafel (regels 60-386) met dotted leaders is als ## / ### / #### / ##### headings in de body opgenomen, waardoor de TOC verdubbelt met de echte body-secties. A1: Pagina-footers 'NL', 'Publicatieblad van de Europese Unie' en 'L 347/x' staan als losse regels verspreid door de body (226 NL/L347-regels geteld). B2: Hiërarchiesprong: body-artikelen starten op ###### terwijl TITEL op ### staat. Inhoud is overigens volledig en leesbaar NL."
     layer1:
-      status: warn
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:36Z'
-      heading_count: 673
-      max_section_chars: 36349
-      file_size_chars: 222242
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ######-niveau: 36349 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:38:29Z'
-      rationale: "B3: concordantietabel aan het einde van het document (ca. regel 4300+) genereert art.-headings zoals '###### Art. 1, onder 1), tweede alinea, van Richtlijn 89/465/EEG' — dit zijn concordantie-tabelrijen die als headings worden geïnterpreteerd, wat de heading-boom vervuilt. L1 warn: max sectie 36349 chars (chunker vangt dit op). Inhoud van de eigenlijke richtlijn is volledig aanwezig."
+      run_at: '2026-05-13T12:27:07Z'
+      rationale: "A1/A2: Lange inhoudstafel (regels 60-386) met dotted leaders is als ## / ### / #### / ##### headings in de body opgenomen, waardoor de TOC verdubbelt met de echte body-secties. A1: Pagina-footers 'NL', 'Publicatieblad van de Europese Unie' en 'L 347/x' staan als losse regels verspreid door de body (226 NL/L347-regels geteld). B2: Hiërarchiesprong: body-artikelen starten op ###### terwijl TITEL op ### staat. Inhoud is overigens volledig en leesbaar NL."
       concrete_problemen:
-        - regel: 4445
-          categorie: B3
+        - regel: 61
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: '### TITEL I - VOORWERP EN TOEPASSINGSGEBIED . . . . . . . . . . . . . . .'
+        - regel: 99
+          categorie: A1
+          type: form-feed
+          voorbeeld: "L 347/6\n\nNL\n\nPublicatieblad van de Europese Unie"
+        - regel: 387
+          categorie: A3
           type: other
-          voorbeeld: Artikel 1, onder 1), tweede alinea, van Richtlijn 89/465/EEG — concordantietabel-rij als heading
+          voorbeeld: iii) — los tekstfragment tussen TOC en body (concordantietabel-residu)
+        - regel: 392
+          categorie: B2
+          type: other
+          voorbeeld: '### TITEL I (body) → ###### Art. 1: sprong van ### naar ###### zonder tussenniveaus'
 ---
 
 # Richtlijn 2006/112/EG van de Raad betreffende het gemeenschappelijke stelsel van belasting over de toegevoegde waarde
@@ -424,7 +425,7 @@ BIJLAGE X - LIJST VAN HANDELINGEN WAARVOOR DE IN DE ARTIKELEN 370 EN 371 EN DE A
 
 ## Deel B - Handelingen die de lidstaten mogen blijven vrijstellen
 
-BIJLAGE XI
+## Bijlage XI
 
 ## Deel A - Ingetrokken richtlijnen met de achtereenvolgende wijzigingen ervan
 
@@ -2110,7 +2111,7 @@ b) het in de zin van artikel 408, lid 1, punt a), ingevoerde goed is geen vervoe
 
 c) het in de zin van artikel 408, lid 1, punt a), ingevoerde goed is een vervoermiddel dat vóór de datum van toetreding
 
-BIJLAGE I
+## Bijlage I
 
 LIJST VAN WERKZAAMHEDEN BEDOELD IN ARTIKEL 14, LID 1, DERDE ALINEA
 
@@ -2140,7 +2141,7 @@ LIJST VAN WERKZAAMHEDEN BEDOELD IN ARTIKEL 14, LID 1, DERDE ALINEA
 
 13) werkzaamheden van radio- en televisiediensten voor zover deze niet uit hoofde van artikel 132, lid 1, onder q), zijn vrijgesteld.
 
-BIJLAGE II
+## Bijlage II
 
 INDICATIEVE LIJST VAN LANGS ELEKTRONISCHE WEG VERRICHTE DIENSTEN BEDOELD IN ARTIKEL 56, LID 1, PUNT K)
 
@@ -2154,7 +2155,7 @@ INDICATIEVE LIJST VAN LANGS ELEKTRONISCHE WEG VERRICHTE DIENSTEN BEDOELD IN ARTI
 
 5) de levering van onderwijs op afstand.
 
-BIJLAGE III
+## Bijlage III
 
 LIJST VAN DE GOEDERENLEVERINGEN EN DE DIENSTEN WAAROP DE IN ARTIKEL 98 BEDOELDE VERLAAGDE TARIEVEN MOGEN WORDEN TOEGEPAST
 
@@ -2194,7 +2195,7 @@ LIJST VAN DE GOEDERENLEVERINGEN EN DE DIENSTEN WAAROP DE IN ARTIKEL 98 BEDOELDE 
 
 18) diensten in verband met de reiniging van de openbare weg, het ophalen van huisvuil en de afvalverwerking, andere dan de diensten die door de in artikel 13 bedoelde lichamen worden verstrekt.
 
-BIJLAGE IV
+## Bijlage IV
 
 LIJST VAN DE IN ARTIKEL 106 BEDOELDE DIENSTEN
 
@@ -2214,7 +2215,7 @@ c) kleding en huishoudlinnen (ook herstellen en vermaken);
 
 5) kappersdiensten.
 
-BIJLAGE V
+## Bijlage V
 
 CATEGORIEËN GOEDEREN DIE VOLGENS ARTIKEL 160, LID 2, ONDER EEN ANDER STELSEL VAN ENTREPOTS DAN DOUANE-ENTREPOTS KUNNEN VALLEN
 
@@ -2286,7 +2287,7 @@ GN – code Omschrijving
 
 ex 8112 99
 
-BIJLAGE VI
+## Bijlage VI
 
 LIJST VAN GOEDERENLEVERINGEN EN DIENSTEN ALS BEDOELD IN PUNT D) VAN ARTIKEL 199, LID 1
 
@@ -2302,7 +2303,7 @@ LIJST VAN GOEDERENLEVERINGEN EN DIENSTEN ALS BEDOELD IN PUNT D) VAN ARTIKEL 199,
 
 6) de levering van resten en afval dat ontstaat bij de bewerking van grondstoffen.
 
-BIJLAGE VII
+## Bijlage VII
 
 LIJST VAN LANDBOUWPRODUCTIEWERKZAAMHEDEN BEDOELD IN ARTIKEL 295, LID 1, PUNT 4)
 
@@ -2342,7 +2343,7 @@ c) teelt van mosselen, oesters en andere week- en schaaldieren;
 
 d) kikvorsenteelt.
 
-BIJLAGE VIII
+## Bijlage VIII
 
 INDICATIEVE LIJST VAN AGRARISCHE DIENSTEN BEDOELD IN ARTIKEL 295, LID 1, PUNT 5)
 
@@ -2364,7 +2365,7 @@ INDICATIEVE LIJST VAN AGRARISCHE DIENSTEN BEDOELD IN ARTIKEL 295, LID 1, PUNT 5)
 
 9) snoeien van bomen, kappen van hout en andere diensten in de bosbouw.
 
-BIJLAGE IX
+## Bijlage IX
 
 KUNSTVOORWERPEN, VOORWERPEN VOOR VERZAMELINGEN EN ANTIQUITEITEN BEDOELD IN ARTIKEL 311, LID 1, PUNTEN 2), 3) EN 4)
 
@@ -2396,7 +2397,7 @@ Antiquiteiten
 
 Andere voorwerpen dan kunstvoorwerpen en voorwerpen voor verzamelingen, ouder dan 100 jaar (GN-code 9706 00 00).
 
-BIJLAGE X
+## Bijlage X
 
 LIJST VAN HANDELINGEN WAARVOOR DE IN DE ARTIKELEN 370 EN 371 EN DE ARTIKELEN 375 TOT EN MET 390 BEDOELDE AFWIJKINGEN GELDEN
 
@@ -2460,7 +2461,7 @@ j) de diensten van expediteurs, makelaars, handelsagenten en andere zelfstandige
 
 13) diensten van reisbureaus als bedoeld in artikel 306 alsmede van reisbureaus die in naam en voor rekening van de reiziger handelen, voor reizen binnen de Gemeenschap.
 
-BIJLAGE XI
+## Bijlage XI
 
 ## DEEL A
 
@@ -2542,7 +2543,7 @@ Richtlijn Omzettingstermijn
 
 Richtlijn 2006/18/EG — Richtlijn 2006/58/EG 1 juli 2006 Richtlijn 2006/69/EG 1 januari 2008
 
-BIJLAGE XII
+## Bijlage XII
 
 CONCORDANTIETABEL
 

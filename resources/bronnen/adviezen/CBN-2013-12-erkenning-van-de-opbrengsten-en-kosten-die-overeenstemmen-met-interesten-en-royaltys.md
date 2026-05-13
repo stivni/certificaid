@@ -36,9 +36,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:46Z'
+    confirmed_at: '2026-05-13T12:28:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 8 headings met correcte hiërarchie (H1, H2, H3). Footnotes [^1]–[^18] aanwezig en gedefinieerd. Voetnoot [^4] is inhoudelijk zeer lang maar dit is de letterlijke tekst van art. 73 KB W.Venn. — geen artefact. Geen extractiesporen.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -50,8 +50,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:46Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:30Z'
+      rationale: 8 headings met correcte hiërarchie (H1, H2, H3). Footnotes [^1]–[^18] aanwezig en gedefinieerd. Voetnoot [^4] is inhoudelijk zeer lang maar dit is de letterlijke tekst van art. 73 KB W.Venn. — geen artefact. Geen extractiesporen.
       concrete_problemen: []
 ---
 # CBN-advies 2013/12 - Erkenning van de opbrengsten en kosten die overeenstemmen met interesten en royalty's, evenals de toewijzing van de resultaten in de vorm van dividenden en tantièmes en de opbrengsten die overeenstemmen met dividenden en tantièmes

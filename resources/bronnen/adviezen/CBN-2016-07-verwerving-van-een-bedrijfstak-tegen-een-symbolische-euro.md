@@ -28,9 +28,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:46Z'
+    confirmed_at: '2026-05-13T12:28:35Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (21 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Vorige QA-ronde meldde `avtiva` op regel 309 als A9 OCR-fout. Na herlezing van de volledige tekst: `avtiva` in `Materiële vaste avtiva` op regel 327 (niet 309) is identiek aan de brontekst op de CBN-website (source-typo, geen ETL-artefact). Geen andere ETL-problemen gevonden: 20+ headings correct genest, voetnoten [^1]–[^9] aanwezig, tabellen correct in pipe-syntax, geen form-feeds, geen scrambled tekst.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -42,9 +42,13 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:46Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (21 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:35Z'
+      rationale: 'Vorige QA-ronde meldde `avtiva` op regel 309 als A9 OCR-fout. Na herlezing van de volledige tekst: `avtiva` in `Materiële vaste avtiva` op regel 327 (niet 309) is identiek aan de brontekst op de CBN-website (source-typo, geen ETL-artefact). Geen andere ETL-problemen gevonden: 20+ headings correct genest, voetnoten [^1]–[^9] aanwezig, tabellen correct in pipe-syntax, geen form-feeds, geen scrambled tekst.'
+      concrete_problemen:
+        - regel: 327
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: '| Materiële vaste avtiva | | 0 | (avtiva ipv activa — source-typo)'
 ---
 # CBN-advies 2016/7 – Verwerving van een bedrijfstak tegen een symbolische euro
 

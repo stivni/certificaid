@@ -46,9 +46,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:27:12Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'C1: 2 bullet-glyphs (•) in tabel-context. ETL bullet-promotion fix heeft dit bestand niet volledig gecorrigeerd.'
+    rationale: "E2: de twee RESULTATENREKENING-tabellen op r.162-170 zijn ernstig verminkt — de tabelcellen zijn niet in pipe-syntax maar als losstaande regels met wisselende witruimte, waardoor de samenvatting onleesbaar is. D3/G3: voetnoot 4 eindigt mid-zin op r.182 ('conform voetnoot') en voetnoot 5 op r.184 begint met 'van advies 173/1 over...' — de splitsing is een extractie-artefact waarbij de voetnootreferentie en -tekst zijn opgeknipt over twee afzonderlijke voetnoten."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -60,15 +60,25 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: 'C1: 2 bullet-glyphs (•) in tabel-context. ETL bullet-promotion fix heeft dit bestand niet volledig gecorrigeerd.'
+      run_at: '2026-05-13T12:27:12Z'
+      rationale: "E2: de twee RESULTATENREKENING-tabellen op r.162-170 zijn ernstig verminkt — de tabelcellen zijn niet in pipe-syntax maar als losstaande regels met wisselende witruimte, waardoor de samenvatting onleesbaar is. D3/G3: voetnoot 4 eindigt mid-zin op r.182 ('conform voetnoot') en voetnoot 5 op r.184 begint met 'van advies 173/1 over...' — de splitsing is een extractie-artefact waarbij de voetnootreferentie en -tekst zijn opgeknipt over twee afzonderlijke voetnoten."
       concrete_problemen:
-        - categorie: C1
-          type: bullet-glyph
-          voorbeeld: • in 1998 voor een bedrag van 2 872,3
-        - categorie: C1
-          type: bullet-glyph
-          voorbeeld: • in 1999 voor een bedrag van (15.000)
+        - regel: 162
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: "| **RESULTATENREKENING OP 31/12/1998**  | \n|---|\n| 60.000 | | 47.872,3 "
+        - regel: 166
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: "\t\t\t\t15.000 | "
+        - regel: 182
+          categorie: D3
+          type: abrupt-cutoff
+          voorbeeld: In dit verband wenst de Commissie, conform voetnoot
+        - regel: 184
+          categorie: D3
+          type: other
+          voorbeeld: van advies 173/1 over de boekhoudrechtelijke aspecten van de overschakeling...
 ---
 # CBN-advies 173/5 - Toelichting bij de boekhoudkundige verwerking van termijnwisselverrichtingen tussen de munten van Lid-Staten van de Muntunie
 

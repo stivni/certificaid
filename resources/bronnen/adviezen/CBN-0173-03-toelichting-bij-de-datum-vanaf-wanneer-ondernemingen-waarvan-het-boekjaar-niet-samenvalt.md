@@ -40,9 +40,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:28:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (1045 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    rationale: 'Zeer kort advies (1045 chars) met één alinea + voetnoot. Heading_count: 0 — correct want geen substructuur. Inhoud volledig, geen artefacten. Zou voor mens-geschreven doorgaan.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -54,8 +54,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: 'Kort advies (1045 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+      run_at: '2026-05-13T12:28:34Z'
+      rationale: 'Zeer kort advies (1045 chars) met één alinea + voetnoot. Heading_count: 0 — correct want geen substructuur. Inhoud volledig, geen artefacten. Zou voor mens-geschreven doorgaan.'
       concrete_problemen: []
 ---
 # CBN-advies 173/3 - Toelichting bij de datum vanaf wanneer ondernemingen (waarvan het boekjaar niet samenvalt met het kalenderjaar) hun jaarrekening mogen opstellen in euro

@@ -28,9 +28,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Identieke beoordeling als vorige L2-run (2026-05-11, subagent-sonnet-4-6): Laag-1 pass zonder flags. Inhoud volledig en logisch gestructureerd met 4 hoofdsecties (Overwegingen, Toepassingsgebied, Controlewerkzaamheden, Inhoud verslag) als ## headings. Markdown-tabel in Bijlage valide pipe-syntax. File werd NIET herconverteerd door b4eac1f (nog altijd pipeline c2f5cc2) — beoordeling blijft geldig.'
+    rationale: 'Laag-1 pass zonder flags. Inhoud volledig en logisch gestructureerd: 4 hoofdsecties (Overwegingen, Toepassingsgebied, Controlewerkzaamheden, Inhoud van het verslag) elk met coherente subsecties als ## headings. Voetnoten correct onderaan secties als genummerde lijstregels. Markdown-tabel in Bijlage valide pipe-syntax. Geen zichtbare PDF-artefacten, OCR-fouten, column-bleed of broken lines.'
     layer1:
       status: pass
       run_id: 20260513-000913
@@ -42,8 +42,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: 'Identieke beoordeling als vorige L2-run (2026-05-11, subagent-sonnet-4-6): Laag-1 pass zonder flags. Inhoud volledig en logisch gestructureerd met 4 hoofdsecties (Overwegingen, Toepassingsgebied, Controlewerkzaamheden, Inhoud verslag) als ## headings. Markdown-tabel in Bijlage valide pipe-syntax. File werd NIET herconverteerd door b4eac1f (nog altijd pipeline c2f5cc2) — beoordeling blijft geldig.'
+      run_at: '2026-05-13T12:28:32Z'
+      rationale: 'Laag-1 pass zonder flags. Inhoud volledig en logisch gestructureerd: 4 hoofdsecties (Overwegingen, Toepassingsgebied, Controlewerkzaamheden, Inhoud van het verslag) elk met coherente subsecties als ## headings. Voetnoten correct onderaan secties als genummerde lijstregels. Markdown-tabel in Bijlage valide pipe-syntax. Geen zichtbare PDF-artefacten, OCR-fouten, column-bleed of broken lines.'
       concrete_problemen:
         - regel: 96
           categorie: A6

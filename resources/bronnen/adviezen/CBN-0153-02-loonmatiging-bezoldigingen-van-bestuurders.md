@@ -45,9 +45,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:28:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Bron volledig gelezen (3943 tekens, heading_count: 0, Laag-1 pass). Drie journaalboekingstabellen correct als pipe-tables. Drie voetnoten correct gedefinieerd. Geen artefacten in categorieën A-G. Inhoud volledig: juridische context + voorkeur-boekingswijze + boekingen voor alle scenario's aanwezig."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -59,8 +59,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:33Z'
+      rationale: "Bron volledig gelezen (3943 tekens, heading_count: 0, Laag-1 pass). Drie journaalboekingstabellen correct als pipe-tables. Drie voetnoten correct gedefinieerd. Geen artefacten in categorieën A-G. Inhoud volledig: juridische context + voorkeur-boekingswijze + boekingen voor alle scenario's aanwezig."
       concrete_problemen: []
 ---
 # CBN-advies 153/2 - Loonmatiging (bezoldigingen van bestuurders)

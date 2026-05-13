@@ -2044,3 +2044,51 @@ class TestPromoteWettekstSectionLabels:
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "promote_wettekst_section_labels" in TRANSFORMERS
+
+
+class TestNormalizeArtikelToArt:
+    def test_bare_artikel(self):
+        from tools.etl.transformers.normalize_artikel_to_art import normalize_artikel_to_art
+        body = "Vorige paragraaf.\n\nArtikel 86\n\nDe FDM bevat...\n"
+        result, _ = normalize_artikel_to_art(body, {})
+        assert "Art. 86" in result
+        assert "\nArtikel 86\n" not in result
+
+    def test_artikel_with_body_inline(self):
+        from tools.etl.transformers.normalize_artikel_to_art import normalize_artikel_to_art
+        body = "Artikel 46. Elk kassasysteem moet voorzien zijn van een modelaanduiding.\n"
+        result, _ = normalize_artikel_to_art(body, {})
+        assert "Art. 46" in result
+        assert "Elk kassasysteem moet voorzien zijn" in result
+        # body is op separate regel
+        assert "Art. 46\n\nElk kassasysteem" in result
+
+    def test_artikel_bis(self):
+        from tools.etl.transformers.normalize_artikel_to_art import normalize_artikel_to_art
+        body = "Artikel 12bis\n"
+        result, _ = normalize_artikel_to_art(body, {})
+        assert "Art. 12bis" in result
+
+    def test_inline_mention_not_converted(self):
+        """'Artikel 5.' midden in zin met leading whitespace blijft."""
+        from tools.etl.transformers.normalize_artikel_to_art import normalize_artikel_to_art
+        body = "Zie  Artikel 5. voor details.\n"
+        result, _ = normalize_artikel_to_art(body, {})
+        assert result == body
+
+    def test_with_leading_whitespace_not_converted(self):
+        from tools.etl.transformers.normalize_artikel_to_art import normalize_artikel_to_art
+        body = "    Artikel 5\n"  # leading whitespace → niet converteren (bestaande logica regelt dit)
+        result, _ = normalize_artikel_to_art(body, {})
+        assert result == body
+
+    def test_idempotent(self):
+        from tools.etl.transformers.normalize_artikel_to_art import normalize_artikel_to_art
+        body = "Artikel 86\n\nArtikel 132. Dit besluit vervangt circulaire.\n"
+        once, _ = normalize_artikel_to_art(body, {})
+        twice, _ = normalize_artikel_to_art(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "normalize_artikel_to_art" in TRANSFORMERS

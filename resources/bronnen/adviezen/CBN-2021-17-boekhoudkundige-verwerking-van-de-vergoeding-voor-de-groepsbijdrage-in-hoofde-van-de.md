@@ -30,9 +30,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:47Z'
+    confirmed_at: '2026-05-13T12:28:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (8 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Klein advies (4261 chars, 3 headings), volledig leesbaar en inhoudelijk compleet. Tabellen correct in pipe-syntax met header en separator. Footnotes aanwezig en correct gekoppeld ([^1] en [^2]). De boldgedrukte tussentitels 'In hoofde van vennootschap B/A' zonder ##-prefix reflecteren de originele tekststructuur en zijn niet storend voor retrieval."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -44,8 +44,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:47Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (8 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:33Z'
+      rationale: "Klein advies (4261 chars, 3 headings), volledig leesbaar en inhoudelijk compleet. Tabellen correct in pipe-syntax met header en separator. Footnotes aanwezig en correct gekoppeld ([^1] en [^2]). De boldgedrukte tussentitels 'In hoofde van vennootschap B/A' zonder ##-prefix reflecteren de originele tekststructuur en zijn niet storend voor retrieval."
       concrete_problemen: []
 ---
 # CBN-advies 2021/17 – Boekhoudkundige verwerking van de vergoeding voor de groepsbijdrage in hoofde van de overdragende vennootschap bij gebrek aan Belgische belastingen op het resultaat op rekening 4500 (addendum bij advies 2019/06)

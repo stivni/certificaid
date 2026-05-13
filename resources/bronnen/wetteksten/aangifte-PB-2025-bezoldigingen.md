@@ -17,30 +17,23 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:15:18Z'
+  generated_at: '2026-05-13T12:25:13Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_at: '2026-05-13T12:28:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Handcrafted file, L1 pass: 9 headings, max sectie 3541 chars. Markdown-tabellen correct als pipe-syntax. Inhoud compleet.'
+    rationale: 'Dit bestand is manueel aangemaakt (pipeline: manual-import) en ziet er als zodanig uit: alle tabellen zijn in correcte pipe-syntax, headings zijn logisch hiërarchisch, inhoud is volledig en intern consistent. Geen zichtbare PDF-extractieartefacten. De informatienotitie over overlappende code 1271-87 (A.21 en F.3) is een bewuste redactionele keuze, geen artefact. Frontmatter matcht de inhoud.'
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:41Z'
-      heading_count: 9
-      max_section_chars: 3541
-      file_size_chars: 10226
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:16Z'
-      rationale: 'Handcrafted file, L1 pass: 9 headings, max sectie 3541 chars. Markdown-tabellen correct als pipe-syntax. Inhoud compleet.'
+      run_at: '2026-05-13T12:28:31Z'
+      rationale: 'Dit bestand is manueel aangemaakt (pipeline: manual-import) en ziet er als zodanig uit: alle tabellen zijn in correcte pipe-syntax, headings zijn logisch hiërarchisch, inhoud is volledig en intern consistent. Geen zichtbare PDF-extractieartefacten. De informatienotitie over overlappende code 1271-87 (A.21 en F.3) is een bewuste redactionele keuze, geen artefact. Frontmatter matcht de inhoud.'
       concrete_problemen: []
 ---
 

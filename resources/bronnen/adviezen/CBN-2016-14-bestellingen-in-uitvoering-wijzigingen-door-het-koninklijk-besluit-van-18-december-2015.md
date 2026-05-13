@@ -39,9 +39,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:46Z'
+    confirmed_at: '2026-05-13T12:28:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: Schoon bestand. Zes headings correct genest (inclusief italic-geneste subheadings *Algemeen* en *Toepassingsvoorwaarden*). Genummerde randnummers (1–14) zijn als lopende tekst opgenomen, wat de stijl van het CBN-bronadvies weerspiegelt — dit is een bewuste opmaakkeuze, geen artefact. Voetnoten [^1]–[^15] volledig gedefinieerd. Geen tabellen in dit advies (correct, want geen boekingsvoorbeelden). Inhoud compleet.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -53,8 +53,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:46Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:31Z'
+      rationale: Schoon bestand. Zes headings correct genest (inclusief italic-geneste subheadings *Algemeen* en *Toepassingsvoorwaarden*). Genummerde randnummers (1–14) zijn als lopende tekst opgenomen, wat de stijl van het CBN-bronadvies weerspiegelt — dit is een bewuste opmaakkeuze, geen artefact. Voetnoten [^1]–[^15] volledig gedefinieerd. Geen tabellen in dit advies (correct, want geen boekingsvoorbeelden). Inhoud compleet.
       concrete_problemen: []
 ---
 # CBN-advies 2016/14 – Bestellingen in uitvoering: wijzigingen door het koninklijk besluit van 18 december 2015

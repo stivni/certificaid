@@ -38,9 +38,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:46Z'
+    confirmed_at: '2026-05-13T12:28:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (1298 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    rationale: 'Laag 1 meldt heading_count=0 en file_size_chars=1298: het advies is inhoudelijk een enkelvoudige paragraaf zonder secties, wat overeenkomt met het originele CBN-advies (één antwoord, geen onderverdelingen). Geen extractie-artefacten, geen broken formatting, footnotes ontbreken terecht. Volledig en afgerond.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -52,8 +52,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:46Z'
-      rationale: 'Kort advies (1298 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+      run_at: '2026-05-13T12:28:30Z'
+      rationale: 'Laag 1 meldt heading_count=0 en file_size_chars=1298: het advies is inhoudelijk een enkelvoudige paragraaf zonder secties, wat overeenkomt met het originele CBN-advies (één antwoord, geen onderverdelingen). Geen extractie-artefacten, geen broken formatting, footnotes ontbreken terecht. Volledig en afgerond.'
       concrete_problemen: []
 ---
 # CBN-advies 2013/9 – De boekhoudkundige verwerking van een herziening van de btw op een aangekocht bedrijfsmiddel

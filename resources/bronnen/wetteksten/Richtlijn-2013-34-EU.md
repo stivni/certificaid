@@ -17,33 +17,22 @@ provenance:
       version: 28.05.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:15:15Z'
+  generated_at: '2026-05-13T12:25:13Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_at: '2026-05-13T12:28:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 warn: 100 headings, max sectie 32574 chars (chunker auto-split). Headings correct als ###### Artikel N. EU PB-formatting in body (spurious hyphens) zijn bron-stijl. Inhoud volledig.'
     layer1:
-      status: warn
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:38Z'
-      heading_count: 100
-      max_section_chars: 32574
-      file_size_chars: 249511
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ######-niveau: 32574 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
+      run_at: '2026-05-13T12:28:19Z'
       rationale: 'L1 warn: 100 headings, max sectie 32574 chars (chunker auto-split). Headings correct als ###### Artikel N. EU PB-formatting in body (spurious hyphens) zijn bron-stijl. Inhoud volledig.'
       concrete_problemen: []
 ---
@@ -2106,7 +2095,7 @@ Adressaten
 
 Deze richtlijn is gericht tot de lidstaten.
 
-BIJLAGE I
+## Bijlage I
 
 RECHTSVORMEN  VAN  ONDERNEMINGEN,  BEDOELD  IN  ARTIKEL 1, LID 1, ONDER A)
 
@@ -2222,7 +2211,7 @@ aktiebolag;
 
 public companies limited by shares or by guarantee, private companies li mited by shares or by guarantee.
 
-BIJLAGE II
+## Bijlage II
 
 RECHTSVORMEN  VAN  ONDERNEMINGEN,  BEDOELD  IN  ARTIKEL 1, LID 1, ONDER B)
 
@@ -2336,7 +2325,7 @@ handelsbolag, kommanditbolag;
 
 partnerships, limited partnerships, unlimited companies.
 
-BIJLAGE III
+## Bijlage III
 
 HORIZONTALE INDELING VAN DE BALANS ZOALS BEPAALD IN  ARTIKEL 10
 
@@ -2490,7 +2479,7 @@ D. Overlopende posten
 
 (Tenzij overlopende posten overeenkomstig het nationale recht onder post C  9 onder „Schulden” moeten worden opgenomen.)
 
-BIJLAGE IV
+## Bijlage IV
 
 VERTICALE INDELING VAN DE BALANS ZOALS BEPAALD IN  ARTIKEL 10
 
@@ -2662,7 +2651,7 @@ IV. Reserves
 
 V. Overgedragen resultaten
 
-BIJLAGE V
+## Bijlage V
 
 INDELING VAN DE WINST-EN-VERLIESREKENING - NAAR AARD  VAN DE KOSTEN, ZOALS BEPAALD IN ARTIKEL 13
 
@@ -2708,7 +2697,7 @@ b) Waardecorrecties op vlottende activa, voor zover deze de in de onder neming g
 
 17. Resultaat van het boekjaar.
 
-BIJLAGE VI
+## Bijlage VI
 
 INDELING  VAN  DE  WINST-EN-VERLIESREKENING  -  NAAR  FUNCTIE VAN DE KOSTEN, ZOALS BEPAALD IN ARTIKEL 13
 
@@ -2742,7 +2731,7 @@ INDELING  VAN  DE  WINST-EN-VERLIESREKENING  -  NAAR  FUNCTIE VAN DE KOSTEN, ZOA
 
 15. Resultaat van het boekjaar.
 
-BIJLAGE VII
+## Bijlage VII
 
 Concordantietabel
 

@@ -38,9 +38,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:28:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Geen substantiële extractie-artefacten. Vijf secties correct als ## headings opgemaakt, voetnoten [^1]–[^18] volledig gedefinieerd, inhoud compleet. De CAPS-headings (INLEIDING, TE VOLGEN PROCEDURE, etc.) zijn de stijl van dit advies en consistent. Geen invisible unicode, geen broken tables, geen afgekapte zinnen.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -52,8 +52,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:31Z'
+      rationale: 'Geen substantiële extractie-artefacten. Vijf secties correct als ## headings opgemaakt, voetnoten [^1]–[^18] volledig gedefinieerd, inhoud compleet. De CAPS-headings (INLEIDING, TE VOLGEN PROCEDURE, etc.) zijn de stijl van dit advies en consistent. Geen invisible unicode, geen broken tables, geen afgekapte zinnen.'
       concrete_problemen: []
 ---
 # CBN-advies 2009/16 Omrekening van kapitaal bij grensoverschrijdende fusies

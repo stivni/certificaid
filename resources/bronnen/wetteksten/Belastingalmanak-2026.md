@@ -17,53 +17,28 @@ provenance:
       version: '05.2026'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 06a7e51-dirty
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:03:51Z'
+  generated_at: '2026-05-13T12:25:22Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_at: '2026-05-13T12:26:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'A8: zwaarste kolom-bleed in de set — 1881 regels >300 chars, max 10986 chars per regel. Layer1 signaleerde al TOC-stippen (1 hit) en paginavoetregels. Twee PDF-kolommen zijn systematisch samengevoegd. Vrijwel onbruikbaar voor RAG tot ETL fixed.'
+    rationale: 'L1 warn: 5 headings voor 2.3M chars, max sectie 1.5M chars, TOC-stippen aanwezig. Narratieve gids — degraded chunking. Type-3 PDF.'
     layer1:
-      status: warn
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:37Z'
-      heading_count: 5
-      max_section_chars: 1535748
-      file_size_chars: 2343527
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ###-niveau: 1535748 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-        - name: no_toc_dots
-          status: warn
-          detail: 1 TOC-stippen-regel(s) gevonden
-          samples:
-            - '................ 2021'
-        - name: no_page_footer
-          status: warn
-          detail: 1 paginavoetregel(s) gevonden
-          samples:
-            - 1351/2351
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:19:59Z'
-      rationale: 'A8: zwaarste kolom-bleed in de set — 1881 regels >300 chars, max 10986 chars per regel. Layer1 signaleerde al TOC-stippen (1 hit) en paginavoetregels. Twee PDF-kolommen zijn systematisch samengevoegd. Vrijwel onbruikbaar voor RAG tot ETL fixed.'
+      run_at: '2026-05-13T12:26:25Z'
+      rationale: 'L1 warn: 5 headings voor 2.3M chars, max sectie 1.5M chars, TOC-stippen aanwezig. Narratieve gids — degraded chunking. Type-3 PDF.'
       concrete_problemen:
-        - regel: 4204
-          categorie: A8
-          type: column-bleed
-          voorbeeld: '10986-char regel (max): massale kolom-bleed'
-        - regel: 59
-          categorie: A8
-          type: column-bleed
-          voorbeeld: § 1, 14°, WIB 92)...De vennootschap mag na de stortingde natuurlijke persoon...
+        - regel:
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: '................ 2021'
 ---
 
 # Belastingalmanak 2026 — ITAA / Larcier-Intersentia

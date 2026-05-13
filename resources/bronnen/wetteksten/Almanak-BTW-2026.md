@@ -17,39 +17,32 @@ provenance:
       version: '05.2026'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 06a7e51-dirty
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:03:53Z'
+  generated_at: '2026-05-13T12:25:26Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_at: '2026-05-13T12:26:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A8: massale kolom-bleed — 1324 regels met >300 chars, max 5312 chars per regel. Twee PDF-kolommen zijn horizontaal samengevoegd in één lange tekstregel. Inhoud is aanwezig maar onleesbaar/onchunkbaar door kolom-bleed. Layer1 geeft onterecht 'pass' (herkent geen lange regels)."
+    rationale: "L1 fail: A2 TOC-stippen in body (1 regel met '................ 2021'), max sectie 1.5M chars (narratieve gids). Type-3 PDF via pdftotext_ejustice + simple_mode cleanup — als praktijkgids zonder Art-headings acceptabel voor chunking maar max_section_size is enorm."
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:36Z'
-      heading_count: 305
-      max_section_chars: 15658
-      file_size_chars: 1464178
-      flags: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:19:59Z'
-      rationale: "A8: massale kolom-bleed — 1324 regels met >300 chars, max 5312 chars per regel. Twee PDF-kolommen zijn horizontaal samengevoegd in één lange tekstregel. Inhoud is aanwezig maar onleesbaar/onchunkbaar door kolom-bleed. Layer1 geeft onterecht 'pass' (herkent geen lange regels)."
+      run_at: '2026-05-13T12:26:25Z'
+      rationale: "L1 fail: A2 TOC-stippen in body (1 regel met '................ 2021'), max sectie 1.5M chars (narratieve gids). Type-3 PDF via pdftotext_ejustice + simple_mode cleanup — als praktijkgids zonder Art-headings acceptabel voor chunking maar max_section_size is enorm."
       concrete_problemen:
-        - regel: 46
-          categorie: A8
-          type: column-bleed
-          voorbeeld: '1007-char regel: twee kolommen samengevoegd'
-        - regel: 60
-          categorie: A8
-          type: column-bleed
-          voorbeeld: '§ 1, 14°, WIB 92), wordt als volgt gedefinieerd:  De vennootschap mag na de stor...'
+        - regel:
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: '................ 2021'
+        - regel:
+          categorie: B1
+          type: other
+          voorbeeld: Slechts 5 headings voor 2.3M chars — degraded chunking
 ---
 
 # Almanak BTW 2026 — ITAA / Larcier-Intersentia
@@ -2254,7 +2247,7 @@ Het stuk dat opgemaakt moet worden en dat beoogd wordt 2.2.4. Invoer in artikel 
 1. een opeenvolgend nummer, volgens één of meer reeksen, dat het stuk op eenduidige wijze identificeert, De belasting geheven van de invoer kan naar luid van arwaaronder het is ingeschreven in het boek voor uit- tikel 3, § 1, 3° van het KB nr. 3 door de belastingplichtige gaande facturen; maar worden afgetrokken wanneer hij in het bezit is van een invoerdocument dat hem als geadresseerde aanwijst en dat
 2. de naam of de maatschappelijke benaming van de be- de betaling van de belasting vaststelt. lastingplichtige, het adres van zijn administratieve of maatschappelijke zetel en het in artikel 50 WBTW be- Dit houdt meer bepaald in dat de belastingplichtige – niettedoelde btw-identificatienummer; genstaande een lading goederen effectief werd ingevoerd en
 3. de datum van de handeling; hij al in het bezit is van de factuur van de leverancier – de
-4. de in § 1, 6° en 7° van artikel 5 van het KB nr. 1 inzake ter zake van de invoer verschuldigde btw, die hij bv. al bede voldoening van de btw bedoelde gegevens; taald heeft aan zijn douaneagent, niet in aftrek kan brengen wanneer deze laatste hem het vereiste invoerdocument nog
+4. de in § 1, 6° en 7° van artikel 5 van het KB nr. 1 inzake ter zake van de invoer verschuldigde btw, die hij bv. al bede voldoening van de btw bedoelde gegevens; taald heeft aan zijn douane-agent, niet in aftrek kan brengen wanneer deze laatste hem het vereiste invoerdocument nog
 5. per tarief, de vermelding van de maatstaf van heffing en niet heeft toegestuurd. het totaalbedrag van de verschuldigde belasting.
 
 HvJ 1 april 2004, C-90/02, Bockemühl.

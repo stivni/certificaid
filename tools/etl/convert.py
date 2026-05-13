@@ -69,13 +69,13 @@ from tools.etl.transformers import apply_chain  # noqa: E402
 # Tot die tijd zijn ze hier hardcoded als interim-oplossing.
 
 DEFAULT_CHAINS: dict[str, list[str]] = {
-    "pdftotext_ejustice":       ["cleanup_basics", "unindent_pdftotext_margin", "strip_amendment_overview", "fix_stuck_art_number", "fix_pdftotext_glue_bugs", "inject_headings_wettekst", "split_merged_headings", "promote_wettekst_section_labels", "strip_empty_trailing_headings", "emit_frontmatter"],
+    "pdftotext_ejustice":       ["cleanup_basics", "unindent_pdftotext_margin", "strip_amendment_overview", "fix_stuck_art_number", "normalize_artikel_to_art", "fix_pdftotext_glue_bugs", "inject_headings_wettekst", "split_merged_headings", "promote_wettekst_section_labels", "strip_empty_trailing_headings", "emit_frontmatter"],
     # pdftotext_narratief: narratieve praktijkgidsen (Type 3 PDFs) zonder artikel-
     # hiërarchie. inject_headings_narratief detecteert Vak/HOOFDSTUK/Roman/ALLCAPS
     # sectie-patronen specifiek voor deze broncategorie.
     # merge_pdf_paragraph_breaks: herstelt woord-per-woord-splits door pdftotext.
     "pdftotext_narratief":      ["cleanup_basics", "unindent_pdftotext_margin", "strip_pdf_page_noise", "merge_pdf_paragraph_breaks", "fix_pdftotext_glue_bugs", "inject_headings_narratief", "emit_frontmatter"],
-    "custom_wetboek":           ["cleanup_basics", "strip_kb_bijwerkingen", "strip_amendment_overview", "strip_fisconet_artefacts", "fix_stuck_art_number", "fix_pdftotext_glue_bugs", "inject_headings_wettekst", "split_merged_headings", "promote_wettekst_section_labels", "strip_empty_trailing_headings", "emit_frontmatter"],
+    "custom_wetboek":           ["cleanup_basics", "strip_kb_bijwerkingen", "strip_amendment_overview", "strip_fisconet_artefacts", "fix_stuck_art_number", "normalize_artikel_to_art", "fix_pdftotext_glue_bugs", "inject_headings_wettekst", "split_merged_headings", "promote_wettekst_section_labels", "strip_empty_trailing_headings", "emit_frontmatter"],
     "custom_wib92":             ["cleanup_basics", "strip_amendment_overview", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "promote_wettekst_section_labels", "strip_empty_trailing_headings", "emit_frontmatter"],
     # iesba: structuur (headings, bold para-nummers) al door extractor gedaan;
     # merge_wrapped_lines en inject_headings_wettekst zijn niet geschikt voor
@@ -88,7 +88,7 @@ DEFAULT_CHAINS: dict[str, list[str]] = {
     "pymupdf_wetboek":          ["cleanup_basics", "strip_amendment_overview", "fix_stuck_art_number", "inject_headings_wettekst", "split_merged_headings", "promote_wettekst_section_labels", "strip_empty_trailing_headings", "emit_frontmatter"],
     "cbn_advies":               ["cleanup_basics", "merge_broken_sentences", "fix_italic_spacing", "fix_bold_italic_mixing", "normalize_bullet_glyphs", "emit_frontmatter"],
     "extract_norm":             ["cleanup_basics", "unindent_pdftotext_margin", "strip_pdf_page_noise", "strip_itaa_norm_footers", "merge_broken_sentences", "fix_italic_spacing", "normalize_bullet_glyphs", "promote_norm_section_labels", "emit_frontmatter"],
-    "pdftotext_compilatie_btw": ["cleanup_basics", "unindent_pdftotext_margin", "strip_running_page_headers", "strip_mb_compilatie_cover", "strip_kb_bijwerkingen", "strip_compilatie_appendix", "strip_amendment_overview", "fix_stuck_art_number", "merge_article_reference_wraps", "fix_pdftotext_glue_bugs", "inject_headings_wettekst", "split_merged_headings", "promote_wettekst_section_labels", "strip_empty_trailing_headings", "emit_frontmatter"],
+    "pdftotext_compilatie_btw": ["cleanup_basics", "unindent_pdftotext_margin", "strip_running_page_headers", "strip_mb_compilatie_cover", "strip_kb_bijwerkingen", "strip_compilatie_appendix", "strip_amendment_overview", "fix_stuck_art_number", "normalize_artikel_to_art", "merge_article_reference_wraps", "fix_pdftotext_glue_bugs", "inject_headings_wettekst", "split_merged_headings", "promote_wettekst_section_labels", "strip_empty_trailing_headings", "emit_frontmatter"],
     # md_passthrough: handgemaakte markdown-bronnen. Lichte cleanup + page-header
     # strip voor bronnen die uit een PDF/print-bron zijn gekopieerd (bv. MAR-vzw).
     "md_passthrough":           ["cleanup_basics", "strip_running_page_headers", "emit_frontmatter"],

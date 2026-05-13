@@ -17,59 +17,48 @@ provenance:
       version: 2024-08
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b4eac1f
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T23:35:06Z'
+  generated_at: '2026-05-13T12:24:52Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:27:04Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B4/B5: 794 plain-text subkopjes ('Introduction', 'Requirements and Application Material', 'SUBSECTION 111 – INTEGRITY', 'General', ...) die als heading hadden moeten worden ge-extraheerd. A6: 5923 spurious line-breaks in body (PDF-kolom per visuele regel afgekapt). normalize_bullet_glyphs heeft de meeste • bullets (nu ~28 resterende) gedeeltelijk aangepakt, maar structuurproblemen B4/A6 zijn te groot voor vertrouwen. Layer1 meldt fail (max_section_chars 86168)."
+    rationale: "Het bestand is inhoudelijk volledig (alle Parts 1-6 + Independence Standards aanwezig, 68 ## headings, correcte Rxx.x / xx.x Ax nummering). Vier afzonderlijke artefacten vereisen rework: (A1) vier stray 'Page'-markers als losse regels op lijnen 1742, 4717, 8578, 17822 (kop/voetregelpaar uit PDF); (A2) grote dot-leader TOC-blokken als plain-text midden in de body op het overganspunt van elke Part (regels 1716-1739, 4719-4741, 8580-8644 en ca. 17823-17845); (A6) paragraafnummer met extra spatie '120. 15 A1' op regel 1530. Buiten die geïsoleerde artefacten leest de body vloeiend en zijn headings correct."
     layer1:
-      status: fail
-      run_id: 20260513-000913
-      run_at: '2026-05-13T00:09:13Z'
-      heading_count: 42
-      max_section_chars: 86168
-      file_size_chars: 637277
-      flags:
-        - name: frontmatter_complete
-          status: fail
-          detail: "ontbrekende velden: ['naam', 'type']"
-          samples: []
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 86168 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: "B4/B5: 794 plain-text subkopjes ('Introduction', 'Requirements and Application Material', 'SUBSECTION 111 – INTEGRITY', 'General', ...) die als heading hadden moeten worden ge-extraheerd. A6: 5923 spurious line-breaks in body (PDF-kolom per visuele regel afgekapt). normalize_bullet_glyphs heeft de meeste • bullets (nu ~28 resterende) gedeeltelijk aangepakt, maar structuurproblemen B4/A6 zijn te groot voor vertrouwen. Layer1 meldt fail (max_section_chars 86168)."
+      run_at: '2026-05-13T12:27:04Z'
+      rationale: "Het bestand is inhoudelijk volledig (alle Parts 1-6 + Independence Standards aanwezig, 68 ## headings, correcte Rxx.x / xx.x Ax nummering). Vier afzonderlijke artefacten vereisen rework: (A1) vier stray 'Page'-markers als losse regels op lijnen 1742, 4717, 8578, 17822 (kop/voetregelpaar uit PDF); (A2) grote dot-leader TOC-blokken als plain-text midden in de body op het overganspunt van elke Part (regels 1716-1739, 4719-4741, 8580-8644 en ca. 17823-17845); (A6) paragraafnummer met extra spatie '120. 15 A1' op regel 1530. Buiten die geïsoleerde artefacten leest de body vloeiend en zijn headings correct."
       concrete_problemen:
-        - regel: 56
-          categorie: B4
-          type: other
-          voorbeeld: Introduction
-        - regel: 88
-          categorie: B4
-          type: other
-          voorbeeld: Requirements and Application Material
-        - regel: 264
-          categorie: B4
-          type: other
-          voorbeeld: SUBSECTION 111 – INTEGRITY
-        - regel: 59
-          categorie: A6
-          type: scrambled-words
-          voorbeeld: A distinguishing mark of the accountancy profession is its acceptance
-        - regel: 760
-          categorie: C1
-          type: bullet-glyph
-          voorbeeld: '- • (resterende bullet-glyph na gedeeltelijke fix)'
+        - regel: 1742
+          categorie: A1
+          type: form-feed
+          voorbeeld: "Losse regel 'Page' tussen TOC-blok en ## Section 200"
+        - regel: 4717
+          categorie: A1
+          type: form-feed
+          voorbeeld: "Losse regel 'Page' tussen TOC-blok Part 3 en ## Section 300"
+        - regel: 8578
+          categorie: A1
+          type: form-feed
+          voorbeeld: "Losse regel 'Page' tussen TOC-blok Part 4 en ## Section 400"
+        - regel: 17822
+          categorie: A1
+          type: form-feed
+          voorbeeld: Losse regel 'Page' tussen TOC-blok Part 6 en volgende sectie
+        - regel: 1716
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: Section 200 Applying the Conceptual Framework – Professional Accountants in Business..................................................................
+        - regel: 1530
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: "'120. 15 A1' — extra spatie in paragraafnummer (moet '120.15 A1' zijn)"
 ---
 
 # IESBA-code-of-ethics-2024

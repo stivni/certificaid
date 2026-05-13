@@ -41,9 +41,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:47Z'
+    confirmed_at: '2026-05-13T12:28:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Inhoud volledig en goed gestructureerd. Eén minor D4-issue: '*Relevantie *' (regel 88) heeft een spatie vóór de sluitende '*', artefact van HTML-extractie. Dit is cosmetisch en raakt de leesbaarheid niet. Alle overige italic-labels correct."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -55,9 +55,13 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:47Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:33Z'
+      rationale: "Inhoud volledig en goed gestructureerd. Eén minor D4-issue: '*Relevantie *' (regel 88) heeft een spatie vóór de sluitende '*', artefact van HTML-extractie. Dit is cosmetisch en raakt de leesbaarheid niet. Alle overige italic-labels correct."
+      concrete_problemen:
+        - regel: 88
+          categorie: D4
+          type: other
+          voorbeeld: '*Relevantie *'
 ---
 # CBN-advies 2020/05 – Verenigingen en stichtingen – Vereenvoudigde boekhouding – Waarderingsregels
 

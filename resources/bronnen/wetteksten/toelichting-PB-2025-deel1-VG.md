@@ -17,66 +17,52 @@ provenance:
       version: '2025'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 057ab06-dirty
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:06:37Z'
+  generated_at: '2026-05-13T12:25:16Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_at: '2026-05-13T12:27:02Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Layer1 warn (max_section_size). B4: 124 ALL_CAPS plain-text sectietitels in TOC + body ('ALGEMENE INLICHTINGEN', 'VAK I - BANKREKENING EN TELEFOONNUMMER(S)', ...) die als headings hadden moeten worden geëxtraheerd. A6: 90 spurious line-breaks in body. De 13 H2-headings dekken de vakken, maar sub-rubrieken missen als heading."
+    rationale: "Twee structurele problemen: (1) B1/B3: herhaalde 'Vak II', 'Vak III', 'Vak IV'-labels als losse plain-text regels zonder heading-prefix (45+ voorkomens), bedoeld als sectie-etiketten van de PDF maar niet als heading gerenderd — dit veroorzaakt structuurverlies in RAG-chunking. (2) B1: '### I.' zonder bijbehorende tekst op dezelfde regel (regels 139, 154): de ondertitel staat op de volgende regel als plain text. Daarnaast staat de volledige inhoudstafel bovenaan (regels 63-222) als pseudo-inhoudsopgave met VAK-termen zonder dotted-leaders, wat TOC-redundantie geeft (A3). 'II. FEDERAAL' en 'A. ...' sub-labels na '### I.' staan als ongeformatteerde plain text (B4/B5). Ondanks deze problemen is de inhoud compleet en goed leesbaar."
     layer1:
-      status: warn
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:41Z'
-      heading_count: 13
-      max_section_chars: 102771
-      file_size_chars: 357646
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 102771 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:20:00Z'
-      rationale: "Layer1 warn (max_section_size). B4: 124 ALL_CAPS plain-text sectietitels in TOC + body ('ALGEMENE INLICHTINGEN', 'VAK I - BANKREKENING EN TELEFOONNUMMER(S)', ...) die als headings hadden moeten worden geëxtraheerd. A6: 90 spurious line-breaks in body. De 13 H2-headings dekken de vakken, maar sub-rubrieken missen als heading."
+      run_at: '2026-05-13T12:27:02Z'
+      rationale: "Twee structurele problemen: (1) B1/B3: herhaalde 'Vak II', 'Vak III', 'Vak IV'-labels als losse plain-text regels zonder heading-prefix (45+ voorkomens), bedoeld als sectie-etiketten van de PDF maar niet als heading gerenderd — dit veroorzaakt structuurverlies in RAG-chunking. (2) B1: '### I.' zonder bijbehorende tekst op dezelfde regel (regels 139, 154): de ondertitel staat op de volgende regel als plain text. Daarnaast staat de volledige inhoudstafel bovenaan (regels 63-222) als pseudo-inhoudsopgave met VAK-termen zonder dotted-leaders, wat TOC-redundantie geeft (A3). 'II. FEDERAAL' en 'A. ...' sub-labels na '### I.' staan als ongeformatteerde plain text (B4/B5). Ondanks deze problemen is de inhoud compleet en goed leesbaar."
       concrete_problemen:
-        - regel: 62
+        - regel: 139
+          categorie: B1
+          type: other
+          voorbeeld: "### I.\n\nGEWESTELIJK: NIET IN II, A VERMELDE UITGAVEN VOOR UW 'EIGEN WONING'"
+        - regel: 145
           categorie: B4
           type: other
-          voorbeeld: ALGEMENE INLICHTINGEN
-        - regel: 64
-          categorie: B4
+          voorbeeld: 'II. FEDERAAL (plain text na ### I. sectie, had ## of ### moeten zijn)'
+        - regel: 458
+          categorie: B5
           type: other
-          voorbeeld: VAK I - BANKREKENING EN TELEFOONNUMMER(S)
-        - regel: 52
-          categorie: A6
+          voorbeeld: Vak II (plain text sectionering, herhaald 45+ keer door het document)
+        - regel: 63
+          categorie: A3
           type: other
-          voorbeeld: bij deel 1 van de | voorbereiding van de aangifte
+          voorbeeld: INHOUDSTAFEL ALGEMENE INLICHTINGEN (TOC als plain text bovenaan, gevolgd door volledige herhaalde structuur)
 ---
 
 # Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Vlaams Gewest
 
 *Bijgewerkt tot en met 2025 — gecoördineerde versie.*
 
-Toelichting
-
-bij deel 1 van de
-voorbereiding van de aangifte
+Toelichting bij deel 1 van de voorbereiding van de aangifte
 in de personenbelasting
 
-Vlaams Gewest
+Vlaams Gewest Aanslagjaar 2025 (inkomsten van het jaar 2024)
 
-Aanslagjaar 2025
-(inkomsten van het jaar 2024)
-
- INHOUDSTAFEL
-ALGEMENE INLICHTINGEN
+## INHOUDSTAFEL ALGEMENE INLICHTINGEN
 
 VAK I - BANKREKENING EN TELEFOONNUMMER(S)
 
@@ -86,9 +72,7 @@ VAK I - BANKREKENING EN TELEFOONNUMMER(S)
 VAK II - PERSOONLIJKE GEGEVENS EN GEZINSLASTEN
 
 A. Persoonlijke gegevens
-B. Gezinslasten
-
-VAK III - INKOMSTEN VAN ONROERENDE GOEDEREN
+B. Gezinslasten VAK III - INKOMSTEN VAN ONROERENDE GOEDEREN
 
 A. Inkomsten van Belgische en buitenlandse oorsprong
 B. Inkomsten van buitenlandse oorsprong
@@ -107,17 +91,13 @@ G. Overuren die recht geven op een overwerktoeslag
 H. Bedrijfsvoorheffing
 I. Inhoudingen voor de bijzondere bijdrage voor de sociale zekerheid
 J. Overheidspersoneel zonder arbeidsovereenkomst
-K. Werkbonus
-L. Werkhervattingsloon
+K. Werkbonus L. Werkhervattingsloon
 M. Roerende voorheffing op in A, 1 of A, 4 vermelde inkomsten uit
 auteursrechten, naburige rechten en wettelijke en verplichte licenties
 N. Helpende gezinsleden van zelfstandigen
 O. Inkomsten van buitenlandse oorsprong (en de bijhorende kosten)
 
-VAK V - PENSIOENEN
-
-A. Pensioenen
-B. Bedrijfsvoorheffing
+VAK V - PENSIOENEN A. Pensioenen B. Bedrijfsvoorheffing
 C. Pensioenen van buitenlandse oorsprong (en de bijhorende kosten)
 
 VAK VI - ONTVANGEN ONDERHOUDSUITKERINGEN
@@ -126,12 +106,9 @@ VAK VII - INKOMSTEN VAN KAPITALEN EN ROERENDE GOEDEREN
 
 A. Inkomsten van kapitalen vóór aftrek van de innings- en bewaringskosten
 B. Netto-inkomen van verhuring, verpachting, gebruik of concessie van roerende
-goederen
-
- C. Inkomsten begrepen in lijfrenten of tijdelijke renten
+goederen C. Inkomsten begrepen in lijfrenten of tijdelijke renten
 D. Inkomsten uit auteursrechten, naburige rechten en wettelijke en verplichte
-licenties
-E. Innings- en bewaringskosten betreffende aangegeven inkomsten
+licenties E. Innings- en bewaringskosten betreffende aangegeven inkomsten
 F. Inkomsten waarop een bijzonder aanslagstelsel van toepassing is
 
 VAK VIII - AFTREKBARE VORIGE VERLIEZEN EN BESTEDINGEN
@@ -148,11 +125,7 @@ VERGOEDINGEN, DIE RECHT GEVEN OP EEN BELASTINGVOORDEEL
 I.
 
 GEWESTELIJK: NIET IN II, A VERMELDE UITGAVEN VOOR UW ‘EIGEN
-WONING’
-
-II. FEDERAAL
-
-A. Interesten van leningen gesloten van 2009 tot 2011 om energiebesparende
+WONING’ II. FEDERAAL A. Interesten van leningen gesloten van 2009 tot 2011 om energiebesparende
 uitgaven te financieren
 B. Niet in II, A vermelde uitgaven die niet slaan op uw ‘eigen woning’
 
@@ -160,9 +133,7 @@ VAK X - (UITGAVEN DIE RECHT GEVEN OP) BELASTINGVERMINDERINGEN
 
 I.
 
-GEWESTELIJK
-
-A. Uitgaven voor behoud of herwaardering van beschermd onroerend erfgoed
+GEWESTELIJK A. Uitgaven voor behoud of herwaardering van beschermd onroerend erfgoed
 B. Betalingen voor prestaties in het kader van het wijk-werken
 C. Betalingen voor prestaties betaald met dienstencheques
 D. In het kader van geregistreerde en uiterlijk op 31.12.2018 gesloten
@@ -171,12 +142,8 @@ aanmerking komen voor belastingvermindering
 E. Belastingvermindering voor uitgaven gedaan van 2016 tot 2018 voor de
 vernieuwing van een woning verhuurd via een sociaal verhuurkantoor
 
-II. FEDERAAL
-
-A. Giften
-B. Voor belastingvermindering in aanmerking komend bedrag van de uitgaven
-voor kinderoppas
-C. Bezoldigingen van een huisbediende
+II. FEDERAAL A. Giften B. Voor belastingvermindering in aanmerking komend bedrag van de uitgaven
+voor kinderoppas C. Bezoldigingen van een huisbediende
 D. Bijdragen en premies voor een aanvullend pensioen voor zelfstandigen
 E. Betalingen voor pensioensparen
 F. Betalingen voor het verwerven van nieuwe kapitaalaandelen van een in de
@@ -193,12 +160,10 @@ het verwerven van nieuwe aandelen van ondernemingen die hun omzet sterk
 hebben zien dalen door de covid-19 pandemie
 J. Premies van een rechtsbijstandsverzekering
 K. Uitgaven voor de plaatsing van een vast laadstation voor elektrische wagens in
-of bij de woning
-L. Minderwaarden op aandelen geleden naar aanleiding van de gehele verdeling
+of bij de woning L. Minderwaarden op aandelen geleden naar aanleiding van de gehele verdeling
 van het maatschappelijk vermogen van private privaks
 M. Belastingvermindering voor lage energiewoningen, passiefwoningen en
-nulenergiewoningen
-N. Belastingvermindering voor het verwerven van aandelen van erkende
+nulenergiewoningen N. Belastingvermindering voor het verwerven van aandelen van erkende
 ontwikkelingsfondsen
 O. Belastingvermindering voor uitgaven voor het verwerven van een nieuwe
 elektrische motorfiets, driewieler of vierwieler
@@ -278,8 +243,7 @@ De voorbereiding van de aangifte bestaat uit twee delen.
 Deel 1 is bestemd voor alle belastingplichtigen.
 Deel 2 daarentegen is alleen bestemd voor:
 • bedrijfsleiders (bestuurders, zaakvoerders, enz.)
-• zelfstandigen
-• personen die volgende inkomsten hebben verkregen die voor aanslagjaar 2025 belastbaar zijn als diverse inkomsten:
+• zelfstandigen • personen die volgende inkomsten hebben verkregen die voor aanslagjaar 2025 belastbaar zijn als diverse inkomsten:
 - inkomsten uit de onderverhuring of de overdracht van huur van onroerende goederen
 - inkomsten uit de concessie van het recht om onroerende plaatsen te gebruiken voor
 het plaatsen van affiches of andere reclamedragers
@@ -310,8 +274,7 @@ belangrijke deelnemingen in binnenlandse vennootschappen, aan rechtspersonen gev
 Hebt u deel 2 van de voorbereiding nodig, maar hebt u dat deel niet ontvangen, dan kunt u
 het aanvragen bij uw belastingkantoor.
 
-De toelichting
-De toelichting maakt geen integrerend deel uit van de aangifte. Zij dient alleen om u te helpen bij het invullen van de voorbereiding van uw aangifte. Zij maakt geen aanspraak op volledigheid.
+De toelichting De toelichting maakt geen integrerend deel uit van de aangifte. Zij dient alleen om u te helpen bij het invullen van de voorbereiding van uw aangifte. Zij maakt geen aanspraak op volledigheid.
 De toelichting volgt dezelfde indeling als de voorbereiding van de aangifte zodat u de uitleg
 bij de rubrieken van de voorbereiding gemakkelijk kunt terugvinden.
 De voornaamste wijzigingen ten opzichte van vorig aanslagjaar kunt u herkennen aan de
@@ -350,26 +313,17 @@ het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt o
  Welke van de twee kolommen van de voorbereiding invullen?
 In de voorbereiding van de aangifte bevatten veel rubrieken twee kolommen. De tabel hierna
 geeft aan in welke kolom u uw gegevens dan moet invullen.
-U bent
-niet gehuwd, noch wettelijk samenwonend
+U bent niet gehuwd, noch wettelijk samenwonend
 gehuwd of wettelijk samenwonend en
 dient één gemeenschappelijke aangifte in
 
 gehuwd of wettelijk samenwonend, maar
 dient elk een eigen aangifte in
 
-Vermeld dan
-in de linkerkolom
-in de rechterkolom
-uw gegevens
-de gegevens van de de gegevens van de
-oudste
-jongste
-▲ Opgelet: deze regel geldt ook voor echtgenoten en wettelijk samenwonenden
+Vermeld dan in de linkerkolom in de rechterkolom uw gegevens de gegevens van de de gegevens van de
+oudste jongste ▲ Opgelet: deze regel geldt ook voor echtgenoten en wettelijk samenwonenden
 van een verschillend geslacht.
-uw gegevens
-
-Inkomsten van de kinderen
+uw gegevens Inkomsten van de kinderen
 Ouders die het wettelijk genot hebben van goederen van hun (niet ontvoogde minderjarige)
 kinderen, moeten de belastbare inkomsten van die (roerende en onroerende) goederen in
 hun eigen aangifte vermelden zolang zij dat wettelijk genot hebben.
@@ -380,8 +334,7 @@ Als u dat wettelijk genot alleen hebt (bv. als de andere ouder overleden is), mo
 moeten in aangiften op naam van de kinderen zelf worden vermeld. Als zij geen aangifteformulieren op hun naam hebben ontvangen kunt u of kunnen uw kinderen er aanvragen
 bij het bevoegde belastingkantoor.
 
-Munteenheid
-U moet de aangifte altijd invullen in euro.
+Munteenheid U moet de aangifte altijd invullen in euro.
 Vermeld de bedragen altijd tot twee cijfers na de komma, d.w.z. tot de cent (250 euro moet u
 dus invullen als: 250,00).
 
@@ -456,9 +409,7 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak II
-
-▲ Opgelet: als u in 2024 gehuwd bent en, sinds 2023 of vroeger, tot uw huwelijk, niet wettelijk samenwoonde met uw echtgenoot:
+Vak II ▲ Opgelet: als u in 2024 gehuwd bent en, sinds 2023 of vroeger, tot uw huwelijk, niet wettelijk samenwoonde met uw echtgenoot:
 - moeten u en uw echtgenoot elk afzonderlijk een aangifte indienen
 - mag maar één van u beiden de kinderen of andere personen ten laste
 in zijn aangifte vermelden (zie de uitleg bij rubriek B hierna).
@@ -500,11 +451,7 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak II
-
-•
-
-In geval van verzoening moeten u en uw echtgenoot of wettelijk samenwonende partner echter opnieuw een gezamenlijke aangifte indienen
+Vak II • In geval van verzoening moeten u en uw echtgenoot of wettelijk samenwonende partner echter opnieuw een gezamenlijke aangifte indienen
 vanaf het jaar van de verzoening.
 
 Uw feitelijke scheiding vond plaats in 2024
@@ -521,8 +468,7 @@ aangiften. In dat geval zal die dienst de gegevens van die aangiften zelf samenb
 Kruis dit vakje aan als u op 1.1.2025 weduwnaar of weduwe was of daarmee gelijkgesteld door het overlijden van uw wettelijk samenwonende partner.
 
 Uw echtgenoot of wettelijk samenwonende partner is overleden in
-2024
-Kruis dit vakje aan als u in de loop van 2024 weduwnaar, weduwe of daarmee gelijkgesteld (door het overlijden van uw wettelijk samenwonende partner) geworden bent. Kruis in dat geval daaronder ook het passende vakje
+2024 Kruis dit vakje aan als u in de loop van 2024 weduwnaar, weduwe of daarmee gelijkgesteld (door het overlijden van uw wettelijk samenwonende partner) geworden bent. Kruis in dat geval daaronder ook het passende vakje
 aan naargelang u kiest voor:
 ofwel één gemeenschappelijke aanslag op naam van uzelf en de nalatenschap van uw overleden echtgenoot of wettelijk samenwonende
 partner. In dat geval worden u en uw overleden echtgenoot of wettelijk
@@ -540,13 +486,7 @@ wettelijk samenwonende partner (zie de letters a, b en d tot g onder de
 titel ‘Gehuwden en wettelijk samenwonenden’ in de ‘Algemene inlichtingen’ vooraan in deze toelichting). In dat geval moet u altijd het
 tweede vakje (twee afzonderlijke aanslagen) aankruisen.
 
- Vak II
-
-•
-
-•
-
-Als u in 2024 weduwnaar, weduwe of daarmee gelijkgesteld (door het
+Vak II • • Als u in 2024 weduwnaar, weduwe of daarmee gelijkgesteld (door het
 overlijden van uw wettelijk samenwonende partner) bent geworden, mag
 u geen gezamenlijke aangifte indienen, maar moeten er twee afzonderlijke aangiften worden ingediend: één op uw naam en één op naam van
 de nalatenschap van uw overleden echtgenoot of wettelijk samenwonende partner. Dat u voor één gemeenschappelijke aanslag kiest, doet
@@ -589,9 +529,7 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak II
-
-▲ Opgelet: naast die tweede vraag staat geen vakje in de rechterkolom omdat
+Vak II ▲ Opgelet: naast die tweede vraag staat geen vakje in de rechterkolom omdat
 echtgenoten of wettelijk samenwonenden voor wie het antwoord op die vraag
 ‘Ja’ is, geen gezamenlijke aangifte mogen indienen.
 Hebt u toch een aangifte op naam van beide echtgenoten of beide wettelijk
@@ -633,9 +571,7 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak II
-
-Houd het bewijs van de invaliditeit ter beschikking van de belastingdienst. Dit bewijs
+Vak II Houd het bewijs van de invaliditeit ter beschikking van de belastingdienst. Dit bewijs
 is geldig zolang de erop aangeduide periode van ongeschiktheid niet is verstreken.
 
 5. Als u alleen wordt belast en in B, 1 tot B, 3 hierna één of meer kinderen ten laste vermeldt, beantwoord dan ook de volgende vraag:
@@ -669,12 +605,8 @@ Ze is daarentegen niet bestemd voor personen die op 15.1.2024 al rijksinwoner, o
 enz.). Zij moeten deze rubriek dan ook niet invullen.
 • Voor personen die tijdens het inkomstenjaar overleden zijn, mogen de maanden dat zij de 15de van de maand niet meer aan de personenbelasting onderworpen waren als gevolg van hun overlijden, wel nog worden meegeteld.
 
- Vak II
-
-B. GEZINSLASTEN
-Voorafgaande opmerkingen
-Algemeen
-Vul in de rubrieken 1 tot 5 het aantal personen in die te uwen laste zijn (rubrieken 1, 2, 4
+Vak II B. GEZINSLASTEN Voorafgaande opmerkingen
+Algemeen Vul in de rubrieken 1 tot 5 het aantal personen in die te uwen laste zijn (rubrieken 1, 2, 4
 en 5) of voor wie de helft van het belastingvoordeel aan u moet worden toegekend (rubriek 3).
 Vermeld in de rubrieken 1 tot 3 en 5, per rubriek, het totale aantal van de beoogde personen in a, en herhaal het daarin begrepen aantal personen met een zware handicap in
 b (zie de uitleg onder de titel ‘Zware handicap’ hierna).
@@ -712,11 +644,7 @@ voorwaarde dat u de verdwijning of ontvoering ten laatste op 31.12.2024 hebt aan
 Belgische overheden die bevoegd zijn voor ontvoeringen van kinderen (houd het bewijs van de aangifte of de klacht ter beschikking van de belastingdienst))
 • niet door u werden bezoldigd
 
- Vak II
-
-•
-
-in 2024 als student-zelfstandige geen bezoldigingen van bedrijfsleiders hebben verkregen:
+Vak II • in 2024 als student-zelfstandige geen bezoldigingen van bedrijfsleiders hebben verkregen:
 - die beroepskosten vormen voor een vennootschap waarvan u, rechtstreeks of onrechtstreeks, bedrijfsleider bent en waarover u controle uitoefent in de zin van artikel 1:14 van het Wetboek van vennootschappen en verenigingen, en
 - die, bruto, meer dan 2.000 euro (1) bedragen en meer dan de helft vormen van
 hun belastbare inkomsten, onderhoudsuitkeringen uitgezonderd
@@ -724,8 +652,7 @@ hun belastbare inkomsten, onderhoudsuitkeringen uitgezonderd
 (1) netto bedragen (dit bedrag wordt op 7.290 euro (1) gebracht voor kinderen).
 Bestaansmiddelen zijn alle belastbare en niet belastbare inkomsten behalve:
 • de wettelijke kinderbijslagen, kraamgelden en adoptiepremies
-• de studiebeurzen
-• de premies voor het voorhuwelijkssparen
+• de studiebeurzen • de premies voor het voorhuwelijkssparen
 • de inkomsten verkregen door personen met een handicap die in beginsel recht hebben
 op de tegemoetkomingen bedoeld in de wet van 27.2.1987 betreffende de tegemoetkomingen aan personen met een handicap, tot het maximumbedrag waarop zij volgens
 die wet recht kunnen hebben. Bij die inkomsten wordt geen onderscheid gemaakt tussen de in de wet van 27.2.1987 bedoelde tegemoetkomingen zelf, en om het even
@@ -753,11 +680,7 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak II
-
-•
-
-de eerste schijf van 3.310 euro (1) van het totaal van de brutobedragen van:
+Vak II • de eerste schijf van 3.310 euro (1) van het totaal van de brutobedragen van:
 - de door studenten in uitvoering van een overeenkomst voor tewerkstelling van studenten verkregen bezoldigingen (andere dan de hierboven vermelde) en beloningen
 voor verenigingsactiviteiten (bedoeld in artikel 90, eerste lid, 1°ter, van het Wetboek
 van de inkomstenbelastingen 1992)
@@ -770,8 +693,7 @@ met een forfaitaire aftrek van 20 % (met een minimum van 550 euro (1) voor bezol
 van werknemers en baten van beoefenaars van vrije beroepen).
 Pleegkinderen zijn te uwen laste als u ze volledig of hoofdzakelijk ten laste hebt. Om te bepalen of dat het geval is, moet u geen rekening houden met bijdragen in de onderhoudskosten betaald door de overheid (Federale Overheidsdienst Justitie, OCMW, enz.).
 
-Zware handicap
-Naast de kinderen die voor ten minste 66 % getroffen zijn door ontoereikende of verminderde lichamelijke of geestelijke geschiktheid door één of meer aandoeningen (wat overeenstemt met ten minste 4 punten in de eerste pijler - ongeacht het totale aantal punten
+Zware handicap Naast de kinderen die voor ten minste 66 % getroffen zijn door ontoereikende of verminderde lichamelijke of geestelijke geschiktheid door één of meer aandoeningen (wat overeenstemt met ten minste 4 punten in de eerste pijler - ongeacht het totale aantal punten
 in de drie pijlers samen - van de medisch-sociale schaal van toepassing in het kader van
 het nieuwe stelsel van de verhoogde kinderbijslagen voor gehandicapte kinderen), wordt
 onder zwaar gehandicapten ook verstaan, de personen die voldoen aan de criteria uiteengezet in rubriek A, 4 onder de titel ‘Hebt u een zware handicap?’.
@@ -807,8 +729,7 @@ om fiscaal te uwen laste te zijn (zie de titel ‘Voorwaarden om als ten laste t
 op basis van:
 - ofwel een ten laatste op 1.1.2025 geregistreerde of door een rechter gehomologeerde overeenkomst waarin uitdrukkelijk is vermeld dat:
 1) de huisvesting van de kinderen gelijkmatig is verdeeld over u en de andere
-ouder
-2) u en die andere ouder bereid zijn om de toeslagen op de belastingvrije som
+ouder 2) u en die andere ouder bereid zijn om de toeslagen op de belastingvrije som
 voor de kinderen te verdelen
 - ofwel een ten laatste op 1.1.2025 genomen rechterlijke beslissing waarin uitdrukkelijk is vermeld dat de huisvesting van de kinderen gelijkmatig is verdeeld
 over u en de andere ouder
@@ -889,8 +810,7 @@ vermeld onder de titel ‘Voorwaarden om als ten laste te kunnen worden beschouw
 nog geen 65 jaar waren
 • uw ouders, grootouders, overgrootouders, broers en zussen van 65 jaar of ouder bij wie op 1.1.2025 geen verminderde zelfredzaamheid van ten minste
 9 punten was vastgesteld en die in aanslagjaar 2021 niet ten uwen laste waren in de hoedanigheid van ouder, (over)grootouder, broer of zus van 65 jaar of
-ouder
-• uw pleegouders.
+ouder • uw pleegouders.
 ▲ Opgelet!
 • U mag die andere personen maar als te uwen laste vermelden als u op
 1.1.2025 werkelijk aan het hoofd stond van het gezin.
@@ -899,11 +819,7 @@ in geen geval in rubriek B vermelden.
 
 ## Vak III - INKOMSTEN VAN ONROERENDE GOEDEREN
 Voorafgaande opmerkingen
-•
-
-•
-
-Echtgenoten en wettelijk samenwonenden die samen worden belast, moeten hun inkomsten van onroerende goederen als volgt aangeven:
+• • Echtgenoten en wettelijk samenwonenden die samen worden belast, moeten hun inkomsten van onroerende goederen als volgt aangeven:
 - inkomsten die volgens het vermogensrecht tot het eigen vermogen van een echtgenoot of
 partner behoren, moet u volledig op naam van die echtgenoot of partner aangeven
 - alle andere inkomsten moet u voor de helft op naam van elk van de echtgenoten of
@@ -942,9 +858,7 @@ uw woningen zelf betrekt of totdat u de gekozen woning niet meer bezit.
 worden beschouwd, is de vrijstelling beperkt tot het aantal dagen (op 366) dat
 ze als uw ‘eigen woning’ kan worden beschouwd.
 
- Vak III
-
-•
+Vak III •
 
 -
 
@@ -965,8 +879,7 @@ inkomsten van in een lidstaat van de EER gelegen onroerende goederen die u verhu
 van de EER)
 * bij pachtovereenkomst van gronden die voorziet in een eerste gebruiksperiode van
 minimaal 18 jaar (of een gelijkaardige pachtovereenkomst in een andere lidstaat
-van de EER)
-bedragen verkregen bij de overdracht (en dus niet bij de vestiging) van:
+van de EER) bedragen verkregen bij de overdracht (en dus niet bij de vestiging) van:
 * een recht van erfpacht
 * een recht van opstal
 * een gelijkaardig onroerend recht
@@ -982,18 +895,14 @@ akte van vestiging of verkrijging ervan
 overdracht mag nog een periode van maximum 6 maanden liggen waarin de woning niet in gebruik genomen was.
 * als het recht overgedragen is door:
 • een minderjarige, en een gerechtelijke instantie daar machtiging voor gegeven
-heeft
-• een persoon aan wie een bewindvoerder toegevoegd is, na een bijzondere
+heeft • een persoon aan wie een bewindvoerder toegevoegd is, na een bijzondere
 machtiging door de vrederechter
 * als het gaat om een onteigening of een overdracht in der minne van onroerende
 goederen ten algemenen nutte en die overdracht kosteloos aan de registratieformaliteit onderworpen is in toepassing van artikel 161 van het Wetboek der registratie-, hypotheek- en griffierechten.
 
- Vak III
-
-A. INKOMSTEN VAN BELGISCHE EN BUITENLANDSE OORSPRONG
+Vak III A. INKOMSTEN VAN BELGISCHE EN BUITENLANDSE OORSPRONG
 Voorafgaande opmerkingen
-Algemeen
-Vermeld in rubriek A de inkomsten van al uw onroerende goederen gelegen in België en
+Algemeen Vermeld in rubriek A de inkomsten van al uw onroerende goederen gelegen in België en
 in het buitenland, behalve de vrijgestelde inkomsten vermeld in de tweede voorafgaande
 opmerking bij vak III.
 
@@ -1023,23 +932,17 @@ Financiën.
 ▲ Opgelet: vermeld, zowel voor in België als voor in het buitenland gelegen onroerende
 goederen, altijd het niet geïndexeerde KI. Bij de vestiging van de aanslag zal de belastingdienst de indexering automatisch toepassen.
 
-Aankoop of verkoop
-Als u in 2024 een onroerend goed hebt verkregen of overgedragen, moet u het deel van
+Aankoop of verkoop Als u in 2024 een onroerend goed hebt verkregen of overgedragen, moet u het deel van
 het KI aangeven dat slaat op de periode waarin u dat onroerend goed in 2024 in eigendom, bezit, erfpacht, opstal of vruchtgebruik had, uitgedrukt in dagen (dus te bepalen in
 366sten van het KI).
 
-Nieuwbouw
-Voor een nieuwgebouwd onroerend goed moet u het deel van het KI aangeven dat slaat op
+Nieuwbouw Voor een nieuwgebouwd onroerend goed moet u het deel van het KI aangeven dat slaat op
 de periode (uitgedrukt in dagen) vanaf de dag van de ingebruikneming of verhuring (als de
 verhuring de ingebruikneming voorafgaat).
 
-Verbouwing
-Als het KI in de loop van 2024 is gewijzigd, moet u het totaal aan te geven KI bepalen in verhouding tot het aantal dagen waarop elk KI (het oorspronkelijke KI en het gewijzigde KI) slaat.
+Verbouwing Als het KI in de loop van 2024 is gewijzigd, moet u het totaal aan te geven KI bepalen in verhouding tot het aantal dagen waarop elk KI (het oorspronkelijke KI en het gewijzigde KI) slaat.
 
- Vak III
-
-Onproductiviteit
-Als een (niet gemeubileerd) gebouw in 2024 ten minste 90 dagen volstrekt niet in gebruik is
+Vak III Onproductiviteit Als een (niet gemeubileerd) gebouw in 2024 ten minste 90 dagen volstrekt niet in gebruik is
 genomen en volstrekt geen inkomsten heeft opgebracht, mag u het KI verminderen volgens
 de duur van de onproductiviteit.
 In geval van volledige of gedeeltelijke (minimaal 25 %) vernieling van een onroerend goed,
@@ -1047,12 +950,10 @@ mag u het KI verminderen volgens de duur en de omvang van de onproductiviteit.
 Als de vermindering van het KI door onproductiviteit niet heeft geleid tot een vermindering van
 de onroerende voorheffing (door decreten of ordonnanties van de gewesten) houd dan de bewijsstukken en de berekening van die onproductiviteit ter beschikking van de belastingdienst.
 
-Onverdeeldheid
-Als u het genot van een onroerend goed hebt in onverdeeldheid met één of meer andere
+Onverdeeldheid Als u het genot van een onroerend goed hebt in onverdeeldheid met één of meer andere
 personen, moet u het gedeelte van het KI aangeven dat met uw aandeel overeenstemt.
 
-Bestemming
-Als een onroerend goed voor verschillende doeleinden wordt gebruikt (bv. gedeeltelijk
+Bestemming Als een onroerend goed voor verschillende doeleinden wordt gebruikt (bv. gedeeltelijk
 als woning en gedeeltelijk voor uw beroep, of gedeeltelijk door uzelf bewoond en gedeeltelijk verhuurd), moet u het KI van dit goed in de juiste verhouding opsplitsen en elk deel
 dat niet is vrijgesteld afzonderlijk in de juiste rubriek vermelden (zie echter ook het bijzonder geval vermeld in rubriek 5).
 
@@ -1070,8 +971,7 @@ a) u niet verhuurt en ook niet voor uw beroep gebruikt (bv. de woning die u gebr
 als tweede verblijfplaats)
 b) u verhuurt aan natuurlijke personen die ze niet voor hun beroep gebruiken (bv.
 het gebouw dat u verhuurt aan een bediende, arbeider of ambtenaar die het als
-woning gebruikt)
-c) u verhuurt aan rechtspersonen die geen vennootschap zijn, aan gewestelijke
+woning gebruikt) c) u verhuurt aan rechtspersonen die geen vennootschap zijn, aan gewestelijke
 huisvestingsmaatschappijen of aan (door die huisvestingsmaatschappijen of door
 de bevoegde overheid inzake sociaal huisvestingsbeleid) erkende maatschappijen voor sociale huisvesting, om ze ter beschikking te laten stellen van (één of
 meer) natuurlijke personen die ze uitsluitend als woning gebruiken.
@@ -1109,8 +1009,7 @@ sportverenigingen, vakbonden, godsdienstige gemeenschappen, enz.).
 Vermeld per rubriek het totale bedrag van, enerzijds, de kadastrale inkomens en,
 anderzijds, de brutohuren.
 
-• Brutohuur
-Onder brutohuur wordt verstaan: de huurprijs en de huurvoordelen van 2024.
+• Brutohuur Onder brutohuur wordt verstaan: de huurprijs en de huurvoordelen van 2024.
 Huurvoordelen zijn voordelen die de eigenaar verkrijgt doordat de huurder allerlei lasten draagt in de plaats van de eigenaar (zoals belastingen, grote herstellingen, verzekeringspremie).
 Als een huurvoordeel bestaat in een eenmalige uitgave van de huurder, verdeel dan
 het bedrag over de volledige duur van het huurcontract.
@@ -1120,9 +1019,7 @@ huurprijs en de huurvoordelen als bezoldigingen van bedrijfsleiders moet aangeve
 Als brutohuur moet u hier alleen het verschil vermelden tussen de totale brutohuur
 en het gedeelte ervan dat u als bezoldigingen van bedrijfsleiders moet aangeven
 
- Vak III
-
-(dat gedeelte vindt u terug op uw individuele fiche 281.20 naast code 401 en
+Vak III (dat gedeelte vindt u terug op uw individuele fiche 281.20 naast code 401 en
 moet u vermelden in deel 2, vak XVI, 2).
 Bijzonder geval: u verhuurt een gebouw aan een natuurlijke persoon die het gedeeltelijk als woning betrekt en gedeeltelijk voor zijn beroep gebruikt
 Als er in dat geval tussen u en de huurder een geregistreerde huurovereenkomst
@@ -1200,9 +1097,7 @@ ingehouden bedrijfsvoorheffing. Die bedrijfsvoorheffing is doorgaans terug te vi
 Hier moet u ook de waarde vermelden van de voordelen van alle aard, d.w.z. voordelen in geld, in natura of anders (zoals gratis huisvesting, verwarming, verlichting,
 gebruik van een auto, goederen die gratis of beneden de kostprijs zijn verkregen,
 
- Vak IV
-
-terugbetaling van uw persoonlijke kosten door uw werkgever, enz.), die u als werknemer hebt verkregen en waarvan het bedrag niet op uw loonfiche is vermeld.
+Vak IV terugbetaling van uw persoonlijke kosten door uw werkgever, enz.), die u als werknemer hebt verkregen en waarvan het bedrag niet op uw loonfiche is vermeld.
 Verder moet u hier alle andere belastbare wedden, lonen, enz. vermelden die niet
 op een fiche 281.10 zijn vermeld.
 Daartoe behoren ook de belastbare vergoedingen die sociale fondsen, fondsen voor
@@ -1271,11 +1166,9 @@ Op uw loonfiche vindt u die bezoldigingen naast code 247.
 Vul deze rubriek in als u van uw werkgever een tussenkomst in de reiskosten van uw
 woonplaats naar uw plaats van tewerkstelling hebt verkregen.
 
-a) totaal bedrag
-Vermeld hier het bedrag dat u op uw loonfiche vindt naast code 254.
+a) totaal bedrag Vermeld hier het bedrag dat u op uw loonfiche vindt naast code 254.
 
-b) vrijstelling
-▲ Opgelet: het berekeningsprogramma houdt geen rekening met deze vrijstelling als uw werkelijke beroepskosten in aanmerking worden genomen.
+b) vrijstelling ▲ Opgelet: het berekeningsprogramma houdt geen rekening met deze vrijstelling als uw werkelijke beroepskosten in aanmerking worden genomen.
 Als uw beroepskosten forfaitair worden bepaald (zie de uitleg bij rubriek 21), vermeld dan in deze rubriek het vrijgestelde bedrag van de verkregen vergoedingen
 (in voorkomend geval het totaal van de per categorie van vervoermiddelen vrijgestelde bedragen – houd in dat geval uw berekening van dat totaal ter beschikking
 van de belastingdienst).
@@ -1285,9 +1178,7 @@ kosten van uw woon-werkverplaatsingen met het openbaar gemeenschappelijk vervoer
 mobiliteitsbudget hebt verkregen, zie echter ook de ‘Belangrijke opmerking
 voor de personen die een mobiliteitsbudget hebben verkregen’ hierna).
 
- Vak IV
-
-2) Ook het in vak 14, rubriek b van uw loonfiche vermelde bedrag van de vergoedingen die uw werkgever heeft toegekend als betaling of terugbetaling van
+Vak IV 2) Ook het in vak 14, rubriek b van uw loonfiche vermelde bedrag van de vergoedingen die uw werkgever heeft toegekend als betaling of terugbetaling van
 de kosten van uw woon-werkverplaatsingen met een door die werkgever of
 door een groep van werkgevers georganiseerd gemeenschappelijk vervoer
 van personeelsleden, is in principe volledig vrijgesteld (als u een mobiliteitsbudget hebt verkregen, zie echter ook de ‘Belangrijke opmerking voor de personen die een mobiliteitsbudget hebben verkregen’ hierna).
@@ -1361,8 +1252,7 @@ werkgever of door een groep van werkgevers georganiseerd gemeenschappelijk
 vervoer van personeelsleden
 • de vergoedingen die uw werkgever tegelijkertijd heeft toegekend voor de werkelijk
 gedane woon-werkverplaatsingen met een rijwiel, een gemotoriseerd rijwiel of
-een speed pedelec
-• het voordeel ontstaan uit de door uw werkgever tegelijkertijd gedane terbeschikkingstelling van een rijwiel of een speed pedelec die daadwerkelijk wordt gebruikt
+een speed pedelec • het voordeel ontstaan uit de door uw werkgever tegelijkertijd gedane terbeschikkingstelling van een rijwiel of een speed pedelec die daadwerkelijk wordt gebruikt
 voor de woon-werkverplaatsingen
 behalve in de volgende 2 gevallen:
 • als u voorheen:
@@ -1376,19 +1266,15 @@ het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt o
 
 -
 
-•
-
-het voordeel van een bedrijfswagen genoot of aanspraak kon maken op een
+• het voordeel van een bedrijfswagen genoot of aanspraak kon maken op een
 bedrijfswagen, en
 - tegelijkertijd, gedurende ten minste 3 maanden vóór de aanvraag van het mobiliteitsbudget één van de bovenvermelde vergoedingen voor uw woon-werkverplaatsingen verkreeg
 als de bovenvermelde vergoedingen voor uw woon-werkverplaatsingen zijn toegekend door een andere werkgever dan de werkgever van wie u een mobiliteitsbudget hebt verkregen.
 
 8. Niet-recurrente resultaatgebonden voordelen
-a) gewone
-Vermeld hier het totale bedrag van de niet-recurrente resultaatgebonden voordelen die u op uw loonfiche(s) vindt naast code 242.
+a) gewone Vermeld hier het totale bedrag van de niet-recurrente resultaatgebonden voordelen die u op uw loonfiche(s) vindt naast code 242.
 
-b) achterstallen
-Vermeld hier de achterstallen van de onder 8, a bedoelde voordelen. Op uw
+b) achterstallen Vermeld hier de achterstallen van de onder 8, a bedoelde voordelen. Op uw
 loonfiche(s) vindt u ze naast code 243.
 
 9. Werkgeverstussenkomsten in een privé-pc
@@ -1396,8 +1282,7 @@ a) totale bedrag van de tussenkomsten
 Vermeld hier het totale bedrag van de tussenkomsten die u in 2024 van uw werkgever(s) hebt verkregen in de door u betaalde aankoopprijs van een nieuwe privépc en eventueel randapparatuur, een internetaansluiting en een internetabonnement.
 Op uw loonfiche(s) vindt u die tussenkomsten naast code 240.
 
-b) vrijstelling
-De onder 9, a hierboven vermelde tussenkomsten kunnen volledig of gedeeltelijk
+b) vrijstelling De onder 9, a hierboven vermelde tussenkomsten kunnen volledig of gedeeltelijk
 worden vrijgesteld op voorwaarde dat:
 - uw werkgever op geen enkel ogenblik zelf eigenaar van de pc, enz. is geweest en
 - het in rubriek 2 vermelde totaal van uw bezoldigingen (code 1250-11 of 2250-78)
@@ -1417,16 +1302,14 @@ het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt o
  Vak IV
 
 10. Voor vrijstelling in aanmerking komende bezoldigingen voor overuren
-in de horeca
-a) bij werkgevers zonder een geregistreerd kassasysteem
+in de horeca a) bij werkgevers zonder een geregistreerd kassasysteem
 1) gewone bezoldigingen
 Vermeld hier uw gewone bezoldigingen voor overuren gepresteerd in de horecasector bij werkgevers die geen gebruik maken van een geregistreerd
 kassasysteem. Op uw loonfiche zijn die bezoldigingen gemerkt met
 code 335.
 Vermeld daaronder ook het aantal overuren dat u voor die bezoldigingen
 hebt gepresteerd. Op uw loonfiche is dat aantal gemerkt met code 336.
-2) achterstallen
-Vermeld hier uw afzonderlijk belastbare achterstallen voor overuren gepresteerd in de horecasector bij werkgevers die geen gebruik maken van een geregistreerd kassasysteem. Op uw loonfiche zijn die achterstallen gemerkt met
+2) achterstallen Vermeld hier uw afzonderlijk belastbare achterstallen voor overuren gepresteerd in de horecasector bij werkgevers die geen gebruik maken van een geregistreerd kassasysteem. Op uw loonfiche zijn die achterstallen gemerkt met
 code 337.
 Vermeld daaronder ook het aantal overuren dat u voor die achterstallen hebt
 gepresteerd. Op uw loonfiche is dat aantal gemerkt met code 338.
@@ -1437,8 +1320,7 @@ Vermeld hier uw gewone bezoldigingen voor overuren gepresteerd in de horecasecto
 een geregistreerd kassasysteem. Op uw loonfiche zijn die bezoldigingen gemerkt met code 395.
 Vermeld daaronder ook het aantal overuren dat u voor die bezoldigingen
 hebt gepresteerd. Op uw loonfiche is dat aantal gemerkt met code 396.
-2) achterstallen
-Vermeld hier uw afzonderlijk belastbare achterstallen voor overuren gepresteerd in de horecasector bij werkgevers die in elke plaats van uitbating gebruik maken van een geregistreerd kassasysteem. Op uw loonfiche zijn die
+2) achterstallen Vermeld hier uw afzonderlijk belastbare achterstallen voor overuren gepresteerd in de horecasector bij werkgevers die in elke plaats van uitbating gebruik maken van een geregistreerd kassasysteem. Op uw loonfiche zijn die
 achterstallen gemerkt met code 397.
 Vermeld daaronder ook het aantal overuren dat u voor die achterstallen hebt
 gepresteerd. Op uw loonfiche is dat aantal gemerkt met code 398.
@@ -1456,32 +1338,25 @@ Op uw loonfiche(s) vindt u die vergoedingen naast code 391.
  Vak IV
 
 13. Voor vrijstelling in aanmerking komende bezoldigingen voor vrijwillige
-overuren
-a) gepresteerd in 2024 in het kader van de relance
-1) bezoldigingen
-Vermeld hier de in 2024 betaalde of toegekende bezoldigingen voor uw in a
+overuren a) gepresteerd in 2024 in het kader van de relance
+1) bezoldigingen Vermeld hier de in 2024 betaalde of toegekende bezoldigingen voor uw in a
 bedoelde vrijwillige overuren.
 Op uw loonfiche zijn die bezoldigingen gemerkt met code 368.
-2) overuren
-Vermeld hier het aantal overuren dat u voor die bezoldigingen hebt gepresteerd.
+2) overuren Vermeld hier het aantal overuren dat u voor die bezoldigingen hebt gepresteerd.
 Op uw loonfiche is dat aantal gemerkt met code 369.
 
 b) gepresteerd van 1.7 tot en met 31.12.2023 in het kader van de relance
-1) bezoldigingen
-Vermeld hier de in 2024 betaalde of toegekende bezoldigingen voor uw in b
+1) bezoldigingen Vermeld hier de in 2024 betaalde of toegekende bezoldigingen voor uw in b
 bedoelde vrijwillige overuren.
 Op uw loonfiche zijn die bezoldigingen gemerkt met code 381.
-2) overuren
-Vermeld hier het aantal overuren dat u voor die bezoldigingen hebt gepresteerd.
+2) overuren Vermeld hier het aantal overuren dat u voor die bezoldigingen hebt gepresteerd.
 Op uw loonfiche is dat aantal gemerkt met code 382.
 
 c) gepresteerd in 2022 in het kader van de relance
-1) bezoldigingen
-Vermeld hier de in 2024 betaalde of toegekende bezoldigingen voor uw in c
+1) bezoldigingen Vermeld hier de in 2024 betaalde of toegekende bezoldigingen voor uw in c
 bedoelde vrijwillige overuren.
 Op uw loonfiche zijn die bezoldigingen gemerkt met code 378.
-2) overuren
-Vermeld hier het aantal overuren dat u voor die bezoldigingen hebt gepresteerd.
+2) overuren Vermeld hier het aantal overuren dat u voor die bezoldigingen hebt gepresteerd.
 Op uw loonfiche is dat aantal gemerkt met code 379.
 
 14. Voor vrijstelling in aanmerking komende koopkrachtpremie
@@ -1512,8 +1387,7 @@ Het gaat hier over het vervroegd vakantiegeld van dezelfde aard als dat bedoeld
 in rubriek 3 (zie ook de uitleg bij die rubriek).
 Op uw loonfiche vindt u het hier te vermelden vakantiegeld naast code 274.
 
-c) achterstallen
-Het gaat hier over de achterstallen van dezelfde aard als die bedoeld in rubriek 4
+c) achterstallen Het gaat hier over de achterstallen van dezelfde aard als die bedoeld in rubriek 4
 (zie ook de uitleg bij die rubriek).
 Op uw loonfiche vindt u de hier te vermelden achterstallen naast code 275.
 
@@ -1540,30 +1414,25 @@ Het gaat hier over het vervroegd vakantiegeld van dezelfde aard als dat bedoeld 
 rubriek 3 (zie ook de uitleg bij die rubriek).
 Op uw loonfiche vindt u het hier te vermelden vakantiegeld naast code 278.
 
-c) achterstallen
-Het gaat hier over de achterstallen van dezelfde aard als die bedoeld in rubriek 4
+c) achterstallen Het gaat hier over de achterstallen van dezelfde aard als die bedoeld in rubriek 4
 (zie ook de uitleg bij die rubriek).
 Op uw loonfiche vindt u de hier te vermelden achterstallen naast code 279.
 
 d) opzeggingsvergoedingen
 Het gaat hier over de opzeggingsvergoedingen van dezelfde aard als die bedoeld in rubriek 5 (zie ook de uitleg bij die rubriek).
 
- Vak IV
-
-Op uw loonfiche vindt u de hier te vermelden opzeggingsvergoedingen naast
+Vak IV Op uw loonfiche vindt u de hier te vermelden opzeggingsvergoedingen naast
 code 280.
 
 18. Premie van het Impulsfonds voor de huisartsengeneeskunde verkregen door een erkend huisarts om zich te vestigen in een ‘prioritaire’
-zone
-Vermeld hier de in artikel 4 van het koninklijk besluit van 23.3.2012 tot oprichting van
+zone Vermeld hier de in artikel 4 van het koninklijk besluit van 23.3.2012 tot oprichting van
 een Impulsfonds voor de huisartsengeneeskunde en tot vaststelling van de
 werkingsregels ervan bedoelde premie die u in 2024 als erkend huisarts tewerkgesteld als werknemer hebt verkregen om u te vestigen in een ‘prioritaire’ zone, d.w.z.
 een zone waar nood is aan extra huisartsen.
 Op uw loonfiche vindt u die premie naast code 267.
 
 19. Afstand (enkel) tussen uw woonplaats en uw plaats van tewerkstelling
-op 1.1.2025
-Als uw plaats van tewerkstelling op 1.1.2025 ten minste 75 km van uw woonplaats
+op 1.1.2025 Als uw plaats van tewerkstelling op 1.1.2025 ten minste 75 km van uw woonplaats
 lag, vermeld dan in deze rubriek het aantal volle km van de enkele afstand tussen
 uw woonplaats en uw plaats van tewerkstelling op 1.1.2025.
 ▲ Opgelet: het berekeningsprogramma houdt geen rekening met deze rubriek als
@@ -1582,8 +1451,7 @@ meetellen voor de berekening van uw wettelijk pensioen, mag u hier vermelden.
 • bijdragen die op uw bezoldigingen zijn ingehouden
 • aan uw ziekenfonds gestorte bijdragen voor aanvullende of vrije verzekering
 (voor specifieke diensten zoals ziekenvervoer, openluchtkuren, gezinshulp,
-enz.)
-• aan uw ziekenfonds (of aan een verzekeringsmaatschappij) betaalde bijdragen of
+enz.) • aan uw ziekenfonds (of aan een verzekeringsmaatschappij) betaalde bijdragen of
 premies voor zogenaamde hospitalisatieverzekeringen.
 
 21. Andere beroepskosten
@@ -1597,21 +1465,13 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak IV
-
-Dat forfait wordt nog verhoogd met het bijkomend forfait voor verre verplaatsingen
+Vak IV Dat forfait wordt nog verhoogd met het bijkomend forfait voor verre verplaatsingen
 als de afstand tussen uw woonplaats en uw plaats van tewerkstelling op 1.1.2025
 ten minste 75 km bedroeg (zie de tabel hierna).
 Afstand tussen uw woonplaats en uw plaats
 Bijkomend forfait (in euro)
 van tewerkstelling op 1.1.2025 (in km)
-van 75 tot 100
-75 (1)
-van 101 tot 125
-125 (1)
-meer dan 125
-175 (1)
-Om te weten of uw werkelijke kosten voor u voordeliger zijn dan het wettelijk forfait, kunt u
+van 75 tot 100 75 (1) van 101 tot 125 125 (1) meer dan 125 175 (1) Om te weten of uw werkelijke kosten voor u voordeliger zijn dan het wettelijk forfait, kunt u
 gebruikmaken van het berekeningsprogramma op de website van de FOD Financiën.
 ▲ Opgelet!
 • Als u rubriek 21 invult, is het aangewezen om het detail van uw werkelijke beroepskosten op te nemen in een bijlage bij uw aangifte.
@@ -1646,10 +1506,7 @@ die een overheid in 2024 voor de eerste maal tijdens diezelfde maand heeft betaa
 voortaan in december te betalen in plaats van in januari van het volgende jaar.
 Op uw fiche 281.13 vindt u die uitkeringen naast code 304.
 
- Vak IV
-
-c) achterstallen
-Vermeld onder c de afzonderlijk belastbare achterstallen. Op uw fiche 281.13
+Vak IV c) achterstallen Vermeld onder c de afzonderlijk belastbare achterstallen. Op uw fiche 281.13
 vindt u die achterstallen naast code 261.
 
 2. Uitkeringen met anciënniteitstoeslag
@@ -1658,8 +1515,7 @@ Vermeld onder a de werkloosheidsuitkeringen die u in 2024 als oudere werkloze
 (50 jaar of ouder) hebt ontvangen en waarin een anciënniteitstoeslag is begrepen.
 Op uw fiche 281.13 vindt u die uitkeringen naast code 264.
 
-b) achterstallen
-Vermeld onder b de afzonderlijk belastbare achterstallen die u op uw fiche 281.13
+b) achterstallen Vermeld onder b de afzonderlijk belastbare achterstallen die u op uw fiche 281.13
 vindt naast code 265.
 
 C. WETTELIJKE UITKERINGEN BIJ ZIEKTE OF INVALIDITEIT
@@ -1697,9 +1553,7 @@ Het gaat hier over de bovenvermelde aanvullende vergoedingen die betaald zijn
 krachtens een cao of een individuele overeenkomst die bepaalt dat de gewezen
 werkgever die vergoedingen ook na de werkhervatting moet doorbetalen.
 
- Vak IV
-
-1) verkregen bovenop werkloosheidsuitkeringen met bedrijfstoeslag (voorheen brugpensioenen)
+Vak IV 1) verkregen bovenop werkloosheidsuitkeringen met bedrijfstoeslag (voorheen brugpensioenen)
 Vermeld de in 1, a bedoelde aanvullende vergoedingen die u hebt verkregen
 bovenop werkloosheidsuitkeringen met bedrijfstoeslag in subrubriek:
 • a, 1: als het gaat over andere dan de in subrubrieken b en c bedoelde vergoedingen die slaan op periodes tot 31.12.2015. Op het fiche 281.18
@@ -1723,8 +1577,7 @@ inkomsten uit die nieuwe werkzaamheid moet vermelden, ook de specifieke rubriek 
 vak XVI, 18 als u het werk hebt hervat als bedrijfsleider, vak XVIII, 17 als u
 het werk hebt hervat als beoefenaar van een vrij beroep, enz.).
 2) verkregen bovenop werkloosheidsuitkeringen die u als volledig werkloze hebt verkregen of had kunnen verkrijgen als u het werk niet had
-hervat
-Vermeld de in 1, a bedoelde aanvullende vergoedingen die u hebt verkregen
+hervat Vermeld de in 1, a bedoelde aanvullende vergoedingen die u hebt verkregen
 bovenop werkloosheidsuitkeringen die u als volledig werkloze hebt verkregen
 of had kunnen verkrijgen als u het werk niet had hervat, in subrubriek:
 • a:
@@ -1742,9 +1595,7 @@ als het gaat over afzonderlijk belastbare achterstallen. Op het
 fiche 281.18 van uw gewezen werkgever vindt u die vergoedingen
 naast code 293.
 
- Vak IV
-
-▲ Belangrijke opmerking!
+Vak IV ▲ Belangrijke opmerking!
 Als u rubriek 2 (subrubriek a, b of c) hebt ingevuld en u na uw ontslag bij
 uw gewezen werkgever het werk hebt hervat bij een nieuwe werkgever of
 als zelfstandige, vergeet dan niet om in het vak van de voorbereiding
@@ -1794,8 +1645,7 @@ winst of baten herstellen en die geen:
 • werkloosheidsuitkeringen (zie de uitleg bij rubriek B)
 • werkloosheidsuitkeringen met bedrijfstoeslag (zie de uitleg bij rubriek E)
 • aanvullende vergoedingen van de gewezen werkgever (zie de uitleg bij
-rubriek D, 1)
-• uitkeringen bij ziekte of invaliditeit (zie de uitleg bij rubriek C en bij rubriek D, 2)
+rubriek D, 1) • uitkeringen bij ziekte of invaliditeit (zie de uitleg bij rubriek C en bij rubriek D, 2)
 • uitkeringen bij beroepsziekte of arbeidsongeval (zie de uitleg bij rubriek D, 3)
 • eenmalige premie voor bepaalde begunstigden van een COVID-19-overbruggingsrecht (zie de uitleg bij rubriek D, 4)
 zijn en die ook niet afzonderlijk belastbaar zijn als:
@@ -1807,8 +1657,7 @@ Op uw fiches 281.10 en 281.18 vindt u die vergoedingen naast code 271.
 Vermeld ook de hierboven bedoelde vergoedingen die niet op een individueel fiche
 zijn vermeld, zoals die welke u hebt ontvangen:
 • van of namens een aansprakelijke derde bij een verkeersongeval waarvan u
-slachtoffer was
-• van een sociaal fonds, een fonds voor bestaanszekerheid of een vakbond.
+slachtoffer was • van een sociaal fonds, een fonds voor bestaanszekerheid of een vakbond.
 
 6. Onder 2, 3 en 5 bedoelde uitkeringen van december 2024 (overheid)
 Vermeld hier:
@@ -1895,12 +1744,10 @@ Vermeld hier het totale aantal werkelijk gepresteerde overuren dat u op uw loonf
 
 2. Berekeningsgrondslag van de overwerktoeslag voor overuren die
 recht geven op een belastingvermindering
-a) van 66,81 %
-Vermeld hier de berekeningsgrondslag van de overwerktoeslag voor de in rubriek 1 vermelde overuren die in aanmerking komen voor een belastingvermindering van 66,81 %. Op uw loonfiche vindt u die berekeningsgrondslag naast
+a) van 66,81 % Vermeld hier de berekeningsgrondslag van de overwerktoeslag voor de in rubriek 1 vermelde overuren die in aanmerking komen voor een belastingvermindering van 66,81 %. Op uw loonfiche vindt u die berekeningsgrondslag naast
 code 233.
 
-b) van 57,75 %
-Vermeld hier de berekeningsgrondslag van de overwerktoeslag voor de in rubriek 1 vermelde overuren die in aanmerking komen voor een belastingvermindering van 57,75 %. Op uw loonfiche vindt u die berekeningsgrondslag naast
+b) van 57,75 % Vermeld hier de berekeningsgrondslag van de overwerktoeslag voor de in rubriek 1 vermelde overuren die in aanmerking komen voor een belastingvermindering van 57,75 %. Op uw loonfiche vindt u die berekeningsgrondslag naast
 code 234.
 
 H. BEDRIJFSVOORHEFFING
@@ -1912,8 +1759,7 @@ terug te vinden behalve wat het in rubriek A, 1, b te vermelden vakantiegeld bet
 I.
 
 INHOUDINGEN VOOR DE BIJZONDERE BIJDRAGE VOOR DE SOCIALE
-ZEKERHEID
-Vermeld hier de bijzondere bijdrage voor de sociale zekerheid die op uw bezoldigingen
+ZEKERHEID Vermeld hier de bijzondere bijdrage voor de sociale zekerheid die op uw bezoldigingen
 is ingehouden. Die bijdrage vindt u op uw individuele fiches naast code 287.
 
 J. OVERHEIDSPERSONEEL ZONDER ARBEIDSOVEREENKOMST
@@ -1922,9 +1768,7 @@ dienst zijn genomen met een arbeidsovereenkomst.
 Als het vakje naast code 290 van uw loonfiche is aangekruist, moet u het vakje hier ook
 aankruisen.
 
- Vak IV
-
-K. WERKBONUS
+Vak IV K. WERKBONUS
 1. die in aanmerking komt voor het belastingkrediet van 33,14 %
 Vermeld hier het bedrag van de werkbonus die in aanmerking komt voor het belastingkrediet van 33,14 %. Op uw fiche 281.10 vindt u dit bedrag naast code 284.
 
@@ -1960,16 +1804,11 @@ Deze rubriek is bestemd voor de helpende gezinsleden van een zelfstandige, die i
 blz. 3 van die aangifte vermelden.
 
 O. INKOMSTEN VAN BUITENLANDSE OORSPRONG (EN DE BIJHORENDE
-KOSTEN)
-U mag in rubriek O niet alle in de rubrieken A tot E vermelde inkomsten van buitenlandse oorsprong (en de bijhorende kosten) herhalen, maar alleen die welke in de rubrieken O, 1 en O, 2 worden gevraagd, nl.:
+KOSTEN) U mag in rubriek O niet alle in de rubrieken A tot E vermelde inkomsten van buitenlandse oorsprong (en de bijhorende kosten) herhalen, maar alleen die welke in de rubrieken O, 1 en O, 2 worden gevraagd, nl.:
 • in rubriek O, 1: de inkomsten die u hebt verkregen in Frankrijk of Nederland en die
 daar aan een sociale wetgeving voor werknemers of daarmee gelijkgestelden zijn onderworpen en in België niet van belasting zijn vrijgesteld. Die inkomsten zijn niet onderworpen aan de Belgische bijzondere bijdrage voor de sociale zekerheid.
 
- Vak IV
-
-•
-
-in rubriek O, 2: de inkomsten waarvoor u aanspraak maakt op belastingvermindering
+Vak IV • in rubriek O, 2: de inkomsten waarvoor u aanspraak maakt op belastingvermindering
 voor inkomsten van buitenlandse oorsprong of op de afzonderlijke belasting tegen de
 aanslagvoet van 0 %, d.w.z.:
 - de inkomsten die zijn vrijgesteld met progressievoorbehoud. Dat zijn gezamenlijk
@@ -1993,8 +1832,7 @@ belastingvermindering voor inkomsten van buitenlandse oorsprong of op de afzonde
 bewijs dat de voorwaarden zijn vervuld, bij uw aangifte te voegen.
 • Als u een papieren aangifte indient, moet u de in rubriek O gevraagde gegevens op blz. 3 van die aangifte vermelden.
 
-## Vak V - PENSIOENEN
-Voorafgaande opmerking
+Vak V - PENSIOENEN Voorafgaande opmerking
 De meeste van de in dit vak te vermelden bedragen vindt u op individuele fiches die u hebt
 ontvangen voor het invullen van uw aangifte.
 Op die fiches is elk bedrag dat u moet aangeven gemerkt met een code van 3 cijfers
@@ -2011,8 +1849,7 @@ aan de Europese gemeenschapsbelasting onderworpen pensioenen van voormalige lede
 van het Europees Parlement of hun rechthebbenden. Bepaalde van die pensioenen moet u
 nog verder detailleren in vak V, C (zie ook de uitleg bij die rubriek).
 
-A. PENSIOENEN
-Rubriek A is bestemd voor alle (in de personenbelasting) belastbare pensioenen, renten,
+A. PENSIOENEN Rubriek A is bestemd voor alle (in de personenbelasting) belastbare pensioenen, renten,
 enz. van huidige of gewezen werknemers, bedrijfsleiders en zelfstandigen of die zijn toegekend in het kader van een wettelijke sociale beschermingsregeling.
 Ook alle belastbare beroepsinkomsten uit pensioensparen moet u hier vermelden (in rubriek A, 3).
 Spaartegoeden, kapitalen en afkoopwaarden, die al aan de taks op het lange termijnsparen
@@ -2026,8 +1863,7 @@ ongeschiktheid door arbeidsongeval of beroepsziekte (zie de uitleg bij rubriek 2
 inkomsten uit pensioensparen (zie de uitleg bij rubriek 3).
 
 a) Wettelijke pensioenen verkregen vanaf de wettelijke pensioenleeftijd
-1) gewone
-Vermeld hier de gewone wettelijke pensioenen, behalve overlevingspensioenen,
+1) gewone Vermeld hier de gewone wettelijke pensioenen, behalve overlevingspensioenen,
 die u in 2024 vanaf de wettelijke pensioenleeftijd hebt verkregen.
 Op uw pensioenfiche (281.11) vindt u die pensioenen naast code 228.
 2) pensioenen van december 2024 (overheid)
@@ -2038,16 +1874,12 @@ pensioenen van december voortaan in december te betalen in plaats van in
 januari van het volgende jaar.
 Op uw pensioenfiche vindt u die pensioenen naast code 314.
 
- Vak V
-
-3) achterstallen
-Vermeld hier de in 2024 verkregen afzonderlijk belastbare achterstallen van
+Vak V 3) achterstallen Vermeld hier de in 2024 verkregen afzonderlijk belastbare achterstallen van
 de in rubriek a, 1 bedoelde wettelijke pensioenen.
 Op uw pensioenfiche vindt u die achterstallen naast code 230.
 
 b) Overlevingspensioenen en overgangsuitkeringen
-1) gewone
-Vermeld hier de gewone overlevingspensioenen en overgangsuitkeringen die
+1) gewone Vermeld hier de gewone overlevingspensioenen en overgangsuitkeringen die
 u in 2024 zijn betaald of toegekend.
 Op uw pensioenfiche vindt u ze naast code 229.
 2) pensioenen van december 2024 (overheid)
@@ -2057,16 +1889,13 @@ heeft betaald door een beslissing van die overheid om de pensioenen van
 december voortaan in december te betalen in plaats van in januari van het
 volgende jaar.
 Op uw pensioenfiche vindt u die pensioenen naast code 315.
-3) achterstallen
-Vermeld hier de in 2024 verkregen afzonderlijk belastbare achterstallen van
+3) achterstallen Vermeld hier de in 2024 verkregen afzonderlijk belastbare achterstallen van
 overlevingspensioenen en overgangsuitkeringen.
 Op uw pensioenfiche vindt u die achterstallen naast code 231.
 
 c) Andere pensioenen, renten (behalve omzettingsrenten) en als zodanig
 geldende kapitalen en afkoopwaarden, enz., die gezamenlijk belastbaar
-zijn
-1) gewone
-Vermeld hier de niet in de rubrieken a, 1; b, 1 en e bedoelde gewone pensioenen,
+zijn 1) gewone Vermeld hier de niet in de rubrieken a, 1; b, 1 en e bedoelde gewone pensioenen,
 renten, enz. (zoals wettelijke rustpensioenen die vóór de wettelijke pensioenleeftijd zijn verkregen en niet in rubriek 2 bedoelde renten en vergoedingen tot
 herstel van een bestendige derving van beroepsinkomsten), en de kapitalen
 en afkoopwaarden van individuele levensverzekeringen, groepsverzekeringen,
@@ -2080,25 +1909,18 @@ heeft betaald door een beslissing van die overheid om de pensioenen van
 december voortaan in december te betalen in plaats van in januari van het
 volgende jaar.
 Op uw pensioenfiche vindt u die pensioenen naast code 316.
-3) achterstallen
-Vermeld hier de in 2024 verkregen afzonderlijk belastbare achterstallen van
+3) achterstallen Vermeld hier de in 2024 verkregen afzonderlijk belastbare achterstallen van
 de onder c, 1 bedoelde pensioenen, renten, enz.
 Op uw individuele fiches (281.11 en 281.14) vindt u ze naast code 212.
 
- Vak V
-
-d) Kapitalen en afkoopwaarden die afzonderlijk belastbaar zijn
-1) tegen 33 %
-Vermeld hier de als renten of pensioenen geldende kapitalen en afkoopwaarden die u in 2024 zijn betaald of toegekend en die u op uw pensioenfiche
+Vak V d) Kapitalen en afkoopwaarden die afzonderlijk belastbaar zijn
+1) tegen 33 % Vermeld hier de als renten of pensioenen geldende kapitalen en afkoopwaarden die u in 2024 zijn betaald of toegekend en die u op uw pensioenfiche
 vindt naast code 213.
-2) tegen 20 %
-Vermeld hier de als renten of pensioenen geldende kapitalen en afkoopwaarden die u in 2024 zijn betaald of toegekend en die u op uw pensioenfiche
+2) tegen 20 % Vermeld hier de als renten of pensioenen geldende kapitalen en afkoopwaarden die u in 2024 zijn betaald of toegekend en die u op uw pensioenfiche
 vindt naast code 245.
-3) tegen 18 %
-Vermeld hier de als renten of pensioenen geldende kapitalen en afkoopwaarden die u in 2024 zijn betaald of toegekend en die u op uw pensioenfiche
+3) tegen 18 % Vermeld hier de als renten of pensioenen geldende kapitalen en afkoopwaarden die u in 2024 zijn betaald of toegekend en die u op uw pensioenfiche
 vindt naast code 253.
-4) tegen 16,5 %
-a. gekapitaliseerde waarde van wettelijke pensioenen verkregen vanaf
+4) tegen 16,5 % a. gekapitaliseerde waarde van wettelijke pensioenen verkregen vanaf
 de wettelijke pensioenleeftijd
 Vermeld hier de gekapitaliseerde waarde van een deel van het wettelijk
 rustpensioen, die u in 2024 vanaf de wettelijke pensioenleeftijd hebt verkregen en die u op uw pensioenfiche vindt naast code 232.
@@ -2106,31 +1928,25 @@ b. gekapitaliseerde waarde van overlevingspensioenen
 Vermeld hier de gekapitaliseerde waarde van een deel van het wettelijk
 overlevingspensioen, die u in 2024 hebt verkregen en die u op uw
 pensioenfiche vindt naast code 237.
-c. andere
-Vermeld hier de als renten of pensioenen geldende kapitalen en afkoopwaarden die u in 2024 zijn betaald of toegekend en die u op uw
+c. andere Vermeld hier de als renten of pensioenen geldende kapitalen en afkoopwaarden die u in 2024 zijn betaald of toegekend en die u op uw
 pensioenfiche vindt naast code 214.
-5) tegen 10 %
-Vermeld hier de als renten of pensioenen geldende kapitalen en afkoopwaarden die u in 2024 zijn betaald of toegekend en die u op uw pensioenfiche
+5) tegen 10 % Vermeld hier de als renten of pensioenen geldende kapitalen en afkoopwaarden die u in 2024 zijn betaald of toegekend en die u op uw pensioenfiche
 vindt naast code 215.
 
 e) Omzettingsrenten van kapitalen en afkoopwaarden die zijn betaald of
-toegekend
-Vermeld hier de andere dan de in rubriek 2, c bedoelde omzettingsrenten van de
+toegekend Vermeld hier de andere dan de in rubriek 2, c bedoelde omzettingsrenten van de
 als renten of pensioenen geldende kapitalen en afkoopwaarden die niet aan de
 taks op het lange termijnsparen onderworpen zijn, die in de personenbelasting
 niet in éénmaal (gezamenlijk of afzonderlijk) belastbaar waren of zijn en die u tijdens de jaren 2012 tot 2024 zijn toegekend als u bij de toekenning jonger was
 dan 65 jaar, of tijdens de jaren 2015 tot 2024 als u bij de toekenning 65 jaar of
 ouder was.
-1) in 2024
-Voor die in 2024 ontvangen kapitalen en afkoopwaarden moet u:
+1) in 2024 Voor die in 2024 ontvangen kapitalen en afkoopwaarden moet u:
 • in rubriek A, 1, e, 1 de omzettingsrente vermelden die u op uw individuele
 fiche (281.11 of 281.14) van het jaar 2024 vindt naast code 216
 • in rubriek B, 1 de bedrijfsvoorheffing vermelden die u op datzelfde fiche
 vindt naast code 225.
 
- Vak V
-
-2) tijdens de jaren 2012 tot 2023
+Vak V 2) tijdens de jaren 2012 tot 2023
 Voor die tijdens de jaren 2012 (respectievelijk 2015) tot 2023 ontvangen kapitalen en afkoopwaarden, moet u alleen in rubriek A, 1, e, 2 de omzettingsrente vermelden (en mag u in rubriek B geen bedrijfsvoorheffing vermelden).
 Die omzettingsrente kunt u terugvinden op uw fiche van het jaar van de betaling van het kapitaal of de afkoopwaarde, naast code 216.
 
@@ -2161,13 +1977,10 @@ b) Achterstallen van onder a bedoelde uitkeringen, enz.
 Vermeld hier het bedrag van de afzonderlijk belastbare achterstallen van de onder a bedoelde uitkeringen, toelagen en renten.
 Dat bedrag vindt u op uw fiche 281.16 naast code 224 (zie echter ook de belangrijke opmerking bij rubriek 2 hiervoor).
 
- Vak V
-
-c) Omzettingsrenten van kapitalen die zijn betaald of toegekend
+Vak V c) Omzettingsrenten van kapitalen die zijn betaald of toegekend
 Het gaat hier om de in rubriek 2 bedoelde omzettingsrenten van kapitalen die tijdens de jaren 2012 tot 2024 zijn toegekend aan personen die op het tijdstip van
 de toekenning jonger waren dan 65 jaar.
-1) in 2024
-Voor die in 2024 ontvangen kapitalen moet u:
+1) in 2024 Voor die in 2024 ontvangen kapitalen moet u:
 • in rubriek A, 2, c, 1 het belastbare bedrag van de omzettingsrente vermelden. Dat bedrag vindt u op uw fiche 281.16 naast code 226 (zie echter
 ook de belangrijke opmerking bij rubriek 2 hiervoor)
 • in rubriek B, 1 de bedrijfsvoorheffing vermelden die u op datzelfde fiche
@@ -2190,17 +2003,13 @@ Vermeld hier de gezamenlijk belastbare pensioenen, renten, kapitalen en afkoopwa
 spaarrekeningen die u op uw fiche 281.15 vindt naast code 219.
 
 b) Spaartegoeden, kapitalen en afkoopwaarden die afzonderlijk belastbaar
-zijn
-1) tegen 33 %
-Vermeld hier de tegoeden van (individuele of collectieve) spaarrekeningen en
+zijn 1) tegen 33 % Vermeld hier de tegoeden van (individuele of collectieve) spaarrekeningen en
 kapitalen en afkoopwaarden van spaarverzekeringen die u op uw fiche 281.15
 vindt naast code 220.
-2) tegen 16,5 %
-Vermeld hier de tegoeden van (individuele of collectieve) spaarrekeningen en
+2) tegen 16,5 % Vermeld hier de tegoeden van (individuele of collectieve) spaarrekeningen en
 kapitalen en afkoopwaarden van spaarverzekeringen die u op uw fiche 281.15
 vindt naast code 221.
-3) tegen 8 %
-Vermeld hier de tegoeden van (individuele of collectieve) spaarrekeningen en
+3) tegen 8 % Vermeld hier de tegoeden van (individuele of collectieve) spaarrekeningen en
 kapitalen en afkoopwaarden van spaarverzekeringen die u op uw fiche 281.15
 vindt naast code 222.
 
@@ -2208,16 +2017,13 @@ vindt naast code 222.
 Deze rubriek mag u alleen invullen als u gepensioneerd bent en persoonlijke sociale
 bijdragen hebt betaald die niet op uw pensioenen of renten zijn ingehouden.
 
- Vak V
-
-Hier mag u ook het bedrag vermelden dat u (als gepensioneerde) in 2024 werkelijk
+Vak V Hier mag u ook het bedrag vermelden dat u (als gepensioneerde) in 2024 werkelijk
 aan uw ziekenfonds hebt gestort als bijdrage in het kader van de financiële verantwoordelijkheid van de ziekenfondsen.
 ▲ Opgelet: u mag daarentegen niet vermelden:
 • bijdragen die op uw pensioen zijn ingehouden
 • aan uw ziekenfonds gestorte bijdragen voor aanvullende of vrije verzekering
 (voor specifieke diensten zoals ziekenvervoer, openluchtkuren, gezinshulp,
-enz.)
-• aan uw ziekenfonds (of aan een verzekeringsmaatschappij) betaalde bijdragen
+enz.) • aan uw ziekenfonds (of aan een verzekeringsmaatschappij) betaalde bijdragen
 of premies voor zogenaamde hospitalisatieverzekeringen.
 
 B. BEDRIJFSVOORHEFFING
@@ -2226,8 +2032,7 @@ vermeld en die u op uw individuele fiches van 2024 vindt naast code 225.
 ▲ Opgelet: buitenlandse belasting mag u nooit in rubriek B vermelden.
 
 C. PENSIOENEN VAN BUITENLANDSE OORSPRONG (EN DE BIJHORENDE
-KOSTEN)
-U mag in rubriek C niet alle in rubriek A vermelde pensioenen van buitenlandse oorsprong (en de bijhorende kosten) herhalen, maar alleen die welke in rubriek C worden
+KOSTEN) U mag in rubriek C niet alle in rubriek A vermelde pensioenen van buitenlandse oorsprong (en de bijhorende kosten) herhalen, maar alleen die welke in rubriek C worden
 gevraagd, nl. de pensioenen waarvoor u aanspraak maakt op belastingvermindering
 voor inkomsten van buitenlandse oorsprong of op de afzonderlijke belasting tegen de
 aanslagvoet van 0 %, d.w.z.:
@@ -2251,13 +2056,7 @@ blz. 3 van die aangifte vermelden.
 
 ## Vak VI - ONTVANGEN ONDERHOUDSUITKERINGEN
 Voorafgaande opmerkingen
-•
-
-•
-
-•
-
-Onderhoudsuitkeringen voor kinderen zijn belastbaar op naam van de kinderen zelf. Zij
+• • • Onderhoudsuitkeringen voor kinderen zijn belastbaar op naam van de kinderen zelf. Zij
 moeten niet worden vermeld in de aangifte van de ouder(s) maar in aangiften op naam
 van de kinderen zelf. Als uw kinderen geen aangifteformulieren op hun naam hebben
 ontvangen, kunt u of kunnen zij er aanvragen bij het bevoegde belastingkantoor.
@@ -2288,28 +2087,8 @@ het percent dat in de tabel hierna staat naast de leeftijd van de verkrijger op 
 • U moet dat bedrag aangeven vanaf het jaar van de betaling of toekenning van het
 kapitaal tot en met het jaar van overlijden van de verkrijger.
 
- Vak VI
-
-Leeftijd bij de betaling of toekenning
-40 jaar en minder
-41 tot 45 jaar
-46 tot 50 jaar
-51 tot 55 jaar
-56 tot 58 jaar
-59 en 60 jaar
-61 en 62 jaar
-63 en 64 jaar
-65 jaar en meer
-
-Percent
-
-1,5
-
-2,5
-
-3,5
-
-4,5
+Vak VI Leeftijd bij de betaling of toekenning
+40 jaar en minder 41 tot 45 jaar 46 tot 50 jaar 51 tot 55 jaar 56 tot 58 jaar 59 en 60 jaar 61 en 62 jaar 63 en 64 jaar 65 jaar en meer Percent 1,5 2,5 3,5 4,5
 
 4. Schuldenaar(s) van de onder 1 tot 3 bedoelde onderhoudsuitkeringen
 Vermeld de naam, de voornaam en het adres van de perso(o)n(en) van wie u de in 1 tot
@@ -2320,11 +2099,7 @@ Vermeld de naam, de voornaam en het adres van de perso(o)n(en) van wie u de in 1
 
 ## Vak VII - INKOMSTEN VAN KAPITALEN EN ROERENDE GOEDEREN
 Voorafgaande opmerkingen
-•
-
-•
-
-Echtgenoten en wettelijk samenwonenden die samen worden belast, moeten hun inkomsten van kapitalen en roerende goederen als volgt aangeven:
+• • Echtgenoten en wettelijk samenwonenden die samen worden belast, moeten hun inkomsten van kapitalen en roerende goederen als volgt aangeven:
 - inkomsten die volgens het vermogensrecht tot het eigen vermogen van een echtgenoot of partner behoren, moet u volledig op naam van die echtgenoot of partner aangeven
 - alle andere inkomsten moet u voor de helft op naam van elk van de echtgenoten of
 partners aangeven.
@@ -2334,15 +2109,13 @@ In 2024 verkregen inkomsten van roerende goederen (rubrieken B tot D) zijn altij
 maar niet voor die bedoeld in rubriek A, 1 (zie ook de uitleg bij die rubriek).
 
 A. INKOMSTEN VAN KAPITALEN VÓÓR AFTREK VAN DE INNINGS- EN
-BEWARINGSKOSTEN
-▲ Opgelet: als u inkomsten van kapitalen aangeeft die niet als beroepsinkomsten te beschouwen zijn, moet u de werkelijk geïnde of verkregen bedragen (na aftrek van de
+BEWARINGSKOSTEN ▲ Opgelet: als u inkomsten van kapitalen aangeeft die niet als beroepsinkomsten te beschouwen zijn, moet u de werkelijk geïnde of verkregen bedragen (na aftrek van de
 eventuele buitenlandse belasting) vermelden, verhoogd met de innings- en bewaringskosten en andere soortgelijke kosten, maar niet met de ingehouden roerende
 voorheffing.
 
 1. Niet verplicht aan te geven inkomsten en verrekenbare roerende voorheffing op vrijgestelde inkomsten
 a) Niet verplicht aan te geven inkomsten (die niet van de personenbelasting
-zijn vrijgesteld)
-Voorafgaande opmerking
+zijn vrijgesteld) Voorafgaande opmerking
 Het betreft hier niet van de personenbelasting vrijgestelde inkomsten van kapitalen (zowel van Belgische als van buitenlandse oorsprong) waarop roerende voorheffing is ingehouden of waarvoor een fictieve roerende voorheffing verrekenbaar is. Die inkomsten zijn niet verplicht aan te geven. Als u ze toch aangeeft,
 zullen ze afzonderlijk worden belast, tenzij de gezamenlijke belasting met uw andere inkomsten voor u voordeliger is. Als u die inkomsten aangeeft, zal de ingehouden roerende voorheffing of de verrekenbare fictieve roerende voorheffing
 worden verrekend, tenzij u als ambtenaar, ander personeelslid, gepensioneerde
@@ -2354,9 +2127,7 @@ doorgaans terugvinden op het inningsborderel of bankuittreksel.
 Houd het detail van de aangegeven inkomsten en het bewijs van de inhouding
 van de roerende voorheffing ter beschikking van de belastingdienst.
 
- Vak VII
-
-b) Verrekenbare roerende voorheffing ingehouden op dividenden die
+Vak VII b) Verrekenbare roerende voorheffing ingehouden op dividenden die
 (voor maximaal 833 euro (1)) van de personenbelasting zijn vrijgesteld
 Gewone dividenden (bedoeld in artikel 18, eerste lid, 1°, van het Wetboek van de
 inkomstenbelastingen 1992) zijn tot een bedrag van 833 euro (1) per belastingplichtige vrijgesteld van de personenbelasting (maar niet van de roerende voorheffing).
@@ -2486,11 +2257,7 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak VII
-
-•
-
-Interesten van leningen met een jaarlijkse interestvoet en een looptijd van ten minste 4 jaar die u buiten de uitoefening van uw beroepswerkzaamheid, via een erkend crowdfundingplatform hebt verstrekt aan startende kleine vennootschappen
+Vak VII • Interesten van leningen met een jaarlijkse interestvoet en een looptijd van ten minste 4 jaar die u buiten de uitoefening van uw beroepswerkzaamheid, via een erkend crowdfundingplatform hebt verstrekt aan startende kleine vennootschappen
 zijn onder bepaalde voorwaarden (zie artikel 21, eerste lid, 13°, WIB 92) voor
 4 jaar vrijgesteld in de mate dat ze slaan op de eerste schijf van 16.270 euro van
 het totale bedrag van die leningen.
@@ -2529,9 +2296,7 @@ van dat kapitaal aangeven. Voor Belgische renten is het belastbare bedrag vermel
 een individueel fiche 281.40.
 Houd de identiteitsgegevens van de schuldenaar van buitenlandse renten ter beschikking van de belastingdienst.
 
- Vak VII
-
-D. INKOMSTEN UIT AUTEURSRECHTEN, NABURIGE RECHTEN EN WETTELIJKE EN VERPLICHTE LICENTIES
+Vak VII D. INKOMSTEN UIT AUTEURSRECHTEN, NABURIGE RECHTEN EN WETTELIJKE EN VERPLICHTE LICENTIES
 Voorafgaande opmerking
 De programmawet (I) van 26.12.2022 heeft het belastingstelsel van de inkomsten uit auteursrechten en naburige rechten en wettelijke en verplichte licenties betaald of toegekend vanaf 1.1.2023 fundamenteel gewijzigd.
 Daardoor komen bepaalde inkomsten die tot aanslagjaar 2023 (inkomsten van 2022) onder artikel 17, § 1, 5°, van het Wetboek van de inkomstenbelastingen 1992 (WIB 92) vielen, nu niet langer voor de toepassing van die (gewijzigde) bepaling in aanmerking.
@@ -2539,8 +2304,7 @@ Daardoor komen bepaalde inkomsten die tot aanslagjaar 2023 (inkomsten van 2022) 
 1. Inkomsten (bruto)
 De inkomsten die in deze rubriek worden bedoeld, zijn de inkomsten:
 • verkregen uit de overdracht of de verlening van een licentie door de oorspronkelijke rechthebbende, zijn erfgenamen of legatarissen, van auteursrechten en naburige rechten, alsook van de wettelijke en verplichte licenties die bij wet zijn geregeld, bedoeld in boek XI, titel 5, van het WER of in analoge bepalingen van
-buitenlands recht
-• die betrekking hebben op originele werken van letterkunde of kunst bedoeld in
+buitenlands recht • die betrekking hebben op originele werken van letterkunde of kunst bedoeld in
 artikel XI.165 van het WER of op prestaties van uitvoerende kunstenaars bedoeld in artikel XI.205 van het WER
 • met het oog op de exploitatie of het daadwerkelijk gebruik van deze rechten, behalve in geval van een gebeurtenis veroorzaakt buiten de wil van de overeenkomstsluitende partijen, volgens de eerlijke beroepsgebruiken, door de verkrijger,
 de licentiehouder of een derde
@@ -2605,9 +2369,7 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak VII
-
-Vermeld in deze rubriek steeds het brutobedrag na aftrek van de eventuele buitenlandse belasting, maar vóór aftrek van kosten en van de eventueel ingehouden roerende voorheffing, van de inkomsten (zowel van Belgische als van buitenlandse oorsprong) die u in 2024 hebt verkregen.
+Vak VII Vermeld in deze rubriek steeds het brutobedrag na aftrek van de eventuele buitenlandse belasting, maar vóór aftrek van kosten en van de eventueel ingehouden roerende voorheffing, van de inkomsten (zowel van Belgische als van buitenlandse oorsprong) die u in 2024 hebt verkregen.
 
 2. Kosten (werkelijke of forfaitaire)
 Vermeld hier het bedrag van de werkelijke kosten behalve interesten, die u in 2024
@@ -2623,8 +2385,7 @@ Als u in rubriek 1 echter inkomsten hebt vermeld die specifiek voortkomen uit de
 • grammofoonplaten te persen
 • bioscoopfilms of gelijkaardige audiovisuele werken te verdelen of te vertonen
 • radio- en televisieprogramma’s uit te zenden of gelijktijdig en onverkort door te
-geven
-mag u de kosten voor het verkrijgen of behouden van die inkomsten, in afwijking van
+geven mag u de kosten voor het verkrijgen of behouden van die inkomsten, in afwijking van
 bovenvermeld forfait, ramen op 85 % van die inkomsten.
 
 3. Roerende voorheffing
@@ -2681,11 +2442,7 @@ wettelijk samenwonende ouders, fiscaal nog ten laste zijn van beide ouders (die
 nog samen worden belast), is echter geen beletsel voor de aftrek van de onderhoudsuitkeringen die één van de feitelijk gescheiden ouders in dat jaar voor die
 kinderen heeft betaald.
 
- Vak VIII
-
-•
-
-In vak VIII, 2 mag u ook geen onderhoudsuitkeringen vermelden als bedoeld in
+Vak VIII • In vak VIII, 2 mag u ook geen onderhoudsuitkeringen vermelden als bedoeld in
 vak VI, rubriek 2 (d.w.z. onderhoudsuitkeringen die slaan op jaren vóór 2024,
 maar die u pas in 2024 hebt betaald door een gerechtelijke beslissing waarin het
 bedrag met terugwerkende kracht is vastgesteld of verhoogd) die u hebt betaald
@@ -2718,10 +2475,8 @@ eventuele nalatigheidsinteresten vermelden.
 
 ## Vak IX - INTERESTEN EN KAPITAALAFLOSSINGEN VAN LENINGEN EN SCHULDEN, PREMIES VAN INDIVIDUELE LEVENSVERZEKERINGEN EN ERFPACHT- EN OPSTALVERGOEDINGEN OF GELIJKAARDIGE VERGOEDINGEN, DIE RECHT GEVEN OP EEN BELASTINGVOORDEEL
 I. GEWESTELIJK: NIET IN II, A VERMELDE UITGAVEN VOOR UW ‘EIGEN
-WONING’
-Voorafgaande opmerkingen
-Algemeen
-In rubriek I mag u alleen uitgaven vermelden die slaan op de woning die op het tijdstip
+WONING’ Voorafgaande opmerkingen
+Algemeen In rubriek I mag u alleen uitgaven vermelden die slaan op de woning die op het tijdstip
 van de betaling uw ‘eigen woning’ was. Als zij aan de voorwaarden voldoen, kunnen zij
 in aanmerking komen voor een gewestelijke belastingvermindering.
 Onder ‘eigen woning’ moet worden verstaan: de woning die u als eigenaar, bezitter, erfpachter, opstalhouder of vruchtgebruiker zelf betrekt of niet zelf betrekt om één van de
@@ -2749,13 +2504,7 @@ hierboven opgesomde redenen, mag u zelf kiezen welke van die woningen u als
 uw ‘eigen woning’ beschouwt. Die keuze is echter onherroepelijk totdat u één van
 uw woningen zelf betrekt of totdat u de gekozen woning niet meer bezit.
 
- Vak IX
-
-•
-
-•
-
-Als een woning maar voor een gedeelte van het jaar als uw ‘eigen woning’ kan
+Vak IX • • Als een woning maar voor een gedeelte van het jaar als uw ‘eigen woning’ kan
 worden beschouwd, mag u alleen de uitgaven betaald tijdens het jaargedeelte dat
 de woning als uw ‘eigen woning’ kan worden beschouwd, in rubriek I vermelden.
 Bij samen belaste echtgenoten en wettelijk samenwonenden gelden alle voormelde bepalingen over de ‘eigen woning’, voor beiden samen.
@@ -2795,9 +2544,7 @@ het registratierecht op schenkingen onder levenden voor de bedoelde woning.
 Om beiden voor de ‘geïntegreerde woonbonus’ in aanmerking te kunnen komen, moest de woning op het tijdstip van de betaling van de uitgaven dus voor
 elk van beiden de ‘eigen woning’ zijn.
 
- Vak IX
-
-Als maar één van beide echtgenoten of partners eigenaar, bezitter, erfpachter,
+Vak IX Als maar één van beide echtgenoten of partners eigenaar, bezitter, erfpachter,
 opstalhouder of vruchtgebruiker was van de woning, kan de andere echtgenoot of partner geen aanspraak maken op de ‘geïntegreerde woonbonus’, tenzij de inkomsten van dat eigen goed volgens het burgerlijk recht gemeenschappelijk waren. Dat is het geval bij echtgenoten die gehuwd zijn volgens
 het wettelijk huwelijksvermogensstelsel.
 Houd het attest 281.61 van uw kredietinstelling ter beschikking van de belastingdienst.
@@ -2838,9 +2585,7 @@ uw ‘eigen woning’ hebt aangegaan, noch voor de premies van levensverzekering
 die u tot waarborg van die leningen hebt gesloten. Als u in rubriek 1 iets invult, mag u
 dus niets meer invullen in de rubrieken 2 tot 5.
 
- Vak IX
-
-In uw aangifte te vermelden bedragen
+Vak IX In uw aangifte te vermelden bedragen
 De bedragen van de in rubriek 1 bedoelde interesten en kapitaalaflossingen en premies van individuele levensverzekeringen komen niet altijd volledig voor de ‘geïntegreerde woonbonus’ in aanmerking.
 Bepaal de in rubriek 1 te vermelden bedragen als volgt:
 1ste stap: Als u de lening alleen hebt aangegaan, neemt u het totale bedrag van de
@@ -2871,8 +2616,7 @@ de noemer gelijk is aan het aandeel van beide echtgenoten of wettelijk samenwone
 uw enige woning was, moest de woning waarvoor u de lening hebt
 aangegaan:
 - op 31 december van het jaar van afsluiting van de lening al uw
-enige woning zijn
-▲ daarbij moet u geen rekening houden met:
+enige woning zijn ▲ daarbij moet u geen rekening houden met:
 * andere woningen waarvan u mede-eigenaar, naakte eigenaar of vruchtgebruiker was door erfenis
 
  Vak IX
@@ -2921,9 +2665,7 @@ Bedoelde interesten en kapitaalaflossingen
 In rubriek 2 mag u de interesten en kapitaalaflossingen vermelden van hypothecaire
 leningen met een looptijd van ten minste 10 jaar die u van 1.1.2005 tot 31.12.2015
 
- Vak IX
-
-bij een instelling gevestigd in de Europese Economische Ruimte (EER) hebt aangegaan en die specifiek hebben gediend voor het verwerven of behouden van de in de
+Vak IX bij een instelling gevestigd in de Europese Economische Ruimte (EER) hebt aangegaan en die specifiek hebben gediend voor het verwerven of behouden van de in de
 EER gelegen enige woning waarvan u op 31 december van het jaar van afsluiting
 van de lening eigenaar, bezitter, erfpachter, opstalhouder of vruchtgebruiker was en
 die u op diezelfde datum zelf betrok.
@@ -2966,20 +2708,13 @@ Om beiden voor de gewestelijke ‘woonbonus’ in aanmerking te kunnen komen,
 moest de woning dus voor elk van beiden de enige woning zijn waarvan hij of
 zij eigenaar, bezitter, erfpachter, opstalhouder of vruchtgebruiker was.
 
- Vak IX
-
-Als de woning maar aan één van beide echtgenoten of partners toebehoorde,
+Vak IX Als de woning maar aan één van beide echtgenoten of partners toebehoorde,
 kan de andere echtgenoot of partner geen aanspraak maken op de gewestelijke ‘woonbonus’, tenzij de inkomsten van dat eigen goed volgens het burgerlijk recht gemeenschappelijk waren. Dat is het geval bij echtgenoten die gehuwd zijn volgens het wettelijk huwelijksvermogensstelsel.
 Houd de volgende attesten van uw kredietinstelling ter beschikking van de belastingdienst:
 • het attest 281.61 van uw interesten en kapitaalaflossingen betaald in 2024
 • het eenmalig basisattest van de lening, behalve voor herfinancieringsleningen gesloten vanaf 2016.
 
-Bijzondere gevallen
-•
-
-•
-
-Als u van 1.1.2005 tot 31.12.2013 voor het verwerven of behouden van een woning een hypothecaire lening hebt aangegaan die voldeed aan de voorwaarden
+Bijzondere gevallen • • Als u van 1.1.2005 tot 31.12.2013 voor het verwerven of behouden van een woning een hypothecaire lening hebt aangegaan die voldeed aan de voorwaarden
 voor de aftrek voor enige woning, terwijl u voor diezelfde woning nog een oudere
 lening had die in aanmerking kwam voor de gewone of bijkomende interestaftrek
 of voor de vermindering voor het bouwsparen, en u in uw aangifte van het jaar
@@ -3007,9 +2742,7 @@ en kapitaalaflossingen van de nieuwe lening vermelden in rubriek 2 (a, 1 of b, 1
 De interesten en kapitaalaflossingen van de oudere lening mag u dan niet meer
 invullen.
 
- Vak IX
-
-Hebt u daarentegen voor de andere gewestelijke verminderingen gekozen, dan
+Vak IX Hebt u daarentegen voor de andere gewestelijke verminderingen gekozen, dan
 mag u, als de woning op het tijdstip van de betaling uw ‘eigen woning’ was, de interesten en de kapitaalaflossingen van de oudere en de nieuwe lening vermelden
 in de rubrieken 3, b; 3, c, 1 of 4, a voor zover aan de voorwaarden daarvoor is
 voldaan (zie de uitleg bij die rubrieken). In rubriek 2 mag u dan niets invullen.
@@ -3046,10 +2779,7 @@ Houd de volgende attesten van uw verzekeringsinstelling ter beschikking van de b
 (namen) van de verzekeringsinstelling(en) invullen. Als u een papieren aangifte
 indient, moet u die gegevens op blz. 3 van die aangifte vermelden.
 
- Vak IX
-
-Bijzondere gevallen
-Lees eerst de ‘Bijzondere gevallen’ besproken in de uitleg onder de titel ‘Bedoelde
+Vak IX Bijzondere gevallen Lees eerst de ‘Bijzondere gevallen’ besproken in de uitleg onder de titel ‘Bedoelde
 interesten en kapitaalaflossingen’ hiervoor. Als de nieuwe lening wordt gewaarborgd
 of wedersamengesteld door een individuele levensverzekering die uitsluitend daarvoor is aangegaan, moet u ook de volgende regels volgen.
 Als u voor een nieuwe lening aangegaan van 1.1.2005 tot 31.12.2013 hebt gekozen
@@ -3089,9 +2819,7 @@ opstal of het vruchtgebruik) en de noemer gelijk is aan de som van de
 aandelen in de woning, van u en de andere personen die de lening
 samen met u hebben aangegaan.
 
- Vak IX
-
-▲ Opgelet!
+Vak IX ▲ Opgelet!
 • Samen belaste echtgenoten en wettelijk samenwonenden die
 samen een lening hebben aangegaan waarvoor beiden recht
 hebben op de gewestelijke ‘woonbonus’, nemen het totale bedrag van de door hen beiden betaalde interesten en kapitaalaflossingen.
@@ -3127,9 +2855,7 @@ met dien verstande dat u in 2, a, 1 nooit meer dan de werkelijk betaalde interes
 de werkelijk betaalde verzekeringspremies mag vermelden.
 ▲ Opgelet: bij samen belaste echtgenoten en wettelijk samenwonenden mag de som van de voor beiden in rubriek 2, a, 1 vermelde bedragen niet hoger zijn dan het totaal van hun werkelijk betaalde interesten en kapitaalaflossingen, en mag de som van de voor beiden in
 
- Vak IX
-
-rubriek 2, a, 2 vermelde bedragen niet hoger zijn dan het totaal van
+Vak IX rubriek 2, a, 2 vermelde bedragen niet hoger zijn dan het totaal van
 hun werkelijk betaalde verzekeringspremies.
 
 b) Leningen gesloten van 2005 tot 2014
@@ -3172,9 +2898,7 @@ bedoeld in rubriek 2, b bij het resultaat van de 1ste stap.
 recht hebben op de gewestelijke ‘woonbonus’ mogen hun (gezamenlijke) resultaat van de 3de stap vrij onder elkaar verdelen, met dien verstande dat zij het maximum van 2.280 euro per echtgenoot of partner
 niet mogen overschrijden.
 
- Vak IX
-
-5de stap: Verdeel het resultaat van de vorige stap vrij onder de rubrieken
+Vak IX 5de stap: Verdeel het resultaat van de vorige stap vrij onder de rubrieken
 2, b, 1 (interesten en kapitaalaflossingen) en 2, b, 2 (verzekeringspremies), met dien verstande dat u in 2, b, 1 nooit meer dan de werkelijk
 betaalde interesten en kapitaalaflossingen en in 2, b, 2 nooit meer
 dan de werkelijk betaalde verzekeringspremies mag vermelden.
@@ -3218,9 +2942,7 @@ b) Interesten van hypothecaire leningen (met een minimumlooptijd van
 10 jaar) die na 30.4.1986 en (in principe) vóór 2005 zijn gesloten om in
 de Europese Economische Ruimte:
 
- Vak IX
-
-1) uw enige woning te bouwen of in nieuwe staat (met btw) te verwerven
+Vak IX 1) uw enige woning te bouwen of in nieuwe staat (met btw) te verwerven
 2) uw enige en bij het sluiten van de lening sedert ten minste 15 of
 20 jaar in gebruik zijnde woning te vernieuwen
 ▲ Opgelet!
@@ -3257,9 +2979,7 @@ vermelden, ongeacht of u ze alleen of samen met één of meer andere personen he
 • Om het aantal kinderen ten laste op 1 januari van het jaar na het jaar van
 afsluiting van de lening te bepalen mag u de kinderen die op dat tijdstip
 
- Vak IX
-
-zwaar gehandicapt waren (zie de uitleg bij vak II, B, ‘Voorafgaande opmerkingen’, ‘Zware handicap’), dubbel tellen.
+Vak IX zwaar gehandicapt waren (zie de uitleg bij vak II, B, ‘Voorafgaande opmerkingen’, ‘Zware handicap’), dubbel tellen.
 • U mag alleen de kinderen die op bovenvermeld tijdstip werkelijk te uwen
 laste waren, meetellen.
 Samen belaste echtgenoten en wettelijk samenwonenden die (alleen of samen) een lening hebben aangegaan voor hun gemeenschappelijke, enige
@@ -3285,10 +3005,7 @@ van de bijlage bij het koninklijk besluit nr. 20 van 20.7.1970 tot vaststelling 
 tarieven van de btw en tot indeling van de goederen en de diensten bij die tarieven.
 Voor de van 1.5.1986 tot 31.10.1995 aangegane leningen moeten de vernieuwingswerken zijn uitgevoerd aan een woning die sedert ten minste 20 jaar in gebruik genomen was en moet de totale kostprijs van die werken (btw inbegrepen)
 ten minste gelijk zijn aan het overeenkomstige bedrag in de tabel hierna:
-Jaar van afsluiting
-Minimale kostprijs
-van de lening
-van de werken (in euro)
+Jaar van afsluiting Minimale kostprijs van de lening van de werken (in euro)
 1986 tot 1989
 19.831,48
 1990
@@ -3300,12 +3017,7 @@ van de werken (in euro)
 Voor de van 1.11.1995 tot 31.12.2014 aangegane leningen moeten de vernieuwingswerken zijn uitgevoerd aan een woning die sedert ten minste 15 jaar in gebruik genomen was en moet de totale kostprijs van die werken (btw inbegrepen)
 ten minste gelijk zijn aan het overeenkomstige bedrag in de tabel hierna:
 
- Vak IX
-
-Jaar van afsluiting
-Minimale kostprijs
-van de lening
-van de werken (in euro)
+Vak IX Jaar van afsluiting Minimale kostprijs van de lening van de werken (in euro)
 1995 tot 1998
 21.814,63
 1999
@@ -3364,9 +3076,7 @@ vruchtgebruik) en de noemer gelijk is aan de som van de aandelen in de woning, v
 ▲ Opgelet: samen belaste echtgenoten en wettelijk samenwonenden die (alleen of samen) een lening hebben aangegaan voor een woning waarvan
 elke echtgenoot of partner recht heeft op een deel van het inkomen van
 
- Vak IX
-
-de woning volgens het vermogensrecht (zie ook het principe uitgelegd in
+Vak IX de woning volgens het vermogensrecht (zie ook het principe uitgelegd in
 de eerste voorafgaande opmerking bij vak III), mogen het totale bedrag
 van de interesten vermelden. Als een echtgenoot of partner die volgens
 het vermogensrecht geen recht heeft op een deel van het inkomen van de
@@ -3400,11 +3110,7 @@ interesten niet vermelden.
 4. Kapitaalaflossingen van hypothecaire leningen aangegaan voor het
 verwerven of (ver)bouwen van uw ‘eigen woning’
 Voorafgaande opmerkingen
-•
-
-•
-
-In rubriek 4 mag u de andere dan de in rubrieken 1 en 2 bedoelde kapitaalaflossingen van hypothecaire leningen vermelden die in aanmerking komen voor de
+• • In rubriek 4 mag u de andere dan de in rubrieken 1 en 2 bedoelde kapitaalaflossingen van hypothecaire leningen vermelden die in aanmerking komen voor de
 gewestelijke vermindering voor het bouwsparen (rubriek 4, a) of voor de gewestelijke vermindering voor het lange termijnsparen (rubriek 4, b).
 Door de wettelijke beperkingen geven de in deze rubriek te vermelden bedragen
 niet altijd volledig recht op belastingvermindering. Vermeld echter altijd het totaal
@@ -3416,13 +3122,7 @@ De in de rubrieken 4, a en b bedoelde kapitaalaflossingen van hypothecaire lenin
 komen maar voor de gewestelijke vermindering voor het bouwsparen of het lange
 termijnsparen in aanmerking als u de lening hebt aangegaan:
 
- Vak IX
-
-•
-•
-•
-
-bij een instelling gevestigd in de Europese Economische Ruimte (EER)
+Vak IX • • • bij een instelling gevestigd in de Europese Economische Ruimte (EER)
 voor een looptijd van ten minste 10 jaar
 specifiek voor het verwerven of (ver)bouwen van een woning gelegen in de EER
 (als u de lening gesloten hebt vóór 1989 moet de woning in België gelegen zijn)
@@ -3461,16 +3161,11 @@ woning waarvoor de lening is aangegaan, mogen zij het bedrag van de in principe 
 U mag de aflossingen maar vermelden in de mate dat zij slaan op de eerste
 schijf van de lening die in de tabel hierna is opgenomen:
 
- Vak IX
-
-Jaar van
-In aanmerking te nemen aanvangsbedrag (in euro) van de
+Vak IX Jaar van In aanmerking te nemen aanvangsbedrag (in euro) van de
 afsluiting van lening naargelang het aantal kinderen ten laste op 1 januari
-de lening
-van het jaar na het jaar van afsluiting van de lening
+de lening van het jaar na het jaar van afsluiting van de lening
 
-meer dan 3
-1989
+meer dan 3 1989
 49.578,70 52.057,64 54.536,58 59.494,45 64.452,32
 1990
 51.115,64 53.668,95 56.222,25 61.353,65 66.460,25
@@ -3478,8 +3173,7 @@ meer dan 3
 52.875,69 55.528,15 58.180,61 63.460,74 68.740,87
 1992 tot
 54.536,58 57.263,40 59.990,23 65.443,89 70.872,76
-1998
-1999
+1998 1999
 55.057,15 57.808,77 60.560,39 66.063,62 71.566,86
 2000
 55.652,10 58.453,29 61.229,70 66.782,52 72.360,12
@@ -3521,9 +3215,7 @@ dan in nieuwe staat) of te verbouwen
 a) Lening(en) (per woning) niet hoger dan 9.915,74 euro
 Vermeld het totaal van de in 2024 betaalde kapitaalaflossingen.
 
- Vak IX
-
-b) Lening(en) (per woning) hoger dan 9.915,74 euro
+Vak IX b) Lening(en) (per woning) hoger dan 9.915,74 euro
 Vermeld het resultaat dat u verkrijgt door de in 2024 betaalde kapitaalaflossingen te vermenigvuldigen met een breuk waarvan de
 teller 9.915,74 euro is en de noemer gelijk is aan het bedrag van
 de lening(en).
@@ -3539,12 +3231,8 @@ zij de hypothecaire lening hoofdelijk en onverdeeld hebben aangegaan en elk
 regels) vrij onder elkaar verdelen.
 U mag de aflossingen maar vermelden in de mate dat zij slaan op de eerste
 schijf van de lening die in de tabel hierna is opgenomen:
-Jaar van
-In aanmerking te nemen
-afsluiting van
-aanvangsbedrag
-de lening
-van de lening (in euro)
+Jaar van In aanmerking te nemen
+afsluiting van aanvangsbedrag de lening van de lening (in euro)
 1993 tot 1998
 54.536,58
 1999
@@ -3584,17 +3272,9 @@ aflossingen vermelden dat u verkrijgt door de in 2024 betaalde kapitaalaflossing
 
 5. Premies van individuele levensverzekeringen
 Voorafgaande opmerkingen
-•
+• In rubriek 5 mag u de andere dan de in de rubrieken 1 en 2 bedoelde premies van
 
-In rubriek 5 mag u de andere dan de in de rubrieken 1 en 2 bedoelde premies van
-
- Vak IX
-
-•
-
-•
-
-individuele levensverzekeringen vermelden die in aanmerking komen voor de gewestelijke vermindering voor het bouwsparen (rubriek 5, a) of voor de gewestelijke vermindering voor het lange termijnsparen (rubriek 5, b).
+Vak IX • • individuele levensverzekeringen vermelden die in aanmerking komen voor de gewestelijke vermindering voor het bouwsparen (rubriek 5, a) of voor de gewestelijke vermindering voor het lange termijnsparen (rubriek 5, b).
 Van zodra u eenmaal een gewestelijke belastingvermindering voor de betaalde
 premies hebt verkregen, zullen de uit het contract voortvloeiende voordelen (kapitaal, afkoopwaarde of rente) aan de taks op het lange termijnsparen of aan de
 personenbelasting worden onderworpen. Als u die taks of die belasting wilt vermijden, mag u rubriek 5 nooit invullen.
@@ -3616,8 +3296,7 @@ Houd die attesten ter beschikking van de belastingdienst.
 vermeldt, moet u ook het (de) nr(s). van het (de) contract(en) en de naam (namen) van de verzekeringsinstelling(en) invullen. Als u een papieren aangifte indient, moet u die gegevens op blz. 3 van die aangifte vermelden.
 
 a) die in aanmerking komen voor de gewestelijke vermindering voor het
-bouwsparen
-Onder de ‘Algemene voorwaarden’ hiervoor mag u hier alleen de premies vermelden van individuele levensverzekeringscontracten die uitsluitend dienen tot
+bouwsparen Onder de ‘Algemene voorwaarden’ hiervoor mag u hier alleen de premies vermelden van individuele levensverzekeringscontracten die uitsluitend dienen tot
 waarborg of wedersamenstelling van een hypothecaire lening die (in principe)
 vóór 2005 is gesloten voor het verwerven of (ver)bouwen van uw ‘eigen woning’.
 Als die lening gesloten is vanaf 1993, moest die woning bij het afsluiten van de
@@ -3633,19 +3312,14 @@ een oudere hypothecaire lening voor dezelfde woning (of een herfinanciering van 
 • Als u in de hiervoor bedoelde ‘Bijzondere gevallen’ gekozen hebt voor de
 in rubriek 2 bedoelde gewestelijke ‘woonbonus’, mag u de premies van de
 
- Vak IX
-
-individuele levensverzekering gesloten tot waarborg of wedersamenstelling
+Vak IX individuele levensverzekering gesloten tot waarborg of wedersamenstelling
 van de oudere hypothecaire lening hier niet invullen (en ook niet in een andere rubriek).
 U mag de premies maar vermelden in de mate dat zij slaan op de eerste schijf
 van het verzekerd bedrag van de lening die in de tabel hierna is opgenomen:
-Jaar van
-In aanmerking te nemen aanvangsbedrag (in euro) van het verzeafsluiting van kerd bedrag van de lening naargelang het aantal kinderen ten laste
-de lening
-op 1 januari van het jaar na het jaar van afsluiting van de lening
+Jaar van In aanmerking te nemen aanvangsbedrag (in euro) van het verzeafsluiting van kerd bedrag van de lening naargelang het aantal kinderen ten laste
+de lening op 1 januari van het jaar na het jaar van afsluiting van de lening
 
-meer dan 3
-vóór 1989
+meer dan 3 vóór 1989
 49.578,70 49.578,70 49.578,70 49.578,70 49.578,70
 1989
 49.578,70 52.057,64 54.536,58 59.494,45 64.452,32
@@ -3677,8 +3351,7 @@ bedrag van de lening.
 Het overschot van de premies mag u dan wel in rubriek 5, b vermelden.
 
 b) die in aanmerking komen voor de gewestelijke vermindering voor het
-lange termijnsparen
-Onder de ‘Algemene voorwaarden' vermeld in de inleidende uitleg bij rubriek 5
+lange termijnsparen Onder de ‘Algemene voorwaarden' vermeld in de inleidende uitleg bij rubriek 5
 mag u hier de in 2024 betaalde premies vermelden van levensverzekeringscontracten die niet in aanmerking komen voor een gewestelijke ‘woonbonus’ of de
 gewestelijke vermindering voor het bouwsparen.
 
@@ -3690,10 +3363,7 @@ Houd het bewijs van de betaling van de vergoedingen ter beschikking van de belas
 ▲ Opgelet: als u een papieren aangifte indient, moet u de in rubriek 6 gevraagde
 gegevens op blz. 3 van die aangifte vermelden.
 
- Vak IX
-
-II. FEDERAAL
-A. INTERESTEN VAN LENINGEN GESLOTEN VAN 2009 TOT 2011 OM ENERGIEBESPARENDE UITGAVEN TE FINANCIEREN
+Vak IX II. FEDERAAL A. INTERESTEN VAN LENINGEN GESLOTEN VAN 2009 TOT 2011 OM ENERGIEBESPARENDE UITGAVEN TE FINANCIEREN
 Vermeld hier de in 2024 werkelijk door u gedragen interesten van de leningen die u,
 als eigenaar, bezitter, erfpachter, opstalhouder, vruchtgebruiker of huurder van een
 woning, van 1.1.2009 tot 31.12.2011 hebt gesloten, die voldoen aan de voorwaarden
@@ -3727,12 +3397,9 @@ Houd de volgende attesten van uw kredietgever ter beschikking van de belastingdi
 - het betalingsattest van uw interesten betaald in 2024
 - het eenmalig basisattest van de lening.
 
- Vak IX
-
-B. NIET IN II, A VERMELDE UITGAVEN DIE NIET SLAAN OP UW ‘EIGEN WONING’
+Vak IX B. NIET IN II, A VERMELDE UITGAVEN DIE NIET SLAAN OP UW ‘EIGEN WONING’
 Voorafgaande opmerkingen
-Algemeen
-In rubriek B mag u alleen uitgaven vermelden die niet slaan op een woning of die
+Algemeen In rubriek B mag u alleen uitgaven vermelden die niet slaan op een woning of die
 slaan op een woning die op het tijdstip van de betaling niet uw ‘eigen woning’ (zie de
 uitleg bij rubriek I, onder ‘Voorafgaande opmerkingen, ‘Algemeen’) was. Als zij aan
 de voorwaarden daarvoor voldoen, kunnen zij in aanmerking komen voor een federaal belastingvoordeel.
@@ -3746,8 +3413,7 @@ Voor de in B, 4, b, 1 bedoelde uitgaven van hypothecaire leningen die in 2023 zi
 aangegaan worden de voormelde data van 1.1.2023 en 31.12.2022 gebracht op respectievelijk 1.1.2024 en 31.12.2023.
 
 1. Interesten en kapitaalaflossingen van hypothecaire leningen gesloten van 2005 tot 2013 die in aanmerking komen voor de federale
-‘woonbonus’
-Bedoelde interesten en kapitaalaflossingen
+‘woonbonus’ Bedoelde interesten en kapitaalaflossingen
 Als aan de volgende voorwaarden is voldaan mag u hier de interesten en kapitaalaflossingen vermelden van hypothecaire leningen die u hebt aangegaan van
 2005 tot 2013:
 • u hebt de lening aangegaan bij een instelling gevestigd in de Europese Economische Ruimte (EER) voor een looptijd van ten minste 10 jaar
@@ -3808,17 +3474,14 @@ Houd de volgende attesten van uw kredietinstelling ter beschikking van de belast
 • het attest 281.61 van uw interesten en kapitaalaflossingen betaald in 2024
 • het eenmalig basisattest van de lening, behalve voor herfinancieringsleningen
 gesloten vanaf 2016.
-Bijzonder geval
-Als u van 2005 tot 2013 voor het bouwen, verwerven of verbouwen van een woning een hypothecaire lening hebt aangegaan die voldeed aan de voorwaarden
+Bijzonder geval Als u van 2005 tot 2013 voor het bouwen, verwerven of verbouwen van een woning een hypothecaire lening hebt aangegaan die voldeed aan de voorwaarden
 voor de aftrek voor enige woning, terwijl u voor diezelfde woning nog een oudere
 lening had die in aanmerking kwam voor de gewone of bijkomende interestaftrek
 of voor de vermindering voor het bouwsparen, en u in uw aangifte van het jaar
 van het aangaan van de nieuwe lening hebt gekozen voor de aftrek voor enige
 woning, dan mag u alleen de interesten en kapitaalaflossingen van die nieuwe
 
- Vak IX
-
-lening vermelden in rubriek B, 1. De interesten en kapitaalaflossingen van de oudere lening mag u dan niet meer invullen. Met ‘oudere lening’ wordt hier bedoeld,
+Vak IX lening vermelden in rubriek B, 1. De interesten en kapitaalaflossingen van de oudere lening mag u dan niet meer invullen. Met ‘oudere lening’ wordt hier bedoeld,
 een hypothecaire lening gesloten vóór 2005 (of een herfinanciering ervan) of een
 hypothecaire lening gesloten vanaf 2005, terwijl er nog een vóór 2005 gesloten
 lening in aanmerking kwam voor de gewone of bijkomende interestaftrek of voor
@@ -3859,9 +3522,7 @@ beiden recht heeft op de federale ‘woonbonus’, neemt die echtgenoot of partn
 betaalde interesten en kapitaalaflossingen te vermenigvuldigen
 met een breuk waarvan de teller gelijk is aan zijn aandeel in de
 
- Vak IX
-
-2de stap:
+Vak IX 2de stap:
 3de stap:
 4de stap:
 
@@ -3893,8 +3554,7 @@ die in aanmerking komen voor de federale ‘woonbonus’
 Als aan de volgende voorwaarden is voldaan mag u hier de premies vermelden
 van individuele levensverzekeringen die u vanaf 2005 hebt aangegaan:
 • u hebt de verzekering aangegaan bij een instelling gevestigd in de Europese
-Economische Ruimte
-• de verzekering dient uitsluitend tot waarborg of wedersamenstelling van een
+Economische Ruimte • de verzekering dient uitsluitend tot waarborg of wedersamenstelling van een
 hypothecaire lening die in aanmerking komt voor de federale ‘woonbonus’ (zie
 de voorwaarden in de uitleg bij rubriek B, 1)
 • u hebt de verzekering aangegaan vóór de leeftijd van 65 jaar
@@ -3912,17 +3572,14 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak IX
-
-Houd de volgende attesten van uw verzekeringsinstelling ter beschikking
+Vak IX Houd de volgende attesten van uw verzekeringsinstelling ter beschikking
 van de belastingdienst:
 • het attest 281.62 van uw premies betaald in 2024
 • het eenmalig basisattest van de verzekering.
 ▲ Opgelet: als u in rubriek B, 2 premies van individuele levensverzekeringen
 vermeldt, moet u ook het (de) nr(s). van het (de) contract(en) en de naam (namen) van de verzekeringsinstelling(en) invullen. Als u een papieren aangifte
 indient, moet u die gegevens op blz. 3 van die aangifte vermelden.
-Bijzonder geval
-Lees eerst het ‘Bijzonder geval’ besproken in de uitleg bij rubriek B, 1. Als de
+Bijzonder geval Lees eerst het ‘Bijzonder geval’ besproken in de uitleg bij rubriek B, 1. Als de
 nieuwe lening (aangegaan van 2005 tot 2013) wordt gewaarborgd of wedersamengesteld door een individuele levensverzekering die uitsluitend daarvoor is
 aangegaan, moet u ook de volgende regels volgen.
 Als u voor die nieuwe lening hebt gekozen voor de aftrek voor enige woning,
@@ -3947,8 +3604,7 @@ niet slaan op uw ‘eigen woning’ (zie de uitleg bij rubriek I, onder ‘Voora
 opmerkingen’, ‘Algemeen’) en die in aanmerking komen voor:
 • de andere federale belastingvermindering voor interesten van hypothecaire
 leningen dan de in rubriek B, 1 bedoelde federale ‘woonbonus’
-(rubriek B, 3, a)
-• de gewone interestaftrek (rubriek B, 3, b).
+(rubriek B, 3, a) • de gewone interestaftrek (rubriek B, 3, b).
 
 a) van hypothecaire leningen (met een minimumlooptijd van 10 jaar)
 die na 30.4.1986 en (in principe) vóór 2005 zijn gesloten om in de
@@ -3958,12 +3614,9 @@ Europese Economische Ruimte:
 20 jaar in gebruik zijnde woning te vernieuwen
 U mag de interesten van die leningen in rubriek B, 3, a vermelden als aan de
 
- Vak IX
-
-volgende voorwaarden is voldaan:
+Vak IX volgende voorwaarden is voldaan:
 • de woning waarvoor u de lening hebt aangegaan, was op 31.12.2024 uw
-enige woning
-• die woning is uw ‘eigen woning’ geweest, maar was al vóór 2016 uw ‘eigen woning’ niet meer
+enige woning • die woning is uw ‘eigen woning’ geweest, maar was al vóór 2016 uw ‘eigen woning’ niet meer
 • u hebt voor elk van de aanslagjaren 2016 tot 2024 al de in rubriek B, 3, a
 bedoelde federale belastingvermindering gevraagd voor uw interesten van
 die lening.
@@ -3997,9 +3650,7 @@ echtgenoten of wettelijk samenwonenden is aangegaan, moet u die gegevens dus in 
 - uw aandeel in de woning
 - het aandeel in de woning, van personen die de lening samen met u hebben aangegaan.
 
- Vak IX
-
-▲ Opgelet!
+Vak IX ▲ Opgelet!
 • Onder ‘aandeel in de woning’ moet worden verstaan: het aandeel in de
 (volle) eigendom, het bezit, de erfpacht, de opstal of het vruchtgebruik
 van uw enige woning.
@@ -4025,10 +3676,7 @@ Voor de van 1.5.1986 tot 31.10.1995 aangegane leningen moeten de vernieuwingswer
 20 jaar in gebruik genomen was en moet de totale kostprijs van die werken
 (btw inbegrepen) ten minste gelijk zijn aan het overeenkomstige bedrag in de
 tabel hierna:
-Jaar van afsluiting
-Minimale kostprijs
-van de lening
-van de werken (in euro)
+Jaar van afsluiting Minimale kostprijs van de lening van de werken (in euro)
 1986 tot 1989
 19.831,48
 1990
@@ -4042,12 +3690,7 @@ Voor de van 1.11.1995 tot 31.12.2013 aangegane leningen moeten de vernieuwingswe
 (btw inbegrepen) ten minste gelijk zijn aan het overeenkomstige bedrag in de
 tabel hierna:
 
- Vak IX
-
-Jaar van afsluiting
-Minimale kostprijs
-van de lening
-van de werken (in euro)
+Vak IX Jaar van afsluiting Minimale kostprijs van de lening van de werken (in euro)
 1995 tot 1998
 21.814,63
 1999
@@ -4107,9 +3750,7 @@ aangevraagd.
 Als u de schuld alleen hebt aangegaan, mag u het totale bedrag vermelden van
 de interesten die u in 2024 werkelijk hebt betaald.
 
- Vak IX
-
-Als u de schuld samen met één of meer andere personen hebt aangegaan,
+Vak IX Als u de schuld samen met één of meer andere personen hebt aangegaan,
 mag u maar het gedeelte van de interesten vermelden dat u verkrijgt door het
 totale bedrag van de in 2024 werkelijk betaalde interesten te vermenigvuldigen
 met een breuk waarvan de teller gelijk is aan uw aandeel in het onroerend goed
@@ -4121,13 +3762,8 @@ waarvan elke echtgenoot of partner recht heeft op een deel van het inkomen volge
 
 4. Kapitaalaflossingen van hypothecaire leningen aangegaan voor het
 verwerven of (ver)bouwen van een andere woning dan uw ‘eigen
-woning’
-Voorafgaande opmerkingen
-•
-
-•
-
-In rubriek B, 4 mag u de andere dan de in rubriek B, 1 bedoelde kapitaalaflossingen van hypothecaire leningen vermelden die in aanmerking komen voor
+woning’ Voorafgaande opmerkingen
+• • In rubriek B, 4 mag u de andere dan de in rubriek B, 1 bedoelde kapitaalaflossingen van hypothecaire leningen vermelden die in aanmerking komen voor
 de federale vermindering voor het bouwsparen (rubriek B, 4, a) of voor de federale vermindering voor het lange termijnsparen (rubriek B, 4, b).
 Door de wettelijke beperkingen geven de in deze rubriek te vermelden bedragen niet altijd volledig recht op belastingvermindering. Vermeld echter altijd
 het totaal van de in principe in aanmerking te nemen bedragen, tenzij het in
@@ -4151,15 +3787,10 @@ Houd de volgende attesten van uw kredietinstelling waaruit blijkt dat aan de wet
 
 a) die in aanmerking komen voor de federale vermindering voor het
 bouwsparen (leningen gesloten vanaf 1993 en (in principe) vóór
-2005)
-Hier mag u alleen de kapitaalaflossingen vermelden van hypothecaire leningen die u vanaf 1993 en (in principe) vóór 2005 hebt aangegaan en waarvoor
+2005) Hier mag u alleen de kapitaalaflossingen vermelden van hypothecaire leningen die u vanaf 1993 en (in principe) vóór 2005 hebt aangegaan en waarvoor
 zowel voldaan is aan de ‘Algemene voorwaarden’ hiervoor als aan de volgende bijkomende voorwaarden:
 
- Vak IX
-
-•
-
-de woning waarvoor u de lening hebt aangegaan, was bij het afsluiten van
+Vak IX • de woning waarvoor u de lening hebt aangegaan, was bij het afsluiten van
 die lening uw enige woning
 • die woning is uw ‘eigen woning’ geweest, maar was al vóór 2016 uw ‘eigen woning’ niet meer
 • u hebt voor elk van de aanslagjaren 2016 tot 2024 al de federale vermindering
@@ -4187,14 +3818,11 @@ principe voor die vermindering in aanmerking komende aflossingen (bedrag
 berekend volgens de hierna uitgelegde regels) vrij onder elkaar verdelen.
 U mag de aflossingen maar vermelden in de mate dat zij betrekking hebben
 op de eerste schijf van de lening die in de tabel hierna is opgenomen:
-Jaar van
-In aanmerking te nemen aanvangsbedrag (in euro) van de
+Jaar van In aanmerking te nemen aanvangsbedrag (in euro) van de
 afsluiting van lening naargelang het aantal kinderen ten laste op 1 januari
-de lening
-van het jaar na het jaar van afsluiting van de lening
+de lening van het jaar na het jaar van afsluiting van de lening
 
-meer dan 3
-1993 tot 1998 54.536,58 57.263,40 59.990,23 65.443,89 70.872,76
+meer dan 3 1993 tot 1998 54.536,58 57.263,40 59.990,23 65.443,89 70.872,76
 1999
 55.057,15 57.808,77 60.560,39 66.063,62 71.566,86
 2000
@@ -4214,15 +3842,12 @@ opmerkingen’, ‘Zware handicap’), dubbel tellen.
 Als de lening niet meer bedraagt dan het overeenstemmende bedrag uit de
 tabel, mag u de aflossingen volledig vermelden.
 
- Vak IX
-
-Als de lening meer bedraagt dan dat bedrag, mag u maar het gedeelte van
+Vak IX Als de lening meer bedraagt dan dat bedrag, mag u maar het gedeelte van
 de aflossingen vermelden dat u verkrijgt door de in 2024 betaalde kapitaalaflossingen te vermenigvuldigen met een breuk waarvan de teller het overeenstemmende bedrag uit de tabel is en de noemer gelijk is aan het bedrag van
 de lening. Het overschot van de kapitaalaflossingen geeft geen recht op belastingvermindering en mag u dus ook niet in een andere rubriek vermelden.
 
 b) die in aanmerking komen voor de federale vermindering voor het
-lange termijnsparen
-Onder de algemene voorwaarden vermeld in de inleidende uitleg bij
+lange termijnsparen Onder de algemene voorwaarden vermeld in de inleidende uitleg bij
 rubriek B, 4 mag u hier de in 2024 betaalde kapitaalaflossingen vermelden
 van leningen die u vóór 2024 heb aangegaan en die niet in aanmerking komen voor de federale ‘woonbonus’ of de federale vermindering voor het
 bouwsparen.
@@ -4235,33 +3860,8 @@ in aanmerking komende aflossingen (bedrag berekend volgens de hierna uitgelegde 
 
 1) Leningen gesloten vanaf 1989 tot 2023:
 U mag de aflossingen maar vermelden in de mate dat zij betrekking hebben op de eerste schijf van de lening die in de tabel hierna is opgenomen:
-Jaar van
-afsluiting van
-de lening
-1989
-1990
-1991
-1992 tot 1998
-1999
-2000
-2001
-2002
-2003
-2004
-2005
-2006
-2007
-2008
-2009 en 2010
-2011
-2012
-2013 tot 2017
-2018
-2019 tot 2023
-
-In aanmerking te nemen
-aanvangsbedrag
-van de lening (in euro)
+Jaar van afsluiting van de lening 1989 1990 1991 1992 tot 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 en 2010 2011 2012 2013 tot 2017 2018 2019 tot 2023 In aanmerking te nemen
+aanvangsbedrag van de lening (in euro)
 49.578,70
 51.115,64
 52.875,69
@@ -4287,9 +3887,7 @@ Als de lening niet meer bedraagt dan het overeenstemmende bedrag uit
 de tabel, mag u de aflossingen volledig vermelden.
 Als de lening meer bedraagt dan dat bedrag, mag u maar het gedeelte
 
- Vak IX
-
-van de aflossingen vermelden dat u verkrijgt door de in 2024 betaalde kapitaalaflossingen te vermenigvuldigen met een breuk waarvan de teller
+Vak IX van de aflossingen vermelden dat u verkrijgt door de in 2024 betaalde kapitaalaflossingen te vermenigvuldigen met een breuk waarvan de teller
 het overeenstemmende bedrag uit de tabel is en de noemer gelijk is aan
 het bedrag van de lening. Het overschot van de aflossingen geeft geen
 recht op belastingvermindering en mag u dus ook niet in een andere rubriek vermelden.
@@ -4319,11 +3917,7 @@ bedrag van de lening(en).
 
 5. Premies van individuele levensverzekeringen
 Voorafgaande opmerkingen
-•
-
-•
-
-In rubriek B, 5 mag u de andere dan de in rubriek B, 2 vermelde premies van
+• • In rubriek B, 5 mag u de andere dan de in rubriek B, 2 vermelde premies van
 individuele levensverzekeringen vermelden die in aanmerking komen voor de
 federale vermindering voor het bouwsparen (rubriek B, 5, a) of voor de federale vermindering voor het lange termijnsparen (rubriek B, 5, b).
 Van zodra u eenmaal een federale belastingvermindering voor de betaalde
@@ -4331,11 +3925,7 @@ premies hebt verkregen, zullen de uit het contract voortvloeiende voordelen
 (kapitaal, afkoopwaarde of rente) aan de taks op het lange termijnsparen of
 aan de personenbelasting worden onderworpen. Als u die taks of die belasting wilt vermijden, mag u rubriek B, 5 nooit invullen.
 
- Vak IX
-
-•
-
-Door de wettelijke beperkingen geven de in deze rubriek te vermelden bedragen niet altijd volledig recht op belastingvermindering. Vermeld echter altijd
+Vak IX • Door de wettelijke beperkingen geven de in deze rubriek te vermelden bedragen niet altijd volledig recht op belastingvermindering. Vermeld echter altijd
 het totaal van de in principe in aanmerking te nemen bedragen, tenzij het in
 de toelichting anders wordt vermeld. De belastingdienst zal, waar nodig, de
 wettelijke beperkingen toepassen.
@@ -4347,8 +3937,7 @@ de federale vermindering voor het bouwsparen of het lange termijnsparen in aanme
 uw ‘eigen woning’ was
 • de verzekering niet dient voor het wedersamenstellen of waarborgen van een
 lening die vanaf 1.1.2024 is aangegaan om een onroerend goed te verwerven
-of te behouden en
-• uw verzekeringsinstelling u de volgende attesten heeft uitgereikt waaruit blijkt
+of te behouden en • uw verzekeringsinstelling u de volgende attesten heeft uitgereikt waaruit blijkt
 dat het verzekeringscontract aan de wettelijke voorwaarden voldoet:
 - het attest 281.62 van uw premies betaald in 2024
 - het eenmalig basisattest van de verzekering, behalve voor verzekeringen gesloten vanaf 2016.
@@ -4363,8 +3952,7 @@ Hier mag u alleen de premies vermelden van individuele levensverzekeringen
 die u vanaf 1993 hebt gesloten en waarvoor zowel voldaan is aan de ‘Algemene voorwaarden’ hiervoor als aan de volgende bijkomende voorwaarden:
 • de verzekering dient uitsluitend tot waarborg of wedersamenstelling van
 een hypothecaire lening die in aanmerking komt voor de federale vermindering voor het bouwsparen (zie de voorwaarden in de uitleg bij
-rubriek B, 4, a)
-• u hebt voor elk van de aanslagjaren 2016 tot 2024 al de federale vermindering voor het bouwsparen gevraagd voor de premies van die verzekering.
+rubriek B, 4, a) • u hebt voor elk van de aanslagjaren 2016 tot 2024 al de federale vermindering voor het bouwsparen gevraagd voor de premies van die verzekering.
 ▲ Opgelet!
 • In deze rubriek mag u in principe geen premies vermelden van individuele levensverzekeringen gesloten tot waarborg of wedersamenstelling van hypothecaire leningen die vanaf 2005 zijn aangegaan. Dat
 geldt echter niet voor:
@@ -4376,23 +3964,16 @@ dezelfde woning (of een herfinanciering van zo’n lening) had die in
 aanmerking kwam voor het bouwsparen (zie ook de uitleg bij
 rubriek B, 1 onder de titel ‘Bijzonder geval’).
 
- Vak IX
-
-•
-
-Als u in het hiervoor bedoeld ‘Bijzonder geval’ gekozen hebt voor de in
+Vak IX • Als u in het hiervoor bedoeld ‘Bijzonder geval’ gekozen hebt voor de in
 rubriek B, 1 bedoelde federale ‘woonbonus’, mag u de premies van de
 individuele levensverzekering gesloten tot waarborg of wedersamenstelling van de oudere hypothecaire lening hier niet invullen (en ook
 niet in een andere rubriek).
 U mag de premies vermelden in de mate dat zij slaan op de eerste schijf van
 het verzekerd bedrag van de lening die in de tabel hierna is opgenomen:
-Jaar van
-In aanmerking te nemen aanvangsbedrag (in euro) van het verzeafsluiting van kerd bedrag van de lening naargelang het aantal kinderen ten laste
-de lening
-op 1 januari van het jaar na het jaar van afsluiting van de lening
+Jaar van In aanmerking te nemen aanvangsbedrag (in euro) van het verzeafsluiting van kerd bedrag van de lening naargelang het aantal kinderen ten laste
+de lening op 1 januari van het jaar na het jaar van afsluiting van de lening
 
-meer dan 3
-1993 tot 1998 54.536,58 57.263,40 59.990,23
+meer dan 3 1993 tot 1998 54.536,58 57.263,40 59.990,23
 65.443,89 70.872,76
 1999
 55.057,15 57.808,77 60.560,39
@@ -4425,8 +4006,7 @@ verzekerd bedrag van de lening.
 Het overschot van de premies mag u dan wel in rubriek B, 5, b vermelden.
 
 b) die in aanmerking komen voor de federale vermindering voor het
-lange termijnsparen
-Onder de ‘Algemene voorwaarden’ vermeld in de inleidende uitleg bij
+lange termijnsparen Onder de ‘Algemene voorwaarden’ vermeld in de inleidende uitleg bij
 rubriek B, 5 mag u hier de in 2024 betaalde premies van levensverzekeringscontracten vermelden die niet slaan op een woning of die slaan op een andere woning dan uw ‘eigen woning’, maar niet in aanmerking komen voor de
 federale ‘woonbonus’ of de federale vermindering voor het bouwsparen.
 De premies van individuele levensverzekeringen die dienen tot waarborg of
@@ -4441,9 +4021,7 @@ gedragen om een recht van erfpacht of opstal of een gelijkaardig onroerend recht
 (behalve ‘onroerende leasing’) te verkrijgen op onroerende goederen die in 2024
 niet vrijgestelde onroerende inkomsten hebben opgebracht.
 
- Vak IX
-
-Houd het bewijs van de betaling van de vergoedingen ter beschikking van de belastingdienst.
+Vak IX Houd het bewijs van de betaling van de vergoedingen ter beschikking van de belastingdienst.
 ▲ Opgelet!
 • In rubriek B, 6 mag u geen erfpacht- of opstalvergoedingen of gelijkaardige
 vergoedingen vermelden voor onroerende goederen:
@@ -4469,15 +4047,13 @@ Onder bepaalde voorwaarden kunnen ook de volgende uitgaven recht geven op een be
 - een woning te verwerven of te behouden
 - energiebesparende uitgaven te financieren
 • kapitaalaflossingen van hypothecaire leningen om een woning te verwerven of te
-(ver)bouwen
-• premies van individuele levensverzekeringen
+(ver)bouwen • premies van individuele levensverzekeringen
 • vergoedingen om een recht van erfpacht, opstal of een gelijkaardig recht op onroerende goederen te verwerven.
 Ook die uitgaven moet u niet vermelden in vak X, maar wel in vak IX (rubrieken I, II, A en
 II, B, 1 tot 3, a, 4 en 5).
 2. De gewestelijke belastingverminderingen vindt u in rubriek I, de federale in rubriek II.
 
-I. GEWESTELIJK
-Voorafgaande opmerkingen
+I. GEWESTELIJK Voorafgaande opmerkingen
 1. In de rubrieken A tot D moet u de bedragen van uw gedane uitgaven vermelden (eventueel
 beperkt als dat in de toelichting wordt gevraagd).
 Door de wettelijke beperkingen geven de in de rubrieken B en C te vermelden bedragen
@@ -4486,8 +4062,7 @@ van de in aanmerking te nemen uitgaven (zie ook de uitleg bij die rubrieken). De
 2. In rubriek E moet u het bedrag vermelden van de belastingvermindering waarop u aanspraak maakt (zie ook de uitleg bij die rubriek).
 
 A. UITGAVEN VOOR BEHOUD OF HERWAARDERING VAN BESCHERMD
-ONROEREND ERFGOED
-Als u een attest voor belastingvermindering van het agentschap Onroerend Erfgoed
+ONROEREND ERFGOED Als u een attest voor belastingvermindering van het agentschap Onroerend Erfgoed
 hebt ontvangen, mag u hier het voor belastingvermindering in aanmerking komend
 bedrag, exclusief btw, vermelden van de uitgaven die u in 2024 als volle eigenaar,
 vruchtgebruiker, erfpachter of opstalhouder werkelijk hebt betaald en uitsluitend hebt
@@ -4538,9 +4113,7 @@ Bedoelde overeenkomsten
 Het gaat hier om uiterlijk op 31.12.2018 gesloten renovatieovereenkomsten bedoeld
 in het decreet van 27.3.2009 van het Vlaams Gewest betreffende het grond- en pandenbeleid, die door het agentschap Wonen-Vlaanderen zijn geregistreerd.
 
- Vak X
-
-Totaal van de ter beschikking gestelde bedragen
+Vak X Totaal van de ter beschikking gestelde bedragen
 Vermeld in de rubrieken 1 en 2 de totale bedragen die u in het kader van één of
 meer geregistreerde en uiterlijk op 31.12.2018 gesloten renovatieovereenkomsten
 op 1.1.2024 en op 31.12.2024 als kredietgever ter beschikking had gesteld en waarvoor het agentschap Wonen in Vlaanderen u één of meer attesten heeft bezorgd
@@ -4566,11 +4139,7 @@ het Wetboek van de inkomstenbelastingen 1992 (KB/WIB 92) bedoelde dienstverricht
 3) de totale kostprijs van de werken (btw inbegrepen) ten minste gelijk is aan het
 overeenkomstige bedrag in de tabel hierna:
 Jaar waarin de uitgaven
-zijn gedaan
-2016
-
-Minimale kostprijs
-van de werken (in euro)
+zijn gedaan 2016 Minimale kostprijs van de werken (in euro)
 11.520
 
 2017
@@ -4591,9 +4160,7 @@ b) de betalingsbewijzen van die facturen
 c) een afschrift van het huurcontract van 9 jaar of van het beheersmandaat van
 9 jaar tussen u en het sociaal verhuurkantoor.
 
- Vak X
-
-▲ Opgelet: de uitgaven komen niet voor deze belastingvermindering in aanmerking
+Vak X ▲ Opgelet: de uitgaven komen niet voor deze belastingvermindering in aanmerking
 als:
 - u ze in aanmerking neemt of hebt genomen als werkelijke beroepskosten
 - ze recht geven op de in vak XVII, 15 of vak XVIII, 14 vermelde investeringsaftrek.
@@ -4609,8 +4176,7 @@ bovenvermelde uitgaven heeft gedaan, het maximum van 1.460 euro beperken in
 verhouding tot zijn aandeel in de woning.
 Houd de berekening van het in uw aangifte vermelde bedrag van de belastingvermindering ter beschikking van de belastingdienst.
 
-II. FEDERAAL
-Voorafgaande opmerkingen
+II. FEDERAAL Voorafgaande opmerkingen
 1. In de rubrieken A tot F, 1; G, 1 en 2; H, 1; J en K moet u de bedragen van uw gedane
 uitgaven vermelden (eventueel beperkt als dat in de toelichting wordt gevraagd).
 Door de wettelijke beperkingen geven de in de rubrieken A en C te vermelden bedragen niet altijd volledig recht op belastingvermindering. Vermeld echter altijd het totale
@@ -4623,8 +4189,7 @@ die rubriek).
 5. In de rubrieken F, 2; G, 3; H, 2; I, 2 en N, 2 moet u het gedeelte van de voorheen verkregen belastingvermindering voor de verwerving van aandelen vermelden dat voor
 aanslagjaar 2025 moet worden teruggenomen (zie ook de uitleg bij die rubrieken).
 
-A. GIFTEN
-Hier mag u alleen het bedrag vermelden van de voor belastingvermindering in aanmerking komende giften van of ter waarde van ten minste 40 euro (per jaar) die u in
+A. GIFTEN Hier mag u alleen het bedrag vermelden van de voor belastingvermindering in aanmerking komende giften van of ter waarde van ten minste 40 euro (per jaar) die u in
 2024 hebt gedaan aan een in aanmerking komende instelling die u het vereiste
 attest heeft uitgereikt.
 Houd dat attest ter beschikking van de belastingdienst.
@@ -4633,9 +4198,7 @@ verenigingen of instellingen uit andere lidstaten van de Europese Economische Ru
 moet u ook de bewijzen ter beschikking houden dat die verenigingen of instellingen gelijkwaardig zijn aan de in aanmerking komende Belgische verenigingen of instellingen
 en dat zij, in voorkomend geval, op een vergelijkbare wijze zijn erkend.
 
- Vak X
-
-▲ Opgelet!
+Vak X ▲ Opgelet!
 • Giften aan instellingen voor wetenschappelijk onderzoek die rechtstreeks
 verbonden zijn met een politieke partij of lijst komen niet in aanmerking voor
 belastingvermindering en mag u dus niet vermelden.
@@ -4666,20 +4229,13 @@ aanmerking voor kinderen voor wie u vak II, B, 1, c; 2, c en 3, c niet hebt inge
 als:
 • u in 2024 beroepsinkomsten hebt verkregen (bij samen belaste echtgenoten en
 wettelijk samenwonenden moet ten minste één van beiden beroepsinkomsten
-hebben verkregen)
-• de uitgaven voor kinderoppas zijn betaald:
+hebben verkregen) • de uitgaven voor kinderoppas zijn betaald:
 a) aan instellingen of opvangvoorzieningen die worden vergund, erkend, gesubsidieerd of gecontroleerd of waaraan een kwaliteitslabel werd toegekend door:
 1) Opgroeien regie, het ‘Office de la Naissance et de l’Enfance’ of de regering
 van de Duitstalige Gemeenschap
 2) andere openbare besturen van de gemeenschappen of de gewesten of lokale openbare besturen
 3) buitenlandse openbare instellingen gevestigd in een andere lidstaat van de
-EER
-
- Vak X
-
-•
-
-b) aan kinderdagverblijven of zelfstandige opvanggezinnen die onder toezicht
+EER Vak X • b) aan kinderdagverblijven of zelfstandige opvanggezinnen die onder toezicht
 staan van de instellingen vermeld in a, 1 of 3 hierboven
 c) aan scholen gevestigd in de EER of instellingen of opvangvoorzieningen die
 met die scholen of hun inrichtende macht verbonden zijn
@@ -4718,41 +4274,28 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak X
-
-▲ Opgelet: de bezoldigingen van een huisbediende komen maar voor 50 % in aanmerking voor belastingvermindering, met een maximum van 8.160 euro (1). Vermeld echter altijd het werkelijk betaalde bedrag. De belastingdienst zal zelf de beperking toepassen.
+Vak X ▲ Opgelet: de bezoldigingen van een huisbediende komen maar voor 50 % in aanmerking voor belastingvermindering, met een maximum van 8.160 euro (1). Vermeld echter altijd het werkelijk betaalde bedrag. De belastingdienst zal zelf de beperking toepassen.
 
 D. BIJDRAGEN EN PREMIES VOOR EEN AANVULLEND PENSIOEN
-VOOR ZELFSTANDIGEN
-Hier mag u de voor belastingvermindering in aanmerking komende bijdragen en premies vermelden die u in 2024 hebt betaald in het kader van een pensioenovereenkomst bedoeld in de wet van 18.2.2018 houdende diverse bepalingen inzake aanvullende pensioenen en tot instelling van een aanvullend pensioen voor de zelfstandigen actief als natuurlijk persoon, voor de meewerkende echtgenoten en voor de zelfstandige helpers (POZ).
+VOOR ZELFSTANDIGEN Hier mag u de voor belastingvermindering in aanmerking komende bijdragen en premies vermelden die u in 2024 hebt betaald in het kader van een pensioenovereenkomst bedoeld in de wet van 18.2.2018 houdende diverse bepalingen inzake aanvullende pensioenen en tot instelling van een aanvullend pensioen voor de zelfstandigen actief als natuurlijk persoon, voor de meewerkende echtgenoten en voor de zelfstandige helpers (POZ).
 Een POZ kan worden afgesloten door:
-•
-
-zelfstandigen actief als natuurlijk persoon (het moet hier gaan om zelfstandigen
+• zelfstandigen actief als natuurlijk persoon (het moet hier gaan om zelfstandigen
 met beroepsinkomsten bedoeld in vak XVII (winst) of vak XVIII (baten), dus niet
 om bedrijfsleiders die als zelfstandige alleen in vak XVI bedoelde bezoldigingen
 van bedrijfsleiders verkrijgen)
 
-•
-
-meewerkende echtgenoten die voor de sociale zekerheid van de zelfstandigen
+• meewerkende echtgenoten die voor de sociale zekerheid van de zelfstandigen
 onderworpen zijn aan het maxistatuut
 
-•
-
-zelfstandige helpers
+• zelfstandige helpers
 
 die voor de sociale zekerheid van de zelfstandigen minstens de minimumbijdrage in
 hoofdberoep verschuldigd zijn.
 De hierboven bedoelde bijdragen en premies komen voor belastingvermindering in
 aanmerking onder de volgende voorwaarden en binnen de volgende grenzen:
-•
+• de bijdragen en premies moeten definitief zijn gestort aan een verzekeringsonderneming of een instelling voor bedrijfspensioenvoorzieningen gevestigd in een lidstaat van de Europese Economische Ruimte
 
-de bijdragen en premies moeten definitief zijn gestort aan een verzekeringsonderneming of een instelling voor bedrijfspensioenvoorzieningen gevestigd in een lidstaat van de Europese Economische Ruimte
-
-•
-
-de betaalde bijdragen en premies komen maar voor belastingvermindering in
+• de betaalde bijdragen en premies komen maar voor belastingvermindering in
 aanmerking in de mate dat uw wettelijke en extra-wettelijke uitkeringen (behalve
 uitkeringen van pensioensparen en van andere individuele levensverzekeringen
 dan individuele aanvullende pensioentoezeggingen) naar aanleiding van uw pensionering, uitgedrukt in jaarlijkse renten en berekend op basis van een normale
@@ -4768,11 +4311,7 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak X
-
-•
-
-Hebt u maar in 1 van de 3 vorige jaren bovenvermelde inkomsten als zelfstandige
+Vak X • Hebt u maar in 1 van de 3 vorige jaren bovenvermelde inkomsten als zelfstandige
 verkregen, dan geldt het overeenkomstige inkomen van dat jaar.
 Hebt u in geen van de 3 vorige jaren bovenvermelde inkomsten als zelfstandige
 verkregen, dan geldt het overeenkomstige inkomen van 2024.
@@ -4815,9 +4354,7 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak X
-
-De betalingen komen maar in aanmerking tot een bedrag van 820 euro (1).
+Vak X De betalingen komen maar in aanmerking tot een bedrag van 820 euro (1).
 Echtgenoten en wettelijk samenwonenden kunnen beiden aanspraak maken op
 dat maximumbedrag als zij elk afzonderlijk aan de voorwaarden voldoen.
 Als u rubriek F, 1 invult, hebt u geen recht op de vermindering bedoeld in rubriek E.
@@ -4858,9 +4395,7 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak X
-
-• G, 2: als het op dat attest vermelde tarief van de vermindering 45 % is.
+Vak X • G, 2: als het op dat attest vermelde tarief van de vermindering 45 % is.
 ▲ Opgelet!
 • Het bedrag dat voor belastingvermindering in aanmerking kan worden genomen en dat u in uw aangifte mag vermelden is beperkt tot 100.000 euro (1).
 Echtgenoten en wettelijk samenwonenden hebben elk recht op dat maximumbedrag voor hun eigen uitgaven.
@@ -4938,9 +4473,7 @@ Houd dat attest ter beschikking van de belastingdienst.
 de aandelen, beleggingsinstrumenten of rechten van deelneming moet er
 geen terugname worden aangegeven.
 
- Vak X
-
-H. BETALINGEN DIE RECHT GEVEN OP DE BELASTINGVERMINDERING
+Vak X H. BETALINGEN DIE RECHT GEVEN OP DE BELASTINGVERMINDERING
 VOOR HET VERWERVEN VAN NIEUWE AANDELEN VAN GROEIBEDRIJVEN
 1. Betalingen gedaan in 2024
 Het gaat hier om betalingen die:
@@ -4954,13 +4487,9 @@ vergoeding voor zijn rol als tussenpersoon) rechtstreeks in bovenbedoelde
 nieuwe aandelen investeert.
 Als u in 2024 zulke betalingen hebt gedaan en het groeibedrijf of het special purpose vehicle u een geldig attest (bv. het attest nr. 281.88) heeft bezorgd waaruit
 blijkt dat:
-•
+• aan de voorwaarden gesteld in artikel 14527, §§ 1 en 2, WIB 92 is voldaan
 
-aan de voorwaarden gesteld in artikel 14527, §§ 1 en 2, WIB 92 is voldaan
-
-•
-
-u de aandelen of beleggingsinstrumenten in 2024 hebt aangeschaft en op
+• u de aandelen of beleggingsinstrumenten in 2024 hebt aangeschaft en op
 31.12.2024 nog altijd in uw bezit had,
 
 mag u het op dat attest vermelde bedrag van die betalingen dat recht geeft op belastingvermindering vermelden in rubriek H, 1.
@@ -4982,13 +4511,7 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak X
-
-•
-
-•
-
-Als u meer dan 1 van die 3 soorten betalingen hebt gedaan en die betalingen samen meer dan 100.000 euro (1) bedragen, mag u zelf kiezen voor
+Vak X • • Als u meer dan 1 van die 3 soorten betalingen hebt gedaan en die betalingen samen meer dan 100.000 euro (1) bedragen, mag u zelf kiezen voor
 welke betalingen u belastingvermindering vraagt:
 - zonder het (gezamenlijke) maximumbedrag van 100.000 euro (1) te
 overschrijden
@@ -5044,10 +4567,7 @@ hier een deel van uw werkelijk verkregen belastingvermindering vermelden.
 Dat deel is gelijk aan:
 • zoveel maal 1/12 van uw werkelijk verkregen belastingvermindering als er op
 de datum waarop de tewerkstellingsvoorwaarde voor het groeibedrijf (ten minste 10 voltijdse equivalenten) niet langer was vervuld, volle maanden overbleven tot het einde van de periode van 12 maanden na de volstorting van de
-aandelen
-•
-
-zoveel maal 1/48 van uw werkelijk verkregen belastingvermindering als er op
+aandelen • zoveel maal 1/48 van uw werkelijk verkregen belastingvermindering als er op
 de datum waarop één van de andere voorwaarden voor het behoud van de
 vermindering niet langer was vervuld, volle maanden overbleven tot het einde
 van de periode van 48 maanden.
@@ -5068,9 +4588,7 @@ hun omzet sterk hebben zien dalen door de COVID-19-pandemie, maar die verminderi
 verschuldigde belasting, mag u het nog niet aangerekende gedeelte hier vermelden.
 U kunt dat over te dragen gedeelte terugvinden op uw aanslagbiljet van aanslagjaar 2024.
 
- Vak X
-
-▲ Opgelet: u mag het over te dragen gedeelte van de belastingvermindering
+Vak X ▲ Opgelet: u mag het over te dragen gedeelte van de belastingvermindering
 voor in 2021 verworven aandelen echter niet vermelden als u in rubriek I, 2
 een terugname van de werkelijk verkregen belastingvermindering voor de betreffende aandelen moet aangeven omdat de voorwaarden voor het behoud
 van die belastingvermindering niet meer waren vervuld (zie ook de uitleg bij
@@ -5110,37 +4628,23 @@ hebt betaald voor:
 de plaatsing ervan in of in de onmiddellijke nabijheid van de woning waar uw fiscale woonplaats was gevestigd op 1.1.2025 (uitgaven voor de aankoop van een
 laadstation dat u zelf hebt geplaatst, komen niet in aanmerking)
 
- Vak X
-
-• de keuring van de installatie
+Vak X • de keuring van de installatie
 op voorwaarde dat:
-•
-
-het gaat om een ‘intelligent’ laadstation (d.w.z. dat de laadtijd en het laadvermogen door een energiebeheerssysteem gestuurd moeten kunnen worden en dat
+• het gaat om een ‘intelligent’ laadstation (d.w.z. dat de laadtijd en het laadvermogen door een energiebeheerssysteem gestuurd moeten kunnen worden en dat
 het meldingen over het effectieve laadvermogen en statusmeldingen moet kunnen terugsturen)
 
-•
-
-het laadstation op 1.1.2025 uitsluitend ‘groene’ stroom gebruikt (d.w.z. stroom die
+• het laadstation op 1.1.2025 uitsluitend ‘groene’ stroom gebruikt (d.w.z. stroom die
 ter plaatse wordt opgewekt uit hernieuwbare energiebronnen of stroom geleverd
 door een stroomleverancier die zich contractueel heeft verbonden om uitsluitend
 stroom afkomstig van hernieuwbare energiebronnen te leveren)
 
-•
+• de installatie is goedgekeurd door een erkend keuringsorganisme
 
-de installatie is goedgekeurd door een erkend keuringsorganisme
-
-•
-
-u de belastingvermindering voor uitgaven voor de plaatsing van een laadstation
+• u de belastingvermindering voor uitgaven voor de plaatsing van een laadstation
 voor elektrische wagens niet hebt gevraagd voor aanslagjaar 2022, aanslagjaar 2023 of voor aanslagjaar 2024
 
 ▲ Opgelet!
-•
-
-•
-
-Komen niet in aanmerking voor deze belastingvermindering, de hierboven bedoelde uitgaven die:
+• • Komen niet in aanmerking voor deze belastingvermindering, de hierboven bedoelde uitgaven die:
 -
 
 u in aanmerking neemt als werkelijke beroepskosten
@@ -5176,14 +4680,8 @@ Daarnaast moet u de volgende bewijsstukken ter beschikking houden van de belasti
 • de facturen van andere uitgaven (dan van de plaatsing van het laadstation) die
 voor de belastingvermindering in aanmerking komen
 
- Vak X
-
-•
-•
-
-het bewijs van de betaling van alle uitgaven die voor de belastingvermindering in
-aanmerking komen
-de bewijsstukken waaruit blijkt dat het gaat om een ‘intelligent’ laadstation dat op
+Vak X • • het bewijs van de betaling van alle uitgaven die voor de belastingvermindering in
+aanmerking komen de bewijsstukken waaruit blijkt dat het gaat om een ‘intelligent’ laadstation dat op
 1.1.2025 uitsluitend ‘groene’ stroom gebruikt.
 
 L. MINDERWAARDEN OP AANDELEN GELEDEN NAAR AANLEIDING
@@ -5217,9 +4715,7 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak X
-
-M. BELASTINGVERMINDERING VOOR LAGE ENERGIEWONINGEN, PASSIEFWONINGEN EN NULENERGIEWONINGEN
+Vak X M. BELASTINGVERMINDERING VOOR LAGE ENERGIEWONINGEN, PASSIEFWONINGEN EN NULENERGIEWONINGEN
 Vermeld hier in de passende rubriek het bedrag van de belastingvermindering
 waarop u aanspraak maakt voor de investering die u als eigenaar, bezitter, erfpachter of opstalhouder hebt gedaan voor het bouwen of in nieuwe staat verwerven van
 een lage energiewoning, een passiefwoning of een nulenergiewoning of voor de volledige of gedeeltelijke vernieuwing van een onroerend goed om het tot zo’n woning
@@ -5235,13 +4731,9 @@ EER, waaruit blijkt dat de woning als lage energiewoning, passiefwoning of
 nulenergiewoning kan worden beschouwd.
 Houd het certificaat ter beschikking van de belastingdienst.
 Het bedrag van de belastingvermindering voor aanslagjaar 2025 bedraagt:
-•
+• 490 euro per lage energiewoning
 
-490 euro per lage energiewoning
-
-•
-
-980 euro per passiefwoning
+• 980 euro per passiefwoning
 
 •
 
@@ -5253,14 +4745,10 @@ Als u aan de voorwaarden voldoet, hebt u recht op de belastingvermindering voor
 Die periode van 10 jaar begint in het jaar waarin een geldig certificaat is uitgereikt
 waaruit blijkt dat uw woning als lage energiewoning, passiefwoning of nulenergiewoning kan worden beschouwd.
 Als tijdens die periode van 10 jaar uit een nieuw geldig certificaat blijkt:
-•
-
-dat uw lage energiewoning als een passiefwoning of een nulenergiewoning kan
+• dat uw lage energiewoning als een passiefwoning of een nulenergiewoning kan
 worden beschouwd, of
 
-•
-
-dat uw passiefwoning als een nulenergiewoning kan worden beschouwd,
+• dat uw passiefwoning als een nulenergiewoning kan worden beschouwd,
 
 mag u vanaf het jaar waarin dat nieuwe certificaat is uitgereikt tot het einde van die
 periode van 10 jaar de (hogere) belastingvermindering voor die nieuwe classificatie
@@ -5269,9 +4757,7 @@ in uw aangifte vermelden.
 aan verscheidene personen die alleen worden belast, moet elke deelhebber die bovenvermelde investering heeft gedaan, het bedrag van de belastingvermindering
 beperken in verhouding tot zijn aandeel in die woning.
 
- Vak X
-
-N. BELASTINGVERMINDERING VOOR HET VERWERVEN VAN AANDELEN VAN ERKENDE ONTWIKKELINGSFONDSEN
+Vak X N. BELASTINGVERMINDERING VOOR HET VERWERVEN VAN AANDELEN VAN ERKENDE ONTWIKKELINGSFONDSEN
 1. Belastingvermindering voor aandelen verworven in 2024
 Hier mag u het bedrag van de belastingvermindering invullen dat is vermeld op
 een geldig attest van een erkend ontwikkelingsfonds voor microfinanciering in
@@ -5300,8 +4786,7 @@ Houd dat attest ter beschikking van de belastingdienst.
 ▲ Opgelet: als de overdracht het gevolg is van het overlijden van de aandeelhouder moet er geen terugname worden aangegeven.
 
 O. BELASTINGVERMINDERING VOOR UITGAVEN VOOR HET VERWERVEN VAN EEN NIEUWE ELEKTRISCHE MOTORFIETS, DRIEWIELER
-OF VIERWIELER
-Vermeld hier in de passende rubriek het bedrag van de belastingvermindering voor
+OF VIERWIELER Vermeld hier in de passende rubriek het bedrag van de belastingvermindering voor
 de uitgaven die in 2024 werkelijk zijn betaald voor de aankoop van een nieuwe motorfiets, driewieler of vierwieler:
 • die uitsluitend door een elektrische motor wordt aangedreven
 • die geschikt is voor het vervoer van ten minste 2 personen
@@ -5312,9 +4797,7 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak X
-
-▲ Opgelet!
+Vak X ▲ Opgelet!
 • De datum van de aankoopfactuur van het voertuig mag als datum van betaling
 worden beschouwd op voorwaarde dat ze volledig is betaald.
 • Onder ‘nieuw’ voertuig moet worden verstaan: een voertuig dat op de datum
@@ -5353,9 +4836,7 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak X
-
-van herkomst van het adoptiekind en de vervoerkosten van het adoptiekind
+Vak X van herkomst van het adoptiekind en de vervoerkosten van het adoptiekind
 naar de woonplaats van de adoptieouder(s)
 ▪ uitgaven voor de verblijfkosten van de adoptieouder(s) in het land van herkomst van het adoptiekind.
 Een adoptieprocedure wordt als beëindigd beschouwd:
@@ -5410,9 +4891,7 @@ a) de geregistreerde uitgifteovereenkomst Vriendenaandeel
 b) de kennisgeving waarin de waarborgvennootschap u het registratienummer van de
 uitgifteovereenkomst Vriendenaandeel heeft meegedeeld.
 
- Vak XI
-
-Het recht op het belastingkrediet geldt voor maximaal 5 jaar, maar vervalt vanaf de dag
+Vak XI Het recht op het belastingkrediet geldt voor maximaal 5 jaar, maar vervalt vanaf de dag
 waarop:
 1) de Vriendenaandeelhouder overlijdt
 2) de emittent ontbonden of failliet verklaard is
@@ -5433,8 +4912,7 @@ a) het bewijs waaruit blijkt dat het in 2024 is komen vast te staan dat het in u
 vermelde bedrag van de hoofdsom definitief verloren is gegaan
 b) in voorkomend geval: de schrappingsbrief van de registratie van de Winwinlening
 en, als de Winwinlening pas in 2024 gesloten is, de bewijsstukken vermeld in rubriek 1,
-a, punt 2)
-3) de registratie van de Winwinlening niet vóór 2025 ambtshalve is geschrapt.
+a, punt 2) 3) de registratie van de Winwinlening niet vóór 2025 ambtshalve is geschrapt.
 Vermeld het in 2024 definitief verloren gegane bedrag van de hoofdsom:
 • in rubriek 2, a: als de Winwinlening gesloten is van 16.3.2020 tot 31.12.2021
 • in rubriek 2, b: als de Winwinlening gesloten is vóór 16.3.2020 of na 31.12.2021.
@@ -5449,22 +4927,20 @@ de belastingdienst, van:
 waaruit de identiteit van de rechtverkrijgenden en het door hen verkregen deel van de
 Winwinlening duidelijk blijkt.
 
-## Vak XII - VOORAFBETALINGEN VOOR HET AANSLAGJAAR 2025
-Totaal bedrag van de betalingen
+## Vak XII - VOORAFBETALINGEN VOOR HET
+AANSLAGJAAR 2025 Totaal bedrag van de betalingen
 Vermeld hier het totale bedrag van al uw voorafbetalingen gedaan voor het aanslagjaar 2025.
 Samen belaste echtgenoten en wettelijk samenwonenden moeten hun voorafbetalingen vermelden in de kolom van de echtgenoot of partner op wiens naam de voorafbetalingen zijn gedaan.
 Voor een overzicht van uw voorafbetalingen gedaan voor het aanslagjaar 2025 kunt u terecht
 op www.myminfin.be.
 
-## Vak XIII - REKENINGEN EN INDIVIDUELE LEVENSVERZEKERINGEN IN HET BUITENLAND, JURIDISCHE CONSTRUCTIES, LENINGEN AAN STARTENDE KLEINE VENNOOTSCHAPPEN EN ALS WERKELIJKE BEROEPSKOSTEN AFGETROKKEN VERGOEDINGEN VOOR DE HUUR VAN ONROERENDE GOEDEREN OF VOOR DE VESTIGING OF OVERDRACHT VAN EEN ZAKELIJK GEBRUIKSRECHT OP ONROERENDE GOEDEREN
-A. REKENINGEN IN HET BUITENLAND
+## Vak XIII - REKENINGEN EN INDIVIDUELE LEVENSVERZEKERINGEN IN HET BUITENLAND, JURIDISCHE CONSTRUCTIES, LENINGEN AAN STARTENDE KLEINE VENNOOTSCHAPPEN EN ALS WERKELIJKE BEROEPSKOSTEN AFGETROKKEN VERGOEDINGEN VOOR DE HUUR VAN ONROERENDE GOEDEREN OF VOOR DE VESTIGING OF OVERDRACHT VAN EEN ZAKELIJK GEBRUIKSRECHT OP ONROERENDE GOEDEREN A. REKENINGEN IN HET BUITENLAND
 Vermeld in rubriek A (door het vakje naast code 1075-89 aan te kruisen of niet) of er in
 2024 op enig ogenblik bij een in het buitenland gelegen bank-, wissel-, krediet- of spaarinstelling één of meer rekeningen open zijn geweest:
 • ofwel op uw naam (voor echtgenoten en wettelijk samenwonenden gaat het zowel om
 individuele rekeningen als om rekeningen op naam van beiden)
 • ofwel op naam van uw (niet ontvoogd minderjarig) kind, van wiens inkomsten u het
-wettelijk genot had
-• ofwel op naam van een hierna bedoelde vereniging, en die worden beheerd door u,
+wettelijk genot had • ofwel op naam van een hierna bedoelde vereniging, en die worden beheerd door u,
 uw echtgenoot of wettelijk samenwonende partner, of uw (niet ontvoogd minderjarig)
 kind, van wiens inkomsten u het wettelijk genot had.
 ▲ Opgelet: de verenigingen die hier worden bedoeld zijn verenigingen die geen
@@ -5487,9 +4963,7 @@ B. INDIVIDUELE LEVENSVERZEKERINGEN IN HET BUITENLAND
 Vermeld in rubriek B (door het vakje aan te kruisen of niet) of er in 2024 op enig ogenblik
 één of meer individueel gesloten levensverzekeringscontracten liepen bij een in het buitenland gevestigde verzekeringsonderneming, waarvan uzelf, uw echtgenoot of wettelijk
 
- Vak XIII
-
-samenwonende partner met wie u een gezamenlijke aangifte indient of uw (niet ontvoogd minderjarig) kind waarover u het ouderlijk gezag uitoefent, de verzekeringnemer
+Vak XIII samenwonende partner met wie u een gezamenlijke aangifte indient of uw (niet ontvoogd minderjarig) kind waarover u het ouderlijk gezag uitoefent, de verzekeringnemer
 was.
 Als u dat vakje aankruist, vermeld dan ook, per verzekeringscontract, de naam en voornaam van de verzekeringnemer en het land waar de verzekeringsonderneming gevestigd was.
 ▲ Opgelet: als u een papieren aangifte indient, moet u de in rubriek B gevraagde gegevens op blz. 4 van die aangifte vermelden.
@@ -5519,23 +4993,17 @@ andere lidstaat van de Europese Economische Ruimte (EER))
 • voor een minimumlooptijd van 4 jaar en met een jaarlijks te betalen interestvoet
 • aan een kleine vennootschap die sinds ten hoogste 48 maanden is ingeschreven in
 de Kruispuntbank van Ondernemingen of in een gelijkaardig register in een andere
-lidstaat van de EER
-• door inschrijving op gereglementeerde beleggingsinstrumenten die de leningen materialiseren.
+lidstaat van de EER • door inschrijving op gereglementeerde beleggingsinstrumenten die de leningen materialiseren.
 
 E. ALS WERKELIJKE BEROEPSKOSTEN AFGETROKKEN VERGOEDINGEN
 VOOR DE HUUR VAN ONROERENDE GOEDEREN OF VOOR DE
 VESTIGING OF OVERDRACHT VAN EEN ZAKELIJK GEBRUIKSRECHT OP
-ONROERENDE GOEDEREN
-Vermeld in rubriek E (door het passende vakje aan te kruisen of niet) of u in deel 1
+ONROERENDE GOEDEREN Vermeld in rubriek E (door het passende vakje aan te kruisen of niet) of u in deel 1
 (vak IV, A, 21) of deel 2 (vak XVI, 12; vak XVII, 8; vak XVIII, 10; vak XX, 3 of vak XXI, 7)
 
- Vak XIII
-
-van uw aangifte van aanslagjaar 2025 werkelijke beroepskosten hebt vermeld waarin volgende vergoedingen voor één of meer (gebouwde of ongebouwde) onroerende goederen
+Vak XIII van uw aangifte van aanslagjaar 2025 werkelijke beroepskosten hebt vermeld waarin volgende vergoedingen voor één of meer (gebouwde of ongebouwde) onroerende goederen
 zijn begrepen:
-•
-
-huurvergoedingen (d.w.z. de huurprijs en de huurvoordelen verleend aan de verhuurder) (met uitzondering van de huurvergoedingen voor onroerende goederen die u
+• huurvergoedingen (d.w.z. de huurprijs en de huurvoordelen verleend aan de verhuurder) (met uitzondering van de huurvergoedingen voor onroerende goederen die u
 huurt volgens de pachtwetgeving (of een vergelijkbaar buitenlands recht dat de pachtprijzen beperkt) en gebruikt voor land- of tuinbouw)
 • vergoedingen voor de vestiging of overdracht van een zakelijk gebruiksrecht (erfpacht,
 opstal, vruchtgebruik, erfdienstbaarheid, enz.) (d.w.z. de eigenlijke vergoedingen voor

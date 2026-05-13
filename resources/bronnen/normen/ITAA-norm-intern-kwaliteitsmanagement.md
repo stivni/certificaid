@@ -32,9 +32,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_at: '2026-05-13T12:27:03Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A6/B5: de preamble (r50-99) bevat fragmentarische tekst met afgebroken zinnen door kolom-extractie (bv. 'belastingadviseur, en in het bijzonder de artikelen 3, 5, 6, 62 en 72 voor wat het' op r50 eindigt mid-zin). B4: 'CABINET' als all-caps label op r141 zonder ## prefix. B4: 'KANTOORNIVEAU' op r148 als standalone label. A6: r57 eindigt mid-zin 'cliëntenbestand en evenredig met de complexiteit van de opdrachten die hij uitvoert.' — zin begint elders. Secties als ## headings aanwezig maar de preamble is substantieel aangetast."
+    rationale: "Drie categorieën zware artefacten: A8 (tweetalige NL+FR headings door column-bleed: 'Aanvaarding van opdrachten Acceptation de missions', 'Fin des relations clients', 'Documentatie Documentation'), B1/B7 (heading kapt mid-woord af: '## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP' zonder 'KANTOORNIVEAU'), en D1 (zin L80 is broken: 'dient cliëntenbestand en evenredig...' — mist de tussenliggende zin). Bovendien staat 'KANTOORNIVEAU' als plain-text-vervolg van de gebroken heading en bevat '## Fin des relations clients' een heading zonder NL-tegenhanger die losse FR-body-content bevat ('demande.') zonder context."
     layer1:
       status: pass
       run_id: 20260513-000913
@@ -46,21 +46,33 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T00:12:30Z'
-      rationale: "A6/B5: de preamble (r50-99) bevat fragmentarische tekst met afgebroken zinnen door kolom-extractie (bv. 'belastingadviseur, en in het bijzonder de artikelen 3, 5, 6, 62 en 72 voor wat het' op r50 eindigt mid-zin). B4: 'CABINET' als all-caps label op r141 zonder ## prefix. B4: 'KANTOORNIVEAU' op r148 als standalone label. A6: r57 eindigt mid-zin 'cliëntenbestand en evenredig met de complexiteit van de opdrachten die hij uitvoert.' — zin begint elders. Secties als ## headings aanwezig maar de preamble is substantieel aangetast."
+      run_at: '2026-05-13T12:27:03Z'
+      rationale: "Drie categorieën zware artefacten: A8 (tweetalige NL+FR headings door column-bleed: 'Aanvaarding van opdrachten Acceptation de missions', 'Fin des relations clients', 'Documentatie Documentation'), B1/B7 (heading kapt mid-woord af: '## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP' zonder 'KANTOORNIVEAU'), en D1 (zin L80 is broken: 'dient cliëntenbestand en evenredig...' — mist de tussenliggende zin). Bovendien staat 'KANTOORNIVEAU' als plain-text-vervolg van de gebroken heading en bevat '## Fin des relations clients' een heading zonder NL-tegenhanger die losse FR-body-content bevat ('demande.') zonder context."
       concrete_problemen:
-        - regel: 50
-          categorie: A6
-          type: other
-          voorbeeld: belastingadviseur, en in het bijzonder de artikelen 3, 5, 6, 62 en 72 voor wat het (zin afgekapt mid-phrase)
-        - regel: 141
+        - regel: 172
+          categorie: B1
+          type: abrupt-cutoff
+          voorbeeld: "'## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP' — heading kapt af; vervolg 'CABINET Doelstelling' op r174 als plain text"
+        - regel: 260
+          categorie: A8
+          type: column-bleed
+          voorbeeld: "'## Aanvaarding van opdrachten Acceptation de missions' — NL+FR samengeplakt"
+        - regel: 284
+          categorie: A8
+          type: column-bleed
+          voorbeeld: "'## Fin des relations clients' — losse FR-sectie-heading zonder NL-equivalent"
+        - regel: 323
+          categorie: A8
+          type: column-bleed
+          voorbeeld: "'## Documentatie Documentation' — bilingual heading"
+        - regel: 80
+          categorie: D1
+          type: abrupt-cutoff
+          voorbeeld: "'dient cliëntenbestand en evenredig met de complexiteit...' — mist 'organiseren in functie van de aard en de omvang van het'"
+        - regel: 71
           categorie: B4
           type: other
-          voorbeeld: 'CABINET (all-caps label na ## ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT OP)'
-        - regel: 148
-          categorie: B4
-          type: other
-          voorbeeld: KANTOORNIVEAU (standalone label als continuation van heading op r139-141)
+          voorbeeld: "'Inleiding RAAD VAN HET INSTITUUT VAN DE BELASTINGADVISEURS EN DE ACCOUNTANTS,' als plain-text-regel — had heading moeten zijn"
 ---
 ## NORM ALGEMENE VEREISTEN VAN INTERN KWALITEITSMANAGEMENT
 

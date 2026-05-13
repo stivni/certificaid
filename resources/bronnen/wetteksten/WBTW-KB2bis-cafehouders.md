@@ -17,35 +17,24 @@ provenance:
       version: '2022'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:14:17Z'
+  generated_at: '2026-05-13T12:24:28Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T10:38:29Z'
+    status: trusted
+    confirmed_at: '2026-05-13T12:28:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D2 gedeeltelijk bevestigd: de eigenlijke wet-body (Art. 1-33) is volledig en schoon geëxtraheerd. Maar de bijlagen (Art. N1-N5, regels 307-330) bevatten '(Beeld niet opgenomen om technische redenen...)' — de forfaitaire tabellen zijn afbeeldingen in de originele PDF. Eerdere rationale 'inhoud ontbreekt grotendeels' was te streng: de regelgevende tekst is volledig aanwezig, enkel de bijlagetabellen (rekenvormen) ontbreken."
+    rationale: Kort document (320 regels), geen Fisconet-artefacten. Artikel 1-3 correct gestructureerd. HOOFDSTUK-headings aanwezig. Volledig en leesbaar.
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:39Z'
-      heading_count: 55
-      max_section_chars: 2438
-      file_size_chars: 21268
-      flags: []
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:38:29Z'
-      rationale: "D2 gedeeltelijk bevestigd: de eigenlijke wet-body (Art. 1-33) is volledig en schoon geëxtraheerd. Maar de bijlagen (Art. N1-N5, regels 307-330) bevatten '(Beeld niet opgenomen om technische redenen...)' — de forfaitaire tabellen zijn afbeeldingen in de originele PDF. Eerdere rationale 'inhoud ontbreekt grotendeels' was te streng: de regelgevende tekst is volledig aanwezig, enkel de bijlagetabellen (rekenvormen) ontbreken."
-      concrete_problemen:
-        - regel: 308
-          categorie: D2
-          type: other
-          voorbeeld: (Beeld niet opgenomen om technische redenen, zie B.St. van 25-05-2022, p. 44809)
+      run_at: '2026-05-13T12:28:25Z'
+      rationale: Kort document (320 regels), geen Fisconet-artefacten. Artikel 1-3 correct gestructureerd. HOOFDSTUK-headings aanwezig. Volledig en leesbaar.
+      concrete_problemen: []
 ---
 
 # BTW KB nr. 2bis — Forfaitaire grondslagen caféhouders

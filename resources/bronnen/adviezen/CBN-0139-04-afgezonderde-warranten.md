@@ -27,9 +27,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_at: '2026-05-13T12:28:28Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (447 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    rationale: "Kort maar volledig zelfstandig advies (449 chars): twee bullets die de behandeling van afgezonderde warranten correct beschrijven. Geen ETL-artefacten, geen afgekapte zinnen. Heading gebruikt '139-4' (koppelteken) i.p.v. '139/4' (slash) — dit is een bronkeuze, geen ETL-bug. Inhoud volledig voor wat dit advies beoogt."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -41,8 +41,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
-      rationale: 'Kort advies (447 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+      run_at: '2026-05-13T12:28:28Z'
+      rationale: "Kort maar volledig zelfstandig advies (449 chars): twee bullets die de behandeling van afgezonderde warranten correct beschrijven. Geen ETL-artefacten, geen afgekapte zinnen. Heading gebruikt '139-4' (koppelteken) i.p.v. '139/4' (slash) — dit is een bronkeuze, geen ETL-bug. Inhoud volledig voor wat dit advies beoogt."
       concrete_problemen: []
 ---
 # CBN advies 139-4 - Afgezonderde warranten

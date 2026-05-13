@@ -35,10 +35,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-13T00:12:30Z'
+    status: needs-rework
+    confirmed_at: '2026-05-13T12:26:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Laag-1 pass zonder flags. Omvangrijke AWW-norm (15 secties, 40778 chars): secties 1-10 + bijlagen I-IV als ## headings, goed hiërarchisch. Preamble en overwegingen correct als plain text. Inhoudstafel op r127-129 als plain tekst zonder paginanummers — licht artefact maar niet blokkerend. Bijlagen I-IV volledig aanwezig. Inhoud compleet.'
+    rationale: "A2/B6: Inhoudstafel op regel 127–128 is een onvolledig TOC-fragment ('Inhoudstafel' + enkel bijlage-verwijzing, geen paginanummers of dotted-leaders maar wel TOC-rest in de body). Sectietitels binnen §§ (bijv. 'Definities', 'Toepassingsgebied ratione personae', 'Interne procedures') staan als plain-text op regel 133/257/347 in plaats van als ##/###-headings. Inhoud inhoudelijk volledig."
     layer1:
       status: pass
       run_id: 20260513-000913
@@ -48,15 +48,23 @@ provenance:
       file_size_chars: 40778
       flags: []
     layer2:
-      status: trusted
+      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T00:12:30Z'
-      rationale: 'Laag-1 pass zonder flags. Omvangrijke AWW-norm (15 secties, 40778 chars): secties 1-10 + bijlagen I-IV als ## headings, goed hiërarchisch. Preamble en overwegingen correct als plain text. Inhoudstafel op r127-129 als plain tekst zonder paginanummers — licht artefact maar niet blokkerend. Bijlagen I-IV volledig aanwezig. Inhoud compleet.'
+      run_at: '2026-05-13T12:26:25Z'
+      rationale: "A2/B6: Inhoudstafel op regel 127–128 is een onvolledig TOC-fragment ('Inhoudstafel' + enkel bijlage-verwijzing, geen paginanummers of dotted-leaders maar wel TOC-rest in de body). Sectietitels binnen §§ (bijv. 'Definities', 'Toepassingsgebied ratione personae', 'Interne procedures') staan als plain-text op regel 133/257/347 in plaats van als ##/###-headings. Inhoud inhoudelijk volledig."
       concrete_problemen:
         - regel: 127
-          categorie: A2
+          categorie: A3
           type: other
-          voorbeeld: 'Inhoudstafel (r127-129) als plain text zonder ## heading — TOC-fragment maar zonder dotted leaders, niet storend'
+          voorbeeld: 'Inhoudstafel\n\nBIJLAGE I: Variabelen... (onvolledig TOC-fragment)'
+        - regel: 133
+          categorie: B5
+          type: other
+          voorbeeld: 'Definities (plain text, geen ## heading)'
+        - regel: 257
+          categorie: B5
+          type: other
+          voorbeeld: 'Toepassingsgebied ratione personae (plain text, geen ## heading)'
 ---
   Norm van het Instituut van de Accountants en de Belastingconsulenten d.d. 31
 maart 2020 inzake de toepassing van de wet van 18 september 2017 tot voorkoming

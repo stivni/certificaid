@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:26:40Z'
+  generated_at: '2026-05-13T12:24:32Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:27:21Z'
+    confirmed_at: '2026-05-13T12:28:37Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: promote_wettekst_section_labels heeft 'Bijlage 1/2/3' op regels 72, 74, 76 succesvol gepromoot naar '## Bijlage N' headings. Maar de bijlagen blijven volledig leeg — er staat geen content onder. Voor RAG levert dit drie nutteloze section-ankers zonder body op. Een buitenstaander ziet drie naakte 'Bijlage'-headings onderaan; duidelijk onafgemaakt. Een strip_empty_trailing_headings transformer ontbreekt nog, of de bijlagen-inhoud moet alsnog uit de PDF worden meegenomen.
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:27:21Z'
+      run_at: '2026-05-13T12:28:37Z'
       rationale: promote_wettekst_section_labels heeft 'Bijlage 1/2/3' op regels 72, 74, 76 succesvol gepromoot naar '## Bijlage N' headings. Maar de bijlagen blijven volledig leeg — er staat geen content onder. Voor RAG levert dit drie nutteloze section-ankers zonder body op. Een buitenstaander ziet drie naakte 'Bijlage'-headings onderaan; duidelijk onafgemaakt. Een strip_empty_trailing_headings transformer ontbreekt nog, of de bijlagen-inhoud moet alsnog uit de PDF worden meegenomen.
       concrete_problemen:
         - "Regels 72, 74, 76: '## Bijlage 1', '## Bijlage 2', '## Bijlage 3' zonder content eronder — lege section-ankers"

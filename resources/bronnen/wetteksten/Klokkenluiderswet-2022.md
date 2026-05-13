@@ -17,29 +17,22 @@ provenance:
       version: 28.11.2022
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:14:04Z'
+  generated_at: '2026-05-13T12:24:23Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_at: '2026-05-13T12:28:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "L1 pass: 97 headings, max sectie 7003 chars. Fisconet-bron, 'Bron : ECONOMIE' is Fisconet-header die als plain-text in body staat — kleine artefact maar niet leesbaarheid-schadend. Alle artikels als #### Art. headings correct, inhoud volledig."
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:38Z'
-      heading_count: 97
-      max_section_chars: 7003
-      file_size_chars: 87816
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
+      run_at: '2026-05-13T12:28:19Z'
       rationale: "L1 pass: 97 headings, max sectie 7003 chars. Fisconet-bron, 'Bron : ECONOMIE' is Fisconet-header die als plain-text in body staat — kleine artefact maar niet leesbaarheid-schadend. Alle artikels als #### Art. headings correct, inhoud volledig."
       concrete_problemen:
         - regel: 47

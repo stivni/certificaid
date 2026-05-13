@@ -17,29 +17,22 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:14:24Z'
+  generated_at: '2026-05-13T12:24:36Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_at: '2026-05-13T12:28:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 pass: 534 headings, max sectie 7220 chars. ###### Art.-headings correct per de ETL-fix (318 Art-headings + 120 structuurheadings). TITEL 3 Fiscale bepalingen correct. Geen artefacten.'
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:41Z'
-      heading_count: 534
-      max_section_chars: 7220
-      file_size_chars: 279324
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:16Z'
+      run_at: '2026-05-13T12:28:19Z'
       rationale: 'L1 pass: 534 headings, max sectie 7220 chars. ###### Art.-headings correct per de ETL-fix (318 Art-headings + 120 structuurheadings). TITEL 3 Fiscale bepalingen correct. Geen artefacten.'
       concrete_problemen: []
 ---

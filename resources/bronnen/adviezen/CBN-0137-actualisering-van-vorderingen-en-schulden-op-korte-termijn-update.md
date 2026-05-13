@@ -36,9 +36,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_at: '2026-05-13T12:28:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (1753 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    rationale: 'Kort advies (1759 chars, 1 heading) zonder ETL-artefacten. Inhoud volledig: de vraag, het antwoord van de Commissie en de wettelijke onderbouwing zijn aanwezig. Voetnoot correct geformatteerd als [^1]. Geen A-G-categorie problemen aangetroffen.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -50,8 +50,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
-      rationale: 'Kort advies (1753 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+      run_at: '2026-05-13T12:28:25Z'
+      rationale: 'Kort advies (1759 chars, 1 heading) zonder ETL-artefacten. Inhoud volledig: de vraag, het antwoord van de Commissie en de wettelijke onderbouwing zijn aanwezig. Voetnoot correct geformatteerd als [^1]. Geen A-G-categorie problemen aangetroffen.'
       concrete_problemen: []
 ---
 # CBN advies 137/9 - Actualisering van vorderingen en schulden op korte termijn (update)

@@ -17,33 +17,22 @@ provenance:
       version: 03.02.2026
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:14:02Z'
+  generated_at: '2026-05-13T12:24:23Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_at: '2026-05-13T12:28:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 warn: 232 headings, max sectie 31069 chars (chunker auto-split). Headings als ##### Art. N correct. Definities-blok met lange omschrijvingen is bron-stijl. Geen ETL-artefacten.'
     layer1:
-      status: warn
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:37Z'
-      heading_count: 232
-      max_section_chars: 31069
-      file_size_chars: 333930
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op #####-niveau: 31069 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
+      run_at: '2026-05-13T12:28:19Z'
       rationale: 'L1 warn: 232 headings, max sectie 31069 chars (chunker auto-split). Headings als ##### Art. N correct. Definities-blok met lange omschrijvingen is bron-stijl. Geen ETL-artefacten.'
       concrete_problemen: []
 ---
@@ -161,7 +150,9 @@ Tekst
 
 ## HOOFDSTUK I. - Algemene bepalingen.
 
-Artikel 1. [1 Dit decreet is van toepassing op de belastingen, in hoofdsom en interesten, en [2 fiscale boetes]2, die gevestigd worden door decreten van het Waalse Gewest behalve voor zover bedoelde decreten daarvan afwijken alsook op de andere belastingen en taksen in hoofdsom, in interesten en [2 fiscale boetes]2 ten bate van het Waalse Gewest als dit decreet uitdrukkelijk op hen toepasselijk wordt gemaakt.
+##### Art. 1
+
+[1 Dit decreet is van toepassing op de belastingen, in hoofdsom en interesten, en [2 fiscale boetes]2, die gevestigd worden door decreten van het Waalse Gewest behalve voor zover bedoelde decreten daarvan afwijken alsook op de andere belastingen en taksen in hoofdsom, in interesten en [2 fiscale boetes]2 ten bate van het Waalse Gewest als dit decreet uitdrukkelijk op hen toepasselijk wordt gemaakt.
 Tenzij anders bepaald, is dit decreet eveneens van toepassing op aanvullende belastingen geïnd door het Waalse Gewest ten bate van de provincies, gemeenten en federaties van gemeenten.]1 [2 Onder fiscale boete wordt verstaan elke straf, ongeacht of zij forfaitair, vast of proportioneel is, alsook elke belastingverhoging of -toeslag.]2 (1)<DWG 2016-12-21/02, art. 53, 014; Inwerkingtreding : 01-01-2017> (2)<DWG 2021-12-22/12, art. 19, 026; Inwerkingtreding : 01-01-2022>
 
 ##### Art. 2. De

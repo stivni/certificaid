@@ -42,7 +42,7 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:49:48Z'
+    confirmed_at: '2026-05-13T12:26:31Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'D4: lege anchor-link met **** (4 asterisken) op regel 38 - ETL-artefact bij rendering van een PDF-hyperlink als markdown. De link bevat geen tekst.'
     layer1:
@@ -56,7 +56,7 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:48Z'
+      run_at: '2026-05-13T12:26:31Z'
       rationale: 'D4: lege anchor-link met **** (4 asterisken) op regel 38 - ETL-artefact bij rendering van een PDF-hyperlink als markdown. De link bevat geen tekst.'
       concrete_problemen:
         - regel: 38

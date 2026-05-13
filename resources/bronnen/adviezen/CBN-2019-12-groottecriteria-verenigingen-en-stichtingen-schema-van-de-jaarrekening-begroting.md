@@ -53,9 +53,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:47Z'
+    confirmed_at: '2026-05-13T12:28:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (26 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Inhoud volledig en goed gestructureerd. Kleine cosmetische onnauwkeurigheid: de 'Schematische voorstelling'-sectie (regels 250-255) bevat drie plain-text regels die de structuur van de bijlagen weergeven, maar dit is inhoudelijk bedoeld als opsomming, niet als headings. Geen structurele extractie-artefacten."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -67,9 +67,13 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:47Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (26 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:33Z'
+      rationale: "Inhoud volledig en goed gestructureerd. Kleine cosmetische onnauwkeurigheid: de 'Schematische voorstelling'-sectie (regels 250-255) bevat drie plain-text regels die de structuur van de bijlagen weergeven, maar dit is inhoudelijk bedoeld als opsomming, niet als headings. Geen structurele extractie-artefacten."
+      concrete_problemen:
+        - regel: 251
+          categorie: C2
+          type: other
+          voorbeeld: 'Volledig schema van de jaarrekening: Bijlage 6 bij het KB WVV'
 ---
 # CBN-advies 2019/12 – Groottecriteria verenigingen en stichtingen - schema van de jaarrekening - begroting
 

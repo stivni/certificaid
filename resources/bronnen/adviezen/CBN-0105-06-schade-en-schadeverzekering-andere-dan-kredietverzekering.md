@@ -26,9 +26,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (1971 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    rationale: "Geen artefacten. Bestand is inhoudelijk volledig (vier alinea's die alle gevallen uit het advies behandelen). De `mec. nr.`-referenties zijn plain text in de body maar dat is correct: dit zijn geen URLs, maar rekeningnummer-aanduidingen uit het origineel. Italic-markup correct gesloten."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -40,8 +40,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: 'Kort advies (1971 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+      run_at: '2026-05-13T12:28:32Z'
+      rationale: "Geen artefacten. Bestand is inhoudelijk volledig (vier alinea's die alle gevallen uit het advies behandelen). De `mec. nr.`-referenties zijn plain text in de body maar dat is correct: dit zijn geen URLs, maar rekeningnummer-aanduidingen uit het origineel. Italic-markup correct gesloten."
       concrete_problemen: []
 ---
 # CBN-advies 105/6 - Schade en schadeverzekering (andere dan kredietverzekering)

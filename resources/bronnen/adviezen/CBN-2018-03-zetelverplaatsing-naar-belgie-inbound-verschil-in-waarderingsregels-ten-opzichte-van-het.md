@@ -34,9 +34,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:46Z'
+    confirmed_at: '2026-05-13T12:28:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Geen zichtbare ETL-artefacten. Heading-hiërarchie correct (##, ###), voetnoten [^1] t/m [^24] volledig gedefinieerd en gerefereerd, inhoud compleet (inleiding, juridische continuïteit, boekhoudkundige continuïteit, uitzondering, voorbeeld). Geen TOC-residu, geen malformed italic, geen gebroken zinnen.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -48,8 +48,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:46Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:33Z'
+      rationale: 'Geen zichtbare ETL-artefacten. Heading-hiërarchie correct (##, ###), voetnoten [^1] t/m [^24] volledig gedefinieerd en gerefereerd, inhoud compleet (inleiding, juridische continuïteit, boekhoudkundige continuïteit, uitzondering, voorbeeld). Geen TOC-residu, geen malformed italic, geen gebroken zinnen.'
       concrete_problemen: []
 ---
 # CBN-advies 2018/03 – Zetelverplaatsing naar België (inbound) – Verschil in waarderingsregels ten opzichte van het boekhoudkundig referentiestelsel van de Staat van herkomst

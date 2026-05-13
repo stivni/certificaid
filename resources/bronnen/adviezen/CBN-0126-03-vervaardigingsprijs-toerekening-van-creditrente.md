@@ -39,9 +39,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_at: '2026-05-13T12:28:27Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Vorige Laag-2-ronde flagde D4 (italic niet gesloten op L73 en L79), maar bij her-lezing van de actuele body sluiten beide italic-spans correct: 'via de rubriek *Wijziging in de voorraad ... in uitvoering*, zonder' en '*Wijziging in de bestellingen in uitvoering* (717)' — de asterisk staat vóór de spatie/komma. Scraper-fix heeft dit opgelost. Inhoud volledig, voetnoot correct, geen andere artefacten."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -53,8 +53,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:27Z'
+      rationale: "Vorige Laag-2-ronde flagde D4 (italic niet gesloten op L73 en L79), maar bij her-lezing van de actuele body sluiten beide italic-spans correct: 'via de rubriek *Wijziging in de voorraad ... in uitvoering*, zonder' en '*Wijziging in de bestellingen in uitvoering* (717)' — de asterisk staat vóór de spatie/komma. Scraper-fix heeft dit opgelost. Inhoud volledig, voetnoot correct, geen andere artefacten."
       concrete_problemen: []
 ---
 # CBN-advies 126/3 - Vervaardigingsprijs : toerekening van creditrente

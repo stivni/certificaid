@@ -25,9 +25,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:28:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Eerder gemelde D4 (spatie voor sluitende asterisk op regels 60 en 63) is een source-typo: de CBN-website formatteert geciteerde wetteksten als italic met een spatie voor de sluiting — een mens die de HTML opent ziet hetzelfde. Geen echte ETL-artefacten (categorieën A-G) aanwezig. Document is compact (5053 chars, 2 headings), inhoudelijk volledig, alle 6 voetnoten correct.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -39,9 +39,13 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:30Z'
+      rationale: 'Eerder gemelde D4 (spatie voor sluitende asterisk op regels 60 en 63) is een source-typo: de CBN-website formatteert geciteerde wetteksten als italic met een spatie voor de sluiting — een mens die de HTML opent ziet hetzelfde. Geen echte ETL-artefacten (categorieën A-G) aanwezig. Document is compact (5053 chars, 2 headings), inhoudelijk volledig, alle 6 voetnoten correct.'
+      concrete_problemen:
+        - regel: 60
+          categorie: (source)
+          type: source-typo
+          voorbeeld: '*"Een Belgische of buitenlandse onderneming:* '
 ---
 # CBN-advies 2011/19 – De boekhoudkundige verwerking van interestopbrengsten en –kosten door erkende kredietmaatschappijen in Vlaanderen
 

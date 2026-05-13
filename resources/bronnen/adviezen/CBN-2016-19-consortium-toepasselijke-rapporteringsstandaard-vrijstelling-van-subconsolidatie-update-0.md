@@ -43,9 +43,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:46Z'
+    confirmed_at: '2026-05-13T12:28:26Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Kort advies (5k chars), volledig schoon. Vier ##-secties correct benoemd, voetnoten [^1]–[^7] volledig gekoppeld, geen artefacten in categorie A t/m G. Inhoud compleet (inleiding, vraagstelling, toepasselijke standaard, vrijstelling).'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -57,8 +57,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:46Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:26Z'
+      rationale: 'Kort advies (5k chars), volledig schoon. Vier ##-secties correct benoemd, voetnoten [^1]–[^7] volledig gekoppeld, geen artefacten in categorie A t/m G. Inhoud compleet (inleiding, vraagstelling, toepasselijke standaard, vrijstelling).'
       concrete_problemen: []
 ---
 # CBN-advies 2016/19 – Consortium: toepasselijke rapporteringsstandaard – vrijstelling van subconsolidatie (update)

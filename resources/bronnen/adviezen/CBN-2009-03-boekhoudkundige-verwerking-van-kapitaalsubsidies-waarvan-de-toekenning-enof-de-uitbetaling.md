@@ -33,9 +33,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:27:13Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: *** drievoudig asterisk voor "Boekingen" op regel 177 - ETL-bug waarbij bold+italic mix resulteert in unclosed marker. Leestbaarheid van tabeltitels aangetast.'
+    rationale: "Bevestiging van vorige QA (ronde 1). B4: vier #### headings in all-caps (INLEIDING, OVERZICHT, BEOORDELING, VOORBEELDEN) i.p.v. ##. E2: drie tabellen volledig afwezig — enkel 'Tabel 1' (r.205), 'Tabel 2' (r.211), 'Tabel 3' (r.284) als plain-text placeholders; dit is significante inhoudsverlies. D4: r.189 '***a) Voorbeeld 1...**' heeft ongematcht triple/double asterisk; r.203 '*Kapitaalsubsidies *' heeft spatie voor sluitende asterisk."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -47,13 +47,33 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: 'D4: *** drievoudig asterisk voor "Boekingen" op regel 177 - ETL-bug waarbij bold+italic mix resulteert in unclosed marker. Leestbaarheid van tabeltitels aangetast.'
+      run_at: '2026-05-13T12:27:13Z'
+      rationale: "Bevestiging van vorige QA (ronde 1). B4: vier #### headings in all-caps (INLEIDING, OVERZICHT, BEOORDELING, VOORBEELDEN) i.p.v. ##. E2: drie tabellen volledig afwezig — enkel 'Tabel 1' (r.205), 'Tabel 2' (r.211), 'Tabel 3' (r.284) als plain-text placeholders; dit is significante inhoudsverlies. D4: r.189 '***a) Voorbeeld 1...**' heeft ongematcht triple/double asterisk; r.203 '*Kapitaalsubsidies *' heeft spatie voor sluitende asterisk."
       concrete_problemen:
-        - regel: 177
+        - regel: 101
+          categorie: B4
+          type: other
+          voorbeeld: '## INLEIDING (all-caps ## i.p.v. ## Inleiding)'
+        - regel: 205
+          categorie: E2
+          type: other
+          voorbeeld: Tabel 1 (placeholder zonder tabelinhoud — numerieke inresultaatnemingstabel)
+        - regel: 211
+          categorie: E2
+          type: other
+          voorbeeld: Tabel 2 (placeholder zonder tabelinhoud — aflossingsplan)
+        - regel: 284
+          categorie: E2
+          type: other
+          voorbeeld: Tabel 3 (placeholder zonder tabelinhoud — inresultaatneming voorbeeld 2)
+        - regel: 189
           categorie: D4
-          type: unclosed-bold
-          voorbeeld: '***Boekingen tijdens het eerste jaar (t) - drievoudig * marker'
+          type: other
+          voorbeeld: '***a) Voorbeeld 1 : Subsidie verkregen...** * (ongematcht *** vs **)'
+        - regel: 203
+          categorie: D4
+          type: other
+          voorbeeld: '*Kapitaalsubsidies * en a rato van 25% (spatie voor sluitende *)'
 ---
 # CBN-advies 2009/3 - Boekhoudkundige verwerking van kapitaalsubsidies waarvan de toekenning en/of de uitbetaling over verschillende jaren wordt gespreid
 

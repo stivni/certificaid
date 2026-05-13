@@ -31,9 +31,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:27Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (448 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    rationale: "Bug B3 (duplicate heading) is opgelost: de body bevat slechts één heading '# CBN advies 102 - Omzet - Verkopen CIF (Cost, Insurance, Freight)'. Inhoud is volledig (twee alineas, correct afgerond). Geen andere artefacten."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -45,8 +45,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: 'Kort advies (448 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+      run_at: '2026-05-13T12:28:27Z'
+      rationale: "Bug B3 (duplicate heading) is opgelost: de body bevat slechts één heading '# CBN advies 102 - Omzet - Verkopen CIF (Cost, Insurance, Freight)'. Inhoud is volledig (twee alineas, correct afgerond). Geen andere artefacten."
       concrete_problemen: []
 ---
 # CBN advies 102 - Omzet - Verkopen CIF (Cost, Insurance, Freight)

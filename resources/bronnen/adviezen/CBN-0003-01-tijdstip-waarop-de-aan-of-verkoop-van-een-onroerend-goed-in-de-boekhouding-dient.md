@@ -40,9 +40,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:26Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (1876 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    rationale: 'Vorige verdict markeerde A4 (U+2010 HYPHEN) in heading en body. Geen van de scraper-fixes adresseert A4, maar U+2010 in CBN-HTML is een bron-karakter (typografisch koppelteken in de originele tekst) — geen ETL-introductie. Per source-uitzondering: dit geldt niet als grond voor needs-rework. Inhoud volledig correct, voetnoot [^1] goed geformatteerd, geen andere artefacten aangetroffen.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -54,9 +54,21 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: 'Kort advies (1876 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:26Z'
+      rationale: 'Vorige verdict markeerde A4 (U+2010 HYPHEN) in heading en body. Geen van de scraper-fixes adresseert A4, maar U+2010 in CBN-HTML is een bron-karakter (typografisch koppelteken in de originele tekst) — geen ETL-introductie. Per source-uitzondering: dit geldt niet als grond voor needs-rework. Inhoud volledig correct, voetnoot [^1] goed geformatteerd, geen andere artefacten aangetroffen.'
+      concrete_problemen:
+        - regel: 69
+          categorie: (source)
+          type: source-typo
+          voorbeeld: aan‐ of verkoop — U+2010 typografisch koppelteken uit bron-HTML
+        - regel: 73
+          categorie: (source)
+          type: source-typo
+          voorbeeld: verkoopscompromis ‐ of — U+2010 uit bron-HTML
+        - regel: 80
+          categorie: (source)
+          type: source-typo
+          voorbeeld: de ‐ trouwens niet aan bod gekomen ‐ kwestie — U+2010 uit bron-HTML
 ---
 # CBN-advies 3-1 Tijdstip waarop de aan- of verkoop van een onroerend goed in de boekhouding dient ingeschreven te worden
 

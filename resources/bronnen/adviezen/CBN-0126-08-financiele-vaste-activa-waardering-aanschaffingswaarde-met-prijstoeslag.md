@@ -42,9 +42,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_at: '2026-05-13T12:28:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (3 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'All-caps section headings op regels 76 en 84 zijn de originele stijl van het CBN-advies (Belgische wettekst-conventie) en staan correct als ## heading — dit is geen ETL-bug maar de bronstijl. Footnotes correct als [^1]/[^2]/[^3] markdown. Inhoud volledig, geen HTML-entities, geen ongewone unicode, geen extractie-artefacten.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -56,8 +56,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (3 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:32Z'
+      rationale: 'All-caps section headings op regels 76 en 84 zijn de originele stijl van het CBN-advies (Belgische wettekst-conventie) en staan correct als ## heading — dit is geen ETL-bug maar de bronstijl. Footnotes correct als [^1]/[^2]/[^3] markdown. Inhoud volledig, geen HTML-entities, geen ongewone unicode, geen extractie-artefacten.'
       concrete_problemen: []
 ---
 # CBN-advies 126/8 - Financiële vaste activa - Waardering - Aanschaffingswaarde met prijstoeslag

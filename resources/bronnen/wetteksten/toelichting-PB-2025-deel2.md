@@ -17,60 +17,68 @@ provenance:
       version: '2025'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 057ab06-dirty
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:06:38Z'
+  generated_at: '2026-05-13T12:25:16Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_at: '2026-05-13T12:27:03Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Layer1 warn (max_section_size). B4: 59 ALL_CAPS plain-text sectietitels. A6: 82 spurious line-breaks. Zelfde patroon als deel1: 8 H2-headings voor vakken, sub-rubrieken als plain text.'
+    rationale: "Drie klassen van extractie-artefacten aanwezig. (1) A1/A2: de INHOUDSTAFEL staat volledig in de body met losstaande paginanummers op eigen regels (3, 5, 6, 8, 21, 27 ...) door het hele TOC-blok heen (regels 59–110). (2) B4/B5: secties als 'Vak XV', 'Vak XVI', 'Vak XVII' enz. worden 66× als plain-text herhaald als pagina-koptekst in plaats van heading (bijv. regels 207, 247, 320 ...); ook 'INHOUDSTAFEL' en 'ALGEMENE INLICHTINGEN' zijn plain-text in plaats van ##-heading. (3) A6/A7: twee bevestigde woord-afkappingen over pagina-grenzen heen: 'be10\\n\\nVak XV\\n\\ntaald' (regel 460) en 'beroepswerkzaam51\\n\\nVak XVIII' (regel 2438), waarbij het paginanummer midden in het woord is geplakt. Inhoud (alle vakken XIV–XXII aanwezig) en wetsvolgorde zijn verder correct."
     layer1:
-      status: warn
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:41Z'
-      heading_count: 8
-      max_section_chars: 56486
-      file_size_chars: 186798
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 56486 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:20:00Z'
-      rationale: 'Layer1 warn (max_section_size). B4: 59 ALL_CAPS plain-text sectietitels. A6: 82 spurious line-breaks. Zelfde patroon als deel1: 8 H2-headings voor vakken, sub-rubrieken als plain text.'
+      run_at: '2026-05-13T12:27:03Z'
+      rationale: "Drie klassen van extractie-artefacten aanwezig. (1) A1/A2: de INHOUDSTAFEL staat volledig in de body met losstaande paginanummers op eigen regels (3, 5, 6, 8, 21, 27 ...) door het hele TOC-blok heen (regels 59–110). (2) B4/B5: secties als 'Vak XV', 'Vak XVI', 'Vak XVII' enz. worden 66× als plain-text herhaald als pagina-koptekst in plaats van heading (bijv. regels 207, 247, 320 ...); ook 'INHOUDSTAFEL' en 'ALGEMENE INLICHTINGEN' zijn plain-text in plaats van ##-heading. (3) A6/A7: twee bevestigde woord-afkappingen over pagina-grenzen heen: 'be10\\n\\nVak XV\\n\\ntaald' (regel 460) en 'beroepswerkzaam51\\n\\nVak XVIII' (regel 2438), waarbij het paginanummer midden in het woord is geplakt. Inhoud (alle vakken XIV–XXII aanwezig) en wetsvolgorde zijn verder correct."
       concrete_problemen:
-        - regel: 155
-          categorie: B4
-          type: other
-          voorbeeld: VAK XIV - BEROEP EN ONDERNEMINGSNUMMER (plain text in TOC)
-        - regel: 3147
+        - regel: 59
           categorie: A1
           type: other
-          voorbeeld: 276.1 DEEL 2 NED. (paginakopreferentie)
+          voorbeeld: INHOUDSTAFEL\nALGEMENE INLICHTINGEN\n\n3\n\n## VAK XIV...
+        - regel: 63
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: 3\n\n## VAK XIV - BEROEP EN ONDERNEMINGSNUMMER\n\n5
+        - regel: 111
+          categorie: A1
+          type: other
+          voorbeeld: 2\n\n\nALGEMENE INLICHTINGEN\nDe voorbereiding van de aangifte (deel 2)
+        - regel: 116
+          categorie: B5
+          type: other
+          voorbeeld: '## Deel 2 van de voorbereiding van de aangifte in de personenbelasting is bestemd voor:'
+        - regel: 207
+          categorie: B4
+          type: other
+          voorbeeld: Vak XV - DIVERSE INKOMSTEN (66x herhaald als plain-text pagina-koptekst)
+        - regel: 460
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: '...zijn be10\n\n\nVak XV\n\ntaald of toegekend...'
+        - regel: 2438
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: '...stopzetting van uw beroepswerkzaam51\n\n\nVak XVIII'
+        - regel: 3343
+          categorie: A1
+          type: other
+          voorbeeld: 276.1 DEEL 2 NED.\n\nbedrijfsrevisor\n\n70
 ---
 
 # Toelichting bij de aangifte in de personenbelasting — AJ 2025 — Deel 2
 
 *Bijgewerkt tot en met 2025 — gecoördineerde versie.*
 
-Toelichting
-
-bij deel 2 van de
-voorbereiding van de aangifte
+Toelichting bij deel 2 van de voorbereiding van de aangifte
 in de personenbelasting
 
-Aanslagjaar 2025
-(inkomsten van het jaar 2024)
+Aanslagjaar 2025 (inkomsten van het jaar 2024)
 
- INHOUDSTAFEL
-ALGEMENE INLICHTINGEN
+## INHOUDSTAFEL ALGEMENE INLICHTINGEN
 
 VAK XIV - BEROEP EN ONDERNEMINGSNUMMER
 
@@ -100,17 +108,9 @@ VAK XXII - EERSTE VESTIGING ALS ZELFSTANDIGE
  ALGEMENE INLICHTINGEN
 De voorbereiding van de aangifte (deel 2)
 Deel 2 van de voorbereiding van de aangifte in de personenbelasting is bestemd voor:
-•
+• bedrijfsleiders (bestuurders, zaakvoerders, enz.)
 
-bedrijfsleiders (bestuurders, zaakvoerders, enz.)
-
-•
-
-zelfstandigen
-
-•
-
-personen die andere diverse inkomsten hebben verkregen dan onderhoudsuitkeringen.
+• zelfstandigen • personen die andere diverse inkomsten hebben verkregen dan onderhoudsuitkeringen.
 Onderhoudsuitkeringen zijn te vermelden in vak VI van deel 1 van de voorbereiding.
 
 De toelichting bij deel 2
@@ -138,9 +138,7 @@ respectievelijk in vak XXI, 9 naast ‘Land’, ‘Europese Unie’ vermelden)
 zijn verkregen en belast in een land waarmee België geen overeenkomst heeft gesloten
 om dubbele belasting te voorkomen, met uitzondering van:
 - de bezoldigingen van bedrijfsleiders voor werkzaamheden uitgeoefend voor inrichtingen gelegen in het buitenland, die niet op de resultaten van die inrichtingen worden
-toegerekend
-
-de inkomsten van roerende goederen en kapitalen gebruikt voor het uitoefenen van
+toegerekend de inkomsten van roerende goederen en kapitalen gebruikt voor het uitoefenen van
 de beroepswerkzaamheid in inrichtingen in België
 • de inkomsten die afzonderlijk belastbaar zijn tegen de aanslagvoet van 0 %. Dat zijn afzonderlijk belastbare inkomsten die van de personenbelasting zijn vrijgesteld (door internationale overeenkomsten ter voorkoming van dubbele belasting, enz. – zie het eerste
 bolletje hiervoor).
@@ -221,76 +219,48 @@ Het aan te geven bedrag is het brutobedrag verminderd met de eventuele buitenlan
 
 2. Verplicht aan te geven inkomsten
 a) Onderverhuring of overdracht van huur van al dan niet gemeubileerde
-onroerende goederen
-Algemene regel
-Als u (buiten de uitoefening van uw beroepswerkzaamheid) een onroerend goed
+onroerende goederen Algemene regel Als u (buiten de uitoefening van uw beroepswerkzaamheid) een onroerend goed
 hebt gehuurd dat u volledig of gedeeltelijk doorverhuurt, vermeld dan hier de volgende bedragen:
-•
-
-onder 1: het totaal van de door u ontvangen huur en de eventuele voordelen
+• onder 1: het totaal van de door u ontvangen huur en de eventuele voordelen
 die u hebt verkregen voor de onderverhuring
 
-•
-
-onder 2: het totaal van de huur en de huurlasten die u zelf hebt betaald voor
+• onder 2: het totaal van de huur en de huurlasten die u zelf hebt betaald voor
 het door u doorverhuurde gedeelte, verhoogd met de werkelijke kosten die u
 hebt gedaan of gedragen om de onder 1 vermelde inkomsten te verkrijgen of
 te behouden.
 
 Het speelt geen rol of het gebouw gemeubileerd is of niet.
 
-Bijzonder geval
-Als u het gebouw ongemeubileerd hebt gehuurd en het gemeubileerd hebt doorverhuurd, moet u een onderscheid maken tussen:
-•
-
-de inkomsten voor de onderverhuring van het gebouw (te vermelden in
-vak XV, A, 2, a)
-
-•
-
-de inkomsten voor de verhuring van het meubilair (te vermelden in vak VII, B).
+Bijzonder geval Als u het gebouw ongemeubileerd hebt gehuurd en het gemeubileerd hebt doorverhuurd, moet u een onderscheid maken tussen:
+• de inkomsten voor de onderverhuring van het gebouw (te vermelden in
+vak XV, A, 2, a) • de inkomsten voor de verhuring van het meubilair (te vermelden in vak VII, B).
 
 Als het huurcontract van een gemeubileerd gebouw geen afzonderlijke huur bepaalt voor het meubilair en voor het gebouw, mag worden aangenomen dat 40 %
 van de ontvangen huur slaat op de meubelen en 60 % op het gebouw.
 
-Verantwoording
-Houd de volgende gegevens ter beschikking van de belastingdienst:
-•
-
-ligging (gemeente, straat, nr.) van de kamers, appartementen of woningen,
+Verantwoording Houd de volgende gegevens ter beschikking van de belastingdienst:
+• ligging (gemeente, straat, nr.) van de kamers, appartementen of woningen,
 die u hebt doorverhuurd of waarvan u het huurcontract hebt afgestaan
 
-•
+• naam en adres van de eigenaar(s) van die goederen
 
-naam en adres van de eigenaar(s) van die goederen
-
-•
-
-een becijferde uiteenzetting van de aangegeven bedragen.
+• een becijferde uiteenzetting van de aangegeven bedragen.
 
 b) Concessie van het recht om affiches of andere reclamedragers te plaatsen
 Als u (buiten de uitoefening van uw beroepswerkzaamheid) tegen betaling de
 toestemming verleent om plaatsen die van nature onroerend zijn en niet binnen
 de omheining van een sportinstallatie liggen, voor reclamedoeleinden te gebruiken, vermeld dan hier de verkregen inkomsten.
 Het gaat vooral om het laten aanbrengen van:
-•
+• affiches, reclameborden, emblemen, lichtreclames, spandoeken, enz., op muren, gevels, daken, enz.
 
-affiches, reclameborden, emblemen, lichtreclames, spandoeken, enz., op muren, gevels, daken, enz.
+• reclameborden op terreinen
 
-•
-
-reclameborden op terreinen
-
-•
-
-reclamedragers van welke aard ook, op afsluitingen en omheiningen rond onbebouwde terreinen of vervallen gebouwen.
+• reclamedragers van welke aard ook, op afsluitingen en omheiningen rond onbebouwde terreinen of vervallen gebouwen.
 
 ▲ Opgelet: als de plaatsen roerend zijn, moet u de inkomsten vermelden in
 vak VII, B.
 
- Vak XV
-
-Houd een becijferde uiteenzetting van de aangegeven bedragen ter beschikking
+Vak XV Houd een becijferde uiteenzetting van de aangegeven bedragen ter beschikking
 van de belastingdienst.
 
 e) Vergoedingen voor ontbrekende coupon of ontbrekend lot bij financiële instrumenten die het voorwerp zijn van een zakelijke-zekerheidsovereenkomst of een lening afgesloten vanaf 1.2.2005, waarop geen
@@ -302,10 +272,7 @@ Vermeld de vergoedingen in rubriek 1 tot 4 naargelang de aanslagvoet (30, 20,
 B. ANDERE DIVERSE INKOMSTEN
 Voorafgaande opmerking
 Echtgenoten en wettelijk samenwonenden die samen worden belast, moeten hun andere dan de in rubriek A bedoelde diverse inkomsten als volgt aangeven:
-•
-•
-
-inkomsten bedoeld in de rubrieken B, 1 tot B, 5 moet u aangeven op naam van de
+• • inkomsten bedoeld in de rubrieken B, 1 tot B, 5 moet u aangeven op naam van de
 echtgenoot of partner die ze heeft behaald
 inkomsten bedoeld in de rubrieken B, 6 tot B, 9:
 -
@@ -325,14 +292,10 @@ vermogen van die echtgenoot en moet u dus volledig op zijn of haar naam aangeven
 en beloningen voor verenigingsactiviteiten
 a) Winst of baten uit diensten verleend in het kader van de deeleconomie
 Het gaat hier om uw in 2024 verkregen winst of baten die voortvloeien uit diensten die u buiten de uitoefening van een beroepswerkzaamheid, zelf hebt verleend aan derden onder de volgende voorwaarden:
-•
-
-u hebt de diensten alleen maar verleend aan particulieren (d.w.z. natuurlijke
+• u hebt de diensten alleen maar verleend aan particulieren (d.w.z. natuurlijke
 personen die niet handelen in het kader van een beroepswerkzaamheid)
 
-•
-
-het gaat niet om diensten die alleen maar inkomsten opleveren die belastbaar zijn als:
+• het gaat niet om diensten die alleen maar inkomsten opleveren die belastbaar zijn als:
 -
 
 inkomsten van onroerende goederen (zie vak III) zoals de inkomsten uit
@@ -342,9 +305,7 @@ de verhuring van een appartement of kamer
 
 inkomsten van kapitalen en roerende goederen (zie vak VII) zoals de inkomsten uit de verhuring van meubilair
 
- Vak XV
-
-•
+Vak XV •
 
 -
 
@@ -387,9 +348,7 @@ inkomsten belastbaar zijn, moet u het brutobedrag ervan vermelden in rubriek B, 
 a, 1 en de ingehouden bedrijfsvoorheffing in rubriek B, 1, a, 2. Op uw fiche(s) 281.29
 vindt u die bedrijfsvoorheffing in vak 7.
 
- Vak XV
-
-▲ Opgelet: het brutobedrag is slechts belastbaar na aftrek van 50 % forfaitaire kosten. Vermeld echter altijd het volledige brutobedrag. De belastingdienst zal het
+Vak XV ▲ Opgelet: het brutobedrag is slechts belastbaar na aftrek van 50 % forfaitaire kosten. Vermeld echter altijd het volledige brutobedrag. De belastingdienst zal het
 kostenforfait automatisch toepassen.
 
 b) Beloningen voor verenigingsactiviteiten
@@ -424,9 +383,7 @@ vermelden. Houd in dat geval de bewijsstukken ter beschikking van de
 belastingdienst.
 Onder 'brutobedrag' wordt hier verstaan: alle beloningen die voor uw tewerkstelling in het kader van de bedoelde verenigingsactiviteiten zijn be10
 
- Vak XV
-
-taald of toegekend, met inbegrip van de beloningen die, als het beroepsinkomsten waren, wettelijk zouden worden vrijgesteld, en de vergoedingen die een tijdelijke derving van inkomsten herstellen (vervangingsinkomsten). Op uw fiche(s) 281.27 vindt u dat brutobedrag in vak 6.
+Vak XV taald of toegekend, met inbegrip van de beloningen die, als het beroepsinkomsten waren, wettelijk zouden worden vrijgesteld, en de vergoedingen die een tijdelijke derving van inkomsten herstellen (vervangingsinkomsten). Op uw fiche(s) 281.27 vindt u dat brutobedrag in vak 6.
 Als uw beloningen voor verenigingsactiviteiten als diverse inkomsten belastbaar
 zijn, moet u het brutobedrag ervan vermelden in rubriek B, 1, b
 ▲ Opgelet: het brutobedrag is slechts belastbaar na aftrek van 50 % forfaitaire
@@ -462,9 +419,7 @@ dan 77,22 euro per dag, desgevallend verhoogd met een terugbetaling
 van de werkelijke verplaatsingskosten per opdrachtgever die niet meer
 bedraagt dan 22,06 euro per dag
 
- Vak XV
-
-Als een opdrachtgever een hoger bedrag heeft betaald, met inbegrip van
+Vak XV Als een opdrachtgever een hoger bedrag heeft betaald, met inbegrip van
 de terugbetaling van de werkelijke verplaatsingskosten, vervalt de vrijstelling voor de volledige onkostenvergoeding, met inbegrip van de terugbetaling van de werkelijke verplaatsingskosten, die hij heeft betaald.
 4) er geen tewerkstelling is bij de opdrachtgever
 U was op het ogenblik van het leveren van de artistieke prestaties niet
@@ -489,18 +444,12 @@ dat die inkomsten werkelijk in het buitenland zijn belast, bij uw aangifte te vo
 3. Prijzen, subsidies, renten of pensioenen toegekend aan geleerden,
 schrijvers en kunstenaars
 Hier zijn de prijzen, subsidies, renten of pensioenen bedoeld die:
-•
+• niet de aard hebben van beroepsinkomsten,
 
-niet de aard hebben van beroepsinkomsten,
-
-•
-
-door de overheid of door openbare instellingen zonder winstoogmerk zijn betaald
+• door de overheid of door openbare instellingen zonder winstoogmerk zijn betaald
 aan geleerden, schrijvers of kunstenaars, en
 
-•
-
-niet volledig zijn vrijgesteld door een koninklijk besluit ter uitvoering van artikel 90,
+• niet volledig zijn vrijgesteld door een koninklijk besluit ter uitvoering van artikel 90,
 tweede lid, 2°, van het Wetboek van de inkomstenbelastingen 1992.
 
 Voor prijzen die in principe belastbaar zijn, moet u alleen het gedeelte boven de
@@ -549,9 +498,7 @@ vak 6, e.
 ▲ Opgelet: het brutobedrag is slechts belastbaar na aftrek van 10 % forfaitaire kosten. Vermeld echter altijd het volledige brutobedrag. De belastingdienst zal het
 kostenforfait automatisch toepassen.
 
- Vak XV
-
-Vermeld de eventueel ingehouden bedrijfsvoorheffing in rubriek B, 5, b. Op uw
+Vak XV Vermeld de eventueel ingehouden bedrijfsvoorheffing in rubriek B, 5, b. Op uw
 fiche(s) 281.30 vindt u die voorheffing in vak 10.
 In rubriek B, 5, c mag u niet alle in rubriek B, 5, a vermelde vergoedingen van buitenlandse oorsprong herhalen, maar alleen die welke door internationale overeenkomsten ter voorkoming van dubbele belasting zijn vrijgesteld en waarvoor u aanspraak
 maakt op de afzonderlijke belasting tegen de aanslagvoet van 0 %. Als u een papieren aangifte indient, moet u de in rubriek B, 5, c gevraagde gegevens op blz. 4 van
@@ -561,13 +508,10 @@ de afzonderlijke belasting tegen de aanslagvoet van 0 %, is het aangewezen om
 het bewijs dat de voorwaarden zijn vervuld, bij uw aangifte te voegen.
 
 6. Overdracht van in België gelegen gronden of zakelijke rechten op
-gronden
-Algemeen
-Het gaat hier om meerwaarden en verliezen die u bij een overdracht onder bezwarende titel hebt verwezenlijkt of geleden op in België gelegen gronden (die van landen tuinbouwondernemingen inbegrepen) of op zakelijke rechten op gronden (behalve
+gronden Algemeen Het gaat hier om meerwaarden en verliezen die u bij een overdracht onder bezwarende titel hebt verwezenlijkt of geleden op in België gelegen gronden (die van landen tuinbouwondernemingen inbegrepen) of op zakelijke rechten op gronden (behalve
 het recht van erfpacht, het recht van opstal of een gelijkaardig onroerend recht).
 
-Bijzonder geval
-Meerwaarden en verliezen op gronden waarop gebouwen zijn opgetrokken waarvan
+Bijzonder geval Meerwaarden en verliezen op gronden waarop gebouwen zijn opgetrokken waarvan
 de verkoopwaarde lager is dan 30 % van de verkoopprijs van het geheel, worden altijd als meerwaarden en verliezen op gronden beschouwd. Vermeld die meerwaarden en verliezen dus nooit in rubriek B, 7!
 
 Beoogde meerwaarden en verliezen
@@ -582,16 +526,13 @@ minder na de verkrijging onder bezwarende titel hebt overgedragen. Zij zijn bela
 De meerwaarden zijn echter niet belastbaar en de verliezen niet aftrekbaar als ze
 zijn vastgesteld bij:
 a) kosteloos geregistreerde ruilingen bij vrijwillige of wettelijke ruilverkaveling van
-landeigendommen
-b) ruilingen van landeigendommen die door artikel 72 van het Wetboek der registratie-, hypotheek- en griffierechten van het evenredig recht zijn vrijgesteld
+landeigendommen b) ruilingen van landeigendommen die door artikel 72 van het Wetboek der registratie-, hypotheek- en griffierechten van het evenredig recht zijn vrijgesteld
 c) overdrachten onder bezwarende titel van gronden van:
 - al dan niet ontvoogde minderjarigen als een gerechtelijke instantie daartoe
 machtiging heeft gegeven
 - personen aan wie een bewindvoerder is toegevoegd volgens de bepalingen
 
- Vak XV
-
-van het vierde deel, boek IV, hoofdstuk X van het Gerechtelijk Wetboek, door
+Vak XV van het vierde deel, boek IV, hoofdstuk X van het Gerechtelijk Wetboek, door
 een bijzondere machtiging van de vrederechter
 d) onteigeningen of overdrachten in der minne van gronden ten algemenen nutte, als
 die overdrachten kosteloos zijn geregistreerd volgens artikel 161 van het Wetboek
@@ -610,8 +551,7 @@ c) verschil A - B:
 (C) ....................
 d) maatstaf van heffing van het
 registratierecht bij de verkrijging onder bezwarende
-titel (eventueel
-door de schenker):
+titel (eventueel door de schenker):
 (D) ....................
 e) kosten van verkrijging of van
 overgang (ten minste 25 %
@@ -643,17 +583,12 @@ schenker): .....................................................................
 m) ligging van het goed: .............................................................................................
 
 7. Overdracht van in België gelegen gebouwen of zakelijke rechten op
-gebouwen
-Algemeen
-Het gaat hier om meerwaarden en verliezen die u bij een overdracht onder bezwa-
+gebouwen Algemeen Het gaat hier om meerwaarden en verliezen die u bij een overdracht onder bezwa-
 
- Vak XV
-
-rende titel hebt verwezenlijkt of geleden op in België gelegen gebouwen of op zakelijke rechten op gebouwen (behalve het recht van erfpacht, het recht van opstal of
+Vak XV rende titel hebt verwezenlijkt of geleden op in België gelegen gebouwen of op zakelijke rechten op gebouwen (behalve het recht van erfpacht, het recht van opstal of
 een gelijkaardig onroerend recht).
 
-Bijzonder geval
-Meerwaarden en verliezen op gronden waarop gebouwen zijn opgetrokken waarvan
+Bijzonder geval Meerwaarden en verliezen op gronden waarop gebouwen zijn opgetrokken waarvan
 de verkoopwaarde lager is dan 30 % van de verkoopprijs van het geheel, worden als
 meerwaarden en verliezen op gronden beschouwd. Vermeld die meerwaarden en
 verliezen dus niet in rubriek B, 7, maar wel in rubriek B, 6 (zie ook de uitleg bij die rubriek).
@@ -686,16 +621,12 @@ c) onteigeningen of overdrachten in der minne van gebouwen ten algemenen nutte,
 als die overdrachten kosteloos zijn geregistreerd volgens artikel 161 van het Wetboek der registratie-, hypotheek- en griffierechten.
 
 Ter beschikking van de belastingdienst te houden schema
-Algemeen
-Houd voor elk overgedragen gebouw of zakelijk recht uw berekening van het nettobedrag van de meerwaarde of het verlies dat u in rubriek B, 7, a of b hebt vermeld,
+Algemeen Houd voor elk overgedragen gebouw of zakelijk recht uw berekening van het nettobedrag van de meerwaarde of het verlies dat u in rubriek B, 7, a of b hebt vermeld,
 ter beschikking van de belastingdienst. Volg bij die berekening het passende schema
 hierna.
 
- Vak XV
-
-Overdracht van een (door u of door de schenker) onder bezwarende titel
-verkregen gebouw
-Het gaat hier om de gevallen bedoeld in het eerste lid, a en b van de uitleg onder de
+Vak XV Overdracht van een (door u of door de schenker) onder bezwarende titel
+verkregen gebouw Het gaat hier om de gevallen bedoeld in het eerste lid, a en b van de uitleg onder de
 titel ‘Beoogde meerwaarden en verliezen’ hiervoor.
 In die gevallen kunt u het nettobedrag van de meerwaarde of het verlies als volgt berekenen:
 a) maatstaf van heffing van het
@@ -763,9 +694,7 @@ m) data:
 schenker): .........................................................................................................
 3) van overdracht onder bezwarende titel: ............................................................
 
- Vak XV
-
-Houd de facturen van de werken bedoeld in punt h ter beschikking van de belastingdienst.
+Vak XV Houd de facturen van de werken bedoeld in punt h ter beschikking van de belastingdienst.
 
 Overdracht van een gebouw opgericht op een grond die (door u of door de
 schenker) onder bezwarende titel is verkregen
@@ -785,8 +714,7 @@ d) maatstaf van heffing van
 het registratierecht bij de
 verkrijging van de grond
 onder bezwarende titel
-(eventueel door
-de schenker):
+(eventueel door de schenker):
 (D) ..............
 e) kosten van verkrijging of
 van overgang van die
@@ -828,9 +756,7 @@ hierna zijn uitgevoerd:
 (M) ..............
 .
 
- Vak XV
-
-n) totaal K + L + M:
+Vak XV n) totaal K + L + M:
 (N) ..............
 o) vergoedingen verkregen voor
 schade aan het gebouw:
@@ -872,9 +798,7 @@ de verrichting is.
 ▲ Opgelet: als de verrichting niet is gebeurd uit zakelijke overwegingen zoals herstructurering of rationalisering van de activiteiten van de betrokken vennootschappen, kan worden vermoed dat belastingfraude of -ontwijking het hoofddoel of één
 van de hoofddoelen van de verrichting is, tenzij het tegendeel wordt bewezen.
 
- Vak XV
-
-De tijdelijke vrijstelling blijft slechts behouden als u kunt bewijzen dat de ontvangen
+Vak XV De tijdelijke vrijstelling blijft slechts behouden als u kunt bewijzen dat de ontvangen
 aandelen op 31.12.2024 nog altijd in uw bezit waren en ze niet het voorwerp zijn geweest van een gehele of gedeeltelijke terugbetaling.
 Het is aangewezen om dat bewijs bij uw aangifte te voegen.
 Als die voorwaarde niet meer vervuld is, moet u het positieve verschil tussen de werkelijke waarde van de ontvangen aandelen en de aanschaffingswaarde van de oorspronkelijke aandelen aangeven.
@@ -924,8 +848,7 @@ Voorafgaande opmerking
 De bezoldigingen moeten ook de belastingen, sociale bijdragen, persoonlijke lasten,
 enz. omvatten die de schuldenaar van de inkomsten in uw plaats heeft gedragen.
 
-a) volgens fiches
-Vermeld hier het totale bedrag dat u op uw fiche 281.20 vindt naast code 400.
+a) volgens fiches Vermeld hier het totale bedrag dat u op uw fiche 281.20 vindt naast code 400.
 
 b) die niet op een fiche zijn vermeld
 Het gaat hier om belastbare inkomsten waarvoor u geen fiche hebt ontvangen. Meer
@@ -957,11 +880,9 @@ Op uw fiche 281.20 vindt u die vergoedingen naast code 431.
 5. Vergoedingen en voordelen in het kader van het fietsplan
 Vermeld hier de in 2024 verkregen vergoedingen en voordelen in het kader van het fietsplan.
 
-a) totaal bedrag
-Vermeld hier het bedrag dat u op uw fiche 281.20 vindt naast de code 432.
+a) totaal bedrag Vermeld hier het bedrag dat u op uw fiche 281.20 vindt naast de code 432.
 
-b) vrijstelling
-Als uw beroepskosten forfaitair worden bepaald (zie de uitleg bij rubriek 12), vermeld
+b) vrijstelling Als uw beroepskosten forfaitair worden bepaald (zie de uitleg bij rubriek 12), vermeld
 dan in deze rubriek het vrijgestelde bedrag van de verkregen vergoedingen en voordelen in het kader van het fietsplan.
 U bepaalt het vrijgestelde bedrag door de hierna bepaalde bedragen op te tellen:
 1) het in vak 11, rubriek a van uw fiche 281.20 vermelde bedrag van de vergoedingen toegekend voor de werkelijk gedane woon-werkverplaatsingen met een rijwiel, een gemotoriseerd rijwiel of een speed pedelec zoals gedefinieerd in het
@@ -986,29 +907,22 @@ het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt o
  Vak XVI
 
 7. Voor vrijstelling in aanmerking komende bezoldigingen voor vrijwillige
-overuren
-a) gepresteerd in 2024 in het kader van de relance
-1) bezoldigingen
-Vermeld hier de in 2024 betaalde of toegekende bezoldigingen voor uw in a bedoelde vrijwillige overuren.
+overuren a) gepresteerd in 2024 in het kader van de relance
+1) bezoldigingen Vermeld hier de in 2024 betaalde of toegekende bezoldigingen voor uw in a bedoelde vrijwillige overuren.
 Op uw fiche 281.20 zijn die bezoldigingen gemerkt met code 438.
-2) overuren
-Vermeld hier het aantal overuren dat u voor die bezoldigingen hebt gepresteerd.
+2) overuren Vermeld hier het aantal overuren dat u voor die bezoldigingen hebt gepresteerd.
 Op uw fiche 281.20 is dat aantal gemerkt met code 439.
 
 b) Gepresteerd van 1.7 tot en met 31.12.2023 in het kader van de relance
-1) bezoldigingen
-Vermeld hier de in 2024 betaalde of toegekende bezoldigingen voor uw in b bedoelde vrijwillige overuren.
+1) bezoldigingen Vermeld hier de in 2024 betaalde of toegekende bezoldigingen voor uw in b bedoelde vrijwillige overuren.
 Op uw fiche 281.20 zijn die bezoldigingen gemerkt met code 425.
-2) overuren
-Vermeld hier het aantal overuren dat u voor die bezoldigingen hebt gepresteerd.
+2) overuren Vermeld hier het aantal overuren dat u voor die bezoldigingen hebt gepresteerd.
 Op uw fiche 281.20 is dat aantal gemerkt met code 426.
 
 c) gepresteerd in 2022 in het kader van de relance
-1) bezoldigingen
-Vermeld hier de in 2024 betaalde of toegekende bezoldigingen voor uw in c bedoelde vrijwillige overuren.
+1) bezoldigingen Vermeld hier de in 2024 betaalde of toegekende bezoldigingen voor uw in c bedoelde vrijwillige overuren.
 Op uw fiche 281.20 zijn die bezoldigingen gemerkt met code 423.
-2) overuren
-Vermeld hier het aantal overuren dat u voor die bezoldigingen hebt gepresteerd.
+2) overuren Vermeld hier het aantal overuren dat u voor die bezoldigingen hebt gepresteerd.
 Op uw fiche 281.20 is dat aantal gemerkt met code 424.
 
 8. Voor vrijstelling in aanmerking komende koopkrachtpremie
@@ -1016,8 +930,7 @@ Vermeld hier het totale bedrag van de voor vrijstelling in aanmerking komende ko
 Op uw fiche(s) 281.20 vindt u die premies naast code 429.
 
 9. Tegen 33 % belastbare bezoldigingen van gelegenheidswerknemers in de
-horeca
-Vermeld hier de als bezoldigingen van bedrijfsleiders te beschouwen bezoldigingen die u
+horeca Vermeld hier de als bezoldigingen van bedrijfsleiders te beschouwen bezoldigingen die u
 als gelegenheidswerknemer in de horecasector in 2024 zijn betaald of toegekend en die
 afzonderlijk belastbaar zijn tegen 33 %.
 Op uw fiche 281.20 vindt u die bezoldigingen naast code 422.
@@ -1030,9 +943,7 @@ de huisartsengeneeskunde en tot vaststelling van de werkingsregels ervan, die u 
 erkend huisarts in 2024 hebt verkregen om u te vestigen in een zogenaamde ‘prioritaire’
 zone, d.w.z. een zone waar nood is aan extra huisartsen.
 
- Vak XVI
-
-Op uw fiche 281.20 vindt u die premie naast code 428.
+Vak XVI Op uw fiche 281.20 vindt u die premie naast code 428.
 
 11. Niet ingehouden persoonlijke sociale bijdragen
 Vermeld hier het bedrag van de persoonlijke bijdragen die niet op uw bezoldigingen zijn
@@ -1191,60 +1102,42 @@ invullen (als u in dat geval bent en u geen zo’n blad hebt ontvangen, kunt u e
 Het is aangewezen om dat berekeningsblad bij uw aangifte te voegen.
 
 1. Brutowinst van de eigenlijke exploitatie
-Algemeen
-Het gaat hier om het brutoresultaat, d.w.z. het resultaat na aftrek van de aankoopprijs
+Algemeen Het gaat hier om het brutoresultaat, d.w.z. het resultaat na aftrek van de aankoopprijs
 van de verkochte handelsgoederen en van de grondstoffen, maar vóór aftrek van de andere beroepskosten, dat rechtstreeks voortvloeit uit de eigenlijke uitoefening van uw beroep.
 De andere winstbestanddelen, zoals de voorheen vrijgestelde winst die belastbaar
 wordt, de financiële opbrengsten, de meerwaarden, de winst die overeenstemt met de
 voorheen afgetrokken kosten van overdracht van bepaalde activa en bepaalde vergoedingen, moet u vermelden in de rubrieken 2 tot 6.
 
-Voordelen
-In rubriek 1 moet u ook de voordelen van alle aard vermelden die u uit hoofde of ter gelegenheid van de uitoefening van uw beroep hebt verkregen.
+Voordelen In rubriek 1 moet u ook de voordelen van alle aard vermelden die u uit hoofde of ter gelegenheid van de uitoefening van uw beroep hebt verkregen.
 
  Vak XVII
 
 2. Voorheen vrijgestelde winst die belastbaar wordt (behalve meerwaarden)
 Het gaat hier onder meer om:
-•
-
-het gedeelte van de winst dat voor een vorig aanslagjaar is vrijgesteld voor de aanwerving van personeel (zie onder meer de uitleg bij rubriek 11 en rubriek 12) en dat
+• het gedeelte van de winst dat voor een vorig aanslagjaar is vrijgesteld voor de aanwerving van personeel (zie onder meer de uitleg bij rubriek 11 en rubriek 12) en dat
 nu volledig of gedeeltelijk belastbaar wordt door een vermindering van het personeel
 of door het ontbreken van de vereiste opgaven en stukken (de totale terugneming
 mag nooit meer bedragen dan het gedeelte van de winst dat voorheen werkelijk is
-vrijgesteld)
-
-•
-
-de vrijstelling voor sociaal passief ingevolge het eenheidsstatuut (zie de uitleg bij rubriek 14) die u voor de aanslagjaren 2020, 2021, 2022, 2023 en/of 2024 hebt verkregen voor werknemers die de onderneming in 2024 – om welke reden ook (pensionering, ontslag, vrijwillig vertrek, overlijden, stopzetting van de onderneming, enz.) –
+vrijgesteld) • de vrijstelling voor sociaal passief ingevolge het eenheidsstatuut (zie de uitleg bij rubriek 14) die u voor de aanslagjaren 2020, 2021, 2022, 2023 en/of 2024 hebt verkregen voor werknemers die de onderneming in 2024 – om welke reden ook (pensionering, ontslag, vrijwillig vertrek, overlijden, stopzetting van de onderneming, enz.) –
 hebben verlaten (de totale terugneming mag nooit meer bedragen dan de vrijstelling
 die u voor die werknemers werkelijk hebt verkregen)
 
-•
-
-de kapitaal- en interestsubsidies die de bevoegde gewestelijke instellingen als steun
+• de kapitaal- en interestsubsidies die de bevoegde gewestelijke instellingen als steun
 aan de landbouw hebben betaald en die voor een vorig aanslagjaar zijn vrijgesteld
 (zie de uitleg bij rubriek 6, ‘Opgelet’), maar die voor aanslagjaar 2025 belastbaar worden doordat u de activa waarop die subsidies slaan, tijdens de eerste 3 jaar van de
 investering vrijwillig hebt overgedragen (met ‘vrijwillig’ wordt hier bedoeld: in andere
 omstandigheden dan bij een schadegeval, een onteigening, een opeising in eigendom of een andere gelijkaardige gebeurtenis)
 
-•
-
-de voor een vorig aanslagjaar tijdelijk vrijgestelde opbrengsten die voortvloeiden uit
+• de voor een vorig aanslagjaar tijdelijk vrijgestelde opbrengsten die voortvloeiden uit
 geboekte minderwaarden op passiefbestanddelen als gevolg van de vaststelling van
 een minnelijk akkoord of de homologatie van een reorganisatieplan (zie de uitleg bij
 rubriek 10) en die nu belastbaar worden doordat de voorwaarden niet meer worden
-nageleefd
-
-•
-
-De voor een vorig aanslagjaar vrijgestelde opbrengsten die voortvloeiden uit geboekte minderwaarden op passiefbestanddelen als gevolg van de vaststelling van
+nageleefd • De voor een vorig aanslagjaar vrijgestelde opbrengsten die voortvloeiden uit geboekte minderwaarden op passiefbestanddelen als gevolg van de vaststelling van
 een minnelijk akkoord of de homologatie van een reorganisatieplan (zie de uitleg bij
 rubriek 10) en dat nu belastbaar wordt door een gehele of gedeeltelijke herleving van
 een kwijtgescholden schuld die heeft plaatsgevonden vanaf 8.1.2024
 
-•
-
-de voorheen vrijgestelde voorziening voor sociaal passief die tot en met aanslagjaar
+• de voorheen vrijgestelde voorziening voor sociaal passief die tot en met aanslagjaar
 1990 is aangelegd volgens het (ondertussen opgeheven) art. 23, § 2, van het Wetboek van de inkomstenbelastingen, en die nu volledig of gedeeltelijk belastbaar wordt
 door een voorafneming op of een overdracht van de voorziening voor sociaal passief
 (de totale terugneming mag nooit meer bedragen dan het gedeelte van de winst dat
@@ -1259,9 +1152,7 @@ voor ontbrekende coupon of ontbrekend lot van in uw bedrijf belegde financiële 
 in de mate dat zij niet van de personenbelasting zijn vrijgesteld.
 U moet die opbrengsten nog verhogen met:
 
- Vak XVII
-
-a) de erop ingehouden kosten van inning, bewaring, enz.
+Vak XVII a) de erop ingehouden kosten van inning, bewaring, enz.
 b) de verrekenbare roerende voorheffing (zie de uitleg bij vak XIX, rubriek 1)
 c) het forfaitair gedeelte van de buitenlandse belasting (zie de uitleg bij vak XIX,
 rubriek 2).
@@ -1269,26 +1160,19 @@ De kosten bedoeld onder punt a hierboven mag u anderzijds ook opnemen in uw bero
 
 4. Meerwaarden (na aftrek van werkelijke kosten van overdracht als u kiest
 voor de aftrek van uw werkelijke beroepskosten)
-Algemeen
-Vermeld hier de belastbare meerwaarden die u tijdens de uitoefening van uw beroep
+Algemeen Vermeld hier de belastbare meerwaarden die u tijdens de uitoefening van uw beroep
 hebt verwezenlijkt op activa die u voor uw beroep hebt gebruikt (meerwaarden behaald
 bij de stopzetting van uw beroepswerkzaamheid moet u vermelden in vak XXI).
 ▲ Opgelet!
-•
-
-Als u kiest voor de aftrek van uw werkelijke beroepskosten (zie de uitleg bij
+• Als u kiest voor de aftrek van uw werkelijke beroepskosten (zie de uitleg bij
 rubriek 8), moet u het bedrag van de meerwaarden vermelden na aftrek van de
 kosten van overdracht die u voor aanslagjaar 2025 onder uw werkelijke beroepskosten opneemt (in rubriek 8, a) en die welke u (eventueel) al in een vorig aanslagjaar als werkelijke beroepskosten hebt afgetrokken.
 
-•
-
-Als u daarentegen voor de aftrek van het wettelijk kostenforfait kiest (en rubriek 8
+• Als u daarentegen voor de aftrek van het wettelijk kostenforfait kiest (en rubriek 8
 dus niet invult), mag u van het bedrag van de meerwaarden geen kosten van
 overdracht aftrekken.
 
-•
-
-Meerwaarden op gronden van land- en tuinbouwondernemingen moet u niet vermelden in vak XVII maar, eventueel, in vak XV, rubriek B, 6 (zie ook de uitleg bij
+• Meerwaarden op gronden van land- en tuinbouwondernemingen moet u niet vermelden in vak XVII maar, eventueel, in vak XV, rubriek B, 6 (zie ook de uitleg bij
 die rubriek).
 
 Meerwaarden op voertuigen gebruikt voor bezoldigd personenvervoer en
@@ -1299,9 +1183,7 @@ een maximum toegelaten massa van minstens 4 ton, kunnen onder bepaalde voorwaard
 Dat geldt ook voor uw vrijwillig verwezenlijkte meerwaarden op zulke voertuigen als die
 voertuigen bij hun overdracht al meer dan 3 jaar de aard hadden van vaste activa.
 Om die vrijstelling te verkrijgen en te behouden:
-•
-
-moet u een bedrag gelijk aan de verkregen schadevergoeding (gedwongen meerwaarden) of de verkoopwaarde (vrijwillig verwezenlijkte meerwaarden) herbeleggen
+• moet u een bedrag gelijk aan de verkregen schadevergoeding (gedwongen meerwaarden) of de verkoopwaarde (vrijwillig verwezenlijkte meerwaarden) herbeleggen
 in hierboven vermelde bedrijfsvoertuigen die beantwoorden aan de ecologische normen bepaald in artikel 20 van het koninklijk besluit tot uitvoering van het Wetboek van
 de inkomstenbelastingen 1992 en die u in België voor het uitoefenen van uw beroepswerkzaamheid gebruikt.
 Die herbelegging moet gebeuren:
@@ -1310,9 +1192,7 @@ tijdperk waarin u de schadevergoeding hebt ontvangen,
 - voor vrijwillig verwezenlijkte meerwaarden: binnen de 2 jaar vanaf 1 januari van
 het kalenderjaar waarin u de meerwaarde hebt verwezenlijkt,
 
- Vak XVII
-
-en uiterlijk bij de stopzetting van uw beroepswerkzaamheid.
+Vak XVII en uiterlijk bij de stopzetting van uw beroepswerkzaamheid.
 • is het aangewezen om tot het belastbare tijdperk waarin de herbeleggingstermijn verstrijkt, een opgave 276 N bij uw aangifte te voegen. Houd de door de constructeur, de
 invoerder of de installateur uitgereikte bewijsstukken van de overeenstemming met
 de bovenbedoelde ecologische normen ter beschikking van de belastingdienst.
@@ -1342,17 +1222,13 @@ tijdperk waarin u de schadevergoeding hebt ontvangen,
 van het belastbare tijdperk waarin u de meerwaarde hebt verwezenlijkt, of vanaf
 de eerste dag van het voorlaatste belastbare tijdperk vóór dat waarin u de meerwaarde hebt verwezenlijkt,
 en uiterlijk bij de stopzetting van uw beroepswerkzaamheid.
-•
-
-is het aangewezen om tot het belastbare tijdperk waarin de herbeleggingstermijn verstrijkt,
+• is het aangewezen om tot het belastbare tijdperk waarin de herbeleggingstermijn verstrijkt,
 een opgave 276 P bij uw aangifte te voegen. Houd het (de) in artikel 21, § 3, van bovenvermeld koninklijk besluit vermelde bewijsstuk(ken) van de overeenstemming met de ecologische normen ter beschikking van de belastingdienst.
 
 ▲ Opgelet: meerwaarden waarvoor u in het belastbare tijdperk van hun verwezenlijking
 vrijstelling hebt gevraagd en waarvoor de herbeleggingstermijn in 2024 is verstreken
 
- Vak XVII
-
-zonder dat u de passende herbeleggingen hebt gedaan, moet u in rubriek 4 vermelden. Zij komen niet meer in aanmerking voor de gespreide belasting (zie hierna).
+Vak XVII zonder dat u de passende herbeleggingen hebt gedaan, moet u in rubriek 4 vermelden. Zij komen niet meer in aanmerking voor de gespreide belasting (zie hierna).
 
 Gespreide belasting van meerwaarden
 Gedwongen meerwaarden op immateriële of materiële vaste activa en vrijwillig verwezenlijkte meerwaarden op zulke activa die bij de overdracht al meer dan 5 jaar de aard
@@ -1365,15 +1241,9 @@ belastbaar.
 
 Afzonderlijk belastbare meerwaarden
 Verwezenlijkte meerwaarden zijn afzonderlijk belastbaar als zij slaan op:
-•
-
-sedert meer dan 5 jaar voor het uitoefenen van de beroepswerkzaamheid gebruikte
+• sedert meer dan 5 jaar voor het uitoefenen van de beroepswerkzaamheid gebruikte
 materiële of financiële vaste activa, waarvoor u niet voor de gespreide belasting hebt
-gekozen
-
-•
-
-andere aandelen die sedert meer dan 5 jaar zijn verworven.
+gekozen • andere aandelen die sedert meer dan 5 jaar zijn verworven.
 
 Verwezenlijkte meerwaarden op sedert meer dan 5 jaar gebruikte financiële vaste activa
 of andere aandelen zijn echter gezamenlijk belastbaar in de mate dat zij overeenstemmen met een voorheen aangenomen minderwaarde (waarvan de recuperatie nog niet is
@@ -1400,9 +1270,7 @@ niet invult), moet u hier niets invullen.
 Hier moet u onder meer de vergoedingen vermelden die u tijdens de uitoefening van uw
 beroepswerkzaamheid hebt verkregen ter compensatie of naar aanleiding van een handeling die een vermindering van de werkzaamheid of van de winst van uw onderneming
 
- Vak XVII
-
-tot gevolg kan hebben (het gaat onder meer om vergoedingen die een handelaar verkrijgt door een overeenkomst waarbij hij zich heeft verbonden om de werkzaamheid van
+Vak XVII tot gevolg kan hebben (het gaat onder meer om vergoedingen die een handelaar verkrijgt door een overeenkomst waarbij hij zich heeft verbonden om de werkzaamheid van
 zijn onderneming volledig of gedeeltelijk te verminderen of te beperken, bv. door gedurende een bepaalde tijd af te zien van de fabricatie of de verkoop van een bepaald product).
 Die vergoedingen zijn afzonderlijk belastbaar in de mate dat zij niet meer bedragen dan
 de belastbare nettowinst die u in de 4 jaren voor het jaar van de vermindering van uw
@@ -1438,9 +1306,7 @@ slachtoffer zijn van hinder door openbare werken
 • de kapitaal- en interestsubsidies die de bevoegde gewestelijke instellingen, rekening houdend met de Europese reglementering over staatssteun, hebben betaald
 aan landbouwers voor de vestiging en/of voor het aanschaffen of het tot stand
 
- Vak XVII
-
-brengen van immateriële of materiële vaste activa.
+Vak XVII brengen van immateriële of materiële vaste activa.
 Als u één van die vaste activa tijdens de eerste 3 jaar van de investering vrijwillig
 overdraagt, verliest u de vrijstelling voor dat actief vanaf het belastbare tijdperk
 waarin de overdracht plaatsvindt en moet u de vrijgestelde winst bovendien als
@@ -1476,9 +1342,7 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak XVII
-
-a) kosten van overdracht van activa waarop u in het belastbare tijdperk een
+Vak XVII a) kosten van overdracht van activa waarop u in het belastbare tijdperk een
 (al dan niet belastbare) meerwaarde hebt verwezenlijkt
 Vermeld hier het bedrag van de in het belastbare tijdperk gedane of gedragen kosten
 voor de overdracht van activa die u voor de uitoefening van uw beroepswerkzaamheid hebt gebruikt en waarop u tijdens datzelfde belastbare tijdperk een meerwaarde
@@ -1492,8 +1356,7 @@ op uitkeringen in een verplichte regeling voor pensioenen, kinderbijslagen en
 ziekte- en invaliditeitsverzekering die minstens gelijkwaardig zijn aan die van het
 sociaal statuut van de zelfstandigen,
 • in 2024 geen uitkering van de sociale zekerheid heeft genoten die zulke eigen
-rechten opent, en
-• in 2024 onderworpen was aan het (volledig) sociaal statuut van de zelfstandigen
+rechten opent, en • in 2024 onderworpen was aan het (volledig) sociaal statuut van de zelfstandigen
 (vrijwillig of verplicht).
 Het bedrag van de toegekende bezoldigingen moet overeenstemmen met de normale bezoldiging van de prestaties die uw meewerkende echtgenoot of partner heeft
 geleverd, maar mag niet meer bedragen dan 30 % van het nettobedrag (vóór aftrek
@@ -1504,9 +1367,7 @@ van uw inkomsten.
 ▲ Opgelet!
 • Uw meewerkende echtgenoot of wettelijk samenwonende partner moet de bezoldigingen die u in rubriek 8, b als beroepskosten aftrekt, zelf ook vermelden
 in vak XX, rubriek 1.
-•
-
-U mag geen toekenningen aan uw meewerkende echtgenoot of wettelijk samenwonende partner in rubriek 8 vermelden als uw echtgenoot of partner:
+• U mag geen toekenningen aan uw meewerkende echtgenoot of wettelijk samenwonende partner in rubriek 8 vermelden als uw echtgenoot of partner:
 -
 
 in 2024 een afzonderlijke beroepsactiviteit heeft uitgeoefend die rechten
@@ -1524,19 +1385,14 @@ geboren is vóór 1956 en in 2024 geen bovenvermelde activiteit heeft uitgeoefen
 In die gevallen mag u de toekenningen aan uw meewerkende echtgenoot of
 wettelijk samenwonende partner echter vermelden in rubriek 16 onder de
 
- Vak XVII
-
-voorwaarden en binnen de grenzen die daarvoor gelden(zie de uitleg bij die
+Vak XVII voorwaarden en binnen de grenzen die daarvoor gelden(zie de uitleg bij die
 rubriek).
-•
-
-De beroepskosten die eigen zijn aan uw meewerkende echtgenoot of wettelijk
+• De beroepskosten die eigen zijn aan uw meewerkende echtgenoot of wettelijk
 samenwonende partner aan wie u in rubriek 8, b vermelde bezoldigingen hebt
 toegekend, mag u niet onder uw beroepskosten (rubriek 8) opnemen (zie echter ook de uitleg bij vak XX, rubriek 2 en rubriek 3).
 
 c) andere dan die vermeld onder a en b
-Algemeen
-Vermeld hier het bedrag van uw andere aftrekbare beroepskosten dan die bedoeld in
+Algemeen Vermeld hier het bedrag van uw andere aftrekbare beroepskosten dan die bedoeld in
 de rubrieken 7 en 8, a en b.
 Het is aangewezen om het detail van die kosten op te nemen in een bijlage bij uw
 aangifte.
@@ -1558,9 +1414,7 @@ u voor één of meer van die vergoedingen niet beschikt over een volgens de toep
 voor de levering van met die vergoedingen verbonden goederen of diensten door
 een belastingplichtige gevestigd op het grondgebied van de Gemeenschap in de
 zin van artikel 1, § 2, 2°, van het Wetboek van de btw, in Noorwegen, IJsland of
-Liechtenstein,
-
-dan moet u:
+Liechtenstein, dan moet u:
 -
 
 ook vak XIII, rubriek E van de voorbereiding van de aangifte invullen
@@ -1581,9 +1435,7 @@ gebeurtenissen waarschijnlijk zijn.
 Het is aangewezen om de staat 204.3 bij uw aangifte te voegen.
 Ook de in uw aangegeven winst begrepen waardeverminderingen en voorzieningen op
 
- Vak XVII
-
-schuldvorderingen op medecontractanten als gevolg van de vaststelling van een minnelijk akkoord of van de homologatie van een reorganisatieplan die volgens artikel 48,
+Vak XVII schuldvorderingen op medecontractanten als gevolg van de vaststelling van een minnelijk akkoord of van de homologatie van een reorganisatieplan die volgens artikel 48,
 tweede lid, WIB 92 zijn vrijgesteld, mag u hier vermelden.
 
 10. Vrijstelling van opbrengsten geboekt als gevolg van de vaststelling van
@@ -1612,16 +1464,12 @@ diensthoofd voor de uitvoer
 diensthoofd van de afdeling Integrale kwaliteitszorg.
 
 ▲ Opgelet!
-•
-
-Het is aangewezen om voor elk belastbaar tijdperk waarvoor u de toekenning of
+• Het is aangewezen om voor elk belastbaar tijdperk waarvoor u de toekenning of
 het behoud van de vrijstelling vraagt, de in artikel 46 van het koninklijk besluit tot
 uitvoering van het Wetboek van de inkomstenbelastingen 1992 bedoelde stukken
 bij uw aangifte te voegen.
 
-•
-
-Als u een personeelslid nadien niet meer voor de hierboven vermelde betrekkingen tewerkstelt, wordt het vrijgestelde bedrag waarop die persoon recht heeft gegeven, belastbaar voor het belastbare tijdperk waarin u hem of haar niet meer
+• Als u een personeelslid nadien niet meer voor de hierboven vermelde betrekkingen tewerkstelt, wordt het vrijgestelde bedrag waarop die persoon recht heeft gegeven, belastbaar voor het belastbare tijdperk waarin u hem of haar niet meer
 voor zo’n betrekking tewerkstelt en moet u dat bedrag vermelden in rubriek 2.
 
 12. Vrijstelling voor ander bijkomend personeel
@@ -1633,9 +1481,7 @@ u in 2023 binnen diezelfde loongrenzen tewerkstelde. De vrijstelling mag echter 
 meer bedragen dan 7.250 euro per bijkomende personeelseenheid van uw globale personeelsbestand van 2024 ten opzichte van uw globale personeelsbestand van 2023.
 Als u niet per kalenderjaar boekhoudt en uw boekjaar vóór 31 december afsluit, gelden
 
- Vak XVII
-
-die regels ook, maar moet u uw personeelsbestand van 2023 vergelijken met dat van
+Vak XVII die regels ook, maar moet u uw personeelsbestand van 2023 vergelijken met dat van
 2022.
 Voor het bepalen van het aantal bijkomende personeelseenheden mag u geen rekening
 houden met de personeelsaangroei die het gevolg is van een overname van werknemers die al vóór 1998 waren aangeworven door ondernemingen waarmee u zich rechtstreeks in een band van wederzijdse afhankelijkheid bevindt of waarvan u de beroepswerkzaamheid volledig of gedeeltelijk voortzet.
@@ -1648,8 +1494,7 @@ uw bovenbedoelde personeelsleden met een laag loon, het volgende vermeldt:
 (als u niet per kalenderjaar boekhoudt en uw boekjaar vóór 31 december afsluit, moet
 u het aantal dagen gepresteerd in 2022 en 2023 vermelden)
 2) het aantal werkdagen dat één personeelslid normaal tijdens elk van die jaren kan
-presteren
-3) het detail van uw berekeningen om de wijziging van het gemiddelde aantal van die
+presteren 3) het detail van uw berekeningen om de wijziging van het gemiddelde aantal van die
 personeelsleden te bepalen.
 ▲ Opgelet: het is aangewezen om die tabel ook toe te voegen als u de ‘vrijstelling voor
 ander bijkomend personeel’ hebt gevraagd voor aanslagjaar 2024. Als uw gemiddelde personeelsbestand van het jaar 2024 is verminderd ten opzichte van het
@@ -1664,33 +1509,22 @@ van een alternerende opleiding) van jongeren voor wie u in 2024 een stagebonus h
 verkregen als bedoeld in artikel 58 van de wet van 23.12.2005 betreffende het generatiepact.
 ▲ Opgelet: voor de toepassing van deze vrijstelling worden met een bovenbedoelde
 stagebonus gelijkgesteld:
-•
+• de premie kwalificerend werkplekleren van het Vlaams Gewest
 
-de premie kwalificerend werkplekleren van het Vlaams Gewest
-
-•
-
-de financiële incentives van het Waals Gewest voor partnerbedrijven in het kader
+• de financiële incentives van het Waals Gewest voor partnerbedrijven in het kader
 van de alternerende opleiding
 
-•
-
-de mentorpremies van het Brussels Hoofdstedelijk Gewest.
+• de mentorpremies van het Brussels Hoofdstedelijk Gewest.
 
 Die vrijstelling bedraagt in principe 40 % van de als beroepskosten aftrekbare bezoldigingen (met inbegrip van de wettelijke sociale lasten, de werkgeversbijdragen
 en -premies en de andere sociale bijdragen verschuldigd door contractuele verplichtingen) voor de prestaties van een stagiair tijdens zijn praktijkopleiding in de loop van het
 
- Vak XVII
-
-opleidingsjaar waarvoor u een stagebonus hebt verkregen. Als u in 2024 een stagebonus hebt verkregen voor de tewerkstelling van een stagiair tijdens het opleidingsjaar van
+Vak XVII opleidingsjaar waarvoor u een stagebonus hebt verkregen. Als u in 2024 een stagebonus hebt verkregen voor de tewerkstelling van een stagiair tijdens het opleidingsjaar van
 1.9.2023 tot 30.6.2024 en de praktijkopleiding van die stagiair samenviel met die periode, moet u de vrijstelling dus berekenen op de bezoldigingen voor de prestaties die de
 stagiair van 1.9.2023 tot 30.6.2024 in het kader van zijn praktijkopleiding heeft geleverd.
 Om de vrijstelling te verkrijgen moet u de volgende documenten ter beschikking houden
 van de belastingdienst:
-•
-•
-
-het bewijs dat u in 2024 voor elke tewerkgestelde stagiair een stagebonus hebt verkregen
+• • het bewijs dat u in 2024 voor elke tewerkgestelde stagiair een stagebonus hebt verkregen
 een namenlijst van de tewerkgestelde stagiairs met, voor elk van hen, de vermelding
 van:
 - de volledige identiteit en eventueel het nationaal nummer
@@ -1724,9 +1558,7 @@ tot 2.600 euro (de begrensde gemiddelde bruto maandelijkse referentiebezoldiging
 4de stap: zet die begrensde maandbezoldiging om in een weekbezoldiging
 door het resultaat van de 3de stap te vermenigvuldigen met 3/13.
 
- Vak XVII
-
-5de stap: neem het aantal weken bezoldiging in aanmerking waar u recht op hebt
+Vak XVII 5de stap: neem het aantal weken bezoldiging in aanmerking waar u recht op hebt
 Het aantal weken bezoldiging waar u recht op hebt, bedraagt:
 - 3: van het 6de tot het 20ste dienstjaar van de werknemer na 1.1.2014
 - 1: vanaf het 21ste dienstjaar van de werknemer na 1.1.2014
@@ -1760,18 +1592,14 @@ belastbaar tijdperk van zijn of haar vertrek.
 15. Investeringsaftrek
 De investeringsaftrek wordt toegestaan voor uw investeringen in bepaalde nieuwe materiële of immateriële vaste activa die u in België uitsluitend voor uw beroepswerkzaamheid gebruikt.
 Voor investeringen gedaan in 2024 of in 2023 (tijdens een boekjaar 2023-2024) bedraagt de eenmalige investeringsaftrek:
-•
-
-22,5 % van de aanschaffings- of beleggingswaarde voor investeringen in materiële
+• 22,5 % van de aanschaffings- of beleggingswaarde voor investeringen in materiële
 vaste activa voor de beveiliging van beroepslokalen en hun inhoud en van voertuigen
 gebruikt voor bezoldigd personenvervoer en voor goederenvervoer.
 Onder ‘voertuigen gebruikt voor bezoldigd personenvervoer en voor goederenvervoer’ moet hier worden verstaan: de voertuigen opgesomd in het eerste lid van de
 uitleg bij rubriek 4, onder de titel ‘Meerwaarden op voertuigen gebruikt voor bezoldigd
 personenvervoer en voor goederenvervoer’
 
-•
-
-15,5 % van de aanschaffings- of beleggingswaarde voor:
+• 15,5 % van de aanschaffings- of beleggingswaarde voor:
 
  Vak XVII
 
@@ -1799,16 +1627,12 @@ Onder ‘digitale investeringen’ wordt verstaan: investeringen in digitale vas
 toepassing als u voor aanslagjaar 2025 voldoet aan de criteria van artikel
 1:24, § 1 tot § 6, van het Wetboek van vennootschappen en verenigingen.
 
-•
-
-8 % van de aanschaffings- of beleggingswaarde voor andere investeringen.
+• 8 % van de aanschaffings- of beleggingswaarde voor andere investeringen.
 
 Voor investeringen in koolstofemissievrije vrachtwagens, tankinfrastructuur voor blauwe,
 groene of turquoise waterstof en elektrische laadinfrastructuur voor koolstofemissievrije
 vrachtwagens bedraagt de eenmalige investeringsaftrek:
-•
-
-37 % van de aanschaffings- of beleggingswaarde voor investeringen gedaan in 2023
+• 37 % van de aanschaffings- of beleggingswaarde voor investeringen gedaan in 2023
 (in een boekjaar 2023-2024)
 • 31,5 % van de aanschaffings- of beleggingswaarde voor investeringen gedaan in
 2024.
@@ -1821,41 +1645,26 @@ u minder dan 20 personen tewerkstelt. In dat geval is de gespreide aftrek gelijk
 Het is aangewezen om bij uw aangifte een opgave 276 U te voegen.
 
 16. Toekenning aan uw meewerkende echtgenoot of wettelijk samenwonende
-partner
-U mag deze rubriek alleen invullen als u in de uitoefening van uw beroepswerkzaamheid
+partner U mag deze rubriek alleen invullen als u in de uitoefening van uw beroepswerkzaamheid
 werkelijk wordt bijgestaan door uw echtgenoot of wettelijk samenwonende partner die:
-•
-
-in 2024 een afzonderlijke beroepswerkzaamheid heeft uitgeoefend die rechten opent
+• in 2024 een afzonderlijke beroepswerkzaamheid heeft uitgeoefend die rechten opent
 op uitkeringen in een verplichte regeling voor pensioenen, kinderbijslagen en ziekteen invaliditeitsverzekering, die minstens gelijkwaardig zijn aan die van het sociaal statuut van de zelfstandigen,
 
-•
-
-in 2024 een uitkering heeft genoten van de sociale zekerheid die zulke eigen rechten
-opent, of
-
-•
-
-geboren is vóór 1956 en in 2024 geen bovenvermelde activiteit heeft uitgeoefend en
+• in 2024 een uitkering heeft genoten van de sociale zekerheid die zulke eigen rechten
+opent, of • geboren is vóór 1956 en in 2024 geen bovenvermelde activiteit heeft uitgeoefend en
 geen bovenvermelde uitkering heeft genoten en zich niet vrijwillig aan het (volledig)
 sociaal statuut van de zelfstandigen heeft onderworpen.
 
 ▲ Opgelet: u mag deze rubriek echter niet invullen:
-•
-
-als u en uw echtgenoot of wettelijk samenwonende partner apart worden belast
+• als u en uw echtgenoot of wettelijk samenwonende partner apart worden belast
 (zie ook de algemene inlichtingen over gehuwden en wettelijk samenwonenden in
 de toelichting bij deel 1). Voor het jaar waarin één van de echtgenoten of wettelijk
 
- Vak XVII
-
-samenwonenden is overleden mag deze rubriek dus alleen worden ingevuld als er
+Vak XVII samenwonenden is overleden mag deze rubriek dus alleen worden ingevuld als er
 voor één gemeenschappelijke aanslag wordt gekozen (zie ook de uitleg bij vak II,
 A, 1, ‘Uw echtgenoot of wettelijk samenwonende partner is overleden in 2024’ en
 bij vak II, A, 2, ‘Deze aangifte gaat over een belastingplichtige die in 2024 overleden is’ in de toelichting bij deel 1).
-•
-
-als uw meewerkende echtgenoot of wettelijk samenwonende partner in 2024 geen
+• als uw meewerkende echtgenoot of wettelijk samenwonende partner in 2024 geen
 afzonderlijke activiteit heeft uitgeoefend die rechten opent op uitkeringen in een
 verplichte regeling voor pensioenen, kinderbijslagen en ziekte- en invaliditeitsverzekering die minstens gelijkwaardig zijn aan die van het sociaal statuut van de
 zelfstandigen, noch een uitkering heeft genoten van de sociale zekerheid die zulke
@@ -1896,8 +1705,7 @@ het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt o
 18. Als u in vak IV, D, 1, a, 1, a, 1; D, 1, a, 1, c, 1 of D, 1, a, 2 aanvullende vergoedingen of in vak IV, E, 2, a, 1 of E, 2, b, 1 een bedrijfstoeslag hebt ingevuld, en u na uw ontslag bij uw gewezen werkgever, het werk hebt hervat
 als zelfstandige, vermeld dan hier het totaal van de in de rubrieken 1, 2, 3,
 4, b, 5 en 6, d hierboven vermelde inkomsten uit die nieuwe zelfstandige
-activiteit
-U moet deze rubriek alleen invullen als u aanvullende vergoedingen hebt vermeld in
+activiteit U moet deze rubriek alleen invullen als u aanvullende vergoedingen hebt vermeld in
 vak IV, rubriek D, 1, a, 1, a, 1; D, 1, a, 1, c, 1 of D, 1, a, 2 (a, b of c) of een bedrijfstoeslag in vak IV, rubriek E, 2, a, 1 of E, 2, b, 1 van deel 1.
 
 ## Vak XVIII - BATEN VAN VRIJE BEROEPEN, AMBTEN, POSTEN OF ANDERE WINSTGEVENDE BEZIGHEDEN
@@ -1933,9 +1741,7 @@ artistiek-technische en een artistiek-ondersteunende prestatie. Een artistieke b
 beschouwd als noodzakelijk wanneer zonder deze bijdrage hetzelfde artistieke resultaat niet
 zou worden bereikt.
 
- Vak XVIII
-
-Als de voorwaarden om vrijgesteld te worden niet voldaan zijn en u behaalt die vergoedingen, inclusief de behorende terugbetaling van de werkelijke verplaatsingskosten, in de uitoefening van uw beroepswerkzaamheid als zelfstandige dan vormen die vergoedingen belastbare baten.
+Vak XVIII Als de voorwaarden om vrijgesteld te worden niet voldaan zijn en u behaalt die vergoedingen, inclusief de behorende terugbetaling van de werkelijke verplaatsingskosten, in de uitoefening van uw beroepswerkzaamheid als zelfstandige dan vormen die vergoedingen belastbare baten.
 
 1. Ontvangsten uit de uitoefening van het beroep (andere dan die bedoeld in
 de rubrieken 2 tot 4)
@@ -1961,17 +1767,13 @@ evenredige deel van die baten dat de vergoeding van 12 maanden prestaties overtr
 
 5. Voorheen vrijgestelde baten die belastbaar worden (behalve meerwaarden)
 Het gaat hier om:
-•
-
-het gedeelte van de baten dat voor aanslagjaar 2024 is vrijgesteld voor de aanwerving van bijkomend personeel en dat nu volledig of gedeeltelijk belastbaar wordt door
+• het gedeelte van de baten dat voor aanslagjaar 2024 is vrijgesteld voor de aanwerving van bijkomend personeel en dat nu volledig of gedeeltelijk belastbaar wordt door
 een vermindering van het personeel (zie ook de uitleg bij rubriek 11).
 De terugname bedraagt in principe 7.250 euro per eenheid waarmee uw gemiddelde
 globale personeelsbestand in 2024 is verminderd, maar mag niet meer bedragen dan
 het gedeelte van uw baten dat voor aanslagjaar 2024 werkelijk is vrijgesteld
 
-•
-
-de vrijstelling voor sociaal passief ingevolge het eenheidsstatuut (zie de uitleg bij rubriek 13) die u voor de aanslagjaren 2020, 2021, 2022, 2023 en/of 2024 hebt verkregen voor werknemers die in 2024 – om welke reden ook (pensionering, ontslag, vrijwillig vertrek, overlijden, stopzetting van uw beroepswerkzaamheid, enz.) – bij u uit
+• de vrijstelling voor sociaal passief ingevolge het eenheidsstatuut (zie de uitleg bij rubriek 13) die u voor de aanslagjaren 2020, 2021, 2022, 2023 en/of 2024 hebt verkregen voor werknemers die in 2024 – om welke reden ook (pensionering, ontslag, vrijwillig vertrek, overlijden, stopzetting van uw beroepswerkzaamheid, enz.) – bij u uit
 dienst zijn getreden (de totale terugneming mag nooit meer bedragen dan de vrijstelling die u voor die werknemers werkelijk hebt verkregen).
 
 ▲ Opgelet: meerwaarden die geheel of gedeeltelijk belastbaar worden, moet u vermelden in rubriek 6.
@@ -1980,19 +1782,14 @@ dienst zijn getreden (de totale terugneming mag nooit meer bedragen dan de vrijs
 
 6. Meerwaarden (na aftrek van werkelijke kosten van overdracht als u kiest
 voor de aftrek van uw werkelijke beroepskosten)
-Algemeen
-Vermeld hier de belastbare meerwaarden die u tijdens de uitoefening van uw beroep
+Algemeen Vermeld hier de belastbare meerwaarden die u tijdens de uitoefening van uw beroep
 hebt verwezenlijkt op activa die u voor uw beroep hebt gebruikt (meerwaarden behaald
 bij de stopzetting van uw beroepswerkzaamheid moet u vermelden in vak XXI).
 ▲ Opgelet!
-•
-
-Als u kiest voor de aftrek van uw werkelijke beroepskosten (zie de uitleg bij rubriek 10), moet u het bedrag van de meerwaarden vermelden na aftrek van de
+• Als u kiest voor de aftrek van uw werkelijke beroepskosten (zie de uitleg bij rubriek 10), moet u het bedrag van de meerwaarden vermelden na aftrek van de
 kosten van overdracht die u voor aanslagjaar 2025 onder uw werkelijke beroepskosten opneemt (in rubriek 10, a) en die welke u (eventueel) al in een vorig aanslagjaar als werkelijke beroepskosten hebt afgetrokken.
 
-•
-
-Als u daarentegen voor de aftrek van het wettelijk kostenforfait kiest (en rubriek 10
+• Als u daarentegen voor de aftrek van het wettelijk kostenforfait kiest (en rubriek 10
 dus niet invult), mag u van het bedrag van de meerwaarden geen kosten van
 overdracht aftrekken.
 
@@ -2023,9 +1820,7 @@ activa waarop u de meerwaarde hebt verwezenlijkt en die u in een vorig aanslagja
 als werkelijke beroepskosten hebt afgetrokken.
 ▲ Opgelet: dat geldt ook voor verwezenlijkte meerwaarden die vrijgesteld zijn.
 
- Vak XVIII
-
-Als u daarentegen voor de aftrek van het wettelijk kostenforfait kiest (en rubriek 10 dus
+Vak XVIII Als u daarentegen voor de aftrek van het wettelijk kostenforfait kiest (en rubriek 10 dus
 niet invult), moet u hier niets invullen.
 
 8. Vergoedingen en premies
@@ -2062,9 +1857,7 @@ die het slachtoffer zijn van hinder door openbare werken zijn vrijgesteld.
 9. Sociale bijdragen
 Het gaat hier onder meer om uw persoonlijke bijdragen in het kader van het sociaal statuut van de zelfstandigen.
 
- Vak XVIII
-
-Ook uw bijdrage in het kader van de financiële verantwoordelijkheid van de ziekenfondsen, mag u hier vermelden.
+Vak XVIII Ook uw bijdrage in het kader van de financiële verantwoordelijkheid van de ziekenfondsen, mag u hier vermelden.
 Dat geldt ook voor de regularisatiebijdragen die u in 2024 hebt betaald om studieperioden te laten meetellen voor de berekening van uw wettelijk pensioen.
 ▲ Opgelet: de bijdragen voor aanvullende of vrije verzekering die u aan een ziekenfonds hebt gestort om bepaalde specifieke diensten van dat fonds te kunnen verkrijgen (ziekenvervoer, openluchtkuren, gezinshulp, enz.), mag u daarentegen niet als
 sociale bijdragen (en ook niet als andere beroepskosten) vermelden, evenmin als de
@@ -2103,12 +1896,9 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak XVIII
-
-sociaal statuut van de zelfstandigen,
+Vak XVIII sociaal statuut van de zelfstandigen,
 in 2024 geen uitkering van de sociale zekerheid heeft genoten die zulke eigen
-rechten opent, en
-• in 2024 onderworpen was aan het (volledig) sociaal statuut van de zelfstandigen
+rechten opent, en • in 2024 onderworpen was aan het (volledig) sociaal statuut van de zelfstandigen
 (vrijwillig of verplicht).
 Het bedrag van de toegekende bezoldigingen moet overeenstemmen met de normale bezoldiging van de prestaties die uw meewerkende echtgenoot of partner heeft
 geleverd, maar mag niet meer bedragen dan 30 % van het nettobedrag (vóór aftrek
@@ -2134,11 +1924,8 @@ samenwonende partner aan wie u in rubriek 10, b vermelde bezoldigingen
 hebt toegekend, mag u niet onder uw sociale bijdragen (rubriek 9) of andere
 werkelijke beroepskosten (rubriek 10) opnemen (zie echter ook de uitleg bij
 vak XX, rubriek 2 en rubriek 3).
-•
-
-c) andere dan die vermeld onder a en b
-Algemeen
-Vermeld hier het bedrag van uw aftrekbare beroepskosten behalve die bedoeld in de
+• c) andere dan die vermeld onder a en b
+Algemeen Vermeld hier het bedrag van uw aftrekbare beroepskosten behalve die bedoeld in de
 rubrieken 9 en 10, a en b.
 Het is aangewezen om het detail van die kosten op te nemen in een bijlage bij uw
 aangifte.
@@ -2146,9 +1933,7 @@ aangifte.
 Uitgaven voor de huur van onroerende goederen en voor de vestiging of
 overdracht van zakelijke gebruiksrechten op onroerende goederen
 
- Vak XVIII
-
-Als:
+Vak XVIII Als:
 -
 
 uw werkelijke beroepskosten vergoedingen bevatten voor de huur van één of meer
@@ -2163,9 +1948,7 @@ u voor één of meer van die vergoedingen niet beschikt over een volgens de toep
 voor de levering van met die vergoedingen verbonden goederen of diensten door
 een belastingplichtige gevestigd op het grondgebied van de Gemeenschap in de
 zin van artikel 1, § 2, 2°, van het Wetboek van de btw, in Noorwegen, IJsland of
-Liechtenstein,
-
-dan moet u:
+Liechtenstein, dan moet u:
 -
 
 ook vak XIII, rubriek E van de voorbereiding van de aangifte invullen
@@ -2191,8 +1974,7 @@ Het is aangewezen om bij uw aangifte een tabel te voegen (liefst de tabel 276 T)
 u, zowel voor het geheel van uw personeelsleden als voor uw bovenbedoelde personeelsleden met een laag loon, het volgende vermeldt:
 1) het aantal dagen dat zij tijdens elk van de jaren 2023 en 2024 hebben gepresteerd
 2) het aantal werkdagen dat één personeelslid normaal tijdens elk van die jaren kan
-presteren
-3) het detail van uw berekeningen om de wijziging van het gemiddelde aantal van die
+presteren 3) het detail van uw berekeningen om de wijziging van het gemiddelde aantal van die
 personeelsleden te bepalen.
 ▲ Opgelet: het is aangewezen om die tabel ook toe te voegen als u de vrijstelling voor
 bijkomend personeel hebt gevraagd voor aanslagjaar 2024. Als uw gemiddelde personeelsbestand van het jaar 2024 is verminderd ten opzichte van het jaar 2023, moet
@@ -2207,18 +1989,12 @@ van een alternerende opleiding) van jongeren voor wie u in 2024 een stagebonus h
 verkregen als bedoeld in artikel 58 van de wet van 23.12.2005 betreffende het generatiepact.
 ▲ Opgelet: voor de toepassing van deze vrijstelling worden met een bovenbedoelde
 stagebonus gelijkgesteld:
-•
+• de premie kwalificerend werkplekleren van het Vlaams Gewest
 
-de premie kwalificerend werkplekleren van het Vlaams Gewest
-
-•
-
-de financiële incentives van het Waals Gewest voor partnerbedrijven in het kader
+• de financiële incentives van het Waals Gewest voor partnerbedrijven in het kader
 van de alternerende opleiding
 
-•
-
-de mentorpremies van het Brussels Hoofdstedelijk Gewest.
+• de mentorpremies van het Brussels Hoofdstedelijk Gewest.
 
 Die vrijstelling bedraagt in principe 40 % van de als beroepskosten aftrekbare bezoldigingen (met inbegrip van de wettelijke sociale lasten, de werkgeversbijdragen en -premies en
 de andere sociale bijdragen verschuldigd door contractuele verplichtingen) voor de prestaties van een stagiair tijdens zijn praktijkopleiding in de loop van het opleidingsjaar
@@ -2254,9 +2030,7 @@ werkgeversbijdragen
 ‘jaarlijks’: verkregen tijdens de referentieperiode, d.w.z. tijdens het belastbaar tijdperk, in voorkomend geval beperkt tot het aantal maanden waarin
 de werknemer voldeed aan de anciënniteitsvoorwaarde van 5 dienstjaren
 
- Vak XVIII
-
-na 1.1.2014, met dien verstande dat de maand waarin die anciënniteit
+Vak XVIII na 1.1.2014, met dien verstande dat de maand waarin die anciënniteit
 wordt bereikt voor een volle maand wordt gerekend
 -
 
@@ -2305,18 +2079,13 @@ belcotax-on-web hebt ingediend, mag u dat totaal in vak XVIII, rubriek 13 vermel
 ▲ Opgelet: de vrijstelling voor sociaal passief is maar tijdelijk: als een werknemer voor wie
 u de vrijstelling voor sociaal passief hebt verkregen, bij u uit dienst treedt (om welke reden ook: vrijwillig vertrek, ontslag, pensionering, stopzetting van uw beroepswerkzaam51
 
- Vak XVIII
-
-heid, overlijden, enz.), moet u het totale bedrag van de vrijstelling die u voor die werknemer in de jaren voor zijn of haar vertrek werkelijk hebt verkregen, in rubriek 5 vermelden
+Vak XVIII heid, overlijden, enz.), moet u het totale bedrag van de vrijstelling die u voor die werknemer in de jaren voor zijn of haar vertrek werkelijk hebt verkregen, in rubriek 5 vermelden
 in het belastbaar tijdperk van zijn of haar vertrek.
 
 14. Investeringsaftrek
 De investeringsaftrek wordt toegestaan voor uw investeringen in bepaalde nieuwe materiële of immateriële vaste activa die u in België uitsluitend voor uw beroepswerkzaamheid gebruikt.
 Voor investeringen gedaan in 2024 bedraagt de eenmalige investeringsaftrek:
-•
-•
-
-normaal 8 % van de aanschaffings- of beleggingswaarde
+• • normaal 8 % van de aanschaffings- of beleggingswaarde
 15,5 % van de aanschaffings- of beleggingswaarde voor bepaalde investeringen zoals energiebesparende en digitale investeringen.
 Onder ‘digitale investeringen’ wordt verstaan: investeringen in digitale vaste activa
 voor de integratie en exploitatie van digitale betalings- en factureringssystemen en in
@@ -2324,23 +2093,19 @@ systemen voor de beveiliging van informatie- en communicatietechnologie.
 ▲ Opgelet: voor die digitale investeringen is de aftrek van 15,5 % alleen van toepassing als u voor aanslagjaar 2025 voldoet aan de criteria van artikel 1:24, § 1 tot
 § 6, van het Wetboek van vennootschappen en verenigingen.
 
-•
-
-22,5 % van de aanschaffings- of beleggingswaarde voor investeringen in materiële
+• 22,5 % van de aanschaffings- of beleggingswaarde voor investeringen in materiële
 vaste activa voor de beveiliging van beroepslokalen en hun inhoud.
 Als u minder dan 20 personen tewerkstelt, kunt u ook kiezen voor een gespreide aftrek
 die gelijk is aan 12,5 % van de afschrijvingen op de nieuwe activa.
 Het is aangewezen om bij uw aangifte een opgave 276 U te voegen.
 
 15. Toekenning aan uw meewerkende echtgenoot of wettelijk samenwonende
-partner
-U mag deze rubriek alleen invullen als u in de uitoefening van uw beroepswerkzaamheid
+partner U mag deze rubriek alleen invullen als u in de uitoefening van uw beroepswerkzaamheid
 werkelijk wordt bijgestaan door uw echtgenoot of wettelijk samenwonende partner die:
 • in 2024 een afzonderlijke beroepswerkzaamheid heeft uitgeoefend die rechten opent
 op uitkeringen in een verplichte regeling voor pensioenen, kinderbijslagen en ziekteen invaliditeitsverzekering, die minstens gelijkwaardig zijn aan die van het sociaal statuut van de zelfstandigen,
 • in 2024 een uitkering heeft genoten van de sociale zekerheid die zulke eigen rechten
-opent, of
-• geboren is vóór 1956 en in 2024 geen bovenvermelde activiteit heeft uitgeoefend en
+opent, of • geboren is vóór 1956 en in 2024 geen bovenvermelde activiteit heeft uitgeoefend en
 geen bovenvermelde uitkering heeft genoten en zich niet vrijwillig aan het (volledig)
 sociaal statuut van de zelfstandigen heeft onderworpen.
 ▲ Opgelet: u mag deze rubriek echter niet invullen:
@@ -2352,11 +2117,7 @@ voor één gemeenschappelijke aanslag wordt gekozen (zie ook de uitleg bij vak I
 A, 1, ‘Uw echtgenoot of wettelijk samenwonende partner is overleden in 2024’ en
 bij vak II, A, 2, ‘Deze aangifte gaat over een belastingplichtige die in 2024 overleden is’ in de toelichting bij deel 1).
 
- Vak XVIII
-
-•
-
-als uw meewerkende echtgenoot of wettelijk samenwonende partner in 2024 geen
+Vak XVIII • als uw meewerkende echtgenoot of wettelijk samenwonende partner in 2024 geen
 afzonderlijke activiteit heeft uitgeoefend die rechten opent op uitkeringen in een
 verplichte regeling voor pensioenen, kinderbijslagen en ziekte- en invaliditeitsverzekering, die minstens gelijkwaardig zijn aan die van het sociaal statuut der zelfstandigen, noch een uitkering heeft genoten van de sociale zekerheid die zulke
 eigen rechten opent, maar in 2024 (vrijwillig of verplicht) onderworpen was aan het
@@ -2400,17 +2161,11 @@ BEROEPSWERKZAAMHEID
 1. Roerende voorheffing
 Vermeld hier de verrekenbare roerende voorheffing op de volgende, in de vakken XVII,
 XVIII of XXI vermelde beroepsinkomsten:
-•
+• financiële opbrengsten van beroepsmatig gebruikte kapitalen
 
-financiële opbrengsten van beroepsmatig gebruikte kapitalen
+• vergoedingen voor ontbrekende coupon of ontbrekend lot van beroepsmatig gebruikte financiële instrumenten die het voorwerp zijn van een zakelijke-zekerheidsovereenkomst of een lening
 
-•
-
-vergoedingen voor ontbrekende coupon of ontbrekend lot van beroepsmatig gebruikte financiële instrumenten die het voorwerp zijn van een zakelijke-zekerheidsovereenkomst of een lening
-
-•
-
-inkomsten die u hebt verkregen uit auteursrechten, naburige rechten en wettelijke en
+• inkomsten die u hebt verkregen uit auteursrechten, naburige rechten en wettelijke en
 verplichte licenties bedoeld in: artikel 17, § 1, 5°, van het Wetboek van de inkomstenbelastingen 1992 (WIB 92).
 ▲ Opgelet: onder bepaalde voorwaarden en binnen bepaalde grenzen zijn inkomsten uit bovenbedoelde rechten niet als beroepsinkomsten, maar als inkomsten
 van roerende goederen te beschouwen (zie de uitleg bij vak VII, rubriek D). De
@@ -2432,38 +2187,24 @@ verkregen als lid van provincie-, gemeente- of OCMW-raden, van beheerscomités v
 openbare instellingen of lichamen, enz. en die u voor hun brutobedrag (dus met inbegrip
 van die bedrijfsvoorheffing) als baten in uw aangifte vermeldt.
 ▲ Opgelet!
-•
-
-De bedrijfsvoorheffing die is ingehouden op bezoldigingen of pensioenen mag u
+• De bedrijfsvoorheffing die is ingehouden op bezoldigingen of pensioenen mag u
 niet in deze rubriek vermelden.
 
-•
-
-Buitenlandse belasting mag u hier nooit vermelden.
+• Buitenlandse belasting mag u hier nooit vermelden.
 
  Vak XIX
 
 4. Belastingkrediet voor de aangroei van eigen middelen
 Als u in vak XVII bedoelde winst of in vak XVIII bedoelde baten hebt verkregen, kan het
 in artikel 289bis van het Wetboek van de inkomstenbelastingen 1992 bedoelde belastingkrediet met de belasting worden verrekend. Het is aangewezen om daarvoor de volgende stukken bij uw aangifte te voegen:
-•
-
-een opgave 276 J
-
-•
-
-een attest van uw sociale verzekeringskas dat bevestigt dat u in orde bent met de betaling van uw sociale zekerheidsbijdragen als zelfstandige.
+• een opgave 276 J • een attest van uw sociale verzekeringskas dat bevestigt dat u in orde bent met de betaling van uw sociale zekerheidsbijdragen als zelfstandige.
 
 Het belastingkrediet is gelijk aan 10 % van het positieve verschil tussen:
-•
-
-het op het einde van het belastbare tijdperk (aanslagjaar 2025) bestaande positieve
+• het op het einde van het belastbare tijdperk (aanslagjaar 2025) bestaande positieve
 verschil tussen de fiscale waarde van de in artikel 41 van het Wetboek van de inkomstenbelastingen 1992 vermelde vaste activa en het totale bedrag van de schulden
 met een oorspronkelijke looptijd van meer dan één jaar die slaan op uitgeoefende beroepswerkzaamheden die winst of baten opbrengen
 
-•
-
-en het op het einde van één van de vorige 3 belastbare tijdperken (aanslagjaren 2022,
+• en het op het einde van één van de vorige 3 belastbare tijdperken (aanslagjaren 2022,
 2023 en 2024) bereikte hoogste bedrag van dat verschil,
 
 met een maximum van 3.750 euro (1).
@@ -2480,15 +2221,9 @@ fietskilometervergoeding in toepassing van collectieve arbeidsovereenkomst nr. 1
 fiets van de werknemer tussen zijn woonplaats en zijn plaats van tewerkstelling (hierna
 cao nr. 164), kunt u onder bepaalde voorwaarden aanspraak maken op dit belastingkrediet.
 Die voorwaarden zijn:
-•
-
-het moet gaan om verplaatsingen tussen de woonplaats en de plaats van tewerkstelling die uw werknemers van 1.5.2023 tot 31.12.2024 werkelijk en regelmatig hebben
+• het moet gaan om verplaatsingen tussen de woonplaats en de plaats van tewerkstelling die uw werknemers van 1.5.2023 tot 31.12.2024 werkelijk en regelmatig hebben
 afgelegd met de fiets (d.w.z. met een rijwiel of een elektrisch aangedreven rijwiel of
-speed pedelec)
-
-•
-
-u moet in de periode van 1.5.2023 tot 31.12.2024 in toepassing van cao nr. 164 een
+speed pedelec) • u moet in de periode van 1.5.2023 tot 31.12.2024 in toepassing van cao nr. 164 een
 verhoging (tot 0,27 euro voor het kalenderjaar 2023 en tot 0,28 euro voor het kalenderjaar 2024) van de vergoeding per km hebben toegekend ten opzichte van de vergoeding per km die u toekende op 1.7.2022
 
 (1) Als u in vak II, rubriek A, 6 moet invullen (omdat u tijdens het inkomstenjaar minder dan 12 maanden
@@ -2496,11 +2231,7 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak XIX
-
-•
-
-die verhoging mag niet:
+Vak XIX • die verhoging mag niet:
 -
 
 worden vergoed door derden
@@ -2543,14 +2274,11 @@ wordt vergoed.
 Als u in de periode van 1.1.2024 tot 31.12.2024 een verhoging hebt ingevoerd van de
 fietskilometervergoeding die u als werkgever toekent aan werknemers voor hun verplaatsingen per fiets tussen de woonplaats en de plaats van tewerkstelling en u bent onderworpen aan de wet van 5.12.1968 betreffende de collectieve arbeidsovereenkomsten en
 
- Vak XIX
-
-de paritaire comités, kunt u onder bepaalde voorwaarden aanspraak maken op dit belastingkrediet.
+Vak XIX de paritaire comités, kunt u onder bepaalde voorwaarden aanspraak maken op dit belastingkrediet.
 Die voorwaarden zijn:
 • het moet gaan om verplaatsingen tussen de woonplaats en de plaats van tewerkstelling die uw werknemers van 1.1.2024 tot 31.12.2024 werkelijk en regelmatig hebben
 afgelegd met de fiets (d.w.z. met een rijwiel of een elektrisch aangedreven rijwiel of
-speed pedelec)
-• u moet in de periode van 1.1.2024 tot 31.12.2024 een verhoging van de vergoeding
+speed pedelec) • u moet in de periode van 1.1.2024 tot 31.12.2024 een verhoging van de vergoeding
 per km hebben toegekend ten opzichte van de geïndexeerde vergoeding per km die
 u toekende op 1.6.2023. De vergoeding op 1.6.2023 bedroeg minimum 0,18 euro
 • die verhoging van de vergoeding per km is vastgelegd in een collectieve arbeidsovereenkomst, arbeidsreglement, of individuele arbeidsovereenkomst en geldt zonder beperking in de tijd
@@ -2582,11 +2310,7 @@ de 3de stap.
 • Als u in de loop van 2024 het bedrag van de fietskilometervergoeding hebt gewijzigd, moet u het belastingkrediet bepalen in periodes naargelang het bedrag per
 km van de fietskilometervergoeding.
 
- Vak XIX
-
-•
-
-als u de toepassing van dit belastingkrediet vraagt, mag u het bedrag van de verhoging dat recht geeft op het belastingkrediet (d.w.z. het resultaat van de 4de
+Vak XIX • als u de toepassing van dit belastingkrediet vraagt, mag u het bedrag van de verhoging dat recht geeft op het belastingkrediet (d.w.z. het resultaat van de 4de
 stap) niet in uw werkelijke beroepskosten opnemen (ook niet in een volgend aanslagjaar).
 
 Houd een nota met de volgende gegevens ter beschikking van de belastingdienst:
@@ -2617,23 +2341,15 @@ einddatum van de periodes waarvoor een bepaalde fietskilometervergoeding van toe
 U kan aanspraak maken op dit belastingkrediet ten belope van de behoorlijk verantwoorde bijkomende verdeelkostprijs gedaan of gedragen van 1.7.2024 tot 31.12.2024
 ten opzichte van de kosten voor de verdeling van papieren publicaties die u in 2023 gedaan of gedragen heeft als uitgever.
 Die voorwaarden zijn:
-•
+• het moet gaan om bijkomende verdeelkostprijzen voor de levering van papieren publicaties bij de abonnees
 
-het moet gaan om bijkomende verdeelkostprijzen voor de levering van papieren publicaties bij de abonnees
-
-•
-
-de bijkomende verdeelkostprijs heeft betrekking op de stijging van de verdeelkostprijs
+• de bijkomende verdeelkostprijs heeft betrekking op de stijging van de verdeelkostprijs
 per publicatie en niet op een loutere stijging als gevolg van een toename van de verdeling
 
-•
-
-de bijkomende verdeelkostprijs heeft uitsluitend betrekking op het geheel of een deel
+• de bijkomende verdeelkostprijs heeft uitsluitend betrekking op het geheel of een deel
 van de werkelijk door u als uitgever ten laste genomen verdeelkostprijs.
 
- Vak XIX
-
-Het bedrag van het belastingkrediet wordt berekend als volgt:
+Vak XIX Het bedrag van het belastingkrediet wordt berekend als volgt:
 1ste stap: bepaal de verdeelkostprijs in 2023 per publicatie
 door de kosten die u gedaan of gedragen heeft in 2023 als uitgever voor de
 verdeling van de papieren publicaties te delen door het aantal papieren publicaties dat u in 2023 heeft verdeeld.
@@ -2646,19 +2362,13 @@ tweede stap.
 4de stap: bepaal het bedrag van het belastingkrediet
 door het resultaat van de 3de stap te vermenigvuldigen met het aantal papieren publicaties dat u in 2024 heeft verdeeld.
 ▲ Opgelet!
-•
+• Onder de verdeelkostprijs wordt verstaan het bedrag die u als uitgever moet betalen voor het leveren van papieren publicaties, inclusief btw.
 
-Onder de verdeelkostprijs wordt verstaan het bedrag die u als uitgever moet betalen voor het leveren van papieren publicaties, inclusief btw.
-
-•
-
-Als de concessie niet de gehele verdeelkostprijs afdekt en u een deel van deze
+• Als de concessie niet de gehele verdeelkostprijs afdekt en u een deel van deze
 kosten al gefactureerd of doorgefactureerd heeft aan uw klanten, heeft de bijkomende verdeelkostprijs die in aanmerking moet worden genomen betrekking op
 de nettokosten die daadwerkelijk door u als uitgever worden gedragen.
 
-•
-
-als u de toepassing van dit belastingkrediet vraagt, mag u het bedrag van de bijkomende verdeelkost dat recht geeft op het belastingkrediet (d.w.z. het resultaat van
+• als u de toepassing van dit belastingkrediet vraagt, mag u het bedrag van de bijkomende verdeelkost dat recht geeft op het belastingkrediet (d.w.z. het resultaat van
 de 4de stap) niet in uw werkelijke beroepskosten opnemen (ook niet in een volgend aanslagjaar).
 
 8. Belastingkrediet voor de verhoging van de tussenkomsten van de werkgever in een treinabonnement
@@ -2666,26 +2376,16 @@ Als u in 2024 een verhoging hebt ingevoerd van de tussenkomst van de werkgever i
 een treinabonnement die u als werkgever toekent aan werknemers voor hun verplaatsingen met de trein tussen de woonplaats en de plaats van tewerkstelling en u bent onderworpen aan de wet van 5.12.1968 betreffende de collectieve arbeidsovereenkomsten en
 de paritaire comités, kunt u onder bepaalde voorwaarden aanspraak maken op dit belastingkrediet.
 Die voorwaarden zijn:
-•
-
-het moet gaan om in 2024 betaalde of toegekende tussenkomsten van de werkgever
+• het moet gaan om in 2024 betaalde of toegekende tussenkomsten van de werkgever
 in treinabonnementen op naam van een werknemer voor een bepaalde route die bestemd zijn voor het woon-werkverkeer
 ▲ Opgelet: een gecombineerd of geïntegreerd vervoerbewijs voor meerdere vervoersmiddelen waaronder de trein wordt gelijkgesteld met een treinabonnement voor het
 gedeelte dat op de trein betrekking heeft.
 
-•
+• de verhoogde tussenkomst van de werkgever bedraagt minstens 79,3 %
 
-de verhoogde tussenkomst van de werkgever bedraagt minstens 79,3 %
+• die verhoging van de tussenkomst van de werkgever in een treinabonnement is vastgelegd in een collectieve arbeidsovereenkomst, arbeidsreglement, of individuele arbeidsovereenkomst en geldt zonder beperking in de tijd
 
-•
-
-die verhoging van de tussenkomst van de werkgever in een treinabonnement is vastgelegd in een collectieve arbeidsovereenkomst, arbeidsreglement, of individuele arbeidsovereenkomst en geldt zonder beperking in de tijd
-
- Vak XIX
-
-•
-
-die verhoging mag niet:
+Vak XIX • die verhoging mag niet:
 -
 
 worden vergoed door derden
@@ -2735,30 +2435,21 @@ treinabonnement voor dezelfde periode/duur en dezelfde afstand in tweede
 klasse) te delen door het resultaat van de tweede stap, en vervolgens te vermenigvuldigen met het resultaat van de derde stap.
 Tel daarna alle resultaten van de 4de stap, voor elke tussenkomst van de werkgever in een
 
- Vak XIX
-
-treinabonnement, samen.
+Vak XIX treinabonnement, samen.
 ▲ Opgelet!
-•
-
-bij een gecombineerd of geïntegreerd vervoerbewijs moet u voor de bepaling van
+• bij een gecombineerd of geïntegreerd vervoerbewijs moet u voor de bepaling van
 de tussenkomst van de werkgever (voor het gedeelte dat op de trein betrekking
 heeft) de toepassingsregels volgen zoals opgenomen in artikel 2 en 3 van het koninklijk besluit van 17.7.2024 met betrekking tot de toepassing van het belastingkrediet voor de verhoging van de tussenkomst van de werkgever in een treinabonnement
 
-•
-
-als u de toepassing van dit belastingkrediet vraagt, mag u het bedrag van de verhoging dat recht geeft op het belastingkrediet (d.w.z. het resultaat van de 4de
+• als u de toepassing van dit belastingkrediet vraagt, mag u het bedrag van de verhoging dat recht geeft op het belastingkrediet (d.w.z. het resultaat van de 4de
 stap) niet in uw werkelijke beroepskosten opnemen (ook niet in een volgend aanslagjaar).
 
 Houd de volgende stukken ter beschikking van de belastingdienst:
-•
-
-een document met de volgende gegevens:
+• een document met de volgende gegevens:
 1) het bedrag van de tussenkomst van de werkgever die u in 2024 hebt betaald of
 toegekend (desgevallend beperkt tot de tussenkomst die zou verschuldigd zijn
 voor een treinabonnement voor dezelfde periode/duur en dezelfde afstand in
-tweede klasse)
-2) uw referentietussenkomst (percentage)
+tweede klasse) 2) uw referentietussenkomst (percentage)
 3) uw verhoogde tussenkomst (percentage)
 4) het verhogingspercentage
 5) het bedrag van het belastingkrediet
@@ -2793,58 +2484,38 @@ voor elke tussenkomst van de werkgever die u in 2024 hebt betaald of toegekend
 en waarvoor u de toepassing van het belastingkrediet vraagt. U kan er echter
 voor opteren om de in punt 1 tot 5 vermelde gegevens waarvoor het verhogingspercentage identiek is, samen op het document te vermelden (zie voor de modali-
 
- Vak XIX
-
-teiten artikel 4, § 1,derde lid van het koninklijk besluit van 17.7.2024 met betrekking tot de toepassing van het belastingkrediet voor de verhoging van de tussenkomst van de werkgever in een treinabonnement).
-•
-
-de stukken die door uw werknemer zijn voorgelegd om de tussenkomst te verkrijgen
+Vak XIX teiten artikel 4, § 1,derde lid van het koninklijk besluit van 17.7.2024 met betrekking tot de toepassing van het belastingkrediet voor de verhoging van de tussenkomst van de werkgever in een treinabonnement).
+• de stukken die door uw werknemer zijn voorgelegd om de tussenkomst te verkrijgen
 of, in geval van een derdebetalersregeling, de factuur met betrekking tot de tussenkomst
 
-•
-
-in geval van een tussenkomst in een geïntegreerd vervoerbewijs: de verklaring op eer
+• in geval van een tussenkomst in een geïntegreerd vervoerbewijs: de verklaring op eer
 van de werknemer dat hij gewoonlijk gebruik maakt van de trein voor de verplaatsingen tussen zijn woonplaats en zijn plaats van tewerkstelling met vermelding van de
 lengte van het enkel traject dat met de trein wordt afgelegd, uitgedrukt in km.
 
 ## Vak XX - BEZOLDIGINGEN VAN MEEWERKENDE ECHTGENOTEN EN WETTELIJK SAMENWONENDE PARTNERS
 Voorafgaande opmerkingen
 1. U moet dit vak alleen invullen als:
-•
-
-uw echtgenoot of wettelijk samenwonende partner u in 2024 een deel van de winst of
+• uw echtgenoot of wettelijk samenwonende partner u in 2024 een deel van de winst of
 de baten van zijn of haar beroepswerkzaamheid heeft toegekend voor de prestaties
 die u als meewerkende echtgenoot of partner bij de uitoefening van die werkzaamheid hebt geleverd,
 
-•
-
-u in 2024 geen afzonderlijke beroepswerkzaamheid hebt uitgeoefend die eigen rechten opent op uitkeringen in een verplichte regeling voor pensioenen, kinderbijslagen
+• u in 2024 geen afzonderlijke beroepswerkzaamheid hebt uitgeoefend die eigen rechten opent op uitkeringen in een verplichte regeling voor pensioenen, kinderbijslagen
 en ziekte- en invaliditeitsverzekering, die minstens gelijkwaardig zijn aan die van het
 sociaal statuut van de zelfstandigen,
 
-•
-
-u in 2024 geen uitkering hebt genoten van de sociale zekerheid die zulke eigen rechten opent, en
+• u in 2024 geen uitkering hebt genoten van de sociale zekerheid die zulke eigen rechten opent, en
 u in 2024 onderworpen was aan het (volledig) sociaal statuut van de zelfstandigen
 (vrijwillig of verplicht).
 
-•
-
-Het gaat hier in feite om de bezoldigingen die uw echtgenoot of partner in vak XVII, rubriek 8, b of in vak XVIII, rubriek 10, b als beroepskosten aftrekt.
+• Het gaat hier in feite om de bezoldigingen die uw echtgenoot of partner in vak XVII, rubriek 8, b of in vak XVIII, rubriek 10, b als beroepskosten aftrekt.
 U mag vak XX daarentegen niet invullen als uw echtgenoot of partner u toekenningen heeft
 gedaan die hij of zij in vak XVII, rubriek 16 of in vak XVIII, rubriek 15 heeft vermeld, d.w.z.
 als u:
-•
+• in 2024 een bovenvermelde afzonderlijke beroepswerkzaamheid hebt uitgeoefend, of
 
-in 2024 een bovenvermelde afzonderlijke beroepswerkzaamheid hebt uitgeoefend, of
+• in 2024 een bovenvermelde uitkering hebt genoten, of
 
-•
-
-in 2024 een bovenvermelde uitkering hebt genoten, of
-
-•
-
-geboren bent vóór 1956 en in 2024 geen bovenvermelde beroepswerkzaamheid hebt
+• geboren bent vóór 1956 en in 2024 geen bovenvermelde beroepswerkzaamheid hebt
 uitgeoefend en geen bovenvermelde uitkering hebt genoten en u niet vrijwillig aan het
 (volledig) sociaal statuut van de zelfstandigen hebt onderworpen.
 
@@ -2864,9 +2535,7 @@ Ook het bedrag dat u in 2024 werkelijk aan uw ziekenfonds hebt gestort als perso
 bijdrage in het kader van de financiële verantwoordelijkheid van de ziekenfondsen, mag
 u hier vermelden.
 
- Vak XX
-
-▲ Opgelet: de bijdragen voor aanvullende of vrije verzekering die u aan een ziekenfonds hebt gestort om bepaalde specifieke diensten van dat fonds te kunnen verkrijgen (ziekenvervoer, openluchtkuren, gezinshulp, enz.), mag u daarentegen niet als
+Vak XX ▲ Opgelet: de bijdragen voor aanvullende of vrije verzekering die u aan een ziekenfonds hebt gestort om bepaalde specifieke diensten van dat fonds te kunnen verkrijgen (ziekenvervoer, openluchtkuren, gezinshulp, enz.), mag u daarentegen niet als
 sociale bijdragen (en ook niet als andere eigen beroepskosten) vermelden, evenmin
 als de bijdragen of premies die u aan een ziekenfonds of aan een verzekeringsmaatschappij hebt betaald voor zogenaamde hospitalisatieverzekeringen.
 
@@ -2902,9 +2571,7 @@ aan de personenbelasting onderworpen rijksinwoner was), moet u dit bedrag vermen
 het aantal maanden dat u in die rubriek moet invullen, en delen door 12. Rond het resultaat af naar
 het hogere of lagere veelvoud van 10 euro naargelang de eenheid 5 euro bereikt of niet.
 
- Vak XX
-
-dan moet u:
+Vak XX dan moet u:
 -
 
 ook vak XIII, rubriek E van de voorbereiding van de aangifte invullen
@@ -2932,8 +2599,7 @@ Als u dit vak invult, is het aangewezen om een nota bij uw aangifte te voegen me
 van de in de rubrieken 1 tot 7 vermelde bedragen.
 
 1. Stopzettingsmeerwaarden (na aftrek van werkelijke kosten van overdracht)
-Algemeen
-Het gaat hier om meerwaarden die uit hoofde of naar aanleiding van de stopzetting van
+Algemeen Het gaat hier om meerwaarden die uit hoofde of naar aanleiding van de stopzetting van
 uw beroepswerkzaamheid zijn verkregen of vastgesteld op activa die u voor die beroepswerkzaamheid hebt gebruikt, met inbegrip van voorraden en bestellingen in uitvoering, maar met uitsluiting van gronden van land- of tuinbouwondernemingen (zie echter
 ook de uitleg bij vak XV, rubriek B, 6).
 Die meerwaarden kunnen volledig worden vrijgesteld bij voortzetting van uw onderneming of beroepswerkzaamheid door uw echtgenoot of wettelijk samenwonende partner
@@ -2946,9 +2612,7 @@ opneemt (in vak XVII, 8, a, in vak XVIII, 10, a of in vak XXI, 7, a) en die welk
 een vorig aanslagjaar als werkelijke beroepskosten hebt afgetrokken.
 
 a) tot d) die afzonderlijk belastbaar zijn en die gezamenlijk belastbaar zijn
-•
-
-Stopzettingsmeerwaarden op materiële of financiële vaste activa en andere aandelen zijn afzonderlijk belastbaar behalve het gedeelte van de financiële vaste activa en de andere aandelen dat overeenstemt met voorheen aangenomen minderwaarden waarvan de recuperatie nog niet is herbelast (dat gedeelte is gezamenlijk belastbaar – rubriek 1, d).
+• Stopzettingsmeerwaarden op materiële of financiële vaste activa en andere aandelen zijn afzonderlijk belastbaar behalve het gedeelte van de financiële vaste activa en de andere aandelen dat overeenstemt met voorheen aangenomen minderwaarden waarvan de recuperatie nog niet is herbelast (dat gedeelte is gezamenlijk belastbaar – rubriek 1, d).
 Het afzonderlijk belastbare gedeelte is in de regel belastbaar tegen 16,5 % (rubriek 1, b).
 Als de meerwaarden echter zijn verkregen of vastgesteld:
 -
@@ -2965,11 +2629,7 @@ als gevolg van het overlijden,
 
 is het afzonderlijk belastbare gedeelte belastbaar tegen 10 % (rubriek 1, a).
 
- Vak XXI
-
-•
-
-Stopzettingsmeerwaarden op immateriële vaste activa zijn afzonderlijk belastbaar
+Vak XXI • Stopzettingsmeerwaarden op immateriële vaste activa zijn afzonderlijk belastbaar
 in de mate dat zij niet meer bedragen dan de belastbare nettowinst of -baten die u
 in de 4 jaren voor het jaar van de stopzetting uit de niet meer uitgeoefende werkzaamheid hebt verkregen (het gedeelte dat meer bedraagt is gezamenlijk belastbaar – rubriek 1, d).
 Het afzonderlijk belastbare gedeelte is in de regel belastbaar tegen 33 % (rubriek 1, c).
@@ -2987,9 +2647,7 @@ naar aanleiding van een gedwongen definitieve stopzetting, of
 als gevolg van het overlijden,
 
 is het afzonderlijk belastbare gedeelte belastbaar tegen 10 % (rubriek 1, a).
-•
-
-Stopzettingsmeerwaarden op andere activa (zoals voorraden en bestellingen in
+• Stopzettingsmeerwaarden op andere activa (zoals voorraden en bestellingen in
 uitvoering) zijn in de regel gezamenlijk belastbaar (rubriek 1, d).
 Als ze echter zijn verkregen of vastgesteld:
 -
@@ -3010,13 +2668,9 @@ zijn ze afzonderlijk belastbaar tegen 10 % (rubriek 1, a).
 dan niet belastbare) stopzettingsmeerwaarde hebt verwezenlijkt
 Vermeld hier de winst en de baten die overeenstemmen met de kosten voor de overdracht van de activa waarop u na de stopzetting een stopzettingsmeerwaarde hebt verwezenlijkt en die u in een vorig aanslagjaar al als werkelijke beroepskosten hebt afgetrokken.
 ▲ Opgelet!
-•
+• Dat geldt ook voor verwezenlijkte stopzettingsmeerwaarden die vrijgesteld zijn.
 
-Dat geldt ook voor verwezenlijkte stopzettingsmeerwaarden die vrijgesteld zijn.
-
-•
-
-Winst en baten die overeenstemmen met in vorige aanslagjaren als werkelijke beroepskosten afgetrokken kosten van overdracht van activa waarop u in 2024 een
+• Winst en baten die overeenstemmen met in vorige aanslagjaren als werkelijke beroepskosten afgetrokken kosten van overdracht van activa waarop u in 2024 een
 stopzettingsmeerwaarde hebt verwezenlijkt bij de stopzetting, moet u niet hier,
 maar in vak XVII, 5 of in vak XVIII, 7 vermelden.
 
@@ -3027,9 +2681,7 @@ de premies en betalingen die rechtstreeks zijn toegekend aan landbouwers in het 
 van de steunregelingen ‘rechtstreekse betalingen’ ingesteld door de Europese regelgeving in de landbouwsector. Die premies en betalingen zijn belastbaar tegen 12,5 % en
 moet u vermelden in rubriek 3, a.
 
- Vak XXI
-
-Vermeld in rubriek 3, b ook de in artikel 4 van het koninklijk besluit van 23.3.2012 tot oprichting van een Impulsfonds voor de huisartsengeneeskunde en tot vaststelling van de
+Vak XXI Vermeld in rubriek 3, b ook de in artikel 4 van het koninklijk besluit van 23.3.2012 tot oprichting van een Impulsfonds voor de huisartsengeneeskunde en tot vaststelling van de
 werkingsregels ervan bedoelde premie die u in 2024, na de stopzetting van uw beroepswerkzaamheid als huisarts, hebt verkregen. Het gaat hier om de premie die wordt toegekend aan huisartsen om zich te vestigen in een ‘prioritaire’ zone, d.w.z. een zone waar
 nood is aan extra huisartsen.
 
@@ -3074,9 +2726,7 @@ of naar aanleiding van de stopzetting ervan.
 van activa waarop u een meerwaarde hebt verwezenlijkt, moet u die kosten niet
 hier vermelden, maar in vak XVII, 8, a of in vak XVIII, 10, a.
 
- Vak XXI
-
-b) andere dan die vermeld onder a
+Vak XXI b) andere dan die vermeld onder a
 Vermeld hier het bedrag van uw andere dan de onder a vermelde beroepskosten die
 u hebt betaald of gedragen na de stopzetting van uw beroepswerkzaamheid en die u
 nog niet eerder hebt afgetrokken (bv. sociale bijdragen in verband met uw vroegere
@@ -3135,22 +2785,11 @@ vermelden vanaf wanneer u voldeed aan alle voorwaarden die de toegang tot dat be
 regelen.
 Voor de gereglementeerde vrije beroepen in de tabel hieronder vindt de eerste werkelijke
 vestiging plaats op het tijdstip in de kolom ernaast:
-bij de eedaflegging
+bij de eedaflegging advocaat architect boekhouder bij de inschrijving op de lijst van de stagiairs
 
-advocaat
-architect
-boekhouder
+notaris bij de aanstelling door de Koning in een bepaalde standplaats
 
-bij de inschrijving op de lijst van de stagiairs
-
-notaris
-
-bij de aanstelling door de Koning in een bepaalde standplaats
-
-accountant
-belastingconsulent
-
-bij de inschrijving op de deellijst van externe accountants of van
+accountant belastingconsulent bij de inschrijving op de deellijst van externe accountants of van
 externe belastingconsulenten van hun instituut
 
 geneesheer-specialist

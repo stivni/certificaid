@@ -17,39 +17,28 @@ provenance:
       version: '05.2026'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 06a7e51-dirty
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:03:55Z'
+  generated_at: '2026-05-13T12:25:24Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_at: '2026-05-13T12:26:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'A8: massale kolom-bleed — 886 regels met >300 chars, max 4859 chars per regel. Twee PDF-kolommen zijn horizontaal samengevoegd. Structuur H3-headings aanwezig maar lichaamstekst onbruikbaar door kolom-bleed.'
+    rationale: 'Zelfde situatie als Almanak-BTW: type-3 narratieve praktijkgids, max sectie groot, weinig headings. Aanvaardbaar als praktijkgids maar niet ideaal voor RAG.'
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:36Z'
-      heading_count: 187
-      max_section_chars: 14543
-      file_size_chars: 893772
-      flags: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:19:59Z'
-      rationale: 'A8: massale kolom-bleed — 886 regels met >300 chars, max 4859 chars per regel. Twee PDF-kolommen zijn horizontaal samengevoegd. Structuur H3-headings aanwezig maar lichaamstekst onbruikbaar door kolom-bleed.'
+      run_at: '2026-05-13T12:26:25Z'
+      rationale: 'Zelfde situatie als Almanak-BTW: type-3 narratieve praktijkgids, max sectie groot, weinig headings. Aanvaardbaar als praktijkgids maar niet ideaal voor RAG.'
       concrete_problemen:
-        - regel: 86
-          categorie: A8
-          type: column-bleed
-          voorbeeld: '4859-char regel (langste): twee kolommen samengevoegd'
-        - regel: 48
-          categorie: A8
-          type: column-bleed
-          voorbeeld: 442-char regel in body
+        - regel:
+          categorie: B1
+          type: other
+          voorbeeld: 'Weinig ## headings voor grote file — degraded chunking'
 ---
 
 # Almanak Vennootschapsbelasting 2026 — ITAA / Larcier-Intersentia
@@ -2815,33 +2804,33 @@ De aandacht wordt er inzonderheid op gevestigd dat de voorheen al beroepsinkomst
 ### HOOFDSTUK 3 – Beroepskosten
 Rekening houdend met wat voorafgaat, kan de tenlastene- bezitten en de aard van hun functie die ze uitoefenen, kunming niet worden aangenomen als: nen fiscaal geen verliezen van de vennootschap ten laste • de belastingplichtige voorheen nooit of slechts toeval- nemen. lig beroepsinkomsten heeft behaald uit de vennootschap waarvan hij de verliezen ten laste neemt; 3.4. Aanzuivering van verlies • de vennootschap is ontbonden of geen activiteit meer Ten slotte moet de vennootschap de gestorte geldsom aanuitoefent (in dit geval kunnen immers geen beroepsin- wenden voor het aanzuiveren van haar verlies. komsten meer worden verkregen uit de vennootschap, zodat aan de voorwaarde inzake behoud niet meer kan Tot staving van zijn aangifte in de personenbelasting moet worden voldaan). de bedrijfsleider de echtheid van de definitieve en onherroepelijke storting ten gunste van de vennootschap en de Wanneer de ten laste genomen verliezen in wanverhouding aanwending door deze laatste ter aanzuivering van haar staan ten opzichte van de inkomsten die uit de vennootschap verliezen bewijzen. worden genoten en het ongeloofwaardig, is mag de aftrek van de verliezen worden geweigerd. Hiermee worden geen Dit bewijs kan worden geleverd aan de hand van een schrijvoorwaarden aan de wet toegevoegd (Cass., 18.10.2007). ven door de bedrijfsleider aan de vennootschap, waaruit het bedrag van de verrichte storting, het onherroepelijke karak- 3.3. Storting som geld ter ervan en de eraan te geven bestemming blijkt. Eventueel kan ook de beslissing van de algemene vergadering voor-Loutere boekhoudkundige verrichtingen, zoals het afboe- noemd bewijs leveren. ken van het verlies van de vennootschap op de lopende rekening van de bedrijfsleider, komen niet in aanmerking, 3.5. Intresten van een lening voor betaling tenzij wordt aangetoond dat het gestorte bedrag, in afwach- vennootschapsverlies ting van zijn effectieve aanwending, eerst op de lopende rekening werd geboekt. De intresten van een lening aangegaan om de betaling van het vennootschapsverlies te financieren, zijn fiscaal aftrek-Vennoten die het statuut van loontrekkende hebben behou- baar (Rb. Brussel, 10.10.2003). den uit hoofde van het beperkte aantal deelbewijzen die ze
 
-BIJLAGE
+## Bijlage
 
-BIJLAGE
+## Bijlage
 
-BIJLAGE
+## Bijlage
 
-BIJLAGE
+## Bijlage
 
-BIJLAGE
+## Bijlage
 
-BIJLAGE
+## Bijlage
 
-BIJLAGE
+## Bijlage
 
-BIJLAGE
+## Bijlage
 
-BIJLAGE
+## Bijlage
 
-BIJLAGE
+## Bijlage
 
-BIJLAGE
+## Bijlage
 
-BIJLAGE
+## Bijlage
 
-BIJLAGE
+## Bijlage
 
-BIJLAGE
+## Bijlage
 
 Koning Albert II laan 19
 1210 Brussel

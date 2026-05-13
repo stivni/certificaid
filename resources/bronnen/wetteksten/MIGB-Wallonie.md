@@ -17,29 +17,22 @@ provenance:
       version: 30.05.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:15:05Z'
+  generated_at: '2026-05-13T12:25:05Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_at: '2026-05-13T12:28:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 pass: 208 headings, max sectie 22853 chars. ###### Artikel-headings correct. Wijzigingsmarkers Fisconet-stijl OK. Inhoud volledig.'
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:38Z'
-      heading_count: 208
-      max_section_chars: 22853
-      file_size_chars: 203089
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
+      run_at: '2026-05-13T12:28:19Z'
       rationale: 'L1 pass: 208 headings, max sectie 22853 chars. ###### Artikel-headings correct. Wijzigingsmarkers Fisconet-stijl OK. Inhoud volledig.'
       concrete_problemen: []
 ---
@@ -100,7 +93,6 @@ zover daarin wordt verwezen naar bepalingen die geen toepassing vinden inzake me
 
 inkomstenbelastingen gelijkgestelde belastingen.
 
-
 De artikelen 460 tot 463 van het Wetboek van de inkomstenbelastingen 1992 zijn van toepassing op de
 
 overtredingen van de bepalingen van dit Wetboek en de ter uitvoering ervan genomen besluiten.
@@ -159,7 +151,6 @@ waarvan de trappen door de Koning worden vastgesteld.
 
 toepassing vanaf 01.01.2014 (art. 56))
 
-
 De artikelen 2 en 2 bis zijn niet van toepassing op de volgende belastingen die met de inkomstenbelastingen
 
 gelijkgesteld zijn:
@@ -205,7 +196,6 @@ omschreven in de reglementering nopens de inschrijving van motorvoertuigen, de s
 en -boten en, in het algemeen, alle stoom- of motorvervoermiddelen tot voortbeweging, alsmede hun
 
 aanhangwagens en opleggers.
-
 
 § 2. In afwijking van § 1, wordt, voor de toepassing van Titel II, verstaan onder motorvoertuig bestemd voor
 
@@ -283,7 +273,6 @@ geheel van rechtshandelingen waaruit één rechtshandeling waarvan ten minste de
 
 01.01.2022 en ten minste de laatste rechtshandeling is verricht vanaf 01.01.2022 (art. 54).
 
-
 (2) Artikel 9 is slechts van toepassing op voertuigen die vanaf 01.01.2022 worden ingeschreven.
 
 In afwijking van lid 1 is artikel 9 niet van toepassing op voertuigen die vóór 01.01.2022 definitief zijn verworven, maar
@@ -341,7 +330,6 @@ regeling van de inschrijving van de commerciële kentekenplaten voor motorvoertu
 6° a) de eigenlijke tractoren, de voertuigen-werktuigmachines die speciaal zijn ontworpen voor de landbouw,
 
 en de aanhangwagens, wanneer die voertuigen uitsluitend worden gebruikt om landbouwarbeid te verrichten,
-
 
 zelfs indien ze het personeel, de voorwerpen of de produkten vervoeren die daarvoor onmisbaar zijn en om
 
@@ -406,7 +394,6 @@ De Waalse Regering kan de voorwaarden en de toepassingsmodaliteiten van deze par
 § 2. Wat betreft de voertuigen en de samengestelde voertuigen gebruikt voor het vervoer van goederen over
 
 de weg met een maximaal toegelaten massa van minstens 12 ton, zijn van de belasting vrijgesteld:
-
 
 1° de motorvoertuigen en de samengestelde voertuigen uitsluitend bestemd voor de landsverdediging, voor
 
@@ -476,7 +463,6 @@ Zie hieronder een officieuze vertaling:
 
 maximumvermogen van elf kilowatt of minder.”
 
-
 ### HOOFDSTUK III - Belastingschuldigen
 
 ###### Artikel 6
@@ -526,7 +512,6 @@ Nota:
 (1) In geval van fiscaal misbruik in verband met de belasting bedoeld in afdeling 2 van Hoofdstuk I van titel VI van het
 
 Wetboek van de inkomstenbelastingen 1992, blijft artikel 344, paragraaf 1, van hetzelfde Wetboek van toepassing op het
-
 
 geheel van rechtshandelingen waaruit één rechtshandeling waarvan ten minste de eerste rechtshandeling is verricht vóór
 
@@ -589,7 +574,6 @@ Aantal PK  Bedrag der belasting in euro
 19  1.147,56
 
 20  1.306,44
-
 
 Wanneer het belastbare vermogen 20 fiscale paardenkracht te boven gaat, is de belasting vastgesteld op
 
@@ -662,7 +646,6 @@ Bedragen uitgedrukt in euro
 14.000  14.999  86,00  121,00
 
 15.000  16.999  121,00  274,00
-
 
 17.000  >17.000  121,00  274,00
 
@@ -770,7 +753,6 @@ as(sen)
 
 Bedragen uitgedrukt in euro
 
-
 14.000  14.999  0,00  0,00
 
 15.000  15.999  0,00  0,00
@@ -856,7 +838,6 @@ Bedragen uitgedrukt in euro
 Tabel VI – Motorvoertuig met twee assen en aanhangwagen of oplegger met twee assen:
 
 MTM uitgedrukt in kg  2+2 assen
-
 
 van  van
 
@@ -964,7 +945,6 @@ as(sen)
 
 Bedragen uitgedrukt in euro
 
-
 MTM uitgedrukt in kg  3 + 3 assen
 
 van  tot
@@ -1069,7 +1049,6 @@ as(sen)
 
 Bedragen uitgedrukt in euro
 
-
 39.000  39.999  465,00  706,00
 
 40.000  40.999  465,00  706,00
@@ -1131,7 +1110,6 @@ door een Belgisch ingezetene en ingeschreven in het buitenland, enkel als de doc
 het voertuig effectief in deze paragraaf beoogd wordt niet onmiddellijk getoond kunnen worden bij de controle
 
 op de inning van de verkeersbelasting uitgevoerd volgens artikel 11bis, § 4, lid 1, van het decreet van 6 mei
-
 
 1999 betreffende de vestiging, de inning en de geschillen inzake Waalse gewestelijke belastingen, maar het
 
@@ -1201,7 +1179,6 @@ op de technische eisen waaraan de auto's, hun aanhangwagens, hun onderdelen en h
 
 voldoen.
 
-
 ###### Artikel 11
 
 (gewijzigd bij art. 9 van de wet van 08.04.2002 (B.S., 12.04.2002 – Numac: 2002003199). Tekst van toepassing vanaf
@@ -1258,7 +1235,6 @@ artikelen 11, 15 en 42, § 2.
 
 maand volgend op de maand van de bekendmaking van deze wet in het B.S., zijnde 01.07.1983 (art. 30))
 
-
 Gehele of gedeeltelijke vrijstelling van de aanvullende verkeersbelasting wordt toegestaan:
 
 1° aan de niet-verblijfhouders wanneer, in de Staat waar zij verblijf houden, geen soortgelijke belasting
@@ -1311,7 +1287,6 @@ De bepalingen van dit artikel zijn niet van toepassing op de belastingen vastges
 
 10, § 1.
 
-
 ###### Artikel 16
 
 (vervangen bij art. 9 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf
@@ -1355,7 +1330,6 @@ aanslagjaar 1969 (art. 5))
 (…)
 
 ###### Artikel 20
-
 
 (opgeheven bij art. 10 van de wet van 25.01.1999 (B.S., 19.02.1999 – Numac: 1999003046). Tekst van toepassing vanaf
 
@@ -1409,7 +1383,6 @@ wordt genoemd naar het jaar waarin het tijdperk een aanvang neemt.
 
 01.01.2000 (art. 18))
 
-
 Wanneer de voorwaarden tot vrijstelling in de loop van een aanslagjaar niet meer vervuld zijn, is de belasting
 
 verschuldigd naar verhouding van de niet verstreken maanden.
@@ -1460,7 +1433,6 @@ De Waalse Regering bepaalt de voorwaarden en de nadere regels voor de toepassing
 
 toepassing vanaf 01.01.2014 (art. 56))
 
-
 (…)
 
 ###### Artikel 25
@@ -1498,7 +1470,6 @@ toepassing vanaf 01.01.2014 (art. 56))
 ### HOOFDSTUK X - Vestiging en invordering
 
 ###### Artikel 29
-
 
 (gewijzigd bij art. 18 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van
 
@@ -1548,7 +1519,6 @@ toepassing vanaf 01.01.2014 (art. 56))
 
 toepassing vanaf 01.01.2014 (art. 56))
 
-
 (…)
 
 ###### Artikel 34
@@ -1590,7 +1560,6 @@ Voertuigen.
 #### HOOFDSTUK X bis - Bijzondere bepalingen
 
 #### Art. 36. bis
-
 
 (gewijzigd bij art. 151 van de programmawet van 23.12.2009 (B.S., 30.12.2009 – ed. 1 – Numac: 2009021133). Tekst
 
@@ -1650,7 +1619,6 @@ niet meer dan zevenhonderdvijftig kilogram bedraagt, wordt aan de aangever een k
 
 waarvan het voertuig dat de aanhangwagen trekt, voortdurend moet voorzien zijn.
 
-
 Indien nodig wordt dit fiscale kenteken elk jaar vernieuwd.
 
 De Waalse Regering bepaalt de modaliteiten voor de toepassing van deze paragraaf.
@@ -1704,7 +1672,6 @@ belasting zolang er geen aangifte is gedaan van de verandering betreffende het h
 (gewijzigd bij art. 2 van het decreet van 30.11.2023 (B.S., 11.01.2024 – Numac: 2023206945). Tekst van toepassing
 
 vanaf 01.01.2024 (art. 4))
-
 
 § 1 . De belasting is verschuldigd voor het aantal maanden begrepen tussen de eerste dag van de maand
 
@@ -1762,7 +1729,6 @@ volgende jaren.
 
 ###### Artikel 37
 
-
 De belastingschuldige die om gelijk welke vrijstelling of vermindering verzoekt, kan er slechts het voordeel
 
 van verkrijgen of behouden indien hij zijn recht op deze vrijstelling of vermindering bewijst.
@@ -1802,7 +1768,6 @@ toepassing vanaf 01.01.2014 (art. 56))
 Wanneer de belasting niet is betaald kan de rechtbank de nummerplaat van het voertuig verbeurd verklaren
 
 en de teruggave ervan bevelen de dienst die het afgeleverd heeft.
-
 
 ### HOOFDSTUK XIII - Bevoegdheid van de provincies, de agglomeraties en de gemeenten
 
@@ -1857,7 +1822,6 @@ gewestelijke terugvorderbare schuldvordering.
 Deze gewestelijke schuldvordering wordt ingevorderd door ambtshalve inhouding op de uitbetaling van de
 
 bedragen/ontvangsten van de maand die volgt op de verrekening van de ontheffingen van de betrokken
-
 
 bijdragen. Indien moest blijken dat de ontvangsten toegekend gedurende een bepaalde maand om de
 
@@ -1917,7 +1881,6 @@ van deze rechten per dag en per 6,20 EUR niet te boven gaat;
 
 inzonderheid op taalkundig, geschiedkundig, aardrijkskundig of artistiek gebied, wanneer zij uitsluitend
 
-
 worden ingericht ten behoeve van musea of ten behoeve van instellingen als bedoeld in artikel 104, 1 ste lid,
 
 3° en 4°, van het Wetboek van de inkomstenbelastingen 1992.
@@ -1976,7 +1939,6 @@ brutobedrag van de sommen of inleggelden ingezet bij spelen en weddenschappen, v
 
 winsten die voor die spelen en weddenschappen werkelijk verdeeld zijn.
 
-
 § 3. Voor de toepassing van § 1 worden de sommen of inleggeleden geacht ingezet te zijn in het Waalse
 
 Gewest als de spelen of weddenschappen worden ontvangen via een server die in het Waalse Gewest
@@ -2034,7 +1996,6 @@ uitbaters verrichte opnemingen;
 2° bruto-opbrengst van de spelen: het verschil dat dagelijks per tafel wordt vastgesteld tussen het bedrag
 
 van de aan het einde van de partijen vastgestelde kasgelden en het gecumuleerde bedrag van de
-
 
 aanvankelijke en bijkomende voorschotten, verminderd met de door de bank tijdens de partij opgenomen
 
@@ -2096,7 +2057,6 @@ Voor wat betreft de pokerspelen uitgebaat buiten de hierbovenvermelde gevallen, 
 
 vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1) )
 
-
 § 1. Het bedrag van de sommen ingezet voor de spelen die een of andere analogie vertonen met de
 
 casinospelen, namelijk in de spelen "Roulette Saturne" en "Roulette Opta", wordt bepaald op grond van de
@@ -2153,7 +2113,6 @@ toepassing vanaf 01.01.1989 (art. 11, 1°))
 
 (…)
 
-
 ###### Artikel 50
 
 (opgeheven bij art. 6 van het decreet van 04.12.2003 (B.S., 04.02.2004 – ed. 2 – Numac: 2004200208). Tekst van
@@ -2199,7 +2158,6 @@ ter beschikking stellen van personen die aan spel of weddenschappen doen.
 ### HOOFDSTUK III - Aangifte
 
 ###### Artikel 53
-
 
 (vervangen bij art. 5 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van
 
@@ -2265,7 +2223,6 @@ Waalse Regering voor de controle op en de juiste inning van de belasting nodig a
 
 Nota:
 
-
 (1) De modellen van documenten bedoeld bij de artikelen 53 tot 67, 79, 84 en 88 WIGB, die vóór 1 januari 2010 door de
 
 bevoegde overheden zijn vastgesteld overeenkomstig de artikelen 53 tot 67, 79, 84 en 88 van dit Wetboek, dat van
@@ -2327,7 +2284,6 @@ en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 (vervangen bij art. 9 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van
 
 toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1) )
-
 
 § 1. De §§ 1 tot 8 van dit artikel zijn van toepassing in het geval van de sommen ingezet in de spelen die een
 
@@ -2392,7 +2348,6 @@ samenvattende lijst voor twee weken bij die in drievoud wordt opgemaakt. De mode
 samenvattende lijst en van de samenvattende lijst voor twee weken worden door de Waalse Regering
 
 bepaald.
-
 
 De samenvattende lijst voor twee weken wordt behoorlijk opgeteld en op de laatste dag van die twee weken
 
@@ -2464,7 +2419,6 @@ toepassing blijft tot 31 december 2009, blijven van toepassing en blijven hun ge
 
 en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
-
 ###### Artikel 59
 
 (gewijzigd bij art. 6 van het decreet van 22.07.2010 (B.S., 09.08.2010 – Numac: 2010204226). Tekst van toepassing
@@ -2518,7 +2472,6 @@ bescherming van de spelers kan een specifieke aangifte worden voorzien.
 bepalingen gelijktijdig met de indiening van de aangifte bij de door de Waalse Regering aangewezen
 
 ambtenaar.
-
 
 Bij gebrek aan spontane betaling neemt de door de Waalse Regering aangewezen ambtenaar, nadat hij de
 
@@ -2586,7 +2539,6 @@ en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
 toepassing vanaf 01.01.2010 (art. 103) en overgangsbepalingen (1) (2) )
 
-
 § 1. De belasting op de spelen en weddenschappen die verschuldigd is wegens de sommen ingezet op de in
 
 #### Art. 47
@@ -2650,7 +2602,6 @@ Een zakelijke waarborg dient verstrekt te worden door de belastingplichtigen van
 en weddenschappen betreffende:
 
 1° de pronostiekwedstrijden op sportproeven van verschillende aard;
-
 
 2° de belastbare spelen en weddenschappen ander dan die bedoeld in 1° waarvoor deelnemingsformulieren
 
@@ -2718,7 +2669,6 @@ en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
 #### Art. 63. ter
 
-
 (3°bis, ingevoegd bij art. 9 van het decreet van 22.07.2010 (B.S., 09.08.2010 – Numac: 2010204226). Tekst van
 
 toepassing vanaf de dag waarop het in het B.S. wordt bekendgemaakt, zijnde 09.08.2010 (art. 12)) (1)
@@ -2780,7 +2730,6 @@ Die waarborg moet uiterlijk acht dagen vóór het begin van de verrichtingen ver
 ----------
 
 Nota:
-
 
 (1) Worden evenwel beschouwd als voldoend aan de artikelen 63 tot 63quinquies WIGB, en blijven hun gevolgen behouden
 
@@ -2848,7 +2797,6 @@ voorkomen dat in het buitenland ontvangen bedragen ingezet bij wedstrijden van w
 
 sportuitslagen ingericht door in België gevestigde ondernemingen een dubbele aanslag ondergaan, enerzijds
 
-
 in de belasting op de spelen en weddenschappen ingesteld bij artikel 43 en, anderzijds, in de buitenlandse
 
 taksen of belastingen die met evengenoemde belasting op de spelen en weddenschappen kunnen worden
@@ -2909,7 +2857,6 @@ en dit tot hun wijziging, vervanging of opheffing door de bevoegde overheid.
 
 (art. 61, lid 2))
 
-
 § 1. De opening van een paardenwedrenbaan, de inrichting van paardenwedrennen zijn onderworpen aan de
 
 voorafgaande toelating van de Minister van Financiën of van zijn gedelegeerde.
@@ -2957,7 +2904,6 @@ gepaard gaande met een niet-betaling of een ontoereikende betaling van de belast
 A. Overtreding te wijten aan omstandigheden onafhankelijk van de wil van de belastingplichtige: nihil
 
 B. Overtreding begaan te goeder trouw, zonder het opzet de belasting te ontduiken:
-
 
 - 1 ste overtreding: 100 %;
 
@@ -3012,7 +2958,6 @@ vanaf 01.07.2017 (art. 23))
 § 1. Onverminderd de toepassing van de administratieve boeten bedoeld in de artikelen 68 en 68 bis van dit
 
 Wetboek en in artikel 63, § 2, 2°, van het decreet van 6 mei 1999 betreffende de vestiging, de invordering en
-
 
 de geschillen inzake de directe gewestelijke belastingen wordt hij die met het oogmerk te bedriegen of met
 
@@ -3084,7 +3029,6 @@ ontvangst te nemen, ze inzamelt of ze stort.
 
 ###### Artikel 70
 
-
 (gewijzigd bij art. 20 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van
 
 toepassing vanaf 01.01.2010 (art. 103))
@@ -3149,7 +3093,6 @@ uitgesproken krachtens artikel 70 schendt, wordt gestraft met gevangenisstraf va
 
 en met boete van 250 EUR tot 12.500 EUR of met één van die straffen alleen.
 
-
 ###### Artikel 72
 
 (vervangen bij art. 21 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van
@@ -3206,7 +3149,6 @@ slechts als getuige worden gehoord in het kader van de in § 1 bedoelde strafvor
 
 toepassing vanaf 01.01.2010 (art. 103))
 
-
 Personen die als daders of als medeplichtigen van misdrijven bedoeld in artikel 68 ter werden veroordeeld, zijn
 
 hoofdelijk gehouden tot betaling van de ontdoken belasting.
@@ -3259,7 +3201,6 @@ gemeentebelasting mogen ieder, per agentschap, niet meer bedragen dan respectiev
 
 (opgeheven bij art. 1 van het decreet van 06.08.1992 (B.S., 29.09.1992). Tekst van toepassing vanaf 01.03.1993 (art. -))
 
-
 (…)
 
 ###### Artikel 75
@@ -3305,7 +3246,6 @@ toestellen die in de daartoe bestemde lokalen uitsluitend ter beschikking staan 
 kostgangers van tehuizen voor bejaarden of van gepensioneerden of van in ziekenhuizen opgenomen
 
 personen.
-
 
 De Waalse Regering bepaalt de modaliteiten van het bewijs betreffende de hierbovenvermelde uitsluitende
 
@@ -3360,7 +3300,6 @@ categorieën A, B, C, D en E, zoals bedoeld in § 1:
 a. de elektrische biljarten met veranderlijke inzet, gewoonlijk « Bingo » genoemd, waarvan het spel erin
 
 bestaat verscheidene ballen of kogels in de op het horizontaal vlak van het toestel gemaakte gaten te
-
 
 plaatsen, met het doel, naargelang van het type van toestel, op het paneel van het verticaal vlak verscheidene
 
@@ -3419,7 +3358,6 @@ d. de elektrische golf-, hockey-, tennis- en voetbaltoestellen, het elektrische 
 model, alsook alle elektrische toestellen van de volgende modellen: « Base-ball », « Basket-ball », « Drop-ball
 
 », « Skee-ball », « Skee-fun », « All-Star Bowler », « Ten Strike »;
-
 
 e. elk elektrisch biljart dat deel uitmaakt van het « Bumper »-wedstrijdspel en dat gewoonlijk geïnstalleerd is
 
@@ -3489,7 +3427,6 @@ consumptieprijzen tussen de maand juni van het jaar van de bekendmaking en de ma
 
 jaar, jaarlijks in het Belgisch Staatsblad bekendgemaakt door de Waalse Overheidsdienst Financiën.
 
-
 § 2. Elke combinatie van toestellen waarop gelijktijdig verscheidene inzetten kunnen worden gedaan, die ieder
 
 recht geven op een afzonderlijk spel, bevat zoveel belastbare toestellen als er afzonderlijke spelen mogelijk
@@ -3554,7 +3491,6 @@ Wetboek dat van toepassing blijft tot 31 december 2009.
 
 ###### Artikel 82
 
-
 (aangevuld bij art. 28 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van
 
 toepassing vanaf 01.01.2010 (art. 103) en overgangsbepaling (1) )
@@ -3617,7 +3553,6 @@ Wetboek, dat van toepassing blijft tot 31 december 2009.
 
 toepassing vanaf 01.01.2010 (art. 103) en overgangsbepaling (2) )
 
-
 § 1. De belastingschuldige is gehouden een borderel in te dienen bij de door Waalse Regering aangewezen
 
 ambtenaar; indien de exploitant van het toestel en de belastingschuldige niet dezelfde persoon zijn, moet de
@@ -3676,7 +3611,6 @@ voortdurend op een zichtbare en gemakkelijk te bereiken plaats bevestigd zijn; h
 
 aangewend voor een toestel van een hogere categorie dan diegene waarvoor de belasting werd betaald.
 
-
 In geval van afstand van het toestel is de nieuwe eigenaar gemachtigd het voorheen op het toestel bevestigde
 
 kenteken verder te gebruiken, op voorwaarde dat hij de naam en het adres van de vorige eigenaar door zijn
@@ -3731,7 +3665,6 @@ alle maatregelen treffen die zij nodig acht om de controle van de belastbare ele
 
 dan die voorzien in dit Wetboek te simplificeren, om de belastingplichtigen vrij te stellen van enkele
 
-
 verplichtingen of om de verplichtingen van de belastingplichtigen aan te passen aan de ontwikkeling van de
 
 federale wetgeving betreffende de kansspelen.
@@ -3785,7 +3718,6 @@ bestraft.
 § 3. In geval van niet-naleving van de bepalingen betreffende de vrijstelling van de belasting en onder de
 
 voorwaarden betreffende de vermindering van de belasting, wordt de belasting verdrievoudigd.
-
 
 § 4. De bij dit artikel bedoelde boete wordt niet verschuldigd wanneer het ontstaanfeit daarvoor het voorwerp
 
@@ -3851,7 +3783,6 @@ van 6 mei 1999 betreffende de vestiging, de invordering en de geschillen inzake 
 
 belastingen wordt hij die schuldig is aan een valse getuigenis, de tolk of de deskundige die schuldig is aan
 
-
 valse verklaringen en diegene die schuldig is aan verleiding van getuigen, deskundigen of tolken tijdens de
 
 uitoefening door de door de Waalse Regering aangewezen dienst van één van de bevoegdheden om
@@ -3912,7 +3843,6 @@ In geen enkel geval schorst het verzoek om advies de strafvordering.
 
 slechts als getuige worden gehoord in het kader van de in § 1 bedoelde strafvordering.
 
-
 #### Art. 90. quater
 
 (ingevoegd bij art. 40 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van
@@ -3963,7 +3893,6 @@ dezelfde wet van 7 mei 1999, niet naleeft.
 
 ###### Artikel 92
 
-
 (lid 3, opgeheven bij art. 42 van het decreet van 10.12.2009 (B.S., 24.12.2009 – ed. 1 – Numac: 2009205883). Tekst van
 
 toepassing vanaf 01.01.2010 (art. 103))
@@ -4011,7 +3940,6 @@ Er wordt ten bate van de Staat een met de inkomstenbelastingen gelijkgestelde be
 1° de personenauto's, auto's voor dubbel gebruik, minibussen en motorfietsen, zoals deze voertuigen
 
 omschreven zijn in de reglementering van de inschrijving van de motorvoertuigen en de aanhangwagens en
-
 
 zoals zij worden verstaan in de zin van artikel 4, § 3, en voor zover deze voertuigen voorzien zijn of moeten
 
@@ -4065,7 +3993,6 @@ a) de groot-oorlogsinvaliden, militaire of burgerlijke, die een invaliditeitspen
 
 genieten;
 
-
 b) de personen die volledig blind zijn, volledig blind zijn, volledig verlamd zijn aan de bovenste ledematen of
 
 wier bovenste ledematen geamputeerd zijn en de personen die aangetast zijn door een blijvende invaliditeit
@@ -4117,7 +4044,6 @@ TOEKOMSTIG RECHT (vanaf 01.07.2026)
 ### HOOFDSTUK IV - Bedrag van de belasting
 
 ###### Artikel 98
-
 
 (gewijzigd bij art. 2 van het decreet van 30.05.2025 (B.S., 12.06.2025 – Numac: 2025004290). Tekst van toepassing vanaf
 
@@ -4180,7 +4106,6 @@ samenwonende of zijn samenwonende die deel uitmaken van zijn gezin en die hij vo
 laste heeft, alsook de andere kinderen die deel uitmaken van zijn gezin en die hij volledig of hoofdzakelijk ten
 
 laste heeft.
-
 
 Volgende kinderen worden verondersteld ten laste te zijn op de dag van de ingebruikneming van het
 
@@ -4248,7 +4173,6 @@ vermeld dat de huisvesting van die kinderen gelijkmatig is verdeeld over beide b
 
 § 2. De belasting wordt vastgesteld als volgt:
 
-
 A. Voertuigen, voertuigen voor dubbel gebruik en minibussen
 
 1° (1) Voor de voertuigen, voertuigen voor dubbel gebruik en minibussen die in het Waalse Gewest in gebruik
@@ -4314,7 +4238,6 @@ het voertuig, uitgedrukt in kilogram, en een massacoëfficiënt vastgesteld op d
 achtendertig kilogram.
 
 d) C = brandstof- of energiecoëfficiënt vastgesteld volgens de volgende tabel:
-
 
 Brandstof/Energie  Brandstof/energiecoëfficiënt
 
@@ -4400,7 +4323,6 @@ De Waalse Regering kan de voorwaarden bepalen voor de toepassing van de voorgaan
 
 voordeel automatisch of op verzoek van de betrokkene wordt toegekend.
 
-
 4° in afwijking van 1° is het bedrag van de belasting gelijk aan 0,00 euro voor het voertuig onderworpen aan
 
 een forfaitaire verkeersbelasting van 100 euro in toepassing van artikel 10, § 3.
@@ -4464,7 +4386,6 @@ in artikel 97, tweede lid:
 1° het eerste bestanddeel is de belasting die wordt vastgesteld volgens de volgende schaal:
 
 Aantal fiscale pk  Aantal kilowatt  Bedrag van de belasting in euro
-
 
 Van 0 tot 10  Van 0 tot 85  50,00
 
@@ -4534,7 +4455,6 @@ b) verminderd met 1 voor het voertuig dat op de datum van ingebruikneming van he
 
 in een voertuigregistratielijst met vloeibaar petroleumgas als brandstof of energiebron.
 
-
 Het in het tweede lid bedoeld voordeel wordt automatisch of op verzoek van de betrokkene toegekend.
 
 In afwijking van de tabel in het eerste lid, is het bedrag van de eco-malus gelijk aan 0,00 euro:
@@ -4594,7 +4514,6 @@ dan 9 jaar, 9 jaar tot minder dan 10 jaar, 10 jaar tot minder dan 11 jaar, 11 ja
 tot minder dan 13 jaar, 13 jaar tot minder dan 14 jaar, 14 jaar tot minder dan 15 jaar.
 
 Na verlaging kan het basisbedrag nooit minder zijn dan 61,50 euro;
-
 
 b) is uniform vastgesteld op 61,50 euro voor voertuigen die 15 jaar of langer geleden voor het eerst in het
 
@@ -4660,7 +4579,6 @@ voorleggen, onmiddellijk indien hij zitting houdt, zo niet bij de opening van zi
 
 Nota:
 
-
 (1) Lees “1°” (zie de Franse tekst).
 
 (2) Lees “artikel 94°, 1°“ (zie de Franse tekst).
@@ -4716,7 +4634,6 @@ c) "huishouden": groep van personen samengesteld uit verscheidene samenwonende p
 die personen al dan niet door verwantschap verbonden zijn, die, op de dag van de ingebruikneming van het
 
 autovoertuig, doorgaans dezelfde hoofdverblijfplaats hebben, in de zin van artikel 3 van de wet van 19 juli
-
 
 1991 betreffende de bevolkingsregisters en de identiteitskaarten en tot wijziging van de wet van 8 augustus
 
@@ -4788,7 +4705,6 @@ Gerechtelijk Wetboek uiterlijk op de dag van de ingebruikneming van het autovoer
 
 vermeld dat de huisvesting van die kinderen gelijkmatig is verdeeld over beide belastingplichtigen.
 
-
 § 2. De belasting wordt vastgesteld als volgt:
 
 A. Voertuigen, voertuigen voor dubbel gebruik en minibussen
@@ -4848,7 +4764,6 @@ de nieuwe Europese rijcyclus, de WLTP-cyclus genaamd.
 Voor voertuigen die uitsluitend op elektriciteit of waterstof rijden, wordt de CO 2 -emissiecoëfficiënt uniform
 
 vastgesteld op één.
-
 
 c) M/y = massacoëfficiënt vastgesteld op basis van de verhouding tussen de maximaal toegestane massa van
 
@@ -4928,7 +4843,6 @@ voordeel automatisch of op verzoek van de betrokkene wordt toegekend;
 
 een forfaitaire verkeersbelasting van 100 euro in toepassing van artikel 10, § 3.
 
-
 5° In afwijking van 1° wordt de belasting uniform vastgesteld op 61,50 euro voor voertuigen die meer dan
 
 dertig jaar in het verkeer zijn en ingeschreven zijn onder een van de nummerplaten bedoeld in artikel 4, § 2,
@@ -4994,7 +4908,6 @@ Van 0 tot 10  Van 0 tot 85  50,00
 11  Van 86 tot 100  173,00
 
 Van 12 tot 14  Van 101 tot 110  303,00
-
 
 15  Van 111 tot 120  434,00
 
@@ -5062,7 +4975,6 @@ Het in het tweede lid bedoeld voordeel wordt automatisch of op verzoek van de be
 
 In afwijking van de tabel in het eerste lid, is het bedrag van de eco-malus gelijk aan 0,00 euro:
 
-
 a) voor de voertuigen die sinds meer dan dertig jaar in het verkeer zijn gesteld en die ingeschreven zijn onder
 
 een van de kentekenplaten bedoeld in artikel 4, § 2, van het ministerieel besluit van 23 juli 2001 betreffende
@@ -5122,7 +5034,6 @@ Na verlaging kan het basisbedrag nooit minder zijn dan 61,50 euro;
 b) is uniform vastgesteld op 61,50 euro voor voertuigen die 15 jaar of langer geleden voor het eerst in het
 
 land of in het buitenland werden geregistreerd voordat ze definitief werden ingevoerd.
-
 
 De in het tweede lid, A, vastgestelde belasting kan nooit minder dan 50,00 euro of meer dan 9.000,00 euro
 
@@ -5187,7 +5098,6 @@ Nota:
 (1) Lees “1°” (zie Franse tekst).
 
 (2) Lees “artikel 94°, 1°“ (zie Franse tekst).
-
 
 #### Art. 98. bis
 
@@ -5267,7 +5177,6 @@ Benzine hybride + vloeibaar
 
 petroleumgas.
 
-
 Benzine hybride + aardgas onder druk  85  1 896
 
 Benzine hybride + elektrisch of
@@ -5338,7 +5247,6 @@ de waarden die door de toepassing van dit artikel zijn gevormd.
 
 van toepassing vanaf 01.06.1992 (art. 3))
 
-
 ###### Artikel 99
 
 (ingevoegd bij art. 1 van de wet van 01.06.1992 (B.S., 01.06.1992 – Numac: 1992003363) err. (B.S., 18.07.1992). Tekst
@@ -5393,7 +5301,6 @@ De plaats van aanslag is de gemeente vermeld of het moet zijn op het inschrijvin
 
 op het ogenblik van het ontstaan van de belastingschuld.
 
-
 ###### Artikel 102
 
 (gewijzigd bij art. 38 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van
@@ -5437,7 +5344,6 @@ toepassing vanaf 01.01.2014 (art. 56))
 (…)
 
 ###### Artikel 105
-
 
 (gewijzigd bij art. 40 van het decreet van 28.11.2013 (B.S., 18.12.2013 – ed. 2 – Numac: 2013206976). Tekst van
 
@@ -5483,7 +5389,6 @@ De Gemeenschappen, de Gewesten, de provincies, de agglomeraties en de gemeenten 
 
 opcentiemen op de belasting op de inverkeerstelling te heffen.
 
-
 ## TITEL VI - (…)
 
 (titel opgeheven bij art. 13 van de programmawet van 05.08.2003 (B.S., 07.08.2003 – ed. 2 – Numac: 2003021183).
@@ -5525,7 +5430,6 @@ van toepassing vanaf aanslagjaar 2008 (art. 14))
 ( … )
 
 ###### Artikel 111
-
 
 (opgeheven bij art. 13 van de programmawet van 05.08.2003 (B.S., 07.08.2003 – ed. 2 – Numac: 2003021183). Tekst
 
@@ -5574,7 +5478,6 @@ van een winstpremie voor de werknemers of van het deelbewijs vermeld in artikel 
 (gewijzigd bij art. 20 van de wet van 30.07.2018 (B.S., 10.08.2018 – Numac: 2018031626). Tekst van toepassing vanaf
 
 01.01.2018 (art. 21))
-
 
 § 1. De belastbare grondslag van de belasting is als volgt vastgesteld:
 
@@ -5638,7 +5541,6 @@ De belastbare grondslag van de aanvullende belasting komt overeen met die welke 
 
 toepassing van artikel 113, § 1, 2°, als het een participatie in het kapitaal betreft of met toepassing van artikel
 
-
 113, § 1, 3°, als het een winstpremie voor de werknemers is in het kader van een investeringsspaarplan en
 
 wordt beperkt in evenredigheid met de beschikbaar geworden aandelen of deelbewijzen met aftrek, in de
@@ -5691,7 +5593,6 @@ winstpremie voor de werknemers, ophoudt behalve in de gevallen bedoeld in de art
 
 Tekst van toepassing vanaf 01.01.2018 (art. 78))
 
-
 § 1. Het belastingtarief is vastgesteld op:
 
 - 15 pct. voor de deelnames in het kapitaal;
@@ -5743,7 +5644,6 @@ voorafgaand aan elke vrijgave van aandelen;
 van een winstpremie voor de werknemers, de coöperatieve participatievennootschap vermeld in Hoofdstuk
 
 III van voormelde wet;
-
 
 3° in alle andere gevallen, de werkgever bedoeld in artikel 2 van de wet van 22 mei 2001 betreffende de
 

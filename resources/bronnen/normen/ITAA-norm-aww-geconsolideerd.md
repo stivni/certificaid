@@ -36,9 +36,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_at: '2026-05-13T12:27:04Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A2: inhoudstafel met dotted-leader TOC (regels 70-124) staat in de body met paginanummers en dashes als dotted leaders (bv. 'DEFINITIES --------- 4'). A7/B4: sectie 4 heeft geen ## heading maar alleen een nummerlabel '4.' (r88) gevolgd door de titel 'CLIENTACCEPTATIEBELEID' als ALL-CAPS plain text (r90) in de TOC — section 4-body begint abrupt op r236 zonder heading. Structuur van secties 1-3 intact als ## headings maar sectie 4-5 body mist heading. Inhoud verder substantieel aanwezig."
+    rationale: "Ernstige column-extractie-artefacten door het hele document: de tweekoloms PDF-layout is niet correct afgehandeld. De inhoudstafel (regels 108-166) staat als dotted-leader plain-text midden in de body. Definitie-items 1° t/m 20° zijn door kolom-extractie door elkaar geschud (bv. 1° staat op r186, dan 12° op r191, dan 2° op r196 — volgorde is 1°, 12°, 2°, 13°, 3°, 14°, ... i.p.v. sequentieel). Body-alinea's zijn gefragmenteerd over losse regels met witruimte (A6/A7). Secties 2-8 hebben geen ## headings — ze staan als plain-text sectietitel (B4/B5). Laag 1 bevestigt: 0 ## headings, max_section_chars = 43060, status = fail."
     layer1:
       status: pass
       run_id: 20260513-000913
@@ -50,21 +50,33 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T00:12:30Z'
-      rationale: "A2: inhoudstafel met dotted-leader TOC (regels 70-124) staat in de body met paginanummers en dashes als dotted leaders (bv. 'DEFINITIES --------- 4'). A7/B4: sectie 4 heeft geen ## heading maar alleen een nummerlabel '4.' (r88) gevolgd door de titel 'CLIENTACCEPTATIEBELEID' als ALL-CAPS plain text (r90) in de TOC — section 4-body begint abrupt op r236 zonder heading. Structuur van secties 1-3 intact als ## headings maar sectie 4-5 body mist heading. Inhoud verder substantieel aanwezig."
+      run_at: '2026-05-13T12:27:04Z'
+      rationale: "Ernstige column-extractie-artefacten door het hele document: de tweekoloms PDF-layout is niet correct afgehandeld. De inhoudstafel (regels 108-166) staat als dotted-leader plain-text midden in de body. Definitie-items 1° t/m 20° zijn door kolom-extractie door elkaar geschud (bv. 1° staat op r186, dan 12° op r191, dan 2° op r196 — volgorde is 1°, 12°, 2°, 13°, 3°, 14°, ... i.p.v. sequentieel). Body-alinea's zijn gefragmenteerd over losse regels met witruimte (A6/A7). Secties 2-8 hebben geen ## headings — ze staan als plain-text sectietitel (B4/B5). Laag 1 bevestigt: 0 ## headings, max_section_chars = 43060, status = fail."
       concrete_problemen:
-        - regel: 70
+        - regel: 108
           categorie: A2
           type: dotted-leader
-          voorbeeld: DEFINITIES ------------------------------------------------------------------------------------------------------------------------------------ 4
-        - regel: 88
+          voorbeeld: "Inhoudstafel: 'ALGEMENE BEPALINGEN ----------------------------------------------------------------------------------------------------------- 4'"
+        - regel: 191
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: 'Definitie-volgorde door kolom-extractie: 1° (r186) → 12° (r191) → 2° (r196) → 13° (r199) — niet sequentieel'
+        - regel: 375
           categorie: B4
           type: other
-          voorbeeld: "4.\n\nCLIENTACCEPTATIEBELEID ---- 8 (all-caps plain text i.p.v. ## heading)"
-        - regel: 236
+          voorbeeld: "'2. Organisatie en interne controle' als plain-text zonder ## prefix (sectie-heading ontbreekt)"
+        - regel: 548
+          categorie: B4
+          type: other
+          voorbeeld: "'3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar' over 4 regels als plain-text"
+        - regel: 619
+          categorie: A6
+          type: other
+          voorbeeld: "Alinea gefragmenteerd: 'risicobeoordeling nog actueel is. Hij deelt zijn\\nbevindingen, en de desgevallend te verrichten\\nbijwerkingen\\nmee\\naan\\nhet\\nwettelijk\\nbestuursorgaan' — PDF-kolom-regelbreuk"
+        - regel: 1397
           categorie: B5
           type: other
-          voorbeeld: 4.2. (artikel-nummer in body zonder heading prefix)
+          voorbeeld: "'8. Toezicht en controle' als plain-text; zin eindigt abrupt: 'de toepassing van de Wet en de bepalingen van'"
 ---
 Geconsolideerde tekst door het Instituut van de Belastingadviseurs en de Accountants (ITAA) van de norm van het IAB en de richtlijn van het BIBF inzake de toepassing van de wet van 18 september 2017 tot
 

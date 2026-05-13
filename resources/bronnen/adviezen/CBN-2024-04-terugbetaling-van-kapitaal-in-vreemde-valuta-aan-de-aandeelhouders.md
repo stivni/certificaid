@@ -45,9 +45,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:48Z'
+    confirmed_at: '2026-05-13T12:28:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig. Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen TOC-residu, geen malformed bold/italic.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -59,8 +59,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:48Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:33Z'
+      rationale: 'Geen zichtbare extractie-artefacten. Twee uitgewerkte voorbeelden met journaalboekingen in correcte pipe-tabellen. Voetnoten [^1]–[^16] volledig. Heading-hiërarchie correct (#, ##). Inhoud volledig voor het onderwerp (historische vs. actuele wisselkoers, hypothese 1 en 2, voorbeeld 2 met doorverkoop). Geen TOC-residu, geen malformed bold/italic.'
       concrete_problemen: []
 ---
 # CBN-advies 2024/04 – Terugbetaling van kapitaal in vreemde valuta aan de aandeelhouders

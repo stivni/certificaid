@@ -41,7 +41,7 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_at: '2026-05-13T12:26:28Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'D4: twee keer (**) als voetnootmarkering (regels 69 en 120) - ETL heeft dit gerenderd als unclosed bold in plaats van als voetnootmarkering.'
     layer1:
@@ -55,7 +55,7 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
+      run_at: '2026-05-13T12:26:28Z'
       rationale: 'D4: twee keer (**) als voetnootmarkering (regels 69 en 120) - ETL heeft dit gerenderd als unclosed bold in plaats van als voetnootmarkering.'
       concrete_problemen:
         - regel: 69

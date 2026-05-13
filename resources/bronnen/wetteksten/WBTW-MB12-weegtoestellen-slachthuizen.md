@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:26:39Z'
+  generated_at: '2026-05-13T12:24:32Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T11:27:20Z'
+    confirmed_at: '2026-05-13T12:28:36Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Korte MB met 2 artikelen. Geen TOC- of footer-artefact. Art. 1 bevat een opsomming met losse '-' bullets (regels 56-63) waar ' - de naam en het adres ...' midden in een prozaregel aansluit op een lopende zin ('de afdrukinrichting ... de volgende inlichtingen afdrukken: - de naam ...'), maar dat is een aanvaardbare lijst-conversie. Geen kolom-bleed of scrambled tekst."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:27:20Z'
+      run_at: '2026-05-13T12:28:36Z'
       rationale: "Korte MB met 2 artikelen. Geen TOC- of footer-artefact. Art. 1 bevat een opsomming met losse '-' bullets (regels 56-63) waar ' - de naam en het adres ...' midden in een prozaregel aansluit op een lopende zin ('de afdrukinrichting ... de volgende inlichtingen afdrukken: - de naam ...'), maar dat is een aanvaardbare lijst-conversie. Geen kolom-bleed of scrambled tekst."
       concrete_problemen: []
 ---

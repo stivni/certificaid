@@ -17,47 +17,32 @@ provenance:
       version: '05.2026'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 06a7e51-dirty
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:03:57Z'
+  generated_at: '2026-05-13T12:25:27Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:19:59Z'
+    confirmed_at: '2026-05-13T12:26:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A1: 147 paginavoetregels '© Larcier-Intersentia, Het zakboekje voor de zelfstandige 2026 XX' verspreid door de body (elke ~40 regels). C1: 218 bullet-glyphs (•) in body. Bijkomend: speciale Unicode-ligatures (ﬃ, ﬀ) uit PDF door heel document. Ondanks goede H1/H2/H3-structuur maken de persistente paginavoetregels dit needs-rework."
+    rationale: 'L1 warn: 18 headings, max sectie 119K chars. Praktijkgids met tabellen en forfaitaire bedragen. Tabellen zijn gedeeltelijk als pseudo-tabellen met witruimte-alignment (zie de sociale voordelen-tabel). Geen Art.-structuur.'
     layer1:
-      status: warn
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:37Z'
-      heading_count: 18
-      max_section_chars: 117119
-      file_size_chars: 281394
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 117119 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:19:59Z'
-      rationale: "A1: 147 paginavoetregels '© Larcier-Intersentia, Het zakboekje voor de zelfstandige 2026 XX' verspreid door de body (elke ~40 regels). C1: 218 bullet-glyphs (•) in body. Bijkomend: speciale Unicode-ligatures (ﬃ, ﬀ) uit PDF door heel document. Ondanks goede H1/H2/H3-structuur maken de persistente paginavoetregels dit needs-rework."
+      run_at: '2026-05-13T12:26:25Z'
+      rationale: 'L1 warn: 18 headings, max sectie 119K chars. Praktijkgids met tabellen en forfaitaire bedragen. Tabellen zijn gedeeltelijk als pseudo-tabellen met witruimte-alignment (zie de sociale voordelen-tabel). Geen Art.-structuur.'
       concrete_problemen:
-        - regel: 67
-          categorie: A1
-          type: form-feed
-          voorbeeld: © Larcier-Intersentia, Het zakboekje voor de zelfstandige 2026 35
-        - regel: 111
-          categorie: A1
-          type: form-feed
-          voorbeeld: '  36 © Larcier-Intersentia, Het zakboekje voor de zelfstandige 2026'
-        - regel: 59
-          categorie: C1
-          type: bullet-glyph
-          voorbeeld: • behoren tot het onroerend erfgoed...
+        - regel:
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: '    aftrek- belastbaar welke maximaal RSZ verbaar bij de bij de werk-...'
+        - regel:
+          categorie: G1
+          type: url-plaintext
+          voorbeeld: https://be.brussels/fr/propos-de-la-region/... (kale URL)
 ---
 
 # Cijfers & tarieven 2026 — ITAA
@@ -84,17 +69,17 @@ Deze vermindering bedraagt:
 © Larcier-Intersentia, Het zakboekje voor de zelfstandige 2026 35
 Onroerende goederen
 
-Onroerende voorheﬃng – Vlaams gewest
+Onroerende voorheffing – Vlaams gewest
 
 Bron: Vlaamse Codex Fiscaliteit (VCF), titel 2, hoofdstuk 1
 
 Algemeen
-De onroerende voorheﬃng is een gewestelijke belasting op onroerende goederen (woningen, appartementen, gronden, enz.) die jaarlijks betaald moet worden. Ze is in principe verschuldigd door diegene die op 1 januari van het aanslagjaar de eigenaar, bezitter, erfpachter, opstalhouder of vruchtgebruiker is (hierna de belastingplichtige genoemd).
+De onroerende voorheffing is een gewestelijke belasting op onroerende goederen (woningen, appartementen, gronden, enz.) die jaarlijks betaald moet worden. Ze is in principe verschuldigd door diegene die op 1 januari van het aanslagjaar de eigenaar, bezitter, erfpachter, opstalhouder of vruchtgebruiker is (hierna de belastingplichtige genoemd).
 
-In tegenstelling tot de inkomstenbelasting, waarbij het aanslagjaar in principe gelijk is aan het inkomstenjaar + 1, is inzake de onroerende voorheﬃng het aanslagjaar altijd gelijk aan het inkomstenjaar.
+In tegenstelling tot de inkomstenbelasting, waarbij het aanslagjaar in principe gelijk is aan het inkomstenjaar + 1, is inzake de onroerende voorheffing het aanslagjaar altijd gelijk aan het inkomstenjaar.
 
 Bedrag
-De onroerende voorheﬃng is gelijk aan een percentage van het geïndexeerde kadastraal inkomen (ki). Het nale bedrag van de onroerende voorheﬃng omvat het gewestelijke tarief, met vervolgens de provinciale en gemeentelijke opcentiemen.
+De onroerende voorheffing is gelijk aan een percentage van het geïndexeerde kadastraal inkomen (ki). Het nale bedrag van de onroerende voorheffing omvat het gewestelijke tarief, met vervolgens de provinciale en gemeentelijke opcentiemen.
 100 opcentiemen betekent een bijkomende belasting van € 1 op elke euro gewestbelasting.
 
 De gewestelijke tarieven zien er voor 2026 als volgt (art. 2.1.4.0.1 VCF) uit: • Basistarief: 3,97% • Sociale woningen: 2,54%
@@ -116,10 +101,10 @@ Provinciale opcentiemen 150
 (1) Er is geen rekening gehouden met eventuele verminderingen voor kinderen ten laste, leegstand, enz.
 
 Reken zelf
-Op de volgende website kunt u een simulatie maken van de verschuldigde onroerende voorheﬃng: https://belastingen.fenb. be/vfp-portal-pub2-web/simulatieOv.html.
+Op de volgende website kunt u een simulatie maken van de verschuldigde onroerende voorheffing: https://belastingen.fenb. be/vfp-portal-pub2-web/simulatieOv.html.
 
 Vrijstellingen
-Op aanvraag van de belastingplichtige zijn vrijgesteld van onroerende voorheﬃng (art. 2.1.6.0.1 VCF):
+Op aanvraag van de belastingplichtige zijn vrijgesteld van onroerende voorheffing (art. 2.1.6.0.1 VCF):
 
 • onroerende goederen of delen van onroerende goederen die, zonder winstoogmerk, bestemd zijn voor het uitoefenen van een eredienst of een vrijzinnige morele dienstverlening, voor onderwijs, voor de vestiging van hospitalen, rusthuizen, vakantiehuizen voor gepensioneerden, of van andere soortgelijke weldadigheidsinstellingen, en ook wanneer ze bestemd zijn voor het openbaar uitoefenen van een eredienst of van de vrijzinnige morele dienstverlening;
 • onroerende goederen die door een vreemde staat bestemd worden voor de huisvesting van zijn diplomatieke of consulaire zendingen;
@@ -132,7 +117,7 @@ Onroerende goederen
 • de omvorming van een klein handelspand tot een woning geeft recht op een volledige vrijstelling van de ov gedurende drie aanslagjaren. Een handelspand wordt als ‘klein’ beschouwd wanneer de vloeroppervlakte maximaal 15 are bedraagt en minstens 50% van deze oppervlakte gebruikt wordt voor het voeren van een handelsactiviteit. Het mag dus niet gebruikt worden voor een vrij beroep;
 • monumenten, meer bepaald de als monument beschermde onroerende goederen die de Vlaamse regering in erfpacht gegeven heeft of in volle eigendom afgestaan heeft aan een vereniging of stichting die is opgericht overeenkomstig de wet van 27 juni 1921, en waarvan de hoofddoelstelling erin bestaat een of meer beschermde onroerende goederen waarvan ze eigenaar of erpachter is, in stand te houden, te beheren en te ontsluiten;
 • onroerende goederen die onder de toepassing van het Bosdecreet van 13 juni 1990 vallen en die erkend zijn voor de productie van bosbouwkundig teeltmateriaal als vermeld in art. 42 van het voormelde decreet;
-• gronden waarvoor een natuurbeheerplan als vermeld in art. 16ter, §1, 4° van het decreet van 21 oktober 1997 betreﬀende het natuurbehoud en het natuurlijk milieu, is goedgekeurd conform de bepalingen en uitvoeringsbesluiten van dat decreet.
+• gronden waarvoor een natuurbeheerplan als vermeld in art. 16ter, §1, 4° van het decreet van 21 oktober 1997 betreffende het natuurbehoud en het natuurlijk milieu, is goedgekeurd conform de bepalingen en uitvoeringsbesluiten van dat decreet.
 
 Verminderingen
 
@@ -144,7 +129,7 @@ Voor belastingplichtigen en huurders die minstens twee kinderen hebben voor wie 
 
 Hoeveel?
 
-De vermindering slaat zowel op de ov die geïnd wordt voor het gewest als op de ov die geïnd wordt voor de provincie en de gemeente. De eﬀectieve vermindering varieert dus naargelang van de provinciale en gemeentelijke opcentiemen die geheven worden. De vermindering kan als volgt samengevat worden: Vermindering = geïndexeerd basisbedrag + (geïndexeerd basisbedrag x som opcentiemen/100)
+De vermindering slaat zowel op de ov die geïnd wordt voor het gewest als op de ov die geïnd wordt voor de provincie en de gemeente. De effectieve vermindering varieert dus naargelang van de provinciale en gemeentelijke opcentiemen die geheven worden. De vermindering kan als volgt samengevat worden: Vermindering = geïndexeerd basisbedrag + (geïndexeerd basisbedrag x som opcentiemen/100)
 
 Sinds aanslagjaar 2023 bedraagt het basisbedrag € 8 per kind en wordt sinds aanslagjaar 2024 jaarlijks geïndexeerd.
 
@@ -241,7 +226,7 @@ Deze vermindering bedraagt sinds 1 januari 2023 100% als het gerenoveerd gebouw 
 
 Voor bouwvergunningen die aangevraagd worden sinds 1 oktober 2025 worden geen vermindering voor energetische renovatie meer verleend. Voor vergunningen aangevraagd vóór 1 oktober 2025 blijft de huidige regeling gelden. Alle verminderingen die al toegekend werden, blijven geldig voor de resterende periode.
 
-Bron: https://www.vlaanderen.be/vermindering-van-de-onroerende-voorheﬃng-voor-energiezuinige-gebouwen.
+Bron: https://www.vlaanderen.be/vermindering-van-de-onroerende-voorheffing-voor-energiezuinige-gebouwen.
 
 Improductiviteit
 Hoeveel?
@@ -267,17 +252,17 @@ Deze vermindering bedraagt 20%. De invaliditeit moet 100% bedragen. De verminder
 © Larcier-Intersentia, Het zakboekje voor de zelfstandige 2026 39
 Onroerende goederen
 
-Onroerende voorheﬃng – Waals gewest
+Onroerende voorheffing – Waals gewest
 
 Bron: art. 251-260ter WIB 92
 
 Algemeen
-De onroerende voorheﬃng is een gewestelijke belasting op onroerende goederen (woningen, appartementen, gronden, enz.) die jaarlijks betaald moet worden. Ze is in principe verschuldigd door diegene die op 1 januari van het aanslagjaar de eigenaar, bezitter, erfpachter, opstalhouder of vruchtgebruiker is (hierna de belastingplichtige genoemd).
+De onroerende voorheffing is een gewestelijke belasting op onroerende goederen (woningen, appartementen, gronden, enz.) die jaarlijks betaald moet worden. Ze is in principe verschuldigd door diegene die op 1 januari van het aanslagjaar de eigenaar, bezitter, erfpachter, opstalhouder of vruchtgebruiker is (hierna de belastingplichtige genoemd).
 
-In tegenstelling tot de inkomstenbelasting, waarbij het aanslagjaar in principe gelijk is aan het inkomstenjaar + 1, is inzake de onroerende voorheﬃng het aanslagjaar altijd gelijk aan het inkomstenjaar.
+In tegenstelling tot de inkomstenbelasting, waarbij het aanslagjaar in principe gelijk is aan het inkomstenjaar + 1, is inzake de onroerende voorheffing het aanslagjaar altijd gelijk aan het inkomstenjaar.
 
 Bedrag
-De onroerende voorheﬃng is gelijk aan een percentage van het geïndexeerde kadastraal inkomen (ki). Het nale bedrag omvat het gewestelijke tarief, met vervolgens de provinciale en gemeentelijke opcentiemen. 100 opcentiemen betekent een bijkomende belasting van € 1 op elke euro gewestbelasting.
+De onroerende voorheffing is gelijk aan een percentage van het geïndexeerde kadastraal inkomen (ki). Het nale bedrag omvat het gewestelijke tarief, met vervolgens de provinciale en gemeentelijke opcentiemen. 100 opcentiemen betekent een bijkomende belasting van € 1 op elke euro gewestbelasting.
 
 Het tarief voor het Waals gewest ziet er voor 2026 als volgt (art. 255, §1 WIB 92) uit:
 
@@ -297,7 +282,7 @@ Provinciale opcentiemen 290
 (1) Er is geen rekening gehouden met eventuele verminderingen voor kinderen ten laste, leegstand, enz.
 
 Vrijstellingen
-Zijn onder meer vrijgesteld van onroerende voorheﬃng (art. 253 WIB 92):
+Zijn onder meer vrijgesteld van onroerende voorheffing (art. 253 WIB 92):
 
 • onroerende goederen of delen van onroerende goederen die, zonder winstoogmerk, bestemd zijn voor onderwijs, voor de vestiging van hospitalen, rusthuizen, vakantiehuizen voor kinderen of gepensioneerden, met inbegrip van de serviceats en opvanginfrastructuren voor kinderen jonger dan drie jaar, evenals de infrastructuur voor de opvang en huisvesting van personen met een handicap;
 • onroerende goederen die door een vreemde staat bestemd worden voor de huisvesting van zijn diplomatieke of consulaire zendingen;
@@ -332,15 +317,15 @@ Een persoon met een handicap heeft recht op de volgende vermindering voor de won
 • € 250 in geval van huwelijk, wettelijke of feitelijke samenwoning (een van beiden gehandicapt);
 • € 375 in geval van huwelijk, wettelijke of feitelijke samenwoning (beiden gehandicapt).
 
-telkens te vermenigvuldigen met de breuk ((100/(100 + bovenop de onroerende voorheﬃng verschuldigde opcentiemen bepaald door de gemeente, de agglomeratie en de provincie waar de betrokken woning van de gehandicapte persoon gelegen is)).
+telkens te vermenigvuldigen met de breuk ((100/(100 + bovenop de onroerende voorheffing verschuldigde opcentiemen bepaald door de gemeente, de agglomeratie en de provincie waar de betrokken woning van de gehandicapte persoon gelegen is)).
 
 Als men één of meerdere andere gehandicapte personen (andere dan kinderen) ten laste heeft, krijgt men een vermindering van € 125 per betrokken persoon. Deze twee verminderingen kunnen niet gelijktijdig toegekend worden.
 
 Grootoorlogsverminkten
-Een grootoorlogsverminkte heeft, voor de woning die hij in gebruik genomen heeft als eigenaar of huur, recht op een vermindering van € 250, vermenigvuldigd met de breuk ((100/(100 + bovenop de onroerende voorheﬃng verschuldigde opcentiemen bepaald door de gemeente, de agglomeratie en de provincie waar de door de grootoorlogsverminkte betrokken woning gelegen is)) (art. 257, 2° WIB 92).
+Een grootoorlogsverminkte heeft, voor de woning die hij in gebruik genomen heeft als eigenaar of huur, recht op een vermindering van € 250, vermenigvuldigd met de breuk ((100/(100 + bovenop de onroerende voorheffing verschuldigde opcentiemen bepaald door de gemeente, de agglomeratie en de provincie waar de door de grootoorlogsverminkte betrokken woning gelegen is)) (art. 257, 2° WIB 92).
 
 Improductiviteit
-Er is kwijtschelding of vermindering van de onroerende voorheﬃng in de volgende gevallen (art. 257, 4° WIB 92):
+Er is kwijtschelding of vermindering van de onroerende voorheffing in de volgende gevallen (art. 257, 4° WIB 92):
 
 • als een niet ingericht bebouwd onroerend goed minstens 180 dagen in de loop van het jaar onbezet en improductief gebleven is;
 • als het geheel van het bebouwde onroerend goed, of een deel hiervan dat minstens 25% van het respectieve kadastraal inkomen ervan vertegenwoordigt, vernietigd is.
@@ -453,7 +438,7 @@ Er zijn wel de volgende voorwaarden voorzien (art. 46bis, §1 W.W.Reg.):
 
 Vermindering ten belope van bodemsanering
 
-De lasten betreﬀende bodemsanering die aan de koper opgelegd worden, worden niet aanzien als lasten die de heﬃngsgrondslag verhogen. Concreet betekent dit dat de heﬃngsgrondslag minder is dan in de andere gewesten het geval zou zijn (art. 45 W.W.Reg.).
+De lasten betreffende bodemsanering die aan de koper opgelegd worden, worden niet aanzien als lasten die de heffingsgrondslag verhogen. Concreet betekent dit dat de heffingsgrondslag minder is dan in de andere gewesten het geval zou zijn (art. 45 W.W.Reg.).
 
 Brussels Hoofdstedelijk gewest
 Tarieven
@@ -1053,7 +1038,7 @@ Verhoging gedurende de eerste 10 jaar wanneer de belastingplichtige minstens €
 
 Waalse wooncheque
 
-Voor leningen sinds 01.01.2025 is de Waalse wooncheque afgeschaft en vervangen door een verlaging van de registratierechten naar 3% bij de aankoop van een woning (mits voldaan aan de betreﬀende voorwaarden).
+Voor leningen sinds 01.01.2025 is de Waalse wooncheque afgeschaft en vervangen door een verlaging van de registratierechten naar 3% bij de aankoop van een woning (mits voldaan aan de betreffende voorwaarden).
 
 De Waalse wooncheque bestaat wel nog voor leningen gesloten tussen 01.01.2016 en 31.12.2024. In geval van samenlopende leningen van vóór en na 2016 voor dezelfde woning, komt de nieuwe lening niet in aanmerking voor de wooncheque. De oude en de nieuwe lening komen dan uitsluitend in aanmerking voor de oude scale voordelen. Er is geen keuzemogelijkheid (art. 14546ter, §2 WIB 92 en art. 14546sexies WIB 92).
 
@@ -1528,7 +1513,7 @@ Personenbelasting
 Belastingvrije sommen: personen ten laste
 
 Principe
-Om scaal ten laste te zijn is het vereist dat de persoon op 1 januari van het aanslagjaar deel uitmaakt van het gezin van de belastingplichtige én dat hij of zij in het betreﬀende inkomstenjaar geen nettobestaansmiddelen genoten heeft die hoger zijn dan een bepaalde grens.
+Om scaal ten laste te zijn is het vereist dat de persoon op 1 januari van het aanslagjaar deel uitmaakt van het gezin van de belastingplichtige én dat hij of zij in het betreffende inkomstenjaar geen nettobestaansmiddelen genoten heeft die hoger zijn dan een bepaalde grens.
 
 Bestaansmiddelen
 (art. 143 WIB)
@@ -1653,7 +1638,7 @@ Hierbij moet men steeds rekening houden met de volgende minima en maxima:
 • CO2-uitstoot minder dan 200 g/km: minimaal 50% en maximaal 100% aftrekbaar;
 • CO2-uitstoot meer dan 200 g/km: maximaal 40% aftrekbaar.
 
-De te gebruiken brandstofcoëﬃciënt is gelĳk aan:
+De te gebruiken brandstofcoëfficiënt is gelĳk aan:
 
 • 1 voor dieselauto’s;
 • 0,95 voor auto’s op benzine, lpg of voor hybridevoertuigen (benzine of diesel in combinatie met elektriciteit) (parl. vr. nr. 96, 55-008, 27.11.2019);
@@ -1669,7 +1654,7 @@ Voor de CO2-uitstootwaarde moet men zich baseren op de informatie die beschikbaa
 • wagens met CO2-uitstoot volgens de Euro 6ebis norm: deze CO2-waarde moet gebruikt worden.
 
 De overgangsbepaling voor voertuigen aangeschaft vóór 1 januari 2018 is dan ook van toepassing op de brandstofkosten.
-Voor fakehybrides aangekocht of geleased sinds 1 januari 2018 moet men bovendien rekening houden met de oﬃciële CO2-uitstoot van een overeenstemmend klassiek model.
+Voor fakehybrides aangekocht of geleased sinds 1 januari 2018 moet men bovendien rekening houden met de officiële CO2-uitstoot van een overeenstemmend klassiek model.
 
 © Larcier-Intersentia, Het zakboekje voor de zelfstandige 2026 81
 Personenbelasting
@@ -1690,12 +1675,12 @@ Indien er geen overeenstemmend voertuig is, dan rekenen met 2,5 x CO2-uitstoot v
 Het minimum van 75% en de degressieve afbouw ervan sinds 2026 is ook van toepassing op de brandstofkosten.
 
 Aanschaf vóór 01.07.2023
-Voor wagens met een CO2-uitstoot verworven vóór 01.07.2023 blijft de huidige regeling ((120% - (0,5% x coëﬃciënt [= 1 voor Diesel, = 0,95 voor Benzine en hybrides, = 0,90)) x aantal gram CO2-uitstoot/km)) onbeperkt in de tijd van toepassing (art. 550 lid 1 en lid 2 WIB).
+Voor wagens met een CO2-uitstoot verworven vóór 01.07.2023 blijft de huidige regeling ((120% - (0,5% x coëfficiënt [= 1 voor Diesel, = 0,95 voor Benzine en hybrides, = 0,90)) x aantal gram CO2-uitstoot/km)) onbeperkt in de tijd van toepassing (art. 550 lid 1 en lid 2 WIB).
 
 Auto’s aangekocht tussen 01.07.2023 en 31.12.2025
 In het kader van de vergroening van de autoscaliteit is 1 juli 2023 een cruciale datum.
 
-Voor wagens met een CO2-uitstoot verworven tussen 01.07.2023 en 31.12.2025 blijft de huidige regeling (120% - (0,5% x coëﬃciënt [= 1 voor Diesel, = 0,95 voor Benzine en hybrides, = 0,90) x aantal gram CO2-uitstoot/km)) van toepassing met volgende wijzigingen (art. 550 lid 1 en lid 4 WIB):
+Voor wagens met een CO2-uitstoot verworven tussen 01.07.2023 en 31.12.2025 blijft de huidige regeling (120% - (0,5% x coëfficiënt [= 1 voor Diesel, = 0,95 voor Benzine en hybrides, = 0,90) x aantal gram CO2-uitstoot/km)) van toepassing met volgende wijzigingen (art. 550 lid 1 en lid 4 WIB):
 
 • de ondergrens van 50% is weggevallen sinds 2025; en
 • de maximale aftrek wordt geplafonneerd als volgt:
@@ -1711,10 +1696,10 @@ Voor wagens met een CO2-uitstoot die gelijk of hoger is dan 200 g/km moet men de
 Aanschaf sinds 01.01.2026
 Autokosten voor wagens met een CO2-uitstoot verworven sinds 01.01.2026 zijn niet meer aftrekbaar (art. 66 §2 en art. 550 WIB).
 
-Aanschaﬃngsdatum = datum waarop de bestelbon, het leasingcontract of de huurovereenkomst ondertekend werd.
+Aanschaffingsdatum = datum waarop de bestelbon, het leasingcontract of de huurovereenkomst ondertekend werd.
 
 Overzicht
-Hierbij een volledig overzicht voor de maximale aftrekbaarheid van de autokosten op uitsluitend fossiele brandstoﬀen voor de periode 2025-2031:
+Hierbij een volledig overzicht voor de maximale aftrekbaarheid van de autokosten op uitsluitend fossiele brandstoffen voor de periode 2025-2031:
 
  82 © Larcier-Intersentia, Het zakboekje voor de zelfstandige 2026
 Personenbelasting
@@ -1734,10 +1719,10 @@ De overgangsregeling is van toepassing voor voertuigen die besteld zijn vóór 1
 Het minimum van 75% en de degressieve afbouw ervan sinds 2026 is ook van toepassing op de brandstofkosten en elektriciteitskosten.
 
 Aanschaf vóór 01.07.2023
-Voor plug-in voertuigen verworven vóór 01.07.2023 blijft de regeling ((120% - (0,5% x coëﬃciënt 0,95 voor Benzine en diesel- hybrides) x aantal gram CO2-uitstoot/km)) onbeperkt in de tijd van toepassing. Er is wel een beperking van de benzine/dieselkosten tot maximum aftrek van 50% voor plug-ins aangeschaft tussen 01.01.2023 en 30.06.2023 (art. 550 lid 1 en lid 2 WIB).
+Voor plug-in voertuigen verworven vóór 01.07.2023 blijft de regeling ((120% - (0,5% x coëfficiënt 0,95 voor Benzine en diesel- hybrides) x aantal gram CO2-uitstoot/km)) onbeperkt in de tijd van toepassing. Er is wel een beperking van de benzine/dieselkosten tot maximum aftrek van 50% voor plug-ins aangeschaft tussen 01.01.2023 en 30.06.2023 (art. 550 lid 1 en lid 2 WIB).
 
 Auto’s aangekocht tussen 01.07.2023 en 31.12.2025
-Voor plug-in voertuigen verworven tussen 01.07.2023 en 31.12.2025 blijft de regeling (120% - (0,5% x coëﬃciënt 0,95 voor Benzine en diesel- hybrides 0,95) x aantal gram CO2-uitstoot/km)) x aantal gram CO2-uitstoot/km)) van toepassing met volgende wijzigingen (art. 550, lid 1, lid 4 en lid 5 WIB):
+Voor plug-in voertuigen verworven tussen 01.07.2023 en 31.12.2025 blijft de regeling (120% - (0,5% x coëfficiënt 0,95 voor Benzine en diesel- hybrides 0,95) x aantal gram CO2-uitstoot/km)) x aantal gram CO2-uitstoot/km)) van toepassing met volgende wijzigingen (art. 550, lid 1, lid 4 en lid 5 WIB):
 
 • De ondergrens van 50% is weggevallen sinds 2025 (aj. 2026);
 • De benzine- of dieselkosten blijven aftrekbaar tot maximaal 50 % (aj. 2026 en aj. 2027), vervolgens tot maximaal 25 % (aj. 2028), en vanaf 2028 (aj. 2029) 0%;
@@ -2091,7 +2076,7 @@ Voor zelfstandigen en kleine vennootschappen bedraagt deze aftrek 40%.
 
 Deze aftrek is van toepassing op investeringen die worden vermeld in één van de volgende categorieën:
 
-• investeringen in eﬃciënt energieverbruik en hernieuwbare energie;
+• investeringen in efficiënt energieverbruik en hernieuwbare energie;
 
 • investeringen in koolstofemissievrij vervoer (o.m. etsen en etsinfrastructuur; emissievrije vrachtwagens en laadinfrastructuur met betrekking tot vrachtwagens);
 
@@ -2103,7 +2088,7 @@ Voor elke categorie wordt er via KB een lijst gepubliceerd met de investeringen 
 
 De verschillende investeringslijsten met daarop de vaste activa die in aanmerking komen voor de verhoogde thematische aftrek zijn via KB van 20.12.2024 op 31.12 2024 in het BS verschenen. Deze bevat onder meer
 
-• de ‘energie-investeringslijst’: de lijst met investeringen in activa die dienen voor de productie van hernieuwbare energie en het eﬃciënt verbruik van energie;
+• de ‘energie-investeringslijst’: de lijst met investeringen in activa die dienen voor de productie van hernieuwbare energie en het efficiënt verbruik van energie;
 • de ‘vervoer-investeringslijst’: de lijst met investeringen in vervoermiddelen die geen CO2 uitstoten;
 • de ‘milieuvriendelijke-investeringslijst’: de lijst met investeringen in activa die een gunstige milieu-impact hebben (uitgezonderd die reeds op de energie-investeringslijst staan).
 
@@ -2176,11 +2161,11 @@ Inkomstenjaar 2023 – aanslagjaar 2024 Aanslagjaar 2023 2,0915
 
 Belang van de indexatie
 1. De belastbaarheid van het kadastraal inkomen (ki) zelf: u moet in uw aangifte wel het niet-geïndexeerde ki opgeven, maar de scus indexeert dit ki alvorens het te belasten.
-2. De onroerende voorheﬃng: die wordt namelijk berekend op het geïndexeerde kadastraal inkomen.
+2. De onroerende voorheffing: die wordt namelijk berekend op het geïndexeerde kadastraal inkomen.
 
 Het zgn. voordeel gratis woning: ook dat wordt namelijk berekend op een geïndexeerd kadastraal inkomen.
 
-Revalorisatiecoefﬁciënten
+Revalorisatiecoefficiënten
 
 Jaar Revalorisatiecoëfficiënt
 
@@ -2193,7 +2178,7 @@ Inkomstenjaar 2022 - aanslagjaar 2023 4,86
 
 Belang van de revalorisatie
 1. Voor de herkwalicatie van huurinkomsten.
-2. Het kostenforfait bij beroepsmatige verhuur (40% x de ontvangen huur) wordt beperkt tot het niet-geïndexeerde ki x 2/3 x revalorisatiecoëﬃciënt.
+2. Het kostenforfait bij beroepsmatige verhuur (40% x de ontvangen huur) wordt beperkt tot het niet-geïndexeerde ki x 2/3 x revalorisatiecoëfficiënt.
 
   96 © Larcier-Intersentia, Het zakboekje voor de zelfstandige 2026
 Personenbelasting
@@ -2390,7 +2375,7 @@ De thuiswerkvergoeding wordt geacht de volgende bureaukosten te dekken:
 • Printer- en computermateriaal;
 • Kantoorbenodigdheden;
 • Nutsvoorzieningen zoals water, elektriciteit en verwarming;
-• Onderhoud, verzekering, onroerende voorheﬃng, enz.
+• Onderhoud, verzekering, onroerende voorheffing, enz.
 
 Bron: Circ. 2024/C/37, 31.05.2024
 
@@ -2453,7 +2438,7 @@ Brussels € 750
 104 © Larcier-Intersentia, Het zakboekje voor de zelfstandige 2026
 Personenbelasting
 
-Roerende voorheﬃng: tarief
+Roerende voorheffing: tarief
 
 Bron: art. 269 WIB 92
 
@@ -2607,7 +2592,7 @@ Vermindering VA I 9,00% 12,00% 6,00% 3,00% van de VA II 7,50% 10,00% 5,00% 2,50%
  110 © Larcier-Intersentia, Het zakboekje voor de zelfstandige 2026
 Personenbelasting
 
-Tarieven boniﬁcatie
+Tarieven bonificatie
 Wie geen voorafbetalingen moet doen (bv. een loontrekkende) of wie reeds voldoende voorafbetaalde, heeft, als hij toch nog voorafbetaalt, recht op een vermindering van belasting of zgn. bonicatie. Dit geldt wel slechts in de mate waarin er belasting verschuldigd is.
 
 Inkomsten 2025 – Inkomsten 2024 – Inkomsten 2023 – Inkomsten 2022 –
@@ -2660,14 +2645,14 @@ Periode 1 januari 2026 tot 31 maart 2026: € 950,64 = 6/7 x 35.000 x 82% x [5,5
 
 Fakehybrides
 
-Sinds inkomstenjaar 2020 worden fakehybrides zwaarder belast. Concreet wordt er voor de berekening van het VAA geen rekening meer gehouden met de oﬃciële CO2-uitstoot van deze wagens, maar wel met de oﬃciële CO2-uitstoot van een overeenstemmend klassiek model (overeenstemmend voertuig).
+Sinds inkomstenjaar 2020 worden fakehybrides zwaarder belast. Concreet wordt er voor de berekening van het VAA geen rekening meer gehouden met de officiële CO2-uitstoot van deze wagens, maar wel met de officiële CO2-uitstoot van een overeenstemmend klassiek model (overeenstemmend voertuig).
 
 Deze verstrenging is enkel van toepassing voor auto’s die aangekocht (d.w.z. besteld), geleased of gehuurd zijn na 31 december 2017 (art. 36, §2, lid 9 WIB; circ. 2019/C/56, 28.06.2019).
 
 112 © Larcier-Intersentia, Het zakboekje voor de zelfstandige 2026
 Personenbelasting
 
-Onder ‘fakehybride’ beoogt men ‘een oplaadbaar hybridevoertuig uitgerust met een elektrische batterij met een energiecapaciteit van minder dan 0,50 kWh per 100 kg wagengewicht’. Daarnaast wordt een plug-inhybrideauto met een oﬃciële CO2-uitstoot van meer dan 50 g/km of 75 g/km indien de uitstoot berekend is volgens de Euro 6e-bis norm of een latere norm altijd beschouwd als ‘valse hybride’, ook wanneer de capaciteit van de elektrische batterij voldoende groot is (art. 36, §2, lid 9 WIB).
+Onder ‘fakehybride’ beoogt men ‘een oplaadbaar hybridevoertuig uitgerust met een elektrische batterij met een energiecapaciteit van minder dan 0,50 kWh per 100 kg wagengewicht’. Daarnaast wordt een plug-inhybrideauto met een officiële CO2-uitstoot van meer dan 50 g/km of 75 g/km indien de uitstoot berekend is volgens de Euro 6e-bis norm of een latere norm altijd beschouwd als ‘valse hybride’, ook wanneer de capaciteit van de elektrische batterij voldoende groot is (art. 36, §2, lid 9 WIB).
 
 Voor vanaf 01.01.2025 nieuwe gehomologeerde voertuigen wordt de CO2-uitstoot bepaald volgens een strengere testmethode nl. de Euro 6e-bis norm om een realistischer beeld te krijgen van hun CO2-uitstoot. Voertuigen waarvan het model vóór 01.01.2025 is goedgekeurd, maar die nieuw worden verkocht vanaf 2026 zullen ook de nieuwe tests moeten ondergaan. Als gevolg hiervan zal de gemeten CO2-uitstoot aanzienlijk toenemen. Vandaar dat voor plug-in hybrides waarvan de CO2-uitstoot bepaald is volgens de Euro e6-bis norm de wetgever het noodzakelijk achtte om de grens te verhogen boven de welke een voertuig als ‘valse hybride’ wordt beschouwd.
 
@@ -2684,7 +2669,7 @@ Sinds 1 januari 2022 zijn er ook grenzen aan de toekenning van het mobiliteitsbu
 Het mobiliteitsbudget is ook nog steeds gebaseerd op de volgende drie pijlers, waarbij de werknemer vrij kan kiezen welke van deze drie pijlers hij wenst te gebruiken, rekening houdend met de bestedingsmogelijkheden aangeboden door de werkgever (wet van 17.03.2019, BS 29.03.2019):
 
 • milieuvriendelijke wagen (pijler 1);
-• duurzame vervoermiddelen en huisveﬆingskoﬆen (pijler 2);
+• duurzame vervoermiddelen en huisvestingskosten (pijler 2);
 • uitbetaling in geld (pijler 3).
 
 Fiscale gevolgen
@@ -2708,7 +2693,7 @@ Personenbelasting
 Voordelen van alle aard: huispersoneel
 
 Algemeen
-Wie van zijn werkgever (voor werknemers) of van zijn vennootschap (voor zaakvoerders/bestuurders) huispersoneel zoals een dienstbode, hovenier of chauﬀeur ter beschikking gesteld krijgt, wordt belast op een forfaitair berekend voordeel van alle aard. Ook het huispersoneel zelf wordt ingeval van bv. gratis maaltijden belast op een voordeel van alle aard. Hieronder geven we een overzicht van die verschillende forfaitaire voordelen van alle aard.
+Wie van zijn werkgever (voor werknemers) of van zijn vennootschap (voor zaakvoerders/bestuurders) huispersoneel zoals een dienstbode, hovenier of chauffeur ter beschikking gesteld krijgt, wordt belast op een forfaitair berekend voordeel van alle aard. Ook het huispersoneel zelf wordt ingeval van bv. gratis maaltijden belast op een voordeel van alle aard. Hieronder geven we een overzicht van die verschillende forfaitaire voordelen van alle aard.
 
 Omvang van het voordeel
 
@@ -2754,10 +2739,10 @@ aj. 2019: ki x index x 100/60 (Circ. 2018/C/57, 15.05.2018)
 Opmerkingen:
 
 • indien de woning bemeubeld ter beschikking gesteld wordt, wordt het voordeel verhoogd met 2/3 (art. 18, §3, 2° KB/WIB 92);
-• wanneer uitsluitend een deel van de woning gratis ter beschikking gesteld wordt, wordt de waarde van het voordeel verminderd in verhouding tot de betreﬀende oppervlakte van de woning;
+• wanneer uitsluitend een deel van de woning gratis ter beschikking gesteld wordt, wordt de waarde van het voordeel verminderd in verhouding tot de betreffende oppervlakte van de woning;
 • sinds aj. 2019 wordt er geen onderscheid meer gemaakt naargelang de woning ter beschikking gesteld wordt door een natuurlijke persoon of een vennootschap.
 
-Indexatiecoëﬃciënten:
+Indexatiecoëfficiënten:
 
 inkomstenjaar 2026: 2,3000
 
@@ -2859,7 +2844,7 @@ Autolening Andere lening Autolening Andere lening
 
 2025 0,26 0,52
 
-• Ofwel op basis van het reële jaarlijkse lastenpercentage voor het betreﬀende jaar, berekend met de volgende formule
+• Ofwel op basis van het reële jaarlijkse lastenpercentage voor het betreffende jaar, berekend met de volgende formule
 
    voor leningsovereenkomsten afgesloten sinds 01.01.2023 (KB van 12.01.2024, BS 25.01.2024):
 
@@ -2998,7 +2983,7 @@ Sinds 1 januari 2022 geldt er een nieuwe denitieve regeling (wet van 26.04.20
 
 Voorwaarden
 
-Om van het gunstregime te genieten, mag de verenigingswerker op jaarbasis maximum € 7.170 (aj. 2024), € 7.460 (aj. 2025), € 7.700 (aj. 2026) of € 7.890 (aj. 2027) verdienen. Deze inkomsten worden belast als diverse inkomsten tegen een aanslagvoet van 20% (na aftrek van een kostenforfait van 50%). Het eﬀectieve belastingtarief bedraagt dus 10%. Dit op voorwaarde dat (niet limitatief):
+Om van het gunstregime te genieten, mag de verenigingswerker op jaarbasis maximum € 7.170 (aj. 2024), € 7.460 (aj. 2025), € 7.700 (aj. 2026) of € 7.890 (aj. 2027) verdienen. Deze inkomsten worden belast als diverse inkomsten tegen een aanslagvoet van 20% (na aftrek van een kostenforfait van 50%). Het effectieve belastingtarief bedraagt dus 10%. Dit op voorwaarde dat (niet limitatief):
 
 • er een arbeidsovereenkomst gesloten wordt tussen de werkgever en de verenigingswerker;
 • het gaat om een activiteit in de sportsector, de amateurkunstensector, het sociaal-cultureel volwassenwerk of onderwijs (concreet gaat om de activiteiten vermeld in art. 90, 1°ter WIB; art. 17 KB-RSZ);
@@ -3618,7 +3603,7 @@ Sinds 1 januari 2023 wordt het voordelige sociale bijdragenstelsel dat gedurende
 Voorlopige bĳdragen
 Primostarters hebben de eerste jaren de keuze:
 
-• ofwel de absolute minimumbijdrage betalen – die minima zijn altijd verschuldigd, dus ook als achteraf zou blijken dat zij in dat betreﬀende jaar zo goed als geen netto belastbaar inkomen (als zelfstandige) behaald hebben. Ze worden m.a.w. nooit teruggegeven;
+• ofwel de absolute minimumbijdrage betalen – die minima zijn altijd verschuldigd, dus ook als achteraf zou blijken dat zij in dat betreffende jaar zo goed als geen netto belastbaar inkomen (als zelfstandige) behaald hebben. Ze worden m.a.w. nooit teruggegeven;
 • ofwel een voorlopige bijdrage betalen berekend op een inkomen dat zij dan zelf opgeven – het voordeel daarvan is dat men de latere regularisaties (als het inkomen van dat jaar bekend is) onder controle kan houden en op dat moment dus geen al te grote bedragen zal moeten bijbetalen.
 
 Termĳn
@@ -3658,7 +3643,7 @@ Is aan die voorwaarden voldaan, dan kan de vennootschap de eerste drie jaar een 
 Vennootschappen die met een attest van de Directe Belastingen kunnen aantonen dat ze gedurende een of meerdere volledige kalenderjaren geen activiteit meer uitgeoefend hebben, zijn voor die jaren ook geen sociale bijdrage verschuldigd.
 
 3. Vrĳstelling in geval van vereffening
-In geval van ontbinding en vereﬀening, faillissement en gerechtelijk akkoord moet er ook geen bijdrage betaald worden in het jaar waarin die gebeurtenis zich voorgedaan heeft.
+In geval van ontbinding en vereffening, faillissement en gerechtelijk akkoord moet er ook geen bijdrage betaald worden in het jaar waarin die gebeurtenis zich voorgedaan heeft.
 
 Bedragen
 
@@ -3734,7 +3719,7 @@ Sociale zekerheid - zelfstandigen
 Wettelijk pensioen zelfstandigen: uitkeringen
 
 Berekening
-Pensioen alleenstaande = aantal dienstjaren/45 × beroepsinkomen (geïndexeerd) × coëﬃciënt × 60% Gezinspensioen = aantal dienstjaren/45 × beroepsinkomen (geïndexeerd) × coëﬃciënt × 75%
+Pensioen alleenstaande = aantal dienstjaren/45 × beroepsinkomen (geïndexeerd) × coëfficiënt × 60% Gezinspensioen = aantal dienstjaren/45 × beroepsinkomen (geïndexeerd) × coëfficiënt × 75%
 
 Gewaarborgd minimumpensioen
 Bedragen van toepassing sinds 1 februari 2025 voor een volledige loopbaan.
@@ -3778,7 +3763,7 @@ Voor investeringen in 2026 (aj. 2027) bedraagt dit 40% voor alle ondernemingen.
 
 Deze aftrek is van toepassing op investeringen die worden vermeld in één van de volgende categorieën:
 
-• investeringen in eﬃciënt energieverbruik en hernieuwbare energie;
+• investeringen in efficiënt energieverbruik en hernieuwbare energie;
 • investeringen in koolstofemissievrij vervoer (o.m. etsen en etsinfrastructuur; emissievrije vrachtwagens en laadinfrastructuur met betrekking tot vrachtwagens);
 • milieuvriendelijke investeringen;
 • ondersteunende digitale investeringen (nl. investeringen die verwant zijn aan de drie voormelde investeringscategorieën).
@@ -3932,7 +3917,7 @@ Voor startende kmo-vennootschappen moet deze voorwaarde gedurende de eerste vier
 (3)
 Nieuw sinds 1 januari 2026 naar aanleiding van het federaal begrotingsakkoord 2025-2029 (wetsontwerp hangende).
 
-Speciﬁeke tarieven
+Specifieke tarieven
 
 Omschrijving Percentage
 
@@ -4401,7 +4386,7 @@ Wanneer voormelde bestuurder geen BIS-nr. heeft, moet in het vakje ‘rijksregis
 Bij gebreke van een BIS-nr. en in geval van ontslag van een bestuurder, moet er daarentegen een, door de personen die de rechtspersoon rechtsgeldig kunnen vertegenwoordigen, ondertekende verklaring toegevoegd worden verklarende dat de ontslagnemende bestuurder geen BIS-nr. heeft of gehad heeft.
 Meer informatie:
 • Formulieren: http://www.ejustice.just.fgov.be/tsv_pub/form_n.htm
-• Tarief en betalingswijze: http://www.ejustice.just.fgov.be/tsv_pub/tarif_n.htm • Opzoekingen referenties van publicaties: http://www.ejustice.just.fgov.be/cgi_tsv/tsv.pl • Dagelijkse oﬃciële publicatie: http://www.ejustice.just.fgov.be/tsv_pub/tsv_sum_a_n.htm • Waar neerleggen? Welke rechtbank voor uw rechtsgebied bevoegd is kunt u opzoeken in de databank ‘territoriale bevoegdheid’ op het volgende adres: https://territoriale-bevoegdheid.just.fgov.be/ Let op! Akten voor Brussel moeten niet neergelegd worden in de Regentschapstraat 4, waar de zetel van de Rechtbank van Koophandel gevestigd is maar in de Britse Tweedelegerlaan 148 te 1190 Vorst, tel.: 02/346 03 33 of 02/346 14 53.
+• Tarief en betalingswijze: http://www.ejustice.just.fgov.be/tsv_pub/tarif_n.htm • Opzoekingen referenties van publicaties: http://www.ejustice.just.fgov.be/cgi_tsv/tsv.pl • Dagelijkse officiële publicatie: http://www.ejustice.just.fgov.be/tsv_pub/tsv_sum_a_n.htm • Waar neerleggen? Welke rechtbank voor uw rechtsgebied bevoegd is kunt u opzoeken in de databank ‘territoriale bevoegdheid’ op het volgende adres: https://territoriale-bevoegdheid.just.fgov.be/ Let op! Akten voor Brussel moeten niet neergelegd worden in de Regentschapstraat 4, waar de zetel van de Rechtbank van Koophandel gevestigd is maar in de Britse Tweedelegerlaan 148 te 1190 Vorst, tel.: 02/346 03 33 of 02/346 14 53.
 • eDepot: via uw notaris.
 • JustAct: enkel voor onderhandse akten https://justonweb.be/en
 
@@ -4490,7 +4475,7 @@ De verschuldigde BIV bedraagt steeds minimaal € 61,50.
 Verkeer
 
 LPG-voertuigen
-Voor de voertuigen waarvan de motor, ook al is het maar gedeeltelijk of tijdelijk, aangedreven wordt met vloeibaar petroleumgas (lpg) of andere vloeibare koolwaterstoﬀen, wordt de belasting verminderd met € 367,20.
+Voor de voertuigen waarvan de motor, ook al is het maar gedeeltelijk of tijdelijk, aangedreven wordt met vloeibaar petroleumgas (lpg) of andere vloeibare koolwaterstoffen, wordt de belasting verminderd met € 367,20.
 
 Elektrische wagens
 Voor elektrische wagens bedraagt de BIV € 75,79 (geïndexeerd bedrag sinds 01.07.2025).
@@ -4518,7 +4503,7 @@ BIV (voertuigen ingeschreven na 31 december 2020) = [((CO2 × f × q) /246)6 × 
 
 Hierbij is:
 • ‘CO2’ de CO2-uitstoot van het voertuig, zoals gemeten tijdens de Europese homologatie van het voertuig volgens de Europese regelgeving;
-• ‘f’ een vaste coëﬃciënt die verschilt voor voertuigen op lpg, op aardgas, voor hybridevoertuigen en voor andere voertuigen (dieselvoertuigen, al dan niet met roetlter, en benzinevoertuigen);
+• ‘f’ een vaste coëfficiënt die verschilt voor voertuigen op lpg, op aardgas, voor hybridevoertuigen en voor andere voertuigen (dieselvoertuigen, al dan niet met roetlter, en benzinevoertuigen);
  - f = 0,88 voor wegvoertuigen die aangedreven worden door lpg;
  - f = 0,93 voor wegvoertuigen die aangedreven worden door aardgas;
  - f = 0,744 voor wegvoertuigen die aangedreven worden door zowel aardgas als benzine, als ze als benzinewagen gehomologeerd zijn;
@@ -4564,7 +4549,7 @@ Wagens op elektriciteit of waterstof (sinds 01.01.2026)
 Emissievrije voertuigen die ingeschreven zijn sinds 1 januari 2026 betalen voortaan belasting op de inverkeerstelling (BIV).
 Het gaat over een forfaitair bedrag van € 61,50 (niet te indexeren).
 
-Mensen die hun elektrisch voertuig aankochten vóór 6 oktober 2025, maar waarbij het voertuig pas ingeschreven kan worden sinds 1 januari 2026, kunnen nog genieten van de vrijstelling in de BIV. Dit kan door de betreﬀende bestelbon voor te leggen aan de Vlaamse Belastingdienst vóór 15 januari 2026, samen met een ingevuld en ondertekend formulier (zie https://www. vlaanderen.be/belastingen-en-begroting/vlaamse-belastingen/verkeersbelastingen/voertuigen-volledig-op-elektriciteit-ofwaterstof bij ‘Overgangsmaatregel’ - ‘formulier’).
+Mensen die hun elektrisch voertuig aankochten vóór 6 oktober 2025, maar waarbij het voertuig pas ingeschreven kan worden sinds 1 januari 2026, kunnen nog genieten van de vrijstelling in de BIV. Dit kan door de betreffende bestelbon voor te leggen aan de Vlaamse Belastingdienst vóór 15 januari 2026, samen met een ingevuld en ondertekend formulier (zie https://www. vlaanderen.be/belastingen-en-begroting/vlaamse-belastingen/verkeersbelastingen/voertuigen-volledig-op-elektriciteit-ofwaterstof bij ‘Overgangsmaatregel’ - ‘formulier’).
 
 Vrijstellingen
 De BIV is niet verschuldigd voor voertuigen die uitsluitend gebruikt worden als persoonlijk vervoermiddel voor een persoon met een handicap.
@@ -4597,7 +4582,7 @@ Gezinnen met minstens drie kinderen kunnen sinds 1 juli 2025 recht hebben op een
 
 Eénoudergezinnen die de aanvullende ‘mono’-toeslag ontvangen, zullen ook recht hebben op een vermindering van € 250 op de BIV voor één voertuig. Deze maatregel, die niet cumuleerbaar is met de korting voor grote gezinnen, zal van kracht zijn vanaf 1 juli 2026, nadat de gegevens van Waals Agentschap voor Levenskwaliteit en De Waalse Overheidsdienst Financiën zijn geïntegreerd.
 
-Voor 100% elektrische voertuigen is de energiecoëﬃciënt die gebruikt wordt bij de berekening van de belasting op inverkeerstelling (BIV) verlaagd. Dit zal leiden tot een aanzienlijke vermindering van de belasting voor sommige type voertuigen.
+Voor 100% elektrische voertuigen is de energiecoëfficiënt die gebruikt wordt bij de berekening van de belasting op inverkeerstelling (BIV) verlaagd. Dit zal leiden tot een aanzienlijke vermindering van de belasting voor sommige type voertuigen.
 
 Voertuigen die ouder zijn dan 30 jaar kunnen bij aankoop genieten van een forfaitair minimumbedrag van € 61,50 voor de BIV.
 
@@ -4612,7 +4597,7 @@ CO₂: CO₂-uitstoot van het voertuig.
 X: Specieke factor (115 voor de WLTP-norm, 136 voor de NEDC-norm).
 M: Maximaal toegelaten massa van het voertuig.
 Y: Referentiemassa (1.838 kg).
-C: Energiecoëﬃciënt afhankelijk van het type brandstof.
+C: Energiecoëfficiënt afhankelijk van het type brandstof.
 FN: Korting van toepassing voor grote gezinnen (sinds 01.07.2025) of eenoudergezinnen (vanaf 01.07.2026).
 
 De BIV daalt ook naargelang de leeftijd van het voertuig: een vermindering van 10% per jaar gedurende de eerste 5 jaar, gevolgd door een vermindering van 5% per jaar tussen 6 en 15 jaar.
@@ -4710,27 +4695,27 @@ Bron: art. 1.1.0.0.2. VCF (Vlaanderen); art. 4, §2 WIGB (Brussel en Wallonië)
 © Larcier-Intersentia, Het zakboekje voor de zelfstandige 2026 177
 Verkeer
 
-Kilometerheﬃng
+Kilometerheffing
 
 Toepassingsgebied
 
 Algemeen
-De kilometerheﬃng geldt sinds 1 april 2016 en kwam in de plaats van het eurovignet. Zo’n eurovignet heeft u wel nog nodig als u met een camion met een maximaal toegelaten massa (MTM) van minstens 12 ton op wegen in Nederland, Luxemburg, Denemarken of Zweden rijdt.
+De kilometerheffing geldt sinds 1 april 2016 en kwam in de plaats van het eurovignet. Zo’n eurovignet heeft u wel nog nodig als u met een camion met een maximaal toegelaten massa (MTM) van minstens 12 ton op wegen in Nederland, Luxemburg, Denemarken of Zweden rijdt.
 
 Belastbare voertuigen
 Alle binnen- en buitenlandse voertuigen met een maximaal toegelaten massa (MTM) groter dan 3,5 ton, die gebruikt worden voor het vervoer van goederen over de weg.
 
 Vrijstelling
-Een aantal voertuigen zijn onder bepaalde voorwaarden vrijgesteld van de heﬃng. Het gaat onder meer om:
+Een aantal voertuigen zijn onder bepaalde voorwaarden vrijgesteld van de heffing. Het gaat onder meer om:
 
 • voertuigen van defensie, de civiele bescherming, de brandweer en de politie;
 • voertuigen die uitsluitend en speciaal voor medische doeleinden gebruikt worden;
 • landbouw-, tuinbouw- en bosbouwvoertuigen.
 
-Sinds 1 januari 2024 moeten emissievrije voertuigen (ZEV) in Vlaanderen tijdelijk geen of minder kilometerheﬃng betalen.
+Sinds 1 januari 2024 moeten emissievrije voertuigen (ZEV) in Vlaanderen tijdelijk geen of minder kilometerheffing betalen.
 Een OBU (On Board Unit) blijft wel verplicht. Zie voor meer info: https://www.vlaanderen.be/belastingen-en-begroting/ vlaamse-belastingen/verkeersbelastingen/kilometerheffing/tijdelijke-vrijstelling-betalingsverplichting-voor-emissievrijvrachtvervoer.
 
-Sinds 1 juli 2024 moeten emissievrije voertuigen (ZEV) in Brussel tevens geen kilometerheﬃng meer betalen.
+Sinds 1 juli 2024 moeten emissievrije voertuigen (ZEV) in Brussel tevens geen kilometerheffing meer betalen.
 
 Het voordeeltarief voor ZEV geldt dus enkel in Vlaanderen en in Brussel. In Wallonië vallen ZEV nog onder de categorie EURO VI.
 
@@ -4791,9 +4776,9 @@ Euro 5 0,11 0,176 0,181 0,156 0,255 0,293
 Euro 6 0,097 0,163 0,168 0,13 0,229 0,267
 ZEV* 0,000 0,000 0,000 0,000 0,000 0,000
 
-Op https://tollcalculator.satellic.be/user/estimator kunt u een simulatie van de heﬃng maken, per gekozen traject.
+Op https://tollcalculator.satellic.be/user/estimator kunt u een simulatie van de heffing maken, per gekozen traject.
 
-In Wallonië (Soco netwerk) worden de tarieven voor de kilometerheﬃng aangepast aan de index. In Vlaanderen en het Brussels Hoofdstedelijk Gewest vindt de indexering plaats op 1 juli
+In Wallonië (Soco netwerk) worden de tarieven voor de kilometerheffing aangepast aan de index. In Vlaanderen en het Brussels Hoofdstedelijk Gewest vindt de indexering plaats op 1 juli
 
 * Zero-emissie voertuigen
 
@@ -4937,7 +4922,7 @@ Algemeen
 Emissievrije voertuigen die ingeschreven zijn sinds 1 januari 2026 betalen voortaan jaarlijkse verkeersbelasting. Het gaat over een forfaitair bedrag van € 102,96 (inclusief opdeciem, jaarlijks te indexeren).
 
 Overgangsmaatregel
-Mensen die hun elektrisch voertuig aankochten vóór 6 oktober 2025, maar waarbij het voertuig pas ingeschreven kan worden sinds 1 januari 2026, kunnen nog genieten van de vrijstelling in de jaarlijkse verkeersbelasting. Dit kan door de betreﬀende bestelbon voor te leggen aan de Vlaamse Belastingdienst vóór 15 januari 2026, samen met een ingevuld en ondertekend formulier (zie https://www.vlaanderen.be/belastingen-en-begroting/vlaamse-belastingen/verkeersbelastingen/voertuigenvolledig-op-elektriciteit-of-waterstof bij ‘Overgangsmaatregel’ - ‘formulier’).
+Mensen die hun elektrisch voertuig aankochten vóór 6 oktober 2025, maar waarbij het voertuig pas ingeschreven kan worden sinds 1 januari 2026, kunnen nog genieten van de vrijstelling in de jaarlijkse verkeersbelasting. Dit kan door de betreffende bestelbon voor te leggen aan de Vlaamse Belastingdienst vóór 15 januari 2026, samen met een ingevuld en ondertekend formulier (zie https://www.vlaanderen.be/belastingen-en-begroting/vlaamse-belastingen/verkeersbelastingen/voertuigenvolledig-op-elektriciteit-of-waterstof bij ‘Overgangsmaatregel’ - ‘formulier’).
 
 Lichte vracht (sinds 01.07.2025)
 Algemeen

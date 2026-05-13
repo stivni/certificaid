@@ -17,29 +17,22 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:14:59Z'
+  generated_at: '2026-05-13T12:25:02Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_at: '2026-05-13T12:28:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 pass: 115 headings, max sectie 776 chars. Wijzigingswet met correcte #### Art. headings. Inhoud zijn wijzigingen van andere wetboeken, volledig aanwezig.'
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:37Z'
-      heading_count: 115
-      max_section_chars: 776
-      file_size_chars: 21051
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
+      run_at: '2026-05-13T12:28:19Z'
       rationale: 'L1 pass: 115 headings, max sectie 776 chars. Wijzigingswet met correcte #### Art. headings. Inhoud zijn wijzigingen van andere wetboeken, volledig aanwezig.'
       concrete_problemen: []
 ---

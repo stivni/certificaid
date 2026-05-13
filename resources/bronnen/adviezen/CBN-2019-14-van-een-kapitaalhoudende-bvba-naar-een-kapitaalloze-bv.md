@@ -35,9 +35,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:47Z'
+    confirmed_at: '2026-05-13T12:28:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (13 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: Geen extractie-artefacten. Heading-hiërarchie correct, rekeningschema correct als ingesprongen blok, journaalboekingen als pipe-tabellen goed weergegeven. Inhoud compleet van inleiding tot opt-in en statutenaanpassing.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -49,8 +49,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:47Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (13 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:33Z'
+      rationale: Geen extractie-artefacten. Heading-hiërarchie correct, rekeningschema correct als ingesprongen blok, journaalboekingen als pipe-tabellen goed weergegeven. Inhoud compleet van inleiding tot opt-in en statutenaanpassing.
       concrete_problemen: []
 ---
 # CBN-advies 2019/14 – Van een kapitaalhoudende BVBA naar een kapitaalloze BV

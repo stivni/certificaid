@@ -25,9 +25,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: Eén aaneengesloten tekstblok zonder headings (heading_count=0, correct voor dit korte advies). Genummerde opsomming (1. t/m 4.) is consistent en correct. Geen PDF-artefacten, geen onzichtbare unicode, geen afgekapte zinnen. Ziet er uit als mens-geschreven markdown.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -39,8 +39,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:31Z'
+      rationale: Eén aaneengesloten tekstblok zonder headings (heading_count=0, correct voor dit korte advies). Genummerde opsomming (1. t/m 4.) is consistent en correct. Geen PDF-artefacten, geen onzichtbare unicode, geen afgekapte zinnen. Ziet er uit als mens-geschreven markdown.
       concrete_problemen: []
 ---
 # CBN-advies R100/1 - Opening van bijkomende rekeningen

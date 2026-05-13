@@ -17,39 +17,28 @@ provenance:
       version: 29.12.2011
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:15:13Z'
+  generated_at: '2026-05-13T12:25:11Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T10:38:29Z'
+    status: trusted
+    confirmed_at: '2026-05-13T12:28:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "C2: Bijlage I (vennootschapsvormen, regels 229-285) bevat de opsomming a) t/m ab) als doorlopende proza-alinea's per land, niet als markdown-lijsten. Het zijn technisch genummerde items die als aparte alinea's moeten staan. Voorts: dubbele witruimte in overwegingen (intra-zin woordbreuk van PDF-kolomopmaak: 'moeder- maatschappijen', 'kleindochteronder- neming'). Artikelen 1-11 correct geëxtraheerd."
+    rationale: "Geen EUR-Lex markers. Kleine ## heading-fragmenten ('## RICHTLIJN 2011/96/EU VAN DE RAAD' op r72-74) zijn preambuletekst. Alle 11 artikelen aanwezig. Bijlagen I (vennootschapslijsten per lidstaat) en II volledig aanwezig. PDF-koppeltekensplits zijn source-kenmerken."
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:37Z'
-      heading_count: 23
-      max_section_chars: 12245
-      file_size_chars: 27798
-      flags: []
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:38:29Z'
-      rationale: "C2: Bijlage I (vennootschapsvormen, regels 229-285) bevat de opsomming a) t/m ab) als doorlopende proza-alinea's per land, niet als markdown-lijsten. Het zijn technisch genummerde items die als aparte alinea's moeten staan. Voorts: dubbele witruimte in overwegingen (intra-zin woordbreuk van PDF-kolomopmaak: 'moeder- maatschappijen', 'kleindochteronder- neming'). Artikelen 1-11 correct geëxtraheerd."
+      run_at: '2026-05-13T12:28:25Z'
+      rationale: "Geen EUR-Lex markers. Kleine ## heading-fragmenten ('## RICHTLIJN 2011/96/EU VAN DE RAAD' op r72-74) zijn preambuletekst. Alle 11 artikelen aanwezig. Bijlagen I (vennootschapslijsten per lidstaat) en II volledig aanwezig. PDF-koppeltekensplits zijn source-kenmerken."
       concrete_problemen:
-        - regel: 229
-          categorie: C2
+        - regel: 72
+          categorie: B4
           type: other
-          voorbeeld: a) De vennootschappen opgericht overeenkomstig Verordening (EG)... (lang proza, geen markdown-lijst-item)
-        - regel: 73
-          categorie: A6
-          type: other
-          voorbeeld: moeder- maatschappijen...  dochteronder- neming (intra-woord kolombreuk uit PDF)
+          voorbeeld: '## RICHTLIJN 2011/96/EU VAN DE RAAD'
 ---
 
 # Richtlijn 2011/96/EU van de Raad van 30 november 2011 betreffende de gemeenschappelijke fiscale regeling voor moedermaatschappijen en dochterondernemingen uit verschillende lidstaten
@@ -224,7 +213,7 @@ Voor de Raad  De voorzitter
 
 J. VINCENT-ROSTOWSKI
 
-BIJLAGE I
+## Bijlage I
 
 ## DEEL A
 
@@ -346,7 +335,7 @@ Lijst van de in artikel 2, onder a), punt iii), bedoelde belastingen
 
 — corporation tax in het Verenigd Koninkrijk.
 
-BIJLAGE II
+## Bijlage II
 
 ## DEEL A
 
@@ -378,7 +367,7 @@ Richtlijn  Omzettingstermijn
 
 2006/98/EG  1 januari 2007
 
-BIJLAGE III
+## Bijlage III
 
 Concordantietabel
 

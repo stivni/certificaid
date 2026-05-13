@@ -17,30 +17,23 @@ provenance:
       version: '2020'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:14:18Z'
+  generated_at: '2026-05-13T12:24:28Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_at: '2026-05-13T12:28:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'L1 pass: 22 headings, max sectie 3529 chars. Kleine KB correct verwerkt. Inhoud volledig.'
+    rationale: Geen Fisconet-artefacten. 22 artikelheadings correct gestructureerd. HOOFDSTUK/Afdeling hiërarchie aanwezig. Wijzigingshistorie consistent.
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:39Z'
-      heading_count: 22
-      max_section_chars: 3529
-      file_size_chars: 20914
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
-      rationale: 'L1 pass: 22 headings, max sectie 3529 chars. Kleine KB correct verwerkt. Inhoud volledig.'
+      run_at: '2026-05-13T12:28:25Z'
+      rationale: Geen Fisconet-artefacten. 22 artikelheadings correct gestructureerd. HOOFDSTUK/Afdeling hiërarchie aanwezig. Wijzigingshistorie consistent.
       concrete_problemen: []
 ---
 

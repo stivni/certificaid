@@ -17,33 +17,22 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:14:45Z'
+  generated_at: '2026-05-13T12:24:53Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_at: '2026-05-13T12:28:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 warn: 347 headings, max sectie 29141 chars (chunker auto-split). ##### Art.-headings correct, wijzigingsmarkers Fisconet-stijl OK. Inhoud volledig.'
     layer1:
-      status: warn
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:40Z'
-      heading_count: 347
-      max_section_chars: 29141
-      file_size_chars: 201150
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op #####-niveau: 29141 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:16Z'
+      run_at: '2026-05-13T12:28:19Z'
       rationale: 'L1 warn: 347 headings, max sectie 29141 chars (chunker auto-split). ##### Art.-headings correct, wijzigingsmarkers Fisconet-stijl OK. Inhoud volledig.'
       concrete_problemen: []
 ---
@@ -412,7 +401,6 @@ Indien de opgave bedoeld in paragraaf 1 niet binnen de bepaalde termijn werd ing
 
 ##### Art. 126/1
 
-
 4° [ 10 de verrichtingen die effecten van de Belgische of buitenlandse openbare schuld tot voorwerp hebben en die de Algemene Administratie van de Thesaurie uitvoert of laat uitvoeren in het kader van haar liquiditeitsbeheer;] 10
 
 5° [ 10 de verrichtingen die effecten van de Belgische of buitenlandse openbare schuld tot voorwerp hebben en die het Federaal Agentschap van de Schuld uitvoert of laat uitvoeren.  Onder effecten van de Belgisch of buitenlandse openbare schuld wordt verstaan elk effect uitgegeven door een Belgische of buitenlandse entiteit die behoort tot de sector van de overheid in de zin van het Europees systeem van nationale en regionale rekeningen (ESR) voor de toepassing van Verordening (EG) nr. 479/2009 van de Raad van 25 mei 2009 betreffende de toepassing van het aan het Verdrag tot oprichting van de Europese Gemeenschap gehechte Protocol betreffende de procedure bij buitensporige tekorten;] 10
@@ -426,7 +414,6 @@ Indien de opgave bedoeld in paragraaf 1 niet binnen de bepaalde termijn werd ing
 15° [...] <W 2004-12-15/39, art. 68, Inwerkingtreding : 11-02-2005>  ----------  ( 1 )<W 2013-06-17/06, art. 63, 008; Inwerkingtreding : 08-07-2013>   ( 2 )<W 2014-04-25/36, art. 81, 014; Inwerkingtreding : 16-05-2014>   ( 3 )<W 2014-05-12/18, art. 102, 015; Inwerkingtreding : 16-07-2014>   ( 4 )<W 2016-08-03/17, art. 19, 020; Inwerkingtreding : 26-08-2016>   ( 5 )<W 2017-10-22/13, art. 15, 026; Inwerkingtreding : 20-11-2017>   ( 6 )<W 2017-12-25/03, art. 23, 028; Inwerkingtreding : 01-01-2018>   ( 7 )<KB 2019-04-22/13, art. 2, 035; Inwerkingtreding : 01-01-2017>   ( 8 )<W 2019-03-17/14, art. 104, 036; Inwerkingtreding : 01-05-2019>   ( 9 )<W 2023-12-22/05, art. 2, 057; Inwerkingtreding : 08-01-2024>   ( 10 )<W 2026-02-10/05, art. 6, 067; Inwerkingtreding : 09-03-2026>
 
 ##### Art. 126/2
-
 
 ----------  ( 1 )<W 2016-12-25/01, art. 123, 021; Inwerkingtreding : 01-01-2017>
 
@@ -672,7 +659,6 @@ Bij niet-aangifte, laattijdige, onnauwkeurige of onvolledige aangifte, alsook bi
 
 ##### Art. 175/3
 
-
 ##### Art. 176/1
 
 <Oorspronkelijk artikel 176 hernummerd tot Art. 176/1 bij KB 63 1939-11-28/35, art. 9> <W 2005- 12-27/30, art. 138, Inwerkingtreding : van toepassing op de premies en bijdragen die vanaf 1 januari 2006 vervallen> De invorderbare taks wordt berekend op [ 1 het bedrag van de premies, persoonlijke bijdragen en werkgeversbijdragen, alsmede op de vergoeding voor met de verzekering samenhangende diensten wanneer die vrijgesteld zijn van de belasting over de toegevoegde waarde overeenkomstig artikel 44, § 3, 4°, van het Wetboek van de belasting over de toegevoegde waarde] 1 , in de loop van het belastingjaar te betalen of te dragen door hetzij de verzekeringnemers, hetzij de aangeslotenen en hun werkgevers.    ----------  ( 1 )<W 2023-12-28/01, art. 2, 058; Inwerkingtreding : 08-01-2024>
@@ -741,9 +727,7 @@ verzekeringsverrichtingen] 3 kan verzekeren.] <W 1990-07-20/38, art. 12, Inwerki
 
 ##### Art. 183sexies
 
-
 ##### Art. 183septies
-
 
 ##### Art. 183octies .<Ingevoegd bij W 1988-12-07/33, art. 43, Inwerkingtreding : 01-01-1989> De jaarlijkse taks is betaalbaar binnen drie maanden te rekenen vanaf de datum van de beslissing tot verdeling van de winstdeelnemingen.  [ 2 ...] 2
 
@@ -1181,7 +1165,6 @@ nalatigheidsinteresten] 3 en geldboeten, gestuit op de wijze en onder de voorwaa
 
 ##### Art. 202/10
 
-
 ##### Art. 203/1. [ 1  [ 2  ...] 2
 
 De Koning kan de indiening van een periodieke aangifte toelaten.] 1
@@ -1206,9 +1189,7 @@ De Koning kan de indiening van een periodieke aangifte toelaten.] 1
 
 ##### Art. 205/2
 
-
 ##### Art. 206/1
-
 
 ##### Art. 206/2
 
@@ -1230,24 +1211,19 @@ opleggen] 2 van 5 000 euro tot 50 000 euro. Voor dergelijke overtredingen gedaan
 
 ##### Art. 207bis
 
-
 ##### Art. 207bis/1 . [ 1 Ten einde te vermijden dat een veroordeelde aan een onredelijk zware straf zou worden onderworpen, houdt de rechter bij de straftoemeting rekening met de verschuldigde fiscale geldboeten.  Artikel 42, 3°, van het Strafwetboek vindt geen toepassing op de vermogensvoordelen die rechtstreeks uit de fiscale misdrijven zijn verkregen, op de goederen en waarden die in de plaats ervan zijn gesteld en op de inkomsten uit de belegde voordelen in geval de vordering van de fiscale administratie gegrond wordt verklaard en tot een effectieve betaling van deze volledige vordering heeft geleid.] 1
 
 ----------  ( 1 )<Ingevoegd bij W 2019-05-05/10, art. 86, 040; Inwerkingtreding : 01-01-2020>
 
 ##### Art. 207quater
 
-
 ##### Art. 207quinquies
 
-
 ##### Art. 207sexies
-
 
 nalatigheidsinteresten] 2 , zoals bedoeld in het eerste lid, wanneer de bestanddelen van de misdrijven bewezen verklaard zijn, wanneer ze genieten van :  1° een opschorting van de uitspraak van de veroordeling of een uitstel van de tenuitvoerlegging van de straffen voorzien in de wet van 29 juni 1964 betreffende de opschorting, het uitstel en de probatie;  2° een veroordeling bij eenvoudige schuldigverklaring voorzien in [ 3 artikel 27] 3 van de Voorafgaande titel van het Wetboek van Strafvordering;  3° de procedure van de voorafgaande erkenning van schuld bedoeld in artikel 216 van het Wetboek van Strafvordering;  4° verjaring van de strafvordering.] 1
 
 ##### Art. 207septies
-
 
 ##### Art. 207octies . <Ingevoegd bij W 1981-02-10/32, art. 11, Inwerkingtreding : 14-02-1981> De schending van het bij artikel 212 bepaalde beroepsgeheim wordt gestraft overeenkomstig de artikelen 66, 67 en 458 van het Strafwetboek.
 
@@ -1366,6 +1342,5 @@ nalatigheidsinteresten] 2 , de fiscale geldboeten en de bijbehoren door een burg
 ### Titel VI. [Beroepsgeheim] <Oorspronkelijke titel XVII (art. 212) ingevoegd bij W 1978-08-04/01, art. 55, en vernummerd tot titel VI bij W 2006-12-19/33, art. 63, Inwerkingtreding : 01-01-2007>
 
 ##### Art. 212
-
 
 bedoeld in het Wetboek] 1 , is, buiten het uitoefenen van zijn ambt, verplicht tot de meest volstrekte geheimhouding aangaande alle zaken waarvan hij wegens de uitvoering van zijn opdracht kennis heeft.  [De ambtenaren van [ 1 de administratie belast met de vestiging of de inning en de invordering van de [ 2 diverse rechten en taksen] 2 bedoeld in het Wetboek] 1 oefenen hun ambt uit wanneer zij aan andere administratieve diensten van de Staat, daaronder begrepen de parketten en de griffies van de hoven en van alle gerechten, aan de gemeenschappen, aan de gewesten en aan de openbare instellingen of inrichtingen, inlichtingen verstrekken welke voor die diensten, instellingen of inrichtingen nodig zijn voor de hun opgedragen uitvoering van wettelijke of reglementaire bepalingen.] <W 2005-06-20/31, art. 6, Inwerkingtreding : 24-06-2005>  Personen die deel uitmaken van diensten waaraan [ 1 de administratie belast met de vestiging of de inning en de invordering van de [ 2 diverse rechten en taksen] 2 bedoeld in het Wetboek] 1 , ingevolge het vorige lid inlichtingen van fiscale aard heeft verstrekt, zijn tot dezelfde geheimhouding verplicht en mogen de bekomen inlichtingen niet gebruiken buiten het kader van de wettelijke bepalingen voor de uitvoering waarvan zij zijn verstrekt.  Onder openbare instellingen of inrichtingen dienen verstaan de instellingen, maatschappijen, verenigingen, inrichtingen en diensten welke de Staat mede beheert, waaraan de Staat een waarborg verstrekt, op welker bedrijvigheid de Staat toezicht uitoefent of waarvan het bestuurspersoneel aangewezen wordt door de Regering, op haar voordracht of met haar goedkeuring.  [laatste lid opgeheven] <W 1981-02-10/32, art. 12, Inwerkingtreding : ingang van het aanslagjaar 1982>  ----------  ( 1 )<W 2014-04-25/36, art. 94, 014; Inwerkingtreding : 16-05-2014>   ( 2 )<W 2016-04-27/04, art. 106, 018; Inwerkingtreding : 16-05-2016>

@@ -33,7 +33,7 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:26:29Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'D4: mixing van * en ** markers rond geciteerde wettekst op regel 454. ETL-artefact bij rendering van geciteerde wettekst met italic. L1 warn voor max_section_size (27912 chars) is acceptabel (auto-split door chunker).'
     layer1:
@@ -51,7 +51,7 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
+      run_at: '2026-05-13T12:26:29Z'
       rationale: 'D4: mixing van * en ** markers rond geciteerde wettekst op regel 454. ETL-artefact bij rendering van geciteerde wettekst met italic. L1 warn voor max_section_size (27912 chars) is acceptabel (auto-split door chunker).'
       concrete_problemen:
         - regel: 454

@@ -35,9 +35,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_at: '2026-05-13T12:26:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Laag-1 warn (max_section_size 43682 > 24000). Inhoudstafel (r83-160) aanwezig als ## headings maar leidt tot duplicaat-structuur met het document zelf (TOC-headings + body-headings). Drie # headings (r55, r57, r83, r162, r209) i.p.v. ## — hiërarchie # → ## → ### is inconsistent (B2) met de rest. De warn op max_section_size is reëel: een sectie van 43682 chars overschrijdt de RAG-grens significant. Inhoud inhoudelijk volledig.'
+    rationale: 'A6: goedkeuringsblok (regels 59–79) is één doorlopende tekst zonder alinea-scheiding. Laag 1 meldt max_section_chars=43684 wat de RAG-chunker dwingt op alinea-grenzen te splitsen. Inhoud groot (74 headings, 145915 chars) maar structureel intact. Dubbele # heading op regel 55 en 57 (twee # H1s). Tekst in goedkeuringsblok is aaneengesloten op lange regels zonder puntkomma-grenzen.'
     layer1:
       status: warn
       run_id: 20260513-000913
@@ -53,21 +53,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T00:12:30Z'
-      rationale: 'Laag-1 warn (max_section_size 43682 > 24000). Inhoudstafel (r83-160) aanwezig als ## headings maar leidt tot duplicaat-structuur met het document zelf (TOC-headings + body-headings). Drie # headings (r55, r57, r83, r162, r209) i.p.v. ## — hiërarchie # → ## → ### is inconsistent (B2) met de rest. De warn op max_section_size is reëel: een sectie van 43682 chars overschrijdt de RAG-grens significant. Inhoud inhoudelijk volledig.'
+      run_at: '2026-05-13T12:26:25Z'
+      rationale: 'A6: goedkeuringsblok (regels 59–79) is één doorlopende tekst zonder alinea-scheiding. Laag 1 meldt max_section_chars=43684 wat de RAG-chunker dwingt op alinea-grenzen te splitsen. Inhoud groot (74 headings, 145915 chars) maar structureel intact. Dubbele # heading op regel 55 en 57 (twee # H1s). Tekst in goedkeuringsblok is aaneengesloten op lange regels zonder puntkomma-grenzen.'
       concrete_problemen:
-        - regel: 83
+        - regel: 55
           categorie: B3
           type: other
-          voorbeeld: '# INHOUDSTAFEL (als # heading gevolgd door ## inhoud — duplicaat heading-boom)'
-        - regel: 55
-          categorie: B2
-          type: other
-          voorbeeld: '# KMO controle norm (tweede # H1 naast bestandsname heading)'
-        - regel: 44
-          categorie: B4
-          type: other
-          voorbeeld: 'layer1.max_section_chars: 43682 > 24000 — mega-sectie overschrijdt RAG-grens'
+          voorbeeld: '# KMO controle norm\n# Norm met betrekking... (dubbele H1)'
+        - regel: 59
+          categorie: A6
+          type: scrambled-words
+          voorbeeld: DE RAAD VAN HET INSTITUUT... Gezien... Gelet op... Gezien... (aaneengesloten)
 ---
 # KMO controle norm
 

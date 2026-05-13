@@ -37,9 +37,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:26Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: Alle door vorige verdict gemelde tekstfouten (inzae, ter uitvering, cjfers, interpretate) zijn source-typos uit de bron-HTML. De twee aparte alinea's voor de verouderd-notitie (r72-74) weerspiegelen de CBN-website-structuur — geen ETL-artefact. A4-status onbevestigd maar geen ETL-wijziging relevant. Inhoud volledig aanwezig.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -51,9 +51,21 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:26Z'
+      rationale: Alle door vorige verdict gemelde tekstfouten (inzae, ter uitvering, cjfers, interpretate) zijn source-typos uit de bron-HTML. De twee aparte alinea's voor de verouderd-notitie (r72-74) weerspiegelen de CBN-website-structuur — geen ETL-artefact. A4-status onbevestigd maar geen ETL-wijziging relevant. Inhoud volledig aanwezig.
+      concrete_problemen:
+        - regel: 76
+          categorie: (source)
+          type: source-typo
+          voorbeeld: criteria inzae tewerkgesteld personeel — source-typo voor 'inzake'
+        - regel: 80
+          categorie: (source)
+          type: source-typo
+          voorbeeld: besluiten die ter uitvering van de wet worden genomen — source-typo
+        - regel: 82
+          categorie: (source)
+          type: source-typo
+          voorbeeld: cjfers in de loop van het boekjaar ... interpretate — twee source-typos
 ---
 # CBN-advies 12-2 - Toepassingsgebied van de uitvoeringsbesluiten: Boekjaar waarop de criteria van toepassing zijn
 

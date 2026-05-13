@@ -36,6 +36,7 @@ from tools.etl.transformers.merge_article_reference_wraps import merge_article_r
 from tools.etl.transformers.strip_mb_compilatie_cover import strip_mb_compilatie_cover
 from tools.etl.transformers.fix_pdftotext_glue_bugs import fix_pdftotext_glue_bugs
 from tools.etl.transformers.promote_wettekst_section_labels import promote_wettekst_section_labels
+from tools.etl.transformers.normalize_artikel_to_art import normalize_artikel_to_art
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
@@ -64,6 +65,7 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "strip_mb_compilatie_cover": strip_mb_compilatie_cover,
     "fix_pdftotext_glue_bugs": fix_pdftotext_glue_bugs,
     "promote_wettekst_section_labels": promote_wettekst_section_labels,
+    "normalize_artikel_to_art": normalize_artikel_to_art,
 }
 
 

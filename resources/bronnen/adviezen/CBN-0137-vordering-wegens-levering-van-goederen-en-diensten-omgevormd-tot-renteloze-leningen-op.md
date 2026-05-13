@@ -45,9 +45,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_at: '2026-05-13T12:28:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (2 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: Inhoudelijk volledig advies zonder ETL-artefacten. Heading 'Advies van december 1998' terwijl de frontmatter datum '1988-12-23' toont — dit is een inconsistentie die ook in de bron-HTML aanwezig zal zijn (source-typo) en telt niet als needs-rework. Beide voetnoten correct als [^1] en [^2] geformatteerd. Geen A-G problemen.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -59,9 +59,13 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (2 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:25Z'
+      rationale: Inhoudelijk volledig advies zonder ETL-artefacten. Heading 'Advies van december 1998' terwijl de frontmatter datum '1988-12-23' toont — dit is een inconsistentie die ook in de bron-HTML aanwezig zal zijn (source-typo) en telt niet als needs-rework. Beide voetnoten correct als [^1] en [^2] geformatteerd. Geen A-G problemen.
+      concrete_problemen:
+        - regel: 64
+          categorie: (source)
+          type: source-typo
+          voorbeeld: '## Advies van december 1998 — frontmatter zegt datum: 1988-12-23'
 ---
 # CBN advies 137/8 - Vordering wegens levering van goederen en diensten omgevormd tot renteloze leningen op meer dan 1 jaar (update)
 ## Advies van december 1998, bijgewerkt op 10 september 2025

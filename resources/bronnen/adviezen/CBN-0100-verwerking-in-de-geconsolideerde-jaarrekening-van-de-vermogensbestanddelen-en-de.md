@@ -39,9 +39,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (1701 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    rationale: Drie alinea's, geen headings (heading_count=0, correct). Wetsartikel geciteerd als prose, geen tabellen of lijsten nodig. Geen artefacten, inhoud volledig en afgerond.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -53,8 +53,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: 'Kort advies (1701 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+      run_at: '2026-05-13T12:28:31Z'
+      rationale: Drie alinea's, geen headings (heading_count=0, correct). Wetsartikel geciteerd als prose, geen tabellen of lijsten nodig. Geen artefacten, inhoud volledig en afgerond.
       concrete_problemen: []
 ---
 # CBN-advies C100 - Verwerking in de geconsolideerde jaarrekening van de vermogensbestanddelen en de resultaten op de datum waarop de geconsolideerde jaarrekening wordt afgesloten

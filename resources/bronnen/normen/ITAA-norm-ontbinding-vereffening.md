@@ -35,9 +35,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_at: '2026-05-13T12:27:03Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B4: 16 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als standalone heading — zelfde twee-kolom extractie-artefact als effectennorm en omzetting-vennootschap. A6: preamble afgebroken zinnen (r57-63). Heading '## Norm inzake de opdracht van de beroepsbeoefenaar bij de ontbinding en' (r53) eindigt mid-zin met de vervolgtitel 'vereffening van vennootschappen' op r55 als plain text — gesplitste heading. Structuur van de genummerde secties verder aanwezig."
+    rationale: "Laag-1 warn: 23 TOC-stippelregels. Twee systematische extractie-defecten: (1) page-footers 'Goedgekeurd HREB (02-03-2026)- ter goedkeuring van de minister voorgelegd X/47' zijn herhaaldelijk als ## headings gepromoveerd (15+ keer), wat de heading-hiërarchie ernstig vervuilt; (2) column-header 'VEREISTEN TOEPASSINGSMODALITEITEN' eveneens herhaaldelijk als ## heading (16x). Daarnaast worden body-paragrafen zoals '## 11. Alvorens deze opdracht...' en '## 19. Om te kunnen overgaan...' als heading gepromoveerd terwijl ze mid-sentence afkappen. De echte sectiestructuur (I, I.1, I.2, II, III, IV, IV.1, IV.2) is grotendeels aanwezig maar doorkruist door de spurious headings."
     layer1:
       status: pass
       run_id: 20260513-000913
@@ -49,21 +49,33 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T00:12:30Z'
-      rationale: "B4: 16 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als standalone heading — zelfde twee-kolom extractie-artefact als effectennorm en omzetting-vennootschap. A6: preamble afgebroken zinnen (r57-63). Heading '## Norm inzake de opdracht van de beroepsbeoefenaar bij de ontbinding en' (r53) eindigt mid-zin met de vervolgtitel 'vereffening van vennootschappen' op r55 als plain text — gesplitste heading. Structuur van de genummerde secties verder aanwezig."
+      run_at: '2026-05-13T12:27:03Z'
+      rationale: "Laag-1 warn: 23 TOC-stippelregels. Twee systematische extractie-defecten: (1) page-footers 'Goedgekeurd HREB (02-03-2026)- ter goedkeuring van de minister voorgelegd X/47' zijn herhaaldelijk als ## headings gepromoveerd (15+ keer), wat de heading-hiërarchie ernstig vervuilt; (2) column-header 'VEREISTEN TOEPASSINGSMODALITEITEN' eveneens herhaaldelijk als ## heading (16x). Daarnaast worden body-paragrafen zoals '## 11. Alvorens deze opdracht...' en '## 19. Om te kunnen overgaan...' als heading gepromoveerd terwijl ze mid-sentence afkappen. De echte sectiestructuur (I, I.1, I.2, II, III, IV, IV.1, IV.2) is grotendeels aanwezig maar doorkruist door de spurious headings."
       concrete_problemen:
-        - regel: 139
-          categorie: B4
-          type: other
-          voorbeeld: '## VEREISTEN TOEPASSINGSMODALITEITEN (kolomkop als heading, 16x herhaald)'
-        - regel: 53
+        - regel: 82
+          categorie: A1
+          type: form-feed
+          voorbeeld: "'## Goedgekeurd HREB (02-03-2026)- ter goedkeuring van de minister voorgelegd 1/47' — page-footer als ## heading (15+ herhalingen)"
+        - regel: 144
+          categorie: A8
+          type: column-bleed
+          voorbeeld: "'## VEREISTEN TOEPASSINGSMODALITEITEN' als heading (16x herhaald in document)"
+        - regel: 281
           categorie: B1
+          type: abrupt-cutoff
+          voorbeeld: "'## 11. Alvorens deze opdracht te aanvaarden en in het kader van de' — paragraaf als heading, kapt af mid-zin"
+        - regel: 349
+          categorie: B1
+          type: abrupt-cutoff
+          voorbeeld: "'## 19. Om te kunnen overgaan tot het verzoeken om inlichtingen en om zijn' — idem"
+        - regel: 199
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: "'Toepassingsgebied ..............................................................................................................................  4'"
+        - regel: 79
+          categorie: B5
           type: other
-          voorbeeld: '## Norm inzake de opdracht van de beroepsbeoefenaar bij de ontbinding en (heading eindigt mid-zin)'
-        - regel: 57
-          categorie: A6
-          type: other
-          voorbeeld: BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien artikel 31... (afgekapte aanhef preamble)
+          voorbeeld: "'## Norm inzake de opdracht van de \\nberoepsbeoefenaar bij de ontbinding en\\n\\nvereffening van vennootschappen' — norm-titel als ## met spurious line-breaks"
 ---
 Ontwerp
 

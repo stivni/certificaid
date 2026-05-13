@@ -17,33 +17,22 @@ provenance:
       version: 10.02.2026
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:13:29Z'
+  generated_at: '2026-05-13T12:24:05Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_at: '2026-05-13T12:28:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 warn: 1093 headings, max sectie 68112 chars (chunker auto-split). ###### Art.-headings correct, Fisconet-stijl. Inhoud volledig inclusief tijdelijke bepalingen Art. 552. Geen ETL-artefacten.'
     layer1:
-      status: warn
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:41Z'
-      heading_count: 1093
-      max_section_chars: 68112
-      file_size_chars: 1950660
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ######-niveau: 68112 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:16Z'
+      run_at: '2026-05-13T12:28:19Z'
       rationale: 'L1 warn: 1093 headings, max sectie 68112 chars (chunker auto-split). ###### Art.-headings correct, Fisconet-stijl. Inhoud volledig inclusief tijdelijke bepalingen Art. 552. Geen ETL-artefacten.'
       concrete_problemen: []
 ---

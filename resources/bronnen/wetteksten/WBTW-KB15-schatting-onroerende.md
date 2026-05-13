@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:26:36Z'
+  generated_at: '2026-05-13T12:24:30Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:27:19Z'
+    confirmed_at: '2026-05-13T12:28:36Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Inconsistente HOOFDSTUK-structuur (categorie B2): 'EERSTE HOOFDSTUK' op regel 49-51 als plain text in all-caps zonder ## prefix, terwijl 'HOOFDSTUK II' op regel 183 wél als ## heading staat. Afdeling 1 als ### maar afdeling 2 ook als ### — OK. Daarnaast eed-formules (regel 129) als run-on prose i.p.v. blockquote/list, en meerdere spurious linebreaks in annotaties ('Art.\\n13,' regel 97-98, 'Art.\\n17,' regel 122-123, 'Art.\\n20,' regel 200-201)."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:27:19Z'
+      run_at: '2026-05-13T12:28:36Z'
       rationale: "Inconsistente HOOFDSTUK-structuur (categorie B2): 'EERSTE HOOFDSTUK' op regel 49-51 als plain text in all-caps zonder ## prefix, terwijl 'HOOFDSTUK II' op regel 183 wél als ## heading staat. Afdeling 1 als ### maar afdeling 2 ook als ### — OK. Daarnaast eed-formules (regel 129) als run-on prose i.p.v. blockquote/list, en meerdere spurious linebreaks in annotaties ('Art.\\n13,' regel 97-98, 'Art.\\n17,' regel 122-123, 'Art.\\n20,' regel 200-201)."
       concrete_problemen:
         - regel: 49
@@ -72,7 +72,7 @@ provenance:
 Koninklijk besluit nr. 15, van 3 juni 1970, tot regeling van de schattingsprocedure waarin artikel 59, § 2, van het Wetboek van de belasting over de toegevoegde waarde voorziet.
 (Uitvoering van de artikelen 12, § 2, eerste lid, 36, 51, § 3, en 59, § 2 van het Wetboek) (Officieuse coördinatie) Laatst gewijzigd met ingang van 01.04.2019 (KB 17.03.2019, B.S. 08.04.2019, pg. 35699)
 
-EERSTE HOOFDSTUK
+## HOOFDSTUK I
 DOOR DE ADMINISTRATIE BELAST MET DE BELASTING OVER DE
 TOEGEVOEGDE WAARDE INGESTELDE VORDERING TOT SCHATTING.
 

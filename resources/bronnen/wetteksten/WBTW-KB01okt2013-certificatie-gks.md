@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:26:38Z'
+  generated_at: '2026-05-13T12:24:31Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T11:27:19Z'
+    confirmed_at: '2026-05-13T12:28:36Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Schone conversie: 9 Art.-headings consistent op ## niveau, paragrafen § 1/§ 2/§ 3 als plain text in body (standaard Belgische wetstijl), genummerde 1°/2°/... lijsten correct, geen form-feed of dotted-leaders. Eén voetnoot (1) midden-prose maar dat is brontypografie.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:27:19Z'
+      run_at: '2026-05-13T12:28:36Z'
       rationale: 'Schone conversie: 9 Art.-headings consistent op ## niveau, paragrafen § 1/§ 2/§ 3 als plain text in body (standaard Belgische wetstijl), genummerde 1°/2°/... lijsten correct, geen form-feed of dotted-leaders. Eén voetnoot (1) midden-prose maar dat is brontypografie.'
       concrete_problemen:
         - regel: 75

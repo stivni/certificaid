@@ -17,30 +17,23 @@ provenance:
       version: '2024'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:14:12Z'
+  generated_at: '2026-05-13T12:24:27Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_at: '2026-05-13T12:28:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "L1 pass: 62 headings, max sectie 9654 chars. Headings correct als ## en #### Art. N. 'Beeld niet opgenomen'-meldingen zijn bron-stijl. Inhoud volledig inclusief bijlagen N1-N4."
+    rationale: "Geen TOC-fragmenten, geen 'Bron: FINANCIEN' footer, geen Fisconet-artefacten. 62 artikelheadings in correcte hiërarchie (###/####). Wijzigingshistorie in (1)<KB...> stijl consistent aanwezig. Volledig document van KB nr. 1."
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:39Z'
-      heading_count: 62
-      max_section_chars: 9654
-      file_size_chars: 109575
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
-      rationale: "L1 pass: 62 headings, max sectie 9654 chars. Headings correct als ## en #### Art. N. 'Beeld niet opgenomen'-meldingen zijn bron-stijl. Inhoud volledig inclusief bijlagen N1-N4."
+      run_at: '2026-05-13T12:28:25Z'
+      rationale: "Geen TOC-fragmenten, geen 'Bron: FINANCIEN' footer, geen Fisconet-artefacten. 62 artikelheadings in correcte hiërarchie (###/####). Wijzigingshistorie in (1)<KB...> stijl consistent aanwezig. Volledig document van KB nr. 1."
       concrete_problemen: []
 ---
 
@@ -54,7 +47,9 @@ provenance:
 
 (1)<Ingevoegd bij KB 2012-12-19/03, art. 2, 033; Inwerkingtreding : 01-01-2013>
 
-Artikel 1. [1 [4 De belastingplichtige die hierna vermelde leveringen van goederen of diensten die niet zijn vrijgesteld krachtens artikel 44 van het Wetboek en die niet bedoeld zijn in artikel 135, lid 1, punten a) tot g), van Richtlijn 2006/112/EG, verricht voor natuurlijke personen die ze bestemmen voor hun privégebruik, reikt een factuur uit wanneer deze handelingen overeenkomstig de artikelen 14, 14bis, 15 en 21bis van het Wetboek in België plaatsvinden, of wanneer, vóór de handeling, de belasting opeisbaar wordt over de gehele of een deel van de prijs van de handeling, bij toepassing van de artikelen 17, § 1, derde lid en 22bis, § 1, derde lid, van het Wetboek :]4
+#### Art. 1
+
+[1 [4 De belastingplichtige die hierna vermelde leveringen van goederen of diensten die niet zijn vrijgesteld krachtens artikel 44 van het Wetboek en die niet bedoeld zijn in artikel 135, lid 1, punten a) tot g), van Richtlijn 2006/112/EG, verricht voor natuurlijke personen die ze bestemmen voor hun privégebruik, reikt een factuur uit wanneer deze handelingen overeenkomstig de artikelen 14, 14bis, 15 en 21bis van het Wetboek in België plaatsvinden, of wanneer, vóór de handeling, de belasting opeisbaar wordt over de gehele of een deel van de prijs van de handeling, bij toepassing van de artikelen 17, § 1, derde lid en 22bis, § 1, derde lid, van het Wetboek :]4
 1° de leveringen :
 a) van voor personen- of goederenvervoer bestemde nieuwe of tweedehandse landvoertuigen, voorzien van een motor met een cilinderinhoud van meer dan 48 kubieke centimeter of met een vermogen van meer dan 7,2 kilowatt, alsmede hun aanhangwagens, met inbegrip van de auto's voor dubbel gebruik en de kampeerwagens;
 b) van jachten en plezierboten;
@@ -102,7 +97,7 @@ Evenwel, wanneer de prijs of een deel ervan werd ontvangen vóór de levering va
 
 #### Art. 5. [1 § 1. De factuur en het in artikel 2 bedoeld stuk vermelden :
 1° de datum waarop ze respectievelijk worden uitgereikt of opgesteld en een opeenvolgend nummer, volgens één of meer reeksen, dat deze stukken op eenduidige wijze identificeert, waaronder ze worden ingeschreven in het boek voor uitgaande facturen van de leverancier of de dienstverrichter;
-2° de naam of de maatschappelijke benaming van de leverancier van de goederen of van de dienstverrichter, het adres van zijn administratieve of maatschappelijke zetel en zijn in artikel 50 van het Wetboek bedoeld btwidentificatienummer.
+2° de naam of de maatschappelijke benaming van de leverancier van de goederen of van de dienstverrichter, het adres van zijn administratieve of maatschappelijke zetel en zijn in artikel 50 van het Wetboek bedoeld btw-identificatienummer.
 In het kader van de btw-eenheid in de zin van artikel 4, § 2, van het Wetboek, worden deze vermeldingen vervangen door de vermeldingen eigen aan het betrokken lid;
 2° bis wanneer de schuldenaar de leverancier van de goederen of de dienstverrichter is die niet in België is gevestigd en :
 a) hij heeft hier te lande een aansprakelijke vertegenwoordiger laten erkennen overeenkomstig artikel 55, § 1 of
@@ -110,14 +105,14 @@ a) hij heeft hier te lande een aansprakelijke vertegenwoordiger laten erkennen o
 b) hij wordt vertegenwoordigd door een vooraf erkende persoon overeenkomstig artikel 55, § 3, van het
 
 Wetboek, de identiteit, het adres en het btw-identificatienummer toegekend aan die persoon en de aanduiding van zijn hoedanigheid;
-3° de naam of de maatschappelijke benaming, het adres en het in artikel 50 van het Wetboek bedoeld btwidentificatienummer van de medecontractant of, wanneer het in artikel 39bis, eerste lid, 4°, van het Wetboek bedoelde leveringen betreft, de naam of de maatschappelijke benaming, het adres en het btwidentificatienummer dat in de lidstaat van bestemming van de goederen aan de belastingplichtige is toegekend;
+3° de naam of de maatschappelijke benaming, het adres en het in artikel 50 van het Wetboek bedoeld btw-identificatienummer van de medecontractant of, wanneer het in artikel 39bis, eerste lid, 4°, van het Wetboek bedoelde leveringen betreft, de naam of de maatschappelijke benaming, het adres en het btw-identificatienummer dat in de lidstaat van bestemming van de goederen aan de belastingplichtige is toegekend;
 3° bis wanneer de schuldenaar de medecontractant is die niet in België is gevestigd en :
 a) hij heeft hier te lande een aansprakelijke vertegenwoordiger laten erkennen overeenkomstig artikel 55, § 1 of
 § 2, van het Wetboek, de identiteit en het adres van de aansprakelijke vertegenwoordiger en de aanduiding van zijn hoedanigheid;
 b) hij wordt vertegenwoordigd door een vooraf erkende persoon overeenkomstig artikel 55, § 3, van het Wetboek, de identiteit, het adres en het btw-identificatienummer toegekend aan die persoon en de aanduiding van zijn hoedanigheid;
 4° a) voor de diensten bedoeld in artikel 21, § 2, van het Wetboek, het nummer waaronder de ontvanger voor btw-doeleinden is geïdentificeerd en waaronder hem de dienst werd verstrekt;
 b) voor de handelingen bedoeld in artikel 39bis, eerste lid, 1°, van het Wetboek, het nummer waaronder de ontvanger in een andere lidstaat voor btw-doeleinden is geïdentificeerd;
-c) in geval van toepassing van het bepaalde in artikel 25ter, § 1, tweede lid, 3°, van het Wetboek, een verwijzing naar de toepassing van die bepaling, het nummer waaronder de belastingplichtige voor btw-doeleinden in een andere lidstaat is geïdentificeerd en waaronder hij de intracommunautaire verwerving en de daarop aansluitende levering van goederen verricht heeft, en het nummer waaronder de bestemmeling van de levering voor btwdoeleinden is geïdentificeerd overeenkomstig artikel 50 van het Wetboek;
+c) in geval van toepassing van het bepaalde in artikel 25ter, § 1, tweede lid, 3°, van het Wetboek, een verwijzing naar de toepassing van die bepaling, het nummer waaronder de belastingplichtige voor btw-doeleinden in een andere lidstaat is geïdentificeerd en waaronder hij de intracommunautaire verwerving en de daarop aansluitende levering van goederen verricht heeft, en het nummer waaronder de bestemmeling van de levering voor btw-doeleinden is geïdentificeerd overeenkomstig artikel 50 van het Wetboek;
 5° de datum waarop het belastbare feit voor de levering van de goederen of de dienstverrichting heeft plaatsgevonden of de datum van de ontvangst van de prijs of een deel ervan, voorzover die datum vastgesteld is en verschilt van de uitreikingsdatum van de factuur;
 6° de gegevens die nodig zijn om de handeling te determineren en om het tarief van de belasting vast te stellen, inzonderheid de gebruikelijke benaming van de geleverde goederen en van de verstrekte diensten en hun hoeveelheid alsook het voorwerp van de diensten;
 7° de in artikel 8bis, § 2, van het Wetboek opgesomde gegevens voor de leveringen van vervoermiddelen bedoeld in artikel 8bis, § 1, van het Wetboek, evenals het merk, het model, de cilinderinhoud, de motorsterkte en het chassisnummer in geval van levering van nieuwe of tweedehandse personenauto's of auto's voor dubbel gebruik en, wanneer het gaat om tweedehandse personenauto's en tweedehandse auto's voor dubbel gebruik, de datum van de eerste inverkeersstelling en, voor de werken, het wassen uitgezonderd, verricht aan motorvoertuigen, de vermelding van de nummerplaat van het voertuig;
@@ -155,7 +150,7 @@ stuk op eenduidige wijze identificeert en waaronder het wordt ingeschreven in he
 (1)<Ingevoegd bij KB 2012-12-19/03, art. 9, 033; Inwerkingtreding : 01-01-2013>
 
 #### Art. 6. [1 Bij openbare verkoop van roerende goederen van een gefailleerde belastingplichtige mag de factuur worden vervangen door een door de instrumenterende notaris of gerechtsdeurwaarder op basis van het proces-verbaal van toewijzing opgesteld stuk dat aan de koper wordt uitgereikt, onder de volgende voorwaarden :
-1° per toegewezen lot bevatten het proces-verbaal en het stuk de vermeldingen bedoeld in artikel 5, § 1, met uitzondering van het volgnummer in het boek voor uitgaande facturen en, voor leveringen aan overeenkomstig artikel 50 van het Wetboek voor btw-doeleinden geïdentificeerde belastingplichtigen, hun btwidentificatienummer. In het proces-verbaal mogen deze vermeldingen evenwel worden vervangen door een refertenummer dat aan ieder stuk wordt toegekend;
+1° per toegewezen lot bevatten het proces-verbaal en het stuk de vermeldingen bedoeld in artikel 5, § 1, met uitzondering van het volgnummer in het boek voor uitgaande facturen en, voor leveringen aan overeenkomstig artikel 50 van het Wetboek voor btw-doeleinden geïdentificeerde belastingplichtigen, hun btw-identificatienummer. In het proces-verbaal mogen deze vermeldingen evenwel worden vervangen door een refertenummer dat aan ieder stuk wordt toegekend;
 2° een dubbel van het stuk wordt aan de curator overhandigd.]1
 (1)<KB 2012-12-19/03, art. 10, 033; Inwerkingtreding : 01-01-2013>
 
@@ -227,7 +222,7 @@ Onder de in artikel 53, § 2, tweede lid, van het Wetboek bedoelde voorwaarden m
 artikelen 56bis tot en met 56undecies van het Wetboek.]2
 De vereenvoudigde factuur moet in elk geval de volgende vermeldingen bevatten :
 1° de datum waarop ze is uitgereikt en een opeenvolgend nummer, volgens één of meer reeksen, dat de factuur op eenduidige wijze identificeert, waaronder ze wordt ingeschreven in het boek voor uitgaande facturen van de leverancier of de dienstverrichter;
-2° [2 de naam of de maatschappelijke benaming van de leverancier of van de dienstverrichter, het adres van zijn administratieve of maatschappelijke zetel en zijn in artikel 50 van het Wetboek bedoeld btwidentificatienummer of het individueel nummer dat hem overeenkomstig artikel 292 ter, tweede alinea, van Richtlijn 2006/112/EG door de lidstaat van vestiging werd toegekend of, in het kader van de btw-eenheid in de zin van artikel 4, § 2, van het Wetboek, de vermeldingen eigen aan het betrokken lid;]2
+2° [2 de naam of de maatschappelijke benaming van de leverancier of van de dienstverrichter, het adres van zijn administratieve of maatschappelijke zetel en zijn in artikel 50 van het Wetboek bedoeld btw-identificatienummer of het individueel nummer dat hem overeenkomstig artikel 292 ter, tweede alinea, van Richtlijn 2006/112/EG door de lidstaat van vestiging werd toegekend of, in het kader van de btw-eenheid in de zin van artikel 4, § 2, van het Wetboek, de vermeldingen eigen aan het betrokken lid;]2
 3° het in artikel 50 van het Wetboek bedoelde btw-identificatienummer van de verkrijger of de ontvanger, of bij gebreke hieraan, zijn naam of maatschappelijke benaming en volledig adres;
 4° de identificatie van de aard van de geleverde goederen of verrichte diensten;
 5° de aanduiding, per tarief, van de maatstaf van heffing en het bedrag van de verschuldigde belasting;
@@ -531,7 +526,7 @@ In het register bedoeld in het eerste lid, tekent de belastingplichtige, voor el
 (1)<Ingevoegd bij KB 2019-12-11/14, art. 3, 046; Inwerkingtreding : 01-01-2020>
 
 #### Art. 25. <KB 1996-02-25/35, art. 6, 007; Inwerkingtreding : 01-01-1996> § 1. Iedere belastingplichtige moet een register houden van de goederen die hem door een belastingplichtige worden toevertrouwd met het oog op de oplevering aan laatstgenoemde van een maakloonwerk in de zin van [1 artikel 1, § 22]1, van het Wetboek.
-§ 2. In het in § 1 bedoelde register vermeldt de belastingplichtige eveneens de goederen die hem vanuit een andere Lid-Staat werden toegezonden door of voor rekening van een in die andere Lid-Staat voor BTWdoeleinden geïdentificeerde belastingplichtige en die het voorwerp uitmaken van een expertise of van een materieel werk, ander dan een maakloonwerk in de zin van [1 artikel 1, § 22]1, van het Wetboek.
+§ 2. In het in § 1 bedoelde register vermeldt de belastingplichtige eveneens de goederen die hem vanuit een andere Lid-Staat werden toegezonden door of voor rekening van een in die andere Lid-Staat voor BTW-doeleinden geïdentificeerde belastingplichtige en die het voorwerp uitmaken van een expertise of van een materieel werk, ander dan een maakloonwerk in de zin van [1 artikel 1, § 22]1, van het Wetboek.
 (§ 3. De bepalingen van §§ 1 en 2 zijn van toepassing op elk lid van de BTW-eenheid in de zin van artikel 4, § 2, van het Wetboek voor de handelingen die hem betreffen.) <KB 2007-05-17/35, art. 14, a), 025; Inwerkingtreding : 01-04-2007> ((§ 4.) De bepalingen van de (§§ 1, 2 en 3) zijn niet van toepassing op de handelingen die in het register bedoeld in artikel 28, § 1 moeten worden ingeschreven.) <KB 2002-02-06/31, art. 7, 017; Inwerkingtreding : 01-04- 2002> <KB 2007-05-17/35, art. 14, a) en b), 025; Inwerkingtreding : 01-04-2007> (1)<KB 2022-10-26/04, art. 18, 049; Inwerkingtreding : 01-12-2022>
 
 #### Art. 26

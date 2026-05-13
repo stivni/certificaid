@@ -40,9 +40,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:46Z'
+    confirmed_at: '2026-05-13T12:28:27Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Vier ## headings, alle inhoud compleet, voetnoten [^1]-[^12] correct gedefinieerd. Lijn 93 start met '11.' als randnummer-verwijzing — dit is authentieke CBN-stijl voor randnummers, geen extractie-bug. Geen form-feeds, geen broken italic, geen column-bleed aangetroffen."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -54,8 +54,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:46Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:27Z'
+      rationale: "Vier ## headings, alle inhoud compleet, voetnoten [^1]-[^12] correct gedefinieerd. Lijn 93 start met '11.' als randnummer-verwijzing — dit is authentieke CBN-stijl voor randnummers, geen extractie-bug. Geen form-feeds, geen broken italic, geen column-bleed aangetroffen."
       concrete_problemen: []
 ---
 # CBN-advies 2017/11 – Opname van financiële vaste activa geboekt tegen een hoger bedrag dan hun reële waarde in de toelichting van de jaarrekening

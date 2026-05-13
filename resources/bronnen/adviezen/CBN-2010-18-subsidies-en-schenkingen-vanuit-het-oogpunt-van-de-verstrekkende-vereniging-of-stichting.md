@@ -32,9 +32,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:28:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (14 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r55-64 TOC) is niet bevestigd: de body bevat enkel inleidingstekst gevolgd door correcte ## en ### headings. Zes voorbeelden met pipe-tabellen zijn correct opgemaakt. Voetnoot [^1] is gedefinieerd en gerefereerd. Geen OCR, scrambling, broken markup of structuurproblemen gevonden.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -46,8 +46,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (14 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:29Z'
+      rationale: 'Geen ETL-artefacten bevestigd. De eerder gerapporteerde A3 (r55-64 TOC) is niet bevestigd: de body bevat enkel inleidingstekst gevolgd door correcte ## en ### headings. Zes voorbeelden met pipe-tabellen zijn correct opgemaakt. Voetnoot [^1] is gedefinieerd en gerefereerd. Geen OCR, scrambling, broken markup of structuurproblemen gevonden.'
       concrete_problemen: []
 ---
 # CBN-advies 2010/18 - Subsidies en schenkingen vanuit het oogpunt van de verstrekkende vereniging of stichting

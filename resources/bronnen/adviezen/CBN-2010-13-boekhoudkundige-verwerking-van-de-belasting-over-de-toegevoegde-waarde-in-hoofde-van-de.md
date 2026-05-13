@@ -37,9 +37,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:28:27Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Na scraper-fixes zijn de eerder gemelde zwevende voetnootankers ([^14], [^15], [^16][^17]) niet meer aanwezig in de huidige versie — de body is schoon. Heading-structuur correct (H1 + 4 ## secties). Alle voorbeeldboekingen in pipe-tabellen. Kleinere restpunten: r90 mist een punt aan het einde van een zin ('worden geacht door de btw-eenheid te worden verwezenlijkt' — geen punt) en r170 heeft 'aangesproken wordenvoor' (ontbrekende spatie), maar dit zijn cosmetische haarscheurtjes die leesbaarheid niet raken. Inhoud volledig."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -51,9 +51,17 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:27Z'
+      rationale: "Na scraper-fixes zijn de eerder gemelde zwevende voetnootankers ([^14], [^15], [^16][^17]) niet meer aanwezig in de huidige versie — de body is schoon. Heading-structuur correct (H1 + 4 ## secties). Alle voorbeeldboekingen in pipe-tabellen. Kleinere restpunten: r90 mist een punt aan het einde van een zin ('worden geacht door de btw-eenheid te worden verwezenlijkt' — geen punt) en r170 heeft 'aangesproken wordenvoor' (ontbrekende spatie), maar dit zijn cosmetische haarscheurtjes die leesbaarheid niet raken. Inhoud volledig."
+      concrete_problemen:
+        - regel: 90
+          categorie: D1
+          type: abrupt-cutoff
+          voorbeeld: worden geacht door de btw-eenheid te worden verwezenlijkt (zin eindigt zonder punt)
+        - regel: 170
+          categorie: D1
+          type: other
+          voorbeeld: aangesproken wordenvoor de eventuele navordering (ontbrekende spatie tussen woorden)
 ---
 # CBN-advies 2010-13 - Boekhoudkundige verwerking van de belasting over de toegevoegde waarde in hoofde van de leden van een btw-eenheid Advies van 8 september 2010
 

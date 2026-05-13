@@ -41,9 +41,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (1401 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    rationale: Zeer kort advies (1401 tekens) zonder interne headings — past bij enkelvoudige interpretatie-vraag. Geen artefacten. De afkorting 'mec. nr. 4659' op regel 64 is een authentieke verwijzing uit het originele advies, geen extractie-bug. Frontmatter volledig.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -55,8 +55,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: 'Kort advies (1401 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+      run_at: '2026-05-13T12:28:32Z'
+      rationale: Zeer kort advies (1401 tekens) zonder interne headings — past bij enkelvoudige interpretatie-vraag. Geen artefacten. De afkorting 'mec. nr. 4659' op regel 64 is een authentieke verwijzing uit het originele advies, geen extractie-bug. Frontmatter volledig.
       concrete_problemen: []
 ---
 # CBN-advies 111/1 - Bezoldigingen toegekend aan bestuurders en commissarissen -Bedoelde bezoldigingen

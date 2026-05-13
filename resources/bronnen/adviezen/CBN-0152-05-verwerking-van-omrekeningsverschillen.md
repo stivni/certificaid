@@ -28,9 +28,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:28:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Korte bron (2788 tekens), geen subkoppen (heading_count: 0, conform Laag-1). Inhoud compleet: vraag en advies aanwezig, voetnoot [^1] correct gedefinieerd. Geen artefacten in categorieën A-G. De verwijzing naar paginanummers ('pp. 35 tot 37') is een interne verwijzing naar het brondocument, geen TOC-rest."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -42,8 +42,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:33Z'
+      rationale: "Korte bron (2788 tekens), geen subkoppen (heading_count: 0, conform Laag-1). Inhoud compleet: vraag en advies aanwezig, voetnoot [^1] correct gedefinieerd. Geen artefacten in categorieën A-G. De verwijzing naar paginanummers ('pp. 35 tot 37') is een interne verwijzing naar het brondocument, geen TOC-rest."
       concrete_problemen: []
 ---
 # CBN-advies 152/5 - Verwerking van omrekeningsverschillen

@@ -17,68 +17,62 @@ provenance:
       version: '05.2025'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 057ab06-dirty
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:06:37Z'
+  generated_at: '2026-05-13T12:25:17Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_at: '2026-05-13T12:27:02Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A1: 73 paginakop/-voetregel-artefacten ('Belastinggids 2025 • XX' / 'XX • Belastinggids 2025') verspreid door body (elke ~40 regels). A6: 96 spurious line-breaks in body (zinnen afgekapt per visuele PDF-regel). C1: 305 bullet-glyphs (•) gebruikt — dit zijn echter echte opsommingsbullets uit de bron, niet PDF-glyphs. Paginakoppen zijn ETL-artefact."
+    rationale: "Zware TOC-residu aan het begin (regels 66-213): de inhoudsopgave met dotted-leaders staat volledig als plain text in de body en is niet verwijderd, inclusief paginanummers ('9', '11', '12', ...). Daarnaast staan paginatellers verspreid door de body ('Belastinggids 2025 • 9', '10 • Brochure A5', '12 • Belastinggids 2025', enz.) — dit zijn klassieke A1/A2-artefacten. De TOC is bovendien deels verdubbeld (A3): de geïntegreerde inhoudstafel bovenaan plus de sectionering als headings geeft redundantie. Paragraafnummers '2.', '3.' op regels 500-501 zijn als ### headings gemarkeerd in plaats van als lijstpunten (B2 bug: '### 2. Voor uw tweede woning...' is een opsommingspunt dat als heading is gerenderd). Ook B5-artefact: sectie-labels 'a. Bezoldigingen', 'b. Beroepskosten' staan als plain text zonder heading-prefix. Inhoud zelf is overigens volledig en correct."
     layer1:
-      status: warn
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:41Z'
-      heading_count: 5
-      max_section_chars: 89695
-      file_size_chars: 135339
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 89695 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:20:00Z'
-      rationale: "A1: 73 paginakop/-voetregel-artefacten ('Belastinggids 2025 • XX' / 'XX • Belastinggids 2025') verspreid door body (elke ~40 regels). A6: 96 spurious line-breaks in body (zinnen afgekapt per visuele PDF-regel). C1: 305 bullet-glyphs (•) gebruikt — dit zijn echter echte opsommingsbullets uit de bron, niet PDF-glyphs. Paginakoppen zijn ETL-artefact."
+      run_at: '2026-05-13T12:27:02Z'
+      rationale: "Zware TOC-residu aan het begin (regels 66-213): de inhoudsopgave met dotted-leaders staat volledig als plain text in de body en is niet verwijderd, inclusief paginanummers ('9', '11', '12', ...). Daarnaast staan paginatellers verspreid door de body ('Belastinggids 2025 • 9', '10 • Brochure A5', '12 • Belastinggids 2025', enz.) — dit zijn klassieke A1/A2-artefacten. De TOC is bovendien deels verdubbeld (A3): de geïntegreerde inhoudstafel bovenaan plus de sectionering als headings geeft redundantie. Paragraafnummers '2.', '3.' op regels 500-501 zijn als ### headings gemarkeerd in plaats van als lijstpunten (B2 bug: '### 2. Voor uw tweede woning...' is een opsommingspunt dat als heading is gerenderd). Ook B5-artefact: sectie-labels 'a. Bezoldigingen', 'b. Beroepskosten' staan als plain text zonder heading-prefix. Inhoud zelf is overigens volledig en correct."
       concrete_problemen:
-        - regel: 64
+        - regel: 66
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: I Woord vooraf.................................................................................................................................................................................. 9
+        - regel: 103
           categorie: A1
           type: form-feed
           voorbeeld: Belastinggids 2025 • 3
-        - regel: 86
+        - regel: 141
           categorie: A1
           type: form-feed
-          voorbeeld: 6 • Belastinggids 2025
-        - regel: 548
-          categorie: A6
+          voorbeeld: 4 • Belastinggids 2025
+        - regel: 255
+          categorie: A1
+          type: form-feed
+          voorbeeld: Belastinggids 2025 • 9
+        - regel: 500
+          categorie: B2
           type: other
-          voorbeeld: b.2 Werkelijke beroepskosten | b.2.1 Kosten voor auto en motorvoertu
+          voorbeeld: '### 2. Voor uw tweede woning wordt het KI vermenigvuldigd met 1,40.'
+        - regel: 501
+          categorie: B2
+          type: other
+          voorbeeld: '### 3. Als u uw huis verhuurt aan een derde voor privédoeleinden,'
+        - regel: 555
+          categorie: B5
+          type: other
+          voorbeeld: a. Bezoldigingen (plain text, geen heading-prefix)
 ---
 
 # Belastinggids 2025 — ACLVB
 
 *Bijgewerkt tot en met 05.2025 — gecoördineerde versie.*
 
-Belastinggids
-2025
+Belastinggids 2025 Belastinggids 2025 2V.U.:
+• Gert Brochure Truyens, A5 Koning Albertlaan 95, 9000 Gent. 05/2025
 
- Belastinggids
-2025
-
- 2V.U.:
-• Gert
-Brochure
-Truyens,
-A5 Koning Albertlaan 95, 9000 Gent. 05/2025
-
- inhoudsopgave
-
-Belastinggids 2025 • 3
+inhoudsopgave Belastinggids 2025 • 3
 
 4 • Belastinggids 2025
 
@@ -104,10 +98,7 @@ e. Omzetting in een lijfrente van sommige kapitalen, vergoedingen en
 
  Belastinggids 2025 • 7
 
- 8 • Brochure A5
-
-## I Woord vooraf
-De nieuwe belastingaangifte telt iets meer codes dan vorig jaar. Dat is in de 3 gewesten het
+8 • Brochure A5 I Woord vooraf De nieuwe belastingaangifte telt iets meer codes dan vorig jaar. Dat is in de 3 gewesten het
 geval. Er zijn nieuwe fiscale maatregelen op het vlak van overuren, flexi-jobinkomsten en belastingkredieten. Belangrijke nieuwigheden vallen eveneens te noteren bij de fietsvergoedingen
 die worden deels aan banden gelegd. Verder heeft u minder voordeel met uw hypotheeklening
 voor een tweede woning.
@@ -135,14 +126,9 @@ gemeenschappelijke aangifte).
 Voor specifieke situaties of bij problemen kan u als lid uiteraard steeds een beroep doen op
 onze diensten. Op de website www.aclvb.be/nl/secretariaten vindt u de adressen terug van de
 verschillende zones van de ACLVB die u graag verder helpen.
-Studiedienst ACLVB
-april 2025
+Studiedienst ACLVB april 2025 Belastinggids 2025 • 9
 
-Belastinggids 2025 • 9
-
- 10 • Brochure A5
-
-## II Belasting en het gezin
+10 • Brochure A5 II Belasting en het gezin
 1. Gehuwd, wettelijk samenwonend of alleenstaand?
 
 Er zijn 2 soorten belastingplichtigen: gehuwd of alleenstaand, waarbij:
@@ -175,9 +161,7 @@ bewijs wordt overhandigd aan de ambtenaar van de burgerlijke stand. De ambtenaar
 van de burgerlijke stand zal opnieuw melding maken van de beëindiging van de wettelijke samenwoning in het Rijksregister.
 Belastinggids 2025 • 11
 
- b. Alleenstaanden
-
-Zij die niet gehuwd zijn. Het gaat hier om personen die niet of niet meer gehuwd zijn of
+b. Alleenstaanden Zij die niet gehuwd zijn. Het gaat hier om personen die niet of niet meer gehuwd zijn of
 ­personen die niet of niet meer wettelijk samenwonen.
 In de praktijk gaat het om:
 • alleenstaanden;
@@ -194,8 +178,7 @@ In de praktijk gaat het om:
 Sinds aanslagjaar 2005 worden alle inkomsten, aftrekbare bestedingen en uitgaven die
 recht geven op een belastingvermindering gedecumuleerd.
 
-a. Beroepsinkomsten
-Twee beroepsinkomsten: de ‘decumul’
+a. Beroepsinkomsten Twee beroepsinkomsten: de ‘decumul’
 De beroepsinkomsten worden afzonderlijk belast en beide bedragen worden daarna
 samen­geteld. Wanneer echter één van beiden minder verdient dan 13 050 euro of nog
 geen 30% van de totale beroepsinkomsten, wordt de regel van het ‘huwelijksquotiënt’
@@ -270,16 +253,14 @@ b. Welke voorwaarden moeten vervuld zijn?
 Deze personen moeten op 1 januari 2025 deel uitmaken van uw gezin.
 Wanneer ouders gescheiden leven, is hun kind ten laste van de ouder bij wie het kind
 hoofd­zakelijk verblijft (ouder met hoederecht).
-Co-ouderschap
-Onder bepaalde voorwaarden wordt bij co-ouderschap het voordeel van de bijkomende
+Co-ouderschap Onder bepaalde voorwaarden wordt bij co-ouderschap het voordeel van de bijkomende
 belasting­vrije sommen automatisch tussen de beide (niet samenwonende) ouders
 verdeeld. Het co-ouderschap dient aan de volgende voorwaarden te voldoen:
 • er moet ten laatste op 1 januari 2025 een geregistreerde of een door een rechter
 gehomologeerde overeenkomst bestaan waarin uitdrukkelijk vermeld wordt dat de
 huisvesting van die kinderen gelijkmatig verdeeld is over de beide belastingplichtigen
 en dat zij bereid zijn de bijkomende belastingvrije sommen te verdelen;
-of
-• er moet ten laatste op 1 januari 2025 een rechterlijke beslissing genomen zijn waarin
+of • er moet ten laatste op 1 januari 2025 een rechterlijke beslissing genomen zijn waarin
 uitdrukkelijk bepaald wordt dat de huisvesting van die kinderen gelijkmatig is verdeeld
 over beide belastingplichtigen.
 Deze verdeling van fiscaal co-ouderschap zal niet gebeuren indien één van de ouders
@@ -344,9 +325,7 @@ om te bepalen of u nog ten laste van uw ouders bent.
 
  Belastinggids 2025 • 17
 
- 18 • Brochure A5
-
-## III Belastbare inkomsten
+18 • Brochure A5 III Belastbare inkomsten
 1. De onroerende inkomsten
 
 Inkomsten van in België of in het buitenland gelegen onroerende goederen zijn de
@@ -426,18 +405,14 @@ ziekte- en invaliditeitsvergoedingen, enz.;
 
  In deze brochure beperken we ons tot de bespreking van de bezoldigingen van de werknemers en daarmee gepaard gaand de beroepskosten en de vervangingsinkomsten.
 
-a. Bezoldigingen
-
-De aan te geven inkomsten vindt u terug op de fiscale fiche 281.10 die de werkgever u
+a. Bezoldigingen De aan te geven inkomsten vindt u terug op de fiscale fiche 281.10 die de werkgever u
 overhandigt om uw aangifte correct te kunnen invullen. De belangrijkste componenten
 van deze bezoldiging zijn:
-Het loon
-Het belastbaar loon is uw brutoloon verminderd met de RSZ-bijdragen.
+Het loon Het belastbaar loon is uw brutoloon verminderd met de RSZ-bijdragen.
 Als u geen fiscale fiche ontvangt, moet u toch uw beroepsinkomsten aangeven (vb. aan
 de hand van uw loonfiches). Voor arbeiders uit de bouwsector bevat het bedrag van de
 lonen (op de fiscale fiche) automatisch de getrouwheidszegels van 9%. De 2% weerverletzegels, worden aangegeven bij de vervangingsinkomsten (rubriek andere).
-Het vakantiegeld
-Voor arbeiders wordt dit nog steeds apart uitbetaald door een vakantiekas, voor bedienden zit dit bedrag begrepen in het geheel van de belastbare bezoldigingen.
+Het vakantiegeld Voor arbeiders wordt dit nog steeds apart uitbetaald door een vakantiekas, voor bedienden zit dit bedrag begrepen in het geheel van de belastbare bezoldigingen.
 Achterstallige lonen en opzegvergoedingen
 Deze inkomsten worden afzonderlijk op de fiscale fiche meegegeven omdat zij afzonderlijk zullen belast worden (zie later).
 Voordelen van alle aard
@@ -480,8 +455,7 @@ Bij een combinatie mag u de verschillende vrijstellingen voor ieder vervoermidde
 voor ieder vervoermiddel betaalt, maar wel een alles omvattende vergoeding, wordt
 eerst de vrijstelling van 490 euro toegepast. Vervolgens komt de vrijstelling voor het
 openbaar vervoer en ten slotte die voor het georganiseerd gemeenschappelijk vervoer.
-Syndicale premie
-Indien u een syndicale premie van de ACLVB hebt ontvangen dan moet u deze aangeven als inkomsten. In principe wordt een vakbondspremie tot de eigenlijke bezoldigingen van een werk­nemer gerekend. Deze worden aangeven in Vak IV – Rubriek 1.
+Syndicale premie Indien u een syndicale premie van de ACLVB hebt ontvangen dan moet u deze aangeven als inkomsten. In principe wordt een vakbondspremie tot de eigenlijke bezoldigingen van een werk­nemer gerekend. Deze worden aangeven in Vak IV – Rubriek 1.
 
 22 • Belastinggids 2025
 
@@ -524,9 +498,7 @@ Sinds aanslagjaar 2020 geldt een nieuwe belastingvrijstelling ten voordele van b
 opleidingspremies die de gewesten of de Duitstalige gemeenschap toekennen aan uitkeringsgerechtigde werklozen die een opleiding volgen met het oog op een tewerkstelling in een
 knelpuntberoep. De vrijstelling is voor aanslagjaar 2025 beperkt tot 820 euro
 
-b. Beroepskosten
-
-Iedereen heeft recht op een vermindering van zijn beroepsinkomsten voor gemaakte
+b. Beroepskosten Iedereen heeft recht op een vermindering van zijn beroepsinkomsten voor gemaakte
 kosten. Eén van de maatregelen van de taxshift om het netto-inkomen van de werknemers te verhogen, is het optrekken van het wettelijk kostenforfait. U kunt uw werkelijk
 gemaakte kosten in mindering brengen. Doet u dit niet, dan hebt u automatisch recht
 op een forfaitaire aftrek. Deze forfaitaire aftrek zal ook door de fiscus worden toegepast
@@ -546,26 +518,15 @@ toevoegen waarop u de plaats van uw werk op 1 januari 2025 vermeldt en de afstan
 uitgedrukt in kilometer tussen die plaats en uw woonplaats.
 Afstand tussen uw woonplaats en uw werk
 
-Bijkomende forfait
+Bijkomende forfait van 75 km tot 100 km
 
-van 75 km tot 100 km
+75 euro van 101 km tot 125 km
 
-75 euro
-
-van 101 km tot 125 km
-
-125 euro
-
-meer dan 125 km
-
-175 euro
-
-24 • Belastinggids 2025
+125 euro meer dan 125 km 175 euro 24 • Belastinggids 2025
 
  b.2 Werkelijke beroepskosten
 b.2.1 Kosten voor auto en motorvoertuigen
-a. Woon-werkverkeer
-In geval van vaste werkplaats
+a. Woon-werkverkeer In geval van vaste werkplaats
 Wanneer u het woon-werkverkeer aflegt met uw eigen wagen, worden de kosten forfaitair bepaald. Financierings- en mobilofoonkosten zijn niet in dit forfait begrepen.
 De kosten zelf moet u niet bewijzen, wel het effectief gebruik van de wagen en de afgelegde kilometers.
 De totale kostprijs voor uw woon-werkverkeer berekent u volgens de formule:
@@ -716,9 +677,7 @@ per jaar van 7 460 euro (incl. inkomsten uit verenigingswerk).
 
 Belastinggids 2025 • 29
 
- 30 • Brochure A5
-
-## IV Berekening van de belasting
+30 • Brochure A5 IV Berekening van de belasting
 De zesde staatshervorming heeft de belastingberekening grondig door elkaar geschud
 en dit sinds enkele aanslagjaren. Een overzicht.
 
@@ -784,18 +743,12 @@ Samenstelling van het belastbaar inkomen
 = belastbaar inkomen (gezamenlijk BI + afzonderlijk BI)
 Berekening van de belasting
 belasting op de afzonderlijk
-belaste inkomsten
-
-− basisbelasting volgens
-tariefschaal op GBI
-− belasting op de belastingvrije som
+belaste inkomsten − basisbelasting volgens
+tariefschaal op GBI − belasting op de belastingvrije som
 = om te slane belasting
 − vermindering voor pensioenen en vervangings­
-inkomsten
-− vermindering voor inkomsten uit het buitenland
-= hoofdsom
-
-1 Dit schema is opgenomen in bijlage 1 van de circulaire AAFisc 29/2014 (Ci.RH.331/633.424) van 7 juli 2014 die de invoering van de
+inkomsten − vermindering voor inkomsten uit het buitenland
+= hoofdsom 1 Dit schema is opgenomen in bijlage 1 van de circulaire AAFisc 29/2014 (Ci.RH.331/633.424) van 7 juli 2014 die de invoering van de
 gewestelijke aanvullende belasting op de personenbelasting toelicht.
 
 32 • Belastinggids 2025
@@ -806,29 +759,18 @@ van leningen en als diverse
 inkomsten belaste meerwaarden op effecten en waarden
 
 = belasting op de andere
-inkomsten
-= belasting Staat
-− (belasting Staat ×
-autonomiefactor)
-= gereduceerde belasting
-Staat
-
-− andere federale belastingverminderingen
+inkomsten = belasting Staat − (belasting Staat ×
+autonomiefactor) = gereduceerde belasting
+Staat − andere federale belastingverminderingen
 
 + gewestelijke opcentiemen op ­gereduceerde
-belasting Staat
-+ gewestelijke
-belastingvermeer­
-deringen
-− gewestelijke kortingen
+belasting Staat + gewestelijke belastingvermeer­ deringen − gewestelijke kortingen
 − gewestelijke belastingverminderingen
 
-saldo
-indien = 0 eventueel nog te verminderen met het niet verrekende deel van federale belastingverminderingen dat kan worden
+saldo indien = 0 eventueel nog te verminderen met het niet verrekende deel van federale belastingverminderingen dat kan worden
 aangerekend op het positieve saldo van het gewest.
 
-saldo
-indien = 0 eventueel nog
+saldo indien = 0 eventueel nog
 te vermin­deren met het
 niet verrekende deel van
 gewestelijke kortingen en
@@ -839,9 +781,7 @@ saldo van federaal.
 = federale personenbelasting (kan negatief zijn)
 
 = gewestelijke personenbelasting
-(kan negatief zijn)
-
-= totale belasting (kan nooit negatief zijn)
+(kan negatief zijn) = totale belasting (kan nooit negatief zijn)
 + federale belastingvermeerderingen
 − federale verrekenbare niet terugbetaalbare bestanddelen
 − federale en gewestelijke terugbetaalbare belastingkredieten
@@ -883,37 +823,7 @@ de belastingschijven.
 Voor het aanslagjaar 2025 bedragen de tarieven:
 Belastbaar inkomen (schijven)
 
-Belasting
-
-van
-
-tot
-
-0 euro
-
-15 820 euro
-
-25%
-
-15 820 euro
-
-27 920 euro
-
-40%
-
-27 920 euro
-
-48 320 euro
-
-45%
-
-boven
-
-48 320 euro
-
-50%
-
-34 • Belastinggids 2025
+Belasting van tot 0 euro 15 820 euro 25% 15 820 euro 27 920 euro 40% 27 920 euro 48 320 euro 45% boven 48 320 euro 50% 34 • Belastinggids 2025
 
  6. Belastingvrije som
 
@@ -927,67 +837,32 @@ recht op eenzelfde belastingvrije som. Voor aanslag- jaar 2025 is dit 10 570 eur
 
 Ook hier zal de belastingvrije som ‘pro rata temporis’ worden toegepast ingeval van emigratie of immigratie. Dit belastingvrij inkomen wordt verhoogd naargelang het aantal
 personen ten laste.
-Kinderen ten laste
+Kinderen ten laste Verhoging belastingvrij inkomen
 
-Verhoging belastingvrij inkomen
+1 kind 1 920 euro 2 kinderen 4 950 euro 3 kinderen 11 090 euro 4 kinderen 17 940 euro supplement per kind boven het vierde
 
-1 kind
-
-1 920 euro
-
-2 kinderen
-
-4 950 euro
-
-3 kinderen
-
-11 090 euro
-
-4 kinderen
-
-17 940 euro
-
-supplement per kind boven het vierde
-
-6 850 euro
-
-Bovendien worden deze bedragen met 720 euro verhoogd voor elk kind van minder
+6 850 euro Bovendien worden deze bedragen met 720 euro verhoogd voor elk kind van minder
 dan 3 jaar voor wie geen kosten voor kinderoppas zijn aangegeven. Gehandicapte
 kinderen worden voor twee kinderen ten laste geteld. Bij co-ouderschap na feitelijke
 scheiding of echtscheiding kan de verhoging van het belastingvrij inkomen verdeeld
 worden over beide ouders.
 Andere personen ten laste
 
-Verhoging
-belastingvrij inkomen
+Verhoging belastingvrij inkomen
 
 iedere andere persoon ten laste
 
-1 920 euro
+1 920 euro alleenstaande ouder met één of meer kinderen ten laste
+of in co-ouderschap 1 920 euro gehandicapte belastingplichtige
 
-alleenstaande ouder met één of meer kinderen ten laste
-of in co-ouderschap
-
-1 920 euro
-
-gehandicapte belastingplichtige
-
-1 920 euro
-
-Inkomstenjaar huwelijk én echtgenoot geen netto inkomsten
+1 920 euro Inkomstenjaar huwelijk én echtgenoot geen netto inkomsten
 van meer dan 3 980 euro het jaar van het huwelijk
 
-1 920 euro
+1 920 euro (groot)ouder, broer of zus ouder dan 65 jaar
 
-(groot)ouder, broer of zus ouder dan 65 jaar
+3 850 euro zorgbehoevende (groot)ouder, broer of zus ouder dan 65 jaar
 
-3 850 euro
-
-zorgbehoevende (groot)ouder, broer of zus ouder dan 65 jaar
-
-5 770 euro
-
-Belastinggids 2025 • 35
+5 770 euro Belastinggids 2025 • 35
 
  nieuw! De toeslag van 3 850 euro voor (groot)ouder, broer of zus ouder dan 65 jaar
 geldt enkel nog voor de aanslagjaren 2022 t.e.m. 2025 indien deze persoon ten laste
@@ -1098,9 +973,7 @@ slechts ‘pro rata temporis’ worden aangerekend. De beperking heeft o.a. betr
 • fiscale vrijstelling intresten spaarrekening (zie III, 4);
 • bedragen die recht geven op de federale belastingvermindering langetermijn- en
 pensioen­sparen en werkgeversaandelen (zie hierna);
-•…
-
-38 • Belastinggids 2025
+•… 38 • Belastinggids 2025
 
  De proratering zal gebeuren op maandbasis, met inbegrip van de maand waarvan de
 vijftiende dag tot het belastbaar tijdperk behoort. Voorbeeld: belastbaar tijdperk van
@@ -1155,8 +1028,7 @@ a.1 Niet-eigen woning
 Zie apart onderdeel woonfiscaliteit (IV, 10).
 De ‘niet-eigen woning’ is in principe de woning die u als belastingplichtige niet zelf
 betrekt.
-a.2 Giften
-Giften van minstens 40 euro aan erkende instellingen worden met een belastingvoordeel gestimuleerd. Er wordt een belastingvermindering toegekend ten belope van 45%
+a.2 Giften Giften van minstens 40 euro aan erkende instellingen worden met een belastingvoordeel gestimuleerd. Er wordt een belastingvermindering toegekend ten belope van 45%
 van het werkelijk betaalde bedrag. Sinds 2019 zijn ook onlinegiften aftrekbaar. Het
 totale bedrag van de giften waarvoor de belastingvermindering verleend wordt, mag
 niet meer bedragen dan 10% van het totale netto gezamenlijk belastbaar inkomen, met
@@ -1272,8 +1144,7 @@ in nieuwe aandelen van groeibedrijven en genieten van een belastingvermindering
 van 25% op het geïnvesteerde bedrag. Particulieren kunnen via de tax shelter voor
 starters (zie a.10) en voor groeibedrijven samen jaarlijks voor een maximaal bedrag van
 100 000 euro investeren.
-a.12 Adoptiekosten
-De belastingvermindering voor adoptiekosten is gelijk aan 20% van de gemaakte kosten en zal minimum 6 530 euro bedragen per adoptieprocedure.
+a.12 Adoptiekosten De belastingvermindering voor adoptiekosten is gelijk aan 20% van de gemaakte kosten en zal minimum 6 530 euro bedragen per adoptieprocedure.
 In het belastbaar tijdperk waarin de procedure wordt beëindigd, kan eenmalig een
 belasting­vermindering worden aangevraagd. Alle kosten van dat jaar en de vijf voorafgaande jaren kunnen dan in één keer ingebracht worden.
 a.13 Rechtsbijstandsverzekering
@@ -1289,8 +1160,7 @@ in uw aangifte personenbelasting. Is er een dubbelbelastingverdrag, dan kunnen d
 buitenlandse inkomsten, onder bepaalde voorwaarden in België vrijgesteld worden met
 progressievoorbehoud. Als er geen dubbelbelastingverdrag afgesloten is tussen België
 en de bronstaat, wordt de dubbele belasting op een andere manier vermeden.
-a.16 Dividenden
-Dividenden zijn in principe belastbaar als roerend inkomen. De eerste schijf van
+a.16 Dividenden Dividenden zijn in principe belastbaar als roerend inkomen. De eerste schijf van
 833 euro (aj. 2025) aan dividenden is vrijgesteld van belastingen.
 44 • Belastinggids 2025
 
@@ -1306,8 +1176,7 @@ dient voor de belastingvermindering wordt opgetrokken (aanvankelijk 1 500 euro) 
 1 750 euro. Sinds 1 januari 2023 geldt een hoger grensbedrag voor bidirectionele laadpalen die, in tegenstelling tot standaard laadstations, elektriciteit in 2 richtingen kunnen
 laden. Hiervoor voorziet de fiscus een hoger grensbedrag van 8 000 euro.
 b. Gewestelijke belastingverminderingen
-b.1 Eigen woning
-Zie apart onderdeel woonfiscaliteit (IV, 10).
+b.1 Eigen woning Zie apart onderdeel woonfiscaliteit (IV, 10).
 De ‘eigen woning’ is in principe de woning die u als belastingplichtige zelf betrekt.
 De vermindering bedraagt tussen 30% en 50% van de uitgave.
 b.2 Restauratie monumenten
@@ -1326,8 +1195,7 @@ niet meer bedragen dan 25 000 euro; dit bedrag wordt niet geïndexeerd.
 
 Belastinggids 2025 • 45
 
- b.3 Dakisolatie
-De energiebesparende uitgaven zijn nog uitsluitend te herleiden tot één enkele uitgave
+b.3 Dakisolatie De energiebesparende uitgaven zijn nog uitsluitend te herleiden tot één enkele uitgave
 namelijk die voor dakisolatie. Het maximumbedrag van de gewestelijke belastingvermindering voor dakisolatie bedraagt 3 900 euro. De belastingvermindering van 30%
 van de uitgave wordt per woning en per belastbaar tijdperk en niet per belastingplichtige bepaald. Deze belastingvermindering bestaat enkel nog in het Waals gewest.
 Overschrijden de berekende belastingverminderingen het toegelaten maximum, wordt
@@ -1345,8 +1213,7 @@ In het Vlaamse gewest bedraagt de belastingvermindering 20% van het in aanmerkin
 te nemen bedrag. In het Waals gewest en Brussels Hoofdstedelijk gewest bedraagt de
 belastingvermindering respectievelijk 30% en 15% van het in aanmerking te nemen
 bedrag.
-Dienstencheques
-In het Vlaams en Brussels gewest is het bedrag dat in aanmerking komt voor de belastingvermindering, de nominale waarde of aanschafwaarde van de dienstencheques die
+Dienstencheques In het Vlaams en Brussels gewest is het bedrag dat in aanmerking komt voor de belastingvermindering, de nominale waarde of aanschafwaarde van de dienstencheques die
 tijdens het belastbaar tijdperk zijn aangekocht verminderd met de nominale waarde
 van de cheques die tijdens hetzelfde belastbaar tijdperk teruggestuurd zijn. Het bedrag
 wordt ook hier beperkt tot maximaal 1 790 euro.
@@ -1488,90 +1355,21 @@ vriendenaandeel samen.
 
  Een overzicht van de 3 stelsels:
 Proxi-lening:
-sinds 15.10.2020*
-
-Win-winlening
-
-Coup de pouce
-
-Geen werknemer,
-aandeelhouder,
-vennoot, bestuurder, zaakvoerder of
-bedrijfsleider van
-de kredietnemer
-
-Dit wordt beoordeeld
+sinds 15.10.2020* Win-winlening Coup de pouce Geen werknemer, aandeelhouder, vennoot, bestuurder, zaakvoerder of
+bedrijfsleider van de kredietnemer Dit wordt beoordeeld
 bij het sluiten van de
-lening
-
-De uitsluiting geldt
+lening De uitsluiting geldt
 de volledige looptijd
 
 Dit wordt beoordeeld
 bij het sluiten van de
-lening
-
-Looptijd
-
-5 tot 10 jaar; de
-hoofdsom moet in
-1 keer of op basis
-van een aflossings­
-tabel terugbetaald
-worden; vervroegde
-terugbetaling is
-mogelijk
-
-4, 6, 8 of 10 jaar;
+lening Looptijd 5 tot 10 jaar; de hoofdsom moet in 1 keer of op basis van een aflossings­ tabel terugbetaald worden; vervroegde terugbetaling is mogelijk 4, 6, 8 of 10 jaar;
 vervroegde terugbetaling is eerder
 uitzonderlijk mogelijk
 
-5 of 8 jaar maar
-vervroegde terug­
-betaling is mogelijk
+5 of 8 jaar maar vervroegde terug­ betaling is mogelijk
 
-Maximumbedrag
-kredietgever
-per jaar
-
-max. € 75 000
-
-max. € 125 000
-
-max. € 50 000
-
-Totaalbedrag
-krediet­gever aan
-één of meerdere
-kredietnemers
-
-max. € 75 000
-
-max. € 125 000
-
-max. € 50 000
-
-Totaalbedrag dat
-1 kredietnemer
-kan ontlenen
-
-€ 300 000
-
-€ 250 000
-
-€ 250 000
-
-Belastingkrediet
-
-2,5%
-
-De 1ste 4 jaar 4%,
-daarna 2,5%
-
-De 1ste 3 jaar 4%,
-daarna 2,5%
-
-Wanneer de onderneming niet kan
+Maximumbedrag kredietgever per jaar max. € 75 000 max. € 125 000 max. € 50 000 Totaalbedrag krediet­gever aan één of meerdere kredietnemers max. € 75 000 max. € 125 000 max. € 50 000 Totaalbedrag dat 1 kredietnemer kan ontlenen € 300 000 € 250 000 € 250 000 Belastingkrediet 2,5% De 1ste 4 jaar 4%, daarna 2,5% De 1ste 3 jaar 4%, daarna 2,5% Wanneer de onderneming niet kan
 terugbetalen: belastingkrediet 30%
 
 Wanneer de onderneming niet kan
@@ -1579,13 +1377,8 @@ terugbetalen: belastingkrediet 30%
 
 Wanneer de onderneming niet kan
 terugbetalen: belastingkrediet 30%; kan
-verhoogd worden tot
-50 % indien geleend
-aan een ‘voorbeeldige’ kredietnemer/
-kmo (2de semester
-vanaf 1 juli 2024)
-
-Er is een versoepeling van 5 tot 10 jaar
+verhoogd worden tot 50 % indien geleend aan een ‘voorbeeldige’ kredietnemer/
+kmo (2de semester vanaf 1 juli 2024) Er is een versoepeling van 5 tot 10 jaar
 mogelijk
 
 * Wijzigingen in Ordonnantie van het Brussels Gewest van 17 maart 2023.
@@ -1613,8 +1406,7 @@ tot de inkomsten van heel 2024 en kent dit gewest de belastingverminderingen en
 -kredieten toe voor het volledig jaar.
 
 10.2 Begrip ‘eigen woning’
-a. Fiscale uitgaven
-De fiscale uitgaven met betrekking tot de ‘eigen woning’ maken het leeuwendeel uit
+a. Fiscale uitgaven De fiscale uitgaven met betrekking tot de ‘eigen woning’ maken het leeuwendeel uit
 van de uitgaven die overgeheveld zijn naar de gewesten. De gewesten zijn namelijk
 bevoegd voor de leningsuitgaven (kapitaalaflossingen en intrestbetalingen, premiebetalingen individuele levensverzekering) voor de ‘eigen woning’. De federale overheid
 blijft bevoegd voor de ‘niet-eigen woning’, dat is de 2de of de 3de woning waarvan u
@@ -1632,8 +1424,7 @@ belastbaar tijdperk wordt het eigen karakter op dagbasis beoordeeld.
 52 • Belastinggids 2025
 
  Ter illustratie twee voorbeelden.
-Voorbeeld 1
-U bent gehuwd en u heeft op 1 januari 2025 uw fiscale woonplaats in het Waalse gewest.
+Voorbeeld 1 U bent gehuwd en u heeft op 1 januari 2025 uw fiscale woonplaats in het Waalse gewest.
 U hebt in de loop van het jaar 2024 samen met uw partner een andere woning (B)
 gekocht om daar te gaan wonen. De 1ste woning (A) wordt verkocht in datzelfde jaar.
 07.04.2024
@@ -1642,15 +1433,9 @@ gekocht om daar te gaan wonen. De 1ste woning (A) wordt verkocht in datzelfde ja
 
 26.09.2024
 
-aankoop woning B
+aankoop woning B verhuis naar woning B
 
-verhuis naar woning B
-
-verkoop woning A
-
-Periode
-
-Beoordeling ‘eigen woning’
+verkoop woning A Periode Beoordeling ‘eigen woning’
 
 01.01.2024 – 06.04.2024
 
@@ -1672,12 +1457,9 @@ de door het echtpaar zelf betrokken woning (B).
 Het echtpaar is nu eigenaar van 1 woning (B) die het zelf
 betrekt. Woning B is de eigen woning van het echtpaar.
 
-Voorbeeld 2
-Een wettelijk samenwonend koppel huurt een woning en kocht in 2019 een woning (A) die
+Voorbeeld 2 Een wettelijk samenwonend koppel huurt een woning en kocht in 2019 een woning (A) die
 ze zelf door verbouwingswerkzaamheden pas vanaf 10 december 2020 konden betrekken.
-Periode
-
-Beoordeling ‘eigen woning’
+Periode Beoordeling ‘eigen woning’
 
 01.01.2020 – 09.12.2020
 
@@ -1747,8 +1529,7 @@ Het voordeel geldt 20 jaar én op voorwaarde dat het netto belastbaar inkomen ni
 hoger is dan 101 805 euro (aj. 2025).
 De belastingplichtige die woont in het Waals gewest kan dan rekenen op twee voordelen:
 • een forfaitair bedrag van 125 euro per kind ten laste vrij te verdelen over beide ouders
-en
-• een variabel bedrag per kredietnemer-eigenaar dat wordt berekend in functie van het
+en • een variabel bedrag per kredietnemer-eigenaar dat wordt berekend in functie van het
 netto belastbaar inkomen.
 Na tien jaar wordt het voordeel gehalveerd. De chèque habitat is niet gekoppeld aan een
 bepaalde woning. De belastingplichtige kan in zijn leven gedurende maximum 20 jaar
@@ -1766,27 +1547,23 @@ Belastinggids 2025 • 55
  soort woning (eigen of niet-eigen woning), zullen de hierna volgende info en tabellen u
 hopelijk verder helpen. We focussen hier (voornamelijk) op de hypothecaire leningen.
 a. Leningen vanaf 1 januari 2020
-a.1 Vlaams gewest
-De Vlaamse regering heeft de woonbonus in 2020 laten uitdoven. Voor bestaande
+a.1 Vlaams gewest De Vlaamse regering heeft de woonbonus in 2020 laten uitdoven. Voor bestaande
 leningen verandert er niets maar heeft u in de loop van 2024 met een hypothecaire
 lening een woning of appartement gekocht dan kan u niet langer genieten van een
 fiscaal voordeel. Als compensatie krijgt u een gedeeltelijke verlaging van de registratierechten. Sinds 1 januari 2022 kan u in Vlaanderen een gezinswoning kopen tegen een
 tarief van 3%. Het gaat dan om de woning waarvan u de volle eigendom verwerft met
 de bedoeling om er uw hoofdverblijfplaats te vestigen. Bij een ingrijpende energetische
 renovatie of sloop of herbouw van deze woning betaalt u nog maar 1%.
-a.2 Waals gewest
-Sinds 1 januari 2016 kent het Waals gewest de chèque habitat (zie verder b.2) dus ook
+a.2 Waals gewest Sinds 1 januari 2016 kent het Waals gewest de chèque habitat (zie verder b.2) dus ook
 voor de leningen vanaf 1 januari 2020 tot en met 2024.
 
 ! Opgelet! De chèque habitat zal verdwijnen voor hypothecaire kredieten afgesloten
 vanaf 1 januari 2025 (aj. 2026).
 
-a.3 Brussels gewest
-Het systeem van de woonbonus is ook in het Brussels gewest reeds afgevoerd sinds
+a.3 Brussels gewest Het systeem van de woonbonus is ook in het Brussels gewest reeds afgevoerd sinds
 1 januari 2017. De vroegere woonbonus is vervangen door een systeem van abattement (zie verder b.3).
 b. Leningen vanaf 1 januari 2017
-b.1 Vlaams gewest
-Voor hypothecaire leningen afgesloten vanaf 1 januari 2017, dus ook voor leningen
+b.1 Vlaams gewest Voor hypothecaire leningen afgesloten vanaf 1 januari 2017, dus ook voor leningen
 vanaf 1 januari 2018 en in 2019 (niet voor leningen vanaf 2020), wijzigt er niets t.o.v.
 de leningen afgesloten vanaf 1 januari 2016. Het bedrag van de Vlaamse geïntegreerde
 woonbonus is dezelfde alsook de verhogingen (de bedragen worden niet meer geïndexeerd). Zie voor de bedragen de tabel in punt c.1. Vlaams gewest. Gaat het over een
@@ -1795,8 +1572,7 @@ De bedragen kan u eveneens terugvinden in de tabel onder punt c.1 Vlaams gewest.
 
 56 • Belastinggids 2025
 
- b.2 Waals gewest
-In het Waals gewest geldt voor hypothecaire leningen vanaf 1 januari 2016 de chèque
+b.2 Waals gewest In het Waals gewest geldt voor hypothecaire leningen vanaf 1 januari 2016 de chèque
 habitat. Het betreft hier nog steeds een inkomensafhankelijk (uitkeerbaar) belasting­
 krediet (geen belastingvermindering) berekend op een bepaald bedrag aan kapitaalaflossingen en/of intresten. Voor de voorwaarden kan verwezen worden naar punt c.2
 Waals gewest. De chèque habitat bedraagt 1 520 euro (wordt niet meer geïndexeerd)
@@ -1811,8 +1587,7 @@ chèque habitat worden afgeschaft. Ter compensatie vermindert dan wel het
 registratie­recht naar 3 % bij de aankoop van een ‘eigen/enige’ woning vanaf
 1 januari 2025.
 
-b.3 Brussels gewest
-Zoals reeds hierboven vermeld, is sinds 1 januari 2017 het systeem van de woonbonus
+b.3 Brussels gewest Zoals reeds hierboven vermeld, is sinds 1 januari 2017 het systeem van de woonbonus
 afgeschaft in Brussel. In de plaats krijgen kopers (natuurlijke personen) van een ‘eigen’
 woning in het Brussels Hoofdstedelijk gewest een hogere korting van 25 000 euro
 op de registratierechten (ook wel abattement genoemd). Tot en met een aankoop van
@@ -1858,14 +1633,11 @@ sprongen.
 
  c. Hypothecaire leningen vanaf 1 januari 2016 voor de ‘eigen’ woning en
 de ‘niet-eigen’ woning
-c.1 Vlaams gewest
-Eigen woning
-• Vlaamse geïntegreerde woonbonus indien het de eigen woning betreft
+c.1 Vlaams gewest Eigen woning • Vlaamse geïntegreerde woonbonus indien het de eigen woning betreft
 • Basiskorf: 1 520 euro (tarief 40%)
 • Vraag: is de woning op 31.12 van het leningsjaar de ‘enige’ woning2?
 Indien ja: recht op toeslagen3: 760 euro (1ste 10 jaar) en 80 euro (3 kinderen)
-Niet-eigen woning
-• Kapitaal: federaal langetermijnsparen (tarief 30%) met grens
+Niet-eigen woning • Kapitaal: federaal langetermijnsparen (tarief 30%) met grens
 (zie tabel achteraan brochure)
 • Intrest: federale intrestaftrek (marginaal tarief)
 • Schuldsaldoverzekering: federaal langetermijnsparen (tarief 30%)
@@ -1874,13 +1646,10 @@ Niet-eigen woning
 
 ouder Vlaamse voordelen van leningen gesloten vóór 1 januari 2016 (keuze).
 
-c.2 Waals gewest
-Eigen woning
-• Chèque-habitat indien de toekenningsvoorwaarden4 zijn vervuld.
+c.2 Waals gewest Eigen woning • Chèque-habitat indien de toekenningsvoorwaarden4 zijn vervuld.
 • Indien de voorwaarden niet zijn voldaan: geen voordelen voor intresten,
 kapitaal en levensverzekering
-Niet-eigen woning
-• Kapitaal: federaal langetermijnsparen (tarief 30%) met grens
+Niet-eigen woning • Kapitaal: federaal langetermijnsparen (tarief 30%) met grens
 (zie tabel achteraan brochure)
 • Intrest: federale intrestaftrek (marginaal tarief)
 • Schuldsaldoverzekering: federaal langetermijnsparen (tarief 30%)
@@ -1906,16 +1675,13 @@ Eigen woning
 • Kapitaal: gewestelijke belastingvermindering langetermijnsparen (tarief 30%)
 • Intresten: geen voordelen
 • Schuldsaldoverzekering: gewestelijke belastingvermindering langetermijn­sparen
-(tarief 30%)
-Niet-eigen woning
-• Kapitaal: federaal langetermijnsparen (tarief 30%) met grens
+(tarief 30%) Niet-eigen woning • Kapitaal: federaal langetermijnsparen (tarief 30%) met grens
 (zie tabel achteraan brochure)
 • Intrest: federale intrestaftrek (marginaal tarief)
 • Schuldsaldoverzekering: federaal langetermijnsparen (tarief 30%)
 
 d. Hypothecaire leningen gesloten in 2015 voor de ‘eigen’ woning
-d.1 Vlaams gewest
-Kapitaalaflossingen
+d.1 Vlaams gewest Kapitaalaflossingen
 1. Indien de woonbonusvoorwaarden zijn vervuld op 31.12 van het leningsjaar dan recht
 op de gewestelijke belastingvermindering van de woonbonus (tarief 40%)
 • Basiskorf: 1 520 euro
@@ -1939,8 +1705,7 @@ Indien ja: toeslag 760 euro (1ste 10 jaar) en 80 euro (3 kinderen)
 2. Indien de woonbonusvoorwaarden niet zijn vervuld op 31.12 van het leningsjaar
 • gewestelijke belastingvermindering gewone intresten (tarief 40%)
 
-d.2 Waals gewest
-Kapitaalaflossingen
+d.2 Waals gewest Kapitaalaflossingen
 1. Indien de woonbonusvoorwaarden zijn vervuld op 31.12 van het leningsjaar dan recht
 op de gewestelijke belastingvermindering van de woonbonus (tarief 40%)
 • Basiskorf: 2 290 euro
@@ -1957,8 +1722,7 @@ Indien ja: toeslag 760 euro (1ste 10 jaar) en 80 euro (3 kinderen)
 2. Indien de woonbonusvoorwaarden niet zijn vervuld op 31.12 van het leningsjaar
 • GEEN gewestelijke belastingvermindering meer
 
-d.3 Brussels gewest
-Kapitaalaflossingen
+d.3 Brussels gewest Kapitaalaflossingen
 1. Indien de woonbonusvoorwaarden zijn vervuld op 31.12 van het leningsjaar dan recht
 op de gewestelijke belastingvermindering van de woonbonus (tarief 45%)
 • Basiskorf: 2 920 euro
@@ -1978,9 +1742,7 @@ op de gewestelijke belastingvermindering van de woonbonus (tarief 45%)
 • GEEN gewestelijke belastingvermindering meer
 
 e. Hypothecaire leningen gesloten tussen 1 januari 2005 en 31 december 2014 voor
-de ‘eigen’ woning
-e.1 Vlaams gewest
-Kapitaalaflossingen
+de ‘eigen’ woning e.1 Vlaams gewest Kapitaalaflossingen
 1. Indien de woonbonusvoorwaarden zijn vervuld op 31.12 van het leningsjaar dan recht op
 de gewestelijke belastingvermindering van de woonbonus (marginaal tarief, min. 30%)
 • Basiskorf: 2 280 euro
@@ -1997,8 +1759,7 @@ de gewestelijke belastingvermindering van de woonbonus (marginaal tarief, min 30
 
 62 • Belastinggids 2025
 
- e.2 Waals gewest
-Kapitaalaflossingen
+e.2 Waals gewest Kapitaalaflossingen
 1. Indien de woonbonusvoorwaarden zijn vervuld op 31.12 van het leningsjaar dan recht op
 de gewestelijke belastingvermindering van de woonbonus (marginaal tarief, min 30%)
 • Basiskorf: 2 290 euro
@@ -2013,8 +1774,7 @@ de gewestelijke belastingvermindering van de woonbonus (marginaal tarief, min 30
 2. Indien de woonbonusvoorwaarden niet zijn vervuld op 31.12 van het leningsjaar
 • gewestelijke belastingvermindering gewone intresten (marginaal tarief, min 30%)
 
-e.3 Brussels gewest
-Kapitaalaflossingen
+e.3 Brussels gewest Kapitaalaflossingen
 1. Indien de woonbonusvoorwaarden zijn vervuld op 31.12 van het leningsjaar dan recht op
 de gewestelijke belastingvermindering van de woonbonus (marginaal tarief, min 30%)
 • Basiskorf: 2 920 euro
@@ -2038,8 +1798,7 @@ Kapitaalaflossingen (lening afgesloten tussen 1 januari 1993 en 31 december 2004
 1. Indien de ‘enige’ woning op de datum van het afsluiten van de lening dan gewestelijke
 belastingvermindering bouwsparen (marginaal tarief, min 30%)
 2. Indien niet de ‘enige’ woning dan gewestelijke belastingvermindering langetermijn­
-sparen (tarief 30%)
-Intresten (lening afgesloten tussen 1 mei 1986 en 31 december 2004)
+sparen (tarief 30%) Intresten (lening afgesloten tussen 1 mei 1986 en 31 december 2004)
 1. Indien de voorwaarden van de bijkomende intrestaftrek6 zijn vervuld dan recht op de gewestelijke belastingvermindering voor bijkomende intresten (marginaal tarief, min 30%)
 2. Indien de voorwaarden van de bijkomende intrestaftrek niet zijn vervuld dan gewestelijke belastingvermindering voor gewone intresten (marginaal tarief, min 30%) en
 verrekening onroerende voorheffing (12,50%)
@@ -2055,8 +1814,7 @@ op een andere dan de ‘eigen’ woning: steeds federale voordelen
 g.1 Lening afgesloten vanaf 1 januari 2014 maar vóór 2024
 Kapitaalaflossingen:
 • federale belastingvermindering langetermijnsparen (tarief 30%)
-Intresten
-• Indien het onroerend inkomen van de woning in de belastbare basis van het huidig
+Intresten • Indien het onroerend inkomen van de woning in de belastbare basis van het huidig
 tijdperk zit dan de federale gewone intrestaftrek (marginaal tarief, min 30%)
 • Indien niet het geval: geen aftrek
 g.2 Lening afgesloten tussen 1 januari 2005 en 31 december 2013
@@ -2134,90 +1892,35 @@ Niettegenstaande de taxatie op het pensioensparen en de individuele levensverzek
 belasting waardoor het noodzakelijk wordt een opsplitsing te maken tussen beide in
 de hiernavolgende tabellen.
 Individuele levensverzekering
-Soort verzekering
-
-Tarief
-Premies gestort
-vóór 01.01.1993
-
-Premies gestort
-na 01.01.1993
-
-10%
-
-10%
+Soort verzekering Tarief Premies gestort vóór 01.01.1993 Premies gestort na 01.01.1993 10% 10%
 
 1. Uitbetaling bij leven
-Vanaf 60 jaar
-
-Belastinggids 2025 • 67
+Vanaf 60 jaar Belastinggids 2025 • 67
 
  Individuele levensverzekering
-Soort verzekering
+Soort verzekering Tarief Premies gestort vóór 01.01.1993 Premies gestort na 01.01.1993 16,5% Marginale aanslagvoet
 
-Tarief
-Premies gestort
-vóór 01.01.1993
-
-Premies gestort
-na 01.01.1993
-
-16,5%
-Marginale aanslagvoet
-
-10%
-33%
-
-16,5%
-
-10%
+10% 33% 16,5% 10%
 
 1. Uitbetaling bij leven
-Vóór 60 jaar
-• op normale datum 1
+Vóór 60 jaar • op normale datum 1
 • voor de normale datum 2
 2. Overlijdensverzekering
-Overlijden
-
-Pensioensparen
-Soort verzekering
-
-Tarief
-Premies gestort
-vóór 01.01.1993
-
-Premies gestort
-na 01.01.1993
-
-8% 3
-
-8% 3
-
-Vóór 60 jaar bij contract
+Overlijden Pensioensparen Soort verzekering Tarief Premies gestort vóór 01.01.1993 Premies gestort na 01.01.1993 8% 3 8% 3 Vóór 60 jaar bij contract
 10 j. en 5 stortingen en
 elke storting 5 jaar belegd
 
-16,5% 3/10%
-
-8% 3
-
-Andere omstandigheden
+16,5% 3/10% 8% 3 Andere omstandigheden
 
 Marginale aanslagvoet
 
-33%
-
-16,5% 3
-
-8% 3
+33% 16,5% 3 8% 3
 
 1. Uitbetaling bij leven
 Vanaf 60 jaar
 
 2. Overlijdensverzekering
-Overlijden
-
-1 Dit is enkel voor vrouwen én een contract van vóór 01.01.2002 dat ten vroegste vanaf 55 jaar wordt afgekocht.
+Overlijden 1 Dit is enkel voor vrouwen én een contract van vóór 01.01.2002 dat ten vroegste vanaf 55 jaar wordt afgekocht.
 2 Alle andere gevallen dan onder (1).
 3 Als gevolg van een budgettaire maatregel werd in 2012 op vele contracten een anticipatieve taks ingehouden. Bijgevolg worden sommige
 gedeeltes in de eindafrekening nog op 16,5% belast terwijl andere op 10% belast worden. Dezelfde maatregel heeft eveneens als gevolg dat
@@ -2258,52 +1961,19 @@ aan 16,5%. Het kapitaal opgebouwd door persoonlijke stortingen vanaf 01.01.1993
 wordt belast aan 10%.
 2. Voor het kapitaal opgebouwd uit de werkgeversbijdragen
 De tarieven van de eenmalige taxatie wordt in de hiernavolgende tabel samengevat.
-Leeftijd uitkering
-kapitaal
-
-Niet wettelijk gepensioneerd
+Leeftijd uitkering kapitaal Niet wettelijk gepensioneerd
 (incl. ‘brugpensioen’/SWT)
 
 (Vervroegd) wettelijk
-met pensioen
+met pensioen (60 jaar) (20%)1 (16,5%) 61 jaar 18% 1 16,5% Belastinggids 2025 • 69
 
-(60 jaar)
-
-(20%)1
-
-(16,5%)
-
-61 jaar
-
-18% 1
-
-16,5%
-Belastinggids 2025 • 69
-
- Leeftijd uitkering
-kapitaal
-
-Niet wettelijk gepensioneerd
+Leeftijd uitkering kapitaal Niet wettelijk gepensioneerd
 (incl. ‘brugpensioen’/SWT)
 
 (Vervroegd) wettelijk
-met pensioen
-
-62 tot 64 jaar
-
-16,5%
-
-16,5%
-
-65 jaar of bij vervroegd
+met pensioen 62 tot 64 jaar 16,5% 16,5% 65 jaar of bij vervroegd
 pensioen met volledige
-loopbaan (45 jaar)
-
-10% 2
-
-10% 2, 3
-
-1 Deze percentages blijven behouden tot zolang de overgangsmaatregel van toepassing blijft.
+loopbaan (45 jaar) 10% 2 10% 2, 3 1 Deze percentages blijven behouden tot zolang de overgangsmaatregel van toepassing blijft.
 2 Het tarief van 10% wordt toegekend zo men ononderbroken effectief actief was tot op het moment dat de wettelijke pensioenleeftijd bereikt
 werd. Bepaalde periodes van inactiviteit of verminderde activiteit echter gelijkgesteld worden. Het 16,5%-tarief is van toepassing indien de
 uitkering gebeurt naar aanleiding van de pensionering maar de bovenvermelde voorwaarde van effectief actief is niet voldaan of enkel ingeval
@@ -2325,9 +1995,7 @@ De gemiddelde aanslagvoet wordt toegepast bij o.a.:
 • achterstallen;
 • vervroegd vakantiegeld;
 • achterstallige onderhoudsuitkeringen;
-•…
-
-De inkomsten zoals opzeggings- en inschakelingsvergoedingen en achterstallen worden
+•… De inkomsten zoals opzeggings- en inschakelingsvergoedingen en achterstallen worden
 belast tegen het gemiddelde tarief van het laatste vorige jaar waarin de belastingplichtige 12 maanden belastbare beroepsinkomsten heeft gehad. De aard van de beroepsinkomsten is van geen belang meer. Het kan dus eveneens geheel of gedeeltelijk gaan om
 vervangingsinkomsten of pensioenen. De nieuwe definitie van referentiejaar geldt sinds
 aanslagjaar 2019 en zal meestal voordeliger zijn voor de belastingplichtige.
@@ -2335,8 +2003,7 @@ aanslagjaar 2019 en zal meestal voordeliger zijn voor de belastingplichtige.
 70 • Belastinggids 2025
 
  e. Omzetting in een lijfrente van sommige kapitalen, vergoedingen en
-afkoopwaarden
-Welke kapitalen, vergoedingen en afkoopwaarden?
+afkoopwaarden Welke kapitalen, vergoedingen en afkoopwaarden?
 Kapitalen die worden vereffend bij het normaal verstrijken van het contract of bij overlijden van de verzekerde en afkoopwaarden die worden vereffend in één der vijf jaren die
 aan het normaal verstrijken van het contract voorafgaan, voorkomend van:
 • aanvullende pensioenen;
@@ -2350,41 +2017,7 @@ Welke taxatie?
 De kapitalen worden, voor de vaststelling van de belastbare grondslag, slechts in
 aanmerking genomen ten belope van de lijfrente die zou voortvloeien uit hun omzetting
 volgens coëfficiënten die niet meer dan 5% mogen bedragen.
-Leeftijd
-
-Coëfficiënt
-
-Leeftijd
-
-Coëfficiënt
-
-≤ 40
-
-59 – 60
-
-3,5
-
-41 – 45
-
-1,5
-
-61 – 62
-
-46 – 50
-
-63 – 64
-
-4,5
-
-51 – 55
-
-2,5
-
-≤ 65
-
-56 – 58
-
-! Opmerking! Hetzelfde omzettingsstelsel is van toepassing op het kapitaal of van de
+Leeftijd Coëfficiënt Leeftijd Coëfficiënt ≤ 40 59 – 60 3,5 41 – 45 1,5 61 – 62 46 – 50 63 – 64 4,5 51 – 55 2,5 ≤ 65 56 – 58 ! Opmerking! Hetzelfde omzettingsstelsel is van toepassing op het kapitaal of van de
 
 afkoopwaarde van levensverzekeringscontracten die het voorwerp hebben uitgemaakt van voorschotten op contracten of die als waarborg hebben gediend van een
 hypothecaire lening, voor zover die voorschotten verleend of die leningen gesloten
@@ -2459,9 +2092,7 @@ Belastbaar netto-inkomen gezin/jaar
 
 Definitief bedrag BBSZ
 
-< € 18 592,02
-
-€0
+< € 18 592,02 €0
 
 > € 18 592,01 – € 21 070,96
 
@@ -2481,18 +2112,14 @@ Definitief bedrag BBSZ
 
 > € 81 944,00
 
-€ 731,28
-
-Belastinggids 2025 • 73
+€ 731,28 Belastinggids 2025 • 73
 
  Andere (alleenstaanden, feitelijk samenwonenden)
 Belastbaar netto-inkomen gezin/jaar
 
 Definitief bedrag BBSZ
 
-< € 18 592,02
-
-€0
+< € 18 592,02 €0
 
 > € 18 592,01 – € 21 070,96
 
@@ -2527,9 +2154,7 @@ op opcentiemen.
 
  Belastinggids 2025 • 75
 
- 76 • Brochure A5
-
-## V Niet akkoord met de fiscus?
+76 • Brochure A5 V Niet akkoord met de fiscus?
 Verweer u!
 Wanneer u meent dat de cijfers op uw ontvangen aanslagbiljet niet juist zijn, kan u
 hiertegen reageren. U kan eerst proberen uw belastingcontroleur te benaderen en informeel een correctie te vragen. Lukt dit niet dan kan u een bezwaarschrift indienen.
@@ -2581,282 +2206,80 @@ aan het licht gekomen zijn.
 78 • Belastinggids 2025
 
  Bijlage: Cijfers in een notendop
-Basisbedrag
-in euro
+Basisbedrag in euro Aanslagjaar 2025 in euro Belastingvrije som per belastingplichtige ongeacht de hoogte
+van het inkomen 4 785 10 570 Verhoging belastingvrije som
+1 920 1 kind 2 kinderen 2 240 4 950 3 kinderen 5 020 11 090 4 kinderen 8 120 17 940 meer dan 4 kinderen 8 120 17 940 supplement per kind boven vierde
 
-Aanslagjaar
-2025 in euro
-
-Belastingvrije som
-per belastingplichtige ongeacht de hoogte
-van het inkomen
-
-4 785
-
-10 570
-
-Verhoging belastingvrije som
-1 920
-
-1 kind
-
-2 kinderen
-
-2 240
-
-4 950
-
-3 kinderen
-
-5 020
-
-11 090
-
-4 kinderen
-
-8 120
-
-17 940
-
-meer dan 4 kinderen
-
-8 120
-
-17 940
-
-supplement per kind boven vierde
-
-3 100
-
-6 850
-
-kind jonger dan 3 (geen kosten opvang)
+3 100 6 850 kind jonger dan 3 (geen kosten opvang)
 
 andere persoon ten laste
 
-1 920
+1 920 alleenstaande ouder met kind(eren) ten laste
 
-alleenstaande ouder met kind(eren) ten laste
-
-1 920
-
-alleenstaande ouder met laag inkomen, met
+1 920 alleenstaande ouder met laag inkomen, met
 kind(eren) ten laste: maximale bijkomende
-­belastingvrije som
+­belastingvrije som 1 250 gehandicapte belastingplichtige
 
-1 250
-
-gehandicapte belastingplichtige
-
-1 920
-
-(groot)ouder, broer of zus > 65 j.
+1 920 (groot)ouder, broer of zus > 65 j.
 (overgangsmaatregel)
 
-1 740
+1 740 3 850 zorgbehoevende (groot)ouder, broer of zus > 65j.
 
-3 850
-
-zorgbehoevende (groot)ouder, broer of zus > 65j.
-
-2 610
-
-5 770
-
-algemeen
-
-1 800
-
-3 980
-
-kinderen ten laste (ongeacht van wie en ongeacht
+2 610 5 770 algemeen 1 800 3 980 kinderen ten laste (ongeacht van wie en ongeacht
 al dan niet gehandicapt - regeling enkel voor de
-aj. 2024 en 2025)
-
-3 300
-
-7 290
-
-Maximum nettobestaansmiddelen
+aj. 2024 en 2025) 3 300 7 290 Maximum nettobestaansmiddelen
 
 Belastinggids 2025 • 79
 
- Basisbedrag
-in euro
+Basisbedrag in euro Aanslagjaar 2025 in euro niet meetellende onderhoudsgelden
 
-Aanslagjaar
-2025 in euro
+1 800 3 980 niet meetellend pensioen
 
-niet meetellende onderhoudsgelden
-
-1 800
-
-3 980
-
-niet meetellend pensioen
-
-14 500
-
-32 040
-
-niet meetellende studentenarbeid, student-­
+14 500 32 040 niet meetellende studentenarbeid, student-­
 zelfstandige en leerling in alternerende opleiding
 
-1 500
-
-3 310
-
-6 700
-
-13 050
-
-11,20/dag
-
-16,40/dag
-
-minimumbedrag giften
+1 500 3 310 6 700 13 050 11,20/dag 16,40/dag minimumbedrag giften
 
 max. pensioensparen met 30% belastingvermindering
 max. pensioensparen met 25% belastingvermindering
 
-1 020
-1 310
-
-max. uitgaven PWA/dienstencheques
-en wijk-werkcheques
-
-1 790
-
-adoptiekosten
-
-4 000
-
-6 530
-
-energiebesparende uitgaven voor dakisolatie
+1 020 1 310 max. uitgaven PWA/dienstencheques
+en wijk-werkcheques 1 790 adoptiekosten 4 000 6 530 energiebesparende uitgaven voor dakisolatie
 (enkel voor Wallonië)
 
-2 000
-
-3 900
-
-25%
-
-0 – 8 120
-
-0 – 15 820
-
-40%
-
-8 120 – 14 330
-
-15 820 – 27 920
-
-45%
-
-14 330 – 24 800
-
-27 920 – 48 320
-
-50%
-
-boven 24 800
-
-boven 48 320
-
-Maximumbedrag aan belastingkrediet voor kind ten laste
+2 000 3 900 25% 0 – 8 120 0 – 15 820 40% 8 120 – 14 330 15 820 – 27 920 45% 14 330 – 24 800 27 920 – 48 320 50% boven 24 800 boven 48 320 Maximumbedrag aan belastingkrediet voor kind ten laste
 maximumbedrag aan belastingkrediet voor kind
-ten laste
-Huwelijksquotiënt
-Huwelijksquotiënt
-Belastingverminderingen
-kosten kinderopvang
+ten laste Huwelijksquotiënt Huwelijksquotiënt Belastingverminderingen
+kosten kinderopvang Belastingschijven 80 • Belastinggids 2025
 
-Belastingschijven
-
-80 • Belastinggids 2025
-
- Basisbedrag
-in euro
-
-Aanslagjaar
-2025 in euro
-
-Maximumbedragen die recht geven op belastingvermindering voor enige woning
+Basisbedrag in euro Aanslagjaar 2025 in euro Maximumbedragen die recht geven op belastingvermindering voor enige woning
 (Woonbonus – voorheen ‘aftrek enige woning’)
-Federaal
-basisbedrag
-
-1 500
-
-2 450
-
-basisbedrag
-
-1 500
-
-2 280
-
-verhoging basisbedrag tijdens 1ste 10 jaar
+Federaal basisbedrag 1 500 2 450 basisbedrag 1 500 2 280 verhoging basisbedrag tijdens 1ste 10 jaar
 
 verhoging indien minimum 3 kinderen
 
-basisbedrag
+basisbedrag — 1 520 verhoging basisbedrag tijdens de 1ste 10 jaar
 
-—
+— Verhoging indien minimum 3 kinderen
 
-1 520
-
-verhoging basisbedrag tijdens de 1ste 10 jaar
-
-—
-
-Verhoging indien minimum 3 kinderen
-
-—
-
-basisbedrag
-
-1 500
-
-2 920
-
-verhoging basisbedrag tijdens 1ste 10 jaar
+— basisbedrag 1 500 2 920 verhoging basisbedrag tijdens 1ste 10 jaar
 
 verhoging indien minimum 3 kinderen
 
-basisbedrag
-
-1 500
-
-2 290
-
-verhoging basisbedrag tijdens 1ste 10 jaar
+basisbedrag 1 500 2 290 verhoging basisbedrag tijdens 1ste 10 jaar
 
 verhoging indien minimum 3 kinderen
 
 max. belastingvermindering of -krediet
 
-1 520
-
-1 520
-
-extra belastingvermindering of -krediet
+1 520 1 520 extra belastingvermindering of -krediet
 (per kind ten laste)
 
 inkomstengrens: recht op max. chèque
 
-21 000
+21 000 26 394 max belastbaar inkomen met recht
 
-26 394
-
-max belastbaar inkomen met recht
-
-81 000
-
-101805
-
-Vlaams gewest leningen t.e.m. 2014
+81 000 101805 Vlaams gewest leningen t.e.m. 2014
 
 Vlaams gewest leningen vanaf 2015 t.e.m. 2019
 
@@ -2868,107 +2291,20 @@ Waals gewest chèque habitat leningen vanaf 2016
 
 Belastinggids 2025 • 81
 
- Basisbedrag
-in euro
-
-Aanslagjaar
-2025 in euro
-
-Maximumbedrag kapitaalaflossingen en levensverzekeringspremies (samen)
-Federaal
-
-1 500
-
-2 450
-
-Vlaams gewest
-
-2 021
-
-2 280
-
-Brussels gewest
-
-1 500
-
-2 920
-
-Waals gewest
-
-1 500
-
-2 290
-
-Maximum premies individuele levensverzekeringen en kapitaalaflossingen
+Basisbedrag in euro Aanslagjaar 2025 in euro Maximumbedrag kapitaalaflossingen en levensverzekeringspremies (samen)
+Federaal 1 500 2 450 Vlaams gewest 2 021 2 280 Brussels gewest 1 500 2 920 Waals gewest 1 500 2 290 Maximum premies individuele levensverzekeringen en kapitaalaflossingen
 (bouwsparen en langetermijnsparen)
-Federaal
-1ste schijf voor berekening belastingvermindering
+Federaal 1ste schijf voor berekening belastingvermindering
 
-1 250
+1 250 2 040 absoluut maximum 1 500 2 450 1ste schijf voor berekening belastingvermindering
 
-2 040
+1 250 1 900 absoluut maximum 1 500 2 280 1ste schijf voor berekening belastingvermindering
 
-absoluut maximum
+1 250 1 910 absoluut maximum 1 500 2 290 1ste schijf voor berekening
 
-1 500
+1 250 2 440 absoluut maximum 1 500 2 920 verenigingswerk (sport en culturele sector)
 
-2 450
-
-1ste schijf voor berekening belastingvermindering
-
-1 250
-
-1 900
-
-absoluut maximum
-
-1 500
-
-2 280
-
-1ste schijf voor berekening belastingvermindering
-
-1 250
-
-1 910
-
-absoluut maximum
-
-1 500
-
-2 290
-
-1ste schijf voor berekening
-
-1 250
-
-2 440
-
-absoluut maximum
-
-1 500
-
-2 920
-
-verenigingswerk (sport en culturele sector)
-
-3 830
-
-7 460
-
-deeleconomie
-
-3 830
-
-7 460
-
-Vlaams gewest
-
-Waals gewest
-
-Brussels gewest
-
-Deeleconomie en verenigingswerk
+3 830 7 460 deeleconomie 3 830 7 460 Vlaams gewest Waals gewest Brussels gewest Deeleconomie en verenigingswerk
 
 82 • Belastinggids 2025
 

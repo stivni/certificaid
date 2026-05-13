@@ -26,9 +26,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_at: '2026-05-13T12:28:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Kort advies (2095 tekens, geen headings), inhoud volledig en coherent afgesloten. Geen extractie-artefacten gevonden: geen HTML-entities, geen ongewone unicode, geen spurious line-breaks. Layer1 pass zonder flags bevestigd.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -40,8 +40,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:32Z'
+      rationale: 'Kort advies (2095 tekens, geen headings), inhoud volledig en coherent afgesloten. Geen extractie-artefacten gevonden: geen HTML-entities, geen ongewone unicode, geen spurious line-breaks. Layer1 pass zonder flags bevestigd.'
       concrete_problemen: []
 ---
 # CBN-advies 126/4 - Vervaardigingsprijs : correctie van de Nederlandse tekst van artikel 22 van het Koninklijk Besluit van 8 oktober 1976

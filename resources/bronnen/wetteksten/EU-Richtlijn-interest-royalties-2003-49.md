@@ -17,30 +17,23 @@ provenance:
       version: 26.06.2003
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:15:13Z'
+  generated_at: '2026-05-13T12:25:12Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_at: '2026-05-13T12:28:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'L1 pass: 11 headings, kleine richtlijn volledig intact. Opsomming van vennootschapsvormen correct als plain-text opsomming.'
+    rationale: Geen EUR-Lex markers. Alle 11 artikelen aanwezig en goed gestructureerd. Kleine PDF-koppeltekensplits (bv. 'interca- laire') zijn source-kenmerken. Definities van interest en royalty's, verbonden ondernemingen, en overgangsbepalingen volledig aanwezig.
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:37Z'
-      heading_count: 11
-      max_section_chars: 6515
-      file_size_chars: 23049
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
-      rationale: 'L1 pass: 11 headings, kleine richtlijn volledig intact. Opsomming van vennootschapsvormen correct als plain-text opsomming.'
+      run_at: '2026-05-13T12:28:25Z'
+      rationale: Geen EUR-Lex markers. Alle 11 artikelen aanwezig en goed gestructureerd. Kleine PDF-koppeltekensplits (bv. 'interca- laire') zijn source-kenmerken. Definities van interest en royalty's, verbonden ondernemingen, en overgangsbepalingen volledig aanwezig.
       concrete_problemen: []
 ---
 

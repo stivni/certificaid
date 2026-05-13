@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:26:37Z'
+  generated_at: '2026-05-13T12:24:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:27:21Z'
+    confirmed_at: '2026-05-13T12:28:37Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Bestand bevat opgeheven KB (1980, opgeheven 01.01.2020). Inhoudelijk OK maar voetnoot (1) doorkruist Art. 3 inhoudelijk (regels 74-78): 'Art. 138... 1°... 5°... 6°... ## Art. 139: De Koning kan...'. Die '## Art. 139' is een PDF-doorkruising van een footnote en krijgt een eigen heading-anker — schadelijk voor retrieval want lijkt op een echt artikel. Daarna pas op regel 80 het Art. 3-vervolg ('Er moet evenwel een nieuw attest...'). Geen ETL-fix gedaan voor footnote-bleed."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:27:21Z'
+      run_at: '2026-05-13T12:28:37Z'
       rationale: "Bestand bevat opgeheven KB (1980, opgeheven 01.01.2020). Inhoudelijk OK maar voetnoot (1) doorkruist Art. 3 inhoudelijk (regels 74-78): 'Art. 138... 1°... 5°... 6°... ## Art. 139: De Koning kan...'. Die '## Art. 139' is een PDF-doorkruising van een footnote en krijgt een eigen heading-anker — schadelijk voor retrieval want lijkt op een echt artikel. Daarna pas op regel 80 het Art. 3-vervolg ('Er moet evenwel een nieuw attest...'). Geen ETL-fix gedaan voor footnote-bleed."
       concrete_problemen:
         - 'Regels 74-78: footnote-bleed in Art. 3 — Art. 138/139 als fake content tussen Art. 3-tekst'

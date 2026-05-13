@@ -17,19 +17,24 @@ provenance:
       version: '2023'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:27:07Z'
+  generated_at: '2026-05-13T12:24:28Z'
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: trusted
+    confirmed_at: '2026-05-13T12:28:19Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: 'L1 pass: 6 headings, max sectie 11791 chars. Kleine KB correct verwerkt. Inhoud aanwezig.'
     layer1:
     layer2:
+      status: trusted
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:28:19Z'
+      rationale: 'L1 pass: 6 headings, max sectie 11791 chars. Kleine KB correct verwerkt. Inhoud aanwezig.'
+      concrete_problemen: []
 ---
 
 # BTW KB nr. 54 — Entrepot (art. 39quater)

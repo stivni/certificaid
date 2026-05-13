@@ -35,9 +35,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_at: '2026-05-13T12:28:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (1170 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    rationale: 'Zeer korte bron (1170 tekens) zonder subkoppen (heading_count: 0, conform Laag-1). Inhoud volledig in één alinea, geen artefacten detecteerbaar in categorieën A-G. Taal vloeiend, geen afgekapte zinnen, geen HTML-entiteiten, geen malformed opmaak.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -49,8 +49,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
-      rationale: 'Kort advies (1170 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+      run_at: '2026-05-13T12:28:33Z'
+      rationale: 'Zeer korte bron (1170 tekens) zonder subkoppen (heading_count: 0, conform Laag-1). Inhoud volledig in één alinea, geen artefacten detecteerbaar in categorieën A-G. Taal vloeiend, geen afgekapte zinnen, geen HTML-entiteiten, geen malformed opmaak.'
       concrete_problemen: []
 ---
 # CBN-advies 150/2 - Aansluitingskosten en installatiekosten waarbij derden de eigendom van de installatie verwerven of behouden

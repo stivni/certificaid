@@ -33,9 +33,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:27Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Bugs B3 (duplicate heading) en D4 (gebroken italic '*Bulletin *') zijn beide opgelost: body bevat één heading op regel 58 en '*Bulletin*' is correct gesloten op regel 60. Inhoud is volledig met voetnoten en antwoord van de Minister. Ziet eruit als mens-geschreven."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -47,8 +47,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:27Z'
+      rationale: "Bugs B3 (duplicate heading) en D4 (gebroken italic '*Bulletin *') zijn beide opgelost: body bevat één heading op regel 58 en '*Bulletin*' is correct gesloten op regel 60. Inhoud is volledig met voetnoten en antwoord van de Minister. Ziet eruit als mens-geschreven."
       concrete_problemen: []
 ---
 # CBN advies 103/2 - Omzet van expediteurs

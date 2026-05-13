@@ -31,10 +31,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-13T00:12:30Z'
+    status: needs-rework
+    confirmed_at: '2026-05-13T12:27:03Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Laag-1 pass zonder flags. Korte norm (2 headings, 7539 chars): 'Overwegende' en 'Definities' als ## headings, gevolgd door 6 principes als plain-text subsecties (Eerste principe, Tweede principe, ...). Dit is consistent met de bron-opmaak — de 6 principes zijn geen aparte headings maar running text. Inhoud volledig (6 principes aanwezig). Geen extractie-artefacten."
+    rationale: "Twee categorieën artefacten: A9 (OCR-fouten) en B4 (structuurlabels als plain text). Heading_count=0 bevestigt dat geen enkele sectie een ## prefix heeft gekregen terwijl chunk.level=2 ## verwacht — 'Eerste principe', 'Tweede principe', 'Definities' enz. staan als plain-text-paragraphen. Daarnaast minstens 6 OCR-fouten verspreid door het bestand ('fmanciële', 'WIe', 'enlof', 'dentologische', 'confratemele', 'Fisalisten'). De consideransen eindigen herhaaldelijk op '‚\"' in plaats van ';'."
     layer1:
       status: pass
       run_id: 20260513-000913
@@ -44,15 +44,51 @@ provenance:
       file_size_chars: 7539
       flags: []
     layer2:
-      status: trusted
+      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T00:12:30Z'
-      rationale: "Laag-1 pass zonder flags. Korte norm (2 headings, 7539 chars): 'Overwegende' en 'Definities' als ## headings, gevolgd door 6 principes als plain-text subsecties (Eerste principe, Tweede principe, ...). Dit is consistent met de bron-opmaak — de 6 principes zijn geen aparte headings maar running text. Inhoud volledig (6 principes aanwezig). Geen extractie-artefacten."
+      run_at: '2026-05-13T12:27:03Z'
+      rationale: "Twee categorieën artefacten: A9 (OCR-fouten) en B4 (structuurlabels als plain text). Heading_count=0 bevestigt dat geen enkele sectie een ## prefix heeft gekregen terwijl chunk.level=2 ## verwacht — 'Eerste principe', 'Tweede principe', 'Definities' enz. staan als plain-text-paragraphen. Daarnaast minstens 6 OCR-fouten verspreid door het bestand ('fmanciële', 'WIe', 'enlof', 'dentologische', 'confratemele', 'Fisalisten'). De consideransen eindigen herhaaldelijk op '‚\"' in plaats van ';'."
       concrete_problemen:
-        - regel: 120
+        - regel: 145
           categorie: B4
           type: other
-          voorbeeld: 'Eerste principe - Aanvaarding van een controleopdracht (als plain text sectielabel, niet ## heading — marginaal)'
+          voorbeeld: "'Eerste principe - Aanvaarding van een controleopdracht' als plain text — geen ## prefix"
+        - regel: 152
+          categorie: B4
+          type: other
+          voorbeeld: "'Tweede principe - Aanvaarding van een raadgevende opdracht' als plain text"
+        - regel: 125
+          categorie: B4
+          type: other
+          voorbeeld: "'Definities' als plain text zonder ## prefix"
+        - regel: 132
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: "'fmanciële informatie' — 'm' i.p.v. 'in' (OCR-verwarring)"
+        - regel: 142
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: "'voor WIe een opdracht wordt' — 'WIe' i.p.v. 'wie'"
+        - regel: 86
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: "'van de boekhoudkundige expertise (intern enlof extern)' — 'enlof' i.p.v. 'en/of'"
+        - regel: 178
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: "'specifieke dentologische bepalingen' — 'd' i.p.v. 'de' (OCR-drop)"
+        - regel: 204
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: "'wederzijdse confratemele bijstand' — 'rn→m' OCR-verwarring"
+        - regel: 98
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: "'Beroepsinstituut van erkende Boekhouders en Fisalisten' — 'Fisalisten' i.p.v. 'Fiscalisten'"
+        - regel: 80
+          categorie: A5
+          type: other
+          voorbeeld: Considerans eindigt op ',"' i.p.v. ';' — herhaald bij minstens 8 consideransen (r80, r83, r88, r91, r94, r99, r101, r105)
 ---
 GEDRAGSLIJNEN INZAKE DE BEROEPSRELATlES TUSSEN DE LEDEN VAN
 HET IBR, HET IAB EN HET BIBF

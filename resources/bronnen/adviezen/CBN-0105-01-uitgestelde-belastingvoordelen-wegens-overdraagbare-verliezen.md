@@ -43,9 +43,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'De B2-bug (bold-markup in headings ## **De Belgische regelgeving** en ## **Buitenlandse regelgeving**) die Ronde 1 rapporteerde is opgelost door de scraper-fixes: regels 105 en 113 tonen nu clean headings zonder **bold**. Geen andere artefacten aangetroffen in categorieën A-G. Voetnoten [^1]–[^5] volledig gedefinieerd, inhoud compleet.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -57,8 +57,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:25Z'
+      rationale: 'De B2-bug (bold-markup in headings ## **De Belgische regelgeving** en ## **Buitenlandse regelgeving**) die Ronde 1 rapporteerde is opgelost door de scraper-fixes: regels 105 en 113 tonen nu clean headings zonder **bold**. Geen andere artefacten aangetroffen in categorieën A-G. Voetnoten [^1]–[^5] volledig gedefinieerd, inhoud compleet.'
       concrete_problemen: []
 ---
 # CBN-advies C105/1 - Uitgestelde belastingvoordelen wegens overdraagbare verliezen

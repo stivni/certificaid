@@ -17,54 +17,40 @@ provenance:
       version: 01.04.2026
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 2ab0aa1
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:23:24Z'
+  generated_at: '2026-05-13T12:24:14Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T10:38:29Z'
+    confirmed_at: '2026-05-13T12:27:05Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "A2+A8+A1 bevestigd. A2: TOC met dotted-leaders (regels 67-251). A8: NL+FR tekst op één regel door bilingue bron-PDF (bv. regel 544: 'Het kantoor mag ze niet langer houden dan nodig is.  Le bureau ne peut les retenir au-delà du temps nécessaire.'). A1: titels gecombineerd als 'INWERKINGTREDING  ENTREE EN VIGUEUR' (regel 17027). Structureel probleem van bilingue PDF-bron — ETL kan NL-alleen-versie extraheren als die beschikbaar is."
+    rationale: "Ernstige A8 kolom-bleed doorheen het hele corpus: elke artikeltekst bevat NL-tekst en FR-tekst naast elkaar op dezelfde regel (twee-kolom PDF-layout). Dit maakt elke chunk onleesbaar voor RAG — de zinnen zijn doorheen elkaar: 'De aanbieding ter registratie van ... La présentation à l'enregistrement des ...'. Laag-1 meldt 3 bevestigde kolom-bleed samples, maar de eigenlijke omvang is structureel (elk artikel, niet incidenteel). B4: plain-text structuurlabels ontbreken `#`-prefix. Alle overige structuurproblemen zijn identiek aan Brussel/Waals."
     layer1:
-      status: warn
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:38Z'
-      heading_count: 625
-      max_section_chars: 55446
-      file_size_chars: 498657
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ######-niveau: 55446 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
-        - name: no_toc_dots
-          status: warn
-          detail: 86 TOC-stippen-regel(s) gevonden
-          samples:
-            - '................................................................................'
-            - '................................................................................'
-            - '................................................................................'
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:38:29Z'
-      rationale: "A2+A8+A1 bevestigd. A2: TOC met dotted-leaders (regels 67-251). A8: NL+FR tekst op één regel door bilingue bron-PDF (bv. regel 544: 'Het kantoor mag ze niet langer houden dan nodig is.  Le bureau ne peut les retenir au-delà du temps nécessaire.'). A1: titels gecombineerd als 'INWERKINGTREDING  ENTREE EN VIGUEUR' (regel 17027). Structureel probleem van bilingue PDF-bron — ETL kan NL-alleen-versie extraheren als die beschikbaar is."
+      run_at: '2026-05-13T12:27:05Z'
+      rationale: "Ernstige A8 kolom-bleed doorheen het hele corpus: elke artikeltekst bevat NL-tekst en FR-tekst naast elkaar op dezelfde regel (twee-kolom PDF-layout). Dit maakt elke chunk onleesbaar voor RAG — de zinnen zijn doorheen elkaar: 'De aanbieding ter registratie van ... La présentation à l'enregistrement des ...'. Laag-1 meldt 3 bevestigde kolom-bleed samples, maar de eigenlijke omvang is structureel (elk artikel, niet incidenteel). B4: plain-text structuurlabels ontbreken `#`-prefix. Alle overige structuurproblemen zijn identiek aan Brussel/Waals."
       concrete_problemen:
-        - regel: 67
-          categorie: A2
-          type: dotted-leader
-          voorbeeld: '## TITEL I - REGISTRATIERECHT.............'
-        - regel: 544
+        - regel: 63
           categorie: A8
           type: column-bleed
-          voorbeeld: Het kantoor mag ze niet langer houden dan nodig is.  Le bureau ne peut les retenir au-delà du temps nécessaire.
-        - regel: 17027
-          categorie: A1
-          type: other
-          voorbeeld: INWERKINGTREDING  ENTREE EN VIGUEUR
+          voorbeeld: EN GRIFFIERECHTEN                                                      D'HYPOTHEQUE ET DE GREFFE
+        - regel: 79
+          categorie: A8
+          type: column-bleed
+          voorbeeld: Registratie is een formaliteit bestaande in het afschrijven, ontleden of        L'enregistrement est une formalité qui consiste dans la copie,
+        - regel: 132
+          categorie: A8
+          type: column-bleed
+          voorbeeld: Wordt, voor de toepassing van dit wetboek, met een aan een                        Po schorsende voorwaarde...
+        - regel: 75
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: (TOC-regels met paginanummers aanwezig in body, zelfde patroon als Brussel/Waals)
 ---
 
 # Registratierechten — federaal

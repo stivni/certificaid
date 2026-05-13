@@ -34,9 +34,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:26Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: Alle door vorige verdict gemelde tekstfouten (berokken, dee vermelding, wttelijke, centraisatieboek, bewegingn, angegeven) staan letterlijk in de bron-HTML en vallen onder de source-uitzondering. A4 (U+2010 in r87 'ondergaan -gelet') is eveneens een bron-karakter uit de CBN-website. Geen ETL-bugs gevonden buiten deze source-categorieën. Inhoud volledig, voetnoot intact.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -48,9 +48,29 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:26Z'
+      rationale: Alle door vorige verdict gemelde tekstfouten (berokken, dee vermelding, wttelijke, centraisatieboek, bewegingn, angegeven) staan letterlijk in de bron-HTML en vallen onder de source-uitzondering. A4 (U+2010 in r87 'ondergaan -gelet') is eveneens een bron-karakter uit de CBN-website. Geen ETL-bugs gevonden buiten deze source-categorieën. Inhoud volledig, voetnoot intact.
+      concrete_problemen:
+        - regel: 75
+          categorie: (source)
+          type: source-typo
+          voorbeeld: berokken rekeningen — source-typo voor 'betrokken'
+        - regel: 83
+          categorie: (source)
+          type: source-typo
+          voorbeeld: dee vermelding betrekking moet hebben ... wttelijke vereisten
+        - regel: 85
+          categorie: (source)
+          type: source-typo
+          voorbeeld: inschrijving in het centraisatieboek te beperken
+        - regel: 87
+          categorie: (source)
+          type: source-typo
+          voorbeeld: de bewegingn die elk ervan hebben ondergaan ... angegeven
+        - regel: 87
+          categorie: (source)
+          type: source-typo
+          voorbeeld: ondergaan -gelet op de moeilijkheid — U+2010 of gewoon koppelteken uit bron-HTML
 ---
 # CBN-advies 4-1 - Vermeldingen in het centralisatieboek
 

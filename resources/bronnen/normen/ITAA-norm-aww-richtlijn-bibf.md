@@ -35,10 +35,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-13T00:12:30Z'
+    status: needs-rework
+    confirmed_at: '2026-05-13T12:27:04Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Laag-1 pass zonder flags. BIBF-richtlijn (17 secties, 41093 chars): structuur grotendeels intact als ## headings. Inhoudstafel op r133-134 als plain tekst (analoog aan AWW-reglement) — marginaal. Section heading 3 heeft afgekorte weergave '## 3. Algemene risicobeoordeling beroepsbeoefenaar' (r406) — te kort maar de inhoud volgt correct. Bijlagen I-IV volledig. Inhoud compleet en coherent."
+    rationale: "Laag 1 pass (16 headings, max_section 8493), maar meerdere PDF-artefacten aanwezig. Drie kritieke problemen: (1) Regel 153-154: TOC-fragment '## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar' gevolgd door 'Nakoming    van       de         waakzaamheidsverplichtingen...' met extreme whitespace — kolom-bleed als ## heading vóór sectie 1 begint. (2) Regel 156: '## Bijlage I. Variabelen...' ook als TOC-fragment-heading vóór sectie 1. (3) Regel 425: '## 3. Algemene    risicobeoordeling beroepsbeoefenaar' — scrambled heading (meerdere spaties, ontbrekende woorden 'op te maken door de'). (4) Regel 344: extra whitespace in zin '...noch als       AMLCO.' (kolom-spreading). Overige 13 secties (1, 2, 4-10 + bijlagen II-IV) zijn correct als ## headings aanwezig en inhoudelijk compleet."
     layer1:
       status: pass
       run_id: 20260513-000913
@@ -48,19 +48,35 @@ provenance:
       file_size_chars: 41093
       flags: []
     layer2:
-      status: trusted
+      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T00:12:30Z'
-      rationale: "Laag-1 pass zonder flags. BIBF-richtlijn (17 secties, 41093 chars): structuur grotendeels intact als ## headings. Inhoudstafel op r133-134 als plain tekst (analoog aan AWW-reglement) — marginaal. Section heading 3 heeft afgekorte weergave '## 3. Algemene risicobeoordeling beroepsbeoefenaar' (r406) — te kort maar de inhoud volgt correct. Bijlagen I-IV volledig. Inhoud compleet en coherent."
+      run_at: '2026-05-13T12:27:04Z'
+      rationale: "Laag 1 pass (16 headings, max_section 8493), maar meerdere PDF-artefacten aanwezig. Drie kritieke problemen: (1) Regel 153-154: TOC-fragment '## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar' gevolgd door 'Nakoming    van       de         waakzaamheidsverplichtingen...' met extreme whitespace — kolom-bleed als ## heading vóór sectie 1 begint. (2) Regel 156: '## Bijlage I. Variabelen...' ook als TOC-fragment-heading vóór sectie 1. (3) Regel 425: '## 3. Algemene    risicobeoordeling beroepsbeoefenaar' — scrambled heading (meerdere spaties, ontbrekende woorden 'op te maken door de'). (4) Regel 344: extra whitespace in zin '...noch als       AMLCO.' (kolom-spreading). Overige 13 secties (1, 2, 4-10 + bijlagen II-IV) zijn correct als ## headings aanwezig en inhoudelijk compleet."
       concrete_problemen:
-        - regel: 133
-          categorie: A2
+        - regel: 153
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "'## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar' als TOC-duplicate heading vóór ## 1"
+        - regel: 154
+          categorie: A8
+          type: column-bleed
+          voorbeeld: "'Nakoming    van       de         waakzaamheidsverplichtingen                              door           derde' — extreme kolom-spreading"
+        - regel: 156
+          categorie: A3
           type: other
-          voorbeeld: 'Inhoud (TOC plain tekst, r133-134) zonder ## — marginaal'
-        - regel: 406
-          categorie: B1
-          type: other
-          voorbeeld: '## 3. Algemene    risicobeoordeling beroepsbeoefenaar (woordspatie + afgekapte titel tov AWW-reglement)'
+          voorbeeld: "'## Bijlage I. Variabelen ten minste in overweging te nemen in de integrale' als TOC-fragment heading vóór sectie 1"
+        - regel: 425
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "'## 3. Algemene    risicobeoordeling beroepsbeoefenaar' — ontbrekend 'op te maken door de' + multi-spatie"
+        - regel: 344
+          categorie: A8
+          type: column-bleed
+          voorbeeld: "'...noch als       AMLCO.' — kolom-spreading in punt 2.3"
+        - regel: 502
+          categorie: A8
+          type: column-bleed
+          voorbeeld: "'1° aan de door deze uitgeoefende               beroepsactiviteiten   van    de' — kolom-spreading in 4.1"
 ---
 Richtlijn van het Beroepsinstituut van erkende Boekhouders en Fiscalisten
  van 31 maart 2020 inzake de toepassing van de wet van 18 september

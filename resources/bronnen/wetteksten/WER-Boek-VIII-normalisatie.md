@@ -17,39 +17,40 @@ provenance:
       version: 24.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:14:41Z'
+  generated_at: '2026-05-13T12:24:51Z'
   stale: false
   stale_reason:
   trust:
-    status: rejected
-    confirmed_at: '2026-05-13T10:38:29Z'
+    status: needs-rework
+    confirmed_at: '2026-05-13T12:26:36Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Bevestigd rejected: naam-mismatch F3. Body bevat vakbondsvormingsreglementen, dierenwelzijn KB, KBO-aangifte-regels, Wonen-Vlaanderen vacatures — niet de boekhoudnormen van WER Boek VIII. Max sectie 116180 chars. Verkeerde bron-PDF.'
+    rationale: "A8: het bestand bevat systematische kolom-bleed van de NL+FR tweetalige bron: vanaf regel 60 wisselen NL- en FR-artikelversies elkaar af als aparte ##### headings met identieke nummers ('Art. 2' tweemaal, 'Art. 1' tweemaal, enz.), wat een column-extraction-fout is. B1: veel headings bevatten enkel een artikelnummer gevolgd door een FR-zin als heading-tekst (bv. `##### Art. 2. Le ministre qui a l'Emploi dans ses attributions est chargé de`). B3: identieke heading `#### CHAPITRE I er` en `### HOOFDSTUK I` voor dezelfde sectie, plus dubbele `Art. 2`-headings. Layer1 meldde max_section_size warn (351006 chars) wat bevestigt dat de structuur niet chunker-vriendelijk is."
     layer1:
-      status: warn
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:40Z'
-      heading_count: 352
-      max_section_chars: 116180
-      file_size_chars: 622737
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op #####-niveau: 116180 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
-      status: rejected
+      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:38:29Z'
-      rationale: 'Bevestigd rejected: naam-mismatch F3. Body bevat vakbondsvormingsreglementen, dierenwelzijn KB, KBO-aangifte-regels, Wonen-Vlaanderen vacatures — niet de boekhoudnormen van WER Boek VIII. Max sectie 116180 chars. Verkeerde bron-PDF.'
+      run_at: '2026-05-13T12:26:36Z'
+      rationale: "A8: het bestand bevat systematische kolom-bleed van de NL+FR tweetalige bron: vanaf regel 60 wisselen NL- en FR-artikelversies elkaar af als aparte ##### headings met identieke nummers ('Art. 2' tweemaal, 'Art. 1' tweemaal, enz.), wat een column-extraction-fout is. B1: veel headings bevatten enkel een artikelnummer gevolgd door een FR-zin als heading-tekst (bv. `##### Art. 2. Le ministre qui a l'Emploi dans ses attributions est chargé de`). B3: identieke heading `#### CHAPITRE I er` en `### HOOFDSTUK I` voor dezelfde sectie, plus dubbele `Art. 2`-headings. Layer1 meldde max_section_size warn (351006 chars) wat bevestigt dat de structuur niet chunker-vriendelijk is."
       concrete_problemen:
-        - regel: 74
-          categorie: F3
-          type: naam-mismatch
-          voorbeeld: '### HOOFDSTUK I. — Toepassingsgebied (vakbondsvorming KB)'
+        - regel: 60
+          categorie: A8
+          type: column-bleed
+          voorbeeld: '##### Art. 2. Le ministre... / ##### Art. 2. De minister... (NL+FR door elkaar)'
+        - regel: 107
+          categorie: B3
+          type: other
+          voorbeeld: '#### CHAPITRE I er . en ### HOOFDSTUK I. voor dezelfde sectie'
+        - regel: 113
+          categorie: B1
+          type: other
+          voorbeeld: '##### Art. 1. Deze   collectieve   arbeidsovereenkomst   is   van   toepassing'
+        - regel: 113
+          categorie: C3
+          type: pseudo-table
+          voorbeeld: op de werkgevers   en   werklieden   van   de   ondernemingen (extra spaties als uitlijning)
 ---
 
 # WER Boek VIII — Kwaliteit van producten en diensten (boekhoudnormen)
@@ -2328,7 +2329,7 @@ Besluit : Enig artikel. In het koninklijk besluit van 3 juli 2012 betreffende de
 
 J. VANDE LANOTTE
 
-Bijlage 3
+## Bijlage 3
 
 Overige diensten Driemaandelijks te verstrekken inlichtingen Afzetprijzen Afzetprijzen binnenlandse markt Afzetprijzen buitenlandse markt, opgesplitst in EU-zone en niet-EU- zone Invoerprijzen, opgesplitst in EU-zone en niet-EU-zone Gezien om te worden gevoegd bij het ministerieel besluit van 19 maart 2013 tot wijziging van de bijlage 3 bij het koninklijk besluit van 3 juli 2012 betreffende de maandelijkse en driemaandelijkse steekproe- fenquêtes met het oog op het opstellen van kortetermijnstatistieken.
 

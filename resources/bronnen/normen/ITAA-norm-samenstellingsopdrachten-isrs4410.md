@@ -33,9 +33,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_at: '2026-05-13T12:27:03Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B4: 16 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als standalone heading — identiek patroon als effectennorm/omzetting/ontbinding (twee-kolom kolomkop als heading). A6: preamble (r49-100) met afgebroken zinnen. TOC-fragment op r119-131 als plain text (gedeeltelijk). Structuur van de genummerde secties (I-VI + bijlagen) verder aanwezig."
+    rationale: "Laag-1 warn: 21 TOC-stippelregels. Drie structurele problemen: (1) column-header 'VEREISTEN TOEPASSINGSMODALITEITEN' is 16x als ## heading geëxtraheerd, verspreid door het hele document, waardoor de heading-boomstructuur ernstig vervuild is; (2) TOC-regel met dot-leader '## Communicatie met het management en de met governance belaste personen . 34 Het' is als ## heading overgenomen inclusief paginanummer en eerste woord van de volgende regel (B7/A2); (3) een zin breekt af mid-woord: '...naar aanleiding van \\n IBA.' waarna de zin eindigt zonder logische conclusie (A6). De inhoudelijke structuur (Toepassingsgebied, Definities, Doelstellingen, Vereisten) is grotendeels aanwezig maar doorkruist door de spurious column-headers."
     layer1:
       status: pass
       run_id: 20260513-000913
@@ -47,21 +47,25 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T00:12:30Z'
-      rationale: "B4: 16 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als standalone heading — identiek patroon als effectennorm/omzetting/ontbinding (twee-kolom kolomkop als heading). A6: preamble (r49-100) met afgebroken zinnen. TOC-fragment op r119-131 als plain text (gedeeltelijk). Structuur van de genummerde secties (I-VI + bijlagen) verder aanwezig."
+      run_at: '2026-05-13T12:27:03Z'
+      rationale: "Laag-1 warn: 21 TOC-stippelregels. Drie structurele problemen: (1) column-header 'VEREISTEN TOEPASSINGSMODALITEITEN' is 16x als ## heading geëxtraheerd, verspreid door het hele document, waardoor de heading-boomstructuur ernstig vervuild is; (2) TOC-regel met dot-leader '## Communicatie met het management en de met governance belaste personen . 34 Het' is als ## heading overgenomen inclusief paginanummer en eerste woord van de volgende regel (B7/A2); (3) een zin breekt af mid-woord: '...naar aanleiding van \\n IBA.' waarna de zin eindigt zonder logische conclusie (A6). De inhoudelijke structuur (Toepassingsgebied, Definities, Doelstellingen, Vereisten) is grotendeels aanwezig maar doorkruist door de spurious column-headers."
       concrete_problemen:
-        - regel: 49
-          categorie: B4
-          type: other
-          voorbeeld: '## Norm inzake de Samenstellingsopdrachten (heading start OK) maar preamble r51-100 bevat afgebroken zinnen'
-        - regel: 134
-          categorie: B4
-          type: other
-          voorbeeld: '## VEREISTEN TOEPASSINGSMODALITEITEN (kolomkop als heading, 16x herhaald)'
-        - regel: 51
+        - regel: 238
+          categorie: B7
+          type: dotted-leader
+          voorbeeld: "'## Communicatie met het management en de met governance belaste personen . 34 Het' — TOC-regel met paginanummer als ## heading"
+        - regel: 180
+          categorie: A8
+          type: column-bleed
+          voorbeeld: "'## VEREISTEN TOEPASSINGSMODALITEITEN' als heading (16x herhaald), soms met '(Zie Par. 22)' suffix"
+        - regel: 148
           categorie: A6
           type: other
-          voorbeeld: in het bijzonder de artikelen 3, 5, 6, 62 en 72. (afgekapte preamble-zin)
+          voorbeeld: "'Deze norm wordt van toepassing gemaakt voor de verslagen uitgebracht naar aanleiding van \\n IBA.' — zin breekt af na 'aanleiding van', vervolgt met 'IBA.' op volgende regel"
+        - regel: 209
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: "'Inleiding ............................................................................................................................................................... 6' in INHOUDSTAFEL-blok in body"
 ---
 ## Norm inzake de Samenstellingsopdrachten
 

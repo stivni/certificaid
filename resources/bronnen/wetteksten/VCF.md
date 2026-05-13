@@ -17,43 +17,52 @@ provenance:
       version: 03.04.2026
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 2ab0aa1
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:23:21Z'
+  generated_at: '2026-05-13T12:24:11Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T10:38:29Z'
+    confirmed_at: '2026-05-13T12:26:46Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'A8 bevestigd: regels 144-148 tonen NL en FR tekst door elkaar (artikel 1.1.0.0.2 definitie voertuigen: NL-tekst gevolgd door FR-tekst van dezelfde bepaling op aansluitende regels). Dubbele spaties als kolom-separator zichtbaar. Bilingue bron-PDF-issue. Artikelinhoud voor de rest aanwezig.'
+    rationale: "A8: pervasief kolom-bleed door het volledige document — vrijwel elke paragraaf van elke alinea heeft een Franse kolom-fragment aan het einde van de regel (patroon: 'NL-tekst      FR-fragment'). Dit is een twee-kolom PDF-extractiefout die het gehele bestand onleesbaar maakt voor RAG. Voorbeelden op regels 78–145 (Art. 1.1.0.0.2 definities), 571–593 (Art. 2.1.5.0.1), 630–693 (Art. 2.1.5.0.2) en door de volledige rest van het document."
     layer1:
-      status: warn
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:39Z'
-      heading_count: 837
-      max_section_chars: 35991
-      file_size_chars: 921662
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ######-niveau: 35991 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:38:29Z'
-      rationale: 'A8 bevestigd: regels 144-148 tonen NL en FR tekst door elkaar (artikel 1.1.0.0.2 definitie voertuigen: NL-tekst gevolgd door FR-tekst van dezelfde bepaling op aansluitende regels). Dubbele spaties als kolom-separator zichtbaar. Bilingue bron-PDF-issue. Artikelinhoud voor de rest aanwezig.'
+      run_at: '2026-05-13T12:26:46Z'
+      rationale: "A8: pervasief kolom-bleed door het volledige document — vrijwel elke paragraaf van elke alinea heeft een Franse kolom-fragment aan het einde van de regel (patroon: 'NL-tekst      FR-fragment'). Dit is een twee-kolom PDF-extractiefout die het gehele bestand onleesbaar maakt voor RAG. Voorbeelden op regels 78–145 (Art. 1.1.0.0.2 definities), 571–593 (Art. 2.1.5.0.1), 630–693 (Art. 2.1.5.0.2) en door de volledige rest van het document."
       concrete_problemen:
-        - regel: 144
+        - regel: 72
           categorie: A8
           type: column-bleed
-          voorbeeld: a) bestaat uit een volledig van de laadruimte afgesloten  enkele cabine...
-        - regel: 148
+          voorbeeld: Deze codex regelt een gewestaangelegenheid.               L
+        - regel: 78
           categorie: A8
           type: column-bleed
-          voorbeeld: b) comprend une cabine double comportant six places  au maximum, celle du conducteur...
+          voorbeeld: hoofdsom waarop deze codex van toepassing is, in          a voorkomend geval...
+        - regel: 571
+          categorie: A8
+          type: column-bleed
+          voorbeeld: 5° 100% van de onroerende voorheffing gedurende vijf        5 jaar voor gebouwde onroerende goederen waarvoor de          p
+        - regel: 586
+          categorie: A8
+          type: column-bleed
+          voorbeeld: De termijn van tien jaar, vermeld in het eerste lid, 1° tot   L en met 3°, neemt een aanvang...
+        - regel: 630
+          categorie: A8
+          type: column-bleed
+          voorbeeld: '§ 1. Op aanvraag van de belastingschuldige wordt :          §'
+        - regel: 569
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: datum aanvraag stedenbouwkundige vergunning...   N / date de la demande d'autorisation urbanistique...
+        - regel: 154
+          categorie: A8
+          type: column-bleed
+          voorbeeld: '28° Wetboek van Successierechten : het wetboek van 31 maart 1936 der Succes|Upsierechten.'
 ---
 
 # Vlaamse Codex Fiscaliteit (VCF)

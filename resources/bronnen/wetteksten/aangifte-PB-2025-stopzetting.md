@@ -17,30 +17,23 @@ provenance:
       version:
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:15:19Z'
+  generated_at: '2026-05-13T12:25:14Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_at: '2026-05-13T12:28:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Handcrafted file, L1 pass: 16 headings, max sectie 1484 chars. Markdown-tabellen correct. Inhoud compleet.'
+    rationale: 'Eveneens manueel aangemaakt; geen PDF-extractiesporen. Tabellen correct in pipe-syntax, heading-hiërarchie consistent (## Vak XXI/XVII/XVIII, ### Rubriek). Tarief-samenvatting aan het einde is helder. Kruisreferenties naar WIB92-artikelen correct. Frontmatter stemt overeen met inhoud.'
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:41Z'
-      heading_count: 16
-      max_section_chars: 1484
-      file_size_chars: 7803
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:16Z'
-      rationale: 'Handcrafted file, L1 pass: 16 headings, max sectie 1484 chars. Markdown-tabellen correct. Inhoud compleet.'
+      run_at: '2026-05-13T12:28:31Z'
+      rationale: 'Eveneens manueel aangemaakt; geen PDF-extractiesporen. Tabellen correct in pipe-syntax, heading-hiërarchie consistent (## Vak XXI/XVII/XVIII, ### Rubriek). Tarief-samenvatting aan het einde is helder. Kruisreferenties naar WIB92-artikelen correct. Frontmatter stemt overeen met inhoud.'
       concrete_problemen: []
 ---
 

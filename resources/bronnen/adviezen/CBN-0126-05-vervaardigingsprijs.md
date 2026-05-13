@@ -32,9 +32,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_at: '2026-05-13T12:27:04Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D1: bestand eindigt abrupt mid-zin op regel 53 ("...zou de vervaardigingsprijs trouwens" - zin zonder afronding). Scraper heeft de pagina onvolledig opgehaald.'
+    rationale: "B3: dubbele page-title-heading op regels 49 en 51 (klassiek duplicate-title-patroon). D1: document eindigt abrupt mid-zin ('Toepassing daarvan zou de vervaardigingsprijs trouwens') zonder conclusie — het advies is duidelijk ingekort of afgekapt bij de scrape. Deze twee problemen samen maken de bron onbetrouwbaar voor RAG."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -46,13 +46,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
-      rationale: 'D1: bestand eindigt abrupt mid-zin op regel 53 ("...zou de vervaardigingsprijs trouwens" - zin zonder afronding). Scraper heeft de pagina onvolledig opgehaald.'
+      run_at: '2026-05-13T12:27:04Z'
+      rationale: "B3: dubbele page-title-heading op regels 49 en 51 (klassiek duplicate-title-patroon). D1: document eindigt abrupt mid-zin ('Toepassing daarvan zou de vervaardigingsprijs trouwens') zonder conclusie — het advies is duidelijk ingekort of afgekapt bij de scrape. Deze twee problemen samen maken de bron onbetrouwbaar voor RAG."
       concrete_problemen:
-        - regel: 53
+        - regel: 49
+          categorie: B3
+          type: other
+          voorbeeld: '# CBN advies 126-5 - Vervaardigingsprijs (regel 49 en 51 identiek)'
+        - regel: 57
           categorie: D1
           type: abrupt-cutoff
-          voorbeeld: zou de vervaardigingsprijs trouwens
+          voorbeeld: Toepassing daarvan zou de vervaardigingsprijs trouwens
 ---
 # CBN advies 126-5 - Vervaardigingsprijs
 Aan de Commissie werd gevraagd of de financiële kosten die mogen worden opgenomen in de vervaardigingsprijs van voorraden en bestellingen in uitvoering, waarvan de produktie meer dan één jaar bestrijkt, alle daaraan verbonden financiële kosten omvatten of enkel de financiële kosten die betrekking hebben op de schulden op meer dan één jaar. 

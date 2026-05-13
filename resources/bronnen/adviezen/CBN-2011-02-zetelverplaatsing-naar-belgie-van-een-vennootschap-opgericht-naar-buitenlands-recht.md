@@ -42,9 +42,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:28:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Drie ## headings correct. Voetnoten 1–7 volledig. Geen inhoudsopgave als plain text, geen extractie-artefacten. Inhoud beknopt maar compleet voor dit advies.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -56,8 +56,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:34Z'
+      rationale: 'Drie ## headings correct. Voetnoten 1–7 volledig. Geen inhoudsopgave als plain text, geen extractie-artefacten. Inhoud beknopt maar compleet voor dit advies.'
       concrete_problemen: []
 ---
 # CBN-advies 2011/2 - Zetelverplaatsing naar België van een vennootschap opgericht naar buitenlands recht: gevolgen voor het voeren van de boekhouding en het opstellen van de jaarrekening

@@ -27,9 +27,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:27Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel staat slechts eenmaal (r52). De lichte '[^1] ,[^2]' spatie-voor-komma (r56) is een marginale opmaakafwijking die geen inhoudelijke of structurele impact heeft. Geen verdere artefacten: body volledig, drie voetnoten correct geformateerd, logische opbouw."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -41,9 +41,13 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:27Z'
+      rationale: "B3-bug (duplicate heading) is verholpen in de nieuwe scrape: de H1-titel staat slechts eenmaal (r52). De lichte '[^1] ,[^2]' spatie-voor-komma (r56) is een marginale opmaakafwijking die geen inhoudelijke of structurele impact heeft. Geen verdere artefacten: body volledig, drie voetnoten correct geformateerd, logische opbouw."
+      concrete_problemen:
+        - regel: 56
+          categorie: D1
+          type: other
+          voorbeeld: koninklijk besluit van 18 oktober 1978[^1] ,[^2].
 ---
 # CBN advies 12-3 - Toepassingsgebied van de uitvoeringsbesluiten - Gemiddeld aantal jaarlijks tewerkgestelde personen
 De vraag werd gesteld welk criterium in aanmerking moet genomen worden voor de berekening van het gemiddeld aantal tewerkgestelde personen zoals bedoeld in artikel 12 van de wet van 17 juli 1975 en artikel 39 van het koninklijk besluit van 8 oktober 1976. 

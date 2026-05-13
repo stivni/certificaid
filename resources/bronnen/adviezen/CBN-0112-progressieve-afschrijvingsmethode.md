@@ -40,9 +40,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_at: '2026-05-13T12:28:28Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Prior layer2 verdict (needs-rework, B3 duplicate headings op L57 en L59) is onjuist: die regelnummers vallen in de frontmatter. De body heeft slechts één H1-heading op regel 65. De heading-tekst 'CBN advies 112/5' mist een koppelteken na 'CBN' vergeleken met de conventie, maar dit is cosmetisch. Geen ETL-artefacten in de body aangetroffen."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -54,8 +54,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:28Z'
+      rationale: "Prior layer2 verdict (needs-rework, B3 duplicate headings op L57 en L59) is onjuist: die regelnummers vallen in de frontmatter. De body heeft slechts één H1-heading op regel 65. De heading-tekst 'CBN advies 112/5' mist een koppelteken na 'CBN' vergeleken met de conventie, maar dit is cosmetisch. Geen ETL-artefacten in de body aangetroffen."
       concrete_problemen: []
 ---
 # CBN advies 112/5 - Progressieve afschrijvingsmethode

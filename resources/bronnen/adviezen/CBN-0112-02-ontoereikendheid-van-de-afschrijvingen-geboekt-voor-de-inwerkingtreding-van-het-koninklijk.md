@@ -38,9 +38,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_at: '2026-05-13T12:28:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: Advies van 3814 tekens zonder interne headings — inhoudelijk correct als doorlopende redenering. Vier coherente alinea's, volledig en afgerond. Geen artefacten, geen spurious breaks, geen Unicode-resten. Frontmatter consistent met inhoud.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -52,8 +52,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:32Z'
+      rationale: Advies van 3814 tekens zonder interne headings — inhoudelijk correct als doorlopende redenering. Vier coherente alinea's, volledig en afgerond. Geen artefacten, geen spurious breaks, geen Unicode-resten. Frontmatter consistent met inhoud.
       concrete_problemen: []
 ---
 # CBN-advies 112/2 - Ontoereikendheid van de afschrijvingen geboekt vóór de inwerkingtreding van het Koninklijk Besluit van 8 oktober 1976

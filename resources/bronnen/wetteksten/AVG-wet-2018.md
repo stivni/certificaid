@@ -17,39 +17,44 @@ provenance:
       version: 30.07.2018
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 2ab0aa1
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:46:20Z'
+  generated_at: '2026-05-13T12:24:24Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T10:38:29Z'
+    confirmed_at: '2026-05-13T12:26:47Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'A3+B2 bevestigd: regels 54-346 bevatten een TOC-structuur van kale headings (###### Art. 24, ## TITEL 2, etc.) zonder lichaamstekst. De eigenlijke wettekst begint pas op regel 348. Hierdoor zijn structuurniveaus gedupliceerd en springt de hiërarchie direct van H1 naar H6. Eigenlijke body (Art. 1-286) is volledig aanwezig.'
+    rationale: "B4: 12 ONDERTITEL-labels en 1 VOORAFGAANDE TITEL staan als plain text in plaats van als heading-prefix (regels 108, 160, 164, 216, 268, 304, 370 e.a.). Laag-1 pass maar dit is een structurele ETL-bug. Daarnaast staan 'Titel' (regel 53) en 'Tekst' (regel 368) als losse plain-text artefactregels, en bevat regel 57 een Fisconet-modificatietabel-rij '(Art.254) (Art.255)...' die niet thuishoort in de body. Artikelinhoud is voor het overige correct en compleet."
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:36Z'
-      heading_count: 545
-      max_section_chars: 8309
-      file_size_chars: 303219
-      flags: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:38:29Z'
-      rationale: 'A3+B2 bevestigd: regels 54-346 bevatten een TOC-structuur van kale headings (###### Art. 24, ## TITEL 2, etc.) zonder lichaamstekst. De eigenlijke wettekst begint pas op regel 348. Hierdoor zijn structuurniveaus gedupliceerd en springt de hiërarchie direct van H1 naar H6. Eigenlijke body (Art. 1-286) is volledig aanwezig.'
+      run_at: '2026-05-13T12:26:47Z'
+      rationale: "B4: 12 ONDERTITEL-labels en 1 VOORAFGAANDE TITEL staan als plain text in plaats van als heading-prefix (regels 108, 160, 164, 216, 268, 304, 370 e.a.). Laag-1 pass maar dit is een structurele ETL-bug. Daarnaast staan 'Titel' (regel 53) en 'Tekst' (regel 368) als losse plain-text artefactregels, en bevat regel 57 een Fisconet-modificatietabel-rij '(Art.254) (Art.255)...' die niet thuishoort in de body. Artikelinhoud is voor het overige correct en compleet."
       concrete_problemen:
-        - regel: 54
-          categorie: A3
+        - regel: 53
+          categorie: B4
           type: other
-          voorbeeld: '###### Art. 24 (kale TOC-heading zonder lichaamstekst, vóór de eigenlijke wet)'
-        - regel: 35
-          categorie: B2
+          voorbeeld: Titel
+        - regel: 57
+          categorie: G1
           type: other
-          voorbeeld: 'H1 (titel) → direct ###### Art. 24 (H6) zonder H2-H5 ertussen'
+          voorbeeld: (Art.254)   (Art.255)    (Art.256)      (Art.257)     (Art.258)   (Art.259)   (Art.260
+        - regel: 108
+          categorie: B4
+          type: other
+          voorbeeld: ONDERTITEL 1. - De bescherming van natuurlijke personen met betrekking tot de verwerking...
+        - regel: 368
+          categorie: B4
+          type: other
+          voorbeeld: Tekst
+        - regel: 370
+          categorie: B4
+          type: other
+          voorbeeld: VOORAFGAANDE TITEL. - Inleidende bepalingen
 ---
 
 # Belgische AVG-uitvoeringswet 2018

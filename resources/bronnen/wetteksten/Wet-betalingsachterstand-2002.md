@@ -17,39 +17,40 @@ provenance:
       version: 02.08.2002
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:14:07Z'
+  generated_at: '2026-05-13T12:24:25Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T10:38:29Z'
+    confirmed_at: '2026-05-13T12:27:02Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "D1+D2 bevestigd: de body begint mid-alinea bij de definitie van 'basisherfinancieringstransactie' (regel 57) — Art. 1 en het begin van Art. 2 ontbreken. Art. 3 start ook midden in tekst ('Art. 3. Deze wet...'). De headings Art. 3-15 zijn aanwezig. Bovendien: Art. 3, 4, 5, 6, 7, 8, 9, 14 bevatten de art.-tekst als onderdeel van de heading-tekst ('### Art. 3. Deze' / '### Art. 8. De') — B1-artefact waarbij de eerste zin van het artikel mee in de heading-tekst werd opgenomen."
+    rationale: "B5: Minstens 9 van de 15 artikelen fuseren heading en eerste zin op één regel (bv. regel 63 '### Art. 1.Deze wet regelt...', regel 88 '### Art. 4.[1 § 1. Indien er...', regel 102 '### Art. 5.[1 [2 Indien de schuldeiser...'). De afkapping tussen heading en body is volledig verloren gegaan — het patroon is stelselmatig. Art. 10, 11, 12 en 15 zijn correct (heading op aparte regel), maar de meerderheid is fout. Verdere inhoud (5 hoofdstukken, 15 artikelen) is compleet."
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:41Z'
-      heading_count: 16
-      max_section_chars: 4130
-      file_size_chars: 15075
-      flags: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T10:38:29Z'
-      rationale: "D1+D2 bevestigd: de body begint mid-alinea bij de definitie van 'basisherfinancieringstransactie' (regel 57) — Art. 1 en het begin van Art. 2 ontbreken. Art. 3 start ook midden in tekst ('Art. 3. Deze wet...'). De headings Art. 3-15 zijn aanwezig. Bovendien: Art. 3, 4, 5, 6, 7, 8, 9, 14 bevatten de art.-tekst als onderdeel van de heading-tekst ('### Art. 3. Deze' / '### Art. 8. De') — B1-artefact waarbij de eerste zin van het artikel mee in de heading-tekst werd opgenomen."
+      run_at: '2026-05-13T12:27:02Z'
+      rationale: "B5: Minstens 9 van de 15 artikelen fuseren heading en eerste zin op één regel (bv. regel 63 '### Art. 1.Deze wet regelt...', regel 88 '### Art. 4.[1 § 1. Indien er...', regel 102 '### Art. 5.[1 [2 Indien de schuldeiser...'). De afkapping tussen heading en body is volledig verloren gegaan — het patroon is stelselmatig. Art. 10, 11, 12 en 15 zijn correct (heading op aparte regel), maar de meerderheid is fout. Verdere inhoud (5 hoofdstukken, 15 artikelen) is compleet."
       concrete_problemen:
-        - regel: 57
-          categorie: D2
-          type: abrupt-cutoff
-          voorbeeld: Body start met 'Richtlijn 2004/17/EG...' midden in Art. 1 definitie — Art. 1 en eerste deel Art. 2 ontbreken
-        - regel: 62
-          categorie: B1
+        - regel: 63
+          categorie: B5
           type: other
-          voorbeeld: '### Art. 3. Deze (eerste zin van Art. 3 als onderdeel van heading)'
+          voorbeeld: '### Art. 1.Deze wet regelt een aangelegenheid als bedoeld in artikel 78...'
+        - regel: 88
+          categorie: B5
+          type: other
+          voorbeeld: '### Art. 4.[1 § 1. Indien er in de overeenkomst geen datum of termijn...'
+        - regel: 102
+          categorie: B5
+          type: other
+          voorbeeld: '### Art. 5.[1 [2 Indien de schuldeiser zijn contractuele en wettelijke...'
+        - regel: 108
+          categorie: B5
+          type: other
+          voorbeeld: '### Art. 7.Contractuele bedingen die afwijken van de bepalingen...'
 ---
 
 # Wet betalingsachterstand handelstransacties

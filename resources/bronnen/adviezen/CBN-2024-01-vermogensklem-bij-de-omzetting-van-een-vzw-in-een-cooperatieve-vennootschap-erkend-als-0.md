@@ -45,9 +45,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:48Z'
+    confirmed_at: '2026-05-13T12:28:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: Geen zichtbare extractie-artefacten. Balansvoorbeelden in pipe-tabellen zijn correct opgemaakt met meerregelige cellen als subrekeningen (bv. '1319.0 Overige...' en '1319.1 Latente...' als afzonderlijke rijen), wat inhoudelijk correct is en niet het 'gebroken cel'-patroon van 2022/13. Voetnoten [^1]–[^27] volledig. Drie situaties (materiële vaste activa, geldbeleggingen, onbeschikbare reserve) volledig uitgewerkt.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -59,8 +59,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:48Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:33Z'
+      rationale: Geen zichtbare extractie-artefacten. Balansvoorbeelden in pipe-tabellen zijn correct opgemaakt met meerregelige cellen als subrekeningen (bv. '1319.0 Overige...' en '1319.1 Latente...' als afzonderlijke rijen), wat inhoudelijk correct is en niet het 'gebroken cel'-patroon van 2022/13. Voetnoten [^1]–[^27] volledig. Drie situaties (materiële vaste activa, geldbeleggingen, onbeschikbare reserve) volledig uitgewerkt.
       concrete_problemen: []
 ---
 # CBN-advies 2024/01 – Vermogensklem bij de omzetting van een VZW in een coöperatieve vennootschap erkend als sociale onderneming

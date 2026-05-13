@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:26:38Z'
+  generated_at: '2026-05-13T12:24:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:27:21Z'
+    confirmed_at: '2026-05-13T12:28:37Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Hoofdtekst (Art. 1-3) is schoon. Echter regels 65-73 bevatten nog steeds 'Recent opgeheven of vervangen koninklijke besluiten' als plain text plus 4 kolom-bleed regels waar 'Bijw. 04/01.01.2020', 'Bijw. 03/12.07.2019', '(Opgeheven)', '(vervangen)' midden in de KB-omschrijvingen staan ingebed. Dit was een meerkoloms-tabel in de PDF die verkeerd is geconcateneerd. strip_mb_compilatie_cover en fix_pdftotext_glue_bugs raken dit specifieke artefact niet. Source-typo 'cöordinatie' op regel 50 blijft (categorie source). Body/content-ratio is goed maar de appendix is een duidelijk ETL-artefact.
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:27:21Z'
+      run_at: '2026-05-13T12:28:37Z'
       rationale: Hoofdtekst (Art. 1-3) is schoon. Echter regels 65-73 bevatten nog steeds 'Recent opgeheven of vervangen koninklijke besluiten' als plain text plus 4 kolom-bleed regels waar 'Bijw. 04/01.01.2020', 'Bijw. 03/12.07.2019', '(Opgeheven)', '(vervangen)' midden in de KB-omschrijvingen staan ingebed. Dit was een meerkoloms-tabel in de PDF die verkeerd is geconcateneerd. strip_mb_compilatie_cover en fix_pdftotext_glue_bugs raken dit specifieke artefact niet. Source-typo 'cöordinatie' op regel 50 blijft (categorie source). Body/content-ratio is goed maar de appendix is een duidelijk ETL-artefact.
       concrete_problemen:
         - "Regels 67, 69, 71, 73: kolom-bleed met 'Bijw. XX/datum' en '(Opgeheven)'/'(vervangen)' midden in zinnen"

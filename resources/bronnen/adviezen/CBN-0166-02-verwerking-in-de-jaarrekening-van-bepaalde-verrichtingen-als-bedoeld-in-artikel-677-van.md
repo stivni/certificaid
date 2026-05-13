@@ -44,7 +44,7 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:26:28Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'C1: 2 bullet-glyphs (•) als PDF-opsommingsteken i.p.v. markdown-conventie (-). Overige opsommingen gebruiken correct "-".'
     layer1:
@@ -58,7 +58,7 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
+      run_at: '2026-05-13T12:26:28Z'
       rationale: 'C1: 2 bullet-glyphs (•) als PDF-opsommingsteken i.p.v. markdown-conventie (-). Overige opsommingen gebruiken correct "-".'
       concrete_problemen:
         - categorie: C1

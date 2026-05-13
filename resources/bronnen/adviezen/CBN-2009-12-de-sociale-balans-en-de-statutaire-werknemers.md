@@ -27,9 +27,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:28:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Geen extractie-artefacten gevonden. Vier secties correct hiërarchisch als ## headings opgemaakt, voetnoten [^1]–[^12] volledig gedefinieerd, geen afgekapte zinnen, geen invisible unicode of HTML-entities. Body kort en inhoudelijk compleet.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -41,8 +41,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:31Z'
+      rationale: 'Geen extractie-artefacten gevonden. Vier secties correct hiërarchisch als ## headings opgemaakt, voetnoten [^1]–[^12] volledig gedefinieerd, geen afgekapte zinnen, geen invisible unicode of HTML-entities. Body kort en inhoudelijk compleet.'
       concrete_problemen: []
 ---
 # CBN-advies 2009/12 – De sociale balans en de statutaire werknemers

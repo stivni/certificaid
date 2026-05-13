@@ -28,9 +28,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (700 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    rationale: "Extreem korte bron (700 chars, 2 alinea's, geen headings buiten de paginatitel). Laag-1 pass. Geen detecteerbare extractie-artefacten: geen HTML-entities, geen gebroken zinnen na footnote-markers, geen unicode-artefacten. De inhoud is volledig en afgerond — dit advies is inhoudelijk kort van aard."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -42,8 +42,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: 'Kort advies (700 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+      run_at: '2026-05-13T12:28:31Z'
+      rationale: "Extreem korte bron (700 chars, 2 alinea's, geen headings buiten de paginatitel). Laag-1 pass. Geen detecteerbare extractie-artefacten: geen HTML-entities, geen gebroken zinnen na footnote-markers, geen unicode-artefacten. De inhoud is volledig en afgerond — dit advies is inhoudelijk kort van aard."
       concrete_problemen: []
 ---
 # CBN-advies 107/1 - Voorzieningen voor grote herstellings- of onderhoudswerken

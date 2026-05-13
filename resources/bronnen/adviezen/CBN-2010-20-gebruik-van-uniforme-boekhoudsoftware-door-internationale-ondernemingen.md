@@ -44,9 +44,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:28:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: Vijf headings correct hiërarchisch. Voetnoten 1–15 volledig. Geen inhoudsopgave als plain text in body, geen malformed italic, geen extractie-artefacten zichtbaar. Langere secties (max 11034 chars) lopen vloeiend door zonder spurious breaks.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -58,8 +58,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (6 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:34Z'
+      rationale: Vijf headings correct hiërarchisch. Voetnoten 1–15 volledig. Geen inhoudsopgave als plain text in body, geen malformed italic, geen extractie-artefacten zichtbaar. Langere secties (max 11034 chars) lopen vloeiend door zonder spurious breaks.
       concrete_problemen: []
 ---
 # CBN-advies 2010/20 - Gebruik van uniforme boekhoudsoftware door internationale ondernemingen

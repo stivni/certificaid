@@ -28,9 +28,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:26Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (1709 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    rationale: "Enige door vorige verdict gemelde issue: 'oger is dan 25 miljoen frank' (r53, moet 'hoger' zijn) — source-typo letterlijk in bron-HTML. A6-bug (zin gesplitst) is verholpen. Inhoud volledig, voetnoot correct. Geen ETL-bugs aangetroffen."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -42,9 +42,13 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: 'Kort advies (1709 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:26Z'
+      rationale: "Enige door vorige verdict gemelde issue: 'oger is dan 25 miljoen frank' (r53, moet 'hoger' zijn) — source-typo letterlijk in bron-HTML. A6-bug (zin gesplitst) is verholpen. Inhoud volledig, voetnoot correct. Geen ETL-bugs aangetroffen."
+      concrete_problemen:
+        - regel: 53
+          categorie: (source)
+          type: source-typo
+          voorbeeld: niet oger is dan 25 miljoen frank — source-typo voor 'hoger'
 ---
 # CBN-advies 12-1 - Toepassingsgebied van de uitvoeringsbesluiten: bedoelde ondernemingen
 

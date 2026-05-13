@@ -34,9 +34,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_at: '2026-05-13T12:28:34Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: Kort advies (2658 tekens), enkel lopende tekst zonder voetnoten of tabellen. Geen extractie-artefacten aangetroffen. Inhoud volledig en afgerond.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -48,8 +48,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:34Z'
+      rationale: Kort advies (2658 tekens), enkel lopende tekst zonder voetnoten of tabellen. Geen extractie-artefacten aangetroffen. Inhoud volledig en afgerond.
       concrete_problemen: []
 ---
 # CBN-advies 134/1 - Verwerking in de boekhouding en de jaarrekening van de belastingbesparing ingevoerd door het KB nr. 16 van 9 maart 1982

@@ -40,9 +40,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:46Z'
+    confirmed_at: '2026-05-13T12:28:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (11 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Kwalitatief sterk bestand. Tien headings correct genest over drie niveaus. Voetnoten [^1]–[^12] volledig gedefinieerd. Geen tabellen (correct voor dit type advies). Tekst doorlopend en coherent. Geen extractie-artefacten, TOC-residu, form-feed of malformed italic aangetroffen. Inhoud volledig: algemene principes, kosten van onderzoek, kosten van ontwikkeling en overgangsbepaling alle aanwezig.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -54,8 +54,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:46Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (11 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:31Z'
+      rationale: 'Kwalitatief sterk bestand. Tien headings correct genest over drie niveaus. Voetnoten [^1]–[^12] volledig gedefinieerd. Geen tabellen (correct voor dit type advies). Tekst doorlopend en coherent. Geen extractie-artefacten, TOC-residu, form-feed of malformed italic aangetroffen. Inhoud volledig: algemene principes, kosten van onderzoek, kosten van ontwikkeling en overgangsbepaling alle aanwezig.'
       concrete_problemen: []
 ---
 # CBN-advies 2016/16 – Kosten van onderzoek en ontwikkeling: wijzigingen door het koninklijk besluit van 18 december 2015

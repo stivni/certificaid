@@ -33,9 +33,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:26:49Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'B4: plain-text-header "DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW" (regel 207) zonder ##-prefix. 91 andere headings correct; dit is een ETL-omissie op 1 sectie.'
+    rationale: "Drie ETL-bugs bevestigd in huidige body: (1) B4: regel 239 'DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW' staat als plain-text zonder heading-prefix (vergelijking met omliggende ##### headings toont dat dit een subsectie-heading had moeten zijn). (2) E2: tabel regels 717-750 is zwaar verminkt — header gesplitst over twee regels (r717-719) en totaalrij met cel-inhoud verspreid over meerdere regels met tabs (r735-754). (3) C4: regels 280-286 tonen genummerde list-items '1.' en '2.' die elk als aparte paragraaf staan in plaats van als doorlopende list-items."
     layer1:
       status: warn
       run_id: 20260512-233938
@@ -51,13 +51,25 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: 'B4: plain-text-header "DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW" (regel 207) zonder ##-prefix. 91 andere headings correct; dit is een ETL-omissie op 1 sectie.'
+      run_at: '2026-05-13T12:26:49Z'
+      rationale: "Drie ETL-bugs bevestigd in huidige body: (1) B4: regel 239 'DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW' staat als plain-text zonder heading-prefix (vergelijking met omliggende ##### headings toont dat dit een subsectie-heading had moeten zijn). (2) E2: tabel regels 717-750 is zwaar verminkt — header gesplitst over twee regels (r717-719) en totaalrij met cel-inhoud verspreid over meerdere regels met tabs (r735-754). (3) C4: regels 280-286 tonen genummerde list-items '1.' en '2.' die elk als aparte paragraaf staan in plaats van als doorlopende list-items."
       concrete_problemen:
-        - regel: 207
+        - regel: 239
           categorie: B4
-          type: allcaps-struct-label
-          voorbeeld: DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW
+          type: other
+          voorbeeld: DE ZIEKENHUIZEN DIE AFHANGEN VAN DE OCMW — all-caps plain-text, geen heading-prefix
+        - regel: 717
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: '| *Op het einde \n\t\t\t\tvan de maand* | — tabelkop gesplitst over twee regels'
+        - regel: 735
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: '| **Totaal** | | Som A | ... Som C \n\t\t\t\t= (Som A) + \n\t\t\t\t(Som B.b) | — cel-inhoud over meerdere regels'
+        - regel: 280
+          categorie: C4
+          type: other
+          voorbeeld: 1. \n\nonafhankelijk van de grootte... — genummerd listpunt als aparte paragraaf gespat
 ---
 # CBN-advies S100 - Vragen en antwoorden over de sociale balans
 

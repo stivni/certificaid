@@ -41,9 +41,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:28:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Ronde-2-verdict (B2 geen headings + A4 Unicode HYPHEN) herbeoordeeld op huidige body. Heading_count=0 is correct voor dit korte advies — de CBN-bronpagina bevat geen expliciete sectieopdeling en het document is één vloeiende argumentatieve tekst van ~650 woorden. Geen ETL-artefact. De A4-claim (U+2010 in body) is onjuist: body r74 gebruikt ASCII koppelteken U+002D; U+2010 komt alleen voor in de frontmatter-rationale-tekst van de vorige review. Geen andere ETL-problemen gevonden.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -55,8 +55,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:30Z'
+      rationale: 'Ronde-2-verdict (B2 geen headings + A4 Unicode HYPHEN) herbeoordeeld op huidige body. Heading_count=0 is correct voor dit korte advies — de CBN-bronpagina bevat geen expliciete sectieopdeling en het document is één vloeiende argumentatieve tekst van ~650 woorden. Geen ETL-artefact. De A4-claim (U+2010 in body) is onjuist: body r74 gebruikt ASCII koppelteken U+002D; U+2010 komt alleen voor in de frontmatter-rationale-tekst van de vorige review. Geen andere ETL-problemen gevonden.'
       concrete_problemen: []
 ---
 # CBN-advies 2010-10 Duur van het boekjaar Advies van 14 juli 2010

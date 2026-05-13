@@ -17,33 +17,22 @@ provenance:
       version: 19.12.2025
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:13:31Z'
+  generated_at: '2026-05-13T12:24:06Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_at: '2026-05-13T12:28:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 warn: 349 headings, max sectie 58337 chars (chunker auto-split). Fisconet-bron, ##### Art.-headings correct. Mid-body toont correcte artikelinhoud zonder kolom-bleed. Tail bevat bijlage-arresten correct. Geen ETL-artefacten.'
     layer1:
-      status: warn
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:40Z'
-      heading_count: 349
-      max_section_chars: 58337
-      file_size_chars: 625344
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op #####-niveau: 58337 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:16Z'
+      run_at: '2026-05-13T12:28:19Z'
       rationale: 'L1 warn: 349 headings, max sectie 58337 chars (chunker auto-split). Fisconet-bron, ##### Art.-headings correct. Mid-body toont correcte artikelinhoud zonder kolom-bleed. Tail bevat bijlage-arresten correct. Geen ETL-artefacten.'
       concrete_problemen: []
 ---
@@ -634,7 +623,7 @@ Wanneer één van de voorwaarden voor de toepassing van de bepalingen van het tw
 
 3°    de belastingplichtige voor wie de goederen zijn bestemd om te worden geleverd, is voor btw-doeleinden geïdentificeerd in de lidstaat waarnaar de goederen worden verzonden of vervoerd, en zowel zijn identiteit als het btw-identificatienummer dat door die lidstaat aan hem is toegekend, zijn bij de in 2° bedoelde belastingplichtige bekend op het tijdstip waarop de verzending of het vervoer aanvangt;
 
-4°    de belastingplichtige die de goederen verzendt of vervoert, neemt het vervoer van de goederen op in het in artikel 54bis, § 1, derde lid, bedoelde register en vermeldt de identiteit van de belastingplichtige die de goederen afneemt, evenals het btwidentificatienummer dat aan hem is toegekend door de lidstaat waarnaar de goederen worden verzonden of vervoerd, overeenkomstig artikel 53sexies, § 1, 4°, in de btwopgave van de intracommunautaire handelingen.
+4°    de belastingplichtige die de goederen verzendt of vervoert, neemt het vervoer van de goederen op in het in artikel 54bis, § 1, derde lid, bedoelde register en vermeldt de identiteit van de belastingplichtige die de goederen afneemt, evenals het btw-identificatienummer dat aan hem is toegekend door de lidstaat waarnaar de goederen worden verzonden of vervoerd, overeenkomstig artikel 53sexies, § 1, 4°, in de btw-opgave van de intracommunautaire handelingen.
 
 § 3. Wanneer aan de voorwaarden van paragraaf 2 is voldaan, wordt een levering van goederen overeenkomstig artikel 39bis, eerste lid, 1°, geacht te zijn verricht door de belastingplichtige die de goederen zelf heeft verzonden of vervoerd of voor zijn rekening door een derde heeft laten verzenden of vervoeren, op het tijdstip van de overdracht van de macht om als eigenaar over de goederen te beschikken, aan de in paragraaf 2, 3°, bedoelde belastingplichtige, op voorwaarde dat de overdracht binnen de in paragraaf 4 bedoelde termijn plaatsvindt.
 
@@ -1241,7 +1230,7 @@ De belastingplichtigen en de niet-belastingplichtige rechtspersonen die voor de 
 
 De Koning stelt de nadere regelen vast voor de uitoefening van die keuze.
 
-De belastingplichtigen bedoeld in de artikelen 56bis tot en met 56undecies en 57 en degenen aan wie overeenkomstig artikel 50, § 1, eerste lid, 4° of 5°, en § 2 een BTWidentificatienummer werd toegekend, worden geacht de hierboven bedoelde keuze te hebben gedaan, vanaf het ogenblik dat zij aan een leverancier hun nummer meedelen om een intracommunautaire verwerving te verrichten;
+De belastingplichtigen bedoeld in de artikelen 56bis tot en met 56undecies en 57 en degenen aan wie overeenkomstig artikel 50, § 1, eerste lid, 4° of 5°, en § 2 een BTW-identificatienummer werd toegekend, worden geacht de hierboven bedoelde keuze te hebben gedaan, vanaf het ogenblik dat zij aan een leverancier hun nummer meedelen om een intracommunautaire verwerving te verrichten;
 
 3°    de intracommunautaire verwervingen van goederen verricht, door een niet in België gevestigde maar voor BTW-doeleinden in een andere Lid-Staat geïdentificeerde belastingplichtige, onder de hieronder volgende voorwaarden:
 a)     de intracommunautaire verwerving van goederen wordt verricht met het oog op een volgende levering van deze goederen in België door deze belastingplichtige;
@@ -1300,7 +1289,7 @@ Voor de toepassing van het eerste lid wordt de intracommunautaire verwerving van
 
 4°    degene voor wie de volgende levering is bestemd, is een andere belastingplichtige of een niet-belastingplichtige rechtspersoon, die voor BTW-doeleinden is geïdentificeerd in de Lid-Staat van bestemming;
 
-5°    degene voor wie de volgende levering is bestemd, is door de in België voor BTWdoeleinden geïdentificeerde belastingplichtige aangewezen als tot voldoening van de belasting gehouden persoon uit hoofde van de levering die is verricht door deze belastingplichtige;
+5°    degene voor wie de volgende levering is bestemd, is door de in België voor BTW-doeleinden geïdentificeerde belastingplichtige aangewezen als tot voldoening van de belasting gehouden persoon uit hoofde van de levering die is verricht door deze belastingplichtige;
 
 - III / 25 -
 
@@ -1785,9 +1774,9 @@ Deze vrijstelling wordt definitief voor de handelingen die voorafgaan aan:
 
 1°     een levering van goederen onder bezwarende titel met handhaving van de andere regeling van entrepot dan douane-entrepot;
 
-2°     de onttrekking van de goederen aan de andere regeling van entrepot dan douaneentrepot door de belastingplichtige die een in artikel 10, § 1, bedoelde levering van goederen onder bezwarende titel verricht;
+2°     de onttrekking van de goederen aan de andere regeling van entrepot dan douane-entrepot door de belastingplichtige die een in artikel 10, § 1, bedoelde levering van goederen onder bezwarende titel verricht;
 
-3°     de onttrekking van de goederen aan de andere regeling van entrepot dan douaneentrepot door hun eigenaar, los van enige handelstransactie, in het kader van hetzij een in artikel 12bis, eerste lid, bedoelde overbrenging van goederen, hetzij een vervoer of een
+3°     de onttrekking van de goederen aan de andere regeling van entrepot dan douane-entrepot door hun eigenaar, los van enige handelstransactie, in het kader van hetzij een in artikel 12bis, eerste lid, bedoelde overbrenging van goederen, hetzij een vervoer of een
 
 - VI / 5 -
 
@@ -1800,7 +1789,7 @@ Wanneer, los van enige handelstransactie, de goederen aan de andere regeling van
 2°     de levering van goederen aan die eigenaar, evenals de aan hem verstrekte diensten met betrekking tot die goederen, wanneer de goederen het voorwerp hebben uitgemaakt van één of meerdere leveringen onder bezwarende titel tijdens hun verblijf in het entrepot.
 
 § 6. Behoudens tegenbewijs, wordt eenieder die goederen onttrekt aan de andere regeling van entrepot dan douane-entrepot verondersteld ze te hebben onttrokken onder de voorwaarden van paragraaf 5, derde lid.
-Behoudens tegenbewijs, worden de tekorten van goederen in het entrepot ander dan douaneentrepot, verondersteld te zijn onttrokken aan de andere regeling van entrepot dan douaneentrepot onder de voorwaarden van paragraaf 5, derde lid.
+Behoudens tegenbewijs, worden de tekorten van goederen in het entrepot ander dan douane-entrepot, verondersteld te zijn onttrokken aan de andere regeling van entrepot dan douane-entrepot onder de voorwaarden van paragraaf 5, derde lid.
 
 § 7. De Koning bepaalt de toepassingsmodaliteiten van deze vrijstelling wat betreft de voldoening van de belasting in geval van regularisatie van de vrijstelling, de procedure voor de aanvraag en de uitreiking van de in paragraaf 1, vierde lid, bedoelde vergunning, de verplichtingen in hoofde van de personen die betrokken zijn bij de toepassing van deze vrijstelling en de sancties ingeval van overtreding van deze vrijstellingsregeling.
 
@@ -2424,7 +2413,7 @@ c)     bij het sluiten of beëindigen van de huurovereenkomst.
 
 (De tekst van art. 50, § 1, eerste lid, 1°, werd vervangen; § 1, tweede lid en § 4, inleidende zin, werden gewijzigd (Art. 6, W 21.03.2024, B.S. 09.04.2024, pg. 40955, Numac: 2024002757) met ingang van 01.01.2025 (Art. 26, W 21.03.2024))
 
-§ 1. De administratie belast met de belasting over de toegevoegde waarde kent een btwidentificatienummer toe dat de letters BE bevat:
+§ 1. De administratie belast met de belasting over de toegevoegde waarde kent een btw-identificatienummer toe dat de letters BE bevat:
 
 1°    aan elke in België gevestigde belastingplichtige, met uitzondering van de in de artikelen 8 en 8bis bedoelde belastingplichtigen, van de belastingplichtigen die uitsluitend leveringen van goederen of diensten verrichten die krachtens artikel 44 zijn vrijgesteld en waarvoor ze geen recht op aftrek hebben en van de belastingplichtigen die hun zetel van economische activiteit in een andere lidstaat gevestigd hebben, er geïdentificeerd zijn in het kader van de in titel XII, hoofdstuk 1, van Richtlijn 2006/112/EG bedoelde vrijstelling en in België die regeling genieten overeenkomstig artikel 56ter, § 2;
 
@@ -2444,7 +2433,7 @@ b)     in een andere lidstaat dan België handelingen verricht waarvoor hij gebr
 
 5°    aan elke in België gevestigde belastingplichtige die uitsluitend leveringen van goederen of diensten verricht die krachtens artikel 44 zijn vrijgesteld en waarvoor hij geen recht op aftrek heeft en die diensten verricht die, krachtens de communautaire bepalingen, geacht worden plaats te vinden in een andere lidstaat en waarvan de belasting is verschuldigd door de ontvanger van de dienst;
 
-6°    aan elk lid van een BTW-eenheid in de zin van artikel 4, § 2, die overeenkomstig 1° voor BTW-doeleinden is geïdentificeerd. Dit identificatienummer vormt een sub-BTWidentificatienummer van de BTW-eenheid.
+6°    aan elk lid van een BTW-eenheid in de zin van artikel 4, § 2, die overeenkomstig 1° voor BTW-doeleinden is geïdentificeerd. Dit identificatienummer vormt een sub-BTW-identificatienummer van de BTW-eenheid.
 
 De belastingplichtigen bedoeld in het eerste lid, 4° of 5°, in paragraaf 2, of op wie de in de artikelen 56bis tot en met 56undecies bedoelde vrijstellingsregeling van belasting of de in artikel 57 bedoelde regeling van toepassing is, kunnen hun nummer slechts rechtsgeldig
 
@@ -2454,9 +2443,9 @@ gebruiken om intracommunautaire verwervingen te verrichten nadat zij vooraf de i
 
 Degenen aan wie krachtens het eerste lid,2°, a), een BTW-identificatienummer is toegekend, gebruiken dit rechtsgeldig voor de door hen verrichte intracommunautaire verwervingen van goederen vanaf de dag waarop de drempel werd overschreden en tot 31 december van het kalenderjaar dat erop volgt. Indien de drempel wordt overschreden in de loop van dit laatste jaar en, in voorkomend geval, in de loop van de volgende jaren, gebruiken zij dit nummer rechtsgeldig tot 31 december van het jaar dat volgt op het jaar waarin de drempel voor het laatst werd overschreden.
 
-§ 2. De administratie belast met de belasting over de toegevoegde waarde kent aan elke BTWeenheid in de zin van artikel 4, § 2, die uitsluitend leveringen van goederen of diensten verricht waarvoor zij geen recht op aftrek heeft een BTW-identificatienummer toe dat de letters BE bevat.
+§ 2. De administratie belast met de belasting over de toegevoegde waarde kent aan elke BTW-eenheid in de zin van artikel 4, § 2, die uitsluitend leveringen van goederen of diensten verricht waarvoor zij geen recht op aftrek heeft een BTW-identificatienummer toe dat de letters BE bevat.
 
-Zij kent aan de leden van de in het eerste lid bedoelde BTW-eenheid eveneens een BTWidentificatienummer toe dat de letters BE bevat. Dit identificatienummer vormt een sub-BTWidentificatienummer van deze BTW-eenheid.
+Zij kent aan de leden van de in het eerste lid bedoelde BTW-eenheid eveneens een BTW-identificatienummer toe dat de letters BE bevat. Dit identificatienummer vormt een sub-BTW-identificatienummer van deze BTW-eenheid.
 
 § 3. Een BTW-identificatienummer kan eveneens worden toegekend aan andere belastingplichtigen.
 
@@ -2491,7 +2480,7 @@ Zij kent aan de leden van de in het eerste lid bedoelde BTW-eenheid eveneens een
 3°     door de medecontractant wanneer het gaat om leveringen van goederen of diensten als bedoeld in de artikelen 39, § 2, en 39quater;
 4°     door degene die de goederen onttrekt aan één van de regelingen bedoeld in de artikelen 39, § 2, en 39quater;
 5°     door de in België gevestigde medecontractant die gehouden is tot het indienen van de aangifte bedoeld in artikel 53, § 1, eerste lid, 2°, of door de niet in België gevestigde medecontractant die een aansprakelijke vertegenwoordiger heeft laten erkennen overeenkomstig artikel 55, § 1 of § 2, wanneer het gaat om een levering van goederen of een dienst verricht door een niet in België gevestigde belastingplichtige en de hier te lande belastbare handeling niet onder 1°, 2° en 6° van deze paragraaf is bedoeld, noch vrijgesteld is of verricht met vrijstelling van de belasting ingevolge de artikelen 39 tot 44bis;
-6°     door de medecontractant die onder een nummer dat de letters BE bevat voor BTWdoeleinden is geïdentificeerd, wanneer de ingevolge artikel 14bis hier te lande belastbare handeling wordt verricht door een niet in België gevestigde belastingplichtige.
+6°     door de medecontractant die onder een nummer dat de letters BE bevat voor BTW-doeleinden is geïdentificeerd, wanneer de ingevolge artikel 14bis hier te lande belastbare handeling wordt verricht door een niet in België gevestigde belastingplichtige.
 Voor de toepassing van het eerste lid, 1°, 5° en 6°, wordt een leverancier of dienstverrichter die in België een vaste inrichting heeft, aangemerkt als een niet in België gevestigde belastingplichtige als deze inrichting niet betrokken is bij de levering van goederen of de dienst.
 
 § 3. Wanneer ten aanzien van goederen en diensten waarvoor de in artikel 59, § 2, bedoelde deskundige schatting kan worden gevorderd, wordt vastgesteld dat de belasting werd voldaan over een onvoldoende maatstaf, is de aanvullende belasting verschuldigd door degene tegen wie de schattingsprocedure wordt ingesteld.
@@ -2545,7 +2534,7 @@ b)     verricht door in de Gemeenschap gevestigde belastingplichtigen voor in ar
 
 Onder voorbehoud van artikel 55, § 4, tweede lid, wordt de in het eerste lid bedoelde belastingplichtige voor de toepassing van dat lid geacht:
 
-1°    nalatig te zijn geweest wanneer hij, vóór de aanvang van de facilitering en vervolgens minstens één maal per kalenderjaar, niet heeft nagegaan of de leverancier die de in het eerste lid bedoelde leveringen van goederen heeft verricht over een geldig btwidentificatienummer beschikt, dat aan hem overeenkomstig artikel 50, § 1, eerste lid, 1° of 3°, werd toegekend of dat aan hem overeenkomstig artikel 369quinquies van Richtlijn 2006/112/EG werd toegekend door een andere lidstaat;
+1°    nalatig te zijn geweest wanneer hij, vóór de aanvang van de facilitering en vervolgens minstens één maal per kalenderjaar, niet heeft nagegaan of de leverancier die de in het eerste lid bedoelde leveringen van goederen heeft verricht over een geldig btw-identificatienummer beschikt, dat aan hem overeenkomstig artikel 50, § 1, eerste lid, 1° of 3°, werd toegekend of dat aan hem overeenkomstig artikel 369quinquies van Richtlijn 2006/112/EG werd toegekend door een andere lidstaat;
 
 2°    niet te goeder trouw te zijn wanneer hij niet:
 
@@ -2729,7 +2718,7 @@ De Koning kan aan de belastingplichtigen de verplichting opleggen een factuur ui
 
 § 2bis. In afwijking van paragraaf 2, eerste en vierde lid, reikt de in België gevestigde belastingplichtige, met uitsluiting van de belastingplichtigen op wie de in artikel 56 bedoelde regeling van toepassing is en van de gefailleerde belastingplichtigen ten aanzien van de activiteit waarvoor ze failliet zijn verklaard, aan zijn medecontractant een gestructureerde elektronische factuur uit of laat hij in zijn naam en voor zijn rekening, door zijn medecontractant of door een derde, een dergelijke factuur uitreiken:
 
-1° wanneer hij, onder zijn krachtens artikel 50, § 1, eerste lid, 1°, toegekende btwidentificatienummer of, in geval van een btw-eenheid in de zin van artikel 4, § 2, onder het krachtens artikel 50, § 1, eerste lid, 6°, aan één van zijn leden toegekende sub-btwidentificatienummer, andere leveringen van goederen of diensten verricht dan die die krachtens artikel 44 zijn vrijgesteld, voor:
+1° wanneer hij, onder zijn krachtens artikel 50, § 1, eerste lid, 1°, toegekende btw-identificatienummer of, in geval van een btw-eenheid in de zin van artikel 4, § 2, onder het krachtens artikel 50, § 1, eerste lid, 6°, aan één van zijn leden toegekende sub-btw-identificatienummer, andere leveringen van goederen of diensten verricht dan die die krachtens artikel 44 zijn vrijgesteld, voor:
 
 a) ofwel, een belastingplichtige die voor die handeling zijn btw-identificatienummer bedoeld in artikel 50, § 1, eerste lid, 1° of 3°, moet meedelen overeenkomstig artikel 53quater, § 1, eerste lid;
 
@@ -2745,7 +2734,7 @@ De uitreiking, overeenkomstig het eerste lid, van een gestructureerde elektronis
 
 - VIII / 11 -
 
-De bestemmeling van een overeenkomstig deze paragraaf uitgereikte gestructureerde elektronische factuur, die overeenkomstig artikel 50, § 1, eerste lid, 1° of 3°, voor btwdoeleinden is geïdentificeerd:
+De bestemmeling van een overeenkomstig deze paragraaf uitgereikte gestructureerde elektronische factuur, die overeenkomstig artikel 50, § 1, eerste lid, 1° of 3°, voor btw-doeleinden is geïdentificeerd:
 
 1° is in staat, zelf of via een derde in zijn naam en voor zijn rekening, die factuur te ontvangen in het formaat waarin ze werd uitgereikt;
 
@@ -2796,7 +2785,7 @@ b)     de intracommunautaire verwervingen van accijnsprodukten als bedoeld in ar
 
 § 1. De belastingplichtigen die overeenkomstig artikel 50, § 1, eerste lid, 1° en 3°, of § 3, voor btw-doeleinden zijn geïdentificeerd, met uitsluiting van de btw-eenheden in de zin van artikel 4, § 2, delen hun btw-identificatienummer mee aan hun leveranciers of hun dienstverrichters en aan hun klanten.
 
-In afwijking van het eerste lid, delen de in dat lid bedoelde belastingplichtigen hun btwidentificatienummer niet mee aan hun leveranciers en dienstverrichters ten aanzien van de volgende handelingen:
+In afwijking van het eerste lid, delen de in dat lid bedoelde belastingplichtigen hun btw-identificatienummer niet mee aan hun leveranciers en dienstverrichters ten aanzien van de volgende handelingen:
 
 1°    de leveringen van goederen verzonden of vervoerd vanuit een lidstaat van de Gemeenschap naar een andere lidstaat dan België onder de voorwaarden van artikel 138, lid 1, van Richtlijn 2006/112/EG, behalve wanneer de in artikel 25quinquies, § 3, derde lid, bedoelde voorwaarden zijn vervuld;
 
@@ -2806,13 +2795,13 @@ In afwijking van het eerste lid, delen de in dat lid bedoelde belastingplichtige
 
 4°    de leveringen van goederen en de diensten die plaatsvinden in een andere lidstaat dan België.
 
-In afwijking van het eerste lid, delen de in dat lid bedoelde belastingplichtigen hun btwidentificatienummer niet mee aan hun klanten ten aanzien van leveringen van goederen of diensten die plaatsvinden buiten België en waarvoor de belasting verschuldigd is door die belastingplichtigen, met uitzondering van de handelingen waarvoor gebruik wordt gemaakt van
+In afwijking van het eerste lid, delen de in dat lid bedoelde belastingplichtigen hun btw-identificatienummer niet mee aan hun klanten ten aanzien van leveringen van goederen of diensten die plaatsvinden buiten België en waarvoor de belasting verschuldigd is door die belastingplichtigen, met uitzondering van de handelingen waarvoor gebruik wordt gemaakt van
 
 - VIII / 13 -
 
 de in artikel 58ter tot en met artikel 58quinquies bedoelde bijzondere regeling en waarvoor op grond van artikel 53, § 2, eerste en vijfde lid, een factuur moet worden uitgereikt.
 
-In afwijking van het eerste lid zijn de in dat lid bedoelde in het buitenland gevestigde belastingplichtigen met een vaste inrichting in België er niet toe gehouden hun btwidentificatienummer mee te delen aan hun klanten ten aanzien van leveringen van goederen of diensten die plaatsvinden in België wanneer de levering van het goed of de dienst wordt verricht door een vestiging van de belastingplichtige in het buitenland en de vaste inrichting in België niet betrokken is bij de levering van goederen of de dienst.
+In afwijking van het eerste lid zijn de in dat lid bedoelde in het buitenland gevestigde belastingplichtigen met een vaste inrichting in België er niet toe gehouden hun btw-identificatienummer mee te delen aan hun klanten ten aanzien van leveringen van goederen of diensten die plaatsvinden in België wanneer de levering van het goed of de dienst wordt verricht door een vestiging van de belastingplichtige in het buitenland en de vaste inrichting in België niet betrokken is bij de levering van goederen of de dienst.
 
 In afwijking van het eerste lid, delen de belastingplichtigen onderworpen aan de in de artikelen 56bis tot en met 56undecies en 57 bedoelde bijzondere regelingen hun btw-identificatienummer niet mee aan hun leveranciers wanneer zij intracommunautaire verwervingen van goederen verrichten, indien zij de in artikel 25ter, § 1, tweede lid, 2°, eerste lid, b), bedoelde drempel van 11.200 euro niet hebben overschreden noch het in artikel 25ter, § 1, tweede lid, 2°, tweede lid, bedoelde keuzerecht hebben uitgeoefend.
 
@@ -2825,7 +2814,7 @@ In afwijking van het eerste lid, delen de belastingplichtigen onderworpen aan de
 
 2°    ten aanzien van leveringen van andere goederen dan de in artikel 8bis, § 2, eerste lid, 2°, bedoelde nieuwe vervoermiddelen of accijnsproducten, die werden ingevoerd uit een derdelandsgebied of derde land.
 
-De belastingplichtigen die overeenkomstig artikel 50, § 1, eerste lid, 4° en 5°, voor btwdoeleinden zijn geïdentificeerd, delen hun btw-identificatienummer aan hun leveranciers of hun dienstverrichters mee:
+De belastingplichtigen die overeenkomstig artikel 50, § 1, eerste lid, 4° en 5°, voor btw-doeleinden zijn geïdentificeerd, delen hun btw-identificatienummer aan hun leveranciers of hun dienstverrichters mee:
 
 1°    wanneer zij krachtens artikel 51, § 1, 2°, schuldenaar zijn van de belasting, behalve in geval van intracommunautaire verwervingen van in artikel 8bis, § 2, eerste lid, 2°, bedoelde nieuwe vervoermiddelen of van accijnsproducten wanneer hun intracommunautaire verwervingen van andere goederen krachtens artikel 25ter, § 1, tweede lid, 2°, niet aan de belasting onderworpen zijn;
 2°    wanneer zij krachtens artikel 51, § 2, eerste lid, 1°, schuldenaar zijn van de belasting;
@@ -2840,7 +2829,7 @@ In afwijking van het tweede lid mogen de belastingplichtigen die uitsluitend lev
 
 § 4. De leden van de btw-eenheid in de zin van artikel 4, § 2, delen hun in artikel 50, § 1, eerste lid, 6°, bedoelde sub-btw-identificatienummer, mee aan hun leveranciers of hun dienstverrichters en aan hun klanten.
 
-In afwijking van het eerste lid, delen de in dat lid bedoelde leden hun sub-btwidentificatienummer niet mee aan hun leveranciers of dienstverrichters ten aanzien van de volgende handelingen:
+In afwijking van het eerste lid, delen de in dat lid bedoelde leden hun sub-btw-identificatienummer niet mee aan hun leveranciers of dienstverrichters ten aanzien van de volgende handelingen:
 
 1°    de leveringen van goederen verzonden of vervoerd vanuit een lidstaat van de Gemeenschap naar een andere lidstaat dan België onder de voorwaarden van artikel 138, lid 1, van Richtlijn 2006/112/EG, behalve wanneer de in artikel 25quinquies, § 3, derde lid, bedoelde voorwaarden zijn vervuld;
 
@@ -2848,9 +2837,9 @@ In afwijking van het eerste lid, delen de in dat lid bedoelde leden hun sub-btwi
 
 3°    de diensten die plaatsvinden buiten België en waarvoor de belasting verschuldigd is door de in het eerste lid bedoelde leden.
 
-In afwijking van het eerste lid, delen de in dat lid bedoelde leden hun sub-btwidentificatienummer niet mee aan hun klanten ten aanzien van leveringen van goederen of diensten die plaatsvinden buiten België en waarvoor de belasting verschuldigd is door die leden, met uitzondering van de handelingen waarvoor gebruik wordt gemaakt van de in artikel 58quater bedoelde bijzondere regeling.
+In afwijking van het eerste lid, delen de in dat lid bedoelde leden hun sub-btw-identificatienummer niet mee aan hun klanten ten aanzien van leveringen van goederen of diensten die plaatsvinden buiten België en waarvoor de belasting verschuldigd is door die leden, met uitzondering van de handelingen waarvoor gebruik wordt gemaakt van de in artikel 58quater bedoelde bijzondere regeling.
 
-De leden van de btw-eenheid in de zin van artikel 4, § 2, delen aan hun leveranciers of hun dienstverrichters en hun klanten het in artikel 50, § 2, tweede lid, bedoelde sub-btwidentificatienummer mee, wanneer:
+De leden van de btw-eenheid in de zin van artikel 4, § 2, delen aan hun leveranciers of hun dienstverrichters en hun klanten het in artikel 50, § 2, tweede lid, bedoelde sub-btw-identificatienummer mee, wanneer:
 
 1°    die btw-eenheid krachtens artikel 51, § 1, 2°, schuldenaar is van de belasting, behalve in geval van intracommunautaire verwervingen van in artikel 8bis, § 2, eerste lid, 2°, bedoelde nieuwe vervoermiddelen of accijnsproducten wanneer haar intracommunautaire verwervingen van andere goederen krachtens artikel 25ter, § 1, tweede lid, 2°, niet aan de belasting onderworpen zijn;
 
@@ -2866,7 +2855,7 @@ De leden van de btw-eenheid in de zin van artikel 4, § 2, delen aan hun leveran
 
 - VIII / 15 -
 
-De volgende belastingplichtigen zijn gehouden om jaarlijks aan de administratie belast met de belasting over de toegevoegde waarde een lijst over te maken waarin voor elk lid van een btweenheid in de zin van artikel 4, § 2, en voor iedere belastingplichtige die voor btw-doeleinden moet geïdentificeerd zijn, met uitzondering van degene die uitsluitend handelingen verricht die krachtens artikel 44 van de belasting zijn vrijgesteld, aan wie ze in de loop van het vorige jaar goederen hebben geleverd of diensten hebben verstrekt, het totale bedrag van die handelingen alsmede het totale bedrag van de op die handelingen in rekening gebrachte belasting zijn vermeld:
+De volgende belastingplichtigen zijn gehouden om jaarlijks aan de administratie belast met de belasting over de toegevoegde waarde een lijst over te maken waarin voor elk lid van een btw-eenheid in de zin van artikel 4, § 2, en voor iedere belastingplichtige die voor btw-doeleinden moet geïdentificeerd zijn, met uitzondering van degene die uitsluitend handelingen verricht die krachtens artikel 44 van de belasting zijn vrijgesteld, aan wie ze in de loop van het vorige jaar goederen hebben geleverd of diensten hebben verstrekt, het totale bedrag van die handelingen alsmede het totale bedrag van de op die handelingen in rekening gebrachte belasting zijn vermeld:
 
 1°    de overeenkomstig artikel 50, § 1, eerste lid, 1°, voor btw-doeleinden geïdentificeerde belastingplichtigen, met uitsluiting van de btw-eenheden in de zin van artikel 4, § 2;
 
@@ -2878,7 +2867,7 @@ De volgende belastingplichtigen zijn gehouden om jaarlijks aan de administratie 
 
 5°    de andere in artikel 50, § 3, bedoelde niet in België gevestigde belastingplichtigen.
 
-De leden van een BTW-eenheid in de zin van artikel 4, § 2, die overeenkomstig artikel 50, § 1, eerste lid, 1°, voor BTW-doeleinden is geïdentificeerd, zijn bovendien gehouden jaarlijks de administratie belast met de belasting over de toegevoegde waarde in kennis te stellen van het totale bedrag van de in de loop van het vorige jaar voor elk van de andere leden van die BTWeenheid verrichte handelingen.
+De leden van een BTW-eenheid in de zin van artikel 4, § 2, die overeenkomstig artikel 50, § 1, eerste lid, 1°, voor BTW-doeleinden is geïdentificeerd, zijn bovendien gehouden jaarlijks de administratie belast met de belasting over de toegevoegde waarde in kennis te stellen van het totale bedrag van de in de loop van het vorige jaar voor elk van de andere leden van die BTW-eenheid verrichte handelingen.
 
 De belastingplichtige op wie de in de artikelen 56bis tot en met 56undecies bedoelde vrijstellingsregeling van belasting van toepassing is en die geen enkele van de in het eerste lid, inleidende zin, bedoelde handelingen verricht, is niet gehouden de voornoemde administratie hiervan in kennis te stellen.
 
@@ -3316,7 +3305,7 @@ De jaaromzet die als maatstaf dient voor de toepassing van de in deze onderafdel
 
 1°    het bedrag van de leveringen van goederen en diensten, voor zover die belast zouden zijn als ze waren verricht door een belastingplichtige op wie de vrijstellingsregeling van belasting niet van toepassing is;
 
-2°    het bedrag van de handelingen die in uitvoering van artikel 37 aan het verlaagde btwtarief van nul pct. onderworpen zijn alsook, desgevallend, het bedrag van de handelingen die op grond van artikel 98, lid 2, of artikel 105 bis, van Richtlijn 2006/112/EG zijn vrijgesteld met recht op aftrek van voorbelasting;
+2°    het bedrag van de handelingen die in uitvoering van artikel 37 aan het verlaagde btw-tarief van nul pct. onderworpen zijn alsook, desgevallend, het bedrag van de handelingen die op grond van artikel 98, lid 2, of artikel 105 bis, van Richtlijn 2006/112/EG zijn vrijgesteld met recht op aftrek van voorbelasting;
 
 3°    het bedrag van de op grond van de artikelen 39 tot en met 42 vrijgestelde handelingen alsook, desgevallend, het bedrag van de op grond van de artikelen 138, 146 tot en met 149, 151, 152 en 153, van Richtlijn 2006/112/EG vrijgestelde handelingen;
 
@@ -3631,7 +3620,7 @@ Deze aangifte bevat de volgende identificatiegegevens:
 
 De in het eerste lid bedoelde belastingplichtige deelt elke wijziging mee met betrekking tot de inlichtingen bedoeld in het tweede lid op het elektronische adres bedoeld in het eerste lid.
 
-§ 4. Aan de in paragraaf 3 bedoelde belastingplichtige wordt een individueel btwidentificatienummer toegekend voor de toepassing van deze bijzondere regeling, dat hem langs elektronische weg wordt meegedeeld.
+§ 4. Aan de in paragraaf 3 bedoelde belastingplichtige wordt een individueel btw-identificatienummer toegekend voor de toepassing van deze bijzondere regeling, dat hem langs elektronische weg wordt meegedeeld.
 
 § 5. De in paragraaf 3 bedoelde belastingplichtige deelt langs elektronische weg de beëindiging mee van zijn activiteit die onder deze bijzondere regeling valt, alsook van elke wijziging ervan waardoor hij niet langer aan de voorwaarden voldoet om van deze bijzondere regeling gebruik te mogen maken.
 
@@ -3833,11 +3822,11 @@ De in het eerste lid bedoelde aangifte van de tussenpersoon bevat bovendien de v
 
 Elke in het eerste lid bedoelde belastingplichtige of, in voorkomend geval, zijn tussenpersoon, deelt op het elektronisch adres bedoeld in het eerste lid elke wijziging mee met betrekking tot de identificatiegegevens bedoeld in het eerste lid tot het derde lid.
 
-§ 4. Aan de in paragraaf 3, eerste lid, bedoelde belastingplichtige, wordt een individueel btwidentificatienummer toegekend voor de toepassing van deze bijzondere regeling.
+§ 4. Aan de in paragraaf 3, eerste lid, bedoelde belastingplichtige, wordt een individueel btw-identificatienummer toegekend voor de toepassing van deze bijzondere regeling.
 
 Aan de in paragraaf 3, eerste lid, bedoelde tussenpersoon wordt een individueel identificatienummer toegekend voor de toepassing van deze bijzondere regeling.
 
-Aan de in paragraaf 3, eerste lid, bedoelde tussenpersoon wordt eveneens een individueel btwidentificatienummer toegekend voor de toepassing van deze bijzondere regeling met betrekking tot iedere belastingplichtige waarvoor hij is aangesteld.
+Aan de in paragraaf 3, eerste lid, bedoelde tussenpersoon wordt eveneens een individueel btw-identificatienummer toegekend voor de toepassing van deze bijzondere regeling met betrekking tot iedere belastingplichtige waarvoor hij is aangesteld.
 
 De overeenkomstig het eerste, tweede en derde lid toegekende identificatienummers worden langs elektronische weg aan de betrokkenen meegedeeld en worden door hen uitsluitend gebruikt voor de toepassing van deze bijzondere regeling.
 

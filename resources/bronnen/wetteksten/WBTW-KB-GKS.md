@@ -17,30 +17,23 @@ provenance:
       version: '2024'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:14:14Z'
+  generated_at: '2026-05-13T12:24:28Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_at: '2026-05-13T12:28:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "L1 pass: 4 headings, max sectie 2847 chars. Kleine KB correct verwerkt met ## Art. headings. 'TOEKOMSTIG RECHT.' marker is bron-stijl. Inhoud volledig."
+    rationale: 'Kort bestand (4 artikelen + Art. 2bis, Art. 3, Art. 4). Laag-1 pass, geen flags. Body is clean: geen form-feed, geen pseudo-tabellen, geen OCR-fouten. Amendement-markers [1 … ]1, [2 … ]2, [3 … ]3 correct gesloten. Art. 1 heeft een opvallende structuur (de inhoud staat feitelijk in de buurt van de inleiding vóór ## Art. 2), maar dit is een eigenaardigheid van de wettekst zelf (TOEKOMSTIG RECHT-blok met verwijzing naar eerdere versie) en geen ETL-artefact.'
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:39Z'
-      heading_count: 4
-      max_section_chars: 2847
-      file_size_chars: 5654
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
-      rationale: "L1 pass: 4 headings, max sectie 2847 chars. Kleine KB correct verwerkt met ## Art. headings. 'TOEKOMSTIG RECHT.' marker is bron-stijl. Inhoud volledig."
+      run_at: '2026-05-13T12:28:29Z'
+      rationale: 'Kort bestand (4 artikelen + Art. 2bis, Art. 3, Art. 4). Laag-1 pass, geen flags. Body is clean: geen form-feed, geen pseudo-tabellen, geen OCR-fouten. Amendement-markers [1 … ]1, [2 … ]2, [3 … ]3 correct gesloten. Art. 1 heeft een opvallende structuur (de inhoud staat feitelijk in de buurt van de inleiding vóór ## Art. 2), maar dit is een eigenaardigheid van de wettekst zelf (TOEKOMSTIG RECHT-blok met verwijzing naar eerdere versie) en geen ETL-artefact.'
       concrete_problemen: []
 ---
 

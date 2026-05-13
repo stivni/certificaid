@@ -48,9 +48,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:46Z'
+    confirmed_at: '2026-05-13T12:28:35Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (12 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: Na re-scrape met scraper-fixes is het TOC-artefact (A3) dat in de vorige ronde aanwezig was verdwenen. De body begint direct met de titel-heading gevolgd door de inhoudssecties zonder enig plain-text TOC-blok. Structuur correct, tabellen in pipe-format, voetnoten [^1]–[^40] volledig aanwezig. Geen nieuwe ETL-artefacten gevonden in categorieën A–G.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -62,8 +62,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:46Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (12 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:35Z'
+      rationale: Na re-scrape met scraper-fixes is het TOC-artefact (A3) dat in de vorige ronde aanwezig was verdwenen. De body begint direct met de titel-heading gevolgd door de inhoudssecties zonder enig plain-text TOC-blok. Structuur correct, tabellen in pipe-format, voetnoten [^1]–[^40] volledig aanwezig. Geen nieuwe ETL-artefacten gevonden in categorieën A–G.
       concrete_problemen: []
 ---
 # CBN-advies 2018/23 - Begin van het boekjaar

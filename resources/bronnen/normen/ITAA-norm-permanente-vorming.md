@@ -34,10 +34,10 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-13T00:12:30Z'
+    status: needs-rework
+    confirmed_at: '2026-05-13T12:26:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Laag-1 pass zonder flags. Norm permanente vorming (15 artikelen + 2 bijlagen, 29729 chars): artikelen correct als ## headings. Inhoud volledig — definities, rechtsgrond, uren (Art. 3-7), verslag (Art. 8-9), begeleiding (Art. 10), sanctie (Art. 11-13), overgang (Art. 14-15), bijlagen 1-2. Herhaald 'goedgekeurd door de raad van 1 december 2020' als plain text (r55, r114, r173, etc.) — dit is een bron-artefact van de PDF maar het is consistent en storend niet voor RAG."
+    rationale: "A1: pagina-headers/footers door de body: paginanummers '1' (regel 54) en '2' (regel 60) + copyright-footers '© ITAA – Norm permanente vorming...' (regels 56, 62) als standalone regels midden in het document vóór de echte body. Dit zijn PDF-pagina-resten die niet gefilterd zijn. Eigenlijke norm start op regel 64. 15 headings correct."
     layer1:
       status: pass
       run_id: 20260513-000913
@@ -47,15 +47,19 @@ provenance:
       file_size_chars: 29729
       flags: []
     layer2:
-      status: trusted
+      status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T00:12:30Z'
-      rationale: "Laag-1 pass zonder flags. Norm permanente vorming (15 artikelen + 2 bijlagen, 29729 chars): artikelen correct als ## headings. Inhoud volledig — definities, rechtsgrond, uren (Art. 3-7), verslag (Art. 8-9), begeleiding (Art. 10), sanctie (Art. 11-13), overgang (Art. 14-15), bijlagen 1-2. Herhaald 'goedgekeurd door de raad van 1 december 2020' als plain text (r55, r114, r173, etc.) — dit is een bron-artefact van de PDF maar het is consistent en storend niet voor RAG."
+      run_at: '2026-05-13T12:26:25Z'
+      rationale: "A1: pagina-headers/footers door de body: paginanummers '1' (regel 54) en '2' (regel 60) + copyright-footers '© ITAA – Norm permanente vorming...' (regels 56, 62) als standalone regels midden in het document vóór de echte body. Dit zijn PDF-pagina-resten die niet gefilterd zijn. Eigenlijke norm start op regel 64. 15 headings correct."
       concrete_problemen:
-        - regel: 55
+        - regel: 54
           categorie: A1
-          type: other
-          voorbeeld: goedgekeurd door de raad van 1 december 2020. (herhaald als footer-artefact op 8 plaatsen)
+          type: form-feed
+          voorbeeld: 1\n© ITAA – Norm permanente vorming... (pagina-resten vóór body)
+        - regel: 60
+          categorie: A1
+          type: form-feed
+          voorbeeld: 2\n© ITAA – Norm permanente vorming... (tweede pagina-rest)
 ---
       Norm met betrekking tot
       de permanente vorming goedgekeurd door de Raad van 1 december 2020.

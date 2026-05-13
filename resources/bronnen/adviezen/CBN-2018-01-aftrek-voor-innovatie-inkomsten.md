@@ -46,9 +46,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:46Z'
+    confirmed_at: '2026-05-13T12:28:27Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (15 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: '14 headings correct gestructureerd met drie niveaus (##, ###, ####). Volledige inhoud in drie hoofddelen (overzicht, boekhoudkundige verwerking, fiscale documentatie). Italic-markeringen voor accountingsrekeningen correct gesloten. Alle 34 voetnoten aanwezig en correct gedefinieerd. Geen PDF-artefacten aangetroffen.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -60,8 +60,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:46Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (15 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:27Z'
+      rationale: '14 headings correct gestructureerd met drie niveaus (##, ###, ####). Volledige inhoud in drie hoofddelen (overzicht, boekhoudkundige verwerking, fiscale documentatie). Italic-markeringen voor accountingsrekeningen correct gesloten. Alle 34 voetnoten aanwezig en correct gedefinieerd. Geen PDF-artefacten aangetroffen.'
       concrete_problemen: []
 ---
 # CBN-advies 2018/01 – Aftrek voor innovatie-inkomsten

@@ -22,7 +22,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_at: '2026-05-13T12:28:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Eerder beoordeeld als trusted door subagent-sonnet-4-6: 135 headings, max sectie 2386 chars. Compilatiebestand correct verwerkt.'
     layer1:
@@ -36,7 +36,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:16Z'
+      run_at: '2026-05-13T12:28:19Z'
       rationale: 'Eerder beoordeeld als trusted door subagent-sonnet-4-6: 135 headings, max sectie 2386 chars. Compilatiebestand correct verwerkt.'
       concrete_problemen: []
 status: beschikbaar

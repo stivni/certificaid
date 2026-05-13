@@ -26,9 +26,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:28:35Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Vorig verdict (needs-rework A3) was fout: regel 89 is een echte ## heading 'CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting...' — een afzonderlijk advies dat als sectie in de body staat, niet een duplicate TOC-blob. Document is volledig schoon: 6 correcte headings, alle voetnoten [^1]–[^12] aanwezig en gedefinieerd, geen form-feeds, geen onzichtbare unicode, geen column-bleed."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -40,8 +40,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:35Z'
+      rationale: "Vorig verdict (needs-rework A3) was fout: regel 89 is een echte ## heading 'CBN-advies 2010/1 De interpretatie van de openbaarmakingsverplichting...' — een afzonderlijk advies dat als sectie in de body staat, niet een duplicate TOC-blob. Document is volledig schoon: 6 correcte headings, alle voetnoten [^1]–[^12] aanwezig en gedefinieerd, geen form-feeds, geen onzichtbare unicode, geen column-bleed."
       concrete_problemen: []
 ---
 # CBN-advies 2012/10 - Te verwaarlozen betekenis

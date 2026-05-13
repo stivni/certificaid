@@ -33,9 +33,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:28:26Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (47 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Structuur en tabellen zijn overwegend correct voor dit omvangrijke advies (47k chars, 44 headings). De drie gevonden tekstuele afwijkingen zijn source-typo's: 'effectenverordening' (2x) en 'mogeljkheid' zijn schrijffouten die al in de gepubliceerde HTML-brontekst staan; '16.13.199n' is eveneens een typefout in het originele document. Geen ETL-artefacten (A-G) gevonden die reparatie vereisen."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -47,9 +47,25 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (47 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:26Z'
+      rationale: "Structuur en tabellen zijn overwegend correct voor dit omvangrijke advies (47k chars, 44 headings). De drie gevonden tekstuele afwijkingen zijn source-typo's: 'effectenverordening' (2x) en 'mogeljkheid' zijn schrijffouten die al in de gepubliceerde HTML-brontekst staan; '16.13.199n' is eveneens een typefout in het originele document. Geen ETL-artefacten (A-G) gevonden die reparatie vereisen."
+      concrete_problemen:
+        - regel: 237
+          categorie: (source)
+          type: source-typo
+          voorbeeld: Geleende vastrentende effecten A, "effectenverordening" (ipv effectenvordering)
+        - regel: 304
+          categorie: (source)
+          type: source-typo
+          voorbeeld: Geleende vastrentende effecten A, effectenverordening (tweede voorkomen)
+        - regel: 338
+          categorie: (source)
+          type: source-typo
+          voorbeeld: 'Op 16.13.199n (onmogelijke datum: maand 13)'
+        - regel: 592
+          categorie: (source)
+          type: source-typo
+          voorbeeld: '"mogeljkheid" (ipv mogelijkheid)'
 ---
 # CBN-advies 169/1 - Verwerking van leningen en ontleningen van effecten in de jaarrekening van ondernemingen
 

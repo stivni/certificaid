@@ -32,9 +32,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_at: '2026-05-13T12:28:28Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (1910 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    rationale: Vorige L2 flagde D4 broken italic op regels 53 en 57 ('*Bull. CBN *nr.'), maar de werkelijke body toont '*Bull. CBN*' correct gesloten op regels 61 en 65 — scraper-fix D4 heeft gewerkt. Body is kort (1910 chars), drie alinea's, voetnoot [^1] correct. Geen extractie-artefacten.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -46,8 +46,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
-      rationale: 'Kort advies (1910 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+      run_at: '2026-05-13T12:28:28Z'
+      rationale: Vorige L2 flagde D4 broken italic op regels 53 en 57 ('*Bull. CBN *nr.'), maar de werkelijke body toont '*Bull. CBN*' correct gesloten op regels 61 en 65 — scraper-fix D4 heeft gewerkt. Body is kort (1910 chars), drie alinea's, voetnoot [^1] correct. Geen extractie-artefacten.
       concrete_problemen: []
 ---
 # CBN-advies 120/6 - Boeking van het financiële bedrijf van een coördinatiecentrum binnen een groep

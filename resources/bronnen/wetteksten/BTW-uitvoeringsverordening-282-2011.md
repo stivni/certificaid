@@ -17,30 +17,23 @@ provenance:
       version: 23.03.2011
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:15:02Z'
+  generated_at: '2026-05-13T12:25:03Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:14Z'
+    confirmed_at: '2026-05-13T12:28:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'L1 pass: 84 headings, max sectie 17226 chars. Headings als ###### Artikel N, inhoud correct. Concordantietabel onderaan is acceptabel (## Hoofdstuk VIII headings). Geen significante artefacten.'
+    rationale: Geen EUR-Lex markers, geen TOC-fragmenten, geen PB-kopteksten. 84 artikelheadings goed gestructureerd. Structuurlabels (ONDERWERP, TOEPASSINGSGEBIED, BELASTINGPLICHTIGEN) als plain-text tussenkopjes zijn inherent aan de EUR-bron en zijn niet storend voor RAG. Inhoud volledig en leesbaar.
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:37Z'
-      heading_count: 84
-      max_section_chars: 17226
-      file_size_chars: 74977
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:14Z'
-      rationale: 'L1 pass: 84 headings, max sectie 17226 chars. Headings als ###### Artikel N, inhoud correct. Concordantietabel onderaan is acceptabel (## Hoofdstuk VIII headings). Geen significante artefacten.'
+      run_at: '2026-05-13T12:28:25Z'
+      rationale: Geen EUR-Lex markers, geen TOC-fragmenten, geen PB-kopteksten. 84 artikelheadings goed gestructureerd. Structuurlabels (ONDERWERP, TOEPASSINGSGEBIED, BELASTINGPLICHTIGEN) als plain-text tussenkopjes zijn inherent aan de EUR-bron en zijn niet storend voor RAG. Inhoud volledig en leesbaar.
       concrete_problemen: []
 ---
 
@@ -772,7 +765,7 @@ Voor de Raad  De voorzitter
 
 MATOLCSY Gy.
 
-BIJLAGE I
+## Bijlage I
 
 ### Art. 7. van de onderhavige verordening
 
@@ -838,7 +831,7 @@ a) geautomatiseerd afstandsonderwijs dat enkel over het internet of soortgelijke
 
 b) werkboeken die door de leerling online worden ingevuld en automatisch worden gecorrigeerd, zonder menselijk  ingrijpen.
 
-BIJLAGE II
+## Bijlage II
 
 ### Art. 51. van de onderhavige verordening
 
@@ -882,7 +875,7 @@ c) De valuta’s worden aangeduid door middel van een drielettercode die in over
 
 ( 1 ) Ter informatie enige voorbeelden van gangbare valutacodes: EUR (euro), BGN (Bulgaarse lev), CZK (Tsjechische kroon), DKK (Deense  kroon), GBP (Brits pond), HUF (Hongaarse forint), LTL (Litouwse litas), PLN (Poolse zloty), RON (Roemeense leu), SEK(Zweedse kroon),  USD (Amerikaanse dollar).
 
-BIJLAGE III
+## Bijlage III
 
 ### Art. 56. van de onderhavige verordening
 
@@ -900,7 +893,7 @@ Tola (10 tola = 3,75 oz.) ( 2 )  10
 
 ( 1 ) Taël = een traditionele Chinese gewichtseenheid. De nominale zuiverheid van een taëlstaaf bedraagt in Hongkong 990, maar in Taiwan  kunnen staven van 5 en 10 taël een zuiverheid van 999,9 hebben.  ( 2 ) Tola = een traditionele Indiase gewichtseenheid voor goud. In zijn meest gangbare verschijningsvorm heeft een staaf een gewicht van  10 tola en een zuiverheid van 999.
 
-BIJLAGE IV
+## Bijlage IV
 
 Transponeringstabel
 

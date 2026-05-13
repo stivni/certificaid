@@ -41,9 +41,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_at: '2026-05-13T12:28:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Kort advies (609 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+    rationale: 'Geen artefacten gevonden in categorie A-G. Advies is kort maar volledig: één alinea die duidelijk uitlegt waarom de actuariële methode van 139/5 niet geldt en welke alternatieve aanpak (marktvoorwaarden) van toepassing is. Laag-1 pass, heading_count 0 is correct voor een paragraaf-only advies.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -55,8 +55,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
-      rationale: 'Kort advies (609 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
+      run_at: '2026-05-13T12:28:32Z'
+      rationale: 'Geen artefacten gevonden in categorie A-G. Advies is kort maar volledig: één alinea die duidelijk uitlegt waarom de actuariële methode van 139/5 niet geldt en welke alternatieve aanpak (marktvoorwaarden) van toepassing is. Laag-1 pass, heading_count 0 is correct voor een paragraaf-only advies.'
       concrete_problemen: []
 ---
 # CBN-advies 139/6 - Aandelen met warrant

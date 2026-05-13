@@ -31,9 +31,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: Geen artefacten aangetroffen in categorieën A-G. Body is volledig proza zonder headings (correct voor dit korte advies), genummerde lijsten gebruikt correct '1.', '2.', '3.' formaat, voetnoten [^1]–[^3] correct gedefinieerd. Frontmatter themas clean zonder HTML-entiteiten.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -45,8 +45,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:25Z'
+      rationale: Geen artefacten aangetroffen in categorieën A-G. Body is volledig proza zonder headings (correct voor dit korte advies), genummerde lijsten gebruikt correct '1.', '2.', '3.' formaat, voetnoten [^1]–[^3] correct gedefinieerd. Frontmatter themas clean zonder HTML-entiteiten.
       concrete_problemen: []
 ---
 # CBN-advies 110/2 - Stukken die tegelijk met de jaarrekening dienen neergelegd te worden (artikel 80 W. Venn.)

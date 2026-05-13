@@ -34,9 +34,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_at: '2026-05-13T12:28:19Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Laag-1 pass zonder flags. Kleine norm (7 secties, 7565 chars): structuur compleet als ## headings (1 Inleiding t/m 7 Commissie van Toezicht). Geen extractie-artefacten. Opsommingen correct als plain text per Belgische norm-stijl. Inhoud intact en coherent.'
+    rationale: Geen ETL-artefacten. 7 headings correct, inhoud volledig. Opsommingen als plain-text (zonder bullets) zijn conform de bronopmaak van deze beknopte 1991-norm. Geen form-feeds, OCR-fouten of column-bleed.
     layer1:
       status: pass
       run_id: 20260513-000913
@@ -48,8 +48,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T00:12:30Z'
-      rationale: 'Laag-1 pass zonder flags. Kleine norm (7 secties, 7565 chars): structuur compleet als ## headings (1 Inleiding t/m 7 Commissie van Toezicht). Geen extractie-artefacten. Opsommingen correct als plain text per Belgische norm-stijl. Inhoud intact en coherent.'
+      run_at: '2026-05-13T12:28:19Z'
+      rationale: Geen ETL-artefacten. 7 headings correct, inhoud volledig. Opsommingen als plain-text (zonder bullets) zijn conform de bronopmaak van deze beknopte 1991-norm. Geen form-feeds, OCR-fouten of column-bleed.
       concrete_problemen: []
 ---
 # Algemene controlenorm (Besl. Raad d.d. 30 september 1991)

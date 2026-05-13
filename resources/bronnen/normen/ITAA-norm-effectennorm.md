@@ -34,9 +34,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_at: '2026-05-13T12:27:04Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B4: 10 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als standalone heading (r134, r148, r201, r264, etc.) — dit is een artefact van de twee-kolom lay-out van de bron waarbij 'VEREISTEN' en 'TOEPASSINGSMODALITEITEN' de twee kolomkoppen zijn die als heading zijn geëxtraheerd. Ook bevat de inhoudstafel (r119-131) dotted-leader resten. A6: meerdere afgebroken zinnen in de preamble (r54-117) door kolom-extractie. Heading-hiërarchie verder intact voor de genummerde secties."
+    rationale: "Ernstige tweekoloms-extractie-fout door het hele document. Het kernprobleem: vereisten (linkerkolom) en toepassingsmodaliteiten (rechterkolom) zijn niet geïntegreerd maar door elkaar gemengd — telkens wisselen paragrafen met nummers (5., 6., 7., ...) af met A-paragrafen (A3., A4., A5., ...) die op willekeurige plaatsen zijn ingevoegd. De inhoudstafel (regels 192-268) staat als dotted-leader plain-text body midden in het document. Titel (regels 75-83) is gesplitst over 7 alinea's met blanco regels (A7). Toepassingsgebied-paragraaf 1 (regels 271-315) toont ernstige kolom-bleed met A-paragrafen die de lopende tekst doorbreken. Laag 1 meldt 31 TOC-stippenregels."
     layer1:
       status: pass
       run_id: 20260513-000913
@@ -48,21 +48,29 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T00:12:30Z'
-      rationale: "B4: 10 keer '## VEREISTEN TOEPASSINGSMODALITEITEN' als standalone heading (r134, r148, r201, r264, etc.) — dit is een artefact van de twee-kolom lay-out van de bron waarbij 'VEREISTEN' en 'TOEPASSINGSMODALITEITEN' de twee kolomkoppen zijn die als heading zijn geëxtraheerd. Ook bevat de inhoudstafel (r119-131) dotted-leader resten. A6: meerdere afgebroken zinnen in de preamble (r54-117) door kolom-extractie. Heading-hiërarchie verder intact voor de genummerde secties."
+      run_at: '2026-05-13T12:27:04Z'
+      rationale: "Ernstige tweekoloms-extractie-fout door het hele document. Het kernprobleem: vereisten (linkerkolom) en toepassingsmodaliteiten (rechterkolom) zijn niet geïntegreerd maar door elkaar gemengd — telkens wisselen paragrafen met nummers (5., 6., 7., ...) af met A-paragrafen (A3., A4., A5., ...) die op willekeurige plaatsen zijn ingevoegd. De inhoudstafel (regels 192-268) staat als dotted-leader plain-text body midden in het document. Titel (regels 75-83) is gesplitst over 7 alinea's met blanco regels (A7). Toepassingsgebied-paragraaf 1 (regels 271-315) toont ernstige kolom-bleed met A-paragrafen die de lopende tekst doorbreken. Laag 1 meldt 31 TOC-stippenregels."
       concrete_problemen:
-        - regel: 134
-          categorie: B4
-          type: other
-          voorbeeld: '## VEREISTEN TOEPASSINGSMODALITEITEN (kolomkop geëxtraheerd als heading, 10x herhaald)'
-        - regel: 54
-          categorie: A6
-          type: other
-          voorbeeld: BELASTINGADVISEURS EN DE ACCOUNTANTS, Gezien artikel 31... (afgekapte aanhef preamble)
-        - regel: 119
+        - regel: 75
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "Titelpagina gesplitst over 7 alinea's: 'Norm inzake de opdracht van de\\nberoepsbeoefenaar in het kader van de\\nbeoordeling van het getrouw en voldoende\\n\\nzijn van de financiële...'"
+        - regel: 192
           categorie: A2
           type: dotted-leader
-          voorbeeld: Bijlage 3 – Voorbeeld van opdrachtbrief te verkrijgen door de bedrijfsrevisor/commissaris  41
+          voorbeeld: "Inhoudstafel: 'Toepassingsgebied .............................................................................................................................. 6'"
+        - regel: 271
+          categorie: A8
+          type: column-bleed
+          voorbeeld: "§1 tekst onderbroken door A1-paragraaf: 'onderhavige norm is van toepassing op...' → 'A1. In het geval van een BV laat artikel 5:120...' → 'A. vennootschappen en verenigingen expliciet'"
+        - regel: 585
+          categorie: A6
+          type: other
+          voorbeeld: "Lopende tekst §7 onderbroken: '...na te leven die van toepassing is in het kader van zijn opdracht. (par. A3-A4)\\n\\nA3. De beroepsbeoefenaar handelt in volledige onafhankelijkheid...'"
+        - regel: 186
+          categorie: D1
+          type: other
+          voorbeeld: "Goedkeuringsparagraaf eindigt: '...gepubliceerd in het Belgisch Staatsblad van XXX, p. XXX.' — placeholder XXX-waarden"
 ---
 Norm inzake de opdracht van de beroepsbeoefenaar in het kader van de beoordeling van het getrouw en voldoende zijn van de financiële en boekhoudkundige gegevens opgenomen in het verslag van het
 

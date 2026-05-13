@@ -27,9 +27,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:28:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Geen merkbare extractie-artefacten. Heading-hiërarchie (##, ###) correct en proportioneel. Voetnoten 1-14 aanwezig en volledig. Tabel op regel 113-117 is afwijkend opgemaakt maar leesbaar als pseudo-tabel voor een balansoverzicht. Inhoud compleet.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -41,8 +41,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:31Z'
+      rationale: 'Geen merkbare extractie-artefacten. Heading-hiërarchie (##, ###) correct en proportioneel. Voetnoten 1-14 aanwezig en volledig. Tabel op regel 113-117 is afwijkend opgemaakt maar leesbaar als pseudo-tabel voor een balansoverzicht. Inhoud compleet.'
       concrete_problemen: []
 ---
 # CBN-advies 2012/8 – De boekhoudkundige verwerking van de inbreng in eigendom in een Belgische burgerlijke maatschap die niet de rechtsvorm heeft aangenomen van een handelsvennootschap

@@ -50,9 +50,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:47Z'
+    confirmed_at: '2026-05-13T12:28:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (15 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Geen zichtbare extractie-artefacten. Heading-hiërarchie correct (# → ## → ### → ####), alle voetnoten gedefinieerd en aanwezig, inhoud compleet van inleiding tot publicatieverplichting. Laag-1 pass bevestigd.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -64,8 +64,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:47Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (15 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:33Z'
+      rationale: 'Geen zichtbare extractie-artefacten. Heading-hiërarchie correct (# → ## → ### → ####), alle voetnoten gedefinieerd en aanwezig, inhoud compleet van inleiding tot publicatieverplichting. Laag-1 pass bevestigd.'
       concrete_problemen: []
 ---
 # CBN-advies 2019/11 – De vereenvoudigde boekhouding van een natuurlijke persoon, maatschap, vennootschap onder firma en commanditaire vennootschap: groottecriteria – omzetdefinitie

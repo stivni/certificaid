@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:26:38Z'
+  generated_at: '2026-05-13T12:24:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:27:21Z'
+    confirmed_at: '2026-05-13T12:28:37Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: merge_article_reference_wraps heeft hoofdtekst niet aangepast. Regel 59 toont nog steeds twee leading spaces voor hoofdstuk-subtitel ('  Bewijsregeling inzake...'), pdftotext-indentation-artefact dat in alle drie hoofdstukken voorkomt (regels 59, 109, 118). In Art. 3 §3 (regel 80) begint enumeratie met '- een bestemmingsdocument...' direct na een dubbele punt midden in lopende zin — onnatuurlijke breakpoint. Frontmatter B.S.-datum '23.12.2009' bij KB van 2019 blijft een onverklaarde source-typo.
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:27:21Z'
+      run_at: '2026-05-13T12:28:37Z'
       rationale: merge_article_reference_wraps heeft hoofdtekst niet aangepast. Regel 59 toont nog steeds twee leading spaces voor hoofdstuk-subtitel ('  Bewijsregeling inzake...'), pdftotext-indentation-artefact dat in alle drie hoofdstukken voorkomt (regels 59, 109, 118). In Art. 3 §3 (regel 80) begint enumeratie met '- een bestemmingsdocument...' direct na een dubbele punt midden in lopende zin — onnatuurlijke breakpoint. Frontmatter B.S.-datum '23.12.2009' bij KB van 2019 blijft een onverklaarde source-typo.
       concrete_problemen:
         - 'Regels 59, 109, 118: leading spaces voor hoofdstuk-subtitels (pdftotext-indentation)'

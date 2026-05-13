@@ -17,29 +17,22 @@ provenance:
       version: '2024'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:14:13Z'
+  generated_at: '2026-05-13T12:24:27Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_at: '2026-05-13T12:28:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 pass: 17 headings, max sectie 4294 chars. Nieuwe KB (2024) correct verwerkt. Inhoud volledig.'
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:39Z'
-      heading_count: 17
-      max_section_chars: 4294
-      file_size_chars: 21407
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
+      run_at: '2026-05-13T12:28:19Z'
       rationale: 'L1 pass: 17 headings, max sectie 4294 chars. Nieuwe KB (2024) correct verwerkt. Inhoud volledig.'
       concrete_problemen: []
 ---
@@ -59,7 +52,7 @@ provenance:
 § 1. Overeenkomstig artikel 56ter, § 1, vierde lid, van het Wetboek kan de belastingplichtige die de zetel van zijn economische activiteit in België heeft gevestigd en die een economische activiteit aanvangt, gebruikmaken van de vrijstellingsregeling van belasting wanneer hij de administratie belast met de belasting over de toegevoegde waarde vooraf in kennis stelt van zijn voornemen om van die regeling gebruik te maken en dat zijn activiteit naar alle waarschijnlijkheid zal voldoen aan de in artikel 56ter, § 1, van het Wetboek bepaalde voorwaarden voor de toepassing van die regeling.
 De belastingplichtige stuurt de in het eerste lid bedoelde kennisgeving via de aangifte bedoeld in artikel 1 of 7bis van het koninklijk besluit nr. 10.
 De in het eerste lid bedoelde kennisgeving heeft uitwerking voor een onbepaalde duur vanaf de eerste dag van de activiteit van de belastingplichtige.
-Aan de belastingplichtige wordt een in artikel 50, § 1, eerste lid, 1°, van het Wetboek bedoeld btwidentificatienummer toegekend binnen vijftien werkdagen na de in het eerste lid bedoelde kennisgeving, behoudens wanneer die termijn onvoldoende blijkt om de noodzakelijke controles uit te voeren met het oog op het voorkomen van belastingontduiking of -ontwijking.
+Aan de belastingplichtige wordt een in artikel 50, § 1, eerste lid, 1°, van het Wetboek bedoeld btw-identificatienummer toegekend binnen vijftien werkdagen na de in het eerste lid bedoelde kennisgeving, behoudens wanneer die termijn onvoldoende blijkt om de noodzakelijke controles uit te voeren met het oog op het voorkomen van belastingontduiking of -ontwijking.
 § 2. Wanneer de omzet van een belastingplichtige die onder de normale belastingregeling valt of onder de in artikel 56 van het Wetboek bedoelde forfaitaire regeling voor het lopende kalenderjaar het in artikel 56ter, § 1, eerste lid, van het Wetboek bedoelde bedrag niet overschrijdt, kan die belastingplichtige vanaf 1 januari, 1 april, 1 juli of 1 oktober van het daaropvolgende kalenderjaar gebruikmaken van de vrijstellingsregeling van belasting.
 De belastingplichtige die van deze regeling gebruik wil maken, dient in dat geval de aanvraag in vóór 15 december van het lopende kalenderjaar of vóór 15 maart, 15 juni of 15 september van het volgende kalenderjaar, via de aangifte bedoeld in artikel 2 of 7bis van het koninklijk besluit nr. 10.
 De in het tweede lid bedoelde aangifte vermeldt ook, afhankelijk van de situatie, het bedrag van de gerealiseerde omzet gedurende het of de afgelopen kwartalen van het lopende jaar, evenals een schatting van de omzet van het of de resterende kwartalen van het lopende jaar.

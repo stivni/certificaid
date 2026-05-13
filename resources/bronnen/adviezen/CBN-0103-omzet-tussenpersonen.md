@@ -35,9 +35,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:27Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Bug B3 (duplicate heading) is opgelost: body bevat één heading '# CBN advies 103 - Omzet - Tussenpersonen'. Inhoud is volledig (uitgebreide analyse van makelaar/mandataris/commissionair). Geen artefacten, geen unicode-issues, geen broken markup. Ziet eruit als mens-geschreven."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -49,8 +49,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:27Z'
+      rationale: "Bug B3 (duplicate heading) is opgelost: body bevat één heading '# CBN advies 103 - Omzet - Tussenpersonen'. Inhoud is volledig (uitgebreide analyse van makelaar/mandataris/commissionair). Geen artefacten, geen unicode-issues, geen broken markup. Ziet eruit als mens-geschreven."
       concrete_problemen: []
 ---
 # CBN advies 103 - Omzet - Tussenpersonen

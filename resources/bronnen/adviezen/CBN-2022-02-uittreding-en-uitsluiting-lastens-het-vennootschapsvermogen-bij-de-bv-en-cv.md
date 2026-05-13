@@ -34,9 +34,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:47Z'
+    confirmed_at: '2026-05-13T12:28:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (13 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Ronde-3 herlezing: geen TOC-fragment of '--'-restant meer aanwezig in de body. De structuur is correct met ## en ### headings, drie boekingstabellen in pipe-syntax, alle 31 voetnoten intact. Inhoud volledig: BV en CV uittreding/uitsluiting procedures en boekhoudkundige verwerking. Geen ETL-artefacten aangetroffen in de volledige tekst."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -48,8 +48,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:47Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (13 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:30Z'
+      rationale: "Ronde-3 herlezing: geen TOC-fragment of '--'-restant meer aanwezig in de body. De structuur is correct met ## en ### headings, drie boekingstabellen in pipe-syntax, alle 31 voetnoten intact. Inhoud volledig: BV en CV uittreding/uitsluiting procedures en boekhoudkundige verwerking. Geen ETL-artefacten aangetroffen in de volledige tekst."
       concrete_problemen: []
 ---
 # CBN-advies 2022/02 – Uittreding en uitsluiting lastens het vennootschapsvermogen bij de BV en CV - Scheidingsaandeel

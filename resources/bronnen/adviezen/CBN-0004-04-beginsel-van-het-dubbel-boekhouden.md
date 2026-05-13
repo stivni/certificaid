@@ -26,9 +26,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:26Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Alle door vorige verdict gemelde problemen zijn source-typos: 'gebruikeljke' (r63), 'rekeningenstelel' (r68), 'ee volledige' (r67) staan in de bron-HTML. De woordduplicatie in [^2] ('van het koninklijk besluit van het koninklijk besluit', r75) is eveneens een fout in de officiële CBN-tekst. Geen ETL-artefacten (A-G) aangetroffen buiten deze source-categorie. Bullet op r65 correct op één regel. Inhoud volledig."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -40,9 +40,25 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:26Z'
+      rationale: "Alle door vorige verdict gemelde problemen zijn source-typos: 'gebruikeljke' (r63), 'rekeningenstelel' (r68), 'ee volledige' (r67) staan in de bron-HTML. De woordduplicatie in [^2] ('van het koninklijk besluit van het koninklijk besluit', r75) is eveneens een fout in de officiële CBN-tekst. Geen ETL-artefacten (A-G) aangetroffen buiten deze source-categorie. Bullet op r65 correct op één regel. Inhoud volledig."
+      concrete_problemen:
+        - regel: 63
+          categorie: (source)
+          type: source-typo
+          voorbeeld: gebruikeljke regels op het dubbel boekhouden
+        - regel: 67
+          categorie: (source)
+          type: source-typo
+          voorbeeld: op ee volledige en correcte wijze werden overgeschreven
+        - regel: 68
+          categorie: (source)
+          type: source-typo
+          voorbeeld: het koninklijk besluit over de minimumindeling ... rekeningenstelel
+        - regel: 75
+          categorie: (source)
+          type: source-typo
+          voorbeeld: van het koninklijk besluit van het koninklijk besluit van 30 januari 2001 — dubbele tekst in bron
 ---
 # CBN-advies 4-4 - Beginsel van het dubbel boekhouden
 

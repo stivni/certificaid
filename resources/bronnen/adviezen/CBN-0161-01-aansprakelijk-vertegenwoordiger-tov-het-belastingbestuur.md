@@ -27,9 +27,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:28:35Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Regel 65: 'Volgens boekingen geven een beeld van de relaties...' is grammaticaal incorrect ('Volgende' ontbreekt). Gezien de HTML-bron (geen PDF/OCR) is dit hoogstwaarschijnlijk een source-typo op de CBN-website zelf — per de source-typo-uitzondering geen grond voor needs-rework. De vier boekhoudschema's in markdown pipe-syntax zijn intact en structureel correct; lege Debet/Credit-kolommen zijn inhoudelijk intentioneel. Geen andere artefacten."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -41,9 +41,13 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:35Z'
+      rationale: "Regel 65: 'Volgens boekingen geven een beeld van de relaties...' is grammaticaal incorrect ('Volgende' ontbreekt). Gezien de HTML-bron (geen PDF/OCR) is dit hoogstwaarschijnlijk een source-typo op de CBN-website zelf — per de source-typo-uitzondering geen grond voor needs-rework. De vier boekhoudschema's in markdown pipe-syntax zijn intact en structureel correct; lege Debet/Credit-kolommen zijn inhoudelijk intentioneel. Geen andere artefacten."
+      concrete_problemen:
+        - regel: 65
+          categorie: (source)
+          type: source-typo
+          voorbeeld: Volgens boekingen geven een beeld van de relaties die ten aanzien van...
 ---
 # CBN-advies 161/1 - Aansprakelijk vertegenwoordiger t.o.v. het belastingbestuur
 

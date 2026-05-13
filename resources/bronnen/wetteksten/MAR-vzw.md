@@ -17,29 +17,22 @@ provenance:
       version: '2023'
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7158f47-dirty
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T10:45:29Z'
+  generated_at: '2026-05-13T12:25:17Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:27:19Z'
+    confirmed_at: '2026-05-13T12:28:36Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Ernstige PDF-extractie-artefacten (categorie A/B): geen heading-structuur (heading_count=0), rekening-codes en omschrijvingen door elkaar gegooid, meerdere rekeningen gemerged op één regel, geen tabel-structuur voor het rekeningstelsel. Buitenstaander herkent dit onmiddellijk als kapot-geconverteerde PDF.'
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:38Z'
-      heading_count: 0
-      max_section_chars: 5028
-      file_size_chars: 5028
-      flags: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:27:19Z'
+      run_at: '2026-05-13T12:28:36Z'
       rationale: 'Ernstige PDF-extractie-artefacten (categorie A/B): geen heading-structuur (heading_count=0), rekening-codes en omschrijvingen door elkaar gegooid, meerdere rekeningen gemerged op één regel, geen tabel-structuur voor het rekeningstelsel. Buitenstaander herkent dit onmiddellijk als kapot-geconverteerde PDF.'
       concrete_problemen:
         - regel: 46

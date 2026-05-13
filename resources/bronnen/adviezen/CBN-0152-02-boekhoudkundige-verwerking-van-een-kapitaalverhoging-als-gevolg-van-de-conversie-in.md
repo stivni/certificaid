@@ -28,9 +28,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_at: '2026-05-13T12:28:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Korte bron (2579 tekens) zonder subkoppen, conform Laag-1. Inhoud compleet: vraag, analyse, voorbeeld met journaalboeking als pipe-table, drie correct gedefinieerde voetnoten. Geen artefacten in categorieën A-G aangetroffen.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -42,8 +42,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:33Z'
+      rationale: 'Korte bron (2579 tekens) zonder subkoppen, conform Laag-1. Inhoud compleet: vraag, analyse, voorbeeld met journaalboeking als pipe-table, drie correct gedefinieerde voetnoten. Geen artefacten in categorieën A-G aangetroffen.'
       concrete_problemen: []
 ---
 # CBN-advies 152/2 - Boekhoudkundige verwerking van een kapitaalverhoging als gevolg van de conversie in aandelen van obligaties uitgedrukt in Ecu of in andere vreemde valuta

@@ -17,51 +17,44 @@ provenance:
       version: 31.12.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: a168c7a-dirty
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T21:12:18Z'
+  generated_at: '2026-05-13T12:25:19Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:20:00Z'
+    confirmed_at: '2026-05-13T12:27:02Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "Geen layer1. B4: 345 ALL_CAPS plain-text sectietitels ('HOOFDSTUK 1 DE PERSONENBELASTING', '1. WAT IS ER NIEUW?', ...) die allemaal als headings hadden moeten worden geëxtraheerd — slechts 4 headings in 17k-regel document. A6: 174 spurious line-breaks. G2: 790 bullet-glyphs (➢, •) in body. Structuur volledig afwezig op markdown-niveau."
+    rationale: "Ernstige A6/A7-problemen door de gehele body: zinnen zijn op woordniveau gesplitst over afzonderlijke regels (689 single-word lijnen vastgesteld, bv. regels 81-100: 'acht', 'hoofdstukken', 'behandelen', 'de', 'directe', 'belastingen:', 'de', 'personenbelasting,'). Dit is kenmerkend voor kolom-extractie van een tweekolomme PDF. De afkortingenlijst (regels 267-762) heeft hetzelfde probleem: elke afkorting en definitie staat op aparte regels. TOC-residu (A2) aanwezig op regels 151-265 met dotted-leaders. Paginatellers door de body (regels 407, 561, 712, 954, 1028, ...). De pseudo-tabellen in de 'Cijfers per Hoofdstuk'-sectie zijn met spaties uitgelijnd in plaats van markdown pipe-tabellen (E1-schending). De inhoud zelf is na alle ETL-artefacten nog grotendeels aanwezig, maar de RAG-retrievability is zwaar aangetast door de woordopsplitsing."
     layer1:
-      status: warn
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:41Z'
-      heading_count: 4
-      max_section_chars: 659945
-      file_size_chars: 1034808
-      flags:
-        - name: max_section_size
-          status: warn
-          detail: 'langste sectie op ##-niveau: 659945 chars (>24000); chunker splitst auto op alinea-grenzen via split_long_chunk'
-          samples: []
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:20:00Z'
-      rationale: "Geen layer1. B4: 345 ALL_CAPS plain-text sectietitels ('HOOFDSTUK 1 DE PERSONENBELASTING', '1. WAT IS ER NIEUW?', ...) die allemaal als headings hadden moeten worden geëxtraheerd — slechts 4 headings in 17k-regel document. A6: 174 spurious line-breaks. G2: 790 bullet-glyphs (➢, •) in body. Structuur volledig afwezig op markdown-niveau."
+      run_at: '2026-05-13T12:27:02Z'
+      rationale: "Ernstige A6/A7-problemen door de gehele body: zinnen zijn op woordniveau gesplitst over afzonderlijke regels (689 single-word lijnen vastgesteld, bv. regels 81-100: 'acht', 'hoofdstukken', 'behandelen', 'de', 'directe', 'belastingen:', 'de', 'personenbelasting,'). Dit is kenmerkend voor kolom-extractie van een tweekolomme PDF. De afkortingenlijst (regels 267-762) heeft hetzelfde probleem: elke afkorting en definitie staat op aparte regels. TOC-residu (A2) aanwezig op regels 151-265 met dotted-leaders. Paginatellers door de body (regels 407, 561, 712, 954, 1028, ...). De pseudo-tabellen in de 'Cijfers per Hoofdstuk'-sectie zijn met spaties uitgelijnd in plaats van markdown pipe-tabellen (E1-schending). De inhoud zelf is na alle ETL-artefacten nog grotendeels aanwezig, maar de RAG-retrievability is zwaar aangetast door de woordopsplitsing."
       concrete_problemen:
-        - regel: 882
-          categorie: B4
-          type: other
-          voorbeeld: HOOFDSTUK 1 DE PERSONENBELASTING (PB)
-        - regel: 885
-          categorie: B4
-          type: other
-          voorbeeld: 1. WAT IS ER NIEUW?
-        - regel: 85
-          categorie: G2
-          type: bullet-glyph
-          voorbeeld: ➢ https://www.vlaanderen.be/vlaamse-belastingdienst
-        - regel: 557
+        - regel: 81
+          categorie: A7
+          type: scrambled-words
+          voorbeeld: "acht\n\nhoofdstukken\n\nbehandelen\n\nde\n\ndirecte\n\nbelastingen:"
+        - regel: 151
+          categorie: A2
+          type: dotted-leader
+          voorbeeld: VOORWOORD......................................................................................................................................................... 2
+        - regel: 407
+          categorie: A1
+          type: form-feed
+          voorbeeld: '8'
+        - regel: 821
+          categorie: E1
+          type: pseudo-table
+          voorbeeld: Belastingontvangsten 2023 in Belastingontvangsten\nmiljoenen euro\nin % van de totale\nbelastingontvangsten(*)
+        - regel: 267
           categorie: A6
-          type: other
-          voorbeeld: Belastingontvangsten 2023 Belastingontvangsten in % | in miljoenen euro van het bbp
+          type: scrambled-words
+          voorbeeld: AAFisc\n\nAlgemene Administratie van de Fiscaliteit (afkorting-definitie op aparte lijnen)
 ---
 
 # Fiscaal Memento 2025 — FOD Financiën (editie 12/2024)
@@ -13651,7 +13644,7 @@ inzake douanevervoer.
 Een douane-entrepot is een door de douaneautoriteiten goedgekeurde plaats waar in hoofdzaak nietUniegoederen kunnen worden opgeslagen zonder dat de goederen worden onderworpen aan de in 5.1
 bedoelde rechten, de btw, de eventuele accijns en de handelspolitieke maatregelen.
 De douane-entrepots kunnen worden gebruikt voor de opslag van goederen ofwel door iedereen (publieke
-douane-entrepots) ofwel door de houders van een vergunning douane-entrepot (particulier douaneentrepot).
+douane-entrepots) ofwel door de houders van een vergunning douane-entrepot (particulier douane-entrepot).
 Bij het particulier entrepot zijn de houder van de vergunning en de houder van de regeling dezelfde persoon
 en berusten de verantwoordelijkheden volledig bij de vergunninghouder particulier entrepot.
 De houder van de regeling is de persoon die de douaneaangifte doet, of voor wiens rekening die aangifte wordt

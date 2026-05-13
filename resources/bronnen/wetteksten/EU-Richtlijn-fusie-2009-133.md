@@ -17,31 +17,28 @@ provenance:
       version: 25.11.2009
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:15:14Z'
+  generated_at: '2026-05-13T12:25:12Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_at: '2026-05-13T12:28:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'L1 pass: 49 headings, max sectie 11862 chars. Concordantietabel onderaan als plain Art.-verwijzingen acceptabel. Inhoud volledig.'
+    rationale: "Geen EUR-Lex markers. De ## headings voor Richtlijnfragmenten (bijv. '## RICHTLIJN 2009/133/EG VAN DE RAAD' op r68-70) zijn ruis-headings uit de preambuletekst maar verstoren de structuur minimaal. Definities, artikelen en bijlagen volledig aanwezig. Kleine PDF-koppeltekensplits (bv. 'vennootschap- pen') zijn source-kenmerken."
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:37Z'
-      heading_count: 49
-      max_section_chars: 11862
-      file_size_chars: 43989
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
-      rationale: 'L1 pass: 49 headings, max sectie 11862 chars. Concordantietabel onderaan als plain Art.-verwijzingen acceptabel. Inhoud volledig.'
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:25Z'
+      rationale: "Geen EUR-Lex markers. De ## headings voor Richtlijnfragmenten (bijv. '## RICHTLIJN 2009/133/EG VAN DE RAAD' op r68-70) zijn ruis-headings uit de preambuletekst maar verstoren de structuur minimaal. Definities, artikelen en bijlagen volledig aanwezig. Kleine PDF-koppeltekensplits (bv. 'vennootschap- pen') zijn source-kenmerken."
+      concrete_problemen:
+        - regel: 68
+          categorie: B4
+          type: other
+          voorbeeld: '## RICHTLIJN 2009/133/EG VAN DE RAAD'
 ---
 
 # Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie)
@@ -336,7 +333,7 @@ Voor de Raad  De voorzitter
 
 E. ERLANDSSON
 
-BIJLAGE I
+## Bijlage I
 
 ## DEEL A
 
@@ -464,7 +461,7 @@ LIJST VAN DE IN ARTIKEL 3, ONDER c), BEDOELDE BELASTINGEN
 
 — corporation tax in het Verenigd Koninkrijk.
 
-BIJLAGE II
+## Bijlage II
 
 ## DEEL A
 
@@ -498,7 +495,7 @@ Richtlijn  Omzettingstermijn  Toepassingsdatum
 
 ( 1 ) Uitsluitend wat de Portugese Republiek betreft.  ( 2 ) Wat de in artikel 2, lid 1, van de richtlijn bedoelde bepalingen betreft.  ( 3 ) Wat de in artikel 2, lid 2, van de richtlijn bedoelde bepalingen betreft.
 
-BIJLAGE III
+## Bijlage III
 
 Concordantietabel
 

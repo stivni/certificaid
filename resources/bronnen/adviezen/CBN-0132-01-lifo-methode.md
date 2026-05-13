@@ -33,9 +33,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_at: '2026-05-13T12:28:27Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (2 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Korte maar volledige proza-tekst (6967 chars, één sectie). Geen headings nodig voor dit formaat — het advies is één aaneengesloten redenering. Geen A- of B-categorie-artefacten gevonden: geen spurious line-breaks, geen onzichtbare unicode, geen OCR-fouten, geen afgekapte zinnen. Inhoud sluit logisch af met de conclusie over artikel 43 KB W.Venn.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -47,8 +47,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (2 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:27Z'
+      rationale: 'Korte maar volledige proza-tekst (6967 chars, één sectie). Geen headings nodig voor dit formaat — het advies is één aaneengesloten redenering. Geen A- of B-categorie-artefacten gevonden: geen spurious line-breaks, geen onzichtbare unicode, geen OCR-fouten, geen afgekapte zinnen. Inhoud sluit logisch af met de conclusie over artikel 43 KB W.Venn.'
       concrete_problemen: []
 ---
 # CBN advies 132-1 - LIFO-methode

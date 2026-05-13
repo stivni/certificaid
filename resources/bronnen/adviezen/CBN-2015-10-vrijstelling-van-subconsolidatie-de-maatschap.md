@@ -41,9 +41,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:46Z'
+    confirmed_at: '2026-05-13T12:28:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Compact advies (3751 chars, 4 headings), geen extractie-artefacten aangetroffen. Voetnoten [^1]–[^7] volledig gedefinieerd. Heading-hiërarchie correct (# → ## zonder sprongen). Tekst leest als mens-geschreven markdown.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -55,8 +55,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:46Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (5 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:31Z'
+      rationale: 'Compact advies (3751 chars, 4 headings), geen extractie-artefacten aangetroffen. Voetnoten [^1]–[^7] volledig gedefinieerd. Heading-hiërarchie correct (# → ## zonder sprongen). Tekst leest als mens-geschreven markdown.'
       concrete_problemen: []
 ---
 # CBN-advies 2015/10 – Vrijstelling van subconsolidatie: de maatschap

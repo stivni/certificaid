@@ -13,7 +13,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -27,7 +27,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -41,7 +41,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -56,7 +56,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -71,7 +71,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -86,7 +86,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -101,7 +101,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -116,7 +116,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -131,7 +131,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -146,7 +146,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -161,7 +161,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -177,7 +177,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -192,7 +192,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -207,7 +207,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -222,7 +222,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -237,7 +237,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -252,7 +252,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -270,7 +270,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -285,7 +285,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -300,7 +300,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -315,7 +315,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -330,7 +330,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -345,7 +345,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -358,10 +358,10 @@
         "X",
         "2.8"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer1_status": null,
+      "layer2_status": "trusted"
     },
     {
       "bestand": "EU-Richtlijn-witwassen-2018-1673.md",
@@ -375,7 +375,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -393,7 +393,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -410,7 +410,7 @@
       ],
       "trust_status": "rejected",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "fail",
+      "layer1_status": null,
       "layer2_status": "rejected"
     },
     {
@@ -426,7 +426,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -443,7 +443,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -457,7 +457,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -471,7 +471,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -486,7 +486,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -501,7 +501,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -517,7 +517,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -533,7 +533,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -549,7 +549,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -564,7 +564,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -579,7 +579,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -594,7 +594,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -610,7 +610,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -626,7 +626,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -640,7 +640,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -654,7 +654,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -668,7 +668,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -683,7 +683,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -698,7 +698,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -713,7 +713,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -729,7 +729,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -745,7 +745,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -760,7 +760,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -820,7 +820,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -940,7 +940,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -955,7 +955,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1073,10 +1073,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer1_status": null,
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB3-aftrekken.md",
@@ -1328,10 +1328,10 @@
         "VI.B",
         "2.4"
       ],
-      "trust_status": "unreviewed",
-      "trust_confirmed_by": "default",
+      "trust_status": "trusted",
+      "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": null,
-      "layer2_status": null
+      "layer2_status": "trusted"
     },
     {
       "bestand": "WBTW-KB55-btw-eenheid.md",
@@ -1360,7 +1360,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1405,7 +1405,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1495,7 +1495,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1705,7 +1705,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1721,7 +1721,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1734,10 +1734,10 @@
         "XIII",
         "1.4"
       ],
-      "trust_status": "rejected",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
-      "layer2_status": "rejected"
+      "layer1_status": null,
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "WER.md",
@@ -1751,7 +1751,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1767,7 +1767,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1784,7 +1784,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1799,7 +1799,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1813,7 +1813,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1828,7 +1828,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1842,7 +1842,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1856,9 +1856,9 @@
         "1.2"
       ],
       "trust_status": "trusted",
-      "trust_confirmed_by": "human",
-      "layer1_status": "warn",
-      "layer2_status": null
+      "trust_confirmed_by": "subagent-sonnet-4-6",
+      "layer1_status": null,
+      "layer2_status": "trusted"
     },
     {
       "bestand": "Wet-voorafgaande-beslissingen-2002.md",
@@ -1872,7 +1872,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1887,7 +1887,7 @@
       ],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1899,7 +1899,7 @@
       "tags": [],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1911,7 +1911,7 @@
       "tags": [],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1923,7 +1923,7 @@
       "tags": [],
       "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "pass",
+      "layer1_status": null,
       "layer2_status": "trusted"
     },
     {
@@ -1939,7 +1939,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1960,7 +1960,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1975,7 +1975,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -1990,7 +1990,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -2004,7 +2004,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "warn",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -2022,7 +2022,7 @@
       ],
       "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
-      "layer1_status": "fail",
+      "layer1_status": null,
       "layer2_status": "needs-rework"
     },
     {
@@ -2115,10 +2115,10 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "ITAA-norm-aww-richtlijn-bibf.md",
@@ -2130,10 +2130,10 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "ITAA-norm-domiciliering.md",
@@ -2190,10 +2190,10 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "ITAA-norm-intern-kwaliteitsmanagement.md",
@@ -2280,10 +2280,10 @@
         "norm",
         "itaa"
       ],
-      "trust_status": "trusted",
+      "trust_status": "needs-rework",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "trusted"
+      "layer2_status": "needs-rework"
     },
     {
       "bestand": "ITAA-norm-samenstellingsopdrachten-isrs4410.md",
@@ -4071,10 +4071,10 @@
       "titel": "CBN-advies 140",
       "korte_naam": "CBN-advies 140",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-0146-01-belastingschulden-sociale-schulden-verwijlinteresten.md",
@@ -4719,10 +4719,10 @@
       "titel": "CBN-advies 175/1",
       "korte_naam": "CBN-advies 175/1",
       "tags": [],
-      "trust_status": "needs-rework",
+      "trust_status": "trusted",
       "trust_confirmed_by": "subagent-sonnet-4-6",
       "layer1_status": "pass",
-      "layer2_status": "needs-rework"
+      "layer2_status": "trusted"
     },
     {
       "bestand": "CBN-0175-02-verwerking-in-de-jaarrekening-over-het-boekjaar-1999-van-de-maribel-bis-en-ter-steun.md",

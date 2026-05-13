@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:26:36Z'
+  generated_at: '2026-05-13T12:24:30Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:27:21Z'
+    confirmed_at: '2026-05-13T12:28:37Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Significante PDF-extractie-artefacten blijven. Artikel-nummering klopt niet: '## Art. 81' (regel 134), '## Art. 82' (regel 211), '## Art. 83' (regel 220) — dit zijn in werkelijkheid Art. 8/1, 8/2, 8/3, want amendment-blok refereert expliciet 'KB nr. 4, artikel 8/1, § 2'. De heading-extractie negeert de slash. Regel 153: 'btwtarief' zonder koppelteken (uitbreiding fix_pdftotext_glue_bugs heeft dit niet gevangen). Regel 244: 'artikel. 9' met eigenaardige punt. Lange Art. 8/1-paragrafen met mid-sentence linebreaks (regels 161, 188-190)."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:27:21Z'
+      run_at: '2026-05-13T12:28:37Z'
       rationale: "Significante PDF-extractie-artefacten blijven. Artikel-nummering klopt niet: '## Art. 81' (regel 134), '## Art. 82' (regel 211), '## Art. 83' (regel 220) — dit zijn in werkelijkheid Art. 8/1, 8/2, 8/3, want amendment-blok refereert expliciet 'KB nr. 4, artikel 8/1, § 2'. De heading-extractie negeert de slash. Regel 153: 'btwtarief' zonder koppelteken (uitbreiding fix_pdftotext_glue_bugs heeft dit niet gevangen). Regel 244: 'artikel. 9' met eigenaardige punt. Lange Art. 8/1-paragrafen met mid-sentence linebreaks (regels 161, 188-190)."
       concrete_problemen:
         - "Regels 134, 211, 220: '## Art. 81/82/83' zijn in werkelijkheid Art. 8/1, 8/2, 8/3 (slash genegeerd in heading-extractie)"

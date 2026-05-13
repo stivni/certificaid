@@ -48,9 +48,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:27:14Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'D4: *N**iet in de balans opgenomen rechten en verplichtingen* op regel 22 - ETL-artefact: N is fout gescraped als * + ** mixing, veroorzaakt door inconsistent italic rendering.'
+    rationale: "Meerdere ETL-artefacten bevestigd na re-QA: D4 op r.435 en r.442 ('** 20.09.91**' / '** 01.10.91**' met spatie na openings-**); A9 op r.474 ('Aanschaffigswaarde', ontbrekende 't') en r.498 ('op terminijn', dubbele 'i'); E2 op r.252-254 en r.515 (multi-line tabelcellen die kolommen splitsen over meerdere regels, standaard markdown-rendering breekt). Structuur en inhoud omvangrijk maar herkenbaar."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -62,13 +62,29 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: 'D4: *N**iet in de balans opgenomen rechten en verplichtingen* op regel 22 - ETL-artefact: N is fout gescraped als * + ** mixing, veroorzaakt door inconsistent italic rendering.'
+      run_at: '2026-05-13T12:27:14Z'
+      rationale: "Meerdere ETL-artefacten bevestigd na re-QA: D4 op r.435 en r.442 ('** 20.09.91**' / '** 01.10.91**' met spatie na openings-**); A9 op r.474 ('Aanschaffigswaarde', ontbrekende 't') en r.498 ('op terminijn', dubbele 'i'); E2 op r.252-254 en r.515 (multi-line tabelcellen die kolommen splitsen over meerdere regels, standaard markdown-rendering breekt). Structuur en inhoud omvangrijk maar herkenbaar."
       concrete_problemen:
-        - regel: 22
+        - regel: 435
           categorie: D4
-          type: unclosed-bold
-          voorbeeld: '*N**iet in de balans opgenomen rechten en verplichtingen*'
+          type: other
+          voorbeeld: '** 20.09.91**'
+        - regel: 442
+          categorie: D4
+          type: other
+          voorbeeld: '** 01.10.91**'
+        - regel: 474
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: 510... | Aandelen - Aanschaffigswaarde | 12.600
+        - regel: 498
+          categorie: A9
+          type: ocr-confusion
+          voorbeeld: op terminijn verkochte effecten | 100 |
+        - regel: 252
+          categorie: E2
+          type: pseudo-table
+          voorbeeld: '| Noteringsdata | | Koers van de optie \n | | Koers van het aandeel...'
 ---
 # Boekhoudkundige verwerking van dekkingsverrichtingen en gedekte posities in aandelen (Err., Bull. CBN, nr. 30, februari 1993, p. 8)
 

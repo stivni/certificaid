@@ -29,9 +29,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:44Z'
+    confirmed_at: '2026-05-13T12:28:28Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: Vorige L2 flagde een en-dash in een H1-heading, maar de werkelijke H1 in de body is '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' — geen dash aanwezig. Body bestaat uit vier schone alinea's (2203 chars), geen italics, geen voetnoten nodig, geen extractie-artefacten. Inhoud compleet en coherent.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -43,8 +43,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:44Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (1 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:28Z'
+      rationale: Vorige L2 flagde een en-dash in een H1-heading, maar de werkelijke H1 in de body is '# COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN' — geen dash aanwezig. Body bestaat uit vier schone alinea's (2203 chars), geen italics, geen voetnoten nodig, geen extractie-artefacten. Inhoud compleet en coherent.
       concrete_problemen: []
 ---
 # COMMISSIE VOOR BOEKHOUDKUNDIGE NORMEN

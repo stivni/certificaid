@@ -32,9 +32,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:47Z'
+    confirmed_at: '2026-05-13T12:28:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (8 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Geen extractie-artefacten. Geen TOC-fragment in de body, geen broken italics, geen orphan-ankers. Zeven headings correct gelaagd. Voetnoten [^1]–[^29] volledig en correct. Inhoud compleet (aanvangsmoment, boekjaar, dubbel vs. vereenvoudigd, publicatieverplichting). Laag-1: pass, geen flags.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -46,8 +46,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:47Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (8 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:32Z'
+      rationale: 'Geen extractie-artefacten. Geen TOC-fragment in de body, geen broken italics, geen orphan-ankers. Zeven headings correct gelaagd. Voetnoten [^1]–[^29] volledig en correct. Inhoud compleet (aanvangsmoment, boekjaar, dubbel vs. vereenvoudigd, publicatieverplichting). Laag-1: pass, geen flags.'
       concrete_problemen: []
 ---
 # CBN-advies 2019/10 – De boekhoudkundige en jaarrekeningrechtelijke verplichtingen van een beoefenaar van een vrij beroep

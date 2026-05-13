@@ -33,9 +33,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_at: '2026-05-13T12:28:19Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Laag-1 pass zonder flags. Procedurereglement (10 artikelen, 12748 chars): artikelen correct als ## Artikel N headings. Preamble en overweging als plain text voor het eerste artikel — conform de juridische opmaak van de bron. Inhoud volledig (art. 1-9 + definitie). Geen extractie-artefacten zichtbaar; voetnoten 1-2 in body correct gelinkt.'
+    rationale: Geen ETL-artefacten. 9 article-headings correct. Intro-blok (regels 49–112) bevat de preambule als plain-text-alinea's — dit is conform de bron-layout van dit reglement. Geen dotted-leaders, form-feeds of column-bleed. Inhoud volledig (art. 1–9 aanwezig).
     layer1:
       status: pass
       run_id: 20260513-000913
@@ -47,13 +47,9 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T00:12:30Z'
-      rationale: 'Laag-1 pass zonder flags. Procedurereglement (10 artikelen, 12748 chars): artikelen correct als ## Artikel N headings. Preamble en overweging als plain text voor het eerste artikel — conform de juridische opmaak van de bron. Inhoud volledig (art. 1-9 + definitie). Geen extractie-artefacten zichtbaar; voetnoten 1-2 in body correct gelinkt.'
-      concrete_problemen:
-        - regel: 113
-          categorie: B4
-          type: other
-          voorbeeld: 'Definities (als plain-text sectielabel voor ## Artikel 1, maar inhoud volgt direct — marginaal)'
+      run_at: '2026-05-13T12:28:19Z'
+      rationale: Geen ETL-artefacten. 9 article-headings correct. Intro-blok (regels 49–112) bevat de preambule als plain-text-alinea's — dit is conform de bron-layout van dit reglement. Geen dotted-leaders, form-feeds of column-bleed. Inhoud volledig (art. 1–9 aanwezig).
+      concrete_problemen: []
 ---
   Procedurereglement voor het opleggen van maatregelen
 in het kader van artikel 118, §1 van de antiwitwaswet

@@ -34,9 +34,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:47Z'
+    confirmed_at: '2026-05-13T12:28:35Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (37 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: 'Na re-scrape met scraper-fixes is het TOC-artefact (A3, regels 53–99 in de vorige versie) verdwenen. De body begint direct met `## Inleiding` na de frontmatter. Geen TOC-blok zichtbaar. Structuur volledig correct: 36 headings correct hiërarchisch gelaagd (#, ##, ###, ####), alle boekingstabellen in pipe-syntax, voetnoten [^1]–[^17] correct gedefinieerd. Geen artefacten uit categorieën A–G gevonden.'
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -48,8 +48,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:47Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (37 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:35Z'
+      rationale: 'Na re-scrape met scraper-fixes is het TOC-artefact (A3, regels 53–99 in de vorige versie) verdwenen. De body begint direct met `## Inleiding` na de frontmatter. Geen TOC-blok zichtbaar. Structuur volledig correct: 36 headings correct hiërarchisch gelaagd (#, ##, ###, ####), alle boekingstabellen in pipe-syntax, voetnoten [^1]–[^17] correct gedefinieerd. Geen artefacten uit categorieën A–G gevonden.'
       concrete_problemen: []
 ---
 # CBN-advies 2019/07 – Boekhoudkundige verwerking van de uitgifte van een obligatielening

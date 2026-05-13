@@ -37,9 +37,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:47Z'
+    confirmed_at: '2026-05-13T12:28:35Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: Inhoud volledig en structureel correct. 6 headings, alle tabellen in pipe-syntax, voetnoten [^1]-[^17] aanwezig. Op regel 179 staat 'Overdragen resultaat' (ontbreekt 'd' achteraan) — dit is een source-typo in de originele CBN-tekst, geen ETL-bug. Geen verdere artefacten.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -51,9 +51,13 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:47Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:35Z'
+      rationale: Inhoud volledig en structureel correct. 6 headings, alle tabellen in pipe-syntax, voetnoten [^1]-[^17] aanwezig. Op regel 179 staat 'Overdragen resultaat' (ontbreekt 'd' achteraan) — dit is een source-typo in de originele CBN-tekst, geen ETL-bug. Geen verdere artefacten.
+      concrete_problemen:
+        - regel: 179
+          categorie: (source)
+          type: source-typo
+          voorbeeld: '| Overdragen resultaat | | -30 |'
 ---
 # CBN-advies 2025/01 – Boekhoudkundige verwerking van splitsingen van vennootschappen – negatief fiscaal nettoactief – herwaarderingsmeerwaarde (addendum bij CBN-advies 2022/01 en 2022/12)
 

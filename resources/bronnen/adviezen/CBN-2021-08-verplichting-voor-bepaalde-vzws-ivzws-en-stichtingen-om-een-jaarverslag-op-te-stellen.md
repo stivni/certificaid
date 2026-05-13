@@ -39,9 +39,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:47Z'
+    confirmed_at: '2026-05-13T12:28:35Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (15 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Geen ETL-artefacten aangetroffen. Vijf voorbeelden met tabellen correct in markdown pipe-syntax. Heading-hiërarchie correct (## > ### > #### > #####). Twee kleine spaties-voor-italic-openers op regels 114 en 132 ('in de* Bijlagen*') zijn waarschijnlijk source-typos (consistent op CBN-website), geen reden voor needs-rework. Inhoud volledig: toepassingsgebied, voorbeelden 1-5, vrijwillige opstelling — alle 22 voetnoten aanwezig."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -53,9 +53,13 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:47Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (15 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:35Z'
+      rationale: "Geen ETL-artefacten aangetroffen. Vijf voorbeelden met tabellen correct in markdown pipe-syntax. Heading-hiërarchie correct (## > ### > #### > #####). Twee kleine spaties-voor-italic-openers op regels 114 en 132 ('in de* Bijlagen*') zijn waarschijnlijk source-typos (consistent op CBN-website), geen reden voor needs-rework. Inhoud volledig: toepassingsgebied, voorbeelden 1-5, vrijwillige opstelling — alle 22 voetnoten aanwezig."
+      concrete_problemen:
+        - regel: 114
+          categorie: (source)
+          type: source-typo
+          voorbeeld: in de* Bijlagen bij het Belgisch Staatsblad* — spatie voor italic-opener (ook op r.132)
 ---
 # CBN-advies 2021/08 – Verplichting voor bepaalde VZW’s, IVZW’s en stichtingen om een jaarverslag op te stellen
 

@@ -17,30 +17,23 @@ provenance:
       version: 03.07.1978
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:14:08Z'
+  generated_at: '2026-05-13T12:24:25Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:16Z'
+    confirmed_at: '2026-05-13T12:28:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'L1 pass: 207 headings, max sectie 22809 chars. ##### Art.-headings correct. Body start is mid-§2 (bron-artefact, Fisconet start van gecoördineerde versie). Inhoud volledig.'
+    rationale: Geen Fisconet-artefacten. 207 artikelheadings in correcte hiërarchie. Groot document (255k chars) maar geen structurele problemen. Wijzigingshistorie consistent aanwezig. Art. 138 correct als slotartikel.
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:41Z'
-      heading_count: 207
-      max_section_chars: 22809
-      file_size_chars: 255419
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:16Z'
-      rationale: 'L1 pass: 207 headings, max sectie 22809 chars. ##### Art.-headings correct. Body start is mid-§2 (bron-artefact, Fisconet start van gecoördineerde versie). Inhoud volledig.'
+      run_at: '2026-05-13T12:28:25Z'
+      rationale: Geen Fisconet-artefacten. 207 artikelheadings in correcte hiërarchie. Groot document (255k chars) maar geen structurele problemen. Wijzigingshistorie consistent aanwezig. Art. 138 correct als slotartikel.
       concrete_problemen: []
 ---
 

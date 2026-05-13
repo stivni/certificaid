@@ -39,9 +39,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:43Z'
+    confirmed_at: '2026-05-13T12:28:32Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (2 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: Advies in vraag-antwoord formaat (parlementaire vraag + Ministerantwoord). Geen headings — correct voor dit formaat. Twee voetnoten aanwezig en gedefineerd. Geen artefacten, geen spurious breaks. Cursivering van 'Antwoord van de Minister van Economische Zaken' op regel 71 correct als aanduiding van het citaat-kader.
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -53,8 +53,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:43Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (2 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:32Z'
+      rationale: Advies in vraag-antwoord formaat (parlementaire vraag + Ministerantwoord). Geen headings — correct voor dit formaat. Twee voetnoten aanwezig en gedefineerd. Geen artefacten, geen spurious breaks. Cursivering van 'Antwoord van de Minister van Economische Zaken' op regel 71 correct als aanduiding van het citaat-kader.
       concrete_problemen: []
 ---
 # CBN-advies 110/3 - Openbaarmaking van de jaarrekening van vennootschappen die niet aan het K.B. van 8 oktober 1976 onderworpen zijn

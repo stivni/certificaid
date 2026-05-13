@@ -33,9 +33,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:47Z'
+    confirmed_at: '2026-05-13T12:28:33Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Inhoud volledig en correct gestructureerd. Twee minor D4-issues: '*Vennootschap A *' (regel 128) en '*Op de datum waarop de voornaamste prestatie...[^11] *' (regel 130) hebben een spatie vóór de sluitende '*', wat duidt op een trailing-space extractie-artefact. Dit raakt leesbaarheid niet maar is on-natuurlijk voor mens-geschreven markdown. Voorts een lege footnote-referentie ' [^12]' (regel 132) die als lege alinea verschijnt."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -47,9 +47,21 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:47Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (7 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:33Z'
+      rationale: "Inhoud volledig en correct gestructureerd. Twee minor D4-issues: '*Vennootschap A *' (regel 128) en '*Op de datum waarop de voornaamste prestatie...[^11] *' (regel 130) hebben een spatie vóór de sluitende '*', wat duidt op een trailing-space extractie-artefact. Dit raakt leesbaarheid niet maar is on-natuurlijk voor mens-geschreven markdown. Voorts een lege footnote-referentie ' [^12]' (regel 132) die als lege alinea verschijnt."
+      concrete_problemen:
+        - regel: 128
+          categorie: D4
+          type: other
+          voorbeeld: '*Vennootschap A *'
+        - regel: 130
+          categorie: D4
+          type: other
+          voorbeeld: '*Op de datum waarop de voornaamste prestatie van de dienst wordt uitgevoerd[^11] *'
+        - regel: 132
+          categorie: D3
+          type: other
+          voorbeeld: ' [^12]'
 ---
 # CBN-advies 2019/15 – Aanschaffingswaarde van een actiefbestanddeel verkregen in ruil voor een tegenprestatie anders dan in geld
 

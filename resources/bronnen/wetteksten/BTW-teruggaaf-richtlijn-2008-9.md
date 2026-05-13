@@ -17,29 +17,22 @@ provenance:
       version: 01.10.2010
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:15:02Z'
+  generated_at: '2026-05-13T12:25:04Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:14Z'
+    confirmed_at: '2026-05-13T12:28:19Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 pass: 31 headings, max sectie 4098 chars. Kleine richtlijn, inhoud correct, headings als ###### Art. N, geen artefacten. Spurious line-breaks in mid-body zijn EU PB-opmaak (niet ETL), acceptabel.'
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:37Z'
-      heading_count: 31
-      max_section_chars: 4098
-      file_size_chars: 23501
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:14Z'
+      run_at: '2026-05-13T12:28:19Z'
       rationale: 'L1 pass: 31 headings, max sectie 4098 chars. Kleine richtlijn, inhoud correct, headings als ###### Art. N, geen artefacten. Spurious line-breaks in mid-body zijn EU PB-opmaak (niet ETL), acceptabel.'
       concrete_problemen: []
 ---

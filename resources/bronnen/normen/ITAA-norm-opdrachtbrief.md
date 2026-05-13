@@ -33,9 +33,9 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T00:12:30Z'
+    confirmed_at: '2026-05-13T12:26:25Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "B4/A7: het document opent (r49-53) met een TOC-fragment als plain text ('Inhoud / 2) Specifieke regels bij de uitvoering van de opdrachten die voorbehouden zijn aan gecertificeerde') — dit is een afgebroken TOC-item in de body. A7: op r293-302 staan pseudo-diagram-blokken voor de opdrachtbrief-ondertekening (RECHTSPERSOON-BEROEPSBEOEFENAAR / Vertegenwoordiger / VERTEGENWOORDIG / ER - NATUURLIJKE / PERSOON) — PDF-diagram weergegeven als scrambled text. Secties als ## headings aanwezig. Voetnoten inline (geen definitie-blok)."
+    rationale: "A1/G1: pagina-residu op regels 50–53: '    OPDRACHTBRIEF', '1', '    Inhoud', '            2) Specifieke regels...' — dit zijn pagina-koptekst, paginanummer en TOC-fragment van de bron-PDF die voor de echte body staan. Regel 54 begint '2' (paginanummer). Eigenlijke inhoud start pas op regel 55. 18 headings correct aanwezig."
     layer1:
       status: pass
       run_id: 20260513-000913
@@ -47,17 +47,17 @@ provenance:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T00:12:30Z'
-      rationale: "B4/A7: het document opent (r49-53) met een TOC-fragment als plain text ('Inhoud / 2) Specifieke regels bij de uitvoering van de opdrachten die voorbehouden zijn aan gecertificeerde') — dit is een afgebroken TOC-item in de body. A7: op r293-302 staan pseudo-diagram-blokken voor de opdrachtbrief-ondertekening (RECHTSPERSOON-BEROEPSBEOEFENAAR / Vertegenwoordiger / VERTEGENWOORDIG / ER - NATUURLIJKE / PERSOON) — PDF-diagram weergegeven als scrambled text. Secties als ## headings aanwezig. Voetnoten inline (geen definitie-blok)."
+      run_at: '2026-05-13T12:26:25Z'
+      rationale: "A1/G1: pagina-residu op regels 50–53: '    OPDRACHTBRIEF', '1', '    Inhoud', '            2) Specifieke regels...' — dit zijn pagina-koptekst, paginanummer en TOC-fragment van de bron-PDF die voor de echte body staan. Regel 54 begint '2' (paginanummer). Eigenlijke inhoud start pas op regel 55. 18 headings correct aanwezig."
       concrete_problemen:
-        - regel: 49
-          categorie: A2
-          type: other
-          voorbeeld: "Inhoud\n        2) Specifieke regels bij de uitvoering... (TOC-fragment in body)"
-        - regel: 293
-          categorie: A7
-          type: scrambled-words
-          voorbeeld: "   RECHTSPERSOON\n-BEROEPSBEOEFENAAR\n  Vertegenwoordiger\n\nVERTEGENWOORDIG                                       OPDRACHT-\n ER - NATUURLIJKE ... (PDF-diagram)"
+        - regel: 50
+          categorie: A1
+          type: form-feed
+          voorbeeld: '    OPDRACHTBRIEF\n1\n    Inhoud\n            2) Specifieke regels...'
+        - regel: 54
+          categorie: A1
+          type: form-feed
+          voorbeeld: 2 (paginanummer als standalone regel)
 ---
 ## OPDRACHTBRIEF
 

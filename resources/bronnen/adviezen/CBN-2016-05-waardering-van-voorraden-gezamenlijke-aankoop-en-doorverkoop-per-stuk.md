@@ -31,9 +31,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:46Z'
+    confirmed_at: '2026-05-13T12:28:31Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Geen extractie-artefacten aangetroffen. Tekst is doorlopend en vlot leesbaar, headings correct genummerd (3 stuks), voetnoten [^1]–[^12] volledig gedefinieerd en gesloten. Enige kleine onregelmatigheid op regel 82–84: zin loopt door over twee regels met een harde regelbreuk middenin ('om de aanschaffingswaarde van een voorraad te bepalen waarbij van de detailverkoopprijs van deze voorraden, de marge wordt afgetrokken… / grond van de verkoopprijs'), maar dit stamt vermoedelijk uit de bronparagraaf en is niet ernstig genoeg om needs-rework te rechtvaardigen. Alle inhoudelijke secties aanwezig."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -45,9 +45,13 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:46Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (4 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:31Z'
+      rationale: "Geen extractie-artefacten aangetroffen. Tekst is doorlopend en vlot leesbaar, headings correct genummerd (3 stuks), voetnoten [^1]–[^12] volledig gedefinieerd en gesloten. Enige kleine onregelmatigheid op regel 82–84: zin loopt door over twee regels met een harde regelbreuk middenin ('om de aanschaffingswaarde van een voorraad te bepalen waarbij van de detailverkoopprijs van deze voorraden, de marge wordt afgetrokken… / grond van de verkoopprijs'), maar dit stamt vermoedelijk uit de bronparagraaf en is niet ernstig genoeg om needs-rework te rechtvaardigen. Alle inhoudelijke secties aanwezig."
+      concrete_problemen:
+        - regel: 82
+          categorie: A6
+          type: other
+          voorbeeld: om de aanschaffingswaarde van een voorraad te bepalen waarbij van de detailverkoopprijs van deze voorraden, de marge wordt afgetrokken waarmee de aanschaffingsprijs werd verhoogd om de verkoopprijs vast te stellen.
 ---
 # CBN-advies 2016/5 - Waardering van voorraden: gezamenlijke aankoop en doorverkoop per stuk
 

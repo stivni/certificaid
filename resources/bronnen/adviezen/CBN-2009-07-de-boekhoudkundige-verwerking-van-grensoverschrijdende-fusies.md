@@ -43,9 +43,9 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T23:49:45Z'
+    confirmed_at: '2026-05-13T12:28:30Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (3 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+    rationale: "Ronde-2-verdict (needs-rework E2/A6 gebroken tabelrij) is niet meer van toepassing op de huidige body: alle 14+ tabellen zijn correct afgesloten met sluitende pipes, geen losse '9.500'-regel buiten tabelcontext. Alle voetnoten ([^1]–[^14]) gedefinieerd en gerefereerd. Twee ## headings, geen TOC-fragment, geen OCR-artefacten."
     layer1:
       status: pass
       run_id: 20260512-233938
@@ -57,8 +57,8 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T23:49:45Z'
-      rationale: Geen ETL-artefacten aangetroffen. Heading-structuur aanwezig (3 headings), inhoud volledig, voetnoten correct gerenderd, geen form-feeds of column-bleed.
+      run_at: '2026-05-13T12:28:30Z'
+      rationale: "Ronde-2-verdict (needs-rework E2/A6 gebroken tabelrij) is niet meer van toepassing op de huidige body: alle 14+ tabellen zijn correct afgesloten met sluitende pipes, geen losse '9.500'-regel buiten tabelcontext. Alle voetnoten ([^1]–[^14]) gedefinieerd en gerefereerd. Twee ## headings, geen TOC-fragment, geen OCR-artefacten."
       concrete_problemen: []
 ---
 # CBN-advies 2009/7 - De boekhoudkundige verwerking van grensoverschrijdende fusies Advies van 15 juli 2009

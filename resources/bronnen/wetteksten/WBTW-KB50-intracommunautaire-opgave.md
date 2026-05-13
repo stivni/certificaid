@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T11:26:38Z'
+  generated_at: '2026-05-13T12:24:31Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T11:27:20Z'
+    confirmed_at: '2026-05-13T12:28:36Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "merge_article_reference_wraps heeft niet ingegrepen op het hoofdprobleem: het bestand bevat onder de kop 'Bijlage' (regels 227 e.v.) de volledige opgeheven 2009-versie van KB nr. 50 als losse content, terwijl de 2019-versie als hoofdtekst staat. Dit is compilatie-bleed uit de Fisconet-PDF, geen wettelijke bijlage. Onderaan staan ook Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334). Inconsistente hoofdstuk-kapitalisatie ('Hoofdstuk 1' vs 'HOOFDSTUK 2'/'HOOFDSTUK 3'). TOC-achtig blok regels 53-58 dupliceert headings."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T11:27:20Z'
+      run_at: '2026-05-13T12:28:36Z'
       rationale: "merge_article_reference_wraps heeft niet ingegrepen op het hoofdprobleem: het bestand bevat onder de kop 'Bijlage' (regels 227 e.v.) de volledige opgeheven 2009-versie van KB nr. 50 als losse content, terwijl de 2019-versie als hoofdtekst staat. Dit is compilatie-bleed uit de Fisconet-PDF, geen wettelijke bijlage. Onderaan staan ook Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334). Inconsistente hoofdstuk-kapitalisatie ('Hoofdstuk 1' vs 'HOOFDSTUK 2'/'HOOFDSTUK 3'). TOC-achtig blok regels 53-58 dupliceert headings."
       concrete_problemen:
         - "Regels 227-326: integrale opgenomen oude KB-50-2009 onder 'Bijlage' — geen wettelijke bijlage maar opgeheven voorgangerversie"

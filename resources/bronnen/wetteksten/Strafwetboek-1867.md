@@ -17,31 +17,29 @@ provenance:
       version: gecoördineerd
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 8add68e
+    pipeline_version: b893061-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-12T19:15:09Z'
+  generated_at: '2026-05-13T12:25:09Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-12T19:27:15Z'
+    confirmed_at: '2026-05-13T12:28:29Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "L1 pass: 868 headings, max sectie 4092 chars. ###### Art.-headings correct, opgeheven artikels correct als '<Opgeheven...>'. 'BEPALINGEN AAN DE VIER VORIGE HOOFDSTUKKEN GEMEEN' als plain-text is bron-stijl. Inhoud volledig."
+    rationale: 'Laag-1 meldt geen flags (status: pass). Body is inhoudelijk volledig: Boek 1 (Art. 1-100ter) en Boek 2 (Art. 101-566) aanwezig, correct als ###### Art. N headings, met wetgevingshistoriek in <W ...>-noten per artikel. Geen kolom-bleed, geen OCR-verwarringen, geen form-feed resten. Wijzigingsnotities zoals <W 2003-01-23/42, art. 89> zijn consistent en opzettelijk onderdeel van de Fisconet-coördinatie. Art. 7bis, 30bis, 34bis, 34quinquies, 37bis, 41bis, 50bis, 100ter en andere lege headings (enkel het Art.-nummer, geen body) zijn conformEen een kenmerk van de wetsbron zelf waar de artikelinhoud volledig opgeheven is — dit is source-eigenaardigheid, geen ETL-bug.'
     layer1:
-      status: pass
-      run_id: 20260513-105636
-      run_at: '2026-05-13T10:56:38Z'
-      heading_count: 868
-      max_section_chars: 4092
-      file_size_chars: 438617
-      flags: []
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-12T19:27:15Z'
-      rationale: "L1 pass: 868 headings, max sectie 4092 chars. ###### Art.-headings correct, opgeheven artikels correct als '<Opgeheven...>'. 'BEPALINGEN AAN DE VIER VORIGE HOOFDSTUKKEN GEMEEN' als plain-text is bron-stijl. Inhoud volledig."
-      concrete_problemen: []
+      run_at: '2026-05-13T12:28:29Z'
+      rationale: 'Laag-1 meldt geen flags (status: pass). Body is inhoudelijk volledig: Boek 1 (Art. 1-100ter) en Boek 2 (Art. 101-566) aanwezig, correct als ###### Art. N headings, met wetgevingshistoriek in <W ...>-noten per artikel. Geen kolom-bleed, geen OCR-verwarringen, geen form-feed resten. Wijzigingsnotities zoals <W 2003-01-23/42, art. 89> zijn consistent en opzettelijk onderdeel van de Fisconet-coördinatie. Art. 7bis, 30bis, 34bis, 34quinquies, 37bis, 41bis, 50bis, 100ter en andere lege headings (enkel het Art.-nummer, geen body) zijn conformEen een kenmerk van de wetsbron zelf waar de artikelinhoud volledig opgeheven is — dit is source-eigenaardigheid, geen ETL-bug.'
+      concrete_problemen:
+        - regel: 103
+          categorie: B1
+          type: other
+          voorbeeld: '###### Art. 7bis (heading zonder body — opgeheven artikel, source-conform)'
+          extra: source-typo
 ---
 
 # Strafwetboek 8 juni 1867 (Oud Strafwetboek)
@@ -95,7 +93,6 @@ In alle gevallen kan de veroordeelde zich van die gevangenisstraf bevrijden door
 
 ###### Art. 41bis
 
-
 ##### AFDELING VI. - STRAFFEN AAN DE DRIE SOORTEN VAN MISDRIJVEN GEMEEN.
 
 ###### Onderafdeling III. - (Bijzondere verbeurdverklaring). <Ingevoegd bij W 1999-05-04/60, art. 9; Inwerkingtreding : 02-07-1999>
@@ -113,7 +110,6 @@ Bij misdaad of wanbedrijf wordt bijzondere verbeurdverklaring (toepasselijk op d
 ----------  ( 1 )<W 2013-11-27/05, art. 2, 099; Inwerkingtreding : 01-03-2014>   ( 2 )<W 2014-02-11/12, art. 55, 100; Inwerkingtreding : 18-04-2014>   ( 3 )<W 2018-03-18/14, art. 20, 129; Inwerkingtreding : 12-05-2018>   ( 4 )<W 2020-02-04/16, art. 15, 145; Inwerkingtreding : 01-09-2021>
 
 ###### Art. 43ter
-
 
 § 2. De verbeurdverklaring zoals bedoeld in § 1 kan worden uitgesproken tegen de daders, mededaders en medeplichtigen die werden veroordeeld wegens één of meerdere van de in dit artikel opgesomde misdrijven en onder de in § 1 bepaalde voorwaarden, wanneer de veroordeelde over een relevante periode verdere vermogensvoordelen heeft ontvangen terwijl er ernstige en concrete aanwijzingen zijn dat deze voordelen voortspruiten, uit het misdrijf waarvoor hij werd veroordeeld, of uit [ 2 misdrijven die, rechtstreeks of onrechtstreeks, aanleiding kunnen geven tot een economisch voordeel voor zover zij voorkomen in dezelfde rubriek, bepaald in paragraaf 1, als het misdrijf waarvoor de betrokkene is veroordeeld] 2 en de veroordeelde het tegendeel niet geloofwaardig maakt.  Dit tegendeel kan tevens geloofwaardig gemaakt worden door elke derde die beweert recht te hebben op deze voordelen.  § 3. Als relevante periode in de zin van dit artikel wordt aanzien de periode van vijf jaar voorafgaand aan de inverdenkingstelling van de persoon tot de datum van de uitspraak.  De ernstige en concrete aanwijzingen bedoeld in § 2 kunnen worden geput uit alle geloofwaardige elementen die op regelmatige wijze aan de rechtbank worden overlegd, en die wijzen op een onevenwicht van enig belang tussen enerzijds de tijdelijke of blijvende aangroei van het vermogen en de bestedingen van de veroordeelde in de relevante periode die door het openbaar ministerie wordt aangetoond, en anderzijds de tijdelijke of blijvende aangroei van het vermogen en de bestedingen van de veroordeelde in deze periode, waarvan hij kan geloofwaardig maken dat ze niet voortspruiten uit de feiten waarvoor hij werd veroordeeld of uit [ 3 misdrijven die, rechtstreeks of onrechtstreeks, aanleiding kunnen geven tot een economisch voordeel voor zover zij voorkomen in dezelfde rubriek, bepaald in § 1, als het misdrijf waarvoor de betrokkene is veroordeeld] 3 .  [ 2 ...] 2
 
@@ -144,7 +140,6 @@ Wanneer de wet de schadevergoeding niet regelt, bepaalt het hof of de rechtbank 
 Wanneer de goederen van de veroordeelde ontoereikend zijn om de veroordelingen tot geldboete, teruggave en schadevergoeding te dekken, hebben de twee laatstgenoemde veroordelingen de voorrang.  Bij samentreffen van geldboete en aan de Staat verschuldigde gerechtskosten, worden de betalingen, door de veroordeelden gedaan, het eerst op die gerechtskosten toegerekend. (Deze betalingen stuiten de verjaringstermijn van zowel de geldboete als van de gerechtskosten.) <W 2006-12-27/32, art. 302, 062; Inwerkingtreding : 07-01-2007>
 
 ###### Art. 50bis
-
 
 #### HOOFDSTUK IV. - POGING TOT MISDAAD OF TOT WANBEDRIJF.
 
@@ -396,7 +391,6 @@ Burgerlijke veroordelingen, uitgesproken bij arresten of vonnissen gewezen in cr
 
 ###### Art. 100ter
 
-
 ## BOEK 2. - DE MISDRIJVEN EN HUN BESTRAFFING IN HET BIJZONDER.
 
 ### TITEL I. - MISDADEN EN WANBEDRIJVEN TEGEN DE VEILIGHEID VAN DE STAAT.
@@ -639,14 +633,11 @@ Degenen onder de schuldigen die vóór enige aanslag en vóór enig begin van ve
 
 ###### Art. 136bis
 
-
 § 2. De hierna omschreven ernstige schendingen van het gemeenschappelijk artikel 3 van de Verdragen van Genève van 12 augustus 1949, gepleegd in geval van een gewapend conflict zoals gedefinieerd in voornoemd artikel 3, welke door handelingen of nalatigheden inbreuk maken op de bescherming die aan personen is gewaarborgd door die Verdragen, zijn internationaal-rechtelijke misdaden en worden overeenkomstig de bepalingen van deze titel gestraft, onverminderd de strafbepalingen die van toepassing zijn op de uit nalatigheid gepleegde misdrijven :  1° geweldpleging gericht op het leven en de lichamelijk integriteit, inzonderheid alle vormen van [ 2 doodslag] 2 , verminking, wrede behandeling en marteling;  2° aantasting van de persoonlijke waardigheid, inzonderheid vernederende en onterende behandeling;  3° nemen van gijzelaars;  4° uitspreken van veroordelingen en ten uitvoer leggen van executies zonder voorafgaand vonnis uitgesproken door een op regelmatige wijze samengesteld gerecht dat alle gerechtelijke waarborgen biedt die algemeen als onmisbaar worden erkend.  § 3. De hierna omschreven ernstige schendingen gedefinieerd in artikel 15 van het Tweede Protocol inzake het Verdrag van 's-Gravenhage van 1954 inzake de bescherming van culturele goederen in geval van een gewapend conflict, goedgekeurd te 's-Gravenhage op 26 maart 1999, gepleegd in geval van een gewapend conflict zoals omschreven in artikel 18, §§ 1 en 2, van het Verdrag van 's-Gravenhage van 1954 en in artikel 22 van voornoemd Tweede Protocol, welke door handelingen of nalatigheden inbreuk maken op de bescherming die aan goederen is gewaarborgd door dit Verdrag en Protocol zijn internationaal-rechtelijke misdaden en worden overeenkomstig de bepalingen van deze titel gestraft, onverminderd de strafbepalingen die van toepassing zijn op de uit nalatigheid gepleegde misdrijven :  1° een aanval richten op een cultureel goed onder versterkte bescherming;  2° een cultureel goed onder versterkte bescherming of de onmiddellijke nabijheid ervan aanwenden ter ondersteuning van een militaire actie;  3° de door het Verdrag en het Tweede Protocol beschermde culturele goederen op grote schaal vernietigen of zich toe-eigenen.  ----------  ( 1 )<W 2019-05-05/10, art. 72, 137; Inwerkingtreding : 03-06-2019>   ( 2 )<W 2024-03-28/60, art. 79, 158; Inwerkingtreding : 08-04-2024>
 
 ###### Art. 136sexies
 
-
 ###### Art. 136septies
-
 
 ###### Art. 136octies . <ingevoegd bij W 2003-08-05/32, art. 12; Inwerkingtreding : 07-08-2003> § 1. Onverminderd de in artikel 136quater, § 1, 18°, 22° en 23° genoemde uitzonderingen kan geen enkel belang, geen enkele noodzaak van politieke, militaire of nationale aard de in de artikelen 136bis, 136ter, 136quater, 136sexies en 136septies omschreven misdrijven, zelfs bij wijze van represaille gepleegd, rechtvaardigen.  § 2. Dat de beschuldigde op bevel van zijn regering of van een meerdere heeft gehandeld, ontslaat hem niet van zijn verantwoordelijkheid indien, in de gegeven omstandigheden, het bevel duidelijk het plegen van een van de misdrijven bedoeld in de artikelen 136bis, 136ter en 136quater ten gevolge kon hebben.
 
@@ -662,9 +653,7 @@ Degenen onder de schuldigen die vóór enige aanslag en vóór enig begin van ve
 
 ###### Art. 138
 
-
 ###### Art. 140
-
 
 § 2. Iedere leidende persoon van een terroristische groep wordt gestraft met opsluiting van vijftien jaar tot twintig jaar en met geldboete van duizend euro tot tweehonderdduizend euro.  ----------  ( 1 )<W 2016-12-14/09, art. 2, 120; Inwerkingtreding : 01-01-2017>   ( 2 )<W 2019-05-05/10, art. 75, 137; Inwerkingtreding : 03-06-2019>
 
@@ -892,9 +881,7 @@ Hij die, zonder schuldig te zijn aan de deelneming in het vorige artikel omschre
 
 ###### Art. 178bis
 
-
 ###### Art. 178ter
-
 
 #### HOOFDSTUK IIter. [ 1 - NAMAKING OF VERVALSING VAN NIET-CONTANTE BETAALINSTRUMENTEN.] 1
 
@@ -986,7 +973,6 @@ Met geldboete van zesentwintig [euro] tot driehonderd [euro] worden gestraft : <
 
 ###### Art. 190bis
 
-
 ###### Art. 191
 
 Hij die op fabrikaten de naam van een andere fabrikant dan de voortbrenger, of de handelsnaam van een andere fabriek dan die, welke de goederen gemaakt heeft, plaatst of door bijvoeging, wegneming of om het even welke verandering doet voorkomen, wordt gestraft met gevangenisstraf van een maand tot zes maanden.  Dezelfde straf wordt uitgesproken tegen elke koopman, commissionair of kleinhandelaar die wetens goederen, met verdichte of vervalste namen gemerkt, te koop stelt of in de handel brengt.
@@ -999,9 +985,7 @@ Hij die op fabrikaten de naam van een andere fabrikant dan de voortbrenger, of d
 
 ###### Art. 192bis
 
-
 ###### Art. 192ter
-
 
 178quinquies tot 178nonies,] 1 180 en 185 tot 187bis, één van deze feiten opnieuw pleegt, kan worden veroordeeld tot het dubbele van het maximum van de straf, bij de wet op dit feit gesteld, indien dit feit een wanbedrijf is.  § 3. Hij die, na tot een gevangenisstraf van ten minste een jaar te zijn veroordeeld door een rechtscollege van een lid-Staat van de Europese Unie wegens feiten bedoeld in de artikelen 160 tot 170, 173, 176 tot 178, [ 1
 
@@ -1084,7 +1068,6 @@ Zij die als getuige meewerken om door een openbare overheid een vals getuigschri
 
 ##### AFDELING IIbis. - Valsheid in informatica. <ingevoegd bij W 2000-11-28/34, art. 4; Inwerkingtreding : 13-02- 2001>
 ###### Art. 210bis
-
 
 
 ##### AFDELING III. - VALSHEID IN TELEGRAMMEN.
@@ -1406,7 +1389,6 @@ Indien de toegebrachte slagen bloedstorting, verwonding of ziekte veroorzaken, w
 
 ###### Art. 279bis
 
-
 ###### Art. 280
 
 [ 1 Indien de misdaad of het wanbedrijf is gepleegd op een ministerieel ambtenaar, een agent die drager is van het openbaar gezag of van de openbare macht of op enig ander persoon met een openbare hoedanigheid bekleed, in de uitvoering of [ 2 in de uitoefening of naar aanleiding van de uitoefening van deze functie,] 2 zijn de straffen de volgende :  [ 2 1° in de gevallen bedoeld in artikel 393, is de straf levenslange opsluiting;] 2
@@ -1554,7 +1536,6 @@ Zij die, door samenscholing en door geweld of bedreiging, de openbare orde op ma
 ----------  ( 1 )<W 2016-12-25/37, art. 31, 122; Inwerkingtreding : 27-01-2017>
 
 ###### Art. 314bis
-
 
 gevangenisstraf van zes maanden tot twee jaar] 2 en met geldboete van tweehonderd [euro] tot tienduizend [euro] of met een van die straffen alleen wordt gestraft hij die : <W 2000-06-26/42, art. 2, Inwerkingtreding : 01- 01-2002>  1° [ 1 ofwel, opzettelijk, met behulp van enig toestel niet voor publiek toegankelijke communicatie, waaraan hij niet deelneemt, onderschept of doet onderscheppen, er kennis van neemt of doet van nemen, opneemt of doet opnemen, zonder de toestemming van alle deelnemers aan die communicatie;] 1
 
@@ -2014,7 +1995,6 @@ Poging om iemand stoffen als bedoeld in artikel 402 toe te dienen, zonder het oo
 
 ###### Art. 405ter
 
-
 ###### Art. 405quater
 
 [ 1 [ 2 Wanneer een van de drijfveren van de dader bestaat uit de haat tegen, het misprijzen van of de vijandigheid tegen een persoon wegens diens zogenaamd ras, huidskleur, afkomst, nationale of etnische afstamming, nationaliteit, geslacht, zwangerschap, bevalling, het geven van borstvoeding, medisch begeleide voortplanting, ouderschap, zogenaamde geslachtsverandering, genderidentiteit, genderexpressie, seksekenmerken, seksuele geaardheid, burgerlijke staat, geboorte, leeftijd, vermogen, geloof of levensbeschouwing, gezondheidstoestand, handicap, taal, politieke overtuiging, syndicale overtuiging, fysieke of genetische eigenschap of sociale afkomst en positie, ongeacht of dit kenmerk daadwerkelijk aanwezig is of slechts vermeend is door de dader] 2 , zijn de straffen de volgende :  1° in de in artikel 393 bedoelde gevallen is de straf levenslange opsluiting;  2° in de in de artikelen 398, 399, 405 en 405bis, 1° tot 3°, bedoelde gevallen wordt de in voornoemde artikelen bedoelde maximale gevangenisstraf verdubbeld met een maximum van vijf jaar en de maximale geldboete verdubbeld met een maximum van vijfhonderd euro;  3° in de in de artikelen 400, eerste lid, 402 en 405bis, 4°, bedoelde gevallen is de straf opsluiting van vijf jaar tot tien jaar;  4° in de in de artikelen 400, tweede lid, 401, eerste lid, 403, 405bis, 5° en 9°, bedoelde gevallen is de straf opsluiting van tien jaar tot vijftien jaar;  5° in de in de artikelen 401, tweede lid, 405bis, 6°, 7° en 10°, bedoelde gevallen is de straf opsluiting van vijftien jaar tot twintig jaar;  6° in de in de artikelen 404, 405bis, 8° en 11°, bedoelde gevallen is de straf opsluiting van twintig jaar tot dertig jaar.] 1
@@ -2085,16 +2065,13 @@ Er is noch misdaad, noch wanbedrijf, wanneer de doodslag, de verwondingen en de 
 ##### Afdeling V. - Foltering, onmenselijke behandeling en onterende behandeling. <ingevoegd bij W 2002-06-14/42, art. 5; Inwerkingtreding : 24-08-2002>
 ###### Art. 417/1
 
-
 ###### Art. 417/2
-
 
 2° of wanneer de handeling een ongeneeslijk lijkende ziekte, hetzij een [ 2 ongeschiktheid tot het verrichten van persoonlijke arbeid van meer dan vier maanden] 2 , hetzij het volledig verlies van een orgaan of van het gebruik van een orgaan, hetzij een zware verminking heeft veroorzaakt.  Het misdrijf bedoeld in het eerste lid wordt gestraft met opsluiting van twintig jaar tot dertig jaar als :  1° als het is gepleegd op een minderjarige of op een persoon die uit hoofde van zijn lichaams- of geestestoestand niet bij machte is om in zijn onderhoud te voorzien, door de vader, de moeder of door andere bloedverwanten in de opgaande lijn, door enig andere persoon die gezag over hem heeft of die hem onder zijn bewaring heeft, of door iedere meerderjarige persoon die occasioneel of gewoonlijk met het slachtoffer samenleeft;  2° of als het de dood heeft veroorzaakt, en gepleegd is zonder het oogmerk om te doden.  Het bevel van een meerdere of van een gezag kan het misdrijf bedoeld in het eerste lid niet verantwoorden.  (De noodtoestand kan het misdrijf bedoeld in het eerste lid niet verantwoorden.) <W 2006-05-18/53, art. 2, 060; Inwerkingtreding : 11-12-2006>  ----------  ( 1 )<W 2011-11-26/19, art. 13, 084; Inwerkingtreding : 02-02-2012>   ( 2 )<W 2016-02-05/11, art. 23, 114; Inwerkingtreding : 29-02-2016>   ( 3 )<W 2022-03-21/01, art. 95, 148; Inwerkingtreding : 01-06-2022>   ( 4 )<W 2024-01-18/06, art. 35, 157; Inwerkingtreding : 05-02-2024>
 
 2° of wanneer de handeling een ongeneeslijk lijkende ziekte, hetzij een [ 2 ongeschiktheid tot het verrichten van persoonlijke arbeid van meer dan vier maanden] 2 , hetzij het volledig verlies van een orgaan of van het gebruik van een orgaan, hetzij een zware verminking heeft veroorzaakt.  Het misdrijf bedoeld in het eerste lid wordt gestraft met opsluiting van vijftien jaar tot twintig jaar :  1° als het is gepleegd op een minderjarige of op een persoon die uit hoofde van zijn lichaams- of geestestoestand niet bij machte is om in zijn onderhoud te voorzien, door de vader, de moeder of door andere bloedverwanten in de opgaande lijn, door enig andere persoon die gezag over hem heeft of die hem onder zijn bewaring heeft, of door iedere meerderjarige persoon die occasioneel of gewoonlijk met het slachtoffer samenleeft;  2° of als het de dood heeft veroorzaakt en gepleegd is zonder het oogmerk te doden.  Het bevel van een meerdere of van een gezag kan het misdrijf bedoeld in het eerste lid niet verantwoorden.  ----------  ( 1 )<W 2011-11-26/19, art. 14, 084; Inwerkingtreding : 02-02-2012>   ( 2 )<W 2016-02-05/11, art. 10, 114; Inwerkingtreding : 29-02-2016>   ( 3 )<W 2022-03-21/01, art. 96, 148; Inwerkingtreding : 01-06-2022>   ( 4 )<W 2024-01-18/06, art. 36, 157; Inwerkingtreding : 05-02-2024>
 
 ###### Art. 417/4
-
 
 ----------  ( 1 )<W 2011-11-26/19, art. 15, 084; Inwerkingtreding : 02-02-2012>   ( 2 )<W 2022-03-21/01, art. 97, 148; Inwerkingtreding : 01-06-2022>
 
@@ -2573,7 +2550,6 @@ een persoon van wie de kwetsbare toestand ten gevolge van de leeftijd, zwangersc
 ###### Art. 433bis
 
 
-
 ----------  ( 1 )<W 2016-02-05/11, art. 26, 114; Inwerkingtreding : 29-02-2016>
 
 ##### Afdeling VIII. - [ 1 Lokken van minderjarigen via informatie- en communicatietechnologieën met het oog op het plegen van een misdaad of een wanbedrijf.] 1
@@ -2581,11 +2557,9 @@ een persoon van wie de kwetsbare toestand ten gevolge van de leeftijd, zwangersc
 
 ###### Art. 433ter
 
-
 ----------  ( 1 )<W 2013-06-24/24, art. 3, 097; Inwerkingtreding : 02-08-2013>
 
 ###### Art. 433quater
-
 
 ----------  ( 1 )<W 2011-11-26/19, art. 30, 084; Inwerkingtreding : 02-02-2012>   ( 2 )<W 2013-06-24/24, art. 4, 097; Inwerkingtreding : 02-08-2013>
 
@@ -2639,11 +2613,9 @@ Behalve in het in 5 bedoelde geval is de toestemming van de in het eerste lid be
 
 ###### Art. 433sexies
 
-
 ----------  ( 1 )<W 2013-06-24/24, art. 6, 097; Inwerkingtreding : 02-08-2013>
 
 ###### Art. 433septies
-
 
 4° ingeval het leven van het slachtoffer opzettelijk of door grove nalatigheid in gevaar is gebracht;  5° ingeval het misdrijf een ongeneeslijk lijkende ziekte, hetzij een [ 3 ongeschiktheid tot het verrichten van persoonlijke arbeid van meer dan vier maanden] 3 , hetzij het volledig verlies van een orgaan of van het gebruik van een orgaan, hetzij een zware verminking heeft veroorzaakt;  6° in geval van de betrokken activiteit een gewoonte wordt gemaakt;  7° ingeval het een daad van deelneming aan de hoofd- of bijkomende bedrijvigheid van een vereniging betreft, ongeacht of de schuldige de hoedanigheid van leidend persoon heeft of niet.  [ 2 De boete wordt zo veel keer toegepast als er slachtoffers zijn.] 2
 
@@ -2899,7 +2871,6 @@ Hij die schuldig bevonden wordt aan het wegmaken van een (aan een postoperator) 
 
 ###### Art. 460ter
 
-
 ### TITEL IX. - MISDADEN EN WANBEDRIJVEN TEGEN EIGENDOMMEN.
 
 ###### Art. 462
@@ -3074,12 +3045,9 @@ BIJZONDERE BEPALING.
 
 ###### Art. 489ter
 
-
 ###### Art. 489quater
 
-
 ###### Art. 489sexies
-
 
 ###### Art. 490
 
@@ -3106,7 +3074,6 @@ Hij die ten nadele van een ander [ 1 een roerend goed met economische waarde dat
 De bepaling van artikel 462 is toepasselijk op het misdrijf in het vorige artikel omschreven.
 
 ###### Art. 492bis
-
 
 ###### Art. 493
 
@@ -3164,9 +3131,7 @@ De bepaling van artikel 462 is toepasselijk op de misdrijven, in de artikelen 49
 ##### AFDELING IIIBIS. <Ingevoegd bij W 1999-02-10/39, art. 5; Inwerkingtreding : 02-04-1999>
 ###### Art. 504bis
 
-
 ###### Art. 504ter
-
 
 
 ----------  ( 1 )<Ingevoegd bij W 2024-01-18/06, art. 40, 157; Inwerkingtreding : 05-02-2024>
@@ -3188,7 +3153,6 @@ vergunningsplichtige wapens of geld met een illegale herkomst in bezit heeft.  �
 
 ###### Art. 505bis
 
-
 ###### Art. 505ter
 
 [ 1 De misdrijven bedoeld in artikel 505, eerste lid, 2° tot 4°, worden gestraft met gevangenisstraf van drie jaar tot vijf jaar en met geldboete van tienduizend euro tot tweehonderdduizend euro of met een van die straffen alleen wanneer zij zijn gepleegd in de volgende omstandigheden:  1° de dader van het misdrijf is een meldingsplichtige entiteit bedoeld in artikel 2 van de Richtlijn (EU) 2015/849 van het Europees Parlement en de Raad van 20 mei 2015 inzake de voorkoming van het gebruik van het financiële stelsel voor het witwassen van geld of terrorismefinanciering, tot wijziging van Verordening (EU) nr. 648/2012 van het Europees Parlement en de Raad en tot intrekking van Richtlijn 2005/60/EG van het Europees Parlement en de Raad en Richtlijn 2006/70/EG van de Commissie, gevestigd in België, in een ander land van de Europese Economische Ruimte of een derde land dat verplichtingen oplegt die gelijkaardig zijn aan die uit de voornoemde Richtlijn, en deze het misdrijf heeft gepleegd in het kader van de uitoefening van zijn beroepsactiviteiten; of  2° het strafbare feit is gepleegd in het kader van een criminele organisatie zoals omschreven in artikel 324bis. ] 1
@@ -3206,7 +3170,6 @@ vergunningsplichtige wapens of geld met een illegale herkomst in bezit heeft.  �
 Met gevangenisstraf van acht dagen tot twee jaar en met geldboete van zesentwintig [euro] tot vijfhonderd [euro] worden gestraft de beslagene en allen die voorwerpen waarop tegen hem beslag is gedaan, in zijn belang bedrieglijk vernietigen of wegmaken. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  (Dezelfde bepaling is van toepassing op de echtgenoot of op hen die in zijn belang roerende goederen vernietigen, beschadigen of wegmaken, ten aanzien waarvan een maatregel is uitgevaardigd als bedoeld (in artikel 223 van het Burgerlijk Wetboek)(en in de artikelen 1253septies, tweede lid, en 1280 van het Gerechtelijk Wetboek.)) <W 1990-04-09/35, art. 1, 003; Inwerkingtreding : 19-06-1990>
 
 ###### Art. 507bis
-
 
 ###### Art. 508
 
@@ -3296,7 +3259,6 @@ De bepaling van artikel 518 is toepasselijk op het geval in het vorige artikel o
 
 ###### Art. 525bis
 
-
 ----------  ( 1 )<W 2009-12-30/01, art. 116, 074; Inwerkingtreding : 31-12-2009>   ( 2 )<W 2022-12-06/02, art. 31, 152; Inwerkingtreding : 31-12-2022>
 
 
@@ -3343,9 +3305,7 @@ Hij die de banden of de hindernissen waarmee een vaartuig, een wagon of een voer
 ##### Afdeling IVbis. - Graffiti en beschadiging van onroerende eigendommen. <ingevoegd bij W 2007-01-25/39, art. 3, Inwerkingtreding : 02-03-2007>
 ###### Art. 534bis
 
-
 ###### Art. 534quater
-
 
 ----------  ( 1 )<W 2009-12-30/01, art. 118, 074; Inwerkingtreding : 31-12-2009>   ( 2 )<W 2022-12-06/02, art. 31, 152; Inwerkingtreding : 31-12-2022>
 
@@ -3438,7 +3398,6 @@ Met geldboete van vijftig [euro] tot vijfhonderd [euro] worden gestraft de eigen
 ### TITEL IXbis. - Misdrijven tegen de vertrouwelijkheid, integriteit en beschikbaarheid van informaticasystemen en van de gegevens die door middel daarvan worden opgeslagen, verwerkt of overgedragen. <ingevoegd bij W 2000-11-28/34, art. 6; Inwerkingtreding : 13-02-2001>
 
 ###### Art. 550ter
-
 
 § 2. Hij die, ten gevolge van het plegen van een misdrijf bedoeld in § 1, schade berokkent aan gegevens in dit of enig ander informaticasysteem, wordt gestraft met gevangenisstraf van zes maanden tot vijf jaar en met geldboete van zesentwintig [euro] tot vijfenzeventigduizend [euro] of met een van die straffen alleen. <W 2000- 06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  § 3. Hij die, ten gevolge van het plegen van een van de misdrijven bedoeld in § 1, de correcte werking van dit of enig ander informaticasysteem geheel of gedeeltelijk belemmert, wordt gestraft met gevangenisstraf van een jaar tot vijf jaar en met geldboete van zesentwintig f rank tot honderdduizend [euro] of met een van die straffen alleen. <W 2000-06-26/42, art. 2, Inwerkingtreding : 01-01-2002>  § 4. (Hij die onrechtmatig enig instrument, met inbegrip van informaticagegevens, dat hoofdzakelijk is ontworpen of aangepast om de in §§ 1 tot 3 bedoelde misdrijven mogelijk te maken, bezit, produceert, verkoopt, verkrijgt met het oog op gebruik ervan, invoert, verspreidt of op enige andere manier ter beschikking stelt terwijl hij weet dat deze gegevens aangewend kunnen worden om schade te berokkenen aan gegevens of, geheel of gedeeltelijk, de correcte werking van een informaticasysteem te belemmeren, wordt gestraft met gevangenisstraf van zes maanden tot drie jaar en met geldboete van zesentwintig euro tot honderdduizend euro of met één van die straffen alleen.) <W 2006-05-15/46, art. 6, 2°, 059; Inwerkingtreding : 22-09-2006>  § 5. De straffen bepaald in de §§ 1 tot 4 worden verdubbeld indien een overtreding van een van die bepalingen wordt begaan binnen vijf jaar na de uitspraak houdende veroordeling wegens een van die strafbare feiten of wegens een van de strafbare feiten bedoeld in de artikelen 210bis, 259bis, 314bis, 504quater of 550bis.  (§ 6. Poging tot het plegen van het in § 1 bedoelde misdrijf wordt gestraft met dezelfde straffen.) <W 2006-05- 15/46, art. 6, 3°, 059; Inwerkingtreding : 22-09-2006>  ----------  ( 1 )<W 2017-07-06/24, art. 215, 124; Inwerkingtreding : 03-08-2017>   ( 2 )<W 2025-12-19/94, art. 62, 165; Inwerkingtreding : 19-01-2026>
 
