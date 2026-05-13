@@ -24,20 +24,18 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T13:19:30Z'
+    status: trusted
+    confirmed_at: '2026-05-13T13:22:50Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "De nieuwe strip_inline_footnote_block heeft de false-positive '## Art. 139:' heading succesvol verwijderd (geen heading-anker meer voor footnote-residu). Echter: de orphan opsommingsitems '1°', '5°', '6°' (regels 75-77) staan nog steeds als pseudo-content tussen Art. 3, eerste lid (regels 71-73) en het echte vervolg op regel 79 ('Er moet evenwel een nieuw attest...'). Dit blijft retrievaal-schadelijk omdat Art. 3 inhoudelijk gesplitst is door tekst uit W 13.04.2019 die niets met KB nr. 39 te maken heeft. Partial fix is onvoldoende; de orphan-items moeten ook gestript worden. Plus: KB is sinds 01.01.2020 opgeheven (regel 54)."
+    rationale: "De nieuwe sticky-mode strip_inline_footnote_block heeft het probleem opgelost: de orphan opsommingsitems '1°', '5°', '6°' die layer1 als footnote-residu signaleerde tussen Art. 3 eerste lid en het echte vervolg zijn nu volledig gestript. Art. 3 (regels 70-74) leest nu als drie samenhangende paragrafen: eerste lid over één-attest-principe, tweede lid over uitreikingsdatum (max één maand voor aanvraag), derde lid over nieuw attest na zes maanden. De false-positive '## Art. 139:' heading uit eerdere ronde is ook al weg. Structuur Art. 1–7 met inwerkingtreding-annotaties is correct. Opheffing per 01.01.2020 (regel 53-55) is correct gedocumenteerde wettelijke status — geen kwaliteitsprobleem maar historische context."
     layer1:
     layer2:
-      status: needs-rework
+      status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:30Z'
-      rationale: "De nieuwe strip_inline_footnote_block heeft de false-positive '## Art. 139:' heading succesvol verwijderd (geen heading-anker meer voor footnote-residu). Echter: de orphan opsommingsitems '1°', '5°', '6°' (regels 75-77) staan nog steeds als pseudo-content tussen Art. 3, eerste lid (regels 71-73) en het echte vervolg op regel 79 ('Er moet evenwel een nieuw attest...'). Dit blijft retrievaal-schadelijk omdat Art. 3 inhoudelijk gesplitst is door tekst uit W 13.04.2019 die niets met KB nr. 39 te maken heeft. Partial fix is onvoldoende; de orphan-items moeten ook gestript worden. Plus: KB is sinds 01.01.2020 opgeheven (regel 54)."
+      run_at: '2026-05-13T13:22:50Z'
+      rationale: "De nieuwe sticky-mode strip_inline_footnote_block heeft het probleem opgelost: de orphan opsommingsitems '1°', '5°', '6°' die layer1 als footnote-residu signaleerde tussen Art. 3 eerste lid en het echte vervolg zijn nu volledig gestript. Art. 3 (regels 70-74) leest nu als drie samenhangende paragrafen: eerste lid over één-attest-principe, tweede lid over uitreikingsdatum (max één maand voor aanvraag), derde lid over nieuw attest na zes maanden. De false-positive '## Art. 139:' heading uit eerdere ronde is ook al weg. Structuur Art. 1–7 met inwerkingtreding-annotaties is correct. Opheffing per 01.01.2020 (regel 53-55) is correct gedocumenteerde wettelijke status — geen kwaliteitsprobleem maar historische context."
       concrete_problemen:
-        - "Regels 75-77: orphan opsommingsitems '1° op het administratieve dwangbevel...', '5° op fiscale schuldvorderingen...', '6° op fiscale en niet-fiscale schuldvorderingen...' — footnote-residu van W 13.04.2019, niet KB nr. 39"
-        - 'Art. 3-tekst is gesplitst: eerste lid (regel 71-73), dan footnote-residu (75-77), dan echte vervolg-zin op regel 79 — retrieval-chunk wordt vervuild'
-        - 'KB sinds 01.01.2020 opgeheven (regel 54): bron is historisch, niet meer toepasselijk voor het examen'
+        - KB opgeheven per 01.01.2020 (regel 53-55) — historische bron, retrieval-impact afhankelijk van examen-scope (geen tekstkwaliteitsfout)
 ---
 
 # K.B. nr. 39 van 17 oktober 1980, tot regeling van de toepassingsmodaliteiten van artikel 93duodecies van het Wetboek van de belasting over de toegevoegde waarde

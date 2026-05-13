@@ -25,21 +25,21 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T13:19:30Z'
+    confirmed_at: '2026-05-13T13:22:50Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "De relaxed strip_leading_toc_heading_block heeft hier NIET getriggered — het TOC-blok regels 55-77 staat er volledig nog: '### Onderafdeling 1. ... Art. 1 - 8' met spurious linebreaks ('Inning en\\nInvordering' regels 62-63; 'Mini One Stop Shop\\n- VAT BE' regels 65-66), gevolgd door 'Disposition temporaire Art. 13ter' (regel 70) als Franse leak, gevolgd door volledige duplicatie van Afdeling 1 + Onderafdelingen op regels 72-80. De duplicate-evidence is er duidelijk (Afdeling 1 verschijnt op regel 56 EN 72; Onderafdeling 1 op 59 EN 79), maar de transformer herkent de TOC-headings niet als gelijke titel omdat de TOC-variant artikel-ranges achteraan plakt ('Art. 1 - 8') en spurious linebreaks heeft. Dit blijft de meest schadelijke kwaliteitsfout van het bestand. Plus: smart-quote mismatch ('VAT BE' regel 66 opent met \" sluit met ”) en kapitalisatie-mix ('## AFDELING 1' all-caps regel 56 vs '## AFDELING 1' regel 72)."
+    rationale: "De sticky-mode strip_inline_footnote_block fix was niet relevant voor dit bestand — het hoofdprobleem (TOC-blok niet gestript) blijft volledig onveranderd. Regels 55-69 bevatten nog steeds het TOC-blok: '## AFDELING 1. Betalingen op de rekeningen van btw-ontvangsten' (regel 55-56) met daaronder '### Onderafdeling 1.' t/m '### Onderafdeling 4.' met artikel-ranges ('Art. 1 - 8', 'Art. 9 - 13', 'Art. 13bis') en spurious linebreaks midden in de headings ('Inning en\\nInvordering' regel 61-62; 'Mini One Stop Shop\\n- VAT BE' regel 64-65). Regel 69 bevat de Franstalige leak 'Disposition temporaire Art. 13ter'. Regels 71-80 dupliceren Afdeling 1 + Onderafdeling 1 als full sections direct na het TOC-blok (Afdeling 1 verschijnt op regel 55 EN 71; Onderafdeling 1 op 58 EN 78). Plus smart-quote mismatch op regels 65/67 (opent met \" sluit met ”). Dit blijft retrieval-schadelijk: zoekers naar 'Onderafdeling 1 BTW-Ontvangsten' krijgen twee chunks waarvan één leeg (alleen heading + artikel-range), wat het signaal verdunt."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:19:30Z'
-      rationale: "De relaxed strip_leading_toc_heading_block heeft hier NIET getriggered — het TOC-blok regels 55-77 staat er volledig nog: '### Onderafdeling 1. ... Art. 1 - 8' met spurious linebreaks ('Inning en\\nInvordering' regels 62-63; 'Mini One Stop Shop\\n- VAT BE' regels 65-66), gevolgd door 'Disposition temporaire Art. 13ter' (regel 70) als Franse leak, gevolgd door volledige duplicatie van Afdeling 1 + Onderafdelingen op regels 72-80. De duplicate-evidence is er duidelijk (Afdeling 1 verschijnt op regel 56 EN 72; Onderafdeling 1 op 59 EN 79), maar de transformer herkent de TOC-headings niet als gelijke titel omdat de TOC-variant artikel-ranges achteraan plakt ('Art. 1 - 8') en spurious linebreaks heeft. Dit blijft de meest schadelijke kwaliteitsfout van het bestand. Plus: smart-quote mismatch ('VAT BE' regel 66 opent met \" sluit met ”) en kapitalisatie-mix ('## AFDELING 1' all-caps regel 56 vs '## AFDELING 1' regel 72)."
+      run_at: '2026-05-13T13:22:50Z'
+      rationale: "De sticky-mode strip_inline_footnote_block fix was niet relevant voor dit bestand — het hoofdprobleem (TOC-blok niet gestript) blijft volledig onveranderd. Regels 55-69 bevatten nog steeds het TOC-blok: '## AFDELING 1. Betalingen op de rekeningen van btw-ontvangsten' (regel 55-56) met daaronder '### Onderafdeling 1.' t/m '### Onderafdeling 4.' met artikel-ranges ('Art. 1 - 8', 'Art. 9 - 13', 'Art. 13bis') en spurious linebreaks midden in de headings ('Inning en\\nInvordering' regel 61-62; 'Mini One Stop Shop\\n- VAT BE' regel 64-65). Regel 69 bevat de Franstalige leak 'Disposition temporaire Art. 13ter'. Regels 71-80 dupliceren Afdeling 1 + Onderafdeling 1 als full sections direct na het TOC-blok (Afdeling 1 verschijnt op regel 55 EN 71; Onderafdeling 1 op 58 EN 78). Plus smart-quote mismatch op regels 65/67 (opent met \" sluit met ”). Dit blijft retrieval-schadelijk: zoekers naar 'Onderafdeling 1 BTW-Ontvangsten' krijgen twee chunks waarvan één leeg (alleen heading + artikel-range), wat het signaal verdunt."
       concrete_problemen:
-        - 'Regels 55-77: TOC-blok niet gestript door relaxed strip_leading_toc_heading_block — Afdeling 1 en Onderafdelingen 1–4 staan twee keer'
-        - "Regels 62-63, 65-66: spurious linebreaks midden in Onderafdeling-headings ('Inning en\\nInvordering'; 'Mini One Stop Shop\\n- VAT BE')"
-        - "Regel 70: 'Disposition temporaire Art. 13ter' — Franstalig fragment midden in NL-content, compilatie-bleed"
-        - 'Smart-quote inconsistentie regel 66/68: opent met " sluit met ”'
-        - 'Regels 79-87: duplicatie van Afdeling 1 + Onderafdeling 1 als full sections direct na TOC-blok'
+        - 'Regels 55-69: TOC-blok niet gestript — Afdeling 1 + Onderafdelingen 1–4 staan als headings met enkel artikel-ranges, geen content'
+        - "Regels 61-62, 64-65: spurious linebreaks midden in Onderafdeling-headings ('Inning en\\nInvordering'; 'Mini One Stop Shop\\n- VAT BE')"
+        - "Regel 69: 'Disposition temporaire Art. 13ter' — Franstalig fragment midden in Nederlandstalige content (compilatie-bleed)"
+        - 'Regels 71-80: duplicatie van Afdeling 1 + Onderafdeling 1 als full sections direct na het TOC-blok'
+        - "Regels 65/67: smart-quote inconsistentie (opent met \", sluit met ” in 'Mini One Stop Shop - VAT BE')"
 ---
 
 # K.B. nr. 24 van 29 december 1992, met betrekking tot de voldoening van de belasting over de toegevoegde waarde

@@ -8,10 +8,10 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 
 | Type | Totaal | Trusted | Unreviewed | Needs-rework | Rejected | Unknown |
 |---|---|---|---|---|---|---|
-| Wetteksten | 133 | 110 | — | 16 | 7 | — |
+| Wetteksten | 133 | 111 | — | 15 | 7 | — |
 | Normen | 19 | 4 | — | 14 | 1 | — |
 | Adviezen | 436 | 422 | — | 14 | — | — |
-| **Totaal** | **588** | 536 | — | 44 | 8 | — |
+| **Totaal** | **588** | 537 | — | 43 | 8 | — |
 
 ## Wetteksten (133)
 
@@ -36,7 +36,6 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `toelichting-VenB-2025.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | Toelichting bij de aangifte in de vennootschapsbelasting — AJ 2025 |
 | `WBTW-KB20-tarieven.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting over de… |
 | `WBTW-KB24-voldoening-bijzondere.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 24 van 29 december 1992, met betrekking tot de voldoening van de belasting ove… |
-| `WBTW-KB39-regeling-93duodecies.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 39 van 17 oktober 1980, tot regeling van de toepassingsmodaliteiten van artike… |
 | `WBTW-KB41-proportionele-geldboeten.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele f… |
 | `WBTW-KB44-geldboeten.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | K.B. nr. 44 van 9 juli 2012, tot vaststelling van het bedrag van de niet-proportionele … |
 | `WBTW-MB29apr2024-certificatie-kassasysteem.md` | ⚠️ needs-rework | — | needs-rework | subagent-sonnet-4-6 | M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certifica… |
@@ -106,6 +105,7 @@ Auto-gegenereerd door `tools/lib/bronnen_index.py`. **Niet handmatig editen** �
 | `WBTW-KB30-financieringshuur.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 30 van 29 december 1992, met betrekking tot de toepassing van de belasting ove… |
 | `WBTW-KB31-niet-gevestigd.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 31 van 2 april 2002, met betrekking tot de toepassings- modaliteiten van de be… |
 | `WBTW-KB35-reisbureaus.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 35 van 28 december 1999, tot invoering van een forfaitaire maatstaf van heffin… |
+| `WBTW-KB39-regeling-93duodecies.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 39 van 17 oktober 1980, tot regeling van de toepassingsmodaliteiten van artike… |
 | `WBTW-KB4-teruggaven.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over… |
 | `WBTW-KB45-vrijstelling-diplomaten.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 45 van 14 april 1993, met betrekking tot de vrijstelling op het stuk van de be… |
 | `WBTW-KB46-intracommunautaire-aangifte.md` | ✅ trusted | — | trusted | subagent-sonnet-4-6 | K.B. nr. 46 van 29 december 1992, tot regeling van de aangifte van de intracommunautair… |
