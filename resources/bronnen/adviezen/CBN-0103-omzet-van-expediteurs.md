@@ -33,7 +33,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:08Z'
+    confirmed_at: '2026-05-13T13:01:05Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Bugs B3 (duplicate heading) en D4 (gebroken italic '*Bulletin *') zijn beide opgelost: body bevat één heading op regel 58 en '*Bulletin*' is correct gesloten op regel 60. Inhoud is volledig met voetnoten en antwoord van de Minister. Ziet eruit als mens-geschreven."
     layer1:
@@ -47,7 +47,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:08Z'
+      run_at: '2026-05-13T13:01:05Z'
       rationale: "Bugs B3 (duplicate heading) en D4 (gebroken italic '*Bulletin *') zijn beide opgelost: body bevat één heading op regel 58 en '*Bulletin*' is correct gesloten op regel 60. Inhoud is volledig met voetnoten en antwoord van de Minister. Ziet eruit als mens-geschreven."
       concrete_problemen: []
 ---

@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 7b2b73e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:24:32Z'
+  generated_at: '2026-05-13T12:58:48Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:22Z'
+    confirmed_at: '2026-05-13T13:01:15Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: MB met 5 artikelen (incl. 3bis). Schone heading-hierarchie, amendment-markers consistent. Opheffings-melding (regel 51) over MB 22.06.2020 is integraal en logisch geplaatst. Geen TOC- of footer-pollutie. Buitenstaander zou dit als handgeschreven markdown lezen.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:22Z'
+      run_at: '2026-05-13T13:01:15Z'
       rationale: MB met 5 artikelen (incl. 3bis). Schone heading-hierarchie, amendment-markers consistent. Opheffings-melding (regel 51) over MB 22.06.2020 is integraal en logisch geplaatst. Geen TOC- of footer-pollutie. Buitenstaander zou dit als handgeschreven markdown lezen.
       concrete_problemen: []
 ---

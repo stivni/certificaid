@@ -26,7 +26,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:14Z'
+    confirmed_at: '2026-05-13T13:01:10Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen merkbare extractie-artefacten. Eenvoudige maar correcte structuur met twee ## headings. Inhoud volledig: definitie wentelkrediet, voorbeeld, revolving krediet en boekhoudkundige verwerking. Voetnoten aanwezig. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien.'
     layer1:
@@ -40,7 +40,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:14Z'
+      run_at: '2026-05-13T13:01:10Z'
       rationale: 'Geen merkbare extractie-artefacten. Eenvoudige maar correcte structuur met twee ## headings. Inhoud volledig: definitie wentelkrediet, voorbeeld, revolving krediet en boekhoudkundige verwerking. Voetnoten aanwezig. Een buitenstaander zou de markdown voor mens-geschreven kunnen aanzien.'
       concrete_problemen: []
 ---

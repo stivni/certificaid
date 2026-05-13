@@ -27,7 +27,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:01Z'
+    confirmed_at: '2026-05-13T13:00:56Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Kort advies (1623 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
     layer1:
@@ -41,7 +41,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:01Z'
+      run_at: '2026-05-13T13:00:56Z'
       rationale: 'Kort advies (1623 chars): geen ETL-artefacten aangetroffen. Afwezigheid van ##-headings is normaal conform QA-richtlijn voor korte adviezen.'
       concrete_problemen: []
 ---

@@ -28,7 +28,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:19Z'
+    confirmed_at: '2026-05-13T13:01:12Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Korte bron (2579 tekens) zonder subkoppen, conform Laag-1. Inhoud compleet: vraag, analyse, voorbeeld met journaalboeking als pipe-table, drie correct gedefinieerde voetnoten. Geen artefacten in categorieën A-G aangetroffen.'
     layer1:
@@ -42,7 +42,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:19Z'
+      run_at: '2026-05-13T13:01:12Z'
       rationale: 'Korte bron (2579 tekens) zonder subkoppen, conform Laag-1. Inhoud compleet: vraag, analyse, voorbeeld met journaalboeking als pipe-table, drie correct gedefinieerde voetnoten. Geen artefacten in categorieën A-G aangetroffen.'
       concrete_problemen: []
 ---

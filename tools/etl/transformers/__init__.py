@@ -40,6 +40,9 @@ from tools.etl.transformers.normalize_artikel_to_art import normalize_artikel_to
 from tools.etl.transformers.strip_leading_toc_heading_block import strip_leading_toc_heading_block
 from tools.etl.transformers.fix_pdf_slash_loss_in_article_headings import fix_pdf_slash_loss_in_article_headings
 from tools.etl.transformers.strip_french_bilingue_bleed import strip_french_bilingue_bleed
+from tools.etl.transformers.strip_opgeheven_kb_appendix import strip_opgeheven_kb_appendix
+from tools.etl.transformers.merge_wrapped_headings import merge_wrapped_headings
+from tools.etl.transformers.strip_toc_headings_with_art_range import strip_toc_headings_with_art_range
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
@@ -72,6 +75,9 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "strip_leading_toc_heading_block": strip_leading_toc_heading_block,
     "fix_pdf_slash_loss_in_article_headings": fix_pdf_slash_loss_in_article_headings,
     "strip_french_bilingue_bleed": strip_french_bilingue_bleed,
+    "strip_opgeheven_kb_appendix": strip_opgeheven_kb_appendix,
+    "merge_wrapped_headings": merge_wrapped_headings,
+    "strip_toc_headings_with_art_range": strip_toc_headings_with_art_range,
 }
 
 

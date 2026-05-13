@@ -42,7 +42,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:19Z'
+    confirmed_at: '2026-05-13T13:01:13Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Geen structurele artefacten. De italic-vlaggen uit de analyse zijn false positives: '*ratione temporis*'-patronen zijn juridisch gebruik, niet extractiefout. Geen orphan-footnotes, geen TOC-fragmenten, geen asymmetrische tabellen. 11 headings correct genesteld, inhoud volledig, alle 28 voetnootdefinities aanwezig."
     layer1:
@@ -56,7 +56,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:19Z'
+      run_at: '2026-05-13T13:01:13Z'
       rationale: "Geen structurele artefacten. De italic-vlaggen uit de analyse zijn false positives: '*ratione temporis*'-patronen zijn juridisch gebruik, niet extractiefout. Geen orphan-footnotes, geen TOC-fragmenten, geen asymmetrische tabellen. 11 headings correct genesteld, inhoud volledig, alle 28 voetnootdefinities aanwezig."
       concrete_problemen: []
 ---

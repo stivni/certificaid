@@ -39,7 +39,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:13Z'
+    confirmed_at: '2026-05-13T13:01:09Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Drie alinea's, geen headings (heading_count=0, correct). Wetsartikel geciteerd als prose, geen tabellen of lijsten nodig. Geen artefacten, inhoud volledig en afgerond.
     layer1:
@@ -53,7 +53,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:13Z'
+      run_at: '2026-05-13T13:01:09Z'
       rationale: Drie alinea's, geen headings (heading_count=0, correct). Wetsartikel geciteerd als prose, geen tabellen of lijsten nodig. Geen artefacten, inhoud volledig en afgerond.
       concrete_problemen: []
 ---

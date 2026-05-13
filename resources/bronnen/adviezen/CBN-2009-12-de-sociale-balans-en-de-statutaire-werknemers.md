@@ -27,7 +27,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:14Z'
+    confirmed_at: '2026-05-13T13:01:09Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen extractie-artefacten gevonden. Vier secties correct hiërarchisch als ## headings opgemaakt, voetnoten [^1]–[^12] volledig gedefinieerd, geen afgekapte zinnen, geen invisible unicode of HTML-entities. Body kort en inhoudelijk compleet.'
     layer1:
@@ -41,7 +41,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:14Z'
+      run_at: '2026-05-13T13:01:09Z'
       rationale: 'Geen extractie-artefacten gevonden. Vier secties correct hiërarchisch als ## headings opgemaakt, voetnoten [^1]–[^12] volledig gedefinieerd, geen afgekapte zinnen, geen invisible unicode of HTML-entities. Body kort en inhoudelijk compleet.'
       concrete_problemen: []
 ---

@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:14Z'
+    confirmed_at: '2026-05-13T13:01:10Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Eveneens manueel aangemaakt; geen PDF-extractiesporen. Tabellen correct in pipe-syntax, heading-hiërarchie consistent (## Vak XXI/XVII/XVIII, ### Rubriek). Tarief-samenvatting aan het einde is helder. Kruisreferenties naar WIB92-artikelen correct. Frontmatter stemt overeen met inhoud.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:14Z'
+      run_at: '2026-05-13T13:01:10Z'
       rationale: 'Eveneens manueel aangemaakt; geen PDF-extractiesporen. Tabellen correct in pipe-syntax, heading-hiërarchie consistent (## Vak XXI/XVII/XVIII, ### Rubriek). Tarief-samenvatting aan het einde is helder. Kruisreferenties naar WIB92-artikelen correct. Frontmatter stemt overeen met inhoud.'
       concrete_problemen: []
 ---

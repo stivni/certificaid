@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7b2b73e
+    pipeline_version: 7b2b73e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:53:30Z'
+  generated_at: '2026-05-13T13:00:19Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:24Z'
+    confirmed_at: '2026-05-13T13:01:17Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Compact KB (3 art) met belangrijk historisch opheffings-/vernietigingsblok in de preambule. Inhoud volledig en leesbaar; markdown-structuur netjes (H1 + ## Art.). Bestandsnaam suggereert diplomaten, maar inhoud betreft kans- en geldspelen — frontmatter en wet-titel matchen wel (kans- en geldspelen), dus dit is enkel een misleidende filename, geen content-defect.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:24Z'
+      run_at: '2026-05-13T13:01:17Z'
       rationale: 'Compact KB (3 art) met belangrijk historisch opheffings-/vernietigingsblok in de preambule. Inhoud volledig en leesbaar; markdown-structuur netjes (H1 + ## Art.). Bestandsnaam suggereert diplomaten, maar inhoud betreft kans- en geldspelen — frontmatter en wet-titel matchen wel (kans- en geldspelen), dus dit is enkel een misleidende filename, geen content-defect.'
       concrete_problemen:
         - Filename WBTW-KB45-vrijstelling-diplomaten.md komt niet overeen met inhoud (kans- en geldspelen). Inhoudelijk geen blokker, maar verdient een rename-fix op een later moment.

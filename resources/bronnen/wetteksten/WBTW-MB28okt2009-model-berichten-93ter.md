@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 7b2b73e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:24:32Z'
+  generated_at: '2026-05-13T12:58:49Z'
   stale: false
   stale_reason:
   trust:
     status: rejected
-    confirmed_at: '2026-05-13T12:54:24Z'
+    confirmed_at: '2026-05-13T13:01:17Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Source-rejection: de drie bijlagen (Bijlage 1/2/3, regels 72-76) bevatten de modelberichten 93ter/93quinquies + 433/435 — kerncontent van dit MB — en zijn in de bron-PDF afbeeldingen die niet door pdftotext geëxtraheerd kunnen worden. Wat overblijft (Art. 1-5) zijn verwijzings-artikelen ('De berichten worden opgemaakt overeenkomstig het model dat voorkomt in bijlage X') die zonder de bijlagen retrievaal-waarde nul hebben. Plus: dit MB is sinds 06.07.2020 opgeheven (regel 49). De hoofdtekst (Art. 1-5) is technisch schoon — geen ETL-issues — maar de inhoudelijke kern ontbreekt structureel door bron-beperkingen. ETL kan dit niet repareren; vereist OCR op de bijlagen-afbeeldingen of een tekstuele bronversie. Rejected met (source) rationale verkoosbaar boven needs-rework omdat het document fundamenteel onvolledig blijft."
     layer1:
     layer2:
       status: rejected
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:24Z'
+      run_at: '2026-05-13T13:01:17Z'
       rationale: "Source-rejection: de drie bijlagen (Bijlage 1/2/3, regels 72-76) bevatten de modelberichten 93ter/93quinquies + 433/435 — kerncontent van dit MB — en zijn in de bron-PDF afbeeldingen die niet door pdftotext geëxtraheerd kunnen worden. Wat overblijft (Art. 1-5) zijn verwijzings-artikelen ('De berichten worden opgemaakt overeenkomstig het model dat voorkomt in bijlage X') die zonder de bijlagen retrievaal-waarde nul hebben. Plus: dit MB is sinds 06.07.2020 opgeheven (regel 49). De hoofdtekst (Art. 1-5) is technisch schoon — geen ETL-issues — maar de inhoudelijke kern ontbreekt structureel door bron-beperkingen. ETL kan dit niet repareren; vereist OCR op de bijlagen-afbeeldingen of een tekstuele bronversie. Rejected met (source) rationale verkoosbaar boven needs-rework omdat het document fundamenteel onvolledig blijft."
       concrete_problemen:
         - (source) Bijlagen 1, 2, 3 bevatten de modelberichten als afbeeldingen in de PDF — niet extraheerbaar zonder OCR

@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:53:59Z'
+    confirmed_at: '2026-05-13T13:00:56Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "L1 pass: 189 headings, max sectie 10694 chars. ###### Artikel-headings correct, TITEL/HOOFDSTUK-structuur aanwezig. Wijzigingsmarkers '(gewijzigd bij art...)' zijn Fisconet-stijl, OK. Inhoud volledig."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:53:59Z'
+      run_at: '2026-05-13T13:00:56Z'
       rationale: "L1 pass: 189 headings, max sectie 10694 chars. ###### Artikel-headings correct, TITEL/HOOFDSTUK-structuur aanwezig. Wijzigingsmarkers '(gewijzigd bij art...)' zijn Fisconet-stijl, OK. Inhoud volledig."
       concrete_problemen: []
 ---

@@ -34,7 +34,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:13Z'
+    confirmed_at: '2026-05-13T13:01:08Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd, tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met correcte verwijzingen naar andere CBN-adviezen.
     layer1:
@@ -48,7 +48,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:13Z'
+      run_at: '2026-05-13T13:01:08Z'
       rationale: 2 H2-secties, geen extractie-artefacten, footnotes correct gedefinieerd, tekst leest als mens-geschreven markdown. Inhoudelijk volledig advies met correcte verwijzingen naar andere CBN-adviezen.
       concrete_problemen: []
 ---

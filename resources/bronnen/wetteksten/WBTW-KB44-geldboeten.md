@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7b2b73e
+    pipeline_version: 7b2b73e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:53:30Z'
+  generated_at: '2026-05-13T13:00:18Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:54:22Z'
+    confirmed_at: '2026-05-13T13:01:15Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Net als KB41 zware kolom-bleed in de hele bijlage: 2-koloms PDF-tabel (overtreding | boete) is in plain text gemerged. Voorbeelden: 'B. Laattijdig indienen 100 EUR per aangifte en per maand vertraging1 met een maximum...' (regel 89). De boete-bedragen kleven aan de overtredingsbeschrijving. Geen pipe-syntax. Bijlage is daardoor onbruikbaar voor retrieval als gestructureerde data."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:22Z'
+      run_at: '2026-05-13T13:01:15Z'
       rationale: "Net als KB41 zware kolom-bleed in de hele bijlage: 2-koloms PDF-tabel (overtreding | boete) is in plain text gemerged. Voorbeelden: 'B. Laattijdig indienen 100 EUR per aangifte en per maand vertraging1 met een maximum...' (regel 89). De boete-bedragen kleven aan de overtredingsbeschrijving. Geen pipe-syntax. Bijlage is daardoor onbruikbaar voor retrieval als gestructureerde data."
       concrete_problemen:
         - 'Hele bijlage (regels 81-351) is kolom-bleed: overtreding en bijhorende boete staan zonder scheiding op zelfde regel'
@@ -215,8 +215,7 @@ C. Ontbrekende of verkeerde gegevens 50 EUR per ontbrekend of verkeerd gegeven m
 
 D. Niet naleven van de procedure van indienen 200 EUR per document
 
-## AFDELING 2 : FACTUREN EN ANDERE STUKKEN VOORZIEN DOOR OF
-KRACHTENS DE REGELGEVING
+## AFDELING 2 : FACTUREN EN ANDERE STUKKEN VOORZIEN DOOR OF KRACHTENS DE REGELGEVING
 
 I. Factuur en als zodanig geldend stuk
 

@@ -39,7 +39,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:14Z'
+    confirmed_at: '2026-05-13T13:01:09Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Één tekstblok, geen headings vereist. Geen lijsten, geen tabellen, geen voetnoten. Inhoud compleet en afgerond. Geen enkele extractie-aanwijzing zichtbaar.
     layer1:
@@ -53,7 +53,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:14Z'
+      run_at: '2026-05-13T13:01:09Z'
       rationale: Één tekstblok, geen headings vereist. Geen lijsten, geen tabellen, geen voetnoten. Inhoud compleet en afgerond. Geen enkele extractie-aanwijzing zichtbaar.
       concrete_problemen: []
 ---

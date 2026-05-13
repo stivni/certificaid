@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 7b2b73e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:24:32Z'
+  generated_at: '2026-05-13T12:58:49Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:23Z'
+    confirmed_at: '2026-05-13T13:01:16Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: promote_wettekst_section_labels heeft 'Enig artikel' op regel 48 succesvol gepromoot naar '## Enig artikel' heading. Bestand bevat nu een retrieval-anker voor de centrale bepaling. Hoofdtekst (1 artikel) is volledig en schoon. Geen PDF-extractie-artefacten. Frontmatter klopt.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:23Z'
+      run_at: '2026-05-13T13:01:16Z'
       rationale: promote_wettekst_section_labels heeft 'Enig artikel' op regel 48 succesvol gepromoot naar '## Enig artikel' heading. Bestand bevat nu een retrieval-anker voor de centrale bepaling. Hoofdtekst (1 artikel) is volledig en schoon. Geen PDF-extractie-artefacten. Frontmatter klopt.
       concrete_problemen: []
 ---

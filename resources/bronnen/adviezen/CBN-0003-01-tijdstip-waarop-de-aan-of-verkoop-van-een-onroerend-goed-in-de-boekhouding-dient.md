@@ -40,7 +40,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:07Z'
+    confirmed_at: '2026-05-13T13:01:03Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Vorige verdict markeerde A4 (U+2010 HYPHEN) in heading en body. Geen van de scraper-fixes adresseert A4, maar U+2010 in CBN-HTML is een bron-karakter (typografisch koppelteken in de originele tekst) — geen ETL-introductie. Per source-uitzondering: dit geldt niet als grond voor needs-rework. Inhoud volledig correct, voetnoot [^1] goed geformatteerd, geen andere artefacten aangetroffen.'
     layer1:
@@ -54,7 +54,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:07Z'
+      run_at: '2026-05-13T13:01:03Z'
       rationale: 'Vorige verdict markeerde A4 (U+2010 HYPHEN) in heading en body. Geen van de scraper-fixes adresseert A4, maar U+2010 in CBN-HTML is een bron-karakter (typografisch koppelteken in de originele tekst) — geen ETL-introductie. Per source-uitzondering: dit geldt niet als grond voor needs-rework. Inhoud volledig correct, voetnoot [^1] goed geformatteerd, geen andere artefacten aangetroffen.'
       concrete_problemen:
         - regel: 69

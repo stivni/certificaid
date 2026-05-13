@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 7b2b73e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:24:32Z'
+  generated_at: '2026-05-13T12:58:48Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:22Z'
+    confirmed_at: '2026-05-13T13:01:15Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Korte, schone tekst met heldere ## Art.-structuur en correct genummerde sublijsten. Geen artefacten.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:22Z'
+      run_at: '2026-05-13T13:01:15Z'
       rationale: 'Korte, schone tekst met heldere ## Art.-structuur en correct genummerde sublijsten. Geen artefacten.'
       concrete_problemen: []
 ---

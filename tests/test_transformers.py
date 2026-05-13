@@ -2253,3 +2253,125 @@ class TestStripFrenchBilingueBleed:
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "strip_french_bilingue_bleed" in TRANSFORMERS
+
+
+class TestStripOpgehevenKbAppendix:
+    def test_kb50_pattern(self):
+        from tools.etl.transformers.strip_opgeheven_kb_appendix import strip_opgeheven_kb_appendix
+        body = (
+            "### Art. 17\nDe minister bevoegd...\n\n"
+            "Bijlage\n"
+            "Btw-opgave van de intracommunautaire handelingen\n\n"
+            "Koninklijk besluit nr. 50 van 9 december 2009 ...\n"
+            "Dit koninklijk besluit werd vervangen met ingang van 01.01.2020 door...\n\n"
+            "### Art. 1\nDe belastingplichtigen ...\n"
+        )
+        result, _ = strip_opgeheven_kb_appendix(body, {})
+        assert "Bijlage" not in result.split("Art. 17")[1]
+        assert "werd vervangen" not in result
+        assert "Art. 17" in result
+
+    def test_normal_bijlage_kept(self):
+        """Een echte tabel-bijlage zonder 'werd vervangen' sentinel blijft staan."""
+        from tools.etl.transformers.strip_opgeheven_kb_appendix import strip_opgeheven_kb_appendix
+        body = (
+            "## Art. 5\n\nBody.\n\n"
+            "## Bijlage\nTabel A: Tarieven ...\n"
+            "| Categorie | Tarief |\n|---|---|\n"
+        )
+        result, _ = strip_opgeheven_kb_appendix(body, {})
+        assert result == body
+
+    def test_idempotent(self):
+        from tools.etl.transformers.strip_opgeheven_kb_appendix import strip_opgeheven_kb_appendix
+        body = (
+            "## Art. 5\nBody.\n\n"
+            "Bijlage\nXYZ.\n"
+            "Dit koninklijk besluit werd vervangen met ingang van...\n"
+        )
+        once, _ = strip_opgeheven_kb_appendix(body, {})
+        twice, _ = strip_opgeheven_kb_appendix(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "strip_opgeheven_kb_appendix" in TRANSFORMERS
+
+
+class TestMergeWrappedHeadings:
+    def test_titel_wrap(self):
+        from tools.etl.transformers.merge_wrapped_headings import merge_wrapped_headings
+        body = (
+            "## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\n"
+            "GEREGISTREERD KASSASYSTEEM\n"
+            "\n"
+            "###### Art. 3\n"
+        )
+        result, _ = merge_wrapped_headings(body, {})
+        assert "## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN GEREGISTREERD KASSASYSTEEM" in result
+        # Continuation is geen plain text meer
+        assert "\nGEREGISTREERD KASSASYSTEEM\n" not in result
+
+    def test_no_merge_complete_heading(self):
+        from tools.etl.transformers.merge_wrapped_headings import merge_wrapped_headings
+        body = "## TITEL I. Definities\n\nBody.\n"
+        result, _ = merge_wrapped_headings(body, {})
+        assert result == body
+
+    def test_no_merge_lowercase_continuation(self):
+        from tools.etl.transformers.merge_wrapped_headings import merge_wrapped_headings
+        body = "## TITEL I — EEN\nbody-tekst hier\n"
+        result, _ = merge_wrapped_headings(body, {})
+        # Heading ends in EEN (incomplete ALL-CAPS) but continuation is lowercase → geen merge
+        assert "## TITEL I — EEN" in result
+
+    def test_idempotent(self):
+        from tools.etl.transformers.merge_wrapped_headings import merge_wrapped_headings
+        body = "## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\nGEREGISTREERD KASSASYSTEEM\n\n## Volgende\n"
+        once, _ = merge_wrapped_headings(body, {})
+        twice, _ = merge_wrapped_headings(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "merge_wrapped_headings" in TRANSFORMERS
+
+
+class TestStripTocHeadingsWithArtRange:
+    def test_strip_afdeling_with_range(self):
+        from tools.etl.transformers.strip_toc_headings_with_art_range import strip_toc_headings_with_art_range
+        body = (
+            "## AFDELING 2. Betaling vastgesteld door middel van het systeem PLDA.  Art. 14 - 15\n"
+            "## AFDELING 3. Betaling bestemd voor het kantoor.  Art. 16 - 19\n"
+            "\n"
+            "## AFDELING 1\n"
+            "Echte content hier.\n"
+        )
+        result, _ = strip_toc_headings_with_art_range(body, {})
+        assert "Art. 14 - 15" not in result
+        assert "Art. 16 - 19" not in result
+        assert "## AFDELING 1" in result
+        assert "Echte content" in result
+
+    def test_strip_onderafdeling_with_range(self):
+        from tools.etl.transformers.strip_toc_headings_with_art_range import strip_toc_headings_with_art_range
+        body = "### Onderafdeling 1. Betaling op de postrekening van BTW.  Art. 1 - 8\nBody.\n"
+        result, _ = strip_toc_headings_with_art_range(body, {})
+        assert "Art. 1 - 8" not in result
+
+    def test_keep_heading_without_range(self):
+        from tools.etl.transformers.strip_toc_headings_with_art_range import strip_toc_headings_with_art_range
+        body = "## AFDELING 1. Definities\n\nDe definities zijn van toepassing.\n"
+        result, _ = strip_toc_headings_with_art_range(body, {})
+        assert result == body
+
+    def test_idempotent(self):
+        from tools.etl.transformers.strip_toc_headings_with_art_range import strip_toc_headings_with_art_range
+        body = "## AFDELING 2. Title.  Art. 14 - 15\n\nBody.\n"
+        once, _ = strip_toc_headings_with_art_range(body, {})
+        twice, _ = strip_toc_headings_with_art_range(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "strip_toc_headings_with_art_range" in TRANSFORMERS

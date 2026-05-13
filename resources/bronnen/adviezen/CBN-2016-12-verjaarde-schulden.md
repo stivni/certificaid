@@ -25,7 +25,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:14Z'
+    confirmed_at: '2026-05-13T13:01:10Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Schoon bestand zonder extractie-artefacten. Vijf headings correct genest, voetnoten [^1]–[^15] volledig aanwezig en correct gerefereerd. Tekst doorlopend zonder spurious line-breaks. Geen tabellen aanwezig (niet vereist voor dit type advies). Inhoud compleet: burgerrechtelijke bepalingen + twee boekhoudkundige scenario's behandeld."
     layer1:
@@ -39,7 +39,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:14Z'
+      run_at: '2026-05-13T13:01:10Z'
       rationale: "Schoon bestand zonder extractie-artefacten. Vijf headings correct genest, voetnoten [^1]–[^15] volledig aanwezig en correct gerefereerd. Tekst doorlopend zonder spurious line-breaks. Geen tabellen aanwezig (niet vereist voor dit type advies). Inhoud compleet: burgerrechtelijke bepalingen + twee boekhoudkundige scenario's behandeld."
       concrete_problemen: []
 ---

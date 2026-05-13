@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:53:59Z'
+    confirmed_at: '2026-05-13T13:00:56Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'L1 warn: 100 headings, max sectie 32574 chars (chunker auto-split). Headings correct als ###### Artikel N. EU PB-formatting in body (spurious hyphens) zijn bron-stijl. Inhoud volledig.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:53:59Z'
+      run_at: '2026-05-13T13:00:56Z'
       rationale: 'L1 warn: 100 headings, max sectie 32574 chars (chunker auto-split). Headings correct als ###### Artikel N. EU PB-formatting in body (spurious hyphens) zijn bron-stijl. Inhoud volledig.'
       concrete_problemen: []
 ---

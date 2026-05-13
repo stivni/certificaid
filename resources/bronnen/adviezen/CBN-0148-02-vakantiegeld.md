@@ -38,7 +38,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:08Z'
+    confirmed_at: '2026-05-13T13:01:04Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Vorige D4-issue (*littera *d) met spatie vóór sluitende asterisk) is gefixeerd — body toont nu correct *littera* d). Inhoud volledig (4 paragrafen, geen voetnoten), geen artefacten van andere categorieën aangetroffen.
     layer1:
@@ -52,7 +52,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:08Z'
+      run_at: '2026-05-13T13:01:04Z'
       rationale: Vorige D4-issue (*littera *d) met spatie vóór sluitende asterisk) is gefixeerd — body toont nu correct *littera* d). Inhoud volledig (4 paragrafen, geen voetnoten), geen artefacten van andere categorieën aangetroffen.
       concrete_problemen: []
 ---

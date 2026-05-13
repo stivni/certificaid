@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: rejected
-    confirmed_at: '2026-05-13T12:54:24Z'
+    confirmed_at: '2026-05-13T13:01:17Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "(source) Handgemaakte raw markdown (md_passthrough) met zware scrambled accounts uit copy-paste/PDF-extractie van het ITAA MAR VZW-document. ETL kan dit niet oplossen — bron-MD moet handmatig gecorrigeerd worden. Categorie A/B problemen: geen heading-structuur (heading_count=0); rekening-codes en omschrijvingen door elkaar gegooid; meerdere rekeningen gemerged op één regel ('664-66Andere niet-recurrente bedrijfskosten 668 Andere niet-recurrente financiële kosten 669 ...' op regel 81); ontbrekende cijfer/spatie ('700-70Verkopen' regel 97, '743-74Diverse' regel 118, '764-76Andere' regel 134); meerdere rekeningklassen (67, 68, 69, 70, 71, ..., 79) zonder ## heading. Buitenstaander herkent dit onmiddellijk als kapot-geconverteerde tabel. Het rekeningstelsel — de kerninhoud — is daardoor niet betrouwbaar bevraagbaar. Status `rejected (source)` is verkoosbaar boven `needs-rework` omdat de fix handmatige reconstructie vereist."
     layer1:
     layer2:
       status: rejected
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:24Z'
+      run_at: '2026-05-13T13:01:17Z'
       rationale: "(source) Handgemaakte raw markdown (md_passthrough) met zware scrambled accounts uit copy-paste/PDF-extractie van het ITAA MAR VZW-document. ETL kan dit niet oplossen — bron-MD moet handmatig gecorrigeerd worden. Categorie A/B problemen: geen heading-structuur (heading_count=0); rekening-codes en omschrijvingen door elkaar gegooid; meerdere rekeningen gemerged op één regel ('664-66Andere niet-recurrente bedrijfskosten 668 Andere niet-recurrente financiële kosten 669 ...' op regel 81); ontbrekende cijfer/spatie ('700-70Verkopen' regel 97, '743-74Diverse' regel 118, '764-76Andere' regel 134); meerdere rekeningklassen (67, 68, 69, 70, 71, ..., 79) zonder ## heading. Buitenstaander herkent dit onmiddellijk als kapot-geconverteerde tabel. Het rekeningstelsel — de kerninhoud — is daardoor niet betrouwbaar bevraagbaar. Status `rejected (source)` is verkoosbaar boven `needs-rework` omdat de fix handmatige reconstructie vereist."
       concrete_problemen:
         - '(source) Geen heading-hiërarchie: rekeningklassen 6X, 7X staan als plain text in plaats van ## 67 Belastingen / ## 70 Omzet, ...'

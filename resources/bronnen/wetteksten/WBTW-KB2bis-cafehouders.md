@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:07Z'
+    confirmed_at: '2026-05-13T13:01:02Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Kort document (320 regels), geen Fisconet-artefacten. Artikel 1-3 correct gestructureerd. HOOFDSTUK-headings aanwezig. Volledig en leesbaar.
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:07Z'
+      run_at: '2026-05-13T13:01:02Z'
       rationale: Kort document (320 regels), geen Fisconet-artefacten. Artikel 1-3 correct gestructureerd. HOOFDSTUK-headings aanwezig. Volledig en leesbaar.
       concrete_problemen: []
 ---

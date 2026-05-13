@@ -28,7 +28,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T12:54:19Z'
+    confirmed_at: '2026-05-13T13:01:12Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Korte bron (2788 tekens), geen subkoppen (heading_count: 0, conform Laag-1). Inhoud compleet: vraag en advies aanwezig, voetnoot [^1] correct gedefinieerd. Geen artefacten in categorieën A-G. De verwijzing naar paginanummers ('pp. 35 tot 37') is een interne verwijzing naar het brondocument, geen TOC-rest."
     layer1:
@@ -42,7 +42,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:19Z'
+      run_at: '2026-05-13T13:01:12Z'
       rationale: "Korte bron (2788 tekens), geen subkoppen (heading_count: 0, conform Laag-1). Inhoud compleet: vraag en advies aanwezig, voetnoot [^1] correct gedefinieerd. Geen artefacten in categorieën A-G. De verwijzing naar paginanummers ('pp. 35 tot 37') is een interne verwijzing naar het brondocument, geen TOC-rest."
       concrete_problemen: []
 ---

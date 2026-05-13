@@ -17,22 +17,22 @@ provenance:
       version: 29.04.2024
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: b893061-dirty
+    pipeline_version: 7b2b73e-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:24:32Z'
+  generated_at: '2026-05-13T12:58:49Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:54:23Z'
+    confirmed_at: '2026-05-13T13:01:17Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "De recente ETL-fixes (slash-loss + merge_broken_sentences) raken de twee structurele problemen van dit bestand niet aan. (1) Regels 128-129: '## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\\nGEREGISTREERD KASSASYSTEEM' is gesplitst over twee regels door een spurious linebreak — markdown rendert dit als heading 'TITEL II...' met losse zin daaronder. (2) Regels 204-218: de btw-codes-tabel toont scrambled kolom-bleed waarbij NL-kolom-headers en FR-kolom-headers door elkaar staan ('BTW- BTW- CODE TAUX DE' / 'BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA' / 'CODE TARIEF TVA TVA') — onbruikbaar als tabel, en de inhoud is ernaast versplinterd over meerdere regels ('A Hoog 21 % A Haut 21 %' lezen als bilingue duplicaten). Een van-nul-schrijver zou nooit dit gebroken heading + scrambled tabel produceren."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:54:23Z'
+      run_at: '2026-05-13T13:01:17Z'
       rationale: "De recente ETL-fixes (slash-loss + merge_broken_sentences) raken de twee structurele problemen van dit bestand niet aan. (1) Regels 128-129: '## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\\nGEREGISTREERD KASSASYSTEEM' is gesplitst over twee regels door een spurious linebreak — markdown rendert dit als heading 'TITEL II...' met losse zin daaronder. (2) Regels 204-218: de btw-codes-tabel toont scrambled kolom-bleed waarbij NL-kolom-headers en FR-kolom-headers door elkaar staan ('BTW- BTW- CODE TAUX DE' / 'BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA' / 'CODE TARIEF TVA TVA') — onbruikbaar als tabel, en de inhoud is ernaast versplinterd over meerdere regels ('A Hoog 21 % A Haut 21 %' lezen als bilingue duplicaten). Een van-nul-schrijver zou nooit dit gebroken heading + scrambled tabel produceren."
       concrete_problemen:
         - "Regels 128-129: '## TITEL II...' heading gebroken over twee regels door spurious linebreak"
@@ -125,8 +125,7 @@ URL - Uniform Resource Locator
 USB - Universal Serial Bus
 WiFi - Wireless Fidelity
 
-## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN
-GEREGISTREERD KASSASYSTEEM
+## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN GEREGISTREERD KASSASYSTEEM
 
 ###### Art. 3
 Een geregistreerd kassasysteem zoals bedoeld in artikel 2 van de wet van 30 juli 2013 met betrekking tot de certificatie van een geregistreerd kassasysteem bestaat uit een gecertificeerd kassasysteem en een gecertificeerde Fiscal Data Module (FDM). Beide onderdelen moeten voldoen aan de technische eisen openomen in Titel II van dit besluit.
@@ -841,9 +840,7 @@ Elke onderneming die krachtens artikel 21bis van het koninklijk besluit nr. 1 me
 Om het geregistreerd kassasysteem operationeel te maken, dient de belastingplichtige-uitbater via de webapplicatie de leveringen van de onderdelen van zijn GKS (kassasysteem en FDM) te valideren. Daarna linkt hij in de toepassing de kassa(`s) aan de correcte FDM(`s). Eens dit voltooid is, kan het GKS operationeel worden gemaakt en zal de FDM proberen verbinding te maken met de servers van de FOD Financiën.
 
 ###### Art. 124
-Indien de FDM zich niet in de uitbating bevindt en via een netwerk met de kassa is verbonden (intern netwerk, internet, ...) zal bij het uitvallen van dit netwerk de kassa niet langer kunnen communiceren met de FDM. Dit
-
-heeft tot gevolg dat het onmogelijk wordt om nog transacties te registreren op het GKS.
+Indien de FDM zich niet in de uitbating bevindt en via een netwerk met de kassa is verbonden (intern netwerk, internet, ...) zal bij het uitvallen van dit netwerk de kassa niet langer kunnen communiceren met de FDM. Dit heeft tot gevolg dat het onmogelijk wordt om nog transacties te registreren op het GKS.
 Ingeval van een ernstige storing van het GKS dient de belastingplichtige-uitbater de bevoegde dienst van de FOD Financiën hiervan in kennis te stellen via e-mail (bij de start en bij het einde van de storing).
 
 ###### Art. 125
@@ -865,9 +862,7 @@ De belastingplichtige-gebruiker van een geregistreerd kassasysteem is verantwoor
 
 ###### Art. 128
 1° Indien wordt vastgesteld dat toestellen, die niet conform het certificaat zijn en/of die niet voldoen aan de in dit ministerieel besluit gestelde voorwaarden, als onderdeel van een geregistreerd kassasysteem werden opgesteld, wordt de producent of invoerder hiervan schriftelijk in kennis gesteld door de bevoegde dienst.
-2° Deze kennisgeving schorst het certificaat twee maanden vanaf datum van ontvangst (artikel 5 van de wet met betrekking tot de certificatie van een geregistreerd kassasysteem van 30 juli 2013 en artikel 6 § 2 van
-
-het koninklijk besluit met betrekking tot de toepassingsmodaliteiten ten aanzien van de certificatie van een geregistreerd kassasysteem).
+2° Deze kennisgeving schorst het certificaat twee maanden vanaf datum van ontvangst (artikel 5 van de wet met betrekking tot de certificatie van een geregistreerd kassasysteem van 30 juli 2013 en artikel 6 § 2 van het koninklijk besluit met betrekking tot de toepassingsmodaliteiten ten aanzien van de certificatie van een geregistreerd kassasysteem).
 3° Het certificaat kan na onderzoek door de FOD Financiën definitief ingetrokken worden.
 4° Het intrekken het certificaat heeft als automatisch gevolg dat alle geregistreerde kassasystemen, die gebruik maken van het niet langer gecertificeerd kassasysteem of de niet langer gecertificeerde FDM, niet meer voldoen aan de eisen gesteld in het koninklijk besluit van 30 december 2009 tot het bepalen van de definitie en de voorwaarden waaraan het geregistreerd moet voldoen.
 5° De FOD Financiën stelt de gebruikers van een dergelijk geregistreerd kassasysteem in kennis van het intrekken van het certificaat. Deze gebruikers dienen, conform artikel 7 van het koninklijk besluit met betrekking tot de toepassingsmodaliteiten ten aanzien van de certificatie van een geregistreerd kassasysteem van 01 oktober 2013, binnen de drie maanden opnieuw over een volledig gecertificeerd systeem te beschikken.
