@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: rejected
-    confirmed_at: '2026-05-13T13:01:17Z'
+    confirmed_at: '2026-05-13T13:05:30Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "(source) De bron-PDF start mid-alinea: regel 62 begint met 'Richtlijn 2004/17/EG en in artikel 1, lid 9, van Richtlijn 2004/18/EG, ongeacht het voorwerp of de waarde van de opdracht;]1 4. \" referentie-interestvoet \"...' — Art. 1 en Art. 2 ontbreken volledig (geen heading, geen body). De wet zelf is grotendeels aanwezig (Art. 3-15, 5 hoofdstukken), maar opening met begripsbepalingen ontbreekt. Daarnaast is B5 (fuseren heading + eerste zin: 'Art. 1.Deze wet regelt...', 'Art. 3. Deze\\nwet...') een tweede ETL-probleem dat niet door deze ETL-iteratie is opgelost. Combinatie source-defect + niet-gefixte parser-bug → niet bruikbaar voor RAG zonder herbouw met andere source."
     layer1:
     layer2:
       status: rejected
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:01:17Z'
+      run_at: '2026-05-13T13:05:30Z'
       rationale: "(source) De bron-PDF start mid-alinea: regel 62 begint met 'Richtlijn 2004/17/EG en in artikel 1, lid 9, van Richtlijn 2004/18/EG, ongeacht het voorwerp of de waarde van de opdracht;]1 4. \" referentie-interestvoet \"...' — Art. 1 en Art. 2 ontbreken volledig (geen heading, geen body). De wet zelf is grotendeels aanwezig (Art. 3-15, 5 hoofdstukken), maar opening met begripsbepalingen ontbreekt. Daarnaast is B5 (fuseren heading + eerste zin: 'Art. 1.Deze wet regelt...', 'Art. 3. Deze\\nwet...') een tweede ETL-probleem dat niet door deze ETL-iteratie is opgelost. Combinatie source-defect + niet-gefixte parser-bug → niet bruikbaar voor RAG zonder herbouw met andere source."
       concrete_problemen:
         - (source) Source start mid-alinea op regel 62 — Art. 1, Art. 2 en de aanhef ontbreken volledig.

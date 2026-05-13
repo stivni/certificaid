@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7b2b73e-dirty
+    pipeline_version: d1d6417-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:00:19Z'
+  generated_at: '2026-05-13T13:04:44Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T13:01:17Z'
+    confirmed_at: '2026-05-13T13:05:30Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Hoofdprobleem blijft volledig onaangetast door de recente ETL-fixes: de integrale opgeheven 2009-versie van KB nr. 50 staat onder kop 'Bijlage' (regels 227-326) als losse content alsof het een wettelijke bijlage is — in werkelijkheid betreft het de voorgangerversie die door de hoofdtekst werd vervangen. Onderaan staan Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334) zonder enige opmaak. TOC-blok regels 53-58 dupliceert de Hoofdstuk-headings die er meteen onder volgen. Word-concat-bugs ('btweenheid', 'BTWidentificatienummer', 'BTWeenheid') op meerdere plaatsen tonen dat fix_pdftotext_glue_bugs hier niet alle varianten dekt. Een van-nul-schrijver zou nooit een opgeheven voorgangerversie als 'Bijlage' opnemen."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:01:17Z'
+      run_at: '2026-05-13T13:05:30Z'
       rationale: "Hoofdprobleem blijft volledig onaangetast door de recente ETL-fixes: de integrale opgeheven 2009-versie van KB nr. 50 staat onder kop 'Bijlage' (regels 227-326) als losse content alsof het een wettelijke bijlage is — in werkelijkheid betreft het de voorgangerversie die door de hoofdtekst werd vervangen. Onderaan staan Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334) zonder enige opmaak. TOC-blok regels 53-58 dupliceert de Hoofdstuk-headings die er meteen onder volgen. Word-concat-bugs ('btweenheid', 'BTWidentificatienummer', 'BTWeenheid') op meerdere plaatsen tonen dat fix_pdftotext_glue_bugs hier niet alle varianten dekt. Een van-nul-schrijver zou nooit een opgeheven voorgangerversie als 'Bijlage' opnemen."
       concrete_problemen:
         - "Regels 227-326: integrale opgenomen 2009-KB-50 onder kop 'Bijlage' — geen wettelijke bijlage, maar de opgeheven voorgangerversie"

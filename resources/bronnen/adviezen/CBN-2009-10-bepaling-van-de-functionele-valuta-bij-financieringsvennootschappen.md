@@ -29,7 +29,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:01:04Z'
+    confirmed_at: '2026-05-13T13:05:14Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Schone prosatekst, 2 duidelijke ## headings die de bronstructuur correct weerspiegelen. Geen tabellen. Beide voetnoten correct als [^1]/[^2]-definitie. Geen PDF-artefacten van welke categorie dan ook.'
     layer1:
@@ -43,7 +43,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:01:04Z'
+      run_at: '2026-05-13T13:05:14Z'
       rationale: 'Schone prosatekst, 2 duidelijke ## headings die de bronstructuur correct weerspiegelen. Geen tabellen. Beide voetnoten correct als [^1]/[^2]-definitie. Geen PDF-artefacten van welke categorie dan ook.'
       concrete_problemen: []
 ---

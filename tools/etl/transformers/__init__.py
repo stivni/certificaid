@@ -43,6 +43,7 @@ from tools.etl.transformers.strip_french_bilingue_bleed import strip_french_bili
 from tools.etl.transformers.strip_opgeheven_kb_appendix import strip_opgeheven_kb_appendix
 from tools.etl.transformers.merge_wrapped_headings import merge_wrapped_headings
 from tools.etl.transformers.strip_toc_headings_with_art_range import strip_toc_headings_with_art_range
+from tools.etl.transformers.strip_inline_footnote_block import strip_inline_footnote_block
 
 TRANSFORMERS: dict[str, TransformerFn] = {
     "cleanup_basics": cleanup_basics,
@@ -78,6 +79,7 @@ TRANSFORMERS: dict[str, TransformerFn] = {
     "strip_opgeheven_kb_appendix": strip_opgeheven_kb_appendix,
     "merge_wrapped_headings": merge_wrapped_headings,
     "strip_toc_headings_with_art_range": strip_toc_headings_with_art_range,
+    "strip_inline_footnote_block": strip_inline_footnote_block,
 }
 
 

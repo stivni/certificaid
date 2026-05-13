@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:01:15Z'
+    confirmed_at: '2026-05-13T13:05:29Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Schone korte tekst, drie ## Art.-headings, intacte wijzigingsmarker. Geen artefacten.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:01:15Z'
+      run_at: '2026-05-13T13:05:29Z'
       rationale: 'Schone korte tekst, drie ## Art.-headings, intacte wijzigingsmarker. Geen artefacten.'
       concrete_problemen: []
 ---

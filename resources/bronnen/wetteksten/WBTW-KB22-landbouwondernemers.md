@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7b2b73e-dirty
+    pipeline_version: d1d6417-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:00:18Z'
+  generated_at: '2026-05-13T13:04:44Z'
   stale: false
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:01:15Z'
+    confirmed_at: '2026-05-13T13:05:29Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Volledige 14 artikelen plus 4bis/4ter/5bis, schone heading-hierarchie ## Art., geen TOC-residu of dotted-leaders. 'biezondere' is de oorspronkelijke spelling van 1970 (source typo, niet ETL-bug). Eén mid-paragraaf linebreak in art 2 § 4 is een minor ETL-artefact maar verstoort retrieval niet wezenlijk."
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:01:15Z'
+      run_at: '2026-05-13T13:05:29Z'
       rationale: "Volledige 14 artikelen plus 4bis/4ter/5bis, schone heading-hierarchie ## Art., geen TOC-residu of dotted-leaders. 'biezondere' is de oorspronkelijke spelling van 1970 (source typo, niet ETL-bug). Eén mid-paragraaf linebreak in art 2 § 4 is een minor ETL-artefact maar verstoort retrieval niet wezenlijk."
       concrete_problemen:
         - "Mid-sentence linebreak op regel 76-78: '...nauw verbonden is met één of meerdere personen die juridisch\\n\\ngezien zelfstandig zijn...' — extra lege regel midden in een zin (source)"

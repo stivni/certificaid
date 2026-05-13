@@ -41,7 +41,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:01:06Z'
+    confirmed_at: '2026-05-13T13:05:16Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Geen headings (heading_count: 0) is correct voor dit proza-advies — het bevat geen subsecties. Inhoud volledig: drie methoden voor waarderingsopsplitsing uitgebreid behandeld. Geen zichtbare ETL-artefacten. 'snel volg' (regel 79) lijkt een werkwoord zonder -t — waarschijnlijk een brontekst-fout, geen extractie-artefact."
     layer1:
@@ -55,7 +55,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:01:06Z'
+      run_at: '2026-05-13T13:05:16Z'
       rationale: "Geen headings (heading_count: 0) is correct voor dit proza-advies — het bevat geen subsecties. Inhoud volledig: drie methoden voor waarderingsopsplitsing uitgebreid behandeld. Geen zichtbare ETL-artefacten. 'snel volg' (regel 79) lijkt een werkwoord zonder -t — waarschijnlijk een brontekst-fout, geen extractie-artefact."
       concrete_problemen: []
 ---

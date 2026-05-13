@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:01:04Z'
+    confirmed_at: '2026-05-13T13:05:15Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Structuur is goed: 203 headings op 5 niveaus, artikelen correct opgemaakt als ##### Art. N, secties als ## HOOFDSTUK / ### Afdeling / #### Onderafdeling. Wijzigingsmarkers [1 ... ]1, [2 ... ]2 zijn consistent open-en-dicht. Belgische wettekststijl (1°, 2°, §-nummering, amendment-footnotes) doorgehend consistent. Geen TOC-residu, geen form-feeds, geen kolom-bleed, geen OCR-artefacten gevonden. Laag-1 flags leeg, bestandsgrootte 141 k chars, max section 6358 chars — alles binnen norm.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:01:04Z'
+      run_at: '2026-05-13T13:05:15Z'
       rationale: 'Structuur is goed: 203 headings op 5 niveaus, artikelen correct opgemaakt als ##### Art. N, secties als ## HOOFDSTUK / ### Afdeling / #### Onderafdeling. Wijzigingsmarkers [1 ... ]1, [2 ... ]2 zijn consistent open-en-dicht. Belgische wettekststijl (1°, 2°, §-nummering, amendment-footnotes) doorgehend consistent. Geen TOC-residu, geen form-feeds, geen kolom-bleed, geen OCR-artefacten gevonden. Laag-1 flags leeg, bestandsgrootte 141 k chars, max section 6358 chars — alles binnen norm.'
       concrete_problemen: []
 ---

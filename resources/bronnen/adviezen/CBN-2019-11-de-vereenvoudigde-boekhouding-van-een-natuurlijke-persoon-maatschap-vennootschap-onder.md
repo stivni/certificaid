@@ -50,7 +50,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:01:11Z'
+    confirmed_at: '2026-05-13T13:05:26Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen zichtbare extractie-artefacten. Heading-hiërarchie correct (# → ## → ### → ####), alle voetnoten gedefinieerd en aanwezig, inhoud compleet van inleiding tot publicatieverplichting. Laag-1 pass bevestigd.'
     layer1:
@@ -64,7 +64,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:01:11Z'
+      run_at: '2026-05-13T13:05:26Z'
       rationale: 'Geen zichtbare extractie-artefacten. Heading-hiërarchie correct (# → ## → ### → ####), alle voetnoten gedefinieerd en aanwezig, inhoud compleet van inleiding tot publicatieverplichting. Laag-1 pass bevestigd.'
       concrete_problemen: []
 ---

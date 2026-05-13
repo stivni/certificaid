@@ -25,14 +25,14 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:01:15Z'
+    confirmed_at: '2026-05-13T13:05:29Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Schone markdown met consistente ## Art. N-headings, intacte officiele coordinatie-header en correct opgemaakte namenlijst. Geen ETL-artefacten.'
     layer1:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:01:15Z'
+      run_at: '2026-05-13T13:05:29Z'
       rationale: 'Schone markdown met consistente ## Art. N-headings, intacte officiele coordinatie-header en correct opgemaakte namenlijst. Geen ETL-artefacten.'
       concrete_problemen: []
 ---

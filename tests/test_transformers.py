@@ -2375,3 +2375,50 @@ class TestStripTocHeadingsWithArtRange:
     def test_geregistreerd(self):
         from tools.etl.transformers import TRANSFORMERS
         assert "strip_toc_headings_with_art_range" in TRANSFORMERS
+
+
+class TestStripInlineFootnoteBlock:
+    def test_kb39_pattern(self):
+        from tools.etl.transformers.strip_inline_footnote_block import strip_inline_footnote_block
+        body = (
+            "De datum van uitreiking mag niet vroeger zijn.\n"
+            "\n"
+            "(1) Art. 138: Deze wet is niet van toepassing:\n"
+            "1° op het administratieve dwangbevel ...\n"
+            "5° op fiscale en niet-fiscale ...\n"
+            "## Art. 139: De Koning kan ...\n"
+            "\n"
+            "Er moet evenwel een nieuw attest...\n"
+            "\n"
+            "## Art. 4\n"
+            "(De tekst van ...)\n"
+        )
+        result, _ = strip_inline_footnote_block(body, {})
+        assert "(1) Art. 138" not in result
+        assert "## Art. 139:" not in result
+        assert "Er moet evenwel" in result
+        assert "## Art. 4" in result
+
+    def test_no_footnote_passthrough(self):
+        from tools.etl.transformers.strip_inline_footnote_block import strip_inline_footnote_block
+        body = "## Art. 1\nGewone wettekst.\n## Art. 2\nMeer tekst.\n"
+        result, _ = strip_inline_footnote_block(body, {})
+        assert result == body
+
+    def test_strip_fake_art_with_colon(self):
+        from tools.etl.transformers.strip_inline_footnote_block import strip_inline_footnote_block
+        body = "## Art. 139: Dit is een fake heading van footnote\nBody.\n## Art. 4\n"
+        result, _ = strip_inline_footnote_block(body, {})
+        assert "## Art. 139:" not in result
+        assert "## Art. 4" in result
+
+    def test_idempotent(self):
+        from tools.etl.transformers.strip_inline_footnote_block import strip_inline_footnote_block
+        body = "(1) Art. 138: Deze wet\n1° item\n## Art. 4\nbody\n"
+        once, _ = strip_inline_footnote_block(body, {})
+        twice, _ = strip_inline_footnote_block(once, {})
+        assert once == twice
+
+    def test_geregistreerd(self):
+        from tools.etl.transformers import TRANSFORMERS
+        assert "strip_inline_footnote_block" in TRANSFORMERS

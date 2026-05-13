@@ -41,7 +41,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:01:12Z'
+    confirmed_at: '2026-05-13T13:05:26Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Laag 1: pass, geen flags. Volledige lezing: geen PDF-artefacten. Heading-hiërarchie correct (#, ##, ###). Gebruik van *cursief* voor nadruk op wettelijke termen is stijlconform. Voetnoten [^1] correct. Inhoud compleet: groepsstructuur + exclusieve controle + gezamenlijke controle + artikel 15 gevolgen volledig behandeld.'
     layer1:
@@ -55,7 +55,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:01:12Z'
+      run_at: '2026-05-13T13:05:26Z'
       rationale: 'Laag 1: pass, geen flags. Volledige lezing: geen PDF-artefacten. Heading-hiërarchie correct (#, ##, ###). Gebruik van *cursief* voor nadruk op wettelijke termen is stijlconform. Voetnoten [^1] correct. Inhoud compleet: groepsstructuur + exclusieve controle + gezamenlijke controle + artikel 15 gevolgen volledig behandeld.'
       concrete_problemen: []
 ---

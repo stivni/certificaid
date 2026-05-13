@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7b2b73e-dirty
+    pipeline_version: d1d6417-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:00:18Z'
+  generated_at: '2026-05-13T13:04:44Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T13:01:16Z'
+    confirmed_at: '2026-05-13T13:05:30Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "Footnote-bleed in Art. 3 (regels 74-78) niet opgelost door huidige ETL-fixes. De inhoudelijke tekst van Art. 138 (1°, 5°, 6° opsommingen) en Art. 139 (van een andere wet — vermoedelijk W 13.04.2019) staat als pseudo-content middenin Art. 3. Regel 78 toont '## Art. 139: De Koning kan...' wat een echte heading-anker krijgt — schadelijk voor RAG omdat het lijkt op een artikel van KB nr. 39 zelf, maar het is footnote-residu uit een andere wet. Pas op regel 80 begint het echte Art. 3-vervolg ('Er moet evenwel een nieuw attest...'). Plus: dit KB is sinds 01.01.2020 opgeheven (regel 53). Bij twijfel → needs-rework."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:01:16Z'
+      run_at: '2026-05-13T13:05:30Z'
       rationale: "Footnote-bleed in Art. 3 (regels 74-78) niet opgelost door huidige ETL-fixes. De inhoudelijke tekst van Art. 138 (1°, 5°, 6° opsommingen) en Art. 139 (van een andere wet — vermoedelijk W 13.04.2019) staat als pseudo-content middenin Art. 3. Regel 78 toont '## Art. 139: De Koning kan...' wat een echte heading-anker krijgt — schadelijk voor RAG omdat het lijkt op een artikel van KB nr. 39 zelf, maar het is footnote-residu uit een andere wet. Pas op regel 80 begint het echte Art. 3-vervolg ('Er moet evenwel een nieuw attest...'). Plus: dit KB is sinds 01.01.2020 opgeheven (regel 53). Bij twijfel → needs-rework."
       concrete_problemen:
         - 'Regels 74-78: footnote-bleed van W 13.04.2019 Art. 138/139 wordt tussen Art. 3-tekst gerenderd'
@@ -72,11 +72,9 @@ Per krediet, lening of voorschot, waarvoor een voordeel inzake economische expan
 
 De datum van uitreiking van dat attest mag niet vroeger zijn dan één maand voor de datum van de aanvraag tot verkrijging van het voordeel, noch later dan deze datum.
 
-(1) Art. 138: Deze wet is niet van toepassing:
 1° op het administratieve dwangbevel inzake belasting over de toegevoegde waarde dat ter kennis werd gebracht of werd betekend voor de datum van haar inwerkingtreding;
 5° op fiscale en niet-fiscale schuldvorderingen opgenomen in een kohier, een bijzonder kohier of een inningsen invorderingsregister, uitvoerbaar verklaard voor de datum van haar inwerkingtreding;
 6° op fiscale en niet-fiscale schuldvorderingen, andere dan deze waarvan de inning en de invordering verzekerd zijn in toepassing van de wet van 21 februari 2003 tot oprichting van een Dienst voor alimentatievorderingen bij de FOD Financiën, die het voorwerp hebben uitgemaakt van een in kracht van gewijsde getreden rechterlijke beslissing houdende veroordeling tot hun betaling, voor de datum van haar inwerkingtreding.
-## Art. 139: De Koning kan voor iedere categorie van schuldvordering een vroegere datum van inwerkingtreding bepalen
 
 Er moet evenwel een nieuw attest worden overgelegd wanneer de beslissing tot toekenning van het voordeel niet is genomen binnen zes maanden te rekenen van de datum van het attest.
 

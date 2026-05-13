@@ -17,22 +17,22 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 7b2b73e-dirty
+    pipeline_version: d1d6417-dirty
     model:
     prompt_version:
-  generated_at: '2026-05-13T13:00:18Z'
+  generated_at: '2026-05-13T13:04:44Z'
   stale: false
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T13:01:17Z'
+    confirmed_at: '2026-05-13T13:05:30Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: "De recente ETL-fixes (fix_pdf_slash_loss_in_article_headings + merge_broken_sentences) raken de hoofdproblemen van dit bestand niet aan. Het bestand opent met een TOC-blok (regels 55-77) waar onderafdeling-headings worden geïntroduceerd als '### Onderafdeling 1. ... Art. 1 - 8' met spurious linebreaks midden in heading-tekst ('Inning en\\nInvordering' regels 61-62; 'Mini One Stop Shop\\n- VAT BE' regels 64-65); direct daarna worden dezelfde Afdelingen/Onderafdelingen opnieuw geïntroduceerd als full sections (regels 79-87). Compilatie-bleed: Franse plain-text 'Disposition temporaire Art. 13ter' op regel 69 midden in NL-content. Smart-quote mismatch (' ... ' opent met \" maar sluit met ”). Een buitenstaander die deze bron van nul zou schrijven zou nooit dit TOC + duplicate headings produceren."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:01:17Z'
+      run_at: '2026-05-13T13:05:30Z'
       rationale: "De recente ETL-fixes (fix_pdf_slash_loss_in_article_headings + merge_broken_sentences) raken de hoofdproblemen van dit bestand niet aan. Het bestand opent met een TOC-blok (regels 55-77) waar onderafdeling-headings worden geïntroduceerd als '### Onderafdeling 1. ... Art. 1 - 8' met spurious linebreaks midden in heading-tekst ('Inning en\\nInvordering' regels 61-62; 'Mini One Stop Shop\\n- VAT BE' regels 64-65); direct daarna worden dezelfde Afdelingen/Onderafdelingen opnieuw geïntroduceerd als full sections (regels 79-87). Compilatie-bleed: Franse plain-text 'Disposition temporaire Art. 13ter' op regel 69 midden in NL-content. Smart-quote mismatch (' ... ' opent met \" maar sluit met ”). Een buitenstaander die deze bron van nul zou schrijven zou nooit dit TOC + duplicate headings produceren."
       concrete_problemen:
         - 'Regels 55-77: TOC-achtig blok met Onderafdeling-headings met artikel-ranges als plain text'

@@ -26,7 +26,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:01:11Z'
+    confirmed_at: '2026-05-13T13:05:25Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Bestand is zeer kort (766 chars, 2 alinea's) maar dat correspondeert correct met de inhoud van dit korte advies. Geen artefacten, geen unicode-issues, frontmatter consistent.
     layer1:
@@ -40,7 +40,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:01:11Z'
+      run_at: '2026-05-13T13:05:25Z'
       rationale: Bestand is zeer kort (766 chars, 2 alinea's) maar dat correspondeert correct met de inhoud van dit korte advies. Geen artefacten, geen unicode-issues, frontmatter consistent.
       concrete_problemen: []
 ---

@@ -37,7 +37,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:01:11Z'
+    confirmed_at: '2026-05-13T13:05:25Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Geen artefacten gevonden. Bestand is kort (1 298 chars, 1 alinea advies), maar dat klopt met de bron: dit is een kort CBN-advies. Inhoud compleet, markdown schoon, frontmatter consistent.'
     layer1:
@@ -51,7 +51,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:01:11Z'
+      run_at: '2026-05-13T13:05:25Z'
       rationale: 'Geen artefacten gevonden. Bestand is kort (1 298 chars, 1 alinea advies), maar dat klopt met de bron: dit is een kort CBN-advies. Inhoud compleet, markdown schoon, frontmatter consistent.'
       concrete_problemen: []
 ---

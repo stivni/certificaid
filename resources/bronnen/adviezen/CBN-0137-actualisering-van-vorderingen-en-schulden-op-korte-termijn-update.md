@@ -36,7 +36,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:01:02Z'
+    confirmed_at: '2026-05-13T13:05:14Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: 'Kort advies (1759 chars, 1 heading) zonder ETL-artefacten. Inhoud volledig: de vraag, het antwoord van de Commissie en de wettelijke onderbouwing zijn aanwezig. Voetnoot correct geformatteerd als [^1]. Geen A-G-categorie problemen aangetroffen.'
     layer1:
@@ -50,7 +50,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:01:02Z'
+      run_at: '2026-05-13T13:05:14Z'
       rationale: 'Kort advies (1759 chars, 1 heading) zonder ETL-artefacten. Inhoud volledig: de vraag, het antwoord van de Commissie en de wettelijke onderbouwing zijn aanwezig. Voetnoot correct geformatteerd als [^1]. Geen A-G-categorie problemen aangetroffen.'
       concrete_problemen: []
 ---

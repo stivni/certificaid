@@ -31,7 +31,7 @@ provenance:
   stale_reason:
   trust:
     status: trusted
-    confirmed_at: '2026-05-13T13:01:09Z'
+    confirmed_at: '2026-05-13T13:05:24Z'
     confirmed_by: subagent-sonnet-4-6
     rationale: Correct opgebouwd advies zonder headings (terecht voor deze lengte). Technische term *agency fee* correct gecursiveerd. Twee voetnoten correct gedefinieerd en gekoppeld. Geen artefacten.
     layer1:
@@ -45,7 +45,7 @@ provenance:
     layer2:
       status: trusted
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T13:01:09Z'
+      run_at: '2026-05-13T13:05:24Z'
       rationale: Correct opgebouwd advies zonder headings (terecht voor deze lengte). Technische term *agency fee* correct gecursiveerd. Twee voetnoten correct gedefinieerd en gekoppeld. Geen artefacten.
       concrete_problemen: []
 ---
