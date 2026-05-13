@@ -734,6 +734,10 @@ def extract_pdf(
     top_margin: float = 50.0,
     bottom_margin: float = 50.0,
     mode: Optional[str] = None,    # "eu_richtlijn" | None
+    section_start: Optional[str] = None,  # regex om start van sectie te vinden
+    section_end: Optional[str] = None,    # regex om einde van sectie te vinden
+    page_start: Optional[int] = None,     # 1-based start-pagina (inclusief)
+    page_end: Optional[int] = None,       # 1-based eind-pagina (inclusief)
 ) -> str:
     """Extract een wettekst-PDF naar markdown via pymupdf block-extractie.
 
@@ -755,10 +759,19 @@ def extract_pdf(
     doc = pymupdf.open(str(pdf_path))
     all_pages_md: list[str] = []
 
+    # Page-range filter: indien page_start/page_end zijn gegeven, beperk
+    # tot dat bereik (1-based inclusief).
+    if page_start is not None or page_end is not None:
+        start_idx = (page_start - 1) if page_start else 0
+        end_idx = page_end if page_end else doc.page_count
+        page_iter = [doc[i] for i in range(start_idx, min(end_idx, doc.page_count))]
+    else:
+        page_iter = list(doc)
+
     # Eerste pass: verzamel ALLE blocks om heading-levels te leren over hele PDF
     all_blocks: list[Block] = []
     per_page_blocks: list[tuple[list[Block], int, float, float]] = []
-    for page in doc:
+    for page in page_iter:
         blocks = _extract_page_blocks(page)
         blocks = _filter_margins(blocks, page.rect.height, top_margin, bottom_margin)
         n_cols, split_x = _detect_columns(blocks, page.rect.width)
@@ -800,7 +813,22 @@ def extract_pdf(
             all_pages_md.append(md)
 
     doc.close()
-    return "\n\n".join(all_pages_md)
+    body = "\n\n".join(all_pages_md)
+
+    # Section-filter: knip body af tot enkel content tussen section_start en
+    # section_end regex-patronen. Dit is nodig voor PDFs die meer bevatten dan
+    # alleen de gewenste sectie (bv. BS-publicaties met meerdere boeken).
+    if section_start:
+        m_start = re.search(section_start, body, re.M)
+        if m_start:
+            body = body[m_start.start():]
+    if section_end:
+        m_end = re.search(section_end, body, re.M)
+        if m_end:
+            body = body[: m_end.start()]
+    body = body.strip() + "\n"
+
+    return body
 
 
 # ─── Extractor-interface voor convert.py ──────────────────────────────────────
@@ -832,4 +860,8 @@ def extract(cfg: dict, source_name: str) -> str:
         top_margin=params.get("top_margin", 50.0),
         bottom_margin=params.get("bottom_margin", 50.0),
         mode=params.get("mode"),
+        section_start=params.get("section_start"),
+        section_end=params.get("section_end"),
+        page_start=params.get("page_start"),
+        page_end=params.get("page_end"),
     )
