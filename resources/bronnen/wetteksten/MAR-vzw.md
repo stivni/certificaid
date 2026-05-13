@@ -24,49 +24,23 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:41:23Z'
+    status: rejected
+    confirmed_at: '2026-05-13T12:45:54Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: 'Ernstige PDF-extractie-artefacten (categorie A/B): geen heading-structuur (heading_count=0), rekening-codes en omschrijvingen door elkaar gegooid, meerdere rekeningen gemerged op één regel, geen tabel-structuur voor het rekeningstelsel. Buitenstaander herkent dit onmiddellijk als kapot-geconverteerde PDF.'
+    rationale: "(source) Handgemaakte raw markdown (md_passthrough) met zware scrambled accounts uit copy-paste/PDF-extractie van het ITAA MAR VZW-document. ETL kan dit niet oplossen — bron-MD moet handmatig gecorrigeerd worden. Categorie A/B problemen: geen heading-structuur (heading_count=0); rekening-codes en omschrijvingen door elkaar gegooid; meerdere rekeningen gemerged op één regel ('664-66Andere niet-recurrente bedrijfskosten 668 Andere niet-recurrente financiële kosten 669 ...' op regel 81); ontbrekende cijfer/spatie ('700-70Verkopen' regel 97, '743-74Diverse' regel 118, '764-76Andere' regel 134); meerdere rekeningklassen (67, 68, 69, 70, 71, ..., 79) zonder ## heading. Buitenstaander herkent dit onmiddellijk als kapot-geconverteerde tabel. Het rekeningstelsel — de kerninhoud — is daardoor niet betrouwbaar bevraagbaar. Status `rejected (source)` is verkoosbaar boven `needs-rework` omdat de fix handmatige reconstructie vereist."
     layer1:
     layer2:
-      status: needs-rework
+      status: rejected
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:23Z'
-      rationale: 'Ernstige PDF-extractie-artefacten (categorie A/B): geen heading-structuur (heading_count=0), rekening-codes en omschrijvingen door elkaar gegooid, meerdere rekeningen gemerged op één regel, geen tabel-structuur voor het rekeningstelsel. Buitenstaander herkent dit onmiddellijk als kapot-geconverteerde PDF.'
+      run_at: '2026-05-13T12:45:54Z'
+      rationale: "(source) Handgemaakte raw markdown (md_passthrough) met zware scrambled accounts uit copy-paste/PDF-extractie van het ITAA MAR VZW-document. ETL kan dit niet oplossen — bron-MD moet handmatig gecorrigeerd worden. Categorie A/B problemen: geen heading-structuur (heading_count=0); rekening-codes en omschrijvingen door elkaar gegooid; meerdere rekeningen gemerged op één regel ('664-66Andere niet-recurrente bedrijfskosten 668 Andere niet-recurrente financiële kosten 669 ...' op regel 81); ontbrekende cijfer/spatie ('700-70Verkopen' regel 97, '743-74Diverse' regel 118, '764-76Andere' regel 134); meerdere rekeningklassen (67, 68, 69, 70, 71, ..., 79) zonder ## heading. Buitenstaander herkent dit onmiddellijk als kapot-geconverteerde tabel. Het rekeningstelsel — de kerninhoud — is daardoor niet betrouwbaar bevraagbaar. Status `rejected (source)` is verkoosbaar boven `needs-rework` omdat de fix handmatige reconstructie vereist."
       concrete_problemen:
-        - regel: 46
-          categorie: B1
-          type: ontbrekende heading-hiërarchie
-          voorbeeld: "Geen ## of ### per rekeningklasse; '7. Opbrengsten' staat als plain text op regel 62-64"
-        - regel: 51
-          categorie: A4
-          type: scrambled tekst / merged rekeningen
-          voorbeeld: "'Minderwaarden op de realisatie van financiële vaste activa 664-66Andere niet-recurrente bedrijfskosten 668 Andere niet-recurrente financiële kosten 669 ...' — meerdere rekening-codes en omschrijvingen op één regel"
-        - regel: 55
-          categorie: A4
-          type: merged accounts
-          voorbeeld: "'Verschuldigde of gestorte belastingen en voorheffingen ... 671 Belgische belastingen op het resultaat van vorige boekjaren ...' — 670-673 in één blok"
-        - regel: 67
-          categorie: A4
-          type: rekening-code afgekapt
-          voorbeeld: "'700-70Verkopen en dienstprestaties' (ontbrekende cijfer/spatie)"
-        - regel: 69
-          categorie: A6
-          type: OCR-typo bron
-          voorbeeld: "'Wijzigingen n de voorraad' (i ontbreekt — vermoedelijk ETL niet source)"
-        - regel: 88
-          categorie: A4
-          type: merged rekeningcode
-          voorbeeld: "'743-74Diverse bedrijfsopbrengsten'"
-        - regel: 97
-          categorie: A4
-          type: rekeningen + paragrafen gemerged
-          voorbeeld: "'760 Terugneming van afschrijvingen ... 761 ... 762 ... 763 ...' allemaal op één regel"
-        - regel: 46
-          categorie: B1
-          type: structuurlabel als plain text
-          voorbeeld: "'66211 / Besteding (-)' losse regels zonder heading-context"
+        - '(source) Geen heading-hiërarchie: rekeningklassen 6X, 7X staan als plain text in plaats van ## 67 Belastingen / ## 70 Omzet, ...'
+        - "(source) Regel 81: 'Minderwaarden op de realisatie van financiële vaste activa 664-66Andere niet-recurrente bedrijfskosten 668 Andere niet-recurrente financiële kosten 669 ...' — 6 rekeningen gemerged op één regel"
+        - "(source) Regels 97, 118, 134: '700-70Verkopen', '743-74Diverse', '764-76Andere' — rekening-code afgekapt, ontbrekend cijfer en spatie"
+        - '(source) Regel 85-86: rekeningen 670 t/m 673 met sub-codes (verschuldigde belastingen, geactiveerde overschotten) als losse zinnen zonder structuur'
+        - "(source) Regel 99: 'Wijzigingen n de voorraad' — ontbrekende 'i' (bron-typo)"
+        - '(source) Regel 127: rekeningen 760-763 met sub-codes allemaal op één regel'
 ---
 
 # Minimum Algemeen Rekeningstelsel voor verenigingen en stichtingen (MAR VZW)

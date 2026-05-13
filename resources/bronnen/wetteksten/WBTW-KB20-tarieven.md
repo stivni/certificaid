@@ -17,30 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5-dirty
+    pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:40:37Z'
+  generated_at: '2026-05-13T12:47:03Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:41:23Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Grootste bron in batch (108k chars) met meerdere structuurproblemen die de ETL moet oplossen. Layer1 vlagt al max_section_size (>24k). Tabel A/B/C-rubrieken (Romeinse cijfers I.–XL.) staan als plain text in plaats van als sub-headings, waardoor één enorme sectie ontstaat. TOC-fragmenten met dotted leaders ('Goederen aan 6 pct. ......... II/1') zijn niet opgeschoond. Structuurlabels 'TABEL A', 'TABEL B', 'TABEL C', 'GOEDEREN', 'DIENSTEN', 'BIJLAGE', 'Tijdelijke bepalingen', 'Eerste afdeling' staan als plain text zonder ##-prefix. Recap-blok aan het einde dupliceert de rubriekenlijst en lijkt op TOC-residu."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:23Z'
-      rationale: "Grootste bron in batch (108k chars) met meerdere structuurproblemen die de ETL moet oplossen. Layer1 vlagt al max_section_size (>24k). Tabel A/B/C-rubrieken (Romeinse cijfers I.–XL.) staan als plain text in plaats van als sub-headings, waardoor één enorme sectie ontstaat. TOC-fragmenten met dotted leaders ('Goederen aan 6 pct. ......... II/1') zijn niet opgeschoond. Structuurlabels 'TABEL A', 'TABEL B', 'TABEL C', 'GOEDEREN', 'DIENSTEN', 'BIJLAGE', 'Tijdelijke bepalingen', 'Eerste afdeling' staan als plain text zonder ##-prefix. Recap-blok aan het einde dupliceert de rubriekenlijst en lijkt op TOC-residu."
-      concrete_problemen:
-        - "Dotted-leader TOC-residu op regel 158: 'Goederen aan 6 pct. ......... II/1 Diensten aan 6 pct. ......... III/1'"
-        - Structuurlabels 'TABEL A', 'GOEDEREN', 'DIENSTEN', 'BIJLAGE', 'Tijdelijke bepalingen', 'Eerste afdeling', 'XXIII.', 'XXIV.', ... staan als plain text i.p.v. markdown-headings
-        - Eén sectie van 94903 chars (layer1 warn) — chunker moet auto-splitten via split_long_chunk maar betere ETL-headings zouden dit oplossen
-        - Recap aan het einde (regels 894-943) is TOC-achtige duplicatie van rubrieken — onduidelijk of bedoeld of residu
-        - Spurious linebreaks midden in sectienummers, bv. '6°,\n van tabel A' (regels 92-93, 99-100, 133-134, 384-385)
-        - Heading van Afdeling II onder rubriek XXII verschijnt wel als '## Afdeling II - Onderdelen...' (regel 397) maar 'Eerste afdeling. - Automobielen...' (regel 364) is plain text — inconsistentie binnen één rubriek
 ---
 
 # K.B. nr. 20 van 20 juli 1970, tot vaststelling van de tarieven van de belasting over de toegevoegde waarde en tot indeling van de goederen en de diensten bij die tarieven
@@ -64,7 +53,7 @@ a) 6 pct. voor de goederen en diensten opgenomen in tabel A van de bijlage bij d
 b) 12 pct. voor de goederen en diensten opgenomen in tabel B van de bijlage bij dit besluit.
 c) 0 pct. voor de goederen en diensten opgenomen in tabel C van de bijlage bij dit besluit.
 
-Tijdelijke bepalingen
+## Tijdelijke bepalingen
 
 ### Art. 1bis
 
@@ -163,7 +152,7 @@ Tabel C – Goederen en diensten onderworpen aan het tarief van 0 pct. .........
 TABEL A
 Goederen en diensten onderworpen aan het tarief van 6 pct.
 
-GOEDEREN
+## GOEDEREN
 
 I. Levende dieren.
 
@@ -447,7 +436,7 @@ Hoofdstuk 3, Afdeling 3.5, van het besluit van de Vlaamse regering, van 17 decem
 
 § 5. De Minister van Financiën informeert zich bij de in § 2, 5° beoogde bevoegde overheden naar de door deze overheden verleende, ingetrokken of opgeschorte erkenningen. Hij licht diezelfde overheden in van gedane vaststellingen waarbij de toepassing van het verlaagd tarief vervalt of is komen te vervallen wegens het niet naleven van één of meerdere in § 3 bepaalde voorwaarden.
 
-DIENSTEN
+## DIENSTEN
 
 XXIV. Landbouwdiensten.
 
@@ -711,7 +700,7 @@ Het verlaagd tarief van zes pct. is van toepassing op:
 3° het werk in onroerende staat in de zin van artikel 19, § 2, tweede lid, van het Wetboek, met uitsluiting van de reiniging, en de andere handelingen bedoeld in rubriek XXXI, § 3, 3° tot 6°, met betrekking tot de onder 1° en 2° genoemde gebouwen;
 4° de onroerende financieringshuur of onroerende leasing bedoeld in artikel 44, § 3, 2°, b), van het Wetboek en de onroerende verhuur bedoeld in artikel 44, § 3, 2°, d), van het Wetboek, die betrekking hebben op de onder 1° en 2° bedoelde gebouwen.
 
-TABEL B
+## Tabel B
 
 Goederen en diensten onderworpen aan het tarief van 12 pct.
 
@@ -843,7 +832,7 @@ Indien zich tijdens de voormelde termijn wijzigingen voordoen waardoor de voorwa
 1° werk in onroerende staat en de andere onroerende handelingen die geen betrekking hebben op de eigenlijke woning, zoals bebouwingswerkzaamheden, tuinaanleg en oprichten van afsluitingen;
 2° werk in onroerende staat en andere onroerende handelingen die tot voorwerp hebben de bestanddelen of een gedeelte van de bestanddelen van zwembaden, sauna's, midgetgolfbanen, tennisterreinen en dergelijke installaties.".
 
-TABEL C
+## Tabel C
 
 Goederen en diensten onderworpen aan het tarief van 0 pct.
 (Tabel C, werd ingevoegd met ingang van 01.04.2019,

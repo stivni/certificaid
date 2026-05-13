@@ -17,28 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5-dirty
+    pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:40:37Z'
+  generated_at: '2026-05-13T12:47:02Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-13T12:41:23Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Klein schoon KB: 5 Art.-headings, alle artikelen volledig, geen scrambled tekst of spurious linebreaks. Source-typo 'tabaksfabrikaten' vs 'tabaksfabricaten' in titel-vs-body is brontypografie."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:23Z'
-      rationale: "Klein schoon KB: 5 Art.-headings, alle artikelen volledig, geen scrambled tekst of spurious linebreaks. Source-typo 'tabaksfabrikaten' vs 'tabaksfabricaten' in titel-vs-body is brontypografie."
-      concrete_problemen:
-        - regel: 42
-          categorie: (source)
-          type: source-spelling inconsistentie
-          voorbeeld: Titel zegt 'tabaksfabricaten' maar body gebruikt 'tabaksfabrikaten' — bron-eigen variatie
 ---
 
 # K.B. nr. 13 van 29 december 1992, met betrekking tot de regeling voor tabaksfabricaten op het stuk van de belasting over de toegevoegde waarde

@@ -17,28 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5-dirty
+    pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:40:36Z'
+  generated_at: '2026-05-13T12:47:02Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:41:24Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Significante PDF-extractie-artefacten blijven. Artikel-nummering klopt niet: '## Art. 81' (regel 134), '## Art. 82' (regel 211), '## Art. 83' (regel 220) — dit zijn in werkelijkheid Art. 8/1, 8/2, 8/3, want amendment-blok refereert expliciet 'KB nr. 4, artikel 8/1, § 2'. De heading-extractie negeert de slash. Regel 153: 'btwtarief' zonder koppelteken (uitbreiding fix_pdftotext_glue_bugs heeft dit niet gevangen). Regel 244: 'artikel. 9' met eigenaardige punt. Lange Art. 8/1-paragrafen met mid-sentence linebreaks (regels 161, 188-190)."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:24Z'
-      rationale: "Significante PDF-extractie-artefacten blijven. Artikel-nummering klopt niet: '## Art. 81' (regel 134), '## Art. 82' (regel 211), '## Art. 83' (regel 220) — dit zijn in werkelijkheid Art. 8/1, 8/2, 8/3, want amendment-blok refereert expliciet 'KB nr. 4, artikel 8/1, § 2'. De heading-extractie negeert de slash. Regel 153: 'btwtarief' zonder koppelteken (uitbreiding fix_pdftotext_glue_bugs heeft dit niet gevangen). Regel 244: 'artikel. 9' met eigenaardige punt. Lange Art. 8/1-paragrafen met mid-sentence linebreaks (regels 161, 188-190)."
-      concrete_problemen:
-        - "Regels 134, 211, 220: '## Art. 81/82/83' zijn in werkelijkheid Art. 8/1, 8/2, 8/3 (slash genegeerd in heading-extractie)"
-        - "Regel 153: 'btwtarief' zonder koppelteken (fix_pdftotext_glue_bugs miste dit)"
-        - "Regel 244: 'artikel. 9' met overbodige punt"
-        - "Regels 188-190: 'in artikel 53, § 1, eerste lid, 2°, van het\\n\\nWetboek bedoelde aangifte' — spurious linebreak mid-zin"
 ---
 
 # K.B. nr. 4 van 29 december 1969, met betrekking tot de teruggaven inzake belasting over de toegevoegde waarde

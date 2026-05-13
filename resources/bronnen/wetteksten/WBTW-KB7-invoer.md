@@ -17,28 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5-dirty
+    pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:40:36Z'
+  generated_at: '2026-05-13T12:47:02Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:41:24Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Hoofdtekst (47 artikelen verspreid over 6 hoofdstukken) is structureel sterk en de fix_pdftotext_glue_bugs uitbreiding heeft 'btwidentificatienummer' aangepakt (regel 855 toont nu correct 'btw-identificatienummer'). Echter regel 855 (Art. 39 §1) bevat nog steeds de afgekapte zin '...artikel 39bis, eerste lid, 4°, van het Bovendien is...' — ontbrekend woord (waarschijnlijk 'Wetboek.') tussen 'het' en 'Bovendien'. Bijlage (regels 1083-1106) heeft nog zware table-bleed: GN-codes en omschrijvingen versmolten zonder pipe-syntax. Regels 968-994 en 1021-1034 hebben tabak/alcohol/koffie pseudo-tabel-bleed met hoeveelheden midden in lopende tekst."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:24Z'
-      rationale: "Hoofdtekst (47 artikelen verspreid over 6 hoofdstukken) is structureel sterk en de fix_pdftotext_glue_bugs uitbreiding heeft 'btwidentificatienummer' aangepakt (regel 855 toont nu correct 'btw-identificatienummer'). Echter regel 855 (Art. 39 §1) bevat nog steeds de afgekapte zin '...artikel 39bis, eerste lid, 4°, van het Bovendien is...' — ontbrekend woord (waarschijnlijk 'Wetboek.') tussen 'het' en 'Bovendien'. Bijlage (regels 1083-1106) heeft nog zware table-bleed: GN-codes en omschrijvingen versmolten zonder pipe-syntax. Regels 968-994 en 1021-1034 hebben tabak/alcohol/koffie pseudo-tabel-bleed met hoeveelheden midden in lopende tekst."
-      concrete_problemen:
-        - "Regel 855: 'van het Bovendien is...' — afgekapte zin in Art. 39 §1"
-        - 'Regels 1083-1106 (Bijlage): GN-codes en omschrijvingen versmolten zonder tabel-structuur'
-        - "Regels 968-994 (Art. 43 §2 3°): tabaksprodukten/alcohol pseudo-tabel met losse '-' bullets en samengeperste hoeveelheden"
-        - 'Regels 1022-1034 (Art. 44 §3): kleine zendingen pseudo-tabel met categorieën door elkaar'
 ---
 
 # K.B. nr. 7 van 29 december 1992, met betrekking tot de invoer van goederen voor de toepassing van de belasting over de toegevoegde waarde

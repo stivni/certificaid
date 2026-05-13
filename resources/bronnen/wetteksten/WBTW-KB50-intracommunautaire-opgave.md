@@ -17,29 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5-dirty
+    pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:40:38Z'
+  generated_at: '2026-05-13T12:47:03Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:41:24Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "merge_article_reference_wraps heeft niet ingegrepen op het hoofdprobleem: het bestand bevat onder de kop 'Bijlage' (regels 227 e.v.) de volledige opgeheven 2009-versie van KB nr. 50 als losse content, terwijl de 2019-versie als hoofdtekst staat. Dit is compilatie-bleed uit de Fisconet-PDF, geen wettelijke bijlage. Onderaan staan ook Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334). Inconsistente hoofdstuk-kapitalisatie ('Hoofdstuk 1' vs 'HOOFDSTUK 2'/'HOOFDSTUK 3'). TOC-achtig blok regels 53-58 dupliceert headings."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:24Z'
-      rationale: "merge_article_reference_wraps heeft niet ingegrepen op het hoofdprobleem: het bestand bevat onder de kop 'Bijlage' (regels 227 e.v.) de volledige opgeheven 2009-versie van KB nr. 50 als losse content, terwijl de 2019-versie als hoofdtekst staat. Dit is compilatie-bleed uit de Fisconet-PDF, geen wettelijke bijlage. Onderaan staan ook Fisconet page-headers als plain text ('KB50-Bijlage pg. Bijl./1 Intracommunautaire opgave', regels 332-334). Inconsistente hoofdstuk-kapitalisatie ('Hoofdstuk 1' vs 'HOOFDSTUK 2'/'HOOFDSTUK 3'). TOC-achtig blok regels 53-58 dupliceert headings."
-      concrete_problemen:
-        - "Regels 227-326: integrale opgenomen oude KB-50-2009 onder 'Bijlage' — geen wettelijke bijlage maar opgeheven voorgangerversie"
-        - "Regels 332-334: 'KB50-Bijlage pg. Bijl./1' / 'KB50-Bijlage pg. Bijl./2 Intracommunautaire opgave' — Fisconet page-headers als plain content"
-        - "Regels 53-58: TOC-blok met '## Hoofdstuk 1.' / '## Hoofdstuk 2.' / '## Hoofdstuk 3.' direct gevolgd door dezelfde hoofdstukken als sectie-headings — duplicate headings"
-        - "Inconsistente kapitalisatie: 'Hoofdstuk 1' (regel 60) vs 'HOOFDSTUK 2' (150) / 'HOOFDSTUK 3' (209)"
-        - "Word-concat-bugs in body: 'btweenheid' (regel 148), 'BTWidentificatienummer' / 'BTWidenti­ﬁcatienummer' (regels 238, 254), 'BTWkantoor', 'BTWeenheid' (regel 301)"
 ---
 
 # K.B. nr. 50 van 11 december 2019, met betrekking tot de btw-opgave van de intracommunautaire handelingen

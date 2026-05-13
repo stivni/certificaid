@@ -24,12 +24,27 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T12:47:21Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Strip_french_bilingue_bleed schiet hier substantieel tekort. Er resteren 163 regels beginnend met '/  ' die FR-tabel/-rubrieken bevatten (Pourcentage, Euronorme, Niveau E, etc.) en minstens 16 inline of standalone FR-paragrafen ('Le présent paragraphe...', 'conformément à l\\'alinéa 1er...', 'Pour l\\'application du présent article...', '§ 2. Les exequaturs de...', volledige FR-blokken in art. 5321, 5659, 5741, 5825, 8533, 8647, 9505, 10303, 12179, 12185). Bij r.1085-1091 en r.1123-1127 staan complete NL- én FR-paragrafen als losse blokken na elkaar — dit verdunt embeddings voor artikel 2.2.4.0.x significant. RAG-impact: hoog voor titel 2 hoofdstuk 4 (kilometerheffing/inverkeerstelling). Aanbeveling: needs-rework; scraper moet '/  '-prefix-regels en alle volledige FR-blokken (geïdentificeerd via taaldetectie of marker-set 'Le présent', 'Pour l\\'application', 'conformément', 'Dans le cas', 'Sont exemptes', 'Les exequaturs') verwijderen."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:47:21Z'
+      rationale: "Strip_french_bilingue_bleed schiet hier substantieel tekort. Er resteren 163 regels beginnend met '/  ' die FR-tabel/-rubrieken bevatten (Pourcentage, Euronorme, Niveau E, etc.) en minstens 16 inline of standalone FR-paragrafen ('Le présent paragraphe...', 'conformément à l\\'alinéa 1er...', 'Pour l\\'application du présent article...', '§ 2. Les exequaturs de...', volledige FR-blokken in art. 5321, 5659, 5741, 5825, 8533, 8647, 9505, 10303, 12179, 12185). Bij r.1085-1091 en r.1123-1127 staan complete NL- én FR-paragrafen als losse blokken na elkaar — dit verdunt embeddings voor artikel 2.2.4.0.x significant. RAG-impact: hoog voor titel 2 hoofdstuk 4 (kilometerheffing/inverkeerstelling). Aanbeveling: needs-rework; scraper moet '/  '-prefix-regels en alle volledige FR-blokken (geïdentificeerd via taaldetectie of marker-set 'Le présent', 'Pour l\\'application', 'conformément', 'Dans le cas', 'Sont exemptes', 'Les exequaturs') verwijderen."
+      concrete_problemen:
+        - 163 regels beginnend met '/  ' (Pourcentage, Euronorme, FR tariefcategorieën rond art. 2.2.4.0.x) niet gestript
+        - "r.1087, 1125: 'Le présent paragraphe s\\'applique uniquement aux véhicules...' — volledige FR-paragrafen als losse blokken"
+        - "r.1083, 1121: 'conformément à l\\'alinéa 1er, s\\'élève à 40 euros au minimum.' — orphan FR-zin"
+        - 'r.1091, 1127, 1131, 1135: volledige FR §-paragrafen (§ 3/2, § 3/3, a) majoré) als losse blokken na NL-versie'
+        - "r.135: NL-zin eindigend met 'b) comprend une cabine double comportant...' — FR-bleed na 2 spaces in kerndefinitie"
+        - 'r.4637, 5659, 5741, 5825, 9505, 10303: substantiële FR-blokken vermengd in NL artikel-tekst — kruisreferenties naar federaal Wetboek Registratie'
+        - 'r.5321: lange FR-paragraaf over donatie-tarief tussen NL-tekst'
+        - "r.8533, 8647: '9° de registratiebelasting :  9° aux impôt d\\'enregistrement :' en 'Dans le cas, cité dans...' — FR-bleeds"
+        - "r.12179, 12185: 'Dans l\\'article du même décret...' / 'Dans le chapitre VIII, section 2...' — slot-bepalingen FR niet gestript"
+        - 'r.7193, 1219: korte inline NL+2spaces+FR bleeds'
 ---
 
 # Vlaamse Codex Fiscaliteit (VCF)

@@ -25,19 +25,19 @@ provenance:
   stale_reason:
   trust:
     status: needs-rework
-    confirmed_at: '2026-05-13T12:41:24Z'
+    confirmed_at: '2026-05-13T12:45:01Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "_ARTIKEL_PLAIN_TITLE_RE heeft inline 'Artikel N.' headings correct genormaliseerd naar ###### Art. N (Art. 5, 6, 7, 8, 9, 10, 11, 12, 46, 64, 86 staan nu als headings). Echter twee structurele issues blijven onopgelost: (1) BTW-codes pseudo-tabel op regels 207-218 toont scrambled kolom-bleed van een PDF-tabel ('BTW- BTW- CODE TAUX DE' / 'BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA') — onbruikbaar als tabel; (2) `## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\\nGEREGISTREERD KASSASYSTEEM` heeft spurious linebreak midden in heading (regels 199-200). Beide zijn duidelijke ETL-artefacten die een buitenstaander direct opvalt — komen niet voor in een van-nul-geschreven wettekst."
+    rationale: "De recente ETL-fixes (slash-loss + merge_broken_sentences) raken de twee structurele problemen van dit bestand niet aan. (1) Regels 128-129: '## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\\nGEREGISTREERD KASSASYSTEEM' is gesplitst over twee regels door een spurious linebreak — markdown rendert dit als heading 'TITEL II...' met losse zin daaronder. (2) Regels 204-218: de btw-codes-tabel toont scrambled kolom-bleed waarbij NL-kolom-headers en FR-kolom-headers door elkaar staan ('BTW- BTW- CODE TAUX DE' / 'BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA' / 'CODE TARIEF TVA TVA') — onbruikbaar als tabel, en de inhoud is ernaast versplinterd over meerdere regels ('A Hoog 21 % A Haut 21 %' lezen als bilingue duplicaten). Een van-nul-schrijver zou nooit dit gebroken heading + scrambled tabel produceren."
     layer1:
     layer2:
       status: needs-rework
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:24Z'
-      rationale: "_ARTIKEL_PLAIN_TITLE_RE heeft inline 'Artikel N.' headings correct genormaliseerd naar ###### Art. N (Art. 5, 6, 7, 8, 9, 10, 11, 12, 46, 64, 86 staan nu als headings). Echter twee structurele issues blijven onopgelost: (1) BTW-codes pseudo-tabel op regels 207-218 toont scrambled kolom-bleed van een PDF-tabel ('BTW- BTW- CODE TAUX DE' / 'BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA') — onbruikbaar als tabel; (2) `## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\\nGEREGISTREERD KASSASYSTEEM` heeft spurious linebreak midden in heading (regels 199-200). Beide zijn duidelijke ETL-artefacten die een buitenstaander direct opvalt — komen niet voor in een van-nul-geschreven wettekst."
+      run_at: '2026-05-13T12:45:01Z'
+      rationale: "De recente ETL-fixes (slash-loss + merge_broken_sentences) raken de twee structurele problemen van dit bestand niet aan. (1) Regels 128-129: '## TITEL II. - TECHNISCHE EISEN TEN AANZIEN VAN DE ONDERDELEN VAN EEN\\nGEREGISTREERD KASSASYSTEEM' is gesplitst over twee regels door een spurious linebreak — markdown rendert dit als heading 'TITEL II...' met losse zin daaronder. (2) Regels 204-218: de btw-codes-tabel toont scrambled kolom-bleed waarbij NL-kolom-headers en FR-kolom-headers door elkaar staan ('BTW- BTW- CODE TAUX DE' / 'BTW-TARIEF OMSCHRIJVING DESCRIPTION TAUX DE TVA' / 'CODE TARIEF TVA TVA') — onbruikbaar als tabel, en de inhoud is ernaast versplinterd over meerdere regels ('A Hoog 21 % A Haut 21 %' lezen als bilingue duplicaten). Een van-nul-schrijver zou nooit dit gebroken heading + scrambled tabel produceren."
       concrete_problemen:
-        - 'Regels 207-218: BTW-codes pseudo-tabel als scrambled column-bleed (categorie A8 + E)'
-        - "Regels 199-200: '## TITEL II...' heading gebroken over twee regels door spurious linebreak (categorie A2/B1)"
-        - "Regel 792: 'Artikel 2bis van het koninklijk besluit...' in body (geen heading, dus correct als plain text — false positive in vorige QA-ronde)"
+        - "Regels 128-129: '## TITEL II...' heading gebroken over twee regels door spurious linebreak"
+        - 'Regels 204-218: btw-codes-tabel met scrambled kolom-bleed NL/FR door elkaar — onbruikbaar als markdown-tabel'
+        - 'Regels 207-217: tabel-content versplinterd over meerdere regels met dubbele rijen NL+FR per code (A/B/C/D/X)'
 ---
 
 # M.B. van 29 april 2024, betreffende de technische aspecten ten aanzien van de certificatie van een geregistreerd kassasysteem

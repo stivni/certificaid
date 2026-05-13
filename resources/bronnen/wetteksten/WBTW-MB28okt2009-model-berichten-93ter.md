@@ -24,20 +24,21 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:41:24Z'
+    status: rejected
+    confirmed_at: '2026-05-13T12:45:54Z'
     confirmed_by: subagent-sonnet-4-6
-    rationale: "promote_wettekst_section_labels heeft 'Bijlage 1/2/3' correct gepromoot naar ## headings, maar de bijlagen blijven leeg (regels 71-75). Voor RAG levert dit drie nutteloze section-ankers zonder body op — duidelijk ETL-artefact dat een van-nul-auteur niet zou produceren. Daarnaast: dit MB is sinds 06.07.2020 opgeheven (regel 49 vermeldt het opheffings-KB van 22.06.2020). Geen kerncontent (de modelberichten zelf) — alleen 5 verwijzings-artikelen. ETL-fix nodig: strip_empty_trailing_headings, óf de bijlagen-content uit de PDF herextractieën. Bij twijfel → needs-rework."
+    rationale: "Source-rejection: de drie bijlagen (Bijlage 1/2/3, regels 72-76) bevatten de modelberichten 93ter/93quinquies + 433/435 — kerncontent van dit MB — en zijn in de bron-PDF afbeeldingen die niet door pdftotext geëxtraheerd kunnen worden. Wat overblijft (Art. 1-5) zijn verwijzings-artikelen ('De berichten worden opgemaakt overeenkomstig het model dat voorkomt in bijlage X') die zonder de bijlagen retrievaal-waarde nul hebben. Plus: dit MB is sinds 06.07.2020 opgeheven (regel 49). De hoofdtekst (Art. 1-5) is technisch schoon — geen ETL-issues — maar de inhoudelijke kern ontbreekt structureel door bron-beperkingen. ETL kan dit niet repareren; vereist OCR op de bijlagen-afbeeldingen of een tekstuele bronversie. Rejected met (source) rationale verkoosbaar boven needs-rework omdat het document fundamenteel onvolledig blijft."
     layer1:
     layer2:
-      status: needs-rework
+      status: rejected
       agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:24Z'
-      rationale: "promote_wettekst_section_labels heeft 'Bijlage 1/2/3' correct gepromoot naar ## headings, maar de bijlagen blijven leeg (regels 71-75). Voor RAG levert dit drie nutteloze section-ankers zonder body op — duidelijk ETL-artefact dat een van-nul-auteur niet zou produceren. Daarnaast: dit MB is sinds 06.07.2020 opgeheven (regel 49 vermeldt het opheffings-KB van 22.06.2020). Geen kerncontent (de modelberichten zelf) — alleen 5 verwijzings-artikelen. ETL-fix nodig: strip_empty_trailing_headings, óf de bijlagen-content uit de PDF herextractieën. Bij twijfel → needs-rework."
+      run_at: '2026-05-13T12:45:54Z'
+      rationale: "Source-rejection: de drie bijlagen (Bijlage 1/2/3, regels 72-76) bevatten de modelberichten 93ter/93quinquies + 433/435 — kerncontent van dit MB — en zijn in de bron-PDF afbeeldingen die niet door pdftotext geëxtraheerd kunnen worden. Wat overblijft (Art. 1-5) zijn verwijzings-artikelen ('De berichten worden opgemaakt overeenkomstig het model dat voorkomt in bijlage X') die zonder de bijlagen retrievaal-waarde nul hebben. Plus: dit MB is sinds 06.07.2020 opgeheven (regel 49). De hoofdtekst (Art. 1-5) is technisch schoon — geen ETL-issues — maar de inhoudelijke kern ontbreekt structureel door bron-beperkingen. ETL kan dit niet repareren; vereist OCR op de bijlagen-afbeeldingen of een tekstuele bronversie. Rejected met (source) rationale verkoosbaar boven needs-rework omdat het document fundamenteel onvolledig blijft."
       concrete_problemen:
-        - "Regels 71, 73, 75: '## Bijlage 1', '## Bijlage 2', '## Bijlage 3' zonder body — lege section-ankers"
-        - Kerncontent van het MB (modelberichten 93ter/93quinquies + 433/435) ontbreekt volledig
-        - MB sinds 06.07.2020 opgeheven (vermeld in regel 49); status 'beschikbaar' is technisch correct maar relevantie laag
+        - (source) Bijlagen 1, 2, 3 bevatten de modelberichten als afbeeldingen in de PDF — niet extraheerbaar zonder OCR
+        - "Regels 72, 74, 76: '## Bijlage 1/2/3' headings staan zonder body — lege section-ankers (ETL-artefact als compromise)"
+        - Hoofdtekst (Art. 1-5) is louter verwijzend en zonder bijlagen waardeloos voor retrieval
+        - (source) MB is sinds 06.07.2020 opgeheven (regel 50) — relevantie sowieso laag
 ---
 
 # M.B. van 28 oktober 2009, tot bepaling van het model der berichten en kennisgevingen als bedoeld in de artikelen 93ter en 93quinquies van het Wetboek van de belasting over de toegevoegde waarde en in de artikelen 433 en 435 van het Wetboek van de inkomstenbelastingen 1992

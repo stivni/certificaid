@@ -17,25 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5-dirty
+    pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:40:38Z'
+  generated_at: '2026-05-13T12:47:04Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-13T12:41:24Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: Substantieel verbeterd door merge_article_reference_wraps. Alle eerder gevlagde 'Art.\nN, KB ...' linewraps in amendment-headers (regels 103-104, 109-110, 119-120, 124-125 uit vorige QA) zijn nu correct als enkele regel weergegeven. Ook de 'artikel 58, § 4,\n4°' wrap is opgelost (nu inline op regel 77). De resterende 'KB nr. 53, artikel 1' op regel 124 (in Art. 12-context) is een source-typo en valt onder de (source)-uitzondering. De pseudo-tabel-streepjes in Art. 2/3 zijn legitieme bullet-lijsten, geen ETL-artefact.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:24Z'
-      rationale: Substantieel verbeterd door merge_article_reference_wraps. Alle eerder gevlagde 'Art.\nN, KB ...' linewraps in amendment-headers (regels 103-104, 109-110, 119-120, 124-125 uit vorige QA) zijn nu correct als enkele regel weergegeven. Ook de 'artikel 58, § 4,\n4°' wrap is opgelost (nu inline op regel 77). De resterende 'KB nr. 53, artikel 1' op regel 124 (in Art. 12-context) is een source-typo en valt onder de (source)-uitzondering. De pseudo-tabel-streepjes in Art. 2/3 zijn legitieme bullet-lijsten, geen ETL-artefact.
-      concrete_problemen:
-        - "Regel 124: 'KB nr. 53, artikel 1' in Art. 12-amendment-blok — source-typo (zou 'artikel 12' moeten zijn), valt onder (source)-uitzondering"
 ---
 
 # K.B. nr. 53 van 23 december 1994, met betrekking tot de bijzondere regeling van belastingheffing over de winstmarge voor gebruikte goederen, kunstvoorwerpen, voorwerpen voor verzamelingen en antiquiteiten

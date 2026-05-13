@@ -24,12 +24,23 @@ provenance:
   stale: false
   stale_reason:
   trust:
-    status: unreviewed
-    confirmed_at:
-    confirmed_by: default
-    rationale:
+    status: needs-rework
+    confirmed_at: '2026-05-13T12:47:21Z'
+    confirmed_by: subagent-sonnet-4-6
+    rationale: "Strip_french_bilingue_bleed heeft veel maar niet alle FR-tekst weggewerkt. Er resteren nog ~6 inline NL+2spaces+FR-bleeds (o.a. r.1145, 9893, 11855, 13697, 16867) waarbij de FR-vertaling van een NL-zin op dezelfde regel staat. Daarnaast bevat de header-sectie (r.39-66) volledige bilingue NL/FR-paren (titels, KB-citaten, INHOUDSTAFEL / TABLE DES MATIÈRES). Frans-trigger op patroon '/  ' geeft 3 hits — beperkt. Overall: niet ernstig genoeg om volledig blokkerend te zijn maar embeddings worden voor de getroffen artikelen wel verdund. Sterke punten: heading-hiërarchie OK, art.-nummering intact, frontmatter compleet, geen running headers/page-numbers. Aanbeveling: scraper-regex uitbreiden naar 'Aux fins du', 'Pour l\\'exécution du', 'Dans les cas' en bilingue header-block strippen vóór trusted."
     layer1:
     layer2:
+      status: needs-rework
+      agent: subagent-sonnet-4-6
+      run_at: '2026-05-13T12:47:21Z'
+      rationale: "Strip_french_bilingue_bleed heeft veel maar niet alle FR-tekst weggewerkt. Er resteren nog ~6 inline NL+2spaces+FR-bleeds (o.a. r.1145, 9893, 11855, 13697, 16867) waarbij de FR-vertaling van een NL-zin op dezelfde regel staat. Daarnaast bevat de header-sectie (r.39-66) volledige bilingue NL/FR-paren (titels, KB-citaten, INHOUDSTAFEL / TABLE DES MATIÈRES). Frans-trigger op patroon '/  ' geeft 3 hits — beperkt. Overall: niet ernstig genoeg om volledig blokkerend te zijn maar embeddings worden voor de getroffen artikelen wel verdund. Sterke punten: heading-hiërarchie OK, art.-nummering intact, frontmatter compleet, geen running headers/page-numbers. Aanbeveling: scraper-regex uitbreiden naar 'Aux fins du', 'Pour l\\'exécution du', 'Dans les cas' en bilingue header-block strippen vóór trusted."
+      concrete_problemen:
+        - "Bilingue header-blok r.39-66: 'WETBOEK DER REGISTRATIE...' direct gevolgd door 'CODE DES DROITS...', 'Federale wetgeving' / 'Législation Fédérale', INHOUDSTAFEL / TABLE DES MATIÈRES — niet door strip_french_bilingue_bleed afgevangen"
+        - "r.1145: '3° In de in artikelen 74 en 75 bedoelde gevallen.  3  Dans les cas visés aux articles 74 et 75.' — FR-zin niet gestript (marker 'Dans les' i.p.v. 'Dans le')"
+        - "r.9893: 'De Koning kan ter uitvoering van dit hoofdstuk:  Pour l\\'exécution du présent chapitre, le Roi peut déterminer :' — FR-bleed niet gestript"
+        - "r.11855 + r.13697: '§ 2. Voor de toepassing van dit artikel wordt verstaan onder:  § 2. Aux fins du présent article, on entend par :' — duplicaat-bleed"
+        - "r.16867: 'De vonnissen en arresten zijn vrij van expeditierecht.  Les jugements et arrêts sont exemptés du droit de greffe' — FR-bleed"
+        - "r.11863: '2° \"lidstaat\": een lidstaat van de Europese Unie;  2° « Etat membre » : un Etat membre de l\\'Union Européenne ;' — FR-bleed in opsomming"
 ---
 
 # Registratierechten — federaal

@@ -17,31 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5-dirty
+    pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:40:37Z'
+  generated_at: '2026-05-13T12:47:03Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:41:23Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Zware kolom-bleed door de hele bijlage (Tabellen A-J). Originele PDF heeft een 2-koloms structuur: links de overtredingsbeschrijving, rechts het percentage/boete. De extractie heeft kolomstrooien afwisselend gemerged, met als resultaat scrambled zinnen zoals 'A) belasting en voorschotten waarvan de per maand vertraging (1), een opeisbaarheid blijkt uit de maand- of percentage gelijk aan dat van kwartaalaangiften en belasting waarvan de de nalatigheidsinterest dat is opeisbaarheid blijkt uit de jaaraangiften bepaald in artikel 91, § 1, van het...' (regel 143). Dat is onbruikbaar voor retrieval en evident niet-mens-geschreven. Dit is veruit het zwaarste geval van de batch."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:23Z'
-      rationale: "Zware kolom-bleed door de hele bijlage (Tabellen A-J). Originele PDF heeft een 2-koloms structuur: links de overtredingsbeschrijving, rechts het percentage/boete. De extractie heeft kolomstrooien afwisselend gemerged, met als resultaat scrambled zinnen zoals 'A) belasting en voorschotten waarvan de per maand vertraging (1), een opeisbaarheid blijkt uit de maand- of percentage gelijk aan dat van kwartaalaangiften en belasting waarvan de de nalatigheidsinterest dat is opeisbaarheid blijkt uit de jaaraangiften bepaald in artikel 91, § 1, van het...' (regel 143). Dat is onbruikbaar voor retrieval en evident niet-mens-geschreven. Dit is veruit het zwaarste geval van de batch."
-      concrete_problemen:
-        - 'Kolom-bleed in heel TABEL A (regels 137-408): elke rij heeft beschrijving + tarief door elkaar gehusseld zonder pipe-syntax'
-        - "Voorbeeld scrambled regel 143-145: 'A) belasting en voorschotten waarvan de per maand vertraging (1), een opeisbaarheid blijkt uit de maand- of percentage gelijk aan dat van...'"
-        - 'Idem TABEL G (regels 487-700) en alle andere tabellen: zelfde 2-koloms scramble'
-        - TOC bovenaan (regels 95-127) lijst alle tabellen op met sub-afdelingen die later opnieuw verschijnen als '## Afdeling 1', '## Afdeling 2' - misleidende heading-hiërarchie
-        - "## Afdeling 1 verschijnt zonder body (regel 97) net na 'TABEL A:' titel - geen pipe-tabel maar enkel een rij met de tarief-cellen die als plain text doorlopen"
-        - Volledig ontbreken van pipe-tabel markdown; PDF-bullets zoals '- minder dan of gelijk aan 10.000 F nihil' (regel 168) zien er uit als list maar zijn eigenlijk tabel-rijen
-        - Vraagteken bij Art. 2 (regel 67) - alleen amendment-blok, geen body (oorspronkelijk opgeheven, OK)
 ---
 
 # K.B. nr. 41 van 30 januari 1987, tot vaststelling van het bedrag van de proportionele fiscale geldboeten op het stuk van de belasting over de toegevoegde waarde
@@ -131,7 +119,7 @@ TABEL J: Geldboeten voor overtredingen beoogd in artikel 71 van het wetboek
 
 ## Bijlage
 
-TABEL A
+## Tabel A
 
 GELDBOETEN VAN TOEPASSING VOOR DE OVERTREDINGEN
 BEOOGD IN ARTIKEL 70, § 1, VAN HET WETBOEK
@@ -401,7 +389,7 @@ C. De belastingplichtige heeft aanspraak gemaakt op de vrijstelling voor een gro
 
 1° heeft op het tijdstip van de controle de 3 pct. van de te regulariseren verplicht geworden regularisatie nog niet belasting uitgevoerd
 
-TABEL B
+## Tabel B
 
 GELDBOETEN VAN TOEPASSING VOOR DE OVERTREDINGEN
 BEOOGD IN ARTIKEL 70, § 1BIS, VAN HET WETBOEK
@@ -416,7 +404,7 @@ Het bedrag van de verkeerdelijk in aftrek gebrachte belasting voor een controlep
 
 - meer dan 50.000 F 10 pct. van de verkeerdelijk in aftrek gebrachte belasting
 
-TABEL C
+## Tabel C
 
 GELDBOETEN VAN TOEPASSING VOOR DE OVERTREDINGEN
 BEOOGD IN ARTIKEL 70, § 2, VAN HET WETBOEK
@@ -429,7 +417,7 @@ I. Niet-uitreiken van facturen of van als zodanig geldende stukken :
 
 II. Ontbreken van of onjuistheden in de vermeldingen aan te 100 pct. van de op de brengen op de facturen of op de als zodanig geldende handelingen verschuldigde bestukken lasting
 
-TABEL D
+## Tabel D
 
 GELDBOETEN VAN TOEPASSING VOOR DE OVERTREDINGEN
 BEOOGD IN ARTIKEL 70, § 3, VAN HET WETBOEK
@@ -452,7 +440,7 @@ Overtredingen van de verplichting de goederen aan te geven met naleving van de v
 
 7. Andere dan louter toevallige overtredingen met betrekking tot zie tabel A, VIII, 5 het uitvoeren van de bij invoer te vervullen formaliteiten, daaronder begrepen die ten aanzien van het vermelden van het registratienummer, doch met uitzondering van deze ten aanzien van de vermelding van de naam en het adres van degene op wiens naam de terzake van invoer verschuldigde belasting mag of moet worden voldaan
 
-TABEL E
+## Tabel E
 
 GELDBOETEN VAN TOEPASSING VOOR DE OVERTREDINGEN
 BEOOGD IN ARTIKEL 70, § 5, VAN HET WETBOEK
@@ -469,14 +457,14 @@ Het bedrag van het tekort in de maatstaf van heffing, in verhouding tot het bedr
 
 - groter dan 1/1 35 pct. van de verschuldigde belasting
 
-TABEL F
+## Tabel F
 
 GELDBOETEN VAN TOEPASSING VOOR DE OVERTREDINGEN
 BEOOGD IN ARTIKEL 71 VAN HET WETBOEK
 
 Vermelding op de bij uitvoer of tot staving ervan overgelegde 10 pct. van de overeenkomstig stukken, hetzij van een grotere hoeveelheid goederen dan de artikel 71 van het Wetboek werkelijk uitgevoerde hoeveelheid, hetzij van een hogere prijs of berekende belasting die waarde dan de werkelijke prijs of waarde van de uitgevoerde verschuldigd zou zijn geweest goederen, hetzij van de uitgevoerde goederen onder een valse benaming
 
-TABEL G
+## Tabel G
 
 GELDBOETEN VAN TOEPASSING VOOR DE OVERTREDINGEN
 BEOOGD IN ARTIKEL 70, § 1, VAN HET WETBOEK
@@ -691,7 +679,7 @@ C) De goederen worden niet uitgevoerd binnen de in de vergunning bepaalde termij
 
 XV. Overtredingen begaan bij de toepassing van artikel 39quater 10 pct. van de verschuldigde van het Wetboek belasting.
 
-TABEL H
+## Tabel H
 
 GELDBOETEN VAN TOEPASSING VOOR DE OVERTREDINGEN
 BEOOGD IN ARTIKEL 70, § 1bis, VAN HET WETBOEK
@@ -704,7 +692,7 @@ Het bedrag van de verkeerdelijk in aftrek gebrachte belasting voor een controlep
 
 - meer dan 1.250 EUR 10 pct. van de verkeerdelijk in aftrek gebrachte belasting
 
-TABEL I
+## Tabel I
 
 GELDBOETEN VAN TOEPASSING VOOR DE OVERTREDINGEN
 BEOOGD IN ARTIKEL 70, § 3, VAN HET WETBOEK
@@ -732,7 +720,7 @@ B) Andere overtredingen 50 pct. van de op de handeling verschuldigde belasting z
 (13) Indien de controleperiode korter of langer is dan één jaar wordt het bedrag van 1.250 EUR proportioneel verminderd of verhoogd.
 (14) Moet onder "louter toevallige overtredingen" worden verstaan, de onregelmatigheden die te wijten zijn aan onwetendheid, vergissingen of nalatigheid en waarbij aan de goede trouw van de overtreder niet kan worden getwijfeld.
 
-TABEL J
+## Tabel J
 
 GELDBOETEN VAN TOEPASSING VOOR DE OVERTREDINGEN
 BEOOGD IN ARTIKEL 71 VAN HET WETBOEK

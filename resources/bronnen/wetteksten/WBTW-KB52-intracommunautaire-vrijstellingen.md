@@ -17,28 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5-dirty
+    pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:40:38Z'
+  generated_at: '2026-05-13T12:47:04Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-13T12:41:24Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Hoofdtekst is schoon: alle ## HOOFDSTUK 1/2/3 hebben consistente ### Art. N children, alle 8 artikelen aanwezig. Resterende issues zijn klein: (1) leading whitespace voor hoofdstuk-subtitels (regels 59, 109, 118) is een visuele indentation-artefact maar tast retrieval niet aan; (2) regel 80 split een opsomming midden in zin ('...documenten waarvan de inhoud niet strijdig is met die van de documenten bedoeld in artikel 2: - een bestemmingsdocument...') — onnatuurlijk maar leesbaar; (3) mid-zin breaks regel 74-76 ('omvatten onder meer de\\n\\nvervoerdocumenten') zijn PDF-pagina-overgangen. Frontmatter en body B.S.-datum '23.12.2009' bij KB van 2019 lijkt source-typo (waarschijnlijk 23.12.2019). Body/content-ratio hoog, structuur consistent. Marginaal trusted — alle 4 punten zijn cosmetisch."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:24Z'
-      rationale: "Hoofdtekst is schoon: alle ## HOOFDSTUK 1/2/3 hebben consistente ### Art. N children, alle 8 artikelen aanwezig. Resterende issues zijn klein: (1) leading whitespace voor hoofdstuk-subtitels (regels 59, 109, 118) is een visuele indentation-artefact maar tast retrieval niet aan; (2) regel 80 split een opsomming midden in zin ('...documenten waarvan de inhoud niet strijdig is met die van de documenten bedoeld in artikel 2: - een bestemmingsdocument...') — onnatuurlijk maar leesbaar; (3) mid-zin breaks regel 74-76 ('omvatten onder meer de\\n\\nvervoerdocumenten') zijn PDF-pagina-overgangen. Frontmatter en body B.S.-datum '23.12.2009' bij KB van 2019 lijkt source-typo (waarschijnlijk 23.12.2019). Body/content-ratio hoog, structuur consistent. Marginaal trusted — alle 4 punten zijn cosmetisch."
-      concrete_problemen:
-        - 'Regels 59, 109, 118: leading double-space voor hoofdstuk-subtitel (pdftotext-indentation)'
-        - "Regels 80-81: '- een bestemmingsdocument...' opsomming midden in lopende zin"
-        - 'Regels 74-76, 95-97: mid-zin breaks (PDF-pagina-overgangen)'
-        - Body B.S.-datum '23.12.2009' bij KB van 11.12.2019 — vermoedelijk source-typo (categorie source)
 ---
 
 # K.B. nr. 52 van 11 december 2019, met betrekking tot de bewijsregeling inzake de vrijstellingen betreffende de intracommunautaire leveringen van goederen en de ermee gelijkgestelde handelingen en met betrekking tot de vrijstelling van intracommunautaire verwervingen van goederen en de ermee gelijkgestelde handelingen, op het stuk van de belasting over de toegevoegde waarde
@@ -111,7 +102,7 @@ De bepalingen opgenomen in afdeling 2 van hoofdstuk IV van het koninklijk beslui
 
 ## HOOFDSTUK 3
 
-Slotbepalingen
+## Slotbepalingen
 
 ### Art. 6
 (De tekst van KB nr. 52 (2019), artikel 6, is van toepassing met ingang van 01.01.2020 (KB 11.12.2019, B.S. 23.12.2009, pg. 116148))

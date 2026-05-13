@@ -22,7 +22,17 @@ import re
 # - "Enig artikel" (case-insensitive)
 # - "Bijlage" optioneel met nummer (1/2/3/N1/N2/I/II/...) — exact-match alleen.
 _LABEL_PATTERN = re.compile(
-    r"^(?P<label>(?:Enig\s+artikel|Bijlage(?:\s+(?:\d+|[IVX]+|N\d+))?))\s*$",
+    r"^(?P<label>"
+    r"Enig\s+artikel"
+    r"|Bijlage(?:\s+(?:\d+|[IVX]+|N\d+))?"
+    r"|TABEL\s+[A-Z]"
+    r"|GOEDEREN(?:\s+AAN\s+\S+)?"
+    r"|DIENSTEN(?:\s+AAN\s+\S+)?"
+    r"|Tijdelijke\s+bepalingen?"
+    r"|Slotbepalingen?"
+    r"|Overgangsbepalingen?"
+    r"|Inwerkingtreding"
+    r")\s*$",
     re.I,
 )
 
@@ -47,6 +57,13 @@ def promote_wettekst_section_labels(body: str, frontmatter: dict) -> tuple[str, 
                     # Preserve volume-suffix maar capitalize 'Bijlage'
                     rest = label[len("Bijlage"):].strip()
                     label = "Bijlage" + (" " + rest if rest else "")
+                elif label.lower().startswith("tabel"):
+                    # 'TABEL A' / 'tabel a' → 'Tabel A'
+                    suffix = label[len("tabel"):].strip().upper()
+                    label = f"Tabel {suffix}"
+                elif label.upper() in ("GOEDEREN", "DIENSTEN"):
+                    # ALL-CAPS structuurlabel — behoud caps stijl
+                    label = label.strip()
                 out.append(f"## {label}")
                 continue
         out.append(line)

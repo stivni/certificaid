@@ -17,24 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5-dirty
+    pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:40:36Z'
+  generated_at: '2026-05-13T12:47:02Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-13T12:41:24Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Compact (4 art). Heldere H1 + ## Art. structuur. Lijstmarkers 1°-3° (met '2° ...' als bewust schrappingsmarker in Art. 2) consistent. Geen footers, geen TOC, geen leftover-appendix."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:24Z'
-      rationale: "Compact (4 art). Heldere H1 + ## Art. structuur. Lijstmarkers 1°-3° (met '2° ...' als bewust schrappingsmarker in Art. 2) consistent. Geen footers, geen TOC, geen leftover-appendix."
-      concrete_problemen: []
 ---
 
 # K.B. nr. 8 van 12 maart 1970, tot vaststelling van de wijze van afronding van de verschuldigde, de aftrekbare of de voor teruggaaf vatbare belasting over de toegevoegde waarde

@@ -17,25 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5-dirty
+    pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:40:38Z'
+  generated_at: '2026-05-13T12:47:03Z'
   stale: false
   stale_reason:
   trust:
-    status: trusted
-    confirmed_at: '2026-05-13T12:41:24Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: 9 art met wijzigingsblokken. Tekst is volledig, lijstmarkers consistent. Spelling 'accijnsprodukten' is source-original (oude spelling) — onder '(source)'-uitzondering OK. Geen footers, geen TOC, geen scrambled volgorde.
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
     layer2:
-      status: trusted
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:24Z'
-      rationale: 9 art met wijzigingsblokken. Tekst is volledig, lijstmarkers consistent. Spelling 'accijnsprodukten' is source-original (oude spelling) — onder '(source)'-uitzondering OK. Geen footers, geen TOC, geen scrambled volgorde.
-      concrete_problemen:
-        - Oude spelling 'accijnsprodukten' (source-original, geen ETL-fout)
 ---
 
 # K.B. nr. 51 van 14 april 1993, met betrekking tot de vereenvoudigingsregeling voor intracommunautaire verwerving van accijnsprodukten op het stuk van de belasting over de toegevoegde waarde

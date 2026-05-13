@@ -17,28 +17,19 @@ provenance:
       version: 06.03.2020
   tooling:
     pipeline: tools/etl/convert.py
-    pipeline_version: 68215a5-dirty
+    pipeline_version: 7b2b73e
     model:
     prompt_version:
-  generated_at: '2026-05-13T12:40:36Z'
+  generated_at: '2026-05-13T12:47:02Z'
   stale: false
   stale_reason:
   trust:
-    status: needs-rework
-    confirmed_at: '2026-05-13T12:41:24Z'
-    confirmed_by: subagent-sonnet-4-6
-    rationale: "Structuur OK maar meerdere problemen blijven. Regel 73: 'belasting over de toegevoegde waaronder hij ressorteert' — afgekapte zin, ontbrekend 'waarde' (source-typo of ETL?). Regel 98-99: 'koninklijk besluit nr.\\n4,' — spurious linebreak in referentie. Regel 120-121: 'artikel 51, § 2, eerste lid,\\n1°,' — spurious linebreak in artikel-referentie. Pattern komt herhaaldelijk voor; merge_article_reference_wraps heeft deze niet gevangen."
+    status: unreviewed
+    confirmed_at:
+    confirmed_by: default
+    rationale:
     layer1:
     layer2:
-      status: needs-rework
-      agent: subagent-sonnet-4-6
-      run_at: '2026-05-13T12:41:24Z'
-      rationale: "Structuur OK maar meerdere problemen blijven. Regel 73: 'belasting over de toegevoegde waaronder hij ressorteert' — afgekapte zin, ontbrekend 'waarde' (source-typo of ETL?). Regel 98-99: 'koninklijk besluit nr.\\n4,' — spurious linebreak in referentie. Regel 120-121: 'artikel 51, § 2, eerste lid,\\n1°,' — spurious linebreak in artikel-referentie. Pattern komt herhaaldelijk voor; merge_article_reference_wraps heeft deze niet gevangen."
-      concrete_problemen:
-        - "Regel 73: 'belasting over de toegevoegde waaronder' — ontbrekend 'waarde' (afgekapte zin)"
-        - "Regel 98-99: 'koninklijk besluit nr.\\n4,' — spurious linebreak in referentie"
-        - "Regel 120-121: 'artikel 51, § 2, eerste lid,\\n1°,' — spurious linebreak in artikel-referentie"
-        - "Regel 83-85: 'op papier of in elektronisch\\n\\nformaat' — mid-zin break met dubbele witregel"
 ---
 
 # K.B. nr. 10 van 29 december 1992, met betrekking tot de uitoefeningsmodaliteiten van de keuzen, bedoeld in de artikelen 15, § 2, derde lid, 21bis, § 2, 9°, vierde lid, 25ter, § 1, tweede lid, 2°, tweede lid en 44, § 3, 2°, d), van het Wetboek van de belasting over de toegevoegde waarde, de aangiften van aanvang, wijziging, stopzetting van activiteit en de voorafgaande kennisgevingen inzake de belasting over de toegevoegde waarde
